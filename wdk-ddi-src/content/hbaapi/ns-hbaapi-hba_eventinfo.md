@@ -52,21 +52,6 @@ req.typenames: HBA_EVENTINFO, *PHBA_EVENTINFO
 The HBA_EventInfo structure contains information about an event of the indicated type.
 
 
-## -syntax
-
-
-````
-typedef struct HBA_EventInfo {
-  HBA_UINT32 EventCode;
-  union {
-    HBA_LINK_EVENTINFO Link_EventInfo;
-    HBA_RSCN_EVENTINFO RSCN_EventInfo;
-    HBA_PTY_EVENTINFO  Pty_EventInfo;
-  } Event;
-} HBA_EVENTINFO, *PHBA_EVENTINFO;
-````
-
-
 ## -struct-fields
 
 
@@ -151,35 +136,35 @@ A proprietary event occurred.
 
 #### Link_EventInfo
 
-Contains a structure of type <a href="..\hbaapi\ns-hbaapi-hba_link_eventinfo.md">HBA_Link_EventInfo</a> that holds information associated with a link event. 
+Contains a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff556124">HBA_Link_EventInfo</a> that holds information associated with a link event. 
 
 
 
 #### RSCN_EventInfo
 
-Contains a structure of type <a href="..\hbaapi\ns-hbaapi-hba_rscn_eventinfo.md">HBA_RSCN_EventInfo</a> that holds information associated with a link event.
+Contains a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff557188">HBA_RSCN_EventInfo</a> that holds information associated with a link event.
 
 
 
 #### Pty_EventInfo
 
-Contains a structure of type <a href="..\hbaapi\ns-hbaapi-hba_pty_eventinfo.md">HBA_Pty_EventInfo</a> that holds information associated with a link event.
+Contains a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff557125">HBA_Pty_EventInfo</a> that holds information associated with a link event.
 
 
 ## -see-also
 
-<a href="..\hbaapi\ns-hbaapi-hba_link_eventinfo.md">HBA_Link_EventInfo</a>
 
 
 
-<a href="..\hbaapi\ns-hbaapi-hba_pty_eventinfo.md">HBA_Pty_EventInfo</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556124">HBA_Link_EventInfo</a>
 
 
 
-<a href="..\hbaapi\ns-hbaapi-hba_rscn_eventinfo.md">HBA_RSCN_EventInfo</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557125">HBA_Pty_EventInfo</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557188">HBA_RSCN_EventInfo</a>
  
 
  

@@ -52,17 +52,6 @@ req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
 The following new function is called to determine whether a specific multi-plane overlay configuration is supported. 
 
 
-## -prototype
-
-
-````
-NTSTATUS APIENTRY DXGKDDI_CHECKMULTIPLANEOVERLAYSUPPORT3(
-  _In_    const HANDLE                                   hAdapter,
-  _Inout_       PDXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT3  pCheckSupport
-);
-````
-
-
 ## -parameters
 
 

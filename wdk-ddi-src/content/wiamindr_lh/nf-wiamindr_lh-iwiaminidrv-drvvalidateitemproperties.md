@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: wiamindr_lh.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,20 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>IWiaMiniDrv::drvValidateItemProperties</b> method validates an item's properties against the set of valid values for each property and will update those properties if necessary.
-
-
-## -syntax
-
-
-````
-HRESULT drvValidateItemProperties(
-  [in]        BYTE     *pWiasContext,
-  [in]        LONG     lFlags,
-  [in]        ULONG    nPropSpec,
-  [in]  const PROPSPEC *pPropSpec,
-  [out]       LONG     *plDevErrVal
-);
-````
 
 
 ## -parameters
@@ -137,11 +123,10 @@ The value pointed to by <i>plDevErrVal</i> can be converted to a string by calli
 
 ## -see-also
 
-<a href="..\wiamdef\nf-wiamdef-wiasvalidateitemproperties.md">wiasValidateItemProperties</a>
 
 
 
-<a href="..\wiamdef\nf-wiamdef-wiasgetitemtype.md">wiasGetItemType</a>
+<a href="https://msdn.microsoft.com/15068d10-5e24-427c-9684-24ce67b75ada">IWiaMiniDrv</a>
 
 
 
@@ -149,10 +134,11 @@ The value pointed to by <i>plDevErrVal</i> can be converted to a string by calli
 
 
 
-<a href="..\wiamindr_lh\nn-wiamindr_lh-iwiaminidrv.md">IWiaMiniDrv</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549255">wiasGetItemType</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549454">wiasValidateItemProperties</a>
  
 
  

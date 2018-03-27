@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -52,16 +52,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 The <b>RemoveSyntheticSymbol</b> method removes a synthetic symbol from a module in the current process.
 
 
-## -syntax
-
-
-````
-HRESULT RemoveSyntheticSymbol(
-  [in] PDEBUG_MODULE_AND_ID Id
-);
-````
-
-
 ## -parameters
 
 
@@ -69,7 +59,7 @@ HRESULT RemoveSyntheticSymbol(
 
 ### -param Id [in]
 
-Specifies the synthetic symbol to remove.  This must be the same value returned in the <i>Id</i> parameter of <a href="https://msdn.microsoft.com/library/windows/hardware/ff537943">AddSyntheticSymbol</a>.  See <a href="..\dbgeng\ns-dbgeng-_debug_module_and_id.md">DEBUG_MODULE_AND_ID</a> for details about the type of this parameter.
+Specifies the synthetic symbol to remove.  This must be the same value returned in the <i>Id</i> parameter of <a href="https://msdn.microsoft.com/library/windows/hardware/ff537943">AddSyntheticSymbol</a>.  See <a href="https://msdn.microsoft.com/library/windows/hardware/ff541511">DEBUG_MODULE_AND_ID</a> for details about the type of this parameter.
 
 
 ## -returns
@@ -124,7 +114,6 @@ For more information about synthetic symbols, see Synthetic Symbols.
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
 
 
@@ -132,10 +121,11 @@ For more information about synthetic symbols, see Synthetic Symbols.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550870">IDebugSymbols3</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554536">RemoveSyntheticModule</a>
-
-
-
  
 
  

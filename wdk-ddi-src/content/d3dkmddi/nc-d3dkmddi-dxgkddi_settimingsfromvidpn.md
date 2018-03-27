@@ -52,17 +52,6 @@ req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
 DXGKDDI_SETTIMINGSFROMVIDPN is called to set or modify the display timings on an adapter. This DDI replaces DxgkDdiCommitVidPn.
 
 
-## -prototype
-
-
-````
-NTSTATUS APIENTRY DXGKDDI_SETTIMINGSFROMVIDPN(
-  _In_    const HANDLE                             hAdapter,
-  _Inout_       PDXGKARG_SETTIMINGSFROMVIDPN_CONST pSetTimings
-);
-````
-
-
 ## -parameters
 
 
@@ -75,7 +64,7 @@ Identifies the adapter upon which the display timings should be set.
 
 ### -param pSetTimings [in, out]
 
-A pointer to a <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_settimingsfromvidpn.md">DXGKARG_SETTIMINGSFROMVIDPN</a> structure that describes the display timings to be set.
+A pointer to a <a href="https://msdn.microsoft.com/14D652C4-9812-481E-8E69-A6D7923F01A3">DXGKARG_SETTIMINGSFROMVIDPN</a> structure that describes the display timings to be set.
 
 
 ## -returns

@@ -52,24 +52,6 @@ req.typenames: RILCALLDISCONNECTDETAILS, *LPRILCALLDISCONNECTDETAILS
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef struct _RILCALLDISCONNECTDETAILS {
-  RILCALLDISCONNECTDETAILSDISCONNECTGROUP  dwDisconnectGroup;
-  NULL                                     RILCAUSEUNION;
-  RILCAUSEUNION                            causeUnion;
-  RILGPPCAUSE                              unGPPCause;
-  RILGPPREJECTCAUSE                        unGPPRejectCause;
-  RILGPP2CAUSE                             unGPP2Cause;
-  RILIMSSIPCAUSE                           unIMSSIPCause;
-  RILCALLDISCONNECTDETAILSASCODE           dwASCode;
-  DWORD                                    dwOtherCode;
-} RILCALLDISCONNECTDETAILS, RILCALLDISCONNECTDETAILS;
-````
-
-
 ## -struct-fields
 
 

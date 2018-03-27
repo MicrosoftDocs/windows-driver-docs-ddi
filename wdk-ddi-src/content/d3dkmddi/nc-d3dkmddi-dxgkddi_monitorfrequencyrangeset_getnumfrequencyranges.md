@@ -52,20 +52,6 @@ req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
 The <b>pfnGetNumFrequencyRanges</b> returns the number of frequency range descriptors in a specified monitor frequency range set object.
 
 
-## -prototype
-
-
-````
-DXGKDDI_MONITORFREQUENCYRANGESET_GETNUMFREQUENCYRANGES pfnGetNumFrequencyRanges;
-
-NTSTATUS APIENTRY pfnGetNumFrequencyRanges(
-  _In_  const D3DKMDT_HMONITORFREQUENCYRANGESET hMonitorFrequencyRangeSet,
-  _Out_       SIZE_T CONST                      *pNumMonitorFrequencyRanges
-)
-{ ... }
-````
-
-
 ## -parameters
 
 

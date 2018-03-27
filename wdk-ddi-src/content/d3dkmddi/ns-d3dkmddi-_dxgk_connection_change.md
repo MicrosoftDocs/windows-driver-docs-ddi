@@ -52,32 +52,6 @@ req.typenames: DXGK_CONNECTION_CHANGE, *PDXGK_CONNECTION_CHANGE
 Structure to describe the most recently updated status of the link for a target.
 
 
-## -syntax
-
-
-````
-typedef struct _DXGK_CONNECTION_CHANGE {
-  ULONGLONG                      ConnectionChangeId  :24;
-  D3DDDI_VIDEO_PRESENT_TARGET_ID TargetId  :4;
-  DXGK_CONNECTION_STATUS         ConnectionStatus  :4;
-  ULONG                          Reserved;
-  union {
-    struct {
-      D3DKMDT_VIDEO_OUTPUT_TECHNOLOGY MonitorConnect.LinkTargetType;
-    } MonitorConnect;
-    struct {
-      D3DKMDT_VIDEO_OUTPUT_TECHNOLOGY TargetConnect.BaseTargetType;
-      D3DDDI_VIDEO_PRESENT_TARGET_ID  TargetConnect.NewTargetId;
-    } TargetConnect;
-    struct {
-      D3DKMDT_VIDEO_OUTPUT_TECHNOLOGY TargetJoin.BaseTargetType;
-      D3DDDI_VIDEO_PRESENT_TARGET_ID  TargetJoin.NewTargetId;
-    } TargetJoin;
-  };
-} DXGK_CONNECTION_CHANGE, *PDXGK_CONNECTION_CHANGE;
-````
-
-
 ## -struct-fields
 
 

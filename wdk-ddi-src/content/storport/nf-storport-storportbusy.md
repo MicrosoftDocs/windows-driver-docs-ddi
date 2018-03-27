@@ -54,17 +54,6 @@ req.product: Windows 10 or later.
 The <b>StorPortBusy</b> routine notifies the port driver that the adapter is currently busy, handling outstanding requests. 
 
 
-## -syntax
-
-
-````
-STORPORT_API BOOLEAN StorPortBusy(
-  _In_ PVOID HwDeviceExtension,
-  _In_ ULONG RequestsToComplete
-);
-````
-
-
 ## -parameters
 
 
@@ -72,7 +61,7 @@ STORPORT_API BOOLEAN StorPortBusy(
 
 ### -param HwDeviceExtension [in]
 
-A pointer to the hardware device extension. This is a per HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the mapped access ranges for the HBA. This area is available to the miniport driver immediately after the miniport driver calls <a href="..\storport\nf-storport-storportinitialize.md">StorPortInitialize</a>. The port driver frees this memory when it removes the device. 
+A pointer to the hardware device extension. This is a per HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the mapped access ranges for the HBA. This area is available to the miniport driver immediately after the miniport driver calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff567108">StorPortInitialize</a>. The port driver frees this memory when it removes the device. 
 
 
 ### -param RequestsToComplete [in]
@@ -102,10 +91,10 @@ The library of support routines provided by the SCSI Port driver does not includ
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportready.md">StorPortReady</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567489">StorPortReady</a>
  
 
  

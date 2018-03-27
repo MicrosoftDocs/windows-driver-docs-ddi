@@ -49,25 +49,7 @@ req.typenames: DVD_COPY_PROTECT_KEY, *PDVD_COPY_PROTECT_KEY
 ## -description
 
 
-The <b>DVD_COPY_PROTECT_KEY</b> structure is used in conjunction with the <a href="..\ntddcdvd\ni-ntddcdvd-ioctl_dvd_read_key.md">IOCTL_DVD_READ_KEY</a> request to execute a report key command of the specified type. 
-
-
-## -syntax
-
-
-````
-typedef struct _DVD_COPY_PROTECT_KEY {
-  ULONG          KeyLength;
-  DVD_SESSION_ID SessionId;
-  DVD_KEY_TYPE   KeyType;
-  ULONG          KeyFlags;
-  union {
-    HANDLE        FileHandle;
-    LARGE_INTEGER TitleOffset;
-  } Parameters;
-  UCHAR          KeyData[];
-} DVD_COPY_PROTECT_KEY, *PDVD_COPY_PROTECT_KEY;
-````
+The <b>DVD_COPY_PROTECT_KEY</b> structure is used in conjunction with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560425">IOCTL_DVD_READ_KEY</a> request to execute a report key command of the specified type. 
 
 
 ## -struct-fields
@@ -125,14 +107,14 @@ Contains the key data that was returned.
 
 ## -see-also
 
-<a href="..\ntddcdvd\ni-ntddcdvd-ioctl_dvd_read_key.md">IOCTL_DVD_READ_KEY</a>
 
 
 
-<a href="..\ntddcdvd\ne-ntddcdvd-dvd_key_type.md">DVD_KEY_TYPE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553731">DVD_KEY_TYPE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560425">IOCTL_DVD_READ_KEY</a>
  
 
  

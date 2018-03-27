@@ -58,16 +58,6 @@ req.product: Windows 10 or later.
 The <b>WdfUsbTargetPipeGetType</b> method returns the type of a specified USB pipe.
 
 
-## -syntax
-
-
-````
-WDF_USB_PIPE_TYPE WdfUsbTargetPipeGetType(
-  _In_ WDFUSBPIPE Pipe
-);
-````
-
-
 ## -parameters
 
 
@@ -75,14 +65,14 @@ WDF_USB_PIPE_TYPE WdfUsbTargetPipeGetType(
 
 ### -param Pipe [in]
 
-A handle to a framework pipe object that was obtained by calling <a href="..\wdfusb\nf-wdfusb-wdfusbinterfacegetconfiguredpipe.md">WdfUsbInterfaceGetConfiguredPipe</a>. 
+A handle to a framework pipe object that was obtained by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff550057">WdfUsbInterfaceGetConfiguredPipe</a>. 
 
 
 ## -returns
 
 
 
-<b>WdfUsbTargetPipeGetType</b> returns a <a href="..\wdfusb\ne-wdfusb-_wdf_usb_pipe_type.md">WDF_USB_PIPE_TYPE</a>-typed value that identifies the specified pipe's type. 
+<b>WdfUsbTargetPipeGetType</b> returns a <a href="https://msdn.microsoft.com/library/windows/hardware/ff553047">WDF_USB_PIPE_TYPE</a>-typed value that identifies the specified pipe's type. 
 
 A bug check occurs if the driver supplies an invalid object handle.
 
@@ -120,14 +110,14 @@ usbPipeType = WdfUsbTargetPipeGetType(usbPipe);
 
 ## -see-also
 
-<a href="..\wdfusb\ne-wdfusb-_wdf_usb_pipe_type.md">WDF_USB_PIPE_TYPE</a>
 
 
 
-<a href="..\wdfusb\nf-wdfusb-wdfusbinterfacegetconfiguredpipe.md">WdfUsbInterfaceGetConfiguredPipe</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553047">WDF_USB_PIPE_TYPE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550057">WdfUsbInterfaceGetConfiguredPipe</a>
  
 
  

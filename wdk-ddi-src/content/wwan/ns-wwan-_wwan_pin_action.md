@@ -54,19 +54,6 @@ The WWAN_PIN_ACTION structure represents actions to perform with a Personal Iden
   (PIN).
 
 
-## -syntax
-
-
-````
-typedef struct _WWAN_PIN_ACTION {
-  WWAN_PIN_TYPE      PinType;
-  WWAN_PIN_OPERATION PinOperation;
-  WCHAR              Pin[WWAN_PIN_LEN];
-  WCHAR              NewPin[WWAN_PIN_LEN];
-} WWAN_PIN_ACTION, *PWWAN_PIN_ACTION;
-````
-
-
 ## -struct-fields
 
 
@@ -120,18 +107,18 @@ When
 
 ## -see-also
 
-<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_set_pin.md">NDIS_WWAN_SET_PIN</a>
 
 
 
-<a href="..\wwan\ne-wwan-_wwan_pin_type.md">WWAN_PIN_TYPE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567922">NDIS_WWAN_SET_PIN</a>
 
 
 
-<a href="..\wwan\ne-wwan-_wwan_pin_operation.md">WWAN_PIN_OPERATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571219">WWAN_PIN_OPERATION</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571221">WWAN_PIN_TYPE</a>
  
 
  

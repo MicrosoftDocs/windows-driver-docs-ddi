@@ -55,16 +55,6 @@ req.typenames: D3DKMT_DRIVERVERSION
 The <b>D3DKMTReleaseKeyedMutex</b> function releases a keyed mutex object.
 
 
-## -syntax
-
-
-````
-NTSTATUS APIENTRY D3DKMTReleaseKeyedMutex(
-  _Inout_ D3DKMT_RELEASEKEYEDMUTEX *pData
-);
-````
-
-
 ## -parameters
 
 
@@ -74,7 +64,7 @@ NTSTATUS APIENTRY D3DKMTReleaseKeyedMutex(
 
 #### - pData [in, out]
 
-A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_releasekeyedmutex.md">D3DKMT_RELEASEKEYEDMUTEX</a> structure that specifies the keyed mutex object to release. 
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff548234">D3DKMT_RELEASEKEYEDMUTEX</a> structure that specifies the keyed mutex object to release. 
 
 
 ## -returns
@@ -129,7 +119,7 @@ Parameters were validated and determined to be incorrect.
 </td>
 <td width="60%">
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtreleasekeyedmutex.md">D3DKMTReleaseKeyedMutex</a> could not complete because of insufficient memory.
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547129">D3DKMTReleaseKeyedMutex</a> could not complete because of insufficient memory.
 
 </td>
 </tr>
@@ -143,10 +133,10 @@ This function might also return other NTSTATUS values.
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_releasekeyedmutex.md">D3DKMT_RELEASEKEYEDMUTEX</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548234">D3DKMT_RELEASEKEYEDMUTEX</a>
  
 
  

@@ -52,20 +52,6 @@ req.typenames: D3DKMT_WAITFORVERTICALBLANKEVENT2
 Describes parameters for multiple wait objects, including a vertical blank event. Supported starting with Windows 8.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DKMT_WAITFORVERTICALBLANKEVENT2 {
-  D3DKMT_HANDLE                  hAdapter;
-  D3DKMT_HANDLE                  hDevice;
-  D3DDDI_VIDEO_PRESENT_SOURCE_ID VidPnSourceId;
-  UINT                           NumObjects;
-  HANDLE                         ObjectHandleArray[D3DKMT_MAX_WAITFORVERTICALBLANK_OBJECTS];
-} D3DKMT_WAITFORVERTICALBLANKEVENT2;
-````
-
-
 ## -struct-fields
 
 

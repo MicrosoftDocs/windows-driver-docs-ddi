@@ -52,18 +52,6 @@ req.typenames: PDO_CAPS
 This enumeration describes the capabilities of Physical Device Objects (PDOs).
 
 
-## -syntax
-
-
-````
-typedef enum _PDO_CAPS { 
-  PDO_CAPABILITY_UNDEFINED     = 0,
-  PDO_CAPABILITY_INC512_SET    = 1,
-  PDO_CAPABILITY_INC512_CLEAR  = 2
-} PDO_CAPS;
-````
-
-
 ## -enum-fields
 
 

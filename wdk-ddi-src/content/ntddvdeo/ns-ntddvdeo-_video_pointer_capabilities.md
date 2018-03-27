@@ -52,20 +52,6 @@ req.typenames: VIDEO_POINTER_CAPABILITIES, *PVIDEO_POINTER_CAPABILITIES
 The <b>VIDEO_POINTER_CAPABILITIES</b> structure contains capabilities of the screen pointer.
 
 
-## -syntax
-
-
-````
-typedef struct _VIDEO_POINTER_CAPABILITIES {
-  ULONG Flags;
-  ULONG MaxWidth;
-  ULONG MaxHeight;
-  ULONG HWPtrBitmapStart;
-  ULONG HWPtrBitmapEnd;
-} VIDEO_POINTER_CAPABILITIES, *PVIDEO_POINTER_CAPABILITIES;
-````
-
-
 ## -struct-fields
 
 

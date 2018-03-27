@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -54,19 +54,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 The <b>GetScope</b> method returns information about the current scope.
 
 
-## -syntax
-
-
-````
-HRESULT GetScope(
-  [out, optional] PULONG64           InstructionOffset,
-  [out, optional] PDEBUG_STACK_FRAME ScopeFrame,
-  [out, optional] PVOID              ScopeContext,
-  [in]            ULONG              ScopeContextSize
-);
-````
-
-
 ## -parameters
 
 
@@ -79,7 +66,7 @@ Receives the location in the process's virtual address space of the current scop
 
 ### -param ScopeFrame [out, optional]
 
-Receives the <a href="..\dbgeng\ns-dbgeng-_debug_stack_frame.md">DEBUG_STACK_FRAME</a> structure representing the current scope's stack frame.
+Receives the <a href="https://msdn.microsoft.com/library/windows/hardware/ff541643">DEBUG_STACK_FRAME</a> structure representing the current scope's stack frame.
 
 
 ### -param ScopeContext [out, optional]
@@ -142,19 +129,22 @@ For more information about scopes, see <a href="https://msdn.microsoft.com/libra
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/66a5aa3d-fe35-4c30-951f-f25de75dacb0">IDebugControl::GetEffectiveProcessorType</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550856">IDebugSymbols</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550864">IDebugSymbols2</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550870">IDebugSymbols3</a>
 
 
 
@@ -163,9 +153,6 @@ For more information about scopes, see <a href="https://msdn.microsoft.com/libra
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556773">SetScope</a>
-
-
-
  
 
  

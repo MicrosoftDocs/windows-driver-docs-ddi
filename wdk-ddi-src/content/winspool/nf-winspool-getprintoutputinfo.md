@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,19 +51,6 @@ req.product: Windows 10 or later.
 
 
 
-
-
-## -syntax
-
-
-````
-HRESULT WINAPI GetPrintOutputInfo(
-  _In_  HWND    hWnd,
-  _In_  PCWSTR  pszPrinter,
-  _Out_ HANDLE  *phFile,
-  _Out_ PWSTR   *ppszOutputFile
-);
-````
 
 
 ## -parameters

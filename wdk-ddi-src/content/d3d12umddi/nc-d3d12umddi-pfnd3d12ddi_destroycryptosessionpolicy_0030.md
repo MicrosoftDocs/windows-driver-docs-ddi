@@ -52,17 +52,6 @@ req.typenames: D3D11_1DDI_GETCAPTUREHANDLEDATA
 Used to destroy a crypto session.
 
 
-## -prototype
-
-
-````
-VOID APIENTRY* PFND3D12DDI_DESTROYCRYPTOSESSIONPOLICY_0030(
-   D3D12DDI_HDEVICE                   hDrvDevice,
-   D3D12DDI_HCRYPTOSESSIONPOLICY_0030 hDrvCryptoSessionPolicy
-);
-````
-
-
 ## -parameters
 
 

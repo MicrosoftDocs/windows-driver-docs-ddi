@@ -52,17 +52,6 @@ req.typenames: DXGK_DISPLAY_DESCRIPTOR_TYPE, *PDXGK_DISPLAY_DESCRIPTOR_TYPE
 Enum used to express the display descriptor type.
 
 
-## -syntax
-
-
-````
-typedef enum _DXGK_DISPLAY_DESCRIPTOR_TYPE { 
-  DXGK_DDT_INVALID  = 0,
-  DXGK_DDT_EDID
-} DXGK_DISPLAY_DESCRIPTOR_TYPE, *PDXGK_DISPLAY_DESCRIPTOR_TYPE ;
-````
-
-
 ## -enum-fields
 
 

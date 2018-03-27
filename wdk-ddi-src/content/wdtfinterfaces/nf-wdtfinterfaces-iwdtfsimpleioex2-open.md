@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: Microsoft.WDTF
 req.assembly: WDTFInterfaces.Interop.dll
 req.type-library: 
-req.lib: wdtfinterfaces.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,16 +51,6 @@ req.product: Windows 10 or later.
 
 
 Opens the device.
-
-
-## -syntax
-
-
-````
-HRESULT Open(
-  [out, retval] VARIANT_BOOL *pResult
-);
-````
 
 
 ## -parameters
@@ -94,10 +84,10 @@ the <a href="https://msdn.microsoft.com/795dcbed-e0ce-444d-a6a8-95d0bc658f5b">IW
 
 ## -see-also
 
-<a href="..\wdtfinterfaces\nn-wdtfinterfaces-iwdtfsimpleioex2.md">IWDTFSimpleIOEx2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451149">IWDTFSimpleIOEx2</a>
  
 
  

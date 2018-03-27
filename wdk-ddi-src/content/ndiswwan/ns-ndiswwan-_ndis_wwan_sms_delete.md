@@ -52,17 +52,6 @@ req.typenames: NDIS_WWAN_SMS_DELETE, *PNDIS_WWAN_SMS_DELETE
 The NDIS_WWAN_SMS_DELETE structure represents an SMS message to delete.
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_WWAN_SMS_DELETE {
-  NDIS_OBJECT_HEADER Header;
-  WWAN_SMS_FILTER    SmsFilter;
-} NDIS_WWAN_SMS_DELETE, *PNDIS_WWAN_SMS_DELETE;
-````
-
-
 ## -struct-fields
 
 
@@ -116,26 +105,26 @@ sizeof(NDIS_WWAN_SMS_DELETE)
  
 
 For more information about these members, see 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>.
 
 
 ### -field SmsFilter
 
 A formatted 
-     <a href="..\wwan\ns-wwan-_wwan_sms_filter.md">WWAN_SMS_FILTER</a> object that represents the
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571245">WWAN_SMS_FILTER</a> object that represents the
      filter to apply to SMS messages.
 
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_sms_filter.md">WWAN_SMS_FILTER</a>
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571245">WWAN_SMS_FILTER</a>
  
 
  

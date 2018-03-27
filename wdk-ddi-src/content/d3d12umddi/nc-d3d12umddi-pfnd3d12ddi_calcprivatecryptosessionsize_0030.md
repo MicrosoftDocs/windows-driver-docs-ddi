@@ -52,17 +52,6 @@ req.typenames: D3D11_1DDI_GETCAPTUREHANDLEDATA
 Used to calculate a private session size.
 
 
-## -prototype
-
-
-````
-SIZE_T APIENTRY* PFND3D12DDI_CALCPRIVATECRYPTOSESSIONSIZE_0030(
-             D3D12DDI_HDEVICE                        hDrvDevice,
-  _In_ const  D3D12DDIARG_CREATE_CRYPTO_SESSION_0030 *pArgs
-);
-````
-
-
 ## -parameters
 
 

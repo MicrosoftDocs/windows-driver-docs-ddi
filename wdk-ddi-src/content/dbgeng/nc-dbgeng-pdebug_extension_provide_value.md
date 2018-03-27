@@ -61,14 +61,6 @@ The <b>DebugExtensionProvideValue</b> callback function sets <a href="https://ms
 </tr>
 </table></span></div>
 
-## -prototype
-
-
-````
- CALLBACK* PDEBUG_EXTENSION_PROVIDE_VALUE DebugExtensionProvideValue;
-````
-
-
 ## -parameters
 
 
@@ -86,7 +78,7 @@ Provides behavioral flags. This parameter is currently reserved.
 
 ### -param Name [in]
 
-The name of the value to return. This name might be one of the names that the <a href="..\dbgeng\nc-dbgeng-pdebug_extension_query_value_names.md">DebugExtensionQueryValueNames</a> function returned or a name that the caller might already be aware of.
+The name of the value to return. This name might be one of the names that the <a href="https://msdn.microsoft.com/library/windows/hardware/ff540490">DebugExtensionQueryValueNames</a> function returned or a name that the caller might already be aware of.
 
 
 ### -param Value [out]
@@ -180,15 +172,10 @@ The name that the <i>Name</i> parameter specifies must start with <b>$$</b> and 
 
 ## -see-also
 
-<i>DebugExtensionUninitialize</i>
 
 
 
-<i>KnownStructOutput</i>
-
-
-
-<i>DebugExtensionQueryValueNames</i>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540476">DebugExtensionInitialize</a>
 
 
 
@@ -196,10 +183,15 @@ The name that the <i>Name</i> parameter specifies must start with <b>$$</b> and 
 
 
 
-<a href="..\dbgeng\nc-dbgeng-pdebug_extension_initialize.md">DebugExtensionInitialize</a>
+<i>DebugExtensionQueryValueNames</i>
 
 
 
+<i>DebugExtensionUninitialize</i>
+
+
+
+<i>KnownStructOutput</i>
  
 
  

@@ -52,18 +52,6 @@ req.typenames: WDI_INTERCONNECT_TYPE
 The WDI_INTERCONNECT_TYPE enumeration defines the interconnect types.
 
 
-## -syntax
-
-
-````
-typedef enum _WDI_INTERCONNECT_TYPE { 
-  WDI_INTERCONNECT_MEMORY_MAPPED  = 0,
-  WDI_INTERCONNECT_MESSAGE_BASED  = 1,
-  WDI_INTERCONNECT_UNKNOWN        = 0xFF
-} WDI_INTERCONNECT_TYPE;
-````
-
-
 ## -enum-fields
 
 

@@ -56,17 +56,6 @@ req.product: Windows 10 or later.
 The co-installer's <b>WdfPostDeviceRemove</b> function performs any operations that the co-installer might require after a non-Plug and Play (PnP) driver's installer has deleted the driver's kernel-mode service. 
 
 
-## -syntax
-
-
-````
-ULONG WdfPostDeviceRemove(
-  _In_     LPCWSTR InfPath,
-  _In_opt_ LPCWSTR InfSectionName
-);
-````
-
-
 ## -parameters
 
 
@@ -112,10 +101,10 @@ For a code example that uses the <b>WdfPostDeviceRemove</b> function, see the in
 
 ## -see-also
 
-<a href="..\wdfinstaller\nf-wdfinstaller-wdfpredeviceremove.md">WdfPreDeviceRemove</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548840">WdfPreDeviceRemove</a>
  
 
  

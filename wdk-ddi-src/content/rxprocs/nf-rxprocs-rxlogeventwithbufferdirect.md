@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
@@ -51,22 +51,6 @@ req.product: Windows 10 or later.
 
 
 <b>RxLogEventWithBufferDirect</b> allocates an I/O error log structure, fills it in with information, and writes the entry to the I/O error log.
-
-
-## -syntax
-
-
-````
-VOID RxLogEventWithBufferDirect(
-  _In_ PVOID           DeviceObject,
-  _In_ PUNICODE_STRING OriginatorId,
-  _In_ ULONG           EventId,
-  _In_ NTSTATUS        Status,
-  _In_ PVOID           DataBuffer,
-  _In_ USHORT          DataBufferLength,
-  _In_ ULONG           LineNumber
-);
-````
 
 
 ## -parameters
@@ -138,18 +122,18 @@ The <b>RxLogEventWithAnnotation</b> routine needs to allocate memory in order to
 
 ## -see-also
 
-<a href="..\rxlog\nf-rxlog-_rxlog.md">_RxLog</a>
 
 
 
-<a href="..\rxprocs\nf-rxprocs-rxlogeventwithannotation.md">RxLogEventWithAnnotation</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554515">RxLogEventDirect</a>
 
 
 
-<a href="..\rxprocs\nf-rxprocs-rxlogeventdirect.md">RxLogEventDirect</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554519">RxLogEventWithAnnotation</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557368">_RxLog</a>
  
 
  

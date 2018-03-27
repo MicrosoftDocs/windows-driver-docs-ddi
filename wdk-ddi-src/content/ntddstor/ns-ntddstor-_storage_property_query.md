@@ -49,19 +49,7 @@ req.typenames: STORAGE_PROPERTY_QUERY, *PSTORAGE_PROPERTY_QUERY
 ## -description
 
 
-This structure is used in conjunction with <a href="..\ntddstor\ni-ntddstor-ioctl_storage_query_property.md">IOCTL_STORAGE_QUERY_PROPERTY</a> to retrieve the properties of a storage device or adapter. 
-
-
-## -syntax
-
-
-````
-typedef struct _STORAGE_PROPERTY_QUERY {
-  STORAGE_PROPERTY_ID PropertyId;
-  STORAGE_QUERY_TYPE  QueryType;
-  UCHAR               AdditionalParameters[1];
-} STORAGE_PROPERTY_QUERY, *PSTORAGE_PROPERTY_QUERY;
-````
+This structure is used in conjunction with <a href="https://msdn.microsoft.com/library/windows/hardware/ff560590">IOCTL_STORAGE_QUERY_PROPERTY</a> to retrieve the properties of a storage device or adapter. 
 
 
 ## -struct-fields
@@ -76,7 +64,7 @@ Indicates whether the caller is requesting a device descriptor, an adapter descr
 
 ### -field QueryType
 
-Contains flags indicating the type of query to be performed. For a list of the various query types that can be assigned to this member, see <a href="..\ntddstor\ne-ntddstor-_storage_query_type.md">STORAGE_QUERY_TYPE</a>. 
+Contains flags indicating the type of query to be performed. For a list of the various query types that can be assigned to this member, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff566998">STORAGE_QUERY_TYPE</a>. 
 
 
 ### -field AdditionalParameters
@@ -94,37 +82,37 @@ The results of the query can be one of
 
 If the 
      <b>QueryType</b> member is set to 
-     <b>PropertyExistsQuery</b>, then no structure is returned. For more info, see <a href="..\ntddstor\ne-ntddstor-_storage_query_type.md">STORAGE_QUERY_TYPE</a>.
+     <b>PropertyExistsQuery</b>, then no structure is returned. For more info, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff566998">STORAGE_QUERY_TYPE</a>.
 
 
 
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560590">IOCTL_STORAGE_QUERY_PROPERTY</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566346">STORAGE_ADAPTER_DESCRIPTOR</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566968">STORAGE_DESCRIPTOR_HEADER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566971">STORAGE_DEVICE_DESCRIPTOR</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566996">STORAGE_PROPERTY_ID</a>
 
 
 
-<a href="..\ntddstor\ns-ntddstor-_storage_adapter_descriptor.md">STORAGE_ADAPTER_DESCRIPTOR</a>
-
-
-
-<a href="..\ntddstor\ni-ntddstor-ioctl_storage_query_property.md">IOCTL_STORAGE_QUERY_PROPERTY</a>
-
-
-
-<a href="..\ntddstor\ne-ntddstor-_storage_query_type.md">STORAGE_QUERY_TYPE</a>
-
-
-
-<a href="..\ntddstor\ns-ntddstor-_storage_descriptor_header.md">STORAGE_DESCRIPTOR_HEADER</a>
-
-
-
-<a href="..\ntddstor\ns-ntddstor-_storage_device_descriptor.md">STORAGE_DEVICE_DESCRIPTOR</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566998">STORAGE_QUERY_TYPE</a>
  
 
  

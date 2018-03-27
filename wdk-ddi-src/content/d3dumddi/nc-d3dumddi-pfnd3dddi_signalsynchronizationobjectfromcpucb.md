@@ -52,20 +52,6 @@ req.typenames: DXGK_PTE
 <b>pfnSignalSynchronizationObjectFromCpuCb</b> enables a driver to signal a monitored fence.
 
 
-## -prototype
-
-
-````
-PFND3DDDI_SIGNALSYNCHRONIZATIONOBJECTFROMCPUCB pfnSignalSynchronizationObjectFromCpuCb;
-
-HRESULT APIENTRY CALLBACK* pfnSignalSynchronizationObjectFromCpuCb(
-  _In_ HANDLE                                      hDevice,
-  _In_ D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMCPU *pData
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -87,7 +73,7 @@ A handle to the display device.
 
 #### - pData [in]
 
-A pointer to a <a href="..\d3dumddi\ns-d3dumddi-d3dddicb_signalsynchronizationobjectfromcpu.md">D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMCPU</a> structure that provides the details of the requested operation.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn906765">D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMCPU</a> structure that provides the details of the requested operation.
 
 
 ## -returns

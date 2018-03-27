@@ -52,25 +52,6 @@ req.typenames: D3DKMT_DEVICEEXECUTION_STATE
 The <b>D3DKMT_DEVICEEXECUTION_STATE</b> enumeration type contains values that indicate the execution status for a device.
 
 
-## -syntax
-
-
-````
-typedef enum _D3DKMT_DEVICEEXECUTION_STATE { 
-  D3DKMT_DEVICEEXECUTION_ACTIVE              = 1,
-  D3DKMT_DEVICEEXECUTION_RESET               = 2,
-  D3DKMT_DEVICEEXECUTION_HUNG                = 3,
-  D3DKMT_DEVICEEXECUTION_STOPPED             = 4,
-  D3DKMT_DEVICEEXECUTION_ERROR_OUTOFMEMORY   = 5,
-  D3DKMT_DEVICEEXECUTION_ERROR_DMAFAULT      = 6,
-#if (DXGKDDI_INTERFACE_VERSION >= DXGKDDI_INTERFACE_VERSION_WDDM2_0)
-  D3DKMT_DEVICEEXECUTION_ERROR_DMAPAGEFAULT  = 7,
-#endif 
-  
-} D3DKMT_DEVICEEXECUTION_STATE;
-````
-
-
 ## -enum-fields
 
 
@@ -117,10 +98,10 @@ The display miniport driver reported a page fault while processing a DMA buffer 
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_getdevicestate.md">D3DKMT_GETDEVICESTATE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548030">D3DKMT_GETDEVICESTATE</a>
  
 
  

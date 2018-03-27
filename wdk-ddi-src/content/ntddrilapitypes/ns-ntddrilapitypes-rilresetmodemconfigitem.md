@@ -52,17 +52,6 @@ req.typenames: RILRESETMODEMCONFIGITEM, *LPRILRESETMODEMCONFIGITEM
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef struct _RILRESETMODEMCONFIGITEM {
-  DWORD                     dwModemConfigItem;
-  RILRESETMODEMCONFIGVALUE  rrmcValue;
-} RILRESETMODEMCONFIGITEM, RILRESETMODEMCONFIGITEM;
-````
-
-
 ## -struct-fields
 
 

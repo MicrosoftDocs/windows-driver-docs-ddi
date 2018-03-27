@@ -52,19 +52,6 @@ req.typenames: D3D12DDIARG_VIDEO_GETCAPS_0020
 Specifies values used to get capabilities of a type. 
 
 
-## -syntax
-
-
-````
-typedef struct D3D12DDIARG_VIDEO_GETCAPS {
-  D3D12DDICAPS_TYPE_VIDEO_0020 Type;
-  VOID                         *pInfo;
-  VOID                         *pData;
-  UINT                         DataSize;
-} D3D12DDIARG_VIDEO_GETCAPS_0020;
-````
-
-
 ## -struct-fields
 
 

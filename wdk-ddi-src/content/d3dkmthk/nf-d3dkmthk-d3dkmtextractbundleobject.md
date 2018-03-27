@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -52,16 +52,6 @@ req.typenames: D3DKMT_DRIVERVERSION
 
 			
             Used to extract the bundle object.
-
-
-## -syntax
-
-
-````
-NTSTATUS  D3DKMTExtractBundleObject(
-  _Inout_ D3DKMT_EXTRACTBUNDLEOBJECT  *D3dkmt_extractbundleobject
-);
-````
 
 
 ## -parameters

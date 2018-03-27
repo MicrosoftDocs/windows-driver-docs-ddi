@@ -49,24 +49,7 @@ req.typenames: SE_TOKEN_USER, PSE_TOKEN_USER
 ## -description
 
 
-The <b>SE_TOKEN_USER</b> structure holds the maximum-sized valid user SID that can be returned by <a href="..\ntifs\nf-ntifs-sequeryinformationtoken.md">SeQueryInformationToken</a>, <a href="https://msdn.microsoft.com/e94de19c-de12-40fb-a72c-060f7ad12f75">GetTokenInformation</a>, or <a href="..\ntifs\nf-ntifs-zwqueryinformationtoken.md">ZwQueryInformationToken</a> with the TokenUser information class. This structure is suitable for stack allocation.
-
-
-## -syntax
-
-
-````
-typedef struct _SE_TOKEN_USER {
-  union {
-    TOKEN_USER         TokenUser;
-    SID_AND_ATTRIBUTES User;
-  };
-  union {
-    SID   Sid;
-    UCHAR Buffer[SECURITY_MAX_SID_SIZE];
-  };
-} SE_TOKEN_USER, *PSE_TOKEN_USER;
-````
+The <b>SE_TOKEN_USER</b> structure holds the maximum-sized valid user SID that can be returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff556690">SeQueryInformationToken</a>, <a href="https://msdn.microsoft.com/e94de19c-de12-40fb-a72c-060f7ad12f75">GetTokenInformation</a>, or <a href="https://msdn.microsoft.com/library/windows/hardware/ff567055">ZwQueryInformationToken</a> with the TokenUser information class. This structure is suitable for stack allocation.
 
 
 ## -struct-fields
@@ -108,7 +91,10 @@ Specifies an <b>SID_AND_ATTRIBUTES</b> structure representing the user associate
 
 ## -see-also
 
-<a href="..\ntifs\ns-ntifs-_token_user.md">TOKEN_USER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556740">SID</a>
 
 
 
@@ -116,10 +102,7 @@ Specifies an <b>SID_AND_ATTRIBUTES</b> structure representing the user associate
 
 
 
-<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556855">TOKEN_USER</a>
  
 
  

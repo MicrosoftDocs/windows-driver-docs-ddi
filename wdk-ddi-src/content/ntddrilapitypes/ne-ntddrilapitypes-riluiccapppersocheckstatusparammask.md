@@ -52,18 +52,6 @@ req.typenames: RILUICCAPPPERSOCHECKSTATUSPARAMMASK
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef enum _RILUICCAPPPERSOCHECKSTATUSPARAMMASK { 
-  RIL_PARAM_UAPCS_PERSOFEATURE,
-  RIL_PARAM_UAPCS_PERSOCHECKSTATE,
-  RIL_PARAM_UAPCS_ALL
-} RILUICCAPPPERSOCHECKSTATUSPARAMMASK;
-````
-
-
 ## -enum-fields
 
 

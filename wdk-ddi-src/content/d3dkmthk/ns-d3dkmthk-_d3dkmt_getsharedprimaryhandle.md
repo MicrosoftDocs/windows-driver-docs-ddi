@@ -52,18 +52,6 @@ req.typenames: D3DKMT_GETSHAREDPRIMARYHANDLE
 The D3DKMT_GETSHAREDPRIMARYHANDLE structure describes the parameters that are required to retrieve the global shared handle for the primary surface.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DKMT_GETSHAREDPRIMARYHANDLE {
-  D3DKMT_HANDLE                  hAdapter;
-  D3DDDI_VIDEO_PRESENT_SOURCE_ID VidPnSourceId;
-  D3DKMT_HANDLE                  hSharedPrimary;
-} D3DKMT_GETSHAREDPRIMARYHANDLE;
-````
-
-
 ## -struct-fields
 
 
@@ -81,15 +69,15 @@ typedef struct _D3DKMT_GETSHAREDPRIMARYHANDLE {
 
 ### -field hSharedPrimary
 
-[out] A handle to the global shared primary surface if a shared handle currently exists. The shared handle is returned from the call to the <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtgetsharedprimaryhandle.md">D3DKMTGetSharedPrimaryHandle</a> function.
+[out] A handle to the global shared primary surface if a shared handle currently exists. The shared handle is returned from the call to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff547015">D3DKMTGetSharedPrimaryHandle</a> function.
 
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtgetsharedprimaryhandle.md">D3DKMTGetSharedPrimaryHandle</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547015">D3DKMTGetSharedPrimaryHandle</a>
  
 
  

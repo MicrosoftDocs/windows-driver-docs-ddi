@@ -52,18 +52,6 @@ req.typenames: MOUNTMGR_MOUNT_POINTS, *PMOUNTMGR_MOUNT_POINTS
 The MOUNTMGR_MOUNT_POINTS structure is used by mount manager to send a client the list of mount points associated with a device.
 
 
-## -syntax
-
-
-````
-typedef struct _MOUNTMGR_MOUNT_POINTS {
-  ULONG                Size;
-  ULONG                NumberOfMountPoints;
-  MOUNTMGR_MOUNT_POINT MountPoints[1];
-} MOUNTMGR_MOUNT_POINTS, *PMOUNTMGR_MOUNT_POINTS;
-````
-
-
 ## -struct-fields
 
 
@@ -95,10 +83,10 @@ For a discussion of the different between symbolic links, unique IDs, and nonper
 
 ## -see-also
 
-<a href="..\mountmgr\ni-mountmgr-ioctl_mountmgr_query_points.md">IOCTL_MOUNTMGR_QUERY_POINTS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560474">IOCTL_MOUNTMGR_QUERY_POINTS</a>
  
 
  

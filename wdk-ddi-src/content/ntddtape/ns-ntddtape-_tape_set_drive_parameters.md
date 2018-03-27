@@ -49,21 +49,7 @@ req.typenames: TAPE_SET_DRIVE_PARAMETERS, *PTAPE_SET_DRIVE_PARAMETERS
 ## -description
 
 
-The TAPE_SET_DRIVE_PARAMETERS structure is used in conjunction with the <a href="..\ntddtape\ni-ntddtape-ioctl_tape_set_drive_params.md">IOCTL_TAPE_SET_DRIVE_PARAMS</a> request to adjust the configurable parameters of a tape drive.
-
-
-## -syntax
-
-
-````
-typedef struct _TAPE_SET_DRIVE_PARAMETERS {
-  BOOLEAN ECC;
-  BOOLEAN Compression;
-  BOOLEAN DataPadding;
-  BOOLEAN ReportSetmarks;
-  ULONG   EOTWarningZoneSize;
-} TAPE_SET_DRIVE_PARAMETERS, *PTAPE_SET_DRIVE_PARAMETERS;
-````
+The TAPE_SET_DRIVE_PARAMETERS structure is used in conjunction with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560632">IOCTL_TAPE_SET_DRIVE_PARAMS</a> request to adjust the configurable parameters of a tape drive.
 
 
 ## -struct-fields
@@ -107,14 +93,14 @@ The miniclass driver can ignore parameters its device does not support. The call
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560632">IOCTL_TAPE_SET_DRIVE_PARAMS</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567952">TapeMiniSetDriveParameters</a>
-
-
-
-<a href="..\ntddtape\ni-ntddtape-ioctl_tape_set_drive_params.md">IOCTL_TAPE_SET_DRIVE_PARAMS</a>
-
-
-
  
 
  

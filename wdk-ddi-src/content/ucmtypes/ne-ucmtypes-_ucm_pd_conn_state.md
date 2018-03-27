@@ -53,19 +53,6 @@ req.product: Windows 10 or later.
 Defines power delivery (PD) negotiation states of a Type-C port.
 
 
-## -syntax
-
-
-````
-typedef enum _UCM_PD_CONN_STATE { 
-  UcmPdConnStateInvalid               = 0x0,
-  UcmPdConnStateNotSupported,
-  UcmPdConnStateNegotiationFailed,
-  UcmPdConnStateNegotiationSucceeded
-} UCM_PD_CONN_STATE;
-````
-
-
 ## -enum-fields
 
 
@@ -93,10 +80,10 @@ Indicates the PD negotiation succeeded.
 
 ## -see-also
 
-<a href="..\ucmmanager\nf-ucmmanager-ucmconnectorpdconnectionstatechanged.md">UcmConnectorPdConnectionStateChanged</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt187911">UcmConnectorPdConnectionStateChanged</a>
  
 
  

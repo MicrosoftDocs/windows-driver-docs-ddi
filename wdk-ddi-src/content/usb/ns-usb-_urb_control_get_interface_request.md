@@ -53,26 +53,6 @@ req.product: Windows 10 or later.
 The <b>_URB_CONTROL_GET_INTERFACE_REQUEST</b> structure is used by USB client drivers to retrieve the current alternate interface setting for an interface in the current configuration.
 
 
-## -syntax
-
-
-````
-struct _URB_CONTROL_GET_INTERFACE_REQUEST {
-  struct URB_HEADER  Hdr;
-  PVOID               Reserved;
-  ULONG               Reserved0;
-  ULONG               TransferBufferLength;
-  PVOID               TransferBuffer;
-  PMDL                TransferBufferMDL;
-  struct URB  *UrbLink;
-  struct URB_HCD_AREA  hca;
-  UCHAR               Reserved1[4];
-  USHORT              Interface;
-  USHORT              Reserved2;
-};
-````
-
-
 ## -struct-fields
 
 
@@ -80,7 +60,7 @@ struct _URB_CONTROL_GET_INTERFACE_REQUEST {
 
 ### -field Hdr
 
-Pointer to a <a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a> structure that specifies the URB header information. <b>Hdr.Function</b> must be URB_FUNCTION_GET_INTERFACE, and <b>Hdr.Length</b> must equal <code>sizeof(_URB_CONTROL_GET_INTERFACE_REQUEST)</code>.
+Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff540409">_URB_HEADER</a> structure that specifies the URB header information. <b>Hdr.Function</b> must be URB_FUNCTION_GET_INTERFACE, and <b>Hdr.Length</b> must equal <code>sizeof(_URB_CONTROL_GET_INTERFACE_REQUEST)</code>.
 
 
 ### -field Reserved
@@ -144,11 +124,10 @@ The reserved members of this structure must be treated as opaque and are reserve
 
 ## -see-also
 
-<a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a>
 
 
 
-<a href="..\usb\ns-usb-_urb.md">URB</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538923">URB</a>
 
 
 
@@ -156,6 +135,7 @@ The reserved members of this structure must be treated as opaque and are reserve
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540409">_URB_HEADER</a>
  
 
  

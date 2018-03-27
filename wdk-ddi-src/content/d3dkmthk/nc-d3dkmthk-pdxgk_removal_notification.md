@@ -52,16 +52,6 @@ req.typenames: DXGK_TARGETMODE_DETAIL_TIMING
 A callback indicating that the graphics device is being removed.
 
 
-## -prototype
-
-
-````
-VOID *PDXGK_REMOVAL_NOTIFICATION(
-   PVOID GraphicsDeviceHandle
-);
-````
-
-
 ## -parameters
 
 

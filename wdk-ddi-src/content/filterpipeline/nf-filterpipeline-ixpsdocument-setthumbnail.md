@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: filterpipeline.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -50,16 +50,6 @@ req.typenames: EXpsFontRestriction
 
 
 The <code>SetThumbnail</code> method removes the current thumbnail object from the document and inserts a new one.
-
-
-## -syntax
-
-
-````
-HRESULT SetThumbnail(
-  [in] IPartThumbnail *pThumbnail
-);
-````
 
 
 ## -parameters

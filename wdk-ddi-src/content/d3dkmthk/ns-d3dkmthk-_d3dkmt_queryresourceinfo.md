@@ -52,22 +52,6 @@ req.typenames: D3DKMT_QUERYRESOURCEINFO
 The D3DKMT_QUERYRESOURCEINFO structure describes parameters for retrieving information about a resource.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DKMT_QUERYRESOURCEINFO {
-  D3DKMT_HANDLE hDevice;
-  D3DKMT_HANDLE hGlobalShare;
-  VOID          *pPrivateRuntimeData;
-  UINT          PrivateRuntimeDataSize;
-  UINT          TotalPrivateDriverDataSize;
-  UINT          ResourcePrivateDriverDataSize;
-  UINT          NumAllocations;
-} D3DKMT_QUERYRESOURCEINFO;
-````
-
-
 ## -struct-fields
 
 
@@ -85,7 +69,7 @@ typedef struct _D3DKMT_QUERYRESOURCEINFO {
 
 ### -field pPrivateRuntimeData
 
-[in] If non-<b>NULL</b>, a pointer to a buffer that receives the runtime-private data that is supplied at create time. The OpenGL ICD should first call the <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtqueryresourceinfo.md">D3DKMTQueryResourceInfo</a> function with <b>pPrivateRuntimeData</b> set to <b>NULL</b> to obtain the buffer size and then call again with the correct size buffer. 
+[in] If non-<b>NULL</b>, a pointer to a buffer that receives the runtime-private data that is supplied at create time. The OpenGL ICD should first call the <a href="https://msdn.microsoft.com/library/windows/hardware/ff547124">D3DKMTQueryResourceInfo</a> function with <b>pPrivateRuntimeData</b> set to <b>NULL</b> to obtain the buffer size and then call again with the correct size buffer. 
 
 
 ### -field PrivateRuntimeDataSize
@@ -110,14 +94,14 @@ typedef struct _D3DKMT_QUERYRESOURCEINFO {
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtopenresource.md">D3DKMTOpenResource</a>
 
 
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtqueryresourceinfo.md">D3DKMTQueryResourceInfo</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547065">D3DKMTOpenResource</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547124">D3DKMTQueryResourceInfo</a>
  
 
  

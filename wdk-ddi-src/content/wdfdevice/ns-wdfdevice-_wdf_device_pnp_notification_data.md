@@ -55,29 +55,6 @@ req.product: Windows 10 or later.
 The WDF_DEVICE_PNP_NOTIFICATION_DATA structure describes a state change within a device's Plug and Play state machine.
 
 
-## -syntax
-
-
-````
-typedef struct _WDF_DEVICE_PNP_NOTIFICATION_DATA {
-  WDF_STATE_NOTIFICATION_TYPE Type;
-  union {
-    struct {
-      WDF_DEVICE_PNP_STATE CurrentState;
-      WDF_DEVICE_PNP_STATE NewState;
-    } EnterState;
-    struct {
-      WDF_DEVICE_PNP_STATE CurrentState;
-    } PostProcessState;
-    struct {
-      WDF_DEVICE_PNP_STATE CurrentState;
-      WDF_DEVICE_PNP_STATE NewState;
-    } LeaveState;
-  } Data;
-} WDF_DEVICE_PNP_NOTIFICATION_DATA;
-````
-
-
 ## -struct-fields
 
 
@@ -85,7 +62,7 @@ typedef struct _WDF_DEVICE_PNP_NOTIFICATION_DATA {
 
 ### -field Type
 
-A <a href="..\wdfdevice\ne-wdfdevice-_wdf_state_notification_type.md">WDF_STATE_NOTIFICATION_TYPE</a>-typed enumerator that identifies the type of state change that is being reported.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff552513">WDF_STATE_NOTIFICATION_TYPE</a>-typed enumerator that identifies the type of state change that is being reported.
 
 
 ### -field Data
@@ -100,12 +77,12 @@ A <a href="..\wdfdevice\ne-wdfdevice-_wdf_state_notification_type.md">WDF_STATE_
 
 ### -field Data.EnterState.CurrentState
 
-If <b>Type</b> is <b>StateNotificationEnterState</b>, this <a href="..\wdfdevice\ne-wdfdevice-_wdf_device_pnp_state.md">WDF_DEVICE_PNP_STATE</a>-typed enumerator identifies the state machine's current state.
+If <b>Type</b> is <b>StateNotificationEnterState</b>, this <a href="https://msdn.microsoft.com/library/windows/hardware/ff551262">WDF_DEVICE_PNP_STATE</a>-typed enumerator identifies the state machine's current state.
 
 
 ### -field Data.EnterState.NewState
 
-If <b>Type</b> is <b>StateNotificationEnterState</b>, this <a href="..\wdfdevice\ne-wdfdevice-_wdf_device_pnp_state.md">WDF_DEVICE_PNP_STATE</a>-typed enumerator identifies the state machine's next state.
+If <b>Type</b> is <b>StateNotificationEnterState</b>, this <a href="https://msdn.microsoft.com/library/windows/hardware/ff551262">WDF_DEVICE_PNP_STATE</a>-typed enumerator identifies the state machine's next state.
 
 
 ### -field Data.PostProcessState
@@ -117,7 +94,7 @@ If <b>Type</b> is <b>StateNotificationEnterState</b>, this <a href="..\wdfdevice
 
 ### -field Data.PostProcessState.CurrentState
 
-If <b>Type</b> is <b>StateNotificationEnterState</b>, this <a href="..\wdfdevice\ne-wdfdevice-_wdf_device_pnp_state.md">WDF_DEVICE_PNP_STATE</a>-typed enumerator identifies the state machine's current state.
+If <b>Type</b> is <b>StateNotificationEnterState</b>, this <a href="https://msdn.microsoft.com/library/windows/hardware/ff551262">WDF_DEVICE_PNP_STATE</a>-typed enumerator identifies the state machine's current state.
 
 
 ### -field Data.LeaveState
@@ -129,29 +106,29 @@ If <b>Type</b> is <b>StateNotificationEnterState</b>, this <a href="..\wdfdevice
 
 ### -field Data.LeaveState.CurrentState
 
-If <b>Type</b> is <b>StateNotificationEnterState</b>, this <a href="..\wdfdevice\ne-wdfdevice-_wdf_device_pnp_state.md">WDF_DEVICE_PNP_STATE</a>-typed enumerator identifies the state machine's current state.
+If <b>Type</b> is <b>StateNotificationEnterState</b>, this <a href="https://msdn.microsoft.com/library/windows/hardware/ff551262">WDF_DEVICE_PNP_STATE</a>-typed enumerator identifies the state machine's current state.
 
 
 ### -field Data.LeaveState.NewState
 
-If <b>Type</b> is <b>StateNotificationEnterState</b>, this <a href="..\wdfdevice\ne-wdfdevice-_wdf_device_pnp_state.md">WDF_DEVICE_PNP_STATE</a>-typed enumerator identifies the state machine's next state.
+If <b>Type</b> is <b>StateNotificationEnterState</b>, this <a href="https://msdn.microsoft.com/library/windows/hardware/ff551262">WDF_DEVICE_PNP_STATE</a>-typed enumerator identifies the state machine's next state.
 
 
 ## -remarks
 
 
 
-The WDF_DEVICE_PNP_NOTIFICATION_DATA structure is an input argument to a driver's <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_pnp_state_change_notification.md">EvtDevicePnpStateChange</a> callback function.
+The WDF_DEVICE_PNP_NOTIFICATION_DATA structure is an input argument to a driver's <a href="https://msdn.microsoft.com/5f08d331-0e58-45a3-93a3-b5e9a40b5af3">EvtDevicePnpStateChange</a> callback function.
 
 
 
 
 ## -see-also
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitregisterpnpstatechangecallback.md">WdfDeviceInitRegisterPnpStateChangeCallback</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546057">WdfDeviceInitRegisterPnpStateChangeCallback</a>
  
 
  

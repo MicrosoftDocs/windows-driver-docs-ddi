@@ -53,26 +53,6 @@ req.product: Windows 10 or later.
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef struct _RILREGSTATUSINFO {
-  DWORD                cbSize;
-  DWORD                dwParams;
-  DWORD                dwExecutor;
-  HUICCAPP             hUiccApp;
-  RILREGSTAT           dwRegStatus;
-  RILACCESSTECHNOLOGY  ratAccessTechnology;
-  DWORD                dwSystemCaps;
-  DWORD                dwRegRejectReason;
-  RILOPERATORNAMES     ronCurrentOperator;
-  RILVOICEDOMAIN       dwVoiceDomain;
-  RILNETWORKCODE       rncNetworkCode;
-} RILREGSTATUSINFO, RILREGSTATUSINFO;
-````
-
-
 ## -struct-fields
 
 

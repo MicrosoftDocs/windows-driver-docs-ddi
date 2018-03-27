@@ -53,16 +53,6 @@ req.typenames:
 The<b> KsPinGetAndGate</b> function returns the processing control gate for <i>Pin</i>.
 
 
-## -syntax
-
-
-````
-PKSGATE KsPinGetAndGate(
-  _In_ PKSPIN Pin
-);
-````
-
-
 ## -parameters
 
 
@@ -70,14 +60,14 @@ PKSGATE KsPinGetAndGate(
 
 ### -param Pin [in]
 
-A pointer to the <a href="..\ks\ns-ks-_kspin.md">KSPIN</a> for which to return the processing control gate.
+A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563483">KSPIN</a> for which to return the processing control gate.
 
 
 ## -returns
 
 
 
-Returns a pointer to the <a href="..\ks\ns-ks-_ksgate.md">KSGATE</a> representing the processing control gate for <i>Pin</i>.
+Returns a pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562566">KSGATE</a> representing the processing control gate for <i>Pin</i>.
 
 
 
@@ -93,14 +83,14 @@ For more information, see <a href="https://msdn.microsoft.com/c5592f92-a432-44e3
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksfiltergetandgate.md">KsFilterGetAndGate</a>
 
 
 
-<a href="..\ks\ns-ks-_ksgate.md">KSGATE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562566">KSGATE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562542">KsFilterGetAndGate</a>
  
 
  

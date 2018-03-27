@@ -52,17 +52,6 @@ req.typenames: D3DDDIARG_CREATEVERTEXSHADERFUNC
 The D3DDDIARG_CREATEVERTEXSHADERFUNC structure specifies a shader handle to associate with vertex shader code.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DDDIARG_CREATEVERTEXSHADERFUNC {
-  UINT   Size;
-  HANDLE ShaderHandle;
-} D3DDDIARG_CREATEVERTEXSHADERFUNC;
-````
-
-
 ## -struct-fields
 
 
@@ -70,7 +59,7 @@ typedef struct _D3DDDIARG_CREATEVERTEXSHADERFUNC {
 
 ### -field Size
 
-[in] The size, in bytes, of the vertex shader code that is passed to the <i>pCode</i> parameter in a call to the user-mode display driver's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createvertexshaderfunc.md">CreateVertexShaderFunc</a> function.
+[in] The size, in bytes, of the vertex shader code that is passed to the <i>pCode</i> parameter in a call to the user-mode display driver's <a href="https://msdn.microsoft.com/e986d37a-6039-4bc4-b5e8-6c4d4d7adedd">CreateVertexShaderFunc</a> function.
 
 
 ### -field ShaderHandle
@@ -89,10 +78,10 @@ For more information about programming shader assemblers, see <a href="https://m
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createvertexshaderfunc.md">CreateVertexShaderFunc</a>
 
 
 
+<a href="https://msdn.microsoft.com/e986d37a-6039-4bc4-b5e8-6c4d4d7adedd">CreateVertexShaderFunc</a>
  
 
  

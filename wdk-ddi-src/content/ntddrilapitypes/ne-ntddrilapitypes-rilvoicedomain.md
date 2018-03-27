@@ -52,19 +52,6 @@ req.typenames: RILVOICEDOMAIN
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef enum _RILVOICEDOMAIN { 
-  RIL_VOICE_DOMAIN_3GPP,
-  RIL_VOICE_DOMAIN_3GPP2,
-  RIL_VOICE_DOMAIN_IMS,
-  RIL_VOICE_DOMAIN_MAX
-} RILVOICEDOMAIN;
-````
-
-
 ## -enum-fields
 
 

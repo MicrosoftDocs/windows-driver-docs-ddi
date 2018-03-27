@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -50,17 +50,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 This method is not used.
-
-
-## -syntax
-
-
-````
-HRESULT Output(
-  [in] ULONG Mask,
-  [in] PCSTR Text
-);
-````
 
 
 ## -parameters
@@ -89,10 +78,10 @@ This method is not used.
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugoutputcallbacks2.md">IDebugOutputCallbacks2</a>
 
 
 
+<a href="https://msdn.microsoft.com/D35D8960-AD9F-4493-B6CD-3E3049CC3BBD">IDebugOutputCallbacks2</a>
  
 
  

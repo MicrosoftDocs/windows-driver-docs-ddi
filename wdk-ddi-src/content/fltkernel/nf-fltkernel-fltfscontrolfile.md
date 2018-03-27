@@ -52,23 +52,6 @@ req.typenames: EXpsFontRestriction
 The <b>FltFsControlFile</b> routine sends a control code directly to a specified file system or file system filter driver, causing the corresponding driver to perform the specified action. 
 
 
-## -syntax
-
-
-````
-NTSTATUS FltFsControlFile(
-  _In_      PFLT_INSTANCE Instance,
-  _In_      PFILE_OBJECT  FileObject,
-  _In_      ULONG         FsControlCode,
-  _In_opt_  PVOID         InputBuffer,
-  _In_      ULONG         InputBufferLength,
-  _Out_opt_ PVOID         OutputBuffer,
-  _In_      ULONG         OutputBufferLength,
-  _Out_opt_ PULONG        LengthReturned
-);
-````
-
-
 ## -parameters
 
 
@@ -127,7 +110,7 @@ Pointer to a caller-allocated variable that receives the size, in bytes, of the 
 
 
 
-Minifilter drivers should call this routine instead of <a href="..\ntifs\nf-ntifs-zwfscontrolfile.md">ZwFsControlFile</a>. 
+Minifilter drivers should call this routine instead of <a href="https://msdn.microsoft.com/library/windows/hardware/ff566462">ZwFsControlFile</a>. 
 
 The following FSCTL codes are currently documented for kernel-mode drivers: 
 
@@ -182,14 +165,14 @@ For more information about the system-defined FSCTL_<i>XXX</i> codes, see the Re
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltdeviceiocontrolfile.md">FltDeviceIoControlFile</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-zwfscontrolfile.md">ZwFsControlFile</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542046">FltDeviceIoControlFile</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566462">ZwFsControlFile</a>
  
 
  

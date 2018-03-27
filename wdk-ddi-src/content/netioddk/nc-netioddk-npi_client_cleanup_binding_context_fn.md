@@ -55,21 +55,6 @@ A client module's
   another.
 
 
-## -prototype
-
-
-````
-NPI_CLIENT_CLEANUP_BINDING_CONTEXT_FN ClientCleanupBindingContext;
-
-VOID ClientCleanupBindingContext(
-  _In_ PVOID ClientBindingContext
-)
-{ ... }
-
-typedef NPI_CLIENT_CLEANUP_BINDING_CONTEXT_FN * PNPI_CLIENT_CLEANUP_BINDING_CONTEXT_FN;
-````
-
-
 ## -parameters
 
 
@@ -80,7 +65,7 @@ typedef NPI_CLIENT_CLEANUP_BINDING_CONTEXT_FN * PNPI_CLIENT_CLEANUP_BINDING_CONT
 A pointer to the client module's context for the binding between the client module and the
      provider module from which it has detached. The client module passes this pointer to the NMR when it
      calls the 
-     <a href="..\netioddk\nf-netioddk-nmrclientattachprovider.md">NmrClientAttachProvider</a> function
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568770">NmrClientAttachProvider</a> function
      to attach to the provider module.
 
 
@@ -111,9 +96,9 @@ If the client module does not dynamically allocate the memory for its binding co
     <i>ClientCleanupBindingContext</i> callback function. If the client module does not implement a 
     <i>ClientCleanupBindingContext</i> callback function, then it must set the 
     <i>ClientCleanupBindingContext</i> member of the 
-    <a href="..\netioddk\ns-netioddk-_npi_client_characteristics.md">
+    <a href="https://msdn.microsoft.com/03d73a80-0860-4ec7-8eb1-5954f64b6026">
     NPI_CLIENT_CHARACTERISTICS</a> structure to <b>NULL</b> when it calls the 
-    <a href="..\netioddk\nf-netioddk-nmrregisterclient.md">NmrRegisterClient</a> function to register
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff568782">NmrRegisterClient</a> function to register
     itself with the NMR.
 
 The NMR calls a client module's 
@@ -124,26 +109,26 @@ The NMR calls a client module's
 
 ## -see-also
 
-<a href="..\netioddk\ns-netioddk-_npi_client_characteristics.md">NPI_CLIENT_CHARACTERISTICS</a>
 
 
 
-<a href="..\netioddk\nc-netioddk-npi_client_attach_provider_fn.md">ClientAttachProvider</a>
+<a href="https://msdn.microsoft.com/8f8abdb1-d018-4404-a80a-74017c324a0f">ClientAttachProvider</a>
 
 
 
-<a href="..\netioddk\nc-netioddk-npi_client_detach_provider_fn.md">ClientDetachProvider</a>
+<a href="https://msdn.microsoft.com/a684136a-e2f2-4f82-9e9a-166b40bd7536">ClientDetachProvider</a>
 
 
 
-<a href="..\netioddk\nf-netioddk-nmrclientattachprovider.md">NmrClientAttachProvider</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568812">NPI_CLIENT_CHARACTERISTICS</a>
 
 
 
-<a href="..\netioddk\nc-netioddk-npi_provider_detach_client_fn.md">ProviderDetachClient</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568770">NmrClientAttachProvider</a>
 
 
 
+<a href="https://msdn.microsoft.com/0f29bf89-856c-4019-a966-3e666a7fc78d">ProviderDetachClient</a>
  
 
  

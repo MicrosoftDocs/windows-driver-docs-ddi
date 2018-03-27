@@ -52,24 +52,6 @@ req.typenames: D3DWDDM2_2DDI_SWIZZLE_PATTERN_DESC
 Describes a swizzle pattern. 
 
 
-## -syntax
-
-
-````
-typedef struct D3DWDDM2_2DDI_SWIZZLE_PATTERN_DESC {
-  D3DWDDM2_0DDI_SWIZZLE_BIT_ENTRY InterleavePatternSourceBits[32];
-  D3DWDDM2_0DDI_SWIZZLE_BIT_ENTRY InterleavePatternXORSourceBits[32];
-  D3DWDDM2_0DDI_SWIZZLE_BIT_ENTRY InterleavePatternXOR2SourceBits[32];
-  D3DWDDM2_0DDI_SWIZZLE_BIT_ENTRY InterleavePatternXOR3SourceBits[32];
-  D3DWDDM2_0DDI_SWIZZLE_BIT_ENTRY InterleavePatternXOR4SourceBits[32];
-  D3DWDDM2_0DDI_SWIZZLE_BIT_ENTRY PostambleXORSourceBits[32];
-  D3DWDDM2_0DDI_SWIZZLE_BIT_ENTRY PostambleXOR2SourceBits[32];
-  UINT                            PostambleXORImmediate;
-  UINT                            Flags;
-} D3DWDDM2_2DDI_SWIZZLE_PATTERN_DESC;
-````
-
-
 ## -struct-fields
 
 
@@ -117,15 +99,15 @@ A postamble XOR immediate value.
 
 ### -field Flags
 
-Flags. For more information, see the <a href="..\d3d10umddi\ne-d3d10umddi-d3dwddm2_0ddi_swizzle_pattern_flags.md">D3DWDDM2_0DDI_SWIZZLE_PATTERN_FLAGS</a> enumeration. 
+Flags. For more information, see the <a href="https://msdn.microsoft.com/4C3E818B-E265-4AB8-BAAF-D3155578E558">D3DWDDM2_0DDI_SWIZZLE_PATTERN_FLAGS</a> enumeration. 
 
 
 ## -see-also
 
-<a href="..\d3d10umddi\ne-d3d10umddi-d3dwddm2_0ddi_swizzle_pattern_flags.md">D3DWDDM2_0DDI_SWIZZLE_PATTERN_FLAGS</a>
 
 
 
+<a href="https://msdn.microsoft.com/4C3E818B-E265-4AB8-BAAF-D3155578E558">D3DWDDM2_0DDI_SWIZZLE_PATTERN_FLAGS</a>
  
 
  

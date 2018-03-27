@@ -52,21 +52,6 @@ req.typenames: HBA_WWNTYPE
 The <b>HBA_SendSRL</b> routine issues a scan remote loop (SRL) request through the specified HBA to a specified domain controller. 
 
 
-## -syntax
-
-
-````
-HBA_STATUS HBA_API HBA_SendSRL(
-  _In_    HBA_HANDLE handle,
-  _In_    HBA_WWN    hbaPortWWN,
-  _In_    HBA_WWN    wwn,
-  _In_    HBA_UINT32 domain,
-  _Out_   void       *pRspBuffer,
-  _Inout_ HBA_UINT32 *pRspBufferSize
-);
-````
-
-
 ## -parameters
 
 
@@ -109,7 +94,7 @@ Indicates the number of the domain controller associated with the loops to scan.
 
 #### - handle [in]
 
-Contains a value returned by the routine <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a> that identifies the HBA through which the request is sent. 
+Contains a value returned by the routine <a href="https://msdn.microsoft.com/library/windows/hardware/ff557097">HBA_OpenAdapter</a> that identifies the HBA through which the request is sent. 
 
 
 #### - hbaPortWWN [in]
@@ -185,14 +170,14 @@ Returned if an unspecified error occurred that prevented the execution of the SR
 
 ## -see-also
 
-<a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557097">HBA_OpenAdapter</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
-
-
-
  
 
  

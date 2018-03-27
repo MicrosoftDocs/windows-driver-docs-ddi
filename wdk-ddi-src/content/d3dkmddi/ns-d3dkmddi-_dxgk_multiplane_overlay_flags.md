@@ -52,28 +52,6 @@ req.typenames: DXGK_MULTIPLANE_OVERLAY_FLAGS
 Identifies a flip operation to be performed on an overlay plane.
 
 
-## -syntax
-
-
-````
-typedef struct _DXGK_MULTIPLANE_OVERLAY_FLAGS {
-  union {
-    struct {
-      UINT VerticalFlip  :1;
-      UINT HorizontalFlip  :1;
-#if (DXGKDDI_INTERFACE_VERSION >= DXGKDDI_INTERFACE_VERSION_WDDM2_0)
-      UINT PanelFitterPostComposition;
-      UINT Reserved  :29;
-#else 
-      UINT Reserved  :30;
-#endif 
-    };
-    UINT   Value;
-  };
-} DXGK_MULTIPLANE_OVERLAY_FLAGS;
-````
-
-
 ## -struct-fields
 
 

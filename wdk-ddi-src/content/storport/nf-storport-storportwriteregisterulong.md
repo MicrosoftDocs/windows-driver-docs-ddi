@@ -54,18 +54,6 @@ req.product: Windows 10 or later.
 The <b>StorPortWriteRegisterUlong</b> routine transfers a ULONG value to the indicated HBA register address.
 
 
-## -syntax
-
-
-````
-STORPORT_API VOID StorPortWriteRegisterUlong(
-  _In_ PVOID  HwDeviceExtension,
-  _In_ PULONG Register,
-  _In_ ULONG  Value
-);
-````
-
-
 ## -parameters
 
 
@@ -92,12 +80,12 @@ TBD
 
 #### - HwDeviceExtension [in]
 
-A pointer to the hardware device extension. This is a per HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the mapped access ranges for the HBA. This area is available to the miniport driver immediately after the miniport driver calls <a href="..\storport\nf-storport-storportinitialize.md">StorPortInitialize</a>. The port driver frees this memory when it removes the device. 
+A pointer to the hardware device extension. This is a per HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the mapped access ranges for the HBA. This area is available to the miniport driver immediately after the miniport driver calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff567108">StorPortInitialize</a>. The port driver frees this memory when it removes the device. 
 
 
 #### - Register [in]
 
-Pointer to the register. The given <i>Register</i> must be in a mapped memory space range returned by <a href="..\storport\nf-storport-storportgetdevicebase.md">StorPortGetDeviceBase</a>. 
+Pointer to the register. The given <i>Register</i> must be in a mapped memory space range returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff567080">StorPortGetDeviceBase</a>. 
 
 
 #### - Value [in]
@@ -107,10 +95,10 @@ Specifies the ULONG value to be written to the HBA's register.
 
 ## -see-also
 
-<a href="..\storport\nf-storport-scsiportwriteregisterulong.md">ScsiPortWriteRegisterUlong</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564870">ScsiPortWriteRegisterUlong</a>
  
 
  

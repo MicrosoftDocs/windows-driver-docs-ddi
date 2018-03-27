@@ -52,20 +52,6 @@ req.typenames: D3DKMT_SEGMENTGROUPSIZEINFO
 A structure that holds information about the segment group size.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DKMT_SEGMENTGROUPSIZEINFO {
-  UINT32                 PhysicalAdapterIndex;
-  D3DKMT_SEGMENTSIZEINFO LegacyInfo;
-  ULONGLONG              LocalMemory;
-  ULONGLONG              NonLocalMemory;
-  ULONGLONG              NonBudgetMemory;
-} D3DKMT_SEGMENTGROUPSIZEINFO;
-````
-
-
 ## -struct-fields
 
 

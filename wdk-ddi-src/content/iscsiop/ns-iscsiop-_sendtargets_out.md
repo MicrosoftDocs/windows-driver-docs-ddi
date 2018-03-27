@@ -52,18 +52,6 @@ req.typenames: SendTargets_OUT, *PSendTargets_OUT
 The SendTargets_OUT structure holds the output data for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565526">SendTargets</a> method.
 
 
-## -syntax
-
-
-````
-typedef struct _SendTargets_OUT {
-  ULONG Status;
-  ULONG ResponseSize;
-  UCHAR Response[1];
-} SendTargets_OUT, *PSendTargets_OUT;
-````
-
-
 ## -struct-fields
 
 
@@ -95,11 +83,6 @@ You must implement this method.
 
 ## -see-also
 
-<a href="..\iscsiop\ns-iscsiop-_sendtargets_in.md">SendTargets_IN</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565526">SendTargets</a>
 
 
 
@@ -107,6 +90,11 @@ You must implement this method.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565526">SendTargets</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565533">SendTargets_IN</a>
  
 
  

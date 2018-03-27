@@ -54,16 +54,6 @@ The WSK_CLIENT_DATAGRAM_DISPATCH structure specifies a WSK application's dispatc
   callback functions for a datagram socket.
 
 
-## -syntax
-
-
-````
-typedef struct _WSK_CLIENT_DATAGRAM_DISPATCH {
-  PFN_WSK_RECEIVE_FROM_EVENT WskReceiveFromEvent;
-} WSK_CLIENT_DATAGRAM_DISPATCH, *PWSK_CLIENT_DATAGRAM_DISPATCH;
-````
-
-
 ## -struct-fields
 
 
@@ -72,7 +62,7 @@ typedef struct _WSK_CLIENT_DATAGRAM_DISPATCH {
 ### -field WskReceiveFromEvent
 
 A pointer to the WSK application's 
-     <a href="..\wsk\nc-wsk-pfn_wsk_receive_from_event.md">WskReceiveFromEvent</a> event callback
+     <a href="https://msdn.microsoft.com/1cdb8a70-54fe-44a6-a16c-71cbf6a49ef2">WskReceiveFromEvent</a> event callback
      function for the socket. If the WSK application does not enable the 
      <i>WskReceiveFromEvent</i> event callback function for the socket, this pointer can be <b>NULL</b>.
 
@@ -83,7 +73,7 @@ A pointer to the WSK application's
 
 A WSK application passes a pointer to a WSK_CLIENT_DATAGRAM_DISPATCH structure to the WSK subsystem
     when the WSK application calls the 
-    <a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a> function to create a datagram
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff571149">WskSocket</a> function to create a datagram
     socket.
 
 
@@ -91,19 +81,19 @@ A WSK application passes a pointer to a WSK_CLIENT_DATAGRAM_DISPATCH structure t
 
 ## -see-also
 
-<a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
 
 
 
-<a href="..\wsk\ns-wsk-_wsk_provider_datagram_dispatch.md">
+<a href="https://msdn.microsoft.com/fa8d3395-b800-4e5c-af03-b21520f69158">
    WSK_PROVIDER_DATAGRAM_DISPATCH</a>
 
 
 
-<a href="..\wsk\nc-wsk-pfn_wsk_receive_from_event.md">WskReceiveFromEvent</a>
+<a href="https://msdn.microsoft.com/1cdb8a70-54fe-44a6-a16c-71cbf6a49ef2">WskReceiveFromEvent</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571149">WskSocket</a>
  
 
  

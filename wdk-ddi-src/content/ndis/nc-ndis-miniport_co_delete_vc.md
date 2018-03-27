@@ -55,19 +55,6 @@ The
 <div class="alert"><b>Note</b>  You must declare the function by using the <b>MINIPORT_CO_DELETE_VC</b> type. For more
    information, see the following Examples section.</div><div> </div>
 
-## -prototype
-
-
-````
-MINIPORT_CO_DELETE_VC MiniportCoDeleteVc;
-
-NDIS_STATUS MiniportCoDeleteVc(
-  _In_ NDIS_HANDLE MiniportVcContext
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -77,7 +64,7 @@ NDIS_STATUS MiniportCoDeleteVc(
 
 Specifies the handle to a miniport driver-allocated context area in which the miniport driver
      maintains its per-VC state. The miniport driver supplied this handle to NDIS from its 
-     <a href="..\ndis\nc-ndis-miniport_co_create_vc.md">MiniportCoCreateVc</a> function.
+     <a href="https://msdn.microsoft.com/99eaba29-ce17-4e79-878e-5fdf7411e56c">MiniportCoCreateVc</a> function.
 
 
 ## -returns
@@ -160,10 +147,10 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-miniport_co_create_vc.md">MiniportCoCreateVc</a>
 
 
 
+<a href="https://msdn.microsoft.com/99eaba29-ce17-4e79-878e-5fdf7411e56c">MiniportCoCreateVc</a>
  
 
  

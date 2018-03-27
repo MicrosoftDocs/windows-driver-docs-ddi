@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: printerextension.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -56,16 +56,6 @@ Gets the print job identifier (ID).
 This property is read-only.
 
 
-## -syntax
-
-
-````
-HRESULT get_Id(
-  [out, retval] ULONG *pulID
-);
-````
-
-
 ## -parameters
 
 
@@ -80,10 +70,10 @@ You must not use the <b>IPrintJob::Id</b> property  to invoke spooler Job APIs. 
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprintjob.md">IPrintJob</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265396">IPrintJob</a>
  
 
  

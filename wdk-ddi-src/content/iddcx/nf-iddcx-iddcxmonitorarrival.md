@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: "_Must_inspect_result_"
 topic_type:
@@ -52,17 +52,6 @@ req.typenames:
 
 
                 An OS callback function the driver calls to report a monitor arrival on the WDDM graphics adapter
-
-
-## -syntax
-
-
-````
-NTSTATUS IddCxMonitorArrival(
-  _In_  IDDCX_MONITOR             AdapterObject,
-  _Out_ IDARG_OUT_MONITORARRIVAL* pOutArgs
-);
-````
 
 
 ## -parameters

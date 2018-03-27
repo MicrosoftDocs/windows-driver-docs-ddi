@@ -53,24 +53,6 @@ req.product: Windows 10 or later.
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef struct _RILSYSTEMSELECTIONPREFS_V2 {
-  DWORD                               cbSize;
-  DWORD                               dwParams;
-  DWORD                               dwExecutor;
-  DWORD                               dwSystemTypes;
-  RILSYSTEMSELECTIONPREFSMODE         dwMode;
-  RILOPERATORNAMES                    plmnInfo;
-  RILSYSTEMSELECTIONPREFSROAMINGMODE  dwRoamingMode;
-  DWORD                               dwAcquisitionOrderSize;
-  DWORD [16]                          AcquisitionOrder;
-} RILSYSTEMSELECTIONPREFS_V2, RILSYSTEMSELECTIONPREFS_V2;
-````
-
-
 ## -struct-fields
 
 

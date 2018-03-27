@@ -52,19 +52,6 @@ req.typenames: DXGKARG_SETPALETTE
 The DXGKARG_SETPALETTE structure describes the palette to set for a display. 
 
 
-## -syntax
-
-
-````
-typedef struct _DXGKARG_SETPALETTE {
-  D3DDDI_VIDEO_PRESENT_SOURCE_ID VidPnSourceId;
-  UINT                           FirstEntry;
-  UINT                           NumEntries;
-  D3DKMDT_PALETTEDATA            *pLookupTable;
-} DXGKARG_SETPALETTE;
-````
-
-
 ## -struct-fields
 
 
@@ -87,19 +74,19 @@ typedef struct _DXGKARG_SETPALETTE {
 
 ### -field pLookupTable
 
-[in] An array of color entries to copy into the device's color palette (that is, the device's color registers). Each color entry is accessed as a generic 32-bit value or as the <b>Red</b>, <b>Green</b>, <b>Blue</b>, and <b>Unused</b> members of a <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_palettedata.md">D3DKMDT_PALETTEDATA</a> structure.
+[in] An array of color entries to copy into the device's color palette (that is, the device's color registers). Each color entry is accessed as a generic 32-bit value or as the <b>Red</b>, <b>Green</b>, <b>Blue</b>, and <b>Unused</b> members of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff546155">D3DKMDT_PALETTEDATA</a> structure.
 
 
 ## -see-also
 
-<a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_palettedata.md">D3DKMDT_PALETTEDATA</a>
 
 
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_setpalette.md">DxgkDdiSetPalette</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546155">D3DKMDT_PALETTEDATA</a>
 
 
 
+<a href="https://msdn.microsoft.com/3a46bf84-df62-4247-b842-d5b131c96428">DxgkDdiSetPalette</a>
  
 
  

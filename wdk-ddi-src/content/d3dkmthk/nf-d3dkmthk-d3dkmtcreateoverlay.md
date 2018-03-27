@@ -55,16 +55,6 @@ req.typenames: D3DKMT_DRIVERVERSION
 The <b>D3DKMTCreateOverlay</b> function creates a kernel-mode overlay object.
 
 
-## -syntax
-
-
-````
-NTSTATUS D3DKMTCreateOverlay(
-  _Inout_ D3DKMT_CREATEOVERLAY *pData
-);
-````
-
-
 ## -parameters
 
 
@@ -74,7 +64,7 @@ NTSTATUS D3DKMTCreateOverlay(
 
 #### - pData [in, out]
 
-A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_createoverlay.md">D3DKMT_CREATEOVERLAY</a> structure that describes overlay hardware.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff547840">D3DKMT_CREATEOVERLAY</a> structure that describes overlay hardware.
 
 
 ## -returns
@@ -129,7 +119,7 @@ Parameters were validated and determined to be incorrect.
 </td>
 <td width="60%">
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtcreateoverlay.md">D3DKMTCreateOverlay</a> could not complete because of insufficient memory.
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546852">D3DKMTCreateOverlay</a> could not complete because of insufficient memory.
 
 </td>
 </tr>
@@ -143,10 +133,10 @@ This function might also return other <b>NTSTATUS</b> values.
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_createoverlay.md">D3DKMT_CREATEOVERLAY</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547840">D3DKMT_CREATEOVERLAY</a>
  
 
  

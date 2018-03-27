@@ -52,22 +52,6 @@ req.typenames: D3DDDI_WAITFORSYNCHRONIZATIONOBJECTFROMCPU_FLAGS
 <b>D3DDDI_WAITFORSYNCHRONIZATIONOBJECTFROMCPU_FLAGS</b> describes the type of input synchronization objects to wait for.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DDDI_WAITFORSYNCHRONIZATIONOBJECTFROMCPU_FLAGS {
-  union {
-    struct {
-      UINT WaitAny  :1;
-      UINT Reserved  :31;
-    };
-    UINT Value;
-  };
-} D3DDDI_WAITFORSYNCHRONIZATIONOBJECTFROMCPU_FLAGS;
-````
-
-
 ## -struct-fields
 
 

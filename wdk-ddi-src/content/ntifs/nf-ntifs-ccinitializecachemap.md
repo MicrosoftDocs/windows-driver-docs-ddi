@@ -52,20 +52,6 @@ req.typenames: TOKEN_TYPE
 File systems call the <b>CcInitializeCacheMap</b> routine to cache a file.
 
 
-## -syntax
-
-
-````
-VOID CcInitializeCacheMap(
-  _In_ PFILE_OBJECT             FileObject,
-  _In_ PCC_FILE_SIZES           FileSizes,
-  _In_ BOOLEAN                  PinAccess,
-  _In_ PCACHE_MANAGER_CALLBACKS Callbacks,
-  _In_ PVOID                    LazyWriteContext
-);
-````
-
-
 ## -parameters
 
 
@@ -200,9 +186,9 @@ If any failure occurs, <b>CcInitializeCacheMap</b> raises a status exception for
 
 File systems must call <b>CcInitializeCacheMap</b> to cache a file before using any other cache manager routines on the file, unless the file was created with data caching disabled. In most file systems, file caching is enabled by default, but can be disabled by setting the FILE_NO_INTERMEDIATE_BUFFERING flag to <b>TRUE</b> in the file create options.
 
-After calling <b>CcInitializeCacheMap</b>, the file system can call <a href="..\ntifs\nf-ntifs-ccsetadditionalcacheattributes.md">CcSetAdditionalCacheAttributes</a> to disable read-ahead or write-behind, if desired.
+After calling <b>CcInitializeCacheMap</b>, the file system can call <a href="https://msdn.microsoft.com/library/windows/hardware/ff539203">CcSetAdditionalCacheAttributes</a> to disable read-ahead or write-behind, if desired.
 
-When closing a file, every file system that supports file caching must call <a href="..\ntifs\nf-ntifs-ccuninitializecachemap.md">CcUninitializeCacheMap</a> on that file, whether the file is cached or not. Even if the file was created with caching disabled, the file system still must call <b>CcUninitializeCacheMap</b>.
+When closing a file, every file system that supports file caching must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff539225">CcUninitializeCacheMap</a> on that file, whether the file is cached or not. Even if the file was created with caching disabled, the file system still must call <b>CcUninitializeCacheMap</b>.
 
 The <b>CcIsFileCached</b> macro determines whether a file is cached or not.
 
@@ -236,14 +222,14 @@ Returns <b>TRUE</b> if the file is cached, <b>FALSE</b> otherwise.
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-ccuninitializecachemap.md">CcUninitializeCacheMap</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-ccsetadditionalcacheattributes.md">CcSetAdditionalCacheAttributes</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539203">CcSetAdditionalCacheAttributes</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539225">CcUninitializeCacheMap</a>
  
 
  

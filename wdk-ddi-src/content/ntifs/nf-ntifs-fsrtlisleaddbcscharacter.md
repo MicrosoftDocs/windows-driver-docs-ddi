@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: ntifs.h
+req.lib: 
 req.dll: 
 req.irql: Any level
 topic_type:
@@ -50,16 +50,6 @@ req.typenames: TOKEN_TYPE
 
 
 The <b>FsRtlIsLeadDbcsCharacter</b> macro determines whether a character is a lead byte (the first byte of a character) in a double-byte character set (DBCS). 
-
-
-## -syntax
-
-
-````
-BOOLEAN FsRtlIsLeadDbcsCharacter(
-  _In_ UCHAR DbcsCharacter
-);
-````
 
 
 ## -parameters
@@ -94,18 +84,18 @@ For information about other string-handling routines, see <a href="https://msdn.
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtldissectdbcs~r2.md">FsRtlDissectDbcs</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtldoesdbcscontainwildcards.md">FsRtlDoesDbcsContainWildCards</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545877">FsRtlDissectDbcs</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlisdbcsinexpression~r1.md">FsRtlIsDbcsInExpression</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545891">FsRtlDoesDbcsContainWildCards</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546803">FsRtlIsDbcsInExpression</a>
  
 
  

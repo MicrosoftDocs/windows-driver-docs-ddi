@@ -52,18 +52,6 @@ req.typenames: D3DDDI_MARKERLOGTYPE
 Indicates the type of marker in the Event Tracing for Windows (ETW) log that the user-mode display driver supports.
 
 
-## -syntax
-
-
-````
-typedef enum D3DDDI_MARKERLOGTYPE { 
-  D3DDDIMLT_NONE,
-  D3DDDIMLT_PROFILE,
-  D3DDDIMLT_FT_PROFILE
-} D3DDDI_MARKERLOGTYPE;
-````
-
-
 ## -enum-fields
 
 
@@ -71,7 +59,7 @@ typedef enum D3DDDI_MARKERLOGTYPE {
 
 ### -field D3DDDIMLT_NONE
 
-No marker type is supported. In this case, the marker type of submitted commands must be <a href="..\d3dumddi\ne-d3dumddi-d3dddi_markertype.md">D3DDDI_MARKERTYPE</a>.<b>D3DDDIMT_NONE</b>.
+No marker type is supported. In this case, the marker type of submitted commands must be <a href="https://msdn.microsoft.com/library/windows/hardware/dn535967">D3DDDI_MARKERTYPE</a>.<b>D3DDDIMT_NONE</b>.
 
 
 ### -field D3DDDIMLT_PROFILE
@@ -81,19 +69,19 @@ The context submits GPU work for single-threaded user-mode DDIs. In this case, e
 
 ### -field D3DDDIMLT_FT_PROFILE
 
-The context submits GPU work for free-threaded user-mode DDIs. In this case, the driver must have set the <b>Caps</b> member of the <a href="..\d3d10umddi\ns-d3d10umddi-d3d11ddi_threading_caps.md">D3D11DDI_THREADING_CAPS</a> structure to <b>D3D11DDICAPS_FREETHREADED</b>.
+The context submits GPU work for free-threaded user-mode DDIs. In this case, the driver must have set the <b>Caps</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff542163">D3D11DDI_THREADING_CAPS</a> structure to <b>D3D11DDICAPS_FREETHREADED</b>.
 
 
 ## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d11ddi_threading_caps.md">D3D11DDI_THREADING_CAPS</a>
 
 
 
-<a href="..\d3dumddi\ne-d3dumddi-d3dddi_markertype.md">D3DDDI_MARKERTYPE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542163">D3D11DDI_THREADING_CAPS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn535967">D3DDDI_MARKERTYPE</a>
  
 
  

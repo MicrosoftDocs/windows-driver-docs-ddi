@@ -46,11 +46,6 @@ req.typenames: SECURE_ELEMENT_TYPE, *PSECURE_ELEMENT_TYPE
 # IOCTL_NFCSE_ENUM_ENDPOINTS IOCTL
 
 
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
-
 ## -description
 
 
@@ -77,7 +72,7 @@ None
 
 ### -output-buffer
 
-An <a href="..\nfcsedev\ns-nfcsedev-_secure_element_endpoint_list.md"> SECURE_ELEMENT_ENDPOINT_LIST</a> for each device enumerated.
+An <a href="https://msdn.microsoft.com/0F69EE38-C124-47A6-B3CA-31F089657894"> SECURE_ELEMENT_ENDPOINT_LIST</a> for each device enumerated.
 
 
 ### -output-buffer-length

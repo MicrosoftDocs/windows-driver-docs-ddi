@@ -53,21 +53,6 @@ req.product: Windows 10 or later.
 Describes device interface class information associated with a USB interface. This structure can only hold information about a single function interface.
 
 
-## -syntax
-
-
-````
-typedef struct _USBFN_CLASS_INFORMATION_PACKET {
-  USBFN_CLASS_INTERFACE FullSpeedClassInterface;
-  USBFN_CLASS_INTERFACE HighSpeedClassInterface;
-  WCHAR                 InterfaceName[MAX_INTERFACE_NAME_LENGTH];
-  WCHAR                 InterfaceGuid[MAX_INTERFACE_GUID_LENGTH];
-  BOOLEAN               HasInterfaceGuid;
-  USBFN_CLASS_INTERFACE SuperSpeedClassInterface;
-} USBFN_CLASS_INFORMATION_PACKET, *PUSBFN_CLASS_INFORMATION_PACKET;
-````
-
-
 ## -struct-fields
 
 
@@ -75,12 +60,12 @@ typedef struct _USBFN_CLASS_INFORMATION_PACKET {
 
 ### -field FullSpeedClassInterface
 
-A <a href="..\usbfnbase\ns-usbfnbase-_usbfn_class_interface.md">USBFN_CLASS_INTERFACE</a> structure that describes an interface for full speed device.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/mt187990">USBFN_CLASS_INTERFACE</a> structure that describes an interface for full speed device.
 
 
 ### -field HighSpeedClassInterface
 
-A <a href="..\usbfnbase\ns-usbfnbase-_usbfn_class_interface.md">USBFN_CLASS_INTERFACE</a> structure that describes an interface for high speed device.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/mt187990">USBFN_CLASS_INTERFACE</a> structure that describes an interface for high speed device.
 
 
 ### -field InterfaceName
@@ -100,7 +85,7 @@ Determines whether the driver has published a device interface is GUID.
 
 ### -field SuperSpeedClassInterface
 
-A <a href="..\usbfnbase\ns-usbfnbase-_usbfn_class_interface.md">USBFN_CLASS_INTERFACE</a> structure that describes an interface for SuperSpeed device.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/mt187990">USBFN_CLASS_INTERFACE</a> structure that describes an interface for SuperSpeed device.
 
 
 #### - InterfaceGuid[MAX_INTERFACE_GUID_LENGTH]
@@ -115,18 +100,18 @@ A string that contains the interface name.
 
 ## -see-also
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdevicesetdeviceinterfacestate.md">WdfDeviceSetDeviceInterfaceState</a>
 
 
 
-<a href="..\usbfnbase\ns-usbfnbase-_usbfn_class_interface.md">USBFN_CLASS_INTERFACE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt187990">USBFN_CLASS_INTERFACE</a>
 
 
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreatesymboliclink.md">WdfDeviceCreateSymbolicLink</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545939">WdfDeviceCreateSymbolicLink</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546878">WdfDeviceSetDeviceInterfaceState</a>
  
 
  

@@ -52,17 +52,6 @@ req.typenames: D3D10DDIARG_CREATEELEMENTLAYOUT
 The D3D10DDIARG_CREATEELEMENTLAYOUT structure describes the element layout to create.
 
 
-## -syntax
-
-
-````
-typedef struct D3D10DDIARG_CREATEELEMENTLAYOUT {
-  const D3D10DDIARG_INPUT_ELEMENT_DESC *pVertexElements;
-  UINT                                 NumElements;
-} D3D10DDIARG_CREATEELEMENTLAYOUT;
-````
-
-
 ## -struct-fields
 
 
@@ -70,7 +59,7 @@ typedef struct D3D10DDIARG_CREATEELEMENTLAYOUT {
 
 ### -field pVertexElements
 
-[in] An array of <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_input_element_desc.md">D3D10DDIARG_INPUT_ELEMENT_DESC</a> structures that describes each element in the element layout. 
+[in] An array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff541717">D3D10DDIARG_INPUT_ELEMENT_DESC</a> structures that describes each element in the element layout. 
 
 
 ### -field NumElements
@@ -80,18 +69,18 @@ typedef struct D3D10DDIARG_CREATEELEMENTLAYOUT {
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createelementlayout.md">CreateElementLayout</a>
 
 
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_calcprivateelementlayoutsize.md">CalcPrivateElementLayoutSize</a>
+<a href="https://msdn.microsoft.com/9fc80cea-8e4a-467a-b232-74333d2ceb5f">CalcPrivateElementLayoutSize</a>
 
 
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_input_element_desc.md">D3D10DDIARG_INPUT_ELEMENT_DESC</a>
+<a href="https://msdn.microsoft.com/5af2189a-a064-4c62-be09-733c1d632983">CreateElementLayout</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541717">D3D10DDIARG_INPUT_ELEMENT_DESC</a>
  
 
  

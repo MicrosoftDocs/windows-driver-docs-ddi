@@ -52,26 +52,6 @@ req.typenames: DXGK_PLANE_SPECIFIC_INPUT_FLAGS
 A structure containing the input flags to be used for the driver that apply to a plane.
 
 
-## -syntax
-
-
-````
-typedef struct _DXGK_PLANE_SPECIFIC_INPUT_FLAGS {
-  union {
-    struct {
-      UINT Enabled  :1;
-      UINT FlipImmediate  :1;
-      UINT FlipOnNextVSync  :1;
-      UINT SharedPrimaryTransition  :1;
-      UINT IndependentFlipExclusive  :1;
-      UINT Reserved  :27;
-    };
-    UINT Value;
-  };
-} DXGK_PLANE_SPECIFIC_INPUT_FLAGS;
-````
-
-
 ## -struct-fields
 
 

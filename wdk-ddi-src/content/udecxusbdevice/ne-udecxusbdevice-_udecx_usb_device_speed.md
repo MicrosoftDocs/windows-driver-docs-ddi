@@ -53,19 +53,6 @@ req.product: Windows 10 or later.
 Defines values for USB device speeds. 
 
 
-## -syntax
-
-
-````
-typedef enum _UDECX_USB_DEVICE_SPEED { 
-  UdecxUsbLowSpeed    = 0,
-  UdecxUsbFullSpeed   = ,
-  UdecxUsbHighSpeed   = ,
-  UdecxUsbSuperSpeed  = 
-} UDECX_USB_DEVICE_SPEED;
-````
-
-
 ## -enum-fields
 
 
@@ -93,10 +80,10 @@ Indicates a SuperSpeed USB 3.0-compliant device.
 
 ## -see-also
 
-<a href="..\udecxusbdevice\nf-udecxusbdevice-udecxusbdeviceinitsetspeed.md">UdecxUsbDeviceInitSetSpeed</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt627971">UdecxUsbDeviceInitSetSpeed</a>
  
 
  

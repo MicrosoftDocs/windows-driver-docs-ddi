@@ -52,17 +52,6 @@ req.typenames: MP_STORAGE_DIAGNOSTIC_LEVEL, *PMP_STORAGE_DIAGNOSTIC_LEVEL
 The <b>MP_STORAGE_DIAGNOSTIC_LEVEL</b> enumeration allows the caller to control what kinds of data the provider should return.
 
 
-## -syntax
-
-
-````
-typedef enum _MP_STORAGE_DIAGNOSTIC_LEVEL { 
-  StorageDiagnosticLevelDefault  = 0,
-  StorageDiagnosticLevelMax
-} MP_STORAGE_DIAGNOSTIC_LEVEL, *PMP_STORAGE_DIAGNOSTIC_LEVEL;
-````
-
-
 ## -enum-fields
 
 

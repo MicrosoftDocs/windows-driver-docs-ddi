@@ -52,16 +52,6 @@ req.typenames: SetLoadBalancePolicy_OUT, *PSetLoadBalancePolicy_OUT
 The SetLoadBalancePolicy_OUT structure holds the output data for the SetLoadBalance method.
 
 
-## -syntax
-
-
-````
-typedef struct _SetLoadBalancePolicy_OUT {
-  ULONG Status;
-} SetLoadBalancePolicy_OUT, *PSetLoadBalancePolicy_OUT;
-````
-
-
 ## -struct-fields
 
 
@@ -83,7 +73,6 @@ You must implement this class. For a list of possible status qualifiers, see <a 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563062">MSiSCSI_LB_Operations WMI Class</a>
 
 
 
@@ -91,6 +80,7 @@ You must implement this class. For a list of possible status qualifiers, see <a 
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563062">MSiSCSI_LB_Operations WMI Class</a>
  
 
  

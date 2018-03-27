@@ -52,26 +52,12 @@ req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 The <i>RelocateDeviceFuncs(D3D11)</i> function notifies the user-mode display driver about the new location of the driver function table. 
 
 
-## -prototype
-
-
-````
-PFND3D11DDI_RELOCATEDEVICEFUNCS RelocateDeviceFuncs;
-
-VOID APIENTRY RelocateDeviceFuncs(
-  _In_ D3D10DDI_HDEVICE            hDevice,
-  _In_ struct D3D11DDI_DEVICEFUNCS *pDeviceFunctions
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
 
 
-### -param D3D10DDI_HDEVICE
+### -param Arg1
 
 
 ### -param *
@@ -90,7 +76,7 @@ VOID APIENTRY RelocateDeviceFuncs(
 
 #### - pDeviceFunctions [in]
 
- A pointer to a <a href="..\d3d10umddi\ns-d3d10umddi-d3d11ddi_devicefuncs.md">D3D11DDI_DEVICEFUNCS</a> structure that contains pointers to the functions of the user-mode display driver. 
+ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff542141">D3D11DDI_DEVICEFUNCS</a> structure that contains pointers to the functions of the user-mode display driver. 
 
 
 ## -returns
@@ -99,7 +85,7 @@ VOID APIENTRY RelocateDeviceFuncs(
 
 None
 
-The driver can use the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a> callback function to set an error code. 
+The driver can use the <a href="https://msdn.microsoft.com/968b04a7-8869-410c-a6fc-83d57726858f">pfnSetErrorCb</a> callback function to set an error code. 
 
 
 
@@ -115,14 +101,14 @@ A user-mode display driver can use the <i>RelocateDeviceFuncs(D3D11)</i> functio
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
 
 
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d11ddi_devicefuncs.md">D3D11DDI_DEVICEFUNCS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542141">D3D11DDI_DEVICEFUNCS</a>
 
 
 
+<a href="https://msdn.microsoft.com/968b04a7-8869-410c-a6fc-83d57726858f">pfnSetErrorCb</a>
  
 
  

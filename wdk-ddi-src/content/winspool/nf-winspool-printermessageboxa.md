@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,21 +51,6 @@ req.product: Windows 10 or later.
 
 
 
-
-
-## -syntax
-
-
-````
-DWORD WINAPI PrinterMessageBoxA(
-  _In_ HANDLE         hPrinter,
-       DWORD          Error,
-  _In_ HWND           hWnd,
-  _In_ LPSTR          pText,
-  _In_ LPSTR          pCaption,
-       DWORD          dwType
-);
-````
 
 
 ## -parameters

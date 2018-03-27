@@ -46,11 +46,6 @@ req.typenames: TAPE_WRITE_MARKS, *PTAPE_WRITE_MARKS
 # IOCTL_VIDEO_QUERY_POINTER_CAPABILITIES IOCTL
 
 
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
-
 ## -description
 
 
@@ -81,7 +76,7 @@ None
 
 ### -output-buffer
 
-The miniport driver returns a <a href="..\ntddvdeo\ns-ntddvdeo-_video_pointer_capabilities.md">VIDEO_POINTER_CAPABILITIES</a> structure in the VRP <b>OutputBuffer</b>.
+The miniport driver returns a <a href="https://msdn.microsoft.com/library/windows/hardware/ff570525">VIDEO_POINTER_CAPABILITIES</a> structure in the VRP <b>OutputBuffer</b>.
 
 
 ### -output-buffer-length
@@ -113,19 +108,19 @@ The miniport driver returns a <a href="..\ntddvdeo\ns-ntddvdeo-_video_pointer_ca
 
 ### -status-block
 
-If the miniport driver successfully returns the pointer capabilities, it sets the <b>Information</b> member of the <a href="..\video\ns-video-_status_block.md">STATUS_BLOCK</a> structure to <b>sizeof</b>(VIDEO_POINTER_CAPABILITIES); otherwise, the miniport driver sets this member to zero.
+If the miniport driver successfully returns the pointer capabilities, it sets the <b>Information</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff569732">STATUS_BLOCK</a> structure to <b>sizeof</b>(VIDEO_POINTER_CAPABILITIES); otherwise, the miniport driver sets this member to zero.
 
 
 ## -see-also
 
-<a href="..\video\ns-video-_status_block.md">STATUS_BLOCK</a>
 
 
 
-<a href="..\ntddvdeo\ns-ntddvdeo-_video_pointer_capabilities.md">VIDEO_POINTER_CAPABILITIES</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569732">STATUS_BLOCK</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570525">VIDEO_POINTER_CAPABILITIES</a>
  
 
  

@@ -52,16 +52,6 @@ req.typenames: DsmSetLoadBalancePolicyALUA_IN, *PDsmSetLoadBalancePolicyALUA_IN
 The DsmSetLoadBalancePolicyALUA_IN structure provides the input parameter for the DsmSetLoadBalancePolicyALUA method.
 
 
-## -syntax
-
-
-````
-typedef struct _DsmSetLoadBalancePolicyALUA_IN {
-  DSM_Load_Balance_Policy_V2 LoadBalancePolicy;
-} DsmSetLoadBalancePolicyALUA_IN, *PDsmSetLoadBalancePolicyALUA_IN;
-````
-
-
 ## -struct-fields
 
 

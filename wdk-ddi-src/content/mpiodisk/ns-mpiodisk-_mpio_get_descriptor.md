@@ -52,18 +52,6 @@ req.typenames: MPIO_GET_DESCRIPTOR, *PMPIO_GET_DESCRIPTOR
 The MPIO_GET_DESCRIPTOR structure is used to query for LUN instances that correspond to various paths. This structure retrieves device-path pairing information about a multi-path disk. The target of the request must be a pseudo-LUN that is addressed by using its WMI instance name.
 
 
-## -syntax
-
-
-````
-typedef struct _MPIO_GET_DESCRIPTOR {
-  ULONG           NumberPdos;
-  WCHAR           DeviceName[63 + 1];
-  PDO_INFORMATION PdoInformation[1];
-} MPIO_GET_DESCRIPTOR, *PMPIO_GET_DESCRIPTOR;
-````
-
-
 ## -struct-fields
 
 

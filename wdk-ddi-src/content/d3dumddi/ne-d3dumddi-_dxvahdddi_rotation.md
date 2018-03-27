@@ -52,19 +52,6 @@ req.typenames: DXVAHDDDI_ROTATION
 Specifies the clockwise rotation of the display output surface.
 
 
-## -syntax
-
-
-````
-typedef enum _DXVAHDDDI_ROTATION { 
-  DXVAHDDDI_ROTATION_IDENTITY  = 0,
-  DXVAHDDDI_ROTATION_90        = 1,
-  DXVAHDDDI_ROTATION_180       = 2,
-  DXVAHDDDI_ROTATION_270       = 3
-} DXVAHDDDI_ROTATION;
-````
-
-
 ## -enum-fields
 
 

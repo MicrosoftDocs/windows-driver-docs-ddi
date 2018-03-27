@@ -56,16 +56,6 @@ req.product: Windows 10 or later.
 The <b>WdfWdmDriverGetWdfDriverHandle</b> method returns a handle to the framework driver object that is associated with a specified Windows Driver Model (WDM) driver object.
 
 
-## -syntax
-
-
-````
-WDFDRIVER WdfWdmDriverGetWdfDriverHandle(
-  _In_ PDRIVER_OBJECT DriverObject
-);
-````
-
-
 ## -parameters
 
 

@@ -46,11 +46,6 @@ req.typenames: STORAGE_ZONE_CONDITION, *PSTORAGE_ZONE_CONDITION
 # IOCTL_STORAGE_RESET_BUS IOCTL
 
 
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
-
 ## -description
 
 
@@ -69,12 +64,12 @@ The <b>SrbStatus</b> flag of pending SRBs is set to SRB_STATUS_BUS_RESET.
 
 ### -input-buffer
 
-The buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> contains a <a href="..\ntddstor\ns-ntddstor-_storage_bus_reset_request.md">STORAGE_BUS_RESET_REQUEST</a> structure that specifies the path ID of the bus to reset.
+The buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> contains a <a href="https://msdn.microsoft.com/library/windows/hardware/ff566354">STORAGE_BUS_RESET_REQUEST</a> structure that specifies the path ID of the bus to reset.
 
 
 ### -input-buffer-length
 
-The length of a <a href="..\ntddstor\ns-ntddstor-_storage_bus_reset_request.md">STORAGE_BUS_RESET_REQUEST</a> structure.
+The length of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff566354">STORAGE_BUS_RESET_REQUEST</a> structure.
 
 
 ### -output-buffer
@@ -112,10 +107,10 @@ The <b>Information</b> field is set to zero. The <b>Status</b> field is set to S
 
 ## -see-also
 
-<a href="..\ntddstor\ns-ntddstor-_storage_bus_reset_request.md">STORAGE_BUS_RESET_REQUEST</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566354">STORAGE_BUS_RESET_REQUEST</a>
  
 
  

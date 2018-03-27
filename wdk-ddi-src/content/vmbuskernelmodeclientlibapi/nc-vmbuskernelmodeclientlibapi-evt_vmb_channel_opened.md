@@ -56,22 +56,6 @@ The <i>EvtVmbChannelOpened</i> callback function is invoked when the client endp
 channel which has been offered to it. 
 
 
-## -prototype
-
-
-````
-EVT_VMB_CHANNEL_OPENED EvtVmbChannelOpened;
-
-NTSTATUS
- EvtVmbChannelOpened(
-  _In_ VMBCHANNEL Channel
-)
-{ ... }
-
-typedef EVT_VMB_CHANNEL_OPENED PFN_VMB_CHANNEL_OPENED;
-````
-
-
 ## -parameters
 
 
@@ -95,10 +79,10 @@ EvtVmbChannelClosed returns a status code.
 
 
 
-After a channel is created, a client driver can specify callback functions for state changes, including  <i>EvtVmbChannelOpened</i>, by using the <a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmb_channel_state_change_callbacks_init.md">VMB_CHANNEL_STATE_CHANGE_CALLBACKS_INIT</a> function.
+After a channel is created, a client driver can specify callback functions for state changes, including  <i>EvtVmbChannelOpened</i>, by using the <a href="https://msdn.microsoft.com/2255C8A2-85FB-4B96-8AE9-66FAFD73EE73">VMB_CHANNEL_STATE_CHANGE_CALLBACKS_INIT</a> function.
 
 After a channel has been  
-configured, the Kernel Mode Client Library (KMCL) client calls the <a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbchannelenable.md">VmbChannelEnable</a> function.  On the host, this 
+configured, the Kernel Mode Client Library (KMCL) client calls the <a href="https://msdn.microsoft.com/A0256B3F-C35C-45AB-A825-0A82189F08DC">VmbChannelEnable</a> function.  On the host, this 
 function offers a channel to the guest.  On the guest, this function 
 accepts an existing offer or waits for such an offer to arrive.  When a channel is opened, KMCL invokes the <i>EvtVmbChannelOpened</i> callback function.  
 After this callback finishes, the channel
@@ -116,14 +100,14 @@ rolls back to a state where no traffic flows.
 
 ## -see-also
 
-<a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbchannelenable.md">VmbChannelEnable</a>
 
 
 
-<a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmb_channel_state_change_callbacks_init.md">VMB_CHANNEL_STATE_CHANGE_CALLBACKS_INIT</a>
+<a href="https://msdn.microsoft.com/2255C8A2-85FB-4B96-8AE9-66FAFD73EE73">VMB_CHANNEL_STATE_CHANGE_CALLBACKS_INIT</a>
 
 
 
+<a href="https://msdn.microsoft.com/A0256B3F-C35C-45AB-A825-0A82189F08DC">VmbChannelEnable</a>
  
 
  

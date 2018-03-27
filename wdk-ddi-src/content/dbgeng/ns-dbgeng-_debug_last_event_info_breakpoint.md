@@ -52,16 +52,6 @@ req.typenames: DEBUG_LAST_EVENT_INFO_BREAKPOINT, *PDEBUG_LAST_EVENT_INFO_BREAKPO
 Describes the breakpoint of the last event.
 
 
-## -syntax
-
-
-````
-typedef struct _DEBUG_LAST_EVENT_INFO_BREAKPOINT {
-  ULONG Id;
-} DEBUG_LAST_EVENT_INFO_BREAKPOINT, *PDEBUG_LAST_EVENT_INFO_BREAKPOINT;
-````
-
-
 ## -struct-fields
 
 

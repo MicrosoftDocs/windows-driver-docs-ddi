@@ -52,18 +52,6 @@ req.typenames: RILEMERGENCYMODECONTROLPARAMSCONTROL
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef enum _RILEMERGENCYMODECONTROLPARAMSCONTROL { 
-  RIL_EMC_OTHER_MODEM_IN_EMERGECY_MODE,
-  RIL_EMC_ALL_MODEMS_ARE_IN_NORMAL_MODE,
-  RIL_EMC_MAX
-} RILEMERGENCYMODECONTROLPARAMSCONTROL;
-````
-
-
 ## -enum-fields
 
 

@@ -58,16 +58,6 @@ req.product: Windows 10 or later.
 The <b>WdfObjectContextGetObject</b> method returns a handle to the framework object that a specified context space belongs to.
 
 
-## -syntax
-
-
-````
-WDFOBJECT WdfObjectContextGetObject(
-  _In_ PVOID ContextPointer
-);
-````
-
-
 ## -parameters
 
 
@@ -115,10 +105,10 @@ device = WdfObjectContextGetObject(DeviceContext);</pre>
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548749">WdfObjectGetTypedContext</a>
-
-
-
  
 
  

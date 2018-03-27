@@ -52,23 +52,12 @@ req.typenames: D3D11_1DDI_GETCAPTUREHANDLEDATA
 Used to calculate the pipeline state size.
 
 
-## -prototype
-
-
-````
-SIZE_T APIENTRY* PFND3D12DDI_CALC_PRIVATE_PIPELINE_STATE_SIZE_0033 (
-             D3D12DDI_HDEVICE                       hDevice,
-  _In_ const D3D12DDIARG_CREATE_PIPELINE_STATE_0033 *d3d12ddiarg_create_pipeline_state_0033
-);
-````
-
-
 ## -parameters
 
 
 
 
-### -param D3D12DDI_HDEVICE
+### -param Arg1
 
 
 ### -param *

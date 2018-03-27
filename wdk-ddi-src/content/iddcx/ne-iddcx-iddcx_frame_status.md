@@ -54,19 +54,6 @@ req.typenames:
                 
 
 
-## -syntax
-
-
-````
-typedef enum _IDDCX_FRAME_STATUS { 
-  IDDCX_FRAME_STATUS_UNINITIALIZED  = 0,
-  IDDCX_FRAME_STATUS_COMPLETED      = 1,
-  IDDCX_FRAME_STATUS_DROPPED        = 2,
-  IDDCX_FRAME_STATUS_ERROR          = 3
-} IDDCX_FRAME_STATUS;
-````
-
-
 ## -enum-fields
 
 

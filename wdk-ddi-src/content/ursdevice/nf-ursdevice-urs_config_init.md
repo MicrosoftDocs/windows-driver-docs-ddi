@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -50,19 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-Initializes a <a href="..\ursdevice\ns-ursdevice-_urs_config.md">URS_CONFIG</a> structure. 
-
-
-## -syntax
-
-
-````
-FORCEINLINE void URS_CONFIG_INIT(
-  _Out_ PURS_CONFIG                                 Config,
-  _In_  URS_HOST_INTERFACE_TYPE                     HostInterfaceType,
-  _In_  PFN_URS_DEVICE_FILTER_RESOURCE_REQUIREMENTS EvtUrsFilterRemoveResourceRequirements
-);
-````
+Initializes a <a href="https://msdn.microsoft.com/library/windows/hardware/mt628020">URS_CONFIG</a> structure. 
 
 
 ## -parameters
@@ -72,12 +60,12 @@ FORCEINLINE void URS_CONFIG_INIT(
 
 ### -param Config [out]
 
- A pointer to a <a href="..\ursdevice\ns-ursdevice-_urs_config.md">URS_CONFIG</a> structure to initialize.
+ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/mt628020">URS_CONFIG</a> structure to initialize.
 
 
 ### -param HostInterfaceType [in]
 
- A <a href="..\urstypes\ne-urstypes-_urs_host_interface_type.md">URS_HOST_INTERFACE_TYPE</a> type value that indicates the type of host controller that the dual-role controller implements.
+ A <a href="https://msdn.microsoft.com/library/windows/hardware/mt628023">URS_HOST_INTERFACE_TYPE</a> type value that indicates the type of host controller that the dual-role controller implements.
 
 
 ### -param EvtUrsFilterRemoveResourceRequirements [in]
@@ -96,14 +84,14 @@ This function does not return a value.
 
 ## -see-also
 
-<a href="..\ursdevice\ns-ursdevice-_urs_config.md">URS_CONFIG</a>
 
 
 
-<a href="..\ursdevice\nf-ursdevice-ursdeviceinitialize.md">UrsDeviceInitialize</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt628020">URS_CONFIG</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt628012">UrsDeviceInitialize</a>
  
 
  

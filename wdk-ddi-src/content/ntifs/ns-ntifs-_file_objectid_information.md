@@ -52,25 +52,6 @@ req.typenames: FILE_OBJECTID_INFORMATION, *PFILE_OBJECTID_INFORMATION
 The FILE_OBJECTID_INFORMATION structure is used to query for object ID information for the files in a directory on an NTFS volume. 
 
 
-## -syntax
-
-
-````
-typedef struct _FILE_OBJECTID_INFORMATION {
-  LONGLONG FileReference;
-  UCHAR    ObjectId[16];
-  union {
-    struct {
-      UCHAR BirthVolumeId[16];
-      UCHAR BirthObjectId[16];
-      UCHAR DomainId[16];
-    };
-    UCHAR  ExtendedInfo[48];
-  };
-} FILE_OBJECTID_INFORMATION, *PFILE_OBJECTID_INFORMATION;
-````
-
-
 ## -struct-fields
 
 
@@ -149,7 +130,7 @@ This information can be queried in either of the following ways:
 
 <ul>
 <li>
-Call <a href="..\ntifs\nf-ntifs-zwquerydirectoryfile.md">ZwQueryDirectoryFile</a>, passing FileObjectIdInformation as the value of <i>FileInformationClass</i> and passing a caller-allocated, FILE_OBJECTID_INFORMATION-structured buffer as the value of <i>FileInformation</i>. 
+Call <a href="https://msdn.microsoft.com/library/windows/hardware/ff567047">ZwQueryDirectoryFile</a>, passing FileObjectIdInformation as the value of <i>FileInformationClass</i> and passing a caller-allocated, FILE_OBJECTID_INFORMATION-structured buffer as the value of <i>FileInformation</i>. 
 
 </li>
 <li>
@@ -170,11 +151,10 @@ This structure must be aligned on a LONG (4-byte) boundary.
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-zwquerydirectoryfile.md">ZwQueryDirectoryFile</a>
 
 
 
-<a href="..\ntifs\ns-ntifs-_file_internal_information.md">FILE_INTERNAL_INFORMATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540318">FILE_INTERNAL_INFORMATION</a>
 
 
 
@@ -182,6 +162,7 @@ This structure must be aligned on a LONG (4-byte) boundary.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567047">ZwQueryDirectoryFile</a>
  
 
  

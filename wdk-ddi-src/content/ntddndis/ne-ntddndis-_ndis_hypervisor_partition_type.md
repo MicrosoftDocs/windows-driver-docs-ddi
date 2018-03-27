@@ -57,19 +57,6 @@ req.typenames: NDIS_HYPERVISOR_PARTITION_TYPE, *PNDIS_HYPERVISOR_PARTITION_TYPE
   on the hypervisor.
 
 
-## -syntax
-
-
-````
-typedef enum _NDIS_HYPERVISOR_PARTITION_TYPE { 
-  NdisHypervisorPartitionTypeUnknown,
-  NdisHypervisorPartitionTypeMsHvParent,
-  NdisHypervisorPartitionMsHvChild,
-  NdisHypervisorPartitionTypeMax
-} NDIS_HYPERVISOR_PARTITION_TYPE, *PNDIS_HYPERVISOR_PARTITION_TYPE;
-````
-
-
 ## -enum-fields
 
 
@@ -111,10 +98,10 @@ For more information about Hyper-V parent and child partitions, see <a href="htt
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_hypervisor_info.md">NDIS_HYPERVISOR_INFO</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565708">NDIS_HYPERVISOR_INFO</a>
  
 
  

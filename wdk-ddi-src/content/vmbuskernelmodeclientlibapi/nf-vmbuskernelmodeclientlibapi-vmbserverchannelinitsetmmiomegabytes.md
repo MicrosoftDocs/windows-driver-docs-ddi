@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -54,18 +54,6 @@ req.product: Windows 10 or later.
 
 The <b>VmbServerChannelInitSetMmioMegabytes</b> function specifies the amount, in
 megabytes, of guest memory-mapped I/O (MMIO) space to reserve for the device. 
-
-
-## -syntax
-
-
-````
-NTSTATUS VmbServerChannelInitSetMmioMegabytes(
-  _In_ VMBCHANNEL         Channel,
-  _In_ range_(>,0) UINT16 MmioMegabytes,
-  _In_ UINT16             MmioMegabytesOptional
-);
-````
 
 
 ## -parameters

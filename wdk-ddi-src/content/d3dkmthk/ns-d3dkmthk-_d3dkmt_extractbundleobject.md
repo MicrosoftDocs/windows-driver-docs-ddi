@@ -52,19 +52,6 @@ req.typenames: D3DKMT_EXTRACTBUNDLEOBJECT
 Used to extract the bundle object.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DKMT_EXTRACTBUNDLEOBJECT {
-  HANDLE hNtBundleHandle;
-  UINT   cObjects;
-  DWORD  *pdwDesiredAccess;
-  HANDLE *phNtHandles;
-} D3DKMT_EXTRACTBUNDLEOBJECT;
-````
-
-
 ## -struct-fields
 
 

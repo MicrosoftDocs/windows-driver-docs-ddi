@@ -49,24 +49,7 @@ req.typenames: BAND_MANAGEMENT_CAPABILITIES, *PBAND_MANAGEMENT_CAPABILITIES
 ## -description
 
 
-The <b>BAND_MANAGEMENT_CAPABILITIES</b> structure contains the security capabilities available for a storage device. This structure is returned in the system buffer by the <a href="..\ehstorbandmgmt\ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_query_capabilities.md">IOCTL_EHSTOR_BANDMGMT_QUERY_CAPABILITIES</a> request.
-
-
-## -syntax
-
-
-````
-typedef struct _BAND_MANAGEMENT_CAPABILITIES {
-  ULONG     StructSize;
-  ULONG     Capabilities;
-  ULONGLONG KeyProtectionMechanism;
-  ULONG     MinAuthKeyLength;
-  ULONG     MaxAuthKeyLength;
-  ULONG     MaxBandCount;
-  ULONG     MaxSimultaneousReencryptionCount;
-  ULONG     BandMetadataSize;
-} BAND_MANAGEMENT_CAPABILITIES, *PBAND_MANAGEMENT_CAPABILITIES;
-````
+The <b>BAND_MANAGEMENT_CAPABILITIES</b> structure contains the security capabilities available for a storage device. This structure is returned in the system buffer by the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451390">IOCTL_EHSTOR_BANDMGMT_QUERY_CAPABILITIES</a> request.
 
 
 ## -struct-fields
@@ -194,21 +177,21 @@ The size, in bytes, of the per band metadata store.
 
 
 
-If <b>CAPS_ACTIVATED</b> is not set in <b>Capabilities</b>, security functionality can be activated with the <a href="..\ehstorbandmgmt\ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_activate.md">IOCTL_EHSTOR_BANDMGMT_ACTIVATE</a> request.
+If <b>CAPS_ACTIVATED</b> is not set in <b>Capabilities</b>, security functionality can be activated with the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451367">IOCTL_EHSTOR_BANDMGMT_ACTIVATE</a> request.
 
 
 
 
 ## -see-also
 
-<a href="..\ehstorbandmgmt\ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_query_capabilities.md">IOCTL_EHSTOR_BANDMGMT_QUERY_CAPABILITIES</a>
 
 
 
-<a href="..\ehstorbandmgmt\ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_activate.md">IOCTL_EHSTOR_BANDMGMT_ACTIVATE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451367">IOCTL_EHSTOR_BANDMGMT_ACTIVATE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451390">IOCTL_EHSTOR_BANDMGMT_QUERY_CAPABILITIES</a>
  
 
  

@@ -52,18 +52,6 @@ req.typenames: D3D10_DDIARG_SUBRESOURCE_UP
 The D3D10_DDIARG_SUBRESOURCE_UP structure describes initialization information about a subresource.
 
 
-## -syntax
-
-
-````
-typedef struct D3D10_DDIARG_SUBRESOURCE_UP {
-  VOID *pSysMem;
-  UINT SysMemPitch;
-  UINT SysMemSlicePitch;
-} D3D10_DDIARG_SUBRESOURCE_UP;
-````
-
-
 ## -struct-fields
 
 
@@ -86,10 +74,10 @@ typedef struct D3D10_DDIARG_SUBRESOURCE_UP {
 
 ## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createresource.md">D3D10DDIARG_CREATERESOURCE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541697">D3D10DDIARG_CREATERESOURCE</a>
  
 
  

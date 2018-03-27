@@ -53,17 +53,7 @@ req.product: Windows 10 or later.
 
 <p class="CCE_Message">[Applies to KMDF only]
 
-The <b>WdfRequestWdmGetIrp</b> method returns the WDM <a href="..\wdm\ns-wdm-_irp.md">IRP</a> structure that is associated with a specified framework request object.
-
-
-## -syntax
-
-
-````
-PIRP WdfRequestWdmGetIrp(
-  _In_ WDFREQUEST Request
-);
-````
+The <b>WdfRequestWdmGetIrp</b> method returns the WDM <a href="https://msdn.microsoft.com/library/windows/hardware/ff550694">IRP</a> structure that is associated with a specified framework request object.
 
 
 ## -parameters
@@ -80,7 +70,7 @@ A handle to a framework request object.
 
 
 
-<b>WdfRequestWdmGetIrp</b> returns a pointer to an <a href="..\wdm\ns-wdm-_irp.md">IRP</a> structure.
+<b>WdfRequestWdmGetIrp</b> returns a pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff550694">IRP</a> structure.
 
 A bug check occurs if the driver supplies an invalid object handle.
 
@@ -98,7 +88,7 @@ For more information about <b>WdfRequestWdmGetIrp</b>, see <a href="https://msdn
 
 #### Examples
 
-The following code example is part of an <a href="..\wdfio\nc-wdfio-evt_wdf_io_queue_io_device_control.md">EvtIoDeviceControl</a> callback function that obtains the WDM IRP that is associated with an I/O request and then calls <a href="..\wdm\nf-wdm-iogetnextirpstacklocation.md">IoGetNextIrpStackLocation</a> to obtain the next-lower driver's I/O stack location.
+The following code example is part of an <a href="https://msdn.microsoft.com/3e3c4c53-e557-4bd1-8b7d-be59dde4b9ce">EvtIoDeviceControl</a> callback function that obtains the WDM IRP that is associated with an I/O request and then calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff549266">IoGetNextIrpStackLocation</a> to obtain the next-lower driver's I/O stack location.
 
 <div class="code"><span codelanguage=""><table>
 <tr>
@@ -130,10 +120,10 @@ MyEvtIoDeviceControl(
 
 ## -see-also
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestgetparameters.md">WdfRequestGetParameters</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549969">WdfRequestGetParameters</a>
  
 
  

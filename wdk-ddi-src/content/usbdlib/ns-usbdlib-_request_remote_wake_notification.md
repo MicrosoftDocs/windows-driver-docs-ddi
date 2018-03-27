@@ -50,20 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The purpose of the <b>REQUEST_REMOTE_WAKE_NOTIFICATION</b> structure is to specify input parameters for the  <a href="..\usbioctl\ni-usbioctl-ioctl_internal_usb_request_remote_wake_notification.md">IOCTL_INTERNAL_USB_REQUEST_REMOTE_WAKE_NOTIFICATION</a> I/O control request. 
-
-
-## -syntax
-
-
-````
-typedef struct _REQUEST_REMOTE_WAKE_NOTIFICATION {
-  USHORT               Version;
-  USHORT               Size;
-  USBD_FUNCTION_HANDLE UsbdFunctionHandle;
-  ULONG                Interface;
-} REQUEST_REMOTE_WAKE_NOTIFICATION, *PREQUEST_REMOTE_WAKE_NOTIFICATION;
-````
+The purpose of the <b>REQUEST_REMOTE_WAKE_NOTIFICATION</b> structure is to specify input parameters for the  <a href="https://msdn.microsoft.com/library/windows/hardware/hh450856">IOCTL_INTERNAL_USB_REQUEST_REMOTE_WAKE_NOTIFICATION</a> I/O control request. 
 
 
 ## -struct-fields
@@ -83,7 +70,7 @@ The size of the <b>REQUEST_REMOTE_WAKE_NOTIFICATION</b> structure.
 
 ### -field UsbdFunctionHandle
 
-A function handle that is associated with the function that sends the resume signal. The handle was obtained in a previous <a href="..\usbioctl\ni-usbioctl-ioctl_internal_usb_register_composite_device.md">IOCTL_INTERNAL_USB_REGISTER_COMPOSITE_DEVICE</a> request.
+A function handle that is associated with the function that sends the resume signal. The handle was obtained in a previous <a href="https://msdn.microsoft.com/library/windows/hardware/hh450854">IOCTL_INTERNAL_USB_REGISTER_COMPOSITE_DEVICE</a> request.
 
 
 ### -field Interface
@@ -93,11 +80,6 @@ Specifies the device-defined index identifier of the interface with which the fu
 
 ## -see-also
 
-<a href="..\usbioctl\ni-usbioctl-ioctl_internal_usb_request_remote_wake_notification.md">IOCTL_INTERNAL_USB_REQUEST_REMOTE_WAKE_NOTIFICATION</a>
-
-
-
-<a href="..\usbioctl\ni-usbioctl-ioctl_internal_usb_register_composite_device.md">IOCTL_INTERNAL_USB_REGISTER_COMPOSITE_DEVICE</a>
 
 
 
@@ -105,6 +87,11 @@ Specifies the device-defined index identifier of the interface with which the fu
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450854">IOCTL_INTERNAL_USB_REGISTER_COMPOSITE_DEVICE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450856">IOCTL_INTERNAL_USB_REQUEST_REMOTE_WAKE_NOTIFICATION</a>
  
 
  

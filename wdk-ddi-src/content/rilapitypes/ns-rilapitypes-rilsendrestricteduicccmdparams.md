@@ -53,22 +53,6 @@ req.product: Windows 10 or later.
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef struct _RILSENDRESTRICTEDUICCCMDPARAMS {
-  DWORD                  cbSize;
-  RILUICCCOMMAND         dwCommand;
-  RILUICCCMDPARAMETERS   rscpParameters;
-  BOOL                   fHasLockVerification;
-  RILUICCLOCKCREDENTIAL  lockVerification;
-  DWORD                  dwDataSize;
-  BYTE [1]               pbData;
-} RILSENDRESTRICTEDUICCCMDPARAMS, RILSENDRESTRICTEDUICCCMDPARAMS;
-````
-
-
 ## -struct-fields
 
 

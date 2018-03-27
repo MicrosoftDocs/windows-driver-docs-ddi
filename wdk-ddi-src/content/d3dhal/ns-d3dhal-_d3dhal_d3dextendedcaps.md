@@ -52,44 +52,6 @@ req.typenames: D3DHAL_D3DEXTENDEDCAPS
 D3DHAL_D3DEXTENDEDCAPS describes additional 3D capabilities of the driver.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DHAL_D3DEXTENDEDCAPS {
-  DWORD    dwSize;
-  DWORD    dwMinTextureWidth, dwMaxTextureWidth;
-  DWORD    dwMinTextureHeight, dwMaxTextureHeight;
-  DWORD    dwMinStippleWidth, dwMaxStippleWidth;
-  DWORD    dwMinStippleHeight, dwMaxStippleHeight;
-  DWORD    dwMaxTextureRepeat;
-  DWORD    dwMaxTextureAspectRatio;
-  DWORD    dwMaxAnisotropy;
-  D3DVALUE dvGuardBandLeft;
-  D3DVALUE dvGuardBandTop;
-  D3DVALUE dvGuardBandRight;
-  D3DVALUE dvGuardBandBottom;
-  D3DVALUE dvExtentsAdjust;
-  DWORD    dwStencilCaps;
-  DWORD    dwFVFCaps;
-  DWORD    dwTextureOpCaps;
-  WORD     wMaxTextureBlendStages;
-  WORD     wMaxSimultaneousTextures;
-#if (DIRECT3D_VERSION >= 0x0700)
-  DWORD    dwMaxActiveLights;
-  D3DVALUE dvMaxVertexW;
-  WORD     wMaxUserClipPlanes;
-  WORD     wMaxVertexBlendMatrices;
-  DWORD    dwVertexProcessingCaps;
-  DWORD    dwReserved1;
-  DWORD    dwReserved2;
-  DWORD    dwReserved3;
-  DWORD    dwReserved4;
-#endif 
-} D3DHAL_D3DEXTENDEDCAPS, *LPD3DHAL_D3DEXTENDEDCAPS;
-````
-
-
 ## -struct-fields
 
 
@@ -703,10 +665,10 @@ When the driver fills in this structure, it can set values for execute buffer ca
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/89a22163-a678-4c72-932a-ae4d17922e0b">DdGetDriverInfo</a>
-
-
-
  
 
  

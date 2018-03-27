@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: prcomoem.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,21 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <code>IPrintOemUIMXDC::AdjustImageableArea</code> method enables an XPS filter pipeline driver to use UnidrvUI.dll or PS5UI.dll to support configuration of the printable area, including orientation and direction of rotation.
-
-
-## -syntax
-
-
-````
-HRESULT AdjustImageableArea(
-         HANDLE   hPrinter,
-         DWORD    cbDevMode,
-   const PDEVMODE pDevMode,
-         DWORD    cbOEMDM,
-   const PVOID    pOEMDM,
-         PRECTL   prclImageableArea
-);
-````
 
 
 ## -parameters
@@ -125,14 +110,14 @@ If the plug-in cannot complete the operation, it should return an appropriate fa
 
 ## -see-also
 
-<a href="..\prcomoem\nn-prcomoem-iprintoemuimxdc.md">IPrintOemUIMXDC</a>
+
+
+
+<a href="https://msdn.microsoft.com/4a70c0a7-9de7-48ed-a678-64832f078018">IPrintOemUIMXDC</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569236">RECTL</a>
-
-
-
  
 
  

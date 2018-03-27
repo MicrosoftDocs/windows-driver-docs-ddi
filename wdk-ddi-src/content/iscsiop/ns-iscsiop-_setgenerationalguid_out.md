@@ -52,16 +52,6 @@ req.typenames: SetGenerationalGuid_OUT, *PSetGenerationalGuid_OUT
 The SetGenerationalGuid_OUT structure holds the output data for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565678">SetGenerationalGuid</a> method.
 
 
-## -syntax
-
-
-````
-typedef struct _SetGenerationalGuid_OUT {
-  ULONG Status;
-} SetGenerationalGuid_OUT, *PSetGenerationalGuid_OUT;
-````
-
-
 ## -struct-fields
 
 
@@ -83,11 +73,6 @@ You must implement this method.
 
 ## -see-also
 
-<a href="..\iscsiop\ns-iscsiop-_setgenerationalguid_in.md">SetGenerationalGuid_IN</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565678">SetGenerationalGuid</a>
 
 
 
@@ -95,6 +80,11 @@ You must implement this method.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565678">SetGenerationalGuid</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565681">SetGenerationalGuid_IN</a>
  
 
  

@@ -52,20 +52,6 @@ req.typenames: DXGK_POWER_COMPONENT_TYPE, DXGK_POWER_COMPONENT_TYPE, DXGK_POWER_
 Indicates the power component type that is reported by the display miniport driver to the Microsoft DirectX graphics kernel subsystem.
 
 
-## -syntax
-
-
-````
-typedef enum _DXGK_POWER_COMPONENT_TYPE { 
-  DXGK_POWER_COMPONENT_ENGINE           = 0,
-  DXGK_POWER_COMPONENT_MONITOR          = 1,
-  DXGK_POWER_COMPONENT_MONITOR_REFRESH  = 2,
-  DXGK_POWER_COMPONENT_OTHER            = 5,
-  DXGK_POWER_COMPONENT_MAX              = 6
-} DXGK_POWER_COMPONENT_TYPE;
-````
-
-
 ## -enum-fields
 
 

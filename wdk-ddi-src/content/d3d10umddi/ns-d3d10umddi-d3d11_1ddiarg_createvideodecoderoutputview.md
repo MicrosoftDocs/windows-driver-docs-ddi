@@ -52,20 +52,6 @@ req.typenames: D3D11_1DDIARG_CREATEVIDEODECODEROUTPUTVIEW
 Describes the video decoder's output-view state.
 
 
-## -syntax
-
-
-````
-typedef struct _D3D11_1DDIARG_CREATEVIDEODECODEROUTPUTVIEW {
-  D3D10DDI_HRESOURCE hDrvResource;
-  GUID               DecodeProfile;
-  UINT               MipSlice;
-  UINT               FirstArraySlice;
-  UINT               ArraySize;
-} D3D11_1DDIARG_CREATEVIDEODECODEROUTPUTVIEW, *PD3D11_1DDIARG_CREATEVIDEODECODEROUTPUTVIEW;
-````
-
-
 ## -struct-fields
 
 

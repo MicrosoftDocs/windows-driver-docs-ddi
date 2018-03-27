@@ -7,7 +7,7 @@ old-location: kernel\monitor_display_state.htm
 old-project: kernel
 ms.assetid: 50F5C1AD-BA51-4376-8093-E8596265FDAF
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/1/2018
 ms.keywords: "*PMONITOR_DISPLAY_STATE, MONITOR_DISPLAY_STATE, MONITOR_DISPLAY_STATE enumeration [Kernel-Mode Driver Architecture], PowerMonitorDim, PowerMonitorOff, PowerMonitorOn, _MONITOR_DISPLAY_STATE, kernel.monitor_display_state, wdm/MONITOR_DISPLAY_STATE, wdm/PowerMonitorDim, wdm/PowerMonitorOff, wdm/PowerMonitorOn"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,18 +50,6 @@ req.typenames: MONITOR_DISPLAY_STATE, *PMONITOR_DISPLAY_STATE
 
 
 Indicates the power state of the monitor being displayed on.
-
-
-## -syntax
-
-
-````
-typedef enum _MONITOR_DISPLAY_STATE { 
-  PowerMonitorOff  = 0,
-  PowerMonitorOn,
-  PowerMonitorDim
-} MONITOR_DISPLAY_STATE;
-````
 
 
 ## -enum-fields

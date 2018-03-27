@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 Describes the detected port type and attach action. 
 
 
-## -syntax
-
-
-````
-typedef struct _USBFN_ON_ATTACH {
-  USBFN_PORT_TYPE     PortType;
-  USBFN_ATTACH_ACTION AttachAction;
-} USBFN_ON_ATTACH, *PUSBFN_ON_ATTACH;
-````
-
-
 ## -struct-fields
 
 
@@ -71,20 +60,20 @@ typedef struct _USBFN_ON_ATTACH {
 
 ### -field PortType
 
-Detected port type defined by one of the <a href="..\usbfnbase\ne-usbfnbase-_usbfn_port_type.md">USBFN_PORT_TYPE</a>-typed values.
+Detected port type defined by one of the <a href="https://msdn.microsoft.com/library/windows/hardware/mt188004">USBFN_PORT_TYPE</a>-typed values.
 
 
 ### -field AttachAction
 
-The operation that must be performed depending on the port type. This value is defined in the <a href="..\usbfnattach\ne-usbfnattach-_usbfn_attach_action.md">USBFN_ATTACH_ACTION</a> enumeration.
+The operation that must be performed depending on the port type. This value is defined in the <a href="https://msdn.microsoft.com/library/windows/hardware/mt187985">USBFN_ATTACH_ACTION</a> enumeration.
 
 
 ## -see-also
 
-<a href="..\usbfnattach\nc-usbfnattach-usbfn_get_attach_action.md">USBFN_GET_ATTACH_ACTION</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt187995">USBFN_GET_ATTACH_ACTION</a>
  
 
  

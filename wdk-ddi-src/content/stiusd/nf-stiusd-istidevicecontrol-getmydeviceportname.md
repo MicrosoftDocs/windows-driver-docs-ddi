@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: stiusd.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,17 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>IStiDeviceControl::GetMyDevicePortName</b> method allows a user-mode still image minidriver to obtain a device's port name.
-
-
-## -syntax
-
-
-````
-HRESULT GetMyDevicePortName(
-   LPWSTR lpszDevicePath,
-   DWORD  cwDevicePathSize
-);
-````
 
 
 ## -parameters

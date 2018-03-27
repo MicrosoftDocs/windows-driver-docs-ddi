@@ -52,18 +52,6 @@ req.typenames: EXpsFontRestriction
 A minifilter driver calls the <b>FltIsDirectory</b> routine to determine whether a given file object represents a directory. 
 
 
-## -syntax
-
-
-````
-NTSTATUS FltIsDirectory(
-  _In_  PFILE_OBJECT  FileObject,
-  _In_  PFLT_INSTANCE Instance,
-  _Out_ PBOOLEAN      IsDirectory
-);
-````
-
-
 ## -parameters
 
 
@@ -102,7 +90,7 @@ Pointer to a caller-supplied Boolean variable. On return, this variable receives
 </dl>
 </td>
 <td width="60%">
-This error code is returned if the file system does not support stream contexts.  Note that starting with Windows Vista, <a href="..\fltkernel\nf-fltkernel-fltisdirectory.md">FltIsDirectory</a> will return directory information even for file systems that do not support stream contexts.  
+This error code is returned if the file system does not support stream contexts.  Note that starting with Windows Vista, <a href="https://msdn.microsoft.com/library/windows/hardware/ff543318">FltIsDirectory</a> will return directory information even for file systems that do not support stream contexts.  
 
 </td>
 </tr>
@@ -125,10 +113,10 @@ This error code is returned if the file system does not support stream contexts.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547285">FsRtlSupportsPerStreamContexts</a>
-
-
-
  
 
  

@@ -53,19 +53,6 @@ req.product: Windows 10 or later.
 The WWAN_SMS_PDU_RECORD structure represents a PDU-style SMS message record.
 
 
-## -syntax
-
-
-````
-typedef struct _WWAN_SMS_PDU_RECORD {
-  ULONG           MessageIndex;
-  WWAN_MSG_STATUS MsgStatus;
-  BYTE            Size;
-  CHAR            PduData[WWAN_SMS_PDU_HEX_BUF_LEN];
-} WWAN_SMS_PDU_RECORD, *PWWAN_SMS_PDU_RECORD;
-````
-
-
 ## -struct-fields
 
 
@@ -115,10 +102,10 @@ For CDMA-based devices that support reading SMS messages in binary format (as re
 
 ## -see-also
 
-<a href="..\wwan\ne-wwan-_wwan_msg_status.md">WWAN_MSG_STATUS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571209">WWAN_MSG_STATUS</a>
  
 
  

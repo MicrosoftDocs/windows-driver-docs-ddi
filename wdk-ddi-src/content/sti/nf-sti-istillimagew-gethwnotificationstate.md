@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: sti.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,17 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>IStillImage::GetHwNotificationState</b> method indicates whether applications will be notified when <a href="https://msdn.microsoft.com/5f9be89c-8442-4894-b2f6-a4d3558464bf">Still Image Device Events</a> occur on a specified device.
-
-
-## -syntax
-
-
-````
-HRESULT GetHwNotificationState(
-  [in]  LPCWSTR pwszDeviceName,
-  [out] BOOL    *pbCurrentState
-);
-````
 
 
 ## -parameters
@@ -99,7 +88,6 @@ Before calling <b>IStillImage::GetHwNotificationState</b>, clients of the <b>ISt
 
 ## -see-also
 
-<a href="..\sti\nn-sti-istillimagew.md">IStillImageW</a>
 
 
 
@@ -107,6 +95,7 @@ Before calling <b>IStillImage::GetHwNotificationState</b>, clients of the <b>ISt
 
 
 
+<a href="https://msdn.microsoft.com/a9ceee48-cbb5-4448-83b4-9c19fe89fcb9">IStillImageW</a>
  
 
  

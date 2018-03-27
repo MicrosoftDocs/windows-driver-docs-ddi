@@ -52,22 +52,6 @@ req.typenames: D3DKMDT_MONITOR_TIMING_TYPE
 The D3DKMDT_MONITOR_TIMING_TYPE enumeration is reserved for system use. Do not use it in your driver.
 
 
-## -syntax
-
-
-````
-typedef enum _D3DKMDT_MONITOR_TIMING_TYPE { 
-  D3DKMDT_MTT_UNINITIALIZED          = 0,
-  D3DKMDT_MTT_ESTABLISHED            = 1,
-  D3DKMDT_MTT_STANDARD               = 2,
-  D3DKMDT_MTT_EXTRASTANDARD          = 3,
-  D3DKMDT_MTT_DETAILED               = 4,
-  D3DKMDT_MTT_DEFAULTMONITORPROFILE  = 5,
-  D3DKMDT_MTT_DRIVER                 = 6
-} D3DKMDT_MONITOR_TIMING_TYPE;
-````
-
-
 ## -enum-fields
 
 

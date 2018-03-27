@@ -52,18 +52,6 @@ req.typenames: PRI_REGISTRATION_LIST, *PPRI_REGISTRATION_LIST
 The PRI_REGISTRATION_LIST structure is returned in response to a Persistent Reserve In command with ServiceAction = RESERVATION_ACTION_READ_KEYS.
 
 
-## -syntax
-
-
-````
-typedef struct {
-  UCHAR Generation[4];
-  UCHAR AdditionalLength[4];
-  UCHAR ReservationKeyList[0][8];
-} PRI_REGISTRATION_LIST, *PPRI_REGISTRATION_LIST;
-````
-
-
 ## -struct-fields
 
 
@@ -97,17 +85,17 @@ The reservation key list contains the 8-byte reservation keys for all initiators
 
 
 
-The <a href="..\ntddstor\ni-ntddstor-ioctl_storage_persistent_reserve_in.md">IOCTL_STORAGE_PERSISTENT_RESERVE_IN</a> request is used to obtain information about persistent reservations and reservation keys that are active within a device server.
+The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560582">IOCTL_STORAGE_PERSISTENT_RESERVE_IN</a> request is used to obtain information about persistent reservations and reservation keys that are active within a device server.
 
 
 
 
 ## -see-also
 
-<a href="..\ntddstor\ni-ntddstor-ioctl_storage_persistent_reserve_in.md">IOCTL_STORAGE_PERSISTENT_RESERVE_IN</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560582">IOCTL_STORAGE_PERSISTENT_RESERVE_IN</a>
  
 
  

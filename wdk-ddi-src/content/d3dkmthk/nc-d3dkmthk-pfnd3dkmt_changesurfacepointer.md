@@ -52,16 +52,6 @@ req.typenames: DXGK_TARGETMODE_DETAIL_TIMING
 The <b>D3DKMTChangeSurfacePointer</b> function is for system use only.
 
 
-## -prototype
-
-
-````
-NTSTATUS APIENTRY D3DKMTChangeSurfacePointer(
-  _In_ const D3DKMT_CHANGESURFACEPOINTER *pData
-);
-````
-
-
 ## -parameters
 
 

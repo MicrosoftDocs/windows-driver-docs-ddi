@@ -52,20 +52,6 @@ req.typenames: DXGK_PTE
 The <i>UpdateOverlay</i> function reconfigures or moves an overlay that is being displayed.
 
 
-## -prototype
-
-
-````
-PFND3DDDI_UPDATEOVERLAY UpdateOverlay;
-
-__checkReturn HRESULT APIENTRY UpdateOverlay(
-  _In_       HANDLE                  hDevice,
-  _In_ const D3DDDIARG_UPDATEOVERLAY *pData
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -87,7 +73,7 @@ __checkReturn HRESULT APIENTRY UpdateOverlay(
 
 #### - pData [in]
 
- A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_updateoverlay.md">D3DDDIARG_UPDATEOVERLAY</a> structure that describes how to reconfigure the overlay.
+ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543400">D3DDDIARG_UPDATEOVERLAY</a> structure that describes how to reconfigure the overlay.
 
 
 ## -returns
@@ -173,14 +159,14 @@ Overlays are independent from the resources that are displayed by using the over
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_updateoverlay.md">D3DDDIARG_UPDATEOVERLAY</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543400">D3DDDIARG_UPDATEOVERLAY</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544519">D3DDDI_DEVICEFUNCS</a>
  
 
  

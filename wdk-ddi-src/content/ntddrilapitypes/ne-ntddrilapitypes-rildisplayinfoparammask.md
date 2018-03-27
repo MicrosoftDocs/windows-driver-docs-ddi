@@ -52,20 +52,6 @@ req.typenames: RILDISPLAYINFOPARAMMASK
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef enum _RILDISPLAYINFOPARAMMASK { 
-  RIL_PARAM_DISPLAY_TYPE,
-  RIL_PARAM_DISPLAY_TAG,
-  RIL_PARAM_DISPLAY_MESSAGESIZE,
-  RIL_PARAM_DISPLAY_MESSAGE,
-  RIL_PARAM_DISPLAY_ALL
-} RILDISPLAYINFOPARAMMASK;
-````
-
-
 ## -enum-fields
 
 

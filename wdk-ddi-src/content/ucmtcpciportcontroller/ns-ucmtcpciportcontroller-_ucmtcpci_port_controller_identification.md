@@ -51,25 +51,9 @@ req.product: Windows 10 or later.
 
 
 Contains identification information and USB specification version information (in BCD format) about the port controller.
-             This client driver must specify that information in the call to <a href="..\ucmtcpciportcontroller\nf-ucmtcpciportcontroller-ucmtcpciportcontrollercreate.md">UcmTcpciPortControllerCreate</a> during initialization. 
-                 Call <a href="..\ucmtcpciportcontroller\nf-ucmtcpciportcontroller-ucmtcpci_port_controller_identification_init.md">UCMTCPCI_PORT_CONTROLLER_IDENTIFICATION_INIT</a> to initialize this structure.
+             This client driver must specify that information in the call to <a href="https://msdn.microsoft.com/library/windows/hardware/mt805844">UcmTcpciPortControllerCreate</a> during initialization. 
+                 Call <a href="https://msdn.microsoft.com/library/windows/hardware/mt805880">UCMTCPCI_PORT_CONTROLLER_IDENTIFICATION_INIT</a> to initialize this structure.
              
-
-
-## -syntax
-
-
-````
-typedef struct _UCMTCPCI_PORT_CONTROLLER_IDENTIFICATION {
-  ULONG  Size;
-  UINT16 VendorId;
-  UINT16 ProductId;
-  UINT16 DeviceId;
-  UINT16 TypeCRevisionInBcd;
-  UINT16 PDRevisionAndVersionInBcd;
-  UINT16 PDInterfaceRevisionAndVersionInBcd;
-} UCMTCPCI_PORT_CONTROLLER_IDENTIFICATION, *PUCMTCPCI_PORT_CONTROLLER_IDENTIFICATION;
-````
 
 
 ## -struct-fields
@@ -128,10 +112,10 @@ Specifies the vendor identifier assigned by the USB specification committee.
 
 ## -see-also
 
-<a href="..\ucmtcpciportcontroller\nf-ucmtcpciportcontroller-ucmtcpciportcontrollercreate.md">UcmTcpciPortControllerCreate</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt805844">UcmTcpciPortControllerCreate</a>
  
 
  

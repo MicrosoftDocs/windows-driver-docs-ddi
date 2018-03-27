@@ -52,17 +52,6 @@ req.typenames: NDIS_WWAN_SET_PIN, *PNDIS_WWAN_SET_PIN
 The NDIS_WWAN_SET_PIN structure represents what PIN action to take on the MB device.
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_WWAN_SET_PIN {
-  NDIS_OBJECT_HEADER Header;
-  WWAN_PIN_ACTION    PinAction;
-} NDIS_WWAN_SET_PIN, *PNDIS_WWAN_SET_PIN;
-````
-
-
 ## -struct-fields
 
 
@@ -116,26 +105,26 @@ sizeof(NDIS_WWAN_SET_PIN)
  
 
 For more information about these members, see 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>.
 
 
 ### -field PinAction
 
 A formatted 
-     <a href="..\wwan\ns-wwan-_wwan_pin_action.md">WWAN_PIN_ACTION</a> object that represents an
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571213">WWAN_PIN_ACTION</a> object that represents an
      action to perform with a Personal Identification Number (PIN).
 
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_pin_action.md">WWAN_PIN_ACTION</a>
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571213">WWAN_PIN_ACTION</a>
  
 
  

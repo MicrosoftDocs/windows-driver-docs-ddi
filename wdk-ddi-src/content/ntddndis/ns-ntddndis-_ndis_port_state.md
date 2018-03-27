@@ -52,25 +52,6 @@ req.typenames: NDIS_PORT_STATE, *PNDIS_PORT_STATE
 The NDIS_PORT_STATE structure specifies the port state information for an NDIS port.
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_PORT_STATE {
-  NDIS_OBJECT_HEADER            Header;
-  NDIS_MEDIA_CONNECT_STATE      MediaConnectState;
-  ULONG64                       XmitLinkSpeed;
-  ULONG64                       RcvLinkSpeed;
-  NET_IF_DIRECTION_TYPE         Direction;
-  NDIS_PORT_CONTROLL_STATE      SendControlState;
-  NDIS_PORT_CONTROLL_STATE      RcvControlState;
-  NDIS_PORT_AUTHORIZATION_STATE SendAuthorizationState;
-  NDIS_PORT_AUTHORIZATION_STATE RcvAuthorizationState;
-  ULONG                         Flags;
-} NDIS_PORT_STATE, *PNDIS_PORT_STATE;
-````
-
-
 ## -struct-fields
 
 
@@ -79,7 +60,7 @@ typedef struct _NDIS_PORT_STATE {
 ### -field Header
 
 The 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure for the
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure for the
      NDIS_PORT_STATE structure. Set the 
      <b>Type</b> member of the structure that 
      <b>Header</b> specifies to NDIS_OBJECT_TYPE_ DEFAULT, the 
@@ -262,15 +243,10 @@ The NDIS_PORT_STATE structure is used in the
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568742">NET_IF_DIRECTION_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569624">OID_GEN_PORT_STATE</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
 
 
 
@@ -278,10 +254,15 @@ The NDIS_PORT_STATE structure is used in the
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568742">NET_IF_DIRECTION_TYPE</a>
+
+
+
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-media-connect-status-ex">OID_GEN_MEDIA_CONNECT_STATUS_EX</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569624">OID_GEN_PORT_STATE</a>
  
 
  

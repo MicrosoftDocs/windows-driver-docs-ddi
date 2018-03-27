@@ -55,16 +55,6 @@ req.typenames: D3DKMT_DRIVERVERSION
 The <b>D3DKMTQueryAllocationResidency</b> function retrieves the residency status of a resource or list of allocations.
 
 
-## -syntax
-
-
-````
-NTSTATUS APIENTRY D3DKMTQueryAllocationResidency(
-  _In_ const D3DKMT_QUERYALLOCATIONRESIDENCY *pData
-);
-````
-
-
 ## -parameters
 
 
@@ -79,7 +69,7 @@ TBD
 
 #### - pData [in]
 
-A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_queryallocationresidency.md">D3DKMT_QUERYALLOCATIONRESIDENCY</a> structure that contains information for retrieving the residency status of a resource or list of allocations.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff548212">D3DKMT_QUERYALLOCATIONRESIDENCY</a> structure that contains information for retrieving the residency status of a resource or list of allocations.
 
 
 ## -returns
@@ -136,10 +126,10 @@ This function might also return other NTSTATUS values.
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_queryallocationresidency.md">D3DKMT_QUERYALLOCATIONRESIDENCY</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548212">D3DKMT_QUERYALLOCATIONRESIDENCY</a>
  
 
  

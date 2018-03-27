@@ -50,20 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This structure provides failure flags to indicate errors, if any, that might have occurred during a request to an <a href="..\ucxusbdevice\nc-ucxusbdevice-evt_ucx_usbdevice_endpoints_configure.md">EVT_UCX_USBDEVICE_ENDPOINTS_CONFIGURE</a> callback function.
-
-
-## -syntax
-
-
-````
-typedef struct _ENDPOINTS_CONFIGURE_FAILURE_FLAGS {
-  ULONG InsufficientBandwidth  :1;
-  ULONG InsufficientHardwareResourcesForEndpoints  :1;
-  ULONG MaxExitLatencyTooLarge  :1;
-  ULONG Reserved  :29;
-} ENDPOINTS_CONFIGURE_FAILURE_FLAGS, *P_ENDPOINTS_CONFIGURE_FAILURE_FLAGS;
-````
+This structure provides failure flags to indicate errors, if any, that might have occurred during a request to an <a href="https://msdn.microsoft.com/library/windows/hardware/mt187842">EVT_UCX_USBDEVICE_ENDPOINTS_CONFIGURE</a> callback function.
 
 
 ## -struct-fields
@@ -93,10 +80,10 @@ Do not use.
 
 ## -see-also
 
-<a href="..\ucxendpoint\ns-ucxendpoint-_endpoints_configure.md">ENDPOINTS_CONFIGURE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt188019">ENDPOINTS_CONFIGURE</a>
  
 
  

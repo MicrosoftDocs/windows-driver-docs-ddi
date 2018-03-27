@@ -53,18 +53,6 @@ The NDIS_WWAN_RADIO_STATE structure represents the hardware-based and software-b
   states of the MB device.
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_WWAN_RADIO_STATE {
-  NDIS_OBJECT_HEADER Header;
-  WWAN_STATUS        uStatus;
-  WWAN_RADIO_STATE   RadioState;
-} NDIS_WWAN_RADIO_STATE, *PNDIS_WWAN_RADIO_STATE;
-````
-
-
 ## -struct-fields
 
 
@@ -118,7 +106,7 @@ sizeof(NDIS_WWAN_RADIO_STATE)
  
 
 For more information about these members, see 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>.
 
 
 ### -field uStatus
@@ -181,7 +169,7 @@ The operation failed because the device is in the process of initializing. Retry
 ### -field RadioState
 
 A formatted 
-     <a href="..\wwan\ns-wwan-_wwan_radio_state.md">WWAN_RADIO_STATE</a> object that represents
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571225">WWAN_RADIO_STATE</a> object that represents
      the hardware-based and software-based radio power states of the device.
 
 
@@ -202,14 +190,14 @@ Miniport drivers can set the
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_radio_state.md">WWAN_RADIO_STATE</a>
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571225">WWAN_RADIO_STATE</a>
  
 
  

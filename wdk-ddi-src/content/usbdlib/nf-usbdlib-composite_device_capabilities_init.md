@@ -51,17 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The <b>COMPOSITE_DEVICE_CAPABILITIES_INIT</b> macro initializes the <a href="..\usbdlib\ns-usbdlib-_composite_device_capabilities.md">COMPOSITE_DEVICE_CAPABILITIES</a> structure.
-
-
-## -syntax
-
-
-````
-void COMPOSITE_DEVICE_CAPABILITIES_INIT(
-   PCOMPOSITE_DEVICE_CAPABILITIES CapabilityFlags
-);
-````
+The <b>COMPOSITE_DEVICE_CAPABILITIES_INIT</b> macro initializes the <a href="https://msdn.microsoft.com/3C1BF8C6-3489-4636-9B3F-B0C2C1327466">COMPOSITE_DEVICE_CAPABILITIES</a> structure.
 
 
 ## -parameters
@@ -71,7 +61,7 @@ void COMPOSITE_DEVICE_CAPABILITIES_INIT(
 
 ### -param CapabilityFlags
 
- A pointer to a caller-allocated <a href="..\usbdlib\ns-usbdlib-_composite_device_capabilities.md">COMPOSITE_DEVICE_CAPABILITIES</a> structure to be initialized. The macro sets the <b>CompositeDriverCapabilityFunctionSuspend</b>
+ A pointer to a caller-allocated <a href="https://msdn.microsoft.com/3C1BF8C6-3489-4636-9B3F-B0C2C1327466">COMPOSITE_DEVICE_CAPABILITIES</a> structure to be initialized. The macro sets the <b>CompositeDriverCapabilityFunctionSuspend</b>
 member of <b>COMPOSITE_DEVICE_CAPABILITIES</b> to 0.
 
 
@@ -86,18 +76,18 @@ This routine does not return a value.
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/3C1BF8C6-3489-4636-9B3F-B0C2C1327466">COMPOSITE_DEVICE_CAPABILITIES</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh450897">How to Register a Composite Device</a>
 
 
 
-<a href="..\usbdlib\ns-usbdlib-_register_composite_device.md">REGISTER_COMPOSITE_DEVICE</a>
-
-
-
-<a href="..\usbdlib\ns-usbdlib-_composite_device_capabilities.md">COMPOSITE_DEVICE_CAPABILITIES</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450898">REGISTER_COMPOSITE_DEVICE</a>
  
 
  

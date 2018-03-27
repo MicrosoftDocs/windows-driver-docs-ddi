@@ -56,20 +56,6 @@ req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
   
 
 
-## -prototype
-
-
-````
-DXGKDDI_GETROOTPAGETABLESIZE DxgkDdiGetRootPageTableSize;
-
-SIZE_T APIENTRY DxgkDdiGetRootPageTableSize(
-  _In_    const HANDLE                       hAdapter,
-  _Inout_       DXGKARG_GETROOTPAGETABLESIZE *pArgs
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -82,7 +68,7 @@ A handle to the display adapter.
 
 ### -param pArgs [in, out]
 
-The <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_getrootpagetablesize.md">DXGKARG_GETROOTPAGETABLESIZE</a> structure that describes the operation.
+The <a href="https://msdn.microsoft.com/library/windows/hardware/dn906821">DXGKARG_GETROOTPAGETABLESIZE</a> structure that describes the operation.
 
 
 ## -returns

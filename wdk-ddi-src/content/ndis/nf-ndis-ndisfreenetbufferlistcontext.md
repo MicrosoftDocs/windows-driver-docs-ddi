@@ -52,20 +52,9 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 
 Call the 
   <b>NdisFreeNetBufferListContext</b> function to release context space in the 
-  <a href="..\ndis\ns-ndis-_net_buffer_list_context.md">NET_BUFFER_LIST_CONTEXT</a> structure of a
+  <a href="https://msdn.microsoft.com/library/windows/hardware/ff568389">NET_BUFFER_LIST_CONTEXT</a> structure of a
   
-  <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure.
-
-
-## -syntax
-
-
-````
-VOID NdisFreeNetBufferListContext(
-  _In_ PNET_BUFFER_LIST NetBufferList,
-  _In_ USHORT           ContextSize
-);
-````
+  <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structure.
 
 
 ## -parameters
@@ -97,7 +86,7 @@ None
 
 
 <b>NdisFreeNetBufferListContext</b> releases context space that was allocated in a previous call to 
-    <a href="..\ndis\nf-ndis-ndisallocatenetbufferlistcontext.md">
+    <a href="https://msdn.microsoft.com/3bbad723-86bf-4206-9e51-52a66efaec20">
     NdisAllocateNetBufferListContext</a>. If 
     <b>NdisAllocateNetBufferListContext</b> allocated memory to satisfy in the call to 
     <b>NdisAllocateNetBufferListContext</b>, 
@@ -108,19 +97,19 @@ None
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
 
 
-<a href="..\ndis\ns-ndis-_net_buffer_list_context.md">NET_BUFFER_LIST_CONTEXT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisallocatenetbufferlistcontext.md">
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568389">NET_BUFFER_LIST_CONTEXT</a>
+
+
+
+<a href="https://msdn.microsoft.com/3bbad723-86bf-4206-9e51-52a66efaec20">
    NdisAllocateNetBufferListContext</a>
-
-
-
  
 
  

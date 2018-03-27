@@ -52,17 +52,6 @@ req.typenames: ScsiReadCapacity_IN, *PScsiReadCapacity_IN
 The ScsiReadCapacity_IN structure holds the input data for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff564890">ScsiReadCapacity</a> method, which is used to send a SCSI read Ccapacity command.
 
 
-## -syntax
-
-
-````
-typedef struct _ScsiReadCapacity_IN {
-  ULONGLONG UniqueSessionId;
-  ULONGLONG Lun;
-} ScsiReadCapacity_IN, *PScsiReadCapacity_IN;
-````
-
-
 ## -struct-fields
 
 
@@ -89,11 +78,10 @@ You must implement this method.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564890">ScsiReadCapacity</a>
 
 
 
@@ -101,10 +89,11 @@ You must implement this method.
 
 
 
-<a href="..\iscsiop\ns-iscsiop-_scsireadcapacity_out.md">ScsiReadCapacity_OUT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564890">ScsiReadCapacity</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564906">ScsiReadCapacity_OUT</a>
  
 
  

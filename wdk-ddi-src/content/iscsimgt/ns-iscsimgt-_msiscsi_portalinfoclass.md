@@ -52,17 +52,6 @@ req.typenames: MSiSCSI_PortalInfoClass, *PMSiSCSI_PortalInfoClass
 The MSiSCSI_PortalInfoClass structure contains information about a collection of iSCSI portals.
 
 
-## -syntax
-
-
-````
-typedef struct _MSiSCSI_PortalInfoClass {
-  ULONG            PortalInfoCount;
-  ISCSI_PortalInfo PortalInformation[1];
-} MSiSCSI_PortalInfoClass, *PMSiSCSI_PortalInfoClass;
-````
-
-
 ## -struct-fields
 
 
@@ -75,7 +64,7 @@ The number of portals that the initiator discovered and for which portal informa
 
 ### -field PortalInformation
 
-A variable length array of <a href="..\iscsimgt\ns-iscsimgt-_iscsi_portalinfo.md">ISCSI_PortalInfo</a> structures. The number of elements in the array is specified by the <b>PortalInfoCount</b> field.
+A variable length array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff561557">ISCSI_PortalInfo</a> structures. The number of elements in the array is specified by the <b>PortalInfoCount</b> field.
 
 
 ## -remarks
@@ -89,14 +78,14 @@ We recommend that you implement this class.
 
 ## -see-also
 
-<a href="..\iscsimgt\ns-iscsimgt-_iscsi_portalinfo.md">ISCSI_PortalInfo</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561557">ISCSI_PortalInfo</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563100">MSiSCSI_PortalInfoClass WMI Class</a>
-
-
-
  
 
  

@@ -47,11 +47,6 @@ req.product: Windows 10 or later.
 # IOCTL_USB_GET_NODE_CONNECTION_DRIVERKEY_NAME IOCTL
 
 
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
-
 ## -description
 
 
@@ -70,24 +65,24 @@ The <b>IOCTL_USB_GET_NODE_CONNECTION_DRIVERKEY_NAME</b> I/O control request retr
 
 ### -input-buffer
 
-The <b>AssociatedIrp.SystemBuffer</b> member points to a user-allocated <a href="..\usbioctl\ns-usbioctl-_usb_node_connection_driverkey_name.md">USB_NODE_CONNECTION_DRIVERKEY_NAME</a> structure. On input, the <b>ConnectionIndex</b> member of this structure contains the number of the port that the device is connected to.
+The <b>AssociatedIrp.SystemBuffer</b> member points to a user-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/ff540085">USB_NODE_CONNECTION_DRIVERKEY_NAME</a> structure. On input, the <b>ConnectionIndex</b> member of this structure contains the number of the port that the device is connected to.
 
 
 ### -input-buffer-length
 
-The size of a <a href="..\usbioctl\ns-usbioctl-_usb_node_connection_driverkey_name.md">USB_NODE_CONNECTION_DRIVERKEY_NAME</a> structure.
+The size of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff540085">USB_NODE_CONNECTION_DRIVERKEY_NAME</a> structure.
 
 
 ### -output-buffer
 
-On output, the <b>DriverKeyName</b> member of the <a href="..\usbioctl\ns-usbioctl-_usb_node_connection_driverkey_name.md">USB_NODE_CONNECTION_DRIVERKEY_NAME</a> structure at<b> AssociatedIrp.SystemBuffer</b> contains the driver key name that is associated with the device that is connected to the port that is indicated by <b>ConnectionIndex</b>. 
+On output, the <b>DriverKeyName</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff540085">USB_NODE_CONNECTION_DRIVERKEY_NAME</a> structure at<b> AssociatedIrp.SystemBuffer</b> contains the driver key name that is associated with the device that is connected to the port that is indicated by <b>ConnectionIndex</b>. 
 
-The <b>ActualLength</b> member indicates the length, in bytes, of the driver key name. The <b>Parameters.DeviceIoControl.OutputBufferLength</b> member indicates the size, in bytes, of the entire <a href="..\usbioctl\ns-usbioctl-_usb_node_connection_driverkey_name.md">USB_NODE_CONNECTION_DRIVERKEY_NAME</a> structure.
+The <b>ActualLength</b> member indicates the length, in bytes, of the driver key name. The <b>Parameters.DeviceIoControl.OutputBufferLength</b> member indicates the size, in bytes, of the entire <a href="https://msdn.microsoft.com/library/windows/hardware/ff540085">USB_NODE_CONNECTION_DRIVERKEY_NAME</a> structure.
 
 
 ### -output-buffer-length
 
-The size of a <a href="..\usbioctl\ns-usbioctl-_usb_node_connection_driverkey_name.md">USB_NODE_CONNECTION_DRIVERKEY_NAME</a> structure.
+The size of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff540085">USB_NODE_CONNECTION_DRIVERKEY_NAME</a> structure.
 
 
 ### -in-out-buffer
@@ -117,10 +112,10 @@ If the caller allocates an output buffer that is large enough to hold all of the
 
 ## -see-also
 
-<a href="..\usbioctl\ns-usbioctl-_usb_node_connection_driverkey_name.md">USB_NODE_CONNECTION_DRIVERKEY_NAME</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540085">USB_NODE_CONNECTION_DRIVERKEY_NAME</a>
  
 
  

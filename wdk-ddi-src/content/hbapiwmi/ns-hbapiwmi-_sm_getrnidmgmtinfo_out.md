@@ -52,17 +52,6 @@ req.typenames: SM_GetRNIDMgmtInfo_OUT, *PSM_GetRNIDMgmtInfo_OUT
 The SM_GetRNIDMgmtInfo_OUT structure is used to receive output parameters from the SM_GetRNIDMgmtInfo method.
 
 
-## -syntax
-
-
-````
-typedef struct _SM_GetRNIDMgmtInfo_OUT {
-  ULONG          HBAStatus;
-  HBAFC3MgmtInfo MgmtInfo;
-} SM_GetRNIDMgmtInfo_OUT, *PSM_GetRNIDMgmtInfo_OUT;
-````
-
-
 ## -struct-fields
 
 

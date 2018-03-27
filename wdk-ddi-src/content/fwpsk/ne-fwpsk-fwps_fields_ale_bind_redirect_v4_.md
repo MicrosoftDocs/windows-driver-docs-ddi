@@ -54,26 +54,6 @@ The FWPS_FIELDS_ALE_BIND_REDIRECT_V4 enumeration type specifies the data field i
   <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa366492">run-time filtering layer</a>.
 
 
-## -syntax
-
-
-````
-typedef enum FWPS_FIELDS_ALE_BIND_REDIRECT_V4_ { 
-  FWPS_FIELD_ALE_BIND_REDIRECT_V4_ALE_APP_ID,
-  FWPS_FIELD_ALE_BIND_REDIRECT_V4_ALE_USER_ID,
-  FWPS_FIELD_ALE_BIND_REDIRECT_V4_IP_LOCAL_ADDRESS,
-  FWPS_FIELD_ALE_BIND_REDIRECT_V4_IP_LOCAL_ADDRESS_TYPE,
-  FWPS_FIELD_ALE_BIND_REDIRECT_V4_IP_LOCAL_PORT,
-  FWPS_FIELD_ALE_BIND_REDIRECT_V4_IP_PROTOCOL,
-  FWPS_FIELD_ALE_BIND_REDIRECT_V4_FLAGS,
-#if (NTDDI_VERSION >= NTDDI_WIN8)
-  FWPS_FIELD_ALE_BIND_REDIRECT_V4_ALE_PACKAGE_ID,
-#endif 
-  FWPS_FIELD_ALE_BIND_REDIRECT_V4_MAX
-} FWPS_FIELDS_ALE_BIND_REDIRECT_V4;
-````
-
-
 ## -enum-fields
 
 
@@ -138,10 +118,10 @@ The maximum value for this enumeration. This value might change in future versio
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568757">NL_ADDRESS_TYPE</a>
-
-
-
  
 
  

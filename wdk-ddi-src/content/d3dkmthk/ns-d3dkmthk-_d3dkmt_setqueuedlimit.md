@@ -52,24 +52,6 @@ req.typenames: D3DKMT_SETQUEUEDLIMIT
 The D3DKMT_SETQUEUEDLIMIT structure describes parameters for setting or retrieving the limit for the number of operations of the given type that can be queued for the given device. 
 
 
-## -syntax
-
-
-````
-typedef struct _D3DKMT_SETQUEUEDLIMIT {
-  D3DKMT_HANDLE           hDevice;
-  D3DKMT_QUEUEDLIMIT_TYPE Type;
-  union {
-    UINT   QueuedPresentLimit;
-    struct {
-      D3DDDI_VIDEO_PRESENT_SOURCE_ID VidPnSourceId;
-      UINT                           QueuedPendingFlipLimit;
-    };
-  };
-} D3DKMT_SETQUEUEDLIMIT;
-````
-
-
 ## -struct-fields
 
 
@@ -82,7 +64,7 @@ typedef struct _D3DKMT_SETQUEUEDLIMIT {
 
 ### -field Type
 
-[in] A <a href="..\d3dkmthk\ne-d3dkmthk-_d3dkmt_queuedlimit_type.md">D3DKMT_QUEUEDLIMIT_TYPE</a>-typed value that indicates the type of operations to set or retrieve the queued limit for. 
+[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff548225">D3DKMT_QUEUEDLIMIT_TYPE</a>-typed value that indicates the type of operations to set or retrieve the queued limit for. 
 
 
 ### -field VidPnSourceId
@@ -102,14 +84,14 @@ typedef struct _D3DKMT_SETQUEUEDLIMIT {
 
 ## -see-also
 
-<a href="..\d3dkmthk\ne-d3dkmthk-_d3dkmt_queuedlimit_type.md">D3DKMT_QUEUEDLIMIT_TYPE</a>
 
 
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtsetqueuedlimit.md">D3DKMTSetQueuedLimit</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547195">D3DKMTSetQueuedLimit</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548225">D3DKMT_QUEUEDLIMIT_TYPE</a>
  
 
  

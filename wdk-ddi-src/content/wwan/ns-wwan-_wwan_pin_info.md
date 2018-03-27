@@ -54,18 +54,6 @@ The WWAN_PIN_INFO structure represents PIN type and PIN-entry state of Personal 
   (PIN) information required by the MB device.
 
 
-## -syntax
-
-
-````
-typedef struct _WWAN_PIN_INFO {
-  WWAN_PIN_TYPE  PinType;
-  WWAN_PIN_STATE PinState;
-  ULONG          AttemptsRemaining;
-} WWAN_PIN_INFO, *PWWAN_PIN_INFO;
-````
-
-
 ## -struct-fields
 
 
@@ -92,18 +80,18 @@ The number of attempts that remain for any pin-related operations such as enter,
 
 ## -see-also
 
-<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_pin_info.md">NDIS_WWAN_PIN_INFO</a>
 
 
 
-<a href="..\wwan\ne-wwan-_wwan_pin_type.md">WWAN_PIN_TYPE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567911">NDIS_WWAN_PIN_INFO</a>
 
 
 
-<a href="..\wwan\ne-wwan-_wwan_pin_state.md">WWAN_PIN_STATE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571220">WWAN_PIN_STATE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571221">WWAN_PIN_TYPE</a>
  
 
  

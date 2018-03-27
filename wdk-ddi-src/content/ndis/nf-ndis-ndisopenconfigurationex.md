@@ -55,17 +55,6 @@ NDIS drivers call the
   parameters in the registry.
 
 
-## -syntax
-
-
-````
-NDIS_STATUS NdisOpenConfigurationEx(
-  _In_  PNDIS_CONFIGURATION_OBJECT ConfigObject,
-  _Out_ PNDIS_HANDLE               ConfigurationHandle
-);
-````
-
-
 ## -parameters
 
 
@@ -74,7 +63,7 @@ NDIS_STATUS NdisOpenConfigurationEx(
 ### -param ConfigObject [in]
 
 A pointer to a caller-supplied and initialized 
-     <a href="..\ndis\ns-ndis-_ndis_configuration_object.md">
+     <a href="https://msdn.microsoft.com/8fa80414-c87a-4f05-b99c-5153f08a0862">
      NDIS_CONFIGURATION_OBJECT</a> structure.
 
 
@@ -150,20 +139,20 @@ To access the configuration information, use the configuration handle with the f
     functions:
 
 
-<a href="..\ndis\nf-ndis-ndisreadconfiguration.md">NdisReadConfiguration</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564511">NdisReadConfiguration</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndiswriteconfiguration.md">NdisWriteConfiguration</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564659">NdisWriteConfiguration</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisopenconfigurationkeybyname.md">
+<a href="https://msdn.microsoft.com/9ce7f40f-28f1-4303-9f7a-24ff1213bab1">
        NdisOpenConfigurationKeyByName</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisopenconfigurationkeybyindex.md">
+<a href="https://msdn.microsoft.com/e405853a-cf25-4214-82a9-bc3d76334413">
        NdisOpenConfigurationKeyByIndex</a>
 
 
@@ -171,86 +160,86 @@ The type of registry data that is associated with the configuration handle depen
     handle that the caller passes to 
     <b>NdisOpenConfigurationEx</b> in the 
     <b>NdisHandle</b> member of the 
-    <a href="..\ndis\ns-ndis-_ndis_configuration_object.md">
+    <a href="https://msdn.microsoft.com/8fa80414-c87a-4f05-b99c-5153f08a0862">
     NDIS_CONFIGURATION_OBJECT</a> structure that is referenced by the 
     <i>ConfigObject</i> parameter. The handle can identify parameters that are associated with the driver or
     with an instance of the driver.
 
 If the driver obtained the handle in 
     <b>NdisHandle</b> by calling the 
-    <a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">
+    <a href="https://msdn.microsoft.com/bed68aa8-499d-41fd-997b-a46316913cc8">
     NdisMRegisterMiniportDriver</a> function, 
     <b>NdisOpenConfigurationEx</b> provides a handle to the registry location where the miniport driver's
     configuration parameters are stored. The miniport driver can use the configuration handle until it calls
     the 
-    <a href="..\ndis\nf-ndis-ndismderegisterminiportdriver.md">
+    <a href="https://msdn.microsoft.com/c428e30d-ce86-4ca0-bc65-45d84a7c910e">
     NdisMDeregisterMiniportDriver</a> function.
 
 If the driver obtained the handle in 
     <b>NdisHandle</b> from the 
     <i>MiniportAdapterHandle</i> parameter of the 
-    <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a> function, 
+    <a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a> function, 
     <b>NdisOpenConfigurationEx</b> provides a handle to the registry location where a miniport adapter's
     configuration parameters are stored. A miniport driver can pass the configuration handle to the 
-    <a href="..\ndis\nf-ndis-ndisreadnetworkaddress.md">NdisReadNetworkAddress</a> function to
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff564512">NdisReadNetworkAddress</a> function to
     retrieve network address information that can be configured by software and administered locally.
     Miniport drivers can use the configuration handle until NDIS halts the miniport adapter and the 
-    <a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a> function returns.
+    <a href="https://msdn.microsoft.com/b8d452b4-bef3-4991-87cf-fac15bedfde4">MiniportHaltEx</a> function returns.
 
 If the driver obtained the handle in 
     <b>NdisHandle</b> by calling the 
-    <a href="..\ndis\nf-ndis-ndisregisterprotocoldriver.md">
+    <a href="https://msdn.microsoft.com/b48571eb-13a2-4541-80ac-c8d31f378d37">
     NdisRegisterProtocolDriver</a> function, 
     <b>NdisOpenConfigurationEx</b> provides a handle to the registry location where the protocol driver's
     configuration parameters are stored. The protocol driver can use the configuration handle until it calls
     the 
-    <a href="..\ndis\nf-ndis-ndisderegisterprotocoldriver.md">
+    <a href="https://msdn.microsoft.com/792f8f89-ff2c-45d1-bb15-9fcdafd14231">
     NdisDeregisterProtocolDriver</a> function.
 
 If the handle in 
     <b>NdisHandle</b> is a pointer to an 
-    <a href="..\ndis\ns-ndis-_ndis_bind_parameters.md">NDIS_BIND_PARAMETERS</a> structure that
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff564832">NDIS_BIND_PARAMETERS</a> structure that
     NDIS passed at the 
     <i>BindParameters</i> parameter of the 
-    <a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a> function, 
+    <a href="https://msdn.microsoft.com/1958722e-012e-4110-a82c-751744bcf9b5">ProtocolBindAdapterEx</a> function, 
     <b>NdisOpenConfigurationEx</b> provides a handle to the registry location where configuration parameters
     for a protocol binding are stored. Protocol drivers can use the configuration handle until the bind
     operation is complete.
 
 If the driver obtained the handle in 
     <b>NdisHandle</b> by calling the 
-    <a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a> function, 
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff563715">NdisOpenAdapterEx</a> function, 
     <b>NdisOpenConfigurationEx</b> provides a handle to the registry location where the configuration
     parameters for a protocol binding are stored. The protocol driver can use the configuration handle until
     it calls the 
-    <a href="..\ndis\nf-ndis-ndiscloseadapterex.md">NdisCloseAdapterEx</a> function.
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561640">NdisCloseAdapterEx</a> function.
 
 If a filter driver obtained the handle in 
     <b>NdisHandle</b> by calling the 
-    <a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">
+    <a href="https://msdn.microsoft.com/14381de2-36d9-4ec8-9d4e-7af3e6d8ecf3">
     NdisFRegisterFilterDriver</a> function, 
     <b>NdisOpenConfigurationEx</b> provides a handle to the registry location where the filter driver's
     configuration parameters are stored. Filter drivers can use the configuration handle until they call the 
-    <a href="..\ndis\nf-ndis-ndisfderegisterfilterdriver.md">
+    <a href="https://msdn.microsoft.com/f97ecce3-73b9-4c51-b4a4-e114420af2c9">
     NdisFDeregisterFilterDriver</a> function.
 
 If a filter driver obtained the handle in 
     <b>NdisHandle</b> from the 
     <i>NdisFilterHandle</i> parameter of the 
-    <a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a> function, 
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff540442">FilterAttach</a> function, 
     <b>NdisOpenConfigurationEx</b> provides a handle to the registry location where a filter modules
     configuration parameters are stored. The filter driver can use the configuration handle until NDIS
     detaches the filter module and the 
-    <a href="..\ndis\nc-ndis-filter_detach.md">FilterDetach</a> function returns. If a
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff540475">FilterDetach</a> function returns. If a
     monitoring filter driver specifies the NDIS_CONFIG_FLAG_FILTER_INSTANCE_CONFIGURATION flag in the 
     <b>Flags</b> member of the 
-    <a href="..\ndis\ns-ndis-_ndis_configuration_object.md">
+    <a href="https://msdn.microsoft.com/8fa80414-c87a-4f05-b99c-5153f08a0862">
     NDIS_CONFIGURATION_OBJECT</a> structure, the driver can access the filter module configuration for a
     specific filter module when there are multiple filter modules configured over the same miniport adapter.
     Modifying filter drivers must not use this flag.
 
 After a driver is done accessing the configuration information, the driver must call the 
-    <a href="..\ndis\nf-ndis-ndiscloseconfiguration.md">NdisCloseConfiguration</a> function to
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561642">NdisCloseConfiguration</a> function to
     release the configuration handle and related resources.
 
 <div class="alert"><b>Note</b>  To be sure that this function runs at IRQL = PASSIVE_LEVEL, a driver can schedule
@@ -262,93 +251,93 @@ After a driver is done accessing the configuration information, the driver must 
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisreadconfiguration.md">NdisReadConfiguration</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540442">FilterAttach</a>
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_bind_parameters.md">NDIS_BIND_PARAMETERS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540475">FilterDetach</a>
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_configuration_object.md">NDIS_CONFIGURATION_OBJECT</a>
+<a href="https://msdn.microsoft.com/b8d452b4-bef3-4991-87cf-fac15bedfde4">MiniportHaltEx</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndiscloseconfiguration.md">NdisCloseConfiguration</a>
+<a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndismderegisterminiportdriver.md">
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564832">NDIS_BIND_PARAMETERS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564866">NDIS_CONFIGURATION_OBJECT</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561640">NdisCloseAdapterEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561642">NdisCloseConfiguration</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561743">NdisDeregisterProtocolDriver</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561800">NdisFDeregisterFilterDriver</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562608">NdisFRegisterFilterDriver</a>
+
+
+
+<a href="https://msdn.microsoft.com/c428e30d-ce86-4ca0-bc65-45d84a7c910e">
    NdisMDeregisterMiniportDriver</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndiscloseadapterex.md">NdisCloseAdapterEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563654">NdisMRegisterMiniportDriver</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisopenconfigurationkeybyindex.md">
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563715">NdisOpenAdapterEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/e405853a-cf25-4214-82a9-bc3d76334413">
    NdisOpenConfigurationKeyByIndex</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
-
-
-
-<a href="..\ndis\nc-ndis-filter_detach.md">FilterDetach</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisopenconfigurationkeybyname.md">
+<a href="https://msdn.microsoft.com/9ce7f40f-28f1-4303-9f7a-24ff1213bab1">
    NdisOpenConfigurationKeyByName</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisreadnetworkaddress.md">NdisReadNetworkAddress</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564511">NdisReadConfiguration</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndiswriteconfiguration.md">NdisWriteConfiguration</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564512">NdisReadNetworkAddress</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisregisterprotocoldriver.md">NdisRegisterProtocolDriver</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564520">NdisRegisterProtocolDriver</a>
 
 
 
-<a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564659">NdisWriteConfiguration</a>
 
 
 
-<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisderegisterprotocoldriver.md">NdisDeregisterProtocolDriver</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">NdisFRegisterFilterDriver</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisfderegisterfilterdriver.md">NdisFDeregisterFilterDriver</a>
-
-
-
+<a href="https://msdn.microsoft.com/1958722e-012e-4110-a82c-751744bcf9b5">ProtocolBindAdapterEx</a>
  
 
  

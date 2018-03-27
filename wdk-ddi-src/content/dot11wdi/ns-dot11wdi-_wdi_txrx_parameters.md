@@ -53,16 +53,6 @@ The
   WDI_TXRX_PARAMETERS structure defines the parameters that are passed down to the TXRX component.
 
 
-## -syntax
-
-
-````
-typedef struct _WDI_TXRX_PARAMETERS {
-  WDI_TXRX_CAPABILITIES TxRxCapabilities;
-} WDI_TXRX_PARAMETERS, *PWDI_TXRX_PARAMETERS;
-````
-
-
 ## -struct-fields
 
 

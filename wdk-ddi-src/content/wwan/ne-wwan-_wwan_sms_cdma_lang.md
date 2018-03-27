@@ -54,24 +54,6 @@ The WWAN_SMS_CDMA_LANG enumeration lists the different SMS CDMA languages that a
   MB device.
 
 
-## -syntax
-
-
-````
-typedef enum _WWAN_SMS_CDMA_LANG { 
-  WwanSmsCdmaLangUnknown   = 0,
-  WwanSmsCdmaLangEnglish,
-  WwanSmsCdmaLangFrench,
-  WwanSmsCdmaLangSpanish,
-  WwanSmsCdmaLangJapanese,
-  WwanSmsCdmaLangKorean,
-  WwanSmsCdmaLangChinese,
-  WwanSmsCdmaLangHebrew,
-  WwanSmsCdmaLangMax
-} WWAN_SMS_CDMA_LANG, *PWWAN_SMS_CDMA_LANG;
-````
-
-
 ## -enum-fields
 
 
@@ -124,14 +106,14 @@ The total number of supported SMS CDMA languages.
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_sms_cdma_record.md">WWAN_SMS_CDMA_RECORD</a>
 
 
 
-<a href="..\wwan\ns-wwan-_wwan_sms_send_cdma.md">WWAN_SMS_SEND_CDMA</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571243">WWAN_SMS_CDMA_RECORD</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571251">WWAN_SMS_SEND_CDMA</a>
  
 
  

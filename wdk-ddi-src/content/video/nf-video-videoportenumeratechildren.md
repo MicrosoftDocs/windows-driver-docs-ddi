@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 The <b>VideoPortEnumerateChildren</b> function allows a video miniport driver to force a reenumeration of its child devices.
 
 
-## -syntax
-
-
-````
-VP_STATUS VideoPortEnumerateChildren(
-  _In_       PVOID HwDeviceExtension,
-  _Reserved_ PVOID Reserved
-);
-````
-
-
 ## -parameters
 
 
@@ -100,7 +89,7 @@ New hardware is connected, which generates an interrupt.
 
 </li>
 <li>
-The miniport driver's interrupt handler (<a href="..\video\nc-video-pvideo_hw_interrupt.md">HwVidInterrupt</a>) queues a DPC routine (<a href="..\video\nc-video-pminiport_dpc_routine.md">HwVidDpcRoutine</a>) by calling <a href="..\video\nf-video-videoportqueuedpc.md">VideoPortQueueDpc</a>.
+The miniport driver's interrupt handler (<a href="https://msdn.microsoft.com/523471e3-cf1e-48d2-b5f0-2f8d19ad71e0">HwVidInterrupt</a>) queues a DPC routine (<a href="https://msdn.microsoft.com/d4b443a2-3665-4e7c-b84a-5388a8fe8681">HwVidDpcRoutine</a>) by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff570339">VideoPortQueueDpc</a>.
 
 </li>
 <li>
@@ -108,29 +97,29 @@ The asynchronously executed DPC contains a call to <b>VideoPortEnumerateChildren
 
 </li>
 </ul>
-<b>VideoPortEnumerateChildren</b> causes <a href="..\video\nc-video-pvideo_hw_get_child_descriptor.md">HwVidGetVideoChildDescriptor</a> to be called, allowing the Plug and Play Manager to enumerate all of the adapter's child devices.
+<b>VideoPortEnumerateChildren</b> causes <a href="https://msdn.microsoft.com/175030c1-95d9-4a3b-976c-16e04852cb91">HwVidGetVideoChildDescriptor</a> to be called, allowing the Plug and Play Manager to enumerate all of the adapter's child devices.
 
 
 
 
 ## -see-also
 
-<a href="..\video\nc-video-pvideo_hw_get_child_descriptor.md">HwVidGetVideoChildDescriptor</a>
 
 
 
-<a href="..\video\nf-video-videoportqueuedpc.md">VideoPortQueueDpc</a>
+<a href="https://msdn.microsoft.com/d4b443a2-3665-4e7c-b84a-5388a8fe8681">HwVidDpcRoutine</a>
 
 
 
-<a href="..\video\nc-video-pvideo_hw_interrupt.md">HwVidInterrupt</a>
+<a href="https://msdn.microsoft.com/175030c1-95d9-4a3b-976c-16e04852cb91">HwVidGetVideoChildDescriptor</a>
 
 
 
-<a href="..\video\nc-video-pminiport_dpc_routine.md">HwVidDpcRoutine</a>
+<a href="https://msdn.microsoft.com/523471e3-cf1e-48d2-b5f0-2f8d19ad71e0">HwVidInterrupt</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570339">VideoPortQueueDpc</a>
  
 
  

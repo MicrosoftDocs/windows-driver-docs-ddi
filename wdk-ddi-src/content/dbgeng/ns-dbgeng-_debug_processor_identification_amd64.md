@@ -52,19 +52,6 @@ req.typenames: DEBUG_PROCESSOR_IDENTIFICATION_AMD64, *PDEBUG_PROCESSOR_IDENTIFIC
 Identifies an AMD64 processor.
 
 
-## -syntax
-
-
-````
-typedef struct _DEBUG_PROCESSOR_IDENTIFICATION_AMD64 {
-  ULONG Family;
-  ULONG Model;
-  ULONG Stepping;
-  CHAR  VendorString[16];
-} DEBUG_PROCESSOR_IDENTIFICATION_AMD64, *PDEBUG_PROCESSOR_IDENTIFICATION_AMD64;
-````
-
-
 ## -struct-fields
 
 
@@ -92,10 +79,10 @@ A vendor specified string.
 
 ## -see-also
 
-<a href="..\dbgeng\ns-dbgeng-_debug_processor_identification_all.md">DEBUG_PROCESSOR_IDENTIFICATION_ALL</a>
 
 
 
+<a href="https://msdn.microsoft.com/2C4C03BC-0D84-4151-B1A1-FE76F0355CD6">DEBUG_PROCESSOR_IDENTIFICATION_ALL</a>
  
 
  

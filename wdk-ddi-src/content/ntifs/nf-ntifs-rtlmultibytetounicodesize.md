@@ -52,18 +52,6 @@ req.typenames: TOKEN_TYPE
 The <b>RtlMultiByteToUnicodeSize</b> routine determines the number of bytes that are required to store the Unicode translation for the specified source string. The translation is assumed to use the current system ANSI code page (ACP). The source string is not necessarily from a multibyte character set. 
 
 
-## -syntax
-
-
-````
-NTSTATUS RtlMultiByteToUnicodeSize(
-  _Out_       PULONG BytesInUnicodeString,
-  _In_  const CHAR   *MultiByteString,
-  _In_        ULONG  BytesInMultiByteString
-);
-````
-
-
 ## -parameters
 
 
@@ -108,14 +96,14 @@ For information about other string-handling routines, see <a href="https://msdn.
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-rtlunicodetomultibytesize.md">RtlUnicodeToMultiByteSize</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-rtlmultibytetounicoden.md">RtlMultiByteToUnicodeN</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553113">RtlMultiByteToUnicodeN</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553266">RtlUnicodeToMultiByteSize</a>
  
 
  

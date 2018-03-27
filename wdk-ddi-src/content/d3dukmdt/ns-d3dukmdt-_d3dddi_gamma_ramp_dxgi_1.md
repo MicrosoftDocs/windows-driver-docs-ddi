@@ -52,18 +52,6 @@ req.typenames: D3DDDI_GAMMA_RAMP_DXGI_1
 The D3DDDI_GAMMA_RAMP_DXGI_1 structure describes a gamma function.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DDDI_GAMMA_RAMP_DXGI_1 {
-  D3DDDI_DXGI_RGB Scale;
-  D3DDDI_DXGI_RGB Offset;
-  D3DDDI_DXGI_RGB GammaCurve[1025];
-} D3DDDI_GAMMA_RAMP_DXGI_1;
-````
-
-
 ## -struct-fields
 
 
@@ -71,25 +59,25 @@ typedef struct _D3DDDI_GAMMA_RAMP_DXGI_1 {
 
 ### -field Scale
 
-A <a href="..\d3dukmdt\ns-d3dukmdt-d3dddi_dxgi_rgb.md">D3DDDI_DXGI_RGB</a> structure that holds the scale for the gamma function.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff544533">D3DDDI_DXGI_RGB</a> structure that holds the scale for the gamma function.
 
 
 ### -field Offset
 
-A <a href="..\d3dukmdt\ns-d3dukmdt-d3dddi_dxgi_rgb.md">D3DDDI_DXGI_RGB</a> structure that holds the offset for the gamma function.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff544533">D3DDDI_DXGI_RGB</a> structure that holds the offset for the gamma function.
 
 
 ### -field GammaCurve
 
-An array of <a href="..\d3dukmdt\ns-d3dukmdt-d3dddi_dxgi_rgb.md">D3DDDI_DXGI_RGB</a> structures that describe the curve of the gamma function.
+An array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff544533">D3DDDI_DXGI_RGB</a> structures that describe the curve of the gamma function.
 
 
 ## -see-also
 
-<a href="..\d3dukmdt\ns-d3dukmdt-d3dddi_dxgi_rgb.md">D3DDDI_DXGI_RGB</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544533">D3DDDI_DXGI_RGB</a>
  
 
  

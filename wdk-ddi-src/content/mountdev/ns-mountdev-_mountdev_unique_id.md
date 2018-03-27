@@ -49,18 +49,7 @@ req.typenames: MOUNTDEV_UNIQUE_ID, *PMOUNTDEV_UNIQUE_ID
 ## -description
 
 
-The MOUNTDEV_UNIQUE_ID structure contains a unique volume ID that a mount manager client provides to the mount manager in response to an <a href="..\mountdev\ni-mountdev-ioctl_mountdev_query_unique_id.md">IOCTL_MOUNTDEV_QUERY_UNIQUE_ID</a> request. 
-
-
-## -syntax
-
-
-````
-typedef struct _MOUNTDEV_UNIQUE_ID {
-  USHORT UniqueIdLength;
-  UCHAR  UniqueId[1];
-} MOUNTDEV_UNIQUE_ID, *PMOUNTDEV_UNIQUE_ID;
-````
+The MOUNTDEV_UNIQUE_ID structure contains a unique volume ID that a mount manager client provides to the mount manager in response to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff560441">IOCTL_MOUNTDEV_QUERY_UNIQUE_ID</a> request. 
 
 
 ## -struct-fields
@@ -89,10 +78,10 @@ For a discussion of unique volume IDs and how the mount manager uses them, see <
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560443">IOCTL_MOUNTDEV_UNIQUE_ID_CHANGE_NOTIFY</a>
-
-
-
  
 
  

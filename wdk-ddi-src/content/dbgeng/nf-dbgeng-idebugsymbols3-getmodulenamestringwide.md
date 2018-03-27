@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -50,21 +50,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>GetModuleNameStringWide</b>  method returns the name of the specified module.
-
-
-## -syntax
-
-
-````
-HRESULT GetModuleNameStringWide(
-  [in]            ULONG   Which,
-  [in]            ULONG   Index,
-  [in]            ULONG64 Base,
-  [out, optional] PWSTR   Buffer,
-  [in]            ULONG   BufferSize,
-  [out, optional] PULONG  NameSize
-);
-````
 
 
 ## -parameters
@@ -210,7 +195,6 @@ For more information about modules, see <a href="https://msdn.microsoft.com/libr
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
 
 
@@ -218,6 +202,7 @@ For more information about modules, see <a href="https://msdn.microsoft.com/libr
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550870">IDebugSymbols3</a>
  
 
  

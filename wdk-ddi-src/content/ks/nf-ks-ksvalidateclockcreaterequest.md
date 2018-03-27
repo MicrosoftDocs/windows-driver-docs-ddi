@@ -55,17 +55,6 @@ The <b>KsValidateClockCreateRequest</b> function validates the clock creation re
 This can only be called at PASSIVE_LEVEL.
 
 
-## -syntax
-
-
-````
-NTSTATUS KsValidateClockCreateRequest(
-  _In_  PIRP            lrp,
-  _Out_ PKSCLOCK_CREATE *ClockCreate
-);
-````
-
-
 ## -parameters
 
 

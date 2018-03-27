@@ -52,17 +52,6 @@ req.typenames: DEBUG_MODULE_AND_ID, *PDEBUG_MODULE_AND_ID
 The DEBUG_MODULE_AND_ID structure describes a symbol within a module.
 
 
-## -syntax
-
-
-````
-typedef struct _DEBUG_MODULE_AND_ID {
-  ULONG64 ModuleBase;
-  ULONG64 Id;
-}  DEBUG_MODULE_AND_ID, *PDEBUG_MODULE_AND_ID;
-````
-
-
 ## -struct-fields
 
 

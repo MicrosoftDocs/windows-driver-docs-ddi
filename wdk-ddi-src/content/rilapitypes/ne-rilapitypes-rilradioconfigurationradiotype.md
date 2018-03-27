@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,26 +51,6 @@ req.product: Windows 10 or later.
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef enum _RILRADIOCONFIGURATIONRADIOTYPE { 
-  RIL_RADIOTYPE_SINGLE,
-  RIL_RADIOTYPE_MULTIMODE,
-  RIL_RADIOTYPE_1XCSFB,
-  RIL_RADIOTYPE_SVLTE,
-  RIL_RADIOTYPE_DUALSTANDBY,
-  RIL_RADIOTYPE_DUALACTIVE,
-  RIL_RADIOTYPE_SGLTE,
-  RIL_RADIOTYPE_SVLTE_DUALACTIVE,
-  RIL_RADIOTYPE_SGLTE_DUALACTIVE,
-  RIL_RADIOTYPE_SRLTE,
-  RIL_RADIOTYPE_MAX
-} RILRADIOCONFIGURATIONRADIOTYPE;
-````
 
 
 ## -enum-fields

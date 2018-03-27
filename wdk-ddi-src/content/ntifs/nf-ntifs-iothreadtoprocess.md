@@ -52,16 +52,6 @@ req.typenames: TOKEN_TYPE
 The <b>IoThreadToProcess</b> routine returns a pointer to the process for the specified thread.
 
 
-## -syntax
-
-
-````
-PEPROCESS IoThreadToProcess(
-  _In_ PETHREAD Thread
-);
-````
-
-
 ## -parameters
 
 
@@ -85,7 +75,10 @@ For more information about using system threads and managing synchronization wit
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-psgetcurrentthread.md">PsGetCurrentThread</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549177">IoGetCurrentProcess</a>
 
 
 
@@ -93,10 +86,7 @@ For more information about using system threads and managing synchronization wit
 
 
 
-<a href="..\wdm\nf-wdm-iogetcurrentprocess.md">IoGetCurrentProcess</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559936">PsGetCurrentThread</a>
  
 
  

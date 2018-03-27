@@ -52,21 +52,6 @@ req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
 The <i>DxgkDdiControlEtwLogging </i>function enables or disables Event Tracing for Windows (ETW) event logging.
 
 
-## -prototype
-
-
-````
-DXGKDDI_CONTROL_ETW_LOGGING DxgkDdiControlEtwLogging;
-
-VOID DxgkDdiControlEtwLogging(
-  _In_ BOOLEAN Enable,
-  _In_ ULONG   Flags,
-  _In_ UCHAR   Level
-)
-{ ... }
-````
-
-
 ## -parameters
 
 

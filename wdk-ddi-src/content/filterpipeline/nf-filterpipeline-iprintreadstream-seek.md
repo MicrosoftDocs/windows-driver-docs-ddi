@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: filterpipeline.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -50,18 +50,6 @@ req.typenames: EXpsFontRestriction
 
 
 The <code>Seek</code> method changes the seek pointer to a new location in the stream.
-
-
-## -syntax
-
-
-````
-HRESULT Seek(
-  [in]  LONGLONG  dlibMove,
-  [in]  DWORD     dwOrigin,
-  [out] ULONGLONG *plibNewPosition
-);
-````
 
 
 ## -parameters

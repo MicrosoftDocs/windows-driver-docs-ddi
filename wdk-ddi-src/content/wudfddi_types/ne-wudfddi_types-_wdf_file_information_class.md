@@ -26,7 +26,7 @@ req.max-support: Unavailable in UMDF 2.0 and later.
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -54,68 +54,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>WDF_FILE_INFORMATION_CLASS</b> enumeration identifies the types of file information that a driver can obtain or set.
-
-
-## -syntax
-
-
-````
-typedef enum _WDF_FILE_INFORMATION_CLASS { 
-  WdfFileInformationDirectory                 = 1,
-  WdfFileInformationFullDirectory             = 2,
-  WdfFileInformationBothDirectory             = 3,
-  WdfFileInformationBasic                     = 4,
-  WdfFileInformationStandard                  = 5,
-  WdfFileInformationInternal                  = 6,
-  WdfFileInformationEa                        = 7,
-  WdfFileInformationAccess                    = 8,
-  WdfFileInformationName                      = 9,
-  WdfFileInformationRename                    = 10,
-  WdfFileInformationLink                      = 11,
-  WdfFileInformationNames                     = 12,
-  WdfFileInformationDisposition               = 13,
-  WdfFileInformationPosition                  = 14,
-  WdfFileInformationFullEa                    = 15,
-  WdfFileInformationMode                      = 16,
-  WdfFileInformationAlignment                 = 17,
-  WdfFileInformationAll                       = 18,
-  WdfFileInformationAllocation                = 19,
-  WdfFileInformationEndOfFile                 = 20,
-  WdfFileInformationAlternateName             = 21,
-  WdfFileInformationStream                    = 22,
-  WdfFileInformationPipe                      = 23,
-  WdfFileInformationPipeLocal                 = 24,
-  WdfFileInformationPipeRemote                = 25,
-  WdfFileInformationMailslotQuery             = 26,
-  WdfFileInformationMailslotSet               = 27,
-  WdfFileInformationCompression               = 28,
-  WdfFileInformationObjectId                  = 29,
-  WdfFileInformationCompletion                = 30,
-  WdfFileInformationMoveCluster               = 31,
-  WdfFileInformationQuota                     = 32,
-  WdfFileInformationReparsePoint              = 33,
-  WdfFileInformationNetworkOpen               = 34,
-  WdfFileInformationAttributeTag              = 35,
-  WdfFileInformationTracking                  = 36,
-  WdfFileInformationIdBothDirectory           = 37,
-  WdfFileInformationIdFullDirectory           = 38,
-  WdfFileInformationValidDataLength           = 39,
-  WdfFileInformationShortName                 = 40,
-  WdfFileInformationIoCompletionNotification  = 41,
-  WdfFileInformationIoStatusBlockRange        = 42,
-  WdfFileInformationIoPriorityHint            = 43,
-  WdfFileInformationSfioReserve               = 44,
-  WdfFileInformationSfioVolume                = 45,
-  WdfFileInformationHardLink                  = 46,
-  WdfFileInformationProcessIdsUsingFile       = 47,
-  WdfFileInformationNormalizedName            = 48,
-  WdfFileInformationNetworkPhysicalName       = 49,
-  WdfFileInformationIdGlobalTxDirectory       = 50,
-  WdfFileInformationIsRemoteDevice            = 51,
-  WdfFileInformationAttributeCache            = 52,
-  WdfFileInformationMaximum                   = 53
-} WDF_FILE_INFORMATION_CLASS, *PWDF_FILE_INFORMATION_CLASS;
-````
 
 
 ## -enum-fields
@@ -290,14 +228,13 @@ The <b>WDF_FILE_INFORMATION_CLASS</b> enumeration is used as an input value to <
 
 For most values that the <b>WDF_FILE_INFORMATION_CLASS</b> enumeration defines, the wdm.h or ntifs.h header file defines a FILE_XXXX_INFORMATION-named structure that the driver can use when obtaining or setting the file information.
 
-For more information about the enumeration value and associated structures, see the description of the <i>FileInformationClass</i> parameter of <a href="..\wdm\nf-wdm-zwqueryinformationfile.md">ZwQueryInformationFile</a> and <a href="..\wdm\nf-wdm-zwsetinformationfile.md">ZwSetInformationFile</a>.
+For more information about the enumeration value and associated structures, see the description of the <i>FileInformationClass</i> parameter of <a href="https://msdn.microsoft.com/library/windows/hardware/ff567052">ZwQueryInformationFile</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff567096">ZwSetInformationFile</a>.
 
 
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559009">IWDFIoRequest2::GetSetInformationParameters</a>
 
 
 
@@ -305,6 +242,7 @@ For more information about the enumeration value and associated structures, see 
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559009">IWDFIoRequest2::GetSetInformationParameters</a>
  
 
  

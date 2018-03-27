@@ -52,19 +52,6 @@ req.typenames: RILERRORDETAILS, *LPRILERRORDETAILS
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef struct _RILERRORDETAILS {
-  DWORD    cbSize;
-  DWORD    dwParams;
-  HRESULT  hResult;
-  DWORD    dw3gppCause;
-} RILERRORDETAILS, RILERRORDETAILS;
-````
-
-
 ## -struct-fields
 
 

@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -52,17 +52,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>VirtualToPhysical</b> method translates a location in the target's virtual address space into a physical memory address.
-
-
-## -syntax
-
-
-````
-HRESULT VirtualToPhysical(
-  [in]  ULONG64  Virtual,
-  [out] PULONG64 Physical
-);
-````
 
 
 ## -parameters

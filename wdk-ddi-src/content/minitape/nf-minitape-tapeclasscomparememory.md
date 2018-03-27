@@ -53,18 +53,6 @@ req.typenames: TAPE_STATUS, *PTAPE_STATUS
 The <b>TapeClassCompareMemory</b> routine compares two memory buffers and returns the number of bytes that are equivalent.
 
 
-## -syntax
-
-
-````
-ULONG TapeClassCompareMemory(
-  _Inout_ PVOID Source1,
-  _Inout_ PVOID Source2,
-  _In_    ULONG Length
-);
-````
-
-
 ## -parameters
 
 
@@ -105,10 +93,10 @@ A tape miniclass driver uses <b>TapeClassCompareMemory</b> to compare memory in 
 
 ## -see-also
 
-<a href="..\minitape\nc-minitape-tape_verify_inquiry_routine.md">TapeMiniVerifyInquiry</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567956">TapeMiniVerifyInquiry</a>
  
 
  

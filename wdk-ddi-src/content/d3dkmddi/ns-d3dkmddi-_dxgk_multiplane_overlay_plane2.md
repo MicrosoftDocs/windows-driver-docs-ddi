@@ -49,22 +49,7 @@ req.typenames: DXGK_MULTIPLANE_OVERLAY_PLANE2
 ## -description
 
 
-<b>DXGK_MULTIPLANE_OVERLAY_PLANE2</b> is used with the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_setvidpnsourceaddresswithmultiplaneoverlay2.md">DxgkDdiSetVidPnSourceAddressWithMultiPlaneOverlay2</a> function to specify an overlay plane to display.
-
-
-## -syntax
-
-
-````
-typedef struct _DXGK_MULTIPLANE_OVERLAY_PLANE2 {
-  UINT                                LayerIndex;
-  BOOL                                Enabled;
-  UINT                                AllocationSegment;
-  PHYSICAL_ADDRESS                    AllocationAddress;
-  HANDLE                              hAllocation;
-  DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES2 PlaneAttributes;
-} DXGK_MULTIPLANE_OVERLAY_PLANE2;
-````
+<b>DXGK_MULTIPLANE_OVERLAY_PLANE2</b> is used with the <a href="https://msdn.microsoft.com/7E87D610-6449-47E0-AB6B-9D926B490B45">DxgkDdiSetVidPnSourceAddressWithMultiPlaneOverlay2</a> function to specify an overlay plane to display.
 
 
 ## -struct-fields
@@ -99,19 +84,19 @@ A handle to the allocation to be displayed on the overlay plane.
 
 ### -field PlaneAttributes
 
-A structure of type <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_multiplane_overlay_attributes2.md">DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES2</a> that specifies overlay plane attributes.
+A structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/dn914477">DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES2</a> that specifies overlay plane attributes.
 
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_multiplane_overlay_attributes2.md">DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES2</a>
 
 
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_setvidpnsourceaddresswithmultiplaneoverlay2.md">DxgkDdiSetVidPnSourceAddressWithMultiPlaneOverlay2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn914477">DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES2</a>
 
 
 
+<a href="https://msdn.microsoft.com/7E87D610-6449-47E0-AB6B-9D926B490B45">DxgkDdiSetVidPnSourceAddressWithMultiPlaneOverlay2</a>
  
 
  

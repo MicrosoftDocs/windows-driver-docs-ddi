@@ -52,21 +52,6 @@ req.typenames: TOPOLOGY_MAP, *PTOPOLOGY_MAP
 This routine is called for plug notification.
 
 
-## -prototype
-
-
-````
-PCMP_NOTIFY_ROUTINE CmpNotifyRoutine;
-
-void CmpNotifyRoutine(
-  _In_ PCMP_NOTIFY_INFO NotifyInfo
-)
-{ ... }
-
-typedef PCMP_NOTIFY_ROUTINE CmpNotifyRoutine;
-````
-
-
 ## -parameters
 
 

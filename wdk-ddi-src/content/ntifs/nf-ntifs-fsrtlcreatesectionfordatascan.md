@@ -52,25 +52,6 @@ req.typenames: TOKEN_TYPE
 The <b>FsRtlCreateSectionForDataScan</b> routine creates a section object. Use this routine with extreme caution. (See the following <i>Remarks</i> section.)
 
 
-## -syntax
-
-
-````
-NTSTATUS FsRtlCreateSectionForDataScan(
-  _Out_     PHANDLE            SectionHandle,
-  _Out_     PVOID              *SectionObject,
-  _Out_opt_ PLARGE_INTEGER     SectionFileSize,
-  _In_      PFILE_OBJECT       FileObject,
-  _In_      ACCESS_MASK        DesiredAccess,
-  _In_opt_  POBJECT_ATTRIBUTES ObjectAttributes,
-  _In_opt_  PLARGE_INTEGER     MaximumSize,
-  _In_      ULONG              SectionPageProtection,
-  _In_      ULONG              AllocationAttributes,
-  _In_      ULONG              Flags
-);
-````
-
-
 ## -parameters
 
 
@@ -151,7 +132,7 @@ All actions defined by the previous flags as well as that defined by STANDARD_RI
 
 ### -param ObjectAttributes [in, optional]
 
-Pointer to an <a href="..\wudfwdm\ns-wudfwdm-_object_attributes.md">OBJECT_ATTRIBUTES</a> structure that specifies the object name and other attributes. Use the <a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a> macro to initialize this structure. Because <b>FsRtlCreateSectionForDataScan</b> inserts this object into the process handle table, the caller must specify the OBJ_KERNEL_HANDLE attribute when it calls <b>InitializeObjectAttributes</b>.
+Pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff557749">OBJECT_ATTRIBUTES</a> structure that specifies the object name and other attributes. Use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff547804">InitializeObjectAttributes</a> macro to initialize this structure. Because <b>FsRtlCreateSectionForDataScan</b> inserts this object into the process handle table, the caller must specify the OBJ_KERNEL_HANDLE attribute when it calls <b>InitializeObjectAttributes</b>.
 
 
 ### -param MaximumSize [in, optional]
@@ -337,9 +318,9 @@ The caller did not have the required privilege to create a section object with t
 
 
 
-<div class="alert"><b>Important</b>  The <b>FsRtlCreateSectionForDataScan</b> routine should only be used in cases where a handle to the file object specified in the <i>FileObject</i> parameter has not yet been created (typically while processing a post-create operation). If the driver has a handle to the file object or can obtain a handle to the file object, the driver should use the <a href="..\wdm\nf-wdm-zwcreatesection.md">ZwCreateSection</a> routine instead.</div>
+<div class="alert"><b>Important</b>  The <b>FsRtlCreateSectionForDataScan</b> routine should only be used in cases where a handle to the file object specified in the <i>FileObject</i> parameter has not yet been created (typically while processing a post-create operation). If the driver has a handle to the file object or can obtain a handle to the file object, the driver should use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566428">ZwCreateSection</a> routine instead.</div>
 <div> </div>
-Once the section object created by this routine is no longer necessary, be sure to close the section object's handle (<i>SectionHandle</i>) by calling the <a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a> routine and dereference the section object itself (<i>SectionObject</i>) by calling the <a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a> routine.
+Once the section object created by this routine is no longer necessary, be sure to close the section object's handle (<i>SectionHandle</i>) by calling the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566417">ZwClose</a> routine and dereference the section object itself (<i>SectionObject</i>) by calling the <a href="https://msdn.microsoft.com/library/windows/hardware/ff557724">ObDereferenceObject</a> routine.
 
 For more information on creating mapped sections and views of memory, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563684">Section Objects and Views</a>. Also see the documentation for the <b>CreateFileMapping</b> routine in the Microsoft Windows SDK. 
 
@@ -348,7 +329,6 @@ For more information on creating mapped sections and views of memory, see <a hre
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-ccpurgecachesection.md">CcPurgeCacheSection</a>
 
 
 
@@ -356,18 +336,19 @@ For more information on creating mapped sections and views of memory, see <a hre
 
 
 
-<a href="..\ntifs\nf-ntifs-mmforcesectionclosed.md">MmForceSectionClosed</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539188">CcPurgeCacheSection</a>
 
 
 
-<a href="..\wdm\nf-wdm-zwcreatesection.md">ZwCreateSection</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549808">MmFlushImageSection</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-mmflushimagesection.md">MmFlushImageSection</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549811">MmForceSectionClosed</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566428">ZwCreateSection</a>
  
 
  

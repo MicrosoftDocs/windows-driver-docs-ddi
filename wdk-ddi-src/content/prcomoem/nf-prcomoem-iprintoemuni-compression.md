@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: prcomoem.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -53,21 +53,6 @@ req.product: Windows 10 or later.
 The <code>IPrintOemUni::Compression</code> method can be used with Unidrv-supported printers to provide a customized bitmap compression method.
 
 
-## -syntax
-
-
-````
-HRESULT Compression(
-        PDEVOBJ pdevobj,
-        PBYTE   pInBuf,
-        PBYTE   pOutBuf,
-        DWORD   dwInLen,
-        DWORD   dwOutLen,
-  [out] INT     *piResult
-);
-````
-
-
 ## -parameters
 
 
@@ -75,7 +60,7 @@ HRESULT Compression(
 
 ### -param pdevobj
 
-Caller-supplied pointer to a <a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a> structure.
+Caller-supplied pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff547573">DEVOBJ</a> structure.
 
 
 ### -param pInBuf

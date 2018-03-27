@@ -52,17 +52,6 @@ req.typenames: GetDiscoveredPortAttributes_OUT, *PGetDiscoveredPortAttributes_OU
 The GetDiscoveredPortAttributes_OUT structure is used to report the output parameter data of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff553925">GetDiscoveredPortAttributes</a> WMI method to the WMI client. 
 
 
-## -syntax
-
-
-````
-typedef struct _GetDiscoveredPortAttributes_OUT {
-  ULONG                         HBAStatus;
-  MSFC_HBAPortAttributesResults PortAttributes;
-} GetDiscoveredPortAttributes_OUT, *PGetDiscoveredPortAttributes_OUT;
-````
-
-
 ## -struct-fields
 
 
@@ -75,7 +64,7 @@ Contains a value associated with the WMI class qualifier <a href="https://msdn.m
 
 ### -field PortAttributes
 
-Contains a structure of type <a href="..\hbapiwmi\ns-hbapiwmi-_msfc_hbaportattributesresults.md">MSFC_HBAPortAttributesResults</a> that holds the port attributes to report.
+Contains a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff562510">MSFC_HBAPortAttributesResults</a> that holds the port attributes to report.
 
 
 ## -remarks
@@ -89,10 +78,10 @@ The WMI tool suite generates a declaration of the GetDiscoveredPortAttributes_IN
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553925">GetDiscoveredPortAttributes</a>
-
-
-
  
 
  

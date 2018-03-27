@@ -52,17 +52,6 @@ req.typenames: CHANNEL_CONFIG_RESULTS_ENHANCED, *PCHANNEL_CONFIG_RESULTS_ENHANCE
 The CHANNEL_CONFIG_RESULTS_ENHANCED structure describes configuration parameters and the buffer size of any extra option for the inbound and outbound directions of an L2CAP channel.
 
 
-## -syntax
-
-
-````
-typedef struct _CHANNEL_CONFIG_RESULTS_ENHANCED {
-  CHANNEL_CONFIG_PARAMETERS_ENHANCED Params;
-  ULONG                              ExtraOptionsBufferSize;
-} CHANNEL_CONFIG_RESULTS_ENHANCED, *PCHANNEL_CONFIG_RESULTS_ENHANCED;
-````
-
-
 ## -struct-fields
 
 

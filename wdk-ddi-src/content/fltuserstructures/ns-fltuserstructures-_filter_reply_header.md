@@ -52,17 +52,6 @@ req.typenames: FILTER_REPLY_HEADER, *PFILTER_REPLY_HEADER
 The FILTER_REPLY_HEADER structure contains message reply header information. 
 
 
-## -syntax
-
-
-````
-typedef struct _FILTER_REPLY_HEADER {
-  NTSTATUS  Status;
-  ULONGLONG MessageId;
-} FILTER_REPLY_HEADER, *PFILTER_REPLY_HEADER;
-````
-
-
 ## -struct-fields
 
 
@@ -89,14 +78,14 @@ This structure is allocated by a user-mode application. It is a container for a 
 
 ## -see-also
 
-<a href="..\fltuserstructures\ns-fltuserstructures-_filter_message_header.md">FILTER_MESSAGE_HEADER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541621">FILTER_MESSAGE_HEADER</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff541508">FilterReplyMessage</a>
-
-
-
  
 
  

@@ -52,17 +52,6 @@ req.typenames: RemoveConnectionFromSession_IN, *PRemoveConnectionFromSession_IN
 The RemoveConnectionFromSession_IN structure holds the input data for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563973">RemoveConnectionFromSession</a> method, which is used to remove a connection from a session.
 
 
-## -syntax
-
-
-````
-typedef struct _RemoveConnectionFromSession_IN {
-  ULONGLONG UniqueSessionId;
-  ULONGLONG UniqueConnectionId;
-} RemoveConnectionFromSession_IN, *PRemoveConnectionFromSession_IN;
-````
-
-
 ## -struct-fields
 
 
@@ -89,11 +78,10 @@ You must implement this class.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563973">RemoveConnectionFromSession</a>
 
 
 
@@ -101,6 +89,7 @@ You must implement this class.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563973">RemoveConnectionFromSession</a>
  
 
  

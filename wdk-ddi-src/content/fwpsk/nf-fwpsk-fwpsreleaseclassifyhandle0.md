@@ -53,19 +53,9 @@ req.typenames: FWPS_VSWITCH_EVENT_TYPE
 A callout driver calls 
   <b>FwpsReleaseClassifyHandle0</b> to release a classification handle that was previously acquired through a
   call to 
-  <a href="..\fwpsk\nf-fwpsk-fwpsacquireclassifyhandle0.md">
+  <a href="https://msdn.microsoft.com/7348d937-6541-47a7-ae70-7d851d41bc1a">
   FwpsAcquireClassifyHandle0</a>.
 <div class="alert"><b>Note</b>  <b>FwpsReleaseClassifyHandle0</b> is a specific version of <b>FwpsReleaseClassifyHandle</b>. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
-
-## -syntax
-
-
-````
-void NTAPI FwpsReleaseClassifyHandle0(
-  _In_ UINT64 classifyHandle
-);
-````
-
 
 ## -parameters
 
@@ -76,7 +66,7 @@ void NTAPI FwpsReleaseClassifyHandle0(
 
 The classification handle that identifies the callout driver's processing at the current layer.
      This handle is obtained by calling 
-     <a href="..\fwpsk\nf-fwpsk-fwpsacquireclassifyhandle0.md">
+     <a href="https://msdn.microsoft.com/7348d937-6541-47a7-ae70-7d851d41bc1a">
      FwpsAcquireClassifyHandle0</a>.
 
 
@@ -94,7 +84,7 @@ None
 
 
 Any time 
-    <a href="..\fwpsk\nf-fwpsk-fwpsacquireclassifyhandle0.md">FwpsAcquireClassifyHandle0</a> is
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff550085">FwpsAcquireClassifyHandle0</a> is
     called, a corresponding call to 
     <b>FwpsReleaseClassifyHandle0</b> must be made to free the system resources associated with the
     classification handle.
@@ -104,11 +94,6 @@ Any time
 
 ## -see-also
 
-<a href="..\fwpsk\nf-fwpsk-fwpscompleteclassify0.md">FwpsCompleteClassify0</a>
-
-
-
-<a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a>
 
 
 
@@ -116,14 +101,19 @@ Any time
 
 
 
-<a href="..\fwpsk\nf-fwpsk-fwpspendclassify0.md">FwpsPendClassify0</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550085">FwpsAcquireClassifyHandle0</a>
 
 
 
-<a href="..\fwpsk\nf-fwpsk-fwpsacquireclassifyhandle0.md">FwpsAcquireClassifyHandle0</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551150">FwpsCompleteClassify0</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551197">FwpsPendClassify0</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a>
  
 
  

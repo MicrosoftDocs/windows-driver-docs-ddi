@@ -55,19 +55,6 @@ The
   designated by a caller-supplied handle.
 
 
-## -syntax
-
-
-````
-VOID NdisOpenConfigurationKeyByName(
-  _Out_ PNDIS_STATUS Status,
-  _In_  NDIS_HANDLE  ConfigurationHandle,
-  _In_  PNDIS_STRING SubKeyName,
-  _Out_ PNDIS_HANDLE SubKeyHandle
-);
-````
-
-
 ## -parameters
 
 
@@ -99,7 +86,7 @@ The key could not be opened.
 
 The handle to a registry key for which a subkey should be opened. Typically, 
      <i>ConfigurationHandle</i> is returned by the 
-     <a href="..\ndis\nf-ndis-ndisopenconfigurationex.md">
+     <a href="https://msdn.microsoft.com/76539106-6d8d-4a80-9c74-a6a4ca37c40e">
      NdisOpenConfigurationEx</a> function.
 
 
@@ -109,7 +96,7 @@ A pointer to an NDIS_STRING type containing a caller-supplied, counted string in
      system-default character set that specifies the name of the registry subkey to open. For Microsoft
      Windows 2000 and later drivers, this string contains Unicode characters. That is, for Windows 2000 and
      later, NDIS defines the NDIS_STRING type as a 
-     <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> type.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> type.
 
 
 ### -param SubKeyHandle [out]
@@ -143,14 +130,14 @@ Note that the
 
 After a driver has consumed and, possibly, modified the registry configuration information, it must
     call the 
-    <a href="..\ndis\nf-ndis-ndiscloseconfiguration.md">NdisCloseConfiguration</a> function to
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561642">NdisCloseConfiguration</a> function to
     release the handle that was obtained from 
     <b>NdisOpenConfigurationKeyByName</b>. 
     <b>NdisCloseConfiguration</b> also frees any temporary storage that NDIS allocated in the driver's calls
     to the 
-    <a href="..\ndis\nf-ndis-ndisreadconfiguration.md">NdisReadConfiguration</a>, 
-    <a href="..\ndis\nf-ndis-ndisreadnetworkaddress.md">NdisReadNetworkAddress</a>, or 
-    <a href="..\ndis\nf-ndis-ndiswriteconfiguration.md">NdisWriteConfiguration</a> functions
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff564511">NdisReadConfiguration</a>, 
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff564512">NdisReadNetworkAddress</a>, or 
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff564659">NdisWriteConfiguration</a> functions
     with the 
     <i>SubKeyHandle</i> that 
     <b>NdisOpenConfigurationKeyByName</b> returned.
@@ -160,24 +147,6 @@ After a driver has consumed and, possibly, modified the registry configuration i
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisreadconfiguration.md">NdisReadConfiguration</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndiswriteconfiguration.md">NdisWriteConfiguration</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisopenconfigurationex.md">NdisOpenConfigurationEx</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndiscloseconfiguration.md">NdisCloseConfiguration</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisopenconfigurationkeybyindex.md">
-   NdisOpenConfigurationKeyByIndex</a>
 
 
 
@@ -185,18 +154,36 @@ After a driver has consumed and, possibly, modified the registry configuration i
 
 
 
-<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
+<a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a>
 
 
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561642">NdisCloseConfiguration</a>
 
 
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh975122">NdisOpenConfigurationEx</a>
 
 
 
+<a href="https://msdn.microsoft.com/e405853a-cf25-4214-82a9-bc3d76334413">
+   NdisOpenConfigurationKeyByIndex</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564511">NdisReadConfiguration</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564659">NdisWriteConfiguration</a>
+
+
+
+<a href="https://msdn.microsoft.com/1958722e-012e-4110-a82c-751744bcf9b5">ProtocolBindAdapterEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a>
  
 
  

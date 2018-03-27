@@ -52,16 +52,6 @@ req.typenames: EXpsFontRestriction
 The <b>FltInitializeOplock</b> routine initializes an opportunistic lock (oplock) pointer. 
 
 
-## -syntax
-
-
-````
-VOID FltInitializeOplock(
-  _Out_ POPLOCK Oplock
-);
-````
-
-
 ## -parameters
 
 
@@ -85,9 +75,9 @@ None
 
 
 
-When the oplock pointer is no longer needed, it can be uninitialized by calling <a href="..\fltkernel\nf-fltkernel-fltuninitializeoplock.md">FltUninitializeOplock</a>. The uninitialized oplock pointer can then be initialized for reuse by calling <b>FltInitializeOplock</b>. 
+When the oplock pointer is no longer needed, it can be uninitialized by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff544598">FltUninitializeOplock</a>. The uninitialized oplock pointer can then be initialized for reuse by calling <b>FltInitializeOplock</b>. 
 
-To request an oplock or respond to an oplock break notification, call <a href="..\fltkernel\nf-fltkernel-fltoplockfsctrl.md">FltOplockFsctrl</a>. 
+To request an oplock or respond to an oplock break notification, call <a href="https://msdn.microsoft.com/library/windows/hardware/ff543398">FltOplockFsctrl</a>. 
 
 For detailed information about opportunistic locks, see the Microsoft Windows SDK documentation. 
 
@@ -96,30 +86,30 @@ For detailed information about opportunistic locks, see the Microsoft Windows SD
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltcurrentbatchoplock.md">FltCurrentBatchOplock</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltoplockfsctrl.md">FltOplockFsctrl</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541844">FltCheckOplock</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializeoplock.md">FsRtlInitializeOplock</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541946">FltCurrentBatchOplock</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltuninitializeoplock.md">FltUninitializeOplock</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543398">FltOplockFsctrl</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltcheckoplock.md">FltCheckOplock</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543404">FltOplockIsFastIoPossible</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltoplockisfastiopossible.md">FltOplockIsFastIoPossible</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544598">FltUninitializeOplock</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546150">FsRtlInitializeOplock</a>
  
 
  

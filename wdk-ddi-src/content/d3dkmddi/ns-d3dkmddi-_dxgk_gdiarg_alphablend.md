@@ -52,24 +52,6 @@ req.typenames: DXGK_GDIARG_ALPHABLEND
 The DXGK_GDIARG_ALPHABLEND structure describes the characteristics of a GDI hardware-accelerated alpha blend operation.
 
 
-## -syntax
-
-
-````
-typedef struct _DXGK_GDIARG_ALPHABLEND {
-  RECT    SrcRect;
-  RECT    DstRect;
-  UINT    SrcAllocationIndex;
-  UINT    DstAllocationIndex;
-  UINT    NumSubRects;
-  RECT    *pSubRects;
-  BYTE    SourceConstantAlpha;
-  BOOLEAN SourceHasAlpha;
-  UINT    SrcPitch;
-} DXGK_GDIARG_ALPHABLEND;
-````
-
-
 ## -struct-fields
 
 
@@ -158,10 +140,10 @@ int Ys = truncate((Yd â€“ DstRect.top + 0.5) * Hs/Hd + SrcRect.top)</code><
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
-
-
-
  
 
  

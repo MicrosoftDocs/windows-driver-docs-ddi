@@ -55,16 +55,6 @@ req.product: Windows 10 or later.
          
 
 
-## -syntax
-
-
-````
-typedef struct _UCMTCPCI_DRIVER_GLOBALS {
-  ULONG Reserved;
-} UCMTCPCI_DRIVER_GLOBALS, *UCMTCPCI_DRIVER_GLOBALS;
-````
-
-
 ## -struct-fields
 
 

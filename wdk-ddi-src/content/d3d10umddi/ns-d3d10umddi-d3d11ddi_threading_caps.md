@@ -52,16 +52,6 @@ req.typenames: D3D11DDI_THREADING_CAPS
 The D3D11DDI_THREADING_CAPS structure contains display device threading capabilities. 
 
 
-## -syntax
-
-
-````
-typedef struct D3D11DDI_THREADING_CAPS {
-  UINT Caps;
-} D3D11DDI_THREADING_CAPS;
-````
-
-
 ## -struct-fields
 
 
@@ -112,14 +102,14 @@ The driver supports command lists. To support D3D11DDICAPS_COMMANDLISTS_BUILD_2,
 
 ## -see-also
 
-<a href="..\d3d10umddi\ne-d3d10umddi-d3d10_2ddicaps_type.md">D3D10_2DDICAPS_TYPE</a>
 
 
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10_2ddi_getcaps.md">GetCaps(D3D10_2)</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541894">D3D10_2DDICAPS_TYPE</a>
 
 
 
+<a href="https://msdn.microsoft.com/83cd5f34-5f12-4ead-ad33-366fc3c6e804">GetCaps(D3D10_2)</a>
  
 
  

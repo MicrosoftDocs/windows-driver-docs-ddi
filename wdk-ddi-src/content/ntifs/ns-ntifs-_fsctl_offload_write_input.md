@@ -52,21 +52,6 @@ req.typenames: FSCTL_OFFLOAD_WRITE_INPUT, *PFSCTL_OFFLOAD_WRITE_INPUT
 The <b>FSCTL_OFFLOAD_WRITE_INPUT</b> structure contains the input for the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451122">FSCTL_OFFLOAD_WRITE</a> control code request.
 
 
-## -syntax
-
-
-````
-typedef struct _FSCTL_OFFLOAD_WRITE_INPUT {
-  ULONG     Size;
-  ULONG     Flags;
-  ULONGLONG FileOffset;
-  ULONGLONG CopyLength;
-  ULONGLONG TransferOffset;
-  UCHAR     Token[512];
-} FSCTL_OFFLOAD_WRITE_INPUT, *PFSCTL_OFFLOAD_WRITE_INPUT;
-````
-
-
 ## -struct-fields
 
 
@@ -99,7 +84,7 @@ The size of this structure. Set this member to <b>sizeof</b>(FSCTL_OFFLOAD_WRITE
 
 ### -field Token
 
-A byte array that contains a token structure, <a href="..\ntddstor\ns-ntddstor-_storage_offload_token.md">STORAGE_OFFLOAD_TOKEN</a>, representing a file data range to be logically written. The contents of <b>Token</b>  must remain unmodified between offload operations.
+A byte array that contains a token structure, <a href="https://msdn.microsoft.com/library/windows/hardware/hh451469">STORAGE_OFFLOAD_TOKEN</a>, representing a file data range to be logically written. The contents of <b>Token</b>  must remain unmodified between offload operations.
 
 
 ## -remarks
@@ -113,15 +98,6 @@ A byte array that contains a token structure, <a href="..\ntddstor\ns-ntddstor-_
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451122">FSCTL_OFFLOAD_WRITE</a>
-
-
-
-<a href="..\ntifs\ns-ntifs-_fsctl_offload_write_output.md">FSCTL_OFFLOAD_WRITE_OUTPUT</a>
-
-
-
-<a href="..\ntddstor\ns-ntddstor-_storage_offload_token.md">STORAGE_OFFLOAD_TOKEN</a>
 
 
 
@@ -129,6 +105,15 @@ A byte array that contains a token structure, <a href="..\ntddstor\ns-ntddstor-_
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451122">FSCTL_OFFLOAD_WRITE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451130">FSCTL_OFFLOAD_WRITE_OUTPUT</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451469">STORAGE_OFFLOAD_TOKEN</a>
  
 
  

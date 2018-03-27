@@ -46,11 +46,6 @@ req.typenames: STORAGE_ZONE_CONDITION, *PSTORAGE_ZONE_CONDITION
 # IOCTL_STORAGE_READ_CAPACITY IOCTL
 
 
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
-
 ## -description
 
 
@@ -74,7 +69,7 @@ None.
 
 ### -output-buffer
 
-The buffer at <i>Irp-&gt;AssociatedIrp.SystemBuffer</i> contains a <a href="..\ntddstor\ns-ntddstor-_storage_read_capacity.md">STORAGE_READ_CAPACITY</a> structure.
+The buffer at <i>Irp-&gt;AssociatedIrp.SystemBuffer</i> contains a <a href="https://msdn.microsoft.com/library/windows/hardware/jj553716">STORAGE_READ_CAPACITY</a> structure.
 
 
 ### -output-buffer-length
@@ -116,10 +111,10 @@ A <b>IOCTL_STORAGE_READ_CAPACITY</b> request returns the disk capacity informati
 
 ## -see-also
 
-<a href="..\ntddstor\ns-ntddstor-_storage_read_capacity.md">STORAGE_READ_CAPACITY</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj553716">STORAGE_READ_CAPACITY</a>
  
 
  

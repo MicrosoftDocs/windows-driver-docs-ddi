@@ -52,25 +52,6 @@ req.typenames: D3D12DDI_DEVICE_FUNCS_VIDEO_0032
 Video device functions.
 
 
-## -syntax
-
-
-````
-typedef struct _D3D12DDI_DEVICE_FUNCS_VIDEO_0032 {
-  PFND3D12DDI_VIDEO_GETCAPS                         pfnGetCaps;
-  PFND3D12DDI_CALCPRIVATEVIDEODECODERSIZE_0032      pfnCalcPrivateVideoDecoderSize;
-  PFND3D12DDI_CREATEVIDEODECODER_0032               pfnCreateVideoDecoder;
-  PFND3D12DDI_DESTROYVIDEODECODER_0021              pfnDestroyVideoDecoder;
-  PFND3D12DDI_CALCPRIVATEVIDEODECODERHEAPSIZE_0032  pfnCalcPrivateVideoDecoderHeapSize;
-  PFND3D12DDI_CREATEVIDEODECODERHEAP_0032           pfnCreateVideoDecoderHeap;
-  PFND3D12DDI_DESTROYVIDEODECODERHEAP_0032          pfnDestroyVideoDecoderHeap;
-  PFND3D12DDI_CALCPRIVATEVIDEOPROCESSORSIZE_0032    pfnCalcPrivateVideoProcessorSize;
-  PFND3D12DDI_CREATEVIDEOPROCESSOR_0032             pfnCreateVideoProcessor;
-  PFND3D12DDI_DESTROYVIDEOPROCESSOR_0021            pfnDestroyVideoProcessor;
-} D3D12DDI_DEVICE_FUNCS_VIDEO_0032, D3D12DDI_DEVICE_FUNCS_VIDEO_0032;
-````
-
-
 ## -struct-fields
 
 

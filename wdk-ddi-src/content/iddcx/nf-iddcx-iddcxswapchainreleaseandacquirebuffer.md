@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: "_Must_inspect_result_"
 topic_type:
@@ -54,17 +54,6 @@ req.typenames:
                 An OS callback function the driver calls when it wants to release the current buffer in the swap chain and acquire a new one
 
 
-## -syntax
-
-
-````
-HRESULT IddCxSwapChainReleaseAndAcquireBuffer(
-  _In_  IDDCX_SWAPCHAIN                    SwapChainObject,
-  _Out_ IDARG_OUT_RELEASEANDACQUIREBUFFER* pOutArgs
-);
-````
-
-
 ## -parameters
 
 
@@ -72,7 +61,7 @@ HRESULT IddCxSwapChainReleaseAndAcquireBuffer(
 
 ### -param SwapChainObject [in]
 
-The swap-chain object passed to the <a href="..\iddcx\nc-iddcx-evt_idd_cx_monitor_assign_swapchain.md">EVT_IDD_CX_MONITOR_ASSIGN_SWAPCHAIN</a> call.
+The swap-chain object passed to the <a href="https://msdn.microsoft.com/library/windows/hardware/mt761861">EVT_IDD_CX_MONITOR_ASSIGN_SWAPCHAIN</a> call.
 
 
 ### -param pOutArgs [out]

@@ -52,19 +52,6 @@ req.typenames: DXGK_BUILDPAGINGBUFFER_UPDATECONTEXTALLOCATION
 <b>DXGK_BUILDPAGINGBUFFER_UPDATECONTEXTALLOCATION</b> describes an operation used to update the content of a context or device allocation.
 
 
-## -syntax
-
-
-````
-typedef struct _DXGK_BUILDPAGINGBUFFER_UPDATECONTEXTALLOCATION {
-  D3DGPU_VIRTUAL_ADDRESS ContextAllocation;
-  UINT64                 ContextAllocationSize;
-  PVOID                  pDriverPrivateData;
-  UINT                   DriverPrivateDataSize;
-} DXGK_BUILDPAGINGBUFFER_UPDATECONTEXTALLOCATION;
-````
-
-
 ## -struct-fields
 
 
@@ -82,7 +69,7 @@ The size of the context allocation.
 
 ### -field pDriverPrivateData
 
-A pointer to the driver-private data that was passed in the call to <a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_updatecontextallocation.md">DxgkCbUpdateContextAllocation</a>.
+A pointer to the driver-private data that was passed in the call to <a href="https://msdn.microsoft.com/708A33C2-9620-4259-845A-2F862B6F209B">DxgkCbUpdateContextAllocation</a>.
 
 
 ### -field DriverPrivateDataSize
@@ -92,14 +79,14 @@ The size of the driver-private data.
 
 ## -see-also
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_updatecontextallocation.md">DxgkCbUpdateContextAllocation</a>
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_buildpagingbuffer.md">DXGKARG_BUILDPAGINGBUFFER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557540">DXGKARG_BUILDPAGINGBUFFER</a>
 
 
 
+<a href="https://msdn.microsoft.com/708A33C2-9620-4259-845A-2F862B6F209B">DxgkCbUpdateContextAllocation</a>
  
 
  

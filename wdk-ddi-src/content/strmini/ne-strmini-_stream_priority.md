@@ -53,20 +53,6 @@ req.product: Windows 10 or later.
 TD
 
 
-## -syntax
-
-
-````
-typedef enum _STREAM_PRIORITY { 
-  High,
-  Dispatch,
-  Low,
-  LowToHigh                   
-} STREAM_PRIORITY, *PSTREAM_PRIORITY
-;
-````
-
-
 ## -enum-fields
 
 

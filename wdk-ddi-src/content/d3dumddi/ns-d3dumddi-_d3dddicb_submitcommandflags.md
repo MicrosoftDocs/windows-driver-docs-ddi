@@ -52,22 +52,6 @@ req.typenames: D3DDDICB_SUBMITCOMMANDFLAGS
 <b>D3DDDICB_SUBMITCOMMANDFLAGS</b> is used to indicate how to process command buffers on contexts that support graphics processing unit (GPU) virtual addressing.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DDDICB_SUBMITCOMMANDFLAGS {
-  union {
-    struct {
-      UINT NullRendering  :1;
-      UINT Reserved  :31;
-    };
-    UINT   Value;
-  };
-} D3DDDICB_SUBMITCOMMANDFLAGS;
-````
-
-
 ## -struct-fields
 
 

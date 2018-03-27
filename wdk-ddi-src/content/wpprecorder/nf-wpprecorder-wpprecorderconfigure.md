@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: wpprecorder.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -50,17 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The <a href="..\wpprecorder\nf-wpprecorder-imp_wpprecorderconfigure.md">WppRecorderConfigure</a> method enables or disables the default log to which WPP prints.
-
-
-## -syntax
-
-
-````
-NTSTATUS imp_WppRecorderConfigure(
-   PRECORDER_CONFIGURE_PARAMS ConfigureParams
-);
-````
+The <a href="https://msdn.microsoft.com/library/windows/hardware/dn914611">WppRecorderConfigure</a> method enables or disables the default log to which WPP prints.
 
 
 ## -parameters
@@ -77,7 +67,7 @@ Pointer to a caller-allocated RECORDER_CONFIGURE_PARAMS structure.
 
 
 
-Before calling <a href="..\wpprecorder\nf-wpprecorder-imp_wpprecorderconfigure.md">WppRecorderConfigure</a>, allocate a <a href="..\wpprecorder\ns-wpprecorder-_recorder_configure_params.md">RECORDER_CONFIGURE_PARAMS</a> structure and initialize by calling <a href="..\wpprecorder\nf-wpprecorder-recorder_configure_params_init.md">RECORDER_CONFIGURE_PARAMS_INIT</a>. 
+Before calling <a href="https://msdn.microsoft.com/library/windows/hardware/dn914611">WppRecorderConfigure</a>, allocate a <a href="https://msdn.microsoft.com/library/windows/hardware/dn914606">RECORDER_CONFIGURE_PARAMS</a> structure and initialize by calling <a href="https://msdn.microsoft.com/library/windows/hardware/dn914607">RECORDER_CONFIGURE_PARAMS_INIT</a>. 
 
 This method only configures the default log. By default that log is enabled. If you have a custom log, you must disable the default log by setting the <b>CreateDefaultLog</b> to FALSE.
 

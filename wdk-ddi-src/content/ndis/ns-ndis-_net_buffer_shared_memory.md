@@ -50,21 +50,7 @@ req.typenames: NET_BUFFER_SHARED_MEMORY, *PNET_BUFFER_SHARED_MEMORY, NET_BUFFER_
 
 
 The NET_BUFFER_SHARED_MEMORY structure specifies a shared memory buffer that is associated with a 
-  <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a> structure.
-
-
-## -syntax
-
-
-````
-typedef struct _NET_BUFFER_SHARED_MEMORY {
-  PNET_BUFFER_SHARED_MEMORY NextSharedMemorySegment;
-  ULONG                     SharedMemoryFlags;
-  NDIS_HANDLE               SharedMemoryHandle;
-  ULONG                     SharedMemoryOffset;
-  ULONG                     SharedMemoryLength;
-} NET_BUFFER_SHARED_MEMORY, *PNET_BUFFER_SHARED_MEMORY;
-````
+  <a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a> structure.
 
 
 ## -struct-fields
@@ -104,7 +90,7 @@ A ULONG value for the length, in bytes, of the shared memory segment.
 
 An NDIS 6.20 or later driver uses the NET_BUFFER_SHARED_MEMORY structure to describe a shared memory
     buffer. There can be a linked list of such shared memory buffers that are associated with a 
-    <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a> structure. Virtual machine queue (VMQ)
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a> structure. Virtual machine queue (VMQ)
     capable NICs use these shared memory buffers in the virtualization environment.
 
 Use the 
@@ -125,16 +111,10 @@ Use the
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/net-buffer-shared-mem-next-segment">
-   NET_BUFFER_SHARED_MEM_NEXT_SEGMENT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568421">NET_BUFFER_SHARED_MEM_HANDLE</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568727">NET_BUFFER_SHARED_MEM_OFFSET</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a>
 
 
 
@@ -142,7 +122,7 @@ Use the
 
 
 
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568421">NET_BUFFER_SHARED_MEM_HANDLE</a>
 
 
 
@@ -150,6 +130,12 @@ Use the
 
 
 
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/net-buffer-shared-mem-next-segment">
+   NET_BUFFER_SHARED_MEM_NEXT_SEGMENT</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568727">NET_BUFFER_SHARED_MEM_OFFSET</a>
  
 
  

@@ -50,19 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-Contains information about the operation to reset the controller. This is used by the client driver in its <a href="..\ucxcontroller\nc-ucxcontroller-evt_ucx_controller_reset.md">EVT_UCX_CONTROLLER_RESET</a> callback function.
-
-
-## -syntax
-
-
-````
-typedef struct _UCX_CONTROLLER_RESET_COMPLETE_INFO {
-  ULONG                Size;
-  UCX_CONTROLLER_STATE UcxControllerState;
-  BOOLEAN              UcxCoordinated;
-} UCX_CONTROLLER_RESET_COMPLETE_INFO, *P_UCX_CONTROLLER_RESET_COMPLETE_INFO;
-````
+Contains information about the operation to reset the controller. This is used by the client driver in its <a href="https://msdn.microsoft.com/library/windows/hardware/mt187822">EVT_UCX_CONTROLLER_RESET</a> callback function.
 
 
 ## -struct-fields
@@ -89,7 +77,7 @@ Indicates if the reset was coordinated with UCX (TRUE) or not (FALSE).
 
 
 
-This structure is populated by a call to <a href="..\ucxcontroller\nf-ucxcontroller-ucxcontrollerresetcomplete.md">UcxControllerResetComplete</a>.
+This structure is populated by a call to <a href="https://msdn.microsoft.com/library/windows/hardware/mt188035">UcxControllerResetComplete</a>.
 
 
 

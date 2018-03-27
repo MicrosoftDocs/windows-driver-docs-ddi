@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: DISPATCH_LEVEL
 topic_type:
@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 Notifies UFX about a USB bus reset event.
 
 
-## -syntax
-
-
-````
-VOID UfxDeviceNotifyReset(
-  [in] UFXDEVICE        UfxDevice,
-  [in] USB_DEVICE_SPEED DeviceSpeed
-);
-````
-
-
 ## -parameters
 
 
@@ -71,12 +60,12 @@ VOID UfxDeviceNotifyReset(
 
 ### -param UfxDevice [in]
 
-A handle to a UFX device object that the driver created by calling <a href="..\ufxclient\nf-ufxclient-ufxdevicecreate.md">UfxDeviceCreate</a>.
+A handle to a UFX device object that the driver created by calling <a href="https://msdn.microsoft.com/library/windows/hardware/mt187951">UfxDeviceCreate</a>.
 
 
 ### -param DeviceSpeed [in]
 
-Contains a value of type <a href="..\usbspec\ne-usbspec-_usb_device_speed.md">USB_DEVICE_SPEED</a> that indicates the speed of the device.
+Contains a value of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff539294">USB_DEVICE_SPEED</a> that indicates the speed of the device.
 
 
 ## -returns
@@ -94,7 +83,7 @@ This method does not return a value.
 
 The client driver calls <b>UfxDeviceNotifyReset</b> when it receives a bus reset event. All non-default endpoints should be disabled and the default endpoint should be reset.  The device moves to the default state.
 
-The client driver typically calls <b>UfxDeviceNotifyReset</b> from its <a href="..\wdfinterrupt\nc-wdfinterrupt-evt_wdf_interrupt_dpc.md">EvtInterruptDpc</a> callback function.  The following example shows how to handle a reset event.
+The client driver typically calls <b>UfxDeviceNotifyReset</b> from its <a href="https://msdn.microsoft.com/d2d505e0-aeac-4871-8c60-d026b2833043">EvtInterruptDpc</a> callback function.  The following example shows how to handle a reset event.
 
 <div class="code"><span codelanguage=""><table>
 <tr>

@@ -52,17 +52,6 @@ req.typenames: NFC_CX_TRANSPORT_TYPE, *PNFC_CX_TRANSPORT_TYPE
 Called by the client driver during device shutdown to unregister for the previously registered sequence handler callback.
 
 
-## -syntax
-
-
-````
-NTSTATUS NfcCxUnregisterSequenceHandler(
-   WDFDEVICE       Device,
-   NFC_CX_SEQUENCE Sequence
-);
-````
-
-
 ## -parameters
 
 
@@ -75,7 +64,7 @@ A handle to a framework device object.
 
 ### -param Sequence
 
-An <a href="..\nfccx\ne-nfccx-_nfc_cx_sequence.md">NFC_CX_SEQUENCE</a>-typed enumerator.
+An <a href="https://msdn.microsoft.com/library/windows/hardware/dn905563">NFC_CX_SEQUENCE</a>-typed enumerator.
 
 
 ## -returns
@@ -91,7 +80,6 @@ If the operation succeeds, the function returns STATUS_SUCCESS.
 
 ## -see-also
 
-<a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
 
 
 
@@ -99,6 +87,7 @@ If the operation succeeds, the function returns STATUS_SUCCESS.
 
 
 
+<a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
  
 
  

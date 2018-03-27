@@ -52,19 +52,6 @@ req.typenames: EXpsFontRestriction
 <b>FltUntagFile</b> removes a reparse point from a file or directory. 
 
 
-## -syntax
-
-
-````
-NTSTATUS FltUntagFile(
-  _In_     PFLT_INSTANCE InitiatingInstance,
-  _In_     PFILE_OBJECT  FileObject,
-  _In_     ULONG         FileTag,
-  _In_opt_ GUID          *Guid
-);
-````
-
-
 ## -parameters
 
 
@@ -135,7 +122,7 @@ The reparse GUID specified by the caller did not match the GUID of the reparse p
 
 Minifilter drivers should use <b>FltUntagFile</b> instead of <a href="https://msdn.microsoft.com/library/windows/hardware/ff544828">FSCTL_DELETE_REPARSE_POINT</a> to delete a reparse point. 
 
-A minifilter driver can set a reparse tag on a file or directory by calling <a href="..\fltkernel\nf-fltkernel-flttagfile.md">FltTagFile</a>. 
+A minifilter driver can set a reparse tag on a file or directory by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff544589">FltTagFile</a>. 
 
 For more information about reparse points, see the Microsoft Windows SDK documentation. 
 
@@ -143,6 +130,17 @@ For more information about reparse points, see the Microsoft Windows SDK documen
 
 
 ## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544820">FLT_TAG_DATA_BUFFER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544828">FSCTL_DELETE_REPARSE_POINT</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544836">FSCTL_GET_REPARSE_POINT</a>
 
@@ -152,26 +150,15 @@ For more information about reparse points, see the Microsoft Windows SDK documen
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544828">FSCTL_DELETE_REPARSE_POINT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544589">FltTagFile</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-isreparsetagmicrosoft.md">IsReparseTagMicrosoft</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549452">IsReparseTagMicrosoft</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-flttagfile.md">FltTagFile</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-isreparsetagnamesurrogate.md">IsReparseTagNameSurrogate</a>
-
-
-
-<a href="..\fltkernel\ns-fltkernel-_flt_tag_data_buffer.md">FLT_TAG_DATA_BUFFER</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549462">IsReparseTagNameSurrogate</a>
  
 
  

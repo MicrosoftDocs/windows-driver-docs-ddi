@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: ksproxy.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -52,16 +52,6 @@ req.typenames: PIPE_STATE
 The <b>KsGetState</b> method retrieves the streaming state of a pin from the underlying clock.
 
 
-## -syntax
-
-
-````
-HRESULT KsGetState(
-  [out] KSSTATE *State
-);
-````
-
-
 ## -parameters
 
 
@@ -69,7 +59,7 @@ HRESULT KsGetState(
 
 ### -param State [out]
 
-Pointer to a variable that receives a value that specifies the streaming state of a pin. This value can be one of the following values from the <a href="..\ks\ne-ks-pksstate.md">KSSTATE</a> enumerated type:
+Pointer to a variable that receives a value that specifies the streaming state of a pin. This value can be one of the following values from the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566856">KSSTATE</a> enumerated type:
 
 <table>
 <tr>

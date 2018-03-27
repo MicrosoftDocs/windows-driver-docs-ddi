@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -53,20 +53,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
     with a source entry.  
 
 
-## -syntax
-
-
-````
-HRESULT GetSourceEntryOffsetRegions(
-  [in]            PDEBUG_SYMBOL_SOURCE_ENTRY                      Entry,
-  [in]            ULONG                                           Flags,
-  [out]           _writes_opt_(RegionsCount) PDEBUG_OFFSET_REGION Regions,
-  [in]            ULONG                                           RegionsCount,
-  [out, optional] PULONG                                          RegionsAvail
-);
-````
-
-
 ## -parameters
 
 
@@ -74,7 +60,7 @@ HRESULT GetSourceEntryOffsetRegions(
 
 ### -param Entry [in]
 
-An entry as a <a href="..\dbgeng\ns-dbgeng-_debug_symbol_source_entry.md">DEBUG_SYMBOL_SOURCE_ENTRY</a> structure. 
+An entry as a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541680">DEBUG_SYMBOL_SOURCE_ENTRY</a> structure. 
 
 
 ### -param Flags [in]
@@ -112,18 +98,18 @@ This function returns all known memory regions that associated
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541680">DEBUG_SYMBOL_SOURCE_ENTRY</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550870">IDebugSymbols3</a>
 
 
 
 <a href="https://msdn.microsoft.com/986774F6-5256-4703-990A-EAB4AB09AF55">IDebugSymbols3::GetSymbolEntryOffsetRegions</a>
-
-
-
-<a href="..\dbgeng\ns-dbgeng-_debug_symbol_source_entry.md">DEBUG_SYMBOL_SOURCE_ENTRY</a>
-
-
-
  
 
  

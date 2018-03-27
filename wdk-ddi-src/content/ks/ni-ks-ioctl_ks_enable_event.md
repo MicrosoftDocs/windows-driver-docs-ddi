@@ -46,16 +46,11 @@ req.typenames:
 # IOCTL_KS_ENABLE_EVENT IOCTL
 
 
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
-
 ## -description
 
 
 
-An application can use IOCTL_KS_ENABLE_EVENT to request notification of a KS event type, or to determine the events supported by a KS object. The application specifies IOCTL_KS_ENABLE_EVENT in the <b>IoControl</b> parameter of a call to <a href="..\ksproxy\nf-ksproxy-kssynchronousdevicecontrol.md">KsSynchronousDeviceControl</a>.
+An application can use IOCTL_KS_ENABLE_EVENT to request notification of a KS event type, or to determine the events supported by a KS object. The application specifies IOCTL_KS_ENABLE_EVENT in the <b>IoControl</b> parameter of a call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff567142">KsSynchronousDeviceControl</a>.
 
 
 
@@ -77,12 +72,12 @@ Length of <a href="https://msdn.microsoft.com/library/windows/hardware/ff561744"
 
 ### -output-buffer
 
-The application places a pointer to a structure of type <a href="..\ks\ns-ks-kseventdata.md">KSEVENTDATA</a> in the <b>OutBuffer</b> parameter and the size of this structure at <b>OutLength</b>. 
+The application places a pointer to a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff561750">KSEVENTDATA</a> in the <b>OutBuffer</b> parameter and the size of this structure at <b>OutLength</b>. 
 
 
 ### -output-buffer-length
 
-Length of <a href="..\ks\ns-ks-kseventdata.md">KSEVENTDATA</a>.
+Length of <a href="https://msdn.microsoft.com/library/windows/hardware/ff561750">KSEVENTDATA</a>.
 
 
 ### -in-out-buffer
@@ -119,31 +114,14 @@ To determine events supported by a KS object, specify <b>NULL</b> and 0 respecti
 
 ## -see-also
 
-<a href="..\ks\ns-ks-_ksevent_entry.md">KSEVENT_ENTRY</a>
 
 
 
-<a href="..\ks\ns-ks-ksdpc_item.md">KSDPC_ITEM</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560802">IOCTL_KS_DISABLE_EVENT</a>
 
 
 
-<a href="..\ks\nf-ks-ksdisableevent.md">KsDisableEvent</a>
-
-
-
-<a href="..\ks\ns-ks-ksevent_set.md">KSEVENT_SET</a>
-
-
-
-<a href="..\ks\ns-ks-kseventdata.md">KSEVENTDATA</a>
-
-
-
-<a href="..\ks\ns-ks-ksevent_item.md">KSEVENT_ITEM</a>
-
-
-
-<a href="..\ks\ni-ks-ioctl_ks_disable_event.md">IOCTL_KS_DISABLE_EVENT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561726">KSDPC_ITEM</a>
 
 
 
@@ -151,6 +129,23 @@ To determine events supported by a KS object, specify <b>NULL</b> and 0 respecti
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561750">KSEVENTDATA</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561853">KSEVENT_ENTRY</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561862">KSEVENT_ITEM</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561867">KSEVENT_SET</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561694">KsDisableEvent</a>
  
 
  

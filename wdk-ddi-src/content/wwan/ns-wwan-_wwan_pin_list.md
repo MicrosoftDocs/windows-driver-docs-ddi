@@ -54,25 +54,6 @@ The WWAN_PIN_LIST structure represents a list of descriptions of Personal Identi
   (PINs).
 
 
-## -syntax
-
-
-````
-typedef struct _WWAN_PIN_LIST {
-  WWAN_PIN_DESC WwanPinDescPin1;
-  WWAN_PIN_DESC WwanPinDescPin2;
-  WWAN_PIN_DESC WwanPinDescDeviceSimPin;
-  WWAN_PIN_DESC WwanPinDescDeviceFirstSimPin;
-  WWAN_PIN_DESC WwanPinDescNetworkPin;
-  WWAN_PIN_DESC WwanPinDescNetworkSubsetPin;
-  WWAN_PIN_DESC WwanPinDescSvcProviderPin;
-  WWAN_PIN_DESC WwanPinDescCorporatePin;
-  WWAN_PIN_DESC WwanPinDescSubsidyLock;
-  WWAN_PIN_DESC WwanPinDescCustom;
-} WWAN_PIN_LIST, *PWWAN_PIN_LIST;
-````
-
-
 ## -struct-fields
 
 
@@ -144,14 +125,14 @@ Description for custom PIN. This is a custom vendor-defined PIN type. It is not 
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_pin_desc.md">WWAN_PIN_DESC</a>
 
 
 
-<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_pin_list.md">NDIS_WWAN_PIN_LIST</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567912">NDIS_WWAN_PIN_LIST</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571214">WWAN_PIN_DESC</a>
  
 
  

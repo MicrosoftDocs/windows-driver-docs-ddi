@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: printerextension.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -56,25 +56,15 @@ Gets the number of pages per sheet.
 This property is read-only.
 
 
-## -syntax
-
-
-````
-HRESULT get_PagesPerSheet(
-  [out, retval] ULONG *pulPagesPerSheet
-);
-````
-
-
 ## -parameters
 
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprintschemanupoption.md">IPrintSchemaNUpOption</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451302">IPrintSchemaNUpOption</a>
  
 
  

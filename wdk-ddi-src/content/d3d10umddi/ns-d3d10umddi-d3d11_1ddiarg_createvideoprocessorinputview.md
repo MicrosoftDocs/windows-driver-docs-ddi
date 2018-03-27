@@ -52,21 +52,6 @@ req.typenames: D3D11_1DDIARG_CREATEVIDEOPROCESSORINPUTVIEW
 Describes the video processor's input view.
 
 
-## -syntax
-
-
-````
-typedef struct _D3D11_1DDIARG_CREATEVIDEOPROCESSORINPUTVIEW {
-  D3D10DDI_HRESOURCE             hDrvResource;
-  D3D11_1DDI_HVIDEOPROCESSORENUM hDrvVideoProcessorEnum;
-  UINT                           FourCC;
-  UINT                           MipSlice;
-  UINT                           FirstArraySlice;
-  UINT                           ArraySize;
-} D3D11_1DDIARG_CREATEVIDEOPROCESSORINPUTVIEW, *PD3D11_1DDIARG_CREATEVIDEOPROCESSORINPUTVIEW;
-````
-
-
 ## -struct-fields
 
 
@@ -108,10 +93,10 @@ The number of array slices for the texture.
 
 ## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddiarg_createvideoprocessoroutputview.md">D3D11_1DDIARG_CREATEVIDEOPROCESSOROUTPUTVIEW</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406320">D3D11_1DDIARG_CREATEVIDEOPROCESSOROUTPUTVIEW</a>
  
 
  

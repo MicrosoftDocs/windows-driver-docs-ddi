@@ -52,19 +52,6 @@ req.typenames: D3D12DDI_CRYPTO_SESSION_TRANSFORM_DECRYPT_OUTPUT_ARGUMENTS_0030
 Crypt session transform decrypt output arguments.
 
 
-## -syntax
-
-
-````
-typedef struct _D3D12DDI_CRYPTO_SESSION_TRANSFORM_DECRYPT_OUTPUT_ARGUMENTS_0030 {
-  BOOL                Enable;
-  D3D12DDI_HRESOURCE  hDrvBuffer;
-  UINT64              Size;
-  UINT64              Offset;
-} D3D12DDI_CRYPTO_SESSION_TRANSFORM_DECRYPT_OUTPUT_ARGUMENTS_0030, D3D12DDI_CRYPTO_SESSION_TRANSFORM_DECRYPT_OUTPUT_ARGUMENTS_0030;
-````
-
-
 ## -struct-fields
 
 

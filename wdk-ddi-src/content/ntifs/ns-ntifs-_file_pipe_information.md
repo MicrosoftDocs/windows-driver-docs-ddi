@@ -52,17 +52,6 @@ req.typenames: FILE_PIPE_INFORMATION, *PFILE_PIPE_INFORMATION
 The <b>FILE_PIPE_INFORMATION</b> structure contains information about a named pipe that is not specific to the local or the remote end of the pipe.
 
 
-## -syntax
-
-
-````
-typedef struct _FILE_PIPE_INFORMATION {
-  ULONG ReadMode;
-  ULONG CompletionMode;
-} FILE_PIPE_INFORMATION, *PFILE_PIPE_INFORMATION;
-````
-
-
 ## -struct-fields
 
 

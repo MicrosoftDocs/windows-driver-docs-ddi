@@ -53,17 +53,6 @@ Contains a range of a file to set to zeros. This structure is used by the
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt668765">FSCTL_SET_ZERO_DATA</a> control code. 
 
 
-## -syntax
-
-
-````
-typedef struct _FILE_ZERO_DATA_INFORMATION {
-  LARGE_INTEGER FileOffset;
-  LARGE_INTEGER BeyondFinalZero;
-} FILE_ZERO_DATA_INFORMATION, *PFILE_ZERO_DATA_INFORMATION;
-````
-
-
 ## -struct-fields
 
 
@@ -81,7 +70,10 @@ The byte offset of the first byte beyond the last zeroed byte.
 
 ## -see-also
 
-<a href="..\ntifs\ns-ntifs-_file_zero_data_information_ex.md">FILE_ZERO_DATA_INFORMATION_EX</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt668764">FILE_ZERO_DATA_INFORMATION_EX</a>
 
 
 
@@ -89,10 +81,7 @@ The byte offset of the first byte beyond the last zeroed byte.
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltfscontrolfile.md">FltFsControlFile</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542988">FltFsControlFile</a>
  
 
  

@@ -49,21 +49,7 @@ req.typenames: PROPSHEETUI_GETICON_INFO, *PPROPSHEETUI_GETICON_INFO
 ## -description
 
 
-The PROPSHEETUI_GETICON_INFO structure is used as an input parameter to an application's <a href="..\compstui\nc-compstui-pfnpropsheetui.md">PFNPROPSHEETUI</a>-typed function, when the function is called with a reason value of PROPSHEETUI_REASON_GET_ICON.
-
-
-## -syntax
-
-
-````
-typedef struct _PROPSHEETUI_GETICON_INFO {
-  WORD  cbSize;
-  WORD  Flags;
-  WORD  cxIcon;
-  WORD  cyIcon;
-  HICON hIcon;
-} PROPSHEETUI_GETICON_INFO, *PPROPSHEETUI_GETICON_INFO;
-````
+The PROPSHEETUI_GETICON_INFO structure is used as an input parameter to an application's <a href="https://msdn.microsoft.com/library/windows/hardware/ff559812">PFNPROPSHEETUI</a>-typed function, when the function is called with a reason value of PROPSHEETUI_REASON_GET_ICON.
 
 
 ## -struct-fields

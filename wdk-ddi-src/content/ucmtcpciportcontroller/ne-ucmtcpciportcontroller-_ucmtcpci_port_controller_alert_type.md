@@ -55,28 +55,6 @@ req.product: Windows 10 or later.
                 Defines generic alert values that are used to indicate the type of hardware alert received on the port controller.
 
 
-## -syntax
-
-
-````
-typedef enum _UCMTCPCI_PORT_CONTROLLER_ALERT_TYPE { 
-  UcmTcpciPortControllerAlertInvalid                       = = 0x0,
-  UcmTcpciPortControllerAlertCCStatus,
-  UcmTcpciPortControllerAlertPowerStatus,
-  UcmTcpciPortControllerAlertReceiveSOPMessageStatus,
-  UcmTcpciPortControllerAlertReceivedHardReset,
-  UcmTcpciPortControllerAlertTransmitSOPMessageFailed,
-  UcmTcpciPortControllerAlertTransmitSOPMessageDiscarded,
-  UcmTcpciPortControllerAlertTransmitSOPMessageSuccessful,
-  UcmTcpciPortControllerAlertVbusVoltageAlarmHi,
-  UcmTcpciPortControllerAlertVbusVoltageAlarmLo,
-  UcmTcpciPortControllerAlertFault,
-  UcmTcpciPortControllerAlertRxBufferOverflow,
-  UcmTcpciPortControllerAlertVbusSinkDisconnectDetected
-} UCMTCPCI_PORT_CONTROLLER_ALERT_TYPE;
-````
-
-
 ## -enum-fields
 
 
@@ -177,10 +155,10 @@ Indicates that the
 
 ## -see-also
 
-<a href="..\ucmtcpciportcontroller\ns-ucmtcpciportcontroller-_ucmtcpci_port_controller_alert_data.md">UCMTCPCI_PORT_CONTROLLER_ALERT_DATA</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt805898">UCMTCPCI_PORT_CONTROLLER_ALERT_DATA</a>
  
 
  

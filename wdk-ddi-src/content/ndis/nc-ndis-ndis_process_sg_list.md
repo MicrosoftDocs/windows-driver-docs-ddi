@@ -54,22 +54,6 @@ The
   list.
 
 
-## -prototype
-
-
-````
-NDIS_PROCESS_SG_LIST NetProcessSGList;
-
-VOID NetProcessSGList(
-  _In_ PDEVICE_OBJECT       DeviceObject,
-  _In_ PVOID                Reserved,
-  _In_ PSCATTER_GATHER_LIST ScatterGatherListBuffer,
-  _In_ PVOID                Context
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -78,7 +62,7 @@ VOID NetProcessSGList(
 ### -param DeviceObject [in]
 
 A pointer to a 
-     <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a> structure.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a> structure.
 
 
 ### -param Reserved [in]
@@ -89,7 +73,7 @@ Reserved for NDIS.
 ### -param ScatterGatherListBuffer [in]
 
 A pointer to a 
-     <a href="..\wdm\ns-wdm-_scatter_gather_list.md">SCATTER_GATHER_LIST</a> structure.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff563664">SCATTER_GATHER_LIST</a> structure.
 
 
 ### -param Context [in]
@@ -97,7 +81,7 @@ A pointer to a
 A pointer to a block of driver-allocated context information that contains information about the
      scatter gather list. The driver provided this context information in the 
      <b>Context</b> member of the 
-     <a href="..\ndis\ns-ndis-_ndis_scatter_gather_list_parameters.md">
+     <a href="https://msdn.microsoft.com/5c14a6ed-3180-41d6-a09a-b3ae0a0c8b36">
      NDIS_SCATTER_GATHER_LIST_PARAMETERS</a> structure.
 
 
@@ -117,9 +101,9 @@ None
 NDIS calls the 
     <i>NetProcessSGList</i> function that is specified at the 
     <b>ProcessSGListHandler</b> member of the 
-    <a href="..\ndis\ns-ndis-_ndis_scatter_gather_list_parameters.md">
+    <a href="https://msdn.microsoft.com/5c14a6ed-3180-41d6-a09a-b3ae0a0c8b36">
     NDIS_SCATTER_GATHER_LIST_PARAMETERS</a> structure within the context of the 
-    <a href="..\ndis\nf-ndis-ndisbuildscattergatherlist.md">
+    <a href="https://msdn.microsoft.com/439d68ec-9d27-484b-b6a3-9bae732d142e">
     NdisBuildScatterGatherList</a> function.
 
 The driver specified the entry point (NDIS_PROCESS_SG_LIST_HANDLER) for 
@@ -130,23 +114,23 @@ The driver specified the entry point (NDIS_PROCESS_SG_LIST_HANDLER) for
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_ndis_scatter_gather_list_parameters.md">
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a>
+
+
+
+<a href="https://msdn.microsoft.com/5c14a6ed-3180-41d6-a09a-b3ae0a0c8b36">
    NDIS_SCATTER_GATHER_LIST_PARAMETERS</a>
 
 
 
-<a href="..\wdm\ns-wdm-_scatter_gather_list.md">SCATTER_GATHER_LIST</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561620">NdisBuildScatterGatherList</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisbuildscattergatherlist.md">NdisBuildScatterGatherList</a>
-
-
-
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563664">SCATTER_GATHER_LIST</a>
  
 
  

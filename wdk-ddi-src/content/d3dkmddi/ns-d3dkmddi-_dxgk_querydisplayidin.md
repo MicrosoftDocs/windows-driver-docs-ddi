@@ -52,16 +52,6 @@ req.typenames: DXGK_QUERYDISPLAYIDIN
 Used to query a display ID.
 
 
-## -syntax
-
-
-````
-typedef struct _DXGK_QUERYDISPLAYIDIN {
-  D3DDDI_VIDEO_PRESENT_TARGET_ID TargetId;
-} DXGK_QUERYDISPLAYIDIN;
-````
-
-
 ## -struct-fields
 
 

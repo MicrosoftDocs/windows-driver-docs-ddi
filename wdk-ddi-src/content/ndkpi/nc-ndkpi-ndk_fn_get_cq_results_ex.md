@@ -49,22 +49,7 @@ req.typenames: NDIS_WWAN_VISIBLE_PROVIDERS, *PNDIS_WWAN_VISIBLE_PROVIDERS
 ## -description
 
 
-The <i>NdkGetCqResultsEx</i> (<i>NDK_FN_GET_CQ_RESULTS_EX</i>) function removes completions from an NDK completion queue (CQ) object. This function is identical to the <i>NdkGetCqResults</i> (<a href="..\ndkpi\nc-ndkpi-ndk_fn_get_cq_results.md">NDK_FN_GET_CQ_RESULTS</a>) function, except that it retrieves an array of <a href="..\ndkpi\ns-ndkpi-_ndk_result_ex.md">NDK_RESULT_EX</a> structures instead of an array of <a href="..\ndkpi\ns-ndkpi-_ndk_result.md">NDK_RESULT</a> structures.
-
-
-## -prototype
-
-
-````
-NDK_FN_GET_CQ_RESULTS_EX NDK_FN_GET_CQ_RESULTS_EX;
-
-ULONG NDK_FN_GET_CQ_RESULTS_EX(
-  _In_ NDK_CQ                                          *pNdkCq,
-       _Out_writes_to_(nResults, return) NDK_RESULT_EX Results[],
-  _In_ ULONG                                           nResults
-)
-{ ... }
-````
+The <i>NdkGetCqResultsEx</i> (<i>NDK_FN_GET_CQ_RESULTS_EX</i>) function removes completions from an NDK completion queue (CQ) object. This function is identical to the <i>NdkGetCqResults</i> (<a href="https://msdn.microsoft.com/library/windows/hardware/hh439891">NDK_FN_GET_CQ_RESULTS</a>) function, except that it retrieves an array of <a href="https://msdn.microsoft.com/library/windows/hardware/dn265509">NDK_RESULT_EX</a> structures instead of an array of <a href="https://msdn.microsoft.com/library/windows/hardware/hh439935">NDK_RESULT</a> structures.
 
 
 ## -parameters
@@ -74,7 +59,7 @@ ULONG NDK_FN_GET_CQ_RESULTS_EX(
 
 ### -param *pNdkCq [in]
 
-A pointer to an NDK completion queue (CQ) object  (<a href="..\ndkpi\ns-ndkpi-_ndk_cq.md">NDK_CQ</a>).
+A pointer to an NDK completion queue (CQ) object  (<a href="https://msdn.microsoft.com/library/windows/hardware/hh439854">NDK_CQ</a>).
 
 
 ### -param Results[]
@@ -87,7 +72,7 @@ The size, in elements, of the <i>Results</i> array. That is, the maximum number 
 
 #### - Results
 
-An array of <a href="..\ndkpi\ns-ndkpi-_ndk_result_ex.md">NDK_RESULT_EX</a> structures that will be filled with completion results that were removed from the CQ.
+An array of <a href="https://msdn.microsoft.com/library/windows/hardware/dn265509">NDK_RESULT_EX</a> structures that will be filled with completion results that were removed from the CQ.
 
 
 ## -returns
@@ -103,11 +88,6 @@ Zero means there were no completions in the CQ.
 
 ## -see-also
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_cq.md">NDK_CQ</a>
-
-
-
-<a href="..\ndkpi\ns-ndkpi-_ndk_result_ex.md">NDK_RESULT_EX</a>
 
 
 
@@ -115,14 +95,19 @@ Zero means there were no completions in the CQ.
 
 
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_get_cq_results.md">NDK_FN_GET_CQ_RESULTS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439854">NDK_CQ</a>
 
 
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_result.md">NDK_RESULT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439891">NDK_FN_GET_CQ_RESULTS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439935">NDK_RESULT</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265509">NDK_RESULT_EX</a>
  
 
  

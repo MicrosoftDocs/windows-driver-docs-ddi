@@ -52,20 +52,6 @@ req.typenames: D3D11_1DDI_GETCAPTUREHANDLEDATA
 The <i>pfnCalcPrivateVideoDecoderSize</i> callback function calculates the size of a private video decoder.
 
 
-## -prototype
-
-
-````
-PFND3D12DDI_CALCPRIVATEVIDEODECODERSIZE_0021 pfnCalcPrivateVideoDecoderSize;
-
-SIZE_T APIENTRY* pfnCalcPrivateVideoDecoderSize(
-             D3D12DDI_HDEVICE                  hDevice,
-  _In_ const D3D12DDIARG_CREATE_VIDEO_DECODER  *CreateVideoDecoder
-)
-{ ... }
-````
-
-
 ## -parameters
 
 

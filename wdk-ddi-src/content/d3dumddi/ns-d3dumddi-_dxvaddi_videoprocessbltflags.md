@@ -52,26 +52,6 @@ req.typenames: DXVADDI_VIDEOPROCESSBLTFLAGS
 The DXVADDI_VIDEOPROCESSBLTFLAGS structure identifies changes in the current destination surface from the previous destination surface.
 
 
-## -syntax
-
-
-````
-typedef struct _DXVADDI_VIDEOPROCESSBLTFLAGS {
-  union {
-    struct {
-      UINT BackgroundChanged  :1;
-      UINT TargetRectChanged  :1;
-      UINT ColorDataChanged  :1;
-      UINT AlphaChanged  :1;
-      UINT Reserved  :12;
-      UINT DestData  :16;
-    };
-    UINT   Value;
-  };
-} DXVADDI_VIDEOPROCESSBLTFLAGS;
-````
-
-
 ## -struct-fields
 
 
@@ -120,10 +100,10 @@ A 32-bit value that identifies changes in the current destination surface from t
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_videoprocessblt.md">D3DDDIARG_VIDEOPROCESSBLT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544102">D3DDDIARG_VIDEOPROCESSBLT</a>
  
 
  

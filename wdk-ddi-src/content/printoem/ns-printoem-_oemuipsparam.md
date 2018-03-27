@@ -53,26 +53,6 @@ req.product: Windows 10 or later.
 The OEMUIPSPARAM structure is passed to a user interface plug-in's <a href="https://msdn.microsoft.com/library/windows/hardware/ff554165">IPrintOemUI::DevicePropertySheets</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff554173">IPrintOemUI::DocumentPropertySheets</a> methods.
 
 
-## -syntax
-
-
-````
-typedef struct _OEMUIPSPARAM {
-  DWORD     cbSize;
-  POEMUIOBJ poemuiobj;
-  HANDLE    hPrinter;
-  PWSTR     pPrinterName;
-  HANDLE    hModule;
-  HANDLE    hOEMHeap;
-  PDEVMODE  pPublicDM;
-  PVOID     pOEMDM;
-  PVOID     pOEMUserData;
-  DWORD     dwFlags;
-  PVOID     pOemEntry;
-} OEMUIPSPARAM, *POEMUIPSPARAM;
-````
-
-
 ## -struct-fields
 
 
@@ -144,7 +124,7 @@ Not used.
 
 ### -field pOEMUserData
 
-Pointer, supplied by user interface plug-in, to a location containing private information. This pointer is returned to the plug-in's <a href="..\compstui\nc-compstui-_cpsuicallback.md">_CPSUICALLBACK</a>-typed callback function when a property sheet item has changed.
+Pointer, supplied by user interface plug-in, to a location containing private information. This pointer is returned to the plug-in's <a href="https://msdn.microsoft.com/library/windows/hardware/ff564313">_CPSUICALLBACK</a>-typed callback function when a property sheet item has changed.
 
 
 ### -field dwFlags
@@ -155,13 +135,13 @@ Pointer, supplied by user interface plug-in, to a location containing private in
 
 #### For calls to IPrintOemUI::DocumentPropertySheets:
 
-Contains the contents of the <b>fMode</b> member of the DOCUMENTPROPERTYHEADER structure received by the printer driver's <a href="..\winddiui\nf-winddiui-drvdocumentpropertysheets.md">DrvDocumentPropertySheets</a> function.
+Contains the contents of the <b>fMode</b> member of the DOCUMENTPROPERTYHEADER structure received by the printer driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff548548">DrvDocumentPropertySheets</a> function.
 
 
 
 #### For calls to IPrintOemUI::DevicePropertySheets:
 
-Contains the contents of the <b>Flags</b> member of the DEVICEPROPERTYHEADER structure received by the printer driver's <a href="..\winddiui\nf-winddiui-drvdevicepropertysheets.md">DrvDevicePropertySheets</a> function.
+Contains the contents of the <b>Flags</b> member of the DEVICEPROPERTYHEADER structure received by the printer driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff548542">DrvDevicePropertySheets</a> function.
 
 
 ### -field pOemEntry
@@ -171,11 +151,14 @@ Reserved for system use.
 
 ## -see-also
 
-<a href="..\compstui\nc-compstui-_cpsuicallback.md">_CPSUICALLBACK</a>
 
 
 
-<a href="..\winddiui\nf-winddiui-drvdevicepropertysheets.md">DrvDevicePropertySheets</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548542">DrvDevicePropertySheets</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548548">DrvDocumentPropertySheets</a>
 
 
 
@@ -183,14 +166,11 @@ Reserved for system use.
 
 
 
-<a href="..\winddiui\nf-winddiui-drvdocumentpropertysheets.md">DrvDocumentPropertySheets</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554173">IPrintOemUI::DocumentPropertySheets</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564313">_CPSUICALLBACK</a>
  
 
  

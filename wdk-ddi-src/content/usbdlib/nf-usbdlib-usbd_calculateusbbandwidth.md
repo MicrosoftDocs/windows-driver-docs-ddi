@@ -54,18 +54,6 @@ req.product: Windows 10 or later.
 The <b>USBD_CalculateUsbBandwidth</b> routine has been deprecated in Windows XP and later operating systems. Do not use. 
 
 
-## -syntax
-
-
-````
-ULONG USBD_CalculateUsbBandwidth(
-  _In_ ULONG   MaxPacketSize,
-  _In_ UCHAR   EndpointType,
-  _In_ BOOLEAN LowSpeed
-);
-````
-
-
 ## -parameters
 
 
@@ -78,7 +66,7 @@ Specifies the maximum packet size.
 
 ### -param EndpointType [in]
 
-Contains a value of type <a href="..\usb\ne-usb-_usbd_pipe_type.md">USBD_PIPE_TYPE</a> that specifies the pipe type.
+Contains a value of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff539119">USBD_PIPE_TYPE</a> that specifies the pipe type.
 
 
 ### -param LowSpeed [in]
@@ -106,7 +94,6 @@ The <b>USBD_CalculateUsbBandwidth</b> routine approximates the bandwidth using t
 
 ## -see-also
 
-<a href="..\usb\ne-usb-_usbd_pipe_type.md">USBD_PIPE_TYPE</a>
 
 
 
@@ -114,6 +101,7 @@ The <b>USBD_CalculateUsbBandwidth</b> routine approximates the bandwidth using t
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539119">USBD_PIPE_TYPE</a>
  
 
  

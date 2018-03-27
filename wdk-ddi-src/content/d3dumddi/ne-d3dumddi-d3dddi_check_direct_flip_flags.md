@@ -49,17 +49,7 @@ req.typenames: D3DDDI_CHECK_DIRECT_FLIP_FLAGS
 ## -description
 
 
-Used by the <i>CheckDirectFlipFlags</i> parameter of the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_checkdirectflipsupport.md">CheckDirectFlipSupport</a> function to specify seamless flipping of video memory.
-
-
-## -syntax
-
-
-````
-typedef enum D3DDDI_CHECK_DIRECT_FLIP_FLAGS { 
-  D3DDDI_CHECKDIRECTFLIP_IMMEDIATE  = 0x00000001
-} D3DDDI_CHECK_DIRECT_FLIP_FLAGS;
-````
+Used by the <i>CheckDirectFlipFlags</i> parameter of the <a href="https://msdn.microsoft.com/BB909041-0194-4828-ACA2-E3F6B1974DBB">CheckDirectFlipSupport</a> function to specify seamless flipping of video memory.
 
 
 ## -enum-fields
@@ -74,14 +64,14 @@ Seamless flipping should occur immediately and does not have to be synchronized 
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_checkdirectflipsupport.md">CheckDirectFlipSupport</a>
 
 
 
-<a href="..\d3dumddi\ne-d3dumddi-d3dddi_check_direct_flip_flags.md">D3DDDI_CHECK_DIRECT_FLIP_FLAGS</a>
+<a href="https://msdn.microsoft.com/BB909041-0194-4828-ACA2-E3F6B1974DBB">CheckDirectFlipSupport</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451172">D3DDDI_CHECK_DIRECT_FLIP_FLAGS</a>
  
 
  

@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
@@ -50,16 +50,6 @@ req.typenames: LAMP_INTENSITY_WHITE
 
 
 <b>ChangerInitialize</b> readies the changer to receive other requests. 
-
-
-## -syntax
-
-
-````
-NTSTATUS ChangerInitialize(
-  _In_ PDEVICE_OBJECT DeviceObject
-);
-````
 
 
 ## -parameters
@@ -101,10 +91,10 @@ After <b>ChangerInitialize</b> returns, the changer miniclass driver and the cha
 
 ## -see-also
 
-<a href="..\mcd\nf-mcd-changeradditionalextensionsize.md">ChangerAdditionalExtensionSize</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551400">ChangerAdditionalExtensionSize</a>
  
 
  

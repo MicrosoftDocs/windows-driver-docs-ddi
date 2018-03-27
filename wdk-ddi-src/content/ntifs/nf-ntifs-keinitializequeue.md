@@ -52,17 +52,6 @@ req.typenames: TOKEN_TYPE
 The <b>KeInitializeQueue</b> routine initializes a queue object on which threads can wait for entries. 
 
 
-## -syntax
-
-
-````
-VOID KeInitializeQueue(
-  _Out_ PRKQUEUE Queue,
-  _In_  ULONG    Count
-);
-````
-
-
 ## -parameters
 
 
@@ -176,34 +165,34 @@ For more information about using driver-managed internal queues, see <a href="ht
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-ioallocateworkitem.md">IoAllocateWorkItem</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-keinsertqueue.md">KeInsertQueue</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544520">ExAllocatePoolWithTag</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-keremovequeue.md">KeRemoveQueue</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548276">IoAllocateWorkItem</a>
 
 
 
-<a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549466">IoQueueWorkItem</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-kerundownqueue.md">KeRundownQueue</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549570">KeInsertQueue</a>
 
 
 
-<a href="..\wdm\nf-wdm-ioqueueworkitem.md">IoQueueWorkItem</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549605">KeRemoveQueue</a>
 
 
 
-<a href="..\wdm\nf-wdm-pscreatesystemthread.md">PsCreateSystemThread</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549638">KeRundownQueue</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559932">PsCreateSystemThread</a>
  
 
  

@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: filterpipeline.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -52,18 +52,6 @@ req.typenames: EXpsFontRestriction
 The <code>InitializeFilter</code> method initializes a filter.
 
 
-## -syntax
-
-
-````
-HRESULT InitializeFilter(
-  [in] IInterFilterCommunicator     *pICommunicator,
-  [in] IPrintPipelinePropertyBag    *pIPropertyBag,
-  [in] IPrintPipelineManagerControl *pIPipelineControl
-);
-````
-
-
 ## -parameters
 
 
@@ -76,17 +64,17 @@ HRESULT InitializeFilter(
 
 ### -param pIPropertyBag [in]
 
-A pointer to the<a href="..\filterpipeline\nn-filterpipeline-iprintpipelinepropertybag.md">IPrintPipelinePropertyBag</a> interface.
+A pointer to the<a href="https://msdn.microsoft.com/library/windows/hardware/ff554320">IPrintPipelinePropertyBag</a> interface.
 
 
 ### -param pIPipelineControl [in]
 
-A pointer to the <a href="..\filterpipeline\nn-filterpipeline-iprintpipelinemanagercontrol.md">IPrintPipelineManagerControl</a> interface.
+A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554303">IPrintPipelineManagerControl</a> interface.
 
 
 #### - pICommunicator [in]
 
-A pointer to the <a href="..\filterpipeline\nn-filterpipeline-iinterfiltercommunicator.md">IInterFilterCommunicator</a> interface.
+A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551050">IInterFilterCommunicator</a> interface.
 
 
 ## -returns
@@ -119,22 +107,22 @@ Get the read and write interfaces.
 
 ## -see-also
 
-<a href="..\filterpipeline\nn-filterpipeline-iinterfiltercommunicator.md">IInterFilterCommunicator</a>
 
 
 
-<a href="..\filterpipeline\nn-filterpipeline-iprintpipelinefilter.md">IPrintPipelineFilter</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551050">IInterFilterCommunicator</a>
 
 
 
-<a href="..\filterpipeline\nn-filterpipeline-iprintpipelinemanagercontrol.md">IPrintPipelineManagerControl</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554286">IPrintPipelineFilter</a>
 
 
 
-<a href="..\filterpipeline\nn-filterpipeline-iprintpipelinepropertybag.md">IPrintPipelinePropertyBag</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554303">IPrintPipelineManagerControl</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554320">IPrintPipelinePropertyBag</a>
  
 
  

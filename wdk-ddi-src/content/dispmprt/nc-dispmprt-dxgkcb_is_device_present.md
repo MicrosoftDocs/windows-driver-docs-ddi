@@ -52,21 +52,6 @@ req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
 The <b>DxgkCbIsDevicePresent</b> function determines whether a specified PCI device is present.
 
 
-## -prototype
-
-
-````
-DXGKCB_IS_DEVICE_PRESENT DxgkCbIsDevicePresent;
-
-NTSTATUS DxgkCbIsDevicePresent(
-  _In_  HANDLE                          DeviceHandle,
-  _In_  PPCI_DEVICE_PRESENCE_PARAMETERS DevicePresenceParameters,
-  _Out_ PBOOLEAN                        DevicePresent
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -74,7 +59,7 @@ NTSTATUS DxgkCbIsDevicePresent(
 
 ### -param DeviceHandle [in]
 
-A handle that represents a display adapter. The display miniport driver previously obtained this handle in the <b>DeviceHandle</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560942">DXGKRNL_INTERFACE</a> structure that was passed to <a href="..\dispmprt\nc-dispmprt-dxgkddi_start_device.md">DxgkDdiStartDevice</a>.
+A handle that represents a display adapter. The display miniport driver previously obtained this handle in the <b>DeviceHandle</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560942">DXGKRNL_INTERFACE</a> structure that was passed to <a href="https://msdn.microsoft.com/ffacbb39-2581-4207-841d-28ce57fbc64d">DxgkDdiStartDevice</a>.
 
 
 ### -param DevicePresenceParameters [in]

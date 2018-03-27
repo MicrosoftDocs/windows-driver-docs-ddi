@@ -52,16 +52,6 @@ req.typenames: TOKEN_DEFAULT_DACL, *PTOKEN_DEFAULT_DACL
 The TOKEN_DEFAULT_DACL structure specifies a discretionary access-control list (DACL). 
 
 
-## -syntax
-
-
-````
-typedef struct _TOKEN_DEFAULT_DACL {
-  PACL DefaultDacl;
-} TOKEN_DEFAULT_DACL, *PTOKEN_DEFAULT_DACL;
-````
-
-
 ## -struct-fields
 
 
@@ -83,22 +73,22 @@ The <b>SeQueryInformationToken</b> support routine retrieves the default DACL fo
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_acl.md">ACL</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-zwsetinformationtoken.md">ZwSetInformationToken</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538866">ACL</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-zwqueryinformationtoken.md">ZwQueryInformationToken</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556690">SeQueryInformationToken</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-sequeryinformationtoken.md">SeQueryInformationToken</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567055">ZwQueryInformationToken</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567102">ZwSetInformationToken</a>
  
 
  

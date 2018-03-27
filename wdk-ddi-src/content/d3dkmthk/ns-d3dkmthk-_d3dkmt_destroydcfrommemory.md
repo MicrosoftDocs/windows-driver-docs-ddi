@@ -52,17 +52,6 @@ req.typenames: D3DKMT_DESTROYDCFROMMEMORY
 The D3DKMT_DESTROYDCFROMMEMORY structure describes parameters for releasing the display context.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DKMT_DESTROYDCFROMMEMORY {
-  HDC    hDc;
-  HANDLE hBitmap;
-} D3DKMT_DESTROYDCFROMMEMORY;
-````
-
-
 ## -struct-fields
 
 
@@ -80,10 +69,10 @@ typedef struct _D3DKMT_DESTROYDCFROMMEMORY {
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtdestroydcfrommemory.md">D3DKMTDestroyDCFromMemory</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546908">D3DKMTDestroyDCFromMemory</a>
  
 
  

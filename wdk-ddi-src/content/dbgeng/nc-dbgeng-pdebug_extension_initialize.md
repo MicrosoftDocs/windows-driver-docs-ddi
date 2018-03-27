@@ -61,14 +61,6 @@ The <b>DebugExtensionInitialize</b> callback function is called by the engine af
 </tr>
 </table></span></div>
 
-## -prototype
-
-
-````
- CALLBACK* PDEBUG_EXTENSION_INITIALIZE DebugExtensionInitialize;
-````
-
-
 ## -parameters
 
 
@@ -141,18 +133,18 @@ There may or may not be a session active when this function is called, so the ex
 
 ## -see-also
 
-<a href="..\dbgeng\nc-dbgeng-pdebug_extension_known_struct.md">KnownStructOutput</a>
 
 
 
-<a href="..\dbgeng\nc-dbgeng-pdebug_extension_notify.md">DebugExtensionNotify</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540478">DebugExtensionNotify</a>
 
 
 
-<a href="..\dbgeng\nc-dbgeng-pdebug_extension_uninitialize.md">DebugExtensionUninitialize</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540495">DebugExtensionUninitialize</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551934">KnownStructOutput</a>
  
 
  

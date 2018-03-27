@@ -52,17 +52,6 @@ req.typenames: D3D12DDIARG_CREATE_VIDEO_PROCESSOR_0021
 Specifies arguments used to create a video processor.
 
 
-## -syntax
-
-
-````
-typedef struct D3D12DDIARG_CREATE_VIDEO_PROCESSOR_0021 {
-  UINT                 NodeMask;
-  D3D12DDI_VIDEO_USAGE Usage;
-} D3D12DDIARG_CREATE_VIDEO_PROCESSOR_0021;
-````
-
-
 ## -struct-fields
 
 
@@ -75,7 +64,7 @@ A node mask. For single GPU operation, set this value to zero (0). If there are 
 
 ### -field Usage
 
-Specifies a hint for the intended usage for the video processor. For more information, see the <a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_video_usage.md">D3D12DDI_VIDEO_USAGE</a> enumeration.
+Specifies a hint for the intended usage for the video processor. For more information, see the <a href="https://msdn.microsoft.com/663790EE-A9E3-4EBC-93C7-20DE0D759A26">D3D12DDI_VIDEO_USAGE</a> enumeration.
 
 
 ## -remarks
@@ -89,10 +78,10 @@ A video processor holds state for a video processing session. State includes req
 
 ## -see-also
 
-<a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_video_usage.md">D3D12DDI_VIDEO_USAGE</a>
 
 
 
+<a href="https://msdn.microsoft.com/663790EE-A9E3-4EBC-93C7-20DE0D759A26">D3D12DDI_VIDEO_USAGE</a>
  
 
  

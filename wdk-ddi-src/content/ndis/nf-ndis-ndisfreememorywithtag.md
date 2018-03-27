@@ -51,18 +51,7 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 
 
 The 
-  <b>NdisFreeMemoryWithTag</b> function is deprecated for all NDIS versions.  Use <a href="..\ndis\nf-ndis-ndisallocatememorywithtagpriority.md">NdisAllocateMemoryWithTagPriority</a> instead.
-
-
-## -syntax
-
-
-````
-VOID NdisFreeMemoryWithTag(
-  _In_ PVOID VirtualAddress,
-  _In_ ULONG Tag
-);
-````
+  <b>NdisFreeMemoryWithTag</b> function is deprecated for all NDIS versions.  Use <a href="https://msdn.microsoft.com/library/windows/hardware/ff561606">NdisAllocateMemoryWithTagPriority</a> instead.
 
 
 ## -parameters
@@ -126,10 +115,10 @@ When a caller of
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550767">NdisAllocateMemoryWithTag</a>
-
-
-
  
 
  

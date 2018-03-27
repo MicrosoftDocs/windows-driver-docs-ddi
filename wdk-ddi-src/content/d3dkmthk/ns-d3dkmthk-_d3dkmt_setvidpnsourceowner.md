@@ -52,19 +52,6 @@ req.typenames: D3DKMT_SETVIDPNSOURCEOWNER
 The D3DKMT_SETVIDPNSOURCEOWNER structure describes the parameters for setting or releasing the video present source in the path of a video present network (VidPN) topology that owns the VidPN.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DKMT_SETVIDPNSOURCEOWNER {
-  D3DKMT_HANDLE                        hDevice;
-  const D3DKMT_VIDPNSOURCEOWNER_TYPE   *pType;
-  const D3DDDI_VIDEO_PRESENT_SOURCE_ID *pVidPnSourceId;
-  UINT                                 VidPnSourceCount;
-} D3DKMT_SETVIDPNSOURCEOWNER;
-````
-
-
 ## -struct-fields
 
 
@@ -140,10 +127,10 @@ The number of valid entries in the array that <b>pVidPnSourceId</b> specifies.
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtsetvidpnsourceowner.md">D3DKMTSetVidPnSourceOwner</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547201">D3DKMTSetVidPnSourceOwner</a>
  
 
  

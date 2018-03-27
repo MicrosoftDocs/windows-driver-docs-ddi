@@ -51,27 +51,7 @@ req.typenames: D3DKMT_TDRDBGCTRLTYPE
 
 <b>Do not use the D3DKMT_TDRDBGCTRLTYPE enumeration; it is for testing purposes only.</b>
 
-The <b>D3DKMT_TDRDBGCTRLTYPE</b> enumeration type contains values that affect the behavior of the operating system's Timeout Detection and Recovery (TDR) process in a call to the OpenGL <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtescape.md">D3DKMTEscape</a> function.
-
-
-## -syntax
-
-
-````
-typedef enum _D3DKMT_TDRDBGCTRLTYPE { 
-  D3DKMT_TDRDBGCTRLTYPE_FORCETDR          = 0,
-  D3DKMT_TDRDBGCTRLTYPE_DISABLEBREAK      = 1,
-  D3DKMT_TDRDBGCTRLTYPE_ENABLEBREAK       = 2,
-  D3DKMT_TDRDBGCTRLTYPE_UNCONDITIONAL     = 3,
-  D3DKMT_TDRDBGCTRLTYPE_VSYNCTDR          = 4,
-  D3DKMT_TDRDBGCTRLTYPE_GPUTDR            = 5,
-#if (DXGKDDI_INTERFACE_VERSION >= DXGKDDI_INTERFACE_VERSION_WIN8)
-  D3DKMT_TDRDBGCTRLTYPE_FORCEDODTDR       = 6,
-  D3DKMT_TDRDBGCTRLTYPE_FORCEDODVSYNCTDR  = 7,
-  D3DKMT_TDRDBGCTRLTYPE_ENGINETDR         = 8
-
-#endif } D3DKMT_TDRDBGCTRLTYPE;
-````
+The <b>D3DKMT_TDRDBGCTRLTYPE</b> enumeration type contains values that affect the behavior of the operating system's Timeout Detection and Recovery (TDR) process in a call to the OpenGL <a href="https://msdn.microsoft.com/library/windows/hardware/ff546940">D3DKMTEscape</a> function.
 
 
 ## -enum-fields
@@ -132,14 +112,14 @@ Supported starting with Windows 8.
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_escape.md">D3DKMT_ESCAPE</a>
 
 
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtescape.md">D3DKMTEscape</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546940">D3DKMTEscape</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547970">D3DKMT_ESCAPE</a>
  
 
  

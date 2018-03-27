@@ -52,26 +52,6 @@ req.typenames: D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_PROCESS_0030
 Command list functions for video process.
 
 
-## -syntax
-
-
-````
-typedef struct _D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_PROCESS_0030 {
-  PFND3D12DDI_CLOSECOMMANDLIST                  pfnCloseCommandList;
-  PFND3D12DDI_RESETCOMMANDLIST                  pfnResetCommandList;
-  PFND3D12DDI_DISCARD_RESOURCE_0003             pfnDiscardResource;
-  PFND3D12DDI_SET_MARKER                        pfnSetMarker;
-  PFND3D12DDI_SET_PREDICATION                   pfnSetPredication;
-  PFND3D12DDI_BEGIN_END_QUERY_0003              pfnBeginQuery;
-  PFND3D12DDI_BEGIN_END_QUERY_0003              pfnEndQuery;
-  PFND3D12DDI_RESOLVE_QUERY_DATA                pfnResolveQueryData;
-  PFND3D12DDI_RESOURCEBARRIER_0022              pfnResourceBarrier;
-  PFND3D12DDI_VIDEO_PROCESS_FRAME_0021          pfnProcessFrame;
-  PFND3D12DDI_SETPROTECTEDRESOURCESESSION_0030  pfnSetProtectedResourceSession;
-} D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_PROCESS_0030, D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_PROCESS_0030;
-````
-
-
 ## -struct-fields
 
 

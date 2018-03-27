@@ -52,18 +52,6 @@ req.typenames: RILMANAGECALLSPARAMS_V1, *LPRILMANAGECALLSPARAMS_V1
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef struct _RILMANAGECALLSPARAMS_V1 {
-  DWORD                       dwExecutor;
-  RILMANAGECALLPARAMSCOMMAND  dwCommand;
-  DWORD                       dwID;
-} RILMANAGECALLSPARAMS_V1, RILMANAGECALLSPARAMS_V1;
-````
-
-
 ## -struct-fields
 
 

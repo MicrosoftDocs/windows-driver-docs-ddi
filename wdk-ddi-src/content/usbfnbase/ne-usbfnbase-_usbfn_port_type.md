@@ -53,22 +53,6 @@ req.product: Windows 10 or later.
 Defines the possible port types that can be returned by the client driver during port detection.
 
 
-## -syntax
-
-
-````
-typedef enum _USBFN_PORT_TYPE { 
-  UsbfnUnknownPort                       = 0,
-  UsbfnStandardDownstreamPort,
-  UsbfnChargingDownstreamPort,
-  UsbfnDedicatedChargingPort,
-  UsbfnInvalidDedicatedChargingPort,
-  UsbfnProprietaryDedicatedChargingPort,
-  UsbfnPortTypeMaximum
-} USBFN_PORT_TYPE;
-````
-
-
 ## -enum-fields
 
 
@@ -111,10 +95,10 @@ The maximum value of the enumeration.
 
 ## -see-also
 
-<a href="..\usbfnattach\nc-usbfnattach-usbfn_get_attach_action.md">USBFN_GET_ATTACH_ACTION</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt187995">USBFN_GET_ATTACH_ACTION</a>
  
 
  

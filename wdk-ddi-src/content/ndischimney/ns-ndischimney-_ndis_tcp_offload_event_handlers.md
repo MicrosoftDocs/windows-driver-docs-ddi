@@ -55,22 +55,6 @@ The NDIS_TCP_OFFLOAD_EVENT_HANDLERS structure contains the entry points for the 
   the TCP chimney.
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_TCP_OFFLOAD_EVENT_HANDLERS {
-  NDIS_OBJECT_HEADER                   Header;
-  NDIS_TCP_OFFLOAD_EVENT_INDICATE      NdisTcpOffloadEventHandler;
-  NDIS_TCP_OFFLOAD_RECEIVE_INDICATE    NdisTcpOffloadReceiveHandler;
-  NDIS_TCP_OFFLOAD_SEND_COMPLETE       NdisTcpOffloadSendComplete;
-  NDIS_TCP_OFFLOAD_RECEIVE_COMPLETE    NdisTcpOffloadReceiveComplete;
-  NDIS_TCP_OFFLOAD_DISCONNECT_COMPLETE NdisTcpOffloadDisconnectComplete;
-  NDIS_TCP_OFFLOAD_FORWARD_COMPLETE    NdisTcpOffloadForwardComplete;
-} NDIS_TCP_OFFLOAD_EVENT_HANDLERS, *PNDIS_TCP_OFFLOAD_EVENT_HANDLERS;
-````
-
-
 ## -struct-fields
 
 
@@ -79,48 +63,48 @@ typedef struct _NDIS_TCP_OFFLOAD_EVENT_HANDLERS {
 ### -field Header
 
 The NDIS object header, which is formatted as an 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure.
 
 
 ### -field NdisTcpOffloadEventHandler
 
 The entry point for the 
-     <a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_event_indicate.md">
+     <a href="https://msdn.microsoft.com/b62e8a07-fe7b-4c52-8795-19e4bb889b6e">
      NdisTcpOffloadEventHandler</a> function.
 
 
 ### -field NdisTcpOffloadReceiveHandler
 
 The entry point for the 
-     <a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_receive_indicate.md">
+     <a href="https://msdn.microsoft.com/a45dede9-6559-4207-a49f-d9627054433a">
      NdisTcpOffloadReceiveHandler</a> function.
 
 
 ### -field NdisTcpOffloadSendComplete
 
 The entry point for the 
-     <a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_send_complete.md">
+     <a href="https://msdn.microsoft.com/1689b6f9-88f3-456f-9a7c-c6b4e76cb336">
      NdisTcpOffloadSendComplete</a> function.
 
 
 ### -field NdisTcpOffloadReceiveComplete
 
 The entry point for the 
-     <a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_receive_complete.md">
+     <a href="https://msdn.microsoft.com/d5b1341b-cbe0-483c-9abb-b8706f2db2dd">
      NdisTcpOffloadReceiveComplete</a> function.
 
 
 ### -field NdisTcpOffloadDisconnectComplete
 
 The entry point for the 
-     <a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_disconnect_complete.md">
+     <a href="https://msdn.microsoft.com/e862d9fe-a60c-4397-95ce-62aa1ef17eae">
      NdisTcpOffloadDisconnectComplete</a> function.
 
 
 ### -field NdisTcpOffloadForwardComplete
 
 The entry point for the 
-     <a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_forward_complete.md">
+     <a href="https://msdn.microsoft.com/080949ab-8a27-4d13-992e-597210d4882c">
      NdisTcpOffloadForwardComplete</a> function.
 
 
@@ -136,36 +120,36 @@ An offload target copies the entry points in the NDIS_TCP_OFFLOAD_EVENT_HANDLERS
 
 ## -see-also
 
-<a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_receive_indicate.md">NdisTcpOffloadReceiveHandler</a>
 
 
 
-<a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_disconnect_complete.md">
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563595">NdisMGetOffloadHandlers</a>
+
+
+
+<a href="https://msdn.microsoft.com/e862d9fe-a60c-4397-95ce-62aa1ef17eae">
    NdisTcpOffloadDisconnectComplete</a>
 
 
 
-<a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_send_complete.md">NdisTcpOffloadSendComplete</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564595">NdisTcpOffloadEventHandler</a>
 
 
 
-<a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_event_indicate.md">NdisTcpOffloadEventHandler</a>
-
-
-
-<a href="..\ndischimney\nf-ndischimney-ndismgetoffloadhandlers.md">NdisMGetOffloadHandlers</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
-<a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_receive_complete.md">
+<a href="https://msdn.microsoft.com/d5b1341b-cbe0-483c-9abb-b8706f2db2dd">
    NdisTcpOffloadReceiveComplete</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564606">NdisTcpOffloadReceiveHandler</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564609">NdisTcpOffloadSendComplete</a>
  
 
  

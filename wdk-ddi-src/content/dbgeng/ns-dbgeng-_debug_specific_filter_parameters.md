@@ -52,20 +52,6 @@ req.typenames: DEBUG_SPECIFIC_FILTER_PARAMETERS, *PDEBUG_SPECIFIC_FILTER_PARAMET
 The DEBUG_SPECIFIC_FILTER_PARAMETERS structure contains the parameters for a <a href="https://msdn.microsoft.com/1f8f738b-7b2b-419a-949e-b71f937de02d">specific event filter</a>.
 
 
-## -syntax
-
-
-````
-typedef struct _DEBUG_SPECIFIC_FILTER_PARAMETERS {
-  ULONG ExecutionOption;
-  ULONG ContinueOption;
-  ULONG TextSize;
-  ULONG CommandSize;
-  ULONG ArgumentSize;
-} DEBUG_SPECIFIC_FILTER_PARAMETERS, *PDEBUG_SPECIFIC_FILTER_PARAMETERS;
-````
-
-
 ## -struct-fields
 
 
@@ -100,7 +86,6 @@ Specifies the size, in characters, of the specific event filter argument.  This 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556795">SetSpecificFilterParameters</a>
 
 
 
@@ -108,6 +93,7 @@ Specifies the size, in characters, of the specific event filter argument.  This 
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556795">SetSpecificFilterParameters</a>
  
 
  

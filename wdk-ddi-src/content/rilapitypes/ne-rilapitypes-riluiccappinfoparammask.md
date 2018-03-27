@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,23 +51,6 @@ req.product: Windows 10 or later.
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef enum _RILUICCAPPINFOPARAMMASK { 
-  RIL_PARAM_UICCAPPINFO_APPTYPE,
-  RIL_PARAM_UICCAPPINFO_APPIDLENGTH,
-  RIL_PARAM_UICCAPPINFO_APPID,
-  RIL_PARAM_UICCAPPINFO_APPNAMELENGTH,
-  RIL_PARAM_UICCAPPINFO_APPNAME,
-  RIL_PARAM_UICCAPPINFO_NUMPINS,
-  RIL_PARAM_UICCAPPINFO_PINREF,
-  RIL_PARAM_UICCAPPINFO_ALL
-} RILUICCAPPINFOPARAMMASK;
-````
 
 
 ## -enum-fields

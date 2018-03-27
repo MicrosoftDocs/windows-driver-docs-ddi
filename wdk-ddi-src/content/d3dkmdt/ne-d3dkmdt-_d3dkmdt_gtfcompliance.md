@@ -52,18 +52,6 @@ req.typenames: D3DKMDT_GTFCOMPLIANCE
 The D3DKMDT_GTFCOMPLIANCE enumeration is reserved for system use. Do not use it in your driver.
 
 
-## -syntax
-
-
-````
-typedef enum _D3DKMDT_GTFCOMPLIANCE { 
-  D3DKMDT_GTF_UNINITIALIZED  = 0,
-  D3DKMDT_GTF_COMPLIANT      = 1,
-  D3DKMDT_GTF_NOTCOMPLIANT   = 2
-} D3DKMDT_GTFCOMPLIANCE;
-````
-
-
 ## -enum-fields
 
 

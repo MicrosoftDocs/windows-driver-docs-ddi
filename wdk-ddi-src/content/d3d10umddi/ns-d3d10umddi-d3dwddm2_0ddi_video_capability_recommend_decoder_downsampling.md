@@ -52,21 +52,6 @@ req.typenames: D3DWDDM2_0DDI_VIDEO_CAPABILITY_RECOMMEND_DECODER_DOWNSAMPLING
 <b>D3DWDDM2_0DDI_VIDEO_CAPABILITY_RECOMMEND_DECODER_DOWNSAMPLING</b> is used by the user-mode driver to recommend downsampling parameters that can be used to decode the stream in real-time.
 
 
-## -syntax
-
-
-````
-typedef struct D3DWDDM2_0DDI_VIDEO_CAPABILITY_RECOMMEND_DECODER_DOWNSAMPLING {
-  const D3D11_1DDI_VIDEO_DECODER_DESC   *pInputDesc;
-  D3DDDI_COLOR_SPACE_TYPE               InputColorSpace;
-  const D3D11_1DDI_VIDEO_DECODER_CONFIG *pInputConfig;
-  const DXGI_RATIONAL                   *pFrameRate;
-  D3D11_1DDI_VIDEO_DECODER_DESC         *pOutputDesc;
-  D3DDDI_COLOR_SPACE_TYPE               OutputColorSpace;
-} D3DWDDM2_0DDI_VIDEO_CAPABILITY_RECOMMEND_DECODER_DOWNSAMPLING;
-````
-
-
 ## -struct-fields
 
 

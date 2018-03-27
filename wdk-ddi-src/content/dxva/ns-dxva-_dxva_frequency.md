@@ -52,17 +52,6 @@ req.typenames: DXVA_Frequency
 The DXVA_Frequency structure is sent by the host decoder to the driver to specify the video frame rate, in Hz. For example, NTSC TV is 60000 over 1001.
 
 
-## -syntax
-
-
-````
-typedef struct _DXVA_Frequency {
-  DWORD Numerator;
-  DWORD Denominator;
-} DXVA_Frequency;
-````
-
-
 ## -struct-fields
 
 

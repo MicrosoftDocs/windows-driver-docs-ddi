@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
@@ -53,19 +53,6 @@ req.product: Windows 10 or later.
 Creates a USB device object on the specified controller.
 
 
-## -syntax
-
-
-````
-NTSTATUS UcxUsbDeviceCreate(
-  [in]           UCXCONTROLLER          Controller,
-  [out]          PUCXUSBDEVICE_INIT     *UsbDeviceInit,
-  [in, optional] PWDF_OBJECT_ATTRIBUTES Attributes,
-  [out]          UCXUSBDEVICE           *UsbDevice
-);
-````
-
-
 ## -parameters
 
 
@@ -85,7 +72,7 @@ A pointer to a <b>UCXUSBDEVICE_INIT</b> structure that describes various configu
 
 ### -param Attributes [in, optional]
 
-A pointer to a caller-allocated <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a> structure that specifies attributes for the USB device object. 
+A pointer to a caller-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/ff552400">WDF_OBJECT_ATTRIBUTES</a> structure that specifies attributes for the USB device object. 
 
 
 ### -param UsbDevice [out]
@@ -106,19 +93,19 @@ The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this met
 
 
 
-The client driver for the host controller must call this method after the <a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a> call. The parent of the new USB device object is the parent hub device specified by UCX.
+The client driver for the host controller must call this method after the <a href="https://msdn.microsoft.com/library/windows/hardware/ff545926">WdfDeviceCreate</a> call. The parent of the new USB device object is the parent hub device specified by UCX.
 
-For a code example, see <a href="..\ucxcontroller\nc-ucxcontroller-evt_ucx_controller_usbdevice_add.md">EVT_UCX_CONTROLLER_USBDEVICE_ADD</a>.
+For a code example, see <a href="https://msdn.microsoft.com/library/windows/hardware/mt187823">EVT_UCX_CONTROLLER_USBDEVICE_ADD</a>.
 
 
 
 
 ## -see-also
 
-<a href="..\ucxcontroller\nc-ucxcontroller-evt_ucx_controller_usbdevice_add.md">EVT_UCX_CONTROLLER_USBDEVICE_ADD</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt187823">EVT_UCX_CONTROLLER_USBDEVICE_ADD</a>
  
 
  

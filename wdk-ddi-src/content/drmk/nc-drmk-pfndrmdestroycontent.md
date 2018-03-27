@@ -7,7 +7,7 @@ old-location: audio\pfndrmdestroycontent.htm
 old-project: audio
 ms.assetid: 24B98C91-9EB3-4D00-8D58-F6C96610946A
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/19/2018
 ms.keywords: DRMDestroyContent, DRMDestroyContent callback function [Audio Devices], PFNDRMDESTROYCONTENT, audio.pfndrmdestroycontent, drmk/DRMDestroyContent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,21 +50,6 @@ req.typenames: WDI_TX_METADATA, *PWDI_TX_METADATA
 
 
 This callback function is reserved for system use.
-
-
-## -prototype
-
-
-````
-PFNDRMDESTROYCONTENT DRMDestroyContent;
-
-NTSTATUS DRMDestroyContent(
-  _In_ ULONG ContentId
-)
-{ ... }
-
-typedef PFNDRMDESTROYCONTENT DRMDestroyContent;
-````
 
 
 ## -parameters

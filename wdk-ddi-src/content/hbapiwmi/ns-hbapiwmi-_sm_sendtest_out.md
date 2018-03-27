@@ -52,16 +52,6 @@ req.typenames: SM_SendTEST_OUT, *PSM_SendTEST_OUT
 The SM_SendTEST_OUT structure is used to receive output parameters from the SM_SendTEST method.
 
 
-## -syntax
-
-
-````
-typedef struct _SM_SendTEST_OUT {
-  ULONG HBAStatus;
-} SM_SendTEST_OUT, *PSM_SendTEST_OUT;
-````
-
-
 ## -struct-fields
 
 

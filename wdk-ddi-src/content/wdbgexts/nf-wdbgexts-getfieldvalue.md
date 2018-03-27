@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: wdbgexts.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -50,20 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The <b>GetFieldValue</b> macro is a thin wrapper around the <a href="..\wdbgexts\nf-wdbgexts-getfielddata.md">GetFieldData</a> function.  It is provided as a convenience for reading the value of a member in a structure.
-
-
-## -syntax
-
-
-````
-__inline ULONG GetFieldValue(
-   ULONG64 Addr,
-   LPCSTR  Type,
-   LPCSTR  Field,
-   PVOID   OutValue
-);
-````
+The <b>GetFieldValue</b> macro is a thin wrapper around the <a href="https://msdn.microsoft.com/library/windows/hardware/ff546743">GetFieldData</a> function.  It is provided as a convenience for reading the value of a member in a structure.
 
 
 ## -parameters
@@ -102,10 +89,10 @@ The parameters provided to this macro are the same as those provided to the <b>G
 
 ## -see-also
 
-<a href="..\wdbgexts\nf-wdbgexts-getfielddata.md">GetFieldData</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546743">GetFieldData</a>
  
 
  

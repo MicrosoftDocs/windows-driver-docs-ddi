@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: sti.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,20 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>IStillImage::SetDeviceValue</b> method sets registry information for a specified still image device.
-
-
-## -syntax
-
-
-````
-HRESULT SetDeviceValue(
-  [in] LPWSTR pwszDeviceName,
-  [in] LPWSTR pValueName,
-       DWORD  Type,
-  [in] LPBYTE pData,
-       DWORD  cbData
-);
-````
 
 
 ## -parameters
@@ -119,14 +105,14 @@ Before calling <b>IStillImage::SetDeviceValue</b>, clients of the <b>IStillImage
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543786">IStillImage::GetDeviceValue</a>
 
 
 
-<a href="..\sti\nn-sti-istillimagew.md">IStillImageW</a>
-
-
-
+<a href="https://msdn.microsoft.com/a9ceee48-cbb5-4448-83b4-9c19fe89fcb9">IStillImageW</a>
  
 
  

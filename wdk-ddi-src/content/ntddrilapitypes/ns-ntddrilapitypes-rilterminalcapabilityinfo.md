@@ -52,17 +52,6 @@ req.typenames: RILTERMINALCAPABILITYINFO, *LPRILTERMINALCAPABILITYINFO
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef struct _RILTERMINALCAPABILITYINFO {
-  DWORD      dwSize;
-  BYTE [256] bData;
-} RILTERMINALCAPABILITYINFO, RILTERMINALCAPABILITYINFO;
-````
-
-
 ## -struct-fields
 
 

@@ -52,23 +52,6 @@ req.typenames: WCS_PROFILE_MANAGEMENT_SCOPE
 <b>EVT_IDD_CX_MONITOR_OPM_GET_CERTIFICATE_SIZE</b> is called by the OS to get the size of an OPM certificate.
 
 
-## -prototype
-
-
-````
-EVT_IDD_CX_MONITOR_OPM_GET_CERTIFICATE_SIZE EvtIddCxMonitorOpmGetCertificateSize;
-
-NTSTATUS EvtIddCxMonitorOpmGetCertificateSize(
-  _In_        IDDCX_ADAPTER                       AdapterObject,
-  _In_  const IDARG_IN_OPM_GET_CERTIFICATE_SIZE*  pInArgs,
-  _Out_       IDARG_OUT_OPM_GET_CERTIFICATE_SIZE* pOutArgs
-)
-{ ... }
-
-typedef EVT_IDD_CX_MONITOR_OPM_GET_CERTIFICATE_SIZE PFN_IDD_CX_MONITOR_OPM_GET_CERTIFICATE_SIZE;
-````
-
-
 ## -parameters
 
 

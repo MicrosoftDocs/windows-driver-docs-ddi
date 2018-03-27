@@ -52,46 +52,7 @@ req.typenames: NDIS_TCP_LARGE_SEND_OFFLOAD_NET_BUFFER_LIST_INFO, *PNDIS_TCP_LARG
 The <b>NDIS_TCP_LARGE_SEND_OFFLOAD_NET_BUFFER_LIST_INFO</b> structure specifies information that is used in
   offloading large send offload (LSO) tasks from the TCP/IP transport to a miniport adapter. The
   <b>NDIS_TCP_LARGE_SEND_OFFLOAD_NET_BUFFER_LIST_INFO</b> structure is part of the 
-  <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> information.
-
-
-## -syntax
-
-
-````
-typedef struct _NDIS_TCP_LARGE_SEND_OFFLOAD_NET_BUFFER_LIST_INFO {
-  union {
-    struct {
-      ULONG Unused  :30;
-      ULONG Type  :1;
-      ULONG Reserved2  :1;
-    } Transmit;
-    struct {
-      ULONG MSS  :20;
-      ULONG TcpHeaderOffset  :10;
-      ULONG Type  :1;
-      ULONG Reserved2  :1;
-    } LsoV1Transmit;
-    struct {
-      ULONG TcpPayload  :30;
-      ULONG Type  :1;
-      ULONG Reserved2  :1;
-    } LsoV1TransmitComplete;
-    struct {
-      ULONG MSS  :20;
-      ULONG TcpHeaderOffset  :10;
-      ULONG Type  :1;
-      ULONG IPVersion  :1;
-    } LsoV2Transmit;
-    struct {
-      ULONG Reserved  :30;
-      ULONG Type  :1;
-      ULONG Reserved2  :1;
-    } LsoV2TransmitComplete;
-    PVOID  Value;
-  };
-} NDIS_TCP_LARGE_SEND_OFFLOAD_NET_BUFFER_LIST_INFO, *PNDIS_TCP_LARGE_SEND_OFFLOAD_NET_BUFFER_LIST_INFO;
-````
+  <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> information.
 
 
 ## -struct-fields
@@ -256,7 +217,7 @@ A PVOID version of the LSO information. Use this member to access the raw inform
 The <b>NDIS_TCP_LARGE_SEND_OFFLOAD_NET_BUFFER_LIST_INFO</b> structure specifies information for LSOV1 and
     LSOV2 operations. The <b>NDIS_TCP_LARGE_SEND_OFFLOAD_NET_BUFFER_LIST_INFO</b> structure is part of the
     information that is included in a 
-    <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure.
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structure.
 
 To set and get the LSOV1 or LSOV2 information, use the 
     <b>TcpLargeSendNetBufferListInfo</b> index with the 
@@ -271,24 +232,23 @@ The TCP/IP transport updates the
 For LSOV1, miniport drivers write the TCP payload size in the 
     <b>TcpPayload</b> member before completing a send operation for a segmented packet.
 
-<div class="alert"><b>Note</b>  Any <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure that contains the LSOv1 or LSOv2 information also
+<div class="alert"><b>Note</b>  Any <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structure that contains the LSOv1 or LSOv2 information also
     contains a single 
-    <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a> structure.</div>
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a> structure.</div>
 <div> </div>
 
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/windows/hardware/drivers/network/offloading-the-segmentation-of-large-tcp-packets">Offloading the Segmentation of Large TCP Packets</a>
 
 
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a>
 
 
 
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a>
 
 
 
@@ -296,6 +256,7 @@ For LSOV1, miniport drivers write the TCP payload size in the
 
 
 
+<a href="https://msdn.microsoft.com/windows/hardware/drivers/network/offloading-the-segmentation-of-large-tcp-packets">Offloading the Segmentation of Large TCP Packets</a>
  
 
  

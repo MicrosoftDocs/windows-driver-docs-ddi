@@ -52,19 +52,6 @@ req.typenames: D3D12DDI_VIDEO_DECODE_TIER_0020
 Specifies the video decode tier.
 
 
-## -syntax
-
-
-````
-typedef enum D3D12DDI_VIDEO_DECODE_TIER_0020 { 
-  D3D12DDI_VIDEO_DECODE_TIER_0020_NOT_SUPPORTED  = 0,
-  D3D12DDI_VIDEO_DECODE_TIER_0020_1              = 1,
-  D3D12DDI_VIDEO_DECODE_TIER_0020_2              = 2,
-  D3D12DDI_VIDEO_DECODE_TIER_0020_3              = 3
-} D3D12DDI_VIDEO_DECODE_TIER_0020;
-````
-
-
 ## -enum-fields
 
 

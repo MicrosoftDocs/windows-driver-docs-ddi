@@ -53,18 +53,6 @@ req.product: Windows 10 or later.
 The WDI_BSS_SELECTION_FLAGS enumeration defines flags for BSS selection.
 
 
-## -syntax
-
-
-````
-typedef enum _WDI_BSS_SELECTION_FLAGS { 
-  WDI_BSS_SELECTION_HOST_PREFERRED                 = 0x00000001,
-  WDI_BSS_SELECTION_RECENT_ASSOCIATION_ERROR       = 0x00000002,
-  WDI_BSS_SELECTION_FLAGS_AP_REQUESTED_TRANSITION  = 0x00000004
-} WDI_BSS_SELECTION_FLAGS;
-````
-
-
 ## -enum-fields
 
 

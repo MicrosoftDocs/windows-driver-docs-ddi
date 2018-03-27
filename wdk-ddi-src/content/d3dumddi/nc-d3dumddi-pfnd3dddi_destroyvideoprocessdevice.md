@@ -52,20 +52,6 @@ req.typenames: DXGK_PTE
 The <b>DestroyVideoProcessDevice</b> function releases resources for a Microsoft DirectX Video Acceleration (VA) video processing device.
 
 
-## -prototype
-
-
-````
-PFND3DDDI_DESTROYVIDEOPROCESSDEVICE DestroyVideoProcessDevice;
-
-__checkReturn HRESULT APIENTRY DestroyVideoProcessDevice(
-  _In_ HANDLE hDevice,
-  _In_ HANDLE hVideoProcessor
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -78,7 +64,7 @@ __checkReturn HRESULT APIENTRY DestroyVideoProcessDevice(
 
 ### -param hVideoProcessor [in]
 
- A handle to the DirectX VA video processing device that was created by the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createvideoprocessdevice.md">CreateVideoProcessDevice</a> function.
+ A handle to the DirectX VA video processing device that was created by the <a href="https://msdn.microsoft.com/3149c7d9-0bf7-4355-8f15-821cf6b92f0a">CreateVideoProcessDevice</a> function.
 
 
 ## -returns
@@ -94,21 +80,21 @@ __checkReturn HRESULT APIENTRY DestroyVideoProcessDevice(
 
 
 
-The <b>DestroyVideoProcessDevice</b> function notifies the driver to destroy the handle to the DirectX VA video processing device that the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createvideoprocessdevice.md">CreateVideoProcessDevice</a> function previously created. The driver can then release resources that are associated with the DirectX VA video processing device handle.
+The <b>DestroyVideoProcessDevice</b> function notifies the driver to destroy the handle to the DirectX VA video processing device that the <a href="https://msdn.microsoft.com/3149c7d9-0bf7-4355-8f15-821cf6b92f0a">CreateVideoProcessDevice</a> function previously created. The driver can then release resources that are associated with the DirectX VA video processing device handle.
 
 
 
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createvideoprocessdevice.md">CreateVideoProcessDevice</a>
+<a href="https://msdn.microsoft.com/3149c7d9-0bf7-4355-8f15-821cf6b92f0a">CreateVideoProcessDevice</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544519">D3DDDI_DEVICEFUNCS</a>
  
 
  

@@ -53,18 +53,6 @@ req.product: Windows 10 or later.
 The <b>wiasQueueEvent</b> function informs the service that the device generated an event. 
 
 
-## -syntax
-
-
-````
-HRESULT _stdcall wiasQueueEvent(
-  _In_           BSTR bstrDeviceId,
-  _In_     const GUID *pEventGUID,
-  _In_opt_       BSTR bstrFullItemName
-);
-````
-
-
 ## -parameters
 
 
@@ -119,10 +107,10 @@ See the Windows SDK documentation for a complete list of WIA event identifiers.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544986">IWiaMiniDrv::drvInitializeWia</a>
-
-
-
  
 
  

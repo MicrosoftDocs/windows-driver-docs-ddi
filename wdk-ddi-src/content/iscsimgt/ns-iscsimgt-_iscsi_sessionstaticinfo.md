@@ -52,32 +52,6 @@ req.typenames: ISCSI_SessionStaticInfo, *PISCSI_SessionStaticInfo
 The ISCSI_SessionStaticInfo structure provides information about the characteristics of an iSCSI session.
 
 
-## -syntax
-
-
-````
-typedef struct _ISCSI_SessionStaticInfo {
-  ULONGLONG                  UniqueSessionId;
-  WCHAR                      InitiatoriSCSIName[223 + 1];
-  WCHAR                      TargetiSCSIName[223 + 1];
-  USHORT                     TSID;
-  UCHAR                      ISID[6];
-  BOOLEAN                    InitialR2t;
-  BOOLEAN                    ImmediateData;
-  UCHAR                      Type;
-  BOOLEAN                    DataSequenceInOrder;
-  BOOLEAN                    DataPduInOrder;
-  UCHAR                      ErrorRecoveryLevel;
-  ULONG                      MaxOutstandingR2t;
-  ULONG                      FirstBurstLength;
-  ULONG                      MaxBurstLength;
-  ULONG                      MaxConnections;
-  USHORT                     ConnectionCount;
-  ISCSI_ConnectionStaticInfo ConnectionsList[1];
-} ISCSI_SessionStaticInfo, *PISCSI_SessionStaticInfo;
-````
-
-
 ## -struct-fields
 
 
@@ -215,27 +189,27 @@ The number of connections that currently belong to this session.
 
 ### -field ConnectionsList
 
-A variable length array of <a href="..\iscsimgt\ns-iscsimgt-_iscsi_connectionstaticinfo.md">ISCSI_ConnectionStaticInfo</a> structures that specifies the static configuration data for each connection that is associated with this session. <b>ConnectionCount</b> indicates the number of elements in the array.
+A variable length array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff561489">ISCSI_ConnectionStaticInfo</a> structures that specifies the static configuration data for each connection that is associated with this session. <b>ConnectionCount</b> indicates the number of elements in the array.
 
 
 ## -see-also
+
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a>
 
 
 
-<a href="..\iscsiop\ne-iscsiop-ploginsessiontype.md">LOGINSESSIONTYPE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561489">ISCSI_ConnectionStaticInfo</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561598">LOGINSESSIONTYPE</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
-
-
-
-<a href="..\iscsimgt\ns-iscsimgt-_iscsi_connectionstaticinfo.md">ISCSI_ConnectionStaticInfo</a>
-
-
-
  
 
  

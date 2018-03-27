@@ -52,20 +52,7 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 
 Protocol drivers call the 
   <b>NdisSendNetBufferLists</b> function to send network data that is contained in a list of 
-  <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structures.
-
-
-## -syntax
-
-
-````
-VOID NdisSendNetBufferLists(
-  _In_ NDIS_HANDLE      NdisBindingHandle,
-  _In_ PNET_BUFFER_LIST NetBufferLists,
-  _In_ NDIS_PORT_NUMBER PortNumber,
-  _In_ ULONG            SendFlags
-);
-````
+  <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structures.
 
 
 ## -parameters
@@ -76,16 +63,16 @@ VOID NdisSendNetBufferLists(
 ### -param NdisBindingHandle [in]
 
 A handle that identifies the target adapter. A previous call to 
-     <a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a> returned this
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff563715">NdisOpenAdapterEx</a> returned this
      handle.
 
 
 ### -param NetBufferLists [in]
 
 A pointer to a linked list of 
-     <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structures. Each
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structures. Each
      NET_BUFFER_LIST structure describes a list of 
-     <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a> structures.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a> structures.
 
 
 ### -param PortNumber [in]
@@ -137,9 +124,9 @@ None
 
 After a protocol driver calls 
     <b>NdisSendNetBufferLists</b>, NDIS submits the 
-    <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structures to an underlying
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structures to an underlying
     driver's 
-    <a href="..\ndis\nc-ndis-miniport_send_net_buffer_lists.md">
+    <a href="https://msdn.microsoft.com/0bd5966d-66a6-4548-8c84-7cedced2cf40">
     MiniportSendNetBufferLists</a> function.
 
 The protocol driver must allocate each NET_BUFFER_LIST structure from a pool by calling one of the
@@ -148,31 +135,31 @@ The protocol driver must allocate each NET_BUFFER_LIST structure from a pool by 
 <ul>
 <li>
 
-<a href="..\ndis\nf-ndis-ndisallocatenetbufferlist.md">NdisAllocateNetBufferList</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561609">NdisAllocateNetBufferList</a>
 
 
 </li>
 <li>
 
-<a href="..\ndis\nf-ndis-ndisallocatenetbufferandnetbufferlist.md">
+<a href="https://msdn.microsoft.com/b872eff3-2d0a-4f01-874d-e00e09195801">
        NdisAllocateNetBufferAndNetBufferList</a>
 
 
 </li>
 <li>
 
-<a href="..\ndis\nf-ndis-ndisallocateclonenetbufferlist.md">
+<a href="https://msdn.microsoft.com/357605a1-5c57-44ed-97b3-f466f9a7182c">
        NdisAllocateCloneNetBufferList</a>
 
 
 </li>
 </ul>
 The protocol driver can preallocate NET_BUFFER_LIST structures--for example, in its 
-    <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> routine. Alternatively, the driver,
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> routine. Alternatively, the driver,
     can allocate the structures just prior to calling 
     <b>NdisSendNetBufferLists</b> and then free them when the send operation is complete. When NDIS returns a
     NET_BUFFER_LIST structure to 
-    <a href="..\ndis\nc-ndis-protocol_send_net_buffer_lists_complete.md">
+    <a href="https://msdn.microsoft.com/bc9197c5-ce0b-42b2-8225-fb9d83427ac8">
     ProtocolSendNetBufferListsComplete</a>, the miniport driver can prepare the NET_BUFFER_LIST structure
     and any associated resources for reuse. Reusing the NET_BUFFER_LIST structures can yield better
     performance than returning the structures to a pool and then reallocating them for another send
@@ -183,7 +170,7 @@ A protocol driver must set the
     <i>NdisBindingHandle</i> parameter. The binding handle provides the information that
     NDIS requires to return the NET_BUFFER_LIST structure to the protocol driver after the underlying
     miniport driver calls 
-    <a href="..\ndis\nf-ndis-ndismsendnetbufferlistscomplete.md">
+    <a href="https://msdn.microsoft.com/33890582-5eba-4cc1-a0d9-ec07f18da453">
     NdisMSendNetBufferListsComplete</a>.
 
 Before calling 
@@ -219,58 +206,58 @@ Until NDIS calls
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a>
+
+
+
+<a href="https://msdn.microsoft.com/0bd5966d-66a6-4548-8c84-7cedced2cf40">MiniportSendNetBufferLists</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568401">NET_BUFFER_LIST_INFO</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisallocatenetbufferandnetbufferlist.md">
-   NdisAllocateNetBufferAndNetBufferList</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismsendnetbufferlistscomplete.md">
-   NdisMSendNetBufferListsComplete</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisallocatenetbufferlist.md">NdisAllocateNetBufferList</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_send_net_buffer_lists_complete.md">
-   ProtocolSendNetBufferListsComplete</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismallocateport.md">NdisMAllocatePort</a>
-
-
-
-<a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisallocateclonenetbufferlist.md">
+<a href="https://msdn.microsoft.com/357605a1-5c57-44ed-97b3-f466f9a7182c">
    NdisAllocateCloneNetBufferList</a>
 
 
 
-<a href="..\ndis\nc-ndis-miniport_send_net_buffer_lists.md">MiniportSendNetBufferLists</a>
+<a href="https://msdn.microsoft.com/b872eff3-2d0a-4f01-874d-e00e09195801">
+   NdisAllocateNetBufferAndNetBufferList</a>
 
 
 
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561609">NdisAllocateNetBufferList</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562779">NdisMAllocatePort</a>
 
 
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+<a href="https://msdn.microsoft.com/33890582-5eba-4cc1-a0d9-ec07f18da453">
+   NdisMSendNetBufferListsComplete</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563715">NdisOpenAdapterEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/bc9197c5-ce0b-42b2-8225-fb9d83427ac8">
+   ProtocolSendNetBufferListsComplete</a>
  
 
  

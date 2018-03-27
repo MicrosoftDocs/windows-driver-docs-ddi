@@ -52,20 +52,6 @@ req.typenames: RILNITZINFOPARAMMASK
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef enum _RILNITZINFOPARAMMASK { 
-  RIL_PARAM_NITZ_TIMEZONEOFFSET,
-  RIL_PARAM_NITZ_DAYLIGHTSAVINGOFFSET,
-  RIL_PARAM_NITZ_SYSTEMTIME,
-  RIL_PARAM_NITZ_SYSTEMTYPE,
-  RIL_PARAM_NITZ_ALL
-} RILNITZINFOPARAMMASK;
-````
-
-
 ## -enum-fields
 
 

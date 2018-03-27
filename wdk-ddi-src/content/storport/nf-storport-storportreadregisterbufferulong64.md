@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: storport.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -52,18 +52,6 @@ req.product: Windows 10 or later.
 
 This <b>StorPortReadRegisterBufferUlong64</b> routine reads a number of <b>ULONG64</b> values from the specified 64-bit register address into a buffer.
  
-
-
-## -syntax
-
-
-````
- VOID StorPortReadRegisterBufferUlong64(
-  _In_  PULONG64  Register,
-  _Out_ PULONG64  Buffer,
-  _In_  ULONG     Count
-);
-````
 
 
 ## -parameters
@@ -121,10 +109,10 @@ The <b>StorPortReadRegisterBufferUlong64</b> routine is only available on the 64
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportwriteregisterbufferulong64.md">StorPortWriteRegisterBufferUlong64</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh967742">StorPortWriteRegisterBufferUlong64</a>
  
 
  

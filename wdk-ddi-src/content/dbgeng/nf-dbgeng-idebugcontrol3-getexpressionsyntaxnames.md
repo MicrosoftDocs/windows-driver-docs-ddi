@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -50,22 +50,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>GetExpressionSyntaxNames</b>  method returns the full and abbreviated names of an expression syntax.
-
-
-## -syntax
-
-
-````
-HRESULT GetExpressionSyntaxNames(
-  [in]            ULONG  Index,
-  [out, optional] PSTR   FullNameBuffer,
-  [in]            ULONG  FullNameBufferSize,
-  [out, optional] PULONG FullNameSize,
-  [out, optional] PSTR   AbbrevNameBuffer,
-  [in]            ULONG  AbbrevNameBufferSize,
-  [out, optional] PULONG AbbrevNameSize
-);
-````
 
 
 ## -parameters
@@ -158,6 +142,9 @@ Currently, there are two expression syntaxes, their full names are "Microsoft As
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543046">Evaluate</a>
 
 
@@ -166,14 +153,11 @@ Currently, there are two expression syntaxes, their full names are "Microsoft As
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550519">IDebugControl3</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556697">SetExpressionSyntaxByName</a>
-
-
-
  
 
  

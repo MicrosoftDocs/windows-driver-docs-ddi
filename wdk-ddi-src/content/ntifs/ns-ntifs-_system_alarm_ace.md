@@ -52,15 +52,5 @@ req.typenames: SYSTEM_ALARM_ACE
 Reserved for future use. 
 
 
-## -syntax
-
-
-````
-struct SYSTEM_ALARM_ACE {
-  ;      // Reserved.
-};
-````
-
-
 ## -struct-fields
 

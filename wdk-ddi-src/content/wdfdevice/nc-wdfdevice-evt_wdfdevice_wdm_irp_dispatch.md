@@ -55,25 +55,6 @@ req.product: Windows 10 or later.
 A driver's <i>EvtDeviceWdmIrpDispatch</i> event callback function receives an IRP before the framework processes the IRP.
 
 
-## -prototype
-
-
-````
-EVT_WDFDEVICE_WDM_IRP_DISPATCH EvtDeviceWdmIrpDispatch;
-
-NTSTATUS EvtDeviceWdmIrpDispatch(
-  _In_    WDFDEVICE  Device,
-  _In_    UCHAR      MajorFunction,
-  _In_    UCHAR      MinorFunction,
-  _In_    ULONG      Code,
-  _In_    WDFCONTEXT DriverContext,
-  _Inout_ PIRP       Irp,
-  _In_    WDFCONTEXT DispatchContext
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -101,7 +82,7 @@ Specifies an I/O control code value.  This parameter is valid only if <i>MajorFu
 
 ### -param DriverContext [in]
 
-An untyped pointer to driver-defined context information that the driver provided when it called <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceconfigurewdmirpdispatchcallback.md">WdfDeviceConfigureWdmIrpDispatchCallback</a>.
+An untyped pointer to driver-defined context information that the driver provided when it called <a href="https://msdn.microsoft.com/library/windows/hardware/hh451093">WdfDeviceConfigureWdmIrpDispatchCallback</a>.
 
 
 ### -param Irp [in, out]
@@ -111,7 +92,7 @@ A pointer to an IRP structure.
 
 ### -param DispatchContext [in]
 
-An untyped pointer to the framework's dispatch  context information. The driver must provide this parameter when it calls <a href="..\wdfdevice\nf-wdfdevice-wdfdevicewdmdispatchirp.md">WdfDeviceWdmDispatchIrp</a>.
+An untyped pointer to the framework's dispatch  context information. The driver must provide this parameter when it calls <a href="https://msdn.microsoft.com/library/windows/hardware/hh451100">WdfDeviceWdmDispatchIrp</a>.
 
 
 ## -returns
@@ -121,14 +102,14 @@ An untyped pointer to the framework's dispatch  context information. The driver 
 The <i>EvtDeviceWdmIrpDispatch</i> callback function must:
 
 <ul>
-<li>Return the value that the <a href="..\wdfdevice\nf-wdfdevice-wdfdevicewdmdispatchirp.md">WdfDeviceWdmDispatchIrp</a> method returns, if the callback function calls that method.</li>
-<li>Return the value that the <a href="..\wdfdevice\nf-wdfdevice-wdfdevicewdmdispatchirptoioqueue.md">WdfDeviceWdmDispatchIrpToIoQueue</a> method returns, if the callback function calls that method.</li>
+<li>Return the value that the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451100">WdfDeviceWdmDispatchIrp</a> method returns, if the callback function calls that method.</li>
+<li>Return the value that the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451105">WdfDeviceWdmDispatchIrpToIoQueue</a> method returns, if the callback function calls that method.</li>
 <li>
-<b>KMDF only</b></p> Set the <b>IoStatus.Status</b> member of the IRP to STATUS_SUCCESS or another status value for which NT_SUCCESS(status) equals TRUE, and return the same value (after calling <a href="..\wdm\nf-wdm-iocompleterequest.md">IoCompleteRequest</a>) if the callback function successfully completes the received IRP.</li>
+<b>KMDF only</b></p> Set the <b>IoStatus.Status</b> member of the IRP to STATUS_SUCCESS or another status value for which NT_SUCCESS(status) equals TRUE, and return the same value (after calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff548343">IoCompleteRequest</a>) if the callback function successfully completes the received IRP.</li>
 <li>
-<b>KMDF only</b></p>Set the <b>IoStatus.Status</b> member of the IRP to a status value for which NT_SUCCESS(status) equals FALSE, and return the same value (after calling <a href="..\wdm\nf-wdm-iocompleterequest.md">IoCompleteRequest</a>) if the callback function detects an error.</li>
+<b>KMDF only</b></p>Set the <b>IoStatus.Status</b> member of the IRP to a status value for which NT_SUCCESS(status) equals FALSE, and return the same value (after calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff548343">IoCompleteRequest</a>) if the callback function detects an error.</li>
 <li>
-<b>KMDF only</b></p>Return STATUS_PENDING if the callback function calls <a href="..\wdm\nf-wdm-iomarkirppending.md">IoMarkIrpPending</a>.</li>
+<b>KMDF only</b></p>Return STATUS_PENDING if the callback function calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff549422">IoMarkIrpPending</a>.</li>
 </ul>
 
 
@@ -137,15 +118,15 @@ The <i>EvtDeviceWdmIrpDispatch</i> callback function must:
 
 
 
-The <i>EvtDeviceWdmIrpDispatch</i> callback function should only be used to select a specific queue for an IRP. To do so, the driver calls the <a href="..\wdfdevice\nf-wdfdevice-wdfdevicewdmdispatchirptoioqueue.md">WdfDeviceWdmDispatchIrpToIoQueue</a> method from within the callback function.
+The <i>EvtDeviceWdmIrpDispatch</i> callback function should only be used to select a specific queue for an IRP. To do so, the driver calls the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451105">WdfDeviceWdmDispatchIrpToIoQueue</a> method from within the callback function.
 
-If, after examining an IRP in this callback function, the driver does not  know how to dispatch the IRP, the driver can call <a href="..\wdfdevice\nf-wdfdevice-wdfdevicewdmdispatchirp.md">WdfDeviceWdmDispatchIrp</a> to return the IRP to the framework for default handling.
+If, after examining an IRP in this callback function, the driver does not  know how to dispatch the IRP, the driver can call <a href="https://msdn.microsoft.com/library/windows/hardware/hh451100">WdfDeviceWdmDispatchIrp</a> to return the IRP to the framework for default handling.
 
-A UMDF driver must call either <a href="..\wdfdevice\nf-wdfdevice-wdfdevicewdmdispatchirp.md">WdfDeviceWdmDispatchIrp</a> or <a href="..\wdfdevice\nf-wdfdevice-wdfdevicewdmdispatchirptoioqueue.md">WdfDeviceWdmDispatchIrpToIoQueue</a> from this callback function.  A KMDF driver has the additional option of calling neither, and instead completing the IRP or marking it pending.
+A UMDF driver must call either <a href="https://msdn.microsoft.com/library/windows/hardware/hh451100">WdfDeviceWdmDispatchIrp</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/hh451105">WdfDeviceWdmDispatchIrpToIoQueue</a> from this callback function.  A KMDF driver has the additional option of calling neither, and instead completing the IRP or marking it pending.
 
-To register an <i>EvtDeviceWdmIrpDispatch</i> callback function, your driver must call <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceconfigurewdmirpdispatchcallback.md">WdfDeviceConfigureWdmIrpDispatchCallback</a>.
+To register an <i>EvtDeviceWdmIrpDispatch</i> callback function, your driver must call <a href="https://msdn.microsoft.com/library/windows/hardware/hh451093">WdfDeviceConfigureWdmIrpDispatchCallback</a>.
 
-In its <i>EvtDeviceWdmIrpDispatch</i> callback function, a driver should not set a completion routine. If a completion routine is needed, a KMDF driver can provide a  <a href="..\wdfdevice\nc-wdfdevice-evt_wdfdevice_wdm_irp_preprocess.md">EvtDeviceWdmIrpPreprocess</a> callback function instead of <i>EvtDeviceWdmIrpDispatch</i>.
+In its <i>EvtDeviceWdmIrpDispatch</i> callback function, a driver should not set a completion routine. If a completion routine is needed, a KMDF driver can provide a  <a href="https://msdn.microsoft.com/aff9cb60-d61b-47a8-aae4-6ffd2a1b7a9a">EvtDeviceWdmIrpPreprocess</a> callback function instead of <i>EvtDeviceWdmIrpDispatch</i>.
 
  For more information about specifying queues for IRPs as they arrive, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/dispatching-irps-to-i-o-queues">Dispatching IRPs to I/O Queues</a>.
 
@@ -196,18 +177,18 @@ The <b>EVT_WDFDEVICE_WDM_IRP_DISPATCH</b> function type is defined in the Wdfdev
 
 ## -see-also
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdevicewdmdispatchirp.md">WdfDeviceWdmDispatchIrp</a>
 
 
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceconfigurewdmirpdispatchcallback.md">WdfDeviceConfigureWdmIrpDispatchCallback</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451093">WdfDeviceConfigureWdmIrpDispatchCallback</a>
 
 
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdevicewdmdispatchirptoioqueue.md">WdfDeviceWdmDispatchIrpToIoQueue</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451100">WdfDeviceWdmDispatchIrp</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451105">WdfDeviceWdmDispatchIrpToIoQueue</a>
  
 
  

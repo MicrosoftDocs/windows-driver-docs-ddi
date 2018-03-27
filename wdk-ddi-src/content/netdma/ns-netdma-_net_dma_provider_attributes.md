@@ -53,23 +53,6 @@ req.typenames: NET_DMA_PROVIDER_ATTRIBUTES, *PNET_DMA_PROVIDER_ATTRIBUTES
   provider.
 
 
-## -syntax
-
-
-````
-typedef struct _NET_DMA_PROVIDER_ATTRIBUTES {
-  UCHAR            MajorHwVersion;
-  UCHAR            MinorHwVersion;
-  USHORT           Size;
-  ULONG            Flags;
-  ULONG            VendorId;
-  ULONG            DmaChannelCount;
-  ULONG            MaximumTransferSize;
-  PHYSICAL_ADDRESS MaximumAddressSpace;
-} NET_DMA_PROVIDER_ATTRIBUTES, *PNET_DMA_PROVIDER_ATTRIBUTES;
-````
-
-
 ## -struct-fields
 
 
@@ -109,7 +92,7 @@ A vendor identifier (ID) that uniquely identifies the vendor that created the DM
 
 The number of DMA channels that the DMA provider supports. This number can differ from the 
      <b>MaxDmaChannelCount</b> member of the 
-     <a href="..\netdma\ns-netdma-_net_dma_provider_characteristics.md">
+     <a href="https://msdn.microsoft.com/7ec6d449-fdc2-44d8-976b-5a1d23c76e7b">
      NET_DMA_PROVIDER_CHARACTERISTICS</a> structure that defines the maximum number of DMA channels that
      this type of DMA provider can support.
 
@@ -132,7 +115,7 @@ The largest physical address that the DMA engine can support.
 To start a DMA provider, the DMA provider driver supplies a NET_DMA_PROVIDER_ATTRIBUTES structure at
     the 
     <i>ProviderAttributes</i> parameter of the 
-    <a href="..\netdma\nf-netdma-netdmaproviderstart.md">NetDmaProviderStart</a> function.
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff568334">NetDmaProviderStart</a> function.
 
 A DMA provider driver initializes a DMA engine and starts a DMA provider while handling the 
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff551749">IRP_MN_START_DEVICE</a> IRP.
@@ -142,12 +125,6 @@ A DMA provider driver initializes a DMA engine and starts a DMA provider while h
 
 ## -see-also
 
-<a href="..\netdma\ns-netdma-_net_dma_provider_characteristics.md">
-   NET_DMA_PROVIDER_CHARACTERISTICS</a>
-
-
-
-<a href="..\netdma\nf-netdma-netdmaproviderstop.md">NetDmaProviderStop</a>
 
 
 
@@ -155,10 +132,16 @@ A DMA provider driver initializes a DMA engine and starts a DMA provider while h
 
 
 
-<a href="..\netdma\nf-netdma-netdmaproviderstart.md">NetDmaProviderStart</a>
+<a href="https://msdn.microsoft.com/7ec6d449-fdc2-44d8-976b-5a1d23c76e7b">
+   NET_DMA_PROVIDER_CHARACTERISTICS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568334">NetDmaProviderStart</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568335">NetDmaProviderStop</a>
  
 
  

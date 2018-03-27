@@ -52,20 +52,6 @@ req.typenames: DXGK_BACKLIGHT_OPTIMIZATION_LEVEL
 Indicates the optimization level of brightness control. Used by Windows Display Driver Model (WDDM) 1.2 and later display miniport drivers that support adaptive brightness control.
 
 
-## -syntax
-
-
-````
-typedef enum  { 
-  DxgkBacklightOptimizationDisable  = 0,
-  DxgkBacklightOptimizationDesktop  = 1,
-  DxgkBacklightOptimizationDynamic  = 2,
-  DxgkBacklightOptimizationDimmed   = 3,
-  DxgkBacklightOptimizationEDR      = 4
-} DXGK_BACKLIGHT_OPTIMIZATION_LEVEL;
-````
-
-
 ## -enum-fields
 
 
@@ -110,17 +96,17 @@ Optimization level which informs the driver that the display is being driven wit
 
 
 
-For more information on usage scenarios involving <b>DXGK_BACKLIGHT_OPTIMIZATION_LEVEL</b> enumeration values, see Remarks in the <a href="..\dispmprt\nc-dispmprt-dxgk_brightness_set_backlight_optimization.md">DxgkDdiSetBacklightOptimization</a> function.
+For more information on usage scenarios involving <b>DXGK_BACKLIGHT_OPTIMIZATION_LEVEL</b> enumeration values, see Remarks in the <a href="https://msdn.microsoft.com/b8c37df8-ba86-4cfd-add0-49ba9c90f04a">DxgkDdiSetBacklightOptimization</a> function.
 
 
 
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgk_brightness_set_backlight_optimization.md">DxgkDdiSetBacklightOptimization</a>
 
 
 
+<a href="https://msdn.microsoft.com/b8c37df8-ba86-4cfd-add0-49ba9c90f04a">DxgkDdiSetBacklightOptimization</a>
  
 
  

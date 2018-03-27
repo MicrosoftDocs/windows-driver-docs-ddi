@@ -55,17 +55,6 @@ Filter drivers call the
   drivers.
 
 
-## -syntax
-
-
-````
-VOID NdisFCancelDirectOidRequest(
-  _In_ NDIS_HANDLE NdisFilterHandle,
-  _In_ PVOID       RequestId
-);
-````
-
-
 ## -parameters
 
 
@@ -75,13 +64,13 @@ VOID NdisFCancelDirectOidRequest(
 
 The NDIS handle that identifies this filter module. NDIS passed the handle to the filter driver in
      a call to the 
-     <a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a> function.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff540442">FilterAttach</a> function.
 
 
 ### -param RequestId [in]
 
 A cancellation identifier for the request. This identifier specifies the 
-     <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a> structures that are being
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566710">NDIS_OID_REQUEST</a> structures that are being
      canceled.
 
 
@@ -102,11 +91,11 @@ Filter drivers call
     <b>NdisFCancelDirectOidRequest</b> to cancel a previously issued direct OID request. The request can be
     originated by the filter driver or by overlying drivers. The pointer that is passed at the 
     <i>OidRequest</i> parameter must be the same pointer that was passed in the call to the 
-    <a href="..\ndis\nf-ndis-ndisfdirectoidrequest.md">NdisFDirectOidRequest</a> function.
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561809">NdisFDirectOidRequest</a> function.
 
 The filter driver can call 
     <b>NdisFCancelDirectOidRequest</b> from the 
-    <a href="..\ndis\nc-ndis-filter_cancel_direct_oid_request.md">
+    <a href="https://msdn.microsoft.com/3587c5dc-3b4c-4aab-8c2d-cc9988373a56">
     FilterCancelDirectOidRequest</a> function to pass on the cancellation to underlying drivers.
 
 
@@ -114,23 +103,23 @@ The filter driver can call
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540442">FilterAttach</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisfdirectoidrequest.md">NdisFDirectOidRequest</a>
-
-
-
-<a href="..\ndis\nc-ndis-filter_cancel_direct_oid_request.md">
+<a href="https://msdn.microsoft.com/3587c5dc-3b4c-4aab-8c2d-cc9988373a56">
    FilterCancelDirectOidRequest</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566710">NDIS_OID_REQUEST</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561809">NdisFDirectOidRequest</a>
  
 
  

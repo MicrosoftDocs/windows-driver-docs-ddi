@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -50,20 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-Initializes the <a href="..\ucmmanager\ns-ucmmanager-_ucm_connector_typec_config.md">UCM_CONNECTOR_TYPEC_CONFIG</a> structure.
-
-
-## -syntax
-
-
-````
-__inline
-void UCM_CONNECTOR_TYPE_C_CONFIG_INIT(
-  _Out_ PUCM_CONNECTOR_TYPEC_CONFIG Config,
-  _In_  ULONG                       SupportedOperatingModes,
-  _In_  ULONG                       SupportedPowerSourcingCapabilities
-);
-````
+Initializes the <a href="https://msdn.microsoft.com/library/windows/hardware/mt187930">UCM_CONNECTOR_TYPEC_CONFIG</a> structure.
 
 
 ## -parameters
@@ -73,17 +60,17 @@ void UCM_CONNECTOR_TYPE_C_CONFIG_INIT(
 
 ### -param Config [out]
 
-Pointer to a caller-allocated <a href="..\ucmmanager\ns-ucmmanager-_ucm_connector_typec_config.md">UCM_CONNECTOR_TYPEC_CONFIG</a> structure to initialize.
+Pointer to a caller-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/mt187930">UCM_CONNECTOR_TYPEC_CONFIG</a> structure to initialize.
 
 
 ### -param SupportedOperatingModes [in]
 
-Indicates the operating mode of the connector. This value is a bitwise OR of <a href="..\ucmtypes\ne-ucmtypes-_ucm_typec_operating_mode.md">UCM_TYPEC_OPERATING_MODE</a>-typed flags.
+Indicates the operating mode of the connector. This value is a bitwise OR of <a href="https://msdn.microsoft.com/library/windows/hardware/mt187946">UCM_TYPEC_OPERATING_MODE</a>-typed flags.
 
 
 ### -param SupportedPowerSourcingCapabilities [in]
 
-Indicates the power source capabilities of the connector. This value is a bitwise OR of <a href="..\ucmtypes\ne-ucmtypes-_ucm_typec_current.md">UCM_TYPEC_CURRENT</a>-typed flags.
+Indicates the power source capabilities of the connector. This value is a bitwise OR of <a href="https://msdn.microsoft.com/library/windows/hardware/mt187945">UCM_TYPEC_CURRENT</a>-typed flags.
 
 
 ## -returns

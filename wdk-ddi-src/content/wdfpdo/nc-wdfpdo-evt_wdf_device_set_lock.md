@@ -55,20 +55,6 @@ req.product: Windows 10 or later.
 A driver's <i>EvtDeviceSetLock</i> event callback function locks the specified device so that it cannot be ejected, or unlocks the device so that it can be ejected.
 
 
-## -prototype
-
-
-````
-EVT_WDF_DEVICE_SET_LOCK EvtDeviceSetLock;
-
-NTSTATUS EvtDeviceSetLock(
-  _In_ WDFDEVICE Device,
-  _In_ BOOLEAN   IsLocked
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -103,7 +89,7 @@ For more information about this callback function's return values, see <a href="
 
 
 
-Framework-based bus drivers can provide an <i>EvtDeviceSetLock</i> callback function. To register this callback function, bus drivers call <a href="..\wdfpdo\nf-wdfpdo-wdfpdoinitseteventcallbacks.md">WdfPdoInitSetEventCallbacks</a>.
+Framework-based bus drivers can provide an <i>EvtDeviceSetLock</i> callback function. To register this callback function, bus drivers call <a href="https://msdn.microsoft.com/library/windows/hardware/ff548805">WdfPdoInitSetEventCallbacks</a>.
 
 The framework calls the driver's <i>EvtDeviceSetLock</i> callback function when the PnP manager requests the bus driver to lock or unlock one of its enumerated child devices. 
 
@@ -153,10 +139,10 @@ The <b>EVT_WDF_DEVICE_SET_LOCK</b> function type is defined in the Wdfpdo.h head
 
 ## -see-also
 
-<a href="..\wdfpdo\nc-wdfpdo-evt_wdf_device_eject.md">EvtDeviceEject</a>
 
 
 
+<a href="https://msdn.microsoft.com/fc3f3a15-9a79-4275-9ba4-b01ab8851390">EvtDeviceEject</a>
  
 
  

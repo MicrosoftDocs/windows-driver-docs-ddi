@@ -52,19 +52,6 @@ req.typenames: D3DDDIARG_BUFFERBLT
 The D3DDDIARG_BUFFERBLT structure describes the parameters of a buffer bit-block transfer (bitblt) operation. 
 
 
-## -syntax
-
-
-````
-typedef struct _D3DDDIARG_BUFFERBLT {
-  HANDLE      hDstResource;
-  HANDLE      hSrcResource;
-  UINT        Offset;
-  D3DDDIRANGE SrcRange;
-} D3DDDIARG_BUFFERBLT;
-````
-
-
 ## -struct-fields
 
 
@@ -92,10 +79,10 @@ typedef struct _D3DDDIARG_BUFFERBLT {
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_bufblt.md">BufBlt</a>
 
 
 
+<a href="https://msdn.microsoft.com/d75f3fad-3bcd-44ad-9bd5-f61f5346cf8d">BufBlt</a>
  
 
  

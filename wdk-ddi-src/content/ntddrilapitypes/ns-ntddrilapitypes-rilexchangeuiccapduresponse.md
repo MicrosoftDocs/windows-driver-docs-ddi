@@ -52,19 +52,6 @@ req.typenames: RILEXCHANGEUICCAPDURESPONSE, *LPRILEXCHANGEUICCAPDURESPONSE
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef struct _RILEXCHANGEUICCAPDURESPONSE {
-  DWORD    cbSize;
-  DWORD    dwParams;
-  DWORD    dwResponseAPDULength;
-  BYTE [1] bResponseAPDU;
-} RILEXCHANGEUICCAPDURESPONSE, RILEXCHANGEUICCAPDURESPONSE;
-````
-
-
 ## -struct-fields
 
 

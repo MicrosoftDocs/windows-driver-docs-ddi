@@ -49,20 +49,7 @@ req.typenames: DRIVERSTATUS, *PDRIVERSTATUS, *LPDRIVERSTATUS
 ## -description
 
 
-The DRIVERSTATUS structure is used in conjunction with the <a href="..\ntdddisk\ns-ntdddisk-_sendcmdoutparams.md">SENDCMDOUTPARAMS</a> structure and the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566206">SMART_SEND_DRIVE_COMMAND</a> request to retrieve data returned by a Self-Monitoring Analysis and Reporting Technology (SMART) command.
-
-
-## -syntax
-
-
-````
-typedef struct _DRIVERSTATUS {
-  UCHAR bDriverError;
-  UCHAR bIDEError;
-  UCHAR bReserved[2];
-  ULONG dwReserved[2];
-} DRIVERSTATUS, *PDRIVERSTATUS, *LPDRIVERSTATUS;
-````
+The DRIVERSTATUS structure is used in conjunction with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565405">SENDCMDOUTPARAMS</a> structure and the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566206">SMART_SEND_DRIVE_COMMAND</a> request to retrieve data returned by a Self-Monitoring Analysis and Reporting Technology (SMART) command.
 
 
 ## -struct-fields
@@ -92,14 +79,14 @@ Reserved.
 
 ## -see-also
 
-<a href="..\ntdddisk\ns-ntdddisk-_sendcmdoutparams.md">SENDCMDOUTPARAMS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565405">SENDCMDOUTPARAMS</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566206">SMART_SEND_DRIVE_COMMAND</a>
-
-
-
  
 
  

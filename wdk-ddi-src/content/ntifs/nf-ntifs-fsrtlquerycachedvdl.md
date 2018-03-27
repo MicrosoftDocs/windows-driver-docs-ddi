@@ -52,17 +52,6 @@ req.typenames: TOKEN_TYPE
 The current valid data length (VDL) for a cached file is retrieved with the <b>FsRtlQueryCachedVdl</b> routine.
 
 
-## -syntax
-
-
-````
-NTSTATUS FsRtlQueryCachedVdl(
-  _In_  PFILE_OBJECT FileObject,
-  _Out_ PLONGLONG    Vdl
-);
-````
-
-
 ## -parameters
 
 

@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: Microsoft.WDTF
 req.assembly: WDTFDriverPackageAction.Interop.dll
 req.type-library: 
-req.lib: wdtfdriverpackageaction.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -56,25 +56,15 @@ Gets the driver package provider.
 This property is read-only.
 
 
-## -syntax
-
-
-````
-HRESULT get_Provider(
-  [out, retval] BSTR *pVal
-);
-````
-
-
 ## -parameters
 
 
 ## -see-also
 
-<a href="..\wdtfdriverpackageaction\nn-wdtfdriverpackageaction-iwdtfdriverpackageaction2.md">IWDTFDriverPackageAction2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406427">IWDTFDriverPackageAction2</a>
  
 
  

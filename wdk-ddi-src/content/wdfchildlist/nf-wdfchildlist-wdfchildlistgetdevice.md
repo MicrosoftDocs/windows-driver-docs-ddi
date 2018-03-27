@@ -56,16 +56,6 @@ req.product: Windows 10 or later.
 The <b>WdfChildListGetDevice</b> method returns a handle to the framework device object that represents the parent device of a specified child list.
 
 
-## -syntax
-
-
-````
-WDFDEVICE WdfChildListGetDevice(
-  _In_ WDFCHILDLIST ChildList
-);
-````
-
-
 ## -parameters
 
 

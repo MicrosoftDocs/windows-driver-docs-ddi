@@ -53,19 +53,6 @@ req.product: Windows 10 or later.
 The HID source driver implements this event call back function to use its buffering scheme for HID Input Reports, and wants to get notified when the next report can be submitted to VHF.
 
 
-## -prototype
-
-
-````
-EVT_VHF_READY_FOR_NEXT_READ_REPORT EvtVhfReadyForNextReadReport;
-
-void EvtVhfReadyForNextReadReport(
-  _In_ PVOID VhfClientContext
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -73,7 +60,7 @@ void EvtVhfReadyForNextReadReport(
 
 ### -param VhfClientContext [in]
 
-Pointer to the HID source driver-defined context structure that the driver passed in the previous call to <a href="..\vhf\nf-vhf-vhfcreate.md">VhfCreate</a> to create the virtual HID device.
+Pointer to the HID source driver-defined context structure that the driver passed in the previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/dn925036">VhfCreate</a> to create the virtual HID device.
 
 
 ## -returns
@@ -89,7 +76,7 @@ This callback function does not return a value.
 
 
 
-Virtual HID Framework (VHF) invokes this callback function to notify the HID source driver that it can submit a buffer to get the HID Input Report. After the callback is invoked, the HID source driver must call <a href="..\vhf\nf-vhf-vhfreadreportsubmit.md">VhfReadReportSubmit</a>  only once. If a portion of the HID Input Report is still pending, the driver must wait for VHF to invoke <i>EvtVhfReadyForNextReadReport</i> before the driver can call <b>VhfReadReportSubmit</b> again.
+Virtual HID Framework (VHF) invokes this callback function to notify the HID source driver that it can submit a buffer to get the HID Input Report. After the callback is invoked, the HID source driver must call <a href="https://msdn.microsoft.com/library/windows/hardware/dn925040">VhfReadReportSubmit</a>  only once. If a portion of the HID Input Report is still pending, the driver must wait for VHF to invoke <i>EvtVhfReadyForNextReadReport</i> before the driver can call <b>VhfReadReportSubmit</b> again.
 
 If the HID source driver does not implement this callback function, VHF uses a default buffering policy for HID Read (Input) Reports.
 
@@ -98,10 +85,10 @@ If the HID source driver does not implement this callback function, VHF uses a d
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/26964963-792F-4529-B4FC-110BF5C65B35">Write a HID source driver by using Virtual HID Framework (VHF)</a>
-
-
-
  
 
  

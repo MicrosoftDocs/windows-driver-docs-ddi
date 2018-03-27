@@ -52,43 +52,6 @@ req.typenames: GET_CHANGER_PARAMETERS, *PGET_CHANGER_PARAMETERS
 Retrieves the characteristics of the changer. 
 
 
-## -syntax
-
-
-````
-typedef struct _GET_CHANGER_PARAMETERS {
-  ULONG  Size;
-  USHORT NumberTransportElements;
-  USHORT NumberStorageElements;
-  USHORT NumberCleanerSlots;
-  USHORT NumberIEElements;
-  USHORT NumberDataTransferElements;
-  USHORT NumberOfDoors;
-  USHORT FirstSlotNumber;
-  USHORT FirstDriveNumber;
-  USHORT FirstTransportNumber;
-  USHORT FirstIEPortNumber;
-  USHORT FirstCleanerSlotAddress;
-  USHORT MagazineSize;
-  ULONG  DriveCleanTimeout;
-  ULONG  Features0;
-  ULONG  Features1;
-  UCHAR  MoveFromTransport;
-  UCHAR  MoveFromSlot;
-  UCHAR  MoveFromIePort;
-  UCHAR  MoveFromDrive;
-  UCHAR  ExchangeFromTransport;
-  UCHAR  ExchangeFromSlot;
-  UCHAR  ExchangeFromIePort;
-  UCHAR  ExchangeFromDrive;
-  UCHAR  LockUnlockCapabilities;
-  UCHAR  PositionCapabilities;
-  UCHAR  Reserved1[2];
-  ULONG  Reserved2[2];
-} GET_CHANGER_PARAMETERS, *PGET_CHANGER_PARAMETERS;
-````
-
-
 ## -struct-fields
 
 
@@ -629,10 +592,10 @@ Reserved for future use.
 
 ## -see-also
 
-<a href="..\mcd\nf-mcd-changergetparameters.md">ChangerGetParameters</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551425">ChangerGetParameters</a>
  
 
  

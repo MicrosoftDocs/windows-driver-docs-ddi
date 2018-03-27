@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -49,17 +49,7 @@ req.typenames: TOKEN_TYPE
 ## -description
 
 
-The <b>KeDetachProcess</b> routine is exported to support existing driver binaries and is obsolete. Use <a href="..\ntifs\nf-ntifs-keunstackdetachprocess.md">KeUnstackDetachProcess</a> instead.
-
-
-## -syntax
-
-
-````
-  KeDetachProcess(
-    
-);
-````
+The <b>KeDetachProcess</b> routine is exported to support existing driver binaries and is obsolete. Use <a href="https://msdn.microsoft.com/library/windows/hardware/ff549677">KeUnstackDetachProcess</a> instead.
 
 
 ## -parameters

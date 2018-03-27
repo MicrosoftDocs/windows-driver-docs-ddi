@@ -52,17 +52,6 @@ req.typenames: D3D11_1DDI_GETCAPTUREHANDLEDATA
 Destroys the video decoder.
 
 
-## -prototype
-
-
-````
-VOID APIENTRY PFND3D12DDI_DESTROYVIDEODECODER_0021(
-   D3D12DDI_HDEVICE       D3d12ddi_hdevice,
-   D3D12DDI_HVIDEODECODER D3d12ddi_hvideodecoder
-);
-````
-
-
 ## -parameters
 
 

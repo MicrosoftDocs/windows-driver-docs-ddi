@@ -52,17 +52,6 @@ req.typenames: DXGKARG_CLOSEALLOCATION
 The DXGKARG_CLOSEALLOCATION structure describes allocations that the display miniport driver should close.
 
 
-## -syntax
-
-
-````
-typedef struct _DXGKARG_CLOSEALLOCATION {
-  UINT         NumAllocations;
-  const HANDLE *pOpenHandleList;
-} DXGKARG_CLOSEALLOCATION;
-````
-
-
 ## -struct-fields
 
 
@@ -80,10 +69,10 @@ typedef struct _DXGKARG_CLOSEALLOCATION {
 
 ## -see-also
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_closeallocation.md">DxgkDdiCloseAllocation</a>
 
 
 
+<a href="https://msdn.microsoft.com/f9c195d7-debe-495e-a355-e176d06884f8">DxgkDdiCloseAllocation</a>
  
 
  

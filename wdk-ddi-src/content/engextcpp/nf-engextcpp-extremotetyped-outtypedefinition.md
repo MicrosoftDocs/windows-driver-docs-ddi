@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: engextcpp.hpp
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -50,14 +50,6 @@ req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
 
 
 The <b>OutTypeDefinition</b> method prints the type of the typed data represented by this object.
-
-
-## -syntax
-
-
-````
-void OutTypeDefinition();
-````
 
 
 ## -parameters

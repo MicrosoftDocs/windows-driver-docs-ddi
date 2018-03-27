@@ -55,16 +55,6 @@ The
   percentage.
 <div class="alert"><b>Note</b>  This function is deprecated. Do not use it in your driver.</div><div> </div>
 
-## -syntax
-
-
-````
-VOID NdisGetCurrentProcessorCpuUsage(
-  _Out_ PULONG pCpuUsage
-);
-````
-
-
 ## -parameters
 
 
@@ -90,17 +80,17 @@ None
 
 The <b>NdisGetCurrentProcessorCpuUsage</b> function returns the average amount of activity on the current processor since the last boot, not the current usage level. This information is not particularly useful. Therefore, we recommend that you don't use <b>NdisGetCurrentProcessorCpuUsage</b> in your driver.
 
-As an alternative, you can use <a href="..\ndis\nf-ndis-ndisgetcurrentprocessorcounts.md">NdisGetCurrentProcessorCounts</a> to see whether the processor is currently loaded.
+As an alternative, you can use <a href="https://msdn.microsoft.com/library/windows/hardware/ff562625">NdisGetCurrentProcessorCounts</a> to see whether the processor is currently loaded.
 
 
 
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisgetcurrentprocessorcounts.md">NdisGetCurrentProcessorCounts</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562625">NdisGetCurrentProcessorCounts</a>
  
 
  

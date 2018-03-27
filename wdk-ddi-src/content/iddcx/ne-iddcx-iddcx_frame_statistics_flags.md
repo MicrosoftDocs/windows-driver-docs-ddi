@@ -54,17 +54,6 @@ req.typenames:
                 Indicates whether a frame was altered by the driver.
 
 
-## -syntax
-
-
-````
-typedef enum _IDDCX_FRAME_STATISTICS_FLAGS { 
-  IDDCX_FRAME_STATISTICS_FLAGS_NONE                    = 0,
-  IDDCX_FRAME_STATISTICS_FLAGS_REDUCED_COLOR_FIDELITY  = 1
-} IDDCX_FRAME_STATISTICS_FLAGS;
-````
-
-
 ## -enum-fields
 
 

@@ -52,17 +52,6 @@ req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
 Called to retrieve post composition capabilities. Support for this DDI is required for any WDDM 2.2 driver that wants to support post composition scaling.
 
 
-## -prototype
-
-
-````
-NTSTATUS APIENTRY DXGKDDI_GETPOSTCOMPOSITIONCAPS(
-  _In_ const HANDLE                          hAdapter,
-  _In_ const PDXGKARG_GETPOSTCOMPOSITIONCAPS pGetPostCompositonCaps
-);
-````
-
-
 ## -parameters
 
 

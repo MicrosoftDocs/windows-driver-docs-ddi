@@ -52,27 +52,6 @@ req.typenames: RILMSGIS637INSTATUS, *LPRILMSGIS637INSTATUS
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef struct _RILMSGIS637INSTATUS {
-  RILADDRESS               raOrigAddress;
-  RILSUBADDRESS            rsaOrigSubaddr;
-  RILSYSTEMTIME            stSCReceiveTime;
-  DWORD                    dwCauseCode;
-  DWORD                    dwReplySeqNumber;
-  DWORD                    dwUserResponseCode;
-  RILMSGCDMAMSGSTATUSTYPE  dwMsgStatusType;
-  DWORD                    dwMsgID;
-  RILMSGCDMALANGUAGE       dwMsgLang;
-  RILMSGCDMAMSGENCODING    dwMsgEncoding;
-  DWORD                    cchMsgLength;
-  BYTE [512]               rgbMsg;
-} RILMSGIS637INSTATUS, RILMSGIS637INSTATUS;
-````
-
-
 ## -struct-fields
 
 

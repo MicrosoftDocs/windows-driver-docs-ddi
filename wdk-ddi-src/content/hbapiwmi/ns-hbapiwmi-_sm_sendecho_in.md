@@ -52,21 +52,6 @@ req.typenames: SM_SendECHO_IN, *PSM_SendECHO_IN
 The SM_SendECHO_IN structure is used to provide input parameters to the SM_SendECHO method.
 
 
-## -syntax
-
-
-````
-typedef struct _SM_SendECHO_IN {
-  UCHAR HbaPortWWN[8];
-  UCHAR DestWWN[8];
-  ULONG DestFCID;
-  ULONG InRespBufferMaxSize;
-  ULONG ReqBufferSize;
-  UCHAR ReqBuffer[1];
-} SM_SendECHO_IN, *PSM_SendECHO_IN;
-````
-
-
 ## -struct-fields
 
 

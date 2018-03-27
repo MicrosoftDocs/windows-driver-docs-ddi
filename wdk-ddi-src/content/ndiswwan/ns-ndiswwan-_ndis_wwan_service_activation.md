@@ -53,17 +53,6 @@ The NDIS_WWAN_SERVICE_ACTIVATION structure represents the command that is used t
   activation state of the MB device in order to obtain access to the provider's network.
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_WWAN_SERVICE_ACTIVATION {
-  NDIS_OBJECT_HEADER      Header;
-  WWAN_SERVICE_ACTIVATION ServiceActivation;
-} NDIS_WWAN_SERVICE_ACTIVATION, *PNDIS_WWAN_SERVICE_ACTIVATION;
-````
-
-
 ## -struct-fields
 
 
@@ -117,26 +106,26 @@ sizeof(NDIS_WWAN_SERVICE_ACTIVATION)
  
 
 For more information about these members, see 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>.
 
 
 ### -field ServiceActivation
 
 A 
-     <a href="..\wwan\ns-wwan-_wwan_service_activation.md">WWAN_SERVICE_ACTIVATION</a> structure
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571232">WWAN_SERVICE_ACTIVATION</a> structure
      that represents the service activation state of the device.
 
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_service_activation.md">WWAN_SERVICE_ACTIVATION</a>
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571232">WWAN_SERVICE_ACTIVATION</a>
  
 
  

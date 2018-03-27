@@ -54,32 +54,6 @@ The EXT_TYPED_DATA structure is passed to and returned from the <a href="https:/
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554564">Request</a> operation. It contains the input and output parameters for the operation as well as specifying which particular suboperation to perform.
 
 
-## -syntax
-
-
-````
-typedef struct _EXT_TYPED_DATA {
-  EXT_TDOP         Operation;
-  ULONG            Flags;
-  DEBUG_TYPED_DATA InData;
-  DEBUG_TYPED_DATA OutData;
-  ULONG            InStrIndex;
-  ULONG            In32;
-  ULONG            Out32;
-  ULONG64          In64;
-  ULONG64          Out64;
-  ULONG            StrBufferIndex;
-  ULONG            StrBufferChars;
-  ULONG            StrCharsNeeded;
-  ULONG            DataBufferIndex;
-  ULONG            DataBufferBytes;
-  ULONG            DataBytesNeeded;
-  HRESULT          Status;
-  ULONG64          Reserved[8];
-} EXT_TYPED_DATA, *PEXT_TYPED_DATA;
-````
-
-
 ## -struct-fields
 
 
@@ -88,7 +62,7 @@ typedef struct _EXT_TYPED_DATA {
 ### -field Operation
 
 Specifies which suboperation the <a href="https://msdn.microsoft.com/library/windows/hardware/ff541547">DEBUG_REQUEST_EXT_TYPED_DATA_ANSI</a>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554564">Request</a> operation should perform. The interpretation of some of the other members depends on <b>Operation</b>. For a list of possible suboperations, see <a href="..\wdbgexts\ne-wdbgexts-_ext_tdop.md">EXT_TDOP</a>.
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554564">Request</a> operation should perform. The interpretation of some of the other members depends on <b>Operation</b>. For a list of possible suboperations, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff544529">EXT_TDOP</a>.
 
 
 ### -field Flags
@@ -146,14 +120,14 @@ The typed data is in physical memory, and this physical memory is write-combined
 
 ### -field InData
 
-Specifies typed data to be used as input to the operation. For details about this structure, see <a href="..\wdbgexts\ns-wdbgexts-_debug_typed_data.md">DEBUG_TYPED_DATA</a>.
+Specifies typed data to be used as input to the operation. For details about this structure, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff541706">DEBUG_TYPED_DATA</a>.
 
 The interpretation of <b>InData</b> depends on the value of <b>Operation</b>.
 
 
 ### -field OutData
 
-Receives typed data as output from the operation. Any suboperation that returns typed data to <b>OutData</b> initially copies the contents of <b>InData</b> to <b>OutData</b>, then modifies <b>OutData</b> in place, so that the input parameters in <b>InData</b> are also present in <b>OutData</b>. For details about this structure, see <a href="..\wdbgexts\ns-wdbgexts-_debug_typed_data.md">DEBUG_TYPED_DATA</a>.
+Receives typed data as output from the operation. Any suboperation that returns typed data to <b>OutData</b> initially copies the contents of <b>InData</b> to <b>OutData</b>, then modifies <b>OutData</b> in place, so that the input parameters in <b>InData</b> are also present in <b>OutData</b>. For details about this structure, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff541706">DEBUG_TYPED_DATA</a>.
 
 The interpretation of <b>OutData</b> depends on the value of <b>Operation</b>.
 
@@ -253,22 +227,22 @@ This structure can optionally specify additional data--using the members <b>InSt
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff541547">DEBUG_REQUEST_EXT_TYPED_DATA_ANSI</a>
 
 
 
-<a href="..\wdbgexts\ne-wdbgexts-_ext_tdop.md">EXT_TDOP</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541706">DEBUG_TYPED_DATA</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544529">EXT_TDOP</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554564">Request</a>
-
-
-
-<a href="..\wdbgexts\ns-wdbgexts-_debug_typed_data.md">DEBUG_TYPED_DATA</a>
-
-
-
  
 
  

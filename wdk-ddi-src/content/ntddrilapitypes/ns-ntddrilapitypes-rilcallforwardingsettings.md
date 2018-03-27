@@ -52,22 +52,6 @@ req.typenames: RILCALLFORWARDINGSETTINGS, *LPRILCALLFORWARDINGSETTINGS
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef struct _RILCALLFORWARDINGSETTINGS {
-  DWORD                     cbSize;
-  DWORD                     dwParams;
-  RILSERVICESETTINGSSTATUS  dwStatus;
-  DWORD                     dwInfoClasses;
-  RILADDRESS                raAddress;
-  RILSUBADDRESS             rsaSubAddress;
-  DWORD                     dwDelayTime;
-} RILCALLFORWARDINGSETTINGS, RILCALLFORWARDINGSETTINGS;
-````
-
-
 ## -struct-fields
 
 

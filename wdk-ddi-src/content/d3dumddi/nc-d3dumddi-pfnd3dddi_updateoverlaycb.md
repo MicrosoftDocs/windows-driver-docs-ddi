@@ -52,20 +52,6 @@ req.typenames: DXGK_PTE
 The <b>pfnUpdateOverlayCb</b> function modifies a kernel-mode overlay object.
 
 
-## -prototype
-
-
-````
-PFND3DDDI_UPDATEOVERLAYCB pfnUpdateOverlayCb;
-
-__checkReturn HRESULT APIENTRY CALLBACK pfnUpdateOverlayCb(
-  _In_       HANDLE                 hDevice,
-  _In_ const D3DDDICB_UPDATEOVERLAY *pData
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -87,7 +73,7 @@ A handle to the display device (graphics context).
 
 #### - pData [in]
 
-A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_updateoverlay.md">D3DDDICB_UPDATEOVERLAY</a> structure that describes how to modify the overlay.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff544282">D3DDDICB_UPDATEOVERLAY</a> structure that describes how to modify the overlay.
 
 
 ## -returns
@@ -155,14 +141,14 @@ This function might also return other HRESULT values.
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicecallbacks.md">D3DDDI_DEVICECALLBACKS</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_updateoverlay.md">D3DDDICB_UPDATEOVERLAY</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544282">D3DDDICB_UPDATEOVERLAY</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544512">D3DDDI_DEVICECALLBACKS</a>
  
 
  

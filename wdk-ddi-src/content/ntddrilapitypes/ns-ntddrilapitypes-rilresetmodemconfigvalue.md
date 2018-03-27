@@ -52,22 +52,6 @@ req.typenames: RILRESETMODEMCONFIGVALUE, *LPRILRESETMODEMCONFIGVALUE
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef struct _RILRESETMODEMCONFIGVALUE {
-  DWORD                          cbSize;
-  DWORD                          dwType;
-  NULL                           RILRESETMODEMCONFIGVALUEUNION;
-  RILRESETMODEMCONFIGVALUEUNION  configValueUnion;
-  BOOL                           fValue;
-  DWORD                          dwValue;
-  WCHAR [256]                    wszValue;
-} RILRESETMODEMCONFIGVALUE, RILRESETMODEMCONFIGVALUE;
-````
-
-
 ## -struct-fields
 
 

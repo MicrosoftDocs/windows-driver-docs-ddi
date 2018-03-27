@@ -53,18 +53,6 @@ req.product: Windows 10 or later.
 The WWAN_DEVICE_SERVICE_SESSION structure represents the state of a device service session, or the operation to be performed on a device service.
 
 
-## -syntax
-
-
-````
-typedef struct _WWAN_DEVICE_SERVICE_SESSION {
-  GUID                              DeviceServiceGuid;
-  WWAN_DEVICE_SERVICE_SESSION_STATE State;
-  ULONG                             uSessionID;
-} WWAN_DEVICE_SERVICE_SESSION, *PWWAN_DEVICE_SERVICE_SESSION;
-````
-
-
 ## -struct-fields
 
 
@@ -87,18 +75,18 @@ The session ID for the device service session.
 
 ## -see-also
 
-<a href="..\wwan\ne-wwan-_wwan_device_service_session_state.md">WWAN_DEVICE_SERVICE_SESSION_STATE</a>
 
 
 
-<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_device_set_service_session.md">NDIS_WWAN_SET_DEVICE_SERVICE_SESSION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh831858">NDIS_WWAN_DEVICE_SERVICE_SESSION_INFO</a>
 
 
 
-<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_device_service_session_info.md">NDIS_WWAN_DEVICE_SERVICE_SESSION_INFO</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh831865">NDIS_WWAN_SET_DEVICE_SERVICE_SESSION</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh831876">WWAN_DEVICE_SERVICE_SESSION_STATE</a>
  
 
  

@@ -53,23 +53,6 @@ req.product: Windows 10 or later.
 The WDI_ANQP_QUERY_STATUS enumeration defines the Access Network Query Protocol (ANQP) query status values.
 
 
-## -syntax
-
-
-````
-typedef enum _WDI_ANQP_QUERY_STATUS { 
-  WDI_ANQP_QUERY_STATUS_SUCCESS                                         = 0,
-  WDI_ANQP_QUERY_STATUS_FAILURE                                         = 1,
-  WDI_ANQP_QUERY_STATUS_TIMED_OUT                                       = 2,
-  WDI_ANQP_QUERY_STATUS_RESOURCES                                       = 3,
-  WDI_ANQP_QUERY_STATUS_ADVERTISEMENT_PROTOCOL_NOT_SUPPORTED_ON_REMOTE  = 4,
-  WDI_ANQP_QUERY_STATUS_GAS_PROTOCOL_FAILURE                            = 5,
-  WDI_ANQP_QUERY_STATUS_ADVERTISEMENT_SERVER_NOT_RESPONDING             = 6,
-  WDI_ANQP_QUERY_STATUS_ACCESS_ISSUES                                   = 7
-} WDI_ANQP_QUERY_STATUS;
-````
-
-
 ## -enum-fields
 
 

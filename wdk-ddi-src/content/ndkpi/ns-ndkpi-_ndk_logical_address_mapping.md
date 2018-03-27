@@ -52,18 +52,6 @@ req.typenames: NDK_LOGICAL_ADDRESS_MAPPING
 The <b>NDK_LOGICAL_ADDRESS_MAPPING</b> structure contains an array of adapter logical addresses.
 
 
-## -syntax
-
-
-````
-typedef struct _NDK_LOGICAL_ADDRESS_MAPPING {
-  PVOID               AdapterContext;
-  ULONG               AdapterPageCount;
-  NDK_LOGICAL_ADDRESS AdapterPageArray[1];
-} NDK_LOGICAL_ADDRESS_MAPPING, *PNDK_LOGICAL_ADDRESS_MAPPING;
-````
-
-
 ## -struct-fields
 
 
@@ -91,21 +79,21 @@ The <b>NDK_LOGICAL_ADDRESS</b> datatype is defined as follows:
 
 
 
-<b>NDK_LOGICAL_ADDRESS_MAPPING</b> represents an adapter's view of physical memory. See <a href="..\ndkpi\nc-ndkpi-ndk_fn_build_lam.md">NDK_FN_BUILD_LAM</a> and <a href="..\ndkpi\nc-ndkpi-ndk_fn_release_lam.md">NDK_FN_RELEASE_LAM</a> for more information.
+<b>NDK_LOGICAL_ADDRESS_MAPPING</b> represents an adapter's view of physical memory. See <a href="https://msdn.microsoft.com/library/windows/hardware/hh439860">NDK_FN_BUILD_LAM</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/hh439910">NDK_FN_RELEASE_LAM</a> for more information.
 
 
 
 
 ## -see-also
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_release_lam.md">NDK_FN_RELEASE_LAM</a>
 
 
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_build_lam.md">NDK_FN_BUILD_LAM</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439860">NDK_FN_BUILD_LAM</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439910">NDK_FN_RELEASE_LAM</a>
  
 
  

@@ -53,21 +53,6 @@ Gives information about the capabilities of the adapter.
              
 
 
-## -syntax
-
-
-````
-typedef struct IDDCX_ADAPTER_CAPS {
-  UINT                           Size;
-  IDDCX_ADAPTER_FLAGS            Flags;
-  UINT64                         MaxDisplayPipelineRate;
-  UINT                           MaxMonitorsSupported;
-  IDDCX_ENDPOINT_DIAGNOSTIC_INFO EndPointDiagnostics;
-  UINT                           StaticDesktopReencodeFrameCount;
-} IDDCX_ADAPTER_CAPS, *IDDCX_ADAPTER_CAPS;
-````
-
-
 ## -struct-fields
 
 

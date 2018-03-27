@@ -50,26 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The <b>TTraceLevel</b> enumeration defines a set of levels for tracing in WDTF. The meaning on each level depends on registry settings for the <a href="..\wdtf\nn-wdtf-itracer.md">ITracer</a> interface.
-
-
-## -syntax
-
-
-````
-typedef enum  { 
-  Trace0_Off     = 0,
-  Trace1_Low     = 1,
-  Trace2_Medium  = 2,
-  Trace3_High    = 3,
-  Trace4_All     = 4,
-  Trace5_Custom  = 5,
-  Trace6_Custom  = 6,
-  Trace7_Custom  = 7,
-  Trace8_Custom  = 8,
-  Trace_Default  = 9
-} TTraceLevel;
-````
+The <b>TTraceLevel</b> enumeration defines a set of levels for tracing in WDTF. The meaning on each level depends on registry settings for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff539512">ITracer</a> interface.
 
 
 ## -enum-fields
@@ -124,32 +105,32 @@ A custom trace level. Currently, this value is set to <b>Trace0_Off</b>.
 
 ### -field Trace_Default
 
-The default tracing level. This level tells the <a href="..\wdtf\nn-wdtf-itracer.md">ITracer</a> interface to look for the actual level in the registry. <b>ITracer</b> will look in the TraceLevel path for the implementation that you called the <a href="https://msdn.microsoft.com/library/windows/hardware/ff539522">ITracing::SetTraceLevel</a> method on. For most implementations, this value is set to <b>Trace2_Medium</b> when you install WDTF.
+The default tracing level. This level tells the <a href="https://msdn.microsoft.com/library/windows/hardware/ff539512">ITracer</a> interface to look for the actual level in the registry. <b>ITracer</b> will look in the TraceLevel path for the implementation that you called the <a href="https://msdn.microsoft.com/library/windows/hardware/ff539522">ITracing::SetTraceLevel</a> method on. For most implementations, this value is set to <b>Trace2_Medium</b> when you install WDTF.
 
 
 ## -remarks
 
 
 
-Use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff539522">ITracing::SetTraceLevel</a> method to change the trace level of an instance of a WDTF interface at runtime. For more information about how to change the registry default values, see <a href="..\wdtf\nn-wdtf-itracer.md">ITracer</a>.
+Use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff539522">ITracing::SetTraceLevel</a> method to change the trace level of an instance of a WDTF interface at runtime. For more information about how to change the registry default values, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff539512">ITracer</a>.
 
 
 
 
 ## -see-also
 
-<a href="..\wdtf\nn-wdtf-itracing.md">ITracing</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539512">ITracer</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539519">ITracing</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539522">ITracing::SetTraceLevel</a>
-
-
-
-<a href="..\wdtf\nn-wdtf-itracer.md">ITracer</a>
-
-
-
  
 
  

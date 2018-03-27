@@ -52,19 +52,6 @@ req.typenames: MS_SMHBA_FC_PHY, *PMS_SMHBA_FC_PHY
 The MS_SMHBA_FC_PHY structure is used to report the physical attributes of a fibre channel port.
 
 
-## -syntax
-
-
-````
-typedef struct _MS_SMHBA_FC_PHY {
-  ULONG PhySupportSpeed;
-  ULONG PhySpeed;
-  UCHAR PhyType;
-  ULONG MaxFrameSize;
-} MS_SMHBA_FC_PHY, *PMS_SMHBA_FC_PHY;
-````
-
-
 ## -struct-fields
 
 

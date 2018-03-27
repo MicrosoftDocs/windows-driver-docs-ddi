@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
@@ -51,20 +51,6 @@ req.product: Windows 10 or later.
 
 
 <b>RxPrepareToReparseSymbolicLink</b> sets up the file object name to facilitate a reparse. This routine is used by the network mini-redirectors to traverse symbolic links. 
-
-
-## -syntax
-
-
-````
-NTSTATUS RxPrepareToReparseSymbolicLink(
-   PRX_CONTEXT     RxContext,
-   BOOLEAN         SymbolicLinkEmbeddedInOldPath,
-   PUNICODE_STRING NewPath,
-   BOOLEAN         NewPathIsAbsolute,
-   PBOOLEAN        ReparseRequired
-);
-````
 
 
 ## -parameters
@@ -166,10 +152,10 @@ The value of the <i>ReparseRequired</i> parameter assumes significance only if S
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549862">MRxCreate</a>
-
-
-
  
 
  

@@ -53,20 +53,6 @@ The NDIS_PORT structure specifies the characteristics of an NDIS port and a poin
   element in a linked list of ports.
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_PORT {
-  PNDIS_PORT                Next;
-  PVOID                     NdisReserved;
-  PVOID                     MiniportReserved;
-  PVOID                     ProtocolReserved;
-  NDIS_PORT_CHARACTERISTICS PortCharacteristics;
-} NDIS_PORT, *PNDIS_PORT;
-````
-
-
 ## -struct-fields
 
 
@@ -95,7 +81,7 @@ Reserved for protocol drivers.
 ### -field PortCharacteristics
 
 An 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_port_characteristics.md">
+     <a href="https://msdn.microsoft.com/fd602dd6-c216-413a-a4da-292739774937">
      NDIS_PORT_CHARACTERISTICS</a> structure that specifies the characteristics of the port.
 
 
@@ -111,10 +97,10 @@ The NDIS_PORT structure is used to create a linked list of ports. Such a linked 
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_port_characteristics.md">NDIS_PORT_CHARACTERISTICS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566791">NDIS_PORT_CHARACTERISTICS</a>
  
 
  

@@ -54,17 +54,6 @@ req.typenames:
          Gives information about the parts of the surface that have changed since the last present.
 
 
-## -syntax
-
-
-````
-typedef struct IDARG_IN_GETDIRTYRECTS {
-  UINT                                    DirtyRectInCount;
-  _Field_size_full_(DirtyRectCount) RECT* pDirtyRects;
-} IDARG_IN_GETDIRTYRECTS, *IDARG_IN_GETDIRTYRECTS;
-````
-
-
 ## -struct-fields
 
 

@@ -52,17 +52,6 @@ req.typenames: RILGETMSGINUICCSTATUSPARAMS, *LPRILGETMSGINUICCSTATUSPARAMS
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef struct _RILGETMSGINUICCSTATUSPARAMS {
-  HUICCAPP  hUiccApp;
-  DWORD     dwIndex;
-} RILGETMSGINUICCSTATUSPARAMS, RILGETMSGINUICCSTATUSPARAMS;
-````
-
-
 ## -struct-fields
 
 

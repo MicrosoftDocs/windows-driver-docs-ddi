@@ -52,37 +52,6 @@ req.typenames: DISPLAYID_DETAILED_TIMING_TYPE_I
 The DISPLAYID_DETAILED_TIMING_TYPE_I structure specifies an additional target mode set for a video present target.
 
 
-## -syntax
-
-
-````
-typedef struct _DISPLAYID_DETAILED_TIMING_TYPE_I {
-  struct {
-    ULONG PixelClock  :24;
-    ULONG AspectRatio  :3;
-    ULONG Reserved  :1;
-    ULONG ScanningType  :1;
-    ULONG StereoMode  :2;
-    ULONG PreferredTiming  :1;
-  };
-  USHORT HorizontalActivePixels;
-  USHORT HorizontalBlankPixels;
-  struct {
-    USHORT HorizontalFrontPorch  :15;
-    USHORT HorizontalSyncPolarity  :1;
-  };
-  USHORT HorizontalSyncWidth;
-  USHORT VerticalActiveLines;
-  USHORT VerticalBlankLines;
-  struct {
-    USHORT VerticalFrontPorch  :15;
-    USHORT VerticalSyncPolarity  :1;
-  };
-  USHORT VerticalSyncWidth;
-} DISPLAYID_DETAILED_TIMING_TYPE_I;
-````
-
-
 ## -struct-fields
 
 
@@ -185,11 +154,10 @@ The graphics kernel subsystem also validates that each registry value meets the 
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554017">DISPLAYID_DETAILED_TIMING_TYPE_I_ASPECT_RATIO</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554026">DISPLAYID_DETAILED_TIMING_TYPE_I_SYNC_POLARITY</a>
 
 
 
@@ -201,6 +169,7 @@ The graphics kernel subsystem also validates that each registry value meets the 
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554026">DISPLAYID_DETAILED_TIMING_TYPE_I_SYNC_POLARITY</a>
  
 
  

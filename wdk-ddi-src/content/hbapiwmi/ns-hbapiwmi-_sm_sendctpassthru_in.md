@@ -52,19 +52,6 @@ req.typenames: SM_SendCTPassThru_IN, *PSM_SendCTPassThru_IN
 The SM_SendCTPassThru_IN structure is used to provide input parameters to the SM_SendCTPassThru method.
 
 
-## -syntax
-
-
-````
-typedef struct _SM_SendCTPassThru_IN {
-  UCHAR HbaPortWWN[8];
-  ULONG InRespBufferMaxSize;
-  ULONG ReqBufferSize;
-  UCHAR ReqBuffer[1];
-} SM_SendCTPassThru_IN, *PSM_SendCTPassThru_IN;
-````
-
-
 ## -struct-fields
 
 

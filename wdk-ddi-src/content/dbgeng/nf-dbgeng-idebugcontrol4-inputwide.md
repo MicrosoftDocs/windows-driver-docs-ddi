@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -50,18 +50,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>InputWide</b>  method requests an input string from the <a href="https://msdn.microsoft.com/fa52a1f0-9397-48a5-acbd-ce5347c0baef">debugger engine</a>.
-
-
-## -syntax
-
-
-````
-HRESULT InputWide(
-  [out]           PWSTR  Buffer,
-  [in]            ULONG  BufferSize,
-  [out, optional] PULONG InputSize
-);
-````
 
 
 ## -parameters

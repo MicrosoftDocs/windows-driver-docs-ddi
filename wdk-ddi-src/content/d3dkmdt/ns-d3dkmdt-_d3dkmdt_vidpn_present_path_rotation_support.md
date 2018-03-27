@@ -52,25 +52,6 @@ req.typenames: D3DKMDT_VIDPN_PRESENT_PATH_ROTATION_SUPPORT
 The <b>D3DKMDT_VIDPN_PRESENT_PATH_ROTATION_SUPPORT</b> structure is used to indicate the angles of rotation that are supported by a particular VidPN present path.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DKMDT_VIDPN_PRESENT_PATH_ROTATION_SUPPORT {
-  UINT Identity  :1;
-  UINT Rotate90  :1;
-  UINT Rotate180  :1;
-  UINT Rotate270  :1;
-#if (DXGKDDI_INTERFACE_VERSION >= DXGKDDI_INTERFACE_VERSION_WDDM1_3_PATH_INDEPENDENT_ROTATION)
-  UINT Offset0  :1;
-  UINT Offset90  :1;
-  UINT Offset180  :1;
-  UINT Offset270  :1;
-#endif 
-} D3DKMDT_VIDPN_PRESENT_PATH_ROTATION_SUPPORT;
-````
-
-
 ## -struct-fields
 
 
@@ -128,7 +109,7 @@ Supported starting with Windows 8.1 Update.
 
 
 
-The <b>RotationSupport</b> member of the <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_vidpn_present_path_transformation.md">D3DKMDT_VIDPN_PRESENT_PATH_TRANSFORMATION</a> structure is a <b>D3DKMDT_VIDPN_PRESENT_PATH_ROTATION_SUPPORT</b> structure.
+The <b>RotationSupport</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff546719">D3DKMDT_VIDPN_PRESENT_PATH_TRANSFORMATION</a> structure is a <b>D3DKMDT_VIDPN_PRESENT_PATH_ROTATION_SUPPORT</b> structure.
 
 <div class="alert"><b>Note</b>  The operating system  does not update the value of the interface version value <b>DXGKDDI_INTERFACE_VERSION</b> to <b>DXGKDDI_INTERFACE_VERSION_WDDM1_3_PATH_INDEPENDENT_ROTATION</b>. If you want to use the path-independent members in this structure, you should be sure that the interface version in your driver is &gt;= <b>DXGKDDI_INTERFACE_VERSION_WDDM1_3_PATH_INDEPENDENT_ROTATION</b> (0x4003).</div>
 <div> </div>

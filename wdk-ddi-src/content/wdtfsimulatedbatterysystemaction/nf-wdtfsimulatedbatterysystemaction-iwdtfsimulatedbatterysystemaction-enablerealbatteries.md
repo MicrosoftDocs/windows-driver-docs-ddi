@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: wdtfsimulatedbatterysystemaction.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -60,16 +60,6 @@ Use this method to enable real batteries if they are present in the
     method should be called when disabling the simulated battery in order to return the system to its original state.
 
 
-## -syntax
-
-
-````
-HRESULT EnableRealBatteries(
-  [out, retval] VARIANT_BOOL *pbSuccess
-);
-````
-
-
 ## -parameters
 
 
@@ -89,10 +79,10 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="..\wdtfsimulatedbatterysystemaction\nn-wdtfsimulatedbatterysystemaction-iwdtfsimulatedbatterysystemaction.md">IWDTFSimulatedBatterySystemAction</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265160">IWDTFSimulatedBatterySystemAction</a>
  
 
  

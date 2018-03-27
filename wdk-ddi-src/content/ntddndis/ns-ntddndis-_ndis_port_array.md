@@ -53,20 +53,6 @@ The NDIS_PORT_ARRAY structure specifies a list of NDIS ports and their associate
   characteristics.
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_PORT_ARRAY {
-  NDIS_OBJECT_HEADER        Header;
-  ULONG                     NumberOfPorts;
-  ULONG                     OffsetFirstPort;
-  ULONG                     ElementSize;
-  NDIS_PORT_CHARACTERISTICS Ports[1];
-} NDIS_PORT_ARRAY, *PNDIS_PORT_ARRAY;
-````
-
-
 ## -struct-fields
 
 
@@ -75,7 +61,7 @@ typedef struct _NDIS_PORT_ARRAY {
 ### -field Header
 
 The 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure for the
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure for the
      NDIS_PORT_ARRAY structure. Set the 
      <b>Type</b> member of the structure that 
      <b>Header</b> specifies to NDIS_OBJECT_TYPE_DEFAULT, the 
@@ -108,7 +94,7 @@ An array that contains the port characteristics for each active NDIS port on a m
      <b>ElementSize</b> member specifies the size of each element in the array. The 
      <b>NumberOfPorts</b> member specifies the number of elements in the array. Each
      element in the array is an 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_port_characteristics.md">
+     <a href="https://msdn.microsoft.com/fd602dd6-c216-413a-a4da-292739774937">
      NDIS_PORT_CHARACTERISTICS</a> structure.
 
 
@@ -125,18 +111,18 @@ The NDIS_PORT_ARRAY structure specifies characteristics, of all of the active ND
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566791">NDIS_PORT_CHARACTERISTICS</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569583">OID_GEN_ENUMERATE_PORTS</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_port_characteristics.md">NDIS_PORT_CHARACTERISTICS</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
  
 
  

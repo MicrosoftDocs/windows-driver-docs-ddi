@@ -52,17 +52,6 @@ req.typenames: RILEXECUTORRFSTATEPARAMMASK
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef enum _RILEXECUTORRFSTATEPARAMMASK { 
-  RIL_PARAM_GERFS_STATE,
-  RIL_PARAM_GERFS_ALL
-} RILEXECUTORRFSTATEPARAMMASK;
-````
-
-
 ## -enum-fields
 
 

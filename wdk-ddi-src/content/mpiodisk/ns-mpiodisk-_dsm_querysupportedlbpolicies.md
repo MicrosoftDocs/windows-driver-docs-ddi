@@ -52,18 +52,6 @@ req.typenames: DSM_QuerySupportedLBPolicies, *PDSM_QuerySupportedLBPolicies
 The DSM_QuerySupportedLBPolicies structure is used to query the list of load balance policies that are supported on the LUN.
 
 
-## -syntax
-
-
-````
-typedef struct _DSM_QuerySupportedLBPolicies {
-  ULONG                   SupportedLBPoliciesCount;
-  ULONG                   Reserved;
-  DSM_Load_Balance_Policy Supported_LB_Policies[1];
-} DSM_QuerySupportedLBPolicies, *PDSM_QuerySupportedLBPolicies;
-````
-
-
 ## -struct-fields
 
 

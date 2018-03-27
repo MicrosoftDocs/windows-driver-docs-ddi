@@ -52,21 +52,6 @@ req.typenames: L2CAP_RETRANSMISSION_AND_FLOW_CONTROL, *PL2CAP_RETRANSMISSION_AND
 The L2CAP_RETRANSMISSION_AND_FLOW_CONTROL structure describes configuration parameters for enhanced retransmission mode and streaming mode.
 
 
-## -syntax
-
-
-````
-typedef struct _L2CAP_RETRANSMISSION_AND_FLOW_CONTROL {
-  UCHAR  Mode;
-  UCHAR  TxWindowSize;
-  UCHAR  MaxTransmit;
-  USHORT RetransmissionTO;
-  USHORT MonitorTO;
-  USHORT MaxPDUSize;
-} L2CAP_RETRANSMISSION_AND_FLOW_CONTROL, *PL2CAP_RETRANSMISSION_AND_FLOW_CONTROL;
-````
-
-
 ## -struct-fields
 
 

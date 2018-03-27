@@ -52,21 +52,6 @@ req.typenames: D3DDDICB_RECLAIMALLOCATIONS2
 <b>D3DDDICB_RECLAIMALLOCATIONS2</b> is used with <a href="https://msdn.microsoft.com/library/windows/hardware/dn903528">pfnReclaimAllocations2Cb</a> to describe video memory resources, previously offered for reuse by the driver,  that are to be reclaimed.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DDDICB_RECLAIMALLOCATIONS2 {
-  _In_ D3DKMT_HANDLE                             PagingQueue;
-  _In_ UINT                                      NumAllocations;
-  _In_reads_(NumAllocations) CONST HANDLE        *pResources;
-  _In_reads_(NumAllocations) CONST D3DKMT_HANDLE *HandleList;
-  _Out_writes_all_opt_(NumAllocations) BOOL      *pDiscarded;
-  _Out_ UINT64                                   PagingFenceValue;
-} D3DDDICB_RECLAIMALLOCATIONS2;
-````
-
-
 ## -struct-fields
 
 

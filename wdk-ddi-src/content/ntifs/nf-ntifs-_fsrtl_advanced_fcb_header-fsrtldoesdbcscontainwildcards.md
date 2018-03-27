@@ -52,16 +52,6 @@ req.typenames: TOKEN_TYPE
 The <b>FsRtlDoesDbcsContainWildCards</b> routine determines whether an ANSI or double-byte character set (DBCS) string contains wildcard characters. 
 
 
-## -syntax
-
-
-````
-BOOLEAN FsRtlDoesDbcsContainWildCards(
-  _In_ PANSI_STRING Name
-);
-````
-
-
 ## -parameters
 
 
@@ -94,10 +84,10 @@ For information about other string-handling routines, see <a href="https://msdn.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540605">ANSI_STRING</a>
-
-
-
  
 
  

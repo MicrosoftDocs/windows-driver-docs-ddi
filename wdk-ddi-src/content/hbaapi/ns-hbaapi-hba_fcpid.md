@@ -49,7 +49,7 @@ req.typenames: HBA_FCPID, *PHBA_FCPID
 ## -description
 
 
-The HBA_FcpId structure is identical to the <a href="..\hbapiwmi\ns-hbapiwmi-_hbafcpid.md">HBAFCPID</a> structure.
+The HBA_FcpId structure is identical to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556038">HBAFCPID</a> structure.
 
 
 ## -struct-fields

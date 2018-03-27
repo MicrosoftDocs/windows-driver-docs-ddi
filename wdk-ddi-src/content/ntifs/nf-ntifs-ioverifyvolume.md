@@ -52,17 +52,6 @@ req.typenames: TOKEN_TYPE
 The <b>IoVerifyVolume</b> routine sends a volume verify request to the given removable-media device. 
 
 
-## -syntax
-
-
-````
-NTSTATUS IoVerifyVolume(
-  _In_ PDEVICE_OBJECT DeviceObject,
-  _In_ BOOLEAN        AllowRawMount
-);
-````
-
-
 ## -parameters
 
 
@@ -135,7 +124,7 @@ Set to <b>TRUE</b> if this verify request is being issued on behalf of a DASD op
 
 If the verify operation fails, the I/O Manager sends a volume mount request to the device. 
 
-Before using <a href="..\ntifs\nf-ntifs-iosetdevicetoverify.md">IoSetDeviceToVerify</a> and <b>IoVerifyVolume</b>, driver writers are strongly encouraged to study the way these routines are used in the FASTFAT sample. 
+Before using <a href="https://msdn.microsoft.com/library/windows/hardware/ff548529">IoSetDeviceToVerify</a> and <b>IoVerifyVolume</b>, driver writers are strongly encouraged to study the way these routines are used in the FASTFAT sample. 
 
 For more information about removable-media devices, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563916">Supporting Removable Media</a>. 
 
@@ -144,14 +133,14 @@ For more information about removable-media devices, see <a href="https://msdn.mi
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-iogetdevicetoverify.md">IoGetDeviceToVerify</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-iosetdevicetoverify.md">IoSetDeviceToVerify</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549212">IoGetDeviceToVerify</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548529">IoSetDeviceToVerify</a>
  
 
  

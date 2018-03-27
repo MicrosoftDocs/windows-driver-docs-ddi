@@ -53,20 +53,6 @@ req.product: Windows 10 or later.
 This callback function handles IOCTLs outside of the class extension.
 
 
-## -prototype
-
-
-````
-NTSTATUS EvtSensorSetDataThresholds(
-  _In_ SENSOROBJECT Sensor,
-  _In_ WDFREQUEST   Request,
-  _In_ size_t       OutputBufferLength,
-  _In_ size_t       InputBufferLength,
-  _In_ ULONG        IoControlCode
-);
-````
-
-
 ## -parameters
 
 

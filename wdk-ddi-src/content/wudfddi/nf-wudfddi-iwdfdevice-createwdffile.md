@@ -26,7 +26,7 @@ req.max-support: Unavailable in UMDF 2.0 and later.
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: wudfddi.h
+req.lib: 
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
@@ -55,17 +55,6 @@ req.product: Windows 10 or later.
 The <b>CreateWdfFile</b> method creates a file object for a driver to use.
 
 
-## -syntax
-
-
-````
-HRESULT CreateWdfFile(
-  [in, optional] LPCWSTR               pcwszFileName,
-  [out]          IWDFDriverCreatedFile **ppFile
-);
-````
-
-
 ## -parameters
 
 
@@ -78,7 +67,7 @@ A pointer to a <b>NULL</b>-terminated string that contains the name of the file 
 
 ### -param ppFile [out]
 
-A pointer to a buffer that receives a pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfdrivercreatedfile.md">IWDFDriverCreatedFile</a> interface for the driver-created file object.
+A pointer to a buffer that receives a pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff558895">IWDFDriverCreatedFile</a> interface for the driver-created file object.
 
 
 ## -returns
@@ -103,14 +92,14 @@ For information about when a UMDF driver might use <b>CreateWdfFile</b> to preve
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
 
 
 
-<a href="..\wudfddi\nn-wudfddi-iwdfdrivercreatedfile.md">IWDFDriverCreatedFile</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556917">IWDFDevice</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558895">IWDFDriverCreatedFile</a>
  
 
  

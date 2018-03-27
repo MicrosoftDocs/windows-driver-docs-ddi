@@ -49,21 +49,7 @@ req.typenames: DXGK_PTE
 ## -description
 
 
-The <b>pfnUnlock2Cb</b> function unlocks an allocation that was locked by a call to the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_lock2cb.md">pfnLock2Cb</a> function.
-
-
-## -prototype
-
-
-````
-PFND3DDDI_UNLOCK2CB pfnUnlock2Cb;
-
-HRESULT APIENTRY CALLBACK* pfnUnlock2Cb(
-  _In_       HANDLE           hDevice,
-  _In_ const D3DDDICB_UNLOCK2 *pData
-)
-{ ... }
-````
+The <b>pfnUnlock2Cb</b> function unlocks an allocation that was locked by a call to the <a href="https://msdn.microsoft.com/C046F34A-4304-4B96-8D7A-7A951016437F">pfnLock2Cb</a> function.
 
 
 ## -parameters
@@ -87,7 +73,7 @@ A handle to the display device (graphics context).
 
 #### - pData [in]
 
-A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_unlock2.md">D3DDDICB_UNLOCK2</a> structure that describes the allocation to unlock.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn894603">D3DDDICB_UNLOCK2</a> structure that describes the allocation to unlock.
 
 
 ## -returns

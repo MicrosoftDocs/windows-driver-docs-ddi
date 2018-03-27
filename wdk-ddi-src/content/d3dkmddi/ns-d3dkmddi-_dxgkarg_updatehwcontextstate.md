@@ -52,19 +52,6 @@ req.typenames: DXGKARG_UPDATEHWCONTEXTSTATE
 Used to update the context state.
 
 
-## -syntax
-
-
-````
-typedef struct _DXGKARG_UPDATEHWCONTEXTSTATE {
-  HANDLE                          hHwContext;
-  UINT64                          ContextSwitchFence;
-  UINT                            Priority;
-  DXGK_UPDATEHWCONTEXTSTATE_FLAGS Flags;
-} DXGKARG_UPDATEHWCONTEXTSTATE;
-````
-
-
 ## -struct-fields
 
 

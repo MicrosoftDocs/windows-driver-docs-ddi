@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,17 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <code>OEMIcmDeleteColorTransform</code> function deletes the specified color transform.
-
-
-## -syntax
-
-
-````
-BOOL APIENTRY OEMIcmDeleteColorTransform(
-   DHPDEV dhpdev,
-   HANDLE hcmXform
-);
-````
 
 
 ## -parameters

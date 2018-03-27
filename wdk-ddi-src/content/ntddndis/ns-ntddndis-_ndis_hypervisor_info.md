@@ -57,18 +57,6 @@ req.typenames: NDIS_HYPERVISOR_INFO, *PNDIS_HYPERVISOR_INFO
   system.
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_HYPERVISOR_INFO {
-  NDIS_OBJECT_HEADER             Header;
-  ULONG                          Flags;
-  NDIS_HYPERVISOR_PARTITION_TYPE PartitionType;
-} NDIS_HYPERVISOR_INFO, *PNDIS_HYPERVISOR_INFO;
-````
-
-
 ## -struct-fields
 
 
@@ -76,7 +64,7 @@ typedef struct _NDIS_HYPERVISOR_INFO {
 
 ### -field Header
 
-The type, revision, and size of the <b>NDIS_HYPERVISOR_INFO</b> structure. This member is formatted as an <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure.
+The type, revision, and size of the <b>NDIS_HYPERVISOR_INFO</b> structure. This member is formatted as an <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure.
 
 The miniport driver must set the <b>Type</b> member of <b>Header</b> to NDIS_OBJECT_TYPE_DEFAULT. To specify the version of the <b>NDIS_HYPERVISOR_INFO</b> structure, the driver must set the <b>Revision</b> member of <b>Header</b> to the following value: 
 
@@ -108,7 +96,7 @@ Specifies that a hypervisor is present on the system.
 ### -field PartitionType
 
 An 
-     <a href="..\ntddndis\ne-ntddndis-_ndis_hypervisor_partition_type.md">
+     <a href="https://msdn.microsoft.com/830460f8-4cd6-4a52-ac32-004dc4a204e3">
      NDIS_HYPERVISOR_PARTITION_TYPE</a> enumeration value that specifies the partition type that is running
      on the hypervisor.
 
@@ -118,7 +106,7 @@ An
 
 
 The <b>NDIS_HYPERVISOR_INFO</b> structure specifies the hypervisor information that is returned by the 
-    <a href="..\ndis\nf-ndis-ndisgethypervisorinfo.md">NdisGetHypervisorInfo</a> function.
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff562635">NdisGetHypervisorInfo</a> function.
 
 NDIS drivers pass this structure to the 
     <b>NdisGetHypervisorInfo</b> function.
@@ -128,18 +116,18 @@ NDIS drivers pass this structure to the
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisgethypervisorinfo.md">NdisGetHypervisorInfo Function</a>
 
 
 
-<a href="..\ntddndis\ne-ntddndis-_ndis_hypervisor_partition_type.md">NDIS_HYPERVISOR_PARTITION_TYPE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565709">NDIS_HYPERVISOR_PARTITION_TYPE</a>
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
 
 
 
+<a href="https://msdn.microsoft.com/5469c6aa-90df-4379-b670-23aaa6919055">NdisGetHypervisorInfo Function</a>
  
 
  

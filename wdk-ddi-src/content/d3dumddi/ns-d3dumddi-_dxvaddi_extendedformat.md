@@ -52,27 +52,6 @@ req.typenames: DXVADDI_EXTENDEDFORMAT
 The DXVADDI_EXTENDEDFORMAT structure describes the extended format of the video frame. 
 
 
-## -syntax
-
-
-````
-typedef struct _DXVADDI_EXTENDEDFORMAT {
-  union {
-    struct {
-      UINT SampleFormat  :8;
-      UINT VideoChromaSubsampling  :4;
-      UINT NominalRange  :3;
-      UINT VideoTransferMatrix  :3;
-      UINT VideoLighting  :4;
-      UINT VideoPrimaries  :5;
-      UINT VideoTransferFunction  :5;
-    };
-    UINT   Value;
-  };
-} DXVADDI_EXTENDEDFORMAT;
-````
-
-
 ## -struct-fields
 
 
@@ -80,37 +59,37 @@ typedef struct _DXVADDI_EXTENDEDFORMAT {
 
 ### -field SampleFormat
 
-[in] A UINT value that specifies how a video frame is sampled. The eight bits are defined by one of the values in the <a href="..\d3dumddi\ne-d3dumddi-_dxvaddi_sampleformat.md">DXVADDI_SAMPLEFORMAT</a> enumeration type.
+[in] A UINT value that specifies how a video frame is sampled. The eight bits are defined by one of the values in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562937">DXVADDI_SAMPLEFORMAT</a> enumeration type.
 
 
 ### -field VideoChromaSubsampling
 
-[in] The chroma encoding scheme for Y'Cb'Cr' data. The four bits are defined by a bitwise OR of the values in the <a href="..\d3dumddi\ne-d3dumddi-_dxvaddi_videochromasubsampling.md">DXVADDI_VIDEOCHROMASUBSAMPLING</a> enumeration type. 
+[in] The chroma encoding scheme for Y'Cb'Cr' data. The four bits are defined by a bitwise OR of the values in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562943">DXVADDI_VIDEOCHROMASUBSAMPLING</a> enumeration type. 
 
 
 ### -field NominalRange
 
-[in] A UINT value that specifies whether sample data includes headroom (that is, values beyond 1.0 white) and toeroom (that is, superblacks below the reference 0.0 black). The three bits are defined by one of the values in the <a href="..\d3dumddi\ne-d3dumddi-_dxvaddi_nominalrange.md">DXVADDI_NOMINALRANGE</a> enumeration type. 
+[in] A UINT value that specifies whether sample data includes headroom (that is, values beyond 1.0 white) and toeroom (that is, superblacks below the reference 0.0 black). The three bits are defined by one of the values in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562912">DXVADDI_NOMINALRANGE</a> enumeration type. 
 
 
 ### -field VideoTransferMatrix
 
-[in] The conversion matrix from Y'Cb'Cr' to (studio) R'G'B'. The three bits are defined by one of the values in the <a href="..\d3dumddi\ne-d3dumddi-_dxvaddi_videotransfermatrix.md">DXVADDI_VIDEOTRANSFERMATRIX</a> enumeration type. 
+[in] The conversion matrix from Y'Cb'Cr' to (studio) R'G'B'. The three bits are defined by one of the values in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562970">DXVADDI_VIDEOTRANSFERMATRIX</a> enumeration type. 
 
 
 ### -field VideoLighting
 
-[in] Lighting conditions for viewing video. The four bits are defined by one of the values in the <a href="..\d3dumddi\ne-d3dumddi-_dxvaddi_videolighting.md">DXVADDI_VIDEOLIGHTING</a> enumeration type. 
+[in] Lighting conditions for viewing video. The four bits are defined by one of the values in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562947">DXVADDI_VIDEOLIGHTING</a> enumeration type. 
 
 
 ### -field VideoPrimaries
 
-[in] Color primaries, which state which RGB basis functions are used. The five bits are defined by one of the values in the <a href="..\d3dumddi\ne-d3dumddi-_dxvaddi_videoprimaries.md">DXVADDI_VIDEOPRIMARIES</a> enumeration type. 
+[in] Color primaries, which state which RGB basis functions are used. The five bits are defined by one of the values in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562951">DXVADDI_VIDEOPRIMARIES</a> enumeration type. 
 
 
 ### -field VideoTransferFunction
 
-[in] The conversion function from R'G'B' to RGB. The five bits are defined by the <a href="..\d3dumddi\ne-d3dumddi-_dxvaddi_videotransferfunction.md">DXVADDI_VIDEOTRANSFERFUNCTION</a> enumeration type. 
+[in] The conversion function from R'G'B' to RGB. The five bits are defined by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562962">DXVADDI_VIDEOTRANSFERFUNCTION</a> enumeration type. 
 
 
 #### - Value
@@ -120,10 +99,10 @@ A 32-bit value that describes the extended format of the video frame.
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_videodesc.md">DXVADDI_VIDEODESC</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562944">DXVADDI_VIDEODESC</a>
  
 
  

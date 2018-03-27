@@ -53,18 +53,6 @@ req.product: Windows 10 or later.
 The WDI_IHV_TASK_PRIORITY enumeration defines IHV task priorities.
 
 
-## -syntax
-
-
-````
-typedef enum _WDI_IHV_TASK_PRIORITY { 
-  WDI_IHV_TASK_PRIORITY_HIGH    = 1,
-  WDI_IHV_TASK_PRIORITY_MEDIUM  = 2,
-  WDI_IHV_TASK_PRIORITY_LOW     = 3
-} WDI_IHV_TASK_PRIORITY;
-````
-
-
 ## -enum-fields
 
 

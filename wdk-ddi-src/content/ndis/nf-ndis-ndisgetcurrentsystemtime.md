@@ -55,16 +55,6 @@ The
   timestamps.
 
 
-## -syntax
-
-
-````
-VOID NdisGetCurrentSystemTime(
-  [in] PLARGE_INTEGER pSystemTime
-);
-````
-
-
 ## -parameters
 
 
@@ -85,7 +75,7 @@ An NDIS driver might also call
     particular interval to tune its performance dynamically. For example, a miniport driver could call 
     <b>NdisGetCurrentSystemTime</b> for each receive interrupt to determine periods of high network traffic,
     when the driver might disable one or more types of interrupts on the NIC and enable a polling 
-    <a href="..\ndis\nc-ndis-ndis_timer_function.md">NetTimerCallback</a> function to process
+    <a href="https://msdn.microsoft.com/76e59376-58a4-4e35-bac4-ec5938c88cd7">NetTimerCallback</a> function to process
     receive indications or send requests.
 
 
@@ -93,10 +83,10 @@ An NDIS driver might also call
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-ndis_timer_function.md">NetTimerCallback</a>
 
 
 
+<a href="https://msdn.microsoft.com/76e59376-58a4-4e35-bac4-ec5938c88cd7">NetTimerCallback</a>
  
 
  

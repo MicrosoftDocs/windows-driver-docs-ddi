@@ -55,18 +55,6 @@ The
   asynchronous classification operations and requests for writable layer data.
 <div class="alert"><b>Note</b>  <b>FwpsAcquireClassifyHandle0</b> is a specific version of <b>FwpsAcquireClassifyHandle</b>. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
 
-## -syntax
-
-
-````
-NTSTATUS NTAPI FwpsAcquireClassifyHandle0(
-  _In_  void   *classifyContext,
-  _In_  UINT32 flags,
-  _Out_ UINT64 *classifyHandle
-);
-````
-
-
 ## -parameters
 
 
@@ -76,7 +64,7 @@ NTSTATUS NTAPI FwpsAcquireClassifyHandle0(
 
 The 
      <i>classifyContext</i> parameter from 
-     <a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn1.md">classifyFn1</a>. The WFP engine passes this
+     <a href="https://msdn.microsoft.com/128fd929-6e83-46a0-9475-e459ede58f30">classifyFn1</a>. The WFP engine passes this
      value to the callout driver's 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a>.
 
@@ -144,39 +132,39 @@ An error occurred.
 <ul>
 <li>
 
-<a href="..\fwpsk\nf-fwpsk-fwpspendclassify0.md">FwpsPendClassify0</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551197">FwpsPendClassify0</a>
 
 
 </li>
 <li>
 
-<a href="..\fwpsk\nf-fwpsk-fwpsacquirewritablelayerdatapointer0.md">
+<a href="https://msdn.microsoft.com/79816d01-bf27-49d0-b6f1-083b7e87cc4e">
        FwpsAcquireWritableLayerDataPointer0</a>
 
 
 </li>
 <li>
 
-<a href="..\fwpsk\nf-fwpsk-fwpsapplymodifiedlayerdata0.md">
+<a href="https://msdn.microsoft.com/d32c19b6-462e-48e3-b22b-02542dca9cc4">
        FwpsApplyModifiedLayerData0</a>
 
 
 </li>
 <li>
 
-<a href="..\fwpsk\nf-fwpsk-fwpscompleteclassify0.md">FwpsCompleteClassify0</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551150">FwpsCompleteClassify0</a>
 
 
 </li>
 <li>
 
-<a href="..\fwpsk\nf-fwpsk-fwpsreleaseclassifyhandle0.md">FwpsReleaseClassifyHandle0</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551208">FwpsReleaseClassifyHandle0</a>
 
 
 </li>
 </ul>
 For each call to this function, the callout driver must call 
-    <a href="..\fwpsk\nf-fwpsk-fwpsreleaseclassifyhandle0.md">FwpsReleaseClassifyHandle0</a> to
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff551208">FwpsReleaseClassifyHandle0</a> to
     free the system resources associated with the handle.
 
 
@@ -184,11 +172,18 @@ For each call to this function, the callout driver must call
 
 ## -see-also
 
-<a href="..\fwpsk\nf-fwpsk-fwpsreleaseclassifyhandle0.md">FwpsReleaseClassifyHandle0</a>
 
 
 
-<a href="..\fwpsk\nf-fwpsk-fwpscompleteclassify0.md">FwpsCompleteClassify0</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551150">FwpsCompleteClassify0</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551197">FwpsPendClassify0</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551208">FwpsReleaseClassifyHandle0</a>
 
 
 
@@ -196,14 +191,7 @@ For each call to this function, the callout driver must call
 
 
 
-<a href="..\fwpsk\nf-fwpsk-fwpspendclassify0.md">FwpsPendClassify0</a>
-
-
-
-<a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn1.md">classifyFn1</a>
-
-
-
+<a href="https://msdn.microsoft.com/128fd929-6e83-46a0-9475-e459ede58f30">classifyFn1</a>
  
 
  

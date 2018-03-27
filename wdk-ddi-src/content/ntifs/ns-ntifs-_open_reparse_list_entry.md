@@ -53,21 +53,6 @@ This structure supports callers opening specific reparse points without
 inhibiting reparse behavior for all classes of reparse points.
 
 
-## -syntax
-
-
-````
-typedef struct _OPEN_REPARSE_LIST_ENTRY  {
-  LIST_ENTRY OpenReparseListEntry;
-  ULONG      ReparseTag;
-  ULONG      Flags;
-  GUID       ReparseGuid;
-  USHORT     Size;
-  USHORT     RemainingLength;
-} OPEN_REPARSE_LIST_ENTRY , *POPEN_REPARSE_LIST_ENTRY ;
-````
-
-
 ## -struct-fields
 
 
@@ -180,7 +165,7 @@ The unprocessed path length when the reparse point was
 
 This structure lets callers open specific reparse points without
   inhibiting reparse behavior for all classes of reparse points.
-<a href="..\ntifs\ns-ntifs-_open_reparse_list.md">OPEN_REPARSE_LIST</a> is a structure used in an ECP with <b>ECP_TYPE_OPEN_REPARSE_GUID</b> (<code>323eb6a8-affd-4d95-8230-863bce09d37a</code>). The <b>OPEN_REPARSE_LIST</b> points to a list of <b>OPEN_REPARSE_LIST_ENTRY</b>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt734264">OPEN_REPARSE_LIST</a> is a structure used in an ECP with <b>ECP_TYPE_OPEN_REPARSE_GUID</b> (<code>323eb6a8-affd-4d95-8230-863bce09d37a</code>). The <b>OPEN_REPARSE_LIST</b> points to a list of <b>OPEN_REPARSE_LIST_ENTRY</b>
 structures specifying the tag and possibly GUID that should be
   opened directly without returning <b>STATUS_REPARSE</b>.
 If a match is found, the corresponding <b>OPEN_REPARSE_LIST_ENTRY</b>  structure will have the <b>OPEN_REPARSE_POINT_TAG_ENCOUNTERED</b> flag set to indicate that the object that was opened matched the given criteria. If a match is found for a directory that is not the final path  component and <b>STATUS_REPARSE</b> is returned, the unprocessed path

@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: ndis.h
+req.lib: 
 req.dll: 
 req.irql: Any level
 topic_type:
@@ -54,17 +54,6 @@ The
   to a LARGE_INTEGER addend value.
 
 
-## -syntax
-
-
-````
-VOID NdisInterlockedAddLargeStatistic(
-  [in] PLARGE_INTEGER Addend,
-  [in] ULONG          Increment
-);
-````
-
-
 ## -parameters
 
 
@@ -90,7 +79,7 @@ Functions that perform interlocked operations must not cause a page fault to occ
     nor any of the data that they access can cause a page fault without bringing down the local computer.
 
 <b>NdisInterlockedAddLargeStatistic</b> masks interrupts and can be safely used to synchronize a driver's 
-    <a href="..\ndis\nc-ndis-miniport_isr.md">MiniportInterrupt</a> function with other
+    <a href="https://msdn.microsoft.com/810503b9-75cd-4b38-ab1f-de240968ded6">MiniportInterrupt</a> function with other
     driver code.
 
 
@@ -98,10 +87,10 @@ Functions that perform interlocked operations must not cause a page fault to occ
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-miniport_isr.md">MiniportInterrupt</a>
 
 
 
+<a href="https://msdn.microsoft.com/810503b9-75cd-4b38-ab1f-de240968ded6">MiniportInterrupt</a>
  
 
  

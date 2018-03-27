@@ -53,20 +53,6 @@ The <b>NDIS_PM_PROTOCOL_OFFLOAD_TYPE</b> enumeration identifies the type of a pr
   network adapter power management.
 
 
-## -syntax
-
-
-````
-typedef enum _NDIS_PM_PROTOCOL_OFFLOAD_TYPE { 
-  NdisPMProtocolOffloadIdUnspecified,
-  NdisPMProtocolOffloadIdIPv4ARP,
-  NdisPMProtocolOffloadIdIPv6NS,
-  NdisPMProtocolOffload80211RSNRekey,
-  NdisPMProtocolOffloadIdMaximum
-} NDIS_PM_PROTOCOL_OFFLOAD_TYPE, *PNDIS_PM_PROTOCOL_OFFLOAD_TYPE;
-````
-
-
 ## -enum-fields
 
 
@@ -81,7 +67,7 @@ The offloaded protocol is not specified.
 
 An IPv4 ARP protocol offload. The parameters for this protocol offload type are specified in the 
      <b>IPv4ARPParameters</b> member of the 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_pm_protocol_offload.md">
+     <a href="https://msdn.microsoft.com/1ae68e5c-f9ea-4454-b015-82e3af0f7ccd">
      NDIS_PM_PROTOCOL_OFFLOAD</a> structure.
 
 
@@ -89,14 +75,14 @@ An IPv4 ARP protocol offload. The parameters for this protocol offload type are 
 
 An IPv6 Neighbor Solicitation (NS) protocol offload. The parameters for this protocol offload type
      are specified in the 
-     <b>IPv6NSParameters</b> member of the <a href="..\ntddndis\ns-ntddndis-_ndis_pm_protocol_offload.md">NDIS_PM_PROTOCOL_OFFLOAD</a> structure.
+     <b>IPv6NSParameters</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566760">NDIS_PM_PROTOCOL_OFFLOAD</a> structure.
 
 
 ### -field NdisPMProtocolOffload80211RSNRekey
 
 An IEEE 802.11i Robust Security Network (RSN) 4-way and 2-way handshake protocol offload. This
      protocol offload type is specified in the 
-     <b>Dot11RSNRekeyParameters</b> member of the <a href="..\ntddndis\ns-ntddndis-_ndis_pm_protocol_offload.md">NDIS_PM_PROTOCOL_OFFLOAD</a> structure.
+     <b>Dot11RSNRekeyParameters</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566760">NDIS_PM_PROTOCOL_OFFLOAD</a> structure.
 
 
 ### -field NdisPMProtocolOffloadIdMaximum
@@ -111,7 +97,7 @@ The maximum value for this enumeration. This value might change in future versio
 
 The <b>NDIS_PM_PROTOCOL_OFFLOAD_TYPE</b> enumeration is used in the 
     <b>ProtocolOffloadType</b> member of the 
-    <a href="..\ntddndis\ns-ntddndis-_ndis_pm_protocol_offload.md">
+    <a href="https://msdn.microsoft.com/1ae68e5c-f9ea-4454-b015-82e3af0f7ccd">
     NDIS_PM_PROTOCOL_OFFLOAD</a> structure.
 
 
@@ -119,10 +105,10 @@ The <b>NDIS_PM_PROTOCOL_OFFLOAD_TYPE</b> enumeration is used in the
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_pm_protocol_offload.md">NDIS_PM_PROTOCOL_OFFLOAD</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566760">NDIS_PM_PROTOCOL_OFFLOAD</a>
  
 
  

@@ -53,19 +53,6 @@ req.typenames:
                  Gives information about the frame processing step being used by the driver.
 
 
-## -syntax
-
-
-````
-typedef struct IDDCX_FRAME_STATISTICS_STE {
-  UINT                             Size;
-  IDDCX_FRAME_STATISTICS_STEP_TYPE Type;
-  UINT64                           QpcTime;
-  UINT32                           Data;
-} IDDCX_FRAME_STATISTICS_STEP, *IDDCX_FRAME_STATISTICS_STEP;
-````
-
-
 ## -struct-fields
 
 

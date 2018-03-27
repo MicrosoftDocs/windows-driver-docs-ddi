@@ -56,16 +56,6 @@ req.product: Windows 10 or later.
 The <b>WdfFdoGetDefaultChildList</b> method returns a handle to a specified device's default child list.
 
 
-## -syntax
-
-
-````
-WDFCHILDLIST WdfFdoGetDefaultChildList(
-  _In_ WDFDEVICE Fdo
-);
-````
-
-
 ## -parameters
 
 
@@ -91,7 +81,7 @@ A system bug check occurs if the driver supplies an invalid object handle.
 
 
 
-Before calling <b>WdfFdoGetDefaultChildList</b>, your driver must call <a href="..\wdffdo\nf-wdffdo-wdffdoinitsetdefaultchildlistconfig.md">WdfFdoInitSetDefaultChildListConfig</a> to configure the default child list. Otherwise, <b>WdfFdoGetDefaultChildList</b> returns <b>NULL</b>.
+Before calling <b>WdfFdoGetDefaultChildList</b>, your driver must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff547258">WdfFdoInitSetDefaultChildListConfig</a> to configure the default child list. Otherwise, <b>WdfFdoGetDefaultChildList</b> returns <b>NULL</b>.
 
 For more information about child lists, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/dynamic-enumeration">Dynamic Enumeration</a>.
 
@@ -117,10 +107,10 @@ list = WdfFdoGetDefaultChildList(Device);</pre>
 
 ## -see-also
 
-<a href="..\wdffdo\nf-wdffdo-wdffdoinitsetdefaultchildlistconfig.md">WdfFdoInitSetDefaultChildListConfig</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547258">WdfFdoInitSetDefaultChildListConfig</a>
  
 
  

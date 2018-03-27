@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -52,16 +52,6 @@ req.typenames:
 
                         Initializes the IDD_CX_CLIENT_CONFIG structure.
                 
-
-
-## -syntax
-
-
-````
-VOID IDD_CX_CLIENT_CONFIG_INIT(
-  _Out_ IDD_CX_CLIENT_CONFIG *Config
-);
-````
 
 
 ## -parameters

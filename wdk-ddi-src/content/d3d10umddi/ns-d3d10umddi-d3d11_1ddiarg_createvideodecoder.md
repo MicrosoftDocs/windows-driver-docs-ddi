@@ -52,17 +52,6 @@ req.typenames: D3D11_1DDIARG_CREATEVIDEODECODER
 Specifies the attributes of a video decoder object.
 
 
-## -syntax
-
-
-````
-typedef struct D3D11_1DDIARG_CREATEVIDEODECODER {
-  D3D11_1DDI_VIDEO_DECODER_DESC   Desc;
-  D3D11_1DDI_VIDEO_DECODER_CONFIG Config;
-} D3D11_1DDIARG_CREATEVIDEODECODER;
-````
-
-
 ## -struct-fields
 
 
@@ -70,24 +59,24 @@ typedef struct D3D11_1DDIARG_CREATEVIDEODECODER {
 
 ### -field Desc
 
-A <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_video_decoder_desc.md">D3D11_1DDI_VIDEO_DECODER_DESC</a> structure that describes the video stream and the decoder profile.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/hh450951">D3D11_1DDI_VIDEO_DECODER_DESC</a> structure that describes the video stream and the decoder profile.
 
 
 ### -field Config
 
-A <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_video_decoder_config.md">D3D11_1DDI_VIDEO_DECODER_CONFIG</a> structure that specifies the decoder configuration.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/hh450947">D3D11_1DDI_VIDEO_DECODER_CONFIG</a> structure that specifies the decoder configuration.
 
 
 ## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_video_decoder_config.md">D3D11_1DDI_VIDEO_DECODER_CONFIG</a>
 
 
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_video_decoder_desc.md">D3D11_1DDI_VIDEO_DECODER_DESC</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450947">D3D11_1DDI_VIDEO_DECODER_CONFIG</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450951">D3D11_1DDI_VIDEO_DECODER_DESC</a>
  
 
  

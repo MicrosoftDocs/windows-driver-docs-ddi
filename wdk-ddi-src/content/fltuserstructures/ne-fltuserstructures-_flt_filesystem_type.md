@@ -52,45 +52,6 @@ req.typenames: FLT_FILESYSTEM_TYPE, *PFLT_FILESYSTEM_TYPE
 The <b>FLT_FILESYSTEM_TYPE</b> enumeration identifies the type of file system being used on a volume. 
 
 
-## -syntax
-
-
-````
-typedef enum _FLT_FILESYSTEM_TYPE { 
-  FLT_FSTYPE_UNKNOWN,
-  FLT_FSTYPE_RAW,
-  FLT_FSTYPE_NTFS,
-  FLT_FSTYPE_FAT,
-  FLT_FSTYPE_CDFS,
-  FLT_FSTYPE_UDFS,
-  FLT_FSTYPE_LANMAN,
-  FLT_FSTYPE_WEBDAV,
-  FLT_FSTYPE_RDPDR,
-  FLT_FSTYPE_NFS,
-  FLT_FSTYPE_MS_NETWARE,
-  FLT_FSTYPE_NETWARE,
-  FLT_FSTYPE_BSUDF,
-  FLT_FSTYPE_MUP,
-  FLT_FSTYPE_RSFX,
-  FLT_FSTYPE_ROXIO_UDF1,
-  FLT_FSTYPE_ROXIO_UDF2,
-  FLT_FSTYPE_ROXIO_UDF3,
-  FLT_FSTYPE_TACIT,
-  FLT_FSTYPE_FS_REC,
-  FLT_FSTYPE_INCD,
-  FLT_FSTYPE_INCD_FAT,
-  FLT_FSTYPE_EXFAT,
-  FLT_FSTYPE_PSFS,
-  FLT_FSTYPE_GPFS,
-  FLT_FSTYPE_NPFS,
-  FLT_FSTYPE_MSFS,
-  FLT_FSTYPE_CSVFS,
-  FLT_FSTYPE_REFS,
-  FLT_FSTYPE_OPENAFS
-} FLT_FILESYSTEM_TYPE, *PFLT_FILESYSTEM_TYPE;
-````
-
-
 ## -enum-fields
 
 
@@ -257,22 +218,22 @@ New file systems that are not part of the <b>FLT_FILESYSTEM_TYPE</b> enumeration
 
 ## -see-also
 
-<a href="..\fltuserstructures\ns-fltuserstructures-_instance_aggregate_standard_information.md">INSTANCE_AGGREGATE_STANDARD_INFORMATION</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltgetfilesystemtype.md">FltGetFileSystemType</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541647">FILTER_VOLUME_STANDARD_INFORMATION</a>
 
 
 
-<a href="..\fltuserstructures\ns-fltuserstructures-_filter_volume_standard_information.md">FILTER_VOLUME_STANDARD_INFORMATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543045">FltGetFileSystemType</a>
 
 
 
-<a href="..\fltkernel\nc-fltkernel-pflt_instance_setup_callback.md">PFLT_INSTANCE_SETUP_CALLBACK</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548172">INSTANCE_AGGREGATE_STANDARD_INFORMATION</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551096">PFLT_INSTANCE_SETUP_CALLBACK</a>
  
 
  

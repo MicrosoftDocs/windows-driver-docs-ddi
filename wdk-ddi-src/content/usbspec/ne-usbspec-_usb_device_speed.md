@@ -53,19 +53,6 @@ req.product: Windows 10 or later.
 The <b>USB_DEVICE_SPEED</b> enumeration defines constants for USB device speeds. 
 
 
-## -syntax
-
-
-````
-typedef enum  { 
-  UsbLowSpeed     = 0,
-  UsbFullSpeed  ,
-  UsbHighSpeed  ,
-  UsbSuperSpeed
-} USB_DEVICE_SPEED;
-````
-
-
 ## -enum-fields
 
 
@@ -97,10 +84,10 @@ Indicates a SuperSpeed USB 3.0-compliant device.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539322">USB Constants and Enumerations</a>
-
-
-
  
 
  

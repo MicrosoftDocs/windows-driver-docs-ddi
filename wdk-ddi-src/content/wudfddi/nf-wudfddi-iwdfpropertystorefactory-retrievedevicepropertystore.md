@@ -26,7 +26,7 @@ req.max-support: Unavailable in UMDF 2.0 and later.
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: wudfddi.h
+req.lib: 
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
@@ -55,21 +55,6 @@ req.product: Windows 10 or later.
 The <a href="https://msdn.microsoft.com/be47a1f0-03ff-432c-a3ef-5978c9b48183">RetrieveDevicePropertyStore</a> method retrieves a property store interface that drivers can use to access the registry.
 
 
-## -syntax
-
-
-````
-HRESULT RetrieveDevicePropertyStore(
-  [in]  PWDF_PROPERTY_STORE_ROOT          RootSpecifier,
-  [in]  WDF_PROPERTY_STORE_RETRIEVE_FLAGS Flags,
-  [in]  REGSAM                            DesiredAccess,
-  [in]  PCWSTR                            SubkeyPath,
-  [out] IWDFNamedPropertyStore2           **PropertyStore,
-  [out] WDF_PROPERTY_STORE_DISPOSITION    *Disposition
-);
-````
-
-
 ## -parameters
 
 
@@ -77,12 +62,12 @@ HRESULT RetrieveDevicePropertyStore(
 
 ### -param RootSpecifier [in]
 
-The address of a driver-allocated <a href="..\wudfddi_types\ns-wudfddi_types-_wdf_property_store_root.md">WDF_PROPERTY_STORE_ROOT</a> structure. The driver fills in this structure to identify the property store that <a href="https://msdn.microsoft.com/be47a1f0-03ff-432c-a3ef-5978c9b48183">RetrieveDevicePropertyStore</a> retrieves.
+The address of a driver-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/ff561453">WDF_PROPERTY_STORE_ROOT</a> structure. The driver fills in this structure to identify the property store that <a href="https://msdn.microsoft.com/be47a1f0-03ff-432c-a3ef-5978c9b48183">RetrieveDevicePropertyStore</a> retrieves.
 
 
 ### -param Flags [in]
 
-A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_property_store_retrieve_flags.md">WDF_PROPERTY_STORE_RETRIEVE_FLAGS</a>-typed flag that specifies whether UMDF should create a specified registry entry if it does not exist, and whether the new entry should be deleted when Windows restarts.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff561449">WDF_PROPERTY_STORE_RETRIEVE_FLAGS</a>-typed flag that specifies whether UMDF should create a specified registry entry if it does not exist, and whether the new entry should be deleted when Windows restarts.
 
 
 ### -param DesiredAccess [in]
@@ -97,12 +82,12 @@ A pointer to a caller-supplied character string that represents the name of a su
 
 ### -param PropertyStore [out]
 
-The address of a location that receives a pointer to an <a href="..\wudfddi\nn-wudfddi-iwdfnamedpropertystore2.md">IWDFNamedPropertyStore2</a> interface. The driver uses this interface to access values in the registry.
+The address of a location that receives a pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff560168">IWDFNamedPropertyStore2</a> interface. The driver uses this interface to access values in the registry.
 
 
 ### -param Disposition [out]
 
-The address of a location that receives a <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_property_store_disposition.md">WDF_PROPERTY_STORE_DISPOSITION</a>-typed value. 
+The address of a location that receives a <a href="https://msdn.microsoft.com/library/windows/hardware/ff561440">WDF_PROPERTY_STORE_DISPOSITION</a>-typed value. 
 
 
 ## -returns
@@ -236,6 +221,9 @@ Exit:
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558842">IWDFDevice::RetrieveDevicePropertyStore</a>
 
 
@@ -244,10 +232,7 @@ Exit:
 
 
 
-<a href="..\wudfddi\nn-wudfddi-iwdfpropertystorefactory.md">IWDFPropertyStoreFactory</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560223">IWDFPropertyStoreFactory</a>
  
 
  

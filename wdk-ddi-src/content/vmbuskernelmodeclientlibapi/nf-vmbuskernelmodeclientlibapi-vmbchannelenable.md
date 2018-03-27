@@ -58,17 +58,6 @@ offering or opening a channel, as  appropriate for the endpoint type.
 
 
 
-## -syntax
-
-
-````
-NTSTATUS
- VmbChannelEnable(
-  _In_ VMBCHANNEL Channel
-);
-````
-
-
 ## -parameters
 
 

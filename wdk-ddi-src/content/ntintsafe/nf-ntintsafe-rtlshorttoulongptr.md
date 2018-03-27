@@ -7,7 +7,7 @@ old-location: kernel\rtlshorttoulongptr.htm
 old-project: kernel
 ms.assetid: 0C279063-D5B1-4C82-8C0A-2B39E831BFB3
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/1/2018
 ms.keywords: RtlShortToULongPtr, RtlShortToULongPtr function [Kernel-Mode Driver Architecture], kernel.rtlshorttoulongptr, ntintsafe/RtlShortToULongPtr
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -50,17 +50,6 @@ req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
 
 
 Converts a value of type <b>SHORT</b> to a value of type <b>ULONG_PTR</b>.
-
-
-## -syntax
-
-
-````
-NTSTATUS RtlShortToULongPtr(
-  _In_  SHORT     sOperand,
-  _Out_ ULONG_PTR *pulResult
-);
-````
 
 
 ## -parameters

@@ -52,20 +52,6 @@ req.typenames: DXGK_PTE
 The <i>SetVertexShaderFunc</i> function sets the vertex shader code so that all of the subsequent drawing operations use that code.
 
 
-## -prototype
-
-
-````
-PFND3DDDI_SETVERTEXSHADERFUNC SetVertexShaderFunc;
-
-__checkReturn HRESULT APIENTRY SetVertexShaderFunc(
-  _In_ HANDLE hDevice,
-  _In_ HANDLE hShaderHandle
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -76,7 +62,7 @@ __checkReturn HRESULT APIENTRY SetVertexShaderFunc(
  A handle to the display device (graphics context).
 
 
-### -param HANDLE
+### -param Arg1
 
 
 
@@ -112,10 +98,10 @@ For user-mode display drivers that support vertex shaders before version 2.0, th
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544519">D3DDDI_DEVICEFUNCS</a>
  
 
  

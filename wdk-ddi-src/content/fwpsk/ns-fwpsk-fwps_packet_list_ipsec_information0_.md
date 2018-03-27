@@ -53,20 +53,6 @@ The <b>FWPS_PACKET_LIST_IPSEC_INFORMATION0</b> structure defines IPsec informati
   list.
 <div class="alert"><b>Note</b>  <b>FWPS_PACKET_LIST_IPSEC_INFORMATION0</b> is a specific version of <b>FWPS_PACKET_LIST_IPSEC_INFORMATION</b>. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
 
-## -syntax
-
-
-````
-typedef struct FWPS_PACKET_LIST_IPSEC_INFORMATION0_ {
-  union {
-    FWPS_PACKET_LIST_INBOUND_IPSEC_INFORMATION0  inbound;
-    FWPS_PACKET_LIST_OUTBOUND_IPSEC_INFORMATION0 outbound;
-    UINT32                                       flags;
-  };
-} FWPS_PACKET_LIST_IPSEC_INFORMATION0;
-````
-
-
 ## -struct-fields
 
 
@@ -83,14 +69,14 @@ A value that contains a generic representation of the IPsec information associat
 #### - inbound
 
 An 
-      <a href="..\fwpsk\ns-fwpsk-fwps_packet_list_inbound_ipsec_information0_.md">FWPS_PACKET_LIST_INBOUND_IPSEC_INFORMATION0</a> structure that contains IPsec information associated
+      <a href="https://msdn.microsoft.com/library/windows/hardware/ff552411">FWPS_PACKET_LIST_INBOUND_IPSEC_INFORMATION0</a> structure that contains IPsec information associated
       with inbound packet data.
 
 
 #### - outbound
 
 An 
-      <a href="..\fwpsk\ns-fwpsk-fwps_packet_list_outbound_ipsec_information0_.md">FWPS_PACKET_LIST_OUTBOUND_IPSEC_INFORMATION0</a> structure that contains IPsec information associated
+      <a href="https://msdn.microsoft.com/library/windows/hardware/ff552415">FWPS_PACKET_LIST_OUTBOUND_IPSEC_INFORMATION0</a> structure that contains IPsec information associated
       with outbound packet data.
 
 
@@ -99,7 +85,7 @@ An
 
 
 A FWPS_PACKET_LIST_IPSEC_INFORMATION0 structure is included as a member of the 
-    <a href="..\fwpsk\ns-fwpsk-fwps_packet_list_information0_.md">
+    <a href="https://msdn.microsoft.com/1fc6ffb1-c6e9-4bca-9d10-541708fe0086">
     FWPS_PACKET_LIST_INFORMATION0</a> structure.
 
 
@@ -107,20 +93,20 @@ A FWPS_PACKET_LIST_IPSEC_INFORMATION0 structure is included as a member of the
 
 ## -see-also
 
-<a href="..\fwpsk\ns-fwpsk-fwps_packet_list_outbound_ipsec_information0_.md">
-   FWPS_PACKET_LIST_OUTBOUND_IPSEC_INFORMATION0</a>
 
 
 
-<a href="..\fwpsk\ns-fwpsk-fwps_packet_list_information0_.md">FWPS_PACKET_LIST_INFORMATION0</a>
-
-
-
-<a href="..\fwpsk\ns-fwpsk-fwps_packet_list_inbound_ipsec_information0_.md">
+<a href="https://msdn.microsoft.com/ac5994a7-411c-47f2-ba1d-2d49c727de8d">
    FWPS_PACKET_LIST_INBOUND_IPSEC_INFORMATION0</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552412">FWPS_PACKET_LIST_INFORMATION0</a>
+
+
+
+<a href="https://msdn.microsoft.com/18312157-f41c-474d-9cf4-446d8b189c4d">
+   FWPS_PACKET_LIST_OUTBOUND_IPSEC_INFORMATION0</a>
  
 
  

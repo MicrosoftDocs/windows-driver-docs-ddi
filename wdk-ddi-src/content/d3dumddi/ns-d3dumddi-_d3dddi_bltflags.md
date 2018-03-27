@@ -52,39 +52,6 @@ req.typenames: D3DDDI_BLTFLAGS
 The D3DDDI_BLTFLAGS structure identifies the type of bit-block transfer (bitblt) to perform.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DDDI_BLTFLAGS {
-  union {
-    struct {
-      UINT Point  :1;
-      UINT Linear  :1;
-      UINT SrcColorKey  :1;
-      UINT DstColorKey  :1;
-      UINT MirrorLeftRight  :1;
-      UINT MirrorUpDown  :1;
-      UINT LinearToSrgb  :1;
-      UINT Rotate  :1;
-      UINT BeginPresentToDwm  :1;
-      UINT ContinuePresentToDwm  :1;
-      UINT EndPresentToDwm  :1;
-#if (D3D_UMD_INTERFACE_VERSION < D3D_UMD_INTERFACE_VERSION_WIN8)
-      UINT Reserved  :21;
-#else 
-      UINT Discard  :1;
-      UINT NoOverwrite  :1;
-      UINT Tileable  :1;
-      UINT Reserved  :18;
-#endif 
-    };
-    UINT Value;
-  };
-} D3DDDI_BLTFLAGS;
-````
-
-
 ## -struct-fields
 
 
@@ -267,14 +234,14 @@ The <b>BeginPresentToDwm</b>, <b>ContinuePresentToDwm</b>, and <b>EndPresentToDw
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_blt.md">D3DDDIARG_BLT</a>
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_flush.md">Flush</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542884">D3DDDIARG_BLT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh463886">Flush</a>
  
 
  

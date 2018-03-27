@@ -46,11 +46,6 @@ req.typenames: WRITE_ROTATION, *PWRITE_ROTATION
 # IOCTL_CDROM_READ_TOC IOCTL
 
 
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
-
 ## -description
 
 
@@ -78,12 +73,12 @@ Input buffer.
 
 ### -output-buffer
 
-The driver returns the <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_toc.md">CDROM_TOC</a> data in the buffer at <i>Irp-&gt;AssociatedIrp.SystemBuffer</i>.
+The driver returns the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551373">CDROM_TOC</a> data in the buffer at <i>Irp-&gt;AssociatedIrp.SystemBuffer</i>.
 
 
 ### -output-buffer-length
 
-Length of a <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_toc.md">CDROM_TOC</a>.
+Length of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551373">CDROM_TOC</a>.
 
 
 ### -in-out-buffer
@@ -122,10 +117,10 @@ Client applications should use the <i>Media Control Interface (MCI) API</i> rath
 
 ## -see-also
 
-<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_toc.md">CDROM_TOC</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551373">CDROM_TOC</a>
  
 
  

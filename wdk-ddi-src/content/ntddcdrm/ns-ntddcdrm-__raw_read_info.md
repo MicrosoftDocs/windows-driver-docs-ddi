@@ -49,19 +49,7 @@ req.typenames: RAW_READ_INFO, *PRAW_READ_INFO
 ## -description
 
 
-The RAW_READ_INFO structure is used in conjunction with the <a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_raw_read.md">IOCTL_CDROM_RAW_READ</a> request to read data from a CD-ROM in raw mode.  
-
-
-## -syntax
-
-
-````
-typedef struct __RAW_READ_INFO {
-  LARGE_INTEGER   DiskOffset;
-  ULONG           SectorCount;
-  TRACK_MODE_TYPE TrackMode;
-} RAW_READ_INFO, *PRAW_READ_INFO;
-````
+The RAW_READ_INFO structure is used in conjunction with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559361">IOCTL_CDROM_RAW_READ</a> request to read data from a CD-ROM in raw mode.  
 
 
 ## -struct-fields
@@ -81,19 +69,19 @@ Contains the number of sectors to read.
 
 ### -field TrackMode
 
-Contains an enumerator of type <a href="..\ntddcdrm\ne-ntddcdrm-_track_mode_type.md">TRACK_MODE_TYPE</a> that indicates the type of the track mode. 
+Contains an enumerator of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff567984">TRACK_MODE_TYPE</a> that indicates the type of the track mode. 
 
 
 ## -see-also
 
-<a href="..\ntddcdrm\ne-ntddcdrm-_track_mode_type.md">TRACK_MODE_TYPE</a>
 
 
 
-<a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_raw_read.md">IOCTL_CDROM_RAW_READ</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559361">IOCTL_CDROM_RAW_READ</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567984">TRACK_MODE_TYPE</a>
  
 
  

@@ -52,16 +52,6 @@ req.typenames: D3DKMT_UMD_DRIVER_VERSION
 Indicates the version number of the user-mode driver.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DKMT_UMD_DRIVER_VERSION {
-  LARGE_INTEGER DriverVersion;
-} D3DKMT_UMD_DRIVER_VERSION;
-````
-
-
 ## -struct-fields
 
 

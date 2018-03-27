@@ -49,18 +49,7 @@ req.typenames: FILE_PROVIDER_EXTERNAL_INFO_V0, *PFILE_PROVIDER_EXTERNAL_INFO_V0
 ## -description
 
 
-This structure may be altered or unavailable. Instead, use <a href="..\ntifs\ns-ntifs-_file_provider_external_info_v1.md">FILE_PROVIDER_EXTERNAL_INFO_V1</a>.
-
-
-## -syntax
-
-
-````
-typedef struct _FILE_PROVIDER_EXTERNAL_INFO_V0 {
-  ULONG Version;
-  ULONG Algorithm;
-} FILE_PROVIDER_EXTERNAL_INFO_V0, *PFILE_PROVIDER_EXTERNAL_INFO_V0;
-````
+This structure may be altered or unavailable. Instead, use <a href="https://msdn.microsoft.com/library/windows/hardware/mt426732">FILE_PROVIDER_EXTERNAL_INFO_V1</a>.
 
 
 ## -struct-fields
@@ -86,10 +75,10 @@ Specifies the compression algorithm that is used to compress this file. Currentl
 
 ## -see-also
 
-<a href="..\ntifs\ns-ntifs-_file_provider_external_info_v1.md">FILE_PROVIDER_EXTERNAL_INFO_V1</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt426732">FILE_PROVIDER_EXTERNAL_INFO_V1</a>
  
 
  

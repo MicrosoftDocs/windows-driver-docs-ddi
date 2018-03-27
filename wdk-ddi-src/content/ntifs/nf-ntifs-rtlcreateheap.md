@@ -53,21 +53,6 @@ req.typenames: TOKEN_TYPE
 The <b>RtlCreateHeap</b> routine creates a heap object that can be used by the calling process. This routine reserves space in the virtual address space of the process and allocates physical storage for a specified initial portion of this block. 
 
 
-## -syntax
-
-
-````
-PVOID RtlCreateHeap(
-  _In_     ULONG                Flags,
-  _In_opt_ PVOID                HeapBase,
-  _In_opt_ SIZE_T               ReserveSize,
-  _In_opt_ SIZE_T               CommitSize,
-  _In_opt_ PVOID                Lock,
-  _In_opt_ PRTL_HEAP_PARAMETERS Parameters
-);
-````
-
-
 ## -parameters
 
 
@@ -75,7 +60,7 @@ PVOID RtlCreateHeap(
 
 ### -param Flags [in]
 
-Flags specifying optional attributes of the heap. These options affect subsequent access to the new heap through calls to the heap functions (<a href="..\ntifs\nf-ntifs-rtlallocateheap.md">RtlAllocateHeap</a> and <a href="..\ntifs\nf-ntifs-rtlfreeheap.md">RtlFreeHeap</a>). 
+Flags specifying optional attributes of the heap. These options affect subsequent access to the new heap through calls to the heap functions (<a href="https://msdn.microsoft.com/library/windows/hardware/ff552108">RtlAllocateHeap</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff552276">RtlFreeHeap</a>). 
 
 Callers should set this parameter to zero if no optional attributes are requested. 
 
@@ -175,7 +160,7 @@ This parameter is optional and can be zero.
 
 ### -param Lock [in, optional]
 
-Pointer to an opaque ERESOURCE structure to be used as a resource lock. This parameter is optional and can be <b>NULL</b>. When provided by the caller, the structure must be allocated from nonpaged pool and initialized by calling <a href="..\wdm\nf-wdm-exinitializeresourcelite.md">ExInitializeResourceLite</a> or <a href="..\wdm\nf-wdm-exreinitializeresourcelite.md">ExReinitializeResourceLite</a>. If the HEAP_NO_SERIALIZE flag is set, this parameter must be <b>NULL</b>.
+Pointer to an opaque ERESOURCE structure to be used as a resource lock. This parameter is optional and can be <b>NULL</b>. When provided by the caller, the structure must be allocated from nonpaged pool and initialized by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff545317">ExInitializeResourceLite</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff545542">ExReinitializeResourceLite</a>. If the HEAP_NO_SERIALIZE flag is set, this parameter must be <b>NULL</b>.
 
 
 ### -param Parameters [in, optional]
@@ -397,19 +382,19 @@ Pointer to a variable that will receive the actual size, in bytes, of the alloca
 
 
 
-<b>RtlCreateHeap</b> creates a private heap object from which the calling process can allocate memory blocks by calling <a href="..\ntifs\nf-ntifs-rtlallocateheap.md">RtlAllocateHeap</a>. The initial commit size determines the number of pages that are initially allocated for the heap. The initial reserve size determines the number of pages that are initially reserved for the heap. Pages that are reserved but uncommitted create a block in the process's virtual address space into which the heap can expand. 
+<b>RtlCreateHeap</b> creates a private heap object from which the calling process can allocate memory blocks by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff552108">RtlAllocateHeap</a>. The initial commit size determines the number of pages that are initially allocated for the heap. The initial reserve size determines the number of pages that are initially reserved for the heap. Pages that are reserved but uncommitted create a block in the process's virtual address space into which the heap can expand. 
 
-If allocation requests made by <a href="..\ntifs\nf-ntifs-rtlallocateheap.md">RtlAllocateHeap</a> exceed the heap's initial commit size, the system commits additional pages of physical storage for the heap, up to the heap's maximum size. If the heap is nongrowable, its maximum size is limited to its initial reserve size. 
+If allocation requests made by <a href="https://msdn.microsoft.com/library/windows/hardware/ff552108">RtlAllocateHeap</a> exceed the heap's initial commit size, the system commits additional pages of physical storage for the heap, up to the heap's maximum size. If the heap is nongrowable, its maximum size is limited to its initial reserve size. 
 
-If the heap is growable, its size is limited only by available memory. If requests by <a href="..\ntifs\nf-ntifs-rtlallocateheap.md">RtlAllocateHeap</a> exceed the current size of committed pages, the system calls <a href="..\ntifs\nf-ntifs-zwallocatevirtualmemory.md">ZwAllocateVirtualMemory</a> to obtain the memory needed, assuming that the physical storage is available. 
+If the heap is growable, its size is limited only by available memory. If requests by <a href="https://msdn.microsoft.com/library/windows/hardware/ff552108">RtlAllocateHeap</a> exceed the current size of committed pages, the system calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff566416">ZwAllocateVirtualMemory</a> to obtain the memory needed, assuming that the physical storage is available. 
 
 In addition, if the heap is nongrowable, an absolute limitation arises: the maximum size of a memory block in the heap is 0x7F000 bytes. The virtual memory threshold of the heap is equal to the maximum heap block size or the value of the <b>VirtualMemoryThreshold</b> member of the <i>Parameters</i> structure, whichever is less. The heap also may need to pad the request size for metadata and alignment purposes so requests to allocate blocks within 4096 Bytes (1 Page) of the <b>VirtualMemoryThreshold</b> may fail even if the maximum size of the heap is large enough to contain the block. (For more information about <b>VirtualMemoryThreshold</b>, see the members of the <i>Parameters</i> parameter to <b>RtlCreateHeap</b>.)  
 
-If the heap is growable, requests to allocate blocks larger than the heap's virtual memory threshold do not automatically fail; the system calls <a href="..\ntifs\nf-ntifs-zwallocatevirtualmemory.md">ZwAllocateVirtualMemory</a> to obtain the memory needed for such large blocks. 
+If the heap is growable, requests to allocate blocks larger than the heap's virtual memory threshold do not automatically fail; the system calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff566416">ZwAllocateVirtualMemory</a> to obtain the memory needed for such large blocks. 
 
 The memory of a private heap object is accessible only to the process that created it. 
 
-The system uses memory from the private heap to store heap support structures, so not all of the specified heap size is available to the process. For example, if <a href="..\ntifs\nf-ntifs-rtlallocateheap.md">RtlAllocateHeap</a> requests 64 kilobytes (K) from a heap with a maximum size of 64K, the request may fail because of system overhead. 
+The system uses memory from the private heap to store heap support structures, so not all of the specified heap size is available to the process. For example, if <a href="https://msdn.microsoft.com/library/windows/hardware/ff552108">RtlAllocateHeap</a> requests 64 kilobytes (K) from a heap with a maximum size of 64K, the request may fail because of system overhead. 
 
 If HEAP_NO_SERIALIZE is not specified (the simple default), the heap will serialize access within the calling process. Serialization ensures mutual exclusion when two or more threads attempt to simultaneously allocate or free blocks from the same heap. There is a small performance cost to serialization, but it must be used whenever multiple threads allocate and free memory from the same heap. 
 
@@ -439,18 +424,18 @@ The process has multiple threads, and the application provides its own mechanism
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-rtlfreeheap.md">RtlFreeHeap</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-rtlallocateheap.md">RtlAllocateHeap</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552108">RtlAllocateHeap</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-rtldestroyheap.md">RtlDestroyHeap</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552233">RtlDestroyHeap</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552276">RtlFreeHeap</a>
  
 
  

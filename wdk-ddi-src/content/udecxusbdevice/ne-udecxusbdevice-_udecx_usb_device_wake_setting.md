@@ -53,18 +53,6 @@ req.product: Windows 10 or later.
 Defines values for remote wake capability of a virtual USB device.
 
 
-## -syntax
-
-
-````
-typedef enum _UDECX_USB_DEVICE_WAKE_SETTING { 
-  UdecxUsbDeviceWakeDisabled       = 0,
-  UdecxUsbDeviceWakeEnabled        = ,
-  UdecxUsbDeviceWakeNotApplicable  = 
-} UDECX_USB_DEVICE_WAKE_SETTING, *PUDECX_USB_DEVICE_WAKE_SETTING;
-````
-
-
 ## -enum-fields
 
 
@@ -87,10 +75,10 @@ This value is used only if the USB device is a SuperSpeed device.
 
 ## -see-also
 
-<a href="..\udecxusbdevice\nc-udecxusbdevice-evt_udecx_usb_device_d0_exit.md">EVT_UDECX_USB_DEVICE_D0_EXIT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt595911">EVT_UDECX_USB_DEVICE_D0_EXIT</a>
  
 
  

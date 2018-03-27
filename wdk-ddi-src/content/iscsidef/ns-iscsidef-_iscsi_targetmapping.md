@@ -52,23 +52,6 @@ req.typenames: ISCSI_TargetMapping, *PISCSI_TargetMapping
 The ISCSI_TargetMapping structure maps a collection of logical unit numbers (LUNs) that are locally defined to a group of 64-bit iSCSI logical unit numbers. 
 
 
-## -syntax
-
-
-````
-typedef struct _ISCSI_TargetMapping {
-  ULONG         OSBus;
-  ULONG         OSTarget;
-  ULONGLONG     UniqueSessionId;
-  ULONG         LUNCount;
-  WCHAR         TargetName[223 + 1];
-  BOOLEAN       FromPersistentLogin;
-  ULONGLONG     Reserved;
-  ISCSI_LUNList LUNList[1];
-} ISCSI_TargetMapping, *PISCSI_TargetMapping;
-````
-
-
 ## -struct-fields
 
 
@@ -111,7 +94,7 @@ Reserved for Microsoft use only.
 
 ### -field LUNList
 
-A <a href="..\iscsidef\ns-iscsidef-_iscsi_lunlist.md">ISCSI_LUNList</a> structure that holds a list of LUNs that are associated with the target device.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff561544">ISCSI_LUNList</a> structure that holds a list of LUNs that are associated with the target device.
 
 
 ## -remarks
@@ -127,11 +110,6 @@ Management applications can use the ISCSI_TargetMapping structure to specify a l
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561573">ISCSI_TargetMapping WMI Class</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
 
 
 
@@ -139,10 +117,15 @@ Management applications can use the ISCSI_TargetMapping structure to specify a l
 
 
 
-<a href="..\iscsidef\ns-iscsidef-_iscsi_lunlist.md">ISCSI_LUNList</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561544">ISCSI_LUNList</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561573">ISCSI_TargetMapping WMI Class</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
  
 
  

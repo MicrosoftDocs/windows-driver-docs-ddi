@@ -26,7 +26,7 @@ req.max-support: Unavailable in UMDF 2.0 and later.
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: wudfddi.h
+req.lib: 
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
@@ -55,20 +55,6 @@ req.product: Windows 10 or later.
 The <b>ReadFromHardware</b> method is used internally by the framework. Do not use.
 
 
-## -syntax
-
-
-````
-SIZE_T ReadFromHardware(
-  [in]           WDF_DEVICE_HWACCESS_TARGET_TYPE Type,
-  [in]           WDF_DEVICE_HWACCESS_TARGET_SIZE Size,
-  [in]           VOID                            *Address,
-  [out]          VOID                            *Buffer,
-  [in, optional] ULONG                           Count
-);
-````
-
-
 ## -parameters
 
 
@@ -91,10 +77,10 @@ SIZE_T ReadFromHardware(
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfdevice3.md">IWDFDevice3</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451197">IWDFDevice3</a>
  
 
  

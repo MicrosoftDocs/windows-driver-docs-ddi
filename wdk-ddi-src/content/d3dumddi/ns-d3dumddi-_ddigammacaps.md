@@ -52,16 +52,6 @@ req.typenames: DDIGAMMACAPS
 The DDIGAMMACAPS structure describes gamma-ramp capabilities that the user-mode display driver supports.
 
 
-## -syntax
-
-
-````
-typedef struct _DDIGAMMACAPS {
-  UINT GammaCaps;
-} DDIGAMMACAPS;
-````
-
-
 ## -struct-fields
 
 
@@ -92,18 +82,18 @@ Gamma-ramp data is stored as 256 16-bit RGB values.
 
 ## -see-also
 
-<a href="..\d3dumddi\ne-d3dumddi-_d3dddicaps_type.md">D3DDDICAPS_TYPE</a>
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getcaps.md">GetCaps</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543148">D3DDDIARG_GETCAPS</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_getcaps.md">D3DDDIARG_GETCAPS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544132">D3DDDICAPS_TYPE</a>
 
 
 
+<a href="https://msdn.microsoft.com/cf6c61ce-7b53-46d0-b3ff-ed5b2b964c65">GetCaps</a>
  
 
  

@@ -52,17 +52,6 @@ req.typenames: DEBUG_LAST_EVENT_INFO_EXCEPTION, *PDEBUG_LAST_EVENT_INFO_EXCEPTIO
 Describes the exception of the last event.
 
 
-## -syntax
-
-
-````
-typedef struct _DEBUG_LAST_EVENT_INFO_EXCEPTION {
-  EXCEPTION_RECORD64 ExceptionRecord;
-  ULONG              FirstChance;
-} DEBUG_LAST_EVENT_INFO_EXCEPTION, *PDEBUG_LAST_EVENT_INFO_EXCEPTION;
-````
-
-
 ## -struct-fields
 
 

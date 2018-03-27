@@ -52,21 +52,6 @@ req.typenames: RILDEVSPECIFICGETTOKEN, *LPRILDEVSPECIFICGETTOKEN
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef struct _RILDEVSPECIFICGETTOKEN {
-  DWORD                       cbSize;
-  DWORD                       dwParams;
-  DWORD                       dwTimeout;
-  BYTE [GBA_PROTOCOL_ID_SIZE] bProtocolId;
-  DWORD                       cbHeaderSize;
-  BYTE []                     bHeader;
-} RILDEVSPECIFICGETTOKEN, *LPRILDEVSPECIFICGETTOKEN;
-````
-
-
 ## -struct-fields
 
 

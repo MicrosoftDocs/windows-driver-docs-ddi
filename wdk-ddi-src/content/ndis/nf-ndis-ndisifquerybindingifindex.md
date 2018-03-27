@@ -56,20 +56,6 @@ The
   network interfaces that are associated with a specified protocol binding.
 
 
-## -syntax
-
-
-````
-NDIS_STATUS NdisIfQueryBindingIfIndex(
-  _In_  NDIS_HANDLE  NdisBindingHandle,
-  _Out_ PNET_IFINDEX pBoundIfIndex,
-  _Out_ PNET_LUID    pBoundIfNetLuid,
-  _Out_ PNET_IFINDEX pLowestIfIndex,
-  _Out_ PNET_LUID    pLowestIfNetLuid
-);
-````
-
-
 ## -parameters
 
 
@@ -81,7 +67,7 @@ A handle that identifies the binding for which NDIS should obtain the
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff568747">NET_LUID</a> values and network interface indexes.
      NDIS provided this handle at the 
      <i>NdisBindingHandle</i> parameter of the 
-     <a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a> function.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff563715">NdisOpenAdapterEx</a> function.
 
 
 ### -param pBoundIfIndex [out]
@@ -171,18 +157,17 @@ NDIS protocol drivers can call the
 
 Protocol drivers can also obtain the interface index and NET_LUID of the highest and the lowest
     interfaces in a driver stack in the 
-    <a href="..\ndis\ns-ndis-_ndis_bind_parameters.md">NDIS_BIND_PARAMETERS</a> structure.
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff564832">NDIS_BIND_PARAMETERS</a> structure.
 
 
 
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_bind_parameters.md">NDIS_BIND_PARAMETERS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564832">NDIS_BIND_PARAMETERS</a>
 
 
 
@@ -190,6 +175,7 @@ Protocol drivers can also obtain the interface index and NET_LUID of the highest
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563715">NdisOpenAdapterEx</a>
  
 
  

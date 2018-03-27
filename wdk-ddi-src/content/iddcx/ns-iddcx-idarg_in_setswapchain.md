@@ -54,18 +54,6 @@ req.typenames:
              
 
 
-## -syntax
-
-
-````
-typedef struct IDARG_IN_SETSWAPCHAIN {
-  IDDCX_SWAPCHAIN hSwapChain;
-  HANDLE          hNextSurfaceAvailable;
-  LUID            RenderAdapterLuid;
-} IDARG_IN_SETSWAPCHAIN, *IDARG_IN_SETSWAPCHAIN;
-````
-
-
 ## -struct-fields
 
 

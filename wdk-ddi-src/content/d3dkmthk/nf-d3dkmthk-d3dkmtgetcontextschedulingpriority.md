@@ -55,16 +55,6 @@ req.typenames: D3DKMT_DRIVERVERSION
 The <b>D3DKMTGetContextSchedulingPriority</b> function retrieves the scheduling priority for a device context.
 
 
-## -syntax
-
-
-````
-NTSTATUS D3DKMTGetContextSchedulingPriority(
-  _Inout_ D3DKMT_GETCONTEXTSCHEDULINGPRIORITY *pData
-);
-````
-
-
 ## -parameters
 
 
@@ -74,7 +64,7 @@ NTSTATUS D3DKMTGetContextSchedulingPriority(
 
 #### - pData [in, out]
 
-A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_getcontextschedulingpriority.md">D3DKMT_GETCONTEXTSCHEDULINGPRIORITY</a> structure that describes parameters for retrieving the scheduling priority for a device context.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff548027">D3DKMT_GETCONTEXTSCHEDULINGPRIORITY</a> structure that describes parameters for retrieving the scheduling priority for a device context.
 
 
 ## -returns
@@ -120,10 +110,10 @@ This function might also return other <b>NTSTATUS</b> values.
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_getcontextschedulingpriority.md">D3DKMT_GETCONTEXTSCHEDULINGPRIORITY</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548027">D3DKMT_GETCONTEXTSCHEDULINGPRIORITY</a>
  
 
  

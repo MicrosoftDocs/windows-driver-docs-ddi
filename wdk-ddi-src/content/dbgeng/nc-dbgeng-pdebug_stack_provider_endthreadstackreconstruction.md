@@ -61,20 +61,12 @@ The <i>EndThreadStackReconstruction</i> callback function may be called after st
 </tr>
 </table></span></div>
 
-## -prototype
-
-
-````
- CALLBACK* PDEBUG_STACK_PROVIDER_ENDTHREADSTACKRECONSTRUCTION EndThreadStackReconstruction;
-````
-
-
 ## -parameters
 
 
 
 
-### -param void
+### -param Arg1
 
 
 

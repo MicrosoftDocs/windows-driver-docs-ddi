@@ -53,19 +53,6 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 A miniport driver for a PCI Express (PCIe) Virtual Function (VF) calls the <b>NdisMWriteConfigBlock</b> function to write data to a VF configuration block. Write operations on a VF configuration block are handled by the miniport driver of the network adapter's PCIe Physical Function (PF).
 <div class="alert"><b>Note</b>  <b>NdisMWriteConfigBlock</b> must only be called by the miniport driver for a network adapter's VF.</div><div> </div>
 
-## -syntax
-
-
-````
-NDIS_STATUS NdisMWriteConfigBlock(
-  _In_ NDIS_HANDLE NdisMiniportHandle,
-  _In_ ULONG       BlockId,
-  _In_ PVOID       Buffer,
-  _In_ ULONG       Length
-);
-````
-
-
 ## -parameters
 
 
@@ -75,7 +62,7 @@ NDIS_STATUS NdisMWriteConfigBlock(
 
 The network adapter handle that NDIS passed to the 
      <i>MiniportAdapterHandle</i> parameter of 
-     <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>.
+     <a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a>.
 
 
 ### -param BlockId [in]
@@ -157,11 +144,6 @@ The VBD that runs in a Hyper-V child partition's guest operating system can quer
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451146">GUID_VPCI_INTERFACE_STANDARD</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451609">WriteVfConfigBlock</a>
 
 
 
@@ -169,6 +151,11 @@ The VBD that runs in a Hyper-V child partition's guest operating system can quer
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451146">GUID_VPCI_INTERFACE_STANDARD</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451609">WriteVfConfigBlock</a>
  
 
  

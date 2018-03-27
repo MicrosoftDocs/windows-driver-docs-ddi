@@ -52,23 +52,6 @@ req.typenames: FEATURE_DATA_REMOVABLE_MEDIUM, *PFEATURE_DATA_REMOVABLE_MEDIUM
 The FEATURE_DATA_REMOVABLE_MEDIUM structure contains data for the removable medium feature. 
 
 
-## -syntax
-
-
-````
-typedef struct _FEATURE_DATA_REMOVABLE_MEDIUM {
-  FEATURE_HEADER Header;
-  UCHAR          Lockable  :1;
-  UCHAR          Reserved1  :1;
-  UCHAR          DefaultToPrevent  :1;
-  UCHAR          Eject  :1;
-  UCHAR          Reserved2  :1;
-  UCHAR          LoadingMechanism  :3;
-  UCHAR          Reserved3[3];
-} FEATURE_DATA_REMOVABLE_MEDIUM, *PFEATURE_DATA_REMOVABLE_MEDIUM;
-````
-
-
 ## -struct-fields
 
 
@@ -76,7 +59,7 @@ typedef struct _FEATURE_DATA_REMOVABLE_MEDIUM {
 
 ### -field Header
 
-Contains a <a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a> structure with header information for this feature descriptor. 
+Contains a <a href="https://msdn.microsoft.com/library/windows/hardware/ff553848">FEATURE_HEADER</a> structure with header information for this feature descriptor. 
 
 
 ### -field Lockable
@@ -135,14 +118,14 @@ This structure holds data for the feature named "Removable Medium" by the <i>MMC
 
 ## -see-also
 
-<a href="..\ntddmmc\ne-ntddmmc-_feature_number.md">FEATURE_NUMBER</a>
 
 
 
-<a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553848">FEATURE_HEADER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553850">FEATURE_NUMBER</a>
  
 
  

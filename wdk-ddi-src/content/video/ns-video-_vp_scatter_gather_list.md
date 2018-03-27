@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: "<= DISPATCH_LEVEL"
+req.irql: See Remarks section.
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -51,18 +51,6 @@ req.product: Windows 10 or later.
 
 
 The VP_SCATTER_GATHER_LIST structure is a collection of one or more scatter/gather elements.
-
-
-## -syntax
-
-
-````
-typedef struct _VP_SCATTER_GATHER_LIST {
-  ULONG                     NumberOfElements;
-  ULONG_PTR                 Reserved;
-  VP_SCATTER_GATHER_ELEMENT Elements[];
-} VP_SCATTER_GATHER_LIST, *PVP_SCATTER_GATHER_LIST;
-````
 
 
 ## -struct-fields
@@ -91,21 +79,21 @@ Specifies the number of scatter/gather elements in the <b>Elements</b> array mem
 
 This structure is available in Windows XP and later.
 
-The video port driver aggregates scatter/gather information in a VP_SCATTER_GATHER_LIST structure, passing it to the miniport driver's <a href="..\video\nc-video-pexecute_dma.md">HwVidExecuteDma</a> callback routine. The miniport driver uses this information when it sets up the video hardware for a DMA transfer.
+The video port driver aggregates scatter/gather information in a VP_SCATTER_GATHER_LIST structure, passing it to the miniport driver's <a href="https://msdn.microsoft.com/262c4b9b-fdca-4899-a635-fb273bbf4cc8">HwVidExecuteDma</a> callback routine. The miniport driver uses this information when it sets up the video hardware for a DMA transfer.
 
 
 
 
 ## -see-also
 
-<a href="..\video\ns-video-_vp_scatter_gather_element.md">VP_SCATTER_GATHER_ELEMENT</a>
 
 
 
-<a href="..\video\nc-video-pexecute_dma.md">HwVidExecuteDma</a>
+<a href="https://msdn.microsoft.com/262c4b9b-fdca-4899-a635-fb273bbf4cc8">HwVidExecuteDma</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570571">VP_SCATTER_GATHER_ELEMENT</a>
  
 
  

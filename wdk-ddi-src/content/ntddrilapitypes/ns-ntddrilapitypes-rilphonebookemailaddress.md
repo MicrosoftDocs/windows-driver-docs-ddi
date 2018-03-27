@@ -52,18 +52,6 @@ req.typenames: RILPHONEBOOKEMAILADDRESS, *LPRILPHONEBOOKEMAILADDRESS
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef struct _RILPHONEBOOKEMAILADDRESS {
-  DWORD       cbSize;
-  DWORD       dwParams;
-  WCHAR [256] wszAddress;
-} RILPHONEBOOKEMAILADDRESS, RILPHONEBOOKEMAILADDRESS;
-````
-
-
 ## -struct-fields
 
 

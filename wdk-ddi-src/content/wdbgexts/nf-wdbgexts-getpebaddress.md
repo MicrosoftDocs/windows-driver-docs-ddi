@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 The <b>GetPebAddress</b> function returns the address of the process environment block (PEB) for a system process.
 
 
-## -syntax
-
-
-````
-__inline VOID GetPebAddress(
-   ULONG64    CurrentThread,
-   PULONGLONG Address
-);
-````
-
-
 ## -parameters
 
 
@@ -73,7 +62,7 @@ __inline VOID GetPebAddress(
 
 Specifies an operating system thread whose PEB's address will be returned.
 
-In kernel-mode debugging, this is the location of the KTHREAD structure, which is returned by <a href="..\wdbgexts\nf-wdbgexts-getcurrentthreadaddr.md">GetCurrentThreadAddr</a>.  If <i>CurrentThread</i> is <b>NULL</b>, the PEB for the current process is returned.
+In kernel-mode debugging, this is the location of the KTHREAD structure, which is returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff545889">GetCurrentThreadAddr</a>.  If <i>CurrentThread</i> is <b>NULL</b>, the PEB for the current process is returned.
 
 In user-mode debugging, <i>CurrentThread</i> is ignored.
 
@@ -105,14 +94,14 @@ In kernel-mode debugging, if <i>CurrentThread</i> is <b>NULL</b>, the PEB for th
 
 ## -see-also
 
-<a href="..\wdbgexts\nf-wdbgexts-gettebaddress.md">GetTebAddress</a>
 
 
 
-<a href="..\wdbgexts\nf-wdbgexts-getcurrentthreadaddr.md">GetCurrentThreadAddr</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545889">GetCurrentThreadAddr</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549267">GetTebAddress</a>
  
 
  

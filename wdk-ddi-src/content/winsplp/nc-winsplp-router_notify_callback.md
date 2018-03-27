@@ -53,24 +53,6 @@ req.product: Windows 10 or later.
 
 
 
-## -prototype
-
-
-````
-ROUTER_NOTIFY_CALLBACK ROUTER_NOTIFY_CALLBACK;
-
- ROUTER_NOTIFY_CALLBACK(
-  _In_  DWORD                    dwCommand,
-  _In_  PVOID                    pContext,
-  _In_  DWORD                    dwColor,
-  _In_  PPRINTER_NOTIFY_INFO     pNofityInfo,
-  _In_  DWORD                    fdwFlags,
-  _Out_ PDWORD                   pdwResult
-)
-{ ... }
-````
-
-
 ## -parameters
 
 

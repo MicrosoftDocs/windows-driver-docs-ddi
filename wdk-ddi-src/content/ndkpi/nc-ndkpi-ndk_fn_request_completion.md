@@ -52,20 +52,6 @@ req.typenames: NDIS_WWAN_VISIBLE_PROVIDERS, *PNDIS_WWAN_VISIBLE_PROVIDERS
 The <i>NdkRequestCompletion</i> (<i>NDK_FN_REQUEST_COMPLETION</i>) function completes a pending NDK request.
 
 
-## -prototype
-
-
-````
-NDK_FN_REQUEST_COMPLETION NdkRequestCompletion;
-
-VOID NdkRequestCompletion(
-  _In_opt_ PVOID    Context,
-  _In_     NTSTATUS Status
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -78,7 +64,7 @@ The context value passed to the NDK provider when a consumer calls an asynchrono
 
 ### -param Status [in]
 
-The asynchronous completion status for the request. See the asynchronous request  functions (for example, <a href="..\ndkpi\nc-ndkpi-ndk_fn_accept.md">NDK_FN_ACCEPT</a>) for completion status codes that can be returned for each type of request.
+The asynchronous completion status for the request. See the asynchronous request  functions (for example, <a href="https://msdn.microsoft.com/library/windows/hardware/hh439857">NDK_FN_ACCEPT</a>) for completion status codes that can be returned for each type of request.
 
 
 ## -returns
@@ -101,10 +87,10 @@ Many NDK requests can be completed asynchronously. Asynchronous request function
 
 ## -see-also
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_accept.md">NDK_FN_ACCEPT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439857">NDK_FN_ACCEPT</a>
  
 
  

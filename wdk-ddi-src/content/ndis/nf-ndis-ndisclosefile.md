@@ -52,18 +52,8 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 
 The 
   <b>NdisCloseFile</b> function releases a handle returned by the 
-  <a href="..\ndis\nf-ndis-ndisopenfile.md">NdisOpenFile</a> function and frees the memory
+  <a href="https://msdn.microsoft.com/library/windows/hardware/ff563728">NdisOpenFile</a> function and frees the memory
   allocated to hold the file contents when it was opened.
-
-
-## -syntax
-
-
-````
-VOID NdisCloseFile(
-  _In_ NDIS_HANDLE FileHandle
-);
-````
 
 
 ## -parameters
@@ -74,7 +64,7 @@ VOID NdisCloseFile(
 ### -param FileHandle [in]
 
 The handle that was returned in a preceding call to the 
-     <a href="..\ndis\nf-ndis-ndisopenfile.md">NdisOpenFile</a> function.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff563728">NdisOpenFile</a> function.
 
 
 ## -returns
@@ -91,9 +81,9 @@ None
 
 
 For miniport drivers, calls to this function are valid only during initialization. If the 
-    <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a> function
+    <a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a> function
     calls the 
-    <a href="..\ndis\nf-ndis-ndisopenfile.md">NdisOpenFile</a> function, it must call 
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff563728">NdisOpenFile</a> function, it must call 
     <b>NdisCloseFile</b> before it returns control.
 
 
@@ -101,22 +91,22 @@ For miniport drivers, calls to this function are valid only during initializatio
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisunmapfile.md">NdisUnmapFile</a>
+<a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndismapfile.md">NdisMapFile</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562785">NdisMapFile</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisopenfile.md">NdisOpenFile</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563728">NdisOpenFile</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564641">NdisUnmapFile</a>
  
 
  

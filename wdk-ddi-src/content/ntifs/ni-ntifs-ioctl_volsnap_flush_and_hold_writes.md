@@ -46,11 +46,6 @@ req.typenames: TOKEN_TYPE
 # IOCTL_VOLSNAP_FLUSH_AND_HOLD_WRITES IOCTL
 
 
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
-
 ## -description
 
 
@@ -158,10 +153,10 @@ If this is a read-only volume, then there is normally nothing that a file system
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548649">IRP_MJ_DEVICE_CONTROL</a>
-
-
-
  
 
  

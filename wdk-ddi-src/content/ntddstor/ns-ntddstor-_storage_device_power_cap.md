@@ -49,20 +49,7 @@ req.typenames: STORAGE_DEVICE_POWER_CAP, *PSTORAGE_DEVICE_POWER_CAP
 ## -description
 
 
-This structure is used as an input and output buffer for the <a href="..\ntddstor\ni-ntddstor-ioctl_storage_device_power_cap.md">IOCTL_STORAGE_DEVICE_POWER_CAP</a>.
-
-
-## -syntax
-
-
-````
-typedef struct _STORAGE_DEVICE_POWER_CAP {
-  ULONG                          Version;
-  ULONG                          Size;
-  STORAGE_DEVICE_POWER_CAP_UNITS Units;
-  ULONG                          MaxPower;
-} STORAGE_DEVICE_POWER_CAP, *PSTORAGE_DEVICE_POWER_CAP;
-````
+This structure is used as an input and output buffer for the <a href="https://msdn.microsoft.com/library/windows/hardware/dn932064">IOCTL_STORAGE_DEVICE_POWER_CAP</a>.
 
 
 ## -struct-fields

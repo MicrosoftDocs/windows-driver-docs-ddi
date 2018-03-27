@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: wdtf.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -53,14 +53,6 @@ req.product: Windows 10 or later.
 Disable object logging for all actions in the collection.
 
 
-## -syntax
-
-
-````
-HRESULT DisableObjectLogging();
-````
-
-
 ## -parameters
 
 
@@ -79,10 +71,10 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="..\wdtf\nn-wdtf-iwdtfactions2.md">IWDTFActions2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406331">IWDTFActions2</a>
  
 
  

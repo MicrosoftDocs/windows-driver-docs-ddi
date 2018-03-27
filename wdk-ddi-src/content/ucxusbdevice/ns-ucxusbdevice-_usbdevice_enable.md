@@ -50,23 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-Contains parameters for a request to enable the specified device. This structure is passed by UCX in request parameters (<b>Parameters.Others.Arg1</b>) of a framework request object of the <a href="..\ucxusbdevice\nc-ucxusbdevice-evt_ucx_usbdevice_enable.md">EVT_UCX_USBDEVICE_ENABLE</a> callback function.
-
-
-## -syntax
-
-
-````
-typedef struct _USBDEVICE_ENABLE {
-#ifdef __cplusplus
-  USBDEVICE_MGMT_HEADER          Header;
-#else 
-  USBDEVICE_MGMT_HEADER          ;
-#endif 
-  UCXENDPOINT                    DefaultEndpoint;
-  USBDEVICE_ENABLE_FAILURE_FLAGS FailureFlags;
-} USBDEVICE_ENABLE, *P_USBDEVICE_ENABLE;
-````
+Contains parameters for a request to enable the specified device. This structure is passed by UCX in request parameters (<b>Parameters.Others.Arg1</b>) of a framework request object of the <a href="https://msdn.microsoft.com/library/windows/hardware/mt187841">EVT_UCX_USBDEVICE_ENABLE</a> callback function.
 
 
 ## -struct-fields
@@ -76,7 +60,7 @@ typedef struct _USBDEVICE_ENABLE {
 
 ### -field Header
 
-A <a href="..\ucxusbdevice\ns-ucxusbdevice-_usbdevice_mgmt_header.md">USBDEVICE_MGMT_HEADER</a> structure that contains  the handle for the USB hub or device.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/mt188075">USBDEVICE_MGMT_HEADER</a> structure that contains  the handle for the USB hub or device.
 
 
 ### -field DefaultEndpoint
@@ -91,14 +75,14 @@ The errors, if any, that occurred when attempting to enable the hub or device fo
 
 ## -see-also
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestgetparameters.md">WdfRequestGetParameters</a>
 
 
 
-<a href="..\ucxusbdevice\ns-ucxusbdevice-_usbdevice_disable.md">USBDEVICE_DISABLE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt188071">USBDEVICE_DISABLE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549969">WdfRequestGetParameters</a>
  
 
  

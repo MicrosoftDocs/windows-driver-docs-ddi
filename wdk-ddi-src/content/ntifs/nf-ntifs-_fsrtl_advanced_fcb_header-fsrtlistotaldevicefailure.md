@@ -52,16 +52,6 @@ req.typenames: TOKEN_TYPE
 The <b>FsRtlIsTotalDeviceFailure</b> routine determines whether a media or other hardware failure has occurred.
 
 
-## -syntax
-
-
-````
-BOOLEAN FsRtlIsTotalDeviceFailure(
-  _In_ NTSTATUS Status
-);
-````
-
-
 ## -parameters
 
 
@@ -96,18 +86,18 @@ For more information about handling device failure, see <a href="https://msdn.mi
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iowriteerrorlogentry.md">IoWriteErrorLogEntry</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnormalizentstatus~r1.md">FsRtlNormalizeNtstatus</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546860">FsRtlIsNtstatusExpected</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlisntstatusexpected.md">FsRtlIsNtstatusExpected</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546988">FsRtlNormalizeNtstatus</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550527">IoWriteErrorLogEntry</a>
  
 
  

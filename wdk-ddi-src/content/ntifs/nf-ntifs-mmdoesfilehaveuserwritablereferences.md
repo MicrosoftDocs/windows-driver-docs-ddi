@@ -52,16 +52,6 @@ req.typenames: TOKEN_TYPE
 The <b>MmDoesFileHaveUserWritableReferences </b>function returns the number of writable references for a file object.
 
 
-## -syntax
-
-
-````
-ULONG MmDoesFileHaveUserWritableReferences(
-  _In_ PSECTION_OBJECT_POINTERS SectionPointer
-);
-````
-
-
 ## -parameters
 
 
@@ -69,7 +59,7 @@ ULONG MmDoesFileHaveUserWritableReferences(
 
 ### -param SectionPointer [in]
 
-Pointer to a <a href="..\wdm\ns-wdm-_section_object_pointers.md">SECTION_OBJECT_POINTERS</a> structure that contains the file object's section object pointers.  This parameter is required and cannot be <b>NULL</b>.
+Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff563687">SECTION_OBJECT_POINTERS</a> structure that contains the file object's section object pointers.  This parameter is required and cannot be <b>NULL</b>.
 
 
 ## -returns
@@ -101,7 +91,7 @@ Pointer to a <a href="..\wdm\ns-wdm-_section_object_pointers.md">SECTION_OBJECT_
 
 </li>
 <li>
- The number of outstanding <a href="..\wdm\ns-wdm-_mdl.md">MDL</a>s, which are mapping regions for the associated file object.
+ The number of outstanding <a href="https://msdn.microsoft.com/library/windows/hardware/ff554414">MDL</a>s, which are mapping regions for the associated file object.
 
 </li>
 </ul>
@@ -113,17 +103,17 @@ Prior to calling <b>MmDoesFileHaveUserWritableReferences</b>, transactional file
 <div> </div>
 For more information about transactions, see <a href="https://msdn.microsoft.com/b558ace9-b416-4572-ac94-58a083c9d33b">Kernel Transaction Manager Design Guide</a> and <a href="https://msdn.microsoft.com/bdff1ef1-3465-4612-ab15-63e877e5f888">Kernel Transaction Manager Routines</a>.
 
-For more information about file objects, see <a href="..\wdm\ns-wdm-_file_object.md">FILE_OBJECT</a>.
+For more information about file objects, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff545834">FILE_OBJECT</a>.
 
 
 
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_file_object.md">FILE_OBJECT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545834">FILE_OBJECT</a>
  
 
  

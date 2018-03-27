@@ -55,18 +55,6 @@ The <b>FwpsRedirectHandleCreate0</b> function creates a handle that  connection 
 
 
 
-## -syntax
-
-
-````
-NTSTATUS NTAPI FwpsRedirectHandleCreate0(
-   _In_ const GUID        *providerGuid,
-   _In_ _Reserved_ UINT32 flags,
-   _Out_ HANDLE           *redirectHandle
-);
-````
-
-
 ## -parameters
 
 
@@ -138,27 +126,27 @@ For more information about redirection, see <a href="https://docs.microsoft.com/
 
 Your callout driver should call <b>FwpsRedirectHandleCreate0</b> once and cache the handle so that it can reuse the handle.
 
-Before an Application Layer Enforcement (ALE) connect redirection callout can redirect connections to a local process, it must  obtain a redirect handle with the <b>FwpsRedirectHandleCreate0</b> function and put the handle in the <a href="..\fwpsk\ns-fwpsk-_fwps_connect_request0.md">FWPS_CONNECT_REQUEST0</a> structure. The callout modifies the structure in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a> for the ALE connect redirect layers.
+Before an Application Layer Enforcement (ALE) connect redirection callout can redirect connections to a local process, it must  obtain a redirect handle with the <b>FwpsRedirectHandleCreate0</b> function and put the handle in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551231">FWPS_CONNECT_REQUEST0</a> structure. The callout modifies the structure in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a> for the ALE connect redirect layers.
 
-After a callout driver has finished using a redirect handle, it must call the <a href="..\fwpsk\nf-fwpsk-fwpsredirecthandledestroy0.md">FwpsRedirectHandleDestroy0</a> function to destroy the handle. 
+After a callout driver has finished using a redirect handle, it must call the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439684">FwpsRedirectHandleDestroy0</a> function to destroy the handle. 
 
 
 
 
 ## -see-also
 
-<a href="..\fwpsk\nf-fwpsk-fwpsredirecthandledestroy0.md">FwpsRedirectHandleDestroy0</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551231">FWPS_CONNECT_REQUEST0</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439684">FwpsRedirectHandleDestroy0</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a>
-
-
-
-<a href="..\fwpsk\ns-fwpsk-_fwps_connect_request0.md">FWPS_CONNECT_REQUEST0</a>
-
-
-
  
 
  

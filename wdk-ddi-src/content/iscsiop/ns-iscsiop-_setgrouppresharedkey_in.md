@@ -52,17 +52,6 @@ req.typenames: SetGroupPresharedKey_IN, *PSetGroupPresharedKey_IN
 The SetGroupPresharedKey_IN structure holds the input data for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565693">SetGroupPresharedKey</a> method.
 
 
-## -syntax
-
-
-````
-typedef struct _SetGroupPresharedKey_IN {
-  ULONG KeySize;
-  UCHAR Key[1];
-} SetGroupPresharedKey_IN, *PSetGroupPresharedKey_IN;
-````
-
-
 ## -struct-fields
 
 
@@ -89,7 +78,6 @@ You must implement this method.
 
 ## -see-also
 
-<a href="..\iscsiop\ns-iscsiop-_setgrouppresharedkey_out.md">SetGroupPresharedKey_OUT</a>
 
 
 
@@ -97,6 +85,7 @@ You must implement this method.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565697">SetGroupPresharedKey_OUT</a>
  
 
  

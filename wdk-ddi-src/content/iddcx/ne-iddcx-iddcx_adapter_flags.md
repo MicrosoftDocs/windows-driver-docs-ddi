@@ -54,18 +54,6 @@ req.typenames:
                 
 
 
-## -syntax
-
-
-````
-typedef enum _IDDCX_ADAPTER_FLAGS { 
-  IDDCX_ADAPTER_FLAGS_NONE                  = 0,
-  IDDCX_ADAPTER_FLAGS_USE_SMALLEST_MODE     = 1,
-  IDDCX_ADAPTER_FLAGS_CAN_USE_MOVE_REGIONS  = 2
-} IDDCX_ADAPTER_FLAGS;
-````
-
-
 ## -enum-fields
 
 

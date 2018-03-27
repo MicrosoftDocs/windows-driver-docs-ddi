@@ -54,17 +54,6 @@ The WWAN_RADIO_STATE structure represents the hardware-based and software-based 
   the MB device.
 
 
-## -syntax
-
-
-````
-typedef struct _WWAN_RADIO_STATE {
-  WWAN_RADIO HwRadioState;
-  WWAN_RADIO SwRadioState;
-} WWAN_RADIO_STATE, *PWWAN_RADIO_STATE;
-````
-
-
 ## -struct-fields
 
 
@@ -230,14 +219,14 @@ The miniport driver should send all applicable status indications such as
 
 ## -see-also
 
-<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_radio_state.md">NDIS_WWAN_RADIO_STATE</a>
 
 
 
-<a href="..\wwan\ne-wwan-_wwan_radio.md">WWAN_RADIO</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567915">NDIS_WWAN_RADIO_STATE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571224">WWAN_RADIO</a>
  
 
  

@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: ndis.h
+req.lib: 
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
@@ -52,21 +52,6 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 The 
   <b>NdisMCompleteDmaTransfer</b> function indicates that a system DMA transfer operation has completed. It
   resets the system DMA controller in preparation for further DMA transfers.
-
-
-## -syntax
-
-
-````
-VOID NdisMCompleteDmaTransfer(
-  [out] PNDIS_STATUS Status,
-  [in]  NDIS_HANDLE  MiniportDmaHandle,
-  [in]  PNDIS_BUFFER Buffer,
-  [in]  ULONG        Offset,
-  [in]  ULONG        Length,
-  [in]  BOOLEAN      WriteToDevice
-);
-````
 
 
 ## -parameters
@@ -111,7 +96,7 @@ TBD
 #### - Buffer [in]
 
 A pointer to the buffer descriptor previously passed to 
-     <a href="..\ndis\nf-ndis-ndismsetupdmatransfer.md">NdisMSetupDmaTransfer</a>.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff563675">NdisMSetupDmaTransfer</a>.
 
 
 #### - Length [in]
@@ -123,9 +108,9 @@ The length in bytes of the transfer. This value also was passed to
 #### - MiniportDmaHandle [in]
 
 The handle returned when the 
-     <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a> function
+     <a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a> function
      called the 
-     <a href="..\ndis\nf-ndis-ndismregisterdmachannel.md">
+     <a href="https://msdn.microsoft.com/32e92f77-8f45-408b-a284-c00d3b5bd1b4">
      NdisMRegisterDmaChannel</a> function.
 
 
@@ -176,18 +161,18 @@ The DMA controller was released but the data transfer might be incoherent.
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndismsetupdmatransfer.md">NdisMSetupDmaTransfer</a>
+<a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndismregisterdmachannel.md">NdisMRegisterDmaChannel</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563646">NdisMRegisterDmaChannel</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563675">NdisMSetupDmaTransfer</a>
  
 
  

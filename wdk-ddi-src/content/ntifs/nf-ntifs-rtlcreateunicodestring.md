@@ -53,17 +53,6 @@ req.typenames: TOKEN_TYPE
 The <b>RtlCreateUnicodeString</b> routine creates a new counted Unicode string.
 
 
-## -syntax
-
-
-````
-BOOLEAN RtlCreateUnicodeString(
-  _Out_ PUNICODE_STRING DestinationString,
-  _In_  PCWSTR          SourceString
-);
-````
-
-
 ## -parameters
 
 
@@ -101,14 +90,14 @@ For information about other string-handling routines, see <a href="https://msdn.
 
 ## -see-also
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 
 
-<a href="..\wudfwdm\nf-wudfwdm-rtlfreeunicodestring.md">RtlFreeUnicodeString</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561903">RtlFreeUnicodeString</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a>
  
 
  

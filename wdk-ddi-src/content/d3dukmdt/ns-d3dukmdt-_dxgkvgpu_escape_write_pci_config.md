@@ -52,17 +52,6 @@ req.typenames: DXGKVGPU_ESCAPE_WRITE_PCI_CONFIG
 Used to write to the PCI config space.
 
 
-## -syntax
-
-
-````
-typedef struct _DXGKVGPU_ESCAPE_WRITE_PCI_CONFIG {
-  UINT Offset;
-  UINT Size;
-} DXGKVGPU_ESCAPE_WRITE_PCI_CONFIG;
-````
-
-
 ## -struct-fields
 
 

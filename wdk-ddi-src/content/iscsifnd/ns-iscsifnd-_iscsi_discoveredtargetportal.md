@@ -52,18 +52,6 @@ req.typenames: ISCSI_DiscoveredTargetPortal, *PISCSI_DiscoveredTargetPortal
 The ISCSI_DiscoveredTargetPortal structure provides information that is associated with a discovered target portal. 
 
 
-## -syntax
-
-
-````
-typedef struct _ISCSI_DiscoveredTargetPortal {
-  USHORT           Socket;
-  ISCSI_IP_Address Address;
-  WCHAR            SymbolicName[256 + 1];
-} ISCSI_DiscoveredTargetPortal, *PISCSI_DiscoveredTargetPortal;
-````
-
-
 ## -struct-fields
 
 
@@ -95,11 +83,6 @@ The WMI tool suite automatically generates a declaration of the ISCSI_Discovered
 
 ## -see-also
 
-<a href="..\iscsidef\ns-iscsidef-_iscsi_targetportal.md">ISCSI_TargetPortal</a>
-
-
-
-<a href="..\iscsifnd\ns-iscsifnd-_iscsi_discoveredtargetportal2.md">ISCSI_DiscoveredTargetPortal2</a>
 
 
 
@@ -107,6 +90,11 @@ The WMI tool suite automatically generates a declaration of the ISCSI_Discovered
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561511">ISCSI_DiscoveredTargetPortal2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561574">ISCSI_TargetPortal</a>
  
 
  

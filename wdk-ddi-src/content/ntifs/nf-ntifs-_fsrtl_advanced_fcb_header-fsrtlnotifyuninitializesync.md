@@ -52,16 +52,6 @@ req.typenames: TOKEN_TYPE
 The <b>FsRtlNotifyUninitializeSync</b> routine deallocates the synchronization object for a notify list.
 
 
-## -syntax
-
-
-````
-VOID FsRtlNotifyUninitializeSync(
-  _In_ PNOTIFY_SYNC *NotifySync
-);
-````
-
-
 ## -parameters
 
 
@@ -85,17 +75,17 @@ None
 
 
 
-The <b>FsRtlNotifyUninitializeSync</b> routine deallocates an opaque synchronization object that was allocated by an earlier call to <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnotifyinitializesync.md">FsRtlNotifyInitializeSync</a>.
+The <b>FsRtlNotifyUninitializeSync</b> routine deallocates an opaque synchronization object that was allocated by an earlier call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff547045">FsRtlNotifyInitializeSync</a>.
 
 
 
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnotifyinitializesync.md">FsRtlNotifyInitializeSync</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547045">FsRtlNotifyInitializeSync</a>
  
 
  

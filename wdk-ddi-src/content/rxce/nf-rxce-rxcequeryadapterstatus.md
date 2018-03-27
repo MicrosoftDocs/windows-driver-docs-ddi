@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
@@ -51,17 +51,6 @@ req.product: Windows 10 or later.
 
 
 <b>RxCeQueryAdapterStatus</b> returns the ADAPTER_STATUS structure for a given transport in a caller-allocated buffer.
-
-
-## -syntax
-
-
-````
-NTSTATUS RxCeQueryAdapterStatus(
-   PRXCE_TRANSPORT        pTransport,
-   struct _ADAPTER_STATUS *pAdapterStatus
-);
-````
 
 
 ## -parameters
@@ -142,11 +131,6 @@ The <i>pTransport</i> parameter passed to this routine was invalid.
 
 ## -see-also
 
-<a href="..\rxce\nf-rxce-rxcequerytransportinformation.md">RxCeQueryTransportInformation</a>
-
-
-
-<a href="..\rxce\nf-rxce-rxcequeryinformation.md">RxCeQueryInformation</a>
 
 
 
@@ -154,6 +138,11 @@ The <i>pTransport</i> parameter passed to this routine was invalid.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553461">RxCeQueryInformation</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553474">RxCeQueryTransportInformation</a>
  
 
  

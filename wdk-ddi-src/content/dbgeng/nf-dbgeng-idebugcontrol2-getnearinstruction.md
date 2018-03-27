@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -52,18 +52,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>GetNearInstruction</b> method returns the location of a processor instruction relative to a given location.
-
-
-## -syntax
-
-
-````
-HRESULT GetNearInstruction(
-  [in]  ULONG64  Offset,
-  [in]  LONG     Delta,
-  [out] PULONG64 NearOffset
-);
-````
 
 
 ## -parameters

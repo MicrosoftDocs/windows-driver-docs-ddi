@@ -52,20 +52,6 @@ req.typenames: PDO_TYPE
 This enumeration describes the types of Physical Device Objects (PDOs).
 
 
-## -syntax
-
-
-````
-typedef enum _PDO_TYPE { 
-  PDO_TYPE_UNDEFINED  = 0,
-  PDO_TYPE_DISK       = 1,
-  PDO_TYPE_CONTROL    = 2,
-  PDO_TYPE_SILO       = 3,
-  PDO_TYPE_THIS       = 256
-} PDO_TYPE;
-````
-
-
 ## -enum-fields
 
 
@@ -73,7 +59,7 @@ typedef enum _PDO_TYPE {
 
 ### -field PDO_TYPE_UNDEFINED
 
-Types either enumerated or provided as filter parameter to <a href="..\ehstorioctl\ni-ehstorioctl-ioctl_ehstor_device_enumerate_pdos.md">IOCTL_EHSTOR_DEVICE_ENUMERATE_PDOS</a>
+Types either enumerated or provided as filter parameter to <a href="https://msdn.microsoft.com/library/windows/hardware/hh451409">IOCTL_EHSTOR_DEVICE_ENUMERATE_PDOS</a>
 
 
 
@@ -97,10 +83,10 @@ This value indicates the PDO is for a logical silo device.
 
 ## -see-also
 
-<a href="..\ehstorioctl\ni-ehstorioctl-ioctl_ehstor_device_enumerate_pdos.md">IOCTL_EHSTOR_DEVICE_ENUMERATE_PDOS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451409">IOCTL_EHSTOR_DEVICE_ENUMERATE_PDOS</a>
  
 
  

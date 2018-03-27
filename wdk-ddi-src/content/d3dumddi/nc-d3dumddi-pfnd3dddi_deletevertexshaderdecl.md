@@ -52,20 +52,6 @@ req.typenames: DXGK_PTE
 The <b>DeleteVertexShaderDecl</b> function cleans up driver-side resources that are associated with the vertex shader declaration.
 
 
-## -prototype
-
-
-````
-PFND3DDDI_DELETEVERTEXSHADERDECL DeleteVertexShaderDecl;
-
-__checkReturn HRESULT APIENTRY DeleteVertexShaderDecl(
-  _In_ HANDLE hDevice,
-  _In_ HANDLE hShaderHandle
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -76,7 +62,7 @@ __checkReturn HRESULT APIENTRY DeleteVertexShaderDecl(
  A handle to the display device (graphics context).
 
 
-### -param HANDLE
+### -param Arg1
 
 
 
@@ -103,21 +89,21 @@ __checkReturn HRESULT APIENTRY DeleteVertexShaderDecl(
 
 
 
-The <b>DeleteVertexShaderDecl</b> function notifies the driver about the deletion of the vertex shader declaration object that the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createvertexshaderdecl.md">CreateVertexShaderDecl</a> function created. The driver can then clean up any driver-side resources that are associated with the vertex shader declaration.
+The <b>DeleteVertexShaderDecl</b> function notifies the driver about the deletion of the vertex shader declaration object that the <a href="https://msdn.microsoft.com/00c53e81-93db-46b8-b65c-c8d62059452a">CreateVertexShaderDecl</a> function created. The driver can then clean up any driver-side resources that are associated with the vertex shader declaration.
 
 
 
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createvertexshaderdecl.md">CreateVertexShaderDecl</a>
+<a href="https://msdn.microsoft.com/00c53e81-93db-46b8-b65c-c8d62059452a">CreateVertexShaderDecl</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544519">D3DDDI_DEVICEFUNCS</a>
  
 
  

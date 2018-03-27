@@ -52,16 +52,6 @@ req.typenames: SetInitiatorNodeName_IN, *PSetInitiatorNodeName_IN
 The SetInitiatorNodeName_IN structure holds the input data for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565706">SetInitiatorNodeName</a> method.
 
 
-## -syntax
-
-
-````
-typedef struct _SetInitiatorNodeName_IN {
-  WCHAR CreatedInitiatorName[223 + 1];
-} SetInitiatorNodeName_IN, *PSetInitiatorNodeName_IN;
-````
-
-
 ## -struct-fields
 
 
@@ -83,7 +73,6 @@ It is optional that you implement this class.
 
 ## -see-also
 
-<a href="..\iscsiop\ns-iscsiop-_setinitiatornodename_out.md">SetInitiatorNodeName_OUT</a>
 
 
 
@@ -91,6 +80,7 @@ It is optional that you implement this class.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565749">SetInitiatorNodeName_OUT</a>
  
 
  

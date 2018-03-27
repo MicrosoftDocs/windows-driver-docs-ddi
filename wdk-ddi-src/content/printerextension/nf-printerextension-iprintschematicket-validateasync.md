@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: printerextension.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,16 +51,6 @@ req.product: Windows 10 or later.
 
 
 Gets an asynchronous PrintTicket validation operation context.
-
-
-## -syntax
-
-
-````
-HRESULT ValidateAsync(
-  [out] IPrintSchemaAsyncOperation **ppAsyncOperation
-);
-````
 
 
 ## -parameters
@@ -93,11 +83,10 @@ This method returns an <b>HRESULT</b> value.
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprintschematicket.md">IPrintSchemaTicket</a>
 
 
 
-<a href="..\printerextension\nn-printerextension-iprintschemaasyncoperation.md">IPrintSchemaAsyncOperation</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451224">IPrintSchemaAsyncOperation</a>
 
 
 
@@ -109,6 +98,7 @@ This method returns an <b>HRESULT</b> value.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451398">IPrintSchemaTicket</a>
  
 
  

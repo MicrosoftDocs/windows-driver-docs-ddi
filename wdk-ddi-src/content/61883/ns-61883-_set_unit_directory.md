@@ -52,19 +52,6 @@ req.typenames: SET_UNIT_DIRECTORY, *PSET_UNIT_DIRECTORY
 This structure is used to assign settings for a unit directory.  The  request exposes a unit directory within the configuration ROM of the local host. This request is used to create or remove a Configuration ROM entry in the configuration ROM of a local node. A driver is responsible for removing the Configuration ROM entries it has created before the system unloads the driver. 
 
 
-## -syntax
-
-
-````
-typedef struct _SET_UNIT_DIRECTORY {
-  ULONG  Flags;
-  ULONG  UnitSpecId;
-  ULONG  UnitSwVersion;
-  HANDLE hCromEntry;
-} SET_UNIT_DIRECTORY, *PSET_UNIT_DIRECTORY;
-````
-
-
 ## -struct-fields
 
 
@@ -109,10 +96,10 @@ If successful, the IEC-61883 protocol driver sets <b>Irp-&gt;IoStatus.Status </b
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537008">AV_61883_REQUEST</a>
-
-
-
  
 
  

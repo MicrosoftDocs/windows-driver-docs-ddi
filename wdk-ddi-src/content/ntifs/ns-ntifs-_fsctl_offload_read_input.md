@@ -52,21 +52,6 @@ req.typenames: FSCTL_OFFLOAD_READ_INPUT, *PFSCTL_OFFLOAD_READ_INPUT
 The <b>FSCTL_OFFLOAD_READ_INPUT</b> structure contains the input for the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451101">FSCTL_OFFLOAD_READ</a> control code request.
 
 
-## -syntax
-
-
-````
-typedef struct _FSCTL_OFFLOAD_READ_INPUT {
-  ULONG     Size;
-  ULONG     Flags;
-  ULONG     TokenTimeToLive;
-  ULONG     Reserved;
-  ULONGLONG FileOffset;
-  ULONGLONG Length;
-} FSCTL_OFFLOAD_READ_INPUT, *PFSCTL_OFFLOAD_READ_INPUT;
-````
-
-
 ## -struct-fields
 
 
@@ -120,14 +105,14 @@ The  storage device's copy provider retains the data read for the duration in <b
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451101">FSCTL_OFFLOAD_READ</a>
 
 
 
-<a href="..\ntifs\ns-ntifs-_fsctl_offload_read_output.md">FSCTL_OFFLOAD_READ_OUTPUT</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451109">FSCTL_OFFLOAD_READ_OUTPUT</a>
  
 
  

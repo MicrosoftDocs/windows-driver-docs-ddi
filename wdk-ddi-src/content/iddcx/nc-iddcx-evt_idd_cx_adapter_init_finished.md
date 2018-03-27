@@ -52,22 +52,6 @@ req.typenames: WCS_PROFILE_MANAGEMENT_SCOPE
 <b>EVT_IDD_CX_ADAPTER_INIT_FINISHED</b> is called by the OS to inform the driver that the adapter initialization has completed.
 
 
-## -prototype
-
-
-````
-EVT_IDD_CX_ADAPTER_INIT_FINISHED EvtIddCxAdapterInitFinished;
-
-NTSTATUS EvtIddCxAdapterInitFinished(
-  _In_       IDDCX_ADAPTER AdapterObject,
-  _In_ const               pInArgs
-)
-{ ... }
-
-typedef EVT_IDD_CX_ADAPTER_INIT_FINISHED PFN_IDD_CX_ADAPTER_INIT_FINISHED;
-````
-
-
 ## -parameters
 
 

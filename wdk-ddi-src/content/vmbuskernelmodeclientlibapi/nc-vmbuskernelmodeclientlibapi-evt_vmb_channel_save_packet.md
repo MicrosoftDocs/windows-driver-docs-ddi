@@ -55,25 +55,6 @@ req.product: Windows 10 or later.
 The <i>EvtVmbChannelSavePacket</i> callback function is invoked when the virtualization service provider (VSP) endpoint must save the state associated with a packet.  
 
 
-## -prototype
-
-
-````
-EVT_VMB_CHANNEL_SAVE_PACKET EvtVmbChannelSavePacket;
-
-NTStatus EvtVmbChannelSavePacket(
-  _In_  VMBCHANNEL                       Channel,
-  _In_  VMBPACKET                        Packet,
-  _Out_ writes_bytes_(SaveBufSize) PVOID SaveBuf,
-  _In_  UINT32                           SaveBufSize,
-  _Out_ PUINT32                          BytesNeeded
-)
-{ ... }
-
-typedef EVT_VMB_CHANNEL_SAVE_PACKET PFN_VMB_CHANNEL_SAVE_PACKET;
-````
-
-
 ## -parameters
 
 
@@ -121,7 +102,7 @@ Size necessary to save the state of the transaction, in bytes.
 
 
 
-The <a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbserverchannelinitsetsaverestorepacketcallbacks.md">VmbServerChannelInitSetSaveRestorePacketCallbacks</a> function sets a callback function for saving packets for each channel.
+The <a href="https://msdn.microsoft.com/2E704BF1-21E2-498E-82C2-2B55BF44D044">VmbServerChannelInitSetSaveRestorePacketCallbacks</a> function sets a callback function for saving packets for each channel.
 
 The VSP saves the state associated with the transaction that is unique to the VSP.  The Kernel Mode Client Library (KMCL)
 saves its own state.
@@ -135,10 +116,10 @@ the length stipulated in the first call.
 
 ## -see-also
 
-<a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbserverchannelinitsetsaverestorepacketcallbacks.md">VmbServerChannelInitSetSaveRestorePacketCallbacks</a>
 
 
 
+<a href="https://msdn.microsoft.com/2E704BF1-21E2-498E-82C2-2B55BF44D044">VmbServerChannelInitSetSaveRestorePacketCallbacks</a>
  
 
  

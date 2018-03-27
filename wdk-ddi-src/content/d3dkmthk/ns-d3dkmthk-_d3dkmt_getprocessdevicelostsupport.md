@@ -54,18 +54,6 @@ req.typenames: D3DKMT_GETPROCESSDEVICELOSTSUPPORT
 Used to get the indicated process.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DKMT_GETPROCESSDEVICELOSTSUPPORT {
-  HANDLE  hProcess;
-  LUID    AdapterLuid;
-  BOOLEAN Support;
-} D3DKMT_GETPROCESSDEVICELOSTSUPPORT;
-````
-
-
 ## -struct-fields
 
 

@@ -52,17 +52,6 @@ req.typenames: TOKEN_TYPE
 The <b>SeAppendPrivileges</b> routine appends additional privileges to the privilege set in an access state structure.
 
 
-## -syntax
-
-
-````
-NTSTATUS SeAppendPrivileges(
-  _Inout_ PACCESS_STATE  AccessState,
-  _In_    PPRIVILEGE_SET Privileges
-);
-````
-
-
 ## -parameters
 
 
@@ -128,30 +117,30 @@ For more information about security and access control, see the documentation on
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_access_state.md">ACCESS_STATE</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-sefreeprivileges.md">SeFreePrivileges</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538840">ACCESS_STATE</a>
 
 
 
-<a href="..\wdm\ns-wdm-_privilege_set.md">PRIVILEGE_SET</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551860">PRIVILEGE_SET</a>
 
 
 
-<a href="..\wdm\nf-wdm-seaccesscheck.md">SeAccessCheck</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563674">SeAccessCheck</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-sesetaccessstategenericmapping.md">SeSetAccessStateGenericMapping</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556656">SeFreePrivileges</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-seprivilegecheck.md">SePrivilegeCheck</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556686">SePrivilegeCheck</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556707">SeSetAccessStateGenericMapping</a>
  
 
  

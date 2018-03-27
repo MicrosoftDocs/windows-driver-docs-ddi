@@ -52,19 +52,6 @@ req.typenames: D3D12DDI_VIDEO_PROCESS_FILTER_RANGE_0020
 Defines the range of supported values for an image filter.
 
 
-## -syntax
-
-
-````
-typedef struct D3D12DDI_VIDEO_PROCESS_FILTER_RANGE_0020 {
-  INT   Minimum;
-  INT   Maximum;
-  INT   Default;
-  FLOAT Multiplier;
-} D3D12DDI_VIDEO_PROCESS_FILTER_RANGE_0020;
-````
-
-
 ## -struct-fields
 
 

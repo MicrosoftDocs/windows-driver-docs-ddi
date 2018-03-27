@@ -56,17 +56,6 @@ req.product: Windows 10 or later.
 The <b>KsIsBusEnumChildDevice</b> function determines if the given device object is a child device of the demand-load bus enumerator object. 
 
 
-## -syntax
-
-
-````
-NTSTATUS KsIsBusEnumChildDevice(
-  _In_  PDEVICE_OBJECT DeviceObject,
-  _Out_ PBOOLEAN       ChildDevice
-);
-````
-
-
 ## -parameters
 
 

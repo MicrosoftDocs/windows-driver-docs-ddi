@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
@@ -54,17 +54,7 @@ req.product: Windows 10 or later.
                         Initializes the <b>UCMTCPCI_PORT_CONTROLLER_ALERT_DATA</b> structure.
                 
             
-        Call this function before calling <a href="..\ucmtcpciportcontroller\nf-ucmtcpciportcontroller-ucmtcpciportcontrolleralert.md">UcmTcpciPortControllerAlert</a>.
-
-
-## -syntax
-
-
-````
-VOID UCMTCPCI_PORT_CONTROLLER_ALERT_DATA_INIT(
-  _Out_ PUCMTCPCI_PORT_CONTROLLER_ALERT_DATA AlertData
-);
-````
+        Call this function before calling <a href="https://msdn.microsoft.com/library/windows/hardware/mt805843">UcmTcpciPortControllerAlert</a>.
 
 
 ## -parameters

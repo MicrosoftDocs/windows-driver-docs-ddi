@@ -52,21 +52,6 @@ req.typenames: MSiSCSI_HBASessionConfig, *PMSiSCSI_HBASessionConfig
 The MSiSCSI_HBASessionConfig structure contains the default logon characteristics that a particular instance of a storage miniport driver uses to create a logon session with a target device. 
 
 
-## -syntax
-
-
-````
-typedef struct _MSiSCSI_HBASessionConfig {
-  BOOLEAN InitialR2T;
-  BOOLEAN ImmediateData;
-  ULONG   MaxRecvDataSegmentLength;
-  ULONG   MaxBurstLength;
-  ULONG   FirstBurstLength;
-  ULONG   MaxOutstandingR2T;
-} MSiSCSI_HBASessionConfig, *PMSiSCSI_HBASessionConfig;
-````
-
-
 ## -struct-fields
 
 
@@ -119,10 +104,10 @@ It is optional that you implement this class.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563022">MSiSCSI_HBASessionConfig WMI Class</a>
-
-
-
  
 
  

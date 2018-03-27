@@ -52,17 +52,6 @@ req.typenames: ISCSI_DiscoveredTargetPortalGroup, *PISCSI_DiscoveredTargetPortal
 The ISCSI_DiscoveredTargetPortalGroup structure contains information about a discovered target portal group.
 
 
-## -syntax
-
-
-````
-typedef struct _ISCSI_DiscoveredTargetPortalGroup {
-  ULONG                        PortalCount;
-  ISCSI_DiscoveredTargetPortal Portals[1];
-} ISCSI_DiscoveredTargetPortalGroup, *PISCSI_DiscoveredTargetPortalGroup;
-````
-
-
 ## -struct-fields
 
 
@@ -75,7 +64,7 @@ The number of portals in the group.
 
 ### -field Portals
 
-An array of <a href="..\iscsifnd\ns-iscsifnd-_iscsi_discoveredtargetportal.md">ISCSI_DiscoveredTargetPortal</a> structures, which describe target portals. 
+An array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff561509">ISCSI_DiscoveredTargetPortal</a> structures, which describe target portals. 
 
 
 ## -remarks
@@ -89,11 +78,10 @@ The WMI tool suite automatically generates a declaration of the ISCSI_Discovered
 
 ## -see-also
 
-<a href="..\iscsifnd\ns-iscsifnd-_iscsi_discoveredtargetportal.md">ISCSI_DiscoveredTargetPortal</a>
 
 
 
-<a href="..\iscsifnd\ns-iscsifnd-_iscsi_discoveredtargetportalgroup2.md">ISCSI_DiscoveredTargetPortalGroup2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561509">ISCSI_DiscoveredTargetPortal</a>
 
 
 
@@ -101,6 +89,7 @@ The WMI tool suite automatically generates a declaration of the ISCSI_Discovered
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561517">ISCSI_DiscoveredTargetPortalGroup2</a>
  
 
  

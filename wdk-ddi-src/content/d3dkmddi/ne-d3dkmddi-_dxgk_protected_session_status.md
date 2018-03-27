@@ -54,17 +54,6 @@ req.typenames: DXGK_PROTECTED_SESSION_STATUS
 Used to indicate the status of the current session.
 
 
-## -syntax
-
-
-````
-typedef enum _DXGK_PROTECTED_SESSION_STATUS { 
-  DXGK_PROTECTED_SESSION_STATUS_OK       = 0,
-  DXGK_PROTECTED_SESSION_STATUS_INVALID  = 1
-} DXGK_PROTECTED_SESSION_STATUS;
-````
-
-
 ## -enum-fields
 
 

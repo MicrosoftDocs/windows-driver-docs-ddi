@@ -52,20 +52,6 @@ req.typenames: DXVA_SampleFlags
 The DXVA_SampleFlags enumeration type contains a collection of flags that identify changes in the current sample frame from the previous sample frame.
 
 
-## -syntax
-
-
-````
-typedef enum _DXVA_SampleFlags { 
-  DXVA_SampleFlagsMask               = DXVABit(3)|DXVABit(2)|DXVABit(1)|DXVABit(0),
-  DXVA_SampleFlag_Palette_Changed    = 0x0001,
-  DXVA_SampleFlag_SrcRect_Changed    = 0x0002,
-  DXVA_SampleFlag_DstRect_Changed    = 0x0004,
-  DXVA_SampleFlag_ColorData_Changed  = 0x0008
-} DXVA_SampleFlags;
-````
-
-
 ## -enum-fields
 
 
@@ -98,11 +84,10 @@ Indicates that the color data of the sample frame changed.
 
 ## -see-also
 
-<a href="..\dxva\ns-dxva-_dxva_deinterlacebltex.md">DXVA_DeinterlaceBltEx</a>
 
 
 
-<a href="..\dxva\ns-dxva-_dxva_videosample2.md">DXVA_VideoSample2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563915">DXVA_DeinterlaceBltEx</a>
 
 
 
@@ -110,6 +95,7 @@ Indicates that the color data of the sample frame changed.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564092">DXVA_VideoSample2</a>
  
 
  

@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: Any
 topic_type:
@@ -53,21 +53,6 @@ req.product: Windows 10 or later.
 Notifies the Storport port driver of a state change for a logical unit number (LUN), host bus adapter (HBA) port, or target device.
 
 
-## -syntax
-
-
-````
-ULONG StorPortStateChangeDetected(
-  _In_     PVOID            HwDeviceExtension,
-  _In_     ULONG            ChangedEntity,
-  _In_     PSTOR_ADDRESS    Address,
-  _In_     ULONG            Attributes,
-  _In_opt_ PHW_STATE_CHANGE HwStateChange,
-  _In_opt_ ULONG            HwStateChangeContext
-);
-````
-
-
 ## -parameters
 
 
@@ -75,7 +60,7 @@ ULONG StorPortStateChangeDetected(
 
 ### -param HwDeviceExtension [in]
 
-A pointer to the hardware device extension. This is a per-HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the mapped access ranges for the HBA. This area is available to the miniport driver immediately after the miniport driver calls <a href="..\storport\nf-storport-storportinitialize.md">StorPortInitialize</a>. The port driver frees this memory when it removes the device.
+A pointer to the hardware device extension. This is a per-HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the mapped access ranges for the HBA. This area is available to the miniport driver immediately after the miniport driver calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff567108">StorPortInitialize</a>. The port driver frees this memory when it removes the device.
 
 
 ### -param ChangedEntity [in]
@@ -227,10 +212,10 @@ If multiple flags are specified in <i>ChangedEntity</i>, the  flag with greater 
 
 ## -see-also
 
-<a href="..\storport\nc-storport-hw_state_change.md">HwStorStateChange</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451310">HwStorStateChange</a>
  
 
  

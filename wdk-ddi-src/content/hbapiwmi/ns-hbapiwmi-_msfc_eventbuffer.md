@@ -52,17 +52,6 @@ req.typenames: MSFC_EventBuffer, *PMSFC_EventBuffer
 The MSFC_EventBuffer structure is used in conjunction with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff553935">GetEventBuffer</a> method to retrieve the next events in the HBA's event queue.
 
 
-## -syntax
-
-
-````
-typedef struct _MSFC_EventBuffer {
-  ULONG EventType;
-  ULONG EventInfo[4];
-} MSFC_EventBuffer, *PMSFC_EventBuffer;
-````
-
-
 ## -struct-fields
 
 
@@ -75,7 +64,7 @@ Indicates the type of the event. The values that can be assigned to this member 
 
 ### -field EventInfo
 
-Contains a structure of type <a href="..\hbaapi\ns-hbaapi-hba_eventinfo.md">HBA_EventInfo</a> that holds information about the events that were retrieved. 
+Contains a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff556048">HBA_EventInfo</a> that holds information about the events that were retrieved. 
 
 
 ## -remarks
@@ -84,18 +73,13 @@ Contains a structure of type <a href="..\hbaapi\ns-hbaapi-hba_eventinfo.md">HBA_
 
 The WMI tool suite generates a declaration for this structure in <i>hbapiwm.h </i>after compiling the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562483">MSFC_EventBuffer WMI Class</a>. 
 
-The <a href="..\hbaapi\ns-hbaapi-hba_eventinfo.md">HBA_EventInfo</a> structure is declared in <i>hbaapi.h</i>. You must include <i>hbaapi.h</i> to reference this structure.
+The <a href="https://msdn.microsoft.com/library/windows/hardware/ff556048">HBA_EventInfo</a> structure is declared in <i>hbaapi.h</i>. You must include <i>hbaapi.h</i> to reference this structure.
 
 
 
 
 ## -see-also
 
-<a href="..\hbaapi\ns-hbaapi-hba_eventinfo.md">HBA_EventInfo</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553935">GetEventBuffer</a>
 
 
 
@@ -103,6 +87,11 @@ The <a href="..\hbaapi\ns-hbaapi-hba_eventinfo.md">HBA_EventInfo</a> structure i
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553935">GetEventBuffer</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556048">HBA_EventInfo</a>
  
 
  

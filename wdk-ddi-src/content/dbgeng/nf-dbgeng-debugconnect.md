@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -50,18 +50,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>DebugConnect</b> and <b>DebugConnectWide</b> functions create a new client object and return an interface pointer to it.  The client object will be connected to a remote host.
-
-
-## -syntax
-
-
-````
-HRESULT DebugConnect(
-  _In_  PCSTR  RemoteOptions,
-  _In_  REFIID InterfaceId,
-  _Out_ PVOID  *Interface
-);
-````
 
 
 ## -parameters
@@ -123,7 +111,6 @@ As with <b>IUnknown::QueryInterface</b>, when the returned interface is no longe
 
 ## -see-also
 
-Process Server and Smart Client
 
 
 
@@ -131,6 +118,7 @@ Process Server and Smart Client
 
 
 
+Process Server and Smart Client
  
 
  

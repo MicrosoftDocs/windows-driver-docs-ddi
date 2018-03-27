@@ -52,55 +52,6 @@ req.typenames: D3DDDI_SYNCHRONIZATIONOBJECTINFO2
 The <b>D3DDDI_SYNCHRONIZATIONOBJECTINFO2</b> structure contains information about a second-generation synchronization object.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DDDI_SYNCHRONIZATIONOBJECTINFO2 {
-  D3DDDI_SYNCHRONIZATIONOBJECT_TYPE  Type;
-  D3DDDI_SYNCHRONIZATIONOBJECT_FLAGS Flags;
-  union {
-    struct {
-      BOOL InitialState;
-    } SynchronizationMutex;
-    struct {
-      UINT MaxCount;
-      UINT InitialCount;
-    } Semaphore;
-    struct {
-      UINT64 FenceValue;
-    } Fence;
-    struct {
-      HANDLE Event;
-    } CPUNotification;
-#if ((DXGKDDI_INTERFACE_VERSION >= DXGKDDI_INTERFACE_VERSION_WDDM2_0) || \
-     (D3D_UMD_INTERFACE_VERSION >= D3D_UMD_INTERFACE_VERSION_WDDM2_0))
-    struct {
-      UINT64                 InitialFenceValue;
-      VOID                   *FenceValueCPUVirtualAddress;
-      D3DGPU_VIRTUAL_ADDRESS FenceValueGPUVirtualAddress;
-      UINT                   EngineAffinity;
-    } MonitoredFence;
-#endif 
-#if ((DXGKDDI_INTERFACE_VERSION >= DXGKDDI_INTERFACE_VERSION_WDDM2_2) || \
-     (D3D_UMD_INTERFACE_VERSION >= D3D_UMD_INTERFACE_VERSION_WDDM2_2))
-    struct {
-      D3DKMT_HANDLE                  hAdapter;
-      D3DDDI_VIDEO_PRESENT_TARGET_ID 	VidPnTargetID;
-      UINT64                         Time;
-      VOID                           *FenceValueCPUVirtualAddress;
-      D3DGPU_VIRTUAL_ADDRESS         FenceValueGPUVirtualAddress;
-      UINT                           EngineAffinity;
-    } PeriodicMonitoredFence;
-    struct {
-      UINT64 Reserved[8];
-    } Reserved;
-  };
-  D3DKMT_HANDLE                      SharedHandle;
-} D3DDDI_SYNCHRONIZATIONOBJECTINFO2;
-````
-
-
 ## -struct-fields
 
 
@@ -108,12 +59,12 @@ typedef struct _D3DDDI_SYNCHRONIZATIONOBJECTINFO2 {
 
 ### -field Type
 
-[in] A value of type <a href="..\d3dukmdt\ne-d3dukmdt-_d3dddi_synchronizationobject_type.md">D3DDDI_SYNCHRONIZATIONOBJECT_TYPE</a> that indicates the type of synchronization object.
+[in] A value of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff544669">D3DDDI_SYNCHRONIZATIONOBJECT_TYPE</a> that indicates the type of synchronization object.
 
 
 ### -field Flags
 
-[in] A <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_synchronizationobject_flags.md">D3DDDI_SYNCHRONIZATIONOBJECT_FLAGS</a> structure that specifies, in bit-field flags, attributes of the synchronization object. 
+[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff544662">D3DDDI_SYNCHRONIZATIONOBJECT_FLAGS</a> structure that specifies, in bit-field flags, attributes of the synchronization object. 
 
 
 ### -field SynchronizationMutex
@@ -251,27 +202,27 @@ An array of 64-bit values that are reserved for future use.
 
 ### -field SharedHandle
 
-[out] A handle to the shared synchronization object if a shared handle currently exists. The shared handle is returned from the call to the <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtcreatesynchronizationobject2.md">D3DKMTCreateSynchronizationObject2</a> function. 
+[out] A handle to the shared synchronization object if a shared handle currently exists. The shared handle is returned from the call to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff546879">D3DKMTCreateSynchronizationObject2</a> function. 
 
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtcreatesynchronizationobject2.md">D3DKMTCreateSynchronizationObject2</a>
 
 
 
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_synchronizationobject_flags.md">D3DDDI_SYNCHRONIZATIONOBJECT_FLAGS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544662">D3DDDI_SYNCHRONIZATIONOBJECT_FLAGS</a>
 
 
 
-<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddi_synchronizationobject_type.md">D3DDDI_SYNCHRONIZATIONOBJECT_TYPE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544669">D3DDDI_SYNCHRONIZATIONOBJECT_TYPE</a>
 
 
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_createsynchronizationobject2.md">D3DKMT_CREATESYNCHRONIZATIONOBJECT2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546879">D3DKMTCreateSynchronizationObject2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547854">D3DKMT_CREATESYNCHRONIZATIONOBJECT2</a>
  
 
  

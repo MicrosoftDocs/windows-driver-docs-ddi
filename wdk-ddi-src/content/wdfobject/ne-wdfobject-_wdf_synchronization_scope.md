@@ -55,20 +55,6 @@ req.product: Windows 10 or later.
 The WDF_SYNCHRONIZATION_SCOPE enumeration type specifies how the framework will synchronize execution of an object's event callback functions.
 
 
-## -syntax
-
-
-````
-typedef enum _WDF_SYNCHRONIZATION_SCOPE { 
-  WdfSynchronizationScopeInvalid            = 0x00,
-  WdfSynchronizationScopeInheritFromParent  = 0x1,
-  WdfSynchronizationScopeDevice             = 0x2,
-  WdfSynchronizationScopeQueue              = 0x3,
-  WdfSynchronizationScopeNone               = 0x4
-} WDF_SYNCHRONIZATION_SCOPE;
-````
-
-
 ## -enum-fields
 
 
@@ -115,7 +101,7 @@ The framework does not synchronize the object's event callback functions, so the
 
 
 
-Drivers use the WDF_SYNCHRONIZATION_SCOPE enumeration type to specify the <b>SynchronizationScope</b> member of an object's <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a> structure.
+Drivers use the WDF_SYNCHRONIZATION_SCOPE enumeration type to specify the <b>SynchronizationScope</b> member of an object's <a href="https://msdn.microsoft.com/library/windows/hardware/ff552400">WDF_OBJECT_ATTRIBUTES</a> structure.
 
 You can specify a <b>SynchronizationScope</b> value for only the following objects:
 
@@ -142,10 +128,10 @@ For more information about synchronization of a driver's event callback function
 
 ## -see-also
 
-<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552400">WDF_OBJECT_ATTRIBUTES</a>
  
 
  

@@ -53,23 +53,7 @@ req.typenames: D3DHAL_DP2SURFACEBLT
    DirectX 9.0 and later versions only.
    
 
-D3DHAL_DP2SURFACEBLT is used for two dimensional system memory to video memory surface blts when <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a> responds to the D3DDP2OP_SURFACEBLT command token.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DHAL_DP2SURFACEBLT {
-  DWORD dwSource;
-  RECTL rSource;
-  DWORD dwSourceMipLevel;
-  DWORD dwDest;
-  RECTL rDest;
-  DWORD dwDestMipLevel;
-  DWORD Flags;
-} D3DHAL_DP2SURFACEBLT, *LPD3DHAL_DP2SURFACEBLT;
-````
+D3DHAL_DP2SURFACEBLT is used for two dimensional system memory to video memory surface blts when <a href="https://msdn.microsoft.com/6128ff7a-0d2c-48df-8b5e-cab33c5a74f5">D3dDrawPrimitives2</a> responds to the D3DDP2OP_SURFACEBLT command token.
 
 
 ## -struct-fields
@@ -125,6 +109,9 @@ The <b>dwSource</b> or <b>dwDest</b> member specifies the kernel handle to the t
 
 ## -see-also
 
+
+
+
 D3DDP2OP_BLT
 
 
@@ -133,14 +120,11 @@ D3DDP2OP_SURFACEBLT
 
 
 
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545454">D3DHAL_DP2COMMAND</a>
 
 
 
-<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
-
-
-
+<a href="https://msdn.microsoft.com/6128ff7a-0d2c-48df-8b5e-cab33c5a74f5">D3dDrawPrimitives2</a>
  
 
  

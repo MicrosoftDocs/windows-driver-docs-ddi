@@ -49,19 +49,7 @@ req.typenames: D3DKMT_OPENSYNCOBJECTNTHANDLEFROMNAME
 ## -description
 
 
-<b>D3DKMT_OPENSYNCOBJECTNTHANDLEFROMNAME</b> is used with <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtopensyncobjectnthandlefromname.md">D3DKMTOpenSyncObjectNtHandleFromName</a> to open an NT handle for a named shared monitored fence object.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DKMT_OPENSYNCOBJECTNTHANDLEFROMNAME {
-  DWORD             dwDesiredAccess;
-  OBJECT_ATTRIBUTES *pObjAttrib;
-  HANDLE            hNtHandle;
-} D3DKMT_OPENSYNCOBJECTNTHANDLEFROMNAME;
-````
+<b>D3DKMT_OPENSYNCOBJECTNTHANDLEFROMNAME</b> is used with <a href="https://msdn.microsoft.com/library/windows/hardware/dn906779">D3DKMTOpenSyncObjectNtHandleFromName</a> to open an NT handle for a named shared monitored fence object.
 
 
 ## -struct-fields
@@ -81,19 +69,19 @@ typedef struct _D3DKMT_OPENSYNCOBJECTNTHANDLEFROMNAME {
 
 ### -field hNtHandle
 
-[out] NT handle to the sync object that can be used to open it via <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtopensyncobjectfromnthandle2.md">D3DKMTOpenSyncObjectFromNtHandle2</a>.
+[out] NT handle to the sync object that can be used to open it via <a href="https://msdn.microsoft.com/library/windows/hardware/dn906778">D3DKMTOpenSyncObjectFromNtHandle2</a>.
 
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtopensyncobjectnthandlefromname.md">D3DKMTOpenSyncObjectNtHandleFromName</a>
 
 
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtopensyncobjectfromnthandle2.md">D3DKMTOpenSyncObjectFromNtHandle2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn906778">D3DKMTOpenSyncObjectFromNtHandle2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn906779">D3DKMTOpenSyncObjectNtHandleFromName</a>
  
 
  

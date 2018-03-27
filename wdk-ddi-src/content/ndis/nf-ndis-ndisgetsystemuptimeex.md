@@ -55,16 +55,6 @@ The
   computer was restarted.
 
 
-## -syntax
-
-
-````
-VOID NdisGetSystemUpTimeEx(
-  _Out_ PLARGE_INTEGER pSystemUpTime
-);
-````
-
-
 ## -parameters
 
 
@@ -98,10 +88,10 @@ NDIS drivers should call the
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552110">NdisGetSystemUpTime</a>
-
-
-
  
 
  

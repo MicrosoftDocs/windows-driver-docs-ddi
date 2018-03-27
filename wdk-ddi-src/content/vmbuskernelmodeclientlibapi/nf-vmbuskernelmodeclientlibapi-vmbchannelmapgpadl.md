@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -53,19 +53,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 The <b>VmbChannelMapGpadl</b>  function maps a client-side buffer into server-side physical address space by using a Guest Physical Address Descriptor List (GPADL) number. 
-
-
-## -syntax
-
-
-````
-NTSTATUS VmbChannelMapGpadl(
-  _In_  VMBCHANNEL Channel,
-  _In_  UINT32     Flags,
-  _In_  UINT32     GpadlHandle,
-  _Out_ PMDL       *Mdl
-);
-````
 
 
 ## -parameters
@@ -125,26 +112,26 @@ additional steps to map it into virtual address space.
 
 
 
-The GPADL must have been pre-established by the client, for instance, by using the <a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbchannelcreategpadlfrombuffer.md">VmbChannelCreateGpadlFromBuffer</a> function.  
+The GPADL must have been pre-established by the client, for instance, by using the <a href="https://msdn.microsoft.com/B45E2463-1EBC-4F32-B3AD-8331E664BB24">VmbChannelCreateGpadlFromBuffer</a> function.  
 
 Only a single mapping may exist for any given GPADL at a time.  
 
 You must pair calls to this
-function with calls to the <a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbchannelunmapgpadl.md">VmbChannelUnmapGpadl</a> function.
+function with calls to the <a href="https://msdn.microsoft.com/EE300158-D7D8-4353-B205-362232A22568">VmbChannelUnmapGpadl</a> function.
 
 
 
 
 ## -see-also
 
-<a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbchannelcreategpadlfrombuffer.md">VmbChannelCreateGpadlFromBuffer</a>
 
 
 
-<a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbchannelunmapgpadl.md">VmbChannelUnmapGpadl</a>
+<a href="https://msdn.microsoft.com/B45E2463-1EBC-4F32-B3AD-8331E664BB24">VmbChannelCreateGpadlFromBuffer</a>
 
 
 
+<a href="https://msdn.microsoft.com/EE300158-D7D8-4353-B205-362232A22568">VmbChannelUnmapGpadl</a>
  
 
  

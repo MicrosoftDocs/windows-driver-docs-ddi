@@ -49,21 +49,7 @@ req.typenames: D3DKMT_RECLAIMALLOCATIONS
 ## -description
 
 
-Describes video memory resources that are to be reclaimed and that the driver  previously offered  for reuse. Used with the  <a href="..\d3dkmthk\nc-d3dkmthk-pfnd3dkmt_reclaimallocations.md">D3DKMTReclaimAllocations</a> function.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DKMT_RECLAIMALLOCATIONS {
-  D3DKMT_HANDLE       hDevice;
-  D3DKMT_HANDLE       *pResources;
-  const D3DKMT_HANDLE *HandleList;
-  BOOL                *pDiscarded;
-  UINT                NumAllocations;
-} D3DKMT_RECLAIMALLOCATIONS;
-````
+Describes video memory resources that are to be reclaimed and that the driver  previously offered  for reuse. Used with the  <a href="https://msdn.microsoft.com/library/windows/hardware/hh439451">D3DKMTReclaimAllocations</a> function.
 
 
 ## -struct-fields
@@ -106,10 +92,10 @@ The value of <b>pDiscarded</b> can be <b>NULL</b>. If the driver sets it to <b>N
 
 ## -see-also
 
-<a href="..\d3dkmthk\nc-d3dkmthk-pfnd3dkmt_reclaimallocations.md">D3DKMTReclaimAllocations</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439451">D3DKMTReclaimAllocations</a>
  
 
  

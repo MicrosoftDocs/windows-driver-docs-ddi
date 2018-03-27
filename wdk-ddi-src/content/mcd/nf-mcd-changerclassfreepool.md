@@ -50,17 +50,7 @@ req.typenames: LAMP_INTENSITY_WHITE
 ## -description
 
 
-The <b>ChangerClassFreePool</b> routine frees pool memory previously allocated using <a href="..\mcd\nf-mcd-changerclassallocatepool.md">ChangerClassAllocatePool</a>. 
-
-
-## -syntax
-
-
-````
-VOID ChangerClassFreePool(
-  _In_ PVOID PoolToFree
-);
-````
+The <b>ChangerClassFreePool</b> routine frees pool memory previously allocated using <a href="https://msdn.microsoft.com/library/windows/hardware/ff551402">ChangerClassAllocatePool</a>. 
 
 
 ## -parameters
@@ -84,10 +74,10 @@ None
 
 ## -see-also
 
-<a href="..\mcd\nf-mcd-changerclassallocatepool.md">ChangerClassAllocatePool</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551402">ChangerClassAllocatePool</a>
  
 
  

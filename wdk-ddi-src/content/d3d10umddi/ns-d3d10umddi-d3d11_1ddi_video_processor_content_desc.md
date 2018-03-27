@@ -52,23 +52,6 @@ req.typenames: D3D11_1DDI_VIDEO_PROCESSOR_CONTENT_DESC
 Describes a video stream for a video processor.
 
 
-## -syntax
-
-
-````
-typedef struct D3D11_1DDI_VIDEO_PROCESSOR_CONTENT_DESC {
-  D3D11_1DDI_VIDEO_FRAME_FORMAT InputFrameFormat;
-  DXGI_RATIONAL                 InputFrameRate;
-  UINT                          InputWidth;
-  UINT                          InputHeight;
-  DXGI_RATIONAL                 OutputFrameRate;
-  UINT                          OutputWidth;
-  UINT                          OutputHeight;
-  D3D11_1DDI_VIDEO_USAGE        Usage;
-} D3D11_1DDI_VIDEO_PROCESSOR_CONTENT_DESC;
-````
-
-
 ## -struct-fields
 
 
@@ -76,7 +59,7 @@ typedef struct D3D11_1DDI_VIDEO_PROCESSOR_CONTENT_DESC {
 
 ### -field InputFrameFormat
 
-A member of the <a href="..\d3d10umddi\ne-d3d10umddi-d3d11_1ddi_video_frame_format.md">D3D11_1DDI_VIDEO_FRAME_FORMAT</a> enumeration that describes how the video stream is interlaced.
+A member of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh450954">D3D11_1DDI_VIDEO_FRAME_FORMAT</a> enumeration that describes how the video stream is interlaced.
 
 
 ### -field InputFrameRate
@@ -111,23 +94,23 @@ The height of the output frames, in pixels.
 
 ### -field Usage
 
-A member of the <a href="..\d3d10umddi\ne-d3d10umddi-d3d11_1ddi_video_usage.md">D3D11_1DDI_VIDEO_USAGE</a> enumeration that describes how the video processor will be used. The value indicates the desired trade-off between speed and video quality. The driver uses this flag as a hint when it creates the video processor.
+A member of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451037">D3D11_1DDI_VIDEO_USAGE</a> enumeration that describes how the video processor will be used. The value indicates the desired trade-off between speed and video quality. The driver uses this flag as a hint when it creates the video processor.
 
 
 ## -see-also
 
-<a href="..\d3d10umddi\ne-d3d10umddi-d3d11_1ddi_video_frame_format.md">D3D11_1DDI_VIDEO_FRAME_FORMAT</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450954">D3D11_1DDI_VIDEO_FRAME_FORMAT</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451037">D3D11_1DDI_VIDEO_USAGE</a>
 
 
 
 <a href="https://msdn.microsoft.com/0a878d11-dc90-4cad-bde5-54a135e53a86">DXGI_RATIONAL</a>
-
-
-
-<a href="..\d3d10umddi\ne-d3d10umddi-d3d11_1ddi_video_usage.md">D3D11_1DDI_VIDEO_USAGE</a>
-
-
-
  
 
  

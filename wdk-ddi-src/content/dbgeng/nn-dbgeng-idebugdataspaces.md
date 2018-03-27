@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -113,7 +113,7 @@ Reads from the system and bus I/O memory.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="..\wdbgexts\nf-wdbgexts-readmsr.md">ReadMsr</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554292">ReadMsr</a>
 </td>
 <td align="left" width="63%">
 Reads a specified Model-Specific Register (MSR).
@@ -122,7 +122,7 @@ Reads a specified Model-Specific Register (MSR).
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="..\wdbgexts\nf-wdbgexts-readphysical.md">ReadPhysical</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554313">ReadPhysical</a>
 </td>
 <td align="left" width="63%">
 Reads the target's memory from the specified physical address.
@@ -204,7 +204,7 @@ Writes to the system and bus I/O memory.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="..\wdbgexts\nf-wdbgexts-writemsr.md">WriteMsr</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561424">WriteMsr</a>
 </td>
 <td align="left" width="63%">
 Writes a value to the specified Model-Specific Register (MSR).
@@ -213,7 +213,7 @@ Writes a value to the specified Model-Specific Register (MSR).
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="..\wdbgexts\nf-wdbgexts-writephysical.md">WritePhysical</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561432">WritePhysical</a>
 </td>
 <td align="left" width="63%">
 Writes data to the specified physical address in the target's memory.
@@ -252,18 +252,18 @@ Writes data to the target's virtual address space.
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugdataspaces4.md">IDebugDataSpaces4</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugdataspaces3.md">IDebugDataSpaces3</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550531">IDebugDataSpaces2</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugdataspaces2.md">IDebugDataSpaces2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550537">IDebugDataSpaces3</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550546">IDebugDataSpaces4</a>
  
 
  

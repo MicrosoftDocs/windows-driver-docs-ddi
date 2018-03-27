@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: Microsoft.WDTF
 req.assembly: WDTFInterfaces.Interop.dll
 req.type-library: 
-req.lib: wdtfinterfaces.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -103,13 +103,13 @@ Performs a small amount of simple I/O to the device.
 
 
 The <b>IWDTFSimpleIOEx2</b> action interface acts on an instance of the 
-<a href="..\wdtf\nn-wdtf-iwdtftarget2.md">IWDTFTarget2</a> interface that is retrieved by querying the 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439367">IWDTFTarget2</a> interface that is retrieved by querying the 
 device depot. You can retrieve a target-specific implementation of an action interface by calling the 
 <a href="https://msdn.microsoft.com/dddd631e-7ccf-4554-9236-b567c5108fe2">IWDTFTarget2::GetInterface</a> method with the 
 desired WDTF <i>ProgID.</i>
 
 For an asynchronous interface for this same underlying functionality, 
-see <a href="..\wdtfinterfaces\nn-wdtfinterfaces-iwdtfsimpleiostressaction2.md">IWDTFSimpleIOStressAction2</a>. 
+see <a href="https://msdn.microsoft.com/library/windows/hardware/hh451157">IWDTFSimpleIOStressAction2</a>. 
 
 The <b>IWDTFSimpleIOEx2</b> action interface is compatible with the following device 
 classes:

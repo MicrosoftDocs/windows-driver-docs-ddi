@@ -52,16 +52,6 @@ req.typenames: DEBUG_LAST_EVENT_INFO_EXIT_THREAD, *PDEBUG_LAST_EVENT_INFO_EXIT_T
 Describes the exit thread of the last event.
 
 
-## -syntax
-
-
-````
-typedef struct _DEBUG_LAST_EVENT_INFO_EXIT_THREAD {
-  ULONG ExitCode;
-} DEBUG_LAST_EVENT_INFO_EXIT_THREAD, *PDEBUG_LAST_EVENT_INFO_EXIT_THREAD;
-````
-
-
 ## -struct-fields
 
 

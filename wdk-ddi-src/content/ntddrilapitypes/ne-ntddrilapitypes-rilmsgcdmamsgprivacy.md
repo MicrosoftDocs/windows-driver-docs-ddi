@@ -52,19 +52,6 @@ req.typenames: RILMSGCDMAMSGPRIVACY
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef enum _RILMSGCDMAMSGPRIVACY { 
-  RIL_MSGPRIVACYCLASS_RESTRICTED,
-  RIL_MSGPRIVACYCLASS_CONFIDENTIAL,
-  RIL_MSGPRIVACYCLASS_SECRET,
-  RIL_MSGPRIVACYCLASS_MAX
-} RILMSGCDMAMSGPRIVACY;
-````
-
-
 ## -enum-fields
 
 

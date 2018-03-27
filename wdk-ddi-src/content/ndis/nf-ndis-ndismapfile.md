@@ -55,18 +55,6 @@ The
   currently unmapped.
 
 
-## -syntax
-
-
-````
-VOID NdisMapFile(
-  _Out_ PNDIS_STATUS Status,
-  _Out_ PVOID *      MappedBuffer,
-  _In_  NDIS_HANDLE  FileHandle
-);
-````
-
-
 ## -parameters
 
 
@@ -85,7 +73,7 @@ A pointer to a caller-supplied variable in which this function returns the statu
 #### NDIS_STATUS_SUCCESS
 
 The caller has exclusive access to the file contents until the 
-       <a href="..\ndis\nf-ndis-ndisunmapfile.md">NdisUnmapFile</a> function is called.
+       <a href="https://msdn.microsoft.com/library/windows/hardware/ff564641">NdisUnmapFile</a> function is called.
 
 
 
@@ -103,7 +91,7 @@ A pointer to a caller-supplied variable in which this function returns the base 
 ### -param FileHandle [in]
 
 The handle that was returned by a preceding call to the 
-     <a href="..\ndis\nf-ndis-ndisopenfile.md">NdisOpenFile</a> function.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff563728">NdisOpenFile</a> function.
 
 
 ## -returns
@@ -124,11 +112,11 @@ None
     <b>NdisMapFile</b> allows only one mapping of a particular file to be outstanding at any time.
     Consequently, a successful caller is given exclusive access to the file data until 
     <b>NdisUnmapFile</b> or the 
-    <a href="..\ndis\nf-ndis-ndisclosefile.md">NdisCloseFile</a> function is called.
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561645">NdisCloseFile</a> function is called.
 
 A miniport driver can map and unmap such an open file as necessary, using alternating calls to 
     <b>NdisMapFile</b> and 
-    <a href="..\ndis\nf-ndis-ndisunmapfile.md">NdisUnmapFile</a>. A call to 
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff564641">NdisUnmapFile</a>. A call to 
     <b>NdisCloseFile</b> releases the 
     <i>FileHandle</i> and deallocates the buffer containing the file contents.
 
@@ -140,22 +128,22 @@ A miniport driver can call
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisunmapfile.md">NdisUnmapFile</a>
+<a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisclosefile.md">NdisCloseFile</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561645">NdisCloseFile</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisopenfile.md">NdisOpenFile</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563728">NdisOpenFile</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564641">NdisUnmapFile</a>
  
 
  

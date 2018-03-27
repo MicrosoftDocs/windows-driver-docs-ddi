@@ -52,26 +52,12 @@ req.typenames: D3D11_1DDI_GETCAPTUREHANDLEDATA
 The <i>pfnCalcPrivateCommandQueueSize</i> callback function is used to calculate the size of a private command queue. 
 
 
-## -prototype
-
-
-````
-PFND3D12DDI_CALCPRIVATECOMMANDQUEUESIZE_0023 pfnCalcPrivateCommandQueueSize;
-
-SIZE_T APIENTRY* pfnCalcPrivateCommandQueueSize(
-             D3D12DDI_HDEVICE                    hDevice,
-  _In_ const D3D12DDIARG_CREATECOMMANDQUEUE_0023 *CreateCommandQueue
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
 
 
-### -param D3D12DDI_HDEVICE
+### -param Arg1
 
 
 ### -param *

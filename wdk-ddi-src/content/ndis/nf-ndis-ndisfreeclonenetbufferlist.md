@@ -52,22 +52,11 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 
 Call the 
   <b>NdisFreeCloneNetBufferList</b> function to free a 
-  <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure and all associated 
-  <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a> structures and MDL chains that were
+  <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structure and all associated 
+  <a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a> structures and MDL chains that were
   previously allocated by calling the 
-  <a href="..\ndis\nf-ndis-ndisallocateclonenetbufferlist.md">
+  <a href="https://msdn.microsoft.com/357605a1-5c57-44ed-97b3-f466f9a7182c">
   NdisAllocateCloneNetBufferList</a> function.
-
-
-## -syntax
-
-
-````
-VOID NdisFreeCloneNetBufferList(
-  _In_ PNET_BUFFER_LIST CloneNetBufferList,
-  _In_ ULONG            FreeCloneFlags
-);
-````
 
 
 ## -parameters
@@ -99,7 +88,7 @@ Reserved for NDIS.
 #### NDIS_CLONE_FLAGS_USE_ORIGINAL_MDLS
 
 If this flag is set, NDIS did not allocate new MDLs for the cloned NET_BUFFER_LIST in the 
-       <a href="..\ndis\nf-ndis-ndisallocateclonenetbufferlist.md">
+       <a href="https://msdn.microsoft.com/357605a1-5c57-44ed-97b3-f466f9a7182c">
        NdisAllocateCloneNetBufferList</a> function. Instead, the cloned NET_BUFFER_LIST used the same MDL
        chain as in the original NET_BUFFER_LIST. If NDIS_CLONE_FLAGS_USE_ORIGINAL_MDLS is cleared, NDIS
        allocated new MDLs to reference the original data buffers.
@@ -120,7 +109,7 @@ None
 
 The caller must specifiy the same flags that it specified in the 
     <i>AllocateCloneFlags</i> parameter when it called the 
-    <a href="..\ndis\nf-ndis-ndisallocateclonenetbufferlist.md">
+    <a href="https://msdn.microsoft.com/357605a1-5c57-44ed-97b3-f466f9a7182c">
     NdisAllocateCloneNetBufferList</a> function.
 
 
@@ -128,19 +117,19 @@ The caller must specifiy the same flags that it specified in the
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisallocateclonenetbufferlist.md">
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a>
+
+
+
+<a href="https://msdn.microsoft.com/357605a1-5c57-44ed-97b3-f466f9a7182c">
    NdisAllocateCloneNetBufferList</a>
-
-
-
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
-
-
-
  
 
  

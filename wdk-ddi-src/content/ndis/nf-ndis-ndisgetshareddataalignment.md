@@ -54,14 +54,6 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
   by more than one processor.
 
 
-## -syntax
-
-
-````
-ULONG NdisGetSharedDataAlignment(void);
-````
-
-
 ## -parameters
 
 

@@ -7,7 +7,7 @@ old-location: kernel\rtlulongsub.htm
 old-project: kernel
 ms.assetid: 54776F17-C7EE-46DB-BA3F-2F545240FC61
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/1/2018
 ms.keywords: RtlULongSub, RtlULongSub function [Kernel-Mode Driver Architecture], kernel.rtlulongsub, ntintsafe/RtlULongSub
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -50,18 +50,6 @@ req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
 
 
 Subtracts one value of type <b>ULONG</b> from another.
-
-
-## -syntax
-
-
-````
-NTSTATUS RtlULongSub(
-  _In_  UINT8 ulMinuend,
-  _In_  UINT8 ulSubtrahend,
-  _Out_ UINT8 *pulResult
-);
-````
 
 
 ## -parameters

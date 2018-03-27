@@ -52,21 +52,6 @@ req.typenames: MSiSCSI_RequestTimeStatistics, *PMSiSCSI_RequestTimeStatistics
 The MSiSCSI_RequestTimeStatistics structure is used by iSCSI initiators to report request time statistics.
 
 
-## -syntax
-
-
-````
-typedef struct _MSiSCSI_RequestTimeStatistics {
-  WCHAR     iSCSIName[223 + 1];
-  USHORT    CID;
-  ULONGLONG USID;
-  ULONGLONG UniqueAdapterId;
-  ULONG     MaximumProcessingTime;
-  ULONG     AverageProcessingTime;
-} MSiSCSI_RequestTimeStatistics, *PMSiSCSI_RequestTimeStatistics;
-````
-
-
 ## -struct-fields
 
 
@@ -89,7 +74,7 @@ The iSCSI session ID for this connection instance. This ID is an internal value 
 
 ### -field UniqueAdapterId
 
-A 64-bit integer that uniquely identifies an HBA initiator and a loaded instance of a storage miniport driver that manages the HBA. The initiator should use the address of the adapter extension or another address that the device driver owns to construct this identifier (ID). The initiator reports this value in the UniqueAdapterId member of the <a href="..\iscsimgt\ns-iscsimgt-_msiscsi_hbainformation.md">MSiSCSI_HBAInformation</a> structure.
+A 64-bit integer that uniquely identifies an HBA initiator and a loaded instance of a storage miniport driver that manages the HBA. The initiator should use the address of the adapter extension or another address that the device driver owns to construct this identifier (ID). The initiator reports this value in the UniqueAdapterId member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563012">MSiSCSI_HBAInformation</a> structure.
 
 
 ### -field MaximumProcessingTime
@@ -113,6 +98,9 @@ It is optional that you implement this class.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a>
 
 
@@ -121,10 +109,7 @@ It is optional that you implement this class.
 
 
 
-<a href="..\iscsimgt\ns-iscsimgt-_msiscsi_hbainformation.md">MSiSCSI_HBAInformation</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563012">MSiSCSI_HBAInformation</a>
  
 
  

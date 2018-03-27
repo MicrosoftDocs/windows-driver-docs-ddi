@@ -53,22 +53,6 @@ req.product: Windows 10 or later.
 Defines the state of the Type-C connector.
 
 
-## -syntax
-
-
-````
-typedef enum _UCM_TYPEC_PARTNER { 
-  UcmTypeCPartnerStateInvalid               = 0,
-  UcmTypeCPartnerStateUfp ,
-  UcmTypeCPartnerStateDfp ,
-  UcmTypeCPartnerStatePoweredCableNoUfp ,
-  UcmTypeCPartnerStatePoweredCableWithUfp ,
-  UcmTypeCPartnerStateAudioAccessory,
-  UcmTypeCPartnerStateDebugAccessory
-} UCM_TYPEC_PARTNER;
-````
-
-
 ## -enum-fields
 
 
@@ -134,14 +118,14 @@ The partner is an Upstream Facing Port (UFP).
 
 ## -see-also
 
-<a href="..\ucmmanager\nf-ucmmanager-ucmconnectortypecattach.md">UcmConnectorTypeCAttach</a>
 
 
 
-<a href="..\ucmmanager\ns-ucmmanager-_ucm_connector_typec_attach_params.md">UCM_CONNECTOR_TYPEC_ATTACH_PARAMS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt187928">UCM_CONNECTOR_TYPEC_ATTACH_PARAMS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt187915">UcmConnectorTypeCAttach</a>
  
 
  

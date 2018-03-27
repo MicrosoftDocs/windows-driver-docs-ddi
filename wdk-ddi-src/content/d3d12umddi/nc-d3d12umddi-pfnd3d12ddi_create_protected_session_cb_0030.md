@@ -52,18 +52,6 @@ req.typenames: D3D11_1DDI_GETCAPTUREHANDLEDATA
 Used to create a protected session state.
 
 
-## -prototype
-
-
-````
-HRESULT APIENTRY CALLBACK* PFND3D12DDI_CREATE_PROTECTED_SESSION_CB_0030(
-       D3D12DDI_HRTDEVICE                hRTDevice,
-       D3D12DDI_HRTPROTECTEDSESSION_0030 hRTProtectedSession,
-  _In_ pArgs                             *D3D12DDICB_CREATE_PROTECTED_RESOURCE_SESSION
-);
-````
-
-
 ## -parameters
 
 

@@ -53,20 +53,6 @@ req.product: Windows 10 or later.
 The <b>SRBEX_DATA_BIDIRECTIONAL</b> structure contains the extended SRB data for bi-directional transfer commands.
 <div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
-## -syntax
-
-
-````
-typedef struct _SRBEX_DATA_BIDIRECTIONAL {
-  SRBEXDATATYPE       Type;
-  ULONG               Length;
-  ULONG               DataInTransferLength;
-  ULONG               Reserved1;
-  PVOID POINTER_ALIGN DataInBuffer;
-} SRBEX_DATA_BIDIRECTIONAL, *PSRBEX_DATA_BIDIRECTIONAL;
-````
-
-
 ## -struct-fields
 
 
@@ -99,10 +85,10 @@ A pointer to the buffer that contains the data sent from the device.
 
 ## -see-also
 
-<a href="..\storport\ns-storport-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451474">STORAGE_REQUEST_BLOCK</a>
  
 
  

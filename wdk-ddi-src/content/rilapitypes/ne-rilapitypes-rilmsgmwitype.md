@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,22 +51,6 @@ req.product: Windows 10 or later.
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef enum _RILMSGMWITYPE { 
-  RIL_MSGMWITYPE_VOICEMAIL,
-  RIL_MSGMWITYPE_VIDEOMAIL,
-  RIL_MSGMWITYPE_FAX,
-  RIL_MSGMWITYPE_PAGER,
-  RIL_MSGMWITYPE_MULTIMEDIA,
-  RIL_MSGMWITYPE_TEXT,
-  RIL_MSGMWITYPE_MAX
-} RILMSGMWITYPE;
-````
 
 
 ## -enum-fields

@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -50,20 +50,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>GetFieldTypeAndOffsetWide</b>  method returns the type of a field and its offset within a container.
-
-
-## -syntax
-
-
-````
-HRESULT GetFieldTypeAndOffsetWide(
-  [in]            ULONG64 Module,
-  [in]            ULONG   ContainerTypeId,
-  [in]            PCWSTR  Field,
-  [out, optional] PULONG  FieldTypeId,
-  [out, optional] PULONG  Offset
-);
-````
 
 
 ## -parameters
@@ -148,11 +134,6 @@ For more information about types, see <a href="https://msdn.microsoft.com/librar
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549376">GetTypeId</a>
 
 
 
@@ -160,6 +141,11 @@ For more information about types, see <a href="https://msdn.microsoft.com/librar
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549376">GetTypeId</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550870">IDebugSymbols3</a>
  
 
  

@@ -46,11 +46,6 @@ req.typenames: WRITE_ROTATION, *PWRITE_ROTATION
 # IOCTL_CDROM_GET_CONTROL IOCTL
 
 
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
-
 ## -description
 
 
@@ -79,7 +74,7 @@ None.
 
 ### -output-buffer
 
-The driver returns the <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_audio_control.md">CDROM_AUDIO_CONTROL</a> data in the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>.
+The driver returns the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551360">CDROM_AUDIO_CONTROL</a> data in the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>.
 
 
 ### -output-buffer-length
@@ -112,10 +107,10 @@ The <b>Information</b> field is set to the number of bytes returned. The <b>Stat
 
 ## -see-also
 
-<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_audio_control.md">CDROM_AUDIO_CONTROL</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551360">CDROM_AUDIO_CONTROL</a>
  
 
  

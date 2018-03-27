@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -50,17 +50,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>GetStackOffset2</b> method returns the current thread's current stack location.
-
-
-## -syntax
-
-
-````
-HRESULT GetStackOffset2(
-  [in]  ULONG    Source,
-  [out] PULONG64 Offset
-);
-````
 
 
 ## -parameters
@@ -150,7 +139,6 @@ The method was successful.
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugregisters2.md">IDebugRegisters2</a>
 
 
 
@@ -158,6 +146,7 @@ The method was successful.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550835">IDebugRegisters2</a>
  
 
  

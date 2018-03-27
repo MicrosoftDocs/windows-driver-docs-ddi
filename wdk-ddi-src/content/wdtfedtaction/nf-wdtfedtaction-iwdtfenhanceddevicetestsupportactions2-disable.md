@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: wdtfedtaction.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -53,16 +53,6 @@ req.product: Windows 10 or later.
 Disables the Enhanced Device Test (EDT) filter driver on the target device.
 
 
-## -syntax
-
-
-````
-HRESULT Disable(
-  [out, retval] VARIANT_BOOL *pbRebootRequired
-);
-````
-
-
 ## -parameters
 
 
@@ -84,10 +74,10 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="..\wdtfedtaction\nn-wdtfedtaction-iwdtfenhanceddevicetestsupportactions2.md">IWDTFEnhancedDeviceTestSupportActions2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450998">IWDTFEnhancedDeviceTestSupportActions2</a>
  
 
  

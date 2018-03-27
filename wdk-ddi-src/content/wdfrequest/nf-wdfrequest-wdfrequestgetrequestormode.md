@@ -58,16 +58,6 @@ req.product: Windows 10 or later.
 The <b>WdfRequestGetRequestorMode</b> method returns the processor access mode of the originator of a specified I/O request.
 
 
-## -syntax
-
-
-````
-KPROCESSOR_MODE WdfRequestGetRequestorMode(
-  _In_ WDFREQUEST Request
-);
-````
-
-
 ## -parameters
 
 

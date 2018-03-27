@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 The WSK_PROVIDER_CHARACTERISTICS structure specifies the characteristics of the WSK subsystem.
 
 
-## -syntax
-
-
-````
-typedef struct _WSK_PROVIDER_CHARACTERISTICS {
-  USHORT HighestVersion;
-  USHORT LowestVersion;
-} WSK_PROVIDER_CHARACTERISTICS, *PWSK_PROVIDER_CHARACTERISTICS;
-````
-
-
 ## -struct-fields
 
 
@@ -86,9 +75,9 @@ The lowest version of the WSK NPI that is supported by the WSK subsystem.
 
 
 When a 
-    <a href="..\wsk\nf-wsk-wskcaptureprovidernpi.md">WskCaptureProviderNPI</a> call fails
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff571122">WskCaptureProviderNPI</a> call fails
     with status code STATUS_NOINTERFACE, the WSK application can use a call to 
-    <a href="..\wsk\nf-wsk-wskqueryprovidercharacteristics.md">
+    <a href="https://msdn.microsoft.com/b8a81d7e-abab-4343-a044-ac9dd913c7f2">
     WskQueryProviderCharacteristics</a> to query the range of WSK NPI versions supported by the WSK
     subsystem. 
     <b>WskQueryProviderCharacteristics</b> returns the version information by means of the
@@ -126,13 +115,13 @@ Minor = WSK_MINOR_VERSION(Version);</pre>
 </table></span></div>
 If a WSK application determines that the WSK subsystem supports a version of the WSK NPI that is
     compatible with the application, the application should call 
-    <a href="..\wsk\nf-wsk-wskregister.md">WskRegister</a> and, by means of the 
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff571143">WskRegister</a> and, by means of the 
     <b>Dispatch</b> member of the 
-    <a href="..\wsk\ns-wsk-_wsk_client_npi.md">WSK_CLIENT_NPI</a> structure pointed to by the 
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff571163">WSK_CLIENT_NPI</a> structure pointed to by the 
     <i>WskClientNpi</i> parameter, it should specify the exact version of the WSK NPI that it would like to
     use in the 
     <b>Version</b> member of the 
-    <a href="..\wsk\ns-wsk-_wsk_client_dispatch.md">WSK_CLIENT_DISPATCH</a> structure. The WSK
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff571159">WSK_CLIENT_DISPATCH</a> structure. The WSK
     application should specify the remaining members of the WSK_CLIENT_DISPATCH structure to conform with the
     version of the WSK NPI that is specified in the 
     <b>Version</b> member of the structure.
@@ -146,27 +135,27 @@ For more information about attaching a WSK application to the WSK subsystem, see
 
 ## -see-also
 
-<a href="..\wsk\ns-wsk-_wsk_client_npi.md">WSK_CLIENT_NPI</a>
 
 
 
-<a href="..\wsk\nf-wsk-wskqueryprovidercharacteristics.md">
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571159">WSK_CLIENT_DISPATCH</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571163">WSK_CLIENT_NPI</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571122">WskCaptureProviderNPI</a>
+
+
+
+<a href="https://msdn.microsoft.com/b8a81d7e-abab-4343-a044-ac9dd913c7f2">
    WskQueryProviderCharacteristics</a>
 
 
 
-<a href="..\wsk\nf-wsk-wskcaptureprovidernpi.md">WskCaptureProviderNPI</a>
-
-
-
-<a href="..\wsk\ns-wsk-_wsk_client_dispatch.md">WSK_CLIENT_DISPATCH</a>
-
-
-
-<a href="..\wsk\nf-wsk-wskregister.md">WskRegister</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571143">WskRegister</a>
  
 
  

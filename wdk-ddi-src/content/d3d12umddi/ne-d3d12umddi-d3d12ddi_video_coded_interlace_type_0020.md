@@ -52,17 +52,6 @@ req.typenames: D3D12DDI_VIDEO_CODED_INTERLACE_TYPE_0020
 Indicates whether the compressed stream contains only frames (PROGRESSIVE_ONLY) or may contain a mix of progressive and interlaced frames (FIELDS).
 
 
-## -syntax
-
-
-````
-typedef enum D3D12DDI_VIDEO_CODED_INTERLACE_TYPE_0020 { 
-  D3D12DDI_VIDEO_CODED_INTERLACE_TYPE_0020_NONE         = 0,
-  D3D12DDI_VIDEO_CODED_INTERLACE_TYPE_0020_FIELD_BASED  = 1
-} D3D12DDI_VIDEO_CODED_INTERLACE_TYPE_0020;
-````
-
-
 ## -enum-fields
 
 

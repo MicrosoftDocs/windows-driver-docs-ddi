@@ -52,20 +52,6 @@ req.typenames: DXGK_UPDATEPAGETABLEFLAGS
 <b>DXGK_UPDATEPAGETABLEFLAGS</b> is used as part of a page table update operation.
 
 
-## -syntax
-
-
-````
-typedef struct _DXGK_UPDATEPAGETABLEFLAGS {
-  UINT Repeat  :1;
-  UINT InitialUpdate  :1;
-  UINT NotifyEviction  :1;
-  UINT Use64KBPages  :1;
-  UINT Reserved  :28;
-} DXGK_UPDATEPAGETABLEFLAGS;
-````
-
-
 ## -struct-fields
 
 

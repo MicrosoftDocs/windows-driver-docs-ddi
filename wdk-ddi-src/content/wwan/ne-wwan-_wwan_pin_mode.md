@@ -54,19 +54,6 @@ The WWAN_PIN_MODE enumeration lists the different states of a Personal Identific
   type.
 
 
-## -syntax
-
-
-````
-typedef enum _WWAN_PIN_MODE { 
-  WwanPinModeNotSupported  = 0,
-  WwanPinModeEnabled,
-  WwanPinModeDisabled,
-  WwanPinModeMax
-} WWAN_PIN_MODE, *PWWAN_PIN_MODE;
-````
-
-
 ## -enum-fields
 
 
@@ -94,10 +81,10 @@ The total number of supported PIN type states.
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_pin_desc.md">WWAN_PIN_DESC</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571214">WWAN_PIN_DESC</a>
  
 
  

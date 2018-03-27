@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: Microsoft.WDTF
 req.assembly: WDTFSystemAction.Interop.dll
 req.type-library: 
-req.lib: wdtfsystemaction.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -58,25 +58,15 @@ Gets a value that indicates whether the test script restarted as a result of a c
 This property is read-only.
 
 
-## -syntax
-
-
-````
-HRESULT get_IsRestarted(
-  [out, retval] VARIANT_BOOL *pbIsRestarted
-);
-````
-
-
 ## -parameters
 
 
 ## -see-also
 
-<a href="..\wdtfsystemaction\nn-wdtfsystemaction-iwdtfsystemaction2.md">IWDTFSystemAction2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439302">IWDTFSystemAction2</a>
  
 
  

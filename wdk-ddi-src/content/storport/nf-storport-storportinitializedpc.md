@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -53,18 +53,6 @@ req.product: Windows 10 or later.
 The <b>StorPortInitializeDpc</b> routine initializes a StorPort DPC. 
 
 
-## -syntax
-
-
-````
-VOID StorPortInitializeDpc(
-  _In_  PVOID           DeviceExtension,
-  _Out_ PSTOR_DPC       Dpc,
-  _In_  PHW_DPC_ROUTINE HwDpcRoutine
-);
-````
-
-
 ## -parameters
 
 
@@ -77,7 +65,7 @@ Pointer to the per-adapter device extension.
 
 ### -param Dpc [out]
 
-Pointer to a buffer where a DPC object of type <a href="..\storport\ns-storport-_stor_dpc.md">STOR_DPC</a> will be created. The caller must ensure that the size in bytes of this buffer is greater than or equal to <b>sizeof</b>(STOR_DPC). 
+Pointer to a buffer where a DPC object of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff567579">STOR_DPC</a> will be created. The caller must ensure that the size in bytes of this buffer is greater than or equal to <b>sizeof</b>(STOR_DPC). 
 
 
 ### -param HwDpcRoutine [in]
@@ -115,7 +103,7 @@ None.
 
 
 
-The <b>StorPortInitializeDpc</b> routine must be called during HBA initialization from within the miniport driver's <a href="..\storport\nc-storport-hw_passive_initialize_routine.md">HwStorPassiveInitializeRoutine</a> routine. 
+The <b>StorPortInitializeDpc</b> routine must be called during HBA initialization from within the miniport driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff557407">HwStorPassiveInitializeRoutine</a> routine. 
 
 This routine is implemented using inline function definitions, so that miniport drivers that use this routine will not have to link to libraries that are dependent on the version of the operating system. Miniport drivers can use this routine without sacrificing backward compatibility with versions of the operating system that do not support DPCs in storage miniport drivers. 
 
@@ -124,14 +112,14 @@ This routine is implemented using inline function definitions, so that miniport 
 
 ## -see-also
 
-<a href="..\storport\ns-storport-_stor_dpc.md">STOR_DPC</a>
 
 
 
-<a href="..\storport\nc-storport-hw_passive_initialize_routine.md">HwStorPassiveInitializeRoutine</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557407">HwStorPassiveInitializeRoutine</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567579">STOR_DPC</a>
  
 
  

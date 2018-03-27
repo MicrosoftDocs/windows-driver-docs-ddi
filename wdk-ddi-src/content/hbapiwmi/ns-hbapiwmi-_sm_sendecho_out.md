@@ -52,18 +52,6 @@ req.typenames: SM_SendECHO_OUT, *PSM_SendECHO_OUT
 The SM_SendECHO_OUT structure is used to receive output parameters from the SM_SendECHO method.
 
 
-## -syntax
-
-
-````
-typedef struct _SM_SendECHO_OUT {
-  ULONG HBAStatus;
-  ULONG OutRespBufferSize;
-  UCHAR RespBuffer[1];
-} SM_SendECHO_OUT, *PSM_SendECHO_OUT;
-````
-
-
 ## -struct-fields
 
 

@@ -52,23 +52,6 @@ req.typenames: CONTROLLER_ATTRIBUTE_FLAGS, *PCONTROLLER_ATTRIBUTE_FLAGS
 The <b>CONTROLLER_ATTRIBUTE_FLAGS</b> structure describes the hardware attributes of the general-purpose I/O (GPIO) controller device.
 
 
-## -syntax
-
-
-````
-typedef struct _CONTROLLER_ATTRIBUTE_FLAGS {
-  ULONG MemoryMappedController  :1;
-  ULONG ActiveInterruptsAutoClearOnRead  :1;
-  ULONG FormatIoRequestsAsMasks  :1;
-  ULONG DeviceIdlePowerMgmtSupported  :1;
-  ULONG BankIdlePowerMgmtSupported  :1;
-  ULONG EmulateDebouncing  :1;
-  ULONG EmulateActiveBoth  :1;
-  ULONG Reserved  :25;
-} CONTROLLER_ATTRIBUTE_FLAGS, *PCONTROLLER_ATTRIBUTE_FLAGS;
-````
-
-
 ## -struct-fields
 
 
@@ -142,7 +125,6 @@ Some GPIO controllers implement active-both interrupt inputs in hardware. Howeve
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh698243">CLIENT_ReconfigureInterrupt</a>
 
 
 
@@ -150,7 +132,7 @@ Some GPIO controllers implement active-both interrupt inputs in hardware. Howeve
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439445">CLIENT_WriteGpioPinsUsingMask</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439395">CLIENT_QueryActiveInterrupts</a>
 
 
 
@@ -162,7 +144,7 @@ Some GPIO controllers implement active-both interrupt inputs in hardware. Howeve
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439395">CLIENT_QueryActiveInterrupts</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh698243">CLIENT_ReconfigureInterrupt</a>
 
 
 
@@ -170,10 +152,11 @@ Some GPIO controllers implement active-both interrupt inputs in hardware. Howeve
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439445">CLIENT_WriteGpioPinsUsingMask</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439479">GPIO_CLIENT_REGISTRATION_PACKET</a>
-
-
-
  
 
  

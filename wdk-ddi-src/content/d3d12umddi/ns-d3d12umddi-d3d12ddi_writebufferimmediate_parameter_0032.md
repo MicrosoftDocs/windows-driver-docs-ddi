@@ -52,17 +52,6 @@ req.typenames: D3D12DDI_WRITEBUFFERIMMEDIATE_PARAMETER_0032
 Write buffer immediate parameter.
 
 
-## -syntax
-
-
-````
-typedef struct _D3D12DDI_WRITEBUFFERIMMEDIATE_PARAMETER_0032 {
-  D3D12DDI_GPU_VIRTUAL_ADDRESS  Dst;
-  UINT32                        Value;
-} D3D12DDI_WRITEBUFFERIMMEDIATE_PARAMETER_0032, D3D12DDI_WRITEBUFFERIMMEDIATE_PARAMETER_0032;
-````
-
-
 ## -struct-fields
 
 

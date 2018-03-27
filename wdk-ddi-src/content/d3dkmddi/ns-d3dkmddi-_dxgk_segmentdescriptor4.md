@@ -52,25 +52,6 @@ req.typenames: DXGK_SEGMENTDESCRIPTOR4
 The <b>DXGK_SEGMENTDESCRIPTOR4</b> structure describes a programmable CPU host aperture.
 
 
-## -syntax
-
-
-````
-typedef struct _DXGK_SEGMENTDESCRIPTOR4 {
-  DXGK_SEGMENTFLAGS Flags;
-  PHYSICAL_ADDRESS  BaseAddress;
-  SIZE_T            Size;
-  SIZE_T            CommitLimit;
-  SIZE_T            SystemMemoryEndAddress;
-  union {
-    PHYSICAL_ADDRESS     CpuTranslatedAddress;
-    DXGK_CPUHOSTAPERTURE CpuHostAperture;
-  };
-  UINT              NumInvalidMemoryRanges;
-} DXGK_SEGMENTDESCRIPTOR4;
-````
-
-
 ## -struct-fields
 
 

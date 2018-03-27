@@ -55,14 +55,6 @@ The
   system.
 
 
-## -syntax
-
-
-````
-USHORT NdisMaxGroupCount(void);
-````
-
-
 ## -parameters
 
 
@@ -89,17 +81,17 @@ NDIS drivers call the
     the local computer system.
 
 To obtain the number of groups that are currently active, call the 
-    <a href="..\ndis\nf-ndis-ndisactivegroupcount.md">NdisActiveGroupCount</a> function.
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff560700">NdisActiveGroupCount</a> function.
 
 
 
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisactivegroupcount.md">NdisActiveGroupCount</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560700">NdisActiveGroupCount</a>
  
 
  

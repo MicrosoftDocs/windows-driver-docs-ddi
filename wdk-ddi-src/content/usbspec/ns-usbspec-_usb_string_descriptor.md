@@ -53,18 +53,6 @@ req.product: Windows 10 or later.
 The <b>USB_STRING_DESCRIPTOR</b> structure is used by USB client drivers to hold a USB-defined string descriptor.
 
 
-## -syntax
-
-
-````
-typedef struct _USB_STRING_DESCRIPTOR {
-  UCHAR bLength;
-  UCHAR bDescriptorType;
-  WCHAR bString[1];
-} USB_STRING_DESCRIPTOR, *PUSB_STRING_DESCRIPTOR;
-````
-
-
 ## -struct-fields
 
 
@@ -98,11 +86,6 @@ Strings returned in <b>bString</b> are in Unicode format and the contents of the
 
 ## -see-also
 
-<a href="..\usb\ns-usb-_urb_control_descriptor_request.md">_URB_CONTROL_DESCRIPTOR_REQUEST</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538943">UsbBuildGetDescriptorRequest</a>
 
 
 
@@ -110,6 +93,11 @@ Strings returned in <b>bString</b> are in Unicode format and the contents of the
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538943">UsbBuildGetDescriptorRequest</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540357">_URB_CONTROL_DESCRIPTOR_REQUEST</a>
  
 
  

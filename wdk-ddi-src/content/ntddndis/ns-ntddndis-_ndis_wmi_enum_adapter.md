@@ -54,20 +54,6 @@ The NDIS_WMI_ENUM_ADAPTER structure is returned when NDIS responds to the
   GUID_NDIS_ENUMERATE_ADAPTERS_EX</a> GUID.
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_WMI_ENUM_ADAPTER {
-  NDIS_OBJECT_HEADER Header;
-  NET_IFINDEX        IfIndex;
-  NET_LUID           NetLuid;
-  USHORT             DeviceNameLength;
-  CHAR               DeviceName[1];
-} NDIS_WMI_ENUM_ADAPTER, *PNDIS_WMI_ENUM_ADAPTER;
-````
-
-
 ## -struct-fields
 
 
@@ -76,7 +62,7 @@ typedef struct _NDIS_WMI_ENUM_ADAPTER {
 ### -field Header
 
 The 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure for this
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure for this
      NDIS_WMI_ENUM_ADAPTER structure. Set the 
      <b>Type</b> member of NDIS_OBJECT_HEADER to NDIS_WMI_OBJECT_TYPE_ENUM_ADAPTER, the 
      <b>Revision</b> member to NDIS_WMI_ENUM_ADAPTER_REVISION_1, and the 
@@ -121,14 +107,14 @@ NDIS returns the NDIS_WMI_ENUM_ADAPTER structure when it enumerates miniport ada
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff552617">GUID_NDIS_ENUMERATE_ADAPTERS_EX</a>
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
  
 
  

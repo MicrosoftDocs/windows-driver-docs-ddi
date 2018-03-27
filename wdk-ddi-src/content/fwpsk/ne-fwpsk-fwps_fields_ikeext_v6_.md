@@ -54,22 +54,6 @@ The FWPS_FIELDS_IKEEXT_V6 enumeration type specifies the data field identifiers 
   <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa366492">run-time filtering layer</a>.
 
 
-## -syntax
-
-
-````
-typedef enum FWPS_FIELDS_IKEEXT_V6_ { 
-  FWPS_FIELD_IKEEXT_V6_IP_LOCAL_ADDRESS,
-  FWPS_FIELD_IKEEXT_V6_IP_REMOTE_ADDRESS,
-  FWPS_FIELD_IKEEXT_V6_IP_LOCAL_INTERFACE,
-#if (NTDDI_VERSION >= NTDDI_WIN7)
-  FWPS_FIELD_IKEEXT_V6_PROFILE_ID,
-#endif 
-  FWPS_FIELD_IKEEXT_V6_MAX
-} FWPS_FIELDS_IKEEXT_V6;
-````
-
-
 ## -enum-fields
 
 
@@ -87,7 +71,7 @@ The remote IP address.
 
 ### -field FWPS_FIELD_IKEEXT_V6_IP_LOCAL_INTERFACE
 
-The locally unique identifier (<a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a>) for the network interface associated with the
+The locally unique identifier (<a href="https://msdn.microsoft.com/library/windows/hardware/ff557080">LUID</a>) for the network interface associated with the
      local IP address.
 
 

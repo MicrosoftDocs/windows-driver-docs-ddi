@@ -53,18 +53,6 @@ req.product: Windows 10 or later.
 The WDI_P2P_SCAN_TYPE enumeration defines the Wi-Fi Direct scan types.
 
 
-## -syntax
-
-
-````
-typedef enum _WDI_P2P_SCAN_TYPE { 
-  WDI_P2P_SCAN_TYPE_ACTIVE   = 1,
-  WDI_P2P_SCAN_TYPE_PASSIVE  = 2,
-  WDI_P2P_SCAN_TYPE_AUTO     = 3
-} WDI_P2P_SCAN_TYPE;
-````
-
-
 ## -enum-fields
 
 

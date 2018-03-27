@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: printerextension.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,17 +51,6 @@ req.product: Windows 10 or later.
 
 
 Reads an integer property.
-
-
-## -syntax
-
-
-````
-HRESULT GetInt32(
-  [in]          BSTR bstrName,
-  [out, retval] LONG *pnValue
-);
-````
 
 
 ## -parameters
@@ -90,10 +79,10 @@ This method returns an <b>HRESULT</b> value.
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprinterpropertybag.md">IPrinterPropertyBag</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439547">IPrinterPropertyBag</a>
  
 
  

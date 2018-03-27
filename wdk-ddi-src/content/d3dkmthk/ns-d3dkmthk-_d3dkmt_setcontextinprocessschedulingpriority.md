@@ -52,17 +52,6 @@ req.typenames: D3DKMT_SETCONTEXTINPROCESSSCHEDULINGPRIORITY
 Describes parameters for an in-process (in-proc) Microsoft Direct3D composition device to set the scheduling priority for a device context that is in the same process as other device contexts.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DKMT_SETCONTEXTINPROCESSSCHEDULINGPRIORITY {
-  D3DKMT_HANDLE hContext;
-  INT           Priority;
-} D3DKMT_SETCONTEXTINPROCESSSCHEDULINGPRIORITY;
-````
-
-
 ## -struct-fields
 
 

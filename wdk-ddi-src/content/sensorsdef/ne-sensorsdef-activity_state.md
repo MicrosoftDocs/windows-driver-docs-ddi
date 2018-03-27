@@ -53,25 +53,6 @@ req.product: Windows 10 or later.
 This enumeration represents the activity states reported by the activity detection sensor.
 
 
-## -syntax
-
-
-````
-typedef enum _ACTIVITY_STATES { 
-  ActivityState_Unknown      = 0x00000001,
-  ActivityState_Stationary   = 0x00000002,
-  ActivityState_Fidgeting    = 0x00000004,
-  ActivityState_Walking      = 0x00000008,
-  ActivityState_Running      = 0x00000010,
-  ActivityState_InVehicle    = 0x00000020,
-  ActivityState_Biking       = 0x00000040,
-  ActivityState_Idle         = 0x00000080,
-  ActivityState_Max          = 0x00000100,
-  ActivityState_Force_Dword  = 0xFFFFFFFF
-} ACTIVITY_STATE;
-````
-
-
 ## -enum-fields
 
 
@@ -138,10 +119,10 @@ For more information about the sensor data fields that use this enumeration, see
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn957013">Activity detection sensor data fields</a>
-
-
-
  
 
  

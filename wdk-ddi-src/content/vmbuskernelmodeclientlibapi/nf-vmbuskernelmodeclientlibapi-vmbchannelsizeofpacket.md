@@ -54,17 +54,7 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 The <b>VmbChannelSizeofPacket</b> function calculates the necessary size for buffers to be used with
-the <a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbpacketinitialize.md">VmbPacketInitialize</a> function.
-
-
-## -syntax
-
-
-````
-UINT32 VmbChannelSizeofPacket(
-  _In_ VMBCHANNEL Channel
-);
-````
+the <a href="https://msdn.microsoft.com/D5D8D994-0BB6-44FC-A696-F2E0264445C1">VmbPacketInitialize</a> function.
 
 
 ## -parameters
@@ -88,10 +78,10 @@ The necessary buffer size, in bytes.
 
 ## -see-also
 
-<a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbpacketinitialize.md">VmbPacketInitialize</a>
 
 
 
+<a href="https://msdn.microsoft.com/D5D8D994-0BB6-44FC-A696-F2E0264445C1">VmbPacketInitialize</a>
  
 
  

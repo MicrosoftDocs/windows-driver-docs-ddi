@@ -54,23 +54,6 @@ The WWAN_REGISTER_STATE enumeration lists the different provider network registr
   supported by the MB device.
 
 
-## -syntax
-
-
-````
-typedef enum _WWAN_REGISTER_STATE { 
-  WwanRegisterStateUnknown       = 0,
-  WwanRegisterStateDeregistered,
-  WwanRegisterStateSearching,
-  WwanRegisterStateHome,
-  WwanRegisterStateRoaming,
-  WwanRegisterStatePartner,
-  WwanRegisterStateDenied,
-  WwanRegisterStateMax
-} WWAN_REGISTER_STATE, *PWWAN_REGISTER_STATE;
-````
-
-
 ## -enum-fields
 
 
@@ -137,10 +120,10 @@ The
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_registration_state.md">WWAN_REGISTRATION_STATE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571231">WWAN_REGISTRATION_STATE</a>
  
 
  

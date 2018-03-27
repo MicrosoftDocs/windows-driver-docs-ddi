@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,16 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>UPSTurnOff</b> function turns off the UPS unit's power outlets, after a specified delay time.
-
-
-## -syntax
-
-
-````
-void UPSTurnOff(
-  _In_ DWORD aTurnOffDelay
-);
-````
 
 
 ## -parameters

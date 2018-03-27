@@ -53,17 +53,6 @@ The NDIS_WWAN_SET_PROVISIONED_CONTEXT structure represents the command to set th
   state of the MB device.
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_WWAN_SET_PROVISIONED_CONTEXT {
-  NDIS_OBJECT_HEADER Header;
-  WWAN_SET_CONTEXT   ProvisionedContext;
-} NDIS_WWAN_SET_PROVISIONED_CONTEXT, *PNDIS_WWAN_SET_PROVISIONED_CONTEXT;
-````
-
-
 ## -struct-fields
 
 
@@ -117,26 +106,26 @@ sizeof(NDIS_WWAN_SET_PROVISIONED_CONTEXT)
  
 
 For more information about these members, see 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>.
 
 
 ### -field ProvisionedContext
 
 A formatted 
-     <a href="..\wwan\ns-wwan-_wwan_set_context.md">WWAN_SET_CONTEXT</a> object that represents a
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571234">WWAN_SET_CONTEXT</a> object that represents a
      provisioned context.
 
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_context.md">WWAN_CONTEXT</a>
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571201">WWAN_CONTEXT</a>
  
 
  

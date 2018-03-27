@@ -52,20 +52,6 @@ req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
 The <i>DxgkDdiPatch</i> function assigns physical addresses to the given direct memory access (DMA) buffer before the DMA buffer is submitted to the graphics hardware.
 
 
-## -prototype
-
-
-````
-DXGKDDI_PATCH DxgkDdiPatch;
-
-NTSTATUS APIENTRY DxgkDdiPatch(
-  _In_ const HANDLE        hAdapter,
-  _In_ const DXGKARG_PATCH *pPatch
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -73,12 +59,12 @@ NTSTATUS APIENTRY DxgkDdiPatch(
 
 ### -param hAdapter [in]
 
-[in] A handle to a context block that is associated with a display adapter. The display miniport driver previously provided this handle to the Microsoft DirectX graphics kernel subsystem in the <i>MiniportDeviceContext</i> output parameter of the <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a> function.
+[in] A handle to a context block that is associated with a display adapter. The display miniport driver previously provided this handle to the Microsoft DirectX graphics kernel subsystem in the <i>MiniportDeviceContext</i> output parameter of the <a href="https://msdn.microsoft.com/5fd4046f-54c3-4dfc-8d51-0d9ebcde0bea">DxgkDdiAddDevice</a> function.
 
 
 ### -param pPatch [in]
 
-[in] A pointer to a <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_patch.md">DXGKARG_PATCH</a> structure that describes the DMA buffer to be patched with physical addresses.
+[in] A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff557610">DXGKARG_PATCH</a> structure that describes the DMA buffer to be patched with physical addresses.
 
 
 ## -returns
@@ -97,7 +83,7 @@ NTSTATUS APIENTRY DxgkDdiPatch(
 
 The <i>DxgkDdiPatch</i> function must assign physical addresses to the DMA buffer in place. Therefore, when the display miniport driver generates the DMA buffer, the driver must ensure that space is available in the DMA buffer to insert instructions that are required to handle physical addresses. Note that physical addresses might correspond to video memory, AGP/PCI Express memory, or system memory. 
 
-The driver must examine the supplied patch-location list in the <b>pPatchLocationList</b> member of the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_patch.md">DXGKARG_PATCH</a> structure that is pointed to by the <i>pPatch</i> parameter to identify places in the DMA buffer that must be patched with physical addresses. The supplied allocation list (which is specified by the <b>pAllocationList</b> member of DXGKARG_PATCH) also contains the physical addresses that the video memory manager generates. The call to the driver's <i>DxgkDdiPatch</i> function is the last chance for the driver to modify the content of the DMA buffer before the DMA buffer is submitted to the graphics processing unit (GPU). Note that the driver can patch a DMA buffer multiple times in scenarios where the DMA buffer is preempted.
+The driver must examine the supplied patch-location list in the <b>pPatchLocationList</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff557610">DXGKARG_PATCH</a> structure that is pointed to by the <i>pPatch</i> parameter to identify places in the DMA buffer that must be patched with physical addresses. The supplied allocation list (which is specified by the <b>pAllocationList</b> member of DXGKARG_PATCH) also contains the physical addresses that the video memory manager generates. The call to the driver's <i>DxgkDdiPatch</i> function is the last chance for the driver to modify the content of the DMA buffer before the DMA buffer is submitted to the graphics processing unit (GPU). Note that the driver can patch a DMA buffer multiple times in scenarios where the DMA buffer is preempted.
 
 The driver can patch the value that is supplied in the <b>SubmissionFenceId</b> member of DXGKARG_PATCH into the fence command at the end of the DMA buffer. For more information about this member, see <a href="https://msdn.microsoft.com/0ec8a4eb-c441-47ae-b5de-d86e6065ffd4">Supplying Fence Identifiers</a>.
 
@@ -116,14 +102,14 @@ If the driver returns an error code, the Microsoft DirectX graphics kernel subsy
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_patch.md">DXGKARG_PATCH</a>
 
 
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557610">DXGKARG_PATCH</a>
 
 
 
+<a href="https://msdn.microsoft.com/5fd4046f-54c3-4dfc-8d51-0d9ebcde0bea">DxgkDdiAddDevice</a>
  
 
  

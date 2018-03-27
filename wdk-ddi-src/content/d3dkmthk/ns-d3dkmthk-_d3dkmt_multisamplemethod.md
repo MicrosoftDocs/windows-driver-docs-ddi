@@ -52,18 +52,6 @@ req.typenames: D3DKMT_MULTISAMPLEMETHOD
 The D3DKMT_MULTISAMPLEMETHOD structure describes a multiple-sampling method.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DKMT_MULTISAMPLEMETHOD {
-  UINT NumSamples;
-  UINT NumQualityLevels;
-  UINT Reserved;
-} D3DKMT_MULTISAMPLEMETHOD;
-````
-
-
 ## -struct-fields
 
 
@@ -95,14 +83,14 @@ The driver can partition its quality levels for a given multiple-sampling method
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_getmultisamplemethodlist.md">D3DKMT_GETMULTISAMPLEMETHODLIST</a>
 
 
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtgetmultisamplemethodlist.md">D3DKMTGetMultisampleMethodList</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546975">D3DKMTGetMultisampleMethodList</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548039">D3DKMT_GETMULTISAMPLEMETHODLIST</a>
  
 
  

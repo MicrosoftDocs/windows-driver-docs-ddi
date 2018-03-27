@@ -52,16 +52,6 @@ req.typenames: WOF_VERSION_INFO, *PWOF_VERSION_INFO
 The <b>WOF_VERSION_INFO</b> structure contains the version corresponding to the driver supporting a given provider.
 
 
-## -syntax
-
-
-````
-typedef struct _WOF_VERSION_INFO {
-  ULONG WofVersion;
-} WOF_VERSION_INFO, *PWOF_VERSION_INFO;
-````
-
-
 ## -struct-fields
 
 
@@ -74,11 +64,6 @@ The version of the WOF driver. This value includes the major and minor version n
 
 ## -see-also
 
-<a href="..\ntifs\ns-ntifs-_wof_external_info.md">WOF_EXTERNAL_INFO</a>
-
-
-
-<a href="..\ntifs\ns-ntifs-_wof_external_file_id.md">WOF_EXTERNAL_FILE_ID</a>
 
 
 
@@ -86,6 +71,11 @@ The version of the WOF driver. This value includes the major and minor version n
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt426741">WOF_EXTERNAL_FILE_ID</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn632452">WOF_EXTERNAL_INFO</a>
  
 
  

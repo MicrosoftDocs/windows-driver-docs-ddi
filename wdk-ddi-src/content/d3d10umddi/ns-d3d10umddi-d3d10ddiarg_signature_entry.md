@@ -52,18 +52,6 @@ req.typenames: D3D10DDIARG_SIGNATURE_ENTRY
 The D3D10DDIARG_SIGNATURE_ENTRY structure describes an entry for a signature.
 
 
-## -syntax
-
-
-````
-typedef struct D3D10DDIARG_SIGNATURE_ENTRY {
-  D3D10_SB_NAME SystemValue;
-  UINT          Register;
-  BYTE          Mask;
-} D3D10DDIARG_SIGNATURE_ENTRY;
-````
-
-
 ## -struct-fields
 
 
@@ -194,10 +182,10 @@ Is front face.
 
 ## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_stage_io_signatures.md">D3D10DDIARG_STAGE_IO_SIGNATURES</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541746">D3D10DDIARG_STAGE_IO_SIGNATURES</a>
  
 
  

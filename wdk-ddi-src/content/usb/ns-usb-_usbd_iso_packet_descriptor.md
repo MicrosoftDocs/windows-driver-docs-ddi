@@ -53,18 +53,6 @@ req.product: Windows 10 or later.
 The <b>USBD_ISO_PACKET_DESCRIPTOR</b>   structure is used by USB client drivers to describe an isochronous transfer packet.
 
 
-## -syntax
-
-
-````
-typedef struct _USBD_ISO_PACKET_DESCRIPTOR {
-  ULONG       Offset;
-  ULONG       Length;
-  USBD_STATUS Status;
-} USBD_ISO_PACKET_DESCRIPTOR, *PUSBD_ISO_PACKET_DESCRIPTOR;
-````
-
-
 ## -struct-fields
 
 
@@ -89,14 +77,13 @@ Contains the status, on return from the host controller driver, of this transfer
 
 
 
-This structure is used as part of an isochronous transfer request to the host controller driver using the <a href="..\usb\ns-usb-_urb_isoch_transfer.md">_URB_ISOCH_TRANSFER</a> structure. The <b>Offset</b> member contains the offset from the beginning of the <b>TransferBuffer</b> or <b>TransferBufferMDL</b> members of  <b>_URB_ISOCH_TRANSFER</b>.
+This structure is used as part of an isochronous transfer request to the host controller driver using the <a href="https://msdn.microsoft.com/library/windows/hardware/ff540414">_URB_ISOCH_TRANSFER</a> structure. The <b>Offset</b> member contains the offset from the beginning of the <b>TransferBuffer</b> or <b>TransferBufferMDL</b> members of  <b>_URB_ISOCH_TRANSFER</b>.
 
 
 
 
 ## -see-also
 
-<a href="..\usb\ns-usb-_urb_isoch_transfer.md">_URB_ISOCH_TRANSFER</a>
 
 
 
@@ -108,10 +95,11 @@ This structure is used as part of an isochronous transfer request to the host co
 
 
 
-<a href="..\usbdlib\nf-usbdlib-usbd_isochurballocate.md">USBD_IsochUrbAllocate</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406231">USBD_IsochUrbAllocate</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540414">_URB_ISOCH_TRANSFER</a>
  
 
  

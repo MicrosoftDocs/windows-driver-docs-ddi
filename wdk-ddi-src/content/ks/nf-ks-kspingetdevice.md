@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
@@ -52,16 +52,6 @@ req.typenames:
 The<b> KsPinGetDevice </b>function returns the AVStream device to which <i>Pin</i> belongs.
 
 
-## -syntax
-
-
-````
-PKSDEVICE __inline KsPinGetDevice(
-  _In_ PKSPIN Pin
-);
-````
-
-
 ## -parameters
 
 
@@ -69,14 +59,14 @@ PKSDEVICE __inline KsPinGetDevice(
 
 ### -param Pin [in]
 
-A pointer to a <a href="..\ks\ns-ks-_kspin.md">KSPIN</a> structure representing the pin for which to return the owning AVStream device.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff563483">KSPIN</a> structure representing the pin for which to return the owning AVStream device.
 
 
 ## -returns
 
 
 
-<b>KsPinGetDevice </b>returns a pointer to a <a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a> structure representing the AVStream device to which <i>Pin</i> belongs.
+<b>KsPinGetDevice </b>returns a pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff561681">KSDEVICE</a> structure representing the AVStream device to which <i>Pin</i> belongs.
 
 
 
@@ -85,29 +75,29 @@ A pointer to a <a href="..\ks\ns-ks-_kspin.md">KSPIN</a> structure representing 
 
 
 
-This call is an inline function call to <a href="..\ks\nf-ks-ksgetdevice.md">KsGetDevice</a>.
+This call is an inline function call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff562615">KsGetDevice</a>.
 
 
 
 
 ## -see-also
 
-<a href="..\ks\ns-ks-_kspin.md">KSPIN</a>
 
 
 
-<a href="..\ks\ns-ks-_ksdevice_descriptor.md">KSDEVICE_DESCRIPTOR</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561681">KSDEVICE</a>
 
 
 
-<a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561691">KSDEVICE_DESCRIPTOR</a>
 
 
 
-<a href="..\ks\nf-ks-ksgetdevice.md">KsGetDevice</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563483">KSPIN</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562615">KsGetDevice</a>
  
 
  

@@ -52,20 +52,6 @@ req.typenames: MIRACAST_PROTOCOL_EVENT
 Specifies the types of wireless display (Miracast) protocol event that the user-mode display driver should report.
 
 
-## -syntax
-
-
-````
-typedef enum  { 
-  MIRACAST_PROTOCOL_EVENT_IFRAME_RQ                          = 0,
-  MIRACAST_PROTOCOL_EVENT_MONITOR_ARRIVE                     = 1,
-  MIRACAST_PROTOCOL_EVENT_MONITOR_DEPART                     = 2,
-  MIRACAST_PROTOCOL_EVENT_SINK_FAILED_PREFERRED_MODE_CHANGE  = 3,
-  MIRACAST_PROTOCOL_EVENT_FORCE_UINT32                       = 0xffffffff
-} MIRACAST_PROTOCOL_EVENT;
-````
-
-
 ## -enum-fields
 
 

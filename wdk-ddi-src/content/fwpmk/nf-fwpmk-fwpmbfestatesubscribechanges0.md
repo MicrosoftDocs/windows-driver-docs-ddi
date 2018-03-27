@@ -55,19 +55,6 @@ The
   a change to the state of the filter engine.
 <div class="alert"><b>Note</b>  <b>FwpmBfeStateSubscribeChanges0</b> is a specific version of <b>FwpmBfeStateSubscribeChanges</b>. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
 
-## -syntax
-
-
-````
-NTSTATUS NTAPI FwpmBfeStateSubscribeChanges0(
-  _Inout_  void                                *deviceObject,
-  _In_     FWPM_SERVICE_STATE_CHANGE_CALLBACK0 callback,
-  _In_opt_ void                                *context,
-  _Out_    HANDLE                              *changeHandle
-);
-````
-
-
 ## -parameters
 
 
@@ -157,7 +144,7 @@ A pointer to a callout driver-provided context that is passed to the callback fu
 
 A pointer to a variable that receives a handle that is associated with the registration of the
      callback function. A callout driver passes this handle to the
-     <a href="..\fwpmk\nf-fwpmk-fwpmbfestateunsubscribechanges0.md">FwpmBfeStateUnsubscribeChanges0</a> function to deregister the callback function.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff550064">FwpmBfeStateUnsubscribeChanges0</a> function to deregister the callback function.
 
 
 ## -returns
@@ -209,21 +196,21 @@ A callout driver calls the
     there is a change to the state of the filter engine. 
 
 For example, a callout driver cannot open a session to the filter
-    engine by calling  the <a href="..\fwpmk\nf-fwpmk-fwpmengineopen0.md">FwpmEngineOpen0</a> function unless the filter engine is currently running. A callout driver can use the <b>FWPM_SERVICE_RUNNING</b>
+    engine by calling  the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550075">FwpmEngineOpen0</a> function unless the filter engine is currently running. A callout driver can use the <b>FWPM_SERVICE_RUNNING</b>
     notification to open a session to the filter engine so that it can make calls to the other Windows
     Filtering Platform 
     <a href="https://answers.microsoft.com/en-us/windows/forum/windows_xp-performance/computer-management-storage-disk-management/f93a4e9b-5516-4e5c-9cd3-f04453ec963f">management functions</a>. Similarly, a
     callout driver can use the <b>FWPM_SERVICE_STOP_PENDING</b> notification to perform any cleanup before the
     filter engine is stopped.
 
-A callout driver must call <b>FwpmBfeStateSubscribeChanges0</b> before calling the <a href="..\fwpmk\nf-fwpmk-fwpmbfestateget0.md">FwpmBfeStateGet0</a> function to retrieve the current state of the filter engine. After  the call to <b>FwpmBfeStateSubscribeChanges0</b> returns, the callout driver can call 
+A callout driver must call <b>FwpmBfeStateSubscribeChanges0</b> before calling the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550061">FwpmBfeStateGet0</a> function to retrieve the current state of the filter engine. After  the call to <b>FwpmBfeStateSubscribeChanges0</b> returns, the callout driver can call 
     <b>FwpmBfeStateGet0</b> at any time.
 
 A callout driver must deregister the callback function by calling the 
-    <a href="..\fwpmk\nf-fwpmk-fwpmbfestateunsubscribechanges0.md">
+    <a href="https://msdn.microsoft.com/1a84401a-d7da-43d2-925d-0d6ed370c980">
     FwpmBfeStateUnsubscribeChanges0</a> function before the callout driver can be unloaded.
 
-<div class="alert"><b>Note</b>  <p class="note">Do not call <a href="..\fwpmk\nf-fwpmk-fwpmbfestateunsubscribechanges0.md">FwpmBfeStateUnsubscribeChanges0</a> from the callback function that you passed in the <i>callback</i> parameter. Doing so can cause a deadlock.
+<div class="alert"><b>Note</b>  <p class="note">Do not call <a href="https://msdn.microsoft.com/library/windows/hardware/ff550064">FwpmBfeStateUnsubscribeChanges0</a> from the callback function that you passed in the <i>callback</i> parameter. Doing so can cause a deadlock.
 
 </div>
 <div> </div>
@@ -232,19 +219,19 @@ A callout driver must deregister the callback function by calling the
 
 ## -see-also
 
-<a href="..\fwpmk\nf-fwpmk-fwpmengineopen0.md">FwpmEngineOpen0</a>
 
 
 
-<a href="..\fwpmk\nf-fwpmk-fwpmbfestateget0.md">FwpmBfeStateGet0</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550061">FwpmBfeStateGet0</a>
 
 
 
-<a href="..\fwpmk\nf-fwpmk-fwpmbfestateunsubscribechanges0.md">
+<a href="https://msdn.microsoft.com/1a84401a-d7da-43d2-925d-0d6ed370c980">
    FwpmBfeStateUnsubscribeChanges0</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550075">FwpmEngineOpen0</a>
  
 
  

@@ -52,20 +52,6 @@ req.typenames: DXGK_PTE
 The <i>QueryAuthenticatedChannel</i> function queries an authenticated channel for capability and state information. 
 
 
-## -prototype
-
-
-````
-PFND3DDDI_QUERYAUTHENTICATEDCHANNEL QueryAuthenticatedChannel;
-
-__checkReturn HRESULT APIENTRY QueryAuthenticatedChannel(
-  _In_          HANDLE                              hDevice,
-  _Inout_ const D3DDDIARG_QUERYAUTHENTICATEDCHANNEL *pData
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -87,7 +73,7 @@ __checkReturn HRESULT APIENTRY QueryAuthenticatedChannel(
 
 #### - pData [in, out]
 
- A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_queryauthenicatedchannel.md">D3DDDIARG_QUERYAUTHENTICATEDCHANNEL</a> structure that describes authenticated-channel information to query. This structure contains an input buffer that describes the query and an output buffer to return the queried information. 
+ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543247">D3DDDIARG_QUERYAUTHENTICATEDCHANNEL</a> structure that describes authenticated-channel information to query. This structure contains an input buffer that describes the query and an output buffer to return the queried information. 
 
 
 ## -returns
@@ -133,7 +119,7 @@ The authenticated channel is successfully queried.
 
 
 
-The input buffer contains the driver's handle to the authenticated channel, a sequence number, and a GUID that indicates the type of query. The driver should fail all queries if the driver did not previously initialize the sequence number through a call to its <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_configureauthenicatedchannel.md">ConfigureAuthenticatedChannel</a> function. The driver should also fail the query if the sequence number is not greater than the sequence number of the previous query call. 
+The input buffer contains the driver's handle to the authenticated channel, a sequence number, and a GUID that indicates the type of query. The driver should fail all queries if the driver did not previously initialize the sequence number through a call to its <a href="https://msdn.microsoft.com/95485e96-fa4f-4c88-b88b-97b79f507abd">ConfigureAuthenticatedChannel</a> function. The driver should also fail the query if the sequence number is not greater than the sequence number of the previous query call. 
 
 The driver should duplicate the input data in the structure of the output buffer and should sign the output structure identically to how it currently handles <a href="https://msdn.microsoft.com/2c138dbd-55ca-4c71-8c8b-b2efd1ca80f2">Output Protection Manager</a> (OPM) queries.
 
@@ -148,14 +134,14 @@ Except for those situations in which the application incorrectly specifies an ou
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_configureauthenicatedchannel.md">ConfigureAuthenticatedChannel</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_queryauthenicatedchannel.md">D3DDDIARG_QUERYAUTHENTICATEDCHANNEL</a>
+<a href="https://msdn.microsoft.com/95485e96-fa4f-4c88-b88b-97b79f507abd">ConfigureAuthenticatedChannel</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543247">D3DDDIARG_QUERYAUTHENTICATEDCHANNEL</a>
  
 
  

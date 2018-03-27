@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: wiautil.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,14 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>CWiauFormatConverter::Init</b> method initializes the <b>CWiauFormatConverter</b> class and GDI+ for converting images. This method should be called only once.
-
-
-## -syntax
-
-
-````
-HRESULT Init();
-````
 
 
 ## -parameters

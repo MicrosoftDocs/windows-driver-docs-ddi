@@ -52,20 +52,6 @@ req.typenames: D3DDDI_VIDEO_SIGNAL_SCANLINE_ORDERING
 The D3DDDI_VIDEO_SIGNAL_SCANLINE_ORDERING enumeration is used to indicate the scan line ordering of a video output signal.  
 
 
-## -syntax
-
-
-````
-typedef enum _D3DDDI_VIDEO_SIGNAL_SCANLINE_ORDERING { 
-  D3DDDI_VSSLO_UNINITIALIZED               = 0,
-  D3DDDI_VSSLO_PROGRESSIVE                 = 1,
-  D3DDDI_VSSLO_INTERLACED_UPPERFIELDFIRST  = 2,
-  D3DDDI_VSSLO_INTERLACED_LOWERFIELDFIRST  = 3,
-  D3DDDI_VSSLO_OTHER                       = 255
-} D3DDDI_VIDEO_SIGNAL_SCANLINE_ORDERING;
-````
-
-
 ## -enum-fields
 
 

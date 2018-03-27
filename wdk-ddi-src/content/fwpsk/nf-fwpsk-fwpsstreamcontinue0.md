@@ -55,19 +55,6 @@ The
   deferred.
 <div class="alert"><b>Note</b>  <b>FwpsStreamContinue0</b> is a specific version of <b>FwpsStreamContinue</b>. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
 
-## -syntax
-
-
-````
-NTSTATUS NTAPI FwpsStreamContinue0(
-  _In_ UINT64 flowId,
-  _In_ UINT32 calloutId,
-  _In_ UINT16 layerId,
-  _In_ UINT32 streamFlags
-);
-````
-
-
 ## -parameters
 
 
@@ -78,15 +65,15 @@ NTSTATUS NTAPI FwpsStreamContinue0(
 A run-time identifier that specifies the data flow that is being resumed. The run-time identifier
      for a data flow is provided to a callout driver through the FWPS_METADATA_FIELD_FLOW_HANDLE metadata
      value that the filter engine provided to the callout driver's 
-     <a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a> callout function.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a> callout function.
 
 
 ### -param calloutId [in]
 
 The run-time identifier for the callout that deferred the inbound data stream. This identifier was
      returned when the callout driver called either the 
-     <a href="..\fwpsk\nf-fwpsk-fwpscalloutregister0.md">FwpsCalloutRegister0</a> or 
-     <a href="..\fwpsk\nf-fwpsk-fwpscalloutregister1.md">FwpsCalloutRegister1</a> functions to
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff551140">FwpsCalloutRegister0</a> or 
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff551143">FwpsCalloutRegister1</a> functions to
      register the callout with the filter engine.
 
 
@@ -98,7 +85,7 @@ The run-time identifier for the filtering layer at which the data stream is bein
      <b>layerId</b> member of the 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff552401">FWPS_INCOMING_VALUES0</a> structure that
      the filter engine passed to the callout driver's 
-     <a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a> callout function.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a> callout function.
 
 
 ### -param streamFlags [in]
@@ -106,9 +93,9 @@ The run-time identifier for the filtering layer at which the data stream is bein
 Flags that specify characteristics of the inbound data stream that is being resumed. A callout
      driver should specify the same stream flags that were set in the 
      <b>streamFlags</b> member of the 
-     <a href="..\fwpsk\ns-fwpsk-fwps_stream_data0_.md">FWPS_STREAM_DATA0</a> structure that the
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff552419">FWPS_STREAM_DATA0</a> structure that the
      filter engine passed to the callout driver's 
-     <a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a> callout function when the
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a> callout function when the
      callout deferred the data stream.
 
 
@@ -159,9 +146,9 @@ An error occurred.
 A callout driver calls the 
     <b>FwpsStreamContinue0</b> function to resume processing an inbound data stream that was previously
     deferred. A data stream is deferred when a callout's 
-    <a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a> callout function sets the 
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a> callout function sets the 
     <b>streamAction</b> member of the 
-    <a href="..\fwpsk\ns-fwpsk-fwps_stream_callout_io_packet0_.md">
+    <a href="https://msdn.microsoft.com/2c0539f0-116e-4344-9584-db7416d258e0">
     FWPS_STREAM_CALLOUT_IO_PACKET0</a> structure to FWPS_STREAM_ACTION_DEFER. The <b>FwpsStreamContinue0</b> function cannot be called from within a callout's <i>classifyFn</i> context.
 
 
@@ -169,20 +156,6 @@ A callout driver calls the
 
 ## -see-also
 
-<a href="..\fwpsk\ns-fwpsk-fwps_stream_callout_io_packet0_.md">
-   FWPS_STREAM_CALLOUT_IO_PACKET0</a>
-
-
-
-<a href="..\fwpsk\nf-fwpsk-fwpscalloutregister1.md">FwpsCalloutRegister1</a>
-
-
-
-<a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a>
-
-
-
-<a href="..\fwpsk\nf-fwpsk-fwpscalloutregister0.md">FwpsCalloutRegister0</a>
 
 
 
@@ -190,6 +163,20 @@ A callout driver calls the
 
 
 
+<a href="https://msdn.microsoft.com/2c0539f0-116e-4344-9584-db7416d258e0">
+   FWPS_STREAM_CALLOUT_IO_PACKET0</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551140">FwpsCalloutRegister0</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551143">FwpsCalloutRegister1</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a>
  
 
  

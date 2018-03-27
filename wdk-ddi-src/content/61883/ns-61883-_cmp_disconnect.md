@@ -52,16 +52,6 @@ req.typenames: CMP_DISCONNECT, *PCMP_DISCONNECT
 This structure is used to break a connection. 
 
 
-## -syntax
-
-
-````
-typedef struct _CMP_DISCONNECT {
-  HANDLE hConnect;
-} CMP_DISCONNECT, *PCMP_DISCONNECT;
-````
-
-
 ## -struct-fields
 
 
@@ -85,10 +75,10 @@ If an incorrect parameter is passed in, the protocol driver sets <b>Irp-&gt;IoSt
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537008">AV_61883_REQUEST</a>
-
-
-
  
 
  

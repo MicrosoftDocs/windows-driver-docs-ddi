@@ -7,7 +7,7 @@ old-location: kernel\process_mitigation_system_call_filter_policy.htm
 old-project: kernel
 ms.assetid: 6a64ae8d-43e3-4ebd-b10b-2ae8e607071f
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/1/2018
 ms.keywords: "*PPROCESS_MITIGATION_SYSTEM_CALL_FILTER_POLICY, PROCESS_MITIGATION_SYSTEM_CALL_FILTER_POLICY, PROCESS_MITIGATION_SYSTEM_CALL_FILTER_POLICY structure [Kernel-Mode Driver Architecture], _PROCESS_MITIGATION_SYSTEM_CALL_FILTER_POLICY, kernel.process_mitigation_system_call_filter_policy, ntddk/PROCESS_MITIGATION_SYSTEM_CALL_FILTER_POLICY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,22 +50,6 @@ req.typenames: PROCESS_MITIGATION_SYSTEM_CALL_FILTER_POLICY, *PPROCESS_MITIGATIO
 
 
 This structure is not supported. 
-
-
-## -syntax
-
-
-````
-typedef struct _PROCESS_MITIGATION_SYSTEM_CALL_FILTER_POLICY {
-  union {
-    ULONG Flags;
-    struct {
-      ULONG FilterId  :4;
-      ULONG ReservedFlags  :28;
-    } DUMMYSTRUCTNAME;
-  } DUMMYUNIONNAME;
-} PROCESS_MITIGATION_SYSTEM_CALL_FILTER_POLICY, PROCESS_MITIGATION_SYSTEM_CALL_FILTER_POLICY;
-````
 
 
 ## -struct-fields

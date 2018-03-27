@@ -52,21 +52,6 @@ req.typenames: KSSTREAM_METADATA_INFO, *PKSSTREAM_METADATA_INFO
 This structure contains the metadata information that is passed down to the driver.
 
 
-## -syntax
-
-
-````
-typedef struct {
-  ULONG                               BufferSize;
-  ULONG                               UsedSize;
-  Field_size_bytes_(BufferSize) PVOID Data;
-  Field_size_bytes_(BufferSize) PVOID SystemVa;
-  ULONG                               Flags;
-  ULONG                               Reserved;
-} KSSTREAM_METADATA_INFO, *PKSSTREAM_METADATA_INFO;
-````
-
-
 ## -struct-fields
 
 

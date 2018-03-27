@@ -52,17 +52,6 @@ req.typenames: DXGK_QUERYDISPLAYIDOUT
 Used to query a display ID.
 
 
-## -syntax
-
-
-````
-typedef struct _DXGK_QUERYDISPLAYIDOUT {
-  UINT Length;
-  BYTE *pDescriptor;
-} DXGK_QUERYDISPLAYIDOUT;
-````
-
-
 ## -struct-fields
 
 

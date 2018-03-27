@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
@@ -51,17 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>StorPortGetActiveGroupCount</b> routine returns the number of processor groups that are present in the system.
-
-
-## -syntax
-
-
-````
-ULONG StorPortGetActiveGroupCount(
-  _In_  PVOID   HwDeviceExtension,
-  _Out_ PUSHORT NumberGroups
-);
-````
 
 
 ## -parameters

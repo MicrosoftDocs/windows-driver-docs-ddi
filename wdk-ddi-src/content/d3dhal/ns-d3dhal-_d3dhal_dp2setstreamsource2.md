@@ -53,20 +53,7 @@ req.typenames: D3DHAL_DP2SETSTREAMSOURCE2
    DirectX 9.0 and later versions only.
    
 
-The D3DHAL_DP2SETSTREAMSOURCE2 structure is used to bind a portion of a vertex stream source to a vertex buffer for <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DHAL_DP2SETSTREAMSOURCE2 {
-  DWORD dwStream;
-  DWORD dwVBHandle;
-  DWORD dwOffset;
-  DWORD dwStride;
-} D3DHAL_DP2SETSTREAMSOURCE2, *LPD3DHAL_DP2SETSTREAMSOURCE2;
-````
+The D3DHAL_DP2SETSTREAMSOURCE2 structure is used to bind a portion of a vertex stream source to a vertex buffer for <a href="https://msdn.microsoft.com/6128ff7a-0d2c-48df-8b5e-cab33c5a74f5">D3dDrawPrimitives2</a>.
 
 
 ## -struct-fields
@@ -96,14 +83,14 @@ Specifies the vertex size in bytes.
 
 ## -see-also
 
+
+
+
 D3DDP2OP_SETSTREAMSOURCE2
 
 
 
-<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
-
-
-
+<a href="https://msdn.microsoft.com/6128ff7a-0d2c-48df-8b5e-cab33c5a74f5">D3dDrawPrimitives2</a>
  
 
  

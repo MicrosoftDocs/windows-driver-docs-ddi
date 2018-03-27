@@ -53,21 +53,6 @@ The NDIS_MINIPORT_PNP_CHARACTERISTICS structure specifies entry points for funct
   miniport driver to process some Plug and Play (PnP) I/O request packets (IRPs).
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_MINIPORT_PNP_CHARACTERISTICS {
-  NDIS_OBJECT_HEADER                            Header;
-  MINIPORT_ADD_DEVICE_HANDLER                   MiniportAddDeviceHandler;
-  MINIPORT_REMOVE_DEVICE_HANDLER                MiniportRemoveDeviceHandler;
-  MINIPORT_FILTER_RESOURCE_REQUIREMENTS_HANDLER MiniportFilterResourceRequirementsHandler;
-  MINIPORT_START_DEVICE_HANDLER                 MiniportStartDeviceHandler;
-  ULONG                                         Flags;
-} NDIS_MINIPORT_PNP_CHARACTERISTICS, *PNDIS_MINIPORT_PNP_CHARACTERISTICS;
-````
-
-
 ## -struct-fields
 
 
@@ -76,7 +61,7 @@ typedef struct _NDIS_MINIPORT_PNP_CHARACTERISTICS {
 ### -field Header
 
 The 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure for the
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure for the
      NDIS_MINIPORT_PNP_CHARACTERISTICS structure. Set the 
      <b>Type</b> member of the structure that 
      <b>Header</b> specifies to NDIS_OBJECT_TYPE_MINIPORT_PNP_CHARACTERISTICS, the 
@@ -87,13 +72,13 @@ The
 ### -field MiniportAddDeviceHandler
 
 The entry point of the caller's 
-     <a href="..\ndis\nc-ndis-miniport_add_device.md">MiniportAddDevice</a> function.
+     <a href="https://msdn.microsoft.com/50e04b5a-e430-484c-aabb-cc7b9ecb53b0">MiniportAddDevice</a> function.
 
 
 ### -field MiniportRemoveDeviceHandler
 
 The entry point of the caller's 
-     <a href="..\ndis\nc-ndis-miniport_remove_device.md">
+     <a href="https://msdn.microsoft.com/24dd887b-575f-4790-bb53-7c3fb825bd61">
      MiniportRemoveDevice</a> function.
 
 
@@ -107,7 +92,7 @@ The entry point of the caller's
 ### -field MiniportStartDeviceHandler
 
 The entry point of the caller's 
-     <a href="..\ndis\nc-ndis-miniport_pnp_irp.md">MiniportStartDevice</a> function, if
+     <a href="https://msdn.microsoft.com/ccccb2c5-16ba-4463-bb35-1dc3dcc61a2f">MiniportStartDevice</a> function, if
      any. If this function is not required, set this member to <b>NULL</b>.
 
 
@@ -123,7 +108,7 @@ Reserved.
 Miniport drivers that support MSI-X and will change the interrupt affinity for each MSI-X message
     register functions that are defined in the NDIS_MINIPORT_PNP_CHARACTERISTICS structure. To register these
     functions, call the 
-    <a href="..\ndis\nf-ndis-ndissetoptionalhandlers.md">NdisSetOptionalHandlers</a> function
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff564550">NdisSetOptionalHandlers</a> function
     from the 
     <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff570269">MiniportSetOptions</a> function and
     specify an NDIS_MINIPORT_PNP_CHARACTERISTICS structure at the 
@@ -135,27 +120,10 @@ Miniport drivers that support MSI-X and will change the interrupt affinity for e
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndissetoptionalhandlers.md">NdisSetOptionalHandlers</a>
 
 
 
-<a href="..\ndis\nc-ndis-miniport_add_device.md">MiniportAddDevice</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_pnp_irp.md">MiniportStartDevice</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff570269">MiniportSetOptions</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_remove_device.md">MiniportRemoveDevice</a>
+<a href="https://msdn.microsoft.com/50e04b5a-e430-484c-aabb-cc7b9ecb53b0">MiniportAddDevice</a>
 
 
 
@@ -164,6 +132,23 @@ Miniport drivers that support MSI-X and will change the interrupt affinity for e
 
 
 
+<a href="https://msdn.microsoft.com/24dd887b-575f-4790-bb53-7c3fb825bd61">MiniportRemoveDevice</a>
+
+
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff570269">MiniportSetOptions</a>
+
+
+
+<a href="https://msdn.microsoft.com/ccccb2c5-16ba-4463-bb35-1dc3dcc61a2f">MiniportStartDevice</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564550">NdisSetOptionalHandlers</a>
  
 
  

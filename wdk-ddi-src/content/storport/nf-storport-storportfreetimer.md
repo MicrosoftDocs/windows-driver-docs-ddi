@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
@@ -50,18 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-Frees a Storport timer context object previously created by the <a href="..\storport\nf-storport-storportinitializetimer.md">StorPortInitializeTimer</a> routine.
-
-
-## -syntax
-
-
-````
-ULONG StorPortFreeTimer(
-  _In_ PVOID HwDeviceExtension,
-  _In_ PVOID TimerHandle
-);
-````
+Frees a Storport timer context object previously created by the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451483">StorPortInitializeTimer</a> routine.
 
 
 ## -parameters
@@ -76,7 +65,7 @@ A pointer to the hardware device extension for the host bus adapter (HBA).
 
 ### -param TimerHandle [in]
 
-A pointer to an opaque buffer for the timer context returned by <a href="..\storport\nf-storport-storportinitializetimer.md">StorPortInitializeTimer</a>.
+A pointer to an opaque buffer for the timer context returned by <a href="https://msdn.microsoft.com/library/windows/hardware/hh451483">StorPortInitializeTimer</a>.
 
 
 ## -returns
@@ -162,18 +151,18 @@ Miniports should call <b>StorPortFreeTimer</b> whenever a work item is no longer
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportrequesttimer.md">StorPortRequestTimer</a>
 
 
 
-<a href="..\storport\nf-storport-storportinitializetimer.md">StorPortInitializeTimer</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557365">HwStorAdapterControl</a>
 
 
 
-<a href="..\storport\nc-storport-hw_adapter_control.md">HwStorAdapterControl</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451483">StorPortInitializeTimer</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451511">StorPortRequestTimer</a>
  
 
  

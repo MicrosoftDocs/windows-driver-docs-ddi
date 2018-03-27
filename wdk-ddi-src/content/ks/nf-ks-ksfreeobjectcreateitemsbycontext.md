@@ -53,17 +53,6 @@ req.typenames:
 Frees all create items with a specific context.
 
 
-## -syntax
-
-
-````
-NTSTATUS KsFreeObjectCreateItemsByContext(
-  _In_ KSDEVICE_HEADER Header,
-  _In_ PVOID           Context
-);
-````
-
-
 ## -parameters
 
 
@@ -99,10 +88,10 @@ Instead of freeing create items by name as <b>KsFreeObjectCreateItems</b> does, 
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksfreeobjectcreateitem.md">KsFreeObjectCreateItem</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562563">KsFreeObjectCreateItem</a>
  
 
  

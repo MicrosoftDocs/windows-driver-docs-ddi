@@ -52,16 +52,6 @@ req.typenames:
 This enumeration is not implemented.
 
 
-## -syntax
-
-
-````
-typedef enum _LineDisplayHorizontalBitmapAlignment { 
-    = 
-} LineDisplayHorizontalBitmapAlignment;
-````
-
-
 ## -enum-fields
 
 

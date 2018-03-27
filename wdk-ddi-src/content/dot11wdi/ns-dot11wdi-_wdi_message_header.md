@@ -53,20 +53,6 @@ The
   WDI_MESSAGE_HEADER structure defines the WDI message header. All WDI  command messages must start with this header.
 
 
-## -syntax
-
-
-````
-typedef struct _WDI_MESSAGE_HEADER {
-  UINT16      PortId;
-  UINT16      Reserved;
-  NDIS_STATUS Status;
-  UINT32      TransactionId;
-  UINT32      IhvSpecificId;
-} WDI_MESSAGE_HEADER, *PWDI_MESSAGE_HEADER;
-````
-
-
 ## -struct-fields
 
 

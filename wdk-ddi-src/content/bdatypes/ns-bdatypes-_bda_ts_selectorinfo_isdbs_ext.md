@@ -52,16 +52,6 @@ req.typenames: BDA_TS_SELECTORINFO_ISDBS_EXT, *PBDA_TS_SELECTORINFO_ISDBS_EXT
 
 
 
-## -syntax
-
-
-````
-typedef struct _BDA_TS_SELECTORINFO_ISDBS_EXT {
-  BYTE bTMCC[48];
-} BDA_TS_SELECTORINFO_ISDBS_EXT, *PBDA_TS_SELECTORINFO_ISDBS_EXT;
-````
-
-
 ## -struct-fields
 
 

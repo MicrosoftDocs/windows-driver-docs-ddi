@@ -49,18 +49,7 @@ req.typenames: CDROM_EXCLUSIVE_LOCK, *PCDROM_EXCLUSIVE_LOCK
 ## -description
 
 
-The CDROM_EXCLUSIVE_LOCK structure is used with the <a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_exclusive_access.md">IOCTL_CDROM_EXCLUSIVE_ACCESS</a> request to lock a CD-ROM device for exclusive access.
-
-
-## -syntax
-
-
-````
-typedef struct _CDROM_EXCLUSIVE_LOCK {
-  CDROM_EXCLUSIVE_ACCESS Access;
-  UCHAR                  CallerName[CDROM_EXCLUSIVE_CALLER_LENGTH];
-} CDROM_EXCLUSIVE_LOCK, *PCDROM_EXCLUSIVE_LOCK;
-````
+The CDROM_EXCLUSIVE_LOCK structure is used with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559327">IOCTL_CDROM_EXCLUSIVE_ACCESS</a> request to lock a CD-ROM device for exclusive access.
 
 
 ## -struct-fields
@@ -70,7 +59,7 @@ typedef struct _CDROM_EXCLUSIVE_LOCK {
 
 ### -field Access
 
-A <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_exclusive_access.md">CDROM_EXCLUSIVE_ACCESS</a> structure that specifies the type of exclusive access request and the flags that are associated with the request.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff551362">CDROM_EXCLUSIVE_ACCESS</a> structure that specifies the type of exclusive access request and the flags that are associated with the request.
 
 
 ### -field CallerName
@@ -80,14 +69,14 @@ A <b>NULL</b>-terminated string that identifies the application or system compon
 
 ## -see-also
 
-<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_exclusive_access.md">CDROM_EXCLUSIVE_ACCESS</a>
 
 
 
-<a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_exclusive_access.md">IOCTL_CDROM_EXCLUSIVE_ACCESS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551362">CDROM_EXCLUSIVE_ACCESS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559327">IOCTL_CDROM_EXCLUSIVE_ACCESS</a>
  
 
  

@@ -52,20 +52,6 @@ req.typenames: BAND_LOCATION_INFO, *PBAND_LOCATION_INFO
 The <b>BAND_LOCATION_INFO</b> structure specifies the location information for a band table entry query.
 
 
-## -syntax
-
-
-````
-typedef struct _BAND_LOCATION_INFO {
-  ULONG         StructSize;
-  ULONG         Reserved;
-  LARGE_INTEGER BandStart;
-  LARGE_INTEGER BandSize;
-  BYTE          Metadata[32];
-} BAND_LOCATION_INFO, *PBAND_LOCATION_INFO;
-````
-
-
 ## -struct-fields
 
 
@@ -107,18 +93,18 @@ A metadata field used as a data area for a band management application.
 
 ## -see-also
 
-<a href="..\ehstorbandmgmt\ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_enumerate_bands.md">IOCTL_EHSTOR_BANDMGMT_ENUMERATE_BANDS</a>
 
 
 
-<a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_band_table_entry.md">BAND_TABLE_ENTRY</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439578">BAND_TABLE_ENTRY</a>
 
 
 
-<a href="..\ehstorbandmgmt\ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_create_band.md">IOCTL_EHSTOR_BANDMGMT_CREATE_BAND</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451372">IOCTL_EHSTOR_BANDMGMT_CREATE_BAND</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451380">IOCTL_EHSTOR_BANDMGMT_ENUMERATE_BANDS</a>
  
 
  

@@ -52,20 +52,6 @@ req.typenames: DXGK_PTE
 The <b>ColorFill</b> function fills a rectangle on the surface with a particular color.
 
 
-## -prototype
-
-
-````
-PFND3DDDI_COLORFILL ColorFill;
-
-__checkReturn HRESULT APIENTRY ColorFill(
-  _In_       HANDLE              hDevice,
-  _In_ const D3DDDIARG_COLORFILL *pData
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -87,7 +73,7 @@ __checkReturn HRESULT APIENTRY ColorFill(
 
 #### - pData [in]
 
- A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_colorfill.md">D3DDDIARG_COLORFILL</a> structure that describes the parameters of the color-fill operation.
+ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff542907">D3DDDIARG_COLORFILL</a> structure that describes the parameters of the color-fill operation.
 
 
 ## -returns
@@ -101,14 +87,14 @@ __checkReturn HRESULT APIENTRY ColorFill(
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_colorfill.md">D3DDDIARG_COLORFILL</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542907">D3DDDIARG_COLORFILL</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544519">D3DDDI_DEVICEFUNCS</a>
  
 
  

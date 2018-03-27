@@ -52,21 +52,6 @@ req.typenames: TOKEN_TYPE
 The <b>FsRtlMdlReadEx</b> routine performs a fast cached MDL read.  If the requested data is not cached, the routine reverts to an IRP based MDL read operation.
 
 
-## -syntax
-
-
-````
-NTSTATUS FsRtlMdlReadEx(
-  _In_  PFILE_OBJECT     FileObject,
-  _In_  PLARGE_INTEGER   FileOffset,
-  _In_  ULONG            Length,
-  _In_  ULONG            LockKey,
-  _Out_ PMDL             *MdlChain,
-  _Out_ PIO_STATUS_BLOCK IoStatus
-);
-````
-
-
 ## -parameters
 
 
@@ -99,7 +84,7 @@ On output, a pointer to a linked list of memory descriptor lists (MDLs).
 
 ### -param IoStatus [out]
 
-A pointer to an <a href="..\wudfwdm\ns-wudfwdm-_io_status_block.md">IO_STATUS_BLOCK</a> structure that, on output, contains the status of the transfer. If the operation succeeds, <i>IoStatus.Status</i> is set to <b>STATUS_SUCCESS</b>. Otherwise, it is set to an appropriate <b>NTSTATUS</b> error code. <i>IoStatus.Information</i> is set to the actual number of bytes that the routine successfully locked.
+A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff550671">IO_STATUS_BLOCK</a> structure that, on output, contains the status of the transfer. If the operation succeeds, <i>IoStatus.Status</i> is set to <b>STATUS_SUCCESS</b>. Otherwise, it is set to an appropriate <b>NTSTATUS</b> error code. <i>IoStatus.Information</i> is set to the actual number of bytes that the routine successfully locked.
 
 
 ## -returns
@@ -145,7 +130,6 @@ Similar to <a href="https://msdn.microsoft.com/library/windows/hardware/ff539159
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554559">MmGetSystemAddressForMdlSafe</a>
 
 
 
@@ -153,10 +137,11 @@ Similar to <a href="https://msdn.microsoft.com/library/windows/hardware/ff539159
 
 
 
-<a href="..\ntifs\nf-ntifs-ccmdlreadcomplete.md">CcMdlReadComplete</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539163">CcMdlReadComplete</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554559">MmGetSystemAddressForMdlSafe</a>
  
 
  

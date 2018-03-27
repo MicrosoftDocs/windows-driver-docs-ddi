@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,16 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>GetTebAddress</b> function returns the address of the thread environment block (TEB) for the current operating system thread.
-
-
-## -syntax
-
-
-````
-__inline VOID GetTebAddress(
-   PULONGLONG Address
-);
-````
 
 
 ## -parameters
@@ -93,10 +83,10 @@ In user-mode debugging, the TEB for the current thread is returned.  In kernel-m
 
 ## -see-also
 
-<a href="..\wdbgexts\nf-wdbgexts-getpebaddress.md">GetPebAddress</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548122">GetPebAddress</a>
  
 
  

@@ -52,24 +52,6 @@ req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
 The <b>DxgkCbReadDeviceSpace</b> function reads from a device configuration space or the expansion ROM of a display adapter.
 
 
-## -prototype
-
-
-````
-DXGKCB_READ_DEVICE_SPACE DxgkCbReadDeviceSpace;
-
-NTSTATUS DxgkCbReadDeviceSpace(
-  _In_  HANDLE DeviceHandle,
-  _In_  ULONG  DataType,
-  _In_  PVOID  Buffer,
-  _In_  ULONG  Offset,
-  _In_  ULONG  Length,
-  _Out_ PULONG BytesRead
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -77,7 +59,7 @@ NTSTATUS DxgkCbReadDeviceSpace(
 
 ### -param DeviceHandle [in]
 
-A handle that represents a display adapter. The display miniport driver previously obtained this handle in the <b>DeviceHandle</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560942">DXGKRNL_INTERFACE</a> structure that was passed to <a href="..\dispmprt\nc-dispmprt-dxgkddi_start_device.md">DxgkDdiStartDevice</a>.
+A handle that represents a display adapter. The display miniport driver previously obtained this handle in the <b>DeviceHandle</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560942">DXGKRNL_INTERFACE</a> structure that was passed to <a href="https://msdn.microsoft.com/ffacbb39-2581-4207-841d-28ce57fbc64d">DxgkDdiStartDevice</a>.
 
 
 ### -param DataType [in]
@@ -183,10 +165,10 @@ A pointer to a ULONG-typed variable that receives the number of bytes actually r
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkcb_write_device_space.md">DxgkCbWriteDeviceSpace</a>
 
 
 
+<a href="https://msdn.microsoft.com/797d6b0c-91a4-4923-ad40-937cfde50067">DxgkCbWriteDeviceSpace</a>
  
 
  

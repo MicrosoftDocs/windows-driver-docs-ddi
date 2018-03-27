@@ -52,18 +52,6 @@ req.typenames: D3D12DDI_VIDEO_SAMPLE_DESCRIPTION_0020
 Describes the width, height, format, and color space of a picture buffer.
 
 
-## -syntax
-
-
-````
-typedef struct D3D12DDI_VIDEO_SAMPLE_DESCRIPTION_0020 {
-  UINT                                   Width;
-  UINT                                   Height;
-  D3D12DDI_VIDEO_FORMAT_DESCRIPTION_0020 Format;
-} D3D12DDI_VIDEO_SAMPLE_DESCRIPTION_0020;
-````
-
-
 ## -struct-fields
 
 
@@ -81,15 +69,15 @@ The height of the sample.
 
 ### -field Format
 
-The format and color space of the sample.  For more information, see the <a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddi_video_format_description_0020.md">D3D12DDI_VIDEO_FORMAT_DESCRIPTION</a> structure.
+The format and color space of the sample.  For more information, see the <a href="https://msdn.microsoft.com/47C0C369-B31B-4291-A420-A1E75BA990CF">D3D12DDI_VIDEO_FORMAT_DESCRIPTION</a> structure.
 
 
 ## -see-also
 
-<a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddi_video_format_description_0020.md">D3D12DDI_VIDEO_FORMAT_DESCRIPTION</a>
 
 
 
+<a href="https://msdn.microsoft.com/47C0C369-B31B-4291-A420-A1E75BA990CF">D3D12DDI_VIDEO_FORMAT_DESCRIPTION</a>
  
 
  

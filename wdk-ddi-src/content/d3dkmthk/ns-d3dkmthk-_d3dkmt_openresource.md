@@ -52,32 +52,6 @@ req.typenames: D3DKMT_OPENRESOURCE
 The D3DKMT_OPENRESOURCE structure describes parameters for opening a resource.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DKMT_OPENRESOURCE {
-  D3DKMT_HANDLE hDevice;
-  D3DKMT_HANDLE hGlobalShare;
-  UINT          NumAllocations;
-  union {
-    D3DDDI_OPENALLOCATIONINFO  *pOpenAllocationInfo;
-#if ((DXGKDDI_INTERFACE_VERSION >= DXGKDDI_INTERFACE_VERSION_WIN7) || \
-     (D3D_UMD_INTERFACE_VERSION >= D3D_UMD_INTERFACE_VERSION_WIN7))
-    D3DDDI_OPENALLOCATIONINFO2 *pOpenAllocationInfo2;
-#endif 
-  };
-  VOID          *pPrivateRuntimeData;
-  UINT          PrivateRuntimeDataSize;
-  VOID          *pResourcePrivateDriverData;
-  UINT          ResourcePrivateDriverDataSize;
-  VOID          *pTotalPrivateDriverDataBuffer;
-  UINT          TotalPrivateDriverDataBufferSize;
-  D3DKMT_HANDLE hResource;
-} D3DKMT_OPENRESOURCE;
-````
-
-
 ## -struct-fields
 
 
@@ -135,7 +109,7 @@ typedef struct _D3DKMT_OPENRESOURCE {
 
 #### - pOpenAllocationInfo
 
-[in/out] An array of <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_openallocationinfo.md">D3DDDI_OPENALLOCATIONINFO</a> structures that describe each allocation to update.
+[in/out] An array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff544599">D3DDDI_OPENALLOCATIONINFO</a> structures that describe each allocation to update.
 
 
 #### - pOpenAllocationInfo2
@@ -147,14 +121,14 @@ This member is available beginning with Windows 7.
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtopenresource.md">D3DKMTOpenResource</a>
 
 
 
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_openallocationinfo.md">D3DDDI_OPENALLOCATIONINFO</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544599">D3DDDI_OPENALLOCATIONINFO</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547065">D3DKMTOpenResource</a>
  
 
  

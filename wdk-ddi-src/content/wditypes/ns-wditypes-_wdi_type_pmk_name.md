@@ -53,16 +53,6 @@ req.product: Windows 10 or later.
 The WDI_TYPE_PMK_NAME structure defines the PMKR0Name or PMKR1Name (802.11r).
 
 
-## -syntax
-
-
-````
-typedef struct _WDI_TYPE_PMK_NAME {
-  UINT8 Name[16];
-} WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME;
-````
-
-
 ## -struct-fields
 
 

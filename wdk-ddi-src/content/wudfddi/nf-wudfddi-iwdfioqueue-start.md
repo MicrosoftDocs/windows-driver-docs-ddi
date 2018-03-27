@@ -26,7 +26,7 @@ req.max-support: Unavailable in UMDF 2.0 and later.
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: wudfddi.h
+req.lib: 
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
@@ -55,14 +55,6 @@ req.product: Windows 10 or later.
 The <b>Start</b> method enables an I/O queue to start receiving new I/O requests and delivering them to a driver.
 
 
-## -syntax
-
-
-````
-void  Start();
-````
-
-
 ## -parameters
 
 
@@ -81,10 +73,10 @@ None
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558943">IWDFIoQueue</a>
  
 
  

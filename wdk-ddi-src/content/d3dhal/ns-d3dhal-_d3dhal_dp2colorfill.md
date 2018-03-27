@@ -53,19 +53,7 @@ req.typenames: D3DHAL_DP2COLORFILL
    DirectX 9.0 and later versions only.
    
 
-D3DHAL_DP2COLORFILL is used for color-fill operations when <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a> responds to the D3DDP2OP_COLORFILL command token.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DHAL_DP2COLORFILL {
-  DWORD    dwSurface;
-  RECTL    rRect;
-  D3DCOLOR Color;
-} D3DHAL_DP2COLORFILL, *LPD3DHAL_DP2COLORFILL;
-````
+D3DHAL_DP2COLORFILL is used for color-fill operations when <a href="https://msdn.microsoft.com/6128ff7a-0d2c-48df-8b5e-cab33c5a74f5">D3dDrawPrimitives2</a> responds to the D3DDP2OP_COLORFILL command token.
 
 
 ## -struct-fields
@@ -105,18 +93,18 @@ For more information about D3DCOLOR, see the DirectX SDK documentation.
 
 ## -see-also
 
+
+
+
 D3DDP2OP_COLORFILL
 
 
 
+<a href="https://msdn.microsoft.com/6128ff7a-0d2c-48df-8b5e-cab33c5a74f5">D3dDrawPrimitives2</a>
+
+
+
 <a href="https://msdn.microsoft.com/28e0c827-33f1-4b83-9f20-bbb66bc0e14a">DdBlt</a>
-
-
-
-<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
-
-
-
  
 
  

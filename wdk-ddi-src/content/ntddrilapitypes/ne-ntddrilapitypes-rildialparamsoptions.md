@@ -52,20 +52,6 @@ req.typenames: RILDIALPARAMSOPTIONS
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef enum _RILDIALPARAMSOPTIONS { 
-  RIL_DIALOPT_RESTRICTID,
-  RIL_DIALOPT_PRESENTID,
-  RIL_DIALOPT_ANYEXECUTORFOREMERGENCY,
-  RIL_DIALOPT_RTTFULL,
-  RIL_DIALOPT_ALL
-} RILDIALPARAMSOPTIONS;
-````
-
-
 ## -enum-fields
 
 

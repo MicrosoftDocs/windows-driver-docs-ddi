@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: "_IRQL_requires_max_(APC_LEVEL)"
 topic_type:
@@ -51,18 +51,6 @@ req.typenames: EXpsFontRestriction
 
 This routine copies any open reparse information from a previous create into
     a new ECP list that can be used to issue a second create.
-
-
-## -syntax
-
-
-````
-NTSTATUS FltAddOpenReparseEntry(
-  _In_    PFLT_FILTER        Filter,
-  _In_    PFLT_CALLBACK_DATA Data,
-  _Inout_ PECP_LIST          EcpList
-);
-````
 
 
 ## -parameters
@@ -128,10 +116,10 @@ The operation completed successfully.
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltfreeopenreparselist.md">FltFreeOpenReparseList</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt734259">FltFreeOpenReparseList</a>
  
 
  

@@ -54,17 +54,6 @@ req.typenames: DXGKVGPU_ESCAPE_POWERTRANSITIONCOMPLETE
 Indicates that a power transition has completed.
 
 
-## -syntax
-
-
-````
-typedef struct _DXGKVGPU_ESCAPE_POWERTRANSITIONCOMPLETE {
-  DXGKVGPU_ESCAPE_HEAD Header;
-  UINT                 PowerState;
-} DXGKVGPU_ESCAPE_POWERTRANSITIONCOMPLETE;
-````
-
-
 ## -struct-fields
 
 

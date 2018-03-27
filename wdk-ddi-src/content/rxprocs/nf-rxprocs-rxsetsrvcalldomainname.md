@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
@@ -51,17 +51,6 @@ req.product: Windows 10 or later.
 
 
 <b>RxSetSrvCallDomainName</b> is called by a network mini-redirector driver to set the domain name associated with any given server (SRV_CALL structure).
-
-
-## -syntax
-
-
-````
-NTSTATUS RxSetSrvCallDomainName(
-  _In_ PMRX_SRV_CALL   SrvCall,
-  _In_ PUNICODE_STRING DomainName
-);
-````
 
 
 ## -parameters
@@ -122,14 +111,14 @@ If the <i>DomainName</i> parameter is not a <b>NULL</b> pointer, and the <i>Doma
 
 ## -see-also
 
-<a href="..\fcb\nf-fcb-rxcreatesrvcall.md">RxCreateSrvCall</a>
 
 
 
-<a href="..\fcb\nf-fcb-rxfinalizesrvcall.md">RxFinalizeSrvCall</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554370">RxCreateSrvCall</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554426">RxFinalizeSrvCall</a>
  
 
  

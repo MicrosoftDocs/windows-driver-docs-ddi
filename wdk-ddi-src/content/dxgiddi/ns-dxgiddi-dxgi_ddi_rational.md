@@ -52,17 +52,6 @@ req.typenames: DXGI_DDI_RATIONAL
 The DXGI_DDI_RATIONAL structure describes a fractional value that represents vertical and horizontal frequencies of a display mode (that is, vertical sync and horizontal sync). 
 
 
-## -syntax
-
-
-````
-typedef struct DXGI_DDI_RATIONAL {
-  UINT Numerator;
-  UINT Denominator;
-} DXGI_DDI_RATIONAL;
-````
-
-
 ## -struct-fields
 
 
@@ -91,10 +80,10 @@ For a rational number with a finite fractional sequence, use a denominator of th
 
 ## -see-also
 
-<a href="..\dxgiddi\ns-dxgiddi-dxgi_ddi_mode_desc.md">DXGI_DDI_MODE_DESC</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557499">DXGI_DDI_MODE_DESC</a>
  
 
  

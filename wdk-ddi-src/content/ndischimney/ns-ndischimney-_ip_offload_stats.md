@@ -57,25 +57,6 @@ The IP_OFFLOAD_STATS structure contains statistics that an offload target suppli
   <a href="https://msdn.microsoft.com/library/windows/hardware/ff569759">OID_IP6_OFFLOAD_STATS</a>.
 
 
-## -syntax
-
-
-````
-typedef struct _IP_OFFLOAD_STATS {
-  ULONG64 InReceives;
-  ULONG64 InOctets;
-  ULONG64 InDelivers;
-  ULONG64 OutRequests;
-  ULONG64 OutOctets;
-  ULONG   InHeaderErrors;
-  ULONG   InTruncatedPackets;
-  ULONG   InDiscards;
-  ULONG   OutDiscards;
-  ULONG   OutNoRoutes;
-} IP_OFFLOAD_STATS, *PIP_OFFLOAD_STATS;
-````
-
-
 ## -struct-fields
 
 
@@ -182,7 +163,7 @@ If an offload target's TCP chimney capabilities are enabled (see
 <ul>
 <li>
 The offload target can indicate the packet through the non-offload interface by calling the 
-      <a href="..\ndis\nf-ndis-ndismindicatereceivenetbufferlists.md">
+      <a href="https://msdn.microsoft.com/b87dba3e-c18f-4ea2-8bd5-ec3cdafc534b">
       NdisMIndicateReceiveNetBufferLists</a> function. In this case, the offload target must not increment
       the InHeaderErrors counter. This is the recommended approach.
 
@@ -212,7 +193,14 @@ All of the counters that supply the values for the IP_OFFLOAD_STATS structure wr
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndismindicatereceivenetbufferlists.md">
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558995">NDIS_TASK_OFFLOAD</a>
+
+
+
+<a href="https://msdn.microsoft.com/b87dba3e-c18f-4ea2-8bd5-ec3cdafc534b">
    NdisMIndicateReceiveNetBufferLists</a>
 
 
@@ -222,13 +210,6 @@ All of the counters that supply the values for the IP_OFFLOAD_STATS structure wr
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569759">OID_IP6_OFFLOAD_STATS</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558995">NDIS_TASK_OFFLOAD</a>
-
-
-
  
 
  

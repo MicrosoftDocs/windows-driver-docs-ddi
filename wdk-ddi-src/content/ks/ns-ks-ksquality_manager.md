@@ -52,17 +52,6 @@ req.typenames: KSQUALITY_MANAGER, *PKSQUALITY_MANAGER
 The KSQUALITY_MANAGER structure is used with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565750">KSPROPERTY_STREAM_QUALITY</a> property and contains the handle of the quality manager sink and a context to pass in the quality complaints.
 
 
-## -syntax
-
-
-````
-typedef struct {
-  HANDLE QualityManager;
-  PVOID  Context;
-} KSQUALITY_MANAGER, *PKSQUALITY_MANAGER;
-````
-
-
 ## -struct-fields
 
 
@@ -70,7 +59,7 @@ typedef struct {
 
 ### -field QualityManager
 
-Specifies a handle to the quality manager sink receiving the <a href="..\ks\ns-ks-ksquality.md">KSQUALITY</a> complaint structures.
+Specifies a handle to the quality manager sink receiving the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566728">KSQUALITY</a> complaint structures.
 
 
 ### -field Context
@@ -80,7 +69,6 @@ Specifies the context parameter to use when reporting quality problems. The cont
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ksquality.md">KSQUALITY</a>
 
 
 
@@ -88,6 +76,7 @@ Specifies the context parameter to use when reporting quality problems. The cont
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566728">KSQUALITY</a>
  
 
  

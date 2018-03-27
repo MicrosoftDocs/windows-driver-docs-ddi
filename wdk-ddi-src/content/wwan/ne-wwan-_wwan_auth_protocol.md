@@ -54,20 +54,6 @@ The WWAN_AUTH_PROTOCOL enumeration lists the different types of authentication p
   supported by the MB device.
 
 
-## -syntax
-
-
-````
-typedef enum _WWAN_AUTH_PROTOCOL { 
-  WwanAuthProtocolNone      = 0,
-  WwanAuthProtocolPap,
-  WwanAuthProtocolChap,
-  WwanAuthProtocolMsChapV2,
-  WwanAuthProtocolMax
-} WWAN_AUTH_PROTOCOL, *PWWAN_AUTH_PROTOCOL;
-````
-
-
 ## -enum-fields
 
 
@@ -113,14 +99,14 @@ This enumeration applies only to GSM devices. The MB Service specifies
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_set_context_state.md">WWAN_SET_CONTEXT_STATE</a>
 
 
 
-<a href="..\wwan\ns-wwan-_wwan_context.md">WWAN_CONTEXT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571201">WWAN_CONTEXT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571235">WWAN_SET_CONTEXT_STATE</a>
  
 
  

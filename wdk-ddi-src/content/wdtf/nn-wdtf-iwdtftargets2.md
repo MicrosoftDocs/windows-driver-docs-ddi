@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: Microsoft.WDTF
 req.assembly: WDTF.Interop.metadata_dll
 req.type-library: 
-req.lib: wdtf.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -101,7 +101,7 @@ Evaluates whether all items in the collection match an SDEL statement.
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439475">GetInterfaces</a>
 </td>
 <td align="left" width="63%">
-Returns a collection of actions that support the interface - one <a href="..\wdtf\nn-wdtf-iwdtfaction2.md">IWDTFAction2</a> for each item
+Returns a collection of actions that support the interface - one <a href="https://msdn.microsoft.com/library/windows/hardware/hh406311">IWDTFAction2</a> for each item
 that has one.
 
 </td>
@@ -111,7 +111,7 @@ that has one.
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439478">GetInterfacesIfExist</a>
 </td>
 <td align="left" width="63%">
-Returns a collection of actions that support the interface - one <a href="..\wdtf\nn-wdtf-iwdtfaction2.md">IWDTFAction2</a> for each item
+Returns a collection of actions that support the interface - one <a href="https://msdn.microsoft.com/library/windows/hardware/hh406311">IWDTFAction2</a> for each item
 that has one.
 
 </td>

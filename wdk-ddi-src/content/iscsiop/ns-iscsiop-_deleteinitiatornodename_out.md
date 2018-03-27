@@ -52,16 +52,6 @@ req.typenames: DeleteInitiatorNodeName_OUT, *PDeleteInitiatorNodeName_OUT
 The DeleteInitiatorNodeName_OUT structure holds the output data for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552500">DeleteInitiatorNodeName</a> method.
 
 
-## -syntax
-
-
-````
-typedef struct _DeleteInitiatorNodeName_OUT {
-  ULONG Status;
-} DeleteInitiatorNodeName_OUT, *PDeleteInitiatorNodeName_OUT;
-````
-
-
 ## -struct-fields
 
 
@@ -83,18 +73,18 @@ It is optional that you implement this method.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552500">DeleteInitiatorNodeName</a>
 
 
 
-<a href="..\iscsiop\ns-iscsiop-_deleteinitiatornodename_in.md">DeleteInitiatorNodeName_IN</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552505">DeleteInitiatorNodeName_IN</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>
-
-
-
  
 
  

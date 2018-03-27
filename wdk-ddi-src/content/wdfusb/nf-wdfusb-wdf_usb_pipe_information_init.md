@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -52,17 +52,7 @@ req.product: Windows 10 or later.
 
 <p class="CCE_Message">[Applies to KMDF and UMDF]
 
-The <b>WDF_USB_PIPE_INFORMATION_INIT</b> function initializes a <a href="..\wdfusb\ns-wdfusb-_wdf_usb_pipe_information.md">WDF_USB_PIPE_INFORMATION</a> structure. 
-
-
-## -syntax
-
-
-````
-VOID WDF_USB_PIPE_INFORMATION_INIT(
-  _Out_ PWDF_USB_PIPE_INFORMATION Info
-);
-````
+The <b>WDF_USB_PIPE_INFORMATION_INIT</b> function initializes a <a href="https://msdn.microsoft.com/library/windows/hardware/ff553037">WDF_USB_PIPE_INFORMATION</a> structure. 
 
 
 ## -parameters
@@ -72,7 +62,7 @@ VOID WDF_USB_PIPE_INFORMATION_INIT(
 
 ### -param Info [out]
 
-A pointer to a <a href="..\wdfusb\ns-wdfusb-_wdf_usb_pipe_information.md">WDF_USB_PIPE_INFORMATION</a> structure. 
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff553037">WDF_USB_PIPE_INFORMATION</a> structure. 
 
 
 ## -returns
@@ -93,7 +83,7 @@ The <b>WDF_USB_PIPE_INFORMATION_INIT</b> function zeros the WDF_USB_PIPE_INFORMA
 
 #### Examples
 
-For a code example that uses <b>WDF_USB_PIPE_INFORMATION_INIT</b>, see <a href="..\wdfusb\nf-wdfusb-wdfusbinterfacegetendpointinformation.md">WdfUsbInterfaceGetEndpointInformation</a>.
+For a code example that uses <b>WDF_USB_PIPE_INFORMATION_INIT</b>, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff550063">WdfUsbInterfaceGetEndpointInformation</a>.
 
 <div class="code"></div>
 
@@ -101,10 +91,10 @@ For a code example that uses <b>WDF_USB_PIPE_INFORMATION_INIT</b>, see <a href="
 
 ## -see-also
 
-<a href="..\wdfusb\ns-wdfusb-_wdf_usb_pipe_information.md">WDF_USB_PIPE_INFORMATION</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553037">WDF_USB_PIPE_INFORMATION</a>
  
 
  

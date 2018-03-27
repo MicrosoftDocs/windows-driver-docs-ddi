@@ -53,17 +53,7 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 A filter driver must call the 
   <b>NdisFPauseComplete</b> function to complete a pause operation if the driver returned NDIS_STATUS_PENDING
   from its 
-  <a href="..\ndis\nc-ndis-filter_pause.md">FilterPause</a> function.
-
-
-## -syntax
-
-
-````
-VOID NdisFPauseComplete(
-  _In_ NDIS_HANDLE NdisFilterHandle
-);
-````
+  <a href="https://msdn.microsoft.com/a239889e-ec39-48fc-9e82-c8bc3d7ca51a">FilterPause</a> function.
 
 
 ## -parameters
@@ -75,7 +65,7 @@ VOID NdisFPauseComplete(
 
 The NDIS handle that identifies this filter module. NDIS passed the handle to the filter driver in
      a call to the 
-     <a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a> function.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff540442">FilterAttach</a> function.
 
 
 ## -returns
@@ -92,7 +82,7 @@ None
 
 
 NDIS calls a filter driver's 
-    <a href="..\ndis\nc-ndis-filter_pause.md">FilterPause</a> function to initiate a pause
+    <a href="https://msdn.microsoft.com/a239889e-ec39-48fc-9e82-c8bc3d7ca51a">FilterPause</a> function to initiate a pause
     request for a filter module. The filter module remains in the 
     <i>Pausing</i> state until the pause operation is complete.
 
@@ -106,14 +96,14 @@ After a pending pause operation is complete, the driver calls
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
 
 
 
-<a href="..\ndis\nc-ndis-filter_pause.md">FilterPause</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540442">FilterAttach</a>
 
 
 
+<a href="https://msdn.microsoft.com/a239889e-ec39-48fc-9e82-c8bc3d7ca51a">FilterPause</a>
  
 
  

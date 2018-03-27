@@ -52,20 +52,6 @@ req.typenames: DXGK_PTE
 The <i>GenerateMipSubLevels</i> function regenerates the sublevels of a MIP-map texture.
 
 
-## -prototype
-
-
-````
-PFND3DDDI_GENERATEMIPSUBLEVELS GenerateMipSubLevels;
-
-__checkReturn HRESULT APIENTRY GenerateMipSubLevels(
-  _In_       HANDLE                         hDevice,
-  _In_ const D3DDDIARG_GENERATEMIPSUBLEVELS *pData
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -87,7 +73,7 @@ __checkReturn HRESULT APIENTRY GenerateMipSubLevels(
 
 #### - pData [in]
 
- A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_generatemipsublevels.md">D3DDDIARG_GENERATEMIPSUBLEVELS</a> structure that describes how to generate the sublevels of a MIP-map texture.
+ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543135">D3DDDIARG_GENERATEMIPSUBLEVELS</a> structure that describes how to generate the sublevels of a MIP-map texture.
 
 
 ## -returns
@@ -110,14 +96,14 @@ After the user-mode display driver performs an operation that accesses only the 
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_generatemipsublevels.md">D3DDDIARG_GENERATEMIPSUBLEVELS</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543135">D3DDDIARG_GENERATEMIPSUBLEVELS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544519">D3DDDI_DEVICEFUNCS</a>
  
 
  

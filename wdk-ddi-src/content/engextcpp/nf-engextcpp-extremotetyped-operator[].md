@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: engextcpp.hpp
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -50,16 +50,6 @@ req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
 
 
 The <b>operator[]</b> overloaded operator returns the typed data in the specified array element of the typed data represented by this object.
-
-
-## -syntax
-
-
-````
-ExtRemoteTyped operator[](
-  [in] LONG Index
-);
-````
 
 
 ## -parameters
@@ -94,7 +84,10 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/ff544211">ExtRe
 
 ## -see-also
 
-<a href="..\engextcpp\nf-engextcpp-extremotetyped-operator[].md">ExtRemoteTyped::Operator[] (ULONG64)</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544162">ExtRemoteTyped</a>
 
 
 
@@ -102,18 +95,15 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/ff544211">ExtRe
 
 
 
-<a href="..\engextcpp\nf-engextcpp-extremotetyped-operator[].md">ExtRemoteTyped::Operator[] (ULONG)</a>
+<a href="https://msdn.microsoft.com/1c2a78ca-5820-40d5-936a-99d50661c982">ExtRemoteTyped::Operator[] (LONG64)</a>
 
 
 
-<a href="..\engextcpp\nf-engextcpp-extremotetyped-operator[].md">ExtRemoteTyped::Operator[] (LONG64)</a>
+<a href="https://msdn.microsoft.com/d264f2a1-20fa-4bd3-9db5-f253cc5ad0e6">ExtRemoteTyped::Operator[] (ULONG)</a>
 
 
 
-<a href="..\engextcpp\nl-engextcpp-extremotetyped.md">ExtRemoteTyped</a>
-
-
-
+<a href="https://msdn.microsoft.com/60bf48e2-8f44-4ed3-8c35-499e764fcca9">ExtRemoteTyped::Operator[] (ULONG64)</a>
  
 
  

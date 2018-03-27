@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 The <b>VideoPortGetVgaStatus</b> function detects whether the calling device is decoding a VGA I/O address.
 
 
-## -syntax
-
-
-````
-VP_STATUS VideoPortGetVgaStatus(
-        PVOID  HwDeviceExtension,
-  _Out_ PULONG VgaStatus
-);
-````
-
-
 ## -parameters
 
 

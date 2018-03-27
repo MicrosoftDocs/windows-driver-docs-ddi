@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: wdtf.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -53,16 +53,6 @@ req.product: Windows 10 or later.
 Remove an action from the collection.
 
 
-## -syntax
-
-
-````
-HRESULT Remove(
-  [in] IWDTFAction2 *pAction
-);
-````
-
-
 ## -parameters
 
 
@@ -86,7 +76,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-The lifetime of <a href="..\wdtf\nn-wdtf-iwdtfaction2.md">IWDTFAction2</a> interface 
+The lifetime of <a href="https://msdn.microsoft.com/library/windows/hardware/hh406311">IWDTFAction2</a> interface 
 instances are tied to their creator. If you remove an item from a collection, the item is
 not destroyed.
 
@@ -95,10 +85,10 @@ not destroyed.
 
 ## -see-also
 
-<a href="..\wdtf\nn-wdtf-iwdtfactions2.md">IWDTFActions2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406331">IWDTFActions2</a>
  
 
  

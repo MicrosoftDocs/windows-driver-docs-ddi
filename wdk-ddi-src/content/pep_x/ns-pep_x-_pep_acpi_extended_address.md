@@ -7,7 +7,7 @@ old-location: kernel\pep_acpi_extended_address.htm
 old-project: kernel
 ms.assetid: E784765E-E346-4D57-B334-D0A0A823DAA8
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/1/2018
 ms.keywords: "*PPEP_ACPI_EXTENDED_ADDRESS, 0 - Consumer/Producer flag, 0 - Write status, 0 to 1 - Range, 0 to 7 - Reserved, 1 - Decode type, 1 to 2 - Memory attributes (MEM), 2 - Minimum address fixed, 2 to 3 - Reserved, 3 - Max address fixed, 3 to 4 - Memory attributes (MTP), 4 - IO to memory translation, 4 to 7 - Reserved, 5 - Memory to IO translation, 5 - Sparse translation, 6 to 7 - Reserved, PEP_ACPI_EXTENDED_ADDRESS, PEP_ACPI_EXTENDED_ADDRESS structure [Kernel-Mode Driver Architecture], PPEP_ACPI_EXTENDED_ADDRESS, PPEP_ACPI_EXTENDED_ADDRESS structure pointer [Kernel-Mode Driver Architecture], _PEP_ACPI_EXTENDED_ADDRESS, kernel.pep_acpi_extended_address, pepfx/PEP_ACPI_EXTENDED_ADDRESS, pepfx/PPEP_ACPI_EXTENDED_ADDRESS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,29 +52,6 @@ req.typenames: PEP_ACPI_EXTENDED_ADDRESS, *PPEP_ACPI_EXTENDED_ADDRESS, PEP_ACPI_
 The <b>PEP_ACPI_EXTENDED_ADDRESS</b> structure is used to report resource usage in the address space such as memory and IO.
 
 
-## -syntax
-
-
-````
-typedef struct _PEP_ACPI_EXTENDED_ADDRESS {
-  PEP_ACPI_RESOURCE_TYPE  Type;
-  PEP_ACPI_RESOURCE_FLAGS Flags;
-  UCHAR                   ResourceFlags;
-  UCHAR                   GeneralFlags;
-  UCHAR                   TypeSpecificFlags;
-  UCHAR                   RevisionId;
-  UCHAR                   Reserved;
-  ULONGLONG               Granularity;
-  ULONGLONG               MinimumAddress;
-  ULONGLONG               MaximumAddress;
-  ULONGLONG               TranslationAddress;
-  ULONGLONG               AddressLength;
-  ULONGLONG               TypeAttribute;
-  PUNICODE_STRING         DescriptorName;
-} PEP_ACPI_EXTENDED_ADDRESS, *PPEP_ACPI_EXTENDED_ADDRESS;
-````
-
-
 ## -struct-fields
 
 
@@ -82,12 +59,12 @@ typedef struct _PEP_ACPI_EXTENDED_ADDRESS {
 
 ### -field Type
 
-A <a href="..\pepfx\ne-pepfx-_pep_acpi_resource_type.md">PEP_ACPI_RESOURCE_TYPE</a> enumeration value describing this resource.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/mt186693">PEP_ACPI_RESOURCE_TYPE</a> enumeration value describing this resource.
 
 
 ### -field Flags
 
-A <a href="..\pepfx\ns-pepfx-_pep_acpi_resource_flags.md">PEP_ACPI_RESOURCE_FLAGS</a> structure describing this resource.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/mt186692">PEP_ACPI_RESOURCE_FLAGS</a> structure describing this resource.
 
 
 ### -field ResourceFlags

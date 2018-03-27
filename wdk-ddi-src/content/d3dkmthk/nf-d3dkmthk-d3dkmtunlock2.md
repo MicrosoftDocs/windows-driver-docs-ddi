@@ -54,16 +54,6 @@ req.typenames: D3DKMT_DRIVERVERSION
 The <b>D3DKMTUnlock2</b> function unlocks a list of allocations.
 
 
-## -syntax
-
-
-````
-NTSTATUS APIENTRY D3DKMTUnlock2(
-  _In_ const D3DKMT_UNLOCK2 *pData
-);
-````
-
-
 ## -parameters
 
 
@@ -78,7 +68,7 @@ TBD
 
 #### - pData [in]
 
-A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_unlock2.md">D3DKMT_UNLOCK2</a> structure that describes a list of allocations to unlock.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn914462">D3DKMT_UNLOCK2</a> structure that describes a list of allocations to unlock.
 
 
 ## -returns
@@ -122,10 +112,10 @@ This function might also return other <b>NTSTATUS</b> values.
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_unlock2.md">D3DKMT_UNLOCK2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn914462">D3DKMT_UNLOCK2</a>
  
 
  

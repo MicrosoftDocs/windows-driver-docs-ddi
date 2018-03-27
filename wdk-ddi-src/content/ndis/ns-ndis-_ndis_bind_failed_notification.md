@@ -52,17 +52,6 @@ req.typenames: NDIS_BIND_FAILED_NOTIFICATION, *PNDIS_BIND_FAILED_NOTIFICATION
 The <b>NDIS_BIND_FAILED_NOTIFICATION</b> structure describes a binding event failure.
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_BIND_FAILED_NOTIFICATION {
-  NDIS_OBJECT_HEADER Header;
-  NET_LUID           MiniportNetLuid;
-} NDIS_BIND_FAILED_NOTIFICATION, *PNDIS_BIND_FAILED_NOTIFICATION;
-````
-
-
 ## -struct-fields
 
 
@@ -71,7 +60,7 @@ typedef struct _NDIS_BIND_FAILED_NOTIFICATION {
 ### -field Header
 
 The 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure for the
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure for the
      <b>NDIS_BIND_FAILED_NOTIFICATION</b> structure. NDIS sets the 
      <b>Type</b> member of the structure that 
      <b>Header</b> specifies to <b>NDIS_OBJECT_TYPE_DEFAULT</b>, the 

@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: 
+req.irql: "<=DISPATCH_LEVEL"
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -50,20 +50,6 @@ req.typenames: STORAGE_DIAGNOSTIC_TARGET_TYPE, *PSTORAGE_DIAGNOSTIC_TARGET_TYPE
 
 
 The <b>STORAGE_DIAGNOSTIC_TARGET_TYPE</b> enumeration specifies the target type of a storage diagnostic.
-
-
-## -syntax
-
-
-````
-typedef enum _STORAGE_DIAGNOSTIC_TARGET_TYPE { 
-  StorageDiagnosticTargetTypeUndefined    = 0,
-  StorageDiagnosticTargetTypePort,
-  StorageDiagnosticTargetTypeMiniport,
-  StorageDiagnosticTargetTypeHbaFirmware,
-  StorageDiagnosticTargetTypeMax
-} STORAGE_DIAGNOSTIC_TARGET_TYPE, *PSTORAGE_DIAGNOSTIC_TARGET_TYPE;
-````
 
 
 ## -enum-fields

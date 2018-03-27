@@ -52,16 +52,6 @@ req.typenames: RemovePersistentEntry_OUT, *PRemovePersistentEntry_OUT
 The RemovePersistentEntry_OUT structure is used to report the output parameter data of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563988">RemovePersistentEntry</a> WMI method to the WMI client.
 
 
-## -syntax
-
-
-````
-typedef struct _RemovePersistentEntry_OUT {
-  ULONG HBAStatus;
-} RemovePersistentEntry_OUT, *PRemovePersistentEntry_OUT;
-````
-
-
 ## -struct-fields
 
 
@@ -83,10 +73,10 @@ The WMI tool suite generates a declaration of the RemovePersistentEntry_OUT stru
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563988">RemovePersistentEntry</a>
-
-
-
  
 
  

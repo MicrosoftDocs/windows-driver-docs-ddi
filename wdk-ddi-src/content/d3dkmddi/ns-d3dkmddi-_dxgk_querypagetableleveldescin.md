@@ -52,17 +52,6 @@ req.typenames: DXGK_QUERYPAGETABLELEVELDESCIN
 The <b>DXGK_QUERYPAGETABLELEVELDESCIN</b> structure is used to request page level descriptors from the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560940">Dxgkrnl Interface</a>.
 
 
-## -syntax
-
-
-````
-typedef struct _DXGK_QUERYPAGETABLELEVELDESCIN {
-  WORD LevelIndex;
-  WORD PhysicalAdapterIndex;
-} DXGK_QUERYPAGETABLELEVELDESCIN;
-````
-
-
 ## -struct-fields
 
 
@@ -82,7 +71,7 @@ A zero-based page table level index for the information requested.
 
 
 
-To get page table level descriptors Dxgkrnl calls <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_queryadapterinfo.md">DxgkDdiQueryAdapterInfo</a> with the following parameters:
+To get page table level descriptors Dxgkrnl calls <a href="https://msdn.microsoft.com/f2f4c54c-7413-48e5-a165-d71f35642b6c">DxgkDdiQueryAdapterInfo</a> with the following parameters:
 
 <pre class="syntax" xml:space="preserve"><code>DXGKARG_QUERYADAPTERINFO::Type = DXGKQAITYPE_PAGETABLELEVELDESC;
 DXGKARG_QUERYADAPTERINFO::pInputData = DXGK_QUERYPAGETABLELEVELDESCIN 

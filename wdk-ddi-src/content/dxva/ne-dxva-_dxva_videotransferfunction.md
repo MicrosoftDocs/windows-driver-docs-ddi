@@ -52,26 +52,6 @@ req.typenames: DXVA_VideoTransferFunction
 The DXVA_VideoTransferFunction enumeration type contains enumerators that identify the conversion function from R'G'B' to RGB.
 
 
-## -syntax
-
-
-````
-typedef enum _DXVA_VideoTransferFunction { 
-  DXVA_VideoTransFuncShift          = (DXVA_ExtColorData_ShiftBase + 19),
-  DXVA_VideoTransFuncMask           = DXVAColorMask(5, DXVA_VideoTransFuncShift),
-  DXVA_VideoTransFunc_Unknown       = 0,
-  DXVA_VideoTransFunc_10            = 1,
-  DXVA_VideoTransFunc_18            = 2,
-  DXVA_VideoTransFunc_20            = 3,
-  DXVA_VideoTransFunc_22            = 4,
-  DXVA_VideoTransFunc_22_709        = 5,
-  DXVA_VideoTransFunc_22_240M       = 6,
-  DXVA_VideoTransFunc_22_8bit_sRGB  = 7,
-  DXVA_VideoTransFunc_28            = 8
-} DXVA_VideoTransferFunction;
-````
-
-
 ## -enum-fields
 
 
@@ -154,7 +134,7 @@ Specifies true 2.8 gamma. That is, L' = pow(L, 1/gamma) for L=0..1.
 
 
 
-One of the enumerators of DXVA_VideoTransferFunction can be specified in the <b>VideoTransferFunction</b> member of the <a href="..\dxva\ns-dxva-_dxva_extendedformat.md">DXVA_ExtendedFormat</a> structure.
+One of the enumerators of DXVA_VideoTransferFunction can be specified in the <b>VideoTransferFunction</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563967">DXVA_ExtendedFormat</a> structure.
 
 DXVA_VideoTransferFunction corresponds to the gamma function of the data. Some transfer functions have corrections to account for 8 bit integer quantization effects.
 
@@ -163,10 +143,10 @@ DXVA_VideoTransferFunction corresponds to the gamma function of the data. Some t
 
 ## -see-also
 
-<a href="..\dxva\ns-dxva-_dxva_extendedformat.md">DXVA_ExtendedFormat</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563967">DXVA_ExtendedFormat</a>
  
 
  

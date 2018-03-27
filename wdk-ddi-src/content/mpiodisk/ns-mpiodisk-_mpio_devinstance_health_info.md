@@ -52,18 +52,6 @@ req.typenames: MPIO_DEVINSTANCE_HEALTH_INFO, *PMPIO_DEVINSTANCE_HEALTH_INFO
 The MPIO_DEVINSTANCE_HEALTH_INFO structure is used to query the available health information for every instance of a multi-path disk on each of the paths through which it is exposed.
 
 
-## -syntax
-
-
-````
-typedef struct _MPIO_DEVINSTANCE_HEALTH_INFO {
-  ULONG                         NumberDevInstancePackets;
-  ULONG                         Reserved;
-  MPIO_DEVINSTANCE_HEALTH_CLASS DevInstanceHealthPackets[1];
-} MPIO_DEVINSTANCE_HEALTH_INFO, *PMPIO_DEVINSTANCE_HEALTH_INFO;
-````
-
-
 ## -struct-fields
 
 

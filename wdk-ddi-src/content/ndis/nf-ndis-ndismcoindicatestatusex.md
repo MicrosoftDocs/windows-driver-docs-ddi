@@ -54,18 +54,6 @@ The
   <b>NdisMCoIndicateStatusEx</b> function reports a change in the status of a CoNDIS miniport adapter.
 
 
-## -syntax
-
-
-````
-VOID NdisMCoIndicateStatusEx(
-  _In_     NDIS_HANDLE             MiniportAdapterHandle,
-  _In_opt_ NDIS_HANDLE             NdisVcHandle,
-  _In_     PNDIS_STATUS_INDICATION StatusIndication
-);
-````
-
-
 ## -parameters
 
 
@@ -75,7 +63,7 @@ VOID NdisMCoIndicateStatusEx(
 
 The miniport adapter handle that NDIS passed at the 
      <i>MiniportAdapterHandle</i> parameter of the 
-     <a href="..\ndis\nc-ndis-miniport_initialize.md">
+     <a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">
      MiniportInitializeEx</a> function.
 
 
@@ -83,7 +71,7 @@ The miniport adapter handle that NDIS passed at the
 
 A handle that identifies the virtual connection (VC). The miniport driver obtained this handle as
      an input parameter to its 
-     <a href="..\ndis\nc-ndis-miniport_co_create_vc.md">MiniportCoCreateVc</a> function, either
+     <a href="https://msdn.microsoft.com/99eaba29-ce17-4e79-878e-5fdf7411e56c">MiniportCoCreateVc</a> function, either
      when a client set up an outgoing call or when the call manager created a VC for a client-registered
      service access point (SAP). The call manager created the VC to indicate an incoming-call notification.
      To send the status indication to all protocol bindings, set this parameter to <b>NULL</b>.
@@ -92,7 +80,7 @@ A handle that identifies the virtual connection (VC). The miniport driver obtain
 ### -param StatusIndication [in]
 
 A pointer to an 
-     <a href="..\ndis\ns-ndis-_ndis_status_indication.md">NDIS_STATUS_INDICATION</a> structure
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff567373">NDIS_STATUS_INDICATION</a> structure
      that contains the status information.
 
 
@@ -113,50 +101,50 @@ When a miniport driver calls
     <b>NdisMCoIndicateStatusEx</b> with a <b>NULL</b> VC handle for the 
     <i>NdisVcHandle</i> parameter, NDIS forwards the status-change notification to all of the bound protocol
     drivers by calling each bound protocol driver's 
-    <a href="..\ndis\nc-ndis-protocol_co_status_ex.md">ProtocolCoStatusEx</a> function. A call
+    <a href="https://msdn.microsoft.com/1416ad56-548c-4f12-9922-9ab9a7e4fd3a">ProtocolCoStatusEx</a> function. A call
     to 
     <b>NdisMCoIndicateStatusEx</b> with a non-<b>NULL</b> VC handle restricts the status notification to clients or
     call managers that the miniport driver shares this VC handle with.
 
 A miniport driver can call 
     <b>NdisMCoIndicateStatusEx</b> after setting its registration attributes, by calling the 
-    <a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">
+    <a href="https://msdn.microsoft.com/861626af-23ea-40dc-a91a-7da42d4b0a1c">
     NdisMSetMiniportAttributes</a> function from its 
-    <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a> function,
+    <a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a> function,
     even if the driver is still in the context of the 
     <i>MiniportInitializeEx</i> function. The driver must not call 
     <b>NdisMCoIndicateStatusEx</b> after it returns from the 
-    <a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a> function.
+    <a href="https://msdn.microsoft.com/b8d452b4-bef3-4991-87cf-fac15bedfde4">MiniportHaltEx</a> function.
 
 
 
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_ndis_status_indication.md">NDIS_STATUS_INDICATION</a>
 
 
 
-<a href="..\ndis\nc-ndis-protocol_co_status_ex.md">ProtocolCoStatusEx</a>
+<a href="https://msdn.microsoft.com/99eaba29-ce17-4e79-878e-5fdf7411e56c">MiniportCoCreateVc</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
+<a href="https://msdn.microsoft.com/b8d452b4-bef3-4991-87cf-fac15bedfde4">MiniportHaltEx</a>
 
 
 
-<a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
+<a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a>
 
 
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567373">NDIS_STATUS_INDICATION</a>
 
 
 
-<a href="..\ndis\nc-ndis-miniport_co_create_vc.md">MiniportCoCreateVc</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563672">NdisMSetMiniportAttributes</a>
 
 
 
+<a href="https://msdn.microsoft.com/1416ad56-548c-4f12-9922-9ab9a7e4fd3a">ProtocolCoStatusEx</a>
  
 
  

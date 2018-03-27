@@ -52,16 +52,6 @@ req.typenames: D3DKMT_STANDARDALLOCATIONTYPE
 Used to give information on the allocation type.
 
 
-## -syntax
-
-
-````
-typedef enum _D3DKMT_STANDARDALLOCATIONTYPE { 
-  D3DKMT_STANDARDALLOCATIONTYPE_EXISTINGHEAP  = 1
-} D3DKMT_STANDARDALLOCATIONTYPE;
-````
-
-
 ## -enum-fields
 
 

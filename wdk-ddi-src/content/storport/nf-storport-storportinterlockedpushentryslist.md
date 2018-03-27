@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
@@ -51,19 +51,6 @@ req.product: Windows 10 or later.
 
 
 Inserts  an item at the front of a Storport managed singly linked list. Access to the list is synchronized on a multiprocessor system.
-
-
-## -syntax
-
-
-````
-ULONG StorPortInterlockedPushEntrySList(
-  _In_    PVOID               HwDeviceExtension,
-  _Inout_ PSTOR_SLIST_HEADER  SListHead,
-  _Inout_ PSTOR_SLIST_ENTRY   SListEntry,
-  _Out_   PSTOR_SLIST_ENTRY * Result
-);
-````
 
 
 ## -parameters
@@ -152,22 +139,22 @@ When allocated by the caller,  the <b>STOR_SLIST_ENTRY</b> structure pointed to 
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportinterlockedpopentryslist.md">StorPortInterlockedPopEntrySList</a>
 
 
 
-<a href="..\storport\nf-storport-storportinitializeslisthead.md">StorPortInitializeSListHead</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh967735">StorPortInitializeSListHead</a>
 
 
 
-<a href="..\storport\nf-storport-storportquerydepthslist.md">StorPortQueryDepthSList</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh967736">StorPortInterlockedFlushSList</a>
 
 
 
-<a href="..\storport\nf-storport-storportinterlockedflushslist.md">StorPortInterlockedFlushSList</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh967737">StorPortInterlockedPopEntrySList</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh967739">StorPortQueryDepthSList</a>
  
 
  

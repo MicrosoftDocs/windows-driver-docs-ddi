@@ -58,31 +58,6 @@ In the following notation, the output value of each logic operation is given in 
 
 
 
-## -syntax
-
-
-````
-typedef enum D3D11_1_DDI_LOGIC_OP { 
-  D3D11_1_DDI_LOGIC_OP_CLEAR          = 0,
-  D3D11_1_DDI_LOGIC_OP_SET            = 1,
-  D3D11_1_DDI_LOGIC_OP_COPY           = 2,
-  D3D11_1_DDI_LOGIC_OP_COPY_INVERTED  = 3,
-  D3D11_1_DDI_LOGIC_OP_NOOP           = 4,
-  D3D11_1_DDI_LOGIC_OP_INVERT         = 5,
-  D3D11_1_DDI_LOGIC_OP_AND            = 6,
-  D3D11_1_DDI_LOGIC_OP_NAND           = 7,
-  D3D11_1_DDI_LOGIC_OP_OR             = 8,
-  D3D11_1_DDI_LOGIC_OP_NOR            = 9,
-  D3D11_1_DDI_LOGIC_OP_XOR            = 10,
-  D3D11_1_DDI_LOGIC_OP_EQUIV          = 11,
-  D3D11_1_DDI_LOGIC_OP_AND_REVERSE    = 12,
-  D3D11_1_DDI_LOGIC_OP_AND_INVERTED   = 13,
-  D3D11_1_DDI_LOGIC_OP_OR_REVERSE     = 14,
-  D3D11_1_DDI_LOGIC_OP_OR_INVERTED    = 15
-} D3D11_1_DDI_LOGIC_OP;
-````
-
-
 ## -enum-fields
 
 
@@ -172,21 +147,21 @@ typedef enum D3D11_1_DDI_LOGIC_OP {
 
 
 
-The <b>D3D11_1_DDI_LOGIC_OP</b> blend state  logic operations are specified by the <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1_ddi_blend_desc.md">D3D11_1_DDI_BLEND_DESC</a>.<b>LogicOp</b> member in a call to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createblendstate.md">CreateBlendState(D3D11_1)</a> function.
+The <b>D3D11_1_DDI_LOGIC_OP</b> blend state  logic operations are specified by the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451041">D3D11_1_DDI_BLEND_DESC</a>.<b>LogicOp</b> member in a call to the <a href="https://msdn.microsoft.com/5956412e-ae35-4960-afc0-a82c6a2aa9f1">CreateBlendState(D3D11_1)</a> function.
 
 
 
 
 ## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1_ddi_blend_desc.md">D3D11_1_DDI_BLEND_DESC</a>
 
 
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createblendstate.md">CreateBlendState(D3D11_1)</a>
+<a href="https://msdn.microsoft.com/5956412e-ae35-4960-afc0-a82c6a2aa9f1">CreateBlendState(D3D11_1)</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451041">D3D11_1_DDI_BLEND_DESC</a>
  
 
  

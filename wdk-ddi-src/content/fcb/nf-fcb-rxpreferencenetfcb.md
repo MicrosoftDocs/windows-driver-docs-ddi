@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
@@ -50,16 +50,6 @@ req.typenames: FA_ENTRY, *PFA_ENTRY
 
 
 <b>RxpReferenceNetFcb</b> increments the reference count on an FCB.
-
-
-## -syntax
-
-
-````
-LONG RxpReferenceNetFcb(
-   PFCB Fcb
-);
-````
 
 
 ## -parameters
@@ -94,18 +84,18 @@ On checked builds, <b>RxpReferenceNetFcb</b> causes the system to ASSERT if the 
 
 ## -see-also
 
-<a href="..\fcb\nf-fcb-rxptrackreference.md">RxpTrackReference</a>
 
 
 
-<a href="..\fcb\nf-fcb-rxptrackdereference.md">RxpTrackDereference</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554608">RxpDereferenceNetFcb</a>
 
 
 
-<a href="..\fcb\nf-fcb-rxpdereferencenetfcb.md">RxpDereferenceNetFcb</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554655">RxpTrackDereference</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554659">RxpTrackReference</a>
  
 
  

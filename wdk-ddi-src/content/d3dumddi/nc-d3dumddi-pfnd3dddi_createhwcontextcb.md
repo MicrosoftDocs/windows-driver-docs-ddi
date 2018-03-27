@@ -52,17 +52,6 @@ req.typenames: DXGK_PTE
 A callback to create a new hardware context.
 
 
-## -prototype
-
-
-````
-_Check_return_ HRESULT APIENTRY CALLBACK PFND3DDDI_CREATEHWCONTEXTCB(
-  _In_    HANDLE                          hDevice,
-  _Inout_ D3DDDICB_CREATEHWCONTEXT *const createHwContext
-);
-````
-
-
 ## -parameters
 
 

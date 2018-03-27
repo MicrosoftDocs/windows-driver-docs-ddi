@@ -52,17 +52,6 @@ req.typenames: D3DKMT_OPENADAPTERFROMLUID
 Describes the mapping of the given locally unique identifier (LUID) of a device to a graphics adapter handle.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DKMT_OPENADAPTERFROMLUID {
-  LUID          AdapterLuid;
-  D3DKMT_HANDLE hAdapter;
-} D3DKMT_OPENADAPTERFROMLUID;
-````
-
-
 ## -struct-fields
 
 
@@ -75,15 +64,15 @@ typedef struct _D3DKMT_OPENADAPTERFROMLUID {
 
 ### -field hAdapter
 
-[out] A handle to the graphics adapter for the device that the <b>AdapterLuid</b> member specifies. The adapter handle is returned from a call to the <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtopenadapterfromluid.md">D3DKMTOpenAdapterFromLuid</a> function.
+[out] A handle to the graphics adapter for the device that the <b>AdapterLuid</b> member specifies. The adapter handle is returned from a call to the <a href="https://msdn.microsoft.com/library/windows/hardware/hh780247">D3DKMTOpenAdapterFromLuid</a> function.
 
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtopenadapterfromluid.md">D3DKMTOpenAdapterFromLuid</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh780247">D3DKMTOpenAdapterFromLuid</a>
  
 
  

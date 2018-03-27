@@ -52,24 +52,6 @@ req.typenames: DXGK_PLANE_SPECIFIC_OUTPUT_FLAGS
 A structure containing the flags that apply to a plane set by the driver. 
 
 
-## -syntax
-
-
-````
-typedef struct _DXGK_PLANE_SPECIFIC_OUTPUT_FLAGS {
-  union {
-    struct {
-      UINT FlipConvertedToImmediate  :1;
-      UINT  PostPresentNeeded  :1;
-      UINT HsyncInterruptCompletion  :1;
-      UINT Reserved  :29;
-    };
-    UINT Value;
-  };
-} DXGK_PLANE_SPECIFIC_OUTPUT_FLAGS;
-````
-
-
 ## -struct-fields
 
 

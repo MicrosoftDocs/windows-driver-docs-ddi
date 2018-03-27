@@ -52,17 +52,6 @@ req.typenames: D3D12DDI_VIDEO_PROCESS_SUPPORT_FLAGS_0022
 Contains values that specify whether the conversion from the source format and color space to destination format and color space is supported.
 
 
-## -syntax
-
-
-````
-typedef enum D3D12DDI_VIDEO_PROCESS_SUPPORT_FLAGS_0022 { 
-  D3D12DDI_VIDEO_PROCESS_SUPPORT_FLAG_0022_NONE       = 0,
-  D3D12DDI_VIDEO_PROCESS_SUPPORT_FLAG_0022_SUPPORTED  = 0x1
-} D3D12DDI_VIDEO_PROCESS_SUPPORT_FLAGS_0022;
-````
-
-
 ## -enum-fields
 
 

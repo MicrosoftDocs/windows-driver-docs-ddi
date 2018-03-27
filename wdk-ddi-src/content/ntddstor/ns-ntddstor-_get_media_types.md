@@ -49,19 +49,7 @@ req.typenames: GET_MEDIA_TYPES, *PGET_MEDIA_TYPES
 ## -description
 
 
-The GET_MEDIA_TYPES structure is used in conjunction with the <a href="..\ntddstor\ni-ntddstor-ioctl_storage_get_media_types_ex.md">IOCTL_STORAGE_GET_MEDIA_TYPES_EX</a> request to retrieve information about the types of media supported by a device. 
-
-
-## -syntax
-
-
-````
-typedef struct _GET_MEDIA_TYPES {
-  ULONG             DeviceType;
-  ULONG             MediaInfoCount;
-  DEVICE_MEDIA_INFO MediaInfo[1];
-} GET_MEDIA_TYPES, *PGET_MEDIA_TYPES;
-````
+The GET_MEDIA_TYPES structure is used in conjunction with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560563">IOCTL_STORAGE_GET_MEDIA_TYPES_EX</a> request to retrieve information about the types of media supported by a device. 
 
 
 ## -struct-fields
@@ -76,7 +64,7 @@ Specifies one of the system-defined FILE_DEVICE_<i>XXX</i> constants indicating 
 
 ### -field MediaInfoCount
 
-Contains the number of <a href="..\ntddstor\ns-ntddstor-_device_media_info.md">DEVICE_MEDIA_INFO</a> structures in the array starting at <b>MediaInfo</b>.
+Contains the number of <a href="https://msdn.microsoft.com/library/windows/hardware/ff552529">DEVICE_MEDIA_INFO</a> structures in the array starting at <b>MediaInfo</b>.
 
 
 ### -field MediaInfo
@@ -88,21 +76,21 @@ Contains an array whose first element holds the first DEVICE_MEDIA_INFO structur
 
 
 
-A storage class driver must handle the <a href="..\ntddstor\ni-ntddstor-ioctl_storage_get_media_types_ex.md">IOCTL_STORAGE_GET_MEDIA_TYPES_EX</a> request to support any device that the Removable Storage Manager (RSM) accesses, whether the device is a stand-alone device or a data transfer element (drive) in a media library or changer. 
+A storage class driver must handle the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560563">IOCTL_STORAGE_GET_MEDIA_TYPES_EX</a> request to support any device that the Removable Storage Manager (RSM) accesses, whether the device is a stand-alone device or a data transfer element (drive) in a media library or changer. 
 
 
 
 
 ## -see-also
 
-<a href="..\ntddstor\ns-ntddstor-_device_media_info.md">DEVICE_MEDIA_INFO</a>
 
 
 
-<a href="..\ntddstor\ni-ntddstor-ioctl_storage_get_media_types_ex.md">IOCTL_STORAGE_GET_MEDIA_TYPES_EX</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552529">DEVICE_MEDIA_INFO</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560563">IOCTL_STORAGE_GET_MEDIA_TYPES_EX</a>
  
 
  

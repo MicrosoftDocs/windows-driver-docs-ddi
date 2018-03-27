@@ -52,16 +52,6 @@ req.typenames: EXpsFontRestriction
 The <b>FltGetRequestorProcess</b> routine returns a process pointer for the thread that requested a given I/O operation. 
 
 
-## -syntax
-
-
-````
-PEPROCESS FltGetRequestorProcess(
-  _In_ PFLT_CALLBACK_DATA CallbackData
-);
-````
-
-
 ## -parameters
 
 
@@ -69,7 +59,7 @@ PEPROCESS FltGetRequestorProcess(
 
 ### -param CallbackData [in]
 
-Pointer to the callback data structure (<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>) for the I/O operation. 
+Pointer to the callback data structure (<a href="https://msdn.microsoft.com/library/windows/hardware/ff544620">FLT_CALLBACK_DATA</a>) for the I/O operation. 
 
 
 ## -returns
@@ -92,14 +82,14 @@ Pointer to the callback data structure (<a href="..\fltkernel\ns-fltkernel-_flt_
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltgetrequestorprocessid.md">FltGetRequestorProcessId</a>
 
 
 
-<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544620">FLT_CALLBACK_DATA</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543118">FltGetRequestorProcessId</a>
  
 
  

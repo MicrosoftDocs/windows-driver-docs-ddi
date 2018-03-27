@@ -52,16 +52,6 @@ req.typenames: LogoutFromTarget_IN, *PLogoutFromTarget_IN
 The LogoutFromTarget_IN structure holds the input data for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff561602">LogoutFromTarget</a> method, which is used to log out from an iSCSI target.
 
 
-## -syntax
-
-
-````
-typedef struct _LogoutFromTarget_IN {
-  ULONGLONG UniqueSessionId;
-} LogoutFromTarget_IN, *PLogoutFromTarget_IN;
-````
-
-
 ## -struct-fields
 
 
@@ -83,7 +73,6 @@ You must implement this method.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563091">MSiSCSI_Operations WMI Class</a>
 
 
 
@@ -95,10 +84,11 @@ You must implement this method.
 
 
 
-<a href="..\iscsiop\ns-iscsiop-_logoutfromtarget_out.md">LogoutFromTarget_OUT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562194">LogoutFromTarget_OUT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563091">MSiSCSI_Operations WMI Class</a>
  
 
  

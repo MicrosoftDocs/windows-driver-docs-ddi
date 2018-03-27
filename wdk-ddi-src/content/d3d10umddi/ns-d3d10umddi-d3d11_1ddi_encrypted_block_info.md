@@ -52,18 +52,6 @@ req.typenames: D3D11_1DDI_ENCRYPTED_BLOCK_INFO
 Specifies which bytes in a video surface are encrypted.
 
 
-## -syntax
-
-
-````
-typedef struct D3D11_1DDI_ENCRYPTED_BLOCK_INFO {
-  UINT NumEncryptedBytesAtBeginning;
-  UINT NumBytesInSkipPattern;
-  UINT NumBytesInEncryptPattern;
-} D3D11_1DDI_ENCRYPTED_BLOCK_INFO;
-````
-
-
 ## -struct-fields
 
 

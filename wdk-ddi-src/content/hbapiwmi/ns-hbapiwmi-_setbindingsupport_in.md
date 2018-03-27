@@ -52,17 +52,6 @@ req.typenames: SetBindingSupport_IN, *PSetBindingSupport_IN
 The SetBindingSupport_IN structure is used to deliver input parameter data to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565565">SetBindingSupport</a> WMI method.
 
 
-## -syntax
-
-
-````
-typedef struct _SetBindingSupport_IN {
-  UCHAR PortWWN[8];
-  ULONG BindType;
-} SetBindingSupport_IN, *PSetBindingSupport_IN;
-````
-
-
 ## -struct-fields
 
 
@@ -89,10 +78,10 @@ The WMI tool suite generates a declaration of the SetBindingSupport_IN structure
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565565">SetBindingSupport</a>
-
-
-
  
 
  

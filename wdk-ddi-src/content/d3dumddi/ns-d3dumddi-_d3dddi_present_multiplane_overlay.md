@@ -52,20 +52,6 @@ req.typenames: D3DDDI_PRESENT_MULTIPLANE_OVERLAY
 Specifies an overlay plane to display.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DDDI_PRESENT_MULTIPLANE_OVERLAY {
-  UINT                                 LayerIndex;
-  BOOL                                 Enabled;
-  HANDLE                               hResource;
-  UINT                                 SubResourceIndex;
-  D3DDDI_MULTIPLANE_OVERLAY_ATTRIBUTES PlaneAttributes;
-} D3DDDI_PRESENT_MULTIPLANE_OVERLAY;
-````
-
-
 ## -struct-fields
 
 
@@ -93,15 +79,15 @@ The zero-based index into the resource, which is specified by the handle in the 
 
 ### -field PlaneAttributes
 
-A <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_multiplane_overlay_attributes.md">D3DDDI_MULTIPLANE_OVERLAY_ATTRIBUTES</a> structure that specifies overlay plane attributes.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/hh780234">D3DDDI_MULTIPLANE_OVERLAY_ATTRIBUTES</a> structure that specifies overlay plane attributes.
 
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_multiplane_overlay_attributes.md">D3DDDI_MULTIPLANE_OVERLAY_ATTRIBUTES</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh780234">D3DDDI_MULTIPLANE_OVERLAY_ATTRIBUTES</a>
  
 
  

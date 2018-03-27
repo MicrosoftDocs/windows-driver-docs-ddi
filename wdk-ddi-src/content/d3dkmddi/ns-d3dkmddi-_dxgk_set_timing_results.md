@@ -52,22 +52,6 @@ req.typenames: DXGK_SET_TIMING_RESULTS, *PDXGK_SET_TIMING_RESULTS
 Structure to report result flags from the SetTiming call which apply to the complete call rather than individual paths.
 
 
-## -syntax
-
-
-````
-typedef struct _DXGK_SET_TIMING_RESULTS {
-  union {
-    struct {
-      UINT ConnectionStatusChanges  :1;
-      UINT Reserved  :31;
-    };
-    UINT Value;
-  };
-} DXGK_SET_TIMING_RESULTS, *PDXGK_SET_TIMING_RESULTS;
-````
-
-
 ## -struct-fields
 
 

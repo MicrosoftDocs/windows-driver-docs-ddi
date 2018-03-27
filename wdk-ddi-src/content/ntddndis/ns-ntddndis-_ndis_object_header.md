@@ -53,18 +53,6 @@ The NDIS_OBJECT_HEADER structure packages the object type, version, and size inf
   required in many NDIS 6.0 structures.
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_OBJECT_HEADER {
-  UCHAR  Type;
-  UCHAR  Revision;
-  USHORT Size;
-} NDIS_OBJECT_HEADER, *PNDIS_OBJECT_HEADER;
-````
-
-
 ## -struct-fields
 
 

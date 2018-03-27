@@ -46,18 +46,13 @@ req.typenames: STORAGE_ZONE_CONDITION, *PSTORAGE_ZONE_CONDITION
 # IOCTL_STORAGE_EJECTION_CONTROL IOCTL
 
 
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
-
 ## -description
 
 
 
 Locks the device to prevent removal of the media. If the driver can prevent the media from being removed while the drive is in use, the driver disables or enables the mechanism that ejects media, thereby locking the drive. A caller must open the device with FILE_READ_ATTRIBUTES to send this request. 
 
-Unlike <a href="..\ntddstor\ni-ntddstor-ioctl_storage_media_removal.md">IOCTL_STORAGE_MEDIA_REMOVAL</a>, the driver tracks <b>IOCTL_STORAGE_EJECTION_CONTROL</b> requests by caller and ignores unlock requests for which it has not received a lock request from the same caller, thereby preventing other callers from unlocking the drive.
+Unlike <a href="https://msdn.microsoft.com/library/windows/hardware/ff560579">IOCTL_STORAGE_MEDIA_REMOVAL</a>, the driver tracks <b>IOCTL_STORAGE_EJECTION_CONTROL</b> requests by caller and ignores unlock requests for which it has not received a lock request from the same caller, thereby preventing other callers from unlocking the drive.
 
 A driver for a removable-media device - can support this IOCTL must do the following:
 
@@ -136,10 +131,10 @@ The <b>Information</b> field is set to zero. The <b>Status</b> field is set to S
 
 ## -see-also
 
-<a href="..\ntddstor\ni-ntddstor-ioctl_storage_eject_media.md">IOCTL_STORAGE_EJECT_MEDIA</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560542">IOCTL_STORAGE_EJECT_MEDIA</a>
  
 
  

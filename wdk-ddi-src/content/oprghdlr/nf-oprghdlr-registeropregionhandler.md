@@ -53,22 +53,6 @@ req.typenames: RILGBATOKEN, *LPRILGBATOKEN
 The <b>RegisterOpRegionHandler</b> routine registers an operation region handler with the <a href="https://msdn.microsoft.com/38ca54e0-defe-48b2-ab00-a5f688c2eb01">ACPI driver</a>.
 
 
-## -syntax
-
-
-````
-NTSTATUS RegisterOpRegionHandler(
-  _In_  PDEVICE_OBJECT          DeviceObject,
-  _In_  ULONG                   AccessType,
-  _In_  ULONG                   RegionSpace,
-  _In_  PACPI_OP_REGION_HANDLER Handler,
-  _In_  PVOID                   Context,
-  _In_  ULONG                   Flags,
-  _Out_ PVOID                   *OperationRegionObject
-);
-````
-
-
 ## -parameters
 
 
@@ -179,7 +163,7 @@ Vendor-defined
 
 ### -param Handler [in]
 
-Pointer to the <a href="..\oprghdlr\nc-oprghdlr-acpi_op_region_handler.md">ACPI_OP_REGION_HANDLER</a>-typed operation region handler (supplied by an ACPI device function driver).
+Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff536153">ACPI_OP_REGION_HANDLER</a>-typed operation region handler (supplied by an ACPI device function driver).
 
 
 ### -param Context [in]
@@ -271,14 +255,14 @@ For more information about operation regions, see <a href="https://msdn.microsof
 
 ## -see-also
 
-<a href="..\oprghdlr\nf-oprghdlr-deregisteropregionhandler.md">DeRegisterOpRegionHandler</a>
 
 
 
-<a href="..\oprghdlr\nc-oprghdlr-acpi_op_region_handler.md">ACPI_OP_REGION_HANDLER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536153">ACPI_OP_REGION_HANDLER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536135">DeRegisterOpRegionHandler</a>
  
 
  

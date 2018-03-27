@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: ksproxy.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -54,16 +54,6 @@ req.typenames: PIPE_STATE
 Not recommended for application use.
 
 
-## -syntax
-
-
-````
-HRESULT KsGetPipeAllocatorFlag(
-    
-);
-````
-
-
 ## -parameters
 
 
@@ -82,10 +72,10 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="..\ksproxy\nn-ksproxy-ikspinpipe.md">IKsPinPipe</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559922">IKsPinPipe</a>
  
 
  

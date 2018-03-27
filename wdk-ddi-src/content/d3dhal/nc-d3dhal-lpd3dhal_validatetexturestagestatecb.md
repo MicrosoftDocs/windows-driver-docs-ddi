@@ -52,25 +52,12 @@ req.typenames: D3DTRANSFORMCAPS, *LPD3DTRANSFORMCAPS
 The <b>D3dValidateTextureStageState</b> function returns the number of passes where the hardware can perform the blending operations specified in the current state.
 
 
-## -prototype
-
-
-````
-LPD3DHAL_VALIDATETEXTURESTAGESTATECB D3dValidateTextureStageState;
-
-DWORD APIENTRY D3dValidateTextureStageState(
-  _In_ LPD3DHAL_VALIDATETEXTURESTAGESTATEDATA pvtssd
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
 
 
-### -param LPD3DHAL_VALIDATETEXTURESTAGESTATEDATA
+### -param Arg1
 
 
 
@@ -81,7 +68,7 @@ DWORD APIENTRY D3dValidateTextureStageState(
 
 #### - pvtssd [in]
 
-Points to a <a href="..\d3dhal\ns-d3dhal-_d3dhal_validatetexturestagestatedata.md">D3DHAL_VALIDATETEXTURESTAGESTATEDATA</a> structure that contains the information required for the driver to determine and return the number of passes required to perform the blending operations.
+Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff545964">D3DHAL_VALIDATETEXTURESTAGESTATEDATA</a> structure that contains the information required for the driver to determine and return the number of passes required to perform the blending operations.
 
 
 ## -returns
@@ -239,14 +226,14 @@ Attempting the simultaneous use of multiple textures and MIP mapped trilinear fi
 
 ## -see-also
 
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_validatetexturestagestatedata.md">D3DHAL_VALIDATETEXTURESTAGESTATEDATA</a>
 
 
 
-<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545964">D3DHAL_VALIDATETEXTURESTAGESTATEDATA</a>
 
 
 
+<a href="https://msdn.microsoft.com/6128ff7a-0d2c-48df-8b5e-cab33c5a74f5">D3dDrawPrimitives2</a>
  
 
  

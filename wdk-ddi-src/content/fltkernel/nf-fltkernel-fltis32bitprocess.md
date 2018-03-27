@@ -52,16 +52,6 @@ req.typenames: EXpsFontRestriction
 The <b>FltIs32bitProcess</b> routine checks whether the originator of the current I/O operation is a 32-bit user-mode application.
 
 
-## -syntax
-
-
-````
-BOOLEAN FltIs32bitProcess(
-  _In_opt_ PFLT_CALLBACK_DATA CallbackData
-);
-````
-
-
 ## -parameters
 
 
@@ -69,7 +59,7 @@ BOOLEAN FltIs32bitProcess(
 
 ### -param CallbackData [in, optional]
 
-Pointer to the callback data structure for the current I/O operation (<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>). This parameter is optional and can be <b>NULL</b>. 
+Pointer to the callback data structure for the current I/O operation (<a href="https://msdn.microsoft.com/library/windows/hardware/ff544620">FLT_CALLBACK_DATA</a>). This parameter is optional and can be <b>NULL</b>. 
 
 
 ## -returns
@@ -120,15 +110,6 @@ To determine whether a callback data structure represents a file system filter (
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544654">FLT_IS_IRP_OPERATION</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544648">FLT_IS_FS_FILTER_OPERATION</a>
-
-
-
-<a href="..\wdm\nf-wdm-iois32bitprocess.md">IoIs32bitProcess</a>
 
 
 
@@ -136,6 +117,15 @@ To determine whether a callback data structure represents a file system filter (
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544648">FLT_IS_FS_FILTER_OPERATION</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544654">FLT_IS_IRP_OPERATION</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549372">IoIs32bitProcess</a>
  
 
  

@@ -52,16 +52,6 @@ req.typenames: TOKEN_TYPE
 The <b>FsRtlAreThereWaitingFileLocks</b> routine checks a file lock queue for any waiting file locks.
 
 
-## -syntax
-
-
-````
-BOOLEAN FsRtlAreThereWaitingFileLocks(
-  _In_ PFILE_LOCK FileLock
-);
-````
-
-
 ## -parameters
 
 

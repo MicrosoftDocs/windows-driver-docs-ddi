@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -53,16 +53,6 @@ req.typenames: TOKEN_TYPE
 <b>RtlSetThreadPlaceholderCompatibilityMode</b> is a routine which sets the placeholder compatibility mode for the current thread. This allows a thread to explicitly request that placeholder files be either disguised or exposed, overriding the application’s default mode for that thread only.
 
 
-
-
-## -syntax
-
-
-````
-CHAR RtlSetThreadPlaceholderCompatibilityMode(
-  _In_ CHAR Mode
-);
-````
 
 
 ## -parameters
@@ -130,10 +120,10 @@ Most Windows applications see exposed placeholders by default.  For compatibilit
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-rtlquerythreadplaceholdercompatibilitymode.md">RtlQueryThreadPlaceholderCompatibilityMode</a>
 
 
 
+<a href="https://msdn.microsoft.com/A38B30F9-D55B-4CC2-9B71-3B597ACCE0EB">RtlQueryThreadPlaceholderCompatibilityMode</a>
  
 
  

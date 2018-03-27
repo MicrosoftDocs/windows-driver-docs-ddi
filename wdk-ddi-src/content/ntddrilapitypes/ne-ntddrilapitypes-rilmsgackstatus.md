@@ -52,18 +52,6 @@ req.typenames: RILMSGACKSTATUS
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef enum _RILMSGACKSTATUS { 
-  RIL_MSGACKSTATUS_FAIL_MEM_FULL,
-  RIL_MSGACKSTATUS_ERROR,
-  RIL_MSGACKSTATUS_MAX
-} RILMSGACKSTATUS;
-````
-
-
 ## -enum-fields
 
 

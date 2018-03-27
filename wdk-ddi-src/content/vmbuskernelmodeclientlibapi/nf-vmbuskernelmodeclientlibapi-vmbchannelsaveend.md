@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 The <b>VmbChannelSaveEnd</b> function cleans up any resources that were allocated for saving state of a channel.
-
-
-## -syntax
-
-
-````
-VOID VmbChannelSaveEnd(
-  _In_ VMBCHANNEL Channel
-    
-);
-````
 
 
 ## -parameters

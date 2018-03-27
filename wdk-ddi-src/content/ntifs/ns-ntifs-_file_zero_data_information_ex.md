@@ -50,19 +50,7 @@ req.typenames: FILE_ZERO_DATA_INFORMATION_EX, *PFILE_ZERO_DATA_INFORMATION_EX
 
 
 Contains a range of a file to set to zeros. This structure is used by the 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt668765">FSCTL_SET_ZERO_DATA</a> control code. It's similar to <a href="..\ntifs\ns-ntifs-_file_zero_data_information.md">FILE_ZERO_DATA_INFORMATION</a>, but contains an additional <b>Flags</b> member. 
-
-
-## -syntax
-
-
-````
-typedef struct _FILE_ZERO_DATA_INFORMATION_EX {
-  LARGE_INTEGER FileOffset;
-  LARGE_INTEGER BeyondFinalZero;
-  ULONG         Flags;
-} FILE_ZERO_DATA_INFORMATION_EX, *PFILE_ZERO_DATA_INFORMATION_EX;
-````
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt668765">FSCTL_SET_ZERO_DATA</a> control code. It's similar to <a href="https://msdn.microsoft.com/library/windows/hardware/mt668763">FILE_ZERO_DATA_INFORMATION</a>, but contains an additional <b>Flags</b> member. 
 
 
 ## -struct-fields
@@ -99,18 +87,18 @@ The following flags are supported:
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt668763">FILE_ZERO_DATA_INFORMATION</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt668765">FSCTL_SET_ZERO_DATA</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltfscontrolfile.md">FltFsControlFile</a>
-
-
-
-<a href="..\ntifs\ns-ntifs-_file_zero_data_information.md">FILE_ZERO_DATA_INFORMATION</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542988">FltFsControlFile</a>
  
 
  

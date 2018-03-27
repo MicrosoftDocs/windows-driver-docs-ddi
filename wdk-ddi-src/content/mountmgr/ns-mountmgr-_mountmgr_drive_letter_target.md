@@ -49,18 +49,7 @@ req.typenames: MOUNTMGR_DRIVE_LETTER_TARGET, *PMOUNTMGR_DRIVE_LETTER_TARGET
 ## -description
 
 
-The MOUNTMGR_DRIVE_LETTER_TARGET structure is used by a mount manager client with an <a href="..\mountmgr\ni-mountmgr-ioctl_mountmgr_next_drive_letter.md">IOCTL_MOUNTMGR_NEXT_DRIVE_LETTER</a> request to furnish a nonpersistent target device name to the mount manager. 
-
-
-## -syntax
-
-
-````
-typedef struct _MOUNTMGR_DRIVE_LETTER_TARGET {
-  USHORT DeviceNameLength;
-  WCHAR  DeviceName[1];
-} MOUNTMGR_DRIVE_LETTER_TARGET, *PMOUNTMGR_DRIVE_LETTER_TARGET;
-````
+The MOUNTMGR_DRIVE_LETTER_TARGET structure is used by a mount manager client with an <a href="https://msdn.microsoft.com/library/windows/hardware/ff560473">IOCTL_MOUNTMGR_NEXT_DRIVE_LETTER</a> request to furnish a nonpersistent target device name to the mount manager. 
 
 
 ## -struct-fields
@@ -91,10 +80,10 @@ Nonpersistent target names must contain the full path of a target object name in
 
 ## -see-also
 
-<a href="..\mountmgr\ni-mountmgr-ioctl_mountmgr_next_drive_letter.md">IOCTL_MOUNTMGR_NEXT_DRIVE_LETTER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560473">IOCTL_MOUNTMGR_NEXT_DRIVE_LETTER</a>
  
 
  

@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: engextcpp.hpp
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -50,14 +50,6 @@ req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
 
 
 The <b>Next</b> method changes the current item to the next item in the list.
-
-
-## -syntax
-
-
-````
-void Next();
-````
 
 
 ## -parameters
@@ -87,14 +79,14 @@ If <b>Next</b> reaches the end of the list, subsequent calls to <a href="https:/
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544114">ExtRemoteList</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544136">ExtRemoteList::HasNode</a>
-
-
-
-<a href="..\engextcpp\nl-engextcpp-extremotelist.md">ExtRemoteList</a>
-
-
-
  
 
  

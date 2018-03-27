@@ -52,17 +52,6 @@ req.typenames: TOKEN_TYPE
 The <b>RtlSecondsSince1970ToTime</b> routine converts the elapsed time, in seconds, since the beginning of 1970 to an absolute system time value. 
 
 
-## -syntax
-
-
-````
-VOID RtlSecondsSince1970ToTime(
-  _In_  ULONG          ElapsedSeconds,
-  _Out_ PLARGE_INTEGER Time
-);
-````
-
-
 ## -parameters
 
 
@@ -100,22 +89,22 @@ For more information about converting time values, see <a href="https://msdn.mic
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-rtltimetotimefields.md">RtlTimeToTimeFields</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-rtltimetosecondssince1970.md">RtlTimeToSecondsSince1970</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553210">RtlSecondsSince1980ToTime</a>
 
 
 
-<a href="..\wdm\nf-wdm-rtltimefieldstotime.md">RtlTimeFieldsToTime</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562879">RtlTimeFieldsToTime</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-rtlsecondssince1980totime.md">RtlSecondsSince1980ToTime</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553241">RtlTimeToSecondsSince1970</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562884">RtlTimeToTimeFields</a>
  
 
  

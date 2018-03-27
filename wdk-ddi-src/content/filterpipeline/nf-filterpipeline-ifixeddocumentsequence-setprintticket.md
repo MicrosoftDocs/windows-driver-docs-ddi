@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: filterpipeline.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -50,16 +50,6 @@ req.typenames: EXpsFontRestriction
 
 
 The <b>SetPrintTicket</b> method inserts a print ticket into the fixed document sequence.
-
-
-## -syntax
-
-
-````
-HRESULT SetPrintTicket(
-  [in] IPartPrintTicket *pPrintTicket
-);
-````
 
 
 ## -parameters

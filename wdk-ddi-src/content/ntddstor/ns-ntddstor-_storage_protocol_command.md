@@ -49,35 +49,7 @@ req.typenames: STORAGE_PROTOCOL_COMMAND, *PSTORAGE_PROTOCOL_COMMAND
 ## -description
 
 
-This structure is used as an input buffer when using the pass-through mechanism to issue  a vendor-specific command to a storage device (via <a href="..\ntddstor\ni-ntddstor-ioctl_storage_protocol_command.md">IOCTL_STORAGE_PROTOCOL_COMMAND</a>).
-
-
-## -syntax
-
-
-````
-typedef struct _STORAGE_PROTOCOL_COMMAND {
-  ULONG                                        Version;
-  ULONG                                        Length;
-  STORAGE_PROTOCOL_TYPE                        ProtocolType;
-  ULONG                                        Flags;
-  ULONG                                        ReturnStatus;
-  ULONG                                        ErrorCode;
-  ULONG                                        CommandLength;
-  ULONG                                        ErrorInfoLength;
-  ULONG                                        DataToDeviceTransferLength;
-  ULONG                                        DataFromDeviceTransferLength;
-  ULONG                                        TimeOutValue;
-  ULONG                                        ErrorInfoOffset;
-  ULONG                                        DataToDeviceBufferOffset;
-  ULONG                                        DataFromDeviceBufferOffset;
-  ULONG                                        CommandSpecific;
-  ULONG                                        Reserved0;
-  ULONG                                        FixedProtocolReturnData;
-  ULONG                                        Reserved1[3];
-  _Field_size_bytes_full_(CommandLength) UCHAR Command[ANYSIZE_ARRAY];
-} STORAGE_PROTOCOL_COMMAND, *PSTORAGE_PROTOCOL_COMMAND;
-````
+This structure is used as an input buffer when using the pass-through mechanism to issue  a vendor-specific command to a storage device (via <a href="https://msdn.microsoft.com/library/windows/hardware/dn932068">IOCTL_STORAGE_PROTOCOL_COMMAND</a>).
 
 
 ## -struct-fields
@@ -245,10 +217,10 @@ The vendor-specific command that is to be passed-through to the device.
 
 ## -see-also
 
-<a href="..\ntddstor\ni-ntddstor-ioctl_storage_protocol_command.md">IOCTL_STORAGE_PROTOCOL_COMMAND</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn932068">IOCTL_STORAGE_PROTOCOL_COMMAND</a>
  
 
  

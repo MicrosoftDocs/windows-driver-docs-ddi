@@ -46,11 +46,6 @@ req.typenames: WRITE_ROTATION, *PWRITE_ROTATION
 # IOCTL_CDROM_PLAY_AUDIO_MSF IOCTL
 
 
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
-
 ## -description
 
 
@@ -67,7 +62,7 @@ Plays the specified range of the media. Obsolete, beginning with Windows Vista.
 
 ### -input-buffer
 
-The <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_play_audio_msf.md">CDROM_PLAY_AUDIO_MSF</a> structure in the buffer at <i>Irp-&gt;AssociatedIrp.System</i> contains the starting and ending MSF values. 
+The <a href="https://msdn.microsoft.com/library/windows/hardware/ff551365">CDROM_PLAY_AUDIO_MSF</a> structure in the buffer at <i>Irp-&gt;AssociatedIrp.System</i> contains the starting and ending MSF values. 
 
 
 ### -input-buffer-length
@@ -121,10 +116,10 @@ Client applications should use the <i>Media Control Interface (MCI) API</i> rath
 
 ## -see-also
 
-<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_play_audio_msf.md">CDROM_PLAY_AUDIO_MSF</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551365">CDROM_PLAY_AUDIO_MSF</a>
  
 
  

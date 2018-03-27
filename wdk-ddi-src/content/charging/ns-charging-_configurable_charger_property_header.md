@@ -49,19 +49,7 @@ req.typenames: CONFIGURABLE_CHARGER_PROPERTY_HEADER, *PCONFIGURABLE_CHARGER_PROP
 ## -description
 
 
-The CONFIGURABLE_CHARGER_PROPERTY_HEADER structure is a header that is used to create your own structure as an input to <a href="..\charging\ni-charging-ioctl_internal_configure_charger_property.md">IOCTL_INTERNAL_CONFIGURE_CHARGER_PROPERTY</a>.
-
-
-## -syntax
-
-
-````
-typedef struct _CONFIGURABLE_CHARGER_PROPERTY_HEADER {
-  ULONG Size;
-  GUID  ChargerId;
-  ULONG PropertyId;
-} CONFIGURABLE_CHARGER_PROPERTY_HEADER, *PCONFIGURABLE_CHARGER_PROPERTY_HEADER;
-````
+The CONFIGURABLE_CHARGER_PROPERTY_HEADER structure is a header that is used to create your own structure as an input to <a href="https://msdn.microsoft.com/library/windows/hardware/mt186650">IOCTL_INTERNAL_CONFIGURE_CHARGER_PROPERTY</a>.
 
 
 ## -struct-fields
@@ -88,7 +76,7 @@ The ID of the property to be configured.
 
 
 
-Extend this structure to add your own values for the input to <a href="..\charging\ni-charging-ioctl_internal_configure_charger_property.md">IOCTL_INTERNAL_CONFIGURE_CHARGER_PROPERTY</a>. Create a new structure with <b>CONFIGURABLE_CHARGER_PROPERTY_HEADER</b> as the first field, and one or more values after it that correspond to your <b>PropertyId</b>. Here are two example structures.
+Extend this structure to add your own values for the input to <a href="https://msdn.microsoft.com/library/windows/hardware/mt186650">IOCTL_INTERNAL_CONFIGURE_CHARGER_PROPERTY</a>. Create a new structure with <b>CONFIGURABLE_CHARGER_PROPERTY_HEADER</b> as the first field, and one or more values after it that correspond to your <b>PropertyId</b>. Here are two example structures.
 
 <div class="code"><span codelanguage=""><table>
 <tr>
@@ -134,10 +122,10 @@ Make sure you set <b>Header.Size</b> to the appropriate size of your new structu
 
 ## -see-also
 
-<a href="..\charging\ni-charging-ioctl_internal_configure_charger_property.md">IOCTL_INTERNAL_CONFIGURE_CHARGER_PROPERTY</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt186650">IOCTL_INTERNAL_CONFIGURE_CHARGER_PROPERTY</a>
  
 
  

@@ -53,19 +53,6 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 <b>NdisClCloseCall</b> requests that a call on the specified VC be torn down.
 
 
-## -syntax
-
-
-````
-NDIS_STATUS NdisClCloseCall(
-  _In_     NDIS_HANDLE NdisVcHandle,
-  _In_opt_ NDIS_HANDLE NdisPartyHandle,
-  _In_opt_ PVOID       Buffer,
-  _In_     UINT        Size
-);
-````
-
-
 ## -parameters
 
 
@@ -75,7 +62,7 @@ NDIS_STATUS NdisClCloseCall(
 
 Handle to the VC of the call being closed or disconnected. This handle was supplied by NDIS when
      the VC was originally created with 
-     <a href="..\ndis\nf-ndis-ndiscocreatevc.md">NdisCoCreateVc</a>, whether by the client in
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff561696">NdisCoCreateVc</a>, whether by the client in
      preparation for making an outgoing call or by the call manager in preparation for dispatching an
      incoming call to the client.
 
@@ -84,8 +71,8 @@ Handle to the VC of the call being closed or disconnected. This handle was suppl
 
 Handle to the last party to be dropped on a multipoint VC or <b>NULL</b>. If this is a multipoint VC, the
      client obtained this handle either from a preceding call to 
-     <a href="..\ndis\nf-ndis-ndisclmakecall.md">NdisClMakeCall</a> or 
-     <a href="..\ndis\nf-ndis-ndiscladdparty.md">NdisClAddParty</a>.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff561635">NdisClMakeCall</a> or 
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff561625">NdisClAddParty</a>.
 
 
 ### -param Buffer [in, optional]
@@ -109,7 +96,7 @@ Specifies the size, in bytes, at
 When 
      <b>NdisClCloseCall</b> returns anything other than NDIS_STATUS_PENDING, the client should make an
      internal call to its 
-     <a href="..\ndis\nc-ndis-protocol_cl_close_call_complete.md">
+     <a href="https://msdn.microsoft.com/a7ba1ab2-04c9-45b5-a184-e1ad1448561a">
      ProtocolClCloseCallComplete</a> function. Otherwise, NDIS calls the client's 
      <i>ProtocolClCloseCallComplete</i> function when this operation is completed.
 
@@ -126,15 +113,15 @@ Clients usually call
 <ul>
 <li>
 To close an established call, whether the call was initiated by the client with 
-      <a href="..\ndis\nf-ndis-ndisclmakecall.md">NdisClMakeCall</a> or was offered by a remote
+      <a href="https://msdn.microsoft.com/library/windows/hardware/ff561635">NdisClMakeCall</a> or was offered by a remote
       peer and accepted by the client's 
-      <a href="..\ndis\nc-ndis-protocol_cl_incoming_call.md">
+      <a href="https://msdn.microsoft.com/8a5922ac-b22b-444e-9ea0-3bb56e71ef33">
       ProtocolClIncomingCall</a> function.
 
 </li>
 <li>
 From the 
-      <a href="..\ndis\nc-ndis-protocol_cl_incoming_close_call.md">
+      <a href="https://msdn.microsoft.com/01c7d887-eb54-47c3-98f0-bc567b60fb4b">
       ProtocolClIncomingCloseCall</a> function to tear down an established call.
 
 This occurs when the remote party closes an incoming call that the remote party originally initiated
@@ -145,12 +132,12 @@ This occurs when the remote party closes an incoming call that the remote party 
 </li>
 <li>
 From the 
-      <a href="..\ndis\nc-ndis-protocol_cl_make_call_complete.md">
+      <a href="https://msdn.microsoft.com/6bb69f78-8dab-46a7-84fb-7bc17e894535">
       ProtocolClMakeCallComplete</a> function to tear down a client-initiated attempt to make an outgoing
       call.
 
 This occurs if the call manager has modified the client-specified call parameters passed to 
-      <a href="..\ndis\nf-ndis-ndisclmakecall.md">NdisClMakeCall</a> and the client finds these
+      <a href="https://msdn.microsoft.com/library/windows/hardware/ff561635">NdisClMakeCall</a> and the client finds these
       modifications unacceptable.
 
 </li>
@@ -163,7 +150,7 @@ This occurs if a QoS change proposed by the other party on the VC is unacceptabl
 </li>
 <li>
 From the 
-      <a href="..\ndis\nc-ndis-protocol_cl_modify_call_qos_complete.md">
+      <a href="https://msdn.microsoft.com/0d925862-49af-4579-b877-c9a033e73be0">
       ProtocolClModifyCallQoSComplete</a> function to tear down an established call.
 
 This occurs if a client-proposed QoS change on the VC is not accepted and the CM-modified QoS
@@ -175,9 +162,9 @@ This occurs if a client-proposed QoS change on the VC is not accepted and the CM
 Before calling 
     <b>NdisClCloseCall</b>, a protocol must ensure that all its outstanding send packets have been returned
     to its 
-    <a href="..\ndis\nc-ndis-protocol_co_send_net_buffer_lists_complete.md">
+    <a href="https://msdn.microsoft.com/fb4b00c0-0b14-48dd-a6f2-aae659c6bb28">
     ProtocolCoSendNetBufferListsComplete</a> function. (Packets sent via 
-    <a href="..\ndis\nf-ndis-ndiscosendnetbufferlists.md">NdisCoSendNetBufferLists</a> are
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561728">NdisCoSendNetBufferLists</a> are
     always returned asynchronously to 
     <i>ProtocolCoSendNetBufferListsComplete</i>.) After calling 
     <b>NdisClCloseCall</b>, a protocol must not call 
@@ -188,18 +175,18 @@ Before calling
 A client's call to 
     <b>NdisClCloseCall</b> causes NDIS to mark the 
     <i>NdisVcHandle</i> as closing and to call the CM's 
-    <a href="..\ndis\nc-ndis-protocol_cm_close_call.md">ProtocolCmCloseCall</a> function.
+    <a href="https://msdn.microsoft.com/b5307e1b-3905-4e43-a0b0-0068ba18ef0d">ProtocolCmCloseCall</a> function.
 
 To tear down an established call on a client-created multipoint VC, the client must call 
-    <a href="..\ndis\nf-ndis-ndiscldropparty.md">NdisClDropParty</a> one or more times to
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561629">NdisClDropParty</a> one or more times to
     release all but the last party on the VC 
     before it calls 
     <b>NdisClCloseCall</b>. The call manager will fail any client's request to close a multipoint call if the
     given VC still has more than one party connected. The 
     <i>NdisPartyHandle</i> passed to 
     <b>NdisClCloseCall</b> can be any valid handle that the client obtained from its preceding calls to 
-    <a href="..\ndis\nf-ndis-ndiscladdparty.md">NdisClAddParty</a> or 
-    <a href="..\ndis\nf-ndis-ndisclmakecall.md">NdisClMakeCall</a> with the given 
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561625">NdisClAddParty</a> or 
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561635">NdisClMakeCall</a> with the given 
     <i>NdisVcHandle</i> .
 
 As remote parties to a client-initiated multipoint call request that their connections be closed, NDIS
@@ -207,7 +194,7 @@ As remote parties to a client-initiated multipoint call request that their conne
     <i>ProtocolClDropParty</i> function as long as more than one outstanding party exists on the
     client-created multipoint VC. When the last remaining remote party closes its connection, NDIS calls the
     client's 
-    <a href="..\ndis\nc-ndis-protocol_cl_incoming_close_call.md">
+    <a href="https://msdn.microsoft.com/01c7d887-eb54-47c3-98f0-bc567b60fb4b">
     ProtocolClIncomingCloseCall</a> function instead. Consequently, the 
     <i>ProtocolClIncomingCloseCall</i> function of any client that sets up multipoint connections must
     identify the last remaining party on its multipoint VCs and pass the appropriate 
@@ -222,10 +209,10 @@ After the client releases an
     <b>NdisClCloseCall</b> because the 
     <i>NdisVcHandle</i>, which cannot be reused to make another call because it is marked as closing, is
     still valid until the VC is destroyed. Either the client must call 
-    <a href="..\ndis\nf-ndis-ndiscodeletevc.md">NdisCoDeleteVc</a> if it created the VC for an
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561698">NdisCoDeleteVc</a> if it created the VC for an
     outgoing call before it releases or reinitializes its per-VC resources, or the client must defer the
     release or reinitialization of these resources until its 
-    <a href="..\ndis\nc-ndis-protocol_co_delete_vc.md">ProtocolCoDeleteVc</a> function is
+    <a href="https://msdn.microsoft.com/d761270f-bf77-441e-834c-9ac7fb3d350f">ProtocolCoDeleteVc</a> function is
     called.
 
 
@@ -233,61 +220,61 @@ After the client releases an
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisclmakecall.md">NdisClMakeCall</a>
 
 
 
-<a href="..\ndis\nc-ndis-protocol_cl_close_call_complete.md">ProtocolClCloseCallComplete</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561629">NdisClDropParty</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisclmodifycallqos.md">NdisClModifyCallQoS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561635">NdisClMakeCall</a>
 
 
 
-<a href="..\ndis\nc-ndis-protocol_cl_modify_call_qos_complete.md">
-   ProtocolClModifyCallQoSComplete</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561636">NdisClModifyCallQoS</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndiscosendnetbufferlists.md">NdisCoSendNetBufferLists</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561698">NdisCoDeleteVc</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndiscodeletevc.md">NdisCoDeleteVc</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561728">NdisCoSendNetBufferLists</a>
 
 
 
-<a href="..\ndis\nc-ndis-protocol_co_send_net_buffer_lists_complete.md">
-   ProtocolCoSendNetBufferListsComplete</a>
+<a href="https://msdn.microsoft.com/a7ba1ab2-04c9-45b5-a184-e1ad1448561a">ProtocolClCloseCallComplete</a>
 
 
 
-<a href="..\ndis\nc-ndis-protocol_cl_make_call_complete.md">ProtocolClMakeCallComplete</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_cl_incoming_drop_party.md">ProtocolClIncomingDropParty</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_cl_incoming_close_call.md">ProtocolClIncomingCloseCall</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_cl_incoming_call_qos_change.md">
+<a href="https://msdn.microsoft.com/ca9953f4-35db-4acb-b0ea-887156b4f6ee">
    ProtocolClIncomingCallQoSChange</a>
 
 
 
-<a href="..\ndis\nc-ndis-protocol_cm_close_call.md">ProtocolCmCloseCall</a>
+<a href="https://msdn.microsoft.com/01c7d887-eb54-47c3-98f0-bc567b60fb4b">ProtocolClIncomingCloseCall</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndiscldropparty.md">NdisClDropParty</a>
+<a href="https://msdn.microsoft.com/3815ca4b-f4bc-4de9-a28a-5d3ee20bcdd8">ProtocolClIncomingDropParty</a>
 
 
 
+<a href="https://msdn.microsoft.com/6bb69f78-8dab-46a7-84fb-7bc17e894535">ProtocolClMakeCallComplete</a>
+
+
+
+<a href="https://msdn.microsoft.com/0d925862-49af-4579-b877-c9a033e73be0">
+   ProtocolClModifyCallQoSComplete</a>
+
+
+
+<a href="https://msdn.microsoft.com/b5307e1b-3905-4e43-a0b0-0068ba18ef0d">ProtocolCmCloseCall</a>
+
+
+
+<a href="https://msdn.microsoft.com/fb4b00c0-0b14-48dd-a6f2-aae659c6bb28">
+   ProtocolCoSendNetBufferListsComplete</a>
  
 
  

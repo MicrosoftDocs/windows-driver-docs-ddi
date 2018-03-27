@@ -52,18 +52,6 @@ req.typenames: DXVAHDDDI_FRAME_FORMAT
 The DXVAHDDDI_FRAME_FORMAT enumeration contains values that identify the frame format. 
 
 
-## -syntax
-
-
-````
-typedef enum _DXVAHDDDI_FRAME_FORMAT { 
-  DXVAHDDDI_FRAME_FORMAT_PROGRESSIVE                    = 0,
-  DXVAHDDDI_FRAME_FORMAT_INTERLACED_TOP_FIELD_FIRST     = 1,
-  DXVAHDDDI_FRAME_FORMAT_INTERLACED_BOTTOM_FIELD_FIRST  = 2
-} DXVAHDDDI_FRAME_FORMAT;
-````
-
-
 ## -enum-fields
 
 
@@ -95,10 +83,10 @@ The <a href="https://msdn.microsoft.com/f697e0db-1db0-4a81-94d8-0ca079885480">FO
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_stream_state_frame_format_data.md">DXVAHDDDI_STREAM_STATE_FRAME_FORMAT_DATA</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563081">DXVAHDDDI_STREAM_STATE_FRAME_FORMAT_DATA</a>
  
 
  

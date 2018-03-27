@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -54,18 +54,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 The <b>CoerceValue</b> method converts a value of one type into a value of another type.
 
 
-## -syntax
-
-
-````
-HRESULT CoerceValue(
-  [in]  PDEBUG_VALUE In,
-  [in]  ULONG        OutType,
-  [out] PDEBUG_VALUE Out
-);
-````
-
-
 ## -parameters
 
 
@@ -78,7 +66,7 @@ Specifies the value to be converted
 
 ### -param OutType [in]
 
-Specifies the desired type for the converted value. See <a href="..\dbgeng\ns-dbgeng-_debug_value.md">DEBUG_VALUE</a> for possible values.
+Specifies the desired type for the converted value. See <a href="https://msdn.microsoft.com/library/windows/hardware/ff541719">DEBUG_VALUE</a> for possible values.
 
 
 ### -param Out [out]
@@ -125,22 +113,22 @@ This method converts a value of one type into a value of another type.  If the s
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541719">DEBUG_VALUE</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550508">IDebugControl</a>
 
 
 
-<a href="..\dbgeng\ns-dbgeng-_debug_value.md">DEBUG_VALUE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550512">IDebugControl2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550519">IDebugControl3</a>
  
 
  

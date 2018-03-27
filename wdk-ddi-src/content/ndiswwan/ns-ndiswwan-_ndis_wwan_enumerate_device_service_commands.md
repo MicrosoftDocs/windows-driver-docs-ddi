@@ -52,17 +52,6 @@ req.typenames: NDIS_WWAN_ENUMERATE_DEVICE_SERVICE_COMMANDS, *PNDIS_WWAN_ENUMERAT
 The NDIS_WWAN_ENUMERATE_DEVICE_SERVICE_COMMANDS structure represents the commands supported by a device service.
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_WWAN_ENUMERATE_DEVICE_SERVICE_COMMANDS {
-  NDIS_OBJECT_HEADER Header;
-  GUID               DeviceServiceGuid;
-} NDIS_WWAN_ENUMERATE_DEVICE_SERVICE_COMMANDS, *PNDIS_WWAN_ENUMERATE_DEVICE_SERVICE_COMMANDS;
-````
-
-
 ## -struct-fields
 
 
@@ -116,7 +105,7 @@ sizeof(NDIS_WWAN_ENUMERATE_DEVICE_SERVICE_COMMANDS)
  
 
 For more information about these members, see 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>.
 
 
 ### -field DeviceServiceGuid

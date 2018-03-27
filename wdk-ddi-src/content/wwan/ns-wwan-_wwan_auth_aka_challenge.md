@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 The WWAN_AUTH_AKA_CHALLENGE structure represents an authentication challenge using the AKA method.
 
 
-## -syntax
-
-
-````
-typedef struct _WWAN_AUTH_AKA_CHALLENGE {
-  BYTE Rand[WWAN_AUTH_RAND_LEN];
-  BYTE Autn[WWAN_AUTH_AUTN_LEN];
-} WWAN_AUTH_AKA_CHALLENGE, *PWWAN_AUTH_AKA_CHALLENGE;
-````
-
-
 ## -struct-fields
 
 
@@ -95,17 +84,17 @@ typedef struct _WWAN_AUTH_AKA_CHALLENGE {
 
 
 
-The <a href="..\wwan\ns-wwan-_wwan_auth_challenge.md">WWAN_AUTH_CHALLENGE</a> structure uses this structure.
+The <a href="https://msdn.microsoft.com/library/windows/hardware/hh464127">WWAN_AUTH_CHALLENGE</a> structure uses this structure.
 
 
 
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_auth_challenge.md">WWAN_AUTH_CHALLENGE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh464127">WWAN_AUTH_CHALLENGE</a>
  
 
  

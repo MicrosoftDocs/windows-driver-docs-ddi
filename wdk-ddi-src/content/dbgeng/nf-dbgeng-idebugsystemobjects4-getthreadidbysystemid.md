@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -53,17 +53,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>GetThreadIdBySystemId</b> method returns the engine thread ID for the specified thread.  The thread is specified by its system thread ID.
-
-
-## -syntax
-
-
-````
-HRESULT GetThreadIdBySystemId(
-  [in]  ULONG  SysId,
-  [out] PULONG Id
-);
-````
 
 
 ## -parameters

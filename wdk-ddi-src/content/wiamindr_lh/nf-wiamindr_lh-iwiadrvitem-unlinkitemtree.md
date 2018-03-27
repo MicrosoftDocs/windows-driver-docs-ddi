@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: wiamindr_lh.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,16 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>IWiaDrvItem::UnlinkItemTree</b> method unlinks the driver item tree and releases all items in the tree.
-
-
-## -syntax
-
-
-````
-HRESULT UnlinkItemTree(
-  [in] LONG lFlags
-);
-````
 
 
 ## -parameters

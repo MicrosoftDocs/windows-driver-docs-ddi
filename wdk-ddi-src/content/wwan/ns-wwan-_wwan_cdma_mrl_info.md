@@ -53,24 +53,6 @@ req.product: Windows 10 or later.
 The <b>WWAN_CDMA_MRL_INFO</b> structure represents information about a CDMA serving cell or neighboring cell.
 
 
-## -syntax
-
-
-````
-typedef struct _WWAN_CDMA_MRL_INFO {
-  ULONG ServingCellFlag;
-  ULONG NID;
-  ULONG SID;
-  ULONG BaseStationId;
-  ULONG BaseLatitude;
-  ULONG BaseLongitude;
-  ULONG RefPn;
-  ULONG GPSSeconds;
-  ULONG PilotStrength;
-} WWAN_CDMA_MRL_INFO, *PWWAN_CDMA_MRL_INFO;
-````
-
-
 ## -struct-fields
 
 
@@ -132,18 +114,18 @@ The Signal Strength of the pilot (0-63). Use 0xFFFFFFFF when this information is
 
 ## -see-also
 
+
+
+
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/mb-base-stations-information-query-support">MB base stations information query support</a>
 
 
 
-<a href="..\wwan\ns-wwan-_wwan_cdma_mrl.md">WWAN_CDMA_MRL</a>
+<a href="https://msdn.microsoft.com/66460B28-C2B4-4F05-A133-31A753AF9489">WWAN_BASE_STATIONS_INFO</a>
 
 
 
-<a href="..\wwan\ns-wwan-_wwan_base_stations_info.md">WWAN_BASE_STATIONS_INFO</a>
-
-
-
+<a href="https://msdn.microsoft.com/A19B98B5-F2E5-4AF9-9D2B-A7DD47441656">WWAN_CDMA_MRL</a>
  
 
  

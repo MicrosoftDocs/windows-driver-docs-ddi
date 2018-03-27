@@ -52,16 +52,6 @@ req.typenames: TOKEN_TYPE
 The <b>MmIsRecursiveIoFault</b> routine determines whether the current page fault is occurring during an I/O operation.
 
 
-## -syntax
-
-
-````
-BOOLEAN  MmIsRecursiveIoFault(
-   VOID 
-);
-````
-
-
 ## -parameters
 
 
@@ -91,10 +81,10 @@ When a page fault occurs, the file system can call <b>MmIsRecursiveIoFault</b> t
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-mmisaddressvalid.md">MmIsAddressValid</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554572">MmIsAddressValid</a>
  
 
  

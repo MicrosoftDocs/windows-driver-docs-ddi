@@ -53,18 +53,6 @@ req.product: Windows 10 or later.
 The WDI_DATA_RATE_FLAGS enumeration defines the data rate flags.
 
 
-## -syntax
-
-
-````
-typedef enum _WDI_DATA_RATE_FLAGS { 
-  WDI_DATA_RATE_NON_STANDARD  = 0x01,
-  WDI_DATA_RATE_RX_RATE       = 0x02,
-  WDI_DATA_RATE_TX_RATE       = 0x04
-} WDI_DATA_RATE_FLAGS;
-````
-
-
 ## -enum-fields
 
 

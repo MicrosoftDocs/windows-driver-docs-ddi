@@ -53,66 +53,6 @@ NDIS initializes an <b>NDIS_BIND_PARAMETERS</b> structure with information that 
   of a binding and passes it to a protocol driver.
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_BIND_PARAMETERS {
-  NDIS_OBJECT_HEADER                Header;
-  PNDIS_STRING                      ProtocolSection;
-  PNDIS_STRING                      AdapterName;
-  PDEVICE_OBJECT                    PhysicalDeviceObject;
-  NDIS_MEDIUM                       MediaType;
-  ULONG                             MtuSize;
-  ULONG64                           MaxXmitLinkSpeed;
-  ULONG64                           XmitLinkSpeed;
-  ULONG64                           MaxRcvLinkSpeed;
-  ULONG64                           RcvLinkSpeed;
-  NDIS_MEDIA_CONNECT_STATE          MediaConnectState;
-  NDIS_MEDIA_DUPLEX_STATE           MediaDuplexState;
-  ULONG                             LookaheadSize;
-  PNDIS_PNP_CAPABILITIES            PowerManagementCapabilities;
-  ULONG                             SupportedPacketFilters;
-  ULONG                             MaxMulticastListSize;
-  USHORT                            MacAddressLength;
-  UCHAR                             CurrentMacAddress[NDIS_MAX_PHYS_ADDRESS_LENGTH];
-  NDIS_PHYSICAL_MEDIUM              PhysicalMediumType;
-  PNDIS_RECEIVE_SCALE_CAPABILITIES  RcvScaleCapabilities;
-  NET_LUID                          BoundIfNetluid;
-  NET_IFINDEX                       BoundIfIndex;
-  NET_LUID                          LowestIfNetluid;
-  NET_IFINDEX                       LowestIfIndex;
-  NET_IF_ACCESS_TYPE                AccessType;
-  NET_IF_DIRECTION_TYPE             DirectionType;
-  NET_IF_CONNECTION_TYPE            ConnectionType;
-  NET_IFTYPE                        IfType;
-  BOOLEAN                           IfConnectorPresent;
-  PNDIS_PORT                        ActivePorts;
-  ULONG                             DataBackFillSize;
-  ULONG                             ContextBackFillSize;
-  ULONG                             MacOptions;
-  NET_IF_COMPARTMENT_ID             CompartmentId;
-  PNDIS_OFFLOAD                     DefaultOffloadConfiguration;
-  PNDIS_TCP_CONNECTION_OFFLOAD      TcpConnectionOffloadCapabilities;
-  PNDIS_STRING                      BoundAdapterName;
-#if (NDIS_SUPPORT_NDIS61)
-  PNDIS_HD_SPLIT_CURRENT_CONFIG     HDSplitCurrentConfig;
-#endif 
-#if (NDIS_SUPPORT_NDIS620)
-  PNDIS_RECEIVE_FILTER_CAPABILITIES ReceiveFilterCapabilities;
-  PNDIS_PM_CAPABILITIES             PowerManagementCapabilitiesEx;
-  PNDIS_NIC_SWITCH_CAPABILITIES     NicSwitchCapabilities;
-#endif 
-#if (NDIS_SUPPORT_NDIS630)
-  BOOLEAN                           NDKEnabled;
-  PNDIS_NDK_CAPABILITIES            NDKCapabilities;
-  PNDIS_SRIOV_CAPABILITIES          SriovCapabilities;
-  PNDIS_NIC_SWITCH_INFO_ARRAY       NicSwitchArray;
-#endif 
-} NDIS_BIND_PARAMETERS, *PNDIS_BIND_PARAMETERS;
-````
-
-
 ## -struct-fields
 
 
@@ -121,7 +61,7 @@ typedef struct _NDIS_BIND_PARAMETERS {
 ### -field Header
 
 The 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure for the
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure for the
      <b>NDIS_BIND_PARAMETERS</b> structure. NDIS sets the 
      <b>Type</b> member of the structure that 
      <b>Header</b> specifies to NDIS_OBJECT_TYPE_BIND_PARAMETERS.
@@ -206,7 +146,7 @@ The
      <b>NdisMedium</b><i>Xxx</i> type that the underlying miniport adapter supports. For more information
      about 
      <b>NdisMedium</b><i>Xxx</i> types, see 
-     <a href="..\ntddndis\ne-ntddndis-_ndis_medium.md">NDIS_MEDIUM</a>.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff565910">NDIS_MEDIUM</a>.
 
 
 ### -field MtuSize
@@ -448,7 +388,7 @@ Specifies the default compartment identifier. Third party interface providers mu
 ### -field DefaultOffloadConfiguration
 
 A pointer to an 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_offload.md">NDIS_OFFLOAD</a> structure. This structure
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566599">NDIS_OFFLOAD</a> structure. This structure
      specifies the capabilities for a task-offload-capable miniport adapter. For more information, see 
      <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-offload-current-config">
      OID_TCP_OFFLOAD_CURRENT_CONFIG</a>.
@@ -457,7 +397,7 @@ A pointer to an
 ### -field TcpConnectionOffloadCapabilities
 
 A pointer to an 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_tcp_connection_offload.md">
+     <a href="https://msdn.microsoft.com/d37a773d-0a83-4592-9c21-3ceaa6454549">
      NDIS_TCP_CONNECTION_OFFLOAD</a> structure that indicates the current offload capabilities that are
      provided by the underlying miniport adapter.
 
@@ -473,7 +413,7 @@ A pointer to a Unicode string that contains the name of the highest-level minipo
 ### -field HDSplitCurrentConfig
 
 A pointer to an 
-      <a href="..\ntddndis\ns-ntddndis-_ndis_hd_split_current_config.md">
+      <a href="https://msdn.microsoft.com/866fe9e6-0cb1-45cd-84b4-4e2df9c9c45a">
       NDIS_HD_SPLIT_CURRENT_CONFIG</a> structure. This structure specifies the current header-data split
       configuration of the underlying miniport adapter. This value can be <b>NULL</b> if the miniport adapter does
       not support header-data split.
@@ -482,7 +422,7 @@ A pointer to an
 ### -field ReceiveFilterCapabilities
 
 A pointer to an 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_receive_filter_capabilities.md">
+     <a href="https://msdn.microsoft.com/aecc1fe0-03f9-44be-9a38-b689eee4c5a6">
      NDIS_RECEIVE_FILTER_CAPABILITIES</a> structure. This structure specifies the generic filtering
      capabilities that are currently enabled on the underlying miniport adapter. This value can be <b>NULL</b> if the miniport adapter does not
      support receive filtering.
@@ -491,7 +431,7 @@ A pointer to an
 ### -field PowerManagementCapabilitiesEx
 
 A pointer to an 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_pm_capabilities.md">NDIS_PM_CAPABILITIES</a> structure. This
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566748">NDIS_PM_CAPABILITIES</a> structure. This
      structure specifies power management capabilities of the miniport adapter. This member is mandatory for
      NDIS 6.20 and later drivers.
 
@@ -499,7 +439,7 @@ A pointer to an
 ### -field NicSwitchCapabilities
 
 A pointer to an 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_nic_switch_capabilities.md">
+     <a href="https://msdn.microsoft.com/bc4b56bd-583f-4b41-b5a7-90958ce65f42">
      NDIS_NIC_SWITCH_CAPABILITIES</a> structure. This structure specifies the NIC switch capabilities of
      the underlying miniport adapter. This value can be <b>NULL</b> if the miniport adapter does not support NIC
      switch features.
@@ -512,17 +452,17 @@ NDIS sets this value to <b>TRUE</b> if the network direct kernel provider interf
 
 ### -field NDKCapabilities
 
-A pointer to an <a href="..\ntddndis\ns-ntddndis-_ndis_ndk_capabilities.md">NDIS_NDK_CAPABILITIES</a> structure. This structure specifies the NDKPI capabilities that are currently enabled on the underlying miniport adapter. This value can be <b>NULL</b> if the miniport adapter does not support NDKPI.
+A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/hh451560">NDIS_NDK_CAPABILITIES</a> structure. This structure specifies the NDKPI capabilities that are currently enabled on the underlying miniport adapter. This value can be <b>NULL</b> if the miniport adapter does not support NDKPI.
 
 
 ### -field SriovCapabilities
 
-A pointer to an <a href="..\ntddndis\ns-ntddndis-_ndis_sriov_capabilities.md">NDIS_SRIOV_CAPABILITIES</a> structure. This structure specifies the single root I/O virtualization (SR-IOV) capabilities that are currently enabled on the underlying miniport adapter. This value can be <b>NULL</b> if the miniport adapter does not support SR-IOV features.
+A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/hh451677">NDIS_SRIOV_CAPABILITIES</a> structure. This structure specifies the single root I/O virtualization (SR-IOV) capabilities that are currently enabled on the underlying miniport adapter. This value can be <b>NULL</b> if the miniport adapter does not support SR-IOV features.
 
 
 ### -field NicSwitchArray
 
-A pointer to an <a href="..\ntddndis\ns-ntddndis-_ndis_nic_switch_info_array.md">NDIS_NIC_SWITCH_INFO_ARRAY</a> structure.  This array enumerates the NIC switches that have been created on the miniport adapter. NIC switches can only be created if SR-IOV is supported and enabled on the adapter. 
+A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/hh451584">NDIS_NIC_SWITCH_INFO_ARRAY</a> structure.  This array enumerates the NIC switches that have been created on the miniport adapter. NIC switches can only be created if SR-IOV is supported and enabled on the adapter. 
 
 <div class="alert"><b>Note</b>  Starting with Windows Server 2012, Windows supports only the default NIC switch on the miniport adapter. Therefore, this array can contain only one element. </div>
 <div> </div>
@@ -533,7 +473,7 @@ A pointer to an <a href="..\ntddndis\ns-ntddndis-_ndis_nic_switch_info_array.md"
 
 NDIS passes a pointer to an NDIS_BIND_PARAMETERS structure in the 
     <i>BindParameters</i> parameter of the 
-    <a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">
+    <a href="https://msdn.microsoft.com/1958722e-012e-4110-a82c-751744bcf9b5">
     ProtocolBindAdapterEx</a> function.
 
 
@@ -541,27 +481,51 @@ NDIS passes a pointer to an NDIS_BIND_PARAMETERS structure in the
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565696">NDIS_HD_SPLIT_CURRENT_CONFIG</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565910">NDIS_MEDIUM</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566583">NDIS_NIC_SWITCH_CAPABILITIES</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451584">NDIS_NIC_SWITCH_INFO_ARRAY</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566599">NDIS_OFFLOAD</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566748">NDIS_PM_CAPABILITIES</a>
+
+
+
+<a href="https://msdn.microsoft.com/aecc1fe0-03f9-44be-9a38-b689eee4c5a6">
+   NDIS_RECEIVE_FILTER_CAPABILITIES</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451677">NDIS_SRIOV_CAPABILITIES</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567875">NDIS_TCP_CONNECTION_OFFLOAD</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568739">NET_IF_ACCESS_TYPE</a>
-
-
-
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-802-3-maximum-list-size">OID_802_3_MAXIMUM_LIST_SIZE</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569602">OID_GEN_MAX_LINK_SPEED</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569594">OID_GEN_LINK_SPEED_EX</a>
-
-
-
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-media-duplex-state">OID_GEN_MEDIA_DUPLEX_STATE</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_sriov_capabilities.md">NDIS_SRIOV_CAPABILITIES</a>
 
 
 
@@ -569,7 +533,19 @@ NDIS passes a pointer to an NDIS_BIND_PARAMETERS structure in the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569774">OID_PNP_CAPABILITIES</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568747">NET_LUID</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569069">OID_802_3_CURRENT_ADDRESS</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-802-3-maximum-list-size">OID_802_3_MAXIMUM_LIST_SIZE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569074">OID_802_3_PERMANENT_ADDRESS</a>
 
 
 
@@ -577,12 +553,7 @@ NDIS passes a pointer to an NDIS_BIND_PARAMETERS structure in the
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_nic_switch_info_array.md">NDIS_NIC_SWITCH_INFO_ARRAY</a>
-
-
-
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-supported-packet-filters">
-   OID_GEN_SUPPORTED_PACKET_FILTERS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569594">OID_GEN_LINK_SPEED_EX</a>
 
 
 
@@ -590,7 +561,11 @@ NDIS passes a pointer to an NDIS_BIND_PARAMETERS structure in the
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569598">OID_GEN_MAXIMUM_FRAME_SIZE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569602">OID_GEN_MAX_LINK_SPEED</a>
 
 
 
@@ -598,20 +573,11 @@ NDIS passes a pointer to an NDIS_BIND_PARAMETERS structure in the
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-offload-current-config">OID_TCP_OFFLOAD_CURRENT_CONFIG</a>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-media-duplex-state">OID_GEN_MEDIA_DUPLEX_STATE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568747">NET_LUID</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_pm_capabilities.md">NDIS_PM_CAPABILITIES</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_receive_filter_capabilities.md">
-   NDIS_RECEIVE_FILTER_CAPABILITIES</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569621">OID_GEN_PHYSICAL_MEDIUM</a>
 
 
 
@@ -620,46 +586,20 @@ NDIS passes a pointer to an NDIS_BIND_PARAMETERS structure in the
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_tcp_connection_offload.md">NDIS_TCP_CONNECTION_OFFLOAD</a>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-supported-packet-filters">
+   OID_GEN_SUPPORTED_PACKET_FILTERS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569621">OID_GEN_PHYSICAL_MEDIUM</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569774">OID_PNP_CAPABILITIES</a>
 
 
 
-<a href="..\ntddndis\ne-ntddndis-_ndis_medium.md">NDIS_MEDIUM</a>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-offload-current-config">OID_TCP_OFFLOAD_CURRENT_CONFIG</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569069">OID_802_3_CURRENT_ADDRESS</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569598">OID_GEN_MAXIMUM_FRAME_SIZE</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_offload.md">NDIS_OFFLOAD</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_nic_switch_capabilities.md">NDIS_NIC_SWITCH_CAPABILITIES</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569074">OID_802_3_PERMANENT_ADDRESS</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_hd_split_current_config.md">NDIS_HD_SPLIT_CURRENT_CONFIG</a>
-
-
-
+<a href="https://msdn.microsoft.com/1958722e-012e-4110-a82c-751744bcf9b5">ProtocolBindAdapterEx</a>
  
 
  

@@ -52,19 +52,6 @@ req.typenames: ISCSI_Supported_LB_Policies, *PISCSI_Supported_LB_Policies
 The ISCSI_Supported_LB_Policies structure contains information about load balancing policies for multiple connections per session (MCS).
 
 
-## -syntax
-
-
-````
-typedef struct _ISCSI_Supported_LB_Policies {
-  ULONGLONG  UniqueSessionId;
-  ULONG      LoadBalancePolicy;
-  ULONG      iSCSI_PathCount;
-  ISCSI_Path iSCSI_Paths[1];
-} ISCSI_Supported_LB_Policies, *PISCSI_Supported_LB_Policies;
-````
-
-
 ## -struct-fields
 
 
@@ -155,19 +142,19 @@ The number of paths associated with a target in the context of this session.
 
 ### -field iSCSI_Paths
 
-Path information as shown in the <a href="..\iscsimgt\ns-iscsimgt-_iscsi_path.md">ISCSI_Path</a> structure.
+Path information as shown in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff561550">ISCSI_Path</a> structure.
 
 
 ## -see-also
+
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
-
-
-
  
 
  

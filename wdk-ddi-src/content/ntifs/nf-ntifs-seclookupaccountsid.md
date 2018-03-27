@@ -53,21 +53,6 @@ req.typenames: TOKEN_TYPE
 <b>SecLookupAccountSid</b> accepts a security identifier (SID) as input. It retrieves the name of the account for this SID and the name of the first domain on which this SID is found.
 
 
-## -syntax
-
-
-````
-NTSTATUS SecLookupAccountSid(
-  _In_      PSID            Sid,
-  _Out_     PULONG          NameSize,
-  _Inout_   PUNICODE_STRING NameBuffer,
-  _Out_     PULONG          DomainSize,
-  _Out_opt_ PUNICODE_STRING DomainBuffer,
-  _Out_     PSID_NAME_USE   NameUse
-);
-````
-
-
 ## -parameters
 
 
@@ -225,22 +210,22 @@ In addition to looking up SIDs for local accounts, local domain accounts, and ex
 
 ## -see-also
 
-<a href="..\ntifs\ne-ntifs-_sid_name_use.md">SID_NAME_USE</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-seclookupwellknownsid.md">SecLookupWellKnownSid</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556740">SID</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-seclookupaccountname.md">SecLookupAccountName</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556744">SID_NAME_USE</a>
 
 
 
-<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554795">SecLookupAccountName</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556582">SecLookupWellKnownSid</a>
  
 
  

@@ -53,19 +53,6 @@ req.product: Windows 10 or later.
 Indicates the priority of endpoints.
 
 
-## -syntax
-
-
-````
-typedef enum _UCX_CONTROLLER_ENDPOINT_CHARACTERISTIC_PRIORITY { 
-  UCX_ENDPOINT_CHARACTERISTIC_PRIORITY_NONE              = 0x00,
-  UCX_ENDPOINT_CHARACTERISTIC_PRIORITY_BULK_VIDEO        = 0x01,
-  UCX_ENDPOINT_CHARACTERISTIC_PRIORITY_BULK_VOICE        = 0x02,
-  UCX_ENDPOINT_CHARACTERISTIC_PRIORITY_BULK_INTERACTIVE  = 0x03
-} UCX_CONTROLLER_ENDPOINT_CHARACTERISTIC_PRIORITY ;
-````
-
-
 ## -enum-fields
 
 
@@ -93,10 +80,10 @@ Bulk endpoint with interactive has the priority.
 
 ## -see-also
 
+
+
+
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/usbcon/usb-client-drivers-for-ma-usb">USB client drivers for Media-Agnostic (MA-USB)</a>
-
-
-
  
 
  

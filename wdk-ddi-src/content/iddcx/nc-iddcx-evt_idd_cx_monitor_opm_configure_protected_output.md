@@ -52,22 +52,6 @@ req.typenames: WCS_PROFILE_MANAGEMENT_SCOPE
 <b>EVT_IDD_CX_MONITOR_OPM_CONFIGURE_PROTECTED_OUTPUT</b> is called by the OS to configure the protected output.
 
 
-## -prototype
-
-
-````
-EVT_IDD_CX_MONITOR_OPM_CONFIGURE_PROTECTED_OUTPUT EvtIddCxMonitorOpmConfigureProtectedOutput;
-
-NTSTATUS EvtIddCxMonitorOpmConfigureProtectedOutput(
-  _In_       IDDCX_OPMCTX                             OpmCxtObject,
-  _In_ const IDARG_IN_OPM_CONFIGURE_PROTECTED_OUTPUT* pInArgs
-)
-{ ... }
-
-typedef EVT_IDD_CX_MONITOR_OPM_CONFIGURE_PROTECTED_OUTPUT PFN_IDD_CX_MONITOR_OPM_CONFIGURE_PROTECTED_OUTPUT;
-````
-
-
 ## -parameters
 
 

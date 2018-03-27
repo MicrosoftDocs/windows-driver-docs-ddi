@@ -52,18 +52,6 @@ req.typenames: D3D11_1DDI_GETCAPTUREHANDLEDATA
 Used to create a video decoder.
 
 
-## -prototype
-
-
-````
-HRESULT APIENTRY* PFND3D12DDI_CREATEVIDEODECODER_0032(
-             D3D12DDI_HDEVICE                      hDrvDevice,
-  _In_ const D3D12DDIARG_CREATE_VIDEO_DECODER_0032 *pArgs,
-             D3D12DDI_HVIDEODECODER_0020           hDrvVideoDecoder
-);
-````
-
-
 ## -parameters
 
 

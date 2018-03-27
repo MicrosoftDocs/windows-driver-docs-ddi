@@ -53,22 +53,6 @@ req.product: Windows 10 or later.
 The PRO_PARAMETER_LIST structure is sent in a Persistent Reserve Out command to a device server.
 
 
-## -syntax
-
-
-````
-typedef struct {
-  UCHAR ReservationKey[8];
-  UCHAR ServiceActionReservationKey[8];
-  UCHAR ScopeSpecificAddress[4];
-  UCHAR ActivatePersistThroughPowerLoss  :1;
-  UCHAR Reserved1  :7;
-  UCHAR Reserved2;
-  UCHAR Obsolete[2];
-} PRO_PARAMETER_LIST, *PPRO_PARAMETER_LIST;
-````
-
-
 ## -struct-fields
 
 
@@ -141,17 +125,17 @@ Reserved. Must be zero.
 
 
 
-The <a href="..\ntddstor\ni-ntddstor-ioctl_storage_persistent_reserve_out.md">IOCTL_STORAGE_PERSISTENT_RESERVE_OUT</a> request is used to control information about persistent reservations and reservation keys that are active within a device server.
+The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560586">IOCTL_STORAGE_PERSISTENT_RESERVE_OUT</a> request is used to control information about persistent reservations and reservation keys that are active within a device server.
 
 
 
 
 ## -see-also
 
-<a href="..\ntddstor\ni-ntddstor-ioctl_storage_persistent_reserve_out.md">IOCTL_STORAGE_PERSISTENT_RESERVE_OUT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560586">IOCTL_STORAGE_PERSISTENT_RESERVE_OUT</a>
  
 
  

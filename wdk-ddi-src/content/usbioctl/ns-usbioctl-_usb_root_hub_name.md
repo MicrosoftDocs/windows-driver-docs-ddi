@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 The <b>USB_ROOT_HUB_NAME</b> structure stores the root hub's symbolic device name.
 
 
-## -syntax
-
-
-````
-typedef struct _USB_ROOT_HUB_NAME {
-  ULONG ActualLength;
-  WCHAR RootHubName[1];
-} USB_ROOT_HUB_NAME, *PUSB_ROOT_HUB_NAME;
-````
-
-
 ## -struct-fields
 
 
@@ -81,14 +70,14 @@ Specifies the Unicode string containing the root hub's symbolic device name.
 
 ## -see-also
 
-<a href="..\usbioctl\ni-usbioctl-ioctl_internal_usb_get_hub_name.md">IOCTL_INTERNAL_USB_GET_HUB_NAME</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537259">IOCTL_INTERNAL_USB_GET_HUB_NAME</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
-
-
-
  
 
  

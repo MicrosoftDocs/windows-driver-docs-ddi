@@ -52,16 +52,6 @@ req.typenames: SetTunnelModeOuterAddress_OUT, *PSetTunnelModeOuterAddress_OUT
 The SetTunnelModeOuterAddress_OUT structure holds the output data for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566186">SetTunnelModeOuterAddress</a> method.
 
 
-## -syntax
-
-
-````
-typedef struct _SetTunnelModeOuterAddress_OUT {
-  ULONG Status;
-} SetTunnelModeOuterAddress_OUT, *PSetTunnelModeOuterAddress_OUT;
-````
-
-
 ## -struct-fields
 
 
@@ -83,11 +73,6 @@ You must implement this method.
 
 ## -see-also
 
-<a href="..\iscsiop\ns-iscsiop-_settunnelmodeouteraddress_in.md">SetTunnelModeOuterAddress_IN</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566186">SetTunnelModeOuterAddress</a>
 
 
 
@@ -95,6 +80,11 @@ You must implement this method.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566186">SetTunnelModeOuterAddress</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566187">SetTunnelModeOuterAddress_IN</a>
  
 
  

@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: ndis.h
+req.lib: 
 req.dll: 
 req.irql: Any level
 topic_type:
@@ -52,18 +52,6 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 The 
   <b>NdisInterlockedPushEntrySList</b> function inserts an entry at the head of a sequenced, singly linked
   list.
-
-
-## -syntax
-
-
-````
-PSINGLE_LIST_ENTRY NdisInterlockedPushEntrySList(
-  [in] PSLIST_HEADER      ListHead,
-  [in] PSINGLE_LIST_ENTRY ListEntry,
-  [in] PNDIS_SPIN_LOCK    Lock
-);
-````
 
 
 ## -parameters
@@ -103,14 +91,14 @@ A pointer to the head of the already initialized sequenced, singly linked list i
 
 Before the driver's initial call the 
     <b>NdisInterlockedPushEntrySList</b> function, it must initialize the list head with the 
-    <a href="..\ndis\nf-ndis-ndisinitializeslisthead.md">
+    <a href="https://msdn.microsoft.com/4f9a5f8c-5c7f-4ac5-a6ce-118de2b4a304">
     NdisInitializeSListHead</a> function.
 
 A driver 
     <u>must not</u> be holding the given 
     <i>Lock</i> when it calls 
     <b>NdisInterlockedPushEntrySList</b>. If necessary, a driver must call the 
-    <a href="..\ndis\nf-ndis-ndisreleasespinlock.md">NdisReleaseSpinLock</a> function before
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff564524">NdisReleaseSpinLock</a> function before
     calling 
     <b>NdisInterlockedPushEntrySList</b>. 
     <b>NdisInterlockedPushEntrySList</b> must acquire this lock itself before it inserts 
@@ -119,7 +107,7 @@ A driver
 
 The caller must provide resident storage for the 
     <i>Lock</i>, which must be initialized with the 
-    <a href="..\ndis\nf-ndis-ndisallocatespinlock.md">NdisAllocateSpinLock</a> function before
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561617">NdisAllocateSpinLock</a> function before
     the initial call to any 
     <b>NdisInterlocked..SList</b> routine.
 
@@ -135,30 +123,30 @@ If
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisquerydepthslist.md">NdisQueryDepthSList</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisreleasespinlock.md">NdisReleaseSpinLock</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561617">NdisAllocateSpinLock</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisinterlockedpopentryslist.md">NdisInterlockedPopEntrySList</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562602">NdisFreeSpinLock</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisallocatespinlock.md">NdisAllocateSpinLock</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562739">NdisInitializeSListHead</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisfreespinlock.md">NdisFreeSpinLock</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562760">NdisInterlockedPopEntrySList</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisinitializeslisthead.md">NdisInitializeSListHead</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563753">NdisQueryDepthSList</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564524">NdisReleaseSpinLock</a>
  
 
  

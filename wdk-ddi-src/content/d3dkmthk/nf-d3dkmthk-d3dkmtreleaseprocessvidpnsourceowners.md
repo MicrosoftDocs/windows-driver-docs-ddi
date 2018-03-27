@@ -55,16 +55,6 @@ req.typenames: D3DKMT_DRIVERVERSION
 The <b>D3DKMTReleaseProcessVidPnSourceOwners</b> function releases the video present network source owners for a process.
 
 
-## -syntax
-
-
-````
-NTSTATUS APIENTRY D3DKMTReleaseProcessVidPnSourceOwners(
-  _In_ HANDLE hProcess
-);
-````
-
-
 ## -parameters
 
 

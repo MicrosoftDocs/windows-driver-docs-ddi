@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -54,18 +54,6 @@ req.product: Windows 10 or later.
 
 The <b>VmbChannelRestoreFromBuffer</b>  function restores the client state from previously saved state.
 The driver must check the return value of the function.
-
-
-## -syntax
-
-
-````
-NTSTATUS VmbChannelRestoreFromBuffer(
-  _In_ VMBCHANNEL                        Channel,
-  _In_ reads_bytes_(BufferSize)    PVOID Buffer,
-  _In_ ULONG                             BufferSize
-);
-````
 
 
 ## -parameters

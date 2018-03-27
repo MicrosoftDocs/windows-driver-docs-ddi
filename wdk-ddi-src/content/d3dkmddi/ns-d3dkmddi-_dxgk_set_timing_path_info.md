@@ -52,45 +52,6 @@ req.typenames: DXGK_SET_TIMING_PATH_INFO
 Structure to hold information to modify SetTiming path.
 
 
-## -syntax
-
-
-````
-typedef struct _DXGK_SET_TIMING_PATH_INFO {
-  D3DDDI_VIDEO_PRESENT_TARGET_ID     VidPnTargetId;
-  D3DDDI_COLOR_SPACE_TYPE            OutputColorSpace;
-  D3DKMDT_WIRE_FORMAT_AND_PREFERENCE SelectedWireFormat;
-  union {
-    struct {
-      DXGK_PATH_UPDATE VidPnPathUpdates  :2;
-      UINT             Active  :1;
-      UINT             IgnoreConnectivity  :1;
-      UINT             PreserveInherited  :1;
-      UINT             Reserved  :27;
-    } Input;
-    UINT InputFlags;
-  };
-  union {
-    struct {
-      UINT RecheckMPO  :1;
-      UINT Reserved  :31;
-    } Output;
-    UINT OutputFlags;
-  };
-  DXGK_CONNECTION_CHANGE             TargetState;
-  union {
-    struct {
-      DXGK_GLITCH_CAUSE    GlitchCause;
-      DXGK_GLITCH_EFFECT   GlitchEffect;
-      DXGK_GLITCH_DURATION GlitchDuration;
-      UINT8                Reserved;
-    };
-    UINT DiagnosticInfo;
-  };
-} DXGK_SET_TIMING_PATH_INFO, *PDXGK_SET_TIMING_PATH_INFO;
-````
-
-
 ## -struct-fields
 
 
@@ -103,7 +64,7 @@ The identifier of a display adapter's video present target.
 
 ### -field SelectedWireFormat
 
-A <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_wire_format_and_preference.md">D3DKMDT_WIRE_FORMAT_AND_PREFERENCE</a> value which indicates the wire format to be set for the path. The Preference field is reserved in this context so should be ignored by the driver.  In the remaining five bit-fields, the OS will set one of the thirty bits to indicate which color encoding and at which bit depth the link should be driven.
+A <a href="https://msdn.microsoft.com/24CC6A10-6462-4681-B340-E887B679F456">D3DKMDT_WIRE_FORMAT_AND_PREFERENCE</a> value which indicates the wire format to be set for the path. The Preference field is reserved in this context so should be ignored by the driver.  In the remaining five bit-fields, the OS will set one of the thirty bits to indicate which color encoding and at which bit depth the link should be driven.
 
 
 ### -field Input
@@ -201,7 +162,7 @@ A set of flags specifying what the OS wants the driver to do.
 
 #### - OutputColorSpace
 
-A <a href="..\d3dukmdt\ne-d3dukmdt-d3dddi_color_space_type.md">D3DDDI_COLOR_SPACE_TYPE</a> value which describes the output color space intended for the transported pixels.  The driver is responsible for sending appropriate metadata to ensure the display device is set up to interpret pixels correctly for this color space. 
+A <a href="https://msdn.microsoft.com/library/windows/hardware/dn906320">D3DDDI_COLOR_SPACE_TYPE</a> value which describes the output color space intended for the transported pixels.  The driver is responsible for sending appropriate metadata to ensure the display device is set up to interpret pixels correctly for this color space. 
 
 The output colorspace is fixed until modified by another SetTiming call.  If the colorspace set on swap chain presented to this target is different from the output colorspace, the driver is required to convert to the output colorspace during scan-out.  
 

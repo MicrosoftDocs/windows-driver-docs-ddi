@@ -52,20 +52,6 @@ req.typenames: D3DKMT_SETALLOCATIONPRIORITY
 The D3DKMT_SETALLOCATIONPRIORITY structure describes the priority level to set a resource or list of allocations to. 
 
 
-## -syntax
-
-
-````
-typedef struct _D3DKMT_SETALLOCATIONPRIORITY {
-  D3DKMT_HANDLE       hDevice;
-  D3DKMT_HANDLE       hResource;
-  const D3DKMT_HANDLE *phAllocationList;
-  UINT                AllocationCount;
-  const UINT          *pPriorities;
-} D3DKMT_SETALLOCATIONPRIORITY;
-````
-
-
 ## -struct-fields
 
 
@@ -157,15 +143,15 @@ Maximum priority
 </table>
  
 
-For more information about the meanings of the preceding values, see the Remarks section of the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setprioritycb.md">pfnSetPriorityCb</a> function. 
+For more information about the meanings of the preceding values, see the Remarks section of the <a href="https://msdn.microsoft.com/1812cb0f-9232-4813-9c7b-74c9fa4d03cf">pfnSetPriorityCb</a> function. 
 
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtsetallocationpriority.md">D3DKMTSetAllocationPriority</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547155">D3DKMTSetAllocationPriority</a>
  
 
  

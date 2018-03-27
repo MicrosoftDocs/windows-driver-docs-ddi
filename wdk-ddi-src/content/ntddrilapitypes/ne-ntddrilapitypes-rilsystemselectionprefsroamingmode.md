@@ -52,18 +52,6 @@ req.typenames: RILSYSTEMSELECTIONPREFSROAMINGMODE
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef enum _RILSYSTEMSELECTIONPREFSROAMINGMODE { 
-  RIL_ROAMMODE_AUTOMATIC,
-  RIL_ROAMMODE_DOMESTIC,
-  RIL_ROAMMODE_MAX
-} RILSYSTEMSELECTIONPREFSROAMINGMODE;
-````
-
-
 ## -enum-fields
 
 

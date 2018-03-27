@@ -52,25 +52,6 @@ req.typenames: FILTER_INITIALIZATION_DATA, *PFILTER_INITIALIZATION_DATA
 The filter driver fills in a <b>FILTER_INITIALIZATION_DATA</b> structure and returns it to the crash dump driver.
 
 
-## -syntax
-
-
-````
-typedef struct _FILTER_INITIALIZATION_DATA {
-  ULONG        MajorVersion;
-  ULONG        MinorVersion;
-  PDUMP_START  DumpStart;
-  PDUMP_WRITE  DumpWrite;
-  PDUMP_FINISH DumpFinish;
-  PDUMP_UNLOAD DumpUnload;
-  PVOID        DumpData;
-  ULONG        MaxPagesPerWrite;
-  ULONG        Flags;
-  PDUMP_READ   DumpRead;
-} FILTER_INITIALIZATION_DATA, *PFILTER_INITIALIZATION_DATA;
-````
-
-
 ## -struct-fields
 
 
@@ -116,7 +97,7 @@ A pointer to the dump unload routine. This routine is called before the driver i
 
 ### -field DumpData
 
-The filter driver can pass a pointer to internal context data in this member. This pointer is passed back to the filter driver in a <a href="..\ntdddump\ns-ntdddump-_filter_extension.md">FILTER_EXTENSION</a> structure during each callback.
+The filter driver can pass a pointer to internal context data in this member. This pointer is passed back to the filter driver in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff553862">FILTER_EXTENSION</a> structure during each callback.
 
 
 ### -field MaxPagesPerWrite
@@ -180,30 +161,30 @@ If any of these members are not set, the dump filter driver will be marked as no
 
 ## -see-also
 
-<a href="..\ntdddump\nc-ntdddump-dump_finish.md">Dump_Finish</a>
 
 
 
-<a href="..\ntdddump\nc-ntdddump-dump_read.md">Dump_Read</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552764">Dump_Finish</a>
 
 
 
-<a href="..\ntdddump\ns-ntdddump-_filter_extension.md">FILTER_EXTENSION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439713">Dump_Read</a>
 
 
 
-<a href="..\ntdddump\nc-ntdddump-dump_write.md">Dump_Write</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552767">Dump_Start</a>
 
 
 
-<a href="..\ntdddump\nc-ntdddump-dump_unload.md">Dump_Unload</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552773">Dump_Unload</a>
 
 
 
-<a href="..\ntdddump\nc-ntdddump-dump_start.md">Dump_Start</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553709">Dump_Write</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553862">FILTER_EXTENSION</a>
  
 
  

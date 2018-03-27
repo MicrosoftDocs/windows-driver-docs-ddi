@@ -47,11 +47,6 @@ req.product: Windows 10 or later.
 # IOCTL_INTERNAL_USBFN_REGISTER_USB_STRING IOCTL
 
 
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
-
 ## -description
 
 
@@ -65,7 +60,7 @@ The class driver sends this request to register a USB string descriptor.
 
 ### -input-buffer
 
-A pointer to a buffer that contains a  <a href="..\usbfnbase\ns-usbfnbase-_usbfn_usb_string.md">USBFN_USB_STRING</a> structure with the USB string descriptor. 
+A pointer to a buffer that contains a  <a href="https://msdn.microsoft.com/library/windows/hardware/mt188007">USBFN_USB_STRING</a> structure with the USB string descriptor. 
 
 
 ### -input-buffer-length
@@ -110,21 +105,21 @@ If the request is successful, the USB function class extension (UFX) returns STA
 
 
 
-This request must be sent after sending the <a href="..\usbfnioctl\ni-usbfnioctl-ioctl_internal_usbfn_activate_usb_bus.md">IOCTL_INTERNAL_USBFN_ACTIVATE_USB_BUS</a> request.
+This request must be sent after sending the <a href="https://msdn.microsoft.com/library/windows/hardware/mt187891">IOCTL_INTERNAL_USBFN_ACTIVATE_USB_BUS</a> request.
 
 
 
 
 ## -see-also
 
-<a href="..\usbfnioctl\ni-usbfnioctl-ioctl_internal_usbfn_activate_usb_bus.md">IOCTL_INTERNAL_USBFN_ACTIVATE_USB_BUS</a>
 
 
 
-<a href="..\usbfnbase\ns-usbfnbase-_usbfn_usb_string.md">USBFN_USB_STRING</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt187891">IOCTL_INTERNAL_USBFN_ACTIVATE_USB_BUS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt188007">USBFN_USB_STRING</a>
  
 
  

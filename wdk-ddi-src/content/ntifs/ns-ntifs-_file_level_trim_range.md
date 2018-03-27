@@ -52,17 +52,6 @@ req.typenames: FILE_LEVEL_TRIM_RANGE, *PFILE_LEVEL_TRIM_RANGE
 Contains the offset and length of a trim range for a file.
 
 
-## -syntax
-
-
-````
-typedef struct _FILE_LEVEL_TRIM_RANGE {
-  ULONGLONG Offset;
-  ULONGLONG Length;
-} FILE_LEVEL_TRIM_RANGE, *PFILE_LEVEL_TRIM_RANGE;
-````
-
-
 ## -struct-fields
 
 
@@ -89,10 +78,10 @@ Due to alignment requirements, the file system may reduce the of the the trim ra
 
 ## -see-also
 
-<a href="..\ntifs\ns-ntifs-_file_level_trim.md">FILE_LEVEL_TRIM</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406398">FILE_LEVEL_TRIM</a>
  
 
  

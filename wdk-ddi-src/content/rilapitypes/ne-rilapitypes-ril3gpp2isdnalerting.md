@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,20 +51,6 @@ req.product: Windows 10 or later.
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef enum _RIL3GPP2ISDNALERTING { 
-  RIL_3GPP2ISDNALERTING_NORMAL,
-  RIL_3GPP2ISDNALERTING_INTERGROUP,
-  RIL_3GPP2ISDNALERTING_SPECIAL,
-  RIL_3GPP2ISDNALERTING_PINGRING,
-  RIL_3GPP2ISDNALERTING_MAX
-} RIL3GPP2ISDNALERTING;
-````
 
 
 ## -enum-fields

@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: prcomoem.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,18 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <code>IPrintOemUI::UpdateExternalFonts</code> method allows a user interface plug-in to update a printer's <a href="https://msdn.microsoft.com/6e643703-ace1-4660-990c-3a9ca735829d">Unidrv Font Format Files</a> (.uff file).
-
-
-## -syntax
-
-
-````
-HRESULT UpdateExternalFonts(
-   HANDLE hPrinter,
-   HANDLE hHeap,
-   PWSTR  pwstrCartridges
-);
-````
 
 
 ## -parameters
@@ -150,14 +138,14 @@ Descriptions of cartridge fonts can be copied from the .uff file specified by th
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/0ef635dd-9598-4356-94fc-7e5237df9bd9">IPrintOemUI</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554176">IPrintOemUI::FontInstallerDlgProc</a>
-
-
-
-<a href="..\prcomoem\nn-prcomoem-iprintoemui.md">IPrintOemUI</a>
-
-
-
  
 
  

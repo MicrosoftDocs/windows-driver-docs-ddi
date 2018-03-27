@@ -56,20 +56,6 @@ The PacketDirect (PD) platform calls a PD-capable miniport driver's
 
 
 
-## -prototype
-
-
-````
-NDIS_PD_QUERY_COUNTER NdisPDQueryCounter;
-
-void NdisPDQueryCounter(
-  _In_  NDIS_PD_COUNTER_HANDLE CounterHandle,
-  _Out_ NDIS_PD_COUNTER_VALUE  *CounterValue
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -77,12 +63,12 @@ void NdisPDQueryCounter(
 
 ### -param CounterHandle [in]
 
-A counter handle that the miniport driver allocated in its <a href="..\ndis\nc-ndis-ndis_pd_allocate_counter.md">NdisPDAllocateCounter</a> function.
+A counter handle that the miniport driver allocated in its <a href="https://msdn.microsoft.com/86AA537D-952F-4A7A-ACA4-24B8C1AE932A">NdisPDAllocateCounter</a> function.
 
 
 ### -param CounterValue [out]
 
-The miniport returns a pointer to a <a href="..\ndis\ns-ndis-_ndis_pd_counter_value.md">NDIS_PD_COUNTER_VALUE</a> structure that contains the values stored in  the counter object.
+The miniport returns a pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn931838">NDIS_PD_COUNTER_VALUE</a> structure that contains the values stored in  the counter object.
 
 
 ## -returns
@@ -96,10 +82,10 @@ This callback function does not return a value.
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_ndis_pd_counter_value.md">NDIS_PD_COUNTER_VALUE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn931838">NDIS_PD_COUNTER_VALUE</a>
  
 
  

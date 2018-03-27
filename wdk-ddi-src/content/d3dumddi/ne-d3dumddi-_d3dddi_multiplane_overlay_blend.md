@@ -52,17 +52,6 @@ req.typenames: D3DDDI_MULTIPLANE_OVERLAY_BLEND
 Identifies a blend operation to be performed on an overlay plane.
 
 
-## -syntax
-
-
-````
-typedef enum _D3DDDI_MULTIPLANE_OVERLAY_BLEND { 
-  D3DDDI_MULTIPLANE_OVERLAY_BLEND_OPAQUE      = 0x0,
-  D3DDDI_MULTIPLANE_OVERLAY_BLEND_ALPHABLEND  = 0x1
-} D3DDDI_MULTIPLANE_OVERLAY_BLEND;
-````
-
-
 ## -enum-fields
 
 

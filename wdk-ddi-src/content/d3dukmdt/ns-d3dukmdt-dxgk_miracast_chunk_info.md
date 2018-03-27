@@ -52,19 +52,6 @@ req.typenames: DXGK_MIRACAST_CHUNK_INFO
 Contains info about a specified wireless display (Miracast) encode chunk.
 
 
-## -syntax
-
-
-````
-typedef struct {
-  DXGK_MIRACAST_CHUNK_TYPE ChunkType;
-  MIRACAST_CHUNK_ID        ChunkId;
-  UINT                     ProcessingTime;
-  UINT                     EncodeRate;
-} DXGK_MIRACAST_CHUNK_INFO;
-````
-
-
 ## -struct-fields
 
 
@@ -72,12 +59,12 @@ typedef struct {
 
 ### -field ChunkType
 
-The type of chunk that is to be processed, specified as a <a href="..\d3dukmdt\ne-d3dukmdt-_dxgk_miracast_chunk_type.md">DXGK_MIRACAST_CHUNK_TYPE</a> enumeration value.
+The type of chunk that is to be processed, specified as a <a href="https://msdn.microsoft.com/library/windows/hardware/dn322057">DXGK_MIRACAST_CHUNK_TYPE</a> enumeration value.
 
 
 ### -field ChunkId
 
-The identifier for this chunk, of type <a href="..\d3dukmdt\ns-d3dukmdt-dxgk_miracast_chunk_id.md">DXGK_MIRACAST_CHUNK_ID</a>.
+The identifier for this chunk, of type <a href="https://msdn.microsoft.com/library/windows/hardware/dn322055">DXGK_MIRACAST_CHUNK_ID</a>.
 
 
 ### -field ProcessingTime
@@ -92,14 +79,14 @@ The encode bit rate, in kilobits per second, that the display miniport driver re
 
 ## -see-also
 
-<a href="..\d3dukmdt\ne-d3dukmdt-_dxgk_miracast_chunk_type.md">DXGK_MIRACAST_CHUNK_TYPE</a>
 
 
 
-<a href="..\d3dukmdt\ns-d3dukmdt-dxgk_miracast_chunk_id.md">DXGK_MIRACAST_CHUNK_ID</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn322055">DXGK_MIRACAST_CHUNK_ID</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn322057">DXGK_MIRACAST_CHUNK_TYPE</a>
  
 
  

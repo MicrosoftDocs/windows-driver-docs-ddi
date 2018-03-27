@@ -53,18 +53,6 @@ req.product: Windows 10 or later.
 The <b>TRISTATE</b> enumeration indicates generic state values for true or false.
 
 
-## -syntax
-
-
-````
-typedef enum _TRISTATE { 
-  TriStateUnknown  = u,
-  TriStateFalse    = f,
-  TriStateTrue     = t
-} TRISTATE;
-````
-
-
 ## -enum-fields
 
 

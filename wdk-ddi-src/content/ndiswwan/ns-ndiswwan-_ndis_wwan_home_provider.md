@@ -52,18 +52,6 @@ req.typenames: NDIS_WWAN_HOME_PROVIDER, *PNDIS_WWAN_HOME_PROVIDER
 The NDIS_WWAN_HOME_PROVIDER structure represents details about the home network provider.
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_WWAN_HOME_PROVIDER {
-  NDIS_OBJECT_HEADER Header;
-  WWAN_STATUS        uStatus;
-  WWAN_PROVIDER      Provider;
-} NDIS_WWAN_HOME_PROVIDER, *PNDIS_WWAN_HOME_PROVIDER;
-````
-
-
 ## -struct-fields
 
 
@@ -117,7 +105,7 @@ sizeof(NDIS_WWAN_HOME_PROVIDER)
  
 
 For more information about these members, see 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>.
 
 
 ### -field uStatus
@@ -202,20 +190,20 @@ The operation failed because a bad SIM card was detected.
 ### -field Provider
 
 A formatted 
-     <a href="..\wwan\ns-wwan-_wwan_provider2.md">WWAN_PROVIDER2</a> object that represents details
+     <a href="https://msdn.microsoft.com/library/windows/hardware/hh464135">WWAN_PROVIDER2</a> object that represents details
      about a network provider.
 
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_provider2.md">WWAN_PROVIDER2</a>
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh464135">WWAN_PROVIDER2</a>
  
 
  

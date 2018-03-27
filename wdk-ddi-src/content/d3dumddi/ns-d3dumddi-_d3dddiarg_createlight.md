@@ -52,16 +52,6 @@ req.typenames: D3DDDIARG_CREATELIGHT
 The D3DDDIARG_CREATELIGHT structure contains the index into the light array.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DDDIARG_CREATELIGHT {
-  UINT Index;
-} D3DDDIARG_CREATELIGHT;
-````
-
-
 ## -struct-fields
 
 
@@ -74,10 +64,10 @@ typedef struct _D3DDDIARG_CREATELIGHT {
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createlight.md">CreateLight</a>
 
 
 
+<a href="https://msdn.microsoft.com/4649b1d1-6fd3-48fb-b25f-1228851bb682">CreateLight</a>
  
 
  

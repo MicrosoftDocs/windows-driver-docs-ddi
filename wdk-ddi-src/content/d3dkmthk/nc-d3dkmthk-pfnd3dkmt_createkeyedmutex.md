@@ -52,16 +52,6 @@ req.typenames: DXGK_TARGETMODE_DETAIL_TIMING
 The <b>D3DKMTCreateKeyedMutex</b> function creates a keyed mutex object.
 
 
-## -prototype
-
-
-````
-NTSTATUS APIENTRY D3DKMTCreateKeyedMutex(
-  _Inout_ D3DKMT_CREATEKEYEDMUTEX *pData
-);
-````
-
-
 ## -parameters
 
 
@@ -78,7 +68,7 @@ NTSTATUS APIENTRY D3DKMTCreateKeyedMutex(
 
 #### - pData [in, out]
 
-A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_createkeyedmutex.md">D3DKMT_CREATEKEYEDMUTEX</a> structure that describes a keyed mutex object to create. 
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff547834">D3DKMT_CREATEKEYEDMUTEX</a> structure that describes a keyed mutex object to create. 
 
 
 ## -returns
@@ -133,7 +123,7 @@ Parameters were validated and determined to be incorrect.
 </td>
 <td width="60%">
 
-<a href="..\d3dkmthk\nc-d3dkmthk-pfnd3dkmt_createkeyedmutex.md">D3DKMTCreateKeyedMutex</a> could not complete because of insufficient memory.
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546845">D3DKMTCreateKeyedMutex</a> could not complete because of insufficient memory.
 
 </td>
 </tr>
@@ -147,10 +137,10 @@ This function might also return other <b>NTSTATUS</b> values.
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_createkeyedmutex.md">D3DKMT_CREATEKEYEDMUTEX</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547834">D3DKMT_CREATEKEYEDMUTEX</a>
  
 
  

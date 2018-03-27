@@ -26,7 +26,7 @@ req.max-support: Unavailable in UMDF 2.0 and later.
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: wudfddi.h
+req.lib: 
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
@@ -56,14 +56,6 @@ req.product: Windows 10 or later.
 The <b>GetCount</b> method returns the number of resource descriptors that are contained in this interface's resource list.
 
 
-
-
-## -syntax
-
-
-````
-ULONG GetCount();
-````
 
 
 ## -parameters
@@ -99,10 +91,10 @@ See example code in <a href="https://msdn.microsoft.com/243C7299-7C74-408A-8FB9-
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfcmresourcelist.md">IWDFCmResourceList</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439762">IWDFCmResourceList</a>
  
 
  

@@ -52,20 +52,6 @@ req.typenames: RILUICCTOOLKITCMD, *LPRILUICCTOOLKITCMD
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef struct _RILUICCTOOLKITCMD {
-  DWORD    cbSize;
-  DWORD    dwSlotIndex;
-  BOOL     fTerminalResponseNeeded;
-  DWORD    dwDetailsSize;
-  BYTE [1] bDetails;
-} RILUICCTOOLKITCMD, RILUICCTOOLKITCMD;
-````
-
-
 ## -struct-fields
 
 

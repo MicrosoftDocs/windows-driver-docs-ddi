@@ -52,17 +52,6 @@ req.typenames: D3D11_1DDI_GETCAPTUREHANDLEDATA
 Used to calculate the size of a video decoder.
 
 
-## -prototype
-
-
-````
-SIZE_T APIENTRY* PFND3D12DDI_CALCPRIVATEVIDEODECODERSIZE_0032(
-             D3D12DDI_HDEVICE                      hDrvDevice,
-  _In_ const D3D12DDIARG_CREATE_VIDEO_DECODER_0032 *pArgs
-);
-````
-
-
 ## -parameters
 
 

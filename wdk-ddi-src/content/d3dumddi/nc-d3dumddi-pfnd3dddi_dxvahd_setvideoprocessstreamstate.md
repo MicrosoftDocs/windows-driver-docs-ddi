@@ -52,26 +52,12 @@ req.typenames: DXGK_PTE
 The <i>SetVideoProcessStreamState</i> function sets the stream state for a video processor. 
 
 
-## -prototype
-
-
-````
-PFND3DDDI_DXVAHD_SETVIDEOPROCESSSTREAMSTATE SetVideoProcessStreamState;
-
-__checkReturn HRESULT APIENTRY SetVideoProcessStreamState(
-  _In_       HANDLE                                      hDevice,
-  _In_ const D3DDDIARG_DXVAHD_SETVIDEOPROCESSSTREAMSTATE *pData
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
 
 
-### -param HANDLE
+### -param Arg1
 
 
 ### -param *
@@ -90,7 +76,7 @@ __checkReturn HRESULT APIENTRY SetVideoProcessStreamState(
 
 #### - pData [in]
 
- A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_dxvahd_setvideoprocessstreamstate.md">D3DDDIARG_DXVAHD_SETVIDEOPROCESSSTREAMSTATE</a> structure that describes how to change the stream state. 
+ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543098">D3DDDIARG_DXVAHD_SETVIDEOPROCESSSTREAMSTATE</a> structure that describes how to change the stream state. 
 
 
 ## -returns
@@ -134,10 +120,10 @@ The stream state is successfully set.
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_dxvahd_setvideoprocessstreamstate.md">D3DDDIARG_DXVAHD_SETVIDEOPROCESSSTREAMSTATE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543098">D3DDDIARG_DXVAHD_SETVIDEOPROCESSSTREAMSTATE</a>
  
 
  

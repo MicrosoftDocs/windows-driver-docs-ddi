@@ -53,23 +53,6 @@ req.product: Windows 10 or later.
 The client driver's implementation that UCX calls to reset the controller’s programming for an endpoint.
 
 
-## -prototype
-
-
-````
-EVT_UCX_ENDPOINT_RESET EvtUcxEndpointReset;
-
-VOID EvtUcxEndpointReset(
-  _In_ UCXCONTROLLER UcxController,
-  _In_ UCXENDPOINT   Endpoint,
-  _In_ WDFREQUEST    Request
-)
-{ ... }
-
-typedef EVT_UCX_ENDPOINT_RESET PEVT_UCX_ENDPOINT_RESET;
-````
-
-
 ## -parameters
 
 
@@ -106,7 +89,7 @@ This callback function does not return a value.
 
 
 
-The UCX client driver registers this callback function with the USB host controller extension (UCX) by calling the <a href="..\ucxendpoint\nf-ucxendpoint-ucxendpointcreate.md">UcxEndpointCreate</a>
+The UCX client driver registers this callback function with the USB host controller extension (UCX) by calling the <a href="https://msdn.microsoft.com/library/windows/hardware/mt188039">UcxEndpointCreate</a>
  method.
 
 The client driver returns completion status in the WDFREQUEST, which it might complete

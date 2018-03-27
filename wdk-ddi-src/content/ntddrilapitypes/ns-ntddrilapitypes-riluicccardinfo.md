@@ -52,21 +52,6 @@ req.typenames: RILUICCCARDINFO, *LPRILUICCCARDINFO
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef struct _RILUICCCARDINFO {
-  DWORD              cbSize;
-  DWORD              dwParams;
-  BOOL               fIsVirtualCard;
-  BYTE [10]          IccId;
-  DWORD              dwNumApps;
-  RILUICCAPPINFO [1] AppInfo;
-} RILUICCCARDINFO, RILUICCCARDINFO;
-````
-
-
 ## -struct-fields
 
 

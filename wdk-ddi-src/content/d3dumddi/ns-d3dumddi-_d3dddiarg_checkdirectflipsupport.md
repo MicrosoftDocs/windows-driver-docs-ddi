@@ -49,20 +49,7 @@ req.typenames: D3DDDIARG_CHECKDIRECTFLIPSUPPORT
 ## -description
 
 
-Specifies resources used for Direct Flip operations, in which video memory is seamlessly flipped between an application's managed primary allocations and the Desktop Window Manager's (DWM) managed primary allocations. This structure is pointed to by the <i>pData</i> parameter of the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_checkdirectflipsupport.md">CheckDirectFlipSupport</a> function.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DDDIARG_CHECKDIRECTFLIPSUPPORT {
-  HANDLE hAppSwapchainResource;
-  HANDLE hDWMSwapchainResource;
-  UINT   CheckDirectFlipFlags;
-  BOOL   Supported;
-} D3DDDIARG_CHECKDIRECTFLIPSUPPORT;
-````
+Specifies resources used for Direct Flip operations, in which video memory is seamlessly flipped between an application's managed primary allocations and the Desktop Window Manager's (DWM) managed primary allocations. This structure is pointed to by the <i>pData</i> parameter of the <a href="https://msdn.microsoft.com/BB909041-0194-4828-ACA2-E3F6B1974DBB">CheckDirectFlipSupport</a> function.
 
 
 ## -struct-fields
@@ -92,10 +79,10 @@ typedef struct _D3DDDIARG_CHECKDIRECTFLIPSUPPORT {
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_checkdirectflipsupport.md">CheckDirectFlipSupport</a>
 
 
 
+<a href="https://msdn.microsoft.com/BB909041-0194-4828-ACA2-E3F6B1974DBB">CheckDirectFlipSupport</a>
  
 
  

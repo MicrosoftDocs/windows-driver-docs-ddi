@@ -53,20 +53,6 @@ req.product: Windows 10 or later.
 The <b>USBCAMD_SetIsoPipeState</b> service permits the camera minidriver to control the streaming state on the isochronous pipe.
 
 
-## -prototype
-
-
-````
-PFNUSBCAMD_SetIsoPipeState USBCAMD_SetIsoPipeState;
-
-NTSTATUS APIENTRY USBCAMD_SetIsoPipeState(
-  _In_ PVOID DeviceContext,
-  _In_ ULONG PipeStateFlags
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -177,10 +163,10 @@ Using this function does not enable you to change the alternate setting within t
 
 ## -see-also
 
-<a href="..\usbcamdi\ns-usbcamdi-usbcamd_interface.md">USBCAMD_INTERFACE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568605">USBCAMD_INTERFACE</a>
  
 
  

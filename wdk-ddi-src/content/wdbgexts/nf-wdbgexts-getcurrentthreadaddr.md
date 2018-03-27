@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,17 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>GetCurrentThreadAddr</b> function returns the location of the system data that describes the current thread.
-
-
-## -syntax
-
-
-````
-__inline VOID GetCurrentThreadAddr(
-   DWORD    Processor,
-   PULONG64 Address
-);
-````
 
 
 ## -parameters
@@ -94,7 +83,7 @@ None
 
 
 
-In user-mode debugging, <b>GetCurrentThreadAddr</b> returns the location of the thread's Thread Environment Block (TEB).  This is the same location that <a href="..\wdbgexts\nf-wdbgexts-gettebaddress.md">GetTebAddress</a> returns.
+In user-mode debugging, <b>GetCurrentThreadAddr</b> returns the location of the thread's Thread Environment Block (TEB).  This is the same location that <a href="https://msdn.microsoft.com/library/windows/hardware/ff549267">GetTebAddress</a> returns.
 
 In kernel-mode debugging, <b>GetCurrentThreadAddr</b> returns the location of the KTHREAD structure of the operating system thread that was executing on the processor when the last event occurred.
 
@@ -105,10 +94,10 @@ For details on the KTHREAD and TEB structures, see <i>Microsoft Windows Internal
 
 ## -see-also
 
-<a href="..\wdbgexts\nf-wdbgexts-gettebaddress.md">GetTebAddress</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549267">GetTebAddress</a>
  
 
  

@@ -52,27 +52,6 @@ req.typenames: D3DKMT_SUBMITCOMMAND
 The <b>D3DKMT_SUBMITCOMMAND</b> structure is used to submit command buffers on contexts that support graphics processing unit (GPU) virtual addressing.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DKMT_SUBMITCOMMAND {
-  D3DGPU_VIRTUAL_ADDRESS    Commands;
-  UINT                      CommandLength;
-  D3DKMT_SUBMITCOMMANDFLAGS Flags;
-  ULONGLONG                 PresentHistoryToken;
-  UINT                      BroadcastContextCount;
-  D3DKMT_HANDLE             BroadcastContext[D3DDDI_MAX_BROADCAST_CONTEXT];
-  VOID                      *pPrivateDriverData;
-  UINT                      PrivateDriverDataSize;
-  UINT                      NumPrimaries;
-  D3DKMT_HANDLE             WrittenPrimaries[D3DDDI_MAX_WRITTEN_PRIMARIES];
-  UINT                      NumHistoryBuffers;
-  D3DKMT_HANDLE             *HistoryBufferArray;
-} D3DKMT_SUBMITCOMMAND;
-````
-
-
 ## -struct-fields
 
 
@@ -90,7 +69,7 @@ Specifies the length, in bytes, of the commands being submitted to the GPU.
 
 ### -field Flags
 
-An instance of the <a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_submitcommandflags.md">D3DDDICB_SUBMITCOMMANDFLAGS</a> structure.
+An instance of the <a href="https://msdn.microsoft.com/library/windows/hardware/dn914420">D3DDDICB_SUBMITCOMMANDFLAGS</a> structure.
 
 
 ### -field PresentHistoryToken
@@ -140,10 +119,10 @@ This member is reserved for future use.
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_submitcommandflags.md">D3DDDICB_SUBMITCOMMANDFLAGS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn914420">D3DDDICB_SUBMITCOMMANDFLAGS</a>
  
 
  

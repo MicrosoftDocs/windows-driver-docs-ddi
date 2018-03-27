@@ -52,17 +52,6 @@ req.typenames: D3DDDI_MULTISAMPLINGMETHOD
 The D3DDDI_MULTISAMPLINGMETHOD structure describes a multiple-sampling method.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DDDI_MULTISAMPLINGMETHOD {
-  UINT NumSamples;
-  UINT NumQualityLevels;
-} D3DDDI_MULTISAMPLINGMETHOD;
-````
-
-
 ## -struct-fields
 
 
@@ -89,18 +78,18 @@ The driver can partition its quality levels for a given multiple-sampling method
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_describeallocation.md">DXGKARG_DESCRIBEALLOCATION</a>
 
 
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_describeallocation.md">DxgkDdiDescribeAllocation</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544312">D3DDDIFORMAT</a>
 
 
 
-<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557575">DXGKARG_DESCRIBEALLOCATION</a>
 
 
 
+<a href="https://msdn.microsoft.com/8ee65716-496c-4b0f-baa7-34a625847d5f">DxgkDdiDescribeAllocation</a>
  
 
  

@@ -49,17 +49,7 @@ req.typenames: TAPE_SET_MEDIA_PARAMETERS, *PTAPE_SET_MEDIA_PARAMETERS
 ## -description
 
 
-The TAPE_SET_MEDIA_PARAMETERS structure is used in conjunction with the <a href="..\ntddtape\ni-ntddtape-ioctl_tape_set_media_params.md">IOCTL_TAPE_SET_MEDIA_PARAMS</a> request to reset the block size of the media in a tape drive.
-
-
-## -syntax
-
-
-````
-typedef struct _TAPE_SET_MEDIA_PARAMETERS {
-  ULONG BlockSize;
-} TAPE_SET_MEDIA_PARAMETERS, *PTAPE_SET_MEDIA_PARAMETERS;
-````
+The TAPE_SET_MEDIA_PARAMETERS structure is used in conjunction with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560636">IOCTL_TAPE_SET_MEDIA_PARAMS</a> request to reset the block size of the media in a tape drive.
 
 
 ## -struct-fields
@@ -74,14 +64,14 @@ Indicates the requested block size, in bytes, or zero for variable block size in
 
 ## -see-also
 
-<a href="..\ntddtape\ni-ntddtape-ioctl_tape_set_media_params.md">IOCTL_TAPE_SET_MEDIA_PARAMS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560636">IOCTL_TAPE_SET_MEDIA_PARAMS</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567953">TapeMiniSetMediaParameters</a>
-
-
-
  
 
  

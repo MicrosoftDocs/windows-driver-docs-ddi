@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: Microsoft.WDTF
 req.assembly: WDTF.Interop.metadata_dll
 req.type-library: 
-req.lib: wdtf.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -56,16 +56,6 @@ Gets a value that identifies the depot that the target comes from.
 This property is read-only.
 
 
-## -syntax
-
-
-````
-HRESULT get_Type(
-  [out, retval] BSTR *pVal
-);
-````
-
-
 ## -parameters
 
 
@@ -78,12 +68,12 @@ The value can be one of the following:
 <ul>
 <li>
 <b>Device</b> if the target comes from the 
-<a href="..\wdtf\nn-wdtf-iwdtfdevicedepot2.md">IWDTFDeviceDepot2</a> interface.
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406391">IWDTFDeviceDepot2</a> interface.
 
 </li>
 <li>
 <b>System</b> if the target comes from the 
-<a href="..\wdtf\nn-wdtf-iwdtfsystemdepot2.md">IWDTFSystemDepot2</a> interface.
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439331">IWDTFSystemDepot2</a> interface.
 
 </li>
 </ul>
@@ -92,18 +82,18 @@ The value can be one of the following:
 
 ## -see-also
 
-<a href="..\wdtf\nn-wdtf-iwdtftarget2.md">IWDTFTarget2</a>
 
 
 
-<a href="..\wdtf\nn-wdtf-iwdtfsystemdepot2.md">IWDTFSystemDepot2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406391">IWDTFDeviceDepot2</a>
 
 
 
-<a href="..\wdtf\nn-wdtf-iwdtfdevicedepot2.md">IWDTFDeviceDepot2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439331">IWDTFSystemDepot2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439367">IWDTFTarget2</a>
  
 
  

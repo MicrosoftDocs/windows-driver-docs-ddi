@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: stiusd.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,18 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>IStiDeviceControl::WriteToErrorLog</b> method allows a user-mode still image minidriver to write a message into the still image error log.
-
-
-## -syntax
-
-
-````
-HRESULT WriteToErrorLog(
-   DWORD   dwMessageType,
-   LPCWSTR pszMessage,
-   DWORD   dwErrorCode
-);
-````
 
 
 ## -parameters

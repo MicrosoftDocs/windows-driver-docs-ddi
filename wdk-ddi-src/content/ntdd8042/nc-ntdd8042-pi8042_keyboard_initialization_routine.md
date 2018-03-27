@@ -52,23 +52,6 @@ req.typenames: MSFC_VirtualFibrePortAttributes, *PMSFC_VirtualFibrePortAttribute
 A PI8042_KEYBOARD_INITIALIZATION_ROUTINE-typed callback routine supplements the default initialization of a keyboard device by I8042prt.
 
 
-## -prototype
-
-
-````
-PI8042_KEYBOARD_INITIALIZATION_ROUTINE KeyboardInitializationRoutine;
-
-NTSTATUS KeyboardInitializationRoutine(
-  _In_  PVOID                   InitializationContext,
-  _In_  PVOID                   SynchFuncContext,
-  _In_  PI8042_SYNCH_READ_PORT  ReadPort,
-  _In_  PI8042_SYNCH_WRITE_PORT WritePort,
-  _Out_ PBOOLEAN                TurnTranslationOn
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -86,12 +69,12 @@ Pointer to the context for the callbacks that are pointed to by <i>ReadPort</i> 
 
 ### -param ReadPort [in]
 
-Pointer to a <a href="..\ntdd8042\nc-ntdd8042-pi8042_synch_read_port.md">PI8042_SYNCH_READ_PORT</a> callback that reads from the port.
+Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543272">PI8042_SYNCH_READ_PORT</a> callback that reads from the port.
 
 
 ### -param WritePort [in]
 
-Pointer to a <a href="..\ntdd8042\nc-ntdd8042-pi8042_synch_write_port.md">PI8042_SYNCH_WRITE_PORT</a> callback that writes to the port.
+Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543276">PI8042_SYNCH_WRITE_PORT</a> callback that writes to the port.
 
 
 ### -param TurnTranslationOn [out]
@@ -121,14 +104,14 @@ If an upper-level keyboard filter driver supplies an initialization callback, I8
 
 ## -see-also
 
-<a href="..\ntdd8042\nc-ntdd8042-pi8042_synch_write_port.md">PI8042_SYNCH_WRITE_PORT</a>
 
 
 
-<a href="..\ntdd8042\nc-ntdd8042-pi8042_synch_read_port.md">PI8042_SYNCH_READ_PORT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543272">PI8042_SYNCH_READ_PORT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543276">PI8042_SYNCH_WRITE_PORT</a>
  
 
  

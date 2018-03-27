@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -50,18 +50,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>GetCurrentProcessExecutableNameWide</b>  method returns the name of executable file loaded in the current process.
-
-
-## -syntax
-
-
-````
-HRESULT GetCurrentProcessExecutableNameWide(
-  [out, optional] PWSTR  Buffer,
-  [in]            ULONG  BufferSize,
-  [out, optional] PULONG ExeSize
-);
-````
 
 
 ## -parameters

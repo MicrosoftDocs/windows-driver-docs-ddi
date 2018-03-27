@@ -54,18 +54,6 @@ req.product: Windows 10 or later.
 Returns the system address for the input data buffer  of a SCSI request block (SRB).
 
 
-## -syntax
-
-
-````
-ULONG StorPortGetDataInBufferSystemAddress(
-  _In_  PVOID               HwDeviceExtension,
-  _In_  PSCSI_REQUEST_BLOCK Srb,
-  _Out_ PVOID               *SystemAddress
-);
-````
-
-
 ## -parameters
 
 
@@ -149,14 +137,14 @@ A system address can not be assigned.
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportgetdatainbuffermdl.md">StorPortGetDataInBufferMdl</a>
 
 
 
-<a href="..\storport\nf-storport-storportgetdatainbufferscattergatherlist.md">StorPortGetDataInBufferScatterGatherList</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj553718">StorPortGetDataInBufferMdl</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj553719">StorPortGetDataInBufferScatterGatherList</a>
  
 
  

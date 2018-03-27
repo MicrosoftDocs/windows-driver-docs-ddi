@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -86,7 +86,7 @@ Returns the name of executable file loaded in the current process.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="..\wdbgexts\nf-wdbgexts-getcurrentprocesshandle.md">GetCurrentProcessHandle</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545816">GetCurrentProcessHandle</a>
 </td>
 <td align="left" width="63%">
 Returns the system handle for the current process.
@@ -332,18 +332,18 @@ Makes the specified thread the current thread.
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsystemobjects4.md">IDebugSystemObjects4</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugsystemobjects3.md">IDebugSystemObjects3</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550885">IDebugSystemObjects2</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugsystemobjects2.md">IDebugSystemObjects2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550892">IDebugSystemObjects3</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550893">IDebugSystemObjects4</a>
  
 
  

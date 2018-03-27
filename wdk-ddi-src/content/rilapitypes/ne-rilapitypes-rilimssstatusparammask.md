@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,21 +51,6 @@ req.product: Windows 10 or later.
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef enum _RILIMSSSTATUSPARAMMASK { 
-  RIL_PARAM_IMSSTATUS_HUICCAPP,
-  RIL_PARAM_IMSSTATUS_AVAILABLESERVICES,
-  RIL_PARAM_IMSSTATUS_SMSSUPPORTEDFORMAT,
-  RIL_PARAM_IMSSTATUS_SERVINGDOMAIN,
-  RIL_PARAM_IMSSTATUS_SYSTEMTYPE,
-  RIL_PARAM_IMSSTATUS_ALL
-} RILIMSSSTATUSPARAMMASK;
-````
 
 
 ## -enum-fields

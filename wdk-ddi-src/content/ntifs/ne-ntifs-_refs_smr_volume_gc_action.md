@@ -52,19 +52,6 @@ req.typenames: REFS_SMR_VOLUME_GC_ACTION, *PREFS_SMR_VOLUME_GC_ACTION
 The <b>REFS_SMR_VOLUME_GC_ACTION</b> enum contains the available garbage collection commands for <a href="https://msdn.microsoft.com/782542C4-CFC5-4BF7-AF38-3247A3AC6AB9">FSCTL_SET_REFS_SMR_VOLUME_GC_PARAMETERS</a>.
 
 
-## -syntax
-
-
-````
-typedef enum _REFS_SMR_VOLUME_GC_ACTION { 
-  SmrGcActionStart           = 1,
-  SmrGcActionStartFullSpeed  = 2,
-  SmrGcActionPause           = 3,
-  SmrGcActionStop            = 4
-} REFS_SMR_VOLUME_GC_ACTION, *PREFS_SMR_VOLUME_GC_ACTION;
-````
-
-
 ## -enum-fields
 
 
@@ -92,10 +79,10 @@ Specifies to stop the garbage collection process and removes the ability to resu
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/782542C4-CFC5-4BF7-AF38-3247A3AC6AB9">FSCTL_SET_REFS_SMR_VOLUME_GC_PARAMETERS</a>
-
-
-
  
 
  

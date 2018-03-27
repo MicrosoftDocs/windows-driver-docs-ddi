@@ -52,18 +52,6 @@ req.typenames: RILUICCSERVICESTATE
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef enum _RILUICCSERVICESTATE { 
-  RIL_UICCSERVICESTATE_DISABLED,
-  RIL_UICCSERVICESTATE_ENABLED,
-  RIL_UICCSERVICESTATE_MAX
-} RILUICCSERVICESTATE;
-````
-
-
 ## -enum-fields
 
 

@@ -52,16 +52,6 @@ req.typenames: HBA_WWNTYPE
 The <b>HBA_RemoveCallback</b> routine de-registers a callback routine. 
 
 
-## -syntax
-
-
-````
-HBA_STATUS HBA_API HBA_RemoveCallback(
-  _In_ HBA_CALLBACKHANDLE callbackHandle
-);
-````
-
-
 ## -parameters
 
 
@@ -69,7 +59,7 @@ HBA_STATUS HBA_API HBA_RemoveCallback(
 
 ### -param callbackHandle [in]
 
-Contains an opaque handle specified with the call to <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a> that identifies the callback routine to de-register. 
+Contains an opaque handle specified with the call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff557097">HBA_OpenAdapter</a> that identifies the callback routine to de-register. 
 
 
 ## -returns
@@ -113,14 +103,14 @@ Returned if an unspecified error occurred that prevented the de-registration of 
 
 ## -see-also
 
-<a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557097">HBA_OpenAdapter</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
-
-
-
  
 
  

@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: filterpipeline.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -50,17 +50,6 @@ req.typenames: EXpsFontRestriction
 
 
 The <code>GetProperty</code> method gets a property from a property bag.
-
-
-## -syntax
-
-
-````
-HRESULT GetProperty(
-  [in]  const wchar_t *pszName,
-  [out]       VARIANT *pVar
-);
-````
 
 
 ## -parameters

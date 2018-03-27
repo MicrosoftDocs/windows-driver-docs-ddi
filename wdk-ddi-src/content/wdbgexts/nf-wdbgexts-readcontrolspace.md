@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,19 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>ReadControlSpace</b> function reads the processor-specific control space into the array pointed to by <i>buf</i>.
-
-
-## -syntax
-
-
-````
-__inline VOID ReadControlSpace(
-   USHORT processor,
-   ULONG  address,
-   PVOID  buf,
-   ULONG  size
-);
-````
 
 
 ## -parameters
@@ -104,7 +91,7 @@ None
 
 
 
-If you are writing 64-bit code, you should use <a href="..\wdbgexts\ns-wdbgexts-_readcontrolspace64.md">ReadControlSpace64</a> instead. See <a href="https://msdn.microsoft.com/library/windows/hardware/ff537780">32-Bit Pointers and 64-Bit Pointers</a> for details.
+If you are writing 64-bit code, you should use <a href="https://msdn.microsoft.com/library/windows/hardware/ff553532">ReadControlSpace64</a> instead. See <a href="https://msdn.microsoft.com/library/windows/hardware/ff537780">32-Bit Pointers and 64-Bit Pointers</a> for details.
 
 If you are writing a WdbgExts extension, include <b>wdbgexts.h</b>. If you are writing a DbgEng extension that calls this function, include <b>wdbgexts.h</b> before <b>dbgeng.h</b> (see <a href="https://msdn.microsoft.com/library/windows/hardware/ff561480">Writing DbgEng Extension Code</a> for details).
 

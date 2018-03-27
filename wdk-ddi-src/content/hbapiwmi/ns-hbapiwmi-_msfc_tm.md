@@ -52,24 +52,6 @@ req.typenames: MSFC_TM, *PMSFC_TM
 The MSFC_TM structure is used by WMI providers to timestamp events. 
 
 
-## -syntax
-
-
-````
-typedef struct _MSFC_TM {
-  ULONG tm_sec;
-  ULONG tm_min;
-  ULONG tm_hour;
-  ULONG tm_mday;
-  ULONG tm_mon;
-  ULONG tm_year;
-  ULONG tm_wday;
-  ULONG tm_yday;
-  ULONG tm_isdst;
-} MSFC_TM, *PMSFC_TM;
-````
-
-
 ## -struct-fields
 
 
@@ -122,10 +104,10 @@ Indicates when <b>TRUE</b> that the time stamp complies with daylight savings ti
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff562965">MSFC_TM WMI Class</a>
-
-
-
  
 
  

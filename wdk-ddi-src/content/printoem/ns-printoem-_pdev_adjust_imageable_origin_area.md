@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 The PDEV_ADJUST_IMAGEABLE_ORIGIN_AREA structure specifies the imageable origin area.
 
 
-## -syntax
-
-
-````
-typedef struct _PDEV_ADJUST_IMAGEABLE_ORIGIN_AREA {
-  POINT ptImageOrigin;
-  SIZEL szlImageableArea;
-} PDEV_ADJUST_IMAGEABLE_ORIGIN_AREA, *PPDEV_ADJUST_IMAGEABLE_ORIGIN_AREA;
-````
-
-
 ## -struct-fields
 
 

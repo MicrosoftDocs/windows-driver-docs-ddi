@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -53,16 +53,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 The <b>VMB_CHANNEL_STATE_CHANGE_CALLBACKS_INIT</b> function saves callback functions to be used for state changes for a channel. 
-
-
-## -syntax
-
-
-````
-VOID WINAPI VMB_CHANNEL_STATE_CHANGE_CALLBACKS_INIT(
-  _Out_ PVMB_CHANNEL_STATE_CHANGE_CALLBACKS Callbacks
-);
-````
 
 
 ## -parameters

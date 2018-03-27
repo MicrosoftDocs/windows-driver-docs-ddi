@@ -52,18 +52,6 @@ req.typenames: FILE_GET_QUOTA_INFORMATION, *PFILE_GET_QUOTA_INFORMATION
 The FILE_GET_QUOTA_INFORMATION structure is used to query for quota information. 
 
 
-## -syntax
-
-
-````
-typedef struct _FILE_GET_QUOTA_INFORMATION {
-  ULONG NextEntryOffset;
-  ULONG SidLength;
-  SID   Sid;
-} FILE_GET_QUOTA_INFORMATION, *PFILE_GET_QUOTA_INFORMATION;
-````
-
-
 ## -struct-fields
 
 
@@ -81,14 +69,14 @@ Length, in bytes, of the <b>Sid</b> member.
 
 ### -field Sid
 
-Security identifier (<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>) whose quota information is to be returned. 
+Security identifier (<a href="https://msdn.microsoft.com/library/windows/hardware/ff556740">SID</a>) whose quota information is to be returned. 
 
 
 ## -remarks
 
 
 
-The FILE_GET_QUOTA_INFORMATION structure is used to query for quota information. The quota information is returned in a <a href="..\ntifs\ns-ntifs-_file_quota_information.md">FILE_QUOTA_INFORMATION</a>-structured buffer. 
+The FILE_GET_QUOTA_INFORMATION structure is used to query for quota information. The quota information is returned in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff540342">FILE_QUOTA_INFORMATION</a>-structured buffer. 
 
 This structure must be aligned on a LONG (4-byte) boundary. 
 
@@ -96,6 +84,13 @@ This structure must be aligned on a LONG (4-byte) boundary.
 
 
 ## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540342">FILE_QUOTA_INFORMATION</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549293">IRP_MJ_QUERY_QUOTA</a>
 
@@ -105,18 +100,11 @@ This structure must be aligned on a LONG (4-byte) boundary.
 
 
 
-<a href="..\ntifs\ns-ntifs-_file_quota_information.md">FILE_QUOTA_INFORMATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548279">IoCheckQuotaBufferValidity</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-iocheckquotabuffervalidity.md">IoCheckQuotaBufferValidity</a>
-
-
-
-<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556740">SID</a>
  
 
  

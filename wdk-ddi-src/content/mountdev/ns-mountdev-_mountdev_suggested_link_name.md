@@ -52,18 +52,6 @@ req.typenames: MOUNTDEV_SUGGESTED_LINK_NAME, *PMOUNTDEV_SUGGESTED_LINK_NAME
 Mount manager clients that are able to keep track of their drive letters use this structure to request that the mount manager assign them a particular link name. 
 
 
-## -syntax
-
-
-````
-typedef struct _MOUNTDEV_SUGGESTED_LINK_NAME {
-  BOOLEAN UseOnlyIfThereAreNoOtherLinks;
-  USHORT  NameLength;
-  WCHAR   Name[1];
-} MOUNTDEV_SUGGESTED_LINK_NAME, *PMOUNTDEV_SUGGESTED_LINK_NAME;
-````
-
-
 ## -struct-fields
 
 
@@ -86,10 +74,10 @@ Contains a variable-sized array of wide characters that holds the name of the su
 
 ## -see-also
 
-<a href="..\mountdev\ni-mountdev-ioctl_mountdev_query_suggested_link_name.md">IOCTL_MOUNTDEV_QUERY_SUGGESTED_LINK_NAME</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560440">IOCTL_MOUNTDEV_QUERY_SUGGESTED_LINK_NAME</a>
  
 
  

@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,20 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>ReadPhysicalWithFlags</b> function reads from physical memory.
-
-
-## -syntax
-
-
-````
-__inline VOID ReadPhysicalWithFlags(
-   ULONG64 address,
-   PVOID   buf,
-   ULONG   size,
-   ULONG   flags,
-   PULONG  sizer
-);
-````
 
 
 ## -parameters
@@ -166,14 +152,14 @@ If you are writing a WdbgExts extension, include <b>wdbgexts.h</b>. If you are w
 
 ## -see-also
 
-<a href="..\wdbgexts\nf-wdbgexts-readphysical.md">ReadPhysical</a>
 
 
 
-<a href="..\wdbgexts\nf-wdbgexts-writephysicalwithflags.md">WritePhysicalWithFlags</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554313">ReadPhysical</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561448">WritePhysicalWithFlags</a>
  
 
  

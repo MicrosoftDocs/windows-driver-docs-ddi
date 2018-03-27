@@ -53,18 +53,6 @@ The NDIS_WWAN_SERVICE_ACTIVATION_STATUS structure represents the status of servi
   MB device.
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_WWAN_SERVICE_ACTIVATION_STATUS {
-  NDIS_OBJECT_HEADER             Header;
-  WWAN_STATUS                    uStatus;
-  WWAN_SERVICE_ACTIVATION_STATUS ServiceActivationStatus;
-} NDIS_WWAN_SERVICE_ACTIVATION_STATUS, *PNDIS_WWAN_SERVICE_ACTIVATION_STATUS;
-````
-
-
 ## -struct-fields
 
 
@@ -118,7 +106,7 @@ sizeof(NDIS_WWAN_SERVICE_ACTIVATION_STATUS)
  
 
 For more information about these members, see 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>.
 
 
 ### -field uStatus
@@ -241,22 +229,22 @@ The operation failed because the device is in the process of initializing. Retry
 ### -field ServiceActivationStatus
 
 A formatted 
-     <a href="..\wwan\ns-wwan-_wwan_service_activation_status.md">
+     <a href="https://msdn.microsoft.com/1bd81e55-6438-4bff-ab50-3de3457d2e99">
      WWAN_SERVICE_ACTIVATION_STATUS</a> object that represents the status of service activation on the
      device.
 
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_service_activation_status.md">
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
+
+
+
+<a href="https://msdn.microsoft.com/1bd81e55-6438-4bff-ab50-3de3457d2e99">
    WWAN_SERVICE_ACTIVATION_STATUS</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
  
 
  

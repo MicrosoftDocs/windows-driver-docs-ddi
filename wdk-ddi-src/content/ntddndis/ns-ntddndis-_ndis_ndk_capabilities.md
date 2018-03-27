@@ -52,26 +52,6 @@ req.typenames: NDIS_NDK_CAPABILITIES, *PNDIS_NDK_CAPABILITIES
 The <b>NDIS_NDK_CAPABILITIES</b> structure specifies the capabilities of an NDK adapter.
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_NDK_CAPABILITIES {
-  NDIS_OBJECT_HEADER Header;
-  ULONG              MaxQpCount;
-  ULONG              MaxCqCount;
-  ULONG              MaxMrCount;
-  ULONG              MaxPdCount;
-  ULONG              MaxInboundReadLimit;
-  ULONG              MaxOutboundReadLimit;
-  ULONG              MaxMwCount;
-  ULONG              MaxSrqCount;
-  ULONG64            MissingCounterMask;
-  NDK_ADAPTER_INFO   *NdkInfo;
-} NDIS_NDK_CAPABILITIES, *PNDIS_NDK_CAPABILITIES;
-````
-
-
 ## -struct-fields
 
 
@@ -79,7 +59,7 @@ typedef struct _NDIS_NDK_CAPABILITIES {
 
 ### -field Header
 
-The <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure that describes this <b>NDIS_NDK_CAPABILITIES</b> structure. Set the members of the <b>NDIS_OBJECT_HEADER</b> structure as follows:
+The <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure that describes this <b>NDIS_NDK_CAPABILITIES</b> structure. Set the members of the <b>NDIS_OBJECT_HEADER</b> structure as follows:
 
 <ul>
 <li>Set the <b>Type</b> member to <b>NDIS_OBJECT_TYPE_DEFAULT</b>.</li>
@@ -137,7 +117,7 @@ The maximum number of shared receive queues (SRQs) that are supported by the ada
 ### -field MissingCounterMask
 
 A bitmask that identifies counters that an NDK provider does not support. NDK providers are required to support all the performance counters that are included
-    in the <a href="..\ntddndis\ns-ntddndis-_ndis_ndk_performance_counters.md">NDIS_NDK_PERFORMANCE_COUNTERS</a> structure. However, in the rare case that
+    in the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451565">NDIS_NDK_PERFORMANCE_COUNTERS</a> structure. However, in the rare case that
     a provider cannot support a counter due to extreme implementation difficulties,
     the provider must indicate any unsupported counters with the mask value for the
     counter which it cannot support.
@@ -159,29 +139,29 @@ Independent of whether NDK functionality of an adapter is currently enabled or d
     an NDK-capable adapter must always indicate its capabilities during miniport initialization.
 
 
-The <b>NDIS_NDK_CAPABILITIES</b> structure is used in the <a href="..\ndis\ns-ndis-_ndis_miniport_adapter_ndk_attributes.md">NDIS_MINIPORT_ADAPTER_NDK_ATTRIBUTES</a> structure.
+The <b>NDIS_NDK_CAPABILITIES</b> structure is used in the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451558">NDIS_MINIPORT_ADAPTER_NDK_ATTRIBUTES</a> structure.
 
 
 
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_ndis_miniport_adapter_ndk_attributes.md">NDIS_MINIPORT_ADAPTER_NDK_ATTRIBUTES</a>
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_ndk_performance_counters.md">NDIS_NDK_PERFORMANCE_COUNTERS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451558">NDIS_MINIPORT_ADAPTER_NDK_ATTRIBUTES</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451565">NDIS_NDK_PERFORMANCE_COUNTERS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439851">NDK_ADAPTER_INFO</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
  
 
  

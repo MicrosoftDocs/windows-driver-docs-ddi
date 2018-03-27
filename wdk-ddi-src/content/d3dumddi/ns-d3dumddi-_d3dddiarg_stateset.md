@@ -52,18 +52,6 @@ req.typenames: D3DDDIARG_STATESET
 The D3DDDIARG_STATESET structure describes how to set a state block.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DDDIARG_STATESET {
-  UINT              Operation;
-  D3DSTATEBLOCKTYPE StateBlockType;
-  HANDLE            hStateSet;
-} D3DDDIARG_STATESET;
-````
-
-
 ## -struct-fields
 
 
@@ -415,7 +403,7 @@ No predefined state group is specified.
 
 [in/out] A handle to the state block that is manipulated by the operation that is specified in the <b>Operation</b> member.
 
-A state-block handle is passed in a call to the user-mode display driver's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_stateset.md">StateSet</a> function when <b>Operation</b> is set to D3DHAL_STATESETEXECUTE.
+A state-block handle is passed in a call to the user-mode display driver's <a href="https://msdn.microsoft.com/2c298de6-a3d9-45c7-ab60-dc9124eed1bb">StateSet</a> function when <b>Operation</b> is set to D3DHAL_STATESETEXECUTE.
 
 The <i>StateSet</i> function returns the state-block handle when <b>Operation</b> is set to D3DHAL_STATESETBEGIN and D3DHAL_STATESETCREATE.
 
@@ -433,10 +421,10 @@ The <b>StateBlockType</b> member is valid only for D3DHAL_STATESETBEGIN, D3DHAL_
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_stateset.md">StateSet</a>
 
 
 
+<a href="https://msdn.microsoft.com/2c298de6-a3d9-45c7-ab60-dc9124eed1bb">StateSet</a>
  
 
  

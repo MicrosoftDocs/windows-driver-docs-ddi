@@ -58,16 +58,6 @@ req.typenames: D3DKMT_DRIVERVERSION
 
 
 
-## -syntax
-
-
-````
-HRESULT APIENTRY D3DKMTSignalSynchronizationObjectFromCpu(
-  _In_ const D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMCPU *pData
-);
-````
-
-
 ## -parameters
 
 
@@ -82,7 +72,7 @@ TBD
 
 #### - pData [in]
 
-A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_signalsynchronizationobjectfromcpu.md">D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMCPU</a> structure that provides the details of the requested operation..
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn906803">D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMCPU</a> structure that provides the details of the requested operation..
 
 
 ## -returns

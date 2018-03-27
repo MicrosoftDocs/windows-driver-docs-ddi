@@ -52,16 +52,6 @@ req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
 DXGKCB_INDICATE_CONNECTOR_CHANGE is called by the KMD to indicate that it has added changes to its change queue which the OS should now query.
 
 
-## -prototype
-
-
-````
-NTSTATUS APIENTRY *DXGKCB_INDICATE_CONNECTOR_CHANGE(
-  _In_ const HANDLE hAdapter
-);
-````
-
-
 ## -parameters
 
 

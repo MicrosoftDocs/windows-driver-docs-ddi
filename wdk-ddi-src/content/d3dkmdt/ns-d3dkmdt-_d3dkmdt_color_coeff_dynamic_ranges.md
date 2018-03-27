@@ -52,19 +52,6 @@ req.typenames: D3DKMDT_COLOR_COEFF_DYNAMIC_RANGES
 The D3DKMDT_COLOR_COEFF_DYNAMIC_RANGES contains values that indicate the dynamic range of each color channel of a video present target or a monitor.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DKMDT_COLOR_COEFF_DYNAMIC_RANGES {
-  UINT FirstChannel;
-  UINT SecondChannel;
-  UINT ThirdChannel;
-  UINT FourthChannel;
-} D3DKMDT_COLOR_COEFF_DYNAMIC_RANGES;
-````
-
-
 ## -struct-fields
 
 
@@ -94,17 +81,17 @@ Reserved.
 
 
 
-The <b>VidPnTargetColorCoeffDynamicRanges</b> member of the <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_vidpn_present_path.md">D3DKMDT_VIDPN_PRESENT_PATH</a> structure is a D3DKMDT_COLOR_COEFF_DYNAMIC_RANGES structure.
+The <b>VidPnTargetColorCoeffDynamicRanges</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff546647">D3DKMDT_VIDPN_PRESENT_PATH</a> structure is a D3DKMDT_COLOR_COEFF_DYNAMIC_RANGES structure.
 
 
 
 
 ## -see-also
 
-<a href="..\d3dkmdt\ne-d3dkmdt-_d3dkmdt_color_basis.md">D3DKMDT_COLOR_BASIS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545984">D3DKMDT_COLOR_BASIS</a>
  
 
  

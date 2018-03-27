@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: filterpipeline.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -50,16 +50,6 @@ req.typenames: EXpsFontRestriction
 
 
 The <b>GetThumbnailProperties</b> method gets the thumbnail properties.
-
-
-## -syntax
-
-
-````
-HRESULT GetThumbnailProperties(
-  [out] BSTR *pContentType
-);
-````
 
 
 ## -parameters

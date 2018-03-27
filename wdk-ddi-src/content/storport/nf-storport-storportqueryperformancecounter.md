@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: Any
 topic_type:
@@ -51,18 +51,6 @@ req.product: Windows 10 or later.
 
 
 The current system performance counter value is queried is returned by the <b>StorPortQueryPerformanceCounter</b> routine.. The performance frequency is also returned as an optional parameter.
-
-
-## -syntax
-
-
-````
-ULONG StorPortQueryPerformanceCounter(
-  _In_      PVOID          HwDeviceExtension,
-  _Out_opt_ PLARGE_INTEGER PerformanceFrequency,
-  _Out_     PLARGE_INTEGER PerformanceCounter
-);
-````
 
 
 ## -parameters
@@ -126,10 +114,10 @@ The <i>PerformanceCounter</i> parameter is <b>NULL</b>.
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportquerysystemtime.md">StorPortQuerySystemTime</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567465">StorPortQuerySystemTime</a>
  
 
  

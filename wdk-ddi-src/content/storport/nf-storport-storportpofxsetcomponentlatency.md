@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
@@ -53,19 +53,6 @@ req.product: Windows 10 or later.
 The <b>StorPortPoFxSetComponentLatency</b> routine specifies the maximum latency that can be tolerated in the transition from the idle condition to the active condition in the specified storage device component.
 
 
-## -syntax
-
-
-````
-ULONG StorPortPoFxSetComponentLatency(
-  _In_     PVOID         HwDeviceExtension,
-  _In_opt_ PSTOR_ADDRESS Address,
-  _In_     ULONG         Component,
-  _In_     ULONGLONG     Latency
-);
-````
-
-
 ## -parameters
 
 
@@ -73,7 +60,7 @@ ULONG StorPortPoFxSetComponentLatency(
 
 ### -param HwDeviceExtension [in]
 
-A pointer to the hardware device extension for the host bus adapter (HBA). This is the device extension used to register the device in a prior call to <a href="..\storport\nf-storport-storportinitializepofxpower.md">StorPortInitializePoFxPower</a>.
+A pointer to the hardware device extension for the host bus adapter (HBA). This is the device extension used to register the device in a prior call to <a href="https://msdn.microsoft.com/library/windows/hardware/hh920421">StorPortInitializePoFxPower</a>.
 
 
 ### -param Address [in, optional]
@@ -83,7 +70,7 @@ The address of a storage device unit. This parameter is <b>NULL</b> when setting
 
 ### -param Component [in]
 
-The index that identifies the component. This parameter is an index into the <b>Components</b> array in the <a href="..\storport\ns-storport-_stor_pofx_device.md">STOR_POFX_DEVICE</a> structure that the miniport driver registered for the device with a call to <a href="..\storport\nf-storport-storportinitializepofxpower.md">StorPortInitializePoFxPower</a>. If the <b>Components</b> array contains N elements, component indexes range from 0 to N–1.
+The index that identifies the component. This parameter is an index into the <b>Components</b> array in the <a href="https://msdn.microsoft.com/library/windows/hardware/hh920429">STOR_POFX_DEVICE</a> structure that the miniport driver registered for the device with a call to <a href="https://msdn.microsoft.com/library/windows/hardware/hh920421">StorPortInitializePoFxPower</a>. If the <b>Components</b> array contains N elements, component indexes range from 0 to N–1.
 
 
 ### -param Latency [in]
@@ -166,10 +153,10 @@ The current IRQL &gt; DISPATCH_LEVEL.
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-pofxsetcomponentlatency.md">PoFxSetComponentLatency</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439531">PoFxSetComponentLatency</a>
  
 
  

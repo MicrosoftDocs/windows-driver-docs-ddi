@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 The WWAN_DEVICE_SERVICE_SUPPORTED_COMMANDS structure represents a list of commands supported by a device service.
 
 
-## -syntax
-
-
-````
-typedef struct _WWAN_DEVICE_SERVICE_SUPPORTED_COMMANDS {
-  GUID             DeviceServiceGuid;
-  WWAN_LIST_HEADER ListHeader;
-} WWAN_DEVICE_SERVICE_SUPPORTED_COMMANDS, *PWWAN_DEVICE_SERVICE_SUPPORTED_COMMANDS;
-````
-
-
 ## -struct-fields
 
 
@@ -77,16 +66,16 @@ The GUID of the device service command.
 ### -field ListHeader
 
 A formatted 
-     <a href="..\wwan\ns-wwan-_wwan_list_header.md">WWAN_LIST_HEADER</a> object that represents the
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571208">WWAN_LIST_HEADER</a> object that represents the
      list of commands supported by the device service.
 
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_list_header.md">WWAN_LIST_HEADER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571208">WWAN_LIST_HEADER</a>
  
 
  

@@ -52,16 +52,6 @@ req.typenames: SetGroupPresharedKey_OUT, *PSetGroupPresharedKey_OUT
 The SetGroupPresharedKey_OUT structure holds the output data for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565693">SetGroupPresharedKey</a> method.
 
 
-## -syntax
-
-
-````
-typedef struct _SetGroupPresharedKey_OUT {
-  ULONG Status;
-} SetGroupPresharedKey_OUT, *PSetGroupPresharedKey_OUT;
-````
-
-
 ## -struct-fields
 
 
@@ -83,11 +73,6 @@ You must implement this method.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565693">SetGroupPresharedKey</a>
-
-
-
-<a href="..\iscsiop\ns-iscsiop-_setgrouppresharedkey_in.md">SetGroupPresharedKey_IN</a>
 
 
 
@@ -95,6 +80,11 @@ You must implement this method.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565693">SetGroupPresharedKey</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565695">SetGroupPresharedKey_IN</a>
  
 
  

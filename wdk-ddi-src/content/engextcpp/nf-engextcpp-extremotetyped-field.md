@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: engextcpp.hpp
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -50,16 +50,6 @@ req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
 
 
 The <b>Field</b> method returns the typed data for a member in the typed data that is represented by this object.
-
-
-## -syntax
-
-
-````
-ExtRemoteTyped Field(
-  [in] PCSTR Field
-);
-````
 
 
 ## -parameters

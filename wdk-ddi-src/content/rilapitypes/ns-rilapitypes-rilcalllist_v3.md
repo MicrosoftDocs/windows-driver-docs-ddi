@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef struct _RILCALLLIST_V3 {
-  DWORD              dwNumberOfCalls;
-  RILCALLINFO_V3 [1] rciCallInfo;
-} RILCALLLIST_V3, RILCALLLIST_V3;
-````
-
-
 ## -struct-fields
 
 

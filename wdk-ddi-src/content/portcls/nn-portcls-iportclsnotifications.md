@@ -7,7 +7,7 @@ old-location: audio\iportclsnotifications.htm
 old-project: audio
 ms.assetid: 03F65E4E-C942-4748-8D3E-938A6AC51B2A
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/19/2018
 ms.keywords: IPortClsNotifications, IPortClsNotifications interface [Audio Devices], IPortClsNotifications interface [Audio Devices], described, audio.iportclsnotifications, portcls/IPortClsNotifications
 ms.prod: windows-hardware
 ms.technology: windows-devices

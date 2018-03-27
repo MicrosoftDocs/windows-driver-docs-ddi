@@ -53,24 +53,6 @@ req.typenames: TOKEN_TYPE
 <b>SecMakeSPNEx</b> creates a service provider name string that can be used when communicating with specific security service providers. 
 
 
-## -syntax
-
-
-````
-NTSTATUS SecMakeSPNEx(
-  _In_    PUNICODE_STRING ServiceClass,
-  _In_    PUNICODE_STRING ServiceName,
-  _In_    PUNICODE_STRING InstanceName,
-  _In_    USHORT          InstancePort,
-  _In_    PUNICODE_STRING Referrer,
-  _In_    PUNICODE_STRING TargetInfo,
-  _Inout_ PUNICODE_STRING Spn,
-  _Out_   PULONG          Length,
-  _In_    BOOLEAN         Allocate
-);
-````
-
-
 ## -parameters
 
 
@@ -191,14 +173,14 @@ The <i>Allocate</i> parameter was set to true, but the memory allocation request
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-secmakespn.md">SecMakeSPN</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-secmakespnex2.md">SecMakeSPNEx2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556584">SecMakeSPN</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556592">SecMakeSPNEx2</a>
  
 
  

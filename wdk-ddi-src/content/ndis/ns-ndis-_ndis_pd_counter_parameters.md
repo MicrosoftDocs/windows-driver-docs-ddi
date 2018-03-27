@@ -52,19 +52,6 @@ req.typenames: NDIS_PD_COUNTER_PARAMETERS
 This structure holds parameters for the provider counter.
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_PD_COUNTER_PARAMETERS {
-  NDIS_OBJECT_HEADER   Header;
-  ULONG                Flags;
-  PCWSTR               CounterName;
-  NDIS_PD_COUNTER_TYPE Type;
-} NDIS_PD_COUNTER_PARAMETERS, *PNDIS_PD_COUNTER_PARAMETERS;
-````
-
-
 ## -struct-fields
 
 
@@ -72,7 +59,7 @@ typedef struct _NDIS_PD_COUNTER_PARAMETERS {
 
 ### -field Header
 
-The <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure for the <b>NDIS_PD_COUNTER_PARAMETERS</b> structure. Set the members of this structure as follows:
+The <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure for the <b>NDIS_PD_COUNTER_PARAMETERS</b> structure. Set the members of this structure as follows:
 
 <ul>
 <li><b>Type</b> = <b>NDIS_OBJECT_TYPE_DEFAULT</b></li>
@@ -92,23 +79,23 @@ This member  is ignored by the PD provider. It is used by the PD platform for pu
 
 ### -field Type
 
-An <a href="..\ndis\ne-ndis-ndis_pd_counter_type.md">NDIS_PD_COUNTER_TYPE</a> enumeration value that specifies the counter type.
+An <a href="https://msdn.microsoft.com/library/windows/hardware/dn931837">NDIS_PD_COUNTER_TYPE</a> enumeration value that specifies the counter type.
 
 
 ## -see-also
 
-<a href="..\ndis\ne-ndis-ndis_pd_counter_type.md">NDIS_PD_COUNTER_TYPE</a>
 
 
 
-<a href="..\ndis\nc-ndis-ndis_pd_allocate_counter.md">NdisPDAllocateCounter</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn931837">NDIS_PD_COUNTER_TYPE</a>
 
 
 
+<a href="https://msdn.microsoft.com/86AA537D-952F-4A7A-ACA4-24B8C1AE932A">NdisPDAllocateCounter</a>
  
 
  

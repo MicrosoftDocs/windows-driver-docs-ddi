@@ -52,17 +52,6 @@ req.typenames: RILREADMSGPARAMS, *LPRILREADMSGPARAMS
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef struct _RILREADMSGPARAMS {
-  HUICCAPP  hUiccApp;
-  DWORD     dwIndex;
-} RILREADMSGPARAMS, RILREADMSGPARAMS;
-````
-
-
 ## -struct-fields
 
 

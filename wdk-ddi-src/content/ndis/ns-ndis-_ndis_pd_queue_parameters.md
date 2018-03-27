@@ -52,24 +52,6 @@ req.typenames: NDIS_PD_QUEUE_PARAMETERS
 This structure is used to hold parameters for a transmit or receive queue when calling any of the queue routines.
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_PD_QUEUE_PARAMETERS {
-  NDIS_OBJECT_HEADER     Header;
-  ULONG                  Flags;
-  NDIS_PD_QUEUE_TYPE     QueueType;
-  ULONG                  QueueSize;
-  ULONG                  ReceiveDataLength;
-  GROUP_AFFINITY         Affinity;
-  ULONG                  UserPriority;
-  ULONG                  MaximumPartialBufferCount;
-  NDIS_PD_COUNTER_HANDLE CounterHandle;
-} NDIS_PD_QUEUE_PARAMETERS;
-````
-
-
 ## -struct-fields
 
 
@@ -77,7 +59,7 @@ typedef struct _NDIS_PD_QUEUE_PARAMETERS {
 
 ### -field Header
 
-The <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure for the <a href="..\ntddndis\ns-ntddndis-_ndis_pd_config.md">NDIS_PD_CONFIG</a> structure. Set the members of this structure as follows:
+The <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure for the <a href="https://msdn.microsoft.com/library/windows/hardware/dn931835">NDIS_PD_CONFIG</a> structure. Set the members of this structure as follows:
 
 <ul>
 <li><b>Type</b> = <b>NDIS_OBJECT_TYPE_DEFAULT</b></li>
@@ -92,17 +74,17 @@ This member is reserved and must be set to 0 by the provider.
 
 ### -field QueueType
 
-The type of the queue. For more information see, <a href="..\ndis\ne-ndis-ndis_pd_queue_type.md">NDIS_PD_QUEUE_TYPE</a>.
+The type of the queue. For more information see, <a href="https://msdn.microsoft.com/library/windows/hardware/dn931847">NDIS_PD_QUEUE_TYPE</a>.
 
 
 ### -field QueueSize
 
-The maximum amount of <a href="..\ndis\ns-ndis-_pd_buffer.md">PD_BUFFER</a> structures this queue can hold and is always equal to a number of the form (2^k)-1 (63, 127, 255, 511, 1023, etc.). This lends itself to efficient circular index arithmetic.
+The maximum amount of <a href="https://msdn.microsoft.com/library/windows/hardware/dn931863">PD_BUFFER</a> structures this queue can hold and is always equal to a number of the form (2^k)-1 (63, 127, 255, 511, 1023, etc.). This lends itself to efficient circular index arithmetic.
 
 
 ### -field ReceiveDataLength
 
-The minimum <a href="..\ndis\ns-ndis-_pd_buffer.md">PD_BUFFER</a> data length.
+The minimum <a href="https://msdn.microsoft.com/library/windows/hardware/dn931863">PD_BUFFER</a> data length.
 
 
 ### -field Affinity
@@ -118,11 +100,11 @@ The processor affinity is a hint to the provider for performance optimization. T
 
 ### -field MaximumPartialBufferCount
 
-For transmit queues, this is the maximum number of partial <a href="..\ndis\ns-ndis-_pd_buffer.md">PD_BUFFER</a> structures that the client is allowed to chain together to form a single L2 packet. This value must be equal to the MaximumTxPartialBufferCount value in the <a href="..\ntddndis\ns-ntddndis-_ndis_pd_capabilities.md">NDIS_PD_CAPABILITIES</a> structure.
+For transmit queues, this is the maximum number of partial <a href="https://msdn.microsoft.com/library/windows/hardware/dn931863">PD_BUFFER</a> structures that the client is allowed to chain together to form a single L2 packet. This value must be equal to the MaximumTxPartialBufferCount value in the <a href="https://msdn.microsoft.com/library/windows/hardware/dn931833">NDIS_PD_CAPABILITIES</a> structure.
 
-For receive queues, this is the maximum number of partial <a href="..\ndis\ns-ndis-_pd_buffer.md">PD_BUFFER</a> structures that the provider is allowed to chain together to form a single large L2 packet with RSC. This must be less than or equal to the MaximumRxPartialBufferCount value in the <a href="..\ntddndis\ns-ntddndis-_ndis_pd_capabilities.md">NDIS_PD_CAPABILITIES</a> structure.
+For receive queues, this is the maximum number of partial <a href="https://msdn.microsoft.com/library/windows/hardware/dn931863">PD_BUFFER</a> structures that the provider is allowed to chain together to form a single large L2 packet with RSC. This must be less than or equal to the MaximumRxPartialBufferCount value in the <a href="https://msdn.microsoft.com/library/windows/hardware/dn931833">NDIS_PD_CAPABILITIES</a> structure.
 
-<div class="alert"><b>Note</b>  The client never posts <a href="..\ndis\ns-ndis-_pd_buffer.md">PD_BUFFER</a> structures with the partial flag to the receive queue. The client is always required to post <b>PD_BUFFER</b> structures with at least MTU-size space, starting from the data start position. The provider performs chaining only in the case of RSC. Some providers may not be able to support RSC chaining, these providers set a value of 1 to the MaximumRxPartialBufferCount member in the <a href="..\ntddndis\ns-ntddndis-_ndis_pd_capabilities.md">NDIS_PD_CAPABILITIES</a> structure.</div>
+<div class="alert"><b>Note</b>  The client never posts <a href="https://msdn.microsoft.com/library/windows/hardware/dn931863">PD_BUFFER</a> structures with the partial flag to the receive queue. The client is always required to post <b>PD_BUFFER</b> structures with at least MTU-size space, starting from the data start position. The provider performs chaining only in the case of RSC. Some providers may not be able to support RSC chaining, these providers set a value of 1 to the MaximumRxPartialBufferCount member in the <a href="https://msdn.microsoft.com/library/windows/hardware/dn931833">NDIS_PD_CAPABILITIES</a> structure.</div>
 <div> </div>
 
 ### -field CounterHandle
@@ -148,14 +130,14 @@ This structure must be aligned on an 8-byte boundary.
 
 ## -see-also
 
-<a href="..\ndis\ne-ndis-ndis_pd_queue_type.md">NDIS_PD_QUEUE_TYPE</a>
 
 
 
-<a href="..\ndis\nc-ndis-ndis_pd_allocate_queue.md">NdisPDAllocateQueue</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn931847">NDIS_PD_QUEUE_TYPE</a>
 
 
 
+<a href="https://msdn.microsoft.com/E9091C69-0E21-40CC-B3D3-1F770ABA0D47">NdisPDAllocateQueue</a>
  
 
  

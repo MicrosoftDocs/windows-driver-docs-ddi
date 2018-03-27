@@ -56,16 +56,6 @@ req.product: Windows 10 or later.
 The <b>VmbPacketAllocate</b> function allocates a packet from the channel's lookaside list.
 
 
-## -syntax
-
-
-````
-VMBPACKET VmbPacketAllocate(
-  _In_ VMBCHANNEL Channel
-);
-````
-
-
 ## -parameters
 
 
@@ -91,17 +81,17 @@ A handle for a channel.
 
 The default completion routine of a packet automatically releases the packet.
 If the packet is not sent or if the completion routine is changed, the
-client should call the <a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbpacketfree.md">VmbPacketFree</a> function to release the packet.
+client should call the <a href="https://msdn.microsoft.com/15688701-2385-4F17-A944-D398EEF3C277">VmbPacketFree</a> function to release the packet.
 
 
 
 
 ## -see-also
 
-<a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbpacketfree.md">VmbPacketFree</a>
 
 
 
+<a href="https://msdn.microsoft.com/15688701-2385-4F17-A944-D398EEF3C277">VmbPacketFree</a>
  
 
  

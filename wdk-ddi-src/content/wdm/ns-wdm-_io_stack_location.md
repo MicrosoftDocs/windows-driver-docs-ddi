@@ -7,7 +7,7 @@ old-location: kernel\io_stack_location.htm
 old-project: kernel
 ms.assetid: b339d6aa-71e1-4835-8ef2-a84594166bb1
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/1/2018
 ms.keywords: "*PIO_STACK_LOCATION, IO_STACK_LOCATION, IO_STACK_LOCATION structure [Kernel-Mode Driver Architecture], PIO_STACK_LOCATION, PIO_STACK_LOCATION structure pointer [Kernel-Mode Driver Architecture], _IO_STACK_LOCATION, kernel.io_stack_location, kstruct_b_8fcba8ca-d004-4800-87d1-d5c7714a494b.xml, wdm/IO_STACK_LOCATION, wdm/PIO_STACK_LOCATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,222 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>IO_STACK_LOCATION</b> structure defines an <a href="https://msdn.microsoft.com/62c8ee00-c7cb-4aa1-90ab-b8bedbd818ee">I/O stack location</a>, which is an entry in the I/O stack that is associated with each IRP. Each I/O stack location in an IRP has some common members and some request-type-specific members.
-
-
-## -syntax
-
-
-````
-typedef struct _IO_STACK_LOCATION {
-  UCHAR                  MajorFunction;
-  UCHAR                  MinorFunction;
-  UCHAR                  Flags;
-  UCHAR                  Control;
-  union {
-    struct {
-      PIO_SECURITY_CONTEXT      SecurityContext;
-      ULONG                     Options;
-      USHORT POINTER_ALIGNMENT  FileAttributes;
-      USHORT                    ShareAccess;
-      ULONG POINTER_ALIGNMENT   EaLength;
-    } Create;
-    struct {
-      PIO_SECURITY_CONTEXT          SecurityContext;
-      ULONG                         Options;
-      USHORT POINTER_ALIGNMENT      Reserved;
-      USHORT                        ShareAccess;
-      PNAMED_PIPE_CREATE_PARAMETERS Parameters;
-    } CreatePipe;
-    struct {
-      PIO_SECURITY_CONTEXT        SecurityContext;
-      ULONG                       Options;
-      USHORT POINTER_ALIGNMENT    Reserved;
-      USHORT                      ShareAccess;
-      PMAILSLOT_CREATE_PARAMETERS Parameters;
-    } CreateMailslot;
-    struct {
-      ULONG                   Length;
-      ULONG POINTER_ALIGNMENT Key;
-      LARGE_INTEGER           ByteOffset;
-    } Read;
-    struct {
-      ULONG                   Length;
-      ULONG POINTER_ALIGNMENT Key;
-      LARGE_INTEGER           ByteOffset;
-    } Write;
-    struct {
-      ULONG                   Length;
-      PUNICODE_STRING         FileName;
-      FILE_INFORMATION_CLASS  FileInformationClass;
-      ULONG POINTER_ALIGNMENT FileIndex;
-    } QueryDirectory;
-    struct {
-      ULONG                   Length;
-      ULONG POINTER_ALIGNMENT CompletionFilter;
-    } NotifyDirectory;
-    struct {
-      ULONG                                    Length;
-      FILE_INFORMATION_CLASS POINTER_ALIGNMENT FileInformationClass;
-    } QueryFile;
-    struct {
-      ULONG                                    Length;
-      FILE_INFORMATION_CLASS POINTER_ALIGNMENT FileInformationClass;
-      PFILE_OBJECT                             FileObject;
-      union {
-        struct {
-          BOOLEAN ReplaceIfExists;
-          BOOLEAN AdvanceOnly;
-        };
-        ULONG  ClusterCount;
-        HANDLE DeleteHandle;
-      };
-    } SetFile;
-    struct {
-      ULONG                   Length;
-      PVOID                   EaList;
-      ULONG                   EaListLength;
-      ULONG POINTER_ALIGNMENT EaIndex;
-    } QueryEa;
-    struct {
-      ULONG Length;
-    } SetEa;
-    struct {
-      ULONG                                  Length;
-      FS_INFORMATION_CLASS POINTER_ALIGNMENT FsInformationClass;
-    } QueryVolume;
-    struct {
-      ULONG                                  Length;
-      FS_INFORMATION_CLASS POINTER_ALIGNMENT FsInformationClass;
-    } SetVolume;
-    struct {
-      ULONG                   OutputBufferLength;
-      ULONG POINTER_ALIGNMENT InputBufferLength;
-      ULONG POINTER_ALIGNMENT FsControlCode;
-      PVOID                   Type3InputBuffer;
-    } FileSystemControl;
-    struct {
-      PLARGE_INTEGER          Length;
-      ULONG POINTER_ALIGNMENT Key;
-      LARGE_INTEGER           ByteOffset;
-    } LockControl;
-    struct {
-      ULONG                   OutputBufferLength;
-      ULONG POINTER_ALIGNMENT InputBufferLength;
-      ULONG POINTER_ALIGNMENT IoControlCode;
-      PVOID                   Type3InputBuffer;
-    } DeviceIoControl;
-    struct {
-      SECURITY_INFORMATION    SecurityInformation;
-      ULONG POINTER_ALIGNMENT Length;
-    } QuerySecurity;
-    struct {
-      SECURITY_INFORMATION SecurityInformation;
-      PSECURITY_DESCRIPTOR SecurityDescriptor;
-    } SetSecurity;
-    struct {
-      PVPB           Vpb;
-      PDEVICE_OBJECT DeviceObject;
-    } MountVolume;
-    struct {
-      PVPB           Vpb;
-      PDEVICE_OBJECT DeviceObject;
-    } VerifyVolume;
-    struct {
-      struct _SCSI_REQUEST_BLOCK  *Srb;
-    } Scsi;
-    struct {
-      ULONG                       Length;
-      PSID                        StartSid;
-      PFILE_GET_QUOTA_INFORMATION SidList;
-      ULONG                       SidListLength;
-    } QueryQuota;
-    struct {
-      ULONG Length;
-    } SetQuota;
-    struct {
-      DEVICE_RELATION_TYPE Type;
-    } QueryDeviceRelations;
-    struct {
-      const GUID *InterfaceType;
-      USHORT     Size;
-      USHORT     Version;
-      PINTERFACE Interface;
-      PVOID      InterfaceSpecificData;
-    } QueryInterface;
-    struct {
-      PDEVICE_CAPABILITIES Capabilities;
-    } DeviceCapabilities;
-    struct {
-      PIO_RESOURCE_REQUIREMENTS_LIST IoResourceRequirementList;
-    } FilterResourceRequirements;
-    struct {
-      ULONG                   WhichSpace;
-      PVOID                   Buffer;
-      ULONG                   Offset;
-      ULONG POINTER_ALIGNMENT Length;
-    } ReadWriteConfig;
-    struct {
-      BOOLEAN Lock;
-    } SetLock;
-    struct {
-      BUS_QUERY_ID_TYPE IdType;
-    } QueryId;
-    struct {
-      DEVICE_TEXT_TYPE       DeviceTextType;
-      LCID POINTER_ALIGNMENT LocaleId;
-    } QueryDeviceText;
-    struct {
-      BOOLEAN                                          InPath;
-      BOOLEAN                                          Reserved[3];
-      DEVICE_USAGE_NOTIFICATION_TYPE POINTER_ALIGNMENT Type;
-    } UsageNotification;
-    struct {
-      SYSTEM_POWER_STATE PowerState;
-    } WaitWake;
-    struct {
-      PPOWER_SEQUENCE PowerSequence;
-    } PowerSequence;
-#if (NTDDI_VERSION >= NTDDI_VISTA)
-    struct {
-      union {
-        ULONG                      SystemContext;
-        SYSTEM_POWER_STATE_CONTEXT SystemPowerStateContext;
-      };
-      POWER_STATE_TYPE POINTER_ALIGNMENT Type;
-      POWER_STATE POINTER_ALIGNMENT      State;
-      POWER_ACTION POINTER_ALIGNMENT     ShutdownType;
-    } Power;
-#else 
-    struct {
-      ULONG                              SystemContext;
-      POWER_STATE_TYPE POINTER_ALIGNMENT Type;
-      POWER_STATE POINTER_ALIGNMENT      State;
-      POWER_ACTION POINTER_ALIGNMENT     ShutdownType;
-    } Power;
-#endif 
-    struct {
-      PCM_RESOURCE_LIST AllocatedResources;
-      PCM_RESOURCE_LIST AllocatedResourcesTranslated;
-    } StartDevice;
-    struct {
-      ULONG_PTR ProviderId;
-      PVOID     DataPath;
-      ULONG     BufferSize;
-      PVOID     Buffer;
-    } WMI;
-    struct {
-      PVOID Argument1;
-      PVOID Argument2;
-      PVOID Argument3;
-      PVOID Argument4;
-    } Others;
-  } Parameters;
-  PDEVICE_OBJECT         DeviceObject;
-  PFILE_OBJECT           FileObject;
-  PIO_COMPLETION_ROUTINE CompletionRoutine;
-  PVOID                  Context;
-} IO_STACK_LOCATION, *PIO_STACK_LOCATION;
-````
 
 
 ## -struct-fields
@@ -1180,12 +964,12 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 ### -field DeviceObject
 
-A pointer to the driver-created <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a> structure representing the target physical, logical, or virtual device for which this driver is to handle the IRP.
+A pointer to the driver-created <a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a> structure representing the target physical, logical, or virtual device for which this driver is to handle the IRP.
 
 
 ### -field FileObject
 
-A pointer to a <a href="..\wdm\ns-wdm-_file_object.md">FILE_OBJECT</a> structure that represents the file object, if any, that is associated with <b>DeviceObject</b> pointer. 
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff545834">FILE_OBJECT</a> structure that represents the file object, if any, that is associated with <b>DeviceObject</b> pointer. 
 
 
 ### -field CompletionRoutine
@@ -1198,13 +982,13 @@ A pointer to a <a href="..\wdm\ns-wdm-_file_object.md">FILE_OBJECT</a> structure
 
 
 
-For each IRP, there is one <b>IO_STACK_LOCATION</b> structure for each driver in a <a href="https://msdn.microsoft.com/86688b5d-575d-42e1-9158-7ffba1aaf1d3">driver stack</a>. Each IRP's set of I/O stack locations is appended to the IRP, following the <a href="..\wdm\ns-wdm-_irp.md">IRP</a> structure.
+For each IRP, there is one <b>IO_STACK_LOCATION</b> structure for each driver in a <a href="https://msdn.microsoft.com/86688b5d-575d-42e1-9158-7ffba1aaf1d3">driver stack</a>. Each IRP's set of I/O stack locations is appended to the IRP, following the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550694">IRP</a> structure.
 
-Every higher-level driver is responsible for setting up the I/O stack location for the next-lower driver in each IRP. A driver must call <a href="..\wdm\nf-wdm-iogetcurrentirpstacklocation.md">IoGetCurrentIrpStackLocation</a> to get a pointer to its own stack location for each IRP. Higher-level drivers can call <a href="..\wdm\nf-wdm-iogetnextirpstacklocation.md">IoGetNextIrpStackLocation</a> to get a pointer to the next-lower driver's stack location.
+Every higher-level driver is responsible for setting up the I/O stack location for the next-lower driver in each IRP. A driver must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff549174">IoGetCurrentIrpStackLocation</a> to get a pointer to its own stack location for each IRP. Higher-level drivers can call <a href="https://msdn.microsoft.com/library/windows/hardware/ff549266">IoGetNextIrpStackLocation</a> to get a pointer to the next-lower driver's stack location.
 
-The higher-level driver must set up the stack location contents before calling <a href="..\wdm\nf-wdm-iocalldriver.md">IoCallDriver</a> to pass an IRP to the lower-level driver. If the driver will pass the input IRP on to the next lower-level driver, the dispatch routine should call <a href="https://msdn.microsoft.com/library/windows/hardware/ff550355">IoSkipCurrentIrpStackLocation</a> or <a href="..\wdm\nf-wdm-iocopycurrentirpstacklocationtonext.md">IoCopyCurrentIrpStackLocationToNext</a> to set up the I/O stack location of the next-lower driver.
+The higher-level driver must set up the stack location contents before calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff548336">IoCallDriver</a> to pass an IRP to the lower-level driver. If the driver will pass the input IRP on to the next lower-level driver, the dispatch routine should call <a href="https://msdn.microsoft.com/library/windows/hardware/ff550355">IoSkipCurrentIrpStackLocation</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff548387">IoCopyCurrentIrpStackLocationToNext</a> to set up the I/O stack location of the next-lower driver.
 
-A higher-level driver's call to <b>IoCallDriver</b> sets the <b>DeviceObject</b> member to the next-lower-level driver's target device object, in the I/O stack location of the lower driver. The I/O manager passes each higher-level driver's <a href="..\wdm\nc-wdm-io_completion_routine.md">IoCompletion</a> routine a pointer to its own device object when the <i>IoCompletion</i> routine is called on completion of the IRP.
+A higher-level driver's call to <b>IoCallDriver</b> sets the <b>DeviceObject</b> member to the next-lower-level driver's target device object, in the I/O stack location of the lower driver. The I/O manager passes each higher-level driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff548354">IoCompletion</a> routine a pointer to its own device object when the <i>IoCompletion</i> routine is called on completion of the IRP.
 
 If a higher-level driver allocates IRPs to make requests of its own, its <i>IoCompletion</i> routine is passed a <b>NULL</b> <b>DeviceObject</b> pointer if that driver neither allocates a stack location for itself nor sets up the <b>DeviceObject</b> pointer in its own stack location of the newly allocated IRP.
 
@@ -1215,45 +999,45 @@ In some cases, a higher-level driver layered over a mass-storage device driver i
 
 ## -see-also
 
-<a href="..\wudfwdm\ns-wudfwdm-_io_status_block.md">IO_STATUS_BLOCK</a>
 
 
 
-<a href="..\wdm\nf-wdm-iogetnextirpstacklocation.md">IoGetNextIrpStackLocation</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550671">IO_STATUS_BLOCK</a>
 
 
 
-<a href="..\wdm\nf-wdm-iocalldriver.md">IoCallDriver</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550694">IRP</a>
 
 
 
-<a href="..\wdm\nf-wdm-iocopycurrentirpstacklocationtonext.md">IoCopyCurrentIrpStackLocationToNext</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548336">IoCallDriver</a>
 
 
 
-<a href="..\wdm\nf-wdm-iosetcompletionroutine.md">IoSetCompletionRoutine</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548387">IoCopyCurrentIrpStackLocationToNext</a>
 
 
 
-<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549174">IoGetCurrentIrpStackLocation</a>
 
 
 
-<a href="..\wdm\nf-wdm-iosetnextirpstacklocation.md">IoSetNextIrpStackLocation</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549266">IoGetNextIrpStackLocation</a>
 
 
 
-<a href="..\wdm\nf-wdm-iogetcurrentirpstacklocation.md">IoGetCurrentIrpStackLocation</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549679">IoSetCompletionRoutine</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550321">IoSetNextIrpStackLocation</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550355">IoSkipCurrentIrpStackLocation</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IO_STACK_LOCATION structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IO_STACK_LOCATION structure%20 RELEASE:%20(3/1/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -55,18 +55,6 @@ PosCxMarkPosApp marks the open instance as associated or not associated with a p
 This optional method provides value if the driver implements multiple device interfaces. It helps to  identify which interface is currently in use.
 
 
-## -syntax
-
-
-````
-NTSTATUS PosCxMarkPosApp(
-  _In_ WDFDEVICE     device,
-  _In_ WDFFILEOBJECT fileObject,
-  _In_ BOOLEAN       isPosApp
-);
-````
-
-
 ## -parameters
 
 
@@ -79,7 +67,7 @@ A handle to a framework device object that represents the device.
 
 ### -param fileObject [in]
 
-A handle to a framework file object that identifies the caller, usually acquired with <a href="..\wdfrequest\nf-wdfrequest-wdfrequestgetfileobject.md">WdfRequestGetFileObject</a>.
+A handle to a framework file object that identifies the caller, usually acquired with <a href="https://msdn.microsoft.com/library/windows/hardware/ff549963">WdfRequestGetFileObject</a>.
 
 
 ### -param isPosApp [in]

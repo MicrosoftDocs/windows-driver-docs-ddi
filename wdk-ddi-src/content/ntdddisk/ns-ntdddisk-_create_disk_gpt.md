@@ -49,18 +49,7 @@ req.typenames: CREATE_DISK_GPT, *PCREATE_DISK_GPT
 ## -description
 
 
-The CREATE_DISK_GPT structure is used with the IOCTL <a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_create_disk.md">IOCTL_DISK_CREATE_DISK</a> to initialize a disk with an empty GPT partition table.
-
-
-## -syntax
-
-
-````
-typedef struct _CREATE_DISK_GPT {
-  GUID  DiskId;
-  ULONG MaxPartitionCount;
-} CREATE_DISK_GPT, *PCREATE_DISK_GPT;
-````
+The CREATE_DISK_GPT structure is used with the IOCTL <a href="https://msdn.microsoft.com/library/windows/hardware/ff559436">IOCTL_DISK_CREATE_DISK</a> to initialize a disk with an empty GPT partition table.
 
 
 ## -struct-fields
@@ -80,14 +69,14 @@ Specifies the maximum number of partitions allowed on the disk.
 
 ## -see-also
 
-<a href="..\ntdddisk\ns-ntdddisk-_create_disk.md">CREATE_DISK</a>
 
 
 
-<a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_create_disk.md">IOCTL_DISK_CREATE_DISK</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552484">CREATE_DISK</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559436">IOCTL_DISK_CREATE_DISK</a>
  
 
  

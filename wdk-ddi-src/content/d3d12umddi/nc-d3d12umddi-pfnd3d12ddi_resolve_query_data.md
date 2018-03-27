@@ -52,37 +52,18 @@ req.typenames: D3D11_1DDI_GETCAPTUREHANDLEDATA
 The <i>pfnResolveQueryData</i> callback function transforms a previously stored query into an API defined format.
 
 
-## -prototype
-
-
-````
-PFND3D12DDI_RESOLVE_QUERY_DATA pfnResolveQueryData;
-
-VOID APIENTRY* pfnResolveQueryData(
-   D3D12DDI_HCOMMANDLIST hCommandList,
-   D3D12DDI_HQUERYHEAP   hQueryHeap,
-   D3D12DDI_QUERY_TYPE   QueryType,
-   UINT                  StartElement,
-   UINT                  ElementCount,
-   D3D12DDI_HRESOURCE    hDrvDestinationBuffer,
-   UINT64                DestinationOffset
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
 
 
-### -param D3D12DDI_HCOMMANDLIST
+### -param Arg1
 
 
-### -param D3D12DDI_HQUERYHEAP
+### -param Arg2
 
 
-### -param D3D12DDI_QUERY_TYPE
+### -param Arg3
 
 
 ### -param StartElement

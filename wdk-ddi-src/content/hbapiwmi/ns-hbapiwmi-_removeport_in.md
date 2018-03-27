@@ -52,16 +52,6 @@ req.typenames: RemovePort_IN, *PRemovePort_IN
 The Remove_IN structure is used by a WMI client to deliver input parameter data to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff564011">RemovePort</a> WMI method.
 
 
-## -syntax
-
-
-````
-typedef struct _RemovePort_IN {
-  UCHAR PortWWN[8];
-} RemovePort_IN, *PRemovePort_IN;
-````
-
-
 ## -struct-fields
 
 
@@ -83,10 +73,10 @@ The WMI tool suite generates a declaration of the RemovePort_IN structure in <i>
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564011">RemovePort</a>
-
-
-
  
 
  

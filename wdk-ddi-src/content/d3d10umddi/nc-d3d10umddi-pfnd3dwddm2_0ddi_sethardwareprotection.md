@@ -52,21 +52,6 @@ req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 <b>SetHardwareProtection</b> allows the Desktop Window Manager (DWM) full-screen swap chain buffers to transfer between protected and non-protected states without having to be recreated.
 
 
-## -prototype
-
-
-````
-PFND3DWDDM2_0DDI_SETHARDWAREPROTECTION pfnSetHardwareProtection;
-
-VOID APIENTRY* pfnSetHardwareProtection(
-   D3D10DDI_HDEVICE   hDevice,
-   D3D10DDI_HRESOURCE hResource,
-   BOOL               Protected
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -74,12 +59,12 @@ VOID APIENTRY* pfnSetHardwareProtection(
 
 ### -param hDevice
 
-A handle to the display device (graphics context). The Direct3D runtime passed the user-mode driver this handle as the <b>hDevice</b> member of the <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createdevice.md">D3DDDIARG_CREATEDEVICE</a> structure at device creation.
+A handle to the display device (graphics context). The Direct3D runtime passed the user-mode driver this handle as the <b>hDevice</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff542931">D3DDDIARG_CREATEDEVICE</a> structure at device creation.
 
 
 ### -param hResource
 
-A handle to the resource object that was created through a call to the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createresource.md">CreateResource</a>DDI. 
+A handle to the resource object that was created through a call to the <a href="https://msdn.microsoft.com/5b74c989-1a62-4415-a19a-dd0ba2fcff83">CreateResource</a>DDI. 
 
 
 ### -param Protected
@@ -116,14 +101,14 @@ Destroying and re-creating the DWM swap chain buffers is a heavyweight operation
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createdevice.md">D3DDDIARG_CREATEDEVICE</a>
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createresource.md">CreateResource</a>
+<a href="https://msdn.microsoft.com/5b74c989-1a62-4415-a19a-dd0ba2fcff83">CreateResource</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542931">D3DDDIARG_CREATEDEVICE</a>
  
 
  

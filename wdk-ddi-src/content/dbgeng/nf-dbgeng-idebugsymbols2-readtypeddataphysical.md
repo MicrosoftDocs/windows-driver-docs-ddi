@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -52,21 +52,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>ReadTypedDataPhysical</b> method reads the value of a variable from the target computer's physical memory.
-
-
-## -syntax
-
-
-````
-HRESULT ReadTypedDataPhysical(
-  [in]            ULONG64 Offset,
-  [in]            ULONG64 Module,
-  [in]            ULONG   TypeId,
-  [out]           PVOID   Buffer,
-  [in]            ULONG   BufferSize,
-  [out, optional] PULONG  BytesRead
-);
-````
 
 
 ## -parameters
@@ -151,7 +136,7 @@ This method is only available in kernel mode debugging.
 
 The number of bytes this method attempts to read is the smaller of the size of the buffer and the size of the variable.
 
-This is a convenience method.  The same result can be obtained by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff549457">GetTypeSize</a> and <a href="..\wdbgexts\nf-wdbgexts-readphysical.md">ReadPhysical</a>.
+This is a convenience method.  The same result can be obtained by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff549457">GetTypeSize</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff554313">ReadPhysical</a>.
 
 For more information about types, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff558931">Types</a>.
 

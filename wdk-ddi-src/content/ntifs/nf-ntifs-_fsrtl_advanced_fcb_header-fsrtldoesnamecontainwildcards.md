@@ -52,16 +52,6 @@ req.typenames: TOKEN_TYPE
 The <b>FsRtlDoesNameContainWildCards</b> routine determines whether a Unicode string contains wildcard characters. 
 
 
-## -syntax
-
-
-````
-BOOLEAN FsRtlDoesNameContainWildCards(
-  _In_ PUNICODE_STRING Name
-);
-````
-
-
 ## -parameters
 
 
@@ -94,10 +84,10 @@ For information about other string-handling routines, see <a href="https://msdn.
 
 ## -see-also
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a>
  
 
  

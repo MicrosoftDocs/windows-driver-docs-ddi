@@ -52,17 +52,6 @@ req.typenames: KSNODE_CREATE, *PKSNODE_CREATE
 The KSNODE_CREATE structure describes the set of information used to create the node handle.
 
 
-## -syntax
-
-
-````
-typedef struct {
-  ULONG CreateFlags;
-  ULONG Node;
-} KSNODE_CREATE, *PKSNODE_CREATE;
-````
-
-
 ## -struct-fields
 
 
@@ -80,10 +69,10 @@ Indicates what node a handle should be created for. This refers to the node iden
 
 ## -see-also
 
-<a href="..\ks\nf-ks-kscreatetopologynode.md">KsCreateTopologyNode</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561653">KsCreateTopologyNode</a>
  
 
  

@@ -52,20 +52,6 @@ req.typenames: DXGK_PTE
 <b>pfnReclaimAllocations3Cb</b> is called by the user mode driver   to reclaim video memory allocations that were previously offered  for reuse.
 
 
-## -prototype
-
-
-````
-PFND3DDDI_RECLAIMALLOCATIONS3CB pfnReclaimAllocations3Cb;
-
-_Check_return_ HRESULT CALLBACK pfnReclaimAllocations3Cb(
-  _In_    HANDLE                       hDevice,
-  _Inout_ D3DDDICB_RECLAIMALLOCATIONS3 *pData
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -145,18 +131,18 @@ The video memory manager or display miniport driver could not complete the opera
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt761970">D3DDDICB_RECLAIMALLOCATIONS3</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544512">D3DDDI_DEVICECALLBACKS</a>
+
+
+
 <a href="https://msdn.microsoft.com/AF3DCD16-9F8C-442A-A9A5-9EA2BD1C3B84">pfnReclaimResources</a>
-
-
-
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicecallbacks.md">D3DDDI_DEVICECALLBACKS</a>
-
-
-
  
 
  

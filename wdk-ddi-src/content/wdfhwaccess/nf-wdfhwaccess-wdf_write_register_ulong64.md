@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -53,18 +53,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Applies to UMDF only]
 
 The <b>WDF_WRITE_REGISTER_ULONG64</b> function writes a ULONG64 value to the specified address.
-
-
-## -syntax
-
-
-````
-void WDF_WRITE_REGISTER_ULONG64(
-  _In_ WDFDEVICE Device,
-  _In_ PULONG64  Register,
-  _In_ ULONG     Value
-);
-````
 
 
 ## -parameters

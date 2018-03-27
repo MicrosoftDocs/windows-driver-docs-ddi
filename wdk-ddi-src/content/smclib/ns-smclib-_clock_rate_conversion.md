@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: Any level (See Remarks section)
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -51,17 +51,6 @@ req.product: Windows 10 or later.
 
 
 The CLOCK_RATE_CONVERSION structure holds a value that determines the duration of a bit of data and the corresponding maximum operating frequency that accompanies the indicated bit length. 
-
-
-## -syntax
-
-
-````
-typedef struct _CLOCK_RATE_CONVERSION {
-  const ULONG F;
-  const ULONG fs;
-} CLOCK_RATE_CONVERSION, *PCLOCK_RATE_CONVERSION;
-````
 
 
 ## -struct-fields

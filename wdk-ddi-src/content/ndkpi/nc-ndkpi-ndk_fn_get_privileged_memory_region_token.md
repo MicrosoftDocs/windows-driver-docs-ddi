@@ -52,20 +52,6 @@ req.typenames: NDIS_WWAN_VISIBLE_PROVIDERS, *PNDIS_WWAN_VISIBLE_PROVIDERS
 The <i>NdkGetPrivilegedMemoryRegionToken</i> (<i>NDK_FN_GET_PRIVILEGED_MEMORY_REGION_TOKEN</i>) function gets an NDK privileged  memory region token.
 
 
-## -prototype
-
-
-````
-NDK_FN_GET_PRIVILEGED_MEMORY_REGION_TOKEN NdkGetPrivilegedMemoryRegionToken;
-
-VOID NdkGetPrivilegedMemoryRegionToken(
-  _In_  NDK_PD *pNdkPd,
-  _Out_ UINT32 *pToken
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -73,7 +59,7 @@ VOID NdkGetPrivilegedMemoryRegionToken(
 
 ### -param *pNdkPd [in]
 
-A pointer to an NDK protection domain (PD) object (<a href="..\ndkpi\ns-ndkpi-_ndk_pd.md">NDK_PD</a>).
+A pointer to an NDK protection domain (PD) object (<a href="https://msdn.microsoft.com/library/windows/hardware/hh439931">NDK_PD</a>).
 
 
 ### -param *pToken [out]
@@ -101,10 +87,10 @@ None
 
 ## -see-also
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_pd.md">NDK_PD</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439931">NDK_PD</a>
  
 
  

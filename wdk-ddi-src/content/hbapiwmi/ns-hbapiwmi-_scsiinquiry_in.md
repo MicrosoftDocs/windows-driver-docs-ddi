@@ -52,19 +52,6 @@ req.typenames: ScsiInquiry_IN, *PScsiInquiry_IN
 The ScsiInquiry_IN structure is used by a miniport driver to deliver input parameter data to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff564585">ScsiInquiry</a> WMI method. 
 
 
-## -syntax
-
-
-````
-typedef struct _ScsiInquiry_IN {
-  UCHAR     Cdb[6];
-  UCHAR     HbaPortWWN[8];
-  UCHAR     DiscoveredPortWWN[8];
-  ULONGLONG FcLun;
-} ScsiInquiry_IN, *PScsiInquiry_IN;
-````
-
-
 ## -struct-fields
 
 
@@ -101,10 +88,10 @@ The WMI tool suite generates a declaration of the ScsiInquiry_IN structure in <i
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564585">ScsiInquiry</a>
-
-
-
  
 
  

@@ -52,18 +52,6 @@ req.typenames: D3DDDIARG_CRYPTOSESSIONKEYEXCHANGE
 The D3DDDIARG_CRYPTOSESSIONKEYEXCHANGE structure describes a buffer that contains the session key, which is used for encryption. 
 
 
-## -syntax
-
-
-````
-typedef struct _D3DDDIARG_CRYPTOSESSIONKEYEXCHANGE {
-  HANDLE hCryptoSession;
-  UINT   DataSize;
-  VOID   *pData;
-} D3DDDIARG_CRYPTOSESSIONKEYEXCHANGE;
-````
-
-
 ## -struct-fields
 
 
@@ -71,7 +59,7 @@ typedef struct _D3DDDIARG_CRYPTOSESSIONKEYEXCHANGE {
 
 ### -field hCryptoSession
 
-[in] A handle to the encryption session that is the runtime creates when the runtime calls the driver's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createcryptosession.md">CreateCryptoSession</a> function. 
+[in] A handle to the encryption session that is the runtime creates when the runtime calls the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/hh451619">CreateCryptoSession</a> function. 
 
 
 ### -field DataSize
@@ -86,10 +74,10 @@ typedef struct _D3DDDIARG_CRYPTOSESSIONKEYEXCHANGE {
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createcryptosession.md">CreateCryptoSession</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451619">CreateCryptoSession</a>
  
 
  

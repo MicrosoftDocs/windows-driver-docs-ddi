@@ -52,18 +52,6 @@ req.typenames: DXGK_PRESENTMULTIPLANEOVERLAYINFO
 Specifies info on a VidPN input and an overlay plane to display.
 
 
-## -syntax
-
-
-````
-typedef struct _DXGK_PRESENTMULTIPLANEOVERLAYINFO {
-  D3DDDI_VIDEO_PRESENT_SOURCE_ID    VidPnSourceId;
-  UINT                              PlaneListCount;
-  DXGK_PRESENTMULTIPLANEOVERLAYLIST *pPlaneList;
-} DXGK_PRESENTMULTIPLANEOVERLAYINFO;
-````
-
-
 ## -struct-fields
 
 
@@ -81,15 +69,15 @@ typedef struct _DXGK_PRESENTMULTIPLANEOVERLAYINFO {
 
 ### -field pPlaneList
 
-[in] A pointer to a structure of type <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_presentmultiplaneoverlaylist.md">DXGK_PRESENTMULTIPLANEOVERLAYLIST</a> that describes the overlay plane to display.
+[in] A pointer to a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/hh780312">DXGK_PRESENTMULTIPLANEOVERLAYLIST</a> that describes the overlay plane to display.
 
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_presentmultiplaneoverlaylist.md">DXGK_PRESENTMULTIPLANEOVERLAYLIST</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh780312">DXGK_PRESENTMULTIPLANEOVERLAYLIST</a>
  
 
  

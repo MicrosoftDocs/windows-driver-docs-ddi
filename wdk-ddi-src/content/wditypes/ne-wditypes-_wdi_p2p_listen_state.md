@@ -53,19 +53,6 @@ req.product: Windows 10 or later.
 The WDI_P2P_LISTEN_STATE enumeration defines the Wi-Fi Direct listen states.
 
 
-## -syntax
-
-
-````
-typedef enum _WDI_P2P_LISTEN_STATE { 
-  WDI_P2P_LISTEN_STATE_OFF                     = 0,
-  WDI_P2P_LISTEN_STATE_PASSIVE_AVAILABILITY    = 8,
-  WDI_P2P_LISTEN_STATE_AUTOMATIC_AVAILABILITY  = 16,
-  WDI_P2P_LISTEN_STATE_HIGH_AVAILABILITY       = 24
-} WDI_P2P_LISTEN_STATE;
-````
-
-
 ## -enum-fields
 
 

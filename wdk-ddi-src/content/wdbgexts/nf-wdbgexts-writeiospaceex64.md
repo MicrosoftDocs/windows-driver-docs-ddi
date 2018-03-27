@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -50,22 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The <b>WriteIoSpaceEx64</b> function is an extended version of <a href="..\wdbgexts\nf-wdbgexts-writeiospace64.md">WriteIoSpace64</a>. It can write to either a system I/O location or an I/O location on a bus. <b>WriteIoSpace64</b> works like <b>WriteIoSpaceEx64</b>, except that it defaults <i>interfacetype</i> to ISA, <i>busnumber</i> to zero, and <i>addressspace</i> to 1.
-
-
-## -syntax
-
-
-````
-VOID  WriteIoSpaceEx64(
-   ULONG64 address,
-   ULONG   data,
-   PULONG  size,
-   ULONG   interfacetype,
-   ULONG   busnumber,
-   ULONG   addressspace
-);
-````
+The <b>WriteIoSpaceEx64</b> function is an extended version of <a href="https://msdn.microsoft.com/library/windows/hardware/ff561408">WriteIoSpace64</a>. It can write to either a system I/O location or an I/O location on a bus. <b>WriteIoSpace64</b> works like <b>WriteIoSpaceEx64</b>, except that it defaults <i>interfacetype</i> to ISA, <i>busnumber</i> to zero, and <i>addressspace</i> to 1.
 
 
 ## -parameters
@@ -116,7 +101,7 @@ None
 
 
 
-If you are writing 32-bit code, you should use <a href="..\wdbgexts\nf-wdbgexts-writeiospaceex.md">WriteIoSpaceEx</a> instead. See <a href="https://msdn.microsoft.com/library/windows/hardware/ff537780">32-Bit Pointers and 64-Bit Pointers</a> for details.
+If you are writing 32-bit code, you should use <a href="https://msdn.microsoft.com/library/windows/hardware/ff561413">WriteIoSpaceEx</a> instead. See <a href="https://msdn.microsoft.com/library/windows/hardware/ff537780">32-Bit Pointers and 64-Bit Pointers</a> for details.
 
 For a WdbgExts extension, include wdbgexts.h. For a DbgEng extension, include wdbgexts.h before dbgeng.h. See <a href="https://msdn.microsoft.com/library/windows/hardware/ff561480">Writing DbgEng Extension Code</a> for details.
 

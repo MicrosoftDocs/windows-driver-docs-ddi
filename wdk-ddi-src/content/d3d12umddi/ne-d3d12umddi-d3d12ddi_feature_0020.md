@@ -52,16 +52,6 @@ req.typenames: D3D12DDI_FEATURE_0020
 Contains available features.
 
 
-## -syntax
-
-
-````
-typedef enum _D3D12DDI_FEATURE_0020 { 
-  D3D12DDI_FEATURE_0020_VIDEO  = 2
-} D3D12DDI_FEATURE_0020;
-````
-
-
 ## -enum-fields
 
 

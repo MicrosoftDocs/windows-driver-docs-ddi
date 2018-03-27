@@ -49,25 +49,7 @@ req.typenames: CDROM_WRITE_SPEED_DESCRIPTOR, *PCDROM_WRITE_SPEED_DESCRIPTOR
 ## -description
 
 
-The <b>CDROM_WRITE_SPEED_DESCRIPTOR</b> structure is returned for the <a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_get_performance.md">IOCTL_CDROM_GET_PERFORMANCE</a> IOCTL when the request type is <b>CdromWriteSpeedRequest</b>. The IOCTL returns the  <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_performance_header.md">CDROM_PERFORMANCE_HEADER</a> followed by one or more descriptors of type <b>CDROM_WRITE_SPEED_DESCRIPTOR</b>.
-
-
-## -syntax
-
-
-````
-typedef struct _CDROM_WRITE_SPEED_DESCRIPTOR {
-  UCHAR MixedReadWrite  :1;
-  UCHAR  Exact  :1;
-  UCHAR  Reserved1  :1;
-  UCHAR   WriteRotationControl  :2;
-  UCHAR    Reserved2  :3;
-  UCHAR   Reserved3[3];
-  UCHAR EndLba[4];
-  UCHAR   ReadSpeed[4];
-  UCHAR  WriteSpeed[4];
-} CDROM_WRITE_SPEED_DESCRIPTOR, *PCDROM_WRITE_SPEED_DESCRIPTOR;
-````
+The <b>CDROM_WRITE_SPEED_DESCRIPTOR</b> structure is returned for the <a href="https://msdn.microsoft.com/library/windows/hardware/gg441242">IOCTL_CDROM_GET_PERFORMANCE</a> IOCTL when the request type is <b>CdromWriteSpeedRequest</b>. The IOCTL returns the  <a href="https://msdn.microsoft.com/library/windows/hardware/gg441232">CDROM_PERFORMANCE_HEADER</a> followed by one or more descriptors of type <b>CDROM_WRITE_SPEED_DESCRIPTOR</b>.
 
 
 ## -struct-fields
@@ -78,7 +60,7 @@ typedef struct _CDROM_WRITE_SPEED_DESCRIPTOR {
 ### -field MixedReadWrite
 
 The MixedReadWrite (MRW) field corresponds to the MRW bit of the Write Speed Descriptor in the MultiMedia Command Set - 6 (MMC-6)
-specification. This field indicates that it is suitable for a mixture of streaming read and write requests (overwrite mode). The <a href="..\ntddcdrm\ne-ntddcdrm-_streaming_control_request_type.md">STREAMING_CONTROL_REQUEST_TYPE</a>   enumeration specifies the type of request.
+specification. This field indicates that it is suitable for a mixture of streaming read and write requests (overwrite mode). The <a href="https://msdn.microsoft.com/library/windows/hardware/gg441244">STREAMING_CONTROL_REQUEST_TYPE</a>   enumeration specifies the type of request.
 
 
 ### -field Exact
@@ -134,14 +116,14 @@ specification for the Write Speed Descriptor.
 
 ## -see-also
 
-<a href="..\ntddcdrm\ne-ntddcdrm-_streaming_control_request_type.md">STREAMING_CONTROL_REQUEST_TYPE</a>
 
 
 
-<a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_get_performance.md">IOCTL_CDROM_GET_PERFORMANCE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/gg441242">IOCTL_CDROM_GET_PERFORMANCE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/gg441244">STREAMING_CONTROL_REQUEST_TYPE</a>
  
 
  

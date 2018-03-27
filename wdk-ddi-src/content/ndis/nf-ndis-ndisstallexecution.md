@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: ndis.h
+req.lib: 
 req.dll: 
 req.irql: Any level
 topic_type:
@@ -51,16 +51,6 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 
 The 
   <b>NdisStallExecution</b> function stalls the caller on the current processor for a given interval.
-
-
-## -syntax
-
-
-````
-VOID NdisStallExecution(
-  [in] UINT MicrosecondsToStall
-);
-````
 
 
 ## -parameters
@@ -94,7 +84,7 @@ This function should be called by drivers that must wait for an interval of more
     microseconds that they specify.
 
 If a driver must wait for an interval longer than 50 microseconds, it should call the 
-    <a href="..\ndis\nf-ndis-ndismsleep.md">NdisMSleep</a> function. Note that callers of 
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff563677">NdisMSleep</a> function. Note that callers of 
     <b>NdisMSleep</b> run at IRQL &lt; DISPATCH_LEVEL.
 
 
@@ -102,22 +92,22 @@ If a driver must wait for an interval longer than 50 microseconds, it should cal
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndismsleep.md">NdisMSleep</a>
+<a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a>
 
 
 
-<a href="..\ndis\nc-ndis-miniport_reset.md">MiniportResetEx</a>
+<a href="https://msdn.microsoft.com/15f82163-a1b5-4cef-a53e-8a97adb2cd92">MiniportResetEx</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndissettimerobject.md">NdisSetTimerObject</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563677">NdisMSleep</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564563">NdisSetTimerObject</a>
  
 
  

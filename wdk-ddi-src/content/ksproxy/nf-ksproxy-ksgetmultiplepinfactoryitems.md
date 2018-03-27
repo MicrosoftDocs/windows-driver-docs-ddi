@@ -53,19 +53,6 @@ req.typenames: PIPE_STATE
 The <b>KsGetMultiplePinFactoryItems</b> function retrieves pin property items in a variable length data buffer. 
 
 
-## -syntax
-
-
-````
-HRESULT KsGetMultiplePinFactoryItems(
-  _In_  HANDLE FilterHandle,
-  _In_  ULONG  PinFactoryId,
-  _In_  ULONG  PropertyId,
-  _Out_ PVOID  *Items
-);
-````
-
-
 ## -parameters
 
 
@@ -113,7 +100,10 @@ For more information about <b>CoTaskMemFree</b>, see the Microsoft Windows SDK d
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ksp_pin.md">KSP_PIN</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559910">IKsPinFactory</a>
 
 
 
@@ -121,14 +111,11 @@ For more information about <b>CoTaskMemFree</b>, see the Microsoft Windows SDK d
 
 
 
-<a href="..\ksproxy\nn-ksproxy-ikspinfactory.md">IKsPinFactory</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566584">KSPROPSETID_Pin</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566722">KSP_PIN</a>
  
 
  

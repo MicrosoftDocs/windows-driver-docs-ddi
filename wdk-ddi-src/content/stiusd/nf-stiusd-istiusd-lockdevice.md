@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: stiusd.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,14 +51,6 @@ req.product: Windows 10 or later.
 
 
 A still image minidriver's <b>IStiUSD::LockDevice</b> method locks a device for exclusive use by the caller.
-
-
-## -syntax
-
-
-````
-STDMETHODIMP LockDevice();
-````
 
 
 ## -parameters
@@ -88,7 +80,6 @@ If you are writing a driver for a device connected to a serial port, you might w
 
 ## -see-also
 
-<a href="..\stiusd\nn-stiusd-istiusd.md">IStiUSD</a>
 
 
 
@@ -96,6 +87,7 @@ If you are writing a driver for a device connected to a serial port, you might w
 
 
 
+<a href="https://msdn.microsoft.com/62740263-5bbb-48e1-be3d-9ee9cb37d6b9">IStiUSD</a>
  
 
  

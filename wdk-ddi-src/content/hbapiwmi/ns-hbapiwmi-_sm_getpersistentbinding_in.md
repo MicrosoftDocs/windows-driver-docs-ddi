@@ -52,18 +52,6 @@ req.typenames: SM_GetPersistentBinding_IN, *PSM_GetPersistentBinding_IN
 The SM_GetPersistentBinding_IN structure is used to provide input parameters to the SM_GetPersistentBinding method.
 
 
-## -syntax
-
-
-````
-typedef struct _SM_GetPersistentBinding_IN {
-  UCHAR HbaPortWWN[8];
-  UCHAR DomainPortWWN[8];
-  ULONG InEntryCount;
-} SM_GetPersistentBinding_IN, *PSM_GetPersistentBinding_IN;
-````
-
-
 ## -struct-fields
 
 

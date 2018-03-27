@@ -52,18 +52,6 @@ req.typenames: DXVAHDDDI_DEVICE_USAGE
 The DXVAHDDDI_DEVICE_USAGE enumeration contains values that identify how the decode device plays video. 
 
 
-## -syntax
-
-
-````
-typedef enum _DXVAHDDDI_DEVICE_USAGE { 
-  DXVAHDDDI_DEVICE_USAGE_PLAYBACK_NORMAL  = 0,
-  DXVAHDDDI_DEVICE_USAGE_OPTIMAL_SPEED    = 1,
-  DXVAHDDDI_DEVICE_USAGE_OPTIMAL_QUALITY  = 2
-} DXVAHDDDI_DEVICE_USAGE;
-````
-
-
 ## -enum-fields
 
 
@@ -88,17 +76,17 @@ A value that specifies that the device plays video at optimal quality.
 
 
 
-A DXVAHDDDI_DEVICE_USAGE-typed value is specified in the <b>Usage</b> member of a <a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_device_desc.md">DXVAHDDDI_DEVICE_DESC</a> structure to help describe a decode device.
+A DXVAHDDDI_DEVICE_USAGE-typed value is specified in the <b>Usage</b> member of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff563048">DXVAHDDDI_DEVICE_DESC</a> structure to help describe a decode device.
 
 
 
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_device_desc.md">DXVAHDDDI_DEVICE_DESC</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563048">DXVAHDDDI_DEVICE_DESC</a>
  
 
  

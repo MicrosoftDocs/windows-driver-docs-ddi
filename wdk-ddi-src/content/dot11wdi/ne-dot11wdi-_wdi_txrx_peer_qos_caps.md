@@ -52,18 +52,6 @@ req.typenames: WDI_TXRX_PEER_QOS_CAPS
 The WDI_TXRX_PEER_QOS_CAPS enumeration defines the Quality of Service (QoS) capabilities.
 
 
-## -syntax
-
-
-````
-typedef enum _WDI_TXRX_PEER_QOS_CAPS { 
-  WDI_TXRX_PeerCfgQosNone       = 0,
-  WDI_TXRX_PeerCfgQosCapable    = 1,
-  WDI_TXRX_PeerCfgQosUapsdTids  = 2
-} WDI_TXRX_PEER_QOS_CAPS;
-````
-
-
 ## -enum-fields
 
 

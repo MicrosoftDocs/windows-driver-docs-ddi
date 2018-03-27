@@ -52,19 +52,6 @@ req.typenames: DXGK_DISPLAYPANELORIENTATION
 Enum used to express the orientation of an integrated panel.
 
 
-## -syntax
-
-
-````
-typedef enum _DXGK_DISPLAYPANELORIENTATION { 
-  DXGK_DPO_0    = 0,
-  DXGK_DPO_90   = 1,
-  DXGK_DPO_180  = 2,
-  DXGK_DPO_270  = 3
-} DXGK_DISPLAYPANELORIENTATION;
-````
-
-
 ## -enum-fields
 
 

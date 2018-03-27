@@ -52,19 +52,6 @@ req.typenames: D3DKMDT_STANDARDALLOCATION_TYPE
 The D3DKMDT_STANDARDALLOCATION_TYPE enumeration type contains values that identify particular types of surfaces.
 
 
-## -syntax
-
-
-````
-typedef enum _D3DKMDT_STANDARDALLOCATION_TYPE { 
-  D3DKMDT_STANDARDALLOCATION_SHAREDPRIMARYSURFACE  = 1,
-  D3DKMDT_STANDARDALLOCATION_SHADOWSURFACE         = 2,
-  D3DKMDT_STANDARDALLOCATION_STAGINGSURFACE        = 3,
-  D3DKMDT_STANDARDALLOCATION_GDISURFACE            = 4
-} D3DKMDT_STANDARDALLOCATION_TYPE;
-````
-
-
 ## -enum-fields
 
 
@@ -99,26 +86,26 @@ This constant value is available beginning with Windows 7.
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_createallocation.md">DXGKARG_CREATEALLOCATION</a>
 
 
 
-<a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_sharedprimarysurfacedata.md">D3DKMDT_SHAREDPRIMARYSURFACEDATA</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546168">D3DKMDT_SHADOWSURFACEDATA</a>
 
 
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createallocation.md">DxgkDdiCreateAllocation</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546177">D3DKMDT_SHAREDPRIMARYSURFACEDATA</a>
 
 
 
-<a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_shadowsurfacedata.md">D3DKMDT_SHADOWSURFACEDATA</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546583">D3DKMDT_STAGINGSURFACEDATA</a>
 
 
 
-<a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_stagingsurfacedata.md">D3DKMDT_STAGINGSURFACEDATA</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557559">DXGKARG_CREATEALLOCATION</a>
 
 
 
+<a href="https://msdn.microsoft.com/a28287d6-4dfa-4db4-92df-bbcd9379a5b2">DxgkDdiCreateAllocation</a>
  
 
  

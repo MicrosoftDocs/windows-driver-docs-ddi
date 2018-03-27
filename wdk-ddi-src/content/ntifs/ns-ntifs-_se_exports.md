@@ -52,81 +52,6 @@ req.typenames: SE_EXPORTS, *PSE_EXPORTS
 The <b>SeExports</b> structure is a large external static SE_EXPORTS structure that defines a number of well-known security constants for privilege values and security identifiers.
 
 
-## -syntax
-
-
-````
-typedef struct _SE_EXPORTS {
-  LUID SeCreateTokenPrivilege;
-  LUID SeAssignPrimaryTokenPrivilege;
-  LUID SeLockMemoryPrivilege;
-  LUID SeIncreaseQuotaPrivilege;
-  LUID SeUnsolicitedInputPrivilege;
-  LUID SeTcbPrivilege;
-  LUID SeSecurityPrivilege;
-  LUID SeTakeOwnershipPrivilege;
-  LUID SeLoadDriverPrivilege;
-  LUID SeCreatePagefilePrivilege;
-  LUID SeIncreaseBasePriorityPrivilege;
-  LUID SeSystemProfilePrivilege;
-  LUID SeSystemtimePrivilege;
-  LUID SeProfileSingleProcessPrivilege;
-  LUID SeCreatePermanentPrivilege;
-  LUID SeBackupPrivilege;
-  LUID SeRestorePrivilege;
-  LUID SeShutdownPrivilege;
-  LUID SeDebugPrivilege;
-  LUID SeAuditPrivilege;
-  LUID SeSystemEnvironmentPrivilege;
-  LUID SeChangeNotifyPrivilege;
-  LUID SeRemoteShutdownPrivilege;
-  PSID SeNullSid;
-  PSID SeWorldSid;
-  PSID SeLocalSid;
-  PSID SeCreatorOwnerSid;
-  PSID SeCreatorGroupSid;
-  PSID SeNtAuthoritySid;
-  PSID SeDialupSid;
-  PSID SeNetworkSid;
-  PSID SeBatchSid;
-  PSID SeInteractiveSid;
-  PSID SeLocalSystemSid;
-  PSID SeAliasAdminsSid;
-  PSID SeAliasUsersSid;
-  PSID SeAliasGuestsSid;
-  PSID SeAliasPowerUsersSid;
-  PSID SeAliasAccountOpsSid;
-  PSID SeAliasSystemOpsSid;
-  PSID SeAliasPrintOpsSid;
-  PSID SeAliasBackupOpsSid;
-  PSID SeAuthenticatedUsersSid;
-  PSID SeRestrictedSid;
-  PSID SeAnonymousLogonSid;
-  LUID SeUndockPrivilege;
-  LUID SeSyncAgentPrivilege;
-  LUID SeEnableDelegationPrivilege;
-  PSID SeLocalServiceSid;
-  PSID SeNetworkServiceSid;
-  LUID SeManageVolumePrivilege;
-  LUID SeImpersonatePrivilege;
-  LUID SeCreateGlobalPrivilege;
-  LUID SeTrustedCredManAccessPrivilege;
-  LUID SeRelabelPrivilege;
-  LUID SeIncreaseWorkingSetPrivilege;
-  LUID SeTimeZonePrivilege;
-  LUID SeCreateSymbolicLinkPrivilege;
-  PSID SeIUserSid;
-  PSID SeUntrustedMandatorySid;
-  PSID SeLowMandatorySid;
-  PSID SeMediumMandatorySid;
-  PSID SeHighMandatorySid;
-  PSID SeSystemMandatorySid;
-  PSID SeOwnerRightsSid;
-  PSID SeAllAppPackagesSid;
-} SE_EXPORTS, *PSE_EXPORTS;
-````
-
-
 ## -struct-fields
 
 
@@ -768,14 +693,14 @@ The SID for a group that represents all application packages.
 
 ## -see-also
 
-<a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a>
 
 
 
-<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557080">LUID</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556740">SID</a>
  
 
  

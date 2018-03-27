@@ -56,17 +56,6 @@ req.product: Windows 10 or later.
 The <b>VmbChannelSetTransactionQuota</b> function sets the incoming packet quota. 
 
 
-## -syntax
-
-
-````
-VOID VmbChannelSetTransactionQuota(
-  _In_ VMBCHANNEL Channel,
-  _In_ UINT32     Quota
-);
-````
-
-
 ## -parameters
 
 

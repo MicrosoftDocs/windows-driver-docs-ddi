@@ -52,16 +52,6 @@ req.typenames: DXGK_TARGETMODE_DETAIL_TIMING
 Reserved for system use. Do not use in your driver.
 
 
-## -prototype
-
-
-````
-NTSTATUS APIENTRY D3DKMTCreateAllocation2(
-  _Inout_ D3DKMT_CREATEALLOCATION *pData
-);
-````
-
-
 ## -parameters
 
 

@@ -58,16 +58,6 @@ req.product: Windows 10 or later.
   The <b>WdfInterruptReportInactive</b> method informs the system that the interrupt is no longer active and the driver is not expecting interrupt requests on the associated lines.
 
 
-## -syntax
-
-
-````
-void WdfInterruptReportInactive(
-  _In_ WDFINTERRUPT Interrupt
-);
-````
-
-
 ## -parameters
 
 
@@ -102,7 +92,7 @@ If your driver calls this method on an operating system earlier than Windows 8,
 
 #### Examples
 
-The following example shows how a driver might call <b>WdfInterruptReportInactive</b> from the <a href="https://msdn.microsoft.com/library/windows/hardware/hh450931">ComponentIdleStateCallback</a> routine of a KMDF driver. The driver registers a single component by calling <a href="..\wdfdevice\nf-wdfdevice-wdfdevicewdmassignpowerframeworksettings.md">WdfDeviceWdmAssignPowerFrameworkSettings</a>.
+The following example shows how a driver might call <b>WdfInterruptReportInactive</b> from the <a href="https://msdn.microsoft.com/library/windows/hardware/hh450931">ComponentIdleStateCallback</a> routine of a KMDF driver. The driver registers a single component by calling <a href="https://msdn.microsoft.com/library/windows/hardware/hh451097">WdfDeviceWdmAssignPowerFrameworkSettings</a>.
 
 <div class="code"><span codelanguage=""><table>
 <tr>
@@ -162,10 +152,10 @@ MyComponentIdleStateCallback(
 
 ## -see-also
 
-<a href="..\wdfinterrupt\nf-wdfinterrupt-wdfinterruptreportactive.md">WdfInterruptReportActive</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439273">WdfInterruptReportActive</a>
  
 
  

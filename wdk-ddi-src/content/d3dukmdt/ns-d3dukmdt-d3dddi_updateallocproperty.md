@@ -52,30 +52,6 @@ req.typenames: D3DDDI_UPDATEALLOCPROPERTY
 D3DDDI_UPDATEALLOCPROPERTY describes the parameters needed to update an allocation.
 
 
-## -syntax
-
-
-````
-typedef struct D3DDDI_UPDATEALLOCPROPERTY {
-  D3DKMT_HANDLE                        hPagingQueue;
-  D3DKMT_HANDLE                        hAllocation;
-  UINT                                 SupportedSegmentSet;
-  DXGK_SEGMENTPREFERENCE               PreferredSegment;
-  D3DDDI_UPDATEALLOCPROPERTY_FLAGS     Flags;
-  UINT64                               PagingFenceValue;
-  union {
-    struct {
-      UINT SetAccessedPhysically   :1;
-      UINT SetSupportedSegmentSet   :1;
-      UINT SetPreferredSegment   :1;
-      UINT Reserved  :29;
-    };
-    UINT   PropertyMaskValue;
-  };
-} D3DDDI_UPDATEALLOCPROPERTY;
-````
-
-
 ## -struct-fields
 
 

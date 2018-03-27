@@ -52,16 +52,6 @@ req.typenames: KSPROPERTY_GENERAL
 
 
 
-## -syntax
-
-
-````
-typedef enum  { 
-  KSPROPERTY_GENERAL_COMPONENTID
-} KSPROPERTY_GENERAL;
-````
-
-
 ## -enum-fields
 
 

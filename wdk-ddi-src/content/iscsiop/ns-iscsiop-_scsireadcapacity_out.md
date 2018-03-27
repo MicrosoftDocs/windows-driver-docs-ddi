@@ -52,20 +52,6 @@ req.typenames: ScsiReadCapacity_OUT, *PScsiReadCapacity_OUT
 The ScsiReadCapacity_OUT structure holds the output data for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff564890">ScsiReadCapacity</a> method.
 
 
-## -syntax
-
-
-````
-typedef struct _ScsiReadCapacity_OUT {
-  ULONG Status;
-  ULONG ResponseBufferSize;
-  UCHAR ScsiStatus;
-  UCHAR SenseBuffer[18];
-  UCHAR ResponseBuffer[1];
-} ScsiReadCapacity_OUT, *PScsiReadCapacity_OUT;
-````
-
-
 ## -struct-fields
 
 
@@ -107,11 +93,6 @@ You must implement this method.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564890">ScsiReadCapacity</a>
-
-
-
-<a href="..\iscsiop\ns-iscsiop-_scsireadcapacity_in.md">ScsiReadCapacity_IN</a>
 
 
 
@@ -119,6 +100,11 @@ You must implement this method.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564890">ScsiReadCapacity</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564897">ScsiReadCapacity_IN</a>
  
 
  

@@ -55,17 +55,6 @@ req.typenames: IDE_POWER_STATE
 The <b>AtaPortDebugPrint</b> routine passes a message string to the kernel debugger for the debugger to print. 
 <div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
-## -syntax
-
-
-````
-VOID AtaPortDebugPrint(
-   ULONG  DebugPrintLevel,
-   PCCHAR DebugMessage
-);
-````
-
-
 ## -parameters
 
 

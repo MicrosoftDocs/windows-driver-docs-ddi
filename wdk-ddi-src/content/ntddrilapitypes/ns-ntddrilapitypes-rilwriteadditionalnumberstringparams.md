@@ -52,17 +52,6 @@ req.typenames: RILWRITEADDITIONALNUMBERSTRINGPARAMS, *LPRILWRITEADDITIONALNUMBER
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef struct _RILWRITEADDITIONALNUMBERSTRINGPARAMS {
-  HUICCAPP                            hUiccApp;
-  RILPHONEBOOKADDITIONALNUMBERSTRING  RilPBANS;
-} RILWRITEADDITIONALNUMBERSTRINGPARAMS, RILWRITEADDITIONALNUMBERSTRINGPARAMS;
-````
-
-
 ## -struct-fields
 
 

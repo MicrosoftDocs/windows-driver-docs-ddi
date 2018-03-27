@@ -53,43 +53,6 @@ req.typenames: NET_DMA_DESCRIPTOR, *PNET_DMA_DESCRIPTOR
   list of DMA descriptors.
 
 
-## -syntax
-
-
-````
-typedef struct _NET_DMA_DESCRIPTOR {
-  union {
-    ULONG  TransferSize;
-    struct {
-      ULONG DCAContext  :32;
-    } DCAContext32;
-    struct {
-      ULONG DCAContext  :16;
-      ULONG Reserved  :16;
-    } DCAContext16;
-    struct {
-      ULONG DCAContext  :8;
-      ULONG Reserved  :24;
-    } DCAContext8;
-  };
-  ULONG            ControlFlags;
-  PHYSICAL_ADDRESS SourceAddress;
-  PHYSICAL_ADDRESS DestinationAddress;
-  PHYSICAL_ADDRESS NextDescriptor;
-  union {
-    ULONG64          Reserved1;
-    PHYSICAL_ADDRESS NextSourceAddress;
-  };
-  union {
-    ULONG64          Reserved2;
-    PHYSICAL_ADDRESS NextDestinationAddress;
-  };
-  ULONG64          UserContext1;
-  ULONG64          UserContext2;
-} NET_DMA_DESCRIPTOR, *PNET_DMA_DESCRIPTOR;
-````
-
-
 ## -struct-fields
 
 
@@ -271,7 +234,7 @@ When this bit is cleared, the destination address is in coherent memory space, a
 The 
        <b>CompletionVirtualAddress</b> and 
        <b>CompletionPhysicalAddress</b> members in the 
-       <a href="..\netdma\ns-netdma-_net_dma_channel_parameters.md">
+       <a href="https://msdn.microsoft.com/0d09a9e9-06c5-4026-9053-ac74a59509cc">
        NET_DMA_CHANNEL_PARAMETERS</a> structure reference a completion status value. The DMA engine updates
        the completion status value when it completes the processing of this descriptor. 
        
@@ -443,7 +406,7 @@ The NET_DMA_DESCRIPTOR structure specifies the source, destination, and control 
 To start a DMA transfer, the NetDMA interface supplies the physical address of a NET_DMA_DESCRIPTOR
     structure at the 
     <i>DescriptorPhysicalAddress</i> parameter of the DMA provider driver's 
-    <a href="..\netdma\nc-netdma-dma_start_handler.md">ProviderStartDma</a> function. The 
+    <a href="https://msdn.microsoft.com/0926e8c4-f2ca-401f-abe8-76aec359a1e2">ProviderStartDma</a> function. The 
     <i>DescriptorVirtualAddress</i> parameter contains the virtual address of the descriptor.
 
 The 
@@ -451,7 +414,7 @@ The
     NET_DMA_DESCRIPTOR structure in the linked list of descriptors.
 
 The NetDMA interface calls a DMA provider driver's 
-    <a href="..\netdma\nc-netdma-dma_append_handler.md">ProviderAppendDma</a> function to append a
+    <a href="https://msdn.microsoft.com/51de8ddf-cbfc-4e49-b44a-207307a937e7">ProviderAppendDma</a> function to append a
     linked list of DMA descriptors after the last descriptor on a DMA channel.
 
 
@@ -459,18 +422,18 @@ The NetDMA interface calls a DMA provider driver's
 
 ## -see-also
 
-<a href="..\netdma\ns-netdma-_net_dma_channel_parameters.md">NET_DMA_CHANNEL_PARAMETERS</a>
 
 
 
-<a href="..\netdma\nc-netdma-dma_start_handler.md">ProviderStartDma</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568732">NET_DMA_CHANNEL_PARAMETERS</a>
 
 
 
-<a href="..\netdma\nc-netdma-dma_append_handler.md">ProviderAppendDma</a>
+<a href="https://msdn.microsoft.com/51de8ddf-cbfc-4e49-b44a-207307a937e7">ProviderAppendDma</a>
 
 
 
+<a href="https://msdn.microsoft.com/0926e8c4-f2ca-401f-abe8-76aec359a1e2">ProviderStartDma</a>
  
 
  

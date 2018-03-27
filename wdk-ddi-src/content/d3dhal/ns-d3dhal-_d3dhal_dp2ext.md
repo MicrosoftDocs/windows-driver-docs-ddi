@@ -52,17 +52,6 @@ req.typenames: D3DHAL_DP2EXT
 The D3DHAL_DP2EXT structure's use has yet to be defined.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DHAL_DP2EXT {
-  DWORD dwExtToken;
-  DWORD dwSize;
-} D3DHAL_DP2EXT, *LPD3DHAL_DP2EXT;
-````
-
-
 ## -struct-fields
 
 

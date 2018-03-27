@@ -49,18 +49,7 @@ req.typenames: D3D11_1DDIARG_CREATEAUTHENTICATEDCHANNEL
 ## -description
 
 
-Specifies the attributes of the authenticated channel to be created by the user-mode driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createauthenticatedchannel.md">CreateAuthenticatedChannel(D3D11_1)</a> function.
-
-
-## -syntax
-
-
-````
-typedef struct D3D11_1DDIARG_CREATEAUTHENTICATEDCHANNEL {
-  D3D11_1DDI_AUTHENTICATED_CHANNEL_TYPE ChannelType;
-  HANDLE                                hChannel;
-} D3D11_1DDIARG_CREATEAUTHENTICATEDCHANNEL;
-````
+Specifies the attributes of the authenticated channel to be created by the user-mode driver's <a href="https://msdn.microsoft.com/90b43bc3-6569-4799-8be3-e4e60f59164f">CreateAuthenticatedChannel(D3D11_1)</a> function.
 
 
 ## -struct-fields
@@ -70,7 +59,7 @@ typedef struct D3D11_1DDIARG_CREATEAUTHENTICATEDCHANNEL {
 
 ### -field ChannelType
 
-Specifies the type of channel, as a member of the <a href="..\d3d10umddi\ne-d3d10umddi-d3d11_1ddi_authenticated_channel_type.md">D3D11_1DDI_AUTHENTICATED_CHANNEL_TYPE</a> enumeration.
+Specifies the type of channel, as a member of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh406343">D3D11_1DDI_AUTHENTICATED_CHANNEL_TYPE</a> enumeration.
 
 
 ### -field hChannel
@@ -80,14 +69,14 @@ A handle to the authenticated channel object.
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createauthenticatedchannel.md">CreateAuthenticatedChannel(D3D11_1)</a>
 
 
 
-<a href="..\d3d10umddi\ne-d3d10umddi-d3d11_1ddi_authenticated_channel_type.md">D3D11_1DDI_AUTHENTICATED_CHANNEL_TYPE</a>
+<a href="https://msdn.microsoft.com/90b43bc3-6569-4799-8be3-e4e60f59164f">CreateAuthenticatedChannel(D3D11_1)</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406343">D3D11_1DDI_AUTHENTICATED_CHANNEL_TYPE</a>
  
 
  

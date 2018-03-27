@@ -52,24 +52,6 @@ req.typenames: DXGK_CREATEDEVICEFLAGS
 The DXGK_CREATEDEVICEFLAGS structure identifies how to create devices.
 
 
-## -syntax
-
-
-````
-typedef struct _DXGK_CREATEDEVICEFLAGS {
-  union {
-    struct {
-      UINT SystemDevice  :1;
-      UINT GdiDevice  :1;
-      UINT Reserved  :29;
-      UINT DXGK_DEVICE_RESERVED0  :1;
-    };
-    UINT Value;
-  };
-} DXGK_CREATEDEVICEFLAGS;
-````
-
-
 ## -struct-fields
 
 
@@ -77,14 +59,14 @@ typedef struct _DXGK_CREATEDEVICEFLAGS {
 
 ### -field SystemDevice
 
-A UINT value that specifies whether devices that the driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createdevice.md">DxgkDdiCreateDevice</a> function creates are system devices.
+A UINT value that specifies whether devices that the driver's <a href="https://msdn.microsoft.com/a7027735-0ec4-4fad-81fb-1c3aca4ebf2d">DxgkDdiCreateDevice</a> function creates are system devices.
 
 Setting this member is equivalent to setting the first bit of the 32-bit <b>Value</b> member (0x00000001).
 
 
 ### -field GdiDevice
 
-A UINT value that specifies whether the devices that the driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createdevice.md">DxgkDdiCreateDevice</a> function creates are GDI-specific devices.
+A UINT value that specifies whether the devices that the driver's <a href="https://msdn.microsoft.com/a7027735-0ec4-4fad-81fb-1c3aca4ebf2d">DxgkDdiCreateDevice</a> function creates are GDI-specific devices.
 
 Setting this member is equivalent to setting the second bit of the 32-bit Value member (0x00000002).
 
@@ -110,14 +92,14 @@ A member in the union that DXGK_CREATEDEVICEFLAGS contains that can hold a 32-bi
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_createdevice.md">DXGKARG_CREATEDEVICE</a>
 
 
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createdevice.md">DxgkDdiCreateDevice</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557570">DXGKARG_CREATEDEVICE</a>
 
 
 
+<a href="https://msdn.microsoft.com/a7027735-0ec4-4fad-81fb-1c3aca4ebf2d">DxgkDdiCreateDevice</a>
  
 
  

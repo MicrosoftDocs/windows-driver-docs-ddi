@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -54,18 +54,6 @@ req.product: Windows 10 or later.
 
 The <b>WDF_WRITE_PORT_UCHAR</b> function writes a byte to the specified port address.
 
-
-
-## -syntax
-
-
-````
-void WDF_WRITE_PORT_UCHAR(
-  _In_ WDFDEVICE Device,
-  _In_ PUCHAR    Port,
-  _In_ UCHAR     Value
-);
-````
 
 
 ## -parameters

@@ -55,18 +55,6 @@ The <b>FwpsvSwitchEventsUnsubscribe0</b> function releases resources that are as
 
 
 
-## -syntax
-
-
-````
-void NTAPI FwpsvSwitchEventsUnsubscribe0(
-   _In_ UINT32            subscriptionId,
-   _In_ _Reserved_ UINT32 flags,
-   _In_ _Reserved_ void   *reserved
-);
-````
-
-
 ## -parameters
 
 
@@ -74,7 +62,7 @@ void NTAPI FwpsvSwitchEventsUnsubscribe0(
 
 ### -param subscriptionId
 
-A unique event subscription identifier that the callout driver obtained by calling  the  <a href="..\fwpsk\nf-fwpsk-fwpsvswitcheventssubscribe0.md">FwpsvSwitchEventsSubscribe0</a> function.
+A unique event subscription identifier that the callout driver obtained by calling  the  <a href="https://msdn.microsoft.com/library/windows/hardware/hh439687">FwpsvSwitchEventsSubscribe0</a> function.
 
 
 
@@ -103,7 +91,7 @@ None.
 
 
 
-    A callout driver calls the <b>FwpsvSwitchEventsUnsubscribe0</b> function to unsubscribe to virtual switch notifications that the callout driver previously subscribed to  by calling the <a href="..\fwpsk\nf-fwpsk-fwpsvswitcheventssubscribe0.md">FwpsvSwitchEventsSubscribe0</a> function. 
+    A callout driver calls the <b>FwpsvSwitchEventsUnsubscribe0</b> function to unsubscribe to virtual switch notifications that the callout driver previously subscribed to  by calling the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439687">FwpsvSwitchEventsSubscribe0</a> function. 
 
 
    
@@ -113,10 +101,10 @@ None.
 
 ## -see-also
 
-<a href="..\fwpsk\nf-fwpsk-fwpsvswitcheventssubscribe0.md">FwpsvSwitchEventsSubscribe0</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439687">FwpsvSwitchEventsSubscribe0</a>
  
 
  

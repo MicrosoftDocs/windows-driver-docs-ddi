@@ -53,18 +53,6 @@ req.product: Windows 10 or later.
 The MEMORY_REGION structure describes a region of physically contiguous memory.
 
 
-## -syntax
-
-
-````
-typedef struct _MEMORY_REGION {
-  PUCHAR           VirtualBase;
-  PHYSICAL_ADDRESS PhysicalBase;
-  ULONG            Length;
-} MEMORY_REGION, *PMEMORY_REGION;
-````
-
-
 ## -struct-fields
 
 
@@ -89,17 +77,17 @@ The size, in bytes, of the memory region.
 
 
 
-The <b>DumpRegion</b> member of the <a href="..\strmini\ns-strmini-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a> structure holds a MEMORY_REGION structure that describes a region of physically contiguous memory that a miniport driver can use during a crash dump. 
+The <b>DumpRegion</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567785">PORT_CONFIGURATION_INFORMATION</a> structure holds a MEMORY_REGION structure that describes a region of physically contiguous memory that a miniport driver can use during a crash dump. 
 
 
 
 
 ## -see-also
 
-<a href="..\strmini\ns-strmini-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567785">PORT_CONFIGURATION_INFORMATION</a>
  
 
  

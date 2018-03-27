@@ -52,17 +52,6 @@ req.typenames: D3DKMT_MOVE_RECT
 Provides information on a screen-to-screen move and a dirty rectangle copy operation.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DKMT_MOVE_RECT {
-  POINT SourcePoint;
-  RECT  DestRect;
-} D3DKMT_MOVE_RECT;
-````
-
-
 ## -struct-fields
 
 
@@ -80,14 +69,14 @@ A <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">POINT</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
-
-
-
  
 
  

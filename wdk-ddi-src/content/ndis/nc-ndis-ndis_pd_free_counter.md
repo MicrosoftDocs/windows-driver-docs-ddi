@@ -56,19 +56,6 @@ The PacketDirect (PD) platform calls a PD-capable miniport driver's
 
 
 
-## -prototype
-
-
-````
-NDIS_PD_FREE_COUNTER NdisPDFreeCounter;
-
-void NdisPDFreeCounter(
-  _In_ __drv_freesMem (Mem) NDIS_PD_COUNTER_HANDLE CounterHandle
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -76,7 +63,7 @@ void NdisPDFreeCounter(
 
 ### -param CounterHandle [in]
 
-A counter handle that the miniport driver allocated in its <a href="..\ndis\nc-ndis-ndis_pd_allocate_counter.md">NdisPDAllocateCounter</a> function.
+A counter handle that the miniport driver allocated in its <a href="https://msdn.microsoft.com/86AA537D-952F-4A7A-ACA4-24B8C1AE932A">NdisPDAllocateCounter</a> function.
 
 
 ## -returns
@@ -90,10 +77,10 @@ This callback function does not return a value.
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-ndis_pd_allocate_counter.md">NdisPDAllocateCounter</a>
 
 
 
+<a href="https://msdn.microsoft.com/86AA537D-952F-4A7A-ACA4-24B8C1AE932A">NdisPDAllocateCounter</a>
  
 
  

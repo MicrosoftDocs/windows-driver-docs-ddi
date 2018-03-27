@@ -52,17 +52,6 @@ req.typenames: RILCALLINFOFLAGS
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef enum _RILCALLINFOFLAGS { 
-  RILCALLINFO_FLAG_ALIENCALL,
-  RILCALLINFO_FLAG_EMERGENCYCALL
-} RILCALLINFOFLAGS;
-````
-
-
 ## -enum-fields
 
 

@@ -55,20 +55,6 @@ The <b>FWPS_STREAM_CALLOUT_IO_PACKET0</b> structure describes the data passed by
   data stream.
 <div class="alert"><b>Note</b>  <b>FWPS_STREAM_CALLOUT_IO_PACKET0</b> is a specific version of <b>FWPS_STREAM_CALLOUT_IO_PACKET</b>. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
 
-## -syntax
-
-
-````
-typedef struct FWPS_STREAM_CALLOUT_IO_PACKET0_ {
-  FWPS_STREAM_DATA0       *streamData;
-  SIZE_T                  missedBytes;
-  UINT32                  countBytesRequired;
-  SIZE_T                  countBytesEnforced;
-  FWPS_STREAM_ACTION_TYPE streamAction;
-} FWPS_STREAM_CALLOUT_IO_PACKET0;
-````
-
-
 ## -struct-fields
 
 
@@ -77,7 +63,7 @@ typedef struct FWPS_STREAM_CALLOUT_IO_PACKET0_ {
 ### -field streamData
 
 A pointer to an 
-     <a href="..\fwpsk\ns-fwpsk-fwps_stream_data0_.md">FWPS_STREAM_DATA0</a> structure that
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff552419">FWPS_STREAM_DATA0</a> structure that
      describes the portion of the data stream available to the callout driver's 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a> callout function for processing.
 
@@ -171,7 +157,7 @@ The stream connection should be dropped. A callout's
 #### FWPS_STREAM_ACTION_DEFER
 
 Processing of the stream data will be deferred until the callout driver calls the 
-       <a href="..\fwpsk\nf-fwpsk-fwpsstreamcontinue0.md">FwpsStreamContinue0</a> function. This
+       <a href="https://msdn.microsoft.com/library/windows/hardware/ff551210">FwpsStreamContinue0</a> function. This
        action can only be set for an inbound data stream.
        
 
@@ -192,7 +178,7 @@ If a callout's
 
 
 The filter engine passes a pointer to an <b>FWPS_STREAM_CALLOUT_IO_PACKET0</b> structure to a callout's 
-    <a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a> callout function as the 
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a> callout function as the 
     <i>layerData</i> parameter when filtering a data stream.
 
 
@@ -200,11 +186,14 @@ The filter engine passes a pointer to an <b>FWPS_STREAM_CALLOUT_IO_PACKET0</b> s
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a>
 
 
 
-<a href="..\fwpsk\nf-fwpsk-fwpsstreamcontinue0.md">FwpsStreamContinue0</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552419">FWPS_STREAM_DATA0</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551210">FwpsStreamContinue0</a>
 
 
 
@@ -212,10 +201,7 @@ The filter engine passes a pointer to an <b>FWPS_STREAM_CALLOUT_IO_PACKET0</b> s
 
 
 
-<a href="..\fwpsk\ns-fwpsk-fwps_stream_data0_.md">FWPS_STREAM_DATA0</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a>
  
 
  

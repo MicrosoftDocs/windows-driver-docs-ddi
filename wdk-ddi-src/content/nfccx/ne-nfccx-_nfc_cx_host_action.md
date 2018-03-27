@@ -52,19 +52,6 @@ req.typenames: NFC_CX_HOST_ACTION, *PNFC_CX_HOST_ACTION
 The NFC_CX_HOST_ACTION enumeration specifies host actions.
 
 
-## -syntax
-
-
-````
-typedef enum _NFC_CX_HOST_ACTION { 
-  HostActionStart    = 0,
-  HostActionStop     = 1,
-  HostActionRestart  = 2,
-  HostActionUnload   = 3
-} NFC_CX_HOST_ACTION;
-````
-
-
 ## -enum-fields
 
 
@@ -92,7 +79,6 @@ Specifies to unload the driver.
 
 ## -see-also
 
-<a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
 
 
 
@@ -100,6 +86,7 @@ Specifies to unload the driver.
 
 
 
+<a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
  
 
  

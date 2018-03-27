@@ -52,19 +52,6 @@ req.typenames: DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO
 Specifies an overlay plane to display during a VSync interval.
 
 
-## -syntax
-
-
-````
-typedef struct _DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO {
-  DWORD                              LayerIndex;
-  BOOL                               Enabled;
-  PHYSICAL_ADDRESS                   PhysicalAddress;
-  DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES PlaneAttributes;
-} DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO;
-````
-
-
 ## -struct-fields
 
 
@@ -87,5 +74,5 @@ Indicates if the overlay plane specified by <b>LayerIndex</b> is enabled for dis
 
 ### -field PlaneAttributes
 
-A structure of type <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_multiplane_overlay_attributes.md">DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES</a>  that specifies overlay plane attributes.
+A structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/hh780301">DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES</a>  that specifies overlay plane attributes.
 

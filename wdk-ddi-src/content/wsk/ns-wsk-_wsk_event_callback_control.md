@@ -54,17 +54,6 @@ The WSK_EVENT_CALLBACK_CONTROL structure specifies the information for enabling 
   socket's event callback functions.
 
 
-## -syntax
-
-
-````
-typedef struct _WSK_EVENT_CALLBACK_CONTROL {
-  PNPIID NpiId;
-  ULONG  EventMask;
-} WSK_EVENT_CALLBACK_CONTROL, *PWSK_EVENT_CALLBACK_CONTROL;
-````
-
-
 ## -struct-fields
 
 
@@ -115,12 +104,6 @@ For more information about enabling and disabling a socket's event callback func
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff571181">
-   WSK_SET_STATIC_EVENT_CALLBACKS</a>
-
-
-
-<a href="..\wsk\nc-wsk-pfn_wsk_control_socket.md">WskControlSocket</a>
 
 
 
@@ -128,10 +111,16 @@ For more information about enabling and disabling a socket's event callback func
 
 
 
-<a href="..\wsk\nc-wsk-pfn_wsk_control_client.md">WskControlClient</a>
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff571181">
+   WSK_SET_STATIC_EVENT_CALLBACKS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571126">WskControlClient</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571127">WskControlSocket</a>
  
 
  

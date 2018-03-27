@@ -53,20 +53,6 @@ req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
 <b>DxgkDdiDestroyProcess</b> destroys a kernel mode driver process object.
 
 
-## -prototype
-
-
-````
-DXGKDDI_DESTROYPROCESS DxgkDdiDestroyProcess;
-
-NTSTATUS APIENTRY DxgkDdiDestroyProcess(
-  _In_ const HANDLE hAdapter,
-  _In_ const HANDLE hKmdProcess
-)
-{ ... }
-````
-
-
 ## -parameters
 
 

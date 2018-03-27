@@ -52,22 +52,6 @@ req.typenames: KSEVENTS_LOCKTYPE
 The KSEVENTS_LOCKTYPE enumeration identifies the type of exclusion lock. The types are used with <i>EventFlags</i> in several event-set helper functions.
 
 
-## -syntax
-
-
-````
-typedef enum  { 
-  KSEVENTS_NONE          = 0,
-  KSEVENTS_SPINLOCK      = 1,
-  KSEVENTS_MUTEX         = 2,
-  KSEVENTS_FMUTEX        = 3,
-  KSEVENTS_FMUTEXUNSAFE  = 4,
-  KSEVENTS_INTERRUPT     = 5,
-  KSEVENTS_ERESOURCE     = 6
-} KSEVENTS_LOCKTYPE;
-````
-
-
 ## -enum-fields
 
 

@@ -52,19 +52,6 @@ req.typenames: ScsiReadCapacity_IN, *PScsiReadCapacity_IN
 The ScsiReadCapacity_IN structure is used to deliver input parameter data to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff564890">ScsiReadCapacity</a> WMI method. 
 
 
-## -syntax
-
-
-````
-typedef struct _ScsiReadCapacity_IN {
-  UCHAR     Cdb[6];
-  UCHAR     HbaPortWWN[8];
-  UCHAR     DiscoveredPortWWN[8];
-  ULONGLONG FcLun;
-} ScsiReadCapacity_IN, *PScsiReadCapacity_IN;
-````
-
-
 ## -struct-fields
 
 
@@ -101,10 +88,10 @@ The WMI tool suite generates a declaration of the ScsiReadCapacity_IN structure 
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564890">ScsiReadCapacity</a>
-
-
-
  
 
  

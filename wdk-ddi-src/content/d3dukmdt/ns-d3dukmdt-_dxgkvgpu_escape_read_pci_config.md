@@ -52,18 +52,6 @@ req.typenames: DXGKVGPU_ESCAPE_READ_PCI_CONFIG
 A structure used to read the PCI config for an escape.
 
 
-## -syntax
-
-
-````
-typedef struct _DXGKVGPU_ESCAPE_READ_PCI_CONFIG {
-  DXGKVGPU_ESCAPE_HEAD Header;
-  UINT                 Offset;
-  UINT                 Size;
-} DXGKVGPU_ESCAPE_READ_PCI_CONFIG;
-````
-
-
 ## -struct-fields
 
 

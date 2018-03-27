@@ -52,16 +52,6 @@ req.typenames: D3DKMT_SURFACECOMPLETE_PRESENTHISTORYTOKEN
 A structure used to present the history token for a surface.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DKMT_SURFACECOMPLETE_PRESENTHISTORYTOKEN {
-  ULONG64 hLogicalSurface;
-} D3DKMT_SURFACECOMPLETE_PRESENTHISTORYTOKEN;
-````
-
-
 ## -struct-fields
 
 

@@ -52,20 +52,6 @@ req.typenames: D3D11_1DDI_GETCAPTUREHANDLEDATA
 The <i>pfnGetPageableSize</i> callback function gets the pageable size.
 
 
-## -prototype
-
-
-````
-PFND3D12DDI_GETPAGEABLESIZE_0020 pfnGetPageableSize;
-
-UINT64 APIENTRY* pfnGetPageableSize(
-             D3D12DDI_HDEVICE              hDevice,
-  _In_ const D3D12DDIARG_GET_PAGEABLE_SIZE *GetPageableSize
-)
-{ ... }
-````
-
-
 ## -parameters
 
 

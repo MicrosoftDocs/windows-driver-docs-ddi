@@ -52,20 +52,6 @@ req.typenames: DXGK_PTE
 The <i>SetDepthStencil</i> function sets the depth buffer in the driver's context. 
 
 
-## -prototype
-
-
-````
-PFND3DDDI_SETDEPTHSTENCIL SetDepthStencil;
-
-__checkReturn HRESULT APIENTRY SetDepthStencil(
-  _In_       HANDLE                    hDevice,
-  _In_ const D3DDDIARG_SETDEPTHSTENCIL *pData
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -87,7 +73,7 @@ __checkReturn HRESULT APIENTRY SetDepthStencil(
 
 #### - pData [in]
 
- A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_setdepthstencil.md">D3DDDIARG_SETDEPTHSTENCIL</a> structure that specifies the depth buffer.
+ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543299">D3DDDIARG_SETDEPTHSTENCIL</a> structure that specifies the depth buffer.
 
 
 ## -returns
@@ -110,14 +96,14 @@ The user-mode display driver should store the depth buffer in the driver's conte
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_setdepthstencil.md">D3DDDIARG_SETDEPTHSTENCIL</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543299">D3DDDIARG_SETDEPTHSTENCIL</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544519">D3DDDI_DEVICEFUNCS</a>
  
 
  

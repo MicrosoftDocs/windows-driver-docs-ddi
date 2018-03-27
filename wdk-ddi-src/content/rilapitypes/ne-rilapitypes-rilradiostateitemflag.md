@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,21 +51,6 @@ req.product: Windows 10 or later.
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef enum _RILRADIOSTATEITEMFLAG { 
-  RIL_RADIOSTATE_ITEMFLAG_USE_UINTVAL,
-  RIL_RADIOSTATE_ITEMFLAG_USE_WSZVAL,
-  RIL_RADIOSTATE_ITEMFLAG_USE_INTARRAY,
-  RIL_RADIOSTATE_ITEMFLAG_USE_UINTARRAY,
-  RIL_RADIOSTATE_ITEMFLAG_USE_BYTEARRAY,
-  RIL_RADIOSTATE_ITEMFLAG_USE_MAX
-} RILRADIOSTATEITEMFLAG;
-````
 
 
 ## -enum-fields

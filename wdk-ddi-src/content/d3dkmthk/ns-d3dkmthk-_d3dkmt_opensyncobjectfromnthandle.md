@@ -52,17 +52,6 @@ req.typenames: D3DKMT_OPENSYNCOBJECTFROMNTHANDLE
 Describes information that is required to map an NT process handle to a graphics processing unit (GPU) synchronization object.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DKMT_OPENSYNCOBJECTFROMNTHANDLE {
-  HANDLE        hNtHandle;
-  D3DKMT_HANDLE hSyncObject;
-} D3DKMT_OPENSYNCOBJECTFROMNTHANDLE;
-````
-
-
 ## -struct-fields
 
 

@@ -52,17 +52,6 @@ req.typenames: EXpsFontRestriction
 The <b>FltIsVolumeSnapshot</b> routine determines whether a volume or minifilter driver instance is attached to a snapshot volume.
 
 
-## -syntax
-
-
-````
-NTSTATUS FltIsVolumeSnapshot(
-  _In_  PVOID    FltObject,
-  _Out_ PBOOLEAN IsSnapshotVolume
-);
-````
-
-
 ## -parameters
 
 

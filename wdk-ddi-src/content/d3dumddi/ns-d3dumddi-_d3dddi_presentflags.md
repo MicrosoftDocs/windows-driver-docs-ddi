@@ -52,24 +52,6 @@ req.typenames: D3DDDI_PRESENTFLAGS
 The D3DDDI_PRESENTFLAGS structure identifies how to perform a present operation.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DDDI_PRESENTFLAGS {
-  union {
-    struct {
-      UINT Blt  :1;
-      UINT ColorFill  :1;
-      UINT Flip  :1;
-      UINT Reserved  :29;
-    };
-    UINT   Value;
-  };
-} D3DDDI_PRESENTFLAGS;
-````
-
-
 ## -struct-fields
 
 
@@ -118,14 +100,14 @@ A member in the union that is contained in D3DDDI_PRESENTFLAGS that can hold one
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_present.md">D3DDDIARG_PRESENT</a>
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_present.md">Present</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543240">D3DDDIARG_PRESENT</a>
 
 
 
+<a href="https://msdn.microsoft.com/e90683b4-64b6-4018-96a5-b50118df3367">Present</a>
  
 
  

@@ -52,23 +52,6 @@ req.typenames: DISK_EX_INT13_INFO, *PDISK_EX_INT13_INFO
 The DISK_EX_INT13_INFO structure is used by the BIOS to report disk detection data for a partition with an extended INT13 format. 
 
 
-## -syntax
-
-
-````
-typedef struct _DISK_EX_INT13_INFO {
-  USHORT  ExBufferSize;
-  USHORT  ExFlags;
-  ULONG   ExCylinders;
-  ULONG   ExHeads;
-  ULONG   ExSectorsPerTrack;
-  ULONG64 ExSectorsPerDrive;
-  USHORT  ExSectorSize;
-  USHORT  ExReserved;
-} DISK_EX_INT13_INFO, *PDISK_EX_INT13_INFO;
-````
-
-
 ## -struct-fields
 
 
@@ -204,14 +187,14 @@ Reserved.
 
 ## -see-also
 
-<a href="..\ntdddisk\ns-ntdddisk-_disk_int13_info.md">DISK_INT13_INFO</a>
 
 
 
-<a href="..\ntdddisk\ns-ntdddisk-_disk_detection_info.md">DISK_DETECTION_INFO</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552601">DISK_DETECTION_INFO</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552624">DISK_INT13_INFO</a>
  
 
  

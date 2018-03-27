@@ -54,16 +54,6 @@ req.typenames: D3DKMT_DRIVERVERSION
 Maps a locally unique identifier (LUID) to a graphics adapter handle.
 
 
-## -syntax
-
-
-````
-EXTERN_C _Check_return_ NTSTATUS APIENTRY D3DKMTOpenAdapterFromLuid(
-  _Inout_ const D3DKMT_OPENADAPTERFROMLUID *pAdapter
-);
-````
-
-
 ## -parameters
 
 
@@ -78,7 +68,7 @@ TBD
 
 #### - pAdapter [in, out]
 
-A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_openadapterfromluid.md">D3DKMT_OPENADAPTERFROMLUID</a> structure that describes information that is required to perform the mapping.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh780267">D3DKMT_OPENADAPTERFROMLUID</a> structure that describes information that is required to perform the mapping.
 
 
 ## -returns
@@ -125,10 +115,10 @@ This function might also return other NTSTATUS values.
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_openadapterfromluid.md">D3DKMT_OPENADAPTERFROMLUID</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh780267">D3DKMT_OPENADAPTERFROMLUID</a>
  
 
  

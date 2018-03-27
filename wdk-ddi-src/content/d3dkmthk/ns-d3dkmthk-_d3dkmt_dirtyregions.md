@@ -52,17 +52,6 @@ req.typenames: D3DKMT_DIRTYREGIONS
 The D3DKMT_DIRTYREGIONS structure describes active rectangles (dirty regions) of a surface. 
 
 
-## -syntax
-
-
-````
-typedef struct _D3DKMT_DIRTYREGIONS {
-  UINT NumRects;
-  RECT Rects[D3DKMT_MAX_PRESENT_HISTORY_RECTS];
-} D3DKMT_DIRTYREGIONS;
-````
-
-
 ## -struct-fields
 
 
@@ -80,10 +69,10 @@ typedef struct _D3DKMT_DIRTYREGIONS {
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
-
-
-
  
 
  

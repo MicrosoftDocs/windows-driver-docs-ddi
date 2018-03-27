@@ -52,24 +52,6 @@ req.typenames: HBA_WWNTYPE
 The <b>HBA_SendScsiInquiry</b> routine sends a SCSI inquiry command to the indicated remote port. 
 
 
-## -syntax
-
-
-````
-HBA_STATUS HBA_API HBA_SendScsiInquiry(
-  _In_  HBA_HANDLE handle,
-  _In_  HBA_WWN    portWWN,
-  _In_  HBA_UINT64 fcLUN,
-  _In_  HBA_UINT8  EVPD,
-  _In_  HBA_UINT32 PageCode,
-  _Out_ void       *pRspBuffer,
-  _In_  HBA_UINT32 pRespBufferSize,
-  _Out_ void       *pSenseBuffer,
-  _In_  HBA_UINT32 SenseBufferSize
-);
-````
-
-
 ## -parameters
 
 
@@ -127,7 +109,7 @@ Indicates the fibre channel logical unit number of the logical unit to which the
 
 #### - handle [in]
 
-Contains a value returned by the routine <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a> that identifies the HBA on which the target port is located.
+Contains a value returned by the routine <a href="https://msdn.microsoft.com/library/windows/hardware/ff557097">HBA_OpenAdapter</a> that identifies the HBA on which the target port is located.
 
 
 #### - pRespBufferSize [in]
@@ -214,14 +196,14 @@ Returned if an unspecified error occurred that prevented the execution of the SC
 
 ## -see-also
 
-<a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557097">HBA_OpenAdapter</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
-
-
-
  
 
  

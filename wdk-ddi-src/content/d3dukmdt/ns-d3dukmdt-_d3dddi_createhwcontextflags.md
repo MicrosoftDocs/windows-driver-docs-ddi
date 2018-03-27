@@ -52,21 +52,6 @@ req.typenames: D3DDDI_CREATEHWCONTEXTFLAGS
 A structure used to create hardware context flags.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DDDI_CREATEHWCONTEXTFLAGS {
-  union {
-    struct {
-      UINT Reserved  :32;
-    };
-    UINT Value;
-  };
-} D3DDDI_CREATEHWCONTEXTFLAGS;
-````
-
-
 ## -struct-fields
 
 

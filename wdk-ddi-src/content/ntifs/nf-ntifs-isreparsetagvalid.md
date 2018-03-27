@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: ntifs.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -50,16 +50,6 @@ req.typenames: TOKEN_TYPE
 
 
 The <b>IsReparseTagValid</b> macro is reserved for system use. 
-
-
-## -syntax
-
-
-````
-  IsReparseTagValid(
-    
-);
-````
 
 
 ## -parameters

@@ -57,23 +57,6 @@ The <b>VmbPacketSendWithExternalMdl</b> function sends the data in a packet buff
 throughout the lifetime of the transaction.
 
 
-## -syntax
-
-
-````
-NTSTATUS
- VmbPacketSendWithExternalMdl(
-  _In_ __drv_aliasesMem VMBPACKET       PacketObject,
-  _In_ reads_bytes_(BufferLength) PVOID Buffer,
-  _In_ UINT32                           BufferLength,
-  _In_ PMDL                             ExternalDataMdl,
-  _In_ UINT32                           MdlOffset,
-  _In_ UINT32                           MdlLength,
-  _In_ UINT32                           Flags
-);
-````
-
-
 ## -parameters
 
 
@@ -181,17 +164,17 @@ responsibility of the caller.
 
 
 
-This function differs from the <a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbpacketsend.md">VmbPacketSend</a> function in that it allows passing an MDL offset and MDL length.
+This function differs from the <a href="https://msdn.microsoft.com/EBB981CB-0107-497A-B6E6-9271E22A8D5F">VmbPacketSend</a> function in that it allows passing an MDL offset and MDL length.
 
 
 
 
 ## -see-also
 
-<a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbpacketsend.md">VmbPacketSend</a>
 
 
 
+<a href="https://msdn.microsoft.com/EBB981CB-0107-497A-B6E6-9271E22A8D5F">VmbPacketSend</a>
  
 
  

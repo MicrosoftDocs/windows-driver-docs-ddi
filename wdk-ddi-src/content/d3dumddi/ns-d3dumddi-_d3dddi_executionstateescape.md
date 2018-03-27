@@ -52,16 +52,6 @@ req.typenames: D3DDDI_EXECUTIONSTATEESCAPE
 Specifies the state of the device.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DDDI_EXECUTIONSTATEESCAPE {
-  D3DDDI_DEVICEEXECUTION_STATE State;
-} D3DDDI_EXECUTIONSTATEESCAPE;
-````
-
-
 ## -struct-fields
 
 
@@ -69,15 +59,15 @@ typedef struct _D3DDDI_EXECUTIONSTATEESCAPE {
 
 ### -field State
 
-[Out] A value of type <a href="..\d3dumddi\ne-d3dumddi-_d3dddi_deviceexecution_state.md">D3DDDI_DEVICEEXECUTION_STATE</a> that indicates the state of the device.
+[Out] A value of type <a href="https://msdn.microsoft.com/library/windows/hardware/dn482416">D3DDDI_DEVICEEXECUTION_STATE</a> that indicates the state of the device.
 
 
 ## -see-also
 
-<a href="..\d3dumddi\ne-d3dumddi-_d3dddi_deviceexecution_state.md">D3DDDI_DEVICEEXECUTION_STATE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn482416">D3DDDI_DEVICEEXECUTION_STATE</a>
  
 
  

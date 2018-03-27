@@ -52,20 +52,6 @@ req.typenames: DXGK_PTE
 The <b>pfnWaitForSynchronizationObjectCb</b> function inserts a wait for the specified synchronization objects in the specified context DMA stream. 
 
 
-## -prototype
-
-
-````
-PFND3DDDI_WAITFORSYNCHRONIZATIONOBJECTCB pfnWaitForSynchronizationObjectCb;
-
-__checkReturn HRESULT APIENTRY CALLBACK pfnWaitForSynchronizationObjectCb(
-  _In_       HANDLE                                hDevice,
-  _In_ const D3DDDICB_WAITFORSYNCHRONIZATIONOBJECT *pData
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -87,7 +73,7 @@ A handle to a display device (that is, the graphics context).
 
 #### - pData [in]
 
-A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_waitforsynchronizationobject.md">D3DDDICB_WAITFORSYNCHRONIZATIONOBJECT</a> structure that describes the synchronization objects and context DMA stream that are required to set up the wait. 
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff544287">D3DDDICB_WAITFORSYNCHRONIZATIONOBJECT</a> structure that describes the synchronization objects and context DMA stream that are required to set up the wait. 
 
 
 ## -returns
@@ -140,17 +126,17 @@ This function might also return other HRESULT values.
 
 
 
-For a code example of how to use the <b>pfnWaitForSynchronizationObjectCb</b> function, see <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_signalsynchronizationobjectcb.md">pfnSignalSynchronizationObjectCb</a>.
+For a code example of how to use the <b>pfnWaitForSynchronizationObjectCb</b> function, see <a href="https://msdn.microsoft.com/12ffa230-2c26-4cd3-ae83-f753a0b6ba38">pfnSignalSynchronizationObjectCb</a>.
 
 
 
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_waitforsynchronizationobject.md">D3DDDICB_WAITFORSYNCHRONIZATIONOBJECT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544287">D3DDDICB_WAITFORSYNCHRONIZATIONOBJECT</a>
  
 
  

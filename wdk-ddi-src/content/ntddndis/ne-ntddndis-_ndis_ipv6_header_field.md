@@ -52,18 +52,6 @@ req.typenames: NDIS_IPV6_HEADER_FIELD, *PNDIS_IPV6_HEADER_FIELD
 The <b>NDIS_IPV6_HEADER_FIELD</b> enumeration identifies the type of a field in an IP version 6 (IPv6) header to be filtered.
 
 
-## -syntax
-
-
-````
-typedef enum _NDIS_IPV6_HEADER_FIELD { 
-  NdisIPv6HeaderFieldUndefined,
-  NdisIPv6HeaderFieldProtocol,
-  NdisIPv6HeaderFieldMaximum
-} NDIS_IPV6_HEADER_FIELD, *PNDIS_IPV6_HEADER_FIELD;
-````
-
-
 ## -enum-fields
 
 
@@ -90,7 +78,7 @@ The maximum value for this enumeration. This value might change in future versio
 
 
 The <b>NDIS_IPV6_HEADER_FIELD</b> enumeration is used in the 
-    <a href="..\ntddndis\ns-ntddndis-_ndis_receive_filter_field_parameters.md">
+    <a href="https://msdn.microsoft.com/3d387fe9-a7cc-4034-b31e-ba1359db2ae1">
     NDIS_RECEIVE_FILTER_FIELD_PARAMETERS</a> structure.
 
 
@@ -98,11 +86,11 @@ The <b>NDIS_IPV6_HEADER_FIELD</b> enumeration is used in the
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_receive_filter_field_parameters.md">
+
+
+
+<a href="https://msdn.microsoft.com/3d387fe9-a7cc-4034-b31e-ba1359db2ae1">
    NDIS_RECEIVE_FILTER_FIELD_PARAMETERS</a>
-
-
-
  
 
  

@@ -49,18 +49,7 @@ req.typenames: D3DHAL_DP2SETLIGHT
 ## -description
 
 
-The D3DHAL_DP2SETLIGHT structure allows lights to be set for <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DHAL_DP2SETLIGHT {
-  DWORD dwIndex;
-  DWORD dwDataType;
-} D3DHAL_DP2SETLIGHT, *LPD3DHAL_DP2SETLIGHT;
-````
+The D3DHAL_DP2SETLIGHT structure allows lights to be set for <a href="https://msdn.microsoft.com/6128ff7a-0d2c-48df-8b5e-cab33c5a74f5">D3dDrawPrimitives2</a>.
 
 
 ## -struct-fields
@@ -118,10 +107,10 @@ Disables the light whose index is specified in <b>dwIndex</b>.
 
 ## -see-also
 
-<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
 
 
 
+<a href="https://msdn.microsoft.com/6128ff7a-0d2c-48df-8b5e-cab33c5a74f5">D3dDrawPrimitives2</a>
  
 
  

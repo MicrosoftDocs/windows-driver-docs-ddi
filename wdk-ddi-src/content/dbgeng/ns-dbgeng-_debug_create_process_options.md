@@ -52,19 +52,6 @@ req.typenames: DEBUG_CREATE_PROCESS_OPTIONS, *PDEBUG_CREATE_PROCESS_OPTIONS
 The DEBUG_CREATE_PROCESS_OPTIONS structure specifies the process creation options to use when creating a new process.
 
 
-## -syntax
-
-
-````
-typedef struct _DEBUG_CREATE_PROCESS_OPTIONS {
-  ULONG CreateFlags;
-  ULONG EngCreateFlags;
-  ULONG VerifierFlags;
-  ULONG Reserved;
-} DEBUG_CREATE_PROCESS_OPTIONS, *PDEBUG_CREATE_PROCESS_OPTIONS;
-````
-
-
 ## -struct-fields
 
 

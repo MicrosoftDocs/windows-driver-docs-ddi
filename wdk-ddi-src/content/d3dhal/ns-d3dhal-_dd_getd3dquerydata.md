@@ -56,20 +56,6 @@ req.typenames: DD_GETD3DQUERYDATA
 DD_GETD3DQUERYDATA is the data structure pointed to by the <b>lpvData</b> field of <a href="https://msdn.microsoft.com/library/windows/hardware/ff551550">DD_GETDRIVERINFODATA</a> for DD_GETDRIVERINFO2DATA queries with the type D3DGDI2_TYPE_GETD3DQUERY.
 
 
-## -syntax
-
-
-````
-typedef struct _DD_GETD3DQUERYDATA {
-  DD_GETDRIVERINFO2DATA gdi2;
-  union {
-    DWORD        dwQueryIndex;
-    D3DQUERYTYPE QueryType;
-  };
-} DD_GETD3DQUERYDATA;
-````
-
-
 ## -struct-fields
 
 
@@ -77,7 +63,7 @@ typedef struct _DD_GETD3DQUERYDATA {
 
 ### -field gdi2
 
-Specifies a <a href="..\d3dhal\ns-d3dhal-_dd_getdriverinfo2data.md">DD_GETDRIVERINFO2DATA</a> structure that contains the <b>GetDriverInfo2</b> data.
+Specifies a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551548">DD_GETDRIVERINFO2DATA</a> structure that contains the <b>GetDriverInfo2</b> data.
 
 
 #### - QueryType
@@ -105,15 +91,6 @@ For more information about D3DQUERYTYPE, see the DirectX SDK documentation.
 
 ## -see-also
 
-<a href="..\d3dhal\ns-d3dhal-_dd_getdriverinfo2data.md">DD_GETDRIVERINFO2DATA</a>
-
-
-
-<a href="..\d3dhal\ns-d3dhal-_dd_getd3dquerycountdata.md">DD_GETD3DQUERYCOUNTDATA</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551550">DD_GETDRIVERINFODATA</a>
 
 
 
@@ -121,6 +98,15 @@ D3DDP2OP_CREATEQUERY
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551539">DD_GETD3DQUERYCOUNTDATA</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551548">DD_GETDRIVERINFO2DATA</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551550">DD_GETDRIVERINFODATA</a>
  
 
  

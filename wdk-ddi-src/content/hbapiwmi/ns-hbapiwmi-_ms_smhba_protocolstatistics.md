@@ -52,21 +52,6 @@ req.typenames: MS_SMHBA_PROTOCOLSTATISTICS, *PMS_SMHBA_PROTOCOLSTATISTICS
 The MS_SMHBA_PROTOCOLSTATISTICS structure is used to report protocol traffic statistics on a port.
 
 
-## -syntax
-
-
-````
-typedef struct _MS_SMHBA_PROTOCOLSTATISTICS {
-  LONGLONG SecondsSinceLastReset;
-  LONGLONG InputRequests;
-  LONGLONG OutputRequests;
-  LONGLONG ControlRequests;
-  LONGLONG InputMegabytes;
-  LONGLONG OutputMegabytes;
-} MS_SMHBA_PROTOCOLSTATISTICS, *PMS_SMHBA_PROTOCOLSTATISTICS;
-````
-
-
 ## -struct-fields
 
 

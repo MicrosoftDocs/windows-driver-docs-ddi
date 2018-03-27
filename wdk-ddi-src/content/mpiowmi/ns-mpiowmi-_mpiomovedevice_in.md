@@ -52,18 +52,6 @@ req.typenames: MPIOMoveDevice_IN, *PMPIOMoveDevice_IN
 The MPIOMoveDevice_IN structure is used to set the active path on the device.
 
 
-## -syntax
-
-
-````
-typedef struct _MPIOMoveDevice_IN {
-  ULONG     DiskOrdinal;
-  ULONG     Flags;
-  ULONGLONG PathID;
-} MPIOMoveDevice_IN, *PMPIOMoveDevice_IN;
-````
-
-
 ## -struct-fields
 
 

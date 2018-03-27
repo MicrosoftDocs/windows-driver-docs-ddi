@@ -54,16 +54,6 @@ NDIS drivers call the
   <b>NdisFreeIoWorkItem</b> function to free a specified work item.
 
 
-## -syntax
-
-
-````
-VOID NdisFreeIoWorkItem(
-  _In_ NDIS_HANDLE NdisIoWorkItemHandle
-);
-````
-
-
 ## -parameters
 
 
@@ -72,7 +62,7 @@ VOID NdisFreeIoWorkItem(
 ### -param NdisIoWorkItemHandle [in]
 
 A handle to a private <b>NDIS_IO_WORKITEM</b> structure that was returned by a previous call to the 
-     <a href="..\ndis\nf-ndis-ndisallocateioworkitem.md">
+     <a href="https://msdn.microsoft.com/54977838-381e-4c86-a6ca-646202fdc619">
      NdisAllocateIoWorkItem</a> function.
 
 
@@ -90,7 +80,7 @@ None
 
 
 <b>NdisFreeIoWorkItem</b> calls 
-    <a href="..\wdm\nf-wdm-iofreeworkitem.md">IoFreeWorkItem</a> to free the structure that is
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff549133">IoFreeWorkItem</a> to free the structure that is
     specified by the
     <i>NdisIoWorkItemHandle</i> parameter.
 
@@ -99,15 +89,10 @@ None
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisallocateioworkitem.md">NdisAllocateIoWorkItem</a>
 
 
 
-<a href="..\wdm\nf-wdm-iofreeworkitem.md">IoFreeWorkItem</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisqueueioworkitem.md">NdisQueueIoWorkItem</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549133">IoFreeWorkItem</a>
 
 
 
@@ -115,6 +100,11 @@ None
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561604">NdisAllocateIoWorkItem</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563775">NdisQueueIoWorkItem</a>
  
 
  

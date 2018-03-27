@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: "_Must_inspect_result_"
 topic_type:
@@ -52,18 +52,6 @@ req.typenames:
 
 
                 An OS callback function the driver calls when it wants retrieve the dirty rects for the current frame
-
-
-## -syntax
-
-
-````
-HRESULT IddCxSwapChainGetDirtyRects(
-  _In_        IDDCX_SWAPCHAIN          SwapChainObject,
-  _In_  const IDARG_IN_GETDIRTYRECTS*  pInArgs,
-  _Out_       IDARG_OUT_GETDIRTYRECTS* pOutArgs
-);
-````
 
 
 ## -parameters

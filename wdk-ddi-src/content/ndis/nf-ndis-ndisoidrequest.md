@@ -55,17 +55,6 @@ The
   status of an adapter or set the state of an adapter.
 
 
-## -syntax
-
-
-````
-NDIS_STATUS NdisOidRequest(
-  _In_ NDIS_HANDLE       NdisBindingHandle,
-  _In_ PNDIS_OID_REQUEST OidRequest
-);
-````
-
-
 ## -parameters
 
 
@@ -74,14 +63,14 @@ NDIS_STATUS NdisOidRequest(
 ### -param NdisBindingHandle [in]
 
 The handle returned by the 
-     <a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a> function that
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff563715">NdisOpenAdapterEx</a> function that
      identifies the target adapter on the binding.
 
 
 ### -param OidRequest [in]
 
 A pointer to an 
-     <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a> structure that specifies
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566710">NDIS_OID_REQUEST</a> structure that specifies
      the operation requested with a given OID_<i>XXX</i> code to either query the status of an adapter or to set the state of an adapter.
 
 
@@ -116,7 +105,7 @@ The request operation completed successfully.
 </td>
 <td width="60%">
 The request is being handled asynchronously, and NDIS will call the caller's 
-       <a href="..\ndis\nc-ndis-protocol_oid_request_complete.md">
+       <a href="https://msdn.microsoft.com/2706577e-ba03-4347-9672-7303752ec0fe">
        ProtocolOidRequestComplete</a> function when the request is completed.
 
 </td>
@@ -130,7 +119,7 @@ The request is being handled asynchronously, and NDIS will call the caller's
 <td width="60%">
 The OID_<i>XXX</i> code specified in the 
        <b>Oid</b> member of the 
-       <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>-structured buffer at 
+       <a href="https://msdn.microsoft.com/library/windows/hardware/ff566710">NDIS_OID_REQUEST</a>-structured buffer at 
        <i>OidRequest</i> is invalid or unsupported by the underlying driver.
 
 </td>
@@ -221,7 +210,7 @@ The underlying driver failed the requested operation because a close operation i
 <td width="60%">
 The underlying miniport driver cannot satisfy the request at this time because it is currently
        resetting the affected NIC. The caller's 
-       <a href="..\ndis\nc-ndis-protocol_status_ex.md">ProtocolStatusEx</a> function was or
+       <a href="https://msdn.microsoft.com/5bc5a24f-5f28-4502-8776-b1cf15fd8283">ProtocolStatusEx</a> function was or
        will be called with NDIS_STATUS_RESET_START to indicate that a reset is in progress. This return value
        does not necessarily indicate that the same request, submitted later, will be failed for the same
        reason.
@@ -283,22 +272,22 @@ For more information about the general and media-specific OIDs and their respect
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
 
 
 
-<a href="..\ndis\nc-ndis-protocol_status_ex.md">ProtocolStatusEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566710">NDIS_OID_REQUEST</a>
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563715">NdisOpenAdapterEx</a>
 
 
 
-<a href="..\ndis\nc-ndis-protocol_oid_request_complete.md">ProtocolOidRequestComplete</a>
+<a href="https://msdn.microsoft.com/2706577e-ba03-4347-9672-7303752ec0fe">ProtocolOidRequestComplete</a>
 
 
 
+<a href="https://msdn.microsoft.com/5bc5a24f-5f28-4502-8776-b1cf15fd8283">ProtocolStatusEx</a>
  
 
  

@@ -52,23 +52,6 @@ req.typenames: IDEREGS, *PIDEREGS, *LPIDEREGS
 The IDEREGS structure is used to report the contents of the IDE controller registers. 
 
 
-## -syntax
-
-
-````
-typedef struct _IDEREGS {
-  UCHAR bFeaturesReg;
-  UCHAR bSectorCountReg;
-  UCHAR bSectorNumberReg;
-  UCHAR bCylLowReg;
-  UCHAR bCylHighReg;
-  UCHAR bDriveHeadReg;
-  UCHAR bCommandReg;
-  UCHAR bReserved;
-} IDEREGS, *PIDEREGS, *LPIDEREGS;
-````
-
-
 ## -struct-fields
 
 
@@ -234,14 +217,14 @@ Reserved for future use. Should always be zero.
 
 ## -see-also
 
-<a href="..\ntddscsi\ns-ntddscsi-_ata_pass_through_ex.md">ATA_PASS_THROUGH_EX</a>
 
 
 
-<a href="..\ntddscsi\ns-ntddscsi-_ata_pass_through_direct.md">ATA_PASS_THROUGH_DIRECT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551322">ATA_PASS_THROUGH_DIRECT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551323">ATA_PASS_THROUGH_EX</a>
  
 
  

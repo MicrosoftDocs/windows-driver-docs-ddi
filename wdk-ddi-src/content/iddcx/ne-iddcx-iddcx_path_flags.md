@@ -54,18 +54,6 @@ Indicates the state of the path.
                 
 
 
-## -syntax
-
-
-````
-typedef enum _IDDCX_PATH_FLAGS { 
-  IDDCX_PATH_FLAGS_NONE     = 0,
-  IDDCX_PATH_FLAGS_CHANGED  = 1,
-  IDDCX_PATH_FLAGS_ACTIVE   = 2
-} IDDCX_PATH_FLAGS;
-````
-
-
 ## -enum-fields
 
 

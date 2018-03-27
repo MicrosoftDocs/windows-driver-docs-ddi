@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -52,20 +52,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>ReadBugCheckData</b> method reads the kernel bug check code and related parameters.
-
-
-## -syntax
-
-
-````
-HRESULT ReadBugCheckData(
-  [out] PULONG   Code,
-  [out] PULONG64 Arg1,
-  [out] PULONG64 Arg2,
-  [out] PULONG64 Arg3,
-  [out] PULONG64 Arg4
-);
-````
 
 
 ## -parameters

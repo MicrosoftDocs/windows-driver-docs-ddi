@@ -46,11 +46,6 @@ req.typenames: STORAGE_ZONE_CONDITION, *PSTORAGE_ZONE_CONDITION
 # IOCTL_STORAGE_GET_LB_PROVISIONING_MAP_RESOURCES IOCTL
 
 
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
-
 ## -description
 
 
@@ -74,7 +69,7 @@ None.
 
 ### -output-buffer
 
-The buffer at <i>Irp-&gt;AssociatedIrp.SystemBuffer</i> contains a <a href="..\ntddstor\ns-ntddstor-_storage_lb_provisioning_map_resources.md">STORAGE_LB_PROVISIONING_MAP_RESOURCES</a> structure.
+The buffer at <i>Irp-&gt;AssociatedIrp.SystemBuffer</i> contains a <a href="https://msdn.microsoft.com/library/windows/hardware/hh451465">STORAGE_LB_PROVISIONING_MAP_RESOURCES</a> structure.
 
 
 ### -output-buffer-length
@@ -116,10 +111,10 @@ If logical block provisioning is enabled on a LUN, resource mapping counts  may 
 
 ## -see-also
 
-<a href="..\ntddstor\ns-ntddstor-_storage_lb_provisioning_map_resources.md">STORAGE_LB_PROVISIONING_MAP_RESOURCES</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451465">STORAGE_LB_PROVISIONING_MAP_RESOURCES</a>
  
 
  

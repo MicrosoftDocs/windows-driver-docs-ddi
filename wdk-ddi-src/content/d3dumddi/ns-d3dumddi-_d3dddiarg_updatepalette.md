@@ -52,18 +52,6 @@ req.typenames: D3DDDIARG_UPDATEPALETTE
 The D3DDDIARG_UPDATEPALETTE structure describes parameters that are used to update a texture palette. 
 
 
-## -syntax
-
-
-````
-typedef struct _D3DDDIARG_UPDATEPALETTE {
-  UINT PaletteHandle;
-  UINT StartIndex;
-  UINT NumEntries;
-} D3DDDIARG_UPDATEPALETTE;
-````
-
-
 ## -struct-fields
 
 
@@ -88,17 +76,17 @@ typedef struct _D3DDDIARG_UPDATEPALETTE {
 
 
 
-The Microsoft Direct3D runtime passes palette data for updating to the <i>pPaletteData</i> parameter in a call to the user-mode display driver's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_updatepalette.md">UpdatePalette</a> function. This palette data is an array of PALETTEENTRY structures.
+The Microsoft Direct3D runtime passes palette data for updating to the <i>pPaletteData</i> parameter in a call to the user-mode display driver's <a href="https://msdn.microsoft.com/7c22e0c9-cc24-4398-88b7-c91855cbc731">UpdatePalette</a> function. This palette data is an array of PALETTEENTRY structures.
 
 
 
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_updatepalette.md">UpdatePalette</a>
 
 
 
+<a href="https://msdn.microsoft.com/7c22e0c9-cc24-4398-88b7-c91855cbc731">UpdatePalette</a>
  
 
  

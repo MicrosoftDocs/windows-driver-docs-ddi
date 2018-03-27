@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
@@ -55,16 +55,6 @@ Initiates a non-Plug and Play (PnP) controller reset operation by queuing an eve
 
 
 
-## -syntax
-
-
-````
-BOOL UcxControllerNeedsReset(
-  [in] UCXCONTROLLER Controller
-);
-````
-
-
 ## -parameters
 
 
@@ -86,10 +76,10 @@ If the operation is successful, the method returns TRUE. Otherwise it returns FA
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt188033">UcxControllerCreate</a>
-
-
-
  
 
  

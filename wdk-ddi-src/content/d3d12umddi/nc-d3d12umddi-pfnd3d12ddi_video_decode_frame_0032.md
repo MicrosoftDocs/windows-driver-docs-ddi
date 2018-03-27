@@ -52,20 +52,6 @@ req.typenames: D3D11_1DDI_GETCAPTUREHANDLEDATA
 Used to decode a video frame.
 
 
-## -prototype
-
-
-````
-VOID APIENTRY* PFND3D12DDI_VIDEO_DECODE_FRAME_0030(
-         D3D12DDI_HCOMMANDLIST                              hDrvCommandList,
-         D3D12DDI_HVIDEODECODER_0020                        hDrvDecoder,
-         UINT64                                             SubmissionID,
-   const D3D12DDI_VIDEO_DECODE_OUTPUT_STREAM_ARGUMENTS_0021 *pOutputStreamParameters,
-   const D3D12DDI_VIDEO_DECODE_INPUT_STREAM_ARGUMENTS_0032  *pInputStreamParameters
-);
-````
-
-
 ## -parameters
 
 

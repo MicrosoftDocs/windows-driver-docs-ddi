@@ -52,17 +52,6 @@ req.typenames: D3D12DDI_VIDEO_PROCESS_MAX_INPUT_STREAMS_DATA_0020
 Specifies information used to retrieve the maximum number of input data streams that can be enabled for a video processor.
 
 
-## -syntax
-
-
-````
-typedef struct D3D12DDI_VIDEO_PROCESS_MAX_INPUT_STREAMS_DATA_0020 {
-  UINT NodeIndex;
-  UINT MaxInputStreams;
-} D3D12DDI_VIDEO_PROCESS_MAX_INPUT_STREAMS_DATA_0020;
-````
-
-
 ## -struct-fields
 
 

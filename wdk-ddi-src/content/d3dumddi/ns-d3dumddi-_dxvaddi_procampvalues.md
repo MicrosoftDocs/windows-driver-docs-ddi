@@ -52,19 +52,6 @@ req.typenames: DXVADDI_PROCAMPVALUES
 The DXVADDI_PROCAMPVALUES structure describes the ProcAmp control adjustment values.
 
 
-## -syntax
-
-
-````
-typedef struct _DXVADDI_PROCAMPVALUES {
-  DXVADDI_FIXED32 Brightness;
-  DXVADDI_FIXED32 Contrast;
-  DXVADDI_FIXED32 Hue;
-  DXVADDI_FIXED32 Saturation;
-} DXVADDI_PROCAMPVALUES;
-````
-
-
 ## -struct-fields
 
 
@@ -72,30 +59,30 @@ typedef struct _DXVADDI_PROCAMPVALUES {
 
 ### -field Brightness
 
-[in] A <a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_fixed32.md">DXVADDI_FIXED32</a> structure that specifies the brightness of the output image, as it is written to the destination surface.
+[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff562909">DXVADDI_FIXED32</a> structure that specifies the brightness of the output image, as it is written to the destination surface.
 
 
 ### -field Contrast
 
-[in] A <a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_fixed32.md">DXVADDI_FIXED32</a> structure that specifies the contrast of the output image, as it is written to the destination surface.
+[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff562909">DXVADDI_FIXED32</a> structure that specifies the contrast of the output image, as it is written to the destination surface.
 
 
 ### -field Hue
 
-[in] A <a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_fixed32.md">DXVADDI_FIXED32</a> structure that specifies the hue of the output image, as it is written to the destination surface.
+[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff562909">DXVADDI_FIXED32</a> structure that specifies the hue of the output image, as it is written to the destination surface.
 
 
 ### -field Saturation
 
-[in] A <a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_fixed32.md">DXVADDI_FIXED32</a> structure that specifies the saturation of the output image, as it is written to the destination surface.
+[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff562909">DXVADDI_FIXED32</a> structure that specifies the saturation of the output image, as it is written to the destination surface.
 
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_videoprocessblt.md">D3DDDIARG_VIDEOPROCESSBLT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544102">D3DDDIARG_VIDEOPROCESSBLT</a>
  
 
  

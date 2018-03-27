@@ -52,17 +52,6 @@ req.typenames: D3DDDIARG_CREATEAUTHENTICATEDCHANNEL
 The D3DDDIARG_CREATEAUTHENTICATEDCHANNEL structure identifies a channel to create. 
 
 
-## -syntax
-
-
-````
-typedef struct _D3DDDIARG_CREATEAUTHENTICATEDCHANNEL {
-  DDIAUTHENTICATEDCHANNELTYPE ChannelType;
-  HANDLE                      hChannel;
-} D3DDDIARG_CREATEAUTHENTICATEDCHANNEL;
-````
-
-
 ## -struct-fields
 
 
@@ -70,7 +59,7 @@ typedef struct _D3DDDIARG_CREATEAUTHENTICATEDCHANNEL {
 
 ### -field ChannelType
 
-[in] A <a href="..\d3dumddi\ne-d3dumddi-_ddiauthenticatedchanneltype.md">DDIAUTHENTICATEDCHANNELTYPE</a>-typed value that indicates the channel type to create. This member can be one of the following values.
+[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff549536">DDIAUTHENTICATEDCHANNELTYPE</a>-typed value that indicates the channel type to create. This member can be one of the following values.
 
 <table>
 <tr>
@@ -103,19 +92,19 @@ The authenticated-channel type is hardware.
 
 ### -field hChannel
 
-[out] A handle to the channel. The user-mode display driver's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createauthenticatedchannel.md">CreateAuthenticatedChannel</a> function returns this handle to the Microsoft Direct3D runtime. 
+[out] A handle to the channel. The user-mode display driver's <a href="https://msdn.microsoft.com/0a565bff-fc6f-41c1-a6fd-3a82dd0d7889">CreateAuthenticatedChannel</a> function returns this handle to the Microsoft Direct3D runtime. 
 
 
 ## -see-also
 
-<a href="..\d3dumddi\ne-d3dumddi-_ddiauthenticatedchanneltype.md">DDIAUTHENTICATEDCHANNELTYPE</a>
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createauthenticatedchannel.md">CreateAuthenticatedChannel</a>
+<a href="https://msdn.microsoft.com/0a565bff-fc6f-41c1-a6fd-3a82dd0d7889">CreateAuthenticatedChannel</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549536">DDIAUTHENTICATEDCHANNELTYPE</a>
  
 
  

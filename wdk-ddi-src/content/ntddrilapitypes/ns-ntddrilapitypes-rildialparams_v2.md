@@ -52,21 +52,6 @@ req.typenames: RILDIALPARAMS_V2, *LPRILDIALPARAMS_V2, RILDIALPARAMS, *LPRILDIALP
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef struct _RILDIALPARAMS_V2 {
-  DWORD                       dwExecutor;
-  RILADDRESS                  raAddress;
-  DWORD                       dwOptions;
-  RILCALLTYPE                 dwType;
-  BOOL                        fHasMediaOffer;
-  RILCALLMEDIAOFFERANSWERSET  rcmMediaOffer;
-} RILDIALPARAMS_V2, RILDIALPARAMS_V2;
-````
-
-
 ## -struct-fields
 
 

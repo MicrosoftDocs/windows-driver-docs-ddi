@@ -53,18 +53,6 @@ Gives information about the gamma ramp being set.
              
 
 
-## -syntax
-
-
-````
-typedef struct IDARG_IN_SET_GAMMARAMP {
-  IDDCX_GAMMARAMP_TYPE                          Type;
-  UINT                                          GammaRampSizeInBytes;
-  _Field_size_bytes_opt_(DataSizeInBytes) PVOID pGammaRampData;
-} IDARG_IN_SET_GAMMARAMP, *IDARG_IN_SET_GAMMARAMP;
-````
-
-
 ## -struct-fields
 
 
@@ -80,11 +68,11 @@ typedef struct IDARG_IN_SET_GAMMARAMP {
 ### -field GammaRampSizeInBytes
 
 
-                     [in] Size in bytes of the provided gamma ramp data.  Set to zero for <a href="..\iddcx\ne-iddcx-iddcx_gammaramp_type.md">IDDCX_GAMMARAMP_TYPE</a>.
+                     [in] Size in bytes of the provided gamma ramp data.  Set to zero for <a href="https://msdn.microsoft.com/library/windows/hardware/mt761946">IDDCX_GAMMARAMP_TYPE</a>.
 
 
 ### -field pGammaRampData
 
 
-                     [in] Pointer to gamma ramp data to set.  Set to NULL for <a href="..\iddcx\ne-iddcx-iddcx_gammaramp_type.md">IDDCX_GAMMARAMP_TYPE</a>.
+                     [in] Pointer to gamma ramp data to set.  Set to NULL for <a href="https://msdn.microsoft.com/library/windows/hardware/mt761946">IDDCX_GAMMARAMP_TYPE</a>.
 

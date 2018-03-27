@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -52,16 +52,6 @@ req.typenames: D3DKMT_DRIVERVERSION
 Called by an in-process (in-proc) Microsoft Direct3D composition device to retrieve the scheduling priority for a device context that is in the same process as other device contexts.
 
 
-## -syntax
-
-
-````
-_Check_return_ NTSTATUS APIENTRY D3DKMTGetContextInProcessSchedulingPriority(
-  _Inout_ D3DKMT_GETCONTEXTINPROCESSSCHEDULINGPRIORITY *pContextPriority
-);
-````
-
-
 ## -parameters
 
 
@@ -71,7 +61,7 @@ _Check_return_ NTSTATUS APIENTRY D3DKMTGetContextInProcessSchedulingPriority(
 
 #### - pContextPriority [in, out]
 
-A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_getcontextinprocessschedulingpriority.md">D3DKMT_GETCONTEXTINPROCESSSCHEDULINGPRIORITY</a> structure that describes information that is required to retrieve the scheduling priority for a device context.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh780256">D3DKMT_GETCONTEXTINPROCESSSCHEDULINGPRIORITY</a> structure that describes information that is required to retrieve the scheduling priority for a device context.
 
 
 ## -returns
@@ -117,14 +107,14 @@ This function might also return other NTSTATUS values.
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtsetcontextinprocessschedulingpriority.md">D3DKMTSetContextInProcessSchedulingPriority</a>
 
 
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_getcontextinprocessschedulingpriority.md">D3DKMT_GETCONTEXTINPROCESSSCHEDULINGPRIORITY</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh780250">D3DKMTSetContextInProcessSchedulingPriority</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh780256">D3DKMT_GETCONTEXTINPROCESSSCHEDULINGPRIORITY</a>
  
 
  

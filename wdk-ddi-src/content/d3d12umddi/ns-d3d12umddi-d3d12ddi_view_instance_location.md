@@ -52,17 +52,6 @@ req.typenames: D3D12DDI_VIEW_INSTANCE_LOCATION
 View instance location.
 
 
-## -syntax
-
-
-````
-typedef struct _D3D12DDI_VIEW_INSTANCE_LOCATION {
-  UINT  ViewportArrayIndex;
-  UINT  RenderTargetArrayIndex;
-} D3D12DDI_VIEW_INSTANCE_LOCATION, D3D12DDI_VIEW_INSTANCE_LOCATION;
-````
-
-
 ## -struct-fields
 
 

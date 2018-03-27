@@ -55,17 +55,6 @@ The WSK_TDI_MAP_INFO structure specifies a list that contains mappings of a comb
   <a href="https://msdn.microsoft.com/3878053c-388a-4bbc-a30e-feb16eda2f99">TDI</a> transport.
 
 
-## -syntax
-
-
-````
-typedef struct _WSK_TDI_MAP_INFO {
-  const ULONG       ElementCount;
-  const WSK_TDI_MAP *Map;
-} WSK_TDI_MAP_INFO, *PWSK_TDI_MAP_INFO;
-````
-
-
 ## -struct-fields
 
 
@@ -80,7 +69,7 @@ The number of structures contained in the array pointed to by the
 ### -field Map
 
 A pointer to an array of 
-     <a href="..\wsk\ns-wsk-_wsk_tdi_map.md">WSK_TDI_MAP</a> structures. Each WSK_TDI_MAP
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571191">WSK_TDI_MAP</a> structures. Each WSK_TDI_MAP
      structure in the array contains a mapping of a particular address family, socket type, and protocol to
      the device name of a 
      <a href="https://msdn.microsoft.com/3878053c-388a-4bbc-a30e-feb16eda2f99">TDI</a> transport.
@@ -91,7 +80,7 @@ A pointer to an array of
 
 
 A WSK application passes a pointer to a WSK_TDI_MAP_INFO structure to the 
-    <a href="..\wsk\nc-wsk-pfn_wsk_control_client.md">WskControlClient</a> function when specifying
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff571126">WskControlClient</a> function when specifying
     
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571190">WSK_TDI_DEVICENAME_MAPPING</a> for
     the control code.
@@ -114,14 +103,14 @@ For more information about using TDI transports, see
 
 ## -see-also
 
-<a href="..\wsk\ns-wsk-_wsk_tdi_map.md">WSK_TDI_MAP</a>
 
 
 
-<a href="..\wsk\nc-wsk-pfn_wsk_control_client.md">WskControlClient</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571191">WSK_TDI_MAP</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571126">WskControlClient</a>
  
 
  

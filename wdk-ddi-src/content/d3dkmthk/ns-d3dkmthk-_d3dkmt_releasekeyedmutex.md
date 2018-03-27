@@ -49,19 +49,7 @@ req.typenames: D3DKMT_RELEASEKEYEDMUTEX
 ## -description
 
 
-The D3DKMT_RELEASEKEYEDMUTEX structure describes a keyed mutex that the <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtreleasekeyedmutex.md">D3DKMTReleaseKeyedMutex</a> function releases. 
-
-
-## -syntax
-
-
-````
-typedef struct _D3DKMT_RELEASEKEYEDMUTEX {
-  D3DKMT_HANDLE hKeyedMutex;
-  UINT64        Key;
-  UINT64        FenceValue;
-} D3DKMT_RELEASEKEYEDMUTEX;
-````
+The D3DKMT_RELEASEKEYEDMUTEX structure describes a keyed mutex that the <a href="https://msdn.microsoft.com/library/windows/hardware/ff547129">D3DKMTReleaseKeyedMutex</a> function releases. 
 
 
 ## -struct-fields
@@ -86,10 +74,10 @@ typedef struct _D3DKMT_RELEASEKEYEDMUTEX {
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtreleasekeyedmutex.md">D3DKMTReleaseKeyedMutex</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547129">D3DKMTReleaseKeyedMutex</a>
  
 
  

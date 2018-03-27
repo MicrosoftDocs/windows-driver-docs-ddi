@@ -52,18 +52,6 @@ req.typenames: D3D10DDI_COUNTER_INFO
 The D3D10DDI_COUNTER_INFO structure describes information to manipulate counters.
 
 
-## -syntax
-
-
-````
-typedef struct D3D10DDI_COUNTER_INFO {
-  D3D10DDI_QUERY LastDeviceDependentCounter;
-  UINT           NumSimultaneousCounters;
-  UINT8          NumDetectableParallelUnits;
-} D3D10DDI_COUNTER_INFO;
-````
-
-
 ## -struct-fields
 
 
@@ -71,7 +59,7 @@ typedef struct D3D10DDI_COUNTER_INFO {
 
 ### -field LastDeviceDependentCounter
 
-[out] A <a href="..\d3d10umddi\ne-d3d10umddi-d3d10ddi_query.md">D3D10DDI_QUERY</a>-typed value that identifies the largest device-dependent counter identifier that the device supports. If none are supported, the user-mode display driver must set the value to 0; otherwise, the driver sets the value to greater than or equal to D3D10DDI_COUNTER_DEVICE_DEPENDENT_0 (0x40000000). 
+[out] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff541850">D3D10DDI_QUERY</a>-typed value that identifies the largest device-dependent counter identifier that the device supports. If none are supported, the user-mode display driver must set the value to 0; otherwise, the driver sets the value to greater than or equal to D3D10DDI_COUNTER_DEVICE_DEPENDENT_0 (0x40000000). 
 
 
 ### -field NumSimultaneousCounters
@@ -86,14 +74,14 @@ typedef struct D3D10DDI_COUNTER_INFO {
 
 ## -see-also
 
-<a href="..\d3d10umddi\ne-d3d10umddi-d3d10ddi_query.md">D3D10DDI_QUERY</a>
 
 
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_checkcounterinfo.md">CheckCounterInfo</a>
+<a href="https://msdn.microsoft.com/5dcea47c-aac7-46e5-afd5-c3390c3c5286">CheckCounterInfo</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541850">D3D10DDI_QUERY</a>
  
 
  

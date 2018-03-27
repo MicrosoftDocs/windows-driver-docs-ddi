@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: wdtfsimulatedbatterysystemaction.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -59,17 +59,6 @@ Use this method to change the charge level reported to the OS by the
     simulated battery.  This is useful for testing software behavior that changes based on the battery charge level.
 
 
-## -syntax
-
-
-````
-HRESULT SetSimulatedBatteryChargePercentage(
-  [in]          ULONG        Percent,
-  [out, retval] VARIANT_BOOL *pbSuccess
-);
-````
-
-
 ## -parameters
 
 
@@ -94,10 +83,10 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="..\wdtfsimulatedbatterysystemaction\nn-wdtfsimulatedbatterysystemaction-iwdtfsimulatedbatterysystemaction.md">IWDTFSimulatedBatterySystemAction</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265160">IWDTFSimulatedBatterySystemAction</a>
  
 
  

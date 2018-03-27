@@ -49,20 +49,7 @@ req.typenames: D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMCPU
 ## -description
 
 
-<b>D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMCPU</b> is used with <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtsignalsynchronizationobjectfromcpu.md">D3DKMTSignalSynchronizationObjectFromCpu</a> to enable a driver to signal a monitored fence.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMCPU {
-  D3DKMT_HANDLE       hDevice;
-  UINT                ObjectCount;
-  const D3DKMT_HANDLE *ObjectHandleArray;
-  const UINT64        *FenceValueArray;
-} D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMCPU;
-````
+<b>D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMCPU</b> is used with <a href="https://msdn.microsoft.com/library/windows/hardware/dn906783">D3DKMTSignalSynchronizationObjectFromCpu</a> to enable a driver to signal a monitored fence.
 
 
 ## -struct-fields
@@ -99,10 +86,10 @@ typedef struct _D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMCPU {
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtsignalsynchronizationobjectfromcpu.md">D3DKMTSignalSynchronizationObjectFromCpu</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn906783">D3DKMTSignalSynchronizationObjectFromCpu</a>
  
 
  

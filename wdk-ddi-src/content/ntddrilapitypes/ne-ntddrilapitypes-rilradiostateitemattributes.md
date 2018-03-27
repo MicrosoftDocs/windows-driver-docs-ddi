@@ -52,19 +52,6 @@ req.typenames: RILRADIOSTATEITEMATTRIBUTES
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef enum _RILRADIOSTATEITEMATTRIBUTES { 
-  RIL_RADIOSTATE_ITEM_ATTRIBUTE_ISDIRTY,
-  RIL_RADIOSTATE_ITEM_ATTRIBUTE_ISWRITABLE,
-  RIL_RADIOSTATE_ITEM_ATTRIBUTE_HAVEOPTIONS,
-  RIL_RADIOSTATE_ITEM_ATTRIBUTE_ALL
-} RILRADIOSTATEITEMATTRIBUTES;
-````
-
-
 ## -enum-fields
 
 

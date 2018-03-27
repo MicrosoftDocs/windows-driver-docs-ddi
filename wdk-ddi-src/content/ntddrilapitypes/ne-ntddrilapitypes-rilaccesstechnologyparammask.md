@@ -52,17 +52,6 @@ req.typenames: RILACCESSTECHNOLOGYPARAMMASK
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef enum _RILACCESSTECHNOLOGYPARAMMASK { 
-  RIL_PARAM_ACCTECH_SYSTEMKIND,
-  RIL_PARAM_ACCTECH_ALL
-} RILACCESSTECHNOLOGYPARAMMASK;
-````
-
-
 ## -enum-fields
 
 

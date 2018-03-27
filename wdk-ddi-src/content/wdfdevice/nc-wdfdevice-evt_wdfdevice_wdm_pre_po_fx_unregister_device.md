@@ -57,20 +57,6 @@ req.product: Windows 10 or later.
   <i>EvtDeviceWdmPrePoFxUnregisterDevice</i> callback function performs device-specific operations before the framework deletes a specified registration with the power framework.
 
 
-## -prototype
-
-
-````
-EVT_WDFDEVICE_WDM_PRE_PO_FX_UNREGISTER_DEVICE EvtDeviceWdmPrePoFxUnregisterDevice;
-
-void EvtDeviceWdmPrePoFxUnregisterDevice(
-  _In_ WDFDEVICE Device,
-  _In_ POHANDLE  PoHandle
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -101,7 +87,7 @@ This callback function does not return a value.
 
 The <i>EvtDeviceWdmPrePoFxUnregisterDevice</i> callback function applies only to single-component devices.
 
-To register an <i>EvtDeviceWdmPrePoFxUnregisterDevice</i> callback function, a driver must call <a href="..\wdfdevice\nf-wdfdevice-wdfdevicewdmassignpowerframeworksettings.md">WdfDeviceWdmAssignPowerFrameworkSettings</a>.
+To register an <i>EvtDeviceWdmPrePoFxUnregisterDevice</i> callback function, a driver must call <a href="https://msdn.microsoft.com/library/windows/hardware/hh451097">WdfDeviceWdmAssignPowerFrameworkSettings</a>.
 
 A driver can provide this callback function if it must perform any additional operations before the framework unregisters the specified POHANDLE.
 
@@ -149,14 +135,14 @@ The <b>EVT_WDFDEVICE_WDM_PRE_PO_FX_UNREGISTER_DEVICE</b> function type is define
 
 ## -see-also
 
-<a href="..\wdfdevice\nc-wdfdevice-evt_wdfdevice_wdm_post_po_fx_register_device.md">EvtDeviceWdmPostPoFxRegisterDevice</a>
 
 
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdevicewdmassignpowerframeworksettings.md">WdfDeviceWdmAssignPowerFrameworkSettings</a>
+<a href="https://msdn.microsoft.com/4CE227F5-9ED4-4484-AFBF-44D1260EB99D">EvtDeviceWdmPostPoFxRegisterDevice</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451097">WdfDeviceWdmAssignPowerFrameworkSettings</a>
  
 
  

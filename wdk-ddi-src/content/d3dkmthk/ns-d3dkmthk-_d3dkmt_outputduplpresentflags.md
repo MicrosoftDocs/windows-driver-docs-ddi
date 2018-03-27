@@ -52,24 +52,6 @@ req.typenames: D3DKMT_OUTPUTDUPLPRESENTFLAGS
 Describes options for a <a href="https://msdn.microsoft.com/523FBFAD-5D78-4EE3-A3B7-8FD5BA39DC46">Desktop Duplication API</a> swapchain present operation.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DKMT_OUTPUTDUPLPRESENTFLAGS {
-  union {
-    struct {
-      UINT ProtectedContentBlankedOut  :1;
-      UINT RemoteSession  :1;
-      UINT FullScreenPresent  :1;
-      UINT Reserved  :29;
-    };
-    UINT   Value;
-  };
-} D3DKMT_OUTPUTDUPLPRESENTFLAGS;
-````
-
-
 ## -struct-fields
 
 

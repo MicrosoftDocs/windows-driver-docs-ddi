@@ -51,20 +51,7 @@ req.typenames: FWPS_TRANSPORT_SEND_PARAMS0
 
 The <b>FWPS_TRANSPORT_SEND_PARAMS0</b> structure defines properties of an outbound transport layer
   packet.
-<div class="alert"><b>Note</b>  <b>FWPS_TRANSPORT_SEND_PARAMS0</b> is the specific version of <b>FWPS_TRANSPORT_SEND_PARAMS</b> used in Windows Vista and later. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows 7, <a href="..\fwpsk\ns-fwpsk-fwps_transport_send_params1_.md">FWPS_TRANSPORT_SEND_PARAMS1</a> is available.</div><div> </div>
-
-## -syntax
-
-
-````
-typedef struct FWPS_TRANSPORT_SEND_PARAMS0_ {
-  UCHAR      *remoteAddress;
-  SCOPE_ID   remoteScopeId;
-  WSACMSGHDR *controlData;
-  ULONG      controlDataLength;
-} FWPS_TRANSPORT_SEND_PARAMS0;
-````
-
+<div class="alert"><b>Note</b>  <b>FWPS_TRANSPORT_SEND_PARAMS0</b> is the specific version of <b>FWPS_TRANSPORT_SEND_PARAMS</b> used in Windows Vista and later. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows 7, <a href="https://msdn.microsoft.com/library/windows/hardware/ff552423">FWPS_TRANSPORT_SEND_PARAMS1</a> is available.</div><div> </div>
 
 ## -struct-fields
 
@@ -82,7 +69,7 @@ A pointer to a buffer that specifies the remote IP address to which to send the 
 The buffer can contain an IPv4 address (4 bytes) or an IPv6 address (16 bytes), and the address must
      be specified in network byte order. The IP version must match the 
      <i>AddressFamily</i> parameter specified in the 
-     <a href="..\fwpsk\nf-fwpsk-fwpsinjecttransportsendasync0.md">
+     <a href="https://msdn.microsoft.com/1298a825-16c4-49ab-b038-19247975ea46">
      FwpsInjectTransportSendAsync0</a> function.
 
 The buffer must remain valid until the injection completion function is called.
@@ -93,7 +80,7 @@ The buffer must remain valid until the injection completion function is called.
 A <b>SCOPE_ID</b> structure that contains the scope identifier for the remote IP address. The scope
      identifier is provided to a callout through the 
      <b>remoteScopeId</b> member of the 
-     <a href="..\fwpsk\ns-fwpsk-fwps_incoming_metadata_values0_.md">
+     <a href="https://msdn.microsoft.com/fba7eb60-0d19-4bfd-b484-2e615d3e9237">
      FWPS_INCOMING_METADATA_VALUES0</a> structure that is passed to the callout driver's 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a> callout function. The <b>SCOPE_ID</b>
      structure is defined in 
@@ -134,7 +121,7 @@ An optional pointer to a buffer that contains socket control data specified by t
 
 If present, socket control data is provided to a callout with the 
       <b>controlData</b> member of the 
-      <a href="..\fwpsk\ns-fwpsk-fwps_incoming_metadata_values0_.md">
+      <a href="https://msdn.microsoft.com/fba7eb60-0d19-4bfd-b484-2e615d3e9237">
       FWPS_INCOMING_METADATA_VALUES0</a> structure that is passed to the callout driver's 
       <a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a> callout function.
 
@@ -152,12 +139,6 @@ The length, in bytes, of the
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/3b2ba645-6a70-4ba2-b4a2-5bde0c7f8d08">WSASendMsg</a>
-
-
-
-<a href="..\fwpsk\nf-fwpsk-fwpsinjecttransportsendasync0.md">
-   FwpsInjectTransportSendAsync0</a>
 
 
 
@@ -165,19 +146,25 @@ The length, in bytes, of the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a>
-
-
-
-<a href="..\fwpsk\ns-fwpsk-fwps_incoming_metadata_values0_.md">
+<a href="https://msdn.microsoft.com/fba7eb60-0d19-4bfd-b484-2e615d3e9237">
    FWPS_INCOMING_METADATA_VALUES0</a>
 
 
 
-<a href="..\fwpsk\ns-fwpsk-fwps_transport_send_params1_.md">FWPS_TRANSPORT_SEND_PARAMS1</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552423">FWPS_TRANSPORT_SEND_PARAMS1</a>
 
 
 
+<a href="https://msdn.microsoft.com/1298a825-16c4-49ab-b038-19247975ea46">
+   FwpsInjectTransportSendAsync0</a>
+
+
+
+<a href="https://msdn.microsoft.com/3b2ba645-6a70-4ba2-b4a2-5bde0c7f8d08">WSASendMsg</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a>
  
 
  

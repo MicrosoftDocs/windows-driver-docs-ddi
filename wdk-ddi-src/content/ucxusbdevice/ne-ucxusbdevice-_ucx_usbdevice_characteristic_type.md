@@ -53,16 +53,6 @@ req.product: Windows 10 or later.
 Defines values that indicates the type of device characteristic.
 
 
-## -syntax
-
-
-````
-typedef enum _UCX_USBDEVICE_CHARACTERISTIC_TYPE { 
-  UCX_USBDEVICE_CHARACTERISTIC_TYPE_PATH_DELAY  = 0x01
-} UCX_USBDEVICE_CHARACTERISTIC_TYPE, *PUCX_USBDEVICE_CHARACTERISTIC_TYPE;
-````
-
-
 ## -enum-fields
 
 
@@ -75,14 +65,14 @@ The type of characteristic of the device.
 
 ## -see-also
 
-<a href="..\ucxusbdevice\ns-ucxusbdevice-_ucx_usbdevice_characteristic.md">UCX_USBDEVICE_CHARACTERISTIC</a>
 
 
 
-<a href="..\ucxusbdevice\nc-ucxusbdevice-evt_ucx_usbdevice_get_characteristic.md">EVT_UCX_USBDEVICE_GET_CHARACTERISTIC</a>
+<a href="https://msdn.microsoft.com/EE8568F6-3D88-477E-9F0D-044D014EBCF3">EVT_UCX_USBDEVICE_GET_CHARACTERISTIC</a>
 
 
 
+<a href="https://msdn.microsoft.com/31BF5607-51EA-4FBF-A754-872FBD45915D">UCX_USBDEVICE_CHARACTERISTIC</a>
  
 
  

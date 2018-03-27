@@ -52,19 +52,6 @@ req.typenames: D3D11_1DDI_VIDEO_PROCESSOR_ROTATION
 Specifies the clockwise rotation of the input stream of the video processor.
 
 
-## -syntax
-
-
-````
-typedef enum D3D11_1DDI_VIDEO_PROCESSOR_ROTATION { 
-  D3D11_1DDI_VIDEO_PROCESSOR_ROTATION_IDENTITY  = 0,
-  D3D11_1DDI_VIDEO_PROCESSOR_ROTATION_90        = 1,
-  D3D11_1DDI_VIDEO_PROCESSOR_ROTATION_180       = 2,
-  D3D11_1DDI_VIDEO_PROCESSOR_ROTATION_270       = 3
-} D3D11_1DDI_VIDEO_PROCESSOR_ROTATION;
-````
-
-
 ## -enum-fields
 
 

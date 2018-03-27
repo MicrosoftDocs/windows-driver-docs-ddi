@@ -57,16 +57,6 @@ The <b>VmbChannelPause</b>  function moves a channel into the paused state, whic
 
 
 
-## -syntax
-
-
-````
-VOID VmbChannelPause(
-  _In_ VMBCHANNEL Channel
-);
-````
-
-
 ## -parameters
 
 

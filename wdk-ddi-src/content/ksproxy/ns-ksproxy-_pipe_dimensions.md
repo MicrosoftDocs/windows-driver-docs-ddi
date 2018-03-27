@@ -52,18 +52,6 @@ req.typenames: PIPE_DIMENSIONS, *PPIPE_DIMENSIONS
 The PIPE_DIMENSIONS structure is for proxy use and not recommended for application use. PIPE_DIMENSIONS contains information that describes the compression/expansion ratio of frames on various pins related to a pipe.
 
 
-## -syntax
-
-
-````
-typedef struct _PIPE_DIMENSIONS {
-  KS_COMPRESSION AllocatorPin;
-  KS_COMPRESSION MaxExpansionPin;
-  KS_COMPRESSION EndPin;
-} PIPE_DIMENSIONS, *PPIPE_DIMENSIONS;
-````
-
-
 ## -struct-fields
 
 

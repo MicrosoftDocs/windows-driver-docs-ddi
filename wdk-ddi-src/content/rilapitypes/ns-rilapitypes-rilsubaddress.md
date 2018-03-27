@@ -53,19 +53,6 @@ req.product: Windows 10 or later.
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef struct _RILSUBADDRESS {
-  DWORD              cbSize;
-  DWORD              dwParams;
-  RILSUBADDRESSTYPE  dwType;
-  WCHAR [256]        wszSubAddress;
-} RILSUBADDRESS, RILSUBADDRESS;
-````
-
-
 ## -struct-fields
 
 

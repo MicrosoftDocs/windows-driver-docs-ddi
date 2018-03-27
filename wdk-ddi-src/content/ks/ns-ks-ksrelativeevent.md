@@ -52,24 +52,6 @@ req.typenames: KSRELATIVEEVENT
 The <a href="https://msdn.microsoft.com/library/windows/hardware/ff565109">KSPROPERTY_CONNECTION_STARTAT</a> property is passed a KSRELATIVEEVENT structure.
 
 
-## -syntax
-
-
-````
-typedef struct {
-  ULONG       Size;
-  ULONG       Flags;
-  union {
-    HANDLE ObjectHandle;
-    PVOID  ObjectPointer;
-  };
-  PVOID       Reserved;
-  KSEVENT     Event;
-  KSEVENTDATA EventData;
-} KSRELATIVEEVENT;
-````
-
-
 ## -struct-fields
 
 
@@ -97,7 +79,7 @@ A <a href="https://msdn.microsoft.com/library/windows/hardware/ff561744">KSEVENT
 
 ### -field EventData
 
-A <a href="..\ks\ns-ks-kseventdata.md">KSEVENTDATA</a> structure that specifies the header for the event-specific data. The header itself is not actually used except as a starting point to access the event-specific data, and must be initialized to zero.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff561750">KSEVENTDATA</a> structure that specifies the header for the event-specific data. The header itself is not actually used except as a starting point to access the event-specific data, and must be initialized to zero.
 
 
 #### - ObjectHandle

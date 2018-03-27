@@ -52,17 +52,6 @@ req.typenames: RILGETOPERATORLISTPARAMS, *LPRILGETOPERATORLISTPARAMS
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef struct _RILGETOPERATORLISTPARAMS {
-  DWORD  dwExecutor;
-  DWORD  dwSystemTypes;
-} RILGETOPERATORLISTPARAMS, RILGETOPERATORLISTPARAMS;
-````
-
-
 ## -struct-fields
 
 

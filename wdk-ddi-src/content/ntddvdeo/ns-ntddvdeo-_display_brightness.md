@@ -52,18 +52,6 @@ req.typenames: DISPLAY_BRIGHTNESS, *PDISPLAY_BRIGHTNESS
 The DISPLAY_BRIGHTNESS structure is reserved for system use.
 
 
-## -syntax
-
-
-````
-typedef struct _DISPLAY_BRIGHTNESS {
-  UCHAR ucDisplayPolicy;
-  UCHAR ucACBrightness;
-  UCHAR ucDCBrightness;
-} DISPLAY_BRIGHTNESS, *PDISPLAY_BRIGHTNESS;
-````
-
-
 ## -struct-fields
 
 

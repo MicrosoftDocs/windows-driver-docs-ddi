@@ -52,26 +52,6 @@ req.typenames: DISK_PARTITION_INFO, *PDISK_PARTITION_INFO
 The <b>DISK_PARTITION_INFO</b> structure is used to report information about the disk's partition table. 
 
 
-## -syntax
-
-
-````
-typedef struct _DISK_PARTITION_INFO {
-  ULONG           SizeOfPartitionInfo;
-  PARTITION_STYLE PartitionStyle;
-  union {
-    struct {
-      ULONG Signature;
-      ULONG CheckSum;
-    } Mbr;
-    struct {
-      GUID DiskId;
-    } Gpt;
-  };
-} DISK_PARTITION_INFO, *PDISK_PARTITION_INFO;
-````
-
-
 ## -struct-fields
 
 
@@ -119,14 +99,14 @@ Specifies the GUID that uniquely identifies the disk. The <b>Gpt</b> member of t
 
 ## -see-also
 
-<a href="..\ntdddisk\ns-ntdddisk-_disk_geometry_ex.md">DISK_GEOMETRY_EX</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552618">DISK_GEOMETRY_EX</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563773">PARTITION_STYLE</a>
-
-
-
  
 
  

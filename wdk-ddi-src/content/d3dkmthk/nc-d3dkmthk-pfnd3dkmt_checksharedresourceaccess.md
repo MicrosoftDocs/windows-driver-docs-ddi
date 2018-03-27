@@ -52,16 +52,6 @@ req.typenames: DXGK_TARGETMODE_DETAIL_TIMING
 The <b>D3DKMTCheckSharedResourceAccess</b> function determines if a process can access a shared resource. 
 
 
-## -prototype
-
-
-````
-NTSTATUS APIENTRY D3DKMTCheckSharedResourceAccess(
-  _In_ const D3DKMT_CHECKSHAREDRESOURCEACCESS *pData
-);
-````
-
-
 ## -parameters
 
 
@@ -78,7 +68,7 @@ NTSTATUS APIENTRY D3DKMTCheckSharedResourceAccess(
 
 #### - pData [in]
 
- A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_checksharedresourceaccess.md">D3DKMT_CHECKSHAREDRESOURCEACCESS</a> structure that specifies parameters to determine if a process can access a shared resource. 
+ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff547312">D3DKMT_CHECKSHAREDRESOURCEACCESS</a> structure that specifies parameters to determine if a process can access a shared resource. 
 
 
 ## -returns
@@ -124,10 +114,10 @@ This function might also return other <b>NTSTATUS</b> values.
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_checksharedresourceaccess.md">D3DKMT_CHECKSHAREDRESOURCEACCESS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547312">D3DKMT_CHECKSHAREDRESOURCEACCESS</a>
  
 
  

@@ -47,16 +47,11 @@ req.product: Windows 10 or later.
 # IOCTL_USB_GET_ROOT_HUB_NAME IOCTL
 
 
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
-
 ## -description
 
 
 
-The <b>IOCTL_USB_GET_ROOT_HUB_NAME</b> I/O control request is used with the <a href="..\usbioctl\ns-usbioctl-_usb_root_hub_name.md">USB_ROOT_HUB_NAME</a> structure to retrieve the symbolic link name of the root hub.
+The <b>IOCTL_USB_GET_ROOT_HUB_NAME</b> I/O control request is used with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff540142">USB_ROOT_HUB_NAME</a> structure to retrieve the symbolic link name of the root hub.
 
 <b>IOCTL_USB_GET_ROOT_HUB_NAME</b> is a user-mode I/O control request. This request targets the USB host controller (GUID_DEVINTERFACE_USB_HOST_CONTROLLER).
 
@@ -80,12 +75,12 @@ None.
 
 ### -output-buffer
 
-On output, the <b>AssociatedIrp.SystemBuffer</b> member points to a <a href="..\usbioctl\ns-usbioctl-_usb_root_hub_name.md">USB_ROOT_HUB_NAME</a> structure that contains the symbolic link name of the root hub.  The leading "\xxx\ " text is not included in the retrieved string.
+On output, the <b>AssociatedIrp.SystemBuffer</b> member points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff540142">USB_ROOT_HUB_NAME</a> structure that contains the symbolic link name of the root hub.  The leading "\xxx\ " text is not included in the retrieved string.
 
 
 ### -output-buffer-length
 
-The size of a <a href="..\usbioctl\ns-usbioctl-_usb_root_hub_name.md">USB_ROOT_HUB_NAME</a> structure.
+The size of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff540142">USB_ROOT_HUB_NAME</a> structure.
 
 
 ### -in-out-buffer
@@ -115,10 +110,10 @@ If the root hub is removed or stopped, the request returns STATUS_SUCCESS but th
 
 ## -see-also
 
-<a href="..\usbioctl\ns-usbioctl-_usb_root_hub_name.md">USB_ROOT_HUB_NAME</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540142">USB_ROOT_HUB_NAME</a>
  
 
  

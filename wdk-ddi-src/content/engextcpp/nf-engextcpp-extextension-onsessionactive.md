@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: engextcpp.hpp
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -50,16 +50,6 @@ req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
 
 
 The <b>OnSessionActive</b> method is called by the engine to inform the EngExtCpp extension library when the debugging session becomes active.
-
-
-## -syntax
-
-
-````
-virtual void OnSessionActive(
-  [in] ULONG64 Argument
-);
-````
 
 
 ## -parameters
@@ -91,26 +81,17 @@ If this method is defined in the extension library class <a href="https://msdn.m
 
 This method is called at the beginning of a session and, if a session has already started, after the extension library is initialized.
 
-If a target is suspended, <a href="..\engextcpp\nf-engextcpp-extextension-onsessionaccessible.md">OnSessionAccessible</a> is called instead.
+If a target is suspended, <a href="https://msdn.microsoft.com/library/windows/hardware/ff552310">OnSessionAccessible</a> is called instead.
 
 
 
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544508">EXT_CLASS</a>
-
-
-
-<a href="..\engextcpp\nf-engextcpp-extextension-onsessioninactive.md">OnSessionInactive</a>
-
-
-
-<a href="..\engextcpp\nf-engextcpp-extextension-initialize.md">Initialize</a>
-
-
-
-<a href="..\engextcpp\nf-engextcpp-extextension-onsessionaccessible.md">OnSessionAccessible</a>
 
 
 
@@ -118,6 +99,15 @@ If a target is suspended, <a href="..\engextcpp\nf-engextcpp-extextension-onsess
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552310">OnSessionAccessible</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552318">OnSessionInactive</a>
  
 
  

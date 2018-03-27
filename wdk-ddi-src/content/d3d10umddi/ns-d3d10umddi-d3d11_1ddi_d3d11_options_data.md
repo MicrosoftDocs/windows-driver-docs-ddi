@@ -52,17 +52,6 @@ req.typenames: D3D11_1DDI_D3D11_OPTIONS_DATA
 Specifies options to provide data to the user-mode display driver.
 
 
-## -syntax
-
-
-````
-typedef struct D3D11_1DDI_D3D11_OPTIONS_DATA {
-  BOOL OutputMergerLogicOp;
-  BOOL AssignDebugBinarySupport;
-} D3D11_1DDI_D3D11_OPTIONS_DATA;
-````
-
-
 ## -struct-fields
 
 
@@ -75,15 +64,15 @@ Specifies whether logic operations are available in the blend state. The user-mo
 
 ### -field AssignDebugBinarySupport
 
-Specifies whether the driver supports the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_assigndebugbinary.md">AssignDebugBinary</a> function, which provides the full shader binary that is available after shader creation.
+Specifies whether the driver supports the <a href="https://msdn.microsoft.com/eb1e3c27-71c1-4920-9aa4-3253306fa3f4">AssignDebugBinary</a> function, which provides the full shader binary that is available after shader creation.
 
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_assigndebugbinary.md">AssignDebugBinary</a>
 
 
 
+<a href="https://msdn.microsoft.com/eb1e3c27-71c1-4920-9aa4-3253306fa3f4">AssignDebugBinary</a>
  
 
  

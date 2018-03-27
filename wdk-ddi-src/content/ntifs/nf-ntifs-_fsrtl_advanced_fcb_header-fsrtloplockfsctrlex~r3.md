@@ -52,19 +52,6 @@ req.typenames: TOKEN_TYPE
 The <b>FsRtlOplockFsctrlEx</b> routine performs various opportunistic lock (oplock) operations on behalf of a file system or filter driver. 
 
 
-## -syntax
-
-
-````
-NTSTATUS FsRtlOplockFsctrlEx(
-  _In_ POPLOCK Oplock,
-  _In_ PIRP    Irp,
-  _In_ ULONG   OpenCount,
-  _In_ ULONG   Flags
-);
-````
-
-
 ## -parameters
 
 
@@ -72,7 +59,7 @@ NTSTATUS FsRtlOplockFsctrlEx(
 
 ### -param Oplock [in]
 
-An opaque oplock pointer for the file. This pointer must have been initialized by a previous call to <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializeoplock.md">FsRtlInitializeOplock</a>. 
+An opaque oplock pointer for the file. This pointer must have been initialized by a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff546150">FsRtlInitializeOplock</a>. 
 
 
 ### -param Irp [in]
@@ -234,18 +221,29 @@ The value of the <i>ShareAccess</i> parameter for the IRP_MJ_CREATE request must
 </ul>
 If the request for a pending filter oplock is granted, <b>FsRtlOplockFsctrlEx</b> returns STATUS_SUCCESS. For more information about create parameters, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff548630">IRP_MJ_CREATE</a>. 
 
-Minifilters should call <a href="..\fltkernel\nf-fltkernel-fltoplockfsctrlex.md">FltOplockFsctrlEx</a> instead of <b>FsRtlOplockFsctrlEx</b>. 
+Minifilters should call <a href="https://msdn.microsoft.com/library/windows/hardware/ff543401">FltOplockFsctrlEx</a> instead of <b>FsRtlOplockFsctrlEx</b>. 
 
 
 
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545462">FSCTL_OPBATCH_ACK_CLOSE_PENDING</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545468">FSCTL_OPLOCK_BREAK_ACKNOWLEDGE</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializeoplock.md">FsRtlInitializeOplock</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545476">FSCTL_OPLOCK_BREAK_ACK_NO_2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545485">FSCTL_OPLOCK_BREAK_NOTIFY</a>
 
 
 
@@ -253,7 +251,11 @@ Minifilters should call <a href="..\fltkernel\nf-fltkernel-fltoplockfsctrlex.md"
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545462">FSCTL_OPBATCH_ACK_CLOSE_PENDING</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545518">FSCTL_REQUEST_FILTER_OPLOCK</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545530">FSCTL_REQUEST_OPLOCK</a>
 
 
 
@@ -265,15 +267,11 @@ Minifilters should call <a href="..\fltkernel\nf-fltkernel-fltoplockfsctrlex.md"
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545530">FSCTL_REQUEST_OPLOCK</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543401">FltOplockFsctrlEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545518">FSCTL_REQUEST_FILTER_OPLOCK</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545476">FSCTL_OPLOCK_BREAK_ACK_NO_2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546150">FsRtlInitializeOplock</a>
 
 
 
@@ -281,18 +279,7 @@ Minifilters should call <a href="..\fltkernel\nf-fltkernel-fltoplockfsctrlex.md"
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltoplockfsctrlex.md">FltOplockFsctrlEx</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545485">FSCTL_OPLOCK_BREAK_NOTIFY</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550751">IRP_MJ_FILE_SYSTEM_CONTROL</a>
-
-
-
  
 
  

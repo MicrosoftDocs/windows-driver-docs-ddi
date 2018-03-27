@@ -1,6 +1,6 @@
 ---
 UID: NC:usbbusif.PUSB_BUSIFFN_IS_DEVICE_HIGH_SPEED
-title: USB_BUSIFFN_IS_DEVICE_HIGH_SPEED
+title: PUSB_BUSIFFN_IS_DEVICE_HIGH_SPEED
 author: windows-driver-content
 description: The USB_BUSIFFN_IS_DEVICE_HIGH_SPEED routine returns TRUE if the device is operating at high speed.
 old-location: buses\isdevicehighspeed.htm
@@ -53,19 +53,6 @@ req.product: Windows 10 or later.
 The USB_BUSIFFN_IS_DEVICE_HIGH_SPEED routine returns <b>TRUE</b> if the device  is operating at high speed. 
 
 
-## -prototype
-
-
-````
-USB_BUSIFFN_IS_DEVICE_HIGH_SPEED IsDeviceHighSpeed;
-
-BOOLEAN IsDeviceHighSpeed(
-  _In_opt_ PVOID BusContext
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -81,7 +68,7 @@ BOOLEAN IsDeviceHighSpeed(
 
 #### - BusContext [in, optional]
 
-Handle returned in the <b>BusContext</b> member of the <a href="..\usbbusif\ns-usbbusif-_usb_bus_interface_usbdi_v1.md">USB_BUS_INTERFACE_USBDI_V1</a> structure by an IRP_MN_QUERY_INTERFACE request. 
+Handle returned in the <b>BusContext</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff539213">USB_BUS_INTERFACE_USBDI_V1</a> structure by an IRP_MN_QUERY_INTERFACE request. 
 
 
 ## -returns
@@ -109,10 +96,10 @@ The function definition that is provided on this reference page is an example ro
 
 ## -see-also
 
-<a href="..\usbbusif\ns-usbbusif-_usb_bus_interface_usbdi_v1.md">USB_BUS_INTERFACE_USBDI_V1</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539213">USB_BUS_INTERFACE_USBDI_V1</a>
  
 
  

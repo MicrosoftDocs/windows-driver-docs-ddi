@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: "_IRQL_requires_max_(APC_LEVEL)"
 topic_type:
@@ -49,19 +49,7 @@ req.typenames: EXpsFontRestriction
 ## -description
 
 
-This routine adds a caller allocated open reparse structure, <a href="..\ntifs\ns-ntifs-_open_reparse_list_entry.md">OPEN_REPARSE_LIST_ENTRY</a>,  into a create operation.
-
-
-## -syntax
-
-
-````
-NTSTATUS FltAddOpenReparseEntry(
-  _In_ PFLT_FILTER              Filter,
-  _In_ PFLT_CALLBACK_DATA       Data,
-  _In_ POPEN_REPARSE_LIST_ENTRY OpenReparseEntry
-);
-````
+This routine adds a caller allocated open reparse structure, <a href="https://msdn.microsoft.com/A6D28F60-FA38-45EA-9E3C-D2E6F899333E">OPEN_REPARSE_LIST_ENTRY</a>,  into a create operation.
 
 
 ## -parameters
@@ -81,7 +69,7 @@ The create operation to attach open reparse information to.
 
 ### -param OpenReparseEntry [in]
 
-The open reparse information to add, of type <a href="..\ntifs\ns-ntifs-_open_reparse_list_entry.md">OPEN_REPARSE_LIST_ENTRY</a>.
+The open reparse information to add, of type <a href="https://msdn.microsoft.com/A6D28F60-FA38-45EA-9E3C-D2E6F899333E">OPEN_REPARSE_LIST_ENTRY</a>.
 
 
 ## -returns
@@ -131,17 +119,17 @@ This routine adds an ECP list and/or ECP as needed.  <i>Filter</i> is referenced
     for the lifetime of the open reparse entry structure, not the ECP itself,
     which is conceptually independent of any specific filter.
 
-Use <a href="..\fltkernel\nf-fltkernel-fltremoveopenreparseentry.md">FltRemoveOpenReparseEntry</a> to remove the open reparse structure from the create operation.
+Use <a href="https://msdn.microsoft.com/library/windows/hardware/mt734261">FltRemoveOpenReparseEntry</a> to remove the open reparse structure from the create operation.
 
 
 
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltremoveopenreparseentry.md">FltRemoveOpenReparseEntry</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt734261">FltRemoveOpenReparseEntry</a>
  
 
  

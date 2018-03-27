@@ -52,25 +52,6 @@ req.typenames: TOKEN_TYPE
 The <b>FsRtlNotifyFullChangeDirectory</b> routine creates a notify structure for a notification request and adds it to the specified notify list.
 
 
-## -syntax
-
-
-````
-VOID FsRtlNotifyFullChangeDirectory(
-  _In_     PNOTIFY_SYNC               NotifySync,
-  _In_     PLIST_ENTRY                NotifyList,
-  _In_     PVOID                      FsContext,
-  _In_     PSTRING                    FullDirectoryName,
-  _In_     BOOLEAN                    WatchTree,
-  _In_     BOOLEAN                    IgnoreBuffer,
-  _In_     ULONG                      CompletionFilter,
-  _In_opt_ PIRP                       NotifyIrp,
-  _In_opt_ PCHECK_FOR_TRAVERSE_ACCESS TraverseCallback,
-  _In_opt_ PSECURITY_SUBJECT_CONTEXT  SubjectContext
-);
-````
-
-
 ## -parameters
 
 
@@ -275,7 +256,7 @@ Optional pointer to a callback routine to be invoked when a change occurs in a s
 </td>
 </tr>
 </table></span></div>
-For more information about the <i>TargetContext</i> parameter, see the <i>TargetContext</i> parameter of <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnotifyfullreportchange~r8.md">FsRtlNotifyFullReportChange</a>. <i>TraverseCallback</i> is ignored if <i>NotifyIrp</i> is <b>NULL</b>.
+For more information about the <i>TargetContext</i> parameter, see the <i>TargetContext</i> parameter of <a href="https://msdn.microsoft.com/library/windows/hardware/ff547041">FsRtlNotifyFullReportChange</a>. <i>TraverseCallback</i> is ignored if <i>NotifyIrp</i> is <b>NULL</b>.
 
 
 ### -param SubjectContext [in, optional]
@@ -317,11 +298,10 @@ If the file object has not undergone cleanup, <b>FsRtlNotifyFullChangeDirectory<
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_security_subject_context.md">SECURITY_SUBJECT_CONTEXT</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnotifyfullreportchange~r8.md">FsRtlNotifyFullReportChange</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547041">FsRtlNotifyFullReportChange</a>
 
 
 
@@ -329,6 +309,7 @@ If the file object has not undergone cleanup, <b>FsRtlNotifyFullChangeDirectory<
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563714">SECURITY_SUBJECT_CONTEXT</a>
  
 
  

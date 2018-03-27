@@ -46,11 +46,6 @@ req.typenames: PDO_TYPE
 # IOCTL_EHSTOR_DEVICE_ENUMERATE_PDOS IOCTL
 
 
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
-
 ## -description
 
 
@@ -91,7 +86,7 @@ Caution is required here because IOCTL_EHSTOR_DEVICE_ENUMERATE_PDOS is defined w
 
 ### -input-buffer
 
-The input buffer at Irp-&gt;AssociatedIrp.SystemBuffer must contain a ULONG value as defined in <a href="..\ehstorioctl\ne-ehstorioctl-_pdo_type.md">PDO_TYPE</a>,
+The input buffer at Irp-&gt;AssociatedIrp.SystemBuffer must contain a ULONG value as defined in <a href="https://msdn.microsoft.com/library/windows/hardware/ff563838">PDO_TYPE</a>,
 
 where either all of the PDOs, just the disk PDO, just the control PDO or all silo PDOs are enumerated respectively according to the provided PDO_TYPE input value.
 
@@ -105,7 +100,7 @@ The length of a ULONG.
 
 Irp-&gt;AssociatedIrp.SystemBuffer points to the buffer that will receive the PDO enumeration results. If the client supplied a non-<b>NULL</b> buffer with the issued IOCTL, then the driver fills it with the result set only if the Parameters.DeviceIoControl.The return value is STATUS_SUCCESS if the buffer size is sufficient and the results have been copied to the buffer. Otherwise STATUS_INVALID_BUFFER_SIZE is returned and the output buffer is unmodified.
 
-The returned enumeration buffer contains a result set structured according to the following rules. The leading structure in the buffer, <a href="..\ehstorioctl\ns-ehstorioctl-_enum_pdo_results.md">ENUM_PDO_RESULTS</a>, consists of a structure count and an array of <a href="..\ehstorioctl\ns-ehstorioctl-_enum_pdo_entry.md">ENUM_PDO_ENTRY</a> structures.
+The returned enumeration buffer contains a result set structured according to the following rules. The leading structure in the buffer, <a href="https://msdn.microsoft.com/library/windows/hardware/ff553759">ENUM_PDO_RESULTS</a>, consists of a structure count and an array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff553757">ENUM_PDO_ENTRY</a> structures.
 
 
 ### -output-buffer-length

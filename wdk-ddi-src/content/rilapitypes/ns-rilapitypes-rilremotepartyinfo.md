@@ -53,24 +53,6 @@ req.product: Windows 10 or later.
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef struct _RILREMOTEPARTYINFO {
-  DWORD                    cbSize;
-  DWORD                    dwParams;
-  DWORD                    dwExecutor;
-  RILADDRESS               raAddress;
-  RILSUBADDRESS            rsaSubAddress;
-  WCHAR [256]              wszDescription;
-  RILREMOTEPARTYINFOVALUE  dwNumberPresentationIndicator;
-  RILREMOTEPARTYINFOVALUE  dwNamePresentationIndicator;
-  DWORD                    dwID;
-} RILREMOTEPARTYINFO, RILREMOTEPARTYINFO;
-````
-
-
 ## -struct-fields
 
 

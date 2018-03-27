@@ -54,17 +54,6 @@ The WWAN_RADIO enumeration lists the different types of radio power modes that a
   MB device.
 
 
-## -syntax
-
-
-````
-typedef enum _WWAN_RADIO { 
-  WwanRadioOff  = 0,
-  WwanRadioOn
-} WWAN_RADIO, *PWWAN_RADIO;
-````
-
-
 ## -enum-fields
 
 
@@ -82,14 +71,14 @@ The radio power is turned on.
 
 ## -see-also
 
-<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_set_radio_state.md">NDIS_WWAN_SET_RADIO_STATE</a>
 
 
 
-<a href="..\wwan\ns-wwan-_wwan_radio_state.md">WWAN_RADIO_STATE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567925">NDIS_WWAN_SET_RADIO_STATE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571225">WWAN_RADIO_STATE</a>
  
 
  

@@ -52,20 +52,6 @@ req.typenames: FILE_MAILSLOT_QUERY_INFORMATION, *PFILE_MAILSLOT_QUERY_INFORMATIO
 The <b>FILE_MAILSLOT_QUERY_INFORMATION</b> structure contains information about a  mailslot.
 
 
-## -syntax
-
-
-````
-typedef struct _FILE_MAILSLOT_QUERY_INFORMATION {
-  ULONG         MaximumMessageSize;
-  ULONG         MailslotQuota;
-  ULONG         NextMessageSize;
-  ULONG         MessagesAvailable;
-  LARGE_INTEGER ReadTimeout;
-} FILE_MAILSLOT_QUERY_INFORMATION, *PFILE_MAILSLOT_QUERY_INFORMATION;
-````
-
-
 ## -struct-fields
 
 

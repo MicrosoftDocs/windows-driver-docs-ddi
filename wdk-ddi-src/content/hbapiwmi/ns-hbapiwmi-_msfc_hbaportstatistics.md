@@ -52,30 +52,6 @@ req.typenames: MSFC_HBAPortStatistics, *PMSFC_HBAPortStatistics
 The MSFC_HBAPortStatistics structure contains statistics information about a port.
 
 
-## -syntax
-
-
-````
-typedef struct _MSFC_HBAPortStatistics {
-  LONGLONG SecondsSinceLastReset;
-  LONGLONG TxFrames;
-  LONGLONG TxWords;
-  LONGLONG RxFrames;
-  LONGLONG RxWords;
-  LONGLONG LIPCount;
-  LONGLONG NOSCount;
-  LONGLONG ErrorFrames;
-  LONGLONG DumpedFrames;
-  LONGLONG LinkFailureCount;
-  LONGLONG LossOfSyncCount;
-  LONGLONG LossOfSignalCount;
-  LONGLONG PrimitiveSeqProtocolErrCount;
-  LONGLONG InvalidTxWordCount;
-  LONGLONG InvalidCRCCount;
-} MSFC_HBAPortStatistics, *PMSFC_HBAPortStatistics;
-````
-
-
 ## -struct-fields
 
 
@@ -158,10 +134,10 @@ Contains a count of the number frames with invalid cyclic redundancy checksums.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff562513">MSFC_HBAPortStatistics WMI Class</a>
-
-
-
  
 
  

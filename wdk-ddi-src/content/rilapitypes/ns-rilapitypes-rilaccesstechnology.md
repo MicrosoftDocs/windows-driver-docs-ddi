@@ -53,25 +53,6 @@ req.product: Windows 10 or later.
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef struct _RILACCESSTECHNOLOGY {
-  DWORD                         cbSize;
-  DWORD                         dwParams;
-  DWORD                         dwSystemType;
-  NULL                          RILACCESSTECHNOLOGYKINDUNION;
-  RILACCESSTECHNOLOGYKINDUNION  kindUnion;
-  RILEVDOKIND                   dwEvdoKind;
-  RILGSMKIND                    dwGsmKind;
-  RILUMTSKIND                   dwUmtsKind;
-  RILTDSCDMAKIND                dwTdscdmaKind;
-  RILLTEKIND                    dwLteKind;
-} RILACCESSTECHNOLOGY, RILACCESSTECHNOLOGY;
-````
-
-
 ## -struct-fields
 
 

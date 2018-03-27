@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: engextcpp.hpp
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -50,19 +50,6 @@ req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
 
 
 The <b>SetArg</b> method sets a named argument for the current extension command.
-
-
-## -syntax
-
-
-````
-bool SetArg(
-  [in]           PCSTR   Name,
-  [in, optional] PCSTR   StrArg,
-  [in]           ULONG64 NumArg,
-  [in]           bool    OnlyIfUnset
-);
-````
 
 
 ## -parameters

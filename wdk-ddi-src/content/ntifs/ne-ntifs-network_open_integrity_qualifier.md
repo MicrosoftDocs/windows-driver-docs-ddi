@@ -52,20 +52,6 @@ req.typenames: NETWORK_OPEN_INTEGRITY_QUALIFIER
 The NETWORK_OPEN_INTEGRITY_QUALIFIER enumeration type contains values that identify the kind of integrity restriction to attach to a file.
 
 
-## -syntax
-
-
-````
-typedef enum  { 
-  NetworkOpenIntegrityAny        = 0,
-  NetworkOpenIntegrityNone       = 1,
-  NetworkOpenIntegritySigned     = 2,
-  NetworkOpenIntegrityEncrypted  = 3,
-  NetworkOpenIntegrityMaximum    = 4
-} NETWORK_OPEN_INTEGRITY_QUALIFIER;
-````
-
-
 ## -enum-fields
 
 

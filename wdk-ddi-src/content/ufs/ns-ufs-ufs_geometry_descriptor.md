@@ -53,49 +53,6 @@ req.product: Windows 10 or later.
 <b>UFS_GEOMETRY_DESCRIPTOR</b> describes a device's geometric parameters.
 
 
-## -syntax
-
-
-````
-typedef struct _UFS_GEOMETRY_DESCRIPTOR {
-  UCHAR bLength;
-  UCHAR bDescriptorIDN;
-  UCHAR bMediaTechnology;
-  UCHAR Reserved1;
-  UCHAR  qTotalRawDeviceCapacity[8];
-  UCHAR bMaxNumberLU;
-  UCHAR dSegmentSize[4];
-  UCHAR bAllocationUnitSize;
-  UCHAR bMinAddrBlockSize;
-  UCHAR bOptimalReadBlockSize;
-  UCHAR bOptimalWriteBlockSize;
-  UCHAR bMaxInBufferSize;
-  UCHAR bMaxOutBufferSize;
-  UCHAR bRPMB_ReadWriteSize;
-  UCHAR bDynamicCapacityResourcePolicy;
-  UCHAR bDataOrdering;
-  UCHAR bMaxContexIDNumber;
-  UCHAR bSysDataTagUnitSize;
-  UCHAR bSysDataTagResSize;
-  UCHAR bSupportedSecRTypes;
-  UCHAR wSupportedMemoryTypes[2];
-  UCHAR dSystemCodeMaxNAllocU[4];
-  UCHAR wSystemCodeCapAdjFac[2];
-  UCHAR dNonPersistMaxNAllocU[4];
-  UCHAR wNonPersistCapAdjFac[2];
-  UCHAR dEnhanced1MaxNAllocU[4];
-  UCHAR wEnhanced1CapAdjFac[2];
-  UCHAR dEnhanced2MaxNAllocU[4];
-  UCHAR wEnhanced2CapAdjFac[2];
-  UCHAR dEnhanced3MaxNAllocU[4];
-  UCHAR wEnhanced3CapAdjFac[2];
-  UCHAR dEnhanced4MaxNAllocU[4];
-  UCHAR wEnhanced4CapAdjFac[2];
-  UCHAR dOptimalLogicalBlockSize[4];
-} UFS_GEOMETRY_DESCRIPTOR, *PUFS_GEOMETRY_DESCRIPTOR;
-````
-
-
 ## -struct-fields
 
 

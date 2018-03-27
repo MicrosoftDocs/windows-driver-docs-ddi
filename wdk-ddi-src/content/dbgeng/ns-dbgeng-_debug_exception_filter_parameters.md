@@ -52,21 +52,6 @@ req.typenames: DEBUG_EXCEPTION_FILTER_PARAMETERS, *PDEBUG_EXCEPTION_FILTER_PARAM
 The DEBUG_EXCEPTION_FILTER_PARAMETERS structure contains the parameters for an exception filter.
 
 
-## -syntax
-
-
-````
-typedef struct _DEBUG_EXCEPTION_FILTER_PARAMETERS {
-  ULONG ExecutionOption;
-  ULONG ContinueOption;
-  ULONG TextSize;
-  ULONG CommandSize;
-  ULONG SecondCommandSize;
-  ULONG ExceptionCode;
-} DEBUG_EXCEPTION_FILTER_PARAMETERS, *PDEBUG_EXCEPTION_FILTER_PARAMETERS;
-````
-
-
 ## -struct-fields
 
 
@@ -104,14 +89,14 @@ The exception code for the exception filter.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546650">GetExceptionFilterParameters</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556683">SetExceptionFilterParameters</a>
-
-
-
  
 
  

@@ -53,20 +53,6 @@ req.product: Windows 10 or later.
 The <b>HwStorInitializeTracing</b> callback routine allows the Storport virtual miniport driver to set up tracing and any related resources.
 
 
-## -prototype
-
-
-````
-HW_INITIALIZE_TRACING HwStorInitializeTracing;
-
-VOID HwStorInitializeTracing(
-   IN PVOID Arg1,
-   IN PVOID Arg2
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -74,12 +60,12 @@ VOID HwStorInitializeTracing(
 
 ### -param Arg1
 
-The first parameter that is passed to <a href="..\storport\nf-storport-storportinitialize.md">StorPortInitialize</a>.
+The first parameter that is passed to <a href="https://msdn.microsoft.com/library/windows/hardware/ff567108">StorPortInitialize</a>.
 
 
 ### -param Arg2
 
-The second parameter that is passed to <a href="..\storport\nf-storport-storportinitialize.md">StorPortInitialize</a>.
+The second parameter that is passed to <a href="https://msdn.microsoft.com/library/windows/hardware/ff567108">StorPortInitialize</a>.
 
 
 ## -returns

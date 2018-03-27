@@ -53,18 +53,6 @@ The NDIS_WWAN_CONTEXT_STATE structure represents the Packet Data Protocol (PDP) 
   MB device.
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_WWAN_CONTEXT_STATE {
-  NDIS_OBJECT_HEADER Header;
-  WWAN_STATUS        uStatus;
-  WWAN_CONTEXT_STATE ContextState;
-} NDIS_WWAN_CONTEXT_STATE, *PNDIS_WWAN_CONTEXT_STATE;
-````
-
-
 ## -struct-fields
 
 
@@ -118,7 +106,7 @@ sizeof(NDIS_WWAN_CONTEXT_STATE)
  
 
 For more information about these members, see 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>.
 
 
 ### -field uStatus
@@ -325,20 +313,20 @@ The operation failed because the context identified by
 ### -field ContextState
 
 A formatted 
-     <a href="..\wwan\ns-wwan-_wwan_context_state.md">WWAN_CONTEXT_STATE</a> object that
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571202">WWAN_CONTEXT_STATE</a> object that
      represents the Packet Data Protocol (PDP) context state of the device.
 
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_context_state.md">WWAN_CONTEXT_STATE</a>
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571202">WWAN_CONTEXT_STATE</a>
  
 
  

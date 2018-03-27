@@ -52,18 +52,6 @@ req.typenames: SendCTPassThru_IN, *PSendCTPassThru_IN
 The SendCTPassThru_IN structure is used to deliver input parameter data to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565409">SendCTPassThru</a> WMI method. 
 
 
-## -syntax
-
-
-````
-typedef struct _SendCTPassThru_IN {
-  UCHAR PortWWN[8];
-  ULONG RequestBufferCount;
-  UCHAR RequestBuffer[1];
-} SendCTPassThru_IN, *PSendCTPassThru_IN;
-````
-
-
 ## -struct-fields
 
 
@@ -95,10 +83,10 @@ The WMI tool suite generates a declaration of the SendCTPassThru_IN structure in
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565409">SendCTPassThru</a>
-
-
-
  
 
  

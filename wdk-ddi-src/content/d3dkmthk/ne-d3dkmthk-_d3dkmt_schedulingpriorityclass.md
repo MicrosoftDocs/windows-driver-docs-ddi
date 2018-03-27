@@ -52,21 +52,6 @@ req.typenames: D3DKMT_SCHEDULINGPRIORITYCLASS
 The D3DKMT_SCHEDULINGPRIORITYCLASS enumeration type contains values that describe the scheduling priority for a process.
 
 
-## -syntax
-
-
-````
-typedef enum _D3DKMT_SCHEDULINGPRIORITYCLASS { 
-  D3DKMT_SCHEDULINGPRIORITYCLASS_IDLE          = 0,
-  D3DKMT_SCHEDULINGPRIORITYCLASS_BELOW_NORMAL  = 1,
-  D3DKMT_SCHEDULINGPRIORITYCLASS_NORMAL        = 2,
-  D3DKMT_SCHEDULINGPRIORITYCLASS_ABOVE_NORMAL  = 3,
-  D3DKMT_SCHEDULINGPRIORITYCLASS_HIGH          = 4,
-  D3DKMT_SCHEDULINGPRIORITYCLASS_REALTIME      = 5
-} D3DKMT_SCHEDULINGPRIORITYCLASS;
-````
-
-
 ## -enum-fields
 
 
@@ -104,14 +89,14 @@ The scheduling priority of the process is in real time.
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtgetprocessschedulingpriorityclass.md">D3DKMTGetProcessSchedulingPriorityClass</a>
 
 
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtsetprocessschedulingpriorityclass.md">D3DKMTSetProcessSchedulingPriorityClass</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546992">D3DKMTGetProcessSchedulingPriorityClass</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547182">D3DKMTSetProcessSchedulingPriorityClass</a>
  
 
  

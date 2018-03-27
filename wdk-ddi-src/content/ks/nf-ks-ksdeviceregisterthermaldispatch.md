@@ -53,17 +53,6 @@ req.typenames:
 This function is used by the Avstream miniport driver to register callbacks for thermal notifications with the KS port driver.
 
 
-## -syntax
-
-
-````
-void KSDDKAPI NTSTATUS NTAPI KsDeviceRegisterThermalDispatch(
-  _In_ PKSDEVICE                  KsDevice,
-  _In_ PKSDEVICE_THERMAL_DISPATCH KsDeviceThermalDispatch
-);
-````
-
-
 ## -parameters
 
 
@@ -71,7 +60,7 @@ void KSDDKAPI NTSTATUS NTAPI KsDeviceRegisterThermalDispatch(
 
 ### -param KsDevice [in]
 
-A KS device object representing the device managed by KS. For more information, see <a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a>.
+A KS device object representing the device managed by KS. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff561681">KSDEVICE</a>.
 
 
 ### -param KsDeviceThermalDispatch [in]
@@ -105,10 +94,10 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 ## -see-also
 
-<a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561681">KSDEVICE</a>
  
 
  

@@ -52,21 +52,6 @@ req.typenames: SetDSMCounters_IN, *PSetDSMCounters_IN
 The<i>MRxCompleteBufferingStateChangeRequest</i> routine is called by <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ifs/the-rdbss-driver-and-library">RDBSS</a> to notify the network mini-redirector that a buffering state change request has been completed. 
 
 
-## -prototype
-
-
-````
-PMRX_CHANGE_BUFFERING_STATE_CALLDOWN MRxCompleteBufferingStateChangeRequest;
-
-NTSTATUS MRxCompleteBufferingStateChangeRequest(
-  _Inout_ PRX_CONTEXT   RxContext,
-  _Inout_ PMRX_SRV_OPEN  SrvOpen,
-  _In_    PVOID          MRxContext
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -160,14 +145,14 @@ RDBSS ignores the return value from <i>MRxCompleteBufferingStateChangeRequest</i
 
 ## -see-also
 
-<a href="..\mrx\nc-mrx-pmrx_compute_new_buffering_state.md">MRxComputeNewBufferingState</a>
 
 
 
-<a href="..\mrx\nc-mrx-pmrx_get_connection_id.md">MRxGetConnectionId</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549856">MRxComputeNewBufferingState</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550687">MRxGetConnectionId</a>
  
 
  

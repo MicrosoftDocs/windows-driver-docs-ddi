@@ -52,17 +52,6 @@ req.typenames: D3DKMT_DESTROYOVERLAY
 The D3DKMT_DESTROYOVERLAY structure contains the handle to the overlay to destroy.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DKMT_DESTROYOVERLAY {
-  D3DKMT_HANDLE hDevice;
-  D3DKMT_HANDLE hOverlay;
-} D3DKMT_DESTROYOVERLAY;
-````
-
-
 ## -struct-fields
 
 
@@ -80,10 +69,10 @@ typedef struct _D3DKMT_DESTROYOVERLAY {
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtdestroyoverlay.md">D3DKMTDestroyOverlay</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546925">D3DKMTDestroyOverlay</a>
  
 
  

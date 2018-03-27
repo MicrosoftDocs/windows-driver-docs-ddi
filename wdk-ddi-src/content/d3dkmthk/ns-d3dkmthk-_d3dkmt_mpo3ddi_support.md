@@ -52,16 +52,6 @@ req.typenames: D3DKMT_MPO3DDI_SUPPORT
 A structure that holds the support status.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DKMT_MPO3DDI_SUPPORT {
-  BOOL Supported;
-} D3DKMT_MPO3DDI_SUPPORT;
-````
-
-
 ## -struct-fields
 
 

@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
@@ -53,16 +53,6 @@ req.product: Windows 10 or later.
 The client driver calls this method before it cancels transfers on the wire.
 
 
-## -syntax
-
-
-````
-void UcxEndpointNeedToCancelTransfers(
-  [in] UCXENDPOINT Endpoint
-);
-````
-
-
 ## -parameters
 
 
@@ -70,7 +60,7 @@ void UcxEndpointNeedToCancelTransfers(
 
 ### -param Endpoint [in]
 
-A handle to the endpoint object. The client driver retrieved the handle in a previous call to <a href="..\ucxendpoint\nf-ucxendpoint-ucxendpointcreate.md">UcxEndpointCreate</a>.
+A handle to the endpoint object. The client driver retrieved the handle in a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/mt188039">UcxEndpointCreate</a>.
 
 
 ## -returns
@@ -95,10 +85,10 @@ This method does not return a value.
 
 ## -see-also
 
-<a href="..\ucxendpoint\nf-ucxendpoint-ucxendpointcreate.md">UcxEndpointCreate</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt188039">UcxEndpointCreate</a>
  
 
  

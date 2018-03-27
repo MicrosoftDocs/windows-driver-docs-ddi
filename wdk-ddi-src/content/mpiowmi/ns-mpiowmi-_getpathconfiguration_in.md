@@ -52,16 +52,6 @@ req.typenames: GetPathConfiguration_IN, *PGetPathConfiguration_IN
 The GetPathConfiguration_IN structure is used to retrieve the per path device information.
 
 
-## -syntax
-
-
-````
-typedef struct _GetPathConfiguration_IN {
-  ULONGLONG PathID;
-} GetPathConfiguration_IN, *PGetPathConfiguration_IN;
-````
-
-
 ## -struct-fields
 
 

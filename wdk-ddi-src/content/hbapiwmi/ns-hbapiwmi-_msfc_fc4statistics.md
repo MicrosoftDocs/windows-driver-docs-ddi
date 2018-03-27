@@ -52,20 +52,6 @@ req.typenames: MSFC_FC4STATISTICS, *PMSFC_FC4STATISTICS
 The MSFC_FC4STATISTICS structure is used in conjunction with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff553949">GetFC4Statistics</a> WMI method to report traffic statistics on a port of type Nx_Port for the indicated FC-4 protocol.
 
 
-## -syntax
-
-
-````
-typedef struct _MSFC_FC4STATISTICS {
-  ULONGLONG InputRequests;
-  ULONGLONG OutputRequests;
-  ULONGLONG ControlRequests;
-  ULONGLONG InputMegabytes;
-  ULONGLONG OutputMegabytes;
-} MSFC_FC4STATISTICS, *PMSFC_FC4STATISTICS;
-````
-
-
 ## -struct-fields
 
 
@@ -109,7 +95,6 @@ If an HBA does not support a specific statistic, it shall return the value of -1
 
 ## -see-also
 
-<a href="..\hbapiwmi\ns-hbapiwmi-_getfc4statistics_in.md">GetFC4Statistics_IN</a>
 
 
 
@@ -117,10 +102,11 @@ If an HBA does not support a specific statistic, it shall return the value of -1
 
 
 
-<a href="..\hbapiwmi\ns-hbapiwmi-_getfc4statistics_out.md">GetFC4Statistics_OUT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553958">GetFC4Statistics_IN</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553960">GetFC4Statistics_OUT</a>
  
 
  

@@ -52,18 +52,6 @@ req.typenames: TOKEN_TYPE
 The <b>IoCheckQuotaBufferValidity</b> routine checks whether the specified quota buffer is valid.
 
 
-## -syntax
-
-
-````
-NTSTATUS IoCheckQuotaBufferValidity(
-  _In_  PFILE_QUOTA_INFORMATION QuotaBuffer,
-  _In_  ULONG                   QuotaLength,
-  _Out_ PULONG                  ErrorOffset
-);
-````
-
-
 ## -parameters
 
 
@@ -140,7 +128,10 @@ To be valid, the quota buffer must meet all of these conditions.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549401">IRP_MJ_SET_QUOTA</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540342">FILE_QUOTA_INFORMATION</a>
 
 
 
@@ -148,10 +139,7 @@ To be valid, the quota buffer must meet all of these conditions.
 
 
 
-<a href="..\ntifs\ns-ntifs-_file_quota_information.md">FILE_QUOTA_INFORMATION</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549401">IRP_MJ_SET_QUOTA</a>
  
 
  

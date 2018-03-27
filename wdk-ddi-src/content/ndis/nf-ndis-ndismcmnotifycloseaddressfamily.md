@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: ndis.h
+req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
@@ -55,16 +55,6 @@ The
   clients.
 
 
-## -syntax
-
-
-````
-NDIS_STATUS NdisMCmNotifyCloseAddressFamily(
-  [in] NDIS_HANDLE NdisAfHandle
-);
-````
-
-
 ## -parameters
 
 
@@ -82,7 +72,7 @@ TBD
 #### - NdisAfHandle [in]
 
 A handle that identifies the AF that NDIS should close. NDIS supplied this handle to the MCM's 
-     <a href="..\ndis\nc-ndis-protocol_cm_open_af.md">ProtocolCmOpenAf</a> function.
+     <a href="https://msdn.microsoft.com/7422c205-bc41-4121-b430-ff9e6b49dc2e">ProtocolCmOpenAf</a> function.
 
 
 ## -remarks
@@ -90,22 +80,22 @@ A handle that identifies the AF that NDIS should close. NDIS supplied this handl
 
 
 MCMs, which register as NDIS miniport drivers by calling the 
-    <a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">
+    <a href="https://msdn.microsoft.com/bed68aa8-499d-41fd-997b-a46316913cc8">
     NdisMRegisterMiniportDriver</a> function, can call the 
     <b>NdisMCmNotifyCloseAddressFamily</b> function. Stand-alone call managers instead call the 
-    <a href="..\ndis\nf-ndis-ndiscmnotifycloseaddressfamily.md">
+    <a href="https://msdn.microsoft.com/1967f663-86ce-4e9d-9498-61951bdf4db0">
     NdisCmNotifyCloseAddressFamily</a> function.
 
 To close an AF for a miniport adapter, the MCM should call 
     <b>NdisMCmNotifyCloseAddressFamily</b> from its 
-    <a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a> function. NDIS
+    <a href="https://msdn.microsoft.com/b8d452b4-bef3-4991-87cf-fac15bedfde4">MiniportHaltEx</a> function. NDIS
     subsequently calls the 
-    <a href="..\ndis\nc-ndis-protocol_cl_notify_close_af.md">
+    <a href="https://msdn.microsoft.com/0f595daa-9822-4ca6-8f25-e6f82030d4ea">
     ProtocolClNotifyCloseAf</a> function of the client that has the specified AF open.
 
 If 
     <b>NdisMCmNotifyCloseAddressFamily</b> returns NDIS_STATUS_PENDING, NDIS calls the MCM's 
-    <a href="..\ndis\nc-ndis-protocol_cm_notify_close_af_complete.md">
+    <a href="https://msdn.microsoft.com/c5bdedee-dacd-4f4d-a3d1-f1cb71a68001">
     ProtocolCmNotifyCloseAfComplete</a> function after the client completes the AF close operation.
 
 
@@ -113,32 +103,32 @@ If
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-protocol_cm_open_af.md">ProtocolCmOpenAf</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndiscmnotifycloseaddressfamily.md">
+<a href="https://msdn.microsoft.com/b8d452b4-bef3-4991-87cf-fac15bedfde4">MiniportHaltEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/1967f663-86ce-4e9d-9498-61951bdf4db0">
    NdisCmNotifyCloseAddressFamily</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563654">NdisMRegisterMiniportDriver</a>
 
 
 
-<a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
+<a href="https://msdn.microsoft.com/0f595daa-9822-4ca6-8f25-e6f82030d4ea">ProtocolClNotifyCloseAf</a>
 
 
 
-<a href="..\ndis\nc-ndis-protocol_cl_notify_close_af.md">ProtocolClNotifyCloseAf</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_cm_notify_close_af_complete.md">
+<a href="https://msdn.microsoft.com/c5bdedee-dacd-4f4d-a3d1-f1cb71a68001">
    ProtocolCmNotifyCloseAfComplete</a>
 
 
 
+<a href="https://msdn.microsoft.com/7422c205-bc41-4121-b430-ff9e6b49dc2e">ProtocolCmOpenAf</a>
  
 
  

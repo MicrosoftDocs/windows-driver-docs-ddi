@@ -52,17 +52,6 @@ req.typenames: KSEVENT_PINCAPS_CHANGENOTIFICATIONS
 
 
 
-## -syntax
-
-
-````
-typedef enum  { 
-  KSEVENT_PINCAPS_FORMATCHANGE,
-  KSEVENT_PINCAPS_JACKINFOCHANGE
-} KSEVENT_PINCAPS_CHANGENOTIFICATIONS;
-````
-
-
 ## -enum-fields
 
 

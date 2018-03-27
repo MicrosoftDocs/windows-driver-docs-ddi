@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: engextcpp.hpp
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -77,13 +77,13 @@ The <b>ExtRemoteList</b> class includes the following methods:
 <dl>
 <dd>
 
-<a href="..\engextcpp\nl-engextcpp-extremotelist.md">ExtRemoteList::ExtRemoteList (ExtRemoteData)</a>
+<a href="https://msdn.microsoft.com/db670175-ad3b-4bed-b9ad-625494319256">ExtRemoteList::ExtRemoteList (ExtRemoteData)</a>
 
 
 </dd>
 <dd>
 
-<a href="..\engextcpp\nl-engextcpp-extremotelist.md">ExtRemoteList::ExtRemoteList (ULONG64)</a>
+<a href="https://msdn.microsoft.com/c23487bb-c385-4633-b27c-12a49492f339">ExtRemoteList::ExtRemoteList (ULONG64)</a>
 
 
 </dd>
@@ -156,7 +156,7 @@ The maximum number of nodes that can be returned when iterating over the list.  
 </dd>
 <dt><a id="m_Node"></a><a id="m_node"></a><a id="M_NODE"></a><b>m_Node</b></dt>
 <dd>
-The pointer to the current item in the list.  <b>m_Node</b> is not set until an iteration is initialized using <a href="https://msdn.microsoft.com/d7d9163b-54bb-4753-96a3-f92eddbe25f5">StartHead</a> or <a href="https://msdn.microsoft.com/fe9aec87-a464-4ea9-b9ca-3dbb91bb4e3e">StartTail</a>.  <b>m_Node</b> is of type <a href="..\engextcpp\nl-engextcpp-extremotedata.md">ExtRemoteData</a>, which describes the pointer.
+The pointer to the current item in the list.  <b>m_Node</b> is not set until an iteration is initialized using <a href="https://msdn.microsoft.com/d7d9163b-54bb-4753-96a3-f92eddbe25f5">StartHead</a> or <a href="https://msdn.microsoft.com/fe9aec87-a464-4ea9-b9ca-3dbb91bb4e3e">StartTail</a>.  <b>m_Node</b> is of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff544008">ExtRemoteData</a>, which describes the pointer.
 
 </dd>
 <dt><a id="m_CurIter"></a><a id="m_curiter"></a><a id="M_CURITER"></a><b>m_CurIter</b></dt>
@@ -168,18 +168,18 @@ The number of steps taken in the current list iteration.  For doubly-linked list
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544008">ExtRemoteData</a>
+
+
+
 <a href="https://msdn.microsoft.com/d7d9163b-54bb-4753-96a3-f92eddbe25f5">StartHead</a>
 
 
 
-<a href="..\engextcpp\nl-engextcpp-extremotedata.md">ExtRemoteData</a>
-
-
-
 <a href="https://msdn.microsoft.com/fe9aec87-a464-4ea9-b9ca-3dbb91bb4e3e">StartTail</a>
-
-
-
  
 
  

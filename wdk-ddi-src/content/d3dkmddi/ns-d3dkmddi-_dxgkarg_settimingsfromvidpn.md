@@ -49,21 +49,7 @@ req.typenames: DXGKARG_SETTIMINGSFROMVIDPN
 ## -description
 
 
-Used to hold the arguments for <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_settimingsfromvidpn.md">DXGKDDI_SETTIMINGSFROMVIDPN</a>.
-
-
-## -syntax
-
-
-````
-typedef struct _DXGKARG_SETTIMINGSFROMVIDPN {
-  D3DKMDT_HVIDPN            hFunctionalVidPn;
-  DXGK_SET_TIMING_FLAGS     SetFlags;
-  PDXGK_SET_TIMING_RESULTS  pResultsFlags;
-  UINT                      PathCount;
-  DXGK_SET_TIMING_PATH_INFO *pSetTimingPathInfo;
-} DXGKARG_SETTIMINGSFROMVIDPN, *PDXGKARG_SETTIMINGSFROMVIDPN;
-````
+Used to hold the arguments for <a href="https://msdn.microsoft.com/7E991251-1738-41AD-83D6-60DD7E183D68">DXGKDDI_SETTIMINGSFROMVIDPN</a>.
 
 
 ## -struct-fields

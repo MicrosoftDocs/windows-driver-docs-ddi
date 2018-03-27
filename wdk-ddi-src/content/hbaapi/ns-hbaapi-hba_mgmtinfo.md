@@ -49,25 +49,7 @@ req.typenames: HBA_MGMTINFO, *PHBA_MGMTINFO
 ## -description
 
 
-The HBA_MgmtInfo structure is used in conjunction with the <a href="..\hbaapi\nf-hbaapi-hba_setrnidmgmtinfo.md">HBA_SetRNIDMgmtInfo</a> routine to program the HBA to return the indicated request node identification information data (RNID). 
-
-
-## -syntax
-
-
-````
-typedef struct HBA_MgmtInfo {
-  HBA_WWN    wwn;
-  HBA_UINT32 unittype;
-  HBA_UINT32 PortId;
-  HBA_UINT32 NumberOfAttachedNodes;
-  HBA_UINT16 IPVersion;
-  HBA_UINT16 UDPPort;
-  HBA_UINT8  IPAddress[16];
-  HBA_UINT16 reserved;
-  HBA_UINT16 TopologyDiscoveryFlags;
-} HBA_MGMTINFO, *PHBA_MGMTINFO;
-````
+The HBA_MgmtInfo structure is used in conjunction with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff557231">HBA_SetRNIDMgmtInfo</a> routine to program the HBA to return the indicated request node identification information data (RNID). 
 
 
 ## -struct-fields
@@ -122,14 +104,14 @@ Contains the topology discovery flags. For an explanation of this member, see th
 
 ## -see-also
 
-<a href="..\hbaapi\nf-hbaapi-hba_setrnidmgmtinfo.md">HBA_SetRNIDMgmtInfo</a>
 
 
 
-<a href="..\hbaapi\nf-hbaapi-hba_getrnidmgmtinfo.md">HBA_GetRNIDMgmtInfo</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556109">HBA_GetRNIDMgmtInfo</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557231">HBA_SetRNIDMgmtInfo</a>
  
 
  

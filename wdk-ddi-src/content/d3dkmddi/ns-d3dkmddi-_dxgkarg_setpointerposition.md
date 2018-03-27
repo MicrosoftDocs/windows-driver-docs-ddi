@@ -52,19 +52,6 @@ req.typenames: DXGKARG_SETPOINTERPOSITION
 The DXGKARG_SETPOINTERPOSITION structure describes where and how to display the mouse pointer. 
 
 
-## -syntax
-
-
-````
-typedef struct _DXGKARG_SETPOINTERPOSITION {
-  D3DDDI_VIDEO_PRESENT_SOURCE_ID VidPnSourceId;
-  INT                            X;
-  INT                            Y;
-  DXGK_SETPOINTERPOSITIONFLAGS   Flags;
-} DXGKARG_SETPOINTERPOSITION;
-````
-
-
 ## -struct-fields
 
 
@@ -87,19 +74,19 @@ typedef struct _DXGKARG_SETPOINTERPOSITION {
 
 ### -field Flags
 
-[in] A <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_setpointerpositionflags.md">DXGK_SETPOINTERPOSITIONFLAGS</a> structure that identifies, in bit-field flags, information about the mouse pointer.
+[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff562051">DXGK_SETPOINTERPOSITIONFLAGS</a> structure that identifies, in bit-field flags, information about the mouse pointer.
 
 
 ## -see-also
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_setpointerposition.md">DxgkDdiSetPointerPosition</a>
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_setpointerpositionflags.md">DXGK_SETPOINTERPOSITIONFLAGS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562051">DXGK_SETPOINTERPOSITIONFLAGS</a>
 
 
 
+<a href="https://msdn.microsoft.com/b30e4f19-068c-4ab0-a2e9-b1f57592be1c">DxgkDdiSetPointerPosition</a>
  
 
  

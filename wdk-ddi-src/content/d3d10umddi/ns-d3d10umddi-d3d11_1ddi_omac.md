@@ -52,16 +52,6 @@ req.typenames: D3D11_1DDI_OMAC
 Contains a Message Authentication Code (MAC).
 
 
-## -syntax
-
-
-````
-typedef struct D3D11_1DDI_OMAC {
-  BYTE Omac[D3D_OMAC_SIZE];
-} D3D11_1DDI_OMAC;
-````
-
-
 ## -struct-fields
 
 

@@ -49,22 +49,7 @@ req.typenames: D3DKMDT_ENUMCOFUNCMODALITY_PIVOT_TYPE
 ## -description
 
 
-The D3DKMDT_ENUMCOFUNCMODALITY_PIVOT_TYPE enumeration indicates the pivot type in a call to <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_enumvidpncofuncmodality.md">DxgkDdiEnumVidPnCofuncModality</a>.
-
-
-## -syntax
-
-
-````
-typedef enum _D3DKMDT_ENUMCOFUNCMODALITY_PIVOT_TYPE { 
-  D3DKMDT_EPT_UNINITIALIZED  = 0,
-  D3DKMDT_EPT_VIDPNSOURCE    = 1,
-  D3DKMDT_EPT_VIDPNTARGET    = 2,
-  D3DKMDT_EPT_SCALING        = 3,
-  D3DKMDT_EPT_ROTATION       = 4,
-  D3DKMDT_EPT_NOPIVOT        = 5
-} D3DKMDT_ENUMCOFUNCMODALITY_PIVOT_TYPE;
-````
+The D3DKMDT_ENUMCOFUNCMODALITY_PIVOT_TYPE enumeration indicates the pivot type in a call to <a href="https://msdn.microsoft.com/6dda82bd-1a43-4ffe-b398-a9f8cee6d1c1">DxgkDdiEnumVidPnCofuncModality</a>.
 
 
 ## -enum-fields
@@ -106,17 +91,17 @@ Indicates that the enumeration has no pivot.
 
 
 
-The <b>EnumPivotType</b> member of the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_enumvidpncofuncmodality.md">DXGKARG_ENUMVIDPNCOFUNCMODALITY</a> structure is a D3DKMDT_ENUMCOFUNCMODALITY_PIVOT_TYPE value.
+The <b>EnumPivotType</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff557583">DXGKARG_ENUMVIDPNCOFUNCMODALITY</a> structure is a D3DKMDT_ENUMCOFUNCMODALITY_PIVOT_TYPE value.
 
 
 
 
 ## -see-also
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_enumvidpncofuncmodality.md">DxgkDdiEnumVidPnCofuncModality</a>
 
 
 
+<a href="https://msdn.microsoft.com/6dda82bd-1a43-4ffe-b398-a9f8cee6d1c1">DxgkDdiEnumVidPnCofuncModality</a>
  
 
  

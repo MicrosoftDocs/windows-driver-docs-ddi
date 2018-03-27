@@ -52,19 +52,6 @@ req.typenames: DXVA_COPPSetProtectionLevelCmdData
 The DXVA_COPPSetProtectionLevelCmdData structure describes the protection types and levels to set on the physical connector associated with a COPP DirectX VA device.
 
 
-## -syntax
-
-
-````
-typedef struct _DXVA_COPPSetProtectionLevelCmdData {
-  ULONG ProtType;
-  ULONG ProtLevel;
-  ULONG ExtendedInfoChangeMask;
-  ULONG ExtendedInfoData;
-} DXVA_COPPSetProtectionLevelCmdData;
-````
-
-
 ## -struct-fields
 
 
@@ -134,7 +121,6 @@ Specifies additional 32-bit data for the protection type in <b>ProtType</b>. Not
 
 ## -see-also
 
-<a href="..\dxva\ns-dxva-_dxva_coppcommand.md">DXVA_COPPCommand</a>
 
 
 
@@ -142,6 +128,7 @@ Specifies additional 32-bit data for the protection type in <b>ProtType</b>. Not
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563141">DXVA_COPPCommand</a>
  
 
  

@@ -54,19 +54,6 @@ The WWAN_PIN_FORMAT enumeration lists the different Personal Identification Numb
   are supported by the MB device.
 
 
-## -syntax
-
-
-````
-typedef enum _WWAN_PIN_FORMAT { 
-  WwanPinFormatUnknown       = 0,
-  WwanPinFormatNumeric,
-  WwanPinFormatAlphaNumeric,
-  WwanPinFormatMax
-} WWAN_PIN_FORMAT, *PWWAN_PIN_FORMAT;
-````
-
-
 ## -enum-fields
 
 
@@ -95,10 +82,10 @@ The total number of supported PIN formats.
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_pin_desc.md">WWAN_PIN_DESC</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571214">WWAN_PIN_DESC</a>
  
 
  

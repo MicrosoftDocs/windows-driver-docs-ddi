@@ -52,16 +52,6 @@ req.typenames: DXGK_QUERYGPUMMUCAPSIN
 The <b>DXGK_QUERYGPUMMUCAPSIN</b> structure holds the index of the adapter being queried.
 
 
-## -syntax
-
-
-````
-typedef struct _DXGK_QUERYGPUMMUCAPSIN {
-  UINT PhysicalAdapterIndex;
-} DXGK_QUERYGPUMMUCAPSIN;
-````
-
-
 ## -struct-fields
 
 
@@ -76,7 +66,7 @@ A zero-based physical adapter index (engine ordinal) for which the data is queri
 
 
 
-To get GpuMmu caps Dxgkrnl calls <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_queryadapterinfo.md">DxgkDdiQueryAdapterInfo</a> with the following parameters:
+To get GpuMmu caps Dxgkrnl calls <a href="https://msdn.microsoft.com/f2f4c54c-7413-48e5-a165-d71f35642b6c">DxgkDdiQueryAdapterInfo</a> with the following parameters:
 
 <pre class="syntax" xml:space="preserve"><code>DXGKARG_QUERYADAPTERINFO::Type = DXGKQAITYPE_GPUMMUCAPS;
 DXGKARG_QUERYADAPTERINFO::pInputData = buffer of DXGK_QUERYGPUMMUCAPSIN type

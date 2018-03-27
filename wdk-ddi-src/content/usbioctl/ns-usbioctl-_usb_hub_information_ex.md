@@ -50,22 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The <b>USB_HUB_INFORMATION_EX</b> structure is used with the <a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_hub_information_ex.md">IOCTL_USB_GET_HUB_INFORMATION_EX</a> I/O control request to retrieve information about a  Universal Serial Bus (USB) hub.
-
-
-## -syntax
-
-
-````
-typedef struct _USB_HUB_INFORMATION_EX {
-  USB_HUB_TYPE HubType;
-  USHORT       HighestPortNumber;
-  union {
-    USB_HUB_DESCRIPTOR    UsbHubDescriptor;
-    USB_30_HUB_DESCRIPTOR Usb30HubDescriptor;
-  } u;
-} USB_HUB_INFORMATION_EX, *PUSB_HUB_INFORMATION_EX;
-````
+The <b>USB_HUB_INFORMATION_EX</b> structure is used with the <a href="https://msdn.microsoft.com/library/windows/hardware/hh450860">IOCTL_USB_GET_HUB_INFORMATION_EX</a> I/O control request to retrieve information about a  Universal Serial Bus (USB) hub.
 
 
 ## -struct-fields
@@ -75,7 +60,7 @@ typedef struct _USB_HUB_INFORMATION_EX {
 
 ### -field HubType
 
-The type of hub: root hub, USB 2.0, or USB 3.0 hub. On successful completion of the <a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_hub_information_ex.md">IOCTL_USB_GET_HUB_INFORMATION_EX</a> I/O control request, <b>HubType</b> contains a <a href="..\usbioctl\ne-usbioctl-_usb_hub_type.md">USB_HUB_TYPE</a> enumerator that indicates the type of hub.
+The type of hub: root hub, USB 2.0, or USB 3.0 hub. On successful completion of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh450860">IOCTL_USB_GET_HUB_INFORMATION_EX</a> I/O control request, <b>HubType</b> contains a <a href="https://msdn.microsoft.com/library/windows/hardware/hh406263">USB_HUB_TYPE</a> enumerator that indicates the type of hub.
 
 
 
@@ -91,33 +76,33 @@ Indicates the number of ports on the hub. The ports are numbered from 1 to <b>Hi
 
 #### UsbHubDescriptor
 
-If <b>HubType</b> indicates a USB 2.0 hub,  <b>u.UsbHubDescriptor</b> is a <a href="..\usbspec\ns-usbspec-_usb_hub_descriptor.md">USB_HUB_DESCRIPTOR</a> structure that contains selected information from the USB 2.0/1.1 hub descriptor, as defined in the USB 2.0 Specification. 
+If <b>HubType</b> indicates a USB 2.0 hub,  <b>u.UsbHubDescriptor</b> is a <a href="https://msdn.microsoft.com/library/windows/hardware/ff539331">USB_HUB_DESCRIPTOR</a> structure that contains selected information from the USB 2.0/1.1 hub descriptor, as defined in the USB 2.0 Specification. 
 
 
 
 #### Usb30HubDescriptor
 
-If <b>HubType</b> indicates a USB 3.0 hub,  <b>u.UsbHub30Descriptor</b> is a <a href="..\usbspec\ns-usbspec-_usb_30_hub_descriptor.md">USB_30_HUB_DESCRIPTOR</a> structure that contains selected information from the USB 3.0 hub descriptor, as defined in the USB 3.0 Specification.
+If <b>HubType</b> indicates a USB 3.0 hub,  <b>u.UsbHub30Descriptor</b> is a <a href="https://msdn.microsoft.com/library/windows/hardware/hh406254">USB_30_HUB_DESCRIPTOR</a> structure that contains selected information from the USB 3.0 hub descriptor, as defined in the USB 3.0 Specification.
 
 
 ## -see-also
 
-<a href="..\usbspec\ns-usbspec-_usb_30_hub_descriptor.md">USB_30_HUB_DESCRIPTOR</a>
 
 
 
-<a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_hub_information_ex.md">IOCTL_USB_GET_HUB_INFORMATION_EX</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450860">IOCTL_USB_GET_HUB_INFORMATION_EX</a>
 
 
 
-<a href="..\usbioctl\ne-usbioctl-_usb_hub_type.md">USB_HUB_TYPE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406254">USB_30_HUB_DESCRIPTOR</a>
 
 
 
-<a href="..\usbspec\ns-usbspec-_usb_hub_descriptor.md">USB_HUB_DESCRIPTOR</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539331">USB_HUB_DESCRIPTOR</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406263">USB_HUB_TYPE</a>
  
 
  

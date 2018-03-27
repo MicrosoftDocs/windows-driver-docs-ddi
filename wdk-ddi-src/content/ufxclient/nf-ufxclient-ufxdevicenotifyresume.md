@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: DISPATCH_LEVEL
 topic_type:
@@ -53,16 +53,6 @@ req.product: Windows 10 or later.
 Notifies UFX about a USB bus resume event.
 
 
-## -syntax
-
-
-````
-VOID UfxDeviceNotifyResume(
-  [in] UFXDEVICE UfxDevice
-);
-````
-
-
 ## -parameters
 
 
@@ -70,7 +60,7 @@ VOID UfxDeviceNotifyResume(
 
 ### -param UfxDevice [in]
 
-A handle to a UFX device object that the driver created by calling <a href="..\ufxclient\nf-ufxclient-ufxdevicecreate.md">UfxDeviceCreate</a>.
+A handle to a UFX device object that the driver created by calling <a href="https://msdn.microsoft.com/library/windows/hardware/mt187951">UfxDeviceCreate</a>.
 
 
 ## -returns
@@ -88,7 +78,7 @@ This method does not return a value.
 
 The client driver calls <b>UfxDeviceNotifyResume</b> when it receives a bus resume event. The controller should return to the same state it was in at the time of the bus resume event.
 
-The client driver typically calls <b>UfxDeviceNotifyResume</b> from its <a href="..\wdfinterrupt\nc-wdfinterrupt-evt_wdf_interrupt_dpc.md">EvtInterruptDpc</a> callback function.  The following example shows how to handle a resume event.
+The client driver typically calls <b>UfxDeviceNotifyResume</b> from its <a href="https://msdn.microsoft.com/d2d505e0-aeac-4871-8c60-d026b2833043">EvtInterruptDpc</a> callback function.  The following example shows how to handle a resume event.
 
 <div class="code"><span codelanguage=""><table>
 <tr>

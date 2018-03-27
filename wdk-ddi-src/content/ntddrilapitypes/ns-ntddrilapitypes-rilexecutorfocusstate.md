@@ -52,19 +52,6 @@ req.typenames: RILEXECUTORFOCUSSTATE, *LPRILEXECUTORFOCUSSTATE
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef struct _RILEXECUTORFOCUSSTATE {
-  DWORD    cbSize;
-  DWORD    dwParams;
-  DWORD    dwNumberOfExecutors;
-  BOOL [2] fFocusStates;
-} RILEXECUTORFOCUSSTATE, RILEXECUTORFOCUSSTATE;
-````
-
-
 ## -struct-fields
 
 

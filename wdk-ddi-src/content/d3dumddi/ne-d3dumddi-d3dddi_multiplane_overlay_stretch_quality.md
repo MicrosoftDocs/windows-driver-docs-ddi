@@ -52,17 +52,6 @@ req.typenames: D3DDDI_MULTIPLANE_OVERLAY_STRETCH_QUALITY
 Identifies filtering processes that the hardware should perform when it stretches or shrinks multiplane overlay data.
 
 
-## -syntax
-
-
-````
-typedef enum D3DDDI_MULTIPLANE_OVERLAY_STRETCH_QUALITY { 
-  D3DDDI_MULTIPLANE_OVERLAY_STRETCH_QUALITY_BILINEAR  = 0x1,
-  D3DDDI_MULTIPLANE_OVERLAY_STRETCH_QUALITY_HIGH      = 0x2
-} D3DDDI_MULTIPLANE_OVERLAY_STRETCH_QUALITY;
-````
-
-
 ## -enum-fields
 
 

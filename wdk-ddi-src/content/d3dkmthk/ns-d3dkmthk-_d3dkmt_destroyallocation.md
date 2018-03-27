@@ -52,19 +52,6 @@ req.typenames: D3DKMT_DESTROYALLOCATION
 The D3DKMT_DESTROYALLOCATION structure describes parameters for releasing allocations.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DKMT_DESTROYALLOCATION {
-  D3DKMT_HANDLE       hDevice;
-  D3DKMT_HANDLE       hResource;
-  const D3DKMT_HANDLE *phAllocationList;
-  UINT                AllocationCount;
-} D3DKMT_DESTROYALLOCATION;
-````
-
-
 ## -struct-fields
 
 
@@ -92,10 +79,10 @@ typedef struct _D3DKMT_DESTROYALLOCATION {
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtdestroyallocation.md">D3DKMTDestroyAllocation</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546891">D3DKMTDestroyAllocation</a>
  
 
  

@@ -53,21 +53,6 @@ req.product: Windows 10 or later.
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef struct _RILMESSAGEIN_V2 {
-  DWORD       cbSize;
-  DWORD       dwExecutor;
-  HUICCAPP    hUiccApp;
-  DWORD       dwAckID;
-  RILMESSAGE  rm;
-  DWORD       dwFlags;
-} RILMESSAGEIN_V2, RILMESSAGEIN_V2;
-````
-
-
 ## -struct-fields
 
 

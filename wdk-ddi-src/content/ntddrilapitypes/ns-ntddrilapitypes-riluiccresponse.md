@@ -52,21 +52,6 @@ req.typenames: RILUICCRESPONSE, *LPRILUICCRESPONSE
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef struct _RILUICCRESPONSE {
-  DWORD    cbSize;
-  DWORD    dwParams;
-  DWORD    dwStatusWord1;
-  DWORD    dwStatusWord2;
-  DWORD    dwResponseSize;
-  BYTE [1] pbResponse;
-} RILUICCRESPONSE, RILUICCRESPONSE;
-````
-
-
 ## -struct-fields
 
 

@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: wiautil.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -53,16 +53,6 @@ req.product: Windows 10 or later.
 The <b>CWiauDbgFn::CWiauDbgFn</b> method is used for tracing when a function or method is entered.
 
 
-## -syntax
-
-
-````
-void CWiauDbgFn(
-   LPCSTR   fname
-);
-````
-
-
 ## -parameters
 
 
@@ -84,14 +74,14 @@ This method does not return a value.
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/4be4007c-5f04-48f2-b88c-c2d71f6e8b7b">CWiauDbgFn</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540356">CWiauDbgFn::~CWiauDbgFn</a>
-
-
-
-<a href="..\wiautil\nl-wiautil-cwiaudbgfn.md">CWiauDbgFn</a>
-
-
-
  
 
  

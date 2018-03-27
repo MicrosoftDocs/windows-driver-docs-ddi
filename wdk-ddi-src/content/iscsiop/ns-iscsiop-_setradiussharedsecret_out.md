@@ -52,16 +52,6 @@ req.typenames: SetRADIUSSharedSecret_OUT, *PSetRADIUSSharedSecret_OUT
 The SetRADIUSSharedSecret_OUT structure holds the output data for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565815">SetRADIUSSharedSecret</a> method.
 
 
-## -syntax
-
-
-````
-typedef struct _SetRADIUSSharedSecret_OUT {
-  ULONG Status;
-} SetRADIUSSharedSecret_OUT, *PSetRADIUSSharedSecret_OUT;
-````
-
-
 ## -struct-fields
 
 
@@ -83,11 +73,6 @@ You must implement this method.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565815">SetRADIUSSharedSecret</a>
-
-
-
-<a href="..\iscsiop\ns-iscsiop-_setradiussharedsecret_in.md">SetRADIUSSharedSecret_IN</a>
 
 
 
@@ -95,6 +80,11 @@ You must implement this method.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565815">SetRADIUSSharedSecret</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565831">SetRADIUSSharedSecret_IN</a>
  
 
  

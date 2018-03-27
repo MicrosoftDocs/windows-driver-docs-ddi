@@ -55,16 +55,6 @@ req.typenames: D3DKMT_DRIVERVERSION
 The <b>D3DKMTSignalSynchronizationObject2</b> function inserts a signal for the specified synchronization objects in the specified context stream.
 
 
-## -syntax
-
-
-````
-NTSTATUS APIENTRY D3DKMTSignalSynchronizationObject2(
-  _In_ const D3DKMT_SIGNALSYNCHRONIZATIONOBJECT2 *pData
-);
-````
-
-
 ## -parameters
 
 
@@ -79,7 +69,7 @@ TBD
 
 #### - pData [in]
 
-A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_signalsynchronizationobject2.md">D3DKMT_SIGNALSYNCHRONIZATIONOBJECT2</a> structure that describes the synchronization objects and context stream that signaling is set up for.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff548357">D3DKMT_SIGNALSYNCHRONIZATIONOBJECT2</a> structure that describes the synchronization objects and context stream that signaling is set up for.
 
 
 ## -returns
@@ -136,10 +126,10 @@ This function might also return other NTSTATUS values.
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_signalsynchronizationobject2.md">D3DKMT_SIGNALSYNCHRONIZATIONOBJECT2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548357">D3DKMT_SIGNALSYNCHRONIZATIONOBJECT2</a>
  
 
  

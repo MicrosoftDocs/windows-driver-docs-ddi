@@ -50,21 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This routine creates a buffer from the paged pool and copies the reference string associated with the PDO into this buffer. It is the caller's responsibility to free the buffer using <a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a>.
-
-
-## -prototype
-
-
-````
-PFNQUERYREFERENCESTRING KStrQueryReferenceString;
-
-NTSTATUS KStrQueryReferenceString(
-  _In_    PVOID  Context,
-  _Inout_ PWCHAR *String
-)
-{ ... }
-````
+This routine creates a buffer from the paged pool and copies the reference string associated with the PDO into this buffer. It is the caller's responsibility to free the buffer using <a href="https://msdn.microsoft.com/library/windows/hardware/ff544590">ExFreePool</a>.
 
 
 ## -parameters
@@ -95,7 +81,7 @@ None.
 
 
 
-The driver can access this method through the <b>QueryReferenceString</b> member of the <a href="..\ks\ns-ks-bus_interface_reference.md">BUS_INTERFACE_REFERENCE</a> structure.
+The driver can access this method through the <b>QueryReferenceString</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff557584">BUS_INTERFACE_REFERENCE</a> structure.
 
 
 

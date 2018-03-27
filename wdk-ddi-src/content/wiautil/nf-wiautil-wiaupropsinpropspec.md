@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,19 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>wiauPropsInPropSpec</b> function determines whether any of a list of property specification IDs is contained within an array of such values.
-
-
-## -syntax
-
-
-````
-BOOL _stdcall wiauPropsInPropSpec(
-             LONG     NumPropSpecs,
-  _In_ const PROPSPEC *pPropSpecs,
-             int      NumProps,
-  _In_       PROPID   *pProps
-);
-````
 
 
 ## -parameters
@@ -104,17 +91,17 @@ This function returns <b>TRUE</b> as soon as it finds one of the property specif
 
 
 
-The <b>wiauPropsInPropSpec</b> function finds one or more property specification IDs within an array of property specification IDs. A related function, <a href="..\wiautil\nf-wiautil-wiaupropinpropspec.md">wiauPropInPropSpec</a>, can be used to find a single property specification ID within such an array.
+The <b>wiauPropsInPropSpec</b> function finds one or more property specification IDs within an array of property specification IDs. A related function, <a href="https://msdn.microsoft.com/library/windows/hardware/ff550171">wiauPropInPropSpec</a>, can be used to find a single property specification ID within such an array.
 
 
 
 
 ## -see-also
 
-<a href="..\wiautil\nf-wiautil-wiaupropinpropspec.md">wiauPropInPropSpec</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550171">wiauPropInPropSpec</a>
  
 
  

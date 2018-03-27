@@ -53,16 +53,6 @@ req.product: Windows 10 or later.
 Defines parameters for a request to reset an endpoint.
 
 
-## -syntax
-
-
-````
-typedef enum _ENDPOINT_RESET_FLAGS { 
-  FlagEndpointResetPreserveTransferState  = 0x1
-} ENDPOINT_RESET_FLAGS;
-````
-
-
 ## -enum-fields
 
 
@@ -75,14 +65,14 @@ The transfer state must be preserved after the endpoint reset operation is compl
 
 ## -see-also
 
-<a href="..\ucxendpoint\nc-ucxendpoint-evt_ucx_endpoint_reset.md">EVT_UCX_ENDPOINT_RESET</a>
 
 
 
-<a href="..\ucxendpoint\ns-ucxendpoint-_endpoint_reset.md">ENDPOINT_RESET</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt188021">ENDPOINT_RESET</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt187828">EVT_UCX_ENDPOINT_RESET</a>
  
 
  

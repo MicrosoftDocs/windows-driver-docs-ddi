@@ -52,17 +52,6 @@ req.typenames: EXpsFontRestriction
 The <b>FltSetActivityIdCallbackData</b> routine sets the a activity ID for an IRP in a minifilter's callback data.
 
 
-## -syntax
-
-
-````
-NTSTATUS FltSetActivityIdCallbackData(
-  _Inout_  PFLT_CALLBACK_DATA CallbackData,
-  _In_opt_ LPGUID             Guid
-);
-````
-
-
 ## -parameters
 
 
@@ -134,14 +123,14 @@ An activity ID pointed to by <i>Guid</i> was set for the IRP in <i>CallbackData<
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltpropagateactivityidtothread.md">FltPropagateActivityIdToThread</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltgetactivityidcallbackdata.md">FltGetActivityIdCallbackData</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh967698">FltGetActivityIdCallbackData</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh967700">FltPropagateActivityIdToThread</a>
  
 
  

@@ -55,19 +55,6 @@ req.typenames: TOKEN_TYPE
 The <b>RtlCaptureStackBackTrace</b> routine captures a stack back trace by walking up the stack and recording the information for each frame.
 
 
-## -syntax
-
-
-````
-USHORT RtlCaptureStackBackTrace(
-  _In_      ULONG  FramesToSkip,
-  _In_      ULONG  FramesToCapture,
-  _Out_     PVOID  *BackTrace,
-  _Out_opt_ PULONG BackTraceHash
-);
-````
-
-
 ## -parameters
 
 

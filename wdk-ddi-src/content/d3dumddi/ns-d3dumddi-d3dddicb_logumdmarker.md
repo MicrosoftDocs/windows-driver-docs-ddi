@@ -52,20 +52,6 @@ req.typenames: D3DDDICB_LOGUMDMARKER
 Specifies info about the location of an Event Tracing for Windows (ETW) marker event that the user-mode display driver has defined.
 
 
-## -syntax
-
-
-````
-typedef struct D3DDDICB_LOGUMDMARKER {
-  HANDLE  hContext;
-  UINT64  APISequenceNumber;
-  INT     Index;
-  INT     StringIndex;
-  LPCWSTR Info;
-} D3DDDICB_LOGUMDMARKER;
-````
-
-
 ## -struct-fields
 
 
@@ -73,7 +59,7 @@ typedef struct D3DDDICB_LOGUMDMARKER {
 
 ### -field hContext
 
-[in] A handle to a Direct3D context that signals ETW marker events. This is also the context that the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_rendercb.md">pfnRenderCb</a> function will be called on.
+[in] A handle to a Direct3D context that signals ETW marker events. This is also the context that the <a href="https://msdn.microsoft.com/f242162e-6237-469c-b178-5a51dcf69e32">pfnRenderCb</a> function will be called on.
 
 
 ### -field APISequenceNumber
@@ -83,7 +69,7 @@ The API sequence number that the marker event is associated with.
 
 ### -field Index
 
-Indicates which API sequence call caused this marker event. If zero, the marker event corresponds to the latest API sequence number after a call to the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setmarker.md">pfnSetMarker</a> function. If 1, the marker event is located at the following API sequence number. And so on.
+Indicates which API sequence call caused this marker event. If zero, the marker event corresponds to the latest API sequence number after a call to the <a href="https://msdn.microsoft.com/6D4DB988-D339-4B2F-A9B8-41B4FD21FE66">pfnSetMarker</a> function. If 1, the marker event is located at the following API sequence number. And so on.
 
 Should be -1 if no time stamps are associated with this marker event.
 
@@ -100,14 +86,14 @@ A custom text string embedded in the ETW packet. Can be <b>NULL</b>.
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_rendercb.md">pfnRenderCb</a>
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setmarker.md">pfnSetMarker</a>
+<a href="https://msdn.microsoft.com/f242162e-6237-469c-b178-5a51dcf69e32">pfnRenderCb</a>
 
 
 
+<a href="https://msdn.microsoft.com/6D4DB988-D339-4B2F-A9B8-41B4FD21FE66">pfnSetMarker</a>
  
 
  

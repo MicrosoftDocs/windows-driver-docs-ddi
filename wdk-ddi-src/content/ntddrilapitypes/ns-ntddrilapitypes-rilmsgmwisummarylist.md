@@ -52,23 +52,6 @@ req.typenames: RILMSGMWISUMMARYLIST, *LPRILMSGMWISUMMARYLIST
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef struct _RILMSGMWISUMMARYLIST {
-  DWORD                cbSize;
-  DWORD                dwParams;
-  DWORD                dwExecutor;
-  DWORD                dwReferenceNumber;
-  RILADDRESS           stAccountAddress;
-  DWORD                dwTotalNumberOfDetailItems;
-  DWORD                dwNumberOfSummaryItems;
-  RILMSGMWISUMMARY [1] stMwiSummary;
-} RILMSGMWISUMMARYLIST, RILMSGMWISUMMARYLIST;
-````
-
-
 ## -struct-fields
 
 

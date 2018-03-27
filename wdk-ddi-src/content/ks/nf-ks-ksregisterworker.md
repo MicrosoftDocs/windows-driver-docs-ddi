@@ -63,14 +63,6 @@ The <b>KsRegisterWorker</b> function handles clients registering for use of a th
 </table></span></div>The worker routines function on opaque PKSWORKER objects that are created for each work item queued at one time.
 
 
-## -syntax
-
-
-````
-typedef PVOID PKSWORKER; 
-````
-
-
 ## -parameters
 
 

@@ -52,18 +52,8 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 
 Call the 
   <b>NdisGetPoolFromNetBuffer</b> function to get the 
-  <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a> structure pool handle that is associated
+  <a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a> structure pool handle that is associated
   with a specified NET_BUFFER structure.
-
-
-## -syntax
-
-
-````
-NDIS_HANDLE NdisGetPoolFromNetBuffer(
-  _In_ PNET_BUFFER NetBuffer
-);
-````
 
 
 ## -parameters
@@ -74,7 +64,7 @@ NDIS_HANDLE NdisGetPoolFromNetBuffer(
 ### -param NetBuffer [in]
 
 A pointer to a previously allocated 
-     <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a> structure.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a> structure.
 
 
 ## -returns
@@ -94,7 +84,7 @@ A pointer to a previously allocated
 The handle that 
     <b>NdisGetPoolFromNetBuffer</b> returns is a required parameter in calls to NDIS functions that manipulate
     
-    <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a> structures that are from the
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a> structures that are from the
     associated NET_BUFFER structure pool.
 
 
@@ -102,10 +92,10 @@ The handle that
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a>
  
 
  

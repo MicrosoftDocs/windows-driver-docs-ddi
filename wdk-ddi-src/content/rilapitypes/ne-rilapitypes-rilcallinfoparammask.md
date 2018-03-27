@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,36 +51,6 @@ req.product: Windows 10 or later.
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef enum _RILCALLINFOPARAMMASK { 
-  RIL_PARAM_CI_ID,
-  RIL_PARAM_CI_DIRECTION,
-  RIL_PARAM_CI_STATUS,
-  RIL_PARAM_CI_TYPE,
-  RIL_PARAM_CI_MULTIPARTY,
-  RIL_PARAM_CI_ADDRESS,
-  RIL_PARAM_CI_SUBADDRESS,
-  RIL_PARAM_CI_DESCRIPTION,
-  RIL_PARAM_CI_NUM_PRES_IND,
-  RIL_PARAM_CI_NAME_PRES_IND,
-  RIL_PARAM_CI_FLAGS,
-  RIL_PARAM_CI_DISCONNECTINITIATOR,
-  RIL_PARAM_CI_DISCONNECTREASON,
-  RIL_PARAM_CI_DISCONNECTDETAILS,
-  RIL_PARAM_CI_OFFERANSWER,
-  RIL_PARAM_CI_HANDOVERSTATE,
-  RIL_PARAM_CI_CALLMODIFICATIONCAUSE,
-  RIL_PARAM_CI_RTTMODETYPE,
-  RIL_PARAM_CI_RTTCAPINFO,
-  RIL_PARAM_CI_RTTACTION,
-  RIL_PARAM_CI_ALL
-} RILCALLINFOPARAMMASK;
-````
 
 
 ## -enum-fields

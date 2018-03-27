@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
@@ -51,18 +51,8 @@ req.product: Windows 10 or later.
 
 
 
-                        Initializes the <a href="..\ucmtcpciportcontroller\ns-ucmtcpciportcontroller-_ucmtcpci_port_controller_capabilities.md">UCMTCPCI_PORT_CONTROLLER_CAPABILITIES</a> structure.
+                        Initializes the <a href="https://msdn.microsoft.com/library/windows/hardware/mt805870">UCMTCPCI_PORT_CONTROLLER_CAPABILITIES</a> structure.
                 
-
-
-## -syntax
-
-
-````
-VOID UCMTCPCI_PORT_CONTROLLER_CAPABILITIES_INIT(
-  _Out_ PUCMTCPCI_PORT_CONTROLLER_CAPABILITIES Capabilities
-);
-````
 
 
 ## -parameters
@@ -72,7 +62,7 @@ VOID UCMTCPCI_PORT_CONTROLLER_CAPABILITIES_INIT(
 
 ### -param Capabilities [out]
 
-A pointer to the driver-allocated <a href="..\ucmtcpciportcontroller\ns-ucmtcpciportcontroller-_ucmtcpci_port_controller_capabilities.md">UCMTCPCI_PORT_CONTROLLER_CAPABILITIE</a>S structure.
+A pointer to the driver-allocated <a href="https://msdn.microsoft.com/d6a30351-4d0f-462a-bbf7-672f4da75bf5">UCMTCPCI_PORT_CONTROLLER_CAPABILITIE</a>S structure.
 
 
 ## -returns
@@ -86,10 +76,10 @@ This method does not return a value.
 
 ## -see-also
 
-<a href="..\ucmtcpciportcontroller\nf-ucmtcpciportcontroller-ucmtcpciportcontrollercreate.md">UcmTcpciPortControllerCreate</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt805844">UcmTcpciPortControllerCreate</a>
  
 
  

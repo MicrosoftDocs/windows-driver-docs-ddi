@@ -52,20 +52,6 @@ req.typenames: D3DDDI_OFFER_PRIORITY
 Indicates the importance of video memory resources  that the user-mode display driver offers for reuse.
 
 
-## -syntax
-
-
-````
-typedef enum _D3DDDI_OFFER_PRIORITY { 
-  D3DDDI_OFFER_PRIORITY_NONE    = 0,
-  D3DDDI_OFFER_PRIORITY_LOW     = 1,
-  D3DDDI_OFFER_PRIORITY_NORMAL  = 2,
-  D3DDDI_OFFER_PRIORITY_HIGH    = 3,
-  D3DDDI_OFFER_PRIORITY_AUTO    = 4
-} D3DDDI_OFFER_PRIORITY;
-````
-
-
 ## -enum-fields
 
 
@@ -75,7 +61,7 @@ typedef enum _D3DDDI_OFFER_PRIORITY {
 
 The allocation should not be offered.
 
-<div class="alert"><b>Note</b>  Do not use this value in the <a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_offerallocations.md">D3DDDICB_OFFERALLOCATIONS</a>.<b>Priority</b> member.</div>
+<div class="alert"><b>Note</b>  Do not use this value in the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451158">D3DDDICB_OFFERALLOCATIONS</a>.<b>Priority</b> member.</div>
 <div> </div>
 
 ### -field D3DDDI_OFFER_PRIORITY_LOW
@@ -100,14 +86,14 @@ The video memory manager should make a policy decision on the allocation's value
 
 ## -see-also
 
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_allocationlist.md">D3DDDI_ALLOCATIONLIST</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_offerallocations.md">D3DDDICB_OFFERALLOCATIONS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451158">D3DDDICB_OFFERALLOCATIONS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544375">D3DDDI_ALLOCATIONLIST</a>
  
 
  

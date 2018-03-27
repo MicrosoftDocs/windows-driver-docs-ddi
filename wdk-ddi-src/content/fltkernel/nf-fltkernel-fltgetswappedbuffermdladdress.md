@@ -52,16 +52,6 @@ req.typenames: EXpsFontRestriction
 The <b>FltGetSwappedBufferMdlAddress</b> routine returns the memory descriptor list (MDL) address for a buffer that was swapped in by a minifilter driver. 
 
 
-## -syntax
-
-
-````
-PMDL FASTCALL FltGetSwappedBufferMdlAddress(
-  _In_ PFLT_CALLBACK_DATA CallbackData
-);
-````
-
-
 ## -parameters
 
 
@@ -98,7 +88,7 @@ It is possible for <b>FltGetSwappedBufferMdlAddress</b> to return a non-<b>NULL<
 
 It is also possible for <b>FltGetSwappedBufferMdlAddress</b> to return a non-<b>NULL</b> MDL value even if the caller did not swap in a new buffer in its preoperation callback routine. This happens in operations, such as paging I/O, where the buffer is <b>NULL</b>, and the caller swaps in a new MDL address. 
 
-The MDL for the buffer that was swapped in by the caller is automatically freed by the Filter Manager when the postoperation callback routine returns. To prevent this MDL from being freed, call <a href="..\fltkernel\nf-fltkernel-fltretainswappedbuffermdladdress.md">FltRetainSwappedBufferMdlAddress</a>. 
+The MDL for the buffer that was swapped in by the caller is automatically freed by the Filter Manager when the postoperation callback routine returns. To prevent this MDL from being freed, call <a href="https://msdn.microsoft.com/library/windows/hardware/ff544352">FltRetainSwappedBufferMdlAddress</a>. 
 
 <b>FltGetSwappedBufferMdlAddress</b> can only be called from a postoperation callback routine. 
 
@@ -107,14 +97,14 @@ The MDL for the buffer that was swapped in by the caller is automatically freed 
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltretainswappedbuffermdladdress.md">FltRetainSwappedBufferMdlAddress</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltdecodeparameters.md">FltDecodeParameters</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541956">FltDecodeParameters</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544352">FltRetainSwappedBufferMdlAddress</a>
  
 
  

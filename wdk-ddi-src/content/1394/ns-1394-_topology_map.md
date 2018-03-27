@@ -52,21 +52,6 @@ req.typenames: TOPOLOGY_MAP, *PTOPOLOGY_MAP
 The TOPOLOGY_MAP structure is used to store an IEEE 1394 bus topology map. The relations between devices are found in the port members of the entries in <b>TOP_Self_ID_Array</b>.
 
 
-## -syntax
-
-
-````
-typedef struct _TOPOLOGY_MAP {
-  USHORT  TOP_Length;
-  USHORT  TOP_CRC;
-  ULONG   TOP_Generation;
-  USHORT  TOP_Node_Count;
-  USHORT  TOP_Self_ID_Count;
-  SELF_ID TOP_Self_ID_Array[1];
-} TOPOLOGY_MAP, *PTOPOLOGY_MAP;
-````
-
-
 ## -struct-fields
 
 
@@ -113,10 +98,10 @@ All data will be in big-endian format.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537646">REQUEST_GET_SPEED_TOPOLOGY_MAPS</a>
-
-
-
  
 
  

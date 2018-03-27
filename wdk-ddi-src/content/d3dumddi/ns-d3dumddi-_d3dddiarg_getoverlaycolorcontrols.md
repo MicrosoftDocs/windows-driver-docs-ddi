@@ -52,18 +52,6 @@ req.typenames: D3DDDIARG_GETOVERLAYCOLORCONTROLS
 The D3DDDIARG_GETOVERLAYCOLORCONTROLS structure describes the parameters for retrieving an overlay's color-control settings. 
 
 
-## -syntax
-
-
-````
-typedef struct _D3DDDIARG_GETOVERLAYCOLORCONTROLS {
-  HANDLE                      hOverlay;
-  HANDLE                      hResource;
-  D3DDDI_OVERLAYCOLORCONTROLS ColorControls;
-} D3DDDIARG_GETOVERLAYCOLORCONTROLS;
-````
-
-
 ## -struct-fields
 
 
@@ -71,7 +59,7 @@ typedef struct _D3DDDIARG_GETOVERLAYCOLORCONTROLS {
 
 ### -field hOverlay
 
-[in] A handle to the overlay that <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getoverlaycolorcontrols.md">GetOverlayColorControls</a> retrieves color-control settings for.
+[in] A handle to the overlay that <a href="https://msdn.microsoft.com/23b15bb5-4394-406b-8869-f9d1e4e2b539">GetOverlayColorControls</a> retrieves color-control settings for.
 
 
 ### -field hResource
@@ -81,19 +69,19 @@ typedef struct _D3DDDIARG_GETOVERLAYCOLORCONTROLS {
 
 ### -field ColorControls
 
-[out] A <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_overlaycolorcontrols.md">D3DDDI_OVERLAYCOLORCONTROLS</a> structure that <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getoverlaycolorcontrols.md">GetOverlayColorControls</a> populates with color-control settings.
+[out] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff544612">D3DDDI_OVERLAYCOLORCONTROLS</a> structure that <a href="https://msdn.microsoft.com/23b15bb5-4394-406b-8869-f9d1e4e2b539">GetOverlayColorControls</a> populates with color-control settings.
 
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getoverlaycolorcontrols.md">GetOverlayColorControls</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_overlaycolorcontrols.md">D3DDDI_OVERLAYCOLORCONTROLS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544612">D3DDDI_OVERLAYCOLORCONTROLS</a>
 
 
 
+<a href="https://msdn.microsoft.com/23b15bb5-4394-406b-8869-f9d1e4e2b539">GetOverlayColorControls</a>
  
 
  

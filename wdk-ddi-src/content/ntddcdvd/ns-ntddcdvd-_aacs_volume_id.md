@@ -52,17 +52,6 @@ req.typenames: AACS_VOLUME_ID, *PAACS_VOLUME_ID
 The AACS_VOLUME_ID structure contains an Advanced Access Content System (AACS) volume ID and the corresponding message authentication code (MAC).
 
 
-## -syntax
-
-
-````
-typedef struct _AACS_VOLUME_ID {
-  UCHAR VolumeID[16];
-  UCHAR MAC[16];
-} AACS_VOLUME_ID, *PAACS_VOLUME_ID;
-````
-
-
 ## -struct-fields
 
 
@@ -82,17 +71,17 @@ The message authentication code (MAC) that the client uses to verify that the vo
 
 
 
-Clients retrieve an AACS volume ID with an <a href="..\ntddcdvd\ni-ntddcdvd-ioctl_aacs_read_volume_id.md">IOCTL_AACS_READ_VOLUME_ID</a> request.
+Clients retrieve an AACS volume ID with an <a href="https://msdn.microsoft.com/library/windows/hardware/ff559293">IOCTL_AACS_READ_VOLUME_ID</a> request.
 
 
 
 
 ## -see-also
 
-<a href="..\ntddcdvd\ni-ntddcdvd-ioctl_aacs_read_volume_id.md">IOCTL_AACS_READ_VOLUME_ID</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559293">IOCTL_AACS_READ_VOLUME_ID</a>
  
 
  

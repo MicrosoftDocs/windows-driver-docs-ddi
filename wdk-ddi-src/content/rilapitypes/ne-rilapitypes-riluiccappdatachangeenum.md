@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,20 +51,6 @@ req.product: Windows 10 or later.
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef enum _RILUICCAPPDATACHANGEENUM { 
-  RIL_UICCAPP_DATACHANGE_MBDN,
-  RIL_UICCAPP_DATACHANGE_EF_CSP_PLMN_UNSET,
-  RIL_UICCAPP_DATACHANGE_EF_CSP_PLMN_SET,
-  RIL_UICCAPP_DATACHANGE_ESNME,
-  RIL_UICCAPP_DATACHANGE_MAX
-} RILUICCAPPDATACHANGEENUM;
-````
 
 
 ## -enum-fields

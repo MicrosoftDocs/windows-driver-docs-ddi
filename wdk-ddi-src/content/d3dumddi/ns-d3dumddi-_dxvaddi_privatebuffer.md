@@ -52,19 +52,6 @@ req.typenames: DXVADDI_PRIVATEBUFFER
 The DXVADDI_PRIVATEBUFFER structure describes a private buffer that a nonstandard decoder uses to perform a decode operation. 
 
 
-## -syntax
-
-
-````
-typedef struct _DXVADDI_PRIVATEBUFFER {
-  HANDLE hResource;
-  UINT   SubResourceIndex;
-  UINT   DataOffset;
-  UINT   DataSize;
-} DXVADDI_PRIVATEBUFFER;
-````
-
-
 ## -struct-fields
 
 
@@ -92,10 +79,10 @@ typedef struct _DXVADDI_PRIVATEBUFFER {
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_decodeextensionexecute.md">D3DDDIARG_DECODEEXTENSIONEXECUTE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543009">D3DDDIARG_DECODEEXTENSIONEXECUTE</a>
  
 
  

@@ -52,16 +52,6 @@ req.typenames: AddRADIUSServer_OUT, *PAddRADIUSServer_OUT
 The AddRADIUSServer_OUT structure holds the output data for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550133">AddRADIUSServer</a> method.
 
 
-## -syntax
-
-
-````
-typedef struct _AddRADIUSServer_OUT {
-  ULONG Status;
-} AddRADIUSServer_OUT, *PAddRADIUSServer_OUT;
-````
-
-
 ## -struct-fields
 
 
@@ -83,7 +73,6 @@ It is optional that you implement this method.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563091">MSiSCSI_Operations WMI Class</a>
 
 
 
@@ -91,7 +80,7 @@ It is optional that you implement this method.
 
 
 
-<a href="..\iscsiop\ns-iscsiop-_addradiusserver_in.md">AddRADIUSServer_IN</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550134">AddRADIUSServer_IN</a>
 
 
 
@@ -99,6 +88,7 @@ It is optional that you implement this method.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563091">MSiSCSI_Operations WMI Class</a>
  
 
  

@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,27 +51,6 @@ req.product: Windows 10 or later.
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef enum _RILPERSOFEATURE { 
-  RIL_PERSOFEATURE_3GPP_NET,
-  RIL_PERSOFEATURE_3GPP_NETSUB,
-  RIL_PERSOFEATURE_3GPP_SP,
-  RIL_PERSOFEATURE_3GPP_CORP,
-  RIL_PERSOFEATURE_3GPP_USIM,
-  RIL_PERSOFEATURE_3GPP2_NETTYPE1,
-  RIL_PERSOFEATURE_3GPP2_NETTYPE2,
-  RIL_PERSOFEATURE_3GPP2_HRPD,
-  RIL_PERSOFEATURE_3GPP2_SP,
-  RIL_PERSOFEATURE_3GPP2_CORP,
-  RIL_PERSOFEATURE_3GPP2_UIM,
-  RIL_PERSOFEATURE_ALL
-} RILPERSOFEATURE;
-````
 
 
 ## -enum-fields

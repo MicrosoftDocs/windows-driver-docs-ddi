@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -50,23 +50,6 @@ req.typenames:
 
 
 The <b>KsPinDataIntersectionEx</b> function handles the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565198">KSPROPERTY_PIN_DATAINTERSECTION</a> through a callback function.
-
-
-## -syntax
-
-
-````
-NTSTATUS KsPinDataIntersectionEx(
-  _In_           PIRP                    Irp,
-  _In_           PKSP_PIN                Pin,
-  _Out_          PVOID                   Data,
-  _In_           ULONG                   DescriptorsCount,
-  _In_     const KSPIN_DESCRIPTOR        *Descriptor,
-  _In_           ULONG                   DescriptorSize,
-  _In_opt_       PFNKSINTERSECTHANDLEREX IntersectHandler,
-  _In_opt_       PVOID                   HandlerContext
-);
-````
 
 
 ## -parameters
@@ -106,7 +89,7 @@ Size of the descriptor structures, in bytes.
 
 ### -param IntersectHandler [in, optional]
 
-Contains the optional minidriver-defined <a href="..\ks\nc-ks-pfnksintersecthandlerex.md">KStrIntersectHandlerEx</a> callback function to compare data ranges.
+Contains the optional minidriver-defined <a href="https://msdn.microsoft.com/library/windows/hardware/ff567185">KStrIntersectHandlerEx</a> callback function to compare data ranges.
 
 
 ### -param HandlerContext [in, optional]
@@ -158,10 +141,10 @@ These differences excepted, <b>KsPinDataIntersection</b> and <b>KsPinDataInterse
 
 ## -see-also
 
-<a href="..\ks\nc-ks-pfnksintersecthandlerex.md">KStrIntersectHandlerEx</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567185">KStrIntersectHandlerEx</a>
  
 
  

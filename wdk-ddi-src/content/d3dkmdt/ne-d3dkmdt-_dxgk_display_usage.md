@@ -52,19 +52,6 @@ req.typenames: DXGK_DISPLAY_USAGE, *PDXGK_DISPLAY_USAGE
 Enum used to specify the display type being used.
 
 
-## -syntax
-
-
-````
-typedef enum _DXGK_DISPLAY_USAGE { 
-  DXGK_DU_INVALID  = 0,
-  DXGK_DU_GENERIC,
-  DXGK_DU_AR,
-  DXGK_DU_VR
-} DXGK_DISPLAY_USAGE, *PDXGK_DISPLAY_USAGE;
-````
-
-
 ## -enum-fields
 
 

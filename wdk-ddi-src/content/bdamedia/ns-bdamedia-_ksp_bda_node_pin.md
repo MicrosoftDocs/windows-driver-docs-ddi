@@ -52,19 +52,6 @@ req.typenames: KSP_BDA_NODE_PIN, *PKSP_BDA_NODE_PIN
 The KSP_BDA_NODE_PIN structure describes a property request to retrieve the controlling pin for a node. 
 
 
-## -syntax
-
-
-````
-typedef struct _KSP_BDA_NODE_PIN {
-  KSPROPERTY Property;
-  ULONG      ulNodeType;
-  ULONG      ulInputPinId;
-  ULONG      ulOutputPinId;
-} KSP_BDA_NODE_PIN, *PKSP_BDA_NODE_PIN;
-````
-
-
 ## -struct-fields
 
 
@@ -92,11 +79,14 @@ Identifier of an output pin of the filter.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566561">KSPROPSETID_BdaTopology</a>
 
 
 
-<a href="..\bdasup\nf-bdasup-bdapropertygetcontrollingpinid.md">BdaPropertyGetControllingPinId</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556480">BdaPropertyGetControllingPinId</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563473">KSNODE_DESCRIPTOR</a>
 
 
 
@@ -104,10 +94,7 @@ Identifier of an output pin of the filter.
 
 
 
-<a href="..\ks\ns-ks-_ksnode_descriptor.md">KSNODE_DESCRIPTOR</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566561">KSPROPSETID_BdaTopology</a>
  
 
  

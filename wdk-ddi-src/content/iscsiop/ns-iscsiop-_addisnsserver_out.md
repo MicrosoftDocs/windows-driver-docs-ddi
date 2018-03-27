@@ -52,16 +52,6 @@ req.typenames: AddiSNSServer_OUT, *PAddiSNSServer_OUT
 The AddiSNSServer_OUT structure holds the output data for the user-mode <b>AddISNSServer</b> method.
 
 
-## -syntax
-
-
-````
-typedef struct _AddiSNSServer_OUT {
-  ULONG Status;
-} AddiSNSServer_OUT, *PAddiSNSServer_OUT;
-````
-
-
 ## -struct-fields
 
 
@@ -83,11 +73,10 @@ It is optional that you implement this method.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563091">MSiSCSI_Operations WMI Class</a>
 
 
 
-<a href="..\iscsiop\ns-iscsiop-_addisnsserver_in.md">AddiSNSServer_IN</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550126">AddiSNSServer_IN</a>
 
 
 
@@ -95,6 +84,7 @@ It is optional that you implement this method.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563091">MSiSCSI_Operations WMI Class</a>
  
 
  

@@ -52,18 +52,8 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 
 Call the 
   <b>NdisFreeGenericObject</b> function to free a generic object that was created with the 
-  <a href="..\ndis\nf-ndis-ndisallocategenericobject.md">
+  <a href="https://msdn.microsoft.com/166584fb-8a81-4a5b-93c9-3ad5348e15a7">
   NdisAllocateGenericObject</a> function.
-
-
-## -syntax
-
-
-````
-VOID NdisFreeGenericObject(
-  _In_ PNDIS_GENERIC_OBJECT NdisGenericObject
-);
-````
 
 
 ## -parameters
@@ -81,7 +71,7 @@ TBD
 #### - NdisGenericObject [in]
 
 A pointer to the 
-     <a href="..\ndis\ns-ndis-_ndis_generic_object.md">NDIS_GENERIC_OBJECT</a> structure to be
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff565680">NDIS_GENERIC_OBJECT</a> structure to be
      freed.
 
 
@@ -100,7 +90,7 @@ None
 
 An NDIS handle is required to allocate some NDIS resources (for example, buffer pools). Components
     that do not otherwise have an NDIS handle use a pointer to an 
-    <a href="..\ndis\ns-ndis-_ndis_generic_object.md">NDIS_GENERIC_OBJECT</a> structure as an NDIS
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff565680">NDIS_GENERIC_OBJECT</a> structure as an NDIS
     handle. All resources that were allocated with this generic object pointer as the handle must be freed
     before freeing the generic object.
 
@@ -109,14 +99,14 @@ An NDIS handle is required to allocate some NDIS resources (for example, buffer 
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisallocategenericobject.md">NdisAllocateGenericObject</a>
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_generic_object.md">NDIS_GENERIC_OBJECT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565680">NDIS_GENERIC_OBJECT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561603">NdisAllocateGenericObject</a>
  
 
  

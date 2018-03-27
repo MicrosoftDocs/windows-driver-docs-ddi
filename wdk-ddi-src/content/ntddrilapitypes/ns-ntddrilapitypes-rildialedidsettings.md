@@ -52,20 +52,6 @@ req.typenames: RILDIALEDIDSETTINGS, *LPRILDIALEDIDSETTINGS
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef struct _RILDIALEDIDSETTINGS {
-  DWORD                         cbSize;
-  DWORD                         dwParams;
-  DWORD                         dwExecutor;
-  RILSERVICESETTINGSSTATUS      dwStatus;
-  RILSERVICEPROVISIONINGSTATUS  dwProvisioning;
-} RILDIALEDIDSETTINGS, RILDIALEDIDSETTINGS;
-````
-
-
 ## -struct-fields
 
 

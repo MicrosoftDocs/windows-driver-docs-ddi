@@ -52,23 +52,6 @@ req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
  Retrieves the number of quality levels that the device supports for the specified number of samples. Supported 
 
 
-## -prototype
-
-
-````
-PFND3DWDDM1_3DDI_CHECKMULTISAMPLEQUALITYLEVELS CheckMultisampleQualityLevels;
-
-VOID APIENTRY* CheckMultisampleQualityLevels(
-        D3D10DDI_HDEVICE hDevice,
-        DXGI_FORMAT      Format,
-        UINT             SampleCount,
-        UINT             Flags,
-  _Out_ UINT             *pNumQualityLevels
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -91,7 +74,7 @@ The number of samples to retrieve the quality levels for.
 
 ### -param Flags
 
-A combination of <a href="..\d3d10umddi\ne-d3d10umddi-d3dwddm1_3ddi_check_multisample_quality_levels_flag.md">D3DWDDM1_3DDI_CHECK_MULTISAMPLE_QUALITY_LEVELS_FLAG</a> values that are combined by using a bitwise <b>OR</b> operation.
+A combination of <a href="https://msdn.microsoft.com/library/windows/hardware/dn458987">D3DWDDM1_3DDI_CHECK_MULTISAMPLE_QUALITY_LEVELS_FLAG</a> values that are combined by using a bitwise <b>OR</b> operation.
 
 
 ### -param *pNumQualityLevels [out]
@@ -105,7 +88,7 @@ A pointer to a variable that receives the number of quality levels that the devi
 
 None
 
-The driver can use the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a> callback function to set an error code. The driver can set <b>E_INVALIDARG</b> if the format in the <i>Format</i> parameter does not exist or the <i>pNumQualityLevels</i> parameter is <b>NULL</b>.
+The driver can use the <a href="https://msdn.microsoft.com/968b04a7-8869-410c-a6fc-83d57726858f">pfnSetErrorCb</a> callback function to set an error code. The driver can set <b>E_INVALIDARG</b> if the format in the <i>Format</i> parameter does not exist or the <i>pNumQualityLevels</i> parameter is <b>NULL</b>.
 
 
 
@@ -127,15 +110,14 @@ If the driver receives 0 or greater than 32 in <i>SampleCount</i>, the driver al
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
 
 
 
-<a href="..\d3d10umddi\ne-d3d10umddi-d3dwddm1_3ddi_check_multisample_quality_levels_flag.md">D3DWDDM1_3DDI_CHECK_MULTISAMPLE_QUALITY_LEVELS_FLAG</a>
+<a href="https://msdn.microsoft.com/2b6a0ab8-f197-48c3-baf2-305b77b7e8b5">CheckMultisampleQualityLevels</a>
 
 
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_checkmultisamplequalitylevels.md">CheckMultisampleQualityLevels</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn458987">D3DWDDM1_3DDI_CHECK_MULTISAMPLE_QUALITY_LEVELS_FLAG</a>
 
 
 
@@ -143,6 +125,7 @@ If the driver receives 0 or greater than 32 in <i>SampleCount</i>, the driver al
 
 
 
+<a href="https://msdn.microsoft.com/968b04a7-8869-410c-a6fc-83d57726858f">pfnSetErrorCb</a>
  
 
  

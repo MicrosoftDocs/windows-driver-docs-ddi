@@ -52,19 +52,9 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 
 Call the 
   <b>NdisFreeNetBuffer</b> function to free a 
-  <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a> structure that was previously allocated
+  <a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a> structure that was previously allocated
   from a NET_BUFFER structure pool with the 
-  <a href="..\ndis\nf-ndis-ndisallocatenetbuffer.md">NdisAllocateNetBuffer</a> function.
-
-
-## -syntax
-
-
-````
-VOID NdisFreeNetBuffer(
-  _In_ PNET_BUFFER NetBuffer
-);
-````
+  <a href="https://msdn.microsoft.com/library/windows/hardware/ff561607">NdisAllocateNetBuffer</a> function.
 
 
 ## -parameters
@@ -89,14 +79,14 @@ None
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisallocatenetbuffer.md">NdisAllocateNetBuffer</a>
 
 
 
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561607">NdisAllocateNetBuffer</a>
  
 
  

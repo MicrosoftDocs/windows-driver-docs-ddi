@@ -46,11 +46,6 @@ req.typenames: DVD_STRUCTURE_FORMAT, *PDVD_STRUCTURE_FORMAT
 # IOCTL_AACS_GET_CERTIFICATE IOCTL
 
 
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
-
 ## -description
 
 
@@ -74,12 +69,12 @@ Length of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff55374
 
 ### -output-buffer
 
-The buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> contains the drive certificate with a format of <a href="..\ntddcdvd\ns-ntddcdvd-_aacs_certificate.md">AACS_CERTIFICATE</a>.
+The buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> contains the drive certificate with a format of <a href="https://msdn.microsoft.com/library/windows/hardware/ff550107">AACS_CERTIFICATE</a>.
 
 
 ### -output-buffer-length
 
-Length of an <a href="..\ntddcdvd\ns-ntddcdvd-_aacs_certificate.md">AACS_CERTIFICATE</a>.
+Length of an <a href="https://msdn.microsoft.com/library/windows/hardware/ff550107">AACS_CERTIFICATE</a>.
 
 
 ### -in-out-buffer

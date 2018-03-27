@@ -52,20 +52,6 @@ req.typenames: DXGK_PTE
 Performs a bit-block transfer (bitblt) operation from a source vertex or index buffer to a destination vertex or index buffer. Implemented by Windows Display Driver Model (WDDM) 1.2 or later user-mode display drivers.
 
 
-## -prototype
-
-
-````
-PFND3DDDI_BUFBLT1 BufBlt1;
-
-__checkReturn HRESULT APIENTRY* BufBlt1(
-  _In_       HANDLE               hDevice,
-  _In_ const D3DDDIARG_BUFFERBLT1 *pData
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -87,7 +73,7 @@ __checkReturn HRESULT APIENTRY* BufBlt1(
 
 #### - pData [in]
 
- A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_bufferblt1.md">D3DDDIARG_BUFFERBLT1</a> structure that describes the parameters of the buffer bitblt operation.
+ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh451069">D3DDDIARG_BUFFERBLT1</a> structure that describes the parameters of the buffer bitblt operation.
 
 
 ## -returns
@@ -102,14 +88,14 @@ __checkReturn HRESULT APIENTRY* BufBlt1(
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_bufferblt1.md">D3DDDIARG_BUFFERBLT1</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451069">D3DDDIARG_BUFFERBLT1</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544519">D3DDDI_DEVICEFUNCS</a>
  
 
  

@@ -49,21 +49,7 @@ req.typenames: D3D11_1DDI_GETCAPTUREHANDLEDATA
 ## -description
 
 
-The <i>pfnAllocateCb</i> callback function controls heap allocation by using a <a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddicb_allocate_0022.md">D3D12DDICB_ALLOCATE_0022</a> value.
-
-
-## -prototype
-
-
-````
-PFND3D12DDI_ALLOCATE_CB_0022 pfnAllocateCb;
-
-HRESULT APIENTRY CALLBACK* pfnAllocateCb(
-  _In_    D3D12DDI_HRTDEVICE       hRTDevice,
-  _Inout_ D3D12DDICB_ALLOCATE_0022 *Allocate
-)
-{ ... }
-````
+The <i>pfnAllocateCb</i> callback function controls heap allocation by using a <a href="https://msdn.microsoft.com/C39262BA-D1CE-4634-974A-ACCE8D321830">D3D12DDICB_ALLOCATE_0022</a> value.
 
 
 ## -parameters
@@ -71,7 +57,7 @@ HRESULT APIENTRY CALLBACK* pfnAllocateCb(
 
 
 
-### -param D3D12DDI_HRTDEVICE
+### -param Arg1
 
 
 ### -param *
@@ -85,7 +71,7 @@ HRESULT APIENTRY CALLBACK* pfnAllocateCb(
 
 #### - Allocate [in, out]
 
-A <a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddicb_allocate_0022.md">D3D12DDICB_ALLOCATE_0022</a> structure that contains information for an allocation.
+A <a href="https://msdn.microsoft.com/C39262BA-D1CE-4634-974A-ACCE8D321830">D3D12DDICB_ALLOCATE_0022</a> structure that contains information for an allocation.
 
 
 #### - hRTDevice [in]
@@ -106,7 +92,7 @@ If this callback function succeeds, it returns <b xmlns:loc="http://microsoft.co
 
 
 
-Access this callback function by using the <a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddi_corelayer_devicecallbacks_0022.md">D3D12DDI_CORELAYER_DEVICECALLBACKS_0022</a> structure.
+Access this callback function by using the <a href="https://msdn.microsoft.com/E5B7FDB6-3351-489E-B0BB-8B8DD605FCF4">D3D12DDI_CORELAYER_DEVICECALLBACKS_0022</a> structure.
 
 The driver must check the return value of the function.
 
@@ -115,18 +101,18 @@ The driver must check the return value of the function.
 
 ## -see-also
 
-<a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddi_corelayer_devicecallbacks_0022.md">D3D12DDI_CORELAYER_DEVICECALLBACKS_0022</a>
 
 
 
-<a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddicb_allocate_0022.md">D3D12DDICB_ALLOCATE_0022</a>
+<a href="https://msdn.microsoft.com/C39262BA-D1CE-4634-974A-ACCE8D321830">D3D12DDICB_ALLOCATE_0022</a>
 
 
 
-<a href="..\d3d12umddi\nc-d3d12umddi-pfnd3d12ddi_deallocate_cb_0022.md">pfnDeallocateCb</a>
+<a href="https://msdn.microsoft.com/E5B7FDB6-3351-489E-B0BB-8B8DD605FCF4">D3D12DDI_CORELAYER_DEVICECALLBACKS_0022</a>
 
 
 
+<a href="https://msdn.microsoft.com/85304F27-A522-44B7-86EC-31F670828354">pfnDeallocateCb</a>
  
 
  

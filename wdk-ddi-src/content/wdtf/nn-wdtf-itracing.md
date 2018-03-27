@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: WDTF.tlb
-req.lib: wdtf.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,7 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The <b>ITracing </b>interface sets an object's <a href="..\wdtf\ne-wdtf-__midl___midl_itf_wdtf_0000_0001_0001.md">TTraceLevel</a> value. This interface is a base interface for most of the WDTF interfaces.
+The <b>ITracing </b>interface sets an object's <a href="https://msdn.microsoft.com/library/windows/hardware/ff539616">TTraceLevel</a> value. This interface is a base interface for most of the WDTF interfaces.
 
 
 ## -inheritance
@@ -83,14 +83,13 @@ Sets the tracing level for an object.
 
 
 
-Because the <a href="..\wdtf\nn-wdtf-iaction.md">IAction</a> interface inherits from the <b>ITracing</b> interface, all WDTF plug-ins will support <b>ITracing</b>. All of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff539628">WDTF core interfaces</a> should also support <b>ITracing</b>.
+Because the <a href="https://msdn.microsoft.com/library/windows/hardware/ff538787">IAction</a> interface inherits from the <b>ITracing</b> interface, all WDTF plug-ins will support <b>ITracing</b>. All of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff539628">WDTF core interfaces</a> should also support <b>ITracing</b>.
 
 
 
 
 ## -see-also
 
-<a href="..\wdtf\nn-wdtf-itracing.md">ITracing</a>
 
 
 
@@ -98,10 +97,11 @@ Because the <a href="..\wdtf\nn-wdtf-iaction.md">IAction</a> interface inherits 
 
 
 
-<a href="..\wdtf\ne-wdtf-__midl___midl_itf_wdtf_0000_0001_0001.md">TTraceLevel</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539519">ITracing</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539616">TTraceLevel</a>
  
 
  

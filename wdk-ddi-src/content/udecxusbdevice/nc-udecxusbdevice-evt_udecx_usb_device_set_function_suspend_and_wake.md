@@ -53,22 +53,6 @@ req.product: Windows 10 or later.
 The USB device emulation class extension (UdeCx) invokes this callback function when it gets a request to change the function state of  the specified interface of the virtual USB 3.0 device.
 
 
-## -prototype
-
-
-````
-EVT_UDECX_USB_DEVICE_SET_FUNCTION_SUSPEND_AND_WAKE EvtUsbDeviceSetFunctionSuspendAndWake;
-
-NTSTATUS EvtUsbDeviceSetFunctionSuspendAndWake(
-  _In_ WDFDEVICE                       UdecxWdfDevice,
-  _In_ UDECXUSBDEVICE                  UdecxUsbDevice,
-  _In_ ULONG                           Interface,
-  _In_ UDECX_USB_DEVICE_FUNCTION_POWER FunctionPower
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -76,12 +60,12 @@ NTSTATUS EvtUsbDeviceSetFunctionSuspendAndWake(
 
 ### -param UdecxWdfDevice [in]
 
-A handle to a framework device object that represents the controller to which the USB device is attached. The client driver initialized this object in a previous call to <a href="..\udecxwdfdevice\nf-udecxwdfdevice-udecxwdfdeviceaddusbdeviceemulation.md">UdecxWdfDeviceAddUsbDeviceEmulation</a>.
+A handle to a framework device object that represents the controller to which the USB device is attached. The client driver initialized this object in a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/mt627990">UdecxWdfDeviceAddUsbDeviceEmulation</a>.
 
 
 ### -param UdecxUsbDevice [in]
 
-A handle to UDE device object. The client driver created this object in a previous call to <a href="..\udecxusbdevice\nf-udecxusbdevice-udecxusbdevicecreate.md">UdecxUsbDeviceCreate</a>.
+A handle to UDE device object. The client driver created this object in a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/mt595959">UdecxUsbDeviceCreate</a>.
 
 
 ### -param Interface [in]
@@ -91,7 +75,7 @@ This value is the <b>bInterfaceNumber</b> of the interface that is waking up.
 
 ### -param FunctionPower [in]
 
-A <a href="..\udecxusbdevice\ne-udecxusbdevice-_udecx_usb_device_function_power.md">UDECX_USB_DEVICE_FUNCTION_POWER</a>-type value that indicates whether the interface can suspend and send wake signal to the host controller.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/mt627997">UDECX_USB_DEVICE_FUNCTION_POWER</a>-type value that indicates whether the interface can suspend and send wake signal to the host controller.
 
 
 ## -returns
@@ -107,13 +91,13 @@ If the operation is successful, the callback function must return STATUS_SUCCESS
 
 
 
-The client driver registered the function in a previous call to <a href="..\udecxusbdevice\nf-udecxusbdevice-udecxusbdeviceinitsetstatechangecallbacks.md">UdecxUsbDeviceInitSetStateChangeCallbacks</a> by supplying a function pointer to its implementation.
+The client driver registered the function in a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/mt627972">UdecxUsbDeviceInitSetStateChangeCallbacks</a> by supplying a function pointer to its implementation.
 
 In the callback implementation, the client driver for the USB device is expected to perform steps to enter working state. 
 
 This event callback function applies to USB 3.0+ devices. UdeCx invokes this function to notify the client driver of a request to change the power state of a particular function. It also informs the driver whether or not the  function can wake from the new state.
 
-The power request may be completed asynchronously by returning STATUS_PENDING, and then later completing it by calling <a href="..\udecxusbdevice\nf-udecxusbdevice-udecxusbdevicesetfunctionsuspendandwakecomplete.md">UdecxUsbDeviceSetFunctionSuspendAndWakeComplete</a> with the actual completion code.
+The power request may be completed asynchronously by returning STATUS_PENDING, and then later completing it by calling <a href="https://msdn.microsoft.com/library/windows/hardware/mt627980">UdecxUsbDeviceSetFunctionSuspendAndWakeComplete</a> with the actual completion code.
 
 
 
@@ -121,7 +105,6 @@ The power request may be completed asynchronously by returning STATUS_PENDING, a
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
 
 
 
@@ -129,6 +112,7 @@ The power request may be completed asynchronously by returning STATUS_PENDING, a
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
  
 
  

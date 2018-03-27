@@ -52,20 +52,6 @@ req.typenames: D3D12DDI_VIDEO_DECODE_INPUT_STREAM_ARGUMENTS_0030
 Video decode input stream arguments.
 
 
-## -syntax
-
-
-````
-typedef struct _D3D12DDI_VIDEO_DECODE_INPUT_STREAM_ARGUMENTS_0030 {
-  D3D12DDI_VIDEO_DECODE_FRAME_ARGUMENT_0020 [D3D12DDI_VIDEO_DECODE_MAX_ARGUMENTS_0020] FrameArguments;
-  UINT                                                                                 FrameArgumentsCount;
-  D3D12DDI_VIDEO_DECODE_REFERENCE_FRAMES_0020                                          ReferenceFrames;
-  D3D12DDI_VIDEO_DECODE_COMPRESSED_BITSTREAM_0020                                      CompressedBitstream;
-  D3D12DDI_VIDEO_DECODE_DECRYPTION_ARGUMENTS_0030                                      DecryptionParameters;
-} D3D12DDI_VIDEO_DECODE_INPUT_STREAM_ARGUMENTS_0030, D3D12DDI_VIDEO_DECODE_INPUT_STREAM_ARGUMENTS_0030;
-````
-
-
 ## -struct-fields
 
 

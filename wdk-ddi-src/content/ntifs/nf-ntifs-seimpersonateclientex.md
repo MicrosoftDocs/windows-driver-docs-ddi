@@ -52,17 +52,6 @@ req.typenames: TOKEN_TYPE
 The <b>SeImpersonateClientEx</b> routine causes a thread to impersonate a user.
 
 
-## -syntax
-
-
-````
-NTSTATUS SeImpersonateClientEx(
-  _In_     PSECURITY_CLIENT_CONTEXT ClientContext,
-  _In_opt_ PETHREAD                 ServerThread
-);
-````
-
-
 ## -parameters
 
 
@@ -140,7 +129,7 @@ In cases where a higher privilege state is required, the task should be dispatch
 
 To end the impersonation of the user, call the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556717">SeStopImpersonatingClient</a> routine.
 
-The <a href="..\ntifs\nf-ntifs-psimpersonateclient.md">PsImpersonateClient</a> routine can be used to cause a server thread to impersonate a client.
+The <a href="https://msdn.microsoft.com/library/windows/hardware/ff551907">PsImpersonateClient</a> routine can be used to cause a server thread to impersonate a client.
 
 For more information about security and access control, see the documentation on these topics in the Microsoft Windows SDK. 
 
@@ -149,22 +138,22 @@ For more information about security and access control, see the documentation on
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-secreateclientsecurityfromsubjectcontext.md">SeCreateClientSecurityFromSubjectContext</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551907">PsImpersonateClient</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556595">SeCreateClientSecurity</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556598">SeCreateClientSecurityFromSubjectContext</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556717">SeStopImpersonatingClient</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-secreateclientsecurity.md">SeCreateClientSecurity</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-psimpersonateclient.md">PsImpersonateClient</a>
-
-
-
  
 
  

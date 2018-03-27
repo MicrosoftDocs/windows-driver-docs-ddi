@@ -53,24 +53,6 @@ req.product: Windows 10 or later.
 The <b>USBC_START_DEVICE_CALLBACK</b> routine allows a USB client driver to provide a custom definition of the interface collections on a device.
 
 
-## -prototype
-
-
-````
-USBC_START_DEVICE_CALLBACK UsbcStartDeviceCallback;
-
-NTSTATUS UsbcStartDeviceCallback(
-  _In_  PUSB_DEVICE_DESCRIPTOR        DeviceDescriptor,
-  _In_  PUSB_CONFIGURATION_DESCRIPTOR ConfigurationDescriptor,
-  _Out_ PUSBC_FUNCTION_DESCRIPTOR     *FunctionDescriptorBuffer,
-  _Out_ PULONG                        FunctionDescriptorBufferLength,
-  _In_  PDEVICE_OBJECT                FdoDeviceObject,
-  _In_  PDEVICE_OBJECT                PdoDeviceObject
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -88,7 +70,7 @@ The configuration of the device.
 
 ### -param *FunctionDescriptorBuffer [out]
 
-Pointer to a buffer that contains an array of function descriptors (<a href="..\usbbusif\ns-usbbusif-_usbc_function_descriptor.md">USBC_FUNCTION_DESCRIPTOR</a>).
+Pointer to a buffer that contains an array of function descriptors (<a href="https://msdn.microsoft.com/library/windows/hardware/ff539001">USBC_FUNCTION_DESCRIPTOR</a>).
 
 
 ### -param FunctionDescriptorBufferLength [out]
@@ -126,10 +108,10 @@ For a general description of the callback routine mechanism, see <a href="https:
 
 ## -see-also
 
-<a href="..\usbbusif\ns-usbbusif-_usbc_device_configuration_interface_v1.md">USBC_DEVICE_CONFIGURATION_INTERFACE_V1</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538990">USBC_DEVICE_CONFIGURATION_INTERFACE_V1</a>
  
 
  

@@ -54,20 +54,6 @@ The WWAN_CONTEXT_STATE structure represents the Packet Data Protocol (PDP) conte
   device.
 
 
-## -syntax
-
-
-````
-typedef struct _WWAN_CONTEXT_STATE {
-  ULONG                 uNwError;
-  ULONG                 ConnectionId;
-  WWAN_ACTIVATION_STATE ActivationState;
-  WWAN_VOICE_CALL_STATE VoiceCallState;
-  WWAN_IP_TYPE          IPType;
-} WWAN_CONTEXT_STATE, *PWWAN_CONTEXT_STATE;
-````
-
-
 ## -struct-fields
 
 
@@ -243,18 +229,18 @@ In case of response to the NDIS_WWAN_SET_CONTEXT_STATE, use this member to provi
 
 ## -see-also
 
-<a href="..\wwan\ne-wwan-_wwan_voice_call_state.md">WWAN_VOICE_CALL_STATE</a>
 
 
 
-<a href="..\wwan\ne-wwan-_wwan_activation_state.md">WWAN_ACTIVATION_STATE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567906">NDIS_WWAN_CONTEXT_STATE</a>
 
 
 
-<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_context_state.md">NDIS_WWAN_CONTEXT_STATE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571197">WWAN_ACTIVATION_STATE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571256">WWAN_VOICE_CALL_STATE</a>
  
 
  

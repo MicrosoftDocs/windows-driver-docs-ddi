@@ -56,17 +56,6 @@ req.product: Windows 10 or later.
 The <b>VmbChannelInitSetFlags</b> function sets flags common to server or client channel endpoints.
 
 
-## -syntax
-
-
-````
-NTSTATUS VmbChannelInitSetFlags(
-  _In_ VMBCHANNEL Channel,
-  _In_ UINT32     Flags
-);
-````
-
-
 ## -parameters
 
 

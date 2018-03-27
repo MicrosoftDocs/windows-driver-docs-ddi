@@ -52,17 +52,6 @@ req.typenames: D3DKMT_CHECKMONITORPOWERSTATE
 The D3DKMT_CHECKMONITORPOWERSTATE structure describes the connection to the monitor for which to check the power state. 
 
 
-## -syntax
-
-
-````
-typedef struct _D3DKMT_CHECKMONITORPOWERSTATE {
-  D3DKMT_HANDLE                  hAdapter;
-  D3DDDI_VIDEO_PRESENT_SOURCE_ID VidPnSourceId;
-} D3DKMT_CHECKMONITORPOWERSTATE;
-````
-
-
 ## -struct-fields
 
 
@@ -80,10 +69,10 @@ typedef struct _D3DKMT_CHECKMONITORPOWERSTATE {
 
 ## -see-also
 
-<a href="..\d3dkmthk\nc-d3dkmthk-pfnd3dkmt_checkmonitorpowerstate.md">D3DKMTCheckMonitorPowerState</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546750">D3DKMTCheckMonitorPowerState</a>
  
 
  

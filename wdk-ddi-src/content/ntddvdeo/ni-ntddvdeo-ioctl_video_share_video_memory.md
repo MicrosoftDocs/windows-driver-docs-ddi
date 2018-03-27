@@ -46,16 +46,11 @@ req.typenames: TAPE_WRITE_MARKS, *PTAPE_WRITE_MARKS
 # IOCTL_VIDEO_SHARE_VIDEO_MEMORY IOCTL
 
 
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
-
 ## -description
 
 
 
-This IOCTL is called by a process that will share user-mode video memory as a linear <a href="https://msdn.microsoft.com/f697e0db-1db0-4a81-94d8-0ca079885480">frame buffer</a>. Miniport drivers handle this IOCTL by mapping the frame buffer into the caller's address space with <a href="..\video\nf-video-videoportmapbankedmemory.md">VideoPortMapBankedMemory</a>. Otherwise this IOCTL is the same as <a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_map_video_memory.md">IOCTL_VIDEO_MAP_VIDEO_MEMORY</a>. 
+This IOCTL is called by a process that will share user-mode video memory as a linear <a href="https://msdn.microsoft.com/f697e0db-1db0-4a81-94d8-0ca079885480">frame buffer</a>. Miniport drivers handle this IOCTL by mapping the frame buffer into the caller's address space with <a href="https://msdn.microsoft.com/library/windows/hardware/ff570329">VideoPortMapBankedMemory</a>. Otherwise this IOCTL is the same as <a href="https://msdn.microsoft.com/library/windows/hardware/ff567812">IOCTL_VIDEO_MAP_VIDEO_MEMORY</a>. 
 
 This request is both modal and nonmodal: the miniport driver must return the location size of the frame buffer within video memory, and the frame buffer size and location can vary from mode to mode (modal characteristic), but a subsequent set-mode operation (to the same mode) must not cause the video memory to change location (nonmodal characteristic).
 
@@ -71,7 +66,7 @@ This IOCTL is DCI only.
 
 ### -input-buffer
 
-The VRP <b>InputBuffer</b> contains a <a href="..\ntddvdeo\ns-ntddvdeo-_video_share_memory.md">VIDEO_SHARE_MEMORY</a> structure specifying a handle to the process mapping the frame buffer, and the requested view size and offset into the shared memory. The view size plus the offset must not exceed the memory size of the adapter.
+The VRP <b>InputBuffer</b> contains a <a href="https://msdn.microsoft.com/library/windows/hardware/ff570548">VIDEO_SHARE_MEMORY</a> structure specifying a handle to the process mapping the frame buffer, and the requested view size and offset into the shared memory. The view size plus the offset must not exceed the memory size of the adapter.
 
 
 ### -input-buffer-length
@@ -85,7 +80,7 @@ The VRP <b>InputBuffer</b> contains a <a href="..\ntddvdeo\ns-ntddvdeo-_video_sh
 
 ### -output-buffer
 
-The miniport driver returns the <a href="..\ntddvdeo\ns-ntddvdeo-_video_share_memory_information.md">VIDEO_SHARE_MEMORY_INFORMATION</a> structure in the VRP <b>OutputBuffer</b>. This output contains the virtual address where the video memory is mapped, the view size in bytes of the mapped memory and the offset into the view. 
+The miniport driver returns the <a href="https://msdn.microsoft.com/library/windows/hardware/ff570549">VIDEO_SHARE_MEMORY_INFORMATION</a> structure in the VRP <b>OutputBuffer</b>. This output contains the virtual address where the video memory is mapped, the view size in bytes of the mapped memory and the offset into the view. 
 
 
 ### -output-buffer-length
@@ -117,31 +112,31 @@ The miniport driver returns the <a href="..\ntddvdeo\ns-ntddvdeo-_video_share_me
 
 ### -status-block
 
-If the miniport driver successfully maps the memory, it sets the <b>Information</b> member of the <a href="..\video\ns-video-_status_block.md">STATUS_BLOCK</a> structure to <b>sizeof</b>(VIDEO_SHARE_MEMORY_INFORMATION); otherwise, the miniport driver sets this member to zero.
+If the miniport driver successfully maps the memory, it sets the <b>Information</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff569732">STATUS_BLOCK</a> structure to <b>sizeof</b>(VIDEO_SHARE_MEMORY_INFORMATION); otherwise, the miniport driver sets this member to zero.
 
 
 ## -see-also
 
-<a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_map_video_memory.md">IOCTL_VIDEO_MAP_VIDEO_MEMORY</a>
 
 
 
-<a href="..\ntddvdeo\ns-ntddvdeo-_video_share_memory.md">VIDEO_SHARE_MEMORY</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567812">IOCTL_VIDEO_MAP_VIDEO_MEMORY</a>
 
 
 
-<a href="..\video\nf-video-videoportmapbankedmemory.md">VideoPortMapBankedMemory</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569732">STATUS_BLOCK</a>
 
 
 
-<a href="..\video\ns-video-_status_block.md">STATUS_BLOCK</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570548">VIDEO_SHARE_MEMORY</a>
 
 
 
-<a href="..\ntddvdeo\ns-ntddvdeo-_video_share_memory_information.md">VIDEO_SHARE_MEMORY_INFORMATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570549">VIDEO_SHARE_MEMORY_INFORMATION</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570329">VideoPortMapBankedMemory</a>
  
 
  

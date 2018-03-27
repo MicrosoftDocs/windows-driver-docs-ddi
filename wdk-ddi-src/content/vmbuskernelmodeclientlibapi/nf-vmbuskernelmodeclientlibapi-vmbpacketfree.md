@@ -53,17 +53,7 @@ req.product: Windows 10 or later.
 
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
-The <b>VmbPacketFree</b> function releases a packet allocated by using the <a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbpacketallocate.md">VmbPacketAllocate</a> function.
-
-
-## -syntax
-
-
-````
-VOID VmbPacketFree(
-  _In_ __drv_freesMem(Mem) VMBPACKET VmbPacket
-);
-````
+The <b>VmbPacketFree</b> function releases a packet allocated by using the <a href="https://msdn.microsoft.com/F121A7BC-5504-4CF5-8C8A-0568D6C4F77F">VmbPacketAllocate</a> function.
 
 
 ## -parameters
@@ -87,10 +77,10 @@ This function does not return a value.
 
 ## -see-also
 
-<a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbpacketallocate.md">VmbPacketAllocate</a>
 
 
 
+<a href="https://msdn.microsoft.com/F121A7BC-5504-4CF5-8C8A-0568D6C4F77F">VmbPacketAllocate</a>
  
 
  

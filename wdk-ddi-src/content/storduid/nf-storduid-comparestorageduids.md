@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 The <b>CompareStorageDuids</b> routine compares two device unique identifiers (DUIDs) and reports whether they match or not.
 
 
-## -syntax
-
-
-````
-__inline DUID_MATCH_STATUS CompareStorageDuids(
-  _In_ PSTORAGE_DEVICE_UNIQUE_IDENTIFIER Duid1,
-  _In_ PSTORAGE_DEVICE_UNIQUE_IDENTIFIER Duid2
-);
-````
-
-
 ## -parameters
 
 
@@ -83,17 +72,17 @@ A pointer to a DUID to compare with the DUID that <i>Duid1</i> points to.
 
 
 
-<b>CompareStorageDuids</b> returns a <a href="..\storduid\ne-storduid-_duid_match_status.md">DUID_MATCH_STATUS</a> value that indicates whether the two DUIDs matched or not, if the operation succeeds. Otherwise, this routine returns a DUID_MATCH_STATUS value that indicates the error status.
+<b>CompareStorageDuids</b> returns a <a href="https://msdn.microsoft.com/library/windows/hardware/ff552760">DUID_MATCH_STATUS</a> value that indicates whether the two DUIDs matched or not, if the operation succeeds. Otherwise, this routine returns a DUID_MATCH_STATUS value that indicates the error status.
 
 
 
 
 ## -see-also
 
-<a href="..\storduid\ne-storduid-_duid_match_status.md">DUID_MATCH_STATUS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552760">DUID_MATCH_STATUS</a>
  
 
  

@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: ndis.h
+req.lib: 
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
@@ -54,16 +54,6 @@ The
   linked list.
 
 
-## -syntax
-
-
-````
-USHORT NdisQueryDepthSList(
-  [in] PSLIST_HEADER SListHead
-);
-````
-
-
 ## -parameters
 
 
@@ -72,24 +62,24 @@ USHORT NdisQueryDepthSList(
 ### -param SListHead [in]
 
 A pointer to the head of the S-List to be queried, which the caller already initialized with 
-     <a href="..\ndis\nf-ndis-ndisinitializeslisthead.md">NdisInitializeSListHead</a>.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff562739">NdisInitializeSListHead</a>.
 
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisinterlockedpopentryslist.md">NdisInterlockedPopEntrySList</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisinterlockedpushentryslist.md">
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562739">NdisInitializeSListHead</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562760">NdisInterlockedPopEntrySList</a>
+
+
+
+<a href="https://msdn.microsoft.com/155604e9-45f6-4dd2-9373-90f689713c1a">
    NdisInterlockedPushEntrySList</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisinitializeslisthead.md">NdisInitializeSListHead</a>
-
-
-
  
 
  

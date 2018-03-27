@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
@@ -50,19 +50,6 @@ req.typenames: FA_ENTRY, *PFA_ENTRY
 
 
 <b>RxpDereferenceAndFinalizeNetFcb</b> decrements the reference count and finalizes an FCB structure.
-
-
-## -syntax
-
-
-````
-BOOLEAN RxpDereferenceAndFinalizeNetFcb(
-  _Out_ PFCB        Fcb,
-  _In_  PRX_CONTEXT RxContext,
-  _In_  BOOLEAN     RecursiveFinalize,
-  _In_  BOOLEAN     ForceFinalize
-);
-````
 
 
 ## -parameters
@@ -117,18 +104,18 @@ On checked builds, <b>RxpDereferenceAndFinalizeNetFcb</b> causes the system to A
 
 ## -see-also
 
-<a href="..\fcb\nf-fcb-rxptrackreference.md">RxpTrackReference</a>
 
 
 
-<a href="..\fcb\nf-fcb-rxptrackdereference.md">RxpTrackDereference</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554627">RxpReferenceNetFcb</a>
 
 
 
-<a href="..\fcb\nf-fcb-rxpreferencenetfcb.md">RxpReferenceNetFcb</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554655">RxpTrackDereference</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554659">RxpTrackReference</a>
  
 
  

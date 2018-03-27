@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: engextcpp.hpp
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -50,17 +50,6 @@ req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
 
 
 The <b>GetTypeFieldOffset</b> static method returns the offset of a member within a structure.
-
-
-## -syntax
-
-
-````
-static ULONG GetTypeFieldOffset(
-  [in] PCSTR Type,
-  [in] PCSTR Field
-);
-````
 
 
 ## -parameters

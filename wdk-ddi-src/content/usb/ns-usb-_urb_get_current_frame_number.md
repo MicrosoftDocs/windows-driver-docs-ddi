@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 The <b>_URB_GET_CURRENT_FRAME_NUMBER</b> structure is used by USB client drivers to retrieve the current frame number. 
 
 
-## -syntax
-
-
-````
-struct _URB_GET_CURRENT_FRAME_NUMBER {
-  struct URB_HEADER  Hdr;
-  ULONG             FrameNumber;
-};
-````
-
-
 ## -struct-fields
 
 
@@ -71,7 +60,7 @@ struct _URB_GET_CURRENT_FRAME_NUMBER {
 
 ### -field Hdr
 
-Pointer to a <a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a> structure that specifies the URB header information. <b>Hdr.Function</b> must be URB_FUNCTION_GET_CURRENT_FRAME_NUMBER, and <b>Hdr.Length</b> must be <code>sizeof(_URB_GET_CURRENT_FRAME_NUMBER)</code>.
+Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff540409">_URB_HEADER</a> structure that specifies the URB header information. <b>Hdr.Function</b> must be URB_FUNCTION_GET_CURRENT_FRAME_NUMBER, and <b>Hdr.Length</b> must be <code>sizeof(_URB_GET_CURRENT_FRAME_NUMBER)</code>.
 
 
 ### -field FrameNumber
@@ -81,11 +70,10 @@ Contains the current 32-bit frame number, on the USB bus, on return from the hos
 
 ## -see-also
 
-<a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a>
 
 
 
-<a href="..\usb\ns-usb-_urb.md">URB</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538923">URB</a>
 
 
 
@@ -93,6 +81,7 @@ Contains the current 32-bit frame number, on the USB bus, on return from the hos
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540409">_URB_HEADER</a>
  
 
  

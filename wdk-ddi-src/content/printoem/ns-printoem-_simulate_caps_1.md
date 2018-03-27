@@ -53,20 +53,6 @@ req.product: Windows 10 or later.
 The SIMULATE_CAPS_1 structure contains information about the types of simulations a spooler supports.
 
 
-## -syntax
-
-
-````
-typedef struct _SIMULATE_CAPS_1 {
-  DWORD dwLevel;
-  DWORD dwPageOrderFlags;
-  DWORD dwNumberOfCopies;
-  DWORD dwCollate;
-  DWORD dwNupOptions;
-} SIMULATE_CAPS_1, *PSIMULATE_CAPS_1;
-````
-
-
 ## -struct-fields
 
 
@@ -146,10 +132,10 @@ The <b>IPrintCoreUI2::QuerySimulationSupport</b> method uses this structure to r
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553074">IPrintCoreUI2::QuerySimulationSupport</a>
-
-
-
  
 
  

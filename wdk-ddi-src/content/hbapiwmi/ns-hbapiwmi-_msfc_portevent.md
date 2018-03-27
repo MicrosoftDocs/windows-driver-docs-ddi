@@ -52,18 +52,6 @@ req.typenames: MSFC_PortEvent, *PMSFC_PortEvent
 A WMI provider uses the MSFC_PortEvent structure to report port events for the indicated adapter.
 
 
-## -syntax
-
-
-````
-typedef struct _MSFC_PortEvent {
-  ULONG EventType;
-  ULONG FabricPortId;
-  UCHAR PortWWN[8];
-} MSFC_PortEvent, *PMSFC_PortEvent;
-````
-
-
 ## -struct-fields
 
 
@@ -86,10 +74,10 @@ Contains the worldwide name that indicates the port for which the event occurred
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/528e5eaa-aaeb-4e5b-a4b2-0f518fcd79ee">EVENT_TYPE_QUALIFIERS</a>
-
-
-
  
 
  

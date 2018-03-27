@@ -53,16 +53,6 @@ req.product: Windows 10 or later.
 The WDI_TYPE_NONCE structure defines the SNonce or ANonce (802.11r).
 
 
-## -syntax
-
-
-````
-typedef struct _WDI_TYPE_NONCE {
-  UINT8 Nonce[32];
-} WDI_TYPE_NONCE, *PWDI_TYPE_NONCE;
-````
-
-
 ## -struct-fields
 
 

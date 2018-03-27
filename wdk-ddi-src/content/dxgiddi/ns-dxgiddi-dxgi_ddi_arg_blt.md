@@ -52,26 +52,6 @@ req.typenames: DXGI_DDI_ARG_BLT
 The <b>DXGI_DDI_ARG_BLT</b> structure describes the parameters of a bit-block transfer (bitblt). 
 
 
-## -syntax
-
-
-````
-typedef struct DXGI_DDI_ARG_BLT {
-  DXGI_DDI_HDEVICE       hDevice;
-  DXGI_DDI_HRESOURCE     hDstResource;
-  UINT                   DstSubresource;
-  UINT                   DstLeft;
-  UINT                   DstTop;
-  UINT                   DstRight;
-  UINT                   DstBottom;
-  DXGI_DDI_HRESOURCE     hSrcResource;
-  UINT                   SrcSubresource;
-  DXGI_DDI_ARG_BLT_FLAGS Flags;
-  DXGI_DDI_MODE_ROTATION Rotate;
-} DXGI_DDI_ARG_BLT;
-````
-
-
 ## -struct-fields
 
 
@@ -79,7 +59,7 @@ typedef struct DXGI_DDI_ARG_BLT {
 
 ### -field hDevice
 
-[in] A handle to the display device (graphics context) on which the driver performs the bitblt. The Direct3D runtime passes this handle to the driver in the <b>hDrvDevice</b> member of the <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createdevice.md">D3D10DDIARG_CREATEDEVICE</a> structure when the runtime calls the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createdevice.md">CreateDevice(D3D10)</a> function to create the display device. 
+[in] A handle to the display device (graphics context) on which the driver performs the bitblt. The Direct3D runtime passes this handle to the driver in the <b>hDrvDevice</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff541664">D3D10DDIARG_CREATEDEVICE</a> structure when the runtime calls the driver's <a href="https://msdn.microsoft.com/c69eedb1-c975-412c-aa9f-cf64a702f937">CreateDevice(D3D10)</a> function to create the display device. 
 
 
 ### -field hDstResource
@@ -124,17 +104,16 @@ typedef struct DXGI_DDI_ARG_BLT {
 
 ### -field Flags
 
-[in] A <a href="..\dxgiddi\ns-dxgiddi-dxgi_ddi_arg_blt_flags.md">DXGI_DDI_ARG_BLT_FLAGS</a> structure that identifies the type of bitblt to perform. 
+[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff557451">DXGI_DDI_ARG_BLT_FLAGS</a> structure that identifies the type of bitblt to perform. 
 
 
 ### -field Rotate
 
-[in] A <a href="..\dxgiddi\ne-dxgiddi-dxgi_ddi_mode_rotation.md">DXGI_DDI_MODE_ROTATION</a>-typed value that identifies the orientation of the display mode.
+[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff557502">DXGI_DDI_MODE_ROTATION</a>-typed value that identifies the orientation of the display mode.
 
 
 ## -see-also
 
-<a href="..\dxgiddi\ns-dxgiddi-dxgi_ddi_arg_blt_flags.md">DXGI_DDI_ARG_BLT_FLAGS</a>
 
 
 
@@ -142,10 +121,11 @@ typedef struct DXGI_DDI_ARG_BLT {
 
 
 
-<a href="..\dxgiddi\ne-dxgiddi-dxgi_ddi_mode_rotation.md">DXGI_DDI_MODE_ROTATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557451">DXGI_DDI_ARG_BLT_FLAGS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557502">DXGI_DDI_MODE_ROTATION</a>
  
 
  

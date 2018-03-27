@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: ks.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -50,20 +50,6 @@ req.typenames:
 
 
 The <b>IKsControl::KsMethod</b> method sends a method to a KS object, together with any other defined support operations available on a method set. 
-
-
-## -syntax
-
-
-````
-NTSTATUS KsMethod(
-  [in]      PKSMETHOD Method,
-  [in]      ULONG     MethodLength,
-  [in, out] PVOID     MethodData,
-  [in]      ULONG     DataLength,
-  [out]     ULONG     *BytesReturned
-);
-````
 
 
 ## -parameters
@@ -116,11 +102,6 @@ To determine the buffer size that is required for a specific method request, you
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ksmethod_set.md">KSMETHOD_SET</a>
-
-
-
-<a href="..\ks\ns-ks-ksmethod_item.md">KSMETHOD_ITEM</a>
 
 
 
@@ -128,6 +109,11 @@ To determine the buffer size that is required for a specific method request, you
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563420">KSMETHOD_ITEM</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563423">KSMETHOD_SET</a>
  
 
  

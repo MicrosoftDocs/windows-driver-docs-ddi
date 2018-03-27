@@ -52,20 +52,6 @@ req.typenames: SRV_OPEN_ECP_CONTEXT, *PSRV_OPEN_ECP_CONTEXT
 The SRV_OPEN_ECP_CONTEXT structure is used by a server to conditionally open files in response to client requests. 
 
 
-## -syntax
-
-
-````
-typedef struct _SRV_OPEN_ECP_CONTEXT {
-  PUNICODE_STRING       ShareName;
-  PSOCKADDR_STORAGE_NFS SocketAddress;
-  BOOLEAN               OplockBlockState;
-  BOOLEAN               OplockAppState;
-  BOOLEAN               OplockFinalState;
-} SRV_OPEN_ECP_CONTEXT, *PSRV_OPEN_ECP_CONTEXT;
-````
-
-
 ## -struct-fields
 
 
@@ -73,7 +59,7 @@ typedef struct _SRV_OPEN_ECP_CONTEXT {
 
 ### -field ShareName
 
-A pointer to a <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure that supplies the share name for the server that contains the files to be open. 
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> structure that supplies the share name for the server that contains the files to be open. 
 
 
 ### -field SocketAddress
@@ -123,14 +109,14 @@ The oplock state values (<b>OplockBlockState</b>, <b>OplockAppState</b>, and <b>
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff570825">SOCKADDR_STORAGE</a>
 
 
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a>
  
 
  

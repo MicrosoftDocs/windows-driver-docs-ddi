@@ -52,21 +52,6 @@ req.typenames: RILCALLHANDOVERSTATE, *LPRILCALLHANDOVERSTATE
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef struct _RILCALLHANDOVERSTATE {
-  DWORD                 cbSize;
-  DWORD                 dwParams;
-  RILCALLHANDOVERPHASE  dwPhase;
-  RILCALLTYPE           dwOldType;
-  RILCALLTYPE           dwNewType;
-  DWORD                 dw3gppCause;
-} RILCALLHANDOVERSTATE, RILCALLHANDOVERSTATE;
-````
-
-
 ## -struct-fields
 
 

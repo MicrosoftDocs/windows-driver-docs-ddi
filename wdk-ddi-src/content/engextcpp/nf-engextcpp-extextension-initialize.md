@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: engextcpp.hpp
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -50,14 +50,6 @@ req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
 
 
 The <b>Initialize</b> method is called by the engine to initialize an EngExtCpp extension library after loading it.
-
-
-## -syntax
-
-
-````
-virtual HRESULT Initialize();
-````
 
 
 ## -parameters
@@ -112,6 +104,9 @@ There may or may not be a debugging session active when this function is called,
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544508">EXT_CLASS</a>
 
 
@@ -120,10 +115,7 @@ There may or may not be a debugging session active when this function is called,
 
 
 
-<a href="..\engextcpp\nf-engextcpp-extextension-uninitialize.md">Uninitialize</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff597582">Uninitialize</a>
  
 
  

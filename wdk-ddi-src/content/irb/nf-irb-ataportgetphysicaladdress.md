@@ -55,19 +55,6 @@ req.typenames: IDE_POWER_STATE
 The <b>AtaPortGetPhysicalAddress</b> routine converts the virtual address range to the physical address range. 
 <div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
-## -syntax
-
-
-````
-IDE_PHYSICAL_ADDRESS AtaPortGetPhysicalAddress(
-  _In_      PVOID              ChannelExtension,
-  _In_opt_  PIDE_REQUEST_BLOCK Irb,
-  _In_opt_  PVOID              VirtualAddress,
-  _Out_opt_ ULONG              *Length
-);
-````
-
-
 ## -parameters
 
 
@@ -80,7 +67,7 @@ A pointer to the channel extension.
 
 ### -param Irb [in, optional]
 
-A pointer to a structure of type <a href="..\irb\ns-irb-_ide_request_block.md">IDE_REQUEST_BLOCK</a> that defines the IDE request block (IRB) for which the address range is converted. 
+A pointer to a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff559140">IDE_REQUEST_BLOCK</a> that defines the IDE request block (IRB) for which the address range is converted. 
 
 
 ### -param VirtualAddress [in, optional]
@@ -104,10 +91,10 @@ Returns the number of mapped bytes starting at the returned physical address.
 
 ## -see-also
 
-<a href="..\irb\ns-irb-_ide_request_block.md">IDE_REQUEST_BLOCK</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559140">IDE_REQUEST_BLOCK</a>
  
 
  

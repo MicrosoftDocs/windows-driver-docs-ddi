@@ -55,20 +55,6 @@ The <b>NDIS_SWITCH_PORT_TYPE</b> enumeration specifies the type of  a Hyper-V ex
 
 
 
-## -syntax
-
-
-````
-typedef enum _NDIS_SWITCH_PORT_TYPE { 
-  NdisSwitchPortTypeGeneric    = 0,
-  NdisSwitchPortTypeExternal   = 1,
-  NdisSwitchPortTypeSynthetic  = 2,
-  NdisSwitchPortTypeEmulated   = 3,
-  NdisSwitchPortTypeInternal   = 4
-} NDIS_SWITCH_PORT_TYPE, *PNDIS_SWITCH_PORT_TYPE;
-````
-
-
 ## -enum-fields
 
 
@@ -115,7 +101,7 @@ The internal network adapter provides access to an extensible switch for process
 
 
 
-The <b>PortType</b> member of the <a href="..\ntddndis\ns-ntddndis-_ndis_switch_port_parameters.md">NDIS_SWITCH_PORT_PARAMETERS</a> structure is an <b>NDIS_SWITCH_PORT_TYPE</b> enumeration data type. 
+The <b>PortType</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh598229">NDIS_SWITCH_PORT_PARAMETERS</a> structure is an <b>NDIS_SWITCH_PORT_TYPE</b> enumeration data type. 
 
 
 
@@ -128,7 +114,6 @@ For more information on the extensible switch ports, see <a href="https://msdn.m
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_switch_port_parameters.md">NDIS_SWITCH_PORT_PARAMETERS</a>
 
 
 
@@ -136,6 +121,7 @@ For more information on the extensible switch ports, see <a href="https://msdn.m
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh598229">NDIS_SWITCH_PORT_PARAMETERS</a>
  
 
  

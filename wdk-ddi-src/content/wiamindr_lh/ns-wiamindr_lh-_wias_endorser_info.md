@@ -53,18 +53,6 @@ req.product: Windows 10 or later.
 The WIAS_ENDORSER_INFO structure holds custom endorser token/value pairs.
 
 
-## -syntax
-
-
-````
-typedef struct _WIAS_ENDORSER_INFO {
-  ULONG               ulPageCount;
-  ULONG               ulNumEndorserValues;
-  WIAS_ENDORSER_VALUE *pEndorserValues;
-} WIAS_ENDORSER_INFO, *PWIAS_ENDORSER_INFO;
-````
-
-
 ## -struct-fields
 
 
@@ -82,28 +70,28 @@ Specifies the number of token/value pairs. This member will be 0 if there are no
 
 ### -field pEndorserValues
 
-Points to an array of <a href="..\wiamindr_lh\ns-wiamindr_lh-_wias_endorser_value.md">WIAS_ENDORSER_VALUE</a> structures, holding custom token/value pairs. If the value of the <b>ulNumEndorserValues</b> member is 0, this member should be <b>NULL</b>.
+Points to an array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff549562">WIAS_ENDORSER_VALUE</a> structures, holding custom token/value pairs. If the value of the <b>ulNumEndorserValues</b> member is 0, this member should be <b>NULL</b>.
 
 
 ## -remarks
 
 
 
-Currently, <a href="..\wiamdef\nf-wiamdef-wiasparseendorserstring.md">wiasParseEndorserString</a> recognizes three endorser tokens: $DATE$, $TIME$, $PAGE_COUNT$, $DAY$, $MONTH$, and $YEAR$. (See <i>wiamdef.h</i>.) Any other tokens and their values must be specified in the <b>pEndorserValues</b> member of this structure.
+Currently, <a href="https://msdn.microsoft.com/library/windows/hardware/ff549282">wiasParseEndorserString</a> recognizes three endorser tokens: $DATE$, $TIME$, $PAGE_COUNT$, $DAY$, $MONTH$, and $YEAR$. (See <i>wiamdef.h</i>.) Any other tokens and their values must be specified in the <b>pEndorserValues</b> member of this structure.
 
 
 
 
 ## -see-also
 
-<a href="..\wiamindr_lh\ns-wiamindr_lh-_wias_endorser_value.md">WIAS_ENDORSER_VALUE</a>
 
 
 
-<a href="..\wiamdef\nf-wiamdef-wiasparseendorserstring.md">wiasParseEndorserString</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549562">WIAS_ENDORSER_VALUE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549282">wiasParseEndorserString</a>
  
 
  

@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
@@ -51,23 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>StorPortInvokeAcpiMethod</b> routine executes an ACPI method for a storage device.
-
-
-## -syntax
-
-
-````
-ULONG StorPortInvokeAcpiMethod(
-  _In_      PVOID         HwDeviceExtension,
-  _In_opt_  PSTOR_ADDRESS Address,
-  _In_      ULONG         MethodName,
-  _In_opt_  PVOID         InputBuffer,
-  _In_      ULONG         InputBufferLength,
-  _In_opt_  PVOID         OutputBuffer,
-  _In_      ULONG         OutputBufferLength,
-  _Out_opt_ PULONG        BytesReturned
-);
-````
 
 
 ## -parameters

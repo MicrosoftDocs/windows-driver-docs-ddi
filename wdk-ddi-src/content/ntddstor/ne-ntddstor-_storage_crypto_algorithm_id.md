@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: 
+req.irql: "<=DISPATCH_LEVEL"
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -50,21 +50,6 @@ req.typenames: STORAGE_CRYPTO_ALGORITHM_ID, *PSTORAGE_CRYPTO_ALGORITHM_ID
 
 
 The <b>STORAGE_CRYPTO_ALGORITHM_ID</b> enum provides an output buffer for <b>StorageAdapterCryptoProperty</b> and <b>PropertyStandardQuery</b>.
-
-
-## -syntax
-
-
-````
-typedef enum _STORAGE_CRYPTO_ALGORITHM_ID { 
-  StorageCryptoAlgorithmUnknown          = 0,
-  StorageCryptoAlgorithmXTSAES           = 1,
-  StorageCryptoAlgorithmBitlockerAESCBC,
-  StorageCryptoAlgorithmAESECB,
-  StorageCryptoAlgorithmESSIVAESCBC,
-  StorageCryptoAlgorithmMax
-} STORAGE_CRYPTO_ALGORITHM_ID, *PSTORAGE_CRYPTO_ALGORITHM_ID;
-````
 
 
 ## -enum-fields

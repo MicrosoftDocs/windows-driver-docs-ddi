@@ -54,16 +54,6 @@ The WWAN_SERVICE_ACTIVATION structure represents a vendor-specific buffer to be 
   service activation.
 
 
-## -syntax
-
-
-````
-typedef struct _WWAN_SERVICE_ACTIVATION {
-  ULONG uVendorSpecificBufferSize;
-} WWAN_SERVICE_ACTIVATION, *PWWAN_SERVICE_ACTIVATION;
-````
-
-
 ## -struct-fields
 
 
@@ -77,10 +67,10 @@ The size, in bytes, of the vendor-specific buffer that follows the structure ins
 
 ## -see-also
 
-<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_service_activation.md">NDIS_WWAN_SERVICE_ACTIVATION</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567918">NDIS_WWAN_SERVICE_ACTIVATION</a>
  
 
  

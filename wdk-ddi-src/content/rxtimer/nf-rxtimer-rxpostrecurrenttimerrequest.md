@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
@@ -51,19 +51,6 @@ req.product: Windows 10 or later.
 
 
 <b>RxPostRecurrentTimerRequest</b> initializes a recurrent timer request. The passed in pointer to a worker thread routine is called at regular intervals when the recurrent timer fires based on the input parameters to this routine. 
-
-
-## -syntax
-
-
-````
-NTSTATUS RxPostRecurrentTimerRequest(
-  _In_ PRDBSS_DEVICE_OBJECT     pDeviceObject,
-  _In_ PRX_WORKERTHREAD_ROUTINE Routine,
-  _In_ PVOID                    pContext,
-  _In_ LARGE_INTEGER            TimeInterval
-);
-````
 
 
 ## -parameters
@@ -130,14 +117,14 @@ A recurrent timer can be canceled by calling <b>RxCancelTimerRequest</b>.
 
 ## -see-also
 
-<a href="..\rxtimer\nf-rxtimer-rxcanceltimerrequest.md">RxCancelTimerRequest</a>
 
 
 
-<a href="..\rxtimer\nf-rxtimer-rxpostoneshottimerrequest.md">RxPostOneShotTimerRequest</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553395">RxCancelTimerRequest</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554612">RxPostOneShotTimerRequest</a>
  
 
  

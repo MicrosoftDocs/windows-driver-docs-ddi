@@ -55,19 +55,6 @@ describes the multi-plane overlay plane attributes, allocation, and video presen
 
 
 
-## -syntax
-
-
-````
-typedef struct _DXGK_MULTIPLANE_OVERLAY_PLANE_WITH_SOURCE {
-  HANDLE                              hAllocation;
-  D3DDDI_VIDEO_PRESENT_SOURCE_ID      VidPnSourceId;
-  UINT                                LayerIndex;
-  DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES2 PlaneAttributes;
-} DXGK_MULTIPLANE_OVERLAY_PLANE_WITH_SOURCE;
-````
-
-
 ## -struct-fields
 
 
@@ -90,15 +77,15 @@ The index of the layer being queried.
 
 ### -field PlaneAttributes
 
-A <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_multiplane_overlay_attributes2.md">DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES2</a> structure that specifies overlay plane attributes.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/dn914477">DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES2</a> structure that specifies overlay plane attributes.
 
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_multiplane_overlay_attributes2.md">DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn914477">DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES2</a>
  
 
  

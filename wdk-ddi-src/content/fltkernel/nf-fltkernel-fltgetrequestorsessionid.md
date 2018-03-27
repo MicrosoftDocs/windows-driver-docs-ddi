@@ -52,17 +52,6 @@ req.typenames: EXpsFontRestriction
 The <b>FltGetRequestorSessionId</b> routine returns the session ID of the process that originally requested the specified I/O operation.
 
 
-## -syntax
-
-
-````
-NTSTATUS FltGetRequestorSessionId(
-  _In_  PFLT_CALLBACK_DATA CallbackData,
-  _Out_ PULONG             SessionId
-);
-````
-
-
 ## -parameters
 
 
@@ -70,7 +59,7 @@ NTSTATUS FltGetRequestorSessionId(
 
 ### -param CallbackData [in]
 
-A pointer to the <a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a> structure specifying the I/O operation.
+A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff544620">FLT_CALLBACK_DATA</a> structure specifying the I/O operation.
 
 
 ### -param SessionId [out]

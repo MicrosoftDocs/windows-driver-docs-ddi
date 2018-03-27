@@ -54,22 +54,6 @@ The WWAN_READY_STATE enumeration lists the different device ready-states that ar
   device.
 
 
-## -syntax
-
-
-````
-typedef enum _WWAN_READY_STATE { 
-  WwanReadyStateOff             = 0,
-  WwanReadyStateInitialized,
-  WwanReadyStateSimNotInserted,
-  WwanReadyStateBadSim,
-  WwanReadyStateFailure,
-  WwanReadyStateNotActivated,
-  WwanReadyStateDeviceLocked
-} WWAN_READY_STATE, *PWWAN_READY_STATE;
-````
-
-
 ## -enum-fields
 
 
@@ -137,10 +121,10 @@ For devices that use a SIM card, this enumeration indicates if the SIM card has 
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_ready_info.md">WWAN_READY_INFO</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571226">WWAN_READY_INFO</a>
  
 
  

@@ -52,17 +52,6 @@ req.typenames: D3D12DDI_VIEW_INSTANCING_FLAGS
 Defines the view instancing flags.
 
 
-## -syntax
-
-
-````
-typedef enum _D3D12DDI_VIEW_INSTANCING_FLAGS { 
-  D3D12DDI_VIEW_INSTANCING_FLAG_NONE,
-  D3D12DDI_VIEW_INSTANCING_FLAG_ENABLE_VIEW_INSTANCE_MASKING
-} D3D12DDI_VIEW_INSTANCING_FLAGS;
-````
-
-
 ## -enum-fields
 
 

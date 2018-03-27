@@ -52,21 +52,6 @@ req.typenames: D3D11_1DDI_GETCAPTUREHANDLEDATA
 Used to get key base data.
 
 
-## -prototype
-
-
-````
-HRESULT APIENTRY* PFND3D12DDI_GETKEYBASEDATA_0030(
-              D3D12DDI_HDEVICE             hDrvDevice,
-              D3D12DDI_HCRYPTOSESSION_0030 hDrvCryptoSession,
-  _In_  const VOID                         *pKeyInputData,
-              UINT                         KeyInputDataSize,
-  _Out_       VOID                         *pKeyBaseData,
-              UINT                         KeyBaseDataSize
-);
-````
-
-
 ## -parameters
 
 

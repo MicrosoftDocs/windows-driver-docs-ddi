@@ -52,16 +52,6 @@ req.typenames: AddLink_OUT, *PAddLink_OUT
 The AddLink_OUT structure is used by an HBA miniport driver to report the status of a call to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550128">AddLink</a> WMI method.
 
 
-## -syntax
-
-
-````
-typedef struct _AddLink_OUT {
-  ULONG HBAStatus;
-} AddLink_OUT, *PAddLink_OUT;
-````
-
-
 ## -struct-fields
 
 
@@ -83,6 +73,9 @@ The WMI tool suite generates a declaration of the AddLink_OUT structure in <i>Hb
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550128">AddLink</a>
 
 
@@ -92,9 +85,6 @@ The WMI tool suite generates a declaration of the AddLink_OUT structure in <i>Hb
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff562490">MSFC_EventControl WMI Class</a>
-
-
-
  
 
  

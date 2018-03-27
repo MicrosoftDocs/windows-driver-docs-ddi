@@ -52,22 +52,6 @@ req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 Establishes a session key for a cryptographic session object.
 
 
-## -prototype
-
-
-````
-PFND3D11_1DDI_NEGOTIATECRYPTOSESSIONKEYESCHANGE NegotiateCryptoSessionKeyExchange;
-
-HRESULT APIENTRY* NegotiateCryptoSessionKeyExchange(
-  _In_ D3D10DDI_HDEVICE          hDevice,
-  _In_ D3D11_1DDI_HCRYPTOSESSION hCryptoSession,
-  _In_ UINT                      DataSize,
-  _In_ VOID                      *pData
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -82,7 +66,7 @@ A handle to the display device (graphics context).
 
 ### -param hCryptoSession [in]
 
-A handle to the cryptographic session object that was created through a call to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createcryptosession.md">CreateCryptoSession</a> function. 
+A handle to the cryptographic session object that was created through a call to the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451619">CreateCryptoSession</a> function. 
 
 
 
@@ -167,10 +151,10 @@ The key exchange for a cryptographic session is identical to the key exchange fo
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createcryptosession.md">CreateCryptoSession</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451619">CreateCryptoSession</a>
  
 
  

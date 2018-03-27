@@ -61,14 +61,6 @@ The <b>DebugExtensionQueryValueNames</b> callback function recovers <a href="htt
 </tr>
 </table></span></div>
 
-## -prototype
-
-
-````
- CALLBACK* PDEBUG_EXTENSION_QUERY_VALUE_NAMES DebugExtensionQueryValueNames;
-````
-
-
 ## -parameters
 
 
@@ -153,6 +145,17 @@ Value names must start with <b>$$</b> and have a terminating NULL character. The
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540476">DebugExtensionInitialize</a>
+
+
+
+<i>DebugExtensionNotify</i>
+
+
+
 <i>DebugExtensionProvideValue</i>
 
 
@@ -162,17 +165,6 @@ Value names must start with <b>$$</b> and have a terminating NULL character. The
 
 
 <i>KnownStructOutput</i>
-
-
-
-<i>DebugExtensionNotify</i>
-
-
-
-<a href="..\dbgeng\nc-dbgeng-pdebug_extension_initialize.md">DebugExtensionInitialize</a>
-
-
-
  
 
  

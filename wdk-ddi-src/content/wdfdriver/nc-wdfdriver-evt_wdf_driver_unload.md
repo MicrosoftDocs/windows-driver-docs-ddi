@@ -55,19 +55,6 @@ req.product: Windows 10 or later.
 A driver's <i>EvtDriverUnload</i> event callback function performs operations that must take place before the driver is unloaded.
 
 
-## -prototype
-
-
-````
-EVT_WDF_DRIVER_UNLOAD EvtDriverUnload;
-
-VOID EvtDriverUnload(
-  _In_ WDFDRIVER Driver
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -139,10 +126,10 @@ The <b>EVT_WDF_DRIVER_UNLOAD</b> function type is defined in the WdfDriver.h hea
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a>
-
-
-
  
 
  

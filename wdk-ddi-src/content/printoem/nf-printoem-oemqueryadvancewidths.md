@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,21 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <code>OEMQueryAdvanceWidths</code> function returns character advance widths for a specified set of glyphs.
-
-
-## -syntax
-
-
-````
-BOOL APIENTRY OEMQueryAdvanceWidths(
-        DHPDEV                                       dhpdev,
-        FONTOBJ                                      *pfo,
-        ULONG                                        iMode,
-  _In_  _reads_(cGlyphs) HGLYPH                      *phg,
-  _Out_ _writes_bytes_(cGlyphs*sizeof(USHORT)) PVOID pvWidths,
-        ULONG                                        cGlyphs
-);
-````
 
 
 ## -parameters

@@ -57,23 +57,6 @@ The <b>VmbChannelSendSynchronousRequest</b> function sends a packet to the oppos
 
 
 
-## -syntax
-
-
-````
-NTSTATUS VmbChannelSendSynchronousRequest(
-  _In_        VMBCHANNEL                                                               Channel,
-  _In_        reads_bytes_(BufferSize)   PVOID                                         Buffer,
-  _In_        UINT32                                                                   BufferSize,
-  _In_opt_    PMDL                                                                     ExternalDataMdl,
-  _In_        UINT32                                                                   Flags,
-  _Out_       writes_bytes_to_opt_(*CompletionBufferSize, *CompletionBufferSize) PVOID CompletionBuffer,
-  _Inout_opt_ _Pre_satisfies_(*_Curr_ % 8 == 0) PUINT32                                CompletionBufferSize,
-  _In_opt_    PLARGE_INTEGER                                                           Timeout
-);
-````
-
-
 ## -parameters
 
 
@@ -122,7 +105,7 @@ returns the number of bytes written into <i>CompletionBuffer</i>.
 
 ### -param Timeout [in, optional]
 
-A timeout in the style of the <a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a> routing.
+A timeout in the style of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff553350">KeWaitForSingleObject</a> routing.
 After this time elapses, the packet is cancelled. For a timeout of zero (0), if a packet does not fir in the ring buffer, it is not queued.
 
 
@@ -201,10 +184,10 @@ this if <code>*Timeout == 0</code> and the <b>VMBUS_CHANNEL_FORMAT_FLAG_WAIT_FOR
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553350">KeWaitForSingleObject</a>
  
 
  

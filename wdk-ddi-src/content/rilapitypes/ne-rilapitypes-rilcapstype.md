@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,26 +51,6 @@ req.product: Windows 10 or later.
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef enum _RILCAPSTYPE { 
-  RIL_CAPSTYPE_PERSOLOCKPWDLENGTH,
-  RIL_CAPSTYPE_PBMAXREAD,
-  RIL_CAPSTYPE_PBSTORELOCATIONS,
-  RIL_CAPSTYPE_RADIOCONFIGURATIONS,
-  RIL_CAPSTYPE_SIGNALQUALITYIMPLEMENTATION,
-  RIL_CAPSTYPE_NITZNOTIFICATION,
-  RIL_CAPSTYPE_CALLSUPPORT,
-  RIL_CAPSTYPE_SMSSUPPORT,
-  RIL_CAPSTYPE_ARG_SMALLEST,
-  RIL_CAPSTYPE_ARG_LARGEST,
-  RIL_CAPSTYPE_MAX
-} RILCAPSTYPE;
-````
 
 
 ## -enum-fields

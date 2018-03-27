@@ -49,18 +49,7 @@ req.typenames: D3DDDIARG_QUERYRESOURCERESIDENCY
 ## -description
 
 
-The D3DDDIARG_QUERYRESOURCERESIDENCY structure describes a list of resources on which residency is verified through the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_queryresourceresidency.md">QueryResourceResidency</a> function. 
-
-
-## -syntax
-
-
-````
-typedef struct _D3DDDIARG_QUERYRESOURCERESIDENCY {
-  const HANDLE *pHandleList;
-  UINT         NumResources;
-} D3DDDIARG_QUERYRESOURCERESIDENCY;
-````
+The D3DDDIARG_QUERYRESOURCERESIDENCY structure describes a list of resources on which residency is verified through the <a href="https://msdn.microsoft.com/5b9a2a59-b2d1-468e-998b-902bc2a75cb3">QueryResourceResidency</a> function. 
 
 
 ## -struct-fields
@@ -80,10 +69,10 @@ typedef struct _D3DDDIARG_QUERYRESOURCERESIDENCY {
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_queryresourceresidency.md">QueryResourceResidency</a>
 
 
 
+<a href="https://msdn.microsoft.com/5b9a2a59-b2d1-468e-998b-902bc2a75cb3">QueryResourceResidency</a>
  
 
  

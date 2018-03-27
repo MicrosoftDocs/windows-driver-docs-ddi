@@ -52,17 +52,6 @@ req.typenames: TOKEN_TYPE
 The <b>MmPrefetchPages</b> routine reads groups of pages from secondary storage in the optimal fashion. 
 
 
-## -syntax
-
-
-````
-NTSTATUS MmPrefetchPages(
-  _In_ ULONG      NumberOfLists,
-  _In_ PREAD_LIST *ReadLists
-);
-````
-
-
 ## -parameters
 
 

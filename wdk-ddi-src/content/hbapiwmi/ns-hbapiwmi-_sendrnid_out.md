@@ -52,18 +52,6 @@ req.typenames: SendRNID_OUT, *PSendRNID_OUT
 The SendRNID_OUT structure is used to report the output parameter data of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565459">SendRNID</a> WMI method to the WMI client.
 
 
-## -syntax
-
-
-````
-typedef struct _SendRNID_OUT {
-  ULONG HBAStatus;
-  ULONG ResponseBufferCount;
-  UCHAR ResponseBuffer[1];
-} SendRNID_OUT, *PSendRNID_OUT;
-````
-
-
 ## -struct-fields
 
 
@@ -95,10 +83,10 @@ The WMI tool suite generates a declaration of the SendRNID_OUT structure in <i>H
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565459">SendRNID</a>
-
-
-
  
 
  

@@ -52,20 +52,6 @@ req.typenames: DXGK_PTE
 The <b>BufBlt</b> function performs a bit-block transfer (bitblt) operation from a source vertex or index buffer to a destination vertex or index buffer.
 
 
-## -prototype
-
-
-````
-PFND3DDDI_BUFBLT BufBlt;
-
-__checkReturn HRESULT APIENTRY BufBlt(
-  _In_       HANDLE              hDevice,
-  _In_ const D3DDDIARG_BUFFERBLT *pData
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -87,7 +73,7 @@ __checkReturn HRESULT APIENTRY BufBlt(
 
 #### - pData [in]
 
- A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_bufferblt.md">D3DDDIARG_BUFFERBLT</a> structure that describes the parameters of the buffer bitblt operation.
+ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff542890">D3DDDIARG_BUFFERBLT</a> structure that describes the parameters of the buffer bitblt operation.
 
 
 ## -returns
@@ -101,14 +87,14 @@ __checkReturn HRESULT APIENTRY BufBlt(
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_bufferblt.md">D3DDDIARG_BUFFERBLT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542890">D3DDDIARG_BUFFERBLT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544519">D3DDDI_DEVICEFUNCS</a>
  
 
  

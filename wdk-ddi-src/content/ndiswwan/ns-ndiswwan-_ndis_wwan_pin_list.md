@@ -53,18 +53,6 @@ The NDIS_WWAN_PIN_LIST structure represents a list of descriptions of Personal I
   (PINs).
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_WWAN_PIN_LIST {
-  NDIS_OBJECT_HEADER Header;
-  WWAN_STATUS        uStatus;
-  WWAN_PIN_LIST      PinList;
-} NDIS_WWAN_PIN_LIST, *PNDIS_WWAN_PIN_LIST;
-````
-
-
 ## -struct-fields
 
 
@@ -118,7 +106,7 @@ sizeof(NDIS_WWAN_PIN_LIST)
  
 
 For more information about these members, see 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>.
 
 
 ### -field uStatus
@@ -200,20 +188,20 @@ The operation failed because a bad SIM card was detected.
 ### -field PinList
 
 A formatted 
-     <a href="..\wwan\ns-wwan-_wwan_pin_list.md">WWAN_PIN_LIST</a> object that represents a list
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571217">WWAN_PIN_LIST</a> object that represents a list
      of descriptions of Personal Identification Numbers (PINs).
 
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_pin_list.md">WWAN_PIN_LIST</a>
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571217">WWAN_PIN_LIST</a>
  
 
  

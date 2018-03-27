@@ -52,16 +52,6 @@ req.typenames: D3DKMT_DRIVERVERSION
 Used to destroy a hardware context.
 
 
-## -syntax
-
-
-````
-NTSTATUS APIENTRY D3DKMTDestroyHwContext(
-  _In_ const D3DKMT_DESTROYHWCONTEXT *destroyHwContext
-);
-````
-
-
 ## -parameters
 
 

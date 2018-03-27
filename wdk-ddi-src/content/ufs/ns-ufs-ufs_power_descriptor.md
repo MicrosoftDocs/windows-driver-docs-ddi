@@ -53,20 +53,6 @@ req.product: Windows 10 or later.
 <b>UFS_POWER_DESCRIPTOR </b>contains information about the power capabilities and power states of the device.
 
 
-## -syntax
-
-
-````
-typedef struct _UFS_POWER_DESCRIPTOR {
-  UCHAR bLength;
-  UCHAR bDescriptorIDN;
-  UCHAR wActiveICCLevelsVCC[32];
-  UCHAR wActiveICCLevelsVCCQ[32];
-  UCHAR wActiveICCLevelsVCCQ2[32];
-} UFS_POWER_DESCRIPTOR, *PUFS_POWER_DESCRIPTOR;
-````
-
-
 ## -struct-fields
 
 

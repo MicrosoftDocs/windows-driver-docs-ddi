@@ -54,16 +54,6 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
   transfers on a particular active VC.
 
 
-## -syntax
-
-
-````
-NDIS_STATUS NdisCmDeactivateVc(
-  _In_ NDIS_HANDLE NdisVcHandle
-);
-````
-
-
 ## -parameters
 
 
@@ -73,9 +63,9 @@ NDIS_STATUS NdisCmDeactivateVc(
 
 Specifies the handle identifying the VC. This handle was supplied by NDIS to the call manager
      either when it called 
-     <a href="..\ndis\nf-ndis-ndiscocreatevc.md">NdisCoCreateVc</a> for an incoming call or
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff561696">NdisCoCreateVc</a> for an incoming call or
      when its 
-     <a href="..\ndis\nc-ndis-protocol_co_create_vc.md">ProtocolCoCreateVc</a> function set up
+     <a href="https://msdn.microsoft.com/b086dd24-74f5-474a-8684-09bf92ac731b">ProtocolCoCreateVc</a> function set up
      the VC for a client-initiated outgoing call.
 
 
@@ -86,7 +76,7 @@ Specifies the handle identifying the VC. This handle was supplied by NDIS to the
 When 
      <b>NdisCmDeactivateVc</b> returns anything other than NDIS_STATUS_PENDING, the call manager should make
      an internal call to its 
-     <a href="..\ndis\nc-ndis-protocol_cm_deactivate_vc_complete.md">
+     <a href="https://msdn.microsoft.com/44ee0e3c-aee9-4e24-9e54-c57248b568b6">
      ProtocolCmDeactivateVcComplete</a> function. Otherwise, NDIS calls the CM's 
      <i>ProtocolCmDeactivateVcComplete</i> function when this operation is completed.
 
@@ -103,7 +93,7 @@ A stand-alone call manager calls
 
 A call to 
     <b>NdisCmDeactivateVc</b> causes NDIS to call the underlying miniport driver's 
-    <a href="..\ndis\nc-ndis-miniport_co_deactivate_vc.md">MiniportCoDeactivateVc</a> function,
+    <a href="https://msdn.microsoft.com/8c17cec8-d161-47cf-b886-bb8b8d957656">MiniportCoDeactivateVc</a> function,
     which can discard the current call parameters for transfers on the VC, possibly reinitializing them to
     miniport driver-determined default values. If the VC is reactivated subsequently for another call, the
     client or call manager will supply new call parameters to the miniport driver.
@@ -117,19 +107,19 @@ The
 <li>
 Following VC deactivation and the closing of the call, a client can reuse a VC that it originally
       created to make another call with 
-      <a href="..\ndis\nf-ndis-ndisclmakecall.md">NdisClMakeCall</a>.
+      <a href="https://msdn.microsoft.com/library/windows/hardware/ff561635">NdisClMakeCall</a>.
 
 </li>
 <li>
 Following VC deactivation and the closing of the call, a CM can reuse a VC that it originally
       created to indicate another incoming call to the same client with 
-      <a href="..\ndis\nf-ndis-ndiscmdispatchincomingcall.md">
+      <a href="https://msdn.microsoft.com/2172aeec-8502-414e-9d01-9292c0eb7ce8">
       NdisCmDispatchIncomingCall</a>.
 
 </li>
 </ul>
 The creator of a particular VC that will not be reused calls 
-    <a href="..\ndis\nf-ndis-ndiscodeletevc.md">NdisCoDeleteVc</a> to destroy that VC.
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561698">NdisCoDeleteVc</a> to destroy that VC.
 
 Only stand-alone call managers, which register themselves with NDIS as protocol drivers, can call 
     <b>NdisCmDeactivateVc</b>. Connection-oriented miniport drivers that provide integrated call-management
@@ -141,39 +131,39 @@ Only stand-alone call managers, which register themselves with NDIS as protocol 
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisclmakecall.md">NdisClMakeCall</a>
 
 
 
-<a href="..\ndis\nc-ndis-protocol_cm_deactivate_vc_complete.md">
+<a href="https://msdn.microsoft.com/8c17cec8-d161-47cf-b886-bb8b8d957656">MiniportCoDeactivateVc</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561627">NdisClCloseCall</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561635">NdisClMakeCall</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561649">NdisCmActivateVc</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561664">NdisCmDispatchIncomingCall</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562818">NdisMCmDeactivateVc</a>
+
+
+
+<a href="https://msdn.microsoft.com/b5307e1b-3905-4e43-a0b0-0068ba18ef0d">ProtocolCmCloseCall</a>
+
+
+
+<a href="https://msdn.microsoft.com/44ee0e3c-aee9-4e24-9e54-c57248b568b6">
    ProtocolCmDeactivateVcComplete</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndiscmactivatevc.md">NdisCmActivateVc</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismcmdeactivatevc.md">NdisMCmDeactivateVc</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndiscmdispatchincomingcall.md">NdisCmDispatchIncomingCall</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_co_deactivate_vc.md">MiniportCoDeactivateVc</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_cm_close_call.md">ProtocolCmCloseCall</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisclclosecall.md">NdisClCloseCall</a>
-
-
-
  
 
  

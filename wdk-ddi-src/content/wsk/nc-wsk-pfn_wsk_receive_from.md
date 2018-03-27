@@ -55,26 +55,6 @@ The
   transport address.
 
 
-## -prototype
-
-
-````
-PFN_WSK_RECEIVE_FROM WskReceiveFrom;
-
-NTSTATUS WSKAPI * WskReceiveFrom(
-  _In_       PWSK_SOCKET Socket,
-  _In_       PWSK_BUF    Buffer,
-  _Reserved_ ULONG       Flags,
-  _Out_opt_  PSOCKADDR   RemoteAddress,
-  _Inout_    PULONG      ControlInfoLength,
-  _Out_opt_  PCMSGHDR    ControlInfo,
-  _Out_opt_  PULONG      ControlFlags,
-  _Inout_    PIRP        Irp
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -83,14 +63,14 @@ NTSTATUS WSKAPI * WskReceiveFrom(
 ### -param Socket [in]
 
 A pointer to a 
-     <a href="..\wsk\ns-wsk-_wsk_socket.md">WSK_SOCKET</a> structure that specifies the socket
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571182">WSK_SOCKET</a> structure that specifies the socket
      object for the datagram socket from which to receive the datagram.
 
 
 ### -param Buffer [in]
 
 A pointer to an initialized 
-     <a href="..\wsk\ns-wsk-_wsk_buf.md">WSK_BUF</a> structure that describes the data buffer
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571153">WSK_BUF</a> structure that describes the data buffer
      that receives the datagram from the socket.
 
 
@@ -233,7 +213,7 @@ The WSK subsystem could not receive the datagram from the socket immediately. Th
 <td width="60%">
 The socket is no longer functional. The IRP will be completed with failure status. The WSK
        application must call the 
-       <a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a> function to close the
+       <a href="https://msdn.microsoft.com/library/windows/hardware/ff571124">WskCloseSocket</a> function to close the
        socket as soon as possible.
 
 </td>
@@ -265,7 +245,7 @@ If the WSK application has set a fixed remote transport address for the datagram
     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/sio-wsk-set-remote-address">SIO_WSK_SET_REMOTE_ADDRESS</a>.
 
 If a WSK application's 
-    <a href="..\wsk\nc-wsk-pfn_wsk_receive_from_event.md">WskReceiveFromEvent</a> event callback
+    <a href="https://msdn.microsoft.com/1cdb8a70-54fe-44a6-a16c-71cbf6a49ef2">WskReceiveFromEvent</a> event callback
     function is enabled on a datagram socket and the application also has a pending call to the 
     <b>WskReceiveFrom</b> function on the same datagram socket, then, when datagrams arrive, the pending call
     to the 
@@ -285,7 +265,7 @@ If a WSK application's
 
 If the 
     <b>WskReceiveFrom</b> function returns STATUS_PENDING, the MDL chain that is described in the 
-    <a href="..\wsk\ns-wsk-_wsk_buf.md">WSK_BUF</a> structure that is pointed to by the 
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff571153">WSK_BUF</a> structure that is pointed to by the 
     <i>Buffer</i> parameter must remain locked in memory until the IRP is completed. In addition, the variable
     that is pointed to by the 
     <i>ControlInfoLength</i> parameter, the buffer that is pointed to by the 
@@ -302,20 +282,6 @@ If the
 
 ## -see-also
 
-<a href="..\wsk\ns-wsk-_wsk_socket.md">WSK_SOCKET</a>
-
-
-
-<a href="..\wsk\ns-wsk-_wsk_provider_datagram_dispatch.md">
-   WSK_PROVIDER_DATAGRAM_DISPATCH</a>
-
-
-
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/sio-wsk-set-remote-address">SIO_WSK_SET_REMOTE_ADDRESS</a>
-
-
-
-<a href="..\wsk\nc-wsk-pfn_wsk_control_socket.md">WskControlSocket</a>
 
 
 
@@ -323,11 +289,7 @@ If the
 
 
 
-<a href="..\wsk\ns-wsk-_wsk_buf.md">WSK_BUF</a>
-
-
-
-<a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/sio-wsk-set-remote-address">SIO_WSK_SET_REMOTE_ADDRESS</a>
 
 
 
@@ -335,14 +297,32 @@ If the
 
 
 
-<a href="..\wsk\nc-wsk-pfn_wsk_send_to.md">WskSendTo</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571153">WSK_BUF</a>
 
 
 
-<a href="..\wsk\nc-wsk-pfn_wsk_receive_from_event.md">WskReceiveFromEvent</a>
+<a href="https://msdn.microsoft.com/fa8d3395-b800-4e5c-af03-b21520f69158">
+   WSK_PROVIDER_DATAGRAM_DISPATCH</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571182">WSK_SOCKET</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571124">WskCloseSocket</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571127">WskControlSocket</a>
+
+
+
+<a href="https://msdn.microsoft.com/1cdb8a70-54fe-44a6-a16c-71cbf6a49ef2">WskReceiveFromEvent</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571148">WskSendTo</a>
  
 
  

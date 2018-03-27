@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,17 +51,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
     Controls the width of an output line for
     commands that produce formatted output. 
-
-
-## -syntax
-
-
-````
-HRESULT SetOutputWidth(
-  [in] ULONG Columns
-
-);
-````
 
 
 ## -parameters
@@ -113,10 +102,10 @@ This setting is a suggestion that can be overridden by other settings.
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient.md">IDebugClient</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549827">IDebugClient</a>
  
 
  

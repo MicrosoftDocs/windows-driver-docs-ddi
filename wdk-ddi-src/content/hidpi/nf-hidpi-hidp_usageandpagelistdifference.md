@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: TBD
 topic_type:
@@ -50,16 +50,6 @@ req.typenames: HIDP_REPORT_TYPE
 
 
 The <b>HidP_UsageAndPageListDifference</b> routine is not implemented.
-
-
-## -syntax
-
-
-````
- HidP_UsageAndPageListDifference(
-    
-);
-````
 
 
 ## -parameters

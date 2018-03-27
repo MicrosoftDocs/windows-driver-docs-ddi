@@ -53,25 +53,15 @@ The <b>NDIS_RW_LOCK</b> structure defines the attributes of a read/write lock. T
    NDIS drivers.
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_RW_LOCK {
-  ;      // Reserved for NDIS.
-} NDIS_RW_LOCK, *PNDIS_RW_LOCK;
-````
-
-
 ## -struct-fields
 
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567279">NDIS_RW_LOCK_EX</a>
-
-
-
  
 
  

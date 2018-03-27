@@ -54,18 +54,6 @@ The <b>NDIS_NIC_SWITCH_TYPE</b> enumeration specifies the type of the NIC switch
 
 
 
-## -syntax
-
-
-````
-typedef enum _NDIS_NIC_SWITCH_TYPE { 
-  NdisNicSwitchTypeUnspecified  = 0,
-  NdisNicSwitchTypeExternal     = 1,
-  NdisNicSwitchTypeMax          = 2
-} NDIS_NIC_SWITCH_TYPE, *PNDIS_NIC_SWITCH_TYPE;
-````
-
-
 ## -enum-fields
 
 
@@ -92,7 +80,7 @@ The maximum value for this enumeration. This value might change in future versio
 
 
 
-The <b>SwitchType</b> member of the <a href="..\ntddndis\ns-ntddndis-_ndis_nic_switch_parameters.md">NDIS_NIC_SWITCH_PARAMETERS</a> and <a href="..\ntddndis\ns-ntddndis-_ndis_nic_switch_info.md">NDIS_NIC_SWITCH_INFO</a> structures is an <b>NDIS_NIC_SWITCH_TYPE</b> enumeration data type. 
+The <b>SwitchType</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451587">NDIS_NIC_SWITCH_PARAMETERS</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/hh451582">NDIS_NIC_SWITCH_INFO</a> structures is an <b>NDIS_NIC_SWITCH_TYPE</b> enumeration data type. 
 
 
 
@@ -103,11 +91,6 @@ For more information about the NIC switch, see <a href="https://msdn.microsoft.c
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_nic_switch_parameters.md">NDIS_NIC_SWITCH_PARAMETERS</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_nic_switch_info.md">NDIS_NIC_SWITCH_INFO</a>
 
 
 
@@ -115,6 +98,11 @@ For more information about the NIC switch, see <a href="https://msdn.microsoft.c
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451582">NDIS_NIC_SWITCH_INFO</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451587">NDIS_NIC_SWITCH_PARAMETERS</a>
  
 
  

@@ -54,17 +54,6 @@ The NDIS_LINK_SPEED structure specifies transmit and receive link speeds.
   
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_LINK_SPEED {
-  ULONG64 XmitLinkSpeed;
-  ULONG64 RcvLinkSpeed;
-} NDIS_LINK_SPEED, *PNDIS_LINK_SPEED;
-````
-
-
 ## -struct-fields
 
 
@@ -95,7 +84,6 @@ The NDIS_LINK_SPEED structure specifies link speeds in the
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569602">OID_GEN_MAX_LINK_SPEED</a>
 
 
 
@@ -103,6 +91,7 @@ The NDIS_LINK_SPEED structure specifies link speeds in the
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569602">OID_GEN_MAX_LINK_SPEED</a>
  
 
  

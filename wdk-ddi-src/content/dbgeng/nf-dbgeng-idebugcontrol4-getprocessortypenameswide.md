@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -50,22 +50,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>GetProcessorTypeNamesWide</b>  method returns the full name and abbreviated name of the specified processor type.
-
-
-## -syntax
-
-
-````
-HRESULT GetProcessorTypeNamesWide(
-  [in]            ULONG  Type,
-  [out, optional] PWSTR  FullNameBuffer,
-  [in]            ULONG  FullNameBufferSize,
-  [out, optional] PULONG FullNameSize,
-  [out, optional] PWSTR  AbbrevNameBuffer,
-  [in]            ULONG  AbbrevNameBufferSize,
-  [out, optional] PULONG AbbrevNameSize
-);
-````
 
 
 ## -parameters
@@ -158,14 +142,14 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548438">GetSupportedProcessorTypes</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550526">IDebugControl4</a>
  
 
  

@@ -52,17 +52,6 @@ req.typenames: RILEXECUTORFOCUSSTATEPARAMMASK
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef enum _RILEXECUTORFOCUSSTATEPARAMMASK { 
-  RIL_PARAM_EXECUTORFOCUSSTATE_STATE,
-  RIL_PARAM_EXECUTORFOCUSSTATE_ALL
-} RILEXECUTORFOCUSSTATEPARAMMASK;
-````
-
-
 ## -enum-fields
 
 

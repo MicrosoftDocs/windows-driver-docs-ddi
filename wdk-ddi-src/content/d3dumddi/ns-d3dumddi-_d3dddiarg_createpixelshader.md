@@ -52,17 +52,6 @@ req.typenames: D3DDDIARG_CREATEPIXELSHADER
 The D3DDDIARG_CREATEPIXELSHADER structure specifies a shader handle to associate with pixel shader code.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DDDIARG_CREATEPIXELSHADER {
-  UINT   CodeSize;
-  HANDLE ShaderHandle;
-} D3DDDIARG_CREATEPIXELSHADER;
-````
-
-
 ## -struct-fields
 
 
@@ -70,7 +59,7 @@ typedef struct _D3DDDIARG_CREATEPIXELSHADER {
 
 ### -field CodeSize
 
-[in] The size, in bytes, of the pixel shader code that is passed in the <i>pCode</i> parameter in a call to the user-mode display driver's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createpixelshader.md">CreatePixelShader</a> function.
+[in] The size, in bytes, of the pixel shader code that is passed in the <i>pCode</i> parameter in a call to the user-mode display driver's <a href="https://msdn.microsoft.com/b80a1823-6d91-440f-89e4-f7248579cc8f">CreatePixelShader</a> function.
 
 
 ### -field ShaderHandle
@@ -89,10 +78,10 @@ For more information about programming shader assemblers, see <a href="https://m
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createpixelshader.md">CreatePixelShader</a>
 
 
 
+<a href="https://msdn.microsoft.com/b80a1823-6d91-440f-89e4-f7248579cc8f">CreatePixelShader</a>
  
 
  

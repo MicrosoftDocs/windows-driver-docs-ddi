@@ -52,17 +52,6 @@ req.typenames: D3DDDIARG_SETSTREAMSOURCEUM
 The D3DDDIARG_SETSTREAMSOURCEUM structure describes the vertex stream to bind to a user-memory buffer. 
 
 
-## -syntax
-
-
-````
-typedef struct _D3DDDIARG_SETSTREAMSOURCEUM {
-  UINT Stream;
-  UINT Stride;
-} D3DDDIARG_SETSTREAMSOURCEUM;
-````
-
-
 ## -struct-fields
 
 
@@ -75,7 +64,7 @@ typedef struct _D3DDDIARG_SETSTREAMSOURCEUM {
 
 ### -field Stride
 
-[in] The size, in bytes, from one vertex to the next vertex in the stream. In contrast to the call to the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setstreamsource.md">SetStreamSource</a> function, <b>Stride</b> cannot be set to zero. Because only one stream can be bound to a user memory buffer, each vertex in the stream must receive different data for processing.
+[in] The size, in bytes, from one vertex to the next vertex in the stream. In contrast to the call to the <a href="https://msdn.microsoft.com/669dbabc-91fb-40f9-a034-11c3c2e70436">SetStreamSource</a> function, <b>Stride</b> cannot be set to zero. Because only one stream can be bound to a user memory buffer, each vertex in the stream must receive different data for processing.
 
 The <b>Stride</b> value must be DWORD-aligned. 
 
@@ -84,17 +73,17 @@ The <b>Stride</b> value must be DWORD-aligned.
 
 
 
-In a call to the user-mode display driver's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setstreamsourceum.md">SetStreamSourceUM</a> function, a pointer to a D3DDDIARG_SETSTREAMSOURCEUM structure is passed in the <i>pData</i> parameter. The Microsoft Direct3D runtime supplies vertex data for the vertex stream through the <i>pUMBuffer</i> parameter in a call to the user-mode display driver's <b>SetStreamSourceUM</b> function. 
+In a call to the user-mode display driver's <a href="https://msdn.microsoft.com/75a70801-0338-45ed-a691-5f84202575d5">SetStreamSourceUM</a> function, a pointer to a D3DDDIARG_SETSTREAMSOURCEUM structure is passed in the <i>pData</i> parameter. The Microsoft Direct3D runtime supplies vertex data for the vertex stream through the <i>pUMBuffer</i> parameter in a call to the user-mode display driver's <b>SetStreamSourceUM</b> function. 
 
 
 
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setstreamsourceum.md">SetStreamSourceUM</a>
 
 
 
+<a href="https://msdn.microsoft.com/75a70801-0338-45ed-a691-5f84202575d5">SetStreamSourceUM</a>
  
 
  

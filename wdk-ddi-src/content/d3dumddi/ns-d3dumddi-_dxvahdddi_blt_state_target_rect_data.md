@@ -52,17 +52,6 @@ req.typenames: DXVAHDDDI_BLT_STATE_TARGET_RECT_DATA
 The DXVAHDDDI_BLT_STATE_TARGET_RECT_DATA structure describes data that specifies the target rectangle of the output. 
 
 
-## -syntax
-
-
-````
-typedef struct _DXVAHDDDI_BLT_STATE_TARGET_RECT_DATA {
-  BOOL Enable;
-  RECT TargetRect;
-} DXVAHDDDI_BLT_STATE_TARGET_RECT_DATA;
-````
-
-
 ## -struct-fields
 
 
@@ -89,10 +78,10 @@ If the <b>Enable</b> member is set to <b>TRUE</b> and the target rectangle that 
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
-
-
-
  
 
  

@@ -49,17 +49,7 @@ req.typenames: DXGKARG_QUERYCONNECTIONCHANGE
 ## -description
 
 
-Used to hold the arguments for <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_queryconnectionchange.md">DXGKDDI_QUERYCONNECTIONCHANGE</a>.
-
-
-## -syntax
-
-
-````
-typedef struct _DXGKARG_QUERYCONNECTIONCHANGE {
-  DXGK_CONNECTION_CHANGE ConnectionChange;
-} DXGKARG_QUERYCONNECTIONCHANGE;
-````
+Used to hold the arguments for <a href="https://msdn.microsoft.com/8C09B692-3439-4ACD-942D-F7A107E2B4DA">DXGKDDI_QUERYCONNECTIONCHANGE</a>.
 
 
 ## -struct-fields

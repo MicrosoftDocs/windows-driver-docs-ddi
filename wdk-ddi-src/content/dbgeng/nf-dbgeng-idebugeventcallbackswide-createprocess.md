@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -50,26 +50,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>CreateProcess</b> callback method is called by the engine when a create-processdebugging event occurs in the target.
-
-
-## -syntax
-
-
-````
-HRESULT CreateProcess(
-  [in]           ULONG64 ImageFileHandle,
-  [in]           ULONG64 Handle,
-  [in]           ULONG64 BaseOffset,
-  [in]           ULONG   ModuleSize,
-  [in, optional] PCWSTR  ModuleName,
-  [in, optional] PCWSTR  ImageName,
-  [in]           ULONG   CheckSum,
-  [in]           ULONG   TimeDateStamp,
-  [in]           ULONG64 InitialThreadHandle,
-  [in]           ULONG64 ThreadDataOffset,
-  [in]           ULONG64 StartOffset
-);
-````
 
 
 ## -parameters

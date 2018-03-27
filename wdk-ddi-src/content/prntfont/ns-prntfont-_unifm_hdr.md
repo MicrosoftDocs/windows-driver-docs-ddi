@@ -53,25 +53,6 @@ req.product: Windows 10 or later.
 The UNIFM_HDR structure is used to define the contents of <a href="https://msdn.microsoft.com/6e643703-ace1-4660-990c-3a9ca735829d">Unidrv font metrics files</a> (.ufm files).
 
 
-## -syntax
-
-
-````
-typedef struct _UNIFM_HDR {
-  DWORD dwSize;
-  DWORD dwVersion;
-  ULONG ulDefaultCodepage;
-  LONG  lGlyphSetDataRCID;
-  DWORD loUnidrvInfo;
-  DWORD loIFIMetrics;
-  DWORD loExtTextMetric;
-  DWORD loWidthTable;
-  DWORD loKernPair;
-  DWORD dwReserved[2];
-} UNIFM_HDR, *PUNIFM_HDR;
-````
-
-
 ## -struct-fields
 
 
@@ -99,27 +80,27 @@ Specifies an RC_GTT resource identifier that identifies a .gtt (Glyph Translatio
 
 ### -field loUnidrvInfo
 
-Specifies the byte offset from the beginning of the .ufm (Unidrv Font Metrics) file to the location of the file's <a href="..\prntfont\ns-prntfont-_unidrvinfo.md">UNIDRVINFO</a> structure.
+Specifies the byte offset from the beginning of the .ufm (Unidrv Font Metrics) file to the location of the file's <a href="https://msdn.microsoft.com/library/windows/hardware/ff562872">UNIDRVINFO</a> structure.
 
 
 ### -field loIFIMetrics
 
-Specifies the byte offset from the beginning of the .ufm file to the location of the file's <a href="..\prntfont\ns-prntfont-_printifi32.md">PRINTIFI32</a> structure.
+Specifies the byte offset from the beginning of the .ufm file to the location of the file's <a href="https://msdn.microsoft.com/library/windows/hardware/ff569182">PRINTIFI32</a> structure.
 
 
 ### -field loExtTextMetric
 
-Specifies the byte offset from the beginning of the .ufm file to the location of the file's <a href="..\prntfont\ns-prntfont-_exttextmetric.md">EXTTEXTMETRIC</a> structure.
+Specifies the byte offset from the beginning of the .ufm file to the location of the file's <a href="https://msdn.microsoft.com/library/windows/hardware/ff548801">EXTTEXTMETRIC</a> structure.
 
 
 ### -field loWidthTable
 
-Specifies the byte offset from the beginning of the .ufm file to the location of the file's <a href="..\prntfont\ns-prntfont-_widthtable.md">WIDTHTABLE</a> structure.
+Specifies the byte offset from the beginning of the .ufm file to the location of the file's <a href="https://msdn.microsoft.com/library/windows/hardware/ff563774">WIDTHTABLE</a> structure.
 
 
 ### -field loKernPair
 
-Specifies the byte offset from the beginning of the .ufm file to the location of the file's <a href="..\prntfont\ns-prntfont-_kerndata.md">KERNDATA</a> structure.
+Specifies the byte offset from the beginning of the .ufm file to the location of the file's <a href="https://msdn.microsoft.com/library/windows/hardware/ff556437">KERNDATA</a> structure.
 
 
 ### -field dwReserved
@@ -137,7 +118,7 @@ If <b>lGlyphSetDataRCID</b> is not CC_DEFAULT, then the following rules apply:
 
 <ul>
 <li>
-If <b>lGlyphSetDataRCID</b> contains an RC_GTT resource identifier, the code page number specified for <b>ulDefaultCodepage</b> must be the same code page number that is contained in the .gtt (Glyph Translation Table) file's first <a href="..\prntfont\ns-prntfont-_uni_codepageinfo.md">UNI_CODEPAGEINFO</a> structure.
+If <b>lGlyphSetDataRCID</b> contains an RC_GTT resource identifier, the code page number specified for <b>ulDefaultCodepage</b> must be the same code page number that is contained in the .gtt (Glyph Translation Table) file's first <a href="https://msdn.microsoft.com/library/windows/hardware/ff563596">UNI_CODEPAGEINFO</a> structure.
 
 </li>
 <li>
@@ -193,30 +174,30 @@ If <b>lGlyphSetDataRCID</b> is CC_DEFAULT, there are no restrictions on the valu
 
 ## -see-also
 
-<a href="..\prntfont\ns-prntfont-_printifi32.md">PRINTIFI32</a>
 
 
 
-<a href="..\prntfont\ns-prntfont-_uni_codepageinfo.md">UNI_CODEPAGEINFO</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548801">EXTTEXTMETRIC</a>
 
 
 
-<a href="..\prntfont\ns-prntfont-_unidrvinfo.md">UNIDRVINFO</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556437">KERNDATA</a>
 
 
 
-<a href="..\prntfont\ns-prntfont-_exttextmetric.md">EXTTEXTMETRIC</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569182">PRINTIFI32</a>
 
 
 
-<a href="..\prntfont\ns-prntfont-_widthtable.md">WIDTHTABLE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562872">UNIDRVINFO</a>
 
 
 
-<a href="..\prntfont\ns-prntfont-_kerndata.md">KERNDATA</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563596">UNI_CODEPAGEINFO</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563774">WIDTHTABLE</a>
  
 
  

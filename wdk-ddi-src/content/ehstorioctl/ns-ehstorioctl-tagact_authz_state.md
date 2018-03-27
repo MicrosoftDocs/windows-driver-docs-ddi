@@ -52,17 +52,6 @@ req.typenames: ACT_AUTHZ_STATE, *PACT_AUTHZ_STATE
 This structure describes the Addressable Command Target (ACT) authorization state.
 
 
-## -syntax
-
-
-````
-typedef struct tagACT_AUTHZ_STATE {
-  UCHAR   ACT;
-  BOOLEAN fAuthorized;
-} ACT_AUTHZ_STATE, *PACT_AUTHZ_STATE;
-````
-
-
 ## -struct-fields
 
 

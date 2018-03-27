@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: wiautil.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -53,16 +53,6 @@ req.product: Windows 10 or later.
 The <b>CWiauPropertyList::LookupPropId</b> method finds a property's index, given its property ID.
 
 
-## -syntax
-
-
-````
-INT LookupPropId(
-   PROPID   PropId
-);
-````
-
-
 ## -parameters
 
 
@@ -84,14 +74,14 @@ On success, the method returns the index of the property within the property lis
 
 ## -see-also
 
-<a href="..\wiautil\nl-wiautil-cwiaupropertylist.md">CWiauPropertyList</a>
+
+
+
+<a href="https://msdn.microsoft.com/4f11bec0-8ff4-4fa0-824c-71ce9774d5d1">CWiauPropertyList</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540392">CWiauPropertyList::GetPropId</a>
-
-
-
  
 
  

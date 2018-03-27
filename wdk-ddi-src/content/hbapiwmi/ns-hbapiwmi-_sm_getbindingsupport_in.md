@@ -52,17 +52,6 @@ req.typenames: SM_GetBindingSupport_IN, *PSM_GetBindingSupport_IN
 The SM_GetBindingSupport_IN structure is used to provide input parameters to the SM_GetBindingSupport method.
 
 
-## -syntax
-
-
-````
-typedef struct _SM_GetBindingSupport_IN {
-  UCHAR HbaPortWWN[8];
-  UCHAR DomainPortWWN[8];
-} SM_GetBindingSupport_IN, *PSM_GetBindingSupport_IN;
-````
-
-
 ## -struct-fields
 
 

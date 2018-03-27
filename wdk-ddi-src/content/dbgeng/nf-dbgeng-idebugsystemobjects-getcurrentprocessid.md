@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -53,16 +53,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>GetCurrentProcessId</b> method returns the engine process ID for the current process.
-
-
-## -syntax
-
-
-````
-HRESULT GetCurrentProcessId(
-  [out] PULONG Id
-);
-````
 
 
 ## -parameters

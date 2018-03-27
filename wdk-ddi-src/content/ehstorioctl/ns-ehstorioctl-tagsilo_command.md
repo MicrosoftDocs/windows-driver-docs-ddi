@@ -52,19 +52,6 @@ req.typenames: SILO_COMMAND, *PSILO_COMMAND
 This structure describes a storage silo driver command.
 
 
-## -syntax
-
-
-````
-typedef struct tagSILO_COMMAND {
-  UCHAR SiloIndex;
-  UCHAR Command;
-  ULONG cbCommandBuffer;
-  UCHAR rgbCommandBuffer[ANYSIZE_ARRAY];
-} SILO_COMMAND, *PSILO_COMMAND;
-````
-
-
 ## -struct-fields
 
 

@@ -53,19 +53,6 @@ req.typenames: EXpsFontRestriction
 The <b>FltAllocateCallbackDataEx</b> routine allocates a callback data structure and can preallocate memory for additional structures that a minifilter driver can use to initiate an I/O request.
 
 
-## -syntax
-
-
-````
-NTSTATUS FltAllocateCallbackDataEx(
-  _In_     PFLT_INSTANCE                    Instance,
-  _In_opt_ PFILE_OBJECT                     FileObject,
-  _In_     FLT_ALLOCATE_CALLBACK_DATA_FLAGS Flags,
-  _Out_    PFLT_CALLBACK_DATA               *RetNewCallbackData
-);
-````
-
-
 ## -parameters
 
 
@@ -92,7 +79,7 @@ If this flag is set, the routine preallocates all the memory needed by the filte
 
 ### -param RetNewCallbackData [out]
 
-A pointer to a caller-allocated variable that receives the address of the newly allocated callback data (<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>) structure.
+A pointer to a caller-allocated variable that receives the address of the newly allocated callback data (<a href="https://msdn.microsoft.com/library/windows/hardware/ff544620">FLT_CALLBACK_DATA</a>) structure.
 
 
 ## -returns
@@ -114,21 +101,21 @@ If the FLT_ALLOCATE_CALLBACK_DATA_PREALLOCATE_ALL_MEMORY flag is set, the routin
 <div> </div>
 Set <i>FileObject</i> to <b>NULL</b> if this is a CREATE operation.
 
-<div class="alert"><b>Important</b>    The comments for <a href="..\fltkernel\nf-fltkernel-fltallocatecallbackdata.md">FltAllocateCallbackData</a> apply to <b>FltAllocateCallbackDataEx</b> as well. Review that information in order to select the correct routine for your design. </div>
+<div class="alert"><b>Important</b>    The comments for <a href="https://msdn.microsoft.com/library/windows/hardware/ff541703">FltAllocateCallbackData</a> apply to <b>FltAllocateCallbackDataEx</b> as well. Review that information in order to select the correct routine for your design. </div>
 <div> </div>
 
 
 
 ## -see-also
 
-<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltallocatecallbackdata.md">FltAllocateCallbackData</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544620">FLT_CALLBACK_DATA</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541703">FltAllocateCallbackData</a>
  
 
  

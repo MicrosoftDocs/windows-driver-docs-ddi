@@ -53,22 +53,6 @@ req.product: Windows 10 or later.
 The WWAN_SMS_FLAG enumeration lists different flags to filter SMS text messages.
 
 
-## -syntax
-
-
-````
-typedef enum _WWAN_SMS_FLAG { 
-  WwanSmsFlagAll    = 0,
-  WwanSmsFlagIndex,
-  WwanSmsFlagNew,
-  WwanSmsFlagOld,
-  WwanSmsFlagSent,
-  WwanSmsFlagDraft,
-  WwanSmsFlagMax
-} WWAN_SMS_FLAG, *PWWAN_SMS_FLAG;
-````
-
-
 ## -enum-fields
 
 
@@ -111,10 +95,10 @@ The total number of filter flags.
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_sms_filter.md">WWAN_SMS_FILTER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571245">WWAN_SMS_FILTER</a>
  
 
  

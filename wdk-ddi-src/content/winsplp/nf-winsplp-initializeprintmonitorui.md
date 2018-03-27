@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -53,16 +53,6 @@ req.product: Windows 10 or later.
 A port monitor UI DLL's <b>InitializePrintMonitorUI</b> function supplies the print spooler with addresses of DLL functions.
 
 
-## -syntax
-
-
-````
-PMONITORUI WINAPI InitializePrintMonitorUI(
-    void
-);
-````
-
-
 ## -parameters
 
 
@@ -77,7 +67,7 @@ PMONITORUI WINAPI InitializePrintMonitorUI(
 
 
 
-The function should return a pointer to an initialized <a href="..\winsplp\ns-winsplp-_monitorui.md">MONITORUI</a> structure.
+The function should return a pointer to an initialized <a href="https://msdn.microsoft.com/library/windows/hardware/ff557541">MONITORUI</a> structure.
 
 
 
@@ -93,14 +83,14 @@ Port monitor UI DLLs are required to export an <b>InitializePrintMonitorUI</b> f
 
 ## -see-also
 
-<a href="..\winsplp\nf-winsplp-initializeprintmonitor.md">InitializePrintMonitor</a>
 
 
 
-<a href="..\winsplp\ns-winsplp-_monitorui.md">MONITORUI</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551600">InitializePrintMonitor</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557541">MONITORUI</a>
  
 
  

@@ -54,18 +54,6 @@ req.product: Windows 10 or later.
 Adds a USB descriptor to the initialization parameters used to create a virtual USB device.
 
 
-## -syntax
-
-
-````
-FORCEINLINE NTSTATUS UdecxUsbDeviceInitAddDescriptor(
-  _Inout_ PUDECXUSBDEVICE_INIT            UdecxUsbDeviceInit,
-  _In_    reads_(DescriptorLength) PUCHAR Descriptor,
-  _In_    USHORT                          DescriptorLength
-);
-````
-
-
 ## -parameters
 
 
@@ -73,7 +61,7 @@ FORCEINLINE NTSTATUS UdecxUsbDeviceInitAddDescriptor(
 
 ### -param UdecxUsbDeviceInit [in, out]
 
-A pointer to a WDF-allocated structure that contains initialization parameters for the virtual USB device.  The client driver retrieved this pointer in the previous call to <a href="..\udecxusbdevice\nf-udecxusbdevice-udecxusbdeviceinitallocate.md">UdecxUsbDeviceInitAllocate</a>. 
+A pointer to a WDF-allocated structure that contains initialization parameters for the virtual USB device.  The client driver retrieved this pointer in the previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/mt627968">UdecxUsbDeviceInitAllocate</a>. 
 
 
 ### -param Descriptor [in]
@@ -97,15 +85,6 @@ The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this met
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn303349">Standard USB descriptors</a>
-
-
-
-<a href="..\udecxusbdevice\nf-udecxusbdevice-udecxusbdeviceinitallocate.md">UdecxUsbDeviceInitAllocate</a>
 
 
 
@@ -113,6 +92,15 @@ The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this met
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn303349">Standard USB descriptors</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt627968">UdecxUsbDeviceInitAllocate</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
  
 
  

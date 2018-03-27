@@ -53,18 +53,6 @@ req.product: Windows 10 or later.
 The <b>UFS_STRING_DESCRIPTOR</b> structure describes either the Manufacturer Name, Product Name, OEM ID, or Serial Number as a string. 
 
 
-## -syntax
-
-
-````
-typedef struct _UFS_STRING_DESCRIPTOR {
-  UCHAR bLength;
-  UCHAR bDescriptorIDN;
-  UCHAR String[UFS_MAX_UNICODE_STRING_LEN];
-} UFS_STRING_DESCRIPTOR, *PUFS_STRING_DESCRIPTOR;
-````
-
-
 ## -struct-fields
 
 

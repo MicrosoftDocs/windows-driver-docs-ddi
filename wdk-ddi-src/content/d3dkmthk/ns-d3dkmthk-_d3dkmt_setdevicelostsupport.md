@@ -52,17 +52,6 @@ req.typenames: D3DKMT_SETDEVICELOSTSUPPORT
 Used to indicate whether a device can recover from losing a graphics device.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DKMT_SETDEVICELOSTSUPPORT {
-  D3DKMT_HANDLE hDevice;
-  BOOLEAN       Support;
-} D3DKMT_SETDEVICELOSTSUPPORT;
-````
-
-
 ## -struct-fields
 
 

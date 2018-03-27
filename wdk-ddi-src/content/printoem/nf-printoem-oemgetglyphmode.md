@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,17 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <code>OEMGetGlyphMode</code> function informs the GDI how to cache glyph information.
-
-
-## -syntax
-
-
-````
-ULONG APIENTRY OEMGetGlyphMode(
-   DHPDEV  dhpdev,
-   FONTOBJ *pfo
-);
-````
 
 
 ## -parameters

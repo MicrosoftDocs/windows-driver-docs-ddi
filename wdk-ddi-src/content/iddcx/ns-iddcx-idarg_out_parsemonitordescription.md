@@ -53,17 +53,6 @@ req.typenames:
                  Gives information about the number of monitor modes and  preferred monitor mode of a monitor.
 
 
-## -syntax
-
-
-````
-typedef struct IDARG_OUT_PARSEMONITORDESCRIPTION {
-  UINT MonitorModeBufferOutputCount;
-  UINT PreferredMonitorModeIdx;
-} IDARG_OUT_PARSEMONITORDESCRIPTION, *IDARG_OUT_PARSEMONITORDESCRIPTION;
-````
-
-
 ## -struct-fields
 
 
@@ -72,7 +61,7 @@ typedef struct IDARG_OUT_PARSEMONITORDESCRIPTION {
 ### -field MonitorModeBufferOutputCount
 
 
-                     [out] If the <a href="..\iddcx\ns-iddcx-idarg_in_parsemonitordescription.md">IDARG_IN_PARSEMONITORDESCRIPTION</a> value <b>pMonitorModes</b> was NULL, then the driver should set this to the number of monitor modes the driver would generate for the specified monitor description. f the <b>IDARG_IN_PARSEMONITORDESCRIPTION</b> value <b>pMonitorModes</b> was non-NULL then this is the count of the monitor modes that the driver copied to that buffer.
+                     [out] If the <a href="https://msdn.microsoft.com/library/windows/hardware/mt761894">IDARG_IN_PARSEMONITORDESCRIPTION</a> value <b>pMonitorModes</b> was NULL, then the driver should set this to the number of monitor modes the driver would generate for the specified monitor description. f the <b>IDARG_IN_PARSEMONITORDESCRIPTION</b> value <b>pMonitorModes</b> was non-NULL then this is the count of the monitor modes that the driver copied to that buffer.
 
 
 ### -field PreferredMonitorModeIdx

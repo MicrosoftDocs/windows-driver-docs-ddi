@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: "_IRQL_requires_max_(APC_LEVEL)"
 topic_type:
@@ -50,18 +50,7 @@ req.typenames: EXpsFontRestriction
 
 
 This routine deallocates any information copied into a create operation by
-    a previous call to <a href="..\fltkernel\nf-fltkernel-fltcopyopenreparselist.md">FltCopyOpenReparseList</a>.  
-
-
-## -syntax
-
-
-````
-void FltAddOpenReparseEntry(
-  _In_ PFLT_FILTER Filter,
-  _In_ PECP_LIST   EcpList
-);
-````
+    a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/mt734258">FltCopyOpenReparseList</a>.  
 
 
 ## -parameters

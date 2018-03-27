@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: filterpipeline.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -50,17 +50,6 @@ req.typenames: EXpsFontRestriction
 
 
 The <code>Current</code> method provides the current URI and part.
-
-
-## -syntax
-
-
-````
-HRESULT Current(
-  [out] BSTR     *pUri,
-  [out] IUnknown **ppXpsPart
-);
-````
 
 
 ## -parameters

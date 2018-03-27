@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
@@ -50,19 +50,6 @@ req.typenames: EXpsCompressionOptions
 
 
 The ExpsCompressionOptions enumeration describes compression options for an XPS part.
-
-
-## -syntax
-
-
-````
-typedef enum  { 
-  Compression_NotCompressed,
-  Compression_Normal,
-  Compression_Small,
-  Compression_Fast
-} EXpsCompressionOptions;
-````
 
 
 ## -enum-fields

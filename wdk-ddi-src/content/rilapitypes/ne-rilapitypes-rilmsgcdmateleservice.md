@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,30 +51,6 @@ req.product: Windows 10 or later.
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef enum _RILMSGCDMATELESERVICE { 
-  RIL_MSGTELESERVICE_MESSAGING_OLD,
-  RIL_MSGTELESERVICE_VOICEMAIL_OLD,
-  RIL_MSGTELESERVICE_WAP_OLD,
-  RIL_MSGTELESERVICE_BROADCAST_OLD,
-  RIL_MSGTELESERVICE_SELFREG_OLD,
-  RIL_MSGTELESERVICE_PAGING,
-  RIL_MSGTELESERVICE_MESSAGING,
-  RIL_MSGTELESERVICE_WEMT,
-  RIL_MSGTELESERVICE_VOICEMAIL_VMN_95,
-  RIL_MSGTELESERVICE_VOICEMAIL_MWI,
-  RIL_MSGTELESERVICE_WAP,
-  RIL_MSGTELESERVICE_WAP_CT_MMS,
-  RIL_MSGTELESERVICE_WAP_CT_OMA,
-  RIL_MSGTELESERVICE_BROADCAST,
-  RIL_MSGTELESERVICE_SELFREG
-} RILMSGCDMATELESERVICE;
-````
 
 
 ## -enum-fields

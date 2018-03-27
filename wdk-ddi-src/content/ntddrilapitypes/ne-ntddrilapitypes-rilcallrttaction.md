@@ -52,19 +52,6 @@ req.typenames: RILCALLRTTACTION
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef enum _RILCALLRTTACTION { 
-  RIL_CALLRTTACTION_REJECT,
-  RIL_CALLRTTACTION_ASK,
-  RIL_CALLRTTACTION_ACCEPT,
-  RIL_CALLRTTACTION_MAX
-} RILCALLRTTACTION;
-````
-
-
 ## -enum-fields
 
 

@@ -52,19 +52,6 @@ req.typenames: KSCLOCK_DISPATCH, *PKSCLOCK_DISPATCH
 The KSCLOCK_DISPATCH structure contains the callbacks required for a pin to implement a clock object.
 
 
-## -syntax
-
-
-````
-typedef struct _KSCLOCK_DISPATCH {
-  PFNKSPINSETTIMER       SetTimer;
-  PFNKSPINCANCELTIMER    CancelTimer;
-  PFNKSPINCORRELATEDTIME CorrelatedTime;
-  PFNKSPINRESOLUTION     Resolution;
-} KSCLOCK_DISPATCH, *PKSCLOCK_DISPATCH;
-````
-
-
 ## -struct-fields
 
 
@@ -72,7 +59,7 @@ typedef struct _KSCLOCK_DISPATCH {
 
 ### -field SetTimer
 
-Optionally contains a pointer to an alternate function to use in generating DPC timer callbacks based on a presentation time. If this is set, this function is used to set timers based on deltas to the current presentation time in order to generate event notifications. If an alternate function is specified to set timers, a corresponding <b>CancelTimer</b> function must also be provided. This is set to <b>NULL</b> if the default <a href="..\wdm\nf-wdm-kesettimerex.md">KeSetTimerEx</a> function is used to approximate the next notification time. This would normally be set only if a <b>KeSetTimerEx</b> function was being used. The function must have the same characteristics as the default function.
+Optionally contains a pointer to an alternate function to use in generating DPC timer callbacks based on a presentation time. If this is set, this function is used to set timers based on deltas to the current presentation time in order to generate event notifications. If an alternate function is specified to set timers, a corresponding <b>CancelTimer</b> function must also be provided. This is set to <b>NULL</b> if the default <a href="https://msdn.microsoft.com/library/windows/hardware/ff553292">KeSetTimerEx</a> function is used to approximate the next notification time. This would normally be set only if a <b>KeSetTimerEx</b> function was being used. The function must have the same characteristics as the default function.
 
 The function should be prototyped as follows:
 
@@ -150,15 +137,6 @@ The function should be prototyped as follows:
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kesettimerex.md">KeSetTimerEx</a>
-
-
-
-<a href="..\ks\ns-ks-_kspin.md">KSPIN</a>
-
-
-
-<a href="..\ks\ns-ks-_kspin_dispatch.md">KSPIN_DISPATCH</a>
 
 
 
@@ -166,14 +144,23 @@ The function should be prototyped as follows:
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563483">KSPIN</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563535">KSPIN_DISPATCH</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565092">KSPROPERTY_CLOCK_RESOLUTION</a>
 
 
 
-<a href="..\ks\ns-ks-ksresolution.md">KSRESOLUTION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566806">KSRESOLUTION</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553292">KeSetTimerEx</a>
  
 
  

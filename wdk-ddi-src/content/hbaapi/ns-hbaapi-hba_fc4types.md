@@ -52,16 +52,6 @@ req.typenames: HBA_FC4TYPES, *PHBA_FC4TYPES
 The HBA_fc4types structure contains a set of up to 32 values indicating the FC-4 types that the HBA supports. 
 
 
-## -syntax
-
-
-````
-typedef struct HBA_fc4types {
-  HBA_UINT8 bits[32];
-} HBA_FC4TYPES, *PHBA_FC4TYPES;
-````
-
-
 ## -struct-fields
 
 
@@ -74,10 +64,10 @@ Contains 32 bytes of FC4 type information. Each byte indicates a support FC-4 ty
 
 ## -see-also
 
-<a href="..\hbaapi\ns-hbaapi-hba_portattributes.md">HBA_PortAttributes</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557107">HBA_PortAttributes</a>
  
 
  

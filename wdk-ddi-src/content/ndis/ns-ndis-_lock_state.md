@@ -54,25 +54,15 @@ The <b>LOCK_STATE</b> structure tracks the state of a read/write lock. This stru
    
 
 
-## -syntax
-
-
-````
-typedef struct _LOCK_STATE {
-  ;      // Reserved for NDIS.
-} LOCK_STATE, *PLOCK_STATE;
-````
-
-
 ## -struct-fields
 
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_lock_state_ex.md">LOCK_STATE_EX</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557070">LOCK_STATE_EX</a>
  
 
  

@@ -52,16 +52,6 @@ req.typenames: SM_RemoveTarget_OUT, *PSM_RemoveTarget_OUT
 The SM_RemoveTarget_OUT structure is used to receive output parameters from the SM_RemoveTarget WMI method.
 
 
-## -syntax
-
-
-````
-typedef struct _SM_RemoveTarget_OUT {
-  ULONG HBAStatus;
-} SM_RemoveTarget_OUT, *PSM_RemoveTarget_OUT;
-````
-
-
 ## -struct-fields
 
 

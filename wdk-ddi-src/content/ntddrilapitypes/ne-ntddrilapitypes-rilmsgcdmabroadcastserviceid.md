@@ -52,19 +52,6 @@ req.typenames: RILMSGCDMABROADCASTSERVICEID
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef enum _RILMSGCDMABROADCASTSERVICEID { 
-  RIL_1xBROADCAST_CMAS_EXTREME,
-  RIL_1xBROADCAST_CMAS_SEVERE,
-  RIL_1xBROADCAST_CMAS_AMBER,
-  RIL_1xBROADCAST_CMAS_TEST
-} RILMSGCDMABROADCASTSERVICEID;
-````
-
-
 ## -enum-fields
 
 

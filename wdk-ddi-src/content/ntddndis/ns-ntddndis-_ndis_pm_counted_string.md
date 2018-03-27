@@ -53,17 +53,6 @@ The NDIS_PM_COUNTED_STRING structure specifies a limited size string that is use
   structures.
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_PM_COUNTED_STRING {
-  USHORT Length;
-  WCHAR  String[NDIS_PM_MAX_STRING_SIZE + 1];
-} NDIS_PM_COUNTED_STRING, *PNDIS_PM_COUNTED_STRING;
-````
-
-
 ## -struct-fields
 
 
@@ -85,8 +74,8 @@ A WCHAR array that contains a NULL-terminated string that is limited to a maximu
 
 
 The NDIS_PM_COUNTED_STRING structure specifies a limited size string that is used in the 
-    <a href="..\ntddndis\ns-ntddndis-_ndis_pm_protocol_offload.md">NDIS_PM_PROTOCOL_OFFLOAD</a> and 
-    <a href="..\ntddndis\ns-ntddndis-_ndis_pm_wol_pattern.md">NDIS_PM_WOL_PATTERN</a> power management
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff566760">NDIS_PM_PROTOCOL_OFFLOAD</a> and 
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff566768">NDIS_PM_WOL_PATTERN</a> power management
     structures to define name strings.
 
 
@@ -94,14 +83,14 @@ The NDIS_PM_COUNTED_STRING structure specifies a limited size string that is use
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_pm_wol_pattern.md">NDIS_PM_WOL_PATTERN</a>
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_pm_protocol_offload.md">NDIS_PM_PROTOCOL_OFFLOAD</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566760">NDIS_PM_PROTOCOL_OFFLOAD</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566768">NDIS_PM_WOL_PATTERN</a>
  
 
  

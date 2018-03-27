@@ -52,19 +52,6 @@ req.typenames: SendSRL_OUT, *PSendSRL_OUT
 The SendSRL_OUT structure is used to report the output parameter data of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565522">SendSRL</a> WMI method to the WMI client.
 
 
-## -syntax
-
-
-````
-typedef struct _SendSRL_OUT {
-  ULONG HBAStatus;
-  ULONG TotalRspBufferSize;
-  ULONG ActualRspBufferSize;
-  UCHAR RspBuffer[1];
-} SendSRL_OUT, *PSendSRL_OUT;
-````
-
-
 ## -struct-fields
 
 
@@ -101,10 +88,10 @@ The WMI tool suite generates a declaration of the SendSRL_OUT structure in <i>Hb
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565522">SendSRL</a>
-
-
-
  
 
  

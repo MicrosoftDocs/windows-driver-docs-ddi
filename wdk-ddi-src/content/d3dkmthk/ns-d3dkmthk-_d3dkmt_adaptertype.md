@@ -52,20 +52,6 @@ req.typenames: D3DKMT_ADAPTERTYPE
 Specifies the type of display device that the graphics adapter supports.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DKMT_ADAPTERTYPE {
-  UINT RenderSupported  :1;
-  UINT DisplaySupported  :1;
-  UINT SoftwareDevice  :1;
-  UINT PostDevice  :1;
-  UINT Reserved  :28;
-} D3DKMT_ADAPTERTYPE;
-````
-
-
 ## -struct-fields
 
 

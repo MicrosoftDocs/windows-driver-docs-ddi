@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -49,20 +49,7 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ## -description
 
 
-Returns notifications for the <a href="..\dbgeng\nn-dbgeng-idebugoutputcallbacks2.md">IDebugOutputCallbacks2</a> interface.
-
-
-## -syntax
-
-
-````
-HRESULT Output2(
-  [in]           ULONG   Which,
-  [in]           ULONG   Flags,
-  [in]           ULONG64 Arg,
-  [in, optional] PCWSTR  Text
-);
-````
+Returns notifications for the <a href="https://msdn.microsoft.com/D35D8960-AD9F-4493-B6CD-3E3049CC3BBD">IDebugOutputCallbacks2</a> interface.
 
 
 ## -parameters
@@ -158,10 +145,10 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugoutputcallbacks2.md">IDebugOutputCallbacks2</a>
 
 
 
+<a href="https://msdn.microsoft.com/D35D8960-AD9F-4493-B6CD-3E3049CC3BBD">IDebugOutputCallbacks2</a>
  
 
  

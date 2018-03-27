@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: Any IRQL
 topic_type:
@@ -51,16 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>SPB_CONTROLLER_CONFIG_INIT</b> function initializes an <a href="https://msdn.microsoft.com/library/windows/hardware/hh406206">SPB_CONTROLLER_CONFIG</a> structure.
-
-
-## -syntax
-
-
-````
-VOID SPB_CONTROLLER_CONFIG_INIT(
-  _Out_ SPB_CONTROLLER_CONFIG *Config
-);
-````
 
 
 ## -parameters
@@ -93,7 +83,6 @@ Your SPB controller driver must use this function to initialize an <b>SPB_CONTRO
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450919">SpbDeviceInitialize</a>
 
 
 
@@ -101,6 +90,7 @@ Your SPB controller driver must use this function to initialize an <b>SPB_CONTRO
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450919">SpbDeviceInitialize</a>
  
 
  

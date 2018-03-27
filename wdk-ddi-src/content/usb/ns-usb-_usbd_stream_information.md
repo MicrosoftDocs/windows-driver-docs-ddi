@@ -53,19 +53,6 @@ req.product: Windows 10 or later.
 The <b>USBD_STREAM_INFORMATION</b> structure stores information about a stream associated with a bulk endpoint.
 
 
-## -syntax
-
-
-````
-typedef struct _USBD_STREAM_INFORMATION {
-  USBD_PIPE_HANDLE PipeHandle;
-  ULONG            StreamID;
-  ULONG            MaximumTransferSize;
-  ULONG            PipeFlags;
-} USBD_STREAM_INFORMATION, *PUSBD_STREAM_INFORMATION;
-````
-
-
 ## -struct-fields
 
 
@@ -102,15 +89,6 @@ A client driver allocates an array of  <b>USBD_STREAM_INFORMATION</b> structures
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
-
-
-
-<a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a>
-
-
-
-<a href="..\usb\ns-usb-_urb.md">URB</a>
 
 
 
@@ -118,10 +96,19 @@ A client driver allocates an array of  <b>USBD_STREAM_INFORMATION</b> structures
 
 
 
-<a href="..\usb\ns-usb-_urb_open_static_streams.md">_URB_OPEN_STATIC_STREAMS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538923">URB</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540409">_URB_HEADER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406294">_URB_OPEN_STATIC_STREAMS</a>
  
 
  

@@ -52,22 +52,6 @@ req.typenames: WCS_PROFILE_MANAGEMENT_SCOPE
 <b>EVT_IDD_CX_PARSE_MONITOR_DESCRIPTION</b> is called by the OS to request the driver to parse a monitor description into a list of modes the monitor supports.
 
 
-## -prototype
-
-
-````
-EVT_IDD_CX_PARSE_MONITOR_DESCRIPTION EvtIddCxParseMonitorDescription;
-
-NTSTATUS EvtIddCxParseMonitorDescription(
-  _In_  const IDARG_IN_PARSEMONITORDESCRIPTION*  pInArgs,
-  _Out_       IDARG_OUT_PARSEMONITORDESCRIPTION* pOutArgs
-)
-{ ... }
-
-typedef EVT_IDD_CX_PARSE_MONITOR_DESCRIPTION PFN_IDD_CX_PARSE_MONITOR_DESCRIPTION;
-````
-
-
 ## -parameters
 
 

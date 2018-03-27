@@ -53,18 +53,6 @@ req.product: Windows 10 or later.
 The WWAN_USSD_REQUEST structure describes an Unstructured Supplementary Service Data (USSD) event.
 
 
-## -syntax
-
-
-````
-typedef struct _WWAN_USSD_EVENT {
-  WWAN_USSD_EVENT_TYPE    EventType;
-  WWAN_USSD_SESSION_STATE SessionState;
-  WWAN_USSD_STRING        UssdString;
-} WWAN_USSD_EVENT, *PWWAN_USSD_EVENT;
-````
-
-
 ## -struct-fields
 
 
@@ -87,18 +75,18 @@ The USSD string that accompanies the event.
 
 ## -see-also
 
-<a href="..\wwan\ne-wwan-_wwan_ussd_session_state.md">WWAN_USSD_SESSION_STATE</a>
 
 
 
-<a href="..\wwan\ne-wwan-_wwan_ussd_event_type.md">WWAN_USSD_EVENT_TYPE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh464137">WWAN_USSD_EVENT_TYPE</a>
 
 
 
-<a href="..\wwan\ns-wwan-_wwan_ussd_string.md">WWAN_USSD_STRING</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh464140">WWAN_USSD_SESSION_STATE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh464141">WWAN_USSD_STRING</a>
  
 
  

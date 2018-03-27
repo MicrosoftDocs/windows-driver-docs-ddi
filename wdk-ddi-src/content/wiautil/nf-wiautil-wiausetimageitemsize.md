@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,21 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>wiauSetImageItemSize</b> function calculates the size and width, in bytes, for an image, based on the current WIA_IPA_FORMAT setting (described in the Microsoft Windows SDK documentation), and writes the new values to the appropriate properties.
-
-
-## -syntax
-
-
-````
-HRESULT _stdcall wiauSetImageItemSize(
-  _In_     BYTE          *pWiasContext,
-           LONG          lWidth,
-           LONG          lHeight,
-           LONG          lDepth,
-           LONG          lSize,
-  _In_opt_ PWSTR pwszExt pwszExt
-);
-````
 
 
 ## -parameters

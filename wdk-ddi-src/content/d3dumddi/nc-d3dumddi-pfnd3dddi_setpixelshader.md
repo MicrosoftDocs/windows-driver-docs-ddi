@@ -52,20 +52,6 @@ req.typenames: DXGK_PTE
 The <i>SetPixelShader</i> function sets a pixel shader to be used in all drawing operations. 
 
 
-## -prototype
-
-
-````
-PFND3DDDI_SETPIXELSHADER SetPixelShader;
-
-__checkReturn HRESULT APIENTRY SetPixelShader(
-  _In_ HANDLE hDevice,
-  _In_ HANDLE hShaderHandle
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -76,7 +62,7 @@ __checkReturn HRESULT APIENTRY SetPixelShader(
  A handle to the display device (graphics context).
 
 
-### -param HANDLE
+### -param Arg1
 
 
 
@@ -112,10 +98,10 @@ For user-mode display drivers that support pixel shaders before version 2.0, the
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544519">D3DDDI_DEVICEFUNCS</a>
  
 
  

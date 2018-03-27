@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
@@ -51,19 +51,6 @@ req.product: Windows 10 or later.
 
 
 <b>RxIndicateChangeOfBufferingStateForSrvOpen</b> is called to register a change buffering state request (an oplock break indication, for example) for later processing. If the necessary preconditions are satisfied, the oplock is processed further. 
-
-
-## -syntax
-
-
-````
-VOID RxIndicateChangeOfBufferingStateForSrvOpen(
-   PMRX_SRV_CALL SrvCall,
-   PMRX_SRV_OPEN SrvOpen,
-   PVOID         SrvOpenKey,
-   PVOID         MRxContext
-);
-````
 
 
 ## -parameters
@@ -128,18 +115,18 @@ If a buffering state request can be processed immediately instead of being queue
 
 ## -see-also
 
-<a href="..\rxcontx\ns-rxcontx-_rx_context.md">RX_CONTEXT</a>
 
 
 
-<a href="..\rxprocs\nf-rxprocs-rxindicatechangeofbufferingstate.md">RxIndicateChangeOfBufferingState</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554751">RX_CONTEXT</a>
 
 
 
-<a href="..\rxprocs\nf-rxprocs-rxchangebufferingstate.md">RxChangeBufferingState</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554335">RxChangeBufferingState</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554485">RxIndicateChangeOfBufferingState</a>
  
 
  

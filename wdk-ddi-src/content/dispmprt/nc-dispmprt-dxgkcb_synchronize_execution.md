@@ -49,24 +49,7 @@ req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
 ## -description
 
 
-The <b>DxgkCbSynchronizeExecution</b> function synchronizes a specified function, implemented by the display miniport driver, with the display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgkddi_interrupt_routine.md">DxgkDdiInterruptRoutine</a> function.
-
-
-## -prototype
-
-
-````
-DXGKCB_SYNCHRONIZE_EXECUTION DxgkCbSynchronizeExecution;
-
-NTSTATUS DxgkCbSynchronizeExecution(
-  _In_  HANDLE                DeviceHandle,
-  _In_  PKSYNCHRONIZE_ROUTINE SynchronizeRoutine,
-  _In_  PVOID                 Context,
-  _In_  ULONG                 MessageNumber,
-  _Out_ PBOOLEAN              ReturnValue
-)
-{ ... }
-````
+The <b>DxgkCbSynchronizeExecution</b> function synchronizes a specified function, implemented by the display miniport driver, with the display miniport driver's <a href="https://msdn.microsoft.com/eacfd42d-405c-4c23-8978-0f373a393e10">DxgkDdiInterruptRoutine</a> function.
 
 
 ## -parameters
@@ -76,7 +59,7 @@ NTSTATUS DxgkCbSynchronizeExecution(
 
 ### -param DeviceHandle [in]
 
-A handle that represents a display adapter. The display miniport driver previously obtained this handle in the <b>DeviceHandle</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560942">DXGKRNL_INTERFACE</a> structure that was passed to <a href="..\dispmprt\nc-dispmprt-dxgkddi_start_device.md">DxgkDdiStartDevice</a>.
+A handle that represents a display adapter. The display miniport driver previously obtained this handle in the <b>DeviceHandle</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560942">DXGKRNL_INTERFACE</a> structure that was passed to <a href="https://msdn.microsoft.com/ffacbb39-2581-4207-841d-28ce57fbc64d">DxgkDdiStartDevice</a>.
 
 
 ### -param SynchronizeRoutine [in]
@@ -161,14 +144,14 @@ The function was unable to synchronize execution, possibly because the interrupt
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_interrupt_routine.md">DxgkDdiInterruptRoutine</a>
 
 
 
-<a href="..\wdm\nf-wdm-kesynchronizeexecution.md">KeSynchronizeExecution</a>
+<a href="https://msdn.microsoft.com/eacfd42d-405c-4c23-8978-0f373a393e10">DxgkDdiInterruptRoutine</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553302">KeSynchronizeExecution</a>
  
 
  

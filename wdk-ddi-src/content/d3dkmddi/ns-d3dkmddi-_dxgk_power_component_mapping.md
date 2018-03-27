@@ -49,28 +49,7 @@ req.typenames: DXGK_POWER_COMPONENT_MAPPING
 ## -description
 
 
-Used in the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_power_runtime_component.md">DXGK_POWER_RUNTIME_COMPONENT</a>.<b>ComponentMapping</b> member to define the standard component types of the Microsoft DirectX graphics kernel subsystem (Dxgkrnl.sys) that describe the power component.
-
-
-## -syntax
-
-
-````
-typedef struct _DXGK_POWER_COMPONENT_MAPPING {
-  DXGK_POWER_COMPONENT_TYPE ComponentType;
-  union {
-    struct DXGK_POWER_COMPONENT_ENGINE_DESC {
-      UINT NodeIndex;
-    } EngineDesc;
-    struct DXGK_POWER_COMPONENT_MONITOR_REFRESH_DESC {
-      UINT VidPnSourceID;
-    } MonitorRefreshDesc;
-    struct DXGK_POWER_COMPONENT_MONITOR_DESC {
-      UINT VidPnTargetID;
-    } MonitorDesc;
-  };
-} DXGK_POWER_COMPONENT_MAPPING;
-````
+Used in the <a href="https://msdn.microsoft.com/library/windows/hardware/hh464073">DXGK_POWER_RUNTIME_COMPONENT</a>.<b>ComponentMapping</b> member to define the standard component types of the Microsoft DirectX graphics kernel subsystem (Dxgkrnl.sys) that describe the power component.
 
 
 ## -struct-fields
@@ -80,7 +59,7 @@ typedef struct _DXGK_POWER_COMPONENT_MAPPING {
 
 ### -field ComponentType
 
-A <a href="..\d3dkmddi\ne-d3dkmddi-_dxgk_power_component_type.md">DXGK_POWER_COMPONENT_TYPE</a>-typed value that indicates the power component type that is reported by the display miniport driver to the DirectX graphics kernel subsystem.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/hh464070">DXGK_POWER_COMPONENT_TYPE</a>-typed value that indicates the power component type that is reported by the display miniport driver to the DirectX graphics kernel subsystem.
 
 
 ### -field EngineDesc
@@ -121,14 +100,14 @@ An identifier of one of the video present targets associated with the VidPN obje
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_power_runtime_component.md">DXGK_POWER_RUNTIME_COMPONENT</a>
 
 
 
-<a href="..\d3dkmddi\ne-d3dkmddi-_dxgk_power_component_type.md">DXGK_POWER_COMPONENT_TYPE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh464070">DXGK_POWER_COMPONENT_TYPE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh464073">DXGK_POWER_RUNTIME_COMPONENT</a>
  
 
  

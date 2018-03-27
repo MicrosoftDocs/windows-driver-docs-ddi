@@ -52,18 +52,6 @@ req.typenames: RILMSGSERVICEINFOPARAMMASK
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef enum _RILMSGSERVICEINFOPARAMMASK { 
-  RIL_PARAM_MSI_STOREUSED,
-  RIL_PARAM_MSI_STORETOTAL,
-  RIL_PARAM_MSI_ALL
-} RILMSGSERVICEINFOPARAMMASK;
-````
-
-
 ## -enum-fields
 
 

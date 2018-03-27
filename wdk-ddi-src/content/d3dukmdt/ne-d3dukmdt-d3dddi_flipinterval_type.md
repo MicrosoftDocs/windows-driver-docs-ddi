@@ -52,20 +52,6 @@ req.typenames: D3DDDI_FLIPINTERVAL_TYPE
 The D3DDDI_FLIPINTERVAL_TYPE enumeration type contains values that identify the type of flip that occurs in present operations.
 
 
-## -syntax
-
-
-````
-typedef enum D3DDDI_FLIPINTERVAL_TYPE { 
-  D3DDDI_FLIPINTERVAL_IMMEDIATE  = 0,
-  D3DDDI_FLIPINTERVAL_ONE        = 1,
-  D3DDDI_FLIPINTERVAL_TWO        = 2,
-  D3DDDI_FLIPINTERVAL_THREE      = 3,
-  D3DDDI_FLIPINTERVAL_FOUR       = 4
-} D3DDDI_FLIPINTERVAL_TYPE;
-````
-
-
 ## -enum-fields
 
 
@@ -103,10 +89,10 @@ Indicates to perform the flip on every fourth vertical sync.
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_present.md">DXGKARG_PRESENT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557618">DXGKARG_PRESENT</a>
  
 
  

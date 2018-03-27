@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: ksproxy.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -50,16 +50,6 @@ req.typenames: PIPE_STATE
 
 
 The <b>KsSetTime</b> method sets the current time on the underlying clock.
-
-
-## -syntax
-
-
-````
-HRESULT KsSetTime(
-  [in] LONGLONG Time 
-);
-````
 
 
 ## -parameters
@@ -92,7 +82,6 @@ The proxy uses the <a href="https://msdn.microsoft.com/library/windows/hardware/
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565095">KSPROPERTY_CLOCK_TIME</a>
 
 
 
@@ -100,6 +89,7 @@ The proxy uses the <a href="https://msdn.microsoft.com/library/windows/hardware/
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565095">KSPROPERTY_CLOCK_TIME</a>
  
 
  

@@ -49,17 +49,7 @@ req.typenames: VOLUME_CONTROL, *PVOLUME_CONTROL
 ## -description
 
 
-The VOLUME_CONTROL structure is used in conjunction with the <a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_get_volume.md">IOCTL_CDROM_GET_VOLUME</a> request to retrieve volume values for up to four audio ports.
-
-
-## -syntax
-
-
-````
-typedef struct _VOLUME_CONTROL {
-  UCHAR PortVolume[4];
-} VOLUME_CONTROL, *PVOLUME_CONTROL;
-````
+The VOLUME_CONTROL structure is used in conjunction with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559350">IOCTL_CDROM_GET_VOLUME</a> request to retrieve volume values for up to four audio ports.
 
 
 ## -struct-fields
@@ -74,10 +64,10 @@ Pointer to an array of volume values, one for each of the ports, with a maximum 
 
 ## -see-also
 
-<a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_get_volume.md">IOCTL_CDROM_GET_VOLUME</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559350">IOCTL_CDROM_GET_VOLUME</a>
  
 
  

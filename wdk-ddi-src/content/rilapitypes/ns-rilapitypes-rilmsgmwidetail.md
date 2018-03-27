@@ -53,22 +53,6 @@ req.product: Windows 10 or later.
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef struct _RILMSGMWIDETAIL {
-  RILMSGMWITYPE      dwMwiType;
-  RILMSGMWIPRIORITY  dwMwiPriority;
-  RILADDRESS         raToAddress;
-  RILADDRESS         raFromAddress;
-  RILSYSTEMTIME      stDateSent;
-  WCHAR [256]        wszSubject;
-  WCHAR [256]        wszMessageId;
-} RILMSGMWIDETAIL, RILMSGMWIDETAIL;
-````
-
-
 ## -struct-fields
 
 

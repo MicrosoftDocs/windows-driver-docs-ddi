@@ -55,16 +55,6 @@ req.typenames: D3DKMT_DRIVERVERSION
 The <b>D3DKMTSetGammaRamp</b> function sets the gamma ramp.
 
 
-## -syntax
-
-
-````
-NTSTATUS APIENTRY D3DKMTSetGammaRamp(
-  _In_ const D3DKMT_SETGAMMARAMP *pData
-);
-````
-
-
 ## -parameters
 
 
@@ -79,7 +69,7 @@ TBD
 
 #### - pData [in]
 
-A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_setgammaramp.md">D3DKMT_SETGAMMARAMP</a> structure that describes parameters for setting the gamma ramp.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff548307">D3DKMT_SETGAMMARAMP</a> structure that describes parameters for setting the gamma ramp.
 
 
 ## -returns
@@ -136,10 +126,10 @@ This function might also return other NTSTATUS values.
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_setgammaramp.md">D3DKMT_SETGAMMARAMP</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548307">D3DKMT_SETGAMMARAMP</a>
  
 
  

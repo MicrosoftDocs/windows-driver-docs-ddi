@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: wiamdef.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,20 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <a href="https://msdn.microsoft.com/5DD3EC13-5DDD-4640-A841-00576F74429A">CWiaLogProcEx</a> constructor is called when the function or method being logged is entered.
-
-
-## -syntax
-
-
-````
-void CWiaLogProcEx(
-   IWiaLogEx *pIWiaLogEx,
-   INT       ResourceID,
-   INT       DetailLevel,
-   CHAR      *pszMsg,
-   LONG      lMethodId = 0
-);
-````
 
 
 ## -parameters
@@ -125,10 +111,10 @@ This method does not return a value.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt844723">CWiaLogProcEx</a>
-
-
-
  
 
  

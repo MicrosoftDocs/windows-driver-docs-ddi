@@ -53,20 +53,6 @@ req.typenames: HIDP_REPORT_TYPE
 The <b>HidP_UsageListDifference</b> routine returns the differences between two arrays of <a href="https://msdn.microsoft.com/84fed314-3554-4291-b51c-734d874a4bab">HID usages</a>.
 
 
-## -syntax
-
-
-````
-NTSTATUS __stdcall HidP_UsageListDifference(
-  _In_  PUSAGE PreviousUsageList,
-  _In_  PUSAGE CurrentUsageList,
-  _Out_ PUSAGE BreakUsageList,
-  _Out_ PUSAGE MakeUsageList,
-  _In_  ULONG  UsageListLength
-);
-````
-
-
 ## -parameters
 
 
@@ -123,10 +109,10 @@ For more information, see <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db
 
 ## -see-also
 
-<a href="..\hidpi\nf-hidpi-hidp_usageandpagelistdifference.md">HidP_UsageAndPageListDifference</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539824">HidP_UsageAndPageListDifference</a>
  
 
  

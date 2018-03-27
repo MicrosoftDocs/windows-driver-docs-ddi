@@ -52,16 +52,6 @@ req.typenames: TOKEN_TYPE
 The <b>PsDereferenceImpersonationToken</b> routine decrements the reference count of an impersonation token.
 
 
-## -syntax
-
-
-````
-VOID PsDereferenceImpersonationToken(
-  _In_ PACCESS_TOKEN ImpersonationToken
-);
-````
-
-
 ## -parameters
 
 
@@ -94,14 +84,14 @@ For more information about security and access control, see the documentation on
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-psreferenceimpersonationtoken.md">PsReferenceImpersonationToken</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-psimpersonateclient.md">PsImpersonateClient</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551907">PsImpersonateClient</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551929">PsReferenceImpersonationToken</a>
  
 
  

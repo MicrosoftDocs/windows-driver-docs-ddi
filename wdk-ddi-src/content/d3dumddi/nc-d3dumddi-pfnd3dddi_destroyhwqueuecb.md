@@ -52,17 +52,6 @@ req.typenames: DXGK_PTE
 A callback to destroy a hardware queue.
 
 
-## -prototype
-
-
-````
-_Check_return_ HRESULT APIENTRY CALLBACK PFND3DDDI_DESTROYHWQUEUECB(
-  _In_ HANDLE                         hDevice,
-  _In_ D3DDDICB_DESTROYHWQUEUE *const destroyHwQueue
-);
-````
-
-
 ## -parameters
 
 

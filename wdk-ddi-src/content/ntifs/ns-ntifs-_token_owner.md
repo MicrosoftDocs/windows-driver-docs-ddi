@@ -52,16 +52,6 @@ req.typenames: TOKEN_OWNER, *PTOKEN_OWNER
 TOKEN_OWNER contains the default owner security identifier (SID) that will be applied to newly created objects. 
 
 
-## -syntax
-
-
-````
-typedef struct _TOKEN_OWNER {
-  PSID Owner;
-} TOKEN_OWNER, *PTOKEN_OWNER;
-````
-
-
 ## -struct-fields
 
 
@@ -87,26 +77,26 @@ If it is a group SID, the <b>Owner</b> must match a group SID in the token, wher
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-sequeryinformationtoken.md">SeQueryInformationToken</a>
 
 
 
-<a href="..\ntifs\ne-ntifs-_token_information_class.md">TOKEN_INFORMATION_CLASS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556740">SID</a>
 
 
 
-<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556690">SeQueryInformationToken</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-zwsetinformationtoken.md">ZwSetInformationToken</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556838">TOKEN_INFORMATION_CLASS</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-zwqueryinformationtoken.md">ZwQueryInformationToken</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567055">ZwQueryInformationToken</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567102">ZwSetInformationToken</a>
  
 
  

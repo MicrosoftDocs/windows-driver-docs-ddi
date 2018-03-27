@@ -53,20 +53,6 @@ req.product: Windows 10 or later.
 <i>The HwVidDpcRoutine</i> function is a miniport driver-implemented callback that is called when a queued DPC gets scheduled.
 
 
-## -prototype
-
-
-````
-PMINIPORT_DPC_ROUTINE HwVidDpcRoutine;
-
-VOID HwVidDpcRoutine(
-  _In_ PVOID HwDeviceExtension,
-  _In_ PVOID Context
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -95,7 +81,7 @@ None
 
 
 
-The miniport driver queues this DPC by calling <a href="..\video\nf-video-videoportqueuedpc.md">VideoPortQueueDpc</a>.
+The miniport driver queues this DPC by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff570339">VideoPortQueueDpc</a>.
 
 Because <i>HwVidDpcRoutine </i>is called at DISPATCH_LEVEL, it must not manipulate any pageable code or data. Further, this function must be in nonpaged memory and should complete its operations as quickly as possible.
 
@@ -104,10 +90,10 @@ Because <i>HwVidDpcRoutine </i>is called at DISPATCH_LEVEL, it must not manipula
 
 ## -see-also
 
-<a href="..\video\nf-video-videoportqueuedpc.md">VideoPortQueueDpc</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570339">VideoPortQueueDpc</a>
  
 
  

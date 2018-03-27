@@ -52,20 +52,6 @@ req.typenames: DXGK_PTE
 The <i>UpdateWInfo</i> function updates the w range for w buffering.
 
 
-## -prototype
-
-
-````
-PFND3DDDI_UPDATEWINFO UpdateWInfo;
-
-__checkReturn HRESULT APIENTRY UpdateWInfo(
-  _In_       HANDLE          hDevice,
-  _In_ const D3DDDIARG_WINFO *pData
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -87,7 +73,7 @@ __checkReturn HRESULT APIENTRY UpdateWInfo(
 
 #### - pData [in]
 
- A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_winfo.md">D3DDDIARG_WINFO</a> structure that describes the w range for w buffering.
+ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff544124">D3DDDIARG_WINFO</a> structure that describes the w range for w buffering.
 
 
 ## -returns
@@ -101,14 +87,14 @@ __checkReturn HRESULT APIENTRY UpdateWInfo(
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_winfo.md">D3DDDIARG_WINFO</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544124">D3DDDIARG_WINFO</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544519">D3DDDI_DEVICEFUNCS</a>
  
 
  

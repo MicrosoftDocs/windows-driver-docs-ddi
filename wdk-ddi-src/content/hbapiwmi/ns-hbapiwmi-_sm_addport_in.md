@@ -52,17 +52,6 @@ req.typenames: SM_AddPort_IN, *PSM_AddPort_IN
 The SM_AddPort_IN structure is used to provide input parameters to the SM_AddPort WMI method.
 
 
-## -syntax
-
-
-````
-typedef struct _SM_AddPort_IN {
-  UCHAR PortWWN[8];
-  ULONG EventType;
-} SM_AddPort_IN, *PSM_AddPort_IN;
-````
-
-
 ## -struct-fields
 
 

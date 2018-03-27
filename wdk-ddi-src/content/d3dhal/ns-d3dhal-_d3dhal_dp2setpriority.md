@@ -52,17 +52,6 @@ req.typenames: D3DHAL_DP2SETPRIORITY
 The D3DHAL_DP2SETPRIORITY structure is used to inform the driver of the priority of the texture specified by the handle <b>dwDDDestSurface</b>.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DHAL_DP2SETPRIORITY {
-  DWORD dwDDSurface;
-  DWORD dwPriority;
-} D3DHAL_DP2SETPRIORITY, *LPD3DHAL_DP2SETPRIORITY;
-````
-
-
 ## -struct-fields
 
 

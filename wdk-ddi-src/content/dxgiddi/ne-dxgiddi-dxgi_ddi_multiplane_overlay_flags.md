@@ -52,18 +52,6 @@ req.typenames: DXGI_DDI_MULTIPLANE_OVERLAY_FLAGS
 Identifies a flip operation to be performed on an overlay plane.
 
 
-## -syntax
-
-
-````
-typedef enum DXGI_DDI_MULTIPLANE_OVERLAY_FLAGS { 
-  DXGI_DDI_MULTIPLANE_OVERLAY_FLAG_VERTICAL_FLIP            = 0x1,
-  DXGI_DDI_MULTIPLANE_OVERLAY_FLAG_HORIZONTAL_FLIP          = 0x2,
-  DXGI_MULTIPLANE_OVERLAY_FLAG_FULLSCREEN_POST_COMPOSITION  = 0x4
-} DXGI_DDI_MULTIPLANE_OVERLAY_FLAGS;
-````
-
-
 ## -enum-fields
 
 

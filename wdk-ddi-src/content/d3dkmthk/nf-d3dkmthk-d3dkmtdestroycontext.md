@@ -55,16 +55,6 @@ req.typenames: D3DKMT_DRIVERVERSION
 The <b>D3DKMTDestroyContext</b> function releases a kernel-mode device context.
 
 
-## -syntax
-
-
-````
-NTSTATUS D3DKMTDestroyContext(
-  _In_ const D3DKMT_DESTROYCONTEXT *pData
-);
-````
-
-
 ## -parameters
 
 
@@ -79,7 +69,7 @@ TBD
 
 #### - pData [in]
 
-A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_destroycontext.md">D3DKMT_DESTROYCONTEXT</a> structure that contains the handle to the kernel-mode device context.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff547869">D3DKMT_DESTROYCONTEXT</a> structure that contains the handle to the kernel-mode device context.
 
 
 ## -returns
@@ -127,10 +117,10 @@ This function might also return other NTSTATUS values.
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_destroycontext.md">D3DKMT_DESTROYCONTEXT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547869">D3DKMT_DESTROYCONTEXT</a>
  
 
  

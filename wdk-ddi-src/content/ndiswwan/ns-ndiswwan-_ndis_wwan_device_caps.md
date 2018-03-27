@@ -52,18 +52,6 @@ req.typenames: NDIS_WWAN_DEVICE_CAPS, *PNDIS_WWAN_DEVICE_CAPS
 The NDIS_WWAN_DEVICE_CAPS structure represents the capabilities of the MB device.
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_WWAN_DEVICE_CAPS {
-  NDIS_OBJECT_HEADER Header;
-  WWAN_STATUS        uStatus;
-  WWAN_DEVICE_CAPS   DeviceCaps;
-} NDIS_WWAN_DEVICE_CAPS, *PNDIS_WWAN_DEVICE_CAPS;
-````
-
-
 ## -struct-fields
 
 
@@ -116,10 +104,10 @@ sizeof(NDIS_WWAN_DEVICE_CAPS)
 </table>
  
 
-<div class="alert"><b>Note</b>  You must specify NDIS_WWAN_DEVICE_CAPS_REVISION_2 in <b>Revision</b> to use the Windows 8 members of <a href="..\wwan\ns-wwan-_wwan_device_caps.md">WWAN_DEVICE_CAPS</a>.</div>
+<div class="alert"><b>Note</b>  You must specify NDIS_WWAN_DEVICE_CAPS_REVISION_2 in <b>Revision</b> to use the Windows 8 members of <a href="https://msdn.microsoft.com/library/windows/hardware/ff571204">WWAN_DEVICE_CAPS</a>.</div>
 <div> </div>
 For more information about these members, see 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>.
 
 
 ### -field uStatus
@@ -172,20 +160,20 @@ The operation failed because the device is in the process of initializing. Retry
 ### -field DeviceCaps
 
 A formatted 
-     <a href="..\wwan\ns-wwan-_wwan_device_caps.md">WWAN_DEVICE_CAPS</a> object that represents
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571204">WWAN_DEVICE_CAPS</a> object that represents
      the capabilities of the MB device.
 
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_device_caps.md">WWAN_DEVICE_CAPS</a>
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571204">WWAN_DEVICE_CAPS</a>
  
 
  

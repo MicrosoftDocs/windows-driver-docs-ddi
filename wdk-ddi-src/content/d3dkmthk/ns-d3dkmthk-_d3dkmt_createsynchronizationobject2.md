@@ -49,19 +49,7 @@ req.typenames: D3DKMT_CREATESYNCHRONIZATIONOBJECT2
 ## -description
 
 
-The D3DKMT_CREATESYNCHRONIZATIONOBJECT2 structure describes a synchronization object that the <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtcreatesynchronizationobject2.md">D3DKMTCreateSynchronizationObject2</a> function creates. 
-
-
-## -syntax
-
-
-````
-typedef struct _D3DKMT_CREATESYNCHRONIZATIONOBJECT2 {
-  D3DKMT_HANDLE                     hDevice;
-  D3DDDI_SYNCHRONIZATIONOBJECTINFO2 Info;
-  D3DKMT_HANDLE                     hSyncObject;
-} D3DKMT_CREATESYNCHRONIZATIONOBJECT2;
-````
+The D3DKMT_CREATESYNCHRONIZATIONOBJECT2 structure describes a synchronization object that the <a href="https://msdn.microsoft.com/library/windows/hardware/ff546879">D3DKMTCreateSynchronizationObject2</a> function creates. 
 
 
 ## -struct-fields
@@ -76,7 +64,7 @@ typedef struct _D3DKMT_CREATESYNCHRONIZATIONOBJECT2 {
 
 ### -field Info
 
-[in] A <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_synchronizationobjectinfo2.md">D3DDDI_SYNCHRONIZATIONOBJECTINFO2</a> structure that describes information about the kernel-mode synchronization object. 
+[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff544658">D3DDDI_SYNCHRONIZATIONOBJECTINFO2</a> structure that describes information about the kernel-mode synchronization object. 
 
 
 ### -field hSyncObject
@@ -86,14 +74,14 @@ typedef struct _D3DKMT_CREATESYNCHRONIZATIONOBJECT2 {
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtcreatesynchronizationobject2.md">D3DKMTCreateSynchronizationObject2</a>
 
 
 
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_synchronizationobjectinfo2.md">D3DDDI_SYNCHRONIZATIONOBJECTINFO2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544658">D3DDDI_SYNCHRONIZATIONOBJECTINFO2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546879">D3DKMTCreateSynchronizationObject2</a>
  
 
  

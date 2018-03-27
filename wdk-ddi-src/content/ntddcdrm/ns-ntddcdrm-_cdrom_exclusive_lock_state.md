@@ -52,17 +52,6 @@ req.typenames: CDROM_EXCLUSIVE_LOCK_STATE, *PCDROM_EXCLUSIVE_LOCK_STATE
 The CDROM_EXCLUSIVE_LOCK_STATE structure is used by the CD-ROM class driver to report the exclusive access state of a CD-ROM device.
 
 
-## -syntax
-
-
-````
-typedef struct _CDROM_EXCLUSIVE_LOCK_STATE {
-  BOOLEAN LockState;
-  UCHAR   CallerName[CDROM_EXCLUSIVE_CALLER_LENGTH];
-} CDROM_EXCLUSIVE_LOCK_STATE, *PCDROM_EXCLUSIVE_LOCK_STATE;
-````
-
-
 ## -struct-fields
 
 
@@ -82,17 +71,17 @@ A <b>NULL</b>-terminated string that identifies the application or system compon
 
 
 
-The CD-ROM class driver reports the exclusive access state of a CD-ROM device in response to the <a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_exclusive_access.md">IOCTL_CDROM_EXCLUSIVE_ACCESS</a> request.
+The CD-ROM class driver reports the exclusive access state of a CD-ROM device in response to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559327">IOCTL_CDROM_EXCLUSIVE_ACCESS</a> request.
 
 
 
 
 ## -see-also
 
-<a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_exclusive_access.md">IOCTL_CDROM_EXCLUSIVE_ACCESS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559327">IOCTL_CDROM_EXCLUSIVE_ACCESS</a>
  
 
  

@@ -52,18 +52,6 @@ req.typenames: D3D12DDI_VIDEO_DECODE_COMPRESSED_BITSTREAM_0032
 Video decode compressed bitstream.
 
 
-## -syntax
-
-
-````
-typedef struct _D3D12DDI_VIDEO_DECODE_COMPRESSED_BITSTREAM_0032 {
-  D3D12DDI_HRESOURCE  hDrvBuffer;
-  UINT64              Offset;
-  UINT64              Size;
-} D3D12DDI_VIDEO_DECODE_COMPRESSED_BITSTREAM_0032, D3D12DDI_VIDEO_DECODE_COMPRESSED_BITSTREAM_0032;
-````
-
-
 ## -struct-fields
 
 

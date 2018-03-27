@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: filterpipeline.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -52,16 +52,6 @@ req.typenames: EXpsFontRestriction
 The <b>SetFontOptions</b> method sets the options for the font.
 
 
-## -syntax
-
-
-````
-HRESULT SetFontOptions(
-  [in] EXpsFontOptions options
-);
-````
-
-
 ## -parameters
 
 
@@ -69,7 +59,7 @@ HRESULT SetFontOptions(
 
 ### -param options [in]
 
-An <a href="..\filterpipeline\ne-filterpipeline-__midl___midl_itf_filterpipeline_0000_0000_0002.md">ExpsFontOptions</a>-typed value that describes the options for the font.
+An <a href="https://msdn.microsoft.com/library/windows/hardware/ff548775">ExpsFontOptions</a>-typed value that describes the options for the font.
 
 
 ## -returns

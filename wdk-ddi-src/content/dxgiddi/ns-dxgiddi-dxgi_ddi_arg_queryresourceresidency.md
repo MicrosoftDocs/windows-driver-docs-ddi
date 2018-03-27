@@ -52,19 +52,6 @@ req.typenames: DXGI_DDI_ARG_QUERYRESOURCERESIDENCY
 The DXGI_DDI_ARG_QUERYRESOURCERESIDENCY structure describes the residency status of a list of resources. 
 
 
-## -syntax
-
-
-````
-typedef struct DXGI_DDI_ARG_QUERYRESOURCERESIDENCY {
-  DXGI_DDI_HDEVICE         hDevice;
-  const DXGI_DDI_HRESOURCE *pResources;
-  DXGI_DDI_RESIDENCY       *pStatus;
-  SIZE_T                   Resources;
-} DXGI_DDI_ARG_QUERYRESOURCERESIDENCY;
-````
-
-
 ## -struct-fields
 
 
@@ -72,7 +59,7 @@ typedef struct DXGI_DDI_ARG_QUERYRESOURCERESIDENCY {
 
 ### -field hDevice
 
-[in] A handle to the display device (graphics context) on which the driver determines resource residency status. The Direct3D runtime passes this handle to the driver in the <b>hDrvDevice</b> member of the <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createdevice.md">D3D10DDIARG_CREATEDEVICE</a> structure when the runtime calls the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createdevice.md">CreateDevice(D3D10)</a> function to create the display device. 
+[in] A handle to the display device (graphics context) on which the driver determines resource residency status. The Direct3D runtime passes this handle to the driver in the <b>hDrvDevice</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff541664">D3D10DDIARG_CREATEDEVICE</a> structure when the runtime calls the driver's <a href="https://msdn.microsoft.com/c69eedb1-c975-412c-aa9f-cf64a702f937">CreateDevice(D3D10)</a> function to create the display device. 
 
 
 ### -field pResources
@@ -130,10 +117,10 @@ The resources are nonresident, which is the lowest residency status.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569224">QueryResourceResidencyDXGI</a>
-
-
-
  
 
  

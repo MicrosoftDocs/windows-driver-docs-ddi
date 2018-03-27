@@ -52,49 +52,6 @@ req.typenames: FEATURE_PROFILE_TYPE, *PFEATURE_PROFILE_TYPE
 The FEATURE_PROFILE_TYPE enumeration provides a list of the profile names that are defined by the <i>SCSI Multimedia - 4 (MMC-4)</i> specification. 
 
 
-## -syntax
-
-
-````
-typedef enum _FEATURE_PROFILE_TYPE { 
-  ProfileInvalid                = 0x0000,
-  ProfileNonRemovableDisk       = 0x0001,
-  ProfileRemovableDisk          = 0x0002,
-  ProfileMOErasable             = 0x0003,
-  ProfileMOWriteOnce            = 0x0004,
-  ProfileAS_MO                  = 0x0005,
-  ProfileCdrom                  = 0x0008,
-  ProfileCdRecordable           = 0x0009,
-  ProfileCdRewritable           = 0x000a,
-  ProfileDvdRom                 = 0x0010,
-  ProfileDvdRecordable          = 0x0011,
-  ProfileDvdRam                 = 0x0012,
-  ProfileDvdRewritable          = 0x0013,
-  ProfileDvdRWSequential        = 0x0014,
-  ProfileDvdDashRDualLayer      = 0x0015,
-  ProfileDvdDashRLayerJump      = 0x0016,
-  ProfileDvdPlusRW              = 0x001A,
-  ProfileDvdPlusR               = 0x001B,
-  ProfileDDCdrom                = 0x0020,
-  ProfileDDCdRecordable         = 0x0021,
-  ProfileDDCdRewritable         = 0x0022,
-  ProfileDvdPlusRWDualLayer     = 0x002A,
-  ProfileDvdPlusRDualLayer      = 0x002B,
-  ProfileBDRom                  = 0x0040,
-  ProfileBDRSequentialWritable  = 0x0041,
-  ProfileBDRRandomWritable      = 0x0042,
-  ProfileBDRewritable           = 0x0043,
-  ProfileHDDVDRom               = 0x0050,
-  ProfileHDDVDRecordable        = 0x0051,
-  ProfileHDDVDRam               = 0x0052,
-  ProfileHDDVDRewritable        = 0x0053,
-  ProfileHDDVDRDualLayer        = 0x0058,
-  ProfileHDDVDRWDualLayer       = 0x005A,
-  ProfileNonStandard            = 0xffff
-} FEATURE_PROFILE_TYPE, *PFEATURE_PROFILE_TYPE;
-````
-
-
 ## -enum-fields
 
 
@@ -260,10 +217,10 @@ Indicates that the device does not conform to any profile.
 
 ## -see-also
 
-<a href="..\ntddmmc\ns-ntddmmc-_feature_data_profile_list.md">FEATURE_DATA_PROFILE_LIST</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553816">FEATURE_DATA_PROFILE_LIST</a>
  
 
  

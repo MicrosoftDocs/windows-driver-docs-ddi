@@ -49,25 +49,7 @@ req.typenames: D3D11DDIARG_BUFFEREX_SHADERRESOURCEVIEW
 ## -description
 
 
-The D3D11DDIARG_BUFFEREX_SHADERRESOURCEVIEW structure describes a buffer that is used to create a shader resource view in a call to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11ddi_createshaderresourceview.md">CreateShaderResourceView(D3D11)</a> function. 
-
-
-## -syntax
-
-
-````
-typedef struct D3D11DDIARG_BUFFEREX_SHADERRESOURCEVIEW {
-  union {
-    UINT FirstElement;
-    UINT ElementOffset;
-  };
-  union {
-    UINT NumElements;
-    UINT ElementWidth;
-  };
-  UINT  Flags;
-} D3D11DDIARG_BUFFEREX_SHADERRESOURCEVIEW;
-````
+The D3D11DDIARG_BUFFEREX_SHADERRESOURCEVIEW structure describes a buffer that is used to create a shader resource view in a call to the <a href="https://msdn.microsoft.com/7ca462c7-ec43-4af7-92c8-ed69e5d324e2">CreateShaderResourceView(D3D11)</a> function. 
 
 
 ## -struct-fields
@@ -102,18 +84,18 @@ typedef struct D3D11DDIARG_BUFFEREX_SHADERRESOURCEVIEW {
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11ddi_createshaderresourceview.md">CreateShaderResourceView(D3D11)</a>
 
 
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d11ddiarg_createshaderresourceview.md">D3D11DDIARG_CREATESHADERRESOURCEVIEW</a>
+<a href="https://msdn.microsoft.com/894f6ef1-a5a4-40aa-9a07-f66da4ce7d81">CalcPrivateShaderResourceViewSize(D3D11)</a>
 
 
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11ddi_calcprivateshaderresourceviewsize.md">CalcPrivateShaderResourceViewSize(D3D11)</a>
+<a href="https://msdn.microsoft.com/7ca462c7-ec43-4af7-92c8-ed69e5d324e2">CreateShaderResourceView(D3D11)</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542073">D3D11DDIARG_CREATESHADERRESOURCEVIEW</a>
  
 
  

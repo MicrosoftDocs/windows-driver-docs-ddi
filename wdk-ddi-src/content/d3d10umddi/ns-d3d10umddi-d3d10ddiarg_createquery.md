@@ -52,17 +52,6 @@ req.typenames: D3D10DDIARG_CREATEQUERY
 The D3D10DDIARG_CREATEQUERY structure describes the query to create.
 
 
-## -syntax
-
-
-````
-typedef struct D3D10DDIARG_CREATEQUERY {
-  D3D10DDI_QUERY Query;
-  UINT           MiscFlags;
-} D3D10DDIARG_CREATEQUERY;
-````
-
-
 ## -struct-fields
 
 
@@ -70,7 +59,7 @@ typedef struct D3D10DDIARG_CREATEQUERY {
 
 ### -field Query
 
-[in] A <a href="..\d3d10umddi\ne-d3d10umddi-d3d10ddi_query.md">D3D10DDI_QUERY</a>-typed value that identifies the type of query to create. 
+[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff541850">D3D10DDI_QUERY</a>-typed value that identifies the type of query to create. 
 
 
 ### -field MiscFlags
@@ -82,25 +71,25 @@ typedef struct D3D10DDIARG_CREATEQUERY {
 
 
 
-The Direct3D runtime calls the user-mode display driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createquery.md">CreateQuery(D3D10)</a> function with a query type to create resources for a query. For information about the type of resources the user-mode display driver creates, see the values of the <a href="..\d3d10umddi\ne-d3d10umddi-d3d10ddi_query.md">D3D10DDI_QUERY</a> enumeration.
+The Direct3D runtime calls the user-mode display driver's <a href="https://msdn.microsoft.com/abe6a82f-1613-4c74-9e81-01939db74bfd">CreateQuery(D3D10)</a> function with a query type to create resources for a query. For information about the type of resources the user-mode display driver creates, see the values of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff541850">D3D10DDI_QUERY</a> enumeration.
 
 
 
 
 ## -see-also
 
-<a href="..\d3d10umddi\ne-d3d10umddi-d3d10ddi_query.md">D3D10DDI_QUERY</a>
 
 
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_calcprivatequerysize.md">CalcPrivateQuerySize</a>
+<a href="https://msdn.microsoft.com/59a59aa8-085e-4bf8-8a6f-e08f2aecd894">CalcPrivateQuerySize</a>
 
 
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createquery.md">CreateQuery(D3D10)</a>
+<a href="https://msdn.microsoft.com/abe6a82f-1613-4c74-9e81-01939db74bfd">CreateQuery(D3D10)</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541850">D3D10DDI_QUERY</a>
  
 
  

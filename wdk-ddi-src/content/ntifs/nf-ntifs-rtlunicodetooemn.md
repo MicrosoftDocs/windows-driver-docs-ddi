@@ -52,20 +52,6 @@ req.typenames: TOKEN_TYPE
 The <b>RtlUnicodeToOemN</b> routine translates a given Unicode string to an OEM string, using the current system OEM code page. 
 
 
-## -syntax
-
-
-````
-NTSTATUS RtlUnicodeToOemN(
-  _Out_     PCHAR  OemString,
-  _In_      ULONG  MaxBytesInOemString,
-  _Out_opt_ PULONG BytesInOemString,
-  _In_      PCWCH  UnicodeString,
-  _In_      ULONG  BytesInUnicodeString
-);
-````
-
-
 ## -parameters
 
 
@@ -122,18 +108,18 @@ For information about other string-handling routines, see <a href="https://msdn.
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-rtloemtounicoden.md">RtlOemToUnicodeN</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-rtlunicodestringtocountedoemstring.md">RtlUnicodeStringToCountedOemString</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553157">RtlOemToUnicodeN</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-rtlunicodestringtooemstring.md">RtlUnicodeStringToOemString</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553251">RtlUnicodeStringToCountedOemString</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553255">RtlUnicodeStringToOemString</a>
  
 
  

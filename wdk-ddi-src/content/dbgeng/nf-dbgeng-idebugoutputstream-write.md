@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -52,16 +52,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 Writes to the debug output stream.
 
 
-## -syntax
-
-
-````
-HRESULT Write(
-  [in] PCWSTR psz
-);
-````
-
-
 ## -parameters
 
 
@@ -83,10 +73,10 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugoutputstream.md">IDebugOutputStream</a>
 
 
 
+<a href="https://msdn.microsoft.com/7A9AB25B-2B8B-4E8A-9E67-79C56181E5D9">IDebugOutputStream</a>
  
 
  

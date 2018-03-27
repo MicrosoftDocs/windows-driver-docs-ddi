@@ -52,19 +52,6 @@ req.typenames: TOKEN_TYPE
 The <b>RtlGenerate8dot3Name</b> routine generates a short (8.3) name for the specified long file name. 
 
 
-## -syntax
-
-
-````
-NTSTATUS RtlGenerate8dot3Name(
-  _In_    PCUNICODE_STRING       Name,
-  _In_    BOOLEAN                AllowExtendedCharacters,
-  _Inout_ PGENERATE_NAME_CONTEXT Context,
-  _Inout_ PUNICODE_STRING        Name8dot3
-);
-````
-
-
 ## -parameters
 
 
@@ -138,18 +125,18 @@ For information about other string-handling routines, see <a href="https://msdn.
 
 ## -see-also
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-rtlisnamelegaldos8dot3.md">RtlIsNameLegalDOS8Dot3</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553060">RtlIsNameLegalDOS8Dot3</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-rtlisvalidoemcharacter.md">RtlIsValidOemCharacter</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553076">RtlIsValidOemCharacter</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a>
  
 
  

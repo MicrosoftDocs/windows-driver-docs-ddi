@@ -52,19 +52,6 @@ req.typenames: D3D12DDICB_DEALLOCATE_0022
 Specifies values for use with a deallocation callback function. 
 
 
-## -syntax
-
-
-````
-typedef struct D3D12DDICB_DEALLOCATE_0022 {
-  HANDLE                         hResource;
-  UINT                           NumAllocations;
-  const D3DKMT_HANDLE            *HandleList;
-  D3D12DDI_DEALLOCATE_FLAGS_0022 Flags;
-} D3D12DDICB_DEALLOCATE_0022;
-````
-
-
 ## -struct-fields
 
 
@@ -85,15 +72,15 @@ A pointer to a list of kernel handles.
 
 ### -field Flags
 
-Flags to use for deallocation, as specified in the <a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_deallocate_flags_0022.md">D3D12DDI_DEALLOCATE_FLAGS_0022</a> enumeration.
+Flags to use for deallocation, as specified in the <a href="https://msdn.microsoft.com/17E3C01A-0716-4B3C-B4B3-72B055FB40EA">D3D12DDI_DEALLOCATE_FLAGS_0022</a> enumeration.
 
 
 ## -see-also
 
-<a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_deallocate_flags_0022.md">D3D12DDI_DEALLOCATE_FLAGS_0022</a>
 
 
 
+<a href="https://msdn.microsoft.com/17E3C01A-0716-4B3C-B4B3-72B055FB40EA">D3D12DDI_DEALLOCATE_FLAGS_0022</a>
  
 
  

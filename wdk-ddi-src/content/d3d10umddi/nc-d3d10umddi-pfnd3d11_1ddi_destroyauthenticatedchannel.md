@@ -49,22 +49,8 @@ req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 ## -description
 
 
-Releases resources for the authenticated channel that were created through a call to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createauthenticatedchannel.md">CreateAuthenticatedChannel(D3D11_1)</a> function.
+Releases resources for the authenticated channel that were created through a call to the <a href="https://msdn.microsoft.com/90b43bc3-6569-4799-8be3-e4e60f59164f">CreateAuthenticatedChannel(D3D11_1)</a> function.
 
-
-
-## -prototype
-
-
-````
-PFND3D11_1DDI_DESTROYAUTHENTICATEDCHANNEL pfnDestroyAuthenticatedChannel;
-
-VOID APIENTRY* pfnDestroyAuthenticatedChannel(
-  _In_ D3D10DDI_HDEVICE        hDevice,
-  _In_ D3D11_1DDI_HAUTHCHANNEL hAuthChannel
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -81,7 +67,7 @@ A handle to the display device (graphics context).
 
 ### -param hAuthChannel [in]
 
-A handle to the driver's private data for the authenticated channel. This handle was created by the Direct3D runtime and passed to the driver in the call to <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createauthenticatedchannel.md">CreateAuthenticatedChannel(D3D11_1)</a>.
+A handle to the driver's private data for the authenticated channel. This handle was created by the Direct3D runtime and passed to the driver in the call to <a href="https://msdn.microsoft.com/90b43bc3-6569-4799-8be3-e4e60f59164f">CreateAuthenticatedChannel(D3D11_1)</a>.
 
 
 ## -returns
@@ -95,10 +81,10 @@ This callback function does not return a value.
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createauthenticatedchannel.md">CreateAuthenticatedChannel(D3D11_1)</a>
 
 
 
+<a href="https://msdn.microsoft.com/90b43bc3-6569-4799-8be3-e4e60f59164f">CreateAuthenticatedChannel(D3D11_1)</a>
  
 
  

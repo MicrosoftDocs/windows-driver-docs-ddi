@@ -52,19 +52,6 @@ req.typenames: SendRNIDV2_IN, *PSendRNIDV2_IN
 The SendRNIDV2_IN structure is used to deliver input parameter data to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565463">SendRNIDV2</a> WMI method.
 
 
-## -syntax
-
-
-````
-typedef struct _SendRNIDV2_IN {
-  UCHAR PortWWN[8];
-  UCHAR DestWWN[8];
-  ULONG DestFCID;
-  ULONG NodeIdDataFormat;
-} SendRNIDV2_IN, *PSendRNIDV2_IN;
-````
-
-
 ## -struct-fields
 
 
@@ -101,10 +88,10 @@ The WMI tool suite generates a declaration of the SendRNIDV2_IN structure in <i>
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565463">SendRNIDV2</a>
-
-
-
  
 
  

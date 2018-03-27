@@ -52,18 +52,6 @@ req.typenames: RILOPENUICCLOGICALCHANNELPARAMMASK
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef enum _RILOPENUICCLOGICALCHANNELPARAMMASK { 
-  RIL_PARAM_OULC_SELECTRESPLENGTH,
-  RIL_PARAM_OULC_SELECTRESPONSE,
-  RIL_PARAM_OULC_ALL
-} RILOPENUICCLOGICALCHANNELPARAMMASK;
-````
-
-
 ## -enum-fields
 
 

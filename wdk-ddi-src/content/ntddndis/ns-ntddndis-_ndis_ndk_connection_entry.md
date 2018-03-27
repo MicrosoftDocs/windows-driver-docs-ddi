@@ -52,19 +52,6 @@ req.typenames: NDIS_NDK_CONNECTION_ENTRY
 The <b>NDIS_NDK_CONNECTION_ENTRY</b> structure specifies a connection entry for an active NDK connection on a miniport adapter.
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_NDK_CONNECTION_ENTRY {
-  SOCKADDR_INET Local;
-  SOCKADDR_INET Remote;
-  BOOLEAN       UserModeOwner;
-  ULONG         OwnerPid;
-} NDIS_NDK_CONNECTION_ENTRY, *PNDIS_NDK_CONNECTION_ENTRY;
-````
-
-
 ## -struct-fields
 
 
@@ -94,17 +81,17 @@ A process identifier for an NDS user-mode connection.
 
 
 
-The NDIS_NDK_CONNECTION_ENTRY structure is used in the <a href="..\ntddndis\ns-ntddndis-_ndis_ndk_connections.md">NDIS_NDK_CONNECTIONS</a> structure to specify an array of connections.
+The NDIS_NDK_CONNECTION_ENTRY structure is used in the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451561">NDIS_NDK_CONNECTIONS</a> structure to specify an array of connections.
 
 
 
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_ndk_connections.md">NDIS_NDK_CONNECTIONS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451561">NDIS_NDK_CONNECTIONS</a>
  
 
  

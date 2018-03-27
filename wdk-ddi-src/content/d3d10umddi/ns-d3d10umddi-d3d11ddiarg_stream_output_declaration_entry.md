@@ -52,19 +52,6 @@ req.typenames: D3D11DDIARG_STREAM_OUTPUT_DECLARATION_ENTRY
 The D3D11DDIARG_STREAM_OUTPUT_DECLARATION_ENTRY structure describes a portion of the stream output for a geometry shader.
 
 
-## -syntax
-
-
-````
-typedef struct D3D11DDIARG_STREAM_OUTPUT_DECLARATION_ENTRY {
-  UINT Stream;
-  UINT OutputSlot;
-  UINT RegisterIndex;
-  BYTE RegisterMask;
-} D3D11DDIARG_STREAM_OUTPUT_DECLARATION_ENTRY;
-````
-
-
 ## -struct-fields
 
 

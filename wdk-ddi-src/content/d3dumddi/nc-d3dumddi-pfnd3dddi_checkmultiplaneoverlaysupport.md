@@ -52,20 +52,6 @@ req.typenames: DXGK_PTE
 Called by the Microsoft Direct3D runtime to check the details on hardware support for multiplane overlays.
 
 
-## -prototype
-
-
-````
-PFND3DDDI_CHECKMULTIPLANEOVERLAYSUPPORT pfnCheckMultiPlaneOverlaySupport;
-
-_Check_return_ HRESULT APIENTRY* pfnCheckMultiPlaneOverlaySupport(
-  _In_    HANDLE                                  hDevice,
-  _Inout_ D3DDDIARG_CHECKMULTIPLANEOVERLAYSUPPORT *pSupport
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -89,7 +75,7 @@ A handle to the display device (graphics context).
 
 #### - pSupport [in, out]
 
-A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_checkmultiplaneoverlaysupport.md">D3DDDIARG_CHECKMULTIPLANEOVERLAYSUPPORT</a> structure that provides details on hardware support for multiplane overlays.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh780229">D3DDDIARG_CHECKMULTIPLANEOVERLAYSUPPORT</a> structure that provides details on hardware support for multiplane overlays.
 
 
 ## -returns
@@ -103,10 +89,10 @@ If this routine succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HR
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_checkmultiplaneoverlaysupport.md">D3DDDIARG_CHECKMULTIPLANEOVERLAYSUPPORT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh780229">D3DDDIARG_CHECKMULTIPLANEOVERLAYSUPPORT</a>
  
 
  

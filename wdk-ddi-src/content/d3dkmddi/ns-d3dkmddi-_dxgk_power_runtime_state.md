@@ -52,18 +52,6 @@ req.typenames: DXGK_POWER_RUNTIME_STATE
 Describes the characteristics of an idle state (an F-state).
 
 
-## -syntax
-
-
-````
-typedef struct _DXGK_POWER_RUNTIME_STATE {
-  ULONGLONG TransitionLatency;
-  ULONGLONG ResidencyRequirement;
-  ULONGLONG NominalPower;
-} DXGK_POWER_RUNTIME_STATE;
-````
-
-
 ## -struct-fields
 
 

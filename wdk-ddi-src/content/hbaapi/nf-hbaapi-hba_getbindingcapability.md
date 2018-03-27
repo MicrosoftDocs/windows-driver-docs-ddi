@@ -52,18 +52,6 @@ req.typenames: HBA_WWNTYPE
 The <b>HBA_GetBindingCapability</b> routine retrieves the binding capabilities of the indicated port. 
 
 
-## -syntax
-
-
-````
-HBA_STATUS HBA_API HBA_GetBindingCapability(
-  _In_  HBA_HANDLE          Handle,
-  _In_  HBA_WWN             HbaPortWWN,
-  _Out_ HBA_BIND_CAPABILITY *Flags
-);
-````
-
-
 ## -parameters
 
 
@@ -71,7 +59,7 @@ HBA_STATUS HBA_API HBA_GetBindingCapability(
 
 ### -param Handle [in]
 
-Contains a value returned by the routine <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a> that identifies the HBA on which the port is located. 
+Contains a value returned by the routine <a href="https://msdn.microsoft.com/library/windows/hardware/ff557097">HBA_OpenAdapter</a> that identifies the HBA on which the port is located. 
 
 
 ### -param HbaPortWWN [in]
@@ -136,11 +124,6 @@ Returned if an unspecified error occurred that prevented the retrieval of the po
 
 ## -see-also
 
-<a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
 
 
 
@@ -148,6 +131,11 @@ Returned if an unspecified error occurred that prevented the retrieval of the po
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557097">HBA_OpenAdapter</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
  
 
  

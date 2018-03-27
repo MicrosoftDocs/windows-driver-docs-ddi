@@ -52,19 +52,6 @@ req.typenames: D3D11_1DDI_GETCAPTUREHANDLEDATA
 Used to transform encrypted data.
 
 
-## -prototype
-
-
-````
-HRESULT APIENTRY* PFND3D12DDI_TRANSFORMENCRYPTEDDATA_0030(
-             D3D12DDI_HDEVICE                                        hDrvDevice,
-             D3D12DDI_CRYPTO_SESSION_TRANSFORM_OPERATION_0030        Operation,
-  _In_ const D3D12DDI_CRYPTO_SESSION_TRANSFORM_OUTPUT_ARGUMENTS_0030 *pOutputArguments,
-  _In_ const D3D12DDI_CRYPTO_SESSION_TRANSFORM_INPUT_ARGUMENTS_0030  *pInputArguments
-);
-````
-
-
 ## -parameters
 
 

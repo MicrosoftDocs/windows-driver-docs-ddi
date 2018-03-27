@@ -52,16 +52,6 @@ req.typenames: GetBindingCapability_IN, *PGetBindingCapability_IN
 The GetBindingCapability_IN structure is used by a WMI client to deliver the input parameter data of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff553902">GetBindingCapability</a> WMI method to the HBA miniport driver.
 
 
-## -syntax
-
-
-````
-typedef struct _GetBindingCapability_IN {
-  UCHAR PortWWN[8];
-} GetBindingCapability_IN, *PGetBindingCapability_IN;
-````
-
-
 ## -struct-fields
 
 
@@ -83,10 +73,10 @@ The WMI tool suite generates a declaration of the GetBindingCapability_IN struct
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553902">GetBindingCapability</a>
-
-
-
  
 
  

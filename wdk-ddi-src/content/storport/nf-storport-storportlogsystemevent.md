@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -50,19 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The StorPortLogSystemEvent routine gives miniport drivers full access to the capabilities of the Windows kernel event facility, enabling miniport drivers to create event log entries that are truly useful in troubleshooting storage issues. It provides a better alternative to the existing miniport driver event logging function, <a href="..\storport\nf-storport-storportlogerror.md">StorPortLogError</a>.
-
-
-## -syntax
-
-
-````
-ULONG StorPortLogSystemEvent(
-  _In_    PVOID                   HwDeviceExtension,
-  _Inout_ PSTOR_LOG_EVENT_DETAILS LogDetails,
-  _Inout_ PULONG                  MaximumSize
-);
-````
+The StorPortLogSystemEvent routine gives miniport drivers full access to the capabilities of the Windows kernel event facility, enabling miniport drivers to create event log entries that are truly useful in troubleshooting storage issues. It provides a better alternative to the existing miniport driver event logging function, <a href="https://msdn.microsoft.com/library/windows/hardware/ff567426">StorPortLogError</a>.
 
 
 ## -parameters
@@ -72,7 +60,7 @@ ULONG StorPortLogSystemEvent(
 
 ### -param HwDeviceExtension [in]
 
-A pointer to the hardware device extension. This is a per HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the mapped access ranges for the HBA. This area is available to the miniport immediately after the miniport driver calls <a href="..\storport\nf-storport-storportinitialize.md">StorPortInitialize</a>. The port driver frees this memory when it removes the device.
+A pointer to the hardware device extension. This is a per HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the mapped access ranges for the HBA. This area is available to the miniport immediately after the miniport driver calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff567108">StorPortInitialize</a>. The port driver frees this memory when it removes the device.
 
 
 ### -param LogDetails [in, out]
@@ -188,10 +176,10 @@ To understand how you may use custom error codes to best advantage, see  <a href
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportlogerror.md">StorPortLogError</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567426">StorPortLogError</a>
  
 
  

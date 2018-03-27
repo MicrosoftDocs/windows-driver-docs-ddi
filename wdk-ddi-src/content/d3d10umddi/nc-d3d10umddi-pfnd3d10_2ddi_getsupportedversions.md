@@ -52,27 +52,12 @@ req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 The <i>GetSupportedVersions</i> function queries for the Direct3D interface versions that the driver supports. 
 
 
-## -prototype
-
-
-````
-PFND3D10_2DDI_GETSUPPORTEDVERSIONS GetSupportedVersions;
-
-HRESULT APIENTRY GetSupportedVersions(
-  _In_      D3D10DDI_HADAPTER hAdapter,
-  _Inout_   UINT32            *puEntries,
-  _Out_opt_ UINT64            *pSupportedDDIInterfaceVersions
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
 
 
-### -param D3D10DDI_HADAPTER
+### -param Arg1
 
 
 ### -param *puEntries [in, out]
@@ -133,25 +118,25 @@ The capabilities are successfully retrieved.
 
 
 
-When the Direct3D runtime calls the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_openadapter.md">OpenAdapter10_2</a> function, the <b>Interface</b> and <b>Version</b> members of the <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_openadapter.md">D3D10DDIARG_OPENADAPTER</a> structure contain the DDI version that the runtime uses to instantiate the driver. The driver can completely ignore these members. The driver can instead return capabilities and version information out through its <i>GetSupportedVersions</i> function. 
+When the Direct3D runtime calls the driver's <a href="https://msdn.microsoft.com/6f058f81-4cce-40c5-95a9-c0b717cf2bae">OpenAdapter10_2</a> function, the <b>Interface</b> and <b>Version</b> members of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff541724">D3D10DDIARG_OPENADAPTER</a> structure contain the DDI version that the runtime uses to instantiate the driver. The driver can completely ignore these members. The driver can instead return capabilities and version information out through its <i>GetSupportedVersions</i> function. 
 
 
 
 
 ## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10_2ddi_adapterfuncs.md">D3D10_2DDI_ADAPTERFUNCS</a>
 
 
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_openadapter.md">OpenAdapter10_2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541724">D3D10DDIARG_OPENADAPTER</a>
 
 
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_openadapter.md">D3D10DDIARG_OPENADAPTER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541900">D3D10_2DDI_ADAPTERFUNCS</a>
 
 
 
+<a href="https://msdn.microsoft.com/6f058f81-4cce-40c5-95a9-c0b717cf2bae">OpenAdapter10_2</a>
  
 
  

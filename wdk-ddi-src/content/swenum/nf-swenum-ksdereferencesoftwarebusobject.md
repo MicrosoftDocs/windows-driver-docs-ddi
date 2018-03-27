@@ -56,16 +56,6 @@ req.product: Windows 10 or later.
 The <b>KsDereferenceSoftwareBusObject</b> function decrements the reference count of the demand-load bus enumerator object's PDO. 
 
 
-## -syntax
-
-
-````
-VOID KsDereferenceSoftwareBusObject(
-  _In_ KSDEVICE_HEADER Header
-);
-````
-
-
 ## -parameters
 
 
@@ -98,18 +88,18 @@ When the demand-load bus enumerator object's PDO reference count is 0, it become
 
 ## -see-also
 
-<a href="..\swenum\nf-swenum-ksreferencesoftwarebusobject.md">KsReferenceSoftwareBusObject</a>
 
 
 
-<a href="..\swenum\ns-swenum-_bus_interface_swenum.md">BUS_INTERFACE_SWENUM</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557589">BUS_INTERFACE_SWENUM</a>
 
 
 
-<a href="..\swenum\nf-swenum-ksquerysoftwarebusinterface.md">KsQuerySoftwareBusInterface</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566749">KsQuerySoftwareBusInterface</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566763">KsReferenceSoftwareBusObject</a>
  
 
  

@@ -52,18 +52,6 @@ req.typenames: RILSETPREFERREDOPERATORLISTPARAMS, *LPRILSETPREFERREDOPERATORLIST
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef struct _RILSETPREFERREDOPERATORLISTPARAMS {
-  HUICCAPP             hUiccApp;
-  DWORD                dwPreferredListSize;
-  RILOPERATORNAMES [1] PreferredList;
-} RILSETPREFERREDOPERATORLISTPARAMS, RILSETPREFERREDOPERATORLISTPARAMS;
-````
-
-
 ## -struct-fields
 
 

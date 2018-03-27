@@ -53,16 +53,6 @@ req.product: Windows 10 or later.
 The PDEV_USE_TRUE_COLOR structure indicates whether the output color space should be color or grayscale.
 
 
-## -syntax
-
-
-````
-typedef struct _PDEV_USE_TRUE_COLOR {
-  BOOL bUseTrueColor;
-} PDEV_USE_TRUE_COLOR;
-````
-
-
 ## -struct-fields
 
 
@@ -88,10 +78,10 @@ A plug-in can use this flag to turn color output on or off for Pscript5 printer 
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553189">IPrintOemPS2::GetPDEVAdjustment</a>
-
-
-
  
 
  

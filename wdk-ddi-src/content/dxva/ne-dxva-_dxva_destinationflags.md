@@ -52,20 +52,6 @@ req.typenames: DXVA_DestinationFlags
 The DXVA_DestinationFlags enumeration type contains a collection of flags that identify changes in the current destination surface from the previous destination surface.
 
 
-## -syntax
-
-
-````
-typedef enum _DXVA_DestinationFlags { 
-  DXVA_DestinationFlagMask                 = DXVABit(3)|DXVABit(2)|DXVABit(1)|DXVABit(0),
-  DXVA_DestinationFlag_Background_Changed  = 0x0001,
-  DXVA_DestinationFlag_TargetRect_Changed  = 0x0002,
-  DXVA_DestinationFlag_ColorData_Changed   = 0x0004,
-  DXVA_DestinationFlag_Alpha_Changed       = 0x0008
-} DXVA_DestinationFlags;
-````
-
-
 ## -enum-fields
 
 
@@ -99,14 +85,14 @@ Indicates that the planar alpha value for the destination surface changed.
 
 ## -see-also
 
-<a href="..\dxva\ns-dxva-_dxva_deinterlacebltex.md">DXVA_DeinterlaceBltEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563915">DXVA_DeinterlaceBltEx</a>
 
 
 
 <a href="https://msdn.microsoft.com/12a0e467-54f8-4cca-8ec0-aa8d04480ab6">DeinterlaceBltEx</a>
-
-
-
  
 
  

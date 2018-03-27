@@ -40,7 +40,7 @@ api_name:
 -	EvtSpbTargetDisconnect
 product: Windows
 targetos: Windows
-req.typenames: SPB_TRANSFER_LIST_ENTRY, *PSPB_TRANSFER_LIST_ENTRY
+req.typenames: OS_DEP_DATA, *POS_DEP_DATA
 req.product: Windows 10 or later.
 ---
 
@@ -51,20 +51,6 @@ req.product: Windows 10 or later.
 
 
 An SPB controller driver's <i>EvtSpbTargetDisconnect</i> event callback function closes a connection to a target device that was previously opened by a call to the driver's  <a href="https://msdn.microsoft.com/D90DD169-A989-4D08-B1B8-BDE7EC9B7A82">EvtSpbTargetConnect</a> event callback function.
-
-
-## -prototype
-
-
-````
-EVT_SPB_TARGET_DISCONNECT EvtSpbTargetDisconnect;
-
-VOID EvtSpbTargetDisconnect(
-  _In_ WDFDEVICE Controller,
-  _In_ SPBTARGET Target
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -150,11 +136,14 @@ The EVT_SPB_TARGET_DISCONNECT function type is defined in the Spbcx.h header fil
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550720">IRP_MJ_CLOSE</a>
 
 
 
 <a href="https://msdn.microsoft.com/D90DD169-A989-4D08-B1B8-BDE7EC9B7A82">EvtSpbTargetConnect</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550720">IRP_MJ_CLOSE</a>
 
 
 
@@ -167,9 +156,6 @@ The EVT_SPB_TARGET_DISCONNECT function type is defined in the Spbcx.h header fil
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh450919">SpbDeviceInitialize</a>
-
-
-
  
 
  

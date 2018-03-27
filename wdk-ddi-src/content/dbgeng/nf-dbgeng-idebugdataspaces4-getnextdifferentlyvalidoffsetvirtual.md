@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -50,17 +50,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>GetNextDifferentlyValidOffsetVirtual</b> method returns the offset of the next address whose validity might be different from the validity of the specified address.
-
-
-## -syntax
-
-
-````
-HRESULT GetNextDifferentlyValidOffsetVirtual(
-  [in]  ULONG64  Offset,
-  [out] PULONG64 NextOffset
-);
-````
 
 
 ## -parameters
@@ -117,7 +106,6 @@ The size of regions of validity depends on the target.  For example, in live use
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugdataspaces4.md">IDebugDataSpaces4</a>
 
 
 
@@ -125,6 +113,7 @@ The size of regions of validity depends on the target.  For example, in live use
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550546">IDebugDataSpaces4</a>
  
 
  

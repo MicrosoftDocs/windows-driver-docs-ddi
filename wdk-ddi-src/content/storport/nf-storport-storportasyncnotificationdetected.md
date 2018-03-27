@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: Any
 topic_type:
@@ -55,18 +55,6 @@ A storage miniport driver calls <b>StorPortAsyncNotificationDetected</b> to  not
 The notification is queued as a work item for deferred processing at DISPATCH_LEVEL or lower IRQL.
 
 
-## -syntax
-
-
-````
-ULONG StorPortAsyncNotificationDetected(
-  _In_ PVOID         HwDeviceExtension,
-       PSTOR_ADDRESS Address,
-       ULONGLONG     Flags
-);
-````
-
-
 ## -parameters
 
 
@@ -74,7 +62,7 @@ ULONG StorPortAsyncNotificationDetected(
 
 ### -param HwDeviceExtension [in]
 
-A pointer to the hardware device extension. This is a per-HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the mapped access ranges for the HBA. This area is available to the miniport driver immediately after the miniport driver calls <a href="..\storport\nf-storport-storportinitialize.md">StorPortInitialize</a>. The port driver frees this memory when it removes the device.
+A pointer to the hardware device extension. This is a per-HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the mapped access ranges for the HBA. This area is available to the miniport driver immediately after the miniport driver calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff567108">StorPortInitialize</a>. The port driver frees this memory when it removes the device.
 
 
 ### -param Address
@@ -207,7 +195,7 @@ A prior notification is in process and this one cannot be scheduled.
 
 
 
-A miniport can detect status events in its <a href="..\storport\nc-storport-hw_interrupt.md">HwStorInterrupt</a> routine and call <b>StorPortAsyncNotificationDetected</b> to queue and process the status change notification later at a lower IRQL. 
+A miniport can detect status events in its <a href="https://msdn.microsoft.com/library/windows/hardware/ff557403">HwStorInterrupt</a> routine and call <b>StorPortAsyncNotificationDetected</b> to queue and process the status change notification later at a lower IRQL. 
 
 When processed by Storport, the status event notification is forwarded to the storage class driver to initiate any necessary system response actions.
 

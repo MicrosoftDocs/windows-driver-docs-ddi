@@ -53,16 +53,6 @@ req.typenames:
                  Gives information about frame statistics.
 
 
-## -syntax
-
-
-````
-typedef struct IDARG_IN_REPORTFRAMESTATISTICS {
-  IDDCX_FRAME_STATISTICS FrameStatistics;
-} IDARG_IN_REPORTFRAMESTATISTICS, *IDARG_IN_REPORTFRAMESTATISTICS;
-````
-
-
 ## -struct-fields
 
 

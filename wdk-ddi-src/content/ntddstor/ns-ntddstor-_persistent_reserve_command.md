@@ -49,32 +49,7 @@ req.typenames: PERSISTENT_RESERVE_COMMAND, *PPERSISTENT_RESERVE_COMMAND
 ## -description
 
 
-The PERSISTENT_RESERVE_COMMAND structure is used together with the <a href="..\ntddstor\ni-ntddstor-ioctl_storage_persistent_reserve_in.md">IOCTL_STORAGE_PERSISTENT_RESERVE_IN</a> and <a href="..\ntddstor\ni-ntddstor-ioctl_storage_persistent_reserve_out.md">IOCTL_STORAGE_PERSISTENT_RESERVE_OUT</a> requests to obtain and control information about persistent reservations and reservation keys that are active within a device server.
-
-
-## -syntax
-
-
-````
-typedef struct _PERSISTENT_RESERVE_COMMAND {
-  ULONG Version;
-  ULONG Size;
-  union {
-    struct {
-      UCHAR  ServiceAction  :5;
-      UCHAR  Reserved1  :3;
-      USHORT AllocationLength;
-    } PR_IN;
-    struct {
-      UCHAR ServiceAction  :5;
-      UCHAR Reserved1  :3;
-      UCHAR Type  :4;
-      UCHAR Scope  :4;
-      UCHAR ParameterList[];
-    } PR_OUT;
-  };
-} PERSISTENT_RESERVE_COMMAND, *PPERSISTENT_RESERVE_COMMAND;
-````
+The PERSISTENT_RESERVE_COMMAND structure is used together with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560582">IOCTL_STORAGE_PERSISTENT_RESERVE_IN</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff560586">IOCTL_STORAGE_PERSISTENT_RESERVE_OUT</a> requests to obtain and control information about persistent reservations and reservation keys that are active within a device server.
 
 
 ## -struct-fields
@@ -173,14 +148,14 @@ The behavior of the storage device when a SCSI Persistent Reserve In command or 
 
 ## -see-also
 
-<a href="..\ntddstor\ni-ntddstor-ioctl_storage_persistent_reserve_in.md">IOCTL_STORAGE_PERSISTENT_RESERVE_IN</a>
 
 
 
-<a href="..\ntddstor\ni-ntddstor-ioctl_storage_persistent_reserve_out.md">IOCTL_STORAGE_PERSISTENT_RESERVE_OUT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560582">IOCTL_STORAGE_PERSISTENT_RESERVE_IN</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560586">IOCTL_STORAGE_PERSISTENT_RESERVE_OUT</a>
  
 
  

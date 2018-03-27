@@ -53,20 +53,6 @@ Called by the Microsoft Direct3D runtime to submit outstanding hardware commands
 
 
 
-## -prototype
-
-
-````
-PFND3DDDI_FLUSH1 pfnFlush1;
-
-_Check_return_ HRESULT APIENTRY* pfnFlush1(
-  _In_ HANDLE hDevice,
-       UINT   FlushFlags
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -81,7 +67,7 @@ A handle to the display device (graphics context).
 
 ### -param FlushFlags
 
-A value from the <a href="..\d3dumddi\ne-d3dumddi-d3dddi_flush_flags.md">D3DDDI_FLUSH_FLAGS</a> enumeration that indicates whether the driver should continue to submit command buffers if there have been no new commands.
+A value from the <a href="https://msdn.microsoft.com/library/windows/hardware/dn449154">D3DDDI_FLUSH_FLAGS</a> enumeration that indicates whether the driver should continue to submit command buffers if there have been no new commands.
 
 
 ## -returns
@@ -95,10 +81,10 @@ If this routine succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HR
 
 ## -see-also
 
-<a href="..\d3dumddi\ne-d3dumddi-d3dddi_flush_flags.md">D3DDDI_FLUSH_FLAGS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn449154">D3DDDI_FLUSH_FLAGS</a>
  
 
  

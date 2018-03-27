@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,25 +51,6 @@ req.product: Windows 10 or later.
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef enum _RILCALLINFODISCONNECTREASON { 
-  RIL_DISCREASON_BUSY,
-  RIL_DISCREASON_NETWORKERROR,
-  RIL_DISCREASON_RADIOFADE,
-  RIL_DISCREASON_CONGESTION,
-  RIL_DISCREASON_EMERGENCYONLY,
-  RIL_DISCREASON_NOSERVICE,
-  RIL_DISCREASON_OTHEREXECUTORBUSY,
-  RIL_DISCREASON_EMERGENCYFAILOVER,
-  RIL_DISCREASON_HANDOVER_MERGE,
-  RIL_DISCREASON_MAX
-} RILCALLINFODISCONNECTREASON;
-````
 
 
 ## -enum-fields

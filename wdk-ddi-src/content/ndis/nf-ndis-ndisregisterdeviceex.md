@@ -55,19 +55,6 @@ The
   attributes.
 
 
-## -syntax
-
-
-````
-NDIS_STATUS NdisRegisterDeviceEx(
-  _In_  NDIS_HANDLE                    NdisHandle,
-  _In_  PNDIS_DEVICE_OBJECT_ATTRIBUTES DeviceObjectAttributes,
-  _Out_ PDEVICE_OBJECT                 *pDeviceObject,
-  _Out_ PNDIS_HANDLE                   NdisDeviceHandle
-);
-````
-
-
 ## -parameters
 
 
@@ -76,23 +63,23 @@ NDIS_STATUS NdisRegisterDeviceEx(
 ### -param NdisHandle [in]
 
 A miniport driver handle or filter driver handle that the caller obtained by calling the 
-     <a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">
+     <a href="https://msdn.microsoft.com/bed68aa8-499d-41fd-997b-a46316913cc8">
      NdisMRegisterMiniportDriver</a> function or the 
-     <a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">
+     <a href="https://msdn.microsoft.com/14381de2-36d9-4ec8-9d4e-7af3e6d8ecf3">
      NdisFRegisterFilterDriver</a> function respectively.
 
 
 ### -param DeviceObjectAttributes [in]
 
 A pointer to an 
-     <a href="..\ndis\ns-ndis-_ndis_device_object_attributes.md">
+     <a href="https://msdn.microsoft.com/658e1597-eacf-4e9e-9f10-37f7646d38ad">
      NDIS_DEVICE_OBJECT_ATTRIBUTES</a> structure that contains the attributes for the new device.
 
 
 ### -param pDeviceObject [out]
 
 A pointer that points to a pointer to a newly created 
-     <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a> structure, if the call succeeds.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a> structure, if the call succeeds.
      If the call fails, 
      <i>pDeviceObject</i> is set to point to <b>NULL</b>.
 
@@ -101,7 +88,7 @@ A pointer that points to a pointer to a newly created
 
 A pointer to a caller-supplied variable in which this function, if it succeeds, returns a handle
      to the device object. This handle is a required parameter to the 
-     <a href="..\ndis\nf-ndis-ndisderegisterdeviceex.md">NdisDeregisterDeviceEx</a> function
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff561741">NdisDeregisterDeviceEx</a> function
      that the driver calls subsequently.
 
 
@@ -166,21 +153,21 @@ Miniport drivers and filter drivers can call
 
 <div class="alert"><b>Note</b>  NDIS drivers must not modify the 
     <b>DeviceExtension</b> member of the 
-    <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a> structure that 
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a> structure that 
     <b>NdisRegisterDeviceEx</b> created.</div>
 <div> </div>
 If an NDIS driver requires space for context information in the device object, the driver can pass a
     nonzero value for the 
     <b>ExtensionSize</b> member in the 
-    <a href="..\ndis\ns-ndis-_ndis_device_object_attributes.md">
+    <a href="https://msdn.microsoft.com/658e1597-eacf-4e9e-9f10-37f7646d38ad">
     NDIS_DEVICE_OBJECT_ATTRIBUTES</a> structure at the 
     <i>DeviceObjectAttributes</i> parameter. In this case, NDIS allocates the extension for the driver, and
     the driver can call the 
-    <a href="..\ndis\nf-ndis-ndisgetdevicereservedextension.md">
+    <a href="https://msdn.microsoft.com/6b2c56a9-cf77-4734-8f85-0ca740084ce3">
     NdisGetDeviceReservedExtension</a> function to get a pointer to the extension.
 
 The driver must subsequently call the 
-    <a href="..\ndis\nf-ndis-ndisderegisterdeviceex.md">NdisDeregisterDeviceEx</a> function
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561741">NdisDeregisterDeviceEx</a> function
     when the device is no longer needed. If 
     <b>NdisRegisterDeviceEx</b> allocated an extension, 
     <b>NdisDeregisterDeviceEx</b> frees the extension.
@@ -190,31 +177,31 @@ The driver must subsequently call the
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisgetdevicereservedextension.md">
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565426">NDIS_DEVICE_OBJECT_ATTRIBUTES</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561741">NdisDeregisterDeviceEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562608">NdisFRegisterFilterDriver</a>
+
+
+
+<a href="https://msdn.microsoft.com/6b2c56a9-cf77-4734-8f85-0ca740084ce3">
    NdisGetDeviceReservedExtension</a>
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_device_object_attributes.md">NDIS_DEVICE_OBJECT_ATTRIBUTES</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisderegisterdeviceex.md">NdisDeregisterDeviceEx</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">NdisFRegisterFilterDriver</a>
-
-
-
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563654">NdisMRegisterMiniportDriver</a>
  
 
  

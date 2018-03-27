@@ -52,16 +52,6 @@ req.typenames: DXVA_COPPSignature, *LPDXVA_COPPSignature
 The DXVA_COPPSignature structure describes a sequence of items concatenated together that starts an active protected video session. 
 
 
-## -syntax
-
-
-````
-typedef struct _DXVA_COPPSignature {
-  UCHAR Signature[256];
-} DXVA_COPPSignature, *LPDXVA_COPPSignature;
-````
-
-
 ## -struct-fields
 
 
@@ -103,14 +93,14 @@ The array at <b>Signature</b> consists of the following items concatenated toget
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539646">COPPKeyExchange</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540421">COPPSequenceStart</a>
-
-
-
  
 
  

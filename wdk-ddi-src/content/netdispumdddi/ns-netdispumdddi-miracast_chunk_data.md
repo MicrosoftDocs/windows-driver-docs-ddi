@@ -49,19 +49,7 @@ req.typenames: MIRACAST_CHUNK_DATA
 ## -description
 
 
-Contains encode chunk data that is used when a user-mode driver calls the wireless display (Miracast) <a href="..\netdispumdddi\nc-netdispumdddi-pfn_get_next_chunk_data.md">GetNextChunkData</a> function.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  MIRACAST_CHUNK_INFO ChunkInfo;
-  UINT                PrivateDriverDataSize;
-  UCHAR               PrivateDriverData[1];
-} MIRACAST_CHUNK_DATA;
-````
+Contains encode chunk data that is used when a user-mode driver calls the wireless display (Miracast) <a href="https://msdn.microsoft.com/24b1d89a-4200-41ec-aa73-15b37e4cca6d">GetNextChunkData</a> function.
 
 
 ## -struct-fields
@@ -71,7 +59,7 @@ typedef struct {
 
 ### -field ChunkInfo
 
-A <a href="..\netdispumdddi\ns-netdispumdddi-miracast_chunk_info.md">MIRACAST_CHUNK_INFO</a> encode chunk information structure that the user-mode display driver wants to report.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/dn265473">MIRACAST_CHUNK_INFO</a> encode chunk information structure that the user-mode display driver wants to report.
 
 
 ### -field PrivateDriverDataSize
@@ -81,19 +69,19 @@ The size, in bytes, of the buffer that <b>pPrivateDriverData</b> points to.
 
 ### -field PrivateDriverData
 
-Private data, of type <b>UCHAR</b>, that the user-mode display driver sends when it calls the <a href="..\netdispumdddi\nc-netdispumdddi-pfn_get_next_chunk_data.md">GetNextChunkData</a> function.
+Private data, of type <b>UCHAR</b>, that the user-mode display driver sends when it calls the <a href="https://msdn.microsoft.com/24b1d89a-4200-41ec-aa73-15b37e4cca6d">GetNextChunkData</a> function.
 
 
 ## -see-also
 
-<a href="..\netdispumdddi\ns-netdispumdddi-miracast_chunk_info.md">MIRACAST_CHUNK_INFO</a>
 
 
 
-<a href="..\netdispumdddi\nc-netdispumdddi-pfn_get_next_chunk_data.md">GetNextChunkData</a>
+<a href="https://msdn.microsoft.com/24b1d89a-4200-41ec-aa73-15b37e4cca6d">GetNextChunkData</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265473">MIRACAST_CHUNK_INFO</a>
  
 
  

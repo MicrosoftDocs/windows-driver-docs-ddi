@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -50,22 +50,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The OutputContextStackTraceEx method prints the call stack specified by an array of stack frames and corresponding register contexts. The OutputContextStackTraceEx method provides inline frame support. For more information about working with inline functions, see <a href="https://msdn.microsoft.com/library/windows/hardware/hh406275">Debugging Optimized Code and Inline Functions</a>.
-
-
-## -syntax
-
-
-````
-HRESULT OutputContextStackTraceEx(
-  [in] ULONG                 OutputControl,
-  [in] PDEBUG_STACK_FRAME_EX Frames,
-  [in] ULONG                 FramesSize,
-  [in] PVOID                 FrameContexts,
-  [in] ULONG                 FrameContextsSize,
-  [in] ULONG                 FrameContextsEntrySize,
-  [in] ULONG                 Flags
-);
-````
 
 
 ## -parameters
@@ -256,10 +240,10 @@ The method was successful.
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol5.md">IDebugControl5</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn818562">IDebugControl5</a>
  
 
  

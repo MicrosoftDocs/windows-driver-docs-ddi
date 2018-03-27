@@ -52,26 +52,6 @@ req.typenames: DXGK_COLORTRANSFORMCAPS
 This structure replaces the DXGK_GAMMARAMPCAPS structure in the DXGK_DRIVERCAPS structure to describe both the gamma and color transform capabilities of the display pipelines.
 
 
-## -syntax
-
-
-````
-typedef struct _DXGK_COLORTRANSFORMCAPS  {
-  union {
-    struct {
-      UINT Gamma_Rgb256x3x16  :1;
-      UINT Gamma_Dxgi1  :1;
-      UINT Transform_3x4Matrix  :1;
-      UINT Transform_3x4Matrix_WideColor  :1;
-      UINT Transform_3x4Matrix_HighColor  :1;
-      UINT Reserved  :27;
-    };
-    UINT Value;
-  };
-} DXGK_COLORTRANSFORMCAPS , *PDXGK_COLORTRANSFORMCAPS ;
-````
-
-
 ## -struct-fields
 
 

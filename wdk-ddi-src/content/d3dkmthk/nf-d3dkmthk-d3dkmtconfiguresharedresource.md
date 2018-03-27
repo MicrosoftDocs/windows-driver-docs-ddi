@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -52,16 +52,6 @@ req.typenames: D3DKMT_DRIVERVERSION
 The <b>D3DKMTConfigureSharedResource</b> function configures a shared resource. 
 
 
-## -syntax
-
-
-````
-NTSTATUS D3DKMTConfigureSharedResource(
-  _In_ const D3DKMT_CONFIGURESHAREDRESOURCE *pData
-);
-````
-
-
 ## -parameters
 
 
@@ -76,7 +66,7 @@ TBD
 
 #### - pData [in]
 
-A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_configuresharedresource.md">D3DKMT_CONFIGURESHAREDRESOURCE</a> structure that specifies parameters to configure the shared resource. 
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff547793">D3DKMT_CONFIGURESHAREDRESOURCE</a> structure that specifies parameters to configure the shared resource. 
 
 
 ## -returns
@@ -131,7 +121,7 @@ Parameters were validated and determined to be incorrect.
 </td>
 <td width="60%">
 
-<a href="..\d3dkmthk\nc-d3dkmthk-pfnd3dkmt_configuresharedresource.md">D3DKMTConfigureSharedResource</a> could not complete because of insufficient memory.
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546798">D3DKMTConfigureSharedResource</a> could not complete because of insufficient memory.
 
 </td>
 </tr>
@@ -145,10 +135,10 @@ This function might also return other <b>NTSTATUS</b> values.
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_configuresharedresource.md">D3DKMT_CONFIGURESHAREDRESOURCE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547793">D3DKMT_CONFIGURESHAREDRESOURCE</a>
  
 
  

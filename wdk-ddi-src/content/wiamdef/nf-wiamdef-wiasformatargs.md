@@ -53,16 +53,6 @@ req.product: Windows 10 or later.
 The <b>wiasFormatArgs</b> function formats an argument list into a packaged string for logging.
 
 
-## -syntax
-
-
-````
-BSTR __cdecl wiasFormatArgs(
-   LPCSTR   lpszFormat, ...
-);
-````
-
-
 ## -parameters
 
 

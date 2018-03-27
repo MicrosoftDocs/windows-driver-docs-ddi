@@ -52,16 +52,6 @@ req.typenames: HBA_LUID, *PHBA_LUID
 The HBA_LUID structure contains the identification descriptor from the device identification page of the vital products data returned by a SCSI INQUIRY command.
 
 
-## -syntax
-
-
-````
-typedef struct HBA_LUID {
-  char buffer[256];
-} HBA_LUID, *PHBA_LUID;
-````
-
-
 ## -struct-fields
 
 
@@ -83,14 +73,14 @@ A vendor specific LUID is not guaranteed to be unique or persistent.
 
 ## -see-also
 
-<a href="..\hbaapi\ns-hbaapi-hba_fcpscsientryv2.md">HBA_FcpScsiEntryV2</a>
 
 
 
-<a href="..\hbaapi\ns-hbaapi-hba_fcpbindingentry2.md">HBA_FCPBindingEntry2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556060">HBA_FCPBindingEntry2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556068">HBA_FcpScsiEntryV2</a>
  
 
  

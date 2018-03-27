@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: filterpipeline.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -50,17 +50,6 @@ req.typenames: EXpsFontRestriction
 
 
 The <b>GetPagePart</b> method gets the images, thumbnails, fonts, and so on in a page by using the URI.
-
-
-## -syntax
-
-
-````
-HRESULT GetPagePart(
-  [in]  const wchar_t  *uri,
-  [out]       IUnknown **ppUnk
-);
-````
 
 
 ## -parameters

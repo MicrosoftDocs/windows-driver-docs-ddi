@@ -53,16 +53,6 @@ req.product: Windows 10 or later.
 The <b>VideoPortQuerySystemTime</b> function obtains the current system time.
 
 
-## -syntax
-
-
-````
-VOID VideoPortQuerySystemTime(
-  _Out_ PLARGE_INTEGER CurrentTime
-);
-````
-
-
 ## -parameters
 
 
@@ -86,17 +76,17 @@ None
 
 
 
-System time is a count of 100-nanosecond intervals since January 1, 1601. System time is typically updated approximately every ten milliseconds. This value is computed for the GMT time zone. To adjust this value for the local time zone use <a href="..\wdm\nf-wdm-exsystemtimetolocaltime.md">ExSystemTimeToLocalTime</a>. 
+System time is a count of 100-nanosecond intervals since January 1, 1601. System time is typically updated approximately every ten milliseconds. This value is computed for the GMT time zone. To adjust this value for the local time zone use <a href="https://msdn.microsoft.com/library/windows/hardware/ff545622">ExSystemTimeToLocalTime</a>. 
 
 
 
 
 ## -see-also
 
-<a href="..\video\nf-video-videoportqueryperformancecounter.md">VideoPortQueryPerformanceCounter</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570336">VideoPortQueryPerformanceCounter</a>
  
 
  

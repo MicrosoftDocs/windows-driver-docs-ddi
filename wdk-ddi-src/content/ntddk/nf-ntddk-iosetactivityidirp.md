@@ -7,7 +7,7 @@ old-location: kernel\iosetactivityidirp.htm
 old-project: kernel
 ms.assetid: 81D3BE8C-D6E0-47E2-959C-3834988E4C61
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/1/2018
 ms.keywords: IoSetActivityIdIrp, IoSetActivityIdIrp routine [Kernel-Mode Driver Architecture], kernel.iosetactivityidirp, ntddk/IoSetActivityIdIrp
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ api_name:
 -	IoSetActivityIdIrp
 product: Windows
 targetos: Windows
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+req.typenames: SUBSYSTEM_INFORMATION_TYPE, *PSUBSYSTEM_INFORMATION_TYPE
 ---
 
 # IoSetActivityIdIrp function
@@ -50,17 +50,6 @@ req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 
 
 The IoSetActivityIdIrp routine associates an activity ID with an IRP.
-
-
-## -syntax
-
-
-````
-NTSTATUS IoSetActivityIdIrp(
-  _In_     PIRP   Irp,
-  _In_opt_ LPGUID Guid
-);
-````
 
 
 ## -parameters
@@ -121,7 +110,7 @@ The I/O tracing provider has not been enabled on the IRP.
 
 
 
-Drivers should use IoSetActivityIdIrp only on IRPs that have been allocated using <a href="..\wdm\nf-wdm-ioallocateirp.md">IoAllocateIrp</a> (and freed using <a href="..\wdm\nf-wdm-iofreeirp.md">IoFreeIrp</a>). Otherwise, memory leakage may result.
+Drivers should use IoSetActivityIdIrp only on IRPs that have been allocated using <a href="https://msdn.microsoft.com/library/windows/hardware/ff548257">IoAllocateIrp</a> (and freed using <a href="https://msdn.microsoft.com/library/windows/hardware/hh454223">IoFreeIrp</a>). Otherwise, memory leakage may result.
 
 
 

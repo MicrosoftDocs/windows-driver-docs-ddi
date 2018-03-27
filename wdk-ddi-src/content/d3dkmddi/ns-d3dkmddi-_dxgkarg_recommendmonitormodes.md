@@ -49,19 +49,7 @@ req.typenames: DXGKARG_RECOMMENDMONITORMODES
 ## -description
 
 
-The DXGKARG_RECOMMENDMONITORMODES structure contains arguments for the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_recommendmonitormodes.md">DxgkDdiRecommendMonitorModes</a> function. 
-
-
-## -syntax
-
-
-````
-typedef struct _DXGKARG_RECOMMENDMONITORMODES {
-  D3DDDI_VIDEO_PRESENT_TARGET_ID            VideoPresentTargetId;
-  D3DKMDT_HMONITORSOURCEMODESET             hMonitorSourceModeSet;
-  const DXGK_MONITORSOURCEMODESET_INTERFACE *pMonitorSourceModeSetInterface;
-} DXGKARG_RECOMMENDMONITORMODES;
-````
+The DXGKARG_RECOMMENDMONITORMODES structure contains arguments for the <a href="https://msdn.microsoft.com/1fa29ab6-1faa-4be6-ae87-4cac9057471d">DxgkDdiRecommendMonitorModes</a> function. 
 
 
 ## -struct-fields
@@ -81,19 +69,19 @@ A handle to a monitor source mode set object. This set contains a list of modes 
 
 ### -field pMonitorSourceModeSetInterface
 
-A pointer to a <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_monitorsourcemodeset_interface.md">DXGK_MONITORSOURCEMODESET_INTERFACE</a> structure. The structure contains pointers to functions that the display miniport driver can use to inspect, and possibly add modes to, the monitor source mode set.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff561921">DXGK_MONITORSOURCEMODESET_INTERFACE</a> structure. The structure contains pointers to functions that the display miniport driver can use to inspect, and possibly add modes to, the monitor source mode set.
 
 
 ## -see-also
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_recommendmonitormodes.md">DxgkDdiRecommendMonitorModes</a>
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_monitorsourcemodeset_interface.md">DXGK_MONITORSOURCEMODESET_INTERFACE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561921">DXGK_MONITORSOURCEMODESET_INTERFACE</a>
 
 
 
+<a href="https://msdn.microsoft.com/1fa29ab6-1faa-4be6-ae87-4cac9057471d">DxgkDdiRecommendMonitorModes</a>
  
 
  

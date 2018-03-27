@@ -58,16 +58,6 @@ req.product: Windows 10 or later.
 The <b>WdfTimerGetParentObject</b> method returns a handle to the parent object of a specified framework timer object.
 
 
-## -syntax
-
-
-````
-WDFOBJECT WdfTimerGetParentObject(
-  _In_ WDFTIMER Timer
-);
-````
-
-
 ## -parameters
 
 
@@ -75,7 +65,7 @@ WDFOBJECT WdfTimerGetParentObject(
 
 ### -param Timer [in]
 
-A handle to a framework timer object that was obtained by calling <a href="..\wdftimer\nf-wdftimer-wdftimercreate.md">WdfTimerCreate</a>.
+A handle to a framework timer object that was obtained by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff550050">WdfTimerCreate</a>.
 
 
 ## -returns
@@ -124,10 +114,10 @@ MyEvtTimerFunc(
 
 ## -see-also
 
-<a href="..\wdftimer\nf-wdftimer-wdftimercreate.md">WdfTimerCreate</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550050">WdfTimerCreate</a>
  
 
  

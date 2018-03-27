@@ -52,18 +52,6 @@ req.typenames: D3D11_1DDI_GETCAPTUREHANDLEDATA
 Used to create a video processor.
 
 
-## -prototype
-
-
-````
-HRESULT APIENTRY* PFND3D12DDI_CREATEVIDEOPROCESSOR_0032(
-             D3D12DDI_HDEVICE                        hDrvDevice,
-  _In_ const D3D12DDIARG_CREATE_VIDEO_PROCESSOR_0032 *pArgs,
-             D3D12DDI_HVIDEOPROCESSOR_0020           hDrvVideoProcessor
-);
-````
-
-
 ## -parameters
 
 

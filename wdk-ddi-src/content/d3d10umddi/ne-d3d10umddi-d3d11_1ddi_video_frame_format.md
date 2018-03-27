@@ -52,18 +52,6 @@ req.typenames: D3D11_1DDI_VIDEO_FRAME_FORMAT
 Describes how a video stream is interlaced.
 
 
-## -syntax
-
-
-````
-typedef enum D3D11_1DDI_VIDEO_FRAME_FORMAT { 
-  D3D11_1DDI_VIDEO_FRAME_FORMAT_PROGRESSIVE                    = 0,
-  D3D11_1DDI_VIDEO_FRAME_FORMAT_INTERLACED_TOP_FIELD_FIRST     = 1,
-  D3D11_1DDI_VIDEO_FRAME_FORMAT_INTERLACED_BOTTOM_FIELD_FIRST  = 2
-} D3D11_1DDI_VIDEO_FRAME_FORMAT;
-````
-
-
 ## -enum-fields
 
 

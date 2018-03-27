@@ -53,18 +53,6 @@ req.product: Windows 10 or later.
 The BIDI_REQUEST_DATA structure holds a single bidi request.
 
 
-## -syntax
-
-
-````
-typedef struct _BIDI_REQUEST_DATA {
-  DWORD     dwReqNumber;
-  LPWSTR    pSchema;
-  BIDI_DATA data;
-} BIDI_REQUEST_DATA, *PBIDI_REQUEST_DATA, *LPBIDI_REQUEST_DATA;
-````
-
-
 ## -struct-fields
 
 
@@ -82,19 +70,19 @@ Pointer to a memory location containing the first byte of the schema string.
 
 ### -field data
 
-Specifies a <a href="..\winspool\ns-winspool-_bidi_data.md">BIDI_DATA</a> structure containing the data associated with the schema.
+Specifies a <a href="https://msdn.microsoft.com/library/windows/hardware/ff545177">BIDI_DATA</a> structure containing the data associated with the schema.
 
 
 ## -see-also
 
-<a href="..\winspool\ns-winspool-_bidi_request_container.md">BIDI_REQUEST_CONTAINER</a>
 
 
 
-<a href="..\winspool\ns-winspool-_bidi_data.md">BIDI_DATA</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545177">BIDI_DATA</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545193">BIDI_REQUEST_CONTAINER</a>
  
 
  

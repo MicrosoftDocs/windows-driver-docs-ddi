@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: filterpipeline.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -50,16 +50,6 @@ req.typenames: EXpsFontRestriction
 
 
 The <code>Reset</code> method sets the iterator to the first element.
-
-
-## -syntax
-
-
-````
-void STDMETHODCALLTYPE Reset(
-    None
-);
-````
 
 
 ## -parameters

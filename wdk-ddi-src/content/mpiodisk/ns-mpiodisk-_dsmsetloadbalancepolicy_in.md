@@ -52,16 +52,6 @@ req.typenames: DsmSetLoadBalancePolicy_IN, *PDsmSetLoadBalancePolicy_IN
 The DsmSetLoadBalancePolicy_IN structure provides an input parameter to the DsmSetLoadBalancePolicy method.
 
 
-## -syntax
-
-
-````
-typedef struct _DsmSetLoadBalancePolicy_IN {
-  DSM_Load_Balance_Policy LoadBalancePolicy;
-} DsmSetLoadBalancePolicy_IN, *PDsmSetLoadBalancePolicy_IN;
-````
-
-
 ## -struct-fields
 
 

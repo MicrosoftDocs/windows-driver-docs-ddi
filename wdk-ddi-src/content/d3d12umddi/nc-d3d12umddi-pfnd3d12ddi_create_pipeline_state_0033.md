@@ -52,34 +52,21 @@ req.typenames: D3D11_1DDI_GETCAPTUREHANDLEDATA
 Used to create a pipeline state.
 
 
-## -prototype
-
-
-````
-HRESULT APIENTRY* PFND3D12DDI_CREATE_PIPELINE_STATE_0033(
-             D3D12DDI_HDEVICE                       d3d12ddi_hdevice,
-  _In_ const D3D12DDIARG_CREATE_PIPELINE_STATE_0033 *d3d12ddiarg_create_pipeline_state_0033,
-             D3D12DDI_HPIPELINESTATE                d3d12ddi_hpipelinestate,
-             D3D12DDI_HRTPIPELINESTATE              d3d12ddi_hrtpipelinestate
-);
-````
-
-
 ## -parameters
 
 
 
 
-### -param D3D12DDI_HDEVICE
+### -param Arg1
 
 
 ### -param *
 
 
-### -param D3D12DDI_HPIPELINESTATE
+### -param Arg2
 
 
-### -param D3D12DDI_HRTPIPELINESTATE
+### -param Arg3
 
 
 

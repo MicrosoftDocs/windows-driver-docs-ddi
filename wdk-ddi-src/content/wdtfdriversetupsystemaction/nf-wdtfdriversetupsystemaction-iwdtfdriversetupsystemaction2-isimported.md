@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: Microsoft.WDTF
 req.assembly: WDTFDriverSetupSystemAction.Interop.dll
 req.type-library: 
-req.lib: wdtfdriversetupsystemaction.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,17 +51,6 @@ req.product: Windows 10 or later.
 
 
 Returns a value that indicates whether a package has already been imported.
-
-
-## -syntax
-
-
-````
-HRESULT IsImported(
-  [in]          IWDTFDriverPackageAction2 *pDp,
-  [out, retval] VARIANT_BOOL              *pbIsImported
-);
-````
 
 
 ## -parameters
@@ -97,10 +86,10 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="..\wdtfdriversetupsystemaction\nn-wdtfdriversetupsystemaction-iwdtfdriversetupsystemaction2.md">IWDTFDriverSetupSystemAction2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450948">IWDTFDriverSetupSystemAction2</a>
  
 
  

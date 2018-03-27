@@ -53,35 +53,6 @@ req.product: Windows 10 or later.
 Stores xHCI-specific information that is used by client drivers to transfer data to and from the offloaded endpoints.
 
 
-## -syntax
-
-
-````
-typedef struct _USBD_ENDPOINT_OFFLOAD_INFORMATION {
-  ULONG                       Size;
-  USHORT                      EndpointAddress;
-  ULONG                       ResourceId;
-  USBD_ENDPOINT_OFFLOAD_MODE  Mode;
-  ULONG                       RootHubPortNumber  :8;
-  ULONG                       RouteString  :20;
-  ULONG                       Speed  :4;
-  ULONG                       UsbDeviceAddress  :8;
-  ULONG                       SlotId  :8;
-  ULONG                       MultiTT  :1;
-  ULONG                       Reserved0  :15;
-  TransferSegmentLA           PHYSICAL_ADDRESS;
-  TransferSegmentVA           PVOID;
-  TransferRingSize            size_t;
-  TransferRingInitialCycleBit ULONG;
-  MessageNumber               ULONG;
-  EventRingSegmentLA          PHYSICAL_ADDRESS;
-  EventRingSegmentVA          PVOID;
-  EventRingSize               size_t;
-  EventRingInitialCycleBit    ULONG;
-} USBD_ENDPOINT_OFFLOAD_INFORMATION, *PUSBD_ENDPOINT_OFFLOAD_INFORMATION;
-````
-
-
 ## -struct-fields
 
 
@@ -104,7 +75,7 @@ The resource identifier.
 
 ### -field Mode
 
-A <a href="..\usb\ne-usb-_usbd_endpoint_offload_mode.md">USBD_ENDPOINT_OFFLOAD_MODE</a>-type value that indicates whether endpoint offloading is handled in software or the USB device or host controller.
+A <a href="https://msdn.microsoft.com/577B2B5E-934E-4354-B6FF-FDFE9D1144D7">USBD_ENDPOINT_OFFLOAD_MODE</a>-type value that indicates whether endpoint offloading is handled in software or the USB device or host controller.
 
 
 ### -field RootHubPortNumber

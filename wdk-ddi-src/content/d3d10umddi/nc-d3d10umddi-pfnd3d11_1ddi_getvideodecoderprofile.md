@@ -52,30 +52,15 @@ req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 Queries the attributes of a specified video decoder profile.
 
 
-## -prototype
-
-
-````
-PFND3D11_1DDI_GETVIDEODECODERPROFILE pfnGetVideoDecoderProfile;
-
-VOID APIENTRY* pfnGetVideoDecoderProfile(
-  _In_        D3D10DDI_HDEVICE              hDevice,
-  _In_        UINT                          Index,
-  _Out_ const D3D11_1DDI_VIDEO_DECODER_DESC *pDecodeDesc
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
 
 
-### -param D3D10DDI_HDEVICE
+### -param Arg1
 
 
-### -param UINT
+### -param Arg2
 
 
 ### -param *
@@ -89,7 +74,7 @@ VOID APIENTRY* pfnGetVideoDecoderProfile(
 
 #### - Index [in]
 
-The zero-based index of the video decoder profile. The display miniport driver returns the maximum number of video decoder profiles that it supports through a call to its <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_getvideodecoderprofilecount.md">GetVideoDecoderProfileCount</a> function.
+The zero-based index of the video decoder profile. The display miniport driver returns the maximum number of video decoder profiles that it supports through a call to its <a href="https://msdn.microsoft.com/library/windows/hardware/hh451672">GetVideoDecoderProfileCount</a> function.
 
 
 #### - hDevice [in]
@@ -101,7 +86,7 @@ A handle to the display device (graphics context).
 
 #### - pDecodeDesc [out]
 
-A pointer to a <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_video_decoder_desc.md">D3D11_1DDI_VIDEO_DECODER_DESC</a> structure that specifies the attributes of the specified video decoder profile.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh450951">D3D11_1DDI_VIDEO_DECODER_DESC</a> structure that specifies the attributes of the specified video decoder profile.
 
 
 ## -returns
@@ -124,14 +109,14 @@ The Microsoft Direct3D runtime verifies that the <i>Index</i> parameter data is 
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_getvideodecoderprofilecount.md">GetVideoDecoderProfileCount</a>
 
 
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_video_decoder_desc.md">D3D11_1DDI_VIDEO_DECODER_DESC</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450951">D3D11_1DDI_VIDEO_DECODER_DESC</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451672">GetVideoDecoderProfileCount</a>
  
 
  

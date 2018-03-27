@@ -52,19 +52,6 @@ req.typenames: RILEXCHANGEUICCAPDUPARAMS, *LPRILEXCHANGEUICCAPDUPARAMS
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef struct _RILEXCHANGEUICCAPDUPARAMS {
-  DWORD    dwSlotIndex;
-  DWORD    dwChannelId;
-  DWORD    dwAPDULength;
-  BYTE [1] bAPDU;
-} RILEXCHANGEUICCAPDUPARAMS, RILEXCHANGEUICCAPDUPARAMS;
-````
-
-
 ## -struct-fields
 
 

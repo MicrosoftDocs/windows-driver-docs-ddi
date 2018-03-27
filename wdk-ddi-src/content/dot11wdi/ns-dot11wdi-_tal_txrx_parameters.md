@@ -53,16 +53,6 @@ The
   TAL_TXRX_PARAMETERS structure defines the TAL TXRX parameters.
 
 
-## -syntax
-
-
-````
-typedef struct _TAL_TXRX_PARAMETERS {
-  UINT16 MaxOutstandingTransfers;
-} TAL_TXRX_PARAMETERS, *PTAL_TXRX_PARAMETERS;
-````
-
-
 ## -struct-fields
 
 

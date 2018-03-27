@@ -53,16 +53,6 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 <b>NdisMFlushLog</b> clears the log file.
 
 
-## -syntax
-
-
-````
-VOID NdisMFlushLog(
-  _In_ NDIS_HANDLE LogHandle
-);
-````
-
-
 ## -parameters
 
 
@@ -71,7 +61,7 @@ VOID NdisMFlushLog(
 ### -param LogHandle [in]
 
 Specifies the handle returned by 
-     <a href="..\ndis\nf-ndis-ndismcreatelog.md">NdisMCreateLog</a>.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff563572">NdisMCreateLog</a>.
 
 
 ## -returns
@@ -97,22 +87,22 @@ The driver must release any spin lock it is holding before calling
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndismcreatelog.md">NdisMCreateLog</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndismwritelogdata.md">NdisMWriteLogData</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562790">NdisMCloseLog</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndismcloselog.md">NdisMCloseLog</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563572">NdisMCreateLog</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisreleasespinlock.md">NdisReleaseSpinLock</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563695">NdisMWriteLogData</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564524">NdisReleaseSpinLock</a>
  
 
  

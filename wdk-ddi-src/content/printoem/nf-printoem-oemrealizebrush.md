@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,21 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <code>OEMRealizeBrush</code> function requests that the driver realize a specified brush for a specified surface.
-
-
-## -syntax
-
-
-````
-BOOL APIENTRY OEMRealizeBrush(
-   BRUSHOBJ *pbo,
-   SURFOBJ  *psoTarget,
-   SURFOBJ  *psoPattern,
-   SURFOBJ  *psoMask,
-   XLATEOBJ *pxlo,
-   ULONG    iHatch
-);
-````
 
 
 ## -parameters

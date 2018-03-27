@@ -52,16 +52,6 @@ req.typenames: TOKEN_TYPE
 The <b>FsRtlIsEcpFromUserMode</b> routine determines whether an extra create parameter (ECP) context structure originated from user mode. 
 
 
-## -syntax
-
-
-````
-BOOLEAN FsRtlIsEcpFromUserMode(
-  _In_ PVOID EcpContext
-);
-````
-
-
 ## -parameters
 
 

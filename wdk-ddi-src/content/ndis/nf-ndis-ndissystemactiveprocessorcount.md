@@ -55,16 +55,6 @@ The
   local computer.
 
 
-## -syntax
-
-
-````
-ULONG NdisSystemActiveProcessorCount(
-   PKAFFINITY ActiveProcessors
-);
-````
-
-
 ## -parameters
 
 
@@ -96,11 +86,11 @@ An NDIS driver might call the
     <b>NdisSystemActiveProcessorCount</b> function during initialization before it allocates resources.
 
 <b>NdisSystemActiveProcessorCount</b> is similar to the 
-    <a href="..\wdm\nf-wdm-kequeryactiveprocessorcount.md">
+    <a href="https://msdn.microsoft.com/4369ad33-ba4a-45db-9a41-e77d6c55da53">
     KeQueryActiveProcessorCount</a> function.
 
 <div class="alert"><b>Note</b>  NDIS drivers should not use 
-    <a href="..\ndis\nf-ndis-ndissystemprocessorcount.md">NdisSystemProcessorCount</a> to
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff564579">NdisSystemProcessorCount</a> to
     retrieve the number of currently active processors,</div>
 <div> </div>
 <div class="alert"><b>Note</b>  <b>NdisSystemActiveProcessorCount</b> might not map processors to the bits in the returned 
@@ -124,22 +114,22 @@ The Windows Server 2008 Enterprise operating system and the Windows Server 2008 
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551830">KAFFINITY</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisgroupactiveprocessorcount.md">NdisGroupActiveProcessorCount</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552985">KeQueryActiveProcessorCount</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndissystemprocessorcount.md">NdisSystemProcessorCount</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562685">NdisGroupActiveProcessorCount</a>
 
 
 
-<a href="..\wdm\nf-wdm-kequeryactiveprocessorcount.md">KeQueryActiveProcessorCount</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564579">NdisSystemProcessorCount</a>
  
 
  

@@ -53,26 +53,6 @@ The
   WDI_FRAME_METADATA structure defines the frame metadata.
 
 
-## -syntax
-
-
-````
-typedef struct _WDI_FRAME_METADATA {
-  LIST_ENTRY       Linkage;
-  PNET_BUFFER_LIST pNBL;
-  WDI_FRAME_ID     FrameID;
-  UINT16           wPad;
-#ifdef _WIN64
-  UINT32           dPad;
-#endif 
-  union {
-    WDI_TX_METADATA txMetaData;
-    WDI_RX_METADATA rxMetaData;
-  } u;
-} WDI_FRAME_METADATA, *PWDI_FRAME_METADATA;
-````
-
-
 ## -struct-fields
 
 
@@ -120,7 +100,14 @@ RX metadata.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554296">LIST_ENTRY</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a>
 
 
 
@@ -128,18 +115,11 @@ RX metadata.
 
 
 
-<a href="..\dot11wdi\ns-dot11wdi-_wdi_rx_metadata.md">WDI_RX_METADATA</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn926112">WDI_RX_METADATA</a>
 
 
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
-
-
-
-<a href="..\dot11wdi\ns-dot11wdi-_wdi_tx_metadata.md">WDI_TX_METADATA</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn898195">WDI_TX_METADATA</a>
  
 
  

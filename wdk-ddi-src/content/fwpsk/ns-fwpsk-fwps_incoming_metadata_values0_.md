@@ -51,72 +51,8 @@ req.typenames: FWPS_INCOMING_METADATA_VALUES0
 
 The <b>FWPS_INCOMING_METADATA_VALUES0</b> structure defines metadata values that the filter engine passes to
   a callout's 
-  <a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a> callout function.
+  <a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a> callout function.
 <div class="alert"><b>Note</b>  <b>FWPS_INCOMING_METADATA_VALUES0</b> is a specific version of <b>FWPS_INCOMING_METADATA_VALUES</b>. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
-
-## -syntax
-
-
-````
-typedef struct FWPS_INCOMING_METADATA_VALUES0_ {
-  UINT32                          currentMetadataValues;
-  UINT32                          flags;
-  UINT64                          reserved;
-  FWPS_DISCARD_METADATA0          discardMetadata;
-  UINT64                          flowHandle;
-  UINT32                          ipHeaderSize;
-  UINT32                          transportHeaderSize;
-  FWP_BYTE_BLOB                   *processPath;
-  UINT64                          token;
-  UINT64                          processId;
-  UINT32                          sourceInterfaceIndex;
-  UINT32                          destinationInterfaceIndex;
-  ULONG                           compartmentId;
-  FWPS_INBOUND_FRAGMENT_METADATA0 fragmentMetadata;
-  ULONG                           pathMtu;
-  HANDLE                          completionHandle;
-  UINT64                          transportEndpointHandle;
-  SCOPE_ID                        remoteScopeId;
-  WSACMSGHDR                      *controlData;
-  ULONG                           controlDataLength;
-  FWP_DIRECTION                   packetDirection;
-#if (NTDDI_VERSION >= NTDDI_WIN6SP1)
-  PVOID                           headerIncludeHeader;
-  ULONG                           headerIncludeHeaderLength;
-#if (NTDDI_VERSION >= NTDDI_WIN7)
-  IP_ADDRESS_PREFIX               destinationPrefix;
-  UINT16                          frameLength;
-  UINT64                          parentEndpointHandle;
-  UINT32                          icmpIdAndSequence;
-  DWORD                           localRedirectTargetPID;
-  SOCKADDR                        *originalDestination;
-#if (NTDDI_VERSION >= NTDDI_WIN8)
-  HANDLE                          redirectRecords;
-  UINT32                          currentL2MetadataValues;
-  UINT32                          l2Flags;
-  UINT32                          ethernetMacHeaderSize;
-  UINT32                          wiFiOperationMode;
-#if (NDIS_SUPPORT_NDIS630)
-  NDIS_SWITCH_PORT_ID             vSwitchSourcePortId;
-  NDIS_SWITCH_NIC_INDEX           vSwitchSourceNicIndex;
-  NDIS_SWITCH_PORT_ID             vSwitchDestinationPortId;
-#else 
-  UINT32                          padding0;
-  USHORT                          padding1;
-  UINT32                          padding2;
-#endif 
-  HANDLE                          vSwitchPacketContext;
-  UINT32                          l2ConnectionProfileIndex;
-#endif 
-#endif 
-#endif 
-#if (NTDDI_VERSION >= NTDDI_WIN8)
-  PVOID                           subProcessTag;
-  UINT64                          Reserved1;
-#endif 
-} FWPS_INCOMING_METADATA_VALUES0;
-````
-
 
 ## -struct-fields
 
@@ -408,7 +344,7 @@ The original destination of a redirected connection.
 
 ### -field redirectRecords
 
-A redirect records handle that can be passed to the <a href="..\fwpsk\nf-fwpsk-fwpsqueryconnectionredirectstate0.md">FwpsQueryConnectionRedirectState0</a> function to get the redirect state. 
+A redirect records handle that can be passed to the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439677">FwpsQueryConnectionRedirectState0</a> function to get the redirect state. 
 
 <div class="alert"><b>Note</b>  Available only in <i>Windows 8</i> and later versions of Windows.</div>
 <div> </div>
@@ -640,7 +576,7 @@ A the layer 2 connection profile index.
 
 
 The filter engine passes a pointer to an FWPS_INCOMING_METADATA_VALUES0 structure to a callout's 
-    <a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a> callout function. The metadata
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a> callout function. The metadata
     values contained in the structure are not processed by the filter engine but are supplied to a callout's 
     <i>classifyFn</i> callout function to provide
     additional information.
@@ -683,11 +619,14 @@ The callout driver must follow these guidelines when it inspects the packet:
 
 ## -see-also
 
-<a href="..\fwpsk\nf-fwpsk-fwpsqueryconnectionredirectstate0.md">FwpsQueryConnectionRedirectState0</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544964">CMSGHDR</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551235">FWPS_DISCARD_METADATA0</a>
 
 
 
@@ -696,7 +635,7 @@ The callout driver must follow these guidelines when it inspects the packet:
 
 
 
-<a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552427">FWP_BYTE_BLOB</a>
 
 
 
@@ -704,18 +643,15 @@ The callout driver must follow these guidelines when it inspects the packet:
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552427">FWP_BYTE_BLOB</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439677">FwpsQueryConnectionRedirectState0</a>
 
 
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551235">FWPS_DISCARD_METADATA0</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a>
  
 
  

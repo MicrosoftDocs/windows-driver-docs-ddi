@@ -54,25 +54,6 @@ The FWPS_FIELDS_STREAM_V4 enumeration type specifies the data field identifiers 
   <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa366492">run-time filtering layers</a>.
 
 
-## -syntax
-
-
-````
-typedef enum FWPS_FIELDS_STREAM_V4_ { 
-  FWPS_FIELD_STREAM_V4_IP_LOCAL_ADDRESS,
-  FWPS_FIELD_STREAM_V4_IP_LOCAL_ADDRESS_TYPE,
-  FWPS_FIELD_STREAM_V4_IP_REMOTE_ADDRESS,
-  FWPS_FIELD_STREAM_V4_IP_LOCAL_PORT,
-  FWPS_FIELD_STREAM_V4_IP_REMOTE_PORT,
-  FWPS_FIELD_STREAM_V4_DIRECTION,
-#if (NTDDI_VERSION >= NTDDI_WIN6SP1
-  FWPS_FIELD_STREAM_V4_FLAGS,
-#endif 
-  FWPS_FIELD_STREAM_V4_MAX
-} FWPS_FIELDS_STREAM_V4;
-````
-
-
 ## -enum-fields
 
 
@@ -141,10 +122,10 @@ The maximum value for this enumeration. This value might change in future versio
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568757">NL_ADDRESS_TYPE</a>
-
-
-
  
 
  

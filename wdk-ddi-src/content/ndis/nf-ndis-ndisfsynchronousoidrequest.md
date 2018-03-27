@@ -53,17 +53,6 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 <div class="alert"><b>Warning</b>  In Windows 10, version 1709, Synchronous OID requests are supported only for miniport and protocol drivers. Filter drivers cannot make Synchronous OID request calls in Windows 10, version 1709.</div><div> </div>This function is reserved.
 
 
-## -syntax
-
-
-````
-NDIS_STATUS NdisFSynchronousOidRequest(
-  _In_ NDIS_HANDLE      NdisFilterModuleHandle,
-  _In_ NDIS_OID_REQUEST OidRequest
-);
-````
-
-
 ## -parameters
 
 

@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 The WWAN_USSD_SESSION_STATE enumeration lists the different types of USSD session states.
 
 
-## -syntax
-
-
-````
-typedef enum _WWAN_USSD_SESSION_STATE { 
-  WwanUssdSessionStateNew       = 0,
-  WwanUssdSessionStateExisting  = 1
-} WWAN_USSD_SESSION_STATE;
-````
-
-
 ## -enum-fields
 
 

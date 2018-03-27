@@ -52,18 +52,6 @@ req.typenames: RILSETSYSTEMSELECTIONPREFSFLAG
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef enum _RILSETSYSTEMSELECTIONPREFSFLAG { 
-  RIL_SSSPFLAG_APPLYIMMEDIATELY,
-  RIL_SSSPFLAG_ENFORCESCAN,
-  RIL_SSSPFLAG_ALL
-} RILSETSYSTEMSELECTIONPREFSFLAG;
-````
-
-
 ## -enum-fields
 
 

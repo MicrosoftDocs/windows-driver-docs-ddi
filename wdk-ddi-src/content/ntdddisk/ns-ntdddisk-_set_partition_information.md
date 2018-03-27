@@ -52,16 +52,6 @@ req.typenames: SET_PARTITION_INFORMATION, *PSET_PARTITION_INFORMATION
 SET_PARTITION_INFORMATION is used with IOCTL_DISK_SET_PARTITION_INFO to change the partition type of a specified Master Boot Record (MBR) disk partition.
 
 
-## -syntax
-
-
-````
-typedef struct _SET_PARTITION_INFORMATION {
-  UCHAR PartitionType;
-} SET_PARTITION_INFORMATION, *PSET_PARTITION_INFORMATION;
-````
-
-
 ## -struct-fields
 
 
@@ -69,7 +59,7 @@ typedef struct _SET_PARTITION_INFORMATION {
 
 ### -field PartitionType
 
-Indicates the partition type. IOCTL_DISK_SET_PARTITION_INFO uses this value to set the partition type. See <a href="..\ntdddisk\ns-ntdddisk-_partition_information.md">PARTITION_INFORMATION</a> for a list of system-defined GPT partition types.
+Indicates the partition type. IOCTL_DISK_SET_PARTITION_INFO uses this value to set the partition type. See <a href="https://msdn.microsoft.com/library/windows/hardware/ff563751">PARTITION_INFORMATION</a> for a list of system-defined GPT partition types.
 
 
 ## -remarks
@@ -83,19 +73,18 @@ The single byte unsigned value, <i>PartitionType</i>, contained in this structur
 
 ## -see-also
 
-<a href="..\ntdddisk\ns-ntdddisk-_set_partition_information_ex.md">SET_PARTITION_INFORMATION_EX</a>
 
 
 
-<a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_set_partition_info.md">IOCTL_DISK_SET_PARTITION_INFO</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560413">IOCTL_DISK_SET_PARTITION_INFO</a>
 
 
 
-<a href="..\ntddk\nf-ntddk-ioreadpartitiontable.md">IoReadPartitionTable</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561452">IoReadPartitionTable</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566198">SET_PARTITION_INFORMATION_MBR</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566194">SET_PARTITION_INFORMATION_EX</a>
 
 
 
@@ -103,6 +92,7 @@ The single byte unsigned value, <i>PartitionType</i>, contained in this structur
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566198">SET_PARTITION_INFORMATION_MBR</a>
  
 
  

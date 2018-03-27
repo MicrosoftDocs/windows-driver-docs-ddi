@@ -56,19 +56,6 @@ req.product: Windows 10 or later.
 The <b>WdfDeviceInitRegisterPowerPolicyStateChangeCallback</b> method registers a driver-supplied event callback function that the framework calls when a device's power policy state machine changes state.
 
 
-## -syntax
-
-
-````
-NTSTATUS WdfDeviceInitRegisterPowerPolicyStateChangeCallback(
-  _In_ PWDFDEVICE_INIT                                       DeviceInit,
-  _In_ WDF_DEVICE_POWER_POLICY_STATE                         PowerPolicyState,
-  _In_ PFN_WDF_DEVICE_POWER_POLICY_STATE_CHANGE_NOTIFICATION EvtDevicePowerPolicyStateChange,
-  _In_ ULONG                                                 CallbackTypes
-);
-````
-
-
 ## -parameters
 
 
@@ -81,17 +68,17 @@ A caller-supplied pointer to a <a href="https://msdn.microsoft.com/library/windo
 
 ### -param PowerPolicyState [in]
 
-A <a href="..\wdfdevice\ne-wdfdevice-_wdf_device_power_policy_state.md">WDF_DEVICE_POWER_POLICY_STATE</a> enumerator that identifies the power policy machine state for which the driver is requesting notification.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff551275">WDF_DEVICE_POWER_POLICY_STATE</a> enumerator that identifies the power policy machine state for which the driver is requesting notification.
 
 
 ### -param EvtDevicePowerPolicyStateChange [in]
 
-A caller-supplied pointer to the driver's <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_power_policy_state_change_notification.md">EvtDevicePowerPolicyStateChange</a> event callback function.
+A caller-supplied pointer to the driver's <a href="https://msdn.microsoft.com/91432773-3255-4feb-a6f4-c24da4486703">EvtDevicePowerPolicyStateChange</a> event callback function.
 
 
 ### -param CallbackTypes [in]
 
-An ORed combination of <a href="..\wdfdevice\ne-wdfdevice-_wdf_state_notification_type.md">WDF_STATE_NOTIFICATION_TYPE</a>-typed enumerators.
+An ORed combination of <a href="https://msdn.microsoft.com/library/windows/hardware/ff552513">WDF_STATE_NOTIFICATION_TYPE</a>-typed enumerators.
 
 
 ## -returns
@@ -137,7 +124,7 @@ There is insufficient memory to complete the operation.
 
 
 
-If your driver calls <b>WdfDeviceInitRegisterPowerPolicyStateChangeCallback</b>, it must do so before it calls <a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a>.
+If your driver calls <b>WdfDeviceInitRegisterPowerPolicyStateChangeCallback</b>, it must do so before it calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff545926">WdfDeviceCreate</a>.
 
 For more information about <b>WdfDeviceInitRegisterPowerPolicyStateChangeCallback</b>, see <a href="https://msdn.microsoft.com/5ef307c6-0310-4a83-a63f-3a6d96782013">State Machines in the Framework</a>.
 

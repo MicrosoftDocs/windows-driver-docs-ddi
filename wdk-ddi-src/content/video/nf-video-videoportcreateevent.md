@@ -53,19 +53,6 @@ req.product: Windows 10 or later.
 The <b>VideoPortCreateEvent</b> function creates an event object.
 
 
-## -syntax
-
-
-````
-VP_STATUS VideoPortCreateEvent(
-  _In_  PVOID  HwDeviceExtension,
-  _In_  ULONG  EventFlag,
-  _In_  PVOID  Unused,
-  _Out_ PEVENT *ppEvent
-);
-````
-
-
 ## -parameters
 
 
@@ -141,10 +128,10 @@ When a notification event is set to the signaled state, all threads that were wa
 
 ## -see-also
 
-<a href="..\video\nf-video-videoportdeleteevent.md">VideoPortDeleteEvent</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570292">VideoPortDeleteEvent</a>
  
 
  

@@ -52,17 +52,6 @@ req.typenames: GetFcpTargetMapping_IN, *PGetFcpTargetMapping_IN
 The GetFcpTargetMapping_IN structure is used to report the output parameter data of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554948">GetFcpTargetMapping</a> WMI method to the WMI client.
 
 
-## -syntax
-
-
-````
-typedef struct _GetFcpTargetMapping_IN {
-  UCHAR HbaPortWWN[8];
-  ULONG InEntryCount;
-} GetFcpTargetMapping_IN, *PGetFcpTargetMapping_IN;
-````
-
-
 ## -struct-fields
 
 
@@ -91,7 +80,6 @@ The WMI tool suite generates a declaration of the GetFcpTargetMapping_IN structu
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562509">MSFC_HBAFCPInfo WMI Class</a>
 
 
 
@@ -99,6 +87,7 @@ The WMI tool suite generates a declaration of the GetFcpTargetMapping_IN structu
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562509">MSFC_HBAFCPInfo WMI Class</a>
  
 
  

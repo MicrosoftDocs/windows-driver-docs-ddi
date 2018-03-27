@@ -55,16 +55,6 @@ req.typenames: D3DKMT_DRIVERVERSION
 The <b>D3DKMTDestroySynchronizationObject</b> function destroys a kernel-mode synchronization object.
 
 
-## -syntax
-
-
-````
-NTSTATUS D3DKMTDestroySynchronizationObject(
-  _In_ const D3DKMT_DESTROYSYNCHRONIZATIONOBJECT *pData
-);
-````
-
-
 ## -parameters
 
 
@@ -79,7 +69,7 @@ TBD
 
 #### - pData [in]
 
-A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_destroysynchronizationobject.md">D3DKMT_DESTROYSYNCHRONIZATIONOBJECT</a> structure that contains the handle to the synchronization object to destroy.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff547898">D3DKMT_DESTROYSYNCHRONIZATIONOBJECT</a> structure that contains the handle to the synchronization object to destroy.
 
 
 ## -returns
@@ -127,10 +117,10 @@ This function might also return other <b>NTSTATUS</b> values.
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_destroysynchronizationobject.md">D3DKMT_DESTROYSYNCHRONIZATIONOBJECT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547898">D3DKMT_DESTROYSYNCHRONIZATIONOBJECT</a>
  
 
  

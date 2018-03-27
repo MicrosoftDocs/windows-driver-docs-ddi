@@ -49,17 +49,7 @@ req.typenames: DVD_DISK_KEY_DESCRIPTOR, *PDVD_DISK_KEY_DESCRIPTOR
 ## -description
 
 
-The DVD_DISK_KEY_DESCRIPTOR structure is used in conjunction with the <a href="..\ntddcdvd\ni-ntddcdvd-ioctl_dvd_read_structure.md">IOCTL_DVD_READ_STRUCTURE</a> request to retrieve a DVD disc key descriptor. 
-
-
-## -syntax
-
-
-````
-typedef struct _DVD_DISK_KEY_DESCRIPTOR {
-  UCHAR DiskKeyData[2048];
-} DVD_DISK_KEY_DESCRIPTOR, *PDVD_DISK_KEY_DESCRIPTOR;
-````
+The DVD_DISK_KEY_DESCRIPTOR structure is used in conjunction with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560426">IOCTL_DVD_READ_STRUCTURE</a> request to retrieve a DVD disc key descriptor. 
 
 
 ## -struct-fields
@@ -74,10 +64,10 @@ Pointer to a buffer containing the disc key data obfuscated by the bus key.
 
 ## -see-also
 
-<a href="..\ntddcdvd\ni-ntddcdvd-ioctl_dvd_read_structure.md">IOCTL_DVD_READ_STRUCTURE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560426">IOCTL_DVD_READ_STRUCTURE</a>
  
 
  

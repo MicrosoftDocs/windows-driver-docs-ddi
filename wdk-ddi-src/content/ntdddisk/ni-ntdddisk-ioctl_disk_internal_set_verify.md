@@ -46,11 +46,6 @@ req.typenames: DETECTION_TYPE
 # IOCTL_DISK_INTERNAL_SET_VERIFY IOCTL
 
 
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
-
 ## -description
 
 
@@ -110,10 +105,10 @@ The <b>Status</b> field is set to STATUS_SUCCESS. If the mode of the requester i
 
 ## -see-also
 
-<a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_internal_clear_verify.md">IOCTL_DISK_INTERNAL_CLEAR_VERIFY</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560378">IOCTL_DISK_INTERNAL_CLEAR_VERIFY</a>
  
 
  

@@ -52,16 +52,6 @@ req.typenames: ClearPathHealthCounters_IN, *PClearPathHealthCounters_IN
 The ClearPathHealthCounters_IN structure is used to provide an input parameter to the ClearPathHealthCounters method.
 
 
-## -syntax
-
-
-````
-typedef struct _ClearPathHealthCounters_IN {
-  ULONGLONG PathID;
-} ClearPathHealthCounters_IN, *PClearPathHealthCounters_IN;
-````
-
-
 ## -struct-fields
 
 

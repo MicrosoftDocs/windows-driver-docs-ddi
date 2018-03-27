@@ -53,19 +53,6 @@ req.product: Windows 10 or later.
 The STOR_EVENT_ASSOCIATION_ENUM enumerator specifies the type of device that is associated with an event.
 
 
-## -syntax
-
-
-````
-typedef enum _STOR_EVENT_ASSOCIATION_ENUM { 
-  StorEventAdapterAssociation  = 0,
-  StorEventLunAssociation      = 1,
-  StorEventTargetAssociation   = 2,
-  StorEventInvalidAssociation  = 3
-} STOR_EVENT_ASSOCIATION_ENUM;
-````
-
-
 ## -enum-fields
 
 

@@ -57,22 +57,6 @@ The TCP_OFFLOAD_STATS structure contains statistics that an offload target suppl
   <a href="https://msdn.microsoft.com/library/windows/hardware/ff569801">OID_TCP6_OFFLOAD_STATS</a>.
 
 
-## -syntax
-
-
-````
-typedef struct _TCP_OFFLOAD_STATS {
-  ULONG64 InSegments;
-  ULONG64 OutSegments;
-  ULONG   CurrentlyEstablished;
-  ULONG   ResetEstablished;
-  ULONG   RetransmittedSegments;
-  ULONG   InErrors;
-  ULONG   OutResets;
-} TCP_OFFLOAD_STATS, *PTCP_OFFLOAD_STATS;
-````
-
-
 ## -struct-fields
 
 
@@ -148,7 +132,7 @@ If an offload target's TCP chimney capabilities are enabled (see
 <ul>
 <li>
 The offload target can indicate the packet through the non-offload interface by calling the 
-      <a href="..\ndis\nf-ndis-ndismindicatereceivenetbufferlists.md">
+      <a href="https://msdn.microsoft.com/b87dba3e-c18f-4ea2-8bd5-ec3cdafc534b">
       NdisMIndicateReceiveNetBufferLists</a> function. In this case, the offload target must not increment
       the 
       <b>InErrors</b> counter. This is the recommended approach.
@@ -183,14 +167,14 @@ All of the counters that supply the values for the TCP_OFFLOAD_STATS structure w
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569800">OID_TCP4_OFFLOAD_STATS</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569801">OID_TCP6_OFFLOAD_STATS</a>
-
-
-
  
 
  

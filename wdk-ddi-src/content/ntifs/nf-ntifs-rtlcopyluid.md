@@ -52,17 +52,6 @@ req.typenames: TOKEN_TYPE
 The <b>RtlCopyLuid</b> routine copies a locally unique identifier (LUID) to a buffer. 
 
 
-## -syntax
-
-
-````
-VOID RtlCopyLuid(
-  _Out_ PLUID DestinationLuid,
-  _In_  PLUID SourceLuid
-);
-````
-
-
 ## -parameters
 
 
@@ -100,11 +89,10 @@ For more information about security and access control, see the documentation on
 
 ## -see-also
 
-<a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-sequeryauthenticationidtoken.md">SeQueryAuthenticationIdToken</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557080">LUID</a>
 
 
 
@@ -112,6 +100,7 @@ For more information about security and access control, see the documentation on
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556688">SeQueryAuthenticationIdToken</a>
  
 
  

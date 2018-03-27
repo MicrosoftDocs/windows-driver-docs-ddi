@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 The <b>VideoPortReadStateEvent</b> function returns the current state of a given event object: signaled or nonsignaled.
 
 
-## -syntax
-
-
-````
-LONG VideoPortReadStateEvent(
-  _In_ PVOID  HwDeviceExtension,
-  _In_ PEVENT pEvent
-);
-````
-
-
 ## -parameters
 
 

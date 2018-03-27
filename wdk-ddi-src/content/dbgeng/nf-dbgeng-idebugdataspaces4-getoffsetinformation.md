@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -50,21 +50,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>GetOffsetInformation</b> method provides general information about an address in a process's data space.
-
-
-## -syntax
-
-
-````
-HRESULT GetOffsetInformation(
-  [in]            ULONG   Space,
-  [in]            ULONG   Which,
-  [in]            ULONG64 Offset,
-  [out, optional] PVOID   Buffer,
-  [in]            ULONG   BufferSize,
-  [out, optional] PULONG  InfoSize
-);
-````
 
 
 ## -parameters

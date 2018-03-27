@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,16 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>GetCurrentProcessHandle</b> function returns the system handle for the current process.
-
-
-## -syntax
-
-
-````
-__inline VOID GetCurrentProcessHandle(
-   PHANDLE hp
-);
-````
 
 
 ## -parameters

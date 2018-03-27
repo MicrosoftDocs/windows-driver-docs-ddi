@@ -52,19 +52,6 @@ req.typenames: DXVAHDDDI_FILTER_RANGE_DATA
 The <b>DXVAHDDDI_FILTER_RANGE_DATA</b> structure describes a filter range.
 
 
-## -syntax
-
-
-````
-typedef struct _DXVAHDDDI_FILTER_RANGE_DATA {
-  INT   Minimum;
-  INT   Maximum;
-  INT   Default;
-  FLOAT Multiplier;
-} DXVAHDDDI_FILTER_RANGE_DATA;
-````
-
-
 ## -struct-fields
 
 

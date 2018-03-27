@@ -50,27 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-Stores the frame and microframe numbers and the calculated system QPC values. This structure is used in the <a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_frame_number_and_qpc_for_time_sync.md">IOCTL_USB_GET_FRAME_NUMBER_AND_QPC_FOR_TIME_SYNC</a> request.
-
-
-## -syntax
-
-
-````
-typedef struct _USB_FRAME_NUMBER_AND_QPC_FOR_TIME_SYNC_INFORMATION {
-  HANDLE        TimeTrackingHandle;
-  ULONG         InputFrameNumber;
-  ULONG         InputMicroFrameNumber;
-  LARGE_INTEGER QueryPerformanceCounterAtInputFrameOrMicroFrame;
-  LARGE_INTEGER QueryPerformanceCounterFrequency;
-  ULONG         PredictedAccuracyInMicroSeconds;
-  ULONG         CurrentGenerationID;
-  LARGE_INTEGER CurrentQueryPerformanceCounter;
-  ULONG         CurrentHardwareFrameNumber;
-  ULONG         CurrentHardwareMicroFrameNumber;
-  ULONG         CurrentUSBFrameNumber;
-} USB_FRAME_NUMBER_AND_QPC_FOR_TIME_SYNC_INFORMATION, *PUSB_FRAME_NUMBER_AND_QPC_FOR_TIME_SYNC_INFORMATION;
-````
+Stores the frame and microframe numbers and the calculated system QPC values. This structure is used in the <a href="https://msdn.microsoft.com/701A7ED2-F35F-4B6B-BC91-ADCF60E294D2">IOCTL_USB_GET_FRAME_NUMBER_AND_QPC_FOR_TIME_SYNC</a> request.
 
 
 ## -struct-fields
@@ -80,7 +60,7 @@ typedef struct _USB_FRAME_NUMBER_AND_QPC_FOR_TIME_SYNC_INFORMATION {
 
 ### -field TimeTrackingHandle
 
-The time racking handle received in the previous <a href="..\usbioctl\ni-usbioctl-ioctl_usb_stop_tracking_for_time_sync.md">IOCTL_USB_STOP_TRACKING_FOR_TIME_SYNC</a> request.
+The time racking handle received in the previous <a href="https://msdn.microsoft.com/232AC14B-CE3C-44AC-9428-5594993CD749">IOCTL_USB_STOP_TRACKING_FOR_TIME_SYNC</a> request.
 
 
 ### -field InputFrameNumber
@@ -143,5 +123,5 @@ A 3-bit value of the current hardware micro frame number that is  directly read 
 
 ### -field CurrentUSBFrameNumber
 
-A 32-bit USB frame number value returned by <a href="..\usb\ns-usb-_urb_get_current_frame_number.md">_URB_GET_CURRENT_FRAME_NUMBER</a>.
+A 32-bit USB frame number value returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff540401">_URB_GET_CURRENT_FRAME_NUMBER</a>.
 

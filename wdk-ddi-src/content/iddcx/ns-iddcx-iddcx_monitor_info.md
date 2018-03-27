@@ -53,20 +53,6 @@ Gives information about the current monitor and its connection type.
              
 
 
-## -syntax
-
-
-````
-typedef struct IDDCX_MONITOR_INFO {
-  UINT                                  Size;
-  DISPLAYCONFIG_VIDEO_OUTPUT_TECHNOLOGY MonitorType;
-  UINT                                  ConnectorIndex;
-  IDDCX_MONITOR_DESCRIPTION             MonitorDescription;
-  GUID                                  MonitorContainerId;
-} IDDCX_MONITOR_INFO, *IDDCX_MONITOR_INFO;
-````
-
-
 ## -struct-fields
 
 
@@ -90,7 +76,7 @@ The monitor connector type of the monitor
 
                      This is a zero-based unique identifier for this connector. It should be unique for this adapter and the value should not change for this connector across system reboot or driver upgrade. 
 
-<div class="alert"><b>Note</b>  The value has to be between 0 and the <a href="..\iddcx\ns-iddcx-iddcx_adapter_caps.md">IDDCX_ADAPTER_CAPS</a> value MaxMonitorsSupported minus 1.
+<div class="alert"><b>Note</b>  The value has to be between 0 and the <a href="https://msdn.microsoft.com/library/windows/hardware/mt761932">IDDCX_ADAPTER_CAPS</a> value MaxMonitorsSupported minus 1.
                  </div>
 <div> </div>
 

@@ -49,20 +49,7 @@ req.typenames: DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT2
 ## -description
 
 
-<b>DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT2</b> is passed to the  <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_checkmultiplaneoverlaysupport2.md">DxgkDdiCheckMultiPlaneOverlaySupport2</a> function to determine whether a specific multi-plane overlay configuration is supported. 
-
-
-## -syntax
-
-
-````
-typedef struct _DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT2 {
-  UINT                                              PlaneCount;
-  DXGK_MULTIPLANE_OVERLAY_PLANE_WITH_SOURCE*        pPlanes;
-  BOOL                                              Supported;
-  DXGK_CHECK_MULTIPLANE_OVERLAY_SUPPORT_RETURN_INFO ReturnInfo;
-} DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT2;
-````
+<b>DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT2</b> is passed to the  <a href="https://msdn.microsoft.com/A453B59F-0DD1-4FFF-A0E6-09494211780F">DxgkDdiCheckMultiPlaneOverlaySupport2</a> function to determine whether a specific multi-plane overlay configuration is supported. 
 
 
 ## -struct-fields
@@ -77,7 +64,7 @@ The number of planes to be enabled.
 
 ### -field pPlanes
 
-A pointer to a <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_multiplane_overlay_plane_with_source.md">DXGK_MULTIPLANE_OVERLAY_PLANE_WITH_SOURCE</a> 
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn914479">DXGK_MULTIPLANE_OVERLAY_PLANE_WITH_SOURCE</a> 
                                                                         structure that specifies support attributes that the hardware
                                                                         provides for multi-plane overlays.
 
@@ -94,14 +81,14 @@ Specifies additional information.
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_multiplane_overlay_plane_with_source.md">DXGK_MULTIPLANE_OVERLAY_PLANE_WITH_SOURCE</a>
 
 
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_checkmultiplaneoverlaysupport2.md">DxgkDdiCheckMultiPlaneOverlaySupport2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn914479">DXGK_MULTIPLANE_OVERLAY_PLANE_WITH_SOURCE</a>
 
 
 
+<a href="https://msdn.microsoft.com/A453B59F-0DD1-4FFF-A0E6-09494211780F">DxgkDdiCheckMultiPlaneOverlaySupport2</a>
  
 
  

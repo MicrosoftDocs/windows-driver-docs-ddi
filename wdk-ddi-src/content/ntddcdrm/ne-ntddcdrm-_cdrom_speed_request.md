@@ -52,17 +52,6 @@ req.typenames: CDROM_SPEED_REQUEST, *PCDROM_SPEED_REQUEST
 The CDROM_SPEED_REQUEST enumeration indicates which command that the CD-ROM class driver will use to set the spindle speed of a CD-ROM drive.
 
 
-## -syntax
-
-
-````
-typedef enum _CDROM_SPEED_REQUEST { 
-  CdromSetSpeed      = 0,
-  CdromSetStreaming  = 1
-} CDROM_SPEED_REQUEST, *PCDROM_SPEED_REQUEST;
-````
-
-
 ## -enum-fields
 
 
@@ -80,18 +69,18 @@ The CD-ROM class driver will use the SET STREAMING command to set the spindle sp
 
 ## -see-also
 
-<a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_set_speed.md">IOCTL_CDROM_SET_SPEED</a>
 
 
 
-<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_set_speed.md">CDROM_SET_SPEED</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551368">CDROM_SET_SPEED</a>
 
 
 
-<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_set_streaming.md">CDROM_SET_STREAMING</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551369">CDROM_SET_STREAMING</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559381">IOCTL_CDROM_SET_SPEED</a>
  
 
  

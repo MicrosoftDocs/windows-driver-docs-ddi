@@ -46,11 +46,6 @@ req.typenames: HFP_BYPASS_CODEC_ID_V1, *PHFP_BYPASS_CODEC_ID_V1
 # IOCTL_BTH_HCI_VENDOR_COMMAND IOCTL
 
 
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
-
 ## -description
 
 
@@ -68,7 +63,7 @@ req.typenames: HFP_BYPASS_CODEC_ID_V1, *PHFP_BYPASS_CODEC_ID_V1
 
 The 
       <b>AssociatedIrp.SystemBuffer</b> member points to a 
-      <a href="..\bthioctl\ns-bthioctl-_bth_vendor_specific_command.md">BTH_VENDOR_SPECIFIC_COMMAND</a> structure. The structure contains a manufacturer identifier, a link
+      <a href="https://msdn.microsoft.com/library/windows/hardware/ff536656">BTH_VENDOR_SPECIFIC_COMMAND</a> structure. The structure contains a manufacturer identifier, a link
       management protocol (LMP) version, an HCI command header, and the associated vendor command data that
       includes optional pattern data to match an event to the command.
 
@@ -76,12 +71,12 @@ The
 ### -input-buffer-length
 
 The length of a 
-      <a href="..\bthioctl\ns-bthioctl-_bth_vendor_specific_command.md">BTH_VENDOR_SPECIFIC_COMMAND</a> structure. 
+      <a href="https://msdn.microsoft.com/library/windows/hardware/ff536656">BTH_VENDOR_SPECIFIC_COMMAND</a> structure. 
 
 
 ### -output-buffer
 
-The <b>AssociatedIrp.SystemBuffer</b> member points to a buffer that contains the event data returned from the radio. The data is available in the <b>EventInfo</b> member of the <a href="..\bthioctl\ns-bthioctl-_bth_vendor_event_info.md">BTH_VENDOR_EVENT_INFO</a> structure.
+The <b>AssociatedIrp.SystemBuffer</b> member points to a buffer that contains the event data returned from the radio. The data is available in the <b>EventInfo</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff536654">BTH_VENDOR_EVENT_INFO</a> structure.
 
 <div class="code"><span codelanguage=""><table>
 <tr>
@@ -102,7 +97,7 @@ The <b>EventSize</b> member provides the size of the vendor-specific event data 
 
 ### -output-buffer-length
 
-The length of a <a href="..\bthioctl\ns-bthioctl-_bth_vendor_event_info.md">BTH_VENDOR_EVENT_INFO</a> structure.
+The length of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff536654">BTH_VENDOR_EVENT_INFO</a> structure.
 
 
 ### -in-out-buffer
@@ -199,7 +194,7 @@ The IOCTL_BTH_HCI_VENDOR_COMMAND request provides a mechanism that allows vendor
     that are specific to their Bluetooth radios.
 
 The manufacturer ID and link management protocol (LMP) version values that are in the 
-    <a href="..\bthioctl\ns-bthioctl-_bth_vendor_specific_command.md">
+    <a href="https://msdn.microsoft.com/c37844d9-206a-4060-8b46-9afe691fe8f9">
     BTH_VENDOR_SPECIFIC_COMMAND</a> structure help to prevent the sending of vendor-specific commands to
     the wrong radio. The LMP version enables the vendors to send vendor-specific commands to radios that have
     a matching LMP version. If the LMP version is zero, all radios from that vendor will receive the
@@ -209,7 +204,7 @@ Patterns are required if a vendor-specific command does not follow the standard 
     vendor-specific event is generated in response to the vendor-specific command.
 
 If patterns are required, the command should be followed by 
-    <a href="..\bthioctl\ns-bthioctl-_bth_vendor_pattern.md">BTH_VENDOR_PATTERN</a> structures for patterns
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff536655">BTH_VENDOR_PATTERN</a> structures for patterns
     that are present in the event. These patterns allow the Bluetooth driver stack to match vendor-specific
     events with the corresponding vendor-specific commands.
 
@@ -255,18 +250,18 @@ The event that is generated because of this command is copied into the output bu
 
 ## -see-also
 
-<a href="..\bthioctl\ns-bthioctl-_bth_vendor_specific_command.md">BTH_VENDOR_SPECIFIC_COMMAND</a>
 
 
 
-<a href="..\bthioctl\ns-bthioctl-_bth_vendor_pattern.md">BTH_VENDOR_PATTERN</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536641">BTH_COMMAND_HEADER</a>
 
 
 
-<a href="..\bthioctl\ns-bthioctl-_bth_command_header.md">BTH_COMMAND_HEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536655">BTH_VENDOR_PATTERN</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536656">BTH_VENDOR_SPECIFIC_COMMAND</a>
  
 
  

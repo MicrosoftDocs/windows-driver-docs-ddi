@@ -52,16 +52,6 @@ req.typenames: SetBindingSupport_OUT, *PSetBindingSupport_OUT
 The SetBindingSupport_OUT structure is used to report the output parameter data of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565565">SetBindingSupport</a> WMI method to the WMI client.
 
 
-## -syntax
-
-
-````
-typedef struct _SetBindingSupport_OUT {
-  ULONG HBAStatus;
-} SetBindingSupport_OUT, *PSetBindingSupport_OUT;
-````
-
-
 ## -struct-fields
 
 
@@ -83,10 +73,10 @@ The WMI tool suite generates a declaration of the SetBindingSupport_OUT structur
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565565">SetBindingSupport</a>
-
-
-
  
 
  

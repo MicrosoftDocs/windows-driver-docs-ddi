@@ -52,18 +52,6 @@ req.typenames: SECURE_ELEMENT_TYPE, *PSECURE_ELEMENT_TYPE
 Indicates the type of a secure element.
 
 
-## -syntax
-
-
-````
-typedef enum _SECURE_ELEMENT_TYPE { 
-  Integrated  = 0,
-  External    = 1,
-  DeviceHost  = 2
-} SECURE_ELEMENT_TYPE, *PSECURE_ELEMENT_TYPE;
-````
-
-
 ## -enum-fields
 
 

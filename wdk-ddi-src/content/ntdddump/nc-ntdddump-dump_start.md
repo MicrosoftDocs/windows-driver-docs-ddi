@@ -52,19 +52,6 @@ req.typenames: VERIFY_INFORMATION, *PVERIFY_INFORMATION
 The <i>Dump_Start</i> callback routine is called after initializing the dump driver and just before starting the dump write process.
 
 
-## -prototype
-
-
-````
-PDUMP_START Dump_Start;
-
-NTSTATUS Dump_Start(
-  _In_ PFILTER_EXTENSION FilterExtension
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -72,7 +59,7 @@ NTSTATUS Dump_Start(
 
 ### -param FilterExtension [in]
 
-A pointer to a <a href="..\ntdddump\ns-ntdddump-_filter_extension.md">FILTER_EXTENSION</a> structure.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff553862">FILTER_EXTENSION</a> structure.
 
 
 ## -returns
@@ -86,10 +73,10 @@ If the routine succeeds, it must return STATUS_SUCCESS. Otherwise, it must retur
 
 ## -see-also
 
-<a href="..\ntdddump\ns-ntdddump-_filter_extension.md">FILTER_EXTENSION</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553862">FILTER_EXTENSION</a>
  
 
  

@@ -53,17 +53,6 @@ req.typenames:
 The <b>KsAcquireResetValue </b>function retrieves the current reset state from an IOCTL_KS_RESET_STATE IRP.
 
 
-## -syntax
-
-
-````
-NTSTATUS KsAcquireResetValue(
-  _In_  PIRP    Irp,
-  _Out_ KSRESET *ResetValue
-);
-````
-
-
 ## -parameters
 
 

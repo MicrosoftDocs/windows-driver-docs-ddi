@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 The <b>wiasGetRootItem</b> function retrieves the root item context of a specified WIA item.
 
 
-## -syntax
-
-
-````
-HRESULT _stdcall wiasGetRootItem(
-  _In_  BYTE *pWiasContext,
-  _Out_ BYTE **ppWiasContext
-);
-````
-
-
 ## -parameters
 
 
@@ -90,10 +79,10 @@ On success, the function returns S_OK. If the function fails, it returns a stand
 
 ## -see-also
 
-<a href="..\wiamdef\nf-wiamdef-wiasgetdrvitem.md">wiasGetDrvItem</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549243">wiasGetDrvItem</a>
  
 
  

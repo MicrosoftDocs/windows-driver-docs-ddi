@@ -52,17 +52,6 @@ req.typenames: D3DDDIARG_VIDEOPROCESSENDFRAME
 The D3DDDIARG_VIDEOPROCESSENDFRAME structure specifies the Microsoft DirectX Video Accelerator (VA) video process that should stop processing a frame. 
 
 
-## -syntax
-
-
-````
-typedef struct _D3DDDIARG_VIDEOPROCESSENDFRAME {
-  HANDLE hVideoProcess;
-  HANDLE *pHandleComplete;
-} D3DDDIARG_VIDEOPROCESSENDFRAME;
-````
-
-
 ## -struct-fields
 
 
@@ -70,7 +59,7 @@ typedef struct _D3DDDIARG_VIDEOPROCESSENDFRAME {
 
 ### -field hVideoProcess
 
-A handle to the DirectX VA video process device. The user-mode display driver returns this handle in a call to its <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createvideoprocessdevice.md">CreateVideoProcessDevice</a> function.
+A handle to the DirectX VA video process device. The user-mode display driver returns this handle in a call to its <a href="https://msdn.microsoft.com/3149c7d9-0bf7-4355-8f15-821cf6b92f0a">CreateVideoProcessDevice</a> function.
 
 
 ### -field pHandleComplete
@@ -80,14 +69,14 @@ This member is reserved and should be set to <b>NULL</b>.
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_videoprocessendframe.md">VideoProcessEndFrame</a>
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createvideoprocessdevice.md">CreateVideoProcessDevice</a>
+<a href="https://msdn.microsoft.com/3149c7d9-0bf7-4355-8f15-821cf6b92f0a">CreateVideoProcessDevice</a>
 
 
 
+<a href="https://msdn.microsoft.com/a5be6834-bb27-4da0-8802-25a9ca58c101">VideoProcessEndFrame</a>
  
 
  

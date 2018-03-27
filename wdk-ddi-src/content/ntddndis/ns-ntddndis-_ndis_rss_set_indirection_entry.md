@@ -50,22 +50,7 @@ req.typenames: NDIS_RSS_SET_INDIRECTION_ENTRY, *PNDIS_RSS_SET_INDIRECTION_ENTRY
 
 
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
-<div class="alert"><b>Warning</b>  RSSv2 is preview only in Windows 10, version 1709.</div><div> </div>The <b>NDIS_RSS_SET_INDIRECTION_ENTRY</b> structure represents a command to set a single indirection table entry. It is contained in an <a href="..\ntddndis\ns-ntddndis-_ndis_rss_set_indirection_entries.md">NDIS_RSS_SET_INDIRECTION_ENTRIES</a> structure, which is used in the <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-rss-set-indirection-table-entries">OID_GEN_RSS_SET_INDIRECTION_TABLE_ENTRIES</a> OID. OID_GEN_RSS_SET_INDIRECTION_TABLE_ENTRIES is a <a href="https://docs.microsoft.com/windows-hardware/drivers/network/synchronous-oid-request-interface-in-ndis-6-80">Synchronous OID</a> for <a href="https://docs.microsoft.com/windows-hardware/drivers/network/receive-side-scaling-version-2-rssv2-">RSS Version 2 (RSSv2)</a>.
-
-
-## -syntax
-
-
-````
-typedef struct _NDIS_RSS_SET_INDIRECTION_ENTRY {
-  NDIS_NIC_SWITCH_ID       SwitchId;
-  NDIS_NIC_SWITCH_VPORT_ID VPortId;
-  ULONG                    Flags;
-  USHORT                   IndirectionTableIndex;
-  PROCESSOR_NUMBER         TargetProcessorNumber;
-  NDIS_STATUS              EntryStatus;
-} NDIS_RSS_SET_INDIRECTION_ENTRY, *PNDIS_RSS_SET_INDIRECTION_ENTRY;
-````
+<div class="alert"><b>Warning</b>  RSSv2 is preview only in Windows 10, version 1709.</div><div> </div>The <b>NDIS_RSS_SET_INDIRECTION_ENTRY</b> structure represents a command to set a single indirection table entry. It is contained in an <a href="https://msdn.microsoft.com/9AB69EC6-FE78-4242-89C7-D36AA16676BF">NDIS_RSS_SET_INDIRECTION_ENTRIES</a> structure, which is used in the <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-rss-set-indirection-table-entries">OID_GEN_RSS_SET_INDIRECTION_TABLE_ENTRIES</a> OID. OID_GEN_RSS_SET_INDIRECTION_TABLE_ENTRIES is a <a href="https://docs.microsoft.com/windows-hardware/drivers/network/synchronous-oid-request-interface-in-ndis-6-80">Synchronous OID</a> for <a href="https://docs.microsoft.com/windows-hardware/drivers/network/receive-side-scaling-version-2-rssv2-">RSS Version 2 (RSSv2)</a>.
 
 
 ## -struct-fields
@@ -137,11 +122,10 @@ An NDIS_STATUS code indicating the status of the move operation for this entry. 
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_rss_set_indirection_entries.md">NDIS_RSS_SET_INDIRECTION_ENTRIES</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/synchronous-oid-request-interface-in-ndis-6-80">Synchronous OID request interface in NDIS 6.80</a>
+<a href="https://msdn.microsoft.com/9AB69EC6-FE78-4242-89C7-D36AA16676BF">NDIS_RSS_SET_INDIRECTION_ENTRIES</a>
 
 
 
@@ -153,6 +137,7 @@ An NDIS_STATUS code indicating the status of the move operation for this entry. 
 
 
 
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/synchronous-oid-request-interface-in-ndis-6-80">Synchronous OID request interface in NDIS 6.80</a>
  
 
  

@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: wiamindr_lh.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -91,6 +91,9 @@ Periodically called by the WIA mini-driver during a data transfer, to update the
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/0cdc02bf-23fe-4122-8d5f-f42c3c07da8b">Cancellation of Data Transfers in Windows Vista</a>
 
 
@@ -104,9 +107,6 @@ Periodically called by the WIA mini-driver during a data transfer, to update the
 
 
 <a href="http://msdn.microsoft.com/windows/hardware/gg463512">Introduction to WIA 2.0</a>
-
-
-
  
 
  

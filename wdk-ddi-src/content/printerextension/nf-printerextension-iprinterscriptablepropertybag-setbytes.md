@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: printerextension.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,17 +51,6 @@ req.product: Windows 10 or later.
 
 
 Writes a byte array property.
-
-
-## -syntax
-
-
-````
-HRESULT SetBytes(
-  [in] BSTR      bstrName,
-  [in] IDispatch *pdispArray
-);
-````
 
 
 ## -parameters
@@ -106,10 +95,10 @@ A call to <b>SetBytes</b> will throw an exception, if the specified property is 
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprinterscriptablepropertybag.md">IPrinterScriptablePropertyBag</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh973217">IPrinterScriptablePropertyBag</a>
  
 
  

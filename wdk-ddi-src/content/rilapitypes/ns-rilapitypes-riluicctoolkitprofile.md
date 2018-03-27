@@ -53,18 +53,6 @@ req.product: Windows 10 or later.
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef struct _RILUICCTOOLKITPROFILE {
-  DWORD    cbSize;
-  DWORD    dwProfileSize;
-  BYTE [1] bProfile;
-} RILUICCTOOLKITPROFILE, RILUICCTOOLKITPROFILE;
-````
-
-
 ## -struct-fields
 
 

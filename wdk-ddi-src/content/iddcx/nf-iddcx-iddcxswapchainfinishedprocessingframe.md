@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: "_Must_inspect_result_"
 topic_type:
@@ -54,16 +54,6 @@ req.typenames:
                 An OS callback function the driver calls report all GPU command for processing this frame have been queue
 
 
-## -syntax
-
-
-````
-HRESULT IddCxSwapChainFinishedProcessingFrame(
-  _In_ IDDCX_SWAPCHAIN SwapChainObject
-);
-````
-
-
 ## -parameters
 
 
@@ -89,7 +79,7 @@ The swap-chain object whose current frame is being queried.
 
 
 
-If the driver copies the buffer to a staging surface so it can lock and copy the pixel data to the CPU, then the driver should call this callback once the copy from surface to staging surface has been submitted. If the driver does not call this callback the desktop will not update. It is invalid to call <a href="..\iddcx\nf-iddcx-iddcxswapchainreleaseandacquirebuffer.md">IddCxSwapChainReleaseAndAcquireBuffer</a> before calling <b>IddCxSwapChainFinishedProcessingFrame</b>
+If the driver copies the buffer to a staging surface so it can lock and copy the pixel data to the CPU, then the driver should call this callback once the copy from surface to staging surface has been submitted. If the driver does not call this callback the desktop will not update. It is invalid to call <a href="https://msdn.microsoft.com/library/windows/hardware/mt761929">IddCxSwapChainReleaseAndAcquireBuffer</a> before calling <b>IddCxSwapChainFinishedProcessingFrame</b>
 
 
 

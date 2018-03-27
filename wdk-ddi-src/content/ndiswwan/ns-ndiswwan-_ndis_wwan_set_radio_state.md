@@ -53,17 +53,6 @@ The NDIS_WWAN_SET_RADIO_STATE structure represents the power action to take on t
   radio.
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_WWAN_SET_RADIO_STATE {
-  NDIS_OBJECT_HEADER Header;
-  WWAN_RADIO         RadioAction;
-} NDIS_WWAN_SET_RADIO_STATE, *PNDIS_WWAN_SET_RADIO_STATE;
-````
-
-
 ## -struct-fields
 
 
@@ -117,13 +106,13 @@ sizeof(NDIS_WWAN_SET_RADIO_STATE)
  
 
 For more information about these members, see 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>.
 
 
 ### -field RadioAction
 
 A value from the 
-     <a href="..\wwan\ne-wwan-_wwan_radio.md">WWAN_RADIO</a> enumeration that represents the power
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571224">WWAN_RADIO</a> enumeration that represents the power
      action to take on the MB device's radio. The following table shows the possible values for this member.
      
 
@@ -168,14 +157,14 @@ This parameter allows Windows to turn the radio power on and off. Be aware that 
 
 ## -see-also
 
-<a href="..\wwan\ne-wwan-_wwan_radio.md">WWAN_RADIO</a>
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571224">WWAN_RADIO</a>
  
 
  

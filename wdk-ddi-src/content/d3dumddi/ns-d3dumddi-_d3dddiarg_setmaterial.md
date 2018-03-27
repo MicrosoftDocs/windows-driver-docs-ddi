@@ -52,20 +52,6 @@ req.typenames: D3DDDIARG_SETMATERIAL
 The D3DDDIARG_SETMATERIAL structure describes the material properties that are used for rendering. 
 
 
-## -syntax
-
-
-````
-typedef struct _D3DDDIARG_SETMATERIAL {
-  D3DCOLORVALUE Diffuse;
-  D3DCOLORVALUE Ambient;
-  D3DCOLORVALUE Specular;
-  D3DCOLORVALUE Emissive;
-  FLOAT         Power;
-} D3DDDIARG_SETMATERIAL;
-````
-
-
 ## -struct-fields
 
 
@@ -98,10 +84,10 @@ typedef struct _D3DDDIARG_SETMATERIAL {
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setmaterial.md">SetMaterial</a>
 
 
 
+<a href="https://msdn.microsoft.com/e1273478-a450-44fa-95d5-ee86cb3a46b2">SetMaterial</a>
  
 
  

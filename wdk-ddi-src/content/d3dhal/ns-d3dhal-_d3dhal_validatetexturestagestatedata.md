@@ -52,20 +52,6 @@ req.typenames: D3DHAL_VALIDATETEXTURESTAGESTATEDATA
 The D3DHAL_VALIDATETEXTURESTAGESTATEDATA structure contains the information required for the driver to determine and return its ability to support multitexturing using the current state.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DHAL_VALIDATETEXTURESTAGESTATEDATA {
-  ULONG_PTR dwhContext;
-  DWORD     dwFlags;
-  ULONG_PTR dwReserved;
-  DWORD     dwNumPasses;
-  HRESULT   ddrval;
-} D3DHAL_VALIDATETEXTURESTAGESTATEDATA, *LPD3DHAL_VALIDATETEXTURESTAGESTATEDATA;
-````
-
-
 ## -struct-fields
 
 
@@ -98,10 +84,10 @@ Specifies the location where the driver writes the return value of the <a href="
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549064">D3dValidateTextureStageState</a>
-
-
-
  
 
  

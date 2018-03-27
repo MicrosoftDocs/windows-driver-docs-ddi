@@ -52,22 +52,6 @@ req.typenames: D3DDDIARG_VOLUMEBLT1
 Describes parameters for a volume bit-block transfer (bitblt) operation.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DDDIARG_VOLUMEBLT1 {
-  HANDLE    hDstResource;
-  HANDLE    hSrcResource;
-  UINT      DstX;
-  UINT      DstY;
-  UINT      DstZ;
-  D3DDDIBOX SrcBox;
-  UINT      CopyFlags;
-} D3DDDIARG_VOLUMEBLT1;
-````
-
-
 ## -struct-fields
 
 
@@ -100,24 +84,24 @@ typedef struct _D3DDDIARG_VOLUMEBLT1 {
 
 ### -field SrcBox
 
-[in] A <a href="..\d3dumddi\ns-d3dumddi-_d3dddibox.md">D3DDDIBOX</a> structure that describes the source volume texture to copy to the destination.
+[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/hh451148">D3DDDIBOX</a> structure that describes the source volume texture to copy to the destination.
 
 
 ### -field CopyFlags
 
-A value that specifies characteristics of a copy operation as a bitwise OR of the values in the <a href="..\d3dumddi\ne-d3dumddi-d3dddi_copy_flags.md">D3DDDI_COPY_FLAGS</a> enumeration type.
+A value that specifies characteristics of a copy operation as a bitwise OR of the values in the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451175">D3DDDI_COPY_FLAGS</a> enumeration type.
 
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddibox.md">D3DDDIBOX</a>
 
 
 
-<a href="..\d3dumddi\ne-d3dumddi-d3dddi_copy_flags.md">D3DDDI_COPY_FLAGS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451148">D3DDDIBOX</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451175">D3DDDI_COPY_FLAGS</a>
  
 
  

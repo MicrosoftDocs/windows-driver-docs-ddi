@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: "_Must_inspect_result_"
 topic_type:
@@ -52,18 +52,6 @@ req.typenames:
 
 
                 n OS callback function the driver calls when it wants retrieve the move regions for the current frame
-
-
-## -syntax
-
-
-````
-HRESULT IddCxSwapChainGetMoveRegions(
-  _In_        IDDCX_SWAPCHAIN           SwapChainObject,
-  _In_  const IDARG_IN_GETMOVEREGIONS*  pInArgs,
-  _Out_       IDARG_OUT_GETMOVEREGIONS* pOutArgs
-);
-````
 
 
 ## -parameters

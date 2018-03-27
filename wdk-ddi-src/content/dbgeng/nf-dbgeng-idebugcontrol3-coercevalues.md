@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -52,19 +52,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>CoerceValues</b> method converts an array of values into an array of values of different types.
-
-
-## -syntax
-
-
-````
-HRESULT CoerceValues(
-  [in]  ULONG        Count,
-  [in]  PDEBUG_VALUE In,
-  [in]  PULONG       OutType,
-  [out] PDEBUG_VALUE Out
-);
-````
 
 
 ## -parameters
@@ -94,7 +81,7 @@ Specifies the array to be populated by the converted values.  The types of these
 
 #### - OutType [in]
 
-Specifies the array of desired types for the converted values. For possible values, see <a href="..\dbgeng\ns-dbgeng-_debug_value.md">DEBUG_VALUE</a>.  The number of elements that this array holds is <i>Count</i>.
+Specifies the array of desired types for the converted values. For possible values, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff541719">DEBUG_VALUE</a>.  The number of elements that this array holds is <i>Count</i>.
 
 
 ## -returns
@@ -136,19 +123,6 @@ This method converts an array of values of one type into values of another type.
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
-
-
-
-<a href="..\dbgeng\ns-dbgeng-_debug_value.md">DEBUG_VALUE</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
 
 
@@ -156,6 +130,19 @@ This method converts an array of values of one type into values of another type.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541719">DEBUG_VALUE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550508">IDebugControl</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550512">IDebugControl2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550519">IDebugControl3</a>
  
 
  

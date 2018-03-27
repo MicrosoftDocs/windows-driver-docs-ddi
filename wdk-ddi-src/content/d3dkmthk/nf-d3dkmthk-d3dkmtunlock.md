@@ -55,16 +55,6 @@ req.typenames: D3DKMT_DRIVERVERSION
 The <b>D3DKMTUnlock</b> function unlocks a list of allocations.
 
 
-## -syntax
-
-
-````
-NTSTATUS APIENTRY D3DKMTUnlock(
-  _In_ const D3DKMT_UNLOCK *pData
-);
-````
-
-
 ## -parameters
 
 
@@ -79,7 +69,7 @@ TBD
 
 #### - pData [in]
 
-A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_unlock.md">D3DKMT_UNLOCK</a> structure that describes a list of allocations to unlock.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff548393">D3DKMT_UNLOCK</a> structure that describes a list of allocations to unlock.
 
 
 ## -returns
@@ -169,10 +159,10 @@ The following code examples demonstrates how an OpenGL ICD can use <b>D3DKMTUnlo
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_unlock.md">D3DKMT_UNLOCK</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548393">D3DKMT_UNLOCK</a>
  
 
  

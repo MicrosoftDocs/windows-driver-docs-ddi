@@ -55,14 +55,6 @@ The
   the caller is running on.
 
 
-## -syntax
-
-
-````
-ULONG NdisCurrentProcessorIndex(void);
-````
-
-
 ## -parameters
 
 
@@ -94,14 +86,14 @@ NDIS drivers call the
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552063">KeGetCurrentProcessorNumber</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564915">NDIS_CURRENT_PROCESSOR_NUMBER</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-kegetcurrentprocessornumber.md">KeGetCurrentProcessorNumber</a>
-
-
-
  
 
  

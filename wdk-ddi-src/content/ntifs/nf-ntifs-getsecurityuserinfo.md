@@ -53,18 +53,6 @@ req.typenames: TOKEN_TYPE
 The <b>GetSecurityUserInfo</b> function retrieves information about a logon <a href="http://go.microsoft.com/fwlink/p/?linkid=121237">session</a>.
 
 
-## -syntax
-
-
-````
-NTSTATUS GetSecurityUserInfo(
-  _In_opt_ PLUID             LogonId,
-  _In_     ULONG             Flags,
-  _Out_    PSecurityUserData *UserInformation
-);
-````
-
-
 ## -parameters
 
 
@@ -135,14 +123,14 @@ This function obtains information about a logon <a href="http://go.microsoft.com
 
 ## -see-also
 
+
+
+
 <a href="http://go.microsoft.com/fwlink/p/?linkid=121239">LsaFreeReturnBuffer</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-mapsecurityerror.md">MapSecurityError</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549736">MapSecurityError</a>
  
 
  

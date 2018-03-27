@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: ksproxy.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -50,16 +50,6 @@ req.typenames: PIPE_STATE
 
 
 The <b>KsPeekAllocator</b> method returns a pointer to an <b>IMemAllocator</b> interface for a pin's assigned allocator.
-
-
-## -syntax
-
-
-````
-IMemAllocator* KsPeekAllocator(
-  [in] KSPEEKOPERATION Operation
-);
-````
 
 
 ## -parameters
@@ -122,10 +112,10 @@ This method is for proxy use and is not recommended for application use.
 
 ## -see-also
 
-<a href="..\ksproxy\nn-ksproxy-ikspin.md">IKsPin</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559896">IKsPin</a>
  
 
  

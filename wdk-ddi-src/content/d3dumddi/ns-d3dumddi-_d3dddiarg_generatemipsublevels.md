@@ -52,17 +52,6 @@ req.typenames: D3DDDIARG_GENERATEMIPSUBLEVELS
 The D3DDDIARG_GENERATEMIPSUBLEVELS structure describes how to generate the sublevels of a MIP-map texture. 
 
 
-## -syntax
-
-
-````
-typedef struct _D3DDDIARG_GENERATEMIPSUBLEVELS {
-  HANDLE                  hResource;
-  D3DDDITEXTUREFILTERTYPE Filter;
-} D3DDDIARG_GENERATEMIPSUBLEVELS;
-````
-
-
 ## -struct-fields
 
 
@@ -148,10 +137,10 @@ Four-sample Gaussian filtering.
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_generatemipsublevels.md">GenerateMipSubLevels</a>
 
 
 
+<a href="https://msdn.microsoft.com/86567fc1-cf66-4709-a6e1-6b24408df963">GenerateMipSubLevels</a>
  
 
  

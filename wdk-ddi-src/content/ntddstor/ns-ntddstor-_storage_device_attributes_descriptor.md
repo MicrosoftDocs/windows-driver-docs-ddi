@@ -52,18 +52,6 @@ req.typenames: STORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR, PSTORAGE_DEVICE_ATTRIBUTES_
 The STORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR structure is used to retrieve the attributes information for a  device.
 
 
-## -syntax
-
-
-````
-typedef struct _STORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR {
-  ULONG   Version;
-  ULONG   Size;
-  ULONG64 Attributes;
-} STORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR, *PSTORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR;
-````
-
-
 ## -struct-fields
 
 

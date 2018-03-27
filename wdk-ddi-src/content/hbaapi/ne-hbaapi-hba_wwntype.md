@@ -52,17 +52,6 @@ req.typenames: HBA_WWNTYPE
 The HBA_wwntype enumerator indicates whether a worldwide name specifies a port or a node (machine).
 
 
-## -syntax
-
-
-````
-typedef enum HBA_wwntype { 
-  NODE_WWN  = 0,
-  PORT_WWN  = 1
-} HBA_WWNTYPE;
-````
-
-
 ## -enum-fields
 
 
@@ -80,10 +69,10 @@ Indicates that the world wide name specifies a port.
 
 ## -see-also
 
-<a href="..\hbaapi\nf-hbaapi-hba_sendrnid.md">HBA_SendRNID</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557216">HBA_SendRNID</a>
  
 
  

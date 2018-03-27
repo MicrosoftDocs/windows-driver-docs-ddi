@@ -52,28 +52,6 @@ req.typenames: RILRADIOSTATEITEM, *LPRILRADIOSTATEITEM
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef struct _RILRADIOSTATEITEM {
-  DWORD                  dwItemId;
-  RILRADIOSTATEITEMFLAG  dwItemFlag;
-  DWORD                  dwItemAttributes;
-  NULL                   RILITEMVALUEUNION;
-  RILITEMVALUEUNION      itemValueUnion;
-  int                    intVal;
-  unsigned int           uintVal;
-  WCHAR [32]             wszVal;
-  int [16]               intArray;
-  unsigned int [16]      uintArray;
-  BYTE [64]              byteArray;
-  WCHAR [32]             wszFriendlyName;
-  WCHAR [256]            wszItemValueOptions;
-} RILRADIOSTATEITEM, RILRADIOSTATEITEM;
-````
-
-
 ## -struct-fields
 
 

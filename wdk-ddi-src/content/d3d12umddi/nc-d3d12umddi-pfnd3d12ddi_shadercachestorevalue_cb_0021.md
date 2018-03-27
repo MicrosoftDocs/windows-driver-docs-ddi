@@ -52,25 +52,6 @@ req.typenames: D3D11_1DDI_GETCAPTUREHANDLEDATA
 The <i>pfnShaderCacheStoreValueCb</i> callback function stores a shader cache value. 
 
 
-## -prototype
-
-
-````
-PFND3D12DDI_SHADERCACHESTOREVALUE_CB_0021 pfnShaderCacheStoreValueCb;
-
-HRESULT APIENTRY CALLBACK * pfnShaderCacheStoreValueCb(
-             D3D12DDI_HRTDEVICE           hRTDevice,
-             D3D12DDI_HRTPIPELINESTATE    hRTPSO,
-  _In_       D3D12DDI_SHADERCACHE_HASH    *pPrecomputedHash,
-  _In_ const _reads_bytes_(KeyLen) void   *pKey,
-             SIZE_T                       KeyLen,
-  _In_ const _reads_bytes_(ValueLen) void *pValue,
-             SIZE_T                       ValueLen
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -124,7 +105,7 @@ If this callback function succeeds, it returns <b xmlns:loc="http://microsoft.co
 
 
 
-Access this callback by using the <a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddi_shadercache_callbacks_0021.md">D3D12DDI_SHADERCACHE_CALLBACKS_0021</a> structure.
+Access this callback by using the <a href="https://msdn.microsoft.com/EBA976B0-3B44-4482-B1B0-31A84150C056">D3D12DDI_SHADERCACHE_CALLBACKS_0021</a> structure.
 
 
 

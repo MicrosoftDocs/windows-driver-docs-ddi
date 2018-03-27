@@ -52,19 +52,6 @@ req.typenames: NDIS_WWAN_VISIBLE_PROVIDERS, *PNDIS_WWAN_VISIBLE_PROVIDERS
 The <i>NdkGetRemoteTokenFromMw</i> (<i>NDK_FN_GET_REMOTE_TOKEN_FROM_MW</i>) function gets a memory token from a remote NDK memory window (MW).
 
 
-## -prototype
-
-
-````
-NDK_FN_GET_REMOTE_TOKEN_FROM_MW NdkGetRemoteTokenFromMw;
-
-UINT32 NdkGetRemoteTokenFromMw(
-  _In_ NDK_MW *pNdkMw
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -72,7 +59,7 @@ UINT32 NdkGetRemoteTokenFromMw(
 
 ### -param *pNdkMw [in]
 
-A pointer to an NDK memory window (MW) object (<a href="..\ndkpi\ns-ndkpi-_ndk_mw.md">NDK_MW</a>).
+A pointer to an NDK memory window (MW) object (<a href="https://msdn.microsoft.com/library/windows/hardware/hh439926">NDK_MW</a>).
 
 
 ## -returns
@@ -89,21 +76,21 @@ The
 
 
 
- After an <i>NdkBind</i> (<a href="..\ndkpi\nc-ndkpi-ndk_fn_bind.md">NDK_FN_BIND</a>) call returns control to the caller, <i>NdkGetRemoteTokenFromMw</i> can be called to retrieve the remote token.
+ After an <i>NdkBind</i> (<a href="https://msdn.microsoft.com/library/windows/hardware/hh439859">NDK_FN_BIND</a>) call returns control to the caller, <i>NdkGetRemoteTokenFromMw</i> can be called to retrieve the remote token.
 
 
 
 
 ## -see-also
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_mw.md">NDK_MW</a>
 
 
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_bind.md">NDK_FN_BIND</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439859">NDK_FN_BIND</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439926">NDK_MW</a>
  
 
  

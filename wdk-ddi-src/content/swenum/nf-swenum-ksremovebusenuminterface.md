@@ -56,16 +56,6 @@ req.product: Windows 10 or later.
 The <b>KsRemoveBusEnumInterface</b> function removes an interface to the demand-load bus enumerator object. 
 
 
-## -syntax
-
-
-````
-NTSTATUS KsRemoveBusEnumInterface(
-  _In_ PIRP Irp
-);
-````
-
-
 ## -parameters
 
 
@@ -96,14 +86,14 @@ The <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> is assumed to contain a SWENUM_INS
 
 ## -see-also
 
-<a href="..\swenum\nf-swenum-ksinstallbusenuminterface.md">KsInstallBusEnumInterface</a>
 
 
 
-<a href="..\swenum\ns-swenum-_swenum_install_interface.md">SWENUM_INSTALL_INTERFACE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562690">KsInstallBusEnumInterface</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568498">SWENUM_INSTALL_INTERFACE</a>
  
 
  

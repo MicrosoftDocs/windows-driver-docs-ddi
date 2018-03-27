@@ -53,21 +53,6 @@ req.product: Windows 10 or later.
 The WWAN_AUTH_CHALLENGE structure represents an authentication challenge for a specific method.
 
 
-## -syntax
-
-
-````
-typedef struct _WWAN_AUTH_CHALLENGE {
-  WWAN_AUTH_METHOD AuthMethod;
-  union {
-    WWAN_AUTH_SIM_CHALLENGE  AuthSim;
-    WWAN_AUTH_AKA_CHALLENGE  AuthAka;
-    WWAN_AUTH_AKAP_CHALLENGE AuthAkap;
-  } u;
-} WWAN_AUTH_CHALLENGE, *PWWAN_AUTH_CHALLENGE;
-````
-
-
 ## -struct-fields
 
 
@@ -103,22 +88,22 @@ The challenge that uses the AKA' authentication method. If <b>AuthMethod</b> is 
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_auth_sim_challenge.md">WWAN_AUTH_SIM_CHALLENGE</a>
 
 
 
-<a href="..\wwan\ns-wwan-_wwan_auth_aka_challenge.md">WWAN_AUTH_AKA_CHALLENGE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh440302">WWAN_AUTH_AKAP_CHALLENGE</a>
 
 
 
-<a href="..\wwan\ne-wwan-_wwan_auth_method.md">WWAN_AUTH_METHOD</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh440304">WWAN_AUTH_AKA_CHALLENGE</a>
 
 
 
-<a href="..\wwan\ns-wwan-_wwan_auth_akap_challenge.md">WWAN_AUTH_AKAP_CHALLENGE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh464128">WWAN_AUTH_METHOD</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh464130">WWAN_AUTH_SIM_CHALLENGE</a>
  
 
  

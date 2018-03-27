@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,17 +51,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>GetType</b> method returns the type of the breakpoint and the type of the processor that a breakpoint is set for.
-
-
-## -syntax
-
-
-````
-HRESULT GetType(
-  [out] PULONG BreakType,
-  [out] PULONG ProcType
-);
-````
 
 
 ## -parameters

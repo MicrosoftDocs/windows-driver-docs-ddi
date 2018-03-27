@@ -52,21 +52,6 @@ req.typenames: D3D10DDI_MIPINFO
 The D3D10DDI_MIPINFO structure describes the MIP-level texture and physical coordinates of a surface.
 
 
-## -syntax
-
-
-````
-typedef struct D3D10DDI_MIPINFO {
-  UINT TexelWidth;
-  UINT TexelHeight;
-  UINT TexelDepth;
-  UINT PhysicalWidth;
-  UINT PhysicalHeight;
-  UINT PhysicalDepth;
-} D3D10DDI_MIPINFO;
-````
-
-
 ## -struct-fields
 
 
@@ -104,10 +89,10 @@ typedef struct D3D10DDI_MIPINFO {
 
 ## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createresource.md">D3D10DDIARG_CREATERESOURCE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541697">D3D10DDIARG_CREATERESOURCE</a>
  
 
  

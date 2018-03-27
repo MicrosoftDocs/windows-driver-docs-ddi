@@ -53,18 +53,6 @@ req.product: Windows 10 or later.
 The <b>WWAN_PCO_VALUE</b> structure represents the PCO information payload from the network as defined in the 3GPP TS24.008 spec.
 
 
-## -syntax
-
-
-````
-typedef struct _WWAN_PCO_VALUE {
-  ULONG         Size;
-  WWAN_PCO_TYPE Type;
-  BYTE          PcoData[WWAN_PCO_OCT_BUF_LEN];
-} WWAN_PCO_VALUE, *PWWAN_PCO_VALUE;
-````
-
-
 ## -struct-fields
 
 
@@ -77,7 +65,7 @@ The length of the PCO value that is valid in <b>PcoData</b>, which will be octet
 
 ### -field Type
 
-Indicates whether the PCO value being passed up is the original structure that was received by the modem or a subset of the full PCO structure and has the header synthesized. For more info, see <a href="..\wwan\ne-wwan-_wwan_pco_type.md">WWAN_PCO_TYPE</a>.
+Indicates whether the PCO value being passed up is the original structure that was received by the modem or a subset of the full PCO structure and has the header synthesized. For more info, see <a href="https://msdn.microsoft.com/0AD10F14-EBDB-45F8-A435-1D0A6D6FEFFF">WWAN_PCO_TYPE</a>.
 
 
 ### -field PcoData
@@ -108,18 +96,18 @@ The following figure shows  	a full PCO structure as defined in the 3G TS24.008 
 
 ## -see-also
 
+
+
+
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/mb-protocol-configuration-operations--pco-">MB Protocol Configuration Operations (PCO)</a>
 
 
 
-<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_pco_status.md">NDIS_WWAN_PCO_STATUS</a>
+<a href="https://msdn.microsoft.com/C71187C5-74B6-450A-8461-BB9FDF60DB8D">NDIS_WWAN_PCO_STATUS</a>
 
 
 
-<a href="..\wwan\ne-wwan-_wwan_pco_type.md">WWAN_PCO_TYPE</a>
-
-
-
+<a href="https://msdn.microsoft.com/0AD10F14-EBDB-45F8-A435-1D0A6D6FEFFF">WWAN_PCO_TYPE</a>
  
 
  

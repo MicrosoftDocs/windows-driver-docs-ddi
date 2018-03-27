@@ -52,20 +52,6 @@ req.typenames: AVCSTRM_BUFFER_STRUCT, *PAVCSTRM_BUFFER_STRUCT
 The AVCSTRM_BUFFER_STRUCT structure describes a buffer to be submitted to <i>avcstrm.sys</i> for read or write operations.
 
 
-## -syntax
-
-
-````
-typedef struct _AVCSTRM_BUFFER_STRUCT {
-  BOOL             ClockProvider;
-  HANDLE           ClockHandle;
-  PKSSTREAM_HEADER StreamHeader;
-  PVOID            FrameBuffer;
-  PVOID            Context;
-} AVCSTRM_BUFFER_STRUCT, *PAVCSTRM_BUFFER_STRUCT;
-````
-
-
 ## -struct-fields
 
 
@@ -98,10 +84,10 @@ Pointer to a client context value.
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ksstream_header.md">KSSTREAM_HEADER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567138">KSSTREAM_HEADER</a>
  
 
  

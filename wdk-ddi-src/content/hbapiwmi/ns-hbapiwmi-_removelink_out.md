@@ -52,16 +52,6 @@ req.typenames: RemoveLink_OUT, *PRemoveLink_OUT
 The RemoveLink_OUT structure is used by an HBA miniport driver to report the output parameter data of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563984">RemoveLink</a> WMI method to the WMI client. 
 
 
-## -syntax
-
-
-````
-typedef struct _RemoveLink_OUT {
-  ULONG HBAStatus;
-} RemoveLink_OUT, *PRemoveLink_OUT;
-````
-
-
 ## -struct-fields
 
 
@@ -83,10 +73,10 @@ The WMI tool suite generates a declaration of the RemoveLink_OUT structure in <i
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563984">RemoveLink</a>
-
-
-
  
 
  

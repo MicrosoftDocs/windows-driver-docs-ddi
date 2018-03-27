@@ -54,22 +54,6 @@ req.typenames: STOR_ADDR_BTL8, *PSTOR_ADDR_BTL8
   
 
 
-## -syntax
-
-
-````
-typedef struct _STOR_ADDR_BTL8 {
-  USHORT Type;
-  USHORT Port;
-  ULONG  AddressLength;
-  UCHAR  Path;
-  UCHAR  Target;
-  UCHAR  Lun;
-  UCHAR  Reserved;
-} STOR_ADDR_BTL8, *PSTOR_ADDR_BTL8;
-````
-
-
 ## -struct-fields
 
 
@@ -112,10 +96,10 @@ Reserved, set to 0.
 
 ## -see-also
 
-<a href="..\storport\ns-storport-_stor_address.md">STOR_ADDRESS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451518">STOR_ADDRESS</a>
  
 
  

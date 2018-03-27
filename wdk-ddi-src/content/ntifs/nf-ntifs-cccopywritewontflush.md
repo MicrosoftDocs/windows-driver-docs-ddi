@@ -49,19 +49,7 @@ req.typenames: TOKEN_TYPE
 ## -description
 
 
-The <b>CcCopyWriteWontFlush</b> macro determines whether the amount of data to be copied in a call to <a href="..\ntifs\nf-ntifs-cccopywrite.md">CcCopyWrite</a> is small enough not to require immediate flushing to disk if <b>CcCopyWrite</b> is called with <i>Wait</i> set to <b>FALSE</b>.
-
-
-## -syntax
-
-
-````
-BOOLEAN CcCopyWriteWontFlush(
-  _In_ PFILE_OBJECT   FileObject,
-  _In_ PLARGE_INTEGER FileOffset,
-  _In_ ULONG          Length
-);
-````
+The <b>CcCopyWriteWontFlush</b> macro determines whether the amount of data to be copied in a call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff539045">CcCopyWrite</a> is small enough not to require immediate flushing to disk if <b>CcCopyWrite</b> is called with <i>Wait</i> set to <b>FALSE</b>.
 
 
 ## -parameters
@@ -88,25 +76,25 @@ Length in bytes of the data to be copied.
 
 
 
-<b>CcCopyWriteWontFlush</b> returns <b>TRUE</b> if the amount of data to be copied in a call to <a href="..\ntifs\nf-ntifs-cccopywrite.md">CcCopyWrite</a> is small enough not to require immediate flushing to disk, <b>FALSE</b> otherwise.
+<b>CcCopyWriteWontFlush</b> returns <b>TRUE</b> if the amount of data to be copied in a call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff539045">CcCopyWrite</a> is small enough not to require immediate flushing to disk, <b>FALSE</b> otherwise.
 
 
 
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-cccaniwrite.md">CcCanIWrite</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-ccdeferwrite.md">CcDeferWrite</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539021">CcCanIWrite</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-cccopywrite.md">CcCopyWrite</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539045">CcCopyWrite</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539060">CcDeferWrite</a>
  
 
  

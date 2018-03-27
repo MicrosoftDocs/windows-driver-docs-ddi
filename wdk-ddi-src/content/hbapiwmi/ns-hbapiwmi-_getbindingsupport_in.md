@@ -52,16 +52,6 @@ req.typenames: GetBindingSupport_IN, *PGetBindingSupport_IN
 The GetBindingSupport_IN structure is used by a WMI client to deliver the input parameter data of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff553910">GetBindingSupport</a> WMI method to the HBA miniport driver.
 
 
-## -syntax
-
-
-````
-typedef struct _GetBindingSupport_IN {
-  UCHAR PortWWN[8];
-} GetBindingSupport_IN, *PGetBindingSupport_IN;
-````
-
-
 ## -struct-fields
 
 
@@ -83,10 +73,10 @@ The WMI tool suite generates a declaration of the GetBindingSupport_IN structure
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553910">GetBindingSupport</a>
-
-
-
  
 
  

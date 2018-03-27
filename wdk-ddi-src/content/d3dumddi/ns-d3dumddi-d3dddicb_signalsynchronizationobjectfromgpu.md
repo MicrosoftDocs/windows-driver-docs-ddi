@@ -49,23 +49,7 @@ req.typenames: D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMGPU
 ## -description
 
 
-<b>D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMGPU</b> is used with <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_signalsynchronizationobjectfromgpucb.md">pfnSignalSynchronizationObjectFromGpuCb</a> to signal a monitored fence.
-
-
-## -syntax
-
-
-````
-typedef struct D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMGPU {
-  HANDLE              hContext;
-  UINT                ObjectCount;
-  const D3DKMT_HANDLE *ObjectHandleArray;
-  union {
-    const UINT64 *MonitoredFenceValueArray;
-    UINT64       Reserved[8];
-  };
-} D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMGPU;
-````
+<b>D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMGPU</b> is used with <a href="https://msdn.microsoft.com/46F23D7A-5C7A-4BCC-A575-5D47F590B07C">pfnSignalSynchronizationObjectFromGpuCb</a> to signal a monitored fence.
 
 
 ## -struct-fields
@@ -101,10 +85,10 @@ This member is reserved and should be set to zero.
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_signalsynchronizationobjectfromgpucb.md">pfnSignalSynchronizationObjectFromGpuCb</a>
 
 
 
+<a href="https://msdn.microsoft.com/46F23D7A-5C7A-4BCC-A575-5D47F590B07C">pfnSignalSynchronizationObjectFromGpuCb</a>
  
 
  

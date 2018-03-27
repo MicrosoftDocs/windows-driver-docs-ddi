@@ -26,7 +26,7 @@ req.max-support: Unavailable in UMDF 2.0 and later.
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: wudfddi.h
+req.lib: 
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
@@ -55,16 +55,6 @@ req.product: Windows 10 or later.
 The <b>GetCompletionParams</b> method retrieves the parameters object for the completion of an I/O request object.
 
 
-## -syntax
-
-
-````
-void GetCompletionParams(
-  [out] IWDFRequestCompletionParams **ppCompletionParams
-);
-````
-
-
 ## -parameters
 
 
@@ -72,7 +62,7 @@ void GetCompletionParams(
 
 ### -param ppCompletionParams [out]
 
-A pointer to a variable that receives a pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfrequestcompletionparams.md">IWDFRequestCompletionParams</a> interface.
+A pointer to a variable that receives a pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560292">IWDFRequestCompletionParams</a> interface.
 
 
 ## -returns
@@ -86,7 +76,10 @@ None
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfrequestcompletionparams.md">IWDFRequestCompletionParams</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558985">IWDFIoRequest</a>
 
 
 
@@ -94,10 +87,7 @@ None
 
 
 
-<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560292">IWDFRequestCompletionParams</a>
  
 
  

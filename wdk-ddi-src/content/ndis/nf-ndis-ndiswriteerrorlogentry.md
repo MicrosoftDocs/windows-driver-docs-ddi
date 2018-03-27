@@ -53,19 +53,6 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 <b>NdisWriteErrorLogEntry</b> writes an entry to the system I/O error log file.
 
 
-## -syntax
-
-
-````
-VOID __cdecl NdisWriteErrorLogEntry(
-  _In_ NDIS_HANDLE     NdisAdapterHandle,
-  _In_ NDIS_ERROR_CODE ErrorCode,
-  _In_ ULONG           NumberOfErrorValues,
-                       ...
-);
-````
-
-
 ## -parameters
 
 
@@ -75,7 +62,7 @@ VOID __cdecl NdisWriteErrorLogEntry(
 
 Specifies the handle representing the NIC that is the cause of the I/O error to be logged. This
      handle is an input parameter to 
-     <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>.
+     <a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a>.
 
 
 ### -param ErrorCode [in]
@@ -225,7 +212,7 @@ In practice, few callers of
 
 In general, a miniport driver calls 
     <b>NdisWriteErrorLogEntry</b> during initialization from its 
-    <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a> function if
+    <a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a> function if
     it cannot initialize a NIC that it controls or cannot allocate the hardware resources it needs to carry
     out I/O operations on a NIC. A miniport driver also can call 
     <b>NdisWriteErrorLogEntry</b> when a device-reset operation fails due to unrecoverable hardware error(s).
@@ -237,18 +224,18 @@ In general, a miniport driver calls
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
+<a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a>
 
 
 
-<a href="..\ndis\nc-ndis-miniport_reset.md">MiniportResetEx</a>
+<a href="https://msdn.microsoft.com/15f82163-a1b5-4cef-a53e-8a97adb2cd92">MiniportResetEx</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563672">NdisMSetMiniportAttributes</a>
  
 
  

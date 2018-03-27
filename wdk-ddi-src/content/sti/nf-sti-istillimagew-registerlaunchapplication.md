@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: sti.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,17 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>IStillImage::RegisterLaunchApplication</b> method adds an application to the still image event monitor's list of push-model aware applications.
-
-
-## -syntax
-
-
-````
-HRESULT RegisterLaunchApplication(
-  [in] LPWSTR pwszAppName,
-  [in] LPWSTR pwszCommandLine
-);
-````
 
 
 ## -parameters

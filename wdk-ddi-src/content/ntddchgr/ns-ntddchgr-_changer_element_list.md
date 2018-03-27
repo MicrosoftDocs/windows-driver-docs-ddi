@@ -52,17 +52,6 @@ req.typenames: CHANGER_ELEMENT_LIST, *PCHANGER_ELEMENT_LIST
 The CHANGER_ELEMENT_LIST structure indicates a range of elements of a single type. 
 
 
-## -syntax
-
-
-````
-typedef struct _CHANGER_ELEMENT_LIST {
-  CHANGER_ELEMENT Element;
-  ULONG           NumberOfElements;
-} CHANGER_ELEMENT_LIST, *PCHANGER_ELEMENT_LIST;
-````
-
-
 ## -struct-fields
 
 
@@ -70,7 +59,7 @@ typedef struct _CHANGER_ELEMENT_LIST {
 
 ### -field Element
 
-Describes the first element of type <a href="..\ntddchgr\ns-ntddchgr-_changer_element.md">CHANGER_ELEMENT</a> in a range <b>NumberOfElements</b> long.
+Describes the first element of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff551457">CHANGER_ELEMENT</a> in a range <b>NumberOfElements</b> long.
 
 
 ### -field NumberOfElements
@@ -89,18 +78,18 @@ A changer class driver uses CHANGER_ELEMENT_LIST to indicate a range of elements
 
 ## -see-also
 
-<a href="..\mcd\nf-mcd-changerinitializeelementstatus.md">ChangerInitializeElementStatus</a>
 
 
 
-<a href="..\mcd\nf-mcd-changergetelementstatus.md">ChangerGetElementStatus</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551457">CHANGER_ELEMENT</a>
 
 
 
-<a href="..\ntddchgr\ns-ntddchgr-_changer_element.md">CHANGER_ELEMENT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551424">ChangerGetElementStatus</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551433">ChangerInitializeElementStatus</a>
  
 
  

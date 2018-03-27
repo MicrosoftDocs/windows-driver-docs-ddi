@@ -52,17 +52,6 @@ req.typenames: DISK_CONTROLLER_NUMBER, *PDISK_CONTROLLER_NUMBER
 DISK_CONTROLLER_NUMBER is used with IOCTL_DISK_CONTROLLER_NUMBER to retrieve the controller number and disk number of an IDE disk. 
 
 
-## -syntax
-
-
-````
-typedef struct _DISK_CONTROLLER_NUMBER {
-  ULONG ControllerNumber;
-  ULONG DiskNumber;
-} DISK_CONTROLLER_NUMBER, *PDISK_CONTROLLER_NUMBER;
-````
-
-
 ## -struct-fields
 
 
@@ -89,10 +78,10 @@ After DISK_CONTROLLER_NUMBER receives the controller number and the disk number,
 
 ## -see-also
 
-<a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_controller_number.md">IOCTL_DISK_CONTROLLER_NUMBER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559430">IOCTL_DISK_CONTROLLER_NUMBER</a>
  
 
  

@@ -40,7 +40,7 @@ api_name:
 -	CLIENT_WriteGpioPins
 product: Windows
 targetos: Windows
-req.typenames: GNSS_V2UPL_NI_INFO, *PGNSS_V2UPL_NI_INFO
+req.typenames: FWPS_CONNECT_REQUEST0
 ---
 
 # GPIO_CLIENT_WRITE_PINS callback
@@ -50,20 +50,6 @@ req.typenames: GNSS_V2UPL_NI_INFO, *PGNSS_V2UPL_NI_INFO
 
 
 The <i>CLIENT_WriteGpioPins</i> event callback function writes to a set of general-purpose I/O (GPIO) pins that are configured as data outputs.
-
-
-## -prototype
-
-
-````
-GPIO_CLIENT_WRITE_PINS CLIENT_WriteGpioPins;
-
-NTSTATUS CLIENT_WriteGpioPins(
-  _In_ PVOID                            Context,
-  _In_ PGPIO_WRITE_PINS_MASK_PARAMETERS WriteParameters
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -145,11 +131,6 @@ The GPIO_CLIENT_WRITE_PINS function type is defined in the Gpioclx.h header file
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439490">GPIO_CLX_RegisterClient</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh698259">GPIO_WRITE_PINS_PARAMETERS</a>
 
 
 
@@ -157,14 +138,19 @@ The GPIO_CLIENT_WRITE_PINS function type is defined in the Gpioclx.h header file
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439479">GPIO_CLIENT_REGISTRATION_PACKET</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439399">CLIENT_QueryControllerBasicInformation</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439479">GPIO_CLIENT_REGISTRATION_PACKET</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439490">GPIO_CLX_RegisterClient</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh698259">GPIO_WRITE_PINS_PARAMETERS</a>
  
 
  

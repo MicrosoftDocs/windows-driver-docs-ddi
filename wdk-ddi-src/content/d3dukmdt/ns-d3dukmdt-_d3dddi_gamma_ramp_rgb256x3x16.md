@@ -52,18 +52,6 @@ req.typenames: D3DDDI_GAMMA_RAMP_RGB256x3x16
 The D3DDDI_GAMMA_RAMP_RGB256x3x16 structure contains a gamma lookup table.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DDDI_GAMMA_RAMP_RGB256x3x16 {
-  USHORT Red[256];
-  USHORT Green[256];
-  USHORT Blue[256];
-} D3DDDI_GAMMA_RAMP_RGB256x3x16;
-````
-
-
 ## -struct-fields
 
 
@@ -86,10 +74,10 @@ An array of 16-bit values that holds the gamma function for the blue color chann
 
 ## -see-also
 
-<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddi_gammaramp_type.md">D3DDDI_GAMMARAMP_TYPE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544565">D3DDDI_GAMMARAMP_TYPE</a>
  
 
  

@@ -26,7 +26,7 @@ req.max-support: Unavailable in UMDF 2.0 and later.
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: wudfusb.h
+req.lib: 
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
@@ -55,18 +55,6 @@ req.product: Windows 10 or later.
 The <b>GetPipeWriteParameters</b> method retrieves parameters that are associated with the completion of a write request.
 
 
-## -syntax
-
-
-````
-void GetPipeWriteParameters(
-  [out, optional] IWDFMemory **ppWriteMemory,
-  [out, optional] SIZE_T     *pBytesWritten,
-  [out, optional] SIZE_T     *pWriteMemoryOffset
-);
-````
-
-
 ## -parameters
 
 
@@ -74,7 +62,7 @@ void GetPipeWriteParameters(
 
 ### -param ppWriteMemory [out, optional]
 
-A pointer to a variable that receives a pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfmemory.md">IWDFMemory</a> interface, for access to the write buffer for the write request. This parameter is optional and can be <b>NULL</b>.
+A pointer to a variable that receives a pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559249">IWDFMemory</a> interface, for access to the write buffer for the write request. This parameter is optional and can be <b>NULL</b>.
 
 
 ### -param pBytesWritten [out, optional]
@@ -98,14 +86,14 @@ None
 
 ## -see-also
 
-<a href="..\wudfusb\nn-wudfusb-iwdfusbrequestcompletionparams.md">IWDFUsbRequestCompletionParams</a>
 
 
 
-<a href="..\wudfddi\nn-wudfddi-iwdfmemory.md">IWDFMemory</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559249">IWDFMemory</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560346">IWDFUsbRequestCompletionParams</a>
  
 
  

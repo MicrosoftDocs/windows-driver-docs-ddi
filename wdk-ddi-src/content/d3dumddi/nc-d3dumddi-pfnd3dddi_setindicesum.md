@@ -52,21 +52,6 @@ req.typenames: DXGK_PTE
 The <i>SetIndicesUM</i> function sets the current index buffer to the given user memory buffer. 
 
 
-## -prototype
-
-
-````
-PFND3DDDI_SETINDICESUM SetIndicesUM;
-
-__checkReturn HRESULT APIENTRY SetIndicesUM(
-  _In_       HANDLE hDevice,
-  _In_       UINT   IndexSize,
-  _In_ const VOID   *pUMBuffer
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -77,7 +62,7 @@ __checkReturn HRESULT APIENTRY SetIndicesUM(
  A handle to the display device (graphics context).
 
 
-### -param UINT
+### -param Arg1
 
 
 ### -param *
@@ -110,10 +95,10 @@ __checkReturn HRESULT APIENTRY SetIndicesUM(
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544519">D3DDDI_DEVICEFUNCS</a>
  
 
  

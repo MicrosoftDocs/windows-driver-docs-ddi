@@ -52,25 +52,6 @@ req.typenames: ISCSI_Persistent_Login, *PISCSI_Persistent_Login
 The ISCSI_Persistent_Login structure defines a persistent logon that the operating system initiates automatically when the computer boots up.
 
 
-## -syntax
-
-
-````
-typedef struct _ISCSI_Persistent_Login {
-  WCHAR               TargetName[223 + 1];
-  ULONGLONG           SecurityFlags;
-  ULONG               InitiatorPortNumber;
-  ULONG               UsernameSize;
-  BOOLEAN             IsInformationalSession;
-  USHORT              UniqueIdForISID;
-  ISCSI_TargetPortal  TargetPortal;
-  ISCSI_LoginOptions  LoginOptions;
-  ISCSI_TargetMapping TargetMapping;
-  UCHAR               Username[1];
-} ISCSI_Persistent_Login, *PISCSI_Persistent_Login;
-````
-
-
 ## -struct-fields
 
 
@@ -108,17 +89,17 @@ Portal to use for initial connection
 
 ### -field TargetPortal
 
-An <a href="..\iscsidef\ns-iscsidef-_iscsi_targetportal.md">ISCSI_TargetPortal</a> structure that specifies which target portal to use for the initial logon connection.
+An <a href="https://msdn.microsoft.com/library/windows/hardware/ff561574">ISCSI_TargetPortal</a> structure that specifies which target portal to use for the initial logon connection.
 
 
 ### -field LoginOptions
 
-An <a href="..\iscsidef\ns-iscsidef-_iscsi_loginoptions.md">ISCSI_LoginOptions</a> structure that specifies the characteristics of the persistent logon session. 
+An <a href="https://msdn.microsoft.com/library/windows/hardware/ff561541">ISCSI_LoginOptions</a> structure that specifies the characteristics of the persistent logon session. 
 
 
 ### -field TargetMapping
 
-An <a href="..\iscsidef\ns-iscsidef-_iscsi_targetmapping.md">ISCSI_TargetMapping</a> structure that defines the target mappings. 
+An <a href="https://msdn.microsoft.com/library/windows/hardware/ff561572">ISCSI_TargetMapping</a> structure that defines the target mappings. 
 
 
 ### -field Username
@@ -128,19 +109,10 @@ A variable-length array of characters that specifies the challenge handshake aut
 
 ## -see-also
 
-<a href="..\iscsidef\ns-iscsidef-_iscsi_loginoptions.md">ISCSI_LoginOptions</a>
 
 
 
-<a href="..\iscsidef\ns-iscsidef-_iscsi_targetmapping.md">ISCSI_TargetMapping</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565399">SECURITY_FLAG_QUALIFIERS</a>
-
-
-
-<a href="..\iscsidef\ns-iscsidef-_iscsi_targetportal.md">ISCSI_TargetPortal</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561541">ISCSI_LoginOptions</a>
 
 
 
@@ -148,6 +120,15 @@ A variable-length array of characters that specifies the challenge handshake aut
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561572">ISCSI_TargetMapping</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561574">ISCSI_TargetPortal</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565399">SECURITY_FLAG_QUALIFIERS</a>
  
 
  

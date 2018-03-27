@@ -53,19 +53,6 @@ req.product: Windows 10 or later.
 The <a href="https://msdn.microsoft.com/library/windows/hardware/ff564255">XcvData</a> function uses a DELETE_PORT_DATA_1 structure when it deletes a port.
 
 
-## -syntax
-
-
-````
-typedef struct _DELETE_PORT_DATA_1 {
-  WCHAR psztPortName[MAX_PORTNAME_LEN];
-  BYTE  Reserved[98];
-  DWORD dwVersion;
-  DWORD dwReserved;
-} DELETE_PORT_DATA_1, *PDELETE_PORT_DATA_1;
-````
-
-
 ## -struct-fields
 
 
@@ -104,10 +91,10 @@ See <a href="https://msdn.microsoft.com/7b2b1cff-ab8f-44e0-9327-dc60a0072bf5">TC
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564255">XcvData</a>
-
-
-
  
 
  

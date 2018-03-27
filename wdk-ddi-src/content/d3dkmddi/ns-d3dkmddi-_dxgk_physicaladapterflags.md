@@ -52,25 +52,6 @@ req.typenames: DXGK_PHYSICALADAPTERFLAGS
 <b>DXGK_PHYSICALADAPTERFLAGS</b> defines a set of flags that used to indicate the type of memory management model that is supported by a device.
 
 
-## -syntax
-
-
-````
-typedef struct _DXGK_PHYSICALADAPTERFLAGS {
-  union {
-    struct {
-      UINT IoMmuSupported  :1;
-      UINT GpuMmuSupported  :1;
-      UINT MovingPagingSupported  :1;
-      UINT VPRPagingContextRequired  :1;
-      UINT Reserved  :28;
-    };
-    UINT   Value;
-  };
-} DXGK_PHYSICALADAPTERFLAGS;
-````
-
-
 ## -struct-fields
 
 

@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
@@ -51,16 +51,6 @@ req.product: Windows 10 or later.
 
 
 <b>RxSpinDownMRxDispatcher</b> tears down the dispatcher context for a network mini-redirector. 
-
-
-## -syntax
-
-
-````
-NTSTATUS RxSpinDownMRxDispatcher(
-  _Inout_ PRDBSS_DEVICE_OBJECT pMRxDeviceObject
-);
-````
 
 
 ## -parameters
@@ -95,14 +85,14 @@ The <b>RxSpinDownMRxDispatcher</b> routine is also called internally by the <b>R
 
 ## -see-also
 
-<a href="..\rxworkq\nf-rxworkq-rxposttoworkerthread.md">RxPostToWorkerThread</a>
 
 
 
-<a href="..\rxworkq\nf-rxworkq-rxdispatchtoworkerthread.md">RxDispatchToWorkerThread</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554398">RxDispatchToWorkerThread</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554620">RxPostToWorkerThread</a>
  
 
  

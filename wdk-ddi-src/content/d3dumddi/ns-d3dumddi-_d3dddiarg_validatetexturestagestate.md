@@ -52,16 +52,6 @@ req.typenames: D3DDDIARG_VALIDATETEXTURESTAGESTATE
 The D3DDDIARG_VALIDATETEXTURESTAGESTATE structure contains the number of passes in which the hardware can perform the blending operations that are specified in the current state.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DDDIARG_VALIDATETEXTURESTAGESTATE {
-  UINT NumPasses;
-} D3DDDIARG_VALIDATETEXTURESTAGESTATE;
-````
-
-
 ## -struct-fields
 
 
@@ -74,10 +64,10 @@ typedef struct _D3DDDIARG_VALIDATETEXTURESTAGESTATE {
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_validatedevice.md">ValidateDevice</a>
 
 
 
+<a href="https://msdn.microsoft.com/058696e0-be4a-45f3-b3e8-55abccdce3ce">ValidateDevice</a>
  
 
  

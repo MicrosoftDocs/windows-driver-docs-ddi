@@ -53,18 +53,6 @@ req.product: Windows 10 or later.
 The WDI_WNM_ACTION enumeration defines the message type for 802.11v BSS Transition Management action frames.
 
 
-## -syntax
-
-
-````
-typedef enum _WDI_WNM_ACTION { 
-  WDI_WNM_ACTION_BSS_TRANSITION_MANAGEMENT_QUERY     = 6,
-  WDI_WNM_ACTION_BSS_TRANSITION_MANAGEMENT_REQUEST   = 7,
-  WDI_WNM_ACTION_BSS_TRANSITION_MANAGEMENT_RESPONSE  = 8
-} WDI_WNM_ACTION;
-````
-
-
 ## -enum-fields
 
 

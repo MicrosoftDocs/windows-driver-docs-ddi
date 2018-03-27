@@ -54,19 +54,6 @@ req.product: Windows 10 or later.
 The <b>StorPortReadRegisterBufferUlong</b> routine reads a value from a specified register address. 
 
 
-## -syntax
-
-
-````
-STORPORT_API VOID StorPortReadRegisterBufferUlong(
-  _In_ PVOID  HwDeviceExtension,
-  _In_ PULONG Register,
-  _In_ PULONG Buffer,
-  _In_ ULONG  Count
-);
-````
-
-
 ## -parameters
 
 
@@ -120,21 +107,21 @@ Pointer to the register where the data is to be read.
 
 
 
-For more information, see <a href="..\storport\nf-storport-scsiportreadregisterbufferulong.md">ScsiPortReadRegisterBufferUlong</a>. For a nonbuffered version of this routine, see <a href="..\storport\nf-storport-storportreadregisterulong.md">StorPortReadRegisterUlong</a>.
+For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff564735">ScsiPortReadRegisterBufferUlong</a>. For a nonbuffered version of this routine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff567485">StorPortReadRegisterUlong</a>.
 
 
 
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportreadregisterulong.md">StorPortReadRegisterUlong</a>
 
 
 
-<a href="..\storport\nf-storport-scsiportreadregisterbufferulong.md">ScsiPortReadRegisterBufferUlong</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564735">ScsiPortReadRegisterBufferUlong</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567485">StorPortReadRegisterUlong</a>
  
 
  

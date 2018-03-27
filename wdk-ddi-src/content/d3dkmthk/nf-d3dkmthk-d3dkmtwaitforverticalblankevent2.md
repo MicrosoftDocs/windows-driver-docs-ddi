@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -50,16 +50,6 @@ req.typenames: D3DKMT_DRIVERVERSION
 
 
 Waits for specified wait objects, including a vertical blank event, to occur and then returns. Supported starting with Windows 8.
-
-
-## -syntax
-
-
-````
-EXTERN_C _Check_return_ NTSTATUS APIENTRY D3DKMTWaitForVerticalBlankEvent2(
-  _In_ const D3DKMT_WAITFORVERTICALBLANKEVENT2 *pWait
-);
-````
 
 
 ## -parameters

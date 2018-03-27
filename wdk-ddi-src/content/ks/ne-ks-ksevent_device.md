@@ -52,17 +52,6 @@ req.typenames: KSEVENT_DEVICE
 Specifies event notifications that the driver generates to indicate that a device has been lost or preempted.
 
 
-## -syntax
-
-
-````
-typedef enum  { 
-  KSEVENT_DEVICE_LOST       = 0,
-  KSEVENT_DEVICE_PREEMPTED  = 1
-} KSEVENT_DEVICE;
-````
-
-
 ## -enum-fields
 
 
@@ -88,14 +77,14 @@ A camera device has been preempted by a new Windows app. See <a href="https://ms
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/jj156039">KSEVENT_DEVICE_LOST</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/jj156040">KSEVENT_DEVICE_PREEMPTED</a>
-
-
-
  
 
  

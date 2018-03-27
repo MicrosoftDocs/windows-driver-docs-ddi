@@ -52,16 +52,6 @@ req.typenames: MOUNTMGR_CHANGE_NOTIFY_INFO, *PMOUNTMGR_CHANGE_NOTIFY_INFO
 The MOUNTMGR_CHANGE_NOTIFY_INFO structure is used by the mount manager to send epic numbers to its clients and vice versa. 
 
 
-## -syntax
-
-
-````
-typedef struct _MOUNTMGR_CHANGE_NOTIFY_INFO {
-  ULONG EpicNumber;
-} MOUNTMGR_CHANGE_NOTIFY_INFO, *PMOUNTMGR_CHANGE_NOTIFY_INFO;
-````
-
-
 ## -struct-fields
 
 
@@ -83,10 +73,10 @@ For a general discussion of the mount manager and how it communicates with its c
 
 ## -see-also
 
-<a href="..\mountmgr\ni-mountmgr-ioctl_mountmgr_change_notify.md">IOCTL_MOUNTMGR_CHANGE_NOTIFY</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560451">IOCTL_MOUNTMGR_CHANGE_NOTIFY</a>
  
 
  

@@ -55,22 +55,6 @@ req.typenames: STORAGE_ZONE_DESCRIPTOR, *PSTORAGE_ZONE_DESCRIPTOR
 
 
 
-## -syntax
-
-
-````
-typedef struct _STORAGE_ZONE_DESCRIPTOR {
-  ULONG                  Size;
-  STORAGE_ZONE_TYPES     ZoneType;
-  STORAGE_ZONE_CONDITION ResetWritePointerRecomend;
-  BOOLEAN                ResetWritePointerRecomend;
-                         Reserved0[3];
-  ULONGLONG              ZoneSize;
-  ULONGLONG              WriterPointerOffset;
-} STORAGE_ZONE_DESCRIPTOR, *PSTORAGE_ZONE_DESCRIPTOR;
-````
-
-
 ## -struct-fields
 
 

@@ -54,17 +54,6 @@ Protocol drivers call the
   <b>NdisCancelOidRequest</b> function to cancel a previous request to the underlying drivers.
 
 
-## -syntax
-
-
-````
-VOID NdisCancelOidRequest(
-  _In_ NDIS_HANDLE NdisBindingHandle,
-  _In_ PVOID       RequestId
-);
-````
-
-
 ## -parameters
 
 
@@ -73,14 +62,14 @@ VOID NdisCancelOidRequest(
 ### -param NdisBindingHandle [in]
 
 The handle returned by the 
-     <a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a> function that
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff563715">NdisOpenAdapterEx</a> function that
      identifies the target adapter on the binding.
 
 
 ### -param RequestId [in]
 
 A cancellation identifier for the request. This identifier specifies the 
-     <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a> structures that are being
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566710">NDIS_OID_REQUEST</a> structures that are being
      canceled.
 
 
@@ -100,27 +89,27 @@ None
 Protocol drivers call this function to cancel a previously issued request. The request ID that is
     passed at the 
     <i>RequestId</i> parameter must match the request ID in the 
-    <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a> structure that was passed
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff566710">NDIS_OID_REQUEST</a> structure that was passed
     in the call to the 
-    <a href="..\ndis\nf-ndis-ndisoidrequest.md">NdisOidRequest</a> function.
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff563710">NdisOidRequest</a> function.
 
 
 
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566710">NDIS_OID_REQUEST</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisoidrequest.md">NdisOidRequest</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563710">NdisOidRequest</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563715">NdisOpenAdapterEx</a>
  
 
  

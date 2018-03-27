@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
@@ -53,18 +53,6 @@ req.product: Windows 10 or later.
 The <b>SerCxProgressReceive</b> method reports the progress of the current read (receive) operation.
 
 
-## -syntax
-
-
-````
-NTSTATUS SerCxProgressReceive(
-  [in] WDFDEVICE    Device,
-  [in] ULONG        BytesReceived,
-  [in] SERCX_STATUS ReceiveStatus
-);
-````
-
-
 ## -parameters
 
 
@@ -77,7 +65,7 @@ A WDFDEVICE handle to the framework device object that represents the serial con
 
 ### -param BytesReceived [in]
 
-The number of bytes of data that the caller loaded into the receive buffer that was obtained by the latest call to the <a href="..\sercx\nf-sercx-sercxretrievereceivebuffer.md">SerCxRetrieveReceiveBuffer</a> method.
+The number of bytes of data that the caller loaded into the receive buffer that was obtained by the latest call to the <a href="https://msdn.microsoft.com/library/windows/hardware/hh406718">SerCxRetrieveReceiveBuffer</a> method.
 
 
 ### -param ReceiveStatus [in]
@@ -89,7 +77,7 @@ The current status of the receive operation. Set this parameter to one of the fo
 <li><b>SerCxStatusCancelled</b></li>
 <li><b>SerCxStatusTimeout</b></li>
 </ul>
-For more information about these values, see <a href="..\sercx\ne-sercx-_sercx_status.md">SERCX_STATUS</a>.
+For more information about these values, see <a href="https://msdn.microsoft.com/library/windows/hardware/hh439583">SERCX_STATUS</a>.
 
 
 ## -returns
@@ -148,21 +136,21 @@ The receive operation has already been canceled.
 
 The serial controller driver calls this method to report progress on an outstanding read operation. Typically, the serial controller driver calls this method from its DMA completion callback (if the driver uses DMA to read the data) or from its transmit/receive DPC function (if PIO is used).
 
-If the <b>SerCxProgressReceive</b> does not complete all outstanding work for the read operation, the caller must call the <a href="..\sercx\nf-sercx-sercxretrievereceivebuffer.md">SerCxRetrieveReceiveBuffer</a> method again to get a new buffer descriptor and continue to receive data.
+If the <b>SerCxProgressReceive</b> does not complete all outstanding work for the read operation, the caller must call the <a href="https://msdn.microsoft.com/library/windows/hardware/hh406718">SerCxRetrieveReceiveBuffer</a> method again to get a new buffer descriptor and continue to receive data.
 
 
 
 
 ## -see-also
 
-<a href="..\sercx\nf-sercx-sercxretrievereceivebuffer.md">SerCxRetrieveReceiveBuffer</a>
 
 
 
-<a href="..\sercx\ne-sercx-_sercx_status.md">SERCX_STATUS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439583">SERCX_STATUS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406718">SerCxRetrieveReceiveBuffer</a>
  
 
  

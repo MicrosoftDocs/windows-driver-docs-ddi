@@ -52,17 +52,6 @@ req.typenames: SDPROP_MEDIA_STATE
 The SDPROP_MEDIA_STATE enumeration lists the values associated with the media states property.
 
 
-## -syntax
-
-
-````
-typedef enum  { 
-  SDPMS_NO_MEDIA        = 0,
-  SDPMS_MEDIA_INSERTED  = 1
-} SDPROP_MEDIA_STATE;
-````
-
-
 ## -enum-fields
 
 
@@ -80,7 +69,6 @@ Indicates that the media is inserted.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537914">SdBusSubmitRequestAsync</a>
 
 
 
@@ -92,6 +80,7 @@ Indicates that the media is inserted.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537914">SdBusSubmitRequestAsync</a>
  
 
  

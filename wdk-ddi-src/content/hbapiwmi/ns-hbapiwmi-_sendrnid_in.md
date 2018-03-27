@@ -52,17 +52,6 @@ req.typenames: SendRNID_IN, *PSendRNID_IN
 The SendRNID_IN structure is used to deliver input parameter data to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565459">SendRNID</a> WMI method.
 
 
-## -syntax
-
-
-````
-typedef struct _SendRNID_IN {
-  UCHAR wwn[8];
-  ULONG wwntype;
-} SendRNID_IN, *PSendRNID_IN;
-````
-
-
 ## -struct-fields
 
 
@@ -89,10 +78,10 @@ The WMI tool suite generates a declaration of the SendRNID_IN structure in <i>Hb
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565459">SendRNID</a>
-
-
-
  
 
  

@@ -52,17 +52,6 @@ req.typenames: D3DKMT_BRIGHTNESS_POSSIBLE_LEVELS
 Contains information about all possible brightness levels that an integrated display panel supports.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DKMT_BRIGHTNESS_POSSIBLE_LEVELS {
-  UCHAR LevelCount;
-  UCHAR BrightnessLevels[256];
-} D3DKMT_BRIGHTNESS_POSSIBLE_LEVELS;
-````
-
-
 ## -struct-fields
 
 

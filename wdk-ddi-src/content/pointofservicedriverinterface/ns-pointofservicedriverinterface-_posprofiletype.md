@@ -52,17 +52,6 @@ req.typenames: PosProfileType
 This structure describes the number of profile strings in a buffer.
 
 
-## -syntax
-
-
-````
-typedef struct _PosProfileType {
-  UINT32 EntryCount;
-  UINT32 DataLength;
-} PosProfileType;
-````
-
-
 ## -struct-fields
 
 

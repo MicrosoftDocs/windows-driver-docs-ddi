@@ -51,24 +51,7 @@ req.typenames: D3DKMT_VIDSCHESCAPETYPE
 
 <b>Do not use the D3DKMT_VIDSCHESCAPETYPE enumeration; it is for testing purposes only.</b>
 
-The D3DKMT_VIDMMESCAPETYPE enumeration is used with the <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_vidsch_escape.md">D3DKMT_VIDSCH_ESCAPE</a> structure.
-
-
-## -syntax
-
-
-````
-typedef enum _D3DKMT_VIDSCHESCAPETYPE { 
-  D3DKMT_VIDSCHESCAPETYPE_PREEMPTIONCONTROL    = 0,
-  D3DKMT_VIDSCHESCAPETYPE_SUSPENDSCHEDULER     = 1,
-  D3DKMT_VIDSCHESCAPETYPE_TDRCONTROL           = 2,
-  D3DKMT_VIDSCHESCAPETYPE_SUSPENDRESUME        = 3,
-#if (DXGKDDI_INTERFACE_VERSION >= DXGKDDI_INTERFACE_VERSION_WIN8)
-  D3DKMT_VIDSCHESCAPETYPE_ENABLECONTEXTDELAY   = 4,
-#endif 
-  D3DKMT_VIDSCHESCAPETYPE_CONFIGURE_TDR_LIMIT  = 5
-} D3DKMT_VIDSCHESCAPETYPE;
-````
+The D3DKMT_VIDMMESCAPETYPE enumeration is used with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff548413">D3DKMT_VIDSCH_ESCAPE</a> structure.
 
 
 ## -enum-fields

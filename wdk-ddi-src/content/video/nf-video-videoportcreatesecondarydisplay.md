@@ -53,18 +53,6 @@ req.product: Windows 10 or later.
 The <b>VideoPortCreateSecondaryDisplay</b> function enables dual-view support by creating a secondary device object for the given device.
 
 
-## -syntax
-
-
-````
-VP_STATUS VideoPortCreateSecondaryDisplay(
-  _In_    PVOID HwDeviceExtension,
-  _Inout_ PVOID *SecondaryDeviceExtension,
-  _In_    ULONG ulFlag
-);
-````
-
-
 ## -parameters
 
 

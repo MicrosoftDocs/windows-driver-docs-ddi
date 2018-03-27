@@ -52,27 +52,12 @@ req.typenames: D3D11_1DDI_GETCAPTUREHANDLEDATA
 The <i>pfnGetBitstreamEncryptionSchemeCount</i> callback function retrieves the number of encryption schemes supported for a decode profile.
 
 
-## -prototype
-
-
-````
-PFND3D12DDI_VIDEO_GET_BITSTREAM_ENCRYPTION_SCHEME_COUNT_0020 pfnGetBitstreamEncryptionSchemeCount;
-
-UINT APIENTRY* pfnGetBitstreamEncryptionSchemeCount(
-   D3D12DDI_HDEVICE hDrvDevice,
-   UINT             NodeIndex,
-   REFGUID          DecodeProfile
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
 
 
-### -param D3D12DDI_HDEVICE
+### -param Arg1
 
 
 ### -param NodeIndex

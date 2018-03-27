@@ -53,17 +53,6 @@ req.typenames:
                  Gives information about new cursors associated with a monitor.
 
 
-## -syntax
-
-
-````
-typedef struct IDARG_IN_SETUP_HWCURSOR {
-  IDDCX_CURSOR_CAPS CursorInfo;
-  HANDLE            hNewCursorDataAvailable;
-} IDARG_IN_SETUP_HWCURSOR, *IDARG_IN_SETUP_HWCURSOR;
-````
-
-
 ## -struct-fields
 
 

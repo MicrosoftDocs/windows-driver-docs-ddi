@@ -52,21 +52,6 @@ req.typenames: RILCBMSGCONFIG, *LPRILCBMSGCONFIG
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef struct _RILCBMSGCONFIG {
-  DWORD                    cbSize;
-  DWORD                    dwParams;
-  DWORD                    dwGWLConfigInfoSize;
-  RILCBGWLCONFIGINFO [50]  GWLConfigInfo;
-  DWORD                    dwCDMAConfigInfoSize;
-  RILCBCDMACONFIGINFO [50] CDMAConfigInfo;
-} RILCBMSGCONFIG, RILCBMSGCONFIG;
-````
-
-
 ## -struct-fields
 
 

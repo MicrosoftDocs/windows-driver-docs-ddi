@@ -53,16 +53,6 @@ req.product: Windows 10 or later.
 The PHW_TIMER routine prototype declares a SCSI miniport driver's timer routine.
 
 
-## -prototype
-
-
-````
-typedef VOID (*PHW_TIMER)(
-  _In_ PVOID DeviceExtension 
-);
-````
-
-
 ## -parameters
 
 
@@ -86,7 +76,7 @@ None
 
 
 
-The SCSI miniport driver's timer routine, <a href="..\srb\nc-srb-phw_timer.md">HwScsiTimer</a>, is called after the interval specified when the miniport driver called <b>ScsiPortNotification</b> with the <b>RequestTimerCall</b><i>NotificationType</i> value.
+The SCSI miniport driver's timer routine, <a href="https://msdn.microsoft.com/library/windows/hardware/ff557327">HwScsiTimer</a>, is called after the interval specified when the miniport driver called <b>ScsiPortNotification</b> with the <b>RequestTimerCall</b><i>NotificationType</i> value.
 
 Miniport drivers that work with the StorPort driver do not use this timer routine. 
 
@@ -95,10 +85,10 @@ Miniport drivers that work with the StorPort driver do not use this timer routin
 
 ## -see-also
 
-<a href="..\srb\nc-srb-phw_timer.md">HwScsiTimer</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557327">HwScsiTimer</a>
  
 
  

@@ -52,17 +52,6 @@ req.typenames: TOKEN_SOURCE, *PTOKEN_SOURCE
 TOKEN_SOURCE identifies the source of an access token. 
 
 
-## -syntax
-
-
-````
-typedef struct _TOKEN_SOURCE {
-  CHAR SourceName[TOKEN_SOURCE_LENGTH];
-  LUID SourceIdentifier;
-} TOKEN_SOURCE, *PTOKEN_SOURCE;
-````
-
-
 ## -struct-fields
 
 
@@ -80,26 +69,26 @@ Specifies a locally unique identifier (LUID) provided by the source component na
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-sequeryinformationtoken.md">SeQueryInformationToken</a>
 
 
 
-<a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557080">LUID</a>
 
 
 
-<a href="..\ntifs\ne-ntifs-_token_information_class.md">TOKEN_INFORMATION_CLASS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556690">SeQueryInformationToken</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-zwsetinformationtoken.md">ZwSetInformationToken</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556838">TOKEN_INFORMATION_CLASS</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-zwqueryinformationtoken.md">ZwQueryInformationToken</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567055">ZwQueryInformationToken</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567102">ZwSetInformationToken</a>
  
 
  

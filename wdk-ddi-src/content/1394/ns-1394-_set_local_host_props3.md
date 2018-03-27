@@ -52,19 +52,6 @@ req.typenames: SET_LOCAL_HOST_PROPS3, *PSET_LOCAL_HOST_PROPS3
 SET_LOCAL_HOST_PROPS3 contains the data necessary for defining or identifying one or more unit directories in the Configuration ROM of a 1394 Host Controller. 
 
 
-## -syntax
-
-
-````
-typedef struct _SET_LOCAL_HOST_PROPS3 {
-  ULONG  fulFlags;
-  HANDLE hCromData;
-  ULONG  nLength;
-  PMDL   Mdl;
-} SET_LOCAL_HOST_PROPS3, *PSET_LOCAL_HOST_PROPS3;
-````
-
-
 ## -struct-fields
 
 
@@ -131,7 +118,6 @@ The first element of the buffer pointed to by <b>Mdl</b> must be a unit director
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537663">REQUEST_SET_LOCAL_HOST_PROPERTIES</a>
 
 
 
@@ -139,6 +125,7 @@ The first element of the buffer pointed to by <b>Mdl</b> must be a unit director
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537663">REQUEST_SET_LOCAL_HOST_PROPERTIES</a>
  
 
  

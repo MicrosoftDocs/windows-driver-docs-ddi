@@ -50,21 +50,10 @@ req.product: Windows 10 or later.
 ## -description
 
 
-<p class="CCE_Message">[CamStartCapture is not supported and may be altered or unavailable in the future. Instead, use <a href="..\usbcamdi\nc-usbcamdi-pcam_start_capture_routine_ex.md">CamStartCaptureEx</a>.
+<p class="CCE_Message">[CamStartCapture is not supported and may be altered or unavailable in the future. Instead, use <a href="https://msdn.microsoft.com/library/windows/hardware/ff557640">CamStartCaptureEx</a>.
 ]
 
 A camera minidriver's <b>CamStartCapture</b> callback function selects the appropriate alternate setting within the USB video streaming interface and prepares the device to stream.
-
-
-## -prototype
-
-
-````
-NTSTATUS CamStartCapture(
-   PDEVICE_OBJECT BusDeviceObject,
-   PVOID          DeviceContext
-);
-````
 
 
 ## -parameters
@@ -95,7 +84,7 @@ Pointer to camera minidriver's device context.
 
 
 
-Camera minidrivers that must maintain backward compatibility with the original USBCAMD must use the <a href="..\usbcamdi\ns-usbcamdi-_usbcamd_device_data.md">USBCAMD_DEVICE_DATA</a> structure and its associated callback functions (that is, callback functions that do not contain the "Ex" suffix).
+Camera minidrivers that must maintain backward compatibility with the original USBCAMD must use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff568585">USBCAMD_DEVICE_DATA</a> structure and its associated callback functions (that is, callback functions that do not contain the "Ex" suffix).
 
 USBCAMD calls the camera minidriver's <b>CamStartCapture</b> callback function immediately prior to the start of the isochronous video capture stream. <b>CamStartCapture</b> is called in the context of a <b>Run</b> command.
 
@@ -106,18 +95,18 @@ This function is required.
 
 ## -see-also
 
-<a href="..\usbcamdi\ns-usbcamdi-_usbcamd_device_data.md">USBCAMD_DEVICE_DATA</a>
 
 
 
-<a href="..\usbcamdi\ns-usbcamdi-_usbcamd_device_data2.md">USBCAMD_DEVICE_DATA2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557640">CamStartCaptureEx</a>
 
 
 
-<a href="..\usbcamdi\nc-usbcamdi-pcam_start_capture_routine_ex.md">CamStartCaptureEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568585">USBCAMD_DEVICE_DATA</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568590">USBCAMD_DEVICE_DATA2</a>
  
 
  

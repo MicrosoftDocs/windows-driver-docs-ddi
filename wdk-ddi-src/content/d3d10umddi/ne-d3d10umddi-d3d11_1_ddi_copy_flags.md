@@ -52,18 +52,6 @@ req.typenames: D3D11_1_DDI_COPY_FLAGS
 Specifies how to handle the existing contents of a resource during a copy or update operation of a region within that resource. Used by Windows Display Driver Model (WDDM) 1.2 and later user-mode display drivers.
 
 
-## -syntax
-
-
-````
-typedef enum D3D11_1_DDI_COPY_FLAGS { 
-  D3D11_1DDI_COPY_NO_OVERWRITE  = 0x00000001,
-  D3D11_1DDI_COPY_DISCARD       = 0x00000002,
-  D3D11_1DDI_COPY_TILEABLE      = 0x00000004
-} D3D11_1_DDI_COPY_FLAGS;
-````
-
-
 ## -enum-fields
 
 

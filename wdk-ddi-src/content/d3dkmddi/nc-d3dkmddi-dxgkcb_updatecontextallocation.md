@@ -54,20 +54,6 @@ req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
 The call to <b>DxgkCbUpdateContextAllocation</b> returns when the update to the context allocation is completed.
 
 
-## -prototype
-
-
-````
-DXGKCB_UPDATECONTEXTALLOCATION DxgkCbUpdateContextAllocation;
-
-NTSTATUS APIENTRY DxgkCbUpdateContextAllocation(
-  _In_ const HANDLE                            hAdapter,
-  _In_ const DXGKARGCB_UPDATECONTEXTALLOCATION *pArgs
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -80,7 +66,7 @@ A handle to the display adapter.
 
 ### -param pArgs [in]
 
-The <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkargcb_updatecontextallocation.md">DXGKARGCB_UPDATECONTEXTALLOCATION</a> structure that describes the operation.
+The <a href="https://msdn.microsoft.com/library/windows/hardware/dn906820">DXGKARGCB_UPDATECONTEXTALLOCATION</a> structure that describes the operation.
 
 
 ## -returns
@@ -95,14 +81,14 @@ The <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkargcb_updatecontextallocation.md">DXGK
 
 ## -see-also
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_updatecontextallocation.md">DxgkCbUpdateContextAllocation</a>
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkargcb_updatecontextallocation.md">DXGKARGCB_UPDATECONTEXTALLOCATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn906820">DXGKARGCB_UPDATECONTEXTALLOCATION</a>
 
 
 
+<a href="https://msdn.microsoft.com/708A33C2-9620-4259-845A-2F862B6F209B">DxgkCbUpdateContextAllocation</a>
  
 
  

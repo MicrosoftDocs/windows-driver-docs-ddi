@@ -53,32 +53,6 @@ req.product: Windows 10 or later.
 The <b>UFS_UNIT_DESCRIPTOR</b> structure describes a generic unit descriptor.
 
 
-## -syntax
-
-
-````
-typedef struct _UFS_UNIT_DESCRIPTOR {
-  UCHAR bLength;
-  UCHAR bDescriptorIDN;
-  UCHAR bUnitIndex;
-  UCHAR bLUEnable;
-  UCHAR bBootLUNID;
-  UCHAR bLUWriteProtect;
-  UCHAR bLUQueueDepth;
-  UCHAR bPSASensitive;
-  UCHAR bMemoryType;
-  UCHAR bDataReliability;
-  UCHAR  bLogicalBlockSize;
-  UCHAR qLogicalBlockCount[8];
-  UCHAR dEraseBlockSize[4];
-  UCHAR bProvisioningType;
-  UCHAR qPhyMemResourceCount[8];
-  UCHAR wContextCapabilities[2];
-  UCHAR bLargeUnitGranularity_M1;
-} UFS_UNIT_DESCRIPTOR, *PUFS_UNIT_DESCRIPTOR;
-````
-
-
 ## -struct-fields
 
 
@@ -162,7 +136,7 @@ Specifies if the logical unit is sensitive to soldering. Contains one of the fol
 
 ### -field bMemoryType
 
-Specifies the desired memory type. The <b>wSupportedMemoryTypes</b> parameter in the <a href="..\ufs\ns-ufs-ufs_geometry_descriptor.md">UFS_GEOMETRY_DESCRIPTOR</a> indicates which memory types are supported by the device
+Specifies the desired memory type. The <b>wSupportedMemoryTypes</b> parameter in the <a href="https://msdn.microsoft.com/DD3AEB66-E36B-4F18-AFEC-D344132D4B8C">UFS_GEOMETRY_DESCRIPTOR</a> indicates which memory types are supported by the device
 
 
 ### -field bDataReliability
@@ -172,7 +146,7 @@ Specifies if the device is protected against a power failure during a write oper
 
 ### -field bLogicalBlockSize
 
-Specifies the logical block size of the descriptor. Set the value of this equal to the corresponding value in <b>dOptimalLogicalBlockSize</b> of <a href="..\ufs\ns-ufs-ufs_geometry_descriptor.md">UFS_GEOMETRY_DESCRIPTOR</a> for the specific logical unit memory type.
+Specifies the logical block size of the descriptor. Set the value of this equal to the corresponding value in <b>dOptimalLogicalBlockSize</b> of <a href="https://msdn.microsoft.com/DD3AEB66-E36B-4F18-AFEC-D344132D4B8C">UFS_GEOMETRY_DESCRIPTOR</a> for the specific logical unit memory type.
 
 
 ### -field qLogicalBlockCount
@@ -221,14 +195,14 @@ Specifies the boot LUN id.
 
 ## -see-also
 
-<a href="..\ufs\ns-ufs-ufs_rpmb_unit_descriptor.md">UFS_RPMB_UNIT_DESCRIPTOR</a>
 
 
 
-<a href="..\ufs\ns-ufs-ufs_geometry_descriptor.md">UFS_GEOMETRY_DESCRIPTOR</a>
+<a href="https://msdn.microsoft.com/DD3AEB66-E36B-4F18-AFEC-D344132D4B8C">UFS_GEOMETRY_DESCRIPTOR</a>
 
 
 
+<a href="https://msdn.microsoft.com/19A066BD-1099-475C-BF81-F1BE7C7778E5">UFS_RPMB_UNIT_DESCRIPTOR</a>
  
 
  

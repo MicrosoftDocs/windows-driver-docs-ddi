@@ -53,25 +53,6 @@ req.product: Windows 10 or later.
 The WWAN_IP_ADDRESS_STATE structure represents the IP addresses, gateways, DNS servers, and/or MTUs of a PDP context.
 
 
-## -syntax
-
-
-````
-typedef struct _WWAN_IP_ADDRESS_STATE {
-  WWAN_IP_CONFIGURATION_FLAGS IPv4Flags;
-  WWAN_IP_CONFIGURATION_FLAGS IPv6Flags;
-  ULONG                       IPv4MTU;
-  ULONG                       IPv6MTU;
-  PWWAN_IPADDRESS_ENTRY       IpTable;
-  ULONG                       IpCount;
-  PWWAN_IPADDRESS_ENTRY       GatewayTable;
-  ULONG                       GatewayCount;
-  PWWAN_IPADDRESS_ENTRY       DnsTable;
-  ULONG                       DnsCount;
-} WWAN_IP_ADDRESS_STATE, *PWWAN_IP_ADDRESS_STATE;
-````
-
-
 ## -struct-fields
 
 
@@ -129,14 +110,14 @@ The number of entries in the <b>DnsTable</b> array.
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_ipaddress_entry.md">WWAN_IPADDRESS_ENTRY</a>
 
 
 
-<a href="..\wwan\ns-wwan-wwan_ip_configuration_flags.md">WWAN_IP_CONFIGURATION_FLAGS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn449756">WWAN_IPADDRESS_ENTRY</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn449758">WWAN_IP_CONFIGURATION_FLAGS</a>
  
 
  

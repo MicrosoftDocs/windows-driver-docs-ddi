@@ -54,14 +54,6 @@ The
   <b>NdisGetVersion</b> function returns the version number of NDIS.
 
 
-## -syntax
-
-
-````
-UINT NdisGetVersion(void);
-````
-
-
 ## -parameters
 
 

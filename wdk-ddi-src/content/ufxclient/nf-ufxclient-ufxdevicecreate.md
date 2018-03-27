@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
@@ -53,20 +53,6 @@ req.product: Windows 10 or later.
 Creates a UFX device object, registers event callback routines, and specifies capabilities specific to the controller.
 
 
-## -syntax
-
-
-````
-NTSTATUS UfxDeviceCreate(
-  [in]           WDFDEVICE                Device,
-  [in]           UFX_DEVICE_CALLBACKS     Callbacks,
-  [in]           PUFX_DEVICE_CAPABILITIES Capabilities,
-  [in, optional] PWDF_OBJECT_ATTRIBUTES   Attributes,
-  [out]          UFXDEVICE                *UfxDevice
-);
-````
-
-
 ## -parameters
 
 
@@ -79,17 +65,17 @@ TBD
 
 ### -param Callbacks [in]
 
-A structure of type <a href="..\ufxclient\ns-ufxclient-_ufx_device_callbacks.md">UFX_DEVICE_CALLBACKS</a> that contains pointers to driver-supplied callback routines to be associated with the UFX device object.
+A structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/mt187971">UFX_DEVICE_CALLBACKS</a> that contains pointers to driver-supplied callback routines to be associated with the UFX device object.
 
 
 ### -param Capabilities [in]
 
-A pointer to a <a href="..\ufxbase\ns-ufxbase-_ufx_device_capabilities.md">UFX_DEVICE_CAPABILITIES</a> structure.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/mt187973">UFX_DEVICE_CAPABILITIES</a> structure.
 
 
 ### -param Attributes [in, optional]
 
-A pointer to a <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a> structure that contains driver-supplied attributes for the new object. This parameter is optional and can be <b>WDF_NO_OBJECT_ATTRIBUTES</b>.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff552400">WDF_OBJECT_ATTRIBUTES</a> structure that contains driver-supplied attributes for the new object. This parameter is optional and can be <b>WDF_NO_OBJECT_ATTRIBUTES</b>.
 
 
 ### -param UfxDevice [out]
@@ -117,7 +103,7 @@ If the operation is successful, the method returns STATUS_SUCCESS, or another st
 
 
 
-The client driver must call <a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a> before it calls <b>UfxDeviceCreate</b>. Typically, the client driver calls  <b>UfxDeviceCreate</b> from its <a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a> callback routine.
+The client driver must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff545926">WdfDeviceCreate</a> before it calls <b>UfxDeviceCreate</b>. Typically, the client driver calls  <b>UfxDeviceCreate</b> from its <a href="https://msdn.microsoft.com/b20db029-ee2c-4fb1-bd69-ccd2e37fdc9a">EvtDriverDeviceAdd</a> callback routine.
 
 The following code snippet shows how to call <b>UfxDeviceCreate</b>.
 

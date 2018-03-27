@@ -52,21 +52,6 @@ req.typenames: D3D11DDIARG_CREATEGEOMETRYSHADERWITHSTREAMOUTPUT
 The D3D11DDIARG_CREATEGEOMETRYSHADERWITHSTREAMOUTPUT structure describes the geometry shader with stream output to create. 
 
 
-## -syntax
-
-
-````
-typedef struct D3D11DDIARG_CREATEGEOMETRYSHADERWITHSTREAMOUTPUT {
-  const UINT                                        *pShaderCode;
-  const D3D11DDIARG_STREAM_OUTPUT_DECLARATION_ENTRY *pOutputStreamDecl;
-  UINT                                              NumEntries;
-  const UINT                                        *BufferStridesInBytes;
-  UINT                                              NumStrides;
-  UINT                                              RasterizedStream;
-} D3D11DDIARG_CREATEGEOMETRYSHADERWITHSTREAMOUTPUT;
-````
-
-
 ## -struct-fields
 
 
@@ -79,7 +64,7 @@ typedef struct D3D11DDIARG_CREATEGEOMETRYSHADERWITHSTREAMOUTPUT {
 
 ### -field pOutputStreamDecl
 
-[in] An array of <a href="..\d3d10umddi\ns-d3d10umddi-d3d11ddiarg_stream_output_declaration_entry.md">D3D11DDIARG_STREAM_OUTPUT_DECLARATION_ENTRY</a> structures that describes the stream output for the geometry shader. 
+[in] An array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff542097">D3D11DDIARG_STREAM_OUTPUT_DECLARATION_ENTRY</a> structures that describes the stream output for the geometry shader. 
 
 
 ### -field NumEntries
@@ -104,18 +89,18 @@ typedef struct D3D11DDIARG_CREATEGEOMETRYSHADERWITHSTREAMOUTPUT {
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_calcprivategeometryshaderwithstreamoutput.md">CalcPrivateGeometryShaderWithStreamOutput</a>
 
 
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d11ddiarg_stream_output_declaration_entry.md">D3D11DDIARG_STREAM_OUTPUT_DECLARATION_ENTRY</a>
+<a href="https://msdn.microsoft.com/3e760b93-e859-4175-a24a-6bf3648db6db">CalcPrivateGeometryShaderWithStreamOutput</a>
 
 
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_creategeometryshaderwithstreamoutput.md">CreateGeometryShaderWithStreamOutput</a>
+<a href="https://msdn.microsoft.com/6ad1573d-4377-4795-8511-5d6cae96ee4f">CreateGeometryShaderWithStreamOutput</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542097">D3D11DDIARG_STREAM_OUTPUT_DECLARATION_ENTRY</a>
  
 
  

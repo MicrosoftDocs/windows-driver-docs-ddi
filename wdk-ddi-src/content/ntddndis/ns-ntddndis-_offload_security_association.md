@@ -52,20 +52,6 @@ req.typenames: OFFLOAD_SECURITY_ASSOCIATION, *POFFLOAD_SECURITY_ASSOCIATION
 The OFFLOAD_SECURITY_ASSOCIATION structure specifies a single security association (SA).
 
 
-## -syntax
-
-
-````
-typedef struct _OFFLOAD_SECURITY_ASSOCIATION {
-  OFFLOAD_OPERATION_E Operation;
-  SPI_TYPE            SPI;
-  OFFLOAD_ALGO_INFO   IntegrityAlgo;
-  OFFLOAD_ALGO_INFO   ConfAlgo;
-  OFFLOAD_ALGO_INFO   Reserved;
-} OFFLOAD_SECURITY_ASSOCIATION, *POFFLOAD_SECURITY_ASSOCIATION;
-````
-
-
 ## -struct-fields
 
 
@@ -100,7 +86,7 @@ The Security Parameters Index (SPI) for the SA.
 ### -field IntegrityAlgo
 
 The integrity (authentication) algorithm for the SA, formatted as an 
-     <a href="..\ntddndis\ns-ntddndis-_offload_algo_info.md">OFFLOAD_ALGO_INFO</a> structure.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568842">OFFLOAD_ALGO_INFO</a> structure.
 
 
 ### -field ConfAlgo
@@ -128,19 +114,19 @@ The OFFLOAD_SECURITY_ASSOCIATION structure is used with the
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568842">OFFLOAD_ALGO_INFO</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569808">OID_TCP_TASK_IPSEC_ADD_SA</a>
 
 
 
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-task-ipsec-add-udpesp-sa">
    OID_TCP_TASK_IPSEC_ADD_UDPESP_SA</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_offload_algo_info.md">OFFLOAD_ALGO_INFO</a>
-
-
-
  
 
  

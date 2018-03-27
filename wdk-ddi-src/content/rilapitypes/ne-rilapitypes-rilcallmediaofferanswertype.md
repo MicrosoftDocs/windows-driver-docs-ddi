@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,21 +51,6 @@ req.product: Windows 10 or later.
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef enum _RILCALLMEDIAOFFERANSWERTYPE { 
-  RIL_CALLMEDIAOFFERANSWERTYPE_CURRENT,
-  RIL_CALLMEDIAOFFERANSWERTYPE_OFFER,
-  RIL_CALLMEDIAOFFERANSWERTYPE_ANSWER,
-  RIL_CALLMEDIAOFFERANSWERTYPE_PEER_OFFER,
-  RIL_CALLMEDIAOFFERANSWERTYPE_PEER_ANSWER,
-  RIL_CALLMEDIAOFFERANSWERTYPE_MAX
-} RILCALLMEDIAOFFERANSWERTYPE;
-````
 
 
 ## -enum-fields

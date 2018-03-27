@@ -50,21 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The <b>HwStorProcessServiceRequest</b> callback routine receives the device control  IRP that contains the  <a href="..\ntddscsi\ni-ntddscsi-ioctl_miniport_process_service_irp.md">IOCTL_MINIPORT_PROCESS_SERVICE_IRP</a> request when a caller, such as a user-mode application or kernel-mode driver, requires a "reverse callback" operation. The I/O is completed by the miniport driver when it needs to tell the caller of something or needs the caller to do something.
-
-
-## -prototype
-
-
-````
-HW_PROCESS_SERVICE_REQUEST HwStorProcessServiceRequest;
-
-VOID HwStorProcessServiceRequest(
-   IN PVOID DeviceExtension,
-   IN PVOID Irp
-)
-{ ... }
-````
+The <b>HwStorProcessServiceRequest</b> callback routine receives the device control  IRP that contains the  <a href="https://msdn.microsoft.com/library/windows/hardware/ff560432">IOCTL_MINIPORT_PROCESS_SERVICE_IRP</a> request when a caller, such as a user-mode application or kernel-mode driver, requires a "reverse callback" operation. The I/O is completed by the miniport driver when it needs to tell the caller of something or needs the caller to do something.
 
 
 ## -parameters
@@ -112,7 +98,7 @@ HW_PROCESS_SERVICE_REQUEST (
 </td>
 </tr>
 </table></span></div>
-The port driver calls the Storport virtual miniport driver's <b>HwStorProcessServiceRequest</b> routine at PASSIVE_LEVEL. The virtual miniport driver completes the IRP by calling the <a href="..\storport\nf-storport-storportcompleteserviceirp.md">StorPortCompleteServiceIrp</a> routine.
+The port driver calls the Storport virtual miniport driver's <b>HwStorProcessServiceRequest</b> routine at PASSIVE_LEVEL. The virtual miniport driver completes the IRP by calling the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567043">StorPortCompleteServiceIrp</a> routine.
 
 
 #### Examples
@@ -158,14 +144,14 @@ The <b>HW_PROCESS_SERVICE_REQUEST</b> function type is defined in the Storport.h
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportcompleteserviceirp.md">StorPortCompleteServiceIrp</a>
 
 
 
-<a href="..\ntddscsi\ni-ntddscsi-ioctl_miniport_process_service_irp.md">IOCTL_MINIPORT_PROCESS_SERVICE_IRP</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560432">IOCTL_MINIPORT_PROCESS_SERVICE_IRP</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567043">StorPortCompleteServiceIrp</a>
  
 
  

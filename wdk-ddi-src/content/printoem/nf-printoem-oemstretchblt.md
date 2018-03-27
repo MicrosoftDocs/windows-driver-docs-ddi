@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,26 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <code>OEMStretchBlt</code> function provides stretching bit-block transfer capabilities between any combination of device-managed and GDI-managed surfaces. 
-
-
-## -syntax
-
-
-````
-BOOL APIENTRY OEMStretchBlt(
-   SURFOBJ         *psoDest,
-   SURFOBJ         *psoSrc,
-   SURFOBJ         *psoMask,
-   CLIPOBJ         *pco,
-   XLATEOBJ        *pxlo,
-   COLORADJUSTMENT *pca,
-   POINTL          *pptlHTOrg,
-   RECTL           *prclDest,
-   RECTL           *prclSrc,
-   POINTL          *pptlMask,
-   ULONG           iMode
-);
-````
 
 
 ## -parameters

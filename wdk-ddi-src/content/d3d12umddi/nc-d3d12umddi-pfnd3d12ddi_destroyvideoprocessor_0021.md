@@ -52,20 +52,6 @@ req.typenames: D3D11_1DDI_GETCAPTUREHANDLEDATA
 The <i>pfnDestroyVideoProcessor</i> callback function destroys a video processor.
 
 
-## -prototype
-
-
-````
-PFND3D12DDI_DESTROYVIDEOPROCESSOR_0021 pfnDestroyVideoProcessor;
-
-VOID APIENTRY* pfnDestroyVideoProcessor(
-   D3D12DDI_HDEVICE         hDrvDevice,
-   D3D12DDI_HVIDEOPROCESSOR hDrvVideoProcessor
-)
-{ ... }
-````
-
-
 ## -parameters
 
 

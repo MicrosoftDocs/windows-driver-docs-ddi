@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: ndis.h
+req.lib: 
 req.dll: 
 req.irql: Any level
 topic_type:
@@ -52,16 +52,6 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 <b>NdisGetPhysicalAddressHigh</b> returns the high-order part of a given physical address.
 
 
-## -syntax
-
-
-````
-ULONG NdisGetPhysicalAddressHigh(
-  [in] NDIS_PHYSICAL_ADDRESS PhysicalAddress
-);
-````
-
-
 ## -parameters
 
 
@@ -74,11 +64,6 @@ Specifies a physical address of an OS-dependent size.
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisgetphysicaladdresslow.md">NdisGetPhysicalAddressLow</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndissetphysicaladdresshigh.md">NdisSetPhysicalAddressHigh</a>
 
 
 
@@ -86,6 +71,11 @@ Specifies a physical address of an OS-dependent size.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562654">NdisGetPhysicalAddressLow</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564551">NdisSetPhysicalAddressHigh</a>
  
 
  

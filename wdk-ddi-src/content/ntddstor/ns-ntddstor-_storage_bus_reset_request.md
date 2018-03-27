@@ -49,17 +49,7 @@ req.typenames: STORAGE_BUS_RESET_REQUEST, *PSTORAGE_BUS_RESET_REQUEST
 ## -description
 
 
-The STORAGE_BUS_RESET_REQUEST structure is used in conjunction with the <a href="..\ntddstor\ni-ntddstor-ioctl_storage_reset_bus.md">IOCTL_STORAGE_RESET_BUS</a> request to specify the path of the bus to be reset.
-
-
-## -syntax
-
-
-````
-typedef struct _STORAGE_BUS_RESET_REQUEST {
-  UCHAR PathId;
-} STORAGE_BUS_RESET_REQUEST, *PSTORAGE_BUS_RESET_REQUEST;
-````
+The STORAGE_BUS_RESET_REQUEST structure is used in conjunction with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560600">IOCTL_STORAGE_RESET_BUS</a> request to specify the path of the bus to be reset.
 
 
 ## -struct-fields
@@ -74,10 +64,10 @@ Indicates the number of the bus to be reset.
 
 ## -see-also
 
-<a href="..\ntddstor\ni-ntddstor-ioctl_storage_reset_bus.md">IOCTL_STORAGE_RESET_BUS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560600">IOCTL_STORAGE_RESET_BUS</a>
  
 
  

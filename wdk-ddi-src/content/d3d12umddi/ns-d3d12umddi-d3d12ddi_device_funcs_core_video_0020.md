@@ -52,16 +52,6 @@ req.typenames: D3D12DDI_DEVICE_FUNCS_CORE_VIDEO_0020
 This structure contains device functions for core features in  video.
 
 
-## -syntax
-
-
-````
-typedef struct _D3D12DDI_DEVICE_FUNCS_CORE_VIDEO_0020 {
-  PFND3D12DDI_GETPAGEABLESIZE_0020 pfnGetPageableSize;
-} D3D12DDI_DEVICE_FUNCS_CORE_VIDEO_0020;
-````
-
-
 ## -struct-fields
 
 

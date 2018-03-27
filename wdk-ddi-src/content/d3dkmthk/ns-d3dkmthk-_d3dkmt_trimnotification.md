@@ -52,18 +52,6 @@ req.typenames: D3DKMT_TRIMNOTIFICATION
 <b>D3DKMT_TRIMNOTIFICATION</b> is used to notify a driver to trim its memory residency list.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DKMT_TRIMNOTIFICATION {
-  VOID                          *Context;
-  D3DDDI_TRIMRESIDENCYSET_FLAGS Flags;
-  UINT64                        NumBytesToTrim;
-} D3DKMT_TRIMNOTIFICATION;
-````
-
-
 ## -struct-fields
 
 
@@ -76,7 +64,7 @@ typedef struct _D3DKMT_TRIMNOTIFICATION {
 
 ### -field Flags
 
-[in] A <a href="..\d3dukmdt\ns-d3dukmdt-d3dddi_trimresidencyset_flags.md">D3DDDI_TRIMRESIDENCYSET_FLAGS</a> structure containing the trimming behavior flags.
+[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/dn906328">D3DDDI_TRIMRESIDENCYSET_FLAGS</a> structure containing the trimming behavior flags.
 
 
 ### -field NumBytesToTrim
@@ -86,10 +74,10 @@ typedef struct _D3DKMT_TRIMNOTIFICATION {
 
 ## -see-also
 
-<a href="..\d3dukmdt\ns-d3dukmdt-d3dddi_trimresidencyset_flags.md">D3DDDI_TRIMRESIDENCYSET_FLAGS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn906328">D3DDDI_TRIMRESIDENCYSET_FLAGS</a>
  
 
  

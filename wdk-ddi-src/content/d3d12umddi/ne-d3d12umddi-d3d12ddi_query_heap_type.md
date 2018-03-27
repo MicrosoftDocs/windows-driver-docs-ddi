@@ -52,21 +52,6 @@ req.typenames: D3D12DDI_QUERY_HEAP_TYPE
 Type of a query heap, which is an array of query results.
 
 
-## -syntax
-
-
-````
-typedef enum D3D12DDI_QUERY_HEAP_TYPE { 
-  D3D12DDI_QUERY_HEAP_TYPE_OCCLUSION                     = 0,
-  D3D12DDI_QUERY_HEAP_TYPE_TIMESTAMP                     = 1,
-  D3D12DDI_QUERY_HEAP_TYPE_PIPELINE_STATISTICS           = 2,
-  D3D12DDI_QUERY_HEAP_TYPE_SO_STATISTICS                 = 3,
-  D3D12DDI_QUERY_HEAP_TYPE_0020_VIDEO_DECODE_STATISTICS  = 4,
-  D3D12DDI_QUERY_HEAP_TYPE_0032_COPY_QUEUE_TIMESTAMP     = 5
-} D3D12DDI_QUERY_HEAP_TYPE;
-````
-
-
 ## -enum-fields
 
 

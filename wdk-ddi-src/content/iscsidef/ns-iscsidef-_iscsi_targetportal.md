@@ -52,18 +52,6 @@ req.typenames: ISCSI_TargetPortal, *PISCSI_TargetPortal
 The ISCSI_TargetPortal structure provides a definition of a target portal. 
 
 
-## -syntax
-
-
-````
-typedef struct _ISCSI_TargetPortal {
-  ISCSI_IP_Address Address;
-  ULONG            Reserved;
-  USHORT           Socket;
-} ISCSI_TargetPortal, *PISCSI_TargetPortal;
-````
-
-
 ## -struct-fields
 
 
@@ -71,7 +59,7 @@ typedef struct _ISCSI_TargetPortal {
 
 ### -field Address
 
-A <a href="..\iscsidef\ns-iscsidef-_iscsi_ip_address.md">ISCSI_IP_Address</a> structure that indicates the IP address of the portal. The ISCSI_IP_Address structure provides a way to define an IP address that is independent of the version of the IP protocol that the initiator and the target use.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff561536">ISCSI_IP_Address</a> structure that indicates the IP address of the portal. The ISCSI_IP_Address structure provides a way to define an IP address that is independent of the version of the IP protocol that the initiator and the target use.
 
 
 ### -field Reserved
@@ -86,14 +74,14 @@ Socket number associated with the target.
 
 ## -see-also
 
-<a href="..\iscsidef\ns-iscsidef-_iscsi_ip_address.md">ISCSI_IP_Address</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561536">ISCSI_IP_Address</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561577">ISCSI_TargetPortal WMI Class</a>
-
-
-
  
 
  

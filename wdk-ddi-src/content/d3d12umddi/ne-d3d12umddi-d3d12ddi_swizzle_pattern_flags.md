@@ -52,17 +52,6 @@ req.typenames: D3D12DDI_SWIZZLE_PATTERN_FLAGS
 Specifies swizzle pattern flags.
 
 
-## -syntax
-
-
-````
-typedef enum D3D12DDI_SWIZZLE_PATTERN_FLAGS { 
-  D3D12DDI_SWIZZLE_PATTERN_FLAGS_NONE                = 0,
-  D3D12DDI_SWIZZLE_PATTERN_FLAGS_STACK_DEPTH_SLICES  = 0x1
-} D3D12DDI_SWIZZLE_PATTERN_FLAGS;
-````
-
-
 ## -enum-fields
 
 

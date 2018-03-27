@@ -52,17 +52,6 @@ req.typenames: RILSIGNALQUALITYCAPS
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef enum _RILSIGNALQUALITYCAPS { 
-  RIL_CAPS_SIGNALQUALITY_POLLING,
-  RIL_CAPS_SIGNALQUALITY_MAX
-} RILSIGNALQUALITYCAPS;
-````
-
-
 ## -enum-fields
 
 

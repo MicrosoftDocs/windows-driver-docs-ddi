@@ -52,25 +52,6 @@ req.typenames: DXVA_COPPSetSignalingCmdData
 The DXVA_COPPSetSignalingCmdData structure describes how to protect the signal that goes through the physical connector associated with the DirectX VA COPP device.
 
 
-## -syntax
-
-
-````
-typedef struct _DXVA_COPPSetSignalingCmdData {
-  ULONG ActiveTVProtectionStandard;
-  ULONG AspectRatioChangeMask1;
-  ULONG AspectRatioData1;
-  ULONG AspectRatioChangeMask2;
-  ULONG AspectRatioData2;
-  ULONG AspectRatioChangeMask3;
-  ULONG AspectRatioData3;
-  ULONG ExtendedInfoChangeMask[4];
-  ULONG ExtendedInfoData[4];
-  ULONG Reserved;
-} DXVA_COPPSetSignalingCmdData;
-````
-
-
 ## -struct-fields
 
 
@@ -232,7 +213,6 @@ Reserved. Should be set to zero.
 
 ## -see-also
 
-<a href="..\dxva\ns-dxva-_dxva_coppcommand.md">DXVA_COPPCommand</a>
 
 
 
@@ -240,6 +220,7 @@ Reserved. Should be set to zero.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563141">DXVA_COPPCommand</a>
  
 
  

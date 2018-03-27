@@ -52,16 +52,6 @@ req.typenames: EXpsFontRestriction
 The <b>FltIsIoCanceled</b> routine checks if an IRP-based operation has been canceled. 
 
 
-## -syntax
-
-
-````
-BOOLEAN FltIsIoCanceled(
-  _In_ PFLT_CALLBACK_DATA CallbackData
-);
-````
-
-
 ## -parameters
 
 
@@ -69,7 +59,7 @@ BOOLEAN FltIsIoCanceled(
 
 ### -param CallbackData [in]
 
-Pointer to the callback data structure for the operation (<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>). 
+Pointer to the callback data structure for the operation (<a href="https://msdn.microsoft.com/library/windows/hardware/ff544620">FLT_CALLBACK_DATA</a>). 
 
 
 ## -returns
@@ -92,19 +82,10 @@ It is a programming error to call <b>FltIsIoCanceled</b> for an operation that i
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltcancelio.md">FltCancelIo</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltcancelfileopen.md">FltCancelFileOpen</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltclearcancelcompletion.md">FltClearCancelCompletion</a>
-
-
-
-<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544620">FLT_CALLBACK_DATA</a>
 
 
 
@@ -112,10 +93,19 @@ It is a programming error to call <b>FltIsIoCanceled</b> for an operation that i
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltsetcancelcompletion.md">FltSetCancelCompletion</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541784">FltCancelFileOpen</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541785">FltCancelIo</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541857">FltClearCancelCompletion</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544390">FltSetCancelCompletion</a>
  
 
  

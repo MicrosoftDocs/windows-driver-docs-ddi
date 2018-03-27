@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: engextcpp.hpp
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -52,14 +52,6 @@ req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
 The <b>GetTypeSize</b> method returns the size of the type represented by this object.
 
 
-## -syntax
-
-
-````
-ULONG GetTypeSize();
-````
-
-
 ## -parameters
 
 
@@ -78,14 +70,14 @@ ULONG GetTypeSize();
 
 ## -see-also
 
-<a href="..\engextcpp\nl-engextcpp-extremotetyped.md">ExtRemoteTyped</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544162">ExtRemoteTyped</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549457">GetTypeSize</a>
-
-
-
  
 
  

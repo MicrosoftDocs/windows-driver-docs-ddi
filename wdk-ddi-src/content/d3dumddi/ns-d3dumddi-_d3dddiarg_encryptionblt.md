@@ -49,23 +49,7 @@ req.typenames: D3DDDIARG_ENCRYPTIONBLT
 ## -description
 
 
-The D3DDDIARG_ENCRYPTIONBLT structure describes the parameters of an encrypted bit-block transfer (bitblt) in a call to the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_encryptionblt.md">EncryptionBlt</a> function. 
-
-
-## -syntax
-
-
-````
-typedef struct _D3DDDIARG_ENCRYPTIONBLT {
-  HANDLE hCryptoSession;
-  HANDLE hSrcResource;
-  UINT   SrcSubResourceIndex;
-  HANDLE hDstResource;
-  UINT   DstSubResourceIndex;
-  UINT   DstResourceSize;
-  VOID   *pIV;
-} D3DDDIARG_ENCRYPTIONBLT;
-````
+The D3DDDIARG_ENCRYPTIONBLT structure describes the parameters of an encrypted bit-block transfer (bitblt) in a call to the <a href="https://msdn.microsoft.com/a92bfff7-8af6-48c3-9e7f-95b9426aaaf2">EncryptionBlt</a> function. 
 
 
 ## -struct-fields
@@ -105,15 +89,15 @@ typedef struct _D3DDDIARG_ENCRYPTIONBLT {
 
 ### -field pIV
 
-[out] A pointer to a block of memory in which <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_encryptionblt.md">EncryptionBlt</a> returns the initialization vector that is required to decrypt the bitblt data. If <b>pIV</b> is <b>NULL</b>, hardware does not require a separate key to decrypt the data that is read back. 
+[out] A pointer to a block of memory in which <a href="https://msdn.microsoft.com/a92bfff7-8af6-48c3-9e7f-95b9426aaaf2">EncryptionBlt</a> returns the initialization vector that is required to decrypt the bitblt data. If <b>pIV</b> is <b>NULL</b>, hardware does not require a separate key to decrypt the data that is read back. 
 
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_encryptionblt.md">EncryptionBlt</a>
 
 
 
+<a href="https://msdn.microsoft.com/a92bfff7-8af6-48c3-9e7f-95b9426aaaf2">EncryptionBlt</a>
  
 
  

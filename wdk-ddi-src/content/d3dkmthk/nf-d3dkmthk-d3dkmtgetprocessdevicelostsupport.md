@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -52,16 +52,6 @@ req.typenames: D3DKMT_DRIVERVERSION
 
 			
             Used to get the indicated process.
-
-
-## -syntax
-
-
-````
-NTSTATUS  D3DKMTGetProcessDeviceLostSupport(
-  _Inout_ D3DKMT_GETPROCESSDEVICELOSTSUPPORT  *D3dkmt_getprocessdevicelostsupport
-);
-````
 
 
 ## -parameters

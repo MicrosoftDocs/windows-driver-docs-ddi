@@ -49,25 +49,7 @@ req.typenames: D3DDDI_TRIMRESIDENCYSET_FLAGS
 ## -description
 
 
-<b>D3DDDI_TRIMRESIDENCYSET_FLAGS</b> is used with <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_trimresidencyset.md">pfnTrimResidencySet</a> to trim the residency list for a given device.
-
-
-## -syntax
-
-
-````
-typedef struct D3DDDI_TRIMRESIDENCYSET_FLAGS {
-  union {
-    struct {
-      UINT PeriodicTrim  :1;
-      UINT RestartPeriodicTrim  :1;
-      UINT TrimToBudget  :1;
-      UINT Reserved  :29;
-    };
-    UINT Value;
-  };
-} D3DDDI_TRIMRESIDENCYSET_FLAGS;
-````
+<b>D3DDDI_TRIMRESIDENCYSET_FLAGS</b> is used with <a href="https://msdn.microsoft.com/192F419C-F38F-4B42-8111-86D58D6781DA">pfnTrimResidencySet</a> to trim the residency list for a given device.
 
 
 ## -struct-fields
@@ -110,10 +92,10 @@ The consolidated value of the bit-fields in the structure.
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_trimresidencyset.md">pfnTrimResidencySet</a>
 
 
 
+<a href="https://msdn.microsoft.com/192F419C-F38F-4B42-8111-86D58D6781DA">pfnTrimResidencySet</a>
  
 
  

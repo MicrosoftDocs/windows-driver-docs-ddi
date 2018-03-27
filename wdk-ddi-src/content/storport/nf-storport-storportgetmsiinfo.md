@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: Any level.
 topic_type:
@@ -53,18 +53,6 @@ req.product: Windows 10 or later.
 The <b>StorPortGetMSIInfo</b> routine retrieves the message signaled interrupt (MSI) information for the specified message. 
 
 
-## -syntax
-
-
-````
-ULONG StorPortGetMSIInfo(
-  _In_  PVOID                          HwDeviceExtension,
-  _In_  ULONG                          MessageId,
-  _Out_ PMESSAGE_INTERRUPT_INFORMATION InterruptInfo
-);
-````
-
-
 ## -parameters
 
 
@@ -82,7 +70,7 @@ The identifier of the message for which the information is retrieved.
 
 ### -param InterruptInfo [out]
 
-A pointer to a miniport driver-provided <a href="..\storport\ns-storport-_message_interrupt_information.md">MESSAGE_INTERRUPT_INFORMATION</a> structure that receives the information for the message specified by the <i>MessageId</i> parameter.
+A pointer to a miniport driver-provided <a href="https://msdn.microsoft.com/library/windows/hardware/ff562240">MESSAGE_INTERRUPT_INFORMATION</a> structure that receives the information for the message specified by the <i>MessageId</i> parameter.
 
 
 ## -returns
@@ -156,10 +144,10 @@ The HBA does not support MSI.
 
 ## -see-also
 
-<a href="..\storport\ns-storport-_message_interrupt_information.md">MESSAGE_INTERRUPT_INFORMATION</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562240">MESSAGE_INTERRUPT_INFORMATION</a>
  
 
  

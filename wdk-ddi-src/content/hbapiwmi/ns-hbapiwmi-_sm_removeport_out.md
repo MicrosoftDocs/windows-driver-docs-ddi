@@ -52,16 +52,6 @@ req.typenames: SM_RemovePort_OUT, *PSM_RemovePort_OUT
 The SM_RemovePort_OUT structure is used to receive output parameters from the SM_RemovePort WMI method.
 
 
-## -syntax
-
-
-````
-typedef struct _SM_RemovePort_OUT {
-  ULONG HBAStatus;
-} SM_RemovePort_OUT, *PSM_RemovePort_OUT;
-````
-
-
 ## -struct-fields
 
 

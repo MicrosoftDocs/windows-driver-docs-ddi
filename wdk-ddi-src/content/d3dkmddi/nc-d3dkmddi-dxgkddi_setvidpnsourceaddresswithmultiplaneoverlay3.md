@@ -52,17 +52,6 @@ req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
 Called to change the overlay configuration being displayed.
 
 
-## -prototype
-
-
-````
-NTSTATUS APIENTRY DXGKDDI_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY3(
-  _In_ const HANDLE                                               hAdapter,
-  _In_ const PDXGKARG_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY3 pSetVidPnSourceAddressWithMultiPlaneOverlay
-);
-````
-
-
 ## -parameters
 
 

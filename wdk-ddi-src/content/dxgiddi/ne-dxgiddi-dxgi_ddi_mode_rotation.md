@@ -52,20 +52,6 @@ req.typenames: DXGI_DDI_MODE_ROTATION
 The DXGI_DDI_MODE_ROTATION enumeration type contains values that identify the orientation of the display.
 
 
-## -syntax
-
-
-````
-typedef enum DXGI_DDI_MODE_ROTATION { 
-  DXGI_DDI_MODE_ROTATION_UNSPECIFIED  = 0,
-  DXGI_DDI_MODE_ROTATION_IDENTITY     = 1,
-  DXGI_DDI_MODE_ROTATION_ROTATE90     = 2,
-  DXGI_DDI_MODE_ROTATION_ROTATE180    = 3,
-  DXGI_DDI_MODE_ROTATION_ROTATE270    = 4
-} DXGI_DDI_MODE_ROTATION;
-````
-
-
 ## -enum-fields
 
 
@@ -98,10 +84,10 @@ The display is rotated 270 degrees.
 
 ## -see-also
 
-<a href="..\dxgiddi\ns-dxgiddi-dxgi_ddi_mode_desc.md">DXGI_DDI_MODE_DESC</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557499">DXGI_DDI_MODE_DESC</a>
  
 
  

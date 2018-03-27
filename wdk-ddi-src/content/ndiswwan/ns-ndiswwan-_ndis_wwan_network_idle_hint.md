@@ -52,17 +52,6 @@ req.typenames: NDIS_WWAN_NETWORK_IDLE_HINT, *PNDIS_WWAN_NETWORK_IDLE_HINT
 The NDIS_WWAN_NETWORK_IDLE_HINT structure contains a hint for the network interface regarding whether data is expected to be active or idle on the interface.
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_WWAN_NETWORK_IDLE_HINT {
-  NDIS_OBJECT_HEADER     Header;
-  WWAN_NETWORK_IDLE_HINT IdleHint;
-} NDIS_WWAN_NETWORK_IDLE_HINT, *PNDIS_WWAN_NETWORK_IDLE_HINT;
-````
-
-
 ## -struct-fields
 
 
@@ -72,7 +61,7 @@ typedef struct _NDIS_WWAN_NETWORK_IDLE_HINT {
 
 The type, revision, and size of the NDIS_WWAN_NETWORK_IDLE_HINT structure. This member is
      formatted as an 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure.
 
 The miniport driver must set the members of 
      <b>Header</b> to the following values:
@@ -102,23 +91,23 @@ The miniport driver must set the members of
 
 ### -field IdleHint
 
-A formatted <a href="..\wwan\ns-wwan-_wwan_network_idle_hint.md">WWAN_NETWORK_IDLE_HINT</a> object that contains the network idle hint.
+A formatted <a href="https://msdn.microsoft.com/library/windows/hardware/dn931165">WWAN_NETWORK_IDLE_HINT</a> object that contains the network idle hint.
 
 
 ## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn931089">OID_WWAN_NETWORK_IDLE_HINT</a>
 
 
 
-<a href="..\wwan\ns-wwan-_wwan_network_idle_hint.md">WWAN_NETWORK_IDLE_HINT</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn931165">WWAN_NETWORK_IDLE_HINT</a>
  
 
  

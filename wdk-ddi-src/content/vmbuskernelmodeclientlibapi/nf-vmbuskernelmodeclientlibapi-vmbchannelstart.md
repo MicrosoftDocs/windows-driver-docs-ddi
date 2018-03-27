@@ -56,16 +56,6 @@ req.product: Windows 10 or later.
 The <b>VmbChannelStart</b> function moves a channel out of the paused state.
 
 
-## -syntax
-
-
-````
-VOID VmbChannelStart(
-  _In_ VMBCHANNEL Channel
-);
-````
-
-
 ## -parameters
 
 

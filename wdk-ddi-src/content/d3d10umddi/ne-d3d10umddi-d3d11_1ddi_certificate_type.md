@@ -49,18 +49,7 @@ req.typenames: D3D11_1DDI_CERTIFICATE_TYPE
 ## -description
 
 
-Specifies the type of authenticated certificate that is used to establish trust and perform a key exchange. This type is used by callers of the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_getcertificate.md">GetCertificate</a> and <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_getcertificatesize.md">GetCertificateSize</a> functions.
-
-
-## -syntax
-
-
-````
-typedef enum D3D11_1DDI_CERTIFICATE_TYPE { 
-  D3D11_1DDI_CERTIFICATE_TYPE_AUTHENTICATED_CHANNEL  = 1,
-  D3D11_1DDI_CERTIFICATE_TYPE_CRYPTO_SESSION         = 2
-} D3D11_1DDI_CERTIFICATE_TYPE;
-````
+Specifies the type of authenticated certificate that is used to establish trust and perform a key exchange. This type is used by callers of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451652">GetCertificate</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/hh451654">GetCertificateSize</a> functions.
 
 
 ## -enum-fields
@@ -80,14 +69,14 @@ The certificate is used for a  cryptographic session.
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_getcertificate.md">GetCertificate</a>
 
 
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_getcertificatesize.md">GetCertificateSize</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451652">GetCertificate</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451654">GetCertificateSize</a>
  
 
  

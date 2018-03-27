@@ -58,18 +58,6 @@ req.product: Windows 10 or later.
 The <b>WdfDeviceCreateDeviceInterface</b> method creates a device interface for a specified device.
 
 
-## -syntax
-
-
-````
-NTSTATUS WdfDeviceCreateDeviceInterface(
-  _In_           WDFDEVICE        Device,
-  _In_     const GUID             *InterfaceClassGUID,
-  _In_opt_       PCUNICODE_STRING ReferenceString
-);
-````
-
-
 ## -parameters
 
 
@@ -87,7 +75,7 @@ A pointer to a GUID that identifies the device interface class.
 
 ### -param ReferenceString [in, optional]
 
-A pointer to a <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure that describes a reference string for the device interface. The string must not contain any path separator characters ("/" or "\").  This parameter is optional and can be <b>NULL</b>.   For more information, see the following Remarks section.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> structure that describes a reference string for the device interface. The string must not contain any path separator characters ("/" or "\").  This parameter is optional and can be <b>NULL</b>.   For more information, see the following Remarks section.
 
 
 ## -returns
@@ -139,14 +127,14 @@ status = WdfDeviceCreateDeviceInterface(
 
 ## -see-also
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdevicesetdeviceinterfacestate.md">WdfDeviceSetDeviceInterfaceState</a>
 
 
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546878">WdfDeviceSetDeviceInterfaceState</a>
  
 
  

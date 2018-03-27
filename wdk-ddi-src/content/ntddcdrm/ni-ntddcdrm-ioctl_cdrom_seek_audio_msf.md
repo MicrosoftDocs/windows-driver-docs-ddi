@@ -46,11 +46,6 @@ req.typenames: WRITE_ROTATION, *PWRITE_ROTATION
 # IOCTL_CDROM_SEEK_AUDIO_MSF IOCTL
 
 
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
-
 ## -description
 
 
@@ -67,7 +62,7 @@ Moves the heads to the specified MSF on the media.  Obsolete, beginning with Win
 
 ### -input-buffer
 
-The buffer at <i>Irp-&gt;AssociatedIrp.SystemBuffer</i> contains the <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_seek_audio_msf.md">CDROM_SEEK_AUDIO_MSF</a> specification. 
+The buffer at <i>Irp-&gt;AssociatedIrp.SystemBuffer</i> contains the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551367">CDROM_SEEK_AUDIO_MSF</a> specification. 
 
 
 ### -input-buffer-length
@@ -121,10 +116,10 @@ Client applications should use the <i>Media Control Interface (MCI) API</i> rath
 
 ## -see-also
 
-<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_seek_audio_msf.md">CDROM_SEEK_AUDIO_MSF</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551367">CDROM_SEEK_AUDIO_MSF</a>
  
 
  

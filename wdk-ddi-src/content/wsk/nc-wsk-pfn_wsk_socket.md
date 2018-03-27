@@ -54,29 +54,6 @@ The
   <b>WskSocket</b> function creates a new socket and returns a pointer to the associated socket object.
 
 
-## -prototype
-
-
-````
-PFN_WSK_SOCKET WskSocket;
-
-NTSTATUS WSKAPI * WskSocket(
-  _In_           PWSK_CLIENT          Client,
-  _In_           ADDRESS_FAMILY       AddressFamily,
-  _In_           USHORT               SocketType,
-  _In_           ULONG                Protocol,
-  _In_           ULONG                Flags,
-  _In_opt_       PVOID                SocketContext,
-  _In_opt_ const VOID                 *Dispatch,
-  _In_opt_       PEPROCESS            OwningProcess,
-  _In_opt_       PETHREAD             OwningThread,
-  _In_opt_       PSECURITY_DESCRIPTOR SecurityDescriptor,
-  _Inout_        PIRP                 Irp
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -88,7 +65,7 @@ A pointer to a
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff571155">WSK_CLIENT</a> structure that was returned through
      the 
      <i>WskProviderNpi</i> parameter of the 
-     <a href="..\wsk\nf-wsk-wskcaptureprovidernpi.md">
+     <a href="https://msdn.microsoft.com/b5c6667e-33b4-4482-8817-c01d9d314c3a">
      WskCaptureProviderNPI</a> function.
 
 
@@ -212,7 +189,7 @@ WSK_FLAG_LISTEN_SOCKET
 </td>
 <td>
 
-<a href="..\wsk\ns-wsk-_wsk_client_listen_dispatch.md">WSK_CLIENT_LISTEN_DISPATCH</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571162">WSK_CLIENT_LISTEN_DISPATCH</a>
 
 
 </td>
@@ -224,7 +201,7 @@ WSK_FLAG_DATAGRAM_SOCKET
 </td>
 <td>
 
-<a href="..\wsk\ns-wsk-_wsk_client_datagram_dispatch.md">
+<a href="https://msdn.microsoft.com/559a98e0-61fd-4234-a595-e533e7eaafe8">
          WSK_CLIENT_DATAGRAM_DISPATCH</a>
 
 
@@ -237,7 +214,7 @@ WSK_FLAG_CONNECTION_SOCKET
 </td>
 <td>
 
-<a href="..\wsk\ns-wsk-_wsk_client_connection_dispatch.md">
+<a href="https://msdn.microsoft.com/960eee8a-2950-4baf-b32d-be13b3d65951">
          WSK_CLIENT_CONNECTION_DISPATCH</a>
 
 
@@ -250,7 +227,7 @@ WSK_FLAG_STREAM_SOCKET
 </td>
 <td>
 
-<a href="..\wsk\ns-wsk-_wsk_client_stream_dispatch.md">WSK_CLIENT_STREAM_DISPATCH</a>
+<a href="https://msdn.microsoft.com/7E682868-1D39-4677-A4EC-E7C9F841EC82">WSK_CLIENT_STREAM_DISPATCH</a>
 
 
 </td>
@@ -287,7 +264,7 @@ A pointer to a SECURITY_DESCRIPTOR structure that specifies the security descrip
      the socket that is being created. The security descriptor controls the sharing of the local transport
      address to which the socket is bound. If a WSK application specifies a non-<b>NULL</b> pointer, it must specify
      a pointer to a cached copy of a security descriptor that was obtained by calling the 
-     <a href="..\wsk\nc-wsk-pfn_wsk_control_client.md">WskControlClient</a> function with the 
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571126">WskControlClient</a> function with the 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff571154">WSK_CACHE_SD</a> control code. To specify a
      default security descriptor that does not allow sharing of the local transport address, a WSK
      application sets 
@@ -364,14 +341,14 @@ An error occurred. The IRP will be completed with failure status.
 
 If the IRP is completed with success status, the 
     <b>IoStatus.Information</b> field of the IRP contains a pointer to a socket object structure (
-    <a href="..\wsk\ns-wsk-_wsk_socket.md">WSK_SOCKET</a>) for the new socket.
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff571182">WSK_SOCKET</a>) for the new socket.
 
 A WSK application can obtain a list of available transport protocols by calling the 
-    <a href="..\wsk\nc-wsk-pfn_wsk_control_client.md">WskControlClient</a> function with the 
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff571126">WskControlClient</a> function with the 
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571195">WSK_TRANSPORT_LIST_QUERY</a> control
     code. 
     <b>WskControlClient</b> returns a list of 
-    <a href="..\wsk\ns-wsk-_wsk_transport.md">WSK_TRANSPORT</a> structures that contains all of
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff571193">WSK_TRANSPORT</a> structures that contains all of
     the valid combinations of the 
     <i>AddressFamily</i>, 
     <i>SocketType</i>, and 
@@ -396,32 +373,6 @@ The WSK subsystem allocates the memory for the socket object structure (WSK_SOCK
 
 ## -see-also
 
-<a href="..\wsk\ns-wsk-_wsk_socket.md">WSK_SOCKET</a>
-
-
-
-<a href="..\wsk\ns-wsk-_wsk_client_datagram_dispatch.md">WSK_CLIENT_DATAGRAM_DISPATCH</a>
-
-
-
-<a href="..\wsk\ns-wsk-_wsk_client_connection_dispatch.md">
-   WSK_CLIENT_CONNECTION_DISPATCH</a>
-
-
-
-<a href="..\wsk\ns-wsk-_wsk_client_stream_dispatch.md">WSK_CLIENT_STREAM_DISPATCH</a>
-
-
-
-<a href="..\wsk\ns-wsk-_wsk_provider_npi.md">WSK_PROVIDER_NPI</a>
-
-
-
-<a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a>
-
-
-
-<a href="..\wsk\nf-wsk-wskcaptureprovidernpi.md">WskCaptureProviderNPI</a>
 
 
 
@@ -429,22 +380,48 @@ The WSK subsystem allocates the memory for the socket object structure (WSK_SOCK
 
 
 
-<a href="..\wsk\nc-wsk-pfn_wsk_socket_connect.md">WskSocketConnect</a>
+<a href="https://msdn.microsoft.com/960eee8a-2950-4baf-b32d-be13b3d65951">
+   WSK_CLIENT_CONNECTION_DISPATCH</a>
 
 
 
-<a href="..\wsk\ns-wsk-_wsk_client_listen_dispatch.md">WSK_CLIENT_LISTEN_DISPATCH</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571158">WSK_CLIENT_DATAGRAM_DISPATCH</a>
 
 
 
-<a href="..\wsk\ns-wsk-_wsk_provider_dispatch.md">WSK_PROVIDER_DISPATCH</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571162">WSK_CLIENT_LISTEN_DISPATCH</a>
 
 
 
-<a href="..\wsk\nc-wsk-pfn_wsk_control_client.md">WskControlClient</a>
+<a href="https://msdn.microsoft.com/7E682868-1D39-4677-A4EC-E7C9F841EC82">WSK_CLIENT_STREAM_DISPATCH</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571175">WSK_PROVIDER_DISPATCH</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571177">WSK_PROVIDER_NPI</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571182">WSK_SOCKET</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571122">WskCaptureProviderNPI</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571124">WskCloseSocket</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571126">WskControlClient</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571150">WskSocketConnect</a>
  
 
  

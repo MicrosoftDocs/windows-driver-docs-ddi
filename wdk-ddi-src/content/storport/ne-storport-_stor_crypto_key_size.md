@@ -53,16 +53,6 @@ req.product: Windows 10 or later.
 Reserved for system use.
 
 
-## -syntax
-
-
-````
-typedef enum _STOR_CRYPTO_KEY_SIZE { 
-    = 
-} STOR_CRYPTO_KEY_SIZE, *PSTOR_CRYPTO_KEY_SIZE;
-````
-
-
 ## -enum-fields
 
 

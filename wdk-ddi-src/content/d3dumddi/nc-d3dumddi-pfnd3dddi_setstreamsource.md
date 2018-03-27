@@ -52,20 +52,6 @@ req.typenames: DXGK_PTE
 The <i>SetStreamSource</i> function binds a portion of a vertex stream source to a vertex buffer. 
 
 
-## -prototype
-
-
-````
-PFND3DDDI_SETSTREAMSOURCE SetStreamSource;
-
-__checkReturn HRESULT APIENTRY SetStreamSource(
-  _In_       HANDLE                    hDevice,
-  _In_ const D3DDDIARG_SETSTREAMSOURCE *pData
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -87,7 +73,7 @@ __checkReturn HRESULT APIENTRY SetStreamSource(
 
 #### - pData [in]
 
- A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_setstreamsource.md">D3DDDIARG_SETSTREAMSOURCE</a> structure that specifies the portion of the vertex stream source to bind.
+ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543352">D3DDDIARG_SETSTREAMSOURCE</a> structure that specifies the portion of the vertex stream source to bind.
 
 
 ## -returns
@@ -110,14 +96,14 @@ The Microsoft Direct3D runtime calls the user-mode display driver's <i>SetStream
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_setstreamsource.md">D3DDDIARG_SETSTREAMSOURCE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543352">D3DDDIARG_SETSTREAMSOURCE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544519">D3DDDI_DEVICEFUNCS</a>
  
 
  

@@ -52,20 +52,6 @@ req.typenames: FEATURE_DATA_MORPHING, *PFEATURE_DATA_MORPHING
 The FEATURE_DATA_MORPHING structure contains information about the morphing feature.
 
 
-## -syntax
-
-
-````
-typedef struct _FEATURE_DATA_MORPHING {
-  FEATURE_HEADER Header;
-  UCHAR          Asynchronous  :1;
-  UCHAR          OCEvent  :1;
-  UCHAR          Reserved01  :6;
-  UCHAR          Reserved2[3];
-} FEATURE_DATA_MORPHING, *PFEATURE_DATA_MORPHING;
-````
-
-
 ## -struct-fields
 
 
@@ -73,7 +59,7 @@ typedef struct _FEATURE_DATA_MORPHING {
 
 ### -field Header
 
-Contains a <a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a> structure with header information for this feature descriptor. 
+Contains a <a href="https://msdn.microsoft.com/library/windows/hardware/ff553848">FEATURE_HEADER</a> structure with header information for this feature descriptor. 
 
 
 ### -field Asynchronous
@@ -103,14 +89,14 @@ This structure holds data for the feature named "Morphing" by the <i>MMC-3 </i>s
 
 ## -see-also
 
-<a href="..\ntddmmc\ne-ntddmmc-_feature_number.md">FEATURE_NUMBER</a>
 
 
 
-<a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553848">FEATURE_HEADER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553850">FEATURE_NUMBER</a>
  
 
  

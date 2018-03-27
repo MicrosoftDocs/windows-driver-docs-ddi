@@ -52,19 +52,6 @@ req.typenames: SendCTPassThru_OUT, *PSendCTPassThru_OUT
 The SendCTPassThru_OUT structure is used to report the output parameter data of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565409">SendCTPassThru</a> WMI method to the WMI client.
 
 
-## -syntax
-
-
-````
-typedef struct _SendCTPassThru_OUT {
-  ULONG HBAStatus;
-  ULONG TotalResponseBufferCount;
-  ULONG ActualResponseBufferCount;
-  UCHAR ResponseBuffer[1];
-} SendCTPassThru_OUT, *PSendCTPassThru_OUT;
-````
-
-
 ## -struct-fields
 
 
@@ -101,10 +88,10 @@ The WMI tool suite generates a declaration of the SendCTPassThru_OUT structure i
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565409">SendCTPassThru</a>
-
-
-
  
 
  

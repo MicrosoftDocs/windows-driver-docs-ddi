@@ -52,17 +52,6 @@ req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
 Used to update the hardware context state.
 
 
-## -prototype
-
-
-````
-NTSTATUS APIENTRY DXGKDDI_UPDATEHWCONTEXTSTATE(
-  _In_ const HANDLE                        hAdapter,
-  _In_ const PDXGKARG_UPDATEHWCONTEXTSTATE pUpdateHwContextState
-);
-````
-
-
 ## -parameters
 
 

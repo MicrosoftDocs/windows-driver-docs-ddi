@@ -52,16 +52,6 @@ req.typenames:
 Gives information about move regions that were handled by the OS.
 
 
-## -syntax
-
-
-````
-typedef struct IDARG_OUT_GETMOVEREGIONS {
-  UINT MoveRegionOutCount;
-} IDARG_OUT_GETMOVEREGIONS, *IDARG_OUT_GETMOVEREGIONS;
-````
-
-
 ## -struct-fields
 
 

@@ -52,26 +52,6 @@ req.typenames: HBAFC3MgmtInfo, *PHBAFC3MgmtInfo
 The HBAFC3MgmtInfo structure is used to report FC3 management information associated with a fibre channel adapter. 
 
 
-## -syntax
-
-
-````
-typedef struct _HBAFC3MgmtInfo {
-  ULONGLONG UniqueAdapterId;
-  UCHAR     wwn[8];
-  ULONG     unittype;
-  ULONG     PortId;
-  ULONG     NumberOfAttachedNodes;
-  USHORT    IPVersion;
-  USHORT    UDPPort;
-  UCHAR     IPAddress[16];
-  USHORT    reserved;
-  USHORT    TopologyDiscoveryFlags;
-  ULONG     reserved1;
-} HBAFC3MgmtInfo, *PHBAFC3MgmtInfo;
-````
-
-
 ## -struct-fields
 
 
@@ -145,10 +125,10 @@ The WMI tool suite generates a declaration of this structure automatically when 
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553939">GetFC3MgmtInfo</a>
-
-
-
  
 
  

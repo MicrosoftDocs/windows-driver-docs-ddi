@@ -53,16 +53,6 @@ req.typenames:
                  Gives information about the number of target modes provided by the OS.
 
 
-## -syntax
-
-
-````
-typedef struct IDARG_OUT_QUERYTARGETMODES {
-  UINT TargetModeBufferOutputCount;
-} IDARG_OUT_QUERYTARGETMODES, *IDARG_OUT_QUERYTARGETMODES;
-````
-
-
 ## -struct-fields
 
 

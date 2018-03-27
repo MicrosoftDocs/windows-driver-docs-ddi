@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -50,16 +50,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>SetCommandWide</b> method sets the command that is executed when a breakpoint is triggered.
-
-
-## -syntax
-
-
-````
-HRESULT SetCommandWide(
-  [in] PCWSTR Command
-);
-````
 
 
 ## -parameters

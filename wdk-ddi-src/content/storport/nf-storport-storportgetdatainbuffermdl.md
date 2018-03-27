@@ -54,18 +54,6 @@ req.product: Windows 10 or later.
 Returns an MDL associated with the input data buffer  of a SCSI request block (SRB).
 
 
-## -syntax
-
-
-````
-ULONG StorPortGetDataInBufferMdl(
-  _In_  PVOID               HwDeviceExtension,
-  _In_  PSCSI_REQUEST_BLOCK Srb,
-  _Out_ PVOID               *Mdl
-);
-````
-
-
 ## -parameters
 
 
@@ -127,14 +115,14 @@ The pointer value in <i>Mdl</i> is NULL.
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportgetdatainbuffersystemaddress.md">StorPortGetDataInBufferSystemAddress</a>
 
 
 
-<a href="..\storport\nf-storport-storportgetdatainbufferscattergatherlist.md">StorPortGetDataInBufferScatterGatherList</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj553719">StorPortGetDataInBufferScatterGatherList</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj553720">StorPortGetDataInBufferSystemAddress</a>
  
 
  

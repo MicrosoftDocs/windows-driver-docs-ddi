@@ -46,11 +46,6 @@ req.typenames: DXVA_VideoSample32
 # IOCTL_EHSTOR_BANDMGMT_ENUMERATE_BANDS IOCTL
 
 
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
-
 ## -description
 
 
@@ -64,7 +59,7 @@ This <b>IOCTL_EHSTOR_BANDMGMT_ENUMERATE_BANDS</b> request is sent to retrieve th
 
 ### -input-buffer
 
-The buffer at <i>Irp-&gt;AssociatedIrp.SystemBuffer</i> must contain an <a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_enumerate_bands_parameters.md">ENUMERATE_BANDS_PARAMETERS</a> structure. 
+The buffer at <i>Irp-&gt;AssociatedIrp.SystemBuffer</i> must contain an <a href="https://msdn.microsoft.com/library/windows/hardware/hh439719">ENUMERATE_BANDS_PARAMETERS</a> structure. 
 
 
 ### -input-buffer-length
@@ -74,12 +69,12 @@ The buffer at <i>Irp-&gt;AssociatedIrp.SystemBuffer</i> must contain an <a href=
 
 ### -output-buffer
 
-The buffer at <i>Irp-&gt;AssociatedIrp.SystemBuffer</i> contains a <a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_enumerate_bands_parameters.md">BAND_TABLE</a> structure followed by <b>BandTableEntryCount</b> band entries.
+The buffer at <i>Irp-&gt;AssociatedIrp.SystemBuffer</i> contains a <a href="https://msdn.microsoft.com/library/windows/hardware/hh439573">BAND_TABLE</a> structure followed by <b>BandTableEntryCount</b> band entries.
 
 
 ### -output-buffer-length
 
-The length of a <a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_enumerate_bands_parameters.md">BAND_TABLE</a> structure followed by <b>BandTableEntryCount</b> band entries.
+The length of a <a href="https://msdn.microsoft.com/library/windows/hardware/hh439573">BAND_TABLE</a> structure followed by <b>BandTableEntryCount</b> band entries.
 
 
 ### -in-out-buffer
@@ -156,14 +151,14 @@ A driver or application can query for the necessary output buffer size by settin
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439573">BAND_TABLE</a>
+
+
+
 <b>ENUMERATE_BANDS_PARAMETERS</b>
-
-
-
-<a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_enumerate_bands_parameters.md">BAND_TABLE</a>
-
-
-
  
 
  

@@ -52,19 +52,6 @@ req.typenames: D3D11_1DDI_VIDEO_COLOR
 Defines a color value for Microsoft Direct3D 11 video.
 
 
-## -syntax
-
-
-````
-typedef struct D3D11_1DDI_VIDEO_COLOR {
-  union {
-    D3D11_1DDI_VIDEO_COLOR_YCbCrA YCbCr;
-    D3D11_1DDI_VIDEO_COLOR_RGBA   RGBA;
-  };
-} D3D11_1DDI_VIDEO_COLOR;
-````
-
-
 ## -struct-fields
 
 
@@ -74,12 +61,12 @@ typedef struct D3D11_1DDI_VIDEO_COLOR {
 
 #### - RGBA
 
-A <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_video_color_rgba.md">D3D11_1DDI_VIDEO_COLOR_RGBA</a> structure that contains an RGB color value.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/hh450928">D3D11_1DDI_VIDEO_COLOR_RGBA</a> structure that contains an RGB color value.
 
 
 #### - YCbCr
 
-A <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_video_color_ycbcra.md">D3D11_1DDI_VIDEO_COLOR_YCbCrA</a> structure that contains a YCbCr color value.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/hh450932">D3D11_1DDI_VIDEO_COLOR_YCbCrA</a> structure that contains a YCbCr color value.
 
 
 ## -remarks
@@ -93,14 +80,14 @@ The anonymous union can represent both RGB and YCbCr colors. The interpretation 
 
 ## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_video_color_ycbcra.md">D3D11_1DDI_VIDEO_COLOR_YCbCrA</a>
 
 
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_video_color_rgba.md">D3D11_1DDI_VIDEO_COLOR_RGBA</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450928">D3D11_1DDI_VIDEO_COLOR_RGBA</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450932">D3D11_1DDI_VIDEO_COLOR_YCbCrA</a>
  
 
  

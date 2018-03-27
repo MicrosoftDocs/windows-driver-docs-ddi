@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: sti.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,14 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>IStiDevice::DeviceReset</b> method resets a still image device to a known state.
-
-
-## -syntax
-
-
-````
-HRESULT DeviceReset();
-````
 
 
 ## -parameters

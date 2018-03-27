@@ -53,33 +53,6 @@ req.product: Windows 10 or later.
 The WWAN_DEVICE_CAPS structure represents the capabilities of the MB device.
 
 
-## -syntax
-
-
-````
-typedef struct _WWAN_DEVICE_CAPS {
-  WWAN_DEVICE_TYPE    WwanDeviceType;
-  WWAN_CELLULAR_CLASS WwanCellularClass;
-  WWAN_VOICE_CLASS    WwanVoiceClass;
-  WWAN_SIM_CLASS      WwanSimClass;
-  ULONG               WwanDataClass;
-  WCHAR               CustomDataClass[WWAN_CUSTOM_DATA_CLASS_LEN];
-  ULONG               WwanGsmBandClass;
-  ULONG               WwanCdmaBandClass;
-  WCHAR               CustomBandClass[WWAN_CUSTOM_BAND_CLASS_LEN];
-  ULONG               WwanSmsCaps;
-  ULONG               WwanControlCaps;
-  WCHAR               DeviceId[WWAN_DEVICEID_LEN];
-  WCHAR               Manufacturer[WWAN_MANUFACTURER_LEN];
-  WCHAR               Model[WWAN_MODEL_LEN];
-  WCHAR               FirmwareInfo[WWAN_FIRMWARE_LEN];
-  ULONG               MaxActivatedContexts;
-  ULONG               WwanAuthAlgoCaps;
-  WWAN_LIST_HEADER    CellularClassListHeader;
-} WWAN_DEVICE_CAPS, *PWWAN_DEVICE_CAPS;
-````
-
-
 ## -struct-fields
 
 
@@ -961,14 +934,14 @@ The MB device supports the AKA' (AKA Prime) authentication method.
 </table>
  
 
-<div class="alert"><b>Note</b>  This member is valid only in Windows 8 and later, when NDIS_WWAN_DEVICE_CAPS_REVISION_2 is specified in the <b>Header.Revision</b> sub-member of the <a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_device_caps.md">NDIS_WWAN_DEVICE_CAPS</a> structure.</div>
+<div class="alert"><b>Note</b>  This member is valid only in Windows 8 and later, when NDIS_WWAN_DEVICE_CAPS_REVISION_2 is specified in the <b>Header.Revision</b> sub-member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567907">NDIS_WWAN_DEVICE_CAPS</a> structure.</div>
 <div> </div>
 
 ### -field CellularClassListHeader
 
 A formatted WWAN_LIST_HEADER object that represents a list of cellular classes that a multi-mode capable device supports. The <b>ElementType</b> member in WWAN_LIST_HEADER should always be set to <b>WwanStructCellularClass</b>. The <b>ElementCount</b> member in WWAN_LIST_HEADER is set to the number of cellular classes that follow the WWAN_LIST_HEADER structure. MB devices that are not multi-mode capable should set <b>ElementCount</b> to 0.
 
-<div class="alert"><b>Note</b>  This member is valid only in Windows 8 and later, when NDIS_WWAN_DEVICE_CAPS_REVISION_2 is specified in the <b>Header.Revision</b> sub-member of the <a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_device_caps.md">NDIS_WWAN_DEVICE_CAPS</a> structure.</div>
+<div class="alert"><b>Note</b>  This member is valid only in Windows 8 and later, when NDIS_WWAN_DEVICE_CAPS_REVISION_2 is specified in the <b>Header.Revision</b> sub-member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567907">NDIS_WWAN_DEVICE_CAPS</a> structure.</div>
 <div> </div>
 
 ## -remarks
@@ -996,26 +969,26 @@ For CDMA-based devices, only CDMA-related data services must be specified. For e
 
 ## -see-also
 
-<a href="..\wwan\ne-wwan-_wwan_sim_class.md">WWAN_SIM_CLASS</a>
 
 
 
-<a href="..\wwan\ne-wwan-_wwan_device_type.md">WWAN_DEVICE_TYPE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567907">NDIS_WWAN_DEVICE_CAPS</a>
 
 
 
-<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_device_caps.md">NDIS_WWAN_DEVICE_CAPS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571199">WWAN_CELLULAR_CLASS</a>
 
 
 
-<a href="..\wwan\ne-wwan-_wwan_voice_class.md">WWAN_VOICE_CLASS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571205">WWAN_DEVICE_TYPE</a>
 
 
 
-<a href="..\wwan\ne-wwan-_wwan_cellular_class.md">WWAN_CELLULAR_CLASS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571240">WWAN_SIM_CLASS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571257">WWAN_VOICE_CLASS</a>
  
 
  

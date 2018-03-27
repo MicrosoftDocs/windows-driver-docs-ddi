@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,14 +51,6 @@ req.product: Windows 10 or later.
 
 
 Unregisters the event trace provider. Call this function before the user-mode driver is unloaded. After this function is called, the driver should not make any other calls to log events.
-
-
-## -syntax
-
-
-````
-void UMDEtwUnregister(void);
-````
 
 
 ## -parameters
@@ -106,10 +98,10 @@ The <a href="https://msdn.microsoft.com/fdcccf6f-2f31-4356-a4ee-3b6229c01b75">Ev
 
 ## -see-also
 
-<a href="..\umdprovider\nf-umdprovider-umdetwregister.md">UMDEtwRegister</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj542439">UMDEtwRegister</a>
  
 
  

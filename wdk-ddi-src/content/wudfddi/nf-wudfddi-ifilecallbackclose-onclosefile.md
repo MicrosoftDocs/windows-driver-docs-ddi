@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: wudfddi.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -55,16 +55,6 @@ req.product: Windows 10 or later.
 The <b>OnCloseFile</b> method is called when the last reference count on a file object goes down to zero and before the file object is released. 
 
 
-## -syntax
-
-
-````
-void OnCloseFile(
-  [in] IWDFFile *pWdfFileObject
-);
-````
-
-
 ## -parameters
 
 
@@ -72,7 +62,7 @@ void OnCloseFile(
 
 ### -param pWdfFileObject [in]
 
-A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdffile.md">IWDFFile</a> interface for the file object that is associated with the device. 
+A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff558912">IWDFFile</a> interface for the file object that is associated with the device. 
 
 
 ## -returns
@@ -88,7 +78,7 @@ None
 
 
 
-A driver registers the <a href="..\wudfddi\nn-wudfddi-ifilecallbackclose.md">IFileCallbackClose</a> interface when the driver calls the <a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a> method to create a device object. 
+A driver registers the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554907">IFileCallbackClose</a> interface when the driver calls the <a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a> method to create a device object. 
 
 For information about when the framework calls <b>OnCloseFile</b>, see <a href="https://msdn.microsoft.com/f81ae0ed-a29c-476e-9b16-ff554eef1de9">Driver-Created Versus Application-Created File Objects</a>.
 
@@ -97,11 +87,10 @@ For information about when the framework calls <b>OnCloseFile</b>, see <a href="
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdffile.md">IWDFFile</a>
 
 
 
-<a href="..\wudfddi\nn-wudfddi-ifilecallbackclose.md">IFileCallbackClose</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554907">IFileCallbackClose</a>
 
 
 
@@ -109,6 +98,7 @@ For information about when the framework calls <b>OnCloseFile</b>, see <a href="
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558912">IWDFFile</a>
  
 
  

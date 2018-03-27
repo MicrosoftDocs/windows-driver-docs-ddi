@@ -52,27 +52,6 @@ req.typenames: D3DDDI_PATCHLOCATIONLIST
 The D3DDDI_PATCHLOCATIONLIST structure describes the location of an allocation to patch (that is, assign a physical address to the allocation).
 
 
-## -syntax
-
-
-````
-typedef struct _D3DDDI_PATCHLOCATIONLIST {
-  UINT  AllocationIndex;
-  union {
-    struct {
-      UINT SlotId  :24;
-      UINT Reserved  :8;
-    };
-    UINT   Value;
-  };
-  UINT  DriverId;
-  UINT  AllocationOffset;
-  UINT  PatchOffset;
-  UINT  SplitOffset;
-} D3DDDI_PATCHLOCATIONLIST;
-````
-
-
 ## -struct-fields
 
 
@@ -124,26 +103,26 @@ Setting this member to zero is equivalent to setting the remaining 8 bits (0xFF0
 
 ## -see-also
 
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_allocationlist.md">D3DDDI_ALLOCATIONLIST</a>
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_rendercb.md">pfnRenderCb</a>
+<a href="https://msdn.microsoft.com/ce35bdac-af90-471f-af93-0e665be6c7f6">CreateDevice</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_render.md">D3DDDICB_RENDER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542931">D3DDDIARG_CREATEDEVICE</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createdevice.md">D3DDDIARG_CREATEDEVICE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544241">D3DDDICB_RENDER</a>
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createdevice.md">CreateDevice</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544375">D3DDDI_ALLOCATIONLIST</a>
 
 
 
+<a href="https://msdn.microsoft.com/f242162e-6237-469c-b178-5a51dcf69e32">pfnRenderCb</a>
  
 
  

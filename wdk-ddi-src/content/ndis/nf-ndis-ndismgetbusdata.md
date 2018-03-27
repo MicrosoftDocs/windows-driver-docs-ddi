@@ -54,20 +54,6 @@ NDIS drivers call the
   <b>NdisMGetBusData</b> function to read the configuration space of a device.
 
 
-## -syntax
-
-
-````
-ULONG NdisMGetBusData(
-  _In_  NDIS_HANDLE MiniportAdapterHandle,
-  _In_  ULONG       WhichSpace,
-  _In_  ULONG       Offset,
-  _Out_ PVOID       Buffer,
-  _In_  ULONG       Length
-);
-````
-
-
 ## -parameters
 
 
@@ -106,7 +92,7 @@ The length, in bytes, of the data to read.
 
 The miniport adapter handle that NDIS passed to the 
      <i>MiniportAdapterHandle</i> parameter of the 
-     <a href="..\ndis\nc-ndis-miniport_initialize.md">
+     <a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">
      MiniportInitializeEx</a> function.
 
 
@@ -131,11 +117,6 @@ This function replaces the NDIS 5.1
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndismsetbusdata.md">NdisMSetBusData</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
 
 
@@ -143,6 +124,11 @@ This function replaces the NDIS 5.1
 
 
 
+<a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563670">NdisMSetBusData</a>
  
 
  

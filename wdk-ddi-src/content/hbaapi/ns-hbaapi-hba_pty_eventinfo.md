@@ -52,16 +52,6 @@ req.typenames: HBA_PTY_EVENTINFO, *PHBA_PTY_EVENTINFO
 The HBA_Link_EventInfo structure contains information about a WMI proprietary event associated with the fibre channel HBA API. 
 
 
-## -syntax
-
-
-````
-typedef struct HBA_Pty_EventInfo {
-  HBA_UINT32 PtyData[4];
-} HBA_PTY_EVENTINFO, *PHBA_PTY_EVENTINFO;
-````
-
-
 ## -struct-fields
 
 
@@ -74,18 +64,18 @@ Contains proprietary data defined by the vendor.
 
 ## -see-also
 
-<a href="..\hbaapi\ns-hbaapi-hba_eventinfo.md">HBA_EventInfo</a>
 
 
 
-<a href="..\hbaapi\ns-hbaapi-hba_link_eventinfo.md">HBA_Link_EventInfo</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556048">HBA_EventInfo</a>
 
 
 
-<a href="..\hbaapi\ns-hbaapi-hba_rscn_eventinfo.md">HBA_RSCN_EventInfo</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556124">HBA_Link_EventInfo</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557188">HBA_RSCN_EventInfo</a>
  
 
  

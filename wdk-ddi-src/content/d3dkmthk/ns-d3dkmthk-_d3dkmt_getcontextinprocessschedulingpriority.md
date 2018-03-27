@@ -52,17 +52,6 @@ req.typenames: D3DKMT_GETCONTEXTINPROCESSSCHEDULINGPRIORITY
 Describes information that is required for an in-process (in-proc) Microsoft Direct3D composition device to retrieve the scheduling priority for a device context that is in the same process as other device contexts.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DKMT_GETCONTEXTINPROCESSSCHEDULINGPRIORITY {
-  D3DKMT_HANDLE hContext;
-  INT           Priority;
-} D3DKMT_GETCONTEXTINPROCESSSCHEDULINGPRIORITY;
-````
-
-
 ## -struct-fields
 
 

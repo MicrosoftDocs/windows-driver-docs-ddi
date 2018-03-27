@@ -55,17 +55,6 @@ The <b>VideoPortGetDmaContext</b> function is <b>obsolete</b> in Windows 2000 an
 <b>VideoPortGetDmaContext</b> gets the context previously associated with the specified DMA handle.
 
 
-## -syntax
-
-
-````
-PVOID VideoPortGetDmaContext(
-  _In_ PVOID HwDeviceExtension,
-  _In_ PDMA  pDma
-);
-````
-
-
 ## -parameters
 
 
@@ -78,7 +67,7 @@ Pointer to the miniport driver's device extension.
 
 ### -param pDma [in]
 
-Pointer to a DMA handle. To obtain the appropriate DMA handle, use the value in the <b>OutputBuffer</b> member of the <i>pVrp</i> parameter after <a href="..\video\nf-video-videoportlockpages.md">VideoPortLockPages</a> returns. 
+Pointer to a DMA handle. To obtain the appropriate DMA handle, use the value in the <b>OutputBuffer</b> member of the <i>pVrp</i> parameter after <a href="https://msdn.microsoft.com/library/windows/hardware/ff570327">VideoPortLockPages</a> returns. 
 
 
 ## -returns

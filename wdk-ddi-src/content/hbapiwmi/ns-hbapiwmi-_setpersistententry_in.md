@@ -52,17 +52,6 @@ req.typenames: SetPersistentEntry_IN, *PSetPersistentEntry_IN
 The SetPersistentEntry_IN structure is used by a WMI client to deliver the input parameter data of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565783">SetPersistentEntry</a> WMI method to the HBA miniport driver.
 
 
-## -syntax
-
-
-````
-typedef struct _SetPersistentEntry_IN {
-  UCHAR               PortWWN[8];
-  HBAFCPBindingEntry2 Binding;
-} SetPersistentEntry_IN, *PSetPersistentEntry_IN;
-````
-
-
 ## -struct-fields
 
 
@@ -75,7 +64,7 @@ Contains a worldwide name that indicates the port whose persistent bindings will
 
 ### -field Binding
 
-Contains a structure of type <a href="..\hbapiwmi\ns-hbapiwmi-_hbafcpbindingentry2.md">HBAFCPBindingEntry2</a> that indicates the binding to be removed from the indicated port's list of bindings. 
+Contains a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff556035">HBAFCPBindingEntry2</a> that indicates the binding to be removed from the indicated port's list of bindings. 
 
 
 ## -remarks
@@ -89,10 +78,10 @@ The WMI tool suite generates a declaration of the SetPersistentEntry_IN structur
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565783">SetPersistentEntry</a>
-
-
-
  
 
  

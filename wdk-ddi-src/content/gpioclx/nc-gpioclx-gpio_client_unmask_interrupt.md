@@ -40,7 +40,7 @@ api_name:
 -	CLIENT_UnmaskInterrupt
 product: Windows
 targetos: Windows
-req.typenames: GNSS_V2UPL_NI_INFO, *PGNSS_V2UPL_NI_INFO
+req.typenames: FWPS_CONNECT_REQUEST0
 ---
 
 # GPIO_CLIENT_UNMASK_INTERRUPT callback
@@ -50,20 +50,6 @@ req.typenames: GNSS_V2UPL_NI_INFO, *PGNSS_V2UPL_NI_INFO
 
 
 The <i>CLIENT_UnmaskInterrupt</i> event callback function unmasks the interrupt on a general-purpose I/O (GPIO) pin that is configured as an interrupt input.
-
-
-## -prototype
-
-
-````
-GPIO_CLIENT_UNMASK_INTERRUPT CLIENT_UnmaskInterrupt;
-
-NTSTATUS CLIENT_UnmaskInterrupt(
-  _In_ PVOID                             Context,
-  _In_ PGPIO_ENABLE_INTERRUPT_PARAMETERS InterruptParameters
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -143,6 +129,9 @@ The GPIO_CLIENT_UNMASK_INTERRUPT function type is defined in the Gpioclx.h heade
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439479">GPIO_CLIENT_REGISTRATION_PACKET</a>
 
 
@@ -152,9 +141,6 @@ The GPIO_CLIENT_UNMASK_INTERRUPT function type is defined in the Gpioclx.h heade
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh406464">GPIO_ENABLE_INTERRUPT_PARAMETERS</a>
-
-
-
  
 
  

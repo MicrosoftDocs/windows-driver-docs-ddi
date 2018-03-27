@@ -52,24 +52,6 @@ req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
 The <i>DxgkDdiI2CReceiveDataFromDisplay</i> returns data received from an I2C device in a monitor.
 
 
-## -prototype
-
-
-````
-DXGKDDI_I2C_RECEIVE_DATA_FROM_DISPLAY DxgkDdiI2CReceiveDataFromDisplay;
-
-NTSTATUS DxgkDdiI2CReceiveDataFromDisplay(
-  _In_  PVOID                          MiniportDeviceContext,
-  _In_  D3DDDI_VIDEO_PRESENT_TARGET_ID VidPnTargetId,
-  _In_  ULONG                          SevenBitI2CAddress,
-  _In_  ULONG                          Flags,
-  _In_  ULONG                          DataLength,
-  _Out_ PVOID                          Data
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -77,7 +59,7 @@ NTSTATUS DxgkDdiI2CReceiveDataFromDisplay(
 
 ### -param MiniportDeviceContext [in]
 
-A handle to a context block that is associated with a display adapter. The display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a> function previously provided this handle to the Microsoft DirectX graphics kernel subsystem.
+A handle to a context block that is associated with a display adapter. The display miniport driver's <a href="https://msdn.microsoft.com/5fd4046f-54c3-4dfc-8d51-0d9ebcde0bea">DxgkDdiAddDevice</a> function previously provided this handle to the Microsoft DirectX graphics kernel subsystem.
 
 
 ### -param VidPnTargetId [in]
@@ -230,10 +212,10 @@ If the display adapter supports HDCP, <i>DxgkDdiI2CReceiveDataFromDisplay</i> mu
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_i2c_transmit_data_to_display.md">DxgkDdiI2CTransmitDataToDisplay</a>
 
 
 
+<a href="https://msdn.microsoft.com/67a08982-5d2f-4cd8-be14-76977fde0aac">DxgkDdiI2CTransmitDataToDisplay</a>
  
 
  

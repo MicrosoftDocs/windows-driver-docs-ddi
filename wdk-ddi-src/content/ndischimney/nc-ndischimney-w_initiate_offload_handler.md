@@ -54,20 +54,6 @@ req.typenames: PD_BUFFER_VIRTUAL_SUBNET_INFO
 <i>MiniportInitiateOffload</i> offloads TCP chimney state from the host stack.
 
 
-## -prototype
-
-
-````
-W_INITIATE_OFFLOAD_HANDLER MiniportInitiateOffload;
-
-VOID MiniportInitiateOffload(
-  _In_    NDIS_HANDLE                       MiniportAdapterContext,
-  _Inout_ PNDIS_MINIPORT_OFFLOAD_BLOCK_LIST OffloadBlockList
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -78,16 +64,16 @@ VOID MiniportInitiateOffload(
 The handle to an offload-target allocated context area in which the offload target maintains state
      information about this instance of the adapter. The miniport driver provided this handle to NDIS when it
      called 
-     <a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">
+     <a href="https://msdn.microsoft.com/861626af-23ea-40dc-a91a-7da42d4b0a1c">
      NdisMSetMiniportAttributes</a> from its 
-     <a href="..\ndis\nc-ndis-miniport_initialize.md">
+     <a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">
      MiniportInitializeEx</a> function.
 
 
 ### -param OffloadBlockList [in, out]
 
 A pointer to an 
-     <a href="..\ndischimney\ns-ndischimney-_ndis_miniport_offload_block_list.md">
+     <a href="https://msdn.microsoft.com/ebc98e65-5d11-4c3d-aea1-dfad1434c093">
      NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</a> structure that can be a stand-alone structure or the root of a
      linked list of such structures.
 
@@ -109,7 +95,7 @@ The
     <i>MiniportInitiateOffload</i> function stores the 
     <i>OffloadBlockList</i> pointer and then returns. The offload target always completes the offload
     operation asynchronously by calling 
-    <a href="..\ndischimney\nf-ndischimney-ndisminitiateoffloadcomplete.md">
+    <a href="https://msdn.microsoft.com/983b2e04-1563-4f2e-85a7-8fd93ec1cd8c">
     NdisMInitiateOffloadComplete</a>. The state tree pointed to by the 
     <i>OffloadBlockList</i> pointer is valid until the miniport driver calls 
     <b>NdisMInitiateOffloadComplete</b>.
@@ -163,23 +149,23 @@ For each state object that it offloads, the offload target must also supply a PV
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
 
 
-<a href="..\ndischimney\ns-ndischimney-_ndis_miniport_offload_block_list.md">
+<a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/ebc98e65-5d11-4c3d-aea1-dfad1434c093">
    NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563604">NdisMInitiateOffloadComplete</a>
 
 
 
-<a href="..\ndischimney\nf-ndischimney-ndisminitiateoffloadcomplete.md">NdisMInitiateOffloadComplete</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563672">NdisMSetMiniportAttributes</a>
  
 
  

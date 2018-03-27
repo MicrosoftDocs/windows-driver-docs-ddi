@@ -49,21 +49,7 @@ req.typenames: SET_PARTITION_INFORMATION_EX, *PSET_PARTITION_INFORMATION_EX
 ## -description
 
 
-<b>SET_PARTITION_INFORMATION_EX</b> is used with the IOCTL <a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_set_partition_info_ex.md">IOCTL_DISK_SET_PARTITION_INFO_EX</a> to set information for a specific partition.
-
-
-## -syntax
-
-
-````
-typedef struct _SET_PARTITION_INFORMATION_EX {
-  PARTITION_STYLE PartitionStyle;
-  union {
-    SET_PARTITION_INFORMATION_MBR Mbr;
-    SET_PARTITION_INFORMATION_GPT Gpt;
-  };
-} SET_PARTITION_INFORMATION_EX, *PSET_PARTITION_INFORMATION_EX;
-````
+<b>SET_PARTITION_INFORMATION_EX</b> is used with the IOCTL <a href="https://msdn.microsoft.com/library/windows/hardware/ff560417">IOCTL_DISK_SET_PARTITION_INFO_EX</a> to set information for a specific partition.
 
 
 ## -struct-fields
@@ -104,7 +90,10 @@ In the case of GPT partitions, any value that can be retrieved from the partitio
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566198">SET_PARTITION_INFORMATION_MBR</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560417">IOCTL_DISK_SET_PARTITION_INFO_EX</a>
 
 
 
@@ -112,10 +101,7 @@ In the case of GPT partitions, any value that can be retrieved from the partitio
 
 
 
-<a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_set_partition_info_ex.md">IOCTL_DISK_SET_PARTITION_INFO_EX</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566198">SET_PARTITION_INFORMATION_MBR</a>
  
 
  

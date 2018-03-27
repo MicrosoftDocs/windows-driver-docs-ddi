@@ -52,16 +52,6 @@ req.typenames: D3DKMT_DRIVERVERSION
 Used to destroy a hardware queue.
 
 
-## -syntax
-
-
-````
-NTSTATUS APIENTRY D3DKMTDestroyHwQueue(
-  _In_ const D3DKMT_DESTROYHWQUEUE *destroyHwContext
-);
-````
-
-
 ## -parameters
 
 

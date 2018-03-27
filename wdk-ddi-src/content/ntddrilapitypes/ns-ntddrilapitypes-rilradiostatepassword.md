@@ -52,17 +52,6 @@ req.typenames: RILRADIOSTATEPASSWORD, *LPRILRADIOSTATEPASSWORD
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef struct _RILRADIOSTATEPASSWORD {
-  DWORD      dwPasswordId;
-  WCHAR [32] wszPassword;
-} RILRADIOSTATEPASSWORD, RILRADIOSTATEPASSWORD;
-````
-
-
 ## -struct-fields
 
 

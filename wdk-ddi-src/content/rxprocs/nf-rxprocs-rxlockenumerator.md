@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
@@ -51,20 +51,6 @@ req.product: Windows 10 or later.
 
 
 <b>RxLockEnumerator</b> is called from a network mini-redirector to enumerate the file locks on an FCB.
-
-
-## -syntax
-
-
-````
-BOOLEAN RxLockEnumerator(
-  _Inout_ PMRX_SRV_OPEN  SrvOpen,
-  _Inout_ PVOID          *ContinuationHandle,
-  _Out_   PLARGE_INTEGER FileOffset,
-  _Out_   PLARGE_INTEGER LockRange,
-  _Out_   PBOOLEAN       IsLockExclusive
-);
-````
 
 
 ## -parameters
@@ -119,7 +105,6 @@ The <b>RxLockEnumerator</b> routine needs to allocate non-paged pool memory in o
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/6cf4c6f6-a21f-4919-92b5-2403b650d8d0">The SRV_OPEN Structure</a>
 
 
 
@@ -127,6 +112,7 @@ The <b>RxLockEnumerator</b> routine needs to allocate non-paged pool memory in o
 
 
 
+<a href="https://msdn.microsoft.com/6cf4c6f6-a21f-4919-92b5-2403b650d8d0">The SRV_OPEN Structure</a>
  
 
  

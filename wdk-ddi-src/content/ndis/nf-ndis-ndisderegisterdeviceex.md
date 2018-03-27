@@ -52,17 +52,7 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 
 The 
   <b>NdisDeregisterDeviceEx</b> function removes, from the system, a device object that was created by the 
-  <a href="..\ndis\nf-ndis-ndisregisterdeviceex.md">NdisRegisterDeviceEx</a> function.
-
-
-## -syntax
-
-
-````
-VOID NdisDeregisterDeviceEx(
-  _In_ NDIS_HANDLE NdisDeviceHandle
-);
-````
+  <a href="https://msdn.microsoft.com/library/windows/hardware/ff564518">NdisRegisterDeviceEx</a> function.
 
 
 ## -parameters
@@ -73,7 +63,7 @@ VOID NdisDeregisterDeviceEx(
 ### -param NdisDeviceHandle [in]
 
 The handle returned by 
-     <a href="..\ndis\nf-ndis-ndisregisterdeviceex.md">NdisRegisterDeviceEx</a> that identifies
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff564518">NdisRegisterDeviceEx</a> that identifies
      the device object to be deregistered.
 
 
@@ -92,7 +82,7 @@ None
 
 The 
     <b>NdisDeregisterDeviceEx</b> function removes a device object that was created by the 
-    <a href="..\ndis\nf-ndis-ndisregisterdeviceex.md">NdisRegisterDeviceEx</a> function. 
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff564518">NdisRegisterDeviceEx</a> function. 
     <b>NdisDeregisterDeviceEx</b> also removes the symbolic link that is associated with this device
     object.
 
@@ -101,10 +91,10 @@ The
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisregisterdeviceex.md">NdisRegisterDeviceEx</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564518">NdisRegisterDeviceEx</a>
  
 
  

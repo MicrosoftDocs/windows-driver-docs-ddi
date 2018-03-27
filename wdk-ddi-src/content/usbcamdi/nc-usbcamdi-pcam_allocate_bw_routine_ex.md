@@ -53,23 +53,6 @@ req.product: Windows 10 or later.
 A camera minidriver's <b>CamAllocateBandwidthEx</b> callback function selects the appropriate alternate setting within the USB video streaming interface and prepares the device to stream.
 
 
-## -prototype
-
-
-````
-PCAM_ALLOCATE_BW_ROUTINE_EX CamAllocateBandwidthEx;
-
-NTSTATUS CamAllocateBandwidthEx(
-   PDEVICE_OBJECT BusDeviceObject,
-   PVOID          DeviceContext,
-   PULONG         RawFrameLength,
-   PVOID          Format,
-   ULONG          StreamNumber
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -92,7 +75,7 @@ Specifies the size, in bytes, of the raw frame data from the packet stream.
 
 ### -param Format
 
-Pointer to a <a href="..\ksmedia\ns-ksmedia-tagks_dataformat_videoinfoheader.md">KS_DATAFORMAT_VIDEOINFOHEADER</a> structure associated with this stream.
+Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff567331">KS_DATAFORMAT_VIDEOINFOHEADER</a> structure associated with this stream.
 
 
 ### -param StreamNumber
@@ -126,18 +109,18 @@ This function is required.
 
 ## -see-also
 
-<a href="..\usbcamdi\ns-usbcamdi-_usbcamd_device_data2.md">USBCAMD_DEVICE_DATA2</a>
 
 
 
-<a href="..\ksmedia\ns-ksmedia-tagks_dataformat_videoinfoheader.md">KS_DATAFORMAT_VIDEOINFOHEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567331">KS_DATAFORMAT_VIDEOINFOHEADER</a>
 
 
 
-<a href="..\usbcamdi\nf-usbcamdi-usbcamd_selectalternateinterface.md">USBCAMD_SelectAlternateInterface</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568590">USBCAMD_DEVICE_DATA2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568625">USBCAMD_SelectAlternateInterface</a>
  
 
  

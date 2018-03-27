@@ -53,19 +53,6 @@ req.product: Windows 10 or later.
 The <b>wiasSetItemPropNames </b>function writes property names to item properties.
 
 
-## -syntax
-
-
-````
-HRESULT _stdcall wiasSetItemPropNames(
-  _In_    BYTE     *pWiasContext,
-          LONG     cItemProps,
-  _Inout_ PROPID   *ppId,
-  _Inout_ LPOLESTR *ppSzNames
-);
-````
-
-
 ## -parameters
 
 
@@ -118,10 +105,10 @@ Minidrivers typically use this function when initializing item properties. The o
 
 ## -see-also
 
-<a href="..\wiamdef\nf-wiamdef-wiassetitempropattribs.md">wiasSetItemPropAttribs</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549358">wiasSetItemPropAttribs</a>
  
 
  

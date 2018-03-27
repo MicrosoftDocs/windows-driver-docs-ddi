@@ -52,17 +52,6 @@ req.typenames: TOKEN_TYPE
 The <b>RtlAppendStringToString</b> routine concatenates two counted strings. It copies bytes from the source up to the length of the destination buffer.
 
 
-## -syntax
-
-
-````
-NTSTATUS RtlAppendStringToString(
-  _Inout_       PSTRING Destination,
-  _In_    const STRING  *Source
-);
-````
-
-
 ## -parameters
 
 
@@ -100,18 +89,18 @@ For information about other string-handling routines, see <a href="https://msdn.
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-rtlinitstring.md">RtlInitString</a>
 
 
 
-<a href="..\wudfwdm\nf-wudfwdm-rtlappendunicodetostring.md">RtlAppendUnicodeToString</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561736">RtlAppendUnicodeStringToString</a>
 
 
 
-<a href="..\wudfwdm\nf-wudfwdm-rtlappendunicodestringtostring.md">RtlAppendUnicodeStringToString</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561738">RtlAppendUnicodeToString</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561929">RtlInitString</a>
  
 
  

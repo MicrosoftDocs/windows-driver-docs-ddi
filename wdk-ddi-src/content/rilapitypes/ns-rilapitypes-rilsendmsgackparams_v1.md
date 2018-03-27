@@ -53,20 +53,6 @@ req.product: Windows 10 or later.
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef struct _RILSENDMSGACKPARAMS_V1 {
-  DWORD            cbSize;
-  DWORD            dwExecutor;
-  HUICCAPP         hUiccApp;
-  DWORD            dwAckID;
-  RILMSGACKSTATUS  dwMsgStatus;
-} RILSENDMSGACKPARAMS_V1, RILSENDMSGACKPARAMS_V1;
-````
-
-
 ## -struct-fields
 
 

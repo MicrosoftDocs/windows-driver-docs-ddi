@@ -56,17 +56,6 @@ The <b>USBD_RegisterHcFilter</b> routine has been deprecated in Windows XP and l
 On  Windows XP and later operating systems, a filter driver that is installed between the root hub FDO and PDO sees all USB traffic for a USB device after it has been enumerated.  There is no supported mechanism for filtering descriptor requests that occur during the enumeration of a USB device, because those requests originate and remain in the port driver (usbport.sys) and not the hub driver.
 
 
-## -syntax
-
-
-````
-VOID USBD_RegisterHcFilter(
-  _In_ PDEVICE_OBJECT DeviceObject,
-  _In_ PDEVICE_OBJECT FilterDeviceObject
-);
-````
-
-
 ## -parameters
 
 
@@ -74,7 +63,7 @@ VOID USBD_RegisterHcFilter(
 
 ### -param DeviceObject [in]
 
-Pointer to the device object that is the current top of the stack as reported by <a href="..\wdm\nf-wdm-ioattachdevicetodevicestack.md">IoAttachDeviceToDeviceStack</a>.
+Pointer to the device object that is the current top of the stack as reported by <a href="https://msdn.microsoft.com/library/windows/hardware/ff548300">IoAttachDeviceToDeviceStack</a>.
 
 
 ### -param FilterDeviceObject [in]
@@ -102,14 +91,14 @@ USB bus filter drivers must call this routine after attaching their device objec
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-ioattachdevicetodevicestack.md">IoAttachDeviceToDeviceStack</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548300">IoAttachDeviceToDeviceStack</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540134">USB device driver programming reference</a>
-
-
-
  
 
  

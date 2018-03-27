@@ -53,20 +53,6 @@ req.product: Windows 10 or later.
 The WWAN_AUTH_AKA_RESPONSE structure represents a response to an AKA authentication challenge.
 
 
-## -syntax
-
-
-````
-typedef struct _WWAN_AUTH_AKA_RESPONSE {
-  BYTE  Res[WWAN_AUTH_RES_MAX_LEN];
-  ULONG ResLength;
-  BYTE  IK[WWAN_AUTH_IK_LEN];
-  BYTE  CK[WWAN_AUTH_CK_LEN];
-  BYTE  Auts[WWAN_AUTH_AUTS_LEN];
-} WWAN_AUTH_AKA_RESPONSE, *PWWAN_AUTH_AKA_RESPONSE;
-````
-
-
 ## -struct-fields
 
 
@@ -123,17 +109,17 @@ Integrating key. This member is valid only in case of success. This member repre
 
 
 
-The <a href="..\wwan\ns-wwan-_wwan_auth_response.md">WWAN_AUTH_RESPONSE</a> structure uses this structure.
+The <a href="https://msdn.microsoft.com/library/windows/hardware/hh464129">WWAN_AUTH_RESPONSE</a> structure uses this structure.
 
 
 
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_auth_response.md">WWAN_AUTH_RESPONSE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh464129">WWAN_AUTH_RESPONSE</a>
  
 
  

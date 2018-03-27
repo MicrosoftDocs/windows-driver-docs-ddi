@@ -52,18 +52,6 @@ req.typenames: IRB_REQ_ISOCH_LISTEN
 This structure contains the fields necessary to carry out a ReqIsochListen request.
 
 
-## -syntax
-
-
-````
-typedef struct _IRB_REQ_ISOCH_LISTEN {
-  HANDLE     hResource;
-  ULONG      fulFlags;
-  CYCLE_TIME StartTime;
-} IRB_REQ_ISOCH_LISTEN;
-````
-
-
 ## -struct-fields
 
 

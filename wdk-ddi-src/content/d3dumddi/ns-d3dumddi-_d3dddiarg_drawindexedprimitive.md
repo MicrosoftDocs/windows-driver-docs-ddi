@@ -52,21 +52,6 @@ req.typenames: D3DDDIARG_DRAWINDEXEDPRIMITIVE
 The D3DDDIARG_DRAWINDEXEDPRIMITIVE structure describes an indexed primitive to draw.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DDDIARG_DRAWINDEXEDPRIMITIVE {
-  D3DPRIMITIVETYPE PrimitiveType;
-  INT              BaseVertexIndex;
-  UINT             MinIndex;
-  UINT             NumVertices;
-  UINT             StartIndex;
-  UINT             PrimitiveCount;
-} D3DDDIARG_DRAWINDEXEDPRIMITIVE;
-````
-
-
 ## -struct-fields
 
 
@@ -106,17 +91,17 @@ typedef struct _D3DDDIARG_DRAWINDEXEDPRIMITIVE {
 
 
 
-The Microsoft Direct3D runtime does not transform the index data before passing a pointer to the description of the index data in the <i>pData</i> parameter in a call to the user-mode display driver's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_drawindexedprimitive.md">DrawIndexedPrimitive</a> function. 
+The Microsoft Direct3D runtime does not transform the index data before passing a pointer to the description of the index data in the <i>pData</i> parameter in a call to the user-mode display driver's <a href="https://msdn.microsoft.com/12bb6274-d042-43bb-b9f5-1417f42da729">DrawIndexedPrimitive</a> function. 
 
 
 
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_drawindexedprimitive.md">DrawIndexedPrimitive</a>
 
 
 
+<a href="https://msdn.microsoft.com/12bb6274-d042-43bb-b9f5-1417f42da729">DrawIndexedPrimitive</a>
  
 
  

@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
@@ -51,39 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>StorPortEtwEvent8</b> publishes an Event Tracing for Windows (ETW) event to a storage trace channel. The miniport can log eight general purpose ETW parameters. The ETW parameters are  expressed as eight name-value pairs.
-
-
-## -syntax
-
-
-````
-ULONG StorPortEtwEvent8(
-  _In_     PVOID                     HwDeviceExtension,
-  _In_opt_ PSTOR_ADDRESS             Address,
-  _In_     ULONG                     EventId,
-  _In_     PWSTR                     EventDescription,
-  _In_     ULONGLONG                 EventKeywords,
-  _In_     STORPORT_ETW_LEVEL        EventLevel,
-  _In_     STORPORT_ETW_EVENT_OPCODE EventOpcode,
-  _In_opt_ PSCSI_REQUEST_BLOCK       Srb,
-  _In_opt_ PWSTR                     Parameter1Name,
-  _In_     ULONGLONG                 Parameter1Value,
-  _In_opt_ PWSTR                     Parameter2Name,
-  _In_     ULONGLONG                 Parameter2Value,
-  _In_opt_ PWSTR                     Parameter3Name,
-  _In_     ULONGLONG                 Parameter3Value,
-  _In_opt_ PWSTR                     Parameter4Name,
-  _In_     ULONGLONG                 Parameter4Value,
-  _In_opt_ PWSTR                     Parameter5Name,
-  _In_     ULONGLONG                 Parameter5Value,
-  _In_opt_ PWSTR                     Parameter6Name,
-  _In_     ULONGLONG                 Parameter6Value,
-  _In_opt_ PWSTR                     Parameter7Name,
-  _In_     ULONGLONG                 Parameter7Value,
-  _In_opt_ PWSTR                     Parameter8Name,
-  _In_     ULONGLONG                 Parameter8Value
-);
-````
 
 
 ## -parameters
@@ -510,14 +477,14 @@ Events generated from StorPort miniport drivers are published to the "Microsoft-
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportetwevent4.md">StorPortEtwEvent4</a>
 
 
 
-<a href="..\storport\nf-storport-storportetwevent2.md">StorPortEtwEvent2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn582028">StorPortEtwEvent2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn582029">StorPortEtwEvent4</a>
  
 
  

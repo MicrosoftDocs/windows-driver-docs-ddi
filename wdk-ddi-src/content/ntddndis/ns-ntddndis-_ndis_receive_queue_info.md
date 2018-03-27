@@ -52,31 +52,6 @@ req.typenames: NDIS_RECEIVE_QUEUE_INFO, *PNDIS_RECEIVE_QUEUE_INFO
 The <b>NDIS_RECEIVE_QUEUE_INFO</b> structure contains information about a receive queue on a network adapter.
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_RECEIVE_QUEUE_INFO {
-  NDIS_OBJECT_HEADER                   Header;
-  ULONG                                Flags;
-  NDIS_RECEIVE_QUEUE_TYPE              QueueType;
-  NDIS_RECEIVE_QUEUE_ID                QueueId;
-  NDIS_RECEIVE_QUEUE_GROUP_ID          QueueGroupId;
-  NDIS_RECEIVE_QUEUE_OPERATIONAL_STATE QueueState;
-  GROUP_AFFINITY                       ProcessorAffinity;
-  ULONG                                NumSuggestedReceiveBuffers;
-  ULONG                                MSIXTableEntry;
-  ULONG                                LookaheadSize;
-  NDIS_VM_NAME                         VmName;
-  NDIS_QUEUE_NAME                      QueueName;
-#if (NDIS_SUPPORT_NDIS630)
-  ULONG                                NumFilters;
-  ULONG                                InterruptCoalescingDomainId;
-#endif 
-} NDIS_RECEIVE_QUEUE_INFO, *PNDIS_RECEIVE_QUEUE_INFO;
-````
-
-
 ## -struct-fields
 
 
@@ -84,7 +59,7 @@ typedef struct _NDIS_RECEIVE_QUEUE_INFO {
 
 ### -field Header
 
-The type, revision, and size of the <b>NDIS_RECEIVE_QUEUE_INFO</b> structure. This member is formatted as an <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure.
+The type, revision, and size of the <b>NDIS_RECEIVE_QUEUE_INFO</b> structure. This member is formatted as an <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure.
 
 The miniport driver must set the <b>Type</b> member of <b>Header</b> to NDIS_OBJECT_TYPE_DEFAULT. To specify the version of the <b>NDIS_RECEIVE_QUEUE_INFO</b> structure, the driver must set the <b>Revision</b> member of <b>Header</b> to one of the following values: 
 
@@ -117,7 +92,7 @@ A <b>ULONG</b> value that contains a bitwise <b>OR</b> of flags. This member is 
 ### -field QueueType
 
 An 
-     <a href="..\ntddndis\ne-ntddndis-_ndis_receive_queue_type.md">NDIS_RECEIVE_QUEUE_TYPE</a> enumeration
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff567217">NDIS_RECEIVE_QUEUE_TYPE</a> enumeration
      value that specifies the type of the receive queue.
 
 
@@ -136,7 +111,7 @@ This member is reserved for NDIS.
 ### -field QueueState
 
 An 
-     <a href="..\ntddndis\ne-ntddndis-_ndis_receive_queue_operational_state.md">
+     <a href="https://msdn.microsoft.com/a8ae7b19-9dc8-4ccc-b71e-62ec0be1fa99">
      NDIS_RECEIVE_QUEUE_OPERATIONAL_STATE</a> enumeration value that specifies the operational state of the
      receive queue.
 
@@ -196,14 +171,14 @@ A ULONG value that is reserved for use by NDIS. This value is used for informati
 
 
 The <b>NDIS_RECEIVE_QUEUE_INFO</b> structure is used with the 
-    <a href="..\ntddndis\ns-ntddndis-_ndis_receive_queue_info_array.md">
+    <a href="https://msdn.microsoft.com/6a026c2b-e2ed-41bf-9482-0fdc64b175f2">
     NDIS_RECEIVE_QUEUE_INFO_ARRAY</a> structure for the 
     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-receive-filter-enum-queues">
     OID_RECEIVE_FILTER_ENUM_QUEUES</a> OID that enumerates receive queues on a network adapter.
 
 With a successful return from the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-receive-filter-enum-queues">
     OID_RECEIVE_FILTER_ENUM_QUEUES</a>, NDIS provides an
-    <a href="..\ntddndis\ns-ntddndis-_ndis_receive_queue_info_array.md">NDIS_RECEIVE_QUEUE_INFO_ARRAY</a> structure that defines the properties of the receive queue array. Each
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff567205">NDIS_RECEIVE_QUEUE_INFO_ARRAY</a> structure that defines the properties of the receive queue array. Each
     element in the array is an <b>NDIS_RECEIVE_QUEUE_INFO</b> structure.
 
 
@@ -211,20 +186,23 @@ With a successful return from the <a href="https://docs.microsoft.com/en-us/wind
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_receive_queue_info_array.md">NDIS_RECEIVE_QUEUE_INFO_ARRAY</a>
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-receive-filter-enum-queues">OID_RECEIVE_FILTER_ENUM_QUEUES</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
 
 
 
-<a href="..\ntddndis\ne-ntddndis-_ndis_receive_queue_type.md">NDIS_RECEIVE_QUEUE_TYPE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567205">NDIS_RECEIVE_QUEUE_INFO_ARRAY</a>
 
 
 
-<a href="..\ntddndis\ne-ntddndis-_ndis_receive_queue_operational_state.md">
+<a href="https://msdn.microsoft.com/a8ae7b19-9dc8-4ccc-b71e-62ec0be1fa99">
    NDIS_RECEIVE_QUEUE_OPERATIONAL_STATE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567217">NDIS_RECEIVE_QUEUE_TYPE</a>
 
 
 
@@ -232,14 +210,11 @@ With a successful return from the <a href="https://docs.microsoft.com/en-us/wind
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-receive-filter-enum-queues">OID_RECEIVE_FILTER_ENUM_QUEUES</a>
 
 
 
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-receive-filter-set-filter">OID_RECEIVE_FILTER_SET_FILTER</a>
-
-
-
  
 
  

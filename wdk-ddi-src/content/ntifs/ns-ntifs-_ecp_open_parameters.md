@@ -52,18 +52,6 @@ req.typenames: ECP_OPEN_PARAMETERS, *PECP_OPEN_PARAMETERS
 The <b>ECP_OPEN_PARAMETERS</b> structure allows a caller to specify the purpose of opening of a file without interfering with existing handles and/or oplocks on the file. 
 
 
-## -syntax
-
-
-````
-typedef struct _ECP_OPEN_PARAMETERS {
-  USHORT Size;
-  USHORT Reserved;
-  ULONG  Flags;
-} ECP_OPEN_PARAMETERS, *PECP_OPEN_PARAMETERS;
-````
-
-
 ## -struct-fields
 
 

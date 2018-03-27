@@ -54,17 +54,6 @@ The
   WDI_CHANNEL_MAPPING_ENTRY structure defines a channel mapping entry.
 
 
-## -syntax
-
-
-````
-typedef struct _WDI_CHANNEL_MAPPING_ENTRY {
-  UINT32 ChannelNumber;
-  UINT32 ChannelCenterFrequency;
-} WDI_CHANNEL_MAPPING_ENTRY, *PWDI_CHANNEL_MAPPING_ENTRY;
-````
-
-
 ## -struct-fields
 
 

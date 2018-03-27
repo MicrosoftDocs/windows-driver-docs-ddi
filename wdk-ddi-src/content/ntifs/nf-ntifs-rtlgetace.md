@@ -53,18 +53,6 @@ req.typenames: TOKEN_TYPE
 The <b>RtlGetAce</b> routine obtains a pointer to an access control entry (ACE) in an access control list (ACL). 
 
 
-## -syntax
-
-
-````
-NTSTATUS RtlGetAce(
-  _In_  PACL  Acl,
-  _In_  ULONG AceIndex,
-  _Out_ PVOID *Ace
-);
-````
-
-
 ## -parameters
 
 
@@ -105,18 +93,18 @@ For more information about security and access control, see the documentation on
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff538844">ACE</a>
 
 
 
-<a href="..\wdm\ns-wdm-_acl.md">ACL</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538866">ACL</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-rtlcreateacl.md">RtlCreateAcl</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552151">RtlCreateAcl</a>
  
 
  

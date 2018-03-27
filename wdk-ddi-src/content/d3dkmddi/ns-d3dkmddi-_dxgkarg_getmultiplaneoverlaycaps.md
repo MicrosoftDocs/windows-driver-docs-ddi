@@ -52,22 +52,6 @@ req.typenames: DXGKARG_GETMULTIPLANEOVERLAYCAPS
 Arguments to the DxgkDdiGetMultiPlaneOverlayCaps function.
 
 
-## -syntax
-
-
-````
-typedef struct _DXGKARG_GETMULTIPLANEOVERLAYCAPS {
-  D3DDDI_VIDEO_PRESENT_SOURCE_ID VidPnSourceId;
-  UINT                           MaxPlane;
-  UINT                           MaxRGBPlanes;
-  UINT                           MaxYUVPlanes;
-  DXGK_MULTIPLANEOVERLAYCAPS     OverlayCaps;
-  float                          MaxStretchFactor;
-  float                          MaxShrinkFactor;
-} DXGKARG_GETMULTIPLANEOVERLAYCAPS;
-````
-
-
 ## -struct-fields
 
 

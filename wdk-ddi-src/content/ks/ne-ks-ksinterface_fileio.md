@@ -52,16 +52,6 @@ req.typenames: KSINTERFACE_FILEIO
 
 
 
-## -syntax
-
-
-````
-typedef enum  { 
-  KSINTERFACE_FILEIO_STREAMING
-} KSINTERFACE_FILEIO;
-````
-
-
 ## -enum-fields
 
 

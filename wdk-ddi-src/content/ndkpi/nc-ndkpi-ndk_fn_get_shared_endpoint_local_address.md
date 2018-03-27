@@ -52,21 +52,6 @@ req.typenames: NDIS_WWAN_VISIBLE_PROVIDERS, *PNDIS_WWAN_VISIBLE_PROVIDERS
 The <i>NdkGetSharedEndpointLocalAddress</i> (<i>NDK_FN_GET_SHARED_ENDPOINT_LOCAL_ADDRESS</i>) function returns the local address for an NDK  shared endpoint.
 
 
-## -prototype
-
-
-````
-NDK_FN_GET_SHARED_ENDPOINT_LOCAL_ADDRESS NdkGetSharedEndpointLocalAddress;
-
-NTSTATUS NdkGetSharedEndpointLocalAddress(
-  _In_ NDK_SHARED_ENDPOINT                                                   *pNdkSharedEndpoint,
-       _Out_writes_bytes_to_opt_(*pAddressLength, *pAddressLength) PSOCKADDR pAddress,
-       _Inout_ ULONG                                                         *pAddressLength
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -74,7 +59,7 @@ NTSTATUS NdkGetSharedEndpointLocalAddress(
 
 ### -param *pNdkSharedEndpoint [in]
 
-A pointer to an NDK shared endpoint object  (<a href="..\ndkpi\ns-ndkpi-_ndk_shared_endpoint.md">NDK_SHARED_ENDPOINT</a>).
+A pointer to an NDK shared endpoint object  (<a href="https://msdn.microsoft.com/library/windows/hardware/hh439937">NDK_SHARED_ENDPOINT</a>).
 
 
 ### -param pAddress
@@ -149,10 +134,10 @@ An error occurred.
 
 ## -see-also
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_shared_endpoint.md">NDK_SHARED_ENDPOINT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439937">NDK_SHARED_ENDPOINT</a>
  
 
  

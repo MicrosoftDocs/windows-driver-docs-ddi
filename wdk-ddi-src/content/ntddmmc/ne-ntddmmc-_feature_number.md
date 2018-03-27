@@ -52,69 +52,6 @@ req.typenames: FEATURE_NUMBER, *PFEATURE_NUMBER
 The FEATURE_NUMBER enumeration provides a list of the features that are defined by the <i>SCSI Multimedia - 4 (MMC-4)</i> specification. 
 
 
-## -syntax
-
-
-````
-typedef enum _FEATURE_NUMBER { 
-  FeatureProfileList                   = 0x0000,
-  FeatureCore                          = 0x0001,
-  FeatureMorphing                      = 0x0002,
-  FeatureRemovableMedium               = 0x0003,
-  FeatureWriteProtect                  = 0x0004,
-  FeatureRandomReadable                = 0x0010,
-  FeatureMultiRead                     = 0x001D,
-  FeatureCdRead                        = 0x001E,
-  FeatureDvdRead                       = 0x001F,
-  FeatureRandomWritable                = 0x0020,
-  FeatureIncrementalStreamingWritable  = 0x0021,
-  FeatureSectorErasable                = 0x0022,
-  FeatureFormattable                   = 0x0023,
-  FeatureDefectManagement              = 0x0024,
-  FeatureWriteOnce                     = 0x0025,
-  FeatureRestrictedOverwrite           = 0x0026,
-  FeatureCdrwCAVWrite                  = 0x0027,
-  FeatureMrw                           = 0x0028,
-  FeatureEnhancedDefectReporting       = 0x0029,
-  FeatureDvdPlusRW                     = 0x002A,
-  FeatureDvdPlusR                      = 0x002B,
-  FeatureRigidRestrictedOverwrite      = 0x002C,
-  FeatureCdTrackAtOnce                 = 0x002D,
-  FeatureCdMastering                   = 0x002E,
-  FeatureDvdRecordableWrite            = 0x002F,
-  FeatureDDCDRead                      = 0x0030,
-  FeatureDDCDRWrite                    = 0x0031,
-  FeatureDDCDRWWrite                   = 0x0032,
-  FeatureLayerJumpRecording            = 0x0033,
-  FeatureCDRWMediaWriteSupport         = 0x0037,
-  FeatureBDRPseudoOverwrite            = 0x0038,
-  FeatureDvdPlusRWDualLayer            = 0x003A,
-  FeatureDvdPlusRDualLayer             = 0x003B,
-  FeatureBDRead                        = 0x0040,
-  FeatureBDWrite                       = 0x0041,
-  FeatureTSR                           = 0x0042,
-  FeatureHDDVDRead                     = 0x0050,
-  FeatureHDDVDWrite                    = 0x0051,
-  FeatureHybridDisc                    = 0x0080,
-  FeaturePowerManagement               = 0x0100,
-  FeatureSMART                         = 0x0101,
-  FeatureEmbeddedChanger               = 0x0102,
-  FeatureCDAudioAnalogPlay             = 0x0103,
-  FeatureMicrocodeUpgrade              = 0x0104,
-  FeatureTimeout                       = 0x0105,
-  FeatureDvdCSS                        = 0x0106,
-  FeatureRealTimeStreaming             = 0x0107,
-  FeatureLogicalUnitSerialNumber       = 0x0108,
-  FeatureMediaSerialNumber             = 0x0109,
-  FeatureDiscControlBlocks             = 0x010A,
-  FeatureDvdCPRM                       = 0x010B,
-  FeatureFirmwareDate                  = 0x010C,
-  FeatureAACS                          = 0x010D,
-  FeatureVCPS                          = 0x0110
-} FEATURE_NUMBER, *PFEATURE_NUMBER;
-````
-
-
 ## -enum-fields
 
 
@@ -374,10 +311,10 @@ Reserved 0x0111 - 0xfeff
 
 ## -see-also
 
-<a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553848">FEATURE_HEADER</a>
  
 
  

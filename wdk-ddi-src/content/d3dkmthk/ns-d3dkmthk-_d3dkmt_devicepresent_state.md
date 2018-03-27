@@ -52,17 +52,6 @@ req.typenames: D3DKMT_DEVICEPRESENT_STATE
 The D3DKMT_DEVICEPRESENT_STATE structure describes parameters for retrieving the present status for a device. 
 
 
-## -syntax
-
-
-````
-typedef struct _D3DKMT_DEVICEPRESENT_STATE {
-  D3DDDI_VIDEO_PRESENT_SOURCE_ID VidPnSourceId;
-  D3DKMT_PRESENT_STATS           PresentStats;
-} D3DKMT_DEVICEPRESENT_STATE;
-````
-
-
 ## -struct-fields
 
 
@@ -75,19 +64,19 @@ typedef struct _D3DKMT_DEVICEPRESENT_STATE {
 
 ### -field PresentStats
 
-[out] A <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_present_stats.md">D3DKMT_PRESENT_STATS</a> structure that describes status of present operations that is retrieved for the device.
+[out] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff548200">D3DKMT_PRESENT_STATS</a> structure that describes status of present operations that is retrieved for the device.
 
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_present_stats.md">D3DKMT_PRESENT_STATS</a>
 
 
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_getdevicestate.md">D3DKMT_GETDEVICESTATE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548030">D3DKMT_GETDEVICESTATE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548200">D3DKMT_PRESENT_STATS</a>
  
 
  

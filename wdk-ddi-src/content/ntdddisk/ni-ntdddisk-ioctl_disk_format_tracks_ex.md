@@ -46,16 +46,11 @@ req.typenames: DETECTION_TYPE
 # IOCTL_DISK_FORMAT_TRACKS_EX IOCTL
 
 
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
-
 ## -description
 
 
 
-Is similar to <a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_format_tracks.md">IOCTL_DISK_FORMAT_TRACKS</a>, except that it allows the caller to specify several more parameters. The additional extended parameters are the format gap length, the number of sectors per track, and an array whose element size is equal to the number of sectors per track. This array represents the track layout.
+Is similar to <a href="https://msdn.microsoft.com/library/windows/hardware/ff559447">IOCTL_DISK_FORMAT_TRACKS</a>, except that it allows the caller to specify several more parameters. The additional extended parameters are the format gap length, the number of sectors per track, and an array whose element size is equal to the number of sectors per track. This array represents the track layout.
 
 
 
@@ -67,7 +62,7 @@ Is similar to <a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_format_tracks.md">IOCT
 
 ### -input-buffer
 
-The buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> contains the <a href="..\ntdddisk\ns-ntdddisk-_format_ex_parameters.md">FORMAT_EX_PARAMETERS</a> data. 
+The buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> contains the <a href="https://msdn.microsoft.com/library/windows/hardware/ff553875">FORMAT_EX_PARAMETERS</a> data. 
 
 
 ### -input-buffer-length
@@ -110,14 +105,14 @@ The driver sets the <b>Status</b> field to STATUS_SUCCESS. Otherwise, the driver
 
 ## -see-also
 
-<a href="..\ntdddisk\ns-ntdddisk-_format_ex_parameters.md">FORMAT_EX_PARAMETERS</a>
 
 
 
-<a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_format_tracks.md">IOCTL_DISK_FORMAT_TRACKS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553875">FORMAT_EX_PARAMETERS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559447">IOCTL_DISK_FORMAT_TRACKS</a>
  
 
  

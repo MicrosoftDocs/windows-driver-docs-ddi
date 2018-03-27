@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
@@ -51,17 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>StorPortGetCurrentProcessorNumber</b> routine retrieves the current processor number from the kernel.
-
-
-## -syntax
-
-
-````
-ULONG StorPortGetCurrentProcessorNumber(
-  _In_  PVOID             HwDeviceExtension,
-  _Out_ PPROCESSOR_NUMBER ProcNumber
-);
-````
 
 
 ## -parameters

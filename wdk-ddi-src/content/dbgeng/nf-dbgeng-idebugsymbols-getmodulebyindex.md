@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -52,17 +52,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>GetModuleByIndex</b> method returns the location of the module with the specified index.
-
-
-## -syntax
-
-
-````
-HRESULT GetModuleByIndex(
-  [in]  ULONG    Index,
-  [out] PULONG64 Base
-);
-````
 
 
 ## -parameters

@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 The <b>USB_HUB_INFORMATION</b> structure contains information about a hub.
 
 
-## -syntax
-
-
-````
-typedef struct _USB_HUB_INFORMATION {
-  USB_HUB_DESCRIPTOR HubDescriptor;
-  BOOLEAN            HubIsBusPowered;
-} USB_HUB_INFORMATION, *PUSB_HUB_INFORMATION;
-````
-
-
 ## -struct-fields
 
 
@@ -71,7 +60,7 @@ typedef struct _USB_HUB_INFORMATION {
 
 ### -field HubDescriptor
 
-A <a href="..\usbspec\ns-usbspec-_usb_hub_descriptor.md">USB_HUB_DESCRIPTOR</a> structure that contains selected information from the hub descriptor.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff539331">USB_HUB_DESCRIPTOR</a> structure that contains selected information from the hub descriptor.
 
 
 ### -field HubIsBusPowered
@@ -81,7 +70,6 @@ A Boolean value that indicates whether the hub is bus-powered. <b>TRUE</b>, the 
 
 ## -see-also
 
-<a href="..\usbioctl\ns-usbioctl-_usb_node_information.md">USB_NODE_INFORMATION</a>
 
 
 
@@ -89,10 +77,11 @@ A Boolean value that indicates whether the hub is bus-powered. <b>TRUE</b>, the 
 
 
 
-<a href="..\usbspec\ns-usbspec-_usb_hub_descriptor.md">USB_HUB_DESCRIPTOR</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539331">USB_HUB_DESCRIPTOR</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540110">USB_NODE_INFORMATION</a>
  
 
  

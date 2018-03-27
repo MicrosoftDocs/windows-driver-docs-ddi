@@ -54,16 +54,6 @@ req.product: Windows 10 or later.
 The <b>ScsiPortReadRegisterUshort</b> routine reads a USHORT value from the HBA.
 <div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
-## -syntax
-
-
-````
-USHORT ScsiPortReadRegisterUshort(
-  _In_ PUSHORT Register
-);
-````
-
-
 ## -parameters
 
 
@@ -94,10 +84,10 @@ Pointer to the register. The given <i>Register</i> must be in a mapped memory-sp
 
 ## -see-also
 
-<a href="..\srb\nf-srb-scsiportgetdevicebase.md">ScsiPortGetDeviceBase</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564629">ScsiPortGetDeviceBase</a>
  
 
  

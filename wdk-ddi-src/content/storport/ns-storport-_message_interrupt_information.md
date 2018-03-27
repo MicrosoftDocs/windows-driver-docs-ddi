@@ -53,21 +53,6 @@ req.product: Windows 10 or later.
 The <b>MESSAGE_INTERRUPT_INFORMATION</b> structure describes a message signaled interrupt (MSI).
 
 
-## -syntax
-
-
-````
-typedef struct _MESSAGE_INTERRUPT_INFORMATION {
-  ULONG                 MessageId;
-  ULONG                 MessageData;
-  STOR_PHYSICAL_ADDRESS MessageAddress;
-  ULONG                 InterruptVector;
-  ULONG                 InterruptLevel;
-  KINTERRUPT_MODE       InterruptMode;
-} MESSAGE_INTERRUPT_INFORMATION, *PMESSAGE_INTERRUPT_INFORMATION;
-````
-
-
 ## -struct-fields
 
 
@@ -75,7 +60,7 @@ typedef struct _MESSAGE_INTERRUPT_INFORMATION {
 
 ### -field MessageId
 
-An identifier identifies the MSI interrupt. A miniport driver can pass this value to <a href="..\storport\nf-storport-storportacquiremsispinlock.md">StorPortAcquireMSISpinLock</a> in the <i>MessageId</i> parameter to obtain a spin lock for synchronization purposes. 
+An identifier identifies the MSI interrupt. A miniport driver can pass this value to <a href="https://msdn.microsoft.com/library/windows/hardware/ff567023">StorPortAcquireMSISpinLock</a> in the <i>MessageId</i> parameter to obtain a spin lock for synchronization purposes. 
 
 
 ### -field MessageData
@@ -100,24 +85,24 @@ The interrupt level associated with the message.
 
 ### -field InterruptMode
 
-A value of type <a href="..\wudfwdm\ne-wudfwdm-_kinterrupt_mode.md">KINTERRUPT_MODE</a> that specifies the interrupt mode associated with the message.  
+A value of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff554239">KINTERRUPT_MODE</a> that specifies the interrupt mode associated with the message.  
 
 
 ## -remarks
 
 
 
-Miniport drivers retrieve the MSI information in a <b>MESSAGE_INTERRUPT_INFORMATION</b> structure by calling the <a href="..\storport\nf-storport-storportgetmsiinfo.md">StorPortGetMSIInfo</a> routine. 
+Miniport drivers retrieve the MSI information in a <b>MESSAGE_INTERRUPT_INFORMATION</b> structure by calling the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567090">StorPortGetMSIInfo</a> routine. 
 
 
 
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportgetmsiinfo.md">StorPortGetMSIInfo</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567090">StorPortGetMSIInfo</a>
  
 
  

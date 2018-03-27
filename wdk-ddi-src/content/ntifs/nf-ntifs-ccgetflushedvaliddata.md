@@ -52,17 +52,6 @@ req.typenames: TOKEN_TYPE
 The <b>CcGetFlushedValidData</b> routine determines how much of a cached file has been flushed to disk.
 
 
-## -syntax
-
-
-````
-LARGE_INTEGER CcGetFlushedValidData(
-  _In_ PSECTION_OBJECT_POINTERS SectionObjectPointer,
-  _In_ BOOLEAN                  BcbListHeld
-);
-````
-
-
 ## -parameters
 
 
@@ -98,14 +87,14 @@ The file system is responsible for ensuring that the value of <i>SectionObjectPo
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-ccpurgecachesection.md">CcPurgeCacheSection</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-ccflushcache.md">CcFlushCache</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539082">CcFlushCache</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539188">CcPurgeCacheSection</a>
  
 
  

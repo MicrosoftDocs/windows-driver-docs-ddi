@@ -52,16 +52,6 @@ req.typenames: D3DKMT_DRIVERVERSION
 Used to submit a signal to the hardware queue.
 
 
-## -syntax
-
-
-````
-NTSTATUS APIENTRY D3DKMTSubmitSignalSyncObjectsToHwQueue(
-  _In_ const D3DKMT_SUBMITSIGNALSYNCOBJECTSTOHWQUEUE *submitWaitForSyncObjectsToHwQueue
-);
-````
-
-
 ## -parameters
 
 

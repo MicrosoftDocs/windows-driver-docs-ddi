@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: wdbgexts.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,18 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>GetDebuggerData</b> function retrieves information stored in a data block.
-
-
-## -syntax
-
-
-````
-ULONG GetDebuggerData(
-   ULONG Tag,
-   PVOID Buf,
-   ULONG Size
-);
-````
 
 
 ## -parameters

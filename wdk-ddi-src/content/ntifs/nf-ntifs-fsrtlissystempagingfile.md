@@ -52,16 +52,6 @@ req.typenames: TOKEN_TYPE
 The <b>FsRtlIsSystemPagingFile</b> routine determines whether a given file is currently a system paging file. 
 
 
-## -syntax
-
-
-````
-LOGICAL FsRtlIsPagingFile(
-  _In_ PFILE_OBJECT FileObject
-);
-````
-
-
 ## -parameters
 
 
@@ -83,18 +73,18 @@ Pointer to a file object for the file.
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlpostpagingfilestackoverflow~r2.md">FsRtlPostPagingFileStackOverflow</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-fsrtlispagingfile.md">FsRtlIsPagingFile</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546873">FsRtlIsPagingFile</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547152">FsRtlPostPagingFileStackOverflow</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547285">FsRtlSupportsPerStreamContexts</a>
-
-
-
  
 
  

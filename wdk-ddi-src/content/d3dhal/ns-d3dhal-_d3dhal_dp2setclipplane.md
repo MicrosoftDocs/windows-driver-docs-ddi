@@ -52,17 +52,6 @@ req.typenames: D3DHAL_DP2SETCLIPPLANE
 The D3DHAL_SETCLIPPLANE structure allows user defined clip planes to be used in world space.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DHAL_DP2SETCLIPPLANE {
-  DWORD    dwIndex;
-  D3DVALUE plane[4];
-} D3DHAL_DP2SETCLIPPLANE, *LPD3DHAL_DP2SETCLIPPLANE;
-````
-
-
 ## -struct-fields
 
 

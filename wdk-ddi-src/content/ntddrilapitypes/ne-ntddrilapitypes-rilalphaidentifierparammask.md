@@ -52,17 +52,6 @@ req.typenames: RILALPHAIDENTIFIERPARAMMASK
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef enum _RILALPHAIDENTIFIERPARAMMASK { 
-  RIL_PARAM_AI_REASON,
-  RIL_PARAM_AI_ALL
-} RILALPHAIDENTIFIERPARAMMASK;
-````
-
-
 ## -enum-fields
 
 

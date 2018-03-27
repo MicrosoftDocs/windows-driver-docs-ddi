@@ -57,17 +57,6 @@ A protocol driver or intermediate driver calls the
   to an underlying offload target.
 
 
-## -syntax
-
-
-````
-VOID NdisOffloadTcpReceiveReturn(
-  _In_ NDIS_HANDLE      NdisBindingHandle,
-  _In_ PNET_BUFFER_LIST NetBufferList
-);
-````
-
-
 ## -parameters
 
 
@@ -77,7 +66,7 @@ VOID NdisOffloadTcpReceiveReturn(
 
 The handle that NDIS provided at the 
      <i>NdisBindingHandle</i> parameter of the 
-     <a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a> function. This handle
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff563715">NdisOpenAdapterEx</a> function. This handle
      identifies the binding between the caller and the underlying intermediate driver or offload
      target.
 
@@ -85,10 +74,10 @@ The handle that NDIS provided at the
 ### -param NetBufferList [in]
 
 A pointer to a 
-     <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure. This structure
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structure. This structure
      can be a stand-alone structure or the first structure in a linked list of NET_BUFFER_LIST structures.
      The linked list can contain NET_BUFFER_LIST structures from one or more calls to the 
-     <a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_receive_indicate.md">
+     <a href="https://msdn.microsoft.com/a45dede9-6559-4207-a49f-d9627054433a">
      NdisTcpOffloadReceiveHandler</a> function.
 
 
@@ -108,7 +97,7 @@ The
 
 
 In response to a call to its 
-    <a href="..\ndischimney\nc-ndischimney-w_tcp_offload_receive_return_handler.md">
+    <a href="https://msdn.microsoft.com/b746f58d-d029-4fcd-a59d-baba037fc38e">
     MiniportTcpOffloadReceiveReturn</a> function, an intermediate driver calls the 
     <b>NdisOffloadTcpReceiveReturn</b> function to propagate the receive return operation to the underlying
     intermediate driver or offload target. For more information, see 
@@ -137,23 +126,23 @@ The same PNET_BUFFER_LIST pointer that NDIS passed to the intermediate driver's
 
 ## -see-also
 
-<a href="..\ndischimney\nc-ndischimney-w_tcp_offload_receive_return_handler.md">
+
+
+
+<a href="https://msdn.microsoft.com/b746f58d-d029-4fcd-a59d-baba037fc38e">
    MiniportTcpOffloadReceiveReturn</a>
 
 
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566705">NDIS_OFFLOAD_HANDLE</a>
 
 
 
-<a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_receive_indicate.md">NdisTcpOffloadReceiveHandler</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a>
 
 
 
-<a href="..\ndischimney\ns-ndischimney-_ndis_offload_handle.md">NDIS_OFFLOAD_HANDLE</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564606">NdisTcpOffloadReceiveHandler</a>
  
 
  

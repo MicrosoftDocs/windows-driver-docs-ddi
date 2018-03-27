@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: printerextension.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,17 +51,6 @@ req.product: Windows 10 or later.
 
 
 Called when a bidi response  is received.
-
-
-## -syntax
-
-
-````
-HRESULT OnBidiResponseReceived(
-  [in] BSTR    bstrResponse,
-  [in] HRESULT hrStatus
-);
-````
 
 
 ## -parameters
@@ -99,7 +88,6 @@ The <i>bstrResponse</i> parameter is formatted according to the schema that is d
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprinterqueueevent.md">IPrinterQueueEvent</a>
 
 
 
@@ -107,7 +95,7 @@ The <i>bstrResponse</i> parameter is formatted according to the schema that is d
 
 
 
-<a href="..\printerextension\nn-printerextension-iprinterqueue.md">IPrinterQueue</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439635">IPrinterQueue</a>
 
 
 
@@ -115,6 +103,7 @@ The <i>bstrResponse</i> parameter is formatted according to the schema that is d
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439618">IPrinterQueueEvent</a>
  
 
  

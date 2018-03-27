@@ -52,18 +52,6 @@ req.typenames: HBA_RSCN_EVENTINFO, *PHBA_RSCN_EVENTINFO
 The HBA_Link_EventInfo structure contains information about a WMI RSCN event associated with the fibre channel HBA API. 
 
 
-## -syntax
-
-
-````
-typedef struct HBA_RSCN_EventInfo {
-  HBA_UINT32 PortFcId;
-  HBA_UINT32 NPortPage;
-  HBA_UINT32 Reserved[2];
-} HBA_RSCN_EVENTINFO, *PHBA_RSCN_EVENTINFO;
-````
-
-
 ## -struct-fields
 
 
@@ -86,18 +74,18 @@ Reserved.
 
 ## -see-also
 
-<a href="..\hbaapi\ns-hbaapi-hba_eventinfo.md">HBA_EventInfo</a>
 
 
 
-<a href="..\hbaapi\ns-hbaapi-hba_link_eventinfo.md">HBA_Link_EventInfo</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556048">HBA_EventInfo</a>
 
 
 
-<a href="..\hbaapi\ns-hbaapi-hba_pty_eventinfo.md">HBA_Pty_EventInfo</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556124">HBA_Link_EventInfo</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557125">HBA_Pty_EventInfo</a>
  
 
  

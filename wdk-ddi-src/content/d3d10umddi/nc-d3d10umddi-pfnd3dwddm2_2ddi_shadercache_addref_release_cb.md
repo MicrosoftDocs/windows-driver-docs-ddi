@@ -52,19 +52,6 @@ req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 The <i>pfnShaderCacheAddRefCb</i> callback function supports the ability to extend the lifetime of a shader cache.
 
 
-## -prototype
-
-
-````
-PFND3DWDDM2_2DDI_SHADERCACHE_ADDREF_RELEASE_CB pfnShaderCacheAddRefCb;
-
-VOID APIENTRY CALLBACK * pfnShaderCacheAddRefCb(
-  _In_ D3DWDDM2_2DDI_HRTCACHESESSION hCacheSession
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -88,17 +75,17 @@ This callback function does not return a value.
 
 
 
-Access this callback function by using the <a href="..\d3d10umddi\ns-d3d10umddi-d3dwddm2_2ddi_corelayer_devicecallbacks.md">D3DWDDM2_2DDI_CORELAYER_DEVICECALLBACKS</a> structure.
+Access this callback function by using the <a href="https://msdn.microsoft.com/B42DA194-690F-41A6-AC11-71224887A2E4">D3DWDDM2_2DDI_CORELAYER_DEVICECALLBACKS</a> structure.
 
 
 
 
 ## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3dwddm2_2ddi_corelayer_devicecallbacks.md">D3DWDDM2_2DDI_CORELAYER_DEVICECALLBACKS</a>
 
 
 
+<a href="https://msdn.microsoft.com/B42DA194-690F-41A6-AC11-71224887A2E4">D3DWDDM2_2DDI_CORELAYER_DEVICECALLBACKS</a>
  
 
  

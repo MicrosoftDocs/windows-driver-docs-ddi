@@ -55,19 +55,6 @@ The <b>VideoPortScanRom</b> function is <b>obsolete</b> in Windows XP and later 
 <b>VideoPortScanRom</b> performs a case-sensitive search for a specified string in ROM.
 
 
-## -syntax
-
-
-````
-BOOLEAN VideoPortScanRom(
-   PVOID  HwDeviceExtension,
-   PUCHAR RomBase,
-   ULONG  RomLength,
-   PUCHAR String
-);
-````
-
-
 ## -parameters
 
 
@@ -80,7 +67,7 @@ Pointer to the miniport driver's device extension.
 
 ### -param RomBase
 
-Specifies the base ROM address at which the search should start. The given <i>RomBase</i> must be in a mapped range returned by <a href="..\video\nf-video-videoportgetdevicebase.md">VideoPortGetDeviceBase</a>.
+Specifies the base ROM address at which the search should start. The given <i>RomBase</i> must be in a mapped range returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff570310">VideoPortGetDeviceBase</a>.
 
 
 ### -param RomLength
@@ -106,25 +93,25 @@ If the string is found, <b>VideoPortScanRom</b> returns <b>TRUE</b>. Otherwise, 
 
 
 
-<b>VideoPortScanRom</b> cannot be called from a miniport driver's <a href="..\video\nc-video-pvideo_hw_interrupt.md">HwVidInterrupt</a> or <a href="..\video\nc-video-pvideo_hw_timer.md">HwVidTimer</a> functions, or from <a href="..\video\nf-video-videoportqueuedpc.md">VideoPortQueueDpc</a>, or from a callback to <a href="..\video\nf-video-videoportsynchronizeexecution.md">VideoPortSynchronizeExecution</a>. 
+<b>VideoPortScanRom</b> cannot be called from a miniport driver's <a href="https://msdn.microsoft.com/523471e3-cf1e-48d2-b5f0-2f8d19ad71e0">HwVidInterrupt</a> or <a href="https://msdn.microsoft.com/bd41bbbf-4ec8-4e6c-8620-d8a9fe0b8bad">HwVidTimer</a> functions, or from <a href="https://msdn.microsoft.com/library/windows/hardware/ff570339">VideoPortQueueDpc</a>, or from a callback to <a href="https://msdn.microsoft.com/library/windows/hardware/ff570372">VideoPortSynchronizeExecution</a>. 
 
 
 
 
 ## -see-also
 
-<a href="..\video\nf-video-videoportgetdevicebase.md">VideoPortGetDeviceBase</a>
 
 
 
-<a href="..\video\nf-video-videoportgetromimage.md">VideoPortGetRomImage</a>
+<a href="https://msdn.microsoft.com/8c880eff-4b4c-439e-9239-f2343c1fe084">HwVidFindAdapter</a>
 
 
 
-<a href="..\video\nc-video-pvideo_hw_find_adapter.md">HwVidFindAdapter</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570310">VideoPortGetDeviceBase</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570317">VideoPortGetRomImage</a>
  
 
  

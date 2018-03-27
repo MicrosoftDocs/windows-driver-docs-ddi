@@ -52,17 +52,6 @@ req.typenames: D3DKMT_OPENPROTECTEDSESSIONFROMNTHANDLE
 Used to open a protected session from the NT handle.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DKMT_OPENPROTECTEDSESSIONFROMNTHANDLE {
-  HANDLE        hNtHandle;
-  D3DKMT_HANDLE hHandle;
-} D3DKMT_OPENPROTECTEDSESSIONFROMNTHANDLE;
-````
-
-
 ## -struct-fields
 
 

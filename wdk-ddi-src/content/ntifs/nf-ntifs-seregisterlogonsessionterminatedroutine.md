@@ -52,16 +52,6 @@ req.typenames: TOKEN_TYPE
 The <b>SeRegisterLogonSessionTerminatedRoutine</b> routine registers a callback routine to be called when a logon session terminates. A logon session terminates when the last token referencing the logon session is deleted.
 
 
-## -syntax
-
-
-````
-NTSTATUS SeRegisterLogonSessionTerminatedRoutine(
-  _In_ PSE_LOGON_SESSION_TERMINATED_ROUTINE CallbackRoutine
-);
-````
-
-
 ## -parameters
 
 
@@ -135,10 +125,10 @@ For more information about security and access control, see the documentation on
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-seunregisterlogonsessionterminatedroutine.md">SeUnregisterLogonSessionTerminatedRoutine</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556738">SeUnregisterLogonSessionTerminatedRoutine</a>
  
 
  

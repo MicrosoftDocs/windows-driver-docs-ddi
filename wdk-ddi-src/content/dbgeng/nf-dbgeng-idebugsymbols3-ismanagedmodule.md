@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -52,17 +52,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 Checks whether the engine is using managed
     debugging support when it retrieves information
     for a module.
-
-
-## -syntax
-
-
-````
-HRESULT IsManagedModule(
-  [in] ULONG   Index,
-  [in] ULONG64 Base
-);
-````
 
 
 ## -parameters
@@ -102,10 +91,10 @@ It can be expensive to run this check.
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550870">IDebugSymbols3</a>
  
 
  

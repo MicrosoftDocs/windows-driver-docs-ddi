@@ -50,27 +50,9 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The VIDEO_PORT_AGP_SERVICES structure is <b>obsolete</b> and is supported only for backward compatibility with existing drivers. In its place, driver writers should use <a href="..\video\ns-video-_video_port_agp_interface.md">VIDEO_PORT_AGP_INTERFACE</a>.
+The VIDEO_PORT_AGP_SERVICES structure is <b>obsolete</b> and is supported only for backward compatibility with existing drivers. In its place, driver writers should use <a href="https://msdn.microsoft.com/library/windows/hardware/ff570527">VIDEO_PORT_AGP_INTERFACE</a>.
 
-The VIDEO_PORT_AGP_SERVICES structure describes the AGP service routines provided by the video port driver. PnP video miniport drivers that can use AGP should call <a href="..\videoagp\nf-videoagp-videoportgetagpservices.md">VideoPortGetAgpServices</a> to initialize this structure. The video port driver initializes the entire structure; the miniport driver should never change any members.
-
-
-## -syntax
-
-
-````
-typedef struct _VIDEO_PORT_AGP_SERVICES {
-  PAGP_RESERVE_PHYSICAL AgpReservePhysical;
-  PAGP_RELEASE_PHYSICAL AgpReleasePhysical;
-  PAGP_COMMIT_PHYSICAL  AgpCommitPhysical;
-  PAGP_FREE_PHYSICAL    AgpFreePhysical;
-  PAGP_RESERVE_VIRTUAL  AgpReserveVirtual;
-  PAGP_RELEASE_VIRTUAL  AgpReleaseVirtual;
-  PAGP_COMMIT_VIRTUAL   AgpCommitVirtual;
-  PAGP_FREE_VIRTUAL     AgpFreeVirtual;
-  ULONGLONG             AllocationLimit;
-} VIDEO_PORT_AGP_SERVICES, *PVIDEO_PORT_AGP_SERVICES;
-````
+The VIDEO_PORT_AGP_SERVICES structure describes the AGP service routines provided by the video port driver. PnP video miniport drivers that can use AGP should call <a href="https://msdn.microsoft.com/library/windows/hardware/ff570303">VideoPortGetAgpServices</a> to initialize this structure. The video port driver initializes the entire structure; the miniport driver should never change any members.
 
 
 ## -struct-fields

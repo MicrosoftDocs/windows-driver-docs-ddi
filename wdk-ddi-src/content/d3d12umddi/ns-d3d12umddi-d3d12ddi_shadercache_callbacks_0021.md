@@ -52,17 +52,6 @@ req.typenames: D3D12DDI_SHADERCACHE_CALLBACKS_0021
 Specifies shader cache callback functions. 
 
 
-## -syntax
-
-
-````
-typedef struct D3D12DDI_SHADERCACHE_CALLBACKS_0021 {
-  PFND3D12DDI_SHADERCACHEGETVALUE_CB_0021   pfnShaderCacheGetValueCb;
-  PFND3D12DDI_SHADERCACHESTOREVALUE_CB_0021 pfnShaderCacheStoreValueCb;
-} D3D12DDI_SHADERCACHE_CALLBACKS_0021;
-````
-
-
 ## -struct-fields
 
 

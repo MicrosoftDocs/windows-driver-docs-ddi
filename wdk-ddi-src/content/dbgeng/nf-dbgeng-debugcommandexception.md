@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -50,18 +50,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 Specifies a debug command exception.
-
-
-## -syntax
-
-
-````
-void WINAPI DebugCommandException(
-   ULONG Command,
-   ULONG ArgSize,
-   PVOID Arg
-);
-````
 
 
 ## -parameters

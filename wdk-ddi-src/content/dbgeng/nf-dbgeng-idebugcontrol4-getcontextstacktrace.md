@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -50,23 +50,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>GetContextStackTrace</b> method returns the frames at the top of the call stack, starting with an arbitrary <a href="https://msdn.microsoft.com/3690903c-4281-4c65-98b0-00ca22206168">register context</a> and returning the reconstructed register context for each stack frame.
-
-
-## -syntax
-
-
-````
-HRESULT GetContextStackTrace(
-  [in, optional]  PVOID              StartContext,
-  [in]            ULONG              StartContextSize,
-  [out, optional] PDEBUG_STACK_FRAME Frames,
-  [in]            ULONG              FramesSize,
-  [out, optional] PVOID              FrameContexts,
-  [in]            ULONG              FrameContextsSize,
-  [in]            ULONG              FrameContextsEntrySize,
-  [out, optional] PULONG             FramesFilled
-);
-````
 
 
 ## -parameters
@@ -155,11 +138,6 @@ It is common for stack unwinds to restore only a subset of the registers.  For e
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
-
-
-
-<a href="https://msdn.microsoft.com/1061015f-cb0c-490b-b256-e0dedb659f22">k, kb, kc, kd, kp, kP, kv (Display Stack Backtrace)</a>
 
 
 
@@ -167,10 +145,15 @@ It is common for stack unwinds to restore only a subset of the registers.  For e
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550526">IDebugControl4</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553203">OutputContextStackTrace</a>
 
 
 
+<a href="https://msdn.microsoft.com/1061015f-cb0c-490b-b256-e0dedb659f22">k, kb, kc, kd, kp, kP, kv (Display Stack Backtrace)</a>
  
 
  

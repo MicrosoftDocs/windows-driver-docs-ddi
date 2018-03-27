@@ -52,17 +52,6 @@ req.typenames: D3D12DDI_VIDEO_PROCESS_OUTPUT_STREAM_0020
 The output stream for video processing commands, which points to a target surface.
 
 
-## -syntax
-
-
-````
-typedef struct D3D12DDI_VIDEO_PROCESS_OUTPUT_STREAM_0020 {
-  D3D12DDI_HRESOURCE hDrvTexture2D;
-  UINT               Subresource;
-} D3D12DDI_VIDEO_PROCESS_OUTPUT_STREAM_0020;
-````
-
-
 ## -struct-fields
 
 

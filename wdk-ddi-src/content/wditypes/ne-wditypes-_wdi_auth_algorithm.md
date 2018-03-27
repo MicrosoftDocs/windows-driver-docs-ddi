@@ -53,24 +53,6 @@ req.product: Windows 10 or later.
 The WDI_AUTH_ALGORITHM enumeration defines the authentication algorithm values.
 
 
-## -syntax
-
-
-````
-typedef enum _WDI_AUTH_ALGORITHM { 
-  WDI_AUTH_ALGO_80211_OPEN        = 1,
-  WDI_AUTH_ALGO_80211_SHARED_KEY  = 2,
-  WDI_AUTH_ALGO_WPA               = 3,
-  WDI_AUTH_ALGO_WPA_PSK           = 4,
-  WDI_AUTH_ALGO_WPA_NONE          = 5,
-  WDI_AUTH_ALGO_RSNA              = 6,
-  WDI_AUTH_ALGO_RSNA_PSK          = 7,
-  WDI_AUTH_ALGO_IHV_START         = 0x80000000,
-  WDI_AUTH_ALGO_IHV_END           = 0xffffffff
-} WDI_AUTH_ALGORITHM;
-````
-
-
 ## -enum-fields
 
 

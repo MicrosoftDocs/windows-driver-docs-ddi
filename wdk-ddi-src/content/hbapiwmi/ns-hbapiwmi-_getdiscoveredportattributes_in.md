@@ -52,17 +52,6 @@ req.typenames: GetDiscoveredPortAttributes_IN, *PGetDiscoveredPortAttributes_IN
 The GetDiscoveredPortAttributes_IN structure is used to pass input parameter data to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff553925">GetDiscoveredPortAttributes</a> WMI method.
 
 
-## -syntax
-
-
-````
-typedef struct _GetDiscoveredPortAttributes_IN {
-  ULONG PortIndex;
-  ULONG DiscoveredPortIndex;
-} GetDiscoveredPortAttributes_IN, *PGetDiscoveredPortAttributes_IN;
-````
-
-
 ## -struct-fields
 
 
@@ -89,10 +78,10 @@ The WMI tool suite generates a declaration of the GetDiscoveredPortAttributes_IN
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553925">GetDiscoveredPortAttributes</a>
-
-
-
  
 
  

@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
@@ -51,20 +51,8 @@ req.product: Windows 10 or later.
 
 
 
-                        Initializes the <a href="..\ucmtcpciportcontroller\ns-ucmtcpciportcontroller-_ucmtcpci_port_controller_config.md">UCMTCPCI_PORT_CONTROLLER_CONFIG</a> structure.
+                        Initializes the <a href="https://msdn.microsoft.com/library/windows/hardware/mt805900">UCMTCPCI_PORT_CONTROLLER_CONFIG</a> structure.
                 
-
-
-## -syntax
-
-
-````
-VOID UCMTCPCI_PORT_CONTROLLER_CONFIG_INIT(
-  _Out_ PUCMTCPCI_PORT_CONTROLLER_CONFIG         Config,
-  _In_  PUCMTCPCI_PORT_CONTROLLER_IDENTIFICATION Identification,
-  _In_  PUCMTCPCI_PORT_CONTROLLER_CAPABILITIES   Capabilities
-);
-````
 
 
 ## -parameters
@@ -74,18 +62,18 @@ VOID UCMTCPCI_PORT_CONTROLLER_CONFIG_INIT(
 
 ### -param Config [out]
 
-A pointer to the driver-allocated <a href="..\ucmtcpciportcontroller\ns-ucmtcpciportcontroller-_ucmtcpci_port_controller_config.md">UCMTCPCI_PORT_CONTROLLER_CONFIG</a> structure.
+A pointer to the driver-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/mt805900">UCMTCPCI_PORT_CONTROLLER_CONFIG</a> structure.
 
 
 ### -param Identification [in]
 
-A pointer to the <a href="..\ucmtcpciportcontroller\ns-ucmtcpciportcontroller-_ucmtcpci_port_controller_identification.md">UCMTCPCI_PORT_CONTROLLER_IDENTIFICATION</a> structure.
+A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/mt805879">UCMTCPCI_PORT_CONTROLLER_IDENTIFICATION</a> structure.
 
 
 ### -param Capabilities [in]
 
  A pointer to the 
-                 <a href="..\ucmtcpciportcontroller\ns-ucmtcpciportcontroller-_ucmtcpci_port_controller_capabilities.md">UCMTCPCI_PORT_CONTROLLER_CAPABILITIES</a> structure.
+                 <a href="https://msdn.microsoft.com/library/windows/hardware/mt805870">UCMTCPCI_PORT_CONTROLLER_CAPABILITIES</a> structure.
 
 
 ## -returns
@@ -99,10 +87,10 @@ This method does not return a value.
 
 ## -see-also
 
-<a href="..\ucmtcpciportcontroller\nf-ucmtcpciportcontroller-ucmtcpciportcontrollercreate.md">UcmTcpciPortControllerCreate</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt805844">UcmTcpciPortControllerCreate</a>
  
 
  

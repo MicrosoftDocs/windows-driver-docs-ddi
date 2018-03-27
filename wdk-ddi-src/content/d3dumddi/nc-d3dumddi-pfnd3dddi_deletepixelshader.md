@@ -52,20 +52,6 @@ req.typenames: DXGK_PTE
 The <b>DeletePixelShader</b> function cleans up driver-side resources that are associated with pixel shader code.
 
 
-## -prototype
-
-
-````
-PFND3DDDI_DELETEPIXELSHADER DeletePixelShader;
-
-__checkReturn HRESULT APIENTRY DeletePixelShader(
-  _In_ HANDLE hDevice,
-  _In_ HANDLE hShaderHandle
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -76,7 +62,7 @@ __checkReturn HRESULT APIENTRY DeletePixelShader(
  A handle to the display device (graphics context).
 
 
-### -param HANDLE
+### -param Arg1
 
 
 
@@ -103,21 +89,21 @@ __checkReturn HRESULT APIENTRY DeletePixelShader(
 
 
 
-The <b>DeletePixelShader</b> function notifies the driver about the deletion of the pixel shader code object that the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createpixelshader.md">CreatePixelShader</a> function created. The driver can then clean up any driver-side resources that are associated with the pixel shader code.
+The <b>DeletePixelShader</b> function notifies the driver about the deletion of the pixel shader code object that the <a href="https://msdn.microsoft.com/b80a1823-6d91-440f-89e4-f7248579cc8f">CreatePixelShader</a> function created. The driver can then clean up any driver-side resources that are associated with the pixel shader code.
 
 
 
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createpixelshader.md">CreatePixelShader</a>
+<a href="https://msdn.microsoft.com/b80a1823-6d91-440f-89e4-f7248579cc8f">CreatePixelShader</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544519">D3DDDI_DEVICEFUNCS</a>
  
 
  

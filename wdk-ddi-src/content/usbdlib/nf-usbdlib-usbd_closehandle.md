@@ -54,16 +54,6 @@ req.product: Windows 10 or later.
 The  <b>USBD_CloseHandle</b> routine is called by a USB client driver to close a USBD handle and release all resources associated with the driver's registration.
 
 
-## -syntax
-
-
-````
-VOID USBD_CloseHandle(
-  _In_ USBD_HANDLE USBDHandle
-);
-````
-
-
 ## -parameters
 
 
@@ -71,7 +61,7 @@ VOID USBD_CloseHandle(
 
 ### -param USBDHandle [in]
 
-USBD handle to be closed. The handle is retrieved by the client driver in a previous call to  the <a href="..\usbdlib\nf-usbdlib-usbd_createhandle.md">USBD_CreateHandle</a> routine.
+USBD handle to be closed. The handle is retrieved by the client driver in a previous call to  the <a href="https://msdn.microsoft.com/library/windows/hardware/hh406241">USBD_CreateHandle</a> routine.
 
 
 ## -returns
@@ -94,14 +84,14 @@ A client driver should call <b>USBD_CloseHandle</b> in the driver's routine that
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh450844">Allocating and Building URBs</a>
 
 
 
-<a href="..\usbdlib\nf-usbdlib-usbd_createhandle.md">USBD_CreateHandle</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406241">USBD_CreateHandle</a>
  
 
  

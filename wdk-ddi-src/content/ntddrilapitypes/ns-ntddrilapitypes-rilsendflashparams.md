@@ -52,17 +52,6 @@ req.typenames: RILSENDFLASHPARAMS, *LPRILSENDFLASHPARAMS
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef struct _RILSENDFLASHPARAMS {
-  DWORD       dwExecutor;
-  RILADDRESS  raAddress;
-} RILSENDFLASHPARAMS, RILSENDFLASHPARAMS;
-````
-
-
 ## -struct-fields
 
 

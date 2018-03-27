@@ -53,17 +53,6 @@ The NDIS_WWAN_SET_SMS_CONFIGURATION structure represents the SMS configuration o
   device.
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_WWAN_SET_SMS_CONFIGURATION {
-  NDIS_OBJECT_HEADER         Header;
-  WWAN_SET_SMS_CONFIGURATION SetSmsConfiguration;
-} NDIS_WWAN_SET_SMS_CONFIGURATION, *PNDIS_WWAN_SET_SMS_CONFIGURATION;
-````
-
-
 ## -struct-fields
 
 
@@ -117,27 +106,27 @@ sizeof(NDIS_WWAN_SET_SMS_CONFIGURATION)
  
 
 For more information about these members, see 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>.
 
 
 ### -field SetSmsConfiguration
 
 A formatted 
-     <a href="..\wwan\ns-wwan-_wwan_set_sms_configuration.md">
+     <a href="https://msdn.microsoft.com/c3739a08-f4ea-4cc5-8f62-7d4a5cd3ed43">
      WWAN_SET_SMS_CONFIGURATION</a> object that represents the SMS configuration to set on the
      device.
 
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_set_sms_configuration.md">WWAN_SET_SMS_CONFIGURATION</a>
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571238">WWAN_SET_SMS_CONFIGURATION</a>
  
 
  

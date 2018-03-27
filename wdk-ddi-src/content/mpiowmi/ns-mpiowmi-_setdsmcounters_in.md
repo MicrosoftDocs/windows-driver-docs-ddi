@@ -52,17 +52,6 @@ req.typenames: SetDSMCounters_IN, *PSetDSMCounters_IN
 The SetDSMCounters_IN structure is used to set the timer counters for a particular DSM.
 
 
-## -syntax
-
-
-````
-typedef struct _SetDSMCounters_IN {
-  ULONGLONG    DsmContext;
-  DSM_COUNTERS DsmCounters;
-} SetDSMCounters_IN, *PSetDSMCounters_IN;
-````
-
-
 ## -struct-fields
 
 

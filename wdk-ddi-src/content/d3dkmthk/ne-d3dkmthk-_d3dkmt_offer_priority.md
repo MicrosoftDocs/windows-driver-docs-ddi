@@ -52,19 +52,6 @@ req.typenames: D3DKMT_OFFER_PRIORITY
 Indicates the importance of video memory resources  that the user-mode display driver offers for reuse.
 
 
-## -syntax
-
-
-````
-typedef enum _D3DKMT_OFFER_PRIORITY { 
-  D3DKMT_OFFER_PRIORITY_LOW     = 1,
-  D3DKMT_OFFER_PRIORITY_NORMAL  = 2,
-  D3DKMT_OFFER_PRIORITY_HIGH    = 3,
-  D3DKMT_OFFER_PRIORITY_AUTO    = 4
-} D3DKMT_OFFER_PRIORITY;
-````
-
-
 ## -enum-fields
 
 
@@ -92,10 +79,10 @@ The video memory manager should make a policy decision on the allocation's value
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_offerallocations.md">D3DKMT_OFFERALLOCATIONS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406482">D3DKMT_OFFERALLOCATIONS</a>
  
 
  

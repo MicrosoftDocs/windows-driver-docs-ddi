@@ -52,17 +52,6 @@ req.typenames: GetBindingSupport_OUT, *PGetBindingSupport_OUT
 The GetBindingSupport_OUT structure is used by a WMI provider to report the output parameter data of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff553910">GetBindingSupport</a> WMI method to the WMI client. 
 
 
-## -syntax
-
-
-````
-typedef struct _GetBindingSupport_OUT {
-  ULONG HBAStatus;
-  ULONG BindType;
-} GetBindingSupport_OUT, *PGetBindingSupport_OUT;
-````
-
-
 ## -struct-fields
 
 
@@ -89,10 +78,10 @@ The WMI tool suite generates a declaration of the GetBindingSupport_OUT structur
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553910">GetBindingSupport</a>
-
-
-
  
 
  

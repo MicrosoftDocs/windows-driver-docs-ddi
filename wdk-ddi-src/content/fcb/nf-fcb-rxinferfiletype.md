@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
@@ -50,16 +50,6 @@ req.typenames: FA_ENTRY, *PFA_ENTRY
 
 
 <b>RxInferFileType</b> tries to infer the file type (directory or non-directory) from a member in the RX_CONTEXT structure.
-
-
-## -syntax
-
-
-````
-RX_FILE_TYPE RxInferFileType(
-  _In_ PRX_CONTEXT RxContext
-);
-````
 
 
 ## -parameters
@@ -137,7 +127,6 @@ The <b>RxInferFileType</b> routine is not called internally by RDBSS. The <b>RxI
 
 ## -see-also
 
-<a href="..\rxcontx\ns-rxcontx-_rx_context.md">RX_CONTEXT</a>
 
 
 
@@ -145,6 +134,7 @@ The <b>RxInferFileType</b> routine is not called internally by RDBSS. The <b>RxI
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554751">RX_CONTEXT</a>
  
 
  

@@ -53,30 +53,6 @@ The <b>NDIS_RECEIVE_QUEUE_PARAMETERS</b> structure contains the configuration pa
   queue.
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_RECEIVE_QUEUE_PARAMETERS {
-  NDIS_OBJECT_HEADER          Header;
-  ULONG                       Flags;
-  NDIS_RECEIVE_QUEUE_TYPE     QueueType;
-  NDIS_RECEIVE_QUEUE_ID       QueueId;
-  NDIS_RECEIVE_QUEUE_GROUP_ID QueueGroupId;
-  GROUP_AFFINITY              ProcessorAffinity;
-  ULONG                       NumSuggestedReceiveBuffers;
-  ULONG                       MSIXTableEntry;
-  ULONG                       LookaheadSize;
-  NDIS_VM_NAME                VmName;
-  NDIS_QUEUE_NAME             QueueName;
-#if (NDIS_SUPPORT_NDIS630)
-  ULONG                       PortId;
-  ULONG                       InterruptCoalescingDomainId;
-#endif 
-} NDIS_RECEIVE_QUEUE_PARAMETERS, *PNDIS_RECEIVE_QUEUE_PARAMETERS;
-````
-
-
 ## -struct-fields
 
 
@@ -84,7 +60,7 @@ typedef struct _NDIS_RECEIVE_QUEUE_PARAMETERS {
 
 ### -field Header
 
-The type, revision, and size of the <b>NDIS_RECEIVE_QUEUE_PARAMETERS</b> structure. This member is formatted as an <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure.
+The type, revision, and size of the <b>NDIS_RECEIVE_QUEUE_PARAMETERS</b> structure. This member is formatted as an <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure.
 
 The miniport driver must set the <b>Type</b> member of <b>Header</b> to NDIS_OBJECT_TYPE_DEFAULT. To specify the version of the <b>NDIS_NIC_SWITCH_CAPABILITIES</b> structure, the driver must set the <b>Revision</b> member of <b>Header</b> to one of the following values: 
 
@@ -123,7 +99,7 @@ A <b>ULONG</b> value that contains a bitwise <b>OR</b> of the following flags. T
 
 The miniport driver must not mix network packets for other receive queues with the packets for
        this queue in a single call to the 
-       <a href="..\ndis\nf-ndis-ndismindicatereceivenetbufferlists.md">
+       <a href="https://msdn.microsoft.com/b87dba3e-c18f-4ea2-8bd5-ec3cdafc534b">
        NdisMIndicateReceiveNetBufferLists</a> function.
 
 
@@ -176,7 +152,7 @@ The setting in the
 ### -field QueueType
 
 An 
-     <a href="..\ntddndis\ne-ntddndis-_ndis_receive_queue_type.md">NDIS_RECEIVE_QUEUE_TYPE</a> enumeration
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff567217">NDIS_RECEIVE_QUEUE_TYPE</a> enumeration
      value that specifies the type of the receive queue.
 
 
@@ -273,8 +249,14 @@ In NDIS 6.30, the <b>NDIS_RECEIVE_QUEUE_PARAMETERS</b> structure is also used in
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndismindicatereceivenetbufferlists.md">
-   NdisMIndicateReceiveNetBufferLists</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567217">NDIS_RECEIVE_QUEUE_TYPE</a>
 
 
 
@@ -282,16 +264,8 @@ In NDIS 6.30, the <b>NDIS_RECEIVE_QUEUE_PARAMETERS</b> structure is also used in
 
 
 
-<a href="..\ntddndis\ne-ntddndis-_ndis_receive_queue_type.md">NDIS_RECEIVE_QUEUE_TYPE</a>
-
-
-
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-receive-filter-queue-parameters">
-   OID_RECEIVE_FILTER_QUEUE_PARAMETERS</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="https://msdn.microsoft.com/b87dba3e-c18f-4ea2-8bd5-ec3cdafc534b">
+   NdisMIndicateReceiveNetBufferLists</a>
 
 
 
@@ -300,6 +274,8 @@ In NDIS 6.30, the <b>NDIS_RECEIVE_QUEUE_PARAMETERS</b> structure is also used in
 
 
 
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-receive-filter-queue-parameters">
+   OID_RECEIVE_FILTER_QUEUE_PARAMETERS</a>
  
 
  

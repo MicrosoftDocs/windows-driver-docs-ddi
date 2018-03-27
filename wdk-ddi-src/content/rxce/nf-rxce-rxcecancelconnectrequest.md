@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
@@ -51,18 +51,6 @@ req.product: Windows 10 or later.
 
 
 <b>RxCeCancelConnectRequest</b> cancels a previously issued connection request. Note that this routine is not currently implemented.
-
-
-## -syntax
-
-
-````
-NTSTATUS RxCeCancelConnectRequest(
-  _In_ PRXCE_ADDRESS                pLocalAddress,
-  _In_ PUNICODE_STRING              pServerName,
-  _In_ PRXCE_CONNECTION_INFORMATION pConnectionInformation
-);
-````
 
 
 ## -parameters
@@ -105,14 +93,14 @@ A pointer to the connection information that specifies the remote address. on wh
 
 ## -see-also
 
-<a href="..\rxce\nf-rxce-rxceteardownconnection.md">RxCeTearDownConnection</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554321">RxCeTearDownConnection</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565085">TDI_CONNECTION_INFORMATION</a>
-
-
-
  
 
  

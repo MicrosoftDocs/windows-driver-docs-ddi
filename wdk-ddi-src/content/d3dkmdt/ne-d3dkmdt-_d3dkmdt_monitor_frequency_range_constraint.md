@@ -52,18 +52,6 @@ req.typenames: D3DKMDT_MONITOR_FREQUENCY_RANGE_CONSTRAINT
 The D3DKMDT_MONITOR_FREQUENCY_RANGE_CONSTRAINT enumeration is used to indicate the type of constraint under which a monitor frequency range is supported.
 
 
-## -syntax
-
-
-````
-typedef enum _D3DKMDT_MONITOR_FREQUENCY_RANGE_CONSTRAINT { 
-  D3DKMDT_MFRC_UNINITIALIZED  = 0,
-  D3DKMDT_MFRC_ACTIVESIZE     = 1,
-  D3DKMDT_MFRC_MAXPIXELRATE   = 2
-} D3DKMDT_MONITOR_FREQUENCY_RANGE_CONSTRAINT;
-````
-
-
 ## -enum-fields
 
 
@@ -88,7 +76,7 @@ Indicates that the constraint is a pixel rate.
 
 
 
-The <b>ConstraintType</b> member of a <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_monitor_frequency_range.md">D3DKMDT_MONITOR_FREQUENCY_RANGE</a> structure is a value from the D3DKMDT_MONITOR_FREQUENCY_RANGE_CONSTRAINT enumeration.
+The <b>ConstraintType</b> member of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff546103">D3DKMDT_MONITOR_FREQUENCY_RANGE</a> structure is a value from the D3DKMDT_MONITOR_FREQUENCY_RANGE_CONSTRAINT enumeration.
 
 
 

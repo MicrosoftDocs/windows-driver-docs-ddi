@@ -52,21 +52,6 @@ req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 Returns the driver's handle for a video decoder that can be used by the application  to configure content protection.
 
 
-## -prototype
-
-
-````
-PFND3D11_1DDI_VIDEODECODERGETHANDLE pfnVideoDecoderGetHandle;
-
-HRESULT APIENTRY* pfnVideoDecoderGetHandle(
-  _In_  D3D10DDI_HDEVICE   hDevice,
-  _In_  D3D11_1DDI_HDECODE hDecoder,
-  _Out_ HANDLE             *pContentProtectionHandle
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -79,7 +64,7 @@ A handle to the display device (graphics context).
 
 
 
-### -param D3D11_1DDI_HDECODE
+### -param Arg1
 
 
 ### -param *pContentProtectionHandle [out]
@@ -89,7 +74,7 @@ A pointer to the handle.
 
 #### - hDecoder [in]
 
-A handle to the video decoder object that was created through a call to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideodecoder.md">CreateVideoDecoder</a> function.
+A handle to the video decoder object that was created through a call to the <a href="https://msdn.microsoft.com/41254f99-1806-428c-8bf3-7e736dbeec84">CreateVideoDecoder</a> function.
 
 
 
@@ -161,14 +146,14 @@ This function allows the driver to define its own handle to its state data for t
 
 ## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddiarg_videodecoderextension.md">D3D11_1DDIARG_VIDEODECODEREXTENSION</a>
 
 
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideodecoder.md">CreateVideoDecoder</a>
+<a href="https://msdn.microsoft.com/41254f99-1806-428c-8bf3-7e736dbeec84">CreateVideoDecoder</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406330">D3D11_1DDIARG_VIDEODECODEREXTENSION</a>
  
 
  

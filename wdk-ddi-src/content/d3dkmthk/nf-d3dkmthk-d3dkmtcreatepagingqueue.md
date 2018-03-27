@@ -55,16 +55,6 @@ req.typenames: D3DKMT_DRIVERVERSION
 <b>D3DKMTCreatePagingQueue</b> is used to create a device paging queue that can be used to synchronize with video memory management operations for the device, such as making the device resource resident.
 
 
-## -syntax
-
-
-````
-EXTERN_C _Check_return_ NTSTATUS APIENTRY D3DKMTCreatePagingQueue(
-  _Inout_ D3DKMT_CREATEPAGINGQUEUE *pData
-);
-````
-
-
 ## -parameters
 
 
@@ -74,7 +64,7 @@ EXTERN_C _Check_return_ NTSTATUS APIENTRY D3DKMTCreatePagingQueue(
 
 #### - pData [in, out]
 
-A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_createpagingqueue.md">D3DKMT_CREATEPAGINGQUEUE</a> structure that describes the operation.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn906792">D3DKMT_CREATEPAGINGQUEUE</a> structure that describes the operation.
 
 
 ## -returns
@@ -121,10 +111,10 @@ This function might also return other <b>NTSTATUS</b> values.
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_createpagingqueue.md">D3DKMT_CREATEPAGINGQUEUE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn906792">D3DKMT_CREATEPAGINGQUEUE</a>
  
 
  

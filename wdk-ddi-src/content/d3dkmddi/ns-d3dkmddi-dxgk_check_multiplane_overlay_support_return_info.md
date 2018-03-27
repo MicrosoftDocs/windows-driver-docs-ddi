@@ -52,23 +52,6 @@ req.typenames: DXGK_CHECK_MULTIPLANE_OVERLAY_SUPPORT_RETURN_INFO
 Specifies limitations on hardware support of multiplane overlays.
 
 
-## -syntax
-
-
-````
-typedef struct DXGK_CHECK_MULTIPLANE_OVERLAY_SUPPORT_RETURN_INFO {
-  union {
-    struct {
-      UINT FailingPlane;
-      UINT TryAgain;
-      UINT Reserved  :27;
-    };
-    UINT Value;
-  };
-} DXGK_CHECK_MULTIPLANE_OVERLAY_SUPPORT_RETURN_INFO;
-````
-
-
 ## -struct-fields
 
 

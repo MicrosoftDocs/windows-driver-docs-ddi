@@ -52,18 +52,6 @@ req.typenames: HBA_WWNTYPE
 The <b>HBA_GetPortStatistics</b> routine retrieves statistics for the indicated port on the HBA.
 
 
-## -syntax
-
-
-````
-HBA_STATUS HBA_API HBA_GetPortStatistics(
-  _In_  HBA_HANDLE         HbaHandle,
-  _In_  HBA_UINT32         PortIndex,
-  _Out_ HBA_PORTSTATISTICS *HbaPortStatistics
-);
-````
-
-
 ## -parameters
 
 
@@ -88,12 +76,12 @@ TBD
 
 #### - HbaHandle [in]
 
-Contains a value returned by the routine <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a> that identifies the HBA on which the port is located. 
+Contains a value returned by the routine <a href="https://msdn.microsoft.com/library/windows/hardware/ff557097">HBA_OpenAdapter</a> that identifies the HBA on which the port is located. 
 
 
 #### - HbaPortStatistics [out]
 
-Contains a structure of type <a href="..\hbaapi\ns-hbaapi-hba_portstatistics.md">HBA_PortStatistics</a> that holds the statistics that were retrieved for the port. 
+Contains a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff557110">HBA_PortStatistics</a> that holds the statistics that were retrieved for the port. 
 
 
 ## -returns
@@ -137,18 +125,18 @@ Returned if an unspecified error occurred that prevented the retrieval of the st
 
 ## -see-also
 
-<a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557097">HBA_OpenAdapter</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557110">HBA_PortStatistics</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
-
-
-
-<a href="..\hbaapi\ns-hbaapi-hba_portstatistics.md">HBA_PortStatistics</a>
-
-
-
  
 
  

@@ -54,18 +54,6 @@ req.product: Windows 10 or later.
 Returns the scatter-gather list associated with the input data buffer  of a SCSI request block (SRB).
 
 
-## -syntax
-
-
-````
-ULONG StorPortGetDataInBufferScatterGatherList(
-  _In_  PVOID                     HwDeviceExtension,
-  _In_  PSCSI_REQUEST_BLOCK       Srb,
-  _Out_ PSTOR_SCATTER_GATHER_LIST *SgList
-);
-````
-
-
 ## -parameters
 
 
@@ -127,14 +115,14 @@ The pointer value in <i>SgList</i> is NULL.
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportgetdatainbuffersystemaddress.md">StorPortGetDataInBufferSystemAddress</a>
 
 
 
-<a href="..\storport\nf-storport-storportgetdatainbuffermdl.md">StorPortGetDataInBufferMdl</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj553718">StorPortGetDataInBufferMdl</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj553720">StorPortGetDataInBufferSystemAddress</a>
  
 
  

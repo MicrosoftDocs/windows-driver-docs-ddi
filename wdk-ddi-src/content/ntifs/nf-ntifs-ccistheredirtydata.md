@@ -52,16 +52,6 @@ req.typenames: TOKEN_TYPE
 The <b>CcIsThereDirtyData</b> routine determines whether a mounted volume contains any files that have dirty data in the system cache.
 
 
-## -syntax
-
-
-````
-BOOLEAN CcIsThereDirtyData(
-  _In_ PVPB Vpb
-);
-````
-
-
 ## -parameters
 
 
@@ -92,14 +82,14 @@ Pointer to a volume parameter block (VPB) for the volume.
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-ccpurgecachesection.md">CcPurgeCacheSection</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-ccflushcache.md">CcFlushCache</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539082">CcFlushCache</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539188">CcPurgeCacheSection</a>
  
 
  

@@ -52,18 +52,6 @@ req.typenames: RILREMOVECALLFORWARDINGPARAMS, *LPRILREMOVECALLFORWARDINGPARAMS
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef struct _RILREMOVECALLFORWARDINGPARAMS {
-  DWORD                            dwExecutor;
-  RILCALLFORWARDINGSETTINGSREASON  dwReason;
-  DWORD                            dwInfoClasses;
-} RILREMOVECALLFORWARDINGPARAMS, RILREMOVECALLFORWARDINGPARAMS;
-````
-
-
 ## -struct-fields
 
 

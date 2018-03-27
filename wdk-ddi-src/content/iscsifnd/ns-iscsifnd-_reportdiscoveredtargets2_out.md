@@ -52,18 +52,6 @@ req.typenames: ReportDiscoveredTargets2_OUT, *PReportDiscoveredTargets2_OUT
 The ReportDiscoveredTargets2_OUT structure holds the output data for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff564051">ReportDiscoveredTargets2</a> method.
 
 
-## -syntax
-
-
-````
-typedef struct _ReportDiscoveredTargets2_OUT {
-  ULONG                   Status;
-  ULONG                   TargetCount;
-  ISCSI_DiscoveredTarget2 Targets[1];
-} ReportDiscoveredTargets2_OUT, *PReportDiscoveredTargets2_OUT;
-````
-
-
 ## -struct-fields
 
 
@@ -81,7 +69,7 @@ On output, the number of targets that are discovered.
 
 ### -field Targets
 
-On output, an array of <a href="..\iscsifnd\ns-iscsifnd-_iscsi_discoveredtarget2.md">ISCSI_DiscoveredTarget2</a> structures, which provide information that is related to discovered targets. 
+On output, an array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff561503">ISCSI_DiscoveredTarget2</a> structures, which provide information that is related to discovered targets. 
 
 
 ## -remarks
@@ -95,11 +83,10 @@ You must implement this method.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564051">ReportDiscoveredTargets2</a>
 
 
 
-<a href="..\iscsifnd\ns-iscsifnd-_iscsi_discoveredtarget2.md">ISCSI_DiscoveredTarget2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561503">ISCSI_DiscoveredTarget2</a>
 
 
 
@@ -107,6 +94,7 @@ You must implement this method.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564051">ReportDiscoveredTargets2</a>
  
 
  

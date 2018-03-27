@@ -52,21 +52,6 @@ req.typenames: D3DDDICB_SUBMITCOMMANDTOHWQUEUE
 A structure that holds information to queue hardware flags.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DDDICB_SUBMITCOMMANDTOHWQUEUE {
-  union {
-    struct {
-      UINT Reserved  :32;
-    };
-    UINT Value;
-  };
-} D3DDDICB_SUBMITCOMMANDTOHWQUEUE;
-````
-
-
 ## -struct-fields
 
 

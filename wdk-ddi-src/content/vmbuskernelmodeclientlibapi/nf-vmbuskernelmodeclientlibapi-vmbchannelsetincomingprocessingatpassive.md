@@ -57,17 +57,6 @@ The <b>VmbChannelSetIncomingProcessingAtPassive</b> function sets the required I
 PASSIVE_LEVEL.
 
 
-## -syntax
-
-
-````
-VOID VmbChannelSetIncomingProcessingAtPassive(
-  _In_ VMBCHANNEL Channel,
-  _In_ BOOLEAN    RequirePassive
-);
-````
-
-
 ## -parameters
 
 

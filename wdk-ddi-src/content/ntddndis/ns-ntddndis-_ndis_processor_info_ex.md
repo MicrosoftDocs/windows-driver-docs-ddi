@@ -53,21 +53,6 @@ The <b>NDIS_PROCESSOR_INFO_EX</b> structure specifies information about a proces
   computer.
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_PROCESSOR_INFO_EX {
-  PROCESSOR_NUMBER ProcNum;
-  ULONG            SocketId;
-  ULONG            CoreId;
-  ULONG            HyperThreadId;
-  USHORT           NodeId;
-  USHORT           NodeDistance;
-} NDIS_PROCESSOR_INFO_EX, *PNDIS_PROCESSOR_INFO_EX;
-````
-
-
 ## -struct-fields
 
 
@@ -110,7 +95,7 @@ The node identifier of the processor. This is the number of the NUMA node to whi
 
 The node distance of the processor. If the handle at the 
      <i>NdisHandle</i> parameter that the caller passed to the 
-     <a href="..\ndis\nf-ndis-ndisgetprocessorinformationex.md">
+     <a href="https://msdn.microsoft.com/9af21f56-d93d-4130-888c-c7009dc2854d">
      NdisGetProcessorInformationEx</a> function is not <b>NULL</b> and is a miniport adapter handle, this member
      contains the distance of the corresponding NIC from this processor's NUMA node. Otherwise, this member
      is zero for miniport drivers or USHORT_MAX (0xffff) for other drivers.
@@ -121,7 +106,7 @@ The node distance of the processor. If the handle at the
 
 
 The NDIS_PROCESSOR_INFO_EX structure is used in the 
-    <a href="..\ntddndis\ns-ntddndis-_ndis_system_processor_info_ex.md">
+    <a href="https://msdn.microsoft.com/ba3c6641-98bc-4c44-9889-7583c4cf61f0">
     NDIS_SYSTEM_PROCESSOR_INFO_EX</a> structure.
 
 
@@ -129,19 +114,19 @@ The NDIS_PROCESSOR_INFO_EX structure is used in the
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisgetprocessorinformationex.md">
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566808">NDIS_PROCESSOR_INFO</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567872">NDIS_SYSTEM_PROCESSOR_INFO_EX</a>
+
+
+
+<a href="https://msdn.microsoft.com/9af21f56-d93d-4130-888c-c7009dc2854d">
    NdisGetProcessorInformationEx</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_system_processor_info_ex.md">NDIS_SYSTEM_PROCESSOR_INFO_EX</a>
-
-
-
-<a href="..\ndis\ns-ndis-_ndis_processor_info.md">NDIS_PROCESSOR_INFO</a>
-
-
-
  
 
  

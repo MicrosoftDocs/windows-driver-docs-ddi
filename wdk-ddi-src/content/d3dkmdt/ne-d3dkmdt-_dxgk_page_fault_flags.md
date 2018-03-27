@@ -52,21 +52,6 @@ req.typenames: DXGK_PAGE_FAULT_FLAGS
 <b>DXGK_PAGE_FAULT_FLAGS</b> enumeration describes the nature of the page fault that has occurred and the prescribed OS recovery action.
 
 
-## -syntax
-
-
-````
-typedef enum _DXGK_PAGE_FAULT_FLAGS { 
-  DXGK_PAGE_FAULT_WRITE                   = 0x1,
-  DXGK_PAGE_FAULT_FENCE_INVALID           = 0x2,
-  DXGK_PAGE_FAULT_ADAPTER_RESET_REQUIRED  = 0x4,
-  DXGK_PAGE_FAULT_ENGINE_RESET_REQUIRED   = 0x8,
-  DXGK_PAGE_FAULT_FATAL_HARDWARE_ERROR    = 0x10,
-  DXGK_PAGE_FAULT_IOMMU                   = 0x20
-} DXGK_PAGE_FAULT_FLAGS;
-````
-
-
 ## -enum-fields
 
 
@@ -81,7 +66,7 @@ When set, this indicates that the faulted GPU virtual operation was a write oper
 
 When set, this indicates that a faulting packet could not be determined. In this case, the OS will have to perform a GPU reset action to clear the GPU error state, and one of the subsequent bits will have to be set.
 
-When not set, this indicates that the DMA packet submitted with <b>FaultedFenceId</b> (in the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkargcb_notify_interrupt_data.md">DXGKARGCB_NOTIFY_INTERRUPT_DATA</a> structure) was the cause of the fault. Similar to how the preemption and completion fences are handled, the OS will treat all pending packets with fence IDs less than <b>FaultedFenceId</b> as completed, and the driver will be required to advance its notion of the completed fence ID to <b>FaultedFenceId</b>.
+When not set, this indicates that the DMA packet submitted with <b>FaultedFenceId</b> (in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff557538">DXGKARGCB_NOTIFY_INTERRUPT_DATA</a> structure) was the cause of the fault. Similar to how the preemption and completion fences are handled, the OS will treat all pending packets with fence IDs less than <b>FaultedFenceId</b> as completed, and the driver will be required to advance its notion of the completed fence ID to <b>FaultedFenceId</b>.
 
 
 
@@ -116,10 +101,10 @@ When set, this indicates that the faulting GPU's virtual address was mapped usin
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkargcb_notify_interrupt_data.md">DXGKARGCB_NOTIFY_INTERRUPT_DATA</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557538">DXGKARGCB_NOTIFY_INTERRUPT_DATA</a>
  
 
  

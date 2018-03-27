@@ -52,19 +52,6 @@ req.typenames: SendLIRR_OUT, *PSendLIRR_OUT
 The SendLIRR_OUT structure is used to report the output parameter data of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565419">SendLIRR</a> WMI method to the WMI client.
 
 
-## -syntax
-
-
-````
-typedef struct _SendLIRR_OUT {
-  ULONG HBAStatus;
-  ULONG TotalRspBufferSize;
-  ULONG ActualRspBufferSize;
-  UCHAR RspBuffer[1];
-} SendLIRR_OUT, *PSendLIRR_OUT;
-````
-
-
 ## -struct-fields
 
 
@@ -101,10 +88,10 @@ The WMI tool suite generates a declaration of the SendLIRR_OUT structure in <i>H
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565419">SendLIRR</a>
-
-
-
  
 
  

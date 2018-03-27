@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -50,18 +50,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>OutputIdentityWide</b> method formats and outputs a string describing the computer and user this client represents.
-
-
-## -syntax
-
-
-````
-HRESULT OutputIdentityWide(
-  [in] ULONG  OutputControl,
-  [in] ULONG  Flags,
-  [in] PCWSTR Format
-);
-````
 
 
 ## -parameters
@@ -125,7 +113,6 @@ For more information about client objects, see <a href="https://msdn.microsoft.c
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
 
 
 
@@ -133,6 +120,7 @@ For more information about client objects, see <a href="https://msdn.microsoft.c
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550497">IDebugClient5</a>
  
 
  

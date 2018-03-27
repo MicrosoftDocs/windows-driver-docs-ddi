@@ -52,18 +52,6 @@ req.typenames: NDIS_WWAN_SMS_STATUS, *PNDIS_WWAN_SMS_STATUS
 The NDIS_WWAN_SMS_STATUS structure represents the status of the SMS message store.
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_WWAN_SMS_STATUS {
-  NDIS_OBJECT_HEADER Header;
-  WWAN_STATUS        uStatus;
-  WWAN_SMS_STATUS    SmsStatus;
-} NDIS_WWAN_SMS_STATUS, *PNDIS_WWAN_SMS_STATUS;
-````
-
-
 ## -struct-fields
 
 
@@ -117,7 +105,7 @@ sizeof(NDIS_WWAN_SMS_STATUS)
  
 
 For more information about these members, see 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>.
 
 
 ### -field uStatus
@@ -128,20 +116,20 @@ The status of the SMS operation.
 ### -field SmsStatus
 
 A formatted 
-     <a href="..\wwan\ns-wwan-_wwan_sms_status.md">WWAN_SMS_STATUS</a> object that represents the
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571253">WWAN_SMS_STATUS</a> object that represents the
      status of the SMS message store.
 
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_sms_status.md">WWAN_SMS_STATUS</a>
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571253">WWAN_SMS_STATUS</a>
  
 
  

@@ -52,18 +52,6 @@ req.typenames: RILDEVSPECIFICREQUEST, *LPRILDEVSPECIFICREQUEST
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef struct _RILDEVSPECIFICREQUEST {
-  DWORD   dwCmdId;
-  DWORD   dwSize;
-  BYTE [] params;
-} RILDEVSPECIFICREQUEST, *LPRILDEVSPECIFICREQUEST;
-````
-
-
 ## -struct-fields
 
 

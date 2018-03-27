@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -53,16 +53,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 The <b>GetParameters</b> method returns the parameters for a breakpoint.
 
 
-## -syntax
-
-
-````
-HRESULT GetParameters(
-  [out] PDEBUG_BREAKPOINT_PARAMETERS Params
-);
-````
-
-
 ## -parameters
 
 
@@ -70,7 +60,7 @@ HRESULT GetParameters(
 
 ### -param Params [out]
 
-The breakpoint's parameters.  For more information about the parameters, see <a href="..\dbgeng\ns-dbgeng-_debug_breakpoint_parameters.md">DEBUG_BREAKPOINT_PARAMETERS</a>.
+The breakpoint's parameters.  For more information about the parameters, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff541459">DEBUG_BREAKPOINT_PARAMETERS</a>.
 
 
 ## -returns
@@ -105,7 +95,7 @@ This method can also return error values.  For more information, see <a href="ht
 
 
 
-The <b>GetParameters</b> method is a convenience method that returns most of the parameters that the other <a href="..\dbgeng\nn-dbgeng-idebugbreakpoint.md">IDebugBreakpoint</a> methods return.
+The <b>GetParameters</b> method is a convenience method that returns most of the parameters that the other <a href="https://msdn.microsoft.com/library/windows/hardware/ff549812">IDebugBreakpoint</a> methods return.
 
 For a list of the parameters and flags that this method retrieves, and for other ways to read and write these parameters and flags, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff539284">Controlling Breakpoint Flags and Parameters</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff560075">Using Breakpoints</a>.
 

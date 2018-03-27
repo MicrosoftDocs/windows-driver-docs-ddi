@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -52,22 +52,7 @@ req.product: Windows 10 or later.
 
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
-The <b>VmbChannelSaveContinue</b> function saves the channel state to a buffer.  Run the <a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbchannelsavebegin.md">VmbChannelSaveBegin</a> before you run this function. The driver must check the return value of the function.
-
-
-## -syntax
-
-
-````
-NTSTATUS VmbChannelSaveContinue(
-  _In_  VMBCHANNEL                                                       Channel,
-  _Out_ writes_bytes_to_(SaveBufferSize, *BytesFilled)
-            PVOID SaveBuffer,
-  _In_  ULONG                                                            SaveBufferSize,
-  _Out_ PULONG                                                           BytesFilled,
-  _Out_ PULONG                                                           BytesRequired
-);
-````
+The <b>VmbChannelSaveContinue</b> function saves the channel state to a buffer.  Run the <a href="https://msdn.microsoft.com/A0946287-3ED2-4DE1-A3D7-46611B25BB93">VmbChannelSaveBegin</a> before you run this function. The driver must check the return value of the function.
 
 
 ## -parameters
@@ -172,10 +157,10 @@ If the caller did not allocate enough space in advance, multiple calls may be ne
 
 ## -see-also
 
-<a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbchannelsavebegin.md">VmbChannelSaveBegin</a>
 
 
 
+<a href="https://msdn.microsoft.com/A0946287-3ED2-4DE1-A3D7-46611B25BB93">VmbChannelSaveBegin</a>
  
 
  

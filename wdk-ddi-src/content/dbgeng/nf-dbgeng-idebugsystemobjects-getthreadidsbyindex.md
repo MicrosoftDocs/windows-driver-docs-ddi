@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -53,19 +53,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>GetThreadIdsByIndex</b> method returns the engine and system thread IDs for the specified <a href="https://msdn.microsoft.com/6182ca34-ee5e-47e9-82fe-29266397e3a8">threads</a> in the current process.
-
-
-## -syntax
-
-
-````
-HRESULT GetThreadIdsByIndex(
-  [in]            ULONG  Start,
-  [in]            ULONG  Count,
-  [out, optional] PULONG Ids,
-  [out, optional] PULONG SysIds
-);
-````
 
 
 ## -parameters

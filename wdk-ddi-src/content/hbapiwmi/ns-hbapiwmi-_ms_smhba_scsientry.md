@@ -52,18 +52,6 @@ req.typenames: MS_SMHBA_SCSIENTRY, *PMS_SMHBA_SCSIENTRY
 The MS_SMHBA_SCSIENTRY structure is used to report target LUN mapping information.
 
 
-## -syntax
-
-
-````
-typedef struct _MS_SMHBA_SCSIENTRY {
-  MS_SMHBA_PORTLUN PortLun;
-  UCHAR            LUID[256];
-  HBAScsiID        ScsiId;
-} MS_SMHBA_SCSIENTRY, *PMS_SMHBA_SCSIENTRY;
-````
-
-
 ## -struct-fields
 
 

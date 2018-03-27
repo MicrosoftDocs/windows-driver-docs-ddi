@@ -52,20 +52,6 @@ req.typenames: SetDSMCounters_IN, *PSetDSMCounters_IN
 The<i>MRxGetConnectionId</i> routine is called by <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ifs/the-rdbss-driver-and-library">RDBSS</a> to request that a network mini-redirector return a connection ID, which can be used for handling multiple sessions. 
 
 
-## -prototype
-
-
-````
-PMRX_GET_CONNECTION_ID MRxGetConnectionId;
-
-NTSTATUS MRxGetConnectionId(
-  _Inout_ PRX_CONTEXT       RxContext,
-  _Inout_ PRX_CONNECTION_ID UniqueId
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -122,14 +108,14 @@ If connection IDs are supported by the network mini-redirector, then the returne
 
 ## -see-also
 
-<a href="..\mrx\nc-mrx-pmrx_compute_new_buffering_state.md">MRxComputeNewBufferingState</a>
 
 
 
-<a href="..\mrx\nc-mrx-pmrx_change_buffering_state_calldown.md">MRxCompleteBufferingStateChangeRequest</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549850">MRxCompleteBufferingStateChangeRequest</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549856">MRxComputeNewBufferingState</a>
  
 
  

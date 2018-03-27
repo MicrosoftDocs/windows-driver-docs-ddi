@@ -53,18 +53,6 @@ req.product: Windows 10 or later.
 Describes an interface and its endpoints.
 
 
-## -syntax
-
-
-````
-typedef struct _USBFN_CLASS_INTERFACE {
-  UINT8                  InterfaceNumber;
-  UINT8                  PipeCount;
-  USBFN_PIPE_INFORMATION PipeArr[MAX_NUM_USBFN_PIPES];
-} USBFN_CLASS_INTERFACE, *PUSBFN_CLASS_INTERFACE;
-````
-
-
 ## -struct-fields
 
 
@@ -82,15 +70,15 @@ The number of endpoints contained in  the interface.
 
 ### -field PipeArr
 
-An array of <a href="..\usbfnbase\ns-usbfnbase-_usbfn_pipe_information.md">USBFN_PIPE_INFORMATION</a> structures that describes the endpoints in the interface.
+An array of <a href="https://msdn.microsoft.com/library/windows/hardware/mt188003">USBFN_PIPE_INFORMATION</a> structures that describes the endpoints in the interface.
 
 
 ## -see-also
 
-<a href="..\usbfnbase\ns-usbfnbase-_usbfn_pipe_information.md">USBFN_PIPE_INFORMATION</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt188003">USBFN_PIPE_INFORMATION</a>
  
 
  

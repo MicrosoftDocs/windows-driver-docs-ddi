@@ -49,17 +49,7 @@ req.typenames: D3DHAL_DP2TRIANGLEFAN, *LPD3DHAL_DP2TRIANGLEFAN
 ## -description
 
 
-One D3DHAL_DP2TRIANGLEFAN structure is parsed from the command buffer by the <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a> callback when the <a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a> structure's <b>bCommand</b> member is set to D3DDP2OP_TRIANGLEFAN, and is used to render a triangle fan.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DHAL_DP2TRIANGLEFAN {
-  WORD wVStart;
-} D3DHAL_DP2TRIANGLEFAN, *LPD3DHAL_DP2TRIANGLEFAN;
-````
+One D3DHAL_DP2TRIANGLEFAN structure is parsed from the command buffer by the <a href="https://msdn.microsoft.com/6128ff7a-0d2c-48df-8b5e-cab33c5a74f5">D3dDrawPrimitives2</a> callback when the <a href="https://msdn.microsoft.com/library/windows/hardware/ff545454">D3DHAL_DP2COMMAND</a> structure's <b>bCommand</b> member is set to D3DDP2OP_TRIANGLEFAN, and is used to render a triangle fan.
 
 
 ## -struct-fields
@@ -79,7 +69,7 @@ Specifies the index into the vertex buffer containing coordinate data for the in
 One D3DHAL_DP2TRIANGLEFAN structure follows the D3DHAL_DP2COMMAND structure in the command buffer.
 
 
-<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a> should process a total of <b>wPrimitiveCount</b> + 2 vertices from the vertex buffer, three vertices per triangle, rendering <b>wPrimitiveCount</b> triangles. Starting from the vertex buffer offset, the sequence of triangles rendered is (<b>wVStart </b> + 1, <b>wVStart </b> + 2, <b>wVStart </b>), (<b>wVStart </b> + 2, <b>wVStart </b> + 3, <b>wVStart </b>),..., (<b>wVStart </b> + <b>wPrimitiveCount</b>, <b>wVStart </b>+<b>wPrimitiveCount</b> + 1, <b>wVStart </b>). The value of <b>wPrimitiveCount</b> is specified in the D3DHAL_DP2COMMAND structure.
+<a href="https://msdn.microsoft.com/6128ff7a-0d2c-48df-8b5e-cab33c5a74f5">D3dDrawPrimitives2</a> should process a total of <b>wPrimitiveCount</b> + 2 vertices from the vertex buffer, three vertices per triangle, rendering <b>wPrimitiveCount</b> triangles. Starting from the vertex buffer offset, the sequence of triangles rendered is (<b>wVStart </b> + 1, <b>wVStart </b> + 2, <b>wVStart </b>), (<b>wVStart </b> + 2, <b>wVStart </b> + 3, <b>wVStart </b>),..., (<b>wVStart </b> + <b>wPrimitiveCount</b>, <b>wVStart </b>+<b>wPrimitiveCount</b> + 1, <b>wVStart </b>). The value of <b>wPrimitiveCount</b> is specified in the D3DHAL_DP2COMMAND structure.
 
 The following figure shows a portion of a sample command buffer containing a D3DDP2OP_TRIANGLEFAN command and a D3DHAL_DP2TRIANGLEFAN structure. The driver should process six vertices from the vertex buffer, rendering a fan with four triangles defined by (v[3], v[4], v[2]), (v[4], v[5], v[2]), (v[5], v[6], v[2]), (v[6], v[7], v[2]).
 
@@ -89,18 +79,18 @@ The following figure shows a portion of a sample command buffer containing a D3D
 
 ## -see-also
 
+
+
+
 D3DDP2OP_TRIANGLEFAN
 
 
 
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545454">D3DHAL_DP2COMMAND</a>
 
 
 
-<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
-
-
-
+<a href="https://msdn.microsoft.com/6128ff7a-0d2c-48df-8b5e-cab33c5a74f5">D3dDrawPrimitives2</a>
  
 
  

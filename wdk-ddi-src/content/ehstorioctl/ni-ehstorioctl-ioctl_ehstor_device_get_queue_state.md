@@ -46,11 +46,6 @@ req.typenames: PDO_TYPE
 # IOCTL_EHSTOR_DEVICE_GET_QUEUE_STATE IOCTL
 
 
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
-
 ## -description
 
 
@@ -143,10 +138,10 @@ One of the following values can be returned in the <b>Status</b> field.
 
 ## -see-also
 
-<a href="..\ehstorioctl\ni-ehstorioctl-ioctl_ehstor_device_set_queue_state.md">IOCTL_EHSTOR_DEVICE_SET_QUEUE_STATE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451430">IOCTL_EHSTOR_DEVICE_SET_QUEUE_STATE</a>
  
 
  

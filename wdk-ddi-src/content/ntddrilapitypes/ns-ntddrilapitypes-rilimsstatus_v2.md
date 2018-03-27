@@ -52,22 +52,6 @@ req.typenames: RILIMSSTATUS_V2, *LPRILIMSSTATUS_V2
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef struct _RILIMSSTATUS_V2 {
-  DWORD         cbSize;
-  DWORD         dwParams;
-  DWORD         dwExecutor;
-  HUICCAPP      hUiccApp;
-  DWORD         dwAvailableServices;
-  RILSMSFORMAT  dwSMSSupportedFormat;
-  WCHAR [256]   wszServingDomain;
-} RILIMSSTATUS_V2, RILIMSSTATUS_V2;
-````
-
-
 ## -struct-fields
 
 

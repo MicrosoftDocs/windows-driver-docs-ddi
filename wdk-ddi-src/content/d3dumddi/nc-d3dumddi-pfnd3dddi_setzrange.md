@@ -52,20 +52,6 @@ req.typenames: DXGK_PTE
 The <i>SetZRange</i> function informs the driver about the range of z values.
 
 
-## -prototype
-
-
-````
-PFND3DDDI_SETZRANGE SetZRange;
-
-__checkReturn HRESULT APIENTRY SetZRange(
-  _In_       HANDLE           hDevice,
-  _In_ const D3DDDIARG_ZRANGE *pData
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -87,7 +73,7 @@ __checkReturn HRESULT APIENTRY SetZRange(
 
 #### - pData [in]
 
- A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_zrange.md">D3DDDIARG_ZRANGE</a> structure that specifies minimum and maximum values for the range of z values.
+ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff544127">D3DDDIARG_ZRANGE</a> structure that specifies minimum and maximum values for the range of z values.
 
 
 ## -returns
@@ -101,14 +87,14 @@ __checkReturn HRESULT APIENTRY SetZRange(
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_zrange.md">D3DDDIARG_ZRANGE</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544127">D3DDDIARG_ZRANGE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544519">D3DDDI_DEVICEFUNCS</a>
  
 
  

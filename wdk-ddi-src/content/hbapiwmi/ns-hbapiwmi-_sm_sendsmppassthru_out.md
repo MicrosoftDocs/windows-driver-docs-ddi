@@ -52,19 +52,6 @@ req.typenames: SM_SendSMPPassThru_OUT, *PSM_SendSMPPassThru_OUT
 The SM_SendSMPPassThru_OUT structure is used to receive output parameters from the SM_SendSMPPassThru method.
 
 
-## -syntax
-
-
-````
-typedef struct _SM_SendSMPPassThru_OUT {
-  ULONG HBAStatus;
-  ULONG TotalRespBufferSize;
-  ULONG OutRespBufferSize;
-  UCHAR RespBuffer[1];
-} SM_SendSMPPassThru_OUT, *PSM_SendSMPPassThru_OUT;
-````
-
-
 ## -struct-fields
 
 

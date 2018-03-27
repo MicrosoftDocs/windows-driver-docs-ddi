@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -52,16 +52,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>GetCurrentProcessUpTime</b> method returns the length of time the current process has been running.
-
-
-## -syntax
-
-
-````
-HRESULT GetCurrentProcessUpTime(
-  [out] PULONG UpTime
-);
-````
 
 
 ## -parameters

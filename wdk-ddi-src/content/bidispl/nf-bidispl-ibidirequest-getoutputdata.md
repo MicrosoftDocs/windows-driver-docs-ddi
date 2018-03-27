@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: bidispl.h
+req.lib: 
 req.dll: Bidispl.dll
 req.irql: 
 topic_type:
@@ -50,20 +50,6 @@ req.typenames: MPEG2_TRANSPORT_STRIDE, *PMPEG2_TRANSPORT_STRIDE
 
 
 The <b>GetOutputData</b> method gets the specified output data coming back from the printer.
-
-
-## -syntax
-
-
-````
-HRESULT GetOutputData(
-  [in]  const DWORD  dwIndex,
-  [out]       LPWSTR *ppszSchema,
-  [out]       DWORD  *pdwType,
-  [out]       BYTE   **ppData,
-  [out]       ULONG  *uSize
-);
-````
 
 
 ## -parameters
@@ -258,6 +244,13 @@ If an application calls <b>GetOutputData</b> with the same index twice, the inte
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545163">Bidirectional Communication Interfaces</a>
+
+
+
 <a href="https://msdn.microsoft.com/b15b1aff-623e-4159-ab0f-ce386a1377eb">Bidirectional Communication Schema</a>
 
 
@@ -266,14 +259,7 @@ If an application calls <b>GetOutputData</b> with the same index twice, the inte
 
 
 
-<a href="..\bidispl\nn-bidispl-ibidirequest.md">IBidiRequest</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545163">Bidirectional Communication Interfaces</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/dd144969">IBidiRequest</a>
  
 
  

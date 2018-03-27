@@ -52,20 +52,6 @@ req.typenames: KSPROPERTY_SET, *PKSPROPERTY_SET
 A kernel streaming driver or pin may use the KSPROPERTY_SET structure to describe how it supports a property set.
 
 
-## -syntax
-
-
-````
-typedef struct {
-  const GUID                *Set;
-  ULONG                     PropertiesCount;
-  const KSPROPERTY_ITEM     *PropertyItem;
-  ULONG                     FastIoCount;
-  const KSFASTPROPERTY_ITEM *FastIoTable;
-} KSPROPERTY_SET, *PKSPROPERTY_SET;
-````
-
-
 ## -struct-fields
 
 
@@ -83,7 +69,7 @@ Specifies the size of the array pointed to by the <b>PropertyItem</b> member.
 
 ### -field PropertyItem
 
-Points to the beginning of an array of <a href="..\ks\ns-ks-ksproperty_item.md">KSPROPERTY_ITEM</a> structures that describe how the driver or pin supports each property in the set.
+Points to the beginning of an array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff565176">KSPROPERTY_ITEM</a> structures that describe how the driver or pin supports each property in the set.
 
 
 ### -field FastIoCount
@@ -93,7 +79,7 @@ Reserved for system use.
 
 ### -field FastIoTable
 
-A pointer to a <a href="..\ks\ns-ks-ksfastproperty_item.md">KSFASTPROPERTY_ITEM</a> structure. This member is reserved for system use.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff562521">KSFASTPROPERTY_ITEM</a> structure. This member is reserved for system use.
 
 
 ## -remarks
@@ -107,10 +93,10 @@ For more information, see <a href="https://msdn.microsoft.com/a385929e-1934-4d88
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ksproperty_item.md">KSPROPERTY_ITEM</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565176">KSPROPERTY_ITEM</a>
  
 
  

@@ -52,19 +52,6 @@ req.typenames: D3D10_2DDIARG_GETCAPS
 The D3D10_2DDIARG_GETCAPS structure contains display device capabilities of a particular type.
 
 
-## -syntax
-
-
-````
-typedef struct D3D10_2DDIARG_GETCAPS {
-  D3D10_2DDICAPS_TYPE Type;
-  VOID                *pInfo;
-  VOID                *pData;
-  UINT                DataSize;
-} D3D10_2DDIARG_GETCAPS;
-````
-
-
 ## -struct-fields
 
 
@@ -72,7 +59,7 @@ typedef struct D3D10_2DDIARG_GETCAPS {
 
 ### -field Type
 
-[in] The type of capabilities to retrieve. The Microsoft Direct3D runtime can supply one of the values from the <a href="..\d3d10umddi\ne-d3d10umddi-d3d10_2ddicaps_type.md">D3D10_2DDICAPS_TYPE</a> enumeration, possibly along with information in the memory block that is pointed to by <b>pInfo</b>, to retrieve particular capability data in the memory block at <b>pData</b>.
+[in] The type of capabilities to retrieve. The Microsoft Direct3D runtime can supply one of the values from the <a href="https://msdn.microsoft.com/library/windows/hardware/ff541894">D3D10_2DDICAPS_TYPE</a> enumeration, possibly along with information in the memory block that is pointed to by <b>pInfo</b>, to retrieve particular capability data in the memory block at <b>pData</b>.
 
 
 ### -field pInfo
@@ -92,14 +79,14 @@ typedef struct D3D10_2DDIARG_GETCAPS {
 
 ## -see-also
 
-<a href="..\d3d10umddi\ne-d3d10umddi-d3d10_2ddicaps_type.md">D3D10_2DDICAPS_TYPE</a>
 
 
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10_2ddi_getcaps.md">GetCaps(D3D10_2)</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541894">D3D10_2DDICAPS_TYPE</a>
 
 
 
+<a href="https://msdn.microsoft.com/83cd5f34-5f12-4ead-ad33-366fc3c6e804">GetCaps(D3D10_2)</a>
  
 
  

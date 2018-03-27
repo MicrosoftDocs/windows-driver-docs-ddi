@@ -26,7 +26,7 @@ req.max-support: Unavailable in UMDF 2.0 and later.
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: wudfddi.h
+req.lib: 
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
@@ -55,18 +55,6 @@ req.product: Windows 10 or later.
 The <b>Impersonate</b> method registers the interface for the method that the framework should call for impersonation.
 
 
-## -syntax
-
-
-````
-HRESULT Impersonate(
-  [in]           SECURITY_IMPERSONATION_LEVEL ImpersonationLevel,
-  [in]           IImpersonateCallback         *pCallback,
-  [in, optional] void                         *pvCallbackContext
-);
-````
-
-
 ## -parameters
 
 
@@ -74,12 +62,12 @@ HRESULT Impersonate(
 
 ### -param ImpersonationLevel [in]
 
-A <a href="..\wudfddi\ne-wudfddi-_security_impersonation_level.md">SECURITY_IMPERSONATION_LEVEL</a>-typed value that identifies the level of impersonation.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff556631">SECURITY_IMPERSONATION_LEVEL</a>-typed value that identifies the level of impersonation.
 
 
 ### -param pCallback [in]
 
-A pointer to the <a href="..\wudfddi\nn-wudfddi-iimpersonatecallback.md">IImpersonateCallback</a> interface whose method the framework calls for impersonation.
+A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554912">IImpersonateCallback</a> interface whose method the framework calls for impersonation.
 
 
 ### -param pvCallbackContext [in, optional]
@@ -107,7 +95,10 @@ For information about how UMDF and UMDF drivers handle impersonation, see <a hre
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554912">IImpersonateCallback</a>
 
 
 
@@ -115,14 +106,11 @@ For information about how UMDF and UMDF drivers handle impersonation, see <a hre
 
 
 
-<a href="..\wudfddi\nn-wudfddi-iimpersonatecallback.md">IImpersonateCallback</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558985">IWDFIoRequest</a>
 
 
 
-<a href="..\wudfddi\ne-wudfddi-_security_impersonation_level.md">SECURITY_IMPERSONATION_LEVEL</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556631">SECURITY_IMPERSONATION_LEVEL</a>
  
 
  

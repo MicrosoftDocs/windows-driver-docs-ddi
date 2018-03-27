@@ -52,16 +52,6 @@ req.typenames: D3DKMT_DIRECTFLIP_SUPPORT
 Indicates whether the user-mode driver supports Direct Flip operations, in which video memory is seamlessly flipped between an application's managed primary allocations and the Desktop Window Manager (DWM) managed primary allocations.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DKMT_DIRECTFLIP_SUPPORT {
-  BOOL Supported;
-} D3DKMT_DIRECTFLIP_SUPPORT;
-````
-
-
 ## -struct-fields
 
 

@@ -52,18 +52,6 @@ req.typenames: DXGI_DDI_MODE_SCALING
 The DXGI_DDI_MODE_SCALING enumeration type contains values that identify the scaling support for a display.
 
 
-## -syntax
-
-
-````
-typedef enum DXGI_DDI_MODE_SCALING { 
-  DXGI_DDI_MODE_SCALING_UNSPECIFIED  = 0,
-  DXGI_DDI_MODE_SCALING_STRETCHED    = 1,
-  DXGI_DDI_MODE_SCALING_CENTERED     = 2
-} DXGI_DDI_MODE_SCALING;
-````
-
-
 ## -enum-fields
 
 
@@ -86,10 +74,10 @@ Centered content can be displayed.
 
 ## -see-also
 
-<a href="..\dxgiddi\ns-dxgiddi-dxgi_ddi_mode_desc.md">DXGI_DDI_MODE_DESC</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557499">DXGI_DDI_MODE_DESC</a>
  
 
  

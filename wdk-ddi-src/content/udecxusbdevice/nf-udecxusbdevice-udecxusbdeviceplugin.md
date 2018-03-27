@@ -54,17 +54,6 @@ req.product: Windows 10 or later.
 Notifies the USB device emulation class extension (UdeCx) that the USB device has been plugged in the specified port.
 
 
-## -syntax
-
-
-````
-FORCEINLINE NTSTATUS UdecxUsbDevicePlugIn(
-  _In_ UDECXUSBDEVICE                    UdecxUsbDevice,
-  _In_ PUDECX_USB_DEVICE_PLUG_IN_OPTIONS Options
-);
-````
-
-
 ## -parameters
 
 
@@ -72,12 +61,12 @@ FORCEINLINE NTSTATUS UdecxUsbDevicePlugIn(
 
 ### -param UdecxUsbDevice [in]
 
-A handle to UDE device object. The client driver retrieved this pointer in the previous call to <a href="..\udecxusbdevice\nf-udecxusbdevice-udecxusbdevicecreate.md">UdecxUsbDeviceCreate</a>.
+A handle to UDE device object. The client driver retrieved this pointer in the previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/mt595959">UdecxUsbDeviceCreate</a>.
 
 
 ### -param Options [in]
 
-A <a href="..\udecxusbdevice\ns-udecxusbdevice-_udecx_usb_device_plug_in_options.md">UDECX_USB_DEVICE_PLUG_IN_OPTIONS</a>-type value that indicates the port to which the device is plugged. At most one of Usb20PortNumber, Usb30PortNumber can be non-zero. NULL disables plug-in options (use defaults).
+A <a href="https://msdn.microsoft.com/library/windows/hardware/mt627998">UDECX_USB_DEVICE_PLUG_IN_OPTIONS</a>-type value that indicates the port to which the device is plugged. At most one of Usb20PortNumber, Usb30PortNumber can be non-zero. NULL disables plug-in options (use defaults).
 
 
 
@@ -101,7 +90,6 @@ After the client driver calls this method, the class extension sends I/O request
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
 
 
 
@@ -109,6 +97,7 @@ After the client driver calls this method, the class extension sends I/O request
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
  
 
  

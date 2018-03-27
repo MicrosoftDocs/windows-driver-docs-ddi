@@ -52,18 +52,6 @@ req.typenames: D3D11_1DDI_VIDEO_PROCESSOR_OUTPUT_RATE
 Specifies the rate at which the video processor produces output frames from an input stream.
 
 
-## -syntax
-
-
-````
-typedef enum D3D11_1DDI_VIDEO_PROCESSOR_OUTPUT_RATE { 
-  D3D11_1DDI_VIDEO_PROCESSOR_OUTPUT_RATE_NORMAL  = 0,
-  D3D11_1DDI_VIDEO_PROCESSOR_OUTPUT_RATE_HALF    = 1,
-  D3D11_1DDI_VIDEO_PROCESSOR_OUTPUT_RATE_CUSTOM  = 2
-} D3D11_1DDI_VIDEO_PROCESSOR_OUTPUT_RATE;
-````
-
-
 ## -enum-fields
 
 

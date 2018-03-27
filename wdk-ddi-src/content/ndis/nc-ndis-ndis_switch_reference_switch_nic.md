@@ -55,21 +55,6 @@ The <i>ReferenceSwitchNic</i> function increments the Hyper-V extensible switch 
 
 
 
-## -prototype
-
-
-````
-NDIS_SWITCH_REFERENCE_SWITCH_NIC ReferenceSwitchNic;
-
-NDIS_STATUS ReferenceSwitchNic(
-  _In_ NDIS_SWITCH_CONTEXT   NdisSwitchContext,
-  _In_ NDIS_SWITCH_PORT_ID   SwitchPortId,
-  _In_ NDIS_SWITCH_NIC_INDEX SwitchNicIndex
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -77,7 +62,7 @@ NDIS_STATUS ReferenceSwitchNic(
 
 ### -param NdisSwitchContext [in]
 
-An NDIS_SWITCH_CONTEXT value that contains the handle of the extensible switch module to which the Hyper-V extensible switch extension is attached. When the  extension calls <a href="..\ndis\nf-ndis-ndisfgetoptionalswitchhandlers.md">NdisFGetOptionalSwitchHandlers</a>,  this handle is returned through the <i>NdisSwitchContext</i> parameter.
+An NDIS_SWITCH_CONTEXT value that contains the handle of the extensible switch module to which the Hyper-V extensible switch extension is attached. When the  extension calls <a href="https://msdn.microsoft.com/library/windows/hardware/hh598204">NdisFGetOptionalSwitchHandlers</a>,  this handle is returned through the <i>NdisSwitchContext</i> parameter.
 
 
 ### -param SwitchPortId [in]
@@ -141,11 +126,10 @@ The extension calls <i>ReferenceSwitchNic</i> after the network adapter connecti
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh598205">NDIS_STATUS_SWITCH_NIC_STATUS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh598266">OID_SWITCH_NIC_REQUEST</a>
+<b></b>
 
 
 
@@ -153,7 +137,11 @@ The extension calls <i>ReferenceSwitchNic</i> after the network adapter connecti
 
 
 
-<a href="..\ndis\nf-ndis-ndisfgetoptionalswitchhandlers.md">NdisFGetOptionalSwitchHandlers</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh598205">NDIS_STATUS_SWITCH_NIC_STATUS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh598204">NdisFGetOptionalSwitchHandlers</a>
 
 
 
@@ -165,10 +153,7 @@ The extension calls <i>ReferenceSwitchNic</i> after the network adapter connecti
 
 
 
-<b></b>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh598266">OID_SWITCH_NIC_REQUEST</a>
  
 
  

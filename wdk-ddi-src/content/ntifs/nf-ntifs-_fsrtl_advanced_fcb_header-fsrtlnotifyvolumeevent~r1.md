@@ -52,17 +52,6 @@ req.typenames: TOKEN_TYPE
 The <b>FsRtlNotifyVolumeEvent</b> routine notifies any registered applications that a volume event is occurring. 
 
 
-## -syntax
-
-
-````
-NTSTATUS FsRtlNotifyVolumeEvent(
-  _In_ PFILE_OBJECT FileObject,
-  _In_ ULONG        EventCode
-);
-````
-
-
 ## -parameters
 
 
@@ -307,14 +296,14 @@ To register for volume event notification, applications must call the Microsoft 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iounregisterplugplaynotification.md">IoUnregisterPlugPlayNotification</a>
 
 
 
-<a href="..\wdm\nf-wdm-ioregisterplugplaynotification.md">IoRegisterPlugPlayNotification</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549526">IoRegisterPlugPlayNotification</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550398">IoUnregisterPlugPlayNotification</a>
  
 
  

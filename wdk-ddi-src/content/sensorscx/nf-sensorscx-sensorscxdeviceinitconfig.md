@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,18 +51,6 @@ req.product: Windows 10 or later.
 
 
 This function configures the sensor device.
-
-
-## -syntax
-
-
-````
-FORCEINLINE NTSTATUS SensorsCxDeviceInitConfig(
-  _Inout_ PWDFDEVICE_INIT        pFxDeviceInit,
-  _Inout_ PWDF_OBJECT_ATTRIBUTES pFdoAttributes,
-  _In_    ULONG                  Flags
-);
-````
 
 
 ## -parameters

@@ -53,19 +53,6 @@ req.typenames: TOKEN_TYPE
 <b>SecLookupWellKnownSid</b> accepts a well-known security identifier (SID) type as input and retrieves the local security identifier (SID) for this well known SID.
 
 
-## -syntax
-
-
-````
-NTSTATUS SecLookupWellKnownSid(
-  _In_    WELL_KNOWN_SID_TYPE SidType,
-  _Out_   PSID                Sid,
-  _In_    ULONG               SidBufferSize,
-  _Inout_ PULONG              SidSize
-);
-````
-
-
 ## -parameters
 
 
@@ -563,18 +550,18 @@ If the function cannot find the well known SID for the <i>SidType</i> specified,
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-seclookupaccountname.md">SecLookupAccountName</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-seclookupaccountsid.md">SecLookupAccountSid</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556740">SID</a>
 
 
 
-<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554795">SecLookupAccountName</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556579">SecLookupAccountSid</a>
  
 
  

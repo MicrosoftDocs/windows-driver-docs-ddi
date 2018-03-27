@@ -52,16 +52,6 @@ req.typenames: D3DDDIARG_DESTROYOVERLAY
 The D3DDDIARG_DESTROYOVERLAY structure contains a handle to the overlay to disable.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DDDIARG_DESTROYOVERLAY {
-  HANDLE hOverlay;
-} D3DDDIARG_DESTROYOVERLAY;
-````
-
-
 ## -struct-fields
 
 
@@ -74,10 +64,10 @@ typedef struct _D3DDDIARG_DESTROYOVERLAY {
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_destroyoverlay.md">DestroyOverlay</a>
 
 
 
+<a href="https://msdn.microsoft.com/63004d19-e2cd-462c-8fa5-ea4dd6e29735">DestroyOverlay</a>
  
 
  

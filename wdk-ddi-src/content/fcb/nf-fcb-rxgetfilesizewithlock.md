@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
@@ -50,17 +50,6 @@ req.typenames: FA_ENTRY, *PFA_ENTRY
 
 
 <b>RxGetFileSizeWithLock</b> gets the file size in the FCB structure using a lock to ensure that the 64-bit value is read consistently.
-
-
-## -syntax
-
-
-````
-VOID RxGetFileSizeWithLock(
-  _In_  PFCB      Fcb,
-  _Out_ PLONGLONG FileSize
-);
-````
 
 
 ## -parameters
@@ -102,6 +91,9 @@ These IRPs will normally result in a call to one of the <b>MRxQueryFileInfo, MRx
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550770">MRxQueryFileInfo</a>
 
 
@@ -111,9 +103,6 @@ These IRPs will normally result in a call to one of the <b>MRxQueryFileInfo, MRx
 
 
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ifs/the-fcb-structure">The FCB Structure</a>
-
-
-
  
 
  

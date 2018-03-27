@@ -52,19 +52,6 @@ req.typenames: TOKEN_TYPE
 The <b>ObQueryNameString</b> routine supplies the name, if there is one, of a given object to which the caller has a pointer.
 
 
-## -syntax
-
-
-````
-NTSTATUS ObQueryNameString(
-  _In_      PVOID                    Object,
-  _Out_opt_ POBJECT_NAME_INFORMATION ObjectNameInfo,
-  _In_      ULONG                    Length,
-  _Out_     PULONG                   ReturnLength
-);
-````
-
-
 ## -parameters
 
 
@@ -147,10 +134,10 @@ The storage for <i>ObjectNameInfo</i> can be allocated from paged or nonpaged po
 
 ## -see-also
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a>
  
 
  

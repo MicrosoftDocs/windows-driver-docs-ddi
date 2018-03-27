@@ -53,24 +53,6 @@ req.product: Windows 10 or later.
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef struct _RILSUPSERVICEDATA {
-  DWORD                    cbSize;
-  DWORD                    dwParams;
-  DWORD                    dwExecutor;
-  RILSUPSERVICEDATASTATUS  dwStatus;
-  DWORD                    dwNetworkSSErrorCause;
-  DWORD                    dwNetworkCCErrorCause;
-  DWORD                    dwVendorErrorCause;
-  DWORD                    dwDataSize;
-  WCHAR [1]                wszData;
-} RILSUPSERVICEDATA, RILSUPSERVICEDATA;
-````
-
-
 ## -struct-fields
 
 

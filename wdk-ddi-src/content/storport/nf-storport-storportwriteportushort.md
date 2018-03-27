@@ -54,18 +54,6 @@ req.product: Windows 10 or later.
 The <b>StorPortWritePortUshort</b> routine writes a value to a specified register address. 
 
 
-## -syntax
-
-
-````
-STORPORT_API VOID StorPortWritePortUshort(
-  _In_ PVOID   HwDeviceExtension,
-  _In_ PUSHORT Port,
-  _In_ USHORT  Value
-);
-````
-
-
 ## -parameters
 
 
@@ -109,21 +97,21 @@ Contains the value to be written.
 
 
 
-For more information, see <a href="..\storport\nf-storport-scsiportwriteportushort.md">ScsiPortWritePortUshort</a>. For a buffered equivalent of this routine, see <a href="..\storport\nf-storport-storportwriteportbufferushort.md">StorPortWritePortBufferUshort</a>. 
+For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff564841">ScsiPortWritePortUshort</a>. For a buffered equivalent of this routine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff567520">StorPortWritePortBufferUshort</a>. 
 
 
 
 
 ## -see-also
 
-<a href="..\storport\nf-storport-scsiportwriteportushort.md">ScsiPortWritePortUshort</a>
 
 
 
-<a href="..\storport\nf-storport-storportwriteportbufferushort.md">StorPortWritePortBufferUshort</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564841">ScsiPortWritePortUshort</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567520">StorPortWritePortBufferUshort</a>
  
 
  

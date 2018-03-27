@@ -52,17 +52,6 @@ req.typenames: BDA_TEMPLATE_PIN_JOINT, *PBDA_TEMPLATE_PIN_JOINT
 The BDA_TEMPLATE_PIN_JOINT structure describes a joint in a template topology. 
 
 
-## -syntax
-
-
-````
-typedef struct _BDA_TEMPLATE_PIN_JOINT {
-  ULONG uliTemplateConnection;
-  ULONG ulcInstancesMax;
-} BDA_TEMPLATE_PIN_JOINT, *PBDA_TEMPLATE_PIN_JOINT;
-````
-
-
 ## -struct-fields
 
 
@@ -80,14 +69,14 @@ Maximum number of possible instances of the joint in the template topology.
 
 ## -see-also
 
-<a href="..\bdatypes\ns-bdatypes-_bda_template_connection.md">BDA_TEMPLATE_CONNECTION</a>
 
 
 
-<a href="..\ks\ns-ks-kstopology_connection.md">KSTOPOLOGY_CONNECTION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556558">BDA_TEMPLATE_CONNECTION</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567148">KSTOPOLOGY_CONNECTION</a>
  
 
  

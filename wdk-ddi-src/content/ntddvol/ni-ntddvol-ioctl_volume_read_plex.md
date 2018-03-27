@@ -46,11 +46,6 @@ req.typenames: VIDEO_WIN32K_CALLBACKS_PARAMS, *PVIDEO_WIN32K_CALLBACKS_PARAMS
 # IOCTL_VOLUME_READ_PLEX IOCTL
 
 
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
-
 ## -description
 
 
@@ -69,7 +64,7 @@ If, however, an application or kernel-mode component must read data from a parti
 
 ### -input-buffer
 
-Caller inserts the <a href="..\ntddvol\ns-ntddvol-_volume_read_plex_input.md">VOLUME_READ_PLEX_INPUT</a> structure, containing the logical offset, at the beginning of the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>. 
+Caller inserts the <a href="https://msdn.microsoft.com/library/windows/hardware/ff568027">VOLUME_READ_PLEX_INPUT</a> structure, containing the logical offset, at the beginning of the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>. 
 
 
 ### -input-buffer-length
@@ -115,10 +110,10 @@ The VOLUME_READ_PLEX_INPUT structure at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b
 
 ## -see-also
 
-<a href="..\ntddvol\ns-ntddvol-_volume_read_plex_input.md">VOLUME_READ_PLEX_INPUT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568027">VOLUME_READ_PLEX_INPUT</a>
  
 
  

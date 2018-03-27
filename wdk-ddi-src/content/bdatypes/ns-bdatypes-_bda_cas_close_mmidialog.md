@@ -52,17 +52,6 @@ req.typenames: BDA_CAS_CLOSE_MMIDIALOG, *PBDA_CAS_CLOSE_MMIDIALOG
 
 
 
-## -syntax
-
-
-````
-typedef struct _BDA_CAS_CLOSE_MMIDIALOG {
-  PBDARESULT lResult;
-  ULONG      ulDescrambleStatus;
-} BDA_CAS_CLOSE_MMIDIALOG, *PBDA_CAS_CLOSE_MMIDIALOG;
-````
-
-
 ## -struct-fields
 
 

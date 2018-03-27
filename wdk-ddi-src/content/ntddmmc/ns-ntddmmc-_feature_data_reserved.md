@@ -52,17 +52,6 @@ req.typenames: FEATURE_DATA_RESERVED, *PFEATURE_DATA_RESERVED
 The FEATURE_DATA_RESERVED structure holds information about an unspecified feature. 
 
 
-## -syntax
-
-
-````
-typedef struct _FEATURE_DATA_RESERVED {
-  FEATURE_HEADER Header;
-  UCHAR          Data[];
-} FEATURE_DATA_RESERVED, *PFEATURE_DATA_RESERVED;
-````
-
-
 ## -struct-fields
 
 
@@ -70,7 +59,7 @@ typedef struct _FEATURE_DATA_RESERVED {
 
 ### -field Header
 
-Contains a <a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a> structure with header information for this feature descriptor. 
+Contains a <a href="https://msdn.microsoft.com/library/windows/hardware/ff553848">FEATURE_HEADER</a> structure with header information for this feature descriptor. 
 
 
 ### -field Data
@@ -89,14 +78,14 @@ You can use this structure to access the data of any feature structure as though
 
 ## -see-also
 
-<a href="..\ntddmmc\ne-ntddmmc-_feature_number.md">FEATURE_NUMBER</a>
 
 
 
-<a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553848">FEATURE_HEADER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553850">FEATURE_NUMBER</a>
  
 
  

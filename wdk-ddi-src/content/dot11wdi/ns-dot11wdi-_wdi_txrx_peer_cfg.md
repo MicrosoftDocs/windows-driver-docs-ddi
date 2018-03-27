@@ -52,16 +52,6 @@ req.typenames: WDI_TXRX_PEER_CFG, *PWDI_TXRX_PEER_CFG
 The WDI_TXRX_PEER_CFG structure defines peer configuration.
 
 
-## -syntax
-
-
-````
-typedef struct _WDI_TXRX_PEER_CFG {
-  WDI_TXRX_PEER_QOS_CAPS PeerQoSConfig;
-} WDI_TXRX_PEER_CFG, *PWDI_TXRX_PEER_CFG;
-````
-
-
 ## -struct-fields
 
 
@@ -69,5 +59,5 @@ typedef struct _WDI_TXRX_PEER_CFG {
 
 ### -field PeerQoSConfig
 
-The peer's QoS capability as defined in <a href="..\dot11wdi\ne-dot11wdi-_wdi_txrx_peer_qos_caps.md">WDI_TXRX_PEER_QOS_CAPS</a>.
+The peer's QoS capability as defined in <a href="https://msdn.microsoft.com/library/windows/hardware/dn898191">WDI_TXRX_PEER_QOS_CAPS</a>.
 

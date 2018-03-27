@@ -53,29 +53,6 @@ req.product: Windows 10 or later.
 The <b>STOR_LOG_EVENT_DETAILS</b> structure provides details pertaining to Storport-specific error log events and system  log events.
 
 
-## -syntax
-
-
-````
-typedef struct _STOR_LOG_EVENT_DETAILS {
-  ULONG                       InterfaceRevision;
-  ULONG                       Size;
-  ULONG                       Flags;
-  STOR_EVENT_ASSOCIATION_ENUM EventAssociation;
-  ULONG                       PathId;
-  ULONG                       TargetId;
-  ULONG                       LunId;
-  BOOLEAN                     StorportSpecificErrorCode;
-  ULONG                       ErrorCode;
-  ULONG                       UniqueId;
-  ULONG                       DumpDataSize;
-  PVOID                       DumpData;
-  ULONG                       StringCount;
-  PWSTR                       *StringList;
-} STOR_LOG_EVENT_DETAILS, *PSTOR_LOG_EVENT_DETAILS;
-````
-
-
 ## -struct-fields
 
 
@@ -88,7 +65,7 @@ The revision number of this interface. Set to STOR_CURRENT_LOG_INTERFACE_REVISIO
 
 ### -field Size
 
-The size of this structure. Set before calling <a href="..\storport\nf-storport-storportlogsystemevent.md">StorPortLogSystemEvent</a>.
+The size of this structure. Set before calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff567428">StorPortLogSystemEvent</a>.
 
 
 ### -field Flags
@@ -155,21 +132,21 @@ The list of null-terminated Unicode strings to be appended to the log entry for 
 
 
 
-Although <a href="..\storport\nf-storport-storportlogerror.md">StorPortLogError</a> uses <b>PathId</b>, <b>TargetId</b>, and <b>LunId</b> values that are 8bits wide, for <a href="..\storport\nf-storport-storportlogsystemevent.md">StorPortLogSystemEvent</a> they are 32bits wide. The combined size of the miniport driver's dump data and string areas cannot exceed 150 bytes. This restriction is due to the &lt; 255 byte limit that the kernel enforces on the event log entries.
+Although <a href="https://msdn.microsoft.com/library/windows/hardware/ff567426">StorPortLogError</a> uses <b>PathId</b>, <b>TargetId</b>, and <b>LunId</b> values that are 8bits wide, for <a href="https://msdn.microsoft.com/library/windows/hardware/ff567428">StorPortLogSystemEvent</a> they are 32bits wide. The combined size of the miniport driver's dump data and string areas cannot exceed 150 bytes. This restriction is due to the &lt; 255 byte limit that the kernel enforces on the event log entries.
 
 
 
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportlogsystemevent.md">StorPortLogSystemEvent</a>
 
 
 
-<a href="..\storport\ne-storport-_stor_event_association_enum.md">STOR_EVENT_ASSOCIATION_ENUM</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567582">STOR_EVENT_ASSOCIATION_ENUM</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567428">StorPortLogSystemEvent</a>
  
 
  

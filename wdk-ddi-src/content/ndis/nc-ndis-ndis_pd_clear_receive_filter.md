@@ -56,19 +56,6 @@ The PacketDirect (PD) platform calls a PD-capable miniport driver's
 
 
 
-## -prototype
-
-
-````
-NDIS_PD_CLEAR_RECEIVE_FILTER NdisPDClearReceiveFilter;
-
-void NdisPDClearReceiveFilter(
-  _In_ __drv_freesMem (Mem) NDIS_PD_FILTER_HANDLE FilterHandle
-)
-{ ... }
-````
-
-
 ## -parameters
 
 

@@ -53,18 +53,6 @@ req.product: Windows 10 or later.
 This structure provides a handle  for the Universal Serial Bus (USB) hub or device physically connected to the bus.
 
 
-## -syntax
-
-
-````
-typedef struct _USBDEVICE_MGMT_HEADER {
-  ULONG        Size;
-  UCXUSBDEVICE Hub;
-  UCXUSBDEVICE UsbDevice;
-} USBDEVICE_MGMT_HEADER, *P_USBDEVICE_MGMT_HEADER;
-````
-
-
 ## -struct-fields
 
 

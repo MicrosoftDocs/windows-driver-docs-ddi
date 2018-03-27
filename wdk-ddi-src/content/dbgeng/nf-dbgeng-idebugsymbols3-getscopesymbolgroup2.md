@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -50,18 +50,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>GetScopeSymbolGroup2</b>  method returns a symbol group containing the symbols in the current target's scope.
-
-
-## -syntax
-
-
-````
-HRESULT GetScopeSymbolGroup2(
-  [in]           ULONG                Flags,
-  [in, optional] PDEBUG_SYMBOL_GROUP2 Update,
-  [out]          PDEBUG_SYMBOL_GROUP2 *Symbols
-);
-````
 
 
 ## -parameters
@@ -109,7 +97,7 @@ Specifies a previously created symbol group that will be updated to reflect the 
 
 ### -param Symbols [out]
 
-Receives the symbol group interface object for the current scope.  For details on this interface, see <a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup.md">IDebugSymbolGroup</a>
+Receives the symbol group interface object for the current scope.  For details on this interface, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff550838">IDebugSymbolGroup</a>
 
 
 
@@ -154,11 +142,6 @@ For more information about scopes and symbol groups, see <a href="https://msdn.m
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup.md">IDebugSymbolGroup</a>
 
 
 
@@ -166,6 +149,11 @@ For more information about scopes and symbol groups, see <a href="https://msdn.m
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550838">IDebugSymbolGroup</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550870">IDebugSymbols3</a>
  
 
  

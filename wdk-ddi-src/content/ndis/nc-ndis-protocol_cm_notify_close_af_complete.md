@@ -52,26 +52,12 @@ req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
 The 
   <i>ProtocolCmNotifyCloseAfComplete</i> function indicates that a client has completed the closing of an
   address family (AF) that a stand-alone call manager or miniport call manager (MCM) started by calling the 
-  <a href="..\ndis\nf-ndis-ndiscmnotifycloseaddressfamily.md">
+  <a href="https://msdn.microsoft.com/1967f663-86ce-4e9d-9498-61951bdf4db0">
   NdisCmNotifyCloseAddressFamily</a> or 
-  <a href="..\ndis\nf-ndis-ndismcmnotifycloseaddressfamily.md">
+  <a href="https://msdn.microsoft.com/47b0b1da-e29b-45cc-921b-69d630670b44">
   NdisMCmNotifyCloseAddressFamily</a> function, respectively.
 <div class="alert"><b>Note</b>  You must declare the function by using the <b>PROTOCOL_CM_NOTIFY_CLOSE_AF_COMPLETE</b> type.
    For more information, see the following Examples section.</div><div> </div>
-
-## -prototype
-
-
-````
-PROTOCOL_CM_NOTIFY_CLOSE_AF_COMPLETE ProtocolCmNotifyCloseAfComplete;
-
-VOID ProtocolCmNotifyCloseAfComplete(
-  _In_ NDIS_HANDLE CallMgrAfContext,
-  _In_ NDIS_STATUS Status
-)
-{ ... }
-````
-
 
 ## -parameters
 
@@ -81,7 +67,7 @@ VOID ProtocolCmNotifyCloseAfComplete(
 ### -param CallMgrAfContext [in]
 
 A handle to the call manager's AF context area that the call manager supplied to NDIS in the 
-     <a href="..\ndis\nc-ndis-protocol_cm_open_af.md">ProtocolCmOpenAf</a> function.
+     <a href="https://msdn.microsoft.com/7422c205-bc41-4121-b430-ff9e6b49dc2e">ProtocolCmOpenAf</a> function.
 
 
 ### -param Status [in]
@@ -123,10 +109,10 @@ The
 
 If a stand-alone call manager will unbind from an underlying miniport adapter, the call manager must
     call the 
-    <a href="..\ndis\nf-ndis-ndiscmnotifycloseaddressfamily.md">
+    <a href="https://msdn.microsoft.com/1967f663-86ce-4e9d-9498-61951bdf4db0">
     NdisCmNotifyCloseAddressFamily</a> function before unbinding. When a miniport call manager (MCM) halts
     a miniport adapter, the MCM must call the 
-    <a href="..\ndis\nf-ndis-ndismcmnotifycloseaddressfamily.md">
+    <a href="https://msdn.microsoft.com/47b0b1da-e29b-45cc-921b-69d630670b44">
     NdisMCmNotifyCloseAddressFamily</a> function.
 
 If 
@@ -179,20 +165,20 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-protocol_cm_open_af.md">ProtocolCmOpenAf</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndismcmnotifycloseaddressfamily.md">
-   NdisMCmNotifyCloseAddressFamily</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndiscmnotifycloseaddressfamily.md">
+<a href="https://msdn.microsoft.com/1967f663-86ce-4e9d-9498-61951bdf4db0">
    NdisCmNotifyCloseAddressFamily</a>
 
 
 
+<a href="https://msdn.microsoft.com/47b0b1da-e29b-45cc-921b-69d630670b44">
+   NdisMCmNotifyCloseAddressFamily</a>
+
+
+
+<a href="https://msdn.microsoft.com/7422c205-bc41-4121-b430-ff9e6b49dc2e">ProtocolCmOpenAf</a>
  
 
  

@@ -52,22 +52,6 @@ req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 Sets the colorspace information for the video processor input stream. This function must be implemented by Windows Display Driver Model (WDDM) 2.0, or later, drivers.
 
 
-## -prototype
-
-
-````
-PFND3DWDDM2_0DDI_VIDEOPROCESSORSETSTREAMCOLORSPACE1 pfnVideoProcessorSetStreamColorSpace1;
-
-VOID APIENTRY* pfnVideoProcessorSetStreamColorSpace1(
-  _In_ D3D10DDI_HDEVICE           hDevice,
-  _In_ D3D11_1DDI_HVIDEOPROCESSOR hVideoProcessor,
-  _In_ UINT                       StreamIndex,
-  _In_ D3DDDI_COLOR_SPACE_TYPE    ColorSpace
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -75,7 +59,7 @@ VOID APIENTRY* pfnVideoProcessorSetStreamColorSpace1(
 
 ### -param hDevice [in]
 
- A handle to the display device (graphics context). The Direct3D runtime passed the user-mode driver this handle as the <b>hDevice</b> member of the <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createdevice.md">D3DDDIARG_CREATEDEVICE</a> structure at device creation.
+ A handle to the display device (graphics context). The Direct3D runtime passed the user-mode driver this handle as the <b>hDevice</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff542931">D3DDDIARG_CREATEDEVICE</a> structure at device creation.
 
 
 ### -param hVideoProcessor [in]
@@ -90,7 +74,7 @@ Indicates the input stream.
 
 ### -param ColorSpace [in]
 
-Contains a <a href="..\d3dukmdt\ne-d3dukmdt-d3dddi_color_space_type.md">D3DDDI_COLOR_SPACE_TYPE</a> enumeration value identifying the color space.
+Contains a <a href="https://msdn.microsoft.com/library/windows/hardware/dn906320">D3DDDI_COLOR_SPACE_TYPE</a> enumeration value identifying the color space.
 
 
 ## -returns
@@ -106,17 +90,17 @@ This callback function does not return a value.
 
 
 
-The legacy <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_videoprocessorsetstreamcolorspace.md">VideoProcessorSetStreamColorSpace</a>device driver interface (DDI) will not be called for WDDM 2.0 drivers.
+The legacy <a href="https://msdn.microsoft.com/library/windows/hardware/hh439796">VideoProcessorSetStreamColorSpace</a>device driver interface (DDI) will not be called for WDDM 2.0 drivers.
 
 
 
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createdevice.md">D3DDDIARG_CREATEDEVICE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542931">D3DDDIARG_CREATEDEVICE</a>
  
 
  

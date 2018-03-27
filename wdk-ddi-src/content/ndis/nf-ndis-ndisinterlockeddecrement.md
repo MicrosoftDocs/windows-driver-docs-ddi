@@ -55,16 +55,6 @@ The
   operation.
 
 
-## -syntax
-
-
-````
-LONG NdisInterlockedDecrement(
-  [in] PLONG Addend
-);
-````
-
-
 ## -parameters
 
 
@@ -89,10 +79,10 @@ A pointer to the variable to be decremented.
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisinterlockedincrement.md">NdisInterlockedIncrement</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562752">NdisInterlockedIncrement</a>
  
 
  

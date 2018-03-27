@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: sti.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,18 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>IStiDevice::RawWriteData</b> method writes data to a still image device.
-
-
-## -syntax
-
-
-````
-HRESULT RawWriteData(
-  [in]           LPVOID       lpBuffer,
-                 DWORD        nNumberOfBytes,
-  [in, optional] LPOVERLAPPED lpOverlapped
-);
-````
 
 
 ## -parameters
@@ -109,14 +97,14 @@ A call to <b>IStiDevice::RawWriteData</b> must be preceded by a call to <a href=
 
 ## -see-also
 
-<a href="..\sti\nn-sti-istidevice.md">IStiDevice</a>
+
+
+
+<a href="https://msdn.microsoft.com/86ce412e-007b-4ea9-9c09-766eee543852">IStiDevice</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543762">IStiDevice::RawWriteCommand</a>
-
-
-
  
 
  

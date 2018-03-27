@@ -52,17 +52,6 @@ req.typenames: RILCALLMEDIAAUDIOFLAGS
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef enum _RILCALLMEDIAAUDIOFLAGS { 
-  RIL_CALLMEDIAAUDIOFLAG_TEMPORARILY_UNAVAILABLE,
-  RIL_CALLMEDIAAUDIOFLAG_ALL
-} RILCALLMEDIAAUDIOFLAGS;
-````
-
-
 ## -enum-fields
 
 

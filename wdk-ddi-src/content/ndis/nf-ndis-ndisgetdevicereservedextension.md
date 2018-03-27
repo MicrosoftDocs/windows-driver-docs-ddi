@@ -55,16 +55,6 @@ The
   with a device object.
 
 
-## -syntax
-
-
-````
-PVOID NdisGetDeviceReservedExtension(
-  _In_ PDEVICE_OBJECT DeviceObject
-);
-````
-
-
 ## -parameters
 
 
@@ -73,7 +63,7 @@ PVOID NdisGetDeviceReservedExtension(
 ### -param DeviceObject [in]
 
 A pointer to a 
-     <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a> structure.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a> structure.
 
 
 ## -returns
@@ -88,10 +78,10 @@ A pointer to a
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a>
  
 
  

@@ -52,18 +52,6 @@ req.typenames: PDO_STATE
 This enumeration describes the states of Physical Device Objects (PDOs).
 
 
-## -syntax
-
-
-````
-typedef enum _PDO_STATE { 
-  PDO_STATE_UNDEFINED    = 0,
-  PDO_STATE_STARTED      = 1,
-  PDO_STATE_NOT_STARTED  = 2
-} PDO_STATE;
-````
-
-
 ## -enum-fields
 
 

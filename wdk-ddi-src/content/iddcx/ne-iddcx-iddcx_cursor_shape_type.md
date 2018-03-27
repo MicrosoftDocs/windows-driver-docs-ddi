@@ -54,18 +54,6 @@ req.typenames:
                 
 
 
-## -syntax
-
-
-````
-typedef enum _IDDCX_CURSOR_SHAPE_TYPE { 
-  IDDCX_CURSOR_SHAPE_TYPE_UNINITIALIZED  = 0,
-  IDDCX_CURSOR_SHAPE_TYPE_MASKED_COLOR   = 1,
-  IDDCX_CURSOR_SHAPE_TYPE_ALPHA          = 2
-} IDDCX_CURSOR_SHAPE_TYPE;
-````
-
-
 ## -enum-fields
 
 

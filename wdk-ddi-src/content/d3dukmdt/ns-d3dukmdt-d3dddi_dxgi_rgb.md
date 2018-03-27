@@ -52,18 +52,6 @@ req.typenames: D3DDDI_DXGI_RGB
 The D3DDDI_DXGI_RGB structure contains information to describe a gamma function.
 
 
-## -syntax
-
-
-````
-typedef struct D3DDDI_DXGI_RGB {
-  float Red;
-  float Green;
-  float Blue;
-} D3DDDI_DXGI_RGB;
-````
-
-
 ## -struct-fields
 
 
@@ -86,10 +74,10 @@ A FLOAT value that is used to describe the gamma function for the blue color cha
 
 ## -see-also
 
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_gamma_ramp_dxgi_1.md">D3DDDI_GAMMA_RAMP_DXGI_1</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544568">D3DDDI_GAMMA_RAMP_DXGI_1</a>
  
 
  

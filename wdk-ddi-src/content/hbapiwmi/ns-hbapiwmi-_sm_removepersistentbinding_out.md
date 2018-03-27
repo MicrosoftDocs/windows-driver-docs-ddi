@@ -52,16 +52,6 @@ req.typenames: SM_RemovePersistentBinding_OUT, *PSM_RemovePersistentBinding_OUT
 The SM_REmovePersistentBinding_OUT structure is used to receive output parameters from the SM_RemovePersistentBinding method.
 
 
-## -syntax
-
-
-````
-typedef struct _SM_RemovePersistentBinding_OUT {
-  ULONG HBAStatus;
-} SM_RemovePersistentBinding_OUT, *PSM_RemovePersistentBinding_OUT;
-````
-
-
 ## -struct-fields
 
 

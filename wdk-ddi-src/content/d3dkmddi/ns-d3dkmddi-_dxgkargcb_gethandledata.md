@@ -52,18 +52,6 @@ req.typenames: DXGKARGCB_GETHANDLEDATA
 The DXGKARGCB_GETHANDLEDATA structure describes a handle to private data.
 
 
-## -syntax
-
-
-````
-typedef struct _DXGKARGCB_GETHANDLEDATA {
-  D3DKMT_HANDLE             hObject;
-  DXGK_HANDLE_TYPE          Type;
-  DXGKCB_GETHANDLEDATAFLAGS Flags;
-} DXGKARGCB_GETHANDLEDATA;
-````
-
-
 ## -struct-fields
 
 
@@ -99,7 +87,7 @@ DXGK_HANDLE_RESOURCE (2)
 
 </td>
 <td>
-The <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createallocation.md">DxgkDdiCreateAllocation</a> call is the result of the creation of the primary surface.
+The <a href="https://msdn.microsoft.com/a28287d6-4dfa-4db4-92df-bbcd9379a5b2">DxgkDdiCreateAllocation</a> call is the result of the creation of the primary surface.
 
 </td>
 </tr>
@@ -109,23 +97,23 @@ The <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createallocation.md">DxgkDdiCreateA
 
 ### -field Flags
 
-[in] A <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkcb_gethandledataflags.md">DXGKCB_GETHANDLEDATAFLAGS</a> structure that indicates if allocations belong to a resource.
+[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff559577">DXGKCB_GETHANDLEDATAFLAGS</a> structure that indicates if allocations belong to a resource.
 
 
 ## -see-also
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_gethandledata.md">DxgkCbGetHandleData</a>
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkcb_gethandledataflags.md">DXGKCB_GETHANDLEDATAFLAGS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559577">DXGKCB_GETHANDLEDATAFLAGS</a>
 
 
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createallocation.md">DxgkDdiCreateAllocation</a>
+<a href="https://msdn.microsoft.com/144429e5-34e6-4416-980e-2838e8f9e415">DxgkCbGetHandleData</a>
 
 
 
+<a href="https://msdn.microsoft.com/a28287d6-4dfa-4db4-92df-bbcd9379a5b2">DxgkDdiCreateAllocation</a>
  
 
  

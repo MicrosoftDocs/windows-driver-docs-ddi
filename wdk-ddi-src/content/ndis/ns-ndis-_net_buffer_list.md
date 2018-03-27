@@ -50,30 +50,7 @@ req.typenames: NET_BUFFER_LIST, *PNET_BUFFER_LIST, NET_BUFFER_LIST, *PNET_BUFFER
 
 
 The NET_BUFFER_LIST structure specifies a linked list of 
-  <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a> structures.
-
-
-## -syntax
-
-
-````
-typedef struct _NET_BUFFER_LIST {
-  NET_BUFFER_LIST_HEADER   NetBufferListHeader;
-  PNET_BUFFER_LIST_CONTEXT Context;
-  PNET_BUFFER_LIST         ParentNetBufferList;
-  NDIS_HANDLE              NdisPoolHandle;
-  PVOID                    NdisReserved[2];
-  PVOID                    ProtocolReserved[4];
-  PVOID                    MiniportReserved[2];
-  PVOID                    Scratch;
-  NDIS_HANDLE              SourceHandle;
-  ULONG                    NblFlags;
-  LONG                     ChildRefCount;
-  ULONG                    Flags;
-  NDIS_STATUS              Status;
-  PVOID                    NetBufferListInfo[MaxNetBufferListInfo];
-} NET_BUFFER_LIST, *PNET_BUFFER_LIST;
-````
+  <a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a> structures.
 
 
 ## -struct-fields
@@ -94,7 +71,7 @@ typedef struct _NET_BUFFER_LIST {
 ### -field Context
 
 A pointer to a 
-      <a href="..\ndis\ns-ndis-_net_buffer_list_context.md">NET_BUFFER_LIST_CONTEXT</a> structure.
+      <a href="https://msdn.microsoft.com/library/windows/hardware/ff568389">NET_BUFFER_LIST_CONTEXT</a> structure.
       Protocol and miniport drivers use this structure to store information about the NET_BUFFER_LIST
       structure. Information stored in the NET_BUFFER_LIST_CONTEXT structure is opaque to NDIS and other
       drivers in the stack.
@@ -102,12 +79,12 @@ A pointer to a
 Use the following functions and macros to access data in the NET_BUFFER_LIST_CONTEXT structure:
 
 
-<a href="..\ndis\nf-ndis-ndisallocatenetbufferlistcontext.md">
+<a href="https://msdn.microsoft.com/3bbad723-86bf-4206-9e51-52a66efaec20">
          NdisAllocateNetBufferListContext</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisfreenetbufferlistcontext.md">
+<a href="https://msdn.microsoft.com/e5554790-a7a2-4c0d-a6ae-585ea909cd3d">
          NdisFreeNetBufferListContext</a>
 
 
@@ -127,7 +104,7 @@ Use the following functions and macros to access data in the NET_BUFFER_LIST_CON
 If this NET_BUFFER_LIST structure is a clone of another NET_BUFFER_LIST structure, this member
      specifies a pointer to the parent NET_BUFFER_LIST structure. Otherwise, this parameter is <b>NULL</b>. A driver
      uses the 
-     <a href="..\ndis\nf-ndis-ndisallocateclonenetbufferlist.md">
+     <a href="https://msdn.microsoft.com/357605a1-5c57-44ed-97b3-f466f9a7182c">
      NdisAllocateCloneNetBufferList</a> function to create a clone.
 
 
@@ -173,7 +150,7 @@ A handle that NDIS provided to the driver in a binding or attaching operation by
 #### Miniport Driver
 
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+<a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a>
 
 
 
@@ -181,7 +158,7 @@ A handle that NDIS provided to the driver in a binding or attaching operation by
 #### Protocol Driver
 
 
-<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
+<a href="https://msdn.microsoft.com/1958722e-012e-4110-a82c-751744bcf9b5">ProtocolBindAdapterEx</a>
 
 
 
@@ -189,7 +166,7 @@ A handle that NDIS provided to the driver in a binding or attaching operation by
 #### Filter Driver
 
 
-<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540442">FilterAttach</a>
 
 
 NDIS uses 
@@ -320,7 +297,7 @@ Attributes of the NET_BUFFER_LIST structure. The following definitions specify a
 
 This set is reserved for protocol drivers.
 
-<div class="alert"><b>Note</b>  Starting with NDIS 6.30, two additional bits are available for protocol use: 0x00000003.  A NDIS 6.30 protocol may use these bits if and only if <a href="..\ndis\nf-ndis-ndisgetversion.md">NdisGetVersion</a> returns a value greater than or equal to <b>NDIS_RUNTIME_VERSION_630</b>.  Protocols must not use these bits on earlier versions of NDIS, because prior to 6.30, NDIS uses them internally.</div>
+<div class="alert"><b>Note</b>  Starting with NDIS 6.30, two additional bits are available for protocol use: 0x00000003.  A NDIS 6.30 protocol may use these bits if and only if <a href="https://msdn.microsoft.com/library/windows/hardware/ff562680">NdisGetVersion</a> returns a value greater than or equal to <b>NDIS_RUNTIME_VERSION_630</b>.  Protocols must not use these bits on earlier versions of NDIS, because prior to 6.30, NDIS uses them internally.</div>
 <div> </div>
 
 
@@ -349,7 +326,7 @@ An array of values containing information that is common to all NET_BUFFER struc
      This information is often referred to as "out-of-band (OOB) data."
 
 Use the 
-     <a href="..\ndis\ne-ndis-_ndis_net_buffer_list_info.md">
+     <a href="https://msdn.microsoft.com/79327b2b-e97b-42dc-8d15-9d774c424cae">
      NDIS_NET_BUFFER_LIST_INFO</a> enumeration values with the 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff568401">NET_BUFFER_LIST_INFO</a> macro to set and
      get values in the 
@@ -359,7 +336,7 @@ Use the
 #### - NetBufferListHeader
 
 A 
-     <a href="..\ndis\ns-ndis-_net_buffer_list_header.md">
+     <a href="https://msdn.microsoft.com/49169618-c42d-4bae-b1df-1426059d60d7">
      NET_BUFFER_LIST_HEADER</a> structure.
 
 
@@ -367,7 +344,7 @@ A
 
 The final completion status of a network data operation on this NET_BUFFER_LIST structure.
      Miniport drivers write this value before calling the 
-     <a href="..\ndis\nf-ndis-ndismsendnetbufferlistscomplete.md">
+     <a href="https://msdn.microsoft.com/33890582-5eba-4cc1-a0d9-ec07f18da453">
      NdisMSendNetBufferListsComplete</a> function. Miniport drivers specify one of the following values:
      
 
@@ -405,7 +382,7 @@ This send request for this NET_BUFFER_LIST structure failed due to some reason o
 #### NDIS_STATUS_SEND_ABORTED
 
 NDIS called the 
-       <a href="..\ndis\nc-ndis-miniport_cancel_send.md">MiniportCancelSend</a> function to
+       <a href="https://msdn.microsoft.com/17111aa3-c02f-494a-af97-5ab34c152451">MiniportCancelSend</a> function to
        cancel the send operation for this NET_BUFFER_LIST structure.
 
 
@@ -430,26 +407,26 @@ NDIS drivers can call any of the following functions to allocate and initialize 
     structure:
 
 
-<a href="..\ndis\nf-ndis-ndisallocatenetbufferlist.md">NdisAllocateNetBufferList</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561609">NdisAllocateNetBufferList</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisallocatenetbufferandnetbufferlist.md">
+<a href="https://msdn.microsoft.com/b872eff3-2d0a-4f01-874d-e00e09195801">
        NdisAllocateNetBufferAndNetBufferList</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisallocateclonenetbufferlist.md">
+<a href="https://msdn.microsoft.com/357605a1-5c57-44ed-97b3-f466f9a7182c">
        NdisAllocateCloneNetBufferList</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisallocatefragmentnetbufferlist.md">
+<a href="https://msdn.microsoft.com/40b6596b-7ab8-4336-8c38-21b9f32d8558">
        NdisAllocateFragmentNetBufferList</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisallocatereassemblednetbufferlist.md">
+<a href="https://msdn.microsoft.com/6a7fcb43-93bf-4351-8198-1d788b1bcc8c">
        NdisAllocateReassembledNetBufferList</a>
 
 
@@ -459,8 +436,8 @@ All NET_BUFFER structures associated with a NET_BUFFER_LIST structure have the a
     <b>Context</b> members.
 
 When a driver calls the 
-    <a href="..\ndis\nf-ndis-ndissendnetbufferlists.md">NdisSendNetBufferLists</a> or 
-    <a href="..\ndis\nf-ndis-ndisfsendnetbufferlists.md">NdisFSendNetBufferLists</a> function,
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff564535">NdisSendNetBufferLists</a> or 
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff562616">NdisFSendNetBufferLists</a> function,
     it loses ownership of:
 
 <ul>
@@ -470,7 +447,7 @@ The specified NET_BUFFER_LIST structure.
 </li>
 <li>
 The attached 
-      <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a> structures and MDLs.
+      <a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a> structures and MDLs.
 
 </li>
 <li>
@@ -536,7 +513,7 @@ To access members of the NET_BUFFER_LIST structure, use the following macros and
 
 
 
-<a href="..\ndis\nf-ndis-ndisgetpoolfromnetbufferlist.md">
+<a href="https://msdn.microsoft.com/645fd5f6-32b5-4ef6-9583-1418291d55d3">
        NdisGetPoolFromNetBufferList</a>
 
 
@@ -548,36 +525,18 @@ For more information on how to use net buffers, see
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568411">NET_BUFFER_LIST_STATUS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564620">NdisTestNblFlag</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566569">NDIS_NET_BUFFER_LIST_INFO</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisallocatenetbufferlistcontext.md">
-   NdisAllocateNetBufferListContext</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568394">NET_BUFFER_LIST_FIRST_NB</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndiscancelsendnetbufferlists.md">NdisCancelSendNetBufferLists</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisgeneratepartialcancelid.md">NdisGeneratePartialCancelId</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568404">NET_BUFFER_LIST_NEXT_NBL</a>
-
-
-
-<a href="..\ndis\ne-ndis-_ndis_net_buffer_list_info.md">NDIS_NET_BUFFER_LIST_INFO</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568389">NET_BUFFER_LIST_CONTEXT</a>
 
 
 
@@ -586,41 +545,24 @@ For more information on how to use net buffers, see
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568395">NET_BUFFER_LIST_FLAGS</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564626">NdisTestNblFlags</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisallocatenetbufferandnetbufferlist.md">
-   NdisAllocateNetBufferAndNetBufferList</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisfreenetbufferlistcontext.md">NdisFreeNetBufferListContext</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561630">NdisClearNblFlag</a>
-
-
-
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff568391">
    NET_BUFFER_LIST_CONTEXT_DATA_START</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568394">NET_BUFFER_LIST_FIRST_NB</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568395">NET_BUFFER_LIST_FLAGS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568400">NET_BUFFER_LIST_HEADER</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568401">NET_BUFFER_LIST_INFO</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564542">NdisSetNblFlag</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisallocatenetbufferlist.md">NdisAllocateNetBufferList</a>
 
 
 
@@ -629,16 +571,7 @@ For more information on how to use net buffers, see
 
 
 
-<a href="..\ndis\ns-ndis-_net_buffer_list_header.md">NET_BUFFER_LIST_HEADER</a>
-
-
-
-<a href="..\ndis\ns-ndis-_net_buffer_list_context.md">NET_BUFFER_LIST_CONTEXT</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisallocatefragmentnetbufferlist.md">
-   NdisAllocateFragmentNetBufferList</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568404">NET_BUFFER_LIST_NEXT_NBL</a>
 
 
 
@@ -647,28 +580,72 @@ For more information on how to use net buffers, see
 
 
 
-<a href="..\ndis\nf-ndis-ndissendnetbufferlists.md">NdisSendNetBufferLists</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568411">NET_BUFFER_LIST_STATUS</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisallocateclonenetbufferlist.md">
+<a href="https://msdn.microsoft.com/357605a1-5c57-44ed-97b3-f466f9a7182c">
    NdisAllocateCloneNetBufferList</a>
 
 
 
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+<a href="https://msdn.microsoft.com/40b6596b-7ab8-4336-8c38-21b9f32d8558">
+   NdisAllocateFragmentNetBufferList</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisgetpoolfromnetbufferlist.md">NdisGetPoolFromNetBufferList</a>
+<a href="https://msdn.microsoft.com/b872eff3-2d0a-4f01-874d-e00e09195801">
+   NdisAllocateNetBufferAndNetBufferList</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisallocatereassemblednetbufferlist.md">
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561609">NdisAllocateNetBufferList</a>
+
+
+
+<a href="https://msdn.microsoft.com/3bbad723-86bf-4206-9e51-52a66efaec20">
+   NdisAllocateNetBufferListContext</a>
+
+
+
+<a href="https://msdn.microsoft.com/6a7fcb43-93bf-4351-8198-1d788b1bcc8c">
    NdisAllocateReassembledNetBufferList</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561623">NdisCancelSendNetBufferLists</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561630">NdisClearNblFlag</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562587">NdisFreeNetBufferListContext</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562623">NdisGeneratePartialCancelId</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562659">NdisGetPoolFromNetBufferList</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564535">NdisSendNetBufferLists</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564542">NdisSetNblFlag</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564620">NdisTestNblFlag</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564626">NdisTestNblFlags</a>
  
 
  

@@ -52,17 +52,6 @@ req.typenames: SetRADIUSSharedSecret_IN, *PSetRADIUSSharedSecret_IN
 The SetRADIUSSharedSecret_IN structure holds the input data for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565815">SetRADIUSSharedSecret</a> method.
 
 
-## -syntax
-
-
-````
-typedef struct _SetRADIUSSharedSecret_IN {
-  ULONG SharedSecretSize;
-  UCHAR SharedSecret[1];
-} SetRADIUSSharedSecret_IN, *PSetRADIUSSharedSecret_IN;
-````
-
-
 ## -struct-fields
 
 
@@ -89,14 +78,14 @@ You must implement this method.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565815">SetRADIUSSharedSecret</a>
 
 
 
-<a href="..\iscsiop\ns-iscsiop-_setradiussharedsecret_out.md">SetRADIUSSharedSecret_OUT</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565837">SetRADIUSSharedSecret_OUT</a>
  
 
  

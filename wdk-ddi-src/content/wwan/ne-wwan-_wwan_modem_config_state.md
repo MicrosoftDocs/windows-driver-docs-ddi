@@ -53,19 +53,6 @@ req.product: Windows 10 or later.
 The <b>WWAN_MODEM_CONFIG_STATE</b> enumeration lists definitions used by the modem to inform the OS about its modem configuration state.
 
 
-## -syntax
-
-
-````
-typedef enum _WWAN_MODEM_CONFIG_STATE { 
-  WwanModemConfigStateUnknown    = 0,
-  WwanModemConfigStatePending,
-  WwanModemConfigStateActivated,
-  WwanModemConfigStateMax
-} WWAN_MODEM_CONFIG_STATE, *PWWAN_MODEM_CONFIG_STATE;
-````
-
-
 ## -enum-fields
 
 
@@ -94,10 +81,10 @@ The maximum value for this enumeration. This value might change in future versio
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_modem_config_status.md">WWAN_MODEM_CONFIG_STATUS</a>
 
 
 
+<a href="https://msdn.microsoft.com/3A13CFBC-DBB4-4BB1-ABA4-AB145AED07AA">WWAN_MODEM_CONFIG_STATUS</a>
  
 
  

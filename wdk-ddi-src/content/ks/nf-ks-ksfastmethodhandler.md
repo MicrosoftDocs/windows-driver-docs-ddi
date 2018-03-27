@@ -53,23 +53,6 @@ req.typenames:
 The <b>KsFastMethodHandler</b> function handles fast methods requested through IOCTL_KS_METHOD. It responds to all method identifiers defined by the sets that are also contained in the fast I/O list. This function can only be called at PASSIVE_LEVEL.
 
 
-## -syntax
-
-
-````
-BOOLEAN KsFastMethodHandler(
-  _In_          PFILE_OBJECT     FileObject,
-  _In_          PKSMETHOD        Method,
-  _In_          ULONG            MethodLength,
-  _Inout_       PVOID            Data,
-  _In_          ULONG            DataLength,
-  _Out_         PIO_STATUS_BLOCK IoStatus,
-  _In_          ULONG            MethodSetsCount,
-  _In_    const KSMETHOD_SET     *MethodSet
-);
-````
-
-
 ## -parameters
 
 
@@ -135,10 +118,10 @@ The owner of a method set can perform prefiltering or postfiltering of the metho
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksmethodhandler.md">KsMethodHandler</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563399">KsMethodHandler</a>
  
 
  

@@ -53,22 +53,6 @@ The <b>NET_PNP_EVENT</b> structure describes a network Plug and Play (PnP) event
   power management event.
 
 
-## -syntax
-
-
-````
-typedef struct _NET_PNP_EVENT {
-  NET_PNP_EVENT_CODE NetEvent;
-  PVOID              Buffer;
-  ULONG              BufferLength;
-  ULONG_PTR          NdisReserved[4];
-  ULONG_PTR          TransportReserved[4];
-  ULONG_PTR          TdiReserved[4];
-  ULONG_PTR          TdiClientReserved[4];
-} NET_PNP_EVENT, *PNET_PNP_EVENT;
-````
-
-
 ## -struct-fields
 
 
@@ -124,7 +108,7 @@ Indicates that the configuration has changed for a network component. For exampl
        the 
        <b>NetEventReconfigure</b> event to the TCP/IP protocol. Also, an intermediate driver typically uses
        this event as a trigger to call the 
-       <a href="..\ndis\nf-ndis-ndisiminitializedeviceinstanceex.md">
+       <a href="https://msdn.microsoft.com/f65c2974-4bf4-4948-ac07-527e69c96303">
        NdisIMInitializeDeviceInstanceEx</a> function and start its virtual miniports. For more information
        about 
        <b>NetEventReconfigure</b>, see 
@@ -140,7 +124,7 @@ Indicates to a protocol driver that its bind list processing order has been reco
        list of device names that are formatted as null-terminated Unicode strings. The format of each device
        name is identical to the 
        <b>AdapterName</b> member that is passed to a call to the 
-       <a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a> function.
+       <a href="https://msdn.microsoft.com/1958722e-012e-4110-a82c-751744bcf9b5">ProtocolBindAdapterEx</a> function.
 
 
 
@@ -156,7 +140,7 @@ Indicates that a protocol driver has bound to all the NICs that it can bind to. 
 Indicates that the user enabled or disabled the wake-up capabilities of the underlying adapter.
        (The binding is specified by the 
        <i>ProtocolBindingContext</i> parameter that is passed to the 
-       <a href="..\ndis\nc-ndis-protocol_net_pnp_event.md">
+       <a href="https://msdn.microsoft.com/3f50bcba-c7d2-4d81-bd8b-6080e08fbe74">
        ProtocolNetPnPEvent</a> function.)
 
 
@@ -222,7 +206,7 @@ Indicates that NDK is currently disabled.
 
 #### NetEventFilterPreDetach
 
-Indicates that a filter is about to be detached, so that the filter can perform any necessary cleanup that isn't possible in the <a href="..\ndis\nc-ndis-filter_detach.md">FilterDetach</a> handler (because the OID and indication paths are closed at that time).
+Indicates that a filter is about to be detached, so that the filter can perform any necessary cleanup that isn't possible in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff540475">FilterDetach</a> handler (because the OID and indication paths are closed at that time).
 
 
 
@@ -234,7 +218,7 @@ Indicates that a binding event failure has occurred.
 
 #### NetEventSwitchActivate
 
-Indicates that the Hyper-V Extensible Switch has completed activation, and switch extensions can now safely query for further switch configuration. The indication is only used in the Hyper-V Extensible Switch stack, issued by the extension miniport. See <a href="https://msdn.microsoft.com/AF646860-01AB-4F4B-84F8-B570054B10FC">Querying the Hyper-V Extensible Switch Configuration</a> and <a href="..\ntddndis\ns-ntddndis-_ndis_switch_parameters.md">NDIS_SWITCH_PARAMETERS</a> for more details. 
+Indicates that the Hyper-V Extensible Switch has completed activation, and switch extensions can now safely query for further switch configuration. The indication is only used in the Hyper-V Extensible Switch stack, issued by the extension miniport. See <a href="https://msdn.microsoft.com/AF646860-01AB-4F4B-84F8-B570054B10FC">Querying the Hyper-V Extensible Switch Configuration</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/hh598220">NDIS_SWITCH_PARAMETERS</a> for more details. 
 
 
 
@@ -244,7 +228,7 @@ A synchronous event that prevents other filters and protocols from binding to th
 
 <ul>
 <li>Avoid leaving the miniport adapter in the inhibit state, for longer than 1000 milliseconds.</li>
-<li>This event can only be issued after <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a> begins and must not be issued after <a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a> returns.</li>
+<li>This event can only be issued after <a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a> begins and must not be issued after <a href="https://msdn.microsoft.com/b8d452b4-bef3-4991-87cf-fac15bedfde4">MiniportHaltEx</a> returns.</li>
 <li>This event can only be issued when the miniport adapter is in a D0 state.</li>
 <li>Because this event is blocking, it should not be issued by any context that would cause a deadlock.</li>
 <li>Locks must not be held while issuing this event.</li>
@@ -260,7 +244,7 @@ and must be used with V2 or later version of <b>NET_PNP_EVENT</b>. This event ca
 An asynchronous event that reverses the effects of NetEventInhibitBindsAbove. The usage rules are below.
 
 <ul>
-<li>This event can only be issued after <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a> begins and must not be issued after <a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a> returns.</li>
+<li>This event can only be issued after <a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a> begins and must not be issued after <a href="https://msdn.microsoft.com/b8d452b4-bef3-4991-87cf-fac15bedfde4">MiniportHaltEx</a> returns.</li>
 <li>This event can only be issued when the miniport adapter is in a D0 state.</li>
 <li>Locks must not be held while issuing this event.</li>
 <li>This event must be issued at PASSIVE_LEVEL.</li>
@@ -271,12 +255,12 @@ This event is available starting with NDIS version 6.50 and must be used with V2
 
 #### NetEventRequirePause
 
-A synchronous event that indicates the protocols and filters including the miniport adapter must be paused. The protocols and filters and the miniport adapter are guaranteed to be paused when the <a href="..\ndis\nf-ndis-ndismnetpnpevent.md">NdisMNetPnPEvent</a> routine returns. The usage rules are below.
+A synchronous event that indicates the protocols and filters including the miniport adapter must be paused. The protocols and filters and the miniport adapter are guaranteed to be paused when the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563616">NdisMNetPnPEvent</a> routine returns. The usage rules are below.
 
 <ul>
 <li>Avoid delaying between NetEventAllowStart and NetEventRequirePause events for longer than 1000 milliseconds to prevent delay in user applications.</li>
-<li>This event can only be issued after <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a> begins and must not be issued after <a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a> returns.</li>
-<li>There is no guarantee that NDIS will call <a href="..\ndis\nc-ndis-miniport_pause.md">MiniportPause</a> after this event is issued. In particular, if your miniport adapter is already paused, NDIS won't introduce an extra start-pause loop. This means that the amount of times <i>MiniportPause</i> called is not greater than, less than, or equal to the amount this event is issued.</li>
+<li>This event can only be issued after <a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a> begins and must not be issued after <a href="https://msdn.microsoft.com/b8d452b4-bef3-4991-87cf-fac15bedfde4">MiniportHaltEx</a> returns.</li>
+<li>There is no guarantee that NDIS will call <a href="https://msdn.microsoft.com/047241a5-6f52-4a82-a334-8508f0de5e1a">MiniportPause</a> after this event is issued. In particular, if your miniport adapter is already paused, NDIS won't introduce an extra start-pause loop. This means that the amount of times <i>MiniportPause</i> called is not greater than, less than, or equal to the amount this event is issued.</li>
 <li>Because this event is blocking, it should not be issued by any context that would cause a deadlock.</li>
 <li>Locks must not be held while issuing this event.</li>
 </ul>
@@ -286,10 +270,10 @@ This event is available starting with NDIS version 6.50 and must be used with V2
 
 #### NetEventAllowStart
 
-An asynchronous event that indicates the protocols and filters including the miniport adapter does not need to be paused. The usage rules are below. There is no guaranteed pause state for any driver in the protocols and filters after the <a href="..\ndis\nf-ndis-ndismnetpnpevent.md">NdisMNetPnPEvent</a> routine returns. 
+An asynchronous event that indicates the protocols and filters including the miniport adapter does not need to be paused. The usage rules are below. There is no guaranteed pause state for any driver in the protocols and filters after the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563616">NdisMNetPnPEvent</a> routine returns. 
 
 <ul>
-<li>This event can only be issued after <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a> begins and must not be issued after <a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a> returns.</li>
+<li>This event can only be issued after <a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a> begins and must not be issued after <a href="https://msdn.microsoft.com/b8d452b4-bef3-4991-87cf-fac15bedfde4">MiniportHaltEx</a> returns.</li>
 <li>Because this event is blocking, it should not be issued by any context that would cause a deadlock.</li>
 <li>Locks must not be held while issuing this event.</li>
 </ul>
@@ -312,7 +296,7 @@ The buffer contains the device power state to which the device is transitioning.
        
 
 When NDIS calls a protocol driver's 
-       <a href="..\ndis\nc-ndis-protocol_net_pnp_event.md">ProtocolNetPnPEvent</a> function,
+       <a href="https://msdn.microsoft.com/3f50bcba-c7d2-4d81-bd8b-6080e08fbe74">ProtocolNetPnPEvent</a> function,
        the device state is NDIS_DEVICE_POWER_STATE, which can be one of the following values:
 
 
@@ -390,7 +374,7 @@ The buffer can contain protocol-specific data. The protocol driver is responsibl
 #### NetEventBindList
 
 The buffer contains a revised binding list for the network component that the 
-       <a href="..\ndis\ns-ndis-_net_pnp_event_notification.md">
+       <a href="https://msdn.microsoft.com/58d3baf3-a1fa-42ae-b795-2774a148aeda">
        NET_PNP_EVENT_NOTIFICATION</a> structure is being passed to. The bind list, which is a series of
        null-terminated Unicode strings, has a REG_MULTI_SZ format. Each of the strings is an adapter name.
        TDI clients that are bound to a protocol use this bind list to reorder their bindings. The protocol
@@ -410,7 +394,7 @@ The buffer is a ULONG that contains a bitmask. When the NDIS_DEVICE_WAKE_UP_ENAB
        in the bitmask, the wake-up capabilities of the NIC are enabled. Otherwise, the NIC's wake-up
        capabilities are disabled. (The binding is specified by the 
        <i>ProtocolBindingContext</i> parameter that is passed to 
-       <a href="..\ndis\nc-ndis-protocol_net_pnp_event.md">ProtocolNetPnPEvent</a>.) When set
+       <a href="https://msdn.microsoft.com/3f50bcba-c7d2-4d81-bd8b-6080e08fbe74">ProtocolNetPnPEvent</a>.) When set
        to zero, this flag indicates that the NIC's wake-up capabilities are disabled.
 
 
@@ -418,7 +402,7 @@ The buffer is a ULONG that contains a bitmask. When the NDIS_DEVICE_WAKE_UP_ENAB
 #### NetEventPause
 
 The buffer contains an 
-       <a href="..\ndis\ns-ndis-_ndis_protocol_pause_parameters.md">
+       <a href="https://msdn.microsoft.com/7754d47f-9e21-44c7-8a6f-141d18623ddf">
        NDIS_PROTOCOL_PAUSE_PARAMETERS</a> structure.
 
 
@@ -426,9 +410,9 @@ The buffer contains an
 #### NetEventRestart
 
 The buffer might contain NULL or an 
-       <a href="..\ndis\ns-ndis-_ndis_protocol_restart_parameters.md">
+       <a href="https://msdn.microsoft.com/722287da-e0ee-41d5-b85a-0ec55eac41b9">
        NDIS_PROTOCOL_RESTART_PARAMETERS</a> structure. NDIS provides a pointer to an 
-       <a href="..\ndis\ns-ndis-_ndis_restart_attributes.md">NDIS_RESTART_ATTRIBUTES</a> structure
+       <a href="https://msdn.microsoft.com/library/windows/hardware/ff567255">NDIS_RESTART_ATTRIBUTES</a> structure
        in the 
        <b>RestartAttributes</b> member of the NDIS_PROTOCOL_RESTART_PARAMETERS structure. 
 
@@ -439,7 +423,7 @@ The buffer might contain NULL or an
 #### NetEventPortActivation
 
 The buffer contains the first entry in a list of 
-       <a href="..\ntddndis\ns-ntddndis-_ndis_port.md">NDIS_PORT</a> structures that identify the ports
+       <a href="https://msdn.microsoft.com/library/windows/hardware/ff566769">NDIS_PORT</a> structures that identify the ports
        that NDIS will activate. You can use the 
        <b>Next</b> member of the NDIS_PORT structure to get the next structure in the list.
 
@@ -452,7 +436,7 @@ The buffer contains an array of port numbers, of type NDIS_PORT_NUMBER (defined 
        divide the value of the 
        <b>BufferLength</b> member, which is in the <b>NET_PNP_EVENT</b> structure that is specified in the 
        <b>NetPnPEvent</b> member of 
-       <a href="..\ndis\ns-ndis-_net_pnp_event_notification.md">NET_PNP_EVENT_NOTIFICATION</a>,
+       <a href="https://msdn.microsoft.com/library/windows/hardware/ff568752">NET_PNP_EVENT_NOTIFICATION</a>,
        by 
        sizeof(NDIS_PORT_NUMBER).
 
@@ -487,7 +471,7 @@ The <b>Buffer</b> member is <b>NULL</b>.
 
 #### NetEventBindFailed
 
-The buffer contains an <a href="..\ndis\ns-ndis-_ndis_bind_failed_notification.md">NDIS_BIND_FAILED_NOTIFICATION</a> structure.
+The buffer contains an <a href="https://msdn.microsoft.com/library/windows/hardware/jj879315">NDIS_BIND_FAILED_NOTIFICATION</a> structure.
 
 
 
@@ -553,35 +537,35 @@ An area reserved for used by a TDI client.
 In NDIS 6.0 and later versions, when the operating system issues a system PnP event or a power
     management event to a target device object that represents a miniport adapter, NDIS translates the event
     into a 
-    <a href="..\ndis\ns-ndis-_net_pnp_event_notification.md">
+    <a href="https://msdn.microsoft.com/58d3baf3-a1fa-42ae-b795-2774a148aeda">
     NET_PNP_EVENT_NOTIFICATION</a> structure. The 
     <b>NetPnPEvent</b> member of the <b>NET_PNP_EVENT_NOTIFICATION</b> structure is a <b>NET_PNP_EVENT</b> structure.
 
 NDIS passes a pointer to the <b>NET_PNP_EVENT</b> structure to each protocol driver that is bound to the
     miniport adapter by calling the protocol driver's 
-    <a href="..\ndis\nc-ndis-protocol_net_pnp_event.md">ProtocolNetPnPEvent</a> function. The
+    <a href="https://msdn.microsoft.com/3f50bcba-c7d2-4d81-bd8b-6080e08fbe74">ProtocolNetPnPEvent</a> function. The
     protocol driver should save this pointer, because the pointer is an input parameter to the 
-    <a href="..\ndis\nf-ndis-ndiscompletenetpnpevent.md">NdisCompleteNetPnPEvent</a> function,
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561705">NdisCompleteNetPnPEvent</a> function,
     which the driver calls to complete the call to 
     <i>ProtocolNetPnPEvent</i> asynchronously.
 
 NDIS passes a pointer to the <b>NET_PNP_EVENT</b> structure to each filter driver that is bound to the
     miniport adapter by calling the filter driver's 
-    <a href="..\ndis\nc-ndis-filter_net_pnp_event.md">FilterNetPnPEvent</a> function. The
+    <a href="https://msdn.microsoft.com/5c52b2d2-3fba-4d28-8172-7b6854386061">FilterNetPnPEvent</a> function. The
     filter driver does not have to save this pointer because the driver must complete the call to 
     <i>FilterNetPnPEvent</i> synchronously.
 
-Starting with NDIS 6.30, the  protocol or filter driver must follow these guidelines when NDIS calls the <a href="..\ndis\nc-ndis-protocol_net_pnp_event.md">ProtocolNetPnPEvent</a> or <a href="..\ndis\nc-ndis-filter_net_pnp_event.md">FilterNetPnPEvent</a> functions:
+Starting with NDIS 6.30, the  protocol or filter driver must follow these guidelines when NDIS calls the <a href="https://msdn.microsoft.com/3f50bcba-c7d2-4d81-bd8b-6080e08fbe74">ProtocolNetPnPEvent</a> or <a href="https://msdn.microsoft.com/5c52b2d2-3fba-4d28-8172-7b6854386061">FilterNetPnPEvent</a> functions:
 
 <ul>
 <li>
 If the <b>NetEvent</b> member of the <b>NET_PNP_EVENT</b> structure is set to <b>NetEventSetPower</b>, the driver must stop generating new I/O requests. Also, the driver must not wait for the completion of any pending I/O requests.
 
-After the protocol or filter driver  returns from <a href="..\ndis\nc-ndis-protocol_net_pnp_event.md">ProtocolNetPnPEvent</a> or <a href="..\ndis\nc-ndis-filter_net_pnp_event.md">FilterNetPnPEvent</a>, NDIS will not pause and restart these drivers during power-state transitions if the following conditions are true:
+After the protocol or filter driver  returns from <a href="https://msdn.microsoft.com/3f50bcba-c7d2-4d81-bd8b-6080e08fbe74">ProtocolNetPnPEvent</a> or <a href="https://msdn.microsoft.com/5c52b2d2-3fba-4d28-8172-7b6854386061">FilterNetPnPEvent</a>, NDIS will not pause and restart these drivers during power-state transitions if the following conditions are true:
 
 <ul>
 <li>
-The underlying miniport driver sets the <b>NDIS_MINIPORT_ATTRIBUTES_NO_PAUSE_ON_SUSPEND</b> flag in the <a href="..\ndis\ns-ndis-_ndis_miniport_adapter_registration_attributes.md">NDIS_MINIPORT_ADAPTER_REGISTRATION_ATTRIBUTES</a> structure. The driver passes a pointer to this structure in its call to the <a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a> function.
+The underlying miniport driver sets the <b>NDIS_MINIPORT_ATTRIBUTES_NO_PAUSE_ON_SUSPEND</b> flag in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565934">NDIS_MINIPORT_ADAPTER_REGISTRATION_ATTRIBUTES</a> structure. The driver passes a pointer to this structure in its call to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563672">NdisMSetMiniportAttributes</a> function.
 
 
 </li>
@@ -610,61 +594,61 @@ The
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_ndis_protocol_pause_parameters.md">
+
+
+
+<a href="https://msdn.microsoft.com/5c52b2d2-3fba-4d28-8172-7b6854386061">FilterNetPnPEvent</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj879315">NDIS_BIND_FAILED_NOTIFICATION</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566769">NDIS_PORT</a>
+
+
+
+<a href="https://msdn.microsoft.com/7754d47f-9e21-44c7-8a6f-141d18623ddf">
    NDIS_PROTOCOL_PAUSE_PARAMETERS</a>
 
 
 
-<a href="..\ndis\ns-ndis-_net_pnp_event_notification.md">NET_PNP_EVENT_NOTIFICATION</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisiminitializedeviceinstanceex.md">
-   NdisIMInitializeDeviceInstanceEx</a>
-
-
-
-<a href="..\ndis\nc-ndis-filter_net_pnp_event.md">FilterNetPnPEvent</a>
-
-
-
-<a href="..\ndis\ns-ndis-_ndis_restart_attributes.md">NDIS_RESTART_ATTRIBUTES</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndiscompletenetpnpevent.md">NdisCompleteNetPnPEvent</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_switch_parameters.md">NDIS_SWITCH_PARAMETERS</a>
-
-
-
-<a href="https://msdn.microsoft.com/AF646860-01AB-4F4B-84F8-B570054B10FC">Querying the Hyper-V Extensible Switch Configuration</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_port.md">NDIS_PORT</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_net_pnp_event.md">ProtocolNetPnPEvent</a>
-
-
-
-<a href="..\ndis\ns-ndis-_ndis_bind_failed_notification.md">NDIS_BIND_FAILED_NOTIFICATION</a>
-
-
-
-<a href="..\ndis\ns-ndis-_ndis_protocol_restart_parameters.md">
+<a href="https://msdn.microsoft.com/722287da-e0ee-41d5-b85a-0ec55eac41b9">
    NDIS_PROTOCOL_RESTART_PARAMETERS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567255">NDIS_RESTART_ATTRIBUTES</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh598220">NDIS_SWITCH_PARAMETERS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568752">NET_PNP_EVENT_NOTIFICATION</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561705">NdisCompleteNetPnPEvent</a>
+
+
+
+<a href="https://msdn.microsoft.com/f65c2974-4bf4-4948-ac07-527e69c96303">
+   NdisIMInitializeDeviceInstanceEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/1958722e-012e-4110-a82c-751744bcf9b5">ProtocolBindAdapterEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/3f50bcba-c7d2-4d81-bd8b-6080e08fbe74">ProtocolNetPnPEvent</a>
+
+
+
+<a href="https://msdn.microsoft.com/AF646860-01AB-4F4B-84F8-B570054B10FC">Querying the Hyper-V Extensible Switch Configuration</a>
  
 
  

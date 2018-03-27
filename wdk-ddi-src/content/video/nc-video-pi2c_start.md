@@ -53,20 +53,6 @@ req.product: Windows 10 or later.
 The <i>I2CStart</i> function starts <a href="https://msdn.microsoft.com/5a140cc0-ecc5-46ff-be3f-3c92f0f67dca">I2C</a> communication.
 
 
-## -prototype
-
-
-````
-PI2C_START I2CStart;
-
-BOOLEAN I2CStart(
-  _In_ PVOID          HwDeviceExtension,
-  _In_ PI2C_CALLBACKS I2CCallbacks
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -79,7 +65,7 @@ Pointer to the miniport driver's per-adapter device extension.
 
 ### -param I2CCallbacks [in]
 
-Pointer to an <a href="..\video\ns-video-_i2c_callbacks.md">I2C_CALLBACKS</a> structure, containing pointers to miniport driver-defined functions that read and write data and clock lines.
+Pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff567382">I2C_CALLBACKS</a> structure, containing pointers to miniport driver-defined functions that read and write data and clock lines.
 
 
 ## -returns
@@ -95,17 +81,17 @@ Pointer to an <a href="..\video\ns-video-_i2c_callbacks.md">I2C_CALLBACKS</a> st
 
 
 
-The video port implements this function, which can be accessed through a pointer in the <a href="..\video\ns-video-_video_port_i2c_interface.md">VIDEO_PORT_I2C_INTERFACE</a> structure. 
+The video port implements this function, which can be accessed through a pointer in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff570538">VIDEO_PORT_I2C_INTERFACE</a> structure. 
 
 
 
 
 ## -see-also
 
-<a href="..\video\ns-video-_video_port_i2c_interface.md">VIDEO_PORT_I2C_INTERFACE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570538">VIDEO_PORT_I2C_INTERFACE</a>
  
 
  

@@ -52,22 +52,6 @@ req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
 The <b>pfnAssignMultisamplingMethodSet</b> function assigns a set of multisampling methods to a particular video present source in a specified VidPN.
 
 
-## -prototype
-
-
-````
-DXGKDDI_VIDPN_ASSIGNMULTISAMPLINGMETHODSET pfnAssignMultisamplingMethodSet;
-
-NTSTATUS APIENTRY pfnAssignMultisamplingMethodSet(
-  _In_       D3DKMDT_HVIDPN                 hVidPn,
-  _In_ const D3DDDI_VIDEO_PRESENT_SOURCE_ID VidPnSourceId,
-  _In_ const SIZE_T                         NumMethods,
-  _In_ const D3DDDI_MULTISAMPLINGMETHOD     *pSupportedMethodSet
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -75,7 +59,7 @@ NTSTATUS APIENTRY pfnAssignMultisamplingMethodSet(
 
 ### -param hVidPn [in]
 
-[in] A handle to a VidPN object. The VidPN manager previously provided this handle to the display miniport driver by calling <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_enumvidpncofuncmodality.md">DxgkDdiEnumVidPnCofuncModality</a>.
+[in] A handle to a VidPN object. The VidPN manager previously provided this handle to the display miniport driver by calling <a href="https://msdn.microsoft.com/6dda82bd-1a43-4ffe-b398-a9f8cee6d1c1">DxgkDdiEnumVidPnCofuncModality</a>.
 
 
 ### -param VidPnSourceId [in]
@@ -99,7 +83,7 @@ NTSTATUS APIENTRY pfnAssignMultisamplingMethodSet(
 
 #### - pSupportedMethodSet [in]
 
-[in] A pointer to an array of <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_multisamplingmethod.md">D3DDDI_MULTISAMPLINGMETHOD</a> structures, each of which describes a multisampling method.
+[in] A pointer to an array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff544594">D3DDDI_MULTISAMPLINGMETHOD</a> structures, each of which describes a multisampling method.
 
 
 ## -returns
@@ -167,10 +151,10 @@ This function might also return other error codes that are defined in Ntstatus.h
 
 ## -see-also
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_enumvidpncofuncmodality.md">DxgkDdiEnumVidPnCofuncModality</a>
 
 
 
+<a href="https://msdn.microsoft.com/6dda82bd-1a43-4ffe-b398-a9f8cee6d1c1">DxgkDdiEnumVidPnCofuncModality</a>
  
 
  

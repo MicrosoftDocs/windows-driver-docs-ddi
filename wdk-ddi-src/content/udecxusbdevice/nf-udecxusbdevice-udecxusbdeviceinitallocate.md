@@ -54,16 +54,6 @@ req.product: Windows 10 or later.
 Allocates memory for a  <b>UDECXUSBDEVICE_INIT</b> structure that is used to initialize a virtual USB device.
 
 
-## -syntax
-
-
-````
-FORCEINLINE PUDECXUSBDEVICE_INIT UdecxUsbDeviceInitAllocate(
-  _In_ WDFDEVICE UdecxWdfDevice
-);
-````
-
-
 ## -parameters
 
 
@@ -71,7 +61,7 @@ FORCEINLINE PUDECXUSBDEVICE_INIT UdecxUsbDeviceInitAllocate(
 
 ### -param UdecxWdfDevice [in]
 
-A handle to a framework device object that represents the a USB device. The client driver initialized this object in the previous call to <a href="..\udecxwdfdevice\nf-udecxwdfdevice-udecxwdfdeviceaddusbdeviceemulation.md">UdecxWdfDeviceAddUsbDeviceEmulation</a>.
+A handle to a framework device object that represents the a USB device. The client driver initialized this object in the previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/mt627990">UdecxWdfDeviceAddUsbDeviceEmulation</a>.
 
 
 ## -returns
@@ -87,14 +77,13 @@ This method returns a pointer to an opaque <b>UDECXUSBDEVICE_INIT</b> that conta
 
 
 
-The UDE client driver calls this method to allocate parameters for the virtual device that is created by a subsequent call to <a href="..\udecxusbdevice\nf-udecxusbdevice-udecxusbdevicecreate.md">UdecxUsbDeviceCreate</a>. If the device is not created or the driver is finished using the resources, the driver must free the resources by calling <a href="..\udecxusbdevice\nf-udecxusbdevice-udecxusbdeviceinitfree.md">UdecxUsbDeviceInitFree</a>.
+The UDE client driver calls this method to allocate parameters for the virtual device that is created by a subsequent call to <a href="https://msdn.microsoft.com/library/windows/hardware/mt595959">UdecxUsbDeviceCreate</a>. If the device is not created or the driver is finished using the resources, the driver must free the resources by calling <a href="https://msdn.microsoft.com/library/windows/hardware/mt627969">UdecxUsbDeviceInitFree</a>.
 
 
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
 
 
 
@@ -102,6 +91,7 @@ The UDE client driver calls this method to allocate parameters for the virtual d
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
  
 
  

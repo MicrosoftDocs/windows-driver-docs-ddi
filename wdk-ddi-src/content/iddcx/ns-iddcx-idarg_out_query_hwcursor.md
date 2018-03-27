@@ -53,20 +53,6 @@ req.typenames:
                  Gives information about the coordinates and shape of the current cursor.
 
 
-## -syntax
-
-
-````
-typedef struct DARG_OUT_QUERY_HWCURSOR {
-  BOOL                    IsCursorVisible;
-  INT                     X;
-  INT                     Y;
-  BOOL                    IsCursorShapeUpdated;
-  IDDCX_CURSOR_SHAPE_INFO CursorShapeInfo;
-} IDARG_OUT_QUERY_HWCURSOR, *IDARG_OUT_QUERY_HWCURSOR;
-````
-
-
 ## -struct-fields
 
 
@@ -98,7 +84,7 @@ typedef struct DARG_OUT_QUERY_HWCURSOR {
 ### -field IsCursorShapeUpdated
 
 
-                     [out] Indicates if the cursor shape has been updated since the last time the driver was called. If it has been updated, the OS updates the <b>CursorShapeInfo</b> structure and copies the new cursor image data into the <a href="..\iddcx\ns-iddcx-idarg_in_query_hwcursor.md">IDARG_IN_QUERY_HWCURSOR</a> buffer <b>pShapeBuffer</b>.
+                     [out] Indicates if the cursor shape has been updated since the last time the driver was called. If it has been updated, the OS updates the <b>CursorShapeInfo</b> structure and copies the new cursor image data into the <a href="https://msdn.microsoft.com/library/windows/hardware/mt761896">IDARG_IN_QUERY_HWCURSOR</a> buffer <b>pShapeBuffer</b>.
                  
 
 

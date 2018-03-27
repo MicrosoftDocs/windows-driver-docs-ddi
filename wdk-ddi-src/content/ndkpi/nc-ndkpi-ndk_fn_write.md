@@ -52,25 +52,6 @@ req.typenames: NDIS_WWAN_VISIBLE_PROVIDERS, *PNDIS_WWAN_VISIBLE_PROVIDERS
 The <i>NdkWrite</i> (<i>NDK_FN_WRITE</i>) function posts a write request on an NDK queue pair (QP).
 
 
-## -prototype
-
-
-````
-NDK_FN_WRITE NdkWrite;
-
-NTSTATUS NdkWrite(
-  _In_     NDK_QP                         *pNdkQp,
-  _In_opt_ PVOID                          RequestContext,
-           _In_reads_(nSge) CONST NDK_SGE *pSgl,
-  _In_     ULONG                          nSge,
-  _In_     UINT64                         RemoteAddress,
-  _In_     UINT32                         RemoteToken,
-  _In_     ULONG                          Flags
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -78,12 +59,12 @@ NTSTATUS NdkWrite(
 
 ### -param *pNdkQp [in]
 
-A pointer to an NDK queue pair (QP) object (<a href="..\ndkpi\ns-ndkpi-_ndk_qp.md">NDK_QP</a>).
+A pointer to an NDK queue pair (QP) object (<a href="https://msdn.microsoft.com/library/windows/hardware/hh439933">NDK_QP</a>).
 
 
 ### -param RequestContext [in, optional]
 
-A context value to be returned in the <b>RequestContext</b> member of the <a href="..\ndkpi\ns-ndkpi-_ndk_result.md">NDK_RESULT</a> structure for this request.
+A context value to be returned in the <b>RequestContext</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439935">NDK_RESULT</a> structure for this request.
 
 
 
@@ -156,7 +137,7 @@ Indicates to the NDK provider that it may defer indicating the request to hardwa
 
 #### - pSgl
 
-An array of SGE structures (<a href="..\ndkpi\ns-ndkpi-_ndk_sge.md">NDK_SGE</a>) that represent the buffers holding the data to write.
+An array of SGE structures (<a href="https://msdn.microsoft.com/library/windows/hardware/hh439936">NDK_SGE</a>) that represent the buffers holding the data to write.
 
 
 ## -returns
@@ -222,7 +203,6 @@ An error occurred.
 
 ## -see-also
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_sge.md">NDK_SGE</a>
 
 
 
@@ -230,18 +210,19 @@ An error occurred.
 
 
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_qp.md">NDK_QP</a>
-
-
-
 <a href="https://msdn.microsoft.com/2BF6F253-FCB4-4A61-9A67-81092F3C44E4">NDKPI Work Request Posting Requirements</a>
 
 
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_result.md">NDK_RESULT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439933">NDK_QP</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439935">NDK_RESULT</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439936">NDK_SGE</a>
  
 
  

@@ -52,18 +52,6 @@ req.typenames: D3D10DDIARG_STREAM_OUTPUT_DECLARATION_ENTRY
 The D3D10DDIARG_STREAM_OUTPUT_DECLARATION_ENTRY structure describes a portion of the stream output for a geometry shader.
 
 
-## -syntax
-
-
-````
-typedef struct D3D10DDIARG_STREAM_OUTPUT_DECLARATION_ENTRY {
-  UINT OutputSlot;
-  UINT RegisterIndex;
-  BYTE RegisterMask;
-} D3D10DDIARG_STREAM_OUTPUT_DECLARATION_ENTRY;
-````
-
-
 ## -struct-fields
 
 
@@ -86,10 +74,10 @@ typedef struct D3D10DDIARG_STREAM_OUTPUT_DECLARATION_ENTRY {
 
 ## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_creategeometryshaderwithstreamoutput.md">D3D10DDIARG_CREATEGEOMETRYSHADERWITHSTREAMOUTPUT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541681">D3D10DDIARG_CREATEGEOMETRYSHADERWITHSTREAMOUTPUT</a>
  
 
  

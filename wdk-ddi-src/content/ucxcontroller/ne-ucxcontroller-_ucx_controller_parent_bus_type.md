@@ -53,18 +53,6 @@ req.product: Windows 10 or later.
 The <b>UCX_CONTROLLER_PARENT_BUS_TYPE</b> enumeration defines the parent bus type.
 
 
-## -syntax
-
-
-````
-typedef enum _UCX_CONTROLLER_PARENT_BUS_TYPE { 
-  UcxControllerParentBusTypeCustom,
-  UcxControllerParentBusTypePci,
-  UcxControllerParentBusTypeAcpi
-} UCX_CONTROLLER_PARENT_BUS_TYPE;
-````
-
-
 ## -enum-fields
 
 
@@ -92,10 +80,10 @@ Parent is ACPI.
 
 ## -see-also
 
-<a href="..\ucxcontroller\ns-ucxcontroller-_ucx_controller_config.md">UCX_CONTROLLER_CONFIG</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt188057">UCX_CONTROLLER_CONFIG</a>
  
 
  

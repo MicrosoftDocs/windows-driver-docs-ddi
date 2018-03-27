@@ -52,16 +52,6 @@ req.typenames: NDK_OBJECT_HEADER_RESERVED_BLOCK
 The <b>NDK_OBJECT_HEADER_RESERVED_BLOCK</b> structure specifies reserved information in an NDK object.
 
 
-## -syntax
-
-
-````
-typedef struct _NDK_OBJECT_HEADER_RESERVED_BLOCK {
-  PVOID rf[4];
-} NDK_OBJECT_HEADER_RESERVED_BLOCK, *PNDK_OBJECT_HEADER_RESERVED_BLOCK;
-````
-
-
 ## -struct-fields
 
 
@@ -76,17 +66,17 @@ Reserved.
 
 
 
-The <b>NDK_OBJECT_HEADER_RESERVED_BLOCK</b> structure is used in the <a href="..\ndkpi\ns-ndkpi-_ndk_object_header.md">NDK_OBJECT_HEADER</a> structure.
+The <b>NDK_OBJECT_HEADER_RESERVED_BLOCK</b> structure is used in the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439928">NDK_OBJECT_HEADER</a> structure.
 
 
 
 
 ## -see-also
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_object_header.md">NDK_OBJECT_HEADER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439928">NDK_OBJECT_HEADER</a>
  
 
  

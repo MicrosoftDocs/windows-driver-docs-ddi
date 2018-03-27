@@ -52,24 +52,6 @@ req.typenames: DXGK_GDIARG_TRANSPARENTBLT
 The DXGK_GDIARG_TRANSPARENTBLT structure describes the characteristics of a GDI hardware-accelerated bit-block transfer (bitblt) operation with transparency.
 
 
-## -syntax
-
-
-````
-typedef struct _DXGK_GDIARG_TRANSPARENTBLT {
-  RECT                      SrcRect;
-  RECT                      DstRect;
-  UINT                      SrcAllocationIndex;
-  UINT                      DstAllocationIndex;
-  UINT                      Color;
-  UINT                      NumSubRects;
-  RECT                      *pSubRects;
-  D3DKM_TRANSPARENTBLTFLAGS Flags;
-  UINT                      SrcPitch;
-} DXGK_GDIARG_TRANSPARENTBLT;
-````
-
-
 ## -struct-fields
 
 
@@ -108,7 +90,7 @@ For more information, see the Remarks section.
 ### -field Color
 
 
-      [in] Specifies the physical transparent color in the source surface, in 32-bit ARGB unsigned pixel format (as defined by the D3DDDIFMT_A8R8G8B8 value of the <a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a> enumeration). Any pixels on the source surface that match the transparent color that is specified by <b>Color</b> are not copied.
+      [in] Specifies the physical transparent color in the source surface, in 32-bit ARGB unsigned pixel format (as defined by the D3DDDIFMT_A8R8G8B8 value of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff544312">D3DDDIFORMAT</a> enumeration). Any pixels on the source surface that match the transparent color that is specified by <b>Color</b> are not copied.
      
 
 
@@ -129,7 +111,7 @@ For more information, see the Remarks section.
 ### -field Flags
 
 
-      [in] A <a href="..\d3dkmddi\ns-d3dkmddi-_d3dkm_transparentbltflags.md">D3DKM_TRANSPARENTBLTFLAGS</a> structure that specifies the display adapter's hardware-accelerated transparent bit-block transfer capabilities.
+      [in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff548468">D3DKM_TRANSPARENTBLTFLAGS</a> structure that specifies the display adapter's hardware-accelerated transparent bit-block transfer capabilities.
      
 
 
@@ -200,18 +182,18 @@ int Ys = truncate((Yd â€“ DstRect.top + 0.5) * Hs/Hd + SrcRect.top)</code><
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548468">D3DKM_TRANSPARENTBLTFLAGS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562026">DXGK_RENDERKM_COMMAND</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
-
-
-
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_renderkm_command.md">DXGK_RENDERKM_COMMAND</a>
-
-
-
-<a href="..\d3dkmddi\ns-d3dkmddi-_d3dkm_transparentbltflags.md">D3DKM_TRANSPARENTBLTFLAGS</a>
-
-
-
  
 
  

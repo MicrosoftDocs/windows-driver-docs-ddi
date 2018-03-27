@@ -50,20 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-Contains information about the USB device. This structure is passed by UCX in the <a href="..\ucxcontroller\nc-ucxcontroller-evt_ucx_controller_usbdevice_add.md">EVT_UCX_CONTROLLER_USBDEVICE_ADD</a> event callback function.
-
-
-## -syntax
-
-
-````
-typedef struct _UCXUSBDEVICE_INFO {
-  ULONG                Size;
-  USB_DEVICE_SPEED     DeviceSpeed;
-  UCXUSBDEVICE         TtHub;
-  USB_DEVICE_PORT_PATH PortPath;
-} UCXUSBDEVICE_INFO, *P_UCXUSBDEVICE_INFO;
-````
+Contains information about the USB device. This structure is passed by UCX in the <a href="https://msdn.microsoft.com/library/windows/hardware/mt187823">EVT_UCX_CONTROLLER_USBDEVICE_ADD</a> event callback function.
 
 
 ## -struct-fields
@@ -93,10 +80,10 @@ The port path for the USB device or hub.
 
 ## -see-also
 
-<a href="..\ucxcontroller\nc-ucxcontroller-evt_ucx_controller_usbdevice_add.md">EVT_UCX_CONTROLLER_USBDEVICE_ADD</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt187823">EVT_UCX_CONTROLLER_USBDEVICE_ADD</a>
  
 
  

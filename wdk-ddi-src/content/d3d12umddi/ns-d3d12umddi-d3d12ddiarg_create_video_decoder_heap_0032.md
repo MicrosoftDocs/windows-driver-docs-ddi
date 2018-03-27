@@ -52,22 +52,6 @@ req.typenames: D3D12DDIARG_CREATE_VIDEO_DECODER_HEAP_0032
 Creates a video decoder heap.
 
 
-## -syntax
-
-
-````
-typedef struct _D3D12DDIARG_CREATE_VIDEO_DECODER_HEAP_0032 {
-  UINT                                      NodeMask;
-  D3D12DDI_VIDEO_DECODE_CONFIGURATION_0020  Configuration;
-  UINT                                      DecodeWidth;
-  UINT                                      DecodeHeight;
-  UINT                                      MaxDecodePictureBufferCount;
-  DXGI_RATIONAL                             FrameRate;
-  UINT                                      BitRate;
-} D3D12DDIARG_CREATE_VIDEO_DECODER_HEAP_0032, D3D12DDIARG_CREATE_VIDEO_DECODER_HEAP_0032;
-````
-
-
 ## -struct-fields
 
 

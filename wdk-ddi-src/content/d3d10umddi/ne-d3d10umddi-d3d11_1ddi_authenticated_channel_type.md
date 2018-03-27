@@ -52,17 +52,6 @@ req.typenames: D3D11_1DDI_AUTHENTICATED_CHANNEL_TYPE
 Specifies the type of Microsoft Direct3D authenticated channel.
 
 
-## -syntax
-
-
-````
-typedef enum D3D11_1DDI_AUTHENTICATED_CHANNEL_TYPE { 
-  D3D11_1DDI_AUTHENTICATED_CHANNEL_DRIVER_SOFTWARE  = 2,
-  D3D11_1DDI_AUTHENTICATED_CHANNEL_DRIVER_HARDWARE  = 3
-} D3D11_1DDI_AUTHENTICATED_CHANNEL_TYPE;
-````
-
-
 ## -enum-fields
 
 

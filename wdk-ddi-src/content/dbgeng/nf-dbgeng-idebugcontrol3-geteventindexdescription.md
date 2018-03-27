@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -50,20 +50,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>GetEventIndexDescription</b>  method describes the specified event in a static list of events for the current target.
-
-
-## -syntax
-
-
-````
-HRESULT GetEventIndexDescription(
-  [in]            ULONG  Index,
-  [in]            ULONG  Which,
-  [in, optional]  PSTR   Buffer,
-  [in]            ULONG  BufferSize,
-  [out, optional] PULONG DescSize
-);
-````
 
 
 ## -parameters
@@ -135,11 +121,10 @@ The amount of descriptive information available for a particular target varies d
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545755">GetCurrentEventIndex</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
 
 
@@ -147,6 +132,7 @@ The amount of descriptive information available for a particular target varies d
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550519">IDebugControl3</a>
  
 
  

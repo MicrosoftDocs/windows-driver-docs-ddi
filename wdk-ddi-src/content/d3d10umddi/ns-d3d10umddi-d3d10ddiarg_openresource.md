@@ -52,27 +52,6 @@ req.typenames: D3D10DDIARG_OPENRESOURCE
 The D3D10DDIARG_OPENRESOURCE structure contains information for opening a shared resource.
 
 
-## -syntax
-
-
-````
-typedef struct D3D10DDIARG_OPENRESOURCE {
-  UINT                      NumAllocations;
-#if D3D10DDI_MINOR_HEADER_VERSION >= 2 || D3D11DDI_MINOR_HEADER_VERSION >= 1
-  union {
-    D3DDDI_OPENALLOCATIONINFO  *pOpenAllocationInfo;
-    D3DDDI_OPENALLOCATIONINFO2 *pOpenAllocationInfo2;
-  };
-#else 
-  D3DDDI_OPENALLOCATIONINFO *pOpenAllocationInfo;
-#endif 
-  D3D10DDI_HKMRESOURCE      hKMResource;
-  VOID                      *pPrivateDriverData;
-  UINT                      PrivateDriverDataSize;
-} D3D10DDIARG_OPENRESOURCE;
-````
-
-
 ## -struct-fields
 
 
@@ -85,23 +64,23 @@ typedef struct D3D10DDIARG_OPENRESOURCE {
 
 ### -field pOpenAllocationInfo
 
-[in] An array of <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_openallocationinfo.md">D3DDDI_OPENALLOCATIONINFO</a> structures that describe the allocations in the resource to open.
+[in] An array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff544599">D3DDDI_OPENALLOCATIONINFO</a> structures that describe the allocations in the resource to open.
 
-[in] An array of <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_openallocationinfo.md">D3DDDI_OPENALLOCATIONINFO</a> structures that describe the allocations in the resource to open.
+[in] An array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff544599">D3DDDI_OPENALLOCATIONINFO</a> structures that describe the allocations in the resource to open.
 
 
 ### -field hKMResource
 
 [in] A D3D10DDI_HKMRESOURCE data type that represents a kernel-mode handle to the resource that is associated with the allocations. 
 
-This kernel-mode handle represents an existing shared resource that was previously created through a call to the user-mode display driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createresource.md">CreateResource(D3D10)</a> function. 
+This kernel-mode handle represents an existing shared resource that was previously created through a call to the user-mode display driver's <a href="https://msdn.microsoft.com/c21839f0-8302-49f9-a2b4-4009fbd2d88c">CreateResource(D3D10)</a> function. 
 
 The user-mode display driver can insert the kernel-mode resource handle in the command stream for subsequent use by the display miniport driver.
 
 
 ### -field pPrivateDriverData
 
-[in] A pointer to private data that was passed to the display miniport driver when the resource was created. This data is per resource and not per allocation like the private data in each allocation's <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_openallocationinfo.md">D3DDDI_OPENALLOCATIONINFO</a> structure. 
+[in] A pointer to private data that was passed to the display miniport driver when the resource was created. This data is per resource and not per allocation like the private data in each allocation's <a href="https://msdn.microsoft.com/library/windows/hardware/ff544599">D3DDDI_OPENALLOCATIONINFO</a> structure. 
 
 
 ### -field PrivateDriverDataSize
@@ -118,14 +97,14 @@ This member is available beginning with Windows 7.
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createresource.md">CreateResource(D3D10)</a>
 
 
 
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_openallocationinfo.md">D3DDDI_OPENALLOCATIONINFO</a>
+<a href="https://msdn.microsoft.com/c21839f0-8302-49f9-a2b4-4009fbd2d88c">CreateResource(D3D10)</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544599">D3DDDI_OPENALLOCATIONINFO</a>
  
 
  

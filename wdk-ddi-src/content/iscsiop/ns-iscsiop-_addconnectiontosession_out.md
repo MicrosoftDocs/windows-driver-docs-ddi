@@ -52,17 +52,6 @@ req.typenames: AddConnectionToSession_OUT, *PAddConnectionToSession_OUT
 The AddConnectionToSession_OUT structure holds output data for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a> method.
 
 
-## -syntax
-
-
-````
-typedef struct _AddConnectionToSession_OUT {
-  ULONG     Status;
-  ULONGLONG UniqueConnectionId;
-} AddConnectionToSession_OUT, *PAddConnectionToSession_OUT;
-````
-
-
 ## -struct-fields
 
 
@@ -89,11 +78,6 @@ The iSCSI service requires this method. It is optional that you implement this m
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563091">MSiSCSI_Operations WMI Class</a>
-
-
-
-<a href="..\iscsiop\ns-iscsiop-_addconnectiontosession_in.md">AddConnectionToSession_IN</a>
 
 
 
@@ -101,10 +85,15 @@ The iSCSI service requires this method. It is optional that you implement this m
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550122">AddConnectionToSession_IN</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563091">MSiSCSI_Operations WMI Class</a>
  
 
  

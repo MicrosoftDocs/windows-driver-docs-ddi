@@ -52,17 +52,6 @@ req.typenames: RILSTARTDTMFPARAMS, *LPRILSTARTDTMFPARAMS
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef struct _RILSTARTDTMFPARAMS {
-  DWORD  dwExecutor;
-  char   ch;
-} RILSTARTDTMFPARAMS, RILSTARTDTMFPARAMS;
-````
-
-
 ## -struct-fields
 
 

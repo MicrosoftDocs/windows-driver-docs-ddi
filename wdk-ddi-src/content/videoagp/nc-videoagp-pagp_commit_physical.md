@@ -53,22 +53,6 @@ req.product: Windows 10 or later.
 The <b>AgpCommitPhysical</b> function maps system (physical) memory to the specified range of AGP-decodable physical addresses.
 
 
-## -prototype
-
-
-````
-PAGP_COMMIT_PHYSICAL AgpCommitPhysical;
-
-BOOLEAN APIENTRY AgpCommitPhysical(
-  _In_ PVOID HwDeviceExtension,
-  _In_ PVOID PhysicalReserveContext,
-  _In_ ULONG Pages,
-  _In_ ULONG Offset
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -81,7 +65,7 @@ Pointer to the device extension of the miniport driver.
 
 ### -param PhysicalReserveContext [in]
 
-Identifies a reserved physical address range. The context handle is obtained from <a href="..\videoagp\nc-videoagp-pagp_reserve_physical.md">AgpReservePhysical</a>.
+Identifies a reserved physical address range. The context handle is obtained from <a href="https://msdn.microsoft.com/b3e21c94-acd5-4767-8ba5-70b2dcfb2aaa">AgpReservePhysical</a>.
 
 
 ### -param Pages [in]
@@ -107,11 +91,11 @@ Specifies the page offset at which to commit the pages. The offset is applied to
 
 
 
-A video miniport driver must first reserve physical addresses by calling <a href="..\videoagp\nc-videoagp-pagp_reserve_physical.md">AgpReservePhysical</a> before it calls this function.
+A video miniport driver must first reserve physical addresses by calling <a href="https://msdn.microsoft.com/b3e21c94-acd5-4767-8ba5-70b2dcfb2aaa">AgpReservePhysical</a> before it calls this function.
 
 Do not call <b>AgpCommitPhysical</b> to commit addresses that have already been committed. If the range of pages that is specified by <b>PhysicalReserveContext</b>, <b>Pages</b>, and <b>Offset</b> includes any pages that were previously committed, <b>AgpCommitPhysical</b> might fail.
 
-Video miniport drivers that run on Microsoft Windows 2000 should always reserve and commit a physical range whose size is a multiple of 64 kilobytes. Reserving or committing a physical range that is not a multiple of 64 kilobytes can result in <a href="..\videoagp\nc-videoagp-pagp_reserve_virtual.md">AgpReserveVirtual</a> or <a href="..\videoagp\nc-videoagp-pagp_commit_virtual.md">AgpCommitVirtual</a> returning an invalid virtual address.
+Video miniport drivers that run on Microsoft Windows 2000 should always reserve and commit a physical range whose size is a multiple of 64 kilobytes. Reserving or committing a physical range that is not a multiple of 64 kilobytes can result in <a href="https://msdn.microsoft.com/966dfc6c-6830-4872-b411-2801e3a4b753">AgpReserveVirtual</a> or <a href="https://msdn.microsoft.com/8a3e7fcd-d838-47ad-a42b-7eb070f81418">AgpCommitVirtual</a> returning an invalid virtual address.
 
 On Windows XP and later, <b>AgpCommitPhysical</b> automatically expands the committed range so that it is a multiple of 64 kilobytes.
 
@@ -122,18 +106,18 @@ When a video miniport driver calls <b>AgpCommitPhysical</b>, a portion of the ph
 
 ## -see-also
 
-<a href="..\videoagp\nc-videoagp-pagp_reserve_physical.md">AgpReservePhysical</a>
 
 
 
-<a href="..\videoagp\nc-videoagp-pagp_reserve_virtual.md">AgpReserveVirtual</a>
+<a href="https://msdn.microsoft.com/8a3e7fcd-d838-47ad-a42b-7eb070f81418">AgpCommitVirtual</a>
 
 
 
-<a href="..\videoagp\nc-videoagp-pagp_commit_virtual.md">AgpCommitVirtual</a>
+<a href="https://msdn.microsoft.com/b3e21c94-acd5-4767-8ba5-70b2dcfb2aaa">AgpReservePhysical</a>
 
 
 
+<a href="https://msdn.microsoft.com/966dfc6c-6830-4872-b411-2801e3a4b753">AgpReserveVirtual</a>
  
 
  

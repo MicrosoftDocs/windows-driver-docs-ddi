@@ -52,21 +52,6 @@ req.typenames: D3DDDIBOX
 Describes the bounds of a volume texture.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DDDIBOX {
-  UINT Left;
-  UINT Top;
-  UINT Right;
-  UINT Bottom;
-  UINT Front;
-  UINT Back;
-} D3DDDIBOX;
-````
-
-
 ## -struct-fields
 
 

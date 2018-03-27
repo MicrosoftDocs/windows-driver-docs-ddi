@@ -55,21 +55,6 @@ req.product: Windows 10 or later.
 The <b>WDF_DMA_SYSTEM_PROFILE_CONFIG</b> structure describes the hardware-specific settings related to a system-mode DMA enabler.
 
 
-## -syntax
-
-
-````
-typedef struct _WDF_DMA_SYSTEM_PROFILE_CONFIG {
-  ULONG                           Size;
-  BOOLEAN                         DemandMode;
-  BOOLEAN                         LoopedTransfer;
-  DMA_WIDTH                       DmaWidth;
-  PHYSICAL_ADDRESS                DeviceAddress;
-  PCM_PARTIAL_RESOURCE_DESCRIPTOR DmaDescriptor;
-} WDF_DMA_SYSTEM_PROFILE_CONFIG, *PWDF_DMA_SYSTEM_PROFILE_CONFIG;
-````
-
-
 ## -struct-fields
 
 
@@ -98,20 +83,20 @@ The width of the register specified by <b>DeviceAddress</b>. Possible values are
 
 ### -field DeviceAddress
 
-The translated address to or from which the DMA controller transfers. The driver can specify an offset from this base address on each transaction by calling <a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactionsetdeviceaddressoffset.md">WdfDmaTransactionSetDeviceAddressOffset</a>.
+The translated address to or from which the DMA controller transfers. The driver can specify an offset from this base address on each transaction by calling <a href="https://msdn.microsoft.com/library/windows/hardware/hh451188">WdfDmaTransactionSetDeviceAddressOffset</a>.
 
 
 ### -field DmaDescriptor
 
 The translated resource descriptor for the DMA channel assigned 
-      the device during <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_prepare_hardware.md">EvtDevicePrepareHardware</a>. This provides the DMA request line for the adapter.
+      the device during <a href="https://msdn.microsoft.com/a3d4a983-8a75-44be-bd72-8673d89f9f87">EvtDevicePrepareHardware</a>. This provides the DMA request line for the adapter.
 
 
 ## -remarks
 
 
 
-The driver provides this structure to <a href="..\wdfdmaenabler\nf-wdfdmaenabler-wdfdmaenablerconfiguresystemprofile.md">WdfDmaEnablerConfigureSystemProfile</a> after creating a system-profile DMA enabler.
+The driver provides this structure to <a href="https://msdn.microsoft.com/library/windows/hardware/hh451108">WdfDmaEnablerConfigureSystemProfile</a> after creating a system-profile DMA enabler.
 
 Typically, drivers set <b>DemandMode</b> to TRUE.   The driver's <a href="https://msdn.microsoft.com/c01b94b2-aabf-47dd-952a-06e481579614">EvtProgramDma</a> callback function then programs the device to assert its DMA request line and initiate the transfer.  In this case, the transfer might begin while <i>EvtProgramDma</i> is still running.
 
@@ -125,14 +110,14 @@ If <b>DemandMode</b> is set to FALSE, the DMA transfer may begin before the fram
 
 ## -see-also
 
-<a href="..\wdfdmaenabler\nf-wdfdmaenabler-wdf_dma_system_profile_config_init.md">WDF_DMA_SYSTEM_PROFILE_CONFIG_INIT</a>
 
 
 
-<a href="..\wdfdmaenabler\nf-wdfdmaenabler-wdfdmaenablerconfiguresystemprofile.md">WdfDmaEnablerConfigureSystemProfile</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439499">WDF_DMA_SYSTEM_PROFILE_CONFIG_INIT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451108">WdfDmaEnablerConfigureSystemProfile</a>
  
 
  

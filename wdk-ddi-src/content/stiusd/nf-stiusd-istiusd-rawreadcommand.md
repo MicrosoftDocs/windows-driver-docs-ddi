@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: stiusd.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,18 +51,6 @@ req.product: Windows 10 or later.
 
 
 A still image minidriver's <b>IStiUSD::RawReadCommand</b> method reads command information from a still image device.
-
-
-## -syntax
-
-
-````
-HRESULT RawReadCommand(
-   LPVOID       lpBuffer,
-   LPDWORD      lpdwNumberOfBytes,
-   LPOVERLAPPED lpOverlapped
-);
-````
 
 
 ## -parameters
@@ -107,7 +95,6 @@ Implementation of this method, along with the meaning of buffer contents, are ve
 
 ## -see-also
 
-<a href="..\stiusd\nn-stiusd-istiusd.md">IStiUSD</a>
 
 
 
@@ -115,6 +102,7 @@ Implementation of this method, along with the meaning of buffer contents, are ve
 
 
 
+<a href="https://msdn.microsoft.com/62740263-5bbb-48e1-be3d-9ee9cb37d6b9">IStiUSD</a>
  
 
  

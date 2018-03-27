@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,23 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <code>OEMStrokePath</code> function strokes a path.
-
-
-## -syntax
-
-
-````
-BOOL APIENTRY OEMStrokePath(
-   SURFOBJ   *pso,
-   PATHOBJ   *ppo,
-   CLIPOBJ   *pco,
-   XFORMOBJ  *pxo,
-   BRUSHOBJ  *pbo,
-   POINTL    *pptlBrushOrg,
-   LINEATTRS *plineattrs,
-   MIX       mix
-);
-````
 
 
 ## -parameters

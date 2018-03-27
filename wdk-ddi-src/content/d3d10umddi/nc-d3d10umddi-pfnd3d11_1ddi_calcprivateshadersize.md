@@ -52,27 +52,12 @@ req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 Determines the size of the user-mode display driver's private region of memory (that is, the size of internal driver structures, not the size of the resource video memory) for a shader.
 
 
-## -prototype
-
-
-````
-PFND3D11_1DDI_CALCPRIVATESHADERSIZE CalcPrivateShaderSize(D3D11_1);
-
-SIZE_T APIENTRY* CalcPrivateShaderSize(D3D11_1)(
-             D3D10DDI_HDEVICE                  hDevice,
-  _In_ const UINT                              *pShaderCode,
-  _In_ const D3D11_1DDIARG_STAGE_IO_SIGNATURES *pSignatures
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
 
 
-### -param D3D10DDI_HDEVICE
+### -param Arg1
 
 
 ### -param *pShaderCode [in]
@@ -96,7 +81,7 @@ A handle to the display device (graphics context).
 
 #### - pSignatures [in]
 
-A pointer to a <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddiarg_stage_io_signatures.md">D3D11_1DDIARG_STAGE_IO_SIGNATURES</a> structure that makes up the shader's signature.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh406324">D3D11_1DDIARG_STAGE_IO_SIGNATURES</a> structure that makes up the shader's signature.
 
 
 ## -returns
@@ -110,10 +95,10 @@ The size of the memory region that the driver requires for creating a shader.
 
 ## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddiarg_stage_io_signatures.md">D3D11_1DDIARG_STAGE_IO_SIGNATURES</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406324">D3D11_1DDIARG_STAGE_IO_SIGNATURES</a>
  
 
  

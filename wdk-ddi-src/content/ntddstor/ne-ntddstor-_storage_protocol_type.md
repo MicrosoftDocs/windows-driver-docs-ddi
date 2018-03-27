@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: 
+req.irql: "<=DISPATCH_LEVEL"
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -50,23 +50,6 @@ req.typenames: STORAGE_PROTOCOL_TYPE, *PSTORAGE_PROTOCOL_TYPE
 
 
 This enumeration is used to define the different storage command protocols that are used between software and hardware.
-
-
-## -syntax
-
-
-````
-typedef enum _STORAGE_PROTOCOL_TYPE { 
-  ProtocolTypeUnknown      = 0,   // 0x0
-  ProtocolTypeScsi,
-  ProtocolTypeAta,
-  ProtocolTypeNvme,
-  ProtocolTypeSd,
-  ProtocolTypeUfs,
-  ProtocolTypeProprietary  = 126, // 0x7E
-  ProtocolTypeMaxReserved  = 127 // 0x7F
-} STORAGE_PROTOCOL_TYPE;
-````
 
 
 ## -enum-fields

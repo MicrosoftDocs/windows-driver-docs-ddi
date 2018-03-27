@@ -52,28 +52,6 @@ req.typenames: D3DDDI_LIGHT
 The D3DDDI_LIGHT structure describes a set of lighting properties. 
 
 
-## -syntax
-
-
-````
-typedef struct _D3DDDI_LIGHT {
-  D3DLIGHTTYPE  Type;
-  D3DCOLORVALUE Diffuse;
-  D3DCOLORVALUE Specular;
-  D3DCOLORVALUE Ambient;
-  D3DVECTOR     Position;
-  D3DVECTOR     Direction;
-  FLOAT         Range;
-  FLOAT         Falloff;
-  FLOAT         Attenuation0;
-  FLOAT         Attenuation1;
-  FLOAT         Attenuation2;
-  FLOAT         Theta;
-  FLOAT         Phi;
-} D3DDDI_LIGHT;
-````
-
-
 ## -struct-fields
 
 
@@ -146,10 +124,10 @@ typedef struct _D3DDDI_LIGHT {
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setlight.md">SetLight</a>
 
 
 
+<a href="https://msdn.microsoft.com/28e3992e-a636-47e2-a5a6-5da06d276b5c">SetLight</a>
  
 
  

@@ -52,19 +52,6 @@ req.typenames: ScsiReportLuns_IN, *PScsiReportLuns_IN
 The ScsiReportLuns_IN structure is used to deliver input parameter data to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff564918">ScsiReportLuns</a> WMI method. 
 
 
-## -syntax
-
-
-````
-typedef struct _ScsiReportLuns_IN {
-  UCHAR     Cdb[12];
-  UCHAR     HbaPortWWN[8];
-  UCHAR     DiscoveredPortWWN[8];
-  ULONGLONG FcLun;
-} ScsiReportLuns_IN, *PScsiReportLuns_IN;
-````
-
-
 ## -struct-fields
 
 
@@ -101,10 +88,10 @@ The WMI tool suite generates a declaration of the ScsiReportLuns_IN structure in
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564918">ScsiReportLuns</a>
-
-
-
  
 
  

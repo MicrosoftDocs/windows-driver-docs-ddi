@@ -52,16 +52,6 @@ req.typenames: EXpsFontRestriction
 The <b>FltGetRequestorProcessIdEx</b> routine returns the kernel-mode handle for the process that is associated with the thread that requested a given I/O operation. 
 
 
-## -syntax
-
-
-````
-HANDLE FltGetRequestorProcessIdEx(
-  _In_ PFLT_CALLBACK_DATA CallbackData
-);
-````
-
-
 ## -parameters
 
 
@@ -69,7 +59,7 @@ HANDLE FltGetRequestorProcessIdEx(
 
 ### -param CallbackData [in]
 
-A pointer to an <a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a> structure that identifies the thread and the I/O operation. 
+A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff544620">FLT_CALLBACK_DATA</a> structure that identifies the thread and the I/O operation. 
 
 
 ## -returns
@@ -92,14 +82,14 @@ The <b>FltGetRequestorProcessIdEx</b> routine returns the kernel-mode handle for
 
 ## -see-also
 
-<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltgetrequestorprocess.md">FltGetRequestorProcess</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544620">FLT_CALLBACK_DATA</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543115">FltGetRequestorProcess</a>
  
 
  

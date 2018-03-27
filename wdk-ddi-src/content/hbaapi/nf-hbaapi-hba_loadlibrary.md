@@ -52,14 +52,6 @@ req.typenames: HBA_WWNTYPE
 The <b>HBA_LoadLibrary</b> routine loads and initializes the system-supplied fibre channel HBA API library. 
 
 
-## -syntax
-
-
-````
-HBA_STATUS HBA_API HBA_LoadLibrary(void);
-````
-
-
 ## -parameters
 
 
@@ -130,10 +122,10 @@ Returned if an unspecified error occurred that prevented the library from loadin
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
-
-
-
  
 
  

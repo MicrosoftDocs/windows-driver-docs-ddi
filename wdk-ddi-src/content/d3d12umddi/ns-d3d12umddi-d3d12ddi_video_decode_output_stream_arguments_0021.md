@@ -52,18 +52,6 @@ req.typenames: D3D12DDI_VIDEO_DECODE_OUTPUT_STREAM_ARGUMENTS_0021
 Output stream arguments for video decode.
 
 
-## -syntax
-
-
-````
-typedef struct D3D12DDI_VIDEO_DECODE_OUTPUT_STREAM_ARGUMENTS_0021 {
-  D3D12DDI_HRESOURCE                              hDrvOutputTexture2D;
-  UINT                                            OutputSubresource;
-  D3D12DDI_VIDEO_DECODE_CONVERSION_ARGUMENTS_0021 ConversionParameters;
-} D3D12DDI_VIDEO_DECODE_OUTPUT_STREAM_ARGUMENTS_0021;
-````
-
-
 ## -struct-fields
 
 

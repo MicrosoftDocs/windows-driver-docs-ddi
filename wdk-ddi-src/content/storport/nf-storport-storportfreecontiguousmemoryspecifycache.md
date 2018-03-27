@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
@@ -53,19 +53,6 @@ req.product: Windows 10 or later.
 The <b>StorPortFreeContiguousMemorySpecifyCache</b> routine deallocates a range of noncached memory in the nonpaged portion of the system address space.
 
 
-## -syntax
-
-
-````
-ULONG StorPortFreeContiguousMemorySpecifyCache(
-  _In_ PVOID               HwDeviceExtension,
-  _In_ PVOID               BaseAddress,
-  _In_ SIZE_T              NumberOfBytes,
-  _In_ MEMORY_CACHING_TYPE CacheType
-);
-````
-
-
 ## -parameters
 
 
@@ -83,12 +70,12 @@ The base virtual address to free.
 
 ### -param NumberOfBytes [in]
 
-The number of bytes that are allocated to the request. This must be the same number that was supplied as a parameter when the <a href="..\storport\nf-storport-storportallocatecontiguousmemoryspecifycachenode.md">StorPortAllocateContiguousMemorySpecifyCacheNode</a> routine was previously called.
+The number of bytes that are allocated to the request. This must be the same number that was supplied as a parameter when the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567027">StorPortAllocateContiguousMemorySpecifyCacheNode</a> routine was previously called.
 
 
 ### -param CacheType [in]
 
-The cache type that is used in the call to the <a href="..\storport\nf-storport-storportallocatecontiguousmemoryspecifycachenode.md">StorPortAllocateContiguousMemorySpecifyCacheNode</a> routine.
+The cache type that is used in the call to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567027">StorPortAllocateContiguousMemorySpecifyCacheNode</a> routine.
 
 
 ## -returns
@@ -132,10 +119,10 @@ The operation was successful.
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportallocatecontiguousmemoryspecifycachenode.md">StorPortAllocateContiguousMemorySpecifyCacheNode</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567027">StorPortAllocateContiguousMemorySpecifyCacheNode</a>
  
 
  

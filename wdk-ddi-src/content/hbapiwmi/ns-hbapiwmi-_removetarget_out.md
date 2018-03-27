@@ -52,16 +52,6 @@ req.typenames: RemoveTarget_OUT, *PRemoveTarget_OUT
 The RemoveTarget_OUT structure is used by an HBA miniport driver to report the output parameter data of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff564030">RemoveTarget</a> WMI method to the WMI client.
 
 
-## -syntax
-
-
-````
-typedef struct _RemoveTarget_OUT {
-  ULONG HBAStatus;
-} RemoveTarget_OUT, *PRemoveTarget_OUT;
-````
-
-
 ## -struct-fields
 
 
@@ -83,10 +73,10 @@ The WMI tool suite generates a declaration of the RemoveTarget_OUT structure in 
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564030">RemoveTarget</a>
-
-
-
  
 
  

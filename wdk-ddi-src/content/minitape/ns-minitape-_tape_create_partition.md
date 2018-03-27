@@ -49,19 +49,7 @@ req.typenames: TAPE_CREATE_PARTITION, *PTAPE_CREATE_PARTITION
 ## -description
 
 
-The TAPE_CREATE_PARTITION structure is used in conjunction with the <a href="..\ntddtape\ni-ntddtape-ioctl_tape_create_partition.md">IOCTL_TAPE_CREATE_PARTITION</a> request to create a specified number of fixed, select, or initiator partitions of a given size on the tape media.
-
-
-## -syntax
-
-
-````
-typedef struct _TAPE_CREATE_PARTITION {
-  ULONG Method;
-  ULONG Count;
-  ULONG Size;
-} TAPE_CREATE_PARTITION, *PTAPE_CREATE_PARTITION;
-````
+The TAPE_CREATE_PARTITION structure is used in conjunction with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560612">IOCTL_TAPE_CREATE_PARTITION</a> request to create a specified number of fixed, select, or initiator partitions of a given size on the tape media.
 
 
 ## -struct-fields
@@ -124,14 +112,14 @@ Indicates the size of each partition, in bytes.
 
 ## -see-also
 
-<a href="..\minitape\nc-minitape-tape_process_command_routine.md">TapeMiniCreatePartition</a>
 
 
 
-<a href="..\ntddtape\ni-ntddtape-ioctl_tape_create_partition.md">IOCTL_TAPE_CREATE_PARTITION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560612">IOCTL_TAPE_CREATE_PARTITION</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567932">TapeMiniCreatePartition</a>
  
 
  

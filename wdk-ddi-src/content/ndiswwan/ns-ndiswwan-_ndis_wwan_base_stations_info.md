@@ -52,18 +52,6 @@ req.typenames: NDIS_WWAN_BASE_STATIONS_INFO, *PNDIS_WWAN_BASE_STATIONS_INFO
 The <b>NDIS_WWAN_BASE_STATIONS_INFO</b> structure contains information about both serving and neighboring base stations. It is used in the <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-wwan-base-stations-info">NDIS_STATUS_WWAN_BASE_STATIONS_INFO</a> status notification in response to a previous <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-base-stations-info">OID_WWAN_BASE_STATIONS_INFO</a> query request.
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_WWAN_BASE_STATIONS_INFO {
-  NDIS_OBJECT_HEADER      Header;
-  WWAN_STATUS             uStatus;
-  WWAN_BASE_STATIONS_INFO BaseStationsInfo;
-} NDIS_WWAN_BASE_STATIONS_INFO, *PNDIS_WWAN_BASE_STATIONS_INFO;
-````
-
-
 ## -struct-fields
 
 
@@ -117,7 +105,7 @@ sizeof(NDIS_WWAN_BASE_STATIONS_INFO)
  
 
 For more information about these members, see 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>.
 
 
 ### -field uStatus
@@ -177,20 +165,19 @@ The operation failed because the device does not support this OID.
 
 ### -field BaseStationsInfo
 
-A formatted <a href="..\wwan\ns-wwan-_wwan_base_stations_info.md">WWAN_BASE_STATIONS_INFO</a> structure that represents information about both serving and neighboring base stations.
+A formatted <a href="https://msdn.microsoft.com/66460B28-C2B4-4F05-A133-31A753AF9489">WWAN_BASE_STATIONS_INFO</a> structure that represents information about both serving and neighboring base stations.
 
 
 ## -see-also
+
+
+
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/mb-base-stations-information-query-support">MB base stations information query support</a>
 
 
 
-<a href="..\wwan\ns-wwan-_wwan_base_stations_info.md">WWAN_BASE_STATIONS_INFO</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
 
 
 
@@ -202,6 +189,7 @@ A formatted <a href="..\wwan\ns-wwan-_wwan_base_stations_info.md">WWAN_BASE_STAT
 
 
 
+<a href="https://msdn.microsoft.com/66460B28-C2B4-4F05-A133-31A753AF9489">WWAN_BASE_STATIONS_INFO</a>
  
 
  

@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 Video miniport drivers should not call the <b>VideoPortDebugPrint</b> function. Instead, they should call the <a href="https://msdn.microsoft.com/library/windows/hardware/ff570170">VideoDebugPrint</a> macro.
 
 
-## -syntax
-
-
-````
-VOID VideoPortDebugPrint(
-       VIDEO_DEBUG_LEVEL DebugPrintLevel,
-  _In_ PSTR              DebugMessage
-);
-````
-
-
 ## -parameters
 
 

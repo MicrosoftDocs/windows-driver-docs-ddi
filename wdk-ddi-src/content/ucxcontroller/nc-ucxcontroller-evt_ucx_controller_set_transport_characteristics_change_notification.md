@@ -53,22 +53,6 @@ req.product: Windows 10 or later.
 UCX invokes this callback function to specify its preference in transport characteristics for which the client driver must send notifications when changes occur. 
 
 
-## -prototype
-
-
-````
-EVT_UCX_CONTROLLER_SET_TRANSPORT_CHARACTERISTICS_CHANGE_NOTIFICATION EvUcxControllerSetTransportCharacteristicsChangeNotification;
-
-NTSTATUS EvUcxControllerSetTransportCharacteristicsChangeNotification(
-  _In_ UCXCONTROLLER                                         UcxController,
-  _In_ UCX_CONTROLLER_TRANSPORT_CHARACTERISTICS_CHANGE_FLAGS ChangeNotificationFlags
-)
-{ ... }
-
-typedef EVT_UCX_CONTROLLER_SET_TRANSPORT_CHARACTERISTICS_CHANGE_NOTIFICATION *PFN_UCX_CONTROLLER_SET_TRANSPORT_CHARACTERISTICS_CHANGE_NOTIFICATION;
-````
-
-
 ## -parameters
 
 
@@ -81,7 +65,7 @@ typedef EVT_UCX_CONTROLLER_SET_TRANSPORT_CHARACTERISTICS_CHANGE_NOTIFICATION *PF
 
 ### -param ChangeNotificationFlags [in]
 
- A bitwise option of flags that indicate the type transport characteristics in which UCX is interested. The flags are defined in <a href="..\ucxcontroller\ns-ucxcontroller-_ucx_controller_transport_characteristics_change_flags.md">UCX_CONTROLLER_TRANSPORT_CHARACTERISTICS_CHANGE_FLAGS</a>.
+ A bitwise option of flags that indicate the type transport characteristics in which UCX is interested. The flags are defined in <a href="https://msdn.microsoft.com/B5D6BBE4-2FFF-41CB-B747-AA3C6CE9064E">UCX_CONTROLLER_TRANSPORT_CHARACTERISTICS_CHANGE_FLAGS</a>.
 
 
 ## -returns
@@ -110,10 +94,10 @@ It is likely that if the client driver keeps looking for changes in transport ch
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt188033">UcxControllerCreate</a>
-
-
-
  
 
  

@@ -52,20 +52,6 @@ req.typenames: D3DDDIARG_TEXBLT
 The D3DDDIARG_TEXBLT structure describes parameters for a texture bit-block transfer (bitblt) operation. 
 
 
-## -syntax
-
-
-````
-typedef struct _D3DDDIARG_TEXBLT {
-  HANDLE hDstResource;
-  HANDLE hSrcResource;
-  UINT   CubeMapFace;
-  POINT  DstPoint;
-  RECT   SrcRect;
-} D3DDDIARG_TEXBLT;
-````
-
-
 ## -struct-fields
 
 
@@ -98,11 +84,10 @@ typedef struct _D3DDDIARG_TEXBLT {
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">POINT</a>
-
-
-
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_texblt.md">TexBlt</a>
 
 
 
@@ -110,6 +95,7 @@ typedef struct _D3DDDIARG_TEXBLT {
 
 
 
+<a href="https://msdn.microsoft.com/1ddfd822-7a43-4976-a153-ba862d6dfd82">TexBlt</a>
  
 
  

@@ -52,34 +52,6 @@ req.typenames: D3DKMT_FLIPMODEL_PRESENTHISTORYTOKENFLAGS
 The D3DKMT_FLIPMODEL_PRESENTHISTORYTOKENFLAGS structure identifies attributes of a flip present-history operation.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DKMT_FLIPMODEL_PRESENTHISTORYTOKENFLAGS {
-  union {
-    struct {
-      UINT Video  :1;
-      UINT RestrictedContent  :1;
-      UINT ClipToView  :1;
-#if (DXGKDDI_INTERFACE_VERSION >= DXGKDDI_INTERFACE_VERSION_WIN8)
-      UINT StereoPreferRight  :1;
-      UINT TemporaryMono  :1;
-      UINT FlipRestart  :1;
-      UINT ScatterBlt  :1;
-      UINT AlphaMode  :2;
-      UINT SignalLimitOnTokenCompletion  :1;
-      UINT Reserved  :22;
-#else 
-      UINT Reserved  :29;
-#endif 
-    };
-    UINT   Value;
-  };
-} D3DKMT_FLIPMODEL_PRESENTHISTORYTOKENFLAGS;
-````
-
-
 ## -struct-fields
 
 
@@ -119,7 +91,7 @@ Supported starting with Windows 8.
 
 A UINT value that specifies whether the driver should use the left image of a stereo allocation for the right and left portions of a stereo frame.
 
-This member should  be set only if the driver reports support for this option in the current display mode by setting the <b>Type</b> member of the <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_vidpn_source_mode.md">D3DKMDT_VIDPN_SOURCE_MODE</a> structure to D3DKMDT_RMT_GRAPHICS_STEREO_ADVANCED_SCAN.
+This member should  be set only if the driver reports support for this option in the current display mode by setting the <b>Type</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff546724">D3DKMDT_VIDPN_SOURCE_MODE</a> structure to D3DKMDT_RMT_GRAPHICS_STEREO_ADVANCED_SCAN.
 
 Setting this member is equivalent to setting the    fifth bit of the 32-bit <b>Value</b> member (0x00000010).
 
@@ -243,10 +215,10 @@ A 32-bit value that identifies the flip present-history operation.
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_presenthistorytoken.md">D3DKMT_PRESENTHISTORYTOKEN</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548188">D3DKMT_PRESENTHISTORYTOKEN</a>
  
 
  

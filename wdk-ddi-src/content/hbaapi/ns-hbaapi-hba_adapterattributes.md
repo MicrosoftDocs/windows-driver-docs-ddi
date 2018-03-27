@@ -49,29 +49,7 @@ req.typenames: HBA_ADAPTERATTRIBUTES, *PHBA_ADAPTERATTRIBUTES
 ## -description
 
 
-The HBA_AdapterAttributes structure is used in conjunction with the <a href="..\hbaapi\nf-hbaapi-hba_getadapterattributes.md">HBA_GetAdapterAttributes</a> routine to report the attributes of an HBA.
-
-
-## -syntax
-
-
-````
-typedef struct HBA_AdapterAttributes {
-  char       Manufacturer[64];
-  char       SerialNumber[64];
-  char       Model[256];
-  char       ModelDescription[256];
-  HBA_WWN    NodeWWN;
-  char       NodeSymbolicName[256];
-  char       HardwareVersion[256];
-  char       DriverVersion[256];
-  char       OptionROMVersion[256];
-  char       FirmwareVersion[256];
-  HBA_UINT32 VendorSpecificID;
-  HBA_UINT32 NumberOfPorts;
-  char       DriverName[256];
-} HBA_ADAPTERATTRIBUTES, *PHBA_ADAPTERATTRIBUTES;
-````
+The HBA_AdapterAttributes structure is used in conjunction with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556078">HBA_GetAdapterAttributes</a> routine to report the attributes of an HBA.
 
 
 ## -struct-fields
@@ -146,10 +124,10 @@ Contains a string not exceeding 256 bytes in length that indicates name of the f
 
 ## -see-also
 
-<a href="..\hbaapi\nf-hbaapi-hba_getadapterattributes.md">HBA_GetAdapterAttributes</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556078">HBA_GetAdapterAttributes</a>
  
 
  

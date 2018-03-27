@@ -55,20 +55,6 @@ req.product: Windows 10 or later.
 A driver's <i>EvtDeviceD0Exit</i> event callback function performs operations that are needed when the driver's device leaves the D0 power state.
 
 
-## -prototype
-
-
-````
-EVT_WDF_DEVICE_D0_EXIT EvtDeviceD0Exit;
-
-NTSTATUS EvtDeviceD0Exit(
-  _In_ WDFDEVICE              Device,
-  _In_ WDF_POWER_DEVICE_STATE TargetState
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -81,7 +67,7 @@ A handle to a framework device object.
 
 ### -param TargetState [in]
 
-A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_power_device_state.md">WDF_POWER_DEVICE_STATE</a>-typed enumerator that identifies the device power state that the device is about to enter.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff552421">WDF_POWER_DEVICE_STATE</a>-typed enumerator that identifies the device power state that the device is about to enter.
 
 
 ## -returns
@@ -97,7 +83,7 @@ If the <i>EvtDeviceD0Exit</i> callback function encounters no errors, it must re
 
 
 
-To register an <i>EvtDeviceD0Exit</i> callback function, a driver must call <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetpnppowereventcallbacks.md">WdfDeviceInitSetPnpPowerEventCallbacks</a>. 
+To register an <i>EvtDeviceD0Exit</i> callback function, a driver must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff546135">WdfDeviceInitSetPnpPowerEventCallbacks</a>. 
 
 If the driver has registered an <i>EvtDeviceD0Exit</i> callback function, the framework calls the function each time one of the driver's devices leaves its working (D0) state. A device leaves the D0 state when one of the following occurs:
 
@@ -175,10 +161,10 @@ The <b>EVT_WDF_DEVICE_D0_EXIT</b> function type is defined in the Wdfdevice.h he
 
 ## -see-also
 
-<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_d0_entry.md">EvtDeviceD0Entry</a>
 
 
 
+<a href="https://msdn.microsoft.com/0cfabb0f-2d5e-4445-8683-d2916de5b549">EvtDeviceD0Entry</a>
  
 
  

@@ -54,19 +54,6 @@ req.typenames: FILE_TIMESTAMPS, *PFILE_TIMESTAMPS
 The <b>FILE_TIMESTAMPS</b> structure specifies the last recorded instance of specific actions on a file.
 
 
-## -syntax
-
-
-````
-typedef struct _File_TIMESTAMPS {
-  LARGE_INTEGER CreationTime;
-  LARGE_INTEGER LastAccessTime;
-  LARGE_INTEGER LastWriteTime;
-  LARGE_INTEGER ChangeTime;
-} FILE_TIMESTAMPS, *PFILE_TIMESTAMPS;
-````
-
-
 ## -struct-fields
 
 
@@ -94,10 +81,10 @@ Specifies the last time a file was changed or modified.
 
 ## -see-also
 
-<a href="..\ntifs\ns-ntifs-_atomic_create_ecp_context.md">ATOMIC_CREATE_ECP_CONTEXT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt734230">ATOMIC_CREATE_ECP_CONTEXT</a>
  
 
  

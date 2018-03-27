@@ -52,18 +52,6 @@ req.typenames: D3D10_1_DDI_BLEND_DESC
 The D3D10_1_DDI_BLEND_DESC structure describes a blend state.
 
 
-## -syntax
-
-
-````
-typedef struct D3D10_1_DDI_BLEND_DESC {
-  BOOL                                AlphaToCoverageEnable;
-  BOOL                                IndependentBlendEnable;
-  D3D10_DDI_RENDER_TARGET_BLEND_DESC1 RenderTarget[D3D10_DDI_SIMULTANEOUS_RENDER_TARGET_COUNT];
-} D3D10_1_DDI_BLEND_DESC;
-````
-
-
 ## -struct-fields
 
 
@@ -76,36 +64,36 @@ typedef struct D3D10_1_DDI_BLEND_DESC {
 
 ### -field IndependentBlendEnable
 
-[in] A Boolean value that specifies only whether the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10_1ddi_calcprivateblendstatesize.md">CalcPrivateBlendStateSize(D3D10_1)</a> function replicated the first entry in the array that the <b>RenderTarget</b> member specifies to the other entries of that array. <b>TRUE</b> indicates the first entry was not replicated; <b>FALSE</b> indicates that the first entry in the array in the <b>RenderTarget</b> member is replicated to the other entries of the array. 
+[in] A Boolean value that specifies only whether the <a href="https://msdn.microsoft.com/6f48290e-d571-4e59-9f33-58398db5b6fb">CalcPrivateBlendStateSize(D3D10_1)</a> function replicated the first entry in the array that the <b>RenderTarget</b> member specifies to the other entries of that array. <b>TRUE</b> indicates the first entry was not replicated; <b>FALSE</b> indicates that the first entry in the array in the <b>RenderTarget</b> member is replicated to the other entries of the array. 
 
 
 ### -field RenderTarget
 
-[in] An array of <a href="..\d3d10umddi\ns-d3d10umddi-d3d10_ddi_render_target_blend_desc1.md">D3D10_DDI_RENDER_TARGET_BLEND_DESC1</a> structures that indicate the blend state for each associated render target.
+[in] An array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff541990">D3D10_DDI_RENDER_TARGET_BLEND_DESC1</a> structures that indicate the blend state for each associated render target.
 
 
 ## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10_ddi_render_target_blend_desc1.md">D3D10_DDI_RENDER_TARGET_BLEND_DESC1</a>
 
 
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10_1ddi_createblendstate.md">CreateBlendState(D3D10_1)</a>
+<a href="https://msdn.microsoft.com/6f48290e-d571-4e59-9f33-58398db5b6fb">CalcPrivateBlendStateSize(D3D10_1)</a>
 
 
 
-<a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_blend.md">D3D10_DDI_BLEND</a>
+<a href="https://msdn.microsoft.com/1b258f28-c386-477c-92d1-cb5918080dcf">CreateBlendState(D3D10_1)</a>
 
 
 
-<a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_blend_op.md">D3D10_DDI_BLEND_OP</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541916">D3D10_DDI_BLEND</a>
 
 
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10_1ddi_calcprivateblendstatesize.md">CalcPrivateBlendStateSize(D3D10_1)</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541923">D3D10_DDI_BLEND_OP</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541990">D3D10_DDI_RENDER_TARGET_BLEND_DESC1</a>
  
 
  

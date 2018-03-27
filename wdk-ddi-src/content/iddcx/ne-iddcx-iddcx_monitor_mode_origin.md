@@ -54,18 +54,6 @@ req.typenames:
                 
 
 
-## -syntax
-
-
-````
-typedef enum _IDDCX_MONITOR_MODE_ORIGIN { 
-  IDDCX_MONITOR_MODE_ORIGIN_UNINITIALIZED      = 0,
-  IDDCX_MONITOR_MODE_ORIGIN_MONITORDESCRIPTOR  = 1,
-  IDDCX_MONITOR_MODE_ORIGIN_DRIVER             = 2
-} IDDCX_MONITOR_MODE_ORIGIN;
-````
-
-
 ## -enum-fields
 
 

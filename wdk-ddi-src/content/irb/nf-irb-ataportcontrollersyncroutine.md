@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,17 +51,6 @@ req.typenames: IDE_POWER_STATE
 
 The <b>AtaPortControllerSyncRoutine</b> routine provides synchronized access to data structures that are shared across all channels on a controller.
 <div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
-
-## -syntax
-
-
-````
-BOOLEAN __inline AtaPortControllerSyncRoutine(
-  _In_ PVOID      ChannelExtension,
-  _In_ IDE_HW_DPC ControllerSyncRoutine
-);
-````
-
 
 ## -parameters
 
@@ -121,10 +110,10 @@ VOID
 
 ## -see-also
 
-<a href="..\irb\nf-irb-ataportrequestsynchronizedroutine.md">AtaPortRequestSynchronizedRoutine</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550223">AtaPortRequestSynchronizedRoutine</a>
  
 
  

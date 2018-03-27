@@ -52,19 +52,6 @@ req.typenames: D3DWDDM2_2DDI_CORELAYER_DEVICECALLBACKS
 Specifies core layer device callback functions. 
 
 
-## -syntax
-
-
-````
-typedef struct D3DWDDM2_2DDI_CORELAYER_DEVICECALLBACKS {
-  PFND3DWDDM2_2DDI_SHADERCACHE_GET_VALUE         pfnShaderCacheGetValue;
-  PFND3DWDDM2_2DDI_SHADERCACHE_STORE_VALUE       pfnShaderCacheStoreValue;
-  PFND3DWDDM2_2DDI_SHADERCACHE_ADDREF_RELEASE_CB pfnShaderCacheAddRefCb;
-  PFND3DWDDM2_2DDI_SHADERCACHE_ADDREF_RELEASE_CB pfnShaderCacheReleaseCb;
-} D3DWDDM2_2DDI_CORELAYER_DEVICECALLBACKS;
-````
-
-
 ## -struct-fields
 
 

@@ -52,27 +52,6 @@ req.typenames: D3D12DDI_DEVICE_FUNCS_CONTENT_PROTECTION_STREAMING_0030
 Device function for content protection streaming.
 
 
-## -syntax
-
-
-````
-typedef struct _D3D12DDI_DEVICE_FUNCS_CONTENT_PROTECTION_STREAMING_0030 {
-  PFND3D12DDI_CALCPRIVATECRYPTOSESSIONSIZE_0030              pfnCalcPrivateCryptoSessionSize;
-  PFND3D12DDI_CREATECRYPTOSESSION_0030                       pfnCreateCryptoSession;
-  PFND3D12DDI_CALCPRIVATEOPENEDCRYPTOSESSIONSIZE_0030        pfnCalcPrivateOpenedCryptoSessionSize;
-  PFND3D12DDI_OPENCRYPTOSESSION_0030                         pfnOpenCryptoSession;
-  PFND3D12DDI_DESTROYCRYPTOSESSION_0030                      pfnDestroyCryptoSession;
-  PFND3D12DDI_GETKEYBASEDATA_0030                            pfnGetKeyBaseData;
-  PFND3D12DDI_CALCPRIVATECRYPTOSESSIONPOLICYSIZE_0030        pfnCalcPrivateCryptoSessionPolicySize;
-  PFND3D12DDI_CREATECRYPTOSESSIONPOLICY_0030                 pfnCreateCryptoSessionPolicy;
-  PFND3D12DDI_CALCPRIVATEOPENEDCRYPTOSESSIONPOLICYSIZE_0030  pfnCalcPrivateOpenedCryptoSessionPolicySize;
-  PFND3D12DDI_OPENCRYPTOSESSIONPOLICY_0030                   pfnOpenCryptoSessionPolicy;
-  PFND3D12DDI_DESTROYCRYPTOSESSIONPOLICY_0030                pfnDestroyCryptoSessionPolicy;
-  PFND3D12DDI_TRANSFORMENCRYPTEDDATA_0030                    pfnTransformEncryptedData;
-} D3D12DDI_DEVICE_FUNCS_CONTENT_PROTECTION_STREAMING_0030, D3D12DDI_DEVICE_FUNCS_CONTENT_PROTECTION_STREAMING_0030;
-````
-
-
 ## -struct-fields
 
 

@@ -55,17 +55,6 @@ The
   the NDIS interface stack.
 
 
-## -syntax
-
-
-````
-VOID NdisIfDeleteIfStackEntry(
-  _In_ NET_IFINDEX HigherLayerIfIndex,
-  _In_ NET_IFINDEX LowerLayerIfIndex
-);
-````
-
-
 ## -parameters
 
 
@@ -96,7 +85,7 @@ None
 
 NDIS drivers call 
     <b>NdisIfDeleteIfStackEntry</b> to delete a stack entry that was previously added by calling the 
-    <a href="..\ndis\nf-ndis-ndisifaddifstackentry.md">NdisIfAddIfStackEntry</a> function. NDIS
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff562693">NdisIfAddIfStackEntry</a> function. NDIS
     deletes the stack entry from its interface stack table if it finds a matching entry.
 
 NDIS maintains an interface stack table (<i>ifStackTable</i> from 
@@ -110,10 +99,10 @@ NDIS maintains an interface stack table (<i>ifStackTable</i> from
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisifaddifstackentry.md">NdisIfAddIfStackEntry</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562693">NdisIfAddIfStackEntry</a>
  
 
  

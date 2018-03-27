@@ -49,20 +49,7 @@ req.typenames: CDROM_TOC_SESSION_DATA, *PCDROM_TOC_SESSION_DATA
 ## -description
 
 
-Device control IRPs with a control code of <a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_read_toc_ex.md">IOCTL_CDROM_READ_TOC_EX</a> and a format of CDROM_READ_TOC_EX_FORMAT_SESSION return their output data in this structure followed by a series of <a href="..\ntddcdrm\ns-ntddcdrm-_track_data.md">TRACK_DATA</a> structures. 
-
-
-## -syntax
-
-
-````
-typedef struct _CDROM_TOC_SESSION_DATA {
-  UCHAR      Length[2];
-  UCHAR      FirstCompleteSession;
-  UCHAR      LastCompleteSession;
-  TRACK_DATA TrackData[1];
-} CDROM_TOC_SESSION_DATA, *PCDROM_TOC_SESSION_DATA;
-````
+Device control IRPs with a control code of <a href="https://msdn.microsoft.com/library/windows/hardware/ff559367">IOCTL_CDROM_READ_TOC_EX</a> and a format of CDROM_READ_TOC_EX_FORMAT_SESSION return their output data in this structure followed by a series of <a href="https://msdn.microsoft.com/library/windows/hardware/ff567982">TRACK_DATA</a> structures. 
 
 
 ## -struct-fields
@@ -92,18 +79,18 @@ Contains data for the first track of the last finished session. This data includ
 
 ## -see-also
 
-<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_read_toc_ex.md">CDROM_READ_TOC_EX</a>
 
 
 
-<a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_read_toc_ex.md">IOCTL_CDROM_READ_TOC_EX</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551366">CDROM_READ_TOC_EX</a>
 
 
 
-<a href="..\ntddcdrm\ns-ntddcdrm-_track_data.md">TRACK_DATA</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559367">IOCTL_CDROM_READ_TOC_EX</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567982">TRACK_DATA</a>
  
 
  

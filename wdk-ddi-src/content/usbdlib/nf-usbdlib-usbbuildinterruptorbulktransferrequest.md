@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: usbdlib.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -50,24 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The <b>UsbBuildInterruptOrBulkTransferRequest</b> macro formats an <a href="..\usb\ns-usb-_urb.md">URB</a> to send or receive data on a bulk pipe, or to receive data from an interrupt pipe.
-
-
-## -syntax
-
-
-````
-void UsbBuildInterruptOrBulkTransferRequest(
-  _Inout_  PURB             urb,
-  _In_     USHORT           length,
-  _In_     USBD_PIPE_HANDLE pipeHandle,
-  _In_opt_ PVOID            transferBuffer,
-  _In_opt_ PMDL             transferBufferMDL,
-  _In_     ULONG            transferBufferLength,
-  _In_     ULONG            transferFlags,
-  _In_     PURB             link
-);
-````
+The <b>UsbBuildInterruptOrBulkTransferRequest</b> macro formats an <a href="https://msdn.microsoft.com/library/windows/hardware/ff538923">URB</a> to send or receive data on a bulk pipe, or to receive data from an interrupt pipe.
 
 
 ## -parameters
@@ -77,12 +60,12 @@ void UsbBuildInterruptOrBulkTransferRequest(
 
 ### -param urb [in, out]
 
-Pointer to an <a href="..\usb\ns-usb-_urb.md">URB</a> to be formatted as an interrupt or bulk transfer request.
+Pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff538923">URB</a> to be formatted as an interrupt or bulk transfer request.
 
 
 ### -param length [in]
 
-Specifies the size, in bytes, of the <a href="..\usb\ns-usb-_urb.md">URB</a>.
+Specifies the size, in bytes, of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff538923">URB</a>.
 
 
 ### -param pipeHandle [in]
@@ -131,11 +114,10 @@ Reserved. Must be set to <b>NULL</b>.
 
 ## -see-also
 
-<a href="..\usbspec\ns-usbspec-_usb_device_descriptor.md">USB_DEVICE_DESCRIPTOR</a>
 
 
 
-<a href="..\usb\ns-usb-_urb.md">URB</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538923">URB</a>
 
 
 
@@ -143,6 +125,7 @@ Reserved. Must be set to <b>NULL</b>.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539280">USB_DEVICE_DESCRIPTOR</a>
  
 
  

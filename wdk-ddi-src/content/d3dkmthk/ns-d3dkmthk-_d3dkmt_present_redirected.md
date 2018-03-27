@@ -52,19 +52,6 @@ req.typenames: D3DKMT_PRESENT_REDIRECTED
 Used to give information on the status of the present history token.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DKMT_PRESENT_REDIRECTED {
-  D3DKMT_HANDLE                   hSyncObj;
-  ULONGLONG                       WaitedFenceValue;
-  D3DKMT_PRESENTHISTORYTOKEN      PresentHistoryToken;
-  D3DKMT_PRESENT_REDIRECTED_FLAGS Flags;
-} D3DKMT_PRESENT_REDIRECTED;
-````
-
-
 ## -struct-fields
 
 

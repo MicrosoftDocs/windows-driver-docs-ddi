@@ -52,45 +52,6 @@ req.typenames: NDIS_NDK_PERFORMANCE_COUNTERS, *PNDIS_NDK_PERFORMANCE_COUNTERS
 The <b>NDIS_NDK_PERFORMANCE_COUNTERS</b> structure contains the NDK performance counters. 
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_NDK_PERFORMANCE_COUNTERS {
-  ULONG64 Connect;
-  ULONG64 Accept;
-  ULONG64 ConnectFailure;
-  ULONG64 ConnectionError;
-  ULONG64 ActiveConnection;
-  ULONG64 Reserved01;
-  ULONG64 Reserved02;
-  ULONG64 Reserved03;
-  ULONG64 Reserved04;
-  ULONG64 Reserved05;
-  ULONG64 Reserved06;
-  ULONG64 Reserved07;
-  ULONG64 Reserved08;
-  ULONG64 Reserved09;
-  ULONG64 Reserved10;
-  ULONG64 Reserved11;
-  ULONG64 Reserved12;
-  ULONG64 Reserved13;
-  ULONG64 Reserved14;
-  ULONG64 Reserved15;
-  ULONG64 Reserved16;
-  ULONG64 Reserved17;
-  ULONG64 Reserved18;
-  ULONG64 Reserved19;
-  ULONG64 Reserved20;
-  ULONG64 CQError;
-  ULONG64 RDMAInOctets;
-  ULONG64 RDMAOutOctets;
-  ULONG64 RDMAInFrames;
-  ULONG64 RDMAOutFrames;
-} NDIS_NDK_PERFORMANCE_COUNTERS, *PNDIS_NDK_PERFORMANCE_COUNTERS;
-````
-
-
 ## -struct-fields
 
 
@@ -98,12 +59,12 @@ typedef struct _NDIS_NDK_PERFORMANCE_COUNTERS {
 
 ### -field Connect
 
-The number of outbound connections established. In a bitmask of counters (for example, <b>MissingCounterMask</b> member of the <a href="..\ntddndis\ns-ntddndis-_ndis_ndk_capabilities.md">NDIS_NDK_CAPABILITIES</a> structure), this is counter 0.
+The number of outbound connections established. In a bitmask of counters (for example, <b>MissingCounterMask</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451560">NDIS_NDK_CAPABILITIES</a> structure), this is counter 0.
 
 
 ### -field Accept
 
-The number of inbound <i>RDMA</i> connections established. In a bitmask of counters (for example, <b>MissingCounterMask</b> member of the <a href="..\ntddndis\ns-ntddndis-_ndis_ndk_capabilities.md">NDIS_NDK_CAPABILITIES</a> structure), this is counter 1.
+The number of inbound <i>RDMA</i> connections established. In a bitmask of counters (for example, <b>MissingCounterMask</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451560">NDIS_NDK_CAPABILITIES</a> structure), this is counter 1.
 
 
 ### -field ConnectFailure
@@ -250,13 +211,13 @@ The number, in frames,  of layer two frames that carry outgoing <i>RDMA</i> traf
 
 
 
-The <b>NDIS_NDK_PERFORMANCE_COUNTERS</b> structure is used in the <b>CounterSet</b>  member of the <a href="..\ntddndis\ns-ntddndis-_ndis_ndk_statistics_info.md">NDIS_NDK_STATISTICS_INFO</a> structure. 
+The <b>NDIS_NDK_PERFORMANCE_COUNTERS</b> structure is used in the <b>CounterSet</b>  member of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451567">NDIS_NDK_STATISTICS_INFO</a> structure. 
 
 NDK providers are required to support all the performance counters that are included
     in the <b>NDIS_NDK_PERFORMANCE_COUNTERS</b> structure. However, in the rare case that
     a provider cannot support a counter due to extreme implementation difficulties,
     the provider must indicate any unsupported counters with the mask value for the
-    counter which it cannot support. The <b>MissingCounterMask</b>  parameter of the <a href="..\ntddndis\ns-ntddndis-_ndis_ndk_capabilities.md">NDIS_NDK_CAPABILITIES</a> structure specifies a bitmask that identifies counters that an NDK provider does not support.
+    counter which it cannot support. The <b>MissingCounterMask</b>  parameter of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451560">NDIS_NDK_CAPABILITIES</a> structure specifies a bitmask that identifies counters that an NDK provider does not support.
 
 All <b>ReservedXX</b> counters must be set to zero by providers and are ignored by NDIS. The term <i>RDMA</i> refers to all NDKPI and NDSPI activity as well as activity through any other RDMA programming interface that might be exposed by the provider. All providers must report the NDKPI and NDSPI activity with these counters, but reporting activity for other RDMA programming interfaces is not a strict requirement. The term <i>RDMA traffic</i> for the RDMA in, out, byte, and frame counters refers to all RDMA activity originating from NDKPI, NDSPI, and other RDMA programming interfaces (if any). This includes reads and writes (that is, direct data placement) as well as sends and receives. This also should also include all of the associated layer two protocol overhead. That is, <i>RDMA traffic</i> on an NDK-capable adapter includes all traffic through the adapter except for traffic that is  delivered through the standard NDIS send and receive interface and TCP chimney by NDIS protocol drivers.
 
@@ -265,14 +226,14 @@ All <b>ReservedXX</b> counters must be set to zero by providers and are ignored 
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_ndk_statistics_info.md">NDIS_NDK_STATISTICS_INFO</a>
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_ndk_capabilities.md">NDIS_NDK_CAPABILITIES</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451560">NDIS_NDK_CAPABILITIES</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451567">NDIS_NDK_STATISTICS_INFO</a>
  
 
  

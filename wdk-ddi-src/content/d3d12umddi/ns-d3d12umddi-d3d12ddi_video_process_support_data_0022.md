@@ -52,30 +52,6 @@ req.typenames: D3D12DDI_VIDEO_PROCESS_SUPPORT_DATA_0022
 Specifies information used to retrieve capabilities for a video processor.
 
 
-## -syntax
-
-
-````
-typedef struct D3D12DDI_VIDEO_PROCESS_SUPPORT_DATA_0022 {
-  UINT                                              NodeIndex;
-  D3D12DDI_VIDEO_SAMPLE_DESCRIPTION_0020            InputSample;
-  D3D12DDI_VIDEO_FIELD_TYPE_0020                    InputFieldType;
-  D3D12DDI_VIDEO_FRAME_STEREO_FORMAT_0020           InputStereoFormat;
-  DXGI_RATIONAL                                     InputFrameRate;
-  D3D12DDI_VIDEO_FORMAT_DESCRIPTION_0020            OutputFormat;
-  D3D12DDI_VIDEO_FRAME_STEREO_FORMAT_0020           OutputStereoFormat;
-  DXGI_RATIONAL                                     OutputFrameRate;
-  D3D12DDI_VIDEO_PROCESS_SUPPORT_FLAGS_0022         SupportFlags;
-  D3D12DDI_VIDEO_SCALE_SUPPORT_0022                 ScaleSupport;
-  D3D12DDI_VIDEO_PROCESS_FEATURE_SUPPORT_FLAGS_0020 FeatureSupport;
-  D3D12DDI_VIDEO_PROCESS_DEINTERLACE_FLAGS_0020     DeinterlaceSupport;
-  D3D12DDI_VIDEO_PROCESS_AUTO_PROCESSING_FLAGS_0022 AutoProcessingSupport;
-  D3D12DDI_VIDEO_PROCESS_FILTER_FLAGS_0020          FilterSupport;
-  D3D12DDI_VIDEO_PROCESS_FILTER_RANGE_0020          FilterRangeSupport[D3D12DDI_VIDEO_PROCESS_MAX_FILTERS];
-} D3D12DDI_VIDEO_PROCESS_SUPPORT_DATA_0022;
-````
-
-
 ## -struct-fields
 
 
@@ -88,17 +64,17 @@ In multi-adapter operation, this indicates which physical adapter of the device 
 
 ### -field InputSample
 
-The input width, height, and format.  For more information, see the <a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddi_video_sample_description_0020.md">D3D12DDI_VIDEO_SAMPLE_DESCRIPTION</a> structure.
+The input width, height, and format.  For more information, see the <a href="https://msdn.microsoft.com/B9918A06-6C10-4AD7-97EC-4FA0BC5319AD">D3D12DDI_VIDEO_SAMPLE_DESCRIPTION</a> structure.
 
 
 ### -field InputFieldType
 
-The interlaced field type of the input sample.  For more information, see the <a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_video_field_type_0020.md">D3D12DDI_VIDEO_FIELD_TYPE</a> enumeration.
+The interlaced field type of the input sample.  For more information, see the <a href="https://msdn.microsoft.com/869BF62F-C8FE-4AD8-A413-65FBE97EE7FB">D3D12DDI_VIDEO_FIELD_TYPE</a> enumeration.
 
 
 ### -field InputStereoFormat
 
-The stereo format of the input.  For more information, see the <a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_video_frame_stereo_format_0020.md">D3D12DDI_VIDEO_FRAME_STEREO_FORMAT</a> enumeration.
+The stereo format of the input.  For more information, see the <a href="https://msdn.microsoft.com/91C5C387-320C-4ABE-98AB-36D2CDE7428F">D3D12DDI_VIDEO_FRAME_STEREO_FORMAT</a> enumeration.
 
 
 ### -field InputFrameRate
@@ -108,12 +84,12 @@ The input frame rate.
 
 ### -field OutputFormat
 
-The output DXGI format and color space.  For more information, see the <a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddi_video_format_description_0020.md">D3D12DDI_VIDEO_FORMAT_DESCRIPTION</a> structure.
+The output DXGI format and color space.  For more information, see the <a href="https://msdn.microsoft.com/47C0C369-B31B-4291-A420-A1E75BA990CF">D3D12DDI_VIDEO_FORMAT_DESCRIPTION</a> structure.
 
 
 ### -field OutputStereoFormat
 
-The stereo format of the output.  For more information, see the <a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_video_frame_stereo_format_0020.md">D3D12DDI_VIDEO_FRAME_STEREO_FORMAT</a> enumeration.
+The stereo format of the output.  For more information, see the <a href="https://msdn.microsoft.com/91C5C387-320C-4ABE-98AB-36D2CDE7428F">D3D12DDI_VIDEO_FRAME_STEREO_FORMAT</a> enumeration.
 
 
 ### -field OutputFrameRate
@@ -123,22 +99,22 @@ The frame rate of the output.
 
 ### -field SupportFlags
 
-Indicates whether the conversion from input format and colorspace to output format and color space is supported.  For more information, see the <a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_video_process_support_flags_0022.md">D3D12DDI_VIDEO_PROCESS_SUPPORT_FLAGS</a> enumeration. 
+Indicates whether the conversion from input format and colorspace to output format and color space is supported.  For more information, see the <a href="https://msdn.microsoft.com/2E6E1F22-C6E8-4290-A342-B01387633D43">D3D12DDI_VIDEO_PROCESS_SUPPORT_FLAGS</a> enumeration. 
 
 
 ### -field ScaleSupport
 
-Indicates the supported output scale range for the  input to output processing.  For more information, see the <a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddi_video_scale_support_0022.md">D3D12DDI_VIDEO_SCALE_SUPPORT</a> structure.
+Indicates the supported output scale range for the  input to output processing.  For more information, see the <a href="https://msdn.microsoft.com/70FFDE9E-2029-4C84-9DEE-C2E81FEE5590">D3D12DDI_VIDEO_SCALE_SUPPORT</a> structure.
 
 
 ### -field FeatureSupport
 
-A bitwise OR of zero or more flags from the <a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_video_process_feature_support_flags_0020.md">D3D12DDI_VIDEO_PROCESS_FEATURE_SUPPORT_FLAGS</a> enumeration.
+A bitwise OR of zero or more flags from the <a href="https://msdn.microsoft.com/6DBF48B1-44C7-4C53-8488-F1217E6FAA1C">D3D12DDI_VIDEO_PROCESS_FEATURE_SUPPORT_FLAGS</a> enumeration.
 
 
 ### -field DeinterlaceSupport
 
-The deinterlace modes supported by the driver as a bitwise OR of zero or more flags from the <a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_video_process_deinterlace_flags_0020.md">D3D12DDI_VIDEO_PROCESS_DEINTERLACE_FLAGS</a> enumeration.
+The deinterlace modes supported by the driver as a bitwise OR of zero or more flags from the <a href="https://msdn.microsoft.com/7E34CCE5-A771-4EBE-A09B-79424405BFF3">D3D12DDI_VIDEO_PROCESS_DEINTERLACE_FLAGS</a> enumeration.
 
 
 ### -field AutoProcessingSupport
@@ -148,52 +124,52 @@ Indicates the type of auto processing operations supported by driver.
 
 ### -field FilterSupport
 
-A bitwise OR of zero or more flags from the <a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_video_process_filter_flags_0020.md">D3D12DDI_VIDEO_PROCESS_FILTER_FLAGS</a> enumeration.
+A bitwise OR of zero or more flags from the <a href="https://msdn.microsoft.com/28662E87-F6A4-42B0-9BF0-49A6C65B245C">D3D12DDI_VIDEO_PROCESS_FILTER_FLAGS</a> enumeration.
 
 
 ### -field FilterRangeSupport
 
-The list of filter range values.  The order of the range values should be specified in the same order that the filters appear in the <a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_video_process_filter_flags_0020.md">D3D12DDI_VIDEO_PROCESS_FILTER_FLAGS</a> enumeration.  <b>D3D12DDI_VIDEO_PROCESS_MAX_FILTERS</b> range values are available for current and future filters.  The D3D runtime zero initializes any range value that is not supported by the driver.
+The list of filter range values.  The order of the range values should be specified in the same order that the filters appear in the <a href="https://msdn.microsoft.com/28662E87-F6A4-42B0-9BF0-49A6C65B245C">D3D12DDI_VIDEO_PROCESS_FILTER_FLAGS</a> enumeration.  <b>D3D12DDI_VIDEO_PROCESS_MAX_FILTERS</b> range values are available for current and future filters.  The D3D runtime zero initializes any range value that is not supported by the driver.
 
 
 ## -see-also
 
-<a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_video_field_type_0020.md">D3D12DDI_VIDEO_FIELD_TYPE</a>
 
 
 
-<a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_video_process_deinterlace_flags_0020.md">D3D12DDI_VIDEO_PROCESS_DEINTERLACE_FLAGS</a>
+<a href="https://msdn.microsoft.com/869BF62F-C8FE-4AD8-A413-65FBE97EE7FB">D3D12DDI_VIDEO_FIELD_TYPE</a>
 
 
 
-<a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_video_process_filter_flags_0020.md">D3D12DDI_VIDEO_PROCESS_FILTER_FLAGS</a>
+<a href="https://msdn.microsoft.com/47C0C369-B31B-4291-A420-A1E75BA990CF">D3D12DDI_VIDEO_FORMAT_DESCRIPTION</a>
 
 
 
-<a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_video_process_support_flags_0022.md">D3D12DDI_VIDEO_PROCESS_SUPPORT_FLAGS</a>
+<a href="https://msdn.microsoft.com/91C5C387-320C-4ABE-98AB-36D2CDE7428F">D3D12DDI_VIDEO_FRAME_STEREO_FORMAT</a>
 
 
 
-<a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddi_video_sample_description_0020.md">D3D12DDI_VIDEO_SAMPLE_DESCRIPTION</a>
+<a href="https://msdn.microsoft.com/7E34CCE5-A771-4EBE-A09B-79424405BFF3">D3D12DDI_VIDEO_PROCESS_DEINTERLACE_FLAGS</a>
 
 
 
-<a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddi_video_scale_support_0022.md">D3D12DDI_VIDEO_SCALE_SUPPORT</a>
+<a href="https://msdn.microsoft.com/6DBF48B1-44C7-4C53-8488-F1217E6FAA1C">D3D12DDI_VIDEO_PROCESS_FEATURE_SUPPORT_FLAGS</a>
 
 
 
-<a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_video_process_feature_support_flags_0020.md">D3D12DDI_VIDEO_PROCESS_FEATURE_SUPPORT_FLAGS</a>
+<a href="https://msdn.microsoft.com/28662E87-F6A4-42B0-9BF0-49A6C65B245C">D3D12DDI_VIDEO_PROCESS_FILTER_FLAGS</a>
 
 
 
-<a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_video_frame_stereo_format_0020.md">D3D12DDI_VIDEO_FRAME_STEREO_FORMAT</a>
+<a href="https://msdn.microsoft.com/2E6E1F22-C6E8-4290-A342-B01387633D43">D3D12DDI_VIDEO_PROCESS_SUPPORT_FLAGS</a>
 
 
 
-<a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddi_video_format_description_0020.md">D3D12DDI_VIDEO_FORMAT_DESCRIPTION</a>
+<a href="https://msdn.microsoft.com/B9918A06-6C10-4AD7-97EC-4FA0BC5319AD">D3D12DDI_VIDEO_SAMPLE_DESCRIPTION</a>
 
 
 
+<a href="https://msdn.microsoft.com/70FFDE9E-2029-4C84-9DEE-C2E81FEE5590">D3D12DDI_VIDEO_SCALE_SUPPORT</a>
  
 
  

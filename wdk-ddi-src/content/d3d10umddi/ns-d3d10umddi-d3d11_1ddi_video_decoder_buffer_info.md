@@ -52,18 +52,6 @@ req.typenames: D3D11_1DDI_VIDEO_DECODER_BUFFER_INFO
 Specifies information about a video decoder buffer.
 
 
-## -syntax
-
-
-````
-typedef struct D3D11_1DDI_VIDEO_DECODER_BUFFER_INFO {
-  D3D11_1DDI_VIDEO_DECODER_BUFFER_TYPE Type;
-  UINT                                 Size;
-  UINT                                 Usage;
-} D3D11_1DDI_VIDEO_DECODER_BUFFER_INFO;
-````
-
-
 ## -struct-fields
 
 
@@ -71,9 +59,9 @@ typedef struct D3D11_1DDI_VIDEO_DECODER_BUFFER_INFO {
 
 ### -field Type
 
-The type of buffer, specified as a constant value of the <a href="..\d3d10umddi\ne-d3d10umddi-d3d11_ddi_video_decoder_buffer_type.md">D3D11_DDI_VIDEO_DECODER_BUFFER_TYPE</a> enumeration.
+The type of buffer, specified as a constant value of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451066">D3D11_DDI_VIDEO_DECODER_BUFFER_TYPE</a> enumeration.
 
-In D3d10umddi.h, <a href="..\d3d10umddi\ne-d3d10umddi-d3d11_ddi_video_decoder_buffer_type.md">D3D11_DDI_VIDEO_DECODER_BUFFER_TYPE</a> and <b>D3D11_1DDI_VIDEO_DECODER_BUFFER_TYPE</b> are defined as the same type.
+In D3d10umddi.h, <a href="https://msdn.microsoft.com/library/windows/hardware/hh451066">D3D11_DDI_VIDEO_DECODER_BUFFER_TYPE</a> and <b>D3D11_1DDI_VIDEO_DECODER_BUFFER_TYPE</b> are defined as the same type.
 
 
 ### -field Size
@@ -83,19 +71,19 @@ The size of the buffer, in bytes.
 
 ### -field Usage
 
-A value from the <a href="..\d3d10umddi\ne-d3d10umddi-d3d11_1ddi_video_usage.md">D3D11_1DDI_VIDEO_USAGE</a> enumeration that identifies how the decode device plays video.
+A value from the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451037">D3D11_1DDI_VIDEO_USAGE</a> enumeration that identifies how the decode device plays video.
 
 
 ## -see-also
 
-<a href="..\d3d10umddi\ne-d3d10umddi-d3d11_ddi_video_decoder_buffer_type.md">D3D11_DDI_VIDEO_DECODER_BUFFER_TYPE</a>
 
 
 
-<a href="..\d3d10umddi\ne-d3d10umddi-d3d11_1ddi_video_usage.md">D3D11_1DDI_VIDEO_USAGE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451037">D3D11_1DDI_VIDEO_USAGE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451066">D3D11_DDI_VIDEO_DECODER_BUFFER_TYPE</a>
  
 
  

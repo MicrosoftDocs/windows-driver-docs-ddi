@@ -53,34 +53,6 @@ The NET_IF_INFORMATION structure provides NDIS with information about a register
   interface.
 
 
-## -syntax
-
-
-````
-typedef struct _NET_IF_INFORMATION {
-  NDIS_OBJECT_HEADER     Header;
-  ULONG                  Flags;
-  NET_PHYSICAL_LOCATION  PhysicalLocation;
-  ULONG                  WanTunnelType;
-  ULONG                  PortNumber;
-  NET_IF_ACCESS_TYPE     AccessType;
-  NET_IF_DIRECTION_TYPE  DirectionType;
-  NET_IF_CONNECTION_TYPE ConnectionType;
-  BOOLEAN                ifConnectorPresent;
-  USHORT                 PhysAddressLength;
-  USHORT                 PhysAddressOffset;
-  USHORT                 PermanentPhysAddressOffset;
-  USHORT                 FriendlyNameLength;
-  USHORT                 FriendlyNameOffset;
-  GUID                   InterfaceGuid;
-  NET_IF_NETWORK_GUID    NetworkGuid;
-  ULONG                  SupportedStatistics;
-  NDIS_MEDIUM            MediaType;
-  NDIS_PHYSICAL_MEDIUM   PhysicalMediumType;
-} NET_IF_INFORMATION, *PNET_IF_INFORMATION;
-````
-
-
 ## -struct-fields
 
 
@@ -89,7 +61,7 @@ typedef struct _NET_IF_INFORMATION {
 ### -field Header
 
 The 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure for the
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure for the
      interface information structure (NET_IF_INFORMATION). The provider sets the 
      <b>Type</b> member of the structure that 
      <b>Header</b> specifies to NDIS_OBJECT_TYPE_DEFAULT, the 
@@ -228,7 +200,7 @@ The offset of the beginning of the friendly name, in bytes, from the beginning o
 
 The GUID that is associated with the interface. The interface provider generates the interface
      GUID for the interface. The provider can call the 
-     <a href="..\ntddk\nf-ntddk-exuuidcreate.md">ExUuidCreate</a> routine to create the GUID. The
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff545658">ExUuidCreate</a> routine to create the GUID. The
      interface GUID should be associated with the 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff568747">NET_LUID</a> value that is assigned to the interface.
      If the provider retains information about the interface in persistent storage, it should save the GUID
@@ -246,7 +218,7 @@ The GUID that is associated with the network that the interface belongs to. If t
 
 The statistics that the interface supports. For more information, see the 
      <b>SupportedStatistics</b> member of the 
-     <a href="..\ndis\ns-ndis-_ndis_miniport_adapter_general_attributes.md">
+     <a href="https://msdn.microsoft.com/5423d073-02a5-468b-b91e-713ac67a5253">
      NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES</a> structure .
 
 
@@ -254,7 +226,7 @@ The statistics that the interface supports. For more information, see the
 
 The 
      <b>NdisMedium</b><i>Xxx</i> type that the interface supports. For more information, see 
-     <a href="..\ntddndis\ne-ntddndis-_ndis_medium.md">NDIS_MEDIUM</a>.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff565910">NDIS_MEDIUM</a>.
 
 
 ### -field PhysicalMediumType
@@ -271,7 +243,7 @@ The physical medium type for the interface. For more information, see
 A network interface provider initializes a NET_IF_INFORMATION structure to provide NDIS with
     information about a registered interface. To register an interface, a provider passes a pointer to a
     NET_IF_INFORMATION structure to the 
-    <a href="..\ndis\nf-ndis-ndisifregisterinterface.md">
+    <a href="https://msdn.microsoft.com/d0b0ada7-afb1-4cb7-ada6-7c5c7abe7d19">
     NdisIfRegisterInterface</a> function.
 
 The interface provider should allocate enough memory for the structure and the arrays that the 
@@ -285,7 +257,23 @@ The interface provider should allocate enough memory for the structure and the a
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-statistics">OID_GEN_STATISTICS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545658">ExUuidCreate</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565910">NDIS_MEDIUM</a>
+
+
+
+<a href="https://msdn.microsoft.com/5423d073-02a5-468b-b91e-713ac67a5253">
+   NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
 
 
 
@@ -293,23 +281,7 @@ The interface provider should allocate enough memory for the structure and the a
 
 
 
-<a href="..\ntddk\nf-ntddk-exuuidcreate.md">ExUuidCreate</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisifregisterinterface.md">NdisIfRegisterInterface</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569621">OID_GEN_PHYSICAL_MEDIUM</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569069">OID_802_3_CURRENT_ADDRESS</a>
-
-
-
-<a href="..\ntddndis\ne-ntddndis-_ndis_medium.md">NDIS_MEDIUM</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568741">NET_IF_CONNECTION_TYPE</a>
 
 
 
@@ -317,20 +289,7 @@ The interface provider should allocate enough memory for the structure and the a
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_miniport_adapter_general_attributes.md">
-   NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569074">OID_802_3_PERMANENT_ADDRESS</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568741">NET_IF_CONNECTION_TYPE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568747">NET_LUID</a>
 
 
 
@@ -338,10 +297,23 @@ The interface provider should allocate enough memory for the structure and the a
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568747">NET_LUID</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562715">NdisIfRegisterInterface</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569069">OID_802_3_CURRENT_ADDRESS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569074">OID_802_3_PERMANENT_ADDRESS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569621">OID_GEN_PHYSICAL_MEDIUM</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-statistics">OID_GEN_STATISTICS</a>
  
 
  

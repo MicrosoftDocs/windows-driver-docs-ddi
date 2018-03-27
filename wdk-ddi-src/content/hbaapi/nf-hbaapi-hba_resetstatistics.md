@@ -52,17 +52,6 @@ req.typenames: HBA_WWNTYPE
 The <b>HBA_ResetStatistics</b> routine resets the statistics counters for the indicated port and HBA. 
 
 
-## -syntax
-
-
-````
-void HBA_API HBA_ResetStatistics(
-  _In_ HBA_HANDLE HbaHandle,
-  _In_ HBA_UINT32 PortIndex
-);
-````
-
-
 ## -parameters
 
 
@@ -80,7 +69,7 @@ Indicates for which port on the HBA the statistics counters should be reset.
 
 #### - HbaHandle [in]
 
-Contains a value returned by the routine <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a> that identifies the HBA on which the port is located.  
+Contains a value returned by the routine <a href="https://msdn.microsoft.com/library/windows/hardware/ff557097">HBA_OpenAdapter</a> that identifies the HBA on which the port is located.  
 
 
 ## -returns
@@ -103,14 +92,14 @@ The <b>HBA_ResetStatistics</b> routine serves similar purpose to the <b>ResetSta
 
 ## -see-also
 
-<a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557097">HBA_OpenAdapter</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff562501">MSFC_FibrePortHBAMethods WMI Class</a>
-
-
-
  
 
  

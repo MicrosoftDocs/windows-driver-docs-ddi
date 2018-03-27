@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,24 +51,6 @@ req.product: Windows 10 or later.
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef enum _RILINFOCLASS { 
-  RIL_INFOCLASS_VOICE,
-  RIL_INFOCLASS_DATA,
-  RIL_INFOCLASS_FAX,
-  RIL_INFOCLASS_SMS,
-  RIL_INFOCLASS_DATACIRCUITSYNC,
-  RIL_INFOCLASS_DATACIRCUITASYNC,
-  RIL_INFOCLASS_PACKETACCESS,
-  RIL_INFOCLASS_PADACCESS,
-  RIL_INFOCLASS_ALL
-} RILINFOCLASS;
-````
 
 
 ## -enum-fields

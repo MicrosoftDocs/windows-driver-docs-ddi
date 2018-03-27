@@ -52,20 +52,6 @@ req.typenames: RILSERVICEPROVISIONINGSTATUS
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef enum _RILSERVICEPROVISIONINGSTATUS { 
-  RIL_SVCPROV_NOTPROVISIONED,
-  RIL_SVCPROV_PROVISIONED,
-  RIL_SVCPROV_TEMPMODERESTRICTED,
-  RIL_SVCPROV_TEMPMODEALLOWED,
-  RIL_SVCPROV_MAX
-} RILSERVICEPROVISIONINGSTATUS;
-````
-
-
 ## -enum-fields
 
 

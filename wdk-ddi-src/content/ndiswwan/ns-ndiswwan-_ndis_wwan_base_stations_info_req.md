@@ -52,17 +52,6 @@ req.typenames: NDIS_WWAN_BASE_STATIONS_INFO_REQ, *PNDIS_WWAN_BASE_STATIONS_INFO_
 The <b>NDIS_WWAN_BASE_STATIONS_INFO_REQ</b> structure is used in <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-base-stations-info">OID_WWAN_BASE_STATIONS_INFO</a> query requests to configure aspects of cellular base station information to be used in response.
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_WWAN_BASE_STATIONS_INFO_REQ {
-  NDIS_OBJECT_HEADER          Header;
-  WWAN_BASE_STATIONS_INFO_REQ BaseStationsInfoRequest;
-} NDIS_WWAN_BASE_STATIONS_INFO_REQ, *PNDIS_WWAN_BASE_STATIONS_INFO_REQ;
-````
-
-
 ## -struct-fields
 
 
@@ -116,25 +105,24 @@ sizeof(NDIS_WWAN_BASE_STATIONS_INFO_REQ)
  
 
 For more information about these members, see 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>.
 
 
 ### -field BaseStationsInfoRequest
 
-A formatted <a href="..\wwan\ns-wwan-_wwan_base_stations_info_req.md">WWAN_BASE_STATIONS_INFO_REQ</a> structure that specifies the aspects of base stations information that are requested.
+A formatted <a href="https://msdn.microsoft.com/1948F98B-1F0B-4EB3-A2FF-01DA159B5EEB">WWAN_BASE_STATIONS_INFO_REQ</a> structure that specifies the aspects of base stations information that are requested.
 
 
 ## -see-also
+
+
+
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/mb-base-stations-information-query-support">MB base stations information query support</a>
 
 
 
-<a href="..\wwan\ns-wwan-_wwan_base_stations_info_req.md">WWAN_BASE_STATIONS_INFO_REQ</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
 
 
 
@@ -142,6 +130,7 @@ A formatted <a href="..\wwan\ns-wwan-_wwan_base_stations_info_req.md">WWAN_BASE_
 
 
 
+<a href="https://msdn.microsoft.com/1948F98B-1F0B-4EB3-A2FF-01DA159B5EEB">WWAN_BASE_STATIONS_INFO_REQ</a>
  
 
  

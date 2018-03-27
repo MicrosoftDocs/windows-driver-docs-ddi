@@ -46,11 +46,6 @@ req.typenames: ZONE_DESCRIPTIOR, *PZONE_DESCRIPTIOR
 # IOCTL_MOUNTDEV_QUERY_SUGGESTED_LINK_NAME IOCTL
 
 
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
-
 ## -description
 
 
@@ -84,7 +79,7 @@ Drive letter names must include the full path of the symbolic link in object nam
 
 ### -output-buffer
 
-The client driver must place a variable-length structure of type <a href="..\mountdev\ns-mountdev-_mountdev_suggested_link_name.md">MOUNTDEV_SUGGESTED_LINK_NAME</a>, defined in <i>moundev.h</i>, at the beginning of the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>. Starting at the address of the structure member <i>Name</i>, the client driver must insert the suggested persistent name.
+The client driver must place a variable-length structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff562258">MOUNTDEV_SUGGESTED_LINK_NAME</a>, defined in <i>moundev.h</i>, at the beginning of the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>. Starting at the address of the structure member <i>Name</i>, the client driver must insert the suggested persistent name.
 
 
 ### -output-buffer-length
@@ -121,10 +116,10 @@ If <b>OutputBufferLength</b> is less than the total length of output data, the <
 
 ## -see-also
 
-<a href="..\mountdev\ns-mountdev-_mountdev_suggested_link_name.md">MOUNTDEV_SUGGESTED_LINK_NAME</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562258">MOUNTDEV_SUGGESTED_LINK_NAME</a>
  
 
  

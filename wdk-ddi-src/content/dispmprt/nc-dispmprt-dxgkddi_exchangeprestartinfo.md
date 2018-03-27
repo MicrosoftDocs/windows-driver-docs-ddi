@@ -52,17 +52,6 @@ req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
 Allows very simple data to be exchanged between the OS and driver which may be required prior to DxgkDdiStartDevice device being called and therefore cannot be queried through normal caps or adapter info DDIs.
 
 
-## -prototype
-
-
-````
-NTSTATUS APIENTRY DXGKDDI_EXCHANGEPRESTARTINFO(
-  _In_    const Handle               hAdapter,
-  _Inout_       PDXGK_PRE_START_INFO pPreStartInfo
-);
-````
-
-
 ## -parameters
 
 

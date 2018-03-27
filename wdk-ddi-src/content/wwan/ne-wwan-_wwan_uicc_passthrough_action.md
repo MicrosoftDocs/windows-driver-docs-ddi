@@ -53,18 +53,6 @@ req.product: Windows 10 or later.
 The <b>WWAN_UICC_PASSTHROUGH_ACTION</b> enumeration defines the passthrough action specified by the MB host for a modem miniport adapter after it resets a UICC smart card.
 
 
-## -syntax
-
-
-````
-typedef enum _WWAN_UICC_PASSTHROUGH_ACTION { 
-  WwanUiccPassThroughDisable        = 0,
-  WwanUiccPassThroughEnable         = 1,
-  WwanUiccPassThroughActionMaximum
-} WWAN_UICC_PASSTHROUGH_ACTION;
-````
-
-
 ## -enum-fields
 
 
@@ -88,7 +76,6 @@ The maximum value for this enumeration. This value might change in future versio
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_set_uicc_reset.md">WWAN_SET_UICC_RESET</a>
 
 
 
@@ -96,6 +83,7 @@ The maximum value for this enumeration. This value might change in future versio
 
 
 
+<a href="https://msdn.microsoft.com/33711459-70C8-43D2-974D-B90EC0DD8ED6">WWAN_SET_UICC_RESET</a>
  
 
  

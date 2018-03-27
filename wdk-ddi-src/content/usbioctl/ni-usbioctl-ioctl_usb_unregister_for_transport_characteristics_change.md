@@ -47,11 +47,6 @@ req.product: Windows 10 or later.
 # IOCTL_USB_UNREGISTER_FOR_TRANSPORT_CHARACTERISTICS_CHANGE IOCTL
 
 
-##  Major Code: 
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548649">IRP_MJ_DEVICE_CONTROL</a>
-
 ## -description
 
 
@@ -65,12 +60,12 @@ This request unregisters the caller from getting notifications about transport c
 
 ### -input-buffer
 
-A pointer to a <a href="..\usbioctl\ns-usbioctl-_usb_transport_characteristics_change_unregistration.md">USB_TRANSPORT_CHARACTERISTICS_CHANGE_UNREGISTRATION</a> structure that contains the registration handle previously received by the <a href="..\usbioctl\ni-usbioctl-ioctl_usb_register_for_transport_characteristics_change.md">IOCTL_USB_REGISTER_FOR_TRANSPORT_CHARACTERISTICS_CHANGE</a> request.
+A pointer to a <a href="https://msdn.microsoft.com/22F185EB-103D-4D7D-94B7-D34D48B1C526">USB_TRANSPORT_CHARACTERISTICS_CHANGE_UNREGISTRATION</a> structure that contains the registration handle previously received by the <a href="https://msdn.microsoft.com/4192501F-5A30-463C-924D-CD4F2C8C3764">IOCTL_USB_REGISTER_FOR_TRANSPORT_CHARACTERISTICS_CHANGE</a> request.
 
 
 ### -input-buffer-length
 
-The size of the <a href="..\usbioctl\ns-usbioctl-_usb_transport_characteristics_change_unregistration.md">USB_TRANSPORT_CHARACTERISTICS_CHANGE_UNREGISTRATION</a> structure.
+The size of the <a href="https://msdn.microsoft.com/22F185EB-103D-4D7D-94B7-D34D48B1C526">USB_TRANSPORT_CHARACTERISTICS_CHANGE_UNREGISTRATION</a> structure.
 
 
 ### -output-buffer
@@ -125,11 +120,6 @@ After this request completes the registration handle is considered to be stale a
 
 ## -see-also
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
-
-
-
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
 
 
 
@@ -137,14 +127,19 @@ After this request completes the registration handle is considered to be stale a
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
-
-
-
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/usbcon/usb-client-drivers-for-ma-usb">USB client drivers for Media-Agnostic (MA-USB)</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548651">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548656">WdfIoTargetSendInternalIoctlSynchronously</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548660">WdfIoTargetSendIoctlSynchronously</a>
  
 
  

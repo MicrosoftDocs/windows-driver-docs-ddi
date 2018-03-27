@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: Any
 topic_type:
@@ -51,18 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>StorPortSetUnitAttributes</b> routine registers the power attributes of a storage unit device with the Storport driver.
-
-
-## -syntax
-
-
-````
-ULONG StorPortSetUnitAttributes(
-  _In_ PVOID                HwDeviceExtension,
-  _In_ PSTOR_ADDRESS        Address,
-  _In_ STOR_UNIT_ATTRIBUTES Attributes
-);
-````
 
 
 ## -parameters
@@ -147,14 +135,14 @@ A miniport driver will call this routine to register the unit attributes with St
 
 ## -see-also
 
-<a href="..\storport\ns-storport-_stor_unit_attributes.md">STOR_UNIT_ATTRIBUTES</a>
 
 
 
-<a href="..\storport\ns-storport-_stor_address.md">STOR_ADDRESS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451518">STOR_ADDRESS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj206458">STOR_UNIT_ATTRIBUTES</a>
  
 
  

@@ -52,25 +52,6 @@ req.typenames: DXGI_DDI_ARG_BLT_FLAGS
 The DXGI_DDI_ARG_BLT_FLAGS structure identifies the type of bit-block transfer (bitblt) to perform.
 
 
-## -syntax
-
-
-````
-typedef struct DXGI_DDI_ARG_BLT_FLAGS {
-  union {
-    struct {
-      UINT Resolve  :1;
-      UINT Convert  :1;
-      UINT Stretch  :1;
-      UINT Present  :1;
-      UINT Reserved  :28;
-    };
-    UINT   Value;
-  };
-} DXGI_DDI_ARG_BLT_FLAGS;
-````
-
-
 ## -struct-fields
 
 
@@ -116,10 +97,10 @@ A member in the union that DXGI_DDI_ARG_BLT_FLAGS contains that can hold a 32-bi
 
 ## -see-also
 
-<a href="..\dxgiddi\ns-dxgiddi-dxgi_ddi_arg_blt.md">DXGI_DDI_ARG_BLT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557447">DXGI_DDI_ARG_BLT</a>
  
 
  

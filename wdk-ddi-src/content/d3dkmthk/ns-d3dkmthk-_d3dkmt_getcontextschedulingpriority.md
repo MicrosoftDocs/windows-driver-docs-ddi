@@ -52,17 +52,6 @@ req.typenames: D3DKMT_GETCONTEXTSCHEDULINGPRIORITY
 The D3DKMT_GETDEVICESCHEDULINGPRIORITY structure describes parameters for retrieving scheduling priority for a device context. 
 
 
-## -syntax
-
-
-````
-typedef struct _D3DKMT_GETCONTEXTSCHEDULINGPRIORITY {
-  D3DKMT_HANDLE hContext;
-  INT           Priority;
-} D3DKMT_GETCONTEXTSCHEDULINGPRIORITY;
-````
-
-
 ## -struct-fields
 
 
@@ -80,10 +69,10 @@ typedef struct _D3DKMT_GETCONTEXTSCHEDULINGPRIORITY {
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtgetcontextschedulingpriority.md">D3DKMTGetContextSchedulingPriority</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546957">D3DKMTGetContextSchedulingPriority</a>
  
 
  

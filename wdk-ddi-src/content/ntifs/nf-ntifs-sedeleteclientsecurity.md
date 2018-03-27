@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: ntifs.h
+req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
@@ -50,16 +50,6 @@ req.typenames: TOKEN_TYPE
 
 
 The <b>SeDeleteClientSecurity</b> routine deletes a client security context.
-
-
-## -syntax
-
-
-````
-VOID SeDeleteClientSecurity(
-  _In_ PSECURITY_CLIENT_CONTEXT ClientContext
-);
-````
 
 
 ## -parameters
@@ -96,14 +86,14 @@ For more information about security and access control, see the documentation on
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-secreateclientsecurityfromsubjectcontext.md">SeCreateClientSecurityFromSubjectContext</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-secreateclientsecurity.md">SeCreateClientSecurity</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556595">SeCreateClientSecurity</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556598">SeCreateClientSecurityFromSubjectContext</a>
  
 
  

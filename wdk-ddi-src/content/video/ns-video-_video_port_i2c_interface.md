@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: "<= DISPATCH_LEVEL"
+req.irql: See Remarks section.
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -51,24 +51,6 @@ req.product: Windows 10 or later.
 
 
 The VIDEO_PORT_I2C_INTERFACE structure describes the <a href="https://msdn.microsoft.com/5a140cc0-ecc5-46ff-be3f-3c92f0f67dca">I2C</a> service routines provided by the video port driver. 
-
-
-## -syntax
-
-
-````
-typedef struct _VIDEO_PORT_I2C_INTERFACE {
-  USHORT                 Size;
-  USHORT                 Version;
-  PVOID                  Context;
-  PINTERFACE_REFERENCE   InterfaceReference;
-  PINTERFACE_DEREFERENCE InterfaceDereference;
-  PI2C_START             I2CStart;
-  PI2C_STOP              I2CStop;
-  PI2C_WRITE             I2CWrite;
-  PI2C_READ              I2CRead;
-} VIDEO_PORT_I2C_INTERFACE, *PVIDEO_PORT_I2C_INTERFACE;
-````
 
 
 ## -struct-fields
@@ -103,43 +85,43 @@ Pointer to the video port driver-implemented dereference routine for this interf
 
 ### -field I2CStart
 
-Pointer to the video port driver's <a href="..\video\nc-video-pi2c_start.md">I2CStart</a> routine.
+Pointer to the video port driver's <a href="https://msdn.microsoft.com/90f0a38d-f50e-4da0-b98f-2f3068f03b2e">I2CStart</a> routine.
 
 
 ### -field I2CStop
 
-Pointer to the video port driver's <a href="..\video\nc-video-pi2c_stop.md">I2CStop</a> routine.
+Pointer to the video port driver's <a href="https://msdn.microsoft.com/535e1603-08e3-4ad1-b4e5-f0368b7d3e71">I2CStop</a> routine.
 
 
 ### -field I2CWrite
 
-Pointer to the video port driver's <a href="..\video\nc-video-pi2c_write.md">I2CWrite</a> routine.
+Pointer to the video port driver's <a href="https://msdn.microsoft.com/5aaebf38-bc09-4fb5-969e-7b456773d5ac">I2CWrite</a> routine.
 
 
 ### -field I2CRead
 
-Pointer to the video port driver's <a href="..\video\nc-video-pi2c_read.md">I2CRead</a> routine.
+Pointer to the video port driver's <a href="https://msdn.microsoft.com/1418ec29-be67-46af-b6db-0b534ecafb37">I2CRead</a> routine.
 
 
 ## -remarks
 
 
 
-PnP video miniport drivers that can use I²C should fill in the <b>Size</b> and <b>Version</b> members of this structure, and then call <a href="..\video\nf-video-videoportqueryservices.md">VideoPortQueryServices</a>, which initializes the remaining members of this structure.
+PnP video miniport drivers that can use I²C should fill in the <b>Size</b> and <b>Version</b> members of this structure, and then call <a href="https://msdn.microsoft.com/library/windows/hardware/ff570337">VideoPortQueryServices</a>, which initializes the remaining members of this structure.
 
 
 
 
 ## -see-also
 
-<a href="..\video\nf-video-videoportqueryservices.md">VideoPortQueryServices</a>
 
 
 
-<a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn895657">INTERFACE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570337">VideoPortQueryServices</a>
  
 
  

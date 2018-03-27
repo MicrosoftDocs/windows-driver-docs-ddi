@@ -54,22 +54,8 @@ req.typenames: PD_BUFFER_VIRTUAL_SUBNET_INFO
 NDIS calls a protocol or intermediate driver's 
   <i>ProtocolTcpOffloadForwardComplete</i> function to complete a forward operation that the driver previously
   initiated by calling the 
-  <a href="..\ndischimney\nf-ndischimney-ndisoffloadtcpdisconnect.md">
+  <a href="https://msdn.microsoft.com/f8abff30-b641-4581-8532-8292993ca9f6">
   NdisOffloadTcpForward</a> function.
-
-
-## -prototype
-
-
-````
-TCP_OFFLOAD_FORWARD_COMPLETE_HANDLER ProtocolTcpOffloadForwardComplete;
-
-VOID ProtocolTcpOffloadForwardComplete(
-  _In_ NDIS_HANDLE      ProtocolBindingContext,
-  _In_ PNET_BUFFER_LIST NetBufferList
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -82,13 +68,13 @@ VOID ProtocolTcpOffloadForwardComplete(
 A handle to a context area allocated by the protocol driver. The driver maintains the per binding
      context information in this context area. The driver supplied this handle to NDIS when the driver called
      the 
-     <a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a> function.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff563715">NdisOpenAdapterEx</a> function.
 
 
 ### -param NetBufferList [in]
 
 A pointer to a 
-     <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure. This structure
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structure. This structure
      can be stand-alone or the first structure in a linked list of NET_BUFFER_LIST structures. The driver
      supplied this pointer as an input parameter in a previous call to the 
      <b>NdisOffloadTcpForward</b> function.
@@ -139,27 +125,27 @@ In response, NDIS calls the overlying driver's or host stack's
 
 ## -see-also
 
-<a href="..\ndischimney\nf-ndischimney-ndisoffloadtcpdisconnect.md">NdisOffloadTcpForward</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
+<a href="https://msdn.microsoft.com/e5702476-60a3-4bfc-b959-198e98f0f9ba">MiniportTcpOffloadForward</a>
 
 
 
-<a href="..\ndischimney\nc-ndischimney-w_tcp_offload_forward_handler.md">MiniportTcpOffloadForward</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a>
 
 
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563702">NdisOffloadTcpForward</a>
 
 
 
-<a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_forward_complete.md">
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563715">NdisOpenAdapterEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/080949ab-8a27-4d13-992e-597210d4882c">
    NdisTcpOffloadForwardComplete</a>
-
-
-
  
 
  

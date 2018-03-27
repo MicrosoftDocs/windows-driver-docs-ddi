@@ -52,25 +52,6 @@ req.typenames: EXpsFontRestriction
 <b>FltQueryEaFile</b> returns information about extended-attribute (EA) values for a file. 
 
 
-## -syntax
-
-
-````
-NTSTATUS FltQueryEaFile(
-  _In_      PFLT_INSTANCE Instance,
-  _In_      PFILE_OBJECT  FileObject,
-  _Out_     PVOID         ReturnedEaData,
-  _In_      ULONG         Length,
-  _In_      BOOLEAN       ReturnSingleEntry,
-  _In_opt_  PVOID         EaList,
-  _In_      ULONG         EaListLength,
-  _In_opt_  PULONG        EaIndex,
-  _In_      BOOLEAN       RestartScan,
-  _Out_opt_ PULONG        LengthReturned
-);
-````
-
-
 ## -parameters
 
 
@@ -88,7 +69,7 @@ File object pointer for the file.
 
 ### -param ReturnedEaData [out]
 
-Pointer to a caller-supplied <a href="..\wdm\ns-wdm-_file_full_ea_information.md">FILE_FULL_EA_INFORMATION</a>-structured input buffer where the extended attribute values are to be returned. 
+Pointer to a caller-supplied <a href="https://msdn.microsoft.com/library/windows/hardware/ff545793">FILE_FULL_EA_INFORMATION</a>-structured input buffer where the extended attribute values are to be returned. 
 
 
 ### -param Length [in]
@@ -103,7 +84,7 @@ Set to <b>TRUE</b> if <b>FltQueryEaFile</b> should return only the first entry t
 
 ### -param EaList [in, optional]
 
-Pointer to a caller-supplied <a href="..\ntifs\ns-ntifs-_file_get_ea_information.md">FILE_GET_EA_INFORMATION</a>-structured input buffer specifying the extended attributes to be queried. This parameter is optional and can be <b>NULL</b>. 
+Pointer to a caller-supplied <a href="https://msdn.microsoft.com/library/windows/hardware/ff540295">FILE_GET_EA_INFORMATION</a>-structured input buffer specifying the extended attributes to be queried. This parameter is optional and can be <b>NULL</b>. 
 
 
 ### -param EaListLength [in]
@@ -178,22 +159,22 @@ The instance or volume is being torn down. This is an error code.
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-iocheckeabuffervalidity.md">IoCheckEaBufferValidity</a>
 
 
 
-<a href="..\wdm\ns-wdm-_file_full_ea_information.md">FILE_FULL_EA_INFORMATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545793">FILE_FULL_EA_INFORMATION</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltseteafile.md">FltSetEaFile</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540295">FILE_GET_EA_INFORMATION</a>
 
 
 
-<a href="..\ntifs\ns-ntifs-_file_get_ea_information.md">FILE_GET_EA_INFORMATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544500">FltSetEaFile</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548252">IoCheckEaBufferValidity</a>
  
 
  

@@ -52,20 +52,6 @@ req.typenames: PUBLIC_OBJECT_BASIC_INFORMATION, *PPUBLIC_OBJECT_BASIC_INFORMATIO
 The PUBLIC_OBJECT_BASIC_INFORMATION structure holds a subset of the full information that is available for an object.
 
 
-## -syntax
-
-
-````
-typedef struct _PUBLIC_OBJECT_BASIC_INFORMATION {
-  ULONG       Attributes;
-  ACCESS_MASK GrantedAccess;
-  ULONG       HandleCount;
-  ULONG       PointerCount;
-  ULONG       Reserved[10];
-} PUBLIC_OBJECT_BASIC_INFORMATION, *PPUBLIC_OBJECT_BASIC_INFORMATION;
-````
-
-
 ## -struct-fields
 
 

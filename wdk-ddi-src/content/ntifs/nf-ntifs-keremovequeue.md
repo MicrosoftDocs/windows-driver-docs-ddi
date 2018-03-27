@@ -52,18 +52,6 @@ req.typenames: TOKEN_TYPE
 The <b>KeRemoveQueue</b> routine gives the calling thread a pointer to a dequeued entry from the given queue object or allows the caller to wait, up to an optional timeout interval, on the queue object. 
 
 
-## -syntax
-
-
-````
-PLIST_ENTRY KeRemoveQueue(
-  _Inout_  PRKQUEUE        Queue,
-  _In_     KPROCESSOR_MODE WaitMode,
-  _In_opt_ PLARGE_INTEGER  Timeout
-);
-````
-
-
 ## -parameters
 
 
@@ -119,14 +107,14 @@ For more information about using driver-managed internal queues, see <a href="ht
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-keinsertheadqueue.md">KeInsertHeadQueue</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-keinsertqueue.md">KeInsertQueue</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549559">KeInsertHeadQueue</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549570">KeInsertQueue</a>
  
 
  

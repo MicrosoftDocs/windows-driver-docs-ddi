@@ -52,19 +52,6 @@ req.typenames: RILUICCSLOTINFO, *LPRILUICCSLOTINFO
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef struct _RILUICCSLOTINFO {
-  DWORD                cbSize;
-  DWORD                dwParams;
-  DWORD                dwNumOfUiccSlots;
-  RILUICCSLOTSTATE [1] dwSlotState;
-} RILUICCSLOTINFO, RILUICCSLOTINFO;
-````
-
-
 ## -struct-fields
 
 

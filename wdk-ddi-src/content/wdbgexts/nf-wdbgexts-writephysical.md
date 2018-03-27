@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,19 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>WritePhysical</b> function writes to physical memory.
-
-
-## -syntax
-
-
-````
-__inline VOID WritePhysical(
-  _In_      ULONG64 address,
-  _In_      PVOID   buf,
-  _In_      ULONG   size,
-  _Out_opt_ PULONG  sizew
-);
-````
 
 
 ## -parameters

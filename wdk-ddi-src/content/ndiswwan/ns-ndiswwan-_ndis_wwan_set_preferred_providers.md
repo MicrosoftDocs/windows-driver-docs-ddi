@@ -53,17 +53,6 @@ The NDIS_WWAN_SET_PREFERRED_PROVIDERS structure represents the list of preferred
   with the MB device.
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_WWAN_SET_PREFERRED_PROVIDERS {
-  NDIS_OBJECT_HEADER Header;
-  WWAN_LIST_HEADER   PreferredListHeader;
-} NDIS_WWAN_SET_PREFERRED_PROVIDERS, *PNDIS_WWAN_SET_PREFERRED_PROVIDERS;
-````
-
-
 ## -struct-fields
 
 
@@ -117,13 +106,13 @@ sizeof(NDIS_WWAN_SET_PREFERRED_PROVIDERS)
  
 
 For more information about these members, see 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>.
 
 
 ### -field PreferredListHeader
 
 A formatted 
-     <a href="..\wwan\ns-wwan-_wwan_list_header.md">WWAN_LIST_HEADER</a> object that represents a
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571208">WWAN_LIST_HEADER</a> object that represents a
      list of preferred providers to associate with the device.
      
 
@@ -133,14 +122,14 @@ A formatted
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_list_header.md">WWAN_LIST_HEADER</a>
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571208">WWAN_LIST_HEADER</a>
  
 
  

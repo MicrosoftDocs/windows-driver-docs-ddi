@@ -52,20 +52,6 @@ req.typenames: TAPE_GET_MEDIA_PARAMETERS, *PTAPE_GET_MEDIA_PARAMETERS
 The TAPE_GET_MEDIA_PARAMETERS structure is used in conjunction with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567937">TapeMiniGetMediaParameters</a> routine to retrieve tape media parameters. 
 
 
-## -syntax
-
-
-````
-typedef struct _TAPE_GET_MEDIA_PARAMETERS {
-  LARGE_INTEGER Capacity;
-  LARGE_INTEGER Remaining;
-  ULONG         BlockSize;
-  ULONG         PartitionCount;
-  BOOLEAN       WriteProtected;
-} TAPE_GET_MEDIA_PARAMETERS, *PTAPE_GET_MEDIA_PARAMETERS;
-````
-
-
 ## -struct-fields
 
 
@@ -98,10 +84,10 @@ Is set to <b>TRUE</b> if the tape is write-protected.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567937">TapeMiniGetMediaParameters</a>
-
-
-
  
 
  

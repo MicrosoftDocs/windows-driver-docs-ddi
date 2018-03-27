@@ -52,23 +52,6 @@ req.typenames: D3DKMT_DEVICESTATE_TYPE
 The D3DKMT_DEVICESTATE_TYPE enumeration type contains values that indicate the status of a device.
 
 
-## -syntax
-
-
-````
-typedef enum _D3DKMT_DEVICESTATE_TYPE { 
-  D3DKMT_DEVICESTATE_EXECUTION    = 1,
-  D3DKMT_DEVICESTATE_PRESENT      = 2,
-  D3DKMT_DEVICESTATE_RESET        = 3,
-  D3DKMT_DEVICESTATE_PRESENT_DWM  = 4,
-#if (DXGKDDI_INTERFACE_VERSION >= DXGKDDI_INTERFACE_VERSION_WDDM2_0)
-  D3DKMT_DEVICESTATE_PAGE_FAULT   = 5,
-#endif 
-  
-} D3DKMT_DEVICESTATE_TYPE;
-````
-
-
 ## -enum-fields
 
 
@@ -108,10 +91,10 @@ The device page fault state is retrieved.
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_getdevicestate.md">D3DKMT_GETDEVICESTATE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548030">D3DKMT_GETDEVICESTATE</a>
  
 
  

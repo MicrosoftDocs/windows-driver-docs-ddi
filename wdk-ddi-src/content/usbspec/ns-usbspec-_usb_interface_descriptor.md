@@ -53,24 +53,6 @@ req.product: Windows 10 or later.
 The <b>USB_INTERFACE_DESCRIPTOR</b> structure is used by USB client drivers to retrieve a USB-defined interface descriptor.
 
 
-## -syntax
-
-
-````
-typedef struct _USB_INTERFACE_DESCRIPTOR {
-  UCHAR bLength;
-  UCHAR bDescriptorType;
-  UCHAR bInterfaceNumber;
-  UCHAR bAlternateSetting;
-  UCHAR bNumEndpoints;
-  UCHAR bInterfaceClass;
-  UCHAR bInterfaceSubClass;
-  UCHAR bInterfaceProtocol;
-  UCHAR iInterface;
-} USB_INTERFACE_DESCRIPTOR, *PUSB_INTERFACE_DESCRIPTOR;
-````
-
-
 ## -struct-fields
 
 
@@ -123,11 +105,6 @@ The index of a string descriptor that describes the interface. For information a
 
 ## -see-also
 
-<a href="..\usb\ns-usb-_urb_control_descriptor_request.md">_URB_CONTROL_DESCRIPTOR_REQUEST</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538943">UsbBuildGetDescriptorRequest</a>
 
 
 
@@ -135,6 +112,11 @@ The index of a string descriptor that describes the interface. For information a
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538943">UsbBuildGetDescriptorRequest</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540357">_URB_CONTROL_DESCRIPTOR_REQUEST</a>
  
 
  

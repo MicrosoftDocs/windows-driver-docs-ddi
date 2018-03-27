@@ -52,19 +52,6 @@ req.typenames: RILSUPSERVICEDATASTATUS
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef enum _RILSUPSERVICEDATASTATUS { 
-  RIL_SUPSVCDATASTATUS_FURTHERINFOREQUIRED,
-  RIL_SUPSVCDATASTATUS_TIMEOUT,
-  RIL_SUPSVCDATASTATUS_ERROR,
-  RIL_SUPSVCDATASTATUS_MAX
-} RILSUPSERVICEDATASTATUS;
-````
-
-
 ## -enum-fields
 
 

@@ -52,16 +52,6 @@ req.typenames: SID_IDENTIFIER_AUTHORITY, *PSID_IDENTIFIER_AUTHORITY
 The SID_IDENTIFIER_AUTHORITY structure represents the top-level authority of a security identifier (SID). 
 
 
-## -syntax
-
-
-````
-typedef struct _SID_IDENTIFIER_AUTHORITY {
-  UCHAR Value[6];
-} SID_IDENTIFIER_AUTHORITY, *PSID_IDENTIFIER_AUTHORITY;
-````
-
-
 ## -struct-fields
 
 
@@ -151,14 +141,14 @@ SECURITY_NT_AUTHORITY
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-rtlinitializesid.md">RtlInitializeSid</a>
 
 
 
-<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552998">RtlInitializeSid</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556740">SID</a>
  
 
  

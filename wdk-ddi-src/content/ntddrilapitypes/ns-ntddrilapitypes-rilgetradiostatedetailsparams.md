@@ -52,17 +52,6 @@ req.typenames: RILGETRADIOSTATEDETAILSPARAMS, *LPRILGETRADIOSTATEDETAILSPARAMS
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef struct _RILGETRADIOSTATEDETAILSPARAMS {
-  DWORD  dwGroupId;
-  DWORD  dwItemId;
-} RILGETRADIOSTATEDETAILSPARAMS, RILGETRADIOSTATEDETAILSPARAMS;
-````
-
-
 ## -struct-fields
 
 

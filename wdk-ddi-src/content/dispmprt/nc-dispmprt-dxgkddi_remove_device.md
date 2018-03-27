@@ -49,20 +49,7 @@ req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
 ## -description
 
 
-The <i>DxgkDdiRemoveDevice</i> function frees any resources allocated during <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>.
-
-
-## -prototype
-
-
-````
-DXGKDDI_REMOVE_DEVICE DxgkDdiRemoveDevice;
-
-NTSTATUS DxgkDdiRemoveDevice(
-  _In_ const PVOID MiniportDeviceContext
-)
-{ ... }
-````
+The <i>DxgkDdiRemoveDevice</i> function frees any resources allocated during <a href="https://msdn.microsoft.com/5fd4046f-54c3-4dfc-8d51-0d9ebcde0bea">DxgkDdiAddDevice</a>.
 
 
 ## -parameters
@@ -72,7 +59,7 @@ NTSTATUS DxgkDdiRemoveDevice(
 
 ### -param MiniportDeviceContext [in]
 
-A handle to a context block associated with a display adapter. The display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a> function previously provided this handle to the DirectX graphics kernel subsystem.
+A handle to a context block associated with a display adapter. The display miniport driver's <a href="https://msdn.microsoft.com/5fd4046f-54c3-4dfc-8d51-0d9ebcde0bea">DxgkDdiAddDevice</a> function previously provided this handle to the DirectX graphics kernel subsystem.
 
 
 ## -returns
@@ -97,10 +84,10 @@ A handle to a context block associated with a display adapter. The display minip
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
 
 
 
+<a href="https://msdn.microsoft.com/5fd4046f-54c3-4dfc-8d51-0d9ebcde0bea">DxgkDdiAddDevice</a>
  
 
  

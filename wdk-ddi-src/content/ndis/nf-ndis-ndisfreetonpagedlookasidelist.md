@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: ndis.h
+req.lib: 
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
@@ -51,17 +51,6 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 
 The 
   <b>NdisFreeToNPagedLookasideList</b> function returns an entry to the given lookaside list.
-
-
-## -syntax
-
-
-````
-VOID NdisFreeToNPagedLookasideList(
-  [in] PNPAGED_LOOKASIDE_LIST Lookaside,
-  [in] PVOID                  Entry
-);
-````
 
 
 ## -parameters
@@ -103,7 +92,7 @@ If the lookaside list has not reached the system-determined maximum number of en
     <b>NdisFreeToNPagedLookasideList</b> either calls the driver's 
     <i>Free</i> function, specified in the 
     <i>Free</i> parameter if the driver provided one to the 
-    <a href="..\ndis\nf-ndis-ndisinitializenpagedlookasidelist.md">
+    <a href="https://msdn.microsoft.com/d240f2cc-18a6-4c2d-889f-e25a9486d5fe">
     NdisInitializeNPagedLookasideList</a> function, or it frees the given entry itself.
 
 
@@ -111,21 +100,21 @@ If the lookaside list has not reached the system-determined maximum number of en
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisallocatefromnpagedlookasidelist.md">
+
+
+
+<a href="https://msdn.microsoft.com/df690a05-359d-44f0-b063-4fc21d6c4d76">
    NdisAllocateFromNPagedLookasideList</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisdeletenpagedlookasidelist.md">
+<a href="https://msdn.microsoft.com/0622d3db-8d28-4c15-a3d8-1092487b8096">
    NdisDeleteNPagedLookasideList</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisinitializenpagedlookasidelist.md">
+<a href="https://msdn.microsoft.com/d240f2cc-18a6-4c2d-889f-e25a9486d5fe">
    NdisInitializeNPagedLookasideList</a>
-
-
-
  
 
  

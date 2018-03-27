@@ -53,19 +53,6 @@ req.product: Windows 10 or later.
 The WWAN_SUPPORTED_DEVICE_SERVICES structure describes information about device services supported by the miniport driver.
 
 
-## -syntax
-
-
-````
-typedef struct _WWAN_SUPPORTED_DEVICE_SERVICES {
-  ULONG            uMaxCommandDataSize;
-  ULONG            uMaxSessionDataSize;
-  ULONG            uMaxSessionCount;
-  WWAN_LIST_HEADER ListHeader;
-} WWAN_SUPPORTED_DEVICE_SERVICES, *PWWAN_SUPPORTED_DEVICE_SERVICES;
-````
-
-
 ## -struct-fields
 
 
@@ -90,23 +77,23 @@ The maximum number of device service sessions supported by the miniport driver.
 
 A formatted WWAN_LIST_HEADER object that represents a list of supported device services and the number of services  in the list.
 
-This member points to the list of the <a href="..\wwan\ns-wwan-_wwan_device_service_entry.md">WWAN_DEVICE_SERVICE_ENTRY</a> by using the WWAN_LIST_HEADER structure.
+This member points to the list of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh831870">WWAN_DEVICE_SERVICE_ENTRY</a> by using the WWAN_LIST_HEADER structure.
 
 
 ## -see-also
 
-<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_supported_device_services.md">NDIS_WWAN_SUPPORTED_DEVICE_SERVICES</a>
 
 
 
-<a href="..\wwan\ns-wwan-_wwan_device_service_entry.md">WWAN_DEVICE_SERVICE_ENTRY</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh831867">NDIS_WWAN_SUPPORTED_DEVICE_SERVICES</a>
 
 
 
-<a href="..\wwan\ns-wwan-_wwan_list_header.md">WWAN_LIST_HEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh831870">WWAN_DEVICE_SERVICE_ENTRY</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571208">WWAN_LIST_HEADER</a>
  
 
  

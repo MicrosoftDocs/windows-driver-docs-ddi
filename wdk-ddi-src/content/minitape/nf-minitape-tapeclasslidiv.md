@@ -53,17 +53,6 @@ req.typenames: TAPE_STATUS, *PTAPE_STATUS
 The <b>TapeClassLiDiv</b> routine performs a division of the two indicated integers. 
 
 
-## -syntax
-
-
-````
-LARGE_INTEGER TapeClassLiDiv(
-  _In_ LARGE_INTEGER Dividend,
-  _In_ LARGE_INTEGER Divisor
-);
-````
-
-
 ## -parameters
 
 

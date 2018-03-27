@@ -52,19 +52,6 @@ req.typenames: RILEMERGENCYNUMBERPARAMMASK
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef enum _RILEMERGENCYNUMBERPARAMMASK { 
-  RIL_PARAM_ENUM_UICC,
-  RIL_PARAM_ENUM_CATEGORY,
-  RIL_PARAM_ENUM_NUMBER,
-  RIL_PARAM_ENUM_ALL
-} RILEMERGENCYNUMBERPARAMMASK;
-````
-
-
 ## -enum-fields
 
 

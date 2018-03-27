@@ -52,20 +52,6 @@ req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 Returns the number of bytes that the driver requires to store private data for the authenticated channel state.
 
 
-## -prototype
-
-
-````
-PFND3D11_1DDI_CALCPRIVATEAUTHENTICATEDCHANNELSIZE CalcPrivateAuthenticatedChannelSize;
-
-SIZE_T APIENTRY* CalcPrivateAuthenticatedChannelSize(
-  _In_       D3D10DDI_HDEVICE                         hDevice,
-  _In_ const D3D11_1DDIARG_CREATEAUTHENTICATEDCHANNEL *pCreateData
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -80,7 +66,7 @@ A handle to the display device (graphics context).
 
 ### -param *pCreateData [in]
 
-A pointer to a <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddiarg_createauthenticatedchannel.md">D3D11_1DDIARG_CREATEAUTHENTICATEDCHANNEL</a> structure that describes the authenticated channel.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh406306">D3D11_1DDIARG_CREATEAUTHENTICATEDCHANNEL</a> structure that describes the authenticated channel.
 
 
 ## -returns
@@ -103,10 +89,10 @@ This function is not expected to fail.
 
 ## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddiarg_createauthenticatedchannel.md">D3D11_1DDIARG_CREATEAUTHENTICATEDCHANNEL</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406306">D3D11_1DDIARG_CREATEAUTHENTICATEDCHANNEL</a>
  
 
  

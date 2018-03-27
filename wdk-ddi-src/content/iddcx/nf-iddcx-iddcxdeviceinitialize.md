@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: "_Must_inspect_result_"
 topic_type:
@@ -52,16 +52,6 @@ req.typenames:
 Initializes a WDF device
 
                 
-
-
-## -syntax
-
-
-````
-NTSTATUS IddCxDeviceInitialize(
-  _In_ WDFDEVICE Device
-);
-````
 
 
 ## -parameters

@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -49,17 +49,7 @@ req.typenames: TOKEN_TYPE
 ## -description
 
 
-The <b>FsRtlAcquireFileExclusive</b> routine is reserved for system use. Do not use this routine in your driver. See <a href="..\ntifs\nf-ntifs-fsrtlregisterfilesystemfiltercallbacks.md">FsRtlRegisterFileSystemFilterCallbacks</a>.
-
-
-## -syntax
-
-
-````
-  FsRtlAcquireFileExclusive(
-    
-);
-````
+The <b>FsRtlAcquireFileExclusive</b> routine is reserved for system use. Do not use this routine in your driver. See <a href="https://msdn.microsoft.com/library/windows/hardware/ff547172">FsRtlRegisterFileSystemFilterCallbacks</a>.
 
 
 ## -parameters

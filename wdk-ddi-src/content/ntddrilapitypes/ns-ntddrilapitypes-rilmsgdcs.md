@@ -52,23 +52,6 @@ req.typenames: RILMSGDCS, *LPRILMSGDCS
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef struct _RILMSGDCS {
-  DWORD                cbSize;
-  DWORD                dwParams;
-  RILMSGDCSTYPE        dwType;
-  DWORD                dwFlags;
-  RILMSGDCSMSGCLASS    dwMsgClass;
-  RILMSGDCSALPHABET    dwAlphabet;
-  RILMSGDCSINDICATION  dwIndication;
-  DWORD                dwLanguage;
-} RILMSGDCS, RILMSGDCS;
-````
-
-
 ## -struct-fields
 
 

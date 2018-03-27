@@ -52,22 +52,6 @@ req.typenames: D3D11_1DDI_GETCAPTUREHANDLEDATA
 The <i>pfnSetExtendedFeatureCallbacks</i> callback function sets extended feature callbacks.
 
 
-## -prototype
-
-
-````
-PFND3D12DDI_SET_EXTENDED_FEATURE_CALLBACKS_0021 pfnSetExtendedFeatureCallbacks;
-
-VOID APIENTRY* pfnSetExtendedFeatureCallbacks(
-       D3D12DDI_HDEVICE              hDevice,
-       D3D12DDI_TABLE_TYPE           Table,
-  _In_ _reads_(TableSize) const void *pTable,
-       SIZE_T                        TableSize
-)
-{ ... }
-````
-
-
 ## -parameters
 
 

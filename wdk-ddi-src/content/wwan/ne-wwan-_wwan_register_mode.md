@@ -54,19 +54,6 @@ The WWAN_REGISTER_MODE enumeration lists the different network selection modes w
   the device should select a network while registering.
 
 
-## -syntax
-
-
-````
-typedef enum _WWAN_REGISTER_MODE { 
-  WwanRegisterModeUnknown    = 0,
-  WwanRegisterModeAutomatic,
-  WwanRegisterModeManual,
-  WwanRegisterModeMax
-} WWAN_REGISTER_MODE, *PWWAN_REGISTER_MODE;
-````
-
-
 ## -enum-fields
 
 
@@ -105,10 +92,10 @@ The total number of supported registration modes.
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_registration_state.md">WWAN_REGISTRATION_STATE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571231">WWAN_REGISTRATION_STATE</a>
  
 
  

@@ -52,20 +52,6 @@ req.typenames: KSDEVICE_DESCRIPTOR, *PKSDEVICE_DESCRIPTOR
 The KSDEVICE_DESCRIPTOR structure describes the characteristics of a particular device.
 
 
-## -syntax
-
-
-````
-typedef struct _KSDEVICE_DESCRIPTOR {
-  const KSDEVICE_DISPATCH   *Dispatch;
-  ULONG                     FilterDescriptorsCount;
-  const KSFILTER_DESCRIPTOR *FilterDescriptors;
-  ULONG                     Version;
-  ULONG                     Flags;
-} KSDEVICE_DESCRIPTOR, *PKSDEVICE_DESCRIPTOR;
-````
-
-
 ## -struct-fields
 
 
@@ -73,17 +59,17 @@ typedef struct _KSDEVICE_DESCRIPTOR {
 
 ### -field Dispatch
 
-A pointer to the client dispatch table for this device. This dispatch table contains client dispatch functions for PNP messages such as <b>Add</b>, <b>Start</b>, <b>Stop</b>, <b>Remove</b>. Clients are not required to supply a dispatch table unless they want to receive callbacks for the PNP messages described in the dispatch table. Any member of the dispatch table can be <b>NULL</b> to indicate that the client does not want to receive notification for that particular message. For more information, see <a href="..\ks\ns-ks-_ksdevice_dispatch.md">KSDEVICE_DISPATCH</a>.
+A pointer to the client dispatch table for this device. This dispatch table contains client dispatch functions for PNP messages such as <b>Add</b>, <b>Start</b>, <b>Stop</b>, <b>Remove</b>. Clients are not required to supply a dispatch table unless they want to receive callbacks for the PNP messages described in the dispatch table. Any member of the dispatch table can be <b>NULL</b> to indicate that the client does not want to receive notification for that particular message. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff561693">KSDEVICE_DISPATCH</a>.
 
 
 ### -field FilterDescriptorsCount
 
-This member contains the number of filter descriptors for this device that will be provided in the <b>FilterDescriptors</b> member. Zero is a legal value for this member; clients can create filter factories dynamically with the <a href="..\ks\nf-ks-kscreatefilterfactory.md">KsCreateFilterFactory</a> function instead of statically describing them in the device descriptor.
+This member contains the number of filter descriptors for this device that will be provided in the <b>FilterDescriptors</b> member. Zero is a legal value for this member; clients can create filter factories dynamically with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff561650">KsCreateFilterFactory</a> function instead of statically describing them in the device descriptor.
 
 
 ### -field FilterDescriptors
 
-A pointer to an array of filter descriptors that describe filters that can be created by this device. This member may be <b>NULL</b> if <b>FilterDescriptorsCount</b> is zero. For more information, see <a href="..\ks\ns-ks-_ksfilter_descriptor.md">KSFILTER_DESCRIPTOR</a>.
+A pointer to an array of filter descriptors that describe filters that can be created by this device. This member may be <b>NULL</b> if <b>FilterDescriptorsCount</b> is zero. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff562553">KSFILTER_DESCRIPTOR</a>.
 
 
 ### -field Version
@@ -101,7 +87,7 @@ KSDEVICE_DESCRIPTOR_VERSION
 
 </td>
 <td>
-Indicates support of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554290">AVStrMiniDeviceQueryInterface</a> dispatch of <a href="..\ks\ns-ks-_ksdevice_dispatch.md">KSDEVICE_DISPATCH</a>.
+Indicates support of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554290">AVStrMiniDeviceQueryInterface</a> dispatch of <a href="https://msdn.microsoft.com/library/windows/hardware/ff561693">KSDEVICE_DISPATCH</a>.
 
 </td>
 </tr>
@@ -153,7 +139,7 @@ Indicates that the device supports remote wakeup.
 
 
 
-Most often, this structure is used in conjunction with <a href="..\ks\nf-ks-ksinitializedriver.md">KsInitializeDriver</a> in the client's <b>DriverEntry</b> function to initialize the device. This structure is also used to manually initialize or create devices with the <a href="..\ks\nf-ks-ksinitializedevice.md">KsInitializeDevice</a> and <a href="..\ks\nf-ks-kscreatedevice.md">KsCreateDevice</a> functions.
+Most often, this structure is used in conjunction with <a href="https://msdn.microsoft.com/library/windows/hardware/ff562683">KsInitializeDriver</a> in the client's <b>DriverEntry</b> function to initialize the device. This structure is also used to manually initialize or create devices with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562682">KsInitializeDevice</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff561647">KsCreateDevice</a> functions.
 
 If you set <b>Version</b> to KSDEVICE_DESCRIPTOR_VERSION_2 and run your driver on an early version of AVStream that does not support <b>Flags</b>, all flags will be considered to be zero.
 
@@ -164,26 +150,26 @@ Similarly, using an earlier version descriptor on later versions of AVStream cau
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksinitializedevice.md">KsInitializeDevice</a>
 
 
 
-<a href="..\ks\nf-ks-kscreatedevice.md">KsCreateDevice</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561693">KSDEVICE_DISPATCH</a>
 
 
 
-<a href="..\ks\nf-ks-ksinitializedriver.md">KsInitializeDriver</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562553">KSFILTER_DESCRIPTOR</a>
 
 
 
-<a href="..\ks\ns-ks-_ksfilter_descriptor.md">KSFILTER_DESCRIPTOR</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561647">KsCreateDevice</a>
 
 
 
-<a href="..\ks\ns-ks-_ksdevice_dispatch.md">KSDEVICE_DISPATCH</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562682">KsInitializeDevice</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562683">KsInitializeDriver</a>
  
 
  

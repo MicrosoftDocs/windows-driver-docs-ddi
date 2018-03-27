@@ -53,16 +53,6 @@ req.product: Windows 10 or later.
 The WWAN_GET_SLOT_INFO structure contains the slot index to specify which slot's status a query request is for.
 
 
-## -syntax
-
-
-````
-typedef struct _WWAN_GET_SLOT_INFO {
-  ULONG SlotIndex;
-} WWAN_GET_SLOT_INFO, *PWWAN_GET_SLOT_INFO;
-````
-
-
 ## -struct-fields
 
 
@@ -75,10 +65,10 @@ Represents the index of the SIM slot. <b>SlotIndex</b> can be mapped to either a
 
 ## -see-also
 
-<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_get_slot_info.md">NDIS_WWAN_GET_SLOT_INFO</a>
 
 
 
+<a href="https://msdn.microsoft.com/214AFAD3-B211-4D66-8CFC-58F8EB407B83">NDIS_WWAN_GET_SLOT_INFO</a>
  
 
  

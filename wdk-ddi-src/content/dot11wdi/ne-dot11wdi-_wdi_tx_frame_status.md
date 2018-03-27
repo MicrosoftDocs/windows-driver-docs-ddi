@@ -52,22 +52,6 @@ req.typenames: WDI_TX_FRAME_STATUS
 The WDI_TX_FRAME_STATUS enumeration defines the TX frame status values.
 
 
-## -syntax
-
-
-````
-typedef enum _WDI_TX_FRAME_STATUS { 
-  WDI_TxFrameStatus_Ok                 = 0,
-  WDI_TxFrameStatus_Discard            = 1,
-  WDI_TxFrameStatus_NoAck              = 2,
-  WDI_TxFrameStatus_TransferCancelled  = 3,
-  WDI_TxFrameStatus_SendCancelled      = 4,
-  WDI_TxFrameStatus_SendPostponed      = 5,
-  WDI_TxFrameStatus_TransferFailed     = 128
-} WDI_TX_FRAME_STATUS;
-````
-
-
 ## -enum-fields
 
 
@@ -110,10 +94,10 @@ The transfer failed.
 
 ## -see-also
 
-<a href="..\dot11wdi\ns-dot11wdi-_wdi_txrx_target_capabilities.md">WDI_TXRX_CAPABILITIES</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn898187">WDI_TXRX_CAPABILITIES</a>
  
 
  

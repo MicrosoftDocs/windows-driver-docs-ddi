@@ -52,20 +52,7 @@ req.product: Windows 10 or later.
 
 
              Stores the values of all control registers of the port controller retrieved by the 
-             <a href="..\ucmtcpciportcontrollerrequests\ni-ucmtcpciportcontrollerrequests-ioctl_ucmtcpci_port_controller_get_control.md">IOCTL_UCMTCPCI_PORT_CONTROLLER_GET_CONTROL</a> request.
-
-
-## -syntax
-
-
-````
-typedef struct _UCMTCPCI_PORT_CONTROLLER_GET_CONTROL_OUT_PARAMS {
-  UCMTCPCI_PORT_CONTROLLER_TCPC_CONTROL  TCPCControl;
-  UCMTCPCI_PORT_CONTROLLER_ROLE_CONTROL  RoleControl;
-  UCMTCPCI_PORT_CONTROLLER_FAULT_CONTROL FaultControl;
-  UCMTCPCI_PORT_CONTROLLER_POWER_CONTROL PowerControl;
-} UCMTCPCI_PORT_CONTROLLER_GET_CONTROL_OUT_PARAMS, *PUCMTCPCI_PORT_CONTROLLER_GET_CONTROL_OUT_PARAMS;
-````
+             <a href="https://msdn.microsoft.com/library/windows/hardware/mt805832">IOCTL_UCMTCPCI_PORT_CONTROLLER_GET_CONTROL</a> request.
 
 
 ## -struct-fields
@@ -103,10 +90,10 @@ typedef struct _UCMTCPCI_PORT_CONTROLLER_GET_CONTROL_OUT_PARAMS {
 
 ## -see-also
 
-<a href="..\ucmtcpciportcontrollerrequests\ni-ucmtcpciportcontrollerrequests-ioctl_ucmtcpci_port_controller_get_control.md">IOCTL_UCMTCPCI_PORT_CONTROLLER_GET_CONTROL</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt805832">IOCTL_UCMTCPCI_PORT_CONTROLLER_GET_CONTROL</a>
  
 
  

@@ -52,21 +52,6 @@ req.typenames: NDIS_RSS_PROFILE, *PNDIS_RSS_PROFILE
 This enumeration is not supported.
 
 
-## -syntax
-
-
-````
-typedef enum _NDIS_RSS_PROFILE { 
-  NdisRssProfileClosest        = 1,
-  NdisRssProfileClosestStatic,
-  NdisRssProfileNuma,
-  NdisRssProfileNumaStatic,
-  NdisRssProfileConservative,
-  NdisRssProfileMaximum
-} NDIS_RSS_PROFILE;
-````
-
-
 ## -enum-fields
 
 
@@ -108,26 +93,26 @@ This enumeration  value is reserved. Do not use.
 
 The <b>NDIS_RSS_PROFILE</b> enumeration type specifies the current  RSS load balancing profile.
 
-NDIS network drivers use the <b>NDIS_RSS_PROFILE</b> enumeration type to set the value of the <b>RssProfile</b> member of the <a href="..\ntddndis\ns-ntddndis-_ndis_rss_processor_info.md">NDIS_RSS_PROCESSOR_INFO</a> structure.
+NDIS network drivers use the <b>NDIS_RSS_PROFILE</b> enumeration type to set the value of the <b>RssProfile</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567274">NDIS_RSS_PROCESSOR_INFO</a> structure.
 
 
 
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_rss_processor_info.md">NDIS_RSS_PROCESSOR_INFO</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisgetrssprocessorinformation.md">
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567274">NDIS_RSS_PROCESSOR_INFO</a>
+
+
+
+<a href="https://msdn.microsoft.com/0da022d5-7294-4780-bab8-119ff6385abf">
    NdisGetRssProcessorInformation</a>
 
 
 
 <a href="https://msdn.microsoft.com/0ea0d6f7-0dc5-40dd-a706-4712e19dbfdb">Standardized INF Keywords for RSS</a>
-
-
-
  
 
  

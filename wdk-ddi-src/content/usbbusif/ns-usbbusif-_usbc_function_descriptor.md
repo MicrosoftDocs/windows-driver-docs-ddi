@@ -53,23 +53,6 @@ req.product: Windows 10 or later.
 The <b>USBC_FUNCTION_DESCRIPTOR</b> structure describes a USB function and its associated interface collection.
 
 
-## -syntax
-
-
-````
-typedef struct _USBC_FUNCTION_DESCRIPTOR {
-  UCHAR                     FunctionNumber;
-  UCHAR                     NumberOfInterfaces;
-  PUSB_INTERFACE_DESCRIPTOR *InterfaceDescriptorList;
-  UNICODE_STRING            HardwareId;
-  UNICODE_STRING            CompatibleId;
-  UNICODE_STRING            FunctionDescription;
-  ULONG                     FunctionFlags;
-  PVOID                     Reserved;
-} USBC_FUNCTION_DESCRIPTOR, *PUSBC_FUNCTION_DESCRIPTOR;
-````
-
-
 ## -struct-fields
 
 
@@ -87,7 +70,7 @@ The number of interfaces in the interface collection.
 
 ### -field InterfaceDescriptorList
 
-An array of pointers to <a href="..\usbspec\ns-usbspec-_usb_interface_descriptor.md">USB_INTERFACE_DESCRIPTOR</a>-type structures that describe the interfaces in the interface collection.
+An array of pointers to <a href="https://msdn.microsoft.com/library/windows/hardware/ff540065">USB_INTERFACE_DESCRIPTOR</a>-type structures that describe the interfaces in the interface collection.
 
 
 ### -field HardwareId
@@ -126,14 +109,14 @@ For information on how to use user-defined callback routines to provide a custom
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
 
 
 
-<a href="..\usbspec\ns-usbspec-_usb_interface_descriptor.md">USB_INTERFACE_DESCRIPTOR</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540065">USB_INTERFACE_DESCRIPTOR</a>
  
 
  

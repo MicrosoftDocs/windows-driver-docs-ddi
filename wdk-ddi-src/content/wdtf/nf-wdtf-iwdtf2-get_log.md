@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: Microsoft.WDTF
 req.assembly: WDTF.Interop.metadata_dll
 req.type-library: 
-req.lib: wdtf.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -56,29 +56,19 @@ Gets the WDTF log object.
 This property is read-only.
 
 
-## -syntax
-
-
-````
-HRESULT get_Log(
-  [out, retval] IWDTFLog2 **ppLog
-);
-````
-
-
 ## -parameters
 
 
 ## -see-also
 
-<a href="..\wdtf\nn-wdtf-iwdtflog2.md">IWDTFLog2</a>
 
 
 
-<a href="..\wdtf\nn-wdtf-iwdtf2.md">IWDTF2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406300">IWDTF2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451011">IWDTFLog2</a>
  
 
  

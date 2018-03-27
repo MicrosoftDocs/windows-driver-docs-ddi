@@ -52,21 +52,6 @@ req.typenames: DXVA_VideoTransferMatrix
 The DXVA_VideoTransferMatrix enumeration type contains enumerators that identify the conversion matrix from Y'Cb'Cr' to R'G'B'.
 
 
-## -syntax
-
-
-````
-typedef enum _DXVA_VideoTransferMatrix { 
-  DXVA_VideoTransferMatrixShift       = (DXVA_ExtColorData_ShiftBase + 7),
-  DXVA_VideoTransferMatrixMask        = DXVAColorMask(3, DXVA_VideoTransferMatrixShift),
-  DXVA_VideoTransferMatrix_Unknown    = 0,
-  DXVA_VideoTransferMatrix_BT709      = 1,
-  DXVA_VideoTransferMatrix_BT601      = 2,
-  DXVA_VideoTransferMatrix_SMPTE240M  = 3
-} DXVA_VideoTransferMatrix;
-````
-
-
 ## -enum-fields
 
 
@@ -106,17 +91,17 @@ Specifies a HD video standard rarely used in Japan.
 
 
 
-One of the enumerators of DXVA_VideoTransferMatrix can be specified in the <b>VideoTransferMatrix</b> member of the <a href="..\dxva\ns-dxva-_dxva_extendedformat.md">DXVA_ExtendedFormat</a> structure.
+One of the enumerators of DXVA_VideoTransferMatrix can be specified in the <b>VideoTransferMatrix</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563967">DXVA_ExtendedFormat</a> structure.
 
 
 
 
 ## -see-also
 
-<a href="..\dxva\ns-dxva-_dxva_extendedformat.md">DXVA_ExtendedFormat</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563967">DXVA_ExtendedFormat</a>
  
 
  

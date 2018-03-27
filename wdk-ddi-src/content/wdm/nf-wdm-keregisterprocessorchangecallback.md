@@ -7,7 +7,7 @@ old-location: kernel\keregisterprocessorchangecallback.htm
 old-project: kernel
 ms.assetid: a10d54a2-39e4-4c90-ac91-28d31b3ebfb8
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/1/2018
 ms.keywords: KeRegisterProcessorChangeCallback, KeRegisterProcessorChangeCallback routine [Kernel-Mode Driver Architecture], k105_794d8039-ab35-46e9-8a0d-a38c034f0263.xml, kernel.keregisterprocessorchangecallback, wdm/KeRegisterProcessorChangeCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,18 +53,6 @@ req.product: Windows 10 or later.
 The <b>KeRegisterProcessorChangeCallback</b> routine registers a callback function with the operating system so that the operating system will notify the driver when a new processor is added to the hardware partition.
 
 
-## -syntax
-
-
-````
-PVOID KeRegisterProcessorChangeCallback(
-  _In_     PPROCESSOR_CALLBACK_FUNCTION CallbackFunction,
-  _In_opt_ PVOID                        CallbackContext,
-  _In_     ULONG                        Flags
-);
-````
-
-
 ## -parameters
 
 
@@ -101,13 +89,13 @@ The context that was supplied in the <i>CallbackContext</i> parameter to the <b>
 
 #### ChangeContext
 
-A pointer to a <a href="..\wdm\ns-wdm-_ke_processor_change_notify_context.md">KE_PROCESSOR_CHANGE_NOTIFY_CONTEXT</a> structure that describes the processor change notification event.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff554229">KE_PROCESSOR_CHANGE_NOTIFY_CONTEXT</a> structure that describes the processor change notification event.
 
 
 
 #### OperationStatus
 
-A pointer to a variable that contains an NTSTATUS code. A device driver must not change the value of this variable except if an error occurs during the processing of the callback function when the <b>State</b> member of the <a href="..\wdm\ns-wdm-_ke_processor_change_notify_context.md">KE_PROCESSOR_CHANGE_NOTIFY_CONTEXT</a> structure that is pointed to by the <i>ChangeContext</i> parameter contains <b>KeProcessorAddStartNotify</b>.
+A pointer to a variable that contains an NTSTATUS code. A device driver must not change the value of this variable except if an error occurs during the processing of the callback function when the <b>State</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554229">KE_PROCESSOR_CHANGE_NOTIFY_CONTEXT</a> structure that is pointed to by the <i>ChangeContext</i> parameter contains <b>KeProcessorAddStartNotify</b>.
 
 The processor change callback function is called at IRQL = PASSIVE_LEVEL.
 
@@ -145,40 +133,40 @@ If this flag is set, the registered callback function is immediately called for 
 
 A device driver calls the <b>KeRegisterProcessorChangeCallback</b> routine to register a callback function that is to be called by the operating system whenever a new processor is added to the hardware partition. When a user hot-plugs a new processor into the partition, the operating system calls the registered callback functions to rebalance the system resources that are allocated among the processors in the partition.
 
-The registered callback function is called two times whenever a new processor is added to the hardware partition. The first time that the callback function is called, the <b>State</b> member of the <a href="..\wdm\ns-wdm-_ke_processor_change_notify_context.md">KE_PROCESSOR_CHANGE_NOTIFY_CONTEXT</a> structure that is pointed to by the <i>ChangeContext</i> parameter contains <b>KeProcessorAddStartNotify</b>. It is during this callback that the device driver should allocate any per-processor resources and perform any other tasks in preparation for the new processor to become active in the hardware partition. If an error occurs while the device driver processes this callback that could cause a bugcheck to occur if the operating system continues to add the new processor to the hardware partition, the callback function sets the variable that is pointed to by the <i>OperationStatus</i> parameter to an NTSTATUS code that describes the error condition. For example, if the device driver experiences a memory allocation failure for a per-processor data structure for a new processor, the callback function sets this variable to STATUS_INSUFFICIENT_RESOURCES. If the callback is processed successfully, the contents of the variable that is pointed to by the <i>OperationStatus</i> parameter should not be changed.
+The registered callback function is called two times whenever a new processor is added to the hardware partition. The first time that the callback function is called, the <b>State</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554229">KE_PROCESSOR_CHANGE_NOTIFY_CONTEXT</a> structure that is pointed to by the <i>ChangeContext</i> parameter contains <b>KeProcessorAddStartNotify</b>. It is during this callback that the device driver should allocate any per-processor resources and perform any other tasks in preparation for the new processor to become active in the hardware partition. If an error occurs while the device driver processes this callback that could cause a bugcheck to occur if the operating system continues to add the new processor to the hardware partition, the callback function sets the variable that is pointed to by the <i>OperationStatus</i> parameter to an NTSTATUS code that describes the error condition. For example, if the device driver experiences a memory allocation failure for a per-processor data structure for a new processor, the callback function sets this variable to STATUS_INSUFFICIENT_RESOURCES. If the callback is processed successfully, the contents of the variable that is pointed to by the <i>OperationStatus</i> parameter should not be changed.
 
-The second time that the callback function is called, the <b>State</b> member of the <a href="..\wdm\ns-wdm-_ke_processor_change_notify_context.md">KE_PROCESSOR_CHANGE_NOTIFY_CONTEXT</a> structure that is pointed to by the <i>ChangeContext</i> parameter contains either <b>KeProcessorAddCompleteNotify</b>, which indicates that the operating system has added the new processor to the hardware partition successfully, or <b>KeProcessorAddFailureNotify</b>, which indicates that the operating system did not add the new processor to the hardware partition. If the operating system successfully adds the new processor to the hardware partition, the callback function is not called the second time until after the new processor has been started and is available for thread scheduling. If the operating system did not add the new processor to the hardware partition, the device driver should free any per-processor resources during the second callback that it allocated during the first callback.
+The second time that the callback function is called, the <b>State</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554229">KE_PROCESSOR_CHANGE_NOTIFY_CONTEXT</a> structure that is pointed to by the <i>ChangeContext</i> parameter contains either <b>KeProcessorAddCompleteNotify</b>, which indicates that the operating system has added the new processor to the hardware partition successfully, or <b>KeProcessorAddFailureNotify</b>, which indicates that the operating system did not add the new processor to the hardware partition. If the operating system successfully adds the new processor to the hardware partition, the callback function is not called the second time until after the new processor has been started and is available for thread scheduling. If the operating system did not add the new processor to the hardware partition, the device driver should free any per-processor resources during the second callback that it allocated during the first callback.
 
-If the device driver specifies the KE_PROCESSOR_CHANGE_ADD_EXISTING flag in the <i>Flags</i> parameter when it calls the <b>KeRegisterProcessorChangeCallback</b> routine, the callback function is immediately called one time for each active processor that currently exists in the hardware partition. For these callbacks, the <b>State</b> member of the <a href="..\wdm\ns-wdm-_ke_processor_change_notify_context.md">KE_PROCESSOR_CHANGE_NOTIFY_CONTEXT</a> structure that is pointed to by the <i>ChangeContext</i> parameter contains <b>KeProcessorAddStartNotify</b>. It is during these callbacks that the device driver should allocate any per-processor resources and perform any other tasks to prepare to use the existing processors in the hardware partition. If the device driver successfully processes this callback for all active processors that currently exist in the hardware partition, the callback function is immediately called again for each active processor that currently exists in the hardware partition. For these callbacks, the <b>State</b> member of the <b>KE_PROCESSOR_CHANGE_NOTIFY_CONTEXT</b> structure that is pointed to by the <i>ChangeContext</i> parameter contains <b>KeProcessorAddCompleteNotify</b>. <b>KeRegisterProcessorChangeCallback</b> returns after these callbacks complete.
+If the device driver specifies the KE_PROCESSOR_CHANGE_ADD_EXISTING flag in the <i>Flags</i> parameter when it calls the <b>KeRegisterProcessorChangeCallback</b> routine, the callback function is immediately called one time for each active processor that currently exists in the hardware partition. For these callbacks, the <b>State</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554229">KE_PROCESSOR_CHANGE_NOTIFY_CONTEXT</a> structure that is pointed to by the <i>ChangeContext</i> parameter contains <b>KeProcessorAddStartNotify</b>. It is during these callbacks that the device driver should allocate any per-processor resources and perform any other tasks to prepare to use the existing processors in the hardware partition. If the device driver successfully processes this callback for all active processors that currently exist in the hardware partition, the callback function is immediately called again for each active processor that currently exists in the hardware partition. For these callbacks, the <b>State</b> member of the <b>KE_PROCESSOR_CHANGE_NOTIFY_CONTEXT</b> structure that is pointed to by the <i>ChangeContext</i> parameter contains <b>KeProcessorAddCompleteNotify</b>. <b>KeRegisterProcessorChangeCallback</b> returns after these callbacks complete.
 
 If an error occurs while the device driver processes the first callback for one of the existing active processors in the hardware partition that could cause a bugcheck to occur if the driver were to continue to load, the callback function sets the variable pointed to by the <i>OperationStatus</i> parameter to an NTSTATUS code that describes the error condition. For example, if the device driver experiences a memory allocation failure for a per-processor data structure for an existing active processor, the callback function sets this variable to STATUS_INSUFFICIENT_RESOURCES. If the callback is processed successfully, the contents of the variable that is pointed to by the <i>OperationStatus</i> parameter should not be changed.
 
-If the device driver indicates an error when the first callback for one of the existing active processors in the hardware partition is processed, the callback function is not called for any more of the existing active processors. Instead, the callback function is immediately called a second time for each active processor for which the callback was called the first time, excluding the active processor for which the callback indicated the error. For these callbacks, the <b>State</b> member of the <a href="..\wdm\ns-wdm-_ke_processor_change_notify_context.md">KE_PROCESSOR_CHANGE_NOTIFY_CONTEXT</a> structure that is pointed to by the <i>ChangeContext</i> parameter contains <b>KeProcessorAddFailureNotify</b>.
+If the device driver indicates an error when the first callback for one of the existing active processors in the hardware partition is processed, the callback function is not called for any more of the existing active processors. Instead, the callback function is immediately called a second time for each active processor for which the callback was called the first time, excluding the active processor for which the callback indicated the error. For these callbacks, the <b>State</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554229">KE_PROCESSOR_CHANGE_NOTIFY_CONTEXT</a> structure that is pointed to by the <i>ChangeContext</i> parameter contains <b>KeProcessorAddFailureNotify</b>.
 
-A device driver typically calls the <b>KeRegisterProcessorChangeCallback</b> routine from within its <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> routine. If the call to the <b>KeRegisterProcessorChangeCallback</b> routine returns <b>NULL</b>, the device driver's <b>DriverEntry</b> routine should return an NTSTATUS code that describes the error condition.
+A device driver typically calls the <b>KeRegisterProcessorChangeCallback</b> routine from within its <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> routine. If the call to the <b>KeRegisterProcessorChangeCallback</b> routine returns <b>NULL</b>, the device driver's <b>DriverEntry</b> routine should return an NTSTATUS code that describes the error condition.
 
 <div class="alert"><b>Note</b>    A device driver can use the context that is passed in the <i>CallbackContext</i> parameter to the <b>KeRegisterProcessorChangeCallback</b> routine as a place where the callback function can store the NTSTATUS code that describes the error condition. This NTSTATUS code can then be used as the return value for the device driver's <b>DriverEntry</b> routine.</div>
 <div> </div>
 <div class="alert"><b>Note</b>  The status value returned by <b>KeRegisterProcessorChangeCallback</b> indicates only whether the registration of the callback function succeeds or fails. It does not indicate the success or failure of any calls to callback functions that might occur before <b>KeRegisterProcessorChangeCallback</b> returns.</div>
 <div> </div>
-A callback function that has been registered for notification of processor changes must be unregistered before the device driver is unloaded from the operating system. To unregister the callback function, the device driver calls the <a href="..\wdm\nf-wdm-kederegisterprocessorchangecallback.md">KeDeregisterProcessorChangeCallback</a> routine, and passes, as an input parameter to this routine, the registration handle that was returned by the call to the <b>KeRegisterProcessorChangeCallback</b> routine. 
+A callback function that has been registered for notification of processor changes must be unregistered before the device driver is unloaded from the operating system. To unregister the callback function, the device driver calls the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552015">KeDeregisterProcessorChangeCallback</a> routine, and passes, as an input parameter to this routine, the registration handle that was returned by the call to the <b>KeRegisterProcessorChangeCallback</b> routine. 
 
 
 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kederegisterprocessorchangecallback.md">KeDeregisterProcessorChangeCallback</a>
 
 
 
-<a href="..\wdm\ns-wdm-_ke_processor_change_notify_context.md">KE_PROCESSOR_CHANGE_NOTIFY_CONTEXT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554229">KE_PROCESSOR_CHANGE_NOTIFY_CONTEXT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552015">KeDeregisterProcessorChangeCallback</a>
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20KeRegisterProcessorChangeCallback routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20KeRegisterProcessorChangeCallback routine%20 RELEASE:%20(3/1/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

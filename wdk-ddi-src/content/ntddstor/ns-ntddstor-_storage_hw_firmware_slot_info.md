@@ -52,22 +52,6 @@ req.typenames: STORAGE_HW_FIRMWARE_SLOT_INFO, *PSTORAGE_HW_FIRMWARE_SLOT_INFO
 This structure contains information about a slot on a device.
 
 
-## -syntax
-
-
-````
-typedef struct _STORAGE_HW_FIRMWARE_SLOT_INFO {
-  ULONG Version;
-  ULONG Size;
-  UCHAR SlotNumber;
-  UCHAR ReadOnly  :1;
-  UCHAR Reserved0  :7;
-  UCHAR Reserved1[6];
-  UCHAR Revision[STORAGE_HW_FIRMWARE_REVISION_LENGTH];
-} STORAGE_HW_FIRMWARE_SLOT_INFO, *PSTORAGE_HW_FIRMWARE_SLOT_INFO;
-````
-
-
 ## -struct-fields
 
 

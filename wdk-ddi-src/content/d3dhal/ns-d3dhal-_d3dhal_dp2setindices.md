@@ -53,18 +53,7 @@ req.typenames: D3DHAL_DP2SETINDICES
    DirectX 8.0 and later versions only.
    
 
-The D3DHAL_DP2SETINDICES structure is used to set the current index buffer for <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DHAL_DP2SETINDICES {
-  DWORD dwVBHandle;
-  DWORD dwStride;
-} D3DHAL_DP2SETINDICES, *LPD3DHAL_DP2SETINDICES;
-````
+The D3DHAL_DP2SETINDICES structure is used to set the current index buffer for <a href="https://msdn.microsoft.com/6128ff7a-0d2c-48df-8b5e-cab33c5a74f5">D3dDrawPrimitives2</a>.
 
 
 ## -struct-fields
@@ -93,14 +82,14 @@ A handle value of zero is valid and indicates that the current index buffer is c
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/dd07e49c-ec1f-4ba6-8b17-80ce6d3c5813">D3dCreateSurfaceEx</a>
 
 
 
-<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
-
-
-
+<a href="https://msdn.microsoft.com/6128ff7a-0d2c-48df-8b5e-cab33c5a74f5">D3dDrawPrimitives2</a>
  
 
  

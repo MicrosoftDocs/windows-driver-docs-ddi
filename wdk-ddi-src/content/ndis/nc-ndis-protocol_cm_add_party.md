@@ -56,22 +56,6 @@ The
 <div class="alert"><b>Note</b>  You must declare the function by using the <b>PROTOCOL_CM_ADD_PARTY</b> type.
    For more information, see the following Examples section.</div><div> </div>
 
-## -prototype
-
-
-````
-PROTOCOL_CM_ADD_PARTY ProtocolCmAddParty;
-
-NDIS_STATUS ProtocolCmAddParty(
-  _In_    NDIS_HANDLE         CallMgrVcContext,
-  _Inout_ PCO_CALL_PARAMETERS CallParameters,
-  _In_    NDIS_HANDLE         NdisPartyHandle,
-  _Out_   PNDIS_HANDLE        CallMgrPartyContext
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -81,7 +65,7 @@ NDIS_STATUS ProtocolCmAddParty(
 
 Specifies the handle to a call manager-allocated context area in which the call manager maintains
      its per-VC state. The call manager supplied this handle to NDIS from its 
-     <a href="..\ndis\nc-ndis-protocol_co_create_vc.md">ProtocolCoCreateVc</a> function.
+     <a href="https://msdn.microsoft.com/b086dd24-74f5-474a-8684-09bf92ac731b">ProtocolCoCreateVc</a> function.
 
 
 ### -param CallParameters [in, out]
@@ -137,7 +121,7 @@ Indicates that the call manager successfully allocated the necessary resources t
 <td width="60%">
 Indicates that the call manager will complete the request to add a party asynchronously. When
        the call manager has completed all operations for adding the party, it must call 
-       <a href="..\ndis\nf-ndis-ndiscmaddpartycomplete.md">NdisCmAddPartyComplete</a> to signal
+       <a href="https://msdn.microsoft.com/library/windows/hardware/ff561651">NdisCmAddPartyComplete</a> to signal
        NDIS that this operation has been completed.
 
 </td>
@@ -249,14 +233,14 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndiscladdparty.md">NdisClAddParty</a>
 
 
 
-<a href="..\ndis\nc-ndis-protocol_cl_add_party_complete.md">ProtocolClAddPartyComplete</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561625">NdisClAddParty</a>
 
 
 
+<a href="https://msdn.microsoft.com/ea3ebbe9-fd94-44b8-8801-639d099c5158">ProtocolClAddPartyComplete</a>
  
 
  

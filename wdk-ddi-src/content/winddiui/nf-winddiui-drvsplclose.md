@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -53,16 +53,6 @@ req.product: Windows 10 or later.
 
 
 
-## -syntax
-
-
-````
-VOID WINAPI DrvSplClose(
-   HANDLE hDriver
-);
-````
-
-
 ## -parameters
 
 
@@ -78,7 +68,7 @@ VOID WINAPI DrvSplClose(
 This function does not return a value.
 
 <h2><a id="ddk_drvsplclose_gg"></a><a id="DDK_DRVSPLCLOSE_GG"></a></h2>
-The <b>DrvSplClose</b> function is obsolete, and is supported only so that user-mode rendering DLLs, optionally supplied with Windows NT 4.0 drivers, will execute under Windows 2000 and later. Use <a href="..\winddiui\nf-winddiui-drvdocumentevent.md">DrvDocumentEvent</a> instead of this function.
+The <b>DrvSplClose</b> function is obsolete, and is supported only so that user-mode rendering DLLs, optionally supplied with Windows NT 4.0 drivers, will execute under Windows 2000 and later. Use <a href="https://msdn.microsoft.com/library/windows/hardware/ff548544">DrvDocumentEvent</a> instead of this function.
 
 The <b>DrvSplClose</b> function enables a user-mode rendering DLL to deallocate resources.
 

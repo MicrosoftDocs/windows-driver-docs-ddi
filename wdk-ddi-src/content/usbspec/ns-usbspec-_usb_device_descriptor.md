@@ -53,29 +53,6 @@ req.product: Windows 10 or later.
 The <b>USB_DEVICE_DESCRIPTOR</b> structure is used by USB client drivers to retrieve a USB-defined device descriptor.
 
 
-## -syntax
-
-
-````
-typedef struct _USB_DEVICE_DESCRIPTOR {
-  UCHAR  bLength;
-  UCHAR  bDescriptorType;
-  USHORT bcdUSB;
-  UCHAR  bDeviceClass;
-  UCHAR  bDeviceSubClass;
-  UCHAR  bDeviceProtocol;
-  UCHAR  bMaxPacketSize0;
-  USHORT idVendor;
-  USHORT idProduct;
-  USHORT bcdDevice;
-  UCHAR  iManufacturer;
-  UCHAR  iProduct;
-  UCHAR  iSerialNumber;
-  UCHAR  bNumConfigurations;
-} USB_DEVICE_DESCRIPTOR, *PUSB_DEVICE_DESCRIPTOR;
-````
-
-
 ## -struct-fields
 
 
@@ -164,11 +141,6 @@ The <b>iManufacturer</b>, <b>iProduct</b>, and <b>iSerialNumber</b> values, when
 
 ## -see-also
 
-<a href="..\usb\ns-usb-_urb_control_descriptor_request.md">_URB_CONTROL_DESCRIPTOR_REQUEST</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538943">UsbBuildGetDescriptorRequest</a>
 
 
 
@@ -176,6 +148,11 @@ The <b>iManufacturer</b>, <b>iProduct</b>, and <b>iSerialNumber</b> values, when
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538943">UsbBuildGetDescriptorRequest</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540357">_URB_CONTROL_DESCRIPTOR_REQUEST</a>
  
 
  

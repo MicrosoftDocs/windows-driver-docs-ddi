@@ -53,17 +53,6 @@ req.typenames:
                  Gives information about the maximum display pipeline rate.
 
 
-## -syntax
-
-
-````
-typedef struct IDARG_IN_MAXDISPLAYPIPELINERATE {
-  IDDCX_UPDATE_REASON Reason;
-  UINT64              MaxDisplayPipelineRate;
-} IDARG_IN_MAXDISPLAYPIPELINERATE, *IDARG_IN_MAXDISPLAYPIPELINERATE;
-````
-
-
 ## -struct-fields
 
 

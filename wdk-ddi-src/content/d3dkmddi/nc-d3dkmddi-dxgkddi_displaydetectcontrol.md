@@ -52,17 +52,6 @@ req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
 Used to turn hot plug detection on and off and to initiate status polls on either a specific target or all targets.  
 
 
-## -prototype
-
-
-````
-NTSTATUS APIENTRY DXGKDDI_DISPLAYDETECTCONTROL(
-  _In_ const HANDLE                          hAdapter,
-  _In_ const PDXGKARG_DISPLAYDETECTCONTROL   pDisplayDetectControl
-);
-````
-
-
 ## -parameters
 
 
@@ -75,7 +64,7 @@ A handle that identifies the adapter.
 
 ### -param pDisplayDetectControl [in]
 
-A pointer to a <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_displaydetectcontrol.md">DXGKARG_DISPLAYDETECTCONTROL</a> structure that describes the detection action which is requested.
+A pointer to a <a href="https://msdn.microsoft.com/A0B5798E-FF4D-4133-BFA9-39B37CC387F6">DXGKARG_DISPLAYDETECTCONTROL</a> structure that describes the detection action which is requested.
 
 
 ## -returns

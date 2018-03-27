@@ -52,20 +52,6 @@ req.typenames: DXGI_DDI_PRESENT_MULTIPLANE_OVERLAY
 Specifies overlay planes to display.
 
 
-## -syntax
-
-
-````
-typedef struct _DXGI_DDI_PRESENT_MULTIPLANE_OVERLAY {
-  UINT                                   LayerIndex;
-  BOOL                                   Enabled;
-  DXGI_DDI_HRESOURCE                     hResource;
-  UINT                                   SubResourceIndex;
-  DXGI_DDI_MULTIPLANE_OVERLAY_ATTRIBUTES PlaneAttributes;
-} DXGI_DDI_PRESENT_MULTIPLANE_OVERLAY;
-````
-
-
 ## -struct-fields
 
 
@@ -93,15 +79,15 @@ The zero-based index into the resource, which is specified by the handle in the 
 
 ### -field PlaneAttributes
 
-A structure of type <a href="..\dxgiddi\ns-dxgiddi-dxgi_ddi_multiplane_overlay_attributes.md">DXGI_DDI_MULTIPLANE_OVERLAY_ATTRIBUTES</a>  that specifies overlay plane attributes.
+A structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/hh780283">DXGI_DDI_MULTIPLANE_OVERLAY_ATTRIBUTES</a>  that specifies overlay plane attributes.
 
 
 ## -see-also
 
-<a href="..\dxgiddi\ns-dxgiddi-dxgi_ddi_multiplane_overlay_attributes.md">DXGI_DDI_MULTIPLANE_OVERLAY_ATTRIBUTES</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh780283">DXGI_DDI_MULTIPLANE_OVERLAY_ATTRIBUTES</a>
  
 
  

@@ -53,19 +53,6 @@ req.product: Windows 10 or later.
 Defines different Type-C current levels, as defined in the Type-C specification.
 
 
-## -syntax
-
-
-````
-typedef enum _UCM_TYPE_C_CURRENT { 
-  UcmTypeCCurrentInvalid     = 0x0,
-  UcmTypeCCurrentDefaultUsb  = 0x1,
-  UcmTypeCCurrent1500mA      = 0x2,
-  UcmTypeCCurrent3000mA      = 0x4
-} UCM_TYPEC_CURRENT;
-````
-
-
 ## -enum-fields
 
 
@@ -93,14 +80,14 @@ Indicates the power sourcing current is 3000 mA.
 
 ## -see-also
 
-<a href="..\ucmmanager\nf-ucmmanager-ucmconnectortypecattach.md">UcmConnectorTypeCAttach</a>
 
 
 
-<a href="..\ucmmanager\nf-ucmmanager-ucmconnectortypeccurrentadchanged.md">UcmConnectorTypeCCurrentAdChanged</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt187915">UcmConnectorTypeCAttach</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt187916">UcmConnectorTypeCCurrentAdChanged</a>
  
 
  

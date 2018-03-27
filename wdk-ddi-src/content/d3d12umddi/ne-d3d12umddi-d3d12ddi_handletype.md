@@ -52,35 +52,6 @@ req.typenames: D3D12DDI_HANDLETYPE
 Contains driver handle types.
 
 
-## -syntax
-
-
-````
-typedef enum D3D12DDI_HANDLETYPE { 
-  D3D12DDI_HT_COMMAND_QUEUE                  = 19,
-  D3D12DDI_HT_COMMAND_ALLOCATOR              = 20,
-  D3D12DDI_HT_PIPELINE_STATE                 = 21,
-  D3D12DDI_HT_COMMAND_LIST                   = 22,
-  D3D12DDI_HT_FENCE                          = 23,
-  D3D12DDI_HT_DESCRIPTOR_HEAP                = 24,
-  D3D12DDI_HT_HEAP                           = 25,
-  D3D12DDI_HT_QUERY_HEAP                     = 27,
-  D3D12DDI_HT_COMMAND_SIGNATURE              = 28,
-  D3D12DDI_HT_0010_PIPELINE_LIBRARY          = 29,
-  D3D12DDI_HT_0020_VIDEO_DECODER             = 30,
-  D3D12DDI_HT_0020_VIDEO_DECODE_STREAM       = 31,
-  D3D12DDI_HT_0020_VIDEO_PROCESSOR           = 32,
-  D3D12DDI_HT_0020_VIDEO_PROCESS_STREAM      = 33,
-  D3D12DDI_HT_0012_RESOURCE                  = 34,
-  D3D12DDI_HT_PASS                           = 35,
-  D3D12DDI_HT_0030_CRYPTOSESSION             = 36,
-  D3D12DDI_HT_0030_CRYPTOSESSIONPOLICY       = 37,
-  D3D12DDI_HT_0030_PROTECTEDRESOURCESESSION  = 37,
-  D3D12DDI_HT_0032_VIDEO_DECODER_HEAP        = 39
-} D3D12DDI_HANDLETYPE;
-````
-
-
 ## -enum-fields
 
 

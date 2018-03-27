@@ -52,19 +52,6 @@ req.typenames: RILSERVICESETTINGSSTATUS
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef enum _RILSERVICESETTINGSSTATUS { 
-  RIL_SVCSTAT_DISABLED,
-  RIL_SVCSTAT_ENABLED,
-  RIL_SVCSTAT_DEFAULT,
-  RIL_SVCSTAT_MAX
-} RILSERVICESETTINGSSTATUS;
-````
-
-
 ## -enum-fields
 
 

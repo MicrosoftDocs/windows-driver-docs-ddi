@@ -46,11 +46,6 @@ req.typenames: HFP_BYPASS_CODEC_ID_V1, *PHFP_BYPASS_CODEC_ID_V1
 # IOCTL_BTH_SDP_SERVICE_ATTRIBUTE_SEARCH IOCTL
 
 
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
-
 ## -description
 
 
@@ -86,14 +81,14 @@ The length of an
 
 The 
       <b>AssociatedIrp.SystemBuffer</b> member points to a buffer that holds a 
-      <a href="..\bthioctl\ns-bthioctl-_bth_sdp_stream_response.md">BTH_SDP_STREAM_RESPONSE</a> structure
+      <a href="https://msdn.microsoft.com/library/windows/hardware/ff536653">BTH_SDP_STREAM_RESPONSE</a> structure
       followed by a raw SDP record stream.
 
 
 ### -output-buffer-length
 
 The length of a 
-      <a href="..\bthioctl\ns-bthioctl-_bth_sdp_stream_response.md">BTH_SDP_STREAM_RESPONSE</a> structure.
+      <a href="https://msdn.microsoft.com/library/windows/hardware/ff536653">BTH_SDP_STREAM_RESPONSE</a> structure.
 
 
 ### -in-out-buffer
@@ -209,7 +204,7 @@ The SDP service could not process the number of GUIDs passed in the input buffer
 
 After a profile driver obtains an SDP record, it can use SDP functions to parse them. Pointers to
     these functions are provided by the 
-    <a href="..\bthsdpddi\ns-bthsdpddi-_bthddi_sdp_parse_interface.md">
+    <a href="https://msdn.microsoft.com/bb8a1dd5-8207-4034-993e-eed49dc0f9c4">
     BTHDDI_SDP_PARSE_INTERFACE</a> interface.
 
 
@@ -217,19 +212,19 @@ After a profile driver obtains an SDP record, it can use SDP functions to parse 
 
 ## -see-also
 
-<a href="..\bthioctl\ns-bthioctl-_bth_sdp_stream_response.md">BTH_SDP_STREAM_RESPONSE</a>
 
 
 
-<a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_service_attribute_search.md">
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536636">BTHDDI_SDP_PARSE_INTERFACE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536653">BTH_SDP_STREAM_RESPONSE</a>
+
+
+
+<a href="https://msdn.microsoft.com/f0955e88-df80-4f53-bc5f-5a38a840aab4">
    IOCTL_BTH_SDP_SERVICE_ATTRIBUTE_SEARCH</a>
-
-
-
-<a href="..\bthsdpddi\ns-bthsdpddi-_bthddi_sdp_parse_interface.md">BTHDDI_SDP_PARSE_INTERFACE</a>
-
-
-
  
 
  

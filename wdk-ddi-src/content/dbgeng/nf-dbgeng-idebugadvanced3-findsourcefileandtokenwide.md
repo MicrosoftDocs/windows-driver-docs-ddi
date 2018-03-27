@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -50,25 +50,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The  <b>FindSourceFileAndTokenWide</b> method returns the filename of a source file on the source path or return the value of a variable associated with a file token.
-
-
-## -syntax
-
-
-````
-HRESULT FindSourceFileAndTokenWide(
-  [in]            ULONG   StartElement,
-  [in]            ULONG64 ModAddr,
-  [in]            PCWSTR  File,
-  [in]            ULONG   Flags,
-  [in, optional]  PVOID   FileToken,
-  [in]            ULONG   FileTokenSize,
-  [out, optional] PULONG  FoundElement,
-  [out, optional] PWSTR   Buffer,
-  [in]            ULONG   BufferSize,
-  [out, optional] PULONG  FoundSize
-);
-````
 
 
 ## -parameters
@@ -218,15 +199,6 @@ For more information about source files, see <a href="https://msdn.microsoft.com
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugadvanced3.md">IDebugAdvanced3</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548367">GetSourcePathElement</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545423">FindSourceFile</a>
 
 
 
@@ -234,10 +206,19 @@ For more information about source files, see <a href="https://msdn.microsoft.com
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545423">FindSourceFile</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548321">GetSourceFileInformation</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548367">GetSourcePathElement</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549807">IDebugAdvanced3</a>
  
 
  

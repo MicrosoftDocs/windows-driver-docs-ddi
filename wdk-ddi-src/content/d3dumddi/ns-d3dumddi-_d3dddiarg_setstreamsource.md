@@ -52,19 +52,6 @@ req.typenames: D3DDDIARG_SETSTREAMSOURCE
 The D3DDDIARG_SETSTREAMSOURCE structure describes the portion of the vertex stream to bind to a vertex buffer. 
 
 
-## -syntax
-
-
-````
-typedef struct _D3DDDIARG_SETSTREAMSOURCE {
-  UINT   Stream;
-  HANDLE hVertexBuffer;
-  UINT   Offset;
-  UINT   Stride;
-} D3DDDIARG_SETSTREAMSOURCE;
-````
-
-
 ## -struct-fields
 
 
@@ -98,10 +85,10 @@ The <b>Stride</b> value must be DWORD-aligned.
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setstreamsource.md">SetStreamSource</a>
 
 
 
+<a href="https://msdn.microsoft.com/669dbabc-91fb-40f9-a034-11c3c2e70436">SetStreamSource</a>
  
 
  

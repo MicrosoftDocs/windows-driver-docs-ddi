@@ -54,16 +54,6 @@ The
   <b>NdisMReadDmaCounter</b> function returns the current value of the system DMA controller's counter.
 
 
-## -syntax
-
-
-````
-ULONG NdisMReadDmaCounter(
-  _In_ NDIS_HANDLE MiniportDmaHandle
-);
-````
-
-
 ## -parameters
 
 
@@ -72,7 +62,7 @@ ULONG NdisMReadDmaCounter(
 ### -param MiniportDmaHandle [in]
 
 The handle returned when the miniport driver called the 
-     <a href="..\ndis\nf-ndis-ndismregisterdmachannel.md">NdisMRegisterDmaChannel</a> function
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff563646">NdisMRegisterDmaChannel</a> function
      during initialization.
 
 
@@ -98,10 +88,10 @@ Miniport drivers of devices that use the system DMA controller's auto-initialize
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndismregisterdmachannel.md">NdisMRegisterDmaChannel</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563646">NdisMRegisterDmaChannel</a>
  
 
  

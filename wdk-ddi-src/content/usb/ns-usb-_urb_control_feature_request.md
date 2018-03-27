@@ -53,27 +53,6 @@ req.product: Windows 10 or later.
 The <b>_URB_CONTROL_FEATURE_REQUEST</b> structure is used by USB client drivers  to set or clear features on a device, interface, or endpoint.
 
 
-## -syntax
-
-
-````
-struct _URB_CONTROL_FEATURE_REQUEST {
-  struct URB_HEADER  Hdr;
-  PVOID               Reserved;
-  ULONG               Reserved2;
-  ULONG               Reserved3;
-  PVOID               Reserved4;
-  PMDL                Reserved5;
-  struct URB  *UrbLink;
-  struct URB_HCD_AREA  hca;
-  USHORT              Reserved0;
-  USHORT              FeatureSelector;
-  USHORT              Index;
-  USHORT              Reserved1;
-};
-````
-
-
 ## -struct-fields
 
 
@@ -81,7 +60,7 @@ struct _URB_CONTROL_FEATURE_REQUEST {
 
 ### -field Hdr
 
-Pointer to a <a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a> structure that specifies the URB header information. <b>Hdr.Function</b> indicates either a set or a clear feature operation, to perform on a device, interface, endpoint or other non-standard component. <b>Hdr.Function</b> must have one of the following values:
+Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff540409">_URB_HEADER</a> structure that specifies the URB header information. <b>Hdr.Function</b> indicates either a set or a clear feature operation, to perform on a device, interface, endpoint or other non-standard component. <b>Hdr.Function</b> must have one of the following values:
 
 <b>Hdr.Length</b> must equal <code>sizeof(_URB_CONTROL_FEATURE_REQUEST)</code>.
 
@@ -158,11 +137,10 @@ Likewise, when a driver issues a URB with a function type of URB_FUNCTION_SYNC_R
 
 ## -see-also
 
-<a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a>
 
 
 
-<a href="..\usb\ns-usb-_urb.md">URB</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538923">URB</a>
 
 
 
@@ -170,6 +148,7 @@ Likewise, when a driver issues a URB with a function type of URB_FUNCTION_SYNC_R
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540409">_URB_HEADER</a>
  
 
  

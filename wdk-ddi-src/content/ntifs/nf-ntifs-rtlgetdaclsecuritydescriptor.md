@@ -52,19 +52,6 @@ req.typenames: TOKEN_TYPE
 The <b>RtlGetDaclSecurityDescriptor</b> routine returns a pointer to the discretionary ACL (DACL) for a security descriptor.
 
 
-## -syntax
-
-
-````
-NTSTATUS RtlGetDaclSecurityDescriptor(
-  _In_  PSECURITY_DESCRIPTOR SecurityDescriptor,
-  _Out_ PBOOLEAN             DaclPresent,
-  _Out_ PACL                 *Dacl,
-  _Out_ PBOOLEAN             DaclDefaulted
-);
-````
-
-
 ## -parameters
 
 
@@ -72,7 +59,7 @@ NTSTATUS RtlGetDaclSecurityDescriptor(
 
 ### -param SecurityDescriptor [in]
 
-Pointer to the <a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a> whose DACL is to be returned.
+Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563689">SECURITY_DESCRIPTOR</a> whose DACL is to be returned.
 
 
 ### -param DaclPresent [out]
@@ -131,30 +118,30 @@ For more information about security and access control, see the documentation fo
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-rtllengthsecuritydescriptor.md">RtlLengthSecurityDescriptor</a>
 
 
 
-<a href="..\wdm\ns-wdm-_acl.md">ACL</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538866">ACL</a>
 
 
 
-<a href="..\wdm\nf-wdm-rtlsetdaclsecuritydescriptor.md">RtlSetDaclSecurityDescriptor</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561827">RtlCreateSecurityDescriptor</a>
 
 
 
-<a href="..\wdm\nf-wdm-rtlcreatesecuritydescriptor.md">RtlCreateSecurityDescriptor</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562025">RtlLengthSecurityDescriptor</a>
 
 
 
-<a href="..\wdm\nf-wdm-rtlvalidsecuritydescriptor.md">RtlValidSecurityDescriptor</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562781">RtlSetDaclSecurityDescriptor</a>
 
 
 
-<a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563024">RtlValidSecurityDescriptor</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563689">SECURITY_DESCRIPTOR</a>
  
 
  

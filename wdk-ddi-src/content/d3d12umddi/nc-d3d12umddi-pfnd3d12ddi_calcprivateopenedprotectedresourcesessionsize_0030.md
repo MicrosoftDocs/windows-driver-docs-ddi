@@ -52,17 +52,6 @@ req.typenames: D3D11_1DDI_GETCAPTUREHANDLEDATA
 Used to calculate the size of an opened protected resource session.
 
 
-## -prototype
-
-
-````
-SIZE_T APIENTRY* PFND3D12DDI_CALCPRIVATEOPENEDPROTECTEDRESOURCESESSIONSIZE_0030(
-             D3D12DDI_HDEVICE                                 hDrvDevice,
-  _In_ const D3D12DDIARG_OPEN_PROTECTED_RESOURCE_SESSION_0030 *pArgs
-);
-````
-
-
 ## -parameters
 
 

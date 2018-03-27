@@ -52,20 +52,6 @@ req.typenames: D3D11_1DDI_GETCAPTUREHANDLEDATA
 The <i>pfnProcessorTrimAllocations</i> callback function  trims allocations for submissions that are finished.
 
 
-## -prototype
-
-
-````
-PFND3D12DDI_VIDEO_PROCESSOR_TRIM_ALLOCATIONS_0021 pfnProcessorTrimAllocations;
-
-UINT64 APIENTRY* pfnProcessorTrimAllocations(
-   D3D12DDI_HVIDEOPROCESSOR hDrvVideoProcessor,
-   UINT64                   SubmissionID
-)
-{ ... }
-````
-
-
 ## -parameters
 
 

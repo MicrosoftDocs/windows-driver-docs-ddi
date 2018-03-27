@@ -52,17 +52,6 @@ req.typenames: NDIS_WWAN_DEVICE_SERVICE_SESSION_WRITE, *PNDIS_WWAN_DEVICE_SERVIC
 The NDIS_WWAN_DEVICE_SERVICE_SESSION_WRITE structure represents device service session data to be sent from the host to the MB device.
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_WWAN_DEVICE_SERVICE_SESSION_WRITE {
-  NDIS_OBJECT_HEADER                Header;
-  WWAN_DEVICE_SERVICE_SESSION_WRITE WriteData;
-} NDIS_WWAN_DEVICE_SERVICE_SESSION_WRITE, *PNDIS_WWAN_DEVICE_SERVICE_SESSION_WRITE;
-````
-
-
 ## -struct-fields
 
 
@@ -116,7 +105,7 @@ sizeof(NDIS_WWAN_DEVICE_SERVICE_SESSION_WRITE)
  
 
 For more information about these members, see 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>.
 
 
 ### -field WriteData
@@ -126,10 +115,10 @@ The data to be sent to the MB device.
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_device_service_session_write.md">WWAN_DEVICE_SERVICE_SESSION_WRITE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh831877">WWAN_DEVICE_SERVICE_SESSION_WRITE</a>
  
 
  

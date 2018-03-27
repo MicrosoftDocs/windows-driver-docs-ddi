@@ -52,18 +52,6 @@ req.typenames: RemoveTarget_IN, *PRemoveTarget_IN
 The RemoveTarget_IN structure is used by a WMI client to deliver input parameter data to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff564030">RemoveTarget</a> WMI method.
 
 
-## -syntax
-
-
-````
-typedef struct _RemoveTarget_IN {
-  UCHAR HbaPortWWN[8];
-  UCHAR DiscoveredPortWWN[8];
-  ULONG AllTargets;
-} RemoveTarget_IN, *PRemoveTarget_IN;
-````
-
-
 ## -struct-fields
 
 
@@ -95,10 +83,10 @@ The WMI tool suite generates a declaration of the RemoveTarget_IN structure in <
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564030">RemoveTarget</a>
-
-
-
  
 
  

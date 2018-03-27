@@ -49,22 +49,7 @@ req.typenames: D3DKMT_ACQUIREKEYEDMUTEX2
 ## -description
 
 
-Describes a keyed mutex object that the <a href="..\d3dkmthk\nc-d3dkmthk-pfnd3dkmt_acquirekeyedmutex2.md">D3DKMTAcquireKeyedMutex2</a> function acquires that includes private data.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DKMT_ACQUIREKEYEDMUTEX2 {
-  D3DKMT_HANDLE  hKeyedMutex;
-  UINT64         Key;
-  PLARGE_INTEGER pTimeout;
-  UINT64         FenceValue;
-  VOID           *pPrivateRuntimeData;
-  UINT           PrivateRuntimeDataSize;
-} D3DKMT_ACQUIREKEYEDMUTEX2;
-````
+Describes a keyed mutex object that the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439340">D3DKMTAcquireKeyedMutex2</a> function acquires that includes private data.
 
 
 ## -struct-fields
@@ -104,10 +89,10 @@ typedef struct _D3DKMT_ACQUIREKEYEDMUTEX2 {
 
 ## -see-also
 
-<a href="..\d3dkmthk\nc-d3dkmthk-pfnd3dkmt_acquirekeyedmutex2.md">D3DKMTAcquireKeyedMutex2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439340">D3DKMTAcquireKeyedMutex2</a>
  
 
  

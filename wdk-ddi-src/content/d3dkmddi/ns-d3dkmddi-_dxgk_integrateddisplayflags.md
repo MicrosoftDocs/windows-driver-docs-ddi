@@ -52,21 +52,6 @@ req.typenames: DXGK_INTEGRATEDDISPLAYFLAGS, *PDXGK_INTEGRATEDDISPLAYFLAGS
 Flags which describe simple properties of an integrated display.
 
 
-## -syntax
-
-
-````
-typedef union _DXGK_INTEGRATEDDISPLAYFLAGS {
-  struct {
-    DXGK_DISPLAYPANELORIENTATION UndockedOrientation  :2;
-    DXGK_DISPLAYPANELORIENTATION DockedOrientation  :2;
-    UINT                         Reserved  :28;
-  };
-  UINT Value;
-} DXGK_INTEGRATEDDISPLAYFLAGS;
-````
-
-
 ## -struct-fields
 
 

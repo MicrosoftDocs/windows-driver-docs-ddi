@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,19 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>ReadPhysical</b> function reads from physical memory.
-
-
-## -syntax
-
-
-````
-__inline VOID ReadPhysical(
-   ULONG64 address,
-   PVOID   buf,
-   ULONG   size,
-   PULONG  sizer
-);
-````
 
 
 ## -parameters

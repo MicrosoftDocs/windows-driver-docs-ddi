@@ -49,28 +49,7 @@ req.typenames: STORAGE_LB_PROVISIONING_MAP_RESOURCES, *PSTORAGE_LB_PROVISIONING_
 ## -description
 
 
-The <b>STORAGE_LB_PROVISIONING_MAP_RESOURCES</b> structure contains, when valid, the count of available and used bytes mapped to a storage device. This structure is returned from an <a href="..\ntddstor\ni-ntddstor-ioctl_storage_get_lb_provisioning_map_resources.md">IOCTL_STORAGE_GET_LB_PROVISIONING_MAP_RESOURCES</a> request.
-
-
-## -syntax
-
-
-````
-typedef struct _STORAGE_LB_PROVISIONING_MAP_RESOURCES {
-  ULONG     Size;
-  ULONG     Version;
-  UCHAR     AvailableMappingResourcesValid  :1;
-  UCHAR     UsedMappingResourcesValid  :1;
-  UCHAR     Reserved0  :6;
-  UCHAR     Reserved1[3];
-  UCHAR     AvailableMappingResourcesScope  :2;
-  UCHAR     UsedMappingResourcesScope  :2;
-  UCHAR     Reserved2  :4;
-  UCHAR     Reserved3[3];
-  ULONGLONG AvailableMappingResources;
-  ULONGLONG UsedMappingResources;
-} STORAGE_LB_PROVISIONING_MAP_RESOURCES, *PSTORAGE_LB_PROVISIONING_MAP_RESOURCES;
-````
+The <b>STORAGE_LB_PROVISIONING_MAP_RESOURCES</b> structure contains, when valid, the count of available and used bytes mapped to a storage device. This structure is returned from an <a href="https://msdn.microsoft.com/library/windows/hardware/hh463914">IOCTL_STORAGE_GET_LB_PROVISIONING_MAP_RESOURCES</a> request.
 
 
 ## -struct-fields
@@ -284,7 +263,7 @@ The count, in bytes, of the used mapping resources for a disk.
 
 
 
-As a managed storage element, resource usage for a thinly provisioned LUN is tracked. Resource allocation is logged for the device by the storage subsystem. A storage application can query for this resource usage  information using the <a href="..\ntddstor\ni-ntddstor-ioctl_storage_get_lb_provisioning_map_resources.md"> IOCTL_STORAGE_GET_LB_PROVISIONING_MAP_RESOURCES</a> request.
+As a managed storage element, resource usage for a thinly provisioned LUN is tracked. Resource allocation is logged for the device by the storage subsystem. A storage application can query for this resource usage  information using the <a href="https://msdn.microsoft.com/117F6507-CA52-4EA7-9633-75ADB19F4DDA"> IOCTL_STORAGE_GET_LB_PROVISIONING_MAP_RESOURCES</a> request.
 
 Logging of mapped resource counts is dependent on support from the storage device. The <b>AvailableMappingResources</b> and <b>UsedMappingResources</b> members contain resource counts when their respective validity fields are set.
 
@@ -295,10 +274,10 @@ Resource counts are in bytes instead of totals of blocks or slabs.
 
 ## -see-also
 
-<a href="..\ntddstor\ni-ntddstor-ioctl_storage_get_lb_provisioning_map_resources.md"> IOCTL_STORAGE_GET_LB_PROVISIONING_MAP_RESOURCES</a>
 
 
 
+<a href="https://msdn.microsoft.com/117F6507-CA52-4EA7-9633-75ADB19F4DDA"> IOCTL_STORAGE_GET_LB_PROVISIONING_MAP_RESOURCES</a>
  
 
  

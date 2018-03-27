@@ -49,24 +49,7 @@ req.typenames: D3DKMT_CREATEDEVICEFLAGS
 ## -description
 
 
-The D3DKMT_CREATEDEVICEFLAGS structure identifies the type of device context to be created in a call to the <a href="..\d3dkmthk\nc-d3dkmthk-pfnd3dkmt_createdevice.md">D3DKMTCreateDevice</a> function.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DKMT_CREATEDEVICEFLAGS {
-  UINT LegacyMode  :1;
-  UINT RequestVSync  :1;
-#if (DXGKDDI_INTERFACE_VERSION >= DXGKDDI_INTERFACE_VERSION_WIN8)
-  UINT DisableGpuTimeout  :1;
-  UINT Reserved  :29;
-#else 
-  UINT Reserved  :30;
-#endif 
-} D3DKMT_CREATEDEVICEFLAGS;
-````
+The D3DKMT_CREATEDEVICEFLAGS structure identifies the type of device context to be created in a call to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff546836">D3DKMTCreateDevice</a> function.
 
 
 ## -struct-fields
@@ -106,10 +89,10 @@ This member is reserved and should be set to zero. Setting this member is equiva
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_createdevice.md">D3DKMT_CREATEDEVICE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547819">D3DKMT_CREATEDEVICE</a>
  
 
  

@@ -52,17 +52,6 @@ req.typenames: DXGKVGPU_ESCAPE_TYPE
 An enum that holds information about the escape type.
 
 
-## -syntax
-
-
-````
-typedef enum _DXGKVGPU_ESCAPE_TYPE { 
-  DXGKVGPU_ESCAPE_TYPE_READ_PCI_CONFIG  = 0,
-  DXGKVGPU_ESCAPE_TYPE_GET_VGPU_TYPE    = 4
-} DXGKVGPU_ESCAPE_TYPE;
-````
-
-
 ## -enum-fields
 
 

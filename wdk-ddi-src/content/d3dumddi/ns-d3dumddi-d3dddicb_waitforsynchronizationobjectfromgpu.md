@@ -49,24 +49,7 @@ req.typenames: D3DDDICB_WAITFORSYNCHRONIZATIONOBJECTFROMGPU
 ## -description
 
 
-<b>D3DDDICB_WAITFORSYNCHRONIZATIONOBJECTFROMGPU</b> is used with <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_waitforsynchronizationobjectfromgpucb.md">pfnWaitForSynchronizationObjectFromGpuCb</a> to wait for a monitored fence to reach a certain value.
-
-
-## -syntax
-
-
-````
-typedef struct D3DDDICB_WAITFORSYNCHRONIZATIONOBJECTFROMGPU {
-  HANDLE              hContext;
-  UINT                ObjectCount;
-  const D3DKMT_HANDLE *ObjectHandleArray;
-  union {
-    const UINT64 *MonitoredFenceValueArray;
-    UINT64       FenceValue;
-    UINT64       Reserved[8];
-  };
-} D3DDDICB_WAITFORSYNCHRONIZATIONOBJECTFROMGPU;
-````
+<b>D3DDDICB_WAITFORSYNCHRONIZATIONOBJECTFROMGPU</b> is used with <a href="https://msdn.microsoft.com/49023D25-D57E-418F-AD10-133377B90493">pfnWaitForSynchronizationObjectFromGpuCb</a> to wait for a monitored fence to reach a certain value.
 
 
 ## -struct-fields
@@ -106,10 +89,10 @@ This member is reserved and should be set to zero.
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_waitforsynchronizationobjectfromgpucb.md">pfnWaitForSynchronizationObjectFromGpuCb</a>
 
 
 
+<a href="https://msdn.microsoft.com/49023D25-D57E-418F-AD10-133377B90493">pfnWaitForSynchronizationObjectFromGpuCb</a>
  
 
  

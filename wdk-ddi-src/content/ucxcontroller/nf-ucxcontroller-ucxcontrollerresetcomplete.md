@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
@@ -51,16 +51,6 @@ req.product: Windows 10 or later.
 
 
 Informs USB Host Controller Extension (UCX) that the reset operation has competed.
-
-
-## -syntax
-
-
-````
-void UcxControllerResetComplete(
-  [in] UCXCONTROLLER Controller
-);
-````
 
 
 ## -parameters
@@ -91,10 +81,10 @@ This method does not return a value.
 
 ## -see-also
 
-<a href="..\ucxendpoint\nf-ucxendpoint-ucxendpointcreate.md">UcxEndpointCreate</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt188039">UcxEndpointCreate</a>
  
 
  

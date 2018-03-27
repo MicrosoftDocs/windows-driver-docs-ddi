@@ -52,17 +52,6 @@ req.typenames: DXVADDI_PRIVATEDATA
 The DXVADDI_PRIVATEDATA structure describes data that is required for a particular decoder to operate. 
 
 
-## -syntax
-
-
-````
-typedef struct _DXVADDI_PRIVATEDATA {
-  VOID *pData;
-  UINT DataSize;
-} DXVADDI_PRIVATEDATA;
-````
-
-
 ## -struct-fields
 
 
@@ -80,18 +69,18 @@ typedef struct _DXVADDI_PRIVATEDATA {
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_decodeextensionexecute.md">D3DDDIARG_DECODEEXTENSIONEXECUTE</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createdecodedevice.md">D3DDDIARG_CREATEDECODEDEVICE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542927">D3DDDIARG_CREATEDECODEDEVICE</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_decodeexecute.md">D3DDDIARG_DECODEEXECUTE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543001">D3DDDIARG_DECODEEXECUTE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543009">D3DDDIARG_DECODEEXTENSIONEXECUTE</a>
  
 
  

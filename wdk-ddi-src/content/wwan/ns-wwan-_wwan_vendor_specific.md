@@ -53,16 +53,6 @@ req.product: Windows 10 or later.
 The WWAN_VENDOR_SPECIFIC structure represents vendor-specific data.
 
 
-## -syntax
-
-
-````
-typedef struct _WWAN_VENDOR_SPECIFIC {
-  ULONG uVendorSpecificBufferSize;
-} WWAN_VENDOR_SPECIFIC, *PWWAN_VENDOR_SPECIFIC;
-````
-
-
 ## -struct-fields
 
 
@@ -86,10 +76,10 @@ NDIS_WWAN_VENDOR_SPECIFIC should have the data following the
 
 ## -see-also
 
-<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_vendor_specific.md">NDIS_WWAN_VENDOR_SPECIFIC</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567947">NDIS_WWAN_VENDOR_SPECIFIC</a>
  
 
  

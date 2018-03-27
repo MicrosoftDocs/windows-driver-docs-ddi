@@ -53,18 +53,6 @@ req.typenames:
 The <b>KsCacheMedium</b> function improves graph building performance of pins that use Mediums to define connectivity.
 
 
-## -syntax
-
-
-````
-NTSTATUS KsCacheMedium(
-  _In_ PUNICODE_STRING SymbolicLink,
-  _In_ PKSPIN_MEDIUM   Medium,
-  _In_ ULONG           PinDirection
-);
-````
-
-
 ## -parameters
 
 

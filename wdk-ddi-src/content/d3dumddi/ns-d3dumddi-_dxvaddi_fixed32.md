@@ -52,22 +52,6 @@ req.typenames: DXVADDI_FIXED32
 The DXVADDI_FIXED32 structure describes a floating-point number from a 16.16 fixed-point number. 
 
 
-## -syntax
-
-
-````
-typedef struct _DXVADDI_FIXED32 {
-  union {
-    struct {
-      USHORT Fraction;
-      SHORT  Value;
-    };
-    LONG   ll;
-  };
-} DXVADDI_FIXED32;
-````
-
-
 ## -struct-fields
 
 
@@ -90,10 +74,10 @@ A 32-bit value that describes the 16.16 fixed-point number.
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_procampvalues.md">DXVADDI_PROCAMPVALUES</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562917">DXVADDI_PROCAMPVALUES</a>
  
 
  

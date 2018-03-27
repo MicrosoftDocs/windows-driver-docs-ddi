@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: wiamindr_lh.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,19 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>IWiaMiniDrv::drvGetDeviceErrorStr </b>method maps an error code to a Unicode string that describes the error.
-
-
-## -syntax
-
-
-````
-HRESULT drvGetDeviceErrorStr(
-  [in]            LONG     lFlags,
-  [in]            LONG     lDevErrVal,
-  [out, optional] LPOLESTR *ppszDevErrStr,
-  [out]           LONG     *plDevErr
-);
-````
 
 
 ## -parameters

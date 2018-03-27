@@ -52,17 +52,6 @@ req.typenames: MPIO_REGISTERED_DSM, *PMPIO_REGISTERED_DSM
 The MPIO_REGISTERED_DSM structure represents the top-level view of the registered DSMs on the system. To query this information, the request must be sent to the MPIO control object by using its WMI instance name.
 
 
-## -syntax
-
-
-````
-typedef struct _MPIO_REGISTERED_DSM {
-  ULONG          NumberDSMs;
-  DSM_PARAMETERS DsmParameters[1];
-} MPIO_REGISTERED_DSM, *PMPIO_REGISTERED_DSM;
-````
-
-
 ## -struct-fields
 
 

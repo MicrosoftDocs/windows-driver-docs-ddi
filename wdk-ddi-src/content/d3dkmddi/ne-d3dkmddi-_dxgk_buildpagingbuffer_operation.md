@@ -52,38 +52,6 @@ req.typenames: DXGK_BUILDPAGINGBUFFER_OPERATION
 Indicates the type of memory operation to perform.
 
 
-## -syntax
-
-
-````
-typedef enum _DXGK_BUILDPAGINGBUFFER_OPERATION { 
-  DXGK_OPERATION_TRANSFER                   = 0,
-  DXGK_OPERATION_FILL                       = 1,
-  DXGK_OPERATION_DISCARD_CONTENT            = 2,
-  DXGK_OPERATION_READ_PHYSICAL              = 3,
-  DXGK_OPERATION_WRITE_PHYSICAL             = 4,
-  DXGK_OPERATION_MAP_APERTURE_SEGMENT       = 5,
-  DXGK_OPERATION_UNMAP_APERTURE_SEGMENT     = 6,
-  DXGK_OPERATION_SPECIAL_LOCK_TRANSFER      = 7,
-#if (DXGKDDI_INTERFACE_VERSION >= DXGKDDI_INTERFACE_VERSION_WIN7)
-  DXGK_OPERATION_VIRTUAL_TRANSFER           = 8,
-  DXGK_OPERATION_VIRTUAL_FILL               = 9,
-#endif 
-#if (DXGKDDI_INTERFACE_VERSION >= DXGKDDI_INTERFACE_VERSION_WIN8)
-  DXGK_OPERATION_INIT_CONTEXT_RESOURCE      = 10,
-#endif 
-#if (DXGKDDI_INTERFACE_VERSION >= DXGKDDI_INTERFACE_VERSION_WDDM2_0)
-  DXGK_OPERATION_UPDATE_PAGE_TABLE          = 11,
-  DXGK_OPERATION_FLUSH_TLB                  = 12,
-  DXGK_OPERATION_UPDATE_CONTEXT_ALLOCATION  = 13,
-  DXGK_OPERATION_COPY_PAGE_TABLE_ENTRIES    = 14,
-  DXGK_OPERATION_NOTIFY_RESIDENCY           = 15,
-#endif 
-  
-} DXGK_BUILDPAGINGBUFFER_OPERATION;
-````
-
-
 ## -enum-fields
 
 
@@ -126,7 +94,7 @@ Perform an unmap-aperture-segment operation that unmaps a previously mapped rang
 
 ### -field DXGK_OPERATION_SPECIAL_LOCK_TRANSFER
 
-Perform a special transfer operation that moves the content of an allocation from one location to another. In this operation, the content of the allocation is transferred from or to the alternate virtual address that was set up for the allocation (that is, when the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_lockcb.md">pfnLockCb</a> function was called with the <b>UseAlternateVA</b> bit-field flag set).
+Perform a special transfer operation that moves the content of an allocation from one location to another. In this operation, the content of the allocation is transferred from or to the alternate virtual address that was set up for the allocation (that is, when the <a href="https://msdn.microsoft.com/69022797-432a-410b-8cbf-e1ef7111e7ea">pfnLockCb</a> function was called with the <b>UseAlternateVA</b> bit-field flag set).
 
 
 ### -field DXGK_OPERATION_VIRTUAL_TRANSFER
@@ -144,7 +112,7 @@ The operation is used to fill an allocation with a pattern.
 Perform an context initialization operation for a GPU context or device-specific context. This value is supported beginning with Windows 8.
 
 
-<div class="alert"><b>Note</b>  The display miniport driver allocates context resources by calling <a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_createcontextallocation.md">DxgkCbCreateContextAllocation</a>.</div>
+<div class="alert"><b>Note</b>  The display miniport driver allocates context resources by calling <a href="https://msdn.microsoft.com/b6b142a4-20eb-4368-bd7f-8a25f4fe48ca">DxgkCbCreateContextAllocation</a>.</div>
 <div> </div>
 
 ### -field DXGK_OPERATION_UPDATE_PAGE_TABLE

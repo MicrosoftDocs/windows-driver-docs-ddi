@@ -52,16 +52,6 @@ req.typenames: DsmSetLoadBalancePolicy_OUT, *PDsmSetLoadBalancePolicy_OUT
 The <b>DsmSetLoadBalancePolicy_OUT</b> structure reports the output parameter of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552670">DsmSetLoadBalancePolicy</a> method.
 
 
-## -syntax
-
-
-````
-typedef struct _DsmSetLoadBalancePolicy_OUT {
-  ULONG Status;
-} DsmSetLoadBalancePolicy_OUT, *PDsmSetLoadBalancePolicy_OUT;
-````
-
-
 ## -struct-fields
 
 

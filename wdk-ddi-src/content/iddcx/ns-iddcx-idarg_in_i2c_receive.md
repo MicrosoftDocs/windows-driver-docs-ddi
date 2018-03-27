@@ -53,19 +53,6 @@ req.typenames:
                  Gives information about I2C data being received by the OS.
 
 
-## -syntax
-
-
-````
-typedef struct IDARG_IN_I2C_RECEIVE {
-  UINT                                     SevenBitI2CAddress;
-  UINT                                     Flags;
-  UINT                                     DataSizeInBytes;
-  _Field_size_full_(DataSizeInBytes) PVOID pData;
-} IDARG_IN_I2C_RECEIVE, *IDARG_IN_I2C_RECEIVE;
-````
-
-
 ## -struct-fields
 
 

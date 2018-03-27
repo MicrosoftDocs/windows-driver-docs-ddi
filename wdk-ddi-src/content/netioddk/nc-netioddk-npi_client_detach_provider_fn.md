@@ -53,21 +53,6 @@ A client module's
   <i>ClientDetachProvider</i> callback function detaches the client module from a provider module.
 
 
-## -prototype
-
-
-````
-NPI_CLIENT_DETACH_PROVIDER_FN ClientDetachProvider;
-
-NTSTATUS ClientDetachProvider(
-  _In_ PVOID ClientBindingContext
-)
-{ ... }
-
-typedef NPI_CLIENT_DETACH_PROVIDER_FN * PNPI_CLIENT_DETACH_PROVIDER_FN;
-````
-
-
 ## -parameters
 
 
@@ -78,7 +63,7 @@ typedef NPI_CLIENT_DETACH_PROVIDER_FN * PNPI_CLIENT_DETACH_PROVIDER_FN;
 A pointer to the client module's context for the binding between the client module and the
      provider module from which it is detaching. The client module passes this pointer to the NMR when it
      calls the 
-     <a href="..\netioddk\nf-netioddk-nmrclientattachprovider.md">NmrClientAttachProvider</a> function
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568770">NmrClientAttachProvider</a> function
      to attach to the provider module.
 
 
@@ -129,9 +114,9 @@ The client module could not detach from the provider module immediately.
 The NMR calls a client module's 
     <i>ClientDetachProvider</i> callback function whenever the binding between the client module and a
     provider module needs to be terminated. Detachment is initiated by either the client module calling the 
-    <a href="..\netioddk\nf-netioddk-nmrderegisterclient.md">NmrDeregisterClient</a> function or the
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff568774">NmrDeregisterClient</a> function or the
     provider module calling the 
-    <a href="..\netioddk\nf-netioddk-nmrderegisterprovider.md">NmrDeregisterProvider</a> function.
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff568778">NmrDeregisterProvider</a> function.
 
 After its 
     <i>ClientDetachProvider</i> callback function has been called, a client module should not make any more
@@ -149,7 +134,7 @@ If there are in-progress calls to one or more of the provider module's
     <i>ClientDetachProvider</i> callback function is called, then the client module's 
     <i>ClientDetachProvider</i> callback function returns STATUS_PENDING. In this situation, the client module
     must call the 
-    <a href="..\netioddk\nf-netioddk-nmrclientdetachprovidercomplete.md">
+    <a href="https://msdn.microsoft.com/e54864de-9558-44b1-9c5a-0f2ecc6516b1">
     NmrClientDetachProviderComplete</a> function after all in-progress calls to the provider module's 
     NPI functions have completed. The
     call to the 
@@ -158,9 +143,9 @@ If there are in-progress calls to one or more of the provider module's
     is complete.
 
 The NMR calls the client module's 
-    <a href="..\netioddk\nc-netioddk-npi_client_cleanup_binding_context_fn.md">
+    <a href="https://msdn.microsoft.com/eebffed4-a2e0-4743-871b-f50f0cdda30d">
     ClientCleanupBindingContext</a> callback function and the provider module's 
-    <a href="..\netioddk\nc-netioddk-npi_provider_cleanup_binding_context_fn.md">
+    <a href="https://msdn.microsoft.com/0af476f6-0113-4aeb-b7d6-8e0e64a89bd0">
     ProviderCleanupBindingContext</a> callback function after both the client module and the provider
     module have completed detachment from each other.
 
@@ -172,36 +157,36 @@ The NMR calls a client module's
 
 ## -see-also
 
-<a href="..\netioddk\ns-netioddk-_npi_client_characteristics.md">NPI_CLIENT_CHARACTERISTICS</a>
 
 
 
-<a href="..\netioddk\nf-netioddk-nmrclientattachprovider.md">NmrClientAttachProvider</a>
+<a href="https://msdn.microsoft.com/eebffed4-a2e0-4743-871b-f50f0cdda30d">ClientCleanupBindingContext</a>
 
 
 
-<a href="..\netioddk\nc-netioddk-npi_provider_cleanup_binding_context_fn.md">
-   ProviderCleanupBindingContext</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568812">NPI_CLIENT_CHARACTERISTICS</a>
 
 
 
-<a href="..\netioddk\nc-netioddk-npi_client_cleanup_binding_context_fn.md">ClientCleanupBindingContext</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568770">NmrClientAttachProvider</a>
 
 
 
-<a href="..\netioddk\nf-netioddk-nmrderegisterprovider.md">NmrDeregisterProvider</a>
-
-
-
-<a href="..\netioddk\nf-netioddk-nmrclientdetachprovidercomplete.md">
+<a href="https://msdn.microsoft.com/e54864de-9558-44b1-9c5a-0f2ecc6516b1">
    NmrClientDetachProviderComplete</a>
 
 
 
-<a href="..\netioddk\nf-netioddk-nmrderegisterclient.md">NmrDeregisterClient</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568774">NmrDeregisterClient</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568778">NmrDeregisterProvider</a>
+
+
+
+<a href="https://msdn.microsoft.com/0af476f6-0113-4aeb-b7d6-8e0e64a89bd0">
+   ProviderCleanupBindingContext</a>
  
 
  

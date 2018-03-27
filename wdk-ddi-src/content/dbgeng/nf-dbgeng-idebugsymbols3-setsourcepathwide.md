@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -50,16 +50,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>SetSourcePathWide</b>  method sets the source path.
-
-
-## -syntax
-
-
-````
-HRESULT SetSourcePathWide(
-  [in] PCWSTR Path
-);
-````
 
 
 ## -parameters
@@ -113,11 +103,6 @@ For more information about manipulating the source path, see <a href="https://ms
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548358">GetSourcePath</a>
 
 
 
@@ -125,6 +110,11 @@ For more information about manipulating the source path, see <a href="https://ms
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548358">GetSourcePath</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550870">IDebugSymbols3</a>
  
 
  

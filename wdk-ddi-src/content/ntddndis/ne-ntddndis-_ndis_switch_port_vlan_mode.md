@@ -55,20 +55,6 @@ The <b>NDIS_SWITCH_PORT_VLAN_MODE</b> enumeration specifies the operation mode o
 
 
 
-## -syntax
-
-
-````
-typedef enum  { 
-  NdisSwitchPortVlanModeUnknown  = 0,
-  NdisSwitchPortVlanModeAccess   = 1,
-  NdisSwitchPortVlanModeTrunk    = 2,
-  NdisSwitchPortVlanModePrivate  = 3,
-  NdisSwitchPortVlanModeMax      = 4
-} NDIS_SWITCH_PORT_VLAN_MODE, *PNDIS_SWITCH_PORT_VLAN_MODE;
-````
-
-
 ## -enum-fields
 
 
@@ -105,7 +91,7 @@ The maximum value for this enumeration. This value might change in future versio
 
 
 
-The <b>OperationMode</b> member of the <a href="..\ntddndis\ns-ntddndis-_ndis_switch_port_property_vlan.md">NDIS_SWITCH_PORT_PROPERTY_VLAN</a> structure is an <b>NDIS_SWITCH_PORT_VLAN_MODE</b> enumeration data type. 
+The <b>OperationMode</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh598243">NDIS_SWITCH_PORT_PROPERTY_VLAN</a> structure is an <b>NDIS_SWITCH_PORT_VLAN_MODE</b> enumeration data type. 
 
 
 
@@ -118,11 +104,6 @@ For more information about extensible switch port policies, see <a href="https:/
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_switch_port_property_vlan.md">NDIS_SWITCH_PORT_PROPERTY_VLAN</a>
-
-
-
-<a href="..\ndis\ns-ndis-_ndis_switch_forwarding_destination_array.md">NDIS_SWITCH_FORWARDING_DESTINATION_ARRAY</a>
 
 
 
@@ -130,6 +111,11 @@ For more information about extensible switch port policies, see <a href="https:/
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh598210">NDIS_SWITCH_FORWARDING_DESTINATION_ARRAY</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh598243">NDIS_SWITCH_PORT_PROPERTY_VLAN</a>
  
 
  

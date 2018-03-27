@@ -52,18 +52,6 @@ req.typenames: DXGKARGCB_GETCAPTUREADDRESS
 The DXGKARGCB_GETCAPTUREADDRESS structure describes parameters for retrieving information about a capture buffer that is associated with an allocation.
 
 
-## -syntax
-
-
-````
-typedef struct _DXGKARGCB_GETCAPTUREADDRESS {
-  D3DKMT_HANDLE    hAllocation;
-  UINT             SegmentId;
-  PHYSICAL_ADDRESS PhysicalAddress;
-} DXGKARGCB_GETCAPTUREADDRESS;
-````
-
-
 ## -struct-fields
 
 
@@ -86,10 +74,10 @@ typedef struct _DXGKARGCB_GETCAPTUREADDRESS {
 
 ## -see-also
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_getcaptureaddress.md">DxgkCbGetCaptureAddress</a>
 
 
 
+<a href="https://msdn.microsoft.com/f87a5a5f-20d3-48cb-93f0-114eafe7238b">DxgkCbGetCaptureAddress</a>
  
 
  

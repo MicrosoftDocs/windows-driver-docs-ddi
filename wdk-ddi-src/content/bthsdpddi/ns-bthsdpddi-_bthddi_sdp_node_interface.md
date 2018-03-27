@@ -53,39 +53,6 @@ The BTHDDI_SDP_NODE_INTERFACE structure provides functions for manipulating SDP 
   converting them to and from a tree representation that profile drivers can more easily parse.
 
 
-## -syntax
-
-
-````
-typedef struct _BTHDDI_SDP_NODE_INTERFACE {
-  INTERFACE                  Interface;
-  PCREATENODETREEROOT        SdpCreateNodeTree;
-  PFREETREE                  SdpFreeTree;
-  PCREATENODENIL             SdpCreateNodeNil;
-  PCREATENODEBOOLEAN         SdpCreateNodeBoolean;
-  PCREATENODEUINT8           SdpCreateNodeUint8;
-  PCREATENODEUINT16          SdpCreateNodeUint16;
-  PCREATENODEUINT32          SdpCreateNodeUint32;
-  PCREATENODEUINT64          SdpCreateNodeUint64;
-  PCREATENODEUINT128         SdpCreateNodeUint128;
-  PCREATENODEINT8            SdpCreateNodeInt8;
-  PCREATENODEINT16           SdpCreateNodeInt16;
-  PCREATENODEINT32           SdpCreateNodeInt32;
-  PCREATENODEINT64           SdpCreateNodeInt64;
-  PCREATENODEINT128          SdpCreateNodeInt128;
-  PCREATENODEUUID16          SdpCreateNodeUuid16;
-  PCREATENODEUUID32          SdpCreateNodeUuid32;
-  PCREATENODEUUID128         SdpCreateNodeUuid128;
-  PCREATENODESTRING          SdpCreateNodeString;
-  PCREATENODEURL             SdpCreateNodeUrl;
-  PCREATENODEALTERNATIVE     SdpCreateNodeAlternative;
-  PCREATENODESEQUENCE        SdpCreateNodeSequence;
-  PADDATTRIBUTETOTREEE       SdpAddAttributeToTree;
-  PAPPENDNODETOCONTAINERNODE SdpAppendNodeToContainerNode;
-} BTHDDI_SDP_NODE_INTERFACE, *PBTHDDI_SDP_NODE_INTERFACE;
-````
-
-
 ## -struct-fields
 
 
@@ -96,149 +63,149 @@ typedef struct _BTHDDI_SDP_NODE_INTERFACE {
 A structure that describes the 
      <b>BTHDDI_SDP_NODE_INTERFACE</b> interface for use by profile drivers. For more information about this
      structure, see 
-     <a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/dn895657">INTERFACE</a>.
 
 
 ### -field SdpCreateNodeTree
 
 A pointer to the 
-     <a href="..\sdplib\nf-sdplib-sdpcreatenodetree.md">SdpCreateNodeTree</a> function.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff536818">SdpCreateNodeTree</a> function.
 
 
 ### -field SdpFreeTree
 
 A pointer to the 
-     <a href="..\sdplib\nf-sdplib-sdpfreetree.md">SdpFreeTree</a> function
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff536839">SdpFreeTree</a> function
      <i>.</i>
 
 
 ### -field SdpCreateNodeNil
 
 A pointer to the 
-     <a href="..\sdplib\nf-sdplib-sdpcreatenodenil.md">SdpCreateNodeNil</a> function.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff536812">SdpCreateNodeNil</a> function.
 
 
 ### -field SdpCreateNodeBoolean
 
 A pointer to the 
-     <a href="..\sdplib\nf-sdplib-sdpcreatenodeboolean.md">SdpCreateNodeBoolean</a> function.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff536801">SdpCreateNodeBoolean</a> function.
 
 
 ### -field SdpCreateNodeUint8
 
 A pointer to the 
-     <a href="..\sdplib\nf-sdplib-sdpcreatenodeuint8.md">SdpCreateNodeUInt8</a> function.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff536828">SdpCreateNodeUInt8</a> function.
 
 
 ### -field SdpCreateNodeUint16
 
 A pointer to the 
-     <a href="..\sdplib\nf-sdplib-sdpcreatenodeuint16.md">SdpCreateNodeUInt16</a> function.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff536822">SdpCreateNodeUInt16</a> function.
 
 
 ### -field SdpCreateNodeUint32
 
 A pointer to the 
-     <a href="..\sdplib\nf-sdplib-sdpcreatenodeuint32.md">SdpCreateNodeUInt32</a> function.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff536824">SdpCreateNodeUInt32</a> function.
 
 
 ### -field SdpCreateNodeUint64
 
 A pointer to the 
-     <a href="..\sdplib\nf-sdplib-sdpcreatenodeuint64.md">SdpCreateNodeUInt64</a> function.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff536827">SdpCreateNodeUInt64</a> function.
 
 
 ### -field SdpCreateNodeUint128
 
 A pointer to the 
-     <a href="..\sdplib\nf-sdplib-sdpcreatenodeuint128.md">SdpCreateNodeUInt128</a> function.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff536819">SdpCreateNodeUInt128</a> function.
 
 
 ### -field SdpCreateNodeInt8
 
 A pointer to the 
-     <a href="..\sdplib\nf-sdplib-sdpcreatenodeuint128.md">SdpCreateNodeInt8</a> function.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff536811">SdpCreateNodeInt8</a> function.
 
 
 ### -field SdpCreateNodeInt16
 
 A pointer to the 
-     <a href="..\sdplib\nf-sdplib-sdpcreatenodeint16.md">SdpCreateNodeInt16</a> function.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff536804">SdpCreateNodeInt16</a> function.
 
 
 ### -field SdpCreateNodeInt32
 
 A pointer to the 
-     <a href="..\sdplib\nf-sdplib-sdpcreatenodeint32.md">SdpCreateNodeInt32</a> function.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff536806">SdpCreateNodeInt32</a> function.
 
 
 ### -field SdpCreateNodeInt64
 
 A pointer to the 
-     <a href="..\sdplib\nf-sdplib-sdpcreatenodeint64.md">SdpCreateNodeInt64</a> function.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff536808">SdpCreateNodeInt64</a> function.
 
 
 ### -field SdpCreateNodeInt128
 
 A pointer to the 
-     <a href="..\sdplib\nf-sdplib-sdpcreatenodeint128.md">SdpCreateNodeInt128</a> function.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff536802">SdpCreateNodeInt128</a> function.
 
 
 ### -field SdpCreateNodeUuid16
 
 A pointer to the 
-     <a href="..\sdplib\nf-sdplib-sdpcreatenodeuuid16.md">SdpCreateNodeUUID16</a> function.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff536835">SdpCreateNodeUUID16</a> function.
 
 
 ### -field SdpCreateNodeUuid32
 
 A pointer to the 
-     <a href="..\sdplib\nf-sdplib-sdpcreatenodeuuid32.md">SdpCreateNodeUUID32</a> function.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff536836">SdpCreateNodeUUID32</a> function.
 
 
 ### -field SdpCreateNodeUuid128
 
 A pointer to the 
-     <a href="..\sdplib\nf-sdplib-sdpcreatenodeuuid128.md">SdpCreateNodeUUID128</a> function.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff536833">SdpCreateNodeUUID128</a> function.
 
 
 ### -field SdpCreateNodeString
 
 A pointer to the 
-     <a href="..\sdplib\nf-sdplib-sdpcreatenodestring.md">SdpCreateNodeString</a> function.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff536816">SdpCreateNodeString</a> function.
 
 
 ### -field SdpCreateNodeUrl
 
 A pointer to the 
-     <a href="..\sdplib\nf-sdplib-sdpcreatenodeurl.md">SdpCreateNodeUrl</a> function.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff536831">SdpCreateNodeUrl</a> function.
 
 
 ### -field SdpCreateNodeAlternative
 
 A pointer to the 
-     <a href="..\sdplib\nf-sdplib-sdpcreatenodealternative.md">
+     <a href="https://msdn.microsoft.com/1e6b922d-01a2-4a67-91cb-74956d40d769">
      SdpCreateNodeAlternative</a> function.
 
 
 ### -field SdpCreateNodeSequence
 
 A pointer to the 
-     <a href="..\sdplib\nf-sdplib-sdpcreatenodesequence.md">
+     <a href="https://msdn.microsoft.com/9e02f32b-cd39-4953-9698-a1800bedf0e2">
      SdpCreateNodeSequence</a> function.
 
 
 ### -field SdpAddAttributeToTree
 
 A pointer to the 
-     <a href="..\sdplib\nf-sdplib-sdpaddattributetotree.md">
+     <a href="https://msdn.microsoft.com/f5b72de2-c2e9-44ac-a2a7-04271e9253d3">
      SdpAddAttributeToTree</a> function.
 
 
 ### -field SdpAppendNodeToContainerNode
 
 A pointer to the 
-     <a href="..\sdplib\nf-sdplib-sdpappendnodetocontainernode.md">
+     <a href="https://msdn.microsoft.com/beec5516-6191-4b70-8c80-ddbaedbad5c0">
      SdpAppendNodeToContainerNode</a> function.
 
 
@@ -258,102 +225,102 @@ All the members of this structure, other than the
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn895657">INTERFACE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536784">SdpAddAttributeToTree</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536786">SdpAppendNodeToContainerNode</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536798">SdpCreateNodeAlternative</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536801">SdpCreateNodeBoolean</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536802">SdpCreateNodeInt128</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536804">SdpCreateNodeInt16</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536806">SdpCreateNodeInt32</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536808">SdpCreateNodeInt64</a>
+
+
+
 <b>SdpCreateNodeInt8</b>
 
 
 
-<a href="..\sdplib\nf-sdplib-sdpcreatenodeboolean.md">SdpCreateNodeBoolean</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536812">SdpCreateNodeNil</a>
 
 
 
-<a href="..\sdplib\nf-sdplib-sdpcreatenodesequence.md">SdpCreateNodeSequence</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536814">SdpCreateNodeSequence</a>
 
 
 
-<a href="..\sdplib\nf-sdplib-sdpcreatenodeint16.md">SdpCreateNodeInt16</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536816">SdpCreateNodeString</a>
 
 
 
-<a href="..\sdplib\nf-sdplib-sdpcreatenodeuint128.md">SdpCreateNodeUInt128</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536818">SdpCreateNodeTree</a>
 
 
 
-<a href="..\sdplib\nf-sdplib-sdpcreatenodeuint32.md">SdpCreateNodeUInt32</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536819">SdpCreateNodeUInt128</a>
 
 
 
-<a href="..\sdplib\nf-sdplib-sdpcreatenodeurl.md">SdpCreateNodeUrl</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536822">SdpCreateNodeUInt16</a>
 
 
 
-<a href="..\sdplib\nf-sdplib-sdpappendnodetocontainernode.md">SdpAppendNodeToContainerNode</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536824">SdpCreateNodeUInt32</a>
 
 
 
-<a href="..\sdplib\nf-sdplib-sdpaddattributetotree.md">SdpAddAttributeToTree</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536827">SdpCreateNodeUInt64</a>
 
 
 
-<a href="..\sdplib\nf-sdplib-sdpcreatenodeint128.md">SdpCreateNodeInt128</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536828">SdpCreateNodeUInt8</a>
 
 
 
-<a href="..\sdplib\nf-sdplib-sdpcreatenodeuuid128.md">SdpCreateNodeUUID128</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536833">SdpCreateNodeUUID128</a>
 
 
 
-<a href="..\sdplib\nf-sdplib-sdpcreatenodetree.md">SdpCreateNodeTree</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536835">SdpCreateNodeUUID16</a>
 
 
 
-<a href="..\sdplib\nf-sdplib-sdpcreatenodeuint8.md">SdpCreateNodeUInt8</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536836">SdpCreateNodeUUID32</a>
 
 
 
-<a href="..\sdplib\nf-sdplib-sdpcreatenodeint32.md">SdpCreateNodeInt32</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536831">SdpCreateNodeUrl</a>
 
 
 
-<a href="..\sdplib\nf-sdplib-sdpcreatenodeuint64.md">SdpCreateNodeUInt64</a>
-
-
-
-<a href="..\sdplib\nf-sdplib-sdpcreatenodestring.md">SdpCreateNodeString</a>
-
-
-
-<a href="..\sdplib\nf-sdplib-sdpcreatenodeuuid16.md">SdpCreateNodeUUID16</a>
-
-
-
-<a href="..\sdplib\nf-sdplib-sdpcreatenodenil.md">SdpCreateNodeNil</a>
-
-
-
-<a href="..\sdplib\nf-sdplib-sdpcreatenodeint64.md">SdpCreateNodeInt64</a>
-
-
-
-<a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
-
-
-
-<a href="..\sdplib\nf-sdplib-sdpcreatenodeuuid32.md">SdpCreateNodeUUID32</a>
-
-
-
-<a href="..\sdplib\nf-sdplib-sdpcreatenodealternative.md">SdpCreateNodeAlternative</a>
-
-
-
-<a href="..\sdplib\nf-sdplib-sdpfreetree.md">SdpFreeTree</a>
-
-
-
-<a href="..\sdplib\nf-sdplib-sdpcreatenodeuint16.md">SdpCreateNodeUInt16</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536839">SdpFreeTree</a>
  
 
  

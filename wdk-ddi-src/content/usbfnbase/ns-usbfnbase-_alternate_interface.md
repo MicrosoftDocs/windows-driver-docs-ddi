@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 The <b>ALTERNATE_INTERFACE</b> structure provides information about alternate settings for a Universal Serial Bus (USB) interface.
 
 
-## -syntax
-
-
-````
-typedef struct _ALTERNATE_INTERFACE {
-  USHORT InterfaceNumber;
-  USHORT AlternateInterfaceNumber;
-} ALTERNATE_INTERFACE, *PALTERNATE_INTERFACE;
-````
-
-
 ## -struct-fields
 
 
@@ -81,10 +70,10 @@ The index number for the alternate USB interface setting.
 
 ## -see-also
 
-<a href="..\usbfnbase\ns-usbfnbase-_usbfn_notification.md">USBFN_NOTIFICATION</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt188001">USBFN_NOTIFICATION</a>
  
 
  

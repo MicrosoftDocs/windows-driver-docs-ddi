@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: Any level
 topic_type:
@@ -52,18 +52,7 @@ req.product: Windows 10 or later.
 
 <p class="CCE_Message">[Applies to KMDF only]
 
-The <b>WDF_DPC_CONFIG_INIT</b> function initializes a driver's <a href="..\wdfdpc\ns-wdfdpc-_wdf_dpc_config.md">WDF_DPC_CONFIG</a> structure.
-
-
-## -syntax
-
-
-````
-VOID WDF_DPC_CONFIG_INIT(
-  _Out_ PWDF_DPC_CONFIG Config,
-  _In_  PFN_WDF_DPC     EvtDpcFunc
-);
-````
+The <b>WDF_DPC_CONFIG_INIT</b> function initializes a driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff551296">WDF_DPC_CONFIG</a> structure.
 
 
 ## -parameters
@@ -73,7 +62,7 @@ VOID WDF_DPC_CONFIG_INIT(
 
 ### -param Config [out]
 
-A pointer to a driver-allocated <a href="..\wdfdpc\ns-wdfdpc-_wdf_dpc_config.md">WDF_DPC_CONFIG</a> structure.
+A pointer to a driver-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/ff551296">WDF_DPC_CONFIG</a> structure.
 
 
 ### -param EvtDpcFunc [in]
@@ -99,7 +88,7 @@ The <b>WDF_DPC_CONFIG_INIT</b> function stores the specified <a href="https://ms
 
 #### Examples
 
-For a code example that uses the <b>WDF_DPC_CONFIG_INIT</b> function, see <a href="..\wdfdpc\nf-wdfdpc-wdfdpccreate.md">WdfDpcCreate</a>.
+For a code example that uses the <b>WDF_DPC_CONFIG_INIT</b> function, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff547140">WdfDpcCreate</a>.
 
 <div class="code"></div>
 
@@ -107,14 +96,14 @@ For a code example that uses the <b>WDF_DPC_CONFIG_INIT</b> function, see <a hre
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/b934a0da-0709-4427-bbf2-8d53f9511cf1">EvtDpcFunc</a>
 
 
 
-<a href="..\wdfdpc\ns-wdfdpc-_wdf_dpc_config.md">WDF_DPC_CONFIG</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551296">WDF_DPC_CONFIG</a>
  
 
  

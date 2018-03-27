@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: prcomoem.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -53,18 +53,6 @@ req.product: Windows 10 or later.
 The <code>IPrintOemUni3::DownloadPattern</code> method downloads a pattern to a printer.
 
 
-## -syntax
-
-
-````
-HRESULT DownloadPattern(
-   PDEVOBJ pdevobj,
-   SURFOBJ *psoPattern,
-   LONG    lPatternID
-);
-````
-
-
 ## -parameters
 
 
@@ -72,7 +60,7 @@ HRESULT DownloadPattern(
 
 ### -param pdevobj
 
-A pointer to a <a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a> structure.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff547573">DEVOBJ</a> structure.
 
 
 ### -param psoPattern
@@ -107,7 +95,6 @@ You should implement this method if you want your rendering plug-in, rather than
 
 ## -see-also
 
-<a href="..\prcomoem\nn-prcomoem-iprintoemuni3.md">IPrintOemUni3</a>
 
 
 
@@ -115,6 +102,7 @@ You should implement this method if you want your rendering plug-in, rather than
 
 
 
+<a href="https://msdn.microsoft.com/cf5705fb-8420-4eec-99d4-d56f192da581">IPrintOemUni3</a>
  
 
  

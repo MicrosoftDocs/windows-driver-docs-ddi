@@ -53,55 +53,6 @@ req.product: Windows 10 or later.
 The WWAN_ASYNC_GETSET_TYPE enumeration lists the different asynchronous OID get/set requests.
 
 
-## -syntax
-
-
-````
-typedef enum _WWAN_ASYNC_GETSET_TYPE { 
-  WwanAsyncGetDeviceCaps                         = 0,
-  WwanAsyncGetReadyInfo                          = ,
-  WwanAsyncGetRadioState                         = ,
-  WwanAsyncSetRadioState                         = ,
-  WwanAsyncGetPin                                = ,
-  WwanAsyncSetPin                                = ,
-  WwanAsyncGetPinList                            = ,
-  WwanAsyncGetHomeProvider                       = ,
-  WwanAsyncSetHomeProvider                       = ,
-  WwanAsyncGetPreferredProviders                 = ,
-  WwanAsyncSetPreferredProviders                 = ,
-  WwanAsyncGetVisibleProviders                   = ,
-  WwanAsyncGetRegisterState                      = ,
-  WwanAsyncSetRegisterState                      = ,
-  WwanAsyncGetPacketService                      = ,
-  WwanAsyncSetPacketService                      = ,
-  WwanAsyncGetSignalState                        = ,
-  WwanAsyncSetSignalState                        = ,
-  WwanAsyncGetConnect                            = ,
-  WwanAsyncSetConnect                            = ,
-  WwanAsyncGetProvisionedContexts                = ,
-  WwanAsyncSetProvisionedContext                 = ,
-  WwanAsyncSetServiceActivation                  = ,
-  WwanAsyncGetSmsConfiguration                   = ,
-  WwanAsyncSetSmsConfiguration                   = ,
-  WwanAsyncSmsRead                               = ,
-  WwanAsyncSmsSend                               = ,
-  WwanAsyncSmsDelete                             = ,
-  WwanAsyncSmsStatus                             = ,
-  WwanAsyncSetVendorSpecific                     = ,
-  WwanAsyncSetProfileIndex                       = ,
-  WwanAsyncGetDeviceServices                     = ,
-  WwanAsyncSubscribeDeviceServiceEvents          = ,
-  WwanAsyncAuthChallenge                         = ,
-  WwanAsyncUssdRequest                           = ,
-  WwanAsyncSetPinEx                              = ,
-  WwanAsyncGetPinEx get request.                 = ,
-  WwanAsyncGetDeviceServiceCommand get request.  = ,
-  WwanAsyncSetDeviceServiceCommand               = ,
-  WWAN_ASYNC_GETSET_TYPE_MAX                     = 
-} WWAN_ASYNC_GETSET_TYPE;
-````
-
-
 ## -enum-fields
 
 
@@ -438,10 +389,10 @@ Asynchronous OID_WWAN_PIN_EX get request.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/922b6b55-c332-4721-bbd1-571b0e154df3">MB Data Model</a>
-
-
-
  
 
  

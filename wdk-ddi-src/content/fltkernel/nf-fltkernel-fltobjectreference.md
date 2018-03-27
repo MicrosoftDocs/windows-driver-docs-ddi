@@ -52,16 +52,6 @@ req.typenames: EXpsFontRestriction
 The <b>FltObjectReference</b> routine adds a rundown reference to an opaque filter, instance, or volume pointer. 
 
 
-## -syntax
-
-
-````
-NTSTATUS FltObjectReference(
-  _Inout_ PVOID FltObject
-);
-````
-
-
 ## -parameters
 
 
@@ -106,17 +96,17 @@ The minifilter driver, instance, or volume is being torn down. This is an error 
 
 Adding a rundown reference to an opaque filter, instance, or volume object pointer prevents the object from being freed. 
 
-To remove a rundown reference from an opaque filter, instance, or volume pointer, call <a href="..\fltkernel\nf-fltkernel-fltobjectdereference.md">FltObjectDereference</a>. 
+To remove a rundown reference from an opaque filter, instance, or volume pointer, call <a href="https://msdn.microsoft.com/library/windows/hardware/ff543378">FltObjectDereference</a>. 
 
 
 
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltobjectdereference.md">FltObjectDereference</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543378">FltObjectDereference</a>
  
 
  

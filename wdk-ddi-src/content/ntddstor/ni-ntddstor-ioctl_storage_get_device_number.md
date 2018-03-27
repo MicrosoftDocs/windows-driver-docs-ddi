@@ -46,16 +46,11 @@ req.typenames: STORAGE_ZONE_CONDITION, *PSTORAGE_ZONE_CONDITION
 # IOCTL_STORAGE_GET_DEVICE_NUMBER IOCTL
 
 
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
-
 ## -description
 
 
 
-Returns a <a href="..\ntddstor\ns-ntddstor-_storage_device_number.md">STORAGE_DEVICE_NUMBER</a> structure that contains the FILE_DEVICE_<i>XXX</i> type, device number, and, for a partitionable device, the partition number assigned to a device by the driver when the device is started. This request is usually issued by a fault-tolerant disk driver. 
+Returns a <a href="https://msdn.microsoft.com/library/windows/hardware/ff566974">STORAGE_DEVICE_NUMBER</a> structure that contains the FILE_DEVICE_<i>XXX</i> type, device number, and, for a partitionable device, the partition number assigned to a device by the driver when the device is started. This request is usually issued by a fault-tolerant disk driver. 
 
 
 
@@ -77,7 +72,7 @@ None.
 
 ### -output-buffer
 
-The driver returns the <a href="..\ntddstor\ns-ntddstor-_storage_device_number.md">STORAGE_DEVICE_NUMBER</a> data in the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>. 
+The driver returns the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566974">STORAGE_DEVICE_NUMBER</a> data in the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>. 
 
 
 ### -output-buffer-length
@@ -110,10 +105,10 @@ The <b>Information</b> field is set to the number of bytes returned. The <b>Stat
 
 ## -see-also
 
-<a href="..\ntddstor\ns-ntddstor-_storage_device_number.md">STORAGE_DEVICE_NUMBER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566974">STORAGE_DEVICE_NUMBER</a>
  
 
  

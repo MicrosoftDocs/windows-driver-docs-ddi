@@ -56,18 +56,6 @@ The
   protocol drivers.
 
 
-## -syntax
-
-
-````
-NDIS_STATUS NdisIMInitializeDeviceInstanceEx(
-  _In_     NDIS_HANDLE  DriverHandle,
-  _In_     PNDIS_STRING DriverInstance,
-  _In_opt_ NDIS_HANDLE  DeviceContext
-);
-````
-
-
 ## -parameters
 
 
@@ -76,7 +64,7 @@ NDIS_STATUS NdisIMInitializeDeviceInstanceEx(
 ### -param DriverHandle [in]
 
 The miniport driver handle that the 
-     <a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">
+     <a href="https://msdn.microsoft.com/bed68aa8-499d-41fd-997b-a46316913cc8">
      NdisMRegisterMiniportDriver</a> function returns at 
      <i>NdisMiniportDriverHandle</i> .
 
@@ -88,7 +76,7 @@ A pointer to an NDIS_STRING type that describes a caller-initialized counted str
      stores information about a virtual miniport and, possibly, binding-specific information. For Microsoft
      Windows 2000 and later drivers, this string contains Unicode characters. That is, for Windows 2000 and
      later, NDIS defines the NDIS_STRING type as a 
-     <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> type.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> type.
 
 
 ### -param DeviceContext [in, optional]
@@ -146,7 +134,7 @@ NDIS initiated the initialization operation for the intermediate driver's virtua
 
 An NDIS intermediate driver should call 
     <b>NdisIMInitializeDeviceInstanceEx</b> from its 
-    <a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a> function. A
+    <a href="https://msdn.microsoft.com/1958722e-012e-4110-a82c-751744bcf9b5">ProtocolBindAdapterEx</a> function. A
     failure to call 
     <b>NdisIMInitializeDeviceInstanceEx</b> from an NDIS intermediate driver effectively prevents that driver
     from loading successfully.
@@ -159,7 +147,7 @@ Before it calls
     <i>DeviceContext</i> as well, possibly setting it up with intermediate driver-determined information about
     the capabilities of the underlying miniport adapter and that was collected by 
     <i>ProtocolBindAdapterEx</i>. The intermediate driver's 
-    <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a> function
+    <a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a> function
     might use such information subsequently to set up this context area with information about the driver's
     virtual miniport.
 
@@ -177,7 +165,7 @@ The call to
     <i>MiniportInitializeEx</i> for the virtual miniport that is referenced in a call to 
     <b>NdisIMInitializeDeviceInstanceEx</b> and the intermediate driver no longer requires the virtual
     miniport, the intermediate driver should call the 
-    <a href="..\ndis\nf-ndis-ndisimcancelinitializedeviceinstance.md">
+    <a href="https://msdn.microsoft.com/809ffee1-b087-4bf0-ba8a-1ac0b2d02f2f">
     NdisIMCancelInitializeDeviceInstance</a> function to cancel the initialization of the virtual miniport.
     For example, suppose that an intermediate driver creates a virtual miniport in response to a successful
     binding to an underlying miniport adapter. If that binding is removed before NDIS calls 
@@ -186,7 +174,7 @@ The call to
 
 <i>MiniportInitializeEx</i> allocates any resources that the driver requires to carry out network I/O
     operations, such as calling the 
-    <a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">
+    <a href="https://msdn.microsoft.com/861626af-23ea-40dc-a91a-7da42d4b0a1c">
     NdisMSetMiniportAttributes</a> function, and to initialize the driver's virtual miniport to an
     operational state. Then, higher-level protocol drivers can bind themselves to its virtual miniport when
     the intermediate driver's initialization is completed successfully.
@@ -196,17 +184,17 @@ After
     contain any intermediate-driver-defined data that subsequently enables all higher-level protocol drivers
     that are bound to the same virtual miniport to access information in that context area. Such a
     higher-level protocol driver can query the intermediate-driver-supplied device context with the 
-    <a href="..\ndis\nf-ndis-ndisimgetbindingcontext.md">
+    <a href="https://msdn.microsoft.com/fc0668b3-9242-4d30-9dc9-820f6d596d6c">
     NdisIMGetBindingContext</a> function.
 
 Before NDIS calls an intermediate driver's 
     <i>MiniportInitializeEx</i> function, the driver can call 
-    <a href="..\ndis\nf-ndis-ndisimcancelinitializedeviceinstance.md">
+    <a href="https://msdn.microsoft.com/809ffee1-b087-4bf0-ba8a-1ac0b2d02f2f">
     NdisIMCancelInitializeDeviceInstance</a> to cancel the initialization operation.
 
 After NDIS calls an intermediate driver's 
     <i>MiniportInitializeEx</i> function, the driver must call 
-    <a href="..\ndis\nf-ndis-ndisimdeinitializedeviceinstance.md">
+    <a href="https://msdn.microsoft.com/badfab43-ba58-4711-a181-af87dcfeba4d">
     NdisIMDeInitializeDeviceInstance</a> to reverse the initialization operation.
 
 
@@ -214,12 +202,6 @@ After NDIS calls an intermediate driver's
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisallocatememorywithtagpriority.md">
-   NdisAllocateMemoryWithTagPriority</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisinitializestring.md">NdisInitializeString</a>
 
 
 
@@ -227,49 +209,55 @@ After NDIS calls an intermediate driver's
 
 
 
-<a href="..\ndis\nf-ndis-ndisiminitializedeviceinstanceex.md">
-   NdisIMInitializeDeviceInstanceEx</a>
+<a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
+<a href="https://msdn.microsoft.com/aac4049c-a876-4bbb-ba3b-fa36c299e1c7">
+   NdisAllocateMemoryWithTagPriority</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisimdeinitializedeviceinstance.md">
-   NdisIMDeInitializeDeviceInstance</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-
-
-
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisimcancelinitializedeviceinstance.md">
+<a href="https://msdn.microsoft.com/809ffee1-b087-4bf0-ba8a-1ac0b2d02f2f">
    NdisIMCancelInitializeDeviceInstance</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisimgetbindingcontext.md">NdisIMGetBindingContext</a>
+<a href="https://msdn.microsoft.com/badfab43-ba58-4711-a181-af87dcfeba4d">
+   NdisIMDeInitializeDeviceInstance</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562724">NdisIMGetBindingContext</a>
+
+
+
+<a href="https://msdn.microsoft.com/f65c2974-4bf4-4948-ac07-527e69c96303">
+   NdisIMInitializeDeviceInstanceEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562741">NdisInitializeString</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563654">NdisMRegisterMiniportDriver</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563672">NdisMSetMiniportAttributes</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563715">NdisOpenAdapterEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/1958722e-012e-4110-a82c-751744bcf9b5">ProtocolBindAdapterEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a>
  
 
  

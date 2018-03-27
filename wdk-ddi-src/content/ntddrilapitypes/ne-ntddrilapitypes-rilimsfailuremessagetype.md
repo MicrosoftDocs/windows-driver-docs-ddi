@@ -52,18 +52,6 @@ req.typenames: RILIMSFAILUREMESSAGETYPE
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef enum _RILIMSFAILUREMESSAGETYPE { 
-  RIL_IMSFAILUREMESSAGETYPE_SUBSCRIBE,
-  RIL_IMSFAILUREMESSAGETYPE_INCALL,
-  RIL_IMSFAILUREMESSAGETYPE_MAX
-} RILIMSFAILUREMESSAGETYPE;
-````
-
-
 ## -enum-fields
 
 

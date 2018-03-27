@@ -52,20 +52,6 @@ req.typenames: DSM_Load_Balance_Policy_V2, *PDSM_Load_Balance_Policy_V2
 The DSM_Load_Balance_Policy_V2 structure is used to represent a load balance policy that is applied to a LUN. It is similar to the DSM_Load_Balance_Policy structure, except that it uses the MPIO_DSM_Path_V2 structure to capture and expose path information.
 
 
-## -syntax
-
-
-````
-typedef struct _DSM_Load_Balance_Policy_V2 {
-  ULONG            Version;
-  ULONG            LoadBalancePolicy;
-  ULONG            DSMPathCount;
-  ULONG            Reserved;
-  MPIO_DSM_Path_V2 DSM_Paths[1];
-} DSM_Load_Balance_Policy_V2, *PDSM_Load_Balance_Policy_V2;
-````
-
-
 ## -struct-fields
 
 

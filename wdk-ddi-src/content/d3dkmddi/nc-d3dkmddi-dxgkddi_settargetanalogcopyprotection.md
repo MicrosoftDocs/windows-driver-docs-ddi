@@ -52,17 +52,6 @@ req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
 Sets the analog copy protection on the specified target id.  This is functionally equivalent to the DxgkDdiUpdateActiveVidPnPresentPath in previous WDDM versions if only the D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION is changed.
 
 
-## -prototype
-
-
-````
-NTSTATUS APIENTRY DXGKDDI_SETTARGETANALOGCOPYPROTECTION(
-  _In_ const HANDLE                                 hAdapter,
-  _In_ const PDXGKARG_SETTARGETANALOGCOPYPROTECTION pSetTargetAnalogCopyProtectionArg
-);
-````
-
-
 ## -parameters
 
 

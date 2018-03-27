@@ -54,20 +54,6 @@ req.product: Windows 10 or later.
 The <b>USBD_GetPdoRegistryParameter</b> routine retrieves the value from the  specified key in the USB device's hardware registry.
 
 
-## -syntax
-
-
-````
-NTSTATUS USBD_GetPdoRegistryParameter(
-  _In_    PDEVICE_OBJECT PhysicalDeviceObject,
-  _Inout_ PVOID          Parameter,
-  _In_    ULONG          ParameterLength,
-  _In_    PWSTR          KeyName,
-  _In_    ULONG          KeyNameLength
-);
-````
-
-
 ## -parameters
 
 
@@ -109,10 +95,10 @@ The <b>USBD_GetPdoRegistryParameter</b> returns STATUS_SUCCESS when the operatio
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540134">USB device driver programming reference</a>
-
-
-
  
 
  

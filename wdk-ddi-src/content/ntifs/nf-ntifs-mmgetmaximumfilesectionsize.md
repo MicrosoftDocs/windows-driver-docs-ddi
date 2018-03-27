@@ -52,14 +52,6 @@ req.typenames: TOKEN_TYPE
 The <b>MmGetMaximumFileSectionSize</b> returns the maximum possible size of a file section for the current version of Windows.
 
 
-## -syntax
-
-
-````
-ULONGLONG MmGetMaximumFileSectionSize(void);
-````
-
-
 ## -parameters
 
 

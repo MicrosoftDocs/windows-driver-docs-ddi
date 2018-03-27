@@ -52,18 +52,6 @@ req.typenames: RILGEOLOCATIONTYPEMASK
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef enum _RILGEOLOCATIONTYPEMASK { 
-  RIL_GEOLOCATION_CIVIC,
-  RIL_GEOLOCATION_LATLONG,
-  RIL_GEOLOCATION_ALL
-} RILGEOLOCATIONTYPEMASK;
-````
-
-
 ## -enum-fields
 
 

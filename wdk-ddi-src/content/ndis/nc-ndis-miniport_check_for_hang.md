@@ -54,19 +54,6 @@ NDIS calls a miniport driver's
 <div class="alert"><b>Note</b>  A miniport driver may declare this function by using the <b>MINIPORT_CHECK_FOR_HANG</b> type.
 </div><div> </div><div class="alert"><b>Note</b>  Starting with NDIS 6.30, this function must not be registered for drivers running on low power SoC platforms to avoid negative power impact caused by the periodic <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/miniport-adapter-check-for-hang-and-reset-operations">Check-for-Hang</a> activity.</div><div> </div>
 
-## -prototype
-
-
-````
-MINIPORT_CHECK_FOR_HANG MiniportCheckForHangEx;
-
-BOOLEAN MiniportCheckForHangEx(
-  _In_ NDIS_HANDLE MiniportAdapterContext
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -75,7 +62,7 @@ BOOLEAN MiniportCheckForHangEx(
 ### -param MiniportAdapterContext [in]
 
 A handle to a context area that the miniport driver allocated in its 
-     <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a> function.
+     <a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a> function.
      The miniport driver uses this context area to maintain state information for a miniport adapter.
 
 
@@ -84,7 +71,7 @@ A handle to a context area that the miniport driver allocated in its
 
 
 <i>MiniportCheckForHangEx</i> returns <b>TRUE</b> if the driver determines that a NIC is not
-     operating and NDIS should call the driver's <a href="..\ndis\nc-ndis-miniport_reset.md">MiniportResetEx</a> function. For more information, see the Remarks section.
+     operating and NDIS should call the driver's <a href="https://msdn.microsoft.com/15f82163-a1b5-4cef-a53e-8a97adb2cd92">MiniportResetEx</a> function. For more information, see the Remarks section.
 
 
 
@@ -95,7 +82,7 @@ A handle to a context area that the miniport driver allocated in its
 
 A miniport driver specifies the 
     <i>MiniportCheckForHangEx</i> entry point when it calls the 
-    <a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">
+    <a href="https://msdn.microsoft.com/bed68aa8-499d-41fd-997b-a46316913cc8">
     NdisMRegisterMiniportDriver</a> function.
 
 <i>MiniportCheckForHangEx</i> is not required for intermediate drivers.
@@ -110,15 +97,15 @@ By default, NDIS calls
 <div> </div>
 If 
     <i>MiniportCheckForHangEx</i> returns <b>TRUE</b>, NDIS calls the miniport driver's 
-    <a href="..\ndis\nc-ndis-miniport_reset.md">MiniportResetEx</a> function.
+    <a href="https://msdn.microsoft.com/15f82163-a1b5-4cef-a53e-8a97adb2cd92">MiniportResetEx</a> function.
 
 If a miniport driver does not complete an OID request within two successive calls to 
     <i>MiniportCheckForHangEx</i>, NDIS can call the driver's 
-    <a href="..\ndis\nc-ndis-miniport_reset.md">MiniportResetEx</a> function. However, to
+    <a href="https://msdn.microsoft.com/15f82163-a1b5-4cef-a53e-8a97adb2cd92">MiniportResetEx</a> function. However, to
     avoid unnecessary resets, the driver's 
-    <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a> function can extend the check-for-hang time-out interval
+    <a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a> function can extend the check-for-hang time-out interval
     by setting an appropriate <b>CheckForHangTimeInSeconds</b> value when it calls the 
-    <a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">
+    <a href="https://msdn.microsoft.com/861626af-23ea-40dc-a91a-7da42d4b0a1c">
     NdisMSetMiniportAttributes</a> function.
 
 For more information about setting the <b>CheckForHangTimeInSeconds</b> time-out value, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/miniport-adapter-check-for-hang-and-reset-operations">Miniport Adapter Check-for-Hang and Reset Operations</a>.
@@ -171,15 +158,6 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-miniport_reset.md">MiniportResetEx</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
 
 
 
@@ -187,10 +165,19 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+<a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a>
 
 
 
+<a href="https://msdn.microsoft.com/15f82163-a1b5-4cef-a53e-8a97adb2cd92">MiniportResetEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563654">NdisMRegisterMiniportDriver</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563672">NdisMSetMiniportAttributes</a>
  
 
  

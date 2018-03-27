@@ -1,6 +1,6 @@
 ---
 UID: NC:usbbusif.PUSB_BUSIFFN_QUERY_BUS_TIME
-title: USB_BUSIFFN_QUERY_BUS_TIME
+title: PUSB_BUSIFFN_QUERY_BUS_TIME
 author: windows-driver-content
 description: The QueryBusTime function gets the current 32-bit USB frame number.
 old-location: buses\querybustime.htm
@@ -53,20 +53,6 @@ req.product: Windows 10 or later.
 The <i>QueryBusTime</i> function gets the current 32-bit USB frame number. 
 
 
-## -prototype
-
-
-````
-USB_BUSIFFN_QUERY_BUS_TIME QueryBusTime;
-
-NTSTATUS QueryBusTime(
-  _In_      PVOID  BusContext,
-  _Out_opt_ PULONG CurrentFrame
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -82,7 +68,7 @@ NTSTATUS QueryBusTime(
 
 #### - BusContext [in]
 
-Handle returned in the <b>BusContext</b> member of the <a href="..\usbbusif\ns-usbbusif-_usb_bus_interface_usbdi_v0.md">USB_BUS_INTERFACE_USBDI_V0</a> structure by an IRP_MN_QUERY_INTERFACE request. 
+Handle returned in the <b>BusContext</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff539210">USB_BUS_INTERFACE_USBDI_V0</a> structure by an IRP_MN_QUERY_INTERFACE request. 
 
 
 #### - CurrentFrame [out, optional]
@@ -118,10 +104,10 @@ The function definition that is provided on this reference page is an example fu
 
 ## -see-also
 
-<a href="..\usbbusif\ns-usbbusif-_usb_bus_interface_usbdi_v0.md">USB_BUS_INTERFACE_USBDI_V0</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539210">USB_BUS_INTERFACE_USBDI_V0</a>
  
 
  

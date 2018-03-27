@@ -54,16 +54,6 @@ req.product: Windows 10 or later.
 The <a href="https://msdn.microsoft.com/library/windows/hardware/ff545633">ISensorDriver::OnGetSupportedSensorObjects</a> method retrieves the list of sensors that the driver provides.
 
 
-## -syntax
-
-
-````
-HRESULT OnGetSupportedSensorObjects(
-   IPortableDeviceValuesCollection ** ppSensorObjectCollection
-);
-````
-
-
 ## -parameters
 
 

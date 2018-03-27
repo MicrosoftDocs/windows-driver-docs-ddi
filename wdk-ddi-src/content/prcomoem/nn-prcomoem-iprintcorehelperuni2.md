@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: prcomoem.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The IPrintCoreHelperUni2 interface derives from the <a href="..\prcomoem\nn-prcomoem-iprintcorehelperuni.md">IPrintCoreHelperUni</a> interface and adds a method.
+The IPrintCoreHelperUni2 interface derives from the <a href="https://msdn.microsoft.com/e581d190-8185-45c1-80c7-ff8eb305360e">IPrintCoreHelperUni</a> interface and adds a method.
 
 
 ## -inheritance

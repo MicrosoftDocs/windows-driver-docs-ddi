@@ -52,16 +52,6 @@ req.typenames: D3D12DDI_SHADERCACHE_HASH
 Includes a hash value. 
 
 
-## -syntax
-
-
-````
-typedef struct D3D12DDI_SHADERCACHE_HASH {
-  BYTE Hash[16];
-} D3D12DDI_SHADERCACHE_HASH;
-````
-
-
 ## -struct-fields
 
 

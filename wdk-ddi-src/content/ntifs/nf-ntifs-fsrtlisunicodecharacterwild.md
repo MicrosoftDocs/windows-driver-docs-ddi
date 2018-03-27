@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: ntifs.h
+req.lib: 
 req.dll: 
 req.irql: Any level
 topic_type:
@@ -50,16 +50,6 @@ req.typenames: TOKEN_TYPE
 
 
 The <b>FsRtlIsUnicodeCharacterWild</b> macro determines whether a Unicode character is a wildcard character.
-
-
-## -syntax
-
-
-````
-BOOLEAN FsRtlIsUnicodeCharacterWild(
-   PSCHAR *Character
-);
-````
 
 
 ## -parameters
@@ -92,10 +82,10 @@ For information about other string-handling routines, see <a href="https://msdn.
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-fsrtlisansicharacterwild.md">FsRtlIsAnsiCharacterWild</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546797">FsRtlIsAnsiCharacterWild</a>
  
 
  

@@ -52,16 +52,6 @@ req.typenames: TOKEN_TYPE
 The <b>FsRtlOplockIsSharedRequest</b> routine determines if a request for an opportunistic lock (oplock) wants a shared oplock. 
 
 
-## -syntax
-
-
-````
-BOOLEAN FsRtlOplockIsSharedRequest(
-  _In_ PIRP Irp
-);
-````
-
-
 ## -parameters
 
 
@@ -76,17 +66,17 @@ A pointer to the IRP that declares the requested operation. The caller must ensu
 
 
 
-<b>FsRtlOplockIsSharedRequest</b> returns <b>TRUE</b> if the oplock request is for a shared oplock (that is, a level 2, R, or RH oplock). <b>FsRtlOplockIsSharedRequest</b> returns <b>FALSE</b> if the oplock request is not for a shared oplock or if the IRP is not an oplock request. For more information about oplock types, see the Oplock Semantics <a href="https://msdn.microsoft.com/e9a45ae0-0ec8-4d6c-8486-ae88bdaa1f8c">Overview</a> page. Minifilters should call <a href="..\fltkernel\nf-fltkernel-fltoplockissharedrequest.md">FltOplockIsSharedRequest</a> instead of <b>FsRtlOplockIsSharedRequest</b>. 
+<b>FsRtlOplockIsSharedRequest</b> returns <b>TRUE</b> if the oplock request is for a shared oplock (that is, a level 2, R, or RH oplock). <b>FsRtlOplockIsSharedRequest</b> returns <b>FALSE</b> if the oplock request is not for a shared oplock or if the IRP is not an oplock request. For more information about oplock types, see the Oplock Semantics <a href="https://msdn.microsoft.com/e9a45ae0-0ec8-4d6c-8486-ae88bdaa1f8c">Overview</a> page. Minifilters should call <a href="https://msdn.microsoft.com/library/windows/hardware/ff543407">FltOplockIsSharedRequest</a> instead of <b>FsRtlOplockIsSharedRequest</b>. 
 
 
 
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltoplockissharedrequest.md">FltOplockIsSharedRequest</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543407">FltOplockIsSharedRequest</a>
  
 
  

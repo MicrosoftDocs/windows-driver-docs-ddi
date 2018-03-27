@@ -52,18 +52,6 @@ req.typenames: SENDCMDOUTPARAMS, *PSENDCMDOUTPARAMS, *LPSENDCMDOUTPARAMS
 The SENDCMDOUTPARAMS structure is used in conjunction with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566206">SMART_SEND_DRIVE_COMMAND</a> request to retrieve data returned by a Self-Monitoring Analysis and Reporting Technology (SMART) command. 
 
 
-## -syntax
-
-
-````
-typedef struct _SENDCMDOUTPARAMS {
-  ULONG        cBufferSize;
-  DRIVERSTATUS DriverStatus;
-  UCHAR        bBuffer[1];
-} SENDCMDOUTPARAMS, *PSENDCMDOUTPARAMS, *LPSENDCMDOUTPARAMS;
-````
-
-
 ## -struct-fields
 
 
@@ -76,7 +64,7 @@ Contains the size in bytes of the buffer pointed to by <b>bBuffer</b>.
 
 ### -field DriverStatus
 
-Contains a <a href="..\ntdddisk\ns-ntdddisk-_driverstatus.md">DRIVERSTATUS</a> structure that indicates the driver status. 
+Contains a <a href="https://msdn.microsoft.com/library/windows/hardware/ff552658">DRIVERSTATUS</a> structure that indicates the driver status. 
 
 
 ### -field bBuffer
@@ -97,7 +85,10 @@ The SENDCMDOUTPARAMS structure is also used with the <a href="https://msdn.micro
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566206">SMART_SEND_DRIVE_COMMAND</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565401">SENDCMDINPARAMS</a>
 
 
 
@@ -105,10 +96,7 @@ The SENDCMDOUTPARAMS structure is also used with the <a href="https://msdn.micro
 
 
 
-<a href="..\ntdddisk\ns-ntdddisk-_sendcmdinparams.md">SENDCMDINPARAMS</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566206">SMART_SEND_DRIVE_COMMAND</a>
  
 
  

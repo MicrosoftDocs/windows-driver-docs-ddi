@@ -52,20 +52,6 @@ req.typenames: RILCALLFORWARDINGSETTINGSPARAMMASK
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef enum _RILCALLFORWARDINGSETTINGSPARAMMASK { 
-  RIL_PARAM_CFS_INFOCLASSES,
-  RIL_PARAM_CFS_ADDRESS,
-  RIL_PARAM_CFS_SUBADDRESS,
-  RIL_PARAM_CFS_DELAYTIME,
-  RIL_PARAM_CFS_ALL
-} RILCALLFORWARDINGSETTINGSPARAMMASK;
-````
-
-
 ## -enum-fields
 
 

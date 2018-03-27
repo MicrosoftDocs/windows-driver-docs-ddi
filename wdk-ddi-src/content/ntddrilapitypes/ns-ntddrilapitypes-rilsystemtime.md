@@ -52,23 +52,6 @@ req.typenames: RILSYSTEMTIME, *LPRILSYSTEMTIME
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef struct _RILSYSTEMTIME {
-  WORD  wYear;
-  WORD  wMonth;
-  WORD  wDayOfWeek;
-  WORD  wDay;
-  WORD  wHour;
-  WORD  wMinute;
-  WORD  wSecond;
-  WORD  wMilliseconds;
-} RILSYSTEMTIME, RILSYSTEMTIME;
-````
-
-
 ## -struct-fields
 
 

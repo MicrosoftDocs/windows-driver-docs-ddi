@@ -53,19 +53,6 @@ req.typenames: IDE_POWER_STATE
 The <b>AtaPortGetBusData</b> routine retrieves data from the location that is specified by <i>ConfigDataOffset</i> within the device's PCI configuration space.
 <div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
-## -syntax
-
-
-````
-ULONG AtaPortGetBusData(
-  _In_ PVOID ControllerExtension,
-  _In_ PVOID Buffer,
-  _In_ ULONG ConfigDataOffset,
-  _In_ ULONG BufferLength
-);
-````
-
-
 ## -parameters
 
 
@@ -111,10 +98,10 @@ Specifies the length, in bytes, of the buffer.
 
 ## -see-also
 
-<a href="..\irb\nf-irb-ataportsetbusdata.md">AtaPortSetBusData</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550232">AtaPortSetBusData</a>
  
 
  

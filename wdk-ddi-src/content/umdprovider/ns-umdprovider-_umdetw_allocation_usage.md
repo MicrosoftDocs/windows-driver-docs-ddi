@@ -53,24 +53,6 @@ req.product: Windows 10 or later.
 Indicates the reason for mapping from a Microsoft Direct3D  memory allocation to a Microsoft DirectX graphics kernel subsystem (Dxgkrnl.sys) allocation.
 
 
-## -syntax
-
-
-````
-typedef struct _UMDETW_ALLOCATION_USAGE {
-  union {
-    struct {
-      UINT Packed  :1;
-      UINT Renamed  :1;
-      UINT Reserved  :14;
-      UINT DriverReserved  :16;
-    };
-    UINT   Value;
-  };
-} UMDETW_ALLOCATION_USAGE;
-````
-
-
 ## -struct-fields
 
 
@@ -103,10 +85,10 @@ A 32-bit value that specifies the allocation mapping.
 
 ## -see-also
 
-<a href="..\umdprovider\nf-umdprovider-umdetwlogmapallocation.md">UMDEtwLogMapAllocation</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj542437">UMDEtwLogMapAllocation</a>
  
 
  

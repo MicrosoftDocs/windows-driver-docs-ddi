@@ -52,20 +52,6 @@ req.typenames: RILTDSCDMAKIND
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef enum _RILTDSCDMAKIND { 
-  RIL_TDSCDMAKIND_HSDPA,
-  RIL_TDSCDMAKIND_HSUPA,
-  RIL_TDSCDMAKIND_HSPAPLUS,
-  RIL_TDSCDMAKIND_DC_HSPAPLUS,
-  RIL_TDSCDMAKIND_MAX
-} RILTDSCDMAKIND;
-````
-
-
 ## -enum-fields
 
 

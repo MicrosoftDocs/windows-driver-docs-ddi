@@ -53,16 +53,6 @@ The
   WDI_P2P_SERVICE_NAME_HASH structure defines a hash of a WFDS Service Name.
 
 
-## -syntax
-
-
-````
-typedef struct _WDI_P2P_SERVICE_NAME_HASH {
-  UINT8 Hash[6];
-} WDI_P2P_SERVICE_NAME_HASH, *PWDI_P2P_SERVICE_NAME_HASH;
-````
-
-
 ## -struct-fields
 
 

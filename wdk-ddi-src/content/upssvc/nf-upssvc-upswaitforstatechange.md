@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,17 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>UPSWaitForStateChange</b> function waits until a specified UPS state changes, or until a time-out interval elapses.
-
-
-## -syntax
-
-
-````
-void UPSWaitForStateChange(
-  _In_ DWORD aCurrentState,
-  _In_ DWORD anInterval
-);
-````
 
 
 ## -parameters
@@ -120,17 +109,17 @@ None
 
 The <b>UPSWaitForStateChange</b> function must wait until either the state of the UPS changes from the value specified by <i>aCurrentState</i>, or until the time specified by <i>anInterval</i> has elapsed, whichever occurs first. 
 
-A call to <a href="..\upssvc\nf-upssvc-upscancelwait.md">UPSCancelWait</a> interrupts <b>UPSWaitForStateChange</b> and causes it to return. 
+A call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff536311">UPSCancelWait</a> interrupts <b>UPSWaitForStateChange</b> and causes it to return. 
 
 
 
 
 ## -see-also
 
-<a href="..\upssvc\nf-upssvc-upscancelwait.md">UPSCancelWait</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536311">UPSCancelWait</a>
  
 
  

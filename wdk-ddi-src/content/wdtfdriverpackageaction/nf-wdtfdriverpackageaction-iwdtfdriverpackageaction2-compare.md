@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: Microsoft.WDTF
 req.assembly: WDTFDriverPackageAction.Interop.dll
 req.type-library: 
-req.lib: wdtfdriverpackageaction.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,17 +51,6 @@ req.product: Windows 10 or later.
 
 
 Compares two driver packages.
-
-
-## -syntax
-
-
-````
-HRESULT Compare(
-  [in]          IWDTFDriverPackageAction2 *pDp,
-  [out, retval] VARIANT_BOOL              *pbIsIdentical
-);
-````
 
 
 ## -parameters
@@ -91,10 +80,10 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="..\wdtfdriverpackageaction\nn-wdtfdriverpackageaction-iwdtfdriverpackageaction2.md">IWDTFDriverPackageAction2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406427">IWDTFDriverPackageAction2</a>
  
 
  

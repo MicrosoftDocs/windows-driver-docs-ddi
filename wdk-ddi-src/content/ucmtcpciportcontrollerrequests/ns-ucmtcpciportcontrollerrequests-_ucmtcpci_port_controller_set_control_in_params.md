@@ -51,24 +51,7 @@ req.product: Windows 10 or later.
 
 
 
-             Stores the values of all control registers. This structure is used in the <a href="..\ucmtcpciportcontrollerrequests\ni-ucmtcpciportcontrollerrequests-ioctl_ucmtcpci_port_controller_set_control.md">IOCTL_UCMTCPCI_PORT_CONTROLLER_SET_CONTROL</a> request.
-
-
-## -syntax
-
-
-````
-typedef struct _UCMTCPCI_PORT_CONTROLLER_SET_CONTROL_IN_PARAMS {
-  UCMTCPCIPORTCONTROLLER                PortControllerObject;
-  UCMTCPCI_PORT_CONTROLLER_CONTROL_TYPE ControlType;
-  union {
-    UCMTCPCI_PORT_CONTROLLER_TCPC_CONTROL  TCPCControl;
-    UCMTCPCI_PORT_CONTROLLER_ROLE_CONTROL  RoleControl;
-    UCMTCPCI_PORT_CONTROLLER_FAULT_CONTROL FaultControl;
-    UCMTCPCI_PORT_CONTROLLER_POWER_CONTROL PowerControl;
-  };
-} UCMTCPCI_PORT_CONTROLLER_SET_CONTROL_IN_PARAMS, *PUCMTCPCI_PORT_CONTROLLER_SET_CONTROL_IN_PARAMS;
-````
+             Stores the values of all control registers. This structure is used in the <a href="https://msdn.microsoft.com/library/windows/hardware/mt805836">IOCTL_UCMTCPCI_PORT_CONTROLLER_SET_CONTROL</a> request.
 
 
 ## -struct-fields
@@ -78,7 +61,7 @@ typedef struct _UCMTCPCI_PORT_CONTROLLER_SET_CONTROL_IN_PARAMS {
 
 ### -field PortControllerObject
 
-Handle to the port controller object that the client driver received in the previous call to <a href="..\ucmtcpciportcontroller\nf-ucmtcpciportcontroller-ucmtcpciportcontrollercreate.md">UcmTcpciPortControllerCreate</a>.
+Handle to the port controller object that the client driver received in the previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/mt805844">UcmTcpciPortControllerCreate</a>.
 
 
 ### -field ControlType
@@ -118,10 +101,10 @@ Handle to the port controller object that the client driver received in the prev
 
 ## -see-also
 
-<a href="..\ucmtcpciportcontrollerrequests\ni-ucmtcpciportcontrollerrequests-ioctl_ucmtcpci_port_controller_set_control.md">IOCTL_UCMTCPCI_PORT_CONTROLLER_SET_CONTROL</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt805836">IOCTL_UCMTCPCI_PORT_CONTROLLER_SET_CONTROL</a>
  
 
  

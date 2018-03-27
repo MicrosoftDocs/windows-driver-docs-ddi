@@ -52,17 +52,6 @@ req.typenames: D3DDDIARG_GETCAPTUREALLOCATIONHANDLE
 The D3DDDIARG_GETCAPTUREALLOCATIONHANDLE structure describes the parameters for retrieving an allocation handle from a capture resource handle. 
 
 
-## -syntax
-
-
-````
-typedef struct _D3DDDIARG_GETCAPTUREALLOCATIONHANDLE {
-  HANDLE        hResource;
-  D3DKMT_HANDLE hAllocation;
-} D3DDDIARG_GETCAPTUREALLOCATIONHANDLE;
-````
-
-
 ## -struct-fields
 
 
@@ -70,7 +59,7 @@ typedef struct _D3DDDIARG_GETCAPTUREALLOCATIONHANDLE {
 
 ### -field hResource
 
-[in] A handle to the capture resource that <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getcaptureallocationhandle.md">GetCaptureAllocationHandle</a> retrieves the allocation handle for.
+[in] A handle to the capture resource that <a href="https://msdn.microsoft.com/fb12a12b-6fb7-46d4-aa71-4c88d34d6ff9">GetCaptureAllocationHandle</a> retrieves the allocation handle for.
 
 
 ### -field hAllocation
@@ -80,10 +69,10 @@ typedef struct _D3DDDIARG_GETCAPTUREALLOCATIONHANDLE {
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getcaptureallocationhandle.md">GetCaptureAllocationHandle</a>
 
 
 
+<a href="https://msdn.microsoft.com/fb12a12b-6fb7-46d4-aa71-4c88d34d6ff9">GetCaptureAllocationHandle</a>
  
 
  

@@ -52,19 +52,6 @@ req.typenames: RILSENDMSGPARAMS, *LPRILSENDMSGPARAMS
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef struct _RILSENDMSGPARAMS {
-  DWORD       dwExecutor;
-  HUICCAPP    hUiccApp;
-  RILMESSAGE  rmMessage;
-  DWORD       dwOptions;
-} RILSENDMSGPARAMS, RILSENDMSGPARAMS;
-````
-
-
 ## -struct-fields
 
 

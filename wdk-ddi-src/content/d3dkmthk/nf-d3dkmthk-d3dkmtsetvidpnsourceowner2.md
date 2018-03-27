@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -52,16 +52,6 @@ req.typenames: D3DKMT_DRIVERVERSION
 
 			
             Used to set the VidPN source owner.
-
-
-## -syntax
-
-
-````
-NTSTATUS  D3DKMTSetVidPnSourceOwner2(
-  _In_ const D3DKMT_SETVIDPNSOURCEOWNER2   D3dkmt_setvidpnsourceowner2
-);
-````
 
 
 ## -parameters

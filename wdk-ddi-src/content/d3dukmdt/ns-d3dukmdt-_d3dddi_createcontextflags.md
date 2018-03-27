@@ -52,23 +52,6 @@ req.typenames: D3DDDI_CREATECONTEXTFLAGS
 The D3DDDI_CREATECONTEXTFLAGS structure describes how to create a context in a call to the <a href="https://msdn.microsoft.com/f3f5d6bc-3bc6-4214-830a-cffff01069cc">pfnCreateContextCb</a> function.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DDDI_CREATECONTEXTFLAGS {
-  union {
-    struct {
-      UINT NullRendering  :1;
-      UINT InitialData  :1;
-      UINT Reserved  :30;
-    };
-    UINT   Value;
-  };
-} D3DDDI_CREATECONTEXTFLAGS;
-````
-
-
 ## -struct-fields
 
 
@@ -113,14 +96,14 @@ A member in the union that is contained in D3DDDI_CREATECONTEXTFLAGS that can ho
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544143">D3DDDICB_CREATECONTEXT</a>
+
+
+
 <a href="https://msdn.microsoft.com/f3f5d6bc-3bc6-4214-830a-cffff01069cc">pfnCreateContextCb</a>
-
-
-
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_createcontext.md">D3DDDICB_CREATECONTEXT</a>
-
-
-
  
 
  

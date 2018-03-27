@@ -52,18 +52,6 @@ req.typenames: WDI_EXEMPTION_ACTION_TYPE
 The WDI_EXEMPTION_ACTION_TYPE enumeration defines the exemption types.
 
 
-## -syntax
-
-
-````
-typedef enum _WDI_EXEMPTION_ACTION_TYPE { 
-  WDI_EXEMPT_NO_EXEMPTION                    = 0,
-  WDI_EXEMPT_ALWAYS                          = 1,
-  WDI_EXEMPT_ON_KEY_MAPPING_KEY_UNAVAILABLE  = 2
-} WDI_EXEMPTION_ACTION_TYPE;
-````
-
-
 ## -enum-fields
 
 

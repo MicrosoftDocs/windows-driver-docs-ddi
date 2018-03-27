@@ -52,26 +52,6 @@ req.typenames: HBA_WWNTYPE
 The <b>HBA_ScsiInquiryV2</b> routine sends a SCSI inquiry command to the specified remote port.
 
 
-## -syntax
-
-
-````
-HBA_STATUS HBA_API HBA_ScsiInquiryV2(
-  _In_    HBA_HANDLE HbaHandle,
-  _In_    HBA_WWN    HbaPortWWN,
-  _In_    HBA_WWN    discoveredPortWWN,
-  _In_    HBA_UINT64 fcLUN,
-  _In_    HBA_UINT8  CDB_Byte1,
-  _In_    HBA_UINT8  CDB_Byte2,
-  _Out_   void       *pRespBuffer,
-  _Inout_ HBA_UINT32 *pRespBufferSize,
-  _Out_   HBA_UINT8  *pScsiStatus,
-  _Out_   void       *pSenseBuffer,
-  _Inout_ HBA_UINT32 *pSenseBufferSize
-);
-````
-
-
 ## -parameters
 
 
@@ -79,7 +59,7 @@ HBA_STATUS HBA_API HBA_ScsiInquiryV2(
 
 ### -param HbaHandle [in]
 
-Contains a value returned by the routine <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a> that identifies the HBA through which the SCSI inquiry command is sent.
+Contains a value returned by the routine <a href="https://msdn.microsoft.com/library/windows/hardware/ff557097">HBA_OpenAdapter</a> that identifies the HBA through which the SCSI inquiry command is sent.
 
 
 ### -param HbaPortWWN [in]
@@ -293,14 +273,14 @@ Returned if an unspecified error occurred that prevented the execution of the SC
 
 ## -see-also
 
-<a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557097">HBA_OpenAdapter</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
-
-
-
  
 
  

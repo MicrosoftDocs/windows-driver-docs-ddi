@@ -52,17 +52,6 @@ req.typenames: D3DDDIARG_SETCLIPPLANE
 The D3DDDIARG_SETCLIPPLANE structure describes a clip plane. 
 
 
-## -syntax
-
-
-````
-typedef struct _D3DDDIARG_SETCLIPPLANE {
-  UINT  Index;
-  FLOAT Plane[4];
-} D3DDDIARG_SETCLIPPLANE;
-````
-
-
 ## -struct-fields
 
 
@@ -89,10 +78,10 @@ The general plane equation in standard form is A<i>x</i> + B<i>y</i> + C<i>z</i>
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setclipplane.md">SetClipPlane</a>
 
 
 
+<a href="https://msdn.microsoft.com/99edfc35-23a5-41e0-8705-7dffba564c10">SetClipPlane</a>
  
 
  

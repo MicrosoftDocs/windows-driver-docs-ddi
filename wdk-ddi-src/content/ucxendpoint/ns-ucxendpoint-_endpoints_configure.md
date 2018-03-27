@@ -50,32 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-Describes   endpoints to enable or disable endpoints. This structure is passed by UCX in the <a href="..\ucxusbdevice\nc-ucxusbdevice-evt_ucx_usbdevice_endpoints_configure.md">EVT_UCX_USBDEVICE_ENDPOINTS_CONFIGURE</a>  callback function.
-
-
-## -syntax
-
-
-````
-typedef struct _ENDPOINTS_CONFIGURE {
-#if _cplusplus
-  USBDEVICE_MGMT_HEADER             Header;
-#else 
-  USBDEVICE_MGMT_HEADER             ;
-#endif 
-  ULONG                             EndpointsToEnableCount;
-  UCXENDPOINT                       *EndpointsToEnable;
-  ULONG                             EndpointsToDisableCount;
-  UCXENDPOINT                       *EndpointsToDisable;
-  ULONG                             EndpointsEnabledAndUnchangedCount;
-  UCXENDPOINT                       *EndpointsEnabledAndUnchanged;
-  ENDPOINTS_CONFIGURE_FAILURE_FLAGS FailureFlags;
-  ULONG                             ExitLatencyDelta;
-  UCHAR                             ConfigurationValue;
-  UCHAR                             InterfaceNumber;
-  UCHAR                             AlternateSetting;
-} ENDPOINTS_CONFIGURE, *P_ENDPOINTS_CONFIGURE;
-````
+Describes   endpoints to enable or disable endpoints. This structure is passed by UCX in the <a href="https://msdn.microsoft.com/library/windows/hardware/mt187842">EVT_UCX_USBDEVICE_ENDPOINTS_CONFIGURE</a>  callback function.
 
 
 ## -struct-fields
@@ -85,7 +60,7 @@ typedef struct _ENDPOINTS_CONFIGURE {
 
 ### -field Header
 
-A <a href="..\ucxusbdevice\ns-ucxusbdevice-_usbdevice_mgmt_header.md">USBDEVICE_MGMT_HEADER</a> structure that stores handles to the USB hub or device whose endpoints.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/mt188075">USBDEVICE_MGMT_HEADER</a> structure that stores handles to the USB hub or device whose endpoints.
 
 
 ### -field EndpointsToEnableCount
@@ -157,10 +132,10 @@ The setting number of the alternate setting that contains the endpoints.
 
 ## -see-also
 
-<a href="..\ucxusbdevice\nc-ucxusbdevice-evt_ucx_usbdevice_endpoints_configure.md">EVT_UCX_USBDEVICE_ENDPOINTS_CONFIGURE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt187842">EVT_UCX_USBDEVICE_ENDPOINTS_CONFIGURE</a>
  
 
  

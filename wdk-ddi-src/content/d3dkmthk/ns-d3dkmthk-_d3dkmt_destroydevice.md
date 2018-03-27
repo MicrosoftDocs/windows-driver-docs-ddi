@@ -52,16 +52,6 @@ req.typenames: D3DKMT_DESTROYDEVICE
 The D3DKMT_DESTROYDEVICE structure contains a handle to the kernel-mode device context to release.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DKMT_DESTROYDEVICE {
-  D3DKMT_HANDLE hDevice;
-} D3DKMT_DESTROYDEVICE;
-````
-
-
 ## -struct-fields
 
 
@@ -69,19 +59,19 @@ typedef struct _D3DKMT_DESTROYDEVICE {
 
 ### -field hDevice
 
-[in] A handle to the device context that the Microsoft DirectX graphics kernel subsystem (<i>Dxgkrnl.sys</i>) supplied and that is returned from the call to the <a href="..\d3dkmthk\nc-d3dkmthk-pfnd3dkmt_createdevice.md">D3DKMTCreateDevice</a> function.
+[in] A handle to the device context that the Microsoft DirectX graphics kernel subsystem (<i>Dxgkrnl.sys</i>) supplied and that is returned from the call to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff546836">D3DKMTCreateDevice</a> function.
 
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtdestroydevice.md">D3DKMTDestroyDevice</a>
 
 
 
-<a href="..\d3dkmthk\nc-d3dkmthk-pfnd3dkmt_createdevice.md">D3DKMTCreateDevice</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546836">D3DKMTCreateDevice</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546912">D3DKMTDestroyDevice</a>
  
 
  

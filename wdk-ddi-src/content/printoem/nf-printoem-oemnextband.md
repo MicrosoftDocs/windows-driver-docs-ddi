@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,17 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <code>OEMNextBand</code> function is called by GDI when it has finished drawing a band for a physical page, so that the driver can send the band to the printer.
-
-
-## -syntax
-
-
-````
-BOOL APIENTRY OEMNextBand(
-   SURFOBJ *pso,
-   POINTL  *pptl
-);
-````
 
 
 ## -parameters

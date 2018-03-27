@@ -52,17 +52,6 @@ req.typenames: RILSETSLOTPOWERPARAMS, *LPRILSETSLOTPOWERPARAMS
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef struct _RILSETSLOTPOWERPARAMS {
-  DWORD  dwSlotIndex;
-  BOOL   fPowerOn;
-} RILSETSLOTPOWERPARAMS, RILSETSLOTPOWERPARAMS;
-````
-
-
 ## -struct-fields
 
 

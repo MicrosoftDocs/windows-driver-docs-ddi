@@ -54,19 +54,6 @@ req.typenames: D3DKMT_REMOVESURFACEFROMSWAPCHAIN
 Used to remove a surface from the swap chain.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DKMT_REMOVESURFACEFROMSWAPCHAIN {
-  HANDLE hNtSwapChain;
-  BOOL   bProducer;
-  HANDLE hNtSurfaceHandle;
-  UINT   BufferIdx;
-} D3DKMT_REMOVESURFACEFROMSWAPCHAIN;
-````
-
-
 ## -struct-fields
 
 

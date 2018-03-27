@@ -52,21 +52,6 @@ req.typenames: DXGK_PTE
 The <i>SetTexture</i> function inserts a texture at a particular stage in a multiple-texture group.
 
 
-## -prototype
-
-
-````
-PFND3DDDI_SETTEXTURE SetTexture;
-
-__checkReturn HRESULT APIENTRY SetTexture(
-  _In_ HANDLE hDevice,
-  _In_ UINT   Stage,
-  _In_ HANDLE hTexture
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -77,10 +62,10 @@ __checkReturn HRESULT APIENTRY SetTexture(
  A handle to the display device (graphics context).
 
 
-### -param UINT
+### -param Arg1
 
 
-### -param HANDLE
+### -param Arg2
 
 
 
@@ -110,10 +95,10 @@ __checkReturn HRESULT APIENTRY SetTexture(
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544519">D3DDDI_DEVICEFUNCS</a>
  
 
  

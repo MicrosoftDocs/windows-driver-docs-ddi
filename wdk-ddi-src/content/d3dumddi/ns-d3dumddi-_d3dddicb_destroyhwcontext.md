@@ -52,16 +52,6 @@ req.typenames: D3DDDICB_DESTROYHWCONTEXT
 A structure that holds information to destroy a hardware context.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DDDICB_DESTROYHWCONTEXT {
-  HANDLE hHwContext;
-} D3DDDICB_DESTROYHWCONTEXT;
-````
-
-
 ## -struct-fields
 
 

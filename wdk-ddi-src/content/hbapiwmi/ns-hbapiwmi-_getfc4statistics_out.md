@@ -52,17 +52,6 @@ req.typenames: GetFC4Statistics_OUT, *PGetFC4Statistics_OUT
 The GetFC4Statistics_OUT structure is used to report the output parameter data of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff553949">GetFC4Statistics</a> WMI method to the WMI client.
 
 
-## -syntax
-
-
-````
-typedef struct _GetFC4Statistics_OUT {
-  ULONG              HBAStatus;
-  MSFC_FC4STATISTICS FC4Statistics;
-} GetFC4Statistics_OUT, *PGetFC4Statistics_OUT;
-````
-
-
 ## -struct-fields
 
 
@@ -75,7 +64,7 @@ Contains a value associated with the WMI class qualifier <a href="https://msdn.m
 
 ### -field FC4Statistics
 
-Contains a structure of type <a href="..\hbapiwmi\ns-hbapiwmi-_msfc_fc4statistics.md">MSFC_FC4STATISTICS</a> that holds statistics for the specified FC-4 protocol. 
+Contains a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff562492">MSFC_FC4STATISTICS</a> that holds statistics for the specified FC-4 protocol. 
 
 
 ## -remarks
@@ -91,10 +80,10 @@ The WMI tool suite generates a declaration of the GetFC4Statistics_OUT structure
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553949">GetFC4Statistics</a>
-
-
-
  
 
  

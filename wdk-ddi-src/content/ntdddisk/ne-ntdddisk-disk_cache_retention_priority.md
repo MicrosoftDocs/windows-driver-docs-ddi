@@ -49,19 +49,7 @@ req.typenames: DISK_CACHE_RETENTION_PRIORITY
 ## -description
 
 
-The DISK_CACHE_RETENTION_PRIORITY enumeration is used in conjunction with the <a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_get_cache_information.md">IOCTL_DISK_GET_CACHE_INFORMATION</a> request and the structure <a href="..\ntdddisk\ns-ntdddisk-_disk_cache_information.md">DISK_CACHE_INFORMATION</a> to indicate which kinds data are to be held in the cache on a preferential basis. 
-
-
-## -syntax
-
-
-````
-typedef enum  { 
-  EqualPriority       = 0,
-  KeepPrefetchedData  = 1,
-  KeepReadData        = 2
-} DISK_CACHE_RETENTION_PRIORITY;
-````
+The DISK_CACHE_RETENTION_PRIORITY enumeration is used in conjunction with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559451">IOCTL_DISK_GET_CACHE_INFORMATION</a> request and the structure <a href="https://msdn.microsoft.com/library/windows/hardware/ff552580">DISK_CACHE_INFORMATION</a> to indicate which kinds data are to be held in the cache on a preferential basis. 
 
 
 ## -enum-fields
@@ -86,14 +74,14 @@ Indicates that a preference is to be given to data cached from a READ operation.
 
 ## -see-also
 
-<a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_get_cache_information.md">IOCTL_DISK_GET_CACHE_INFORMATION</a>
 
 
 
-<a href="..\ntdddisk\ns-ntdddisk-_disk_cache_information.md">DISK_CACHE_INFORMATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552580">DISK_CACHE_INFORMATION</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559451">IOCTL_DISK_GET_CACHE_INFORMATION</a>
  
 
  

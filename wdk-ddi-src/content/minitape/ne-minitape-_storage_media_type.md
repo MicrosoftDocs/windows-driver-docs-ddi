@@ -49,79 +49,7 @@ req.typenames: STORAGE_MEDIA_TYPE, *PSTORAGE_MEDIA_TYPE, STORAGE_MEDIA_TYPE, *PS
 ## -description
 
 
-The STORAGE_MEDIA_TYPE enumeration is used in conjunction with the <a href="..\ntddstor\ni-ntddstor-ioctl_storage_get_media_types_ex.md">IOCTL_STORAGE_GET_MEDIA_TYPES_EX</a> request to query the class driver for the types of media that a device supports.
-
-
-## -syntax
-
-
-````
-typedef enum _STORAGE_MEDIA_TYPE { 
-  DDS_4mm             = 0x20,
-  MiniQic             = 0x21,
-  Travan              = 0x22,
-  QIC                 = 0x23,
-  MP_8mm              = 0x24,
-  AME_8mm             = 0x25,
-  AIT1_8mm            = 0x26,
-  DLT                 = 0x27,
-  NCTP                = 0x28,
-  IBM_3480            = 0x29,
-  IBM_3490E           = 0x2A,
-  IBM_Magstar_3590    = 0x2B,
-  IBM_Magstar_MP      = 0x2C,
-  STK_DATA_D3         = 0x2D,
-  SONY_DTF            = 0x2E,
-  DV_6mm              = 0x2F,
-  DMI                 = 0x30,
-  SONY_D2             = 0x31,
-  CLEANER_CARTRIDGE   = 0x32,
-  CD_ROM              = 0x33,
-  CD_R                = 0x34,
-  CD_RW               = 0x35,
-  DVD_ROM             = 0x36,
-  DVD_R               = 0x37,
-  DVD_RW              = 0x38,
-  MO_3_RW             = 0x39,
-  MO_5_WO             = 0x3A,
-  MO_5_RW             = 0x3B,
-  MO_5_LIMDOW         = 0x3C,
-  PC_5_WO             = 0x3D,
-  PC_5_RW             = 0x3E,
-  PD_5_RW             = 0x3F,
-  ABL_5_WO            = 0x40,
-  PINNACLE_APEX_5_RW  = 0x41,
-  SONY_12_WO          = 0x42,
-  PHILIPS_12_WO       = 0x43,
-  HITACHI_12_WO       = 0x44,
-  CYGNET_12_WO        = 0x45,
-  KODAK_14_WO         = 0x46,
-  MO_NFR_525          = 0x47,
-  NIKON_12_RW         = 0x48,
-  IOMEGA_ZIP          = 0x49,
-  IOMEGA_JAZ          = 0x4A,
-  SYQUEST_EZ135       = 0x4B,
-  SYQUEST_EZFLYER     = 0x4C,
-  SYQUEST_SYJET       = 0x4D,
-  AVATAR_F2           = 0x4E,
-  MP2_8mm             = 0x4F,
-  DST_S               = 0x50,
-  DST_M               = 0x51,
-  DST_L               = 0x52,
-  VXATape_1           = 0x53,
-  VXATape_2           = 0x54,
-  STK_9840            = 0x55,
-  LTO_Ultrium         = 0x56,
-  LTO_Accelis         = 0x57,
-  DVD_RAM             = 0x58,
-  AIT_8mm             = 0x59,
-  ADR_1               = 0x5A,
-  ADR_2               = 0x5B,
-  STK_9940            = 0x5C,
-  SAIT                = 0x5D,
-  VXATape             = 0x5E
-} STORAGE_MEDIA_TYPE, *PSTORAGE_MEDIA_TYPE;
-````
+The STORAGE_MEDIA_TYPE enumeration is used in conjunction with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560563">IOCTL_STORAGE_GET_MEDIA_TYPES_EX</a> request to query the class driver for the types of media that a device supports.
 
 
 ## -enum-fields
@@ -449,18 +377,18 @@ Indicates an STK 9840 device.
 
 ## -see-also
 
-<a href="..\ntddstor\ns-ntddstor-_device_media_info.md">DEVICE_MEDIA_INFO</a>
 
 
 
-<a href="..\ntddstor\ni-ntddstor-ioctl_storage_get_media_types_ex.md">IOCTL_STORAGE_GET_MEDIA_TYPES_EX</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552529">DEVICE_MEDIA_INFO</a>
 
 
 
-<a href="..\ntddstor\ns-ntddstor-_get_media_types.md">GET_MEDIA_TYPES</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554987">GET_MEDIA_TYPES</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560563">IOCTL_STORAGE_GET_MEDIA_TYPES_EX</a>
  
 
  

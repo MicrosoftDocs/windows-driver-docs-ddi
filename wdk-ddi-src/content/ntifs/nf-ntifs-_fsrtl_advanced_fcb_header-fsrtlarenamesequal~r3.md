@@ -52,19 +52,6 @@ req.typenames: TOKEN_TYPE
 The <b>FsRtlAreNamesEqual</b> routine determines whether two Unicode strings are equal. 
 
 
-## -syntax
-
-
-````
-BOOLEAN FsRtlAreNamesEqual(
-  _In_     PCUNICODE_STRING ConstantNameA,
-  _In_     PCUNICODE_STRING ConstantNameB,
-  _In_     BOOLEAN          IgnoreCase,
-  _In_opt_ PCWCH            UpcaseTable
-);
-````
-
-
 ## -parameters
 
 
@@ -116,14 +103,14 @@ For information about other string-handling routines, see <a href="https://msdn.
 
 ## -see-also
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 
 
-<a href="..\wudfwdm\nf-wudfwdm-rtlequalunicodestring.md">RtlEqualUnicodeString</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561854">RtlEqualUnicodeString</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a>
  
 
  

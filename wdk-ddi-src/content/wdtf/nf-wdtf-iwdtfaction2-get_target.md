@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: Microsoft.WDTF
 req.assembly: WDTF.Interop.metadata_dll
 req.type-library: 
-req.lib: wdtf.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -56,25 +56,15 @@ Gets the target to which this action refers.
 This property is read-only.
 
 
-## -syntax
-
-
-````
-HRESULT get_Target(
-  [out, retval] IWDTFTarget2 **ppTarget
-);
-````
-
-
 ## -parameters
 
 
 ## -see-also
 
-<a href="..\wdtf\nn-wdtf-iwdtfaction2.md">IWDTFAction2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406311">IWDTFAction2</a>
  
 
  

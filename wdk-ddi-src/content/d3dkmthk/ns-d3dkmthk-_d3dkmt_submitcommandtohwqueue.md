@@ -52,23 +52,6 @@ req.typenames: D3DKMT_SUBMITCOMMANDTOHWQUEUE
 A structure that holds information to submit a command to the hardware queue.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DKMT_SUBMITCOMMANDTOHWQUEUE {
-  D3DKMT_HANDLE          hHwQueue;
-  UINT64                 HwQueueProgressFenceId;
-  D3DGPU_VIRTUAL_ADDRESS  CommandBuffer;
-  UINT                   CommandLength;
-  UINT                   PrivateDriverDataSize;
-  VOID                   *pPrivateDriverData;
-  UINT                   NumPrimaries;
-  D3DKMT_HANDLE CONST    *WrittenPrimaries;
-} D3DKMT_SUBMITCOMMANDTOHWQUEUE;
-````
-
-
 ## -struct-fields
 
 

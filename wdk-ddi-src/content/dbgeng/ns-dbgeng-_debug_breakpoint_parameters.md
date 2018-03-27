@@ -52,27 +52,6 @@ req.typenames: DEBUG_BREAKPOINT_PARAMETERS, *PDEBUG_BREAKPOINT_PARAMETERS
 The DEBUG_BREAKPOINT_PARAMETERS structure contains most of the parameters for describing a breakpoint.
 
 
-## -syntax
-
-
-````
-typedef struct _DEBUG_BREAKPOINT_PARAMETERS {
-  ULONG64 Offset;
-  ULONG   Id;
-  ULONG   BreakType;
-  ULONG   ProcType;
-  ULONG   Flags;
-  ULONG   DataSize;
-  ULONG   DataAccessType;
-  ULONG   PassCount;
-  ULONG   CurrentPassCount;
-  ULONG   MatchThread;
-  ULONG   CommandSize;
-  ULONG   OffsetExpressionSize;
-} DEBUG_BREAKPOINT_PARAMETERS, *PDEBUG_BREAKPOINT_PARAMETERS;
-````
-
-
 ## -struct-fields
 
 

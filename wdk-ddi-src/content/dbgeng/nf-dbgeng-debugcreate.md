@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -50,17 +50,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>DebugCreate</b> function creates a new client object and returns an interface pointer to it.
-
-
-## -syntax
-
-
-````
-HRESULT DebugCreate(
-  _In_  REFIID InterfaceId,
-  _Out_ PVOID  *Interface
-);
-````
 
 
 ## -parameters
@@ -130,10 +119,10 @@ As with <b>IUnknown::QueryInterface</b>, when the returned interface is no longe
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539140">Client Objects</a>
-
-
-
  
 
  

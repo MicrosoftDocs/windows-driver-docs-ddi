@@ -52,18 +52,6 @@ req.typenames: FCP_RESPONSE, *PFCP_RESPONSE, FCP_GET_RESPONSE, *PFCP_GET_RESPONS
 The structure is used in a request yjsy retrieves the next FCP response from the queue of requests maintained by the IEC-61883 protocol driver. FCP requests and responses from AV devices are routed to the IEC-61883 protocol driver, which queues the requests. Client drivers send <b>Av61883_GetFcpResponse</b> to retrieve an FCP response from the queue.
 
 
-## -syntax
-
-
-````
-typedef struct _FCP_GET_RESPONSE {
-  NODE_ADDRESS NodeAddress;
-  ULONG        Length;
-  PFCP_FRAME   Frame;
-} FCP_GET_RESPONSE, *PFCP_GET_RESPONSE;
-````
-
-
 ## -struct-fields
 
 
@@ -103,10 +91,10 @@ If an incorrect parameter is passed in, the protocol driver sets <b>Irp-&gt;IoSt
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537008">AV_61883_REQUEST</a>
-
-
-
  
 
  

@@ -52,19 +52,6 @@ req.typenames: WIM_PROVIDER_EXTERNAL_INFO, *PWIM_PROVIDER_EXTERNAL_INFO
 The <b>WIM_PROVIDER_EXTERNAL_INFO</b> structure holds the identifier and status information for the Windows Image File (WIM) external backing provider. 
 
 
-## -syntax
-
-
-````
-typedef struct _WIM_PROVIDER_EXTERNAL_INFO {
-  ULONG         Version;
-  ULONG         Flags;
-  LARGE_INTEGER DataSourceId;
-  UCHAR         ResourceHash[WIM_PROVIDER_HASH_SIZE];
-} WIM_PROVIDER_EXTERNAL_INFO, *PWIM_PROVIDER_EXTERNAL_INFO;
-````
-
-
 ## -struct-fields
 
 
@@ -131,14 +118,14 @@ The <b>Flags</b> and <b>ResourceHash</b> members are valid when the provider inf
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn632441">FSCTL_GET_EXTERNAL_BACKING</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn632443">FSCTL_SET_EXTERNAL_BACKING</a>
-
-
-
  
 
  

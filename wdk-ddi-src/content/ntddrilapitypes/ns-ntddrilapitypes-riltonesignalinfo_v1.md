@@ -52,20 +52,6 @@ req.typenames: RILTONESIGNALINFO_V1, *LPRILTONESIGNALINFO_V1
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef struct _RILTONESIGNALINFO_V1 {
-  DWORD                 cbSize;
-  DWORD                 dwParams;
-  RIL3GPPTONE           dwGPPTone;
-  RIL3GPP2TONE          dwGPP2Tone;
-  RIL3GPP2ISDNALERTING  dwGPP2IsdnAlerting;
-} RILTONESIGNALINFO_V1, RILTONESIGNALINFO_V1;
-````
-
-
 ## -struct-fields
 
 

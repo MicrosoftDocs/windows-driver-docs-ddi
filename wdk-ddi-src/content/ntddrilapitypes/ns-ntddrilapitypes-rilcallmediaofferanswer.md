@@ -52,22 +52,6 @@ req.typenames: RILCALLMEDIAOFFERANSWER, *LPRILCALLMEDIAOFFERANSWER
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef struct _RILCALLMEDIAOFFERANSWER {
-  DWORD                    cbSize;
-  DWORD                    dwParams;
-  RILCALLMEDIAID           stID;
-  BOOL                     fChange;
-  RILCALLMEDIAOFFERACTION  dwMediaAction;
-  RILCALLMEDIASTATE        stOldState;
-  RILCALLMEDIASTATE        stNewState;
-} RILCALLMEDIAOFFERANSWER, RILCALLMEDIAOFFERANSWER;
-````
-
-
 ## -struct-fields
 
 

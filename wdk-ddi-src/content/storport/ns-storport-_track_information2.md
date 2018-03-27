@@ -53,40 +53,6 @@ req.product: Windows 10 or later.
 The TRACK_INFORMATION2 structure is used to report track information.
 
 
-## -syntax
-
-
-````
-typedef struct _TRACK_INFORMATION2 {
-  UCHAR Length[2];
-  UCHAR TrackNumberLsb;
-  UCHAR SessionNumberLsb;
-  UCHAR Reserved4;
-  UCHAR TrackMode  :4;
-  UCHAR Copy  :1;
-  UCHAR Damage  :1;
-  UCHAR Reserved5  :2;
-  UCHAR DataMode  :4;
-  UCHAR FixedPacket  :1;
-  UCHAR Packet  :1;
-  UCHAR Blank  :1;
-  UCHAR ReservedTrack  :1;
-  UCHAR NWA_V  :1;
-  UCHAR LRA_V  :1;
-  UCHAR Reserved6  :6;
-  UCHAR TrackStartAddress[4];
-  UCHAR NextWritableAddress[4];
-  UCHAR FreeBlocks[4];
-  UCHAR FixedPacketSize[4];
-  UCHAR TrackSize[4];
-  UCHAR LastRecordedAddress[4];
-  UCHAR TrackNumberMsb;
-  UCHAR SessionNumberMsb;
-  UCHAR Reserved7[2];
-} TRACK_INFORMATION2, *PTRACK_INFORMATION2;
-````
-
-
 ## -struct-fields
 
 

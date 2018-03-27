@@ -50,19 +50,7 @@ req.typenames: EXpsFontRestriction
 ## -description
 
 
-The <b>FltFreePoolAlignedWithTag</b> routine frees a cache-aligned buffer that was allocated by a previous call to <a href="..\fltkernel\nf-fltkernel-fltallocatepoolalignedwithtag.md">FltAllocatePoolAlignedWithTag</a>. 
-
-
-## -syntax
-
-
-````
-VOID FltFreePoolAlignedWithTag(
-  _In_ PFLT_INSTANCE Instance,
-  _In_ PVOID         Buffer,
-  _In_ ULONG         Tag
-);
-````
+The <b>FltFreePoolAlignedWithTag</b> routine frees a cache-aligned buffer that was allocated by a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff541762">FltAllocatePoolAlignedWithTag</a>. 
 
 
 ## -parameters
@@ -72,7 +60,7 @@ VOID FltFreePoolAlignedWithTag(
 
 ### -param Instance [in]
 
-Opaque instance pointer for a caller-owned minifilter driver instance that is attached to the volume. Must be the same instance pointer as the one used in the call to <a href="..\fltkernel\nf-fltkernel-fltallocatepoolalignedwithtag.md">FltAllocatePoolAlignedWithTag</a>. 
+Opaque instance pointer for a caller-owned minifilter driver instance that is attached to the volume. Must be the same instance pointer as the one used in the call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff541762">FltAllocatePoolAlignedWithTag</a>. 
 
 
 ### -param Buffer [in]
@@ -82,7 +70,7 @@ Address of the block of pool memory to be freed.
 
 ### -param Tag [in]
 
-Tag used to mark the pool block. Must be the same tag as the one used in the call to <a href="..\fltkernel\nf-fltkernel-fltallocatepoolalignedwithtag.md">FltAllocatePoolAlignedWithTag</a>. 
+Tag used to mark the pool block. Must be the same tag as the one used in the call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff541762">FltAllocatePoolAlignedWithTag</a>. 
 
 
 ## -returns
@@ -107,10 +95,10 @@ The caller of <b>FltFreePoolAlignedWithTag</b> can be running at IRQL DISPATCH_L
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltallocatepoolalignedwithtag.md">FltAllocatePoolAlignedWithTag</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541762">FltAllocatePoolAlignedWithTag</a>
  
 
  

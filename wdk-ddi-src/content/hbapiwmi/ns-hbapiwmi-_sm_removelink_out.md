@@ -52,16 +52,6 @@ req.typenames: SM_RemoveLink_OUT, *PSM_RemoveLink_OUT
 The SM_RemoveLink_OUT structure is used to receive output parameters from the SM_RemoveLink WMI method.
 
 
-## -syntax
-
-
-````
-typedef struct _SM_RemoveLink_OUT {
-  ULONG HBAStatus;
-} SM_RemoveLink_OUT, *PSM_RemoveLink_OUT;
-````
-
-
 ## -struct-fields
 
 

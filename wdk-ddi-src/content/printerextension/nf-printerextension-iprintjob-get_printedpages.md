@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: printerextension.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -56,16 +56,6 @@ Gets the number of pages that have been printed.
 This property is read-only.
 
 
-## -syntax
-
-
-````
-HRESULT get_PrintedPages(
-  [out, retval] ULONG *pulPages
-);
-````
-
-
 ## -parameters
 
 
@@ -80,14 +70,14 @@ If the <b>PrintedPages</b> and <a href="https://msdn.microsoft.com/1035337F-2EDD
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprintjob.md">IPrintJob::IPrintJob</a>
+
+
+
+<a href="https://msdn.microsoft.com/068E53EC-26B8-48E7-A605-081709C94043">IPrintJob::IPrintJob</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn265411">TotalPages</a>
-
-
-
  
 
  

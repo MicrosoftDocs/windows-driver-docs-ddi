@@ -52,22 +52,6 @@ req.typenames: DXVA_VideoLighting
 The DXVA_VideoLighting enumeration type contains enumerators that identify lighting conditions for viewing video.
 
 
-## -syntax
-
-
-````
-typedef enum _DXVA_VideoLighting { 
-  DXVA_VideoLightingShift     = (DXVA_ExtColorData_ShiftBase + 10),
-  DXVA_VideoLightingMask      = DXVAColorMask(4, DXVA_VideoLightingShift),
-  DXVA_VideoLighting_Unknown  = 0,
-  DXVA_VideoLighting_bright   = 1,
-  DXVA_VideoLighting_office   = 2,
-  DXVA_VideoLighting_dim      = 3,
-  DXVA_VideoLighting_dark     = 4
-} DXVA_VideoLighting;
-````
-
-
 ## -enum-fields
 
 
@@ -112,7 +96,7 @@ Specifies near darkness for viewing video (for example, movie-theatre lighting).
 
 
 
-One of the enumerators of DXVA_VideoLighting can be specified in the <b>VideoLighting</b> member of the <a href="..\dxva\ns-dxva-_dxva_extendedformat.md">DXVA_ExtendedFormat</a> structure.
+One of the enumerators of DXVA_VideoLighting can be specified in the <b>VideoLighting</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563967">DXVA_ExtendedFormat</a> structure.
 
 The video lighting enumerators can be used to alter the gamma to generate a comparable experience in a different lighting condition. 
 
@@ -121,10 +105,10 @@ The video lighting enumerators can be used to alter the gamma to generate a comp
 
 ## -see-also
 
-<a href="..\dxva\ns-dxva-_dxva_extendedformat.md">DXVA_ExtendedFormat</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563967">DXVA_ExtendedFormat</a>
  
 
  

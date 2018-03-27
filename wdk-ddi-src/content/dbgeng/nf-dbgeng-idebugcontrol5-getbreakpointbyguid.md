@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -50,17 +50,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The GetBreakpointByGuid method returns the breakpoint with the specified breakpoint GUID.
-
-
-## -syntax
-
-
-````
-HRESULT GetBreakpointByGuid(
-  [in]  LPGUID             Guid,
-  [out] PDEBUG_BREAKPOINT3 *Bp
-);
-````
 
 
 ## -parameters
@@ -119,7 +108,6 @@ No breakpoint was found with the given GUID, or the breakpoint with the specifie
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol5.md">IDebugControl5</a>
 
 
 
@@ -127,6 +115,7 @@ No breakpoint was found with the given GUID, or the breakpoint with the specifie
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn818562">IDebugControl5</a>
  
 
  

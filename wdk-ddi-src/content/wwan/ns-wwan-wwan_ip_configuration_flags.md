@@ -53,22 +53,6 @@ req.product: Windows 10 or later.
 The WWAN_IP_CONFIGURATION_FLAGS structure represents flags that describe the availability of the IP address, gateway, DNS server, and/or MTU information of a PDP context.
 
 
-## -syntax
-
-
-````
-typedef union {
-  ULONG  Value;
-  struct {
-    ULONG AddressAvailable:1;
-    ULONG GatewayAvailable:1;
-    ULONG DnsServerAvailable:1;
-    ULONG MTUAvailable:1;
-  };
-} WWAN_IP_CONFIGURATION_FLAGS;
-````
-
-
 ## -struct-fields
 
 
@@ -125,10 +109,10 @@ An MTU is available.
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-wwan_ip_configuration_flags.md">WWAN_IP_CONFIGURATION_FLAGS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn449758">WWAN_IP_CONFIGURATION_FLAGS</a>
  
 
  

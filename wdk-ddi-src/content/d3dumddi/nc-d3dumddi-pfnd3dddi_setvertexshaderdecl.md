@@ -52,20 +52,6 @@ req.typenames: DXGK_PTE
 The <i>SetVertexShaderDecl</i> function sets the vertex shader declaration so that all of the subsequent drawing operations use that declaration.
 
 
-## -prototype
-
-
-````
-PFND3DDDI_SETVERTEXSHADERDECL SetVertexShaderDecl;
-
-__checkReturn HRESULT APIENTRY SetVertexShaderDecl(
-  _In_ HANDLE hDevice,
-  _In_ HANDLE hShaderHandle
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -76,7 +62,7 @@ __checkReturn HRESULT APIENTRY SetVertexShaderDecl(
  A handle to the display device (graphics context).
 
 
-### -param HANDLE
+### -param Arg1
 
 
 
@@ -110,10 +96,10 @@ After setting the vertex shader declaration, all of the drawing operations use t
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544519">D3DDDI_DEVICEFUNCS</a>
  
 
  

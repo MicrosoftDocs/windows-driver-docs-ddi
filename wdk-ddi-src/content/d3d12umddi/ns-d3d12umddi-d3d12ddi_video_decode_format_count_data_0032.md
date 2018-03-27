@@ -52,18 +52,6 @@ req.typenames: D3D12DDI_VIDEO_DECODE_FORMAT_COUNT_DATA_0032
 Video decode format count data.
 
 
-## -syntax
-
-
-````
-typedef struct _D3D12DDI_VIDEO_DECODE_FORMAT_COUNT_DATA_0032 {
-  UINT                                      NodeIndex;
-  D3D12DDI_VIDEO_DECODE_CONFIGURATION_0020  Configuration;
-  UINT                                      FormatCount;
-} D3D12DDI_VIDEO_DECODE_FORMAT_COUNT_DATA_0032, D3D12DDI_VIDEO_DECODE_FORMAT_COUNT_DATA_0032;
-````
-
-
 ## -struct-fields
 
 

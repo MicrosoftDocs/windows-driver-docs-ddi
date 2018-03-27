@@ -53,18 +53,6 @@ req.product: Windows 10 or later.
 The WWAN_SMS_CONFIGURATION structure represents the SMS configuration of the MB device.
 
 
-## -syntax
-
-
-````
-typedef struct _WWAN_SMS_CONFIGURATION {
-  CHAR            ScAddress[WWAN_SMS_ADDRESS_MAX_LEN];
-  WWAN_SMS_FORMAT SmsFormat;
-  ULONG           ulMaxMessageIndex;
-} WWAN_SMS_CONFIGURATION, *PWWAN_SMS_CONFIGURATION;
-````
-
-
 ## -struct-fields
 
 
@@ -122,14 +110,14 @@ Miniport drivers need to fill in this data structure only when processing
 
 ## -see-also
 
-<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_sms_configuration.md">NDIS_WWAN_SMS_CONFIGURATION</a>
 
 
 
-<a href="..\wwan\ne-wwan-_wwan_sms_format.md">WWAN_SMS_FORMAT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567935">NDIS_WWAN_SMS_CONFIGURATION</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571247">WWAN_SMS_FORMAT</a>
  
 
  

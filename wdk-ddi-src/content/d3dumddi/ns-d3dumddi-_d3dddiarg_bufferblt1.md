@@ -52,20 +52,6 @@ req.typenames: D3DDDIARG_BUFFERBLT1
 Describes the parameters of a buffer bit-block transfer (bitblt) operation.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DDDIARG_BUFFERBLT1 {
-  HANDLE      hDstResource;
-  HANDLE      hSrcResource;
-  UINT        Offset;
-  D3DDDIRANGE SrcRange;
-  UINT        CopyFlags;
-} D3DDDIARG_BUFFERBLT1;
-````
-
-
 ## -struct-fields
 
 
@@ -93,15 +79,15 @@ The source range.
 
 ### -field CopyFlags
 
-A value that specifies characteristics of a copy operation as a bitwise OR of the values in the <a href="..\d3dumddi\ne-d3dumddi-d3dddi_copy_flags.md">D3DDDI_COPY_FLAGS</a> enumeration type.
+A value that specifies characteristics of a copy operation as a bitwise OR of the values in the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451175">D3DDDI_COPY_FLAGS</a> enumeration type.
 
 
 ## -see-also
 
-<a href="..\d3dumddi\ne-d3dumddi-d3dddi_copy_flags.md">D3DDDI_COPY_FLAGS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451175">D3DDDI_COPY_FLAGS</a>
  
 
  

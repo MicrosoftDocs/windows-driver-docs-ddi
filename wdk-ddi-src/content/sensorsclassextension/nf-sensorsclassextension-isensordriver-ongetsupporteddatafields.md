@@ -54,17 +54,6 @@ req.product: Windows 10 or later.
 The <a href="https://msdn.microsoft.com/library/windows/hardware/ff545620">ISensorDriver::OnGetSupportedDataFields</a> method retrieves the list of data fields that the specified sensor can provide.
 
 
-## -syntax
-
-
-````
-HRESULT OnGetSupportedDataFields(
-   LPWSTR                          pwszSensorID,
-   IPortableDeviceKeyCollection ** ppSupportedDataFields
-);
-````
-
-
 ## -parameters
 
 

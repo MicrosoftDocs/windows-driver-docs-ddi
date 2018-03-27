@@ -52,18 +52,6 @@ req.typenames: HBA_WWNTYPE
 The <b>HBA_SetBindingSupport</b> routine enables the indicated set of capabilities on the adapter. 
 
 
-## -syntax
-
-
-````
-HBA_STATUS HBA_API HBA_SetBindingSupport(
-  _In_ HBA_HANDLE          Handle,
-  _In_ HBA_WWN             HbaPortWWN,
-  _In_ HBA_BIND_CAPABILITY Flags
-);
-````
-
-
 ## -parameters
 
 
@@ -71,7 +59,7 @@ HBA_STATUS HBA_API HBA_SetBindingSupport(
 
 ### -param Handle [in]
 
-Contains a value returned by the routine <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a> that identifies the HBA on which the port referenced by <i>HbaPortWWN </i>is located. 
+Contains a value returned by the routine <a href="https://msdn.microsoft.com/library/windows/hardware/ff557097">HBA_OpenAdapter</a> that identifies the HBA on which the port referenced by <i>HbaPortWWN </i>is located. 
 
 
 ### -param HbaPortWWN [in]
@@ -158,14 +146,14 @@ Returned if an unspecified error occurred that prevented the routine from enabli
 
 ## -see-also
 
-<a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557097">HBA_OpenAdapter</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
-
-
-
  
 
  

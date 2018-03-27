@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,19 +51,8 @@ req.product: Windows 10 or later.
 
 
       PosCxReleaseDevice is called to release a device that was previously claimed with
-      <a href="..\poscx\nf-poscx-poscxclaimdevice.md">PosCxClaimDevice</a>.
+      <a href="https://msdn.microsoft.com/library/windows/hardware/mt593119">PosCxClaimDevice</a>.
       Once the device is released, the next pending claim requester is promoted.
-
-
-## -syntax
-
-
-````
-NTSTATUS PosCxReleaseDevice(
-  _In_ WDFDEVICE     device,
-  _In_ WDFFILEOBJECT fileObject
-);
-````
 
 
 ## -parameters
@@ -112,10 +101,10 @@ Possible return values are:
 
 ## -see-also
 
-<a href="..\poscx\nf-poscx-poscxclaimdevice.md">PosCxClaimDevice</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt593119">PosCxClaimDevice</a>
  
 
  

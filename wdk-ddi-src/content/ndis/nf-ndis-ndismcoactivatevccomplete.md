@@ -55,18 +55,6 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
   NDIS_STATUS_PENDING.
 
 
-## -syntax
-
-
-````
-VOID NdisMCoActivateVcComplete(
-  _In_ NDIS_STATUS         Status,
-  _In_ NDIS_HANDLE         NdisVcHandle,
-  _In_ PCO_CALL_PARAMETERS CallParameters
-);
-````
-
-
 ## -parameters
 
 
@@ -86,7 +74,7 @@ VOID NdisMCoActivateVcComplete(
 Specifies the handle identifying the VC. The caller obtained this handle from its per-VC state,
      designated by the 
      <i>MiniportVcContext</i> passed as an input parameter to its 
-     <a href="..\ndis\nc-ndis-miniport_co_activate_vc.md">
+     <a href="https://msdn.microsoft.com/243a1236-4b8a-4f00-9f14-3142fa81c362">
      MiniportCoActivateVc</a> function.
 
 
@@ -115,7 +103,7 @@ A connection-oriented miniport driver must call
     <i>MiniportCoActivateVc</i> function previously returned NDIS_STATUS_PENDING in response to a request to
     activate or reactivate the VC identified by the given 
     <i>NdisVcHandle</i> . The call manager, which initiated the VC activation with a call to 
-    <a href="..\ndis\nf-ndis-ndiscmactivatevc.md">NdisCmActivateVc</a>, cannot notify NDIS or
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561649">NdisCmActivateVc</a>, cannot notify NDIS or
     its client whether transfers on the VC can be made using the supplied call parameters until the miniport
     driver calls 
     <b>NdisMCoActivateVcComplete</b>.
@@ -131,7 +119,7 @@ If the miniport driver finds the CM-supplied call parameters unacceptable, it fa
 
 A call to 
     <b>NdisMCoActivateVcComplete</b> causes NDIS to call the 
-    <a href="..\ndis\nc-ndis-protocol_cm_activate_vc_complete.md">
+    <a href="https://msdn.microsoft.com/6ec9e73e-8abd-4d27-b598-6176f2125348">
     ProtocolCmActivateVcComplete</a> function of the call manager that originally requested the VC
     activation.
 
@@ -140,20 +128,6 @@ A call to
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-miniport_co_activate_vc.md">MiniportCoActivateVc</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndiscmactivatevc.md">NdisCmActivateVc</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_cm_activate_vc_complete.md">
-   ProtocolCmActivateVcComplete</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndiscmdeactivatevc.md">NdisCmDeactivateVc</a>
 
 
 
@@ -161,6 +135,20 @@ A call to
 
 
 
+<a href="https://msdn.microsoft.com/243a1236-4b8a-4f00-9f14-3142fa81c362">MiniportCoActivateVc</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561649">NdisCmActivateVc</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561657">NdisCmDeactivateVc</a>
+
+
+
+<a href="https://msdn.microsoft.com/6ec9e73e-8abd-4d27-b598-6176f2125348">
+   ProtocolCmActivateVcComplete</a>
  
 
  

@@ -52,19 +52,6 @@ req.typenames: KSDEGRADE_STANDARD
 The KSDEGRADE_STANDARD enumeration lists different types of degradation.
 
 
-## -syntax
-
-
-````
-typedef enum  { 
-  KSDEGRADE_STANDARD_SAMPLE       = 0,
-  KSDEGRADE_STANDARD_QUALITY      = 1,
-  KSDEGRADE_STANDARD_COMPUTATION  = 2,
-  KSDEGRADE_STANDARD_SKIP         = 3
-} KSDEGRADE_STANDARD;
-````
-
-
 ## -enum-fields
 
 
@@ -101,10 +88,10 @@ For more information, see <a href="https://msdn.microsoft.com/359e6e12-903f-4037
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561671">KSDEGRADE</a>
-
-
-
  
 
  

@@ -52,17 +52,6 @@ req.typenames: MPIO_DISK_INFO, *PMPIO_DISK_INFO
 The MPIO_DISK_INFO structure allows applications to query the system for the top level view of its disk topology. The request must be directed to the MPIO control object by using its WMI instance name.
 
 
-## -syntax
-
-
-````
-typedef struct _MPIO_DISK_INFO {
-  ULONG           NumberDrives;
-  MPIO_DRIVE_INFO DriveInfo[1];
-} MPIO_DISK_INFO, *PMPIO_DISK_INFO;
-````
-
-
 ## -struct-fields
 
 

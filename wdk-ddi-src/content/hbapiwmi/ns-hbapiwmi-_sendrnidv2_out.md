@@ -52,19 +52,6 @@ req.typenames: SendRNIDV2_OUT, *PSendRNIDV2_OUT
 The SendRNIDV2_OUT structure is used to report the output parameter data of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565463">SendRNIDV2</a> WMI method to the WMI client.
 
 
-## -syntax
-
-
-````
-typedef struct _SendRNIDV2_OUT {
-  ULONG HBAStatus;
-  ULONG TotalRspBufferSize;
-  ULONG ActualRspBufferSize;
-  UCHAR RspBuffer[1];
-} SendRNIDV2_OUT, *PSendRNIDV2_OUT;
-````
-
-
 ## -struct-fields
 
 
@@ -101,10 +88,10 @@ The WMI tool suite generates a declaration of the SendRNIDV2_OUT structure in <i
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565463">SendRNIDV2</a>
-
-
-
  
 
  

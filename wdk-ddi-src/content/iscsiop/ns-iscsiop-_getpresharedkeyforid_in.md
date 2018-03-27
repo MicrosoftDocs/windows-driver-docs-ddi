@@ -52,19 +52,6 @@ req.typenames: GetPresharedKeyForId_IN, *PGetPresharedKeyForId_IN
 The GetPresharedKeyForId_IN structure holds the input data for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554970">GetPresharedKeyForId</a> method. This method is required if the initiator supports Internet Key Exchange (IKE). It can help to determine whether IKE identification payload is configured with a preshared key.
 
 
-## -syntax
-
-
-````
-typedef struct _GetPresharedKeyForId_IN {
-  ULONG PortNumber;
-  UCHAR IdType;
-  ULONG IdSize;
-  UCHAR Id[1];
-} GetPresharedKeyForId_IN, *PGetPresharedKeyForId_IN;
-````
-
-
 ## -struct-fields
 
 
@@ -149,7 +136,6 @@ You must implement this method if the initiator supports IKE.
 
 ## -see-also
 
-<a href="..\iscsiop\ns-iscsiop-_getpresharedkeyforid_out.md">GetPresharedKeyForId_OUT</a>
 
 
 
@@ -157,10 +143,11 @@ You must implement this method if the initiator supports IKE.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554975">GetPresharedKeyForId_OUT</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563135">MSiSCSI_SecurityConfigOperations WMI Class</a>
-
-
-
  
 
  

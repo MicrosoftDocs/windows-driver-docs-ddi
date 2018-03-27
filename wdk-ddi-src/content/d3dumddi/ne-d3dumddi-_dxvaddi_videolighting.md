@@ -52,21 +52,6 @@ req.typenames: DXVADDI_VIDEOLIGHTING
 The DXVADDI_VIDEOLIGHTING enumeration type contains values that identify lighting conditions for viewing video.
 
 
-## -syntax
-
-
-````
-typedef enum _DXVADDI_VIDEOLIGHTING { 
-  DXVADDI_VideoLightingMask      = 0x0F,
-  DXVADDI_VideoLighting_Unknown  = 0,
-  DXVADDI_VideoLighting_bright   = 1,
-  DXVADDI_VideoLighting_office   = 2,
-  DXVADDI_VideoLighting_dim      = 3,
-  DXVADDI_VideoLighting_dark     = 4
-} DXVADDI_VIDEOLIGHTING;
-````
-
-
 ## -enum-fields
 
 
@@ -106,7 +91,7 @@ Near-darkness for viewing video (for example, movie-theatre lighting).
 
 
 
-One of the values of DXVADDI_VIDEOLIGHTING can be specified in the <b>VideoLighting</b> member of the <a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_extendedformat.md">DXVADDI_EXTENDEDFORMAT</a>.
+One of the values of DXVADDI_VIDEOLIGHTING can be specified in the <b>VideoLighting</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562904">DXVADDI_EXTENDEDFORMAT</a>.
 
 The video lighting values can be used to alter the gamma to generate a comparable experience in a different lighting condition. 
 
@@ -115,10 +100,10 @@ The video lighting values can be used to alter the gamma to generate a comparabl
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_extendedformat.md">DXVADDI_EXTENDEDFORMAT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562904">DXVADDI_EXTENDEDFORMAT</a>
  
 
  

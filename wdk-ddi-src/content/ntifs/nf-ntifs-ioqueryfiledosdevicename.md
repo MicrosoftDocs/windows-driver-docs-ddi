@@ -52,17 +52,6 @@ req.typenames: TOKEN_TYPE
 The <b>IoQueryFileDosDeviceName</b> routine retrieves an MS-DOS device name for a file. 
 
 
-## -syntax
-
-
-````
-NTSTATUS IoQueryFileDosDeviceName(
-  _In_  PFILE_OBJECT             FileObject,
-  _Out_ POBJECT_NAME_INFORMATION *ObjectNameInformation
-);
-````
-
-
 ## -parameters
 
 
@@ -89,7 +78,7 @@ A returned pointer to a newly allocated <b>OBJECT_NAME_INFORMATION</b> structure
 </td>
 </tr>
 </table></span></div>
-<div class="alert"><b>Note</b>    This structure must eventually be freed by calling <a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a>.</div>
+<div class="alert"><b>Note</b>    This structure must eventually be freed by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff544590">ExFreePool</a>.</div>
 <div> </div>
 
 ## -returns
@@ -112,10 +101,10 @@ For more information about MS-DOS names, see the Files and I/O section of the Pl
 
 ## -see-also
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a>
  
 
  

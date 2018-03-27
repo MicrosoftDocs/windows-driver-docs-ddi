@@ -52,22 +52,6 @@ req.typenames: SRBEX_DATA_WMI, *PSRBEX_DATA_WMI
 The <b>SRBEX_DATA_WMI</b> structure contains the request data for an extended WMI SRB.
 <div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
-## -syntax
-
-
-````
-typedef struct _SRBEX_DATA_WMI {
-  SRBEXDATATYPE       Type;
-  ULONG               Length;
-  UCHAR               WMISubFunction;
-  UCHAR               WMIFlags;
-  UCHAR               Reserved[2];
-  ULONG               Reserved1;
-  PVOID POINTER_ALIGN DataPath;
-} SRBEX_DATA_WMI, *PSRBEX_DATA_WMI;
-````
-
-
 ## -struct-fields
 
 
@@ -90,7 +74,7 @@ Indicates the WMI action to be performed. The subfunction value corresponds to t
 
 ### -field WMIFlags
 
-Indicates that the WMI request is for the adapter if SRB_WMI_FLAGS_ADAPTER_REQUEST is set and that storage device address is reserved. Otherwise, <i>WMIFlags</i> will be <b>NULL</b>, indicating that the request is for the storage device specified by an address at <b>AddressOffset</b> in the <a href="..\storport\ns-storport-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a> structure.
+Indicates that the WMI request is for the adapter if SRB_WMI_FLAGS_ADAPTER_REQUEST is set and that storage device address is reserved. Otherwise, <i>WMIFlags</i> will be <b>NULL</b>, indicating that the request is for the storage device specified by an address at <b>AddressOffset</b> in the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451474">STORAGE_REQUEST_BLOCK</a> structure.
 
 
 ### -field Reserved
@@ -110,10 +94,10 @@ Specifies the WMI data path for this request.
 
 ## -see-also
 
-<a href="..\storport\ns-storport-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451474">STORAGE_REQUEST_BLOCK</a>
  
 
  

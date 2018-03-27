@@ -55,18 +55,6 @@ The
   previously returned NDIS_STATUS_PENDING.
 
 
-## -syntax
-
-
-````
-VOID NdisMResetComplete(
-  _In_ NDIS_HANDLE MiniportAdapterHandle,
-  _In_ NDIS_STATUS Status,
-  _In_ BOOLEAN     AddressingReset
-);
-````
-
-
 ## -parameters
 
 
@@ -111,7 +99,7 @@ For more information, see
 #### - MiniportAdapterHandle [in]
 
 The miniport adapter handle that NDIS originally passed to the 
-     <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a> function.
+     <a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a> function.
 
 
 #### - Status [in]
@@ -124,7 +112,7 @@ The final status of the reset operation just completed
 
 
 If the 
-    <a href="..\ndis\nc-ndis-miniport_reset.md">MiniportResetEx</a> function returns
+    <a href="https://msdn.microsoft.com/15f82163-a1b5-4cef-a53e-8a97adb2cd92">MiniportResetEx</a> function returns
     NDIS_STATUS_PENDING, the miniport driver must call 
     <b>NdisMResetComplete</b> when it completes the reset operation.
 
@@ -134,7 +122,7 @@ Some NICs lose all multicast address, packet filter, or functional address infor
     reset is issued. The driver of such a NIC sets 
     <i>AddressingReset</i> to <b>TRUE</b> when it calls 
     <b>NdisMResetComplete</b>, causing NDIS to call its 
-    <a href="..\ndis\nc-ndis-miniport_oid_request.md">MiniportOidRequest</a> function to
+    <a href="https://msdn.microsoft.com/733d84f5-c1d4-42a0-a59b-4ba50247f165">MiniportOidRequest</a> function to
     restore the addressing state. For more information, see 
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff546572">Hardware Reset</a>.
 
@@ -150,18 +138,18 @@ In NDIS 6.0 and later, callers of
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
 
 
-<a href="..\ndis\nc-ndis-miniport_oid_request.md">MiniportOidRequest</a>
+<a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a>
 
 
 
-<a href="..\ndis\nc-ndis-miniport_reset.md">MiniportResetEx</a>
+<a href="https://msdn.microsoft.com/733d84f5-c1d4-42a0-a59b-4ba50247f165">MiniportOidRequest</a>
 
 
 
+<a href="https://msdn.microsoft.com/15f82163-a1b5-4cef-a53e-8a97adb2cd92">MiniportResetEx</a>
  
 
  

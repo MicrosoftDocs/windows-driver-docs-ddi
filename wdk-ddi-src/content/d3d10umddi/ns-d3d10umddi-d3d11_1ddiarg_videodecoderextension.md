@@ -49,23 +49,7 @@ req.typenames: D3D11_1DDIARG_VIDEODECODEREXTENSION
 ## -description
 
 
-Specifies driver-specific data for the extended Microsoft DirectX Video Acceleration (DXVA) decoding function that is provided by a call to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_videodecoderextension.md">VideoDecoderExtension</a> function.
-
-
-## -syntax
-
-
-````
-typedef struct D3D11_1DDIARG_VIDEODECODEREXTENSION {
-  UINT               Function;
-  void               *pPrivateInputData;
-  UINT               PrivateInputDataSize;
-  void               *pPrivateOutputData;
-  UINT               PrivateOutputDataSize;
-  UINT               ResourceCount;
-  D3D10DDI_HRESOURCE *pResourceList;
-} D3D11_1DDIARG_VIDEODECODEREXTENSION;
-````
+Specifies driver-specific data for the extended Microsoft DirectX Video Acceleration (DXVA) decoding function that is provided by a call to the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451699">VideoDecoderExtension</a> function.
 
 
 ## -struct-fields
@@ -119,10 +103,10 @@ The exact meaning of each structure member depends on the value of <b>Function</
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_videodecoderextension.md">VideoDecoderExtension</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451699">VideoDecoderExtension</a>
  
 
  

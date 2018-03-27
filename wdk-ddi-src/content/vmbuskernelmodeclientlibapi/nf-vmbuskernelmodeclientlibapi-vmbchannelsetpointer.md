@@ -57,17 +57,6 @@ The <b>VmbChannelSetPointer</b> function saves an arbitrary pointer in a channel
 context.  
 
 
-## -syntax
-
-
-````
-VOID VmbChannelSetPointer(
-  _In_     VMBCHANNEL             Channel,
-  _In_opt_ __drv_aliasesMem PVOID Pointer
-);
-````
-
-
 ## -parameters
 
 
@@ -96,17 +85,17 @@ This function does not return a value.
 
 
 
-  This is intended to be a more efficient way for a client driver to retrieve client driver's context.  For more information, see the <a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbchannelgetpointer.md">VmbChannelGetPointer</a> function.
+  This is intended to be a more efficient way for a client driver to retrieve client driver's context.  For more information, see the <a href="https://msdn.microsoft.com/F3BEE6FB-51C5-4C3C-A831-3B7C06B3C14D">VmbChannelGetPointer</a> function.
 
 
 
 
 ## -see-also
 
-<a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbchannelgetpointer.md">VmbChannelGetPointer</a>
 
 
 
+<a href="https://msdn.microsoft.com/F3BEE6FB-51C5-4C3C-A831-3B7C06B3C14D">VmbChannelGetPointer</a>
  
 
  

@@ -55,16 +55,6 @@ req.typenames: D3DKMT_DRIVERVERSION
 The <b>D3DKMTCreateSynchronizationObject</b> function creates a kernel-mode synchronization object.
 
 
-## -syntax
-
-
-````
-NTSTATUS D3DKMTCreateSynchronizationObject(
-  _Inout_ D3DKMT_CREATESYNCHRONIZATIONOBJECT *pData
-);
-````
-
-
 ## -parameters
 
 
@@ -74,7 +64,7 @@ NTSTATUS D3DKMTCreateSynchronizationObject(
 
 #### - pData [in, out]
 
-A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_createsynchronizationobject.md">D3DKMT_CREATESYNCHRONIZATIONOBJECT</a> structure that describes a synchronization object.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff547849">D3DKMT_CREATESYNCHRONIZATIONOBJECT</a> structure that describes a synchronization object.
 
 
 ## -returns
@@ -129,7 +119,7 @@ Parameters were validated and determined to be incorrect.
 </td>
 <td width="60%">
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtcreatesynchronizationobject.md">D3DKMTCreateSynchronizationObject</a> could not complete because of insufficient memory.
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546869">D3DKMTCreateSynchronizationObject</a> could not complete because of insufficient memory.
 
 </td>
 </tr>
@@ -143,10 +133,10 @@ This function might also return other <b>NTSTATUS</b> values.
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_createsynchronizationobject.md">D3DKMT_CREATESYNCHRONIZATIONOBJECT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547849">D3DKMT_CREATESYNCHRONIZATIONOBJECT</a>
  
 
  

@@ -53,21 +53,6 @@ req.product: Windows 10 or later.
 The WDI_SCAN_TRIGGER enumeration defines the scan trigger values.
 
 
-## -syntax
-
-
-````
-typedef enum _WDI_SCAN_TRIGGER { 
-  WDI_SCAN_TRIGGER_MANUAL      = 1,
-  WDI_SCAN_TRIGGER_BACKGROUND  = 2,
-  WDI_SCAN_TRIGGER_ROAM        = 3,
-  WDI_SCAN_TRIGGER_CONNECT     = 4,
-  WDI_SCAN_TRIGGER_ANQP_QUERY  = 5,
-  WDI_SCAN_TRIGGER_FAST_ROAM   = 6
-} WDI_SCAN_TRIGGER;
-````
-
-
 ## -enum-fields
 
 

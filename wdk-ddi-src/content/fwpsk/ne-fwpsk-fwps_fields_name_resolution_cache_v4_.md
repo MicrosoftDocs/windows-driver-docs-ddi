@@ -54,20 +54,6 @@ The FWPS_FIELDS_NAME_RESOLUTION_CACHE_V4 enumeration type specifies the data fie
   <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa366492">run-time filtering layer</a>.
 
 
-## -syntax
-
-
-````
-typedef enum FWPS_FIELDS_NAME_RESOLUTION_CACHE_V4_ { 
-  FWPS_FIELD_NAME_RESOLUTION_CACHE_V4_ALE_USER_ID,
-  FWPS_FIELD_NAME_RESOLUTION_CACHE_V4_ALE_APP_ID,
-  FWPS_FIELD_NAME_RESOLUTION_CACHE_V4_IP_REMOTE_ADDRESS,
-  FWPS_FIELD_NAME_RESOLUTION_CACHE_V4_PEER_NAME,
-  FWPS_FIELD_NAME_RESOLUTION_CACHE_V4_MAX
-} FWPS_FIELDS_NAME_RESOLUTION_CACHE_V4;
-````
-
-
 ## -enum-fields
 
 

@@ -52,21 +52,6 @@ req.typenames: D3DKMT_OUTPUTDUPL_SNAPSHOT
 Provides information on the current processes in which output duplication is occurring.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DKMT_OUTPUTDUPL_SNAPSHOT {
-  UINT                          Size;
-  UINT                          SessionProcessCount;
-  UINT                          SessionActiveConnectionsCount;
-  UINT                          NumVidPnSources;
-  UINT                          NumOutputDuplContexts;
-  OUTPUTDUPL_CONTEXT_DEBUG_INFO OutputDuplDebugInfos[];
-} D3DKMT_OUTPUTDUPL_SNAPSHOT;
-````
-
-
 ## -struct-fields
 
 

@@ -49,19 +49,7 @@ req.typenames: D3DDDIARG_RECLAIMRESOURCES
 ## -description
 
 
-Describes video memory resources that are to be reclaimed and that the user-mode display driver  previously offered  for reuse. Used with the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_reclaimresources.md">ReclaimResources</a> function.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DDDIARG_RECLAIMRESOURCES {
-  HANDLE *pResources;
-  BOOL   *pDiscarded;
-  UINT   Resources;
-} D3DDDIARG_RECLAIMRESOURCES;
-````
+Describes video memory resources that are to be reclaimed and that the user-mode display driver  previously offered  for reuse. Used with the <a href="https://msdn.microsoft.com/F0533DBB-CB18-4556-9871-2DF4CA719172">ReclaimResources</a> function.
 
 
 ## -struct-fields
@@ -92,14 +80,14 @@ If <b>pDiscarded</b> is <b>NULL</b>, the driver can ignore it.
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_reclaimresources.md">ReclaimResources</a>
 
 
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createdevice.md">CreateDevice(D3D10)</a>
+<a href="https://msdn.microsoft.com/c69eedb1-c975-412c-aa9f-cf64a702f937">CreateDevice(D3D10)</a>
 
 
 
+<a href="https://msdn.microsoft.com/F0533DBB-CB18-4556-9871-2DF4CA719172">ReclaimResources</a>
  
 
  

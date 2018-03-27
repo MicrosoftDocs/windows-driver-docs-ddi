@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,17 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>ReadPointer</b> function reads a pointer from the target.
-
-
-## -syntax
-
-
-````
-__inline ULONG ReadPointer(
-   ULONG64  Address,
-   PULONG64 Pointer
-);
-````
 
 
 ## -parameters
@@ -100,10 +89,10 @@ If you are writing a WdbgExts extension, include <b>wdbgexts.h</b>. If you are w
 
 ## -see-also
 
-<a href="..\wdbgexts\nf-wdbgexts-writepointer.md">WritePointer</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561450">WritePointer</a>
  
 
  

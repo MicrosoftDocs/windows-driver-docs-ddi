@@ -52,16 +52,6 @@ req.typenames: TOKEN_TYPE
 The <b>MapSecurityError</b> function maps a security interface SECURITY_STATUS status code to a corresponding NSTATUS status code.
 
 
-## -syntax
-
-
-````
-NTSTATUS SEC_ENTRY MapSecurityError(
-  _In_ SECURITY_STATUS Error
-);
-````
-
-
 ## -parameters
 
 

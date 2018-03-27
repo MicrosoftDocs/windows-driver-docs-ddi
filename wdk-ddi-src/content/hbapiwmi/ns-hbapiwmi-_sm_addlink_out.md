@@ -52,16 +52,6 @@ req.typenames: SM_AddLink_OUT, *PSM_AddLink_OUT
 The SM_AddLink_OUT structure is used to receive output parameters from the SM_AddLink WMI method.
 
 
-## -syntax
-
-
-````
-typedef struct _SM_AddLink_OUT {
-  ULONG HBAStatus;
-} SM_AddLink_OUT, *PSM_AddLink_OUT;
-````
-
-
 ## -struct-fields
 
 

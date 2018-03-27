@@ -52,16 +52,6 @@ req.typenames: TOKEN_TYPE
 The <b>PsDereferencePrimaryToken</b> routine decrements the reference count of a primary token.
 
 
-## -syntax
-
-
-````
-VOID PsDereferencePrimaryToken(
-  _In_ PACCESS_TOKEN PrimaryToken
-);
-````
-
-
 ## -parameters
 
 
@@ -94,10 +84,10 @@ For more information about security and access control, see the documentation on
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-psdereferenceimpersonationtoken.md">PsDereferenceImpersonationToken</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551893">PsDereferenceImpersonationToken</a>
  
 
  

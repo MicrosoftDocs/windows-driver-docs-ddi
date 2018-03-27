@@ -53,22 +53,6 @@ req.product: Windows 10 or later.
 The client driver's implementation that completes all outstanding I/O requests on the endpoint.
 
 
-## -prototype
-
-
-````
-EVT_UCX_ENDPOINT_PURGE EvtUcxEndpointPurge;
-
-VOID EvtUcxEndpointPurge(
-  _In_ UCXCONTROLLER UcxController,
-  _In_ UCXENDPOINT   Endpoint
-)
-{ ... }
-
-typedef EVT_UCX_ENDPOINT_PURGE PEVT_UCX_ENDPOINT_PURGE;
-````
-
-
 ## -parameters
 
 
@@ -106,12 +90,12 @@ This callback function does not return a value.
 
 
 
-The UCX client driver registers this callback function with the USB host controller extension (UCX) by calling the <a href="..\ucxendpoint\nf-ucxendpoint-ucxendpointcreate.md">UcxEndpointCreate</a>
+The UCX client driver registers this callback function with the USB host controller extension (UCX) by calling the <a href="https://msdn.microsoft.com/library/windows/hardware/mt188039">UcxEndpointCreate</a>
  method.
 
-Typically, this function calls <a href="..\wdfio\nf-wdfio-wdfioqueuepurge.md">WdfIoQueuePurge</a>.
+Typically, this function calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff548442">WdfIoQueuePurge</a>.
 
-After UCX calls this function, the client driver fails subsequent I/O requests until UCX calls the client driver's <a href="..\ucxendpoint\nc-ucxendpoint-evt_ucx_endpoint_start.md">EVT_UCX_ENDPOINT_START</a> callback function.
+After UCX calls this function, the client driver fails subsequent I/O requests until UCX calls the client driver's <a href="https://msdn.microsoft.com/library/windows/hardware/mt187829">EVT_UCX_ENDPOINT_START</a> callback function.
 
 
 #### Examples
@@ -141,10 +125,10 @@ Endpoint_UcxEvtEndpointPurge(
 
 ## -see-also
 
-<a href="..\wdfio\nf-wdfio-wdfioqueuepurge.md">WdfIoQueuePurge</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548442">WdfIoQueuePurge</a>
  
 
  

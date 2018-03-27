@@ -52,20 +52,6 @@ req.typenames: RILCALLERIDSETTINGS, *LPRILCALLERIDSETTINGS
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef struct _RILCALLERIDSETTINGS {
-  DWORD                         cbSize;
-  DWORD                         dwParams;
-  DWORD                         dwExecutor;
-  RILSERVICESETTINGSSTATUS      dwStatus;
-  RILSERVICEPROVISIONINGSTATUS  dwProvisioning;
-} RILCALLERIDSETTINGS, RILCALLERIDSETTINGS;
-````
-
-
 ## -struct-fields
 
 

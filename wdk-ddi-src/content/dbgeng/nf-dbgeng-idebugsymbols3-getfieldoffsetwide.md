@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -50,19 +50,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>GetFieldOffsetWide</b>  method returns the offset of a field from the base address of an instance of a type.
-
-
-## -syntax
-
-
-````
-HRESULT GetFieldOffsetWide(
-  [in]  ULONG64 Module,
-  [in]  ULONG   TypeId,
-  [in]  PCWSTR  Field,
-  [out] PULONG  Offset
-);
-````
 
 
 ## -parameters

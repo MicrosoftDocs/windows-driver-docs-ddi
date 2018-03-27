@@ -57,17 +57,6 @@ The <b>VmbPacketSetPointer</b> function saves an arbitrary pointer in the packet
 context.  
 
 
-## -syntax
-
-
-````
-VOID VmbPacketSetPointer(
-  _In_     VMBPACKET PacketObject,
-  _In_opt_ PVOID     Pointer
-);
-````
-
-
 ## -parameters
 
 

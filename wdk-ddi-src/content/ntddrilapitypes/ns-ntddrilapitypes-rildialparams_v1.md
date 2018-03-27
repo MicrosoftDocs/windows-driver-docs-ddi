@@ -52,18 +52,6 @@ req.typenames: RILDIALPARAMS_V1, *LPRILDIALPARAMS_V1
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef struct _RILDIALPARAMS_V1 {
-  DWORD       dwExecutor;
-  RILADDRESS  raAddress;
-  DWORD       dwOptions;
-} RILDIALPARAMS_V1, RILDIALPARAMS_V1;
-````
-
-
 ## -struct-fields
 
 

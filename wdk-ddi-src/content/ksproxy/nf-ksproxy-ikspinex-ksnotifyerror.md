@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: ksproxy.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -50,17 +50,6 @@ req.typenames: PIPE_STATE
 
 
 The <b>KsNotifyError</b> method notifies the filter graph of an error to give the filter graph an opportunity to halt. 
-
-
-## -syntax
-
-
-````
-VOID KsNotifyError(
-  [in] IMediaSample *Sample,
-  [in] HRESULT      hr
-);
-````
 
 
 ## -parameters
@@ -100,10 +89,10 @@ For more information about <b>IMediaSample</b>, see the Microsoft Windows SDK do
 
 ## -see-also
 
-<a href="..\ksproxy\nn-ksproxy-ikspinex.md">IKsPinEx</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559902">IKsPinEx</a>
  
 
  

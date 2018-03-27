@@ -52,20 +52,6 @@ req.typenames: SendRPS_IN, *PSendRPS_IN
 The SendRPS_IN structure is used to deliver input parameter data to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565505">SendRPS</a> WMI method.
 
 
-## -syntax
-
-
-````
-typedef struct _SendRPS_IN {
-  UCHAR PortWWN[8];
-  UCHAR AgentWWN[8];
-  UCHAR ObjectWWN[8];
-  ULONG AgentDomain;
-  ULONG ObjectPortNumber;
-} SendRPS_IN, *PSendRPS_IN;
-````
-
-
 ## -struct-fields
 
 
@@ -107,10 +93,10 @@ The WMI tool suite generates a declaration of the SendRPS_IN structure in <i>Hba
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565505">SendRPS</a>
-
-
-
  
 
  

@@ -51,20 +51,8 @@ req.typenames: NDIS_CONFIGURATION_OBJECT, *PNDIS_CONFIGURATION_OBJECT
 
 The NDIS_CONFIGURATION_OBJECT structure defines the attributes of a configuration object that an NDIS
   driver can pass to the 
-  <a href="..\ndis\nf-ndis-ndisopenconfigurationex.md">
+  <a href="https://msdn.microsoft.com/76539106-6d8d-4a80-9c74-a6a4ca37c40e">
   NdisOpenConfigurationEx</a> function.
-
-
-## -syntax
-
-
-````
-typedef struct _NDIS_CONFIGURATION_OBJECT {
-  NDIS_OBJECT_HEADER Header;
-  NDIS_HANDLE        NdisHandle;
-  ULONG              Flags;
-} NDIS_CONFIGURATION_OBJECT, *PNDIS_CONFIGURATION_OBJECT;
-````
 
 
 ## -struct-fields
@@ -75,7 +63,7 @@ typedef struct _NDIS_CONFIGURATION_OBJECT {
 ### -field Header
 
 The 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure for the
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure for the
      NDIS_CONFIGURATION_OBJECT structure. Set the 
      <b>Type</b> member of the structure that 
      <b>Header</b> specifies to NDIS_OBJECT_TYPE_CONFIGURATION_OBJECT, the 
@@ -110,7 +98,7 @@ Set this flag if a monitoring filter driver must access the filter module config
 
 To configuration parameters in the registry, an NDIS driver can use the NDIS_CONFIGURATION_OBJECT
     structure to define a configuration object and then call the 
-    <a href="..\ndis\nf-ndis-ndisopenconfigurationex.md">NdisOpenConfigurationEx</a> function
+    <a href="https://msdn.microsoft.com/library/windows/hardware/hh975122">NdisOpenConfigurationEx</a> function
     to get a configuration handle.
 
 
@@ -118,14 +106,14 @@ To configuration parameters in the registry, an NDIS driver can use the NDIS_CON
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisopenconfigurationex.md">NdisOpenConfigurationEx</a>
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh975122">NdisOpenConfigurationEx</a>
  
 
  

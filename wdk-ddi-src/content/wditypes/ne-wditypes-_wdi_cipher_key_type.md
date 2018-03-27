@@ -53,18 +53,6 @@ req.product: Windows 10 or later.
 The WDI_CIPHER_KEY_TYPE enumeration defines the cipher key types.
 
 
-## -syntax
-
-
-````
-typedef enum _WDI_CIPHER_KEY_TYPE { 
-  WDI_CIPHER_KEY_TYPE_PAIRWISE_KEY  = 1,
-  WDI_CIPHER_KEY_TYPE_GROUP_KEY     = 2,
-  WDI_CIPHER_KEY_TYPE_IGTK          = 3
-} WDI_CIPHER_KEY_TYPE;
-````
-
-
 ## -enum-fields
 
 

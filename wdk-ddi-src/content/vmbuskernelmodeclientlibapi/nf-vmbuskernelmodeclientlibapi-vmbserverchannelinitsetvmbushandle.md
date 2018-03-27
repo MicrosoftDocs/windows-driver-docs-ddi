@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -55,17 +55,6 @@ req.product: Windows 10 or later.
 The <b>VmbServerChannelInitSetVmbusHandle</b> function associates an instance of VMBus with this channel.  
 
 
-## -syntax
-
-
-````
-NTSTATUS VmbServerChannelInitSetVmbusHandle(
-  _In_ VMBCHANNEL Channel,
-  _In_ HANDLE     VmbusHandle
-);
-````
-
-
 ## -parameters
 
 
@@ -88,7 +77,7 @@ A kernel mode handle to the VMBus vdev of the partition.
 The VMBus
 instance was previously initialized for the specific guest virtual machine. Therefore, invoking this function identifies the child virtual machine to which this channel is offered.
 
- Obtain a value for the <i>VmbusHandle</i> parameter by using the <a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbconvertvmbushandletokernelhandle.md">VmbConvertVmbusHandleToKernelHandle</a> function.
+ Obtain a value for the <i>VmbusHandle</i> parameter by using the <a href="https://msdn.microsoft.com/C549B9C7-221D-4DD8-9D8D-24BC729099C7">VmbConvertVmbusHandleToKernelHandle</a> function.
 
 
 This function can be called while running in any thread context.
@@ -98,10 +87,10 @@ This function can be called while running in any thread context.
 
 ## -see-also
 
-<a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbconvertvmbushandletokernelhandle.md">VmbConvertVmbusHandleToKernelHandle</a>
 
 
 
+<a href="https://msdn.microsoft.com/C549B9C7-221D-4DD8-9D8D-24BC729099C7">VmbConvertVmbusHandleToKernelHandle</a>
  
 
  

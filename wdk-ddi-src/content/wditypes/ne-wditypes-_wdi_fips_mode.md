@@ -54,18 +54,6 @@ The
   WDI_FIPS_MODE enumeration defines values that specify if FIPS mode is enabled or not.
 
 
-## -syntax
-
-
-````
-typedef enum _WDI_FIPS_MODE { 
-  WDI_FIPS_MODE_DISABLED  = 0,
-  WDI_FIPS_MODE_ENABLED   = 1,
-  WDI_FIPS_MODE_UNKNOWN   = 2
-} WDI_FIPS_MODE;
-````
-
-
 ## -enum-fields
 
 

@@ -52,22 +52,6 @@ req.typenames: WCS_PROFILE_MANAGEMENT_SCOPE
 <b>EVT_IDD_CX_MONITOR_OPM_GET_CERTIFICATE</b> is called by the OS to get an OPM certificate.
 
 
-## -prototype
-
-
-````
-EVT_IDD_CX_MONITOR_OPM_GET_CERTIFICATE EvtIddCxMonitorOpmGetCertificate;
-
-NTSTATUS EvtIddCxMonitorOpmGetCertificate(
-  _In_       IDDCX_ADAPTER                 AdapterObject,
-  _In_ const IDARG_IN_OPM_GET_CERTIFICATE* pInArgs
-)
-{ ... }
-
-typedef EVT_IDD_CX_MONITOR_OPM_GET_CERTIFICATE PFN_IDD_CX_MONITOR_OPM_GET_CERTIFICATE;
-````
-
-
 ## -parameters
 
 

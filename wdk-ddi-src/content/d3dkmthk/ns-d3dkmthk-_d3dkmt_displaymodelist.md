@@ -52,18 +52,6 @@ req.typenames: D3DKMT_DISPLAYMODELIST
 Describes a list of display modes.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DKMT_DISPLAYMODELIST {
-  D3DDDI_VIDEO_PRESENT_SOURCE_ID VidPnSourceId;
-  UINT                           ModeCount;
-  D3DKMT_DISPLAYMODE             pModeList[];
-} D3DKMT_DISPLAYMODELIST;
-````
-
-
 ## -struct-fields
 
 
@@ -81,5 +69,5 @@ typedef struct _D3DKMT_DISPLAYMODELIST {
 
 ### -field pModeList
 
-[out] An array of <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_displaymode.md">D3DKMT_DISPLAYMODE</a> structures that represent the list of display modes.
+[out] An array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff547942">D3DKMT_DISPLAYMODE</a> structures that represent the list of display modes.
 

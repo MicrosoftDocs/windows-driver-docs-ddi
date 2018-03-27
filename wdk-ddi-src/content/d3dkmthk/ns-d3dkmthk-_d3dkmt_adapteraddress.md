@@ -52,18 +52,6 @@ req.typenames: D3DKMT_ADAPTERADDRESS
 The D3DKMT_ADAPTERADDRESS structure describes the physical location of the graphics adapter. 
 
 
-## -syntax
-
-
-````
-typedef struct _D3DKMT_ADAPTERADDRESS {
-  UINT BusNumber;
-  UINT DeviceNumber;
-  UINT FunctionNumber;
-} D3DKMT_ADAPTERADDRESS;
-````
-
-
 ## -struct-fields
 
 
@@ -86,14 +74,14 @@ typedef struct _D3DKMT_ADAPTERADDRESS {
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_queryadapterinfo.md">D3DKMT_QUERYADAPTERINFO</a>
 
 
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtqueryadapterinfo.md">D3DKMTQueryAdapterInfo</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547100">D3DKMTQueryAdapterInfo</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548203">D3DKMT_QUERYADAPTERINFO</a>
  
 
  

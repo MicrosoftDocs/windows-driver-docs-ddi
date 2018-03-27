@@ -52,16 +52,6 @@ req.typenames: TOKEN_TYPE
 The <b>IoIsSystemThread</b> routine checks whether a given thread is a system thread. 
 
 
-## -syntax
-
-
-````
-BOOLEAN IoIsSystemThread(
-  _In_ PETHREAD Thread
-);
-````
-
-
 ## -parameters
 
 
@@ -92,14 +82,14 @@ For more information about using system threads and managing synchronization wit
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-psissystemthread.md">PsIsSystemThread</a>
 
 
 
-<a href="..\wdm\nf-wdm-psgetcurrentthread.md">PsGetCurrentThread</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559936">PsGetCurrentThread</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559945">PsIsSystemThread</a>
  
 
  

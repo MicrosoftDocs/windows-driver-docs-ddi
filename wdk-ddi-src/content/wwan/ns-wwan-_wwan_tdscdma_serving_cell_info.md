@@ -53,25 +53,6 @@ req.product: Windows 10 or later.
 The <b>WWAN_TDSCDMA_SERVING_CELL_INFO</b> structure represents information about the TDSCDMA serving cell.
 
 
-## -syntax
-
-
-````
-typedef struct _WWAN_TDSCDMA_SERVING_CELL_INFO {
-  ULONG ProviderIdOffset;
-  ULONG ProviderIdSize;
-  ULONG LocationAreaCode;
-  ULONG CellId;
-  ULONG UARFCN;
-  ULONG CellParameterID;
-  ULONG TimingAdvance;
-  ULONG RSCP;
-  ULONG PathLoss;
-  BYTE  Data[ANYSIZE_ARRAY];
-} WWAN_TDSCDMA_SERVING_CELL_INFO, *PWWAN_TDSCDMA_SERVING_CELL_INFO;
-````
-
-
 ## -struct-fields
 
 
@@ -141,7 +122,6 @@ The data buffer containing <i>ProviderId</i>.
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_tdscdma_mrl_info.md">WWAN_TDSCDMA_MRL_INFO</a>
 
 
 
@@ -149,14 +129,15 @@ The data buffer containing <i>ProviderId</i>.
 
 
 
-<a href="..\wwan\ns-wwan-_wwan_tdscdma_mrl.md">WWAN_TDSCDMA_MRL</a>
+<a href="https://msdn.microsoft.com/66460B28-C2B4-4F05-A133-31A753AF9489">WWAN_BASE_STATIONS_INFO</a>
 
 
 
-<a href="..\wwan\ns-wwan-_wwan_base_stations_info.md">WWAN_BASE_STATIONS_INFO</a>
+<a href="https://msdn.microsoft.com/D919EF5E-502C-4983-AFC5-F3F6E6CC8C3B">WWAN_TDSCDMA_MRL</a>
 
 
 
+<a href="https://msdn.microsoft.com/4EA0AE24-E4B0-49E0-8C50-44F6890C5C52">WWAN_TDSCDMA_MRL_INFO</a>
  
 
  

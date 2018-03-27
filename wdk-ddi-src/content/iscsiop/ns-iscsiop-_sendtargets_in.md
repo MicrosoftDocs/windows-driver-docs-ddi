@@ -52,17 +52,6 @@ req.typenames: SendTargets_IN, *PSendTargets_IN
 The SendTargets_IN structure holds the input data for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565526">SendTargets</a> method.
 
 
-## -syntax
-
-
-````
-typedef struct _SendTargets_IN {
-  ULONGLONG UniqueSessionId;
-  WCHAR     SendTargetsText[223 + 1];
-} SendTargets_IN, *PSendTargets_IN;
-````
-
-
 ## -struct-fields
 
 
@@ -89,7 +78,6 @@ You must implement this method.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565526">SendTargets</a>
 
 
 
@@ -101,10 +89,11 @@ You must implement this method.
 
 
 
-<a href="..\iscsiop\ns-iscsiop-_sendtargets_out.md">SendTargets_OUT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565526">SendTargets</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565540">SendTargets_OUT</a>
  
 
  

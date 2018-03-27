@@ -53,18 +53,6 @@ req.typenames: TOKEN_TYPE
 The <b>RtlInitializeSid</b> routine initializes a security identifier (SID) structure. 
 
 
-## -syntax
-
-
-````
-NTSTATUS RtlInitializeSid(
-  _Out_ PSID                      Sid,
-  _In_  PSID_IDENTIFIER_AUTHORITY IdentifierAuthority,
-  _In_  UCHAR                     SubAuthorityCount
-);
-````
-
-
 ## -parameters
 
 
@@ -137,18 +125,18 @@ For more information about security and access control, see the documentation on
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-rtlsubauthoritysid.md">RtlSubAuthoritySid</a>
 
 
 
-<a href="..\ntifs\ns-ntifs-_sid_identifier_authority.md">SID_IDENTIFIER_AUTHORITY</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553236">RtlSubAuthoritySid</a>
 
 
 
-<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556740">SID</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556743">SID_IDENTIFIER_AUTHORITY</a>
  
 
  

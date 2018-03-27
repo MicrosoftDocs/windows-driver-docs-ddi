@@ -52,16 +52,6 @@ req.typenames: EXpsFontRestriction
 The <b>FltGetRoutineAddress</b> routine returns a pointer to a routine specified by the <i>FltMgrRoutineName</i> parameter. 
 
 
-## -syntax
-
-
-````
-PVOID FltGetRoutineAddress(
-  _In_ PCSTR FltMgrRoutineName
-);
-````
-
-
 ## -parameters
 
 
@@ -87,7 +77,7 @@ If the routine name can be resolved, <b>FltGetRoutineAddress</b> returns a point
 
 <b>FltGetRoutineAddress</b> searches the filter manager's export table for the requested routine name. 
 
-To get the addresses of other routines that are exported by the kernel or hardware abstraction layer (HAL), use <a href="..\wdm\nf-wdm-mmgetsystemroutineaddress.md">MmGetSystemRoutineAddress</a>. 
+To get the addresses of other routines that are exported by the kernel or hardware abstraction layer (HAL), use <a href="https://msdn.microsoft.com/library/windows/hardware/ff554563">MmGetSystemRoutineAddress</a>. 
 
 Note that in Windows 2000 and Windows XP, before FltGetRoutineAddress is called at least one minifilter on the system must call FltRegisterFilter. The call to FltRegisterFilter is necessary to initialize global data structures.
 
@@ -96,10 +86,10 @@ Note that in Windows 2000 and Windows XP, before FltGetRoutineAddress is called 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-mmgetsystemroutineaddress.md">MmGetSystemRoutineAddress</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554563">MmGetSystemRoutineAddress</a>
  
 
  

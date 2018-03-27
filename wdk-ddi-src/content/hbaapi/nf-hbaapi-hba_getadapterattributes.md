@@ -52,17 +52,6 @@ req.typenames: HBA_WWNTYPE
 The <b>HBA_GetAdapterAttributes</b> routine retrieves the attributes for an HBA. 
 
 
-## -syntax
-
-
-````
-HBA_STATUS HBA_API HBA_GetAdapterAttributes(
-  _In_  HBA_HANDLE            HbaHandle,
-  _Out_ HBA_ADAPTERATTRIBUTES *HbaAdapterAttributes
-);
-````
-
-
 ## -parameters
 
 
@@ -82,12 +71,12 @@ TBD
 
 #### - HbaAdapterAttributes [out]
 
-Contains, on return, a structure of type <a href="..\hbaapi\ns-hbaapi-hba_adapterattributes.md">HBA_AdapterAttributes</a> that holds the HBA attributes. 
+Contains, on return, a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff556044">HBA_AdapterAttributes</a> that holds the HBA attributes. 
 
 
 #### - HbaHandle [in]
 
-Contains a value returned by the routine <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a> that identifies the HBA on which the port is located.  
+Contains a value returned by the routine <a href="https://msdn.microsoft.com/library/windows/hardware/ff557097">HBA_OpenAdapter</a> that identifies the HBA on which the port is located.  
 
 
 ## -returns
@@ -101,14 +90,14 @@ The <b>HBA_GetAdapterAttributes</b> routine returns a value of type <a href="htt
 
 ## -see-also
 
-<a href="..\hbaapi\ns-hbaapi-hba_adapterattributes.md">HBA_AdapterAttributes</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556044">HBA_AdapterAttributes</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
-
-
-
  
 
  

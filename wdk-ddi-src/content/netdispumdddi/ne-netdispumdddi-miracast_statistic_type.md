@@ -52,19 +52,6 @@ req.typenames: MIRACAST_STATISTIC_TYPE
 Specifies  types of Miracast statistics data that the user-mode display driver generates.
 
 
-## -syntax
-
-
-````
-typedef enum  { 
-  MIRACAST_STATISTIC_TYPE_CHUNK_PROCESSING_COMPLETE  = 0,
-  MIRACAST_STATISTIC_TYPE_CHUNK_SENT                 = 1,
-  MIRACAST_STATISTIC_TYPE_EVENT                      = 2,
-  MIRACAST_STATISTIC_TYPE_FORCE_UINT32               = 0xffffffff
-} MIRACAST_STATISTIC_TYPE;
-````
-
-
 ## -enum-fields
 
 
@@ -94,17 +81,17 @@ Forces this enumeration to compile to 32 bits in size. Without this value, some 
 
 
 
-For more info on how the driver uses these enumeration values with reporting calls to the <a href="..\netdispumdddi\nc-netdispumdddi-pfn_report_statistic.md">ReportStatistic</a> callback function, see <a href="https://msdn.microsoft.com/E1CE637F-42ED-4BEB-A2FF-04B4B88469DC">Reporting Miracast encode chunks and statistics</a>.
+For more info on how the driver uses these enumeration values with reporting calls to the <a href="https://msdn.microsoft.com/13e1afa2-5552-468f-ac6b-3458dedd9b76">ReportStatistic</a> callback function, see <a href="https://msdn.microsoft.com/E1CE637F-42ED-4BEB-A2FF-04B4B88469DC">Reporting Miracast encode chunks and statistics</a>.
 
 
 
 
 ## -see-also
 
-<a href="..\netdispumdddi\nc-netdispumdddi-pfn_report_statistic.md">ReportStatistic</a>
 
 
 
+<a href="https://msdn.microsoft.com/13e1afa2-5552-468f-ac6b-3458dedd9b76">ReportStatistic</a>
  
 
  

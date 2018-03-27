@@ -52,18 +52,6 @@ req.typenames: D3DKMT_SEGMENTSIZEINFO
 The D3DKMT_SEGMENTSIZEINFO structure describes the size, in bytes, of memory and aperture segments.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DKMT_SEGMENTSIZEINFO {
-  ULONGLONG DedicatedVideoMemorySize;
-  ULONGLONG DedicatedSystemMemorySize;
-  ULONGLONG SharedSystemMemorySize;
-} D3DKMT_SEGMENTSIZEINFO;
-````
-
-
 ## -struct-fields
 
 
@@ -86,14 +74,14 @@ typedef struct _D3DKMT_SEGMENTSIZEINFO {
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_queryadapterinfo.md">D3DKMT_QUERYADAPTERINFO</a>
 
 
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtqueryadapterinfo.md">D3DKMTQueryAdapterInfo</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547100">D3DKMTQueryAdapterInfo</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548203">D3DKMT_QUERYADAPTERINFO</a>
  
 
  

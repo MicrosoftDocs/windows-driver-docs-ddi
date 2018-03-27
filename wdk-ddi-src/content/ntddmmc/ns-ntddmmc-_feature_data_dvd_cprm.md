@@ -52,18 +52,6 @@ req.typenames: FEATURE_DATA_DVD_CPRM, *PFEATURE_DATA_DVD_CPRM
 The FEATURE_DATA_DVD_CPRM structure holds information about the DVD Content Protection for Recorded Media (CPRM) feature. 
 
 
-## -syntax
-
-
-````
-typedef struct _FEATURE_DATA_DVD_CPRM {
-  FEATURE_HEADER Header;
-  UCHAR          Reserved0[3];
-  UCHAR          CPRMVersion;
-} FEATURE_DATA_DVD_CPRM, *PFEATURE_DATA_DVD_CPRM;
-````
-
-
 ## -struct-fields
 
 
@@ -71,7 +59,7 @@ typedef struct _FEATURE_DATA_DVD_CPRM {
 
 ### -field Header
 
-Contains a <a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a> structure with header information for this feature descriptor. 
+Contains a <a href="https://msdn.microsoft.com/library/windows/hardware/ff553848">FEATURE_HEADER</a> structure with header information for this feature descriptor. 
 
 
 ### -field Reserved0
@@ -95,14 +83,14 @@ This structure holds data for the feature named "DVD CPRM" by the <i>SCSI Multim
 
 ## -see-also
 
-<a href="..\ntddmmc\ne-ntddmmc-_feature_number.md">FEATURE_NUMBER</a>
 
 
 
-<a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553848">FEATURE_HEADER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553850">FEATURE_NUMBER</a>
  
 
  

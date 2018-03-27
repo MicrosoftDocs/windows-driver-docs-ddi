@@ -52,22 +52,6 @@ req.typenames: D3DDDI_GAMMARAMP_TYPE
 The D3DDDI_GAMMARAMP_TYPE enumeration indicates the type of gamma ramp used in a video present path.
 
 
-## -syntax
-
-
-````
-typedef enum _D3DDDI_GAMMARAMP_TYPE { 
-  D3DDDI_GAMMARAMP_UNINITIALIZED  = 0,
-  D3DDDI_GAMMARAMP_DEFAULT        = 1,
-  D3DDDI_GAMMARAMP_RGB256x3x16    = 2,
-  D3DDDI_GAMMARAMP_DXGI_1         = 3,
-#if DXGKDDI_INTERFACE_VERSION >= DXGKDDI_INTERFACE_VERSION_WDDM2_3
-  D3DDDI_GAMMARAMP_MATRIX_3x4     = 4
-
-#endif } D3DDDI_GAMMARAMP_TYPE;
-````
-
-
 ## -enum-fields
 
 
@@ -90,7 +74,7 @@ Indicates that the gamma lookup table contains three arrays, one each for the re
 
 ### -field D3DDDI_GAMMARAMP_DXGI_1
 
-Indicates that the gamma lookup table is described by a <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_gamma_ramp_dxgi_1.md">D3DDDI_GAMMA_RAMP_DXGI_1</a> structure. 
+Indicates that the gamma lookup table is described by a <a href="https://msdn.microsoft.com/library/windows/hardware/ff544568">D3DDDI_GAMMA_RAMP_DXGI_1</a> structure. 
 
 
 ### -field D3DDDI_GAMMARAMP_MATRIX_3x4
@@ -102,17 +86,17 @@ Indicates that the colorspace transform is defined by a D3DDDI_3X4_COLORSPACE_TR
 
 
 
-The <b>GammaRamp</b> member of the <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_vidpn_present_path.md">D3DKMDT_VIDPN_PRESENT_PATH</a> structure is a <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_gamma_ramp.md">D3DKMDT_GAMMA_RAMP</a> structure. The <b>Type</b> member of the D3DKMDT_GAMMA_RAMP structure is a D3DDDI_GAMMARAMP_TYPE value.
+The <b>GammaRamp</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff546647">D3DKMDT_VIDPN_PRESENT_PATH</a> structure is a <a href="https://msdn.microsoft.com/library/windows/hardware/ff546014">D3DKMDT_GAMMA_RAMP</a> structure. The <b>Type</b> member of the D3DKMDT_GAMMA_RAMP structure is a D3DDDI_GAMMARAMP_TYPE value.
 
 
 
 
 ## -see-also
 
-<a href="..\d3dkmdt\ne-d3dkmdt-_d3dkmdt_color_basis.md">D3DKMDT_COLOR_BASIS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545984">D3DKMDT_COLOR_BASIS</a>
  
 
  

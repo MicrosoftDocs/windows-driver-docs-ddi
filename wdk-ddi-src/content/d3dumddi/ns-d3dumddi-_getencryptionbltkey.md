@@ -49,19 +49,7 @@ req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ## -description
 
 
-The _GETENCRYPTIONBLTKEY structure describes an encrypted bit-block transfer (bitblt) session for which the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getencryptionbltkey.md">GetEncryptionBltKey</a> function retrieves the encryption key. 
-
-
-## -syntax
-
-
-````
-typedef struct _GETENCRYPTIONBLTKEY {
-  HANDLE hCryptoSession;
-  VOID   *pReadBackKey;
-  UINT   KeySize;
-} D3DDDIARG_GETENCRYPTIONBLTKEY;
-````
+The _GETENCRYPTIONBLTKEY structure describes an encrypted bit-block transfer (bitblt) session for which the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451660">GetEncryptionBltKey</a> function retrieves the encryption key. 
 
 
 ## -struct-fields
@@ -71,7 +59,7 @@ typedef struct _GETENCRYPTIONBLTKEY {
 
 ### -field hCryptoSession
 
-[in] A handle to the encryption session that is created in a call to the driver's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createcryptosession.md">CreateCryptoSession</a> function. 
+[in] A handle to the encryption session that is created in a call to the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/hh451619">CreateCryptoSession</a> function. 
 
 
 ### -field pReadBackKey
@@ -86,14 +74,14 @@ typedef struct _GETENCRYPTIONBLTKEY {
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getencryptionbltkey.md">GetEncryptionBltKey</a>
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createcryptosession.md">CreateCryptoSession</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451619">CreateCryptoSession</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451660">GetEncryptionBltKey</a>
  
 
  

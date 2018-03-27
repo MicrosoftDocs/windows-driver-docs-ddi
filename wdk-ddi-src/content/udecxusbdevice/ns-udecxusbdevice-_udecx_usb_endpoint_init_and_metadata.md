@@ -53,19 +53,6 @@ req.product: Windows 10 or later.
 Contains the descriptors supported by an endpoint of a virtual USB device.
 
 
-## -syntax
-
-
-````
-typedef struct _UDECX_USB_ENDPOINT_INIT_AND_METADATA {
-  PUDECXUSBENDPOINT_INIT                                                                UdecxUsbEndpointInit;
-   _Field_range_(sizeof(USB_ENDPOINT_DESCRIPTOR), 0xff) ULONG                           EndpointDescriptorBufferLength;
-  _Notnull_ _Field_size_bytes_(EndpointDescriptorBufferLength) PUSB_ENDPOINT_DESCRIPTOR EndpointDescriptor;
-  _Maybenull_ PUSB_SUPERSPEED_ENDPOINT_COMPANION_DESCRIPTOR                             SuperSpeedEndpointCompanionDescriptor;
-} UDECX_USB_ENDPOINT_INIT_AND_METADATA, *PUDECX_USB_ENDPOINT_INIT_AND_METADATA;
-````
-
-
 ## -struct-fields
 
 
@@ -73,7 +60,7 @@ typedef struct _UDECX_USB_ENDPOINT_INIT_AND_METADATA {
 
 ### -field UdecxUsbEndpointInit
 
-A pointer to a <b>UDECXUSBDEVICE_INIT</b> structure that contains initialization parameters for the virtual USB device. The client driver retrieved this pointer in the previous call to <a href="..\udecxusbdevice\nf-udecxusbdevice-udecxusbdeviceinitallocate.md">UdecxUsbDeviceInitAllocate</a>.
+A pointer to a <b>UDECXUSBDEVICE_INIT</b> structure that contains initialization parameters for the virtual USB device. The client driver retrieved this pointer in the previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/mt627968">UdecxUsbDeviceInitAllocate</a>.
 
 
 ### -field EndpointDescriptorBufferLength
@@ -83,20 +70,20 @@ The length of the endpoint descriptor.
 
 ### -field EndpointDescriptor
 
-Required. A buffer containing the endpoint descriptor. The descriptor is described in a <a href="..\usbspec\ns-usbspec-_usb_endpoint_descriptor.md">USB_ENDPOINT_DESCRIPTOR</a> structure.
+Required. A buffer containing the endpoint descriptor. The descriptor is described in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff539317">USB_ENDPOINT_DESCRIPTOR</a> structure.
 
 
 ### -field SuperSpeedEndpointCompanionDescriptor
 
-Optional. A USB-defined SuperSpeed Endpoint Companion descriptor. For more information, see section 9.6.7 and Table 9-20 in the official USB 3.0 specification. The descriptor is described in a <a href="..\usbspec\ns-usbspec-_usb_superspeed_endpoint_companion_descriptor.md">USB_SUPERSPEED_ENDPOINT_COMPANION_DESCRIPTOR</a> structure.
+Optional. A USB-defined SuperSpeed Endpoint Companion descriptor. For more information, see section 9.6.7 and Table 9-20 in the official USB 3.0 specification. The descriptor is described in a <a href="https://msdn.microsoft.com/library/windows/hardware/hh406269">USB_SUPERSPEED_ENDPOINT_COMPANION_DESCRIPTOR</a> structure.
 
 
 ## -see-also
 
-<a href="..\udecxusbdevice\nc-udecxusbdevice-evt_udecx_usb_device_endpoint_add.md">EVT_UDECX_USB_DEVICE_ENDPOINT_ADD</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt595914">EVT_UDECX_USB_DEVICE_ENDPOINT_ADD</a>
  
 
  

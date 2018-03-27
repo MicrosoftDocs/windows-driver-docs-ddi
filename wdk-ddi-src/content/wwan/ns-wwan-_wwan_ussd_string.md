@@ -53,18 +53,6 @@ req.product: Windows 10 or later.
 The WWAN_USSD_STRING structure describes an Unstructured Supplementary Service Data (USSD) string.
 
 
-## -syntax
-
-
-````
-typedef struct _WWAN_USSD_STRING {
-  BYTE DataCodingScheme;
-  BYTE StringLength;
-  BYTE String[WWAN_USSD_STRING_LEN_MAX];
-} WWAN_USSD_STRING, *PWWAN_USSD_STRING;
-````
-
-
 ## -struct-fields
 
 
@@ -109,14 +97,14 @@ For USSD notifications, the miniport driver or MB device must encode the USSD st
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_ussd_event.md">WWAN_USSD_EVENT</a>
 
 
 
-<a href="..\wwan\ns-wwan-_wwan_ussd_request.md">WWAN_USSD_REQUEST</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh464136">WWAN_USSD_EVENT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh464138">WWAN_USSD_REQUEST</a>
  
 
  

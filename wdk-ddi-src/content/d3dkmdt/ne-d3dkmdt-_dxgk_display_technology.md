@@ -52,19 +52,6 @@ req.typenames: DXGK_DISPLAY_TECHNOLOGY, *PDXGK_DISPLAY_TECHNOLOGY
 Enum used to specify the display technology being used.
 
 
-## -syntax
-
-
-````
-typedef enum _DXGK_DISPLAY_TECHNOLOGY { 
-  DXGK_DT_INVALID  = 0,
-  DXGK_DT_OTHER,
-  DXGK_DT_LCD,
-  DXGK_DT_OLED
-} DXGK_DISPLAY_TECHNOLOGY, *PDXGK_DISPLAY_TECHNOLOGY ;
-````
-
-
 ## -enum-fields
 
 

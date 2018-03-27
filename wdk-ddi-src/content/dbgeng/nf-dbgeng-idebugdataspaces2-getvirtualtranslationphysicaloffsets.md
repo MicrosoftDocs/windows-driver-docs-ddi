@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -52,19 +52,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>GetVirtualTranslationPhysicalOffsets</b> method returns the physical addresses of the system paging structures at different levels of the paging hierarchy.
-
-
-## -syntax
-
-
-````
-HRESULT GetVirtualTranslationPhysicalOffsets(
-  [in]            ULONG64  Virtual,
-  [out, optional] PULONG64 Offsets,
-  [in]            ULONG    OffsetsSize,
-  [out, optional] PULONG   Levels
-);
-````
 
 
 ## -parameters

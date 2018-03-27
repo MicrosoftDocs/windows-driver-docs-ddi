@@ -53,23 +53,6 @@ req.typenames: TOKEN_TYPE
 The <b>FsRtlIssueDeviceIoControl</b> routine sends a synchronous device I/O control request to a target device object.
 
 
-## -syntax
-
-
-````
-NTSTATUS FsRtlIssueDeviceIoControl(
-  _In_      PDEVICE_OBJECT DeviceObject,
-  _In_      ULONG          IoCtl,
-  _In_      ULONG          IrpFlags,
-  _In_opt_  ULONG          InputBuffer,
-  _In_      ULONG          InputBufferLength,
-  _Out_opt_ ULONG          OutputBuffer,
-  _In_      ULONG          OutputBufferLength,
-  _In_      PULONG_PTR     IosbInformation
-);
-````
-
-
 ## -parameters
 
 
@@ -131,10 +114,10 @@ The desired IRP flags to set for IOCTL request.
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltdeviceiocontrolfile.md">FltDeviceIoControlFile</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542046">FltDeviceIoControlFile</a>
  
 
  

@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,17 +51,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>ReadImageNtHeaders</b> method returns the NT headers for the specified image loaded in the target.
-
-
-## -syntax
-
-
-````
-HRESULT ReadImageNtHeaders(
-  [in]  ULONG64             ImageBase,
-  [out] PIMAGE_NT_HEADERS64 Headers
-);
-````
 
 
 ## -parameters

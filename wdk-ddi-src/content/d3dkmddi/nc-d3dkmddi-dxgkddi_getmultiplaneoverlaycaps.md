@@ -52,17 +52,6 @@ req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
 Called to retrieve multiplane overlay capabilities. Support for this DDI is required for any WDDM 2.2 driver that wants to support multiple planes. 
 
 
-## -prototype
-
-
-````
-NTSTATUS APIENTRY DXGKDDI_GETMULTIPLANEOVERLAYCAPS(
-  _In_ const HANDLE                            hAdapter,
-  _In_ const PDXGKARG_GETMULTIPLANEOVERLAYCAPS pGetMultiPlaneOverlayCaps
-);
-````
-
-
 ## -parameters
 
 

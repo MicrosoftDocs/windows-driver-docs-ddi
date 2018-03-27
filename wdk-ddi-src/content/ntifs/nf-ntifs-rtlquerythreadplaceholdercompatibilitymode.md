@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -50,16 +50,6 @@ req.typenames: TOKEN_TYPE
 
 
 <b>RtlQueryThreadPlaceholderCompatibilityMode</b> is a routine which returns the placeholder compatibility mode for the current thread.
-
-
-## -syntax
-
-
-````
-CHAR RtlQueryThreadPlaceholderCompatibilityMode(
-   VOID 
-);
-````
 
 
 ## -parameters
@@ -112,10 +102,10 @@ Returns the thread's placeholder compatibility mode. If there was an error it re
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-rtlsetthreadplaceholdercompatibilitymode.md">RtlSetThreadPlaceholderCompatibilityMode</a>
 
 
 
+<a href="https://msdn.microsoft.com/0EA209B7-20B9-418F-AD29-83520ED27DAB">RtlSetThreadPlaceholderCompatibilityMode</a>
  
 
  

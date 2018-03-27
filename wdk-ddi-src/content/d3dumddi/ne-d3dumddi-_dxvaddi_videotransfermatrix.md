@@ -52,20 +52,6 @@ req.typenames: DXVADDI_VIDEOTRANSFERMATRIX
 The DXVADDI_VIDEOTRANSFERMATRIX enumeration type contains values that identify the conversion matrix from Y'Cb'Cr' to (studio) R'G'B'.
 
 
-## -syntax
-
-
-````
-typedef enum _DXVADDI_VIDEOTRANSFERMATRIX { 
-  DXVADDI_VideoTransferMatrixMask        = 0x07,
-  DXVADDI_VideoTransferMatrix_Unknown    = 0,
-  DXVADDI_VideoTransferMatrix_BT709      = 1,
-  DXVADDI_VideoTransferMatrix_BT601      = 2,
-  DXVADDI_VideoTransferMatrix_SMPTE240M  = 3
-} DXVADDI_VIDEOTRANSFERMATRIX;
-````
-
-
 ## -enum-fields
 
 
@@ -100,17 +86,17 @@ Specifies a HD video standard that is rarely used in Japan.
 
 
 
-One of the values of DXVADDI_VIDEOTRANSFERMATRIX can be specified in the <b>VideoTransferMatrix</b> member of the <a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_extendedformat.md">DXVADDI_EXTENDEDFORMAT</a> structure.
+One of the values of DXVADDI_VIDEOTRANSFERMATRIX can be specified in the <b>VideoTransferMatrix</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562904">DXVADDI_EXTENDEDFORMAT</a> structure.
 
 
 
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_extendedformat.md">DXVADDI_EXTENDEDFORMAT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562904">DXVADDI_EXTENDEDFORMAT</a>
  
 
  

@@ -53,22 +53,6 @@ req.product: Windows 10 or later.
 The <i>HwVidBugcheckCallback</i> function enables the miniport driver to append data to a dump file when a bug check occurs.
 
 
-## -prototype
-
-
-````
-PVIDEO_BUGCHECK_CALLBACK HwVidBugcheckCallback;
-
-VOID HwVidBugcheckCallback(
-  _In_ PVOID  HwDeviceExtension,
-  _In_ ULONG  BugcheckCode,
-  _In_ PUCHAR Buffer,
-  _In_ ULONG  BufferSize
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -111,7 +95,7 @@ This function is available in Windows XP SP1 and later.
 
 This function is called when a bug check occurs. The miniport driver can collect data that is to be appended to the dump file and write this data to the buffer. The driver must not write more than <i>BufferSize</i> bytes to the buffer.
 
-A video miniport driver registers the <i>HwVidBugcheckCallback</i> function by calling the <a href="..\video\nf-video-videoportregisterbugcheckcallback.md">VideoPortRegisterBugcheckCallback</a> function. The <b>VideoPortRegisterBugcheckCallback</b> function exposes this video miniport driver-supplied callback to the system.
+A video miniport driver registers the <i>HwVidBugcheckCallback</i> function by calling the <a href="https://msdn.microsoft.com/library/windows/hardware/ff570353">VideoPortRegisterBugcheckCallback</a> function. The <b>VideoPortRegisterBugcheckCallback</b> function exposes this video miniport driver-supplied callback to the system.
 
 To facilitate system recovery after a bug check, any registers that are accessed by this function must not impede the ability of the hardware to transfer to fallback mode, regardless of the state of the device. Also, the function <i>must</i> return control to its caller.
 
@@ -124,10 +108,10 @@ The function is called at raised IRQL and must not attempt to access pageable co
 
 ## -see-also
 
-<a href="..\video\nf-video-videoportregisterbugcheckcallback.md">VideoPortRegisterBugcheckCallback</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570353">VideoPortRegisterBugcheckCallback</a>
  
 
  

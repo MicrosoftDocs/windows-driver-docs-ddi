@@ -52,16 +52,6 @@ req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
 Used to destroy a periodic frame notification.
 
 
-## -prototype
-
-
-````
-NTSTATUS APIENTRY DXGKDDI_DESTROYPERIODICFRAMENOTIFICATION(
-  _In_ const PDXGKARG_DESTROYPERIODICFRAMENOTIFICATION pDestroyPeriodicFrameNotification
-);
-````
-
-
 ## -parameters
 
 

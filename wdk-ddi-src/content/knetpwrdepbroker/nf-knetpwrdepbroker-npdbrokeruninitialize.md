@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
@@ -50,16 +50,6 @@ req.typenames: SOUNDDETECTOR_PATTERNHEADER
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-NTSTATUS NpdBrokerUninitialize(
-  _In_ HANDLE hBroker
-);
-````
 
 
 ## -parameters

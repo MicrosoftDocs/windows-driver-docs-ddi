@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: filterpipeline.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -50,16 +50,6 @@ req.typenames: EXpsFontRestriction
 
 
 The <b>GetImageProperties</b> method gets an image property that is based on the content type.
-
-
-## -syntax
-
-
-````
-HRESULT GetImageProperties(
-  [out] BSTR *pContentType
-);
-````
 
 
 ## -parameters

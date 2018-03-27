@@ -21,10 +21,10 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: WDTFSystemAction.idl
 req.max-support: 
-req.namespace: 
-req.assembly: 
+req.namespace: Microsoft.WDTF
+req.assembly: WDTFSystemAction.Interop.dll
 req.type-library: 
 req.lib: 
 req.dll: 
@@ -51,17 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>WIA_PATCH_CODE_INFO</b> structure stores information for one decoded patch code.
-
-
-## -syntax
-
-
-````
-typedef struct _WIA_PATCH_CODE_INFO {
-  DWORD Type;
-  DWORD Page;
-} WIA_PATCH_CODE_INFO;
-````
 
 
 ## -struct-fields

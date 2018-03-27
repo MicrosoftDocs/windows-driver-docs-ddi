@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 Stores the isochronous transfer path delay values. 
 
 
-## -syntax
-
-
-````
-typedef struct _UCX_USBDEVICE_CHARACTERISTIC_PATH_DELAY {
-  ULONG MaximumSendPathDelayInMilliSeconds;
-  ULONG MaximumCompletionPathDelayInMilliSeconds;
-} UCX_USBDEVICE_CHARACTERISTIC_PATH_DELAY, *PUCX_USBDEVICE_CHARACTERISTIC_PATH_DELAY;
-````
-
-
 ## -struct-fields
 
 
@@ -82,10 +71,10 @@ The maximum delay in milliseconds from the time an isochronous transfer is compl
 
 ## -see-also
 
-<a href="..\ucxusbdevice\nc-ucxusbdevice-evt_ucx_usbdevice_get_characteristic.md">EVT_UCX_USBDEVICE_GET_CHARACTERISTIC</a>
 
 
 
+<a href="https://msdn.microsoft.com/EE8568F6-3D88-477E-9F0D-044D014EBCF3">EVT_UCX_USBDEVICE_GET_CHARACTERISTIC</a>
  
 
  

@@ -52,17 +52,6 @@ req.typenames: RILUICCATRINFO, *LPRILUICCATRINFO
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef struct _RILUICCATRINFO {
-  DWORD     dwATRlength;
-  BYTE [36] bATR;
-} RILUICCATRINFO, RILUICCATRINFO;
-````
-
-
 ## -struct-fields
 
 

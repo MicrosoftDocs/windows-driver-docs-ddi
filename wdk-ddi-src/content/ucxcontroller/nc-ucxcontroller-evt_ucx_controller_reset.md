@@ -53,21 +53,6 @@ req.product: Windows 10 or later.
 The client driver's implementation that UCX calls to reset the controller.
 
 
-## -prototype
-
-
-````
-EVT_UCX_CONTROLLER_RESET EvtUcxControllerReset;
-
-VOID EvtUcxControllerReset(
-  _In_ UCXCONTROLLER UcxController
-)
-{ ... }
-
-typedef EVT_UCX_CONTROLLER_RESET PEVT_UCX_CONTROLLER_RESET;
-````
-
-
 ## -parameters
 
 
@@ -93,9 +78,9 @@ This callback function does not return a value.
 
 The UCX client driver registers its <i>EVT_UCX_CONTROLLER_RESET</i> implementation with the USB host controller extension (UCX) by calling the <a href="https://msdn.microsoft.com/library/windows/hardware/mt188033">UcxControllerCreate</a> method.
 
-The client driver indicates completion of this event by calling the <a href="..\ucxcontroller\nf-ucxcontroller-ucxcontrollerresetcomplete.md">UcxControllerResetComplete</a> method. Doing so ensures that UCX does not call <i>EVT_UCX_CONTROLLER_RESET</i> a second time before this event callback completes.
+The client driver indicates completion of this event by calling the <a href="https://msdn.microsoft.com/library/windows/hardware/mt188035">UcxControllerResetComplete</a> method. Doing so ensures that UCX does not call <i>EVT_UCX_CONTROLLER_RESET</i> a second time before this event callback completes.
 
-If the client driver calls <a href="..\ucxcontroller\nf-ucxcontroller-ucxcontrollerneedsreset.md">UcxControllerNeedsReset</a>, UCX calls this event callback function.  However, UCX may call this event callback function even when the client driver has not called <b>UcxControllerNeedsReset</b>. 
+If the client driver calls <a href="https://msdn.microsoft.com/library/windows/hardware/mt188034">UcxControllerNeedsReset</a>, UCX calls this event callback function.  However, UCX may call this event callback function even when the client driver has not called <b>UcxControllerNeedsReset</b>. 
 
 
 #### Examples
@@ -138,11 +123,6 @@ Controller_EvtControllerReset(
 
 ## -see-also
 
-<a href="..\ucxcontroller\nf-ucxcontroller-ucxcontrollerresetcomplete.md">UcxControllerResetComplete</a>
-
-
-
-<a href="..\ucxcontroller\nf-ucxcontroller-ucxcontrollerneedsreset.md">UcxControllerNeedsReset</a>
 
 
 
@@ -150,6 +130,11 @@ Controller_EvtControllerReset(
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt188034">UcxControllerNeedsReset</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt188035">UcxControllerResetComplete</a>
  
 
  

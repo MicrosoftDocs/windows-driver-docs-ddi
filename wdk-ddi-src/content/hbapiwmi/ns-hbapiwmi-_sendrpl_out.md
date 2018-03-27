@@ -52,19 +52,6 @@ req.typenames: SendRPL_OUT, *PSendRPL_OUT
 The SendRPL_OUT structure is used to report the output parameter data of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565488">SendRPL</a> WMI method to the WMI client.
 
 
-## -syntax
-
-
-````
-typedef struct _SendRPL_OUT {
-  ULONG HBAStatus;
-  ULONG TotalRspBufferSize;
-  ULONG ActualRspBufferSize;
-  UCHAR RspBuffer[1];
-} SendRPL_OUT, *PSendRPL_OUT;
-````
-
-
 ## -struct-fields
 
 
@@ -101,10 +88,10 @@ The WMI tool suite generates a declaration of the SendRPL_OUT structure in <i>Hb
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565488">SendRPL</a>
-
-
-
  
 
  

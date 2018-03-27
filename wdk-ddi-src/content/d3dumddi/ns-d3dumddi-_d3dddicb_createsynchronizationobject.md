@@ -49,18 +49,7 @@ req.typenames: D3DDDICB_CREATESYNCHRONIZATIONOBJECT
 ## -description
 
 
-The D3DDDICB_CREATESYNCHRONIZATIONOBJECT structure describes a synchronization object that the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createsynchronizationobjectcb.md">pfnCreateSynchronizationObjectCb</a> function creates.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DDDICB_CREATESYNCHRONIZATIONOBJECT {
-  D3DDDI_SYNCHRONIZATIONOBJECTINFO Info;
-  D3DKMT_HANDLE                    hSyncObject;
-} D3DDDICB_CREATESYNCHRONIZATIONOBJECT;
-````
+The D3DDDICB_CREATESYNCHRONIZATIONOBJECT structure describes a synchronization object that the <a href="https://msdn.microsoft.com/1b87d3cc-685a-4768-b4fd-dbe0a0cbec37">pfnCreateSynchronizationObjectCb</a> function creates.
 
 
 ## -struct-fields
@@ -70,7 +59,7 @@ typedef struct _D3DDDICB_CREATESYNCHRONIZATIONOBJECT {
 
 ### -field Info
 
-[in] A <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_synchronizationobjectinfo.md">D3DDDI_SYNCHRONIZATIONOBJECTINFO</a> structure that contains information about the kernel-mode synchronization object.
+[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff544657">D3DDDI_SYNCHRONIZATIONOBJECTINFO</a> structure that contains information about the kernel-mode synchronization object.
 
 
 ### -field hSyncObject
@@ -80,14 +69,14 @@ typedef struct _D3DDDICB_CREATESYNCHRONIZATIONOBJECT {
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createsynchronizationobjectcb.md">pfnCreateSynchronizationObjectCb</a>
 
 
 
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_synchronizationobjectinfo.md">D3DDDI_SYNCHRONIZATIONOBJECTINFO</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544657">D3DDDI_SYNCHRONIZATIONOBJECTINFO</a>
 
 
 
+<a href="https://msdn.microsoft.com/1b87d3cc-685a-4768-b4fd-dbe0a0cbec37">pfnCreateSynchronizationObjectCb</a>
  
 
  

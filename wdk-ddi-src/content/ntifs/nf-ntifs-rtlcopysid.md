@@ -53,18 +53,6 @@ req.typenames: TOKEN_TYPE
 The <b>RtlCopySid</b> routine copies the value of a security identifier (SID) to a buffer. 
 
 
-## -syntax
-
-
-````
-NTSTATUS RtlCopySid(
-  _In_ ULONG DestinationSidLength,
-  _In_ PSID  DestinationSid,
-  _In_ PSID  SourceSid
-);
-````
-
-
 ## -parameters
 
 
@@ -124,26 +112,26 @@ For more information about security and access control, see the documentation on
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-rtlvalidsid.md">RtlValidSid</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-rtlequalprefixsid.md">RtlEqualPrefixSid</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552256">RtlEqualPrefixSid</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-rtlequalsid.md">RtlEqualSid</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552260">RtlEqualSid</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-rtllengthsid.md">RtlLengthSid</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553085">RtlLengthSid</a>
 
 
 
-<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553314">RtlValidSid</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556740">SID</a>
  
 
  

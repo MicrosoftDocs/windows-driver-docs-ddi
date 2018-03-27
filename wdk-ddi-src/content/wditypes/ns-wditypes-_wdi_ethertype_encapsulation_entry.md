@@ -54,17 +54,6 @@ The
   WDI_ETHERTYPE_ENCAPSULATION_ENTRY structure defines an EtherType encapsulation entry.
 
 
-## -syntax
-
-
-````
-typedef struct _WDI_ETHERTYPE_ENCAPSULATION_ENTRY {
-  UINT16 EtherType;
-  UINT16 EncapsulationType;
-} WDI_ETHERTYPE_ENCAPSULATION_ENTRY, *PWDI_ETHERTYPE_ENCAPSULATION_ENTRY;
-````
-
-
 ## -struct-fields
 
 

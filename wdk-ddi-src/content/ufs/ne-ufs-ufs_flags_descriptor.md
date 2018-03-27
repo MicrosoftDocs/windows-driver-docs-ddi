@@ -53,29 +53,6 @@ req.product: Windows 10 or later.
 <b>UFS_FLAGS_DESCRIPTOR</b> describes the different types of flags used by Universal Flash Storage (UFS) descriptors.
 
 
-## -syntax
-
-
-````
-typedef enum _UFS_FLAGS_DESCRIPTOR { 
-  UFS_Reserved1                    = 0,
-  UFS_fDeviceInit,
-  UFS_fPermanentWPEn,
-  UFS_fPowerOnWPEn,
-  UFS_fBackgroundOpsEn,
-  UFS_fDeviceLifeSpanModeEn,
-  UFS_fPurgeEnable,
-  UFS_Reserved2,
-  UFS_fPhyResourceRemoval,
-  UFS_fBusyRTC,
-  UFS_Reserved3,
-  UFS_fPermanentlyDisableFwUpdate,
-  UFS_Reserved4,
-  UFS_Reserved5
-} UFS_FLAGS_DESCRIPTOR;
-````
-
-
 ## -enum-fields
 
 

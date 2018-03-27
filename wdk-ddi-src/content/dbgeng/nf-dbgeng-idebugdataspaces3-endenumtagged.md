@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,16 +51,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>EndEnumTagged</b> method releases the resources used by the specified enumeration.
-
-
-## -syntax
-
-
-````
-HRESULT EndEnumTagged(
-  [in] ULONG64 Handle
-);
-````
 
 
 ## -parameters

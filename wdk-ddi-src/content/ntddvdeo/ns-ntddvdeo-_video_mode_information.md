@@ -52,35 +52,6 @@ req.typenames: VIDEO_MODE_INFORMATION, *PVIDEO_MODE_INFORMATION
 The VIDEO_MODE_INFORMATION structure contains all of the information about one mode of a video adapter.
 
 
-## -syntax
-
-
-````
-typedef struct _VIDEO_MODE_INFORMATION {
-  ULONG Length;
-  ULONG ModeIndex;
-  ULONG VisScreenWidth;
-  ULONG VisScreenHeight;
-  ULONG ScreenStride;
-  ULONG NumberOfPlanes;
-  ULONG BitsPerPlane;
-  ULONG Frequency;
-  ULONG XMillimeter;
-  ULONG YMillimeter;
-  ULONG NumberRedBits;
-  ULONG NumberGreenBits;
-  ULONG NumberBlueBits;
-  ULONG RedMask;
-  ULONG GreenMask;
-  ULONG BlueMask;
-  ULONG AttributeFlags;
-  ULONG VideoMemoryBitmapWidth;
-  ULONG VideoMemoryBitmapHeight;
-  ULONG DriverSpecificAttributeFlags;
-} VIDEO_MODE_INFORMATION, *PVIDEO_MODE_INFORMATION;
-````
-
-
 ## -struct-fields
 
 
@@ -361,7 +332,7 @@ Is a set of flags indicating certain behavior for the device. These private flag
 
 
 
-The video miniport driver returns an array of VIDEO_MODE_INFORMATION structures in response to an <a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_query_avail_modes.md">IOCTL_VIDEO_QUERY_AVAIL_MODES</a> request, with each structure containing information about one mode of the adapter. The miniport driver returns one VIDEO_MODE_INFORMATION structure that contains information about the adapter's current mode in response to an <a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_query_current_mode.md">IOCTL_VIDEO_QUERY_CURRENT_MODE</a> request.
+The video miniport driver returns an array of VIDEO_MODE_INFORMATION structures in response to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff567816">IOCTL_VIDEO_QUERY_AVAIL_MODES</a> request, with each structure containing information about one mode of the adapter. The miniport driver returns one VIDEO_MODE_INFORMATION structure that contains information about the adapter's current mode in response to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff567819">IOCTL_VIDEO_QUERY_CURRENT_MODE</a> request.
 
 
 <dl>
@@ -382,18 +353,18 @@ The video miniport driver returns an array of VIDEO_MODE_INFORMATION structures 
 
 ## -see-also
 
-<a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_query_avail_modes.md">IOCTL_VIDEO_QUERY_AVAIL_MODES</a>
 
 
 
-<a href="..\ntddvdeo\ns-ntddvdeo-_video_memory_information.md">VIDEO_MEMORY_INFORMATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567816">IOCTL_VIDEO_QUERY_AVAIL_MODES</a>
 
 
 
-<a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_query_current_mode.md">IOCTL_VIDEO_QUERY_CURRENT_MODE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567819">IOCTL_VIDEO_QUERY_CURRENT_MODE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570507">VIDEO_MEMORY_INFORMATION</a>
  
 
  

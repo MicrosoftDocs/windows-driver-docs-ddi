@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: Any level
 topic_type:
@@ -54,19 +54,8 @@ req.typenames: PD_BUFFER_VIRTUAL_SUBNET_INFO
 An offload target calls the 
   <b>NdisMInvalidateOffloadComplete</b> function to complete an invalidate offload operation that was
   initiated by a previous call to the 
-  <a href="..\ndischimney\nc-ndischimney-w_invalidate_offload_handler.md">
+  <a href="https://msdn.microsoft.com/58226149-daea-40aa-afb6-13ce615434b3">
   MiniportInvalidateOffload</a> function of the offload target.
-
-
-## -syntax
-
-
-````
-VOID NdisMInvalidateOffloadComplete(
-  _In_ NDIS_HANDLE                       NdisMiniportHandle,
-  _In_ PNDIS_MINIPORT_OFFLOAD_BLOCK_LIST OffloadBlockList
-);
-````
 
 
 ## -parameters
@@ -77,17 +66,17 @@ VOID NdisMInvalidateOffloadComplete(
 ### -param NdisMiniportHandle [in]
 
 The handle that the offload target obtained in a previous call to the 
-     <a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">
+     <a href="https://msdn.microsoft.com/bed68aa8-499d-41fd-997b-a46316913cc8">
      NdisMRegisterMiniportDriver</a> function.
 
 
 ### -param OffloadBlockList [in]
 
 A pointer to an 
-     <a href="..\ndischimney\ns-ndischimney-_ndis_miniport_offload_block_list.md">
+     <a href="https://msdn.microsoft.com/ebc98e65-5d11-4c3d-aea1-dfad1434c093">
      NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</a> structure. The ofload target obtained this pointer as an input
      parameter to its 
-     <a href="..\ndischimney\nc-ndischimney-w_invalidate_offload_handler.md">
+     <a href="https://msdn.microsoft.com/58226149-daea-40aa-afb6-13ce615434b3">
      MiniportInvalidateOffload</a> function.
 
 
@@ -131,19 +120,19 @@ The invalidate operation did not succeed. In this case, the offload target has s
 
 ## -see-also
 
-<a href="..\ndischimney\ns-ndischimney-_ndis_miniport_offload_block_list.md">
+
+
+
+<a href="https://msdn.microsoft.com/58226149-daea-40aa-afb6-13ce615434b3">MiniportInvalidateOffload</a>
+
+
+
+<a href="https://msdn.microsoft.com/ebc98e65-5d11-4c3d-aea1-dfad1434c093">
    NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</a>
 
 
 
-<a href="..\ndischimney\nc-ndischimney-w_invalidate_offload_handler.md">MiniportInvalidateOffload</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563654">NdisMRegisterMiniportDriver</a>
  
 
  

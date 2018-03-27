@@ -52,19 +52,6 @@ req.typenames: D3DKMDT_VIDPN_PRESENT_PATH_CONTENT
 The D3DKMDT_VIDPN_PRESENT_PATH_CONTENT enumeration is used to indicate the type of content that is displayed on a VidPN present path.
 
 
-## -syntax
-
-
-````
-typedef enum _D3DKMDT_VIDPN_PRESENT_PATH_CONTENT { 
-  D3DKMDT_VPPC_UNINITIALIZED  = 0,
-  D3DKMDT_VPPC_GRAPHICS       = 1,
-  D3DKMDT_VPPC_VIDEO          = 2,
-  D3DKMDT_VPPC_NOTSPECIFIED   = 255
-} D3DKMDT_VIDPN_PRESENT_PATH_CONTENT;
-````
-
-
 ## -enum-fields
 
 
@@ -94,7 +81,7 @@ Indicates that no content type has been specified.
 
 
 
-The <b>Content</b> member of a <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_vidpn_present_path.md">D3DKMDT_VIDPN_PRESENT_PATH</a> structure is a value from the D3DKMDT_VIDPN_PRESENT_PATH_CONTENT enumeration.
+The <b>Content</b> member of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff546647">D3DKMDT_VIDPN_PRESENT_PATH</a> structure is a value from the D3DKMDT_VIDPN_PRESENT_PATH_CONTENT enumeration.
 
 
 

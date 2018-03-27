@@ -54,34 +54,6 @@ The FWPS_FIELDS_ALE_RESOURCE_ASSIGNMENT_V6enumeration type specifies the data fi
   <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa366492">run-time filtering layers</a>.
 
 
-## -syntax
-
-
-````
-typedef enum FWPS_FIELDS_ALE_RESOURCE_ASSIGNMENT_V6_ { 
-  FWPS_FIELD_ALE_RESOURCE_ASSIGNMENT_V6_ALE_APP_ID,
-  FWPS_FIELD_ALE_RESOURCE_ASSIGNMENT_V6_ALE_USER_ID,
-  FWPS_FIELD_ALE_RESOURCE_ASSIGNMENT_V6_IP_LOCAL_ADDRESS,
-  FWPS_FIELD_ALE_RESOURCE_ASSIGNMENT_V6_IP_LOCAL_ADDRESS_TYPE,
-  FWPS_FIELD_ALE_RESOURCE_ASSIGNMENT_V6_IP_LOCAL_PORT,
-  FWPS_FIELD_ALE_RESOURCE_ASSIGNMENT_V6_IP_PROTOCOL,
-  FWPS_FIELD_ALE_RESOURCE_ASSIGNMENT_V6_ALE_PROMISCUOUS_MODE,
-  FWPS_FIELD_ALE_RESOURCE_ASSIGNMENT_V6_IP_LOCAL_INTERFACE,
-  FWPS_FIELD_ALE_RESOURCE_ASSIGNMENT_V6_FLAGS,
-  FWPS_FIELD_ALE_RESOURCE_ASSIGNMENT_V6_INTERFACE_TYPE,
-  FWPS_FIELD_ALE_RESOURCE_ASSIGNMENT_V6_TUNNEL_TYPE,
-#if (NTDDI_VERSION >= NTDDI_WIN7)
-  FWPS_FIELD_ALE_RESOURCE_ASSIGNMENT_V6_LOCAL_INTERFACE_PROFILE_ID,
-  FWPS_FIELD_ALE_RESOURCE_ASSIGNMENT_V6_SIO_FIREWALL_SOCKET_PROPERTY,
-#if (NTDDI_VERSION >= NTDDI_WIN8)
-  FWPS_FIELD_ALE_RESOURCE_ASSIGNMENT_V6_ALE_PACKAGE_ID,
-#endif 
-#endif 
-  FWPS_FIELD_ALE_RESOURCE_ASSIGNMENT_V6_MAX
-} FWPS_FIELDS_ALE_RESOURCE_ASSIGNMENT_V6;
-````
-
-
 ## -enum-fields
 
 
@@ -143,7 +115,7 @@ The IP protocol number, as specified in RFC 1700.
 
 ### -field FWPS_FIELD_ALE_RESOURCE_ASSIGNMENT_V6_IP_LOCAL_INTERFACE
 
-The locally unique identifier (<a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a>) for the network interface associated with the
+The locally unique identifier (<a href="https://msdn.microsoft.com/library/windows/hardware/ff557080">LUID</a>) for the network interface associated with the
      local IP address.
 
 
@@ -226,14 +198,14 @@ For the case of an implicit bind, the local address and port information might n
 
 ## -see-also
 
-<a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557080">LUID</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568757">NL_ADDRESS_TYPE</a>
-
-
-
  
 
  

@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: 
+req.irql: "<=DISPATCH_LEVEL"
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -53,23 +53,6 @@ req.typenames: STORAGE_ZONE_CONDITION, *PSTORAGE_ZONE_CONDITION
 <div class="alert"><b>Note</b>  This  structure is for internal use only and should not be called from your code.</div>
 <div> </div>
 
-
-
-## -syntax
-
-
-````
-typedef enum _STORAGE_ZONE_CONDITION { 
-  ZoneConditionConventional      = 0x00,
-  ZoneConditionEmpty             = 0x01,
-  ZoneConditionImplicitlyOpened  = 0x02,
-  ZoneConditionExplicitlyOpened  = 0x03,
-  ZoneConditionClosed            = 0x04,
-  ZoneConditionReadOnly          = 0x0D,
-  ZoneConditionFull              = 0x0E,
-  ZoneConditionOffline           = 0x0F
-} STORAGE_ZONE_CONDITION, *PSTORAGE_ZONE_CONDITION;
-````
 
 
 ## -enum-fields

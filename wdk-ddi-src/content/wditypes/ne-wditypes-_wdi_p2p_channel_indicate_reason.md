@@ -53,18 +53,6 @@ req.product: Windows 10 or later.
 The WDI_P2P_CHANNEL_INDICATE_REASON enumeration defines Wi-Fi Direct channel indication reason values.
 
 
-## -syntax
-
-
-````
-typedef enum _WDI_P2P_CHANNEL_INDICATE_REASON { 
-  WDI_P2P_CHANNEL_INDICATE_REASON_NEW_CONNECTION     = 0x0001,
-  WDI_P2P_CHANNEL_INDICATE_REASON_ECSA_REQUESTED     = 0x0002,
-  WDI_P2P_CHANNEL_INDICATE_REASON_ECSA_GO_INITIATED  = 0x0003
-} WDI_P2P_CHANNEL_INDICATE_REASON;
-````
-
-
 ## -enum-fields
 
 

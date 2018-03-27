@@ -53,40 +53,6 @@ req.product: Windows 10 or later.
 The <b>STORPORT_TELEMETRY_EVENT</b> structure describes the miniport telemetry data payload.
 
 
-## -syntax
-
-
-````
-typedef struct _STORPORT_TELEMETRY_EVENT {
-  ULONG                                             DriverVersion;
-  ULONG                                             EventId;
-  UCHAR                                             EventName[EVENT_NAME_MAX_LENGTH];
-  ULONG                                             EventVersion;
-  ULONG                                             Flags;
-  _Field_range_(0, EVENT_BUFFER_MAX_LENGTH)
-  ULONG EventBufferLength;
-  _Field_size_bytes_(EventBufferLength)
-    PUCHAR  EventBuffer;
-  UCHAR                                             ParameterName0[EVENT_MAX_PARAM_NAME_LEN];
-  ULONGLONG                                         ParameterValue0;
-  UCHAR                                             ParameterName1[EVENT_MAX_PARAM_NAME_LEN];
-  ULONGLONG                                         ParameterValue1;
-  UCHAR                                             ParameterName2[EVENT_MAX_PARAM_NAME_LEN];
-  ULONGLONG                                         ParameterValue2;
-  UCHAR                                             ParameterName3[EVENT_MAX_PARAM_NAME_LEN];
-  ULONGLONG                                         ParameterValue3;
-  UCHAR                                             ParameterName4[EVENT_MAX_PARAM_NAME_LEN];
-  ULONGLONG                                         ParameterValue4;
-  UCHAR                                             ParameterName5[EVENT_MAX_PARAM_NAME_LEN];
-  ULONGLONG                                         ParameterValue5;
-  UCHAR                                             ParameterName6[EVENT_MAX_PARAM_NAME_LEN];
-  ULONGLONG                                         ParameterValue6;
-  UCHAR                                             ParameterName7[EVENT_MAX_PARAM_NAME_LEN];
-  ULONGLONG                                         ParameterValue7;
-} STORPORT_TELEMETRY_EVENT, *PSTORPORT_TELEMETRY_EVENT;
-````
-
-
 ## -struct-fields
 
 
@@ -218,10 +184,10 @@ A <b>STORPORT_TELEMETRY_EVENT</b> structure describes the miniport telemetry dat
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportlogtelemetry.md">StorPortLogTelemetry</a>
 
 
 
+<a href="https://msdn.microsoft.com/3B32F31C-3850-43D4-9C6E-40D35B8AF4D4">StorPortLogTelemetry</a>
  
 
  

@@ -56,19 +56,6 @@ The routine gets system time.
 <i>KStrClockGetPhysicalTime</i> is a system-supplied routine that retrieves the current system time minus any suspended delta.
 
 
-## -prototype
-
-
-````
-PFNKSCLOCK_GETTIME SystemClockGetTime;
-
-LONGLONG FASTCALL SystemClockGetTime(
-  _In_ PFILE_OBJECT FileObject
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -76,7 +63,7 @@ LONGLONG FASTCALL SystemClockGetTime(
 
 ### -param FileObject [in]
 
-A pointer to the <a href="..\wdm\ns-wdm-_file_object.md">FILE_OBJECT</a> structure to which a handle was returned when the clock instance was created.
+A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff545834">FILE_OBJECT</a> structure to which a handle was returned when the clock instance was created.
 
 
 ## -returns
@@ -92,21 +79,21 @@ This routine returns the requested time value as a value of type LONGLONG. This 
 
 
 
-You can obtain an entry point for this routine by supplying a driver-allocated <a href="..\ks\ns-ks-ksclock_functiontable.md">KSCLOCK_FUNCTIONTABLE</a> structure in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564466">KSPROPERTY_CLOCK_FUNCTIONTABLE</a> request.
+You can obtain an entry point for this routine by supplying a driver-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/ff561020">KSCLOCK_FUNCTIONTABLE</a> structure in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564466">KSPROPERTY_CLOCK_FUNCTIONTABLE</a> request.
 
 
 
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561020">KSCLOCK_FUNCTIONTABLE</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564466">KSPROPERTY_CLOCK_FUNCTIONTABLE</a>
-
-
-
-<a href="..\ks\ns-ks-ksclock_functiontable.md">KSCLOCK_FUNCTIONTABLE</a>
-
-
-
  
 
  

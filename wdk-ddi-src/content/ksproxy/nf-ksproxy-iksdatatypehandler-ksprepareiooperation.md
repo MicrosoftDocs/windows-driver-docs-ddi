@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: ksproxy.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -50,18 +50,6 @@ req.typenames: PIPE_STATE
 
 
 The <b>KsPrepareIoOperation</b> method initializes the extended header and prepares the media sample for an I/O operation.
-
-
-## -syntax
-
-
-````
-HRESULT KsPrepareIoOperation(
-  [in, out] IMediaSample  *Sample,
-  [in, out] PVOID         StreamHeader,
-  [in]      KSIOOPERATION IoOperation
-);
-````
 
 
 ## -parameters
@@ -134,10 +122,10 @@ For more information about <b>IMediaSample</b>, see the Microsoft Windows SDK do
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559836">IKsDataTypeHandler::KsQueryExtendedSize</a>
-
-
-
  
 
  

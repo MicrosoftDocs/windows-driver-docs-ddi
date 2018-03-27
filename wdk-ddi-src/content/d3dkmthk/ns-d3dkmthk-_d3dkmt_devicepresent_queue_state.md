@@ -52,17 +52,6 @@ req.typenames: D3DKMT_DEVICEPRESENT_QUEUE_STATE
 A structure that holds information on the queue state of a hardware device.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DKMT_DEVICEPRESENT_QUEUE_STATE {
-  D3DDDI_VIDEO_PRESENT_SOURCE_ID VidPnSourceId;
-  BOOLEAN                        bQueuedPresentLimitReached;
-} D3DKMT_DEVICEPRESENT_QUEUE_STATE;
-````
-
-
 ## -struct-fields
 
 

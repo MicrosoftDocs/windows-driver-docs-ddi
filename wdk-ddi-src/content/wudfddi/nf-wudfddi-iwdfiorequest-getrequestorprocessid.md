@@ -26,7 +26,7 @@ req.max-support: Unavailable in UMDF 2.0 and later.
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: wudfddi.h
+req.lib: 
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
@@ -55,14 +55,6 @@ req.product: Windows 10 or later.
 The <b>GetRequestorProcessId</b> method retrieves the identifier of the process that sent an I/O request.
 
 
-## -syntax
-
-
-````
-ULONG GetRequestorProcessId();
-````
-
-
 ## -parameters
 
 
@@ -81,10 +73,10 @@ ULONG GetRequestorProcessId();
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558985">IWDFIoRequest</a>
  
 
  

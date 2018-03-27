@@ -52,21 +52,6 @@ req.typenames: FILE_COMPRESSION_INFORMATION, *PFILE_COMPRESSION_INFORMATION
 The FILE_COMPRESSION_INFORMATION structure describes the state of a compressed data buffer.
 
 
-## -syntax
-
-
-````
-typedef struct _FILE_COMPRESSION_INFORMATION {
-  LARGE_INTEGER CompressedFileSize;
-  USHORT        CompressionFormat;
-  UCHAR         CompressionUnitShift;
-  UCHAR         ChunkShift;
-  UCHAR         ClusterShift;
-  UCHAR         Reserved[3];
-} FILE_COMPRESSION_INFORMATION, *PFILE_COMPRESSION_INFORMATION;
-````
-
-
 ## -struct-fields
 
 
@@ -144,18 +129,18 @@ Reserved
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544756">FLT_PARAMETERS for IRP_MJ_QUERY_INFORMATION</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543439">FltQueryInformationFile</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549283">IRP_MJ_QUERY_INFORMATION</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltqueryinformationfile.md">FltQueryInformationFile</a>
-
-
-
  
 
  

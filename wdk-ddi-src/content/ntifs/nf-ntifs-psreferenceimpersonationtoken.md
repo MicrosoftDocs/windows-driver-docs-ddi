@@ -52,19 +52,6 @@ req.typenames: TOKEN_TYPE
 The <b>PsReferenceImpersonationToken</b> routine increments the reference count of the impersonation token for the specified thread.
 
 
-## -syntax
-
-
-````
-PACCESS_TOKEN PsReferenceImpersonationToken(
-  _Inout_ PETHREAD                      Thread,
-  _Out_   PBOOLEAN                      CopyOnOpen,
-  _Out_   PBOOLEAN                      EffectiveOnly,
-  _Out_   PSECURITY_IMPERSONATION_LEVEL ImpersonationLevel
-);
-````
-
-
 ## -parameters
 
 
@@ -124,22 +111,22 @@ For more information about security and access control, see the documentation on
 
 ## -see-also
 
-<a href="..\wudfddi\ne-wudfddi-_security_impersonation_level.md">SECURITY_IMPERSONATION_LEVEL</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-psimpersonateclient.md">PsImpersonateClient</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557724">ObDereferenceObject</a>
 
 
 
-<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551893">PsDereferenceImpersonationToken</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-psdereferenceimpersonationtoken.md">PsDereferenceImpersonationToken</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551907">PsImpersonateClient</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556631">SECURITY_IMPERSONATION_LEVEL</a>
  
 
  

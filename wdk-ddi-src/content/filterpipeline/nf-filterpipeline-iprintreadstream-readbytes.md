@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: filterpipeline.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -50,19 +50,6 @@ req.typenames: EXpsFontRestriction
 
 
 The <code>ReadBytes</code> method reads a number of bytes into a buffer.
-
-
-## -syntax
-
-
-````
-HRESULT ReadBytes(
-  [out] void  *pvBuffer,
-  [in]  ULONG cbRequested,
-  [out] ULONG *pcbRead,
-  [out] BOOL  *pbEndOfFile
-);
-````
 
 
 ## -parameters

@@ -52,19 +52,6 @@ req.typenames: EXpsFontRestriction
 <b>FltSetEaFile</b> sets extended-attribute (EA) values for a file. 
 
 
-## -syntax
-
-
-````
-NTSTATUS FltSetEaFile(
-  _In_ PFLT_INSTANCE Instance,
-  _In_ PFILE_OBJECT  FileObject,
-  _In_ PVOID         EaBuffer,
-  _In_ ULONG         Length
-);
-````
-
-
 ## -parameters
 
 
@@ -82,7 +69,7 @@ File object pointer for the file.
 
 ### -param EaBuffer [in]
 
-Pointer to a caller-supplied, <a href="..\wdm\ns-wdm-_file_full_ea_information.md">FILE_FULL_EA_INFORMATION</a>-structured input buffer that contains the extended attribute (EA) values to be set. 
+Pointer to a caller-supplied, <a href="https://msdn.microsoft.com/library/windows/hardware/ff545793">FILE_FULL_EA_INFORMATION</a>-structured input buffer that contains the extended attribute (EA) values to be set. 
 
 
 ### -param Length [in]
@@ -120,18 +107,18 @@ The instance or volume is being torn down. This is an error code.
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-iocheckeabuffervalidity.md">IoCheckEaBufferValidity</a>
 
 
 
-<a href="..\wdm\ns-wdm-_file_full_ea_information.md">FILE_FULL_EA_INFORMATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545793">FILE_FULL_EA_INFORMATION</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltqueryeafile.md">FltQueryEaFile</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543435">FltQueryEaFile</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548252">IoCheckEaBufferValidity</a>
  
 
  

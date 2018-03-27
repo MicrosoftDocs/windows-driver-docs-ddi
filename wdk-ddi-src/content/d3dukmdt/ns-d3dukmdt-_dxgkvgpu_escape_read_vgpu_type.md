@@ -52,16 +52,6 @@ req.typenames: DXGKVGPU_ESCAPE_READ_VGPU_TYPE
 A structure used to read the VGPU type of an escape.
 
 
-## -syntax
-
-
-````
-typedef struct _DXGKVGPU_ESCAPE_READ_VGPU_TYPE {
-  DXGKVGPU_ESCAPE_HEAD Header;
-} DXGKVGPU_ESCAPE_READ_VGPU_TYPE;
-````
-
-
 ## -struct-fields
 
 

@@ -52,18 +52,6 @@ req.typenames: DXVADDI_FILTERVALUES
 The DXVADDI_FILTERVALUES structure describes values that are related to a filter.
 
 
-## -syntax
-
-
-````
-typedef struct _DXVADDI_FILTERVALUES {
-  DXVADDI_FIXED32 Level;
-  DXVADDI_FIXED32 Threshold;
-  DXVADDI_FIXED32 Radius;
-} DXVADDI_FILTERVALUES;
-````
-
-
 ## -struct-fields
 
 
@@ -71,25 +59,25 @@ typedef struct _DXVADDI_FILTERVALUES {
 
 ### -field Level
 
-[in] A <a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_fixed32.md">DXVADDI_FIXED32</a> structure that specifies the level of the filter.
+[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff562909">DXVADDI_FIXED32</a> structure that specifies the level of the filter.
 
 
 ### -field Threshold
 
-[in] A <a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_fixed32.md">DXVADDI_FIXED32</a> structure that specifies the threshold of the filter.
+[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff562909">DXVADDI_FIXED32</a> structure that specifies the threshold of the filter.
 
 
 ### -field Radius
 
-[in] A <a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_fixed32.md">DXVADDI_FIXED32</a> structure that specifies the radius of the filter.
+[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff562909">DXVADDI_FIXED32</a> structure that specifies the radius of the filter.
 
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_videoprocessblt.md">D3DDDIARG_VIDEOPROCESSBLT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544102">D3DDDIARG_VIDEOPROCESSBLT</a>
  
 
  

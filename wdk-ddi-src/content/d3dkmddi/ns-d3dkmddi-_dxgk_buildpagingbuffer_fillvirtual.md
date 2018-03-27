@@ -52,20 +52,6 @@ req.typenames: DXGK_BUILDPAGINGBUFFER_FILLVIRTUAL
 <b>DXGK_BUILDPAGINGBUFFER_FILLVIRTUAL</b> is used as part of an operation to fill an allocation with a pattern.
 
 
-## -syntax
-
-
-````
-typedef struct _DXGK_BUILDPAGINGBUFFER_FILLVIRTUAL {
-  HANDLE                 hAllocation;
-  UINT64                 AllocationOffsetInBytes;
-  UINT64                 FillSizeInBytes;
-  UINT                   FillPattern;
-  D3DGPU_VIRTUAL_ADDRESS DestinationVirtualAddress;
-} DXGK_BUILDPAGINGBUFFER_FILLVIRTUAL;
-````
-
-
 ## -struct-fields
 
 
@@ -73,7 +59,7 @@ typedef struct _DXGK_BUILDPAGINGBUFFER_FILLVIRTUAL {
 
 ### -field hAllocation
 
-The kernel mode driver handle of the allocation being filled. The handle is returned from <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createallocation.md">DxgkDdiCreateAllocation</a>. The allocation properties are needed in order to detect if the allocation is swizzled.
+The kernel mode driver handle of the allocation being filled. The handle is returned from <a href="https://msdn.microsoft.com/a28287d6-4dfa-4db4-92df-bbcd9379a5b2">DxgkDdiCreateAllocation</a>. The allocation properties are needed in order to detect if the allocation is swizzled.
 
 
 ### -field AllocationOffsetInBytes
@@ -98,14 +84,14 @@ The virtual address of the destination in the context of the paging process.
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_buildpagingbuffer.md">DXGKARG_BUILDPAGINGBUFFER</a>
 
 
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createallocation.md">DxgkDdiCreateAllocation</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557540">DXGKARG_BUILDPAGINGBUFFER</a>
 
 
 
+<a href="https://msdn.microsoft.com/a28287d6-4dfa-4db4-92df-bbcd9379a5b2">DxgkDdiCreateAllocation</a>
  
 
  

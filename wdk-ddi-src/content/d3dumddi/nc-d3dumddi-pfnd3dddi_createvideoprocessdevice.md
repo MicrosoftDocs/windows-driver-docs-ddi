@@ -52,20 +52,6 @@ req.typenames: DXGK_PTE
 The <b>CreateVideoProcessDevice</b> function creates a Microsoft DirectX Video Acceleration (DirectX VA) video processing device that is used to process video (for example, to deinterlace the video and adjust ProcAmp properties of the video). 
 
 
-## -prototype
-
-
-````
-PFND3DDDI_CREATEVIDEOPROCESSDEVICE CreateVideoProcessDevice;
-
-__checkReturn HRESULT APIENTRY CreateVideoProcessDevice(
-  _In_    HANDLE                             hDevice,
-  _Inout_ D3DDDIARG_CREATEVIDEOPROCESSDEVICE *pData
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -87,7 +73,7 @@ __checkReturn HRESULT APIENTRY CreateVideoProcessDevice(
 
 #### - pData [in, out]
 
- A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createvideoprocessdevice.md">D3DDDIARG_CREATEVIDEOPROCESSDEVICE</a> structure. On input, contains information that the driver can use. On output, the driver specifies information that the Microsoft Direct3D runtime can use.
+ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff542977">D3DDDIARG_CREATEVIDEOPROCESSDEVICE</a> structure. On input, contains information that the driver can use. On output, the driver specifies information that the Microsoft Direct3D runtime can use.
 
 
 ## -returns
@@ -120,7 +106,7 @@ The video processing device is successfully created.
 </td>
 <td width="60%">
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createvideoprocessdevice.md">CreateVideoProcessDevice</a> could not allocate the required memory for it to complete.
+<a href="https://msdn.microsoft.com/3149c7d9-0bf7-4355-8f15-821cf6b92f0a">CreateVideoProcessDevice</a> could not allocate the required memory for it to complete.
 
 </td>
 </tr>
@@ -132,14 +118,14 @@ The video processing device is successfully created.
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_destroyvideoprocessdevice.md">DestroyVideoProcessDevice</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createvideoprocessdevice.md">D3DDDIARG_CREATEVIDEOPROCESSDEVICE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542977">D3DDDIARG_CREATEVIDEOPROCESSDEVICE</a>
 
 
 
+<a href="https://msdn.microsoft.com/dc0f8dba-afdd-47f4-ba7f-72c510e80052">DestroyVideoProcessDevice</a>
  
 
  

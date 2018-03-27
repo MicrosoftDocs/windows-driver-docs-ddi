@@ -52,16 +52,6 @@ req.typenames: LineDisplayCursorCoordinates
 This enumeration is not implemented.
 
 
-## -syntax
-
-
-````
-typedef struct _LineDisplayCursorCoordinates {
-   ...;
-} LineDisplayCursorCoordinates, *PLineDisplayCursorCoordinates;
-````
-
-
 ## -struct-fields
 
 

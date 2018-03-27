@@ -52,16 +52,6 @@ req.typenames: SetCHAPSharedSecret_OUT, *PSetCHAPSharedSecret_OUT
 The SetCHAPSharedSecret_OUT structure holds the output data for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565585">SetCHAPSharedSecret</a> method.
 
 
-## -syntax
-
-
-````
-typedef struct _SetCHAPSharedSecret_OUT {
-  ULONG Status;
-} SetCHAPSharedSecret_OUT, *PSetCHAPSharedSecret_OUT;
-````
-
-
 ## -struct-fields
 
 
@@ -83,11 +73,6 @@ You must implement this method.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565585">SetCHAPSharedSecret</a>
-
-
-
-<a href="..\iscsiop\ns-iscsiop-_setchapsharedsecret_in.md">SetCHAPSharedSecret_IN</a>
 
 
 
@@ -95,6 +80,11 @@ You must implement this method.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565585">SetCHAPSharedSecret</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565595">SetCHAPSharedSecret_IN</a>
  
 
  

@@ -55,17 +55,6 @@ req.product: Windows 10 or later.
    The <b>USBD_GetInterfaceLength</b> routine obtains the length of a given interface descriptor, including the length of all endpoint descriptors contained within the interface.
 
 
-## -syntax
-
-
-````
-__declspec USBD_GetInterfaceLength(
-  _In_ PUSB_INTERFACE_DESCRIPTOR InterfaceDescriptor,
-  _In_ PUCHAR                    BufferEnd
-);
-````
-
-
 ## -parameters
 
 
@@ -101,10 +90,10 @@ Callers can use this routine to obtain the length of an interface and associated
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540134">USB device driver programming reference</a>
-
-
-
  
 
  

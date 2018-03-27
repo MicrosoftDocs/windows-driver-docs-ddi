@@ -52,19 +52,6 @@ req.typenames: RILSENDRTTDATAPARAMS, *LPRILSENDRTTDATAPARAMS
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef struct _RILSENDRTTDATAPARAMS {
-  DWORD       cbSize;
-  DWORD       dwID;
-  DWORD       dwExecutor;
-  WCHAR [127] wszRTTText;
-} RILSENDRTTDATAPARAMS, RILSENDRTTDATAPARAMS;
-````
-
-
 ## -struct-fields
 
 

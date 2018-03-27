@@ -53,22 +53,6 @@ req.product: Windows 10 or later.
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef struct _RILDISPLAYINFO {
-  DWORD               cbSize;
-  DWORD               dwParams;
-  DWORD               dwExecutor;
-  RILDISPLAYINFOTYPE  dwType;
-  RILDISPLAYINFOTAG   dwTag;
-  DWORD               dwMessageSize;
-  BYTE [1]            pbMessage;
-} RILDISPLAYINFO, RILDISPLAYINFO;
-````
-
-
 ## -struct-fields
 
 

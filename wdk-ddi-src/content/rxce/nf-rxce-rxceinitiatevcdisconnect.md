@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
@@ -51,16 +51,6 @@ req.product: Windows 10 or later.
 
 
 <b>RxCeInitiateVCDisconnect</b> initiates a disconnect on the virtual circuit.
-
-
-## -syntax
-
-
-````
-NTSTATUS RxCeInitiateVCDisconnect(
-  _In_ PRXCE_VC pVc
-);
-````
 
 
 ## -parameters
@@ -123,14 +113,14 @@ The <i>pVc</i> parameter passed to this routine was invalid.
 
 ## -see-also
 
-<a href="..\rxce\nf-rxce-rxceteardownvc.md">RxCeTearDownVC</a>
 
 
 
-<a href="..\rxce\nf-rxce-rxcebuildvc.md">RxCeBuildVC</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553439">RxCeBuildVC</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554332">RxCeTearDownVC</a>
  
 
  

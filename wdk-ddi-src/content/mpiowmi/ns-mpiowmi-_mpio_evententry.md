@@ -52,19 +52,6 @@ req.typenames: MPIO_EventEntry, *PMPIO_EventEntry
 The MPIO_EventEntry structure is used to return events that MPIO has logged.
 
 
-## -syntax
-
-
-````
-typedef struct _MPIO_EventEntry {
-  ULONGLONG TimeStamp;
-  ULONG     Severity;
-  WCHAR     Component[63 + 1];
-  WCHAR     EventDescription[63 + 1];
-} MPIO_EventEntry, *PMPIO_EventEntry;
-````
-
-
 ## -struct-fields
 
 

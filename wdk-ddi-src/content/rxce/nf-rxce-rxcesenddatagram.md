@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
@@ -51,22 +51,6 @@ req.product: Windows 10 or later.
 
 
 <b>RxCeSendDatagram</b> sends a transport service data unit (TSDU) along the specified connection on a virtual circuit.
-
-
-## -syntax
-
-
-````
-NTSTATUS RxCeSendDatagram(
-  _In_ PRXCE_TRANSPORT              pTransport,
-  _In_ PRXCE_ADDRESS                pAddress,
-  _In_ PRXCE_CONNECTION_INFORMATION pConnectionInformation,
-  _In_ ULONG                        Options,
-  _In_ PMDL                         pMdl,
-  _In_ ULONG                        SendLength,
-  _In_ PVOID                        pCompletionContext
-);
-````
 
 
 ## -parameters
@@ -193,18 +177,18 @@ Note that the synchronous <i>Option</i> is disregarded for sending datagrams bec
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_mdl.md">MDL</a>
 
 
 
-<a href="..\rxce\nf-rxce-rxcesend.md">RxCeSend</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554414">MDL</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553479">RxCeSend</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565085">TDI_CONNECTION_INFORMATION</a>
-
-
-
  
 
  

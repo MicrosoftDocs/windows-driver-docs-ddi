@@ -56,16 +56,6 @@ req.product: Windows 10 or later.
 The <b>VmbChannelPacketFail</b>  function fails a packet during packet processing due to an unrecoverable error. This function stops the queue.  
 
 
-## -syntax
-
-
-````
-VOID VmbChannelPacketFail(
-  _In_ PacketCompletionContext VMBPACKETCOMPLETION
-);
-````
-
-
 ## -parameters
 
 

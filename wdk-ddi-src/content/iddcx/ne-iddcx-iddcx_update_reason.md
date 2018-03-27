@@ -54,21 +54,6 @@ req.typenames:
                 
 
 
-## -syntax
-
-
-````
-typedef enum _IDDCX_UPDATE_REASON { 
-  IDDCX_UPDATE_REASON_UNINITIALIZED              = 0,
-  IDDCX_UPDATE_REASON_POWER_CONSTRAINTS          = 1,
-  IDDCX_UPDATE_REASON_HOST_LINK_BANDWIDTH        = 2,
-  IDDCX_UPDATE_REASON_DISPLAY_LINK_BANDWIDTH     = 3,
-  IDDCX_UPDATE_REASON_CONFIGURATION_CONSTRAINTS  = 4,
-  IDDCX_UPDATE_REASON_OTHER                      = 5
-} IDDCX_UPDATE_REASON;
-````
-
-
 ## -enum-fields
 
 

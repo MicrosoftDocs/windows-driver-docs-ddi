@@ -52,22 +52,6 @@ req.typenames: D3D12DDI_HEAP_FLAGS
 Contains Direct3D 12 heap flags. 
 
 
-## -syntax
-
-
-````
-typedef enum D3D12DDI_HEAP_FLAGS { 
-  D3D12DDI_HEAP_FLAG_NONE                 = 0x0,
-  D3D12DDI_HEAP_FLAG_NON_RT_DS_TEXTURES   = 0x2,
-  D3D12DDI_HEAP_FLAG_BUFFERS              = 0x4,
-  D3D12DDI_HEAP_FLAG_COHERENT_SYSTEMWIDE  = 0x8,
-  D3D12DDI_HEAP_FLAG_PRIMARY              = 0x10,
-  D3D12DDI_HEAP_FLAG_RT_DS_TEXTURES       = 0x20,
-  D3D12DDI_HEAP_FLAG_CONTENT_PROTECTION   = 0x40
-} D3D12DDI_HEAP_FLAGS;
-````
-
-
 ## -enum-fields
 
 

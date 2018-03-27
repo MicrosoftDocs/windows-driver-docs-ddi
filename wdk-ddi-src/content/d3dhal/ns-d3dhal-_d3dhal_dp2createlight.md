@@ -49,17 +49,7 @@ req.typenames: D3DHAL_DP2CREATELIGHT
 ## -description
 
 
-The D3DHAL_DP2CREATELIGHT structure is used to create a light for <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DHAL_DP2CREATELIGHT {
-  DWORD dwIndex;
-} D3DHAL_DP2CREATELIGHT, *LPD3DHAL_DP2CREATELIGHT;
-````
+The D3DHAL_DP2CREATELIGHT structure is used to create a light for <a href="https://msdn.microsoft.com/6128ff7a-0d2c-48df-8b5e-cab33c5a74f5">D3dDrawPrimitives2</a>.
 
 
 ## -struct-fields
@@ -83,10 +73,10 @@ The D3DHAL_DP2CREATELIGHT structure is used to hold the index into the light arr
 
 ## -see-also
 
-<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
 
 
 
+<a href="https://msdn.microsoft.com/6128ff7a-0d2c-48df-8b5e-cab33c5a74f5">D3dDrawPrimitives2</a>
  
 
  

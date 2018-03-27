@@ -52,29 +52,6 @@ req.typenames: DXGK_PRE_START_INFO, *PDXGK_PRE_START_INFO
 Structure to allow very simple data to be exchanged between the OS and driver which may be required prior to start device being called and therefore cannot be queried through normal caps or adapter info DDIs.
 
 
-## -syntax
-
-
-````
-typedef struct _DXGK_PRE_START_INFO {
-  union {
-    struct {
-      UINT ReservedIn;
-    };
-    UINT Input;
-  };
-  union {
-    struct {
-      UINT SupportPreserveBootDisplay  :1;
-      UINT IsUEFIFrameBufferCpuAccessibleDuringStartup  :1;
-      UINT ReservedOut  :30;
-    };
-    UINT Output;
-  };
-} DXGK_PRE_START_INFO, *PDXGK_PRE_START_INFO;
-````
-
-
 ## -struct-fields
 
 

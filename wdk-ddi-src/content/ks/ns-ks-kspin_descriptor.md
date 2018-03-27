@@ -52,32 +52,6 @@ req.typenames: KSPIN_DESCRIPTOR, *PKSPIN_DESCRIPTOR
 The KSPIN_DESCRIPTOR structure describes the basic <a href="https://msdn.microsoft.com/library/windows/hardware/ff566584">KSPROPSETID_Pin</a> properties of a pin type.
 
 
-## -syntax
-
-
-````
-typedef struct {
-  ULONG                 InterfacesCount;
-  const KSPIN_INTERFACE *Interfaces;
-  ULONG                 MediumsCount;
-  const KSPIN_MEDIUM    *Mediums;
-  ULONG                 DataRangesCount;
-  const PKSDATARANGE    *DataRanges;
-  KSPIN_DATAFLOW        DataFlow;
-  KSPIN_COMMUNICATION   Communication;
-  const GUID            *Category;
-  const GUID            *Name;
-  union {
-    LONGLONG Reserved;
-    struct {
-      ULONG        ConstrainedDataRangesCount;
-      PKSDATARANGE *ConstrainedDataRanges;
-    };
-  };
-} KSPIN_DESCRIPTOR, *PKSPIN_DESCRIPTOR;
-````
-
-
 ## -struct-fields
 
 
@@ -159,15 +133,6 @@ Drivers typically define one KSPIN_DESCRIPTOR structure for each pin type they s
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566584">KSPROPSETID_Pin</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565197">KSPROPERTY_PIN_DATAFLOW</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565194">KSPROPERTY_PIN_COMMUNICATION</a>
 
 
 
@@ -179,6 +144,15 @@ Drivers typically define one KSPIN_DESCRIPTOR structure for each pin type they s
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565194">KSPROPERTY_PIN_COMMUNICATION</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565197">KSPROPERTY_PIN_DATAFLOW</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566584">KSPROPSETID_Pin</a>
  
 
  

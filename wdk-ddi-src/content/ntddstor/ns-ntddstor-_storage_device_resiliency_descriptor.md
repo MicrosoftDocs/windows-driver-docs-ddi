@@ -52,23 +52,6 @@ req.typenames: STORAGE_DEVICE_RESILIENCY_DESCRIPTOR, PSTORAGE_DEVICE_RESILIENCY_
 Reserved for system use.
 
 
-## -syntax
-
-
-````
-typedef struct _STORAGE_DEVICE_RESILIENCY_DESCRIPTOR {
-  ULONG Version;
-  ULONG Size;
-  ULONG NameOffset;
-  ULONG NumberOfLogicalCopies;
-  ULONG NumberOfPhysicalCopies;
-  ULONG PhysicalDiskRedundancy;
-  ULONG NumberOfColumns;
-  ULONG Interleave;
-} STORAGE_DEVICE_RESILIENCY_DESCRIPTOR, *PSTORAGE_DEVICE_RESILIENCY_DESCRIPTOR;
-````
-
-
 ## -struct-fields
 
 
@@ -121,10 +104,10 @@ Size of a stripe unit of the storage device, in bytes. This is also referred to 
 
 ## -see-also
 
-<a href="..\ntddstor\ni-ntddstor-ioctl_storage_query_property.md">IOCTL_STORAGE_QUERY_PROPERTY</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560590">IOCTL_STORAGE_QUERY_PROPERTY</a>
  
 
  

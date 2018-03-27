@@ -52,18 +52,6 @@ req.typenames: MPIO_PATH_INFORMATION, *PMPIO_PATH_INFORMATION
 The MPIO_PATH_INFORMATION structure represents a top-level view of all the paths that are under MPIO control. To query the path information, the request must be sent to the MPIO control object by using its WMI instance name.
 
 
-## -syntax
-
-
-````
-typedef struct _MPIO_PATH_INFORMATION {
-  ULONG                    NumberPaths;
-  ULONG                    Pad;
-  MPIO_ADAPTER_INFORMATION PathList[1];
-} MPIO_PATH_INFORMATION, *PMPIO_PATH_INFORMATION;
-````
-
-
 ## -struct-fields
 
 

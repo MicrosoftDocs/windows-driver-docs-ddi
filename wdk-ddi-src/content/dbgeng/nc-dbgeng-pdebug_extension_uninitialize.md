@@ -61,20 +61,12 @@ The <b>DebugExtensionUninitialize</b> callback function is called by the engine 
 </tr>
 </table></span></div>
 
-## -prototype
-
-
-````
- CALLBACK* PDEBUG_EXTENSION_UNINITIALIZE DebugExtensionUninitialize;
-````
-
-
 ## -parameters
 
 
 
 
-### -param void
+### -param Arg1
 
 
 
@@ -109,10 +101,10 @@ DebugExtensionUninitialize is called <b>PDEBUG_EXTENSION_UNINITIALIZE</b> in the
 
 ## -see-also
 
-<a href="..\dbgeng\nc-dbgeng-pdebug_extension_initialize.md">DebugExtensionInitialize</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540476">DebugExtensionInitialize</a>
  
 
  

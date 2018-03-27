@@ -52,17 +52,6 @@ req.typenames: PD_BUFFER_VIRTUAL_SUBNET_INFO
 This structure contains the virtual subnet information.
 
 
-## -syntax
-
-
-````
-typedef struct _PD_BUFFER_VIRTUAL_SUBNET_INFO {
-  UINT32 VirtualSubnetId  :24;
-  UINT32 Reserved  :8;
-} PD_BUFFER_VIRTUAL_SUBNET_INFO, *PPD_BUFFER_VIRTUAL_SUBNET_INFO;
-````
-
-
 ## -struct-fields
 
 

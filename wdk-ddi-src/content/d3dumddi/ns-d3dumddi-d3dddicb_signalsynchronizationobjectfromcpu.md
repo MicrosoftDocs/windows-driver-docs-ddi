@@ -49,19 +49,7 @@ req.typenames: D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMCPU
 ## -description
 
 
-<b>D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMCPU</b> is used with <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_signalsynchronizationobjectfromcpucb.md">pfnSignalSynchronizationObjectFromCpuCb</a> to enable a driver to signal a monitored fence.
-
-
-## -syntax
-
-
-````
-typedef struct D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMCPU {
-  UINT                ObjectCount;
-  const D3DKMT_HANDLE *ObjectHandleArray;
-  const UINT64        *FenceValueArray;
-} D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMCPU;
-````
+<b>D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMCPU</b> is used with <a href="https://msdn.microsoft.com/E6FD5215-09CE-4DC8-B5AB-F65E68E2A884">pfnSignalSynchronizationObjectFromCpuCb</a> to enable a driver to signal a monitored fence.
 
 
 ## -struct-fields
@@ -86,10 +74,10 @@ typedef struct D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMCPU {
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_signalsynchronizationobjectfromcpucb.md">pfnSignalSynchronizationObjectFromCpuCb</a>
 
 
 
+<a href="https://msdn.microsoft.com/E6FD5215-09CE-4DC8-B5AB-F65E68E2A884">pfnSignalSynchronizationObjectFromCpuCb</a>
  
 
  

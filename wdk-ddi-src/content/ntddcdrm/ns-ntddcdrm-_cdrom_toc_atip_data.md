@@ -49,20 +49,7 @@ req.typenames: CDROM_TOC_ATIP_DATA, *PCDROM_TOC_ATIP_DATA
 ## -description
 
 
-Device control IRPs with a control code of <a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_read_toc_ex.md">IOCTL_CDROM_READ_TOC_EX</a> and a format of CDROM_READ_TOC_EX_FORMAT_ATIP return their output data in this header structure followed by a series of descriptors of type <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_toc_atip_data_block.md">CDROM_TOC_ATIP_DATA_BLOCK</a>.
-
-
-## -syntax
-
-
-````
-typedef struct _CDROM_TOC_ATIP_DATA {
-  UCHAR                     Length[2];
-  UCHAR                     Reserved1;
-  UCHAR                     Reserved2;
-  CDROM_TOC_ATIP_DATA_BLOCK Descriptors[];
-} CDROM_TOC_ATIP_DATA, *PCDROM_TOC_ATIP_DATA;
-````
+Device control IRPs with a control code of <a href="https://msdn.microsoft.com/library/windows/hardware/ff559367">IOCTL_CDROM_READ_TOC_EX</a> and a format of CDROM_READ_TOC_EX_FORMAT_ATIP return their output data in this header structure followed by a series of descriptors of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff551378">CDROM_TOC_ATIP_DATA_BLOCK</a>.
 
 
 ## -struct-fields
@@ -87,23 +74,23 @@ Reserved.
 
 ### -field Descriptors
 
-Contains zero or more ATIP data block descriptors of type <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_toc_atip_data_block.md">CDROM_TOC_ATIP_DATA_BLOCK</a>. 
+Contains zero or more ATIP data block descriptors of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff551378">CDROM_TOC_ATIP_DATA_BLOCK</a>. 
 
 
 ## -see-also
 
-<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_read_toc_ex.md">CDROM_READ_TOC_EX</a>
 
 
 
-<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_toc_atip_data_block.md">CDROM_TOC_ATIP_DATA_BLOCK</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551366">CDROM_READ_TOC_EX</a>
 
 
 
-<a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_read_toc_ex.md">IOCTL_CDROM_READ_TOC_EX</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551378">CDROM_TOC_ATIP_DATA_BLOCK</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559367">IOCTL_CDROM_READ_TOC_EX</a>
  
 
  

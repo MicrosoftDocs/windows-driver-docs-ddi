@@ -53,20 +53,6 @@ req.product: Windows 10 or later.
 The WWAN_AUTH_AKAP_RESPONSE structure represents a response to an AKA' (AKA Prime) authentication challenge.
 
 
-## -syntax
-
-
-````
-typedef struct _WWAN_AUTH_AKAP_RESPONSE {
-  BYTE  Res[WWAN_AUTH_RES_MAX_LEN];
-  ULONG ResLength;
-  BYTE  IKP[WWAN_AUTH_IK_LEN];
-  BYTE  CKP[WWAN_AUTH_CK_LEN];
-  BYTE  Auts[WWAN_AUTH_AUTS_LEN];
-} WWAN_AUTH_AKAP_RESPONSE, *PWWAN_AUTH_AKAP_RESPONSE;
-````
-
-
 ## -struct-fields
 
 
@@ -123,17 +109,17 @@ A 128-bit authentication result from the peer, which, together with the RAND, au
 
 
 
-The <a href="..\wwan\ns-wwan-_wwan_auth_response.md">WWAN_AUTH_RESPONSE</a> structure uses this structure.
+The <a href="https://msdn.microsoft.com/library/windows/hardware/hh464129">WWAN_AUTH_RESPONSE</a> structure uses this structure.
 
 
 
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_auth_response.md">WWAN_AUTH_RESPONSE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh464129">WWAN_AUTH_RESPONSE</a>
  
 
  

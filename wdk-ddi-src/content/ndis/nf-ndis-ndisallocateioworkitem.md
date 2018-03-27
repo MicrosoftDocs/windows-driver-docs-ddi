@@ -54,16 +54,6 @@ NDIS drivers call the
   <b>NdisAllocateIoWorkItem</b> function to allocate a work item. For more information, see <a href="https://msdn.microsoft.com/4f966ff3-2092-495f-863f-50f079085fa6">NDIS I/O Work Items</a>.
 
 
-## -syntax
-
-
-````
-NDIS_HANDLE NdisAllocateIoWorkItem(
-  _In_ NDIS_HANDLE NdisObjectHandle
-);
-````
-
-
 ## -parameters
 
 
@@ -92,35 +82,35 @@ If
 
 NDIS miniport drivers pass 
     <b>NdisAllocateIoWorkItem</b> either of two handles: the adapter handle that NDIS passed to the 
-    <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a> function or
+    <a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a> function or
     the miniport driver handle that NDIS returned when the miniport driver called 
-    <a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">
+    <a href="https://msdn.microsoft.com/bed68aa8-499d-41fd-997b-a46316913cc8">
     NdisMRegisterMiniportDriver</a>.
 
 NDIS filter drivers can pass 
     <b>NdisAllocateIoWorkItem</b> the filter driver handle that NDIS returned when the filter driver called 
-    <a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">NdisFRegisterFilterDriver</a>.
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff562608">NdisFRegisterFilterDriver</a>.
 
 NDIS miniport drivers and filter drivers can also pass 
     <b>NdisAllocateIoWorkItem</b> the NDIS device handle that NDIS returned when the driver called 
-    <a href="..\ndis\nf-ndis-ndisregisterdeviceex.md">NdisRegisterDeviceEx</a>. 
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff564518">NdisRegisterDeviceEx</a>. 
     <b>NdisAllocateIoWorkItem</b> gets the device object or driver object that is associated with the handle
     and passes the device object or driver object to the 
-    <a href="..\wdm\nf-wdm-ioallocateworkitem.md">IoAllocateWorkItem</a> function.
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff548276">IoAllocateWorkItem</a> function.
 
 <div class="alert"><b>Note</b>  Protocol drivers cannot use 
     <b>NdisAllocateIoWorkItem</b> because NDIS does not associate protocol drivers with device objects or
     driver objects.</div>
 <div> </div>
 NDIS drivers call the 
-    <a href="..\ndis\nf-ndis-ndisqueueioworkitem.md">NdisQueueIoWorkItem</a> function to queue
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff563775">NdisQueueIoWorkItem</a> function to queue
     work items. After a driver calls 
     <b>NdisQueueIoWorkItem</b>, NDIS calls the driver-specified callback function at IRQL = PASSIVE_LEVEL.
     This can improve system performance by allowing the current function to end immediately and the driver to
     do work later at a lower IRQL.
 
 NDIS drivers must call the 
-    <a href="..\ndis\nf-ndis-ndisfreeioworkitem.md">NdisFreeIoWorkItem</a> function to free the
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561855">NdisFreeIoWorkItem</a> function to free the
     resources associated with a work item that 
     <b>NdisAllocateIoWorkItem</b> allocated.
 
@@ -131,7 +121,7 @@ Drivers can call
 If a miniport driver used the handle that NDIS passed to 
     <i>MiniportInitializeEx</i> when it called 
     <b>NdisAllocateIoWorkItem</b>, the work item must be freed before or in the call to the drivers 
-    <a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a> function.
+    <a href="https://msdn.microsoft.com/b8d452b4-bef3-4991-87cf-fac15bedfde4">MiniportHaltEx</a> function.
 
 If a miniport driver used the handle that 
     <b>NdisMRegisterMiniportDriver</b> returned when the driver called 
@@ -144,19 +134,18 @@ In general, a driver must free the work item before the driver unloads.
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisqueueioworkitem.md">NdisQueueIoWorkItem</a>
 
 
 
-<a href="..\wdm\nf-wdm-ioallocateworkitem.md">IoAllocateWorkItem</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548276">IoAllocateWorkItem</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisregisterdeviceex.md">NdisRegisterDeviceEx</a>
+<a href="https://msdn.microsoft.com/b8d452b4-bef3-4991-87cf-fac15bedfde4">MiniportHaltEx</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
+<a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a>
 
 
 
@@ -164,22 +153,23 @@ In general, a driver must free the work item before the driver unloads.
 
 
 
-<a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562608">NdisFRegisterFilterDriver</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisfreeioworkitem.md">NdisFreeIoWorkItem</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561855">NdisFreeIoWorkItem</a>
 
 
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563654">NdisMRegisterMiniportDriver</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">NdisFRegisterFilterDriver</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563775">NdisQueueIoWorkItem</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564518">NdisRegisterDeviceEx</a>
  
 
  

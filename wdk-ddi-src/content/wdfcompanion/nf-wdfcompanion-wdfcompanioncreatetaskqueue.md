@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
@@ -52,19 +52,6 @@ req.product: Windows 10 or later.
 
 
 			For internal use only.
-
-
-## -syntax
-
-
-````
-NTSTATUS WdfCompanionCreateTaskQueue(
-  _In_      WDFCOMPANION           Companion,
-  _In_      PWDF_TASK_QUEUE_CONFIG Config,
-  _In_opt_  PWDF_OBJECT_ATTRIBUTES QueueAttributes,
-  _Out_opt_ WDFTASKQUEUE           *Queue
-);
-````
 
 
 ## -parameters

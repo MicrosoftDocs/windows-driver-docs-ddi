@@ -54,23 +54,6 @@ The FWPS_FIELDS_IPSEC_KM_DEMUX_V4 enumeration type specifies the data field iden
   <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa366492">run-time filtering layer</a>.
 
 
-## -syntax
-
-
-````
-typedef enum FWPS_FIELDS_IPSEC_KM_DEMUX_V4_ { 
-  FWPS_FIELD_IPSEC_KM_DEMUX_V4_IP_LOCAL_ADDRESS,
-  FWPS_FIELD_IPSEC_KM_DEMUX_V4_IP_REMOTE_ADDRESS,
-#if (NTDDI_VERSION >= NTDDI_WIN8)
-  FWPS_FIELD_IPSEC_KM_DEMUX_V4_QM_MODE,
-  FWPS_FIELD_IPSEC_KM_DEMUX_V4_IP_LOCAL_INTERFACE,
-  FWPS_FIELD_IPSEC_KM_DEMUX_V4_CURRENT_PROFILE_ID,
-#endif 
-  FWPS_FIELD_IPSEC_KM_DEMUX_V4_MAX
-} FWPS_FIELDS_IPSEC_KM_DEMUX_V4;
-````
-
-
 ## -enum-fields
 
 

@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 This enumeration provides values to specify the UCX controller state after a  reset.
 
 
-## -syntax
-
-
-````
-typedef enum _UCX_CONTROLLER_STATE { 
-  UcxControllerStateLost,
-  UcxControllerStatePreserved
-} UCX_CONTROLLER_STATE;
-````
-
-
 ## -enum-fields
 
 
@@ -81,10 +70,10 @@ Indicates the controller state was preserved after reset.
 
 ## -see-also
 
-<a href="..\ucxcontroller\ns-ucxcontroller-_ucx_controller_reset_complete_info.md">UCX_CONTROLLER_RESET_COMPLETE_INFO</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt188061">UCX_CONTROLLER_RESET_COMPLETE_INFO</a>
  
 
  

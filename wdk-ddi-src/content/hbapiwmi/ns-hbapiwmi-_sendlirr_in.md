@@ -52,19 +52,6 @@ req.typenames: SendLIRR_IN, *PSendLIRR_IN
 The SendLIRR_IN structure is used to deliver parameter data to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565419">SendLIRR</a> WMI method. 
 
 
-## -syntax
-
-
-````
-typedef struct _SendLIRR_IN {
-  UCHAR SourceWWN[8];
-  UCHAR DestWWN[8];
-  UCHAR Function;
-  UCHAR Type;
-} SendLIRR_IN, *PSendLIRR_IN;
-````
-
-
 ## -struct-fields
 
 
@@ -101,10 +88,10 @@ The WMI tool suite generates a declaration of the SendLIRR_IN structure in <i>Hb
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565419">SendLIRR</a>
-
-
-
  
 
  

@@ -52,17 +52,6 @@ req.typenames: DXGK_PRESENT_DISPLAY_ONLY_PROGRESS_ID
 Indicates the status of the current present operation.
 
 
-## -syntax
-
-
-````
-typedef enum _DXGK_PRESENT_DISPLAY_ONLY_PROGRESS_ID { 
-  DXGK_PRESENT_DISPLAYONLY_PROGRESS_ID_COMPLETE  = 0,
-  DXGK_PRESENT_DISPLAYONLY_PROGRESS_ID_FAILED    = 1
-} DXGK_PRESENT_DISPLAY_ONLY_PROGRESS_ID;
-````
-
-
 ## -enum-fields
 
 
@@ -80,10 +69,10 @@ An error occurred during the present operation.
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkargcb_present_displayonly_progress.md">DXGKARGCB_PRESENT_DISPLAYONLY_PROGRESS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451245">DXGKARGCB_PRESENT_DISPLAYONLY_PROGRESS</a>
  
 
  

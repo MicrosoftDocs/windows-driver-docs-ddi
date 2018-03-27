@@ -53,26 +53,6 @@ req.product: Windows 10 or later.
 The <b>USB_HUB_CAP_FLAGS</b> structure is used to report the capabilities of a hub.
 
 
-## -syntax
-
-
-````
-typedef union _USB_HUB_CAP_FLAGS {
-  ULONG  ul;
-  struct {
-    ULONG HubIsHighSpeedCapable  :1;
-    ULONG HubIsHighSpeed  :1;
-    ULONG HubIsMultiTtCapable  :1;
-    ULONG HubIsMultiTt  :1;
-    ULONG HubIsRoot  :1;
-    ULONG HubIsArmedWakeOnConnect  :1;
-    ULONG HubIsBusPowered  :1;
-    ULONG ReservedMBZ  :25;
-  };
-} USB_HUB_CAP_FLAGS, *PUSB_HUB_CAP_FLAGS;
-````
-
-
 ## -struct-fields
 
 
@@ -125,7 +105,6 @@ Reserved. Do not use.
 
 ## -see-also
 
-<a href="..\usbioctl\ns-usbioctl-_usb_hub_capabilities_ex.md">USB_HUB_CAPABILITIES_EX</a>
 
 
 
@@ -133,6 +112,7 @@ Reserved. Do not use.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539329">USB_HUB_CAPABILITIES_EX</a>
  
 
  

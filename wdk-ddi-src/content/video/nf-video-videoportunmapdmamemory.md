@@ -52,20 +52,7 @@ req.product: Windows 10 or later.
 
 The <b>VideoPortUnmapDmaMemory</b> function is <b>obsolete</b> in Windows 2000 and later.
 
-<b>VideoPortUnmapDmaMemory</b> unmaps a range of memory previously mapped by <a href="..\video\nf-video-videoportmapdmamemory.md">VideoPortMapDmaMemory</a>.
-
-
-## -syntax
-
-
-````
-BOOLEAN VideoPortUnmapDmaMemory(
-   PVOID  HwDeviceExtension,
-   PVOID  VirtualAddress,
-   HANDLE ProcessHandle,
-   PDMA   BoardMemoryHandle
-);
-````
+<b>VideoPortUnmapDmaMemory</b> unmaps a range of memory previously mapped by <a href="https://msdn.microsoft.com/library/windows/hardware/ff570330">VideoPortMapDmaMemory</a>.
 
 
 ## -parameters

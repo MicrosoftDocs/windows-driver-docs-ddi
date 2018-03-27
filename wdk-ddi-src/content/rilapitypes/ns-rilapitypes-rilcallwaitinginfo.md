@@ -53,20 +53,6 @@ req.product: Windows 10 or later.
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef struct _RILCALLWAITINGINFO {
-  DWORD               cbSize;
-  DWORD               dwParams;
-  DWORD               dwExecutor;
-  RILCALLTYPE         dwCallType;
-  RILREMOTEPARTYINFO  rrpiCallerInfo;
-} RILCALLWAITINGINFO, RILCALLWAITINGINFO;
-````
-
-
 ## -struct-fields
 
 

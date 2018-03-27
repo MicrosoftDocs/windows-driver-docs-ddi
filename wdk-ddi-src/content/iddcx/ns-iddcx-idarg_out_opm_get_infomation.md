@@ -54,16 +54,6 @@ req.typenames:
              
 
 
-## -syntax
-
-
-````
-typedef struct IDARG_OUT_OPM_GET_INFOMATION {
-  IDDCX_OPM_REQUESTED_INFORMATION RequestedInformation;
-} IDARG_OUT_OPM_GET_INFOMATION, *IDARG_OUT_OPM_GET_INFOMATION;
-````
-
-
 ## -struct-fields
 
 

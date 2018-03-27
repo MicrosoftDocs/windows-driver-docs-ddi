@@ -52,23 +52,6 @@ req.typenames: WCS_PROFILE_MANAGEMENT_SCOPE
 <b>EVT_IDD_CX_MONITOR_OPM_GET_INFOMATION</b> is called by the OS to get OPM information.
 
 
-## -prototype
-
-
-````
-EVT_IDD_CX_MONITOR_OPM_GET_INFOMATION EvtIddCxMonitorOpmGetInfomation;
-
-NTSTATUS EvtIddCxMonitorOpmGetInfomation(
-  _In_        IDDCX_OPMCTX                  OpmCxtObject,
-  _In_  const IDARG_IN_OPM_GET_INFOMATION*  pInArgs,
-  _Out_       IDARG_OUT_OPM_GET_INFOMATION* pOutArgs
-)
-{ ... }
-
-typedef EVT_IDD_CX_MONITOR_OPM_GET_INFOMATION PFN_IDD_CX_MONITOR_OPM_GET_INFOMATION;
-````
-
-
 ## -parameters
 
 

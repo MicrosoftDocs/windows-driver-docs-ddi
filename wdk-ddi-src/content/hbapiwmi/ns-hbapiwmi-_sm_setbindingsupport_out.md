@@ -52,16 +52,6 @@ req.typenames: SM_SetBindingSupport_OUT, *PSM_SetBindingSupport_OUT
 The SM_SetBindingSupport_OUT structure is used to receive output parameters from the SM_SetBindingSupport method.
 
 
-## -syntax
-
-
-````
-typedef struct _SM_SetBindingSupport_OUT {
-  ULONG HBAStatus;
-} SM_SetBindingSupport_OUT, *PSM_SetBindingSupport_OUT;
-````
-
-
 ## -struct-fields
 
 

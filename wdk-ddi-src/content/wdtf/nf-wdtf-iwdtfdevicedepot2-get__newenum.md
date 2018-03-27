@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: Microsoft.WDTF
 req.assembly: WDTF.Interop.metadata_dll
 req.type-library: 
-req.lib: wdtf.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -57,16 +57,6 @@ loop structure implicitly uses.
 This property is read-only.
 
 
-## -syntax
-
-
-````
-HRESULT get__NewEnum(
-  [out, retval] IUnknown **ppNewEnum
-);
-````
-
-
 ## -parameters
 
 
@@ -86,10 +76,10 @@ For more information about how ATL implements this functionality, see the
 
 ## -see-also
 
-<a href="..\wdtf\nn-wdtf-iwdtfdevicedepot2.md">IWDTFDeviceDepot2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406391">IWDTFDeviceDepot2</a>
  
 
  

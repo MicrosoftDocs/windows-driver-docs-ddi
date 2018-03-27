@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: printerextension.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -53,16 +53,6 @@ req.product: Windows 10 or later.
 Disallows events to be generated.
 
 
-## -syntax
-
-
-````
-HRESULT DisableEvents(
-    Void
-);
-````
-
-
 ## -parameters
 
 
@@ -86,14 +76,14 @@ This method returns an <b>HRESULT</b> value.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh406706">EnableEvents</a>
 
 
 
-<a href="..\printerextension\nn-printerextension-iprinterextensionmanager.md">IPrinterExtensionManager</a>
-
-
-
+<a href="https://msdn.microsoft.com/918AE3F6-2AC4-42AD-9581-E87AD7E79BAD">IPrinterExtensionManager</a>
  
 
  

@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
@@ -51,17 +51,6 @@ req.product: Windows 10 or later.
 
 
 The PrintSchemaSelectionType enumeration identifies how a Feature’s options should be selected. This property appears only in a PrintCapabilities document. 
-
-
-## -syntax
-
-
-````
-typedef enum tagPrintSchemaSelectionType { 
-  PrintSchemaSelectionType_PickOne   = 0,
-  PrintSchemaSelectionType_PickMany  = 1
-} PrintSchemaSelectionType;
-````
 
 
 ## -enum-fields

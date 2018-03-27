@@ -49,31 +49,7 @@ req.typenames: DVD_LAYER_DESCRIPTOR, *PDVD_LAYER_DESCRIPTOR
 ## -description
 
 
-The DVD_LAYER_DESCRIPTOR structure is used in conjunction with the <a href="..\ntddcdvd\ni-ntddcdvd-ioctl_dvd_read_structure.md">IOCTL_DVD_READ_STRUCTURE</a> request to retrieve a DVD layer descriptor. 
-
-
-## -syntax
-
-
-````
-typedef struct _DVD_LAYER_DESCRIPTOR {
-  UCHAR BookVersion  :4;
-  UCHAR BookType  :4;
-  UCHAR MinimumRate  :4;
-  UCHAR DiskSize  :4;
-  UCHAR LayerType  :4;
-  UCHAR TrackPath  :1;
-  UCHAR NumberOfLayers  :2;
-  UCHAR Reserved1  :1;
-  UCHAR TrackDensity  :4;
-  UCHAR LinearDensity  :4;
-  ULONG StartingDataSector;
-  ULONG EndDataSector;
-  ULONG EndLayerZeroSector;
-  UCHAR Reserved5  :7;
-  UCHAR BCAFlag  :1;
-} DVD_LAYER_DESCRIPTOR, *PDVD_LAYER_DESCRIPTOR;
-````
+The DVD_LAYER_DESCRIPTOR structure is used in conjunction with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560426">IOCTL_DVD_READ_STRUCTURE</a> request to retrieve a DVD layer descriptor. 
 
 
 ## -struct-fields
@@ -445,10 +421,10 @@ For more information, see the <i>SCSI Multimedia Commands - 3 (MMC-3) </i>specif
 
 ## -see-also
 
-<a href="..\ntddcdvd\ni-ntddcdvd-ioctl_dvd_read_structure.md">IOCTL_DVD_READ_STRUCTURE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560426">IOCTL_DVD_READ_STRUCTURE</a>
  
 
  

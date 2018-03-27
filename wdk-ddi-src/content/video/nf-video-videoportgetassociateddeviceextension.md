@@ -53,16 +53,6 @@ req.product: Windows 10 or later.
 The <b>VideoPortGetAssociatedDeviceExtension</b> function returns the device extension for the parent of the specified device object.
 
 
-## -syntax
-
-
-````
-PVOID VideoPortGetAssociatedDeviceExtension(
-  _In_ PVOID DeviceObject
-);
-````
-
-
 ## -parameters
 
 

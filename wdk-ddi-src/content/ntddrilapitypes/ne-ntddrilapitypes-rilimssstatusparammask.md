@@ -52,21 +52,6 @@ req.typenames: RILIMSSSTATUSPARAMMASK
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef enum _RILIMSSSTATUSPARAMMASK { 
-  RIL_PARAM_IMSSTATUS_HUICCAPP,
-  RIL_PARAM_IMSSTATUS_AVAILABLESERVICES,
-  RIL_PARAM_IMSSTATUS_SMSSUPPORTEDFORMAT,
-  RIL_PARAM_IMSSTATUS_SERVINGDOMAIN,
-  RIL_PARAM_IMSSTATUS_SYSTEMTYPE,
-  RIL_PARAM_IMSSTATUS_ALL
-} RILIMSSSTATUSPARAMMASK;
-````
-
-
 ## -enum-fields
 
 

@@ -53,16 +53,6 @@ req.typenames: TOKEN_TYPE
 The <b>RtlLengthSid</b> routine returns the length, in bytes, of a valid security identifier (SID). 
 
 
-## -syntax
-
-
-````
-ULONG RtlLengthSid(
-  _In_ PSID Sid
-);
-````
-
-
 ## -parameters
 
 
@@ -79,7 +69,7 @@ Pointer to the SID structure. Must point to a valid SID.
 
 If the SID structure is valid, <b>RtlLengthSid</b> returns the length, in bytes, of the SID structure.
 
-If the SID structure is not valid, the return value is undefined. Before calling <b>RtlLengthSid</b>, pass the SID to <a href="..\ntifs\nf-ntifs-rtlvalidsid.md">RtlValidSid</a> to verify that it is valid. 
+If the SID structure is not valid, the return value is undefined. Before calling <b>RtlLengthSid</b>, pass the SID to <a href="https://msdn.microsoft.com/library/windows/hardware/ff553314">RtlValidSid</a> to verify that it is valid. 
 
 
 
@@ -95,34 +85,34 @@ For more information about security and access control, see the documentation on
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-rtlvalidsid.md">RtlValidSid</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-rtlequalprefixsid.md">RtlEqualPrefixSid</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552256">RtlEqualPrefixSid</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-rtlequalsid.md">RtlEqualSid</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552260">RtlEqualSid</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-rtlinitializesid.md">RtlInitializeSid</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552998">RtlInitializeSid</a>
 
 
 
-<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553083">RtlLengthRequiredSid</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-rtllengthrequiredsid.md">RtlLengthRequiredSid</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553236">RtlSubAuthoritySid</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-rtlsubauthoritysid.md">RtlSubAuthoritySid</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553314">RtlValidSid</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556740">SID</a>
  
 
  

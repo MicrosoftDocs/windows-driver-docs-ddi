@@ -52,21 +52,6 @@ req.typenames: RILEMERGENCYNUMBER, *LPRILEMERGENCYNUMBER
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef struct _RILEMERGENCYNUMBER {
-  DWORD     cbSize;
-  DWORD     dwParams;
-  DWORD     dwExecutor;
-  HUICCAPP  hUiccApp;
-  DWORD     dwCategory;
-  WCHAR [8] wszEmergencyNumber;
-} RILEMERGENCYNUMBER, RILEMERGENCYNUMBER;
-````
-
-
 ## -struct-fields
 
 

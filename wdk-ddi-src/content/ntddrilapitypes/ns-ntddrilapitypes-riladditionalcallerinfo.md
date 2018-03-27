@@ -52,21 +52,6 @@ req.typenames: RILADDITIONALCALLERINFO, *LPRILADDITIONALCALLERINFO
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef struct _RILADDITIONALCALLERINFO {
-  DWORD     cbSize;
-  DWORD     dwParams;
-  DWORD     dwExecutor;
-  DWORD     dwCallId;
-  DWORD     dwCallerInfoLength;
-  WCHAR [1] wszCallerInfo;
-} RILADDITIONALCALLERINFO, RILADDITIONALCALLERINFO;
-````
-
-
 ## -struct-fields
 
 

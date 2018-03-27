@@ -53,19 +53,6 @@ The <b>FWPS_PACKET_LIST_OUTBOUND_IPSEC_INFORMATION0</b> structure defines IPsec 
   outbound packet data.
 <div class="alert"><b>Note</b>  <b>FWPS_PACKET_LIST_OUTBOUND_IPSEC_INFORMATION0</b> is a specific version of <b>FWPS_PACKET_LIST_OUTBOUND_IPSEC_INFORMATION</b>. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
 
-## -syntax
-
-
-````
-typedef struct FWPS_PACKET_LIST_OUTBOUND_IPSEC_INFORMATION0_ {
-  unsigned isIPsecPolicyMatch  :1;
-  unsigned isTransportPolicyMatch  :1;
-  unsigned isTunnelPolicyMatch  :1;
-  unsigned isTunnelIPinIP  :1;
-} FWPS_PACKET_LIST_OUTBOUND_IPSEC_INFORMATION0;
-````
-
-
 ## -struct-fields
 
 
@@ -99,7 +86,7 @@ A value that indicates whether the packet list matched an IP-in-IP filter for IP
 
 
 An FWPS_PACKET_LIST_OUTBOUND_IPSEC_INFORMATION0 structure is included as a member of the 
-    <a href="..\fwpsk\ns-fwpsk-fwps_packet_list_ipsec_information0_.md">
+    <a href="https://msdn.microsoft.com/bd005dd9-887a-4323-9816-e4a3b96ca53d">
     FWPS_PACKET_LIST_IPSEC_INFORMATION0</a> structure.
 
 
@@ -107,11 +94,11 @@ An FWPS_PACKET_LIST_OUTBOUND_IPSEC_INFORMATION0 structure is included as a membe
 
 ## -see-also
 
-<a href="..\fwpsk\ns-fwpsk-fwps_packet_list_ipsec_information0_.md">
+
+
+
+<a href="https://msdn.microsoft.com/bd005dd9-887a-4323-9816-e4a3b96ca53d">
    FWPS_PACKET_LIST_IPSEC_INFORMATION0</a>
-
-
-
  
 
  

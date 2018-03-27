@@ -52,18 +52,6 @@ req.typenames: DXGK_TARGETMODE_DETAIL_TIMING
 A callback providing notification that the graphics device will be undergoing a device power state transition.
 
 
-## -prototype
-
-
-````
-VOID *PDXGK_POWER_NOTIFICATION(
-   PVOID              GraphicsDeviceHandle,
-   DEVICE_POWER_STATE NewGrfxPowerState,
-   BOOLEAN            PreNotification
-);
-````
-
-
 ## -parameters
 
 

@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: DISPATCH_LEVEL
 topic_type:
@@ -53,16 +53,6 @@ req.product: Windows 10 or later.
 Notifies UFX that the hardware is ready.
 
 
-## -syntax
-
-
-````
-VOID UfxDeviceNotifyHardwareReady(
-  [in] UFXDEVICE UfxDevice
-);
-````
-
-
 ## -parameters
 
 
@@ -70,7 +60,7 @@ VOID UfxDeviceNotifyHardwareReady(
 
 ### -param UfxDevice [in]
 
-A handle to a UFX device object that the driver created by calling <a href="..\ufxclient\nf-ufxclient-ufxdevicecreate.md">UfxDeviceCreate</a>.
+A handle to a UFX device object that the driver created by calling <a href="https://msdn.microsoft.com/library/windows/hardware/mt187951">UfxDeviceCreate</a>.
 
 
 ## -returns
@@ -86,7 +76,7 @@ This method does not return a value.
 
 
 
-The client driver typically calls <b>UfxDeviceNotifyHardwareReady</b> from its <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_d0_entry.md">EvtDeviceD0Entry</a> callback function, as shown in the following example.
+The client driver typically calls <b>UfxDeviceNotifyHardwareReady</b> from its <a href="https://msdn.microsoft.com/0cfabb0f-2d5e-4445-8683-d2916de5b549">EvtDeviceD0Entry</a> callback function, as shown in the following example.
 
 <div class="code"><span codelanguage=""><table>
 <tr>

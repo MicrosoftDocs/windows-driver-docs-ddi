@@ -52,16 +52,6 @@ req.typenames: D3D11_1DDI_ARCHITECTURE_INFO_DATA
 Describes information about display adapter architecture.
 
 
-## -syntax
-
-
-````
-typedef struct D3D11_1DDI_ARCHITECTURE_INFO_DATA {
-  BOOL TileBasedDeferredRenderer;
-} D3D11_1DDI_ARCHITECTURE_INFO_DATA;
-````
-
-
 ## -struct-fields
 
 

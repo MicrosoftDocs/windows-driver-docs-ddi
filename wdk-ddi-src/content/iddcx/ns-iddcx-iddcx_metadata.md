@@ -53,22 +53,6 @@ req.typenames:
                  Gives information about the current provided surface and what is displayed on it.
 
 
-## -syntax
-
-
-````
-typedef struct IDDCX_METADATA {
-  UINT           Size;
-  UINT           PresentationFrameNumber;
-  UINT           DirtyRectCount;
-  UINT           MoveRegionCount;
-  BOOL           HwProtectedSurface;
-  UINT64         PresentDisplayQPCTime;
-  IDXGIResource* pSurface;
-} IDDCX_METADATA, *IDDCX_METADATA;
-````
-
-
 ## -struct-fields
 
 
@@ -84,14 +68,14 @@ typedef struct IDDCX_METADATA {
 ### -field PresentationFrameNumber
 
 
-                     Presentation frame number of this surface. If the frame number is the same as the previous frame, then it indicates that there has not been any image updates from the previous frame. This is an opportunity for the driver to re-encode the desktop image again to increase the visual quality. Once there are no more updates, the OS presents the same frame as many times indicated by the <a href="..\iddcx\ns-iddcx-iddcx_adapter_caps.md">IDDCX_ADAPTER_CAPS</a> value <b>StaticDesktopReencodeFrameCount</b> , then stops presenting until the next update
+                     Presentation frame number of this surface. If the frame number is the same as the previous frame, then it indicates that there has not been any image updates from the previous frame. This is an opportunity for the driver to re-encode the desktop image again to increase the visual quality. Once there are no more updates, the OS presents the same frame as many times indicated by the <a href="https://msdn.microsoft.com/library/windows/hardware/mt761932">IDDCX_ADAPTER_CAPS</a> value <b>StaticDesktopReencodeFrameCount</b> , then stops presenting until the next update
                  
 
 
 ### -field DirtyRectCount
 
 
-                      Number of dirty rects for this frame. Call <a href="..\iddcx\nf-iddcx-iddcxswapchaingetdirtyrects.md">IddCxSwapChainGetDirtyRects</a> to get the dirty rects
+                      Number of dirty rects for this frame. Call <a href="https://msdn.microsoft.com/library/windows/hardware/mt761927">IddCxSwapChainGetDirtyRects</a> to get the dirty rects
                  
 
 <div class="alert"><b>Note</b>   A zero <b>DirtyRectCount</b> and <b>MoveRegionCount</b> value indicates there were no desktop updates and the
@@ -101,7 +85,7 @@ typedef struct IDDCX_METADATA {
 ### -field MoveRegionCount
 
 
-                     Number of move regions in this frame, call <a href="..\iddcx\nf-iddcx-iddcxswapchaingetmoveregions.md">IddCxSwapChainGetMoveRegions</a> to get the move regions
+                     Number of move regions in this frame, call <a href="https://msdn.microsoft.com/library/windows/hardware/mt761928">IddCxSwapChainGetMoveRegions</a> to get the move regions
                  
 
 <div class="alert"><b>Note</b>   A zero <b>DirtyRectCount</b> and <b>MoveRegionCount</b> value indicates there were no desktop updates and the
@@ -125,7 +109,7 @@ typedef struct IDDCX_METADATA {
 ### -field pSurface
 
 
-                     DX surface that contains the image to encode and transmit. The driver can use this DX surface anytime until <a href="..\iddcx\nf-iddcx-iddcxswapchainreleaseandacquirebuffer.md">IddCxSwapChainReleaseAndAcquire</a> is called again
+                     DX surface that contains the image to encode and transmit. The driver can use this DX surface anytime until <a href="https://msdn.microsoft.com/f9b0cf3f-cbb6-4b44-81c1-b60ae525ec17">IddCxSwapChainReleaseAndAcquire</a> is called again
 
 <div class="alert"><b>Note</b>  This surface is always a A8R8G8B8 formated surface</div>
 <div> </div>

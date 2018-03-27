@@ -53,53 +53,6 @@ To query or set OID information, NDIS submits NDIS_OID_REQUEST structures to fil
   miniport drivers.
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_OID_REQUEST {
-  NDIS_OBJECT_HEADER  Header;
-  NDIS_REQUEST_TYPE   RequestType;
-  NDIS_PORT_NUMBER    PortNumber;
-  UINT                Timeout;
-  PVOID               RequestId;
-  NDIS_HANDLE         RequestHandle;
-  union _REQUEST_DATA {
-    struct _QUERY {
-      NDIS_OID Oid;
-      PVOID    InformationBuffer;
-      UINT     InformationBufferLength;
-      UINT     BytesWritten;
-      UINT     BytesNeeded;
-    } QUERY_INFORMATION;
-    struct _SET {
-      NDIS_OID Oid;
-      PVOID    InformationBuffer;
-      UINT     InformationBufferLength;
-      UINT     BytesRead;
-      UINT     BytesNeeded;
-    } SET_INFORMATION;
-    struct _METHOD {
-      NDIS_OID Oid;
-      PVOID    InformationBuffer;
-      ULONG    InputBufferLength;
-      ULONG    OutputBufferLength;
-      ULONG    MethodId;
-      UINT     BytesWritten;
-      UINT     BytesRead;
-      UINT     BytesNeeded;
-    } METHOD_INFORMATION;
-  } DATA;
-  UCHAR               NdisReserved[NDIS_OID_REQUEST_NDIS_RESERVED_SIZE * sizeof(PVOID)];
-  UCHAR               MiniportReserved[2*sizeof(PVOID)];
-  UCHAR               SourceReserved[2*sizeof(PVOID)];
-  UCHAR               SupportedRevision;
-  UCHAR               Reserved1;
-  USHORT              Reserved2;
-} NDIS_OID_REQUEST, *PNDIS_OID_REQUEST;
-````
-
-
 ## -struct-fields
 
 
@@ -108,7 +61,7 @@ typedef struct _NDIS_OID_REQUEST {
 ### -field Header
 
 The 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure for the
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure for the
      NDIS_OID_REQUEST structure. Set the 
      <b>Type</b> member of the structure that 
      <b>Header</b> specifies to NDIS_OBJECT_TYPE_OID_REQUEST, the 
@@ -119,7 +72,7 @@ The
 ### -field RequestType
 
 The request type as one of the 
-     <a href="..\ntddndis\ne-ntddndis-_ndis_request_type.md">NDIS_REQUEST_TYPE</a> enumeration
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff567250">NDIS_REQUEST_TYPE</a> enumeration
      values.
 
 
@@ -141,7 +94,7 @@ An identifier for the request. If a miniport driver must complete a request imme
      completes the request with a status of NDIS_STATUS_INDICATION_REQUIRED, the miniport driver uses this 
      <b>RequestId</b> value to set the 
      <b>RequestId</b> member of the associated 
-     <a href="..\ndis\ns-ndis-_ndis_status_indication.md">NDIS_STATUS_INDICATION</a> structure. 
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff567373">NDIS_STATUS_INDICATION</a> structure. 
      
 
 NDIS or overlying drivers can also use the 
@@ -220,7 +173,7 @@ The size, in bytes, of the buffer at
 
 The number of bytes that the underlying driver or NDIS transfers into the buffer at 
        <b>InformationBuffer</b> for query-information requests. If the 
-       <a href="..\ndis\nf-ndis-ndisoidrequest.md">NdisOidRequest</a> function returns
+       <a href="https://msdn.microsoft.com/library/windows/hardware/ff563710">NdisOidRequest</a> function returns
        NDIS_STATUS_INVALID_LENGTH, the value of this member is meaningless.
 
 
@@ -374,7 +327,7 @@ The method to run for a method OID. A method OID request can support multiple op
 
 The number of bytes that the underlying driver or NDIS transfers into the buffer at 
         <b>InformationBuffer</b> for query-information requests. If the 
-        <a href="..\ndis\nf-ndis-ndisoidrequest.md">NdisOidRequest</a> function returns
+        <a href="https://msdn.microsoft.com/library/windows/hardware/ff563710">NdisOidRequest</a> function returns
         NDIS_STATUS_INVALID_LENGTH, the value of this member is meaningless.
 
 For method OIDs, 
@@ -433,7 +386,7 @@ An area that is reserved for the originating driver. Reserved for the allocator 
 
 The revision of an NDIS structure that was supported by an NDIS 6.0 or later driver when it
      handled an OID request. A revisioned structure is any NDIS 6.0 structure that has an 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure inside it.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure inside it.
      When the driver succeeds in setting an OID, it must set 
      <b>SupportedRevision</b> to the revision number of the structure that it
      supported. For more information about NDIS version information, see 
@@ -479,7 +432,7 @@ A protocol driver or a filter driver should allocate nonpaged memory for the buf
 
 NDIS_OID_REQUEST contains a DATA substructure for each type of operation that a protocol driver can
     request of an underlying driver. Before calling 
-    <a href="..\ndis\nf-ndis-ndisoidrequest.md">NdisOidRequest</a>, the protocol driver fills
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff563710">NdisOidRequest</a>, the protocol driver fills
     in the relevant members of the substructure that represents the query or set operation it specified in
     the 
     <b>Oid</b> member. NDIS or the underlying driver fills in the remaining members
@@ -494,7 +447,7 @@ If a status indication is associated with an OID request where the miniport driv
     NDIS_STATUS_INDICATION_REQUIRED, the driver making the status indication must set the 
     <b>DestinationHandle</b> and 
     <b>RequestId</b> members in the 
-    <a href="..\ndis\ns-ndis-_ndis_status_indication.md">NDIS_STATUS_INDICATION</a> structure.
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff567373">NDIS_STATUS_INDICATION</a> structure.
 
 In this case, the driver sets the 
     <b>DestinationHandle</b> and 
@@ -516,26 +469,26 @@ The
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_ndis_status_indication.md">NDIS_STATUS_INDICATION</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567250">NDIS_REQUEST_TYPE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567373">NDIS_STATUS_INDICATION</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563710">NdisOidRequest</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569641">OID_GEN_SUPPORTED_GUIDS</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
-<a href="..\ntddndis\ne-ntddndis-_ndis_request_type.md">NDIS_REQUEST_TYPE</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisoidrequest.md">NdisOidRequest</a>
-
-
-
  
 
  

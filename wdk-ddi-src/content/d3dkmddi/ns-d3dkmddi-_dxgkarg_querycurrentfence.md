@@ -52,18 +52,6 @@ req.typenames: DXGKARG_QUERYCURRENTFENCE
 The DXGKARG_QUERYCURRENTFENCE structure describes the latest completed submission fence. 
 
 
-## -syntax
-
-
-````
-typedef struct _DXGKARG_QUERYCURRENTFENCE {
-  UINT CurrentFence;
-  UINT NodeOrdinal;
-  UINT EngineOrdinal;
-} DXGKARG_QUERYCURRENTFENCE;
-````
-
-
 ## -struct-fields
 
 
@@ -86,10 +74,10 @@ typedef struct _DXGKARG_QUERYCURRENTFENCE {
 
 ## -see-also
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_querycurrentfence.md">DxgkDdiQueryCurrentFence</a>
 
 
 
+<a href="https://msdn.microsoft.com/0ca4d42f-3036-4b81-91a4-fbce7ac891fe">DxgkDdiQueryCurrentFence</a>
  
 
  

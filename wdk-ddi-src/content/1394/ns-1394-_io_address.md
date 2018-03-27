@@ -52,17 +52,6 @@ req.typenames: IO_ADDRESS, *PIO_ADDRESS
 The IO_ADDRESS structure specifies the 1394 64-bit destination address for read, write and lock operations.
 
 
-## -syntax
-
-
-````
-typedef struct _IO_ADDRESS {
-  NODE_ADDRESS   IA_Destination_ID;
-  ADDRESS_OFFSET IA_Destination_Offset;
-} IO_ADDRESS, *PIO_ADDRESS;
-````
-
-
 ## -struct-fields
 
 
@@ -80,19 +69,14 @@ Holds a structure of type <a href="https://msdn.microsoft.com/library/windows/ha
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537642">REQUEST_GET_CONFIGURATION_INFO</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537435">NODE_ADDRESS</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537636">REQUEST_ASYNC_WRITE</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536906">ADDRESS_OFFSET</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537435">NODE_ADDRESS</a>
 
 
 
@@ -104,6 +88,11 @@ Holds a structure of type <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537636">REQUEST_ASYNC_WRITE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537642">REQUEST_GET_CONFIGURATION_INFO</a>
  
 
  

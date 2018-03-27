@@ -54,44 +54,6 @@ The <b>NDIS_OFFLOAD_PARAMETERS</b> structure specifies the current task offload 
   OID set request of <a href="https://msdn.microsoft.com/library/windows/hardware/ff569807">OID_TCP_OFFLOAD_PARAMETERS</a>.
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_OFFLOAD_PARAMETERS {
-  NDIS_OBJECT_HEADER Header;
-  UCHAR              IPv4Checksum;
-  UCHAR              TCPIPv4Checksum;
-  UCHAR              UDPIPv4Checksum;
-  UCHAR              TCPIPv6Checksum;
-  UCHAR              UDPIPv6Checksum;
-  UCHAR              LsoV1;
-  UCHAR              IPsecV1;
-  UCHAR              LsoV2IPv4;
-  UCHAR              LsoV2IPv6;
-  UCHAR              TcpConnectionIPv4;
-  UCHAR              TcpConnectionIPv6;
-  ULONG              Flags;
-#if (NDIS_SUPPORT_NDIS61)
-  UCHAR              IPsecV2;
-  UCHAR              IPsecV2IPv4;
-#endif 
-#if (NDIS_SUPPORT_NDIS630)
-  struct {
-    UCHAR RscIPv4;
-    UCHAR RscIPv6;
-  };
-#endif 
-#if (NDIS_SUPPORT_NDIS630)
-  struct {
-    UCHAR EncapsulatedPacketTaskOffload;
-    UCHAR EncapsulationTypes;
-  };
-#endif 
-} NDIS_OFFLOAD_PARAMETERS, *PNDIS_OFFLOAD_PARAMETERS;
-````
-
-
 ## -struct-fields
 
 
@@ -100,7 +62,7 @@ typedef struct _NDIS_OFFLOAD_PARAMETERS {
 ### -field Header
 
 The 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure for the
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure for the
      <b>NDIS_OFFLOAD_PARAMETERS</b> structure. Set the 
      <b>Type</b> member of the structure that 
      <b>Header</b> specifies to NDIS_OBJECT_TYPE_DEFAULT.
@@ -803,7 +765,10 @@ The preceding members can have one of the following values:
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569807">OID_TCP_OFFLOAD_PARAMETERS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
 
 
 
@@ -812,10 +777,7 @@ The preceding members can have one of the following values:
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569807">OID_TCP_OFFLOAD_PARAMETERS</a>
  
 
  

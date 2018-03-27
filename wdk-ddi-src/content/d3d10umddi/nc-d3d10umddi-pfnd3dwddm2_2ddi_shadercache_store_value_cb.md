@@ -52,24 +52,6 @@ req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 The <i>pfnShaderCacheStoreValue</i> callback function stores a shader cache value.
 
 
-## -prototype
-
-
-````
-PFND3DWDDM2_2DDI_SHADERCACHE_STORE_VALUE_CB pfnShaderCacheStoreValue;
-
-HRESULT APIENTRY CALLBACK * pfnShaderCacheStoreValue(
-       D3DWDDM2_2DDI_HRTCACHESESSION      *hCacheSession,
-  _In_ D3DWDDM2_2DDI_SHADERCACHE_HASH     *pPrecomputedHash,
-  _In_ _reads_bytes_(KeyLen) const void   *pKey,
-       SIZE_T                             KeyLen,
-  _In_ _reads_bytes_(ValueLen) const void *pValue,
-       SIZE_T                             ValueLen
-)
-{ ... }
-````
-
-
 ## -parameters
 
 

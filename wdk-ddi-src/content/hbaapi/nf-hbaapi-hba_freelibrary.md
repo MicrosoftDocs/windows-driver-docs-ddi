@@ -52,14 +52,6 @@ req.typenames: HBA_WWNTYPE
 The <b>HBA_FreeLibrary</b> routine releases system resources associated with fibre channel HBA library.
 
 
-## -syntax
-
-
-````
-HBA_STATUS HBA_API HBA_FreeLibrary(void);
-````
-
-
 ## -parameters
 
 
@@ -78,10 +70,10 @@ The <b>HBA_FreeLibrary</b> routine returns a value of type <a href="https://msdn
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
-
-
-
  
 
  

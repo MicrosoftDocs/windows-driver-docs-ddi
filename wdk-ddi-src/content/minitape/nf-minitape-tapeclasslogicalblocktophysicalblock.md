@@ -53,19 +53,6 @@ req.typenames: TAPE_STATUS, *PTAPE_STATUS
 The <b>TapeClassLogicalBlockToPhysicalBlock</b> routine translates a pseudological block address to a physical block address. This routine is for SCSI-1 devices.
 
 
-## -syntax
-
-
-````
-TAPE_PHYS_POSITION TapeClassLogicalBlockToPhysicalBlock(
-  _In_ UCHAR   DensityCode,
-  _In_ ULONG   LogicalBlockAddress,
-  _In_ ULONG   BlockLength,
-  _In_ BOOLEAN FromBOT
-);
-````
-
-
 ## -parameters
 
 
@@ -124,10 +111,10 @@ If a tape miniclass driver calls this routine with an unsupported tape density c
 
 ## -see-also
 
-<a href="..\minitape\nf-minitape-tapeclassphysicalblocktologicalblock.md">TapeClassPhysicalBlockToLogicalBlock</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567625">TapeClassPhysicalBlockToLogicalBlock</a>
  
 
  

@@ -55,16 +55,6 @@ req.typenames: D3DKMT_DRIVERVERSION
 The <b>D3DKMTLock</b> function locks an entire allocation or specific pages within an allocation.
 
 
-## -syntax
-
-
-````
-NTSTATUS D3DKMTLock(
-  _Inout_ D3DKMT_LOCK *pData
-);
-````
-
-
 ## -parameters
 
 
@@ -74,7 +64,7 @@ NTSTATUS D3DKMTLock(
 
 #### - pData [in, out]
 
-A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_lock.md">D3DKMT_LOCK</a> structure that describes parameters for locking an allocation.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff548094">D3DKMT_LOCK</a> structure that describes parameters for locking an allocation.
 
 
 ## -returns
@@ -203,10 +193,10 @@ The following code example demonstrates how an OpenGL ICD can use <b>D3DKMTLock<
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_lock.md">D3DKMT_LOCK</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548094">D3DKMT_LOCK</a>
  
 
  

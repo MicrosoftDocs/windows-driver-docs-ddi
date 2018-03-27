@@ -56,16 +56,6 @@ req.product: Windows 10 or later.
 The <b>KsReferenceSoftwareBusObject</b> function increments the reference count of the demand-load bus enumerator object's PDO. 
 
 
-## -syntax
-
-
-````
-NTSTATUS KsReferenceSoftwareBusObject(
-  _In_ KSDEVICE_HEADER Header
-);
-````
-
-
 ## -parameters
 
 
@@ -98,18 +88,18 @@ The device object remains active and enumerated until the reference count return
 
 ## -see-also
 
-<a href="..\swenum\ns-swenum-_bus_interface_swenum.md">BUS_INTERFACE_SWENUM</a>
 
 
 
-<a href="..\swenum\nf-swenum-ksquerysoftwarebusinterface.md">KsQuerySoftwareBusInterface</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557589">BUS_INTERFACE_SWENUM</a>
 
 
 
-<a href="..\swenum\nf-swenum-ksdereferencesoftwarebusobject.md">KsDereferenceSoftwareBusObject</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561678">KsDereferenceSoftwareBusObject</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566749">KsQuerySoftwareBusInterface</a>
  
 
  

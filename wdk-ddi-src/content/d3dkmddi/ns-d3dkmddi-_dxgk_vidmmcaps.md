@@ -52,43 +52,6 @@ req.typenames: DXGK_VIDMMCAPS
 The <b>DXGK_VIDMMCAPS</b> structure identifies the video memory management capabilities that a display miniport driver can support.
 
 
-## -syntax
-
-
-````
-typedef struct _DXGK_VIDMMCAPS {
-  union {
-    struct {
-      UINT OutOfOrderLock  :1;
-#if (DXGKDDI_INTERFACE_VERSION >= DXGKDDI_INTERFACE_VERSION_WIN7)
-      UINT DedicatedPagingEngine  :1;
-      UINT PagingEngineCanSwizzle  :1;
-      UINT SectionBackedPrimary  :1;
-#if (DXGKDDI_INTERFACE_VERSION >= DXGKDDI_INTERFACE_VERSION_WDDM1_3)
-      UINT CrossAdapterResource  :1;
-#if (DXGKDDI_INTERFACE_VERSION >= DXGKDDI_INTERFACE_VERSION_WDDM2_0)
-      UINT VirtualAddressingSupported  :1;
-      UINT GpuMmuSupported  :1;
-      UINT IoMmuSupported  :1;
-      UINT ReplicateGdiContent  :1;
-      UINT Reserved  :23;
-#else 
-      UINT Reserved  :27;
-#endif 
-#else 
-      UINT Reserved  :28;
-#endif 
-#else 
-      UINT Reserved  :31;
-#endif 
-    };
-    UINT Value;
-  };
-  UINT PagingNode;
-} DXGK_VIDMMCAPS;
-````
-
-
 ## -struct-fields
 
 
@@ -184,7 +147,7 @@ Note that this version of the <b>Reserved</b> member is available only if DXGKDD
 
 ### -field PagingNode
 
-The zero-based index of the node to use for paging operations. If the driver does not set the <b>MultiEngineAware</b> bit-field member of the <b>SchedulingCaps</b> member of the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_drivercaps.md">DXGK_DRIVERCAPS</a> structure, the DirectX graphics kernel subsystem ignores the setting of <b>PagingNode</b>. 
+The zero-based index of the node to use for paging operations. If the driver does not set the <b>MultiEngineAware</b> bit-field member of the <b>SchedulingCaps</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff561062">DXGK_DRIVERCAPS</a> structure, the DirectX graphics kernel subsystem ignores the setting of <b>PagingNode</b>. 
 
 
 #### - Value
@@ -196,10 +159,10 @@ The zero-based index of the node to use for paging operations. If the driver doe
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_drivercaps.md">DXGK_DRIVERCAPS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561062">DXGK_DRIVERCAPS</a>
  
 
  

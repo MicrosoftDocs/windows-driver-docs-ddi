@@ -52,16 +52,6 @@ req.typenames: CIP_TALK, *PCIP_TALK
 This structure is used to begin transmission. The  request begins isochronous transmission on the specified connection. This request will start transmitting CIP packets, whether there are any frames attached. If no frames are attached, empty CIP packets are transmitted for every isochronous cycle.
 
 
-## -syntax
-
-
-````
-typedef struct _CIP_TALK {
-  HANDLE hConnect;
-} CIP_TALK, *PCIP_TALK;
-````
-
-
 ## -struct-fields
 
 
@@ -106,10 +96,10 @@ If the protocol driver is unable to allocate resources, it sets <b>Irp-&gt;IoSta
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537008">AV_61883_REQUEST</a>
-
-
-
  
 
  

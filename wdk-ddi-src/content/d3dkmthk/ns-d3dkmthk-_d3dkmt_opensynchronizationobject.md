@@ -49,19 +49,7 @@ req.typenames: D3DKMT_OPENSYNCHRONIZATIONOBJECT
 ## -description
 
 
-The D3DKMT_OPENSYNCHRONIZATIONOBJECT structure describes a synchronization object that the <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtopensynchronizationobject.md">D3DKMTOpenSynchronizationObject</a> function opens. 
-
-
-## -syntax
-
-
-````
-typedef struct _D3DKMT_OPENSYNCHRONIZATIONOBJECT {
-  D3DKMT_HANDLE hSharedHandle;
-  D3DKMT_HANDLE hSyncObject;
-  UINT64        Reserved[8];
-} D3DKMT_OPENSYNCHRONIZATIONOBJECT;
-````
+The D3DKMT_OPENSYNCHRONIZATIONOBJECT structure describes a synchronization object that the <a href="https://msdn.microsoft.com/library/windows/hardware/ff547069">D3DKMTOpenSynchronizationObject</a> function opens. 
 
 
 ## -struct-fields
@@ -86,10 +74,10 @@ typedef struct _D3DKMT_OPENSYNCHRONIZATIONOBJECT {
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtopensynchronizationobject.md">D3DKMTOpenSynchronizationObject</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547069">D3DKMTOpenSynchronizationObject</a>
  
 
  

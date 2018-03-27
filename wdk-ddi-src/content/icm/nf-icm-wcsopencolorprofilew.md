@@ -53,22 +53,6 @@ req.typenames: WCS_PROFILE_MANAGEMENT_SCOPE
 The <code>WcsOpenColorProfile</code> function creates a handle to a specified color profile.
 
 
-## -syntax
-
-
-````
-HPROFILE WINAPI WcsOpenColorProfile(
-  _In_     PROFILE pDMPProfile,
-  _In_opt_ PROFILE pCAMPProfile,
-  _In_opt_ PROFILE pGMMPProfile,
-  _In_     DWORD   dwDesiredAccess,
-  _In_     DWORD   dwShareMode,
-  _In_     DWORD   dwCreationMode,
-  _In_     DWORD   dwFlags
-);
-````
-
-
 ## -parameters
 
 
@@ -259,10 +243,10 @@ Use the <a href="http://go.microsoft.com/fwlink/p/?linkid=52323">CloseColorProfi
 
 ## -see-also
 
+
+
+
 <a href="http://go.microsoft.com/fwlink/p/?linkid=52323">CloseColorProfile</a>
-
-
-
  
 
  

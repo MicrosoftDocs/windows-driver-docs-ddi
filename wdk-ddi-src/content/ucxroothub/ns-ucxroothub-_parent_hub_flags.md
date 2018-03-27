@@ -50,21 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This structure is used by the <a href="..\ucxroothub\ns-ucxroothub-_hub_info_from_parent.md">HUB_INFO_FROM_PARENT</a> structure to get hub information from the parent.
-
-
-## -syntax
-
-
-````
-typedef union _PARENT_HUB_FLAGS {
-  ULONG  AsUlong32;
-  struct {
-    ULONG DisableLpmForAllDownstreamDevices  :1;
-    ULONG HubIsHighSpeedCapable  :1;
-  };
-} PARENT_HUB_FLAGS;
-````
+This structure is used by the <a href="https://msdn.microsoft.com/library/windows/hardware/mt188022">HUB_INFO_FROM_PARENT</a> structure to get hub information from the parent.
 
 
 ## -struct-fields
@@ -96,10 +82,10 @@ Indicates that the hub is high-speed capable.
 
 ## -see-also
 
-<a href="..\ucxroothub\ns-ucxroothub-_hub_info_from_parent.md">HUB_INFO_FROM_PARENT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt188022">HUB_INFO_FROM_PARENT</a>
  
 
  

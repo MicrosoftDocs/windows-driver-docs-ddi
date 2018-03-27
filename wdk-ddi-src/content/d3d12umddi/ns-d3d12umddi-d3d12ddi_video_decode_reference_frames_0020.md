@@ -52,18 +52,6 @@ req.typenames: D3D12DDI_VIDEO_DECODE_REFERENCE_FRAMES_0020
 Contains the reference frames for the current decode operation.  
 
 
-## -syntax
-
-
-````
-typedef struct D3D12DDI_VIDEO_DECODE_REFERENCE_FRAMES_0020 {
-  D3D12DDI_HRESOURCE *hDrvReferenceTexture2Ds;
-  UINT               *pReferenceSubresources;
-  UINT               NumReferenceResources;
-} D3D12DDI_VIDEO_DECODE_REFERENCE_FRAMES_0020;
-````
-
-
 ## -struct-fields
 
 

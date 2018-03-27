@@ -53,21 +53,6 @@ req.product: Windows 10 or later.
 The WWAN_AUTH_RESPONSE structure represents an authentication challenge response.
 
 
-## -syntax
-
-
-````
-typedef struct _WWAN_AUTH_RESPONSE {
-  WWAN_AUTH_METHOD AuthMethod;
-  union {
-    WWAN_AUTH_SIM_RESPONSE  AuthSim;
-    WWAN_AUTH_AKA_RESPONSE  AuthAka;
-    WWAN_AUTH_AKAP_RESPONSE AuthAkap;
-  } u;
-} WWAN_AUTH_RESPONSE, *PWWAN_AUTH_RESPONSE;
-````
-
-
 ## -struct-fields
 
 
@@ -105,33 +90,33 @@ The response from the AKA' authentication method.  If <b>AuthMethod</b> is set t
 
 
 
-The <a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_auth_response.md">NDIS_WWAN_AUTH_RESPONSE</a> structure uses this structure.
+The <a href="https://msdn.microsoft.com/library/windows/hardware/hh439834">NDIS_WWAN_AUTH_RESPONSE</a> structure uses this structure.
 
 
 
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_auth_sim_response.md">WWAN_AUTH_SIM_RESPONSE</a>
 
 
 
-<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_auth_response.md">NDIS_WWAN_AUTH_RESPONSE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439834">NDIS_WWAN_AUTH_RESPONSE</a>
 
 
 
-<a href="..\wwan\ne-wwan-_wwan_auth_method.md">WWAN_AUTH_METHOD</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh440303">WWAN_AUTH_AKAP_RESPONSE</a>
 
 
 
-<a href="..\wwan\ns-wwan-_wwan_auth_akap_response.md">WWAN_AUTH_AKAP_RESPONSE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh464126">WWAN_AUTH_AKA_RESPONSE</a>
 
 
 
-<a href="..\wwan\ns-wwan-_wwan_auth_aka_response.md">WWAN_AUTH_AKA_RESPONSE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh464128">WWAN_AUTH_METHOD</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh464131">WWAN_AUTH_SIM_RESPONSE</a>
  
 
  

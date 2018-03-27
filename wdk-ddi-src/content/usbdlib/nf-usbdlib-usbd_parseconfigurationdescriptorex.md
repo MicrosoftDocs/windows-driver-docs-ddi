@@ -54,22 +54,6 @@ req.product: Windows 10 or later.
 The <b>USBD_ParseConfigurationDescriptorEx</b> routine searches a given configuration descriptor and returns a pointer to an interface that matches the given search criteria.
 
 
-## -syntax
-
-
-````
-PUSB_INTERFACE_DESCRIPTOR USBD_ParseConfigurationDescriptorEx(
-  _In_ PUSB_CONFIGURATION_DESCRIPTOR ConfigurationDescriptor,
-  _In_ PVOID                         StartPosition,
-  _In_ LONG                          InterfaceNumber,
-  _In_ LONG                          AlternateSetting,
-  _In_ LONG                          InterfaceClass,
-  _In_ LONG                          InterfaceSubClass,
-  _In_ LONG                          InterfaceProtocol
-);
-````
-
-
 ## -parameters
 
 
@@ -123,7 +107,7 @@ Specifies the device- or USB-defined identifier for the interface protocol of th
 
 
 
-Callers can specify more than one of the search criteria (InterfaceNumber, AlternateSetting, InterfaceClass, InterfaceSubClass, and InterfaceProtocol) when using this routine to find an interface within a configuration descriptor. For example code, see <a href="..\usbdlib\nf-usbdlib-usbd_createconfigurationrequestex.md">USBD_CreateConfigurationRequestEx</a>.
+Callers can specify more than one of the search criteria (InterfaceNumber, AlternateSetting, InterfaceClass, InterfaceSubClass, and InterfaceProtocol) when using this routine to find an interface within a configuration descriptor. For example code, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff539029">USBD_CreateConfigurationRequestEx</a>.
 
 When this routine parses the configuration descriptor looking for the interface descriptor that matches the search criteria, it returns the first match, terminating the search. Callers should specify as many search criteria as are necessary to find the desired interface.
 
@@ -132,14 +116,14 @@ When this routine parses the configuration descriptor looking for the interface 
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540134">USB device driver programming reference</a>
 
 
 
-<a href="..\usbspec\ns-usbspec-_usb_configuration_descriptor.md">USB_CONFIGURATION_DESCRIPTOR</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539241">USB_CONFIGURATION_DESCRIPTOR</a>
  
 
  

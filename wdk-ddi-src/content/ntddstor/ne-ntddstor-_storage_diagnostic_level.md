@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: 
+req.irql: "<=DISPATCH_LEVEL"
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -50,17 +50,6 @@ req.typenames: STORAGE_DIAGNOSTIC_LEVEL, *PSTORAGE_DIAGNOSTIC_LEVEL
 
 
 The <b>STORAGE_DIAGNOSTIC_LEVEL</b> enumeration specifies the target type of a storage diagnostic.
-
-
-## -syntax
-
-
-````
-typedef enum _STORAGE_DIAGNOSTIC_LEVEL { 
-  StorageDiagnosticLevelDefault  = 0,
-  StorageDiagnosticLevelMax
-} STORAGE_DIAGNOSTIC_LEVEL, *PSTORAGE_DIAGNOSTIC_LEVEL;
-````
 
 
 ## -enum-fields

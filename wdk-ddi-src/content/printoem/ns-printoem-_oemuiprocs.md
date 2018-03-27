@@ -52,18 +52,7 @@ req.product: Windows 10 or later.
 
 The OEMUIPROCS structure is obsolete.
 
-The OEMUIPROCS structure contains the address of the <a href="..\printoem\nc-printoem-pfn_drvgetdriversetting.md">DrvGetDriverSetting</a> and <a href="..\printoem\nc-printoem-pfn_drvupdateuisetting.md">DrvUpdateUISetting</a> functions that are exported by Microsoft printer drivers.
-
-
-## -syntax
-
-
-````
-typedef struct _OEMUIPROCS {
-  PFN_DrvGetDriverSetting DrvGetDriverSetting;
-  PFN_DrvUpdateUISetting  DrvUpdateUISetting;
-} OEMUIPROCS, *POEMUIPROCS;
-````
+The OEMUIPROCS structure contains the address of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff548556">DrvGetDriverSetting</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff548641">DrvUpdateUISetting</a> functions that are exported by Microsoft printer drivers.
 
 
 ## -struct-fields
@@ -73,7 +62,7 @@ typedef struct _OEMUIPROCS {
 
 ### -field DrvGetDriverSetting
 
-Pointer to the printer driver's <b>DrvGetDriverSetting</b> function. (To obtain this function's address in kernel mode, see <a href="..\printoem\ns-printoem-_drvprocs.md">DRVPROCS</a>.)
+Pointer to the printer driver's <b>DrvGetDriverSetting</b> function. (To obtain this function's address in kernel mode, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff548571">DRVPROCS</a>.)
 
 
 ### -field DrvUpdateUISetting
@@ -86,9 +75,9 @@ Pointer to the printer driver's <b>DrvUpdateUISetting</b> function.
 
 
 
-<a href="..\printoem\nc-printoem-pfn_drvgetdriversetting.md">DrvGetDriverSetting</a> and <a href="..\printoem\nc-printoem-pfn_drvupdateuisetting.md">DrvUpdateUISetting</a> have been superseded by COM-based interfaces. 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548556">DrvGetDriverSetting</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff548641">DrvUpdateUISetting</a> have been superseded by COM-based interfaces. 
 
-The OEMUIPROCS structure's address is contained in an <a href="..\printoem\ns-printoem-_oemuiobj.md">OEMUIOBJ</a> structure.
+The OEMUIPROCS structure's address is contained in an <a href="https://msdn.microsoft.com/library/windows/hardware/ff559571">OEMUIOBJ</a> structure.
 
 
 

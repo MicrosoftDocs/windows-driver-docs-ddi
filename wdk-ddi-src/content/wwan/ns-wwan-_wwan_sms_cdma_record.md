@@ -53,24 +53,6 @@ req.product: Windows 10 or later.
 The WWAN_SMS_CDMA_RECORD structure represents CDMA-based SMS text message records.
 
 
-## -syntax
-
-
-````
-typedef struct _WWAN_SMS_CDMA_RECORD {
-  ULONG                  MessageIndex;
-  WWAN_MSG_STATUS        MsgStatus;
-  CHAR                   Address[WWAN_SMS_CDMA_ADDR_MAX_LEN];
-  CHAR                   ScTimeStamp[WWAN_SMS_CDMA_TIMESTAMP_MAX_LEN];
-  WWAN_SMS_CDMA_ENCODING EncodingId;
-  WWAN_SMS_CDMA_LANG     LanguageId;
-  USHORT                 SizeInBytes;
-  BYTE                   SizeInCharacters;
-  BYTE                   EncodedMsg[WWAN_SMS_CDMA_MAX_BUF_LEN];
-} WWAN_SMS_CDMA_RECORD, *PWWAN_SMS_CDMA_RECORD;
-````
-
-
 ## -struct-fields
 
 
@@ -200,18 +182,18 @@ The encoded content of the record that represents the SMS text message.
 
 ## -see-also
 
-<a href="..\wwan\ne-wwan-_wwan_sms_cdma_encoding.md">WWAN_SMS_CDMA_ENCODING</a>
 
 
 
-<a href="..\wwan\ne-wwan-_wwan_msg_status.md">WWAN_MSG_STATUS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571209">WWAN_MSG_STATUS</a>
 
 
 
-<a href="..\wwan\ne-wwan-_wwan_sms_cdma_lang.md">WWAN_SMS_CDMA_LANG</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571241">WWAN_SMS_CDMA_ENCODING</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571242">WWAN_SMS_CDMA_LANG</a>
  
 
  

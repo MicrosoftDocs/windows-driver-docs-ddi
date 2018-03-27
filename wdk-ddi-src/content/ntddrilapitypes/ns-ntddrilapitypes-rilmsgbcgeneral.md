@@ -52,30 +52,6 @@ req.typenames: RILMSGBCGENERAL, *LPRILMSGBCGENERAL
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef struct _RILMSGBCGENERAL {
-  RILGEOSCOPE                 dwGeoScope;
-  DWORD                       dwMsgCode;
-  DWORD                       dwUpdateNumber;
-  DWORD                       dwID;
-  DWORD                       dwSerialNumber;
-  RILMSGDCS                   rmdDataCoding;
-  DWORD                       dwTotalPages;
-  DWORD                       dwPageNumber;
-  RILMSGBCGENERALWARNINGTYPE  dwWarningType;
-  BOOL                        bEmergencyUserAlert;
-  BOOL                        bMessagePopup;
-  RILSYSTEMTIME               stSCReceiveTime;
-  BYTE [43]                   digSig;
-  DWORD                       cchMsgLength;
-  BYTE [512]                  rgbMsg;
-} RILMSGBCGENERAL, RILMSGBCGENERAL;
-````
-
-
 ## -struct-fields
 
 

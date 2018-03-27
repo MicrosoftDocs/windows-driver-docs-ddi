@@ -52,22 +52,6 @@ req.typenames: D3DKMT_QUERYRESOURCEINFOFROMNTHANDLE
 Describes information that is required to map a global NT handle to resource information.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DKMT_QUERYRESOURCEINFOFROMNTHANDLE {
-  D3DKMT_HANDLE hDevice;
-  HANDLE        hNtHandle;
-  VOID          *pPrivateRuntimeData;
-  UINT          PrivateRuntimeDataSize;
-  UINT          TotalPrivateDriverDataSize;
-  UINT          ResourcePrivateDriverDataSize;
-  UINT          NumAllocations;
-} D3DKMT_QUERYRESOURCEINFOFROMNTHANDLE;
-````
-
-
 ## -struct-fields
 
 
@@ -112,10 +96,10 @@ typedef struct _D3DKMT_QUERYRESOURCEINFOFROMNTHANDLE {
 
 ## -see-also
 
-<a href="..\d3dkmthk\nc-d3dkmthk-pfnd3dkmt_queryresourceinfofromnthandle.md">D3DKMTQueryResourceInfoFromNtHandle</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439446">D3DKMTQueryResourceInfoFromNtHandle</a>
  
 
  

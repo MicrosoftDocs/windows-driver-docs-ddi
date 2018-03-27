@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,18 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>wiauStrW2W</b> function copies a Unicode string to another Unicode string.
-
-
-## -syntax
-
-
-````
-HRESULT _stdcall wiauStrW2W(
-  _In_  WCHAR *pwszSrc,
-  _Out_ WCHAR *pwszDst,
-        INT   iSize
-);
-````
 
 
 ## -parameters
@@ -96,18 +84,18 @@ On success, the function returns S_OK. If the function fails, it returns a stand
 
 ## -see-also
 
-<a href="..\wiautil\nf-wiautil-wiaustrc2c.md">wiauStrC2C</a>
 
 
 
-<a href="..\wiautil\nf-wiautil-wiaustrc2w.md">wiauStrC2W</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550183">wiauStrC2C</a>
 
 
 
-<a href="..\wiautil\nf-wiautil-wiaustrw2c.md">wiauStrW2C</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550186">wiauStrC2W</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550187">wiauStrW2C</a>
  
 
  

@@ -52,16 +52,6 @@ req.typenames: RILRADIOSTATEGROUPFLAGS
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef enum _RILRADIOSTATEGROUPFLAGS { 
-  RIL_RADIOSTATE_GROUPFLAG_HASSUBGROUPS
-} RILRADIOSTATEGROUPFLAGS;
-````
-
-
 ## -enum-fields
 
 

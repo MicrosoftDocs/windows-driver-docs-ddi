@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 The UNIDRV_PRIVATE_DEVMODE structure enables Unidrv plug-ins to determine the size of the private portion of Unidrv's DEVMODEW structure.
 
 
-## -syntax
-
-
-````
-typedef struct _UNIDRV_PRIVATE_DEVMODE {
-  WORD wReserved[4];
-  WORD wSize;
-} UNIDRV_PRIVATE_DEVMODE, *PUNIDRV_PRIVATE_DEVMODE;
-````
-
-
 ## -struct-fields
 
 
@@ -126,7 +115,7 @@ The preceding example starts with the address of the public DEVMODEW structure (
 
 </li>
 <li>
-Verify that the private portion of your plug-in's DEVMODEW structure begins with a valid <a href="..\printoem\ns-printoem-_oem_dmextraheader.md">OEM_DMEXTRAHEADER</a> structure.
+Verify that the private portion of your plug-in's DEVMODEW structure begins with a valid <a href="https://msdn.microsoft.com/library/windows/hardware/ff559588">OEM_DMEXTRAHEADER</a> structure.
 
 </li>
 </ol>
@@ -135,10 +124,10 @@ Verify that the private portion of your plug-in's DEVMODEW structure begins with
 
 ## -see-also
 
-<a href="..\printoem\ns-printoem-_pscript5_private_devmode.md">PSCRIPT5_PRIVATE_DEVMODE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561799">PSCRIPT5_PRIVATE_DEVMODE</a>
  
 
  

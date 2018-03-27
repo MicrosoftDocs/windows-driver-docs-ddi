@@ -49,22 +49,7 @@ req.typenames: D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMCPU
 ## -description
 
 
-<b>D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMCPU</b> is used with <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtwaitforsynchronizationobjectfromcpu.md">D3DKMTWaitForSynchronizationObjectFromCpu</a> to wait for a monitored fence to reach a certain value.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMCPU {
-  D3DKMT_HANDLE                                    hDevice;
-  UINT                                             ObjectCount;
-  const D3DKMT_HANDLE                              *ObjectHandleArray;
-  const UINT64                                     *FenceValueArray;
-  HANDLE                                           hAsyncEvent;
-  D3DDDI_WAITFORSYNCHRONIZATIONOBJECTFROMCPU_FLAGS Flags;
-} D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMCPU;
-````
+<b>D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMCPU</b> is used with <a href="https://msdn.microsoft.com/library/windows/hardware/dn906789">D3DKMTWaitForSynchronizationObjectFromCpu</a> to wait for a monitored fence to reach a certain value.
 
 
 ## -struct-fields
@@ -99,7 +84,7 @@ typedef struct _D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMCPU {
 
 ### -field Flags
 
-[in] A <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_waitforsynchronizationobjectfromcpu_flags.md">D3DDDI_WAITFORSYNCHRONIZATIONOBJECTFROMCPU_FLAGS</a> structure describing the operation.
+[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/dn914421">D3DDDI_WAITFORSYNCHRONIZATIONOBJECTFROMCPU_FLAGS</a> structure describing the operation.
 
 <table>
 <tr>
@@ -134,14 +119,14 @@ The wait condition is considered to be satisfied when any of the input synchroni
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtwaitforsynchronizationobjectfromcpu.md">D3DKMTWaitForSynchronizationObjectFromCpu</a>
 
 
 
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_waitforsynchronizationobjectfromcpu_flags.md">D3DDDI_WAITFORSYNCHRONIZATIONOBJECTFROMCPU_FLAGS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn914421">D3DDDI_WAITFORSYNCHRONIZATIONOBJECTFROMCPU_FLAGS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn906789">D3DKMTWaitForSynchronizationObjectFromCpu</a>
  
 
  

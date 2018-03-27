@@ -7,7 +7,7 @@ old-location: kernel\get_sdev_identifier.htm
 old-project: kernel
 ms.assetid: aaa149d8-f08d-442c-980a-9390ac8bc7f6
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/1/2018
 ms.keywords: GET_SDEV_IDENTIFIER, GetSDevIdentifier, GetSDevIdentifier callback function [Kernel-Mode Driver Architecture], kernel.get_sdev_identifier, wdm/GetSDevIdentifier
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,19 +52,6 @@ req.product: Windows 10 or later.
 
 			
             This material is not yet available. This placeholder topic is provided as an example of documentation that may be included in a later release.
-
-
-## -prototype
-
-
-````
-GET_SDEV_IDENTIFIER GetSDevIdentifier;
-
-ULONGLONG  GetSDevIdentifier(
-   PVOID InterfaceContext
-)
-{ ... }
-````
 
 
 ## -parameters

@@ -52,20 +52,6 @@ req.typenames: DEBUG_GET_TEXT_COMPLETIONS_OUT, *PDEBUG_GET_TEXT_COMPLETIONS_OUT
 Defines information about text completions to get. 
 
 
-## -syntax
-
-
-````
-typedef struct _DEBUG_GET_TEXT_COMPLETIONS_OUT {
-  ULONG   Flags;
-  ULONG   ReplaceIndex;
-  ULONG   MatchCount;
-  ULONG   Reserved1;
-  ULONG64 Reserved2[2];
-} DEBUG_GET_TEXT_COMPLETIONS_OUT, *PDEBUG_GET_TEXT_COMPLETIONS_OUT;
-````
-
-
 ## -struct-fields
 
 

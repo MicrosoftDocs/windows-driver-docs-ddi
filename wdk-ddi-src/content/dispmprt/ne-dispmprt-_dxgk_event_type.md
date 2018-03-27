@@ -49,20 +49,7 @@ req.typenames: DXGK_EVENT_TYPE, *PDXGK_EVENT_TYPE
 ## -description
 
 
-The DXGK_EVENT_TYPE enumeration indicates the event type in a call to the display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgkddi_notify_acpi_event.md">DxgkDdiNotifyAcpiEvent</a> function.
-
-
-## -syntax
-
-
-````
-typedef enum _DXGK_EVENT_TYPE { 
-  DxgkUndefinedEvent   = 0,
-  DxgkAcpiEvent        = 1,
-  DxgkPowerStateEvent  = 2,
-  DxgkDockingEvent     = 3
-} DXGK_EVENT_TYPE, *PDXGK_EVENT_TYPE;
-````
+The DXGK_EVENT_TYPE enumeration indicates the event type in a call to the display miniport driver's <a href="https://msdn.microsoft.com/fdefde51-0e90-4324-9c14-e8259fc872b3">DxgkDdiNotifyAcpiEvent</a> function.
 
 
 ## -enum-fields
@@ -97,10 +84,10 @@ Indicates that the event is a docking event.
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_notify_acpi_event.md">DxgkDdiNotifyAcpiEvent</a>
 
 
 
+<a href="https://msdn.microsoft.com/fdefde51-0e90-4324-9c14-e8259fc872b3">DxgkDdiNotifyAcpiEvent</a>
  
 
  

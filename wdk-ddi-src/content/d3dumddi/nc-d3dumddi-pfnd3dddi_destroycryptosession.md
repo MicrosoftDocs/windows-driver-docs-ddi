@@ -49,21 +49,7 @@ req.typenames: DXGK_PTE
 ## -description
 
 
-The <b>DestroyCryptoSession</b> function releases resources for the encryption session that the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createcryptosession.md">CreateCryptoSession</a> function creates. 
-
-
-## -prototype
-
-
-````
-PFND3DDDI_DESTROYCRYPTOSESSION DestroyCryptoSession;
-
-__checkReturn HRESULT APIENTRY DestroyCryptoSession(
-  _In_       HANDLE                         hDevice,
-  _In_ const D3DDDIARG_DESTROYCRYPTOSESSION *pData
-)
-{ ... }
-````
+The <b>DestroyCryptoSession</b> function releases resources for the encryption session that the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451619">CreateCryptoSession</a> function creates. 
 
 
 ## -parameters
@@ -87,7 +73,7 @@ __checkReturn HRESULT APIENTRY DestroyCryptoSession(
 
 #### - pData [in]
 
- A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_destroycryptosession.md">D3DDDIARG_DESTROYCRYPTOSESSION</a> structure that contains one member that specifies the handle to the encryption session to destroy. 
+ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543028">D3DDDIARG_DESTROYCRYPTOSESSION</a> structure that contains one member that specifies the handle to the encryption session to destroy. 
 
 
 ## -returns
@@ -120,7 +106,7 @@ The encryption session is successfully destroyed.
 </td>
 <td width="60%">
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_destroycryptosession.md">DestroyCryptoSession</a> could not allocate the required memory for it to complete.
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451632">DestroyCryptoSession</a> could not allocate the required memory for it to complete.
 
 </td>
 </tr>
@@ -132,14 +118,14 @@ The encryption session is successfully destroyed.
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_destroycryptosession.md">D3DDDIARG_DESTROYCRYPTOSESSION</a>
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createcryptosession.md">CreateCryptoSession</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451619">CreateCryptoSession</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543028">D3DDDIARG_DESTROYCRYPTOSESSION</a>
  
 
  

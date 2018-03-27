@@ -52,18 +52,6 @@ req.typenames: D3D12DDI_VIDEO_PROCESS_LUMA_KEY_0020
 Specifies values for luma keying.
 
 
-## -syntax
-
-
-````
-typedef struct D3D12DDI_VIDEO_PROCESS_LUMA_KEY_0020 {
-  BOOL  Enable;
-  FLOAT Lower;
-  FLOAT Upper;
-} D3D12DDI_VIDEO_PROCESS_LUMA_KEY_0020;
-````
-
-
 ## -struct-fields
 
 

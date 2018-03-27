@@ -46,11 +46,6 @@ req.typenames: MOUNTDEV_UNIQUE_ID, *PMOUNTDEV_UNIQUE_ID
 # IOCTL_MOUNTMGR_CHANGE_NOTIFY IOCTL
 
 
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
-
 ## -description
 
 
@@ -76,7 +71,7 @@ If the number supplied by the client is equal to <i>EpicNumber</i>, the mount ma
 
 ### -input-buffer
 
-The mount manager client initializes the <a href="..\mountmgr\ns-mountmgr-_mountmgr_change_notify_info.md">MOUNTMGR_CHANGE_NOTIFY_INFO</a> structure, defined in <i>Mountmgr.h</i>, at the beginning of the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>.
+The mount manager client initializes the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562273">MOUNTMGR_CHANGE_NOTIFY_INFO</a> structure, defined in <i>Mountmgr.h</i>, at the beginning of the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>.
 
 
 ### -input-buffer-length
@@ -86,7 +81,7 @@ The mount manager client initializes the <a href="..\mountmgr\ns-mountmgr-_mount
 
 ### -output-buffer
 
-The mount manager returns the current <i>EpicNumber</i> in the <a href="..\mountmgr\ns-mountmgr-_mountmgr_change_notify_info.md">MOUNTMGR_CHANGE_NOTIFY_INFO</a> structure, defined in <i>Mountmgr.h</i>, at the beginning of the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>.
+The mount manager returns the current <i>EpicNumber</i> in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562273">MOUNTMGR_CHANGE_NOTIFY_INFO</a> structure, defined in <i>Mountmgr.h</i>, at the beginning of the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>.
 
 
 ### -output-buffer-length
@@ -125,10 +120,10 @@ If <b>InputBufferLength</b> is less than <b>sizeof</b>(MOUNTMGR_CHANGE_NOTIFY_IN
 
 ## -see-also
 
-<a href="..\mountmgr\ns-mountmgr-_mountmgr_change_notify_info.md">MOUNTMGR_CHANGE_NOTIFY_INFO</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562273">MOUNTMGR_CHANGE_NOTIFY_INFO</a>
  
 
  

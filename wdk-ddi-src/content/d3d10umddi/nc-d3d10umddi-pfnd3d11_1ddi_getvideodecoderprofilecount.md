@@ -52,26 +52,12 @@ req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 Queries the number of video decoder profiles that are supported by the display miniport driver.
 
 
-## -prototype
-
-
-````
-PFND3D11_1DDI_GETVIDEODECODERPROFILECOUNT pfnGetVideoDecoderProfileCount;
-
-VOID APIENTRY* pfnGetVideoDecoderProfileCount(
-  _In_  D3D10DDI_HDEVICE hDevice,
-  _Out_ UINT             *pDecodeProfileCount
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
 
 
-### -param D3D10DDI_HDEVICE
+### -param Arg1
 
 
 ### -param *

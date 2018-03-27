@@ -52,23 +52,6 @@ req.typenames: D3DDDI_ISSUEQUERYFLAGS
 The D3DDDI_ISSUEQUERYFLAGS structure identifies the state of a query issue.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DDDI_ISSUEQUERYFLAGS {
-  union {
-    struct {
-      UINT Begin  :1;
-      UINT End  :1;
-      UINT Reserved  :30;
-    };
-    UINT   Value;
-  };
-} D3DDDI_ISSUEQUERYFLAGS;
-````
-
-
 ## -struct-fields
 
 
@@ -100,10 +83,10 @@ A member in the union that is contained in D3DDDI_ISSUEQUERYFLAGS that can hold 
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_issuequery.md">D3DDDIARG_ISSUEQUERY</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543192">D3DDDIARG_ISSUEQUERY</a>
  
 
  

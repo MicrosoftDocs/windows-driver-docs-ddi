@@ -52,18 +52,6 @@ req.typenames: D3D12DDI_SWIZZLE_PATTERN
 Specifies a swizzle pattern.
 
 
-## -syntax
-
-
-````
-typedef enum D3D12DDI_SWIZZLE_PATTERN { 
-  D3D12DDI_SP_ROW_MAJOR              = 0,
-  D3D12DDI_SP_64KB_STANDARD_SWIZZLE  = 3,
-  D3D12DDI_SP_DEVICE_DEPENDENT_0     = 0x100
-} D3D12DDI_SWIZZLE_PATTERN;
-````
-
-
 ## -enum-fields
 
 

@@ -52,17 +52,6 @@ req.typenames: D3DWDDM1_3DDI_TILE_MAPPING_FLAG
 Indicates how to update a tile mapping.
 
 
-## -syntax
-
-
-````
-enum D3DWDDM1_3DDI_TILE_MAPPING_FLAG {
-  D3DWDDM1_3DDI_TILE_MAPPING_NO_OVERWRITE  = 0x00000001 
-
-};
-````
-
-
 ## -enum-fields
 
 

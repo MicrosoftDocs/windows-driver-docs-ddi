@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -50,17 +50,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>QueryVirtual</b> method provides information about the specified pages in the target's virtual address space.
-
-
-## -syntax
-
-
-````
-HRESULT QueryVirtual(
-  [in]  ULONG64                     Offset,
-  [out] PMEMORY_BASIC_INFORMATION64 Info
-);
-````
 
 
 ## -parameters

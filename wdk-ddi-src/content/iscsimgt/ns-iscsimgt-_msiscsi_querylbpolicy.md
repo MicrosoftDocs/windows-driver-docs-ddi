@@ -52,19 +52,6 @@ req.typenames: MSiSCSI_QueryLBPolicy, *PMSiSCSI_QueryLBPolicy
 This MSiSCSI_QueryLBPolicy method returns the MCS load balancing policy for each information if any that has been set across different iSCSI session.
 
 
-## -syntax
-
-
-````
-typedef struct _MSiSCSI_QueryLBPolicy {
-  ULONGLONG                   UniqueAdapterId;
-  ULONG                       Reserved;
-  ULONG                       SessionCount;
-  ISCSI_Supported_LB_Policies LoadBalancePolicies[1];
-} MSiSCSI_QueryLBPolicy, *PMSiSCSI_QueryLBPolicy;
-````
-
-
 ## -struct-fields
 
 
@@ -87,7 +74,7 @@ This specifies the number of active sessions for this adapater ID.
 
 ### -field LoadBalancePolicies
 
-This is an enumeration that contains information required to set the load balance policy. For more information about how to set the load balance policy, see <a href="..\iscsimgt\ns-iscsimgt-_iscsi_supported_lb_policies.md">ISCSI_Supported_LB_Policies</a>. There will be as many of these structures as the number of sessions available for this adapter.
+This is an enumeration that contains information required to set the load balance policy. For more information about how to set the load balance policy, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff561570">ISCSI_Supported_LB_Policies</a>. There will be as many of these structures as the number of sessions available for this adapter.
 
 
 ## -remarks
@@ -101,11 +88,6 @@ You must implement this class only if the adapter supports MCS. Otherwise, it is
 
 ## -see-also
 
-<a href="..\iscsimgt\ns-iscsimgt-_iscsi_supported_lb_policies.md">ISCSI_Supported_LB_Policies</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
 
 
 
@@ -113,6 +95,11 @@ You must implement this class only if the adapter supports MCS. Otherwise, it is
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561570">ISCSI_Supported_LB_Policies</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
  
 
  

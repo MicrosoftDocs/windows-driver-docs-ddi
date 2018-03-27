@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,20 +51,6 @@ req.product: Windows 10 or later.
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef enum _RILSERVICEPROVISIONINGSTATUS { 
-  RIL_SVCPROV_NOTPROVISIONED,
-  RIL_SVCPROV_PROVISIONED,
-  RIL_SVCPROV_TEMPMODERESTRICTED,
-  RIL_SVCPROV_TEMPMODEALLOWED,
-  RIL_SVCPROV_MAX
-} RILSERVICEPROVISIONINGSTATUS;
-````
 
 
 ## -enum-fields

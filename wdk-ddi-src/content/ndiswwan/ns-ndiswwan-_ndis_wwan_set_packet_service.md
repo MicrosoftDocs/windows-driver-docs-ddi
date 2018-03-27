@@ -53,17 +53,6 @@ The NDIS_WWAN_SET_PACKET_SERVICE structure represents the packet service state o
   device.
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_WWAN_SET_PACKET_SERVICE {
-  NDIS_OBJECT_HEADER         Header;
-  WWAN_PACKET_SERVICE_ACTION PacketServiceAction;
-} NDIS_WWAN_SET_PACKET_SERVICE, *PNDIS_WWAN_SET_PACKET_SERVICE;
-````
-
-
 ## -struct-fields
 
 
@@ -117,26 +106,26 @@ sizeof(NDIS_WWAN_SET_PACKET_SERVICE)
  
 
 For more information about these members, see 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>.
 
 
 ### -field PacketServiceAction
 
 A value from the 
-     <a href="..\wwan\ne-wwan-_wwan_packet_service_action.md">
+     <a href="https://msdn.microsoft.com/976e0d67-a03c-4545-b165-4b48062c03b7">
      WWAN_PACKET_SERVICE_ACTION</a> enumeration that represents the packet service action to take.
 
 
 ## -see-also
 
-<a href="..\wwan\ne-wwan-_wwan_packet_service_action.md">WWAN_PACKET_SERVICE_ACTION</a>
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571211">WWAN_PACKET_SERVICE_ACTION</a>
  
 
  

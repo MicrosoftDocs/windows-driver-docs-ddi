@@ -55,16 +55,6 @@ The <b>FwpsFlowAbort0</b> function aborts a data flow.<div class="alert"><b>Note
 
 
 
-## -syntax
-
-
-````
-NTSTATUS NTAPI FwpsFlowAbort0(
-  _In_ UINT64 flowId
-);
-````
-
-
 ## -parameters
 
 
@@ -124,7 +114,7 @@ An error occurred.
 
     A callout driver can call the <b>FwpsFlowAbort0</b> function to abort a data flow. 
    The filter engine calls the 
-    <a href="..\fwpsk\nc-fwpsk-fwps_callout_flow_delete_notify_fn0.md">flowDeleteFn</a> callout function when the flow is terminated so that the callout driver can clean up
+    <a href="https://msdn.microsoft.com/65449a23-da5d-4884-b98e-030461eb019a">flowDeleteFn</a> callout function when the flow is terminated so that the callout driver can clean up
     the context associated with the flow.
 
 
@@ -132,14 +122,14 @@ An error occurred.
 
 ## -see-also
 
-<a href="..\fwpsk\nc-fwpsk-fwps_callout_flow_delete_notify_fn0.md">flowDeleteFn</a>
 
 
 
-<a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a>
 
 
 
+<a href="https://msdn.microsoft.com/65449a23-da5d-4884-b98e-030461eb019a">flowDeleteFn</a>
  
 
  

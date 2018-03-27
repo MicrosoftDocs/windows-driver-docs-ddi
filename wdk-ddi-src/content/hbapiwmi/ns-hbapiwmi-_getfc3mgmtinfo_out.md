@@ -52,17 +52,6 @@ req.typenames: GetFC3MgmtInfo_OUT, *PGetFC3MgmtInfo_OUT
 The GetFC3MgmtInfo_OUT structure is used to report the output parameter data of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff553939">GetFC3MgmtInfo</a> WMI method to the WMI client.
 
 
-## -syntax
-
-
-````
-typedef struct _GetFC3MgmtInfo_OUT {
-  ULONG          HBAStatus;
-  HBAFC3MgmtInfo MgmtInfo;
-} GetFC3MgmtInfo_OUT, *PGetFC3MgmtInfo_OUT;
-````
-
-
 ## -struct-fields
 
 
@@ -75,7 +64,7 @@ Contains a value associated with the WMI class qualifier <a href="https://msdn.m
 
 ### -field MgmtInfo
 
-Contains a structure of type <a href="..\hbapiwmi\ns-hbapiwmi-_hbafc3mgmtinfo.md">HBAFC3MgmtInfo</a> that reports FC3 management information. 
+Contains a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff556032">HBAFC3MgmtInfo</a> that reports FC3 management information. 
 
 
 ## -remarks
@@ -91,7 +80,6 @@ The WMI tool suite generates a declaration of the GetEventBuffer_OUT structure i
 
 ## -see-also
 
-<a href="..\hbapiwmi\ns-hbapiwmi-_hbafc3mgmtinfo.md">HBAFC3MgmtInfo</a>
 
 
 
@@ -99,10 +87,11 @@ The WMI tool suite generates a declaration of the GetEventBuffer_OUT structure i
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556032">HBAFC3MgmtInfo</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
-
-
-
  
 
  

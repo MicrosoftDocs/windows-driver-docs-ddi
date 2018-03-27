@@ -55,17 +55,6 @@ req.typenames: IDE_POWER_STATE
 The <b>AtaPortWritePortUshort</b> routine transfers a USHORT value to the HBA.
 <div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
-## -syntax
-
-
-````
-VOID AtaPortWritePortUshort(
-  _In_ PUSHORT Port,
-  _In_ USHORT  Value
-);
-````
-
-
 ## -parameters
 
 
@@ -73,7 +62,7 @@ VOID AtaPortWritePortUshort(
 
 ### -param Port [in]
 
-A pointer to the I/O port. The address value that is assigned to this parameter must be within the range of mapped I/O space addresses that are obtained by a call to <a href="..\irb\nf-irb-ataportgetdevicebase.md">AtaPortGetDeviceBase</a>.
+A pointer to the I/O port. The address value that is assigned to this parameter must be within the range of mapped I/O space addresses that are obtained by a call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff550160">AtaPortGetDeviceBase</a>.
 
 
 ### -param Value [in]
@@ -92,18 +81,18 @@ None
 
 ## -see-also
 
-<a href="..\irb\nf-irb-ataportwriteportulong.md">AtaPortWritePortUlong</a>
 
 
 
-<a href="..\irb\nf-irb-ataportwriteportuchar.md">AtaPortWritePortUchar</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550160">AtaPortGetDeviceBase</a>
 
 
 
-<a href="..\irb\nf-irb-ataportgetdevicebase.md">AtaPortGetDeviceBase</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550253">AtaPortWritePortUchar</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550258">AtaPortWritePortUlong</a>
  
 
  

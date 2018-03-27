@@ -52,18 +52,6 @@ req.typenames: D3DKMT_UNLOCK
 The D3DKMT_UNLOCK structure describes allocations to unlock. 
 
 
-## -syntax
-
-
-````
-typedef struct _D3DKMT_UNLOCK {
-  D3DKMT_HANDLE       hDevice;
-  UINT                NumAllocations;
-  const D3DKMT_HANDLE *phAllocations;
-} D3DKMT_UNLOCK;
-````
-
-
 ## -struct-fields
 
 
@@ -86,10 +74,10 @@ typedef struct _D3DKMT_UNLOCK {
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtunlock.md">D3DKMTUnlock</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547233">D3DKMTUnlock</a>
  
 
  

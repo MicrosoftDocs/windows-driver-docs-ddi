@@ -52,16 +52,6 @@ req.typenames: NDIS_WWAN_MAC_PARAMETERS, *PNDIS_WWAN_MAC_PARAMETERS
 The NDIS_WWAN_MAC_PARAMETERS structure is used by <a href="https://msdn.microsoft.com/library/windows/hardware/dn449750">OID_WWAN_CREATE_MAC</a> when processing a request to create an NDIS port for a new PDP context.
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_WWAN_MAC_PARAMETERS {
-  NDIS_OBJECT_HEADER  Header;
-} NDIS_WWAN_MAC_PARAMETERS, *PNDIS_WWAN_MAC_PARAMETERS;
-````
-
-
 ## -struct-fields
 
 
@@ -110,15 +100,15 @@ sizeof(NDIS_WWAN_MAC_PARAMETERS)
  
 
 For more information about these members, see 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>.
 
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn449750">OID_WWAN_CREATE_MAC</a>
-
-
-
  
 
  

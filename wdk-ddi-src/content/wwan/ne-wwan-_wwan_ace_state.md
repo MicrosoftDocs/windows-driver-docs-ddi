@@ -53,19 +53,6 @@ req.product: Windows 10 or later.
 The WWAN_ACE_STATE enumeration lists the different kinds of auto-connect states.
 
 
-## -syntax
-
-
-````
-typedef enum _WWAN_ACE_STATE { 
-  WwanAutoOff    = 0,
-  WwanAutoOn     = ,
-  WwanManualOff  = ,
-  WwanManualOn   = 
-} WWAN_ACE_STATE;
-````
-
-
 ## -enum-fields
 
 

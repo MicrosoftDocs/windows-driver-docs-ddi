@@ -52,16 +52,6 @@ req.typenames: TOKEN_TYPE
 The <b>FsRtlIsNtstatusExpected</b> routine determines whether the specified exception is handled by the exception filter.
 
 
-## -syntax
-
-
-````
-BOOLEAN FsRtlIsNtstatusExpected(
-  _In_ NTSTATUS Exception
-);
-````
-
-
 ## -parameters
 
 
@@ -92,10 +82,10 @@ File systems use <b>FsRtlIsNtstatusExpected</b> to determine whether to attempt 
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnormalizentstatus~r1.md">FsRtlNormalizeNtstatus</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546988">FsRtlNormalizeNtstatus</a>
  
 
  

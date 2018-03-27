@@ -54,16 +54,6 @@ req.product: Windows 10 or later.
 Notifies the USB connector manager framework extension (UcmCx) when the partner connector  detaches from the specified Type-C connector.
 
 
-## -syntax
-
-
-````
-NTSTATUS UcmConnectorTypeCDetach(
-  [in] UCMCONNECTOR  Connector
-);
-````
-
-
 ## -parameters
 
 
@@ -71,7 +61,7 @@ NTSTATUS UcmConnectorTypeCDetach(
 
 ### -param Connector [in]
 
-Handle to the connector object that the client driver received in the previous call to <a href="..\ucmmanager\nf-ucmmanager-ucmconnectorcreate.md">UcmConnectorCreate</a>.
+Handle to the connector object that the client driver received in the previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/mt187909">UcmConnectorCreate</a>.
 
 
 ## -returns
@@ -85,10 +75,10 @@ Handle to the connector object that the client driver received in the previous c
 
 ## -see-also
 
-<a href="..\ucmmanager\nf-ucmmanager-ucmconnectortypecattach.md">UcmConnectorTypeCAttach</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt187915">UcmConnectorTypeCAttach</a>
  
 
  

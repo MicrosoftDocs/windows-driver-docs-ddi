@@ -52,20 +52,6 @@ req.typenames: DXGK_PHYSICALADAPTERCAPS
 The <b>DXGK_PHYSICALADAPTERCAPS</b> structure is used to report details of a physical adapter.
 
 
-## -syntax
-
-
-````
-typedef struct _DXGK_PHYSICALADAPTERCAPS {
-  WORD                      NumExecutionNodes;
-  WORD                      PagingNodeIndex;
-  HANDLE                    DxgkPhysicalAdapterHandle;
-  DXGK_PHYSICALADAPTERFLAGS Flags;
-  UINT                      VPRPagingNode;
-} DXGK_PHYSICALADAPTERCAPS;
-````
-
-
 ## -struct-fields
 
 
@@ -83,7 +69,7 @@ Index of the paging node for the physical adapter.
 
 ### -field DxgkPhysicalAdapterHandle
 
-Handle, which is passed to the kernel mode driver as <b>DXGKRNL_INTERFACE::DeviceHandle</b> in <a href="..\dispmprt\nc-dispmprt-dxgkddi_start_device.md">DxgkDdiStartDevice</a>. 
+Handle, which is passed to the kernel mode driver as <b>DXGKRNL_INTERFACE::DeviceHandle</b> in <a href="https://msdn.microsoft.com/ffacbb39-2581-4207-841d-28ce57fbc64d">DxgkDdiStartDevice</a>. 
 
 
 ### -field Flags

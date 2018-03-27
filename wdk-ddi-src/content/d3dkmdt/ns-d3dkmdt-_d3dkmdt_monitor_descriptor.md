@@ -52,20 +52,6 @@ req.typenames: D3DKMDT_MONITOR_DESCRIPTOR
 The D3DKMDT_MONITOR_DESCRIPTOR structure contains a pointer to a monitor descriptor along with information about the monitor descriptor.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DKMDT_MONITOR_DESCRIPTOR {
-  D3DKMDT_MONITOR_DESCRIPTOR_ID       Id;
-  D3DKMDT_MONITOR_DESCRIPTOR_TYPE     Type;
-  SIZE_T                              DataSize;
-  VOID                                *pData;
-  D3DKMDT_MONITOR_CAPABILITIES_ORIGIN Origin;
-} D3DKMDT_MONITOR_DESCRIPTOR;
-````
-
-
 ## -struct-fields
 
 
@@ -78,7 +64,7 @@ An integer that identifies the monitor descriptor.
 
 ### -field Type
 
-A value from the <a href="..\d3dkmdt\ne-d3dkmdt-_d3dkmdt_monitor_descriptor_type.md">D3DKMDT_MONITOR_DESCRIPTOR_TYPE</a> enumeration that indicates the descriptor type.
+A value from the <a href="https://msdn.microsoft.com/library/windows/hardware/ff546099">D3DKMDT_MONITOR_DESCRIPTOR_TYPE</a> enumeration that indicates the descriptor type.
 
 
 ### -field DataSize
@@ -93,23 +79,23 @@ A pointer to the monitor descriptor.
 
 ### -field Origin
 
-A value of type <a href="..\d3dkmdt\ne-d3dkmdt-_d3dkmdt_monitor_capabilities_origin.md">D3DKMDT_MONITOR_CAPABILITIES_ORIGIN</a> that indicates the source of the mode information for the monitor. For example, the mode information could be from a default monitor profile or it could be from an override in an INF file.
+A value of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff546075">D3DKMDT_MONITOR_CAPABILITIES_ORIGIN</a> that indicates the source of the mode information for the monitor. For example, the mode information could be from a default monitor profile or it could be from an override in an INF file.
 
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546075">D3DKMDT_MONITOR_CAPABILITIES_ORIGIN</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546099">D3DKMDT_MONITOR_DESCRIPTOR_TYPE</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568427">Monitor Descriptor Set Interface</a>
-
-
-
-<a href="..\d3dkmdt\ne-d3dkmdt-_d3dkmdt_monitor_descriptor_type.md">D3DKMDT_MONITOR_DESCRIPTOR_TYPE</a>
-
-
-
-<a href="..\d3dkmdt\ne-d3dkmdt-_d3dkmdt_monitor_capabilities_origin.md">D3DKMDT_MONITOR_CAPABILITIES_ORIGIN</a>
-
-
-
  
 
  

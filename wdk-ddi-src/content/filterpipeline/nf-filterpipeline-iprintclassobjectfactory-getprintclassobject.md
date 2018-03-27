@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: filterpipeline.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -50,18 +50,6 @@ req.typenames: EXpsFontRestriction
 
 
 The <b>GetPrintClassObject</b> method creates a print filter-related object for a specified printer by using the IID of the interface object to create.
-
-
-## -syntax
-
-
-````
-HRESULT GetPrintClassObject(
-  [in]  const wchar_t *pszPrinterName,
-  [in]        REFIID  riid,
-  [out]       void    **ppNewObject
-);
-````
 
 
 ## -parameters

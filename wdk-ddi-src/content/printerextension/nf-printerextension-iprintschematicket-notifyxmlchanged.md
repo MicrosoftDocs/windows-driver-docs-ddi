@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: printerextension.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,16 +51,6 @@ req.product: Windows 10 or later.
 
 
 Notifies the print system that the XML DOM object has changed.
-
-
-## -syntax
-
-
-````
-HRESULT NotifyXmlChanged(
-    None
-);
-````
 
 
 ## -parameters
@@ -95,7 +85,6 @@ If the client retrieves the XML DOM object of the PrintTicket by calling <a href
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprintschematicket.md">IPrintSchemaTicket</a>
 
 
 
@@ -103,6 +92,7 @@ If the client retrieves the XML DOM object of the PrintTicket by calling <a href
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451398">IPrintSchemaTicket</a>
  
 
  

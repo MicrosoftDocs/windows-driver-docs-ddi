@@ -52,19 +52,6 @@ req.typenames: ISCSI_RedirectSessionInfo, *PISCSI_RedirectSessionInfo
 This ISCSI_RedirectSessionInfo structure contains information about an iSCSI session and its portal information resulted from iSCSI target redirection.
 
 
-## -syntax
-
-
-````
-typedef struct _ISCSI_RedirectSessionInfo {
-  ULONGLONG                UniqueSessionId;
-  ULONG                    TargetPortalGroupTag;
-  ULONG                    ConnectionCount;
-  ISCSI_RedirectPortalInfo RedirectPortalList[1];
-} ISCSI_RedirectSessionInfo, *PISCSI_RedirectSessionInfo;
-````
-
-
 ## -struct-fields
 
 
@@ -92,14 +79,14 @@ This provides the redirection information, and it has as many entries as the num
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
-
-
-
  
 
  

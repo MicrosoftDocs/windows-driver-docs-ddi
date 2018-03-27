@@ -52,17 +52,6 @@ req.typenames: HBA_WWNTYPE
 The <b>HBA_OpenAdapterByWWN</b> routine opens the HBA that is associated with either a node or a port that has the indicated name. 
 
 
-## -syntax
-
-
-````
-HBA_STATUS HBA_API HBA_OpenAdapterByWWN(
-  _Out_ HBA_HANDLE *HbaHandle,
-  _In_  HBA_WWN    Wwn
-);
-````
-
-
 ## -parameters
 
 
@@ -141,10 +130,10 @@ Returned if an unspecified error occurred that prevented the opening of the adap
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
-
-
-
  
 
  

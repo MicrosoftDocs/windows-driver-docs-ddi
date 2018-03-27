@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 The WDI_ROAM_TRIGGER enumeration defines roam triggers.
 
 
-## -syntax
-
-
-````
-typedef enum _WDI_ROAM_TRIGGER { 
-  WDI_ROAM_TRIGGER_OTHER                            = 0x00000000,
-  WDI_ROAM_TRIGGER_CRITICAL_BSS_TRANSITION_REQUEST  = 0x00000001
-} WDI_ROAM_TRIGGER;
-````
-
-
 ## -enum-fields
 
 

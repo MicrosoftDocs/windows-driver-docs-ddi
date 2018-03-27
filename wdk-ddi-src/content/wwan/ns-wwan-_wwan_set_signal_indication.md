@@ -54,17 +54,6 @@ The WWAN_SET_SIGNAL_INDICATION structure represents the frequency of RSSI interv
   notifications.
 
 
-## -syntax
-
-
-````
-typedef struct _WWAN_SET_SIGNAL_INDICATION {
-  ULONG RssiInterval;
-  ULONG RssiThreshold;
-} WWAN_SET_SIGNAL_INDICATION, *PWWAN_SET_SIGNAL_INDICATION;
-````
-
-
 ## -struct-fields
 
 
@@ -104,11 +93,11 @@ The miniport driver can always switch to its device-specific default reporting i
 
 ## -see-also
 
-<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_set_signal_indication.md">
+
+
+
+<a href="https://msdn.microsoft.com/6ef6fdd4-7d52-436a-96ee-ed83fab33e7b">
    NDIS_WWAN_SET_SIGNAL_INDICATION</a>
-
-
-
  
 
  

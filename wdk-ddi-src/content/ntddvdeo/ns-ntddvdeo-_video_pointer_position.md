@@ -52,17 +52,6 @@ req.typenames: VIDEO_POINTER_POSITION, *PVIDEO_POINTER_POSITION
 The VIDEO_POINTER_POSITION structure contains the location of the screen pointer relative to the top left corner of the screen.
 
 
-## -syntax
-
-
-````
-typedef struct _VIDEO_POINTER_ATTRIBUTES {
-  SHORT Column;
-  SHORT Row;
-} VIDEO_POINTER_POSITION, *PVIDEO_POINTER_POSITION;
-````
-
-
 ## -struct-fields
 
 

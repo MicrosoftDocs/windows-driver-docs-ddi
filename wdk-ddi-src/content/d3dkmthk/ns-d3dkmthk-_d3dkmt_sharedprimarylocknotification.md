@@ -52,18 +52,6 @@ req.typenames: D3DKMT_SHAREDPRIMARYLOCKNOTIFICATION
 The D3DKMT_SHAREDPRIMARYLOCKNOTIFICATION structure describes the shared primary surface that an application is about to lock.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DKMT_SHAREDPRIMARYLOCKNOTIFICATION {
-  LUID                           AdapterLuid;
-  D3DDDI_VIDEO_PRESENT_SOURCE_ID VidPnSourceId;
-  RECTL                          LockRect;
-} D3DKMT_SHAREDPRIMARYLOCKNOTIFICATION;
-````
-
-
 ## -struct-fields
 
 
@@ -71,7 +59,7 @@ typedef struct _D3DKMT_SHAREDPRIMARYLOCKNOTIFICATION {
 
 ### -field AdapterLuid
 
-[in] The locally unique identifier (<a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a>) of the graphics adapter on which the GDI shared primary surface exists. 
+[in] The locally unique identifier (<a href="https://msdn.microsoft.com/library/windows/hardware/ff557080">LUID</a>) of the graphics adapter on which the GDI shared primary surface exists. 
 
 
 ### -field VidPnSourceId
@@ -86,14 +74,14 @@ typedef struct _D3DKMT_SHAREDPRIMARYLOCKNOTIFICATION {
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtsharedprimarylocknotification.md">D3DKMTSharedPrimaryLockNotification</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547208">D3DKMTSharedPrimaryLockNotification</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569236">RECTL</a>
-
-
-
  
 
  

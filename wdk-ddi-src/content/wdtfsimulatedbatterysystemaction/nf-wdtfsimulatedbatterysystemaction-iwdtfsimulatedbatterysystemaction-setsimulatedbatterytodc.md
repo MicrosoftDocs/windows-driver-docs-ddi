@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: wdtfsimulatedbatterysystemaction.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -60,16 +60,6 @@ Sets the simulated battery status to DC power.
     policy to DC power.  This is useful for testing software behavior that changes depending on the AC/DC state.
 
 
-## -syntax
-
-
-````
-HRESULT SetSimulatedBatteryToDC(
-  [out, retval] VARIANT_BOOL *pbSuccess
-);
-````
-
-
 ## -parameters
 
 
@@ -89,10 +79,10 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="..\wdtfsimulatedbatterysystemaction\nn-wdtfsimulatedbatterysystemaction-iwdtfsimulatedbatterysystemaction.md">IWDTFSimulatedBatterySystemAction</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265160">IWDTFSimulatedBatterySystemAction</a>
  
 
  

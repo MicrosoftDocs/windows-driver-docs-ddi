@@ -53,19 +53,6 @@ req.product: Windows 10 or later.
 The WWAN_IP_TYPE enumeration lists the different levels of supported IP.
 
 
-## -syntax
-
-
-````
-typedef enum _WWAN_IP_TYPE { 
-  WwanIPTypeDefault  = 0,
-  WwanIPTypeIPv4     = ,
-  WwanIPTypeIPv6     = ,
-  WwanIPTypeIpv4v6   = 
-} WWAN_IP_TYPE;
-````
-
-
 ## -enum-fields
 
 
@@ -98,14 +85,14 @@ IPv4 with IPv6
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_set_context_state.md">WWAN_SET_CONTEXT_STATE</a>
 
 
 
-<a href="..\wwan\ns-wwan-_wwan_context_state.md">WWAN_CONTEXT_STATE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571202">WWAN_CONTEXT_STATE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571235">WWAN_SET_CONTEXT_STATE</a>
  
 
  

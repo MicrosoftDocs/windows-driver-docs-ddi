@@ -52,21 +52,6 @@ req.typenames: D3DKMDT_GRAPHICS_RENDERING_FORMAT
 The D3DKMDT_GRAPHICS_RENDERING_FORMAT structure contains information about a primary rendering surface.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DKMDT_GRAPHICS_RENDERING_FORMAT {
-  D3DKMDT_2DREGION                PrimSurfSize;
-  D3DKMDT_2DREGION                VisibleRegionSize;
-  DWORD                           Stride;
-  D3DDDIFORMAT                    PixelFormat;
-  D3DKMDT_COLOR_BASIS             ColorBasis;
-  D3DKMDT_PIXEL_VALUE_ACCESS_MODE PixelValueAccessMode;
-} D3DKMDT_GRAPHICS_RENDERING_FORMAT;
-````
-
-
 ## -struct-fields
 
 
@@ -104,10 +89,10 @@ A value from the D3DKMDT_PIXEL_VALUE_ACCESS_MODE enumeration that indicates the 
 
 ## -see-also
 
-<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544312">D3DDDIFORMAT</a>
  
 
  

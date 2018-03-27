@@ -54,16 +54,6 @@ req.typenames:
              that have changed on the surface since the last load.
 
 
-## -syntax
-
-
-````
-typedef struct IDARG_OUT_GETDIRTYRECTS {
-  UINT DirtyRectOutCount;
-} IDARG_OUT_GETDIRTYRECTS, *IDARG_OUT_GETDIRTYRECTS;
-````
-
-
 ## -struct-fields
 
 

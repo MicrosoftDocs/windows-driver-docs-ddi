@@ -49,21 +49,7 @@ req.typenames: D3DKMT_RELEASEKEYEDMUTEX2
 ## -description
 
 
-Describes a keyed mutex object that the <a href="..\d3dkmthk\nc-d3dkmthk-pfnd3dkmt_releasekeyedmutex2.md">D3DKMTReleaseKeyedMutex2</a> function releases that includes private data.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DKMT_RELEASEKEYEDMUTEX2 {
-  D3DKMT_HANDLE hKeyedMutex;
-  UINT64        Key;
-  UINT64        FenceValue;
-  VOID          *pPrivateRuntimeData;
-  UINT          PrivateRuntimeDataSize;
-} D3DKMT_RELEASEKEYEDMUTEX2;
-````
+Describes a keyed mutex object that the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439455">D3DKMTReleaseKeyedMutex2</a> function releases that includes private data.
 
 
 ## -struct-fields
@@ -98,10 +84,10 @@ typedef struct _D3DKMT_RELEASEKEYEDMUTEX2 {
 
 ## -see-also
 
-<a href="..\d3dkmthk\nc-d3dkmthk-pfnd3dkmt_releasekeyedmutex2.md">D3DKMTReleaseKeyedMutex2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439455">D3DKMTReleaseKeyedMutex2</a>
  
 
  

@@ -52,17 +52,6 @@ req.typenames: NDIS_WWAN_SUBSCRIBE_DEVICE_SERVICE_EVENTS, *PNDIS_WWAN_SUBSCRIBE_
 The NDIS_WWAN_SUBSCRIBE_DEVICE_SERVICE_EVENTS structure encapsulates data for OID_WWAN_SUBSCRIBE_DEVICE_SERVICES_EVENTS.
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_WWAN_SUBSCRIBE_DEVICE_SERVICE_EVENTS {
-  NDIS_OBJECT_HEADER Header;
-  WWAN_LIST_HEADER   DeviceServiceListHeader;
-} NDIS_WWAN_SUBSCRIBE_DEVICE_SERVICE_EVENTS, *PNDIS_WWAN_SUBSCRIBE_DEVICE_SERVICE_EVENTS;
-````
-
-
 ## -struct-fields
 
 
@@ -116,7 +105,7 @@ sizeof(NDIS_WWAN_SUBSCRIBE_DEVICE_SERVICE_EVENTS)
  
 
 For more information about these members, see 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>.
 
 
 ### -field DeviceServiceListHeader
@@ -130,10 +119,10 @@ This member points to the list of the GUIDs (WwanStructDeviceServiceGuid) by usi
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_list_header.md">WWAN_LIST_HEADER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571208">WWAN_LIST_HEADER</a>
  
 
  

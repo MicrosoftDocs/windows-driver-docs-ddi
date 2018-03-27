@@ -52,18 +52,6 @@ req.typenames: HBA_WWNTYPE
 The <b>HBA_GetAdapterPortAttributes</b> routine retrieves the attributes for a specified remote fibre channel port. 
 
 
-## -syntax
-
-
-````
-HBA_STATUS HBA_API HBA_GetAdapterPortAttributes(
-  _In_  HBA_HANDLE         HbaHandle,
-  _In_  HBA_UINT32         PortIndex,
-  _Out_ HBA_PORTATTRIBUTES *PortAttributes
-);
-````
-
-
 ## -parameters
 
 
@@ -81,12 +69,12 @@ Indicates which remote port to query on the HBA specified by <i>HbaHandle</i>.
 
 ### -param PortAttributes [out]
 
-Pointer to a structure of type <a href="..\hbaapi\ns-hbaapi-hba_portattributes.md">HBA_PortAttributes</a> that, on return, contains the attributes of the remote port with an index of <i>PortIndex </i>on the HBA specified by <i>HbaHandle. </i>
+Pointer to a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff557107">HBA_PortAttributes</a> that, on return, contains the attributes of the remote port with an index of <i>PortIndex </i>on the HBA specified by <i>HbaHandle. </i>
 
 
 #### - HbaHandle [in]
 
-Contains a value returned by the routine <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a> that identifies the HBA on which the port is located. 
+Contains a value returned by the routine <a href="https://msdn.microsoft.com/library/windows/hardware/ff557097">HBA_OpenAdapter</a> that identifies the HBA on which the port is located. 
 
 
 ## -returns
@@ -109,18 +97,18 @@ The <b>HBA_GetAdapterPortAttributes</b> routine retrieves attributes for remote 
 
 ## -see-also
 
-<a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557097">HBA_OpenAdapter</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557107">HBA_PortAttributes</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
-
-
-
-<a href="..\hbaapi\ns-hbaapi-hba_portattributes.md">HBA_PortAttributes</a>
-
-
-
  
 
  

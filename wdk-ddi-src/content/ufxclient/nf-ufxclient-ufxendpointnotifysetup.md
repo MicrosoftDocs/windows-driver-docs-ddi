@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: DISPATCH_LEVEL
 topic_type:
@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 Notifies UFX when the client driver receives a setup packet from the host.
 
 
-## -syntax
-
-
-````
-VOID UfxEndpointNotifySetup(
-  [in] UFXDEVICE                      UfxDevice,
-  [in] PUSB_DEFAULT_PIPE_SETUP_PACKET SetupInfo
-);
-````
-
-
 ## -parameters
 
 
@@ -81,7 +70,7 @@ A pointer to a USB setup packet described in a <b>USB_DEFAULT_PIPE_SETUP_PACKET<
 
 #### - UfxDevice [in]
 
-A handle to a UFX device object that the driver created by calling <a href="..\ufxclient\nf-ufxclient-ufxdevicecreate.md">UfxDeviceCreate</a>.
+A handle to a UFX device object that the driver created by calling <a href="https://msdn.microsoft.com/library/windows/hardware/mt187951">UfxDeviceCreate</a>.
 
 
 ## -returns

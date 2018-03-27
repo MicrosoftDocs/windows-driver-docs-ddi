@@ -52,20 +52,6 @@ req.typenames: FWPS_CONNECTION_REDIRECT_STATE
 The FWPS_CONNECTION_REDIRECT_STATE enumeration type specifies the current redirection state of a connection.
 
 
-## -syntax
-
-
-````
-typedef enum FWPS_CONNECTION_REDIRECT_STATE_ { 
-  FWPS_CONNECTION_NOT_REDIRECTED,
-  FWPS_CONNECTION_REDIRECTED_BY_SELF,
-  FWPS_CONNECTION_REDIRECTED_BY_OTHER,
-  FWPS_CONNECTION_PREVIOUSLY_REDIRECTED_BY_SELF,
-  FWPS_CONNECTION_REDIRECT_STATE_MAX
-} FWPS_CONNECTION_REDIRECT_STATE;
-````
-
-
 ## -enum-fields
 
 
@@ -100,17 +86,17 @@ The maximum value for this enumeration. This value might change in future versio
 
 
 
-The FWPS_CONNECTION_REDIRECT_STATE enumeration is the return type for a call to the <a href="..\fwpsk\nf-fwpsk-fwpsqueryconnectionredirectstate0.md">FwpsQueryConnectionRedirectState0</a>  function.
+The FWPS_CONNECTION_REDIRECT_STATE enumeration is the return type for a call to the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439677">FwpsQueryConnectionRedirectState0</a>  function.
 
 
 
 
 ## -see-also
 
-<a href="..\fwpsk\nf-fwpsk-fwpsqueryconnectionredirectstate0.md">FwpsQueryConnectionRedirectState0</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439677">FwpsQueryConnectionRedirectState0</a>
  
 
  

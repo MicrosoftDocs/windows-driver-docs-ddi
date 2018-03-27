@@ -52,17 +52,6 @@ req.typenames: NDIS_WWAN_DEVICE_SERVICE_SESSION_READ, *PNDIS_WWAN_DEVICE_SERVICE
 The NDIS_WWAN_DEVICE_SERVICE_SESSION_READ structure represents device service session data that has been read by the miniport driver from the MB device.
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_WWAN_DEVICE_SERVICE_SESSION_READ {
-  NDIS_OBJECT_HEADER               Header;
-  WWAN_DEVICE_SERVICE_SESSION_READ ReadData;
-} NDIS_WWAN_DEVICE_SERVICE_SESSION_READ, *PNDIS_WWAN_DEVICE_SERVICE_SESSION_READ;
-````
-
-
 ## -struct-fields
 
 
@@ -116,7 +105,7 @@ sizeof(NDIS_WWAN_DEVICE_SERVICE_SESSION_READ)
  
 
 For more information about these members, see 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>.
 
 
 ### -field ReadData
@@ -126,10 +115,10 @@ The data that has been read from a device service session.
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_device_service_session_read.md">WWAN_DEVICE_SERVICE_SESSION_READ</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh831875">WWAN_DEVICE_SERVICE_SESSION_READ</a>
  
 
  

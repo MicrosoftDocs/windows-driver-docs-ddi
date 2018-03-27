@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -50,22 +50,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>OutputContextStackTrace</b> method prints the call stack specified by an array of stack frames and corresponding register contexts.
-
-
-## -syntax
-
-
-````
-HRESULT OutputContextStackTrace(
-  [in] ULONG              OutputControl,
-  [in] PDEBUG_STACK_FRAME Frames,
-  [in] ULONG              FramesSize,
-  [in] PVOID              FrameContexts,
-  [in] ULONG              FrameContextsSize,
-  [in] ULONG              FrameContextsEntrySize,
-  [in] ULONG              Flags
-);
-````
 
 
 ## -parameters
@@ -265,15 +249,6 @@ The array of stack frames can be obtained using <a href="https://msdn.microsoft.
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
-
-
-
-<a href="https://msdn.microsoft.com/1061015f-cb0c-490b-b256-e0dedb659f22">k, kb, kc, kd, kp, kP, kv (Display Stack Backtrace)</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553252">OutputStackTrace</a>
 
 
 
@@ -281,6 +256,15 @@ The array of stack frames can be obtained using <a href="https://msdn.microsoft.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550526">IDebugControl4</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553252">OutputStackTrace</a>
+
+
+
+<a href="https://msdn.microsoft.com/1061015f-cb0c-490b-b256-e0dedb659f22">k, kb, kc, kd, kp, kP, kv (Display Stack Backtrace)</a>
  
 
  

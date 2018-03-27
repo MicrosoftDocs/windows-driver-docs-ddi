@@ -52,21 +52,6 @@ req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
 The SYMBOL_INFO_EX structure describes the extended line symbol information.
 
 
-## -syntax
-
-
-````
-typedef struct _SYMBOL_INFO_EX {
-  ULONG   SizeOfStruct;
-  ULONG   TypeOfInfo;
-  ULONG64 Offset;
-  ULONG   Line;
-  ULONG   Displacement;
-  ULONG   Reserved[4];
-} SYMBOL_INFO_EX, *PSYMBOL_INFO_EX;
-````
-
-
 ## -struct-fields
 
 

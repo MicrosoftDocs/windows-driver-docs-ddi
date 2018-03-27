@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -52,16 +52,6 @@ req.typenames: D3DKMT_DRIVERVERSION
 
 			
             Used to set the color space transform for the selected monitor.
-
-
-## -syntax
-
-
-````
-NTSTATUS  D3DKMTSetMonitorColorSpaceTransform(
-   D3DKMT_SET_COLORSPACE_TRANSFORM  D3dkmt_set_colorspace_transform
-);
-````
 
 
 ## -parameters

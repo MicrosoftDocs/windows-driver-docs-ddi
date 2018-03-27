@@ -52,19 +52,6 @@ req.typenames: D3DKMT_SUBMITWAITFORSYNCOBJECTSTOHWQUEUE
 A structure that contains information to submit a wait on the hardware queue.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DKMT_SUBMITWAITFORSYNCOBJECTSTOHWQUEUE  {
-  D3DKMT_HANDLE       hHwQueue;
-  UINT                ObjectCount;
-  const D3DKMT_HANDLE *ObjectHandleArray;
-  const UINT64        *FenceValueArray;
-} D3DKMT_SUBMITWAITFORSYNCOBJECTSTOHWQUEUE ;
-````
-
-
 ## -struct-fields
 
 

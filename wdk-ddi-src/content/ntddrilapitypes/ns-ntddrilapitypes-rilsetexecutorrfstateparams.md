@@ -52,17 +52,6 @@ req.typenames: RILSETEXECUTORRFSTATEPARAMS, *LPRILSETEXECUTORRFSTATEPARAMS
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef struct _RILSETEXECUTORRFSTATEPARAMS {
-  DWORD  dwExecutor;
-  BOOL   fExecutorRFState;
-} RILSETEXECUTORRFSTATEPARAMS, RILSETEXECUTORRFSTATEPARAMS;
-````
-
-
 ## -struct-fields
 
 

@@ -52,22 +52,6 @@ req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
 The <i>DxgkDdiGetPossibleBrightness</i> function retrieves the brightness levels that an integrated display panel supports.
 
 
-## -prototype
-
-
-````
-DXGK_BRIGHTNESS_GET_POSSIBLE DxgkDdiGetPossibleBrightness;
-
-NTSTATUS* DxgkDdiGetPossibleBrightness(
-  _In_  PVOID  Context,
-  _In_  ULONG  BufferSize,
-  _Out_ PUCHAR LevelCount,
-  _Out_ PUCHAR BrightnessLevels
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -75,7 +59,7 @@ NTSTATUS* DxgkDdiGetPossibleBrightness(
 
 ### -param Context [in]
 
-[in] A handle to a context block that is associated with a display adapter. The display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a> function previously provided this handle to the Microsoft DirectX graphics kernel subsystem.
+[in] A handle to a context block that is associated with a display adapter. The display miniport driver's <a href="https://msdn.microsoft.com/5fd4046f-54c3-4dfc-8d51-0d9ebcde0bea">DxgkDdiAddDevice</a> function previously provided this handle to the Microsoft DirectX graphics kernel subsystem.
 
 
 ### -param BufferSize [in]
@@ -131,10 +115,10 @@ To simplify your job of implementing a display miniport driver, the operating sy
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
 
 
 
+<a href="https://msdn.microsoft.com/5fd4046f-54c3-4dfc-8d51-0d9ebcde0bea">DxgkDdiAddDevice</a>
  
 
  

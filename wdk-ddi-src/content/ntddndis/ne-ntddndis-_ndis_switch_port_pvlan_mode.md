@@ -55,19 +55,6 @@ The <b>NDIS_SWITCH_PORT_PVLAN_MODE</b> enumeration specifies the operation mode 
 
 
 
-## -syntax
-
-
-````
-typedef enum  { 
-  NdisSwitchPortPvlanModeUndefined    = 0,
-  NdisSwitchPortPvlanModeIsolated,
-  NdisSwitchPortPvlanModeCommunity,
-  NdisSwitchPortPvlanModePromiscuous
-} NDIS_SWITCH_PORT_PVLAN_MODE, *PNDIS_SWITCH_PORT_PVLAN_MODE;
-````
-
-
 ## -enum-fields
 
 
@@ -97,7 +84,7 @@ This value specifies a port that operates in PVLAN promiscuous mode. In promiscu
 
 
 
-The <b>PvlanMode</b> member of the <a href="..\ntddndis\ns-ntddndis-_ndis_switch_port_property_vlan.md">NDIS_SWITCH_PORT_PROPERTY_VLAN</a> structure is an <a href="..\ntddndis\ne-ntddndis-_ndis_switch_port_vlan_mode.md">NDIS_SWITCH_PORT_VLAN_MODE</a> enumeration data type. 
+The <b>PvlanMode</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh598243">NDIS_SWITCH_PORT_PROPERTY_VLAN</a> structure is an <a href="https://msdn.microsoft.com/library/windows/hardware/hh598246">NDIS_SWITCH_PORT_VLAN_MODE</a> enumeration data type. 
 
 
 
@@ -110,11 +97,6 @@ For more information about extensible switch port policies, see <a href="https:/
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_switch_port_property_vlan.md">NDIS_SWITCH_PORT_PROPERTY_VLAN</a>
-
-
-
-<a href="..\ndis\ns-ndis-_ndis_switch_forwarding_destination_array.md">NDIS_SWITCH_FORWARDING_DESTINATION_ARRAY</a>
 
 
 
@@ -122,6 +104,11 @@ For more information about extensible switch port policies, see <a href="https:/
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh598210">NDIS_SWITCH_FORWARDING_DESTINATION_ARRAY</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh598243">NDIS_SWITCH_PORT_PROPERTY_VLAN</a>
  
 
  

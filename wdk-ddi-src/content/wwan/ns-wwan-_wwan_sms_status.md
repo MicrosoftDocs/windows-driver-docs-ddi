@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 The WWAN_SMS_STATUS structure represents the status of the SMS message store.
 
 
-## -syntax
-
-
-````
-typedef struct _WWAN_SMS_STATUS {
-  ULONG uFlag;
-  ULONG MessageIndex;
-} WWAN_SMS_STATUS, *PWWAN_SMS_STATUS;
-````
-
-
 ## -struct-fields
 
 
@@ -139,10 +128,10 @@ If the
 
 ## -see-also
 
-<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_sms_status.md">NDIS_WWAN_SMS_STATUS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567945">NDIS_WWAN_SMS_STATUS</a>
  
 
  

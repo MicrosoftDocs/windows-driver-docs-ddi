@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 Describes attributes of a pipe associated with an endpoint on a specific interface.
 
 
-## -syntax
-
-
-````
-typedef struct _USBFN_PIPE_INFORMATION {
-  USB_ENDPOINT_DESCRIPTOR EpDesc;
-  USBFNPIPEID             PipeId;
-} USBFN_PIPE_INFORMATION, *PUSBFN_PIPE_INFORMATION;
-````
-
-
 ## -struct-fields
 
 
@@ -71,7 +60,7 @@ typedef struct _USBFN_PIPE_INFORMATION {
 
 ### -field EpDesc
 
-Describes the endpoint descriptor in a <a href="..\usbspec\ns-usbspec-_usb_endpoint_descriptor.md">USB_ENDPOINT_DESCRIPTOR</a> structure.
+Describes the endpoint descriptor in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff539317">USB_ENDPOINT_DESCRIPTOR</a> structure.
 
 
 ### -field PipeId
@@ -81,10 +70,10 @@ The pipe identifier (ID).
 
 ## -see-also
 
-<a href="..\usbspec\ns-usbspec-_usb_endpoint_descriptor.md">USB_ENDPOINT_DESCRIPTOR</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539317">USB_ENDPOINT_DESCRIPTOR</a>
  
 
  

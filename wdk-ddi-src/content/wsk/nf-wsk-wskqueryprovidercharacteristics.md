@@ -56,17 +56,6 @@ The
   subsystem.
 
 
-## -syntax
-
-
-````
-NTSTATUS WskQueryProviderCharacteristics(
-  _In_  PWSK_REGISTRATION             WskRegistration,
-  _Out_ PWSK_PROVIDER_CHARACTERISTICS WskProviderCharacteristics
-);
-````
-
-
 ## -parameters
 
 
@@ -75,7 +64,7 @@ NTSTATUS WskQueryProviderCharacteristics(
 ### -param WskRegistration [in]
 
 A pointer to the memory location initialized by 
-     <a href="..\wsk\nf-wsk-wskregister.md">WskRegister</a> that identifies a WSK
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571143">WskRegister</a> that identifies a WSK
      application's registration instance.
 
 
@@ -146,14 +135,14 @@ WSK clients can use this function to determine the WSK NPI versions supported by
 
 ## -see-also
 
-<a href="..\wsk\ns-wsk-_wsk_registration.md">WSK_REGISTRATION</a>
 
 
 
-<a href="..\wsk\ns-wsk-_wsk_provider_characteristics.md">WSK_PROVIDER_CHARACTERISTICS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571172">WSK_PROVIDER_CHARACTERISTICS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571178">WSK_REGISTRATION</a>
  
 
  

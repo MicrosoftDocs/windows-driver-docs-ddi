@@ -52,22 +52,6 @@ req.typenames: WCS_PROFILE_MANAGEMENT_SCOPE
 <b>EVT_IDD_CX_MONITOR_SET_GAMMA_RAMP</b> is called by the OS to set a gamma ramp on the specified monitor.
 
 
-## -prototype
-
-
-````
-EVT_IDD_CX_MONITOR_SET_GAMMA_RAMP EvtIddCxMonitorSetGammaRamp;
-
-NTSTATUS EvtIddCxMonitorSetGammaRamp(
-  _In_       IDDCX_MONITOR           MonitorObject,
-  _In_ const IDARG_IN_SET_GAMMARAMP* pInArgs
-)
-{ ... }
-
-typedef EVT_IDD_CX_MONITOR_SET_GAMMA_RAMP PFN_IDD_CX_MONITOR_SET_GAMMA_RAMP;
-````
-
-
 ## -parameters
 
 

@@ -52,19 +52,6 @@ req.typenames: D3DKMT_PRESENT_RGNS
 Specifies dirty and move regions in a present operation.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DKMT_PRESENT_RGNS {
-  UINT                   DirtyRectCount;
-  const RECT             *pDirtyRects;
-  UINT                   MoveRectCount;
-  const D3DKMT_MOVE_RECT *pMoveRects;
-} D3DKMT_PRESENT_RGNS;
-````
-
-
 ## -struct-fields
 
 
@@ -92,10 +79,10 @@ A pointer to an array of move rectangles (<a href="https://msdn.microsoft.com/li
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
-
-
-
  
 
  

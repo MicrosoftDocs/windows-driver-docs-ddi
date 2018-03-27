@@ -52,17 +52,6 @@ req.typenames: DXGK_MULTIPLANE_OVERLAY_STRETCH_QUALITY
 Identifies filtering processes that the hardware should perform when it stretches or shrinks multiplane overlay data.
 
 
-## -syntax
-
-
-````
-typedef enum _DXGK_MULTIPLANE_OVERLAY_STRETCH_QUALITY { 
-  DXGK_MULTIPLANE_OVERLAY_STRETCH_QUALITY_BILINEAR  = 0x1,
-  DXGK_MULTIPLANE_OVERLAY_STRETCH_QUALITY_HIGH      = 0x2
-} DXGK_MULTIPLANE_OVERLAY_STRETCH_QUALITY;
-````
-
-
 ## -enum-fields
 
 

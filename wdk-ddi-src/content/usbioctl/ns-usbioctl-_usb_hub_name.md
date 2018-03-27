@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 The <b>USB_HUB_NAME</b> structure stores the hub's symbolic device name.
 
 
-## -syntax
-
-
-````
-typedef struct _USB_HUB_NAME {
-  ULONG ActualLength;
-  WCHAR HubName[1];
-} USB_HUB_NAME, *PUSB_HUB_NAME;
-````
-
-
 ## -struct-fields
 
 
@@ -81,14 +70,14 @@ A NULL-terminated Unicode string that contains the hub's symbolic device name.
 
 ## -see-also
 
-<a href="..\usbioctl\ni-usbioctl-ioctl_internal_usb_get_controller_name.md">IOCTL_INTERNAL_USB_GET_CONTROLLER_NAME</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537249">IOCTL_INTERNAL_USB_GET_CONTROLLER_NAME</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
-
-
-
  
 
  

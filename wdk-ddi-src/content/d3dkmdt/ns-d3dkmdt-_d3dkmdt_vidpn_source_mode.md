@@ -52,21 +52,6 @@ req.typenames: D3DKMDT_VIDPN_SOURCE_MODE
 The D3DKMDT_VIDPN_SOURCE_MODE structure contains information about a video present network (VidPN) source mode.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DKMDT_VIDPN_SOURCE_MODE {
-  D3DKMDT_VIDEO_PRESENT_SOURCE_MODE_ID Id;
-  D3DKMDT_VIDPN_SOURCE_MODE_TYPE       Type;
-  union {
-    D3DKMDT_GRAPHICS_RENDERING_FORMAT Graphics;
-    D3DKMDT_TEXT_RENDERING_FORMAT     Text;
-  } Format;
-} D3DKMDT_VIDPN_SOURCE_MODE;
-````
-
-
 ## -struct-fields
 
 
@@ -74,12 +59,12 @@ typedef struct _D3DKMDT_VIDPN_SOURCE_MODE {
 
 ### -field Id
 
-An integer that identifies the source mode. The identifier is generated and filled in by the VidPN manager. However, the display miniport driver has the option of overwriting the identifier. For more information, see <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_vidpnsourcemodeset_createnewmodeinfo.md">pfnCreateNewModeInfo</a>.
+An integer that identifies the source mode. The identifier is generated and filled in by the VidPN manager. However, the display miniport driver has the option of overwriting the identifier. For more information, see <a href="https://msdn.microsoft.com/b18aab68-7457-45eb-8641-0b6180cfa70e">pfnCreateNewModeInfo</a>.
 
 
 ### -field Type
 
-A <a href="..\d3dkmdt\ne-d3dkmdt-_d3dkmdt_vidpn_source_mode_type.md">D3DKMDT_VIDPN_SOURCE_MODE_TYPE</a> enumerator that indicates the mode type: graphics or text.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff546727">D3DKMDT_VIDPN_SOURCE_MODE_TYPE</a> enumerator that indicates the mode type: graphics or text.
 
 
 ### -field Format
@@ -91,13 +76,13 @@ A union that contains information about either the graphics rendering format or 
 
 #### Graphics
 
-A <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_graphics_rendering_format.md">D3DKMDT_GRAPHICS_RENDERING_FORMAT</a> structure that contains information about the graphics rendering format (for example, primary surface size and pixel format). This member is meaningful only if the <b>Type</b> member is equal to D3DKMDT_RMT_GRAPHICS.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff546041">D3DKMDT_GRAPHICS_RENDERING_FORMAT</a> structure that contains information about the graphics rendering format (for example, primary surface size and pixel format). This member is meaningful only if the <b>Type</b> member is equal to D3DKMDT_RMT_GRAPHICS.
 
 
 
 #### Text
 
-A <a href="..\d3dkmdt\ne-d3dkmdt-_d3dkmdt_text_rendering_format.md">D3DKMDT_TEXT_RENDERING_FORMAT</a> enumerator that indicates the text format. This member is meaningful only if the <b>Type</b> member is equal to D3DKMDT_RMT_TEXT.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff546603">D3DKMDT_TEXT_RENDERING_FORMAT</a> enumerator that indicates the text format. This member is meaningful only if the <b>Type</b> member is equal to D3DKMDT_RMT_TEXT.
 
 
 ## -remarks
@@ -111,18 +96,18 @@ For more information about video present sources and VidPN source modes, see <a 
 
 ## -see-also
 
-<a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_monitor_source_mode.md">D3DKMDT_MONITOR_SOURCE_MODE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546133">D3DKMDT_MONITOR_SOURCE_MODE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546729">D3DKMDT_VIDPN_TARGET_MODE</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff570558">VidPN Source Mode Set Interface</a>
-
-
-
-<a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_vidpn_target_mode.md">D3DKMDT_VIDPN_TARGET_MODE</a>
-
-
-
  
 
  

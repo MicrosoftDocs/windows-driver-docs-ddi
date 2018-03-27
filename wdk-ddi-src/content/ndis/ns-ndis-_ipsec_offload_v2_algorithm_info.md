@@ -55,19 +55,6 @@ The IPSEC_OFFLOAD_V2_ALGORITHM_INFO structure specifies an algorithm that is use
   association (SA).
 
 
-## -syntax
-
-
-````
-typedef struct _IPSEC_OFFLOAD_V2_ALGORITHM_INFO {
-  ULONG Identifier;
-  ULONG KeyLength;
-  ULONG KeyOffsetBytes;
-  ULONG AdditionalInfo;
-} IPSEC_OFFLOAD_V2_ALGORITHM_INFO, *PIPSEC_OFFLOAD_V2_ALGORITHM_INFO;
-````
-
-
 ## -struct-fields
 
 
@@ -196,7 +183,7 @@ Specifies the AES- GMAC 256 algorithm for computing or validating a cryptographi
 
 The length, in bytes, of the key for the algorithm. The key is contained in the array at the 
      <b>KeyData</b> member in the 
-     <a href="..\ndis\ns-ndis-_ipsec_offload_v2_add_sa.md">IPSEC_OFFLOAD_V2_ADD_SA</a> structure.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff556977">IPSEC_OFFLOAD_V2_ADD_SA</a> structure.
      
 
 <b>KeyLength</b> indicates the length of the cryptographic algorithm, starting at the offset that is
@@ -214,7 +201,7 @@ If both algorithms (
 
 The offset, in bytes, into in the array at the 
      <b>KeyData</b> member in the 
-     <a href="..\ndis\ns-ndis-_ipsec_offload_v2_add_sa.md">
+     <a href="https://msdn.microsoft.com/78c5e765-40e5-47f0-8460-a86124fb43d8">
      IPSEC_OFFLOAD_V2_ADD_SA</a> structure.
 
 
@@ -232,7 +219,7 @@ Additional information that should be interpreted differently based on the algor
 The IPSEC_OFFLOAD_V2_ALGORITHM_INFO structure specifies algorithm information in the 
     <b>EncryptionAlgorithm</b> and 
     <b>AuthenticationAlgorithm</b> members of the 
-    <a href="..\ndis\ns-ndis-_ipsec_offload_v2_security_association.md">
+    <a href="https://msdn.microsoft.com/b2c5611e-930d-41a5-a07e-7de8f8584283">
     IPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION</a> structure.
 
 
@@ -240,15 +227,15 @@ The IPSEC_OFFLOAD_V2_ALGORITHM_INFO structure specifies algorithm information in
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_ipsec_offload_v2_security_association.md">
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556977">IPSEC_OFFLOAD_V2_ADD_SA</a>
+
+
+
+<a href="https://msdn.microsoft.com/b2c5611e-930d-41a5-a07e-7de8f8584283">
    IPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION</a>
-
-
-
-<a href="..\ndis\ns-ndis-_ipsec_offload_v2_add_sa.md">IPSEC_OFFLOAD_V2_ADD_SA</a>
-
-
-
  
 
  

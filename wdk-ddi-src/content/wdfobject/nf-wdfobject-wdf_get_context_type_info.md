@@ -56,16 +56,6 @@ req.product: Windows 10 or later.
 This macro is reserved for internal use only.
 
 
-## -syntax
-
-
-````
-void WDF_GET_CONTEXT_TYPE_INFO(
-    _contexttype
-);
-````
-
-
 ## -parameters
 
 

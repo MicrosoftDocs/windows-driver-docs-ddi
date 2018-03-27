@@ -52,18 +52,6 @@ req.typenames: RILGETPREFERENCEDOPERATORLISTFORMAT
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef enum _RILGETPREFERENCEDOPERATORLISTFORMAT { 
-  RIL_OPFORMAT_SHORT,
-  RIL_OPFORMAT_NUM,
-  RIL_OPFORMAT_MAX
-} RILGETPREFERENCEDOPERATORLISTFORMAT;
-````
-
-
 ## -enum-fields
 
 

@@ -53,20 +53,6 @@ req.product: Windows 10 or later.
 This structure provides the handle for the Universal Serial Bus (USB) device tree to purge I/O for.
 
 
-## -syntax
-
-
-````
-typedef struct __USBDEVICE_TREE_PURGEIO {
-#if _cplusplus
-  USBDEVICE_MGMT_HEADER Header;
-#else 
-  USBDEVICE_MGMT_HEADER ;
-#endif 
-} USBDEVICE_TREE_PURGEIO, *P_USBDEVICE_TREE_PURGEIO;
-````
-
-
 ## -struct-fields
 
 
@@ -74,15 +60,15 @@ typedef struct __USBDEVICE_TREE_PURGEIO {
 
 ### -field Header
 
-A <a href="..\ucxusbdevice\ns-ucxusbdevice-_usbdevice_mgmt_header.md">USBDEVICE_MGMT_HEADER</a> structure that contains  the handle for the USB hub or device.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/mt188075">USBDEVICE_MGMT_HEADER</a> structure that contains  the handle for the USB hub or device.
 
 
 ## -see-also
 
-<a href="..\ucxusbdevice\ns-ucxusbdevice-_usbdevice_purgeio.md">USBDEVICE_PURGEIO</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt188076">USBDEVICE_PURGEIO</a>
  
 
  

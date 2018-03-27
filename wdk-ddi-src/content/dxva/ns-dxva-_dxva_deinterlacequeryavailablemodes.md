@@ -52,18 +52,6 @@ req.typenames: DXVA_DeinterlaceQueryAvailableModes
 The DXVA_DeinterlaceQueryAvailableModes structure describes the available deinterlacing or frame-rate conversion modes for a particular input video format.
 
 
-## -syntax
-
-
-````
-typedef struct _DXVA_DeinterlaceQueryAvailableModes {
-  DWORD Size;
-  DWORD NumGuids;
-  GUID  Guids[MAX_DEINTERLACE_DEVICE_GUIDS];
-} DXVA_DeinterlaceQueryAvailableModes;
-````
-
-
 ## -struct-fields
 
 

@@ -55,18 +55,6 @@ The
   linked list so that access to the list is synchronized in a multiprocessor-safe way.
 
 
-## -syntax
-
-
-````
-PLIST_ENTRY NdisInterlockedInsertHeadList(
-  [in] PLIST_ENTRY     ListHead,
-  [in] PLIST_ENTRY     ListEntry,
-  [in] PNDIS_SPIN_LOCK SpinLock
-);
-````
-
-
 ## -parameters
 
 
@@ -94,10 +82,10 @@ A pointer to a caller-supplied spin lock, used to synchronize access to the list
 Before calling 
     <b>NdisInterlockedInsertHeadList</b>, a driver must initialize the variable at 
     <i>ListHead</i> with the 
-    <a href="..\ndis\nf-ndis-ndisinitializelisthead.md">NdisInitializeListHead</a> function and
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff562734">NdisInitializeListHead</a> function and
     the variable at 
     <i>SpinLock</i> with the 
-    <a href="..\ndis\nf-ndis-ndisallocatespinlock.md">NdisAllocateSpinLock</a> function. The
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561617">NdisAllocateSpinLock</a> function. The
     driver also must provide resident storage for these variables and for its internal queue.
 
 The caller-supplied spin lock prevents any other function from accessing the driver's internal queue
@@ -111,7 +99,7 @@ The caller-supplied spin lock prevents any other function from accessing the dri
 
 Most NDIS drivers process packets in FIFO order, so any driver that uses an interlocked queue tends to
     cal thel 
-    <a href="..\ndis\nf-ndis-ndisinterlockedinserttaillist.md">
+    <a href="https://msdn.microsoft.com/cc455bb1-3574-4dfb-9462-f2c67632132b">
     NdisInterlockedInsertTailList</a> function far more frequently than 
     <b>NdisInterlockedInsertHeadList</b>. Such a driver usually calls 
     <b>NdisInterlockedInsertHeadList</b> only to requeue a packet for a retry operation.
@@ -128,28 +116,28 @@ If
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff542043">CONTAINING_RECORD</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisinterlockedremoveheadlist.md">
-   NdisInterlockedRemoveHeadList</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561617">NdisAllocateSpinLock</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisinitializelisthead.md">NdisInitializeListHead</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562734">NdisInitializeListHead</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisallocatespinlock.md">NdisAllocateSpinLock</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisinterlockedinserttaillist.md">
+<a href="https://msdn.microsoft.com/cc455bb1-3574-4dfb-9462-f2c67632132b">
    NdisInterlockedInsertTailList</a>
 
 
 
+<a href="https://msdn.microsoft.com/85cbc158-7132-4666-8161-a78251a62e4d">
+   NdisInterlockedRemoveHeadList</a>
  
 
  

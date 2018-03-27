@@ -52,20 +52,6 @@ req.typenames: DDRAW_CAPS
 The DDRAW_CAPS structure describes general Microsoft DirectDraw capabilities that the user-mode display driver supports.
 
 
-## -syntax
-
-
-````
-typedef struct _DDRAW_CAPS {
-  UINT Caps;
-  UINT Caps2;
-  UINT CKeyCaps;
-  UINT FxCaps;
-  UINT MaxVideoPorts;
-} DDRAW_CAPS;
-````
-
-
 ## -struct-fields
 
 
@@ -250,18 +236,18 @@ Bit-block transfers (bitblts) that flip the contents of the source surface to th
 
 ## -see-also
 
-<a href="..\d3dumddi\ne-d3dumddi-_d3dddicaps_type.md">D3DDDICAPS_TYPE</a>
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getcaps.md">GetCaps</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543148">D3DDDIARG_GETCAPS</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_getcaps.md">D3DDDIARG_GETCAPS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544132">D3DDDICAPS_TYPE</a>
 
 
 
+<a href="https://msdn.microsoft.com/cf6c61ce-7b53-46d0-b3ff-ed5b2b964c65">GetCaps</a>
  
 
  

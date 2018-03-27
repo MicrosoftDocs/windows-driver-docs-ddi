@@ -49,18 +49,7 @@ req.typenames: D3DWDDM1_3DDI_CHECK_MULTISAMPLE_QUALITY_LEVELS_FLAG
 ## -description
 
 
-Identifies how to check multisample quality levels using the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3dwddm1_3ddi_checkmultisamplequalitylevels.md">CheckMultisampleQualityLevels(D3D11_2)</a> function.
-
-
-## -syntax
-
-
-````
-enum D3DWDDM1_3DDI_CHECK_MULTISAMPLE_QUALITY_LEVELS_FLAG {
-  D3DWDDM1_3DDI_CHECK_MULTISAMPLE_QUALITY_LEVELS_TILED_RESOURCE  = 0x00000001 
-
-};
-````
+Identifies how to check multisample quality levels using the <a href="https://msdn.microsoft.com/A3AD5F2F-4FB9-407C-A436-A0B5F96002D7">CheckMultisampleQualityLevels(D3D11_2)</a> function.
 
 
 ## -enum-fields
@@ -75,10 +64,10 @@ Check the multisample quality levels of a tiled resource.
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3dwddm1_3ddi_checkmultisamplequalitylevels.md">CheckMultisampleQualityLevels(D3D11_2)</a>
 
 
 
+<a href="https://msdn.microsoft.com/A3AD5F2F-4FB9-407C-A436-A0B5F96002D7">CheckMultisampleQualityLevels(D3D11_2)</a>
  
 
  

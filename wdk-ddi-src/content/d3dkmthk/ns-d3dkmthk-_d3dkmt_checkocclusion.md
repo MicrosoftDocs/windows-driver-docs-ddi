@@ -52,16 +52,6 @@ req.typenames: D3DKMT_CHECKOCCLUSION
 The D3DKMT_CHECKOCCLUSION structure contains the handle to the window to check for occlusion.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DKMT_CHECKOCCLUSION {
-  HWND hWindow;
-} D3DKMT_CHECKOCCLUSION;
-````
-
-
 ## -struct-fields
 
 
@@ -74,10 +64,10 @@ typedef struct _D3DKMT_CHECKOCCLUSION {
 
 ## -see-also
 
-<a href="..\d3dkmthk\nc-d3dkmthk-pfnd3dkmt_checkocclusion.md">D3DKMTCheckOcclusion</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546757">D3DKMTCheckOcclusion</a>
  
 
  

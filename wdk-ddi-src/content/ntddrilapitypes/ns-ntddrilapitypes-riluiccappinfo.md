@@ -52,25 +52,6 @@ req.typenames: RILUICCAPPINFO, *LPRILUICCAPPINFO
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef struct _RILUICCAPPINFO {
-  DWORD           cbSize;
-  DWORD           dwParams;
-  HUICCAPP        hUiccApp;
-  RILUICCAPPTYPE  dwUiccAppType;
-  DWORD           dwAppIdLength;
-  BYTE [32]       bAppId;
-  DWORD           dwAppNameLength;
-  char [256]      cszAppName;
-  DWORD           dwNumPins;
-  BYTE [8]        bPinRef;
-} RILUICCAPPINFO, RILUICCAPPINFO;
-````
-
-
 ## -struct-fields
 
 

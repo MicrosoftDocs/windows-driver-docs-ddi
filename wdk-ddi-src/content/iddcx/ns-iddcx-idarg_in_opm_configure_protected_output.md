@@ -54,18 +54,6 @@ req.typenames:
              
 
 
-## -syntax
-
-
-````
-typedef struct IDARG_IN_OPM_CONFIGURE_PROTECTED_OUTPUT {
-  IDDCX_OPM_CONFIGURE_PARAMETERS                           ConfigParameters;
-  UINT                                                     AdditionalParametersSizeInBytes;
-  _Field_size_full_(AdditionalParametersSizeInBytes) PVOID pAdditionalParameters;
-} IDARG_IN_OPM_CONFIGURE_PROTECTED_OUTPUT, *IDARG_IN_OPM_CONFIGURE_PROTECTED_OUTPUT;
-````
-
-
 ## -struct-fields
 
 

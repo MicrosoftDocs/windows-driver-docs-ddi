@@ -52,21 +52,6 @@ req.typenames: GETVERSIONINPARAMS, *PGETVERSIONINPARAMS, *LPGETVERSIONINPARAMS
 The GETVERSIONINPARAMS structure is used in conjunction with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566202">SMART_GET_VERSION</a> request to retrieve version information, a capabilities mask, and a bitmask for the indicated device. 
 
 
-## -syntax
-
-
-````
-typedef struct _GETVERSIONINPARAMS {
-  UCHAR bVersion;
-  UCHAR bRevision;
-  UCHAR bReserved;
-  UCHAR bIDEDeviceMap;
-  ULONG fCapabilities;
-  ULONG dwReserved[4];
-} GETVERSIONINPARAMS, *PGETVERSIONINPARAMS, *LPGETVERSIONINPARAMS;
-````
-
-
 ## -struct-fields
 
 
@@ -230,10 +215,10 @@ Reserved.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566202">SMART_GET_VERSION</a>
-
-
-
  
 
  

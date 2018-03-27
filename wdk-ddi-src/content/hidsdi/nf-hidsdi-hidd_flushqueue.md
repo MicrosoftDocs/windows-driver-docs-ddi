@@ -52,16 +52,6 @@ req.typenames: HID_MINIDRIVER_REGISTRATION, *PHID_MINIDRIVER_REGISTRATION
 The <b>HidD_FlushQueue</b> routine deletes all pending input reports in a <a href="https://msdn.microsoft.com/dcbee8e3-d03a-45c8-92e4-0897b9f55177">top-level collection's</a> input queue.
 
 
-## -syntax
-
-
-````
-BOOLEAN __stdcall HidD_FlushQueue(
-  _In_ HANDLE HidDeviceObject
-);
-````
-
-
 ## -parameters
 
 
@@ -85,7 +75,7 @@ Specifies an open handle to the top-level collection whose input queue is flushe
 
 
 
-Only user-mode applications can call <b>HidD_FlushQueue</b>. Kernel-mode drivers can use an <a href="..\hidclass\ni-hidclass-ioctl_hid_flush_queue.md">IOCTL_HID_FLUSH_QUEUE</a> request.
+Only user-mode applications can call <b>HidD_FlushQueue</b>. Kernel-mode drivers can use an <a href="https://msdn.microsoft.com/library/windows/hardware/ff541083">IOCTL_HID_FLUSH_QUEUE</a> request.
 
 For more information, see <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db-8cff-9fac30209952">HID Collections</a>.
 
@@ -94,10 +84,10 @@ For more information, see <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db
 
 ## -see-also
 
-<a href="..\hidclass\ni-hidclass-ioctl_hid_flush_queue.md">IOCTL_HID_FLUSH_QUEUE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541083">IOCTL_HID_FLUSH_QUEUE</a>
  
 
  

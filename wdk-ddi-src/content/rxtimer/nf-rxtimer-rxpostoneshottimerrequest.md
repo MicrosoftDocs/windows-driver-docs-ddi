@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
@@ -51,20 +51,6 @@ req.product: Windows 10 or later.
 
 
 <b>RxPostOneShotTimerRequest</b> initializes a one-shot timer entry. The passed-in pointer to a worker thread routine is called once when the timer expires. 
-
-
-## -syntax
-
-
-````
-NTSTATUS RxPostOneShotTimerRequest(
-  _In_ PRDBSS_DEVICE_OBJECT     pDeviceObject,
-  _In_ PRX_WORK_ITEM            pWorkItem,
-  _In_ PRX_WORKERTHREAD_ROUTINE Routine,
-  _In_ PVOID                    pContext,
-  _In_ LARGE_INTEGER            TimeInterval
-);
-````
 
 
 ## -parameters
@@ -111,14 +97,14 @@ If a <b>NULL</b> pointer is passed as the <i>pWorkItem</i> parameter, this routi
 
 ## -see-also
 
-<a href="..\rxtimer\nf-rxtimer-rxcanceltimerrequest.md">RxCancelTimerRequest</a>
 
 
 
-<a href="..\rxtimer\nf-rxtimer-rxpostrecurrenttimerrequest.md">RxPostRecurrentTimerRequest</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553395">RxCancelTimerRequest</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554615">RxPostRecurrentTimerRequest</a>
  
 
  

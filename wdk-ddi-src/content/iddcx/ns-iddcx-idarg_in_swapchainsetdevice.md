@@ -53,16 +53,6 @@ req.typenames:
                  Gives information about the device that will process the swap chain.
 
 
-## -syntax
-
-
-````
-typedef struct IDARG_IN_SWAPCHAINSETDEVICE {
-  IDXGIDevice* pDevice;
-} IDARG_IN_SWAPCHAINSETDEVICE, *IDARG_IN_SWAPCHAINSETDEVICE;
-````
-
-
 ## -struct-fields
 
 

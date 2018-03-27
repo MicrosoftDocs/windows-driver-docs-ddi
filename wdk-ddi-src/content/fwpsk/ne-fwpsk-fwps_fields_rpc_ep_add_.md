@@ -54,20 +54,6 @@ The FWPS_FIELDS_RPC_EP_ADD enumeration type specifies the data field identifiers
   <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa366492">run-time filtering layer</a>.
 
 
-## -syntax
-
-
-````
-typedef enum FWPS_FIELDS_RPC_EP_ADD_ { 
-  FWPS_FIELD_RPC_EP_ADD_PROCESS_WITH_RPC_IF_UUID,
-  FWPS_FIELD_RPC_EP_ADD_PROTOCOL,
-  FWPS_FIELD_RPC_EP_ADD_EP_VALUE,
-  FWPS_FIELD_RPC_EP_ADD_EP_FLAGS,
-  FWPS_FIELD_RPC_EP_ADD_MAX
-} FWPS_FIELDS_RPC_EP_ADD;
-````
-
-
 ## -enum-fields
 
 

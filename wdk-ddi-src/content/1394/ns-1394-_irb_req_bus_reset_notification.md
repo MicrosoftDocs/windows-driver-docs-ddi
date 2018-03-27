@@ -56,18 +56,6 @@ This is the suggested method for a client driver on top of the 1394 bus driver t
 This notification is only issued if after the bus reset, the target device is still present on the bus. This way the caller does not have to verify that the target device is on the bus.
 
 
-## -syntax
-
-
-````
-typedef struct _IRB_REQ_BUS_RESET_NOTIFICATION {
-  ULONG                       fulFlags;
-  PBUS_BUS_RESET_NOTIFICATION ResetRoutine;
-  PVOID                       ResetContext;
-} IRB_REQ_BUS_RESET_NOTIFICATION;
-````
-
-
 ## -struct-fields
 
 

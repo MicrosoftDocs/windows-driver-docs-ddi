@@ -52,20 +52,6 @@ req.typenames: HBA_WWNTYPE
 The <b>HBA_SendRLS</b> WMI routine sends a read link error status block (RLS) request through the indicated local port to the indicated remote port to retrieve a link error status block associated with the remote port.
 
 
-## -syntax
-
-
-````
-HBA_STATUS HBA_API HBA_SendRLS(
-  _In_    HBA_HANDLE HbaHandle,
-  _In_    HBA_WWN    HbaPortWWN,
-  _In_    HBA_WWN    DestWWN,
-  _Out_   void       *pRspBuffer,
-  _Inout_ HBA_UINT32 *pRspBufferSize
-);
-````
-
-
 ## -parameters
 
 
@@ -73,7 +59,7 @@ HBA_STATUS HBA_API HBA_SendRLS(
 
 ### -param HbaHandle [in]
 
-Contains a value returned by the routine <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a> that identifies the HBA through which the request is sent. 
+Contains a value returned by the routine <a href="https://msdn.microsoft.com/library/windows/hardware/ff557097">HBA_OpenAdapter</a> that identifies the HBA through which the request is sent. 
 
 
 ### -param HbaPortWWN [in]
@@ -159,14 +145,14 @@ Returned if an unspecified error occurred that prevented the execution of the RL
 
 ## -see-also
 
-<a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557097">HBA_OpenAdapter</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
-
-
-
  
 
  

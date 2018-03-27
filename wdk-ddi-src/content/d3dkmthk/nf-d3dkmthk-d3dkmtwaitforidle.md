@@ -55,16 +55,6 @@ req.typenames: D3DKMT_DRIVERVERSION
 The <b>D3DKMTWaitForIdle</b> function waits for a display device to be idle. 
 
 
-## -syntax
-
-
-````
-NTSTATUS APIENTRY D3DKMTWaitForIdle(
-  _In_ const D3DKMT_WAITFORIDLE *pData
-);
-````
-
-
 ## -parameters
 
 
@@ -79,7 +69,7 @@ TBD
 
 #### - pData [in]
 
-A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_waitforidle.md">D3DKMT_WAITFORIDLE</a> structure that specifies the display device to wait for. 
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff548423">D3DKMT_WAITFORIDLE</a> structure that specifies the display device to wait for. 
 
 
 ## -returns
@@ -125,10 +115,10 @@ This function might also return other NTSTATUS values.
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_waitforidle.md">D3DKMT_WAITFORIDLE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548423">D3DKMT_WAITFORIDLE</a>
  
 
  

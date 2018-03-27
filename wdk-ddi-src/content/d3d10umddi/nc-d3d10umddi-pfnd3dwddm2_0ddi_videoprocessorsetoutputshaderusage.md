@@ -52,21 +52,6 @@ req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 Sets the color space information for the video processor output surface. Optional for Windows Display Driver Model (WDDM) 2.0, or later, drivers.
 
 
-## -prototype
-
-
-````
-PFND3DWDDM2_0DDI_VIDEOPROCESSORSETOUTPUTSHADERUSAGE pfnVideoProcessorSetOutputShaderUsage;
-
-VOID APIENTRY* pfnVideoProcessorSetOutputShaderUsage(
-  _In_ D3D10DDI_HDEVICE           hDevice,
-  _In_ D3D11_1DDI_HVIDEOPROCESSOR hVideoProcessor,
-  _In_ BOOL                       ShaderUsage
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -74,7 +59,7 @@ VOID APIENTRY* pfnVideoProcessorSetOutputShaderUsage(
 
 ### -param hDevice [in]
 
- A handle to the display device (graphics context). The Direct3D runtime passed the user-mode driver this handle as the <b>hDevice</b> member of the <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createdevice.md">D3DDDIARG_CREATEDEVICE</a> structure at device creation.
+ A handle to the display device (graphics context). The Direct3D runtime passed the user-mode driver this handle as the <b>hDevice</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff542931">D3DDDIARG_CREATEDEVICE</a> structure at device creation.
 
 
 ### -param hVideoProcessor [in]
@@ -84,7 +69,7 @@ A handle to the video processor object.
 
 ### -param ShaderUsage [in]
 
-Indicates whether the output of <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_videoprocessorblt.md">VideoProcessorBlt</a> may be read by Direct3D shaders.
+Indicates whether the output of <a href="https://msdn.microsoft.com/library/windows/hardware/hh451703">VideoProcessorBlt</a> may be read by Direct3D shaders.
 
 <div class="alert"><b>Note</b>  This will always be <b>TRUE</b> unless multi-plane overlay hardware exists.</div>
 <div> </div>
@@ -100,14 +85,14 @@ This callback function does not return a value.
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createdevice.md">D3DDDIARG_CREATEDEVICE</a>
 
 
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_videoprocessorblt.md">VideoProcessorBlt</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542931">D3DDDIARG_CREATEDEVICE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451703">VideoProcessorBlt</a>
  
 
  

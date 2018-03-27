@@ -55,18 +55,6 @@ The NDIS_IPSEC_OFFLOAD_V2_TUNNEL_NET_BUFFER_LIST_INFO structure specifies the se
   (SA) offload handle to the tunnel portion of a send packet.
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_IPSEC_OFFLOAD_V2_TUNNEL_NET_BUFFER_LIST_INFO {
-  struct {
-    NDIS_HANDLE TunnelHandle;
-  } Transmit;
-} NDIS_IPSEC_OFFLOAD_V2_TUNNEL_NET_BUFFER_LIST_INFO, *PNDIS_IPSEC_OFFLOAD_V2_TUNNEL_NET_BUFFER_LIST_INFO;
-````
-
-
 ## -struct-fields
 
 
@@ -90,9 +78,9 @@ The tunnel SA handle in transport over tunnel.
 Before the TCP/IP transport passes a send packet that a NIC will perform Internet protocol security
     offload version 2 (IPsecOV2) tasks on to the miniport driver of the NIC, the transport updates the IPsec
     information in the 
-    <a href="..\ndis\ns-ndis-_ndis_ipsec_offload_v2_net_buffer_list_info.md">
+    <a href="https://msdn.microsoft.com/f528ae2f-54fc-4edc-99bf-b1958837584b">
     NDIS_IPSEC_OFFLOAD_V2_NET_BUFFER_LIST_INFO</a> structure that is associated with the 
-    <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure.
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structure.
 
 The TCP/IP transport supplies a handle in the 
     <b>OffloadHandle</b> member of NDIS_IPSEC_OFFLOAD_V2_NET_BUFFER_LIST_INFO that specifies the handle to the
@@ -119,17 +107,19 @@ To set and get the IPsec tunnel information, use the
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_ndis_ipsec_offload_v2_net_buffer_list_info.md">
+
+
+
+<a href="https://msdn.microsoft.com/f528ae2f-54fc-4edc-99bf-b1958837584b">
    NDIS_IPSEC_OFFLOAD_V2_NET_BUFFER_LIST_INFO</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568401">NET_BUFFER_LIST_INFO</a>
-
-
-
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-task-ipsec-offload-v2-delete-sa">
-   OID_TCP_TASK_IPSEC_OFFLOAD_V2_DELETE_SA</a>
 
 
 
@@ -138,10 +128,8 @@ To set and get the IPsec tunnel information, use the
 
 
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
-
-
-
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-task-ipsec-offload-v2-delete-sa">
+   OID_TCP_TASK_IPSEC_OFFLOAD_V2_DELETE_SA</a>
  
 
  

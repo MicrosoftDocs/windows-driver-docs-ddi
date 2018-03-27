@@ -52,17 +52,6 @@ req.typenames: D3D11_1DDI_GETCAPTUREHANDLEDATA
 Used to destroy a video decoder heap.
 
 
-## -prototype
-
-
-````
-VOID APIENTRY* PFND3D12DDI_DESTROYVIDEODECODERHEAP_0032(
-   D3D12DDI_HDEVICE                hDrvDevice,
-   D3D12DDI_HVIDEODECODERHEAP_0032 hDrvVideoDecoderHeap
-);
-````
-
-
 ## -parameters
 
 

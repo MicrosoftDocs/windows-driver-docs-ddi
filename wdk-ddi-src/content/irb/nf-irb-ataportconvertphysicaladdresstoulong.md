@@ -55,16 +55,6 @@ req.typenames: IDE_POWER_STATE
 The <b>AtaPortConvertPhysicalAddressToUlong</b> routine truncates an address of type IDE_PHYSICAL_ADDRESS to a ULONG.
 <div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
-## -syntax
-
-
-````
-ULONG AtaPortConvertPhysicalAddressToUlong(
-  _In_ IDE_PHYSICAL_ADDRESS Address
-);
-````
-
-
 ## -parameters
 
 
@@ -95,10 +85,10 @@ A miniport driver must not use this routine to truncate a 64-bit physical addres
 
 ## -see-also
 
-<a href="..\irb\nf-irb-ataportconvertulongtophysicaladdress.md">AtaPortConvertUlongToPhysicalAddress</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550151">AtaPortConvertUlongToPhysicalAddress</a>
  
 
  

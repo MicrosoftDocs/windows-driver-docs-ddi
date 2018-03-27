@@ -50,26 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The <b>UFS_UNIT_CONFIG_DESCRIPTOR</b> structure describes the user configurable parameters within the <a href="..\ufs\ns-ufs-ufs_config_descriptor.md">UFS_CONFIG_DESCRIPTOR</a>.
-
-
-## -syntax
-
-
-````
-typedef struct _UFS_UNIT_CONFIG_DESCRIPTOR {
-  UCHAR bLUEnable;
-  UCHAR bBootLunID;
-  UCHAR bLUWriteProtect;
-  UCHAR bMemoryType;
-  UCHAR dNumAllocUnits[4];
-  UCHAR bDataReliability;
-  UCHAR bLogicalBlockSize;
-  UCHAR bProvisioningType;
-  UCHAR wContextCapabilities[2];
-  UCHAR Reserved[3];
-} UFS_UNIT_CONFIG_DESCRIPTOR, *PUFS_UNIT_CONFIG_DESCRIPTOR;
-````
+The <b>UFS_UNIT_CONFIG_DESCRIPTOR</b> structure describes the user configurable parameters within the <a href="https://msdn.microsoft.com/B65A2268-6959-4630-97DA-C0CFD37D9174">UFS_CONFIG_DESCRIPTOR</a>.
 
 
 ## -struct-fields

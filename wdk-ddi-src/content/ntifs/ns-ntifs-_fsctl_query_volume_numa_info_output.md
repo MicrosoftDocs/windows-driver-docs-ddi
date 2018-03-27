@@ -52,16 +52,6 @@ req.typenames: FSCTL_QUERY_VOLUME_NUMA_INFO_OUTPUT, *PFSCTL_QUERY_VOLUME_NUMA_IN
 The <b>FSCTL_QUERY_VOLUME_NUMA_INFO_OUTPUT</b> structure specifies the Non-Uniform Memory Architecture (NUMA) node the volume resides on.
 
 
-## -syntax
-
-
-````
-typedef struct _FSCTL_QUERY_VOLUME_NUMA_INFO_OUTPUT  {
-  ULONG NumaNode;
-} FSCTL_QUERY_VOLUME_NUMA_INFO_OUTPUT , *PFSCTL_QUERY_VOLUME_NUMA_INFO_OUTPUT ;
-````
-
-
 ## -struct-fields
 
 

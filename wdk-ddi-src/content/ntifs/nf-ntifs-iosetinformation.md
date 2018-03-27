@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -49,17 +49,7 @@ req.typenames: TOKEN_TYPE
 ## -description
 
 
-The <b>IoSetInformation</b> routine is reserved for system use. See <a href="..\wdm\nf-wdm-zwsetinformationfile.md">ZwSetInformationFile</a>.
-
-
-## -syntax
-
-
-````
-  IoSetInformation(
-    
-);
-````
+The <b>IoSetInformation</b> routine is reserved for system use. See <a href="https://msdn.microsoft.com/library/windows/hardware/ff567096">ZwSetInformationFile</a>.
 
 
 ## -parameters

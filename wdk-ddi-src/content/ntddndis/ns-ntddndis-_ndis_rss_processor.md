@@ -53,18 +53,6 @@ The NDIS_RSS_PROCESSOR structure specifies information about a processor in the 
   receive side scaling (RSS).
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_RSS_PROCESSOR {
-  PROCESSOR_NUMBER ProcNum;
-  USHORT           PreferenceIndex;
-  USHORT           Reserved;
-} NDIS_RSS_PROCESSOR, *PNDIS_RSS_PROCESSOR;
-````
-
-
 ## -struct-fields
 
 
@@ -97,7 +85,7 @@ Reserved for NDIS.
 
 
 The NDIS_RSS_PROCESSOR structure is used in the 
-    <a href="..\ntddndis\ns-ntddndis-_ndis_rss_processor_info.md">
+    <a href="https://msdn.microsoft.com/7f40a815-0247-428c-a46f-d3cdbf7e8058">
     NDIS_RSS_PROCESSOR_INFO</a> structure.
 
 
@@ -105,10 +93,10 @@ The NDIS_RSS_PROCESSOR structure is used in the
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_rss_processor_info.md">NDIS_RSS_PROCESSOR_INFO</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567274">NDIS_RSS_PROCESSOR_INFO</a>
  
 
  

@@ -52,18 +52,6 @@ req.typenames: TOKEN_TYPE
 The <b>CcUninitializeCacheMap</b> routine stops the caching of a cached file.
 
 
-## -syntax
-
-
-````
-BOOLEAN CcUninitializeCacheMap(
-  _In_     PFILE_OBJECT              FileObject,
-  _In_opt_ PLARGE_INTEGER            TruncateSize,
-  _In_opt_ PCACHE_UNINITIALIZE_EVENT UninitializeCompleteEvent
-);
-````
-
-
 ## -parameters
 
 
@@ -106,21 +94,21 @@ If specified, the provided event is set to the signaled state when the cached fi
 
 All file systems that support file caching must call <b>CcUninitializeCacheMap</b> when closing a file, whether the file is cached or not. Even if the file was created with caching disabled, the file system still must call <b>CcUninitializeCacheMap</b>.
 
-To cache a file, use <a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a>.
+To cache a file, use <a href="https://msdn.microsoft.com/library/windows/hardware/ff539135">CcInitializeCacheMap</a>.
 
 
 
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-ccpurgecachesection.md">CcPurgeCacheSection</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539135">CcInitializeCacheMap</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539188">CcPurgeCacheSection</a>
  
 
  

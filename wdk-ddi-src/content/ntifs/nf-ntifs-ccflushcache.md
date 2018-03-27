@@ -52,19 +52,6 @@ req.typenames: TOKEN_TYPE
 The <b>CcFlushCache</b> routine flushes all or a portion of a cached file to disk.
 
 
-## -syntax
-
-
-````
-VOID CcFlushCache(
-  _In_      PSECTION_OBJECT_POINTERS SectionObjectPointer,
-  _In_opt_  PLARGE_INTEGER           FileOffset,
-  _In_      ULONG                    Length,
-  _Out_opt_ PIO_STATUS_BLOCK         IoStatus
-);
-````
-
-
 ## -parameters
 
 
@@ -109,14 +96,21 @@ None
 
 <b>CcFlushCache</b> has no <i>Wait</i> parameter. Thus the caller must be able to enter a wait state until all the data has been flushed.
 
-To cache a file, use <a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a>.
+To cache a file, use <a href="https://msdn.microsoft.com/library/windows/hardware/ff539135">CcInitializeCacheMap</a>.
 
 
 
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-ccpurgecachesection.md">CcPurgeCacheSection</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539045">CcCopyWrite</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539135">CcInitializeCacheMap</a>
 
 
 
@@ -124,14 +118,7 @@ To cache a file, use <a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcIniti
 
 
 
-<a href="..\ntifs\nf-ntifs-cccopywrite.md">CcCopyWrite</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539188">CcPurgeCacheSection</a>
  
 
  

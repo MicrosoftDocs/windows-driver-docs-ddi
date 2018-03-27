@@ -56,18 +56,6 @@ req.typenames: DD_DXVERSION
 DD_DXVERSION describes the current DirectX runtime version. 
 
 
-## -syntax
-
-
-````
-typedef struct _DD_DXVERSION {
-  DD_GETDRIVERINFO2DATA gdi2;
-  DWORD                 dwDXVersion;
-  DWORD                 dwReserved;
-} DD_DXVERSION;
-````
-
-
 ## -struct-fields
 
 
@@ -75,7 +63,7 @@ typedef struct _DD_DXVERSION {
 
 ### -field gdi2
 
-Specifies a <a href="..\d3dhal\ns-d3dhal-_dd_getdriverinfo2data.md">DD_GETDRIVERINFO2DATA</a> structure that contains the <b>GetDriverInfo2</b> data.
+Specifies a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551548">DD_GETDRIVERINFO2DATA</a> structure that contains the <b>GetDriverInfo2</b> data.
 
 
 ### -field dwDXVersion
@@ -103,14 +91,14 @@ The <b>gdi2</b> member of DD_DXVERSION is used by the runtime with type D3DGDI2_
 
 ## -see-also
 
-<a href="..\d3dhal\ns-d3dhal-_dd_getdriverinfo2data.md">DD_GETDRIVERINFO2DATA</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551548">DD_GETDRIVERINFO2DATA</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551550">DD_GETDRIVERINFODATA</a>
-
-
-
  
 
  

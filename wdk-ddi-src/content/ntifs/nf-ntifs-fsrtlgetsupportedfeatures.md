@@ -52,17 +52,6 @@ req.typenames: TOKEN_TYPE
 The <b>FsRtlGetSupportedFeatures</b> routine returns the supported features of a volume attached to the specified device object.
 
 
-## -syntax
-
-
-````
-NTSTATUS FsRtlGetSupportedFeatures(
-  _In_  PDEVICE_OBJECT DeviceObject,
-  _Out_ PULONG         SupportedFeatures
-);
-````
-
-
 ## -parameters
 
 

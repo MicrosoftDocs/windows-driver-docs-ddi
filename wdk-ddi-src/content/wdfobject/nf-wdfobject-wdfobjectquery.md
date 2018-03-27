@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: Not applicable
 topic_type:
@@ -53,19 +53,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Applies to KMDF and UMDF]
 
 The <b>WdfObjectQuery</b> method is not implemented.
-
-
-## -syntax
-
-
-````
-NTSTATUS WdfObjectQuery(
-  _In_  WDFOBJECT  Object,
-  _In_  CONST GUID *Guid,
-  _In_  ULONG      QueryBufferLength,
-  _Out_ PVOID      QueryBuffer
-);
-````
 
 
 ## -parameters

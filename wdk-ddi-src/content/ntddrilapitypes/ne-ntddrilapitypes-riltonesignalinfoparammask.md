@@ -52,19 +52,6 @@ req.typenames: RILTONESIGNALINFOPARAMMASK
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef enum _RILTONESIGNALINFOPARAMMASK { 
-  RIL_PARAM_TONESIGNAL_GPP2TONE,
-  RIL_PARAM_TONESIGNAL_GPP2ISDNALERTING,
-  RIL_PARAM_TONESIGNAL_EXECUTOR,
-  RIL_PARAM_TONESIGNAL_All
-} RILTONESIGNALINFOPARAMMASK;
-````
-
-
 ## -enum-fields
 
 

@@ -52,18 +52,6 @@ req.typenames: RILUICCAPPPERSOCHECKSTATUSSTATE
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef enum _RILUICCAPPPERSOCHECKSTATUSSTATE { 
-  RIL_PERSOCHECKSTATE_PASS,
-  RIL_PERSOCHECKSTATE_FAIL,
-  RIL_PERSOCHECKSTATE_MAX
-} RILUICCAPPPERSOCHECKSTATUSSTATE;
-````
-
-
 ## -enum-fields
 
 

@@ -52,21 +52,6 @@ req.typenames: DXGK_DISPLAY_OWNERSHIP_FLAGS, *PDXGK_DISPLAY_OWNERSHIP_FLAGS
 Structure filled in by OS upon successful completion of the DxgkCbAcquirePostDisplayOwnership2 callback to provide information about the display state a driver is inheriting.
 
 
-## -syntax
-
-
-````
-typedef struct _DXGK_DISPLAY_OWNERSHIP_FLAGS {
-  union {
-    struct {
-      DXGK_FRAMEBUFFER_STATE FrameBufferState  :4;
-    };
-    UINT Value;
-  };
-} DXGK_DISPLAY_OWNERSHIP_FLAGS, *PDXGK_DISPLAY_OWNERSHIP_FLAGS;
-````
-
-
 ## -struct-fields
 
 

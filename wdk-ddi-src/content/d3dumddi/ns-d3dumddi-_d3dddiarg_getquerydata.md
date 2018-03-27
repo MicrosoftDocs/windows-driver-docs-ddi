@@ -52,17 +52,6 @@ req.typenames: D3DDDIARG_GETQUERYDATA
 The D3DDDIARG_GETQUERYDATA structure contains query information that was retrieved from the user-mode display driver.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DDDIARG_GETQUERYDATA {
-  HANDLE hQuery;
-  VOID   *pData;
-} D3DDDIARG_GETQUERYDATA;
-````
-
-
 ## -struct-fields
 
 
@@ -70,7 +59,7 @@ typedef struct _D3DDDIARG_GETQUERYDATA {
 
 ### -field hQuery
 
-[in] The handle to the query that was created by the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createquery.md">CreateQuery</a> function.
+[in] The handle to the query that was created by the <a href="https://msdn.microsoft.com/ac63b77b-2704-4d5b-bf1d-9d85e8a1e336">CreateQuery</a> function.
 
 
 ### -field pData
@@ -80,14 +69,14 @@ typedef struct _D3DDDIARG_GETQUERYDATA {
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getquerydata.md">GetQueryData</a>
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createquery.md">CreateQuery</a>
+<a href="https://msdn.microsoft.com/ac63b77b-2704-4d5b-bf1d-9d85e8a1e336">CreateQuery</a>
 
 
 
+<a href="https://msdn.microsoft.com/64daec14-8e16-4df3-bb0c-27760223b86c">GetQueryData</a>
  
 
  

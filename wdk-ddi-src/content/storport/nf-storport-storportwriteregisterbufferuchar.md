@@ -54,18 +54,6 @@ req.product: Windows 10 or later.
 The <b>StorPortWriteRegisterBufferUchar</b> routine transfers a given number of unsigned bytes from a buffer to the HBA. 
 
 
-## -syntax
-
-
-````
-VOID StorPortWriteRegisterBufferUchar(
-   IN PVOID  HwDeviceExtension,
-   IN PUCHAR Register,
-   IN ULONG  Count
-);
-````
-
-
 ## -parameters
 
 
@@ -102,7 +90,7 @@ Specifies the number of bytes to be transferred to the HBA.
 
 #### - HwDeviceExtension
 
-A pointer to the hardware device extension. This is a per HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the mapped access ranges for the HBA. This area is available to the miniport driver immediately after the miniport driver calls <a href="..\storport\nf-storport-storportinitialize.md">StorPortInitialize</a>. The port driver frees this memory when it removes the device. 
+A pointer to the hardware device extension. This is a per HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the mapped access ranges for the HBA. This area is available to the miniport driver immediately after the miniport driver calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff567108">StorPortInitialize</a>. The port driver frees this memory when it removes the device. 
 
 
 #### - Register
@@ -112,10 +100,10 @@ Pointer to a buffer containing the data to be written.
 
 ## -see-also
 
-<a href="..\storport\nf-storport-scsiportwriteregisterbufferuchar.md">ScsiPortWriteRegisterBufferUchar</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564845">ScsiPortWriteRegisterBufferUchar</a>
  
 
  

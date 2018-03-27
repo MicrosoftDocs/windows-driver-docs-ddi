@@ -47,11 +47,6 @@ req.product: Windows 10 or later.
 # IOCTL_USB_GET_DESCRIPTOR_FROM_NODE_CONNECTION IOCTL
 
 
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
-
 ## -description
 
 
@@ -70,17 +65,17 @@ The <b>IOCTL_USB_GET_DESCRIPTOR_FROM_NODE_CONNECTION</b> I/O control request ret
 
 ### -input-buffer
 
-The <b>AssociatedIrp.SystemBuffer</b> member points to a <a href="..\usbioctl\ns-usbioctl-_usb_descriptor_request.md">USB_DESCRIPTOR_REQUEST</a> structure that describes the descriptor request. 
+The <b>AssociatedIrp.SystemBuffer</b> member points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff539272">USB_DESCRIPTOR_REQUEST</a> structure that describes the descriptor request. 
 
 
 ### -input-buffer-length
 
-The <b>Parameters.DeviceIoControl.OutputBufferLength</b> member indicates the size, in bytes, of the user-allocated output buffer in the <b>Data</b> member of the <a href="..\usbioctl\ns-usbioctl-_usb_descriptor_request.md">USB_DESCRIPTOR_REQUEST</a> structure. 
+The <b>Parameters.DeviceIoControl.OutputBufferLength</b> member indicates the size, in bytes, of the user-allocated output buffer in the <b>Data</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff539272">USB_DESCRIPTOR_REQUEST</a> structure. 
 
 
 ### -output-buffer
 
-The <b>Data</b> member of the <a href="..\usbioctl\ns-usbioctl-_usb_descriptor_request.md">USB_DESCRIPTOR_REQUEST</a> structure at <b>AssociatedIrp.SystemBuffer</b> points to the output buffer.
+The <b>Data</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff539272">USB_DESCRIPTOR_REQUEST</a> structure at <b>AssociatedIrp.SystemBuffer</b> points to the output buffer.
 
 
 ### -output-buffer-length
@@ -117,10 +112,10 @@ The USB stack sets <b>Irp-&gt;IoStatus.Status</b> to STATUS_SUCCESS if the reque
 
 ## -see-also
 
-<a href="..\usbioctl\ns-usbioctl-_usb_descriptor_request.md">USB_DESCRIPTOR_REQUEST</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539272">USB_DESCRIPTOR_REQUEST</a>
  
 
  

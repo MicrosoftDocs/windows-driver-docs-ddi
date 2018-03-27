@@ -56,31 +56,6 @@ The <b>NDIS_RECEIVE_SCALE_PARAMETERS</b> structure specifies the <a href="https:
   </b>
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_RECEIVE_SCALE_PARAMETERS {
-  NDIS_OBJECT_HEADER Header;
-  USHORT             Flags;
-  USHORT             BaseCpuNumber;
-  ULONG              HashInformation;
-  USHORT             IndirectionTableSize;
-  ULONG              IndirectionTableOffset;
-  USHORT             HashSecretKeySize;
-  ULONG              HashSecretKeyOffset;
-#if NDIS_SUPPORT_NDIS620
-  ULONG              ProcessorMasksOffset;
-  ULONG              NumberOfProcessorMasks;
-  ULONG              ProcessorMasksEntrySize;
-#endif 
-#if NDIS_SUPPORT_NDIS660
-  PROCESSOR_NUMBER   DefaultProcessorNumber;
-#endif 
-} NDIS_RECEIVE_SCALE_PARAMETERS, *PNDIS_RECEIVE_SCALE_PARAMETERS;
-````
-
-
 ## -struct-fields
 
 
@@ -89,7 +64,7 @@ typedef struct _NDIS_RECEIVE_SCALE_PARAMETERS {
 ### -field Header
 
 The 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure for the
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure for the
      <b>NDIS_RECEIVE_SCALE_PARAMETERS</b> structure. Set the 
      <b>Type</b> member of the structure that 
      <b>Header</b> specifies to <b>NDIS_OBJECT_TYPE_RSS_PARAMETERS</b>. 
@@ -245,7 +220,7 @@ The offset of an array of processor masks from the beginning of the <b>NDIS_RECE
 
 ### -field NumberOfProcessorMasks
 
-The number of elements in an array of type <a href="..\minitape\ns-minitape-_group_affinity.md">GROUP_AFFINITY</a> representing the processors used in the indirection table
+The number of elements in an array of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff546539">GROUP_AFFINITY</a> representing the processors used in the indirection table
 
 
 ### -field ProcessorMasksEntrySize
@@ -318,8 +293,10 @@ If RSS is disabled, the miniport driver should handle receive operations without
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-receive-scale-capabilities">
-   OID_GEN_RECEIVE_SCALE_CAPABILITIES</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
 
 
 
@@ -328,12 +305,8 @@ If RSS is disabled, the miniport driver should handle receive operations without
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-receive-side-scaling2">Receive Side Scaling (RSS)</a>
-
-
-
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-receive-scale-parameters">
-   OID_GEN_RECEIVE_SCALE_PARAMETERS</a>
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567266">
+   NDIS_RSS_HASH_INFO_FROM_TYPE_AND_FUNC</a>
 
 
 
@@ -342,15 +315,17 @@ If RSS is disabled, the miniport driver should handle receive operations without
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567266">
-   NDIS_RSS_HASH_INFO_FROM_TYPE_AND_FUNC</a>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-receive-scale-capabilities">
+   OID_GEN_RECEIVE_SCALE_CAPABILITIES</a>
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-receive-scale-parameters">
+   OID_GEN_RECEIVE_SCALE_PARAMETERS</a>
 
 
 
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-receive-side-scaling2">Receive Side Scaling (RSS)</a>
  
 
  

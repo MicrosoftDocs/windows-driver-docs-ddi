@@ -52,19 +52,6 @@ req.typenames: VERIFY_INFORMATION, *PVERIFY_INFORMATION
 The <i>Dump_Finish</i> callback routine is called after writing all the dump data. The dump port driver generally flushes the cache to ensure the data is stored on the storage media before the system powers down.
 
 
-## -prototype
-
-
-````
-PDUMP_FINISH Dump_Finish;
-
-NTSTATUS Dump_Finish(
-  _In_ PFILTER_EXTENSION FilterExtension
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -72,7 +59,7 @@ NTSTATUS Dump_Finish(
 
 ### -param FilterExtension [in]
 
-A pointer to a <a href="..\ntdddump\ns-ntdddump-_filter_extension.md">FILTER_EXTENSION</a> structure.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff553862">FILTER_EXTENSION</a> structure.
 
 
 ## -returns
@@ -86,10 +73,10 @@ If the routine succeeds, it must return STATUS_SUCCESS. Otherwise, it must retur
 
 ## -see-also
 
-<a href="..\ntdddump\ns-ntdddump-_filter_extension.md">FILTER_EXTENSION</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553862">FILTER_EXTENSION</a>
  
 
  

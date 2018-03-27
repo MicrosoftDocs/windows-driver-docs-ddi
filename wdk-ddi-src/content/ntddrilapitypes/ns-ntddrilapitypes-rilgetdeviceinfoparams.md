@@ -52,17 +52,6 @@ req.typenames: RILGETDEVICEINFOPARAMS, *LPRILGETDEVICEINFOPARAMS
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef struct _RILGETDEVICEINFOPARAMS {
-  DWORD                 dwExecutor;
-  RILDEVICEINFORMATION  dwId;
-} RILGETDEVICEINFOPARAMS, RILGETDEVICEINFOPARAMS;
-````
-
-
 ## -struct-fields
 
 

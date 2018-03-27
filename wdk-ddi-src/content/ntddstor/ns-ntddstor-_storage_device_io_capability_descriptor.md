@@ -52,19 +52,6 @@ req.typenames: STORAGE_DEVICE_IO_CAPABILITY_DESCRIPTOR, PSTORAGE_DEVICE_IO_CAPAB
 The output buffer for the StorageDeviceIoCapabilityProperty as defined in <a href="https://msdn.microsoft.com/library/windows/hardware/ff566996">STORAGE_PROPERTY_ID</a>.
 
 
-## -syntax
-
-
-````
-typedef struct _STORAGE_DEVICE_IO_CAPABILITY_DESCRIPTOR {
-  ULONG Version;
-  ULONG Size;
-  ULONG LunMaxIoCount;
-  ULONG AdapterMaxIoCount;
-} STORAGE_DEVICE_IO_CAPABILITY_DESCRIPTOR, *PSTORAGE_DEVICE_IO_CAPABILITY_DESCRIPTOR;
-````
-
-
 ## -struct-fields
 
 

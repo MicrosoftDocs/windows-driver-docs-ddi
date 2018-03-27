@@ -53,23 +53,6 @@ req.product: Windows 10 or later.
 The <i>Int10WriteMemory</i> function writes the contents of an input buffer to memory in the context of another thread.
 
 
-## -prototype
-
-
-````
-PINT10_WRITE_MEMORY Int10WriteMemory;
-
-VP_STATUS Int10WriteMemory(
-  _In_ PVOID  Context,
-  _In_ USHORT Seg,
-  _In_ USHORT Off,
-  _In_ PVOID  Buffer,
-  _In_ ULONG  Length
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -77,7 +60,7 @@ VP_STATUS Int10WriteMemory(
 
 ### -param Context [in]
 
-Pointer to a video port driver-defined context for the interface. This should be the same as the value in the <b>Context</b> member of the <a href="..\video\ns-video-_video_port_int10_interface.md">VIDEO_PORT_INT10_INTERFACE</a> structure after <a href="..\video\nf-video-videoportqueryservices.md">VideoPortQueryServices</a> returns.
+Pointer to a video port driver-defined context for the interface. This should be the same as the value in the <b>Context</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff570539">VIDEO_PORT_INT10_INTERFACE</a> structure after <a href="https://msdn.microsoft.com/library/windows/hardware/ff570337">VideoPortQueryServices</a> returns.
 
 
 ### -param Seg [in]
@@ -113,17 +96,17 @@ The <i>Int10WriteMemory</i> function returns NO_ERROR upon success. Otherwise it
 
 
 
-The video port implements this function, which can be accessed through a pointer in the <a href="..\video\ns-video-_video_port_int10_interface.md">VIDEO_PORT_INT10_INTERFACE</a> structure.
+The video port implements this function, which can be accessed through a pointer in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff570539">VIDEO_PORT_INT10_INTERFACE</a> structure.
 
 
 
 
 ## -see-also
 
-<a href="..\video\ns-video-_video_port_int10_interface.md">VIDEO_PORT_INT10_INTERFACE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570539">VIDEO_PORT_INT10_INTERFACE</a>
  
 
  

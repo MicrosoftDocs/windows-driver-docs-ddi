@@ -55,21 +55,6 @@ The
   enforcement (ALE) endpoint enumeration session.
 <div class="alert"><b>Note</b>  <b>FwpsAleEndpointSetSecurityInfo0</b> is a specific version of <b>FwpsAleEndpointSetSecurityInfo</b>. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
 
-## -syntax
-
-
-````
-NTSTATUS NTAPI FwpsAleEndpointSetSecurityInfo0(
-  _In_           HANDLE               engineHandle,
-  _In_           SECURITY_INFORMATION securityInfo,
-  _In_opt_ const SID                  *sidOwner,
-  _In_opt_ const SID                  *sidGroup,
-  _In_opt_ const ACL                  *dacl,
-  _In_opt_ const ACL                  *sacl
-);
-````
-
-
 ## -parameters
 
 
@@ -79,7 +64,7 @@ NTSTATUS NTAPI FwpsAleEndpointSetSecurityInfo0(
 
 A handle for an open session with the filter engine. This handle is obtained when a session is
      opened by calling 
-     <a href="..\fwpmk\nf-fwpmk-fwpmengineopen0.md">FwpmEngineOpen0</a>.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff550075">FwpmEngineOpen0</a>.
 
 
 ### -param securityInfo [in]
@@ -151,19 +136,19 @@ An error occurred.
 
 ## -see-also
 
-<a href="..\fwpsk\nf-fwpsk-fwpsaleendpointgetsecurityinfo0.md">
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551126">FwpsAleEndpointEnum0</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551128">FwpsAleEndpointGetById0</a>
+
+
+
+<a href="https://msdn.microsoft.com/0c825695-7fef-4eb1-8615-f41c526aa32d">
    FwpsAleEndpointGetSecurityInfo0</a>
-
-
-
-<a href="..\fwpsk\nf-fwpsk-fwpsaleendpointgetbyid0.md">FwpsAleEndpointGetById0</a>
-
-
-
-<a href="..\fwpsk\nf-fwpsk-fwpsaleendpointenum0.md">FwpsAleEndpointEnum0</a>
-
-
-
  
 
  

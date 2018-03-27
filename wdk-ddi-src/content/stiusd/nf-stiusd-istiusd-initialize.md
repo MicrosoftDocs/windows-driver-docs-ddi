@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: stiusd.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,18 +51,6 @@ req.product: Windows 10 or later.
 
 
 A still image minidriver's <b>IStiUSD::Initialize</b> method initializes an instance of the COM object that defines the <b>IStiUSD</b> interface.
-
-
-## -syntax
-
-
-````
-HRESULT Initialize(
-   PSTIDEVICECONTROL pDcb,
-   DWORD             dwStiVersion,
-   HKEY              hParametersKey
-);
-````
 
 
 ## -parameters

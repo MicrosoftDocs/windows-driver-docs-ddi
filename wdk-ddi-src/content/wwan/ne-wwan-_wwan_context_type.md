@@ -54,23 +54,6 @@ The WWAN_CONTEXT_TYPE enumeration lists the different types of connection contex
   by the MB device.
 
 
-## -syntax
-
-
-````
-typedef enum _WWAN_CONTEXT_TYPE { 
-  WwanContextTypeNone        = 0,
-  WwanContextTypeInternet,
-  WwanContextTypeVpn,
-  WwanContextTypeVoice,
-  WwanContextTypeVideoShare,
-  WwanContextTypeCustom,
-  WwanContextTypePurchase,
-  WwanContextTypeMax
-} WWAN_CONTEXT_TYPE, *PWWAN_CONTEXT_TYPE;
-````
-
-
 ## -enum-fields
 
 
@@ -154,10 +137,10 @@ This enumeration indicates the usage of the provisioned context. For example, wh
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_context.md">WWAN_CONTEXT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571201">WWAN_CONTEXT</a>
  
 
  

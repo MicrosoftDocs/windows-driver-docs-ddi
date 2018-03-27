@@ -52,18 +52,6 @@ req.typenames: SM_SetBindingSupport_IN, *PSM_SetBindingSupport_IN
 The SM_SetBindingSupport_IN structure is used to provide input parameters to the SM_SetBindingSupport method.
 
 
-## -syntax
-
-
-````
-typedef struct _SM_SetBindingSupport_IN {
-  UCHAR HbaPortWWN[8];
-  UCHAR DomainPortWWN[8];
-  ULONG Flags;
-} SM_SetBindingSupport_IN, *PSM_SetBindingSupport_IN;
-````
-
-
 ## -struct-fields
 
 

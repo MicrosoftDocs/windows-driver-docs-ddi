@@ -52,18 +52,6 @@ req.typenames: D3DKMT_INVALIDATEACTIVEVIDPN
 The D3DKMT_INVALIDATEACTIVEVIDPN structure describes parameters that invalidate the active video present network (VidPN) currently in use. 
 
 
-## -syntax
-
-
-````
-typedef struct _D3DKMT_INVALIDATEACTIVEVIDPN {
-  D3DKMT_HANDLE hAdapter;
-  VOID          *pPrivateDriverData;
-  UINT          PrivateDriverDataSize;
-} D3DKMT_INVALIDATEACTIVEVIDPN;
-````
-
-
 ## -struct-fields
 
 
@@ -86,10 +74,10 @@ typedef struct _D3DKMT_INVALIDATEACTIVEVIDPN {
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtinvalidateactivevidpn.md">D3DKMTInvalidateActiveVidPn</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547023">D3DKMTInvalidateActiveVidPn</a>
  
 
  

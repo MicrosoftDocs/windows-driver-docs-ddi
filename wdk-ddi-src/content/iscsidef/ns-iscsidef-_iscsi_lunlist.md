@@ -52,18 +52,6 @@ req.typenames: ISCSI_LUNList, *PISCSI_LUNList
 The ISCSI_LUNList structure defines a mapping between the LUN number that is used by the operating system and the LUN number that is configured in the iSCSI target.
 
 
-## -syntax
-
-
-````
-typedef struct _ISCSI_LUNList {
-  ULONGLONG TargetLUN;
-  ULONG     OSLUN;
-  ULONG     Reserved;
-} ISCSI_LUNList, *PISCSI_LUNList;
-````
-
-
 ## -struct-fields
 
 
@@ -86,10 +74,10 @@ Reserved for Microsoft use only.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561547">ISCSI_LUNList WMI Class</a>
-
-
-
  
 
  

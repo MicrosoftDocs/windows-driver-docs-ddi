@@ -52,17 +52,6 @@ req.typenames: HBA_WWNTYPE
 The <b>HBA_SetRNIDMgmtInfo</b> routine programs the HBA to return the indicated request node identification information data (RNID). 
 
 
-## -syntax
-
-
-````
-HBA_STATUS HBA_API HBA_SetRNIDMgmtInfo(
-  _In_ HBA_HANDLE   HbaHandle,
-  _In_ HBA_MGMTINFO *HbaMgmtInfo
-);
-````
-
-
 ## -parameters
 
 
@@ -82,12 +71,12 @@ TBD
 
 #### - HbaHandle [in]
 
-Contains a value returned by the routine <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a> that identifies the HBA whose RNID is set.  
+Contains a value returned by the routine <a href="https://msdn.microsoft.com/library/windows/hardware/ff557097">HBA_OpenAdapter</a> that identifies the HBA whose RNID is set.  
 
 
 #### - HbaMgmtInfo [in]
 
-Contains a structure of type <a href="..\hbaapi\ns-hbaapi-hba_mgmtinfo.md">HBA_MgmtInfo</a> that specifies the RNID to associate with the HBA referenced by <i>HbaHandle. </i>
+Contains a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff557092">HBA_MgmtInfo</a> that specifies the RNID to associate with the HBA referenced by <i>HbaHandle. </i>
 
 
 ## -returns
@@ -131,14 +120,14 @@ Returned if an unspecified error occurred that prevented the routine from progra
 
 ## -see-also
 
-<a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557097">HBA_OpenAdapter</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
-
-
-
  
 
  

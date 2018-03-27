@@ -52,18 +52,6 @@ req.typenames: DISK_EXTENT, *PDISK_EXTENT
 The DISK_EXTENT structure contains information defining the location and length of a volume extent on a disk.
 
 
-## -syntax
-
-
-````
-typedef struct _DISK_EXTENT {
-  ULONG         DiskNumber;
-  LARGE_INTEGER StartingOffset;
-  LARGE_INTEGER ExtentLength;
-} DISK_EXTENT, *PDISK_EXTENT;
-````
-
-
 ## -struct-fields
 
 
@@ -86,14 +74,14 @@ Specifies the number of bytes of this extent.
 
 ## -see-also
 
-<a href="..\ntddvol\ni-ntddvol-ioctl_volume_get_volume_disk_extents.md">IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS</a>
 
 
 
-<a href="..\ntddvol\ns-ntddvol-_volume_disk_extents.md">VOLUME_DISK_EXTENTS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560644">IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568017">VOLUME_DISK_EXTENTS</a>
  
 
  

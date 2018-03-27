@@ -50,21 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The <b>USB_TOPOLOGY_ADDRESS</b> structure is used with the <a href="..\usbioctl\ni-usbioctl-ioctl_internal_usb_get_topology_address.md">IOCTL_INTERNAL_USB_GET_TOPOLOGY_ADDRESS</a> I/O request to retrieve information about a USB device?s location in the USB device tree. 
-
-
-## -syntax
-
-
-````
-typedef struct _USB_TOPOLOGY_ADDRESS {
-  ULONG  PciBusNumber;
-  ULONG  PciDeviceNumber;
-  ULONG  PciFunctionNumber;
-  USHORT RootHubPortNumber;
-  USHORT HubPortNumber[5];
-} USB_TOPOLOGY_ADDRESS, *PUSB_TOPOLOGY_ADDRESS;
-````
+The <b>USB_TOPOLOGY_ADDRESS</b> structure is used with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537263">IOCTL_INTERNAL_USB_GET_TOPOLOGY_ADDRESS</a> I/O request to retrieve information about a USB device?s location in the USB device tree. 
 
 
 ## -struct-fields
@@ -120,14 +106,14 @@ The reserved members of this structure must be treated as opaque and are reserve
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537263">IOCTL_INTERNAL_USB_GET_TOPOLOGY_ADDRESS</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
-
-
-
-<a href="..\usbioctl\ni-usbioctl-ioctl_internal_usb_get_topology_address.md">IOCTL_INTERNAL_USB_GET_TOPOLOGY_ADDRESS</a>
-
-
-
  
 
  

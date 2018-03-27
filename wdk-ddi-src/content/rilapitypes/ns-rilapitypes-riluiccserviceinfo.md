@@ -53,18 +53,6 @@ req.product: Windows 10 or later.
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef struct _RILUICCSERVICEINFO {
-  DWORD                  cbSize;
-  RILUICCSERVICESERVICE  dwService;
-  RILUICCSERVICESTATE    dwState;
-} RILUICCSERVICEINFO, RILUICCSERVICEINFO;
-````
-
-
 ## -struct-fields
 
 

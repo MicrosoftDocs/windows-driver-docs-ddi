@@ -52,18 +52,6 @@ req.typenames: MSFC_FibrePortHBAAttributes, *PMSFC_FibrePortHBAAttributes
 A WMI provider uses the MSFC_FibrePortHBAAttributes WMI class to expose attribute information associated with a fibre channel port.
 
 
-## -syntax
-
-
-````
-typedef struct _MSFC_FibrePortHBAAttributes {
-  ULONGLONG                     UniquePortId;
-  ULONG                         HBAStatus;
-  MSFC_HBAPortAttributesResults Attributes;
-} MSFC_FibrePortHBAAttributes, *PMSFC_FibrePortHBAAttributes;
-````
-
-
 ## -struct-fields
 
 
@@ -81,19 +69,19 @@ Contains the status of the operation. For a list of allowed values and their des
 
 ### -field Attributes
 
-Contains a structure of type <a href="..\hbapiwmi\ns-hbapiwmi-_msfc_hbaportattributesresults.md">MSFC_HBAPortAttributesResults</a> that contains information about the port attributes. 
+Contains a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff562510">MSFC_HBAPortAttributesResults</a> that contains information about the port attributes. 
 
 
 ## -see-also
+
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
 
 
 
-<a href="..\hbapiwmi\ns-hbapiwmi-_msfc_hbaportattributesresults.md">MSFC_HBAPortAttributesResults</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562510">MSFC_HBAPortAttributesResults</a>
  
 
  

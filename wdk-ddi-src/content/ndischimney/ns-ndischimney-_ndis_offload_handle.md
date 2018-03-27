@@ -54,17 +54,6 @@ req.typenames: NDIS_OFFLOAD_HANDLE, *PNDIS_OFFLOAD_HANDLE
 The NDIS_OFFLOAD_HANDLE structure represents a driver's context for an offloaded state object.
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_OFFLOAD_HANDLE {
-  PVOID NdisReserved[1];
-  PVOID MiniportOffloadContext;
-} NDIS_OFFLOAD_HANDLE, *PNDIS_OFFLOAD_HANDLE;
-````
-
-
 ## -struct-fields
 
 
@@ -104,14 +93,14 @@ For more information about the use of the NDIS_OFFLOAD_HANDLE structure, see
 
 ## -see-also
 
-<a href="..\ndischimney\nf-ndischimney-ndisminitiateoffloadcomplete.md">NdisMInitiateOffloadComplete</a>
 
 
 
-<a href="..\ndischimney\nc-ndischimney-w_initiate_offload_handler.md">MiniportInitiateOffload</a>
+<a href="https://msdn.microsoft.com/f430642b-01bf-4ed7-bfea-e8dd8d5a8208">MiniportInitiateOffload</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563604">NdisMInitiateOffloadComplete</a>
  
 
  

@@ -52,18 +52,6 @@ req.typenames: NFC_CX_DEVICE_MODE, *PNFC_CX_DEVICE_MODE
 Specifies device mode flags.
 
 
-## -syntax
-
-
-````
-typedef enum _NFC_CX_DEVICE_MODE { 
-  NFC_CX_DEVICE_MODE_NCI  = 0x00000000,
-  NFC_CX_DEVICE_MODE_DTA  = 0x00000001,
-  NFC_CX_DEVICE_MODE_RAW  = 0x00000002
-} NFC_CX_DEVICE_MODE;
-````
-
-
 ## -enum-fields
 
 
@@ -86,7 +74,6 @@ Enable RAW mode.
 
 ## -see-also
 
-<a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
 
 
 
@@ -94,6 +81,7 @@ Enable RAW mode.
 
 
 
+<a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
  
 
  

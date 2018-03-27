@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 Describes the proprietary charger's device power requirements.
 
 
-## -syntax
-
-
-````
-typedef struct _UFX_PROPRIETARY_CHARGER {
-  GUID               ChargerId;
-  DEVICE_POWER_STATE DxState;
-} UFX_PROPRIETARY_CHARGER, *PUFX_PROPRIETARY_CHARGER;
-````
-
-
 ## -struct-fields
 
 
@@ -76,5 +65,5 @@ Charger identifier used to identify a specific type of charger.
 
 ### -field DxState
 
-The minimum required device power state when it is connected, indicated by one of the <a href="..\wudfddi\ne-wudfddi-_device_power_state.md">DEVICE_POWER_STATE</a>-typed flags.
+The minimum required device power state when it is connected, indicated by one of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554628">DEVICE_POWER_STATE</a>-typed flags.
 

@@ -53,19 +53,6 @@ The NDIS_MSIX_TABLE_OPERATION enumeration identifies the type of MSI-X configura
   operation.
 
 
-## -syntax
-
-
-````
-typedef enum _NDIS_MSIX_TABLE_CONFIG { 
-  NdisMSIXTableConfigSetTableEntry,
-  NdisMSIXTableConfigMaskTableEntry,
-  NdisMSIXTableConfigUnmaskTableEntry,
-  NdisMSIXTableConfigMax
-} NDIS_MSIX_TABLE_OPERATION, *PNDIS_MSIX_TABLE_OPERATION;
-````
-
-
 ## -enum-fields
 
 
@@ -97,7 +84,7 @@ The number of enumeration values in NDIS_MSIX_TABLE_OPERATION.
 
 
 The NDIS_MSIX_TABLE_OPERATION enumeration is used in the 
-    <a href="..\ndis\ns-ndis-_ndis_msix_config_parameters.md">
+    <a href="https://msdn.microsoft.com/52c3238f-4d3a-4241-95bf-630e57e8a6e1">
     NDIS_MSIX_CONFIG_PARAMETERS</a> structure.
 
 
@@ -105,10 +92,10 @@ The NDIS_MSIX_TABLE_OPERATION enumeration is used in the
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_ndis_msix_config_parameters.md">NDIS_MSIX_CONFIG_PARAMETERS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566486">NDIS_MSIX_CONFIG_PARAMETERS</a>
  
 
  

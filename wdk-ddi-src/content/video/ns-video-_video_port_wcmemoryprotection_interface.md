@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: "<= DISPATCH_LEVEL"
+req.irql: See Remarks section.
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -51,22 +51,6 @@ req.product: Windows 10 or later.
 
 
 The VIDEO_PORT_WCMEMORYPROTECTION_INTERFACE structure describes the Write Combined video memory protection service routines implemented by the video port driver. The protected video memory cannot be accessed by the CPU.
-
-
-## -syntax
-
-
-````
-typedef struct _VIDEO_PORT_WCMEMORYPROTECTION_INTERFACE {
-  USHORT                 Size;
-  USHORT                 Version;
-  PVOID                  Context;
-  PINTERFACE_REFERENCE   InterfaceReference;
-  PINTERFACE_DEREFERENCE InterfaceDereference;
-  PROTECT_WC_MEMORY      VideoPortProtectWCMemory;
-  RESTORE_WC_MEMORY      VideoPortRestoreWCMemory;
-} VIDEO_PORT_WCMEMORYPROTECTION_INTERFACE, *PVIDEO_PORT_WCMEMORYPROTECTION_INTERFACE;
-````
 
 
 ## -struct-fields
@@ -101,32 +85,32 @@ Pointer to the video port driver-implemented dereference routine for this interf
 
 ### -field VideoPortProtectWCMemory
 
-Pointer to the video port driver's <a href="..\video\nc-video-protect_wc_memory.md">VideoPortProtectWCMemory</a> callback routine.
+Pointer to the video port driver's <a href="https://msdn.microsoft.com/0cee4f4d-4d9c-44be-94ad-459000f2adb1">VideoPortProtectWCMemory</a> callback routine.
 
 
 ### -field VideoPortRestoreWCMemory
 
-Pointer to the video port driver's <a href="..\video\nc-video-restore_wc_memory.md">VideoPortRestoreWCMemory</a> callback routine.
+Pointer to the video port driver's <a href="https://msdn.microsoft.com/8fa0be0c-04ce-41ab-93dd-6dc9e8daa356">VideoPortRestoreWCMemory</a> callback routine.
 
 
 ## -see-also
 
-<a href="..\video\nc-video-restore_wc_memory.md">VideoPortRestoreWCMemory</a>
 
 
 
-<a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn895657">INTERFACE</a>
 
 
 
-<a href="..\video\nf-video-videoportqueryservices.md">VideoPortQueryServices</a>
+<a href="https://msdn.microsoft.com/0cee4f4d-4d9c-44be-94ad-459000f2adb1">VideoPortProtectWCMemory</a>
 
 
 
-<a href="..\video\nc-video-protect_wc_memory.md">VideoPortProtectWCMemory</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570337">VideoPortQueryServices</a>
 
 
 
+<a href="https://msdn.microsoft.com/8fa0be0c-04ce-41ab-93dd-6dc9e8daa356">VideoPortRestoreWCMemory</a>
  
 
  

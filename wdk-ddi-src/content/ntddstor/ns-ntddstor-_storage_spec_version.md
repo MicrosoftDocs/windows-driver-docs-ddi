@@ -52,26 +52,6 @@ req.typenames: STORAGE_SPEC_VERSION, *PSTORAGE_SPEC_VERSION
 Indicates the specification of the storage device.
 
 
-## -syntax
-
-
-````
-typedef union _STORAGE_SPEC_VERSION {
-  struct {
-    union {
-      struct {
-        BYTE SubMinor;
-        BYTE Minor;
-      } DUMMYSTRUCTNAME;
-      WORD   AsUshort;
-    } MinorVersion;
-    WORD  MajorVersion;
-  } DUMMYSTRUCTNAME;
-  DWORD  AsUlong;
-} STORAGE_SPEC_VERSION, *PSTORAGE_SPEC_VERSION;
-````
-
-
 ## -struct-fields
 
 

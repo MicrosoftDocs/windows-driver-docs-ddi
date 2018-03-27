@@ -54,16 +54,6 @@ req.product: Windows 10 or later.
 The <b>SpbRequestGetTarget</b> method retrieves the SPBTARGET handle from the specified I/O request.
 
 
-## -syntax
-
-
-````
-SPBTARGET SpbRequestGetTarget(
-  _In_ SPBREQUEST SpbRequest
-);
-````
-
-
 ## -parameters
 
 
@@ -94,14 +84,14 @@ The returned SPBTARGET handle is guaranteed to remain valid until the correspond
 
 ## -see-also
 
+
+
+
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/spb/spbcx-object-handles">SPBREQUEST</a>
 
 
 
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/spb/spbcx-object-handles">SPBTARGET</a>
-
-
-
  
 
  

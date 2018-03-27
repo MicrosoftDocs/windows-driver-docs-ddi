@@ -52,16 +52,6 @@ req.typenames:
 Gives information about the newly created monitor object.
 
 
-## -syntax
-
-
-````
-typedef struct IDARG_OUT_MONITORCREATE {
-  IDDCX_MONITOR MonitorObject;
-} IDARG_OUT_MONITORCREATE, *IDARG_OUT_MONITORCREATE;
-````
-
-
 ## -struct-fields
 
 

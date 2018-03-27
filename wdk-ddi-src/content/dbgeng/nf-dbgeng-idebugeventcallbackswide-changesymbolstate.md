@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -50,17 +50,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>ChangeSymbolState</b> callback method is called by the engine when the symbol state changes. 
-
-
-## -syntax
-
-
-````
-HRESULT ChangeSymbolState(
-  [in] ULONG   Flags,
-  [in] ULONG64 Argument
-);
-````
 
 
 ## -parameters

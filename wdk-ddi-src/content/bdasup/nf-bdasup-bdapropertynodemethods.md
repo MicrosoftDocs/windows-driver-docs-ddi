@@ -53,18 +53,6 @@ req.typenames: KSP_BDA_NODE_PIN, *PKSP_BDA_NODE_PIN
 The <b>BdaPropertyNodeMethods</b> function retrieves a list of methods that a node supports. 
 
 
-## -syntax
-
-
-````
-NTSTATUS BdaPropertyNodeMethods(
-  _In_      PIRP      Irp,
-  _In_      PKSP_NODE pKSProperty,
-  _Out_opt_ GUID      *pguidProperty
-);
-````
-
-
 ## -parameters
 
 
@@ -110,11 +98,6 @@ A BDA minidriver calls the <b>BdaPropertyNodeMethods</b> function to retrieve th
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566561">KSPROPSETID_BdaTopology</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564328">KSPROPERTY_BDA_NODE_METHODS</a>
 
 
 
@@ -122,6 +105,11 @@ A BDA minidriver calls the <b>BdaPropertyNodeMethods</b> function to retrieve th
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564328">KSPROPERTY_BDA_NODE_METHODS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566561">KSPROPSETID_BdaTopology</a>
  
 
  

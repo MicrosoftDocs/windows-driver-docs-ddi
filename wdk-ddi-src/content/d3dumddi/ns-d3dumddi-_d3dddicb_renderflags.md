@@ -52,25 +52,6 @@ req.typenames: D3DDDICB_RENDERFLAGS
 The D3DDDICB_RENDERFLAGS structure identifies information about a command buffer to be rendered.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DDDICB_RENDERFLAGS {
-  union {
-    struct {
-      UINT ResizeCommandBuffer  :1;
-      UINT ResizeAllocationList  :1;
-      UINT ResizePatchLocationList  :1;
-      UINT NullRendering  :1;
-      UINT Reserved  :28;
-    };
-    UINT   Value;
-  };
-} D3DDDICB_RENDERFLAGS;
-````
-
-
 ## -struct-fields
 
 
@@ -78,21 +59,21 @@ typedef struct _D3DDDICB_RENDERFLAGS {
 
 ### -field ResizeCommandBuffer
 
-A UINT value that specifies whether to resize the command buffer. The driver puts the requested size in the <b>NewCommandBufferSize</b> member of the <a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_render.md">D3DDDICB_RENDER</a> structure. 
+A UINT value that specifies whether to resize the command buffer. The driver puts the requested size in the <b>NewCommandBufferSize</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff544241">D3DDDICB_RENDER</a> structure. 
 
 Setting this member is equivalent to setting the first bit of the 32-bit <b>Value</b> member (0x00000001).
 
 
 ### -field ResizeAllocationList
 
-A UINT value that specifies whether to resize the allocation list. The driver puts the requested number of elements in the <b>NewAllocationListSize</b> member of <a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_render.md">D3DDDICB_RENDER</a>. 
+A UINT value that specifies whether to resize the allocation list. The driver puts the requested number of elements in the <b>NewAllocationListSize</b> member of <a href="https://msdn.microsoft.com/library/windows/hardware/ff544241">D3DDDICB_RENDER</a>. 
 
 Setting this member is equivalent to setting the second bit of the 32-bit <b>Value</b> member (0x00000002).
 
 
 ### -field ResizePatchLocationList
 
-A UINT value that specifies whether to resize the patch-location list. The driver puts the requested number of elements in the <b>NewPatchLocationListSize</b> member of <a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_render.md">D3DDDICB_RENDER</a>. 
+A UINT value that specifies whether to resize the patch-location list. The driver puts the requested number of elements in the <b>NewPatchLocationListSize</b> member of <a href="https://msdn.microsoft.com/library/windows/hardware/ff544241">D3DDDICB_RENDER</a>. 
 
 Setting this member is equivalent to setting the third bit of the 32-bit <b>Value</b> member (0x00000004).
 
@@ -116,14 +97,14 @@ A member in the union that is contained in D3DDDICB_RENDERFLAGS that can hold on
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_rendercb.md">pfnRenderCb</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_render.md">D3DDDICB_RENDER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544241">D3DDDICB_RENDER</a>
 
 
 
+<a href="https://msdn.microsoft.com/f242162e-6237-469c-b178-5a51dcf69e32">pfnRenderCb</a>
  
 
  

@@ -52,19 +52,6 @@ req.typenames: DEBUG_FAILURE_TYPE
 The values in the <b>DEBUG_FAILURE_TYPE</b> enumeration indicate the type of a failure.
 
 
-## -syntax
-
-
-````
-typedef enum _DEBUG_FAILURE_TYPE { 
-  DEBUG_FLR_UNKNOWN,
-  DEBUG_FLR_KERNEL,
-  DEBUG_FLR_USER_CRASH,
-  DEBUG_FLR_IE_CRASH
-} DEBUG_FAILURE_TYPE;
-````
-
-
 ## -enum-fields
 
 
@@ -92,18 +79,18 @@ The failure occurred in the application iexplore.exe.
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj983405">IDebugFailureAnalysis2</a>
+
+
+
 <a href="https://msdn.microsoft.com/7648F789-85D5-4247-90DD-2EAA43543483">Writing an Analysis Extension Plug-in to Extend !analyze</a>
 
 
 
-<a href="..\extsfns\nc-extsfns-ext_analysis_plugin.md">_EFN_Analyze</a>
-
-
-
-<a href="..\extsfns\nn-extsfns-idebugfailureanalysis2.md">IDebugFailureAnalysis2</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj983432">_EFN_Analyze</a>
  
 
  

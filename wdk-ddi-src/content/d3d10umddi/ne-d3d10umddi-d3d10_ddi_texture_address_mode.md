@@ -52,20 +52,6 @@ req.typenames: D3D10_DDI_TEXTURE_ADDRESS_MODE
 The D3D10_DDI_TEXTURE_ADDRESS_MODE enumeration type contains values that identify the texture address mode of a sampler.
 
 
-## -syntax
-
-
-````
-typedef enum D3D10_DDI_TEXTURE_ADDRESS_MODE { 
-  D3D10_DDI_TEXTURE_ADDRESS_WRAP        = 1,
-  D3D10_DDI_TEXTURE_ADDRESS_MIRROR      = 2,
-  D3D10_DDI_TEXTURE_ADDRESS_CLAMP       = 3,
-  D3D10_DDI_TEXTURE_ADDRESS_BORDER      = 4,
-  D3D10_DDI_TEXTURE_ADDRESS_MIRRORONCE  = 5
-} D3D10_DDI_TEXTURE_ADDRESS_MODE;
-````
-
-
 ## -enum-fields
 
 
@@ -98,10 +84,10 @@ Similar to D3D10_DDI_TEXTURE_ADDRESS_MIRROR and D3D10_DDI_TEXTURE_ADDRESS_CLAMP.
 
 ## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10_ddi_sampler_desc.md">D3D10_DDI_SAMPLER_DESC</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542011">D3D10_DDI_SAMPLER_DESC</a>
  
 
  

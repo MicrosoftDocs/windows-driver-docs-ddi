@@ -60,16 +60,6 @@ The driver may choose the base GPU virtual address to use for the reservation by
 When the driver chooses to let the video memory manager pick a base address for the GPU virtual address range, it may choose to constrain the range that the video memory manager will consider by specifying non-NULL values for <b>MinimumAddress</b> and <b>MaximumAddress</b>. The video memory manager will ensure that the allocated GPU virtual address range is entirely contained in the range. The driver may specify only a <b>MinimumAddress</b> and the driver will infer the <b>MaximumAddress</b> is the end of the address space. If  only a <b>MaximumAddress</b>  is specified, the <b>MinimumAddress</b> is inferred to be 0.
 
 
-## -syntax
-
-
-````
-NTSTATUS APIENTRY D3DKMTReserveGpuVirtualAddress(
-  _Inout_ D3DDDI_RESERVEGPUVIRTUALADDRESS *pData
-);
-````
-
-
 ## -parameters
 
 
@@ -79,7 +69,7 @@ NTSTATUS APIENTRY D3DKMTReserveGpuVirtualAddress(
 
 #### - pData [in, out]
 
-A pointer to a <a href="..\d3dukmdt\ns-d3dukmdt-d3dddi_reservegpuvirtualaddress.md">D3DDDI_RESERVEGPUVIRTUALADDRESS</a> structure that describes the operation.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn906327">D3DDDI_RESERVEGPUVIRTUALADDRESS</a> structure that describes the operation.
 
 
 ## -returns

@@ -52,19 +52,6 @@ req.typenames: RILPERSODEACTIVATIONSTATEDEPERSOSTATE
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef enum _RILPERSODEACTIVATIONSTATEDEPERSOSTATE { 
-  RIL_DEPERSOSTATE_CK_REQUIRED,
-  RIL_DEPERSOSTATE_PUK_REQUIRED,
-  RIL_DEPERSOSTATE_PUK_BLOCKED,
-  RIL_DEPERSOSTATE_MAX
-} RILPERSODEACTIVATIONSTATEDEPERSOSTATE;
-````
-
-
 ## -enum-fields
 
 

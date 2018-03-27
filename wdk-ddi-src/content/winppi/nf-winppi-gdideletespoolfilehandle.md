@@ -55,16 +55,6 @@ req.product: Windows 10 or later.
 The <b>GdiDeleteSpoolFileHandle</b> function releases a spool file handle.
 
 
-## -syntax
-
-
-````
-BOOL GdiDeleteSpoolFileHandle(
-   HANDLE SpoolFileHandle
-);
-````
-
-
 ## -parameters
 
 
@@ -72,7 +62,7 @@ BOOL GdiDeleteSpoolFileHandle(
 
 ### -param SpoolFileHandle
 
-Caller-supplied spool file handle, obtained by a previous call to <a href="..\winppi\nf-winppi-gdigetspoolfilehandle.md">GdiGetSpoolFileHandle</a>.
+Caller-supplied spool file handle, obtained by a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff549517">GdiGetSpoolFileHandle</a>.
 
 
 ## -returns
@@ -88,9 +78,9 @@ If the operation succeeds, the function returns <b>TRUE</b>. Otherwise the funct
 
 
 
-The <b>GdiDeleteSpoolFileHandle</b> function is exported by gdi32.dll for use within a print processor's <a href="..\winsplp\nf-winsplp-printdocumentonprintprocessor.md">PrintDocumentOnPrintProcessor</a> function.
+The <b>GdiDeleteSpoolFileHandle</b> function is exported by gdi32.dll for use within a print processor's <a href="https://msdn.microsoft.com/library/windows/hardware/ff560724">PrintDocumentOnPrintProcessor</a> function.
 
-Print processors should call <b>GdiDeleteSpoolFileHandle</b> after calling <a href="..\winppi\nf-winppi-gdienddocemf.md">GdiEndDocEMF</a>, when processing a print job's EMF data stream has been completed. The function calls ClosePrinter (described in the Microsoft Window SDK documentation) to close the printer connection.
+Print processors should call <b>GdiDeleteSpoolFileHandle</b> after calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff549463">GdiEndDocEMF</a>, when processing a print job's EMF data stream has been completed. The function calls ClosePrinter (described in the Microsoft Window SDK documentation) to close the printer connection.
 
 For additional information, see <a href="https://msdn.microsoft.com/2ad62308-ab42-4475-ac42-f753d5091251">Using GDI Functions in Print Processors</a>.
 
@@ -99,10 +89,10 @@ For additional information, see <a href="https://msdn.microsoft.com/2ad62308-ab4
 
 ## -see-also
 
-<a href="..\winppi\nf-winppi-gdigetspoolfilehandle.md">GdiGetSpoolFileHandle</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549517">GdiGetSpoolFileHandle</a>
  
 
  

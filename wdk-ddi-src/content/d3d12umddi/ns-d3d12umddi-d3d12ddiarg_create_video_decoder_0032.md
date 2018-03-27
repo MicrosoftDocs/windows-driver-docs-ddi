@@ -52,17 +52,6 @@ req.typenames: D3D12DDIARG_CREATE_VIDEO_DECODER_0032
 Creates a video decoder.
 
 
-## -syntax
-
-
-````
-typedef struct _D3D12DDIARG_CREATE_VIDEO_DECODER_0032 {
-  UINT                                      NodeMask;
-  D3D12DDI_VIDEO_DECODE_CONFIGURATION_0020  Configuration;
-} D3D12DDIARG_CREATE_VIDEO_DECODER_0032, D3D12DDIARG_CREATE_VIDEO_DECODER_0032;
-````
-
-
 ## -struct-fields
 
 

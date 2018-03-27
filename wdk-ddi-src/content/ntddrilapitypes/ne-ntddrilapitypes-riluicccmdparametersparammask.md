@@ -52,19 +52,6 @@ req.typenames: RILUICCCMDPARAMETERSPARAMMASK
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef enum _RILUICCCMDPARAMETERSPARAMMASK { 
-  RIL_PARAM_SCP_PARAM1,
-  RIL_PARAM_SCP_PARAM2,
-  RIL_PARAM_SCP_PARAM3,
-  RIL_PARAM_SCP_ALL
-} RILUICCCMDPARAMETERSPARAMMASK;
-````
-
-
 ## -enum-fields
 
 

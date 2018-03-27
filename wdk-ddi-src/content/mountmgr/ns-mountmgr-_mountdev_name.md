@@ -52,17 +52,6 @@ req.typenames: MOUNTDEV_NAME, *PMOUNTDEV_NAME
 The MOUNTDEV_NAME structure holds the name of a device. 
 
 
-## -syntax
-
-
-````
-typedef struct _MOUNTDEV_NAME {
-  USHORT NameLength;
-  WCHAR  Name[1];
-} MOUNTDEV_NAME, *PMOUNTDEV_NAME;
-````
-
-
 ## -struct-fields
 
 
@@ -80,18 +69,18 @@ Contains a variable-sized array of wide characters that holds the name of the de
 
 ## -see-also
 
-<a href="..\mountdev\ni-mountdev-ioctl_mountdev_link_deleted.md">IOCTL_MOUNTDEV_LINK_DELETED</a>
 
 
 
-<a href="..\mountdev\ni-mountdev-ioctl_mountdev_link_created.md">IOCTL_MOUNTDEV_LINK_CREATED</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560434">IOCTL_MOUNTDEV_LINK_CREATED</a>
 
 
 
-<a href="..\mountmgr\ni-mountmgr-ioctl_mountdev_query_device_name.md">IOCTL_MOUNTDEV_QUERY_DEVICE_NAME</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560436">IOCTL_MOUNTDEV_LINK_DELETED</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560437">IOCTL_MOUNTDEV_QUERY_DEVICE_NAME</a>
  
 
  

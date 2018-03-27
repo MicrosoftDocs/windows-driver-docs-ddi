@@ -49,28 +49,7 @@ req.typenames: D3DKMT_OPENSYNCOBJECTFROMNTHANDLE2
 ## -description
 
 
-<b>D3DKMT_OPENSYNCOBJECTFROMNTHANDLE2</b> is used with <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtopensyncobjectfromnthandle2.md">D3DKMTOpenSyncObjectFromNtHandle2</a> to open a monitored fence object.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DKMT_OPENSYNCOBJECTFROMNTHANDLE2 {
-  HANDLE                             hNtHandle;
-  D3DKMT_HANDLE                      hDevice;
-  D3DDDI_SYNCHRONIZATIONOBJECT_FLAGS Flags;
-  D3DKMT_HANDLE                      hSyncObject;
-  union {
-    struct {
-      VOID                   *FenceValueCPUVirtualAddress;
-      D3DGPU_VIRTUAL_ADDRESS FenceValueGPUVirtualAddress;
-      UINT                   EngineAffinity;
-    } MonitoredFence;
-    UINT64 Reserved[8];
-  };
-} D3DKMT_OPENSYNCOBJECTFROMNTHANDLE2;
-````
+<b>D3DKMT_OPENSYNCOBJECTFROMNTHANDLE2</b> is used with <a href="https://msdn.microsoft.com/library/windows/hardware/dn906778">D3DKMTOpenSyncObjectFromNtHandle2</a> to open a monitored fence object.
 
 
 ## -struct-fields
@@ -125,10 +104,10 @@ The consolidated value of the <b>MonitoredFence</b> structure.
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtopensyncobjectfromnthandle2.md">D3DKMTOpenSyncObjectFromNtHandle2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn906778">D3DKMTOpenSyncObjectFromNtHandle2</a>
  
 
  

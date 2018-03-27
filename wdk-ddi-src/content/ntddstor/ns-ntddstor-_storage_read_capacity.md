@@ -49,21 +49,7 @@ req.typenames: STORAGE_READ_CAPACITY, PSTORAGE_READ_CAPACITY
 ## -description
 
 
-The <b>STORAGE_READ_CAPACITY</b> contains the disk read capacity information returned from a <a href="..\ntddstor\ni-ntddstor-ioctl_storage_read_capacity.md">IOCTL_STORAGE_READ_CAPACITIY</a> request. 
-
-
-## -syntax
-
-
-````
-typedef struct _STORAGE_READ_CAPACITY {
-  ULONG         Version;
-  ULONG         Size;
-  ULONG         BlockLength;
-  LARGE_INTEGER NumberOfBlocks;
-  LARGE_INTEGER DiskLength;
-} STORAGE_READ_CAPACITY, *PSTORAGE_READ_CAPACITY;
-````
+The <b>STORAGE_READ_CAPACITY</b> contains the disk read capacity information returned from a <a href="https://msdn.microsoft.com/FC4CFD33-5632-400A-90E5-583C6D6DFFD9">IOCTL_STORAGE_READ_CAPACITIY</a> request. 
 
 
 ## -struct-fields
@@ -98,10 +84,10 @@ The total disk size in bytes.
 
 ## -see-also
 
-<a href="..\ntddstor\ni-ntddstor-ioctl_storage_read_capacity.md">IOCTL_STORAGE_READ_CAPACITIY</a>
 
 
 
+<a href="https://msdn.microsoft.com/FC4CFD33-5632-400A-90E5-583C6D6DFFD9">IOCTL_STORAGE_READ_CAPACITIY</a>
  
 
  

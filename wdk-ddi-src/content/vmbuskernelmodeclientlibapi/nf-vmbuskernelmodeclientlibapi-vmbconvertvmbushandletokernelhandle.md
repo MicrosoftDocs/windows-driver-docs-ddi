@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 The <b>VmbConvertVmbusHandleToKernelHandle</b> function converts the user mode VMBus handle to kernel mode handle. 
-
-
-## -syntax
-
-
-````
-NTSTATUS VmbConvertVmbusHandleToKernelHandle(
-  _In_  HANDLE  VmbusHandle,
-  _Out_ PHANDLE KernelHandle
-);
-````
 
 
 ## -parameters
@@ -95,17 +84,17 @@ handle, this function must be called in the context of the user-mode process whi
 opened the VMBus handle.
 
   Calling this function is often immediately followed by calling
-the <a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbserverchannelinitsetvmbushandle.md">VmbServerChannelInitSetVmbusHandle</a> function.
+the <a href="https://msdn.microsoft.com/0ECF76C7-9475-439E-8E59-B2B7CD350D24">VmbServerChannelInitSetVmbusHandle</a> function.
 
 
 
 
 ## -see-also
 
-<a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbserverchannelinitsetvmbushandle.md">VmbServerChannelInitSetVmbusHandle</a>
 
 
 
+<a href="https://msdn.microsoft.com/0ECF76C7-9475-439E-8E59-B2B7CD350D24">VmbServerChannelInitSetVmbusHandle</a>
  
 
  

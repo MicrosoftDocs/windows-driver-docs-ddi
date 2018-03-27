@@ -52,18 +52,6 @@ req.typenames: SYSTEM_PROCESS_TRUST_LABEL_ACE, *PSYSTEM_PROCESS_TRUST_LABEL_ACE
 Reserved.
 
 
-## -syntax
-
-
-````
-struct SYSTEM_PROCESS_TRUST_LABEL_ACE {
-  ACE_HEADER  Header;
-  ACCESS_MASK Mask;
-  ULONG       SidStart;
-};
-````
-
-
 ## -struct-fields
 
 

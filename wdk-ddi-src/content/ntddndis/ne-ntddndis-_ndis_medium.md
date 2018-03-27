@@ -52,39 +52,6 @@ req.typenames: NDIS_MEDIUM, *PNDIS_MEDIUM
 The <b>NDIS_MEDIUM</b> enumeration type identifies the medium types that NDIS drivers support.
 
 
-## -syntax
-
-
-````
-typedef enum _NDIS_MEDIUM { 
-  NdisMedium802_3,
-  NdisMedium802_5,
-  NdisMediumFddi,
-  NdisMediumWan,
-  NdisMediumLocalTalk,
-  NdisMediumDix,
-  NdisMediumArcnetRaw,
-  NdisMediumArcnet878_2,
-  NdisMediumAtm,
-  NdisMediumWirelessWan,
-  NdisMediumIrda,
-  NdisMediumBpc,
-  NdisMediumCoWan,
-  NdisMedium1394,
-  NdisMediumInfiniBand,
-#if ((NTDDI_VERSION >= NTDDI_VISTA) || NDIS_SUPPORT_NDIS6)
-  NdisMediumTunnel,
-  NdisMediumNative802_11,
-  NdisMediumLoopback,
-#if (NTDDI_VERSION >= NTDDI_WIN7)
-  NdisMediumIP,
-#endif 
-#endif 
-  NdisMediumMax
-} NDIS_MEDIUM, *PNDIS_MEDIUM;
-````
-
-
 ## -enum-fields
 
 

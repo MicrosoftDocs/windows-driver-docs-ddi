@@ -40,7 +40,7 @@ api_name:
 -	AtaAdapterControl
 product: Windows
 targetos: Windows
-req.typenames: LUID
+req.typenames: IDD_DRIVER_GLOBALS, *PIDD_DRIVER_GLOBALS, IDD_DRIVER_GLOBALS, *PIDD_DRIVER_GLOBALS
 ---
 
 # IDE_ADAPTER_CONTROL callback
@@ -51,21 +51,6 @@ req.typenames: LUID
 
 The <i>AtaAdapterControl</i> miniport driver routine is called to perform Plug and Play (PnP) and Power Management operations on the HBA.
 <div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
-
-## -prototype
-
-
-````
-IDE_ADAPTER_CONTROL AtaAdapterControl;
-
-BOOLEAN AtaAdapterControl(
-  _In_    PVOID              ControllerExtension,
-  _In_    IDE_CONTROL_ACTION ControlAction,
-  _Inout_ PVOID              Parameters
-)
-{ ... }
-````
-
 
 ## -parameters
 
@@ -99,7 +84,7 @@ IDE_CONTROLLER_CONFIGURATION
 
 </td>
 <td>
-Indicates that the adapter is being started. The miniport driver should update the member in the <a href="..\irb\ns-irb-_ide_controller_configuration.md">IDE_CONTROLLER_CONFIGURATION</a> structure. If it is required, the miniport driver could obtain its hardware resources from the <b>IDE_CONTROLLER_CONFIGURATION</b> structure.
+Indicates that the adapter is being started. The miniport driver should update the member in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559036">IDE_CONTROLLER_CONFIGURATION</a> structure. If it is required, the miniport driver could obtain its hardware resources from the <b>IDE_CONTROLLER_CONFIGURATION</b> structure.
 
 </td>
 </tr>
@@ -188,10 +173,10 @@ The port driver guarantees that there is no outstanding I/O on the adapter befor
 
 ## -see-also
 
-<a href="..\irb\ns-irb-_ide_controller_configuration.md">IDE_CONTROLLER_CONFIGURATION</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559036">IDE_CONTROLLER_CONFIGURATION</a>
  
 
  

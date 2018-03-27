@@ -52,18 +52,6 @@ req.typenames: MPIO_DISK_HEALTH_INFO, *PMPIO_DISK_HEALTH_INFO
 The MPIO_DISK_HEALTH_INFO structure is used to query the available health information for every multi-path disk in the system.
 
 
-## -syntax
-
-
-````
-typedef struct _MPIO_DISK_HEALTH_INFO {
-  ULONG                  NumberDiskPackets;
-  ULONG                  Reserved;
-  MPIO_DISK_HEALTH_CLASS DiskHealthPackets[1];
-} MPIO_DISK_HEALTH_INFO, *PMPIO_DISK_HEALTH_INFO;
-````
-
-
 ## -struct-fields
 
 

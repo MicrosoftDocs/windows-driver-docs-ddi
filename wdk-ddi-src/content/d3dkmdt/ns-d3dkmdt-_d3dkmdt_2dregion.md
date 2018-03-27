@@ -52,17 +52,6 @@ req.typenames: D3DKMDT_2DREGION
 The D3DKMDT_2DREGION structure is used to represent a point or an offset in a two-dimensional space.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DKMDT_2DREGION {
-  UINT cx;
-  UINT cy;
-} D3DKMDT_2DREGION;
-````
-
-
 ## -struct-fields
 
 

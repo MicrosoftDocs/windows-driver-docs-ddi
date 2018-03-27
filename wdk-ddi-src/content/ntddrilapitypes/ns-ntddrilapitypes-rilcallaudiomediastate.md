@@ -52,19 +52,6 @@ req.typenames: RILCALLAUDIOMEDIASTATE, *LPRILCALLAUDIOMEDIASTATE
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef struct _RILCALLAUDIOMEDIASTATE {
-  DWORD                dwParams;
-  RILCALLAUDIOSOURCE   dwAudioSource;
-  RILCALLAUDIOQUALITY  dwAudioQuality;
-  DWORD                dwFlags;
-} RILCALLAUDIOMEDIASTATE, RILCALLAUDIOMEDIASTATE;
-````
-
-
 ## -struct-fields
 
 

@@ -52,16 +52,6 @@ req.typenames: TOKEN_TYPE
 The <b>IoGetTopLevelIrp</b> routine returns the value of the <b>TopLevelIrp</b> field of the current thread.
 
 
-## -syntax
-
-
-````
-PIRP IoGetTopLevelIrp(
-   VOID 
-);
-````
-
-
 ## -parameters
 
 
@@ -145,10 +135,10 @@ The cache manager is the top-level component for the current thread, and the cur
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iosettoplevelirp.md">IoSetTopLevelIrp</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548540">IoSetTopLevelIrp</a>
  
 
  

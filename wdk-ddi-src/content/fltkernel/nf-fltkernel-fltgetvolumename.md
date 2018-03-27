@@ -52,18 +52,6 @@ req.typenames: EXpsFontRestriction
 The <b>FltGetVolumeName</b> routine gets the volume name for a given volume. 
 
 
-## -syntax
-
-
-````
-NTSTATUS FltGetVolumeName(
-  _In_        PFLT_VOLUME     Volume,
-  _Inout_opt_ PUNICODE_STRING VolumeName,
-  _Out_opt_   PULONG          BufferSizeNeeded
-);
-````
-
-
 ## -parameters
 
 
@@ -76,7 +64,7 @@ An opaque pointer for the volume.
 
 ### -param VolumeName [in, out, optional]
 
-A pointer to a caller-allocated <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure that contains the volume's non-persistent device object name (for example, "\Device\HarddiskVolume1") when STATUS_SUCCESS is returned.  Be aware that pool for the <b>Buffer</b> member of this structure is caller-allocated also. This parameter is optional and can be <b>NULL</b>. However, <i>VolumeName</i> must be non-<b>NULL</b> if <i>BufferSizeNeeded</i> is <b>NULL</b>.
+A pointer to a caller-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> structure that contains the volume's non-persistent device object name (for example, "\Device\HarddiskVolume1") when STATUS_SUCCESS is returned.  Be aware that pool for the <b>Buffer</b> member of this structure is caller-allocated also. This parameter is optional and can be <b>NULL</b>. However, <i>VolumeName</i> must be non-<b>NULL</b> if <i>BufferSizeNeeded</i> is <b>NULL</b>.
 
 
 ### -param BufferSizeNeeded [out, optional]
@@ -172,9 +160,9 @@ Allocate <code>VolumeNameSize</code> bytes of pool for <b>Buffer</b> and set <b>
 
 </li>
 </ol>
-To get the volume GUID name for a given volume, call <a href="..\fltkernel\nf-fltkernel-fltgetvolumeguidname.md">FltGetVolumeGuidName</a>. 
+To get the volume GUID name for a given volume, call <a href="https://msdn.microsoft.com/library/windows/hardware/ff543230">FltGetVolumeGuidName</a>. 
 
-To get an opaque volume pointer for a volume with a given name, call <a href="..\fltkernel\nf-fltkernel-fltgetvolumefromname.md">FltGetVolumeFromName</a>. 
+To get an opaque volume pointer for a volume with a given name, call <a href="https://msdn.microsoft.com/library/windows/hardware/ff543220">FltGetVolumeFromName</a>. 
 
 For more information about how to name a volume, see <a href="https://msdn.microsoft.com/fb37f862-70d6-4514-b481-16f664346422">Supporting Mount Manager Requests in a Storage Class Driver</a>. 
 
@@ -183,11 +171,6 @@ For more information about how to name a volume, see <a href="https://msdn.micro
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltgetvolumeguidname.md">FltGetVolumeGuidName</a>
-
-
-
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 
 
@@ -195,10 +178,15 @@ For more information about how to name a volume, see <a href="https://msdn.micro
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltgetvolumefromname.md">FltGetVolumeFromName</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543220">FltGetVolumeFromName</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543230">FltGetVolumeGuidName</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a>
  
 
  

@@ -53,22 +53,6 @@ req.product: Windows 10 or later.
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef struct _RILMANAGECALLSPARAMS_V4 {
-  DWORD                       dwExecutor;
-  RILMANAGECALLPARAMSCOMMAND  dwCommand;
-  DWORD                       dwID;
-  BOOL                        fHasOfferAnswer;
-  RILCALLMEDIAOFFERANSWERSET  rcmOfferAnswer;
-  RILADDRESS                  raAddress;
-  RILCALLRTTACTION            dwRTTAction;
-} RILMANAGECALLSPARAMS_V4, RILMANAGECALLSPARAMS_V4;
-````
-
-
 ## -struct-fields
 
 

@@ -57,18 +57,6 @@ The <b>VmbChannelInitSetClientContextSize</b> function sets the size of the opti
 on each incoming packet.
 
 
-## -syntax
-
-
-````
-NTSTATUS
- VmbChannelInitSetClientContextSize(
-  _In_ VMBCHANNEL Channel,
-  _In_ UINT32     ContextSize
-);
-````
-
-
 ## -parameters
 
 

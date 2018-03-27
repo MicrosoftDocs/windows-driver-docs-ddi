@@ -53,16 +53,6 @@ req.product: Windows 10 or later.
 The <b>USB_MI_PARENT_INFORMATION</b> structure contains information about a composite device.
 
 
-## -syntax
-
-
-````
-typedef struct _USB_MI_PARENT_INFORMATION {
-  ULONG NumberOfInterfaces;
-} USB_MI_PARENT_INFORMATION, *PUSB_MI_PARENT_INFORMATION;
-````
-
-
 ## -struct-fields
 
 
@@ -84,7 +74,6 @@ A composite device is a device with multiple interfaces (MI). The USB stack trea
 
 ## -see-also
 
-<a href="..\usbioctl\ns-usbioctl-_usb_node_information.md">USB_NODE_INFORMATION</a>
 
 
 
@@ -92,6 +81,7 @@ A composite device is a device with multiple interfaces (MI). The USB stack trea
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540110">USB_NODE_INFORMATION</a>
  
 
  

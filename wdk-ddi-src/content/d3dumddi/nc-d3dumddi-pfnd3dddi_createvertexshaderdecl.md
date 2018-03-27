@@ -52,21 +52,6 @@ req.typenames: DXGK_PTE
 The <b>CreateVertexShaderDecl</b> function converts the vertex shader declaration into a hardware-specific format and associates the declaration with a shader handle.
 
 
-## -prototype
-
-
-````
-PFND3DDDI_CREATEVERTEXSHADERDECL CreateVertexShaderDecl;
-
-__checkReturn HRESULT APIENTRY CreateVertexShaderDecl(
-  _In_          HANDLE                           hDevice,
-  _Inout_       D3DDDIARG_CREATEVERTEXSHADERDECL *pData,
-  _In_    const D3DDDIVERTEXELEMENT              *pVertexElements
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -88,12 +73,12 @@ __checkReturn HRESULT APIENTRY CreateVertexShaderDecl(
 
 #### - pData [in, out]
 
- A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createvertexshaderdecl.md">D3DDDIARG_CREATEVERTEXSHADERDECL</a> structure that retrieves the shader handle that is associated with the vertex shader declaration that is specified by <i>pVertexElements</i>.
+ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff542970">D3DDDIARG_CREATEVERTEXSHADERDECL</a> structure that retrieves the shader handle that is associated with the vertex shader declaration that is specified by <i>pVertexElements</i>.
 
 
 #### - pVertexElements [in]
 
- An array of <a href="..\d3dumddi\ns-d3dumddi-_d3dddivertexelement.md">D3DDDIVERTEXELEMENT</a> structures that make up the vertex shader declaration.
+ An array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff544344">D3DDDIVERTEXELEMENT</a> structures that make up the vertex shader declaration.
 
 
 ## -returns
@@ -118,18 +103,18 @@ For more information about programming shader assemblers, see <a href="https://m
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createvertexshaderdecl.md">D3DDDIARG_CREATEVERTEXSHADERDECL</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542970">D3DDDIARG_CREATEVERTEXSHADERDECL</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddivertexelement.md">D3DDDIVERTEXELEMENT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544344">D3DDDIVERTEXELEMENT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544519">D3DDDI_DEVICEFUNCS</a>
  
 
  

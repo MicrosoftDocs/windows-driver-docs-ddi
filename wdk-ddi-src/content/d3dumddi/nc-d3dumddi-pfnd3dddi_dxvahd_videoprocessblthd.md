@@ -52,26 +52,12 @@ req.typenames: DXGK_PTE
 The <i>VideoProcessBltHD</i> function processes video input streams and composes to an output surface.
 
 
-## -prototype
-
-
-````
-PFND3DDDI_DXVAHD_VIDEOPROCESSBLTHD VideoProcessBltHD;
-
-__checkReturn HRESULT APIENTRY VideoProcessBltHD(
-  _In_       HANDLE                             hDevice,
-  _In_ const D3DDDIARG_DXVAHD_VIDEOPROCESSBLTHD *pData
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
 
 
-### -param HANDLE
+### -param Arg1
 
 
 ### -param *
@@ -90,7 +76,7 @@ __checkReturn HRESULT APIENTRY VideoProcessBltHD(
 
 #### - pData [in]
 
- A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_dxvahd_videoprocessblthd.md">D3DDDIARG_DXVAHD_VIDEOPROCESSBLTHD</a> structure that describes the DirectX VA video processing operation to perform. 
+ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543101">D3DDDIARG_DXVAHD_VIDEOPROCESSBLTHD</a> structure that describes the DirectX VA video processing operation to perform. 
 
 
 ## -returns
@@ -134,10 +120,10 @@ The DirectX VA video processing operation is successfully performed.
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_dxvahd_videoprocessblthd.md">D3DDDIARG_DXVAHD_VIDEOPROCESSBLTHD</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543101">D3DDDIARG_DXVAHD_VIDEOPROCESSBLTHD</a>
  
 
  

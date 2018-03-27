@@ -52,20 +52,6 @@ req.typenames: RILSIGNALQUALITYPARAMMASK
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef enum _RILSIGNALQUALITYPARAMMASK { 
-  RIL_PARAM_SQ_SYSTEMTYPE,
-  RIL_PARAM_SQ_NUMSIGNALBARS,
-  RIL_PARAM_SQ_SIGNALSTRENGTH,
-  RIL_PARAM_SQ_SNR,
-  RIL_PARAM_SQ_ALL
-} RILSIGNALQUALITYPARAMMASK;
-````
-
-
 ## -enum-fields
 
 

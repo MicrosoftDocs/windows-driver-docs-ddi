@@ -52,19 +52,6 @@ req.typenames: VIDEO_WIN32K_CALLBACKS_PARAMS, *PVIDEO_WIN32K_CALLBACKS_PARAMS
 The VIDEO_WIN32K_CALLBACKS_PARAMS structure and the VIDEO_WIN32K_CALLBACKS_PARAMS_TYPE enumeration are reserved for system use.
 
 
-## -syntax
-
-
-````
-typedef struct _VIDEO_WIN32K_CALLBACKS_PARAMS {
-  VIDEO_WIN32K_CALLBACKS_PARAMS_TYPE CalloutType;
-  PVOID                              PhysDisp;
-  ULONG_PTR                          Param;
-  LONG                               Status;
-} VIDEO_WIN32K_CALLBACKS_PARAMS, *PVIDEO_WIN32K_CALLBACKS_PARAMS;
-````
-
-
 ## -struct-fields
 
 

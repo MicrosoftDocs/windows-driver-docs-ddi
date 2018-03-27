@@ -50,24 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-Contains parameters for a request to reset the specified device.  This structure is passed by UCX in request parameters (<b>Parameters.Others.Arg1</b>) of a framework request object of the <a href="..\ucxusbdevice\nc-ucxusbdevice-evt_ucx_usbdevice_reset.md">EVT_UCX_USBDEVICE_RESET</a> callback function.
-
-
-## -syntax
-
-
-````
-typedef struct _USBDEVICE_RESET {
-#ifdef __cplusplus
-  USBDEVICE_MGMT_HEADER Header;
-#else 
-  USBDEVICE_MGMT_HEADER ;
-#endif 
-  UCXENDPOINT           DefaultEndpoint;
-  ULONG                 EndpointsToDisableCount;
-  UCXENDPOINT           *EndpointsToDisable;
-} USBDEVICE_RESET, *P_USBDEVICE_RESET;
-````
+Contains parameters for a request to reset the specified device.  This structure is passed by UCX in request parameters (<b>Parameters.Others.Arg1</b>) of a framework request object of the <a href="https://msdn.microsoft.com/library/windows/hardware/mt187845">EVT_UCX_USBDEVICE_RESET</a> callback function.
 
 
 ## -struct-fields
@@ -77,7 +60,7 @@ typedef struct _USBDEVICE_RESET {
 
 ### -field Header
 
-A <a href="..\ucxusbdevice\ns-ucxusbdevice-_usbdevice_mgmt_header.md">USBDEVICE_MGMT_HEADER</a> structure that contains  the handle for the USB hub or device.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/mt188075">USBDEVICE_MGMT_HEADER</a> structure that contains  the handle for the USB hub or device.
 
 
 ### -field DefaultEndpoint
@@ -97,10 +80,10 @@ A pointer to an array of handles to endpoints to disable.
 
 ## -see-also
 
-<a href="..\ucxusbdevice\nc-ucxusbdevice-evt_ucx_usbdevice_reset.md">EVT_UCX_USBDEVICE_RESET</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt187845">EVT_UCX_USBDEVICE_RESET</a>
  
 
  

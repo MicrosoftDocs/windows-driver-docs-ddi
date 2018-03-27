@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 The <b>USBD_VERSION_INFORMATION</b> structure is used by the <a href="https://msdn.microsoft.com/05a22049-5165-41a3-aa6f-134c5d1b6c15">GetUSBDIVersion</a> function to report its output data.
 
 
-## -syntax
-
-
-````
-typedef struct _USBD_VERSION_INFORMATION {
-  ULONG USBDI_Version;
-  ULONG Supported_USB_Version;
-} USBD_VERSION_INFORMATION, *PUSBD_VERSION_INFORMATION;
-````
-
-
 ## -struct-fields
 
 
@@ -156,12 +145,15 @@ Contains a binary-coded decimal USB specification version number.
 
 
 
-<a href="https://msdn.microsoft.com/05a22049-5165-41a3-aa6f-134c5d1b6c15">GetUSBDIVersion</a> is deprecated in Windows 8 and later versions of the operating system. To determine whether a particular  version is supported by the underlying USB driver stack, the client driver must call <a href="..\usbdlib\nf-usbdlib-usbd_isinterfaceversionsupported.md">USBD_IsInterfaceVersionSupported</a>.  
+<a href="https://msdn.microsoft.com/05a22049-5165-41a3-aa6f-134c5d1b6c15">GetUSBDIVersion</a> is deprecated in Windows 8 and later versions of the operating system. To determine whether a particular  version is supported by the underlying USB driver stack, the client driver must call <a href="https://msdn.microsoft.com/library/windows/hardware/hh406233">USBD_IsInterfaceVersionSupported</a>.  
 
 
 
 
 ## -see-also
+
+
+
 
 <a href="https://msdn.microsoft.com/05a22049-5165-41a3-aa6f-134c5d1b6c15">GetUSBDIVersion</a>
 
@@ -172,9 +164,6 @@ Contains a binary-coded decimal USB specification version number.
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
-
-
-
  
 
  

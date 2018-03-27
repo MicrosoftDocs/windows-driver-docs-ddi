@@ -52,17 +52,6 @@ req.typenames: D3DDDIARG_ZRANGE
 The D3DDDIARG_ZRANGE structure specifies z-range minimum and maximum values.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DDDIARG_ZRANGE {
-  FLOAT MinZ;
-  FLOAT MaxZ;
-} D3DDDIARG_ZRANGE;
-````
-
-
 ## -struct-fields
 
 
@@ -80,10 +69,10 @@ typedef struct _D3DDDIARG_ZRANGE {
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setzrange.md">SetZRange</a>
 
 
 
+<a href="https://msdn.microsoft.com/29ccde7c-801c-4e90-bc39-8581f262cc65">SetZRange</a>
  
 
  

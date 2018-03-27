@@ -53,21 +53,6 @@ The NPI_REGISTRATION_INSTANCE structure defines the data related to the registra
   module with the NMR.
 
 
-## -syntax
-
-
-````
-typedef struct _NPI_REGISTRATION_INSTANCE {
-  USHORT        Version;
-  USHORT        Size;
-  PNPIID        NpiId;
-  PNPI_MODULEID ModuleId;
-  ULONG         Number;
-  const VOID    *NpiSpecificCharacteristics;
-} NPI_REGISTRATION_INSTANCE, *PNPI_REGISTRATION_INSTANCE;
-````
-
-
 ## -struct-fields
 
 
@@ -147,16 +132,16 @@ A pointer to a structure that specifies characteristics that are unique to the n
 
 
 An NPI_REGISTRATION_INSTANCE structure is a member of the 
-    <a href="..\netioddk\ns-netioddk-_npi_client_characteristics.md">NPI_CLIENT_CHARACTERISTICS</a> and 
-    <a href="..\netioddk\ns-netioddk-_npi_provider_characteristics.md">
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff568812">NPI_CLIENT_CHARACTERISTICS</a> and 
+    <a href="https://msdn.microsoft.com/a83220e8-496c-4b83-b774-88ab1f017e8d">
     NPI_PROVIDER_CHARACTERISTICS</a> structures. These structures are used for registering network modules
     with the NMR.
 
 When the NMR calls a cleint module's 
-    <a href="..\netioddk\nc-netioddk-npi_client_attach_provider_fn.md">ClientAttachProvider</a> callback
+    <a href="https://msdn.microsoft.com/8f8abdb1-d018-4404-a80a-74017c324a0f">ClientAttachProvider</a> callback
     function, it passes a pointer to the NPI_REGISTRATION_INSTANCE structure for the provider module to which
     the client module can attach itself. Likewise, when the NMR calls a provider module's 
-    <a href="..\netioddk\nc-netioddk-npi_provider_attach_client_fn.md">ProviderAttachClient</a> callback
+    <a href="https://msdn.microsoft.com/6c8e6cf1-0528-4da2-acc1-81ec9dbc23c3">ProviderAttachClient</a> callback
     function, it passes a pointer to the NPI_REGISTRATION_INSTANCE structure for the client module to which
     the provider module can attach itself.
 
@@ -174,11 +159,14 @@ A network module must make sure that the memory for the NPIID pointed to by the
 
 ## -see-also
 
-<a href="..\netioddk\ns-netioddk-_npi_client_characteristics.md">NPI_CLIENT_CHARACTERISTICS</a>
 
 
 
-<a href="..\netioddk\nc-netioddk-npi_client_attach_provider_fn.md">ClientAttachProvider</a>
+<a href="https://msdn.microsoft.com/8f8abdb1-d018-4404-a80a-74017c324a0f">ClientAttachProvider</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568812">NPI_CLIENT_CHARACTERISTICS</a>
 
 
 
@@ -186,14 +174,11 @@ A network module must make sure that the memory for the NPIID pointed to by the
 
 
 
-<a href="..\netioddk\nc-netioddk-npi_provider_attach_client_fn.md">ProviderAttachClient</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568814">NPI_PROVIDER_CHARACTERISTICS</a>
 
 
 
-<a href="..\netioddk\ns-netioddk-_npi_provider_characteristics.md">NPI_PROVIDER_CHARACTERISTICS</a>
-
-
-
+<a href="https://msdn.microsoft.com/6c8e6cf1-0528-4da2-acc1-81ec9dbc23c3">ProviderAttachClient</a>
  
 
  

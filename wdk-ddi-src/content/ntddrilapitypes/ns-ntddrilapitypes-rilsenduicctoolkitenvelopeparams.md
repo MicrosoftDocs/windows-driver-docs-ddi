@@ -52,18 +52,6 @@ req.typenames: RILSENDUICCTOOLKITENVELOPEPARAMS, *LPRILSENDUICCTOOLKITENVELOPEPA
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef struct _RILSENDUICCTOOLKITENVELOPEPARAMS {
-  DWORD    dwSlotIndex;
-  DWORD    dwEnvelopeSize;
-  BYTE [1] bEnvelope;
-} RILSENDUICCTOOLKITENVELOPEPARAMS, RILSENDUICCTOOLKITENVELOPEPARAMS;
-````
-
-
 ## -struct-fields
 
 

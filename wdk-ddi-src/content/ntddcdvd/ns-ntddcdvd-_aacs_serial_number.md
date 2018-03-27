@@ -52,17 +52,6 @@ req.typenames: AACS_SERIAL_NUMBER, *PAACS_SERIAL_NUMBER
 The AACS_SERIAL_NUMBER structure contains an Advanced Access Content System (AACS) serial number and corresponding message authentication code (MAC).
 
 
-## -syntax
-
-
-````
-typedef struct _AACS_SERIAL_NUMBER {
-  UCHAR PrerecordedSerialNumber[16];
-  UCHAR MAC[16];
-} AACS_SERIAL_NUMBER, *PAACS_SERIAL_NUMBER;
-````
-
-
 ## -struct-fields
 
 
@@ -82,17 +71,17 @@ The message authentication code (MAC) that the client uses to verify that the se
 
 
 
-Clients retrieve the AACS serial number with an <a href="..\ntddcdvd\ni-ntddcdvd-ioctl_aacs_read_serial_number.md">IOCTL_AACS_READ_SERIAL_NUMBER</a> request.
+Clients retrieve the AACS serial number with an <a href="https://msdn.microsoft.com/library/windows/hardware/ff559289">IOCTL_AACS_READ_SERIAL_NUMBER</a> request.
 
 
 
 
 ## -see-also
 
-<a href="..\ntddcdvd\ni-ntddcdvd-ioctl_aacs_read_serial_number.md">IOCTL_AACS_READ_SERIAL_NUMBER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559289">IOCTL_AACS_READ_SERIAL_NUMBER</a>
  
 
  

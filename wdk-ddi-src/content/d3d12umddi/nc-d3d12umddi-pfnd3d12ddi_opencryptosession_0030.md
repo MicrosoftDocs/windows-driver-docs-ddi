@@ -52,18 +52,6 @@ req.typenames: D3D11_1DDI_GETCAPTUREHANDLEDATA
 Used to open a crypto session.
 
 
-## -prototype
-
-
-````
-HRESULT APIENTRY* PFND3D12DDI_OPENCRYPTOSESSION_0030(
-             D3D12DDI_HDEVICE                     hDrvDevice,
-  _In_ const D3D12DDIARG_OPEN_CRYPTO_SESSION_0030 *pArgs,
-             D3D12DDI_HCRYPTOSESSION_0030         hDrvCryptoSession
-);
-````
-
-
 ## -parameters
 
 

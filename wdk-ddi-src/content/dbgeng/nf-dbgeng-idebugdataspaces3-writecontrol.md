@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -53,20 +53,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>WriteControl</b> method writes implementation-specific system data.
-
-
-## -syntax
-
-
-````
-HRESULT WriteControl(
-  [in]            ULONG   Processor,
-  [in]            ULONG64 Offset,
-  [in]            PVOID   Buffer,
-  [in]            ULONG   BufferSize,
-  [out, optional] PULONG  BytesWritten
-);
-````
 
 
 ## -parameters

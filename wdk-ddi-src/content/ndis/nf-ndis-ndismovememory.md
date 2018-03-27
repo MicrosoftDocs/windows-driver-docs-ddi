@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: ndis.h
+req.lib: 
 req.dll: 
 req.irql: See Remarks section
 topic_type:
@@ -52,18 +52,6 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 The 
   <b>NdisMoveMemory</b> function copies a specified number of bytes from one caller-supplied location to
   another.
-
-
-## -syntax
-
-
-````
-VOID NdisMoveMemory(
-  [out] PVOID Destination,
-  [in]  PVOID Source,
-  [in]  ULONG Length
-);
-````
 
 
 ## -parameters
@@ -99,7 +87,7 @@ Both
     <i>Destination</i> are virtual addresses.
 
 If either address falls within a range of device memory that was mapped with 
-    <a href="..\ndis\nf-ndis-ndismmapiospace.md">NdisMMapIoSpace</a>, a miniport driver should
+    <a href="https://msdn.microsoft.com/library/windows/hardware/hh975119">NdisMMapIoSpace</a>, a miniport driver should
     call one of the 
     <b>Ndis..MappedMemory</b> functions instead of 
     <b>NdisMoveMemory</b>.
@@ -120,15 +108,15 @@ Callers of
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndismmapiospace.md">NdisMMapIoSpace</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisallocatememorywithtagpriority.md">
+<a href="https://msdn.microsoft.com/aac4049c-a876-4bbb-ba3b-fa36c299e1c7">
    NdisAllocateMemoryWithTagPriority</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh975119">NdisMMapIoSpace</a>
  
 
  

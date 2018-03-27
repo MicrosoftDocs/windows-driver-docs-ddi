@@ -7,7 +7,7 @@ old-location: kernel\psgetpermanentsilocontext.htm
 old-project: kernel
 ms.assetid: C1AEFC8F-6488-4582-9835-DAD07D4ACB17
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/1/2018
 ms.keywords: PsGetPermanentSiloContext, PsGetPermanentSiloContext routine [Kernel-Mode Driver Architecture], kernel.psgetpermanentsilocontext, ntddk/PsGetPermanentSiloContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -40,7 +40,7 @@ api_name:
 -	PsGetPermanentSiloContext
 product: Windows
 targetos: Windows
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+req.typenames: SUBSYSTEM_INFORMATION_TYPE, *PSUBSYSTEM_INFORMATION_TYPE
 ---
 
 # PsGetPermanentSiloContext function
@@ -50,18 +50,6 @@ req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 
 
 This routine retrieves an object that was inserted in the <i>Silo</i> without incrementing the reference count.
-
-
-## -syntax
-
-
-````
-NTSTATUS PsGetPermanentSiloContext(
-  _In_ PESILO                              Silo,
-  _In_ ULONG                               ContextSlot,
-       _Outptr_result_nullonfailure_ PVOID *ReturnedSiloContext
-);
-````
 
 
 ## -parameters
@@ -76,7 +64,7 @@ The silo in which the object was inserted. This parameter is required and it can
 
 ### -param ContextSlot [in]
 
-The read-only slot that was previously allocated by<a href="..\ntddk\nf-ntddk-psallocsilocontextslot.md">PsAllocSiloContextSlot</a> and made read-only by <a href="..\ntddk\nf-ntddk-psmakesilocontextpermanent.md">PsMakeSiloContextPermanent</a>.
+The read-only slot that was previously allocated by<a href="https://msdn.microsoft.com/library/windows/hardware/mt735056">PsAllocSiloContextSlot</a> and made read-only by <a href="https://msdn.microsoft.com/library/windows/hardware/mt735077">PsMakeSiloContextPermanent</a>.
 
 
 ### -param ReturnedSiloContext

@@ -51,26 +51,9 @@ req.typenames: SYNTH_STATS, *PSYNTH_STATS
 
 The MiniportWdiAdapterHangDiagnose handler function is used to collect hardware control register states and optionally full firmware state.
 
-This is a WDI miniport handler inside <a href="..\dot11wdi\ns-dot11wdi-_ndis_miniport_driver_wdi_characteristics.md">NDIS_MINIPORT_DRIVER_WDI_CHARACTERISTICS</a>.
+This is a WDI miniport handler inside <a href="https://msdn.microsoft.com/library/windows/hardware/mt297617">NDIS_MINIPORT_DRIVER_WDI_CHARACTERISTICS</a>.
 <div class="alert"><b>Note</b>  You must declare the function by using the <b>MINIPORT_WDI_ADAPTER_HANG_DIAGNOSE</b> type. For more
    information, see the following Examples section.</div><div> </div>
-
-## -prototype
-
-
-````
-MINIPORT_WDI_ADAPTER_HANG_DIAGNOSE MiniportWdiAdapterHangDiagnose;
-
-NDIS_STATUS MiniportWdiAdapterHangDiagnose(
-  _In_  NDIS_HANDLE    MiniportDriverContext,
-  _In_  eDiagnoseLevel DiagnoseLevel,
-  _In_  UINT32         BufferSize,
-  _Out_ UINT8          *FirmwareBlob,
-  _Out_ UINT32         *pOutputSize
-)
-{ ... }
-````
-
 
 ## -parameters
 
@@ -79,12 +62,12 @@ NDIS_STATUS MiniportWdiAdapterHangDiagnose(
 
 ### -param MiniportDriverContext [in]
 
-The handle to a driver-allocated context area where the driver maintains state and configuration information. The miniport driver passed this context area to the <a href="..\dot11wdi\nf-dot11wdi-ndismregisterwdiminiportdriver.md">NdisMRegisterWdiMiniportDriver</a> function.
+The handle to a driver-allocated context area where the driver maintains state and configuration information. The miniport driver passed this context area to the <a href="https://msdn.microsoft.com/library/windows/hardware/mt297596">NdisMRegisterWdiMiniportDriver</a> function.
 
 
 ### -param DiagnoseLevel [in]
 
-The diagnose level, as defined in the <a href="..\dot11wdi\ne-dot11wdi-ediagnoselevel.md">eDiagnoseLevel</a> enumeration. The default level is <b>DiagnoseLevelHardwareRegisters</b>, 1KB maximum in the output buffer.
+The diagnose level, as defined in the <a href="https://msdn.microsoft.com/library/windows/hardware/mt297626">eDiagnoseLevel</a> enumeration. The default level is <b>DiagnoseLevelHardwareRegisters</b>, 1KB maximum in the output buffer.
 
 
 ### -param BufferSize [in]
@@ -116,18 +99,18 @@ The return value is ignored.
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt297617">NDIS_MINIPORT_DRIVER_WDI_CHARACTERISTICS</a>
+
+
+
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/wdi-hang-detection-and-recovery">WDI hang detection and recovery</a>
 
 
 
-<a href="..\dot11wdi\ns-dot11wdi-_ndis_miniport_driver_wdi_characteristics.md">NDIS_MINIPORT_DRIVER_WDI_CHARACTERISTICS</a>
-
-
-
-<a href="..\dot11wdi\ne-dot11wdi-ediagnoselevel.md">eDiagnoseLevel</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt297626">eDiagnoseLevel</a>
  
 
  

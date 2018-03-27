@@ -52,20 +52,6 @@ req.typenames: D3D11_1DDI_CERTIFICATE_INFO
 Specifies a cryptographic  session certificate or authenticated channel.
 
 
-## -syntax
-
-
-````
-typedef struct D3D11_1DDI_CERTIFICATE_INFO {
-  D3D11_1DDI_CERTIFICATE_TYPE CertificateType;
-  union {
-    D3D11_1DDI_AUTHENTICATED_CHANNEL_TYPE ChannelType;
-    GUID                                  CryptoSessionType;
-  };
-} D3D11_1DDI_CERTIFICATE_INFO;
-````
-
-
 ## -struct-fields
 
 
@@ -73,12 +59,12 @@ typedef struct D3D11_1DDI_CERTIFICATE_INFO {
 
 ### -field CertificateType
 
-A <a href="..\d3d10umddi\ne-d3d10umddi-d3d11_1ddi_certificate_type.md">D3D11_1DDI_CERTIFICATE_TYPE</a> value that specifies the type of authenticated certificate that is used to establish trust and perform a key exchange.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/hh406438">D3D11_1DDI_CERTIFICATE_TYPE</a> value that specifies the type of authenticated certificate that is used to establish trust and perform a key exchange.
 
 
 #### - ChannelType
 
-A <a href="..\d3d10umddi\ne-d3d10umddi-d3d11_1ddi_authenticated_channel_type.md">D3D11_1DDI_AUTHENTICATED_CHANNEL_TYPE</a> value that specifies the type of Direct3D authenticated channel.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/hh406343">D3D11_1DDI_AUTHENTICATED_CHANNEL_TYPE</a> value that specifies the type of Direct3D authenticated channel.
 
 
 #### - CryptoSessionType
@@ -88,14 +74,14 @@ A GUID that indicates the cryptographic session.
 
 ## -see-also
 
-<a href="..\d3d10umddi\ne-d3d10umddi-d3d11_1ddi_certificate_type.md">D3D11_1DDI_CERTIFICATE_TYPE</a>
 
 
 
-<a href="..\d3d10umddi\ne-d3d10umddi-d3d11_1ddi_authenticated_channel_type.md">D3D11_1DDI_AUTHENTICATED_CHANNEL_TYPE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406343">D3D11_1DDI_AUTHENTICATED_CHANNEL_TYPE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406438">D3D11_1DDI_CERTIFICATE_TYPE</a>
  
 
  

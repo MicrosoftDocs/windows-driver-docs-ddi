@@ -53,16 +53,6 @@ req.product: Windows 10 or later.
 The <b>IoSetTopLevelIrp</b> routine sets the value of the <b>TopLevelIrp</b> field of the current thread.
 
 
-## -syntax
-
-
-````
-VOID IoSetTopLevelIrp(
-  _In_opt_ PIRP Irp
-);
-````
-
-
 ## -parameters
 
 
@@ -86,7 +76,7 @@ I/O request packet (IRP) pointer to be stored in the <b>TopLevelIrp</b> field of
 
 
 
-<b>IoSetTopLevelIrp</b> sets the value of the <b>TopLevelIrp</b> field in the thread object for the current thread. This value can be <b>NULL</b>, a pointer to the current IRP, or an FSRTL flag. For more information about these values and what they mean, see the reference entry for <a href="..\wdm\nf-wdm-iogettoplevelirp.md">IoGetTopLevelIrp</a>.
+<b>IoSetTopLevelIrp</b> sets the value of the <b>TopLevelIrp</b> field in the thread object for the current thread. This value can be <b>NULL</b>, a pointer to the current IRP, or an FSRTL flag. For more information about these values and what they mean, see the reference entry for <a href="https://msdn.microsoft.com/library/windows/hardware/ff548405">IoGetTopLevelIrp</a>.
 
 Only file systems can call <b>IoSetTopLevelIrp</b>. File system filters and minifilters cannot safely call this routine, because doing so can cause deadlocks. 
 
@@ -95,10 +85,10 @@ Only file systems can call <b>IoSetTopLevelIrp</b>. File system filters and mini
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iogettoplevelirp.md">IoGetTopLevelIrp</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548405">IoGetTopLevelIrp</a>
  
 
  

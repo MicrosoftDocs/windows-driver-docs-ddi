@@ -52,17 +52,6 @@ req.typenames: RILCHANGEUICCLOCKPASSWORDPARAMS, *LPRILCHANGEUICCLOCKPASSWORDPARA
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef struct _RILCHANGEUICCLOCKPASSWORDPARAMS {
-  RILUICCLOCKCREDENTIAL  lockCredential;
-  char [256]             szNewPassword;
-} RILCHANGEUICCLOCKPASSWORDPARAMS, RILCHANGEUICCLOCKPASSWORDPARAMS;
-````
-
-
 ## -struct-fields
 
 

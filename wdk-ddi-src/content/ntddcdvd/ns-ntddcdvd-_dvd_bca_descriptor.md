@@ -49,17 +49,7 @@ req.typenames: DVD_BCA_DESCRIPTOR, *PDVD_BCA_DESCRIPTOR
 ## -description
 
 
-The DVD_BCA_DESCRIPTOR structure is used in conjunction with the <a href="..\ntddcdvd\ni-ntddcdvd-ioctl_dvd_read_structure.md">IOCTL_DVD_READ_STRUCTURE</a> request to retrieve a DVD burst cutting area (BCA) descriptor. 
-
-
-## -syntax
-
-
-````
-typedef struct _DVD_BCA_DESCRIPTOR {
-  UCHAR BCAInformation[];
-} DVD_BCA_DESCRIPTOR, *PDVD_BCA_DESCRIPTOR;
-````
+The DVD_BCA_DESCRIPTOR structure is used in conjunction with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560426">IOCTL_DVD_READ_STRUCTURE</a> request to retrieve a DVD burst cutting area (BCA) descriptor. 
 
 
 ## -struct-fields
@@ -83,10 +73,10 @@ The contents of the BCA region are specified by the media manufacturer.
 
 ## -see-also
 
-<a href="..\ntddcdvd\ni-ntddcdvd-ioctl_dvd_read_structure.md">IOCTL_DVD_READ_STRUCTURE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560426">IOCTL_DVD_READ_STRUCTURE</a>
  
 
  

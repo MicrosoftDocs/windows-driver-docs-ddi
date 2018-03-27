@@ -54,16 +54,6 @@ The
   <b>NdisGetRoutineAddress</b> function returns the address of a routine given the routine's name.
 
 
-## -syntax
-
-
-````
-PVOID NdisGetRoutineAddress(
-  _In_ PNDIS_STRING NdisRoutineName
-);
-````
-
-
 ## -parameters
 
 
@@ -72,7 +62,7 @@ PVOID NdisGetRoutineAddress(
 ### -param NdisRoutineName [in]
 
 A pointer to a 
-     <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure that specifies the
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> structure that specifies the
      string that contains the name of a routine.
 
 
@@ -111,21 +101,21 @@ No performance improvement is gained by using the address that is returned by
 
 Typically, an NDIS driver calls 
     <b>NdisGetRoutineAddress</b> in its 
-    <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> routine.
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> routine.
 
 
 
 
 ## -see-also
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 
 
-<a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a>
  
 
  

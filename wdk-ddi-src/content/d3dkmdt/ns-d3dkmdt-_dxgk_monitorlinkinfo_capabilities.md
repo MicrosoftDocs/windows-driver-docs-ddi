@@ -52,25 +52,6 @@ req.typenames: DXGK_MONITORLINKINFO_CAPABILITIES, *PDXGK_MONITORLINKINFO_CAPABIL
 Flags which describe the capabilities for driving the monitor.
 
 
-## -syntax
-
-
-````
-typedef union _DXGK_MONITORLINKINFO_CAPABILITIES {
-  struct {
-    UINT Stereo  :1;
-    UINT WideColorSpace  :1;
-    UINT HighColorSpace  :1;
-    UINT DynamicColorSpace  :1;
-    UINT DynamicBitsPerColorChannel  :1;
-    UINT DynamicColorEncodingFormat  :1;
-    UINT DedicatedTimingGeneration  :1;
-  };
-  UINT Reserved  :25;
-} DXGK_MONITORLINKINFO_CAPABILITIES, *PDXGK_MONITORLINKINFO_CAPABILITIES;
-````
-
-
 ## -struct-fields
 
 

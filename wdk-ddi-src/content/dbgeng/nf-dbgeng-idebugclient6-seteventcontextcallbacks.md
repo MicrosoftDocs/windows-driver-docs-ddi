@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -52,17 +52,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 Registers an event callbacks object with this client. 
 
 
-## -syntax
-
-
-````
-HRESULT SetEventContextCallbacks(
-  [in, optional] PDEBUG_EVENT_CONTEXT_CALLBACKS Callbacks
-
-);
-````
-
-
 ## -parameters
 
 
@@ -86,14 +75,14 @@ This event interface replaces the use of <a href="https://msdn.microsoft.com/c74
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient6.md">IDebugClient6</a>
+
+
+
+<a href="https://msdn.microsoft.com/9F8DFF33-DE07-4061-9A9E-3C8172F75EB5">IDebugClient6</a>
 
 
 
 <a href="https://msdn.microsoft.com/c741777b-dfaf-42b0-9dd7-6678281b6359">IDebugClient::SetEventCallbacks</a>
-
-
-
  
 
  

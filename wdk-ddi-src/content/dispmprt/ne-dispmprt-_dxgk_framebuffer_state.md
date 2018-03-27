@@ -52,18 +52,6 @@ req.typenames: DXGK_FRAMEBUFFER_STATE
 The frame buffer state is provided to the driver in order that the driver can infer details of the display configuration based on knowledge of how firmware and the driver will set a particular resolution even though only basic information is made directly available by the OS to the driver.
 
 
-## -syntax
-
-
-````
-typedef enum _DXGK_FRAMEBUFFER_STATE { 
-  FrameBufferStateUnknown                = 0,
-  FrameBufferStateInitializedByFirmware  = 1,
-  FrameBufferStateInitializedByDriver    = 2
-} DXGK_FRAMEBUFFER_STATE;
-````
-
-
 ## -enum-fields
 
 

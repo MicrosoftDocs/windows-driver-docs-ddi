@@ -52,17 +52,6 @@ req.typenames: TOKEN_TYPE
 The <b>MmSetAddressRangeModified</b> routine marks currently valid pages in the specified range of the system cache as modified.
 
 
-## -syntax
-
-
-````
-BOOLEAN MmSetAddressRangeModified(
-  _In_ PVOID  Address,
-  _In_ SIZE_T Length
-);
-````
-
-
 ## -parameters
 
 
@@ -102,10 +91,10 @@ Callers of <b>MmSetAddressRangeModified</b> must be running at IRQL &lt; DISPATC
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-ccistheredirtydata.md">CcIsThereDirtyData</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539145">CcIsThereDirtyData</a>
  
 
  

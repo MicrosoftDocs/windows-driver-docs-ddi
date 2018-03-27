@@ -50,26 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The IG_GET_THREAD_OS_INFO <a href="..\wdbgexts\nc-wdbgexts-pwindbg_ioctl_routine.md">Ioctl</a> operation returns information about an operating system thread in the target.  When calling <b>Ioctl</b> with <i>IoctlType</i> set to IG_GET_THREAD_OS_INFO, <i>IpvData</i> should contain an instance of the WDBGEXTS_THREAD_OS_INFO structure.
-
-
-## -syntax
-
-
-````
-typedef struct _WDBGEXTS_THREAD_OS_INFO {
-  ULONG   ThreadId;
-  ULONG   ExitStatus;
-  ULONG   PriorityClass;
-  ULONG   Priority;
-  ULONG64 CreateTime;
-  ULONG64 ExitTime;
-  ULONG64 KernelTime;
-  ULONG64 UserTime;
-  ULONG64 StartOffset;
-  ULONG64 Affinity;
-} WDBGEXTS_THREAD_OS_INFO, *PWDBGEXTS_THREAD_OS_INFO;
-````
+The IG_GET_THREAD_OS_INFO <a href="https://msdn.microsoft.com/library/windows/hardware/ff551084">Ioctl</a> operation returns information about an operating system thread in the target.  When calling <b>Ioctl</b> with <i>IoctlType</i> set to IG_GET_THREAD_OS_INFO, <i>IpvData</i> should contain an instance of the WDBGEXTS_THREAD_OS_INFO structure.
 
 
 ## -struct-fields
@@ -131,17 +112,17 @@ Receives the thread affinity mask for the thread in a symmetric multiprocessor (
 
 
 
-The parameters for the IG_GET_THREAD_OS_INFO <a href="..\wdbgexts\nc-wdbgexts-pwindbg_ioctl_routine.md">Ioctl</a> operation are the members of the WDBGEXTS_THREAD_OS_INFO structure.
+The parameters for the IG_GET_THREAD_OS_INFO <a href="https://msdn.microsoft.com/library/windows/hardware/ff551084">Ioctl</a> operation are the members of the WDBGEXTS_THREAD_OS_INFO structure.
 
 
 
 
 ## -see-also
 
-<a href="..\wdbgexts\nc-wdbgexts-pwindbg_ioctl_routine.md">Ioctl</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551084">Ioctl</a>
  
 
  

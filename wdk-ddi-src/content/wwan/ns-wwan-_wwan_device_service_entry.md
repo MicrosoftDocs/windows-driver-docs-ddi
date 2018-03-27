@@ -53,18 +53,6 @@ req.product: Windows 10 or later.
 The WWAN_DEVICE_SERVICE_ENTRY structure describes information about a device service.
 
 
-## -syntax
-
-
-````
-typedef struct _WWAN_DEVICE_SERVICE_ENTRY {
-  GUID                                   DeviceServiceGuid;
-  WWAN_DEVICE_SERVICE_SESSION_CAPABILITY SessionCapability;
-  ULONG                                  uMaxSessionInstances;
-} WWAN_DEVICE_SERVICE_ENTRY, *PWWAN_DEVICE_SERVICE_ENTRY;
-````
-
-
 ## -struct-fields
 
 
@@ -96,10 +84,10 @@ Device service OIDs and NDIS Status Notifications use the device service's GUID 
 
 ## -see-also
 
-<a href="..\wwan\ne-wwan-_wwan_device_service_session_capability.md">WWAN_DEVICE_SERVICE_SESSION_CAPABILITY</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh831874">WWAN_DEVICE_SERVICE_SESSION_CAPABILITY</a>
  
 
  

@@ -49,24 +49,7 @@ req.typenames: DXGK_PRESENTMULTIPLANEOVERLAYLIST
 ## -description
 
 
-Specifies an overlay plane to display in a call to the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_present.md">DxgkDdiPresent</a> function.
-
-
-## -syntax
-
-
-````
-typedef struct _DXGK_PRESENTMULTIPLANEOVERLAYLIST {
-  UINT             LayerIndex;
-  BOOL             Enabled;
-  HANDLE           hDeviceSpecificAllocation;
-  struct {
-    UINT SegmentId  :5;
-    UINT Reserved  :27;
-  };
-  PHYSICAL_ADDRESS PhysicalAddress;
-} DXGK_PRESENTMULTIPLANEOVERLAYLIST;
-````
+Specifies an overlay plane to display in a call to the <a href="https://msdn.microsoft.com/1a46b129-1e78-44e6-a609-59eab206692b">DxgkDdiPresent</a> function.
 
 
 ## -struct-fields
@@ -106,10 +89,10 @@ This member is reserved and should be set to zero.
 
 ## -see-also
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_present.md">DxgkDdiPresent</a>
 
 
 
+<a href="https://msdn.microsoft.com/1a46b129-1e78-44e6-a609-59eab206692b">DxgkDdiPresent</a>
  
 
  

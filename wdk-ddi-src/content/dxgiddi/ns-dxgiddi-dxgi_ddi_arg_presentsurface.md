@@ -52,17 +52,6 @@ req.typenames: DXGI_DDI_ARG_PRESENTSURFACE
 Describes a surface to display.
 
 
-## -syntax
-
-
-````
-typedef struct DXGI_DDI_ARG_PRESENTSURFACE {
-  DXGI_DDI_HRESOURCE hSurface;
-  UINT               SubResourceIndex;
-} DXGI_DDI_ARG_PRESENTSURFACE;
-````
-
-
 ## -struct-fields
 
 

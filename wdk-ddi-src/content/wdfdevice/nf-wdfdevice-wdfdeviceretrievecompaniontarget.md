@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
@@ -51,17 +51,6 @@ req.product: Windows 10 or later.
 
 
 For internal use only.
-
-
-## -syntax
-
-
-````
-NTSTATUS WdfDeviceRetrieveCompanionTarget(
-  _In_  WDFDEVICE          Device,
-  _Out_ WDFCOMPANIONTARGET *CompanionTarget
-);
-````
 
 
 ## -parameters

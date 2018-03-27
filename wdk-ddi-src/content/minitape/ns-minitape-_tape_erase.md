@@ -49,18 +49,7 @@ req.typenames: TAPE_ERASE, *PTAPE_ERASE
 ## -description
 
 
-The TAPE_ERASE structure is used in conjunction with the <a href="..\ntddtape\ni-ntddtape-ioctl_tape_erase.md">IOCTL_TAPE_ERASE</a> request to erase the current tape partition.
-
-
-## -syntax
-
-
-````
-typedef struct _TAPE_ERASE {
-  ULONG   Type;
-  BOOLEAN Immediate;
-} TAPE_ERASE, *PTAPE_ERASE;
-````
+The TAPE_ERASE structure is used in conjunction with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560615">IOCTL_TAPE_ERASE</a> request to erase the current tape partition.
 
 
 ## -struct-fields
@@ -80,10 +69,10 @@ Indicates that the target device should return status immediately, when set to <
 
 ## -see-also
 
-<a href="..\ntddtape\ni-ntddtape-ioctl_tape_erase.md">IOCTL_TAPE_ERASE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560615">IOCTL_TAPE_ERASE</a>
  
 
  

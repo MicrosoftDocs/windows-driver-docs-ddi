@@ -49,19 +49,7 @@ req.typenames: DVD_COPYRIGHT_DESCRIPTOR, *PDVD_COPYRIGHT_DESCRIPTOR
 ## -description
 
 
-The DVD_COPYRIGHT_DESCRIPTOR structure is used in conjunction with the <a href="..\ntddcdvd\ni-ntddcdvd-ioctl_dvd_read_structure.md">IOCTL_DVD_READ_STRUCTURE</a> request to retrieve a DVD copyright descriptor. 
-
-
-## -syntax
-
-
-````
-typedef struct _DVD_COPYRIGHT_DESCRIPTOR {
-  UCHAR  CopyrightProtectionType;
-  UCHAR  RegionManagementInformation;
-  USHORT Reserved;
-} DVD_COPYRIGHT_DESCRIPTOR, *PDVD_COPYRIGHT_DESCRIPTOR;
-````
+The DVD_COPYRIGHT_DESCRIPTOR structure is used in conjunction with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560426">IOCTL_DVD_READ_STRUCTURE</a> request to retrieve a DVD copyright descriptor. 
 
 
 ## -struct-fields
@@ -86,10 +74,10 @@ Reserved.
 
 ## -see-also
 
-<a href="..\ntddcdvd\ni-ntddcdvd-ioctl_dvd_read_structure.md">IOCTL_DVD_READ_STRUCTURE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560426">IOCTL_DVD_READ_STRUCTURE</a>
  
 
  

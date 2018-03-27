@@ -52,16 +52,6 @@ req.typenames: D3D12DDI_RESOURCE_UAV_BARRIER
 Contains an unordered access view (UAV) barrier.
 
 
-## -syntax
-
-
-````
-typedef struct D3D12DDI_RESOURCE_UAV_BARRIER {
-  D3D12DDI_HRESOURCE hResource;
-} D3D12DDI_RESOURCE_UAV_BARRIER;
-````
-
-
 ## -struct-fields
 
 

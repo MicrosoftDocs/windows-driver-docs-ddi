@@ -52,28 +52,6 @@ req.typenames: D3DDDI_OVERLAYCOLORCONTROLSFLAGS
 The D3DDDI_OVERLAYCOLORCONTROLSFLAGS structure identifies color-control settings that the overlay hardware supports.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DDDI_OVERLAYCOLORCONTROLSFLAGS {
-  union {
-    struct {
-      UINT Brightness  :1;
-      UINT Contrast  :1;
-      UINT Hue  :1;
-      UINT Saturation  :1;
-      UINT Sharpness  :1;
-      UINT Gamma  :1;
-      UINT ColorEnable  :1;
-      UINT Reserved  :25;
-    };
-    UINT   Value;
-  };
-} D3DDDI_OVERLAYCOLORCONTROLSFLAGS;
-````
-
-
 ## -struct-fields
 
 
@@ -140,10 +118,10 @@ A member in the union that is contained in D3DDDI_OVERLAYCOLORCONTROLSFLAGS that
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_overlaycolorcontrols.md">D3DDDI_OVERLAYCOLORCONTROLS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544612">D3DDDI_OVERLAYCOLORCONTROLS</a>
  
 
  

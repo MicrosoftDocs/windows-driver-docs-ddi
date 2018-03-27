@@ -52,19 +52,6 @@ req.typenames: DXGK_MONITORFREQUENCYRANGESET_INTERFACE
 The DXGK_MONITORFREQUENCYRANGESET_INTERFACE structure contains pointers to functions that belong to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff568430">Monitor Frequency Range Set interface</a>, which is implemented by the video present network (VidPN) manager.
 
 
-## -syntax
-
-
-````
-typedef struct _DXGK_MONITORFREQUENCYRANGESET_INTERFACE {
-  DXGKDDI_MONITORFREQUENCYRANGESET_GETNUMFREQUENCYRANGES          pfnGetNumFrequencyRanges;
-  DXGKDDI_MONITORFREQUENCYRANGESET_ACQUIREFIRSTFREQUENCYRANGEINFO pfnAcquireFirstFrequencyRangeInfo;
-  DXGKDDI_MONITORFREQUENCYRANGESET_ACQUIRENEXTFREQUENCYRANGEINFO  pfnAcquireNextFrequencyRangeInfo;
-  DXGKDDI_MONITORFREQUENCYRANGESET_RELEASEFREQUENCYRANGEINFO      pfnReleaseFrequencyRangeInfo;
-} DXGK_MONITORFREQUENCYRANGESET_INTERFACE;
-````
-
-
 ## -struct-fields
 
 
@@ -72,20 +59,20 @@ typedef struct _DXGK_MONITORFREQUENCYRANGESET_INTERFACE {
 
 ### -field pfnGetNumFrequencyRanges
 
-A pointer to the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_monitorfrequencyrangeset_getnumfrequencyranges.md">pfnGetNumFrequencyRanges</a> function.
+A pointer to the <a href="https://msdn.microsoft.com/ba70c191-832f-4dd1-b949-cb47cf736c6e">pfnGetNumFrequencyRanges</a> function.
 
 
 ### -field pfnAcquireFirstFrequencyRangeInfo
 
-A pointer to the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_monitorfrequencyrangeset_acquirefirstfrequencyrangeinfo.md">pfnAcquireFirstFrequencyRangeInfo</a> function.
+A pointer to the <a href="https://msdn.microsoft.com/08bf8212-4cab-48ba-b9fc-fca2bb4251ff">pfnAcquireFirstFrequencyRangeInfo</a> function.
 
 
 ### -field pfnAcquireNextFrequencyRangeInfo
 
-A pointer to the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_monitorfrequencyrangeset_acquirenextfrequencyrangeinfo.md">pfnAcquireNextFrequencyRangeInfo</a> function.
+A pointer to the <a href="https://msdn.microsoft.com/b5490af8-ef25-4d5c-9154-08660e3d8780">pfnAcquireNextFrequencyRangeInfo</a> function.
 
 
 ### -field pfnReleaseFrequencyRangeInfo
 
-A pointer to the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_monitorfrequencyrangeset_releasefrequencyrangeinfo.md">pfnReleaseFrequencyRangeInfo</a> function.
+A pointer to the <a href="https://msdn.microsoft.com/54e3d08b-5f0d-4d98-9b93-e2aec96d3362">pfnReleaseFrequencyRangeInfo</a> function.
 

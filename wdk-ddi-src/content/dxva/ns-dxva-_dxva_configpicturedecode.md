@@ -52,32 +52,6 @@ req.typenames: DXVA_ConfigPictureDecode, *LPDXVA_ConfigPictureDecode
 The DXVA_ConfigPictureDecode structure is sent by the host decoder to the accelerator to set the configuration for compressed picture decoding.
 
 
-## -syntax
-
-
-````
-typedef struct _DXVA_ConfigPictureDecode {
-  DXVA_ConfigQueryOrReplyFunc dwFunction;
-  DWORD                       dwReservedBits[3];
-  GUID                        guidConfigBitstreamEncryption;
-  GUID                        guidConfigMBcontrolEncryption;
-  GUID                        guidConfigResidDiffEncryption;
-  BYTE                        bConfigBitstreamRaw;
-  BYTE                        bConfigMBcontrolRasterOrder;
-  BYTE                        bConfigResidDiffHost;
-  BYTE                        bConfigSpatialResid8;
-  BYTE                        bConfigResid8Subtraction;
-  BYTE                        bConfigSpatialHost8or9Clipping;
-  BYTE                        bConfigSpatialResidInterleaved;
-  BYTE                        bConfigIntraResidUnsigned;
-  BYTE                        bConfigResidDiffAccelerator;
-  BYTE                        bConfigHostInverseScan;
-  BYTE                        bConfigSpecificIDCT;
-  BYTE                        bConfig4GroupedCoefs;
-} DXVA_ConfigPictureDecode, *LPDXVA_ConfigPictureDecode;
-````
-
-
 ## -struct-fields
 
 
@@ -239,7 +213,7 @@ This member must be zero if <b>bConfigResidDiffAccelerator</b> is zero (simply i
 
 ### -field bConfig4GroupedCoefs
 
-A value of 1 indicates that transform coefficients for off-host IDCT will be sent using the <a href="..\dxva\ns-dxva-_dxva_tcoef4group.md">DXVA_TCoef4Group</a> structure rather than the <a href="..\dxva\ns-dxva-_dxva_tcoefsingle.md">DXVA_TCoefSingle</a> structure. This is zero if <b>bConfigResidDiffAccelerator</b> is zero or if <b>bConfigHostInverseScan</b> is 1.
+A value of 1 indicates that transform coefficients for off-host IDCT will be sent using the <a href="https://msdn.microsoft.com/library/windows/hardware/ff564053">DXVA_TCoef4Group</a> structure rather than the <a href="https://msdn.microsoft.com/library/windows/hardware/ff564060">DXVA_TCoefSingle</a> structure. This is zero if <b>bConfigResidDiffAccelerator</b> is zero or if <b>bConfigHostInverseScan</b> is 1.
 
 The preferred value for an accelerator to support is zero if <b>bConfigResidDiffAccelerator</b> is 1.
 
@@ -255,30 +229,30 @@ For some types of bitstreams, forcing macroblock control commands within each ma
 
 ## -see-also
 
-<a href="..\dxva\ns-dxva-_dxva_mbctrl_i_hostresiddiff_1.md">DXVA_MBctrl_I_HostResidDiff_1</a>
 
 
 
-<a href="..\dxva\ns-dxva-_dxva_mbctrl_i_offhostidct_1.md">DXVA_MBctrl_I_OffHostIDCT_1</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563983">DXVA_MBctrl_I_HostResidDiff_1</a>
 
 
 
-<a href="..\dxva\ns-dxva-_dxva_tcoefsingle.md">DXVA_TCoefSingle</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563989">DXVA_MBctrl_I_OffHostIDCT_1</a>
 
 
 
-<a href="..\dxva\ns-dxva-_dxva_tcoef4group.md">DXVA_TCoef4Group</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563993">DXVA_MBctrl_P_HostResidDiff_1</a>
 
 
 
-<a href="..\dxva\ns-dxva-_dxva_mbctrl_p_offhostidct_1.md">DXVA_MBctrl_P_OffHostIDCT_1</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563997">DXVA_MBctrl_P_OffHostIDCT_1</a>
 
 
 
-<a href="..\dxva\ns-dxva-_dxva_mbctrl_p_hostresiddiff_1.md">DXVA_MBctrl_P_HostResidDiff_1</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564053">DXVA_TCoef4Group</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564060">DXVA_TCoefSingle</a>
  
 
  

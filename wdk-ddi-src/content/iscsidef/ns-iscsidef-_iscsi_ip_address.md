@@ -52,21 +52,6 @@ req.typenames: ISCSI_IP_Address, *PISCSI_IP_Address
 The ISCSI_IP_Address structure defines an IP address.
 
 
-## -syntax
-
-
-````
-typedef struct _ISCSI_IP_Address {
-  ULONG Type;
-  ULONG IpV4Address;
-  UCHAR IpV6Address[16];
-  ULONG IpV6FlowInfo;
-  ULONG IpV6ScopeId;
-  WCHAR TextAddress[256 + 1];
-} ISCSI_IP_Address, *PISCSI_IP_Address;
-````
-
-
 ## -struct-fields
 
 
@@ -74,7 +59,7 @@ typedef struct _ISCSI_IP_Address {
 
 ### -field Type
 
-A <a href="..\iscsidef\ne-iscsidef-piscsiipaddresstype.md">ISCSIIPADDRESSTYPE</a> value that indicates the type of IP address. 
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff561482">ISCSIIPADDRESSTYPE</a> value that indicates the type of IP address. 
 
 
 ### -field IpV4Address
@@ -104,14 +89,14 @@ If <b>Type</b> = <b>ISCSI_IP_ADDRESS_TEXT</b>, the DNS or dotted decimal text ad
 
 ## -see-also
 
-<a href="..\iscsidef\ns-iscsidef-_iscsi_ip_address.md">ISCSI_IP_Address</a>
 
 
 
-<a href="..\iscsidef\ne-iscsidef-piscsiipaddresstype.md">ISCSIIPADDRESSTYPE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561482">ISCSIIPADDRESSTYPE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561536">ISCSI_IP_Address</a>
  
 
  

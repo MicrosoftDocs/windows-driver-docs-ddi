@@ -52,23 +52,6 @@ req.typenames: ELEMENT_TYPE, *PELEMENT_TYPE
 The ELEMENT_TYPE enumeration provides a list of changer element types defined by the <i>SCSI-3</i> specification. 
 
 
-## -syntax
-
-
-````
-typedef enum _ELEMENT_TYPE { 
-  AllElements        = 0,
-  ChangerTransport   = 1,
-  ChangerSlot        = 2,
-  ChangerIEPort      = 3,
-  ChangerDrive       = 4,
-  ChangerDoor        = 5,
-  ChangerKeypad      = 6,
-  ChangerMaxElement  = 7
-} ELEMENT_TYPE, *PELEMENT_TYPE;
-````
-
-
 ## -enum-fields
 
 
@@ -76,7 +59,7 @@ typedef enum _ELEMENT_TYPE {
 
 ### -field AllElements
 
-Indicates all elements of a changer, including its robotic transport, drives, slots, and IEport. <b>AllElements</b> is valid only in a <a href="..\mcd\nf-mcd-changergetelementstatus.md">ChangerGetElementStatus</a> or <a href="..\mcd\nf-mcd-changerinitializeelementstatus.md">ChangerInitializeElementStatus</a> call.
+Indicates all elements of a changer, including its robotic transport, drives, slots, and IEport. <b>AllElements</b> is valid only in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551424">ChangerGetElementStatus</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff551433">ChangerInitializeElementStatus</a> call.
 
 
 ### -field ChangerTransport
@@ -101,12 +84,12 @@ Indicates a data transfer element where data can be read from and written to med
 
 ### -field ChangerDoor
 
-Indicates a mechanism that provides access to all media in a changer at one time (as compared to an IEport that provides access to one or more, but not all, media). For example, a large front door or a magazine that contains all media in the changer are elements of this type. <b>ChangerDoor</b> is valid only in a <a href="..\mcd\nf-mcd-changersetaccess.md">ChangerSetAccess</a> call.
+Indicates a mechanism that provides access to all media in a changer at one time (as compared to an IEport that provides access to one or more, but not all, media). For example, a large front door or a magazine that contains all media in the changer are elements of this type. <b>ChangerDoor</b> is valid only in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551447">ChangerSetAccess</a> call.
 
 
 ### -field ChangerKeypad
 
-Indicates the keypad or other input control on the front panel of a changer. <b>ChangerKeypad</b> is valid only in a <a href="..\mcd\nf-mcd-changersetaccess.md">ChangerSetAccess</a> call.
+Indicates the keypad or other input control on the front panel of a changer. <b>ChangerKeypad</b> is valid only in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551447">ChangerSetAccess</a> call.
 
 
 ### -field ChangerMaxElement
@@ -116,18 +99,18 @@ Indicates the upper limit of the enumerators in this enumeration.
 
 ## -see-also
 
-<a href="..\mcd\nf-mcd-changerinitializeelementstatus.md">ChangerInitializeElementStatus</a>
 
 
 
-<a href="..\mcd\nf-mcd-changergetelementstatus.md">ChangerGetElementStatus</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551424">ChangerGetElementStatus</a>
 
 
 
-<a href="..\mcd\nf-mcd-changersetaccess.md">ChangerSetAccess</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551433">ChangerInitializeElementStatus</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551447">ChangerSetAccess</a>
  
 
  

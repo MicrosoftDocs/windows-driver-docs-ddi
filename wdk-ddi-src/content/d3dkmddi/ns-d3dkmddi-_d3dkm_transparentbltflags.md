@@ -52,21 +52,6 @@ req.typenames: D3DKM_TRANSPARENTBLTFLAGS
 The D3DKM_TRANSPARENTBLTFLAGS structure specifies the display adapter's ability to perform a hardware-accelerated bit-block transfer (bitblt) with transparency.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DKM_TRANSPARENTBLTFLAGS {
-  union {
-    struct {
-      UINT HonorAlpha  :1;
-    };
-    UINT   Value;
-  };
-} D3DKM_TRANSPARENTBLTFLAGS;
-````
-
-
 ## -struct-fields
 
 
@@ -92,17 +77,17 @@ Setting this member is equivalent to setting the first bit of the 32-bit <b>Valu
 
 
 
-For more information about how to use the members of this structure, see <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_gdiarg_transparentblt.md">DXGK_GDIARG_TRANSPARENTBLT</a>.
+For more information about how to use the members of this structure, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff561091">DXGK_GDIARG_TRANSPARENTBLT</a>.
 
 
 
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_gdiarg_transparentblt.md">DXGK_GDIARG_TRANSPARENTBLT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561091">DXGK_GDIARG_TRANSPARENTBLT</a>
  
 
  

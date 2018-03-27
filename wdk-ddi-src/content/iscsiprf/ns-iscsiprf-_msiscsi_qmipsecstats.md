@@ -52,33 +52,6 @@ req.typenames: MSiSCSI_QMIPSECStats, *PMSiSCSI_QMIPSECStats
 The MSiSCSI_QMIPSECStats structure can be used by an iSCSI initiator to report IPsec statistics for an HBA. 
 
 
-## -syntax
-
-
-````
-typedef struct _MSiSCSI_QMIPSECStats {
-  ULONGLONG ActiveSA;
-  ULONGLONG PendingKeyOperations;
-  ULONGLONG KeyAdditions;
-  ULONGLONG KeyDeletions;
-  ULONGLONG ReKeys;
-  ULONGLONG ActiveTunnels;
-  ULONGLONG BadSPIPackets;
-  ULONGLONG PacketsNotDecrypted;
-  ULONGLONG PacketsNotAuthenticated;
-  ULONGLONG PacketsWithReplayDetection;
-  ULONGLONG ConfidentialBytesSent;
-  ULONGLONG ConfidentialBytesReceived;
-  ULONGLONG AuthenticatedBytesSent;
-  ULONGLONG AuthenticatedBytesReceived;
-  ULONGLONG TransportBytesSent;
-  ULONGLONG TransportBytesReceived;
-  ULONGLONG TunnelBytesSent;
-  ULONGLONG TunnelBytesReceived;
-} MSiSCSI_QMIPSECStats, *PMSiSCSI_QMIPSECStats;
-````
-
-
 ## -struct-fields
 
 
@@ -185,10 +158,10 @@ It is optional that you implement this class.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563105">MSiSCSI_QMIPSECStats WMI Class</a>
-
-
-
  
 
  

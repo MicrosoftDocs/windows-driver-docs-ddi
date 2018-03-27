@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,18 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>GetShortField</b> function reads the value of a member in a structure if its size is less than or equal to 8 bytes, or initializes a structure so it can be read later.  This function is not intended to be used directly; <a href="https://msdn.microsoft.com/library/windows/hardware/ff550953">InitTypeRead</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff550957">InitTypeReadPhysical</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff553539">ReadField</a> should be used instead.
-
-
-## -syntax
-
-
-````
-__inline ULONG64 GetShortField(
-  _In_ ULONG64 TypeAddress,
-  _In_ LPCSTR  Name,
-  _In_ USHORT  StoreAddress
-);
-````
 
 
 ## -parameters
@@ -276,7 +264,6 @@ If this macro succeeds, it returns the value zero.  If it fails because the call
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553539">ReadField</a>
 
 
 
@@ -288,6 +275,7 @@ If this macro succeeds, it returns the value zero.  If it fails because the call
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553539">ReadField</a>
  
 
  

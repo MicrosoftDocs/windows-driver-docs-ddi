@@ -52,19 +52,6 @@ req.product: Windows 10 or later.
 This IOCTL code is not supported.
 
 
-## -prototype
-
-
-````
-EVT_UFX_DEVICE_TESTHOOK EvtUfxDeviceTesthook;
-
- EvtUfxDeviceTesthook(
-    
-)
-{ ... }
-````
-
-
 ## -parameters
 
 

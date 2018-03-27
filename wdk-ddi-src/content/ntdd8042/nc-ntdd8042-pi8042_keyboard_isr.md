@@ -52,25 +52,6 @@ req.typenames: MSFC_VirtualFibrePortAttributes, *PMSFC_VirtualFibrePortAttribute
 A PI8042_KEYBOARD_ISR-typed callback routine customizes the operation of the I8042prt keyboard ISR.
 
 
-## -prototype
-
-
-````
-PI8042_KEYBOARD_ISR KeyboardIsr;
-
-BOOLEAN KeyboardIsr(
-  _In_  PVOID                IsrContext,
-  _In_  PKEYBOARD_INPUT_DATA CurrentInput,
-  _In_  POUTPUT_PACKET       CurrentOutput,
-  _In_  UCHAR                StatusByte,
-  _In_  PUCHAR               Byte,
-  _Out_ PBOOLEAN             ContinueProcessing,
-  _In_  PKEYBOARD_SCAN_STATE ScanState
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -88,7 +69,7 @@ Pointer to the input <a href="https://msdn.microsoft.com/library/windows/hardwar
 
 ### -param CurrentOutput [in]
 
-Pointer to an <a href="..\ntdd8042\ns-ntdd8042-_output_packet.md">OUTPUT_PACKET</a> structure, which specifies an array of bytes that is being written to the hardware device.
+Pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff543218">OUTPUT_PACKET</a> structure, which specifies an array of bytes that is being written to the hardware device.
 
 
 ### -param StatusByte [in]
@@ -108,7 +89,7 @@ Specifies, if <b>TRUE</b>, that processing in the I8042prt keyboard ISR will con
 
 ### -param ScanState [in]
 
-Pointer to a <a href="..\ntdd8042\ne-ntdd8042-_keyboard_scan_state.md">KEYBOARD_SCAN_STATE</a> enumeration value, which identifies the keyboard scan state.
+Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff542342">KEYBOARD_SCAN_STATE</a> enumeration value, which identifies the keyboard scan state.
 
 
 ## -returns
@@ -135,11 +116,6 @@ The PI8042_KEYBOARD_ISR callback runs in kernel mode at the IRQL of the I8042prt
 
 ## -see-also
 
-<a href="..\ntdd8042\nc-ntdd8042-pi8042_keyboard_isr.md">PI8042_KEYBOARD_ISR</a>
-
-
-
-<a href="..\ntdd8042\ns-ntdd8042-_output_packet.md">OUTPUT_PACKET</a>
 
 
 
@@ -147,14 +123,19 @@ The PI8042_KEYBOARD_ISR callback runs in kernel mode at the IRQL of the I8042prt
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542342">KEYBOARD_SCAN_STATE</a>
+
+
+
 <a href="https://msdn.microsoft.com/0feca7de-aa80-4d1e-a5fc-901c18169649">KbFilter_IsrHook</a>
 
 
 
-<a href="..\ntdd8042\ne-ntdd8042-_keyboard_scan_state.md">KEYBOARD_SCAN_STATE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543218">OUTPUT_PACKET</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543248">PI8042_KEYBOARD_ISR</a>
  
 
  

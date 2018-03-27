@@ -52,17 +52,6 @@ req.typenames: D3DDDI_MARKERTYPE
 Indicates the type of Event Tracing for Windows (ETW) marker event that the user-mode display driver supports.
 
 
-## -syntax
-
-
-````
-typedef enum D3DDDI_MARKERTYPE { 
-  D3DDDIMT_NONE,
-  D3DDDIMT_PROFILE
-} D3DDDI_MARKERTYPE;
-````
-
-
 ## -enum-fields
 
 
@@ -77,15 +66,15 @@ No marker type is supported. This type is set on creation of the display device.
 
 Profile mode, where the driver estimates the length of time the GPU takes to execute certain operations. The context submits GPU work for single-threaded user-mode DDIs. In this case, each time stamp denotes the end of GPU work.
 
-See Remarks of the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setmarkermode.md">pfnSetMarkerMode</a> function for more info.
+See Remarks of the <a href="https://msdn.microsoft.com/D45750D9-F722-4208-8D00-E14FD9C009CB">pfnSetMarkerMode</a> function for more info.
 
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setmarkermode.md">pfnSetMarkerMode</a>
 
 
 
+<a href="https://msdn.microsoft.com/D45750D9-F722-4208-8D00-E14FD9C009CB">pfnSetMarkerMode</a>
  
 
  

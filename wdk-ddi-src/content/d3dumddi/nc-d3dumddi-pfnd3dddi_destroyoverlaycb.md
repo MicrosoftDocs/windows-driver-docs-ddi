@@ -52,20 +52,6 @@ req.typenames: DXGK_PTE
 The <b>pfnDestroyOverlayCb</b> function disables the overlay hardware and destroys the kernel-mode overlay object.
 
 
-## -prototype
-
-
-````
-PFND3DDDI_DESTROYOVERLAYCB pfnDestroyOverlayCb;
-
-_checkReturn HRESULT APIENTRY CALLBACK pfnDestroyOverlayCb(
-  _In_       HANDLE                  hDevice,
-  _In_ const D3DDDICB_DESTROYOVERLAY *pData
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -87,7 +73,7 @@ A handle to the display device (graphics context).
 
 #### - pData [in]
 
-A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_destroyoverlay.md">D3DDDICB_DESTROYOVERLAY</a> structure that contains a handle to the overlay object to be disabled.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff544178">D3DDDICB_DESTROYOVERLAY</a> structure that contains a handle to the overlay object to be disabled.
 
 
 ## -returns
@@ -133,14 +119,14 @@ This function might also return other HRESULT values.
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_destroyoverlay.md">D3DDDICB_DESTROYOVERLAY</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicecallbacks.md">D3DDDI_DEVICECALLBACKS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544178">D3DDDICB_DESTROYOVERLAY</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544512">D3DDDI_DEVICECALLBACKS</a>
  
 
  

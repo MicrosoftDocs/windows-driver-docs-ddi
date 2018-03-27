@@ -52,17 +52,6 @@ req.typenames: D3DKMT_SHAREDPRIMARYUNLOCKNOTIFICATION
 The D3DKMT_SHAREDPRIMARYUNLOCKNOTIFICATION structure describes the shared primary surface that an application just unlocked.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DKMT_SHAREDPRIMARYUNLOCKNOTIFICATION {
-  LUID                           AdapterLuid;
-  D3DDDI_VIDEO_PRESENT_SOURCE_ID VidPnSourceId;
-} D3DKMT_SHAREDPRIMARYUNLOCKNOTIFICATION;
-````
-
-
 ## -struct-fields
 
 
@@ -70,7 +59,7 @@ typedef struct _D3DKMT_SHAREDPRIMARYUNLOCKNOTIFICATION {
 
 ### -field AdapterLuid
 
-[in] The locally unique identifier (<a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a>) of the graphics adapter on which the GDI shared primary surface exists.
+[in] The locally unique identifier (<a href="https://msdn.microsoft.com/library/windows/hardware/ff557080">LUID</a>) of the graphics adapter on which the GDI shared primary surface exists.
 
 
 ### -field VidPnSourceId
@@ -80,10 +69,10 @@ typedef struct _D3DKMT_SHAREDPRIMARYUNLOCKNOTIFICATION {
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtsharedprimaryunlocknotification.md">D3DKMTSharedPrimaryUnLockNotification</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547214">D3DKMTSharedPrimaryUnLockNotification</a>
  
 
  

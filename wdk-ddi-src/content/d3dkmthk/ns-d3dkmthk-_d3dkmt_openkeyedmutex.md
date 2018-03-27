@@ -49,18 +49,7 @@ req.typenames: D3DKMT_OPENKEYEDMUTEX
 ## -description
 
 
-The D3DKMT_OPENKEYEDMUTEX structure describes a keyed mutex that the <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtopenkeyedmutex.md">D3DKMTOpenKeyedMutex</a> function opens. 
-
-
-## -syntax
-
-
-````
-typedef struct _D3DKMT_OPENKEYEDMUTEX {
-  D3DKMT_HANDLE hSharedHandle;
-  D3DKMT_HANDLE hKeyedMutex;
-} D3DKMT_OPENKEYEDMUTEX;
-````
+The D3DKMT_OPENKEYEDMUTEX structure describes a keyed mutex that the <a href="https://msdn.microsoft.com/library/windows/hardware/ff547054">D3DKMTOpenKeyedMutex</a> function opens. 
 
 
 ## -struct-fields
@@ -80,10 +69,10 @@ typedef struct _D3DKMT_OPENKEYEDMUTEX {
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtopenkeyedmutex.md">D3DKMTOpenKeyedMutex</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547054">D3DKMTOpenKeyedMutex</a>
  
 
  

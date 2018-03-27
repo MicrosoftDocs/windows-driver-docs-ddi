@@ -52,19 +52,6 @@ req.typenames: D3DWDDM1_3DDI_TILED_RESOURCE_COORDINATE
 Specifies the (<i>x</i>, <i>y</i>, <i>z</i>) coordinate values below the index tiles  of a tiled resource, along with the respective subresource. Note that the coordinate values do not indicate pixels or bytes.
 
 
-## -syntax
-
-
-````
-typedef struct D3DWDDM1_3DDI_TILED_RESOURCE_COORDINATE {
-  UINT X;
-  UINT Y;
-  UINT Z;
-  UINT Subresource;
-} D3DWDDM1_3DDI_TILED_RESOURCE_COORDINATE;
-````
-
-
 ## -struct-fields
 
 

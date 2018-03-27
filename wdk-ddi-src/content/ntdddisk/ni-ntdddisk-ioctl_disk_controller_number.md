@@ -46,11 +46,6 @@ req.typenames: DETECTION_TYPE
 # IOCTL_DISK_CONTROLLER_NUMBER IOCTL
 
 
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
-
 ## -description
 
 
@@ -77,7 +72,7 @@ None.
 
 ### -output-buffer
 
-The buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> contains the <a href="..\ntdddisk\ns-ntdddisk-_disk_controller_number.md">DISK_CONTROLLER_NUMBER</a> data.
+The buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> contains the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552591">DISK_CONTROLLER_NUMBER</a> data.
 
 
 ### -output-buffer-length
@@ -112,10 +107,10 @@ The <b>Status</b> field is set to STATUS_SUCCESS if the operation is successful.
 
 ## -see-also
 
-<a href="..\ntdddisk\ns-ntdddisk-_disk_controller_number.md">DISK_CONTROLLER_NUMBER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552591">DISK_CONTROLLER_NUMBER</a>
  
 
  

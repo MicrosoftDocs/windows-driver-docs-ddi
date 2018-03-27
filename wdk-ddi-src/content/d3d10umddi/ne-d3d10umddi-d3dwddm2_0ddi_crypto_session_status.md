@@ -52,18 +52,6 @@ req.typenames: D3DWDDM2_0DDI_CRYPTO_SESSION_STATUS
 Provides status information for an existing <i>CryptoSession</i> object.
 
 
-## -syntax
-
-
-````
-typedef enum _D3DWDDM2_0DDI_CRYPTO_SESSION_STATUS { 
-  D3DWDDM2_0DDI_CRYPTO_SESSION_STATUS_OK                    = 0,
-  D3DWDDM2_0DDI_CRYPTO_SESSION_STATUS_KEY_LOST              = 1,
-  D3DWDDM2_0DDI_CRYPTO_SESSION_STATUS_KEY_AND_CONTENT_LOST  = 2
-} D3DWDDM2_0DDI_CRYPTO_SESSION_STATUS;
-````
-
-
 ## -enum-fields
 
 

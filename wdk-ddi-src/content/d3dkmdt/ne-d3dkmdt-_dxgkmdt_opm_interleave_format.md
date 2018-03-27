@@ -52,20 +52,6 @@ req.typenames: DXGKMDT_OPM_INTERLEAVE_FORMAT
 The DXGKMDT_OPM_INTERLEAVE_FORMAT enumeration indicates the scan line ordering of a video frame from a protected output's signal. 
 
 
-## -syntax
-
-
-````
-typedef enum _DXGKMDT_OPM_INTERLEAVE_FORMAT { 
-  DXGKMDT_OPM_INTERLEAVE_FORMAT_OTHER                   = 0,
-  DXGKMDT_OPM_INTERLEAVE_FORMAT_PROGRESSIVE             = 2,
-  DXGKMDT_OPM_INTERLEAVE_FORMAT_INTERLEAVED_EVEN_FIRST  = 3,
-  DXGKMDT_OPM_INTERLEAVE_FORMAT_INTERLEAVED_ODD_FIRST   = 4,
-  DXGKMDT_OPM_INTERLEAVE_FORMAT_FORCE_ULONG             = 0xFFFFFFFF
-} DXGKMDT_OPM_INTERLEAVE_FORMAT;
-````
-
-
 ## -enum-fields
 
 
@@ -98,10 +84,10 @@ Forces this enumeration to compile to 32 bits in size. Without this value, some 
 
 ## -see-also
 
-<a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_actual_output_format.md">DXGKMDT_OPM_ACTUAL_OUTPUT_FORMAT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560840">DXGKMDT_OPM_ACTUAL_OUTPUT_FORMAT</a>
  
 
  

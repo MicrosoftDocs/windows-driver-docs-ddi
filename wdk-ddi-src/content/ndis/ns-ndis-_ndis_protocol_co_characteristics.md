@@ -53,21 +53,6 @@ The NDIS_PROTOCOL_CO_CHARACTERISTICS structure specifies CoNDIS entry points for
   drivers.
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_PROTOCOL_CO_CHARACTERISTICS {
-  NDIS_OBJECT_HEADER                        Header;
-  ULONG                                     Flags;
-  CO_STATUS_HANDLER_EX                      CoStatusHandlerEx;
-  CO_AF_REGISTER_NOTIFY_HANDLER             CoAfRegisterNotifyHandler;
-  CO_RECEIVE_NET_BUFFER_LISTS_HANDLER       CoReceiveNetBufferListsHandler;
-  CO_SEND_NET_BUFFER_LISTS_COMPLETE_HANDLER CoSendNetBufferListsCompleteHandler;
-} NDIS_PROTOCOL_CO_CHARACTERISTICS, *PNDIS_PROTOCOL_CO_CHARACTERISTICS;
-````
-
-
 ## -struct-fields
 
 
@@ -76,7 +61,7 @@ typedef struct _NDIS_PROTOCOL_CO_CHARACTERISTICS {
 ### -field Header
 
 The 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure for the
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure for the
      protocol driver CoNDIS characteristics structure (NDIS_PROTOCOL_CO_CHARACTERISTICS). The driver sets the
      
      <b>Type</b> member of the structure that 
@@ -93,27 +78,27 @@ Reserved for NDIS.
 ### -field CoStatusHandlerEx
 
 The entry point of the driver's 
-     <a href="..\ndis\nc-ndis-protocol_co_status_ex.md">ProtocolCoStatusEx</a> function.
+     <a href="https://msdn.microsoft.com/1416ad56-548c-4f12-9922-9ab9a7e4fd3a">ProtocolCoStatusEx</a> function.
 
 
 ### -field CoAfRegisterNotifyHandler
 
 The entry point of the driver's 
-     <a href="..\ndis\nc-ndis-protocol_co_af_register_notify.md">
+     <a href="https://msdn.microsoft.com/272d99da-ef08-4ebd-90e7-74e99410b3f5">
      ProtocolCoAfRegisterNotify</a> function.
 
 
 ### -field CoReceiveNetBufferListsHandler
 
 The entry point of the driver's 
-     <a href="..\ndis\nc-ndis-protocol_co_receive_net_buffer_lists.md">
+     <a href="https://msdn.microsoft.com/1755804c-d82f-465d-862f-8a2340516f8e">
      ProtocolCoReceiveNetBufferLists</a> function.
 
 
 ### -field CoSendNetBufferListsCompleteHandler
 
 The entry point of the driver's 
-     <a href="..\ndis\nc-ndis-protocol_co_send_net_buffer_lists_complete.md">
+     <a href="https://msdn.microsoft.com/fb4b00c0-0b14-48dd-a6f2-aae659c6bb28">
      ProtocolCoSendNetBufferListsComplete</a> function.
 
 
@@ -123,48 +108,48 @@ The entry point of the driver's
 
 To specify entry points for CoNDIS, a protocol driver initializes an NDIS_PROTOCOL_CO_CHARACTERISTICS
     structure and passes it to the 
-    <a href="..\ndis\nf-ndis-ndissetoptionalhandlers.md">
+    <a href="https://msdn.microsoft.com/97649f4f-942a-47fc-a541-6f160c8b4eb4">
     NdisSetOptionalHandlers</a> function.
 
 The protocol driver calls 
     <b>NdisSetOptionalHandlers</b> from the 
-    <a href="..\ndis\nc-ndis-set_options.md">ProtocolSetOptions</a> function.
+    <a href="https://msdn.microsoft.com/342e23ad-d38b-4100-949a-220b8fbdcf6e">ProtocolSetOptions</a> function.
 
 
 
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndissetoptionalhandlers.md">NdisSetOptionalHandlers</a>
 
 
 
-<a href="..\ndis\nc-ndis-set_options.md">ProtocolSetOptions</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
 
 
 
-<a href="..\ndis\nc-ndis-protocol_co_status_ex.md">ProtocolCoStatusEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564550">NdisSetOptionalHandlers</a>
 
 
 
-<a href="..\ndis\nc-ndis-protocol_co_send_net_buffer_lists_complete.md">
-   ProtocolCoSendNetBufferListsComplete</a>
+<a href="https://msdn.microsoft.com/272d99da-ef08-4ebd-90e7-74e99410b3f5">ProtocolCoAfRegisterNotify</a>
 
 
 
-<a href="..\ndis\nc-ndis-protocol_co_receive_net_buffer_lists.md">
+<a href="https://msdn.microsoft.com/1755804c-d82f-465d-862f-8a2340516f8e">
    ProtocolCoReceiveNetBufferLists</a>
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="https://msdn.microsoft.com/fb4b00c0-0b14-48dd-a6f2-aae659c6bb28">
+   ProtocolCoSendNetBufferListsComplete</a>
 
 
 
-<a href="..\ndis\nc-ndis-protocol_co_af_register_notify.md">ProtocolCoAfRegisterNotify</a>
+<a href="https://msdn.microsoft.com/1416ad56-548c-4f12-9922-9ab9a7e4fd3a">ProtocolCoStatusEx</a>
 
 
 
+<a href="https://msdn.microsoft.com/342e23ad-d38b-4100-949a-220b8fbdcf6e">ProtocolSetOptions</a>
  
 
  

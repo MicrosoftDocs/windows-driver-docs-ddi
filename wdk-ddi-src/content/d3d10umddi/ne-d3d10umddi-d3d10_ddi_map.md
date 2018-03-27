@@ -49,21 +49,7 @@ req.typenames: D3D10_DDI_MAP
 ## -description
 
 
-The D3D10_DDI_MAP enumeration type contains values that identify the access levels to map to a subresource in a call to the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_resourcemap.md">ResourceMap</a> function.
-
-
-## -syntax
-
-
-````
-typedef enum D3D10_DDI_MAP { 
-  D3D10_DDI_MAP_READ               = 1,
-  D3D10_DDI_MAP_WRITE              = 2,
-  D3D10_DDI_MAP_READWRITE          = 3,
-  D3D10_DDI_MAP_WRITE_DISCARD      = 4,
-  D3D10_DDI_MAP_WRITE_NOOVERWRITE  = 5
-} D3D10_DDI_MAP;
-````
+The D3D10_DDI_MAP enumeration type contains values that identify the access levels to map to a subresource in a call to the driver's <a href="https://msdn.microsoft.com/1310a3f8-02dd-4d35-98ad-4016e57d1eb2">ResourceMap</a> function.
 
 
 ## -enum-fields
@@ -98,10 +84,10 @@ Write access is requested for the CPU to the subresource. However, the requestin
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_resourcemap.md">ResourceMap</a>
 
 
 
+<a href="https://msdn.microsoft.com/1310a3f8-02dd-4d35-98ad-4016e57d1eb2">ResourceMap</a>
  
 
  

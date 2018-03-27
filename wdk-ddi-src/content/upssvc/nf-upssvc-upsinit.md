@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,16 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>UPSInit</b> function initializes a UPS minidriver, opens communication to the UPS unit, updates the registry, and causes the minidriver to start monitoring the UPS unit.
-
-
-## -syntax
-
-
-````
-DWORD UPSInit(
-   void 
-);
-````
 
 
 ## -parameters
@@ -169,17 +159,17 @@ Beginning the monitoring of the UPS unit
 
 </li>
 </ul>
-If the <b>UPSInit</b> function returns a value other than UPS_INITOK, the UPS service immediately calls the <a href="..\upssvc\nf-upssvc-upsstop.md">UPSStop</a> function.
+If the <b>UPSInit</b> function returns a value other than UPS_INITOK, the UPS service immediately calls the <a href="https://msdn.microsoft.com/library/windows/hardware/ff536314">UPSStop</a> function.
 
 
 
 
 ## -see-also
 
-<a href="..\upssvc\nf-upssvc-upsstop.md">UPSStop</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536314">UPSStop</a>
  
 
  

@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
@@ -51,20 +51,6 @@ req.product: Windows 10 or later.
 
 
 <b>RxPostToWorkerThread</b> invokes a routine passed as a parameter in the context of a worker thread. Memory for the WORK_QUEUE_ITEM must be allocated by the caller.
-
-
-## -syntax
-
-
-````
-NTSTATUS RxPostToWorkerThread(
-  _In_ PRDBSS_DEVICE_OBJECT     pMRxDeviceObject,
-  _In_ WORK_QUEUE_TYPE          WorkQueueType,
-  _In_ PRX_WORK_QUEUE_ITEM      pWorkQueueItem,
-  _In_ PRX_WORKERTHREAD_ROUTINE Routine,
-  _In_ PVOID                    pContext
-);
-````
 
 
 ## -parameters
@@ -157,7 +143,7 @@ When an operation is going to be repeatedly dispatched, time is conserved by all
 
 </li>
 <li>
-For an infrequent operation, you can conserve space by dynamically allocating and freeing memory for the work queue item when it is needed. In this case, use the <a href="..\rxworkq\nf-rxworkq-rxdispatchtoworkerthread.md">RxDispatchToWorkerThread</a> routine. 
+For an infrequent operation, you can conserve space by dynamically allocating and freeing memory for the work queue item when it is needed. In this case, use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554398">RxDispatchToWorkerThread</a> routine. 
 
 </li>
 </ul>
@@ -165,25 +151,25 @@ The <b>RxPostToWorkerThread</b> routine invokes a routine in the context of a wo
 
 The current implementation of the <b>RxPostToWorkerThread </b>routine queues work onto the same processor from which the call originated. 
 
-If the <b>RxPostToWorkerThread </b>routine fails on a debug build, the <a href="..\rxlog\nf-rxlog-_rxlog.md">_RxLog</a> routine is called with details of the error. If the <b>RxPostToWorkerThread </b>routine fails and WMI is enabled in the kernel, details of the error will be logged with WMI.
+If the <b>RxPostToWorkerThread </b>routine fails on a debug build, the <a href="https://msdn.microsoft.com/library/windows/hardware/ff557368">_RxLog</a> routine is called with details of the error. If the <b>RxPostToWorkerThread </b>routine fails and WMI is enabled in the kernel, details of the error will be logged with WMI.
 
 
 
 
 ## -see-also
 
-<a href="..\rxworkq\nf-rxworkq-rxspindownmrxdispatcher.md">RxSpinDownMRxDispatcher</a>
 
 
 
-<a href="..\rxlog\nf-rxlog-_rxlog.md">_RxLog</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554398">RxDispatchToWorkerThread</a>
 
 
 
-<a href="..\rxworkq\nf-rxworkq-rxdispatchtoworkerthread.md">RxDispatchToWorkerThread</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554734">RxSpinDownMRxDispatcher</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557368">_RxLog</a>
  
 
  

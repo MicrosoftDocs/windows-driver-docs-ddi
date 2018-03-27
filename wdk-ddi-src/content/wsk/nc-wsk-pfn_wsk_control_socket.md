@@ -54,28 +54,6 @@ The
   <b>WskControlSocket</b> function performs control operations on a socket.
 
 
-## -prototype
-
-
-````
-PFN_WSK_CONTROL_SOCKET WskControlSocket;
-
-NTSTATUS WSKAPI * WskControlSocket(
-  _In_      PWSK_SOCKET             Socket,
-  _In_      WSK_CONTROL_SOCKET_TYPE RequestType,
-  _In_      ULONG                   ControlCode,
-  _In_      ULONG                   Level,
-  _In_      SIZE_T                  InputSize,
-  _In_opt_  PVOID                   InputBuffer,
-  _In_      SIZE_T                  OutputSize,
-  _Out_opt_ PVOID                   OutputBuffer,
-  _Out_opt_ SIZE_T                  *OutputSizeReturned,
-  _Inout_   PIRP                    Irp
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -84,7 +62,7 @@ NTSTATUS WSKAPI * WskControlSocket(
 ### -param Socket [in]
 
 A pointer to a 
-     <a href="..\wsk\ns-wsk-_wsk_socket.md">WSK_SOCKET</a> structure that specifies the socket
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571182">WSK_SOCKET</a> structure that specifies the socket
      object for the socket on which the control operation is being performed.
 
 
@@ -299,7 +277,7 @@ The WSK subsystem could not complete the control operation immediately. This val
 <td width="60%">
 The socket is no longer functional. The IRP will be completed with failure status. The WSK
        application must call the 
-       <a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a> function to close the
+       <a href="https://msdn.microsoft.com/library/windows/hardware/ff571124">WskCloseSocket</a> function to close the
        socket as soon as possible.
 
 </td>
@@ -361,8 +339,6 @@ Callers of the
 
 ## -see-also
 
-<a href="..\wsk\ns-wsk-_wsk_provider_datagram_dispatch.md">
-   WSK_PROVIDER_DATAGRAM_DISPATCH</a>
 
 
 
@@ -370,31 +346,33 @@ Callers of the
 
 
 
-<a href="..\wsk\ns-wsk-_wsk_provider_connection_dispatch.md">
-   WSK_PROVIDER_CONNECTION_DISPATCH</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff571186">WSK Socket Options</a>
 
 
 
-<a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571171">WSK_PROVIDER_BASIC_DISPATCH</a>
 
 
 
-<a href="..\wsk\ns-wsk-_wsk_provider_basic_dispatch.md">WSK_PROVIDER_BASIC_DISPATCH</a>
+<a href="https://msdn.microsoft.com/70a86809-07f2-4723-9e50-4dbdd31ff900">
+   WSK_PROVIDER_CONNECTION_DISPATCH</a>
 
 
 
-<a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
+<a href="https://msdn.microsoft.com/fa8d3395-b800-4e5c-af03-b21520f69158">
+   WSK_PROVIDER_DATAGRAM_DISPATCH</a>
 
 
 
-<a href="..\wsk\ns-wsk-_wsk_provider_listen_dispatch.md">WSK_PROVIDER_LISTEN_DISPATCH</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571176">WSK_PROVIDER_LISTEN_DISPATCH</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571124">WskCloseSocket</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571149">WskSocket</a>
  
 
  

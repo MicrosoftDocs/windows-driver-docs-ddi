@@ -52,17 +52,6 @@ req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
 The OS calls this in response to a status change reported through DxgkCbIndicateConnectorChange or when the OutputFlags.ConnectorStatusChanges field indicates that a call to SetTimingsFromVidPn has detected connector status changes.
 
 
-## -prototype
-
-
-````
-NTSTATUS APIENTRY DXGKDDI_QUERYCONNECTIONCHANGE(
-  _In_ const HANDLE                         hAdapter,
-  _In_       PDXGKARG_QUERYCONNECTIONCHANGE pQueryConnectionChange
-);
-````
-
-
 ## -parameters
 
 
@@ -75,7 +64,7 @@ A handle that identifies the adapter.
 
 ### -param pQueryConnectionChange [in]
 
-A pointer to a <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_queryconnectionchange.md">DXGKARG_QUERYCONNECTIONCHANGE</a> structure that provides the OS allocated buffer into which the oldest change should be copied by the driver. The oldest change is judged by lowest ConnectionChangeId.
+A pointer to a <a href="https://msdn.microsoft.com/6B91F3F0-B02D-46F3-9086-EA32F043FC16">DXGKARG_QUERYCONNECTIONCHANGE</a> structure that provides the OS allocated buffer into which the oldest change should be copied by the driver. The oldest change is judged by lowest ConnectionChangeId.
 
 
 ## -returns

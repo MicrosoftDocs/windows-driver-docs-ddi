@@ -52,22 +52,6 @@ req.typenames: RILSYSTEMSELECTIONPREFS_V1, *LPRILSYSTEMSELECTIONPREFS_V1
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef struct _RILSYSTEMSELECTIONPREFS_V1 {
-  DWORD                               cbSize;
-  DWORD                               dwParams;
-  DWORD                               dwExecutor;
-  DWORD                               dwSystemTypes;
-  RILSYSTEMSELECTIONPREFSMODE         dwMode;
-  RILOPERATORNAMES                    plmnInfo;
-  RILSYSTEMSELECTIONPREFSROAMINGMODE  dwRoamingMode;
-} RILSYSTEMSELECTIONPREFS_V1, RILSYSTEMSELECTIONPREFS_V1;
-````
-
-
 ## -struct-fields
 
 

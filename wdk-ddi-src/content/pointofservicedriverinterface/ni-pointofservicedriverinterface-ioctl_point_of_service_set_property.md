@@ -46,11 +46,6 @@ req.typenames: PosPropertyId
 # IOCTL_POINT_OF_SERVICE_SET_PROPERTY IOCTL
 
 
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
-
 ## -description
 
 
@@ -65,7 +60,7 @@ This I/O control function sets the specified property on the device.
 ### -input-buffer
 
 
-<a href="..\pointofservicedriverinterface\ne-pointofservicedriverinterface-_pospropertyid.md">PosPropertyId</a> of the property to set followed by the value of the property. The encoding for the type follows the property ID in the byte stream.
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn772239">PosPropertyId</a> of the property to set followed by the value of the property. The encoding for the type follows the property ID in the byte stream.
 
 
 ### -input-buffer-length
@@ -122,7 +117,7 @@ The device is currently claimed by another client.
 <h3><a id="Parameters"></a><a id="parameters"></a><a id="PARAMETERS"></a>Parameters</h3>
 
 
-The client must successfully call <a href="..\pointofservicedriverinterface\ni-pointofservicedriverinterface-ioctl_point_of_service_claim_device.md">IOCTL_POINT_OF_SERVICE_CLAIM_DEVICE</a> before using this IOCTL.
+The client must successfully call <a href="https://msdn.microsoft.com/library/windows/hardware/dn772093">IOCTL_POINT_OF_SERVICE_CLAIM_DEVICE</a> before using this IOCTL.
 
 
 

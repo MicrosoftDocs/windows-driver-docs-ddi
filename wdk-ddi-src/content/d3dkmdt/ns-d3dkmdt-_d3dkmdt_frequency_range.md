@@ -52,19 +52,6 @@ req.typenames: D3DKMDT_FREQUENCY_RANGE
 The D3DKMDT_FREQUENCY_RANGE structure contains the minimum and maximum refresh rates supported by a monitor.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DKMDT_FREQUENCY_RANGE {
-  D3DDDI_RATIONAL MinVSyncFreq;
-  D3DDDI_RATIONAL MaxVSyncFreq;
-  D3DDDI_RATIONAL MinHSyncFreq;
-  D3DDDI_RATIONAL MaxHSyncFreq;
-} D3DKMDT_FREQUENCY_RANGE;
-````
-
-
 ## -struct-fields
 
 
@@ -94,17 +81,17 @@ The maximum horizontal refresh rate, in Hz, supported by the monitor.
 
 
 
-The <b>RangeLimits</b> member of the <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_monitor_frequency_range.md">D3DKMDT_MONITOR_FREQUENCY_RANGE</a> structure is a D3DKMDT_FREQUENCY_RANGE structure.
+The <b>RangeLimits</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff546103">D3DKMDT_MONITOR_FREQUENCY_RANGE</a> structure is a D3DKMDT_FREQUENCY_RANGE structure.
 
 
 
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568430">Monitor Frequency Range Set Interface</a>
-
-
-
  
 
  

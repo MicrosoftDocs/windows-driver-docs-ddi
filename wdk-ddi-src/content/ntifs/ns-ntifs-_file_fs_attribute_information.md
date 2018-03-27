@@ -53,19 +53,6 @@ The <b>FILE_FS_ATTRIBUTE_INFORMATION</b>
    structure is used to query attribute information for a file system.
 
 
-## -syntax
-
-
-````
-typedef struct _FILE_FS_ATTRIBUTE_INFORMATION {
-  ULONG FileSystemAttributes;
-  LONG  MaximumComponentNameLength;
-  ULONG FileSystemNameLength;
-  WCHAR FileSystemName[1];
-} FILE_FS_ATTRIBUTE_INFORMATION, *PFILE_FS_ATTRIBUTE_INFORMATION;
-````
-
-
 ## -struct-fields
 
 
@@ -129,7 +116,7 @@ The file system supports named streams.
 </td>
 <td>
 The file system preserves and enforces access control lists 
-          (<a href="..\wdm\ns-wdm-_acl.md">ACL</a>).
+          (<a href="https://msdn.microsoft.com/library/windows/hardware/ff538866">ACL</a>).
 
 </td>
 </tr>
@@ -252,8 +239,8 @@ This information can be queried in either of the following ways:
 
 <ul>
 <li>
-Call <a href="..\fltkernel\nf-fltkernel-fltqueryvolumeinformation.md">FltQueryVolumeInformation</a> or 
-       <a href="..\ntifs\nf-ntifs-zwqueryvolumeinformationfile.md">ZwQueryVolumeInformationFile</a>, passing 
+Call <a href="https://msdn.microsoft.com/library/windows/hardware/ff543443">FltQueryVolumeInformation</a> or 
+       <a href="https://msdn.microsoft.com/library/windows/hardware/ff567070">ZwQueryVolumeInformationFile</a>, passing 
        <b>FileFsAttributeInformation</b> as the value of 
        <i>FileInformationClass</i> and passing a caller-allocated, 
        <b>FILE_FS_ATTRIBUTE_INFORMATION</b>-structured 
@@ -276,8 +263,8 @@ No specific access rights are required to query this information. Thus this info
      the volume is accessed through an open handle to the volume itself, or to a file or directory on the volume.
 
 The size of the buffer passed in the <i>FileInformation</i> parameter to 
-     <a href="..\fltkernel\nf-fltkernel-fltqueryvolumeinformation.md">FltQueryVolumeInformation</a> or 
-     <a href="..\ntifs\nf-ntifs-zwqueryvolumeinformationfile.md">ZwQueryVolumeInformationFile</a> must be at 
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff543443">FltQueryVolumeInformation</a> or 
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff567070">ZwQueryVolumeInformationFile</a> must be at 
      least <code>sizeof(FILE_FS_ATTRIBUTE_INFORMATION)</code>.
 
 This structure must be aligned on a <b>LONG</b> (4-byte) boundary.
@@ -287,7 +274,14 @@ This structure must be aligned on a <b>LONG</b> (4-byte) boundary.
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_acl.md">ACL</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538866">ACL</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543443">FltQueryVolumeInformation</a>
 
 
 
@@ -295,14 +289,7 @@ This structure must be aligned on a <b>LONG</b> (4-byte) boundary.
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltqueryvolumeinformation.md">FltQueryVolumeInformation</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-zwqueryvolumeinformationfile.md">ZwQueryVolumeInformationFile</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567070">ZwQueryVolumeInformationFile</a>
  
 
  

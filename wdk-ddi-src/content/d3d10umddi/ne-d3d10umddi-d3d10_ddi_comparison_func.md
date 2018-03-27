@@ -52,23 +52,6 @@ req.typenames: D3D10_DDI_COMPARISON_FUNC
 The D3D10_DDI_COMPARISON_FUNC enumeration type contains values that identify the comparison function to perform.
 
 
-## -syntax
-
-
-````
-typedef enum D3D10_DDI_COMPARISON_FUNC { 
-  D3D10_DDI_COMPARISON_NEVER          = 1,
-  D3D10_DDI_COMPARISON_LESS           = 2,
-  D3D10_DDI_COMPARISON_EQUAL          = 3,
-  D3D10_DDI_COMPARISON_LESS_EQUAL     = 4,
-  D3D10_DDI_COMPARISON_GREATER        = 5,
-  D3D10_DDI_COMPARISON_NOT_EQUAL      = 6,
-  D3D10_DDI_COMPARISON_GREATER_EQUAL  = 7,
-  D3D10_DDI_COMPARISON_ALWAYS         = 8
-} D3D10_DDI_COMPARISON_FUNC;
-````
-
-
 ## -enum-fields
 
 
@@ -116,14 +99,14 @@ The comparison always succeeds.
 
 ## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10_ddi_depth_stencilop_desc.md">D3D10_DDI_DEPTH_STENCILOP_DESC</a>
 
 
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10_ddi_depth_stencil_desc.md">D3D10_DDI_DEPTH_STENCIL_DESC</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541938">D3D10_DDI_DEPTH_STENCILOP_DESC</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541944">D3D10_DDI_DEPTH_STENCIL_DESC</a>
  
 
  

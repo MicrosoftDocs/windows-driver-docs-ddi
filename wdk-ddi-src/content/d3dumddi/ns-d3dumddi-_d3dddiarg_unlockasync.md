@@ -52,18 +52,6 @@ req.typenames: D3DDDIARG_UNLOCKASYNC
 The D3DDDIARG_UNLOCKASYNC structure describes a resource or a surface within the resource to unlock. 
 
 
-## -syntax
-
-
-````
-typedef struct _D3DDDIARG_UNLOCKASYNC {
-  HANDLE                  hResource;
-  UINT                    SubResourceIndex;
-  D3DDDI_UNLOCKASYNCFLAGS Flags;
-} D3DDDIARG_UNLOCKASYNC;
-````
-
-
 ## -struct-fields
 
 
@@ -81,15 +69,15 @@ typedef struct _D3DDDIARG_UNLOCKASYNC {
 
 ### -field Flags
 
-[in] A <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_unlockasyncflags.md">D3DDDI_UNLOCKASYNCFLAGS</a> structure that indicates, in bit-field flags, how to unlock the resource.
+[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff544676">D3DDDI_UNLOCKASYNCFLAGS</a> structure that indicates, in bit-field flags, how to unlock the resource.
 
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_unlockasync.md">UnlockAsync</a>
 
 
 
+<a href="https://msdn.microsoft.com/6af04c22-e559-4328-a20a-034b443fddc6">UnlockAsync</a>
  
 
  

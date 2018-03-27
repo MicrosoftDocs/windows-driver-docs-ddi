@@ -52,17 +52,6 @@ req.typenames: BINARY_DATA
 The BINARY_DATA structure contains the binary data of a named entry in the registry.
 
 
-## -syntax
-
-
-````
-typedef struct {
-  USHORT Length;
-  PVOID  Buffer;
-} BINARY_DATA;
-````
-
-
 ## -struct-fields
 
 
@@ -85,7 +74,7 @@ Pointer to a buffer containing the binary data.
 
 The BINARY_DATA structure is used in the 
     <b>ParameterData</b> member of the 
-    <a href="..\ndis\ns-ndis-_ndis_configuration_parameter.md">
+    <a href="https://msdn.microsoft.com/80250799-4263-43c0-85d5-f1c1c1fb0bae">
     NDIS_CONFIGURATION_PARAMETER</a> structure.
 
 
@@ -93,10 +82,10 @@ The BINARY_DATA structure is used in the
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_ndis_configuration_parameter.md">NDIS_CONFIGURATION_PARAMETER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564868">NDIS_CONFIGURATION_PARAMETER</a>
  
 
  

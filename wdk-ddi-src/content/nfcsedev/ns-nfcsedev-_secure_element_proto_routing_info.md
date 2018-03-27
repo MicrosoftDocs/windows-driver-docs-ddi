@@ -50,18 +50,7 @@ req.typenames: SECURE_ELEMENT_PROTO_ROUTING_INFO, *PSECURE_ELEMENT_PROTO_ROUTING
 
 
 SECURE_ELEMENT_PROTO_ROUTING_INFO
- is a member of <a href="..\nfcsedev\ns-nfcsedev-_secure_element_routing_table_entry.md">SECURE_ELEMENT_ROUTING_TABLE_ENTRY</a>. 
-
-
-## -syntax
-
-
-````
-typedef struct _SECURE_ELEMENT_PROTO_ROUTING_INFO {
-  GUID guidSecureElementId;
-  BYTE eRfProtocolType;
-} SECURE_ELEMENT_PROTO_ROUTING_INFO, *P_SECURE_ELEMENT_PROTO_ROUTING_INFO;
-````
+ is a member of <a href="https://msdn.microsoft.com/library/windows/hardware/dn905628">SECURE_ELEMENT_ROUTING_TABLE_ENTRY</a>. 
 
 
 ## -struct-fields

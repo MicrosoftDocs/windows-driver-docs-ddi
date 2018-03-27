@@ -52,17 +52,6 @@ req.typenames: DXGK_INTEGRATED_DISPLAY_CHILD, *PDXGK_INTEGRATED_DISPLAY_CHILD
 Gives information about the connected integrated display.
 
 
-## -syntax
-
-
-````
-typedef struct _DXGK_INTEGRATED_DISPLAY_CHILD {
-  D3DKMDT_VIDEO_OUTPUT_TECHNOLOGY InterfaceTechnology;
-  USHORT                          DescriptorLength;
-} DXGK_INTEGRATED_DISPLAY_CHILD, *PDXGK_INTEGRATED_DISPLAY_CHILD;
-````
-
-
 ## -struct-fields
 
 

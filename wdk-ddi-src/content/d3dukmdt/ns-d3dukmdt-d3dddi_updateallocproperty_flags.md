@@ -52,22 +52,6 @@ req.typenames: D3DDDI_UPDATEALLOCPROPERTY_FLAGS
 The D3DDDI_UPDATEALLOCPROPERTY_FLAGS structure identifies how to update a property in an allocation.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DDDI_UPDATEALLOCPROPERTY_FLAGS {
-  union {
-    struct {
-      UINT AccessedPhysically   :1;
-      UINT Reserved  :31;
-    };
-    UINT   Value;
-  };
-} D3DDDI_UPDATEALLOCPROPERTY_FLAGS, *PD3DDDI_UPDATEALLOCPROPERTY_FLAGS;
-````
-
-
 ## -struct-fields
 
 

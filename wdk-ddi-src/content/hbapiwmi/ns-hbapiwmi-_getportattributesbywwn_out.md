@@ -52,17 +52,6 @@ req.typenames: GetPortAttributesByWWN_OUT, *PGetPortAttributesByWWN_OUT
 The GetPortAttributesByWWN_OUT structure is used to report the output parameter data of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554965">GetPortAttributesByWWN</a> WMI method to the WMI client.
 
 
-## -syntax
-
-
-````
-typedef struct _GetPortAttributesByWWN_OUT {
-  ULONG                         HBAStatus;
-  MSFC_HBAPortAttributesResults PortAttributes;
-} GetPortAttributesByWWN_OUT, *PGetPortAttributesByWWN_OUT;
-````
-
-
 ## -struct-fields
 
 
@@ -75,7 +64,7 @@ Contains a value associated with the WMI class qualifier <a href="https://msdn.m
 
 ### -field PortAttributes
 
-Contains a structure of type <a href="..\hbapiwmi\ns-hbapiwmi-_msfc_hbaportattributesresults.md">MSFC_HBAPortAttributesResults</a> that holds the port attributes to be reported.
+Contains a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff562510">MSFC_HBAPortAttributesResults</a> that holds the port attributes to be reported.
 
 
 ## -remarks
@@ -89,7 +78,6 @@ The WMI tool suite generates a declaration of the GetPortAttributesByWWN_OUT str
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
 
 
 
@@ -97,10 +85,11 @@ The WMI tool suite generates a declaration of the GetPortAttributesByWWN_OUT str
 
 
 
-<a href="..\hbapiwmi\ns-hbapiwmi-_msfc_hbaportattributesresults.md">MSFC_HBAPortAttributesResults</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562510">MSFC_HBAPortAttributesResults</a>
  
 
  

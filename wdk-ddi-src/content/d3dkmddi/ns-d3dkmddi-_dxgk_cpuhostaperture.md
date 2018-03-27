@@ -52,17 +52,6 @@ req.typenames: DXGK_CPUHOSTAPERTURE
 <b>DXGK_CPUHOSTAPERTURE</b> describes a memory segment supporting a CPU host aperture.
 
 
-## -syntax
-
-
-````
-typedef struct _DXGK_CPUHOSTAPERTURE {
-  UINT64 PhysicalAddress;
-  UINT32 SizeInPages;
-} DXGK_CPUHOSTAPERTURE;
-````
-
-
 ## -struct-fields
 
 

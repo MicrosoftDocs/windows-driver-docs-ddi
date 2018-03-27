@@ -52,21 +52,6 @@ req.typenames: ScsiReportLuns_OUT, *PScsiReportLuns_OUT
 The ScsiReportLuns_OUT structure is used to report the output parameter data of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff564918">ScsiReportLuns</a> WMI method to the WMI client.
 
 
-## -syntax
-
-
-````
-typedef struct _ScsiReportLuns_OUT {
-  ULONG HBAStatus;
-  ULONG ResponseBufferSize;
-  ULONG SenseBufferSize;
-  UCHAR ScsiStatus;
-  UCHAR ResponseBuffer[1];
-  UCHAR SenseBuffer[1];
-} ScsiReportLuns_OUT, *PScsiReportLuns_OUT;
-````
-
-
 ## -struct-fields
 
 
@@ -113,14 +98,14 @@ The WMI tool suite generates a declaration of the ScsiReportLuns_OUT structure i
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564918">ScsiReportLuns</a>
-
-
-
  
 
  

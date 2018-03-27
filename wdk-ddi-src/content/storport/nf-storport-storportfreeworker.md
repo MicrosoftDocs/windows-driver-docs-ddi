@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
@@ -50,18 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-Frees a Storport work item previously allocated by the <a href="..\storport\nf-storport-storportinitializeworker.md">StorPortInitializeWorker</a> routine.
-
-
-## -syntax
-
-
-````
-ULONG StorPortFreeWorker(
-  _In_ PVOID HwDeviceExtension,
-  _In_ PVOID WorkItem
-);
-````
+Frees a Storport work item previously allocated by the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451486">StorPortInitializeWorker</a> routine.
 
 
 ## -parameters
@@ -83,14 +72,14 @@ TBD
 
 #### - WorkItem [in]
 
-A pointer to an opaque buffer for the work item context returned by <a href="..\storport\nf-storport-storportinitializeworker.md">StorPortInitializeWorker</a>.
+A pointer to an opaque buffer for the work item context returned by <a href="https://msdn.microsoft.com/library/windows/hardware/hh451486">StorPortInitializeWorker</a>.
 
 
 ## -returns
 
 
 
-The <a href="..\storport\nf-storport-storportinitializeworker.md">StorPortInitializeWorker</a> routine returns one of these status codes:
+The <a href="https://msdn.microsoft.com/library/windows/hardware/hh451486">StorPortInitializeWorker</a> routine returns one of these status codes:
 
 <table>
 <tr>
@@ -169,14 +158,14 @@ Miniports should call <b>StorPortFreeWorker</b> whenever a work item is no longe
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportinitializeworker.md">StorPortInitializeWorker</a>
 
 
 
-<a href="..\storport\nf-storport-storportqueueworkitem.md">StorPortQueueWorkItem</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451486">StorPortInitializeWorker</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451509">StorPortQueueWorkItem</a>
  
 
  

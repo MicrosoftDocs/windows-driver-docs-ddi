@@ -53,27 +53,6 @@ The <b>NDIS_RSS_PROCESSOR_INFO</b> structure specifies information about the CPU
   processor set on the local computer.
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_RSS_PROCESSOR_INFO {
-  NDIS_OBJECT_HEADER Header;
-  ULONG              Flags;
-  PROCESSOR_NUMBER   RssBaseProcessor;
-  ULONG              MaxNumRssProcessors;
-  USHORT             PreferredNumaNode;
-  ULONG              RssProcessorArrayOffset;
-  ULONG              RssProcessorCount;
-  ULONG              RssProcessorEntrySize;
-#if (NDIS_SUPPORT_NDIS630)
-  PROCESSOR_NUMBER   RssMaxProcessor;
-  NDIS_RSS_PROFILE   RssProfile;
-#endif 
-} NDIS_RSS_PROCESSOR_INFO, *PNDIS_RSS_PROCESSOR_INFO;
-````
-
-
 ## -struct-fields
 
 
@@ -82,7 +61,7 @@ typedef struct _NDIS_RSS_PROCESSOR_INFO {
 ### -field Header
 
 The 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure for the
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure for the
      <b>NDIS_RSS_PROCESSOR_INFO</b> structure. NDIS sets the 
      <b>Type</b> member of the structure that 
      <b>Header</b> specifies to <b>NDIS_OBJECT_TYPE_RSS_PROCESSOR_INFO</b>. NDIS also sets the 
@@ -142,7 +121,7 @@ The preferred NUMA node, which is the node closest to the NIC
 ### -field RssProcessorArrayOffset
 
 The offset, in bytes, from the start of the structure to an array of 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_rss_processor.md">NDIS_RSS_PROCESSOR</a> structures, with each
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff567271">NDIS_RSS_PROCESSOR</a> structures, with each
      entry describing an RSS processor on the system. The 
      <b>RssProcessorCount</b> member contains the number of <b>NDIS_RSS_PROCESSOR</b> structures in the array. The 
      <b>RssProcessorEntrySize</b> member contains the size of the <b>NDIS_RSS_PROCESSOR</b> structures in the
@@ -151,13 +130,13 @@ The offset, in bytes, from the start of the structure to an array of
 
 ### -field RssProcessorCount
 
-The number of elements in the array of <a href="..\ntddndis\ns-ntddndis-_ndis_rss_processor.md">NDIS_RSS_PROCESSOR</a> structures that follows this
+The number of elements in the array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff567271">NDIS_RSS_PROCESSOR</a> structures that follows this
      structure.
 
 
 ### -field RssProcessorEntrySize
 
-The size, in bytes, of elements in the array of <a href="..\ntddndis\ns-ntddndis-_ndis_rss_processor.md">NDIS_RSS_PROCESSOR</a> structures that follows this
+The size, in bytes, of elements in the array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff567271">NDIS_RSS_PROCESSOR</a> structures that follows this
      structure.
 
 
@@ -176,7 +155,7 @@ Reserved.
 
 
 NDIS network drivers use the <b>NDIS_RSS_PROCESSOR_INFO</b> structure in calls to the 
-    <a href="..\ndis\nf-ndis-ndisgetrssprocessorinformation.md">
+    <a href="https://msdn.microsoft.com/0da022d5-7294-4780-bab8-119ff6385abf">
     NdisGetRssProcessorInformation</a> function. After 
     <b>NdisGetRssProcessorInformation</b> returns, this structure contains information about the set of
     processors that will be used for receive side scaling (RSS).
@@ -186,23 +165,23 @@ NDIS network drivers use the <b>NDIS_RSS_PROCESSOR_INFO</b> structure in calls t
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_rss_processor.md">NDIS_RSS_PROCESSOR</a>
 
 
 
-<a href="..\ntddndis\ne-ntddndis-_ndis_rss_profile.md">NDIS_RSS_PROFILE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisgetrssprocessorinformation.md">
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567271">NDIS_RSS_PROCESSOR</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj849980">NDIS_RSS_PROFILE</a>
+
+
+
+<a href="https://msdn.microsoft.com/0da022d5-7294-4780-bab8-119ff6385abf">
    NdisGetRssProcessorInformation</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
  
 
  

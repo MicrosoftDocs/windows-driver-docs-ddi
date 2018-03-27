@@ -53,20 +53,6 @@ req.product: Windows 10 or later.
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef struct _RILOPENUICCLOGICALCHANNELPARAMS {
-  DWORD     dwSlotIndex;
-  DWORD     dwChannelGroup;
-  DWORD     dwAppIdLength;
-  BYTE [32] bAppId;
-  DWORD     dwSelectP2Arg;
-} RILOPENUICCLOGICALCHANNELPARAMS, RILOPENUICCLOGICALCHANNELPARAMS;
-````
-
-
 ## -struct-fields
 
 

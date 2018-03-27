@@ -52,46 +52,6 @@ req.typenames: TAPE_STATUS, *PTAPE_STATUS
 The TAPE_STATUS enumeration provides a list of the status codes that the tape class driver uses to report the status of a tape device.
 
 
-## -syntax
-
-
-````
-typedef enum _TAPE_STATUS { 
-  TAPE_STATUS_SEND_SRB_AND_CALLBACK        = 0,
-  TAPE_STATUS_CALLBACK                     = 1,
-  TAPE_STATUS_CHECK_TEST_UNIT_READY        = 2,
-  TAPE_STATUS_SUCCESS                      = 3,
-  TAPE_STATUS_INSUFFICIENT_RESOURCES       = 4,
-  TAPE_STATUS_NOT_IMPLEMENTED              = 5,
-  TAPE_STATUS_INVALID_DEVICE_REQUEST       = 6,
-  TAPE_STATUS_INVALID_PARAMETER            = 7,
-  TAPE_STATUS_MEDIA_CHANGED                = 8,
-  TAPE_STATUS_BUS_RESET                    = 9,
-  TAPE_STATUS_SETMARK_DETECTED             = 10,
-  TAPE_STATUS_FILEMARK_DETECTED            = 11,
-  TAPE_STATUS_BEGINNING_OF_MEDIA           = 12,
-  TAPE_STATUS_END_OF_MEDIA                 = 13,
-  TAPE_STATUS_BUFFER_OVERFLOW              = 14,
-  TAPE_STATUS_NO_DATA_DETECTED             = 15,
-  TAPE_STATUS_EOM_OVERFLOW                 = 16,
-  TAPE_STATUS_NO_MEDIA                     = 17,
-  TAPE_STATUS_IO_DEVICE_ERROR              = 18,
-  TAPE_STATUS_UNRECOGNIZED_MEDIA           = 19,
-  TAPE_STATUS_DEVICE_NOT_READY             = 20,
-  TAPE_STATUS_MEDIA_WRITE_PROTECTED        = 21,
-  TAPE_STATUS_DEVICE_DATA_ERROR            = 22,
-  TAPE_STATUS_NO_SUCH_DEVICE               = 23,
-  TAPE_STATUS_INVALID_BLOCK_LENGTH         = 24,
-  TAPE_STATUS_IO_TIMEOUT                   = 25,
-  TAPE_STATUS_DEVICE_NOT_CONNECTED         = 26,
-  TAPE_STATUS_DATA_OVERRUN                 = 27,
-  TAPE_STATUS_DEVICE_BUSY                  = 28,
-  TAPE_STATUS_REQUIRES_CLEANING            = 29,
-  TAPE_STATUS_CLEANER_CARTRIDGE_INSTALLED  = 30
-} TAPE_STATUS, *PTAPE_STATUS;
-````
-
-
 ## -enum-fields
 
 
@@ -254,10 +214,10 @@ Indicates that the media currently in the drive is a cleaner cartridge.
 
 ## -see-also
 
-<a href="..\ntddtape\ni-ntddtape-ioctl_tape_get_status.md">IOCTL_TAPE_GET_STATUS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560625">IOCTL_TAPE_GET_STATUS</a>
  
 
  

@@ -53,17 +53,6 @@ req.typenames:
 The <b>KsValidateAllocatorCreateRequest</b> function validates an IRP_MJ_CREATE request as an allocator request and returns the create structure associated with the request on success.
 
 
-## -syntax
-
-
-````
-NTSTATUS KsValidateAllocatorCreateRequest(
-  _In_  PIRP                 Irp,
-  _Out_ PKSALLOCATOR_FRAMING *AllocatorFraming
-);
-````
-
-
 ## -parameters
 
 

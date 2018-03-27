@@ -7,7 +7,7 @@ old-location: kernel\write_register_ushort.htm
 old-project: kernel
 ms.assetid: ebcbec0c-c5ee-4af1-be3c-36c730f82f4e
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/1/2018
 ms.keywords: WRITE_REGISTER_USHORT, WRITE_REGISTER_USHORT routine [Kernel-Mode Driver Architecture], k103_bc20d667-b3c7-4e46-a21d-06123e73d348.xml, kernel.write_register_ushort, wdm/WRITE_REGISTER_USHORT
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ api_name:
 -	WRITE_REGISTER_USHORT
 product: Windows
 targetos: Windows
-req.typenames: LUID
+req.typenames: IDD_DRIVER_GLOBALS, *PIDD_DRIVER_GLOBALS, IDD_DRIVER_GLOBALS, *PIDD_DRIVER_GLOBALS
 ---
 
 # WRITE_REGISTER_USHORT macro
@@ -50,17 +50,6 @@ req.typenames: LUID
 
 
 The <b>WRITE_REGISTER_USHORT</b> routine writes a USHORT value to the specified address.
-
-
-## -syntax
-
-
-````
-VOID WRITE_REGISTER_USHORT(
-  _In_ PUSHORT Register,
-  _In_ USHORT  Value
-);
-````
 
 
 ## -parameters

@@ -52,26 +52,12 @@ req.typenames: DXGK_PTE
 The <i>SetVideoProcessBltState</i> function sets the state of a bit-block transfer (bitblt) for a video processor. 
 
 
-## -prototype
-
-
-````
-PFND3DDDI_DXVAHD_SETVIDEOPROCESSBLTSTATE SetVideoProcessBltState;
-
-__checkReturn HRESULT APIENTRY SetVideoProcessBltState(
-  _In_       HANDLE                                   hDevice,
-  _In_ const D3DDDIARG_DXVAHD_SETVIDEOPROCESSBLTSTATE *pData
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
 
 
-### -param HANDLE
+### -param Arg1
 
 
 ### -param *
@@ -90,7 +76,7 @@ __checkReturn HRESULT APIENTRY SetVideoProcessBltState(
 
 #### - pData [in]
 
- A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_dxvahd_setvideoprocessbltstate.md">D3DDDIARG_DXVAHD_SETVIDEOPROCESSBLTSTATE</a> structure that describes how to change the bitblt state. 
+ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543093">D3DDDIARG_DXVAHD_SETVIDEOPROCESSBLTSTATE</a> structure that describes how to change the bitblt state. 
 
 
 ## -returns
@@ -134,10 +120,10 @@ The bitblt state is successfully set.
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_dxvahd_setvideoprocessbltstate.md">D3DDDIARG_DXVAHD_SETVIDEOPROCESSBLTSTATE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543093">D3DDDIARG_DXVAHD_SETVIDEOPROCESSBLTSTATE</a>
  
 
  

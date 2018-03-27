@@ -52,21 +52,6 @@ req.typenames: D3DDDIARG_VOLUMEBLT
 The D3DDDIARG_VOLUMEBLT structure describes parameters for a volume bit-block transfer (bitblt) operation. 
 
 
-## -syntax
-
-
-````
-typedef struct _D3DDDIARG_VOLUMEBLT {
-  HANDLE    hDstResource;
-  HANDLE    hSrcResource;
-  UINT      DstX;
-  UINT      DstY;
-  UINT      DstZ;
-  D3DDDIBOX SrcBox;
-} D3DDDIARG_VOLUMEBLT;
-````
-
-
 ## -struct-fields
 
 
@@ -104,10 +89,10 @@ typedef struct _D3DDDIARG_VOLUMEBLT {
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_volblt.md">VolBlt</a>
 
 
 
+<a href="https://msdn.microsoft.com/249a55a3-f2cf-4838-8a0f-b7108a17cd78">VolBlt</a>
  
 
  

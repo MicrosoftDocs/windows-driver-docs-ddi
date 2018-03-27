@@ -50,19 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-Stores the transport characteristics at relevant points in time. This structure is used in the   <a href="..\ucxcontroller\nc-ucxcontroller-evt_ucx_controller_get_transport_characteristics.md">EVT_UCX_CONTROLLER_GET_TRANSPORT_CHARACTERISTICS</a> callback function.
-
-
-## -syntax
-
-
-````
-typedef struct _UCX_CONTROLLER_TRANSPORT_CHARACTERISTICS {
-  ULONG                       TransportCharacteristicsFlags;
-  ULONG64                     CurrentRoundtripLatencyInMilliSeconds;
-  ULONG64                     MaxPotentialBandwidth;
-} UCX_CONTROLLER_TRANSPORT_CHARACTERISTICS, *PUCX_CONTROLLER_TRANSPORT_CHARACTERISTICS;
-````
+Stores the transport characteristics at relevant points in time. This structure is used in the   <a href="https://msdn.microsoft.com/4394199C-6644-4E11-BDAF-625C2F94DEE8">EVT_UCX_CONTROLLER_GET_TRANSPORT_CHARACTERISTICS</a> callback function.
 
 
 ## -struct-fields
@@ -107,10 +95,10 @@ For MA-USB, the underlying network transport could be WiFi, WiGig, Ethernet etc.
 
 ## -see-also
 
-<a href="..\ucxcontroller\nc-ucxcontroller-evt_ucx_controller_get_transport_characteristics.md">EVT_UCX_CONTROLLER_GET_TRANSPORT_CHARACTERISTICS</a>
 
 
 
+<a href="https://msdn.microsoft.com/4394199C-6644-4E11-BDAF-625C2F94DEE8">EVT_UCX_CONTROLLER_GET_TRANSPORT_CHARACTERISTICS</a>
  
 
  

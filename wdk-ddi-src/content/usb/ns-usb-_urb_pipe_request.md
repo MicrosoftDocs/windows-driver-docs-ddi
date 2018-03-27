@@ -53,18 +53,6 @@ req.product: Windows 10 or later.
 The <b>_URB_PIPE_REQUEST</b> structure is used by USB client drivers to clear a stall condition on an endpoint.
 
 
-## -syntax
-
-
-````
-struct _URB_PIPE_REQUEST {
-  struct URB_HEADER  Hdr;
-  USBD_PIPE_HANDLE  PipeHandle;
-  ULONG             Reserved;
-};
-````
-
-
 ## -struct-fields
 
 
@@ -72,7 +60,7 @@ struct _URB_PIPE_REQUEST {
 
 ### -field Hdr
 
-Pointer to the <a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a> structure that specifies the URB header information. <b>Hdr.Function</b> must be one of the following: 
+Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff540409">_URB_HEADER</a> structure that specifies the URB header information. <b>Hdr.Function</b> must be one of the following: 
 
 <ul>
 <li>URB_FUNCTION_SYNC_RESET_PIPE_AND_CLEAR_STALL</li>
@@ -105,11 +93,10 @@ The reserved members of this structure must be treated as opaque and are reserve
 
 ## -see-also
 
-<a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a>
 
 
 
-<a href="..\usb\ns-usb-_urb.md">URB</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538923">URB</a>
 
 
 
@@ -117,6 +104,7 @@ The reserved members of this structure must be treated as opaque and are reserve
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540409">_URB_HEADER</a>
  
 
  

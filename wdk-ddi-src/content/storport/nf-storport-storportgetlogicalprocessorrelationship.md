@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
@@ -51,20 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>StorPortGetLogicalProcessorRelationship</b> routine returns relationship information for one or more specified types. These types include groups, physical packages, and nodes in the host system. The information that is returned includes processor affinity masks that are composed of the logical processors in the host system. These logical processors share the specified relationship types.
-
-
-## -syntax
-
-
-````
-ULONG StorPortGetLogicalProcessorRelationship(
-  _In_     PVOID                                    HwDeviceExtension,
-  _In_opt_ PPROCESSOR_NUMBER                        ProcessorNumber,
-  _In_     LOGICAL_PROCESSOR_RELATIONSHIP           RelationshipType,
-  _Out_    PSYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX Information,
-  _Inout_  PULONG                                   Length
-);
-````
 
 
 ## -parameters

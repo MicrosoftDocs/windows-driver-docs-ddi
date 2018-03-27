@@ -52,19 +52,6 @@ req.typenames: RILUICCSERVICEPARAMS, *LPRILUICCSERVICEPARAMS
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef struct _RILUICCSERVICEPARAMS {
-  RILUICCSERVICE         service;
-  BOOL                   fHasLockVerification;
-  RILUICCLOCKCREDENTIAL  lockCredential;
-  BOOL                   fEnable;
-} RILUICCSERVICEPARAMS, RILUICCSERVICEPARAMS;
-````
-
-
 ## -struct-fields
 
 

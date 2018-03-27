@@ -52,17 +52,6 @@ req.typenames: DXVAHDDDI_RATIONAL
 The DXVAHDDDI_RATIONAL structure describes a fractional value that represents the vertical and horizontal frequencies of a video mode (that is, vertical sync and horizontal sync). 
 
 
-## -syntax
-
-
-````
-typedef struct _DXVAHDDDI_RATIONAL {
-  UINT Numerator;
-  UINT Denominator;
-} DXVAHDDDI_RATIONAL;
-````
-
-
 ## -struct-fields
 
 

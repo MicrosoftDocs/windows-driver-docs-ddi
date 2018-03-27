@@ -54,32 +54,6 @@ The FWPS_FIELDS_IPFORWARD_V4 enumeration type specifies the data field identifie
   <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa366492">run-time filtering layers</a>.
 
 
-## -syntax
-
-
-````
-typedef enum FWPS_FIELDS_IPFORWARD_V4_ { 
-  FWPS_FIELD_IPFORWARD_V4_IP_SOURCE_ADDRESS,
-  FWPS_FIELD_IPFORWARD_V4_IP_DESTINATION_ADDRESS,
-  FWPS_FIELD_IPFORWARD_V4_IP_DESTINATION_ADDRESS_TYPE,
-  FWPS_FIELD_IPFORWARD_V4_IP_LOCAL_INTERFACE,
-  FWPS_FIELD_IPFORWARD_V4_IP_FORWARD_INTERFACE,
-  FWPS_FIELD_IPFORWARD_V4_SOURCE_INTERFACE_INDEX,
-  FWPS_FIELD_IPFORWARD_V4_SOURCE_SUB_INTERFACE_INDEX,
-  FWPS_FIELD_IPFORWARD_V4_DESTINATION_INTERFACE_INDEX,
-  FWPS_FIELD_IPFORWARD_V4_DESTINATION_SUB_INTERFACE_INDEX,
-  FWPS_FIELD_IPFORWARD_V4_FLAGS,
-#if (NTDDI_VERSION >= NTDDI_WIN7)
-  FWPS_FIELD_IPFORWARD_V4_IP_PHYSICAL_ARRIVAL_INTERFACE,
-  FWPS_FIELD_IPFORWARD_V4_ARRIVAL_INTERFACE_PROFILE_ID,
-  FWPS_FIELD_IPFORWARD_V4_IP_PHYSICAL_NEXTHOP_INTERFACE,
-  FWPS_FIELD_IPFORWARD_V4_NEXTHOP_INTERFACE_PROFILE_ID,
-#endif 
-  FWPS_FIELD_IPFORWARD_V4_MAX
-} FWPS_FIELDS_IPFORWARD_V4;
-````
-
-
 ## -enum-fields
 
 
@@ -103,7 +77,7 @@ The destination IP address type. The possible values are defined by the
 
 ### -field FWPS_FIELD_IPFORWARD_V4_IP_LOCAL_INTERFACE
 
-The locally unique identifier (<a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a>) for the network interface associated with the
+The locally unique identifier (<a href="https://msdn.microsoft.com/library/windows/hardware/ff557080">LUID</a>) for the network interface associated with the
      local IP address.
 
 
@@ -142,7 +116,7 @@ A bitwise OR of a combination of filtering condition flags. For information abou
 ### -field FWPS_FIELD_IPFORWARD_V4_IP_PHYSICAL_ARRIVAL_INTERFACE
 
 The 
-     <a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a> for the physical network interface that the
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff557080">LUID</a> for the physical network interface that the
      packet first arrived on.
      
 
@@ -161,7 +135,7 @@ The profile identifier (network category) of the arrival interface. The possible
 ### -field FWPS_FIELD_IPFORWARD_V4_IP_PHYSICAL_NEXTHOP_INTERFACE
 
 The 
-     <a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a> for the physical network interface that will be
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff557080">LUID</a> for the physical network interface that will be
      used to continue forwarding of the outbound packet.
      
 
@@ -188,14 +162,14 @@ The maximum value for this enumeration. This value might change in future versio
 
 ## -see-also
 
-<a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557080">LUID</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568757">NL_ADDRESS_TYPE</a>
-
-
-
  
 
  

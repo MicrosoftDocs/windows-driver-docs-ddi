@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: Microsoft.WDTF
 req.assembly: WDTFDriverEDTAction.Interop.dll
 req.type-library: 
-req.lib: wdtfedtaction.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -56,16 +56,6 @@ Sets a value that indicates whether the target device should be restarted by def
 This property is write-only.
 
 
-## -syntax
-
-
-````
-HRESULT put_SkipRestart(
-  [in] VARIANT_BOOL bSkipRestart
-);
-````
-
-
 ## -parameters
 
 
@@ -82,10 +72,10 @@ attempt to restart the target device by default. Use this method to skip that st
 
 ## -see-also
 
-<a href="..\wdtfedtaction\nn-wdtfedtaction-iwdtfenhanceddevicetestsupportaction2.md">IWDTFEnhancedDeviceTestSupportAction2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450969">IWDTFEnhancedDeviceTestSupportAction2</a>
  
 
  

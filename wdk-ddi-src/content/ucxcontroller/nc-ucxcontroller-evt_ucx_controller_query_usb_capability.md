@@ -53,25 +53,6 @@ req.product: Windows 10 or later.
 The client driver's implementation to determine if the controller supports a specific capability.
 
 
-## -prototype
-
-
-````
-EVT_UCX_CONTROLLER_QUERY_USB_CAPABILITY EvtUcxControllerQueryUsbCapability;
-
-NTSTATUS EvtUcxControllerQueryUsbCapability(
-  _In_      UCXCONTROLLER UcxController,
-  _In_      PGUID         CapabilityType,
-  _In_      ULONG         OutputBufferLength,
-  _Out_opt_ PVOID         OutputBuffer,
-  _Out_     PULONG        ResultLength
-)
-{ ... }
-
-typedef EVT_UCX_CONTROLLER_QUERY_USB_CAPABILITY PEVT_UCX_CONTROLLER_QUERY_USB_CAPABILITY;
-````
-
-
 ## -parameters
 
 
@@ -100,7 +81,7 @@ Pointer to a GUID specifying the requested capability. The possible  <i>PGUID</i
 </ul>
 </li>
 </ul>
-   See the Remarks section of <a href="..\usbdlib\nf-usbdlib-usbd_queryusbcapability.md">USBD_QueryUsbCapability</a> for more information.
+   See the Remarks section of <a href="https://msdn.microsoft.com/library/windows/hardware/hh406230">USBD_QueryUsbCapability</a> for more information.
 
 
 ### -param OutputBufferLength [in]
@@ -267,10 +248,10 @@ Controller_EvtControllerQueryUsbCapability(
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt188033">UcxControllerCreate</a>
-
-
-
  
 
  

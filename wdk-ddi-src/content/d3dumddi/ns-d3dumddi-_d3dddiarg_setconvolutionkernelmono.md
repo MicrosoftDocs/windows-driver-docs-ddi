@@ -52,19 +52,6 @@ req.typenames: D3DDDIARG_SETCONVOLUTIONKERNELMONO
 The D3DDDIARG_SETCONVOLUTIONKERNELMONO structure describes parameters for setting the monochrome convolution kernel. 
 
 
-## -syntax
-
-
-````
-typedef struct _D3DDDIARG_SETCONVOLUTIONKERNELMONO {
-  UINT  Width;
-  UINT  Height;
-  FLOAT *pKernelRow;
-  FLOAT *pKernelCol;
-} D3DDDIARG_SETCONVOLUTIONKERNELMONO;
-````
-
-
 ## -struct-fields
 
 
@@ -92,10 +79,10 @@ typedef struct _D3DDDIARG_SETCONVOLUTIONKERNELMONO {
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setconvolutionkernelmono.md">SetConvolutionKernelMono</a>
 
 
 
+<a href="https://msdn.microsoft.com/b560352f-ca4e-4f03-88ac-13ec080834aa">SetConvolutionKernelMono</a>
  
 
  

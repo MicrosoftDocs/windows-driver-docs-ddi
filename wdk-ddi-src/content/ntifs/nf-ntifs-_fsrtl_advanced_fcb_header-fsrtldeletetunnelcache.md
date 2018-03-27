@@ -52,16 +52,6 @@ req.typenames: TOKEN_TYPE
 The <b>FsRtlDeleteTunnelCache</b> routine deletes a tunnel cache.
 
 
-## -syntax
-
-
-````
-VOID FsRtlDeleteTunnelCache(
-  _In_ TUNNEL *Cache
-);
-````
-
-
 ## -parameters
 
 
@@ -69,7 +59,7 @@ VOID FsRtlDeleteTunnelCache(
 
 ### -param Cache [in]
 
-Pointer to the tunnel cache structure to delete. The tunnel cache must have been initialized by calling <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializetunnelcache.md">FsRtlInitializeTunnelCache</a>.
+Pointer to the tunnel cache structure to delete. The tunnel cache must have been initialized by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff546153">FsRtlInitializeTunnelCache</a>.
 
 
 ## -returns
@@ -96,10 +86,10 @@ For more information about file name tunneling, see <a href="http://go.microsoft
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializetunnelcache.md">FsRtlInitializeTunnelCache</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546153">FsRtlInitializeTunnelCache</a>
  
 
  

@@ -52,18 +52,6 @@ req.typenames: TOKEN_TYPE
 The <b>FsRtlRemoveDotsFromPath</b> routine removes unnecessary occurrences of '.' and '..' from the specified path.
 
 
-## -syntax
-
-
-````
-NTSTATUS FsRtlRemoveDotsFromPath(
-  _Inout_ PWSTR  OriginalString,
-  _In_    USHORT PathLength,
-  _Out_   USHORT *NewLength
-);
-````
-
-
 ## -parameters
 
 

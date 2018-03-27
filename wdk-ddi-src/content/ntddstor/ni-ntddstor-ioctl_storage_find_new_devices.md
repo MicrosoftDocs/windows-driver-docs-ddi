@@ -46,18 +46,13 @@ req.typenames: STORAGE_ZONE_CONDITION, *PSTORAGE_ZONE_CONDITION
 # IOCTL_STORAGE_FIND_NEW_DEVICES IOCTL
 
 
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
-
 ## -description
 
 
 
 Determines whether another device that the driver supports has been connected to the I/O bus, either since the system was booted or since the driver last processed this request. 
 
-This IOCTL is obsolete in the Plug and Play environment. Plug and Play class drivers handle this request by calling <a href="..\wdm\nf-wdm-ioinvalidatedevicerelations.md">IoInvalidateDeviceRelations</a> with the device relations type <b>BusRelations</b>. If a new device is found, the class driver's <i>AddDevice</i> routine will be called. 
+This IOCTL is obsolete in the Plug and Play environment. Plug and Play class drivers handle this request by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff549353">IoInvalidateDeviceRelations</a> with the device relations type <b>BusRelations</b>. If a new device is found, the class driver's <i>AddDevice</i> routine will be called. 
 
 Legacy class drivers can continue to handle this IOCTL without modifications. If a new device is found, the driver sets up any necessary system objects and resources to handle I/O requests for its new device. It also initializes the device on receipt of this request dynamically, that is, without requiring the machine to be rebooted. Such a driver is assumed to support devices connected on a dynamically configurable I/O bus.
 

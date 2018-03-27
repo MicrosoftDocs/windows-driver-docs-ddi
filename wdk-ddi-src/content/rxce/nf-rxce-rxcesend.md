@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
@@ -51,20 +51,6 @@ req.product: Windows 10 or later.
 
 
 <b>RxCeSend</b> sends a transport service data unit (TSDU) along the specified connection on a virtual circuit.
-
-
-## -syntax
-
-
-````
-NTSTATUS RxCeSend(
-  _In_ PRXCE_VC pVc,
-  _In_ ULONG    SendOptions,
-  _In_ PMDL     pMdl,
-  _In_ ULONG    SendLength,
-  _In_ PVOID    pCompletionContext
-);
-````
 
 
 ## -parameters
@@ -198,14 +184,14 @@ The benefit of asynchronous and synchronous options depends on the underlying tr
 
 ## -see-also
 
-<a href="..\rxce\nf-rxce-rxcesenddatagram.md">RxCeSendDatagram</a>
 
 
 
-<a href="..\wdm\ns-wdm-_mdl.md">MDL</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554414">MDL</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553482">RxCeSendDatagram</a>
  
 
  

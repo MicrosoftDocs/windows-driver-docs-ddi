@@ -49,20 +49,7 @@ req.typenames: DXGKARG_DISPLAYDETECTCONTROL
 ## -description
 
 
-Used to hold the arguments for <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_displaydetectcontrol.md">DXGKDDI_DISPLAYDETECTCONTROL</a>.
-
-
-## -syntax
-
-
-````
-typedef struct _DXGKARG_DISPLAYDETECTCONTROL {
-  D3DDDI_VIDEO_PRESENT_TARGET_ID TargetID  :24;
-  DXGK_DISPLAYDETECTCONTROLTYPE  Type  :4;
-  UINT                           NonDestructiveOnly  :1;
-  UINT                           Reserved  :3;
-} DXGKARG_DISPLAYDETECTCONTROL, *PDXGKARG_DISPLAYDETECTCONTROL;
-````
+Used to hold the arguments for <a href="https://msdn.microsoft.com/6F10EA4D-BCDE-475E-9937-414CB83F6F2F">DXGKDDI_DISPLAYDETECTCONTROL</a>.
 
 
 ## -struct-fields

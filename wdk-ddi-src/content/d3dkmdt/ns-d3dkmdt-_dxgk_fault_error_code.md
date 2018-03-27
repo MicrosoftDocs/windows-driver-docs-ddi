@@ -52,25 +52,6 @@ req.typenames: DXGK_FAULT_ERROR_CODE
 The <b>DXGK_FAULT_ERROR_CODE</b> structure provides a status code for the graphics processing unit (GPU) error reported via a page fault interrupt.
 
 
-## -syntax
-
-
-````
-typedef struct _DXGK_FAULT_ERROR_CODE {
-  union {
-    struct {
-      UINT                    IsDeviceSpecificCode  :1;
-      DXGK_GENERAL_ERROR_CODE GeneralErrorCode  :31;
-    };
-    struct {
-      UINT IsDeviceSpecificCodeReservedBit  :1;
-      UINT DeviceSpecificCode  :31;
-    };
-  };
-} DXGK_FAULT_ERROR_CODE;
-````
-
-
 ## -struct-fields
 
 
@@ -80,12 +61,12 @@ typedef struct _DXGK_FAULT_ERROR_CODE {
 
 When set, this indicates that the GPU error code is specific to the particular vendor. In this case, <b>DeviceSpecificCode</b> should be set to a vendor specific error code.
 
-When not set, this indicates that the GPU error can be described via a set of predefined values in <a href="..\d3dkmdt\ne-d3dkmdt-_dxgk_general_error_code.md">DXGK_GENERAL_ERROR_CODE</a> enumeration. <b>GeneralErrorCode</b> value should be set to the corresponding error code.
+When not set, this indicates that the GPU error can be described via a set of predefined values in <a href="https://msdn.microsoft.com/library/windows/hardware/dn906347">DXGK_GENERAL_ERROR_CODE</a> enumeration. <b>GeneralErrorCode</b> value should be set to the corresponding error code.
 
 
 ### -field GeneralErrorCode
 
-General error code defined by <a href="..\d3dkmdt\ne-d3dkmdt-_dxgk_general_error_code.md">DXGK_GENERAL_ERROR_CODE</a>.
+General error code defined by <a href="https://msdn.microsoft.com/library/windows/hardware/dn906347">DXGK_GENERAL_ERROR_CODE</a>.
 
 
 ### -field IsDeviceSpecificCodeReservedBit
@@ -94,7 +75,7 @@ Same as <b>IsDeviceSpecificCode</b> member above:
 
 When set, this indicates that the GPU error code is specific to the particular vendor. In this case, <b>DeviceSpecificCode</b> should be set to a vendor specific error code.
 
-When not set, this indicates that the GPU error can be described via a set of predefined values in <a href="..\d3dkmdt\ne-d3dkmdt-_dxgk_general_error_code.md">DXGK_GENERAL_ERROR_CODE</a> enumeration. <b>GeneralErrorCode</b> value should be set to the corresponding error code.
+When not set, this indicates that the GPU error can be described via a set of predefined values in <a href="https://msdn.microsoft.com/library/windows/hardware/dn906347">DXGK_GENERAL_ERROR_CODE</a> enumeration. <b>GeneralErrorCode</b> value should be set to the corresponding error code.
 
 
 ### -field DeviceSpecificCode
@@ -104,10 +85,10 @@ A device specific error code.
 
 ## -see-also
 
-<a href="..\d3dkmdt\ne-d3dkmdt-_dxgk_general_error_code.md">DXGK_GENERAL_ERROR_CODE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn906347">DXGK_GENERAL_ERROR_CODE</a>
  
 
  

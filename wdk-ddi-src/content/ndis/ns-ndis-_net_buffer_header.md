@@ -50,18 +50,7 @@ req.typenames: NET_BUFFER_HEADER, *PNET_BUFFER_HEADER
 
 
 The NET_BUFFER_HEADER structure specifies header information for the 
-  <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a> structure.
-
-
-## -syntax
-
-
-````
-typedef union _NET_BUFFER_HEADER {
-  NET_BUFFER_DATA NetBufferData;
-  SLIST_HEADER    Link;
-} NET_BUFFER_HEADER, *PNET_BUFFER_HEADER;
-````
+  <a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a> structure.
 
 
 ## -struct-fields
@@ -72,7 +61,7 @@ typedef union _NET_BUFFER_HEADER {
 ### -field NetBufferData
 
 A 
-     <a href="..\ndis\ns-ndis-_net_buffer_data.md">NET_BUFFER_DATA</a> structure.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568381">NET_BUFFER_DATA</a> structure.
 
 
 ### -field Link
@@ -91,14 +80,14 @@ NDIS maintains the information in the NET_BUFFER_HEADER union.
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_net_buffer_data.md">NET_BUFFER_DATA</a>
 
 
 
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568381">NET_BUFFER_DATA</a>
  
 
  

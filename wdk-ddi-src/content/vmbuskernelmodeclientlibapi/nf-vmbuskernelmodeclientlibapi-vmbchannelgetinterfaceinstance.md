@@ -56,17 +56,6 @@ req.product: Windows 10 or later.
 The <b>VmbChannelGetInterfaceInstance</b> function gets the active interface instance, which is a GUID that uniquely identifies a channel.
 
 
-## -syntax
-
-
-````
-VOID VmbChannelGetInterfaceInstance(
-  _In_  VMBCHANNEL Channel,
-  _Out_ LPGUID     InterfaceInstance
-);
-````
-
-
 ## -parameters
 
 

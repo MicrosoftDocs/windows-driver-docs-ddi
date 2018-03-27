@@ -53,16 +53,6 @@ req.typenames:
                  Gives the status of the adapter initialization.
 
 
-## -syntax
-
-
-````
-typedef struct IDARG_IN_ADAPTER_INIT_FINISHED {
-  NTSTATUS AdapterInitStatus;
-} IDARG_IN_ADAPTER_INIT_FINISHED, *IDARG_IN_ADAPTER_INIT_FINISHED;
-````
-
-
 ## -struct-fields
 
 

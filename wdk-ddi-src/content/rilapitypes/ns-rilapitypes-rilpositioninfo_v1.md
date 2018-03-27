@@ -53,28 +53,6 @@ req.product: Windows 10 or later.
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
 
 
-## -syntax
-
-
-````
-typedef struct _RILPOSITIONINFO_V1 {
-  DWORD                                   cbSize;
-  DWORD                                   dwSystemType;
-  RILPOSITIONINFOGSM                      stGSMServingCellInfo;
-  RILPOSITIONINFOUMTS                     stUMTSServingCellInfo;
-  RILPOSITIONINFOLTE                      stLTEServingCellInfo;
-  DWORD                                   dwCntGSMNMR;
-  RILGSMNMR [MAX_GSMPOS_COUNT_OF_NMR]     rgNMR;
-  DWORD                                   dwCntUMTSMRL;
-  RILUMTSMRL [MAX_UMTSPOS_COUNT_OF_MRL]   ruMRL;
-  DWORD                                   dwCntEUTRAMRL;
-  RILEUTRAMRL [MAX_EUTRAPOS_COUNT_OF_MRL] reMRL;
-  DWORD                                   dwCntC2KMRL;
-  RILC2KMRL [MAX_C2KPOS_COUNT_OF_MRL]     rc2kMRL;
-} RILPOSITIONINFO_V1, RILPOSITIONINFO_V1;
-````
-
-
 ## -struct-fields
 
 

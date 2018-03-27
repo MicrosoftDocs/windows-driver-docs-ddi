@@ -52,24 +52,6 @@ req.typenames: DXVA_SampleFormat
 The DXVA_SampleFormat enumeration type describes the format of data that the input sample contains.
 
 
-## -syntax
-
-
-````
-typedef enum _DXVA_SampleFormat { 
-  DXVA_SampleFormatMask                 = 0xFF,
-  DXVA_SampleUnknown                    = 0,
-  DXVA_SamplePreviousFrame              = 1,
-  DXVA_SampleProgressiveFrame           = 2,
-  DXVA_SampleFieldInterleavedEvenFirst  = 3,
-  DXVA_SampleFieldInterleavedOddFirst   = 4,
-  DXVA_SampleFieldSingleEven            = 5,
-  DXVA_SampleFieldSingleOdd             = 6,
-  DXVA_SampleSubStream                  = 7
-} DXVA_SampleFormat;
-````
-
-
 ## -enum-fields
 
 
@@ -126,18 +108,18 @@ Specifies that the sample contains a video substream.
 
 ## -see-also
 
-<a href="..\dxva\ns-dxva-_dxva_videosample.md">DXVA_VideoSample</a>
 
 
 
-<a href="..\dxva\ns-dxva-_dxva_videosample2.md">DXVA_VideoSample2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563967">DXVA_ExtendedFormat</a>
 
 
 
-<a href="..\dxva\ns-dxva-_dxva_extendedformat.md">DXVA_ExtendedFormat</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564085">DXVA_VideoSample</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564092">DXVA_VideoSample2</a>
  
 
  

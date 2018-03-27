@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 The WWAN_SMS_SEND_PDU structure represents a PDU-style SMS message.
 
 
-## -syntax
-
-
-````
-typedef struct _WWAN_SMS_SEND_PDU {
-  BYTE Size;
-  CHAR PduData[WWAN_SMS_PDU_HEX_BUF_LEN];
-} WWAN_SMS_SEND_PDU, *PWWAN_SMS_SEND_PDU;
-````
-
-
 ## -struct-fields
 
 
@@ -81,7 +70,7 @@ For CDMA-based devices that support sending SMS messages in binary format, the s
 
 The following table lists the different values for the 
      <b>SmsFormat</b> member of the 
-     <a href="..\wwan\ns-wwan-_wwan_sms_send.md">WWAN_SMS_SEND</a> structure and their
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571250">WWAN_SMS_SEND</a> structure and their
      corresponding range that is allowed in this member.
 
 <table>
@@ -146,7 +135,7 @@ For GSM-based devices, the contents are coded in a hexadecimal string format (ac
 For CDMA-based devices that support sending SMS messages in binary format (that is, miniport drivers
      that return WWAN_SMS_CAPS_PDU_SEND in the 
      <b>WwanSmsCaps</b> member of 
-     <a href="..\wwan\ns-wwan-_wwan_device_caps.md">WWAN_DEVICE_CAPS</a>), 
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571204">WWAN_DEVICE_CAPS</a>), 
      <b>PduData</b> contains the SMS message as a byte array, as defined in section 3.4.2.1 SMS Point-to-Point
      Message in the 3GPP2 specification C.S0015-A "Short Message Service (SMS) for Wideband Spread Spectrum
      Systems". SMS will only support Wireless Messaging Teleservice (WMT) format. Miniport drivers should
@@ -156,10 +145,10 @@ For CDMA-based devices that support sending SMS messages in binary format (that 
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_sms_send.md">WWAN_SMS_SEND</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571250">WWAN_SMS_SEND</a>
  
 
  

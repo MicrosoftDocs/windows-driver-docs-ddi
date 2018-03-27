@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -49,17 +49,7 @@ req.typenames: TOKEN_TYPE
 ## -description
 
 
-The <b>RtlxOemStringToUnicodeSize</b> routine is reserved for system use - use <a href="..\ntifs\nf-ntifs-rtloemstringtounicodesize.md">RtlOemStringToUnicodeSize</a> instead.
-
-
-## -syntax
-
-
-````
-  RtlxOemStringToUnicodeSize(
-    
-);
-````
+The <b>RtlxOemStringToUnicodeSize</b> routine is reserved for system use - use <a href="https://msdn.microsoft.com/library/windows/hardware/ff553147">RtlOemStringToUnicodeSize</a> instead.
 
 
 ## -parameters

@@ -52,25 +52,6 @@ req.typenames: HIDP_LINK_COLLECTION_NODE, *PHIDP_LINK_COLLECTION_NODE
 The HIDP_LINK_COLLECTION_NODE structure contains information about a <a href="https://msdn.microsoft.com/3f934661-c33c-4c08-82ac-ee2e0f519c8e">link collection</a> in a <a href="https://msdn.microsoft.com/dcbee8e3-d03a-45c8-92e4-0897b9f55177">top-level collection's</a> <a href="https://msdn.microsoft.com/3f934661-c33c-4c08-82ac-ee2e0f519c8e">link collection array</a>.
 
 
-## -syntax
-
-
-````
-typedef struct _HIDP_LINK_COLLECTION_NODE {
-  USAGE  LinkUsage;
-  USAGE  LinkUsagePage;
-  USHORT Parent;
-  USHORT NumberOfChildren;
-  USHORT NextSibling;
-  USHORT FirstChild;
-  ULONG  CollectionType  :8;
-  ULONG  IsAlias  :1;
-  ULONG  Reserved  :23;
-  PVOID  UserContext;
-} HIDP_LINK_COLLECTION_NODE, *PHIDP_LINK_COLLECTION_NODE;
-````
-
-
 ## -struct-fields
 
 
@@ -130,25 +111,25 @@ Pointer to application-specific information.
 
 
 
-The <a href="..\hidpi\nf-hidpi-hidp_getlinkcollectionnodes.md">HidP_GetLinkCollectionNodes</a> routine returns a top-level collection's link collection array. The indices specified in a link collection node are indices in the collection's link collection array.
+The <a href="https://msdn.microsoft.com/library/windows/hardware/ff539725">HidP_GetLinkCollectionNodes</a> routine returns a top-level collection's link collection array. The indices specified in a link collection node are indices in the collection's link collection array.
 
 
 
 
 ## -see-also
 
-<a href="..\hidpi\nf-hidpi-hidp_getlinkcollectionnodes.md">HidP_GetLinkCollectionNodes</a>
 
 
 
-<a href="..\hidpi\ns-hidpi-_hidp_value_caps.md">HIDP_VALUE_CAPS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539693">HIDP_BUTTON_CAPS</a>
 
 
 
-<a href="..\hidpi\ns-hidpi-_hidp_button_caps.md">HIDP_BUTTON_CAPS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539832">HIDP_VALUE_CAPS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539725">HidP_GetLinkCollectionNodes</a>
  
 
  

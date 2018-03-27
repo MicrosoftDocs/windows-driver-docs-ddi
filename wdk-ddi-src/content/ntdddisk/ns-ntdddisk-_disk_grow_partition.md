@@ -49,18 +49,7 @@ req.typenames: DISK_GROW_PARTITION, *PDISK_GROW_PARTITION
 ## -description
 
 
-The DISK_GROW_PARTITION structure is used in conjunction with the <a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_grow_partition.md">IOCTL_DISK_GROW_PARTITION</a> request to enlarge a partition. 
-
-
-## -syntax
-
-
-````
-typedef struct _DISK_GROW_PARTITION {
-  ULONG         PartitionNumber;
-  LARGE_INTEGER BytesToGrow;
-} DISK_GROW_PARTITION, *PDISK_GROW_PARTITION;
-````
+The DISK_GROW_PARTITION structure is used in conjunction with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560376">IOCTL_DISK_GROW_PARTITION</a> request to enlarge a partition. 
 
 
 ## -struct-fields
@@ -80,10 +69,10 @@ Indicates the number of bytes that the partition should be extended by. Note tha
 
 ## -see-also
 
-<a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_grow_partition.md">IOCTL_DISK_GROW_PARTITION</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560376">IOCTL_DISK_GROW_PARTITION</a>
  
 
  

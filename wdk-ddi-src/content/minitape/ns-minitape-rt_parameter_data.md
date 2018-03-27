@@ -54,21 +54,6 @@ req.typenames: RT_PARAMETER_DATA, *PRT_PARAMETER_DATA
 The <b>RT_PARAMETER_DATA</b> structure contains the parameter data for the report timestamp command. 
 
 
-## -syntax
-
-
-````
-typedef struct _RT_PARAMETER_DATA {
-  UCHAR     ParameterDataLength[2];
-  UCHAR Origin  :3;
-  UCHAR Reserved1  :5;
-  UCHAR Reserved2;
-  UCHAR Timestamp[6];
-  UCHAR Reserved3[2];
-} RT_PARAMETER_DATA, *PRT_PARAMETER_DATA;
-````
-
-
 ## -struct-fields
 
 
@@ -169,10 +154,10 @@ Reserved for future use.
 
 ## -see-also
 
-<a href="..\storport\ns-storport-st_parameter_data.md">ST_PARAMETER_DATA</a>
 
 
 
+<a href="https://msdn.microsoft.com/C50F45EC-433C-421D-BD02-4C86CB44D5A4">ST_PARAMETER_DATA</a>
  
 
  

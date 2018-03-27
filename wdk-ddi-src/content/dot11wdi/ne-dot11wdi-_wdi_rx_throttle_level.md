@@ -52,18 +52,6 @@ req.typenames: WDI_RX_THROTTLE_LEVEL
 The WDI_RX_THROTTLE_LEVEL enumeration defines the RX throttle level. The interpretation and implementation mechanisms of these throttle levels are defined by the independent hardware vendor (IHV).
 
 
-## -syntax
-
-
-````
-typedef enum _WDI_RX_THROTTLE_LEVEL { 
-  WDI_RxThrottleLevelNone        = 0x0,
-  WDI_RxThrottleLevelMedium      = 0x1,
-  WDI_RxThrottleLevelAggressive  = 0x2
-} WDI_RX_THROTTLE_LEVEL;
-````
-
-
 ## -enum-fields
 
 

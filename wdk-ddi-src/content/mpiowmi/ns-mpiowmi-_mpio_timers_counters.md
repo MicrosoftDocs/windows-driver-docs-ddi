@@ -52,20 +52,6 @@ req.typenames: MPIO_TIMERS_COUNTERS, *PMPIO_TIMERS_COUNTERS
 The MPIO_TIMERS_COUNTERS structure controls the timer counters that affect all devices whose controlling DSMs do not implement independent timer counter settings. To query or set the global counters, the request must be directed to the MPIO control object by using its WMI instance name.
 
 
-## -syntax
-
-
-````
-typedef struct _MPIO_TIMERS_COUNTERS {
-  ULONG PathVerifyEnabled;
-  ULONG PathVerificationPeriod;
-  ULONG PDORemovePeriod;
-  ULONG RetryCount;
-  ULONG RetryInterval;
-} MPIO_TIMERS_COUNTERS, *PMPIO_TIMERS_COUNTERS;
-````
-
-
 ## -struct-fields
 
 

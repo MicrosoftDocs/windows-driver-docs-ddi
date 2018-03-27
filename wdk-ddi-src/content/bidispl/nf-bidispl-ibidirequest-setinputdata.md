@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: bidispl.h
+req.lib: 
 req.dll: Bidispl.dll
 req.irql: 
 topic_type:
@@ -50,18 +50,6 @@ req.typenames: MPEG2_TRANSPORT_STRIDE, *PMPEG2_TRANSPORT_STRIDE
 
 
 The <b>SetInputData</b> method sets the data to send to the printer.
-
-
-## -syntax
-
-
-````
-HRESULT SetInputData(
-  [in] const DWORD dwType,
-  [in] const BYTE  *pData,
-  [in] const UINT  uSize
-);
-````
 
 
 ## -parameters
@@ -255,7 +243,6 @@ If an application calls <b>SetInputData</b> more than once, only the value of th
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/b15b1aff-623e-4159-ab0f-ce386a1377eb">Bidirectional Communication Schema</a>
 
 
 
@@ -263,10 +250,11 @@ If an application calls <b>SetInputData</b> more than once, only the value of th
 
 
 
-<a href="..\bidispl\nn-bidispl-ibidirequest.md">IBidiRequest</a>
+<a href="https://msdn.microsoft.com/b15b1aff-623e-4159-ab0f-ce386a1377eb">Bidirectional Communication Schema</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dd144969">IBidiRequest</a>
  
 
  

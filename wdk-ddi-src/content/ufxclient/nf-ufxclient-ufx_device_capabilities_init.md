@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -50,17 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The <b>UFX_DEVICE_CAPABILITIES_INIT</b> macro the initializes the <a href="..\ufxbase\ns-ufxbase-_ufx_device_capabilities.md">UFX_DEVICE_CAPABILITIES</a> structure.
-
-
-## -syntax
-
-
-````
-void UFX_DEVICE_CAPABILITIES_INIT(
-  _Out_ PUFX_DEVICE_CAPABILITIES Capabilities
-);
-````
+The <b>UFX_DEVICE_CAPABILITIES_INIT</b> macro the initializes the <a href="https://msdn.microsoft.com/library/windows/hardware/mt187973">UFX_DEVICE_CAPABILITIES</a> structure.
 
 
 ## -parameters
@@ -70,7 +60,7 @@ void UFX_DEVICE_CAPABILITIES_INIT(
 
 ### -param Capabilities [out]
 
-Pointer to the <a href="..\ufxbase\ns-ufxbase-_ufx_device_capabilities.md">UFX_DEVICE_CAPABILITIES</a> structure.
+Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/mt187973">UFX_DEVICE_CAPABILITIES</a> structure.
 
 
 ## -returns

@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,22 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <code>OEMFillPath</code> function handles the filling of closed paths.
-
-
-## -syntax
-
-
-````
-BOOL APIENTRY OEMEscape(
-   SURFOBJ  *pso,
-   PATHOBJ  *ppo,
-   CLIPOBJ  *pco,
-   BRUSHOBJ *pbo,
-   POINTL   *pptlBrushOrg,
-   MIX      mix,
-   FLONG    flOptions
-);
-````
 
 
 ## -parameters

@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: extsfns.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -49,15 +49,7 @@ req.typenames: FA_EXTENSION_PLUGIN_PHASE
 ## -description
 
 
-The <b>GetFailureType</b> method gets the failure type of a <a href="..\extsfns\nn-extsfns-idebugfailureanalysis2.md">DebugFailureAnalysis</a> object. The failure type indicates whether the code being analyzed was running in kernel mode or user mode.
-
-
-## -syntax
-
-
-````
-DEBUG_FAILURE_TYPE GetFailureType();
-````
+The <b>GetFailureType</b> method gets the failure type of a <a href="https://msdn.microsoft.com/0B44FCB9-D23F-4630-9F9A-FBAD46712B14">DebugFailureAnalysis</a> object. The failure type indicates whether the code being analyzed was running in kernel mode or user mode.
 
 
 ## -parameters
@@ -71,14 +63,21 @@ DEBUG_FAILURE_TYPE GetFailureType();
 
 
 
-This method returns a value in the <a href="..\extsfns\ne-extsfns-_debug_failure_type.md">DEBUG_FAILURE_TYPE</a> enumeration.
+This method returns a value in the <a href="https://msdn.microsoft.com/library/windows/hardware/jj983402">DEBUG_FAILURE_TYPE</a> enumeration.
 
 
 
 
 ## -see-also
 
+
+
+
 <b>GetFailureClass</b>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj983405">IDebugFailureAnalysis2</a>
 
 
 
@@ -86,14 +85,7 @@ This method returns a value in the <a href="..\extsfns\ne-extsfns-_debug_failure
 
 
 
-<a href="..\extsfns\nc-extsfns-ext_analysis_plugin.md">_EFN_Analyze</a>
-
-
-
-<a href="..\extsfns\nn-extsfns-idebugfailureanalysis2.md">IDebugFailureAnalysis2</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj983432">_EFN_Analyze</a>
  
 
  

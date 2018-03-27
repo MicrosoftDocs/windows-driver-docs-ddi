@@ -52,27 +52,6 @@ req.typenames: MIRACAST_STATISTIC_DATA
 Contains Miracast statistics data that the user-mode display driver reports to the operating system.
 
 
-## -syntax
-
-
-````
-typedef struct {
-  MIRACAST_STATISTIC_TYPE StatisticType;
-  union {
-    struct {
-      MIRACAST_CHUNK_INFO ChunkInfo;
-    } EncodeComplete;
-    struct {
-      MIRACAST_CHUNK_ID ChunkId;
-    } ChunkSent;
-    struct {
-      MIRACAST_PROTOCOL_EVENT Event;
-    } ProtocolEvent;
-  };
-} MIRACAST_STATISTIC_DATA;
-````
-
-
 ## -struct-fields
 
 
@@ -80,7 +59,7 @@ typedef struct {
 
 ### -field StatisticType
 
-The type of statistics data from the <a href="..\netdispumdddi\ne-netdispumdddi-miracast_statistic_type.md">MIRACAST_STATISTIC_TYPE</a> enumeration.
+The type of statistics data from the <a href="https://msdn.microsoft.com/library/windows/hardware/dn265480">MIRACAST_STATISTIC_TYPE</a> enumeration.
 
 
 ### -field EncodeComplete
@@ -88,7 +67,7 @@ The type of statistics data from the <a href="..\netdispumdddi\ne-netdispumdddi-
 
 ### -field EncodeComplete.ChunkInfo
 
-A <a href="..\netdispumdddi\ns-netdispumdddi-miracast_chunk_info.md">MIRACAST_CHUNK_INFO</a> structure that provides info about an encode chunk that is identified by the <b>ChunkId</b> member.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/dn265473">MIRACAST_CHUNK_INFO</a> structure that provides info about an encode chunk that is identified by the <b>ChunkId</b> member.
 
 
 ### -field ChunkSent
@@ -96,7 +75,7 @@ A <a href="..\netdispumdddi\ns-netdispumdddi-miracast_chunk_info.md">MIRACAST_CH
 
 ### -field ChunkSent.ChunkId
 
-The identifier for this chunk, of type <a href="..\netdispumdddi\ns-netdispumdddi-miracast_chunk_id.md">MIRACAST_CHUNK_ID</a>.
+The identifier for this chunk, of type <a href="https://msdn.microsoft.com/library/windows/hardware/dn265472">MIRACAST_CHUNK_ID</a>.
 
 
 ### -field ProtocolEvent
@@ -104,27 +83,27 @@ The identifier for this chunk, of type <a href="..\netdispumdddi\ns-netdispumddd
 
 ### -field ProtocolEvent.Event
 
-The type of protocol event, given as a value of the <a href="..\netdispumdddi\ne-netdispumdddi-miracast_protocol_event.md">MIRACAST_PROTOCOL_EVENT</a> enumeration.
+The type of protocol event, given as a value of the <a href="https://msdn.microsoft.com/library/windows/hardware/dn265477">MIRACAST_PROTOCOL_EVENT</a> enumeration.
 
 
 ## -see-also
 
-<a href="..\netdispumdddi\ns-netdispumdddi-miracast_chunk_info.md">MIRACAST_CHUNK_INFO</a>
 
 
 
-<a href="..\netdispumdddi\ne-netdispumdddi-miracast_statistic_type.md">MIRACAST_STATISTIC_TYPE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265472">MIRACAST_CHUNK_ID</a>
 
 
 
-<a href="..\netdispumdddi\ne-netdispumdddi-miracast_protocol_event.md">MIRACAST_PROTOCOL_EVENT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265473">MIRACAST_CHUNK_INFO</a>
 
 
 
-<a href="..\netdispumdddi\ns-netdispumdddi-miracast_chunk_id.md">MIRACAST_CHUNK_ID</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265477">MIRACAST_PROTOCOL_EVENT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265480">MIRACAST_STATISTIC_TYPE</a>
  
 
  

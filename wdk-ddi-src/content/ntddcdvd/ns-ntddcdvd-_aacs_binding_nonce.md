@@ -52,17 +52,6 @@ req.typenames: AACS_BINDING_NONCE, *PAACS_BINDING_NONCE
 The AACS_BINDING_NONCE structure contains the binding nonce.
 
 
-## -syntax
-
-
-````
-typedef struct _AACS_BINDING_NONCE {
-  UCHAR BindingNonce[16];
-  UCHAR MAC[16];
-} AACS_BINDING_NONCE, *PAACS_BINDING_NONCE;
-````
-
-
 ## -struct-fields
 
 
@@ -82,21 +71,21 @@ A message authentication code (MAC) that clients can use to verify that the bind
 
 
 
-Clients retrieve the binding nonce with an <a href="..\ntddcdvd\ni-ntddcdvd-ioctl_aacs_read_binding_nonce.md">IOCTL_AACS_READ_BINDING_NONCE</a> request or an <a href="..\ntddcdvd\ni-ntddcdvd-ioctl_aacs_generate_binding_nonce.md">IOCTL_AACS_GENERATE_BINDING_NONCE</a> request.
+Clients retrieve the binding nonce with an <a href="https://msdn.microsoft.com/library/windows/hardware/ff559262">IOCTL_AACS_READ_BINDING_NONCE</a> request or an <a href="https://msdn.microsoft.com/library/windows/hardware/ff559248">IOCTL_AACS_GENERATE_BINDING_NONCE</a> request.
 
 
 
 
 ## -see-also
 
-<a href="..\ntddcdvd\ni-ntddcdvd-ioctl_aacs_generate_binding_nonce.md">IOCTL_AACS_GENERATE_BINDING_NONCE</a>
 
 
 
-<a href="..\ntddcdvd\ni-ntddcdvd-ioctl_aacs_read_binding_nonce.md">IOCTL_AACS_READ_BINDING_NONCE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559248">IOCTL_AACS_GENERATE_BINDING_NONCE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559262">IOCTL_AACS_READ_BINDING_NONCE</a>
  
 
  

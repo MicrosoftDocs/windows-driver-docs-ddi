@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
@@ -51,17 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>StorPortBuildMdlForNonPagedPool</b> routine updates the MDL to describe the associated non-paged memory.
-
-
-## -syntax
-
-
-````
-ULONG StorPortBuildMdlForNonPagedPool(
-  _In_    PVOID HwDeviceExtension,
-  _Inout_ PVOID Mdl
-);
-````
 
 
 ## -parameters

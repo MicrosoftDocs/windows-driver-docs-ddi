@@ -52,17 +52,6 @@ req.typenames: TOKEN_TYPE
 The <b>FsRtlValidateReparsePointBuffer</b> routine verifies that the specified reparse point buffer is valid.
 
 
-## -syntax
-
-
-````
-NTSTATUS FsRtlValidateReparsePointBuffer(
-  _In_ ULONG                BufferLength,
-  _In_ PREPARSE_DATA_BUFFER ReparseBuffer
-);
-````
-
-
 ## -parameters
 
 
@@ -141,14 +130,14 @@ Reparse tags contain several bits that cannot be set except by system components
 
 ## -see-also
 
-<a href="..\ntifs\ns-ntifs-_reparse_data_buffer.md">REPARSE_DATA_BUFFER</a>
 
 
 
-<a href="..\ntifs\ns-ntifs-_reparse_guid_data_buffer.md">REPARSE_GUID_DATA_BUFFER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552012">REPARSE_DATA_BUFFER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552014">REPARSE_GUID_DATA_BUFFER</a>
  
 
  

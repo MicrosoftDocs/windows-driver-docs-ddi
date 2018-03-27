@@ -53,25 +53,6 @@ req.product: Windows 10 or later.
 The <b>WWAN_LTE_SERVING_CELL_INFO</b> structure represents information about the LTE serving cell.
 
 
-## -syntax
-
-
-````
-typedef struct _WWAN_LTE_SERVING_CELL_INFO {
-  ULONG ProviderIdOffset;
-  ULONG ProviderIdSize;
-  ULONG CellId;
-  ULONG EARFCN;
-  ULONG PhysicalCellId;
-  ULONG TAC;
-  ULONG RSRP;
-  ULONG RSRQ;
-  ULONG TimingAdvance;
-  BYTE  Data[ANYSIZE_ARRAY];
-} WWAN_LTE_SERVING_CELL_INFO, *PWWAN_LTE_SERVING_CELL_INFO;
-````
-
-
 ## -struct-fields
 
 
@@ -136,7 +117,6 @@ The data buffer containing <i>ProviderId</i>.
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_base_stations_info.md">WWAN_BASE_STATIONS_INFO</a>
 
 
 
@@ -144,14 +124,15 @@ The data buffer containing <i>ProviderId</i>.
 
 
 
-<a href="..\wwan\ns-wwan-_wwan_lte_mrl_info.md">WWAN_LTE_MRL_INFO</a>
+<a href="https://msdn.microsoft.com/66460B28-C2B4-4F05-A133-31A753AF9489">WWAN_BASE_STATIONS_INFO</a>
 
 
 
-<a href="..\wwan\ns-wwan-_wwan_lte_mrl.md">WWAN_LTE_MRL</a>
+<a href="https://msdn.microsoft.com/5959B7A7-147D-4F20-82CC-EC1DEAAE3494">WWAN_LTE_MRL</a>
 
 
 
+<a href="https://msdn.microsoft.com/49C3D862-EB78-4C44-A7B7-CE15E79EB021">WWAN_LTE_MRL_INFO</a>
  
 
  

@@ -52,16 +52,6 @@ req.typenames: LineDisplayStatusType
 This enumeration is not implemented.
 
 
-## -syntax
-
-
-````
-typedef enum _LineDisplayStatusType { 
-    = 
-} LineDisplayStatusType, *PLineDisplayStatusType;
-````
-
-
 ## -enum-fields
 
 

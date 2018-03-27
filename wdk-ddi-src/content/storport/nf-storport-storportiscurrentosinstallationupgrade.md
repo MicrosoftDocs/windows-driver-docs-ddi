@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: IRQL == PASSIVE_LEVEL
 topic_type:
@@ -51,17 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>StorPortIsCurrentOsInstallationUpgrade</b>  routine checks if the current installation of Windows is an upgrade from a previous version or not.
-
-
-## -syntax
-
-
-````
-ULONG StorPortIsCurrentOsInstallationUpgrade(
-  _In_  PVOID   HwDeviceExtension,
-  _Out_ BOOLEAN *Upgraded
-);
-````
 
 
 ## -parameters

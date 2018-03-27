@@ -52,17 +52,6 @@ req.typenames: EXpsFontRestriction
 The <b>FltOplockKeysEqual</b> routine compares the opportunistic lock (oplock) keys that are stored in the file object extensions of two file objects. 
 
 
-## -syntax
-
-
-````
-BOOLEAN FltOplockKeysEqual(
-  _In_opt_ PFILE_OBJECT Fo1,
-  _In_opt_ PFILE_OBJECT Fo2
-);
-````
-
-
 ## -parameters
 
 
@@ -98,10 +87,10 @@ If no oplock key was provided when the file objects were created, the file objec
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtloplockkeysequal~r1.md">FsRtlOplockKeysEqual</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547141">FsRtlOplockKeysEqual</a>
  
 
  

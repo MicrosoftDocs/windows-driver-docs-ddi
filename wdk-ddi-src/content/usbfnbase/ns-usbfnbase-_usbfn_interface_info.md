@@ -53,19 +53,6 @@ req.product: Windows 10 or later.
 Describes an interface and its endpoints.
 
 
-## -syntax
-
-
-````
-typedef struct _USBFN_INTERFACE_INFO {
-  UINT8           InterfaceNumber;
-  USBFN_BUS_SPEED Speed;
-  USHORT           Size;
-  UCHAR            InterfaceDescriptorSet[1];
-} USBFN_INTERFACE_INFO, *PUSBFN_INTERFACE_INFO;
-````
-
-
 ## -struct-fields
 
 
@@ -78,7 +65,7 @@ The index number of the interface.
 
 ### -field Speed
 
-The operating bus speed indicated by <a href="..\usbfnbase\ne-usbfnbase-_usbfn_bus_speed.md">USBFN_BUS_SPEED</a>-typed flags.
+The operating bus speed indicated by <a href="https://msdn.microsoft.com/library/windows/hardware/mt187987">USBFN_BUS_SPEED</a>-typed flags.
 
 
 ### -field Size
@@ -93,10 +80,10 @@ Pointer to the first element in the array of that contains the interface descrip
 
 ## -see-also
 
-<a href="..\usbfnbase\ne-usbfnbase-_usbfn_bus_speed.md">USBFN_BUS_SPEED</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt187987">USBFN_BUS_SPEED</a>
  
 
  

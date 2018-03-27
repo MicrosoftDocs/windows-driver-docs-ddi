@@ -52,17 +52,6 @@ req.typenames: DXGKMDT_OPM_HDCP_FLAG
 The DXGKMDT_OPM_HDCP_FLAG enumeration identifies whether a protected output's physical connector is connected to a High-bandwidth Digital Content Protection (HDCP) repeater. 
 
 
-## -syntax
-
-
-````
-typedef enum _DXGKMDT_OPM_HDCP_FLAG { 
-  DXGKMDT_OPM_HDCP_FLAG_NONE      = 0x00,
-  DXGKMDT_OPM_HDCP_FLAG_REPEATER  = 0x01
-} DXGKMDT_OPM_HDCP_FLAG;
-````
-
-
 ## -enum-fields
 
 
@@ -91,14 +80,14 @@ An HDCP repeater is a device that allows multiple monitors to display the video 
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_copp_compatible_information.md">DxgkDdiOPMGetCOPPCompatibleInformation</a>
 
 
 
-<a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_connected_hdcp_device_information.md">DXGKMDT_OPM_CONNECTED_HDCP_DEVICE_INFORMATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560854">DXGKMDT_OPM_CONNECTED_HDCP_DEVICE_INFORMATION</a>
 
 
 
+<a href="https://msdn.microsoft.com/9f15df1e-bdf5-4634-97f1-78515664b594">DxgkDdiOPMGetCOPPCompatibleInformation</a>
  
 
  

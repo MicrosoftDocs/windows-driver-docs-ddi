@@ -52,19 +52,6 @@ req.typenames: FILE_LINK_ENTRY_INFORMATION, *PFILE_LINK_ENTRY_INFORMATION
 The <b>FILE_LINK_ENTRY_INFORMATION</b> structure describes a single NTFS hard link to an existing file.
 
 
-## -syntax
-
-
-````
-typedef struct _FILE_LINK_ENTRY_INFORMATION {
-  ULONG    NextEntryOffset;
-  LONGLONG ParentFileId;
-  ULONG    FileNameLength;
-  WCHAR    FileName;
-} FILE_LINK_ENTRY_INFORMATION, *PFILE_LINK_ENTRY_INFORMATION;
-````
-
-
 ## -struct-fields
 
 
@@ -92,10 +79,10 @@ The name of the link.
 
 ## -see-also
 
-<a href="..\ntifs\ns-ntifs-_file_links_information.md">FILE_LINKS_INFORMATION</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff728841">FILE_LINKS_INFORMATION</a>
  
 
  

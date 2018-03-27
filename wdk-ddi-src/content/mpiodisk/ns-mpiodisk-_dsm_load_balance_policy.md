@@ -52,20 +52,6 @@ req.typenames: DSM_Load_Balance_Policy, *PDSM_Load_Balance_Policy
 The DSM_Load_Balance_Policy structure is used to represent a load balance policy that is applied to a LUN.
 
 
-## -syntax
-
-
-````
-typedef struct _DSM_Load_Balance_Policy {
-  ULONG         Version;
-  ULONG         LoadBalancePolicy;
-  ULONG         DSMPathCount;
-  ULONG         Reserved;
-  MPIO_DSM_Path DSM_Paths[1];
-} DSM_Load_Balance_Policy, *PDSM_Load_Balance_Policy;
-````
-
-
 ## -struct-fields
 
 

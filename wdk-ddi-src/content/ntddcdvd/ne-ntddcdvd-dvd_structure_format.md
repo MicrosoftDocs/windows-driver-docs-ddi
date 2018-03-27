@@ -49,22 +49,7 @@ req.typenames: DVD_STRUCTURE_FORMAT, *PDVD_STRUCTURE_FORMAT
 ## -description
 
 
-The DVD_STRUCTURE_FORMAT enumeration type is used in conjunction with the <a href="..\ntddcdvd\ni-ntddcdvd-ioctl_dvd_read_structure.md">IOCTL_DVD_READ_STRUCTURE</a> request and the <a href="..\ntddcdvd\ns-ntddcdvd-dvd_read_structure.md">DVD_READ_STRUCTURE</a> structure to retrieve a DVD descriptor.
-
-
-## -syntax
-
-
-````
-typedef enum DVD_STRUCTURE_FORMAT { 
-  DvdPhysicalDescriptor      = 0,
-  DvdCopyrightDescriptor     = 1,
-  DvdDiskKeyDescriptor       = 2,
-  DvdBCADescriptor           = 3,
-  DvdManufacturerDescriptor  = 4,
-  DvdMaxDescriptor           = 5
-} DVD_STRUCTURE_FORMAT, *PDVD_STRUCTURE_FORMAT;
-````
+The DVD_STRUCTURE_FORMAT enumeration type is used in conjunction with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560426">IOCTL_DVD_READ_STRUCTURE</a> request and the <a href="https://msdn.microsoft.com/library/windows/hardware/ff553738">DVD_READ_STRUCTURE</a> structure to retrieve a DVD descriptor.
 
 
 ## -enum-fields
@@ -104,14 +89,14 @@ Indicates that caller is requesting a DVD max descriptor.
 
 ## -see-also
 
-<a href="..\ntddcdvd\ni-ntddcdvd-ioctl_dvd_read_structure.md">IOCTL_DVD_READ_STRUCTURE</a>
 
 
 
-<a href="..\ntddcdvd\ns-ntddcdvd-dvd_read_structure.md">DVD_READ_STRUCTURE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553738">DVD_READ_STRUCTURE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560426">IOCTL_DVD_READ_STRUCTURE</a>
  
 
  

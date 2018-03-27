@@ -52,17 +52,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 Callback functions of the type <b>PDEBUG_EXTENSION_CALL</b> are called by the engine to execute <a href="https://msdn.microsoft.com/5131115b-b9a0-479b-9391-7ab384633d92">extension commands</a>. You can give these functions any name you want, as long as it contains no uppercase letters.
 
 
-## -prototype
-
-
-````
-typedef HRESULT ( CALLBACK *DebugExtensionCall)(
-  _In_     PDEBUG_CLIENT Client,
-  _In_opt_ PCSTR         Args
-);
-````
-
-
 ## -parameters
 
 
@@ -132,10 +121,10 @@ DebugExtensionCall is called <b>PDEBUG_EXTENSION_CALL</b>   in the Dbgeng.h head
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient.md">IDebugClient</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549827">IDebugClient</a>
  
 
  

@@ -46,16 +46,11 @@ req.typenames: STORAGE_ZONE_CONDITION, *PSTORAGE_ZONE_CONDITION
 # IOCTL_STORAGE_CHECK_VERIFY IOCTL
 
 
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
-
 ## -description
 
 
 
-Determines whether the media has changed on a removable-media device that the caller has opened for read or write access. If read or write access to the device is not necessary, the caller can improve performance by opening the device with FILE_READ_ATTRIBUTES and issuing an<a href="..\ntddstor\ni-ntddstor-ioctl_storage_check_verify2.md">IOCTL_STORAGE_CHECK_VERIFY2</a> request instead. 
+Determines whether the media has changed on a removable-media device that the caller has opened for read or write access. If read or write access to the device is not necessary, the caller can improve performance by opening the device with FILE_READ_ATTRIBUTES and issuing an<a href="https://msdn.microsoft.com/library/windows/hardware/ff560538">IOCTL_STORAGE_CHECK_VERIFY2</a> request instead. 
 
 For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563916">Supporting Removable Media</a>.
 
@@ -156,10 +151,10 @@ For a tape driver, the <b>Information</b> field is set to zero and the <b>Status
 
 ## -see-also
 
-<a href="..\ntddstor\ni-ntddstor-ioctl_storage_check_verify2.md">IOCTL_STORAGE_CHECK_VERIFY2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560538">IOCTL_STORAGE_CHECK_VERIFY2</a>
  
 
  

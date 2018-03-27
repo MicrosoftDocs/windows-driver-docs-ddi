@@ -46,16 +46,11 @@ req.typenames: TAPE_WRITE_MARKS, *PTAPE_WRITE_MARKS
 # IOCTL_VIDEO_SET_CURRENT_MODE IOCTL
 
 
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
-
 ## -description
 
 
 
-Sets the adapter to the specified operating mode. Miniport drivers are required to support this nonmodal request because it resets the current mode. The miniport driver must also consider the two high order flags which are used to additionally control the mode set operation. See <a href="..\ntddvdeo\ns-ntddvdeo-_video_mode.md">VIDEO_MODE</a> for further information.
+Sets the adapter to the specified operating mode. Miniport drivers are required to support this nonmodal request because it resets the current mode. The miniport driver must also consider the two high order flags which are used to additionally control the mode set operation. See <a href="https://msdn.microsoft.com/library/windows/hardware/ff570520">VIDEO_MODE</a> for further information.
 
 
 
@@ -67,7 +62,7 @@ Sets the adapter to the specified operating mode. Miniport drivers are required 
 
 ### -input-buffer
 
-The VRP <b>InputBuffer</b> contains a <a href="..\ntddvdeo\ns-ntddvdeo-_video_mode.md">VIDEO_MODE</a> structure specifying the mode to be set.
+The VRP <b>InputBuffer</b> contains a <a href="https://msdn.microsoft.com/library/windows/hardware/ff570520">VIDEO_MODE</a> structure specifying the mode to be set.
 
 
 ### -input-buffer-length
@@ -113,15 +108,15 @@ None
 
 ### -status-block
 
-The miniport driver does not set the <b>Information</b> member of the <a href="..\video\ns-video-_status_block.md">STATUS_BLOCK</a> structure.
+The miniport driver does not set the <b>Information</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff569732">STATUS_BLOCK</a> structure.
 
 
 ## -see-also
 
-<a href="..\ntddvdeo\ns-ntddvdeo-_video_mode.md">VIDEO_MODE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570520">VIDEO_MODE</a>
  
 
  

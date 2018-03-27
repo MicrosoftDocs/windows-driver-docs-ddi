@@ -52,23 +52,6 @@ req.typenames: KSPROPERTY_BOUNDS_LONGLONG, *PKSPROPERTY_BOUNDS_LONGLONG
 The KSPROPERTY_BOUNDS_LONGLONG structure defines the bounds for a 64-bit property.
 
 
-## -syntax
-
-
-````
-typedef union {
-  struct {
-    LONGLONG SignedMinimum;
-    LONGLONG SignedMaximum;
-  };
-  struct {
-    ULONGLONG UnsignedMinimum;
-    ULONGLONG UnsignedMaximum;
-  };
-} KSPROPERTY_BOUNDS_LONGLONG, *PKSPROPERTY_BOUNDS_LONGLONG;
-````
-
-
 ## -struct-fields
 
 
@@ -110,7 +93,7 @@ Specifies a minimum bound as an unsigned 64-bit value.
 
 
 
-This structure specifies a range of 64-bit values for a property. Use only when the <b>MembersFlags</b> member of the relevant <a href="..\ks\ns-ks-ksproperty_membersheader.md">KSPROPERTY_MEMBERSHEADER</a> is set to KSPROPERTY_MEMBER_RANGES. Use this structure in the <b>Members</b> array in the relevant <a href="..\ks\ns-ks-ksproperty_memberslist.md">KSPROPERTY_MEMBERSLIST</a> structure.
+This structure specifies a range of 64-bit values for a property. Use only when the <b>MembersFlags</b> member of the relevant <a href="https://msdn.microsoft.com/library/windows/hardware/ff565189">KSPROPERTY_MEMBERSHEADER</a> is set to KSPROPERTY_MEMBER_RANGES. Use this structure in the <b>Members</b> array in the relevant <a href="https://msdn.microsoft.com/library/windows/hardware/ff565190">KSPROPERTY_MEMBERSLIST</a> structure.
 
 See the Testcap sample in the Windows Driver Kit (WDK) for examples of usage.
 
@@ -121,18 +104,18 @@ Also see related information in <a href="https://msdn.microsoft.com/a385929e-193
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ksproperty_membersheader.md">KSPROPERTY_MEMBERSHEADER</a>
 
 
 
-<a href="..\ks\ns-ks-ksproperty_values.md">KSPROPERTY_VALUES</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565189">KSPROPERTY_MEMBERSHEADER</a>
 
 
 
-<a href="..\ks\ns-ks-ksproperty_memberslist.md">KSPROPERTY_MEMBERSLIST</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565190">KSPROPERTY_MEMBERSLIST</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565966">KSPROPERTY_VALUES</a>
  
 
  

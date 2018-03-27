@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: filterpipeline.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -50,17 +50,6 @@ req.typenames: EXpsFontRestriction
 
 
 The <b>GetFontProperties</b> method gets the font properties.
-
-
-## -syntax
-
-
-````
-HRESULT GetFontProperties(
-  [out] BSTR            *pContentType,
-  [out] EXpsFontOptions *pFontOptions
-);
-````
 
 
 ## -parameters

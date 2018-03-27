@@ -53,20 +53,6 @@ req.typenames:
 The<b> KsCreateDevice </b>function creates an AVStream device.
 
 
-## -syntax
-
-
-````
-NTSTATUS KsCreateDevice(
-  _In_            PDRIVER_OBJECT      DriverObject,
-  _In_            PDEVICE_OBJECT      PhysicalDeviceObject,
-  _In_opt_  const KSDEVICE_DESCRIPTOR *Descriptor,
-  _In_            ULONG               ExtensionSize,
-  _Out_opt_       PKSDEVICE           *Device
-);
-````
-
-
 ## -parameters
 
 
@@ -94,7 +80,7 @@ This parameter contains the size of the device extension. If this is zero, the d
 
 ### -param Device [out, optional]
 
-A pointer to a memory location that contains the address of the created <a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a> structure. Optional.
+A pointer to a memory location that contains the address of the created <a href="https://msdn.microsoft.com/library/windows/hardware/ff561681">KSDEVICE</a> structure. Optional.
 
 
 ## -returns
@@ -110,49 +96,49 @@ Returns STATUS_SUCCESS if the device is created successfully. Otherwise, it retu
 
 
 
-Normally, the minidriver does not call this function directly. Instead, <b>KsCreateDevice</b> is called by the default <i>AddDevice</i> handler, <a href="..\ks\nf-ks-ksadddevice.md">KsAddDevice</a>. Because <b>KsAddDevice</b> makes an internal call to <b>KsCreateDevice</b>, drivers that call <b>KsCreateDevice</b> should not call <b>KsAddDevice</b> separately.
+Normally, the minidriver does not call this function directly. Instead, <b>KsCreateDevice</b> is called by the default <i>AddDevice</i> handler, <a href="https://msdn.microsoft.com/library/windows/hardware/ff560927">KsAddDevice</a>. Because <b>KsAddDevice</b> makes an internal call to <b>KsCreateDevice</b>, drivers that call <b>KsCreateDevice</b> should not call <b>KsAddDevice</b> separately.
 
-A minidriver that calls <b>KsCreateDevice</b> directly should not use <a href="..\ks\nf-ks-ksinitializedriver.md">KsInitializeDriver</a>. If the minidriver is not calling <b>KsInitializeDriver</b>, it should instead provide its own <i>AddDevice</i> callback. The minidriver can then call <b>KsCreateDevice</b> from that <i>AddDevice</i> callback. 
+A minidriver that calls <b>KsCreateDevice</b> directly should not use <a href="https://msdn.microsoft.com/library/windows/hardware/ff562683">KsInitializeDriver</a>. If the minidriver is not calling <b>KsInitializeDriver</b>, it should instead provide its own <i>AddDevice</i> callback. The minidriver can then call <b>KsCreateDevice</b> from that <i>AddDevice</i> callback. 
 
-If no <a href="..\ks\ns-ks-_ksdevice_descriptor.md">KSDEVICE_DESCRIPTOR</a> is provided, AVStream creates a device with the default characteristics and no associated filter factories. If a KSDEVICE_DESCRIPTOR is supplied and contains a <a href="..\ks\ns-ks-_ksdevice_dispatch.md">KSDEVICE_DISPATCH</a> table with a create dispatch, the create dispatch is called. 
+If no <a href="https://msdn.microsoft.com/library/windows/hardware/ff561691">KSDEVICE_DESCRIPTOR</a> is provided, AVStream creates a device with the default characteristics and no associated filter factories. If a KSDEVICE_DESCRIPTOR is supplied and contains a <a href="https://msdn.microsoft.com/library/windows/hardware/ff561693">KSDEVICE_DISPATCH</a> table with a create dispatch, the create dispatch is called. 
 
 
 
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>
 
 
 
-<a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a>
 
 
 
-<a href="..\ks\ns-ks-_ksdevice_descriptor.md">KSDEVICE_DESCRIPTOR</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544174">DRIVER_OBJECT</a>
 
 
 
-<a href="..\ks\nf-ks-ksinitializedevice.md">KsInitializeDevice</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561681">KSDEVICE</a>
 
 
 
-<a href="..\ks\nf-ks-ksinitializedriver.md">KsInitializeDriver</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561691">KSDEVICE_DESCRIPTOR</a>
 
 
 
-<a href="..\ks\ns-ks-_ksdevice_dispatch.md">KSDEVICE_DISPATCH</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561693">KSDEVICE_DISPATCH</a>
 
 
 
-<a href="..\ks\nf-ks-ksadddevice.md">KsAddDevice</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560927">KsAddDevice</a>
 
 
 
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562682">KsInitializeDevice</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562683">KsInitializeDriver</a>
  
 
  

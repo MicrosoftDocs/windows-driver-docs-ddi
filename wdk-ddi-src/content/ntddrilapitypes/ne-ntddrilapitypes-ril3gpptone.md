@@ -52,22 +52,6 @@ req.typenames: RIL3GPPTONE
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef enum _RIL3GPPTONE { 
-  RIL_3GPPTONE_RINGBACK,
-  RIL_3GPPTONE_BUSY,
-  RIL_3GPPTONE_CONGESTION,
-  RIL_3GPPTONE_AUTHENTICATIONFAILURE,
-  RIL_3GPPTONE_NUMBERUNOBTAINABLE,
-  RIL_3GPPTONE_CALLDROPPED,
-  RIL_3GPPTONE_MAX
-} RIL3GPPTONE;
-````
-
-
 ## -enum-fields
 
 

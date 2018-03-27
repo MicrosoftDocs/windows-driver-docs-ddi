@@ -49,22 +49,8 @@ req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 ## -description
 
 
-Releases resources for the video decoder output view that were created through a call to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideodecoderoutputview.md">CreateVideoDecoderOutputView</a> function.
+Releases resources for the video decoder output view that were created through a call to the <a href="https://msdn.microsoft.com/a5a32b4e-799c-4d18-995d-f804e6dff85c">CreateVideoDecoderOutputView</a> function.
 
-
-
-## -prototype
-
-
-````
-PFND3D11_1DDI_DESTROYVIDEODECODEROUTPUTVIEW pfnDestroyVideoDecoderOutputView;
-
-VOID APIENTRY* pfnDestroyVideoDecoderOutputView(
-  _In_ D3D10DDI_HDEVICE                   hDevice,
-       D3D11_1DDI_HVIDEODECODEROUTPUTVIEW hView
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -72,10 +58,10 @@ VOID APIENTRY* pfnDestroyVideoDecoderOutputView(
 
 
 
-### -param D3D10DDI_HDEVICE
+### -param Arg1
 
 
-### -param D3D11_1DDI_HVIDEODECODEROUTPUTVIEW
+### -param Arg2
 
 
 
@@ -93,7 +79,7 @@ A handle to the display device (graphics context).
 
 #### - hView
 
-A handle to the driver's private data for the video decoder output view. This handle was created by the Direct3D runtime and passed to the driver in the call to <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideodecoderoutputview.md">CreateVideoDecoderOutputView</a>.
+A handle to the driver's private data for the video decoder output view. This handle was created by the Direct3D runtime and passed to the driver in the call to <a href="https://msdn.microsoft.com/a5a32b4e-799c-4d18-995d-f804e6dff85c">CreateVideoDecoderOutputView</a>.
 
 
 ## -returns
@@ -107,10 +93,10 @@ This callback function does not return a value.
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideodecoderoutputview.md">CreateVideoDecoderOutputView</a>
 
 
 
+<a href="https://msdn.microsoft.com/a5a32b4e-799c-4d18-995d-f804e6dff85c">CreateVideoDecoderOutputView</a>
  
 
  

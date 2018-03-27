@@ -52,19 +52,6 @@ req.typenames: D3DKMT_BLTMODEL_PRESENTHISTORYTOKEN
 The D3DKMT_BLTMODEL_PRESENTHISTORYTOKEN structure identifies a bit-block transfer (bitblt) present-history operation.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DKMT_BLTMODEL_PRESENTHISTORYTOKEN {
-  ULONG64             hLogicalSurface;
-  ULONG64             hPhysicalSurface;
-  ULONG64             EventId;
-  D3DKMT_DIRTYREGIONS DirtyRegions;
-} D3DKMT_BLTMODEL_PRESENTHISTORYTOKEN;
-````
-
-
 ## -struct-fields
 
 
@@ -87,19 +74,19 @@ typedef struct _D3DKMT_BLTMODEL_PRESENTHISTORYTOKEN {
 
 ### -field DirtyRegions
 
-[in] A <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_dirtyregions.md">D3DKMT_DIRTYREGIONS</a> structure that identifies the active rectangles (dirty regions) of the bitblt surface. 
+[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff547937">D3DKMT_DIRTYREGIONS</a> structure that identifies the active rectangles (dirty regions) of the bitblt surface. 
 
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_dirtyregions.md">D3DKMT_DIRTYREGIONS</a>
 
 
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_presenthistorytoken.md">D3DKMT_PRESENTHISTORYTOKEN</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547937">D3DKMT_DIRTYREGIONS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548188">D3DKMT_PRESENTHISTORYTOKEN</a>
  
 
  

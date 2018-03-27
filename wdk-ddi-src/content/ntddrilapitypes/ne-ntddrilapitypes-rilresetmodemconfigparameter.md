@@ -52,16 +52,6 @@ req.typenames: RILRESETMODEMCONFIGPARAMETER
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef enum _RILRESETMODEMCONFIGPARAMETER { 
-  RIL_RESETMODEMCONFIGPARAMETER_MAX
-} RILRESETMODEMCONFIGPARAMETER;
-````
-
-
 ## -enum-fields
 
 

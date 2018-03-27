@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: xpsrassvc.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -54,23 +54,6 @@ The <b>CreateRasterizer</b> method creates an XPS rasterizer object that can con
 
 
 
-## -syntax
-
-
-````
-HRESULT CreateRasterizer(
-  [in, optional]  IXpsOMPage              *xpsPage,
-  [in]            FLOAT                   dpiX,
-  [in]            FLOAT                   dpiY,
-  [in]            XPSRAS_RENDERING_MODE   nonTextRenderingMode,
-  [in]            XPSRAS_RENDERING_MODE   textRenderingMode,
-  [in]            XPSRAS_PIXEL_FORMAT     pixelFormat,
-  [in]            XPSRAS_BACKGROUND_COLOR backgroundColor,
-  [out, optional] IXpsRasterizer          **ppIXpsRasterizer
-);
-````
-
-
 ## -parameters
 
 
@@ -93,7 +76,7 @@ HRESULT CreateRasterizer(
 
 ### -param nonTextRenderingMode [in]
 
-Rendering mode for nontext items in the rasterized output. This parameter indicates whether to generate antialiased output. Set this parameter to one of the following <a href="..\xpsrassvc\ne-xpsrassvc-__midl___midl_itf_xpsrassvc_0000_0001_0001.md">XPSRAS_RENDERING_MODE</a> enumeration values:
+Rendering mode for nontext items in the rasterized output. This parameter indicates whether to generate antialiased output. Set this parameter to one of the following <a href="https://msdn.microsoft.com/library/windows/hardware/ff564291">XPSRAS_RENDERING_MODE</a> enumeration values:
 
 <ul>
 <li>
@@ -123,7 +106,7 @@ XPSRAS_RENDERING_MODE_ALIASED
 
 ### -param pixelFormat [in]
 
-Allows a caller to select the pixel format used by the IWICBitmap returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff556365">IXpsRasterizer::RasterizeRect</a>. Set this parameter to one of the following <a href="..\xpsrassvc\ne-xpsrassvc-__midl___midl_itf_xpsrassvc_0000_0003_0001.md">XPSRAS_PIXEL_FORMAT</a> enumeration values:
+Allows a caller to select the pixel format used by the IWICBitmap returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff556365">IXpsRasterizer::RasterizeRect</a>. Set this parameter to one of the following <a href="https://msdn.microsoft.com/library/windows/hardware/hh802469">XPSRAS_PIXEL_FORMAT</a> enumeration values:
 
 <ul>
 <li>
@@ -142,7 +125,7 @@ XPSRAS_PIXEL_FORMAT_128BPP_PRGBA_FLOAT_SCRGB
 
 ### -param backgroundColor [in]
 
-Allows a caller to select background color. Set this parameter to one of the following <a href="..\xpsrassvc\ne-xpsrassvc-__midl___midl_itf_xpsrassvc_0000_0004_0001.md">XPSRAS_BACKGROUND_COLOR</a> enumeration values:
+Allows a caller to select background color. Set this parameter to one of the following <a href="https://msdn.microsoft.com/library/windows/hardware/dn897481">XPSRAS_BACKGROUND_COLOR</a> enumeration values:
 
 <ul>
 <li>
@@ -166,7 +149,7 @@ The default background color is XPSRAS_BACKGROUND_COLOR_TRANSPARENT.
 
 #### - **ppIXpsRasterizer [out, optional]
 
-This parameter points to a location into which the method writes a pointer to the <a href="..\xpsrassvc\nn-xpsrassvc-ixpsrasterizer.md">IXpsRasterizer</a> interface of the newly created XPS rasterizer object. If the method fails, it writes <b>NULL</b> to this location and returns an error code.
+This parameter points to a location into which the method writes a pointer to the <a href="https://msdn.microsoft.com/1ef99120-2b3b-45aa-bcf7-16bcb9656089">IXpsRasterizer</a> interface of the newly created XPS rasterizer object. If the method fails, it writes <b>NULL</b> to this location and returns an error code.
 
 
 
@@ -196,10 +179,10 @@ If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRE
 
 ## -see-also
 
-<a href="..\xpsrassvc\nn-xpsrassvc-ixpsrasterizationfactory2.md">IXpsRasterizationFactory2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn937110">IXpsRasterizationFactory2</a>
  
 
  

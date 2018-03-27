@@ -54,17 +54,6 @@ The WSK_EXTENSION_CONTROL_OUT structure specifies the WSK subsystem's implementa
   interface for a socket.
 
 
-## -syntax
-
-
-````
-typedef struct _WSK_EXTENSION_CONTROL_OUT {
-  PVOID      ProviderContext;
-  const VOID *ProviderDispatch;
-} WSK_EXTENSION_CONTROL_OUT, *PWSK_EXTENSION_CONTROL_OUT;
-````
-
-
 ## -struct-fields
 
 
@@ -100,11 +89,6 @@ The WSK subsystem fills in the contents of the WSK_EXTENSION_CONTROL_OUT structu
 
 ## -see-also
 
-<a href="..\wsk\ns-wsk-_wsk_extension_control_in.md">WSK_EXTENSION_CONTROL_IN</a>
-
-
-
-<a href="..\wsk\nc-wsk-pfn_wsk_control_socket.md">WskControlSocket</a>
 
 
 
@@ -112,6 +96,11 @@ The WSK subsystem fills in the contents of the WSK_EXTENSION_CONTROL_OUT structu
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571167">WSK_EXTENSION_CONTROL_IN</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571127">WskControlSocket</a>
  
 
  

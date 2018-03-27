@@ -52,16 +52,6 @@ req.typenames: D3DDDICB_DESTROYHWQUEUE
 A structure that holds information to destroy a hardware queue.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DDDICB_DESTROYHWQUEUE {
-  HANDLE hHwQueue;
-} D3DDDICB_DESTROYHWQUEUE;
-````
-
-
 ## -struct-fields
 
 

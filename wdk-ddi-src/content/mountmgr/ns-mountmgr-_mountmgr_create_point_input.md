@@ -49,20 +49,7 @@ req.typenames: MOUNTMGR_CREATE_POINT_INPUT, *PMOUNTMGR_CREATE_POINT_INPUT
 ## -description
 
 
-The MOUNTMGR_CREATE_POINT_INPUT structure is used by the mount manager to send a symbolic link name to a client that has requested symbolic link name by means of an <a href="..\mountmgr\ni-mountmgr-ioctl_mountmgr_create_point.md">IOCTL_MOUNTMGR_CREATE_POINT</a> request. 
-
-
-## -syntax
-
-
-````
-typedef struct _MOUNTMGR_CREATE_POINT_INPUT {
-  USHORT SymbolicLinkNameOffset;
-  USHORT SymbolicLinkNameLength;
-  USHORT DeviceNameOffset;
-  USHORT DeviceNameLength;
-} MOUNTMGR_CREATE_POINT_INPUT, *PMOUNTMGR_CREATE_POINT_INPUT;
-````
+The MOUNTMGR_CREATE_POINT_INPUT structure is used by the mount manager to send a symbolic link name to a client that has requested symbolic link name by means of an <a href="https://msdn.microsoft.com/library/windows/hardware/ff560457">IOCTL_MOUNTMGR_CREATE_POINT</a> request. 
 
 
 ## -struct-fields
@@ -101,10 +88,10 @@ The name given for purposes of identifying the volume can be of any type: a uniq
 
 ## -see-also
 
-<a href="..\mountmgr\ni-mountmgr-ioctl_mountmgr_create_point.md">IOCTL_MOUNTMGR_CREATE_POINT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560457">IOCTL_MOUNTMGR_CREATE_POINT</a>
  
 
  

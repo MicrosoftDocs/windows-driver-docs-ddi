@@ -55,18 +55,6 @@ Sets the power dispatch function to be called when the driver object receives an
 This has the effect of adding this object header to a list of object headers that have power dispatch routines to execute. The head of this list is kept by the device header. Assumes that the caller has previously allocated a device header on the underlying Device Object with <b>KsAllocateDeviceHeader</b>.
 
 
-## -syntax
-
-
-````
-VOID KsSetPowerDispatch(
-  _In_     KSOBJECT_HEADER       Header,
-  _In_opt_ PFNKSCONTEXT_DISPATCH PowerDispatch ,
-  _In_opt_ PVOID                 PowerContext 
-);
-````
-
-
 ## -parameters
 
 
@@ -98,10 +86,10 @@ None
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567164">KStrContextDispatch</a>
-
-
-
  
 
  

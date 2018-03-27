@@ -53,27 +53,11 @@ The
   <i>ProtocolClAddPartyComplete</i> function is required for connection-oriented NDIS clients that set up
   multipoint connections. Such clients must have 
   <i>ProtocolClAddPartyComplete</i> functions to complete the asynchronous operations that they initiate with 
-  <a href="..\ndis\nf-ndis-ndiscladdparty.md">NdisClAddParty</a>. Otherwise, such a protocol
+  <a href="https://msdn.microsoft.com/library/windows/hardware/ff561625">NdisClAddParty</a>. Otherwise, such a protocol
   driver's registered 
   <i>ProtocolClAddPartyComplete</i> function can simply return control.
 <div class="alert"><b>Note</b>  You must declare the function by using the <b>PROTOCOL_CL_ADD_PARTY_COMPLETE</b> type. For more
    information, see the following Examples section.</div><div> </div>
-
-## -prototype
-
-
-````
-PROTOCOL_CL_ADD_PARTY_COMPLETE ProtocolClAddPartyComplete;
-
-VOID ProtocolClAddPartyComplete(
-  _In_ NDIS_STATUS         Status,
-  _In_ NDIS_HANDLE         ProtocolPartyContext,
-  _In_ NDIS_HANDLE         NdisPartyHandle,
-  _In_ PCO_CALL_PARAMETERS CallParameters
-)
-{ ... }
-````
-
 
 ## -parameters
 
@@ -113,7 +97,7 @@ The client passed an invalid
 #### NDIS_STATUS_XXX
 
 The call manager's 
-       <a href="..\ndis\nc-ndis-protocol_cm_add_party.md">ProtocolCmAddParty</a> function
+       <a href="https://msdn.microsoft.com/06aa5ff6-974c-43dd-8395-bc1a1a8421d5">ProtocolCmAddParty</a> function
        returned a CM-determined value to indicate why it could not add the party to the VC.
 
 
@@ -155,7 +139,7 @@ None
 A call to 
     <i>ProtocolClAddPartyComplete</i> indicates completion of the asynchronous operation initiated when the
     client called 
-    <a href="..\ndis\nf-ndis-ndiscladdparty.md">NdisClAddParty</a>. If the input 
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561625">NdisClAddParty</a>. If the input 
     <i>Status</i> is set to anything other than NDIS_STATUS_SUCCESS, 
     <i>ProtocolClAddPartyComplete</i> can release or reuse the client-allocated buffers at 
     <i>ProtocolPartyContext</i> and at 
@@ -166,7 +150,7 @@ If the attempt to add a party succeeded,
     <i>NdisPartyHandle</i> for subsequent calls to NDIS library functions concerning this party in the
     client's 
     <i>ProtocolPartyContext</i> area. For example, the client must pass this handle in a subsequent call to 
-    <a href="..\ndis\nf-ndis-ndiscldropparty.md">NdisClDropParty</a> eventually unless the
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561629">NdisClDropParty</a> eventually unless the
     remote party that it represents closes its connection first.
 
 The structure at 
@@ -187,7 +171,7 @@ Depending on the signaling protocol of the call manager, the traffic parameters 
     <i>CallParameters</i> can be identical for all parties on any particular multipoint connection. That is,
     as the client of such a call manager adds parties on a multipoint connection that the client originally
     set up with 
-    <a href="..\ndis\nf-ndis-ndisclmakecall.md">NdisClMakeCall</a>, it can supply only the
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561635">NdisClMakeCall</a>, it can supply only the
     target address of each party and leave the traffic parameters as originally set up for the multipoint VC
     each time it calls 
     <b>NdisClAddParty</b>.
@@ -236,31 +220,6 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisclmakecall.md">NdisClMakeCall</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndiscladdparty.md">NdisClAddParty</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismcmaddpartycomplete.md">NdisMCmAddPartyComplete</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_cl_incoming_drop_party.md">ProtocolClIncomingDropParty</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndiscmaddpartycomplete.md">NdisCmAddPartyComplete</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_cm_add_party.md">ProtocolCmAddParty</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndiscldropparty.md">NdisClDropParty</a>
 
 
 
@@ -268,6 +227,31 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561625">NdisClAddParty</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561629">NdisClDropParty</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561635">NdisClMakeCall</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561651">NdisCmAddPartyComplete</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562798">NdisMCmAddPartyComplete</a>
+
+
+
+<a href="https://msdn.microsoft.com/3815ca4b-f4bc-4de9-a28a-5d3ee20bcdd8">ProtocolClIncomingDropParty</a>
+
+
+
+<a href="https://msdn.microsoft.com/06aa5ff6-974c-43dd-8395-bc1a1a8421d5">ProtocolCmAddParty</a>
  
 
  

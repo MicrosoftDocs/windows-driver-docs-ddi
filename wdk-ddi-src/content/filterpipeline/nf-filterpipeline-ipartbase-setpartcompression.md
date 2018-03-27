@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: filterpipeline.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -52,16 +52,6 @@ req.typenames: EXpsFontRestriction
 The <b>SetPartCompression</b> method sets the compression of the part.
 
 
-## -syntax
-
-
-````
-HRESULT SetPartCompression(
-  [in] EXpsCompressionOptions compression
-);
-````
-
-
 ## -parameters
 
 
@@ -69,7 +59,7 @@ HRESULT SetPartCompression(
 
 ### -param compression [in]
 
-A <a href="..\filterpipeline\ne-filterpipeline-__midl___midl_itf_filterpipeline_0000_0000_0001.md">ExpsCompressionOptions</a>-typed value that describes the compression option for the part.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff548772">ExpsCompressionOptions</a>-typed value that describes the compression option for the part.
 
 
 ## -returns

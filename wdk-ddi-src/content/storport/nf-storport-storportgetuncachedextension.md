@@ -54,18 +54,6 @@ req.product: Windows 10 or later.
 The <b>StorPortGetUncachedExtension</b> routine allocates an uncached common buffer to be shared by the CPU and the device. 
 
 
-## -syntax
-
-
-````
-PVOID StorPortGetUncachedExtension(
-   IN PVOID                           HwDeviceExtension,
-   IN PPORT_CONFIGURATION_INFORMATION ConfigInfo,
-   ULONG                              NumberOfBytes
-);
-````
-
-
 ## -parameters
 
 
@@ -73,7 +61,7 @@ PVOID StorPortGetUncachedExtension(
 
 ### -param HwDeviceExtension
 
-A pointer to the hardware device extension. This is a per HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the mapped access ranges for the HBA. This area is available to the miniport driver immediately after the miniport driver calls <a href="..\storport\nf-storport-storportinitialize.md">StorPortInitialize</a>. The port driver frees this memory when it removes the device. 
+A pointer to the hardware device extension. This is a per HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the mapped access ranges for the HBA. This area is available to the miniport driver immediately after the miniport driver calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff567108">StorPortInitialize</a>. The port driver frees this memory when it removes the device. 
 
 
 ### -param ConfigInfo
@@ -108,10 +96,10 @@ Bus-master devices use common buffer space for DMA transfers.
 
 ## -see-also
 
-<a href="..\srb\nf-srb-scsiportgetuncachedextension.md">ScsiPortGetUncachedExtension</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564639">ScsiPortGetUncachedExtension</a>
  
 
  

@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,21 +51,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>GetFieldName</b>  method returns the name of a field within a structure.
-
-
-## -syntax
-
-
-````
-HRESULT GetFieldName(
-  [in]            ULONG64 Module,
-  [in]            ULONG   TypeId,
-  [in]            ULONG   FieldIndex,
-  [out, optional] PSTR    NameBuffer,
-  [in]            ULONG   NameBufferSize,
-  [out, optional] PULONG  NameSize
-);
-````
 
 
 ## -parameters

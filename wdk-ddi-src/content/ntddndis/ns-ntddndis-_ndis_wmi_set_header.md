@@ -53,21 +53,6 @@ The NDIS_WMI_SET_HEADER structure provides information about a GUID set request 
   clients.
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_WMI_SET_HEADER {
-  NDIS_OBJECT_HEADER Header;
-  NDIS_PORT_NUMBER   PortNumber;
-  NET_LUID           NetLuid;
-  ULONG64            RequestId;
-  ULONG              Timeout;
-  UCHAR              Padding[4];
-} NDIS_WMI_SET_HEADER, *PNDIS_WMI_SET_HEADER;
-````
-
-
 ## -struct-fields
 
 
@@ -76,7 +61,7 @@ typedef struct _NDIS_WMI_SET_HEADER {
 ### -field Header
 
 The 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure for this
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure for this
      NDIS_WMI_SET_HEADER structure. Set the 
      <b>Type</b> member of NDIS_OBJECT_HEADER to NDIS_WMI_OBJECT_TYPE_SET, the 
      <b>Revision</b> member to NDIS_WMI_SET_HEADER_REVISION_1, and the 
@@ -107,7 +92,7 @@ An identifier for the request. If a miniport driver must complete a request imme
      completes the request with a status of NDIS_STATUS_INDICATION_REQUIRED, the miniport driver uses this 
      <b>RequestId</b> value to set the 
      <b>RequestId</b> member of the associated 
-     <a href="..\ndis\ns-ndis-_ndis_status_indication.md">NDIS_STATUS_INDICATION</a> structure. 
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff567373">NDIS_STATUS_INDICATION</a> structure. 
      
 
 NDIS or overlying drivers can also use the 
@@ -117,7 +102,7 @@ NDIS or overlying drivers can also use the
      <b>RequestId</b> is zero, the miniport driver can ignore this member.
 
 For more information about this member, see 
-     <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566710">NDIS_OID_REQUEST</a>.
 
 
 ### -field Timeout
@@ -126,7 +111,7 @@ A time-out, in seconds, for the request. NDIS can reset the driver or cancel the
       time-out expires before the driver completes the request.
 
 For more information about this member, see 
-      <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>.
+      <a href="https://msdn.microsoft.com/library/windows/hardware/ff566710">NDIS_OID_REQUEST</a>.
 
 
 ### -field Padding
@@ -148,6 +133,9 @@ WMI GUID set requests that are specific to NDIS 6.0 and later versions include a
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff552617">GUID_NDIS_ENUMERATE_ADAPTERS_EX</a>
 
 
@@ -156,10 +144,7 @@ WMI GUID set requests that are specific to NDIS 6.0 and later versions include a
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
  
 
  

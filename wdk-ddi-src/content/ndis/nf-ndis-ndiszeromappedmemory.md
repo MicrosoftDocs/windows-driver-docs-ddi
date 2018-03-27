@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: ndis.h
+req.lib: 
 req.dll: 
 req.irql: Any level
 topic_type:
@@ -53,17 +53,6 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
   <b>NdisMMapIoSpace</b> with zeros.
 
 
-## -syntax
-
-
-````
-VOID NdisZeroMappedMemory(
-  _In_ PVOID Destination,
-  _In_ ULONG Length
-);
-````
-
-
 ## -parameters
 
 
@@ -87,7 +76,7 @@ A miniport driver can call
     <b>NdisZeroMappedMemory</b> to zero-initialize mapped device memory. The given 
     <i>Destination</i> and 
     <i>Length</i> must be a proper subrange of the range specified when the driver called 
-    <a href="..\ndis\nf-ndis-ndismmapiospace.md">NdisMMapIoSpace</a>.
+    <a href="https://msdn.microsoft.com/library/windows/hardware/hh975119">NdisMMapIoSpace</a>.
 
 <b>NdisZeroMappedMemory</b> is optimized, and a miniport driver can call this function any time that it
     needs to clear a mapped memory range.
@@ -97,18 +86,18 @@ A miniport driver can call
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndiszeromemory.md">NdisZeroMemory</a>
+<a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndismmapiospace.md">NdisMMapIoSpace</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh975119">NdisMMapIoSpace</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564698">NdisZeroMemory</a>
  
 
  

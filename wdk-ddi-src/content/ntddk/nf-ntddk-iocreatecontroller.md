@@ -7,7 +7,7 @@ old-location: kernel\iocreatecontroller.htm
 old-project: kernel
 ms.assetid: 7db268a4-d1ef-4d23-9b5d-cd24612d547e
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/1/2018
 ms.keywords: IoCreateController, IoCreateController routine [Kernel-Mode Driver Architecture], k104_a7ec4f8c-84d0-4fec-9f9e-40c5d57036f1.xml, kernel.iocreatecontroller, ntddk/IoCreateController
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ api_name:
 -	IoCreateController
 product: Windows
 targetos: Windows
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+req.typenames: SUBSYSTEM_INFORMATION_TYPE, *PSUBSYSTEM_INFORMATION_TYPE
 ---
 
 # IoCreateController function
@@ -50,16 +50,6 @@ req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 
 
 The <b>IoCreateController</b> routine allocates memory for and initializes a controller object with a controller extension of a driver-determined size.
-
-
-## -syntax
-
-
-````
-PCONTROLLER_OBJECT IoCreateController(
-  _In_ ULONG Size
-);
-````
 
 
 ## -parameters
@@ -96,25 +86,25 @@ If <b>IoCreateController</b> returns <b>NULL</b>, the driver should fail device 
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-iodeletecontroller.md">IoDeleteController</a>
 
 
 
-<a href="..\ntddk\ns-ntddk-_controller_object.md">CONTROLLER_OBJECT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542058">CONTROLLER_OBJECT</a>
 
 
 
-<a href="..\ntddk\nf-ntddk-ioallocatecontroller.md">IoAllocateController</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548224">IoAllocateController</a>
 
 
 
-<a href="..\ntddk\nf-ntddk-iofreecontroller.md">IoFreeController</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549078">IoDeleteController</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549104">IoFreeController</a>
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IoCreateController routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IoCreateController routine%20 RELEASE:%20(3/1/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

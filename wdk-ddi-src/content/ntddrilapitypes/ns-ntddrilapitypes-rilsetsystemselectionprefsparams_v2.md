@@ -52,17 +52,6 @@ req.typenames: RILSETSYSTEMSELECTIONPREFSPARAMS_V2, *LPRILSETSYSTEMSELECTIONPREF
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef struct _RILSETSYSTEMSELECTIONPREFSPARAMS_V2 {
-  DWORD                    dwFlags;
-  RILSYSTEMSELECTIONPREFS  rilSystemSelectionPrefs;
-} RILSETSYSTEMSELECTIONPREFSPARAMS_V2, RILSETSYSTEMSELECTIONPREFSPARAMS_V2;
-````
-
-
 ## -struct-fields
 
 

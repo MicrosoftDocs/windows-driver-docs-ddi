@@ -52,18 +52,6 @@ req.typenames: D3DDDI_OPENALLOCATIONINFO
 The D3DDDI_OPENALLOCATIONINFO structure describes an allocation to be opened.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DDDI_OPENALLOCATIONINFO {
-  D3DKMT_HANDLE hAllocation;
-  const VOID    *pPrivateDriverData;
-  UINT          PrivateDriverDataSize;
-} D3DDDI_OPENALLOCATIONINFO;
-````
-
-
 ## -struct-fields
 
 

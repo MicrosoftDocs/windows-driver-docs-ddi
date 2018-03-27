@@ -55,19 +55,6 @@ req.typenames: IDE_POWER_STATE
 The <b>AtaPortCompleteAllActiveRequests</b> routine completes all active IRBs for the indicated device.
 <div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
-## -syntax
-
-
-````
-VOID AtaPortCompleteAllActiveRequests(
-  _In_ PVOID ChannelExtension,
-  _In_ UCHAR Target,
-  _In_ UCHAR Lun,
-  _In_ UCHAR IrbStatus
-);
-````
-
-
 ## -parameters
 
 
@@ -115,10 +102,10 @@ The miniport driver must not call this routine from the <a href="https://msdn.mi
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558992">IdeHwInterrupt</a>
-
-
-
  
 
  

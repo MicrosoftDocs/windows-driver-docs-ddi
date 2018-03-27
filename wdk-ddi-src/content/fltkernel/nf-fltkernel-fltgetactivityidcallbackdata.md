@@ -52,17 +52,6 @@ req.typenames: EXpsFontRestriction
 The <b>FltGetActivityIdCallbackData</b> routine retrieves the current activity ID associated with a request in a minifilter's callback data.
 
 
-## -syntax
-
-
-````
-NTSTATUS FltGetActivityIdCallbackData(
-  _In_  PFLT_CALLBACK_DATA CallbackData,
-  _Out_ LPGUID             Guid
-);
-````
-
-
 ## -parameters
 
 
@@ -130,14 +119,14 @@ An activity ID was returned in the <b>GUID</b> value pointed to by <i>Guid</i>.
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltpropagateactivityidtothread.md">FltPropagateActivityIdToThread</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltsetactivityidcallbackdata.md">FltSetActivityIdCallbackData</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh967700">FltPropagateActivityIdToThread</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh967702">FltSetActivityIdCallbackData</a>
  
 
  

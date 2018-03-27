@@ -52,19 +52,6 @@ req.typenames: DXGI_DDI_MODE_SCANLINE_ORDER
 The DXGI_DDI_MODE_SCANLINE_ORDER enumeration type contains values that identify how scan lines are ordered in a display mode.
 
 
-## -syntax
-
-
-````
-typedef enum DXGI_DDI_MODE_SCANLINE_ORDER { 
-  DXGI_DDI_MODE_SCANLINE_ORDER_UNSPECIFIED        = 0,
-  DXGI_DDI_MODE_SCANLINE_ORDER_PROGRESSIVE        = 1,
-  DXGI_DDI_MODE_SCANLINE_ORDER_UPPER_FIELD_FIRST  = 2,
-  DXGI_DDI_MODE_SCANLINE_ORDER_LOWER_FIELD_FIRST  = 3
-} DXGI_DDI_MODE_SCANLINE_ORDER;
-````
-
-
 ## -enum-fields
 
 
@@ -101,10 +88,10 @@ The values of the DXGI_DDI_MODE_SCANLINE_ORDER enumeration type indicate whether
 
 ## -see-also
 
-<a href="..\dxgiddi\ns-dxgiddi-dxgi_ddi_mode_desc.md">DXGI_DDI_MODE_DESC</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557499">DXGI_DDI_MODE_DESC</a>
  
 
  

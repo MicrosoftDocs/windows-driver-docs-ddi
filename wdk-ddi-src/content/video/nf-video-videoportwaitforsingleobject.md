@@ -53,18 +53,6 @@ req.product: Windows 10 or later.
 The <b>VideoPortWaitForSingleObject</b> function puts the current thread into a wait state until the given dispatch object is set to the signaled state, or (optionally) until the wait times out.
 
 
-## -syntax
-
-
-````
-VP_STATUS VideoPortWaitForSingleObject(
-  _In_ PVOID          HwDeviceExtension,
-  _In_ PVOID          Object,
-  _In_ PLARGE_INTEGER Timeout
-);
-````
-
-
 ## -parameters
 
 

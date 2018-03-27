@@ -52,24 +52,6 @@ req.typenames: FEATURE_DATA_EMBEDDED_CHANGER, *PFEATURE_DATA_EMBEDDED_CHANGER
 The FEATURE_DATA_EMBEDDED_CHANGER structure holds data for the Embedded Changer feature. 
 
 
-## -syntax
-
-
-````
-typedef struct _FEATURE_DATA_EMBEDDED_CHANGER {
-  FEATURE_HEADER Header;
-  UCHAR          Reserved1  :2;
-  UCHAR          SupportsDiscPresent  :1;
-  UCHAR          Reserved2  :1;
-  UCHAR          SideChangeCapable  :1;
-  UCHAR          Reserved3  :3;
-  UCHAR          Reserved4[2];
-  UCHAR          HighestSlotNumber  :5;
-  UCHAR          Reserved  :3;
-} FEATURE_DATA_EMBEDDED_CHANGER, *PFEATURE_DATA_EMBEDDED_CHANGER;
-````
-
-
 ## -struct-fields
 
 
@@ -77,7 +59,7 @@ typedef struct _FEATURE_DATA_EMBEDDED_CHANGER {
 
 ### -field Header
 
-Contains a <a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a> structure with header information for this feature descriptor. 
+Contains a <a href="https://msdn.microsoft.com/library/windows/hardware/ff553848">FEATURE_HEADER</a> structure with header information for this feature descriptor. 
 
 
 ### -field Reserved1
@@ -131,14 +113,14 @@ This structure holds data for the feature named "Embedded Changer" by the <i>SCS
 
 ## -see-also
 
-<a href="..\ntddmmc\ne-ntddmmc-_feature_number.md">FEATURE_NUMBER</a>
 
 
 
-<a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553848">FEATURE_HEADER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553850">FEATURE_NUMBER</a>
  
 
  

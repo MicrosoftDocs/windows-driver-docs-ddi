@@ -50,20 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-Stores the transport characteristics at relevant points in time. This structure is used in the  <a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_transport_characteristics.md">IOCTL_USB_GET_TRANSPORT_CHARACTERISTICS</a> request.
-
-
-## -syntax
-
-
-````
-typedef struct _USB_TRANSPORT_CHARACTERISTICS {
-  ULONG                       Version;
-  ULONG                       TransportCharacteristicsFlags;
-  ULONG64                     CurrentRoundtripLatencyInMilliSeconds;
-  ULONG64                     MaxPotentialBandwidth;
-} USB_TRANSPORT_CHARACTERISTICS, *PUSB_TRANSPORT_CHARACTERISTICS;
-````
+Stores the transport characteristics at relevant points in time. This structure is used in the  <a href="https://msdn.microsoft.com/36CF2034-C816-421A-8B59-A4DC4EFFEB70">IOCTL_USB_GET_TRANSPORT_CHARACTERISTICS</a> request.
 
 
 ## -struct-fields
@@ -114,10 +101,10 @@ For MA-USB, the underlying network transport could be WiFi, WiGig, Ethernet etc.
 
 ## -see-also
 
-<a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_transport_characteristics.md">IOCTL_USB_GET_TRANSPORT_CHARACTERISTICS</a>
 
 
 
+<a href="https://msdn.microsoft.com/36CF2034-C816-421A-8B59-A4DC4EFFEB70">IOCTL_USB_GET_TRANSPORT_CHARACTERISTICS</a>
  
 
  

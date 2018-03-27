@@ -52,18 +52,6 @@ req.typenames:
 The DISPLAYID_DETAILED_TIMING_TYPE_I_SYNC_POLARITY enumeration indicates the display device's sync polarity (whether the sync signal is positive or negative).
 
 
-## -syntax
-
-
-````
-enum _DISPLAYID_DETAILED_TIMING_TYPE_I_SYNC_POLARITY {
-  DIDDT1_Sync_Positive  = 0, 
-  DIDDT1_Sync_Negative  = 1 
-
-};
-````
-
-
 ## -enum-fields
 
 

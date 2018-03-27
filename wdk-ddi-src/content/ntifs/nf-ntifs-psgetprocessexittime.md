@@ -52,16 +52,6 @@ req.typenames: TOKEN_TYPE
 The <b>PsGetProcessExitTime</b> routine returns the exit time for the current process.
 
 
-## -syntax
-
-
-````
-LARGE_INTEGER PsGetProcessExitTime(
-   VOID 
-);
-````
-
-
 ## -parameters
 
 
@@ -93,18 +83,18 @@ For more information about converting time values, see <a href="https://msdn.mic
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kequerysystemtime.md">KeQuerySystemTime</a>
 
 
 
-<a href="..\wdm\nf-wdm-exsystemtimetolocaltime.md">ExSystemTimeToLocalTime</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545622">ExSystemTimeToLocalTime</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-psisthreadterminating.md">PsIsThreadTerminating</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553068">KeQuerySystemTime</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551915">PsIsThreadTerminating</a>
  
 
  

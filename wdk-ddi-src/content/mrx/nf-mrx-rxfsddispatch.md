@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
@@ -50,17 +50,6 @@ req.typenames: SetDSMCounters_IN, *PSetDSMCounters_IN
 
 
 <b>RxFsdDispatch</b> implements the file system driver (FSD) dispatch for RDBSS to process an I/O request packet (IRP). A pointer to this routine is copied over the device driver dispatch table for the network mini-redirector driver by the <b>RxDriverEntry</b> routine when RDBSS is initialized. 
-
-
-## -syntax
-
-
-````
-NTSTATUS RxFsdDispatch(
-  _In_ PRDBSS_DEVICE_OBJECT RxDeviceObject,
-  _In_ PIRP                 Irp
-);
-````
 
 
 ## -parameters
@@ -170,10 +159,10 @@ A few IRPs are treated as special and handled internally by RDBSS. For example, 
 
 ## -see-also
 
-<a href="..\rxprocs\nf-rxprocs-rxdriverentry.md">RxDriverEntry</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554404">RxDriverEntry</a>
  
 
  

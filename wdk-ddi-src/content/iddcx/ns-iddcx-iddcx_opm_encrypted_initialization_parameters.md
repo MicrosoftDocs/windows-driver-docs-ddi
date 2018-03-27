@@ -53,17 +53,6 @@ Gives information about the OPM encrypted initialization parameters.
              
 
 
-## -syntax
-
-
-````
-typedef struct IDDCX_OPM_ENCRYPTED_INITIALIZATION_PARAMETERS {
-  UINT                                    Size;
-  OPM_ENCRYPTED_INITIALIZATION_PARAMETERS EncryptedParameters;
-} IDDCX_OPM_ENCRYPTED_INITIALIZATION_PARAMETERS, *IDDCX_OPM_ENCRYPTED_INITIALIZATION_PARAMETERS;
-````
-
-
 ## -struct-fields
 
 

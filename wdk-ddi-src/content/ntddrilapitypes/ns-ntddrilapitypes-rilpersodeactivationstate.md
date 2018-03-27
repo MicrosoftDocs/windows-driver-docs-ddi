@@ -52,20 +52,6 @@ req.typenames: RILPERSODEACTIVATIONSTATE, *LPRILPERSODEACTIVATIONSTATE
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef struct _RILPERSODEACTIVATIONSTATE {
-  DWORD                                  cbSize;
-  DWORD                                  dwParams;
-  RILPERSODEACTIVATIONSTATEDEPERSOSTATE  dwDePersoState;
-  DWORD                                  dwNumCKAttemptsLeft;
-  DWORD                                  dwNumPUKAttemptsLeft;
-} RILPERSODEACTIVATIONSTATE, RILPERSODEACTIVATIONSTATE;
-````
-
-
 ## -struct-fields
 
 

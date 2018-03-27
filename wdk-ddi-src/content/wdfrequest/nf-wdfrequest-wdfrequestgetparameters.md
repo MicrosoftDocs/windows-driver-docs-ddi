@@ -58,17 +58,6 @@ req.product: Windows 10 or later.
 The <b>WdfRequestGetParameters</b> method retrieves the parameters that are associated with a specified framework request object.
 
 
-## -syntax
-
-
-````
-VOID WdfRequestGetParameters(
-  _In_  WDFREQUEST              Request,
-  _Out_ PWDF_REQUEST_PARAMETERS Parameters
-);
-````
-
-
 ## -parameters
 
 
@@ -81,7 +70,7 @@ A handle to a framework request object.
 
 ### -param Parameters [out]
 
-A pointer to a caller-allocated <a href="..\wdfrequest\ns-wdfrequest-_wdf_request_parameters.md">WDF_REQUEST_PARAMETERS</a> structure that the <a href="..\wdfrequest\nf-wdfrequest-wdf_request_parameters_init.md">WDF_REQUEST_PARAMETERS_INIT</a> routine initialized and filled in.
+A pointer to a caller-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/ff552472">WDF_REQUEST_PARAMETERS</a> structure that the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552476">WDF_REQUEST_PARAMETERS_INIT</a> routine initialized and filled in.
 
 
 ## -returns
@@ -108,7 +97,7 @@ For more information about <b>WdfRequestGetParameters</b>, see <a href="https://
 
 #### Examples
 
-For a code example that uses <b>WdfRequestGetParameters</b>, see <a href="..\wdfrequest\nf-wdfrequest-wdfrequestcomplete.md">WdfRequestComplete</a>.
+For a code example that uses <b>WdfRequestGetParameters</b>, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff549945">WdfRequestComplete</a>.
 
 <div class="code"></div>
 
@@ -116,18 +105,18 @@ For a code example that uses <b>WdfRequestGetParameters</b>, see <a href="..\wdf
 
 ## -see-also
 
-<a href="..\wdfrequest\nf-wdfrequest-wdf_request_parameters_init.md">WDF_REQUEST_PARAMETERS_INIT</a>
 
 
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestwdmgetirp.md">WdfRequestWdmGetIrp</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552472">WDF_REQUEST_PARAMETERS</a>
 
 
 
-<a href="..\wdfrequest\ns-wdfrequest-_wdf_request_parameters.md">WDF_REQUEST_PARAMETERS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552476">WDF_REQUEST_PARAMETERS_INIT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550037">WdfRequestWdmGetIrp</a>
  
 
  

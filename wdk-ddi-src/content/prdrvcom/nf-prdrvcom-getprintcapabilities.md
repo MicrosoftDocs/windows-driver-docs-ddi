@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,17 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <code>IPrintTicketProvider::GetPrintCapabilities</code> method queries the provider for a complete print capabilities document that describes the printer's features and parameters.
-
-
-## -syntax
-
-
-````
-HRESULT GetPrintCapabilities(
-  [in]  IXMLDOMDocument2 *pPrintTicket,
-  [out] IXMLDOMDocument2 **ppCapabilities
-);
-````
 
 
 ## -parameters

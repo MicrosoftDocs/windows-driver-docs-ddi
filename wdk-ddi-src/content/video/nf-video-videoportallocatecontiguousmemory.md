@@ -50,21 +50,9 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The <b>VideoPortAllocateContiguousMemory</b> function is <b>obsolete</b> in Windows 2000 and later. Video miniport drivers should use <a href="..\video\nf-video-videoportallocatecommonbuffer.md">VideoPortAllocateCommonBuffer</a> in its place.
+The <b>VideoPortAllocateContiguousMemory</b> function is <b>obsolete</b> in Windows 2000 and later. Video miniport drivers should use <a href="https://msdn.microsoft.com/library/windows/hardware/ff570178">VideoPortAllocateCommonBuffer</a> in its place.
 
 <b>VideoPortAllocateContiguousMemory</b> allocates a range of physically contiguous, cache-aligned memory from the nonpaged pool.
-
-
-## -syntax
-
-
-````
-PVOID VideoPortAllocateContiguousMemory(
-  _In_ PVOID            HwDeviceExtension,
-  _In_ ULONG            NumberOfBytes,
-  _In_ PHYSICAL_ADDRESS HighestAcceptableAddress
-);
-````
 
 
 ## -parameters
@@ -109,10 +97,10 @@ A miniport driver that must use contiguous memory should allocate only what it n
 
 ## -see-also
 
-<a href="..\video\nf-video-videoportallocatebuffer.md">VideoPortAllocateBuffer</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570177">VideoPortAllocateBuffer</a>
  
 
  

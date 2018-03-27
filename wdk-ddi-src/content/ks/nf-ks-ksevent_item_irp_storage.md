@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: ks.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -49,17 +49,7 @@ req.typenames:
 ## -description
 
 
-This macro retrieves a pointer to the <a href="..\ks\ns-ks-ksevent_item.md">KSEVENT_ITEM</a> structure stored in <i>Irp</i>.
-
-
-## -syntax
-
-
-````
- KSEVENT_ITEM_IRP_STORAGE(
-    Irp
-);
-````
+This macro retrieves a pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff561862">KSEVENT_ITEM</a> structure stored in <i>Irp</i>.
 
 
 ## -parameters

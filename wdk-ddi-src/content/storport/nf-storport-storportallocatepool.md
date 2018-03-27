@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
@@ -51,19 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>StorPortAllocatePool</b> routine allocates a block of non-contiguous, non-paged pool memory.
-
-
-## -syntax
-
-
-````
-ULONG StorPortAllocatePool(
-  _In_  PVOID HwDeviceExtension,
-  _In_  ULONG NumberOfBytes,
-  _In_  ULONG Tag,
-  _Out_ PVOID *BufferPointer
-);
-````
 
 
 ## -parameters
@@ -167,7 +154,7 @@ Unable to allocate memory of the requested size.
 
 
 
-A miniport driver calls the <b>StorPortAllocatePool</b> routine to allocate a block of non-contiguous memory from the non-paged pool. To free the block of memory, the miniport driver calls the <a href="..\storport\nf-storport-storportfreepool.md">StorPortFreePool</a> routine. If the request fails, BufferPointer will be set to <b>NULL</b>.
+A miniport driver calls the <b>StorPortAllocatePool</b> routine to allocate a block of non-contiguous memory from the non-paged pool. To free the block of memory, the miniport driver calls the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567065">StorPortFreePool</a> routine. If the request fails, BufferPointer will be set to <b>NULL</b>.
 
 
 

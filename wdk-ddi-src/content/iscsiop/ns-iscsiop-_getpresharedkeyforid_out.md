@@ -52,17 +52,6 @@ req.typenames: GetPresharedKeyForId_OUT, *PGetPresharedKeyForId_OUT
 The GetPresharedKeyForId_OUT structure holds the output data for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554970">GetPresharedKeyForId</a> method.
 
 
-## -syntax
-
-
-````
-typedef struct _GetPresharedKeyForId_OUT {
-  ULONG     Status;
-  ULONGLONG SecurityFlags;
-} GetPresharedKeyForId_OUT, *PGetPresharedKeyForId_OUT;
-````
-
-
 ## -struct-fields
 
 
@@ -89,11 +78,6 @@ You must initiate this method if the initiator supports IKE.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565399">SECURITY_FLAG_QUALIFIERS</a>
-
-
-
-<a href="..\iscsiop\ns-iscsiop-_getpresharedkeyforid_in.md">GetPresharedKeyForId_IN</a>
 
 
 
@@ -101,7 +85,7 @@ You must initiate this method if the initiator supports IKE.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563135">MSiSCSI_SecurityConfigOperations WMI Class</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554973">GetPresharedKeyForId_IN</a>
 
 
 
@@ -109,6 +93,11 @@ You must initiate this method if the initiator supports IKE.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563135">MSiSCSI_SecurityConfigOperations WMI Class</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565399">SECURITY_FLAG_QUALIFIERS</a>
  
 
  

@@ -52,22 +52,6 @@ req.typenames: NDK_MR_DISPATCH
 The <b>NDK_MR_DISPATCH</b> structure specifies dispatch function entry points for the NDK memory region (MR) object.
 
 
-## -syntax
-
-
-````
-typedef struct _NDK_MR_DISPATCH {
-  NDK_FN_CLOSE_OBJECT                NdkCloseMr;
-  NDK_FN_QUERY_EXTENSION_INTERFACE   NdkQueryExtension;
-  NDK_FN_REGISTER_MR                 NdkRegisterMr;
-  NDK_FN_DEREGISTER_MR               NdkDeregisterMr;
-  NDK_FN_INITIALIZE_FAST_REGISTER_MR NdkInitializeFastRegisterMr;
-  NDK_FN_GET_REMOTE_TOKEN_FROM_MR    NdkGetRemoteTokenFromMr;
-  NDK_FN_GET_LOCAL_TOKEN_FROM_MR     NdkGetLocalTokenFromMr;
-} NDK_MR_DISPATCH, *PNDK_MR_DISPATCH;
-````
-
-
 ## -struct-fields
 
 
@@ -75,82 +59,82 @@ typedef struct _NDK_MR_DISPATCH {
 
 ### -field NdkCloseMr
 
-The entry point for the object's <a href="..\ndkpi\nc-ndkpi-ndk_fn_close_object.md">NDK_FN_CLOSE_OBJECT</a> dispatch function.
+The entry point for the object's <a href="https://msdn.microsoft.com/library/windows/hardware/hh439863">NDK_FN_CLOSE_OBJECT</a> dispatch function.
 
 
 ### -field NdkQueryExtension
 
-The entry point for the object's <a href="..\ndkpi\nc-ndkpi-ndk_fn_query_extension_interface.md">NDK_FN_QUERY_EXTENSION_INTERFACE</a> dispatch function.
+The entry point for the object's <a href="https://msdn.microsoft.com/library/windows/hardware/hh439905">NDK_FN_QUERY_EXTENSION_INTERFACE</a> dispatch function.
 
 
 ### -field NdkRegisterMr
 
-The entry point for the object's <a href="..\ndkpi\nc-ndkpi-ndk_fn_register_mr.md">NDK_FN_REGISTER_MR</a> dispatch function.
+The entry point for the object's <a href="https://msdn.microsoft.com/library/windows/hardware/hh439908">NDK_FN_REGISTER_MR</a> dispatch function.
 
 
 ### -field NdkDeregisterMr
 
-The entry point for the object's <a href="..\ndkpi\nc-ndkpi-ndk_fn_deregister_mr.md">NDK_FN_DEREGISTER_MR</a> dispatch function.
+The entry point for the object's <a href="https://msdn.microsoft.com/library/windows/hardware/hh439884">NDK_FN_DEREGISTER_MR</a> dispatch function.
 
 
 ### -field NdkInitializeFastRegisterMr
 
-The entry point for the object's <a href="..\ndkpi\nc-ndkpi-ndk_fn_initialize_fast_register_mr.md">NDK_FN_INITIALIZE_FAST_REGISTER_MR</a> dispatch function.
+The entry point for the object's <a href="https://msdn.microsoft.com/library/windows/hardware/hh439900">NDK_FN_INITIALIZE_FAST_REGISTER_MR</a> dispatch function.
 
 
 ### -field NdkGetRemoteTokenFromMr
 
-The entry point for the object's <a href="..\ndkpi\nc-ndkpi-ndk_fn_get_remote_token_from_mr.md">NDK_FN_GET_REMOTE_TOKEN_FROM_MR</a> dispatch function.
+The entry point for the object's <a href="https://msdn.microsoft.com/library/windows/hardware/hh439897">NDK_FN_GET_REMOTE_TOKEN_FROM_MR</a> dispatch function.
 
 
 ### -field NdkGetLocalTokenFromMr
 
-The entry point for the object's <a href="..\ndkpi\nc-ndkpi-ndk_fn_get_local_token_from_mr.md">NDK_FN_GET_LOCAL_TOKEN_FROM_MR</a> dispatch function.
+The entry point for the object's <a href="https://msdn.microsoft.com/library/windows/hardware/hh439894">NDK_FN_GET_LOCAL_TOKEN_FROM_MR</a> dispatch function.
 
 
 ## -remarks
 
 
 
-The <b>NDK_MR_DISPATCH</b> structure is used in the <a href="..\ndkpi\ns-ndkpi-_ndk_mr.md">NDK_MR</a> structure.
+The <b>NDK_MR_DISPATCH</b> structure is used in the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439922">NDK_MR</a> structure.
 
 
 
 
 ## -see-also
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_get_remote_token_from_mr.md">NDK_FN_GET_REMOTE_TOKEN_FROM_MR</a>
 
 
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_mr.md">NDK_MR</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439863">NDK_FN_CLOSE_OBJECT</a>
 
 
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_get_local_token_from_mr.md">NDK_FN_GET_LOCAL_TOKEN_FROM_MR</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439884">NDK_FN_DEREGISTER_MR</a>
 
 
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_initialize_fast_register_mr.md">NDK_FN_INITIALIZE_FAST_REGISTER_MR</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439894">NDK_FN_GET_LOCAL_TOKEN_FROM_MR</a>
 
 
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_deregister_mr.md">NDK_FN_DEREGISTER_MR</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439897">NDK_FN_GET_REMOTE_TOKEN_FROM_MR</a>
 
 
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_close_object.md">NDK_FN_CLOSE_OBJECT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439900">NDK_FN_INITIALIZE_FAST_REGISTER_MR</a>
 
 
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_query_extension_interface.md">NDK_FN_QUERY_EXTENSION_INTERFACE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439905">NDK_FN_QUERY_EXTENSION_INTERFACE</a>
 
 
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_register_mr.md">NDK_FN_REGISTER_MR</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439908">NDK_FN_REGISTER_MR</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439922">NDK_MR</a>
  
 
  

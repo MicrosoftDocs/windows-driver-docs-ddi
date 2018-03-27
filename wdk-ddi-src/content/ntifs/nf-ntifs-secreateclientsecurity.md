@@ -52,19 +52,6 @@ req.typenames: TOKEN_TYPE
 The <b>SeCreateClientSecurity</b> routine initializes a security client context structure with the information needed to call <b>SeImpersonateClientEx</b>.
 
 
-## -syntax
-
-
-````
-NTSTATUS SeCreateClientSecurity(
-  _In_  PETHREAD                     ClientThread,
-  _In_  PSECURITY_QUALITY_OF_SERVICE ClientSecurityQos,
-  _In_  BOOLEAN                      ServerIsRemote,
-  _Out_ PSECURITY_CLIENT_CONTEXT     ClientContext
-);
-````
-
-
 ## -parameters
 
 
@@ -159,14 +146,14 @@ For more information about security and access control, see the documentation on
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-seimpersonateclientex.md">SeImpersonateClientEx</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-sedeleteclientsecurity.md">SeDeleteClientSecurity</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556648">SeDeleteClientSecurity</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556659">SeImpersonateClientEx</a>
  
 
  

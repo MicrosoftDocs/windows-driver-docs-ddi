@@ -52,16 +52,6 @@ req.typenames: PREFETCH_OPEN_ECP_CONTEXT, *PPREFETCH_OPEN_ECP_CONTEXT
 The PREFETCH_OPEN_ECP_CONTEXT structure communicates whether the prefetcher performs a given open request on a file. 
 
 
-## -syntax
-
-
-````
-typedef struct _PREFETCH_OPEN_ECP_CONTEXT {
-  PVOID Context;
-} PREFETCH_OPEN_ECP_CONTEXT, *PPREFETCH_OPEN_ECP_CONTEXT;
-````
-
-
 ## -struct-fields
 
 
@@ -76,7 +66,7 @@ A pointer to an opaque context that is associated with the open request.
 
 
 
-The prefetcher is a component of the operating system that is tightly integrated with the cache manager and the memory manager to make disk accesses more efficient and therefore improve performance. If other components interfere with the prefetcher, system performance decreases and might deadlock. Therefore, the prefetcher attaches the PREFETCH_OPEN_ECP_CONTEXT structure to a file to communicate that the prefetcher has performed an open request on the file. The prefetcher uses the GUID_ECP_PREFETCH_OPEN GUID in a call to the <a href="..\fltkernel\nf-fltkernel-fltcreatefileex2.md">FltCreateFileEx2</a> or <a href="..\ntddk\nf-ntddk-iocreatefileex.md">IoCreateFileEx</a> routine to attach the PREFETCH_OPEN_ECP_CONTEXT structure. A file system filter driver can call the <a href="..\fltkernel\nf-fltkernel-fltfindextracreateparameter.md">FltFindExtraCreateParameter</a> routine to determine whether PREFETCH_OPEN_ECP_CONTEXT is attached to the file and then take appropriate action. The file system filter driver should call the <a href="..\fltkernel\nf-fltkernel-fltisecpfromusermode.md">FltIsEcpFromUserMode</a> routine to determine whether the PREFETCH_OPEN_ECP_CONTEXT context structure originated from kernel mode. To prevent malicious applications from spoofing the prefetcher, the file system filter driver should not accept PREFETCH_OPEN_ECP_CONTEXT if it originated from user mode.
+The prefetcher is a component of the operating system that is tightly integrated with the cache manager and the memory manager to make disk accesses more efficient and therefore improve performance. If other components interfere with the prefetcher, system performance decreases and might deadlock. Therefore, the prefetcher attaches the PREFETCH_OPEN_ECP_CONTEXT structure to a file to communicate that the prefetcher has performed an open request on the file. The prefetcher uses the GUID_ECP_PREFETCH_OPEN GUID in a call to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff541939">FltCreateFileEx2</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff548283">IoCreateFileEx</a> routine to attach the PREFETCH_OPEN_ECP_CONTEXT structure. A file system filter driver can call the <a href="https://msdn.microsoft.com/library/windows/hardware/ff542094">FltFindExtraCreateParameter</a> routine to determine whether PREFETCH_OPEN_ECP_CONTEXT is attached to the file and then take appropriate action. The file system filter driver should call the <a href="https://msdn.microsoft.com/library/windows/hardware/ff543325">FltIsEcpFromUserMode</a> routine to determine whether the PREFETCH_OPEN_ECP_CONTEXT context structure originated from kernel mode. To prevent malicious applications from spoofing the prefetcher, the file system filter driver should not accept PREFETCH_OPEN_ECP_CONTEXT if it originated from user mode.
 
 After the prefetcher attaches the PREFETCH_OPEN_ECP_CONTEXT structure to a file, all additional prefetcher activity for the file involves the file object that has PREFETCH_OPEN_ECP_CONTEXT attached. If a file system filter driver must identify prefetcher file system requests other than create requests, the file system filter driver should maintain its own state (for example, filter manager handle contexts). The file system filter driver maintains its own state in order to determine whether a particular file object is a prefetcher file object.
 

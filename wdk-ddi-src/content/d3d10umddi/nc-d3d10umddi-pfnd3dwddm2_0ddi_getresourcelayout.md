@@ -52,34 +52,15 @@ req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 The <i>pfnGetResourceLayout</i> callback function supports getting resource layout information. 
 
 
-## -prototype
-
-
-````
-PFND3DWDDM2_0DDI_GETRESOURCELAYOUT pfnGetResourceLayout;
-
-VOID APIENTRY* pfnGetResourceLayout(
-            D3D10DDI_HDEVICE                                            hDevice,
-            D3D10DDI_HRESOURCE                                          hResource,
-            UINT                                                        SubresourceCount,
-  _Out_     D3DKMT_HANDLE                                               *Handle,
-  _Out_     D3DWDDM2_0DDI_TEXTURE_LAYOUT                                *TextureLayout,
-  _Out_     UINT                                                        *pMipLevelSwizzleTransition,
-  _Out_opt_ _writes_(SubresourceCount) D3DWDDM2_0DDI_SUBRESOURCE_LAYOUT *SubresourceLayout
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
 
 
-### -param D3D10DDI_HDEVICE
+### -param Arg1
 
 
-### -param D3D10DDI_HRESOURCE
+### -param Arg2
 
 
 ### -param SubresourceCount

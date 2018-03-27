@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
@@ -51,16 +51,6 @@ req.product: Windows 10 or later.
 
 
 <b>RxCeTearDownAddress</b> deregisters a transport address from a transport binding.
-
-
-## -syntax
-
-
-````
-NTSTATUS RxCeTearDownAddress(
-  _In_ PRXCE_ADDRESS pAddress
-);
-````
 
 
 ## -parameters
@@ -112,10 +102,10 @@ When <b>RxCeTearDownAddress</b> is successful, the data members in the RXCE_ADDR
 
 ## -see-also
 
-<a href="..\rxce\nf-rxce-rxcebuildaddress.md">RxCeBuildAddress</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553414">RxCeBuildAddress</a>
  
 
  

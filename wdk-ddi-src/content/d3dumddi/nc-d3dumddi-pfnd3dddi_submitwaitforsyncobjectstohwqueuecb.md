@@ -52,17 +52,6 @@ req.typenames: DXGK_PTE
 A callback to submit a wait command to the hardware queue.
 
 
-## -prototype
-
-
-````
-_Check_return_ HRESULT APIENTRY CALLBACK PFND3DDDI_SUBMITWAITFORSYNCOBJECTSTOHWQUEUECB(
-  _In_ HANDLE                                            hDevice,
-  _In_ D3DDDICB_SUBMITWAITFORSYNCOBJECTSTOHWQUEUE *const submitWaitForSyncObjectsToHwQueue
-);
-````
-
-
 ## -parameters
 
 

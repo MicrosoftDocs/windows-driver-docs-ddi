@@ -52,23 +52,6 @@ req.typenames: DXGKARG_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY3
 Contains arguments for the DxgkDdiSetVidPnSourceAddressWithMultiPlaneOverlay3 function.
 
 
-## -syntax
-
-
-````
-typedef struct _DXGKARG_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY3 {
-  D3DDDI_VIDEO_PRESENT_SOURCE_ID           VidPnSourceId;
-  DXGK_SETVIDPNSOURCEADDRESS_INPUT_FLAGS   InputFlags;
-  DXGK_SETVIDPNSOURCEADDRESS_OUTPUT_FLAGS  OutputFlags;
-  UINT                                     PlaneCount;
-  DXGK_MULTIPLANE_OVERLAY_PLANE3           **ppPlanes;
-  DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION *pPostComposition;
-  UINT                                     Duration;
-  DXGK_HDR_METADATA                        *pHDRMetaData;
-} DXGKARG_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY3;
-````
-
-
 ## -struct-fields
 
 

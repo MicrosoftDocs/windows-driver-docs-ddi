@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -52,18 +52,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>GetNumberEventFilters</b> method returns the number of <a href="https://msdn.microsoft.com/library/windows/hardware/ff543071">event filters</a> currently used by the engine.
-
-
-## -syntax
-
-
-````
-HRESULT GetNumberEventFilters(
-  [out] PULONG SpecificEvents,
-  [out] PULONG SpecificExceptions,
-  [out] PULONG ArbitraryExceptions
-);
-````
 
 
 ## -parameters

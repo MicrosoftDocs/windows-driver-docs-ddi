@@ -50,17 +50,7 @@ req.typenames: EXpsFontRestriction
 ## -description
 
 
-The <b>FltFreeDeferredIoWorkItem</b> routine frees a work item allocated by the <a href="..\fltkernel\nf-fltkernel-fltallocatedeferredioworkitem.md">FltAllocateDeferredIoWorkItem</a> routine. 
-
-
-## -syntax
-
-
-````
-VOID FltFreeDeferredIoWorkItem(
-  _In_ PFLT_DEFERRED_IO_WORKITEM FltWorkItem
-);
-````
+The <b>FltFreeDeferredIoWorkItem</b> routine frees a work item allocated by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff541720">FltAllocateDeferredIoWorkItem</a> routine. 
 
 
 ## -parameters
@@ -86,7 +76,7 @@ None
 
 
 
-<b>FltFreeDeferredIoWorkItem</b> frees an opaque FLT_DEFERRED_IO_WORKITEM structure that was allocated by a previous call to <a href="..\fltkernel\nf-fltkernel-fltallocatedeferredioworkitem.md">FltAllocateDeferredIoWorkItem</a>. The freed memory is returned to nonpaged pool. 
+<b>FltFreeDeferredIoWorkItem</b> frees an opaque FLT_DEFERRED_IO_WORKITEM structure that was allocated by a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff541720">FltAllocateDeferredIoWorkItem</a>. The freed memory is returned to nonpaged pool. 
 
 The FLT_DEFERRED_IO_WORKITEM structure is opaque: that is, its members are reserved for system use. 
 
@@ -95,14 +85,14 @@ The FLT_DEFERRED_IO_WORKITEM structure is opaque: that is, its members are reser
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltqueuedeferredioworkitem.md">FltQueueDeferredIoWorkItem</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltallocatedeferredioworkitem.md">FltAllocateDeferredIoWorkItem</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541720">FltAllocateDeferredIoWorkItem</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543449">FltQueueDeferredIoWorkItem</a>
  
 
  

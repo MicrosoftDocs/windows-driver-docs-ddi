@@ -52,16 +52,6 @@ req.typenames: TOKEN_TYPE
 The <b>KeRundownQueue</b> routine cleans up a queue object, flushing any queued entries. 
 
 
-## -syntax
-
-
-````
-PLIST_ENTRY KeRundownQueue(
-  _Inout_ PRKQUEUE Queue
-);
-````
-
-
 ## -parameters
 
 
@@ -87,7 +77,7 @@ If the queue is empty, <b>KeRundownQueue</b> returns <b>NULL</b>; otherwise, it 
 
 File systems call <b>KeRundownQueue</b> to discard all entries from a queue before freeing or reusing the queue object.
 
-If the queue object is to be reused, the caller must call <a href="..\ntifs\nf-ntifs-keinitializequeue.md">KeInitializeQueue</a> after calling <b>KeRundownQueue</b>, in order to reinitialize the queue object before reusing it. 
+If the queue object is to be reused, the caller must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff549547">KeInitializeQueue</a> after calling <b>KeRundownQueue</b>, in order to reinitialize the queue object before reusing it. 
 
 <b>KeRundownQueue</b> returns no information about how many queued entries are discarded. 
 
@@ -100,10 +90,10 @@ For more information about using driver-managed internal queues, see <a href="ht
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-keinitializequeue.md">KeInitializeQueue</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549547">KeInitializeQueue</a>
  
 
  

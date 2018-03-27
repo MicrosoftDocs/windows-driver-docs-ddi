@@ -53,19 +53,6 @@ req.product: Windows 10 or later.
 The <b>VideoPortLogError</b> function logs errors to the system event log when a miniport driver detects a hardware error condition during I/O operations.
 
 
-## -syntax
-
-
-````
-VOID VideoPortLogError(
-   PVOID                 HwDeviceExtension,
-   PVIDEO_REQUEST_PACKET Vrp,
-   VP_STATUS             ErrorCode,
-   ULONG                 UniqueId
-);
-````
-
-
 ## -parameters
 
 
@@ -113,17 +100,17 @@ Miniport drivers should call <b>VideoPortLogError</b> to notify the user if the 
 
 However, miniport drivers should <i>not</i> log errors, such as "failed to detect hardware," that occur frequently during normal operation.
 
-<b>VideoPortLogError</b> can be called from a miniport driver's <a href="..\video\nc-video-pvideo_hw_interrupt.md">HwVidInterrupt</a> or <a href="..\video\nc-video-pminiport_synchronize_routine.md">HwVidSynchronizeExecutionCallback</a> function. 
+<b>VideoPortLogError</b> can be called from a miniport driver's <a href="https://msdn.microsoft.com/523471e3-cf1e-48d2-b5f0-2f8d19ad71e0">HwVidInterrupt</a> or <a href="https://msdn.microsoft.com/04e3bac6-c905-4c95-bd1b-e85b46c4296d">HwVidSynchronizeExecutionCallback</a> function. 
 
 
 
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff570170">VideoDebugPrint</a>
-
-
-
  
 
  

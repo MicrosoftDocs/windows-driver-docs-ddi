@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -50,17 +50,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>GetBreakpointByIndex2</b>  method returns the breakpoint located at the specified index.
-
-
-## -syntax
-
-
-````
-HRESULT GetBreakpointByIndex2(
-  [in]  ULONG              Index,
-  [out] PDEBUG_BREAKPOINT2 *Bp
-);
-````
 
 
 ## -parameters
@@ -128,7 +117,6 @@ The index and returned breakpoint are specific to the current process.  The same
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
 
 
 
@@ -136,6 +124,7 @@ The index and returned breakpoint are specific to the current process.  The same
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550526">IDebugControl4</a>
  
 
  

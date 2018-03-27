@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,18 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>GetExpressionEx</b> function evaluates an expression. The expression is evaluated using the MASM evaluator, and can contain aliases.
-
-
-## -syntax
-
-
-````
-__inline BOOL GetExpressionEx(
-   PCSTR   Expression,
-   ULONG64 *Value,
-   PCSTR   *Remainder
-);
-````
 
 
 ## -parameters
@@ -126,10 +114,10 @@ An error occurred while attempting to evaluate the expression.
 
 ## -see-also
 
-<a href="..\wdbgexts\nc-wdbgexts-pwindbg_get_expression.md">GetExpression</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546683">GetExpression</a>
  
 
  

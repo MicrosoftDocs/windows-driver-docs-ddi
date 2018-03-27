@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
@@ -51,16 +51,6 @@ req.product: Windows 10 or later.
 
 
 <b>RxCeFreeIrp</b> frees an IRP.
-
-
-## -syntax
-
-
-````
-VOID RxCeFreeIrp(
-   PIRP pIrp
-);
-````
 
 
 ## -parameters
@@ -93,14 +83,14 @@ An IRP allocated with an associated memory descriptor list allocated with <b>RxC
 
 ## -see-also
 
-<a href="..\rxce\nf-rxce-rxceallocateirpwithmdl.md">RxCeAllocateIrpWithMDL</a>
 
 
 
-<a href="..\wdm\ns-wdm-_mdl.md">MDL</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554414">MDL</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553405">RxCeAllocateIrpWithMDL</a>
  
 
  

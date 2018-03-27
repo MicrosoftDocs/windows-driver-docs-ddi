@@ -55,14 +55,6 @@ The
   local computer system.
 
 
-## -syntax
-
-
-````
-USHORT NdisActiveGroupCount(void);
-````
-
-
 ## -parameters
 
 
@@ -89,17 +81,17 @@ NDIS drivers call the
     and are included in the local computer system.
 
 To obtain the maximum number of groups, call the 
-    <a href="..\ndis\nf-ndis-ndismaxgroupcount.md">NdisMaxGroupCount</a> function.
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff562786">NdisMaxGroupCount</a> function.
 
 
 
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndismaxgroupcount.md">NdisMaxGroupCount</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562786">NdisMaxGroupCount</a>
  
 
  

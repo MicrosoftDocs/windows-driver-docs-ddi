@@ -54,25 +54,11 @@ The
   multipoint connections. Such clients must have 
   <i>ProtocolClDropPartyComplete</i> functions to complete the asynchronous operations that they initiate with
   
-  <a href="..\ndis\nf-ndis-ndiscldropparty.md">NdisClDropParty</a>. Otherwise, such a protocol
+  <a href="https://msdn.microsoft.com/library/windows/hardware/ff561629">NdisClDropParty</a>. Otherwise, such a protocol
   driver's registered 
   <i>ProtocolClDropPartyComplete</i> function can simply return control.
 <div class="alert"><b>Note</b>  You must declare the function by using the <b>PROTOCOL_CL_DROP_PARTY_COMPLETE</b> type.
    For more information, see the following Examples section.</div><div> </div>
-
-## -prototype
-
-
-````
-PROTOCOL_CL_DROP_PARTY_COMPLETE ProtocolClDropPartyComplete;
-
-VOID ProtocolClDropPartyComplete(
-  _In_ NDIS_STATUS Status,
-  _In_ NDIS_HANDLE ProtocolPartyContext
-)
-{ ... }
-````
-
 
 ## -parameters
 
@@ -101,7 +87,7 @@ The party has been dropped. The
 
 The given party was the last remaining on the client's multipoint VC. Therefore, the client
        should call 
-       <a href="..\ndis\nf-ndis-ndisclclosecall.md">NdisClCloseCall</a> to drop this
+       <a href="https://msdn.microsoft.com/library/windows/hardware/ff561627">NdisClCloseCall</a> to drop this
        party.
 
 
@@ -109,8 +95,8 @@ The given party was the last remaining on the client's multipoint VC. Therefore,
 
 Specifies the handle to the client's per-party context area, which the client originally supplied
      to NDIS either when it called 
-     <a href="..\ndis\nf-ndis-ndiscladdparty.md">NdisClAddParty</a> or 
-     <a href="..\ndis\nf-ndis-ndisclmakecall.md">NdisClMakeCall</a>.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff561625">NdisClAddParty</a> or 
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff561635">NdisClMakeCall</a>.
 
 
 ## -returns
@@ -129,7 +115,7 @@ None
 A call to 
     <i>ProtocolClDropPartyComplete</i> indicates that the call manager has completed processing of the request
     initiated by the client's previous call to 
-    <a href="..\ndis\nf-ndis-ndiscldropparty.md">NdisClDropParty</a>. 
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561629">NdisClDropParty</a>. 
     <i>ProtocolClDropPartyComplete</i> can either release the client-allocated per-party context area or
     prepare it for reuse in a subsequent call to 
     <b>NdisClAddParty</b>.
@@ -140,7 +126,7 @@ If the client is in the process of tearing down a multipoint VC that it created,
     <i>NdisPartyHandle</i> to one of the remaining parties on the client's active multipoint VC. If only one
     more party remains on its multipoint VC, the client should drop that party by passing its 
     <i>NdisPartyHandle</i> to 
-    <a href="..\ndis\nf-ndis-ndisclclosecall.md">NdisClCloseCall</a>.
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561627">NdisClCloseCall</a>.
 
 <h3><a id="Examples"></a><a id="examples"></a><a id="EXAMPLES"></a>Examples</h3>
 To define a <i>ProtocolClDropPartyComplete</i> function, you must first provide a function declaration that identifies the type of function you're defining. Windows provides a set of function types for drivers. Declaring a function using the function types helps <a href="https://msdn.microsoft.com/2F3549EF-B50F-455A-BDC7-1F67782B8DCA">Code Analysis for Drivers</a>, <a href="https://msdn.microsoft.com/74feeb16-387c-4796-987a-aff3fb79b556">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
@@ -184,43 +170,43 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisclmakecall.md">NdisClMakeCall</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndiscladdparty.md">NdisClAddParty</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561625">NdisClAddParty</a>
 
 
 
-<a href="..\ndis\nc-ndis-protocol_cm_drop_party.md">ProtocolCmDropParty</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561627">NdisClCloseCall</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisfreememory.md">NdisFreeMemory</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561629">NdisClDropParty</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisfreetonpagedlookasidelist.md">
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561635">NdisClMakeCall</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561674">NdisCmDropPartyComplete</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562577">NdisFreeMemory</a>
+
+
+
+<a href="https://msdn.microsoft.com/2405a405-177a-420a-9628-a340e0d0acb3">
    NdisFreeToNPagedLookasideList</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndismcmdroppartycomplete.md">NdisMCmDropPartyComplete</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563543">NdisMCmDropPartyComplete</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndiscmdroppartycomplete.md">NdisCmDropPartyComplete</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndiscldropparty.md">NdisClDropParty</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisclclosecall.md">NdisClCloseCall</a>
-
-
-
+<a href="https://msdn.microsoft.com/be0fce3e-7308-42fa-b63a-4d5cfec7ea6c">ProtocolCmDropParty</a>
  
 
  

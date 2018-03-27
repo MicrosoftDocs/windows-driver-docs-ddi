@@ -52,19 +52,6 @@ req.typenames: D3DKMT_QUERYADAPTERINFO
 The D3DKMT_QUERYADAPTERINFO structure contains information that describes the graphics adapter.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DKMT_QUERYADAPTERINFO {
-  D3DKMT_HANDLE           hAdapter;
-  KMTQUERYADAPTERINFOTYPE Type;
-  VOID                    *pPrivateDriverData;
-  UINT                    PrivateDriverDataSize;
-} D3DKMT_QUERYADAPTERINFO;
-````
-
-
 ## -struct-fields
 
 
@@ -100,7 +87,7 @@ KMTQAITYPE_UMDRIVERNAME
 
 </td>
 <td>
-The <b>pPrivateDriverData</b> member points to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_umdfilenameinfo.md">D3DKMT_UMDFILENAMEINFO</a> structure that is filled with the name of the OpenGL ICD that depends on the particular version of DirectX. Non-DirectX applications can use this name to call the OpenGL ICD directly, although such usage is not recommended.
+The <b>pPrivateDriverData</b> member points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff548384">D3DKMT_UMDFILENAMEINFO</a> structure that is filled with the name of the OpenGL ICD that depends on the particular version of DirectX. Non-DirectX applications can use this name to call the OpenGL ICD directly, although such usage is not recommended.
 
 </td>
 </tr>
@@ -110,7 +97,7 @@ KMTQAITYPE_UMOPENGLINFO
 
 </td>
 <td>
-<b>pPrivateDriverData</b> points to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_openglinfo.md">D3DKMT_OPENGLINFO</a> structure that contains information about the OpenGL ICD.
+<b>pPrivateDriverData</b> points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff548123">D3DKMT_OPENGLINFO</a> structure that contains information about the OpenGL ICD.
 
 </td>
 </tr>
@@ -120,7 +107,7 @@ KMTQAITYPE_GETSEGMENTSIZE
 
 </td>
 <td>
-<b>pPrivateDriverData</b> points to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_segmentsizeinfo.md">D3DKMT_SEGMENTSIZEINFO</a> structure that contains information about the size of memory and aperture segments.
+<b>pPrivateDriverData</b> points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff548256">D3DKMT_SEGMENTSIZEINFO</a> structure that contains information about the size of memory and aperture segments.
 
 </td>
 </tr>
@@ -140,7 +127,7 @@ KMTQAITYPE_FLIPQUEUEINFO
 
 </td>
 <td>
-<b>pPrivateDriverData</b> points to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_flipqueueinfo.md">D3DKMT_FLIPQUEUEINFO</a> structure that contains information about the queue of flip operations.
+<b>pPrivateDriverData</b> points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff548010">D3DKMT_FLIPQUEUEINFO</a> structure that contains information about the queue of flip operations.
 
 </td>
 </tr>
@@ -150,7 +137,7 @@ KMTQAITYPE_ADAPTERADDRESS
 
 </td>
 <td>
-<b>pPrivateDriverData</b> points to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_adapteraddress.md">D3DKMT_ADAPTERADDRESS</a> structure that contains information about the physical location of the graphics adapter.
+<b>pPrivateDriverData</b> points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff547280">D3DKMT_ADAPTERADDRESS</a> structure that contains information about the physical location of the graphics adapter.
 
 </td>
 </tr>
@@ -160,7 +147,7 @@ KMTQAITYPE_SETWORKINGSETINFO
 
 </td>
 <td>
-<b>pPrivateDriverData</b> points to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_workingsetinfo.md">D3DKMT_WORKINGSETINFO</a> structure that contains information about the working set.
+<b>pPrivateDriverData</b> points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff548457">D3DKMT_WORKINGSETINFO</a> structure that contains information about the working set.
 
 </td>
 </tr>
@@ -170,7 +157,7 @@ KMTQAITYPE_ADAPTERREGISTRYINFO
 
 </td>
 <td>
-<b>pPrivateDriverData</b> points to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_adapterregistryinfo.md">D3DKMT_ADAPTERREGISTRYINFO</a> structure that contains registry information about the graphics adapter.
+<b>pPrivateDriverData</b> points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff547286">D3DKMT_ADAPTERREGISTRYINFO</a> structure that contains registry information about the graphics adapter.
 
 </td>
 </tr>
@@ -180,7 +167,7 @@ KMTQAITYPE_CURRENTDISPLAYMODE
 
 </td>
 <td>
-<b>pPrivateDriverData</b> points to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_currentdisplaymode.md">D3DKMT_CURRENTDISPLAYMODE</a> structure that contains the current display mode.
+<b>pPrivateDriverData</b> points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff547860">D3DKMT_CURRENTDISPLAYMODE</a> structure that contains the current display mode.
 
 </td>
 </tr>
@@ -190,7 +177,7 @@ KMTQAITYPE_MODELIST
 
 </td>
 <td>
-<b>pPrivateDriverData</b> points to an array of <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_displaymode.md">D3DKMT_DISPLAYMODE</a> structures for the list of display modes.
+<b>pPrivateDriverData</b> points to an array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff547942">D3DKMT_DISPLAYMODE</a> structures for the list of display modes.
 
 </td>
 </tr>
@@ -222,7 +209,7 @@ KMTQAITYPE_DRIVERVERSION
 
 </td>
 <td>
-<b>pPrivateDriverData</b> points to a variable that contains a <a href="..\d3dkmthk\ne-d3dkmthk-_qai_driverversion.md">D3DKMT_DRIVERVERSION</a>-typed value that indicates the version of the display driver model that the display miniport driver supports.
+<b>pPrivateDriverData</b> points to a variable that contains a <a href="https://msdn.microsoft.com/library/windows/hardware/ff547964">D3DKMT_DRIVERVERSION</a>-typed value that indicates the version of the display driver model that the display miniport driver supports.
 
 Supported starting with  Windows 7.
 
@@ -234,7 +221,7 @@ KMTQAITYPE_ADAPTERTYPE
 
 </td>
 <td>
-<b>pPrivateDriverData</b> points to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_adaptertype.md">D3DKMT_ADAPTERTYPE</a> structure that specifies the  graphics adapter type.
+<b>pPrivateDriverData</b> points to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh439472">D3DKMT_ADAPTERTYPE</a> structure that specifies the  graphics adapter type.
 
 Supported starting with  Windows 8.
 
@@ -246,7 +233,7 @@ KMTQAITYPE_OUTPUTDUPLCONTEXTSCOUNT
 
 </td>
 <td>
-<b>pPrivateDriverData</b> points to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_outputduplcontextscount.md">D3DKMT_OUTPUTDUPLCONTEXTSCOUNT</a> structure that specifies the  number of current <a href="https://msdn.microsoft.com/523FBFAD-5D78-4EE3-A3B7-8FD5BA39DC46">Desktop Duplication API</a> (DDA) clients that are attached to a given video present network (VidPN).
+<b>pPrivateDriverData</b> points to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh406505">D3DKMT_OUTPUTDUPLCONTEXTSCOUNT</a> structure that specifies the  number of current <a href="https://msdn.microsoft.com/523FBFAD-5D78-4EE3-A3B7-8FD5BA39DC46">Desktop Duplication API</a> (DDA) clients that are attached to a given video present network (VidPN).
 
 Supported starting with  Windows 8.
 
@@ -270,7 +257,7 @@ KMTQAITYPE_UMD_DRIVER_VERSION
 
 </td>
 <td>
-<b>pPrivateDriverData</b> points to a  <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_umd_driver_version.md">D3DKMT_UMD_DRIVER_VERSION</a> structure that specifies the  user-mode driver version.
+<b>pPrivateDriverData</b> points to a  <a href="https://msdn.microsoft.com/library/windows/hardware/hh406598">D3DKMT_UMD_DRIVER_VERSION</a> structure that specifies the  user-mode driver version.
 
 Supported starting with  Windows 8.
 
@@ -282,7 +269,7 @@ KMTQAITYPE_DIRECTFLIP_SUPPORT
 
 </td>
 <td>
-<b>pPrivateDriverData</b> points to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_directflip_support.md">D3DKMT_DIRECTFLIP_SUPPORT</a> structure that specifies whether the user-mode driver supports Direct Flip operations.
+<b>pPrivateDriverData</b> points to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh406459">D3DKMT_DIRECTFLIP_SUPPORT</a> structure that specifies whether the user-mode driver supports Direct Flip operations.
 
 Supported starting with  Windows 8.
 
@@ -340,23 +327,62 @@ Supported starting with  Windows 8.1.
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_directflip_support.md">D3DKMT_DIRECTFLIP_SUPPORT</a>
 
 
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_flipqueueinfo.md">D3DKMT_FLIPQUEUEINFO</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547100">D3DKMTQueryAdapterInfo</a>
 
 
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_displaymode.md">D3DKMT_DISPLAYMODE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547280">D3DKMT_ADAPTERADDRESS</a>
 
 
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_outputduplcontextscount.md">D3DKMT_OUTPUTDUPLCONTEXTSCOUNT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547286">D3DKMT_ADAPTERREGISTRYINFO</a>
 
 
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_umd_driver_version.md">D3DKMT_UMD_DRIVER_VERSION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439472">D3DKMT_ADAPTERTYPE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547860">D3DKMT_CURRENTDISPLAYMODE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406459">D3DKMT_DIRECTFLIP_SUPPORT</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547942">D3DKMT_DISPLAYMODE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547964">D3DKMT_DRIVERVERSION</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548010">D3DKMT_FLIPQUEUEINFO</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548123">D3DKMT_OPENGLINFO</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406505">D3DKMT_OUTPUTDUPLCONTEXTSCOUNT</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548256">D3DKMT_SEGMENTSIZEINFO</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548384">D3DKMT_UMDFILENAMEINFO</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406598">D3DKMT_UMD_DRIVER_VERSION</a>
 
 
 
@@ -364,46 +390,7 @@ Supported starting with  Windows 8.1.
 
 
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_workingsetinfo.md">D3DKMT_WORKINGSETINFO</a>
-
-
-
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_adaptertype.md">D3DKMT_ADAPTERTYPE</a>
-
-
-
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_segmentsizeinfo.md">D3DKMT_SEGMENTSIZEINFO</a>
-
-
-
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_adapteraddress.md">D3DKMT_ADAPTERADDRESS</a>
-
-
-
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_openglinfo.md">D3DKMT_OPENGLINFO</a>
-
-
-
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_adapterregistryinfo.md">D3DKMT_ADAPTERREGISTRYINFO</a>
-
-
-
-<a href="..\d3dkmthk\ne-d3dkmthk-_qai_driverversion.md">D3DKMT_DRIVERVERSION</a>
-
-
-
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_umdfilenameinfo.md">D3DKMT_UMDFILENAMEINFO</a>
-
-
-
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtqueryadapterinfo.md">D3DKMTQueryAdapterInfo</a>
-
-
-
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_currentdisplaymode.md">D3DKMT_CURRENTDISPLAYMODE</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548457">D3DKMT_WORKINGSETINFO</a>
  
 
  

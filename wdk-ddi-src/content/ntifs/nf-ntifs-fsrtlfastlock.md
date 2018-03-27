@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: ntifs.h
+req.lib: 
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
@@ -50,26 +50,6 @@ req.typenames: TOKEN_TYPE
 
 
 The <b>FsRtlFastLock</b> macro is used by file systems and filter drivers to request a byte-range lock for a file stream. 
-
-
-## -syntax
-
-
-````
-BOOLEAN FsRtlFastLock(
-  _In_  PFILE_LOCK       FileLock,
-  _In_  PFILE_OBJECT     FileObject,
-  _In_  PLARGE_INTEGER   FileOffset,
-  _In_  PLARGE_INTEGER   Length,
-  _In_  PEPROCESS        ProcessId,
-  _In_  ULONG            Key,
-  _In_  BOOLEAN          FailImmediately,
-  _In_  BOOLEAN          ExclusiveLock,
-  _Out_ PIO_STATUS_BLOCK Iosb,
-  _In_  PVOID            Context,
-  _In_  BOOLEAN          AlreadySynchronized
-);
-````
 
 
 ## -parameters
@@ -158,7 +138,7 @@ Boolean value specifying whether the lock request should fail if the lock cannot
 
 #### - FileLock [in]
 
-Pointer to the FILE_LOCK structure for the file. This structure must have been initialized by a previous call to <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlallocatefilelock~r1.md">FsRtlAllocateFileLock</a> or <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializefilelock~r2.md">FsRtlInitializeFileLock</a>.
+Pointer to the FILE_LOCK structure for the file. This structure must have been initialized by a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff545640">FsRtlAllocateFileLock</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff546122">FsRtlInitializeFileLock</a>.
 
 
 #### - FileObject [in]
@@ -204,14 +184,14 @@ A return value of <b>TRUE</b> indicates that the IO_STATUS_BLOCK structure point
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializefilelock~r2.md">FsRtlInitializeFileLock</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlallocatefilelock~r1.md">FsRtlAllocateFileLock</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545640">FsRtlAllocateFileLock</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546122">FsRtlInitializeFileLock</a>
  
 
  

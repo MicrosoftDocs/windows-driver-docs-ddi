@@ -53,19 +53,6 @@ req.product: Windows 10 or later.
 The WWAN_PROVIDER structure represents details about a network provider.
 
 
-## -syntax
-
-
-````
-typedef struct _WWAN_PROVIDER {
-  WCHAR ProviderId[WWAN_PROVIDERID_LEN];
-  ULONG ProviderState;
-  WCHAR ProviderName[WWAN_PROVIDERNAME_LEN];
-  ULONG WwanDataClass;
-} WWAN_PROVIDER, *PWWAN_PROVIDER;
-````
-
-
 ## -struct-fields
 
 
@@ -242,7 +229,7 @@ Miniport drivers should specify a <b>NULL</b> string for devices that do not hav
 A bitmap that represents the data-class(es) that the device supports. For a detailed list of
      values, see the 
      <b>WwanDataClass</b> member of 
-     <a href="..\wwan\ns-wwan-_wwan_device_caps.md">WWAN_DEVICE_CAPS</a>.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571204">WWAN_DEVICE_CAPS</a>.
      
 
 This member can be ignored when queried for OID_WWAN_HOME_PROVIDER.
@@ -250,22 +237,22 @@ This member can be ignored when queried for OID_WWAN_HOME_PROVIDER.
 
 ## -see-also
 
-<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_visible_providers.md">NDIS_WWAN_VISIBLE_PROVIDERS</a>
 
 
 
-<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_preferred_providers.md">NDIS_WWAN_PREFERRED_PROVIDERS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567909">NDIS_WWAN_HOME_PROVIDER</a>
 
 
 
-<a href="..\wwan\ns-wwan-_wwan_device_caps.md">WWAN_DEVICE_CAPS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567913">NDIS_WWAN_PREFERRED_PROVIDERS</a>
 
 
 
-<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_home_provider.md">NDIS_WWAN_HOME_PROVIDER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567948">NDIS_WWAN_VISIBLE_PROVIDERS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571204">WWAN_DEVICE_CAPS</a>
  
 
  

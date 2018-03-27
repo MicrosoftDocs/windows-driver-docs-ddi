@@ -52,19 +52,6 @@ req.typenames:
 Gives information about the current monitor description.
 
 
-## -syntax
-
-
-````
-typedef struct IDDCX_MONITOR_DESCRIPTION {
-  UINT                              Size;
-  IDDCX_MONITOR_DESCRIPTION_TYPE    Type;
-  UINT                              DataSize;
-  _Field_size_full_(DataSize) PVOID pData;
-} IDDCX_MONITOR_DESCRIPTION, *IDDCX_MONITOR_DESCRIPTION;
-````
-
-
 ## -struct-fields
 
 

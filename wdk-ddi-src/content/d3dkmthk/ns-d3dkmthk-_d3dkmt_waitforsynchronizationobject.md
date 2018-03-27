@@ -49,19 +49,7 @@ req.typenames: D3DKMT_WAITFORSYNCHRONIZATIONOBJECT
 ## -description
 
 
-The D3DKMT_WAITFORSYNCHRONIZATIONOBJECT structure contains information about the synchronization events that the <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtwaitforsynchronizationobject.md">D3DKMTWaitForSynchronizationObject</a> function waits for to occur. 
-
-
-## -syntax
-
-
-````
-typedef struct _D3DKMT_WAITFORSYNCHRONIZATIONOBJECT {
-  D3DKMT_HANDLE hContext;
-  UINT          ObjectCount;
-  D3DKMT_HANDLE ObjectHandleArray[D3DDDI_MAX_OBJECT_WAITED_ON];
-} D3DKMT_WAITFORSYNCHRONIZATIONOBJECT;
-````
+The D3DKMT_WAITFORSYNCHRONIZATIONOBJECT structure contains information about the synchronization events that the <a href="https://msdn.microsoft.com/library/windows/hardware/ff547255">D3DKMTWaitForSynchronizationObject</a> function waits for to occur. 
 
 
 ## -struct-fields
@@ -86,10 +74,10 @@ typedef struct _D3DKMT_WAITFORSYNCHRONIZATIONOBJECT {
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtwaitforsynchronizationobject.md">D3DKMTWaitForSynchronizationObject</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547255">D3DKMTWaitForSynchronizationObject</a>
  
 
  

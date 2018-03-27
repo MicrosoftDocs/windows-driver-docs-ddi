@@ -49,21 +49,7 @@ req.typenames: D3D10_DDI_BLEND_OP
 ## -description
 
 
-The D3D10_DDI_BLEND_OP enumeration type contains values that identify blending operations in a call to the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createblendstate.md">CreateBlendState</a> function.
-
-
-## -syntax
-
-
-````
-typedef enum D3D10_DDI_BLEND_OP { 
-  D3D10_DDI_BLEND_OP_ADD           = 1,
-  D3D10_DDI_BLEND_OP_SUBTRACT      = 2,
-  D3D10_DDI_BLEND_OP_REV_SUBTRACT  = 3,
-  D3D10_DDI_BLEND_OP_MIN           = 4,
-  D3D10_DDI_BLEND_OP_MAX           = 5
-} D3D10_DDI_BLEND_OP;
-````
+The D3D10_DDI_BLEND_OP enumeration type contains values that identify blending operations in a call to the driver's <a href="https://msdn.microsoft.com/f203a83c-0108-4e20-9972-06857099378c">CreateBlendState</a> function.
 
 
 ## -enum-fields
@@ -98,10 +84,10 @@ The result is the maximum of the source and destination (Result = MAX(Source, De
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createblendstate.md">CreateBlendState</a>
 
 
 
+<a href="https://msdn.microsoft.com/f203a83c-0108-4e20-9972-06857099378c">CreateBlendState</a>
  
 
  

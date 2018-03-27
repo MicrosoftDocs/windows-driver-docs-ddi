@@ -54,16 +54,6 @@ req.product: Windows 10 or later.
 The <b>StoriPortQuerySystemTime</b> routine obtains the current system time.
 
 
-## -syntax
-
-
-````
-STORPORT_API VOID StorPortQuerySystemTime(
-  _Out_ PLARGE_INTEGER CurrentTime
-);
-````
-
-
 ## -parameters
 
 
@@ -94,10 +84,10 @@ The system time returned in <i>CurrentTime</i> is the number of 100-nanosecond i
 
 ## -see-also
 
-<a href="..\srb\nf-srb-scsiportquerysystemtime.md">ScsiPortQuerySystemTime</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564708">ScsiPortQuerySystemTime</a>
  
 
  

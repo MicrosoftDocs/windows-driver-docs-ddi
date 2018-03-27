@@ -52,20 +52,6 @@ req.typenames: DXGK_PTE
 The <i>SetTextureStageState</i> function updates the state of a texture at a particular stage in a multiple-texture group.
 
 
-## -prototype
-
-
-````
-PFND3DDDI_SETTEXTURESTAGESTATE SetTextureStageState;
-
-__checkReturn HRESULT APIENTRY SetTextureStageState(
-  _In_       HANDLE                      hDevice,
-  _In_ const D3DDDIARG_TEXTURESTAGESTATE *pData
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -87,7 +73,7 @@ __checkReturn HRESULT APIENTRY SetTextureStageState(
 
 #### - pData [in]
 
- A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_texturestagestate.md">D3DDDIARG_TEXTURESTAGESTATE</a> structure that describes how to update the texture.
+ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543389">D3DDDIARG_TEXTURESTAGESTATE</a> structure that describes how to update the texture.
 
 
 ## -returns
@@ -103,7 +89,7 @@ __checkReturn HRESULT APIENTRY SetTextureStageState(
 
 
 
-The user-mode display driver is not required to store colorkey values in its private allocation structure because the Microsoft Direct3D runtime always passes the appropriate colorkeying information in calls to the driver's <i>SetTextureStageState</i> function. For example, the runtime passes the following colorkey information in the indicated members of the <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_texturestagestate.md">D3DDDIARG_TEXTURESTAGESTATE</a> structure that is pointed to by <i>pData</i> to perform the indicated colorkey operation: 
+The user-mode display driver is not required to store colorkey values in its private allocation structure because the Microsoft Direct3D runtime always passes the appropriate colorkeying information in calls to the driver's <i>SetTextureStageState</i> function. For example, the runtime passes the following colorkey information in the indicated members of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff543389">D3DDDIARG_TEXTURESTAGESTATE</a> structure that is pointed to by <i>pData</i> to perform the indicated colorkey operation: 
 
 <ul>
 <li>
@@ -120,14 +106,14 @@ D3DTSS_DISABLETEXTURECOLORKEY in the <b>State</b> member and <b>TRUE</b> in the 
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_texturestagestate.md">D3DDDIARG_TEXTURESTAGESTATE</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543389">D3DDDIARG_TEXTURESTAGESTATE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544519">D3DDDI_DEVICEFUNCS</a>
  
 
  

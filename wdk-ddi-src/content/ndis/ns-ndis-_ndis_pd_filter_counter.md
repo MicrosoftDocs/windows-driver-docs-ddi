@@ -52,17 +52,6 @@ req.typenames: NDIS_PD_FILTER_COUNTER
 This structure is used to hold counter information for a filter.
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_PD_FILTER_COUNTER {
-  ULONG64 PacketsMatched;
-  ULONG64 BytesMatched;
-} NDIS_PD_FILTER_COUNTER, *PNDIS_PD_FILTER_COUNTER;
-````
-
-
 ## -struct-fields
 
 

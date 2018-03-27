@@ -52,19 +52,6 @@ req.typenames: FS_FILTER_SECTION_SYNC_OUTPUT, *PFS_FILTER_SECTION_SYNC_OUTPUT
 The  <b>FS_FILTER_SECTION_SYNC_OUTPUT</b> structure contains information describing the attributes of the section that is being created.
 
 
-## -syntax
-
-
-````
-typedef struct _FS_FILTER_SECTION_SYNC_OUTPUT  {
-  ULONG StructureSize;
-  ULONG SizeReturned;
-  ULONG Flags;
-  ULONG DesiredReadAlignment;
-} FS_FILTER_SECTION_SYNC_OUTPUT , *PFS_FILTER_SECTION_SYNC_OUTPUT ;
-````
-
-
 ## -struct-fields
 
 

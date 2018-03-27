@@ -55,20 +55,6 @@ The <i>DereferenceSwitchPort</i> function decrements the Hyper-V extensible swit
 
 
 
-## -prototype
-
-
-````
-NDIS_SWITCH_DEREFERENCE_SWITCH_PORT DereferenceSwitchPort;
-
-NDIS_STATUS DereferenceSwitchPort(
-  _In_ NDIS_SWITCH_CONTEXT NdisSwitchContext,
-  _In_ NDIS_SWITCH_PORT_ID SwitchPortId
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -76,7 +62,7 @@ NDIS_STATUS DereferenceSwitchPort(
 
 ### -param NdisSwitchContext [in]
 
-An NDIS_SWITCH_CONTEXT value that contains the handle of the extensible switch module to which the Hyper-V extensible switch extension is attached. When the extension calls <a href="..\ndis\nf-ndis-ndisfgetoptionalswitchhandlers.md">NdisFGetOptionalSwitchHandlers</a>,  this handle is returned through the <i>NdisSwitchContext</i> parameter.
+An NDIS_SWITCH_CONTEXT value that contains the handle of the extensible switch module to which the Hyper-V extensible switch extension is attached. When the extension calls <a href="https://msdn.microsoft.com/library/windows/hardware/hh598204">NdisFGetOptionalSwitchHandlers</a>,  this handle is returned through the <i>NdisSwitchContext</i> parameter.
 
 
 ### -param SwitchPortId [in]
@@ -108,7 +94,14 @@ The extension must call <i>DereferenceSwitchPort</i> if it had previously called
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisfgetoptionalswitchhandlers.md">NdisFGetOptionalSwitchHandlers</a>
+
+
+
+<b></b>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh598204">NdisFGetOptionalSwitchHandlers</a>
 
 
 
@@ -117,13 +110,6 @@ The extension must call <i>DereferenceSwitchPort</i> if it had previously called
 
 
 <a href="https://msdn.microsoft.com/5FD2E931-AC9F-4157-9C45-F93261FC834D">ReferenceSwitchPort</a>
-
-
-
-<b></b>
-
-
-
  
 
  

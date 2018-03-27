@@ -54,17 +54,6 @@ Protocol drivers call the
   <b>NdisCancelSendNetBufferLists</b> function to cancel the transmission of network data.
 
 
-## -syntax
-
-
-````
-VOID NdisCancelSendNetBufferLists(
-  _In_ NDIS_HANDLE NdisBindingHandle,
-  _In_ PVOID       CancelId
-);
-````
-
-
 ## -parameters
 
 
@@ -73,7 +62,7 @@ VOID NdisCancelSendNetBufferLists(
 ### -param NdisBindingHandle [in]
 
 The handle returned by the 
-     <a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a> function that
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff563715">NdisOpenAdapterEx</a> function that
      identifies the miniport driver or virtual miniport to which the cancellation applies.
 
 
@@ -98,7 +87,7 @@ None
 
 A protocol driver maps IRPs that it receives from higher-level software to NDIS network data. A list
     of 
-    <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structures describes the
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structures describes the
     network data that the protocol driver sends to lower-level drivers for transmission. If an IRP is
     canceled, a protocol driver can call the 
     <b>NdisCancelSendNetBufferLists</b> function to cancel the pending transmission of the corresponding NDIS
@@ -123,7 +112,7 @@ The
 The protocol driver must ensure that the handle that the 
     <i>NdisBindingHandle</i> parameter specifies remains valid for the duration of the call to 
     <b>NdisCancelSendNetBufferLists</b>. That is, the protocol driver must not call the 
-    <a href="..\ndis\nf-ndis-ndiscloseadapterex.md">NdisCloseAdapterEx</a> function to close
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561640">NdisCloseAdapterEx</a> function to close
     the binding before 
     <b>NdisCancelSendNetBufferLists</b> returns.
 
@@ -131,13 +120,13 @@ There is no guarantee that calling
     <b>NdisCancelSendNetBufferLists</b> will cancel the pending transmission of all network data with the
     specified cancellation identifier. For example, if the next-lower driver to which the protocol driver is
     bound does not provide a 
-    <a href="..\ndis\nc-ndis-miniport_cancel_send.md">MiniportCancelSend</a> function, a call
+    <a href="https://msdn.microsoft.com/17111aa3-c02f-494a-af97-5ab34c152451">MiniportCancelSend</a> function, a call
     to 
     <b>NdisCancelSendNetBufferLists</b> does nothing.
 
 In all cases, NDIS returns network data that was submitted for transmission to the originating
     protocol driver's 
-    <a href="..\ndis\nc-ndis-protocol_send_net_buffer_lists_complete.md">
+    <a href="https://msdn.microsoft.com/bc9197c5-ce0b-42b2-8225-fb9d83427ac8">
     ProtocolSendNetBufferListsComplete</a> function. NDIS returns canceled send data with a completion
     status of NDIS_STATUS_SEND_ABORTED. The delay between calling 
     <b>NdisCancelSendNetBufferLists</b> and the return of the canceled NET_BUFFER_LIST structures can vary and
@@ -148,16 +137,10 @@ In all cases, NDIS returns network data that was submitted for transmission to t
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-protocol_send_net_buffer_lists_complete.md">
-   ProtocolSendNetBufferListsComplete</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndiscloseadapterex.md">NdisCloseAdapterEx</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
+<a href="https://msdn.microsoft.com/17111aa3-c02f-494a-af97-5ab34c152451">MiniportCancelSend</a>
 
 
 
@@ -166,14 +149,20 @@ In all cases, NDIS returns network data that was submitted for transmission to t
 
 
 
-<a href="..\ndis\nc-ndis-miniport_cancel_send.md">MiniportCancelSend</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a>
 
 
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561640">NdisCloseAdapterEx</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563715">NdisOpenAdapterEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/bc9197c5-ce0b-42b2-8225-fb9d83427ac8">
+   ProtocolSendNetBufferListsComplete</a>
  
 
  

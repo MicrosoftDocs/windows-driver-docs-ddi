@@ -52,21 +52,6 @@ req.typenames: D3DKMDT_COMPUTE_PREEMPTION_GRANULARITY
 Specifies the capabilities for the preemption of graphic processing unit (GPU) compute shader operations that the display miniport driver supports.
 
 
-## -syntax
-
-
-````
-typedef enum _D3DKMDT_COMPUTE_PREEMPTION_GRANULARITY { 
-  D3DKMDT_COMPUTE_PREEMPTION_NONE                   = 0,
-  D3DKMDT_COMPUTE_PREEMPTION_DMA_BUFFER_BOUNDARY    = 100,
-  D3DKMDT_COMPUTE_PREEMPTION_DISPATCH_BOUNDARY      = 200,
-  D3DKMDT_COMPUTE_PREEMPTION_THREAD_GROUP_BOUNDARY  = 300,
-  D3DKMDT_COMPUTE_PREEMPTION_THREAD_BOUNDARY        = 400,
-  D3DKMDT_COMPUTE_PREEMPTION_SHADER_BOUNDARY        = 500
-} D3DKMDT_COMPUTE_PREEMPTION_GRANULARITY;
-````
-
-
 ## -enum-fields
 
 
@@ -117,14 +102,14 @@ For example, if one engine supports the preemption of primitive level graphics r
 
 ## -see-also
 
-<a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_preemption_caps.md">D3DKMDT_PREEMPTION_CAPS</a>
 
 
 
-<a href="..\d3dkmdt\ne-d3dkmdt-_d3dkmdt_graphics_preemption_granularity.md">D3DKMDT_GRAPHICS_PREEMPTION_GRANULARITY</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439329">D3DKMDT_GRAPHICS_PREEMPTION_GRANULARITY</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439334">D3DKMDT_PREEMPTION_CAPS</a>
  
 
  

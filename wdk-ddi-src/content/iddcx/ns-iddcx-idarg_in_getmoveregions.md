@@ -53,17 +53,6 @@ req.typenames:
                  Gives information to the OS about move regions.
 
 
-## -syntax
-
-
-````
-typedef struct IDARG_IN_GETMOVEREGIONS {
-  UINT                                                   MoveRegionInCount;
-  _Field_size_full_(MoveRegionInCount) IDDCX_MOVEREGION* pMoveRegions;
-} IDARG_IN_GETMOVEREGIONS, *IDARG_IN_GETMOVEREGIONS;
-````
-
-
 ## -struct-fields
 
 

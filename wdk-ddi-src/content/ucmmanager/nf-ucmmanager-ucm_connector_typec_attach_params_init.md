@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -50,18 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-Initializes a <a href="..\ucmmanager\ns-ucmmanager-_ucm_connector_typec_attach_params.md">UCM_CONNECTOR_TYPEC_ATTACH_PARAMS</a> structure.
-
-
-## -syntax
-
-
-````
-FORCEINLINE void UCM_CONNECTOR_TYPEC_ATTACH_PARAMS_INIT(
-  _Out_ PUCM_CONNECTOR_TYPEC_ATTACH_PARAMS Config,
-  _In_  UCM_TYPE_C_PORT_STATE              PortPartnerType
-);
-````
+Initializes a <a href="https://msdn.microsoft.com/library/windows/hardware/mt187928">UCM_CONNECTOR_TYPEC_ATTACH_PARAMS</a> structure.
 
 
 ## -parameters
@@ -83,12 +72,12 @@ TBD
 
 #### - Config [out]
 
-Pointer to a caller-allocated <a href="..\ucmmanager\ns-ucmmanager-_ucm_connector_typec_attach_params.md">UCM_CONNECTOR_TYPEC_ATTACH_PARAMS</a> structure to initialize.
+Pointer to a caller-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/mt187928">UCM_CONNECTOR_TYPEC_ATTACH_PARAMS</a> structure to initialize.
 
 
 #### - PortPartnerType [in]
 
-A <a href="..\ucmtypes\ne-ucmtypes-_ucm_typec_partner.md">UCM_TYPE_C_PORT_STATE</a>-typed flag that indicates the state of the partner port.
+A <a href="https://msdn.microsoft.com/4779E943-5C13-4DE2-AF8F-37657F0F99C0">UCM_TYPE_C_PORT_STATE</a>-typed flag that indicates the state of the partner port.
 
 
 ## -returns
@@ -102,10 +91,10 @@ This function does not return a value.
 
 ## -see-also
 
-<a href="..\ucmmanager\nf-ucmmanager-ucmconnectortypecattach.md">UcmConnectorTypeCAttach</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt187915">UcmConnectorTypeCAttach</a>
  
 
  

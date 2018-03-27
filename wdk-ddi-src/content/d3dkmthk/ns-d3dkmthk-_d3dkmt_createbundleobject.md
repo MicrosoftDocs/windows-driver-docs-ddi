@@ -52,21 +52,6 @@ req.typenames: D3DKMT_CREATEBUNDLEOBJECT
 Holds information to create a bundle object.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DKMT_CREATEBUNDLEOBJECT {
-  UINT                cObjects;
-  const D3DKMT_HANDLE *phObjects;
-  POBJECT_ATTRIBUTES  *ppObjectAttributes;
-  POBJECT_ATTRIBUTES  pBundleObjectAttributes;
-  DWORD                dwBundleDesiredAccess;
-  HANDLE              hNtBundleHandle;
-} D3DKMT_CREATEBUNDLEOBJECT, D3DKMT_CREATEBUNDLEOBJECT;
-````
-
-
 ## -struct-fields
 
 

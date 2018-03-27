@@ -49,17 +49,7 @@ req.typenames: D3DDDIARG_FINISHSESSIONKEYREFRESH
 ## -description
 
 
-The D3DDDIARG_FINISHSESSIONKEYREFRESH structure contains the handle to an encryption session to end in a call to the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_finishsessionkeyrefresh.md">FinishSessionKeyRefresh</a> function. 
-
-
-## -syntax
-
-
-````
-typedef struct _D3DDDIARG_FINISHSESSIONKEYREFRESH {
-  HANDLE hCryptoSession;
-} D3DDDIARG_FINISHSESSIONKEYREFRESH;
-````
+The D3DDDIARG_FINISHSESSIONKEYREFRESH structure contains the handle to an encryption session to end in a call to the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451648">FinishSessionKeyRefresh</a> function. 
 
 
 ## -struct-fields
@@ -74,10 +64,10 @@ typedef struct _D3DDDIARG_FINISHSESSIONKEYREFRESH {
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_finishsessionkeyrefresh.md">FinishSessionKeyRefresh</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451648">FinishSessionKeyRefresh</a>
  
 
  

@@ -52,16 +52,6 @@ req.typenames: RemovePort_OUT, *PRemovePort_OUT
 The RemovePort_OUT structure is used by an HBA miniport driver to the output parameter data of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff564011">RemovePort</a> WMI method to the WMI client.
 
 
-## -syntax
-
-
-````
-typedef struct _RemovePort_OUT {
-  ULONG HBAStatus;
-} RemovePort_OUT, *PRemovePort_OUT;
-````
-
-
 ## -struct-fields
 
 
@@ -83,10 +73,10 @@ The WMI tool suite generates a declaration of the RemovePort_OUT structure in <i
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564011">RemovePort</a>
-
-
-
  
 
  

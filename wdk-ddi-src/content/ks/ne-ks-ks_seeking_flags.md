@@ -49,23 +49,7 @@ req.typenames: KS_SEEKING_FLAGS
 ## -description
 
 
-The KS_SEEKING_FLAGS enumeration lists positioning options that can be used in conjunction with the <a href="..\ks\ns-ks-ksproperty_positions.md">KSPROPERTY_POSITIONS</a> structure.
-
-
-## -syntax
-
-
-````
-typedef enum  { 
-  KS_SEEKING_NoPositioning           = 0,
-  KS_SEEKING_AbsolutePositioning     = 1,
-  KS_SEEKING_RelativePositioning     = 2,
-  KS_SEEKING_IncrementalPositioning  = 3,
-  KS_SEEKING_PositioningBitsMask     = 0x3,
-  KS_SEEKING_SeekToKeyFrame          = 0x4,
-  KS_SEEKING_ReturnTime              = 0x8
-} KS_SEEKING_FLAGS;
-````
+The KS_SEEKING_FLAGS enumeration lists positioning options that can be used in conjunction with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565207">KSPROPERTY_POSITIONS</a> structure.
 
 
 ## -enum-fields
@@ -98,21 +82,21 @@ typedef enum  {
 
 
 
-The minidriver sets these flag values in a <a href="..\ks\ns-ks-ksproperty_positions.md">KSPROPERTY_POSITIONS</a> structure that it then submits in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff565185">KSPROPERTY_MEDIASEEKING_POSITIONS</a> property request.
+The minidriver sets these flag values in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff565207">KSPROPERTY_POSITIONS</a> structure that it then submits in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff565185">KSPROPERTY_MEDIASEEKING_POSITIONS</a> property request.
 
 
 
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565185">KSPROPERTY_MEDIASEEKING_POSITIONS</a>
 
 
 
-<a href="..\ks\ns-ks-ksproperty_positions.md">KSPROPERTY_POSITIONS</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565207">KSPROPERTY_POSITIONS</a>
  
 
  

@@ -49,17 +49,7 @@ req.typenames: D3DDDIARG_DESTROYAUTHENTICATEDCHANNEL
 ## -description
 
 
-The D3DDDIARG_DESTROYAUTHENTICATEDCHANNEL structure contains the handle to an authenticated channel that is destroyed in a call to the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_destroyauthenticatedchannel.md">DestroyAuthenticatedChannel</a> function. 
-
-
-## -syntax
-
-
-````
-typedef struct _D3DDDIARG_DESTROYAUTHENTICATEDCHANNEL {
-  HANDLE hChannel;
-} D3DDDIARG_DESTROYAUTHENTICATEDCHANNEL;
-````
+The D3DDDIARG_DESTROYAUTHENTICATEDCHANNEL structure contains the handle to an authenticated channel that is destroyed in a call to the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451630">DestroyAuthenticatedChannel</a> function. 
 
 
 ## -struct-fields
@@ -74,10 +64,10 @@ typedef struct _D3DDDIARG_DESTROYAUTHENTICATEDCHANNEL {
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_destroyauthenticatedchannel.md">DestroyAuthenticatedChannel</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451630">DestroyAuthenticatedChannel</a>
  
 
  

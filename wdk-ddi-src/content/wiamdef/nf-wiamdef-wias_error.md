@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: wiamdef.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,17 +51,6 @@ req.product: Windows 10 or later.
 
 
 The WIAS_ERROR macro writes a diagnostic message to the <i>Wiatrace.log</i> file.
-
-
-## -syntax
-
-
-````
-WIAS_ERROR( WIAS_ERROR(
-         HInst  HInst,
-   const CHAR   *format_string, ...
-);
-````
 
 
 ## -parameters
@@ -92,7 +81,7 @@ Specifies a variable argument list, which starts with an ANSI format string that
 
 
 
-This macro is the recommended way to implement error logging on Windows Vista, because unlike <a href="..\wiautil\nf-wiautil-wias_ltrace.md">WIAS_LERROR</a>, WIA_ERROR allows error messages to be written to the log file (<i>Wiatrace.log</i>). The <i>Wiatrace.log</i> file is only available in Windows Vista and later versions of the operating system. The utility used to view the contents of this log file is WiaTrcVw.exe.
+This macro is the recommended way to implement error logging on Windows Vista, because unlike <a href="https://msdn.microsoft.com/library/windows/hardware/ff549580">WIAS_LERROR</a>, WIA_ERROR allows error messages to be written to the log file (<i>Wiatrace.log</i>). The <i>Wiatrace.log</i> file is only available in Windows Vista and later versions of the operating system. The utility used to view the contents of this log file is WiaTrcVw.exe.
 
 To enable tracing in free builds, drivers must define the WIA_DEBUG macro by adding <code>#define WIA_DEBUG</code> before including any of the WIA headers. Tracing is enabled by default in checked and debug builds of the operating system.
 
@@ -115,18 +104,18 @@ This code snippet was taken from <i>Wiadriver.cpp</i>, which is included with th
 
 ## -see-also
 
-<a href="..\wiautil\nf-wiautil-wias_trace.md">WIAS_TRACE</a>
 
 
 
-<a href="..\wiautil\nf-wiautil-wias_assert.md">WIAS_ASSERT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549531">WIAS_ASSERT</a>
 
 
 
-<a href="..\wiautil\nf-wiautil-wias_hresult.md">WIAS_HRESULT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549572">WIAS_HRESULT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549619">WIAS_TRACE</a>
  
 
  

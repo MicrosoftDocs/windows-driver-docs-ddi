@@ -53,21 +53,6 @@ req.product: Windows 10 or later.
 The <b>USB_ENDPOINT_DESCRIPTOR</b> structure is used by USB client drivers to retrieve a USB-defined endpoint descriptor.
 
 
-## -syntax
-
-
-````
-typedef struct _USB_ENDPOINT_DESCRIPTOR {
-  UCHAR  bLength;
-  UCHAR  bDescriptorType;
-  UCHAR  bEndpointAddress;
-  UCHAR  bmAttributes;
-  USHORT wMaxPacketSize;
-  UCHAR  bInterval;
-} USB_ENDPOINT_DESCRIPTOR, *PUSB_ENDPOINT_DESCRIPTOR;
-````
-
-
 ## -struct-fields
 
 
@@ -254,11 +239,6 @@ The mappings in the preceding tables between periods and polling intervals are v
 
 ## -see-also
 
-<a href="..\usb\ns-usb-_urb_control_descriptor_request.md">_URB_CONTROL_DESCRIPTOR_REQUEST</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538943">UsbBuildGetDescriptorRequest</a>
 
 
 
@@ -266,6 +246,11 @@ The mappings in the preceding tables between periods and polling intervals are v
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538943">UsbBuildGetDescriptorRequest</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540357">_URB_CONTROL_DESCRIPTOR_REQUEST</a>
  
 
  

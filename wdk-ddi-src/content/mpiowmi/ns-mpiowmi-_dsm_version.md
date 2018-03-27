@@ -52,19 +52,6 @@ req.typenames: DSM_VERSION, *PDSM_VERSION
 The DSM_VERSION structure represents version information that is associated with a DSM binary or package. While this assumes that a DSM's version will be of the type MajorVersion.MinorVersion.ProductBuild.QfeNumber, it is not mandatory for the DSM to follow this convention. The DSM must, however, fill in zeros for the fields its does not support.
 
 
-## -syntax
-
-
-````
-typedef struct _DSM_VERSION {
-  ULONG MajorVersion;
-  ULONG MinorVersion;
-  ULONG ProductBuild;
-  ULONG QfeNumber;
-} DSM_VERSION, *PDSM_VERSION;
-````
-
-
 ## -struct-fields
 
 

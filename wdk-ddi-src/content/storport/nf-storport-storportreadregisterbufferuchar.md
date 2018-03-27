@@ -54,19 +54,6 @@ req.product: Windows 10 or later.
 The <b>StorPortReadRegisterBufferUchar</b> routine reads a value from a specified register address. 
 
 
-## -syntax
-
-
-````
-STORPORT_API VOID StorPortReadRegisterBufferUchar(
-  _In_ PVOID  HwDeviceExtension,
-  _In_ PUCHAR Register,
-  _In_ PUCHAR Buffer,
-  _In_ ULONG  Count
-);
-````
-
-
 ## -parameters
 
 
@@ -120,21 +107,21 @@ Pointer to the register where the data is to be read.
 
 
 
-For more information, see <a href="..\storport\nf-storport-scsiportreadregisterbufferuchar.md">ScsiPortReadRegisterBufferUchar</a>. For a nonbuffered version of this routine, see <a href="..\storport\nf-storport-storportreadregisteruchar.md">StorPortReadRegisterUchar</a>.
+For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff564734">ScsiPortReadRegisterBufferUchar</a>. For a nonbuffered version of this routine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff567483">StorPortReadRegisterUchar</a>.
 
 
 
 
 ## -see-also
 
-<a href="..\storport\nf-storport-scsiportreadregisterbufferuchar.md">ScsiPortReadRegisterBufferUchar</a>
 
 
 
-<a href="..\storport\nf-storport-storportreadregisteruchar.md">StorPortReadRegisterUchar</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564734">ScsiPortReadRegisterBufferUchar</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567483">StorPortReadRegisterUchar</a>
  
 
  

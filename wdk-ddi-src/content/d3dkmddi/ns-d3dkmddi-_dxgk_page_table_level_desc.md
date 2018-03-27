@@ -52,19 +52,6 @@ req.typenames: DXGK_PAGE_TABLE_LEVEL_DESC
 The <b>DXGK_PAGE_TABLE_LEVEL_DESC</b> structure describes capabilities that are applied at the page level.
 
 
-## -syntax
-
-
-````
-typedef struct _DXGK_PAGE_TABLE_LEVEL_DESC {
-  UINT PageTableIndexBitCount;
-  UINT PageTableSegmentId;
-  UINT PagingProcessPageTableSegmentId;
-  UINT PageTableSizeInBytes;
-} DXGK_PAGE_TABLE_LEVEL_DESC;
-````
-
-
 ## -struct-fields
 
 

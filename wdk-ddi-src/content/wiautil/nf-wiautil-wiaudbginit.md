@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: wiautil.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,16 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>wiauDbgInit</b> function initializes WIA debugging.
-
-
-## -syntax
-
-
-````
-void __stdcall wiauDbgInit(
-  _In_opt_ HINSTANCE hInstance
-);
-````
 
 
 ## -parameters

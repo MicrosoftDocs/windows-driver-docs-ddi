@@ -54,18 +54,6 @@ req.typenames:
              
 
 
-## -syntax
-
-
-````
-typedef struct IDARG_IN_I2C_TRANSMIT {
-  UINT                                     SevenBitI2CAddress;
-  UINT                                     DataSizeInBytes;
-  _Field_size_full_(DataSizeInBytes) PVOID pData;
-} IDARG_IN_I2C_TRANSMIT, *IDARG_IN_I2C_TRANSMIT;
-````
-
-
 ## -struct-fields
 
 

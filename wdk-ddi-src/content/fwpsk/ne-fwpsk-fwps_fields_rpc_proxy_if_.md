@@ -54,24 +54,6 @@ The FWPS_FIELDS_RPC_PROXY_IF_IF enumeration type specifies the data field identi
   <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa366492">run-time filtering layer</a>.
 
 
-## -syntax
-
-
-````
-typedef enum FWPS_FIELDS_RPC_PROXY_IF_ { 
-  FWPS_FIELD_RPC_PROXY_IF_CLIENT_TOKEN,
-  FWPS_FIELD_RPC_PROXY_IF_IF_UUID,
-  FWPS_FIELD_RPC_PROXY_IF_IF_VERSION,
-  FWPS_FIELD_RPC_PROXY_IF_SERVER_NAME,
-  FWPS_FIELD_RPC_PROXY_IF_SERVER_PORT,
-  FWPS_FIELD_RPC_PROXY_IF_PROXY_AUTH_TYPE,
-  FWPS_FIELD_RPC_PROXY_IF_CLIENT_CERT_KEY_LENGTH,
-  FWPS_FIELD_RPC_PROXY_IF_CLIENT_CERT_OID,
-  FWPS_FIELD_RPC_PROXY_IF_MAX
-} FWPS_FIELDS_RPC_PROXY_IF_IF;
-````
-
-
 ## -enum-fields
 
 

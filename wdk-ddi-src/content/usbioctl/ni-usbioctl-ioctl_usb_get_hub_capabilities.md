@@ -47,16 +47,11 @@ req.product: Windows 10 or later.
 # IOCTL_USB_GET_HUB_CAPABILITIES IOCTL
 
 
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
-
 ## -description
 
 
 
-The <b>IOCTL_USB_GET_HUB_CAPABILITIES</b> I/O control request retrieves the capabilities of a USB hub. <b>Note</b>  This request is replaced by <a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_hub_capabilities_ex.md">IOCTL_USB_GET_HUB_CAPABILITIES_EX</a> in Windows Vista.
+The <b>IOCTL_USB_GET_HUB_CAPABILITIES</b> I/O control request retrieves the capabilities of a USB hub. <b>Note</b>  This request is replaced by <a href="https://msdn.microsoft.com/library/windows/hardware/ff537314">IOCTL_USB_GET_HUB_CAPABILITIES_EX</a> in Windows Vista.
 
 
 
@@ -82,7 +77,7 @@ None.
 
 ### -output-buffer
 
-The <b>AssociatedIrp.SystemBuffer</b> member points to a user-allocated <a href="..\usbioctl\ns-usbioctl-_usb_hub_capabilities.md">USB_HUB_CAPABILITIES</a> structure that describes the hub capabilities. 
+The <b>AssociatedIrp.SystemBuffer</b> member points to a user-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/ff539326">USB_HUB_CAPABILITIES</a> structure that describes the hub capabilities. 
 
 
 ### -output-buffer-length
@@ -115,14 +110,14 @@ The USB stack sets <b>Irp-&gt;IoStatus.Status</b> to STATUS_SUCCESS if the reque
 
 ## -see-also
 
-<a href="..\usbioctl\ns-usbioctl-_usb_hub_capabilities.md">USB_HUB_CAPABILITIES</a>
 
 
 
-<a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_hub_capabilities_ex.md">IOCTL_USB_GET_HUB_CAPABILITIES_EX</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537314">IOCTL_USB_GET_HUB_CAPABILITIES_EX</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539326">USB_HUB_CAPABILITIES</a>
  
 
  

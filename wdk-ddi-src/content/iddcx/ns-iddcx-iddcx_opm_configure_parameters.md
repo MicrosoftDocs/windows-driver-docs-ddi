@@ -52,17 +52,6 @@ req.typenames:
 Gives information about the OPM configure parameters.
 
 
-## -syntax
-
-
-````
-typedef struct IDDCX_OPM_CONFIGURE_PARAMETERS {
-  UINT                     Size;
-  OPM_CONFIGURE_PARAMETERS ConfigParameters;
-} IDDCX_OPM_CONFIGURE_PARAMETERS, *IDDCX_OPM_CONFIGURE_PARAMETERS;
-````
-
-
 ## -struct-fields
 
 

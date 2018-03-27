@@ -53,20 +53,6 @@ The
   <i>BthReuseBrb</i> function reinitializes a Bluetooth request block (BRB) to be reused.
 
 
-## -prototype
-
-
-````
-PFNBTH_REUSE_BRB BthReuseBrb;
-
-VOID BthReuseBrb(
-  _Inout_ PBRB     pBrb,
-  _In_    BRB_TYPE brbType
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -80,7 +66,7 @@ Pointer to the BRB to reuse.
 ### -param brbType [in]
 
 Specifies a value from the 
-     <a href="..\bthddi\ne-bthddi-_brb_type.md">BRB_TYPE</a> enumeration to initialize the BRB
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff536631">BRB_TYPE</a> enumeration to initialize the BRB
      with.
 
 
@@ -108,10 +94,10 @@ Profile drivers obtain a pointer to the
 
 ## -see-also
 
-<a href="..\bthddi\ne-bthddi-_brb_type.md">BRB_TYPE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536631">BRB_TYPE</a>
  
 
  

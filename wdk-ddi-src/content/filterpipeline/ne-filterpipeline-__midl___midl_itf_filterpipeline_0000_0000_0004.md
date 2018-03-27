@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
@@ -50,19 +50,6 @@ req.typenames: EXpsFontRestriction
 
 
 
-
-
-## -syntax
-
-
-````
-typedef enum __MIDL___MIDL_itf_filterpipeline_0000_0000_0004 { 
-  Xps_Restricted_Font_Installable   = 0,
-  Xps_Restricted_Font_NoEmbedding   = 0x2,
-  Xps_Restricted_Font_PreviewPrint  = 0x4,
-  Xps_Restricted_Font_Editable      = 0x8
-} EXpsFontRestriction;
-````
 
 
 ## -enum-fields

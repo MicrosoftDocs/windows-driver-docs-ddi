@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: sti.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,16 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>IStiDevice::LockDevice </b>method locks a device for exclusive use by the caller.
-
-
-## -syntax
-
-
-````
-HRESULT LockDevice(
-  [in] DWORD dwTimeOut
-);
-````
 
 
 ## -parameters

@@ -52,17 +52,6 @@ req.typenames: D3DDDICB_QUERYADAPTERINFO
 The D3DDDICB_QUERYADAPTERINFO structure contains information that describes the graphics adapter.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DDDICB_QUERYADAPTERINFO {
-  VOID *pPrivateDriverData;
-  UINT PrivateDriverDataSize;
-} D3DDDICB_QUERYADAPTERINFO;
-````
-
-
 ## -struct-fields
 
 
@@ -80,10 +69,10 @@ typedef struct _D3DDDICB_QUERYADAPTERINFO {
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_queryadapterinfocb.md">pfnQueryAdapterInfoCb</a>
 
 
 
+<a href="https://msdn.microsoft.com/8008574f-a89e-4fed-b745-7cf5baa68e64">pfnQueryAdapterInfoCb</a>
  
 
  

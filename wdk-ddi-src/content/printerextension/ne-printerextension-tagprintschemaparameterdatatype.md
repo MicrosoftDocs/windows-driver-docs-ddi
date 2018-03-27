@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
@@ -51,18 +51,6 @@ req.product: Windows 10 or later.
 
 
 The PrintSchemaParameterDataType enumeration identifies the allowed data types for the Print Schema parameter.
-
-
-## -syntax
-
-
-````
-typedef enum tagPrintSchemaParameterDataType { 
-  PrintSchemaParameterDataType_Integer        = 0,
-  PrintSchemaParameterDataType_NumericString,
-  PrintSchemaParameterDataType_String
-} PrintSchemaParameterDataType;
-````
 
 
 ## -enum-fields
@@ -90,10 +78,10 @@ This maps to the Print Schema’s StringParamType parameters, with UnitType not 
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/82CC79A8-0281-4100-B3FB-1FFFB2454B8D">IPrintSchemaParameterDefinition::DataType</a>
-
-
-
  
 
  

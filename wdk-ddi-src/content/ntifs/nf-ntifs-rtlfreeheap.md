@@ -49,19 +49,7 @@ req.typenames: TOKEN_TYPE
 ## -description
 
 
-The <b>RtlFreeHeap</b> routine frees a memory block that was allocated from a heap by <a href="..\ntifs\nf-ntifs-rtlallocateheap.md">RtlAllocateHeap</a>. 
-
-
-## -syntax
-
-
-````
-BOOLEAN RtlFreeHeap(
-  _In_     PVOID HeapHandle,
-  _In_opt_ ULONG Flags,
-  _In_     PVOID HeapBase
-);
-````
+The <b>RtlFreeHeap</b> routine frees a memory block that was allocated from a heap by <a href="https://msdn.microsoft.com/library/windows/hardware/ff552108">RtlAllocateHeap</a>. 
 
 
 ## -parameters
@@ -71,12 +59,12 @@ BOOLEAN RtlFreeHeap(
 
 ### -param HeapHandle [in]
 
-A handle for the heap whose memory block is to be freed. This parameter is a handle returned by <a href="..\ntifs\nf-ntifs-rtlcreateheap.md">RtlCreateHeap</a>. 
+A handle for the heap whose memory block is to be freed. This parameter is a handle returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff552159">RtlCreateHeap</a>. 
 
 
 ### -param Flags [in, optional]
 
-A set of flags that controls aspects of freeing a memory block. Specifying the following value overrides the corresponding value that was specified in the <i>Flags</i> parameter when the heap was created by <a href="..\ntifs\nf-ntifs-rtlcreateheap.md">RtlCreateHeap</a>. 
+A set of flags that controls aspects of freeing a memory block. Specifying the following value overrides the corresponding value that was specified in the <i>Flags</i> parameter when the heap was created by <a href="https://msdn.microsoft.com/library/windows/hardware/ff552159">RtlCreateHeap</a>. 
 
 <table>
 <tr>
@@ -106,7 +94,7 @@ TBD
 
 #### - HeapBase [in]
 
-A pointer to the memory block to free. This pointer is returned by <a href="..\ntifs\nf-ntifs-rtlallocateheap.md">RtlAllocateHeap</a>. 
+A pointer to the memory block to free. This pointer is returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff552108">RtlAllocateHeap</a>. 
 
 
 ## -returns
@@ -125,18 +113,18 @@ A pointer to the memory block to free. This pointer is returned by <a href="..\n
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-rtlcreateheap.md">RtlCreateHeap</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-rtlallocateheap.md">RtlAllocateHeap</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552108">RtlAllocateHeap</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-rtldestroyheap.md">RtlDestroyHeap</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552159">RtlCreateHeap</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552233">RtlDestroyHeap</a>
  
 
  

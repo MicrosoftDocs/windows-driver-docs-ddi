@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 The <b>VideoPortGetVersion</b> function gets version information about the currently running operating system.
 
 
-## -syntax
-
-
-````
-VP_STATUS VideoPortGetVersion(
-  _In_    PVOID            HwDeviceExtension,
-  _Inout_ PVPOSVERSIONINFO pVpOsVersionInfo
-);
-````
-
-
 ## -parameters
 
 
@@ -76,7 +65,7 @@ Pointer to the miniport driver's device extension.
 
 ### -param pVpOsVersionInfo [in, out]
 
-Pointer to a <a href="..\video\ns-video-_vposversioninfo.md">VPOSVERSIONINFO</a> structure that will receive the operating system version information. The caller should set the <b>Size</b> member of the VPOSVERSIONINFO structure to the size, in bytes, of that structure.
+Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff570568">VPOSVERSIONINFO</a> structure that will receive the operating system version information. The caller should set the <b>Size</b> member of the VPOSVERSIONINFO structure to the size, in bytes, of that structure.
 
 
 ## -returns
@@ -90,10 +79,10 @@ Pointer to a <a href="..\video\ns-video-_vposversioninfo.md">VPOSVERSIONINFO</a>
 
 ## -see-also
 
-<a href="..\video\ns-video-_vposversioninfo.md">VPOSVERSIONINFO</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570568">VPOSVERSIONINFO</a>
  
 
  

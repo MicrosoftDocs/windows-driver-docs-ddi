@@ -52,24 +52,9 @@ req.typenames: SYNTH_STATS, *PSYNTH_STATS
 The 
   MiniportWdiTalTxRxStart handler function provides TXRX configuration parameters to the TAL.   The configuration parameters include the TX/RX capabilities specified by the target device as part of its initialization. It is issued in the context of driver initialization after obtaining device capabilities.
 
-This is a WDI miniport handler inside <a href="..\dot11wdi\ns-dot11wdi-_ndis_miniport_wdi_data_handlers.md">NDIS_MINIPORT_WDI_DATA_HANDLERS</a>.
+This is a WDI miniport handler inside <a href="https://msdn.microsoft.com/library/windows/hardware/mt297618">NDIS_MINIPORT_WDI_DATA_HANDLERS</a>.
 <div class="alert"><b>Note</b>  You must declare the function by using the <b>MINIPORT_WDI_TAL_TXRX_START</b> type. For more
    information, see the following Examples section.</div><div> </div>
-
-## -prototype
-
-
-````
-MINIPORT_WDI_TAL_TXRX_START MiniportWdiTalTxRxStart;
-
-NDIS_STATUS MiniportWdiTalTxRxStart(
-  _In_  TAL_TXRX_HANDLE                MiniportTalTxRxContext,
-  _In_  PWDI_TXRX_TARGET_CONFIGURATION pWifiTxRxConfiguration,
-  _Out_ PTAL_TXRX_PARAMETERS           pTalTxRxParameters
-)
-{ ... }
-````
-
 
 ## -parameters
 
@@ -78,17 +63,17 @@ NDIS_STATUS MiniportWdiTalTxRxStart(
 
 ### -param MiniportTalTxRxContext [in]
 
-TAL device handle returned by the IHV miniport in <a href="..\dot11wdi\nc-dot11wdi-miniport_wdi_tal_txrx_initialize.md">MiniportWdiTalTxRxInitialize</a>.
+TAL device handle returned by the IHV miniport in <a href="https://msdn.microsoft.com/C297D681-D43F-4105-9E08-7FF42807E9A0">MiniportWdiTalTxRxInitialize</a>.
 
 
 ### -param pWifiTxRxConfiguration [in]
 
-Pointer to the <a href="..\dot11wdi\ns-dot11wdi-_wdi_txrx_target_configuration.md">WDI_TXRX_TARGET_CONFIGURATION</a> structure specified by the target device as part of initialization.
+Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/dn898192">WDI_TXRX_TARGET_CONFIGURATION</a> structure specified by the target device as part of initialization.
 
 
 ### -param pTalTxRxParameters [out]
 
-Pointer to a <a href="..\dot11wdi\ns-dot11wdi-_tal_txrx_parameters.md">TAL_TXRX_PARAMETERS</a> structure that specifies the TAL parameters used by the TxMgr or RxMgr.
+Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn897669">TAL_TXRX_PARAMETERS</a> structure that specifies the TAL parameters used by the TxMgr or RxMgr.
 
 
 ## -returns
@@ -121,7 +106,18 @@ Indicates that the miniport driver successfully started the datapath components.
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt297618">NDIS_MINIPORT_WDI_DATA_HANDLERS</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt297625">TAL_TXRX_HANDLE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn897669">TAL_TXRX_PARAMETERS</a>
 
 
 
@@ -129,18 +125,7 @@ Indicates that the miniport driver successfully started the datapath components.
 
 
 
-<a href="..\dot11wdi\ns-dot11wdi-_wdi_txrx_target_configuration.md">WDI_TXRX_TARGET_CONFIGURATION</a>
-
-
-
-<a href="..\dot11wdi\ns-dot11wdi-_tal_txrx_parameters.md">TAL_TXRX_PARAMETERS</a>
-
-
-
-<a href="..\dot11wdi\ns-dot11wdi-_ndis_miniport_wdi_data_handlers.md">NDIS_MINIPORT_WDI_DATA_HANDLERS</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn898192">WDI_TXRX_TARGET_CONFIGURATION</a>
  
 
  

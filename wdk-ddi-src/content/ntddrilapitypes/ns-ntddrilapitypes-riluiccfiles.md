@@ -52,18 +52,6 @@ req.typenames: RILUICCFILES, *LPRILUICCFILES
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef struct _RILUICCFILES {
-  DWORD               cbSize;
-  DWORD               dwNumFiles;
-  RILUICCFILEPATH [1] filePath;
-} RILUICCFILES, RILUICCFILES;
-````
-
-
 ## -struct-fields
 
 

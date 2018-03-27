@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -50,17 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-Initializes a to the <a href="..\ucmtypes\ns-ucmtypes-_ucm_pd_power_data_object.md">UCM_PD_POWER_DATA_OBJECT</a> for a Fixed Supply type Power Data Object.
-
-
-## -syntax
-
-
-````
-FORCEINLINE void UCM_PD_POWER_DATA_OBJECT_INIT_FIXED(
-  _Out_ PUCM_PD_POWER_DATA_OBJECT Pdo
-);
-````
+Initializes a to the <a href="https://msdn.microsoft.com/library/windows/hardware/mt187935">UCM_PD_POWER_DATA_OBJECT</a> for a Fixed Supply type Power Data Object.
 
 
 ## -parameters
@@ -70,7 +60,7 @@ FORCEINLINE void UCM_PD_POWER_DATA_OBJECT_INIT_FIXED(
 
 ### -param Pdo [out]
 
-A pointer to a <a href="..\ucmtypes\ns-ucmtypes-_ucm_pd_power_data_object.md">UCM_PD_POWER_DATA_OBJECT</a> structure in which the <b>FixedSupplyPdo.FixedSupply</b> member is set to <b>UcmPdPdoTypeFixedSupply</b>.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/mt187935">UCM_PD_POWER_DATA_OBJECT</a> structure in which the <b>FixedSupplyPdo.FixedSupply</b> member is set to <b>UcmPdPdoTypeFixedSupply</b>.
 
 
 ## -returns
@@ -95,10 +85,10 @@ This function initializes the structure and sets Power Data Object as a Fixed Su
 
 ## -see-also
 
-<a href="..\ucmtypes\ns-ucmtypes-_ucm_pd_power_data_object.md">UCM_PD_POWER_DATA_OBJECT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt187935">UCM_PD_POWER_DATA_OBJECT</a>
  
 
  

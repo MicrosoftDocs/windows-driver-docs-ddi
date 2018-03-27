@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -54,16 +54,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>GetExitCode</b> method returns the exit code of the current process if that process has already run through to completion.
-
-
-## -syntax
-
-
-````
-HRESULT GetExitCode(
-  [out] PULONG Code
-);
-````
 
 
 ## -parameters

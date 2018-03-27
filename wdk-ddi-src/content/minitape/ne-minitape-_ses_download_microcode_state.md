@@ -52,20 +52,6 @@ req.typenames: SES_DOWNLOAD_MICROCODE_STATE, *PSES_DOWNLOAD_MICROCODE_STATE
 TBD
 
 
-## -syntax
-
-
-````
-typedef enum _SES_DOWNLOAD_MICROCODE_STATE { 
-  SesDownloadMcStateNoneInProgress              =  0x00,
-  SesDownloadMcStateInProgress                  =  0x01,
-  SesDownloadMcStateCompletedPendingReset       =  0x11,
-  SesDownloadMcStateCompletedPendingPowerOn     = 0x12,
-  SesDownloadMcStateCompletedPendingActivation  = 0x13
-} SES_DOWNLOAD_MICROCODE_STATE, *PSES_DOWNLOAD_MICROCODE_STATE;
-````
-
-
 ## -enum-fields
 
 

@@ -52,16 +52,6 @@ req.typenames: DXGKVGPU_ESCAPE_INITIALIZE
 Used to initialize an escape.
 
 
-## -syntax
-
-
-````
-typedef struct _DXGKVGPU_ESCAPE_INITIALIZE {
-  DXGKVGPU_ESCAPE_HEAD Header;
-} DXGKVGPU_ESCAPE_INITIALIZE;
-````
-
-
 ## -struct-fields
 
 

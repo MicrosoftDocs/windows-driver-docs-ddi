@@ -52,20 +52,6 @@ req.typenames: D3D11_1DDI_GETCAPTUREHANDLEDATA
 The <i>pfnCalcPrivateVideoProcessorSize</i> callback function calculates the size of the private video processor.
 
 
-## -prototype
-
-
-````
-PFND3D12DDI_CALCPRIVATEVIDEOPROCESSORSIZE_0021 pfnCalcPrivateVideoProcessorSize;
-
-SIZE_T  APIENTRY* pfnCalcPrivateVideoProcessorSize(
-             D3D12DDI_HDEVICE                   hDrvDevice,
-  _In_ const D3D12DDIARG_CREATE_VIDEO_PROCESSOR *pArgs
-)
-{ ... }
-````
-
-
 ## -parameters
 
 

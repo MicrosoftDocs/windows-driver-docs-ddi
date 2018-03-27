@@ -55,14 +55,6 @@ The
   the current processor.
 
 
-## -syntax
-
-
-````
-PROCESSOR_NUMBER NdisCurrentGroupAndProcessor(void);
-````
-
-
 ## -parameters
 
 

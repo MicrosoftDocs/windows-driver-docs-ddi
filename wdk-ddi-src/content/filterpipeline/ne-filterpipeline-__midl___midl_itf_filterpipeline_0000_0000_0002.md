@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
@@ -50,17 +50,6 @@ req.typenames: EXpsFontOptions
 
 
 The EXpsFontOptions enumeration describes the font options for an XPS part.
-
-
-## -syntax
-
-
-````
-typedef enum  { 
-  Font_Normal,
-  Font_Obfusticate
-} EXpsFontOptions;
-````
 
 
 ## -enum-fields

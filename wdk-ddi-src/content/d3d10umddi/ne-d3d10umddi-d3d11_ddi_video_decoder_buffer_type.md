@@ -52,25 +52,6 @@ req.typenames: D3D11_1DDI_VIDEO_DECODER_BUFFER_TYPE
 Contains values that indicate the  buffer type used by the video decoder.
 
 
-## -syntax
-
-
-````
-typedef enum D3D11_DDI_VIDEO_DECODER_BUFFER_TYPE { 
-  D3D11_1DDI_VIDEO_DECODER_BUFFER_UNKNOWN                      = 0,
-  D3D11_1DDI_VIDEO_DECODER_BUFFER_PICTURE_PARAMETERS           = 1,
-  D3D11_1DDI_VIDEO_DECODER_BUFFER_MACROBLOCK_CONTROL           = 2,
-  D3D11_1DDI_VIDEO_DECODER_BUFFER_RESIDUAL_DIFFERENCE          = 3,
-  D3D11_1DDI_VIDEO_DECODER_BUFFER_DEBLOCKING_CONTROL           = 4,
-  D3D11_1DDI_VIDEO_DECODER_BUFFER_INVERSE_QUANTIZATION_MATRIX  = 5,
-  D3D11_1DDI_VIDEO_DECODER_BUFFER_SLICE_CONTROL                = 6,
-  D3D11_1DDI_VIDEO_DECODER_BUFFER_BITSTREAM                    = 7,
-  D3D11_1DDI_VIDEO_DECODER_BUFFER_MOTION_VECTOR                = 8,
-  D3D11_1DDI_VIDEO_DECODER_BUFFER_FILM_GRAIN                   = 9
-} D3D11_1DDI_VIDEO_DECODER_BUFFER_TYPE;
-````
-
-
 ## -enum-fields
 
 
@@ -137,10 +118,10 @@ Note that the <b>D3D11_DDI_VIDEO_DECODER_BUFFER_TYPE</b> and <b>D3D11_1DDI_VIDEO
 
 ## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d11ddiarg_createresource.md">D3D11DDIARG_CREATERESOURCE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542062">D3D11DDIARG_CREATERESOURCE</a>
  
 
  

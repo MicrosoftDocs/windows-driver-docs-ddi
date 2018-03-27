@@ -49,25 +49,8 @@ req.typenames: IO_SCSI_CAPABILITIES, *PIO_SCSI_CAPABILITIES
 ## -description
 
 
-The IO_SCSI_CAPABILITIES structure is used in conjunction with the <a href="..\ntddscsi\ni-ntddscsi-ioctl_scsi_get_capabilities.md">IOCTL_SCSI_GET_CAPABILITIES</a> request to retrieve the capabilities and limitations of the underlying SCSI host adapter.
+The IO_SCSI_CAPABILITIES structure is used in conjunction with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560502">IOCTL_SCSI_GET_CAPABILITIES</a> request to retrieve the capabilities and limitations of the underlying SCSI host adapter.
 <div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
-
-## -syntax
-
-
-````
-typedef struct _IO_SCSI_CAPABILITIES {
-  ULONG   Length;
-  ULONG   MaximumTransferLength;
-  ULONG   MaximumPhysicalPages;
-  ULONG   SupportedAsynchronousEvents;
-  ULONG   AlignmentMask;
-  BOOLEAN TaggedQueuing;
-  BOOLEAN AdapterScansDown;
-  BOOLEAN AdapterUsesPio;
-} IO_SCSI_CAPABILITIES, *PIO_SCSI_CAPABILITIES;
-````
-
 
 ## -struct-fields
 
@@ -116,10 +99,10 @@ When <b>TRUE</b>, indicates that the host adapter uses programmed I/O.
 
 ## -see-also
 
-<a href="..\ntddscsi\ni-ntddscsi-ioctl_scsi_get_capabilities.md">IOCTL_SCSI_GET_CAPABILITIES</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560502">IOCTL_SCSI_GET_CAPABILITIES</a>
  
 
  

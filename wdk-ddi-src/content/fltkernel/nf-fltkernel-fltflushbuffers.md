@@ -53,17 +53,6 @@ req.typenames: EXpsFontRestriction
 The <b>FltFlushBuffers</b> routine is used by the minifilter driver to send a flush request for a given file to the file system. 
 
 
-## -syntax
-
-
-````
-NTSTATUS FltFlushBuffers(
-  _In_ PFLT_INSTANCE Instance,
-  _In_ PFILE_OBJECT  FileObject
-);
-````
-
-
 ## -parameters
 
 
@@ -129,10 +118,10 @@ A minifilter driver can call <b>FltFlushBuffers</b> to issue an <a href="https:/
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549235">IRP_MJ_FLUSH_BUFFERS</a>
-
-
-
  
 
  

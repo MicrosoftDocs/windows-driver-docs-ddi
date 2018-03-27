@@ -49,27 +49,7 @@ req.typenames: DXGKARGCB_RESERVEGPUVIRTUALADDRESSRANGE
 ## -description
 
 
-<b>DXGKARGCB_RESERVEGPUVIRTUALADDRESSRANGE</b> is used with the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_reservegpuvirtualaddressrange.md">DxgkCbReserveGpuVirtualAddressRange</a>device driver interface (DDI) to allow the kernel mode driver to reserve a graphics processing unit (GPU) virtual address range during creation of a process. 
-
-
-## -syntax
-
-
-````
-typedef struct _DXGKARGCB_RESERVEGPUVIRTUALADDRESSRANGE {
-  HANDLE hDxgkProcess;
-  UINT64 SizeInBytes;
-  UINT   Alignment;
-  UINT64 StartVirtualAddress;
-  UINT64 BaseAddress;
-  union {
-    struct {
-      UINT AllowUserModeMapping  :1;
-    };
-    UINT   Flags;
-  };
-} DXGKARGCB_RESERVEGPUVIRTUALADDRESSRANGE;
-````
+<b>DXGKARGCB_RESERVEGPUVIRTUALADDRESSRANGE</b> is used with the <a href="https://msdn.microsoft.com/26A827F1-1094-4A7D-9C63-758925EE6273">DxgkCbReserveGpuVirtualAddressRange</a>device driver interface (DDI) to allow the kernel mode driver to reserve a graphics processing unit (GPU) virtual address range during creation of a process. 
 
 
 ## -struct-fields
@@ -79,7 +59,7 @@ typedef struct _DXGKARGCB_RESERVEGPUVIRTUALADDRESSRANGE {
 
 ### -field hDxgkProcess
 
-The handle that was passed to <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createprocess.md">DxgkDdiCreateProcess</a>.
+The handle that was passed to <a href="https://msdn.microsoft.com/E5AAEEB1-C29E-4AA7-9F8E-2C2DCFADED81">DxgkDdiCreateProcess</a>.
 
 
 ### -field SizeInBytes
@@ -114,14 +94,14 @@ A single value containing the flags set in the structure.
 
 ## -see-also
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createprocess.md">DxgkDdiCreateProcess</a>
 
 
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_reservegpuvirtualaddressrange.md">DxgkCbReserveGpuVirtualAddressRange</a>
+<a href="https://msdn.microsoft.com/26A827F1-1094-4A7D-9C63-758925EE6273">DxgkCbReserveGpuVirtualAddressRange</a>
 
 
 
+<a href="https://msdn.microsoft.com/E5AAEEB1-C29E-4AA7-9F8E-2C2DCFADED81">DxgkDdiCreateProcess</a>
  
 
  

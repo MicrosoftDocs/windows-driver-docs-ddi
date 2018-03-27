@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: Not applicable
 topic_type:
@@ -53,18 +53,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Applies to KMDF only]
 
 The <b>WdfDriverRegisterTraceInfo</b> method is reserved for internal use only.
-
-
-## -syntax
-
-
-````
-NTSTATUS WdfDriverRegisterTraceInfo(
-  _In_ PDRIVER_OBJECT         DriverObject,
-  _In_ PFN_WDF_TRACE_CALLBACK EvtTraceCallback,
-  _In_ PVOID                  ControlBlock
-);
-````
 
 
 ## -parameters

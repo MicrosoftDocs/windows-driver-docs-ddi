@@ -54,16 +54,6 @@ The
   <b>NdisSetEvent</b> function sets a given event to the signaled state if it was not already Signaled.
 
 
-## -syntax
-
-
-````
-VOID NdisSetEvent(
-  _In_ PNDIS_EVENT Event
-);
-````
-
-
 ## -parameters
 
 
@@ -94,25 +84,25 @@ When an event attains the
 After a call to 
     <b>NdisSetEvent</b>, the event remains in the 
     <i>signaled</i> state until the driver calls the 
-    <a href="..\ndis\nf-ndis-ndisresetevent.md">NdisResetEvent</a> function.
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff564526">NdisResetEvent</a> function.
 
 
 
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisresetevent.md">NdisResetEvent</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisinitializeevent.md">NdisInitializeEvent</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562732">NdisInitializeEvent</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndiswaitevent.md">NdisWaitEvent</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564526">NdisResetEvent</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564651">NdisWaitEvent</a>
  
 
  

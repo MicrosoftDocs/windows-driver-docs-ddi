@@ -55,21 +55,6 @@ The <b>FwpsvSwitchEventsSubscribe0</b> function registers callback entry points 
 
 
 
-## -syntax
-
-
-````
-NTSTATUS NTAPI FwpsvSwitchEventsSubscribe0(
-   _In_opt_ const GUID                          *providerGuid,
-   _In_opt_ void                                *notifyContext,
-   _In_ _Reserved_ UINT32                       flags,
-   _In_ _Reserved_ void                         *reserved,
-   _In_ const FWPS_VSWITCH_EVENT_DISPATCH_TABLE *eventDispatchTable,
-   _Out_ UINT32                                 *subscriptionId
-);
-````
-
-
 ## -parameters
 
 
@@ -99,12 +84,12 @@ Reserved. Set to zero.
 
 ### -param eventDispatchTable
 
-A pointer to an <a href="..\fwpsk\ns-fwpsk-fwps_vswitch_event_dispatch_table0_.md">FWPS_VSWITCH_EVENT_DISPATCH_TABLE</a> structure that defines the callback entry points for virtual switch layer events.
+A pointer to an <a href="https://msdn.microsoft.com/7e949e6d-7448-4f76-b8a1-6d050261fb21">FWPS_VSWITCH_EVENT_DISPATCH_TABLE</a> structure that defines the callback entry points for virtual switch layer events.
 
 
 ### -param subscriptionId
 
-A pointer to a variable that contains a unique identifier that WFP assigns to the subscription. The caller must return the subscription identifier to WFP with the  <a href="..\fwpsk\nf-fwpsk-fwpsvswitcheventsunsubscribe0.md">FwpsvSwitchEventsUnsubscribe0</a> function.
+A pointer to a variable that contains a unique identifier that WFP assigns to the subscription. The caller must return the subscription identifier to WFP with the  <a href="https://msdn.microsoft.com/library/windows/hardware/hh439691">FwpsvSwitchEventsUnsubscribe0</a> function.
 
 
 ## -returns
@@ -154,10 +139,10 @@ An error occurred.
 
 A callout driver calls the <b>FwpsvSwitchEventsSubscribe0</b> function to register callback entry points for virtual switch  layer events.
 
-The entry points for the callback notification functions are specified in and <a href="..\fwpsk\ns-fwpsk-fwps_vswitch_event_dispatch_table0_.md">FWPS_VSWITCH_EVENT_DISPATCH_TABLE0</a> structure. 
+The entry points for the callback notification functions are specified in and <a href="https://msdn.microsoft.com/library/windows/hardware/hh451263">FWPS_VSWITCH_EVENT_DISPATCH_TABLE0</a> structure. 
 
 The callout driver must later call 
-    <a href="..\fwpsk\nf-fwpsk-fwpsvswitcheventsunsubscribe0.md">FwpsvSwitchEventsUnsubscribe0</a>  to
+    <a href="https://msdn.microsoft.com/library/windows/hardware/hh439691">FwpsvSwitchEventsUnsubscribe0</a>  to
     free the system resources.
 
 
@@ -165,14 +150,14 @@ The callout driver must later call
 
 ## -see-also
 
-<a href="..\fwpsk\ns-fwpsk-fwps_vswitch_event_dispatch_table0_.md">FWPS_VSWITCH_EVENT_DISPATCH_TABLE0</a>
 
 
 
-<a href="..\fwpsk\nf-fwpsk-fwpsvswitcheventsunsubscribe0.md">FwpsvSwitchEventsUnsubscribe0</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451263">FWPS_VSWITCH_EVENT_DISPATCH_TABLE0</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439691">FwpsvSwitchEventsUnsubscribe0</a>
  
 
  

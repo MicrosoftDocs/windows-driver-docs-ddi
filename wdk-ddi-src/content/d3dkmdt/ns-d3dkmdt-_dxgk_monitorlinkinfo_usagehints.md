@@ -52,17 +52,6 @@ req.typenames: DXGK_MONITORLINKINFO_USAGEHINTS, *PDXGK_MONITORLINKINFO_USAGEHINT
 Hints to the driver on the intended usage of the display device.
 
 
-## -syntax
-
-
-````
-typedef union _DXGK_MONITORLINKINFO_USAGEHINTS {
-  UINT Hidden;
-  UINT Reserved ;
-} DXGK_MONITORLINKINFO_USAGEHINTS, *PDXGK_MONITORLINKINFO_USAGEHINTS;
-````
-
-
 ## -struct-fields
 
 

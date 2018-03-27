@@ -52,16 +52,6 @@ req.typenames: RemoveConnectionFromSession_OUT, *PRemoveConnectionFromSession_OU
 The RemoveConnectionFromSession_OUT structure holds the output data for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563973">RemoveConnectionFromSession</a> method, which is used to remove a connection from a session.
 
 
-## -syntax
-
-
-````
-typedef struct _RemoveConnectionFromSession_OUT {
-  ULONG Status;
-} RemoveConnectionFromSession_OUT, *PRemoveConnectionFromSession_OUT;
-````
-
-
 ## -struct-fields
 
 
@@ -83,10 +73,10 @@ You must implement this class.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563973">RemoveConnectionFromSession</a>
-
-
-
  
 
  

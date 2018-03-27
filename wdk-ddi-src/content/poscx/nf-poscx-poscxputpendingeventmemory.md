@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -54,19 +54,6 @@ PosCxPutPendingEventMemory tries to delegate a memory object containing the
       event data to a waiting caller. 
       If the target caller does not have a read request waiting, the new event is added to 
       the designated event queue (control or data).
-
-
-## -syntax
-
-
-````
-NTSTATUS PosCxPutPendingEventMemory(
-  _In_ WDFDEVICE               device,
-  _In_ ULONG                   deviceInterfaceTag,
-  _In_ WDFMEMORY               eventMemory,
-  _In_ POS_CX_EVENT_ATTRIBUTES eventAttr
-);
-````
 
 
 ## -parameters
@@ -129,10 +116,10 @@ Possible return values are:
 
 ## -see-also
 
-<a href="..\poscx\ne-poscx-_pos_cx_event_attributes.md">POS_CX_EVENT_ATTRIBUTES</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt593142">POS_CX_EVENT_ATTRIBUTES</a>
  
 
  

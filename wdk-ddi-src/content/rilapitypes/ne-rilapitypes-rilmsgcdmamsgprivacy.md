@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,19 +51,6 @@ req.product: Windows 10 or later.
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef enum _RILMSGCDMAMSGPRIVACY { 
-  RIL_MSGPRIVACYCLASS_RESTRICTED,
-  RIL_MSGPRIVACYCLASS_CONFIDENTIAL,
-  RIL_MSGPRIVACYCLASS_SECRET,
-  RIL_MSGPRIVACYCLASS_MAX
-} RILMSGCDMAMSGPRIVACY;
-````
 
 
 ## -enum-fields

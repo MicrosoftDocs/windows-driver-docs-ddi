@@ -52,19 +52,6 @@ req.typenames: RILCAPSLOCKINGPWDLENGTH, *LPRILCAPSLOCKINGPWDLENGTH
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef struct _RILCAPSLOCKINGPWDLENGTH {
-  DWORD  cbSize;
-  DWORD  dwParams;
-  DWORD  dwPersoFeature;
-  DWORD  dwPasswordLength;
-} RILCAPSLOCKINGPWDLENGTH, RILCAPSLOCKINGPWDLENGTH;
-````
-
-
 ## -struct-fields
 
 

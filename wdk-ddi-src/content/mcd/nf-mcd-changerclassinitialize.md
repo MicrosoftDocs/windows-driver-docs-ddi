@@ -53,18 +53,6 @@ req.typenames: LAMP_INTENSITY_WHITE
 The <b>ChangerClassInitialize</b> routine initializes the driver. 
 
 
-## -syntax
-
-
-````
-NTSTATUS ChangerClassInitialize(
-  _In_ PDRIVER_OBJECT  DriverObject,
-  _In_ PUNICODE_STRING RegistryPath,
-  _In_ PMCD_INIT_DATA  MCDInitData
-);
-````
-
-
 ## -parameters
 
 
@@ -89,7 +77,7 @@ TBD
 
 #### - MCDInitData [in]
 
-Pointer to an <a href="..\mcd\ns-mcd-_mcd_init_data.md">MCD_INIT_DATA</a> structure containing miniclass driver-specific information such as the entry points for the changer miniclass driver's command processing routines. 
+Pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff562210">MCD_INIT_DATA</a> structure containing miniclass driver-specific information such as the entry points for the changer miniclass driver's command processing routines. 
 
 
 ## -returns
@@ -109,21 +97,21 @@ Pointer to an <a href="..\mcd\ns-mcd-_mcd_init_data.md">MCD_INIT_DATA</a> struct
 
 Changer miniclass drivers call <b>ChangerClassInitialize</b> from within their <b>DriverEntry</b> routines to initialize the driver. <b>ChangerClassInitialize</b> performs many tasks formerly performed by the changer class driver's <b>DriverEntry</b> routine such as registering the miniclass driver's dispatch routines. It allocates a driver object extension and copies the data contained in <i>MCDInitData</i> into the driver object extension along with other initialization data such as the driver's registry path and pointers to certain changer class driver routines that are operating system-specific. 
 
-Changer miniclass drivers must allocate an <a href="..\mcd\ns-mcd-_mcd_init_data.md">MCD_INIT_DATA</a> structure, zero the structure by calling <a href="..\wdm\nf-wdm-rtlzeromemory.md">RtlZeroMemory</a>, and then assign values to the appropriate members, before passing the structure's address to <b>ChangerClassInitialize</b> by means of the <i>MCDInitData</i> parameter. 
+Changer miniclass drivers must allocate an <a href="https://msdn.microsoft.com/library/windows/hardware/ff562210">MCD_INIT_DATA</a> structure, zero the structure by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff563610">RtlZeroMemory</a>, and then assign values to the appropriate members, before passing the structure's address to <b>ChangerClassInitialize</b> by means of the <i>MCDInitData</i> parameter. 
 
 
 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-rtlzeromemory.md">RtlZeroMemory</a>
 
 
 
-<a href="..\mcd\ns-mcd-_mcd_init_data.md">MCD_INIT_DATA</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562210">MCD_INIT_DATA</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563610">RtlZeroMemory</a>
  
 
  

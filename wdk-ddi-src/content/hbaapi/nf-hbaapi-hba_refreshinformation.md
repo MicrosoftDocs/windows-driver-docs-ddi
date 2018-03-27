@@ -52,16 +52,6 @@ req.typenames: HBA_WWNTYPE
 The <b>HBA_RefreshInformation</b> routine refreshes the library's internally cached data for the indicated HBA.
 
 
-## -syntax
-
-
-````
-void HBA_API HBA_RefreshInformation(
-  _In_ HBA_HANDLE HbaHandle
-);
-````
-
-
 ## -parameters
 
 
@@ -76,7 +66,7 @@ TBD
 
 #### - HbaHandle [in]
 
-Contains a value returned by the routine <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a> that identifies the HBA whose cached data the library will refresh.
+Contains a value returned by the routine <a href="https://msdn.microsoft.com/library/windows/hardware/ff557097">HBA_OpenAdapter</a> that identifies the HBA whose cached data the library will refresh.
 
 
 ## -returns
@@ -90,14 +80,14 @@ None
 
 ## -see-also
 
-<a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
 
 
 
-<a href="..\hbaapi\nf-hbaapi-hba_refreshadapterconfiguration.md">HBA_RefreshAdapterConfiguration</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557097">HBA_OpenAdapter</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557130">HBA_RefreshAdapterConfiguration</a>
  
 
  

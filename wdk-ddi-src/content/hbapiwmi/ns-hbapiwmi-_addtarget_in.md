@@ -52,18 +52,6 @@ req.typenames: AddTarget_IN, *PAddTarget_IN
 The AddPort_IN structure is used by a WMI client to deliver the input parameter data of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550136">AddTarget</a> WMI method to the HBA miniport driver.
 
 
-## -syntax
-
-
-````
-typedef struct _AddTarget_IN {
-  UCHAR HbaPortWWN[8];
-  UCHAR DiscoveredPortWWN[8];
-  ULONG AllTargets;
-} AddTarget_IN, *PAddTarget_IN;
-````
-
-
 ## -struct-fields
 
 
@@ -86,10 +74,10 @@ Indicates the scope of the target events to report. If this member is zero, the 
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550136">AddTarget</a>
-
-
-
  
 
  

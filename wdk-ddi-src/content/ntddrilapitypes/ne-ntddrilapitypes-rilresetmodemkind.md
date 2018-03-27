@@ -52,17 +52,6 @@ req.typenames: RILRESETMODEMKIND
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef enum _RILRESETMODEMKIND { 
-  RIL_RESETMODEMKIND_ABRUPT,
-  RIL_RESETMODEMKIND_MAX
-} RILRESETMODEMKIND;
-````
-
-
 ## -enum-fields
 
 

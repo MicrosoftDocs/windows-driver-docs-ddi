@@ -52,20 +52,6 @@ req.typenames: DXGK_PTE
 The <i>SetViewport</i> function informs guard-band-aware drivers of the view-clipping rectangle.
 
 
-## -prototype
-
-
-````
-PFND3DDDI_SETVIEWPORT SetViewport;
-
-__checkReturn HRESULT APIENTRY SetViewport(
-  _In_       HANDLE                 hDevice,
-  _In_ const D3DDDIARG_VIEWPORTINFO *pData
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -87,7 +73,7 @@ __checkReturn HRESULT APIENTRY SetViewport(
 
 #### - pData [in]
 
- A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_viewportinfo.md">D3DDDIARG_VIEWPORTINFO</a> structure that describes the view-clipping rectangle.
+ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff544116">D3DDDIARG_VIEWPORTINFO</a> structure that describes the view-clipping rectangle.
 
 
 ## -returns
@@ -101,14 +87,14 @@ __checkReturn HRESULT APIENTRY SetViewport(
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_viewportinfo.md">D3DDDIARG_VIEWPORTINFO</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544116">D3DDDIARG_VIEWPORTINFO</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544519">D3DDDI_DEVICEFUNCS</a>
  
 
  

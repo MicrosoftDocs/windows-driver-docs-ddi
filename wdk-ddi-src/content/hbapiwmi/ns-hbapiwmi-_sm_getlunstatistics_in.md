@@ -52,16 +52,6 @@ req.typenames: SM_GetLUNStatistics_IN, *PSM_GetLUNStatistics_IN
 The SM_GetLUNStatistics_IN structure is used to provide input parameters to the SM_GetLUNStatistics_IN method.
 
 
-## -syntax
-
-
-````
-typedef struct _SM_GetLUNStatistics_IN {
-  HBAScsiID Lunit;
-} SM_GetLUNStatistics_IN, *PSM_GetLUNStatistics_IN;
-````
-
-
 ## -struct-fields
 
 
@@ -69,7 +59,7 @@ typedef struct _SM_GetLUNStatistics_IN {
 
 ### -field Lunit
 
-A structure of type <a href="..\hbaapi\ns-hbaapi-hba_scsiid.md">HBA_ScsiId</a> that contains information that is used by the operating system to identify a SCSI logical unit.
+A structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff557191">HBA_ScsiId</a> that contains information that is used by the operating system to identify a SCSI logical unit.
 
 
 ## -remarks

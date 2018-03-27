@@ -53,21 +53,6 @@ req.product: Windows 10 or later.
 A miniport driver's <b>HwStorUnitControl</b> routine is called to perform synchronous operations to control the state of storage unit device. The miniport driver is notified to  start a unit or handle a power state transition for a unit device.
 
 
-## -prototype
-
-
-````
-HW_UNIT_CONTROL HwStorUnitControl;
-
-SCSI_UNIT_CONTROL_STATUS HwStorUnitControl(
-  _In_ PVOID                     DeviceExtension,
-  _In_ SCSI_ADAPTER_CONTROL_TYPE ControlType,
-  _In_ PVOID                     Parameters
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -167,7 +152,7 @@ None
 
 </td>
 <td>
-Notifies the miniport if idle power management is enabled or disabled on the unit component. The miniport should call <a href="..\storport\nf-storport-storportinitializepofxpower.md">StorPortInitializePoFxPower</a> within this unit control if idle power management was enabled and it if supports runtime power management for the unit device.
+Notifies the miniport if idle power management is enabled or disabled on the unit component. The miniport should call <a href="https://msdn.microsoft.com/library/windows/hardware/hh920421">StorPortInitializePoFxPower</a> within this unit control if idle power management was enabled and it if supports runtime power management for the unit device.
 
 </td>
 <td>
@@ -221,7 +206,7 @@ None
 
 </td>
 <td>
-Notifies the miniport to set the unit component to the given functional power state (F-state). The miniport must support this control type if is specifies more than one F-state in the call to <a href="..\storport\nf-storport-storportinitializepofxpower.md">StorPortInitializePoFxPower</a>.
+Notifies the miniport to set the unit component to the given functional power state (F-state). The miniport must support this control type if is specifies more than one F-state in the call to <a href="https://msdn.microsoft.com/library/windows/hardware/hh920421">StorPortInitializePoFxPower</a>.
 
 </td>
 <td>
@@ -904,10 +889,10 @@ HW_UNIT_CONTROL (
 
 ## -see-also
 
-<a href="..\storport\nc-storport-hw_adapter_control.md">HwStorAdapterControl</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557365">HwStorAdapterControl</a>
  
 
  

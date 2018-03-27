@@ -52,19 +52,6 @@ req.typenames: GetPersistentBinding2_OUT, *PGetPersistentBinding2_OUT
 The GetBindingSupport_OUT structure is used to report the output parameter data of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554959">GetPersistentBinding2</a> WMI method to the WMI client.
 
 
-## -syntax
-
-
-````
-typedef struct _GetPersistentBinding2_OUT {
-  ULONG               HBAStatus;
-  ULONG               TotalEntryCount;
-  ULONG               OutEntryCount;
-  HBAFCPBindingEntry2 Bindings[1];
-} GetPersistentBinding2_OUT, *PGetPersistentBinding2_OUT;
-````
-
-
 ## -struct-fields
 
 
@@ -87,7 +74,7 @@ Indicates the total number of persistent bindings retrieved by the GetPersistent
 
 ### -field Bindings
 
-Contains an array of structures of type <a href="..\hbapiwmi\ns-hbapiwmi-_hbafcpbindingentry2.md">HBAFCPBindingEntry2</a> that describe an HBA's bindings between operating system and fibre channel protocol (FCP) identifiers.
+Contains an array of structures of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff556035">HBAFCPBindingEntry2</a> that describe an HBA's bindings between operating system and fibre channel protocol (FCP) identifiers.
 
 
 ## -remarks
@@ -101,10 +88,10 @@ The WMI tool suite generates a declaration of the GetPersistentBinding2_OUT stru
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554959">GetPersistentBinding2</a>
-
-
-
  
 
  

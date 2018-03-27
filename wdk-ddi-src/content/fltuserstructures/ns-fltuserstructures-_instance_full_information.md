@@ -52,24 +52,6 @@ req.typenames: INSTANCE_FULL_INFORMATION, PINSTANCE_FULL_INFORMATION
 The INSTANCE_FULL_INFORMATION structure contains full information for a minifilter instance. 
 
 
-## -syntax
-
-
-````
-typedef struct _INSTANCE_FULL_INFORMATION {
-  ULONG  NextEntryOffset;
-  USHORT InstanceNameLength;
-  USHORT InstanceNameBufferOffset;
-  USHORT AltitudeLength;
-  USHORT AltitudeBufferOffset;
-  USHORT VolumeNameLength;
-  USHORT VolumeNameBufferOffset;
-  USHORT FilterNameLength;
-  USHORT FilterNameBufferOffset;
-} INSTANCE_FULL_INFORMATION, *PINSTANCE_FULL_INFORMATION;
-````
-
-
 ## -struct-fields
 
 
@@ -133,15 +115,18 @@ The content of all character string buffers referenced by this structure are Uni
 
 ## -see-also
 
-<a href="..\fltuserstructures\ns-fltuserstructures-_instance_basic_information.md">INSTANCE_BASIC_INFORMATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541541">FilterVolumeInstanceFindFirst</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540448">FilterAttachAtAltitude</a>
 
 
 
-<a href="..\fltuserstructures\ns-fltuserstructures-_instance_partial_information.md">INSTANCE_PARTIAL_INFORMATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540538">FilterInstanceFindClose</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540541">FilterInstanceFindFirst</a>
 
 
 
@@ -157,26 +142,23 @@ The content of all character string buffers referenced by this structure are Uni
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541541">FilterVolumeInstanceFindFirst</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff541551">FilterVolumeInstanceFindNext</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540538">FilterInstanceFindClose</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548172">INSTANCE_AGGREGATE_STANDARD_INFORMATION</a>
 
 
 
-<a href="..\fltuserstructures\ns-fltuserstructures-_instance_aggregate_standard_information.md">INSTANCE_AGGREGATE_STANDARD_INFORMATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548176">INSTANCE_BASIC_INFORMATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540541">FilterInstanceFindFirst</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540448">FilterAttachAtAltitude</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548190">INSTANCE_PARTIAL_INFORMATION</a>
  
 
  

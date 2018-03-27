@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -52,26 +52,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>GetModuleNames</b> method returns the names of the specified module.
-
-
-## -syntax
-
-
-````
-HRESULT GetModuleNames(
-  [in]            ULONG   Index,
-  [in]            ULONG64 Base,
-  [out, optional] PSTR    ImageNameBuffer,
-  [in]            ULONG   ImageNameBufferSize,
-  [out, optional] PULONG  ImageNameSize,
-  [out, optional] PSTR    ModuleNameBuffer,
-  [in]            ULONG   ModuleNameBufferSize,
-  [out, optional] PULONG  ModuleNameSize,
-  [out, optional] PSTR    LoadedImageNameBuffer,
-  [in]            ULONG   LoadedImageNameBufferSize,
-  [out, optional] PULONG  LoadedImageNameSize
-);
-````
 
 
 ## -parameters
@@ -195,7 +175,6 @@ For more information about modules, see <a href="https://msdn.microsoft.com/libr
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
 
 
@@ -203,14 +182,15 @@ For more information about modules, see <a href="https://msdn.microsoft.com/libr
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550856">IDebugSymbols</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550864">IDebugSymbols2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550870">IDebugSymbols3</a>
  
 
  

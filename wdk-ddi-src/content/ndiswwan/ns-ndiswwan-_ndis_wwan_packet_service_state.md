@@ -53,18 +53,6 @@ The NDIS_WWAN_PACKET_SERVICE_STATE structure represents the packet service attac
   device.
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_WWAN_PACKET_SERVICE_STATE {
-  NDIS_OBJECT_HEADER  Header;
-  WWAN_STATUS         uStatus;
-  WWAN_PACKET_SERVICE PacketService;
-} NDIS_WWAN_PACKET_SERVICE_STATE, *PNDIS_WWAN_PACKET_SERVICE_STATE;
-````
-
-
 ## -struct-fields
 
 
@@ -118,7 +106,7 @@ sizeof(NDIS_WWAN_PACKET_SERVICE_STATE)
  
 
 For more information about these members, see 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>.
 
 
 ### -field uStatus
@@ -296,20 +284,20 @@ A bad SIM card is detected.
 ### -field PacketService
 
 A formatted 
-     <a href="..\wwan\ns-wwan-_wwan_packet_service.md">WWAN_PACKET_SERVICE</a> object that
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571210">WWAN_PACKET_SERVICE</a> object that
      represents the packet service attachment state of the MB device.
 
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_packet_service.md">WWAN_PACKET_SERVICE</a>
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571210">WWAN_PACKET_SERVICE</a>
  
 
  

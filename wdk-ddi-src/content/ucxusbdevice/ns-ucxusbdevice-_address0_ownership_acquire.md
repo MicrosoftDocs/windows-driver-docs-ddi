@@ -53,20 +53,6 @@ req.product: Windows 10 or later.
 Contains parameters for configuring the device. 
 
 
-## -syntax
-
-
-````
-typedef struct _ADDRESS0_OWNERSHIP_ACQUIRE {
-#if __cplusplus
-  USBDEVICE_MGMT_HEADER Header;
-#else 
-  USBDEVICE_MGMT_HEADER ;
-#endif 
-} ADDRESS0_OWNERSHIP_ACQUIRE, *P_ADDRESS0_OWNERSHIP_ACQUIRE;
-````
-
-
 ## -struct-fields
 
 
@@ -74,5 +60,5 @@ typedef struct _ADDRESS0_OWNERSHIP_ACQUIRE {
 
 ### -field Header
 
-A <a href="..\ucxusbdevice\ns-ucxusbdevice-_usbdevice_mgmt_header.md">USBDEVICE_MGMT_HEADER</a> structure that contains  the handle for the USB hub or device.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/mt188075">USBDEVICE_MGMT_HEADER</a> structure that contains  the handle for the USB hub or device.
 

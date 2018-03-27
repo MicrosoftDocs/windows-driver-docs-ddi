@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -54,19 +54,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 The <b>GetBreakpointParameters</b> method returns the parameters of one or more <a href="https://msdn.microsoft.com/library/windows/hardware/ff538928">breakpoints</a>.
 
 
-## -syntax
-
-
-````
-HRESULT GetBreakpointParameters(
-  [in]           ULONG                        Count,
-  [in, optional] PULONG                       Ids,
-  [in]           ULONG                        Start,
-  [out]          PDEBUG_BREAKPOINT_PARAMETERS Params
-);
-````
-
-
 ## -parameters
 
 
@@ -89,7 +76,7 @@ Specifies the beginning index of the breakpoints whose parameters are being requ
 
 ### -param Params [out]
 
-Receives the parameters for the specified breakpoints. The size of this array is equal to the value of <i>Count</i>.  For details on the structure returned, see <a href="..\dbgeng\ns-dbgeng-_debug_breakpoint_parameters.md">DEBUG_BREAKPOINT_PARAMETERS</a>.
+Receives the parameters for the specified breakpoints. The size of this array is equal to the value of <i>Count</i>.  For details on the structure returned, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff541459">DEBUG_BREAKPOINT_PARAMETERS</a>.
 
 
 ## -returns
@@ -142,15 +129,6 @@ Some of the parameters might not be returned.  This happens if either a breakpoi
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548095">GetParameters</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
 
 
@@ -158,14 +136,23 @@ Some of the parameters might not be returned.  This happens if either a breakpoi
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545639">GetBreakpointByIndex</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548095">GetParameters</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550508">IDebugControl</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550512">IDebugControl2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550519">IDebugControl3</a>
  
 
  

@@ -52,20 +52,6 @@ req.typenames: D3DKMT_QUERYPROTECTEDSESSIONINFOFROMNTHANDLE
 Used to query information on the protected session.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DKMT_QUERYPROTECTEDSESSIONINFOFROMNTHANDLE {
-  HANDLE     hNtHandle;
-  const VOID *pPrivateDriverData;
-  UINT       PrivateDriverDataSize;
-  const VOID *pPrivateRuntimeData;
-  UINT       PrivateRuntimeDataSize;
-} D3DKMT_QUERYPROTECTEDSESSIONINFOFROMNTHANDLE;
-````
-
-
 ## -struct-fields
 
 

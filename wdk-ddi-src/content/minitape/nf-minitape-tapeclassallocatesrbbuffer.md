@@ -53,17 +53,6 @@ req.typenames: TAPE_STATUS, *PTAPE_STATUS
 The <b>TapeClassAllocateSrbBuffer</b> routine allocates an <b>Srb-&gt;DataBuffer</b>.
 
 
-## -syntax
-
-
-````
-BOOLEAN TapeClassAllocateSrbBuffer(
-  _Inout_ PSCSI_REQUEST_BLOCK Srb,
-  _In_    ULONG               SrbBufferSize
-);
-````
-
-
 ## -parameters
 
 

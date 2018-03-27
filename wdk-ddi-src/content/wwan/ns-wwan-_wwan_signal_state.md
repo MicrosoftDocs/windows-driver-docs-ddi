@@ -53,19 +53,6 @@ req.product: Windows 10 or later.
 The WWAN_SIGNAL_STATE structure represents the signal state of the MB device.
 
 
-## -syntax
-
-
-````
-typedef struct _WWAN_SIGNAL_STATE {
-  ULONG Rssi;
-  ULONG ErrorRate;
-  ULONG RssiInterval;
-  ULONG RssiThreshold;
-} WWAN_SIGNAL_STATE, *PWWAN_SIGNAL_STATE;
-````
-
-
 ## -struct-fields
 
 
@@ -311,10 +298,10 @@ The current threshold, in threshold units, at which the miniport driver has been
 
 ## -see-also
 
-<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_signal_state.md">NDIS_WWAN_SIGNAL_STATE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567931">NDIS_WWAN_SIGNAL_STATE</a>
  
 
  

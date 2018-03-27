@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: prnasntp.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -53,16 +53,6 @@ req.product: Windows 10 or later.
 
 
 
-## -syntax
-
-
-````
-HRESULT SetServerReferral(
-  [in] PCWSTR pRmtServerReferral
-);
-````
-
-
 ## -parameters
 
 
@@ -82,10 +72,10 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="..\prnasntp\nn-prnasntp-iprintasyncnotifyserverreferral.md">IPrintAsyncNotifyServerReferral</a>
 
 
 
+<a href="https://msdn.microsoft.com/46B3C57E-EE02-4821-9D5F-A2005CFC2998">IPrintAsyncNotifyServerReferral</a>
  
 
  

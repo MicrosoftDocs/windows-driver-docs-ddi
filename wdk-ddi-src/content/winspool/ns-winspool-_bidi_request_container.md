@@ -53,19 +53,6 @@ req.product: Windows 10 or later.
 The BIDI_REQUEST_CONTAINER structure is a container for a list of bidi requests.
 
 
-## -syntax
-
-
-````
-typedef struct _BIDI_REQUEST_CONTAINER {
-  DWORD             Version;
-  DWORD             Flags;
-  DWORD             Count;
-  BIDI_REQUEST_DATA aData[1];
-} BIDI_REQUEST_CONTAINER, *PBIDI_REQUEST_CONTAINER, *LPBIDI_REQUEST_CONTAINER;
-````
-
-
 ## -struct-fields
 
 
@@ -88,7 +75,7 @@ Specifies the number of bidi requests in the <b>aData</b> member. A container ca
 
 ### -field aData
 
-Is an array of <a href="..\winspool\ns-winspool-_bidi_request_data.md">BIDI_REQUEST_DATA</a> structures, each holding a single bidi request. 
+Is an array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff545196">BIDI_REQUEST_DATA</a> structures, each holding a single bidi request. 
 
 
 ## -remarks
@@ -102,10 +89,10 @@ Even though the <b>aData</b> member of this structure is an array with only a si
 
 ## -see-also
 
-<a href="..\winspool\ns-winspool-_bidi_request_data.md">BIDI_REQUEST_DATA</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545196">BIDI_REQUEST_DATA</a>
  
 
  

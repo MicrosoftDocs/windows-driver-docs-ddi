@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
@@ -56,17 +56,6 @@ in Windows 8 and later.</div><div> </div>The
   associated with a DMA provider are initialized and ready for DMA transfers.
 
 
-## -syntax
-
-
-````
-VOID NetDmaProviderStart(
-  _In_ PVOID                        NetDmaProviderHandle,
-  _In_ PNET_DMA_PROVIDER_ATTRIBUTES ProviderAttributes
-);
-````
-
-
 ## -parameters
 
 
@@ -76,14 +65,14 @@ VOID NetDmaProviderStart(
 
 A handle that identifies a DMA provider. The DMA provider driver received this handle from the
      NetDMA interface in a call to the 
-     <a href="..\netdma\nf-netdma-netdmaregisterprovider.md">
+     <a href="https://msdn.microsoft.com/35d70d0b-c1b9-433f-941d-6cb61ddf0b62">
      NetDmaRegisterProvider</a> function.
 
 
 ### -param ProviderAttributes [in]
 
 A pointer to a 
-     <a href="..\netdma\ns-netdma-_net_dma_provider_attributes.md">
+     <a href="https://msdn.microsoft.com/7b5a7e9e-b10b-4c94-80b1-172cd9f0c9ca">
      NET_DMA_PROVIDER_ATTRIBUTES</a> structure that defines the DMA device attributes of the DMA
      provider.
 
@@ -109,13 +98,13 @@ DMA providers call the
 
 The DMA provider driver can also call 
     <b>NetDmaProviderStart</b> after the driver called the 
-    <a href="..\netdma\nf-netdma-netdmaproviderstop.md">NetDmaProviderStop</a> function for
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff568335">NetDmaProviderStop</a> function for
     application-specific reasons. DMA provider drivers call 
     <b>NetDmaProviderStop</b> to notify the NetDMA interface that a previously started DMA provider is no
     longer available.
 
 The DMA provider driver supplies a 
-    <a href="..\netdma\ns-netdma-_net_dma_provider_attributes.md">
+    <a href="https://msdn.microsoft.com/7b5a7e9e-b10b-4c94-80b1-172cd9f0c9ca">
     NET_DMA_PROVIDER_ATTRIBUTES</a> structure at the 
     <i>ProviderAttributes</i> parameter of 
     <b>NetDmaProviderStart</b>. The NET_DMA_PROVIDER_ATTRIBUTES structure specifies the configuration
@@ -130,15 +119,6 @@ Before a DMA provider driver calls
 
 ## -see-also
 
-<a href="..\netdma\ns-netdma-_net_dma_provider_attributes.md">NET_DMA_PROVIDER_ATTRIBUTES</a>
-
-
-
-<a href="..\netdma\nf-netdma-netdmaproviderstop.md">NetDmaProviderStop</a>
-
-
-
-<a href="..\netdma\nf-netdma-netdmaregisterprovider.md">NetDmaRegisterProvider</a>
 
 
 
@@ -146,6 +126,15 @@ Before a DMA provider driver calls
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568737">NET_DMA_PROVIDER_ATTRIBUTES</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568335">NetDmaProviderStop</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568336">NetDmaRegisterProvider</a>
  
 
  

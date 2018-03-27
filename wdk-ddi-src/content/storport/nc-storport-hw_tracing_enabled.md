@@ -53,20 +53,6 @@ req.product: Windows 10 or later.
 The <b>HwStorTracingEnabled</b> callback routine enables the Storport to notify a miniport that event tracing is enabled. 
 
 
-## -prototype
-
-
-````
-HW_TRACING_ENABLED HwStorTracingEnabled;
-
-VOID HwStorTracingEnabled(
-  _In_ PVOID   DeviceExtension,
-  _In_ BOOLEAN Enabled
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -120,10 +106,10 @@ HW_TRACING_ENABLED (
 
 ## -see-also
 
-<a href="..\strmini\ns-strmini-_hw_initialization_data.md">HW_INITIALIZATION_DATA</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559682">HW_INITIALIZATION_DATA</a>
  
 
  

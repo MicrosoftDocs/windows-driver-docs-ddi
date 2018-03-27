@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,21 +51,6 @@ req.product: Windows 10 or later.
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef enum _RILMSGMWISUMMARYLISTPARAMMASK { 
-  RIL_PARAM_MWISUMMARY_REFNUM,
-  RIL_PARAM_MWISUMMARY_ACCTADDR,
-  RIL_PARAM_MWISUMMARY_TOTALNUMDETAILITEMS,
-  RIL_PARAM_MWISUMMARY_NUMSUMMARYITEMS,
-  RIL_PARAM_MWISUMMARY_SUMMARYITEMS,
-  RIL_PARAM_MWISUMMARY_ALL
-} RILMSGMWISUMMARYLISTPARAMMASK;
-````
 
 
 ## -enum-fields

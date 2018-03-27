@@ -52,18 +52,6 @@ req.typenames: D3DKMT_GETSHAREDRESOURCEADAPTERLUID
 Provides information that describes a shared resource and the graphics adapter that the resource was created on.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DKMT_GETSHAREDRESOURCEADAPTERLUID {
-  D3DKMT_HANDLE hGlobalShare;
-  HANDLE        hNtHandle;
-  LUID          AdapterLuid;
-} D3DKMT_GETSHAREDRESOURCEADAPTERLUID;
-````
-
-
 ## -struct-fields
 
 

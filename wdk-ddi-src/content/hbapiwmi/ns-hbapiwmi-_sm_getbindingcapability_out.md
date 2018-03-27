@@ -52,17 +52,6 @@ req.typenames: SM_GetBindingCapability_OUT, *PSM_GetBindingCapability_OUT
 The SM_GetBindingCapability_OUT structure is used to receive output parameters from the SM_GetBindingCapability method.
 
 
-## -syntax
-
-
-````
-typedef struct _SM_GetBindingCapability_OUT {
-  ULONG HBAStatus;
-  ULONG Flags;
-} SM_GetBindingCapability_OUT, *PSM_GetBindingCapability_OUT;
-````
-
-
 ## -struct-fields
 
 

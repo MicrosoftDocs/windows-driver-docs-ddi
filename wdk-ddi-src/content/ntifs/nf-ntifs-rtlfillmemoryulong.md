@@ -52,18 +52,6 @@ req.typenames: TOKEN_TYPE
 The <b>RtlFillMemoryUlong</b> routine fills the specified range of memory with one or more repetitions of a ULONG value. 
 
 
-## -syntax
-
-
-````
-VOID RtlFillMemoryUlong(
-  _Out_ PVOID  Destination,
-  _In_  SIZE_T Length,
-  _In_  ULONG  Pattern
-);
-````
-
-
 ## -parameters
 
 
@@ -106,18 +94,18 @@ For more information about managing buffered data and initializing driver-alloca
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-rtlfillmemoryulonglong.md">RtlFillMemoryUlonglong</a>
 
 
 
-<a href="..\wdm\nf-wdm-rtlzeromemory.md">RtlZeroMemory</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561870">RtlFillMemory</a>
 
 
 
-<a href="..\wdm\nf-wdm-rtlfillmemory.md">RtlFillMemory</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552267">RtlFillMemoryUlonglong</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563610">RtlZeroMemory</a>
  
 
  

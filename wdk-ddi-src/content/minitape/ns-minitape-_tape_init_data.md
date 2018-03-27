@@ -49,7 +49,7 @@ req.typenames: TAPE_INIT_DATA, *PTAPE_INIT_DATA
 ## -description
 
 
-TAPE_INIT_DATA is used only by legacy tape miniclass drivers. Use <a href="..\minitape\ns-minitape-_tape_init_data_ex.md">TAPE_INIT_DATA_EX</a> instead. 
+TAPE_INIT_DATA is used only by legacy tape miniclass drivers. Use <a href="https://msdn.microsoft.com/library/windows/hardware/ff567968">TAPE_INIT_DATA_EX</a> instead. 
 
 
 ## -struct-fields

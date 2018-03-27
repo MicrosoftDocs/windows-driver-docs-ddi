@@ -52,17 +52,6 @@ req.typenames: DXGIDDI_MULTIPLANE_OVERLAY_ALLOCATION_INFO
 Specifies info about a multiplane overlay allocation.
 
 
-## -syntax
-
-
-````
-typedef struct DXGIDDI_MULTIPLANE_OVERLAY_ALLOCATION_INFO {
-  D3DKMT_HANDLE PresentAllocation;
-  UINT          SubResourceIndex;
-} DXGIDDI_MULTIPLANE_OVERLAY_ALLOCATION_INFO;
-````
-
-
 ## -struct-fields
 
 

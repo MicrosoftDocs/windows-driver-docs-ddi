@@ -52,19 +52,6 @@ req.typenames: D3DDDI_MULTIPLANE_OVERLAY_GROUP_CAPS
 Used by the user-mode display driver to specify a group of overlay plane capabilities.
 
 
-## -syntax
-
-
-````
-typedef struct D3DDDI_MULTIPLANE_OVERLAY_GROUP_CAPS {
-  UINT  NumPlanes;
-  float MaxStretchFactor;
-  float MaxShrinkFactor;
-  UINT  OverlayCaps;
-} D3DDDI_MULTIPLANE_OVERLAY_GROUP_CAPS;
-````
-
-
 ## -struct-fields
 
 
@@ -95,15 +82,15 @@ It's not guaranteed that this shrink factor can be applied in all scenarios. For
 
 ### -field OverlayCaps
 
-The overlay capabilities, given as a bitwise <b>OR</b> of values from the <a href="..\d3dumddi\ne-d3dumddi-_d3dddi_multiplane_overlay_feature_caps.md">D3DDDI_MULTIPLANE_OVERLAY_FEATURE_CAPS</a> enumeration.
+The overlay capabilities, given as a bitwise <b>OR</b> of values from the <a href="https://msdn.microsoft.com/library/windows/hardware/hh780237">D3DDDI_MULTIPLANE_OVERLAY_FEATURE_CAPS</a> enumeration.
 
 
 ## -see-also
 
-<a href="..\d3dumddi\ne-d3dumddi-_d3dddi_multiplane_overlay_feature_caps.md">D3DDDI_MULTIPLANE_OVERLAY_FEATURE_CAPS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh780237">D3DDDI_MULTIPLANE_OVERLAY_FEATURE_CAPS</a>
  
 
  

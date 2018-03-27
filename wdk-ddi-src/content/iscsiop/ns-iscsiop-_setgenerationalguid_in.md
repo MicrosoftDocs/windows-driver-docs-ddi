@@ -52,16 +52,6 @@ req.typenames: SetGenerationalGuid_IN, *PSetGenerationalGuid_IN
 The SetGenerationalGuid_IN structure holds the input data for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565678">SetGenerationalGuid</a> method.
 
 
-## -syntax
-
-
-````
-typedef struct _SetGenerationalGuid_IN {
-  UCHAR GenerationalGuid[16];
-} SetGenerationalGuid_IN, *PSetGenerationalGuid_IN;
-````
-
-
 ## -struct-fields
 
 
@@ -83,7 +73,6 @@ You must implement this method.
 
 ## -see-also
 
-<a href="..\iscsiop\ns-iscsiop-_setgenerationalguid_out.md">SetGenerationalGuid_OUT</a>
 
 
 
@@ -91,6 +80,7 @@ You must implement this method.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565687">SetGenerationalGuid_OUT</a>
  
 
  

@@ -52,37 +52,21 @@ req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 Creates a video processor object.
 
 
-## -prototype
-
-
-````
-PFND3D11_1DDI_CREATEVIDEOPROCESSOR CreateVideoProcessor;
-
-HRESULT APIENTRY* CreateVideoProcessor(
-  _In_       D3D10DDI_HDEVICE                   hDevice,
-  _In_ const D3D11_1DDIARG_CREATEVIDEOPROCESSOR *pCreateData,
-  _In_       D3D11_1DDI_HVIDEOPROCESSOR         hVideoProcessor,
-  _In_       D3D11_1DDI_HRTVIDEOPROCESSOR       hRTVideoProcessor
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
 
 
-### -param D3D10DDI_HDEVICE
+### -param Arg1
 
 
 ### -param *
 
 
-### -param D3D11_1DDI_HVIDEOPROCESSOR
+### -param Arg2
 
 
-### -param D3D11_1DDI_HRTVIDEOPROCESSOR
+### -param Arg3
 
 
 
@@ -110,7 +94,7 @@ A handle to the driver's private data for the video processor object. For more i
 
 #### - pCreateData [in]
 
-A pointer to a <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddiarg_createvideoprocessor.md">D3D11_1DDIARG_CREATEVIDEOPROCESSOR</a> structure. This structure specifies the attributes of the video processor object to be created.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh406314">D3D11_1DDIARG_CREATEVIDEOPROCESSOR</a> structure. This structure specifies the attributes of the video processor object to be created.
 
 
 ## -returns
@@ -170,7 +154,7 @@ The graphics adapter was removed.
 
 The <i>CreateVideoProcessor</i> function creates a video processor object that contains specific capabilities and state.  Multiple video processor objects can exist at the same time, each with its own unique state.
 
-The Direct3D runtime calls <i>CreateVideoProcessor</i> after it has called the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_calcprivatevideoprocessorsize.md">CalcPrivateVideoProcessorSize</a>   to determine the size in bytes for the private data that the driver requires for the video processor object. The runtime allocates the memory for this private data for the driver. The driver uses this memory to store private data that is related to the video processor object.
+The Direct3D runtime calls <i>CreateVideoProcessor</i> after it has called the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/hh451614">CalcPrivateVideoProcessorSize</a>   to determine the size in bytes for the private data that the driver requires for the video processor object. The runtime allocates the memory for this private data for the driver. The driver uses this memory to store private data that is related to the video processor object.
 
 When the runtime  calls <i>CreateVideoProcessor</i>, it passes the handle to the private data memory in the <i>hProcessor</i> parameter. This handle is actually a pointer to the memory.
 
@@ -179,14 +163,14 @@ When the runtime  calls <i>CreateVideoProcessor</i>, it passes the handle to the
 
 ## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddiarg_createvideoprocessor.md">D3D11_1DDIARG_CREATEVIDEOPROCESSOR</a>
 
 
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_calcprivatevideoprocessorsize.md">CalcPrivateVideoProcessorSize</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451614">CalcPrivateVideoProcessorSize</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406314">D3D11_1DDIARG_CREATEVIDEOPROCESSOR</a>
  
 
  

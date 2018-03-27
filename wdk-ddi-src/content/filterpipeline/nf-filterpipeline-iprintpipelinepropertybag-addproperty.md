@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: filterpipeline.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -50,17 +50,6 @@ req.typenames: EXpsFontRestriction
 
 
 The <code>AddProperty</code> method adds a property to a property bag.
-
-
-## -syntax
-
-
-````
-HRESULT AddProperty(
-  [in] const wchar_t *pszName,
-  [in] const VARIANT *pVar
-);
-````
 
 
 ## -parameters

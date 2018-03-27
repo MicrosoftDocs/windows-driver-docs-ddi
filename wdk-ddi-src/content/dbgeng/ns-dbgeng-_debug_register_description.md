@@ -52,22 +52,6 @@ req.typenames: DEBUG_REGISTER_DESCRIPTION, *PDEBUG_REGISTER_DESCRIPTION
 The <b>DEBUG_REGISTER_DESCRIPTION</b> structure is returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff546575">GetDescription</a> to describe a processor's register.
 
 
-## -syntax
-
-
-````
-typedef struct _DEBUG_REGISTER_DESCRIPTION {
-  ULONG   Type;
-  ULONG   Flags;
-  ULONG   SubregMaster;
-  ULONG   SubregLength;
-  ULONG64 SubregMask;
-  ULONG   SubregShift;
-  ULONG   Reserved0;
-} DEBUG_REGISTER_DESCRIPTION, *PDEBUG_REGISTER_DESCRIPTION;
-````
-
-
 ## -struct-fields
 
 
@@ -75,7 +59,7 @@ typedef struct _DEBUG_REGISTER_DESCRIPTION {
 
 ### -field Type
 
-The type of value that this register holds.  The possible values are the same as for the <b>Type</b> field in the <a href="..\dbgeng\ns-dbgeng-_debug_value.md">DEBUG_VALUE</a> structure.
+The type of value that this register holds.  The possible values are the same as for the <b>Type</b> field in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff541719">DEBUG_VALUE</a> structure.
 
 
 ### -field Flags

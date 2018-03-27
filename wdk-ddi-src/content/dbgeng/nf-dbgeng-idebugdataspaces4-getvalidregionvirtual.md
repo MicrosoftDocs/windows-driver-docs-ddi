@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -50,19 +50,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>GetValidRegionVirtual</b> method locates the first valid region of memory in a specified memory range.
-
-
-## -syntax
-
-
-````
-HRESULT GetValidRegionVirtual(
-  [in]  ULONG64  Base,
-  [in]  ULONG    Size,
-  [out] PULONG64 ValidBase,
-  [out] PULONG   ValidSize
-);
-````
 
 
 ## -parameters
@@ -120,7 +107,6 @@ The method was successful.
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugdataspaces4.md">IDebugDataSpaces4</a>
 
 
 
@@ -128,6 +114,7 @@ The method was successful.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550546">IDebugDataSpaces4</a>
  
 
  

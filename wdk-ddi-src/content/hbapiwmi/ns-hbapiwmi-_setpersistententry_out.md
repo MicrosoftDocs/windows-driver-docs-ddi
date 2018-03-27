@@ -52,16 +52,6 @@ req.typenames: SetPersistentEntry_OUT, *PSetPersistentEntry_OUT
 The SetPersistentEntry_OUT structure is used to report the output parameter data of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565783">SetPersistentEntry</a> WMI method to the WMI client.
 
 
-## -syntax
-
-
-````
-typedef struct _SetPersistentEntry_OUT {
-  ULONG HBAStatus;
-} SetPersistentEntry_OUT, *PSetPersistentEntry_OUT;
-````
-
-
 ## -struct-fields
 
 
@@ -83,10 +73,10 @@ The WMI tool suite generates a declaration of the SetPersistentEntry_OUT structu
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565783">SetPersistentEntry</a>
-
-
-
  
 
  

@@ -53,23 +53,6 @@ req.product: Windows 10 or later.
 Provides extended USB 3.0 port information about  speed.
 
 
-## -syntax
-
-
-````
-typedef struct _ROOTHUB_30PORT_INFO_EX {
-#if __cplusplus
-  ROOTHUB_30PORT_INFO                         Info;
-#else 
-  ROOTHUB_30PORT_INFO                         ;
-#endif 
-  USHORT                                      MaxSpeedsCount;
-  USHORT                                      SpeedsCount;
-  PUSB_DEVICE_CAPABILITY_SUPERSPEEDPLUS_SPEED Speeds;
-} ROOTHUB_30PORT_INFO_EX, *P_ROOTHUB_30PORT_INFO_EX;
-````
-
-
 ## -struct-fields
 
 
@@ -77,7 +60,7 @@ typedef struct _ROOTHUB_30PORT_INFO_EX {
 
 ### -field Info
 
-A <a href="..\ucxroothub\ns-ucxroothub-_roothub_30port_info.md">ROOTHUB_30PORT_INFO</a> structure.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/mt188029">ROOTHUB_30PORT_INFO</a> structure.
 
 
 ### -field MaxSpeedsCount

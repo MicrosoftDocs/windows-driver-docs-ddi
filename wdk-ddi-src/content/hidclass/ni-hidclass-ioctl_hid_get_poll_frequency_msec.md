@@ -46,11 +46,6 @@ req.typenames: HDAUDIO_STREAM_FORMAT, *PHDAUDIO_STREAM_FORMAT
 # IOCTL_HID_GET_POLL_FREQUENCY_MSEC IOCTL
 
 
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
-
 ## -description
 
 
@@ -119,10 +114,10 @@ The HID class driver sets the following fields of <b>Irp-&gt;IoStatus</b>:
 
 ## -see-also
 
-<a href="..\hidclass\ni-hidclass-ioctl_hid_set_poll_frequency_msec.md">IOCTL_HID_SET_POLL_FREQUENCY_MSEC</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541216">IOCTL_HID_SET_POLL_FREQUENCY_MSEC</a>
  
 
  

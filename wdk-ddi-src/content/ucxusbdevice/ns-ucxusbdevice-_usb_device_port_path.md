@@ -53,19 +53,6 @@ req.product: Windows 10 or later.
 Contains the port path of a USB device.
 
 
-## -syntax
-
-
-````
-typedef struct _USB_DEVICE_PORT_PATH {
-  ULONG Size;
-  ULONG PortPathDepth;
-  ULONG TTHubDepth;
-  ULONG PortPath[MAX_USB_DEVICE_DEPTH];
-} USB_DEVICE_PORT_PATH, *P_USB_DEVICE_PORT_PATH;
-````
-
-
 ## -struct-fields
 
 
@@ -93,10 +80,10 @@ The index of connected USB port on the hub.
 
 ## -see-also
 
-<a href="..\ucxusbdevice\ns-ucxusbdevice-_ucxusbdevice_info.md">UCXUSBDEVICE_INFO</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt188055">UCXUSBDEVICE_INFO</a>
  
 
  

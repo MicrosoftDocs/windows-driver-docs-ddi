@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: wiamdef.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,17 +51,6 @@ req.product: Windows 10 or later.
 
 
 The WIAS_HRESULT macro writes a diagnostic message to the <i>Wiatrace.log</i> file.
-
-
-## -syntax
-
-
-````
-HRESULT WIAS_HRESULT(
-   HINSTANCE hInstance,
-   HRESULT   hr
-);
-````
 
 
 ## -parameters
@@ -99,18 +88,18 @@ This macro is the recommended way to output HRESULTS on Windows Vista.
 
 ## -see-also
 
-<a href="..\wiautil\nf-wiautil-wias_trace.md">WIAS_TRACE</a>
 
 
 
-<a href="..\wiautil\nf-wiautil-wias_assert.md">WIAS_ASSERT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549531">WIAS_ASSERT</a>
 
 
 
-<a href="..\wiautil\nf-wiautil-wias_error.md">WIAS_ERROR</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549565">WIAS_ERROR</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549619">WIAS_TRACE</a>
  
 
  

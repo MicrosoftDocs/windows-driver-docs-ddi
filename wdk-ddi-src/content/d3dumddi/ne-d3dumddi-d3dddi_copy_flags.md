@@ -52,17 +52,6 @@ req.typenames: D3DDDI_COPY_FLAGS
 Specifies how to handle the existing contents of a resource during a copy or update operation of a region within that resource.
 
 
-## -syntax
-
-
-````
-typedef enum D3DDDI_COPY_FLAGS { 
-  D3DDDI_COPY_NO_OVERWRITE  = 0x00000001,
-  D3DDDI_COPY_DISCARD       = 0x00000002
-} D3DDDI_COPY_FLAGS;
-````
-
-
 ## -enum-fields
 
 

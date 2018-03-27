@@ -54,18 +54,6 @@ req.typenames:
                 
 
 
-## -syntax
-
-
-````
-typedef enum _IDDCX_GAMMARAMP_TYPE { 
-  IDDCX_GAMMARAMP_TYPE_UNINITIALIZED  = 0,
-  IDDCX_GAMMARAMP_TYPE_DEFAULT        = 1,
-  IDDCX_GAMMARAMP_TYPE_RGB256x3x16    = 2
-} IDDCX_GAMMARAMP_TYPE;
-````
-
-
 ## -enum-fields
 
 

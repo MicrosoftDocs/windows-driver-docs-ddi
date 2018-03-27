@@ -52,17 +52,6 @@ req.typenames: D3DHAL_DP2SETRENDERTARGET2
 The D3DHAL_DP2SETRENDERTARGET2 structure is used with the D3DDP2OP_SETRENDERTARGET2 opcode to map a portion of a rendering target surface and depth buffer in the current context.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DHAL_DP2SETRENDERTARGET2 {
-  DWORD RTIndex;
-  DWORD hRenderTarget;
-} D3DHAL_DP2SETRENDERTARGET2, *LPD3DHAL_DP2SETRENDERTARGET2;
-````
-
-
 ## -struct-fields
 
 
@@ -80,14 +69,14 @@ Specifies a handle to the rendering target.
 
 ## -see-also
 
+
+
+
 D3DDP2OP_SETRENDERTARGET2
 
 
 
-<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
-
-
-
+<a href="https://msdn.microsoft.com/6128ff7a-0d2c-48df-8b5e-cab33c5a74f5">D3dDrawPrimitives2</a>
  
 
  

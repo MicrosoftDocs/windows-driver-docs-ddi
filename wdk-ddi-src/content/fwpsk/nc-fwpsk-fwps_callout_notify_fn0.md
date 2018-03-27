@@ -52,22 +52,7 @@ req.typenames: INSTANCE_PARTIAL_INFORMATION, PINSTANCE_PARTIAL_INFORMATION
 The filter engine calls a callout's 
   <i>notifyFn0</i> callout function to notify the callout driver about events that are associated with the
   callout.
-<div class="alert"><b>Note</b>  <i>notifyFn0</i> is the specific version of <a href="https://msdn.microsoft.com/library/windows/hardware/ff568802">notifyFn</a> used in Windows Vista and later. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows 8, <a href="..\fwpsk\nc-fwpsk-fwps_callout_notify_fn2.md">notifyFn2</a> is available. For Windows 7, <a href="..\fwpsk\nc-fwpsk-fwps_callout_notify_fn1.md">notifyFn1</a> is available.</div><div> </div>
-
-## -prototype
-
-
-````
-FWPS_CALLOUT_NOTIFY_FN0 notifyFn0;
-
-NTSTATUS NTAPI notifyFn0(
-  _In_       FWPS_CALLOUT_NOTIFY_TYPE notifyType,
-  _In_ const GUID                     *filterKey,
-  _In_ const FWPS_FILTER0             *filter
-)
-{ ... }
-````
-
+<div class="alert"><b>Note</b>  <i>notifyFn0</i> is the specific version of <a href="https://msdn.microsoft.com/library/windows/hardware/ff568802">notifyFn</a> used in Windows Vista and later. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows 8, <a href="https://msdn.microsoft.com/c70c987b-5b4c-4ddd-8eb8-8c3c40003ab3">notifyFn2</a> is available. For Windows 7, <a href="https://msdn.microsoft.com/3f377049-cc5f-427d-9b09-5e49e4b305c5">notifyFn1</a> is available.</div><div> </div>
 
 ## -parameters
 
@@ -122,7 +107,7 @@ A callout's
      <b>Context</b> member of this structure to point to a callout driver-supplied context structure when the
      filter is added to the filter engine. This context structure is opaque to the filter engine, and can be
      used by the callout driver's 
-     <a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn0</a> callout function to preserve
+     <a href="https://msdn.microsoft.com/e8423c27-d3eb-4bef-a835-37fae0e2b68c">classifyFn0</a> callout function to preserve
      any driver-specific data or state information between calls by the filter engine to the callout driver's
      
      <i>classifyFn0</i> callout function.
@@ -181,7 +166,7 @@ An error occurred. If the
 
 
 A callout driver registers a callout's callout functions with the filter engine by calling the 
-    <a href="..\fwpsk\nf-fwpsk-fwpscalloutregister0.md">FwpsCalloutRegister0</a> function.
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff551140">FwpsCalloutRegister0</a> function.
 
 The filter engine calls a callout's 
     <i>notifyFn0</i> callout function to notify the callout driver about events that are associated with the
@@ -217,19 +202,6 @@ When a filter that specifies a callout for the filter's action is deleted from t
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568802">notifyFn</a>
-
-
-
-<a href="..\fwpsk\nc-fwpsk-fwps_callout_notify_fn2.md">notifyFn2</a>
-
-
-
-<a href="..\fwpsk\nf-fwpsk-fwpscalloutregister0.md">FwpsCalloutRegister0</a>
-
-
-
-<a href="..\fwpsk\nc-fwpsk-fwps_callout_notify_fn1.md">notifyFn1</a>
 
 
 
@@ -237,7 +209,7 @@ When a filter that specifies a callout for the filter's action is deleted from t
 
 
 
-<a href="..\fwpsk\ns-fwpsk-fwps_callout0_.md">FWPS_CALLOUT0</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551224">FWPS_CALLOUT0</a>
 
 
 
@@ -245,6 +217,19 @@ When a filter that specifies a callout for the filter's action is deleted from t
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551140">FwpsCalloutRegister0</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568802">notifyFn</a>
+
+
+
+<a href="https://msdn.microsoft.com/3f377049-cc5f-427d-9b09-5e49e4b305c5">notifyFn1</a>
+
+
+
+<a href="https://msdn.microsoft.com/c70c987b-5b4c-4ddd-8eb8-8c3c40003ab3">notifyFn2</a>
  
 
  

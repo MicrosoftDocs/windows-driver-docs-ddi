@@ -52,17 +52,6 @@ req.typenames: D3DDDIARG_UPDATEOVERLAY
 The D3DDDIARG_UPDATEOVERLAY structure describes an overlay to modify. 
 
 
-## -syntax
-
-
-````
-typedef struct _D3DDDIARG_UPDATEOVERLAY {
-  HANDLE             hOverlay;
-  D3DDDI_OVERLAYINFO OverlayInfo;
-} D3DDDIARG_UPDATEOVERLAY;
-````
-
-
 ## -struct-fields
 
 
@@ -75,19 +64,19 @@ typedef struct _D3DDDIARG_UPDATEOVERLAY {
 
 ### -field OverlayInfo
 
-[in] A pointer to the <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_overlayinfo.md">D3DDDI_OVERLAYINFO</a> structure that describes the modification for the overlay. 
+[in] A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff544621">D3DDDI_OVERLAYINFO</a> structure that describes the modification for the overlay. 
 
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_overlayinfo.md">D3DDDI_OVERLAYINFO</a>
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_updateoverlay.md">UpdateOverlay</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544621">D3DDDI_OVERLAYINFO</a>
 
 
 
+<a href="https://msdn.microsoft.com/80d7cc5c-51d8-4b91-9581-b073f9b0e68a">UpdateOverlay</a>
  
 
  

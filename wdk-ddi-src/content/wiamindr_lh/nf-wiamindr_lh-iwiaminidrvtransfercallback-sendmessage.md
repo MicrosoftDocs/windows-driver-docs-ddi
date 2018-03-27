@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: wiamindr_lh.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 Periodically called by the WIA mini-driver during a data transfer, to update the WIA application client about the progress and status of the transfer.
 
 For more information about the progress data that is transferred, see <a href="http://msdn.microsoft.com/library/windows/desktop/ms629867(v=vs.85).aspx">WiaTransferParams</a>.
-
-
-## -syntax
-
-
-````
-HRESULT SendMessage(
-  [in] LONG              lFlags,
-  [in] WiaTransferParams *pWiaTransferParams
-);
-````
 
 
 ## -parameters
@@ -101,11 +90,6 @@ When the current transfer sequence is cancelled, the <b>SendMessage</b> method r
 
 ## -see-also
 
-<a href="..\wiamindr_lh\nn-wiamindr_lh-iwiaminidrvtransfercallback.md">IWiaMiniDrvTransferCallback</a>
-
-
-
-<a href="http://msdn.microsoft.com/library/windows/desktop/ms629867(v=vs.85).aspx">WiaTransferParams</a>
 
 
 
@@ -113,6 +97,11 @@ When the current transfer sequence is cancelled, the <b>SendMessage</b> method r
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj151550">IWiaMiniDrvTransferCallback</a>
+
+
+
+<a href="http://msdn.microsoft.com/library/windows/desktop/ms629867(v=vs.85).aspx">WiaTransferParams</a>
  
 
  

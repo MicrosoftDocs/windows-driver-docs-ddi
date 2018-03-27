@@ -53,22 +53,6 @@ req.product: Windows 10 or later.
 The <b>USB_HUB_DESCRIPTOR</b> structure contains a hub descriptor.
 
 
-## -syntax
-
-
-````
-typedef struct _USB_HUB_DESCRIPTOR {
-  UCHAR  bDescriptorLength;
-  UCHAR  bDescriptorType;
-  UCHAR  bNumberOfPorts;
-  USHORT wHubCharacteristics;
-  UCHAR  bPowerOnToPowerGood;
-  UCHAR  bHubControlCurrent;
-  UCHAR  bRemoveAndPowerMask[64];
-} USB_HUB_DESCRIPTOR, *PUSB_HUB_DESCRIPTOR;
-````
-
-
 ## -struct-fields
 
 
@@ -113,7 +97,6 @@ This member implements DeviceRemovable and PortPwrCtrlMask fields of the hub des
 
 ## -see-also
 
-<a href="..\usbioctl\ns-usbioctl-_usb_hub_information.md">USB_HUB_INFORMATION</a>
 
 
 
@@ -121,6 +104,7 @@ This member implements DeviceRemovable and PortPwrCtrlMask fields of the hub des
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540020">USB_HUB_INFORMATION</a>
  
 
  

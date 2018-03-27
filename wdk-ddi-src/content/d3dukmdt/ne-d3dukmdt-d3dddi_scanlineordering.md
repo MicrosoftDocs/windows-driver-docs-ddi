@@ -52,18 +52,6 @@ req.typenames: D3DDDI_SCANLINEORDERING
 The D3DDDI_SCANLINEORDERING enumeration type contains values that identify how the scan lines are drawn on a surface. 
 
 
-## -syntax
-
-
-````
-typedef enum D3DDDI_SCANLINEORDERING { 
-  D3DDDI_SCANLINEORDERING_UNKNOWN      = 0,
-  D3DDDI_SCANLINEORDERING_PROGRESSIVE  = 1,
-  D3DDDI_SCANLINEORDERING_INTERLACED   = 2
-} D3DDDI_SCANLINEORDERING;
-````
-
-
 ## -enum-fields
 
 

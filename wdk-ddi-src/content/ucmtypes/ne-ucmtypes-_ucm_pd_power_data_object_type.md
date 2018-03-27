@@ -53,18 +53,6 @@ req.product: Windows 10 or later.
 Defines Power Data Object types.
 
 
-## -syntax
-
-
-````
-typedef enum _UCM_PD_POWER_DATA_OBJECT_TYPE { 
-  UcmPdPdoTypeFixedSupply               = 0,
-  UcmPdPdoTypeBatterySupply             = 1,
-  UcmPdPdoTypeVariableSupplyNonBattery  = 2
-} UCM_PD_POWER_DATA_OBJECT_TYPE;
-````
-
-
 ## -enum-fields
 
 
@@ -87,10 +75,10 @@ Indicates the PD data object type is a non-battery variable supply.
 
 ## -see-also
 
-<a href="..\ucmtypes\nf-ucmtypes-ucm_pd_power_data_object_get_type.md">UCM_PD_POWER_DATA_OBJECT_GET_TYPE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt187936">UCM_PD_POWER_DATA_OBJECT_GET_TYPE</a>
  
 
  

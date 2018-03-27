@@ -53,18 +53,6 @@ req.product: Windows 10 or later.
 This structure stores information about a stream associated with a bulk endpoint.
 
 
-## -syntax
-
-
-````
-typedef struct _STREAM_INFO {
-  ULONG    Size;
-  WDFQUEUE WdfQueue;
-  ULONG    StreamId;
-} STREAM_INFO, *P_STREAM_INFO;
-````
-
-
 ## -struct-fields
 
 

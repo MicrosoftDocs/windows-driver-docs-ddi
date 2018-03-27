@@ -52,17 +52,6 @@ req.typenames: NDIS_WWAN_GET_VISIBLE_PROVIDERS, *PNDIS_WWAN_GET_VISIBLE_PROVIDER
 The NDIS_WWAN_GET_VISIBLE_PROVIDERS structure is used to request the miniport driver get either all visible providers or only multi-carrier visible providers.
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_WWAN_GET_VISIBLE_PROVIDERS {
-  NDIS_OBJECT_HEADER         Header;
-  WWAN_GET_VISIBLE_PROVIDERS VisibleProviders;
-} NDIS_WWAN_GET_VISIBLE_PROVIDERS, *PNDIS_WWAN_GET_VISIBLE_PROVIDERS;
-````
-
-
 ## -struct-fields
 
 
@@ -116,7 +105,7 @@ sizeof(NDIS_WWAN_GET_VISIBLE_PROVIDERS)
  
 
 For more information about these members, see 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>.
 
 
 ### -field VisibleProviders
@@ -126,10 +115,10 @@ A formatted WWAN_GET_VISIBLE_PROVIDERS object that provides additional informati
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_get_visible_providers.md">WWAN_GET_VISIBLE_PROVIDERS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh831879">WWAN_GET_VISIBLE_PROVIDERS</a>
  
 
  

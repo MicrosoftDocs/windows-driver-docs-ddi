@@ -53,18 +53,6 @@ req.product: Windows 10 or later.
 The WWAN_USSD_REQUEST_TYPE enumeration lists the different types of Unstructured Supplementary Service Data (USSD) session requests.
 
 
-## -syntax
-
-
-````
-typedef enum _WWAN_USSD_REQUEST_TYPE { 
-  WwanUssdRequestInitiate  = 0,
-  WwanUssdRequestContinue  = 1,
-  WwanUssdRequestCancel    = 2
-} WWAN_USSD_REQUEST_TYPE;
-````
-
-
 ## -enum-fields
 
 

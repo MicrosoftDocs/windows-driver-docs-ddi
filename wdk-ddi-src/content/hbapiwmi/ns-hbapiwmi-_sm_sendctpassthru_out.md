@@ -52,19 +52,6 @@ req.typenames: SM_SendCTPassThru_OUT, *PSM_SendCTPassThru_OUT
 The SM_SendCTPassThru_OUT structure is used to receive output parameters from the SM_SendCTPassThru method.
 
 
-## -syntax
-
-
-````
-typedef struct _SM_SendCTPassThru_OUT {
-  ULONG HBAStatus;
-  ULONG TotalRespBufferSize;
-  ULONG OutRespBufferSize;
-  UCHAR RespBuffer[1];
-} SM_SendCTPassThru_OUT, *PSM_SendCTPassThru_OUT;
-````
-
-
 ## -struct-fields
 
 

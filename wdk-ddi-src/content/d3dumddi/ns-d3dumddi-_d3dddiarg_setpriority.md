@@ -52,17 +52,6 @@ req.typenames: D3DDDIARG_SETPRIORITY
 The D3DDDIARG_SETPRIORITY structure describes the priority level to set for a managed texture. 
 
 
-## -syntax
-
-
-````
-typedef struct _D3DDDIARG_SETPRIORITY {
-  HANDLE hResource;
-  UINT   Priority;
-} D3DDDIARG_SETPRIORITY;
-````
-
-
 ## -struct-fields
 
 
@@ -91,10 +80,10 @@ The priority level at which a texture is set determines its eviction order from 
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setpriority.md">SetPriority</a>
 
 
 
+<a href="https://msdn.microsoft.com/61ac2d28-7aed-4796-8d09-591db936013b">SetPriority</a>
  
 
  

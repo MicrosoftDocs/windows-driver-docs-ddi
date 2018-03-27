@@ -53,20 +53,6 @@ req.product: Windows 10 or later.
 The WIA_DEV_CAP_DRV structure is used to enumerate device capabilities. A device capability is defined by an event or command that the device supports.
 
 
-## -syntax
-
-
-````
-typedef struct _WIA_DEV_CAP_DRV {
-  GUID     *guid;
-  ULONG    ulFlags;
-  LPOLESTR wszName;
-  LPOLESTR wszDescription;
-  LPOLESTR wszIcon;
-} WIA_DEV_CAP_DRV, *PWIA_DEV_CAP_DRV;
-````
-
-
 ## -struct-fields
 
 
@@ -140,14 +126,14 @@ When a driver is enumerating event handlers, the only valid value is WIA_IS_DEFA
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/639eff56-655d-4b6a-95f0-daa1daf62fae">Driver Capabilities</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543977">IWiaMiniDrv::drvGetCapabilities</a>
-
-
-
  
 
  

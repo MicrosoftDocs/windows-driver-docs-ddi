@@ -61,14 +61,6 @@ The <i>ReconstructStack</i> callback function queries dump stream provider on a 
 </tr>
 </table></span></div>
 
-## -prototype
-
-
-````
- CALLBACK* PDEBUG_STACK_PROVIDER_RECONSTRUCTSTACK ReconstructStack;
-````
-
-
 ## -parameters
 
 

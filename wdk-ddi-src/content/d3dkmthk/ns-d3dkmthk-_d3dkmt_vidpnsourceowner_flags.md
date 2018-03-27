@@ -49,23 +49,7 @@ req.typenames: D3DKMT_VIDPNSOURCEOWNER_FLAGS
 ## -description
 
 
-Specifies output duplication options for use with the <a href="..\d3dkmthk\nc-d3dkmthk-pfnd3dkmt_setvidpnsourceowner1.md">D3DKMTSetVidPnSourceOwner1</a> function.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DKMT_VIDPNSOURCEOWNER_FLAGS {
-  union {
-    struct {
-      UINT AllowOutputDuplication  :1;
-      UINT Reserved  :31;
-    };
-    UINT   Value;
-  };
-} D3DKMT_VIDPNSOURCEOWNER_FLAGS;
-````
+Specifies output duplication options for use with the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439459">D3DKMTSetVidPnSourceOwner1</a> function.
 
 
 ## -struct-fields
@@ -100,10 +84,10 @@ Specifies the number of output duplication paths on the VidPN.
 
 ## -see-also
 
-<a href="..\d3dkmthk\nc-d3dkmthk-pfnd3dkmt_setvidpnsourceowner1.md">D3DKMTSetVidPnSourceOwner1</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439459">D3DKMTSetVidPnSourceOwner1</a>
  
 
  

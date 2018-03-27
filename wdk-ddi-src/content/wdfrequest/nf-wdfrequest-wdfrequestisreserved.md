@@ -56,16 +56,6 @@ req.product: Windows 10 or later.
 The <b>WdfRequestIsReserved</b> method determines whether a specified request object is one that the framework reserved to support <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/guaranteeing-forward-progress-of-i-o-operations">guaranteed forward progress</a> during low-memory situations.
 
 
-## -syntax
-
-
-````
-BOOLEAN WdfRequestIsReserved(
-  _In_ WDFREQUEST Request
-);
-````
-
-
 ## -parameters
 
 
@@ -94,7 +84,7 @@ For more information about the <b>WdfRequestIsReserved</b> method, see <a href="
 
 #### Examples
 
-The following code example determines whether a request object that a driver's <a href="..\wdfio\nc-wdfio-evt_wdf_io_queue_io_read.md">EvtIoRead</a> callback function has received is one that the driver created for low-memory situations.
+The following code example determines whether a request object that a driver's <a href="https://msdn.microsoft.com/d6fbb153-1355-4e94-b5d3-a218bd8c565d">EvtIoRead</a> callback function has received is one that the driver created for low-memory situations.
 
 <div class="code"><span codelanguage=""><table>
 <tr>
@@ -127,10 +117,10 @@ The following code example determines whether a request object that a driver's <
 
 ## -see-also
 
-<a href="..\wdfio\nf-wdfio-wdfioqueueassignforwardprogresspolicy.md">WdfIoQueueAssignForwardProgressPolicy</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547395">WdfIoQueueAssignForwardProgressPolicy</a>
  
 
  

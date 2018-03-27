@@ -52,22 +52,6 @@ req.typenames: MSFC_VirtualFibrePortAttributes, *PMSFC_VirtualFibrePortAttribute
 The MSFC_VirtualFibrePortAttributes structure contains attribute information for a virtual port.
 
 
-## -syntax
-
-
-````
-typedef struct _MSFC_VirtualFibrePortAttributes {
-  ULONG  Status;
-  ULONG  FCId;
-  USHORT VirtualName[64];
-  UCHAR  Tag[16];
-  UCHAR  WWPN[8];
-  UCHAR  WWNN[8];
-  UCHAR  FabricWWN[8];
-} MSFC_VirtualFibrePortAttributes, *PMSFC_VirtualFibrePortAttributes;
-````
-
-
 ## -struct-fields
 
 
@@ -110,10 +94,10 @@ The world wide port name of the fabric.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh127629">MSFC_VirtualFibrePortAttributes WMI Class</a>
-
-
-
  
 
  

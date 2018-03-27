@@ -53,17 +53,6 @@ The NDIS_WWAN_READY_INFO structure represents the ready-state of the MB device a
   Identity Module (SIM card).
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_WWAN_READY_INFO {
-  NDIS_OBJECT_HEADER Header;
-  WWAN_READY_INFO    ReadyInfo;
-} NDIS_WWAN_READY_INFO, *PNDIS_WWAN_READY_INFO;
-````
-
-
 ## -struct-fields
 
 
@@ -117,26 +106,26 @@ sizeof(NDIS_WWAN_READY_INFO)
  
 
 For more information about these members, see 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>.
 
 
 ### -field ReadyInfo
 
 A formatted 
-     <a href="..\wwan\ns-wwan-_wwan_ready_info.md">WWAN_READY_INFO</a> object that represents the
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571226">WWAN_READY_INFO</a> object that represents the
      device ready-state.
 
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_ready_info.md">WWAN_READY_INFO</a>
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571226">WWAN_READY_INFO</a>
  
 
  

@@ -54,20 +54,6 @@ The WWAN_PACKET_SERVICE_STATE enumeration lists the different packet service att
   are supported by the MB device.
 
 
-## -syntax
-
-
-````
-typedef enum _WWAN_PACKET_SERVICE_STATE { 
-  WwanPacketServiceStateUnknown    = 0,
-  WwanPacketServiceStateAttaching,
-  WwanPacketServiceStateAttached,
-  WwanPacketServiceStateDetaching,
-  WwanPacketServiceStateDetached
-} WWAN_PACKET_SERVICE_STATE, *PWWAN_PACKET_SERVICE_STATE;
-````
-
-
 ## -enum-fields
 
 
@@ -110,10 +96,10 @@ The packet service attach or detach state is typically reflected in the device's
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_packet_service.md">WWAN_PACKET_SERVICE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571210">WWAN_PACKET_SERVICE</a>
  
 
  

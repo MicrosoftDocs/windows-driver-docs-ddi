@@ -53,21 +53,6 @@ req.product: Windows 10 or later.
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef struct _RILTONESIGNALINFO_V2 {
-  DWORD                 cbSize;
-  DWORD                 dwParams;
-  DWORD                 dwExecutor;
-  RIL3GPPTONE           dwGPPTone;
-  RIL3GPP2TONE          dwGPP2Tone;
-  RIL3GPP2ISDNALERTING  dwGPP2IsdnAlerting;
-} RILTONESIGNALINFO_V2, RILTONESIGNALINFO_V2;
-````
-
-
 ## -struct-fields
 
 

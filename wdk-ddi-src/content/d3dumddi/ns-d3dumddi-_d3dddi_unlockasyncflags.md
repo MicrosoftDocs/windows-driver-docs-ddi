@@ -52,22 +52,6 @@ req.typenames: D3DDDI_UNLOCKASYNCFLAGS
 The D3DDDI_UNLOCKASYNCFLAGS structure identifies how to unlock a resource.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DDDI_UNLOCKASYNCFLAGS {
-  union {
-    struct {
-      UINT NotifyOnly  :1;
-      UINT Reserved  :31;
-    };
-    UINT   Value;
-  };
-} D3DDDI_UNLOCKASYNCFLAGS;
-````
-
-
 ## -struct-fields
 
 
@@ -92,10 +76,10 @@ A member in the union that is contained in D3DDDI_UNLOCKASYNCFLAGS that can hold
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_unlock.md">D3DDDIARG_UNLOCK</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543394">D3DDDIARG_UNLOCK</a>
  
 
  

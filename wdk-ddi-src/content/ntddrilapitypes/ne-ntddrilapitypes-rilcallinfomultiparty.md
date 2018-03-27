@@ -52,17 +52,6 @@ req.typenames: RILCALLINFOMULTIPARTY
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef enum _RILCALLINFOMULTIPARTY { 
-  RIL_CALL_MULTIPARTY,
-  RIL_CALL_MAX
-} RILCALLINFOMULTIPARTY;
-````
-
-
 ## -enum-fields
 
 

@@ -47,11 +47,6 @@ req.product: Windows 10 or later.
 # IOCTL_INTERNAL_USB_GET_TOPOLOGY_ADDRESS IOCTL
 
 
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
-
 ## -description
 
 
@@ -68,22 +63,22 @@ The <b>IOCTL_INTERNAL_USB_GET_TOPOLOGY_ADDRESS</b>
 
 ### -input-buffer
 
-<b>Parameters.Others.Argument1</b> points to a <a href="..\usbioctl\ns-usbioctl-_usb_topology_address.md">USB_TOPOLOGY_ADDRESS</a> structure to receive the device topology information.
+<b>Parameters.Others.Argument1</b> points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff540164">USB_TOPOLOGY_ADDRESS</a> structure to receive the device topology information.
 
 
 ### -input-buffer-length
 
-The size of a <a href="..\usbioctl\ns-usbioctl-_usb_topology_address.md">USB_TOPOLOGY_ADDRESS</a> structure.
+The size of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff540164">USB_TOPOLOGY_ADDRESS</a> structure.
 
 
 ### -output-buffer
 
-<b>Parameters.Others.Argument1</b> points to a <a href="..\usbioctl\ns-usbioctl-_usb_topology_address.md">USB_TOPOLOGY_ADDRESS</a> structure containing the device topology information.
+<b>Parameters.Others.Argument1</b> points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff540164">USB_TOPOLOGY_ADDRESS</a> structure containing the device topology information.
 
 
 ### -output-buffer-length
 
-The size of a <a href="..\usbioctl\ns-usbioctl-_usb_topology_address.md">USB_TOPOLOGY_ADDRESS</a> structure.
+The size of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff540164">USB_TOPOLOGY_ADDRESS</a> structure.
 
 
 ### -in-out-buffer
@@ -111,10 +106,10 @@ The hub or port driver sets <b>Irp-&gt;IoStatus.Status</b> to STATUS_SUCCESS or 
 
 ## -see-also
 
+
+
+
 <b>USB_TOPOLOGY_ADDRESS</b>
-
-
-
  
 
  

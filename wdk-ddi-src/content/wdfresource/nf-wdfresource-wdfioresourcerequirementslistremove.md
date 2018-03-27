@@ -56,17 +56,6 @@ req.product: Windows 10 or later.
 The <b>WdfIoResourceRequirementsListRemove</b> method removes a <a href="https://msdn.microsoft.com/c7a6997b-34f9-4dd9-b384-2321a8b5ce54">logical configuration</a> from a resource requirements list.
 
 
-## -syntax
-
-
-````
-VOID WdfIoResourceRequirementsListRemove(
-  _In_ WDFIORESREQLIST RequirementsList,
-  _In_ ULONG           Index
-);
-````
-
-
 ## -parameters
 
 
@@ -135,10 +124,10 @@ Example_EvtDeviceFilterRemoveResourceRequirements(
 
 ## -see-also
 
-<a href="..\wdfresource\nf-wdfresource-wdfioresourcerequirementslistremovebyioreslist.md">WdfIoResourceRequirementsListRemoveByIoResList</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548575">WdfIoResourceRequirementsListRemoveByIoResList</a>
  
 
  

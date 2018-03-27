@@ -70,21 +70,6 @@ Filter counters are used for tracking filter match activity.
 
 
 
-## -prototype
-
-
-````
-NDIS_PD_ALLOCATE_COUNTER NdisPDAllocateCounter;
-
-NTSTATUS NdisPDAllocateCounter(
-  _In_        NDIS_PD_PROVIDER_HANDLE    ProviderHandle,
-  _In_  const NDIS_PD_COUNTER_PARAMETERS *CounterParameters,
-  _Out_       NDIS_PD_COUNTER_HANDLE     *CounterHandle
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -97,7 +82,7 @@ A provider handle that identifies the PD-capable miniport driver's provider obje
 
 ### -param CounterParameters [in]
 
-An <a href="..\ndis\ns-ndis-_ndis_pd_counter_parameters.md">NDIS_PD_COUNTER_PARAMETERS</a> structure that specifies information such as the counter type.
+An <a href="https://msdn.microsoft.com/library/windows/hardware/dn931836">NDIS_PD_COUNTER_PARAMETERS</a> structure that specifies information such as the counter type.
 
 
 ### -param CounterHandle [out]
@@ -193,14 +178,14 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_ndis_pd_counter_parameters.md">NDIS_PD_COUNTER_PARAMETERS</a>
 
 
 
-<a href="..\ndis\nc-ndis-ndis_pd_free_counter.md">NdisPDFreeCounter</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn931836">NDIS_PD_COUNTER_PARAMETERS</a>
 
 
 
+<a href="https://msdn.microsoft.com/60C47437-A999-4F82-B144-6F77410E5C07">NdisPDFreeCounter</a>
  
 
  

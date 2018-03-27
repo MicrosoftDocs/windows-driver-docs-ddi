@@ -53,23 +53,6 @@ req.product: Windows 10 or later.
 <i>SvgaHwIoPortUshortString</i> traps an I/O port range to which a full-screen MS-DOS application in an x86-based machine is sending a sequence of USHORT-sized data.
 
 
-## -prototype
-
-
-````
-PDRIVER_IO_PORT_USHORT_STRING SvgaHwIoPortUshortString;
-
-VP_STATUS SvgaHwIoPortUshortString(
-   ULONG_PTR Context,
-   ULONG     Port,
-   UCHAR     AccessMode,
-   PUSHORT   Data,
-   ULONG     DataLength
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -137,15 +120,10 @@ If one or more application-issued x86 <b>INSW</b> or <b>OUTSW</b> instructions m
 
 ## -see-also
 
-<a href="..\video\ns-video-_video_port_config_info.md">VIDEO_PORT_CONFIG_INFO</a>
 
 
 
-<a href="..\dispmprt\ns-dispmprt-_emulator_access_entry.md">EMULATOR_ACCESS_ENTRY</a>
-
-
-
-<a href="..\video\nc-video-pdriver_io_port_ushort.md">SvgaHwIoPortUshort</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564131">EMULATOR_ACCESS_ENTRY</a>
 
 
 
@@ -153,18 +131,23 @@ If one or more application-issued x86 <b>INSW</b> or <b>OUTSW</b> instructions m
 
 
 
-<a href="..\video\nf-video-videoportgetdevicebase.md">VideoPortGetDeviceBase</a>
+<a href="https://msdn.microsoft.com/304656b4-ebbe-4cb1-8735-2e03bec71f9f">SvgaHwIoPortUshort</a>
 
 
 
-<a href="..\video\nf-video-videoportsettrappedemulatorports.md">VideoPortSetTrappedEmulatorPorts</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570498">VIDEO_ACCESS_RANGE</a>
 
 
 
-<a href="..\video\ns-video-_video_access_range.md">VIDEO_ACCESS_RANGE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570531">VIDEO_PORT_CONFIG_INFO</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570310">VideoPortGetDeviceBase</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570366">VideoPortSetTrappedEmulatorPorts</a>
  
 
  

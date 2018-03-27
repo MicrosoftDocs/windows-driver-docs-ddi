@@ -52,21 +52,6 @@ req.typenames: D3D10_DDI_BOX
 The D3D10_DDI_BOX structure describes a volume.
 
 
-## -syntax
-
-
-````
-typedef struct D3D10_DDI_BOX {
-  LONG left;
-  LONG top;
-  LONG front;
-  LONG right;
-  LONG bottom;
-  LONG back;
-} D3D10_DDI_BOX;
-````
-
-
 ## -struct-fields
 
 
@@ -106,10 +91,10 @@ typedef struct D3D10_DDI_BOX {
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_resourcecopyregion.md">ResourceCopyRegion</a>
 
 
 
+<a href="https://msdn.microsoft.com/e782dc8c-e34e-4f96-b6d9-c34d7843ed05">ResourceCopyRegion</a>
  
 
  

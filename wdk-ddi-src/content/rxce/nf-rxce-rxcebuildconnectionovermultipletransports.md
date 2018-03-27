@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
@@ -51,25 +51,6 @@ req.product: Windows 10 or later.
 
 
 <b>RxCeBuildConnectionOverMultipleTransports</b> establishes a connection between a local RDBSS connection address and a given remote address and supports multiple transports. A set of local addresses are specified and this routine attempts to connect to the target server via all the transports associated with the local addresses. One connection is chosen as the winner depending on the connect options.
-
-
-## -syntax
-
-
-````
-NTSTATUS RxCeBuildConnectionOverMultipleTransports(
-  _Inout_ PRDBSS_DEVICE_OBJECT                pMiniRedirectorDeviceObject,
-  _In_    RXCE_CONNECTION_CREATE_OPTIONS      CreateOptions,
-  _In_    ULONG                               NumberOfAddresses,
-  _In_    PRXCE_ADDRESS                       *pLocalAddressPointers,
-  _In_    PUNICODE_STRING                     pServerName,
-  _In_    PRXCE_CONNECTION_INFORMATION        pConnectionInformation,
-  _In_    PRXCE_CONNECTION_EVENT_HANDLER      pHandler,
-  _In_    PVOID                               pEventContext,
-  _In_    PRXCE_CONNECTION_COMPLETION_ROUTINE pCompletionRoutine,
-  _Inout_ PRXCE_CONNECTION_COMPLETION_CONTEXT pCompletionContext
-);
-````
 
 
 ## -parameters
@@ -230,18 +211,18 @@ When <b>RxCeBuildConnectionOverMultipleTransports</b> is successful, the virtual
 
 ## -see-also
 
-<a href="..\rxce\nf-rxce-rxceteardownconnection.md">RxCeTearDownConnection</a>
 
 
 
-<a href="..\rxce\nf-rxce-rxcebuildconnection.md">RxCeBuildConnection</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553417">RxCeBuildConnection</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554321">RxCeTearDownConnection</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565085">TDI_CONNECTION_INFORMATION</a>
-
-
-
  
 
  

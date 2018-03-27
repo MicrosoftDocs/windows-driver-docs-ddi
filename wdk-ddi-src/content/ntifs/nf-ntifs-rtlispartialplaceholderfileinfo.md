@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,18 +51,6 @@ req.typenames: TOKEN_TYPE
 
 The <b>RtlIsPartialPlaceholderFileInfo</b> routine determines if a file is a known type of placeholder, based on the information
     returned by <b>NtQueryInformationFile</b> or <b>NtQueryDirectoryFile</b>.
-
-
-## -syntax
-
-
-````
-NTSTATUS RtlIsPartialPlaceholderFileInfo(
-  _In_   CONST VOID            *InfoBuffer,
-  _In_  FILE_INFORMATION_CLASS InfoClass,
-  _Out_ PBOOLEAN               IsPartialPlaceholder
-);
-````
 
 
 ## -parameters
@@ -110,10 +98,10 @@ Returns<b> STATUS_SUCCESS</b> if IsPartialPlaceholder is valid and not undefined
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-rtlispartialplaceholder.md">RtlIsPartialPlaceholder</a>
 
 
 
+<a href="https://msdn.microsoft.com/FB47F5BE-76B4-4A99-A15F-DE3E11D1DA2B">RtlIsPartialPlaceholder</a>
  
 
  

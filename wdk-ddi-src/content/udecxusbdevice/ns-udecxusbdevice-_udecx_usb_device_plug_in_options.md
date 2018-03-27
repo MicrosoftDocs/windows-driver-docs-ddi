@@ -50,19 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-Contains the port numbers to which a virtual USB device is connected. Initialize this structure by calling the <a href="..\udecxusbdevice\nf-udecxusbdevice-udecx_usb_device_plug_in_options_init.md">UDECX_USB_DEVICE_PLUG_IN_OPTIONS_INIT</a> method.
-
-
-## -syntax
-
-
-````
-typedef struct _UDECX_USB_DEVICE_PLUG_IN_OPTIONS {
-  ULONG Size;
-  ULONG Usb20PortNumber;
-  ULONG Usb30PortNumber;
-} UDECX_USB_DEVICE_PLUG_IN_OPTIONS, * PUDECX_USB_DEVICE_PLUG_IN_OPTIONS;
-````
+Contains the port numbers to which a virtual USB device is connected. Initialize this structure by calling the <a href="https://msdn.microsoft.com/library/windows/hardware/mt628001">UDECX_USB_DEVICE_PLUG_IN_OPTIONS_INIT</a> method.
 
 
 ## -struct-fields
@@ -87,10 +75,10 @@ The USB 2.0 port number.
 
 ## -see-also
 
-<a href="..\udecxusbdevice\nf-udecxusbdevice-udecxusbdeviceplugin.md">UdecxUsbDevicePlugIn</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt627975">UdecxUsbDevicePlugIn</a>
  
 
  

@@ -52,17 +52,6 @@ req.typenames: IRB_REQ_GET_LOCAL_HOST_INFORMATION
 This structure contains the fields necessary for the 1394 bus driver to carry out a GetLocalHostInformation request.
 
 
-## -syntax
-
-
-````
-typedef struct _IRB_REQ_GET_LOCAL_HOST_INFORMATION {
-  ULONG nLevel;
-  PVOID Information;
-} IRB_REQ_GET_LOCAL_HOST_INFORMATION;
-````
-
-
 ## -struct-fields
 
 

@@ -52,19 +52,6 @@ req.typenames: FILE_NAMES_INFORMATION, *PFILE_NAMES_INFORMATION
 A FILE_NAMES_INFORMATION structure used to query detailed information about the names of files in a directory. 
 
 
-## -syntax
-
-
-````
-typedef struct _FILE_NAMES_INFORMATION {
-  ULONG NextEntryOffset;
-  ULONG FileIndex;
-  ULONG FileNameLength;
-  WCHAR FileName[1];
-} FILE_NAMES_INFORMATION, *PFILE_NAMES_INFORMATION;
-````
-
-
 ## -struct-fields
 
 
@@ -98,7 +85,7 @@ This information can be queried in either of the following ways:
 
 <ul>
 <li>
-Call <a href="..\ntifs\nf-ntifs-zwquerydirectoryfile.md">ZwQueryDirectoryFile</a>, passing FileNamesInformation as the value of <i>FileInformationClass</i> and passing a caller-allocated, FILE_NAMES_INFORMATION-structured buffer as the value of <i>FileInformation</i>. 
+Call <a href="https://msdn.microsoft.com/library/windows/hardware/ff567047">ZwQueryDirectoryFile</a>, passing FileNamesInformation as the value of <i>FileInformationClass</i> and passing a caller-allocated, FILE_NAMES_INFORMATION-structured buffer as the value of <i>FileInformation</i>. 
 
 </li>
 <li>
@@ -115,7 +102,10 @@ This structure must be aligned on a LONG (4-byte) boundary. If a buffer contains
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-zwquerydirectoryfile.md">ZwQueryDirectoryFile</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547026">FsRtlNotifyFullChangeDirectory</a>
 
 
 
@@ -123,10 +113,7 @@ This structure must be aligned on a LONG (4-byte) boundary. If a buffer contains
 
 
 
-<a href="..\rxprocs\nf-rxprocs-fsrtlnotifyfullchangedirectory.md">FsRtlNotifyFullChangeDirectory</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567047">ZwQueryDirectoryFile</a>
  
 
  

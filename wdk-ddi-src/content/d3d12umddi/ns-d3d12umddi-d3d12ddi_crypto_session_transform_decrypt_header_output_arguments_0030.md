@@ -52,20 +52,6 @@ req.typenames: D3D12DDI_CRYPTO_SESSION_TRANSFORM_DECRYPT_HEADER_OUTPUT_ARGUMENTS
 Crypto session transform decrypt header output arguments.
 
 
-## -syntax
-
-
-````
-typedef struct _D3D12DDI_CRYPTO_SESSION_TRANSFORM_DECRYPT_HEADER_OUTPUT_ARGUMENTS_0030 {
-  BOOL          Enable;
-  const void *  pSliceHeaders;
-  UINT64        SliceHeadersSize;
-  const void *  pContext;
-  UINT64        ContextSize;
-} D3D12DDI_CRYPTO_SESSION_TRANSFORM_DECRYPT_HEADER_OUTPUT_ARGUMENTS_0030, D3D12DDI_CRYPTO_SESSION_TRANSFORM_DECRYPT_HEADER_OUTPUT_ARGUMENTS_0030;
-````
-
-
 ## -struct-fields
 
 

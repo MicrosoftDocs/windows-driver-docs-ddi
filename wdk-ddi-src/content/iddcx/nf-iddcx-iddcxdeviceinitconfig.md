@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: "_Must_inspect_result_"
 topic_type:
@@ -52,17 +52,6 @@ req.typenames:
 
 
                 Creates a WDFDEVICE initialization structure to allow indirect displays to be used.
-
-
-## -syntax
-
-
-````
-NTSTATUS IddCxDeviceInitConfig(
-         PWDFDEVICE_INIT       DeviceInit,
-   const IDD_CX_CLIENT_CONFIG* Config
-);
-````
 
 
 ## -parameters

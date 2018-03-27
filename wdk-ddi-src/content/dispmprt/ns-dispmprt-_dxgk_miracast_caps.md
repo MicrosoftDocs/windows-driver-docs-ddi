@@ -52,23 +52,6 @@ req.typenames: DXGK_MIRACAST_CAPS, *PDXGK_MIRACAST_CAPS
 Used by a display miniport driver to identify capabilities of a Miracast device.
 
 
-## -syntax
-
-
-````
-typedef struct _DXGK_MIRACAST_CAPS {
-  ULONG MaxChunkPrivateDriverDataSize;
-  union {
-    struct {
-      UINT HdcpSupport  :1;
-      UINT Reserved  :31;
-    };
-    UINT Value;
-  } Flags;
-} DXGK_MIRACAST_CAPS, *PDXGK_MIRACAST_CAPS;
-````
-
-
 ## -struct-fields
 
 
@@ -76,7 +59,7 @@ typedef struct _DXGK_MIRACAST_CAPS {
 
 ### -field MaxChunkPrivateDriverDataSize
 
-The maximum size, in bytes, of the private data that the display miniport driver will pass when it reports a <a href="..\d3dkmddi\ne-d3dkmddi-_dxgk_interrupt_type.md">DXGK_INTERRUPT_TYPE</a> interrupt type of <b>DXGK_INTERRUPT_MICACAST_CHUNK_PROCESSING_COMPLETE</b>.
+The maximum size, in bytes, of the private data that the display miniport driver will pass when it reports a <a href="https://msdn.microsoft.com/library/windows/hardware/ff561136">DXGK_INTERRUPT_TYPE</a> interrupt type of <b>DXGK_INTERRUPT_MICACAST_CHUNK_PROCESSING_COMPLETE</b>.
 
 
 ### -field Flags
@@ -100,10 +83,10 @@ Reserved for system use. The display miniport driver must set this value to zero
 
 ## -see-also
 
-<a href="..\d3dkmddi\ne-d3dkmddi-_dxgk_interrupt_type.md">DXGK_INTERRUPT_TYPE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561136">DXGK_INTERRUPT_TYPE</a>
  
 
  

@@ -53,18 +53,6 @@ req.typenames:
                  Gives information about the target modes that will be updated by the driver.
 
 
-## -syntax
-
-
-````
-typedef struct IDARG_IN_UPDATEMODES {
-  IDDCX_UPDATE_REASON                              Reason;
-  UINT                                             TargetModeCount;
-  _Field_size_(TargetModeCount) IDDCX_TARGET_MODE* pTargetModes;
-} IDARG_IN_UPDATEMODES, *IDARG_IN_UPDATEMODES;
-````
-
-
 ## -struct-fields
 
 

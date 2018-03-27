@@ -52,20 +52,6 @@ req.typenames: DXGK_PTE
 The <b>pfnUpdateAllocationPropertyCb</b> functions updates the property of an allocation without creating a new allocation.
 
 
-## -prototype
-
-
-````
-PFND3DDDI_UPDATEALLOCATIONPROPERTYCB pfnUpdateAllocationPropertyCb;
-
-__checkReturn HRESULT APIENTRY pfnUpdateAllocationPropertyCb(
-  _In_    HANDLE                    hDevice,
-  _Inout_ D3DDI_UPDATEALLOCPROPERTY *pUpdateAllocationProperty
-)
-{ ... }
-````
-
-
 ## -parameters
 
 

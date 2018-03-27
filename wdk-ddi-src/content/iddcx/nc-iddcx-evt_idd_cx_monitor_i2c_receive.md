@@ -52,22 +52,6 @@ req.typenames: WCS_PROFILE_MANAGEMENT_SCOPE
 <b>EVT_IDD_CX_MONITOR_I2C_RECEIVE</b> is called by the OS to return data received from an I2C device in a monitor.
 
 
-## -prototype
-
-
-````
-EVT_IDD_CX_MONITOR_I2C_RECEIVE EvtIddCxMonitorI2cReceive;
-
-NTSTATUS EvtIddCxMonitorI2cReceive(
-  _In_       IDDCX_MONITOR         MonitorObject,
-  _In_ const IDARG_IN_I2C_RECEIVE* pInArgs
-)
-{ ... }
-
-typedef EVT_IDD_CX_MONITOR_I2C_RECEIVE PFN_IDD_CX_MONITOR_I2C_RECEIVE;
-````
-
-
 ## -parameters
 
 

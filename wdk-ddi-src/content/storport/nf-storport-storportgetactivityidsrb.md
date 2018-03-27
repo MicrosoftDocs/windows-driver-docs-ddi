@@ -54,18 +54,6 @@ req.product: Windows 10 or later.
 Retrieves the Event Tracing for Windows (ETW) activity ID associated with a request block.
 
 
-## -syntax
-
-
-````
-ULONG StorPortGetActivityIdSrb(
-  _In_  PVOID               HwDeviceExtension,
-  _In_  PSCSI_REQUEST_BLOCK Srb,
-  _Out_ LPGUID              ActivityId
-);
-````
-
-
 ## -parameters
 
 

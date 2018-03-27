@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: 
+req.irql: "<=DISPATCH_LEVEL"
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -53,19 +53,6 @@ req.typenames: STORAGE_ZONES_ATTRIBUTES, *PSTORAGE_ZONES_ATTRIBUTES
 <div class="alert"><b>Note</b>  This  structure is for internal use only and should not be called from your code.</div>
 <div> </div>
 
-
-
-## -syntax
-
-
-````
-typedef enum _STORAGE_ZONES_ATTRIBUTES { 
-  ZonesAttributeTypeAndLengthMayDifferent        = 0,
-  ZonesAttributeTypeSameLengthSame               = 1,
-  ZonesAttributeTypeSameLastZoneLengthDifferent  = 2,
-  ZonesAttributeTypeMayDifferentLengthSame       = 3
-} STORAGE_ZONES_ATTRIBUTES, *PSTORAGE_ZONES_ATTRIBUTES;
-````
 
 
 ## -enum-fields

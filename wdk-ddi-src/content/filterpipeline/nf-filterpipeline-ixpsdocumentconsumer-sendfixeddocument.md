@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: filterpipeline.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -50,16 +50,6 @@ req.typenames: EXpsFontRestriction
 
 
 The <code>SendFixedDocument</code> method sends a fixed document object to the pipeline.
-
-
-## -syntax
-
-
-````
-HRESULT SendFixedDocument(
-  [in] IFixedDocument *pIFixedDocument
-);
-````
 
 
 ## -parameters

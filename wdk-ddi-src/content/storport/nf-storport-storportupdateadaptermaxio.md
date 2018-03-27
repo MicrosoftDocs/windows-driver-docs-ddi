@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 This function can be called by a miniport to update the maximum IO's supported by
     an adapter. This function is valid during HwInitialize/HwPassiveInitRoutine
     callback and has effect only during adapter initialization.
-
-
-## -syntax
-
-
-````
-ULONG StorPortUpdateAdapterMaxIO(
-   PVOID HwDeviceExtension,
-   ULONG MaxIoCount
-);
-````
 
 
 ## -parameters
@@ -116,10 +105,10 @@ This function returns of the following values.
 
 ## -see-also
 
-<a href="..\strmini\ns-strmini-_hw_initialization_data.md">HwInitialize</a>
 
 
 
+<a href="https://msdn.microsoft.com/54f460da-2dfb-4a9d-9b25-edb90f3bfdd5">HwInitialize</a>
  
 
  

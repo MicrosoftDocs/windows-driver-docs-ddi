@@ -52,20 +52,6 @@ req.typenames: RILDMCONFIGINFOVALUE, *LPRILDMCONFIGINFOVALUE
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef struct _RILDMCONFIGINFOVALUE {
-  DWORD                cbSize;
-  RILDMCONFIGINFOTYPE  dwType;
-  BOOL                 fValue;
-  DWORD                dwValue;
-  WCHAR [256]          wszValue;
-} RILDMCONFIGINFOVALUE, RILDMCONFIGINFOVALUE;
-````
-
-
 ## -struct-fields
 
 

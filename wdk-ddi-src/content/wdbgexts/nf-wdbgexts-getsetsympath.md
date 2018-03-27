@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,18 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>GetSetSympath</b> function can be used to either get or set the symbol search path. 
-
-
-## -syntax
-
-
-````
-__inline VOID GetSetSympath(
-  _In_      PSTR Arg,
-  _Out_opt_ PSTR Result,
-  _In_      int  Length
-);
-````
 
 
 ## -parameters

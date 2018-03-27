@@ -53,18 +53,6 @@ req.product: Windows 10 or later.
 The <b>VideoPortSetDmaContext</b> function is <b>obsolete</b> in Windows 2000 and later. 
 
 
-## -syntax
-
-
-````
-VOID VideoPortSetDmaContext(
-  _In_  PVOID HwDeviceExtension,
-  _Out_ PDMA  pDma,
-  _In_  PVOID InstanceContext
-);
-````
-
-
 ## -parameters
 
 

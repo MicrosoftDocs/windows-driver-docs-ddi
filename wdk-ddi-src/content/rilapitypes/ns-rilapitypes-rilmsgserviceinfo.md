@@ -53,20 +53,6 @@ req.product: Windows 10 or later.
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef struct _RILMSGSERVICEINFO {
-  DWORD  cbSize;
-  DWORD  dwParams;
-  DWORD  dwMsgSupport;
-  DWORD  dwStoreUsed;
-  DWORD  dwStoreTotal;
-} RILMSGSERVICEINFO, RILMSGSERVICEINFO;
-````
-
-
 ## -struct-fields
 
 

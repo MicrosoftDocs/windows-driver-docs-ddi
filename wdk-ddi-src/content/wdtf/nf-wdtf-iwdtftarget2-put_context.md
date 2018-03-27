@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: Microsoft.WDTF
 req.assembly: WDTF.Interop.metadata_dll
 req.type-library: 
-req.lib: wdtf.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -57,22 +57,6 @@ Gets and sets a name-value pair that represents user data for the target.
 This property is read/write.
 
 
-## -syntax
-
-
-````
-HRESULT put_Context(
-  [in]          BSTR    Tag,
-  [in]          VARIANT newVal
-);
-
-HRESULT get_Context(
-  [in]          BSTR    Tag,
-  [out, retval] VARIANT *pVal
-);
-````
-
-
 ## -parameters
 
 
@@ -83,7 +67,7 @@ HRESULT get_Context(
 The <b>Context</b> property is parameterized with the 
 <b>BSTR </b><i>Tag </i>parameter. This parameterization 
 enables you to attach many different named values to an instance of the 
-<a href="..\wdtf\nn-wdtf-iwdtftarget2.md">IWDTFTarget2</a> interface. 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439367">IWDTFTarget2</a> interface. 
 You can then retrieve these same values by name at a later time. 
 
 Each value is stored as a <b>VARIANT</b>, which correctly 
@@ -98,10 +82,10 @@ see <a href="https://msdn.microsoft.com/f9e3de20-28be-40c6-802c-f4637b3f6c20">Cr
 
 ## -see-also
 
-<a href="..\wdtf\nn-wdtf-iwdtftarget2.md">IWDTFTarget2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439367">IWDTFTarget2</a>
  
 
  

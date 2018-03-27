@@ -53,29 +53,6 @@ req.product: Windows 10 or later.
 HW_STREAM_OBJECT describes an instance of a minidriver stream.
 
 
-## -syntax
-
-
-````
-typedef struct _HW_STREAM_OBJECT {
-  ULONG                          SizeOfThisPacket;
-  ULONG                          StreamNumber;
-  PVOID                          HwStreamExtension;
-  PHW_RECEIVE_STREAM_DATA_SRB    ReceiveDataPacket;
-  PHW_RECEIVE_STREAM_CONTROL_SRB ReceiveControlPacket;
-  HW_CLOCK_OBJECT                HwClockObject;
-  BOOLEAN                        Dma;
-  BOOLEAN                        Pio;
-  PVOID                          HwDeviceExtension;
-  ULONG                          StreamHeaderMediaSpecific;
-  ULONG                          StreamHeaderWorkspace;
-  BOOLEAN                        Allocator;
-  PHW_EVENT_ROUTINE              HwEventRoutine;
-  ULONG                          Reserved[2];
-} HW_STREAM_OBJECT, *PHW_STREAM_OBJECT;
-````
-
-
 ## -struct-fields
 
 
@@ -88,12 +65,12 @@ Specifies the size, in bytes, of this structure.
 
 ### -field StreamNumber
 
-Specifies the offset of the stream within the minidriver's <a href="..\strmini\ns-strmini-_hw_stream_descriptor.md">HW_STREAM_DESCRIPTOR</a> structure.
+Specifies the offset of the stream within the minidriver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff559686">HW_STREAM_DESCRIPTOR</a> structure.
 
 
 ### -field HwStreamExtension
 
-Points to the stream extension, a buffer allocated by the class driver for the minidriver to use to hold private information about this stream. The minidriver sets the size of the buffer in the <a href="..\strmini\ns-strmini-_hw_initialization_data.md">HW_INITIALIZATION_DATA</a> structure it passes when it registers itself with the stream class driver.
+Points to the stream extension, a buffer allocated by the class driver for the minidriver to use to hold private information about this stream. The minidriver sets the size of the buffer in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559682">HW_INITIALIZATION_DATA</a> structure it passes when it registers itself with the stream class driver.
 
 
 ### -field ReceiveDataPacket
@@ -108,7 +85,7 @@ Pointer to the stream's <a href="https://msdn.microsoft.com/library/windows/hard
 
 ### -field HwClockObject
 
-Contains the stream's clock object. See <a href="..\strmini\ns-strmini-_hw_clock_object.md">HW_CLOCK_OBJECT</a> for details.
+Contains the stream's clock object. See <a href="https://msdn.microsoft.com/library/windows/hardware/ff559671">HW_CLOCK_OBJECT</a> for details.
 
 
 ### -field Dma
@@ -123,7 +100,7 @@ If <b>TRUE</b>, the device uses programmed I/O to transfer data for this stream.
 
 ### -field HwDeviceExtension
 
-Pointer to the minidriver's device extension. The minidriver may use this buffer to record private information. The minidriver sets the size of this buffer in the <a href="..\strmini\ns-strmini-_hw_initialization_data.md">HW_INITIALIZATION_DATA</a> structure it passes when it registers itself via <a href="https://msdn.microsoft.com/library/windows/hardware/ff568263">StreamClassRegisterMinidriver</a>. The class driver also passes pointers to this buffer in the <b>HwDeviceExtension</b> member of the <a href="..\strmini\ns-strmini-_hw_stream_request_block.md">HW_STREAM_REQUEST_BLOCK</a>, <a href="..\strmini\ns-strmini-_hw_time_context.md">HW_TIME_CONTEXT</a>, and <a href="..\strmini\ns-strmini-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a> structures it passes to the minidriver.
+Pointer to the minidriver's device extension. The minidriver may use this buffer to record private information. The minidriver sets the size of this buffer in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559682">HW_INITIALIZATION_DATA</a> structure it passes when it registers itself via <a href="https://msdn.microsoft.com/library/windows/hardware/ff568263">StreamClassRegisterMinidriver</a>. The class driver also passes pointers to this buffer in the <b>HwDeviceExtension</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559702">HW_STREAM_REQUEST_BLOCK</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff559706">HW_TIME_CONTEXT</a>, and <a href="https://msdn.microsoft.com/library/windows/hardware/ff567785">PORT_CONFIGURATION_INFORMATION</a> structures it passes to the minidriver.
 
 
 ### -field StreamHeaderMediaSpecific
@@ -143,7 +120,7 @@ Specifies <b>TRUE</b> if the driver uses allocators. Most minidrivers set this v
 
 ### -field HwEventRoutine
 
-Pointer to the stream's <a href="..\strmini\nc-strmini-phw_event_routine.md">StrMiniEvent</a> routine
+Pointer to the stream's <a href="https://msdn.microsoft.com/library/windows/hardware/ff568457">StrMiniEvent</a> routine
 
 
 ### -field Reserved
@@ -155,19 +132,19 @@ Reserved for system use. Do not use.
 
 
 
-This structure is created by the class driver to hold information about a particular stream in the minidriver. For each stream-specific request, the class driver passes the HW_STREAM_OBJECT for the stream in the <b>StreamObject</b> member of the stream request block (See <a href="..\strmini\ns-strmini-_hw_stream_request_block.md">HW_STREAM_REQUEST_BLOCK</a>). 
+This structure is created by the class driver to hold information about a particular stream in the minidriver. For each stream-specific request, the class driver passes the HW_STREAM_OBJECT for the stream in the <b>StreamObject</b> member of the stream request block (See <a href="https://msdn.microsoft.com/library/windows/hardware/ff559702">HW_STREAM_REQUEST_BLOCK</a>). 
 
-When the class driver opens the stream and issues the SRB_OPEN_STREAM request to the minidriver's <a href="..\strmini\nc-strmini-phw_receive_device_srb.md">StrMiniReceiveDevicePacket</a> routine, the minidriver initializes the stream object.
+When the class driver opens the stream and issues the SRB_OPEN_STREAM request to the minidriver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff568463">StrMiniReceiveDevicePacket</a> routine, the minidriver initializes the stream object.
 
 
 
 
 ## -see-also
 
-<a href="..\strmini\ns-strmini-_hw_clock_object.md">HW_CLOCK_OBJECT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559671">HW_CLOCK_OBJECT</a>
  
 
  

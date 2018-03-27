@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: wpprecorder.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,16 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>WppRecorderLinkCounters</b> method  uses a sequence number to merge logs captured in different buffers by a driver.
-
-
-## -syntax
-
-
-````
-NTSTATUS imp_WppRecorderLinkCounters(
-  _In_ WPP_RECORDER_COUNTER CounterOwner
-);
-````
 
 
 ## -parameters

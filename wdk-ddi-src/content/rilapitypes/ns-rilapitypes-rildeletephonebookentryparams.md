@@ -53,20 +53,6 @@ req.product: Windows 10 or later.
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef struct _RILDELETEPHONEBOOKENTRYPARAMS {
-  HUICCAPP                    hUiccApp;
-  RILPHONEENTRYSTORELOCATION  dwStoreLocation;
-  DWORD                       dwIndex;
-  BOOL                        fHasLockVerification;
-  RILUICCLOCKCREDENTIAL       lockVerification;
-} RILDELETEPHONEBOOKENTRYPARAMS, RILDELETEPHONEBOOKENTRYPARAMS;
-````
-
-
 ## -struct-fields
 
 

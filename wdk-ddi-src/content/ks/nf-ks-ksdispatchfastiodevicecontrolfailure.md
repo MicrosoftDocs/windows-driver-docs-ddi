@@ -53,24 +53,6 @@ req.typenames:
 The <b>KsDispatchFastIoDeviceControlFailure</b> function is used in a KSDISPATCH_TABLE.FastDeviceIoControl entry that are not handled. The function should always return <b>FALSE</b>. 
 
 
-## -syntax
-
-
-````
-BOOLEAN KsDispatchFastIoDeviceControlFailure(
-  _In_      PFILE_OBJECT     FileObject,
-  _In_      BOOLEAN          Wait,
-  _In_opt_  PVOID            InputBuffer,
-  _In_      ULONG            InputBufferLength,
-  _Out_opt_ PVOID            OutputBuffer,
-  _In_      ULONG            OutputBufferLength,
-  _In_      ULONG            IoControlCode,
-  _Out_     PIO_STATUS_BLOCK IoStatus,
-  _In_      PDEVICE_OBJECT   DeviceObject
-);
-````
-
-
 ## -parameters
 
 

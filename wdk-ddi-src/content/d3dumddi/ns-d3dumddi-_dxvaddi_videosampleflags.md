@@ -52,27 +52,6 @@ req.typenames: DXVADDI_VIDEOSAMPLEFLAGS
 The DXVADDI_VIDEOSAMPLEFLAGS structure identifies changes in the current sample frame from the previous sample frame.
 
 
-## -syntax
-
-
-````
-typedef struct _DXVADDI_VIDEOSAMPLEFLAGS {
-  union {
-    struct {
-      UINT PaletteChanged  :1;
-      UINT SrcRectChanged  :1;
-      UINT DstRectChanged  :1;
-      UINT ColorDataChanged  :1;
-      UINT PlanarAlphaChanged  :1;
-      UINT Reserved  :11;
-      UINT SampleData  :16;
-    };
-    UINT   Value;
-  };
-} DXVADDI_VIDEOSAMPLEFLAGS;
-````
-
-
 ## -struct-fields
 
 
@@ -126,10 +105,10 @@ A member in the union that is contained in DXVADDI_VIDEOSAMPLEFLAGS that can hol
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_videosample.md">DXVADDI_VIDEOSAMPLE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562957">DXVADDI_VIDEOSAMPLE</a>
  
 
  

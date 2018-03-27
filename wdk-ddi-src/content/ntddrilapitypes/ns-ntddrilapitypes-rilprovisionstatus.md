@@ -52,18 +52,6 @@ req.typenames: RILPROVISIONSTATUS, *LPRILPROVISIONSTATUS
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef struct _RILPROVISIONSTATUS {
-  DWORD                              cbSize;
-  DWORD                              dwExecutor;
-  RILPROVISIONSTATUSPROVISIONSTATUS  dwProvisionStatus;
-} RILPROVISIONSTATUS, RILPROVISIONSTATUS;
-````
-
-
 ## -struct-fields
 
 

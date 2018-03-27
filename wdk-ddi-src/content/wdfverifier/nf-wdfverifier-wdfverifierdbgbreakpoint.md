@@ -58,14 +58,6 @@ req.product: Windows 10 or later.
 The <b>WdfVerifierDbgBreakPoint</b> function breaks into a kernel debugger, if a debugger is running.
 
 
-## -syntax
-
-
-````
-VOID WdfVerifierDbgBreakPoint(void);
-````
-
-
 ## -parameters
 
 
@@ -131,10 +123,10 @@ if( !NT_SUCCESS(Status) ) {
 
 ## -see-also
 
-<a href="..\wdfverifier\nf-wdfverifier-wdfverifierkebugcheck.md">WdfVerifierKeBugCheck</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551166">WdfVerifierKeBugCheck</a>
  
 
  

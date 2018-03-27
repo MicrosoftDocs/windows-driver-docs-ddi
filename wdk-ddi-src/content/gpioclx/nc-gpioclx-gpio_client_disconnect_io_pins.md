@@ -40,7 +40,7 @@ api_name:
 -	CLIENT_DisconnectIoPins
 product: Windows
 targetos: Windows
-req.typenames: GNSS_V2UPL_NI_INFO, *PGNSS_V2UPL_NI_INFO
+req.typenames: FWPS_CONNECT_REQUEST0
 ---
 
 # GPIO_CLIENT_DISCONNECT_IO_PINS callback
@@ -50,20 +50,6 @@ req.typenames: GNSS_V2UPL_NI_INFO, *PGNSS_V2UPL_NI_INFO
 
 
 The <i>CLIENT_DisconnectIoPins</i> event callback function closes a logical connection to a set of general-purpose I/O (GPIO) pins that are configured for data read or write operations.
-
-
-## -prototype
-
-
-````
-GPIO_CLIENT_DISCONNECT_IO_PINS CLIENT_DisconnectIoPins;
-
-NTSTATUS CLIENT_DisconnectIoPins(
-  _In_ PVOID                               Context,
-  _In_ PGPIO_DISCONNECT_IO_PINS_PARAMETERS DisconnectParameters
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -141,11 +127,6 @@ The GPIO_CLIENT_DISCONNECT_IO_PINS function type is defined in the Gpioclx.h hea
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439490">GPIO_CLX_RegisterClient</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh698250">GPIO_DISCONNECT_IO_PINS_PARAMETERS</a>
 
 
 
@@ -157,6 +138,11 @@ The GPIO_CLIENT_DISCONNECT_IO_PINS function type is defined in the Gpioclx.h hea
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439490">GPIO_CLX_RegisterClient</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh698250">GPIO_DISCONNECT_IO_PINS_PARAMETERS</a>
  
 
  

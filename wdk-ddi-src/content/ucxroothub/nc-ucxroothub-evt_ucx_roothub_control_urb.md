@@ -53,22 +53,6 @@ req.product: Windows 10 or later.
 The client driver uses this callback type to implement handlers that UCX calls when it receives feature control requests on the USB hub.
 
 
-## -prototype
-
-
-````
-EVT_UCX_ROOTHUB_CONTROL_URB EvtUcxRootHubControlUrb;
-
-VOID EvtUcxRootHubControlUrb(
-  _In_ UCXROOTHUB UcxRootHub,
-  _In_ WDFREQUEST Request
-)
-{ ... }
-
-typedef EVT_UCX_ROOTHUB_CONTROL_URB PEVT_UCX_ROOTHUB_CONTROL_URB;
-````
-
-
 ## -parameters
 
 
@@ -81,7 +65,7 @@ A handle to a UCX object that represents the root hub.
 
 ### -param Request [in]
 
-Contains the <a href="..\usb\ns-usb-_urb.md">URB</a> for the feature request.
+Contains the <a href="https://msdn.microsoft.com/library/windows/hardware/ff538923">URB</a> for the feature request.
 
 
 ## -returns
@@ -193,10 +177,10 @@ Routine Description:
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt188048">UcxRootHubCreate</a>
-
-
-
  
 
  

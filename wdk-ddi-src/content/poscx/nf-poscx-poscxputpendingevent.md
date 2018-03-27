@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -54,22 +54,6 @@ PosCxPutPendingEvent creates a new event object, copies the event data to the
       new event object, and tries to delegate it to the waiting caller. 
       If the target caller does not have a read request waiting, the new event is added to 
       the designated event queue (control or data).
-
-
-## -syntax
-
-
-````
-NTSTATUS PosCxPutPendingEvent(
-  _In_ WDFDEVICE                                  device,
-  _In_ ULONG                                      deviceInterfaceTag,
-  _In_ ULONG                                      eventType,
-  _In_ size_t                                     rawEventDataSize,
-       _In_reads_opt_(rawEventDataSize)
-    PVOID rawEventDataPtr,
-  _In_ POS_CX_EVENT_ATTRIBUTES                    eventAttr
-);
-````
 
 
 ## -parameters
@@ -138,10 +122,10 @@ Possible return values are:
 
 ## -see-also
 
-<a href="..\poscx\ne-poscx-_pos_cx_event_attributes.md">POS_CX_EVENT_ATTRIBUTES</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt593142">POS_CX_EVENT_ATTRIBUTES</a>
  
 
  

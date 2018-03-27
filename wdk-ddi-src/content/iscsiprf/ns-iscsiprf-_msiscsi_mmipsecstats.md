@@ -52,36 +52,6 @@ req.typenames: MSiSCSI_MMIPSECStats, *PMSiSCSI_MMIPSECStats
 The MSiSCSI_MMIPSECStats structure is used to report main mode IPsec statistics. 
 
 
-## -syntax
-
-
-````
-typedef struct _MSiSCSI_MMIPSECStats {
-  ULONGLONG ActiveAcquire;
-  ULONGLONG ActiveReceive;
-  ULONGLONG AcquireFailures;
-  ULONGLONG ReceiveFailures;
-  ULONGLONG SendFailures;
-  ULONGLONG AcquireHeapSize;
-  ULONGLONG ReceiveHeapSize;
-  ULONGLONG NegotiationFailures;
-  ULONGLONG AuthenticationFailures;
-  ULONGLONG InvalidCookiesReceived;
-  ULONGLONG TotalGetSPI;
-  ULONGLONG KeyAdditions;
-  ULONGLONG KeyUpdates;
-  ULONGLONG GetSPIFailures;
-  ULONGLONG KeyAdditionFailures;
-  ULONGLONG KeyUpdateFailures;
-  ULONGLONG ConnectionListSize;
-  ULONGLONG OakleyMainMode;
-  ULONGLONG OakleyQuickMode;
-  ULONGLONG InvalidPackets;
-  ULONGLONG SoftAssociations;
-} MSiSCSI_MMIPSECStats, *PMSiSCSI_MMIPSECStats;
-````
-
-
 ## -struct-fields
 
 
@@ -203,10 +173,10 @@ It is optional that you implement this class.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563077">MSiSCSI_MMIPSECStats WMI Class</a>
-
-
-
  
 
  

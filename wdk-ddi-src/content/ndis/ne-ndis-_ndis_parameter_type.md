@@ -52,20 +52,6 @@ req.typenames: NDIS_PARAMETER_TYPE, *PNDIS_PARAMETER_TYPE
 The NDIS_PARAMETER_TYPE enumeration type identifies the type of a registry entry.
 
 
-## -syntax
-
-
-````
-typedef enum _NDIS_PARAMETER_TYPE { 
-  NdisParameterInteger,
-  NdisParameterHexInteger,
-  NdisParameterString,
-  NdisParameterMultiString,
-  NdisParameterBinary
-} NDIS_PARAMETER_TYPE, *PNDIS_PARAMETER_TYPE;
-````
-
-
 ## -enum-fields
 
 
@@ -101,24 +87,24 @@ A binary value of type REG_BINARY.
 
 
 The NDIS_PARAMETER_TYPE enumeration type is used in the 
-    <a href="..\ndis\ns-ndis-_ndis_configuration_parameter.md">
+    <a href="https://msdn.microsoft.com/80250799-4263-43c0-85d5-f1c1c1fb0bae">
     NDIS_CONFIGURATION_PARAMETER</a> structure and in the 
     <i>ParameterType</i> parameter of the 
-    <a href="..\ndis\nf-ndis-ndisreadconfiguration.md">NdisReadConfiguration</a> function.
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff564511">NdisReadConfiguration</a> function.
 
 
 
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisreadconfiguration.md">NdisReadConfiguration</a>
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_configuration_parameter.md">NDIS_CONFIGURATION_PARAMETER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564868">NDIS_CONFIGURATION_PARAMETER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564511">NdisReadConfiguration</a>
  
 
  

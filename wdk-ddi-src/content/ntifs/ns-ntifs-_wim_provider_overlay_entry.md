@@ -52,22 +52,6 @@ req.typenames: WIM_PROVIDER_OVERLAY_ENTRY, *PWIM_PROVIDER_OVERLAY_ENTRY
 Contains the  a Windows Image Format (WIM) file configuration information for a data source entry. It is used to identify specific WIM file names and indices that supply data to externally backed files on a volume.
 
 
-## -syntax
-
-
-````
-typedef struct _WIM_PROVIDER_OVERLAY_ENTRY {
-  ULONG         NextEntryOffset;
-  LARGE_INTEGER DataSourceId;
-  GUID          WimGuid;
-  ULONG         WimFileNameOffset;
-  ULONG         WimType;
-  ULONG         WimIndex;
-  ULONG         Flags;
-} WIM_PROVIDER_OVERLAY_ENTRY, *PWIM_PROVIDER_OVERLAY_ENTRY;
-````
-
-
 ## -struct-fields
 
 
@@ -166,10 +150,10 @@ Indicates that the provider is dismounted. Recovery will be attempted.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn632440">FSCTL_ENUM_OVERLAY</a>
-
-
-
  
 
  

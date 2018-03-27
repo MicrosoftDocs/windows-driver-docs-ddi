@@ -52,23 +52,6 @@ req.typenames: ISCSI_PortalInfo, *PISCSI_PortalInfo
 The ISCSI_PortalInfo structure contains information about an iSCSI portal. 
 
 
-## -syntax
-
-
-````
-typedef struct _ISCSI_PortalInfo {
-  ULONG            Index;
-  UCHAR            PortalType;
-  UCHAR            Protocol;
-  UCHAR            Reserved1;
-  UCHAR            Reserved2;
-  ISCSI_IP_Address IPAddr;
-  ULONG            Port;
-  USHORT           PortalTag;
-} ISCSI_PortalInfo, *PISCSI_PortalInfo;
-````
-
-
 ## -struct-fields
 
 
@@ -129,7 +112,7 @@ Reserved for Microsoft use only.
 
 ### -field IPAddr
 
-A <a href="..\iscsidef\ns-iscsidef-_iscsi_ip_address.md">ISCSI_IP_Address</a> structure that indicates the portal's network IP address.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff561536">ISCSI_IP_Address</a> structure that indicates the portal's network IP address.
 
 
 ### -field Port
@@ -144,14 +127,14 @@ The portal group tag to which the portal belongs.
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561536">ISCSI_IP_Address</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561559">ISCSI_PortalInfo WMI Class</a>
-
-
-
-<a href="..\iscsidef\ns-iscsidef-_iscsi_ip_address.md">ISCSI_IP_Address</a>
-
-
-
  
 
  

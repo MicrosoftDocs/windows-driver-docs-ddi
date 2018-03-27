@@ -52,23 +52,6 @@ req.typenames: D3DDDI_OPENRESOURCEFLAGS
 The D3DDDI_OPENRESOURCEFLAGS structure identifies the type of resource to open.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DDDI_OPENRESOURCEFLAGS {
-  union {
-    struct {
-      UINT Fullscreen  :1;
-      UINT AlphaOverride  :1;
-      UINT Reserved  :30;
-    };
-    UINT   Value;
-  };
-} D3DDDI_OPENRESOURCEFLAGS;
-````
-
-
 ## -struct-fields
 
 
@@ -100,10 +83,10 @@ A member in the union that is contained in D3DDDI_OPENRESOURCEFLAGS that can hol
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_openresource.md">D3DDDIARG_OPENRESOURCE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543232">D3DDDIARG_OPENRESOURCE</a>
  
 
  

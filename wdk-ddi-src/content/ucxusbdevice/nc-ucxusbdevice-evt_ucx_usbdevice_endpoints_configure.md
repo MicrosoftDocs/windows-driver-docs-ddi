@@ -53,22 +53,6 @@ req.product: Windows 10 or later.
 The client driver's implementation that UCX calls to configure endpoints in the controller.
 
 
-## -prototype
-
-
-````
-EVT_UCX_USBDEVICE_ENDPOINTS_CONFIGURE EvtUcxUsbDeviceEndpointsConfigure;
-
-VOID EvtUcxUsbDeviceEndpointsConfigure(
-  _In_ UCXCONTROLLER UcxController,
-  _In_ WDFREQUEST    Request
-)
-{ ... }
-
-typedef EVT_UCX_USBDEVICE_ENDPOINTS_CONFIGURE PEVT_UCX_USBDEVICE_ENDPOINTS_CONFIGURE;
-````
-
-
 ## -parameters
 
 
@@ -81,7 +65,7 @@ typedef EVT_UCX_USBDEVICE_ENDPOINTS_CONFIGURE PEVT_UCX_USBDEVICE_ENDPOINTS_CONFI
 
 ### -param Request [in]
 
-Contains a structure of type <a href="..\ucxendpoint\ns-ucxendpoint-_endpoints_configure.md">ENDPOINTS_CONFIGURE</a> structure.
+Contains a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/mt188019">ENDPOINTS_CONFIGURE</a> structure.
 
 
 ## -returns
@@ -97,11 +81,11 @@ This callback function does not return a value.
 
 
 
-The UCX client driver registers this callback function with the USB host controller extension (UCX) by calling the <a href="..\ucxusbdevice\nf-ucxusbdevice-ucxusbdevicecreate.md">UcxUsbDeviceCreate</a> method.
+The UCX client driver registers this callback function with the USB host controller extension (UCX) by calling the <a href="https://msdn.microsoft.com/library/windows/hardware/mt188052">UcxUsbDeviceCreate</a> method.
 
-In the callback, the driver programs or deprograms the endpoints, as described in the <a href="..\ucxendpoint\ns-ucxendpoint-_endpoints_configure.md">ENDPOINTS_CONFIGURE</a> structure.
+In the callback, the driver programs or deprograms the endpoints, as described in the <a href="https://msdn.microsoft.com/library/windows/hardware/mt188019">ENDPOINTS_CONFIGURE</a> structure.
 
-This callback does not enable or disable the default endpoint. The default endpoint’s state is tied to the state of the device.   The driver implements enable and disable operations in the <a href="..\ucxusbdevice\nc-ucxusbdevice-evt_ucx_usbdevice_disable.md">EVT_UCX_USBDEVICE_DISABLE</a> and <a href="..\ucxusbdevice\nc-ucxusbdevice-evt_ucx_usbdevice_enable.md">EVT_UCX_USBDEVICE_ENABLE</a> callback functions.
+This callback does not enable or disable the default endpoint. The default endpoint’s state is tied to the state of the device.   The driver implements enable and disable operations in the <a href="https://msdn.microsoft.com/library/windows/hardware/mt187840">EVT_UCX_USBDEVICE_DISABLE</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/mt187841">EVT_UCX_USBDEVICE_ENABLE</a> callback functions.
 
 The client driver returns completion status in <i>Request</i>.  The driver can complete the WDFREQUEST asynchronously.
 
@@ -144,14 +128,14 @@ UsbDevice_EvtUcxUsbDeviceEndpointsConfigure(
 
 ## -see-also
 
-<a href="..\ucxendpoint\ns-ucxendpoint-_endpoints_configure.md">ENDPOINTS_CONFIGURE</a>
 
 
 
-<a href="..\ucxusbdevice\nf-ucxusbdevice-ucxusbdevicecreate.md">UcxUsbDeviceCreate</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt188019">ENDPOINTS_CONFIGURE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt188052">UcxUsbDeviceCreate</a>
  
 
  

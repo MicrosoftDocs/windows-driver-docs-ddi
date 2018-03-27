@@ -52,16 +52,6 @@ req.typenames: HBA_WWN, *PHBA_WWN
 The HBA_wwn structure contains a 64 bit world-wide name (WWN) that uniquely identifies an HBA. 
 
 
-## -syntax
-
-
-````
-typedef struct HBA_wwn {
-  HBA_UINT8 wwn[8];
-} HBA_WWN, *PHBA_WWN;
-````
-
-
 ## -struct-fields
 
 
@@ -74,18 +64,18 @@ Contains a 64 bit world-wide name (WWN) that uniquely identifies an HBA. .
 
 ## -see-also
 
-<a href="..\hbaapi\ns-hbaapi-hba_mgmtinfo.md">HBA_MgmtInfo</a>
 
 
 
-<a href="..\hbaapi\ns-hbaapi-hba_adapterattributes.md">HBA_AdapterAttributes</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556044">HBA_AdapterAttributes</a>
 
 
 
-<a href="..\hbaapi\ns-hbaapi-hba_portattributes.md">HBA_PortAttributes</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557092">HBA_MgmtInfo</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557107">HBA_PortAttributes</a>
  
 
  

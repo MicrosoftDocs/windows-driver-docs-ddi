@@ -51,20 +51,8 @@ req.product: Windows 10 or later.
 
 
 
-                 Contains configuration options for the port controller object,  passed by the client driver in the call to <a href="..\ucmtcpciportcontroller\nf-ucmtcpciportcontroller-ucmtcpciportcontrollercreate.md">UcmTcpciPortControllerCreate</a>. Call <a href="..\ucmtcpciportcontroller\nf-ucmtcpciportcontroller-ucmtcpci_port_controller_config_init.md">UCMTCPCI_PORT_CONTROLLER_CONFIG_INIT</a> to initialize this structure.
+                 Contains configuration options for the port controller object,  passed by the client driver in the call to <a href="https://msdn.microsoft.com/library/windows/hardware/mt805844">UcmTcpciPortControllerCreate</a>. Call <a href="https://msdn.microsoft.com/library/windows/hardware/mt805872">UCMTCPCI_PORT_CONTROLLER_CONFIG_INIT</a> to initialize this structure.
              
-
-
-## -syntax
-
-
-````
-typedef struct _UCMTCPCI_PORT_CONTROLLER_CONFIG {
-  ULONG                                    Size;
-  PUCMTCPCI_PORT_CONTROLLER_IDENTIFICATION Identification;
-  PUCMTCPCI_PORT_CONTROLLER_CAPABILITIES   Capabilities;
-} UCMTCPCI_PORT_CONTROLLER_CONFIG, *PUCMTCPCI_PORT_CONTROLLER_CONFIG;
-````
 
 
 ## -struct-fields
@@ -81,21 +69,21 @@ typedef struct _UCMTCPCI_PORT_CONTROLLER_CONFIG {
 
 ### -field Identification
 
-A pointer to the <a href="..\ucmtcpciportcontroller\ns-ucmtcpciportcontroller-_ucmtcpci_port_controller_identification.md">UCMTCPCI_PORT_CONTROLLER_IDENTIFICATION</a> structure.
+A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/mt805879">UCMTCPCI_PORT_CONTROLLER_IDENTIFICATION</a> structure.
 
 
 ### -field Capabilities
 
  A pointer to the 
-                 <a href="..\ucmtcpciportcontroller\ns-ucmtcpciportcontroller-_ucmtcpci_port_controller_capabilities.md">UCMTCPCI_PORT_CONTROLLER_CAPABILITIES</a> structure.
+                 <a href="https://msdn.microsoft.com/library/windows/hardware/mt805870">UCMTCPCI_PORT_CONTROLLER_CAPABILITIES</a> structure.
 
 
 ## -see-also
 
-<a href="..\ucmtcpciportcontroller\nf-ucmtcpciportcontroller-ucmtcpciportcontrollercreate.md">UcmTcpciPortControllerCreate</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt805844">UcmTcpciPortControllerCreate</a>
  
 
  

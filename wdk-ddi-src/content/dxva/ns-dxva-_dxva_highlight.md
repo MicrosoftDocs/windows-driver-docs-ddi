@@ -52,19 +52,6 @@ req.typenames: DXVA_Highlight, *LPDXVA_Highlight
 The DXVA_Highlight structure is sent by the host decoder to the accelerator to specify a highlighted rectangular area of a subpicture, and to create an alpha-blending surface with DCCMD data and a DPXD surface.
 
 
-## -syntax
-
-
-````
-typedef struct _DXVA_Highlight {
-  WORD wHighlightActive;
-  WORD wHighlightIndices;
-  WORD wHighlightAlphas;
-  RECT HighlightRect;
-} DXVA_Highlight, *LPDXVA_Highlight;
-````
-
-
 ## -struct-fields
 
 
@@ -139,10 +126,10 @@ The DXVA_Highlight structure is formulated in a manner compatible with the DVD v
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
-
-
-
  
 
  

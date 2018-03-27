@@ -53,22 +53,6 @@ req.product: Windows 10 or later.
 The PTP_VENDOR_DATA_IN structure contains information about an arbitrary command that an application issues to the device.
 
 
-## -syntax
-
-
-````
-typedef struct _PTP_VENDOR_DATA_IN {
-  WORD  OpCode;
-  DWORD SessionId;
-  DWORD TransactionId;
-  DWORD Params[PTP_MAX_PARAMS];
-  DWORD NumParams;
-  DWORD NextPhase;
-  BYTE  VendorWriteData[1];
-} PTP_VENDOR_DATA_IN, *PPTP_VENDOR_DATA_IN;
-````
-
-
 ## -struct-fields
 
 
@@ -160,10 +144,10 @@ For more information about the opcodes used in the <b>OpCode</b> member, see PIM
 
 ## -see-also
 
-<a href="..\ptpusd\ns-ptpusd-_ptp_vendor_data_out.md">PTP_VENDOR_DATA_OUT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546452">PTP_VENDOR_DATA_OUT</a>
  
 
  

@@ -52,22 +52,6 @@ req.typenames: SOUNDDETECTOR_PATTERNHEADER
 An AVStream minidriver's <i>AVStrMiniDeviceStart</i> routine is called when an <a href="https://msdn.microsoft.com/library/windows/hardware/ff551749">IRP_MN_START_DEVICE</a> request is sent for a specified device.
 
 
-## -prototype
-
-
-````
-PFNKSDEVICEPNPSTART AVStrMiniDeviceStart;
-
-NTSTATUS AVStrMiniDeviceStart(
-  _In_     PKSDEVICE         Device,
-  _In_     PIRP              Irp,
-  _In_opt_ PCM_RESOURCE_LIST TranslatedResourceList,
-  _In_opt_ PCM_RESOURCE_LIST UntranslatedResourceList
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -75,7 +59,7 @@ NTSTATUS AVStrMiniDeviceStart(
 
 ### -param Device [in]
 
-Pointer to a <a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a> structure describing the device to be started.
+Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff561681">KSDEVICE</a> structure describing the device to be started.
 
 
 ### -param Irp [in]
@@ -85,12 +69,12 @@ Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff55
 
 ### -param TranslatedResourceList [in, optional]
 
-Pointer to a <a href="..\wudfwdm\ns-wudfwdm-_cm_resource_list.md">CM_RESOURCE_LIST</a> structure that contains the translated resource list extracted from <i>Irp</i>. Equals <b>NULL</b> if <i>Device</i> has no assigned resources. Optional.
+Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541994">CM_RESOURCE_LIST</a> structure that contains the translated resource list extracted from <i>Irp</i>. Equals <b>NULL</b> if <i>Device</i> has no assigned resources. Optional.
 
 
 ### -param UntranslatedResourceList [in, optional]
 
-Pointer to a <a href="..\wudfwdm\ns-wudfwdm-_cm_resource_list.md">CM_RESOURCE_LIST</a> structure that contains the untranslated resource list extracted from <i>Irp</i>. Equals <b>NULL</b> if the <a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a> member of this parameter list has no assigned resources. Optional.
+Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541994">CM_RESOURCE_LIST</a> structure that contains the untranslated resource list extracted from <i>Irp</i>. Equals <b>NULL</b> if the <a href="https://msdn.microsoft.com/library/windows/hardware/ff561681">KSDEVICE</a> member of this parameter list has no assigned resources. Optional.
 
 
 ## -returns
@@ -106,13 +90,13 @@ Should return STATUS_SUCCESS or the error code that was returned from the attemp
 
 
 
-Specify this routine's address in the <b>Start</b> member of its <a href="..\ks\ns-ks-_ksdevice_dispatch.md">KSDEVICE_DISPATCH</a> structure.
+Specify this routine's address in the <b>Start</b> member of its <a href="https://msdn.microsoft.com/library/windows/hardware/ff561693">KSDEVICE_DISPATCH</a> structure.
 
 Typically, this routine is used by minidrivers that must evaluate assigned resources. Resource lists are extracted from <i>Irp</i> for the convenience of the minidriver. A minidriver can parse the resource list to find the interrupt assigned to the device, as well as the physical address of memory resources.
 
 Minidrivers may use this routine to allocate context information to associate with the AVStream device. (This is similar to a minidriver under stream class using the device extension to store context information.)
 
-Note that STATUS_PENDING is not a legal return code from this function.  To perform actions in the context of a worker thread before AVStream has completed start actions such as enabling device interfaces, use a post start dispatch. See <a href="..\ks\nc-ks-pfnksdevice.md">AVStrMiniDevicePostStart</a>.
+Note that STATUS_PENDING is not a legal return code from this function.  To perform actions in the context of a worker thread before AVStream has completed start actions such as enabling device interfaces, use a post start dispatch. See <a href="https://msdn.microsoft.com/library/windows/hardware/ff554284">AVStrMiniDevicePostStart</a>.
 
 This routine is optional.
 
@@ -121,14 +105,14 @@ This routine is optional.
 
 ## -see-also
 
-<a href="..\ks\ns-ks-_ksdevice_dispatch.md">KSDEVICE_DISPATCH</a>
 
 
 
-<a href="..\wudfwdm\ns-wudfwdm-_cm_resource_list.md">CM_RESOURCE_LIST</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541994">CM_RESOURCE_LIST</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561693">KSDEVICE_DISPATCH</a>
  
 
  

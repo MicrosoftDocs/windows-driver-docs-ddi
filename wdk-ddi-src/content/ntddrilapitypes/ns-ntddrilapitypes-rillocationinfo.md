@@ -52,22 +52,6 @@ req.typenames: RILLOCATIONINFO, *LPRILLOCATIONINFO
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef struct _RILLOCATIONINFO {
-  DWORD  cbSize;
-  DWORD  dwParams;
-  DWORD  dwExecutor;
-  DWORD  hUiccApp;
-  DWORD  dwLocationAreaCode;
-  DWORD  dwTrackingAreaCode;
-  DWORD  dwCellID;
-} RILLOCATIONINFO, RILLOCATIONINFO;
-````
-
-
 ## -struct-fields
 
 

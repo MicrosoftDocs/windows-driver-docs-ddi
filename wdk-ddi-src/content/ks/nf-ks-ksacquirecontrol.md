@@ -53,16 +53,6 @@ req.typenames:
 The <b>KsAcquireControl</b> function acquires the filter control mutex for <i>Object</i>. 
 
 
-## -syntax
-
-
-````
-void KsAcquireControl(
-  _In_ PVOID Object
-);
-````
-
-
 ## -parameters
 
 
@@ -70,7 +60,7 @@ void KsAcquireControl(
 
 ### -param Object [in]
 
-A pointer to the object for which to acquire the filter control mutex. This should be a pointer to either a <a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a> or a <a href="..\ks\ns-ks-_kspin.md">KSPIN</a>, cast to PVOID.
+A pointer to the object for which to acquire the filter control mutex. This should be a pointer to either a <a href="https://msdn.microsoft.com/library/windows/hardware/ff562522">KSFILTER</a> or a <a href="https://msdn.microsoft.com/library/windows/hardware/ff563483">KSPIN</a>, cast to PVOID.
 
 
 ## -returns
@@ -86,7 +76,7 @@ None
 
 
 
-Minidrivers typically do not call this function directly, but instead call either <a href="..\ks\nf-ks-ksfilteracquirecontrol.md">KsFilterAcquireControl</a> or <a href="..\ks\nf-ks-kspinacquirecontrol.md">KsPinAcquireControl</a>. These functions provide the necessary typecasting to PVOID automatically.
+Minidrivers typically do not call this function directly, but instead call either <a href="https://msdn.microsoft.com/library/windows/hardware/ff562523">KsFilterAcquireControl</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff563485">KsPinAcquireControl</a>. These functions provide the necessary typecasting to PVOID automatically.
 
 For more information, see <a href="https://msdn.microsoft.com/011edaaa-7449-41c3-8cfb-0d319901af8b">Mutexes in AVStream</a>. 
 
@@ -95,26 +85,26 @@ For more information, see <a href="https://msdn.microsoft.com/011edaaa-7449-41c3
 
 ## -see-also
 
-<a href="..\ks\ns-ks-_kspin.md">KSPIN</a>
 
 
 
-<a href="..\ks\nf-ks-ksreleasecontrol.md">KsReleaseControl</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562522">KSFILTER</a>
 
 
 
-<a href="..\ks\nf-ks-ksfilteracquirecontrol.md">KsFilterAcquireControl</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563483">KSPIN</a>
 
 
 
-<a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562523">KsFilterAcquireControl</a>
 
 
 
-<a href="..\ks\nf-ks-kspinacquirecontrol.md">KsPinAcquireControl</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563485">KsPinAcquireControl</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566780">KsReleaseControl</a>
  
 
  

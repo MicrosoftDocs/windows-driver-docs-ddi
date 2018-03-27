@@ -52,16 +52,6 @@ req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
 Used to create a periodic frame notification.
 
 
-## -prototype
-
-
-````
-NTSTATUS APIENTRY DXGKDDI_CREATEPERIODICFRAMENOTIFICATION(
-  _In_ const PDXGKARG_CREATEPERIODICFRAMENOTIFICATION pCreatePeriodicFrameNotification
-);
-````
-
-
 ## -parameters
 
 

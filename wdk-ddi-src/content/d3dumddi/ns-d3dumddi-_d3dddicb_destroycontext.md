@@ -52,16 +52,6 @@ req.typenames: D3DDDICB_DESTROYCONTEXT
 The D3DDDICB_DESTROYCONTEXT structure contains the handle to a context to destroy.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DDDICB_DESTROYCONTEXT {
-  HANDLE hContext;
-} D3DDDICB_DESTROYCONTEXT;
-````
-
-
 ## -struct-fields
 
 
@@ -74,14 +64,14 @@ typedef struct _D3DDDICB_DESTROYCONTEXT {
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/f3f5d6bc-3bc6-4214-830a-cffff01069cc">pfnCreateContextCb</a>
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_destroycontextcb.md">pfnDestroyContextCb</a>
-
-
-
+<a href="https://msdn.microsoft.com/6b65d75b-544b-4153-b821-d59d6f85673d">pfnDestroyContextCb</a>
  
 
  

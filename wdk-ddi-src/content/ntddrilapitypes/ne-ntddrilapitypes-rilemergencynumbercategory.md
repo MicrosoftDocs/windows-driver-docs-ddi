@@ -52,22 +52,6 @@ req.typenames: RILEMERGENCYNUMBERCATEGORY
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef enum _RILEMERGENCYNUMBERCATEGORY { 
-  RIL_ENUM_AMBULANCE,
-  RIL_ENUM_FIRE_BRIGADE,
-  RIL_ENUM_MARINE_GUARD,
-  RIL_ENUM_MOUNTAIN_RESCUE,
-  RIL_ENUM_MANUAL_ECALL,
-  RIL_ENUM_AUTO_ECALL,
-  RIL_ENUM_ALL
-} RILEMERGENCYNUMBERCATEGORY;
-````
-
-
 ## -enum-fields
 
 

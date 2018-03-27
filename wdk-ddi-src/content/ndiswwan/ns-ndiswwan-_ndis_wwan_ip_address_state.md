@@ -52,17 +52,6 @@ req.typenames: NDIS_WWAN_IP_ADDRESS_STATE, *PNDIS_WWAN_IP_ADDRESS_STATE
 The NDIS_WWAN_IP_ADDRESS_STATE structure represents the IP address of a PDP context.
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_WWAN_IP_ADDRESS_STATE {
-  NDIS_OBJECT_HEADER    Header;
-  WWAN_IP_ADDRESS_STATE WwanIpAddressState;
-} NDIS_WWAN_IP_ADDRESS_STATE, *PNDIS_WWAN_IP_ADDRESS_STATE;
-````
-
-
 ## -struct-fields
 
 
@@ -116,7 +105,7 @@ sizeof(NDIS_WWAN_IP_ADDRESS_STATE)
  
 
 For more information about these members, see 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>.
 
 
 ### -field WwanIpAddressState
@@ -126,10 +115,10 @@ The PDP context's IP address.
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_ip_address_state.md">WWAN_IP_ADDRESS_STATE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn449757">WWAN_IP_ADDRESS_STATE</a>
  
 
  

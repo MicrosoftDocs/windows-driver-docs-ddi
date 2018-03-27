@@ -54,20 +54,6 @@ The WSK_DATAGRAM_INDICATION structure describes a datagram that has been receive
   socket.
 
 
-## -syntax
-
-
-````
-typedef struct _WSK_DATAGRAM_INDICATION {
-  struct _WSK_DATAGRAM_INDICATION  *Next;
-  WSK_BUF                         Buffer;
-  PCMSGHDR                        ControlInfo;
-  ULONG                           ControlInfoLength;
-  PSOCKADDR                       RemoteAddress;
-} WSK_DATAGRAM_INDICATION, *PWSK_DATAGRAM_INDICATION;
-````
-
-
 ## -struct-fields
 
 
@@ -113,7 +99,7 @@ A pointer to a buffer that contains the remote transport address from which the 
 
 The WSK subsystem passes a pointer to a WSK_DATAGRAM_INDICATION structure as the 
     <i>DataIndication</i> parameter when it calls a datagram socket's 
-    <a href="..\wsk\nc-wsk-pfn_wsk_receive_from_event.md">WskReceiveFromEvent</a> event callback
+    <a href="https://msdn.microsoft.com/1cdb8a70-54fe-44a6-a16c-71cbf6a49ef2">WskReceiveFromEvent</a> event callback
     function.
 
 
@@ -121,15 +107,10 @@ The WSK subsystem passes a pointer to a WSK_DATAGRAM_INDICATION structure as the
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544964">CMSGHDR</a>
-
-
-
-<a href="..\wsk\ns-wsk-_wsk_buf.md">WSK_BUF</a>
-
-
-
-<a href="..\wsk\nc-wsk-pfn_wsk_release_data_indication_list.md">WskRelease</a>
 
 
 
@@ -137,10 +118,15 @@ The WSK subsystem passes a pointer to a WSK_DATAGRAM_INDICATION structure as the
 
 
 
-<a href="..\wsk\nc-wsk-pfn_wsk_receive_from_event.md">WskReceiveFromEvent</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571153">WSK_BUF</a>
 
 
 
+<a href="https://msdn.microsoft.com/1cdb8a70-54fe-44a6-a16c-71cbf6a49ef2">WskReceiveFromEvent</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571144">WskRelease</a>
  
 
  

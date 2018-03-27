@@ -52,17 +52,6 @@ req.typenames: MSFC_AdapterEvent, *PMSFC_AdapterEvent
 The MSFC_AdapterEvent structure is used by HBA miniport drivers that support the T11 committee's <i>Fibre Channel HBA API</i> specification to report adapter events to WMI clients that have registered to be notified of these events. 
 
 
-## -syntax
-
-
-````
-typedef struct _MSFC_AdapterEvent {
-  ULONG EventType;
-  UCHAR PortWWN[8];
-} MSFC_AdapterEvent, *PMSFC_AdapterEvent;
-````
-
-
 ## -struct-fields
 
 
@@ -91,7 +80,6 @@ For more information about event types and worldwide names, see the T11 committe
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562477">MSFC_AdapterEvent WMI Class</a>
 
 
 
@@ -99,6 +87,7 @@ For more information about event types and worldwide names, see the T11 committe
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562477">MSFC_AdapterEvent WMI Class</a>
  
 
  

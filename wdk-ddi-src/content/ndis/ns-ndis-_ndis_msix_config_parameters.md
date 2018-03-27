@@ -53,19 +53,6 @@ The NDIS_MSIX_CONFIG_PARAMETERS structure defines a requested configuration oper
   the parameters that are required for that particular operation.
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_MSIX_CONFIG_PARAMETERS {
-  NDIS_OBJECT_HEADER        Header;
-  NDIS_MSIX_TABLE_OPERATION ConfigOperation;
-  ULONG                     TableEntry;
-  ULONG                     MessageNumber;
-} NDIS_MSIX_CONFIG_PARAMETERS, *PNDIS_MSIX_CONFIG_PARAMETERS;
-````
-
-
 ## -struct-fields
 
 
@@ -74,7 +61,7 @@ typedef struct _NDIS_MSIX_CONFIG_PARAMETERS {
 ### -field Header
 
 The 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure for the
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure for the
      NDIS_MSIX_CONFIG_PARAMETERS structure. The miniport driver sets the 
      <b>Type</b> member of the structure that 
      <b>Header</b> specifies to NDIS_OBJECT_TYPE_DEFAULT, the 
@@ -86,7 +73,7 @@ The
 
 The requested configuration operation for a MSI-X table entry. This operation is specified as one
      of the values from the 
-     <a href="..\ndis\ne-ndis-_ndis_msix_table_config.md">
+     <a href="https://msdn.microsoft.com/7d1a4bb6-5db8-48b0-9be3-7468360951a1">
      NDIS_MSIX_TABLE_OPERATION</a> enumeration.
 
 
@@ -109,7 +96,7 @@ The MSI-X message number that is assigned to the device. This value is required 
 
 To mask, unmask, or map MSI-X table entries, an NDIS driver passes the NDIS_MSIX_CONFIG_PARAMETERS
     structure to the 
-    <a href="..\ndis\nf-ndis-ndismconfigmsixtableentry.md">
+    <a href="https://msdn.microsoft.com/93f94a42-bffb-4e4d-a560-b0da5d7d0019">
     NdisMConfigMSIXTableEntry</a> function. NDIS_MSIX_CONFIG_PARAMETERS defines a requested configuration
     operation and specifies the parameters that are required for that operation.
 
@@ -118,18 +105,18 @@ To mask, unmask, or map MSI-X table entries, an NDIS driver passes the NDIS_MSIX
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndismconfigmsixtableentry.md">NdisMConfigMSIXTableEntry</a>
 
 
 
-<a href="..\ndis\ne-ndis-_ndis_msix_table_config.md">NDIS_MSIX_TABLE_OPERATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566489">NDIS_MSIX_TABLE_OPERATION</a>
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563566">NdisMConfigMSIXTableEntry</a>
  
 
  

@@ -52,19 +52,6 @@ req.typenames: MSiSCSI_Eventlog, *PMSiSCSI_Eventlog
 This MSiSCSI_EventLog method is used to log any messages to the event log.
 
 
-## -syntax
-
-
-````
-typedef struct _MSiSCSI_EventLog {
-  ULONG Type;
-  ULONG LogToEventLog;
-  ULONG Size;
-  UCHAR AdditionalData[1];
-} MSiSCSI_EventLog, *PMSiSCSI_EventLog;
-````
-
-
 ## -struct-fields
 
 

@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: printerextension.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,17 +51,6 @@ req.product: Windows 10 or later.
 
 
 Gets an  asynchronous PrintTicket commit operation context.
-
-
-## -syntax
-
-
-````
-HRESULT CommitAsync(
-  [in]  IPrintSchemaTicket         *pPrintTicketCommit,
-  [out] IPrintSchemaAsyncOperation **ppAsyncOperation
-);
-````
 
 
 ## -parameters
@@ -99,7 +88,6 @@ To perform the commit operation, call the <a href="https://msdn.microsoft.com/8A
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprintschematicket.md">IPrintSchemaTicket</a>
 
 
 
@@ -111,6 +99,7 @@ To perform the commit operation, call the <a href="https://msdn.microsoft.com/8A
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451398">IPrintSchemaTicket</a>
  
 
  

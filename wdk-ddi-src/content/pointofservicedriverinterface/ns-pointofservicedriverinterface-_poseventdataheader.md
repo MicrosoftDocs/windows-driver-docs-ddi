@@ -52,17 +52,6 @@ req.typenames: PosEventDataHeader, PosBarcodeScannerImagePreviewEventData
 This structure describes the scanned image data that is passed to the <a href="https://msdn.microsoft.com/library/windows/hardware/dn757466">BarcodeScannerImagePreviewReceived</a> event.
 
 
-## -syntax
-
-
-````
-typedef struct _PosEventDataHeader {
-  PosEventType EventType;
-  UINT32       DataLength;
-} PosEventDataHeader, PosBarcodeScannerImagePreviewEventData;
-````
-
-
 ## -struct-fields
 
 

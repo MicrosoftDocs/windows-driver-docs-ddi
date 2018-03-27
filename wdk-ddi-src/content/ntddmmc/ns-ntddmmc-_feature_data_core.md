@@ -52,21 +52,6 @@ req.typenames: FEATURE_DATA_CORE, *PFEATURE_DATA_CORE
 The FEATURE_DATA_CORE structure holds data for the Core feature descriptor.
 
 
-## -syntax
-
-
-````
-typedef struct _FEATURE_DATA_CORE {
-  FEATURE_HEADER Header;
-  UCHAR          PhysicalInterface[4];
-  UCHAR          DeviceBusyEvent  :1;
-  UCHAR          INQUIRY2  :1;
-  UCHAR          Reserved1  :6;
-  UCHAR          Reserved2[3];
-} FEATURE_DATA_CORE, *PFEATURE_DATA_CORE;
-````
-
-
 ## -struct-fields
 
 
@@ -74,7 +59,7 @@ typedef struct _FEATURE_DATA_CORE {
 
 ### -field Header
 
-Contains a <a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a> structure with header information for this feature descriptor. 
+Contains a <a href="https://msdn.microsoft.com/library/windows/hardware/ff553848">FEATURE_HEADER</a> structure with header information for this feature descriptor. 
 
 
 ### -field PhysicalInterface
@@ -105,14 +90,14 @@ Indicates the feature named "Core" by the <i>MMC-3 </i>specification. This featu
 
 ## -see-also
 
-<a href="..\ntddmmc\ne-ntddmmc-_feature_number.md">FEATURE_NUMBER</a>
 
 
 
-<a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553848">FEATURE_HEADER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553850">FEATURE_NUMBER</a>
  
 
  

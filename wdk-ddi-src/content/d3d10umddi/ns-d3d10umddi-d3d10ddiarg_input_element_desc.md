@@ -52,21 +52,6 @@ req.typenames: D3D10DDIARG_INPUT_ELEMENT_DESC
 The D3D10DDIARG_INPUT_ELEMENT_DESC structure describes an element of a layout.
 
 
-## -syntax
-
-
-````
-typedef struct D3D10DDIARG_INPUT_ELEMENT_DESC {
-  UINT                           InputSlot;
-  UINT                           AlignedByteOffset;
-  DXGI_FORMAT                    Format;
-  D3D10_DDI_INPUT_CLASSIFICATION InputSlotClass;
-  UINT                           InstanceDataStepRate;
-  UINT                           InputRegister;
-} D3D10DDIARG_INPUT_ELEMENT_DESC;
-````
-
-
 ## -struct-fields
 
 
@@ -132,10 +117,10 @@ D3D10_DDI_INPUT_PER_INSTANCE_DATA (1)
 
 ## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createelementlayout.md">D3D10DDIARG_CREATEELEMENTLAYOUT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541674">D3D10DDIARG_CREATEELEMENTLAYOUT</a>
  
 
  

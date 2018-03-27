@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 The <b>USB_HUB_NODE</b> enumerator indicates whether a device is a hub or a composite device.
 
 
-## -syntax
-
-
-````
-typedef enum _USB_HUB_NODE { 
-  UsbHub       = 0,
-  UsbMIParent  = 1
-} USB_HUB_NODE;
-````
-
-
 ## -enum-fields
 
 
@@ -90,7 +79,6 @@ Composite devices are devices that have multiple interfaces. Windows loads the U
 
 ## -see-also
 
-<a href="..\usbioctl\ns-usbioctl-_usb_node_information.md">USB_NODE_INFORMATION</a>
 
 
 
@@ -98,6 +86,7 @@ Composite devices are devices that have multiple interfaces. Windows loads the U
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540110">USB_NODE_INFORMATION</a>
  
 
  

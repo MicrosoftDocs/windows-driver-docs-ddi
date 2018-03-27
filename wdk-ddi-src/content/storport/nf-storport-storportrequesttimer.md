@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: Any
 topic_type:
@@ -53,21 +53,6 @@ req.product: Windows 10 or later.
 Schedules a callback event for a Storport timer context object.
 
 
-## -syntax
-
-
-````
-ULONG StorPortRequestTimer(
-  _In_     PVOID        HwDeviceExtension,
-  _In_     PVOID        TimerHandle,
-  _In_     PHW_TIMER_EX TimerCallback,
-  _In_opt_ PVOID        CallbackContext,
-  _In_     LONGLONG     TimerValue,
-  _In_     LONGLONG     TolerableDelay
-);
-````
-
-
 ## -parameters
 
 
@@ -80,7 +65,7 @@ A pointer to the hardware device extension for the host bus adapter (HBA).
 
 ### -param TimerHandle [in]
 
-A pointer to an opaque buffer for the timer context returned by <a href="..\storport\nf-storport-storportinitializetimer.md">StorPortInitializeTimer</a>.
+A pointer to an opaque buffer for the timer context returned by <a href="https://msdn.microsoft.com/library/windows/hardware/hh451483">StorPortInitializeTimer</a>.
 
 
 ### -param TimerCallback [in]
@@ -192,22 +177,22 @@ The <b>StorPortRequestTimer</b> routine is callable at any IRQL. However, if the
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportfreetimer.md">StorPortFreeTimer</a>
 
 
 
-<a href="..\storport\nf-storport-storportnotification.md">StorPortNotification</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557426">HwStorTimer</a>
 
 
 
-<a href="..\storport\nf-storport-storportinitializetimer.md">StorPortInitializeTimer</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451476">StorPortFreeTimer</a>
 
 
 
-<a href="..\storport\nc-storport-hw_timer.md">HwStorTimer</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451483">StorPortInitializeTimer</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567433">StorPortNotification</a>
  
 
  

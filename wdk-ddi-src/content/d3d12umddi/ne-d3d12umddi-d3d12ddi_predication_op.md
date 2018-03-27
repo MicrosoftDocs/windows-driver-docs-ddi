@@ -52,17 +52,6 @@ req.typenames: D3D12DDI_PREDICATION_OP
 Contains values for predication operation options. 
 
 
-## -syntax
-
-
-````
-typedef enum D3D12DDI_PREDICATION_OP { 
-  D3D12DDI_PREDICATION_OP_EQUAL_ZERO      = 0,
-  D3D12DDI_PREDICATION_OP_NOT_EQUAL_ZERO  = 1
-} D3D12DDI_PREDICATION_OP;
-````
-
-
 ## -enum-fields
 
 

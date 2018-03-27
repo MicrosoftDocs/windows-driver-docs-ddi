@@ -52,16 +52,6 @@ req.typenames: D3D12DDICAPS_UMD_BASED_COMMAND_QUEUE_PRIORITY_DATA_0023
 Contains  priority data for a user-mode driver (UMD)-based command queue.
 
 
-## -syntax
-
-
-````
-typedef struct D3D12DDICAPS_UMD_BASED_COMMAND_QUEUE_PRIORITY_DATA_0023 {
-  D3D12DDI_COMMAND_QUEUE_FLAGS SupportedQueueFlagsForGlobalRealtimeQueues;
-} D3D12DDICAPS_UMD_BASED_COMMAND_QUEUE_PRIORITY_DATA_0023;
-````
-
-
 ## -struct-fields
 
 

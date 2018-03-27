@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
@@ -51,17 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>StorPortGetActiveNodeCount</b> routine returns the number of nodes that are present in the system.
-
-
-## -syntax
-
-
-````
-ULONG StorPortGetActiveNodeCount(
-  _In_  PVOID  HwDeviceExtension,
-  _Out_ PULONG NumberNodes
-);
-````
 
 
 ## -parameters

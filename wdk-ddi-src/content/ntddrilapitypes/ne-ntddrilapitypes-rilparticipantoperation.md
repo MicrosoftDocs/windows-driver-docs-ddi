@@ -52,17 +52,6 @@ req.typenames: RILPARTICIPANTOPERATION
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef enum _RILPARTICIPANTOPERATION { 
-  RIL_PARTICIPANT_REMOVE,
-  RIL_PARTICIPANT_MAX
-} RILPARTICIPANTOPERATION;
-````
-
-
 ## -enum-fields
 
 

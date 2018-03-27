@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -52,16 +52,6 @@ req.typenames: D3DKMT_DRIVERVERSION
 
 			
             Used to destroy a protected session.
-
-
-## -syntax
-
-
-````
-NTSTATUS  D3DKMTDestroyProtectedSession(
-  _Inout_ D3DKMT_DESTROYPROTECTEDSESSION  *D3dkmt_destroyprotectedsession
-);
-````
 
 
 ## -parameters

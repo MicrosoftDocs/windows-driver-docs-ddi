@@ -26,7 +26,7 @@ req.max-support: Unavailable in UMDF 2.0 and later.
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: wudfddi.h
+req.lib: 
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
@@ -55,18 +55,6 @@ req.product: Windows 10 or later.
 The <b>OpenFileByName</b> method opens a <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/general-i-o-targets-in-umdf">remote I/O target</a> that is a file.
 
 
-## -syntax
-
-
-````
-HRESULT OpenFileByName(
-  [in]           PCWSTR                      pszFileName,
-  [in]           DWORD                       DesiredAccess,
-  [in, optional] PUMDF_IO_TARGET_OPEN_PARAMS pOpenParams
-);
-````
-
-
 ## -parameters
 
 
@@ -84,7 +72,7 @@ A bitmask that specifies the caller's desired access to the file. For more infor
 
 ### -param pOpenParams [in, optional]
 
-A pointer to a caller-allocated <a href="..\wudfddi\ns-wudfddi-_umdf_io_target_open_params.md">UMDF_IO_TARGET_OPEN_PARAMS</a> structure that contains additional parameters. This parameter is optional and can be <b>NULL</b>.
+A pointer to a caller-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/ff561275">UMDF_IO_TARGET_OPEN_PARAMS</a> structure that contains additional parameters. This parameter is optional and can be <b>NULL</b>.
 
 
 ## -returns
@@ -176,7 +164,6 @@ hr = fxTarget-&gt;OpenFileByName(FILE_PATH,
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfremotetarget.md">IWDFRemoteTarget</a>
 
 
 
@@ -184,10 +171,11 @@ hr = fxTarget-&gt;OpenFileByName(FILE_PATH,
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560247">IWDFRemoteTarget</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560276">IWDFRemoteTarget::OpenRemoteInterface</a>
-
-
-
  
 
  

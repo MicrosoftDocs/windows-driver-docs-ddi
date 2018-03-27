@@ -52,16 +52,6 @@ req.typenames: SM_AddPort_OUT, *PSM_AddPort_OUT
 The SM_AddPort_OUT structure is used to receive output parameters from the SM_RemoveTarget WMI method.
 
 
-## -syntax
-
-
-````
-typedef struct _SM_AddPort_OUT {
-  ULONG HBAStatus;
-} SM_AddPort_OUT, *PSM_AddPort_OUT;
-````
-
-
 ## -struct-fields
 
 

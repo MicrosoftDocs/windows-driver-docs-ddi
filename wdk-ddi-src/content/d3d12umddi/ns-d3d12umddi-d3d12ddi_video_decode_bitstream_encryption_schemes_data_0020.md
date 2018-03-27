@@ -52,19 +52,6 @@ req.typenames: D3D12DDI_VIDEO_DECODE_BITSTREAM_ENCRYPTION_SCHEMES_DATA_0020
 Specifies information used to retrieve the bitstream encryption schemes supported for a decode profile.
 
 
-## -syntax
-
-
-````
-typedef struct D3D12DDI_VIDEO_DECODE_BITSTREAM_ENCRYPTION_SCHEMES_DATA_0020 {
-  UINT    NodeIndex;
-  REFGUID DecodeProfile;
-  UINT    EncryptionSchemeCount;
-  GUID    *pEncryptionSchemes;
-} D3D12DDI_VIDEO_DECODE_BITSTREAM_ENCRYPTION_SCHEMES_DATA_0020;
-````
-
-
 ## -struct-fields
 
 
@@ -92,14 +79,14 @@ A pointer to a list of supported encryption schemes.  The calling application al
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/2E986E37-30C7-45FE-BC8B-A6DD5670938F">CheckFeatureSupport</a>
 
 
 
-<a href="..\d3d12umddi\nc-d3d12umddi-pfnd3d12ddi_video_get_bitstream_encryption_scheme_count_0020.md">pfnGetBitstreamEncryptionSchemeCount</a>
-
-
-
+<a href="https://msdn.microsoft.com/BD3DFB48-9470-45CC-93BC-A918FD43DC3F">pfnGetBitstreamEncryptionSchemeCount</a>
  
 
  

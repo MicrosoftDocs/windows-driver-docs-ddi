@@ -52,16 +52,6 @@ req.typenames: AddTarget_OUT, *PAddTarget_OUT
 The AddTarget_OUT structure is used by a WMI provider to report the output parameter data of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550136">AddTarget</a> WMI method to the WMI client.
 
 
-## -syntax
-
-
-````
-typedef struct _AddTarget_OUT {
-  ULONG HBAStatus;
-} AddTarget_OUT, *PAddTarget_OUT;
-````
-
-
 ## -struct-fields
 
 
@@ -74,10 +64,10 @@ Contains the status of the operation. For a list of allowed values and their des
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550136">AddTarget</a>
-
-
-
  
 
  

@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: prcomoem.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,20 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <code>IPrintOemPrintTicketProvider::ConvertPrintTicketToDevMode</code> method converts a print ticket to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff552837">DEVMODEW</a> structure. 
-
-
-## -syntax
-
-
-````
-HRESULT ConvertPrintTicketToDevMode(
-  [in]      IXMLDOMDocument2 *pPrintTicket,
-  [in]      ULONG            cbDevmode,
-  [in, out] PDEVMODE         pDevmode,
-  [in]      ULONG            cbDrvPrivateSize,
-  [in]      PVOID            pPrivateDevmode
-);
-````
 
 
 ## -parameters
@@ -119,14 +105,14 @@ Before the system converts a print ticket back to a <a href="https://msdn.micros
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/a32b5ec9-b4f2-4f33-879d-252806bd34ed">IPrintOemPrintTicketProvider</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553161">IPrintOemPrintTicketProvider::ConvertDevModeToPrintTicket</a>
-
-
-
-<a href="..\prcomoem\nn-prcomoem-iprintoemprintticketprovider.md">IPrintOemPrintTicketProvider</a>
-
-
-
  
 
  

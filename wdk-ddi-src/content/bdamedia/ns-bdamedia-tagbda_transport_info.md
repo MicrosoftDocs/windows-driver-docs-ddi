@@ -52,19 +52,6 @@ req.typenames: BDA_TRANSPORT_INFO, *PBDA_TRANSPORT_INFO
 The BDA_TRANSPORT_INFO structure describes formatting for a stream connection. 
 
 
-## -syntax
-
-
-````
-typedef struct tagBDA_TRANSPORT_INFO {
-  ULONG          ulcbPhyiscalPacket;
-  ULONG          ulcbPhyiscalFrame;
-  ULONG          ulcbPhyiscalFrameAlignment;
-  REFERENCE_TIME AvgTimePerFrame;
-} BDA_TRANSPORT_INFO, *PBDA_TRANSPORT_INFO;
-````
-
-
 ## -struct-fields
 
 
@@ -103,11 +90,6 @@ Pins of filters specify the data ranges they support to enable stream connection
 
 ## -see-also
 
-<a href="..\ks\ns-ks-kspin_descriptor.md">KSPIN_DESCRIPTOR</a>
-
-
-
-<a href="..\bdamedia\ns-bdamedia-tagks_datarange_bda_transport.md">KS_DATARANGE_BDA_TRANSPORT</a>
 
 
 
@@ -115,6 +97,11 @@ Pins of filters specify the data ranges they support to enable stream connection
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563533">KSPIN_DESCRIPTOR</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567346">KS_DATARANGE_BDA_TRANSPORT</a>
  
 
  

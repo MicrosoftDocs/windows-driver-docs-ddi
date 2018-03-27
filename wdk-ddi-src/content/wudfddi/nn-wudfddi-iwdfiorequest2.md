@@ -26,7 +26,7 @@ req.max-support: Unavailable in UMDF 2.0 and later.
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: wudfddi.h
+req.lib: 
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
@@ -57,7 +57,7 @@ To obtain the <b>IWDFIoRequest2</b> interface, drivers call <b>IWDFIoRequest::Qu
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDFIoRequest2</b> interface inherits from <a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>. <b>IWDFIoRequest2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDFIoRequest2</b> interface inherits from <a href="https://msdn.microsoft.com/library/windows/hardware/ff558985">IWDFIoRequest</a>. <b>IWDFIoRequest2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -93,7 +93,7 @@ The <a href="https://msdn.microsoft.com/76909efd-99ca-4e47-9c81-8a48608c2543">Ge
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558997">IWDFIoRequest2::GetQueryInformationParameters</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/e189d2f6-ef1c-45ed-8b55-8aae0661a426">GetQueryInformationParameters</a> method retrieves parameters that are associated with a <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_request_type.md">WdfRequestQueryInformation</a>-typed I/O request.
+The <a href="https://msdn.microsoft.com/e189d2f6-ef1c-45ed-8b55-8aae0661a426">GetQueryInformationParameters</a> method retrieves parameters that are associated with a <a href="https://msdn.microsoft.com/a883f22e-0d6f-4755-882b-ad5a60a09271">WdfRequestQueryInformation</a>-typed I/O request.
 
 </td>
 </tr>
@@ -111,7 +111,7 @@ The <a href="https://msdn.microsoft.com/8f918bc4-d2d0-4d5b-93c8-89f02c81a701">Ge
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559009">IWDFIoRequest2::GetSetInformationParameters</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/44872d92-4a71-4cc7-9f7c-c95477ac3264">GetSetInformationParameters</a> method retrieves parameters that are associated with a <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_request_type.md">WdfRequestSetInformation</a>-typed I/O request.
+The <a href="https://msdn.microsoft.com/44872d92-4a71-4cc7-9f7c-c95477ac3264">GetSetInformationParameters</a> method retrieves parameters that are associated with a <a href="https://msdn.microsoft.com/library/windows/hardware/ff550032">WdfRequestSetInformation</a>-typed I/O request.
 
 </td>
 </tr>
@@ -156,7 +156,7 @@ The <a href="https://msdn.microsoft.com/1e33f284-6cb9-426f-a900-76b827341927">Re
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559033">IWDFIoRequest2::RetrieveInputBuffer</a>
 </td>
 <td align="left" width="63%">
-The <a href="..\wdfrequest\nf-wdfrequest-wdfrequestretrieveinputbuffer.md">RequestRetrieveInputBuffer</a> method retrieves an I/O request's input buffer.
+The <a href="https://msdn.microsoft.com/fa02a787-502c-48a3-a5e1-710d7513c42e">RequestRetrieveInputBuffer</a> method retrieves an I/O request's input buffer.
 
 </td>
 </tr>
@@ -165,7 +165,7 @@ The <a href="..\wdfrequest\nf-wdfrequest-wdfrequestretrieveinputbuffer.md">Reque
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559037">IWDFIoRequest2::RetrieveInputMemory</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/32596330-6cd9-4f82-9140-7f9a26cf7932">RetrieveInputMemory</a> method retrieves the <a href="..\wudfddi\nn-wudfddi-iwdfmemory.md">IWDFMemory</a> interface of a framework memory object that represents an I/O request's input buffer.
+The <a href="https://msdn.microsoft.com/32596330-6cd9-4f82-9140-7f9a26cf7932">RetrieveInputMemory</a> method retrieves the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559249">IWDFMemory</a> interface of a framework memory object that represents an I/O request's input buffer.
 
 </td>
 </tr>
@@ -174,7 +174,7 @@ The <a href="https://msdn.microsoft.com/32596330-6cd9-4f82-9140-7f9a26cf7932">Re
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559041">IWDFIoRequest2::RetrieveOutputBuffer</a>
 </td>
 <td align="left" width="63%">
-The <a href="..\wdfrequest\nf-wdfrequest-wdfrequestretrieveoutputbuffer.md">RequestRetrieveOutputBuffer</a> method retrieves an I/O request's output buffer.
+The <a href="https://msdn.microsoft.com/5f12dd97-d8e7-4fef-91bf-00243c0cdd52">RequestRetrieveOutputBuffer</a> method retrieves an I/O request's output buffer.
 
 </td>
 </tr>
@@ -183,7 +183,7 @@ The <a href="..\wdfrequest\nf-wdfrequest-wdfrequestretrieveoutputbuffer.md">Requ
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559046">IWDFIoRequest2::RetrieveOutputMemory</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/d17e7435-adc3-4248-a6c9-c7e267504291">RetrieveOutputMemory</a> method retrieves the <a href="..\wudfddi\nn-wudfddi-iwdfmemory.md">IWDFMemory</a> interface of a framework memory object that represents an I/O request's output buffer.
+The <a href="https://msdn.microsoft.com/d17e7435-adc3-4248-a6c9-c7e267504291">RetrieveOutputMemory</a> method retrieves the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559249">IWDFMemory</a> interface of a framework memory object that represents an I/O request's output buffer.
 
 </td>
 </tr>

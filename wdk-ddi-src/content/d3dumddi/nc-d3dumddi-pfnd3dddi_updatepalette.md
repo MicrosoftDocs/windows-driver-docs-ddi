@@ -52,21 +52,6 @@ req.typenames: DXGK_PTE
 The <i>UpdatePalette</i> function updates a texture palette.
 
 
-## -prototype
-
-
-````
-PFND3DDDI_UPDATEPALETTE UpdatePalette;
-
-__checkReturn HRESULT APIENTRY UpdatePalette(
-  _In_       HANDLE                  hDevice,
-  _In_ const D3DDDIARG_UPDATEPALETTE *pData,
-  _In_ const PALETTEENTRY            *pPaletteData
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -88,7 +73,7 @@ __checkReturn HRESULT APIENTRY UpdatePalette(
 
 #### - pData [in]
 
- A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_updatepalette.md">D3DDDIARG_UPDATEPALETTE</a> structure that describes parameters for the palette-update operation.
+ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff544093">D3DDDIARG_UPDATEPALETTE</a> structure that describes parameters for the palette-update operation.
 
 
 #### - pPaletteData [in]
@@ -111,7 +96,7 @@ __checkReturn HRESULT APIENTRY UpdatePalette(
 
 The palette data in the array that is specified by <i>pPaletteData</i> consists of one UINT value for each palette entry (PALETTEENTRY structure). The palette entry is in ARGB format, with 8 bits for each of the four channels.
 
-The user-mode display driver uses the following members of the <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_updatepalette.md">D3DDDIARG_UPDATEPALETTE</a> structure that is pointed to by <i>pData</i> to update the texture palette: 
+The user-mode display driver uses the following members of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff544093">D3DDDIARG_UPDATEPALETTE</a> structure that is pointed to by <i>pData</i> to update the texture palette: 
 
 <ul>
 <li>
@@ -132,14 +117,14 @@ The <b>NumEntries</b> member specifies the number of entries in the array at <i>
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_updatepalette.md">D3DDDIARG_UPDATEPALETTE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544093">D3DDDIARG_UPDATEPALETTE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544519">D3DDDI_DEVICEFUNCS</a>
  
 
  

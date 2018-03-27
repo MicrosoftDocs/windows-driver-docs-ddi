@@ -54,18 +54,6 @@ The WSK_EXTENSION_CONTROL_IN structure specifies a WSK application's implementat
   interface for a socket.
 
 
-## -syntax
-
-
-````
-typedef struct _WSK_EXTENSION_CONTROL_IN {
-  PNPIID     NpiId;
-  PVOID      ClientContext;
-  const VOID *ClientDispatch;
-} WSK_EXTENSION_CONTROL_IN, *PWSK_EXTENSION_CONTROL_IN;
-````
-
-
 ## -struct-fields
 
 
@@ -109,11 +97,6 @@ A WSK application passes a pointer to a WSK_EXTENSION_CONTROL_IN structure to th
 
 ## -see-also
 
-<a href="..\wsk\ns-wsk-_wsk_extension_control_out.md">WSK_EXTENSION_CONTROL_OUT</a>
-
-
-
-<a href="..\wsk\nc-wsk-pfn_wsk_control_socket.md">WskControlSocket</a>
 
 
 
@@ -121,6 +104,11 @@ A WSK application passes a pointer to a WSK_EXTENSION_CONTROL_IN structure to th
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571168">WSK_EXTENSION_CONTROL_OUT</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571127">WskControlSocket</a>
  
 
  

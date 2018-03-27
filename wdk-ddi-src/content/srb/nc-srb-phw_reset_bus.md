@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 The PHW_RESET_BUS prototype declares a routine that resets the indicated SCSI bus.
 
 
-## -prototype
-
-
-````
-typedef BOOLEAN (*PHW_RESET_BUS)(
-  _In_ PVOID DeviceExtension ,
-  _In_ ULONG PathId
-);
-````
-
-
 ## -parameters
 
 
@@ -94,23 +83,23 @@ The routine that this prototype declares returns <b>TRUE</b> if the bus is succe
 
 The initialization routine for both SCSI and StorPort miniport drivers are declared using this prototype. 
 
-For more information about the SCSI miniport driver's bus reset routine see <a href="..\srb\nc-srb-phw_reset_bus.md">HwScsiResetBus</a>. 
+For more information about the SCSI miniport driver's bus reset routine see <a href="https://msdn.microsoft.com/library/windows/hardware/ff557318">HwScsiResetBus</a>. 
 
-For more information about the bus reset routine that is used with the StorPort driver's miniport driver routine, see <a href="..\storport\nc-storport-hw_reset_bus.md">HwStorResetBus</a>. 
+For more information about the bus reset routine that is used with the StorPort driver's miniport driver routine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff557415">HwStorResetBus</a>. 
 
 
 
 
 ## -see-also
 
-<a href="..\srb\nc-srb-phw_reset_bus.md">HwScsiResetBus</a>
 
 
 
-<a href="..\storport\nc-storport-hw_reset_bus.md">HwStorResetBus</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557318">HwScsiResetBus</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557415">HwStorResetBus</a>
  
 
  

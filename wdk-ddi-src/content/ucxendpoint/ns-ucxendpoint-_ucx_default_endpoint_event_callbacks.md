@@ -53,22 +53,6 @@ req.product: Windows 10 or later.
 This structure provides a list of UCX default endpoint event callback functions.
 
 
-## -syntax
-
-
-````
-typedef struct _UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS {
-  ULONG                                    Size;
-  PEVT_UCX_ENDPOINT_PURGE                  EvtEndpointPurge;
-  PEVT_UCX_ENDPOINT_START                  EvtEndpointStart;
-  PEVT_UCX_ENDPOINT_ABORT                  EvtEndpointAbort;
-  PEVT_UCX_ENDPOINT_OK_TO_CANCEL_TRANSFERS EvtEndpointOkToCancelTransfers;
-  PEVT_UCX_DEFAULT_ENDPOINT_UPDATE         EvtDefaultEndpointUpdate;
-  HANDLE                                   Reserved1;
-} UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS, *P_UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS;
-````
-
-
 ## -struct-fields
 
 
@@ -111,14 +95,14 @@ Do not use.
 
 ## -see-also
 
-<a href="..\ucxendpoint\nf-ucxendpoint-ucxdefaultendpointinitseteventcallbacks.md">UcxDefaultEndpointInitSetEventCallbacks</a>
 
 
 
-<a href="..\ucxendpoint\nf-ucxendpoint-ucx_default_endpoint_event_callbacks_init.md">UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS_INIT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt187950">UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS_INIT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt188037">UcxDefaultEndpointInitSetEventCallbacks</a>
  
 
  

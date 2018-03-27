@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: sti.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 The <b>IStillImage::GetDeviceInfo</b> method returns hardware characteristics for a specified still image device.
 
 
-## -syntax
-
-
-````
-HRESULT GetDeviceInfo(
-  [in]  LPWSTR pwszDeviceName,
-  [out] LPVOID *ppBuffer
-);
-````
-
-
 ## -parameters
 
 
@@ -76,7 +65,7 @@ Caller-supplied pointer to a string representing an internal device name, obtain
 
 ### -param ppBuffer [out]
 
-Receives a handle to an <a href="..\sti\ns-sti-_sti_device_informationw.md">STI_DEVICE_INFORMATION</a> structure.
+Receives a handle to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff548361">STI_DEVICE_INFORMATION</a> structure.
 
 
 ## -returns
@@ -92,7 +81,7 @@ If the operation succeeds, the method returns S_OK. Otherwise, it returns one of
 
 
 
-The <b>IStillImage::GetDeviceInfo</b> method returns an <a href="..\sti\ns-sti-_sti_device_informationw.md">STI_DEVICE_INFORMATION</a> structure for the specified still-image device. Structure contents are typically used for creating user interface displays.
+The <b>IStillImage::GetDeviceInfo</b> method returns an <a href="https://msdn.microsoft.com/library/windows/hardware/ff548361">STI_DEVICE_INFORMATION</a> structure for the specified still-image device. Structure contents are typically used for creating user interface displays.
 
 Before calling <b>IStillImage::GetDeviceInfo</b>, clients of the <b>IStillImage</b> COM interface must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff543804">IStillImage::StiCreateInstance</a> to obtain an <b>IStillImage</b> interface pointer.
 
@@ -103,7 +92,6 @@ When the caller has finished using the STI_DEVICE_INFORMATION structure referenc
 
 ## -see-also
 
-<a href="..\sti\nn-sti-istillimagew.md">IStillImageW</a>
 
 
 
@@ -111,6 +99,7 @@ When the caller has finished using the STI_DEVICE_INFORMATION structure referenc
 
 
 
+<a href="https://msdn.microsoft.com/a9ceee48-cbb5-4448-83b4-9c19fe89fcb9">IStillImageW</a>
  
 
  

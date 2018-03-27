@@ -52,20 +52,6 @@ req.typenames: VIDEO_WIN32K_CALLBACKS, *PVIDEO_WIN32K_CALLBACKS
 The VIDEO_WIN32K_CALLBACKS structure is reserved for system use.
 
 
-## -syntax
-
-
-````
-typedef struct _VIDEO_WIN32K_CALLBACKS {
-  PVOID                 PhysDisp;
-  PVIDEO_WIN32K_CALLOUT Callout;
-  ULONG                 bACPI;
-  HANDLE                pPhysDeviceObject;
-  ULONG                 DualviewFlags;
-} VIDEO_WIN32K_CALLBACKS, *PVIDEO_WIN32K_CALLBACKS;
-````
-
-
 ## -struct-fields
 
 

@@ -53,19 +53,6 @@ req.product: Windows 10 or later.
 The WDI_ACTION_FRAME_CATEGORY enumeration defines the action frame categories.
 
 
-## -syntax
-
-
-````
-typedef enum _WDI_ACTION_FRAME_CATEGORY { 
-  WDI_ACTION_FRAME_CATEGORY_PUBLIC               = 4,
-  WDI_ACTION_FRAME_CATEGORY_RADIO_MEASUREMENT    = 5,
-  WDI_ACTION_FRAME_CATEGORY_FAST_BSS_TRANSITION  = 6,
-  WDI_ACTION_FRAME_CATEGORY_WNM                  = 10
-} WDI_ACTION_FRAME_CATEGORY;
-````
-
-
 ## -enum-fields
 
 

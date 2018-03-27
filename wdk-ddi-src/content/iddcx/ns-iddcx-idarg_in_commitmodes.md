@@ -53,17 +53,6 @@ Gives information about the paths that need to be committed.
              
 
 
-## -syntax
-
-
-````
-typedef struct IDARG_IN_COMMITMODES {
-  UINT                                PathCount;
-  _Field_size_(PathCount) IDDCX_PATH* pPaths;
-} IDARG_IN_COMMITMODES, *IDARG_IN_COMMITMODES;
-````
-
-
 ## -struct-fields
 
 

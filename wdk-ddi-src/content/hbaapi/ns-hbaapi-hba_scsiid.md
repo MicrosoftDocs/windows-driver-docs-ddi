@@ -52,19 +52,6 @@ req.typenames: HBA_SCSIID, *PHBA_SCSIID
 The HBA_ScsiId structure contains information used by the operating system to identify a SCSI logical unit.
 
 
-## -syntax
-
-
-````
-typedef struct HBA_ScsiId {
-  char       OSDeviceName[256];
-  HBA_UINT32 ScsiBusNumber;
-  HBA_UINT32 ScsiTargetNumber;
-  HBA_UINT32 ScsiOSLun;
-} HBA_SCSIID, *PHBA_SCSIID;
-````
-
-
 ## -struct-fields
 
 
@@ -101,10 +88,10 @@ For a detailed discussion of how the data assigned to members of this structure 
 
 ## -see-also
 
-<a href="..\hbaapi\nf-hbaapi-hba_getfcpstatistics.md">HBA_GetFCPStatistics</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556096">HBA_GetFCPStatistics</a>
  
 
  

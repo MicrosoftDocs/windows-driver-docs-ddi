@@ -58,17 +58,6 @@ req.product: Windows 10 or later.
 The <b>WdfCollectionGetItem</b> method returns a handle to the object that is contained in a specified object collection and associated with a specified index value.
 
 
-## -syntax
-
-
-````
-WDFOBJECT WdfCollectionGetItem(
-  _In_ WDFCOLLECTION Collection,
-  _In_ ULONG         Index
-);
-````
-
-
 ## -parameters
 
 
@@ -106,7 +95,7 @@ For more information about object collections, see <a href="https://docs.microso
 
 #### Examples
 
-For a code example that uses <b>WdfCollectionGetItem</b>, see <a href="..\wdfcollection\nf-wdfcollection-wdfcollectiongetcount.md">WdfCollectionGetCount</a>.
+For a code example that uses <b>WdfCollectionGetItem</b>, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff545759">WdfCollectionGetCount</a>.
 
 <div class="code"><span codelanguage=""><table>
 <tr>
@@ -123,14 +112,14 @@ For a code example that uses <b>WdfCollectionGetItem</b>, see <a href="..\wdfcol
 
 ## -see-also
 
-<a href="..\wdfcollection\nf-wdfcollection-wdfcollectiongetlastitem.md">WdfCollectionGetLastItem</a>
 
 
 
-<a href="..\wdfcollection\nf-wdfcollection-wdfcollectiongetfirstitem.md">WdfCollectionGetFirstItem</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545763">WdfCollectionGetFirstItem</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545775">WdfCollectionGetLastItem</a>
  
 
  

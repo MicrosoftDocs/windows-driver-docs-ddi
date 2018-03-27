@@ -53,18 +53,6 @@ req.product: Windows 10 or later.
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef struct _RILSETMSGINUICCSTATUSPARAMS {
-  HUICCAPP          hUiccApp;
-  DWORD             dwIndex;
-  RILMESSAGESTATUS  dwStatus;
-} RILSETMSGINUICCSTATUSPARAMS, RILSETMSGINUICCSTATUSPARAMS;
-````
-
-
 ## -struct-fields
 
 

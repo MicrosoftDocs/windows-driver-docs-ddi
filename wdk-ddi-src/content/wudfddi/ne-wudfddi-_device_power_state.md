@@ -55,21 +55,6 @@ req.product: Windows 10 or later.
 The <b>DEVICE_POWER_STATE</b> enumeration identifies the <a href="https://msdn.microsoft.com/library/windows/hardware/ff543162">device power states</a> that a device can enter.
 
 
-## -syntax
-
-
-````
-typedef enum _DEVICE_POWER_STATE { 
-  PowerDeviceUnspecified  = 0,
-  PowerDeviceD0           = ( PowerDeviceUnspecified + 1 ),
-  PowerDeviceD1           = ( PowerDeviceD0 + 1 ),
-  PowerDeviceD2           = ( PowerDeviceD1 + 1 ),
-  PowerDeviceD3           = ( PowerDeviceD2 + 1 ),
-  PowerDeviceMaximum      = ( PowerDeviceD3 + 1 )
-} DEVICE_POWER_STATE, *PDEVICE_POWER_STATE;
-````
-
-
 ## -enum-fields
 
 
@@ -116,14 +101,14 @@ The <b>DEVICE_POWER_STATE</b> enumeration is used as input to <a href="https://m
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556920">IWDFDevice2::AssignS0IdleSettings</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556923">IWDFDevice2::AssignSxWakeSettings</a>
-
-
-
  
 
  

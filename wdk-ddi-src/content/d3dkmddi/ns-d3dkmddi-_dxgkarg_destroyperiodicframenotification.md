@@ -52,17 +52,6 @@ req.typenames: DXGKARG_DESTROYPERIODICFRAMENOTIFICATION
 The arguments used to destroy a periodic frame notification.
 
 
-## -syntax
-
-
-````
-typedef struct _DXGKARG_DESTROYPERIODICFRAMENOTIFICATION {
-  HANDLE hNotification;
-  HANDLE hAdapter;
-} DXGKARG_DESTROYPERIODICFRAMENOTIFICATION;
-````
-
-
 ## -struct-fields
 
 

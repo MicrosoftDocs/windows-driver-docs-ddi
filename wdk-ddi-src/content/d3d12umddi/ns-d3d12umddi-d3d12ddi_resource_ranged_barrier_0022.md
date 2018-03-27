@@ -52,18 +52,6 @@ req.typenames: D3D12DDI_RESOURCE_RANGED_BARRIER_0022
 Describes a resource ranged barrier.
 
 
-## -syntax
-
-
-````
-typedef struct D3D12DDI_RESOURCE_RANGED_BARRIER_0022 {
-  D3D12DDI_HRESOURCE hResource;
-  UINT               Subresource;
-  D3D12DDI_RANGE     Range;
-} D3D12DDI_RESOURCE_RANGED_BARRIER_0022;
-````
-
-
 ## -struct-fields
 
 
@@ -81,15 +69,15 @@ A subresource. If the <i>Subresource</i> value  is -1 or _ALL_SUBRESOURCES, then
 
 ### -field Range
 
-A range as a <a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddi_range.md">D3D12DDI_RANGE</a> structure. If the resource is a texture with an adapter-dependent layout, the range must be (0, UINT64_MAX), because only the driver knows where a particular subresource resides. When the resource is a buffer or texture with well-specified layout, the range fits within the subresource extent. Empty ranges are never passed.
+A range as a <a href="https://msdn.microsoft.com/B3A8F252-D56D-4F20-A0DE-2A29904BC907">D3D12DDI_RANGE</a> structure. If the resource is a texture with an adapter-dependent layout, the range must be (0, UINT64_MAX), because only the driver knows where a particular subresource resides. When the resource is a buffer or texture with well-specified layout, the range fits within the subresource extent. Empty ranges are never passed.
 
 
 ## -see-also
 
-<a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddi_range.md">D3D12DDI_RANGE</a>
 
 
 
+<a href="https://msdn.microsoft.com/B3A8F252-D56D-4F20-A0DE-2A29904BC907">D3D12DDI_RANGE</a>
  
 
  

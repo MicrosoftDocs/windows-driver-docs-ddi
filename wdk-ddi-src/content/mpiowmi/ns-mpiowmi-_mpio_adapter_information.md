@@ -52,21 +52,6 @@ req.typenames: MPIO_ADAPTER_INFORMATION, *PMPIO_ADAPTER_INFORMATION
 The MPIO_ADAPTER_INFORMATION structure contains information that pertains to MPIO's view of a path.
 
 
-## -syntax
-
-
-````
-typedef struct _MPIO_ADAPTER_INFORMATION {
-  ULONGLONG PathId;
-  UCHAR     BusNumber;
-  UCHAR     DeviceNumber;
-  UCHAR     FunctionNumber;
-  UCHAR     Pad;
-  WCHAR     AdapterName[63 + 1];
-} MPIO_ADAPTER_INFORMATION, *PMPIO_ADAPTER_INFORMATION;
-````
-
-
 ## -struct-fields
 
 

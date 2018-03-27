@@ -52,23 +52,6 @@ req.typenames: DXVADDI_SAMPLEFORMAT
 The DXVADDI_SAMPLEFORMAT enumeration type contains values that identify how a video frame is sampled.
 
 
-## -syntax
-
-
-````
-typedef enum _DXVADDI_SAMPLEFORMAT { 
-  DXVADDI_SampleFormatMask                 = 0x00FF,
-  DXVADDI_SampleUnknown                    = 0,
-  DXVADDI_SampleProgressiveFrame           = 2,
-  DXVADDI_SampleFieldInterleavedEvenFirst  = 3,
-  DXVADDI_SampleFieldInterleavedOddFirst   = 4,
-  DXVADDI_SampleFieldSingleEven            = 5,
-  DXVADDI_SampleFieldSingleOdd             = 6,
-  DXVADDI_SampleSubStream                  = 7
-} DXVADDI_SAMPLEFORMAT;
-````
-
-
 ## -enum-fields
 
 
@@ -118,17 +101,17 @@ The sample contains a video substream.
 
 
 
-One of the values of DXVADDI_SAMPLEFORMAT can be specified in the <b>SampleFormat</b> member of the <a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_extendedformat.md">DXVADDI_EXTENDEDFORMAT</a> structure.
+One of the values of DXVADDI_SAMPLEFORMAT can be specified in the <b>SampleFormat</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562904">DXVADDI_EXTENDEDFORMAT</a> structure.
 
 
 
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_extendedformat.md">DXVADDI_EXTENDEDFORMAT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562904">DXVADDI_EXTENDEDFORMAT</a>
  
 
  

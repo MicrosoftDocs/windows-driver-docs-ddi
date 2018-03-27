@@ -55,17 +55,6 @@ Completes the URB request with an <a href="https://msdn.microsoft.com/7792201b-6
 
 
 
-## -syntax
-
-
-````
-FORCEINLINE void UdecxUrbCompleteWithNtStatus(
-  _In_ WDFREQUEST Request,
-  _In_ NTSTATUS   NtStatus
-);
-````
-
-
 ## -parameters
 
 
@@ -73,7 +62,7 @@ FORCEINLINE void UdecxUrbCompleteWithNtStatus(
 
 ### -param Request [in]
 
-A handle to a framework request object that contains the <a href="..\usb\ns-usb-_urb.md">URB</a> for the transfer.
+A handle to a framework request object that contains the <a href="https://msdn.microsoft.com/library/windows/hardware/ff538923">URB</a> for the transfer.
 
 
 ### -param NtStatus [in]
@@ -92,7 +81,6 @@ This function does not return a value.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
 
 
 
@@ -100,6 +88,7 @@ This function does not return a value.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
  
 
  

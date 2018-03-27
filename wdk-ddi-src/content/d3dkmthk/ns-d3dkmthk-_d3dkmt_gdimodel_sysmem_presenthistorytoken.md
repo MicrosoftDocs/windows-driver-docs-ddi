@@ -52,18 +52,6 @@ req.typenames: D3DKMT_GDIMODEL_SYSMEM_PRESENTHISTORYTOKEN
 The D3DKMT_GDIMODEL_SYSMEM_PRESENTHISTORYTOKEN structure identifies a GDI system present-history operation.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DKMT_GDIMODEL_SYSMEM_PRESENTHISTORYTOKEN {
-  ULONG64 hlsurf;
-  DWORD   dwDirtyFlags;
-  UINT64  uiCookie;
-} D3DKMT_GDIMODEL_SYSMEM_PRESENTHISTORYTOKEN;
-````
-
-
 ## -struct-fields
 
 
@@ -86,10 +74,10 @@ typedef struct _D3DKMT_GDIMODEL_SYSMEM_PRESENTHISTORYTOKEN {
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_presenthistorytoken.md">D3DKMT_PRESENTHISTORYTOKEN</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548188">D3DKMT_PRESENTHISTORYTOKEN</a>
  
 
  

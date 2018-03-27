@@ -52,22 +52,6 @@ req.typenames: D3DKMDT_GDISURFACEFLAGS
 The D3DKMDT_GDISURFACEFLAGS structure is reserved for system use. Do not use it in your driver.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DKMDT_GDISURFACEFLAGS {
-  union {
-    struct {
-      UINT Stereo           :1;
-      UINT Reserved  :31;
-    };
-  };
-  UINT Value;
-} D3DKMDT_GDISURFACEFLAGS;
-````
-
-
 ## -struct-fields
 
 

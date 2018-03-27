@@ -52,21 +52,6 @@ req.typenames: RILSMSMODIFICATIONINFO, *LPRILSMSMODIFICATIONINFO
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef struct _RILSMSMODIFICATIONINFO {
-  DWORD               cbSize;
-  DWORD               dwParams;
-  DWORD               dwExecutor;
-  DWORD               dwModificationType;
-  RILADDRESS          raAddress;
-  RILALPHAIDENTIFIER  aiIdentifier;
-} RILSMSMODIFICATIONINFO, RILSMSMODIFICATIONINFO;
-````
-
-
 ## -struct-fields
 
 

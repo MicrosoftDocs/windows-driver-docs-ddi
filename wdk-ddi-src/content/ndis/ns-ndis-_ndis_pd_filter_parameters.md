@@ -52,26 +52,6 @@ req.typenames: NDIS_PD_FILTER_PARAMETERS
 This structure holds metadata for a packet filter.
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_PD_FILTER_PARAMETERS {
-  NDIS_OBJECT_HEADER                                                                                 Header;
-  ULONG                                                                                              Flags;
-  NDIS_GFP_PROFILE_ID                                                                                MatchProfileId;
-  ULONG                                                                                              Priority;
-  NDIS_PD_COUNTER_HANDLE                                                                             CounterHandle;
-  NDIS_PD_QUEUE                                                                                      *TargetReceiveQueue;
-  ULONG64                                                                                            RxFilterContext;
-  _Field_size_bytes_(HeaderGroupMatchArrayTotalSize) PUCHAR                                          HeaderGroupMatchArray;
-  _Field_range_(0, MAXULONG/HeaderGroupMatchArrayElementSize) ULONG                                  HeaderGroupMatchArrayNumElements;
-  ULONG                                                                                              HeaderGroupMatchArrayElementSize;
-  _Field_range_((HeaderGroupMatchArrayNumElements*HeaderGroupMatchArrayElementSize), MAXULONG) ULONG HeaderGroupMatchArrayTotalSize;
-} NDIS_PD_FILTER_PARAMETERS;
-````
-
-
 ## -struct-fields
 
 
@@ -79,7 +59,7 @@ typedef struct _NDIS_PD_FILTER_PARAMETERS {
 
 ### -field Header
 
-The <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure for the <b>NDIS_PD_FILTER_PARAMETERS</b> structure. Set the members of this structure as follows:
+The <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure for the <b>NDIS_PD_FILTER_PARAMETERS</b> structure. Set the members of this structure as follows:
 
 <ul>
 <li><b>Type</b> = <b>NDIS_OBJECT_TYPE_DEFAULT</b></li>
@@ -148,10 +128,10 @@ This structure must be aligned on an 8-byte boundary.
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
  
 
  

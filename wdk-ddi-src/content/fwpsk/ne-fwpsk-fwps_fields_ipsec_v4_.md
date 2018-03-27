@@ -54,25 +54,6 @@ The FWPS_FIELDS_IPSEC_V4 enumeration type specifies the data field identifiers f
   <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa366492">run-time filtering layer</a>.
 
 
-## -syntax
-
-
-````
-typedef enum FWPS_FIELDS_IPSEC_V4_ { 
-  FWPS_FIELD_IPSEC_V4_IP_PROTOCOL,
-  FWPS_FIELD_IPSEC_V4_IP_LOCAL_ADDRESS,
-  FWPS_FIELD_IPSEC_V4_IP_REMOTE_ADDRESS,
-  FWPS_FIELD_IPSEC_V4_IP_LOCAL_PORT,
-  FWPS_FIELD_IPSEC_V4_IP_REMOTE_PORT,
-  FWPS_FIELD_IPSEC_V4_IP_LOCAL_INTERFACE,
-#if (NTDDI_VERSION >= NTDDI_WIN7)
-  FWPS_FIELD_IPSEC_V4_PROFILE_ID,
-#endif 
-  FWPS_FIELD_IPSEC_V4_MAX
-} FWPS_FIELDS_IPSEC_V4;
-````
-
-
 ## -enum-fields
 
 
@@ -105,7 +86,7 @@ The remote transport protocol port number.
 
 ### -field FWPS_FIELD_IPSEC_V4_IP_LOCAL_INTERFACE
 
-The locally unique identifier (<a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a>) for the network interface associated with the
+The locally unique identifier (<a href="https://msdn.microsoft.com/library/windows/hardware/ff557080">LUID</a>) for the network interface associated with the
      local IP address.
 
 

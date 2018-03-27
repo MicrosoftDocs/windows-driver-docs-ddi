@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -52,18 +52,6 @@ req.typenames:
 An OS callback function the driver calls to create a monitor object that can later be used for arrival.
 
                 
-
-
-## -syntax
-
-
-````
-NTSTATUS IddCxMonitorCreate(
-  _In_        IDDCX_ADAPTER            AdapterObject,
-  _In_  const IDARG_IN_MONITORCREATE*  pInArgs,
-  _Out_       IDARG_OUT_MONITORCREATE* pOutArgs
-);
-````
 
 
 ## -parameters

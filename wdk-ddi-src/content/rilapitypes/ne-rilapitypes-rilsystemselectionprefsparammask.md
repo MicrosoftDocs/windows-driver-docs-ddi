@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,22 +51,6 @@ req.product: Windows 10 or later.
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef enum _RILSYSTEMSELECTIONPREFSPARAMMASK { 
-  RIL_PARAM_SSP_SYSTEMTYPES,
-  RIL_PARAM_SSP_MODE,
-  RIL_PARAM_SSP_PLMNINFO,
-  RIL_PARAM_SSP_ROAMINGMODE,
-  RIL_PARAM_SSP_ACQUISITIONORDERSIZE,
-  RIL_PARAM_SSP_ACQUISITIONORDER,
-  RIL_PARAM_SSP_ALL
-} RILSYSTEMSELECTIONPREFSPARAMMASK;
-````
 
 
 ## -enum-fields

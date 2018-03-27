@@ -61,14 +61,6 @@ The <i>BeginThreadStackReconstruction</i> callback function causes debugger to p
 </tr>
 </table></span></div>
 
-## -prototype
-
-
-````
-CALLBACK* PDEBUG_STACK_PROVIDER_BEGINTHREADSTACKRECONSTRUCTION BeginThreadStackReconstruction; 
-````
-
-
 ## -parameters
 
 

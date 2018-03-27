@@ -52,18 +52,6 @@ req.typenames: RILDIALEDIDSETTINGSPARAMMASK
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef enum _RILDIALEDIDSETTINGSPARAMMASK { 
-  RIL_PARAM_DIDS_PROVISIONING,
-  RIL_PARAM_DIDS_STATUS,
-  RIL_PARAM_DIDS_ALL
-} RILDIALEDIDSETTINGSPARAMMASK;
-````
-
-
 ## -enum-fields
 
 

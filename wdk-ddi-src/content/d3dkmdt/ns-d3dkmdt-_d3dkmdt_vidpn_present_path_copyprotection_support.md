@@ -52,19 +52,6 @@ req.typenames: D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION_SUPPORT
 The D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION_SUPPORT structure is used to indicate the types of copy protection that are supported by a particular VidPN present path.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION_SUPPORT {
-  UINT NoProtection  :1;
-  UINT MacroVisionApsTrigger  :1;
-  UINT MacroVisionFull  :1;
-  UINT Reserved  :29;
-} D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION_SUPPORT;
-````
-
-
 ## -struct-fields
 
 
@@ -94,7 +81,7 @@ Reserved for future use.
 
 
 
-The <b>CopyProtectionSupport</b> member of the <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_vidpn_present_path_copyprotection.md">D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION</a> structure is a D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION_SUPPORT structure.
+The <b>CopyProtectionSupport</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff546656">D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION</a> structure is a D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION_SUPPORT structure.
 
 
 

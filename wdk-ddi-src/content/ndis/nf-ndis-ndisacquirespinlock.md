@@ -55,16 +55,6 @@ The
   resources, shared among driver functions, that the spin lock protects.
 
 
-## -syntax
-
-
-````
-VOID NdisAcquireSpinLock(
-  [in] PNDIS_SPIN_LOCK SpinLock
-);
-````
-
-
 ## -parameters
 
 
@@ -80,13 +70,13 @@ Pointer to an opaque spin lock, already initialized by the caller.
 
 
 The driver must initialize a variable of type NDIS_SPIN_LOCK with 
-    <a href="..\ndis\nf-ndis-ndisallocatespinlock.md">NdisAllocateSpinLock</a> before it calls
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561617">NdisAllocateSpinLock</a> before it calls
     any other 
     <b>Ndis<i>Xxx</i>SpinLock</b> function. The driver must provide resident storage for the spin lock(s) it uses.
 
 After acquiring a spin lock with 
     <b>NdisAcquireSpinLock</b>, the caller must release that lock with a call to 
-    <a href="..\ndis\nf-ndis-ndisreleasespinlock.md">NdisReleaseSpinLock</a>. A driver must
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff564524">NdisReleaseSpinLock</a>. A driver must
     call 
     <b>NdisReleaseSpinLock</b> following each call to 
     <b>NdisAcquireSpinLock</b>. Otherwise, a deadlock occurs, hanging the driver.
@@ -94,19 +84,19 @@ After acquiring a spin lock with
 A spin lock acquired with 
     <b>NdisAcquireSpinLock</b> must be released with 
     <b>NdisReleaseSpinLock</b>. A spin lock acquired with 
-    <a href="..\ndis\nf-ndis-ndisdpracquirespinlock.md">NdisDprAcquireSpinLock</a> must be
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561749">NdisDprAcquireSpinLock</a> must be
     released with 
-    <a href="..\ndis\nf-ndis-ndisdprreleasespinlock.md">NdisDprReleaseSpinLock</a>.
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561753">NdisDprReleaseSpinLock</a>.
 
 A driver should never hold a spin lock for an extended period (more than a few instructions). Holding
     a spin lock for longer than 25 microseconds degrades both system and driver performance.
 
 A miniport driver cannot use a spin lock to protect resources that its other functions share with the 
-    <a href="..\ndis\nc-ndis-miniport_isr.md">MiniportInterrupt</a> and/or 
-    <a href="..\ndis\nc-ndis-miniport_disable_interrupt.md">
+    <a href="https://msdn.microsoft.com/810503b9-75cd-4b38-ab1f-de240968ded6">MiniportInterrupt</a> and/or 
+    <a href="https://msdn.microsoft.com/6016ab15-56c6-4430-8883-d4cdcdf6116f">
     MiniportDisableInterruptEx</a> functions. Instead, a miniport driver must call 
     <b>NdisMSynchronizeWithInterruptEx</b> so that its 
-    <a href="..\ndis\nc-ndis-miniport_synchronize_interrupt.md">
+    <a href="https://msdn.microsoft.com/aac1ff91-76aa-46a0-8e8a-85b9f8c3323c">
     MiniportSynchronizeInterrupt</a> function accesses such shared resources at the same DIRQL at which its
     
     <i>MiniportInterrupt</i> and/or 
@@ -121,44 +111,44 @@ For more information about acquiring and releasing NDIS spin locks, see
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-miniport_disable_interrupt.md">MiniportDisableInterruptEx</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisreleasespinlock.md">NdisReleaseSpinLock</a>
+<a href="https://msdn.microsoft.com/6016ab15-56c6-4430-8883-d4cdcdf6116f">MiniportDisableInterruptEx</a>
 
 
 
-<a href="..\ndis\nc-ndis-miniport_synchronize_interrupt.md">
+<a href="https://msdn.microsoft.com/b8d452b4-bef3-4991-87cf-fac15bedfde4">MiniportHaltEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/810503b9-75cd-4b38-ab1f-de240968ded6">MiniportInterrupt</a>
+
+
+
+<a href="https://msdn.microsoft.com/aac1ff91-76aa-46a0-8e8a-85b9f8c3323c">
    MiniportSynchronizeInterrupt</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisallocatespinlock.md">NdisAllocateSpinLock</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561617">NdisAllocateSpinLock</a>
 
 
 
-<a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561749">NdisDprAcquireSpinLock</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndismsynchronizewithinterruptex.md">
+<a href="https://msdn.microsoft.com/5dca9258-a3ae-43f4-a5aa-d591165d72ed">
    NdisMSynchronizeWithInterruptEx</a>
 
 
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_isr.md">MiniportInterrupt</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisdpracquirespinlock.md">NdisDprAcquireSpinLock</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564524">NdisReleaseSpinLock</a>
  
 
  

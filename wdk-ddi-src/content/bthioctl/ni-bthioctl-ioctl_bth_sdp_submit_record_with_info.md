@@ -46,11 +46,6 @@ req.typenames: HFP_BYPASS_CODEC_ID_V1, *PHFP_BYPASS_CODEC_ID_V1
 # IOCTL_BTH_SDP_SUBMIT_RECORD_WITH_INFO IOCTL
 
 
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
-
 ## -description
 
 
@@ -59,7 +54,7 @@ The IOCTL_BTH_SDP_SUBMIT_RECORD_WITH_INFO request adds an SDP record to the loca
      with attributes that are not part of the SDP record itself. After this call completes successfully, the
      profile driver can advertise that a service is available on the local computer. The profile driver calls
      
-     <a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_remove_record.md">IOCTL_BTH_SDP_REMOVE_RECORD</a> to
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff536690">IOCTL_BTH_SDP_REMOVE_RECORD</a> to
      stop advertising the service on the local SDP server.
 
 
@@ -74,7 +69,7 @@ The IOCTL_BTH_SDP_SUBMIT_RECORD_WITH_INFO request adds an SDP record to the loca
 
 The 
       <b>AssociatedIrp.SystemBuffer</b> member contains a 
-      <a href="..\bthioctl\ns-bthioctl-_bth_sdp_record.md">BTH_SDP_RECORD</a> structure that specifies the
+      <a href="https://msdn.microsoft.com/library/windows/hardware/ff536650">BTH_SDP_RECORD</a> structure that specifies the
       SDP record to add, its size, the required security for the record, and publication options for the
       record. The structure is followed by the raw SDP record.
 
@@ -82,7 +77,7 @@ The
 ### -input-buffer-length
 
 The length of a 
-      <a href="..\bthioctl\ns-bthioctl-_bth_sdp_record.md">BTH_SDP_RECORD</a> structure.
+      <a href="https://msdn.microsoft.com/library/windows/hardware/ff536650">BTH_SDP_RECORD</a> structure.
 
 
 ### -output-buffer
@@ -178,14 +173,14 @@ A member of the structure passed to the input buffer, or the stream passed to th
 
 ## -see-also
 
-<a href="..\bthioctl\ns-bthioctl-_bth_sdp_record.md">BTH_SDP_RECORD</a>
 
 
 
-<a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_submit_record.md">IOCTL_BTH_SDP_SUBMIT_RECORD</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536650">BTH_SDP_RECORD</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536693">IOCTL_BTH_SDP_SUBMIT_RECORD</a>
  
 
  

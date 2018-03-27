@@ -53,19 +53,6 @@ The <b>SeTokenGetNoChildProcessRestricted</b> routine determines the state of th
     not possible to be enforced and audit-only at the same time.
 
 
-## -syntax
-
-
-````
-void NTKERNELAPI SeTokenGetNoChildProcessRestricted(
-  _In_  PACCESS_TOKEN Token,
-  _Out_ PBOOLEAN      Enforced,
-  _Out_ PBOOLEAN      UnlessSecure,
-  _Out_ PBOOLEAN      AuditOnly
-);
-````
-
-
 ## -parameters
 
 
@@ -103,10 +90,10 @@ This function does not return a value.
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-setokensetnochildprocessrestricted.md">SeTokenSetNoChildProcessRestricted</a>
 
 
 
+<a href="https://msdn.microsoft.com/FCFCBF4C-CBAA-4284-A6F4-67630608CF19">SeTokenSetNoChildProcessRestricted</a>
  
 
  

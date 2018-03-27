@@ -52,22 +52,6 @@ req.typenames: HBA_WWNTYPE
 The <b>HBA_RegisterForAdapterPortStatEvents</b> routine registers the indicated user callback routine to call when a port statistics event occurs. 
 
 
-## -syntax
-
-
-````
-HBA_STATUS HBA_API HBA_RegisterForAdapterPortStatEvents(
-   HBA_PORTSTAT_CALLBACK callback,
-   void                  *userData,
-   HBA_HANDLE            handle,
-   HBA_WWN               PortWWN,
-   PHBA_PORTSTATISTICS   stats,
-   HBA_UINT32            statType,
-   HBA_CALLBACKHANDLE    *callbackHandle
-);
-````
-
-
 ## -parameters
 
 
@@ -95,7 +79,7 @@ Contains a 64-bit worldwide name (WWN) that uniquely identifies the HBA port fro
 
 ### -param stats
 
-Pointer to a structure of type <a href="..\hbaapi\ns-hbaapi-hba_portstatistics.md">HBA_PortStatistics</a> that, on input, holds the statistical levels that determine when port statistics events are generated. On output, this member holds statistical data gathered for the port referenced by <i>PortWWN. </i>
+Pointer to a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff557110">HBA_PortStatistics</a> that, on input, holds the statistical levels that determine when port statistics events are generated. On output, this member holds statistical data gathered for the port referenced by <i>PortWWN. </i>
 
 
 ### -param statType
@@ -114,12 +98,12 @@ TBD
 
 #### - callbackHandle
 
-Pointer to an opaque identifier that the user must pass to <a href="..\hbaapi\nf-hbaapi-hba_removecallback.md">HBA_RemoveCallback</a> to de-register the callback routine.
+Pointer to an opaque identifier that the user must pass to <a href="https://msdn.microsoft.com/library/windows/hardware/ff557175">HBA_RemoveCallback</a> to de-register the callback routine.
 
 
 #### - handle
 
-Contains a value returned by the routine <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a> that identifies the HBA for which the adapter events are generated. 
+Contains a value returned by the routine <a href="https://msdn.microsoft.com/library/windows/hardware/ff557097">HBA_OpenAdapter</a> that identifies the HBA for which the adapter events are generated. 
 
 
 #### - userData
@@ -190,15 +174,10 @@ Returned if an unspecified error occurred that prevented the registration of the
 
 ## -see-also
 
-<a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
-
-
-
-<a href="..\hbaapi\ns-hbaapi-hba_portstatistics.md">HBA_PortStatistics</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557097">HBA_OpenAdapter</a>
 
 
 
@@ -206,6 +185,11 @@ Returned if an unspecified error occurred that prevented the registration of the
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557110">HBA_PortStatistics</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
  
 
  

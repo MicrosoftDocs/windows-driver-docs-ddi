@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,19 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>StorPortGetDeviceObjects</b> routine returns the device objects that are associated with the adapter device stack. The device objects that will be returned are the functional and physical device objects of the adapter and the device object to which the functional device object is attached. 
-
-
-## -syntax
-
-
-````
-ULONG StorPortGetDeviceObjects(
-  _In_  PVOID HwDeviceExtension,
-  _Out_ PVOID *AdapterDeviceObject,
-  _Out_ PVOID *PhysicalDeviceObject,
-  _Out_ PVOID *LowerDeviceObject
-);
-````
 
 
 ## -parameters

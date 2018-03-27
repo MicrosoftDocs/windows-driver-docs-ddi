@@ -52,19 +52,6 @@ req.typenames: D3D12DDI_QUERY_DATA_VIDEO_DECODE_STATISTICS_0022
 Video decode statistics for a query.
 
 
-## -syntax
-
-
-````
-typedef struct D3D12DDI_QUERY_DATA_VIDEO_DECODE_STATISTICS_0022 {
-  UINT64        Status;
-  UINT64        NumMacroblocksAffected;
-  DXGI_RATIONAL FrameRate;
-  UINT          BitRate;
-} D3D12DDI_QUERY_DATA_VIDEO_DECODE_STATISTICS_0022;
-````
-
-
 ## -struct-fields
 
 
@@ -72,7 +59,7 @@ typedef struct D3D12DDI_QUERY_DATA_VIDEO_DECODE_STATISTICS_0022 {
 
 ### -field Status
 
-Specifies the status of an operation as a <a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_video_decode_status_0020.md">D3D12DDI_VIDEO_DECODE_STATUS</a> value.
+Specifies the status of an operation as a <a href="https://msdn.microsoft.com/E7A3944D-142E-450C-B9EE-9190BF264C60">D3D12DDI_VIDEO_DECODE_STATUS</a> value.
 
 
 ### -field NumMacroblocksAffected
@@ -92,10 +79,10 @@ For all other <b>Status</b> values, <b>BitRate</b> is not used and is set to zer
 
 ## -see-also
 
-<a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_video_decode_status_0020.md">D3D12DDI_VIDEO_DECODE_STATUS</a>
 
 
 
+<a href="https://msdn.microsoft.com/E7A3944D-142E-450C-B9EE-9190BF264C60">D3D12DDI_VIDEO_DECODE_STATUS</a>
  
 
  

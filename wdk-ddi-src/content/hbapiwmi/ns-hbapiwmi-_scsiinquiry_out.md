@@ -52,21 +52,6 @@ req.typenames: ScsiInquiry_OUT, *PScsiInquiry_OUT
 The ScsiInquiry_OUT structure is used to report the output data of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff564585">ScsiInquiry</a> WMI method to the WMI client.
 
 
-## -syntax
-
-
-````
-typedef struct _ScsiInquiry_OUT {
-  ULONG HBAStatus;
-  ULONG ResponseBufferSize;
-  ULONG SenseBufferSize;
-  UCHAR ScsiStatus;
-  UCHAR ResponseBuffer[1];
-  UCHAR SenseBuffer[1];
-} ScsiInquiry_OUT, *PScsiInquiry_OUT;
-````
-
-
 ## -struct-fields
 
 
@@ -113,7 +98,6 @@ The WMI tool suite generates a declaration of the ScsiInquiry_OUT structure in <
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564585">ScsiInquiry</a>
 
 
 
@@ -121,6 +105,7 @@ The WMI tool suite generates a declaration of the ScsiInquiry_OUT structure in <
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564585">ScsiInquiry</a>
  
 
  

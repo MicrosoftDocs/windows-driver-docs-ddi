@@ -55,18 +55,6 @@ The
   to determine CPU usage for a particular time interval.
 
 
-## -syntax
-
-
-````
-VOID NdisGetCurrentProcessorCounts(
-  _Out_ PULONG pIdleCount,
-  _Out_ PULONG pKernelAndUser,
-  _Out_ PULONG pIndex
-);
-````
-
-
 ## -parameters
 
 

@@ -52,24 +52,6 @@ req.typenames: WRITE_USING_TOKEN_HEADER, *PWRITE_USING_TOKEN_HEADER
 The <b>WRITE_USING_TOKEN_HEADER</b> structure describes the destination data locations for an offload write data operation.  The offload write data operation described by this structure is associated with a token representation of data (ROD).
 
 
-## -syntax
-
-
-````
-typedef struct _WRITE_USING_TOKEN_HEADER {
-  UCHAR WriteUsingTokenDataLength[2];
-  UCHAR Immediate  :1;
-  UCHAR Reserved1  :7;
-  UCHAR Reserved2[5];
-  UCHAR BlockOffsetIntoToken[8];
-  UCHAR Token[BLOCK_DEVICE_TOKEN_SIZE];
-  UCHAR Reserved3[6];
-  UCHAR BlockDeviceRangeDescriptorListLength[2];
-  UCHAR BlockDeviceRangeDescriptor[ANYSIZE_ARRAY];
-} WRITE_USING_TOKEN_HEADER, *PWRITE_USING_TOKEN_HEADER;
-````
-
-
 ## -struct-fields
 
 
@@ -112,12 +94,12 @@ Reserved.
 
 ### -field BlockDeviceRangeDescriptorListLength
 
-The length, in bytes, for all  of the <a href="..\storport\ns-storport-block_device_range_descriptor.md">BLOCK_DEVICE_RANGE_DESCRIPTOR</a> structures in the <b>BlockDeviceRangeDescriptor</b> array.
+The length, in bytes, for all  of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh967727">BLOCK_DEVICE_RANGE_DESCRIPTOR</a> structures in the <b>BlockDeviceRangeDescriptor</b> array.
 
 
 ### -field BlockDeviceRangeDescriptor
 
-An array of <a href="..\storport\ns-storport-block_device_range_descriptor.md">BLOCK_DEVICE_RANGE_DESCRIPTOR</a> structures which describe the destination data blocks for the offload write data transfer.
+An array of <a href="https://msdn.microsoft.com/library/windows/hardware/hh967727">BLOCK_DEVICE_RANGE_DESCRIPTOR</a> structures which describe the destination data blocks for the offload write data transfer.
 
 
 ## -remarks
@@ -131,14 +113,14 @@ All multibyte values are in big endian format. Prior to setting, these values mu
 
 ## -see-also
 
-<a href="..\storport\ns-storport-populate_token_header.md">POPULATE_TOKEN_HEADER</a>
 
 
 
-<a href="..\storport\ns-storport-block_device_range_descriptor.md">BLOCK_DEVICE_RANGE_DESCRIPTOR</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh967727">BLOCK_DEVICE_RANGE_DESCRIPTOR</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh967730">POPULATE_TOKEN_HEADER</a>
  
 
  

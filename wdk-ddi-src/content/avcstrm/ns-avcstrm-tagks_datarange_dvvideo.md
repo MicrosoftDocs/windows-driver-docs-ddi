@@ -52,17 +52,6 @@ req.typenames: KS_DATARANGE_DVVIDEO, *PKS_DATARANGE_DVVIDEO
 The KS_DATARANGE_DV_AVC structure stores a range of digital video formats.
 
 
-## -syntax
-
-
-````
-typedef struct tagKS_DATARANGE_DVVIDEO {
-  KSDATARANGE DataRange;
-  DVINFO      DVVideoInfo;
-} KS_DATARANGE_DVVIDEO, *PKS_DATARANGE_DVVIDEO;
-````
-
-
 ## -struct-fields
 
 
@@ -80,14 +69,14 @@ Specifies the digital video information, for example, sound tracks and video inf
 
 ## -see-also
 
-<a href="..\avcstrm\ns-avcstrm-_dvinfo.md">DVINFO</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559517">DVINFO</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561658">KSDATARANGE</a>
-
-
-
  
 
  

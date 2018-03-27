@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: bidispl.h
+req.lib: 
 req.dll: Bidispl.dll
 req.irql: 
 topic_type:
@@ -50,16 +50,6 @@ req.typenames: MPEG2_TRANSPORT_STRIDE, *PMPEG2_TRANSPORT_STRIDE
 
 
 The <b>GetEnumCount</b> method gets the number of output results from the bidi request.
-
-
-## -syntax
-
-
-````
-HRESULT GetEnumCount(
-  [out] DWORD *pdwTotal
-);
-````
 
 
 ## -parameters
@@ -144,7 +134,6 @@ A single bidi request can have multiple results. After calling <b>GetEnumCount</
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/b15b1aff-623e-4159-ab0f-ce386a1377eb">Bidirectional Communication Schema</a>
 
 
 
@@ -152,7 +141,7 @@ A single bidi request can have multiple results. After calling <b>GetEnumCount</
 
 
 
-<a href="..\bidispl\nn-bidispl-ibidirequest.md">IBidiRequest</a>
+<a href="https://msdn.microsoft.com/b15b1aff-623e-4159-ab0f-ce386a1377eb">Bidirectional Communication Schema</a>
 
 
 
@@ -160,6 +149,7 @@ A single bidi request can have multiple results. After calling <b>GetEnumCount</
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dd144969">IBidiRequest</a>
  
 
  

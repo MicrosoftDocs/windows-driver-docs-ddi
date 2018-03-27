@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,20 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>SearchMemory</b> function searches the target's virtual memory for a specified pattern of bytes.
-
-
-## -syntax
-
-
-````
-__inline VOID SearchMemory(
-   ULONG64  SearchAddress,
-   ULONG64  SearchLength,
-   ULONG    PatternLength,
-   PVOID    Pattern,
-   PULONG64 FoundAddress
-);
-````
 
 
 ## -parameters

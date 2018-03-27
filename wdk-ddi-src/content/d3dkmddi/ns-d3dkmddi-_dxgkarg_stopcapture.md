@@ -52,16 +52,6 @@ req.typenames: DXGKARG_STOPCAPTURE
 The DXGKARG_STOPCAPTURE structure contains the handle to the allocation that is used for a capture buffer.
 
 
-## -syntax
-
-
-````
-typedef struct _DXGKARG_STOPCAPTURE {
-  HANDLE hAllocation;
-} DXGKARG_STOPCAPTURE;
-````
-
-
 ## -struct-fields
 
 
@@ -74,10 +64,10 @@ typedef struct _DXGKARG_STOPCAPTURE {
 
 ## -see-also
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_stopcapture.md">DxgkDdiStopCapture</a>
 
 
 
+<a href="https://msdn.microsoft.com/e5d622cc-c550-44cf-8923-5092226066d9">DxgkDdiStopCapture</a>
  
 
  

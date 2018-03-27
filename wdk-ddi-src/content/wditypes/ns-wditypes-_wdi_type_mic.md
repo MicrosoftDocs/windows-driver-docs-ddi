@@ -53,16 +53,6 @@ req.product: Windows 10 or later.
 The WDI_TYPE_MIC structure defines the MIC (802.11r).
 
 
-## -syntax
-
-
-````
-typedef struct _WDI_TYPE_MIC {
-  UINT8 Value[16];
-} WDI_TYPE_MIC, *PWDI_TYPE_MIC;
-````
-
-
 ## -struct-fields
 
 

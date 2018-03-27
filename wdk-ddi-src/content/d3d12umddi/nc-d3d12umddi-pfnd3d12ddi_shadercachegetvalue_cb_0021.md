@@ -52,25 +52,6 @@ req.typenames: D3D11_1DDI_GETCAPTUREHANDLEDATA
 The <i>pfnShaderCacheGetValueCb</i> callback function gets a shader cache value. 
 
 
-## -prototype
-
-
-````
-PFND3D12DDI_SHADERCACHEGETVALUE_CB_0021 pfnShaderCacheGetValueCb;
-
-HRESULT APIENTRY CALLBACK * pfnShaderCacheGetValueCb(
-                  D3D12DDI_HRTDEVICE              hRTDevice,
-                  D3D12DDI_HRTPIPELINESTATE       hRTPSO,
-  _In_            D3D12DDI_SHADERCACHE_HASH       *pPrecomputedHash,
-  _In_      const _reads_bytes_(KeyLen) void      *pKey,
-                  SIZE_T                          KeyLen,
-  _Out_opt_       _writes_bytes_(*pValueLen) void *pValue,
-  _Inout_         SIZE_T                          *pValueLen
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -124,17 +105,17 @@ If this callback function succeeds, it returns <b xmlns:loc="http://microsoft.co
 
 
 
-Access this callback by using the <a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddi_shadercache_callbacks_0021.md">D3D12DDI_SHADERCACHE_CALLBACKS_0021</a> structure.
+Access this callback by using the <a href="https://msdn.microsoft.com/EBA976B0-3B44-4482-B1B0-31A84150C056">D3D12DDI_SHADERCACHE_CALLBACKS_0021</a> structure.
 
 
 
 
 ## -see-also
 
-<a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddi_shadercache_callbacks_0021.md">D3D12DDI_SHADERCACHE_CALLBACKS_0021</a>
 
 
 
+<a href="https://msdn.microsoft.com/EBA976B0-3B44-4482-B1B0-31A84150C056">D3D12DDI_SHADERCACHE_CALLBACKS_0021</a>
  
 
  

@@ -52,17 +52,6 @@ req.typenames: D3DDDICAPS_SHADER_MIN_PRECISION
 Specifies minimum precision levels that the user-mode driver supports in shaders.
 
 
-## -syntax
-
-
-````
-typedef enum D3DDDICAPS_SHADER_MIN_PRECISION { 
-  D3DDDICAPS_SHADER_MIN_PRECISION_10_BIT  = 0x1,
-  D3DDDICAPS_SHADER_MIN_PRECISION_16_BIT  = 0x2
-} D3DDDICAPS_SHADER_MIN_PRECISION;
-````
-
-
 ## -enum-fields
 
 

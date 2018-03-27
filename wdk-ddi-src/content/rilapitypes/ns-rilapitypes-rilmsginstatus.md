@@ -53,27 +53,6 @@ req.product: Windows 10 or later.
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef struct _RILMSGINSTATUS {
-  DWORD                       dwMsgID;
-  RILADDRESS                  raTgtRecipAddress;
-  RILSYSTEMTIME               stTgtSCReceiveTime;
-  RILSYSTEMTIME               stTgtDischargeTime;
-  DWORD                       dwReserved;
-  RILMSGINSTATUSTGTDLVSTATUS  dwTgtDlvStatus;
-  RILMSGPROTOCOLID            dwProtocolID;
-  RILMSGDCS                   rmdDataCoding;
-  DWORD                       cbHdrLength;
-  DWORD                       cchMsgLength;
-  BYTE [256]                  rgbHdr;
-  BYTE [512]                  rgbMsg;
-} RILMSGINSTATUS, RILMSGINSTATUS;
-````
-
-
 ## -struct-fields
 
 

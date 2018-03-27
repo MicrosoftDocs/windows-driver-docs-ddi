@@ -55,20 +55,6 @@ req.product: Windows 10 or later.
 The <b>WdfDevicePostEvent</b> method asynchronously notifies applications that are waiting for the       specified event from a driver.
 
 
-## -syntax
-
-
-````
-NTSTATUS WdfDevicePostEvent(
-  _In_ WDFDEVICE      Device,
-  _In_ REFGUID        EventGuid,
-  _In_ WDF_EVENT_TYPE WdfEventType,
-  _In_ BYTE           *Data,
-  _In_ ULONG          DataSizeCb
-);
-````
-
-
 ## -parameters
 
 
@@ -86,7 +72,7 @@ The GUID for the event. The GUID is determined by the application and the driver
 
 ### -param WdfEventType [in]
 
-A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_event_type.md">WDF_EVENT_TYPE</a>-typed value that identifies the type of event. In the current version of UMDF, the driver must set <i>EventType</i> to <b>WdfEventBroadcast</b> (1). <b>WdfEventBroadcast</b> indicates that the event is broadcast. Applications can subscribe to <b>WdfEventBroadcast</b>-type events. To receive broadcast events, the application must register for notification through the Microsoft Win32 <b>RegisterDeviceNotification</b> function. <b>WdfEventBroadcast</b>-type events are exposed as DBT_CUSTOMEVENT-type events to applications.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/dn265637">WDF_EVENT_TYPE</a>-typed value that identifies the type of event. In the current version of UMDF, the driver must set <i>EventType</i> to <b>WdfEventBroadcast</b> (1). <b>WdfEventBroadcast</b> indicates that the event is broadcast. Applications can subscribe to <b>WdfEventBroadcast</b>-type events. To receive broadcast events, the application must register for notification through the Microsoft Win32 <b>RegisterDeviceNotification</b> function. <b>WdfEventBroadcast</b>-type events are exposed as DBT_CUSTOMEVENT-type events to applications.
 
 
 ### -param Data [in]
@@ -145,7 +131,6 @@ When the driver calls <b>WdfDevicePostEvent</b> to notify the requesting applica
 
 ## -see-also
 
-<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_event_type.md">WDF_EVENT_TYPE</a>
 
 
 
@@ -153,6 +138,7 @@ When the driver calls <b>WdfDevicePostEvent</b> to notify the requesting applica
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265637">WDF_EVENT_TYPE</a>
  
 
  

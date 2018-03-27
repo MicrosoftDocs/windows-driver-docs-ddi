@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -50,17 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This function initializes a <a href="..\sensorscx\ns-sensorscx-_sensor_controller_config.md">SENSOR_CONTROLLER_CONFIG</a> structure.
-
-
-## -syntax
-
-
-````
-FORCEINLINE VOID SENSOR_CONTROLLER_CONFIG_INIT(
-  _Out_ PSENSOR_CONTROLLER_CONFIG pConfig
-);
-````
+This function initializes a <a href="https://msdn.microsoft.com/library/windows/hardware/dn957098">SENSOR_CONTROLLER_CONFIG</a> structure.
 
 
 ## -parameters
@@ -70,7 +60,7 @@ FORCEINLINE VOID SENSOR_CONTROLLER_CONFIG_INIT(
 
 ### -param pConfig [out]
 
-A pointer to a new <a href="..\sensorscx\ns-sensorscx-_sensor_controller_config.md">SENSOR_CONTROLLER_CONFIG</a> structure.
+A pointer to a new <a href="https://msdn.microsoft.com/library/windows/hardware/dn957098">SENSOR_CONTROLLER_CONFIG</a> structure.
 
 
 ## -returns
@@ -84,10 +74,10 @@ This function does not return a value.
 
 ## -see-also
 
-<a href="..\sensorscx\ns-sensorscx-_sensor_controller_config.md">SENSOR_CONTROLLER_CONFIG</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn957098">SENSOR_CONTROLLER_CONFIG</a>
  
 
  

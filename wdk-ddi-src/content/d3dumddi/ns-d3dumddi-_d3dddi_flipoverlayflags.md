@@ -52,23 +52,6 @@ req.typenames: D3DDDI_FLIPOVERLAYFLAGS
 The D3DDDI_FLIPOVERLAYFLAGS structure identifies how to flip a resource on an overlay.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DDDI_FLIPOVERLAYFLAGS {
-  union {
-    struct {
-      UINT Even  :1;
-      UINT Odd  :1;
-      UINT Reserved  :30;
-    };
-    UINT   Value;
-  };
-} D3DDDI_FLIPOVERLAYFLAGS;
-````
-
-
 ## -struct-fields
 
 
@@ -100,10 +83,10 @@ A member in the union that is contained in D3DDDI_FLIPOVERLAYFLAGS that can hold
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_flipoverlay.md">D3DDDIARG_FLIPOVERLAY</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543124">D3DDDIARG_FLIPOVERLAY</a>
  
 
  

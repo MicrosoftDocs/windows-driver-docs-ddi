@@ -52,20 +52,6 @@ req.typenames: D3D11_1DDI_GETCAPTUREHANDLEDATA
 The <i>pfnDecoderTrimAllocations</i> callback function trims allocations for submissions that are finished.
 
 
-## -prototype
-
-
-````
-PFND3D12DDI_VIDEO_DECODER_TRIM_ALLOCATIONS_0021 pfnDecoderTrimAllocations;
-
-UINT64 APIENTRY* pfnDecoderTrimAllocations(
-   D3D12DDI_HVIDEODECODETREAM hDrvVideoDecoder,
-   UINT64                     SubmissionID
-)
-{ ... }
-````
-
-
 ## -parameters
 
 

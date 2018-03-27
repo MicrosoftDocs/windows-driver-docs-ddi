@@ -56,17 +56,6 @@ A protocol driver or intermediate driver calls the
   <b>NdisTerminateOffload</b> function to terminate the offload of one or more state objects
 
 
-## -syntax
-
-
-````
-VOID NdisTerminateOffload(
-  _In_    NDIS_HANDLE                       NdisBindingHandle,
-  _Inout_ PNDIS_PROTOCOL_OFFLOAD_BLOCK_LIST OffloadBlockList
-);
-````
-
-
 ## -parameters
 
 
@@ -76,7 +65,7 @@ VOID NdisTerminateOffload(
 
 The handle that NDIS provided at the 
      <i>NdisBindingHandle</i> parameter of 
-     <a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>. This handle
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff563715">NdisOpenAdapterEx</a>. This handle
      identifies the binding between the caller and the underlying intermediate driver or offload
      target.
 
@@ -84,7 +73,7 @@ The handle that NDIS provided at the
 ### -param OffloadBlockList [in, out]
 
 A pointer to an 
-     <a href="..\ndischimney\ns-ndischimney-_ndis_protocol_offload_block_list.md">
+     <a href="https://msdn.microsoft.com/64febd55-1ab8-4e2e-b738-340167866333">
      NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST</a> structure that can be a stand-alone structure or the root of a
      linked list of such structures. These structures identify the offloaded state objects that are being
      terminated.
@@ -110,7 +99,7 @@ An intermediate driver calls the
     State-Manipulation Operations</a>.
 
 From the 
-    <a href="..\ndischimney\ns-ndischimney-_ndis_miniport_offload_block_list.md">
+    <a href="https://msdn.microsoft.com/ebc98e65-5d11-4c3d-aea1-dfad1434c093">
     NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</a> structure that was passed to its 
     <i>MiniportTerminateOffload</i> function, the intermediate driver constructs an
     NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST structure. For more information, see 
@@ -124,34 +113,34 @@ From the
 
 ## -see-also
 
-<a href="..\ndischimney\ns-ndischimney-_ndis_miniport_offload_block_list.md">
+
+
+
+<a href="https://msdn.microsoft.com/1b808e3c-2d64-44c9-88d3-0a0311e1dc99">MiniportTerminateOffload</a>
+
+
+
+<a href="https://msdn.microsoft.com/ebc98e65-5d11-4c3d-aea1-dfad1434c093">
    NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</a>
 
 
 
-<a href="..\ndischimney\nf-ndischimney-ndismterminateoffloadcomplete.md">
-   NdisMTerminateOffloadComplete</a>
-
-
-
-<a href="..\ndischimney\nc-ndischimney-w_terminate_offload_handler.md">MiniportTerminateOffload</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
-
-
-
-<a href="..\ndischimney\ns-ndischimney-_ndis_protocol_offload_block_list.md">
+<a href="https://msdn.microsoft.com/64febd55-1ab8-4e2e-b738-340167866333">
    NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST</a>
 
 
 
-<a href="..\ndischimney\nc-ndischimney-terminate_offload_complete_handler.md">
+<a href="https://msdn.microsoft.com/d444eae5-2e7c-41f2-9fb2-55e172505cf6">
+   NdisMTerminateOffloadComplete</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563715">NdisOpenAdapterEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/614d36e8-38ac-49a7-8711-7a6c6646309c">
    ProtocolTerminateOffloadComplete</a>
-
-
-
  
 
  

@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -53,17 +53,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>GetProcessIdBySystemId</b> method returns the engine process ID for a process specified by its system process ID.
-
-
-## -syntax
-
-
-````
-HRESULT GetProcessIdBySystemId(
-  [in]  ULONG  SysId,
-  [out] PULONG Id
-);
-````
 
 
 ## -parameters

@@ -53,19 +53,6 @@ req.product: Windows 10 or later.
 Defines values for endpoint configuration options. 
 
 
-## -syntax
-
-
-````
-typedef enum _UDECX_ENDPOINTS_CONFIGURE_TYPE { 
-  UdecxEndpointsConfigureTypeDeviceInitialize           = 0,
-  UdecxEndpointsConfigureTypeDeviceConfigurationChange  = ,
-  UdecxEndpointsConfigureTypeInterfaceSettingChange     = ,
-  UdecxEndpointsConfigureTypeEndpointsReleasedOnly      = 
-} UDECX_ENDPOINTS_CONFIGURE_TYPE, *PUDECX_ENDPOINTS_CONFIGURE_TYPE;
-````
-
-
 ## -enum-fields
 
 
@@ -93,14 +80,14 @@ The requested change applies to an endpoint of an interface setting.
 
 ## -see-also
 
-<a href="..\udecxusbdevice\nc-udecxusbdevice-evt_udecx_usb_device_endpoints_configure.md">EVT_UDECX_USB_DEVICE_ENDPOINTS_CONFIGURE</a>
 
 
 
-<a href="..\udecxusbdevice\ns-udecxusbdevice-_udecx_endpoints_configure_params.md">UDECX_ENDPOINTS_CONFIGURE_PARAMS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt595913">EVT_UDECX_USB_DEVICE_ENDPOINTS_CONFIGURE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt627993">UDECX_ENDPOINTS_CONFIGURE_PARAMS</a>
  
 
  

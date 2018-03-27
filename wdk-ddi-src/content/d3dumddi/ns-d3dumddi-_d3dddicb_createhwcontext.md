@@ -52,21 +52,6 @@ req.typenames: D3DDDICB_CREATEHWCONTEXT
 A structure that gives information for creating a hardware context.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DDDICB_CREATEHWCONTEXT {
-  UINT                         NodeOrdinal;
-  UINT                         EngineAffinity;
-  3DDDI_CREATEHWCONTEXTFLAGS   Flags;
-  UINT                         PrivateDriverDataSize;
-  VOID                         *pPrivateDriverData;
-  HANDLE                       hHwContext;
-} D3DDDICB_CREATEHWCONTEXT;
-````
-
-
 ## -struct-fields
 
 

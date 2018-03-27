@@ -52,20 +52,6 @@ req.typenames: MIRACAST_CALLBACKS, *PMIRACAST_CALLBACKS
 Contains pointers to wireless display (Miracast) runtime callback functions that the Miracast user-mode driver can call.
 
 
-## -syntax
-
-
-````
-typedef struct _MIRACAST_CALLBACKS {
-  PFN_REPORT_SESSION_STATUS           ReportSessionStatus;
-  PFN_MIRACAST_IO_CONTROL             MiracastIoControl;
-  PFN_REPORT_STATISTIC                ReportStatistic;
-  PFN_GET_NEXT_CHUNK_DATA             GetNextChunkData;
-  PFN_REGISTER_DATARATE_NOTIFICATIONS RegisterForDataRateNotifications;
-} MIRACAST_CALLBACKS, *PMIRACAST_CALLBACKS;
-````
-
-
 ## -struct-fields
 
 
@@ -73,25 +59,25 @@ typedef struct _MIRACAST_CALLBACKS {
 
 ### -field ReportSessionStatus
 
-A pointer to the <a href="..\netdispumdddi\nc-netdispumdddi-pfn_report_session_status.md">ReportSessionStatus</a>   function.
+A pointer to the <a href="https://msdn.microsoft.com/a3e44e55-5c6a-4a79-8caa-3a3b9db6b456">ReportSessionStatus</a>   function.
 
 
 ### -field MiracastIoControl
 
-A pointer to the <a href="..\netdispumdddi\nc-netdispumdddi-pfn_miracast_io_control.md">MiracastIoControl</a>   function.
+A pointer to the <a href="https://msdn.microsoft.com/df63ec18-79e0-40a6-a412-46071eb8a7fe">MiracastIoControl</a>   function.
 
 
 ### -field ReportStatistic
 
-A pointer to the    <a href="..\netdispumdddi\nc-netdispumdddi-pfn_report_statistic.md">ReportStatistic</a> function.
+A pointer to the    <a href="https://msdn.microsoft.com/13e1afa2-5552-468f-ac6b-3458dedd9b76">ReportStatistic</a> function.
 
 
 ### -field GetNextChunkData
 
-A pointer to the <a href="..\netdispumdddi\nc-netdispumdddi-pfn_get_next_chunk_data.md">GetNextChunkData</a>    function.
+A pointer to the <a href="https://msdn.microsoft.com/24b1d89a-4200-41ec-aa73-15b37e4cca6d">GetNextChunkData</a>    function.
 
 
 ### -field RegisterForDataRateNotifications
 
-A pointer to the <a href="..\netdispumdddi\nc-netdispumdddi-pfn_register_datarate_notifications.md">RegisterForDataRateNotifications</a>    function.
+A pointer to the <a href="https://msdn.microsoft.com/81500bb9-27f1-4688-b244-37dfd766f3c8">RegisterForDataRateNotifications</a>    function.
 

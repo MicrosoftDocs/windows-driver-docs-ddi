@@ -52,17 +52,6 @@ req.typenames: RILSENDMSGOPTIONS
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef enum _RILSENDMSGOPTIONS { 
-  RIL_SENDOPT_PERSISTLINK,
-  RIL_SENDOPT_IMS
-} RILSENDMSGOPTIONS;
-````
-
-
 ## -enum-fields
 
 

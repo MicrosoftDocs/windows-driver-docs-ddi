@@ -52,17 +52,6 @@ req.typenames: DXGKARGCB_PRESENT_DISPLAYONLY_PROGRESS
 Provides the progress of a kernel mode display-only driver's (KMDOD) present operation that was requested by the operating system.
 
 
-## -syntax
-
-
-````
-typedef struct _DXGKARGCB_PRESENT_DISPLAYONLY_PROGRESS {
-  D3DDDI_VIDEO_PRESENT_SOURCE_ID        VidPnSourceId;
-  DXGK_PRESENT_DISPLAY_ONLY_PROGRESS_ID ProgressId;
-} DXGKARGCB_PRESENT_DISPLAYONLY_PROGRESS;
-````
-
-
 ## -struct-fields
 
 
@@ -75,15 +64,15 @@ An integer that identifies a video present source.
 
 ### -field ProgressId
 
-A value of type <a href="..\d3dkmddi\ne-d3dkmddi-_dxgk_present_display_only_progress_id.md">DXGK_PRESENT_DISPLAY_ONLY_PROGRESS_ID</a> that represents the status of the current present operation.
+A value of type <a href="https://msdn.microsoft.com/library/windows/hardware/hh464079">DXGK_PRESENT_DISPLAY_ONLY_PROGRESS_ID</a> that represents the status of the current present operation.
 
 
 ## -see-also
 
-<a href="..\d3dkmddi\ne-d3dkmddi-_dxgk_present_display_only_progress_id.md">DXGK_PRESENT_DISPLAY_ONLY_PROGRESS_ID</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh464079">DXGK_PRESENT_DISPLAY_ONLY_PROGRESS_ID</a>
  
 
  

@@ -52,18 +52,6 @@ req.typenames: IRB_REQ_ISOCH_ATTACH_BUFFERS
 This structure contains the fields required for the 1394 bus driver to carry out a IsochAttachBuffers request.
 
 
-## -syntax
-
-
-````
-typedef struct _IRB_REQ_ISOCH_ATTACH_BUFFERS {
-  HANDLE            hResource;
-  ULONG             nNumberOfDescriptors;
-  PISOCH_DESCRIPTOR pIsochDescriptor;
-} IRB_REQ_ISOCH_ATTACH_BUFFERS;
-````
-
-
 ## -struct-fields
 
 

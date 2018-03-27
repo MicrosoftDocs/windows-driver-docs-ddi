@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -52,16 +52,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>SetEngineOptions</b> method changes the engine's options.
-
-
-## -syntax
-
-
-````
-HRESULT SetEngineOptions(
-  [in] ULONG Options
-);
-````
 
 
 ## -parameters
@@ -133,7 +123,7 @@ The debugger engine generates a warning instead of an error if the version of th
 
 </td>
 <td>
-Disable version checking for extensions.  This suppresses the debugger engine's call to <a href="..\wdbgexts\nc-wdbgexts-pwindbg_check_version.md">CheckVersion</a>.
+Disable version checking for extensions.  This suppresses the debugger engine's call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff539096">CheckVersion</a>.
 
 </td>
 </tr>
@@ -352,11 +342,6 @@ Disables upload of Software Quality Metrics (SQM) data.
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546598">GetEngineOptions</a>
 
 
 
@@ -364,18 +349,23 @@ Disables upload of Software Quality Metrics (SQM) data.
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546598">GetEngineOptions</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550508">IDebugControl</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550512">IDebugControl2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550519">IDebugControl3</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554491">RemoveEngineOptions</a>
-
-
-
  
 
  

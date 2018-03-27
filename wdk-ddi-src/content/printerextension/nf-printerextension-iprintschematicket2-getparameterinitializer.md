@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: printerextension.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -50,21 +50,9 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The <b>GetParameterInitializer</b> method retrieves the <a href="..\printerextension\nn-printerextension-iprintschemaparameterinitializer.md">IPrintSchemaParameterInitializer</a> object, and it  represents the &lt;psf:ParameterInit&gt; element in the PrintTicket XML.
+The <b>GetParameterInitializer</b> method retrieves the <a href="https://msdn.microsoft.com/library/windows/hardware/dn454557">IPrintSchemaParameterInitializer</a> object, and it  represents the &lt;psf:ParameterInit&gt; element in the PrintTicket XML.
 
 The keyword name and keyword namespace URI specify the <b>IPrintSchemaParameterInitializer</b> object to be retrieved.
-
-
-## -syntax
-
-
-````
-HRESULT GetParameterInitializer(
-  [in]          BSTR                             bstrName,
-  [in]          BSTR                             bstrNamespaceUri,
-  [out, retval] IPrintSchemaParameterInitializer **ppParameterInitializer
-);
-````
 
 
 ## -parameters
@@ -84,7 +72,7 @@ The keyword namespace URI.
 
 ### -param ppParameterInitializer [out, retval]
 
-The <a href="..\printerextension\nn-printerextension-iprintschemaparameterinitializer.md">IPrintSchemaParameterInitializer</a> object.
+The <a href="https://msdn.microsoft.com/library/windows/hardware/dn454557">IPrintSchemaParameterInitializer</a> object.
 
 
 ## -returns
@@ -98,14 +86,14 @@ The <b>GetParameterInitializer</b> method returns an <b>HRESULT</b> value. If th
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprintschemaparameterinitializer.md">IPrintSchemaParameterInitializer</a>
 
 
 
-<a href="..\printerextension\nn-printerextension-iprintschematicket2.md">IPrintSchematicket2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn454557">IPrintSchemaParameterInitializer</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn454560">IPrintSchematicket2</a>
  
 
  

@@ -40,7 +40,7 @@ api_name:
 -	WUDF_WORKITEM_FUNCTION
 product: Windows
 targetos: Windows
-req.typenames: UNICODE_STRING
+req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
 req.product: Windows 10 or later.
 ---
 
@@ -55,21 +55,6 @@ req.product: Windows 10 or later.
 A driver's <i>OnWorkItem</i> event callback function performs the work that is associated with a specified work item.
 
 
-## -prototype
-
-
-````
-WUDF_WORKITEM_FUNCTION OnWorkItem;
-
-void OnWorkItem(
-  _In_ IWDFWorkItem *pWorkItem
-)
-{ ... }
-
-typedef void WUDF_WORKITEM_FUNCTION;
-````
-
-
 ## -parameters
 
 
@@ -77,7 +62,7 @@ typedef void WUDF_WORKITEM_FUNCTION;
 
 ### -param *pWorkItem [in]
 
-A pointer to an  <a href="..\wudfddi\nn-wudfddi-iwdfworkitem.md">IWDFWorkItem</a> interface.
+A pointer to an  <a href="https://msdn.microsoft.com/library/windows/hardware/hh406734">IWDFWorkItem</a> interface.
 
 
 ## -returns
@@ -93,7 +78,7 @@ This callback function does not return a value.
 
 
 
-To register an <i>OnWorkItem</i> callback function, your driver must place the callback function's address in a <a href="..\wudfworkitem\ns-wudfworkitem-_wudf_workitem_config.md">WUDF_WORKITEM_CONFIG</a> structure before calling <a href="https://msdn.microsoft.com/B34EABF4-C659-4DB4-AEC6-94F544D79221">IWDFDevice3::CreateWorkItem</a>.
+To register an <i>OnWorkItem</i> callback function, your driver must place the callback function's address in a <a href="https://msdn.microsoft.com/library/windows/hardware/hh464094">WUDF_WORKITEM_CONFIG</a> structure before calling <a href="https://msdn.microsoft.com/B34EABF4-C659-4DB4-AEC6-94F544D79221">IWDFDevice3::CreateWorkItem</a>.
 
 Typically, a driver's <i>OnWorkItem</i> callback function performs tasks that are specified by information that the driver stored in the context memory of a work-item object.
 
@@ -158,11 +143,10 @@ Then, implement your callback function as follows:
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/B34EABF4-C659-4DB4-AEC6-94F544D79221">IWDFDevice3::CreateWorkItem</a>
-
-
-
-<a href="..\wudfworkitem\ns-wudfworkitem-_wudf_workitem_config.md">WUDF_WORKITEM_CONFIG</a>
 
 
 
@@ -170,6 +154,7 @@ Then, implement your callback function as follows:
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh464094">WUDF_WORKITEM_CONFIG</a>
  
 
  

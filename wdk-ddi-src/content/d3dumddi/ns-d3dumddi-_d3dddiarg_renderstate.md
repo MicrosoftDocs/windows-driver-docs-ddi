@@ -52,17 +52,6 @@ req.typenames: D3DDDIARG_RENDERSTATE
 The D3DDDIARG_RENDERSTATE structure describes how to update a specific render state. 
 
 
-## -syntax
-
-
-````
-typedef struct _D3DDDIARG_RENDERSTATE {
-  D3DDDIRENDERSTATETYPE State;
-  UINT                  Value;
-} D3DDDIARG_RENDERSTATE;
-````
-
-
 ## -struct-fields
 
 
@@ -80,10 +69,10 @@ typedef struct _D3DDDIARG_RENDERSTATE {
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setrenderstate.md">SetRenderState</a>
 
 
 
+<a href="https://msdn.microsoft.com/22fb67f7-cc28-4f10-950d-1379769ddf89">SetRenderState</a>
  
 
  

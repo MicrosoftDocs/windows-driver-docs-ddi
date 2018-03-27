@@ -53,16 +53,6 @@ req.typenames:
 The<b> KsFilterReleaseProcessingMutex </b>function releases the processing mutex for the AVStream filter specified by <i>Filter</i>.
 
 
-## -syntax
-
-
-````
-void KsFilterReleaseProcessingMutex(
-  _In_ PKSFILTER Filter
-);
-````
-
-
 ## -parameters
 
 
@@ -70,7 +60,7 @@ void KsFilterReleaseProcessingMutex(
 
 ### -param Filter [in]
 
-A pointer to a <a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a> structure representing the AVStream filter for which to release the processing mutex.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff562522">KSFILTER</a> structure representing the AVStream filter for which to release the processing mutex.
 
 
 ## -returns
@@ -93,10 +83,10 @@ For more AVStream-specific information about mutexes, see <a href="https://msdn.
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksfilteracquireprocessingmutex.md">KsFilterAcquireProcessingMutex</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562524">KsFilterAcquireProcessingMutex</a>
  
 
  

@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,18 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>wiauGetDrvItemContext</b> function gets the driver item context, and optionally, the driver item.
-
-
-## -syntax
-
-
-````
-HRESULT _stdcall wiauGetDrvItemContext(
-  _In_    BYTE                  *pWiasContext,
-  _Inout_ VOID                  **ppItemCtx,
-  _Inout_ IWiaDrvItem ppDrvItem **ppDrvItem
-);
-````
 
 
 ## -parameters

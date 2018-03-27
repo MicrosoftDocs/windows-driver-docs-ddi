@@ -53,18 +53,6 @@ req.product: Windows 10 or later.
 Defines values for the various types of USB host controllers.
 
 
-## -syntax
-
-
-````
-typedef enum _URS_HOST_INTERFACE_TYPE { 
-  UrsHostInterfaceTypeEhci   = 0,
-  UrsHostInterfaceTypeXhci,
-  UrsHostInterfaceTypeOther
-} URS_HOST_INTERFACE_TYPE;
-````
-
-
 ## -enum-fields
 
 

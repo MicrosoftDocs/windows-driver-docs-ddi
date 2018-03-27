@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef struct _RILUNBLOCKUICCLOCKPARAMS {
-  RILUICCLOCKCREDENTIAL  lockCredential;
-  char [256]             szNewPassword;
-} RILUNBLOCKUICCLOCKPARAMS, RILUNBLOCKUICCLOCKPARAMS;
-````
-
-
 ## -struct-fields
 
 

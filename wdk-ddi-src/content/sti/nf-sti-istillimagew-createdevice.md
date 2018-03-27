@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: sti.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,19 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>IStillImage::CreateDevice</b> method creates an instance of the COM object that defines the <a href="https://msdn.microsoft.com/b026fb74-9ce6-4d4e-8a5b-402731904064">IStiDevice COM Interface</a>, and returns a pointer to the interface.
-
-
-## -syntax
-
-
-````
-HRESULT CreateDevice(
-  [in]           LPWSTR     pwszDeviceName,
-                 DWORD      dwMode,
-  [out]          PSTIDEVICE *pDevice,
-  [in, optional] LPUNKNOWN  punkOuter
-);
-````
 
 
 ## -parameters
@@ -151,14 +138,14 @@ If you want to create an aggregate COM object that includes <b>IStiDevice</b>, y
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543765">IStiDevice::Release</a>
 
 
 
-<a href="..\sti\nn-sti-istillimagew.md">IStillImageW</a>
-
-
-
+<a href="https://msdn.microsoft.com/a9ceee48-cbb5-4448-83b4-9c19fe89fcb9">IStillImageW</a>
  
 
  

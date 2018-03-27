@@ -52,18 +52,8 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 
 A filter drivers calls the
   <b>NdisFDeregisterFilterDriver</b> function to release resources that it previously allocated with the 
-  <a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">
+  <a href="https://msdn.microsoft.com/14381de2-36d9-4ec8-9d4e-7af3e6d8ecf3">
   NdisFRegisterFilterDriver</a> function.
-
-
-## -syntax
-
-
-````
-VOID NdisFDeregisterFilterDriver(
-  _In_ NDIS_HANDLE NdisFilterDriverHandle
-);
-````
 
 
 ## -parameters
@@ -100,7 +90,6 @@ A filter driver must call
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">NdisFRegisterFilterDriver</a>
 
 
 
@@ -108,6 +97,7 @@ A filter driver must call
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562608">NdisFRegisterFilterDriver</a>
  
 
  

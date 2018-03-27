@@ -54,18 +54,6 @@ req.product: Windows 10 or later.
 The <b>StorPortWritePortUchar</b> routine writes a value to a specified register address. 
 
 
-## -syntax
-
-
-````
-STORPORT_API VOID StorPortWritePortUchar(
-  _In_ PVOID  HwDeviceExtension,
-  _In_ PUCHAR Port,
-  _In_ UCHAR  Value
-);
-````
-
-
 ## -parameters
 
 
@@ -109,21 +97,21 @@ Contains the value to be written.
 
 
 
-For more information, see <a href="..\storport\nf-storport-scsiportwriteportuchar.md">ScsiPortWritePortUchar</a>. For a buffered equivalent of this routine, see <a href="..\storport\nf-storport-storportwriteportbufferuchar.md">StorPortWritePortBufferUchar</a>. 
+For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff564834">ScsiPortWritePortUchar</a>. For a buffered equivalent of this routine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff567515">StorPortWritePortBufferUchar</a>. 
 
 
 
 
 ## -see-also
 
-<a href="..\storport\nf-storport-scsiportwriteportuchar.md">ScsiPortWritePortUchar</a>
 
 
 
-<a href="..\storport\nf-storport-storportwriteportbufferuchar.md">StorPortWritePortBufferUchar</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564834">ScsiPortWritePortUchar</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567515">StorPortWritePortBufferUchar</a>
  
 
  

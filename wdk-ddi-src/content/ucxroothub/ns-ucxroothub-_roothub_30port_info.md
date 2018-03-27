@@ -50,21 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-Provides information about a USB 3.0 root hub port. This structure is passed by UCX in the <a href="..\ucxroothub\nc-ucxroothub-evt_ucx_roothub_get_30port_info.md">EVT_UCX_ROOTHUB_GET_30PORT_INFO</a> callback function.
-
-
-## -syntax
-
-
-````
-typedef struct _ROOTHUB_30PORT_INFO {
-  USHORT   PortNumber;
-  UCHAR    MinorRevision;
-  UCHAR    HubDepth;
-  TRISTATE Removable;
-  TRISTATE DebugCapable;
-} ROOTHUB_30PORT_INFO, *P_ROOTHUB_30PORT_INFO;
-````
+Provides information about a USB 3.0 root hub port. This structure is passed by UCX in the <a href="https://msdn.microsoft.com/library/windows/hardware/mt187835">EVT_UCX_ROOTHUB_GET_30PORT_INFO</a> callback function.
 
 
 ## -struct-fields
@@ -89,10 +75,10 @@ The hub depth limit.
 
 ### -field Removable
 
-A <a href="..\ucxroothub\ne-ucxroothub-_tristate.md">TRISTATE</a> value that indicates if the port is removable. 
+A <a href="https://msdn.microsoft.com/library/windows/hardware/mt187907">TRISTATE</a> value that indicates if the port is removable. 
 
 
 ### -field DebugCapable
 
-A <a href="..\ucxroothub\ne-ucxroothub-_tristate.md">TRISTATE</a> value that indicates if the port is debug capable. 
+A <a href="https://msdn.microsoft.com/library/windows/hardware/mt187907">TRISTATE</a> value that indicates if the port is debug capable. 
 

@@ -52,17 +52,6 @@ req.typenames: FILTER_MESSAGE_HEADER, *PFILTER_MESSAGE_HEADER
 The FILTER_MESSAGE_HEADER structure contains message header information. 
 
 
-## -syntax
-
-
-````
-typedef struct _FILTER_MESSAGE_HEADER {
-  ULONG     ReplyLength;
-  ULONGLONG MessageId;
-} FILTER_MESSAGE_HEADER, *PFILTER_MESSAGE_HEADER;
-````
-
-
 ## -struct-fields
 
 
@@ -89,14 +78,14 @@ To receive messages from a kernel-mode minifilter, a user-mode application typic
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541628">FILTER_REPLY_HEADER</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540506">FilterGetMessage</a>
-
-
-
-<a href="..\fltuserstructures\ns-fltuserstructures-_filter_reply_header.md">FILTER_REPLY_HEADER</a>
-
-
-
  
 
  

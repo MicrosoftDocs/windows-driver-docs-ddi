@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 The <b>VideoPortQueryPerformanceCounter</b> function provides the finest-grained running count available in the system.
 
 
-## -syntax
-
-
-````
-LONGLONG VideoPortQueryPerformanceCounter(
-  _In_      PVOID     HwDeviceExtension,
-  _Out_opt_ PLONGLONG PerformanceFrequency
-);
-````
-
-
 ## -parameters
 
 

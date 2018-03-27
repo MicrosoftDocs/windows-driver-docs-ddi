@@ -52,20 +52,6 @@ req.typenames: STORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR, *PSTORAGE_PHYSICAL_TOPOLOGY
 Describes the physical topology of storage in a system.
 
 
-## -syntax
-
-
-````
-typedef struct _STORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR {
-  ULONG                      Version;
-  ULONG                      Size;
-  ULONG                      NodeCount;
-  ULONG                      Reserved;
-  STORAGE_PHYSICAL_NODE_DATA Node[ANYSIZE_ARRAY];
-} STORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR, *PSTORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR;
-````
-
-
 ## -struct-fields
 
 

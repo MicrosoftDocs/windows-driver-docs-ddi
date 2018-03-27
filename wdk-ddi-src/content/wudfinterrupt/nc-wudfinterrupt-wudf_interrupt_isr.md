@@ -55,21 +55,6 @@ req.product: Windows 10 or later.
 A driver's <i>OnInterruptIsr</i> event callback function services a hardware interrupt.
 
 
-## -prototype
-
-
-````
-WUDF_INTERRUPT_ISR OnInterruptIsr;
-
-BOOLEAN OnInterruptIsr(
-  _In_ IWDFInterrupt *pInterrupt,
-  _In_ ULONG         MessageID,
-  _In_ ULONG         Reserved
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -90,7 +75,7 @@ Reserved for system use.
 
 #### - pInterrupt [in]
 
-A pointer to <a href="..\wudfddi\nn-wudfddi-iwdfinterrupt.md">IWDFInterrupt</a> interface.
+A pointer to <a href="https://msdn.microsoft.com/library/windows/hardware/hh451283">IWDFInterrupt</a> interface.
 
 
 ## -returns
@@ -106,7 +91,7 @@ Returns TRUE if the driver acknowledges ownership of the interrupt, and has stop
 
 
 
-To register an <i>OnInterruptIsr</i> callback function, your driver must place the callback function's address in a <a href="..\wudfinterrupt\ns-wudfinterrupt-_wudf_interrupt_config.md">WUDF_INTERRUPT_CONFIG</a> structure before calling <a href="https://msdn.microsoft.com/EE68BED8-5FDC-4590-8E95-B228F1DFD32D">IWDFDevice3::CreateInterrupt</a>.
+To register an <i>OnInterruptIsr</i> callback function, your driver must place the callback function's address in a <a href="https://msdn.microsoft.com/library/windows/hardware/hh464084">WUDF_INTERRUPT_CONFIG</a> structure before calling <a href="https://msdn.microsoft.com/EE68BED8-5FDC-4590-8E95-B228F1DFD32D">IWDFDevice3::CreateInterrupt</a>.
 
 
 The <i>OnInterruptIsr</i> callback function is a UMDF driver's interrupt service routine (ISR), which is called at PASSIVE_LEVEL when a hardware interrupt occurs.
@@ -115,7 +100,7 @@ For an edge-triggered interrupt or message-signaled interrupt (MSI), the framewo
 
 For a level-triggered interrupt, the framework calls <i>OnInterruptIsr</i> in the context of the operating system's interrupt dispatch. As a result, the operating system's interrupt dispatch thread is blocked in kernel-mode waiting for a response from the driver.
 
-Typically, <i>OnInterruptIsr</i> saves any volatile information that might be lost and clears the hardware interrupt. For a level-triggered interrupt, the driver should stop and acknowledge the interrupt on the device and then return TRUE if it owns the interrupt. The driver should do any further processing in an <a href="..\wudfinterrupt\nc-wudfinterrupt-wudf_interrupt_workitem.md">OnInterruptWorkItem</a> callback. To queue a work item, the driver calls the <a href="https://msdn.microsoft.com/5C6DC011-4032-4DB6-AE17-88E510DF9A3A">IWDFInterrupt::QueueWorkItemForIsr</a> method.
+Typically, <i>OnInterruptIsr</i> saves any volatile information that might be lost and clears the hardware interrupt. For a level-triggered interrupt, the driver should stop and acknowledge the interrupt on the device and then return TRUE if it owns the interrupt. The driver should do any further processing in an <a href="https://msdn.microsoft.com/10677BC2-2A98-41C8-BAE9-1FA3689ACD93">OnInterruptWorkItem</a> callback. To queue a work item, the driver calls the <a href="https://msdn.microsoft.com/5C6DC011-4032-4DB6-AE17-88E510DF9A3A">IWDFInterrupt::QueueWorkItemForIsr</a> method.
 
 
 For more information about handling interrupts in UMDF drivers, see <a href="https://msdn.microsoft.com/25D526CF-7C37-4D10-B099-352933F92F98">Accessing Hardware and Handling Interrupts</a>.
@@ -182,18 +167,18 @@ Then, implement your callback function as follows:
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/EE68BED8-5FDC-4590-8E95-B228F1DFD32D">IWDFDevice3::CreateInterrupt</a>
 
 
 
-<a href="..\wudfinterrupt\ns-wudfinterrupt-_wudf_interrupt_config.md">WUDF_INTERRUPT_CONFIG</a>
+<a href="https://msdn.microsoft.com/10677BC2-2A98-41C8-BAE9-1FA3689ACD93">OnInterruptWorkItem</a>
 
 
 
-<a href="..\wudfinterrupt\nc-wudfinterrupt-wudf_interrupt_workitem.md">OnInterruptWorkItem</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh464084">WUDF_INTERRUPT_CONFIG</a>
  
 
  

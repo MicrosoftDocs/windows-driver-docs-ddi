@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -50,18 +50,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>DebugCreateEx</b> function creates a new <a href="https://msdn.microsoft.com/173a67f1-093e-4462-8e2c-41d0f10106d0">client object</a> and returns an interface pointer to it.
-
-
-## -syntax
-
-
-````
-HRESULT DebugCreateEx(
-  _In_  REFIID InterfaceId,
-  _In_  DWORD  DbgEngOptions,
-  _Out_ PVOID  *Interface
-);
-````
 
 
 ## -parameters
@@ -136,7 +124,6 @@ As with <b>IUnknown::QueryInterface</b>, when the returned interface is no longe
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539140">Client Objects</a>
 
 
 
@@ -144,6 +131,7 @@ As with <b>IUnknown::QueryInterface</b>, when the returned interface is no longe
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539140">Client Objects</a>
  
 
  

@@ -55,14 +55,6 @@ The
   high-order byte of a cancellation ID.
 
 
-## -syntax
-
-
-````
-UCHAR NdisGeneratePartialCancelId(void);
-````
-
-
 ## -parameters
 
 
@@ -85,7 +77,7 @@ UCHAR NdisGeneratePartialCancelId(void);
 
 
 Before marking send 
-    <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structures with cancellation
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structures with cancellation
     IDs by calling the 
     <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567299">
     NDIS_SET_NET_BUFFER_LIST_CANCEL_ID</a> macro, a driver should call 
@@ -100,10 +92,10 @@ Typically, an overlying driver calls
     returned value or values for later use. A protocol driver, for example, could call 
     <b>NdisGeneratePartialCancelId</b> once for each client (such as DHCP or ARC) that it supports. The
     protocol driver can call the 
-    <a href="..\ndis\nf-ndis-ndiscancelsendnetbufferlists.md">
+    <a href="https://msdn.microsoft.com/7b61db73-ddd4-4d46-b378-9a82fdf041ea">
     NdisCancelSendNetBufferLists</a> function later to cancel a send request. In this case, NDIS calls the
     cancel send function (for example, 
-    <a href="..\ndis\nc-ndis-miniport_cancel_send.md">MiniportCancelSend</a>) of the
+    <a href="https://msdn.microsoft.com/17111aa3-c02f-494a-af97-5ab34c152451">MiniportCancelSend</a>) of the
     underlying drivers.
 
 
@@ -111,23 +103,23 @@ Typically, an overlying driver calls
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/17111aa3-c02f-494a-af97-5ab34c152451">MiniportCancelSend</a>
+
+
+
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567299">
    NDIS_SET_NET_BUFFER_LIST_CANCEL_ID</a>
 
 
 
-<a href="..\ndis\nc-ndis-miniport_cancel_send.md">MiniportCancelSend</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a>
 
 
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndiscancelsendnetbufferlists.md">NdisCancelSendNetBufferLists</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561623">NdisCancelSendNetBufferLists</a>
  
 
  

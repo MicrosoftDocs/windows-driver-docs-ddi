@@ -52,19 +52,6 @@ req.typenames: DXGKARG_COLLECTDBGINFO
 The DXGKARG_COLLECTDBGINFO structure describes information for a debug report.
 
 
-## -syntax
-
-
-````
-typedef struct _DXGKARG_COLLECTDBGINFO {
-  UINT                       Reason;
-  VOID                       *pBuffer;
-  SIZE_T                     BufferSize;
-  DXGKARG_COLLECTDBGINFO_EXT *pExtension;
-} DXGKARG_COLLECTDBGINFO;
-````
-
-
 ## -struct-fields
 
 
@@ -86,7 +73,7 @@ typedef struct _DXGKARG_COLLECTDBGINFO {
 </dl>
 </td>
 <td width="60%">
-A <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_resetengine.md">DxgkDdiResetEngine</a> operation has reset a logical adapter.
+A <a href="https://msdn.microsoft.com/9c2097b2-5742-422c-a650-7efff2484970">DxgkDdiResetEngine</a> operation has reset a logical adapter.
 
 </td>
 </tr>
@@ -97,7 +84,7 @@ A <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_resetengine.md">DxgkDdiResetEngine</a
 </dl>
 </td>
 <td width="60%">
-A <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_resetengine.md">DxgkDdiResetEngine</a> operation has reset one or more nodes within a physical adapter.
+A <a href="https://msdn.microsoft.com/9c2097b2-5742-422c-a650-7efff2484970">DxgkDdiResetEngine</a> operation has reset one or more nodes within a physical adapter.
 
 Available starting in Windows 8.
 
@@ -119,23 +106,23 @@ Available starting in Windows 8.
 
 ### -field pExtension
 
-[out] A pointer to a <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_collectdbginfo_ext.md">DXGKARG_COLLECTDBGINFO_EXT</a> structure that is allocated by the operating system and that the driver optionally populates with debug extension information.
+[out] A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff557550">DXGKARG_COLLECTDBGINFO_EXT</a> structure that is allocated by the operating system and that the driver optionally populates with debug extension information.
 
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_collectdbginfo_ext.md">DXGKARG_COLLECTDBGINFO_EXT</a>
 
 
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_collectdbginfo.md">DxgkDdiCollectDbgInfo</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557550">DXGKARG_COLLECTDBGINFO_EXT</a>
 
 
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_resetengine.md">DxgkDdiResetEngine</a>
+<a href="https://msdn.microsoft.com/f2f3d8f7-5a54-4830-b8f8-ac2f93096eda">DxgkDdiCollectDbgInfo</a>
 
 
 
+<a href="https://msdn.microsoft.com/9c2097b2-5742-422c-a650-7efff2484970">DxgkDdiResetEngine</a>
  
 
  

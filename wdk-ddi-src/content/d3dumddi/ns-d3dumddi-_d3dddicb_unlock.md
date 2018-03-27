@@ -52,17 +52,6 @@ req.typenames: D3DDDICB_UNLOCK
 The D3DDDICB_UNLOCK structure describes allocations to unlock. 
 
 
-## -syntax
-
-
-````
-typedef struct _D3DDDICB_UNLOCK {
-  UINT                NumAllocations;
-  const D3DKMT_HANDLE *phAllocations;
-} D3DDDICB_UNLOCK;
-````
-
-
 ## -struct-fields
 
 
@@ -75,19 +64,19 @@ typedef struct _D3DDDICB_UNLOCK {
 
 ### -field phAllocations
 
-[in] An array of D3DKMT_HANDLE data types that represent kernel-mode handles to the allocations. The Microsoft Direct3D runtime's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_allocatecb.md">pfnAllocateCb</a> function returns these handles. Therefore, the user-mode display driver uses these handles to unlock the allocations.
+[in] An array of D3DKMT_HANDLE data types that represent kernel-mode handles to the allocations. The Microsoft Direct3D runtime's <a href="https://msdn.microsoft.com/a61e6c6a-3992-429c-ad8c-5f1a61dc7b8b">pfnAllocateCb</a> function returns these handles. Therefore, the user-mode display driver uses these handles to unlock the allocations.
 
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_unlockcb.md">pfnUnlockCb</a>
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_allocatecb.md">pfnAllocateCb</a>
+<a href="https://msdn.microsoft.com/a61e6c6a-3992-429c-ad8c-5f1a61dc7b8b">pfnAllocateCb</a>
 
 
 
+<a href="https://msdn.microsoft.com/6684f350-da27-478d-ab7b-36e395f7df8d">pfnUnlockCb</a>
  
 
  

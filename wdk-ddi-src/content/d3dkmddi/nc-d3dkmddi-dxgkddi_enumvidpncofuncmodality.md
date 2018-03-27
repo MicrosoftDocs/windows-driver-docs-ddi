@@ -52,20 +52,6 @@ req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
 The <i>DxgkDdiEnumVidPnCofuncModality</i> function makes the source and target modes sets of a VidPN cofunctional with the VidPN's topology and the modes that have already been pinned.
 
 
-## -prototype
-
-
-````
-DXGKDDI_ENUMVIDPNCOFUNCMODALITY DxgkDdiEnumVidPnCofuncModality;
-
-NTSTATUS APIENTRY DxgkDdiEnumVidPnCofuncModality(
-  _In_ const HANDLE                                hAdapter,
-  _In_ const DXGKARG_ENUMVIDPNCOFUNCMODALITY CONST *pEnumCofuncModalityArg
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -73,7 +59,7 @@ NTSTATUS APIENTRY DxgkDdiEnumVidPnCofuncModality(
 
 ### -param hAdapter [in]
 
-A handle to a context block associated with a display adapter. The display miniport driver previously provided this handle to the DirectX graphics kernel subsystem in the <i>MiniportDeviceContext</i> output parameter of the <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a> function.
+A handle to a context block associated with a display adapter. The display miniport driver previously provided this handle to the DirectX graphics kernel subsystem in the <i>MiniportDeviceContext</i> output parameter of the <a href="https://msdn.microsoft.com/5fd4046f-54c3-4dfc-8d51-0d9ebcde0bea">DxgkDdiAddDevice</a> function.
 
 
 ### -param pEnumCofuncModality
@@ -87,7 +73,7 @@ A handle to a context block associated with a display adapter. The display minip
 
 #### - pEnumCofuncModalityArg [in]
 
-A pointer to a <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_enumvidpncofuncmodality.md">DXGKARG_ENUMVIDPNCOFUNCMODALITY</a> structure that contains function arguments.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff557583">DXGKARG_ENUMVIDPNCOFUNCMODALITY</a> structure that contains function arguments.
 
 
 ## -returns

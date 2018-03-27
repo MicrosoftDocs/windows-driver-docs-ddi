@@ -52,18 +52,6 @@ req.typenames: LINKED_DEVICE, *PLINKED_DEVICE
 The LINKED_DEVICE structure holds information that describes a linked display adapter configuration.
 
 
-## -syntax
-
-
-````
-typedef struct _LINKED_DEVICE {
-  ULONG   ChainUid;
-  ULONG   NumberOfLinksInChain;
-  BOOLEAN LeadLink;
-} LINKED_DEVICE, *PLINKED_DEVICE;
-````
-
-
 ## -struct-fields
 
 
@@ -88,17 +76,17 @@ A value that indicates the leading link in the chain of linked adapters. The val
 
 
 
-Prior to a call to <a href="..\dispmprt\nc-dispmprt-dxgkddi_link_device.md">DxgkDdiLinkDevice</a>, the display miniport driver should fill the LINKED_DEVICE structure with information about the linked adapter configuration.
+Prior to a call to <a href="https://msdn.microsoft.com/fb9b7c58-1c4f-42e4-a59f-4a529d3caca2">DxgkDdiLinkDevice</a>, the display miniport driver should fill the LINKED_DEVICE structure with information about the linked adapter configuration.
 
 
 
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_link_device.md">DxgkDdiLinkDevice</a>
 
 
 
+<a href="https://msdn.microsoft.com/fb9b7c58-1c4f-42e4-a59f-4a529d3caca2">DxgkDdiLinkDevice</a>
  
 
  

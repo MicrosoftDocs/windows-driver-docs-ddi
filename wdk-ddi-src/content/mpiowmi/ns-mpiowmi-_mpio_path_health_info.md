@@ -52,18 +52,6 @@ req.typenames: MPIO_PATH_HEALTH_INFO, *PMPIO_PATH_HEALTH_INFO
 The MPIO_PATH_HEALTH_INFO structure is used to query the available health information for every path that is exposed to the system.
 
 
-## -syntax
-
-
-````
-typedef struct _MPIO_PATH_HEALTH_INFO {
-  ULONG                  NumberPathPackets;
-  ULONG                  Reserved;
-  MPIO_PATH_HEALTH_CLASS PathHealthPackets[1];
-} MPIO_PATH_HEALTH_INFO, *PMPIO_PATH_HEALTH_INFO;
-````
-
-
 ## -struct-fields
 
 

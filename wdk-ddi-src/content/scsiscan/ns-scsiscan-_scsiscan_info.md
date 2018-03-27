@@ -50,24 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The SCSISCAN_INFO structure is used as a parameter to <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a> (described in the Microsoft Windows SDK documentation), when the specified I/O control code is <a href="..\scsiscan\ni-scsiscan-ioctl_scsiscan_get_info.md">IOCTL_SCSISCAN_GET_INFO</a>.
-
-
-## -syntax
-
-
-````
-typedef struct _SCSISCAN_INFO {
-  ULONG Size;
-  ULONG Flags;
-  UCHAR PortNumber;
-  UCHAR PathId;
-  UCHAR TargetId;
-  UCHAR Lun;
-  UCHAR AdapterName[MAX_STRING];
-  ULONG Reserved;
-} SCSISCAN_INFO, *PSCSISCAN_INFO;
-````
+The SCSISCAN_INFO structure is used as a parameter to <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a> (described in the Microsoft Windows SDK documentation), when the specified I/O control code is <a href="https://msdn.microsoft.com/library/windows/hardware/ff542879">IOCTL_SCSISCAN_GET_INFO</a>.
 
 
 ## -struct-fields

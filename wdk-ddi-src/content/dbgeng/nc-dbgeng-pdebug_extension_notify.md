@@ -61,14 +61,6 @@ The engine calls the <b>DebugExtensionNotify</b> callback function to inform the
 </tr>
 </table></span></div>
 
-## -prototype
-
-
-````
- CALLBACK* PDEBUG_EXTENSION_NOTIFY DebugExtensionNotify;
-````
-
-
 ## -parameters
 
 
@@ -156,10 +148,10 @@ After the extension DLL is initialized, the engine will use this function to not
 
 ## -see-also
 
-<a href="..\dbgeng\nc-dbgeng-pdebug_extension_initialize.md">DebugExtensionInitialize</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540476">DebugExtensionInitialize</a>
  
 
  

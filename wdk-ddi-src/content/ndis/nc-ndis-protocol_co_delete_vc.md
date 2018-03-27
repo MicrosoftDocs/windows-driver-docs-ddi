@@ -55,19 +55,6 @@ The
 <div class="alert"><b>Note</b>  You must declare the function by using the <b>PROTOCOL_CO_DELETE_VC</b> type.
    For more information, see the following Examples section.</div><div> </div>
 
-## -prototype
-
-
-````
-PROTOCOL_CO_DELETE_VC ProtocolCoDeleteVc;
-
-NDIS_STATUS ProtocolCoDeleteVc(
-  _In_ NDIS_HANDLE ProtocolVcContext
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -77,7 +64,7 @@ NDIS_STATUS ProtocolCoDeleteVc(
 
 Specifies the handle to the client's or call manager's per-VC context area. The protocol
      originally supplied this handle from its 
-     <a href="..\ndis\nc-ndis-protocol_co_create_vc.md">ProtocolCoCreateVc</a> function.
+     <a href="https://msdn.microsoft.com/b086dd24-74f5-474a-8684-09bf92ac731b">ProtocolCoCreateVc</a> function.
 
 
 ## -returns
@@ -137,7 +124,7 @@ The protocol failed the VC deletion for a driver-determined reason.
 
 
 <i>ProtocolCoDeleteVc</i> is the reciprocal of the driver's 
-    <a href="..\ndis\nc-ndis-protocol_co_create_vc.md">ProtocolCoCreateVc</a> function. In
+    <a href="https://msdn.microsoft.com/b086dd24-74f5-474a-8684-09bf92ac731b">ProtocolCoCreateVc</a> function. In
     general, it releases any dynamic resources and structures that the call manager or client previously
     allocated to perform operations on the active VC.
 
@@ -192,27 +179,27 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndiscocreatevc.md">NdisCoCreateVc</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndiscodeletevc.md">NdisCoDeleteVc</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561627">NdisClCloseCall</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndiscmdispatchincomingclosecall.md">
+<a href="https://msdn.microsoft.com/f0f1221d-3d95-4d4c-acd0-6bcd653241c4">
    NdisCmDispatchIncomingCloseCall</a>
 
 
 
-<a href="..\ndis\nc-ndis-protocol_co_create_vc.md">ProtocolCoCreateVc</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561696">NdisCoCreateVc</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisclclosecall.md">NdisClCloseCall</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561698">NdisCoDeleteVc</a>
 
 
 
+<a href="https://msdn.microsoft.com/b086dd24-74f5-474a-8684-09bf92ac731b">ProtocolCoCreateVc</a>
  
 
  

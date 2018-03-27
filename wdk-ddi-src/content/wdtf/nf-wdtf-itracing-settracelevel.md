@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: wdtf.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -53,16 +53,6 @@ req.product: Windows 10 or later.
 The <b>SetTraceLevel</b> method sets the tracing level for an object. Every object in the WDTF object model should support the <b>SetTraceLevel</b> method
 
 
-## -syntax
-
-
-````
-HRESULT SetTraceLevel(
-  [in] TTraceLevel Level
-);
-````
-
-
 ## -parameters
 
 
@@ -70,7 +60,7 @@ HRESULT SetTraceLevel(
 
 ### -param Level [in]
 
-The new <a href="..\wdtf\ne-wdtf-__midl___midl_itf_wdtf_0000_0001_0001.md">TTraceLevel</a> value for this object.
+The new <a href="https://msdn.microsoft.com/library/windows/hardware/ff539616">TTraceLevel</a> value for this object.
 
 
 ## -returns
@@ -86,11 +76,11 @@ The new <a href="..\wdtf\ne-wdtf-__midl___midl_itf_wdtf_0000_0001_0001.md">TTrac
 
 
 
-For more information about tracing levels, see <a href="..\wdtf\ne-wdtf-__midl___midl_itf_wdtf_0000_0001_0001.md">TTraceLevel</a> and <a href="..\wdtf\nn-wdtf-itracer.md">ITracer</a>.
+For more information about tracing levels, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff539616">TTraceLevel</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff539512">ITracer</a>.
 
-Use the <a href="..\wdtf\ne-wdtf-__midl___midl_itf_wdtf_0000_0001_0001.md">Trace_Default</a> level to set the object back to the settings that are defined in the registry for the object's co-class.
+Use the <a href="https://msdn.microsoft.com/d1bc1775-cb0f-468e-938b-b3ed95e80b5b">Trace_Default</a> level to set the object back to the settings that are defined in the registry for the object's co-class.
 
-Because the <a href="https://msdn.microsoft.com/library/windows/hardware/ff538787">IAction</a> interface inherits from the <a href="..\wdtf\nn-wdtf-itracing.md">ITracing</a> interface, all WDTF Actions will support <b>SetTraceLevel</b>. All of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff539628">WDTF core interfaces</a> should also support this method.
+Because the <a href="https://msdn.microsoft.com/library/windows/hardware/ff538787">IAction</a> interface inherits from the <a href="https://msdn.microsoft.com/library/windows/hardware/ff539519">ITracing</a> interface, all WDTF Actions will support <b>SetTraceLevel</b>. All of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff539628">WDTF core interfaces</a> should also support this method.
 
 The following code example demonstrates how to use the <b>SetTraceLevel</b> method.
 
@@ -188,18 +178,18 @@ else
 
 ## -see-also
 
-<a href="..\wdtf\nn-wdtf-itracing.md">ITracing</a>
 
 
 
-<a href="..\wdtf\nn-wdtf-itracer.md">ITracer</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539512">ITracer</a>
 
 
 
-<a href="..\wdtf\ne-wdtf-__midl___midl_itf_wdtf_0000_0001_0001.md">TTraceLevel</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539519">ITracing</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539616">TTraceLevel</a>
  
 
  

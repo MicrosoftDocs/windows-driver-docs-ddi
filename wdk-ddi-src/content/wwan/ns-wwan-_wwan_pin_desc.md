@@ -54,19 +54,6 @@ The WWAN_PIN_DESC structure represents the description or current status for a P
   Identification Number (PIN).
 
 
-## -syntax
-
-
-````
-typedef struct _WWAN_PIN_DESC {
-  WWAN_PIN_MODE   PinMode;
-  WWAN_PIN_FORMAT PinFormat;
-  ULONG           PinLengthMin;
-  ULONG           PinLengthMax;
-} WWAN_PIN_DESC, *PWWAN_PIN_DESC;
-````
-
-
 ## -struct-fields
 
 
@@ -100,18 +87,18 @@ The maximum number of characters in the PIN. Miniport drivers should not specify
 
 ## -see-also
 
-<a href="..\wwan\ne-wwan-_wwan_pin_format.md">WWAN_PIN_FORMAT</a>
 
 
 
-<a href="..\wwan\ns-wwan-_wwan_pin_list.md">WWAN_PIN_LIST</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571215">WWAN_PIN_FORMAT</a>
 
 
 
-<a href="..\wwan\ne-wwan-_wwan_pin_mode.md">WWAN_PIN_MODE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571217">WWAN_PIN_LIST</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571218">WWAN_PIN_MODE</a>
  
 
  

@@ -52,17 +52,6 @@ req.typenames: D3DHAL_DP2SETRENDERTARGET
 The D3DHAL_DP2SETRENDERTARGET structure is used with the D3DDP2OP_SETRENDERTARGET opcode to map a new rendering target surface and depth buffer in the current context.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DHAL_DP2SETRENDERTARGET {
-  DWORD hRenderTarget;
-  DWORD hZBuffer;
-} D3DHAL_DP2SETRENDERTARGET, *LPD3DHAL_DP2SETRENDERTARGET;
-````
-
-
 ## -struct-fields
 
 
@@ -82,7 +71,7 @@ Specifies a handle to the depth buffer.
 
 
 
-The driver should carry out the following tasks in response to a D3DDP2OP_SETRENDERTARGET opcode in the <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a> command stream:
+The driver should carry out the following tasks in response to a D3DDP2OP_SETRENDERTARGET opcode in the <a href="https://msdn.microsoft.com/6128ff7a-0d2c-48df-8b5e-cab33c5a74f5">D3dDrawPrimitives2</a> command stream:
 
 <ol>
 <li>
@@ -101,14 +90,14 @@ See the <i>p3samp</i> sample driver that ships with the Microsoft Windows Driver
 
 ## -see-also
 
+
+
+
 D3DDP2OP_SETRENDERTARGET
 
 
 
-<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
-
-
-
+<a href="https://msdn.microsoft.com/6128ff7a-0d2c-48df-8b5e-cab33c5a74f5">D3dDrawPrimitives2</a>
  
 
  

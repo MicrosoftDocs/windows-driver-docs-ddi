@@ -52,17 +52,6 @@ req.typenames: D3DKMT_OUTPUTDUPLCONTEXTSCOUNT
 Specifies the number of current <a href="https://msdn.microsoft.com/523FBFAD-5D78-4EE3-A3B7-8FD5BA39DC46">Desktop Duplication API</a> (DDA) clients that are attached to a given video present network (VidPN).
 
 
-## -syntax
-
-
-````
-typedef struct _D3DKMT_OUTPUTDUPLCONTEXTSCOUNT {
-  D3DDDI_VIDEO_PRESENT_SOURCE_ID VidPnSourceId;
-  UINT                           OutputDuplicationCount;
-} D3DKMT_OUTPUTDUPLCONTEXTSCOUNT;
-````
-
-
 ## -struct-fields
 
 

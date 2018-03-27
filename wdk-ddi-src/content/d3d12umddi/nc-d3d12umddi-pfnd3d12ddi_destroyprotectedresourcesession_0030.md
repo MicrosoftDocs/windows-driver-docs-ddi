@@ -52,17 +52,6 @@ req.typenames: D3D11_1DDI_GETCAPTUREHANDLEDATA
 Used to destroy a protected resource session.
 
 
-## -prototype
-
-
-````
-VOID APIENTRY* PFND3D12DDI_DESTROYPROTECTEDRESOURCESESSION_0030(
-   D3D12DDI_HDEVICE                        hDrvDevice,
-   D3D12DDI_HPROTECTEDRESOURCESESSION_0030 hDrvProtectedResourceSession
-);
-````
-
-
 ## -parameters
 
 

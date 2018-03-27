@@ -49,22 +49,7 @@ req.typenames: TRACK_DATA, *PTRACK_DATA
 ## -description
 
 
-Track descriptor is used in conjunction with <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_toc.md">CDROM_TOC</a> and <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_toc_session_data.md">CDROM_TOC_SESSION_DATA</a>. 
-
-
-## -syntax
-
-
-````
-typedef struct _TRACK_DATA {
-  UCHAR Reserved;
-  UCHAR Control  :4;
-  UCHAR Adr  :4;
-  UCHAR TrackNumber;
-  UCHAR Reserved1;
-  UCHAR Address[4];
-} TRACK_DATA, *PTRACK_DATA;
-````
+Track descriptor is used in conjunction with <a href="https://msdn.microsoft.com/library/windows/hardware/ff551373">CDROM_TOC</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff551389">CDROM_TOC_SESSION_DATA</a>. 
 
 
 ## -struct-fields
@@ -113,14 +98,14 @@ This structure contains table of contents information for a track.
 
 ## -see-also
 
-<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_toc.md">CDROM_TOC</a>
 
 
 
-<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_toc_session_data.md">CDROM_TOC_SESSION_DATA</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551373">CDROM_TOC</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551389">CDROM_TOC_SESSION_DATA</a>
  
 
  

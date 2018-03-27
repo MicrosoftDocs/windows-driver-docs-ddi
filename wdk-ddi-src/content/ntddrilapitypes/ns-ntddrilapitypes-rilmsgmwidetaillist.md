@@ -52,21 +52,6 @@ req.typenames: RILMSGMWIDETAILLIST, *LPRILMSGMWIDETAILLIST
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef struct _RILMSGMWIDETAILLIST {
-  DWORD               cbSize;
-  DWORD               dwParams;
-  DWORD               dwExecutor;
-  DWORD               dwReferenceNumber;
-  DWORD               dwNumberOfDetailItems;
-  RILMSGMWIDETAIL [1] stMwiDetail;
-} RILMSGMWIDETAILLIST, RILMSGMWIDETAILLIST;
-````
-
-
 ## -struct-fields
 
 

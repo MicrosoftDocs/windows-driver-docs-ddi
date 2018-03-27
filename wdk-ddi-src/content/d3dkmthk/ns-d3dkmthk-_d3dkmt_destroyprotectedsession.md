@@ -52,16 +52,6 @@ req.typenames: D3DKMT_DESTROYPROTECTEDSESSION
 Holds information to destroy a protected session.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DKMT_DESTROYPROTECTEDSESSION {
-  D3DKMT_HANDLE hHandle;
-} D3DKMT_DESTROYPROTECTEDSESSION;
-````
-
-
 ## -struct-fields
 
 

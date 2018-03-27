@@ -58,18 +58,6 @@ packet, but not directly sent in the packet. That is, the maximum size of the
 buffer described by an <b>ExternalDataMdl</b>.  
 
 
-## -syntax
-
-
-````
-NTSTATUS VmbChannelInitSetMaximumExternalData(
-  _In_ VMBCHANNEL         Channel,
-  _In_ range_(>,0) UINT32 DataSize,
-  _In_ range_(>,0) UINT32 ChainLength
-);
-````
-
-
 ## -parameters
 
 

@@ -54,26 +54,6 @@ The
   <b>WskControlClient</b> function performs control operations on a WSK client object.
 
 
-## -prototype
-
-
-````
-PFN_WSK_CONTROL_CLIENT WskControlClient;
-
-NTSTATUS WSKAPI * WskControlClient(
-  _In_      PWSK_CLIENT Client,
-  _In_      ULONG       ControlCode,
-  _In_      SIZE_T      InputSize,
-  _In_opt_  PVOID       InputBuffer,
-  _In_      SIZE_T      OutputSize,
-  _Out_opt_ PVOID       OutputBuffer,
-  _Out_opt_ SIZE_T      *OutputSizeReturned,
-  _Inout_   PIRP        Irp
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -85,7 +65,7 @@ A pointer to a
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff571155">WSK_CLIENT</a> structure that was returned through
      the 
      <i>WskProviderNpi</i> parameter of the 
-     <a href="..\wsk\nf-wsk-wskcaptureprovidernpi.md">
+     <a href="https://msdn.microsoft.com/b5c6667e-33b4-4482-8817-c01d9d314c3a">
      WskCaptureProviderNPI</a> function.
 
 
@@ -308,15 +288,10 @@ If the
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff571157">WSK Client Control Operations</a>
-
-
-
-<a href="..\wsk\ns-wsk-_wsk_transport.md">WSK_TRANSPORT</a>
-
-
-
-<a href="..\wsk\ns-wsk-_wsk_provider_npi.md">WSK_PROVIDER_NPI</a>
 
 
 
@@ -324,14 +299,19 @@ If the
 
 
 
-<a href="..\wsk\nf-wsk-wskcaptureprovidernpi.md">WskCaptureProviderNPI</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571175">WSK_PROVIDER_DISPATCH</a>
 
 
 
-<a href="..\wsk\ns-wsk-_wsk_provider_dispatch.md">WSK_PROVIDER_DISPATCH</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571177">WSK_PROVIDER_NPI</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571193">WSK_TRANSPORT</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571122">WskCaptureProviderNPI</a>
  
 
  

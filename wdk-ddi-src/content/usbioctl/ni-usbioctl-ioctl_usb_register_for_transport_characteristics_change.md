@@ -47,11 +47,6 @@ req.product: Windows 10 or later.
 # IOCTL_USB_REGISTER_FOR_TRANSPORT_CHARACTERISTICS_CHANGE IOCTL
 
 
-##  Major Code: 
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548649">IRP_MJ_DEVICE_CONTROL</a>
-
 ## -description
 
 
@@ -101,14 +96,14 @@ This request registers for notifications about the changes in transport characte
 
 ### -in-out-buffer
 
-The <b>AssociatedIrp.SystemBuffer</b> member is a pointer to a <a href="..\usbioctl\ns-usbioctl-_usb_transport_characteristics_change_registration.md">USB_TRANSPORT_CHARACTERISTICS_CHANGE_REGISTRATION</a> structure. On input, the client driver can specify the type of notification changes in which the driver is interested by setting the flags in the <b>ChangeNotificationInputFlags</b> member.
+The <b>AssociatedIrp.SystemBuffer</b> member is a pointer to a <a href="https://msdn.microsoft.com/AC05B79E-D293-4EC7-8BF2-D14E3163FB43">USB_TRANSPORT_CHARACTERISTICS_CHANGE_REGISTRATION</a> structure. On input, the client driver can specify the type of notification changes in which the driver is interested by setting the flags in the <b>ChangeNotificationInputFlags</b> member.
 
 On output, the structure is filled with the registration handle and initial values of the transport characteristics.
 
 
 ### -inout-buffer-length
 
-The size of the <a href="..\usbioctl\ns-usbioctl-_usb_transport_characteristics_change_registration.md">USB_TRANSPORT_CHARACTERISTICS_CHANGE_REGISTRATION</a> structure.
+The size of the <a href="https://msdn.microsoft.com/AC05B79E-D293-4EC7-8BF2-D14E3163FB43">USB_TRANSPORT_CHARACTERISTICS_CHANGE_REGISTRATION</a> structure.
 
 
 ### -status-block
@@ -129,11 +124,6 @@ This request can be sent by a user mode application, UMDF driver, or a KMDF driv
 
 ## -see-also
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
-
-
-
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
 
 
 
@@ -141,14 +131,19 @@ This request can be sent by a user mode application, UMDF driver, or a KMDF driv
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
-
-
-
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/usbcon/usb-client-drivers-for-ma-usb">USB client drivers for Media-Agnostic (MA-USB)</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548651">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548656">WdfIoTargetSendInternalIoctlSynchronously</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548660">WdfIoTargetSendIoctlSynchronously</a>
  
 
  

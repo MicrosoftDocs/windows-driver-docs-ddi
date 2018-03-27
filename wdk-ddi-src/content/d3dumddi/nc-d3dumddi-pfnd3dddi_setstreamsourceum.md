@@ -52,21 +52,6 @@ req.typenames: DXGK_PTE
 The <i>SetStreamSourceUM</i> function binds a vertex stream source to a user memory buffer. 
 
 
-## -prototype
-
-
-````
-PFND3DDDI_SETSTREAMSOURCEUM SetStreamSourceUM;
-
-__checkReturn HRESULT APIENTRY SetStreamSourceUM(
-  _In_       HANDLE                      hDevice,
-  _In_ const D3DDDIARG_SETSTREAMSOURCEUM *pData,
-  _In_ const VOID                        *pUMBuffer
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -88,7 +73,7 @@ __checkReturn HRESULT APIENTRY SetStreamSourceUM(
 
 #### - pData [in]
 
- A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_setstreamsourceum.md">D3DDDIARG_SETSTREAMSOURCEUM</a> structure that specifies the vertex stream source to bind.
+ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543363">D3DDDIARG_SETSTREAMSOURCEUM</a> structure that specifies the vertex stream source to bind.
 
 
 #### - pUMBuffer [in]
@@ -107,14 +92,14 @@ __checkReturn HRESULT APIENTRY SetStreamSourceUM(
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_setstreamsourceum.md">D3DDDIARG_SETSTREAMSOURCEUM</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543363">D3DDDIARG_SETSTREAMSOURCEUM</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544519">D3DDDI_DEVICEFUNCS</a>
  
 
  

@@ -52,17 +52,6 @@ req.typenames: DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION_WITH_SOURCE
 Used in a call to the <b>DxgkDdiCheckMultiPlaneOverlaySupport3 </b>function to check details on hardware support for post composition transform support.
 
 
-## -syntax
-
-
-````
-typedef struct _DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION_WITH_SOURCE {
-  D3DDDI_VIDEO_PRESENT_SOURCE_ID            VidPnSourceId;
-  DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION  PostComposition;
-} DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION_WITH_SOURCE;
-````
-
-
 ## -struct-fields
 
 

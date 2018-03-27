@@ -55,16 +55,6 @@ The <b>VideoPortDisableInterrupt</b> function is <b>obsolete</b> and should not 
 The <b>VideoPortDisableInterrupt</b> function disables interrupts from a video adapter. As a result, interrupts coming from the device are ignored by the operating system and are not forwarded to the driver.
 
 
-## -syntax
-
-
-````
-VP_STATUS VideoPortDisableInterrupt(
-   PVOID HwDeviceExtension
-);
-````
-
-
 ## -parameters
 
 
@@ -90,7 +80,7 @@ If <b>VideoPortDisableInterrupt</b> succeeds, it returns NO_ERROR. Otherwise, it
 
 If you need to disable interrupts for the display adapter, write hardware-specific code to prevent the display adapter from generating interrupts. To subsequently enable interrupts, write hardware-specific code to allow the display adapter to resume generating interrupts.
 
-You should not call <b>VideoPortDisableInterrupt</b> or <a href="..\video\nf-video-videoportenableinterrupt.md">VideoPortEnableInterrupt</a> for the following reasons:
+You should not call <b>VideoPortDisableInterrupt</b> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff570296">VideoPortEnableInterrupt</a> for the following reasons:
 
 <ul>
 <li>
@@ -106,29 +96,29 @@ On a multiprocessor computer, a call to <b>VideoPortEnableInterrupt</b> might ru
 
 </li>
 </ul>
-If the video miniport driver has not registered an <a href="..\video\nc-video-pvideo_hw_interrupt.md">HwVidInterrupt</a> routine for the display adapter, <b>VideoPortDisableInterrupt</b> returns ERROR_INVALID_FUNCTION. 
+If the video miniport driver has not registered an <a href="https://msdn.microsoft.com/523471e3-cf1e-48d2-b5f0-2f8d19ad71e0">HwVidInterrupt</a> routine for the display adapter, <b>VideoPortDisableInterrupt</b> returns ERROR_INVALID_FUNCTION. 
 
 
 
 
 ## -see-also
 
-<a href="..\video\ns-video-_video_hw_initialization_data.md">VIDEO_HW_INITIALIZATION_DATA</a>
 
 
 
-<a href="..\video\nc-video-pminiport_synchronize_routine.md">HwVidSynchronizeExecutionCallback</a>
+<a href="https://msdn.microsoft.com/523471e3-cf1e-48d2-b5f0-2f8d19ad71e0">HwVidInterrupt</a>
 
 
 
-<a href="..\video\nc-video-pvideo_hw_interrupt.md">HwVidInterrupt</a>
+<a href="https://msdn.microsoft.com/04e3bac6-c905-4c95-bd1b-e85b46c4296d">HwVidSynchronizeExecutionCallback</a>
 
 
 
-<a href="..\video\nf-video-videoportenableinterrupt.md">VideoPortEnableInterrupt</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570505">VIDEO_HW_INITIALIZATION_DATA</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570296">VideoPortEnableInterrupt</a>
  
 
  

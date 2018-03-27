@@ -55,18 +55,6 @@ The
   functions to enumerate endpoint data.
 <div class="alert"><b>Note</b>  <b>FwpsAleEndpointCreateEnumHandle0</b> is a specific version of <b>FwpsAleEndpointCreateEnumHandle</b>. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
 
-## -syntax
-
-
-````
-NTSTATUS NTAPI FwpsAleEndpointCreateEnumHandle0(
-  _In_           HANDLE                           engineHandle,
-  _In_opt_ const FWPS_ALE_ENDPOINT_ENUM_TEMPLATE0 *enumTemplate,
-  _Out_          HANDLE                           *enumHandle
-);
-````
-
-
 ## -parameters
 
 
@@ -76,7 +64,7 @@ NTSTATUS NTAPI FwpsAleEndpointCreateEnumHandle0(
 
 Handle for an open session with the filter engine. This handle is obtained when a session is
      opened by calling 
-     <a href="..\fwpmk\nf-fwpmk-fwpmengineopen0.md">FwpmEngineOpen0</a>.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff550075">FwpmEngineOpen0</a>.
 
 
 ### -param enumTemplate [in, optional]
@@ -139,7 +127,7 @@ An error occurred.
 After using the handle acquired by calling 
     <b>FwpsAleEndpointCreateEnumHandle0</b>, the callout driver must release the system resources associated
     with the handle by calling 
-    <a href="..\fwpsk\nf-fwpsk-fwpsaleendpointdestroyenumhandle0.md">
+    <a href="https://msdn.microsoft.com/45ec429e-d324-40c9-bedc-acd75ccb160e">
     FwpsAleEndpointDestroyEnumHandle0</a>.
 
 
@@ -147,15 +135,15 @@ After using the handle acquired by calling
 
 ## -see-also
 
-<a href="..\fwpsk\nf-fwpsk-fwpsaleendpointdestroyenumhandle0.md">
+
+
+
+<a href="https://msdn.microsoft.com/45ec429e-d324-40c9-bedc-acd75ccb160e">
    FwpsAleEndpointDestroyEnumHandle0</a>
 
 
 
-<a href="..\fwpsk\nf-fwpsk-fwpsaleendpointenum0.md">FwpsAleEndpointEnum0</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551126">FwpsAleEndpointEnum0</a>
  
 
  

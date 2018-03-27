@@ -52,21 +52,6 @@ req.typenames: MIRACAST_STATUS
 Specifies status types  that the user-mode display driver uses to report Miracast connection status.
 
 
-## -syntax
-
-
-````
-typedef enum  { 
-  MIRACAST_STATUS_CRITICAL_ERROR                    = 0,
-  MIRACAST_STATUS_MISSING_KEEPALIVE                 = 1,
-  MIRACAST_STATUS_SINK_DISOCNNECT_REQUEST           = 2,
-  MIRACAST_STATUS_INSUFFICIENT_BANDWIDTH            = 3,
-  MIRACAST_STATUS_SINK_FAILED_STANDARD_MODE_CHANGE  = 4,
-  MIRACAST_STATUS_FORCE_UINT32                      = 0xffffffff
-} MIRACAST_STATUS;
-````
-
-
 ## -enum-fields
 
 

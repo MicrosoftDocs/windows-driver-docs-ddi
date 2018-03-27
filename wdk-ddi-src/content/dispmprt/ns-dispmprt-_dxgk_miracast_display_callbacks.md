@@ -52,18 +52,6 @@ req.typenames: DXGK_MIRACAST_DISPLAY_CALLBACKS, *PDXGK_MIRACAST_DISPLAY_CALLBACK
 Contains pointers to functions in the <a href="https://msdn.microsoft.com/library/windows/hardware/dn344650">Wireless display (Miracast) display callback interface</a> that the display miniport driver can call to send messages and report encode chunk info.
 
 
-## -syntax
-
-
-````
-typedef struct _DXGK_MIRACAST_DISPLAY_CALLBACKS {
-  HANDLE                            MiracastHandle;
-  DXGKCB_MIRACAST_SEND_MESSAGE      DxgkCbMiracastSendMessage;
-  DXGKCB_MIRACAST_REPORT_CHUNK_INFO DxgkCbReportChunkInfo;
-} DXGK_MIRACAST_DISPLAY_CALLBACKS, *PDXGK_MIRACAST_DISPLAY_CALLBACKS;
-````
-
-
 ## -struct-fields
 
 
@@ -76,24 +64,24 @@ A driver-supplied handle to the Miracast display device.
 
 ### -field DxgkCbMiracastSendMessage
 
-A pointer to the display port driver's <a href="..\dispmprt\nc-dispmprt-dxgkcb_miracast_send_message.md">DxgkCbMiracastSendMessage</a> function.
+A pointer to the display port driver's <a href="https://msdn.microsoft.com/E8C3B9E3-854C-488D-809B-0F0893591352">DxgkCbMiracastSendMessage</a> function.
 
 
 ### -field DxgkCbReportChunkInfo
 
-A pointer to the display port driver's <a href="..\dispmprt\nc-dispmprt-dxgkcb_miracast_report_chunk_info.md">DxgkCbReportChunkInfo</a> function.
+A pointer to the display port driver's <a href="https://msdn.microsoft.com/94A99749-EF80-4593-B03C-54A7AA2BDFC8">DxgkCbReportChunkInfo</a> function.
 
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkcb_miracast_send_message.md">DxgkCbMiracastSendMessage</a>
 
 
 
-<a href="..\dispmprt\nc-dispmprt-dxgkcb_miracast_report_chunk_info.md">DxgkCbReportChunkInfo</a>
+<a href="https://msdn.microsoft.com/E8C3B9E3-854C-488D-809B-0F0893591352">DxgkCbMiracastSendMessage</a>
 
 
 
+<a href="https://msdn.microsoft.com/94A99749-EF80-4593-B03C-54A7AA2BDFC8">DxgkCbReportChunkInfo</a>
  
 
  

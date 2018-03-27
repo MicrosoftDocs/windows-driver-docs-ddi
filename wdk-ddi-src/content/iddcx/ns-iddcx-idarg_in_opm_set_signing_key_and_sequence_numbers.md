@@ -53,16 +53,6 @@ Gives information about parameters necessary to set the signing key and sequence
              
 
 
-## -syntax
-
-
-````
-typedef struct IDARG_IN_OPM_SET_SIGNING_KEY_AND_SEQUENCE_NUMBERS {
-  IDDCX_OPM_ENCRYPTED_INITIALIZATION_PARAMETERS EncryptedParameters;
-} IDARG_IN_OPM_SET_SIGNING_KEY_AND_SEQUENCE_NUMBERS, *IDARG_IN_OPM_SET_SIGNING_KEY_AND_SEQUENCE_NUMBERS;
-````
-
-
 ## -struct-fields
 
 

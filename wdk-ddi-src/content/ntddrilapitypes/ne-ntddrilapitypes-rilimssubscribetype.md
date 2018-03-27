@@ -52,18 +52,6 @@ req.typenames: RILIMSSUBSCRIBETYPE
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef enum _RILIMSSUBSCRIBETYPE { 
-  RIL_IMSSUBSCRIBETYPE_MWI,
-  RIL_IMSSUBSCRIBETYPE_CONFERENCE,
-  RIL_IMSSUBSCRIBETYPE_MAX
-} RILIMSSUBSCRIBETYPE;
-````
-
-
 ## -enum-fields
 
 

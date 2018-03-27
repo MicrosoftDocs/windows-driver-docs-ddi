@@ -52,16 +52,6 @@ req.typenames: PCM_DATA_FORMAT, *PPCM_DATA_FORMAT
 This enumeration is for internal use only.
 
 
-## -syntax
-
-
-````
-typedef enum _PCM_DATA_FORMAT { 
-    = 
-} PCM_DATA_FORMAT, *PPCM_DATA_FORMAT;
-````
-
-
 ## -enum-fields
 
 

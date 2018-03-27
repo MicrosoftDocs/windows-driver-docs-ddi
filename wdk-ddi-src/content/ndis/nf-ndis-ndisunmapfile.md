@@ -52,17 +52,7 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 
 The
   <b>NdisUnmapFile</b> function releases a virtual address mapping of a file previously set up with the 
-  <a href="..\ndis\nf-ndis-ndismapfile.md">NdisMapFile</a> function.
-
-
-## -syntax
-
-
-````
-VOID NdisUnmapFile(
-  _In_ NDIS_HANDLE FileHandle
-);
-````
+  <a href="https://msdn.microsoft.com/library/windows/hardware/ff562785">NdisMapFile</a> function.
 
 
 ## -parameters
@@ -73,7 +63,7 @@ VOID NdisUnmapFile(
 ### -param FileHandle [in]
 
 The handle that was returned by the 
-     <a href="..\ndis\nf-ndis-ndisopenfile.md">NdisOpenFile</a> function.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff563728">NdisOpenFile</a> function.
 
 
 ## -returns
@@ -94,29 +84,29 @@ To reduce resource usage, a miniport driver should always call
     Such a driver can map and unmap the file as necessary, using alternating calls to 
     <b>NdisMapFile</b> and 
     <b>NdisUnmapFile</b> until it releases the file handle with the 
-    <a href="..\ndis\nf-ndis-ndisclosefile.md">NdisCloseFile</a> function.
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561645">NdisCloseFile</a> function.
 
 
 
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisclosefile.md">NdisCloseFile</a>
+<a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndismapfile.md">NdisMapFile</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561645">NdisCloseFile</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisopenfile.md">NdisOpenFile</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562785">NdisMapFile</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563728">NdisOpenFile</a>
  
 
  

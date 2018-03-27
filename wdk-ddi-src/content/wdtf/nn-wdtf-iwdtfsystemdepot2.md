@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: Microsoft.WDTF
 req.assembly: WDTF.Interop.metadata_dll
 req.type-library: 
-req.lib: wdtf.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -131,7 +131,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Gets an <a href="..\wdtf\nn-wdtf-iwdtftarget2.md">IWDTFTarget2</a> value that represents the local computer.
+Gets an <a href="https://msdn.microsoft.com/library/windows/hardware/hh439367">IWDTFTarget2</a> value that represents the local computer.
 
 </td>
 </tr>

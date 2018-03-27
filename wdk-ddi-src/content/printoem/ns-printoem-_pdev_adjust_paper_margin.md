@@ -53,16 +53,6 @@ req.product: Windows 10 or later.
 The PDEV_ADJUST_PAPER_MARGIN structure specifies the imageable printing area.
 
 
-## -syntax
-
-
-````
-typedef struct _PDEV_ADJUST_PAPER_MARGIN {
-  RECTL rcImageableArea;
-} PDEV_ADJUST_PAPER_MARGIN;
-````
-
-
 ## -struct-fields
 
 
@@ -86,14 +76,14 @@ The <i>pBuf</i> parameter of the <a href="https://msdn.microsoft.com/library/win
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553189">IPrintOemPS2::GetPDEVAdjustment</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569236">RECTL</a>
-
-
-
  
 
  

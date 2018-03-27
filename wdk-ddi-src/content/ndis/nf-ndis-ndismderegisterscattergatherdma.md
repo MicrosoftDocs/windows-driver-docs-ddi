@@ -52,18 +52,8 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 
 Bus-master miniport drivers call 
   <b>NdisMDeregisterScatterGatherDma</b> to release DMA resources that were allocated with the 
-  <a href="..\ndis\nf-ndis-ndismregisterscattergatherdma.md">
+  <a href="https://msdn.microsoft.com/90ce64a2-9140-4b5f-88aa-b4f01a3d0c6f">
   NdisMRegisterScatterGatherDma</a> function.
-
-
-## -syntax
-
-
-````
-VOID NdisMDeregisterScatterGatherDma(
-  _In_ NDIS_HANDLE NdisMiniportDmaHandle
-);
-````
 
 
 ## -parameters
@@ -93,7 +83,7 @@ None
 
 An NDIS miniport driver calls 
     <b>NdisMDeregisterScatterGatherDma</b> from its 
-    <a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a> function to release the
+    <a href="https://msdn.microsoft.com/b8d452b4-bef3-4991-87cf-fac15bedfde4">MiniportHaltEx</a> function to release the
     DMA resources it allocated and initialized in a previous call to 
     <b>NdisMRegisterScatterGatherDma</b>.
 
@@ -102,11 +92,6 @@ An NDIS miniport driver calls
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/70b8321b-7b21-4d11-a9c2-46b0caa26ce6">NDIS Scatter/Gather DMA</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
 
 
 
@@ -118,15 +103,20 @@ An NDIS miniport driver calls
 
 
 
-<a href="https://msdn.microsoft.com/b24e0a56-1864-4f70-a646-c35e8eccd9e3">Registering and Deregistering DMA Channels</a>
+<a href="https://msdn.microsoft.com/b8d452b4-bef3-4991-87cf-fac15bedfde4">MiniportHaltEx</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndismregisterscattergatherdma.md">
+<a href="https://msdn.microsoft.com/70b8321b-7b21-4d11-a9c2-46b0caa26ce6">NDIS Scatter/Gather DMA</a>
+
+
+
+<a href="https://msdn.microsoft.com/90ce64a2-9140-4b5f-88aa-b4f01a3d0c6f">
    NdisMRegisterScatterGatherDma</a>
 
 
 
+<a href="https://msdn.microsoft.com/b24e0a56-1864-4f70-a646-c35e8eccd9e3">Registering and Deregistering DMA Channels</a>
  
 
  

@@ -54,19 +54,6 @@ req.product: Windows 10 or later.
 A minidriver can use the <b>StreamClassDebugAssert</b> routine in a checked build environment to fail an assert, causing the stream class driver to output a debug message and break into the kernel debugger.
 
 
-## -syntax
-
-
-````
-VOID StreamClassDebugAssert(
-  _In_ PCHAR File,
-  _In_ ULONG Line,
-  _In_ PCHAR AssertText,
-  _In_ ULONG AssertValue
-);
-````
-
-
 ## -parameters
 
 
@@ -112,14 +99,14 @@ When running a checked version of the class driver, asserts are recognized, and 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-dbgbreakpoint.md">DbgBreakPoint</a>
 
 
 
-<a href="..\strmini\nf-strmini-streamclassdebugprint.md">StreamClassDebugPrint</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543626">DbgBreakPoint</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568235">StreamClassDebugPrint</a>
  
 
  

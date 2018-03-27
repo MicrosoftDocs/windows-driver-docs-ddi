@@ -49,25 +49,7 @@ req.typenames: DXVA_DeinterlaceBltEx32
 ## -description
 
 
-The DXVA_DeinterlaceBltEx structure describes parameters for deinterlace or frame-rate conversion, for combining the deinterlaced or frame-rate converted video with any supplied video substreams, and for writing the combined output to a destination surface. It is used for forwarding  32-bit <a href="..\dxva\ns-dxva-_dxva_deinterlacebltex.md">DXVA_DeinterlaceBltEx</a> calls on 64-bit drivers. 
-
-
-## -syntax
-
-
-````
-typedef struct _DXVA_DeinterlaceBltEx32 {
-  DWORD              Size;
-  DXVA_AYUVsample2   BackgroundColor;
-  RECT               rcTarget;
-  REFERENCE_TIME     rtTarget;
-  DWORD              NumSourceSurfaces;
-  FLOAT              Alpha;
-  DXVA_VideoSample32 Source[MAX_DEINTERLACE_SURFACES];
-  DWORD              DestinationFormat;
-  DWORD              DestinationFlags;
-} DXVA_DeinterlaceBltEx32;
-````
+The DXVA_DeinterlaceBltEx structure describes parameters for deinterlace or frame-rate conversion, for combining the deinterlaced or frame-rate converted video with any supplied video substreams, and for writing the combined output to a destination surface. It is used for forwarding  32-bit <a href="https://msdn.microsoft.com/library/windows/hardware/ff563915">DXVA_DeinterlaceBltEx</a> calls on 64-bit drivers. 
 
 
 ## -struct-fields
@@ -82,7 +64,7 @@ Specifies the size of the structure, in bytes.
 
 ### -field BackgroundColor
 
-Specifies a <a href="..\dxva\ns-dxva-_dxva_ayuvsample2.md">DXVA_AYUVsample2</a> structure that identifies background color and opacity level. For Windows Server 2003 with SP1 and Windows XP with SP2, the opacity level is not used and should be ignored by the driver.
+Specifies a <a href="https://msdn.microsoft.com/library/windows/hardware/ff563116">DXVA_AYUVsample2</a> structure that identifies background color and opacity level. For Windows Server 2003 with SP1 and Windows XP with SP2, the opacity level is not used and should be ignored by the driver.
 
 
 ### -field rcTarget
@@ -92,7 +74,7 @@ Specifies a pointer to a <a href="https://msdn.microsoft.com/library/windows/har
 
 ### -field rtTarget
 
-Identifies the location of the output frame within the sequence of input frames. If only deinterlacing is performed, the target time should coincide with either the starting display time of a sample, as defined in the <a href="..\dxva\ns-dxva-_dxva_videosample32.md">DXVA_VideoSample32</a> structure, or the midpoint between the starting display time and the ending display time. For more information, see Remarks.
+Identifies the location of the output frame within the sequence of input frames. If only deinterlacing is performed, the target time should coincide with either the starting display time of a sample, as defined in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff564102">DXVA_VideoSample32</a> structure, or the midpoint between the starting display time and the ending display time. For more information, see Remarks.
 
 If a frame-rate conversion is requested, the <b>rtTarget</b> time can be different from any of the <b>rtStart</b> times of the samples.
 
@@ -119,27 +101,27 @@ Specifies format information for the destination surface. For Windows Server 200
 
 ### -field DestinationFlags
 
-Specifies a collection of flags that indicate changes in the current destination surface from the previous destination surface. This member is a bitwise-OR of one or more of the flags in the <a href="..\dxva\ne-dxva-_dxva_destinationflags.md">DXVA_DestinationFlags</a> enumeration type.
+Specifies a collection of flags that indicate changes in the current destination surface from the previous destination surface. This member is a bitwise-OR of one or more of the flags in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563963">DXVA_DestinationFlags</a> enumeration type.
 
 
 ## -see-also
 
-<a href="..\dxva\ns-dxva-_dxva_videosample32.md">DXVA_VideoSample32</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563939">DXVA_DeinterlaceCaps</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563963">DXVA_DestinationFlags</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564102">DXVA_VideoSample32</a>
 
 
 
 <a href="https://msdn.microsoft.com/12a0e467-54f8-4cca-8ec0-aa8d04480ab6">DeinterlaceBltEx</a>
-
-
-
-<a href="..\dxva\ne-dxva-_dxva_destinationflags.md">DXVA_DestinationFlags</a>
-
-
-
-<a href="..\dxva\ns-dxva-_dxva_deinterlacecaps.md">DXVA_DeinterlaceCaps</a>
-
-
-
  
 
  

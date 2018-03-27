@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -54,22 +54,6 @@ req.product: Windows 10 or later.
 
 The <b>VmbPacketSendWithExternalPfns</b> function sends the data in a packet buffer or external data as an array of Page Frame Numbers (PFNs). The function associates that data with the VMBus packet object, which represents the packet
 throughout the lifetime of the transaction. 
-
-
-## -syntax
-
-
-````
-NTSTATUS VmbPacketSendWithExternalPfns(
-  _In_ __drv_aliasesMem VMBPACKET       PacketObject,
-  _In_ reads_bytes_(BufferLength) PVOID Buffer,
-  _In_ UINT32                           BufferLength,
-  _In_ PPFN_NUMBER                      ExternalDataPfns,
-  _In_ UINT32                           PfnOffset,
-  _In_ UINT32                           PfnLength,
-  _In_ UINT32                           Flags
-);
-````
 
 
 ## -parameters
@@ -163,17 +147,17 @@ the data starts.
 
 
 
-This function differs from the <a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbpacketsend.md">VmbPacketSend</a> function in that it allows passing an array of PFNs,  effectively physical addresses. 
+This function differs from the <a href="https://msdn.microsoft.com/EBB981CB-0107-497A-B6E6-9271E22A8D5F">VmbPacketSend</a> function in that it allows passing an array of PFNs,  effectively physical addresses. 
 
 
 
 
 ## -see-also
 
-<a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbpacketsend.md">VmbPacketSend</a>
 
 
 
+<a href="https://msdn.microsoft.com/EBB981CB-0107-497A-B6E6-9271E22A8D5F">VmbPacketSend</a>
  
 
  

@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: printerextension.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,17 +51,6 @@ req.product: Windows 10 or later.
 
 
 Completes the extension event with a cancellation.
-
-
-## -syntax
-
-
-````
-HRESULT Cancel(
-  [in] HRESULT hr,
-  [in] BSTR    bstrLogMessage
-);
-````
 
 
 ## -parameters
@@ -95,10 +84,10 @@ This method returns an <b>HRESULT</b> value.
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprinterextensionrequest.md">IPrinterExtensionRequest</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439517">IPrinterExtensionRequest</a>
  
 
  

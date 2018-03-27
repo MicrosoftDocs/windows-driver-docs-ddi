@@ -49,17 +49,7 @@ req.typenames: DVD_MANUFACTURER_DESCRIPTOR, *PDVD_MANUFACTURER_DESCRIPTOR
 ## -description
 
 
-The DVD_MANUFACTURER_DESCRIPTOR structure is used in conjunction with the <a href="..\ntddcdvd\ni-ntddcdvd-ioctl_dvd_read_structure.md">IOCTL_DVD_READ_STRUCTURE</a> request to retrieve a DVD manufacturer descriptor. 
-
-
-## -syntax
-
-
-````
-typedef struct _DVD_MANUFACTURER_DESCRIPTOR {
-  UCHAR ManufacturingInformation[2048];
-} DVD_MANUFACTURER_DESCRIPTOR, *PDVD_MANUFACTURER_DESCRIPTOR;
-````
+The DVD_MANUFACTURER_DESCRIPTOR structure is used in conjunction with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560426">IOCTL_DVD_READ_STRUCTURE</a> request to retrieve a DVD manufacturer descriptor. 
 
 
 ## -struct-fields
@@ -74,10 +64,10 @@ Contains an array holding the manufacturing information taken from the DVD media
 
 ## -see-also
 
-<a href="..\ntddcdvd\ni-ntddcdvd-ioctl_dvd_read_structure.md">IOCTL_DVD_READ_STRUCTURE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560426">IOCTL_DVD_READ_STRUCTURE</a>
  
 
  

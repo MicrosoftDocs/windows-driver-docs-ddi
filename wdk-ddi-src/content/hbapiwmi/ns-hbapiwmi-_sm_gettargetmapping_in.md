@@ -52,18 +52,6 @@ req.typenames: SM_GetTargetMapping_IN, *PSM_GetTargetMapping_IN
 The SM_GetTargetMapping_IN structure is used to provide input parameters to the SM_GetTargetMapping method.
 
 
-## -syntax
-
-
-````
-typedef struct _SM_GetTargetMapping_IN {
-  UCHAR HbaPortWWN[8];
-  UCHAR DomainPortWWN[8];
-  ULONG InEntryCount;
-} SM_GetTargetMapping_IN, *PSM_GetTargetMapping_IN;
-````
-
-
 ## -struct-fields
 
 

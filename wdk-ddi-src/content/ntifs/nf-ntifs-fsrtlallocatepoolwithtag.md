@@ -52,18 +52,6 @@ req.typenames: TOKEN_TYPE
 The <b>FsRtlAllocatePoolWithTag</b> routine allocates pool memory. 
 
 
-## -syntax
-
-
-````
-PVOID FsRtlAllocatePoolWithTag(
-  _In_ POOL_TYPE PoolType,
-  _In_ ULONG     NumberOfBytes,
-  _In_ ULONG     Tag
-);
-````
-
-
 ## -parameters
 
 
@@ -112,14 +100,14 @@ Callers of <b>FsRtlAllocatePoolWithTag</b> must be running at IRQL &lt;= DISPATC
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
 
 
 
-<a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544520">ExAllocatePoolWithTag</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544590">ExFreePool</a>
  
 
  

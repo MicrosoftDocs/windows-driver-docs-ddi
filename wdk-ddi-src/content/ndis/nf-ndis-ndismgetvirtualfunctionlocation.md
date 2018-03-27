@@ -53,20 +53,6 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 A miniport driver calls the <b>NdisMGetVirtualFunctionLocation</b> function to query the device location of a PCI Express (PCIe) Virtual Function (VF) on a  PCI bus. The driver uses the device location to construct the PCIe Requestor ID (RID) for the VF.
 <div class="alert"><b>Note</b>  <b>NdisMGetVirtualFunctionLocation</b> must only be called by the miniport driver for the network adapter's PCIe Physical Function (PF).</div><div> </div>
 
-## -syntax
-
-
-````
-VOID NdisMGetVirtualFunctionLocation(
-  _In_  NDIS_HANDLE            NdisMiniportHandle,
-  _In_  NDIS_SRIOV_FUNCTION_ID VFId,
-  _Out_ PUSHORT                SegmentNumber,
-  _Out_ PUCHAR                 BusNumber,
-  _Out_ PUCHAR                 FunctionNumber
-);
-````
-
-
 ## -parameters
 
 
@@ -76,7 +62,7 @@ VOID NdisMGetVirtualFunctionLocation(
 
 The network adapter handle that NDIS passed to the 
      <i>MiniportAdapterHandle</i> parameter of 
-     <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>.
+     <a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a>.
 
 
 ### -param VFId [in]
@@ -139,19 +125,6 @@ The VBD that runs in the Hyper-V parent partition's management operating system 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451814">OID_NIC_SWITCH_ALLOCATE_VF</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451557">NDIS_MAKE_RID</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451128">GetLocation</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451143">GUID_PCI_VIRTUALIZATION_INTERFACE</a>
 
 
 
@@ -159,6 +132,19 @@ The VBD that runs in the Hyper-V parent partition's management operating system 
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451143">GUID_PCI_VIRTUALIZATION_INTERFACE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451128">GetLocation</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451557">NDIS_MAKE_RID</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451814">OID_NIC_SWITCH_ALLOCATE_VF</a>
  
 
  

@@ -49,18 +49,7 @@ req.typenames: TAPE_PREPARE, *PTAPE_PREPARE
 ## -description
 
 
-The TAPE_PREPARE structure is used in conjunction with the <a href="..\ntddtape\ni-ntddtape-ioctl_tape_prepare.md">IOCTL_TAPE_PREPARE</a> request to load or unload tape, reset the tape's tension, lock or unlock the ejection mechanism, or format the tape.
-
-
-## -syntax
-
-
-````
-typedef struct _TAPE_PREPARE {
-  ULONG   Operation;
-  BOOLEAN Immediate;
-} TAPE_PREPARE, *PTAPE_PREPARE;
-````
+The TAPE_PREPARE structure is used in conjunction with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560630">IOCTL_TAPE_PREPARE</a> request to load or unload tape, reset the tape's tension, lock or unlock the ejection mechanism, or format the tape.
 
 
 ## -struct-fields
@@ -148,14 +137,14 @@ When set to <b>TRUE</b>, indicates that the target device should return status i
 
 ## -see-also
 
-<a href="..\ntddtape\ni-ntddtape-ioctl_tape_prepare.md">IOCTL_TAPE_PREPARE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560630">IOCTL_TAPE_PREPARE</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567950">TapeMiniPrepare</a>
-
-
-
  
 
  

@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 The WDI_CAN_SUSTAIN_AP_REASON enumeration defines the reasons the port is ready to receive a <a href="https://msdn.microsoft.com/library/windows/hardware/dn925964">OID_WDI_TASK_START_AP</a> request.
 
 
-## -syntax
-
-
-````
-typedef enum _WDI_CAN_SUSTAIN_AP_REASON { 
-  WDI_CAN_SUSTAIN_AP_REASON_IHV_START  = 0xFF000000,
-  WDI_CAN_SUSTAIN_AP_REASON_IHV_END    = 0xFFFFFFFF
-} WDI_CAN_SUSTAIN_AP_REASON;
-````
-
-
 ## -enum-fields
 
 

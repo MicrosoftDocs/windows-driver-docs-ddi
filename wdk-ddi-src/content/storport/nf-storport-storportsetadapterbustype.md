@@ -54,17 +54,6 @@ req.product: Windows 10 or later.
 Used to adjust the BusType of the adapter depending on its current configuration. Setting the BusType with this routine will allow you to override the global property set in the miniport INF without having to re-install the driver. This is useful for scenarios such as RAID support or support for multiple adapters with a different bus type.
 
 
-## -syntax
-
-
-````
-ULONG StorPortSetAdapterBusType(
-  _In_ PVOID HwDeviceExtension,
-  _In_ ULONG BusType
-);
-````
-
-
 ## -parameters
 
 
@@ -72,7 +61,7 @@ ULONG StorPortSetAdapterBusType(
 
 ### -param HwDeviceExtension [in]
 
-A pointer to the hardware device extension. This is a per HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the mapped access ranges for the HBA. This area is available to the miniport immediately after the miniport driver calls <a href="..\storport\nf-storport-storportinitialize.md">StorPortInitialize</a>. The port driver frees this memory when it removes the device.
+A pointer to the hardware device extension. This is a per HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the mapped access ranges for the HBA. This area is available to the miniport immediately after the miniport driver calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff567108">StorPortInitialize</a>. The port driver frees this memory when it removes the device.
 
 
 ### -param BusType [in]
@@ -98,7 +87,7 @@ The <b>StorPortSetAdapterBusType</b> routine returns one of the following status
 </dl>
 </td>
 <td width="60%">
-This routine will return this value if it was called outside the <a href="..\storport\nc-storport-hw_find_adapter.md">HwStorFindAdapter</a> function.
+This routine will return this value if it was called outside the <a href="https://msdn.microsoft.com/library/windows/hardware/ff557390">HwStorFindAdapter</a> function.
 
 </td>
 </tr>

@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -50,19 +50,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
     Launches and attaches to a Process Lifecycle Management (PLM) application. 
-
-
-## -syntax
-
-
-````
-HRESULT LaunchAndDebugPlmAppWide(
-  [in] ULONG64 Server,
-  [in] PCWSTR  PackageFullName,
-  [in] PCWSTR  AppName,
-  [in] PCWSTR  Arguments
-);
-````
 
 
 ## -parameters
@@ -103,10 +90,10 @@ If a debugger session is not already started, this method starts one.
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugplmclient3.md">IDebugPlmClient3</a>
 
 
 
+<a href="https://msdn.microsoft.com/5B0580FF-0829-406A-B511-C0CD91A08D5F">IDebugPlmClient3</a>
  
 
  

@@ -52,18 +52,6 @@ req.typenames: DXVA_EncryptProtocolHeader, *LPDXVA_EncryptProtocolHeader
 The DXVA_EncryptProtocolHeader structure is sent by the host decoder to the accelerator to indicate use of an encryption protocol.
 
 
-## -syntax
-
-
-````
-typedef struct _DXVA_EncryptProtocolHeader {
-  DXVA_EncryptProtocolFunc dwFunction;
-  DWORD                    ReservedBits[3];
-  GUID                     guidEncryptProtocol;
-} DXVA_EncryptProtocolHeader, *LPDXVA_EncryptProtocolHeader;
-````
-
-
 ## -struct-fields
 
 

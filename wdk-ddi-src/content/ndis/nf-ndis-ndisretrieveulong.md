@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: ndis.h
+req.lib: 
 req.dll: 
 req.irql: See Remarks section
 topic_type:
@@ -52,17 +52,6 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 The 
   <b>NdisRetrieveUlong</b> function retrieves a ULONG value from the source address, avoiding alignment
   faults.
-
-
-## -syntax
-
-
-````
-VOID NdisRetrieveUlong(
-  [in] PULONG DestinationAddress,
-  [in] PULONG SourceAddress
-);
-````
 
 
 ## -parameters
@@ -110,10 +99,10 @@ Callers of
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisstoreulong.md">NdisStoreUlong</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564573">NdisStoreUlong</a>
  
 
  

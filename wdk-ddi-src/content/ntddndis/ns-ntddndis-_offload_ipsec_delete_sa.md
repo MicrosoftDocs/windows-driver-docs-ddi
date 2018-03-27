@@ -53,16 +53,6 @@ The OFFLOAD_IPSEC_DELETE_SA structure contains information for each security ass
   miniport driver deletes from a NIC.
 
 
-## -syntax
-
-
-````
-typedef struct _OFFLOAD_IPSEC_DELETE_SA {
-  HANDLE OffloadHandle;
-} OFFLOAD_IPSEC_DELETE_SA, *POFFLOAD_IPSEC_DELETE_SA;
-````
-
-
 ## -struct-fields
 
 
@@ -86,10 +76,10 @@ The OFFLOAD_IPSEC_DELETE_SA structure is used with the
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/en-us/library/gg155485.aspx">OID_TCP_TASK_IPSEC_DELETE_SA</a>
-
-
-
  
 
  

@@ -52,42 +52,6 @@ req.typenames: FLT_TAG_DATA_BUFFER, *PFLT_TAG_DATA_BUFFER
 The FLT_TAG_DATA_BUFFER structure contains information about a reparse point tag. 
 
 
-## -syntax
-
-
-````
-typedef struct _FLT_TAG_DATA_BUFFER {
-  ULONG  FileTag;
-  USHORT TagDataLength;
-  USHORT UnparsedNameLength;
-  union {
-    struct {
-      USHORT SubstituteNameOffset;
-      USHORT SubstituteNameLength;
-      USHORT PrintNameOffset;
-      USHORT PrintNameLength;
-      ULONG  Flags;
-      WCHAR  PathBuffer[1];
-    } SymbolicLinkReparseBuffer;
-    struct {
-      USHORT SubstituteNameOffset;
-      USHORT SubstituteNameLength;
-      USHORT PrintNameOffset;
-      USHORT PrintNameLength;
-      WCHAR  PathBuffer[1];
-    } MountPointReparseBuffer;
-    struct {
-      UCHAR DataBuffer[1];
-    } GenericReparseBuffer;
-    struct {
-      GUID  TagGuid;
-      UCHAR DataBuffer[1];
-    } GenericGUIDReparseBuffer;
-  };
-} FLT_TAG_DATA_BUFFER, *PFLT_TAG_DATA_BUFFER;
-````
-
-
 ## -struct-fields
 
 
@@ -105,7 +69,7 @@ Size, in bytes, of the reparse data pointed to by the <b>DataBuffer</b> member.
 
 ### -field UnparsedNameLength
 
-Length, in bytes, of the unparsed portion of the file name pointed to by the <b>FileName</b> member of the associated file object.  For more information about the <b>FileName</b> member, see <a href="..\wdm\ns-wdm-_file_object.md">FILE_OBJECT</a>.
+Length, in bytes, of the unparsed portion of the file name pointed to by the <b>FileName</b> member of the associated file object.  For more information about the <b>FileName</b> member, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff545834">FILE_OBJECT</a>.
 
 
 ### -field SymbolicLinkReparseBuffer
@@ -311,7 +275,7 @@ Pointer to a buffer that contains user-defined data for the reparse point.
 
 A minifilter can use the FLT_TAG_DATA_BUFFER structure to store information about a reparse point tag. 
 
-A pointer to an FLT_TAG_DATA_BUFFER structure that contains reparse point tag data for an operation is stored in the <b>TagData</b> member of the <a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a> structure for the operation. 
+A pointer to an FLT_TAG_DATA_BUFFER structure that contains reparse point tag data for an operation is stored in the <b>TagData</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff544620">FLT_CALLBACK_DATA</a> structure for the operation. 
 
 The FLT_TAG_DATA_BUFFER_HEADER_SIZE macro returns the size of the fixed portion of the FLT_TAG_DATA_BUFFER structure. 
 
@@ -320,22 +284,22 @@ The FLT_TAG_DATA_BUFFER_HEADER_SIZE macro returns the size of the fixed portion 
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-flttagfile.md">FltTagFile</a>
 
 
 
-<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545834">FILE_OBJECT</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltuntagfile.md">FltUntagFile</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544620">FLT_CALLBACK_DATA</a>
 
 
 
-<a href="..\wdm\ns-wdm-_file_object.md">FILE_OBJECT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544589">FltTagFile</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544608">FltUntagFile</a>
  
 
  

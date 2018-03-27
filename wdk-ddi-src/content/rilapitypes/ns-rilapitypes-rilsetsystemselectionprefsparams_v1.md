@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef struct _RILSETSYSTEMSELECTIONPREFSPARAMS_V1 {
-  DWORD                       dwFlags;
-  RILSYSTEMSELECTIONPREFS_V1  rilSystemSelectionPrefs;
-} RILSETSYSTEMSELECTIONPREFSPARAMS_V1, RILSETSYSTEMSELECTIONPREFSPARAMS_V1;
-````
-
-
 ## -struct-fields
 
 

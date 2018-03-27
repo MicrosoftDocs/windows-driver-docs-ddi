@@ -52,34 +52,17 @@ req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 Discards (evicts) an allocation from video display memory. Implemented by Windows Display Driver Model (WDDM) 1.2 and later user-mode display drivers.
 
 
-## -prototype
-
-
-````
-PFND3D11_1DDI_DISCARD Discard(D3D11_1);
-
-VOID APIENTRY* Discard(D3D11_1)(
-                 D3D10DDI_HDEVICE    hDevice,
-                 D3D11DDI_HANDLETYPE HandleType,
-                 VOID                *hResourceOrView,
-  _In_opt_ const D3D10_DDI_RECT      *pRects,
-                 UINT                NumRects
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
 
 
-### -param D3D10DDI_HDEVICE
+### -param Arg1
 
 
 ### -param HandleType
 
-A value, of type <a href="..\d3d10umddi\ne-d3d10umddi-d3d11ddi_handletype.md">D3D11DDI_HANDLETYPE</a>, that identifies the context handle type.
+A value, of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff542152">D3D11DDI_HANDLETYPE</a>, that identifies the context handle type.
 
 
 ### -param *hResourceOrView
@@ -135,14 +118,14 @@ The D3D10_DDI_RECT structure is defined as a <a href="https://msdn.microsoft.com
 
 ## -see-also
 
-<a href="..\d3d10umddi\ne-d3d10umddi-d3d11ddi_handletype.md">D3D11DDI_HANDLETYPE</a>
 
 
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_devicefuncs.md">D3D11_1DDI_DEVICEFUNCS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542152">D3D11DDI_HANDLETYPE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406443">D3D11_1DDI_DEVICEFUNCS</a>
  
 
  

@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
@@ -51,16 +51,6 @@ req.product: Windows 10 or later.
 
 
 Initializes device initialization operations when the Plug and Play (PnP) manager reports the existence of a device.
-
-
-## -syntax
-
-
-````
-NTSTATUS UcxInitializeDeviceInit(
-  [in, out] PWDFDEVICE_INIT DeviceInit
-);
-````
 
 
 ## -parameters
@@ -88,17 +78,17 @@ A pointer to a framework-allocated <a href="https://msdn.microsoft.com/library/w
 
 
 
-The client driver for the host controller calls this method in its <a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a> implementation before it calls <a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a>.
+The client driver for the host controller calls this method in its <a href="https://msdn.microsoft.com/b20db029-ee2c-4fb1-bd69-ccd2e37fdc9a">EvtDriverDeviceAdd</a> implementation before it calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff545926">WdfDeviceCreate</a>.
 
 
 
 
 ## -see-also
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545926">WdfDeviceCreate</a>
  
 
  

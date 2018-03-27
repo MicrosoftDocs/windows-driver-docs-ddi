@@ -52,18 +52,6 @@ req.typenames: RILPHONEBOOKANSOPERATION
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef enum _RILPHONEBOOKANSOPERATION { 
-  RIL_PHONEBOOK_ANSMODIFIED,
-  RIL_PHONEBOOK_ANSDELETED,
-  RIL_PHONEBOOK_MAX
-} RILPHONEBOOKANSOPERATION;
-````
-
-
 ## -enum-fields
 
 

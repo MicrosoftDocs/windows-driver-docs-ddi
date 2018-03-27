@@ -54,55 +54,6 @@ The FWPS_FIELDS_ALE_AUTH_RECV_ACCEPT_V4 enumeration type specifies the data fiel
   <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa366492">run-time filtering layers</a>.
 
 
-## -syntax
-
-
-````
-typedef enum FWPS_FIELDS_ALE_AUTH_RECV_ACCEPT_V4_ { 
-  FWPS_FIELD_ALE_AUTH_RECV_ACCEPT_V4_ALE_APP_ID,
-  FWPS_FIELD_ALE_AUTH_RECV_ACCEPT_V4_ALE_USER_ID,
-  FWPS_FIELD_ALE_AUTH_RECV_ACCEPT_V4_IP_LOCAL_ADDRESS,
-  FWPS_FIELD_ALE_AUTH_RECV_ACCEPT_V4_IP_LOCAL_ADDRESS_TYPE,
-  FWPS_FIELD_ALE_AUTH_RECV_ACCEPT_V4_IP_LOCAL_PORT,
-  FWPS_FIELD_ALE_AUTH_RECV_ACCEPT_V4_IP_PROTOCOL,
-  FWPS_FIELD_ALE_AUTH_RECV_ACCEPT_V4_IP_REMOTE_ADDRESS,
-  FWPS_FIELD_ALE_AUTH_RECV_ACCEPT_V4_IP_REMOTE_PORT,
-  FWPS_FIELD_ALE_AUTH_RECV_ACCEPT_V4_ALE_REMOTE_USER_ID,
-  FWPS_FIELD_ALE_AUTH_RECV_ACCEPT_V4_ALE_REMOTE_MACHINE_ID,
-  FWPS_FIELD_ALE_AUTH_RECV_ACCEPT_V4_IP_LOCAL_INTERFACE,
-  FWPS_FIELD_ALE_AUTH_RECV_ACCEPT_V4_FLAGS,
-  FWPS_FIELD_ALE_AUTH_RECV_ACCEPT_V4_SIO_FIREWALL_SYSTEM_PORT,
-  FWPS_FIELD_ALE_AUTH_RECV_ACCEPT_V4_NAP_CONTEXT,
-  FWPS_FIELD_ALE_AUTH_RECV_ACCEPT_V4_INTERFACE_TYPE,
-  FWPS_FIELD_ALE_AUTH_RECV_ACCEPT_V4_TUNNEL_TYPE,
-  FWPS_FIELD_ALE_AUTH_RECV_ACCEPT_V4_INTERFACE_INDEX,
-  FWPS_FIELD_ALE_AUTH_RECV_ACCEPT_V4_SUB_INTERFACE_INDEX,
-#if (NTDDI_VERSION >= NTDDI_WIN6SP1)
-  FWPS_FIELD_ALE_AUTH_RECV_ACCEPT_V4_IP_ARRIVAL_INTERFACE,
-  FWPS_FIELD_ALE_AUTH_RECV_ACCEPT_V4_ARRIVAL_INTERFACE_TYPE,
-  FWPS_FIELD_ALE_AUTH_RECV_ACCEPT_V4_ARRIVAL_TUNNEL_TYPE,
-  FWPS_FIELD_ALE_AUTH_RECV_ACCEPT_V4_ARRIVAL_INTERFACE_INDEX,
-#if (NTDDI_VERSION >= NTDDI_WIN7)
-  FWPS_FIELD_ALE_AUTH_RECV_ACCEPT_V4_NEXTHOP_SUB_INTERFACE_INDEX,
-  FWPS_FIELD_ALE_AUTH_RECV_ACCEPT_V4_IP_NEXTHOP_INTERFACE,
-  FWPS_FIELD_ALE_AUTH_RECV_ACCEPT_V4_NEXTHOP_INTERFACE_TYPE,
-  FWPS_FIELD_ALE_AUTH_RECV_ACCEPT_V4_NEXTHOP_TUNNEL_TYPE,
-  FWPS_FIELD_ALE_AUTH_RECV_ACCEPT_V4_NEXTHOP_INTERFACE_INDEX,
-  FWPS_FIELD_ALE_AUTH_RECV_ACCEPT_V4_ORIGINAL_PROFILE_ID,
-  FWPS_FIELD_ALE_AUTH_RECV_ACCEPT_V4_CURRENT_PROFILE_ID,
-  FWPS_FIELD_ALE_AUTH_RECV_ACCEPT_V4_REAUTHORIZE_REASON,
-  FWPS_FIELD_ALE_AUTH_RECV_ACCEPT_V4_ORIGINAL_ICMP_TYPE,
-  FWPS_FIELD_ALE_AUTH_RECV_ACCEPT_V4_INTERFACE_QUARANTINE_EPOCH,
-#if (NTDDI_VERSION >= NTDDI_WIN8)
-  FWPS_FIELD_ALE_AUTH_RECV_ACCEPT_V4_ALE_PACKAGE_ID,
-#endif 
-#endif 
-#endif 
-  FWPS_FIELD_ALE_AUTH_RECV_ACCEPT_V4_MAX
-} FWPS_FIELDS_ALE_AUTH_RECV_ACCEPT_V4;
-````
-
-
 ## -enum-fields
 
 
@@ -161,7 +112,7 @@ The identifier of the remote machine.
 
 ### -field FWPS_FIELD_ALE_AUTH_RECV_ACCEPT_V4_IP_LOCAL_INTERFACE
 
-The locally unique identifier (<a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a>) for the network interface associated with the
+The locally unique identifier (<a href="https://msdn.microsoft.com/library/windows/hardware/ff557080">LUID</a>) for the network interface associated with the
      local IP address.
 
 
@@ -383,7 +334,7 @@ The maximum value for this enumeration. This value might change in future versio
 
 In Windows Server 2008, Windows Vista SP1, and later versions of Windows, when an outbound packet is
     indicated to this layer during a reauthorization call to the callout filter's 
-    <a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a> function, all arrival network
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a> function, all arrival network
     interface related fields are set to FWP_EMPTY.
 
 The following macros in 
@@ -435,14 +386,14 @@ These macros are used to access the following IPV4 data fields:
 
 ## -see-also
 
-<a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557080">LUID</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568757">NL_ADDRESS_TYPE</a>
-
-
-
  
 
  

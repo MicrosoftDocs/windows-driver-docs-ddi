@@ -52,36 +52,18 @@ req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 Sets the private state data for a video processor stream from an application.
 
 
-## -prototype
-
-
-````
-PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMEXTENSION pfnVideoProcessorSetStreamExtension;
-
-HRESULT APIENTRY* pfnVideoProcessorSetStreamExtension(
-  _In_       D3D10DDI_HDEVICE           hDevice,
-  _In_       D3D11_1DDI_HVIDEOPROCESSOR hVideoProcessor,
-  _In_       UINT                       StreamIndex,
-  _In_ const GUID                       *pGuid,
-  _In_       UINT                       DataSize,
-  _In_       void                       *pData
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
 
 
-### -param D3D10DDI_HDEVICE
+### -param Arg1
 
 
-### -param D3D11_1DDI_HVIDEOPROCESSOR
+### -param Arg2
 
 
-### -param UINT
+### -param Arg3
 
 
 ### -param *
@@ -91,6 +73,9 @@ HRESULT APIENTRY* pfnVideoProcessorSetStreamExtension(
 
 
 
+
+
+### -param Arg4
 
 
 #### - DataSize [in]
@@ -112,7 +97,7 @@ A handle to the display device (graphics context).
 
 #### - hVideoProcessor [in]
 
-A handle to the video processor object that was created through a call to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessor.md">CreateVideoProcessor</a> function. 
+A handle to the video processor object that was created through a call to the <a href="https://msdn.microsoft.com/741045a2-0a91-490a-907d-5f4900a4a0ae">CreateVideoProcessor</a> function. 
 
 
 
@@ -199,10 +184,10 @@ Parameters were validated and determined to be incorrect.
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessor.md">CreateVideoProcessor</a>
 
 
 
+<a href="https://msdn.microsoft.com/741045a2-0a91-490a-907d-5f4900a4a0ae">CreateVideoProcessor</a>
  
 
  

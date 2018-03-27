@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -49,17 +49,7 @@ req.typenames: TOKEN_TYPE
 ## -description
 
 
-The <b>RtlAllocateAndInitializeSid</b> routine is reserved for system use. See <a href="..\ntifs\nf-ntifs-rtlcopysid.md">RtlCopySid</a> and <a href="..\ntifs\nf-ntifs-rtlinitializesid.md">RtlInitializeSid</a>. 
-
-
-## -syntax
-
-
-````
-  RtlAllocateAndInitializeSid(
-    
-);
-````
+The <b>RtlAllocateAndInitializeSid</b> routine is reserved for system use. See <a href="https://msdn.microsoft.com/library/windows/hardware/ff552146">RtlCopySid</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff552998">RtlInitializeSid</a>. 
 
 
 ## -parameters

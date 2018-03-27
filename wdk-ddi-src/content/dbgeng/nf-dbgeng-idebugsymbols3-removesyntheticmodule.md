@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -50,16 +50,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>RemoveSyntheticModule</b> method removes a synthetic module from the module list the debugger maintains for the current process.
-
-
-## -syntax
-
-
-````
-HRESULT RemoveSyntheticModule(
-  [in] ULONG64 Base
-);
-````
 
 
 ## -parameters
@@ -124,7 +114,6 @@ For more information about synthetic modules, see Synthetic Modules.
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
 
 
@@ -132,10 +121,11 @@ For more information about synthetic modules, see Synthetic Modules.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550870">IDebugSymbols3</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554542">RemoveSyntheticSymbol</a>
-
-
-
  
 
  

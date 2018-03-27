@@ -52,18 +52,6 @@ req.typenames: D3DDDIARG_AUTHENTICATEDCHANNELKEYEXCHANGE
 The D3DDDIARG_AUTHENTICATEDCHANNELKEYEXCHANGE structure describes a buffer that contains the session key, which the authenticated channel uses. 
 
 
-## -syntax
-
-
-````
-typedef struct _D3DDDIARG_AUTHENTICATEDCHANNELKEYEXCHANGE {
-  HANDLE hChannel;
-  UINT   DataSize;
-  VOID   *pData;
-} D3DDDIARG_AUTHENTICATEDCHANNELKEYEXCHANGE;
-````
-
-
 ## -struct-fields
 
 
@@ -71,7 +59,7 @@ typedef struct _D3DDDIARG_AUTHENTICATEDCHANNELKEYEXCHANGE {
 
 ### -field hChannel
 
-[in] A handle to the authenticated channel that the runtime creates when the runtime calls the driver's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createauthenticatedchannel.md">CreateAuthenticatedChannel</a> function. 
+[in] A handle to the authenticated channel that the runtime creates when the runtime calls the driver's <a href="https://msdn.microsoft.com/0a565bff-fc6f-41c1-a6fd-3a82dd0d7889">CreateAuthenticatedChannel</a> function. 
 
 
 ### -field DataSize
@@ -86,14 +74,14 @@ typedef struct _D3DDDIARG_AUTHENTICATEDCHANNELKEYEXCHANGE {
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_authenticatedchannelkeyexchange.md">AuthenticatedChannelKeyExchange</a>
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createauthenticatedchannel.md">CreateAuthenticatedChannel</a>
+<a href="https://msdn.microsoft.com/627f9689-1059-4f88-9005-9c7600dad686">AuthenticatedChannelKeyExchange</a>
 
 
 
+<a href="https://msdn.microsoft.com/0a565bff-fc6f-41c1-a6fd-3a82dd0d7889">CreateAuthenticatedChannel</a>
  
 
  

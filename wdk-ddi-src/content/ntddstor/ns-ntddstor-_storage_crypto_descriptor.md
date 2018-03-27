@@ -52,20 +52,6 @@ req.typenames: STORAGE_CRYPTO_DESCRIPTOR, *PSTORAGE_CRYPTO_DESCRIPTOR
 Reserved for system use.
 
 
-## -syntax
-
-
-````
-typedef struct _STORAGE_CRYPTO_DESCRIPTOR {
-  DWORD                                                          Version;
-  DWORD                                                          Size;
-  DWORD                                                          NumKeysSupported;
-  DWORD                                                          NumCryptoCapabilities;
-   _Field_size_(NumCryptoCapabilities) STORAGE_CRYPTO_CAPABILITY CryptoCapabilities[ANYSIZE_ARRAY];
-} STORAGE_CRYPTO_DESCRIPTOR, *PSTORAGE_CRYPTO_DESCRIPTOR;
-````
-
-
 ## -struct-fields
 
 

@@ -54,20 +54,6 @@ The
   <b>WskCloseSocket</b> function closes a socket and frees any associated resources.
 
 
-## -prototype
-
-
-````
-PFN_WSK_CLOSE_SOCKET WskCloseSocket;
-
-NTSTATUS WSKAPI * WskCloseSocket(
-  _In_    PWSK_SOCKET Socket,
-  _Inout_ PIRP        Irp
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -76,7 +62,7 @@ NTSTATUS WSKAPI * WskCloseSocket(
 ### -param Socket [in]
 
 A pointer to a 
-     <a href="..\wsk\ns-wsk-_wsk_socket.md">WSK_SOCKET</a> structure that specifies the socket
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571182">WSK_SOCKET</a> structure that specifies the socket
      object for the socket that is being closed.
 
 
@@ -165,66 +151,66 @@ After a WSK application has called
 
 If a WSK application applies a security descriptor to a socket, the cached copy of the security
     descriptor that is specified in the call to 
-    <a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>, 
-    <a href="..\wsk\nc-wsk-pfn_wsk_socket_connect.md">WskSocketConnect</a>, or 
-    <a href="..\wsk\nc-wsk-pfn_wsk_control_socket.md">WskControlSocket</a> is not released when the
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff571149">WskSocket</a>, 
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff571150">WskSocketConnect</a>, or 
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff571127">WskControlSocket</a> is not released when the
     socket is closed. A WSK application must release the cached copy of the security descriptor by using the 
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571180">WSK_RELEASE_SD</a> client control operation when
     the security descriptor is no longer needed.
 
 The WSK subsystem deallocates the memory for the socket's socket object, 
-    <a href="..\wsk\ns-wsk-_wsk_socket.md">WSK_SOCKET</a>, which was allocated by the WSK
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff571182">WSK_SOCKET</a>, which was allocated by the WSK
     subsystem when the socket was created.
 
 For connection-oriented sockets, the 
     <b>WskCloseSocket</b> function always performs an abortive disconnect of the socket unless the socket is
     already fully disconnected in both directions. To gracefully disconnect a connection-oriented socket from
     a remote transport address, a WSK application should call the 
-    <a href="..\wsk\nc-wsk-pfn_wsk_disconnect.md">WskDisconnect</a> function.
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff571129">WskDisconnect</a> function.
 
 
 
 
 ## -see-also
 
-<a href="..\wsk\ns-wsk-_wsk_socket.md">WSK_SOCKET</a>
 
 
 
-<a href="..\wsk\ns-wsk-_wsk_provider_datagram_dispatch.md">
-   WSK_PROVIDER_DATAGRAM_DISPATCH</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571171">WSK_PROVIDER_BASIC_DISPATCH</a>
 
 
 
-<a href="..\wsk\nc-wsk-pfn_wsk_control_socket.md">WskControlSocket</a>
-
-
-
-<a href="..\wsk\ns-wsk-_wsk_provider_connection_dispatch.md">
+<a href="https://msdn.microsoft.com/70a86809-07f2-4723-9e50-4dbdd31ff900">
    WSK_PROVIDER_CONNECTION_DISPATCH</a>
 
 
 
-<a href="..\wsk\ns-wsk-_wsk_provider_basic_dispatch.md">WSK_PROVIDER_BASIC_DISPATCH</a>
+<a href="https://msdn.microsoft.com/fa8d3395-b800-4e5c-af03-b21520f69158">
+   WSK_PROVIDER_DATAGRAM_DISPATCH</a>
 
 
 
-<a href="..\wsk\nc-wsk-pfn_wsk_socket_connect.md">WskSocketConnect</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571176">WSK_PROVIDER_LISTEN_DISPATCH</a>
 
 
 
-<a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571182">WSK_SOCKET</a>
 
 
 
-<a href="..\wsk\nc-wsk-pfn_wsk_disconnect.md">WskDisconnect</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571127">WskControlSocket</a>
 
 
 
-<a href="..\wsk\ns-wsk-_wsk_provider_listen_dispatch.md">WSK_PROVIDER_LISTEN_DISPATCH</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571129">WskDisconnect</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571149">WskSocket</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571150">WskSocketConnect</a>
  
 
  

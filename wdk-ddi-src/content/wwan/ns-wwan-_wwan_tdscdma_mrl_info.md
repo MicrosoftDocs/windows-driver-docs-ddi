@@ -53,25 +53,6 @@ req.product: Windows 10 or later.
 The <b>WWAN_TDSCDMA_MRL_INFO</b> structure represents information about a neighboring TDSCDMA cell.
 
 
-## -syntax
-
-
-````
-typedef struct _WWAN_TDSCDMA_MRL_INFO {
-  ULONG ProviderIdOffset;
-  ULONG ProviderIdSize;
-  ULONG LocationAreaCode;
-  ULONG CellId;
-  ULONG UARFCN;
-  ULONG CellParameterID;
-  ULONG TimingAdvance;
-  ULONG RSCP;
-  ULONG PathLoss;
-  BYTE  Data[ANYSIZE_ARRAY];
-} WWAN_TDSCDMA_MRL_INFO, *PWWAN_TDSCDMA_MRL_INFO;
-````
-
-
 ## -struct-fields
 
 
@@ -141,22 +122,22 @@ The data buffer containing <i>ProviderId</i>.
 
 ## -see-also
 
+
+
+
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/mb-base-stations-information-query-support">MB base stations information query support</a>
 
 
 
-<a href="..\wwan\ns-wwan-_wwan_tdscdma_mrl.md">WWAN_TDSCDMA_MRL</a>
+<a href="https://msdn.microsoft.com/66460B28-C2B4-4F05-A133-31A753AF9489">WWAN_BASE_STATIONS_INFO</a>
 
 
 
-<a href="..\wwan\ns-wwan-_wwan_tdscdma_serving_cell_info.md">WWAN_TDSCDMA_SERVING_CELL_INFO</a>
+<a href="https://msdn.microsoft.com/D919EF5E-502C-4983-AFC5-F3F6E6CC8C3B">WWAN_TDSCDMA_MRL</a>
 
 
 
-<a href="..\wwan\ns-wwan-_wwan_base_stations_info.md">WWAN_BASE_STATIONS_INFO</a>
-
-
-
+<a href="https://msdn.microsoft.com/5D0DD219-8D81-4F72-B327-119A45CC35B4">WWAN_TDSCDMA_SERVING_CELL_INFO</a>
  
 
  

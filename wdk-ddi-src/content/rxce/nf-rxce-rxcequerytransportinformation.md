@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
@@ -51,17 +51,6 @@ req.product: Windows 10 or later.
 
 
 <b>RxCeQueryTransportInformation</b> queries transport information for a given transport.
-
-
-## -syntax
-
-
-````
-NTSTATUS RxCeQueryTransportInformation(
-   PRXCE_TRANSPORT             pTransport,
-   PRXCE_TRANSPORT_INFORMATION pTransportInformation
-);
-````
 
 
 ## -parameters
@@ -132,14 +121,14 @@ QualityOfService
 
 ## -see-also
 
-<a href="..\rxce\nf-rxce-rxcequeryinformation.md">RxCeQueryInformation</a>
 
 
 
-<a href="..\rxce\nf-rxce-rxcequeryadapterstatus.md">RxCeQueryAdapterStatus</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553456">RxCeQueryAdapterStatus</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553461">RxCeQueryInformation</a>
  
 
  

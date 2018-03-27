@@ -52,22 +52,6 @@ req.typenames: D3DDDI_CREATEHWQUEUEFLAGS
 A structure used to create hardware queue flags.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DDDI_CREATEHWQUEUEFLAGS  {
-  union {
-    struct {
-      UINT DisableGpuTimeout  :1;
-      UINT Reserved  :31;
-    };
-    UINT Value;
-  };
-} D3DDDI_CREATEHWQUEUEFLAGS ;
-````
-
-
 ## -struct-fields
 
 

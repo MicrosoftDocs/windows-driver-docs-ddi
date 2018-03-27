@@ -50,17 +50,7 @@ req.typenames: NFC_CX_TRANSPORT_TYPE, *PNFC_CX_TRANSPORT_TYPE
 ## -description
 
 
-The NFC_CX_RF_DISCOVERY_CONFIG_INIT function initializes the <a href="..\nfccx\ns-nfccx-_nfc_cx_rf_discovery_config.md">NFC_CX_RF_DISCOVERY_CONFIG</a> structure.
-
-
-## -syntax
-
-
-````
-VOID NFC_CX_RF_DISCOVERY_CONFIG_INIT(
-  _Out_ PNFC_CX_RF_DISCOVERY_CONFIG Config
-);
-````
+The NFC_CX_RF_DISCOVERY_CONFIG_INIT function initializes the <a href="https://msdn.microsoft.com/library/windows/hardware/dn905561">NFC_CX_RF_DISCOVERY_CONFIG</a> structure.
 
 
 ## -parameters
@@ -84,7 +74,6 @@ This function does not return a value.
 
 ## -see-also
 
-<a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
 
 
 
@@ -92,6 +81,7 @@ This function does not return a value.
 
 
 
+<a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
  
 
  

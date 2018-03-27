@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -50,24 +50,6 @@ req.product: Windows 10 or later.
 ## -description
 
 
-
-
-## -syntax
-
-
-````
-PDEVOEM APIENTRY OEMEnablePDEV(
-          PDEVOBJ                            pdevobj,
-  _In_    PWSTR                              pPrinterName,
-          ULONG                              cPatterns,
-  _In_    _updates_(cPatterns) HSURF         *phsurfPatterns,
-          ULONG                              cjGdiInfo,
-  _Inout_ _updates_bytes_(cjGdiInfo) GDIINFO *pGdiInfo,
-          ULONG                              cjDevInfo,
-  _Inout_ _updates_bytes_(cjDevInfo) DEVINFO *pDevInfo,
-  _In_    DRVENABLEDATA                      *pded
-);
-````
 
 
 ## -parameters

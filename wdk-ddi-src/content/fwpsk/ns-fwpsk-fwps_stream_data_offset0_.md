@@ -51,23 +51,8 @@ req.typenames: FWPS_STREAM_DATA_OFFSET0
 
 The <b>FWPS_STREAM_DATA_OFFSET0</b> structure defines an offset into a portion of a data stream that is
   described by an 
-  <a href="..\fwpsk\ns-fwpsk-fwps_stream_data0_.md">FWPS_STREAM_DATA0</a> structure.
+  <a href="https://msdn.microsoft.com/library/windows/hardware/ff552419">FWPS_STREAM_DATA0</a> structure.
 <div class="alert"><b>Note</b>  <b>FWPS_STREAM_DATA_OFFSET0</b> is a specific version of <b>FWPS_STREAM_DATA_OFFSET</b>. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
-
-## -syntax
-
-
-````
-typedef struct FWPS_STREAM_DATA_OFFSET0_ {
-  NET_BUFFER_LIST *netBufferList;
-  NET_BUFFER      *netBuffer;
-  MDL             *mdl;
-  UINT32          mdlOffset;
-  UINT32          netBufferOffset;
-  SIZE_T          streamDataOffset;
-} FWPS_STREAM_DATA_OFFSET0;
-````
-
 
 ## -struct-fields
 
@@ -77,14 +62,14 @@ typedef struct FWPS_STREAM_DATA_OFFSET0_ {
 ### -field netBufferList
 
 A pointer to the 
-     <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure in which the
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structure in which the
      offset lies.
 
 
 ### -field netBuffer
 
 A pointer to the 
-     <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a> structure in which the offset
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a> structure in which the offset
      lies.
 
 
@@ -114,7 +99,7 @@ Reserved for system use. Callout drivers must not use this member.
 
 
 An FWPS_STREAM_DATA_OFFSET0 structure is contained within an 
-    <a href="..\fwpsk\ns-fwpsk-fwps_stream_data0_.md">FWPS_STREAM_DATA0</a> structure. The
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff552419">FWPS_STREAM_DATA0</a> structure. The
     FWPS_STREAM_DATA_OFFSET0 structure specifies an offset into the data stream.
 
 The combination of the 
@@ -128,18 +113,18 @@ The combination of the
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
 
 
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552419">FWPS_STREAM_DATA0</a>
 
 
 
-<a href="..\fwpsk\ns-fwpsk-fwps_stream_data0_.md">FWPS_STREAM_DATA0</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a>
  
 
  

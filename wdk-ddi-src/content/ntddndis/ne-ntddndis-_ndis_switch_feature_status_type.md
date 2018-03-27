@@ -57,18 +57,6 @@ An extensible switch feature is defined and supported by an independent software
 
 
 
-## -syntax
-
-
-````
-typedef enum _NDIS_SWITCH_FEATURE_STATUS_TYPE { 
-  NdisSwitchFeatureStatusTypeUndefined,
-  NdisSwitchFeatureStatusTypeCustom,
-  NdisSwitchFeatureStatusTypeMaximum
-} NDIS_SWITCH_FEATURE_STATUS_TYPE, *PNDIS_SWITCH_FEATURE_STATUS_TYPE;
-````
-
-
 ## -enum-fields
 
 
@@ -97,7 +85,7 @@ The maximum value for this enumeration. This value might change in future versio
 
 
 
-The <b>FeatureStatusType</b> member of the  <a href="..\ntddndis\ns-ntddndis-_ndis_switch_feature_status_parameters.md">NDIS_SWITCH_FEATURE_STATUS_PARAMETERS</a> structure is an <a href="..\ntddndis\ne-ntddndis-_ndis_switch_property_type.md">NDIS_SWITCH_PROPERTY_TYPE</a> enumeration data type.
+The <b>FeatureStatusType</b> member of the  <a href="https://msdn.microsoft.com/library/windows/hardware/hh598208">NDIS_SWITCH_FEATURE_STATUS_PARAMETERS</a> structure is an <a href="https://msdn.microsoft.com/library/windows/hardware/hh598257">NDIS_SWITCH_PROPERTY_TYPE</a> enumeration data type.
 
 For more information about extensible switch  policies, see <a href="https://msdn.microsoft.com/8AB85E48-EF37-4D42-873B-34D4835AF22E">Hyper-V Extensible Switch Policies</a>.
 
@@ -108,7 +96,6 @@ For more information about extensible switch  policies, see <a href="https://msd
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_switch_feature_status_parameters.md">NDIS_SWITCH_FEATURE_STATUS_PARAMETERS</a>
 
 
 
@@ -116,6 +103,7 @@ For more information about extensible switch  policies, see <a href="https://msd
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh598208">NDIS_SWITCH_FEATURE_STATUS_PARAMETERS</a>
  
 
  

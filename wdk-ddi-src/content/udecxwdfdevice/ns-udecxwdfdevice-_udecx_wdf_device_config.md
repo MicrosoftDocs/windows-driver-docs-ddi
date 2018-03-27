@@ -50,22 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-Contains pointers to event callback functions implemented by the UDE client driver for a USB host controller. Initialize this structure by calling <a href="..\udecxwdfdevice\nf-udecxwdfdevice-udecx_wdf_device_config_init.md">UDECX_WDF_DEVICE_CONFIG_INIT</a>.
-
-
-## -syntax
-
-
-````
-typedef struct _UDECX_WDF_DEVICE_CONFIG {
-  ULONG                                     Size;
-  USHORT                                    NumberOfUsb20Ports;
-  USHORT                                    NumberOfUsb30Ports;
-  PFN_UDECX_WDF_DEVICE_QUERY_USB_CAPABILITY EvtUdecxWdfDeviceQueryUsbCapability;
-  UDECX_WDF_DEVICE_RESET_ACTION             ResetAction;
-  PFN_UDECX_WDF_DEVICE_RESET                EvtUdecxWdfDeviceReset;
-} UDECX_WDF_DEVICE_CONFIG, *PUDECX_WDF_DEVICE_CONFIG;
-````
+Contains pointers to event callback functions implemented by the UDE client driver for a USB host controller. Initialize this structure by calling <a href="https://msdn.microsoft.com/library/windows/hardware/mt628010">UDECX_WDF_DEVICE_CONFIG_INIT</a>.
 
 
 ## -struct-fields
@@ -90,29 +75,29 @@ The number of USB 3.0 ports on the root hub of the emulated host controller.
 
 ### -field EvtUdecxWdfDeviceQueryUsbCapability
 
-A pointer to an <a href="..\udecxwdfdevice\nc-udecxwdfdevice-evt_udecx_wdf_device_query_usb_capability.md">EVT_UDECX_WDF_DEVICE_QUERY_USB_CAPABILITY</a> callback function.
+A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/mt595919">EVT_UDECX_WDF_DEVICE_QUERY_USB_CAPABILITY</a> callback function.
 
 
 ### -field ResetAction
 
-A <a href="..\udecxwdfdevice\ne-udecxwdfdevice-_udecx_wdf_device_reset_action.md">UDECX_WDF_DEVICE_RESET_ACTION</a>-type value that indicates the reset action: each attached device or the host controller.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/mt628011">UDECX_WDF_DEVICE_RESET_ACTION</a>-type value that indicates the reset action: each attached device or the host controller.
 
 
 ### -field EvtUdecxWdfDeviceReset
 
-A pointer to an <a href="..\udecxwdfdevice\nc-udecxwdfdevice-evt_udecx_wdf_device_reset.md">EVT_UDECX_WDF_DEVICE_RESET</a> callback function.
+A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/mt595920">EVT_UDECX_WDF_DEVICE_RESET</a> callback function.
 
 
 ## -see-also
 
-<a href="..\udecxwdfdevice\nf-udecxwdfdevice-udecx_wdf_device_config_init.md">UDECX_WDF_DEVICE_CONFIG_INIT</a>
 
 
 
-<a href="..\udecxwdfdevice\nf-udecxwdfdevice-udecxwdfdeviceaddusbdeviceemulation.md">UdecxWdfDeviceAddUsbDeviceEmulation</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt628010">UDECX_WDF_DEVICE_CONFIG_INIT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt627990">UdecxWdfDeviceAddUsbDeviceEmulation</a>
  
 
  

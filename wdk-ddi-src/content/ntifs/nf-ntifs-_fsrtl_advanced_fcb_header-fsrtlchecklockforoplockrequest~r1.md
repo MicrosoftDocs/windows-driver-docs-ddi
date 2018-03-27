@@ -52,17 +52,6 @@ req.typenames: TOKEN_TYPE
 The <b>FsRtlCheckLockForOplockRequest</b> routine checks for locks within the allocation size of a file. The file lock object is  checked for the presence of  byte range locks that would prevent an oplock request from being granted.
 
 
-## -syntax
-
-
-````
-BOOLEAN FsRtlCheckLockForOplockRequest(
-  _In_ PFILE_LOCK     FileLock,
-  _In_ PLARGE_INTEGER AllocationSize
-);
-````
-
-
 ## -parameters
 
 

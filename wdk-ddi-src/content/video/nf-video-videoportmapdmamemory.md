@@ -55,23 +55,6 @@ The <b>VideoPortMapDmaMemory</b> function is <b>obsolete</b> in Windows 2000 and
 <b>VideoPortMapDmaMemory</b> maps a range of memory for use in DMA transfers.
 
 
-## -syntax
-
-
-````
-PDMA VideoPortMapDmaMemory(
-  _In_    PVOID                 HwDeviceExtension,
-  _In_    PVIDEO_REQUEST_PACKET pVrp,
-  _In_    PHYSICAL_ADDRESS      BoardAddress,
-  _In_    PULONG                Length,
-  _In_    PULONG                InIoSpace,
-  _In_    PVOID                 MappedUserEvent,
-  _In_    PVOID                 DisplayDriverEvent,
-  _Inout_ PVOID                 *VirtualAddress
-);
-````
-
-
 ## -parameters
 
 
@@ -84,7 +67,7 @@ Pointer to the miniport driver's device extension.
 
 ### -param pVrp [in]
 
-Pointer to a <a href="..\video\ns-video-_video_request_packet.md">VIDEO_REQUEST_PACKET</a>.
+Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff570547">VIDEO_REQUEST_PACKET</a>.
 
 
 ### -param BoardAddress [in]

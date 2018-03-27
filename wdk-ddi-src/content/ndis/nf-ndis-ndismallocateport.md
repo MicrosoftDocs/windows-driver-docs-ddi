@@ -54,17 +54,6 @@ The
   <b>NdisMAllocatePort</b> function allocates an NDIS port that is associated with a miniport adapter.
 
 
-## -syntax
-
-
-````
-NDIS_STATUS NdisMAllocatePort(
-  _In_    NDIS_HANDLE                MiniportAdapterHandle,
-  _Inout_ PNDIS_PORT_CHARACTERISTICS PortCharacteristics
-);
-````
-
-
 ## -parameters
 
 
@@ -78,7 +67,7 @@ TBD
 ### -param PortCharacteristics [in, out]
 
 A pointer to an 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_port_characteristics.md">
+     <a href="https://msdn.microsoft.com/fd602dd6-c216-413a-a4da-292739774937">
      NDIS_PORT_CHARACTERISTICS</a> structure that defines the characteristics of the port.
 
 
@@ -86,7 +75,7 @@ A pointer to an
 
 The miniport adapter handle that NDIS passed to the 
      <i>MiniportAdapterHandle</i> parameter of the 
-     <a href="..\ndis\nc-ndis-miniport_initialize.md">
+     <a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">
      MiniportInitializeEx</a> function.
 
 
@@ -170,39 +159,39 @@ After the miniport driver activates the port, NDIS generates a PnP notification 
 When 
     <b>NdisMAllocatePort</b> successfully returns, the 
     <b>PortNumber</b> member of the 
-    <a href="..\ntddndis\ns-ntddndis-_ndis_port_characteristics.md">
+    <a href="https://msdn.microsoft.com/fd602dd6-c216-413a-a4da-292739774937">
     NDIS_PORT_CHARACTERISTICS</a> structure that the 
     <i>PortCharacteristics</i> parameter specifies is set to the port number that NDIS assigned to the
     port.
 
 After a port is no longer required, the miniport driver should call the 
-    <a href="..\ndis\nf-ndis-ndismfreeport.md">NdisMFreePort</a> function to free the port.
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff563588">NdisMFreePort</a> function to free the port.
 
 
 
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/39c77921-5841-40f5-90ba-0fba89b3b55e">Allocating an NDIS Port</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndismfreeport.md">NdisMFreePort</a>
+<a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566791">NDIS_PORT_CHARACTERISTICS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563588">NdisMFreePort</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569583">OID_GEN_ENUMERATE_PORTS</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_port_characteristics.md">NDIS_PORT_CHARACTERISTICS</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-
-
-
  
 
  

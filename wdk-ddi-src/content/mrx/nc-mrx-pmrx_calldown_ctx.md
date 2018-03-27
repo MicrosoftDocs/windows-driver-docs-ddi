@@ -52,20 +52,6 @@ req.typenames: SetDSMCounters_IN, *PSetDSMCounters_IN
 The<i>MRxStart</i> routine is called by <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ifs/the-rdbss-driver-and-library">RDBSS</a> to start the network mini-redirector.
 
 
-## -prototype
-
-
-````
-PMRX_CALLDOWN_CTX MRxStart;
-
-NTSTATUS MRxStart(
-  _Inout_ PRX_CONTEXT          RxContext,
-  _Inout_ PRDBSS_DEVICE_OBJECT RxDeviceObject
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -132,7 +118,7 @@ The <b>MajorFunction</b> member is set to the major function of the IRP.
 
 The <b>LowIoContext.ParamsFor.FsCtl.FsControlCode</b> member is set to the FSCTL code for the IRP if this was an FSTCL request used to start the network mini-redirector. 
 
-<i>MRxStart</i> is called by RDBSS from the <a href="..\mrx\nf-mrx-rxstartminirdr.md">RxStartMinirdr</a> routine. Before calling <i>MRxStart</i>, RDBSS will register <i>RxDeviceObject</i> of the network mini-redirector as a file system. RDBSS will also register the network mini-redirector as a UNC provider if the network mini-redirector indicates support for UNC names.
+<i>MRxStart</i> is called by RDBSS from the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554736">RxStartMinirdr</a> routine. Before calling <i>MRxStart</i>, RDBSS will register <i>RxDeviceObject</i> of the network mini-redirector as a file system. RDBSS will also register the network mini-redirector as a UNC provider if the network mini-redirector indicates support for UNC names.
 
 If <i>MRxStart</i> returns STATUS_SUCCESS, then the routine was successful. Any other return value indicates that an error occurred in the startup sequence. 
 
@@ -145,11 +131,10 @@ A network mini-redirector would normally maintain an internal variable indicatin
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549876">MRxDevFcbXXXControlFile</a>
-
-
-
-<a href="..\mrx\nf-mrx-rxstartminirdr.md">RxStartMinirdr</a>
 
 
 
@@ -157,6 +142,7 @@ A network mini-redirector would normally maintain an internal variable indicatin
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554736">RxStartMinirdr</a>
  
 
  

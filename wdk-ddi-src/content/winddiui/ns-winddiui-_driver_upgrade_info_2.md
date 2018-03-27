@@ -50,29 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The DRIVER_UPGRADE_INFO_2 structure is used as an input to a printer interface DLL's <a href="..\winddiui\nf-winddiui-drvupgradeprinter.md">DrvUpgradePrinter</a> function.
-
-
-## -syntax
-
-
-````
-typedef struct _DRIVER_UPGRADE_INFO_2 {
-  LPTSTR pPrinterName;
-  LPTSTR pOldDriverDirectory;
-  DWORD  cVersion;
-  LPTSTR pName;
-  LPTSTR pEnvironment;
-  LPTSTR pDriverPath;
-  LPTSTR pDataFile;
-  LPTSTR pConfigFile;
-  LPTSTR pHelpFile;
-  LPTSTR pDependentFiles;
-  LPTSTR pMonitorName;
-  LPTSTR pDefaultDataType;
-  LPTSTR pszzPreviousNames;
-} DRIVER_UPGRADE_INFO_2, *PDRIVER_UPGRADE_INFO_2;
-````
+The DRIVER_UPGRADE_INFO_2 structure is used as an input to a printer interface DLL's <a href="https://msdn.microsoft.com/library/windows/hardware/ff548648">DrvUpgradePrinter</a> function.
 
 
 ## -struct-fields
@@ -206,14 +184,14 @@ To see how this can occur, suppose that a computer is connected to two printers,
 
 ## -see-also
 
-<a href="..\winddiui\nf-winddiui-drvupgradeprinter.md">DrvUpgradePrinter</a>
 
 
 
-<a href="..\winddiui\ns-winddiui-_driver_upgrade_info_1.md">DRIVER_UPGRADE_INFO_1</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548522">DRIVER_UPGRADE_INFO_1</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548648">DrvUpgradePrinter</a>
  
 
  

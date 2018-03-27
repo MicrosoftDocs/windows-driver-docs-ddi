@@ -49,17 +49,7 @@ req.typenames: D3DDDI_FLUSH_FLAGS
 ## -description
 
 
-In calls to the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_flush1.md">pfnFlush1</a> function,  indicates whether the driver should free as much memory as possible. Used by Windows Display Driver Model (WDDM) 1.3 and later user-mode display drivers.
-
-
-## -syntax
-
-
-````
-typedef enum _D3DDDI_FLUSH_FLAGS { 
-  D3DDDI_TRIM_MEMORY  = 0x00000002
-} D3DDDI_FLUSH_FLAGS;
-````
+In calls to the <a href="https://msdn.microsoft.com/6BAC104A-85CE-42FC-AE30-969B2FF6AFEF">pfnFlush1</a> function,  indicates whether the driver should free as much memory as possible. Used by Windows Display Driver Model (WDDM) 1.3 and later user-mode display drivers.
 
 
 ## -enum-fields
@@ -78,10 +68,10 @@ Supported starting with Windows 8.1.
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_flush1.md">pfnFlush1</a>
 
 
 
+<a href="https://msdn.microsoft.com/6BAC104A-85CE-42FC-AE30-969B2FF6AFEF">pfnFlush1</a>
  
 
  

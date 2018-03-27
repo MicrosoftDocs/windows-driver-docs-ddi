@@ -55,18 +55,6 @@ Retrieves the transfer buffer of an URB from the specified framework request obj
 
 
 
-## -syntax
-
-
-````
-FORCEINLINE NTSTATUS UdecxUrbRetrieveBuffer(
-  _In_  WDFREQUEST                         Request,
-  _Out_ ptr_result_buffer_(*Length) PUCHAR *TransferBuffer,
-  _Out_ PULONG                             Length
-);
-````
-
-
 ## -parameters
 
 
@@ -74,12 +62,12 @@ FORCEINLINE NTSTATUS UdecxUrbRetrieveBuffer(
 
 ### -param Request [in]
 
-A handle to a framework request object that contains the <a href="..\usb\ns-usb-_urb.md">URB</a> for the transfer.
+A handle to a framework request object that contains the <a href="https://msdn.microsoft.com/library/windows/hardware/ff538923">URB</a> for the transfer.
 
 
 ### -param TransferBuffer [out]
 
-A pointer to a buffer that receives the transfer buffer of an <a href="..\usb\ns-usb-_urb.md">URB</a>.
+A pointer to a buffer that receives the transfer buffer of an <a href="https://msdn.microsoft.com/library/windows/hardware/ff538923">URB</a>.
 
 
 ### -param Length [out]
@@ -128,11 +116,6 @@ The transfer buffer MDL was not valid.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
-
-
-
-<a href="..\udecxurb\nf-udecxurb-udecxurbsetbytescompleted.md">UdecxUrbSetBytesCompleted</a>
 
 
 
@@ -140,6 +123,11 @@ The transfer buffer MDL was not valid.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt595958">UdecxUrbSetBytesCompleted</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
  
 
  

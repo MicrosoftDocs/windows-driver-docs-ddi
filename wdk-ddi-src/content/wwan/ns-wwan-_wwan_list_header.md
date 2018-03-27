@@ -54,17 +54,6 @@ The WWAN_LIST_HEADER structure represents the header of a list of MB objects, in
   objects in the list that follow the header in memory.
 
 
-## -syntax
-
-
-````
-typedef struct _WWAN_LIST_HEADER {
-  WWAN_STRUCT_TYPE ElementType;
-  ULONG            ElementCount;
-} WWAN_LIST_HEADER, *PWWAN_LIST_HEADER;
-````
-
-
 ## -struct-fields
 
 
@@ -73,7 +62,7 @@ typedef struct _WWAN_LIST_HEADER {
 ### -field ElementType
 
 A value from the 
-     <a href="..\wwan\ne-wwan-_wwan_struct_type.md">WWAN_STRUCT_TYPE</a> enumeration that represents
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571254">WWAN_STRUCT_TYPE</a> enumeration that represents
      the type of objects in the list.
 
 
@@ -95,32 +84,32 @@ You can assume that the list of elements is stored in memory immediately followi
 
 ## -see-also
 
-<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_provisioned_contexts.md">
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567913">NDIS_WWAN_PREFERRED_PROVIDERS</a>
+
+
+
+<a href="https://msdn.microsoft.com/ee4ba781-9adf-4eb0-8c3d-b11aac86c943">
    NDIS_WWAN_PROVISIONED_CONTEXTS</a>
 
 
 
-<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_sms_receive.md">NDIS_WWAN_SMS_RECEIVE</a>
-
-
-
-<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_preferred_providers.md">NDIS_WWAN_PREFERRED_PROVIDERS</a>
-
-
-
-<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_set_preferred_providers.md">
+<a href="https://msdn.microsoft.com/6741d440-0e17-4b2d-a642-0335d1f936cf">
    NDIS_WWAN_SET_PREFERRED_PROVIDERS</a>
 
 
 
-<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_visible_providers.md">NDIS_WWAN_VISIBLE_PROVIDERS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567942">NDIS_WWAN_SMS_RECEIVE</a>
 
 
 
-<a href="..\wwan\ne-wwan-_wwan_struct_type.md">WWAN_STRUCT_TYPE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567948">NDIS_WWAN_VISIBLE_PROVIDERS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571254">WWAN_STRUCT_TYPE</a>
  
 
  

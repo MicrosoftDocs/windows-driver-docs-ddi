@@ -54,18 +54,6 @@ The WWAN_COMPRESSION enumeration lists the different compression options that ar
   device.
 
 
-## -syntax
-
-
-````
-typedef enum _WWAN_COMPRESSION { 
-  WwanCompressionNone    = 0,
-  WwanCompressionEnable,
-  WwanCompressionMax
-} WWAN_COMPRESSION, *PWWAN_COMPRESSION;
-````
-
-
 ## -enum-fields
 
 
@@ -98,14 +86,14 @@ This enumeration applies only to GSM devices. The MB Service specifies
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_set_context_state.md">WWAN_SET_CONTEXT_STATE</a>
 
 
 
-<a href="..\wwan\ns-wwan-_wwan_context.md">WWAN_CONTEXT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571201">WWAN_CONTEXT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571235">WWAN_SET_CONTEXT_STATE</a>
  
 
  

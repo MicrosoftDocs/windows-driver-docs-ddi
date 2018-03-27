@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: ntifs.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -49,17 +49,7 @@ req.typenames: TOKEN_TYPE
 ## -description
 
 
-This macro is exported to support existing driver binaries and is obsolete. Use <a href="..\ntifs\nf-ntifs-rtllengthsid.md">RtlLengthSid</a> instead. 
-
-
-## -syntax
-
-
-````
-  SeLengthSid(
-    
-);
-````
+This macro is exported to support existing driver binaries and is obsolete. Use <a href="https://msdn.microsoft.com/library/windows/hardware/ff553085">RtlLengthSid</a> instead. 
 
 
 ## -parameters

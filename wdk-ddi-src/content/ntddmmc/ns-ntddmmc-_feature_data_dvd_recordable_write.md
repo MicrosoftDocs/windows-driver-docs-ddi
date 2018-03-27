@@ -52,24 +52,6 @@ req.typenames: FEATURE_DATA_DVD_RECORDABLE_WRITE, *PFEATURE_DATA_DVD_RECORDABLE_
 The FEATURE_DATA_DVD_RECORDABLE_WRITE structure holds information for the DVD-R/RW Write feature.
 
 
-## -syntax
-
-
-````
-typedef struct _FEATURE_DATA_DVD_RECORDABLE_WRITE {
-  FEATURE_HEADER Header;
-  UCHAR          Reserved1  :1;
-  UCHAR          DVD_RW  :1;
-  UCHAR          TestWrite  :1;
-  UCHAR          RDualLayer  :1;
-  UCHAR          Reserved02  :2;
-  UCHAR          BufferUnderrunFree  :1;
-  UCHAR          Reserved3  :1;
-  UCHAR          Reserved4[3];
-} FEATURE_DATA_DVD_RECORDABLE_WRITE, *PFEATURE_DATA_DVD_RECORDABLE_WRITE;
-````
-
-
 ## -struct-fields
 
 
@@ -77,7 +59,7 @@ typedef struct _FEATURE_DATA_DVD_RECORDABLE_WRITE {
 
 ### -field Header
 
-Contains a <a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a> structure with header information for this feature descriptor. 
+Contains a <a href="https://msdn.microsoft.com/library/windows/hardware/ff553848">FEATURE_HEADER</a> structure with header information for this feature descriptor. 
 
 
 ### -field Reserved1
@@ -127,14 +109,14 @@ This structure holds data for the feature named "DVD-R Write" by the <i>SCSI Mul
 
 ## -see-also
 
-<a href="..\ntddmmc\ne-ntddmmc-_feature_number.md">FEATURE_NUMBER</a>
 
 
 
-<a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553848">FEATURE_HEADER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553850">FEATURE_NUMBER</a>
  
 
  

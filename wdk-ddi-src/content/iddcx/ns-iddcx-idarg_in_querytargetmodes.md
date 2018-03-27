@@ -52,18 +52,6 @@ req.typenames:
 Gives information about the target modes associated with a monitor.
 
 
-## -syntax
-
-
-````
-typedef struct IDARG_IN_QUERYTARGETMODES {
-  IDDCX_MONITOR_DESCRIPTION                                   MonitorDescription;
-  UINT                                                        TargetModeBufferInputCount;
-  _Field_size_(TargetModeBufferInputCount) IDDCX_TARGET_MODE* pTargetModes;
-} IDARG_IN_QUERYTARGETMODES, *IDARG_IN_QUERYTARGETMODES;
-````
-
-
 ## -struct-fields
 
 

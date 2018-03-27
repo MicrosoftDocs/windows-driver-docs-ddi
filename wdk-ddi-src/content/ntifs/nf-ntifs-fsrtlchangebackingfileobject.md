@@ -52,19 +52,6 @@ req.typenames: TOKEN_TYPE
 The <b>FsRtlChangeBackingFileObject</b> routine replaces the current file object with a new file object.
 
 
-## -syntax
-
-
-````
-NTSTATUS FsRtlChangeBackingFileObject(
-  _In_opt_ PFILE_OBJECT              CurrentFileObject,
-  _In_     PFILE_OBJECT              NewFileObject,
-  _In_     FSRTL_CHANGE_BACKING_TYPE ChangeBackingType,
-  _In_     ULONG                     Flags
-);
-````
-
-
 ## -parameters
 
 
@@ -82,7 +69,7 @@ The new file object.
 
 ### -param ChangeBackingType [in]
 
-An <a href="..\ntifs\ne-ntifs-_fsrtl_change_backing_type.md">FSRTL_CHANGE_BACKING_TYPE</a> enumeration value that indicates which internal memory area the new file object will designate.
+An <a href="https://msdn.microsoft.com/library/windows/hardware/ff547341">FSRTL_CHANGE_BACKING_TYPE</a> enumeration value that indicates which internal memory area the new file object will designate.
 
 
 ### -param Flags [in]
@@ -141,7 +128,7 @@ The change operation failed because the caller specified an invalid value in <i>
 </dl>
 </td>
 <td width="60%">
-The change operation failed because the caller obtained the file object in a way that does not allow subsequent swapping of the file object. For example, if the caller obtained the file object with a call to <a href="..\ntifs\nf-ntifs-ccgetfileobjectfromsectionptrs.md">CcGetFileObjectFromSectionPtrs</a>, it is not safe to swap the file object.
+The change operation failed because the caller obtained the file object in a way that does not allow subsequent swapping of the file object. For example, if the caller obtained the file object with a call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff539104">CcGetFileObjectFromSectionPtrs</a>, it is not safe to swap the file object.
 
 </td>
 </tr>
@@ -182,10 +169,10 @@ To change the file object for more than one backing type, the caller must call <
 
 ## -see-also
 
-<a href="..\ntifs\ne-ntifs-_fsrtl_change_backing_type.md">FSRTL_CHANGE_BACKING_TYPE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547341">FSRTL_CHANGE_BACKING_TYPE</a>
  
 
  

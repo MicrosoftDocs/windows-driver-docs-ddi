@@ -49,19 +49,7 @@ req.typenames: D3DDDICB_WAITFORSYNCHRONIZATIONOBJECT
 ## -description
 
 
-The D3DDDICB_WAITFORSYNCHRONIZATIONOBJECT structure describes the parameters that are required to set up the wait in a call to the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_waitforsynchronizationobjectcb.md">pfnWaitForSynchronizationObjectCb</a> function. 
-
-
-## -syntax
-
-
-````
-typedef struct _D3DDDICB_WAITFORSYNCHRONIZATIONOBJECT {
-  HANDLE        hContext;
-  UINT          ObjectCount;
-  D3DKMT_HANDLE ObjectHandleArray[D3DDDI_MAX_OBJECT_WAITED_ON];
-} D3DDDICB_WAITFORSYNCHRONIZATIONOBJECT;
-````
+The D3DDDICB_WAITFORSYNCHRONIZATIONOBJECT structure describes the parameters that are required to set up the wait in a call to the <a href="https://msdn.microsoft.com/d33ca665-897d-4e99-b9a6-b794127fecfd">pfnWaitForSynchronizationObjectCb</a> function. 
 
 
 ## -struct-fields
@@ -86,10 +74,10 @@ typedef struct _D3DDDICB_WAITFORSYNCHRONIZATIONOBJECT {
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_waitforsynchronizationobjectcb.md">pfnWaitForSynchronizationObjectCb</a>
 
 
 
+<a href="https://msdn.microsoft.com/d33ca665-897d-4e99-b9a6-b794127fecfd">pfnWaitForSynchronizationObjectCb</a>
  
 
  

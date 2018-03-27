@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -53,18 +53,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 The <b>GetSymbolParameters</b> method returns the symbol parameters that describe the specified <a href="https://msdn.microsoft.com/library/windows/hardware/ff558824">symbols</a> in a symbol group.
 
 
-## -syntax
-
-
-````
-HRESULT GetSymbolParameters(
-  [in]  ULONG                    Start,
-  [in]  ULONG                    Count,
-  [out] PDEBUG_SYMBOL_PARAMETERS Params
-);
-````
-
-
 ## -parameters
 
 
@@ -82,7 +70,7 @@ The number of symbol parameters that you want.
 
 ### -param Params [out]
 
-The symbol parameters.  This array must hold at least <i>Count</i> elements.  For a description of these parameters, see <a href="..\dbgeng\ns-dbgeng-_debug_symbol_parameters.md">DEBUG_SYMBOL_PARAMETERS</a>.
+The symbol parameters.  This array must hold at least <i>Count</i> elements.  For a description of these parameters, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff541673">DEBUG_SYMBOL_PARAMETERS</a>.
 
 
 ## -returns
@@ -124,22 +112,22 @@ For more information about symbol groups, see <a href="https://msdn.microsoft.co
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541673">DEBUG_SYMBOL_PARAMETERS</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547975">GetNumberSymbols</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup.md">IDebugSymbolGroup</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550838">IDebugSymbolGroup</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup2.md">IDebugSymbolGroup2</a>
-
-
-
-<a href="..\dbgeng\ns-dbgeng-_debug_symbol_parameters.md">DEBUG_SYMBOL_PARAMETERS</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550846">IDebugSymbolGroup2</a>
  
 
  

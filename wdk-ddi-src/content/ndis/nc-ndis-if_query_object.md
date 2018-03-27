@@ -53,24 +53,6 @@ The
   <i>ProviderQueryObject</i> function retrieves information about a network interface.
 
 
-## -prototype
-
-
-````
-IF_QUERY_OBJECT ProviderQueryObject;
-
-NDIS_STATUS ProviderQueryObject(
-  _In_    NDIS_HANDLE      ProviderIfContext,
-  _In_    NET_IF_OBJECT_ID ObjectId,
-  _Inout_ PULONG           pOutputBufferLength,
-  _Out_   PVOID            pOutputBuffer
-)
-{ ... }
-
-typedef IF_QUERY_OBJECT *IFP_QUERY_OBJECT;
-````
-
-
 ## -parameters
 
 
@@ -80,7 +62,7 @@ typedef IF_QUERY_OBJECT *IFP_QUERY_OBJECT;
 
 A handle that identifies the interface provider's context area for the interface. The interface
      provider passed this handle to NDIS in a call to the 
-     <a href="..\ndis\nf-ndis-ndisifregisterinterface.md">
+     <a href="https://msdn.microsoft.com/d0b0ada7-afb1-4cb7-ada6-7c5c7abe7d19">
      NdisIfRegisterInterface</a> function.
 
 
@@ -183,10 +165,10 @@ NDIS calls
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisifregisterinterface.md">NdisIfRegisterInterface</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562715">NdisIfRegisterInterface</a>
  
 
  

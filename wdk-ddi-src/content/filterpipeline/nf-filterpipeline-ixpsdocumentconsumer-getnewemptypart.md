@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: filterpipeline.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -52,19 +52,6 @@ req.typenames: EXpsFontRestriction
 The <code>GetNewEmptyPart</code> method creates a new XPS part.
 
 
-## -syntax
-
-
-````
-HRESULT GetNewEmptyPart(
-  [in]  const wchar_t           *uri,
-  [in]        REFIID            riid,
-  [out]       void              **ppNewObject,
-  [out]       IPrintWriteStream **ppWriteStream
-);
-````
-
-
 ## -parameters
 
 
@@ -82,43 +69,43 @@ A reference identifier (REFIID) for one of the following interfaces:
 <ul>
 <li>
 
-<a href="..\filterpipeline\nn-filterpipeline-ifixeddocument.md">IFixedDocument</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550966">IFixedDocument</a>
 
 
 </li>
 <li>
 
-<a href="..\filterpipeline\nn-filterpipeline-ifixedpage.md">IFixedPage</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551019">IFixedPage</a>
 
 
 </li>
 <li>
 
-<a href="..\filterpipeline\nn-filterpipeline-ipartimage.md">IPartImage</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551906">IPartImage</a>
 
 
 </li>
 <li>
 
-<a href="..\filterpipeline\nn-filterpipeline-ipartthumbnail.md">IPartThumbnail</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551939">IPartThumbnail</a>
 
 
 </li>
 <li>
 
-<a href="..\filterpipeline\nn-filterpipeline-ipartfont.md">IPartFont</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551887">IPartFont</a>
 
 
 </li>
 <li>
 
-<a href="..\filterpipeline\nn-filterpipeline-ipartprintticket.md">IPartPrintTicket</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551924">IPartPrintTicket</a>
 
 
 </li>
 <li>
 
-<a href="..\filterpipeline\nn-filterpipeline-ipartcolorprofile.md">IPartColorProfile</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551874">IPartColorProfile</a>
 
 
 </li>
@@ -154,38 +141,38 @@ A filter can create new XPS parts by using the <code>GetNewEmptyPart</code> meth
 
 ## -see-also
 
-<a href="..\filterpipeline\nn-filterpipeline-ipartfont.md">IPartFont</a>
 
 
 
-<a href="..\filterpipeline\nn-filterpipeline-ifixeddocument.md">IFixedDocument</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550966">IFixedDocument</a>
 
 
 
-<a href="..\filterpipeline\nn-filterpipeline-ipartcolorprofile.md">IPartColorProfile</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551019">IFixedPage</a>
 
 
 
-<a href="..\filterpipeline\nn-filterpipeline-ifixedpage.md">IFixedPage</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551874">IPartColorProfile</a>
 
 
 
-<a href="..\filterpipeline\nn-filterpipeline-ipartimage.md">IPartImage</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551887">IPartFont</a>
 
 
 
-<a href="..\filterpipeline\nn-filterpipeline-ipartthumbnail.md">IPartThumbnail</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551906">IPartImage</a>
 
 
 
-<a href="..\filterpipeline\nn-filterpipeline-ipartprintticket.md">IPartPrintTicket</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551924">IPartPrintTicket</a>
 
 
 
-<a href="..\filterpipeline\nn-filterpipeline-ixpsdocumentconsumer.md">IXpsDocumentConsumer</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551939">IPartThumbnail</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556291">IXpsDocumentConsumer</a>
  
 
  

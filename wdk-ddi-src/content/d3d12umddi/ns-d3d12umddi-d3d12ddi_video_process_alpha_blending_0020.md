@@ -52,17 +52,6 @@ req.typenames: D3D12DDI_VIDEO_PROCESS_ALPHA_BLENDING_0020
 Specifies whether alpha blending is enabled and, if so, the planar alpha value.
 
 
-## -syntax
-
-
-````
-typedef struct D3D12DDI_VIDEO_PROCESS_ALPHA_BLENDING_0020 {
-  BOOL  Enable;
-  FLOAT Alpha;
-} D3D12DDI_VIDEO_PROCESS_ALPHA_BLENDING_0020;
-````
-
-
 ## -struct-fields
 
 

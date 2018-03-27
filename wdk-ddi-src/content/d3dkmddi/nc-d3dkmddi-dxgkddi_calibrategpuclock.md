@@ -49,23 +49,7 @@ req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
 ## -description
 
 
-Called by the  Microsoft DirectX graphics kernel subsystem to calibrate the GPU time stamps in the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_history_buffer.md">DXGK_HISTORY_BUFFER</a> history buffer with the CPU clock time.
-
-
-## -prototype
-
-
-````
-DXGKDDI_CALIBRATEGPUCLOCK DxgkDdiCalibrateGpuClock;
-
-_Check_return NTSTATUS APIENTRY* DxgkDdiCalibrateGpuClock(
-  _In_  const HANDLE                    hAdapter,
-  _In_        UINT32                    NodeOrdinal,
-  _In_        UINT32                    EngineOrdinal,
-  _Out_       DXGKARG_CALIBRATEGPUCLOCK *pClockCalibration
-)
-{ ... }
-````
+Called by the  Microsoft DirectX graphics kernel subsystem to calibrate the GPU time stamps in the <a href="https://msdn.microsoft.com/library/windows/hardware/dn439361">DXGK_HISTORY_BUFFER</a> history buffer with the CPU clock time.
 
 
 ## -parameters
@@ -77,7 +61,7 @@ _Check_return NTSTATUS APIENTRY* DxgkDdiCalibrateGpuClock(
 
 A handle to the adapter object for the GPU for which timing calibration info is to be obtained. 
 
-The display miniport driver previously provided this handle to the DirectX graphics kernel subsystem in the <i>MiniportDeviceContext</i> output parameter of the <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a> function.
+The display miniport driver previously provided this handle to the DirectX graphics kernel subsystem in the <i>MiniportDeviceContext</i> output parameter of the <a href="https://msdn.microsoft.com/5fd4046f-54c3-4dfc-8d51-0d9ebcde0bea">DxgkDdiAddDevice</a> function.
 
 
 ### -param NodeOrdinal [in]
@@ -120,11 +104,6 @@ The DirectX graphics kernel subsystem calls this function often enough, typicall
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
-
-
-
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_history_buffer.md">DXGK_HISTORY_BUFFER</a>
 
 
 
@@ -132,6 +111,11 @@ The DirectX graphics kernel subsystem calls this function often enough, typicall
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn439361">DXGK_HISTORY_BUFFER</a>
+
+
+
+<a href="https://msdn.microsoft.com/5fd4046f-54c3-4dfc-8d51-0d9ebcde0bea">DxgkDdiAddDevice</a>
  
 
  

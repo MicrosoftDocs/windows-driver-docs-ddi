@@ -52,20 +52,6 @@ req.typenames: DXGK_PTE
 The <i>SetStreamSourceFreq</i> function sets the frequency divisor of a stream source that is bound to a vertex buffer.
 
 
-## -prototype
-
-
-````
-PFND3DDDI_SETSTREAMSOURCEFREQ SetStreamSourceFreq;
-
-__checkReturn HRESULT APIENTRY SetStreamSourceFreq(
-  _In_       HANDLE                        hDevice,
-  _In_ const D3DDDIARG_SETSTREAMSOURCEFREQ *pData
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -87,7 +73,7 @@ __checkReturn HRESULT APIENTRY SetStreamSourceFreq(
 
 #### - pData [in]
 
- A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_setstreamsourcefreq.md">D3DDDIARG_SETSTREAMSOURCEFREQ</a> structure that specifies how the frequency divisor for the stream source is set.
+ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543356">D3DDDIARG_SETSTREAMSOURCEFREQ</a> structure that specifies how the frequency divisor for the stream source is set.
 
 
 ## -returns
@@ -119,7 +105,7 @@ The driver uses the frequency divisor to compute the vertex offset into the vert
 </td>
 </tr>
 </table></span></div>
-For each vertex stream that is used, if the driver receives a start-vertex value during a call to the driver's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_drawprimitive.md">DrawPrimitive</a> function, the driver also divides this start-vertex value by the frequency divisor and factors the result in the formula. This start-vertex value is provided in the <b>VStart</b> member of the <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_drawprimitive.md">D3DDDIARG_DRAWPRIMITIVE</a> structure. The following formula includes the start-vertex value: 
+For each vertex stream that is used, if the driver receives a start-vertex value during a call to the driver's <a href="https://msdn.microsoft.com/1a6de2b0-cab0-4fcf-be1b-a8cc1c1f79e9">DrawPrimitive</a> function, the driver also divides this start-vertex value by the frequency divisor and factors the result in the formula. This start-vertex value is provided in the <b>VStart</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff543057">D3DDDIARG_DRAWPRIMITIVE</a> structure. The following formula includes the start-vertex value: 
 
 <div class="code"><span codelanguage=""><table>
 <tr>
@@ -141,22 +127,22 @@ The driver ignores the setting of a stream's frequency divisor either for indexe
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_drawprimitive.md">D3DDDIARG_DRAWPRIMITIVE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543057">D3DDDIARG_DRAWPRIMITIVE</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_setstreamsourcefreq.md">D3DDDIARG_SETSTREAMSOURCEFREQ</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543356">D3DDDIARG_SETSTREAMSOURCEFREQ</a>
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_drawprimitive.md">DrawPrimitive</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544519">D3DDDI_DEVICEFUNCS</a>
 
 
 
+<a href="https://msdn.microsoft.com/1a6de2b0-cab0-4fcf-be1b-a8cc1c1f79e9">DrawPrimitive</a>
  
 
  

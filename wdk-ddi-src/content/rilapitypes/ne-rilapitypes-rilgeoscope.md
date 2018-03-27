@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,20 +51,6 @@ req.product: Windows 10 or later.
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef enum _RILGEOSCOPE { 
-  RIL_GEOSCOPE_CELL_IMMEDIATE,
-  RIL_GEOSCOPE_LOCATIONAREA,
-  RIL_GEOSCOPE_PLMN,
-  RIL_GEOSCOPE_CELL,
-  RIL_GEOSCOPE_MAX
-} RILGEOSCOPE;
-````
 
 
 ## -enum-fields

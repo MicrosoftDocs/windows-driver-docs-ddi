@@ -53,17 +53,6 @@ The NDIS_WWAN_SET_REGISTER_STATE structure represents the network provider regis
   MB device.
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_WWAN_SET_REGISTER_STATE {
-  NDIS_OBJECT_HEADER      Header;
-  WWAN_SET_REGISTER_STATE SetRegisterState;
-} NDIS_WWAN_SET_REGISTER_STATE, *PNDIS_WWAN_SET_REGISTER_STATE;
-````
-
-
 ## -struct-fields
 
 
@@ -117,26 +106,26 @@ sizeof(NDIS_WWAN_SET_REGISTER_STATE)
  
 
 For more information about these members, see 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>.
 
 
 ### -field SetRegisterState
 
 A formatted 
-     <a href="..\wwan\ns-wwan-_wwan_set_register_state.md">WWAN_SET_REGISTER_STATE</a> object that
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571236">WWAN_SET_REGISTER_STATE</a> object that
      represents the new network selection mode for the device.
 
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_set_register_state.md">WWAN_SET_REGISTER_STATE</a>
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571236">WWAN_SET_REGISTER_STATE</a>
  
 
  

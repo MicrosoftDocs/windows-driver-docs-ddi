@@ -52,24 +52,6 @@ req.typenames: D3DDDI_OVERLAYINFO
 The D3DDDI_OVERLAYINFO structure describes information about an overlay. 
 
 
-## -syntax
-
-
-````
-typedef struct _D3DDDI_OVERLAYINFO {
-  HANDLE                  hResource;
-  UINT                    SubResourceIndex;
-  RECT                    DstRect;
-  RECT                    SrcRect;
-  UINT                    DstColorKeyLow;
-  UINT                    DstColorKeyHigh;
-  UINT                    SrcColorKeyLow;
-  UINT                    SrcColorKeyHigh;
-  D3DDDI_OVERLAYINFOFLAGS Flags;
-} D3DDDI_OVERLAYINFO;
-````
-
-
 ## -struct-fields
 
 
@@ -77,7 +59,7 @@ typedef struct _D3DDDI_OVERLAYINFO {
 
 ### -field hResource
 
-[in] A handle to the resource that is displayed by using the overlay. The resource is created through a call to the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createresource.md">CreateResource</a> function with the <b>Overlay</b> bit-field flag set in the <b>Flags</b> member of the <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddiarg_createresource.md">D3DDDIARG_CREATERESOURCE</a> structure that is pointed to by the <i>pResource</i> parameter.
+[in] A handle to the resource that is displayed by using the overlay. The resource is created through a call to the <a href="https://msdn.microsoft.com/5b74c989-1a62-4415-a19a-dd0ba2fcff83">CreateResource</a> function with the <b>Overlay</b> bit-field flag set in the <b>Flags</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff542963">D3DDDIARG_CREATERESOURCE</a> structure that is pointed to by the <i>pResource</i> parameter.
 
 
 ### -field SubResourceIndex
@@ -117,7 +99,7 @@ typedef struct _D3DDDI_OVERLAYINFO {
 
 ### -field Flags
 
-[in] A <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_overlayinfoflags.md">D3DDDI_OVERLAYINFOFLAGS</a> structure that identifies the type of overlay operation to perform. Note that some flags are mutually exclusive with other flags. For more information, see the following Remarks section.
+[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff544626">D3DDDI_OVERLAYINFOFLAGS</a> structure that identifies the type of overlay operation to perform. Note that some flags are mutually exclusive with other flags. For more information, see the following Remarks section.
 
 
 ## -remarks
@@ -131,11 +113,22 @@ The <b>SrcColorKey</b>, <b>SrcColorKeyRange</b>, <b>DstColorKey</b>, and <b>DstC
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createresource.md">CreateResource</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_overlayinfoflags.md">D3DDDI_OVERLAYINFOFLAGS</a>
+<a href="https://msdn.microsoft.com/761377ff-95a6-426b-8372-3f347870f9c4">CreateOverlay</a>
+
+
+
+<a href="https://msdn.microsoft.com/5b74c989-1a62-4415-a19a-dd0ba2fcff83">CreateResource</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542963">D3DDDIARG_CREATERESOURCE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544626">D3DDDI_OVERLAYINFOFLAGS</a>
 
 
 
@@ -143,18 +136,7 @@ The <b>SrcColorKey</b>, <b>SrcColorKeyRange</b>, <b>DstColorKey</b>, and <b>DstC
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createoverlay.md">CreateOverlay</a>
-
-
-
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddiarg_createresource.md">D3DDDIARG_CREATERESOURCE</a>
-
-
-
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_updateoverlay.md">UpdateOverlay</a>
-
-
-
+<a href="https://msdn.microsoft.com/80d7cc5c-51d8-4b91-9581-b073f9b0e68a">UpdateOverlay</a>
  
 
  

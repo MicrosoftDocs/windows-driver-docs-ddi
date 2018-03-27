@@ -53,26 +53,6 @@ req.product: Windows 10 or later.
 The <b>USB_CONNECTION_STATUS</b> enumerator indicates the status of the connection to a device on a USB hub port.
 
 
-## -syntax
-
-
-````
-typedef enum _USB_CONNECTION_STATUS { 
-  NoDeviceConnected         = 0,
-  DeviceConnected           = 1,
-  DeviceFailedEnumeration   = 2,
-  DeviceGeneralFailure      = 3,
-  DeviceCausedOvercurrent   = 4,
-  DeviceNotEnoughPower      = 5,
-  DeviceNotEnoughBandwidth  = 6,
-  DeviceHubNestedTooDeeply  = 7,
-  DeviceInLegacyHub         = 8,
-  DeviceEnumerating         = 9,
-  DeviceReset               = 10
-} USB_CONNECTION_STATUS, *PUSB_CONNECTION_STATUS;
-````
-
-
 ## -enum-fields
 
 
@@ -141,18 +121,17 @@ Indicates that device connected to the port is currently being reset.
 
 
 
-The USB bus driver reports connection status in a <a href="..\usbioctl\ns-usbioctl-_usb_node_connection_information_ex.md">USB_NODE_CONNECTION_INFORMATION_EX</a> structure in response to an <a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_node_connection_information_ex.md">IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX</a> request.
+The USB bus driver reports connection status in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff540094">USB_NODE_CONNECTION_INFORMATION_EX</a> structure in response to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff537321">IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX</a> request.
 
 
 
 
 ## -see-also
 
-<a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_node_connection_information_ex.md">IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX</a>
 
 
 
-<a href="..\usbioctl\ns-usbioctl-_usb_node_connection_information_ex.md">USB_NODE_CONNECTION_INFORMATION_EX</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537321">IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX</a>
 
 
 
@@ -160,6 +139,7 @@ The USB bus driver reports connection status in a <a href="..\usbioctl\ns-usbioc
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540094">USB_NODE_CONNECTION_INFORMATION_EX</a>
  
 
  

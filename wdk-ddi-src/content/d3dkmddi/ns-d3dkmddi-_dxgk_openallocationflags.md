@@ -52,23 +52,6 @@ req.typenames: DXGK_OPENALLOCATIONFLAGS
 The DXGK_OPENALLOCATIONFLAGS structure identifies the operation to perform for allocations.
 
 
-## -syntax
-
-
-````
-typedef struct _DXGK_OPENALLOCATIONFLAGS {
-  union {
-    struct {
-      UINT Create  :1;
-      UINT ReadOnly  :1;
-      UINT Reserved  :30;
-    };
-    UINT Value;
-  };
-} DXGK_OPENALLOCATIONFLAGS;
-````
-
-
 ## -struct-fields
 
 
@@ -102,10 +85,10 @@ A member in the union that DXGK_OPENALLOCATIONFLAGS contains that can hold a 32-
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_openallocation.md">DXGKARG_OPENALLOCATION</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557609">DXGKARG_OPENALLOCATION</a>
  
 
  

@@ -52,19 +52,6 @@ req.typenames: D3DKMT_OPENADAPTERFROMGDIDISPLAYNAME
 The D3DKMT_OPENADAPTERFROMGDIDISPLAYNAME structure describes the mapping of the given name of a GDI device to a graphics adapter handle and monitor output.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DKMT_OPENADAPTERFROMGDIDISPLAYNAME {
-  WCHAR                          DeviceName[32];
-  D3DKMT_HANDLE                  hAdapter;
-  LUID                           AdapterLuid;
-  D3DDDI_VIDEO_PRESENT_SOURCE_ID VidPnSourceId;
-} D3DKMT_OPENADAPTERFROMGDIDISPLAYNAME;
-````
-
-
 ## -struct-fields
 
 
@@ -77,25 +64,25 @@ typedef struct _D3DKMT_OPENADAPTERFROMGDIDISPLAYNAME {
 
 ### -field hAdapter
 
-[out] A handle to the graphics adapter for the GDI device that <b>DeviceName</b> specifies. The adapter handle is returned from the call to the <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtopenadapterfromgdidisplayname.md">D3DKMTOpenAdapterFromGdiDisplayName</a> function.
+[out] A handle to the graphics adapter for the GDI device that <b>DeviceName</b> specifies. The adapter handle is returned from the call to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff547038">D3DKMTOpenAdapterFromGdiDisplayName</a> function.
 
 
 ### -field AdapterLuid
 
-[out] The locally unique identifier (<a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a>) of the graphics adapter for the GDI device that <b>DeviceName</b> specifies. The LUID is returned from the <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtopenadapterfromgdidisplayname.md">D3DKMTOpenAdapterFromGdiDisplayName</a> call.
+[out] The locally unique identifier (<a href="https://msdn.microsoft.com/library/windows/hardware/ff557080">LUID</a>) of the graphics adapter for the GDI device that <b>DeviceName</b> specifies. The LUID is returned from the <a href="https://msdn.microsoft.com/library/windows/hardware/ff547038">D3DKMTOpenAdapterFromGdiDisplayName</a> call.
 
 
 ### -field VidPnSourceId
 
-[out] The zero-based identification number of the video present source in a path of a video present network (VidPN) topology for the GDI device that <b>DeviceName</b> specifies. The identification number is returned from the <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtopenadapterfromgdidisplayname.md">D3DKMTOpenAdapterFromGdiDisplayName</a> call.
+[out] The zero-based identification number of the video present source in a path of a video present network (VidPN) topology for the GDI device that <b>DeviceName</b> specifies. The identification number is returned from the <a href="https://msdn.microsoft.com/library/windows/hardware/ff547038">D3DKMTOpenAdapterFromGdiDisplayName</a> call.
 
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtopenadapterfromgdidisplayname.md">D3DKMTOpenAdapterFromGdiDisplayName</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547038">D3DKMTOpenAdapterFromGdiDisplayName</a>
  
 
  

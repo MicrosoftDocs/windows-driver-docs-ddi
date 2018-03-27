@@ -49,21 +49,7 @@ req.typenames: FORMAT_PARAMETERS, *PFORMAT_PARAMETERS
 ## -description
 
 
-The FORMAT_PARAMETERS structure is used in conjunction with the <a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_format_tracks.md">IOCTL_DISK_FORMAT_TRACKS</a> request to format the specified set of contiguous tracks on the disk. 
-
-
-## -syntax
-
-
-````
-typedef struct _FORMAT_PARAMETERS {
-  MEDIA_TYPE MediaType;
-  ULONG      StartCylinderNumber;
-  ULONG      EndCylinderNumber;
-  ULONG      StartHeadNumber;
-  ULONG      EndHeadNumber;
-} FORMAT_PARAMETERS, *PFORMAT_PARAMETERS;
-````
+The FORMAT_PARAMETERS structure is used in conjunction with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559447">IOCTL_DISK_FORMAT_TRACKS</a> request to format the specified set of contiguous tracks on the disk. 
 
 
 ## -struct-fields
@@ -98,14 +84,14 @@ Indicates the number of the head where the formatting should end.
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559447">IOCTL_DISK_FORMAT_TRACKS</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff562216">MEDIA_TYPE</a>
-
-
-
-<a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_format_tracks.md">IOCTL_DISK_FORMAT_TRACKS</a>
-
-
-
  
 
  

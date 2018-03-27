@@ -54,19 +54,6 @@ req.product: Windows 10 or later.
 6338 UniPro℠ specification version number.
 
 
-## -syntax
-
-
-````
-typedef struct _UFS_INTERCONNECT_DESCRIPTOR {
-  UCHAR bLength;
-  UCHAR bDescriptorIDN;
-  UCHAR bcdUniproVersion[2];
-  UCHAR bcdMphyVersion[2];
-} UFS_INTERCONNECT_DESCRIPTOR, *PUFS_INTERCONNECT_DESCRIPTOR;
-````
-
-
 ## -struct-fields
 
 

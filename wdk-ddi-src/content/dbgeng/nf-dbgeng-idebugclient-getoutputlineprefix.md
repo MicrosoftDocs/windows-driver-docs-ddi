@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -50,18 +50,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
     Gets the prefix used for multiple lines of output.
-
-
-## -syntax
-
-
-````
-HRESULT GetOutputLinePrefix(
-  [out]           writes_opt_(BufferSize) PSTR Buffer,
-  [in]            ULONG                        BufferSize,
-  [out, optional] PULONG                       PrefixSize
-);
-````
 
 
 ## -parameters
@@ -128,10 +116,10 @@ Some of the engine commands produce
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient.md">IDebugClient</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549827">IDebugClient</a>
  
 
  

@@ -52,17 +52,6 @@ req.typenames: DXGI_DDI_MULTIPLANE_OVERLAY_CAPS
 Used by the user-mode display driver to specify overlay plane capabilities.
 
 
-## -syntax
-
-
-````
-typedef struct DXGI_DDI_MULTIPLANE_OVERLAY_CAPS {
-  UINT MaxPlanes;
-  UINT NumCapabilityGroups;
-} DXGI_DDI_MULTIPLANE_OVERLAY_CAPS;
-````
-
-
 ## -struct-fields
 
 

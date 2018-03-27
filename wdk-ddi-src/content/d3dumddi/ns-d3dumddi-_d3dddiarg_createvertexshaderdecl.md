@@ -52,17 +52,6 @@ req.typenames: D3DDDIARG_CREATEVERTEXSHADERDECL
 The D3DDDIARG_CREATEVERTEXSHADERDECL structure specifies a shader handle to associate with the vertex shader declaration.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DDDIARG_CREATEVERTEXSHADERDECL {
-  UINT   NumVertexElements;
-  HANDLE ShaderHandle;
-} D3DDDIARG_CREATEVERTEXSHADERDECL;
-````
-
-
 ## -struct-fields
 
 
@@ -70,7 +59,7 @@ typedef struct _D3DDDIARG_CREATEVERTEXSHADERDECL {
 
 ### -field NumVertexElements
 
-[in] The number of vertex elements in the array that is passed to the <i>pVertexElements</i> parameter in a call to the user-mode display driver's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createvertexshaderdecl.md">CreateVertexShaderDecl</a> function.
+[in] The number of vertex elements in the array that is passed to the <i>pVertexElements</i> parameter in a call to the user-mode display driver's <a href="https://msdn.microsoft.com/00c53e81-93db-46b8-b65c-c8d62059452a">CreateVertexShaderDecl</a> function.
 
 
 ### -field ShaderHandle
@@ -91,10 +80,10 @@ For more information about programming shader assemblers, see <a href="https://m
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createvertexshaderdecl.md">CreateVertexShaderDecl</a>
 
 
 
+<a href="https://msdn.microsoft.com/00c53e81-93db-46b8-b65c-c8d62059452a">CreateVertexShaderDecl</a>
  
 
  

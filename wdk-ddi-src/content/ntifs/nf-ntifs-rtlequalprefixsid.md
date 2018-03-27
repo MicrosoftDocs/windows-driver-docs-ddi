@@ -52,17 +52,6 @@ req.typenames: TOKEN_TYPE
 The <b>RtlEqualPrefixSid</b> routine determines whether two security-identifier (SID) prefixes are equal. An SID prefix is the entire SID except for the last subauthority value. 
 
 
-## -syntax
-
-
-````
-BOOLEAN RtlEqualPrefixSid(
-  _In_ PSID Sid1,
-  _In_ PSID Sid2
-);
-````
-
-
 ## -parameters
 
 
@@ -104,22 +93,22 @@ For more information about security and access control, see the documentation on
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-rtlequalsid.md">RtlEqualSid</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-rtlvalidsid.md">RtlValidSid</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552146">RtlCopySid</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-rtlcopysid.md">RtlCopySid</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552260">RtlEqualSid</a>
 
 
 
-<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553314">RtlValidSid</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556740">SID</a>
  
 
  

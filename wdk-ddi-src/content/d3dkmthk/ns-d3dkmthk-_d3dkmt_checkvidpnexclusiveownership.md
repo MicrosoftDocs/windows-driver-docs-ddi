@@ -52,17 +52,6 @@ req.typenames: D3DKMT_CHECKVIDPNEXCLUSIVEOWNERSHIP
 The D3DKMT_CHECKVIDPNEXCLUSIVEOWNERSHIP structure describes the parameters to determine the video present source in the path of a video present network (VidPN) topology that exclusively owns the VidPN.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DKMT_CHECKVIDPNEXCLUSIVEOWNERSHIP {
-  D3DKMT_HANDLE                  hAdapter;
-  D3DDDI_VIDEO_PRESENT_SOURCE_ID VidPnSourceId;
-} D3DKMT_CHECKVIDPNEXCLUSIVEOWNERSHIP;
-````
-
-
 ## -struct-fields
 
 
@@ -80,10 +69,10 @@ typedef struct _D3DKMT_CHECKVIDPNEXCLUSIVEOWNERSHIP {
 
 ## -see-also
 
-<a href="..\d3dkmthk\nc-d3dkmthk-pfnd3dkmt_checkvidpnexclusiveownership.md">D3DKMTCheckVidPnExclusiveOwnership</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546779">D3DKMTCheckVidPnExclusiveOwnership</a>
  
 
  

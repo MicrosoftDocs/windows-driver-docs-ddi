@@ -53,20 +53,6 @@ req.typenames: NET_DMA_PNP_NOTIFICATION, *PNET_DMA_PNP_NOTIFICATION
   interface.
 
 
-## -syntax
-
-
-````
-typedef struct _NET_DMA_PNP_NOTIFICATION {
-  ULONG                         StructureRevision;
-  ULONG                         StructureSize;
-  NET_DMA_PNP_NOTIFICATION_CODE NotificationCode;
-  PVOID                         Buffer;
-  ULONG                         BufferLength;
-} NET_DMA_PNP_NOTIFICATION, *PNET_DMA_PNP_NOTIFICATION;
-````
-
-
 ## -struct-fields
 
 
@@ -89,7 +75,7 @@ The size, in bytes, of the notification structure. This size does not include th
 ### -field NotificationCode
 
 A value that identifies the DMA provider event. This value must be one of the values from the 
-     <a href="..\netdma\ne-netdma-_net_dma_pnp_notification_code.md">
+     <a href="https://msdn.microsoft.com/1c9c09ae-5b7a-4482-8f6b-1ad5ede5b3f5">
      NET_DMA_PNP_NOTIFICATION_CODE</a> enumeration.
 
 
@@ -114,7 +100,7 @@ The length, in bytes, of the notification-specific data at the
 
 
 To send a power management notification to the NetDMA interface, NetDMA provider drivers call the 
-    <a href="..\netdma\nf-netdma-netdmapnpeventnotify.md">NetDmaPnPEventNotify</a> function and
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff568332">NetDmaPnPEventNotify</a> function and
     provide a pointer to a NET_DMA_PNP_NOTIFICATION structure at the 
     <i>PnPEvent</i> parameter.
 
@@ -123,14 +109,14 @@ To send a power management notification to the NetDMA interface, NetDMA provider
 
 ## -see-also
 
-<a href="..\netdma\ne-netdma-_net_dma_pnp_notification_code.md">NET_DMA_PNP_NOTIFICATION_CODE</a>
 
 
 
-<a href="..\netdma\nf-netdma-netdmapnpeventnotify.md">NetDmaPnPEventNotify</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568736">NET_DMA_PNP_NOTIFICATION_CODE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568332">NetDmaPnPEventNotify</a>
  
 
  

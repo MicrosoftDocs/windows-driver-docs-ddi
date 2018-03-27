@@ -53,18 +53,6 @@ req.product: Windows 10 or later.
 The WWAN_DEVICE_SERVICE_EVENT structure represents an unsolicited device service event.
 
 
-## -syntax
-
-
-````
-typedef struct _WWAN_DEVICE_SERVICE_EVENT {
-  GUID  DeviceServiceGuid;
-  ULONG EventID;
-  ULONG uDataSize;
-} WWAN_DEVICE_SERVICE_EVENT, *PWWAN_DEVICE_SERVICE_EVENT;
-````
-
-
 ## -struct-fields
 
 
@@ -82,15 +70,15 @@ The ID for the event.
 
 ### -field uDataSize
 
-The size, in bytes, of the device service event data that follows the structure instance in memory. This value should not exceed the value of the <b>uMaxCommandDataSize</b> member of the <a href="..\wwan\ns-wwan-_wwan_supported_device_services.md">WWAN_SUPPORTED_DEVICE_SERVICES</a> structure.
+The size, in bytes, of the device service event data that follows the structure instance in memory. This value should not exceed the value of the <b>uMaxCommandDataSize</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh831880">WWAN_SUPPORTED_DEVICE_SERVICES</a> structure.
 
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_supported_device_services.md">WWAN_SUPPORTED_DEVICE_SERVICES</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh831880">WWAN_SUPPORTED_DEVICE_SERVICES</a>
  
 
  

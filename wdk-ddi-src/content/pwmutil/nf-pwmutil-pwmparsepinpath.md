@@ -7,7 +7,7 @@ old-location: kernel\pwmparsepinpath.htm
 old-project: kernel
 ms.assetid: 854A2B6F-A841-4AE4-9E54-68EF048C9504
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/1/2018
 ms.keywords: PwmParsePinPath, PwmParsePinPath function [Kernel-Mode Driver Architecture], kernel.pwmparsepinpath, pwmutil/PwmParsePinPath
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,17 +52,6 @@ req.product: Windows 10 or later.
 
     Parses a pin path under the Pulse Width Modulation (PWM) controller namespace to validate
     its format and extract the pin number.
-
-
-## -syntax
-
-
-````
-NTSTATUS PwmParsePinPath(
-  _In_      UNICODE_STRING *PinPath,
-  _Out_opt_ ULONG          *PinNumber
-);
-````
 
 
 ## -parameters

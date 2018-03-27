@@ -52,18 +52,6 @@ req.typenames: FEATURE_DATA_DVD_CSS, *PFEATURE_DATA_DVD_CSS
 The FEATURE_DATA_DVD_CSS structure holds information about the DVD Content Scrambling System (CSS) feature.
 
 
-## -syntax
-
-
-````
-typedef struct _FEATURE_DATA_DVD_CSS {
-  FEATURE_HEADER Header;
-  UCHAR          Reserved1[3];
-  UCHAR          CssVersion;
-} FEATURE_DATA_DVD_CSS, *PFEATURE_DATA_DVD_CSS;
-````
-
-
 ## -struct-fields
 
 
@@ -71,7 +59,7 @@ typedef struct _FEATURE_DATA_DVD_CSS {
 
 ### -field Header
 
-Contains a <a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a> structure with header information for this feature descriptor. 
+Contains a <a href="https://msdn.microsoft.com/library/windows/hardware/ff553848">FEATURE_HEADER</a> structure with header information for this feature descriptor. 
 
 
 ### -field Reserved1
@@ -95,14 +83,14 @@ This structure holds data for the feature named "DVD-CSS" by the <i>MMC-3 </i>sp
 
 ## -see-also
 
-<a href="..\ntddmmc\ne-ntddmmc-_feature_number.md">FEATURE_NUMBER</a>
 
 
 
-<a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553848">FEATURE_HEADER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553850">FEATURE_NUMBER</a>
  
 
  

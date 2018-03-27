@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
@@ -51,19 +51,6 @@ req.product: Windows 10 or later.
 
 
 The  PrintSchemaConstrainedSetting enumeration specifies whether the Option is available based on the current device configuration. The <b>constrained</b> attribute appears only in a PrintCapabilities document.
-
-
-## -syntax
-
-
-````
-typedef enum tagPrintSchemaConstrainedSetting { 
-  PrintSchemaConstrainedSetting_None         = 0,
-  PrintSchemaConstrainedSetting_PrintTicket  = 1,
-  PrintSchemaConstrainedSetting_Admin        = 2,
-  PrintSchemaConstrainedSetting_Device       = 3
-} PrintSchemaConstrainedSetting;
-````
 
 
 ## -enum-fields
@@ -93,10 +80,10 @@ The Option is constrained by the device configuration. The Option should not be 
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/57E13395-9E23-4708-B4EC-6839CB6FC62B">IPrintSchemaOption::Constrained</a>
-
-
-
  
 
  

@@ -53,18 +53,6 @@ The
   WDI_TXRX_MPDU_PN union defines the parameters that are passed down to the TXRX component.
 
 
-## -syntax
-
-
-````
-typedef union _WDI_TXRX_MPDU_PN {
-  UINT32 Pn24;
-  UINT64 Pn48;
-  UINT64 Pn128[2];
-} WDI_TXRX_MPDU_PN;
-````
-
-
 ## -struct-fields
 
 

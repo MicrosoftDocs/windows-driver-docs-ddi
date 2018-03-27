@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,23 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <code>OEMTransparentBlt</code> function provides bit-block transfer capabilities with transparency.
-
-
-## -syntax
-
-
-````
-BOOL APIENTRY OEMTransparentBlt(
-   SURFOBJ  *psoDst,
-   STRFOBJ  *psoSrc,
-   CLIPOBJ  *pco,
-   XLATEOBJ *pxlo,
-   RECTL    *prclDst,
-   RECTL    *prclSrc,
-   ULONG    iTransColor,
-   ULONG    ulReserved
-);
-````
 
 
 ## -parameters

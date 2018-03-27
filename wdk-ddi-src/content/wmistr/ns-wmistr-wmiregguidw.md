@@ -7,7 +7,7 @@ old-location: kernel\wmiregguid.htm
 old-project: kernel
 ms.assetid: f9f240ea-5689-4d33-8da7-b1cb7e66bc5b
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/1/2018
 ms.keywords: "*PWMIREGGUIDW, PWMIREGGUID, PWMIREGGUID structure pointer [Kernel-Mode Driver Architecture], WMIREGGUID, WMIREGGUID structure [Kernel-Mode Driver Architecture], WMIREGGUIDW, WMIREGGUIDW structure [Kernel-Mode Driver Architecture], kernel.wmiregguid, kstruct_d_1e7b2ada-5e56-42ed-bd0a-ec9bf25796f2.xml, wmistr/PWMIREGGUID, wmistr/WMIREGGUID"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,24 +53,6 @@ req.product: Windows 10 or later.
 The <b>WMIREGGUID</b> structure contains new or updated registration information for a data block or event block.
 
 
-## -syntax
-
-
-````
-typedef struct {
-  GUID  Guid;
-  ULONG Flags;
-  ULONG InstanceCount;
-  union {
-    ULONG     InstanceNameList;
-    ULONG     BaseNameOffset;
-    ULONG_PTR Pdo;
-    ULONG_PTR InstanceInfo;
-  };
-} WMIREGGUID, *PWMIREGGUID;
-````
-
-
 ## -struct-fields
 
 
@@ -93,7 +75,7 @@ If a block is being registered with static instance names, a driver sets one of 
 
 #### WMIREG_FLAG_INSTANCE_LIST
 
-Indicates that the driver provides static instance names for this block in a static list following the <a href="..\wmistr\ns-wmistr-wmireginfow.md">WMIREGINFO</a> structure in the buffer at <b>IrpStack-&gt;Parameters.WMI.Buffer</b>. If this flag is set, <b>InstanceNameList</b> is the offset in bytes from the beginning of the <b>WMIREGINFO</b> structure that contains this <b>WMIREGGUID</b> to a contiguous series of <b>InstanceCount</b> counted Unicode strings.
+Indicates that the driver provides static instance names for this block in a static list following the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565832">WMIREGINFO</a> structure in the buffer at <b>IrpStack-&gt;Parameters.WMI.Buffer</b>. If this flag is set, <b>InstanceNameList</b> is the offset in bytes from the beginning of the <b>WMIREGINFO</b> structure that contains this <b>WMIREGGUID</b> to a contiguous series of <b>InstanceCount</b> counted Unicode strings.
 
 
 
@@ -189,11 +171,10 @@ A driver can register or update a block with either static or dynamic instance n
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551731">IRP_MN_REGINFO</a>
-
-
-
-<a href="..\wmistr\ns-wmistr-wmireginfow.md">WMIREGINFO</a>
 
 
 
@@ -201,9 +182,10 @@ A driver can register or update a block with either static or dynamic instance n
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565832">WMIREGINFO</a>
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20WMIREGGUIDW structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20WMIREGGUIDW structure%20 RELEASE:%20(3/1/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

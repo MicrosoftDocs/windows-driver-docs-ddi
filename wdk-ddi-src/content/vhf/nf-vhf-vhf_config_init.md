@@ -51,20 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-Use the <b>VHF_CONFIG_INIT</b> function to initialize the required members of the <a href="..\vhf\ns-vhf-_vhf_config.md">VHF_CONFIG</a> structure allocated by the HID source driver.
-
-
-## -syntax
-
-
-````
-FORCEINLINE void VHF_CONFIG_INIT(
-  _Out_ PVHF_CONFIG                                     Config,
-  _In_  PDEVICE_OBJECT                                  DeviceObject,
-  _In_  USHORT                                          ReportDescriptorLength,
-        _In_reads_bytes_(ReportDescriptorLength) PUCHAR ReportDescriptor
-);
-````
+Use the <b>VHF_CONFIG_INIT</b> function to initialize the required members of the <a href="https://msdn.microsoft.com/library/windows/hardware/dn925044">VHF_CONFIG</a> structure allocated by the HID source driver.
 
 
 ## -parameters
@@ -74,12 +61,12 @@ FORCEINLINE void VHF_CONFIG_INIT(
 
 ### -param Config [out]
 
-A pointer to the <a href="..\vhf\ns-vhf-_vhf_config.md">VHF_CONFIG</a> structure to initialize.
+A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/dn925044">VHF_CONFIG</a> structure to initialize.
 
 
 ### -param DeviceObject [in]
 
-A pointer to the <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a> structure for the HID source driver. Get that pointer by calling  <a href="..\wdfdevice\nf-wdfdevice-wdfdevicewdmgetdeviceobject.md">WdfDeviceWdmGetDeviceObject</a> and passing the WDFDEVICE handle that the driver received in the <a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a> call. 
+A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a> structure for the HID source driver. Get that pointer by calling  <a href="https://msdn.microsoft.com/library/windows/hardware/ff546942">WdfDeviceWdmGetDeviceObject</a> and passing the WDFDEVICE handle that the driver received in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff545926">WdfDeviceCreate</a> call. 
 
 
 ### -param ReportDescriptorLength [in]
@@ -103,10 +90,10 @@ This function does not return a value.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/26964963-792F-4529-B4FC-110BF5C65B35">Write a HID source driver by using Virtual HID Framework (VHF)</a>
-
-
-
  
 
  

@@ -53,18 +53,6 @@ req.product: Windows 10 or later.
 The WDI_EXEMPTION_PACKET_TYPE enumeration defines the types of packet exemptions.
 
 
-## -syntax
-
-
-````
-typedef enum _WDI_EXEMPTION_PACKET_TYPE { 
-  WDI_EXEMPT_PACKET_TYPE_UNICAST    = 1,
-  WDI_EXEMPT_PACKET_TYPE_MULTICAST  = 2,
-  WDI_EXEMPT_PACKET_TYPE_BOTH       = 3
-} WDI_EXEMPTION_PACKET_TYPE;
-````
-
-
 ## -enum-fields
 
 

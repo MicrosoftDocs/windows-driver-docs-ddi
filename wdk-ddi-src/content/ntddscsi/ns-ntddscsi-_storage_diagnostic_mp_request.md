@@ -49,24 +49,7 @@ req.typenames: STORAGE_DIAGNOSTIC_MP_REQUEST, *PSTORAGE_DIAGNOSTIC_MP_REQUEST
 ## -description
 
 
-Describes  a diagnostic request to Miniport. The <b>STORAGE_DIAGNOSTIC_MP_REQUEST</b> structure is provided in the input/output buffer of an  <a href="..\ntddscsi\ni-ntddscsi-ioctl_scsi_miniport_diagnostic.md">IOCTL_SCSI_MINIPORT_DIAGNOSTIC</a> request.
-
-
-## -syntax
-
-
-````
-typedef struct _STORAGE_DIAGNOSTIC_MP_REQUEST {
-  ULONG                           Version;
-  ULONG                           Size;
-   STORAGE_DIAGNOSTIC_TARGET_TYPE TargetType;
-  STORAGE_DIAGNOSTIC_LEVEL        Level;
-  GUID                            ProviderId;
-  ULONG                           BufferSize;
-  ULONG                           Reserved;
-   _Field_size_(BufferSize) UCHAR DataBuffer[ANYSIZE_ARRAY];
-} STORAGE_DIAGNOSTIC_MP_REQUEST, *PSTORAGE_DIAGNOSTIC_MP_REQUEST;
-````
+Describes  a diagnostic request to Miniport. The <b>STORAGE_DIAGNOSTIC_MP_REQUEST</b> structure is provided in the input/output buffer of an  <a href="https://msdn.microsoft.com/79E89E4A-3B06-40FA-BFA6-598331C0A330">IOCTL_SCSI_MINIPORT_DIAGNOSTIC</a> request.
 
 
 ## -struct-fields
@@ -86,12 +69,12 @@ Specifies the whole size of the structure and the associated data buffer.
 
 ### -field TargetType
 
-Specifies the request target type. See definitions for <a href="..\ntddstor\ne-ntddstor-_storage_diagnostic_target_type.md">STORAGE_DIAGNOSTIC_TARGET_TYPE</a>.
+Specifies the request target type. See definitions for <a href="https://msdn.microsoft.com/8BC338FB-7C76-49D3-96E5-0F20C4A250CE">STORAGE_DIAGNOSTIC_TARGET_TYPE</a>.
 
 
 ### -field Level
 
-Specifies the Diagnostic level. See definitions for <a href="..\ntddstor\ne-ntddstor-_storage_diagnostic_level.md">STORAGE_DIAGNOSTIC_LEVEL</a>.
+Specifies the Diagnostic level. See definitions for <a href="https://msdn.microsoft.com/6D705DA8-7F45-4C7A-813F-5AE4F5A1D8ED">STORAGE_DIAGNOSTIC_LEVEL</a>.
 
 
 ### -field ProviderId
@@ -118,22 +101,22 @@ Specifies the Diagnostic data buffer.
 
 ## -see-also
 
-<a href="..\ntddscsi\ni-ntddscsi-ioctl_scsi_miniport_diagnostic.md">IOCTL_SCSI_MINIPORT_DIAGNOSTIC</a>
 
 
 
-<a href="..\ntddstor\ne-ntddstor-_storage_diagnostic_target_type.md">STORAGE_DIAGNOSTIC_TARGET_TYPE</a>
+<a href="https://msdn.microsoft.com/79E89E4A-3B06-40FA-BFA6-598331C0A330">IOCTL_SCSI_MINIPORT_DIAGNOSTIC</a>
 
 
 
-<a href="..\ntddstor\ne-ntddstor-_storage_diagnostic_level.md">STORAGE_DIAGNOSTIC_LEVEL</a>
+<a href="https://msdn.microsoft.com/68BC990B-DD0C-49CD-95EC-672FD1459B39">STORAGE_DIAGNOSTIC_DATA</a>
 
 
 
-<a href="..\ntddstor\ns-ntddstor-_storage_diagnostic_data.md">STORAGE_DIAGNOSTIC_DATA</a>
+<a href="https://msdn.microsoft.com/6D705DA8-7F45-4C7A-813F-5AE4F5A1D8ED">STORAGE_DIAGNOSTIC_LEVEL</a>
 
 
 
+<a href="https://msdn.microsoft.com/8BC338FB-7C76-49D3-96E5-0F20C4A250CE">STORAGE_DIAGNOSTIC_TARGET_TYPE</a>
  
 
  

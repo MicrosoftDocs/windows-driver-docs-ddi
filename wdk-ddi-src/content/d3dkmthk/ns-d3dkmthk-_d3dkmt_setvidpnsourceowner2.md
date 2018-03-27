@@ -52,17 +52,6 @@ req.typenames: D3DKMT_SETVIDPNSOURCEOWNER2
 Used to set the VidPN source owner.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DKMT_SETVIDPNSOURCEOWNER2 {
-  D3DKMT_SETVIDPNSOURCEOWNER1 Version1;
-  HANDLE const*               *pVidPnSourceNtHandles;
-} D3DKMT_SETVIDPNSOURCEOWNER2;
-````
-
-
 ## -struct-fields
 
 

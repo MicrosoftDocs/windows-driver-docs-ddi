@@ -52,21 +52,6 @@ req.typenames: DXGK_SET_TIMING_FLAGS
 Structure to hold flags used to modify SetTiming behavior.  Currently no flags are defined.
 
 
-## -syntax
-
-
-````
-typedef struct _DXGK_SET_TIMING_FLAGS {
-  union {
-    struct {
-      UINT Reserved;
-    };
-    UINT Value;
-  };
-} DXGK_SET_TIMING_FLAGS, *PDXGK_SET_TIMING_FLAGS;
-````
-
-
 ## -struct-fields
 
 

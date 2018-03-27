@@ -52,17 +52,6 @@ req.typenames: D3D12DDI_VIDEO_DECODE_PROFILE_COUNT_DATA_0032
 Video decode profile count data.
 
 
-## -syntax
-
-
-````
-typedef struct _D3D12DDI_VIDEO_DECODE_PROFILE_COUNT_DATA_0032 {
-  UINT  NodeIndex;
-  UINT  ProfileCount;
-} D3D12DDI_VIDEO_DECODE_PROFILE_COUNT_DATA_0032, D3D12DDI_VIDEO_DECODE_PROFILE_COUNT_DATA_0032;
-````
-
-
 ## -struct-fields
 
 

@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 The <b>VideoPortGetDmaAdapter</b> function returns a pointer to a <b>VP_DMA_ADAPTER</b> structure, which is used in subsequent calls to other DMA-related functions.
 
 
-## -syntax
-
-
-````
-PVP_DMA_ADAPTER VideoPortGetDmaAdapter(
-  _In_ PVOID                  HwDeviceExtension,
-  _In_ PVP_DEVICE_DESCRIPTION VpDeviceDescription
-);
-````
-
-
 ## -parameters
 
 
@@ -76,7 +65,7 @@ Pointer to the miniport driver's device extension.
 
 ### -param VpDeviceDescription [in]
 
-Pointer to a <a href="..\video\ns-video-_vp_device_description.md">VP_DEVICE_DESCRIPTION</a> structure, which describes the attributes of the physical device.
+Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff570569">VP_DEVICE_DESCRIPTION</a> structure, which describes the attributes of the physical device.
 
 
 ## -returns
@@ -119,22 +108,22 @@ This structure is available in Windows XP and later.
 
 ## -see-also
 
-<a href="..\video\nf-video-videoportputdmaadapter.md">VideoPortPutDmaAdapter</a>
 
 
 
-<a href="..\video\nf-video-videoportcompletedma.md">VideoPortCompleteDma</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570569">VP_DEVICE_DESCRIPTION</a>
 
 
 
-<a href="..\video\nf-video-videoportstartdma.md">VideoPortStartDma</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570286">VideoPortCompleteDma</a>
 
 
 
-<a href="..\video\ns-video-_vp_device_description.md">VP_DEVICE_DESCRIPTION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570335">VideoPortPutDmaAdapter</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570369">VideoPortStartDma</a>
  
 
  

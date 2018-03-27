@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -50,22 +50,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>LoadModule</b> callback method is called by the engine when a module-load debugging event occurs in the target.
-
-
-## -syntax
-
-
-````
-HRESULT LoadModule(
-  [in]           ULONG64 ImageFileHandle,
-  [in]           ULONG64 BaseOffset,
-  [in]           ULONG   ModuleSize,
-  [in, optional] PCWSTR  ModuleName,
-  [in, optional] PCWSTR  ImageName,
-  [in]           ULONG   CheckSum,
-  [in]           ULONG   TimeDateStamp
-);
-````
 
 
 ## -parameters

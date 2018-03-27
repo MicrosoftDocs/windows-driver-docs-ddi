@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 The WDI_RADIO_MEASUREMENT_ACTION enumeration defines the radio measurement actions.
 
 
-## -syntax
-
-
-````
-typedef enum _WDI_RADIO_MEASUREMENT_ACTION { 
-  WDI_RADIO_MEASUREMENT_ACTION_NEIGHBOR_REPORT_REQUEST   = 4,
-  WDI_RADIO_MEASUREMENT_ACTION_NEIGHBOR_REPORT_RESPONSE  = 5
-} WDI_RADIO_MEASUREMENT_ACTION;
-````
-
-
 ## -enum-fields
 
 

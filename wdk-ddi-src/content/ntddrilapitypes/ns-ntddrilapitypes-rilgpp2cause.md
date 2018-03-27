@@ -52,16 +52,6 @@ req.typenames: RILGPP2CAUSE, *LPRILGPP2CAUSE
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef struct _RILGPP2CAUSE {
-  DWORD  dwCauseValue;
-} RILGPP2CAUSE, RILGPP2CAUSE;
-````
-
-
 ## -struct-fields
 
 

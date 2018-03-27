@@ -54,22 +54,6 @@ The <b>NDIS_RECEIVE_SCALE_CAPABILITIES</b> structure specifies the <a href="http
   
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_RECEIVE_SCALE_CAPABILITIES {
-  NDIS_OBJECT_HEADER  Header;
-  NDIS_RSS_CAPS_FLAGS CapabilitiesFlags;
-  ULONG               NumberOfInterruptMessages;
-  ULONG               NumberOfReceiveQueues;
-#if (NDIS_SUPPORT_NDIS630)
-  USHORT              NumberOfIndirectionTableEntries;
-#endif 
-} NDIS_RECEIVE_SCALE_CAPABILITIES, *PNDIS_RECEIVE_SCALE_CAPABILITIES;
-````
-
-
 ## -struct-fields
 
 
@@ -78,7 +62,7 @@ typedef struct _NDIS_RECEIVE_SCALE_CAPABILITIES {
 ### -field Header
 
 The 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure for the
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure for the
      <b>NDIS_RECEIVE_SCALE_CAPABILITIES</b> structure. Set the 
      <b>Type</b> member of the structure that 
      <b>Header</b> specifies to <b>NDIS_OBJECT_TYPE_RSS_CAPABILITIES</b>. 
@@ -124,7 +108,7 @@ Set this flag if the NIC supports message-signaled interrupts (MSIs). This flag 
 </dl>
 </td>
 <td width="60%">
-Set this flag if the NIC can indicate to the <a href="..\ndis\nc-ndis-miniport_isr.md">MiniportInterrupt</a> function which target CPUs have
+Set this flag if the NIC can indicate to the <a href="https://msdn.microsoft.com/810503b9-75cd-4b38-ab1f-de240968ded6">MiniportInterrupt</a> function which target CPUs have
         queued received packets.
 
 </td>
@@ -157,7 +141,7 @@ Set this flag if the NIC supports MSIs. This flag is supported in NDIS 6.30 and 
 </td>
 <td width="60%">
 Set this flag if the miniport driver can detect which target CPUs have queued receive packets
-        from its <a href="..\ndis\nc-ndis-miniport_interrupt_dpc.md">MiniportInterruptDPC</a> function.
+        from its <a href="https://msdn.microsoft.com/345715fb-878c-44d8-bf78-f3add10dd02b">MiniportInterruptDPC</a> function.
 
 </td>
 </tr>
@@ -309,8 +293,18 @@ For some workloads, a subset of UDP packets could be fragmented due to route cha
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-receive-scale-capabilities">
-   OID_GEN_RECEIVE_SCALE_CAPABILITIES</a>
+
+
+
+<a href="https://msdn.microsoft.com/810503b9-75cd-4b38-ab1f-de240968ded6">MiniportInterrupt</a>
+
+
+
+<a href="https://msdn.microsoft.com/345715fb-878c-44d8-bf78-f3add10dd02b">MiniportInterruptDPC</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
 
 
 
@@ -319,22 +313,12 @@ For some workloads, a subset of UDP packets could be fragmented due to route cha
 
 
 
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-receive-scale-capabilities">
+   OID_GEN_RECEIVE_SCALE_CAPABILITIES</a>
+
+
+
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-receive-side-scaling2">Receive Side Scaling (RSS)</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_isr.md">MiniportInterrupt</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_interrupt_dpc.md">MiniportInterruptDPC</a>
-
-
-
  
 
  

@@ -52,20 +52,6 @@ req.typenames: RILMESSAGESTATUS
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef enum _RILMESSAGESTATUS { 
-  RIL_MSGSTATUS_RECUNREAD,
-  RIL_MSGSTATUS_RECREAD,
-  RIL_MSGSTATUS_STOUNSENT,
-  RIL_MSGSTATUS_STOSENT,
-  RIL_MSGSTATUS_MAX
-} RILMESSAGESTATUS;
-````
-
-
 ## -enum-fields
 
 

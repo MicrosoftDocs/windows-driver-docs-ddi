@@ -52,19 +52,6 @@ req.typenames: TOKEN_TYPE
 The <b>CcZeroData</b> routine zeros the specified range of bytes in a cached or noncached file.
 
 
-## -syntax
-
-
-````
-BOOLEAN CcZeroData(
-  _In_ PFILE_OBJECT   FileObject,
-  _In_ PLARGE_INTEGER StartOffset,
-  _In_ PLARGE_INTEGER EndOffset,
-  _In_ BOOLEAN        Wait
-);
-````
-
-
 ## -parameters
 
 
@@ -72,7 +59,7 @@ BOOLEAN CcZeroData(
 
 ### -param FileObject [in]
 
-A pointer to a file object (<a href="..\wdm\ns-wdm-_file_object.md">FILE_OBJECT</a>) for the file in which a range of bytes is to be zeroed.
+A pointer to a file object (<a href="https://msdn.microsoft.com/library/windows/hardware/ff545834">FILE_OBJECT</a>) for the file in which a range of bytes is to be zeroed.
 
 
 ### -param StartOffset [in]
@@ -132,18 +119,18 @@ If <i>EndOffset</i> is not aligned, it will be rounded up to the next sector siz
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539135">CcInitializeCacheMap</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539143">CcIsFileCached</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a>
-
-
-
-<a href="..\wdm\ns-wdm-_file_object.md">FILE_OBJECT</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545834">FILE_OBJECT</a>
  
 
  

@@ -53,16 +53,6 @@ req.product: Windows 10 or later.
 The <b>WWAN_UICC_RESET_INFO</b> structure represents the passthrough status of a modem miniport adapter for a UICC smart card.
 
 
-## -syntax
-
-
-````
-typedef struct _WWAN_UICC_RESET_INFO {
-  WWAN_UICC_PASSTHROUGH_STATUS PassThroughStatus;
-} WWAN_UICC_RESET_INFO, *PWWAN_UICC_RESET_INFO;
-````
-
-
 ## -struct-fields
 
 
@@ -70,12 +60,11 @@ typedef struct _WWAN_UICC_RESET_INFO {
 
 ### -field PassThroughStatus
 
-The passthrough status of the miniport adapter. For more info, see <a href="..\wwan\ne-wwan-_wwan_uicc_passthrough_status.md">WWAN_UICC_PASSTHROUGH_STATUS</a>.
+The passthrough status of the miniport adapter. For more info, see <a href="https://msdn.microsoft.com/93D35A64-8394-41C2-BFB8-C8DE93619E75">WWAN_UICC_PASSTHROUGH_STATUS</a>.
 
 
 ## -see-also
 
-<a href="..\wwan\ne-wwan-_wwan_uicc_passthrough_status.md">WWAN_UICC_PASSTHROUGH_STATUS</a>
 
 
 
@@ -83,10 +72,11 @@ The passthrough status of the miniport adapter. For more info, see <a href="..\w
 
 
 
-<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_uicc_reset_info.md">NDIS_WWAN_UICC_RESET_INFO</a>
+<a href="https://msdn.microsoft.com/9CBAFC44-187A-41ED-9405-1208167AC75D">NDIS_WWAN_UICC_RESET_INFO</a>
 
 
 
+<a href="https://msdn.microsoft.com/93D35A64-8394-41C2-BFB8-C8DE93619E75">WWAN_UICC_PASSTHROUGH_STATUS</a>
  
 
  

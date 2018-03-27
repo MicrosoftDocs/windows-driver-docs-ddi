@@ -50,24 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-Contains request flags set by UCX that is  passed in the <a href="..\ucxusbdevice\ns-ucxusbdevice-_usbdevice_update.md">USBDEVICE_UPDATE</a> structure when UCX invokes the client driver's <a href="..\ucxusbdevice\nc-ucxusbdevice-evt_ucx_usbdevice_update.md">EVT_UCX_USBDEVICE_UPDATE</a> callback function.
-
-
-## -syntax
-
-
-````
-typedef struct _USBDEVICE_UPDATE_FLAGS {
-  ULONG UpdateDeviceDescriptor  :1;
-  ULONG UpdateBosDescriptor  :1;
-  ULONG UpdateMaxExitLatency  :1;
-  ULONG UpdateIsHub  :1;
-  ULONG UpdateAllowIoOnInvalidPipeHandles  :1;
-  ULONG Update20HardwareLpmParameters  :1;
-  ULONG UpdateRootPortResumeTime  :1;
-  ULONG Reserved  :26;
-} USBDEVICE_UPDATE_FLAGS, *P_USBDEVICE_UPDATE_FLAGS;
-````
+Contains request flags set by UCX that is  passed in the <a href="https://msdn.microsoft.com/library/windows/hardware/mt188080">USBDEVICE_UPDATE</a> structure when UCX invokes the client driver's <a href="https://msdn.microsoft.com/library/windows/hardware/mt187846">EVT_UCX_USBDEVICE_UPDATE</a> callback function.
 
 
 ## -struct-fields
@@ -117,18 +100,18 @@ Do not use.
 
 ## -see-also
 
-<a href="..\ucxusbdevice\ns-ucxusbdevice-_usbdevice_update_20_hardware_lpm_parameters.md">USBDEVICE_UPDATE_20_HARDWARE_LPM_PARAMETERS</a>
 
 
 
-<a href="..\ucxusbdevice\ns-ucxusbdevice-_usbdevice_update.md">USBDEVICE_UPDATE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt188080">USBDEVICE_UPDATE</a>
 
 
 
-<a href="..\ucxusbdevice\ns-ucxusbdevice-_usbdevice_update_failure_flags.md">USBDEVICE_UPDATE_FAILURE_FLAGS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt188081">USBDEVICE_UPDATE_20_HARDWARE_LPM_PARAMETERS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt188082">USBDEVICE_UPDATE_FAILURE_FLAGS</a>
  
 
  

@@ -52,18 +52,6 @@ req.typenames: FILE_GET_EA_INFORMATION, *PFILE_GET_EA_INFORMATION
 The FILE_GET_EA_INFORMATION structure is used to query for extended-attribute (EA) information. 
 
 
-## -syntax
-
-
-````
-typedef struct _FILE_GET_EA_INFORMATION {
-  ULONG NextEntryOffset;
-  UCHAR EaNameLength;
-  CHAR  EaName[1];
-} FILE_GET_EA_INFORMATION, *PFILE_GET_EA_INFORMATION;
-````
-
-
 ## -struct-fields
 
 
@@ -88,7 +76,7 @@ Specifies the first character of the name of the extended attribute to be querie
 
 
 
-The FILE_GET_EA_INFORMATION structure is used to query for extended-attribute (EA) information. The EA information is returned in a <a href="..\wdm\ns-wdm-_file_full_ea_information.md">FILE_FULL_EA_INFORMATION</a>-structured buffer. 
+The FILE_GET_EA_INFORMATION structure is used to query for extended-attribute (EA) information. The EA information is returned in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff545793">FILE_FULL_EA_INFORMATION</a>-structured buffer. 
 
 This structure must be aligned on a LONG (4-byte) boundary. 
 
@@ -97,11 +85,10 @@ This structure must be aligned on a LONG (4-byte) boundary.
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-iocheckeabuffervalidity.md">IoCheckEaBufferValidity</a>
 
 
 
-<a href="..\wdm\ns-wdm-_file_full_ea_information.md">FILE_FULL_EA_INFORMATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545793">FILE_FULL_EA_INFORMATION</a>
 
 
 
@@ -109,6 +96,7 @@ This structure must be aligned on a LONG (4-byte) boundary.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548252">IoCheckEaBufferValidity</a>
  
 
  

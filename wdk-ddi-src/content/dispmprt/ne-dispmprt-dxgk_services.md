@@ -49,22 +49,7 @@ req.typenames: DXGK_SERVICES
 ## -description
 
 
-The DXGK_SERVICES enumeration indicates the type of interface being requested by a call to the <a href="..\dispmprt\nc-dispmprt-dxgkcb_query_services.md">DxgkCbQueryServices</a> function.
-
-
-## -syntax
-
-
-````
-typedef enum  { 
-  DxgkServicesAgp             = 0,
-  DxgkServicesDebugReport     = 1,
-  DxgkServicesTimedOperation  = 2,
-  DxgkServicesSPB             = 3,
-  DxgkServicesBDD             = 4,
-  DxgkServicesFirmwareTable   = 4
-} DXGK_SERVICES;
-````
+The DXGK_SERVICES enumeration indicates the type of interface being requested by a call to the <a href="https://msdn.microsoft.com/0ce5df90-2019-4a92-97d6-0218acc8b1e8">DxgkCbQueryServices</a> function.
 
 
 ## -enum-fields

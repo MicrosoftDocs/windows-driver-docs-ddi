@@ -49,19 +49,7 @@ req.typenames: D3DKMT_FREEGPUVIRTUALADDRESS
 ## -description
 
 
-<b>D3DKMT_FREEGPUVIRTUALADDRESS</b> is used with <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtfreegpuvirtualaddress.md">FreeGpuVirtualAddress</a> to release a range of graphics processing unit (GPU) virtual addresses that were previously reserved or mapped.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DKMT_FREEGPUVIRTUALADDRESS {
-  D3DKMT_HANDLE          hAdapter;
-  D3DGPU_VIRTUAL_ADDRESS BaseAddress;
-  D3DGPU_SIZE_T          Size;
-} D3DKMT_FREEGPUVIRTUALADDRESS;
-````
+<b>D3DKMT_FREEGPUVIRTUALADDRESS</b> is used with <a href="https://msdn.microsoft.com/E076E9E6-FA7E-4F46-88B4-D3971E62DE1A">FreeGpuVirtualAddress</a> to release a range of graphics processing unit (GPU) virtual addresses that were previously reserved or mapped.
 
 
 ## -struct-fields
@@ -86,10 +74,10 @@ Specifies the size, in bytes, of the range to free. Must be aligned to 4 KB.
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtfreegpuvirtualaddress.md">FreeGpuVirtualAddress</a>
 
 
 
+<a href="https://msdn.microsoft.com/E076E9E6-FA7E-4F46-88B4-D3971E62DE1A">FreeGpuVirtualAddress</a>
  
 
  

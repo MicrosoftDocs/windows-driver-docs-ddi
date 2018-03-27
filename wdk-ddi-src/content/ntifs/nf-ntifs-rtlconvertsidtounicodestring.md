@@ -49,19 +49,7 @@ req.typenames: TOKEN_TYPE
 ## -description
 
 
-The <b>RtlConvertSidToUnicodeString</b> routine generates a printable Unicode string representation of a security identifier (<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>). 
-
-
-## -syntax
-
-
-````
-NTSTATUS RtlConvertSidToUnicodeString(
-  _Inout_ PUNICODE_STRING UnicodeString,
-  _In_    PSID            Sid,
-  _In_    BOOLEAN         AllocateDestinationString
-);
-````
+The <b>RtlConvertSidToUnicodeString</b> routine generates a printable Unicode string representation of a security identifier (<a href="https://msdn.microsoft.com/library/windows/hardware/ff556740">SID</a>). 
 
 
 ## -parameters
@@ -71,7 +59,7 @@ NTSTATUS RtlConvertSidToUnicodeString(
 
 ### -param UnicodeString [in, out]
 
-A pointer to a <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure to contain the generated Unicode string.  The <i>UnicodeString-&gt;MaximumLength</i> member is set only if <i>AllocateDestinationString</i> is <b>TRUE</b>.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> structure to contain the generated Unicode string.  The <i>UnicodeString-&gt;MaximumLength</i> member is set only if <i>AllocateDestinationString</i> is <b>TRUE</b>.
 
 
 ### -param Sid [in]
@@ -175,25 +163,25 @@ Otherwise the IdentifierAuthority will be generated as hexadecimal. For example,
 </table></span></div>
 All other members in the <i>SID</i> will be generated as decimal.
 
-If <i>AllocateDestinationString</i> is <b>TRUE</b>, the allocated buffer must be deallocated by using <a href="..\wudfwdm\nf-wudfwdm-rtlfreeunicodestring.md">RtlFreeUnicodeString</a>.
+If <i>AllocateDestinationString</i> is <b>TRUE</b>, the allocated buffer must be deallocated by using <a href="https://msdn.microsoft.com/library/windows/hardware/ff561903">RtlFreeUnicodeString</a>.
 
 
 
 
 ## -see-also
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 
 
-<a href="..\wudfwdm\nf-wudfwdm-rtlfreeunicodestring.md">RtlFreeUnicodeString</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561903">RtlFreeUnicodeString</a>
 
 
 
-<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556740">SID</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a>
  
 
  

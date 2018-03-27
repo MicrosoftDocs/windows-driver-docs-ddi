@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
       PosCxCleanupEvents is called to clean up all pending events for a given  
 
       caller, identified by the open instance.
-
-
-## -syntax
-
-
-````
-VOID PosCxCleanupEvents(
-  _In_ WDFDEVICE     device,
-  _In_ WDFFILEOBJECT fileObject
-);
-````
 
 
 ## -parameters

@@ -55,16 +55,6 @@ Initiates wake up from a low link power state for a virtual USB 2.0 device.
 
 
 
-## -syntax
-
-
-````
-void UdecxUsbDeviceSignalWake(
-  _In_ UDECXUSBDEVICE UdecxUsbDevice
-);
-````
-
-
 ## -parameters
 
 
@@ -72,7 +62,7 @@ void UdecxUsbDeviceSignalWake(
 
 ### -param UdecxUsbDevice [in]
 
-A handle to UDE device object. The client driver retrieved this pointer in the previous call to <a href="..\udecxusbdevice\nf-udecxusbdevice-udecxusbdevicecreate.md">UdecxUsbDeviceCreate</a>.
+A handle to UDE device object. The client driver retrieved this pointer in the previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/mt595959">UdecxUsbDeviceCreate</a>.
 
 
 ## -returns
@@ -88,7 +78,7 @@ This function does not return a value.
 
 
 
-The client driver for the device must have enabled wake capability in the most recent <a href="..\udecxusbdevice\nc-udecxusbdevice-evt_udecx_usb_device_d0_exit.md">EVT_UDECX_USB_DEVICE_D0_EXIT</a> call.
+The client driver for the device must have enabled wake capability in the most recent <a href="https://msdn.microsoft.com/library/windows/hardware/mt595911">EVT_UDECX_USB_DEVICE_D0_EXIT</a> call.
 
 
 
@@ -96,11 +86,6 @@ The client driver for the device must have enabled wake capability in the most r
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
-
-
-
-<a href="..\udecxusbdevice\nc-udecxusbdevice-evt_udecx_usb_device_d0_exit.md">EVT_UDECX_USB_DEVICE_D0_EXIT</a>
 
 
 
@@ -108,6 +93,11 @@ The client driver for the device must have enabled wake capability in the most r
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt595911">EVT_UDECX_USB_DEVICE_D0_EXIT</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
  
 
  

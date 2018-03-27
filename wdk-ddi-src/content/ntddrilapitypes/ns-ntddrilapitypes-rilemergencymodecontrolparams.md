@@ -52,17 +52,6 @@ req.typenames: RILEMERGENCYMODECONTROLPARAMS, *LPRILEMERGENCYMODECONTROLPARAMS
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef struct _RILEMERGENCYMODECONTROLPARAMS {
-  DWORD                                 dwExecutor;
-  RILEMERGENCYMODECONTROLPARAMSCONTROL  dwEmergencyModeControl;
-} RILEMERGENCYMODECONTROLPARAMS, RILEMERGENCYMODECONTROLPARAMS;
-````
-
-
 ## -struct-fields
 
 

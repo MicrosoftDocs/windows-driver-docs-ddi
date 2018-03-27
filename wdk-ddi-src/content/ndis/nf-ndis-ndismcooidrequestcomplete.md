@@ -53,21 +53,8 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 The 
   <b>NdisMCoOidRequestComplete</b> function returns the final status of an OID requestthat a miniport driver's
   
-  <a href="..\ndis\nc-ndis-miniport_co_oid_request.md">MiniportCoOidRequest</a> function
+  <a href="https://msdn.microsoft.com/903bcdc5-9d42-4067-a054-057edc95ccf7">MiniportCoOidRequest</a> function
   returned NDIS_STATUS_PENDING for.
-
-
-## -syntax
-
-
-````
-VOID NdisMCoOidRequestComplete(
-  _In_ NDIS_HANDLE       MiniportAdapterHandle,
-  _In_ NDIS_HANDLE       NdisVcHandle,
-  _In_ PNDIS_OID_REQUEST OidRequest,
-  _In_ NDIS_STATUS       Status
-);
-````
 
 
 ## -parameters
@@ -79,7 +66,7 @@ VOID NdisMCoOidRequestComplete(
 
 A miniport adapter handle that NDIS passed to the 
      <i>MiniportAdapterHandle</i> parameter of the 
-     <a href="..\ndis\nc-ndis-miniport_initialize.md">
+     <a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">
      MiniportInitializeEx</a> function.
 
 
@@ -104,7 +91,7 @@ The final status of the request operation, either NDIS_STATUS_SUCCESS,
 
 A handle that identifies the virtual connection (VC). The miniport driver obtained this handle as
      an input parameter to its 
-     <a href="..\ndis\nc-ndis-miniport_co_create_vc.md">MiniportCoCreateVc</a> function, either
+     <a href="https://msdn.microsoft.com/99eaba29-ce17-4e79-878e-5fdf7411e56c">MiniportCoCreateVc</a> function, either
      when a client set up an outgoing call or when the call manager created a VC for a client-registered
      service access point (SAP). The call manager created the VC to indicate an incoming-call notification.
      If the request is 
@@ -114,9 +101,9 @@ A handle that identifies the virtual connection (VC). The miniport driver obtain
 #### - OidRequest [in]
 
 A pointer to a buffer that is formatted as an 
-     <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a> structure. The miniport
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566710">NDIS_OID_REQUEST</a> structure. The miniport
      driver obtained this pointer as an input parameter to its 
-     <a href="..\ndis\nc-ndis-miniport_co_oid_request.md">
+     <a href="https://msdn.microsoft.com/903bcdc5-9d42-4067-a054-057edc95ccf7">
      MiniportCoOidRequest</a> function.
 
 
@@ -134,46 +121,46 @@ None
 
 
 A CoNDIS miniport driver that returns NDIS_STATUS_PENDING from its 
-    <a href="..\ndis\nc-ndis-miniport_co_oid_request.md">MiniportCoOidRequest</a> function must
+    <a href="https://msdn.microsoft.com/903bcdc5-9d42-4067-a054-057edc95ccf7">MiniportCoOidRequest</a> function must
     call 
     <b>NdisMCoOidRequestComplete</b> after the miniport driver has finished the request operation.
 
 A call to 
     <b>NdisMCoOidRequestComplete</b> causes a call to the 
-    <a href="..\ndis\nc-ndis-protocol_co_oid_request_complete.md">
+    <a href="https://msdn.microsoft.com/16883c64-3cc6-4f50-8be7-7c58c422a717">
     ProtocolCoOidRequestComplete</a> function of the overlying driver that called the 
-    <a href="..\ndis\nf-ndis-ndiscooidrequest.md">NdisCoOidRequest</a> function.
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561711">NdisCoOidRequest</a> function.
 
 
 
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndiscooidrequest.md">NdisCoOidRequest</a>
 
 
 
-<a href="..\ndis\nc-ndis-miniport_co_oid_request.md">MiniportCoOidRequest</a>
+<a href="https://msdn.microsoft.com/99eaba29-ce17-4e79-878e-5fdf7411e56c">MiniportCoCreateVc</a>
 
 
 
-<a href="..\ndis\nc-ndis-protocol_co_oid_request_complete.md">
+<a href="https://msdn.microsoft.com/903bcdc5-9d42-4067-a054-057edc95ccf7">MiniportCoOidRequest</a>
+
+
+
+<a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566710">NDIS_OID_REQUEST</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561711">NdisCoOidRequest</a>
+
+
+
+<a href="https://msdn.microsoft.com/16883c64-3cc6-4f50-8be7-7c58c422a717">
    ProtocolCoOidRequestComplete</a>
-
-
-
-<a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_co_create_vc.md">MiniportCoCreateVc</a>
-
-
-
  
 
  

@@ -52,19 +52,6 @@ req.typenames: GetFcpPersistentBinding_OUT, *PGetFcpPersistentBinding_OUT
 The GetFcpPersistentBinding_OUT structure is used to report the output parameter data of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff553966">GetFcpPersistentBinding</a> WMI method to the WMI client.
 
 
-## -syntax
-
-
-````
-typedef struct _GetFcpPersistentBinding_OUT {
-  ULONG              HBAStatus;
-  ULONG              TotalEntryCount;
-  ULONG              OutEntryCount;
-  HBAFCPBindingEntry Entry[1];
-} GetFcpPersistentBinding_OUT, *PGetFcpPersistentBinding_OUT;
-````
-
-
 ## -struct-fields
 
 
@@ -103,10 +90,10 @@ The WMI tool suite generates a declaration of the GetFcpPersistentBinding_OUT st
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553966">GetFcpPersistentBinding</a>
-
-
-
  
 
  

@@ -52,20 +52,6 @@ req.typenames: DEBUG_CACHED_SYMBOL_INFO, *PDEBUG_CACHED_SYMBOL_INFO
 Defines information about cached symbols.
 
 
-## -syntax
-
-
-````
-typedef struct _DEBUG_CACHED_SYMBOL_INFO {
-  ULONG64 ModBase;
-  ULONG64 Arg1;
-  ULONG64 Arg2;
-  ULONG   Id;
-  ULONG   Arg3;
-} DEBUG_CACHED_SYMBOL_INFO, *PDEBUG_CACHED_SYMBOL_INFO;
-````
-
-
 ## -struct-fields
 
 

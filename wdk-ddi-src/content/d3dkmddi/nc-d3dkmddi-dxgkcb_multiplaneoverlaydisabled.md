@@ -52,17 +52,6 @@ req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
 This callback allows the kernel mode driver to indicate that the current multiplane overlay configuration is no longer supported on the specified VidPnSourceId.
 
 
-## -prototype
-
-
-````
- APIENTRY DXGKCB_MULTIPLANEOVERLAYDISABLED(
-  _In_ const HANDLE hAdapter,
-  _In_ const UINT   VidPnSourceId
-);
-````
-
-
 ## -parameters
 
 

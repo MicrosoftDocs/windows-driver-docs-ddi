@@ -54,19 +54,6 @@ The WWAN_CELLULAR_CLASS enumeration lists the different classes of cellular tech
   supported by the MB device.
 
 
-## -syntax
-
-
-````
-typedef enum _WWAN_CELLULAR_CLASS { 
-  WwanCellularClassUnknown  = 0,
-  WwanCellularClassGsm,
-  WwanCellularClassCdma,
-  WwanCellularClassMax
-} WWAN_CELLULAR_CLASS, *PWWAN_CELLULAR_CLASS;
-````
-
-
 ## -enum-fields
 
 
@@ -94,10 +81,10 @@ The total number of supported cellular classes.
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_device_caps.md">WWAN_DEVICE_CAPS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571204">WWAN_DEVICE_CAPS</a>
  
 
  

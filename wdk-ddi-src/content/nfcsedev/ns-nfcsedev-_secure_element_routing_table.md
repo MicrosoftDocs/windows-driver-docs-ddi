@@ -49,19 +49,7 @@ req.typenames: SECURE_ELEMENT_ROUTING_TABLE, *PSECURE_ELEMENT_ROUTING_TABLE
 ## -description
 
 
-SECURE_ELEMENT_ROUTING_TABLE is an input parameter for <a href="..\nfcsedev\ni-nfcsedev-ioctl_nfcse_set_routing_table.md">IOCTL_NFCSE_SET_ROUTING_TABLE</a>.
-
-
-## -syntax
-
-
-````
-typedef struct _SECURE_ELEMENT_ROUTING_TABLE {
-  DWORD                                                                NumberOfEntries;
-  _Field_size_(NumberOfEntries)
-    SECURE_ELEMENT_ROUTING_TABLE_ENTRY TableEntries[ANYSIZE_ARRAY];
-} SECURE_ELEMENT_ROUTING_TABLE, *P_SECURE_ELEMENT_ROUTING_TABLE;
-````
+SECURE_ELEMENT_ROUTING_TABLE is an input parameter for <a href="https://msdn.microsoft.com/library/windows/hardware/dn905513">IOCTL_NFCSE_SET_ROUTING_TABLE</a>.
 
 
 ## -struct-fields

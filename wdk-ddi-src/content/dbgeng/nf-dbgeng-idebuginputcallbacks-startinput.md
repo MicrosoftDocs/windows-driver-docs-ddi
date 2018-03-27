@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -50,16 +50,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>StartInput</b> callback method is called by the engine to indicate that it is waiting for a line of input.
-
-
-## -syntax
-
-
-````
-HRESULT StartInput(
-  [in] ULONG BufferSize
-);
-````
 
 
 ## -parameters

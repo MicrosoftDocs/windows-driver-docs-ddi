@@ -53,19 +53,6 @@ req.product: Windows 10 or later.
 The WDI_CONNECTION_QUALITY_HINT enumeration defines the Wi-Fi connection quality hints.
 
 
-## -syntax
-
-
-````
-typedef enum _WDI_CONNECTION_QUALITY_HINT { 
-  WDI_CONNECTION_QUALITY_AUTO_POWER_SAVE            = 1,
-  WDI_CONNECTION_QUALITY_LOW_LATENCY                = 2,
-  WDI_CONNECTION_QUALITY_HIGH_THROUGHPUT            = 3,
-  WDI_CONNECTION_QUALITY_HIGH_CHANNEL_AVAILABILITY  = 4
-} WDI_CONNECTION_QUALITY_HINT;
-````
-
-
 ## -enum-fields
 
 

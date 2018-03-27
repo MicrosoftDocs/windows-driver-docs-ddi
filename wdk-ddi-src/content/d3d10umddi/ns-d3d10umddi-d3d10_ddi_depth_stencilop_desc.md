@@ -52,19 +52,6 @@ req.typenames: D3D10_DDI_DEPTH_STENCILOP_DESC
 The D3D10_DDI_DEPTH_STENCILOP_DESC structure describes a depth stencil operation.
 
 
-## -syntax
-
-
-````
-typedef struct D3D10_DDI_DEPTH_STENCILOP_DESC {
-  D3D10_DDI_STENCIL_OP      StencilFailOp;
-  D3D10_DDI_STENCIL_OP      StencilDepthFailOp;
-  D3D10_DDI_STENCIL_OP      StencilPassOp;
-  D3D10_DDI_COMPARISON_FUNC StencilFunc;
-} D3D10_DDI_DEPTH_STENCILOP_DESC;
-````
-
-
 ## -struct-fields
 
 
@@ -72,42 +59,42 @@ typedef struct D3D10_DDI_DEPTH_STENCILOP_DESC {
 
 ### -field StencilFailOp
 
-[in] A <a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_stencil_op.md">D3D10_DDI_STENCIL_OP</a>-typed value that indicates the operation to perform if the stencil test fails.
+[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff542013">D3D10_DDI_STENCIL_OP</a>-typed value that indicates the operation to perform if the stencil test fails.
 
 
 ### -field StencilDepthFailOp
 
-[in] A <a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_stencil_op.md">D3D10_DDI_STENCIL_OP</a>-typed value that indicates the operation to perform if the stencil test passes and the depth test fails.
+[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff542013">D3D10_DDI_STENCIL_OP</a>-typed value that indicates the operation to perform if the stencil test passes and the depth test fails.
 
 
 ### -field StencilPassOp
 
-[in] A <a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_stencil_op.md">D3D10_DDI_STENCIL_OP</a>-typed value that indicates the operation to perform if both stencil and depth tests pass.
+[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff542013">D3D10_DDI_STENCIL_OP</a>-typed value that indicates the operation to perform if both stencil and depth tests pass.
 
 
 ### -field StencilFunc
 
-[in] A <a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_comparison_func.md">D3D10_DDI_COMPARISON_FUNC</a>-typed value that indicates the stencil-comparison function to perform.
+[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff541933">D3D10_DDI_COMPARISON_FUNC</a>-typed value that indicates the stencil-comparison function to perform.
 
 
 ## -see-also
 
-<a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_comparison_func.md">D3D10_DDI_COMPARISON_FUNC</a>
 
 
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_calcprivatedepthstencilstatesize.md">CalcPrivateDepthStencilStateSize</a>
+<a href="https://msdn.microsoft.com/dcc02e1e-97e0-4ccd-8329-8219cad5d09a">CalcPrivateDepthStencilStateSize</a>
 
 
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createdepthstencilstate.md">CreateDepthStencilState</a>
+<a href="https://msdn.microsoft.com/ed2da104-c4e8-43eb-80e0-10273b575020">CreateDepthStencilState</a>
 
 
 
-<a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_stencil_op.md">D3D10_DDI_STENCIL_OP</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541933">D3D10_DDI_COMPARISON_FUNC</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542013">D3D10_DDI_STENCIL_OP</a>
  
 
  

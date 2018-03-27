@@ -54,22 +54,6 @@ req.product: Windows 10 or later.
 The <b>StorPortPoFxPowerControl</b> routine sends a power control request to the power management framework (PoFx) to forward to the power engine plug-in (PEP).
 
 
-## -syntax
-
-
-````
-ULONG StorPortPoFxPowerControl(
-  _In_      PVOID   HwDeviceExtension,
-  _In_      LPCGUID PowerControlCode,
-  _In_opt_  PVOID   InBuffer,
-  _In_      SIZE_T  InBufferSize,
-  _Out_opt_ PVOID   OutBuffer,
-  _In_      SIZE_T  OutBufferSize,
-  _Out_opt_ PSIZE_T BytesReturned
-);
-````
-
-
 ## -parameters
 
 
@@ -77,7 +61,7 @@ ULONG StorPortPoFxPowerControl(
 
 ### -param HwDeviceExtension [in]
 
-A pointer to the hardware device extension for the host bus adapter (HBA). This is the device extension used to register the device in a prior call to <a href="..\storport\nf-storport-storportinitializepofxpower.md">StorPortInitializePoFxPower</a>.
+A pointer to the hardware device extension for the host bus adapter (HBA). This is the device extension used to register the device in a prior call to <a href="https://msdn.microsoft.com/library/windows/hardware/hh920421">StorPortInitializePoFxPower</a>.
 
 
 ### -param Address
@@ -201,21 +185,21 @@ The power control operation was unsuccessful.
 
 A minport driver calls this routine to send a power control request directly to the PEP. A power control request is similar to an I/O control request (IOCTL). Unlike an IOCTL, however, a power control request is sent directly to PEP and is not observed by other device drivers in the device stack. During a <b>StorPortPoFxPowerControl</b> call, the PEP synchronously performs the requested operation.
 
-Similarly, The PEP can send a power control request directly to the miniport. The miniport driver handles this request in its <a href="..\storport\nc-storport-hw_adapter_control.md">HwStorAdapterControl</a> and <a href="..\storport\nc-storport-hw_unit_control.md">HwStorUnitControl</a> routines. The <i>ControlType</i> parameter receives the <b>ScsiAdapterPoFxPowerControl</b> type in the <b>HwStorAdapterControl</b> routine and the <b>ScsiUnitPoFxPowerControl</b> in the <b>HwStorUnitControl</b> routine.
+Similarly, The PEP can send a power control request directly to the miniport. The miniport driver handles this request in its <a href="https://msdn.microsoft.com/library/windows/hardware/ff557365">HwStorAdapterControl</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/hh920398">HwStorUnitControl</a> routines. The <i>ControlType</i> parameter receives the <b>ScsiAdapterPoFxPowerControl</b> type in the <b>HwStorAdapterControl</b> routine and the <b>ScsiUnitPoFxPowerControl</b> in the <b>HwStorUnitControl</b> routine.
 
 
 
 
 ## -see-also
 
-<a href="..\storport\nc-storport-hw_unit_control.md">HwStorUnitControl</a>
 
 
 
-<a href="..\storport\nc-storport-hw_adapter_control.md">HwStorAdapterControl</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557365">HwStorAdapterControl</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh920398">HwStorUnitControl</a>
  
 
  

@@ -53,18 +53,6 @@ The NDIS_WWAN_PIN_INFO structure represents the type and PIN-entry state of Pers
   Number (PIN) information required by the MB device.
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_WWAN_PIN_INFO {
-  NDIS_OBJECT_HEADER Header;
-  WWAN_STATUS        uStatus;
-  WWAN_PIN_INFO      PinInfo;
-} NDIS_WWAN_PIN_INFO, *PNDIS_WWAN_PIN_INFO;
-````
-
-
 ## -struct-fields
 
 
@@ -118,7 +106,7 @@ sizeof(NDIS_WWAN_PIN_INFO)
  
 
 For more information about these members, see 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>.
 
 
 ### -field uStatus
@@ -222,20 +210,20 @@ The operation failed because a
 ### -field PinInfo
 
 A formatted 
-     <a href="..\wwan\ns-wwan-_wwan_pin_info.md">WWAN_PIN_INFO</a> object that represents the type
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571216">WWAN_PIN_INFO</a> object that represents the type
      and PIN-entry state of Personal Identification Number (PIN) information required by the device.
 
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_pin_info.md">WWAN_PIN_INFO</a>
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571216">WWAN_PIN_INFO</a>
  
 
  

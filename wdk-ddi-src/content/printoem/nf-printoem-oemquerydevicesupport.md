@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,23 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <code>OEMQueryDeviceSupport</code> function returns requested device-specific information.
-
-
-## -syntax
-
-
-````
-BOOL APIENTRY OEMQueryDeviceSupport(
-        SURFOBJ                     *pso,
-        XLATEOBJ                    *pxlo,
-        XFORMOBJ                    *pxo,
-        ULONG                       iType,
-        ULONG                       cjIn,
-  _In_  _reads_bytes_(cjIn) PVOID   pvIn,
-        ULONG                       cjOut,
-  _Out_ _writes_bytes_(cjOut) PVOID pvOut
-);
-````
 
 
 ## -parameters

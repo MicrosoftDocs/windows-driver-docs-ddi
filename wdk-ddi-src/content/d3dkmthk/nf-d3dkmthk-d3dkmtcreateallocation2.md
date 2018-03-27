@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -50,16 +50,6 @@ req.typenames: D3DKMT_DRIVERVERSION
 
 
 Reserved for system use. Do not use in your driver.
-
-
-## -syntax
-
-
-````
-NTSTATUS APIENTRY D3DKMTCreateAllocation2(
-  _Inout_ D3DKMT_CREATEALLOCATION *pData
-);
-````
 
 
 ## -parameters

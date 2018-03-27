@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -52,21 +52,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>ReadTypedDataVirtual</b> method reads the value of a variable in the target's virtual memory.
-
-
-## -syntax
-
-
-````
-HRESULT ReadTypedDataVirtual(
-  [in]            ULONG64 Offset,
-  [in]            ULONG64 Module,
-  [in]            ULONG   TypeId,
-  [out]           PVOID   Buffer,
-  [in]            ULONG   BufferSize,
-  [out, optional] PULONG  BytesRead
-);
-````
 
 
 ## -parameters

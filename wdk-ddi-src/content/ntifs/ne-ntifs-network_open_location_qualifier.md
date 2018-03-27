@@ -52,18 +52,6 @@ req.typenames: NETWORK_OPEN_LOCATION_QUALIFIER
 The NETWORK_OPEN_LOCATION_QUALIFIER enumeration type contains values that identify the kind of location restriction to attach to a file.
 
 
-## -syntax
-
-
-````
-typedef enum  { 
-  NetworkOpenLocationAny       = 0,
-  NetworkOpenLocationRemote    = 1,
-  NetworkOpenLocationLoopback  = 2
-} NETWORK_OPEN_LOCATION_QUALIFIER;
-````
-
-
 ## -enum-fields
 
 

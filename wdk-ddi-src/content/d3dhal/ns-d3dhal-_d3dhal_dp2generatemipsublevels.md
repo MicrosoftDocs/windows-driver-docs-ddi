@@ -56,17 +56,6 @@ req.typenames: D3DHAL_DP2GENERATEMIPSUBLEVELS
 The D3DHAL_DP2GENERATEMIPSUBLEVELS structure is used to inform the driver to automatically generate the sublevels of a given MIP-map texture using a given filter type.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DHAL_DP2GENERATEMIPSUBLEVELS {
-  DWORD                hSurface;
-  D3DTEXTUREFILTERTYPE Filter;
-} D3DHAL_DP2GENERATEMIPSUBLEVELS, *LPD3DHAL_DP2GENERATEMIPSUBLEVELS;
-````
-
-
 ## -struct-fields
 
 
@@ -93,10 +82,10 @@ To generate the sublevels of a MIP-map texture, the driver receives a D3DDP2OP_G
 
 ## -see-also
 
+
+
+
 D3DDP2OP_GENERATEMIPSUBLEVELS
-
-
-
  
 
  

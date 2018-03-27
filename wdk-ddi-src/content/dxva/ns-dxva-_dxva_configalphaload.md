@@ -52,18 +52,6 @@ req.typenames: DXVA_ConfigAlphaLoad, *LPDXVA_ConfigAlphaLoad
 The DXVA_ConfigAlphaLoad structure is sent by the host decoder to the accelerator to set the configuration for alpha-blend, texture-loading operations.
 
 
-## -syntax
-
-
-````
-typedef struct _DXVA_ConfigAlphaLoad {
-  DXVA_ConfigQueryOrReplyFunc dwFunction;
-  DWORD                       dwReservedBits[3];
-  BYTE                        bConfigDataType;
-} DXVA_ConfigAlphaLoad, *LPDXVA_ConfigAlphaLoad;
-````
-
-
 ## -struct-fields
 
 

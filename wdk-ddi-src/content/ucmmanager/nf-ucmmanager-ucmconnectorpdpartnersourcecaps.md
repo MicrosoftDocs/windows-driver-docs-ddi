@@ -54,18 +54,6 @@ req.product: Windows 10 or later.
 Notifies the USB connector manager framework extension (UcmCx) with the power source capabilities of the partner connector.
 
 
-## -syntax
-
-
-````
-NTSTATUS UcmConnectorPdPartnerSourceCaps(
-  [in] UCMCONNECTOR              Connector,
-  [in] UCM_PD_POWER_DATA_OBJECT  Pdos[],
-  [in] UCHAR                     PdoCount
-);
-````
-
-
 ## -parameters
 
 
@@ -73,7 +61,7 @@ NTSTATUS UcmConnectorPdPartnerSourceCaps(
 
 ### -param Connector [in]
 
-Handle to the connector object that the client driver received in the previous call to <a href="..\ucmmanager\nf-ucmmanager-ucmconnectorcreate.md">UcmConnectorCreate</a>.
+Handle to the connector object that the client driver received in the previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/mt187909">UcmConnectorCreate</a>.
 
 
 ### -param Pdos
@@ -88,7 +76,7 @@ Number of elements in the array specified by   <i>Pdos[]</i>.
 
 #### - Pdos[] [in]
 
-A caller-allocated array of <a href="..\ucmtypes\ns-ucmtypes-_ucm_pd_power_data_object.md">UCM_PD_POWER_DATA_OBJECT</a> structures that describes the power source capabilities.
+A caller-allocated array of <a href="https://msdn.microsoft.com/library/windows/hardware/mt187935">UCM_PD_POWER_DATA_OBJECT</a> structures that describes the power source capabilities.
 
 
 ## -returns
@@ -145,10 +133,10 @@ If the partner connector is the power sink, the local connector port must query 
 
 ## -see-also
 
-<a href="..\ucmmanager\nf-ucmmanager-ucmconnectorcreate.md">UcmConnectorCreate</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt187909">UcmConnectorCreate</a>
  
 
  

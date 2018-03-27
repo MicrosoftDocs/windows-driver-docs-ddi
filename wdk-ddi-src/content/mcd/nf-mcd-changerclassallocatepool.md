@@ -53,17 +53,6 @@ req.typenames: LAMP_INTENSITY_WHITE
 The <b>ChangerClassAllocatePool</b> function allocates pool memory. 
 
 
-## -syntax
-
-
-````
-PVOID ChangerClassAllocatePool(
-  _In_ POOL_TYPE PoolType,
-  _In_ ULONG     NumberOfBytes
-);
-````
-
-
 ## -parameters
 
 
@@ -71,7 +60,7 @@ PVOID ChangerClassAllocatePool(
 
 ### -param PoolType [in]
 
-Indicates the type of pool memory to allocate. See <a href="..\wudfwdm\ne-wudfwdm-_pool_type.md">POOL_TYPE</a> for a list of types.
+Indicates the type of pool memory to allocate. See <a href="https://msdn.microsoft.com/library/windows/hardware/ff559707">POOL_TYPE</a> for a list of types.
 
 
 ### -param NumberOfBytes [in]
@@ -90,10 +79,10 @@ None
 
 ## -see-also
 
-<a href="..\wudfwdm\ne-wudfwdm-_pool_type.md">POOL_TYPE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559707">POOL_TYPE</a>
  
 
  

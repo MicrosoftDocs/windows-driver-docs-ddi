@@ -52,30 +52,18 @@ req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 The <b>pfnStateDsSrvCb</b> function causes the Microsoft Direct3D 11 runtime to refresh the constant shader resource view state for the domain shader. 
 
 
-## -prototype
-
-
-````
-PFND3D11DDI_STATE_DS_SRV_CB pfnStateDsSrvCb;
-
-void APIENTRY pfnStateDsSrvCb(
-  _In_ D3D10DDI_HRTCORELAYER hRuntimeDevice,
-  _In_ UINT                  Base,
-  _In_ UINT                  Count
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
 
 
-### -param D3D10DDI_HRTCORELAYER
+### -param Arg1
 
 
-### -param UINT
+### -param Arg2
+
+
+### -param Arg3
 
 
 
@@ -96,7 +84,7 @@ void APIENTRY pfnStateDsSrvCb(
 
 #### - hRuntimeDevice [in]
 
- A handle to a context for the core Direct3D runtime. This handle is supplied to the driver in a call to the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createdevice.md">CreateDevice(D3D10)</a> function. 
+ A handle to a context for the core Direct3D runtime. This handle is supplied to the driver in a call to the driver's <a href="https://msdn.microsoft.com/c69eedb1-c975-412c-aa9f-cf64a702f937">CreateDevice(D3D10)</a> function. 
 
 
 ## -returns
@@ -110,14 +98,14 @@ None
 
 ## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d11ddi_corelayer_devicecallbacks.md">D3D11DDI_CORELAYER_DEVICECALLBACKS</a>
 
 
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createdevice.md">CreateDevice(D3D10)</a>
+<a href="https://msdn.microsoft.com/c69eedb1-c975-412c-aa9f-cf64a702f937">CreateDevice(D3D10)</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542137">D3D11DDI_CORELAYER_DEVICECALLBACKS</a>
  
 
  

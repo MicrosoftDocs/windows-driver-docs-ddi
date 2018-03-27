@@ -53,16 +53,6 @@ req.product: Windows 10 or later.
 The <b>UFX_ENDPOINT_CALLBACKS</b> structure is used to define then event callback functions supported by the client driver. 
 
 
-## -syntax
-
-
-````
-typedef struct _UFX_ENDPOINT_CALLBACKS {
-  ULONG Size;
-} UFX_ENDPOINT_CALLBACKS, *PUFX_ENDPOINT_CALLBACKS;
-````
-
-
 ## -struct-fields
 
 

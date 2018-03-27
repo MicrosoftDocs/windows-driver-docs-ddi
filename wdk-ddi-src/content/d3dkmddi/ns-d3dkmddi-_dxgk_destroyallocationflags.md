@@ -52,22 +52,6 @@ req.typenames: DXGK_DESTROYALLOCATIONFLAGS
 The DXGK_DESTROYALLOCATIONFLAGS structure identifies how to release allocations.
 
 
-## -syntax
-
-
-````
-typedef struct _DXGK_DESTROYALLOCATIONFLAGS {
-  union {
-    struct {
-      UINT DestroyResource  :1;
-      UINT Reserved  :31;
-    };
-    UINT Value;
-  };
-} DXGK_DESTROYALLOCATIONFLAGS;
-````
-
-
 ## -struct-fields
 
 
@@ -75,7 +59,7 @@ typedef struct _DXGK_DESTROYALLOCATIONFLAGS {
 
 ### -field DestroyResource
 
-A UINT value that specifies whether the resource that the <b>hResource</b> member of the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_destroyallocation.md">DXGKARG_DESTROYALLOCATION</a> structure specifies should be released along with allocations. 
+A UINT value that specifies whether the resource that the <b>hResource</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff557581">DXGKARG_DESTROYALLOCATION</a> structure specifies should be released along with allocations. 
 
 Setting this member is equivalent to setting the first bit of the 32-bit <b>Value</b> member (0x00000001).
 
@@ -92,10 +76,10 @@ A member in the union that DXGK_DESTROYALLOCATIONFLAGS contains that can hold a 
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_destroyallocation.md">DXGKARG_DESTROYALLOCATION</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557581">DXGKARG_DESTROYALLOCATION</a>
  
 
  

@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -53,16 +53,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>GetCurrentThreadTeb</b> method returns the location of the thread environment block (TEB) for the current thread.
-
-
-## -syntax
-
-
-````
-HRESULT GetCurrentThreadTeb(
-  [out] PULONG64 Offset
-);
-````
 
 
 ## -parameters

@@ -52,16 +52,6 @@ req.typenames: UNIT_DDI_VERSION, *PUNIT_DDI_VERSION
 The UNIT_DDI_VERSION structure is used in conjunction with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff536983">Av61883_GetUnitInfo</a> request to retrieve the current 61883 DDI version.
 
 
-## -syntax
-
-
-````
-typedef struct _UNIT_DDI_VERSION {
-  ULONG Version;
-} UNIT_DDI_VERSION, *PUNIT_DDI_VERSION;
-````
-
-
 ## -struct-fields
 
 
@@ -74,10 +64,10 @@ The current 61883 DDI version.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536983">Av61883_GetUnitInfo</a>
-
-
-
  
 
  

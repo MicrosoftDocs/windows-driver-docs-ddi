@@ -52,20 +52,6 @@ req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
 <b>DxgkCbHardwareContentProtectionTeardown</b> is used to indicate when a hardware content protection event occurs.
 
 
-## -prototype
-
-
-````
-DXGKCB_HARDWARECONTENTPROTECTIONTEARDOWN DxgkCbHardwareContentProtectionTeardown;
-
-VOID APIENTRY CALLBACK* DxgkCbHardwareContentProtectionTeardown(
-   IN_CONST_HANDLE hAdapter,
-   UINT            Flags
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -78,7 +64,7 @@ A handle to the graphics adapter where the tear-down event is occurring.
 
 ### -param Flags
 
-Additional flags defined by <a href="..\d3dkmddi\ne-d3dkmddi-_dxgk_hardware_content_protection_teardown_flags.md">DXGK_HARDWARE_CONTENT_PROTECTION_TEARDOWN_FLAGS</a> enumeration.
+Additional flags defined by <a href="https://msdn.microsoft.com/library/windows/hardware/dn906828">DXGK_HARDWARE_CONTENT_PROTECTION_TEARDOWN_FLAGS</a> enumeration.
 
 
 ## -returns
@@ -106,10 +92,10 @@ The driver can call this callback at either passive level or at dispatch level.
 
 ## -see-also
 
-<a href="..\d3dkmddi\ne-d3dkmddi-_dxgk_hardware_content_protection_teardown_flags.md">DXGK_HARDWARE_CONTENT_PROTECTION_TEARDOWN_FLAGS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn906828">DXGK_HARDWARE_CONTENT_PROTECTION_TEARDOWN_FLAGS</a>
  
 
  

@@ -49,28 +49,7 @@ req.typenames: DISK_PERFORMANCE, *PDISK_PERFORMANCE
 ## -description
 
 
-The DISK_PERFORMANCE structure is used in conjunction with the <a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_performance.md">IOCTL_DISK_PERFORMANCE</a> request to collect summary disk statistics for purposes of measuring disk performance. 
-
-
-## -syntax
-
-
-````
-typedef struct _DISK_PERFORMANCE {
-  LARGE_INTEGER BytesRead;
-  LARGE_INTEGER BytesWritten;
-  LARGE_INTEGER ReadTime;
-  LARGE_INTEGER WriteTime;
-  LARGE_INTEGER IdleTime;
-  ULONG         ReadCount;
-  ULONG         WriteCount;
-  ULONG         QueueDepth;
-  ULONG         SplitCount;
-  LARGE_INTEGER QueryTime;
-  ULONG         StorageDeviceNumber;
-  WCHAR         StorageManagerName[8];
-} DISK_PERFORMANCE, *PDISK_PERFORMANCE;
-````
+The DISK_PERFORMANCE structure is used in conjunction with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560388">IOCTL_DISK_PERFORMANCE</a> request to collect summary disk statistics for purposes of measuring disk performance. 
 
 
 ## -struct-fields
@@ -125,7 +104,7 @@ Contains the number of disk accesses by means of an associated IRP since the per
 
 ### -field QueryTime
 
-Contains a timestamp indicating the system time at the moment that the query took place. System time is a count of 100-nanosecond intervals since January 1, 1601. System time is typically updated approximately every ten milliseconds. For more information about system time, see <a href="..\wdm\nf-wdm-kequerysystemtime.md">KeQuerySystemTime</a>.
+Contains a timestamp indicating the system time at the moment that the query took place. System time is a count of 100-nanosecond intervals since January 1, 1601. System time is typically updated approximately every ten milliseconds. For more information about system time, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff553068">KeQuerySystemTime</a>.
 
 
 ### -field StorageDeviceNumber
@@ -149,14 +128,14 @@ Counting halts whenever the performance counters are disabled, but the counters 
 
 ## -see-also
 
-<a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_performance.md">IOCTL_DISK_PERFORMANCE</a>
 
 
 
-<a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_performance_off.md">IOCTL_DISK_PERFORMANCE_OFF</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560388">IOCTL_DISK_PERFORMANCE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560393">IOCTL_DISK_PERFORMANCE_OFF</a>
  
 
  

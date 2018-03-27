@@ -52,20 +52,6 @@ req.typenames: ISCSI_DiscoveredTargetPortal2, *PISCSI_DiscoveredTargetPortal2
 The ISCSI_DiscoveredTargetPortal2 structure provides information that is associated with a discovered target portal. 
 
 
-## -syntax
-
-
-````
-typedef struct _ISCSI_DiscoveredTargetPortal2 {
-  USHORT           Socket;
-  ISCSI_IP_Address Address;
-  ULONG            SecurityBitmap;
-  ULONG            KeySize;
-  UCHAR            Key[1];
-} ISCSI_DiscoveredTargetPortal2, *PISCSI_DiscoveredTargetPortal2;
-````
-
-
 ## -struct-fields
 
 
@@ -180,7 +166,7 @@ A variable-length array of characters that contains the encryption key that is a
 
 
 
-The ISCSI_DiscoveredTargetPortal2 structure is a superset of the information that is provided by the <a href="..\iscsifnd\ns-iscsifnd-_iscsi_discoveredtargetportal.md">ISCSI_DiscoveredTargetPortal</a> structure, which only defines the target portal address. In addition to the network address of the target portal, the ISCSI_DiscoveredTargetPortal2 structure contains information about the target portal's security characteristics.
+The ISCSI_DiscoveredTargetPortal2 structure is a superset of the information that is provided by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff561509">ISCSI_DiscoveredTargetPortal</a> structure, which only defines the target portal address. In addition to the network address of the target portal, the ISCSI_DiscoveredTargetPortal2 structure contains information about the target portal's security characteristics.
 
 If the iSNS server does not assign a security bitmap to the target portal, the operating system associates the bitmap in the <b>DefaultSecurityBitmap</b> registry value with the portal. The <b>DefaultSecurityBitmap</b> registry value is located under the following registry key: <b>HKLM\Software\Microsoft\Windows NT\Current Version\ISCSI\Discovery Values</b>. 
 
@@ -195,11 +181,10 @@ The WMI tool suite automatically generates a declaration of the ISCSI_Discovered
 
 ## -see-also
 
-<a href="..\iscsidef\ns-iscsidef-_iscsi_targetportal.md">ISCSI_TargetPortal</a>
 
 
 
-<a href="..\iscsifnd\ns-iscsifnd-_iscsi_discoveredtargetportal.md">ISCSI_DiscoveredTargetPortal</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561509">ISCSI_DiscoveredTargetPortal</a>
 
 
 
@@ -207,6 +192,7 @@ The WMI tool suite automatically generates a declaration of the ISCSI_Discovered
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561574">ISCSI_TargetPortal</a>
  
 
  

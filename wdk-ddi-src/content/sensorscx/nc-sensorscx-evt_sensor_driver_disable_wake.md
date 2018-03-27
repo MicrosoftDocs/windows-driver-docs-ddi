@@ -53,16 +53,6 @@ req.product: Windows 10 or later.
 Callback to disable wake for the sensor. 
 
 
-## -prototype
-
-
-````
-NTSTATUS CALLBACK EVT_SENSOR_DRIVER_DISABLE_WAKE(
-  _In_ SENSOROBJECT Sensor
-);
-````
-
-
 ## -parameters
 
 

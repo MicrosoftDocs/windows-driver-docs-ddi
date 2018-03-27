@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,28 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <code>OEMStretchBltROP</code> function performs a stretching bit-block transfer using a <a href="https://msdn.microsoft.com/004698f5-cb0e-4995-a19c-7075aa226000">raster operation (ROP)</a>.
-
-
-## -syntax
-
-
-````
-BOOL APIENTRY OEMStretchBltROP(
-   SURFOBJ         *psoDest,
-   SURFOBJ         *psoSrc,
-   SURFOBJ         *psoMask,
-   CLIPOBJ         *pco,
-   XLATEOBJ        *pxlo,
-   COLORADJUSTMENT *pca,
-   POINTL          *pptlHTOrg,
-   RECTL           *prclDest,
-   RECTL           *prclSrc,
-   POINTL          *pptlMask,
-   ULONG           iMode,
-   BRUSHOBJ        *pbo,
-   ROP4            rop4
-);
-````
 
 
 ## -parameters

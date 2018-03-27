@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
@@ -51,21 +51,6 @@ req.product: Windows 10 or later.
 
 
 <b>RxCeBuildConnection</b> establishes a connection between a local RDBSS connection address and a given remote address. 
-
-
-## -syntax
-
-
-````
-NTSTATUS RxCeBuildConnection(
-  _In_    PRXCE_ADDRESS                  pAddress,
-  _In_    PRXCE_CONNECTION_INFORMATION   pConnectionInformation,
-  _In_    PRXCE_CONNECTION_EVENT_HANDLER pHandler,
-  _In_    PVOID                          pEventContext,
-  _Inout_ PRXCE_CONNECTION               pConnection,
-  _Inout_ PRXCE_VC                       pVc
-);
-````
 
 
 ## -parameters
@@ -162,14 +147,14 @@ When <b>RxCeBuildConnection</b> is successful, the data members in the RXCE_CONN
 
 ## -see-also
 
-<a href="..\rxce\nf-rxce-rxceteardownconnection.md">RxCeTearDownConnection</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554321">RxCeTearDownConnection</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565085">TDI_CONNECTION_INFORMATION</a>
-
-
-
  
 
  

@@ -53,18 +53,6 @@ req.product: Windows 10 or later.
 The <b>VideoPortMoveMemory</b> function copies data from the source location to the destination location in system memory.
 
 
-## -syntax
-
-
-````
-VOID VideoPortMoveMemory(
-  _Inout_ PVOID Destination,
-  _Inout_ PVOID Source,
-          ULONG Length
-);
-````
-
-
 ## -parameters
 
 
@@ -109,22 +97,22 @@ Callers of <b>VideoPortMoveMemory</b> can be running at any IRQL if both memory 
 
 ## -see-also
 
-<a href="..\video\nf-video-videoportgetdevicebase.md">VideoPortGetDeviceBase</a>
 
 
 
-<a href="..\video\nf-video-videoportcomparememory.md">VideoPortCompareMemory</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570285">VideoPortCompareMemory</a>
 
 
 
-<a href="..\video\nf-video-videoportzeromemory.md">VideoPortZeroMemory</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570310">VideoPortGetDeviceBase</a>
 
 
 
-<a href="..\video\nf-video-videoportzerodevicememory.md">VideoPortZeroDeviceMemory</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570492">VideoPortZeroDeviceMemory</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570493">VideoPortZeroMemory</a>
  
 
  

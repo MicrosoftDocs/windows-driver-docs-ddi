@@ -52,20 +52,6 @@ req.typenames: DXGK_PTE
 <b>pfnTrimResidencySet</b> is used to trim the residency list for a given device. User mode drivers are required to implement this callback in order to participate in the new memory residency model.
 
 
-## -prototype
-
-
-````
-PFND3DDDI_TRIMRESIDENCYSET pfnTrimResidencySet;
-
-HRESULT APIENTRY CALLBACK* pfnTrimResidencySet(
-  _In_ HANDLE                     hDevice,
-  _In_ D3DDDIARG_TRIMRESIDENCYSET *pData
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -87,7 +73,7 @@ A handle to the display device.
 
 #### - pData [in]
 
-A pointer to a <a href="..\d3dumddi\ns-d3dumddi-d3dddiarg_trimresidencyset.md">D3DDDIARG_TRIMRESIDENCYSET</a> structure that provides the details of the requested operation.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn906759">D3DDDIARG_TRIMRESIDENCYSET</a> structure that provides the details of the requested operation.
 
 
 
@@ -103,10 +89,10 @@ If this callback function succeeds, it returns <b xmlns:loc="http://microsoft.co
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-d3dddiarg_trimresidencyset.md">D3DDDIARG_TRIMRESIDENCYSET</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn906759">D3DDDIARG_TRIMRESIDENCYSET</a>
  
 
  

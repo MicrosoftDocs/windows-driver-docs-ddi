@@ -55,20 +55,6 @@ The
   instances in a filter stack.
 
 
-## -syntax
-
-
-````
-NDIS_STATUS NdisEnumerateFilterModules(
-  _In_    NDIS_HANDLE NdisHandle,
-  _In_    PVOID       InterfaceBuffer,
-  _In_    ULONG       InterfaceBufferLength,
-  _Inout_ PULONG      BytesNeeded,
-  _Inout_ PULONG      BytesWritten
-);
-````
-
-
 ## -parameters
 
 
@@ -97,9 +83,9 @@ If the handle is an NDIS filter module handle, NDIS returns information about al
 
 A pointer to a caller-allocated memory block in which NDIS returns the information for all the
      filter modules in a filter stack, starting with top-most filter. This buffer contains an 
-     <a href="..\ndis\ns-ndis-_ndis_enum_filters.md">NDIS_ENUM_FILTERS</a> structure that is
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff565457">NDIS_ENUM_FILTERS</a> structure that is
      followed by zero or more 
-     <a href="..\ndis\ns-ndis-_ndis_filter_interface.md">NDIS_FILTER_INTERFACE</a> structures, one
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff565532">NDIS_FILTER_INTERFACE</a> structures, one
      for each filter module in the stack.
 
 
@@ -199,14 +185,14 @@ An NDIS miniport driver, protocol driver, or filter driver can call the
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_ndis_enum_filters.md">NDIS_ENUM_FILTERS</a>
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_filter_interface.md">NDIS_FILTER_INTERFACE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565457">NDIS_ENUM_FILTERS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565532">NDIS_FILTER_INTERFACE</a>
  
 
  

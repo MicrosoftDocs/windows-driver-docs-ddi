@@ -52,18 +52,6 @@ req.typenames: RILALPHAIDENTIFIDERTYPE
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef enum _RILALPHAIDENTIFIDERTYPE { 
-  RIL_ALPHAIDENTIFIERTYPE_PRESENT,
-  RIL_ALPHAIDENTIFIERTYPE_NOTPRESENT,
-  RIL_ALPHAIDENTIFIERTYPE_MAX
-} RILALPHAIDENTIFIDERTYPE;
-````
-
-
 ## -enum-fields
 
 

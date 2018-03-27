@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,20 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>WritePhysicalWithFlags</b> function writes to physical memory.
-
-
-## -syntax
-
-
-````
-VOID WritePhysicalWithFlags(
-   ULONG64 address,
-   PVOID   buf,
-   ULONG   size,
-   ULONG   flags,
-   PULONG  sizew
-);
-````
 
 
 ## -parameters
@@ -165,14 +151,14 @@ For a WdbgExts extension, include wdbgexts.h. For a DbgEng extension, include wd
 
 ## -see-also
 
-<a href="..\wdbgexts\nf-wdbgexts-writephysical.md">WritePhysical</a>
 
 
 
-<a href="..\wdbgexts\nf-wdbgexts-readphysicalwithflags.md">ReadPhysicalWithFlags</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554315">ReadPhysicalWithFlags</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561432">WritePhysical</a>
  
 
  

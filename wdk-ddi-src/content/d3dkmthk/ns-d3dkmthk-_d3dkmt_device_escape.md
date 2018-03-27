@@ -53,23 +53,7 @@ req.typenames: D3DKMT_DEVICE_ESCAPE
    Do not use the D3DKMT_DEVICE_ESCAPE structure or D3DKMT_DEVICEESCAPE_TYPE enumeration. They are for testing purposes only.
    
 
-The D3DKMT_DEVICE_ESCAPE structure describes how to control the display device in a call to the <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtescape.md">D3DKMTEscape</a> function.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DKMT_DEVICE_ESCAPE {
-  D3DKMT_DEVICEESCAPE_TYPE Type;
-  union {
-    struct {
-      D3DKMT_HANDLE                  hPrimaryAllocation;
-      D3DDDI_VIDEO_PRESENT_SOURCE_ID VidPnSourceId;
-    } VidPnFromAllocation;
-  };
-} D3DKMT_DEVICE_ESCAPE;
-````
+The D3DKMT_DEVICE_ESCAPE structure describes how to control the display device in a call to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff546940">D3DKMTEscape</a> function.
 
 
 ## -struct-fields
@@ -95,14 +79,14 @@ typedef struct _D3DKMT_DEVICE_ESCAPE {
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_escape.md">D3DKMT_ESCAPE</a>
 
 
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtescape.md">D3DKMTEscape</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546940">D3DKMTEscape</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547970">D3DKMT_ESCAPE</a>
  
 
  

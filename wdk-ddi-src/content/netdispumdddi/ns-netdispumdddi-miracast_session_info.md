@@ -52,21 +52,6 @@ req.typenames: MIRACAST_SESSION_INFO
 Contains info on a wireless display (Miracast) connected session.
 
 
-## -syntax
-
-
-````
-typedef union {
-  struct {
-    UINT MonitorConnected  :1;
-    UINT ReducedModeListDueToBandwidth  :1;
-    UINT Reserved  :30;
-  };
-  UINT Value;
-} MIRACAST_SESSION_INFO;
-````
-
-
 ## -struct-fields
 
 

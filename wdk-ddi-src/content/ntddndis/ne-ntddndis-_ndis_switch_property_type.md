@@ -52,18 +52,6 @@ req.typenames: NDIS_SWITCH_PROPERTY_TYPE, *PNDIS_SWITCH_PROPERTY_TYPE
 The <b>NDIS_SWITCH_PROPERTY_TYPE</b> enumeration specifies the type of policy property for a Hyper-V extensible switch.
 
 
-## -syntax
-
-
-````
-typedef enum _NDIS_SWITCH_PROPERTY_TYPE { 
-  NdisSwitchPropertyTypeUndefined,
-  NdisSwitchPropertyTypeCustom,
-  NdisSwitchPropertyTypeMaximum
-} NDIS_SWITCH_PROPERTY_TYPE, *PNDIS_SWITCH_PROPERTY_TYPE;
-````
-
-
 ## -enum-fields
 
 
@@ -97,19 +85,19 @@ The <b>PropertyType</b> member of the following structures is an <b>NDIS_SWITCH_
 <ul>
 <li>
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_switch_property_delete_parameters.md">NDIS_SWITCH_PROPERTY_DELETE_PARAMETERS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh598249">NDIS_SWITCH_PROPERTY_DELETE_PARAMETERS</a>
 
 
 </li>
 <li>
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_switch_property_enum_parameters.md">NDIS_SWITCH_PROPERTY_ENUM_PARAMETERS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh598253">NDIS_SWITCH_PROPERTY_ENUM_PARAMETERS</a>
 
 
 </li>
 <li>
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_switch_property_parameters.md">NDIS_SWITCH_PROPERTY_PARAMETERS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh598255">NDIS_SWITCH_PROPERTY_PARAMETERS</a>
 
 
 </li>
@@ -123,15 +111,6 @@ For more information about extensible switch  policies, see <a href="https://msd
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_switch_property_enum_parameters.md">NDIS_SWITCH_PROPERTY_ENUM_PARAMETERS</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_switch_property_delete_parameters.md">NDIS_SWITCH_PROPERTY_DELETE_PARAMETERS</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_switch_property_parameters.md">NDIS_SWITCH_PROPERTY_PARAMETERS</a>
 
 
 
@@ -139,6 +118,15 @@ For more information about extensible switch  policies, see <a href="https://msd
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh598249">NDIS_SWITCH_PROPERTY_DELETE_PARAMETERS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh598253">NDIS_SWITCH_PROPERTY_ENUM_PARAMETERS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh598255">NDIS_SWITCH_PROPERTY_PARAMETERS</a>
  
 
  

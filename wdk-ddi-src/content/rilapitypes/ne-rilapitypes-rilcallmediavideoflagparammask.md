@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,19 +51,6 @@ req.product: Windows 10 or later.
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef enum _RILCALLMEDIAVIDEOFLAGPARAMMASK { 
-  RIL_CALLMEDIAVIDEOFLAG_CAPABILITY_UNKNOWN,
-  RIL_CALLMEDIAVIDEOFLAG_PAUSE,
-  RIL_CALLMEDIAVIDEOFLAG_TEMPORARILY_UNAVAILABLE,
-  RIL_CALLMEDIAVIDEOFLAG_ALL
-} RILCALLMEDIAVIDEOFLAGPARAMMASK;
-````
 
 
 ## -enum-fields

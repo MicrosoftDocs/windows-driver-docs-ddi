@@ -53,18 +53,6 @@ req.typenames:
 The <b>KsMethodHandler</b> function handles methods requested through IOCTL_KS_METHOD. It works with all method identifiers defined by the sets. The function can only be called at PASSIVE_LEVEL.
 
 
-## -syntax
-
-
-````
-NTSTATUS KsMethodHandler(
-  _In_       PIRP         Irp,
-  _In_       ULONG        MethodSetsCount,
-  _In_ const KSMETHOD_SET *MethodSet
-);
-````
-
-
 ## -parameters
 
 
@@ -105,14 +93,14 @@ The owner of a method set can perform prefiltering or postfiltering of the metho
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksmethodhandlerwithallocator.md">KsMethodHandlerWithAllocator</a>
 
 
 
-<a href="..\ks\nf-ks-ksfastmethodhandler.md">KsFastMethodHandler</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561940">KsFastMethodHandler</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563401">KsMethodHandlerWithAllocator</a>
  
 
  

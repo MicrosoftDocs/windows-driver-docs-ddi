@@ -54,19 +54,6 @@ The WWAN_VOICE_CALL_STATE enumeration lists the different voice call states that
   MB device.
 
 
-## -syntax
-
-
-````
-typedef enum _WWAN_VOICE_CALL_STATE { 
-  WwanVoiceCallStateNone        = 0,
-  WwanVoiceCallStateInProgress,
-  WwanVoiceCallStateHangUp,
-  WwanVoiceCallStateMaximum
-} WWAN_VOICE_CALL_STATE, *PWWAN_VOICE_CALL_STATE;
-````
-
-
 ## -enum-fields
 
 
@@ -96,10 +83,10 @@ The total number of supported voice call states.
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_context_state.md">WWAN_CONTEXT_STATE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571202">WWAN_CONTEXT_STATE</a>
  
 
  

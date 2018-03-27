@@ -52,17 +52,6 @@ req.typenames: RILIMSSIPREASON
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef enum _RILIMSSIPREASON { 
-  RIL_IMSSIPREASON_NOT_AUTHORIZED_FOR_SERVICE,
-  RIL_IMSSIPREASON_MAX
-} RILIMSSIPREASON;
-````
-
-
 ## -enum-fields
 
 

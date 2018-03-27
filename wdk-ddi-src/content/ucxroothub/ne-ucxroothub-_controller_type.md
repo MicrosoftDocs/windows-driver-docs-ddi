@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 This enumeration specifies if the USB host controller is an eXtensible Host Controller Interface (xHCI) controller.
 
 
-## -syntax
-
-
-````
-typedef enum _CONTROLLER_TYPE { 
-  ControllerTypeXhci,
-  ControllerTypeSoftXhci
-} CONTROLLER_TYPE;
-````
-
-
 ## -enum-fields
 
 
@@ -81,10 +70,10 @@ Indicates the USB host controller is software an xHCI controller.
 
 ## -see-also
 
-<a href="..\ucxroothub\ns-ucxroothub-_roothub_info.md">ROOTHUB_INFO</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt188031">ROOTHUB_INFO</a>
  
 
  

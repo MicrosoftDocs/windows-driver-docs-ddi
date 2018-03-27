@@ -49,20 +49,7 @@ req.typenames: TAPE_SET_POSITION, *PTAPE_SET_POSITION
 ## -description
 
 
-The TAPE_SET_POSITION structure is used in conjunction with the <a href="..\ntddtape\ni-ntddtape-ioctl_tape_set_position.md">IOCTL_TAPE_SET_POSITION</a> request to move the current position on the tape to the specified partition and offset.
-
-
-## -syntax
-
-
-````
-typedef struct _TAPE_SET_POSITION {
-  ULONG         Method;
-  ULONG         Partition;
-  LARGE_INTEGER Offset;
-  BOOLEAN       Immediate;
-} TAPE_SET_POSITION, *PTAPE_SET_POSITION;
-````
+The TAPE_SET_POSITION structure is used in conjunction with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560637">IOCTL_TAPE_SET_POSITION</a> request to move the current position on the tape to the specified partition and offset.
 
 
 ## -struct-fields
@@ -177,14 +164,14 @@ When the offset specifies a number of blocks, filemarks, or setmarks to position
 
 ## -see-also
 
-<a href="..\ntddtape\ni-ntddtape-ioctl_tape_set_position.md">IOCTL_TAPE_SET_POSITION</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560637">IOCTL_TAPE_SET_POSITION</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567954">TapeMiniSetPosition</a>
-
-
-
  
 
  

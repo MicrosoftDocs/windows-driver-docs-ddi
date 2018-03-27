@@ -53,21 +53,6 @@ req.product: Windows 10 or later.
 The filter driver's implementation to abort a charger operation.
 
 
-## -prototype
-
-
-````
-UFX_PROPRIETARY_CHARGER_ABORT_OPERATION UfxProprietaryChargerAbort;
-
-NTSTATUS UfxProprietaryChargerAbort(
-  _In_ PVOID Context
-)
-{ ... }
-
-typedef UFX_PROPRIETARY_CHARGER_ABORT_OPERATION PFN_UFX_PROPRIETARY_CHARGER_ABORT_OPERATION;
-````
-
-
 ## -parameters
 
 
@@ -98,10 +83,10 @@ To support handling of proprietary chargers, the USB lower filter driver must pu
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/05D2B46A-282C-4B75-9F5C-2FC0AF344AB9">USB filter driver for supporting proprietary chargers</a>
-
-
-
  
 
  

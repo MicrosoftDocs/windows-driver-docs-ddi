@@ -49,20 +49,7 @@ req.typenames: NDIS_PD_QUEUE_TYPE
 ## -description
 
 
-The <b>NDIS_PD_QUEUE_TYPE</b> enumeration defines types of PacketDirect Provider Interface (PDPI)  queues. Its enumeration values are used in the <b>QueueType</b> member of the <a href="..\ndis\ns-ndis-_ndis_pd_queue_parameters.md">NDIS_PD_QUEUE_PARAMETERS</a> structure.
-
-
-## -syntax
-
-
-````
-typedef enum _NDIS_PD_QUEUE_TYPE { 
-  PDQueueTypeUnknown,
-  PDQueueTypeReceive,
-  PDQueueTypeTransmit,
-  PDQueueTypeMax
-} NDIS_PD_QUEUE_TYPE;
-````
+The <b>NDIS_PD_QUEUE_TYPE</b> enumeration defines types of PacketDirect Provider Interface (PDPI)  queues. Its enumeration values are used in the <b>QueueType</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/dn931846">NDIS_PD_QUEUE_PARAMETERS</a> structure.
 
 
 ## -enum-fields
@@ -94,14 +81,14 @@ The maximum value for this enumeration. This value might change in future versio
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_ndis_pd_queue_parameters.md">NDIS_PD_QUEUE_PARAMETERS</a>
 
 
 
-<a href="..\ndis\nc-ndis-ndis_pd_allocate_queue.md">NdisPDAllocateQueue</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn931846">NDIS_PD_QUEUE_PARAMETERS</a>
 
 
 
+<a href="https://msdn.microsoft.com/E9091C69-0E21-40CC-B3D3-1F770ABA0D47">NdisPDAllocateQueue</a>
  
 
  

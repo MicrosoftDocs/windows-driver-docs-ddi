@@ -52,21 +52,6 @@ req.typenames: EMULATOR_ACCESS_ENTRY, *PEMULATOR_ACCESS_ENTRY
 The EMULATOR_ACCESS_ENTRY structure specifies an element in the <b>EmulatorAccessEntries</b> array set up in the VIDEO_PORT_CONFIG_INFO structure by drivers of VGA-compatible (SVGA) adapters on x86-based NT-based operating system platforms.
 
 
-## -syntax
-
-
-````
-typedef struct _EMULATOR_ACCESS_ENTRY {
-  ULONG                     BasePort;
-  ULONG                     NumConsecutivePorts;
-  EMULATOR_PORT_ACCESS_TYPE AccessType;
-  UCHAR                     AccessMode;
-  UCHAR                     StringSupport;
-  PVOID                     Routine;
-} EMULATOR_ACCESS_ENTRY, *PEMULATOR_ACCESS_ENTRY;
-````
-
-
 ## -struct-fields
 
 
@@ -124,26 +109,26 @@ Data in each EMULATOR_ACCESS_ENTRY-type element is used to determine which I/O p
 
 ## -see-also
 
-<a href="..\video\ns-video-_video_port_config_info.md">VIDEO_PORT_CONFIG_INFO</a>
 
 
 
-<a href="..\video\nf-video-videoportgetaccessranges.md">VideoPortGetAccessRanges</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570498">VIDEO_ACCESS_RANGE</a>
 
 
 
-<a href="..\video\nf-video-videoportsettrappedemulatorports.md">VideoPortSetTrappedEmulatorPorts</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570531">VIDEO_PORT_CONFIG_INFO</a>
 
 
 
-<a href="..\video\ns-video-_video_access_range.md">VIDEO_ACCESS_RANGE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570302">VideoPortGetAccessRanges</a>
 
 
 
-<a href="..\video\nf-video-videoportverifyaccessranges.md">VideoPortVerifyAccessRanges</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570366">VideoPortSetTrappedEmulatorPorts</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570377">VideoPortVerifyAccessRanges</a>
  
 
  

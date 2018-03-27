@@ -53,25 +53,6 @@ req.product: Windows 10 or later.
 The <b>WWAN_MODEM_CONFIG_REASON</b> enumeration lists definitions for reasons why a modem's configuration state change was triggered.
 
 
-## -syntax
-
-
-````
-typedef enum _WWAN_MODEM_CONFIG_REASON { 
-  WwanModemConfigReasonNone               = 0,
-  WwanModemConfigReasonSIMDetected,
-  WwanModemConfigReasonSIMRemoved,
-  WwanModemConfigReasonNOSIM,
-  WwanModemConfigReasonIMSIReset,
-  WwanModemConfigReasonActivationFailure,
-  WwanModemConfigReasonConfigFileUpdate,
-  WwanModemConfigReasonModemReset,
-  WwanModemConfigReasonModemRecovery,
-  WwanModemConfigReasonMax
-} WWAN_MODEM_CONFIG_REASON, *PWWAN_MODEM_CONFIG_REASON;
-````
-
-
 ## -enum-fields
 
 
@@ -130,10 +111,10 @@ The maximum value for this enumeration. This value might change in future versio
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_modem_config_status.md">WWAN_MODEM_CONFIG_STATUS</a>
 
 
 
+<a href="https://msdn.microsoft.com/3A13CFBC-DBB4-4BB1-ABA4-AB145AED07AA">WWAN_MODEM_CONFIG_STATUS</a>
  
 
  

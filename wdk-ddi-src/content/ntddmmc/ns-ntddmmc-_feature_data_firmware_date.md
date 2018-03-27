@@ -52,23 +52,6 @@ req.typenames: FEATURE_DATA_FIRMWARE_DATE, *PFEATURE_DATA_FIRMWARE_DATE
 The FEATURE_DATA_FIRMWARE_DATE structure holds the date information associated with the Firmware Information feature. 
 
 
-## -syntax
-
-
-````
-typedef struct _FEATURE_DATA_FIRMWARE_DATE {
-  FEATURE_HEADER Header;
-  UCHAR          Year[4];
-  UCHAR          Month[2];
-  UCHAR          Day[2];
-  UCHAR          Hour[2];
-  UCHAR          Minute[2];
-  UCHAR          Seconds[2];
-  UCHAR          Reserved[2];
-} FEATURE_DATA_FIRMWARE_DATE, *PFEATURE_DATA_FIRMWARE_DATE;
-````
-
-
 ## -struct-fields
 
 
@@ -76,7 +59,7 @@ typedef struct _FEATURE_DATA_FIRMWARE_DATE {
 
 ### -field Header
 
-Contains a <a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a> structure with header information for this feature descriptor. 
+Contains a <a href="https://msdn.microsoft.com/library/windows/hardware/ff553848">FEATURE_HEADER</a> structure with header information for this feature descriptor. 
 
 
 ### -field Year
@@ -125,10 +108,10 @@ The structure holds the date information associated with the feature named "Firm
 
 ## -see-also
 
-<a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553848">FEATURE_HEADER</a>
  
 
  

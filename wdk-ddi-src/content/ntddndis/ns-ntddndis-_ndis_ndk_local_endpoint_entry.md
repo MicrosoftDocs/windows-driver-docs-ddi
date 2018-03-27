@@ -52,19 +52,6 @@ req.typenames: NDIS_NDK_LOCAL_ENDPOINT_ENTRY
 The <b>NDIS_NDK_LOCAL_ENDPOINT_ENTRY</b> structure specifies an ND  local endpoint entry for an ND  local endpoint on a miniport adapter.
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_NDK_LOCAL_ENDPOINT_ENTRY {
-  SOCKADDR_INET Local;
-  BOOLEAN       UserModeOwner;
-  BOOLEAN       Listener;
-  ULONG         OwnerPid;
-} NDIS_NDK_LOCAL_ENDPOINT_ENTRY;
-````
-
-
 ## -struct-fields
 
 
@@ -94,17 +81,17 @@ A process identifier for an NDS user-mode connection.
 
 
 
-The NDIS_NDK_LOCAL_ENDPOINT_ENTRY structure is used in the <a href="..\ntddndis\ns-ntddndis-_ndis_ndk_local_endpoints.md">NDIS_NDK_LOCAL_ENDPOINTS</a> structure to specify an array of local endpoints.
+The NDIS_NDK_LOCAL_ENDPOINT_ENTRY structure is used in the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451563">NDIS_NDK_LOCAL_ENDPOINTS</a> structure to specify an array of local endpoints.
 
 
 
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_ndk_local_endpoints.md">NDIS_NDK_LOCAL_ENDPOINTS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451563">NDIS_NDK_LOCAL_ENDPOINTS</a>
  
 
  

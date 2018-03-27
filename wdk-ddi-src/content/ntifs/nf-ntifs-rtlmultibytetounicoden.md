@@ -53,20 +53,6 @@ req.typenames: TOKEN_TYPE
 The <b>RtlMultiByteToUnicodeN</b> routine translates the specified source string into a Unicode string, using the current system ANSI code page (ACP). The source string is not necessarily from a multibyte character set. 
 
 
-## -syntax
-
-
-````
-NTSTATUS RtlMultiByteToUnicodeN(
-  _Out_           PWCH   UnicodeString,
-  _In_            ULONG  MaxBytesInUnicodeString,
-  _Out_opt_       PULONG BytesInUnicodeString,
-  _In_      const CHAR   *MultiByteString,
-  _In_            ULONG  BytesInMultiByteString
-);
-````
-
-
 ## -parameters
 
 
@@ -127,14 +113,14 @@ For information about other string-handling routines, see <a href="https://msdn.
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-rtlunicodetomultibyten.md">RtlUnicodeToMultiByteN</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-rtlmultibytetounicodesize.md">RtlMultiByteToUnicodeSize</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553121">RtlMultiByteToUnicodeSize</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553261">RtlUnicodeToMultiByteN</a>
  
 
  

@@ -54,17 +54,6 @@ req.product: Windows 10 or later.
 The <b>StorPortDebugPrint</b> routine prints a debug string to the kernel debugger, if the debugger is attached.
 
 
-## -syntax
-
-
-````
-VOID StorPortDebugPrint(
-   IN ULONG  DebugPrintLevel,
-   IN PCCHAR DebugMessage
-);
-````
-
-
 ## -parameters
 
 

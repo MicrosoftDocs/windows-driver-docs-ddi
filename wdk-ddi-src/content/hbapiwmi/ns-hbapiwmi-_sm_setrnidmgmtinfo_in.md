@@ -52,16 +52,6 @@ req.typenames: SM_SetRNIDMgmtInfo_IN, *PSM_SetRNIDMgmtInfo_IN
 The SM_SetRNIDMgmtInfo_IN structure is used to provide input parameters to the SM_SetRNIDMgmtInfo method.
 
 
-## -syntax
-
-
-````
-typedef struct _SM_SetRNIDMgmtInfo_IN {
-  HBAFC3MgmtInfo MgmtInfo;
-} SM_SetRNIDMgmtInfo_IN, *PSM_SetRNIDMgmtInfo_IN;
-````
-
-
 ## -struct-fields
 
 

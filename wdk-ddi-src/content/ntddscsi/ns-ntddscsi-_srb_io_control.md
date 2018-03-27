@@ -51,21 +51,6 @@ req.typenames: SRB_IO_CONTROL, *PSRB_IO_CONTROL
 
 <div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
-## -syntax
-
-
-````
-typedef struct _SRB_IO_CONTROL {
-  ULONG HeaderLength;
-  UCHAR Signature[8];
-  ULONG Timeout;
-  ULONG ControlCode;
-  ULONG ReturnCode;
-  ULONG Length;
-} SRB_IO_CONTROL, *PSRB_IO_CONTROL;
-````
-
-
 ## -struct-fields
 
 
@@ -112,7 +97,6 @@ This structure is used by applications to send requests directly to an applicati
 
 ## -see-also
 
-<a href="..\storport\ns-storport-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
 
 
 
@@ -120,6 +104,7 @@ SCSI Port I/O Control Codes
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565393">SCSI_REQUEST_BLOCK</a>
  
 
  

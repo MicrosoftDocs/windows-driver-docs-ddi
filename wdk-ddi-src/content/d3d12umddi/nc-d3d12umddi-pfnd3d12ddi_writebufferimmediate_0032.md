@@ -52,25 +52,12 @@ req.typenames: D3D11_1DDI_GETCAPTUREHANDLEDATA
 Used to create a write buffer. 
 
 
-## -prototype
-
-
-````
-VOID APIENTRY* PFND3D12DDI_WRITEBUFFERIMMEDIATE_0032(
-             D3D12DDI_HCOMMANDLIST                        hDrvCommandList,
-             UINT                                         Count,
-  _In_ const D3D12DDI_WRITEBUFFERIMMEDIATE_PARAMETER_0032 *pParams,
-  _In_ const D3D12DDI_WRITEBUFFERIMMEDIATE_MODE_0032      *pModes
-);
-````
-
-
 ## -parameters
 
 
 
 
-### -param D3D12DDI_HCOMMANDLIST
+### -param Arg1
 
 
 ### -param Count

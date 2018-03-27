@@ -54,18 +54,6 @@ The WWAN_REGISTER_ACTION enumeration lists the different provider network regist
   are supported by the MB device.
 
 
-## -syntax
-
-
-````
-typedef enum _WWAN_REGISTER_ACTION { 
-  WwanRegisterActionAutomatic  = 0,
-  WwanRegisterActionManual,
-  WwanRegisterActionMax
-} WWAN_REGISTER_ACTION, *PWWAN_REGISTER_ACTION;
-````
-
-
 ## -enum-fields
 
 
@@ -88,10 +76,10 @@ The total number of supported registration actions.
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_set_register_state.md">WWAN_SET_REGISTER_STATE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571236">WWAN_SET_REGISTER_STATE</a>
  
 
  

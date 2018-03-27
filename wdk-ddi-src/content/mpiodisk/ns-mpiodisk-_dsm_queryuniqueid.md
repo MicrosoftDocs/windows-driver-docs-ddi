@@ -52,16 +52,6 @@ req.typenames: DSM_QueryUniqueId, *PDSM_QueryUniqueId
 The DSM_QueryUniqueId structure is used to query the DSM for a unique identifier. This unique identifier can be used together with the DsmPathId to create a 128-bit identifier for a path that is unique among all paths, as well as all DSMs, that are known to a management application. This is especially useful if the management application is managing devices that are spread across various systems. To query for this 64-bit unique identifier, the application must target the request to a pseudo-LUN that is addressed by its WMI instance name. This class is mandatory for any DSM that supports VDS.
 
 
-## -syntax
-
-
-````
-typedef struct _DSM_QueryUniqueId {
-  ULONGLONG DsmUniqueId;
-} DSM_QueryUniqueId, *PDSM_QueryUniqueId;
-````
-
-
 ## -struct-fields
 
 

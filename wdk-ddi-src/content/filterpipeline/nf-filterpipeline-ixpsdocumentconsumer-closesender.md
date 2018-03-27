@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: filterpipeline.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -50,16 +50,6 @@ req.typenames: EXpsFontRestriction
 
 
 The <code>CloseSender</code> method tells the Pipeline Manager that the filter is done sending XPS parts.
-
-
-## -syntax
-
-
-````
-HRESULT STDMETHODCALLTYPE CloseSender(
-    None
-);
-````
 
 
 ## -parameters

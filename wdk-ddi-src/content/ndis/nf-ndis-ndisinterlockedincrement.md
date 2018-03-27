@@ -55,16 +55,6 @@ The
   operation.
 
 
-## -syntax
-
-
-````
-LONG NdisInterlockedIncrement(
-  [in] PLONG Addend
-);
-````
-
-
 ## -parameters
 
 
@@ -89,10 +79,10 @@ A pointer to a variable of type LONG.
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisinterlockeddecrement.md">NdisInterlockedDecrement</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562751">NdisInterlockedDecrement</a>
  
 
  

@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -53,16 +53,6 @@ req.product: Windows 10 or later.
 Registers the event trace provider. The driver should call this function before it makes any calls to log events.
 
 
-## -syntax
-
-
-````
-void UMDEtwRegister(
-   PFNUMDETW_RUNDOWN CbRundown
-);
-````
-
-
 ## -parameters
 
 
@@ -72,7 +62,7 @@ void UMDEtwRegister(
 
 A pointer to a callback function that returns information about the current state of the user-mode driver.
 
-This callback function should call the <a href="..\umdprovider\nf-umdprovider-umdetwlogmapallocation.md">UMDEtwLogMapAllocation</a> function for every current allocation mapping.
+This callback function should call the <a href="https://msdn.microsoft.com/library/windows/hardware/jj542437">UMDEtwLogMapAllocation</a> function for every current allocation mapping.
 
 
 ## -returns
@@ -179,14 +169,14 @@ The <a href="https://msdn.microsoft.com/6025c3a6-7d88-49dc-bbc3-655c172dde3c">Ev
 
 ## -see-also
 
-<a href="..\umdprovider\nf-umdprovider-umdetwunregister.md">UMDEtwUnregister</a>
 
 
 
-<a href="..\umdprovider\nf-umdprovider-umdetwlogmapallocation.md">UMDEtwLogMapAllocation</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj542437">UMDEtwLogMapAllocation</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj542440">UMDEtwUnregister</a>
  
 
  

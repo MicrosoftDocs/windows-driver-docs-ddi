@@ -54,19 +54,6 @@ req.product: Windows 10 or later.
 The <b>StorPortDeviceReady</b> routine notifies the port driver that the indicated logical unit is ready to handle new requests. 
 
 
-## -syntax
-
-
-````
-STORPORT_API BOOLEAN StorPortDeviceReady(
-  _In_ PVOID HwDeviceExtension,
-  _In_ UCHAR PathId,
-  _In_ UCHAR TargetId,
-  _In_ UCHAR Lun
-);
-````
-
-
 ## -parameters
 
 
@@ -74,7 +61,7 @@ STORPORT_API BOOLEAN StorPortDeviceReady(
 
 ### -param HwDeviceExtension [in]
 
-A pointer to the hardware device extension. This is a per HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the mapped access ranges for the HBA. This area is available to the miniport driver immediately after the miniport driver calls <a href="..\storport\nf-storport-storportinitialize.md">StorPortInitialize</a>. The port driver frees this memory when it removes the device. 
+A pointer to the hardware device extension. This is a per HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the mapped access ranges for the HBA. This area is available to the miniport driver immediately after the miniport driver calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff567108">StorPortInitialize</a>. The port driver frees this memory when it removes the device. 
 
 
 ### -param PathId [in]
@@ -112,14 +99,14 @@ It is not generally necessary to notify the target device that new requests are 
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportready.md">StorPortReady</a>
 
 
 
-<a href="..\storport\nf-storport-storportdevicebusy.md">StorPortDeviceBusy</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567050">StorPortDeviceBusy</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567489">StorPortReady</a>
  
 
  

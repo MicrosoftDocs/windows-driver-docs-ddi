@@ -49,19 +49,8 @@ req.typenames: DXGKARG_SETTARGETCONTENTTYPE
 ## -description
 
 
-Used to hold the arguments for <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_settargetcontenttype.md">DXGKDDI_SETTARGETCONTENTTYPE</a>
+Used to hold the arguments for <a href="https://msdn.microsoft.com/7639BF7B-6219-4490-953F-80E76CDFBAAA">DXGKDDI_SETTARGETCONTENTTYPE</a>
 
-
-
-## -syntax
-
-
-````
-typedef struct _DXGKARG_SETTARGETCONTENTTYPE {
-  D3DDDI_VIDEO_PRESENT_TARGET_ID     TargetId;
-  D3DKMDT_VIDPN_PRESENT_PATH_CONTENT ContentType;
-} DXGKARG_SETTARGETCONTENTTYPE, *PDXGKARG_SETTARGETCONTENTTYPE;
-````
 
 
 ## -struct-fields

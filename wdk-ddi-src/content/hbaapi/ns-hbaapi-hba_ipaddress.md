@@ -52,20 +52,6 @@ req.typenames: HBA_IPADDRESS, *PHBA_IPADDRESS
 The HBA_ipaddress structure specifies an IP address in a way that is independent of the version of the IP protocol in use. 
 
 
-## -syntax
-
-
-````
-typedef struct HBA_ipaddress {
-  int   ipversion;
-  union {
-    unsigned char ipv4address[4];
-    unsigned char ipv6address[16];
-  } ipaddress;
-} HBA_IPADDRESS, *PHBA_IPADDRESS;
-````
-
-
 ## -struct-fields
 
 

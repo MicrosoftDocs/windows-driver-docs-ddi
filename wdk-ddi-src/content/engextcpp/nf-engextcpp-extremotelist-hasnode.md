@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: engextcpp.hpp
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -50,14 +50,6 @@ req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
 
 
 The <b>HasNode</b> method determines if there is a current item in the list iteration.
-
-
-## -syntax
-
-
-````
-bool HasNode();
-````
 
 
 ## -parameters
@@ -89,14 +81,14 @@ If this method returns <code>true</code>, <a href="https://msdn.microsoft.com/li
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544114">ExtRemoteList</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544129">ExtRemoteList::GetNodeOffset</a>
-
-
-
-<a href="..\engextcpp\nl-engextcpp-extremotelist.md">ExtRemoteList</a>
-
-
-
  
 
  

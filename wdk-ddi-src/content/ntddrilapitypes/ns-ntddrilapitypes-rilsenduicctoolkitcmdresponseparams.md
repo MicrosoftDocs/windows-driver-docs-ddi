@@ -52,18 +52,6 @@ req.typenames: RILSENDUICCTOOLKITCMDRESPONSEPARAMS, *LPRILSENDUICCTOOLKITCMDRESP
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef struct _RILSENDUICCTOOLKITCMDRESPONSEPARAMS {
-  DWORD    dwSlotIndex;
-  DWORD    dwDetailsSize;
-  BYTE [1] bDetails;
-} RILSENDUICCTOOLKITCMDRESPONSEPARAMS, RILSENDUICCTOOLKITCMDRESPONSEPARAMS;
-````
-
-
 ## -struct-fields
 
 

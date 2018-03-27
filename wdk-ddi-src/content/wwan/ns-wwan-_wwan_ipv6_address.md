@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 The WWAN_IPV6_ADDRESS structure represents an IPV6 address of a PDP context.
 
 
-## -syntax
-
-
-````
-typedef struct _WWAN_IPV6_ADDRESS {
-  ULONG OnLinkPrefixLength;
-  UCHAR IPV6Address[16];
-} WWAN_IPV6_ADDRESS, *PWWAN_IPV6_ADDRESS;
-````
-
-
 ## -struct-fields
 
 

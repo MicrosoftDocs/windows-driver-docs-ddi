@@ -53,22 +53,6 @@ req.product: Windows 10 or later.
 The filter driver's implementation to detect if a charger is attached  and get details about the charger.
 
 
-## -prototype
-
-
-````
-UFX_PROPRIETARY_CHARGER_DETECT UfxProprietaryChargerDetect;
-
-NTSTATUS UfxProprietaryChargerDetect(
-  _In_  PVOID                    Context,
-  _Out_ PUFX_PROPRIETARY_CHARGER DetectedCharger
-)
-{ ... }
-
-typedef UFX_PROPRIETARY_CHARGER_DETECT PFN_UFX_PROPRIETARY_CHARGER_DETECT;
-````
-
-
 ## -parameters
 
 
@@ -81,7 +65,7 @@ typedef UFX_PROPRIETARY_CHARGER_DETECT PFN_UFX_PROPRIETARY_CHARGER_DETECT;
 
 ### -param DetectedCharger [out]
 
-A pointer to a     <a href="..\ufxproprietarycharger\ns-ufxproprietarycharger-_ufx_proprietary_charger.md">UFX_PROPRIETARY_CHARGER</a> structure that the driver fills with charger information. 
+A pointer to a     <a href="https://msdn.microsoft.com/library/windows/hardware/mt187979">UFX_PROPRIETARY_CHARGER</a> structure that the driver fills with charger information. 
 
 
 ## -returns
@@ -190,10 +174,10 @@ UsbLowerFilter_ProprietaryChargerDetect(
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/05D2B46A-282C-4B75-9F5C-2FC0AF344AB9">USB filter driver for supporting proprietary chargers</a>
-
-
-
  
 
  

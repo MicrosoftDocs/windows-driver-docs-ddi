@@ -52,21 +52,6 @@ req.typenames: RILUMTSKIND
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef enum _RILUMTSKIND { 
-  RIL_UMTSKIND_HSDPA,
-  RIL_UMTSKIND_HSUPA,
-  RIL_UMTSKIND_HSPAPLUS,
-  RIL_UMTSKIND_DC_HSPAPLUS,
-  RIL_UMTSKIND_HSPAPLUS_64QAM,
-  RIL_UMTSKIND_MAX
-} RILUMTSKIND;
-````
-
-
 ## -enum-fields
 
 

@@ -52,24 +52,6 @@ req.typenames: SRBEX_DATA_SCSI_CDB16, *PSRBEX_DATA_SCSI_CDB16
 The <b>SRBEX_DATA_SCSI_CDB16</b> structure contains the extended SRB data for a 16-byte SCSI command data block (CDB).
 <div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
-## -syntax
-
-
-````
-typedef struct _SRBEX_DATA_SCSI_CDB16 {
-  SRBEXDATATYPE       Type;
-  ULONG               Length;
-  UCHAR               ScsiStatus;
-  UCHAR               SenseInfoBufferLength;
-  ULONG               CdbLength;
-  UCHAR               Reserved;
-  ULONG               Reserved1;
-  PVOID POINTER_ALIGN SenseInfoBuffer;
-  UCHAR POINTER_ALIGN Cdb[16];
-} SRBEX_DATA_SCSI_CDB16, *PSRBEX_DATA_SCSI_CDB16;
-````
-
-
 ## -struct-fields
 
 
@@ -131,14 +113,14 @@ This structure is used to submit an extended SRB data for a CDB of 16 bytes or l
 
 ## -see-also
 
-<a href="..\storport\ns-storport-_srbex_data_scsi_cdb32.md">SRBEX_DATA_SCSI_CDB32</a>
 
 
 
-<a href="..\storport\ns-storport-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh920415">SRBEX_DATA_SCSI_CDB32</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451474">STORAGE_REQUEST_BLOCK</a>
  
 
  

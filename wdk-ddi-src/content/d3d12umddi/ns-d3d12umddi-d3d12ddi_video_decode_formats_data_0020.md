@@ -52,19 +52,6 @@ req.typenames: D3D12DDI_VIDEO_DECODE_FORMATS_DATA_0020
 Specifies information used to retrieve a list of supported formats for a decode configuration.
 
 
-## -syntax
-
-
-````
-typedef struct D3D12DDI_VIDEO_DECODE_FORMATS_DATA_0020 {
-  UINT                                     NodeIndex;
-  D3D12DDI_VIDEO_DECODE_CONFIGURATION_0020 Configuration;
-  UINT                                     FormatCount;
-  DXGI_FORMAT                              *pOutputFormats;
-} D3D12DDI_VIDEO_DECODE_FORMATS_DATA_0020;
-````
-
-
 ## -struct-fields
 
 
@@ -92,10 +79,10 @@ A pointer to the returned supported formats.  The calling application allocates 
 
 ## -see-also
 
-<a href="..\d3d12umddi\nc-d3d12umddi-pfnd3d12ddi_video_get_decode_format_count_0020.md">pfnGetDecodeFormatCount</a>
 
 
 
+<a href="https://msdn.microsoft.com/84503E38-E141-4DAC-B305-6C7E6157A3E9">pfnGetDecodeFormatCount</a>
  
 
  

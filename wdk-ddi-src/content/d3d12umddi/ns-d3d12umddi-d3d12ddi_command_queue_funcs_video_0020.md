@@ -52,20 +52,6 @@ req.typenames: D3D12DDI_COMMAND_QUEUE_FUNCS_VIDEO_0020
 Command queue functions for video.
 
 
-## -syntax
-
-
-````
-typedef struct D3D12DDI_COMMAND_QUEUE_FUNCS_VIDEO_0020 {
-  PFND3D12DDI_EXECUTECOMMANDLISTS pfnExecuteCommandLists;
-  PFND3D12DDI_UPDATETILEMAPPINGS  pfnUpdateTileMappings;
-  PFND3D12DDI_COPYTILEMAPPINGS    pfnCopyTileMappings;
-  PFND3D12DDI_SIGNAL_FENCE        pfnSignalFence;
-  PFND3D12DDI_WAIT_FOR_FENCE      pfnWaitForFence;
-} D3D12DDI_COMMAND_QUEUE_FUNCS_VIDEO_0020;
-````
-
-
 ## -struct-fields
 
 

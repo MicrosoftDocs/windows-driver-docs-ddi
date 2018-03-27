@@ -52,18 +52,6 @@ req.typenames: MSiSCSI_RedirectPortalInfoClass, *PMSiSCSI_RedirectPortalInfoClas
 The MSiSCSI_RedirectPortalInfoClass structure contains information about a collection of sessions for an adapter ID. It also contains the portal redirection information for each of the sessions.
 
 
-## -syntax
-
-
-````
-typedef struct _MSiSCSI_RedirectPortalInfoClass {
-  ULONGLONG                 UniqueAdapterId;
-  ULONG                     SessionCount;
-  ISCSI_RedirectSessionInfo RedirectSessionList[1];
-} MSiSCSI_RedirectPortalInfoClass, *PMSiSCSI_RedirectPortalInfoClass;
-````
-
-
 ## -struct-fields
 
 

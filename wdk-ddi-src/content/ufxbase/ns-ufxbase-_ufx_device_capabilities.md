@@ -53,21 +53,6 @@ req.product: Windows 10 or later.
 The <b>UFX_DEVICE_CAPABILITIES</b> structure is used USB to define properties of the Universal Serial Bus (USB) device created by the controller.
 
 
-## -syntax
-
-
-````
-typedef struct _UFX_DEVICE_CAPABILITIES {
-  ULONG            Size;
-  USB_DEVICE_SPEED MaxSpeed;
-  ULONG            RemoteWakeSignalDelay;
-  BOOLEAN          PdcpSupported;
-  USHORT           InEndpointBitmap;
-  USHORT           OutEndpointBitmap;
-} UFX_DEVICE_CAPABILITIES, *PUFX_DEVICE_CAPABILITIES;
-````
-
-
 ## -struct-fields
 
 

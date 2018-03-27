@@ -52,17 +52,6 @@ req.typenames: RILDELETEMSGPARAMS, *LPRILDELETEMSGPARAMS
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef struct _RILDELETEMSGPARAMS {
-  HUICCAPP  hUiccApp;
-  DWORD     dwIndex;
-} RILDELETEMSGPARAMS, RILDELETEMSGPARAMS;
-````
-
-
 ## -struct-fields
 
 

@@ -52,20 +52,6 @@ req.typenames: DXGK_PTE
 The <b>DepthFill</b> function fills a depth buffer with a pixel value that is specified in native format.
 
 
-## -prototype
-
-
-````
-PFND3DDDI_DEPTHFILL DepthFill;
-
-__checkReturn HRESULT APIENTRY DepthFill(
-  _In_       HANDLE              hDevice,
-  _In_ const D3DDDIARG_DEPTHFILL *pData
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -87,7 +73,7 @@ __checkReturn HRESULT APIENTRY DepthFill(
 
 #### - pData [in]
 
- A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_depthfill.md">D3DDDIARG_DEPTHFILL</a> structure that describes the parameters of the depth-fill operation.
+ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543018">D3DDDIARG_DEPTHFILL</a> structure that describes the parameters of the depth-fill operation.
 
 
 ## -returns
@@ -120,7 +106,7 @@ The depth-fill operation was successful.
 </td>
 <td width="60%">
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_depthfill.md">DepthFill</a> could not allocate the required memory for it to complete.
+<a href="https://msdn.microsoft.com/fc889cc0-d71d-4a81-8fa5-894c676ac110">DepthFill</a> could not allocate the required memory for it to complete.
 
 </td>
 </tr>
@@ -141,14 +127,14 @@ DirectX version 7.0 and earlier runtimes call the <b>DepthFill</b> function to f
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_depthfill.md">D3DDDIARG_DEPTHFILL</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543018">D3DDDIARG_DEPTHFILL</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544519">D3DDDI_DEVICEFUNCS</a>
  
 
  

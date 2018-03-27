@@ -52,17 +52,6 @@ req.typenames: DXGK_PTE
 A callback to destroy a hardware context.
 
 
-## -prototype
-
-
-````
-_Check_return_ HRESULT APIENTRY CALLBACK PFND3DDDI_DESTROYHWCONTEXTCB(
-  _In_ HANDLE                           hDevice,
-  _In_ D3DDDICB_DESTROYHWCONTEXT *const destroyHwContext
-);
-````
-
-
 ## -parameters
 
 

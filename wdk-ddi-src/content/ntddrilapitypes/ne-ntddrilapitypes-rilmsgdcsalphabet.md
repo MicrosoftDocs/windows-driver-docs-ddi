@@ -52,18 +52,6 @@ req.typenames: RILMSGDCSALPHABET
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef enum _RILMSGDCSALPHABET { 
-  RIL_DCSALPHABET_8BIT,
-  RIL_DCSALPHABET_UCS2,
-  RIL_DCSALPHABET_MAX
-} RILMSGDCSALPHABET;
-````
-
-
 ## -enum-fields
 
 

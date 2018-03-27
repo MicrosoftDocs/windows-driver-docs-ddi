@@ -50,22 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The <b>HUB_DEVICE_CONFIG_INFO</b> structure is used in conjunction with the kernel-mode IOCTL, <a href="..\usbioctl\ni-usbioctl-ioctl_internal_usb_get_device_config_info.md">IOCTL_INTERNAL_USB_GET_DEVICE_CONFIG_INFO</a> to request to report information about a USB device and the hub to which the device is attached. 
-
-
-## -syntax
-
-
-````
-typedef struct _HUB_DEVICE_CONFIG_INFO {
-  ULONG              Version;
-  ULONG              Length;
-  USB_HUB_CAP_FLAGS  HubFlags;
-  USB_ID_STRING      HardwareIds;
-  USB_ID_STRING      CompatibleIds;
-  USB_ID_STRING      DeviceDescription;
-} HUB_DEVICE_CONFIG_INFO, *PHUB_DEVICE_CONFIG_INFO;
-````
+The <b>HUB_DEVICE_CONFIG_INFO</b> structure is used in conjunction with the kernel-mode IOCTL, <a href="https://msdn.microsoft.com/library/windows/hardware/ff537252">IOCTL_INTERNAL_USB_GET_DEVICE_CONFIG_INFO</a> to request to report information about a USB device and the hub to which the device is attached. 
 
 
 ## -struct-fields
@@ -85,22 +70,22 @@ Specifies the size of the <b>HUB_DEVICE_CONFIG_INFO</b> structure. Must be set b
 
 ### -field HubFlags
 
-Specifies the hub capabilities in a <a href="..\usbioctl\ns-usbioctl-_usb_hub_cap_flags.md">USB_HUB_CAP_FLAGS</a> structure.  
+Specifies the hub capabilities in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff539330">USB_HUB_CAP_FLAGS</a> structure.  
 
 
 ### -field HardwareIds
 
-The PnP hardware ID multi-string for the USB device in a <a href="..\usbioctl\ns-usbioctl-_usb_id_string.md">USB_ID_STRING</a> structure. 
+The PnP hardware ID multi-string for the USB device in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff540043">USB_ID_STRING</a> structure. 
 
 
 ### -field CompatibleIds
 
- PnP compatible ID multi-string for the USB device in a <a href="..\usbioctl\ns-usbioctl-_usb_id_string.md">USB_ID_STRING</a> structure. 
+ PnP compatible ID multi-string for the USB device in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff540043">USB_ID_STRING</a> structure. 
 
 
 ### -field DeviceDescription
 
-Description of the device in a <a href="..\usbioctl\ns-usbioctl-_usb_id_string.md">USB_ID_STRING</a> structure. This may be set to <b>NULL</b>.
+Description of the device in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff540043">USB_ID_STRING</a> structure. This may be set to <b>NULL</b>.
 
 
 ### -field Reserved
@@ -120,7 +105,7 @@ Description of the device in a <a href="..\usbioctl\ns-usbioctl-_usb_id_string.m
 
 
 
- The <b>Buffer</b> member of the <a href="..\usbioctl\ns-usbioctl-_usb_id_string.md">USB_ID_STRING</a> structure points to a string that contains <b>HardwareIds</b>, <b>CompatibleIds</b>, and <b>DeviceDescription</b> values.
+ The <b>Buffer</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff540043">USB_ID_STRING</a> structure points to a string that contains <b>HardwareIds</b>, <b>CompatibleIds</b>, and <b>DeviceDescription</b> values.
 The caller is responsible for releasing this string buffer, which is allocated by the hub driver.
 
 
@@ -128,11 +113,10 @@ The caller is responsible for releasing this string buffer, which is allocated b
 
 ## -see-also
 
-<a href="..\usbioctl\ns-usbioctl-_usb_hub_cap_flags.md">USB_HUB_CAP_FLAGS</a>
 
 
 
-<a href="..\usbioctl\ns-usbioctl-_usb_id_string.md">USB_ID_STRING</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537252">IOCTL_INTERNAL_USB_GET_DEVICE_CONFIG_INFO</a>
 
 
 
@@ -140,10 +124,11 @@ The caller is responsible for releasing this string buffer, which is allocated b
 
 
 
-<a href="..\usbioctl\ni-usbioctl-ioctl_internal_usb_get_device_config_info.md">IOCTL_INTERNAL_USB_GET_DEVICE_CONFIG_INFO</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539330">USB_HUB_CAP_FLAGS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540043">USB_ID_STRING</a>
  
 
  

@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: storport.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,17 +51,6 @@ req.product: Windows 10 or later.
 
 
 This <b>StorPortWriteRegisterUlong64</b> routine writes a <b>ULONG64</b> value to the specified register address.
-
-
-## -syntax
-
-
-````
- VOID StorPortWriteRegisterUlong64(
-  _In_ PULONG64  Register,
-  _In_ ULONG64   Value
-);
-````
 
 
 ## -parameters
@@ -109,10 +98,10 @@ The <b>StorPortWriteRegisterUlong64</b> routine is only available on the 64-bit 
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportreadregisterulong64.md">StorPortReadRegisterUlong64</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh967741">StorPortReadRegisterUlong64</a>
  
 
  

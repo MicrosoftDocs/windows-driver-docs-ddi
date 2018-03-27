@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: ndis.h
+req.lib: 
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
@@ -54,16 +54,6 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
   <i>incoming</i> call initiated on a remote node.
 
 
-## -syntax
-
-
-````
-VOID NdisMCmDispatchCallConnected(
-  [in] NDIS_HANDLE NdisVcHandle
-);
-````
-
-
 ## -parameters
 
 
@@ -81,7 +71,7 @@ TBD
 #### - NdisVcHandle [in]
 
 Specifies the handle to the VC that represents the connection, created with 
-     <a href="..\ndis\nf-ndis-ndismcmcreatevc.md">NdisMCmCreateVc</a> when the MCM driver set
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff562812">NdisMCmCreateVc</a> when the MCM driver set
      up the VC for the incoming call.
 
 
@@ -90,14 +80,14 @@ Specifies the handle to the VC that represents the connection, created with
 
 
 An MCM driver's 
-    <a href="..\ndis\nc-ndis-protocol_cm_incoming_call_complete.md">
+    <a href="https://msdn.microsoft.com/353e929b-17c8-47e8-82fd-b646e93a5b9a">
     ProtocolCmIncomingCallComplete</a> function calls 
     <b>NdisMCmDispatchCallConnected</b> to complete the final handshake for an incoming call from a remote
     node, which the local client has already accepted.
 
 A call to 
     <b>NdisMCmDispatchCallConnected</b> causes NDIS to call the client's 
-    <a href="..\ndis\nc-ndis-protocol_cl_call_connected.md">
+    <a href="https://msdn.microsoft.com/675b2066-6a65-47cf-bde7-3c843f97c960">
     ProtocolClCallConnected</a> function.
 
 Only connection-oriented miniport drivers that provide integrated call-management support can call 
@@ -110,27 +100,27 @@ Only connection-oriented miniport drivers that provide integrated call-managemen
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-protocol_cm_incoming_call_complete.md">
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561661">NdisCmDispatchCallConnected</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562812">NdisMCmCreateVc</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562830">NdisMCmDispatchIncomingCall</a>
+
+
+
+<a href="https://msdn.microsoft.com/675b2066-6a65-47cf-bde7-3c843f97c960">ProtocolClCallConnected</a>
+
+
+
+<a href="https://msdn.microsoft.com/353e929b-17c8-47e8-82fd-b646e93a5b9a">
    ProtocolCmIncomingCallComplete</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismcmdispatchincomingcall.md">NdisMCmDispatchIncomingCall</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismcmcreatevc.md">NdisMCmCreateVc</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_cl_call_connected.md">ProtocolClCallConnected</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndiscmdispatchcallconnected.md">NdisCmDispatchCallConnected</a>
-
-
-
  
 
  

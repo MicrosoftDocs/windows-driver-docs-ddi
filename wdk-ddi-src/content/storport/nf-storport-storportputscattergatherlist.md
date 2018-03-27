@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: DISPATCH_LEVEL
 topic_type:
@@ -50,19 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The <b>StorPortPutScatterGatherList</b> routine releases any resources associated with a scatter/gather list that was previously created by a call to the <a href="..\storport\nf-storport-storportbuildscattergatherlist.md">StorPortBuildScatterGatherList</a> routine.
-
-
-## -syntax
-
-
-````
-ULONG StorPortPutScatterGatherList(
-  _In_ PVOID                     HwDeviceExtension,
-  _In_ PSTOR_SCATTER_GATHER_LIST ScatterGatherList,
-  _In_ BOOLEAN                   WriteToDevice
-);
-````
+The <b>StorPortPutScatterGatherList</b> routine releases any resources associated with a scatter/gather list that was previously created by a call to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567038">StorPortBuildScatterGatherList</a> routine.
 
 
 ## -parameters
@@ -77,7 +65,7 @@ A pointer to the hardware device extension for the host bus adapter (HBA).
 
 ### -param ScatterGatherList [in]
 
-A pointer to a buffer that contains a scatter/gather list that was previously created by a call to the <a href="..\storport\nf-storport-storportbuildscattergatherlist.md">StorPortBuildScatterGatherList</a> routine.
+A pointer to a buffer that contains a scatter/gather list that was previously created by a call to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567038">StorPortBuildScatterGatherList</a> routine.
 
 
 ### -param WriteToDevice [in]
@@ -152,17 +140,17 @@ The call was made at an invalid IRQL.
 
 The <b>StorPortPutScatterGatherList</b> routine does not free the buffer memory for the scatter/gather list, because the miniport driver allocated this memory. 
 
-After the <b>StorPortPutScatterGatherList</b> routine returns, the miniport driver can reuse the buffer to create a new scatter/gather list by calling the <a href="..\storport\nf-storport-storportbuildscattergatherlist.md">StorPortBuildScatterGatherList</a> again. If a miniport driver has finished using the buffer for the scatter/gather list, it should free the memory for the buffer after the <b>StorPortPutScatterGatherList</b> routine returns. If the miniport driver allocates the buffer memory with the <a href="..\storport\nf-storport-storportallocatepool.md">StorPortAllocatePool</a> routine, it should free the memory by calling the <a href="..\storport\nf-storport-storportfreepool.md">StorPortFreePool</a> routine.
+After the <b>StorPortPutScatterGatherList</b> routine returns, the miniport driver can reuse the buffer to create a new scatter/gather list by calling the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567038">StorPortBuildScatterGatherList</a> again. If a miniport driver has finished using the buffer for the scatter/gather list, it should free the memory for the buffer after the <b>StorPortPutScatterGatherList</b> routine returns. If the miniport driver allocates the buffer memory with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567031">StorPortAllocatePool</a> routine, it should free the memory by calling the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567065">StorPortFreePool</a> routine.
 
 
 
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportbuildscattergatherlist.md">StorPortBuildScatterGatherList</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567038">StorPortBuildScatterGatherList</a>
  
 
  

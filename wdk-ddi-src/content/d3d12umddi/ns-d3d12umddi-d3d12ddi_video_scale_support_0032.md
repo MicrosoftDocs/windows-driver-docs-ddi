@@ -52,17 +52,6 @@ req.typenames: D3D12DDI_VIDEO_SCALE_SUPPORT_0032
 Video scale support.
 
 
-## -syntax
-
-
-````
-typedef struct _D3D12DDI_VIDEO_SCALE_SUPPORT_0032 {
-  D3D12DDI_VIDEO_SIZE_RANGE_0032           OutputSizeRange;
-  D3D12DDI_VIDEO_SCALE_SUPPORT_FLAGS_0022  Flags;
-} D3D12DDI_VIDEO_SCALE_SUPPORT_0032, D3D12DDI_VIDEO_SCALE_SUPPORT_0032;
-````
-
-
 ## -struct-fields
 
 

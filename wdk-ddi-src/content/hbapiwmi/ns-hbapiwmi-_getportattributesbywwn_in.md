@@ -52,16 +52,6 @@ req.typenames: GetPortAttributesByWWN_IN, *PGetPortAttributesByWWN_IN
 The GetPortAttributesByWWN_IN structure is used by a WMI client to deliver input parameter data to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554965">GetPortAttributesByWWN</a> WMI method. 
 
 
-## -syntax
-
-
-````
-typedef struct _GetPortAttributesByWWN_IN {
-  UCHAR wwn[8];
-} GetPortAttributesByWWN_IN, *PGetPortAttributesByWWN_IN;
-````
-
-
 ## -struct-fields
 
 
@@ -85,10 +75,10 @@ For a definition of FC_Port and a discussion of worldwide names, see the T11 com
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554965">GetPortAttributesByWWN</a>
-
-
-
  
 
  

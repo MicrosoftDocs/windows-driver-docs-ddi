@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: Microsoft.WDTF
 req.assembly: WDTF.Interop.metadata_dll
 req.type-library: 
-req.lib: wdtf.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,17 +51,6 @@ req.product: Windows 10 or later.
 
 
 Returns a subset of the items in the collection.
-
-
-## -syntax
-
-
-````
-HRESULT Query(
-  [in]          BSTR          SDEL,
-  [out, retval] IWDTFTargets2 **ppTargets
-);
-````
 
 
 ## -parameters
@@ -94,8 +83,8 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 The <b>Query</b> method provides the <i>SDEL</i> 
 parameter in a call to the <a href="https://msdn.microsoft.com/468cb35d-f816-4233-ba07-8dc47b77d442">IWDTFTarget2::Eval</a> 
-method for every instance of the <a href="..\wdtf\nn-wdtf-iwdtftarget2.md">IWDTFTarget2</a> interface 
-in the <a href="..\wdtf\nn-wdtf-iwdtftargets2.md">IWDTFTargets2</a> collection. 
+method for every instance of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439367">IWDTFTarget2</a> interface 
+in the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439458">IWDTFTargets2</a> collection. 
 Use the <a href="https://msdn.microsoft.com/84c2a1d6-6bec-4aeb-b858-c29f50d74390">Simple Data 
 Evaluation Language</a> to specify this parameter. 
 Every target that returns <b>VARIANT_TRUE</b> is added to a new 
@@ -107,10 +96,10 @@ interface.
 
 ## -see-also
 
-<a href="..\wdtf\nn-wdtf-iwdtftargets2.md">IWDTFTargets2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439458">IWDTFTargets2</a>
  
 
  

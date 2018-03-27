@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 The <b>VideoPortInterlockedExchange</b> function locks or unlocks a block of memory by setting a user-defined lock variable to <b>TRUE</b> or <b>FALSE</b>, respectively. It returns the previously-held value of the lock variable.
 
 
-## -syntax
-
-
-````
-LONG FASTCALL VideoPortInterlockedExchange(
-  _Inout_ PLONG Target,
-  _In_    LONG  Value
-);
-````
-
-
 ## -parameters
 
 
@@ -101,18 +90,18 @@ When the buffer is not being read from or written to, the lock variable should h
 
 ## -see-also
 
-<a href="..\video\nf-video-videoportgetcommonbuffer.md">VideoPortGetCommonBuffer</a>
 
 
 
-<a href="..\video\nf-video-videoportinterlockeddecrement.md">VideoPortInterlockedDecrement</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570308">VideoPortGetCommonBuffer</a>
 
 
 
-<a href="..\video\nf-video-videoportinterlockedincrement.md">VideoPortInterlockedIncrement</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570322">VideoPortInterlockedDecrement</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570324">VideoPortInterlockedIncrement</a>
  
 
  

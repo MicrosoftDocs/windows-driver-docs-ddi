@@ -52,29 +52,6 @@ req.typenames: D3DKMDT_DISPLAYMODE_FLAGS
 The D3DKMDT_DISPLAYMODE_FLAGS structure identifies attributes of a display mode.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DKMDT_DISPLAYMODE_FLAGS {
-#if (DXGKDDI_INTERFACE_VERSION < DXGKDDI_INTERFACE_VERSION_WIN8)
-  BOOLEAN                     ValidatedAgainstMonitorCaps  :1;
-  BOOLEAN                     RoundedFakeMode  :1;
-  D3DKMDT_MODE_PRUNING_REASON ModePruningReason  :4;
-  UINT                        Reserved  :28;
-#else 
-  UINT                        ValidatedAgainstMonitorCaps  :1;
-  UINT                        RoundedFakeMode  :1;
-  UINT                          :0;
-  D3DKMDT_MODE_PRUNING_REASON ModePruningReason  :4;
-  UINT                        Stereo  :1;
-  UINT                        AdvancedScanCapable  :1;
-  UINT                        Reserved  :26;
-#endif 
-} D3DKMDT_DISPLAYMODE_FLAGS;
-````
-
-
 ## -struct-fields
 
 
@@ -108,11 +85,11 @@ Supported starting with Windows 8.
 
 ### -field ModePruningReason
 
-[in] A value of type <a href="..\d3dkmthk\ne-d3dkmthk-_d3dkmdt_mode_pruning_reason.md">D3DKMDT_MODE_PRUNING_REASON</a> that identifies the reason why the monitor either supports the display mode or does not support the display mode. The four bits are defined by one of the values in the <b>D3DKMDT_MODE_PRUNING_REASON</b> enumeration type and depend on the setting of the <b>ValidatedAgainstMonitorCaps</b> member. For more information about how the <b>ModePruningReason</b> value is set, see <b>D3DKMDT_MODE_PRUNING_REASON</b>.
+[in] A value of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff546070">D3DKMDT_MODE_PRUNING_REASON</a> that identifies the reason why the monitor either supports the display mode or does not support the display mode. The four bits are defined by one of the values in the <b>D3DKMDT_MODE_PRUNING_REASON</b> enumeration type and depend on the setting of the <b>ValidatedAgainstMonitorCaps</b> member. For more information about how the <b>ModePruningReason</b> value is set, see <b>D3DKMDT_MODE_PRUNING_REASON</b>.
 
 Setting this member is equivalent to setting bits 4 through 7 of a 32-bit value (0x0000003C).
 
-[in] A value of type <a href="..\d3dkmthk\ne-d3dkmthk-_d3dkmdt_mode_pruning_reason.md">D3DKMDT_MODE_PRUNING_REASON</a> that identifies the reason why the monitor either supports the display mode or does not support the display mode. The four bits are defined by one of the values in the <b>D3DKMDT_MODE_PRUNING_REASON</b> enumeration type and depend on the setting of the <b>ValidatedAgainstMonitorCaps</b> member. For more information about how the <b>ModePruningReason</b> value is set, see <b>D3DKMDT_MODE_PRUNING_REASON</b>.
+[in] A value of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff546070">D3DKMDT_MODE_PRUNING_REASON</a> that identifies the reason why the monitor either supports the display mode or does not support the display mode. The four bits are defined by one of the values in the <b>D3DKMDT_MODE_PRUNING_REASON</b> enumeration type and depend on the setting of the <b>ValidatedAgainstMonitorCaps</b> member. For more information about how the <b>ModePruningReason</b> value is set, see <b>D3DKMDT_MODE_PRUNING_REASON</b>.
 
 This member is equivalent to bits 4 through 7 of a 32-bit value (0x0000003C). 
 
@@ -134,7 +111,7 @@ Supported starting with Windows 8.
 
 [in] A UINT value that specifies whether the driver supports the advanced scan capability.
 
-The driver reports support for this option in the current display mode by setting the <b>Type</b> member of the <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_vidpn_source_mode.md">D3DKMDT_VIDPN_SOURCE_MODE</a> structure to <b>D3DKMDT_RMT_GRAPHICS_STEREO_ADVANCED_SCAN</b>.
+The driver reports support for this option in the current display mode by setting the <b>Type</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff546724">D3DKMDT_VIDPN_SOURCE_MODE</a> structure to <b>D3DKMDT_RMT_GRAPHICS_STEREO_ADVANCED_SCAN</b>.
 
 Setting this member is equivalent to setting the ninth bit of a 32-bit value (0x00000100).
 
@@ -164,14 +141,14 @@ Supported starting with Windows 8.
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_displaymode.md">D3DKMT_DISPLAYMODE</a>
 
 
 
-<a href="..\d3dkmthk\ne-d3dkmthk-_d3dkmdt_mode_pruning_reason.md">D3DKMDT_MODE_PRUNING_REASON</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546070">D3DKMDT_MODE_PRUNING_REASON</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547942">D3DKMT_DISPLAYMODE</a>
  
 
  

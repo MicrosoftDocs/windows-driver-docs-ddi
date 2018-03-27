@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
@@ -51,16 +51,6 @@ req.product: Windows 10 or later.
 
 
 <b>RxCeTearDownVC</b> deregisters a virtual circuit from a specified RDBSS connection.
-
-
-## -syntax
-
-
-````
-NTSTATUS RxCeTearDownVC(
-  _In_ PRXCE_VC pVc
-);
-````
 
 
 ## -parameters
@@ -116,10 +106,10 @@ Note that <b>RxCeTearDownVC</b> will wait for the clean up of connections over o
 
 ## -see-also
 
-<a href="..\rxce\nf-rxce-rxcebuildvc.md">RxCeBuildVC</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553439">RxCeBuildVC</a>
  
 
  

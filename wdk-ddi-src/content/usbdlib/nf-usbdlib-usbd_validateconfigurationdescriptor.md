@@ -54,20 +54,6 @@ req.product: Windows 10 or later.
 The <b>USBD_ValidateConfigurationDescriptor</b> routine validates all descriptors returned by a device in its response to a configuration descriptor request.
 
 
-## -syntax
-
-
-````
-USBD_STATUS USBD_ValidateConfigurationDescriptor(
-  _In_     PUSB_CONFIGURATION_DESCRIPTOR ConfigDesc,
-  _In_     ULONG                         BufferLength,
-  _In_     USHORT                        Level,
-  _Out_    PUCHAR                        *Offset,
-  _In_opt_ ULONG                         Tag
-);
-````
-
-
 ## -parameters
 
 
@@ -115,10 +101,10 @@ USBD_STATUS_SUCCESS, or appropriate USBD error code if validation failed.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540134">USB device driver programming reference</a>
-
-
-
  
 
  

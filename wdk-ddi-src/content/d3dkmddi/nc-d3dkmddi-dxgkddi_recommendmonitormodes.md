@@ -52,20 +52,6 @@ req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
 The <i>DxgkDdiRecommendMonitorModes</i> function inspects the monitor source mode set that is associated with a particular video present target and possibly adds modes to the set.
 
 
-## -prototype
-
-
-````
-DXGKDDI_RECOMMENDMONITORMODES DxgkDdiRecommendMonitorModes;
-
-NTSTATUS APIENTRY DxgkDdiRecommendMonitorModes(
-  _In_ const HANDLE                              hAdapter,
-  _In_ const DXGKARG_RECOMMENDMONITORMODES CONST *pRecommendMonitorModesArg
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -73,7 +59,7 @@ NTSTATUS APIENTRY DxgkDdiRecommendMonitorModes(
 
 ### -param hAdapter [in]
 
-A handle to a context block that is associated with a display adapter. The display miniport driver previously provided this handle to the Microsoft DirectX graphics kernel subsystem in the <i>MiniportDeviceContext</i> output parameter of the <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a> function.
+A handle to a context block that is associated with a display adapter. The display miniport driver previously provided this handle to the Microsoft DirectX graphics kernel subsystem in the <i>MiniportDeviceContext</i> output parameter of the <a href="https://msdn.microsoft.com/5fd4046f-54c3-4dfc-8d51-0d9ebcde0bea">DxgkDdiAddDevice</a> function.
 
 
 ### -param pRecommendMonitorModes
@@ -87,7 +73,7 @@ A handle to a context block that is associated with a display adapter. The displ
 
 #### - pRecommendMonitorModesArg [in]
 
-A pointer to a <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_recommendmonitormodes.md">DXGKARG_RECOMMENDMONITORMODES</a> structure that contains function arguments.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff557636">DXGKARG_RECOMMENDMONITORMODES</a> structure that contains function arguments.
 
 
 ## -returns
@@ -142,10 +128,10 @@ The miniport driver should pass through any error code that it gets from the ope
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568435">Monitor Source Mode Set Interface</a>
-
-
-
  
 
  

@@ -52,17 +52,6 @@ req.typenames: GetFCPStatistics_OUT, *PGetFCPStatistics_OUT
 The GetFCPStatistics_OUT structure is used by the miniport driver to report the output parameters of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554939">GetFCPStatistics</a> WMI method. 
 
 
-## -syntax
-
-
-````
-typedef struct _GetFCPStatistics_OUT {
-  ULONG              HBAStatus;
-  MSFC_FC4STATISTICS FC4Statistics;
-} GetFCPStatistics_OUT, *PGetFCPStatistics_OUT;
-````
-
-
 ## -struct-fields
 
 
@@ -75,7 +64,7 @@ Contains a value associated with the WMI class qualifier <a href="https://msdn.m
 
 ### -field FC4Statistics
 
-Contains a structure of type <a href="..\hbapiwmi\ns-hbapiwmi-_msfc_fc4statistics.md">MSFC_FC4STATISTICS</a> that holds statistics for the specified FC-4 protocol.
+Contains a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff562492">MSFC_FC4STATISTICS</a> that holds statistics for the specified FC-4 protocol.
 
 
 ## -remarks
@@ -89,14 +78,14 @@ The WMI tool suite generates a declaration of the GetFCPStatistics_OUT structure
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554939">GetFCPStatistics</a>
 
 
 
-<a href="..\hbapiwmi\ns-hbapiwmi-_getfcpstatistics_in.md">GetFCPStatistics_IN</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554942">GetFCPStatistics_IN</a>
  
 
  

@@ -52,28 +52,12 @@ req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 Determines whether a specified format can be used as a video decoder output format for a specified DirectX Video Acceleration (DXVA) profile.
 
 
-## -prototype
-
-
-````
-PFND3D11_1DDI_CHECKVIDEODECODERFORMAT CheckVideoDecoderFormat;
-
-VOID APIENTRY* CheckVideoDecoderFormat(
-  _In_        D3D10DDI_HDEVICE hDevice,
-  _In_  const GUID             *pDecoderProfile ,
-  _In_        DXGI_FORMAT      Format,
-  _Out_       BOOL             *pBool
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
 
 
-### -param D3D10DDI_HDEVICE
+### -param Arg1
 
 
 ### -param *
@@ -85,7 +69,7 @@ VOID APIENTRY* CheckVideoDecoderFormat(
 
 
 
-### -param DXGI_FORMAT
+### -param Arg2
 
 
 #### - Format [in]

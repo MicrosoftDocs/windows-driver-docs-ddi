@@ -53,21 +53,6 @@ The NDIS_PM_PACKET_PATTERN structure specifies a wake-up pattern, which, when de
   has pattern-match enabled, causes the network adapter to signal a power-management wake-up event.
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_PM_PACKET_PATTERN {
-  ULONG Priority;
-  ULONG Reserved;
-  ULONG MaskSize;
-  ULONG PatternOffset;
-  ULONG PatternSize;
-  ULONG PatternFlags;
-} NDIS_PM_PACKET_PATTERN, *PNDIS_PM_PACKET_PATTERN;
-````
-
-
 ## -struct-fields
 
 
@@ -112,7 +97,7 @@ These flags are reserved.
 
 NDIS_PM_PACKET_PATTERN is supplied in the 
     <i>InformationBuffer</i> of the 
-    <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a> structure for following
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff566710">NDIS_OID_REQUEST</a> structure for following
     OIDs:
 
 <ul>
@@ -152,11 +137,10 @@ A protocol uses this OID to request a list of the wake-up patterns currently set
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569783">OID_PNP_WAKE_UP_PATTERN_LIST</a>
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566710">NDIS_OID_REQUEST</a>
 
 
 
@@ -168,6 +152,7 @@ A protocol uses this OID to request a list of the wake-up patterns currently set
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569783">OID_PNP_WAKE_UP_PATTERN_LIST</a>
  
 
  

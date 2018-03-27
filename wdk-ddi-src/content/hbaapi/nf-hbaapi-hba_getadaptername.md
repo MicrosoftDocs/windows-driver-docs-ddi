@@ -52,17 +52,6 @@ req.typenames: HBA_WWNTYPE
 The <b>HBA_GetAdapterName</b> routine retrieves the text string that identifies the HBA name that corresponds to the indicated adapter index.
 
 
-## -syntax
-
-
-````
-HBA_STATUS HBA_API HBA_GetAdapterName(
-  _In_    HBA_UINT32 AdapterIndex,
-  _Inout_ PCHAR      AdapterName
-);
-````
-
-
 ## -parameters
 
 
@@ -113,18 +102,18 @@ The <b>HBA_GetAdapterName</b> routine returns a value of type <a href="https://m
 
 ## -see-also
 
-<a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556044">HBA_AdapterAttributes</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557097">HBA_OpenAdapter</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
-
-
-
-<a href="..\hbaapi\ns-hbaapi-hba_adapterattributes.md">HBA_AdapterAttributes</a>
-
-
-
  
 
  

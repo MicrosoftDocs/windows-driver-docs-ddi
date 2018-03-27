@@ -57,18 +57,6 @@ The <b>VmbChannelInitSetFriendlyName</b> function sets the friendly name of the 
 performance counter instance naming.  
 
 
-## -syntax
-
-
-````
-NTSTATUS
- VmbChannelInitSetFriendlyName(
-  _In_ VMBCHANNEL       Channel,
-  _In_ PCUNICODE_STRING Name
-);
-````
-
-
 ## -parameters
 
 

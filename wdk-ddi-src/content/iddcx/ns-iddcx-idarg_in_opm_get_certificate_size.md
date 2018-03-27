@@ -52,16 +52,6 @@ req.typenames:
 Gives information about the OPM certificate size.
 
 
-## -syntax
-
-
-````
-typedef struct IDARG_IN_OPM_GET_CERTIFICATE_SIZE {
-  OPM_VIDEO_OUTPUT_SEMANTICS CertificateType;
-} IDARG_IN_OPM_GET_CERTIFICATE_SIZE, *IDARG_IN_OPM_GET_CERTIFICATE_SIZE;
-````
-
-
 ## -struct-fields
 
 

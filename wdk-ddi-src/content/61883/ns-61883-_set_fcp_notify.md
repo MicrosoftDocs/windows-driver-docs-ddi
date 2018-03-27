@@ -52,17 +52,6 @@ req.typenames: SET_FCP_NOTIFY, *PSET_FCP_NOTIFY
 This structure is used for FCP notification. The SetFcpNotify request registers a client driver notification of FCP requests or responses, or cancels a prior registration. A driver must register for FCP notifications in order to retrieve requests or responses. The driver is responsible for canceling registration by sending an SetFcpNotify request with DEREGISTER_FCP_NOTIFY set in <b>Flags</b> before the system unloads the driver. 
 
 
-## -syntax
-
-
-````
-typedef struct _SET_FCP_NOTIFY {
-  ULONG        Flags;
-  NODE_ADDRESS NodeAddress;
-} SET_FCP_NOTIFY, *PSET_FCP_NOTIFY;
-````
-
-
 ## -struct-fields
 
 
@@ -95,10 +84,10 @@ If successful, the IEC-61883 protocol driver sets <b>Irp-&gt;IoStatus.Status </b
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537008">AV_61883_REQUEST</a>
-
-
-
  
 
  

@@ -49,19 +49,8 @@ req.typenames: IDE_POWER_INFO, *PIDE_POWER_INFO
 ## -description
 
 
-The POWER_CHANGE_INFO structure is used in conjunction with the <a href="..\irb\ns-irb-_ide_request_block.md">IDE_REQUEST_BLOCK</a> to request a power state change.
+The POWER_CHANGE_INFO structure is used in conjunction with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559140">IDE_REQUEST_BLOCK</a> to request a power state change.
 <div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
-
-## -syntax
-
-
-````
-typedef struct _IDE_POWER_INFO {
-  IDE_POWER_STATE CurrentPowerState;
-  IDE_POWER_STATE DesiredPowerState;
-} IDE_POWER_INFO, *PIDE_POWER_INFO;
-````
-
 
 ## -struct-fields
 
@@ -70,7 +59,7 @@ typedef struct _IDE_POWER_INFO {
 
 ### -field CurrentPowerState
 
-Contains an enumeration value of type <a href="..\irb\ne-irb-ide_power_state.md">IDE_POWER_STATE</a> that indicates the current power state of the device.
+Contains an enumeration value of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff559129">IDE_POWER_STATE</a> that indicates the current power state of the device.
 
 
 ### -field DesiredPowerState
@@ -80,14 +69,14 @@ Contains an enumeration value of type IDE_POWER_STATE that indicates the power s
 
 ## -see-also
 
-<a href="..\irb\ns-irb-_ide_request_block.md">IDE_REQUEST_BLOCK</a>
 
 
 
-<a href="..\irb\ne-irb-ide_power_state.md">IDE_POWER_STATE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559129">IDE_POWER_STATE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559140">IDE_REQUEST_BLOCK</a>
  
 
  

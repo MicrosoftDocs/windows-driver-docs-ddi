@@ -53,19 +53,6 @@ req.product: Windows 10 or later.
 The <b>USB_BUS_INFORMATION_LEVEL_1</b> structure is used in conjunction with the <a href="https://msdn.microsoft.com/cc03ae88-89ba-44ff-bfe7-6255f2a2ec5c">QueryBusInformation</a> interface routine to report information about the bus.
 
 
-## -syntax
-
-
-````
-typedef struct _USB_BUS_INFORMATION_LEVEL_1 {
-  ULONG TotalBandwidth;
-  ULONG ConsumedBandwidth;
-  ULONG ControllerNameLength;
-  WCHAR ControllerNameUnicodeString[1];
-} USB_BUS_INFORMATION_LEVEL_1, *PUSB_BUS_INFORMATION_LEVEL_1;
-````
-
-
 ## -struct-fields
 
 
@@ -104,7 +91,6 @@ For more information about how to obtain the proper level of USB interface, see 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
 
 
 
@@ -112,6 +98,7 @@ For more information about how to obtain the proper level of USB interface, see 
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
  
 
  

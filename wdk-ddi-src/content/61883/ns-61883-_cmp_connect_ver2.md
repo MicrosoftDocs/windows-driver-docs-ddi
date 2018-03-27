@@ -52,20 +52,6 @@ req.typenames: CMP_CONNECT_VER2, *PCMP_CONNECT_VER2
 This structure contains information for a connection request. The  request attempts to make a connection to a plug control register on the local host.
 
 
-## -syntax
-
-
-````
-typedef struct _CMP_CONNECT_VER2 {
-  HANDLE               hOutputPlug;
-  HANDLE               hInputPlug;
-  CMP_CONNECT_TYPE     Type;
-  CIP_DATA_FORMAT_VER2 Format;
-  HANDLE               hConnect;
-} CMP_CONNECT_VER2, *PCMP_CONNECT_VER2;
-````
-
-
 ## -struct-fields
 
 
@@ -106,7 +92,7 @@ A connection between a single output plug and one or more input plugs.
 
 The requested data format.
 
-On input, a pointer to a <a href="..\61883\ns-61883-_cip_data_format_ver2.md">CIP_DATA_FORMAT_VER2</a> structure that specifies the format of the connection.
+On input, a pointer to a <a href="https://msdn.microsoft.com/C78543F5-82CC-43CF-8769-1E721C17FF9C">CIP_DATA_FORMAT_VER2</a> structure that specifies the format of the connection.
 
 
 ### -field hConnect
@@ -129,10 +115,10 @@ If the protocol driver is unable to allocate resources, it sets <b>Irp-&gt;IoSta
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537008">AV_61883_REQUEST</a>
-
-
-
  
 
  

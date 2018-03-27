@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -50,18 +50,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>ExecuteCommandFileWide</b>  method opens the specified file and executes the debugger commands that are contained within.
-
-
-## -syntax
-
-
-````
-HRESULT ExecuteCommandFileWide(
-  [in] ULONG  OutputControl,
-  [in] PCWSTR CommandFile,
-  [in] ULONG  Flags
-);
-````
 
 
 ## -parameters
@@ -123,7 +111,6 @@ This method reads the specified file and execute the commands one line at a time
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
 
 
 
@@ -131,6 +118,7 @@ This method reads the specified file and execute the commands one line at a time
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550526">IDebugControl4</a>
  
 
  

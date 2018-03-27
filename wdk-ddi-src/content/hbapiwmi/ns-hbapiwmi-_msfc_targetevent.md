@@ -52,18 +52,6 @@ req.typenames: MSFC_TargetEvent, *PMSFC_TargetEvent
 A WMI provider uses the MSFC_TargetEvent structure to report port events for the indicated adapter.
 
 
-## -syntax
-
-
-````
-typedef struct _MSFC_TargetEvent {
-  ULONG EventType;
-  UCHAR PortWWN[8];
-  UCHAR DiscoveredPortWWN[8];
-} MSFC_TargetEvent, *PMSFC_TargetEvent;
-````
-
-
 ## -struct-fields
 
 
@@ -86,10 +74,10 @@ Contains a worldwide name that indicates the remote port for which the event occ
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/528e5eaa-aaeb-4e5b-a4b2-0f518fcd79ee">EVENT_TYPE_QUALIFIERS</a>
-
-
-
  
 
  

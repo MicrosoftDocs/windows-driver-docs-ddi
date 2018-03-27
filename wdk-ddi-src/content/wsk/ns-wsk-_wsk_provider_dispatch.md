@@ -54,25 +54,6 @@ The WSK_PROVIDER_DISPATCH structure specifies the WSK subsystem's dispatch table
   are not specific to a particular socket.
 
 
-## -syntax
-
-
-````
-typedef struct _WSK_PROVIDER_DISPATCH {
-  USHORT                    Version;
-  USHORT                    Reserved;
-  PFN_WSK_SOCKET            WskSocket;
-  PFN_WSK_SOCKET_CONNECT    WskSocketConnect;
-  PFN_WSK_CONTROL_CLIENT    WskControlClient;
-#if (NTDDI_VERSION >= NTDDI_WIN7)
-  PFN_WSK_GET_ADDRESS_INFO  WskGetAddressInfo;
-  PFN_WSK_FREE_ADDRESS_INFO WskFreeAddressInfo;
-  PFN_WSK_GET_NAME_INFO     WskGetNameInfo;
-#endif 
-} WSK_PROVIDER_DISPATCH, *PWSK_PROVIDER_DISPATCH;
-````
-
-
 ## -struct-fields
 
 
@@ -93,25 +74,25 @@ Reserved for system use.
 ### -field WskSocket
 
 A pointer to the WSK subsystem's 
-     <a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a> function.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571149">WskSocket</a> function.
 
 
 ### -field WskSocketConnect
 
 A pointer to the WSK subsystem's 
-     <a href="..\wsk\nc-wsk-pfn_wsk_socket_connect.md">WskSocketConnect</a> function.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571150">WskSocketConnect</a> function.
 
 
 ### -field WskControlClient
 
 A pointer to the WSK subsystem's 
-     <a href="..\wsk\nc-wsk-pfn_wsk_control_client.md">WskControlClient</a> function.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571126">WskControlClient</a> function.
 
 
 ### -field WskGetAddressInfo
 
 A pointer to the WSK subsystem's 
-     <a href="..\wsk\nc-wsk-pfn_wsk_get_address_info.md">WskGetAddressInfo</a> function.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571132">WskGetAddressInfo</a> function.
      
 
 This member is available beginning with Windows 7.
@@ -120,7 +101,7 @@ This member is available beginning with Windows 7.
 ### -field WskFreeAddressInfo
 
 A pointer to the WSK subsystem's 
-     <a href="..\wsk\nc-wsk-pfn_wsk_free_address_info.md">WskFreeAddressInfo</a> function.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571131">WskFreeAddressInfo</a> function.
      
 
 This member is available beginning with Windows 7.
@@ -129,7 +110,7 @@ This member is available beginning with Windows 7.
 ### -field WskGetNameInfo
 
 A pointer to the WSK subsystem's 
-     <a href="..\wsk\nc-wsk-pfn_wsk_get_name_info.md">WskGetNameInfo</a> function.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571134">WskGetNameInfo</a> function.
      
 
 This member is available beginning with Windows 7.
@@ -140,10 +121,10 @@ This member is available beginning with Windows 7.
 
 
 When a WSK application calls the 
-    <a href="..\wsk\nf-wsk-wskcaptureprovidernpi.md">WskCaptureProviderNPI</a> function, the
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff571122">WskCaptureProviderNPI</a> function, the
     WSK subsystem returns a pointer to a WSK_PROVIDER_DISPATCH structure by means of the 
     <b>Dispatch</b> member of the 
-    <a href="..\wsk\ns-wsk-_wsk_client_npi.md">WSK_CLIENT_NPI</a> structure pointed to by the 
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff571163">WSK_CLIENT_NPI</a> structure pointed to by the 
     <i>WskProviderNpi</i> parameter.
 
 The major and minor version numbers that are contained within the 
@@ -177,7 +158,7 @@ The minor version number that is contained within the
     <b>Version</b> member of this structure might be a higher minor version number than what was requested by
     the WSK application in the 
     <b>Version</b> member of the 
-    <a href="..\wsk\ns-wsk-_wsk_client_dispatch.md">WSK_CLIENT_DISPATCH</a> structure. This
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff571159">WSK_CLIENT_DISPATCH</a> structure. This
     situation should not cause a problem for the WSK application because higher minor versions of the WSK NPI
     are a strict superset of lower minor versions of the WSK NPI if they have the same major version number.
     The WSK subsystem will specify the remaining members of the WSK_PROVIDER_DISPATCH structure to conform to
@@ -193,30 +174,30 @@ For more information about attaching a WSK application to the WSK subsystem, see
 
 ## -see-also
 
-<a href="..\wsk\ns-wsk-_wsk_client_npi.md">WSK_CLIENT_NPI</a>
 
 
 
-<a href="..\wsk\nf-wsk-wskcaptureprovidernpi.md">WskCaptureProviderNPI</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571159">WSK_CLIENT_DISPATCH</a>
 
 
 
-<a href="..\wsk\ns-wsk-_wsk_client_dispatch.md">WSK_CLIENT_DISPATCH</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571163">WSK_CLIENT_NPI</a>
 
 
 
-<a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571122">WskCaptureProviderNPI</a>
 
 
 
-<a href="..\wsk\nc-wsk-pfn_wsk_socket_connect.md">WskSocketConnect</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571126">WskControlClient</a>
 
 
 
-<a href="..\wsk\nc-wsk-pfn_wsk_control_client.md">WskControlClient</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571149">WskSocket</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571150">WskSocketConnect</a>
  
 
  

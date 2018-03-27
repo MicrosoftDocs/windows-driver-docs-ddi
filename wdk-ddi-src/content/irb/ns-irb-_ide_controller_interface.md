@@ -52,24 +52,6 @@ req.typenames: IDE_CONTROLLER_INTERFACE, *PIDE_CONTROLLER_INTERFACE
 The IDE_CONTROLLER_INTERFACE structure is used to pass controller configuration information between the port driver and the miniport driver.
 <div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
-## -syntax
-
-
-````
-typedef struct _IDE_CONTROLLER_INTERFACE {
-  USHORT                   Version;
-  USHORT                   Reserved;
-  ULONG                    ControllerExtensionSize;
-  ULONG                    ChannelExtensionSize;
-  ULONG                    AlignmentMask;
-  IDE_CHANNEL_INIT         AtaChannelInitRoutine;
-  IDE_CHANNEL_ENABLED      AtaControllerChannelEnabled;
-  IDE_TRANSFER_MODE_SELECT AtaControllerTransferModeSelect;
-  IDE_ADAPTER_CONTROL      AtaAdapterControl;
-} IDE_CONTROLLER_INTERFACE, *PIDE_CONTROLLER_INTERFACE;
-````
-
-
 ## -struct-fields
 
 

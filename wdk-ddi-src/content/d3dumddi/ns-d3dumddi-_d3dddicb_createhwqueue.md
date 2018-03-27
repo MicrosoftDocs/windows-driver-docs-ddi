@@ -52,23 +52,6 @@ req.typenames: D3DDDICB_CREATEHWQUEUE
 A structure that holds information to create a hardware queue.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DDDICB_CREATEHWQUEUE {
-  HANDLE                     hHwContext;
-  D3DDDI_CREATEHWQUEUEFLAGS Flags;
-  UINT                      PrivateDriverDataSize;
-  VOID                      *pPrivateDriverData;
-   HANDLE                   hHwQueue;
-  D3DKMT_HANDLE             hHwQueueProgressFence;
-  VOID                      *HwQueueProgressFenceCPUVirtualAddress;
-  D3DGPU_VIRTUAL_ADDRESS    HwQueueProgressFenceGPUVirtualAddress;
-} D3DDDICB_CREATEHWQUEUE;
-````
-
-
 ## -struct-fields
 
 

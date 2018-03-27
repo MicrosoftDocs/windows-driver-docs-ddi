@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -50,17 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The <b>UPSCancelWait</b> function cancels all waits initiated by calls to <a href="..\upssvc\nf-upssvc-upswaitforstatechange.md">UPSWaitForStateChange</a>. 
-
-
-## -syntax
-
-
-````
-void UPSCancelWait(
-   void 
-);
-````
+The <b>UPSCancelWait</b> function cancels all waits initiated by calls to <a href="https://msdn.microsoft.com/library/windows/hardware/ff536316">UPSWaitForStateChange</a>. 
 
 
 ## -parameters
@@ -92,10 +82,10 @@ The call returns immediately.
 
 ## -see-also
 
-<a href="..\upssvc\nf-upssvc-upswaitforstatechange.md">UPSWaitForStateChange</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536316">UPSWaitForStateChange</a>
  
 
  

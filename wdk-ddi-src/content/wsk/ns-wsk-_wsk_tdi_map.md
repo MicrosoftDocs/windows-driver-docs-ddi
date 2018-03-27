@@ -55,19 +55,6 @@ The WSK_TDI_MAP structure specifies a mapping between a particular address famil
   <a href="https://msdn.microsoft.com/3878053c-388a-4bbc-a30e-feb16eda2f99">TDI</a> transport.
 
 
-## -syntax
-
-
-````
-typedef struct _WSK_TDI_MAP {
-  USHORT         SocketType;
-  ADDRESS_FAMILY AddressFamily;
-  ULONG          Protocol;
-  PCWSTR         TdiDeviceName;
-} WSK_TDI_MAP, *PWSK_TDI_MAP;
-````
-
-
 ## -struct-fields
 
 
@@ -106,7 +93,7 @@ A pointer to a null-terminated wide character string that contains the device na
 
 The 
     <b>Map</b> member of the 
-    <a href="..\wsk\ns-wsk-_wsk_tdi_map_info.md">WSK_TDI_MAP_INFO</a> structure points to an
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff571192">WSK_TDI_MAP_INFO</a> structure points to an
     array of WSK_TDI_MAP structures, each of which contains a mapping between a particular address family,
     socket type, and protocol to the device name of a 
     <a href="https://msdn.microsoft.com/3878053c-388a-4bbc-a30e-feb16eda2f99">TDI</a> transport.
@@ -124,10 +111,10 @@ For more information about using TDI transports, see
 
 ## -see-also
 
-<a href="..\wsk\ns-wsk-_wsk_tdi_map_info.md">WSK_TDI_MAP_INFO</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571192">WSK_TDI_MAP_INFO</a>
  
 
  

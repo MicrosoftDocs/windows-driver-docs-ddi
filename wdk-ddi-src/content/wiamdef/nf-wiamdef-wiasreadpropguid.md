@@ -53,20 +53,6 @@ req.product: Windows 10 or later.
 The <b>wiasReadPropGuid </b>function retrieves a GUID property value from a WIA item.
 
 
-## -syntax
-
-
-````
-HRESULT _stdcall wiasReadPropGuid(
-  _In_      BYTE   *pWiasContext,
-            PROPID propid,
-  _Out_     GUID   *pgVal,
-  _Out_opt_ GUID   *pgValOld,
-            BOOL   bMustExist
-);
-````
-
-
 ## -parameters
 
 
@@ -118,26 +104,26 @@ On success, the function returns S_OK. If the function fails, it returns a stand
 
 ## -see-also
 
-<a href="..\wiamdef\nf-wiamdef-wiasreadpropbin.md">wiasReadPropBin</a>
 
 
 
-<a href="..\wiamdef\nf-wiamdef-wiasreadpropstr.md">wiasReadPropStr</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549308">wiasReadPropBin</a>
 
 
 
-<a href="..\wiamdef\nf-wiamdef-wiasreadproplong.md">wiasReadPropLong</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549320">wiasReadPropFloat</a>
 
 
 
-<a href="..\wiamdef\nf-wiamdef-wiasreadpropfloat.md">wiasReadPropFloat</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549330">wiasReadPropLong</a>
 
 
 
-<a href="..\wiamdef\nf-wiamdef-wiaswritepropguid.md">wiasWritePropGuid</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549341">wiasReadPropStr</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549512">wiasWritePropGuid</a>
  
 
  

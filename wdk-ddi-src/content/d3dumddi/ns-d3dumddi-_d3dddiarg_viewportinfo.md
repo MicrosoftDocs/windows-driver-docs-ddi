@@ -52,19 +52,6 @@ req.typenames: D3DDDIARG_VIEWPORTINFO
 The D3DDDIARG_VIEWPORTINFO structure describes the location and size of a view-clipping rectangle. 
 
 
-## -syntax
-
-
-````
-typedef struct _D3DDDIARG_VIEWPORTINFO {
-  UINT X;
-  UINT Y;
-  UINT Width;
-  UINT Height;
-} D3DDDIARG_VIEWPORTINFO;
-````
-
-
 ## -struct-fields
 
 
@@ -94,17 +81,17 @@ typedef struct _D3DDDIARG_VIEWPORTINFO {
 
 
 
-The user-mode display driver's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setviewport.md">SetViewport</a> function should update the viewport portion of its internal rendering context with the location and size values that are specified in the D3DDDIARG_VIEWPORTINFO structure. The driver can use this information to perform guard band clipping.
+The user-mode display driver's <a href="https://msdn.microsoft.com/ef0847a3-d4f5-4a9e-a041-1b8f8523fdf7">SetViewport</a> function should update the viewport portion of its internal rendering context with the location and size values that are specified in the D3DDDIARG_VIEWPORTINFO structure. The driver can use this information to perform guard band clipping.
 
 
 
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setviewport.md">SetViewport</a>
 
 
 
+<a href="https://msdn.microsoft.com/ef0847a3-d4f5-4a9e-a041-1b8f8523fdf7">SetViewport</a>
  
 
  

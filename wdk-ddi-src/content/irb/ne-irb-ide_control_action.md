@@ -52,20 +52,6 @@ req.typenames: IDE_CONTROL_ACTION
 The IDE_CONTROL_ACTION enumeration type indicates the control action to be performed by a <a href="https://msdn.microsoft.com/library/windows/hardware/ff557465">IdeHwControl</a> routine.
 <div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
-## -syntax
-
-
-````
-typedef enum  { 
-  IdeStart          = 0,
-  IdeStop           = 1,
-  IdePowerUp        = 2,
-  IdePowerDown      = 3,
-  IdeVendorDefined  = 4
-} IDE_CONTROL_ACTION;
-````
-
-
 ## -enum-fields
 
 
@@ -100,10 +86,10 @@ Indicates that the miniport driver should perform a vendor-defined control actio
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557465">IdeHwControl</a>
-
-
-
  
 
  

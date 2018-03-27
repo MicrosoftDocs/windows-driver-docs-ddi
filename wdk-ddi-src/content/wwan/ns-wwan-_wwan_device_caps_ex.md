@@ -50,36 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The <b>WWAN_DEVICE_CAPS_EX</b> structure represents the capabilities of the mobile broadband device. <b>WWAN_DEVICE_CAPS_EX</b> extends the existing <a href="..\wwan\ns-wwan-_wwan_device_caps.md">WWAN_DEVICE_CAPS</a> structure by adding an <b>Executor Index</b> member, for tracking specific executors, and a <b>WwanOptionalServiceCaps</b> member, for Microsoft service extensions.
-
-
-## -syntax
-
-
-````
-typedef struct _WWAN_DEVICE_CAPS_EX {
-  WWAN_DEVICE_TYPE    WwanDeviceType;
-  WWAN_CELLULAR_CLASS WwanCellularClass;
-  WWAN_VOICE_CLASS    WwanVoiceClass;
-  WWAN_SIM_CLASS      WwanSimClass;
-  ULONG               WwanDataClass;
-  WCHAR               CustomDataClass[WWAN_CUSTOM_DATA_CLASS_LEN];
-  ULONG               WwanGsmBandClass;
-  ULONG               WwanCdmaBandClass;
-  WCHAR               CustomBandClass[WWAN_CUSTOM_BAND_CLASS_LEN];
-  ULONG               WwanSmsCaps;
-  ULONG               WwanControlCaps;
-  WCHAR               DeviceId[WWAN_DEVICEID_LEN];
-  WCHAR               Manufacturer[WWAN_MANUFACTURER_LEN];
-  WCHAR               Model[WWAN_MODEL_LEN];
-  WCHAR               FirmwareInfo[WWAN_FIRMWARE_LEN];
-  ULONG               MaxActivatedContexts;
-  ULONG               WwanAuthAlgoCaps;
-  ULONG               ExecutorIndex;
-  ULONG               WwanOptionalServiceCaps;
-  WWAN_LIST_HEADER    CellularClassListHeader;
-} WWAN_DEVICE_CAPS_EX, *PWWAN_DEVICE_CAPS_EX;
-````
+The <b>WWAN_DEVICE_CAPS_EX</b> structure represents the capabilities of the mobile broadband device. <b>WWAN_DEVICE_CAPS_EX</b> extends the existing <a href="https://msdn.microsoft.com/library/windows/hardware/ff571204">WWAN_DEVICE_CAPS</a> structure by adding an <b>Executor Index</b> member, for tracking specific executors, and a <b>WwanOptionalServiceCaps</b> member, for Microsoft service extensions.
 
 
 ## -struct-fields
@@ -1122,18 +1093,18 @@ For CDMA-based devices, only CDMA-related data services must be specified. For e
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/FC801FA3-699F-4EE5-BED9-35CA696A5E52">NDIS_WWAN_DEVICE_CAPS_EX</a>
+
+
+
 <a href="https://msdn.microsoft.com/BE664B41-3FE7-4E93-8739-12BD2F0AE5B8">OID_WWAN_DEVICE_CAPS_EX</a>
 
 
 
-<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_device_caps_ex.md">NDIS_WWAN_DEVICE_CAPS_EX</a>
-
-
-
-<a href="..\wwan\ns-wwan-_wwan_device_caps.md">WWAN_DEVICE_CAPS</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571204">WWAN_DEVICE_CAPS</a>
  
 
  

@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -61,20 +61,6 @@ A mapping of kerning pairs to kerning handles
 
 </li>
 </ul>
-
-## -syntax
-
-
-````
-PVOID APIENTRY OEMQueryFontTree(
-   DHPDEV    dhpdev,
-   ULONG_PTR iFile,
-   ULONG     iFace,
-   ULONG     iMode,
-   ULONG_PTR *pid
-);
-````
-
 
 ## -parameters
 

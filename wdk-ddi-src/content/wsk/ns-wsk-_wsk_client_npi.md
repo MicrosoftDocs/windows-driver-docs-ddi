@@ -55,17 +55,6 @@ The WSK_CLIENT_NPI structure identifies a
   (NPI)</a> implemented by a WSK client.
 
 
-## -syntax
-
-
-````
-typedef struct _WSK_CLIENT_NPI {
-  PVOID                     ClientContext;
-  const WSK_CLIENT_DISPATCH *Dispatch;
-} WSK_CLIENT_NPI, *PWSK_CLIENT_NPI;
-````
-
-
 ## -struct-fields
 
 
@@ -79,7 +68,7 @@ A pointer to the context for the WSK application's binding to the WSK subsystem.
 ### -field Dispatch
 
 A pointer to a constant 
-     <a href="..\wsk\ns-wsk-_wsk_client_dispatch.md">WSK_CLIENT_DISPATCH</a> structure.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571159">WSK_CLIENT_DISPATCH</a> structure.
 
 
 ## -remarks
@@ -95,10 +84,10 @@ For more information about attaching a WSK application to the WSK subsystem, see
 
 ## -see-also
 
-<a href="..\wsk\ns-wsk-_wsk_client_dispatch.md">WSK_CLIENT_DISPATCH</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571159">WSK_CLIENT_DISPATCH</a>
  
 
  

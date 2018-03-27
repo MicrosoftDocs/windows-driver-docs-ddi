@@ -49,23 +49,9 @@ req.typenames: D3DKMT_REGISTERTRIMNOTIFICATION
 ## -description
 
 
-<b>D3DKMT_REGISTERTRIMNOTIFICATION</b> is used with <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtregistertrimnotification.md">D3DKMTRegisterTrimNotification</a> to register a callback for a kernel mode device for notifications from a graphics framework (such as OpenGL).
+<b>D3DKMT_REGISTERTRIMNOTIFICATION</b> is used with <a href="https://msdn.microsoft.com/library/windows/hardware/dn906781">D3DKMTRegisterTrimNotification</a> to register a callback for a kernel mode device for notifications from a graphics framework (such as OpenGL).
 
 
-
-
-## -syntax
-
-
-````
-typedef struct _D3DKMT_REGISTERTRIMNOTIFICATION {
-  LUID                               AdapterLuid;
-  D3DKMT_HANDLE                      hDevice;
-  PFND3DKMT_TRIMNOTIFICATIONCALLBACK Callback;
-  VOID                               *Context;
-  VOID                               *Handle;
-} D3DKMT_REGISTERTRIMNOTIFICATION;
-````
 
 
 ## -struct-fields
@@ -95,19 +81,19 @@ typedef struct _D3DKMT_REGISTERTRIMNOTIFICATION {
 
 ### -field Handle
 
-[out] Handle that will be used to unregister the callback with <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtunregistertrimnotification.md">D3DKMTUnregisterTrimNotification</a>.
+[out] Handle that will be used to unregister the callback with <a href="https://msdn.microsoft.com/library/windows/hardware/dn906787">D3DKMTUnregisterTrimNotification</a>.
 
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtunregistertrimnotification.md">D3DKMTUnregisterTrimNotification</a>
 
 
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtregistertrimnotification.md">D3DKMTRegisterTrimNotification</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn906781">D3DKMTRegisterTrimNotification</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn906787">D3DKMTUnregisterTrimNotification</a>
  
 
  

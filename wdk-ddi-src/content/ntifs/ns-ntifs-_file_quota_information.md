@@ -52,22 +52,6 @@ req.typenames: FILE_QUOTA_INFORMATION, *PFILE_QUOTA_INFORMATION
 The FILE_QUOTA_INFORMATION structure is used to query or set per-user quota information for each of the files in a directory. 
 
 
-## -syntax
-
-
-````
-typedef struct _FILE_QUOTA_INFORMATION {
-  ULONG         NextEntryOffset;
-  ULONG         SidLength;
-  LARGE_INTEGER ChangeTime;
-  LARGE_INTEGER QuotaUsed;
-  LARGE_INTEGER QuotaThreshold;
-  LARGE_INTEGER QuotaLimit;
-  SID           Sid;
-} FILE_QUOTA_INFORMATION, *PFILE_QUOTA_INFORMATION;
-````
-
-
 ## -struct-fields
 
 
@@ -95,7 +79,7 @@ Amount of disk space on this volume that is currently being used by the user.
 
 ### -field QuotaThreshold
 
-Maximum mount of disk space on this volume that can be used by the user without triggering an event. For more information, see <a href="..\ntifs\ns-ntifs-_file_fs_control_information.md">FILE_FS_CONTROL_INFORMATION</a>. 
+Maximum mount of disk space on this volume that can be used by the user without triggering an event. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff540258">FILE_FS_CONTROL_INFORMATION</a>. 
 
 
 ### -field QuotaLimit
@@ -116,7 +100,7 @@ No specific access rights are required to query this information. To perform thi
 
 FILE_WRITE_DATA access to the volume is required to set this information. To perform this operation, create an IRP with major function code IRP_MJ_SET_QUOTA. 
 
-To check the validity of a buffer containing FILE_QUOTA_INFORMATION structure, call <a href="..\ntifs\nf-ntifs-iocheckquotabuffervalidity.md">IoCheckQuotaBufferValidity</a>. 
+To check the validity of a buffer containing FILE_QUOTA_INFORMATION structure, call <a href="https://msdn.microsoft.com/library/windows/hardware/ff548279">IoCheckQuotaBufferValidity</a>. 
 
 On 32-bit platforms, this structure must be aligned on a LONG (4-byte) boundary. If a buffer contains two or more of these structures, the <b>NextEntryOffset</b> value in each entry, except the last, falls on a 4-byte boundary. 
 
@@ -127,11 +111,10 @@ On 64-bit platforms, this structure must be aligned on a LONGLONG (8-byte) bound
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-iocheckquotabuffervalidity.md">IoCheckQuotaBufferValidity</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549401">IRP_MJ_SET_QUOTA</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540258">FILE_FS_CONTROL_INFORMATION</a>
 
 
 
@@ -139,10 +122,11 @@ On 64-bit platforms, this structure must be aligned on a LONGLONG (8-byte) bound
 
 
 
-<a href="..\ntifs\ns-ntifs-_file_fs_control_information.md">FILE_FS_CONTROL_INFORMATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549401">IRP_MJ_SET_QUOTA</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548279">IoCheckQuotaBufferValidity</a>
  
 
  

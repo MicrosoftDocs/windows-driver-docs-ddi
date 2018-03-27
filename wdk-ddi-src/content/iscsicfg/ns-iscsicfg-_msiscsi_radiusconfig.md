@@ -52,21 +52,6 @@ req.typenames: MSiSCSI_RADIUSConfig, *PMSiSCSI_RADIUSConfig
 The MSiSCSI_RADIUSConfig structure provides information that the initiator requires to use the remote authentication dial-in user service (RADIUS).
 
 
-## -syntax
-
-
-````
-typedef struct _MSiSCSI_RADIUSConfig {
-  BOOLEAN          UseRADIUSForCHAP;
-  ULONG            SharedSecretSizeInBytes;
-  ISCSI_IP_Address RADIUSServer;
-  ISCSI_IP_Address BackupRADIUSServer;
-  ULONG            Reserved;
-  UCHAR            SharedSecret[1];
-} MSiSCSI_RADIUSConfig, *PMSiSCSI_RADIUSConfig;
-````
-
-
 ## -struct-fields
 
 
@@ -84,7 +69,7 @@ The size, in bytes, of shared secret for use with RADIUS servers.
 
 ### -field RADIUSServer
 
-A <a href="..\iscsidef\ns-iscsidef-_iscsi_ip_address.md">ISCSI_IP_Address</a> structure that specifies a fixed address for the RADIUS server. The ISCSI_IP_Address structure defines the IP address in a way that is independent of the version of the IP protocol in use. 
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff561536">ISCSI_IP_Address</a> structure that specifies a fixed address for the RADIUS server. The ISCSI_IP_Address structure defines the IP address in a way that is independent of the version of the IP protocol in use. 
 
 
 ### -field BackupRADIUSServer
@@ -121,14 +106,14 @@ Initiators should register each instance of the MSiSCSI_RADIUSConfig class using
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561536">ISCSI_IP_Address</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563114">MSiSCSI_RADIUSConfig WMI Class</a>
-
-
-
-<a href="..\iscsidef\ns-iscsidef-_iscsi_ip_address.md">ISCSI_IP_Address</a>
-
-
-
  
 
  

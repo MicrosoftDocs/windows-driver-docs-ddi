@@ -52,19 +52,6 @@ req.typenames: RILGETCALLFORWARDINGPARAMS, *LPRILGETCALLFORWARDINGPARAMS
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef struct _RILGETCALLFORWARDINGPARAMS {
-  DWORD                            dwExecutor;
-  RILCALLFORWARDINGSETTINGSREASON  dwReason;
-  BOOL                             fAllClasses;
-  DWORD                            dwInfoClasses;
-} RILGETCALLFORWARDINGPARAMS, RILGETCALLFORWARDINGPARAMS;
-````
-
-
 ## -struct-fields
 
 

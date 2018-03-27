@@ -53,14 +53,6 @@ req.product: Windows 10 or later.
 The <b>VideoPortGetCurrentIrql</b> function gets the current IRQL.
 
 
-## -syntax
-
-
-````
-UCHAR VideoPortGetCurrentIrql(void);
-````
-
-
 ## -parameters
 
 

@@ -52,17 +52,6 @@ req.typenames: KSEVENT_STREAMALLOCATOR
 
 
 
-## -syntax
-
-
-````
-typedef enum  { 
-  KSEVENT_STREAMALLOCATOR_INTERNAL_FREEFRAME,
-  KSEVENT_STREAMALLOCATOR_FREEFRAME
-} KSEVENT_STREAMALLOCATOR;
-````
-
-
 ## -enum-fields
 
 

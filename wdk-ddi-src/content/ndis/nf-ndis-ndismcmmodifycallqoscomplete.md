@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: ndis.h
+req.lib: 
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
@@ -51,18 +51,6 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 
 <b>NdisMCmModifyCallQoSComplete</b> indicates the completion of the client's request, for which the MCM
   driver previously returned NDIS_STATUS_PENDING, to modify the quality of service on a VC.
-
-
-## -syntax
-
-
-````
-VOID NdisMCmModifyCallQoSComplete(
-  [in] NDIS_STATUS         Status,
-  [in] NDIS_HANDLE         NdisVcHandle,
-  [in] PCO_CALL_PARAMETERS CallParameters
-);
-````
 
 
 ## -parameters
@@ -101,7 +89,7 @@ Pointer to a structure of type
 
 Specifies the handle to the VC, obtained from the per-VC state designated by the 
      <i>CallMgrVcContext</i> passed in to the MCM driver's 
-     <a href="..\ndis\nc-ndis-protocol_cm_modify_qos_call.md">
+     <a href="https://msdn.microsoft.com/24523677-9f5a-4109-8484-95883a4d1bbf">
      ProtocolCmModifyCallQoS</a> function for this request.
 
 
@@ -117,7 +105,7 @@ Specifies the final status of the client's request to modify the QoS on this VC,
 
 A call to 
     <b>NdisMCmModifyCallQoSComplete</b> causes NDIS to call the client's 
-    <a href="..\ndis\nc-ndis-protocol_cl_modify_call_qos_complete.md">
+    <a href="https://msdn.microsoft.com/0d925862-49af-4579-b877-c9a033e73be0">
     ProtocolClModifyCallQoSComplete</a> function.
 
 The MCM driver should call 
@@ -141,24 +129,6 @@ Only connection-oriented miniport drivers that provide integrated call-managemen
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-protocol_cm_modify_qos_call.md">ProtocolCmModifyCallQoS</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisclmodifycallqos.md">NdisClModifyCallQoS</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndiscmmodifycallqoscomplete.md">NdisCmModifyCallQosComplete</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_cl_modify_call_qos_complete.md">
-   ProtocolClModifyCallQoSComplete</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismcmactivatevc.md">NdisMCmActivateVc</a>
 
 
 
@@ -166,6 +136,24 @@ Only connection-oriented miniport drivers that provide integrated call-managemen
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561636">NdisClModifyCallQoS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561679">NdisCmModifyCallQosComplete</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562792">NdisMCmActivateVc</a>
+
+
+
+<a href="https://msdn.microsoft.com/0d925862-49af-4579-b877-c9a033e73be0">
+   ProtocolClModifyCallQoSComplete</a>
+
+
+
+<a href="https://msdn.microsoft.com/24523677-9f5a-4109-8484-95883a4d1bbf">ProtocolCmModifyCallQoS</a>
  
 
  

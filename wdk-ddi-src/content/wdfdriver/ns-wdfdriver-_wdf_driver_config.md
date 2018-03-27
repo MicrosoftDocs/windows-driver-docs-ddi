@@ -52,21 +52,7 @@ req.product: Windows 10 or later.
 
 <p class="CCE_Message">[Applies to KMDF and UMDF]
 
-The WDF_DRIVER_CONFIG structure is an input parameter to <a href="..\wdfdriver\nf-wdfdriver-wdfdrivercreate.md">WdfDriverCreate</a>.
-
-
-## -syntax
-
-
-````
-typedef struct _WDF_DRIVER_CONFIG {
-  ULONG                     Size;
-  PFN_WDF_DRIVER_DEVICE_ADD EvtDriverDeviceAdd;
-  PFN_WDF_DRIVER_UNLOAD     EvtDriverUnload;
-  ULONG                     DriverInitFlags;
-  ULONG                     DriverPoolTag;
-} WDF_DRIVER_CONFIG, *PWDF_DRIVER_CONFIG;
-````
+The WDF_DRIVER_CONFIG structure is an input parameter to <a href="https://msdn.microsoft.com/library/windows/hardware/ff547175">WdfDriverCreate</a>.
 
 
 ## -struct-fields
@@ -81,17 +67,17 @@ The size, in bytes, of this structure.
 
 ### -field EvtDriverDeviceAdd
 
-A pointer to a driver's <a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a> callback function.
+A pointer to a driver's <a href="https://msdn.microsoft.com/b20db029-ee2c-4fb1-bd69-ccd2e37fdc9a">EvtDriverDeviceAdd</a> callback function.
 
 
 ### -field EvtDriverUnload
 
-A pointer to a driver's <a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_unload.md">EvtDriverUnload</a> callback function.
+A pointer to a driver's <a href="https://msdn.microsoft.com/2a2ed215-1b62-4ff1-bea6-e38fafbcf7d0">EvtDriverUnload</a> callback function.
 
 
 ### -field DriverInitFlags
 
-A bitwise OR of one or more <a href="..\wdfdriver\ne-wdfdriver-_wdf_driver_init_flags.md">WDF_DRIVER_INIT_FLAGS</a>-typed values that identify driver initialization flags.
+A bitwise OR of one or more <a href="https://msdn.microsoft.com/library/windows/hardware/ff551303">WDF_DRIVER_INIT_FLAGS</a>-typed values that identify driver initialization flags.
 
 
 ### -field DriverPoolTag
@@ -107,33 +93,33 @@ Your driver can optionally specify a pool tag that the framework will assign to 
 
 If <b>DriverPoolTag</b> is zero, the framework creates a default pool tag by using the first four characters of your driver's kernel-mode service name. If the service name begins with "WDF" (the name is not case sensitive and does not include the quotation marks), the next four characters are used. If fewer than four characters are available, "FxDr" is used. 
 
-To initialize a WDF_DRIVER_CONFIG structure, drivers must call <a href="..\wdfdriver\nf-wdfdriver-wdf_driver_config_init.md">WDF_DRIVER_CONFIG_INIT</a>.
+To initialize a WDF_DRIVER_CONFIG structure, drivers must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff551302">WDF_DRIVER_CONFIG_INIT</a>.
 
 
 
 
 ## -see-also
 
-<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
 
 
 
-<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_unload.md">EvtDriverUnload</a>
+<a href="https://msdn.microsoft.com/b20db029-ee2c-4fb1-bd69-ccd2e37fdc9a">EvtDriverDeviceAdd</a>
 
 
 
-<a href="..\wdfdriver\nf-wdfdriver-wdf_driver_config_init.md">WDF_DRIVER_CONFIG_INIT</a>
+<a href="https://msdn.microsoft.com/2a2ed215-1b62-4ff1-bea6-e38fafbcf7d0">EvtDriverUnload</a>
 
 
 
-<a href="..\wdfdriver\ne-wdfdriver-_wdf_driver_init_flags.md">WDF_DRIVER_INIT_FLAGS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551302">WDF_DRIVER_CONFIG_INIT</a>
 
 
 
-<a href="..\wdfdriver\nf-wdfdriver-wdfdrivercreate.md">WdfDriverCreate</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551303">WDF_DRIVER_INIT_FLAGS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547175">WdfDriverCreate</a>
  
 
  

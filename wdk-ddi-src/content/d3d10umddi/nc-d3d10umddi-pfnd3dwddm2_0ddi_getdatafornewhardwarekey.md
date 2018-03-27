@@ -52,23 +52,6 @@ req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 Allows the driver to return independent hardware vendor (IHV)-specific information used when initializing the new hardware key.
 
 
-## -prototype
-
-
-````
-PFND3DWDDM2_0DDI_GETDATAFORNEWHARDWAREKEY pfnGetDataForNewHardwareKey;
-
-typedef HRESULT APIENTRY* pfnGetDataForNewHardwareKey(
-  _In_        D3D10DDI_HDEVICE          hDevice,
-  _In_        D3D11_1DDI_HCRYPTOSESSION  hCryptoSession,
-  _In_        UINT                      PrivateInputSize,
-  _In_  const void                      *pPrivatInputData,
-  _Out_       UINT64                    *pPrivateOutputData
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -76,12 +59,12 @@ typedef HRESULT APIENTRY* pfnGetDataForNewHardwareKey(
 
 ### -param hDevice [in]
 
- A handle to the display device (graphics context). The Direct3D runtime passed the user-mode driver this handle as the <b>hDevice</b> member of the <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createdevice.md">D3DDDIARG_CREATEDEVICE</a> structure at device creation.
+ A handle to the display device (graphics context). The Direct3D runtime passed the user-mode driver this handle as the <b>hDevice</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff542931">D3DDDIARG_CREATEDEVICE</a> structure at device creation.
 
 
 ### -param hCryptoSession [in]
 
-A handle to the cryptographic session object that was created through a call to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createcryptosession.md">CreateCryptoSession</a> function.
+A handle to the cryptographic session object that was created through a call to the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451619">CreateCryptoSession</a> function.
 
 
 ### -param PrivateInputSize [in]
@@ -143,14 +126,14 @@ Private driver data was successfully returned.
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createdevice.md">D3DDDIARG_CREATEDEVICE</a>
 
 
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createcryptosession.md">CreateCryptoSession</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451619">CreateCryptoSession</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542931">D3DDDIARG_CREATEDEVICE</a>
  
 
  

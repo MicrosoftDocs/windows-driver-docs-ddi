@@ -52,19 +52,6 @@ req.typenames: DXGK_BUILDPAGINGBUFFER_FLUSHTLB
 <b>DXGK_BUILDPAGINGBUFFER_FLUSHTLB</b> is used as part of a flush translation look-aside buffer (TLB) operation.
 
 
-## -syntax
-
-
-````
-typedef struct _DXGK_BUILDPAGINGBUFFER_FLUSHTLB {
-  D3DGPU_PHYSICAL_ADDRESS RootPageTableAddress;
-  HANDLE                  hProcess;
-  D3DGPU_PHYSICAL_ADDRESS StartVirtualAddress;
-  D3DGPU_PHYSICAL_ADDRESS EndVirtualAddress;
-} DXGK_BUILDPAGINGBUFFER_FLUSHTLB;
-````
-
-
 ## -struct-fields
 
 
@@ -77,7 +64,7 @@ Physical address of the root page table being invalidated.
 
 ### -field hProcess
 
-KMD process handle,  returned from <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createprocess.md">DxgkDdiCreateProcess</a>, that the page table belongs to. 
+KMD process handle,  returned from <a href="https://msdn.microsoft.com/E5AAEEB1-C29E-4AA7-9F8E-2C2DCFADED81">DxgkDdiCreateProcess</a>, that the page table belongs to. 
 
 
 ### -field StartVirtualAddress

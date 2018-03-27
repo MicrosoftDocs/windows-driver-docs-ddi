@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -50,23 +50,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>GetTextReplacementWide</b>  method returns the value of a user-named alias or an automatic alias.  
-
-
-## -syntax
-
-
-````
-HRESULT GetTextReplacementWide(
-  [in, optional]  PCWSTR SrcText,
-  [in]            ULONG  Index,
-  [out, optional] PWSTR  SrcBuffer,
-  [in]            ULONG  SrcBufferSize,
-  [out, optional] PULONG SrcSize,
-  [out, optional] PWSTR  DstBuffer,
-  [in]            ULONG  DstBufferSize,
-  [out, optional] PULONG DstSize
-);
-````
 
 
 ## -parameters
@@ -155,11 +138,18 @@ For an overview of aliases used by the <a href="https://msdn.microsoft.com/fa52a
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547988">GetNumberTextReplacements</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549270">GetTextMacro</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550526">IDebugControl4</a>
 
 
 
@@ -172,13 +162,6 @@ For an overview of aliases used by the <a href="https://msdn.microsoft.com/fa52a
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff538014">al (List Aliases)</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549270">GetTextMacro</a>
-
-
-
  
 
  

@@ -52,17 +52,6 @@ req.typenames: RILNITZNOTIFICATIONCAPS
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef enum _RILNITZNOTIFICATIONCAPS { 
-  RIL_CAPS_NITZ_ENABLED,
-  RIL_CAPS_NITZ_MAX
-} RILNITZNOTIFICATIONCAPS;
-````
-
-
 ## -enum-fields
 
 

@@ -52,23 +52,8 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 
 Call the 
   <b>NdisCopyFromNetBufferToNetBuffer</b> function to copy data from a source 
-  <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a> structure to a destination NET_BUFFER
+  <a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a> structure to a destination NET_BUFFER
   structure.
-
-
-## -syntax
-
-
-````
-NDIS_STATUS NdisCopyFromNetBufferToNetBuffer(
-  _In_  PNET_BUFFER Destination,
-  _In_  ULONG       DestinationOffset,
-  _In_  ULONG       BytesToCopy,
-  _In_  PNET_BUFFER Source,
-  _In_  ULONG       SourceOffset,
-  _Out_ PULONG      BytesCopied
-);
-````
 
 
 ## -parameters
@@ -157,7 +142,7 @@ The copy operation failed because of insufficient resources.
 
 The caller of 
     <b>NdisCopyFromNetBufferToNetBuffer</b> allocates the destination 
-    <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a> structure and possibly the source
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a> structure and possibly the source
     NET_BUFFER structure as well. The MDLs of the destination NET_BUFFER structure should have enough space
     to receive the data.
 
@@ -169,7 +154,7 @@ If the source NET_BUFFER structure runs out of data or the destination NET_BUFFE
 The caller must ensure that 
     <b>CurrentMdlOffset</b> and 
     <b>CurrentMdl</b> values are correct in the source and destination 
-    <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a> structures. NDIS does not change the
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a> structures. NDIS does not change the
     members in the destination NET_BUFFER. The caller must update the 
     <b>DataLength</b>, 
     <b>DataOffset</b>, and 
@@ -195,10 +180,10 @@ NDIS uses the offsets in the
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a>
  
 
  

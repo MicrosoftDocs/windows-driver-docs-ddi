@@ -53,18 +53,6 @@ req.product: Windows 10 or later.
 The UNI_CODEPAGEINFO structure is one of the structures used to define the contents of <a href="https://msdn.microsoft.com/6e643703-ace1-4660-990c-3a9ca735829d">glyph translation table files</a> (.gtt files).
 
 
-## -syntax
-
-
-````
-typedef struct _UNI_CODEPAGEINFO {
-  DWORD dwCodePage;
-  INVOC SelectSymbolSet;
-  INVOC UnSelectSymbolSet;
-} UNI_CODEPAGEINFO, *PUNI_CODEPAGEINFO;
-````
-
-
 ## -struct-fields
 
 
@@ -77,20 +65,20 @@ Identifies a Windows code page.
 
 ### -field SelectSymbolSet
 
-Is an <a href="..\prntfont\ns-prntfont-_invoc.md">INVOC</a> structure containing the printer command to select the code page's symbol set.
+Is an <a href="https://msdn.microsoft.com/library/windows/hardware/ff551796">INVOC</a> structure containing the printer command to select the code page's symbol set.
 
 
 ### -field UnSelectSymbolSet
 
-Is an <a href="..\prntfont\ns-prntfont-_invoc.md">INVOC</a> structure containing the printer command to deselect the code page's symbol set.
+Is an <a href="https://msdn.microsoft.com/library/windows/hardware/ff551796">INVOC</a> structure containing the printer command to deselect the code page's symbol set.
 
 
 ## -see-also
 
-<a href="..\prntfont\ns-prntfont-_invoc.md">INVOC</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551796">INVOC</a>
  
 
  

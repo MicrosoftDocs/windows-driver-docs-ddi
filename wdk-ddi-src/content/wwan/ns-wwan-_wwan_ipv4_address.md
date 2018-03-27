@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 The WWAN_IPV4_ADDRESS structure represents an IPV4 address of a PDP context.
 
 
-## -syntax
-
-
-````
-typedef struct _WWAN_IPV4_ADDRESS {
-  ULONG OnLinkPrefixLength;
-  UCHAR IPV4Address[4];
-} WWAN_IPV4_ADDRESS, *PWWAN_IPV4_ADDRESS;
-````
-
-
 ## -struct-fields
 
 

@@ -52,18 +52,6 @@ req.typenames: GetEventBuffer_OUT, *PGetEventBuffer_OUT
 The GetEventBuffer_OUT structure is used to report the output parameter data of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff553935">GetEventBuffer</a> WMI method to the WMI client.
 
 
-## -syntax
-
-
-````
-typedef struct _GetEventBuffer_OUT {
-  ULONG            HBAStatus;
-  ULONG            EventCount;
-  MSFC_EventBuffer Events[1];
-} GetEventBuffer_OUT, *PGetEventBuffer_OUT;
-````
-
-
 ## -struct-fields
 
 
@@ -81,7 +69,7 @@ Indicates the number of events in <b>Events</b> that were retrieved by the <a hr
 
 ### -field Events
 
-Contains an array of type <a href="..\hbapiwmi\ns-hbapiwmi-_msfc_eventbuffer.md">MSFC_EventBuffer</a> that contains the next events in the HBA's event queue.
+Contains an array of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff562480">MSFC_EventBuffer</a> that contains the next events in the HBA's event queue.
 
 
 ## -remarks
@@ -97,10 +85,10 @@ The WMI tool suite generates a declaration of the GetEventBuffer_OUT structure i
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553935">GetEventBuffer</a>
-
-
-
  
 
  

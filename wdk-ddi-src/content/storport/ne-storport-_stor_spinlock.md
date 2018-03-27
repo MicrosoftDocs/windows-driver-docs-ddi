@@ -53,18 +53,6 @@ req.product: Windows 10 or later.
 The STOR_SPINLOCK enumeration is used to specify the type of a spinlock.
 
 
-## -syntax
-
-
-````
-typedef enum _STOR_SPINLOCK { 
-  DpcLock        = 1,
-  StartIoLock    = 2,
-  InterruptLock  = 3
-} STOR_SPINLOCK;
-````
-
-
 ## -enum-fields
 
 
@@ -87,10 +75,10 @@ Indicates an Interrupt spinlock.
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportacquirespinlock.md">StorPortAcquireSpinLock</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567025">StorPortAcquireSpinLock</a>
  
 
  

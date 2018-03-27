@@ -52,22 +52,6 @@ req.typenames: WCS_PROFILE_MANAGEMENT_SCOPE
 <b>EVT_IDD_CX_MONITOR_I2C_TRANSMIT</b> is called by the OS to return data received to an I2C device in a monitor.
 
 
-## -prototype
-
-
-````
-EVT_IDD_CX_MONITOR_I2C_TRANSMIT EvtIddCxMonitorI2cTransmit;
-
-NTSTATUS EvtIddCxMonitorI2cTransmit(
-  _In_       IDDCX_MONITOR          MonitorObject,
-  _In_ const IDARG_IN_I2C_TRANSMIT* pInArgs
-)
-{ ... }
-
-typedef EVT_IDD_CX_MONITOR_I2C_TRANSMIT PFN_IDD_CX_MONITOR_I2C_TRANSMIT;
-````
-
-
 ## -parameters
 
 

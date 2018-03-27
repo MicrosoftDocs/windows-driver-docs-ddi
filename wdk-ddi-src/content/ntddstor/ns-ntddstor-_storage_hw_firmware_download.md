@@ -52,23 +52,6 @@ req.typenames: STORAGE_HW_FIRMWARE_DOWNLOAD, *PSTORAGE_HW_FIRMWARE_DOWNLOAD
 This structure contains a firmware image payload to be downloaded to the target.
 
 
-## -syntax
-
-
-````
-typedef struct _STORAGE_HW_FIRMWARE_DOWNLOAD {
-  ULONG     Version;
-  ULONG     Size;
-  ULONG     Flags;
-  UCHAR     Slot;
-  UCHAR     Reserved[3];
-  ULONGLONG Offset;
-  ULONGLONG BufferSize;
-  UCHAR     ImageBuffer[ANYSIZE_ARRAY];
-} STORAGE_HW_FIRMWARE_DOWNLOAD, *PSTORAGE_HW_FIRMWARE_DOWNLOAD;
-````
-
-
 ## -struct-fields
 
 
@@ -117,12 +100,12 @@ Reserved for future use.
 
 ### -field Offset
 
-The offset in this buffer of where the Image file begins. This should be aligned to ImagePayloadAlignment from <a href="..\ntddstor\ns-ntddstor-_storage_hw_firmware_info.md">STORAGE_HW_FIRMWARE_INFO</a>.
+The offset in this buffer of where the Image file begins. This should be aligned to ImagePayloadAlignment from <a href="https://msdn.microsoft.com/library/windows/hardware/dn931810">STORAGE_HW_FIRMWARE_INFO</a>.
 
 
 ### -field BufferSize
 
-The buffer size of the ImageBuffer. This should be a multiple of ImagePayloadAlignment from <a href="..\ntddstor\ns-ntddstor-_storage_hw_firmware_info.md">STORAGE_HW_FIRMWARE_INFO</a>.
+The buffer size of the ImageBuffer. This should be a multiple of ImagePayloadAlignment from <a href="https://msdn.microsoft.com/library/windows/hardware/dn931810">STORAGE_HW_FIRMWARE_INFO</a>.
 
 
 ### -field ImageBuffer

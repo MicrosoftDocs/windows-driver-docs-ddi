@@ -52,25 +52,6 @@ req.typenames: D3D12DDI_VIDEO_DECODE_SUPPORT_DATA_0020
 Specifies data used to determine support of hardware for a configuration. 
 
 
-## -syntax
-
-
-````
-typedef struct D3D12DDI_VIDEO_DECODE_SUPPORT_DATA_0020 {
-  UINT                                           NodeIndex;
-  D3D12DDI_VIDEO_DECODE_CONFIGURATION_0020       Configuration;
-  UINT                                           Width;
-  UINT                                           Height;
-  DXGI_FORMAT                                    DecodeFormat;
-  DXGI_RATIONAL                                  FrameRate;
-  UINT                                           BitRate;
-  D3D12DDI_VIDEO_DECODE_SUPPORT_FLAGS_0020       SupportFlags;
-  D3D12DDI_VIDEO_DECODE_CONFIGURATION_FLAGS_0020 ConfigurationFlags;
-  D3D12DDI_VIDEO_DECODE_TIER_0020                DecodeTier;
-} D3D12DDI_VIDEO_DECODE_SUPPORT_DATA_0020;
-````
-
-
 ## -struct-fields
 
 
@@ -83,7 +64,7 @@ In multi-adapter operation, this indicates which physical adapter of the device 
 
 ### -field Configuration
 
-The decode profile and bitstream encryption.  For more information, see <a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_video_decode_configuration_flags_0020.md">D3D12DDI_VIDEO_DECODE_CONFIGURATION</a>.
+The decode profile and bitstream encryption.  For more information, see <a href="https://msdn.microsoft.com/33BD5E1F-75F3-44DC-AE83-A22992CAB6B5">D3D12DDI_VIDEO_DECODE_CONFIGURATION</a>.
 
 
 ### -field Width
@@ -113,31 +94,34 @@ The average bits per second data compression rate for the compressed video strea
 
 ### -field SupportFlags
 
-Supported flags. For more information, see <a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_video_decode_support_flags_0020.md">D3D12DDI_VIDEO_DECODE_SUPPORT_FLAGS</a>.
+Supported flags. For more information, see <a href="https://msdn.microsoft.com/3AF74BA9-168C-4EB0-B219-CC6BA58E1BCD">D3D12DDI_VIDEO_DECODE_SUPPORT_FLAGS</a>.
 
 
 ### -field ConfigurationFlags
 
-Configuration flags. For more information, see <a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_video_decode_configuration_flags_0020.md">D3D12DDI_VIDEO_DECODE_CONFIGURATION_FLAGS</a>.
+Configuration flags. For more information, see <a href="https://msdn.microsoft.com/33BD5E1F-75F3-44DC-AE83-A22992CAB6B5">D3D12DDI_VIDEO_DECODE_CONFIGURATION_FLAGS</a>.
 
 
 ### -field DecodeTier
 
-The tier supported by this configuration.  For more information, see <a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_video_decode_tier_0020.md">D3D12DDI_VIDEO_DECODE_TIER</a>.
+The tier supported by this configuration.  For more information, see <a href="https://msdn.microsoft.com/CC4B83A3-1F57-493F-840F-F0F799B631E6">D3D12DDI_VIDEO_DECODE_TIER</a>.
 
 
 ## -remarks
 
 
 
-This structure is retrieved through the <a href="..\d3d12umddi\nc-d3d12umddi-pfnd3d12ddi_video_getcaps.md">pfnGetCaps</a> callback function  with the <a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddicaps_type.md">D3D12DDICAPS_TYPE</a> set to a value of <b>D3D12DDICAPS_TYPE_VIDEO_DECODE_SUPPORT</b>.
+This structure is retrieved through the <a href="https://msdn.microsoft.com/6875B754-115F-481D-8D46-2A383BA6B5E7">pfnGetCaps</a> callback function  with the <a href="https://msdn.microsoft.com/C74697BF-A191-4371-9F23-7F655EBC53B3">D3D12DDICAPS_TYPE</a> set to a value of <b>D3D12DDICAPS_TYPE_VIDEO_DECODE_SUPPORT</b>.
 
 
 
 
 ## -see-also
 
-<a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_video_decode_support_flags_0020.md">D3D12DDI_VIDEO_DECODE_SUPPORT_FLAGS</a>
+
+
+
+<a href="https://msdn.microsoft.com/33BD5E1F-75F3-44DC-AE83-A22992CAB6B5">D3D12DDI_VIDEO_DECODE_CONFIGURATION</a>
 
 
 
@@ -145,14 +129,11 @@ This structure is retrieved through the <a href="..\d3d12umddi\nc-d3d12umddi-pfn
 
 
 
-<a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_video_decode_tier_0020.md">D3D12DDI_VIDEO_DECODE_TIER</a>
+<a href="https://msdn.microsoft.com/3AF74BA9-168C-4EB0-B219-CC6BA58E1BCD">D3D12DDI_VIDEO_DECODE_SUPPORT_FLAGS</a>
 
 
 
-<a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_video_decode_configuration_flags_0020.md">D3D12DDI_VIDEO_DECODE_CONFIGURATION</a>
-
-
-
+<a href="https://msdn.microsoft.com/CC4B83A3-1F57-493F-840F-F0F799B631E6">D3D12DDI_VIDEO_DECODE_TIER</a>
  
 
  

@@ -57,19 +57,6 @@ The <b>VmbClientChannelInitSetRingBufferPageCount</b> function sets the number o
 buffers.  
 
 
-## -syntax
-
-
-````
-NTSTATUS
- VmbClientChannelInitSetRingBufferPageCount(
-  _In_     VMBCHANNEL Channel,
-  _In_ UINT32         IncomingPageCount,
-  _In_ UINT32         OutgoingPageCount
-);
-````
-
-
 ## -parameters
 
 

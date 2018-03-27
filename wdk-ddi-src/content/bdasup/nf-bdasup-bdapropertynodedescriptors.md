@@ -53,18 +53,6 @@ req.typenames: KSP_BDA_NODE_PIN, *PKSP_BDA_NODE_PIN
 The <b>BdaPropertyNodeDescriptors</b> function retrieves a list of nodes in a template topology. 
 
 
-## -syntax
-
-
-````
-NTSTATUS BdaPropertyNodeDescriptors(
-  _In_      PIRP               Irp,
-  _In_      PKSPROPERTY        pKSProperty,
-  _Out_opt_ BDANODE_DESCRIPTOR *pguidProperty
-);
-````
-
-
 ## -parameters
 
 
@@ -119,7 +107,6 @@ For a list of BDA nodes that are available to create in a template topology, see
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566561">KSPROPSETID_BdaTopology</a>
 
 
 
@@ -131,6 +118,7 @@ For a list of BDA nodes that are available to create in a template topology, see
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566561">KSPROPSETID_BdaTopology</a>
  
 
  

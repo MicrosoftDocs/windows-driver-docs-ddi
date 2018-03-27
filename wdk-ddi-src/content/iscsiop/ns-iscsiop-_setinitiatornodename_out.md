@@ -52,16 +52,6 @@ req.typenames: SetInitiatorNodeName_OUT, *PSetInitiatorNodeName_OUT
 The SetInitiatorNodeName_OUT structure holds the output data for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565706">SetInitiatorNodeName</a> method.
 
 
-## -syntax
-
-
-````
-typedef struct _SetInitiatorNodeName_OUT {
-  ULONG Status;
-} SetInitiatorNodeName_OUT, *PSetInitiatorNodeName_OUT;
-````
-
-
 ## -struct-fields
 
 
@@ -83,11 +73,6 @@ It is optional that you implement this class.
 
 ## -see-also
 
-<a href="..\iscsiop\ns-iscsiop-_setinitiatornodename_in.md">SetInitiatorNodeName_IN</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565706">SetInitiatorNodeName</a>
 
 
 
@@ -95,6 +80,11 @@ It is optional that you implement this class.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565706">SetInitiatorNodeName</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565729">SetInitiatorNodeName_IN</a>
  
 
  

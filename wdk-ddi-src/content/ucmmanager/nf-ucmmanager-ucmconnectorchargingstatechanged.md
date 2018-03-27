@@ -54,17 +54,6 @@ req.product: Windows 10 or later.
 Notifies the USB connector manager framework extension (UcmCx) with the updated charging state of the partner connector.
 
 
-## -syntax
-
-
-````
-NTSTATUS UcmConnectorChargingStateChanged(
-  [in] UCMCONNECTOR        Connector,
-  [in] UCM_CHARGING_STATE  ChargingState
-);
-````
-
-
 ## -parameters
 
 
@@ -72,12 +61,12 @@ NTSTATUS UcmConnectorChargingStateChanged(
 
 ### -param Connector [in]
 
-Handle to the connector object that the client driver received in the previous call to <a href="..\ucmmanager\nf-ucmmanager-ucmconnectorcreate.md">UcmConnectorCreate</a>.
+Handle to the connector object that the client driver received in the previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/mt187909">UcmConnectorCreate</a>.
 
 
 ### -param ChargingState [in]
 
-One of the <a href="..\ucmtypes\ne-ucmtypes-_ucm_charging_state.md">UCM_CHARGING_STATE</a>-typed flags that indicates the new charging state. 
+One of the <a href="https://msdn.microsoft.com/library/windows/hardware/mt187921">UCM_CHARGING_STATE</a>-typed flags that indicates the new charging state. 
 
 
 ## -returns
@@ -100,10 +89,10 @@ If the client driver determines that the charging state is non-optimal, it shoul
 
 ## -see-also
 
-<a href="..\ucmmanager\nf-ucmmanager-ucmconnectorcreate.md">UcmConnectorCreate</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt187909">UcmConnectorCreate</a>
  
 
  

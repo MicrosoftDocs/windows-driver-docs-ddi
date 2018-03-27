@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 The <b>WWAN_MODEM_CONFIG_INFO</b> structure represents the modem's configuration information.
 
 
-## -syntax
-
-
-````
-typedef struct _WWAN_MODEM_CONFIG_INFO {
-  WWAN_MODEM_CONFIG_STATUS ConfigStatus;
-  WWAN_MODEM_CONFIG_MODE   ConfigMode;
-} WWAN_MODEM_CONFIG_INFO, *PWWAN_MODEM_CONFIG_INFO;
-````
-
-
 ## -struct-fields
 
 
@@ -71,25 +60,16 @@ typedef struct _WWAN_MODEM_CONFIG_INFO {
 
 ### -field ConfigStatus
 
-A formatted <a href="..\wwan\ns-wwan-_wwan_modem_config_status.md">WWAN_MODEM_CONFIG_STATUS</a> structure containing the modem's configuration (config) status.
+A formatted <a href="https://msdn.microsoft.com/3A13CFBC-DBB4-4BB1-ABA4-AB145AED07AA">WWAN_MODEM_CONFIG_STATUS</a> structure containing the modem's configuration (config) status.
 
 
 ### -field ConfigMode
 
-The modem's configuration mode. For a list of defined values, see <a href="..\wwan\ne-wwan-_wwan_modem_config_mode.md">WWAN_MODEM_CONFIG_MODE</a>.
+The modem's configuration mode. For a list of defined values, see <a href="https://msdn.microsoft.com/1AA3EDCC-EB6E-4118-8081-CA1914140683">WWAN_MODEM_CONFIG_MODE</a>.
 
 
 ## -see-also
 
-<a href="..\wwan\ne-wwan-_wwan_modem_config_mode.md">WWAN_MODEM_CONFIG_MODE</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-modem-config-info">OID_WWAN_MODEM_CONFIG_INFO</a>
-
-
-
-<a href="..\wwan\ns-wwan-_wwan_modem_config_status.md">WWAN_MODEM_CONFIG_STATUS</a>
 
 
 
@@ -97,10 +77,19 @@ The modem's configuration mode. For a list of defined values, see <a href="..\ww
 
 
 
-<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_modem_config_info.md">NDIS_WWAN_MODEM_CONFIG_INFO</a>
+<a href="https://msdn.microsoft.com/07C2BAED-157A-459C-B558-115C0091ECE5">NDIS_WWAN_MODEM_CONFIG_INFO</a>
 
 
 
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-modem-config-info">OID_WWAN_MODEM_CONFIG_INFO</a>
+
+
+
+<a href="https://msdn.microsoft.com/1AA3EDCC-EB6E-4118-8081-CA1914140683">WWAN_MODEM_CONFIG_MODE</a>
+
+
+
+<a href="https://msdn.microsoft.com/3A13CFBC-DBB4-4BB1-ABA4-AB145AED07AA">WWAN_MODEM_CONFIG_STATUS</a>
  
 
  

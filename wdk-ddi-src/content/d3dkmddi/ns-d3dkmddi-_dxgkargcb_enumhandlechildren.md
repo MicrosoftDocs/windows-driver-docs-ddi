@@ -52,17 +52,6 @@ req.typenames: DXGKARGCB_ENUMHANDLECHILDREN
 The DXGKARGCB_ENUMHANDLECHILDREN structure describes a parent resource and the index of one of its child allocations. 
 
 
-## -syntax
-
-
-````
-typedef struct _DXGKARGCB_ENUMHANDLECHILDREN {
-  D3DKMT_HANDLE hObject;
-  UINT          Index;
-} DXGKARGCB_ENUMHANDLECHILDREN;
-````
-
-
 ## -struct-fields
 
 
@@ -80,10 +69,10 @@ typedef struct _DXGKARGCB_ENUMHANDLECHILDREN {
 
 ## -see-also
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_enumhandlechildren.md">DxgkCbEnumHandleChildren</a>
 
 
 
+<a href="https://msdn.microsoft.com/36307e63-9e94-4441-92c6-fd4293ea8fa9">DxgkCbEnumHandleChildren</a>
  
 
  

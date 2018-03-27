@@ -52,20 +52,6 @@ req.typenames: MSFC_NPIVLUNMappingInformation, *PMSFC_NPIVLUNMappingInformation
 The MSFC_NPIVLUNMappingInformation structure contains the Logical Unit Number (LUN) to virtual port mapping information.
 
 
-## -syntax
-
-
-````
-typedef struct _MSFC_NPIVLUNMappingInformation {
-  UCHAR WWPNVirtualPort[8];
-  UCHAR WWPNPhysicalPort[8];
-  UCHAR OSBus;
-  UCHAR OSTarget;
-  UCHAR OSLUN;
-} MSFC_NPIVLUNMappingInformation, *PMSFC_NPIVLUNMappingInformation;
-````
-
-
 ## -struct-fields
 
 
@@ -98,10 +84,10 @@ The LUN mapped to the virtual port.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh127627">MSFC_NPIVLUNMappingInformation WMI Class</a>
-
-
-
  
 
  

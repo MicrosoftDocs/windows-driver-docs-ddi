@@ -52,20 +52,6 @@ req.typenames: SM_SendRPL_IN, *PSM_SendRPL_IN
 The SM_SendRPL_IN structure is used to provide input parameters to the SM_SendRPL method.
 
 
-## -syntax
-
-
-````
-typedef struct _SM_SendRPL_IN {
-  UCHAR HbaPortWWN[8];
-  UCHAR AgentWWN[8];
-  ULONG AgentDomain;
-  ULONG PortIndex;
-  ULONG InRespBufferMaxSize;
-} SM_SendRPL_IN, *PSM_SendRPL_IN;
-````
-
-
 ## -struct-fields
 
 

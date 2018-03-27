@@ -52,23 +52,6 @@ req.typenames: DXGK_TRANSFERVIRTUALFLAGS
 <b>DXGK_TRANSFERVIRTUALFLAGS</b> is used as part of an allocation transfer operation.
 
 
-## -syntax
-
-
-````
-typedef struct _DXGK_TRANSFERVIRTUALFLAGS {
-  union {
-    struct {
-      UINT Src64KBPages  :1;
-      UINT Dst64KBPages  :1;
-      UINT Reserved  :30;
-    };
-    UINT   Flags;
-  };
-} DXGK_TRANSFERVIRTUALFLAGS;
-````
-
-
 ## -struct-fields
 
 

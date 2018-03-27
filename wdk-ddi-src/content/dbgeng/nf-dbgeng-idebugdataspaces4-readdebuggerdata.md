@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -53,19 +53,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>ReadDebuggerData</b> method returns information about the target that the <a href="https://msdn.microsoft.com/fa52a1f0-9397-48a5-acbd-ce5347c0baef">debugger engine</a> has queried or determined during the current session.  The available information includes the locations of certain key target kernel locations, specific status values, and a number of other things.
-
-
-## -syntax
-
-
-````
-HRESULT ReadDebuggerData(
-  [in]            ULONG  Index,
-  [out]           PVOID  Buffer,
-  [in]            ULONG  BufferSize,
-  [out, optional] PULONG DataSize
-);
-````
 
 
 ## -parameters

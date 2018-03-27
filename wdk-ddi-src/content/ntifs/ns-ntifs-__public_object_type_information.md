@@ -52,17 +52,6 @@ req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
 The PUBLIC_OBJECT_TYPE_INFORMATION structure holds the type name of the object.
 
 
-## -syntax
-
-
-````
-typedef struct __PUBLIC_OBJECT_TYPE_INFORMATION {
-  UNICODE_STRING TypeName;
-  ULONG          Reserved[22];
-} PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION;
-````
-
-
 ## -struct-fields
 
 

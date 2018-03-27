@@ -52,20 +52,6 @@ req.typenames: SOUNDDETECTOR_PATTERNHEADER
 A streaming minidriver's <i>KStrContextDispatch</i> routine is called to process IRP_MJ_POWER IRPs.
 
 
-## -prototype
-
-
-````
-PFNKSCONTEXT_DISPATCH KStrContextDispatch;
-
-NTSTATUS KStrContextDispatch(
-  _In_ PVOID Context,
-  _In_ PIRP  Irp
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -73,7 +59,7 @@ NTSTATUS KStrContextDispatch(
 
 ### -param Context [in]
 
-Specifies the user-supplied memory context to be passed as the <i>PowerContext</i> argument to the <a href="..\ks\nf-ks-kssetpowerdispatch.md">KsSetPowerDispatch</a> function.
+Specifies the user-supplied memory context to be passed as the <i>PowerContext</i> argument to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566843">KsSetPowerDispatch</a> function.
 
 
 ### -param Irp [in]
@@ -103,10 +89,10 @@ To manipulate the list entry only, <i>KStrContextDispatch</i> can call<b> KsSetP
 
 ## -see-also
 
-<a href="..\ks\nf-ks-kssetpowerdispatch.md">KsSetPowerDispatch</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566843">KsSetPowerDispatch</a>
  
 
  

@@ -52,16 +52,6 @@ req.typenames: TOKEN_TYPE
 The <b>RtlNtStatusToDosErrorNoTeb</b>  routine converts the specified NTSTATUS code to its equivalent system error code. Reserved for system use.
 
 
-## -syntax
-
-
-````
-ULONG RtlNtStatusToDosError(
-  _In_ NTSTATUS Status
-);
-````
-
-
 ## -parameters
 
 

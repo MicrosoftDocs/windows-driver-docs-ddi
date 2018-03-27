@@ -52,19 +52,6 @@ req.typenames: RILMSGCDMAMSGPRIORITY
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef enum _RILMSGCDMAMSGPRIORITY { 
-  RIL_MSGPRIORITY_HIGH,
-  RIL_MSGPRIORITY_URGENT,
-  RIL_MSGPRIORITY_EMERGENCY,
-  RIL_MSGPRIORITY_MAX
-} RILMSGCDMAMSGPRIORITY;
-````
-
-
 ## -enum-fields
 
 

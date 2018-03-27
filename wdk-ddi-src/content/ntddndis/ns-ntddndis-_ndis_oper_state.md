@@ -53,18 +53,6 @@ The NDIS_OPER_STATE structure provides the current operational state of an NDIS 
   interface.
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_OPER_STATE {
-  NDIS_OBJECT_HEADER Header;
-  NET_IF_OPER_STATUS OperationalStatus;
-  ULONG              OperationalStatusFlags;
-} NDIS_OPER_STATE, *PNDIS_OPER_STATE;
-````
-
-
 ## -struct-fields
 
 
@@ -73,7 +61,7 @@ typedef struct _NDIS_OPER_STATE {
 ### -field Header
 
 The 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure for the
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure for the
      NDIS_OPER_STATE structure. Set the 
      <b>Type</b> member of the structure that 
      <b>Header</b> specifies to NDIS_OBJECT_TYPE_DEFAULT, the 
@@ -134,7 +122,7 @@ For the
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff567406">NDIS_STATUS_OPER_STATUS</a> status
     indication, NDIS supplies an NDIS_OPER_STATE structure in the 
     <b>StatusBuffer</b> member of the 
-    <a href="..\ndis\ns-ndis-_ndis_status_indication.md">NDIS_STATUS_INDICATION</a> structure.
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff567373">NDIS_STATUS_INDICATION</a> structure.
 
 NDIS_STATUS_OPER_STATUS indicates the current operational state of an NDIS network interface to
     overlying drivers.
@@ -144,7 +132,14 @@ NDIS_STATUS_OPER_STATUS indicates the current operational state of an NDIS netwo
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_ndis_status_indication.md">NDIS_STATUS_INDICATION</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567373">NDIS_STATUS_INDICATION</a>
 
 
 
@@ -153,13 +148,6 @@ NDIS_STATUS_OPER_STATUS indicates the current operational state of an NDIS netwo
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568746">NET_IF_OPER_STATUS</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
  
 
  

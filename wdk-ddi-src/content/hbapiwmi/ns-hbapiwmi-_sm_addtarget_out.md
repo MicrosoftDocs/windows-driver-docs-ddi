@@ -52,16 +52,6 @@ req.typenames: SM_AddTarget_OUT, *PSM_AddTarget_OUT
 The SM_AddTarget_OUT structure is used to receive output parameters from the SM_AddTarget WMI method.
 
 
-## -syntax
-
-
-````
-typedef struct _SM_AddTarget_OUT {
-  ULONG HBAStatus;
-} SM_AddTarget_OUT, *PSM_AddTarget_OUT;
-````
-
-
 ## -struct-fields
 
 

@@ -53,18 +53,6 @@ req.product: Windows 10 or later.
 The OEMMEMORYUSAGE structure is used as an input parameter to a rendering plug-in's <a href="https://msdn.microsoft.com/library/windows/hardware/ff554264">IPrintOemUni::MemoryUsage</a> method.
 
 
-## -syntax
-
-
-````
-typedef struct {
-  DWORD dwFixedMemoryUsage;
-  DWORD dwPercentMemoryUsage;
-  DWORD dwMaxBandSize;
-} OEMMEMORYUSAGE, *POEMMEMORYUSAGE;
-````
-
-
 ## -struct-fields
 
 
@@ -96,14 +84,14 @@ The Unidrv driver uses the values in the <b>dwFixedMemoryUsage</b> and <b>dwPerc
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554261">IPrintOemUni::ImageProcessing</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554264">IPrintOemUni::MemoryUsage</a>
-
-
-
  
 
  

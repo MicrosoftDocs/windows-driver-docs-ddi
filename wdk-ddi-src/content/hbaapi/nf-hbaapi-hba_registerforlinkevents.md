@@ -52,21 +52,6 @@ req.typenames: HBA_WWNTYPE
 The <b>HBA_RegisterForLinkEvents</b> routine registers with a specified adapter for asynchronous fabric link-level events. 
 
 
-## -syntax
-
-
-````
-HBA_STATUS HBA_API HBA_RegisterForLinkEvents(
-   HBA_LINK_CALLBACK  callback,
-   void               *userData,
-   void               *pRLIRBuffer,
-   HBA_UINT32         RLIRBufferSize,
-   HBA_HANDLE         handle,
-   HBA_CALLBACKHANDLE *callbackHandle
-);
-````
-
-
 ## -parameters
 
 
@@ -111,7 +96,7 @@ Pointer to an opaque identifier that may be used to deregister the caller and su
 
 #### - handle
 
-Contains a value returned by the routine <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a> that identifies the HBA for which event callbacks are requested.
+Contains a value returned by the routine <a href="https://msdn.microsoft.com/library/windows/hardware/ff557097">HBA_OpenAdapter</a> that identifies the HBA for which event callbacks are requested.
 
 
 ## -returns
@@ -168,22 +153,13 @@ Returned if an unspecified error occurred that prevented the registration of the
 
 
 
-Only RLIR events are reported. To stop event delivery, call <a href="..\hbaapi\nf-hbaapi-hba_removecallback.md">HBA_RemoveCallback</a>.
+Only RLIR events are reported. To stop event delivery, call <a href="https://msdn.microsoft.com/library/windows/hardware/ff557175">HBA_RemoveCallback</a>.
 
 
 
 
 ## -see-also
 
-<a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
-
-
-
-<a href="..\hbaapi\nf-hbaapi-hba_removecallback.md">HBA_RemoveCallback</a>
 
 
 
@@ -191,6 +167,15 @@ Only RLIR events are reported. To stop event delivery, call <a href="..\hbaapi\n
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557097">HBA_OpenAdapter</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557175">HBA_RemoveCallback</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
  
 
  

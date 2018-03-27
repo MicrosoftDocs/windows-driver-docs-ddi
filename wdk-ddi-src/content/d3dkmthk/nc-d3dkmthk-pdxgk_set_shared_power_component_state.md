@@ -52,18 +52,6 @@ req.typenames: DXGK_TARGETMODE_DETAIL_TIMING
 A callback to indicate whether the specified power component is active.
 
 
-## -prototype
-
-
-````
-NTSTATUS PDXGK_SET_SHARED_POWER_COMPONENT_STATE(
-   PVOID GraphicsDeviceHandle,
-   PVOID GraphicsDeviceHandle,
-   ULONG GraphicsDeviceHandle
-);
-````
-
-
 ## -parameters
 
 

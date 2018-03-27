@@ -46,16 +46,11 @@ req.typenames: DETECTION_TYPE
 # IOCTL_DISK_CREATE_DISK IOCTL
 
 
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
-
 ## -description
 
 
 
-Creates an empty partition for the device object. It can operate on either an EFI disk or an MBR disk. The parameters necessary to create an empty disk depend on the type of partition table that will be put onto the disk. For more information, see <a href="..\ntdddisk\ns-ntdddisk-_create_disk.md">CREATE_DISK</a>.
+Creates an empty partition for the device object. It can operate on either an EFI disk or an MBR disk. The parameters necessary to create an empty disk depend on the type of partition table that will be put onto the disk. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff552484">CREATE_DISK</a>.
 
 Disk drivers enumerate partitions as though they were child devices. Thus, upon creating the new partition, the disk class driver notifies the PnP manager by means of a call to <b>IoInvalidateDeviceRelations</b> that the disk device has a new child device (partition).
 
@@ -113,10 +108,10 @@ The <b>Information</b> field is set to zero. The <b>Status</b> field is set to S
 
 ## -see-also
 
-<a href="..\ntdddisk\ns-ntdddisk-_create_disk.md">CREATE_DISK</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552484">CREATE_DISK</a>
  
 
  

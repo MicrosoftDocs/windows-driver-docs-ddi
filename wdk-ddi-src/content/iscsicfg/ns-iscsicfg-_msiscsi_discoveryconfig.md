@@ -52,20 +52,6 @@ req.typenames: MSiSCSI_DiscoveryConfig, *PMSiSCSI_DiscoveryConfig
 The MSiSCSI_DiscoveryConfig structure contains information that indicates what methods an initiator uses to do discovery.
 
 
-## -syntax
-
-
-````
-typedef struct _MSiSCSI_DiscoveryConfig {
-  BOOLEAN          PerformiSNSDiscovery;
-  BOOLEAN          PerformSLPDiscovery;
-  BOOLEAN          AutomaticiSNSDiscovery;
-  WCHAR            InitiatorName[256 + 1];
-  ISCSI_IP_Address iSNSServer;
-} MSiSCSI_DiscoveryConfig, *PMSiSCSI_DiscoveryConfig;
-````
-
-
 ## -struct-fields
 
 
@@ -93,7 +79,7 @@ The default initiator name to register with the iSNS server.
 
 ### -field iSNSServer
 
-If <b>AutomaticiSNSDiscovery</b> is <b>FALSE</b>, <b>iSNSServer</b> contains a <a href="..\iscsidef\ns-iscsidef-_iscsi_ip_address.md">ISCSI_IP_Address</a> structure that provides a fixed address of the iSNS server that is independent of the version of the IP protocol in use. 
+If <b>AutomaticiSNSDiscovery</b> is <b>FALSE</b>, <b>iSNSServer</b> contains a <a href="https://msdn.microsoft.com/library/windows/hardware/ff561536">ISCSI_IP_Address</a> structure that provides a fixed address of the iSNS server that is independent of the version of the IP protocol in use. 
 
 
 ## -remarks
@@ -109,14 +95,14 @@ Initiators are required to implement the MSiSCSI_DiscoveryConfig class. You must
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561536">ISCSI_IP_Address</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff562995">MSiSCSI_DiscoveryConfig WMI Class</a>
-
-
-
-<a href="..\iscsidef\ns-iscsidef-_iscsi_ip_address.md">ISCSI_IP_Address</a>
-
-
-
  
 
  

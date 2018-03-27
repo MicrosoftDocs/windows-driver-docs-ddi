@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: engextcpp.hpp
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -52,16 +52,6 @@ req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
 The <b>GetFieldOffset</b> method returns the offset of a member from the base address of an instance of the type that is represented by this object.
 
 
-## -syntax
-
-
-````
-ULONG GetFieldOffset(
-  [in] PCSTR Field
-);
-````
-
-
 ## -parameters
 
 
@@ -83,18 +73,18 @@ The name of the member whose offset is requested.  Sub-members can be specified 
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544162">ExtRemoteTyped</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546758">GetFieldOffset</a>
+
+
+
 <b>IDebugSymbols::GetFieldOffset</b>
-
-
-
-<a href="..\engextcpp\nl-engextcpp-extremotetyped.md">ExtRemoteTyped</a>
-
-
-
-<a href="..\wdbgexts\nf-wdbgexts-getfieldoffset.md">GetFieldOffset</a>
-
-
-
  
 
  

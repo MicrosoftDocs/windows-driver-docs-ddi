@@ -46,11 +46,6 @@ req.typenames: DETECTION_TYPE
 # IOCTL_DISK_VERIFY IOCTL
 
 
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
-
 ## -description
 
 
@@ -67,7 +62,7 @@ Performs verification for a specified extent on a disk.
 
 ### -input-buffer
 
-The buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> contains the <a href="..\ntdddisk\ns-ntdddisk-_verify_information.md">VERIFY_INFORMATION</a> data specifying the starting offset and length to be verified. 
+The buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> contains the <a href="https://msdn.microsoft.com/library/windows/hardware/ff568005">VERIFY_INFORMATION</a> data specifying the starting offset and length to be verified. 
 
 
 ### -input-buffer-length
@@ -112,10 +107,10 @@ If the request is successful, then the <b>Status</b> field is set to STATUS_SUCC
 
 ## -see-also
 
-<a href="..\ntdddisk\ns-ntdddisk-_verify_information.md">VERIFY_INFORMATION</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568005">VERIFY_INFORMATION</a>
  
 
  

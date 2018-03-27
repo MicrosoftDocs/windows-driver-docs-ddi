@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: printerextension.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,21 +51,11 @@ req.product: Windows 10 or later.
 ## -description
 
 
-Gets the <a href="..\printerextension\nn-printerextension-iprinterextensionrequest.md">IPrinterExtensionRequest</a> object for the current event.
+Gets the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439517">IPrinterExtensionRequest</a> object for the current event.
 
 This interface is used to complete or cancel the event.
 
 This property is read-only.
-
-
-## -syntax
-
-
-````
-HRESULT get_Request(
-  [out, retval] IPrinterExtensionRequest **ppRequest
-);
-````
 
 
 ## -parameters
@@ -73,14 +63,14 @@ HRESULT get_Request(
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprinterextensionrequest.md">IPrinterExtensionRequest</a>
 
 
 
-<a href="..\printerextension\nn-printerextension-iprinterextensioneventargs.md">IPrinterExtensionEventArgs</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh973207">IPrinterExtensionEventArgs</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439517">IPrinterExtensionRequest</a>
  
 
  

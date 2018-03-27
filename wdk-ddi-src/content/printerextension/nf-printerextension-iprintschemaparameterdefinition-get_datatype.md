@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: printerextension.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,19 +51,9 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The <b>DataType</b> property gets the <a href="..\printerextension\ne-printerextension-tagprintschemaparameterdatatype.md">PrintSchemaParameterDataType</a> enumerated value that indicates the expected data type for the Print Schema parameter.
+The <b>DataType</b> property gets the <a href="https://msdn.microsoft.com/library/windows/hardware/dn454562">PrintSchemaParameterDataType</a> enumerated value that indicates the expected data type for the Print Schema parameter.
 
 This property is read-only.
-
-
-## -syntax
-
-
-````
-HRESULT get_DataType(
-  [out, retval] PrintSchemaParameterDataType *pDataType
-);
-````
 
 
 ## -parameters
@@ -71,14 +61,14 @@ HRESULT get_DataType(
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprintschemaparameterdefinition.md">IPrintSchemaParameterDefinition</a>
 
 
 
-<a href="..\printerextension\ne-printerextension-tagprintschemaparameterdatatype.md">PrintSchemaParameterDataType</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn465890">IPrintSchemaParameterDefinition</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn454562">PrintSchemaParameterDataType</a>
  
 
  

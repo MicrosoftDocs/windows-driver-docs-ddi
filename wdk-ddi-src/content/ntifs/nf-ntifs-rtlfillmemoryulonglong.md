@@ -52,18 +52,6 @@ req.typenames: TOKEN_TYPE
 The <b>RtlFillMemoryUlonglong</b> routine fills a given range of memory with one or more repetitions of a given ULONGLONG value. 
 
 
-## -syntax
-
-
-````
-VOID RtlFillMemoryUlonglong(
-  _Out_ PVOID     Destination,
-  _In_  SIZE_T    Length,
-  _In_  ULONGLONG Pattern
-);
-````
-
-
 ## -parameters
 
 
@@ -99,18 +87,18 @@ For AMD64 systems, this routine is a macro.  For non-AMD64 systems, this routine
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-rtlzeromemory.md">RtlZeroMemory</a>
 
 
 
-<a href="..\wdm\nf-wdm-rtlfillmemory.md">RtlFillMemory</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561870">RtlFillMemory</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-rtlfillmemoryulong.md">RtlFillMemoryUlong</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552263">RtlFillMemoryUlong</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563610">RtlZeroMemory</a>
  
 
  

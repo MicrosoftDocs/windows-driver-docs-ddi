@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 The <b>WWAN_PCO_TYPE</b> enumeration indicates whether the header of a PCO structure is partial, meaning only a subset of the complete PCO value from the network is being passed up to the host. This type will help the upper edge logic know the validity of the header of the PCO structure.
 
 
-## -syntax
-
-
-````
-typedef enum _WWAN_PCO_TYPE { 
-  WwanPcoTypeComplete  = 0,
-  WwanPcoTypePartial
-} WWAN_PCO_TYPE;
-````
-
-
 ## -enum-fields
 
 
@@ -71,7 +60,7 @@ typedef enum _WWAN_PCO_TYPE {
 
 ### -field WwanPcoTypeComplete
 
-Specifies that the complete PCO structure will be passed up as received from the network and the header realistically reflects the protocol in octet 3 of the PCO structure, defined in the 3GPP TS24.008 spec. To see the full PCO structure, see <a href="..\wwan\ns-wwan-_wwan_pco_value.md">WWAN_PCO_VALUE</a>.
+Specifies that the complete PCO structure will be passed up as received from the network and the header realistically reflects the protocol in octet 3 of the PCO structure, defined in the 3GPP TS24.008 spec. To see the full PCO structure, see <a href="https://msdn.microsoft.com/45A499CE-2C9A-4070-BEF8-880E7673FA8E">WWAN_PCO_VALUE</a>.
 
 
 ### -field WwanPcoTypePartial
@@ -102,7 +91,6 @@ The OS will not check if the PCO data is valid and leaves the validation to the 
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_pco_value.md">WWAN_PCO_VALUE</a>
 
 
 
@@ -110,6 +98,7 @@ The OS will not check if the PCO data is valid and leaves the validation to the 
 
 
 
+<a href="https://msdn.microsoft.com/45A499CE-2C9A-4070-BEF8-880E7673FA8E">WWAN_PCO_VALUE</a>
  
 
  

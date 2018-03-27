@@ -52,19 +52,6 @@ req.typenames: RILMSGOUTSUBMITVPFORMAT
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef enum _RILMSGOUTSUBMITVPFORMAT { 
-  RIL_MSGVP_RELATIVE,
-  RIL_MSGVP_ENHANCED,
-  RIL_MSGVP_ABSOLUTE,
-  RIL_MSGVP_MAX
-} RILMSGOUTSUBMITVPFORMAT;
-````
-
-
 ## -enum-fields
 
 

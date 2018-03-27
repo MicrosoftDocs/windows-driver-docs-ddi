@@ -49,33 +49,7 @@ req.typenames: D3D10_DDI_BLEND
 ## -description
 
 
-The D3D10_DDI_BLEND enumeration type contains values that identify blend modes in a call to the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createblendstate.md">CreateBlendState</a> function.
-
-
-## -syntax
-
-
-````
-typedef enum D3D10_DDI_BLEND { 
-  D3D10_DDI_BLEND_ZERO             = 1,
-  D3D10_DDI_BLEND_ONE              = 2,
-  D3D10_DDI_BLEND_SRC_COLOR        = 3,
-  D3D10_DDI_BLEND_INV_SRC_COLOR    = 4,
-  D3D10_DDI_BLEND_SRC_ALPHA        = 5,
-  D3D10_DDI_BLEND_INV_SRC_ALPHA    = 6,
-  D3D10_DDI_BLEND_DEST_ALPHA       = 7,
-  D3D10_DDI_BLEND_INV_DEST_ALPHA   = 8,
-  D3D10_DDI_BLEND_DEST_COLOR       = 9,
-  D3D10_DDI_BLEND_INV_DEST_COLOR   = 10,
-  D3D10_DDI_BLEND_SRC_ALPHASAT     = 11,
-  D3D10_DDI_BLEND_BLEND_FACTOR     = 14,
-  D3D10_DDI_BLEND_INVBLEND_FACTOR  = 15,
-  D3D10_DDI_BLEND_SRC1_COLOR       = 16,
-  D3D10_DDI_BLEND_INV_SRC1_COLOR   = 17,
-  D3D10_DDI_BLEND_SRC1_ALPHA       = 18,
-  D3D10_DDI_BLEND_INV_SRC1_ALPHA   = 19
-} D3D10_DDI_BLEND;
-````
+The D3D10_DDI_BLEND enumeration type contains values that identify blend modes in a call to the driver's <a href="https://msdn.microsoft.com/f203a83c-0108-4e20-9972-06857099378c">CreateBlendState</a> function.
 
 
 ## -enum-fields
@@ -183,10 +157,10 @@ A <i>blend mode</i> is an algorithm that is used to determine how a texture is b
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createblendstate.md">CreateBlendState</a>
 
 
 
+<a href="https://msdn.microsoft.com/f203a83c-0108-4e20-9972-06857099378c">CreateBlendState</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: kernel\gpio_pin_config_type.htm
 old-project: kernel
 ms.assetid: 76509992-E5A7-4C2F-84D3-B3FD06ACEFE1
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/1/2018
 ms.keywords: GPIO_PIN_CONFIG_TYPE, GPIO_PIN_CONFIG_TYPE enumeration [Kernel-Mode Driver Architecture], PullDefault, PullDown, PullNone, PullUp, _GPIO_PIN_CONFIG_TYPE, kernel.gpio_pin_config_type, pepfx/GPIO_PIN_CONFIG_TYPE, pepfx/PullDefault, pepfx/PullDown, pepfx/PullNone, pepfx/PullUp
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: See Remarks.
+req.irql: PASSIVE_LEVEL
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -50,19 +50,6 @@ req.typenames: GPIO_PIN_CONFIG_TYPE
 
 
 The <b>GPIO_PIN_CONFIG_TYPE</b> enumeration describes a connection IO resource.
-
-
-## -syntax
-
-
-````
-typedef enum _GPIO_PIN_CONFIG_TYPE { 
-  PullDefault,
-  PullUp,
-  PullDown,
-  PullNone
-} GPIO_PIN_CONFIG_TYPE;
-````
 
 
 ## -enum-fields

@@ -53,32 +53,6 @@ The OFFLOAD_IPSEC_ADD_UDPESP_SA structure contains information for each security
   that a miniport driver adds for UDP-encapsulated ESP packets to a NIC.
 
 
-## -syntax
-
-
-````
-typedef struct _OFFLOAD_IPSEC_ADD_UDPESP_SA {
-  IPAddr                               SrcAddr;
-  IPMask                               SrcMask;
-  IPAddr                               DstAddr;
-  IPMask                               DstMask;
-  ULONG                                Protocol;
-  USHORT                               SrcPort;
-  USHORT                               DstPort;
-  IPAddr                               SrcTunnelAddr;
-  IPAddr                               DstTunnelAddr;
-  USHORT                               Flags;
-  SHORT                                NumSAs;
-  OFFLOAD_SECURITY_ASSOCIATION         SecAssoc[OFFLOAD_MAX_SAS];
-  HANDLE                               OffloadHandle;
-  OFFLOAD_IPSEC_UDPESP_ENCAPTYPE_ENTRY EncapTypeEntry;
-  HANDLE                               EncapTypeEntryOffldHandle;
-  ULONG                                KeyLen;
-  UCHAR                                KeyMat[1];
-} OFFLOAD_IPSEC_ADD_UDPESP_SA, *POFFLOAD_IPSEC_ADD_UDPESP_SA;
-````
-
-
 ## -struct-fields
 
 
@@ -172,7 +146,7 @@ Specifies an outbound SA.
 
 The number of elements in the 
      <b>SecAssoc</b> array. Each element in the array is an 
-     <a href="..\ntddndis\ns-ntddndis-_offload_security_association.md">
+     <a href="https://msdn.microsoft.com/2c392a13-4db4-4b22-aacf-4450eb1e191c">
      OFFLOAD_SECURITY_ASSOCIATION</a> structure.
 
 
@@ -208,7 +182,7 @@ The handle to the newly created SA. The miniport driver supplies this handle bef
 
 The UDP-ESP encapsulation type and destination port of a parser entry. This information is
      formatted as an 
-     <a href="..\ntddndis\ns-ntddndis-_offload_ipsec_udpesp_encaptype_entry.md">
+     <a href="https://msdn.microsoft.com/a1e5ae2e-b183-4ccc-8413-1359c4e8a6bc">
      OFFLOAD_IPSEC_UDPESP_ENCAPTYPE_ENTRY</a> structure.
 
 
@@ -257,7 +231,7 @@ A variable-length array that contains keys for the SAs specified at
      an integrity (authentication) algorithm are specified by the 
      <b>ConfAlgo</b> and 
      <b>IntegrityAlgo</b> of an 
-     <a href="..\ntddndis\ns-ntddndis-_offload_security_association.md">
+     <a href="https://msdn.microsoft.com/2c392a13-4db4-4b22-aacf-4450eb1e191c">
      OFFLOAD_SECURITY_ASSOCIATION</a> structure, the buffer at 
      <b>KeyMat</b> contains key information for the confirmation algorithm first,
      followed immediately by key information for the integrity algorithm.
@@ -266,7 +240,7 @@ A variable-length array that contains keys for the SAs specified at
 The length of each key in the buffer at 
      <b>KeyMat</b> is specified by 
      <b>algoKeyLen</b> in the 
-     <a href="..\ntddndis\ns-ntddndis-_offload_algo_info.md">OFFLOAD_ALGO_INFO</a> structure that
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568842">OFFLOAD_ALGO_INFO</a> structure that
      specifies the confidentiality or integrity algorithm. (An OFFLOAD_ALGO_INFO structure is a member of an
      OFFLOAD_SECURITY_ASSOCIATION structure.)
 
@@ -280,7 +254,7 @@ The OFFLOAD_IPSEC_ADD_UDPESP_SA structure is used with the
     OID_TCP_TASK_IPSEC_ADD_UDPESP_SA</a> OID.
 
 Note that the OFFLOAD_IPSEC_ADD_UDPESP_SA structure is almost identical to the 
-    <a href="..\ntddndis\ns-ntddndis-_offload_ipsec_add_sa.md">OFFLOAD_IPSEC_ADD_SA</a> structure used in
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff569056">OFFLOAD_IPSEC_ADD_SA</a> structure used in
     the 
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff569808">OID_TCP_TASK_IPSEC_ADD_SA</a> request.
     The only difference is that the OFFLOAD_IPSEC_ADD_UDPESP_SA structure contains the 
@@ -292,12 +266,31 @@ Note that the OFFLOAD_IPSEC_ADD_UDPESP_SA structure is almost identical to the
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_offload_ipsec_udpesp_encaptype_entry.md">
-   OFFLOAD_IPSEC_UDPESP_ENCAPTYPE_ENTRY</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557028">NDIS_IPSEC_PACKET_INFO</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568842">OFFLOAD_ALGO_INFO</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569056">OFFLOAD_IPSEC_ADD_SA</a>
+
+
+
+<a href="https://msdn.microsoft.com/a1e5ae2e-b183-4ccc-8413-1359c4e8a6bc">
+   OFFLOAD_IPSEC_UDPESP_ENCAPTYPE_ENTRY</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569061">OFFLOAD_SECURITY_ASSOCIATION</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569808">OID_TCP_TASK_IPSEC_ADD_SA</a>
 
 
 
@@ -307,25 +300,6 @@ Note that the OFFLOAD_IPSEC_ADD_UDPESP_SA structure is almost identical to the
 
 
 <a href="https://msdn.microsoft.com/en-us/library/gg155485.aspx">OID_TCP_TASK_IPSEC_DELETE_SA</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_offload_algo_info.md">OFFLOAD_ALGO_INFO</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569808">OID_TCP_TASK_IPSEC_ADD_SA</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_offload_security_association.md">OFFLOAD_SECURITY_ASSOCIATION</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_offload_ipsec_add_sa.md">OFFLOAD_IPSEC_ADD_SA</a>
-
-
-
  
 
  

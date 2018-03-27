@@ -52,17 +52,6 @@ req.typenames: D3DWDDM1_3DDI_MARKER_TYPE
 Indicates the type of marker that the user-mode display driver supports.
 
 
-## -syntax
-
-
-````
-typedef enum D3DWDDM1_3DDI_MARKER_TYPE { 
-  D3DWDDM1_3DDI_MARKER_TYPE_NONE,
-  D3DWDDM1_3DDI_MARKER_TYPE_PROFILE
-} D3DWDDM1_3DDI_MARKER_TYPE;
-````
-
-
 ## -enum-fields
 
 

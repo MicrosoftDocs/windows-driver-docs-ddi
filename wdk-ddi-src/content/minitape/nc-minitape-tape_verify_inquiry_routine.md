@@ -40,7 +40,7 @@ api_name:
 -	(*TAPE_VERIFY_INQUIRY_ROUTINE)
 product: Windows
 targetos: Windows
-req.typenames: PROCESSOR_NUMBER, *PPROCESSOR_NUMBER
+req.typenames: MCD_INIT_DATA, *PMCD_INIT_DATA
 ---
 
 # TAPE_VERIFY_INQUIRY_ROUTINE callback
@@ -50,20 +50,6 @@ req.typenames: PROCESSOR_NUMBER, *PPROCESSOR_NUMBER
 
 
 <i>TAPE_VERIFY_INQUIRY_ROUTINE</i> determines whether the tape miniclass driver recognizes and supports a given device. This routine is required.
-
-
-## -prototype
-
-
-````
-TAPE_VERIFY_INQUIRY_ROUTINE (*TAPE_VERIFY_INQUIRY_ROUTINE);
-
-BOOLEAN (*TAPE_VERIFY_INQUIRY_ROUTINE)(
-  _In_ PINQUIRYDATA            InquiryData,
-  _In_ PMODE_CAPABILITIES_PAGE ModeCapabilitiesPage
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -94,21 +80,21 @@ Pointer to a MODE_CAPABILITIES_PAGE structure that contains low-level informatio
 
 
 
-<i>TAPE_VERIFY_INQUIRY_ROUTINE</i> examines the <i>InquiryData</i>, particularly the <b>VendorId</b> and <b>ProductId</b> members, to determine whether the tape miniclass driver supports the tape device. <i>TAPE_VERIFY_INQUIRY_ROUTINE</i> uses <a href="..\minitape\nf-minitape-tapeclasscomparememory.md">TapeClassCompareMemory</a> to compare ID strings against values the tape miniclass driver supports.
+<i>TAPE_VERIFY_INQUIRY_ROUTINE</i> examines the <i>InquiryData</i>, particularly the <b>VendorId</b> and <b>ProductId</b> members, to determine whether the tape miniclass driver supports the tape device. <i>TAPE_VERIFY_INQUIRY_ROUTINE</i> uses <a href="https://msdn.microsoft.com/library/windows/hardware/ff567617">TapeClassCompareMemory</a> to compare ID strings against values the tape miniclass driver supports.
 
 
 
 
 ## -see-also
 
-<a href="..\minitape\ne-minitape-_tape_status.md">TAPE_STATUS</a>
 
 
 
-<a href="..\minitape\nf-minitape-tapeclasscomparememory.md">TapeClassCompareMemory</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567975">TAPE_STATUS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567617">TapeClassCompareMemory</a>
  
 
  

@@ -56,21 +56,6 @@ req.product: Windows 10 or later.
 The <b>KsCreateBusEnumObject</b> function creates a demand-load bus enumerator object and initializes it for use with the demand-load bus enumerator services. 
 
 
-## -syntax
-
-
-````
-NTSTATUS KsCreateBusEnumObject(
-  _In_     PWSTR          BusIdentifier,
-  _In_     PDEVICE_OBJECT BusDeviceObject,
-  _In_     PDEVICE_OBJECT PhysicalDeviceObject,
-  _In_opt_ PDEVICE_OBJECT PnpDeviceObject,
-  _In_opt_ REFGUID        InterfaceGuid,
-  _In_opt_ PWSTR          ServiceRelativePath
-);
-````
-
-
 ## -parameters
 
 
@@ -130,10 +115,10 @@ The demand-load bus enumerator object extends a Plug and Play device by servicin
 
 ## -see-also
 
-<a href="..\swenum\nf-swenum-ksservicebusenumpnprequest.md">KsServiceBusEnumPnpRequest</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566816">KsServiceBusEnumPnpRequest</a>
  
 
  

@@ -55,16 +55,6 @@ req.typenames: D3DKMT_DRIVERVERSION
 The <b>D3DKMTGetScanLine</b> function determines whether the given video present source of a video present network (VidPN) is in vertical blanking mode and retrieves the current scan line.
 
 
-## -syntax
-
-
-````
-NTSTATUS D3DKMTGetScanLine(
-  _Inout_ D3DKMT_GETSCANLINE *pData
-);
-````
-
-
 ## -parameters
 
 
@@ -74,7 +64,7 @@ NTSTATUS D3DKMTGetScanLine(
 
 #### - pData [in, out]
 
-A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_getscanline.md">D3DKMT_GETSCANLINE</a> structure that contains the vertical blanking status of a video present source.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff548064">D3DKMT_GETSCANLINE</a> structure that contains the vertical blanking status of a video present source.
 
 
 ## -returns
@@ -131,10 +121,10 @@ This function might also return other <b>NTSTATUS</b> values.
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_getscanline.md">D3DKMT_GETSCANLINE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548064">D3DKMT_GETSCANLINE</a>
  
 
  

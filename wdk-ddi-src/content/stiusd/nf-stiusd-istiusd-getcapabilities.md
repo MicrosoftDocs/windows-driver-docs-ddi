@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: stiusd.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -53,16 +53,6 @@ req.product: Windows 10 or later.
 A still image minidriver's <b>IStiUSD::GetCapabilities</b> method returns a still image device's capabilities.
 
 
-## -syntax
-
-
-````
-HRESULT GetCapabilities(
-   PSTI_USD_CAPS pUsdCaps
-);
-````
-
-
 ## -parameters
 
 
@@ -77,7 +67,7 @@ HRESULT GetCapabilities(
 
 #### - pUsdCaps
 
-Caller-supplied pointer to an empty <a href="..\stiusd\ns-stiusd-_sti_usd_caps.md">STI_USD_CAPS</a> structure.
+Caller-supplied pointer to an empty <a href="https://msdn.microsoft.com/library/windows/hardware/ff548404">STI_USD_CAPS</a> structure.
 
 
 ## -returns
@@ -93,14 +83,13 @@ If the operation succeeds, the method should return S_OK. Otherwise, it should r
 
 
 
-The <b>IStiUSD::GetCapabilities</b> method should set appropriate device capability flags in the caller-supplied <a href="..\stiusd\ns-stiusd-_sti_usd_caps.md">STI_USD_CAPS</a> structure. It should also set the version number to STI_VERSION.
+The <b>IStiUSD::GetCapabilities</b> method should set appropriate device capability flags in the caller-supplied <a href="https://msdn.microsoft.com/library/windows/hardware/ff548404">STI_USD_CAPS</a> structure. It should also set the version number to STI_VERSION.
 
 
 
 
 ## -see-also
 
-<a href="..\stiusd\nn-stiusd-istiusd.md">IStiUSD</a>
 
 
 
@@ -108,6 +97,7 @@ The <b>IStiUSD::GetCapabilities</b> method should set appropriate device capabil
 
 
 
+<a href="https://msdn.microsoft.com/62740263-5bbb-48e1-be3d-9ee9cb37d6b9">IStiUSD</a>
  
 
  

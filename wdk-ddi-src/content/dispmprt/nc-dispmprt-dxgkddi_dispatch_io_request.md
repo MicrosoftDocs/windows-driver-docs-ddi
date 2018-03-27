@@ -52,21 +52,6 @@ req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
 The <i>DxgkDdiDispatchIoRequest</i> function handles I/O control (IOCTL) requests.
 
 
-## -prototype
-
-
-````
-DXGKDDI_DISPATCH_IO_REQUEST DxgkDdiDispatchIoRequest;
-
-NTSTATUS DxgkDdiDispatchIoRequest(
-  _In_ const PVOID                 MiniportDeviceContext,
-  _In_       ULONG                 VidPnSourceId,
-  _In_       PVIDEO_REQUEST_PACKET VideoRequestPacket
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -74,7 +59,7 @@ NTSTATUS DxgkDdiDispatchIoRequest(
 
 ### -param MiniportDeviceContext [in]
 
-A handle to a context block associated with a display adapter. The display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a> function previously provided this handle to the DirectX graphics kernel subsystem.
+A handle to a context block associated with a display adapter. The display miniport driver's <a href="https://msdn.microsoft.com/5fd4046f-54c3-4dfc-8d51-0d9ebcde0bea">DxgkDdiAddDevice</a> function previously provided this handle to the DirectX graphics kernel subsystem.
 
 
 ### -param VidPnSourceId [in]
@@ -84,7 +69,7 @@ An integer that identifies the video present source associated with the I/O requ
 
 ### -param VideoRequestPacket [in]
 
-A pointer to a <a href="..\video\ns-video-_video_request_packet.md">VIDEO_REQUEST_PACKET</a> structure that describes the I/O request.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff570547">VIDEO_REQUEST_PACKET</a> structure that describes the I/O request.
 
 
 ## -returns
@@ -107,10 +92,10 @@ The <i>DxgkDdiDispatchIoRequest</i> function should be made pageable.
 
 ## -see-also
 
-<a href="..\video\ns-video-_video_request_packet.md">VIDEO_REQUEST_PACKET</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570547">VIDEO_REQUEST_PACKET</a>
  
 
  

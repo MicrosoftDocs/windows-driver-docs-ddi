@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: stiusd.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,21 +51,6 @@ req.product: Windows 10 or later.
 
 
 This topic describes the <b>RawDeviceControl</b> method.
-
-
-## -syntax
-
-
-````
-HRESULT RawDeviceControl(
-   USD_CONTROL_CODE EscapeFunction,
-   LPVOID           lpInData,
-   DWORD            cbInDataSize,
-   LPVOID           pOutData,
-   DWORD            dwOutDataSize,
-   LPDWORD          pdwActualData
-);
-````
 
 
 ## -parameters
@@ -114,10 +99,10 @@ Defines the <b>HRESULT</b> return value.
 
 ## -see-also
 
+
+
+
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/image/istidevicecontrol-com-interface">IStiDeviceControl</a>
-
-
-
  
 
  

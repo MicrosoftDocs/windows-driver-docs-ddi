@@ -53,18 +53,6 @@ The <b>SeTokenSetNoChildProcessRestricted</b> routine sets the <b>TOKEN_AUDIT_NO
     flags in the token.  
 
 
-## -syntax
-
-
-````
-void NTKERNELAPI SeTokenSetNoChildProcessRestricted(
-  _In_ PACCESS_TOKEN Token,
-  _In_ PBOOLEAN      UnlessSecure,
-  _In_ PBOOLEAN      AuditOnly
-);
-````
-
-
 ## -parameters
 
 
@@ -108,10 +96,10 @@ Note that both flags cannot be set at the same time
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-setokengetnochildprocessrestricted.md">SeTokenGetNoChildProcessRestricted</a>
 
 
 
+<a href="https://msdn.microsoft.com/6C42E6C4-91EB-44A3-84E1-CAFDBD5CD724">SeTokenGetNoChildProcessRestricted</a>
  
 
  

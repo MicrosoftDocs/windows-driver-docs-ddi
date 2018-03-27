@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: engextcpp.hpp
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -50,16 +50,6 @@ req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
 
 
 The <b>OnSessionAccessible</b> method is called by the engine to inform the EngExtCpp extension library when the debugging session becomes accessible.
-
-
-## -syntax
-
-
-````
-virtual void OnSessionAccessible(
-  [in] ULONG64 Argument
-);
-````
 
 
 ## -parameters
@@ -87,22 +77,13 @@ This method does not return a value.
 
 If this method is defined in the extension library class <a href="https://msdn.microsoft.com/library/windows/hardware/ff544508">EXT_CLASS</a>, it can be used to allow the extension library to cache information about the session without the need to register event callbacks.
 
-This method is called when a target is suspended and, if the session is already accessible, after the extension library is initialized (and <a href="..\engextcpp\nf-engextcpp-extextension-getrawargstr.md">OnSessionActive</a> has been called).
+This method is called when a target is suspended and, if the session is already accessible, after the extension library is initialized (and <a href="https://msdn.microsoft.com/library/windows/hardware/ff552312">OnSessionActive</a> has been called).
 
 
 
 
 ## -see-also
 
-<a href="..\engextcpp\nf-engextcpp-extextension-onsessionactive.md">OnSessionActive</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543981">ExtExtension</a>
-
-
-
-<a href="..\engextcpp\nf-engextcpp-extextension-onsessioninaccessible.md">OnSessionInaccessible</a>
 
 
 
@@ -110,6 +91,15 @@ This method is called when a target is suspended and, if the session is already 
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543981">ExtExtension</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552312">OnSessionActive</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552315">OnSessionInaccessible</a>
  
 
  

@@ -52,17 +52,6 @@ req.typenames: OBJECT_INFORMATION_CLASS
 The OBJECT_INFORMATION_CLASS enumeration type represents the type of information to supply about an object.
 
 
-## -syntax
-
-
-````
-typedef enum _OBJECT_INFORMATION_CLASS { 
-  ObjectBasicInformation  = 0,
-  ObjectTypeInformation   = 2
-} OBJECT_INFORMATION_CLASS;
-````
-
-
 ## -enum-fields
 
 
@@ -70,28 +59,28 @@ typedef enum _OBJECT_INFORMATION_CLASS {
 
 ### -field ObjectBasicInformation
 
-A <a href="..\ntifs\ns-ntifs-_public_object_basic_information.md">PUBLIC_OBJECT_BASIC_INFORMATION</a> structure is supplied.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff551944">PUBLIC_OBJECT_BASIC_INFORMATION</a> structure is supplied.
 
 
 ### -field ObjectTypeInformation
 
-A <a href="..\ntifs\ns-ntifs-__public_object_type_information.md">PUBLIC_OBJECT_TYPE_INFORMATION</a> structure is supplied.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff551947">PUBLIC_OBJECT_TYPE_INFORMATION</a> structure is supplied.
 
 
 ## -see-also
 
-<a href="..\ntifs\ns-ntifs-__public_object_type_information.md">PUBLIC_OBJECT_TYPE_INFORMATION</a>
 
 
 
-<a href="..\ntifs\ns-ntifs-_public_object_basic_information.md">PUBLIC_OBJECT_BASIC_INFORMATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551944">PUBLIC_OBJECT_BASIC_INFORMATION</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-zwqueryobject.md">ZwQueryObject</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551947">PUBLIC_OBJECT_TYPE_INFORMATION</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567062">ZwQueryObject</a>
  
 
  

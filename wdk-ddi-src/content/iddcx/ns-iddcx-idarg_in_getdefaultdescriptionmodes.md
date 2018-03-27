@@ -54,17 +54,6 @@ req.typenames:
          
 
 
-## -syntax
-
-
-````
-typedef struct IDARG_IN_GETDEFAULTDESCRIPTIONMODES {
-  UINT                                                                     DefaultMonitorModeBufferInputCount;
-  _Field_size_opt_(DefaultMonitorModeBufferInputCount) IDDCX_MONITOR_MODE* pDefaultMonitorModes;
-} IDARG_IN_GETDEFAULTDESCRIPTIONMODES, *IDARG_IN_GETDEFAULTDESCRIPTIONMODES;
-````
-
-
 ## -struct-fields
 
 

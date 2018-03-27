@@ -52,17 +52,6 @@ req.typenames: D3D11_1DDIARG_CREATEVIDEOPROCESSOR
 Specifies the attributes of a video processor object.
 
 
-## -syntax
-
-
-````
-typedef struct D3D11_1DDIARG_CREATEVIDEOPROCESSOR {
-  D3D11_1DDI_HVIDEOPROCESSORENUM hVideoProcessorEnum;
-  UINT                           RateConversionCapsIndex;
-} D3D11_1DDIARG_CREATEVIDEOPROCESSOR;
-````
-
-
 ## -struct-fields
 
 
@@ -70,24 +59,24 @@ typedef struct D3D11_1DDIARG_CREATEVIDEOPROCESSOR {
 
 ### -field hVideoProcessorEnum
 
-A handle to a video processor enumeration object that was created through a call to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessorenum.md">CreateVideoProcessorEnum</a> function. 
+A handle to a video processor enumeration object that was created through a call to the <a href="https://msdn.microsoft.com/38c27502-7e8a-45a1-8a7c-315300502480">CreateVideoProcessorEnum</a> function. 
 
 
 ### -field RateConversionCapsIndex
 
-Specifies the frame-rate conversion capabilities for the video processor. The value is a zero-based index that corresponds to the <i>RateConversionIndex</i> parameter of the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_getvideoprocessorrateconversioncaps.md">GetVideoProcessorRateConversionCaps</a> method. 
+Specifies the frame-rate conversion capabilities for the video processor. The value is a zero-based index that corresponds to the <i>RateConversionIndex</i> parameter of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451690">GetVideoProcessorRateConversionCaps</a> method. 
 
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_getvideoprocessorrateconversioncaps.md">GetVideoProcessorRateConversionCaps</a>
 
 
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessorenum.md">CreateVideoProcessorEnum</a>
+<a href="https://msdn.microsoft.com/38c27502-7e8a-45a1-8a7c-315300502480">CreateVideoProcessorEnum</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451690">GetVideoProcessorRateConversionCaps</a>
  
 
  

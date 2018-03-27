@@ -52,18 +52,6 @@ req.typenames: D3D12DDI_EXTENDED_FEATURES_FUNCS_0020
 This structure contains device functions for extended features in  video.
 
 
-## -syntax
-
-
-````
-typedef struct _D3D12DDI_EXTENDED_FEATURES_FUNCS_0020 {
-  PFND3D12DDI_GET_SUPPORTED_EXTENDED_FEATURES_0020         pfnGetSupportedExtendedFeatures;
-  PFND3D12DDI_GET_SUPPORTED_EXTENDED_FEATURE_VERSIONS_0020 pfnGetSupportedExtendedFeatureVersions;
-  PFND3D12DDI_ENABLE_EXTENDED_FEATURE                      pfnEnableExtendedFeature;
-} D3D12DDI_EXTENDED_FEATURES_FUNCS_0020;
-````
-
-
 ## -struct-fields
 
 

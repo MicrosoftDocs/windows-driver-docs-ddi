@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -50,17 +50,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>UnloadModule</b> callback method is called by the engine when a module-unload debugging event occurs in the target.
-
-
-## -syntax
-
-
-````
-HRESULT UnloadModule(
-  [in, optional] PCSTR   ImageBaseName,
-  [in]           ULONG64 BaseOffset
-);
-````
 
 
 ## -parameters

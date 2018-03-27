@@ -46,11 +46,6 @@ req.typenames: STORAGE_ZONE_CONDITION, *PSTORAGE_ZONE_CONDITION
 # IOCTL_STORAGE_PERSISTENT_RESERVE_OUT IOCTL
 
 
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
-
 ## -description
 
 
@@ -64,7 +59,7 @@ The generic storage class driver (<i>classpnp.sys</i>) exposes an I/O control (I
 
 ### -input-buffer
 
-The buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> contains a <a href="..\ntddstor\ns-ntddstor-_persistent_reserve_command.md">PERSISTENT_RESERVE_COMMAND</a> structure. You must allocate the buffer from nonpaged pool and must align it correctly for the  target device and adapter.
+The buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> contains a <a href="https://msdn.microsoft.com/library/windows/hardware/ff563851">PERSISTENT_RESERVE_COMMAND</a> structure. You must allocate the buffer from nonpaged pool and must align it correctly for the  target device and adapter.
 
 PR_OUT.ServiceAction can be one of the following:
 
@@ -130,12 +125,12 @@ RESERVATION_TYPE_EXCLUSIVE_REGISTRANTS
 
 </li>
 </ul>
-PR_OUT.ParameterList is used to hold the <a href="..\storport\ns-storport-pro_parameter_list.md">PRO_PARAMETER_LIST</a> structure. This structure is required and must be contiguous with the rest of the <a href="..\ntddstor\ns-ntddstor-_persistent_reserve_command.md">PERSISTENT_RESERVE_COMMAND</a> structure.
+PR_OUT.ParameterList is used to hold the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563940">PRO_PARAMETER_LIST</a> structure. This structure is required and must be contiguous with the rest of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563851">PERSISTENT_RESERVE_COMMAND</a> structure.
 
 
 ### -input-buffer-length
 
-The length of a <a href="..\ntddstor\ns-ntddstor-_persistent_reserve_command.md">PERSISTENT_RESERVE_COMMAND</a> structure.
+The length of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff563851">PERSISTENT_RESERVE_COMMAND</a> structure.
 
 
 ### -output-buffer
@@ -182,7 +177,7 @@ The command failed because of a Reservation Conflict (for more information, see 
 
 #### -STATUS_INFO_LENGTH_MISMATCH
 
-The input buffer length for the IOCTL is less than sizeof(PERSISTENT_RESERVE_COMMAND) or the size that is specified in the <a href="..\ntddstor\ns-ntddstor-_persistent_reserve_command.md">PERSISTENT_RESERVE_COMMAND</a> data structure is less than sizeof(PERSISTENT_RESERVE_COMMAND).
+The input buffer length for the IOCTL is less than sizeof(PERSISTENT_RESERVE_COMMAND) or the size that is specified in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563851">PERSISTENT_RESERVE_COMMAND</a> data structure is less than sizeof(PERSISTENT_RESERVE_COMMAND).
 
 
 #### -STATUS_INVALID_DEVICE_REQUEST (ERROR_INVALID_FUNCTION)

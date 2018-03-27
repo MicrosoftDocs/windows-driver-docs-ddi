@@ -49,24 +49,10 @@ req.typenames: D3DKMT_EVICT
 ## -description
 
 
-<b>D3DKMT_EVICT</b> is used with <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtevict.md">D3DKMTEvict</a> to subtract one from the residency reference count.
+<b>D3DKMT_EVICT</b> is used with <a href="https://msdn.microsoft.com/library/windows/hardware/dn906774">D3DKMTEvict</a> to subtract one from the residency reference count.
 
 Once this count reaches zero, it will remove the allocation from the device residency list.
   
-
-
-## -syntax
-
-
-````
-typedef struct _D3DKMT_EVICT {
-  D3DKMT_HANDLE       hDevice;
-  UINT                NumAllocations;
-  const D3DKMT_HANDLE *AllocationList;
-  D3DDDI_EVICT_FLAGS  Flags;
-  UINT64              NumBytesToTrim;
-} D3DKMT_EVICT;
-````
 
 
 ## -struct-fields
@@ -91,7 +77,7 @@ typedef struct _D3DKMT_EVICT {
 
 ### -field Flags
 
-[in] Specifies eviction behavior as documented in <a href="..\d3dukmdt\ns-d3dukmdt-d3dddi_evict_flags.md">D3DDDI_EVICT_FLAGS</a>. 
+[in] Specifies eviction behavior as documented in <a href="https://msdn.microsoft.com/library/windows/hardware/dn906322">D3DDDI_EVICT_FLAGS</a>. 
 
 
 ### -field NumBytesToTrim
@@ -101,14 +87,14 @@ typedef struct _D3DKMT_EVICT {
 
 ## -see-also
 
-<a href="..\d3dukmdt\ns-d3dukmdt-d3dddi_evict_flags.md">D3DDDI_EVICT_FLAGS</a>
 
 
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtevict.md">D3DKMTEvict</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn906322">D3DDDI_EVICT_FLAGS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn906774">D3DKMTEvict</a>
  
 
  

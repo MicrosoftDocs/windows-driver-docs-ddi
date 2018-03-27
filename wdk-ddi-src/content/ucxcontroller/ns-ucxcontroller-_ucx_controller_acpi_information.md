@@ -53,18 +53,6 @@ req.product: Windows 10 or later.
 This structure provides information about an advanced Configuration and power interface (ACPI) USB controller.
 
 
-## -syntax
-
-
-````
-typedef struct _UCX_CONTROLLER_ACPI_INFORMATION {
-  CHAR VendorId[MAX_VENDOR_ID_STRING_LENGTH];
-  CHAR DeviceId[MAX_DEVICE_ID_STRING_LENGTH];
-  CHAR RevisionId[MAX_REVISION_ID_STRING_LENGTH];
-} UCX_CONTROLLER_ACPI_INFORMATION, *P_UCX_CONTROLLER_ACPI_INFORMATION;
-````
-
-
 ## -struct-fields
 
 
@@ -87,14 +75,14 @@ The revision ID of the ACPI USB controller.
 
 ## -see-also
 
-<a href="..\ucxcontroller\nf-ucxcontroller-ucx_controller_config_set_acpi_info.md">UCX_CONTROLLER_CONFIG_SET_ACPI_INFO</a>
 
 
 
-<a href="..\ucxcontroller\ns-ucxcontroller-_ucx_controller_config.md">UCX_CONTROLLER_CONFIG</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt188057">UCX_CONTROLLER_CONFIG</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt188058">UCX_CONTROLLER_CONFIG_SET_ACPI_INFO</a>
  
 
  

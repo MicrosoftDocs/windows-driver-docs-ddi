@@ -54,17 +54,6 @@ req.product: Windows 10 or later.
 Sets the address of the endpoint in the initialization parameters of the simple endpoint to create.
 
 
-## -syntax
-
-
-````
-FORCEINLINE void UdecxUsbEndpointInitSetEndpointAddress(
-  _Inout_ PUDECXUSBENDPOINT_INIT Init,
-  _In_    UCHAR                  EndpointAddress
-);
-````
-
-
 ## -parameters
 
 
@@ -72,7 +61,7 @@ FORCEINLINE void UdecxUsbEndpointInitSetEndpointAddress(
 
 ### -param Init [in, out]
 
-A pointer to an <b>UDECXUSBENDPOINT_INIT</b> structure that the client driver retrieved in the previous call to <a href="..\udecxusbendpoint\nf-udecxusbendpoint-udecxusbsimpleendpointinitallocate.md">UdecxUsbSimpleEndpointInitAllocate</a>.
+A pointer to an <b>UDECXUSBENDPOINT_INIT</b> structure that the client driver retrieved in the previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/mt627989">UdecxUsbSimpleEndpointInitAllocate</a>.
 
 
 ### -param EndpointAddress [in]
@@ -91,11 +80,6 @@ This function does not return a value.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
-
-
-
-<a href="..\udecxusbendpoint\nf-udecxusbendpoint-udecxusbendpointcreate.md">UdecxUsbEndpointCreate</a>
 
 
 
@@ -103,6 +87,11 @@ This function does not return a value.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt627983">UdecxUsbEndpointCreate</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
  
 
  

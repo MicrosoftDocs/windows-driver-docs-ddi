@@ -53,18 +53,6 @@ req.product: Windows 10 or later.
 The <b>VideoPortAcquireSpinLock</b> function obtains the specified spin lock.
 
 
-## -syntax
-
-
-````
-VOID VideoPortAcquireSpinLock(
-  _Inout_ PVOID      HwDeviceExtension,
-  _In_    PSPIN_LOCK SpinLock,
-  _Out_   PUCHAR     OldIrql
-);
-````
-
-
 ## -parameters
 
 
@@ -105,7 +93,7 @@ None
 
 The current IRQL is saved in <i>OldIrql</i>. Then, the current IRQL is reset to DISPATCH_LEVEL, and the specified spin lock is acquired.
 
-The <i>OldIrql</i> value must be specified when the spin lock is released with <a href="..\video\nf-video-videoportreleasespinlock.md">VideoPortReleaseSpinLock</a>.
+The <i>OldIrql</i> value must be specified when the spin lock is released with <a href="https://msdn.microsoft.com/library/windows/hardware/ff570357">VideoPortReleaseSpinLock</a>.
 
 Spin locks can cause serious problems if not used judiciously. In particular, no deadlock protection is performed and dispatching is disabled while the spin lock is held. Therefore: 
 
@@ -128,14 +116,14 @@ The caller should release the spin lock with <b>VideoPortReleaseSpinLock</b> as 
 
 ## -see-also
 
-<a href="..\video\nf-video-videoportreleasespinlock.md">VideoPortReleaseSpinLock</a>
 
 
 
-<a href="..\video\nf-video-videoportacquirespinlockatdpclevel.md">VideoPortAcquireSpinLockAtDpcLevel</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570176">VideoPortAcquireSpinLockAtDpcLevel</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570357">VideoPortReleaseSpinLock</a>
  
 
  

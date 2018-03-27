@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: Microsoft.WDTF
 req.assembly: WDTFSystemAction.Interop.dll
 req.type-library: 
-req.lib: wdtfsystemaction.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -57,29 +57,15 @@ Gets or sets the time in seconds when the system will wake from the sleep state.
 This property is read/write.
 
 
-## -syntax
-
-
-````
-HRESULT put_SleepWakeTimeInSeconds(
-  [in]          LONG nWakeTimeInSeconds
-);
-
-HRESULT get_SleepWakeTimeInSeconds(
-  [out, retval] LONG *pnWakeTimeInSeconds
-);
-````
-
-
 ## -parameters
 
 
 ## -see-also
 
-<a href="..\wdtfsystemaction\nn-wdtfsystemaction-iwdtfsystemaction2.md">IWDTFSystemAction2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439302">IWDTFSystemAction2</a>
  
 
  

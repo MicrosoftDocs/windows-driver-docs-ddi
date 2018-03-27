@@ -54,18 +54,6 @@ req.product: Windows 10 or later.
 The <b>StorPortMoveMemory</b> routine copies memory from one buffer to another.
 
 
-## -syntax
-
-
-````
-STORPORT_API VOID StorPortMoveMemory(
-  _In_ PVOID WriteBuffer,
-  _In_ PVOID ReadBuffer,
-  _In_ ULONG Length
-);
-````
-
-
 ## -parameters
 
 
@@ -97,10 +85,10 @@ None
 
 ## -see-also
 
-<a href="..\srb\nf-srb-scsiportmovememory.md">ScsiPortMoveMemory</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564654">ScsiPortMoveMemory</a>
  
 
  

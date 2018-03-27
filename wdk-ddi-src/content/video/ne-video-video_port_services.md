@@ -50,22 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The VIDEO_PORT_SERVICES enumerated type lists the interfaces that the video miniport driver can request from the video port driver by calling <a href="..\video\nf-video-videoportqueryservices.md">VideoPortQueryServices</a>.
-
-
-## -syntax
-
-
-````
-typedef enum  { 
-  VideoPortServicesAGP                 = 1,
-  VideoPortServicesI2C,
-  VideoPortServicesHeadless,
-  VideoPortServicesInt10,
-  VideoPortServicesDebugReport,
-  VideoPortServicesWCMemoryProtection
-} VIDEO_PORT_SERVICES;
-````
+The VIDEO_PORT_SERVICES enumerated type lists the interfaces that the video miniport driver can request from the video port driver by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff570337">VideoPortQueryServices</a>.
 
 
 ## -enum-fields
@@ -122,15 +107,6 @@ The video miniport driver obtains a set of function pointers by passing a value 
 
 ## -see-also
 
-<a href="..\video\nf-video-videoportqueryservices.md">VideoPortQueryServices</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567732">Int10 Functions Implemented by the Video Port Driver</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551792">Debug Report Functions Implemented by the Video Port Driver</a>
 
 
 
@@ -138,10 +114,19 @@ The video miniport driver obtains a set of function pointers by passing a value 
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551792">Debug Report Functions Implemented by the Video Port Driver</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567384">I2C Functions Implemented by the Video Port Driver</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567732">Int10 Functions Implemented by the Video Port Driver</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570337">VideoPortQueryServices</a>
  
 
  

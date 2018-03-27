@@ -52,28 +52,6 @@ req.typenames: DXGKARG_VALIDATEUPDATEALLOCPROPERTY
 The DXGARG_VALIDATEUPDATEALLOCPROPERTY structure holds the information needed to validate the parameters to update the properties of an allocation.
 
 
-## -syntax
-
-
-````
-typedef struct _DXGKARG_VALIDATEUPDATEALLOCPROPERTY {
-  HANDLE                               hAllocation;
-  UINT                                 SupportedSegmentSet;
-  D3DDI_SEGMENTPREFERENCE              PreferredSegment;
-  D3DDDI_UPDATEALLOCPROPERTY_FLAGS     Flags;
-  union {
-    struct {
-      UINT SetAccessedPhysically   :1;
-      UINT SetSupportedSegmentSet   :1;
-      UINT SetPreferredSegment   :1;
-      UINT Reserved  :29;
-    };
-    UINT   PropertyMaskValue;
-  };
-} DXGKARG_VALIDATEUPDATEALLOCPROPERTY;
-````
-
-
 ## -struct-fields
 
 

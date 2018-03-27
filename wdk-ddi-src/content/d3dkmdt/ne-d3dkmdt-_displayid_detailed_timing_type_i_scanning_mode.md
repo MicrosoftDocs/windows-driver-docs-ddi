@@ -52,18 +52,6 @@ req.typenames:
 The DISPLAYID_DETAILED_TIMING_TYPE_I_SCANNING_MODE enumeration indicates the display device's frame scanning mode.
 
 
-## -syntax
-
-
-````
-enum _DISPLAYID_DETAILED_TIMING_TYPE_I_SCANNING_MODE {
-  DIDDT1_Progressive  = 0, 
-  DIDDT1_Interlaced   = 1 
-
-};
-````
-
-
 ## -enum-fields
 
 

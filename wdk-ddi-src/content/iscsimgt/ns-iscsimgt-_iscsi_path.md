@@ -52,21 +52,6 @@ req.typenames: ISCSI_Path, *PISCSI_Path
 The ISCSI_Path structure contains information about a connection of the iSCSI portal.
 
 
-## -syntax
-
-
-````
-typedef struct _ISCSI_Path {
-  ULONGLONG UniqueConnectionId;
-  ULONGLONG EstimatedLinkSpeed;
-  ULONG     PathWeight;
-  ULONG     PrimaryPath;
-  ULONG     ConnectionStatus;
-  ULONG     TCPOffLoadAvailable;
-} ISCSI_Path, *PISCSI_Path;
-````
-
-
 ## -struct-fields
 
 
@@ -151,14 +136,14 @@ The iSCSI headers and MOF are included in the platform SDK and WDK.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
-
-
-
  
 
  

@@ -50,19 +50,8 @@ req.typenames: NET_BUFFER_LIST_DATA, *PNET_BUFFER_LIST_DATA
 
 
 The NET_BUFFER_LIST_DATA structure contains management data for the 
-  <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a> structures that are linked to a 
-  <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure.
-
-
-## -syntax
-
-
-````
-typedef struct _NET_BUFFER_LIST_DATA {
-  PNET_BUFFER_LIST Next;
-  PNET_BUFFER      FirstNetBuffer;
-} NET_BUFFER_LIST_DATA, *PNET_BUFFER_LIST_DATA;
-````
+  <a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a> structures that are linked to a 
+  <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structure.
 
 
 ## -struct-fields
@@ -79,7 +68,7 @@ A pointer to the next NET_BUFFER_LIST structure in a linked list of NET_BUFFER_L
 ### -field FirstNetBuffer
 
 A pointer to the first 
-     <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a> structure in the linked list of
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a> structure in the linked list of
      NET_BUFFER structures.
 
 
@@ -88,7 +77,7 @@ A pointer to the first
 
 
 The 
-    <a href="..\ndis\ns-ndis-_net_buffer_list_header.md">NET_BUFFER_LIST_HEADER</a> structure
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff568400">NET_BUFFER_LIST_HEADER</a> structure
     contains a NET_BUFFER_LIST_DATA structure.
 
 
@@ -96,18 +85,18 @@ The
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
 
 
-<a href="..\ndis\ns-ndis-_net_buffer_list_header.md">NET_BUFFER_LIST_HEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a>
 
 
 
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568400">NET_BUFFER_LIST_HEADER</a>
  
 
  

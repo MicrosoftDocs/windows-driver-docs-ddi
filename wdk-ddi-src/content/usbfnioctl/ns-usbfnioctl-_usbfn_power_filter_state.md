@@ -53,20 +53,6 @@ req.product: Windows 10 or later.
 Reserved. Do not use.
 
 
-## -syntax
-
-
-````
-typedef struct _USBFN_POWER_FILTER_STATE {
-  USBFN_DEVICE_STATE DeviceState;
-  union {
-    ULONG PState;
-    ULONG Reserved;
-  };
-} USBFN_POWER_FILTER_STATE, *PUSBFN_POWER_FILTER_STATE;
-````
-
-
 ## -struct-fields
 
 
@@ -89,14 +75,14 @@ Do not use.
 
 ## -see-also
 
-<a href="..\usbfnioctl\ni-usbfnioctl-ioctl_internal_usbfn_set_power_filter_exit_lpm.md">IOCTL_INTERNAL_USBFN_SET_POWER_FILTER_EXIT_LPM</a>
 
 
 
-<a href="..\usbfnioctl\ni-usbfnioctl-ioctl_internal_usbfn_set_power_filter_state.md">IOCTL_INTERNAL_USBFN_SET_POWER_FILTER_STATE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt187902">IOCTL_INTERNAL_USBFN_SET_POWER_FILTER_EXIT_LPM</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt187903">IOCTL_INTERNAL_USBFN_SET_POWER_FILTER_STATE</a>
  
 
  

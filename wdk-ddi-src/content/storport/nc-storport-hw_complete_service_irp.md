@@ -53,19 +53,6 @@ req.product: Windows 10 or later.
 The <b>HwStorCompleteServiceIrp</b> routine is called when the virtual adapter is being removed. When this happens, the Storport virtual miniport can complete any reverse-callback IRPs received in <b>HwStorCompleteServiceIrp</b>.
 
 
-## -prototype
-
-
-````
-HW_COMPLETE_SERVICE_IRP HwStorCompleteServiceIrp;
-
-VOID HwStorCompleteServiceIrp(
-   IN PVOID DeviceExtension
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -151,14 +138,14 @@ The <b>HW_COMPLETE_SERVICE_IRP</b> function type is defined in the Storport.h he
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557410">HwStorProcessServiceRequest</a>
 
 
 
-<a href="..\storport\nf-storport-storportcompleteserviceirp.md">StorPortCompleteServiceIrp</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567043">StorPortCompleteServiceIrp</a>
  
 
  

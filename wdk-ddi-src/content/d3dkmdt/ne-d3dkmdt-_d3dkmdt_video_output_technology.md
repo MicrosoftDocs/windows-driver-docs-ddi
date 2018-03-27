@@ -52,40 +52,6 @@ req.typenames: D3DKMDT_VIDEO_OUTPUT_TECHNOLOGY
 The D3DKMDT_VIDEO_OUTPUT_TECHNOLOGY enumerated type indicates the type of connector a video output device (on the display adapter) uses to connect to an external display device.
 
 
-## -syntax
-
-
-````
-typedef enum _D3DKMDT_VIDEO_OUTPUT_TECHNOLOGY { 
-  D3DKMDT_VOT_UNINITIALIZED         = -2,
-  D3DKMDT_VOT_OTHER                 = -1,
-  D3DKMDT_VOT_HD15                  = 0,
-  D3DKMDT_VOT_SVIDEO                = 1,
-  D3DKMDT_VOT_COMPOSITE_VIDEO       = 2,
-  D3DKMDT_VOT_COMPONENT_VIDEO       = 3,
-  D3DKMDT_VOT_DVI                   = 4,
-  D3DKMDT_VOT_HDMI                  = 5,
-  D3DKMDT_VOT_LVDS                  = 6,
-  D3DKMDT_VOT_D_JPN                 = 8,
-  D3DKMDT_VOT_SDI                   = 9,
-  D3DKMDT_VOT_DISPLAYPORT_EXTERNAL  = 10,
-  D3DKMDT_VOT_DISPLAYPORT_EMBEDDED  = 11,
-  D3DKMDT_VOT_UDI_EXTERNAL          = 12,
-  D3DKMDT_VOT_UDI_EMBEDDED          = 13,
-  D3DKMDT_VOT_SDTVDONGLE            = 14,
-#if (DXGKDDI_INTERFACE_VERSION >= DXGKDDI_INTERFACE_VERSION_WDDM1_3_M1)
-  D3DKMDT_VOT_MIRACAST              = 15,
-#endif 
-  D3DKMDT_VOT_INTERNAL              = 0x80000000,
-  D3DKMDT_VOT_SVIDEO_4PIN           = D3DKMDT_VOT_SVIDEO,
-  D3DKMDT_VOT_SVIDEO_7PIN           = D3DKMDT_VOT_SVIDEO,
-  D3DKMDT_VOT_RF                    = D3DKMDT_VOT_COMPOSITE_VIDEO,
-  D3DKMDT_VOT_RCA_3COMPONENT        = D3DKMDT_VOT_COMPONENT_VIDEO,
-  D3DKMDT_VOT_BNC                   = D3DKMDT_VOT_COMPONENT_VIDEO
-} D3DKMDT_VIDEO_OUTPUT_TECHNOLOGY;
-````
-
-
 ## -enum-fields
 
 
@@ -217,21 +183,21 @@ Indicates that the video output device connects to an external display device th
 
 
 
-The <b>ChildCapabilities</b> member of a <a href="..\dispmprt\ns-dispmprt-_dxgk_child_descriptor.md">DXGK_CHILD_DESCRIPTOR</a> structure is a <a href="..\dispmprt\ns-dispmprt-_dxgk_child_capabilities.md">DXGK_CHILD_CAPABILITIES</a> structure. The <b>Type.VideoOutput</b> member of a DXGK_CHILD_CAPABILITIES structure is a <a href="..\dispmprt\ns-dispmprt-_dxgk_video_output_capabilities.md">DXGK_VIDEO_OUTPUT_CAPABILITIES</a> structure. The <b>InterfaceTechnology</b> member of a DXGK_VIDEO_OUTPUT_CAPABILITIES structure is a D3DKMDT_VIDEO_OUTPUT_TECHNOLOGY value.
+The <b>ChildCapabilities</b> member of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff561001">DXGK_CHILD_DESCRIPTOR</a> structure is a <a href="https://msdn.microsoft.com/library/windows/hardware/ff560995">DXGK_CHILD_CAPABILITIES</a> structure. The <b>Type.VideoOutput</b> member of a DXGK_CHILD_CAPABILITIES structure is a <a href="https://msdn.microsoft.com/library/windows/hardware/ff562070">DXGK_VIDEO_OUTPUT_CAPABILITIES</a> structure. The <b>InterfaceTechnology</b> member of a DXGK_VIDEO_OUTPUT_CAPABILITIES structure is a D3DKMDT_VIDEO_OUTPUT_TECHNOLOGY value.
 
 
 
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_query_child_relations.md">DxgkDdiQueryChildRelations</a>
 
 
 
-<a href="..\dispmprt\ns-dispmprt-_dxgk_video_output_capabilities.md">DXGK_VIDEO_OUTPUT_CAPABILITIES</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562070">DXGK_VIDEO_OUTPUT_CAPABILITIES</a>
 
 
 
+<a href="https://msdn.microsoft.com/eb1a0df0-6239-4d82-8477-7dd015f80b6e">DxgkDdiQueryChildRelations</a>
  
 
  

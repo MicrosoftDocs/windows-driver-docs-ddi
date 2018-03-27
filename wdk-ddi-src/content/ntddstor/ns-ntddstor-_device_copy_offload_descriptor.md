@@ -50,27 +50,7 @@ req.typenames: DEVICE_COPY_OFFLOAD_DESCRIPTOR, *PDEVICE_COPY_OFFLOAD_DESCRIPTOR
 
 
 Used in conjunction with the 
-   <a href="..\ntddstor\ni-ntddstor-ioctl_storage_query_property.md">IOCTL_STORAGE_QUERY_PROPERTY</a> request to describe the copy offload capabilities of a storage device.
-
-
-## -syntax
-
-
-````
-typedef struct _DEVICE_COPY_OFFLOAD_DESCRIPTOR {
-  ULONG      Version;
-  ULONG      Size;
-  ULONG      MaximumTokenLifetime;
-  ULONG      DefaultTokenLifetime;
-  ULONGULONG MaximumTransferSize;
-  ULONGULONG OptimalTransferCount;
-  ULONG      MaximumDataDescriptors;
-  ULONG      MaximumTransferLengthPerDescriptor;
-  ULONG      OptimalTransferLengthPerDescriptor;
-  USHORT     OptimalTransferLengthGranularity;
-  UCHAR      Reserved[2];
-} DEVICE_COPY_OFFLOAD_DESCRIPTOR, *PDEVICE_COPY_OFFLOAD_DESCRIPTOR;
-````
+   <a href="https://msdn.microsoft.com/library/windows/hardware/ff560590">IOCTL_STORAGE_QUERY_PROPERTY</a> request to describe the copy offload capabilities of a storage device.
 
 
 ## -struct-fields
@@ -138,10 +118,10 @@ Reserved for future use.
 
 ## -see-also
 
-<a href="..\ntddstor\ni-ntddstor-ioctl_storage_query_property.md">IOCTL_STORAGE_QUERY_PROPERTY</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560590">IOCTL_STORAGE_QUERY_PROPERTY</a>
  
 
  

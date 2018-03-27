@@ -52,23 +52,12 @@ req.typenames: D3D11_1DDI_GETCAPTUREHANDLEDATA
 The PFND3D12DDI_CREATEDEVICE_0003 function creates a graphics context that is referenced in subsequent calls.
 
 
-## -prototype
-
-
-````
-HRESULT APIENTRY PFND3D12DDI_CREATEDEVICE_0003(
-             D3D12DDI_HADAPTER             hAdapter,
-  _In_ const D3D12DDIARG_CREATEDEVICE_0003 *pCreateData
-);
-````
-
-
 ## -parameters
 
 
 
 
-### -param D3D12DDI_HADAPTER
+### -param Arg1
 
 
 ### -param *
@@ -87,7 +76,7 @@ A handle to the graphics adapter object that was created with the <a href="https
 
 #### - pCreateData [in]
 
-A pointer to a <a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddiarg_createdevice_0003.md">D3D12DDIARG_CREATEDEVICE</a> structure.
+A pointer to a <a href="https://msdn.microsoft.com/F139A61B-E074-4185-A934-17F6FDBA3F62">D3D12DDIARG_CREATEDEVICE</a> structure.
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: kernel\pep_acpi_spb_resource.htm
 old-project: kernel
 ms.assetid: D4C0009D-A9D0-4870-86C5-60DC9B5892BC
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/1/2018
 ms.keywords: "*PPEP_ACPI_SPB_RESOURCE, 0 - Slave mode, 1 - Consumer/producer mode, 2 to 7 - Reserved, PEP_ACPI_SPB_RESOURCE, PEP_ACPI_SPB_RESOURCE structure [Kernel-Mode Driver Architecture], PPEP_ACPI_SPB_RESOURCE, PPEP_ACPI_SPB_RESOURCE structure pointer [Kernel-Mode Driver Architecture], _PEP_ACPI_SPB_RESOURCE, kernel.pep_acpi_spb_resource, pepfx/PEP_ACPI_SPB_RESOURCE, pepfx/PPEP_ACPI_SPB_RESOURCE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,22 +52,6 @@ req.typenames: PEP_ACPI_SPB_RESOURCE, *PPEP_ACPI_SPB_RESOURCE
 The <b>PEP_ACPI_SPB_RESOURCE</b> structure describes an ACPI serial bus connection resource.
 
 
-## -syntax
-
-
-````
-typedef struct _PEP_ACPI_SPB_RESOURCE {
-  PEP_ACPI_RESOURCE_TYPE  Type;
-  PEP_ACPI_RESOURCE_FLAGS Flags;
-  USHORT                  TypeSpecificFlags;
-  UCHAR                   ResourceSourceIndex;
-  PUNICODE_STRING         ResourceSourceName;
-  PCHAR                   VendorData;
-  USHORT                  VendorDataLength;
-} PEP_ACPI_SPB_RESOURCE, *PPEP_ACPI_SPB_RESOURCE;
-````
-
-
 ## -struct-fields
 
 
@@ -75,12 +59,12 @@ typedef struct _PEP_ACPI_SPB_RESOURCE {
 
 ### -field Type
 
-A <a href="..\pepfx\ne-pepfx-_pep_acpi_resource_type.md">PEP_ACPI_RESOURCE_TYPE</a> enumeration value describing this resource.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/mt186693">PEP_ACPI_RESOURCE_TYPE</a> enumeration value describing this resource.
 
 
 ### -field Flags
 
-A <a href="..\pepfx\ns-pepfx-_pep_acpi_resource_flags.md">PEP_ACPI_RESOURCE_FLAGS</a> structure that describes the capabilities of this ACPI resource.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/mt186692">PEP_ACPI_RESOURCE_FLAGS</a> structure that describes the capabilities of this ACPI resource.
 
 
 ### -field TypeSpecificFlags

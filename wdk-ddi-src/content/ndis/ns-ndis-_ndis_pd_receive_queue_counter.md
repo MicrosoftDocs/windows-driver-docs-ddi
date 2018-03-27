@@ -52,18 +52,6 @@ req.typenames: NDIS_PD_RECEIVE_QUEUE_COUNTER
 This structure is used to hold counter information for a receive queue.
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_PD_RECEIVE_QUEUE_COUNTER {
-  ULONG64 PacketsReceived;
-  ULONG64 BytesReceived;
-  ULONG64 PacketsDropped;
-} NDIS_PD_RECEIVE_QUEUE_COUNTER, *PNDIS_PD_RECEIVE_QUEUE_COUNTER;
-````
-
-
 ## -struct-fields
 
 

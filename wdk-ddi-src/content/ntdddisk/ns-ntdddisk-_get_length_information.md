@@ -49,17 +49,7 @@ req.typenames: GET_LENGTH_INFORMATION, *PGET_LENGTH_INFORMATION
 ## -description
 
 
-The GET_LENGTH_INFORMATION structure is used with the <a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_get_length_info.md">IOCTL_DISK_GET_LENGTH_INFO</a> to obtain the length, in bytes, of a disk, partition, or volume. 
-
-
-## -syntax
-
-
-````
-typedef struct _GET_LENGTH_INFORMATION {
-  LARGE_INTEGER Length;
-} GET_LENGTH_INFORMATION, *PGET_LENGTH_INFORMATION;
-````
+The GET_LENGTH_INFORMATION structure is used with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560370">IOCTL_DISK_GET_LENGTH_INFO</a> to obtain the length, in bytes, of a disk, partition, or volume. 
 
 
 ## -struct-fields
@@ -74,10 +64,10 @@ Contains the length, in bytes, of a disk, partition, or volume.
 
 ## -see-also
 
-<a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_get_length_info.md">IOCTL_DISK_GET_LENGTH_INFO</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560370">IOCTL_DISK_GET_LENGTH_INFO</a>
  
 
  

@@ -49,25 +49,7 @@ req.typenames: D3DKMT_WAITFORSYNCHRONIZATIONOBJECT2
 ## -description
 
 
-The D3DKMT_WAITFORSYNCHRONIZATIONOBJECT2 structure contains information about the synchronization events that the <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtwaitforsynchronizationobject2.md">D3DKMTWaitForSynchronizationObject2</a> function waits for to occur. 
-
-
-## -syntax
-
-
-````
-typedef struct _D3DKMT_WAITFORSYNCHRONIZATIONOBJECT2 {
-  D3DKMT_HANDLE hContext;
-  UINT          ObjectCount;
-  D3DKMT_HANDLE ObjectHandleArray[D3DDDI_MAX_OBJECT_WAITED_ON];
-  union {
-    struct {
-      UINT64 FenceValue;
-    } Fence;
-    UINT64 Reserved[8];
-  };
-} D3DKMT_WAITFORSYNCHRONIZATIONOBJECT2;
-````
+The D3DKMT_WAITFORSYNCHRONIZATIONOBJECT2 structure contains information about the synchronization events that the <a href="https://msdn.microsoft.com/library/windows/hardware/ff547262">D3DKMTWaitForSynchronizationObject2</a> function waits for to occur. 
 
 
 ## -struct-fields
@@ -107,10 +89,10 @@ An array of 64-bit values that are reserved for future use. The union in D3DKMT_
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtwaitforsynchronizationobject2.md">D3DKMTWaitForSynchronizationObject2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547262">D3DKMTWaitForSynchronizationObject2</a>
  
 
  

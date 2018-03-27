@@ -52,24 +52,6 @@ req.typenames: DXVA_DeinterlaceTech
 The DXVA_DeinterlaceTech enumeration identifies the underlying technology used to implement a particular deinterlace algorithm.
 
 
-## -syntax
-
-
-````
-typedef enum _DXVA_DeinterlaceTech { 
-  DXVA_DeinterlaceTech_Unknown                 = 0x0000,
-  DXVA_DeinterlaceTech_BOBLineReplicate        = 0x0001,
-  DXVA_DeinterlaceTech_BOBVerticalStretch      = 0x0002,
-  DXVA_DeinterlaceTech_BOBVerticalStretch4Tap  = 0x0100,
-  DXVA_DeinterlaceTech_MedianFiltering         = 0x0004,
-  DXVA_DeinterlaceTech_EdgeFiltering           = 0x0010,
-  DXVA_DeinterlaceTech_FieldAdaptive           = 0x0020,
-  DXVA_DeinterlaceTech_PixelAdaptive           = 0x0040,
-  DXVA_DeinterlaceTech_MotionVectorSteered     = 0x0080
-} DXVA_DeinterlaceTech;
-````
-
-
 ## -enum-fields
 
 
@@ -122,10 +104,10 @@ Identifies objects within a sequence of video fields. The missing pixels are rec
 
 ## -see-also
 
-<a href="..\dxva\ns-dxva-_dxva_deinterlacecaps.md">DXVA_DeinterlaceCaps</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563939">DXVA_DeinterlaceCaps</a>
  
 
  

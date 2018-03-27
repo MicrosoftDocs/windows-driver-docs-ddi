@@ -40,7 +40,7 @@ api_name:
 -	CLIENT_ReadGpioPinsUsingMask
 product: Windows
 targetos: Windows
-req.typenames: GNSS_V2UPL_NI_INFO, *PGNSS_V2UPL_NI_INFO
+req.typenames: FWPS_CONNECT_REQUEST0
 ---
 
 # GPIO_CLIENT_READ_PINS_MASK callback
@@ -50,20 +50,6 @@ req.typenames: GNSS_V2UPL_NI_INFO, *PGNSS_V2UPL_NI_INFO
 
 
 The <i>CLIENT_ReadGpioPinsUsingMask</i> event callback function reads a bank of general-purpose I/O (GPIO) pins.
-
-
-## -prototype
-
-
-````
-GPIO_CLIENT_READ_PINS_MASK CLIENT_ReadGpioPinsUsingMask;
-
-NTSTATUS CLIENT_ReadGpioPinsUsingMask(
-  _In_    PVOID                           Context,
-  _Inout_ PGPIO_READ_PINS_MASK_PARAMETERS ReadParameters
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -145,7 +131,6 @@ The GPIO_CLIENT_READ_PINS_MASK function type is defined in the Gpioclx.h header 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439490">GPIO_CLX_RegisterClient</a>
 
 
 
@@ -153,7 +138,7 @@ The GPIO_CLIENT_READ_PINS_MASK function type is defined in the Gpioclx.h header 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh698254">GPIO_READ_PINS_MASK_PARAMETERS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439399">CLIENT_QueryControllerBasicInformation</a>
 
 
 
@@ -161,10 +146,11 @@ The GPIO_CLIENT_READ_PINS_MASK function type is defined in the Gpioclx.h header 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439399">CLIENT_QueryControllerBasicInformation</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439490">GPIO_CLX_RegisterClient</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh698254">GPIO_READ_PINS_MASK_PARAMETERS</a>
  
 
  

@@ -52,16 +52,6 @@ req.typenames: D3DDDIARG_SETDEPTHSTENCIL
 The D3DDDIARG_SETDEPTHSTENCIL structure specifies a depth buffer. 
 
 
-## -syntax
-
-
-````
-typedef struct _D3DDDIARG_SETDEPTHSTENCIL {
-  HANDLE hZBuffer;
-} D3DDDIARG_SETDEPTHSTENCIL;
-````
-
-
 ## -struct-fields
 
 
@@ -74,10 +64,10 @@ typedef struct _D3DDDIARG_SETDEPTHSTENCIL {
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setdepthstencil.md">SetDepthStencil</a>
 
 
 
+<a href="https://msdn.microsoft.com/7c4b01c8-2376-4956-9b18-649647c19b2b">SetDepthStencil</a>
  
 
  

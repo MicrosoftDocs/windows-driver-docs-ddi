@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: stiusd.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -53,14 +53,6 @@ req.product: Windows 10 or later.
 A still image minidriver's <b>IStiUSD::DeviceReset</b> method resets a still image device to a known, initialized state.
 
 
-## -syntax
-
-
-````
-STDMETHODIMP DeviceReset();
-````
-
-
 ## -parameters
 
 
@@ -79,7 +71,6 @@ If the operation succeeds, the method should return S_OK. Otherwise, it should r
 
 ## -see-also
 
-<a href="..\stiusd\nn-stiusd-istiusd.md">IStiUSD</a>
 
 
 
@@ -87,6 +78,7 @@ If the operation succeeds, the method should return S_OK. Otherwise, it should r
 
 
 
+<a href="https://msdn.microsoft.com/62740263-5bbb-48e1-be3d-9ee9cb37d6b9">IStiUSD</a>
  
 
  

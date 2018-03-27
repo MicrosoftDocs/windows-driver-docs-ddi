@@ -52,22 +52,6 @@ req.typenames: KSP_PIN, *PKSP_PIN
 Kernel streaming clients use the KSP_PIN structure to specify the property and pin type within a KSPROPSETID_Pin property request.
 
 
-## -syntax
-
-
-````
-typedef struct {
-  KSPROPERTY Property;
-  ULONG      PinId;
-  union {
-    ULONG Reserved;
-    ULONG Flags;
-  };
-  ULONG      Reserved;
-} KSP_PIN, *PKSP_PIN;
-````
-
-
 ## -struct-fields
 
 
@@ -115,10 +99,10 @@ Reserved. Should be set to zero.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
-
-
-
  
 
  

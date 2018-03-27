@@ -53,17 +53,6 @@ req.typenames: TOKEN_TYPE
 The <b>RtlSubAuthoritySid</b> routine returns a pointer to a specified subauthority of a security identifier (SID). 
 
 
-## -syntax
-
-
-````
-PULONG RtlSubAuthoritySid(
-  _In_ PSID  Sid,
-  _In_ ULONG SubAuthorityCount
-);
-````
-
-
 ## -parameters
 
 
@@ -106,14 +95,14 @@ For more information about security and access control, see the documentation on
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-rtlinitializesid.md">RtlInitializeSid</a>
 
 
 
-<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552998">RtlInitializeSid</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556740">SID</a>
  
 
  

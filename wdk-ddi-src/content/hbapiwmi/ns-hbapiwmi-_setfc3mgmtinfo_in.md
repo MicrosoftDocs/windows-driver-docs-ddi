@@ -52,16 +52,6 @@ req.typenames: SetFC3MgmtInfo_IN, *PSetFC3MgmtInfo_IN
 The SetFC3MgmtInfo_IN structure is used to deliver input parameter data to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565657">SetFC3MgmtInfo</a> WMI method.
 
 
-## -syntax
-
-
-````
-typedef struct _SetFC3MgmtInfo_IN {
-  HBAFC3MgmtInfo MgmtInfo;
-} SetFC3MgmtInfo_IN, *PSetFC3MgmtInfo_IN;
-````
-
-
 ## -struct-fields
 
 
@@ -69,7 +59,7 @@ typedef struct _SetFC3MgmtInfo_IN {
 
 ### -field MgmtInfo
 
-Contains a structure of type <a href="..\hbapiwmi\ns-hbapiwmi-_hbafc3mgmtinfo.md">HBAFC3MgmtInfo</a> that holds FC3 management information that will be used to configure the fibre channel adapter. 
+Contains a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff556032">HBAFC3MgmtInfo</a> that holds FC3 management information that will be used to configure the fibre channel adapter. 
 
 
 ## -remarks
@@ -83,10 +73,10 @@ The WMI tool suite generates a declaration of the SetFC3MgmtInfo_IN structure in
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565657">SetFC3MgmtInfo</a>
-
-
-
  
 
  

@@ -52,18 +52,6 @@ req.typenames: MSFC_FibrePortHBAStatistics, *PMSFC_FibrePortHBAStatistics
 The MSFC_FibrePortHBAStatistics structure is used by an HBA miniport driver that is a WMI provider to report statistics related to a fibre channel port.
 
 
-## -syntax
-
-
-````
-typedef struct _MSFC_FibrePortHBAStatistics {
-  ULONGLONG              UniquePortId;
-  ULONG                  HBAStatus;
-  MSFC_HBAPortStatistics Statistics;
-} MSFC_FibrePortHBAStatistics, *PMSFC_FibrePortHBAStatistics;
-````
-
-
 ## -struct-fields
 
 
@@ -81,15 +69,15 @@ Contains the status of the operation. For a list of allowed values and their des
 
 ### -field Statistics
 
-Contains a structure of type <a href="..\hbapiwmi\ns-hbapiwmi-_msfc_hbaportstatistics.md">MSFC_HBAPortStatistics</a> with statistical information about the port. 
+Contains a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff562512">MSFC_HBAPortStatistics</a> with statistical information about the port. 
 
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff562505">MSFC_FibrePortHBAStatistics WMI Class</a>
-
-
-
  
 
  

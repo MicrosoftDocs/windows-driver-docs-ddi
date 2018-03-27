@@ -52,19 +52,6 @@ req.typenames: FILE_FS_PERSISTENT_VOLUME_INFORMATION, *PFILE_FS_PERSISTENT_VOLUM
 The <b>FILE_FS_PERSISTENT_VOLUME_INFORMATION</b> structure is used to control persistent settings for a file system volume. Persistent settings persist on a file system volume between reboots of the computer. 
 
 
-## -syntax
-
-
-````
-typedef struct _FILE_FS_PERSISTENT_VOLUME_INFORMATION {
-  ULONG VolumeFlags;
-  ULONG FlagMask;
-  ULONG Version;
-  ULONG Reserved;
-} FILE_FS_PERSISTENT_VOLUME_INFORMATION, *PFILE_FS_PERSISTENT_VOLUME_INFORMATION;
-````
-
-
 ## -struct-fields
 
 
@@ -234,7 +221,6 @@ The <b>Version</b> member must be set to the current version of 1 for both a que
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545564">FSCTL_SET_PERSISTENT_VOLUME_STATE</a>
 
 
 
@@ -242,6 +228,7 @@ The <b>Version</b> member must be set to the current version of 1 for both a que
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545564">FSCTL_SET_PERSISTENT_VOLUME_STATE</a>
  
 
  

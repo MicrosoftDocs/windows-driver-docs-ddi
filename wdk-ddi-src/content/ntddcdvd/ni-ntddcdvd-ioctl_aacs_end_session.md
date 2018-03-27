@@ -46,15 +46,10 @@ req.typenames: DVD_STRUCTURE_FORMAT, *PDVD_STRUCTURE_FORMAT
 # IOCTL_AACS_END_SESSION IOCTL
 
 
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
-
 ## -description
 
 
-Releases the Authentication Grant Identifier (AGID) that was obtained by <a href="..\ntddcdvd\ni-ntddcdvd-ioctl_aacs_start_session.md">IOCTL_AACS_START_SESSION</a>. 
+Releases the Authentication Grant Identifier (AGID) that was obtained by <a href="https://msdn.microsoft.com/library/windows/hardware/ff559307">IOCTL_AACS_START_SESSION</a>. 
 
 
 ## -ioctlparameters

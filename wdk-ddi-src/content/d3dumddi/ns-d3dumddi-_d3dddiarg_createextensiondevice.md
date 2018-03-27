@@ -52,18 +52,6 @@ req.typenames: D3DDDIARG_CREATEEXTENSIONDEVICE
 The D3DDDIARG_CREATEEXTENSIONDEVICE structure describes a Microsoft DirectX Video Acceleration (DirectX VA) extension device to create. 
 
 
-## -syntax
-
-
-````
-typedef struct _D3DDDIARG_CREATEEXTENSIONDEVICE {
-  const GUID          *pGuid;
-  DXVADDI_PRIVATEDATA *pPrivate;
-  HANDLE              hExtension;
-} D3DDDIARG_CREATEEXTENSIONDEVICE;
-````
-
-
 ## -struct-fields
 
 
@@ -71,12 +59,12 @@ typedef struct _D3DDDIARG_CREATEEXTENSIONDEVICE {
 
 ### -field pGuid
 
-[in] A pointer to the GUID that represents the DirectX VA extension type. The Microsoft Direct3D runtime calls the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getcaps.md">GetCaps</a> function to query for the supported extension GUIDs.
+[in] A pointer to the GUID that represents the DirectX VA extension type. The Microsoft Direct3D runtime calls the <a href="https://msdn.microsoft.com/cf6c61ce-7b53-46d0-b3ff-ed5b2b964c65">GetCaps</a> function to query for the supported extension GUIDs.
 
 
 ### -field pPrivate
 
-[in] A pointer to the <a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_privatedata.md">DXVADDI_PRIVATEDATA</a> structure that contains data that the driver requires to create the extension device. 
+[in] A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562916">DXVADDI_PRIVATEDATA</a> structure that contains data that the driver requires to create the extension device. 
 
 
 ### -field hExtension
@@ -86,18 +74,18 @@ typedef struct _D3DDDIARG_CREATEEXTENSIONDEVICE {
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getcaps.md">GetCaps</a>
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createextensiondevice.md">CreateExtensionDevice</a>
+<a href="https://msdn.microsoft.com/7e6dbb70-2e74-4ddb-a504-2c8145af99d9">CreateExtensionDevice</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_privatedata.md">DXVADDI_PRIVATEDATA</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562916">DXVADDI_PRIVATEDATA</a>
 
 
 
+<a href="https://msdn.microsoft.com/cf6c61ce-7b53-46d0-b3ff-ed5b2b964c65">GetCaps</a>
  
 
  

@@ -52,17 +52,6 @@ req.typenames: FILE_PIPE_REMOTE_INFORMATION, *PFILE_PIPE_REMOTE_INFORMATION
 The <b>FILE_PIPE_REMOTE_INFORMATION</b> structure contains information about the remote end of a named pipe.
 
 
-## -syntax
-
-
-````
-typedef struct _FILE_PIPE_REMOTE_INFORMATION {
-  LARGE_INTEGER CollectDataTime;
-  ULONG         MaximumCollectionCount;
-} FILE_PIPE_REMOTE_INFORMATION, *PFILE_PIPE_REMOTE_INFORMATION;
-````
-
-
 ## -struct-fields
 
 

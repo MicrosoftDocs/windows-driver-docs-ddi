@@ -52,17 +52,6 @@ req.typenames: RILVERSIONPARAMS, *LPRILVERSIONPARAMS
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef struct _RILVERSIONPARAMS {
-  WORD  Minor;
-  WORD  Major;
-} RILVERSIONPARAMS, RILVERSIONPARAMS;
-````
-
-
 ## -struct-fields
 
 

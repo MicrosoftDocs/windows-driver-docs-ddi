@@ -52,16 +52,6 @@ req.typenames: DXGK_TARGETMODE_DETAIL_TIMING
 The <b>D3DKMTGetRuntimeData</b> function is for system use only.
 
 
-## -prototype
-
-
-````
-NTSTATUS APIENTRY D3DKMTGetRuntimeData(
-  _Inout_ const D3DKMT_GETRUNTIMEDATA *pData
-);
-````
-
-
 ## -parameters
 
 

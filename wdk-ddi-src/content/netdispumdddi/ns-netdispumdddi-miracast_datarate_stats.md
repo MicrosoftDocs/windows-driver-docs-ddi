@@ -49,22 +49,7 @@ req.typenames: MIRACAST_DATARATE_STATS
 ## -description
 
 
-Contains info used in the wireless display (Miracast) <a href="..\netdispumdddi\nc-netdispumdddi-pfn_datarate_notification.md">pfnDataRateNotify</a> function about the audio/video encoder bit rate and failed or retried Wi-Fi frames.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  UINT64 EncoderBitRate;
-  UINT64 CurrentMaxTxDataRate;
-  UINT64 TransmittedFrameCount;
-  UINT64 FailedFrameCount;
-  UINT64 RetriedFrameCount;
-  UINT64 MultipleRetryFrameCount;
-} MIRACAST_DATARATE_STATS;
-````
+Contains info used in the wireless display (Miracast) <a href="https://msdn.microsoft.com/5eb004d1-7cf8-45a3-aad5-2932b1a83bb8">pfnDataRateNotify</a> function about the audio/video encoder bit rate and failed or retried Wi-Fi frames.
 
 
 ## -struct-fields

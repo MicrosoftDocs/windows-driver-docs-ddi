@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -50,22 +50,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>SearchVirtual2</b> method searches the process's virtual memory for a specified pattern of bytes.
-
-
-## -syntax
-
-
-````
-HRESULT SearchVirtual2(
-  [in]  ULONG64  Offset,
-  [in]  ULONG64  Length,
-  [in]  ULONG    Flags,
-  [in]  PVOID    Pattern,
-  [in]  ULONG    PatternSize,
-  [in]  ULONG    PatternGranularity,
-  [out] PULONG64 MatchOffset
-);
-````
 
 
 ## -parameters
@@ -160,14 +144,14 @@ This method searches the target's virtual memory for the first occurrence, subje
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugdataspaces4.md">IDebugDataSpaces4</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550546">IDebugDataSpaces4</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554747">SearchVirtual</a>
-
-
-
  
 
  

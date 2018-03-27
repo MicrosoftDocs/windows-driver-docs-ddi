@@ -52,39 +52,6 @@ req.typenames: DXGK_ALLOCATIONUSAGEINFO1
 The DXGK_ALLOCATIONUSAGEINFO1 structure describes how an allocation can be used in DMA buffering.
 
 
-## -syntax
-
-
-````
-typedef struct _DXGK_ALLOCATIONUSAGEINFO1 {
-  union {
-    struct {
-      UINT PrivateFormat  :1;
-      UINT Swizzled  :1;
-      UINT MipMap  :1;
-      UINT Cube  :1;
-      UINT Volume  :1;
-      UINT Vertex  :1;
-      UINT Index  :1;
-      UINT Reserved  :25;
-    };
-    UINT Value;
-  } Flags;
-  union {
-    D3DDDIFORMAT Format;
-    UINT         PrivateFormat;
-  };
-  UINT SwizzledFormat;
-  UINT ByteOffset;
-  UINT Width;
-  UINT Height;
-  UINT Pitch;
-  UINT Depth;
-  UINT SlicePitch;
-} DXGK_ALLOCATIONUSAGEINFO1;
-````
-
-
 ## -struct-fields
 
 
@@ -192,7 +159,7 @@ This member is reserved and should be set to zero. Setting this to zero is equiv
 
 #### - Format
 
-[out] A <a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>-typed value that indicates the pixel format of the allocation. The <b>PrivateFormat</b> bit-field flag in the <b>Flags</b> member must be set to 0 (FALSE).
+[out] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff544312">D3DDDIFORMAT</a>-typed value that indicates the pixel format of the allocation. The <b>PrivateFormat</b> bit-field flag in the <b>Flags</b> member must be set to 0 (FALSE).
 
 
 #### - PrivateFormat
@@ -202,22 +169,22 @@ This member is reserved and should be set to zero. Setting this to zero is equiv
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationusagehint.md">DXGK_ALLOCATIONUSAGEHINT</a>
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationinfo.md">DXGK_ALLOCATIONINFO</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557559">DXGKARG_CREATEALLOCATION</a>
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_createallocation.md">DXGKARG_CREATEALLOCATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560960">DXGK_ALLOCATIONINFO</a>
 
 
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createallocation.md">DxgkDdiCreateAllocation</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560981">DXGK_ALLOCATIONUSAGEHINT</a>
 
 
 
+<a href="https://msdn.microsoft.com/a28287d6-4dfa-4db4-92df-bbcd9379a5b2">DxgkDdiCreateAllocation</a>
  
 
  

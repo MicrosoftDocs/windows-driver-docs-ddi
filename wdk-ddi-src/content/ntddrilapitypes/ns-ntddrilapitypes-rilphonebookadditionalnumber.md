@@ -52,19 +52,6 @@ req.typenames: RILPHONEBOOKADDITIONALNUMBER, *LPRILPHONEBOOKADDITIONALNUMBER
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef struct _RILPHONEBOOKADDITIONALNUMBER {
-  DWORD       cbSize;
-  DWORD       dwParams;
-  RILADDRESS  raAddress;
-  DWORD       dwNumId;
-} RILPHONEBOOKADDITIONALNUMBER, RILPHONEBOOKADDITIONALNUMBER;
-````
-
-
 ## -struct-fields
 
 

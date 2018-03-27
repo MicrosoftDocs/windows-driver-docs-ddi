@@ -52,38 +52,6 @@ req.typenames: RILMSGCDMAINDELIVER, *LPRILMSGCDMAINDELIVER
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef struct _RILMSGCDMAINDELIVER {
-  RILADDRESS                raOrigAddress;
-  RILSUBADDRESS             rsaOrigSubaddr;
-  RILSYSTEMTIME             stSCReceiveTime;
-  RILSYSTEMTIME             stValidityPeriodAbs;
-  RILSYSTEMTIME             stValidityPeriodRel;
-  RILSYSTEMTIME             stDeferredDelTimeAbs;
-  RILSYSTEMTIME             stDeferredDelTimeRel;
-  DWORD                     dwNumMsgs;
-  RILADDRESS                raCallBackNumber;
-  RILMSGCDMAMSGPRIORITY     dwMsgPriority;
-  DWORD                     dwAlertOnMsgDelivery;
-  RILMSGCDMAMSGPRIVACY      dwMsgPrivacy;
-  BOOL                      bUserAckRequest;
-  RILMSGCDMAMSGDISPLAYMODE  dwMsgDisplayMode;
-  DWORD                     dwTeleservice;
-  DWORD                     dwServiceID;
-  DWORD                     dwMsgID;
-  RILMSGCDMALANGUAGE        dwMsgLang;
-  RILMSGCDMAMSGENCODING     dwMsgEncoding;
-  DWORD                     cbHdrLength;
-  DWORD                     cchMsgLength;
-  BYTE [140]                rgbHdr;
-  BYTE [256]                rgbMsg;
-} RILMSGCDMAINDELIVER, RILMSGCDMAINDELIVER;
-````
-
-
 ## -struct-fields
 
 

@@ -52,17 +52,6 @@ req.typenames: NFCRM_SET_RADIO_STATE, *PNFCRM_SET_RADIO_STATE
 This structure is used to set the radio state. The driver, in the case of airplane mode, has to persist the radio state and restore it when airplane mode is disabled.
 
 
-## -syntax
-
-
-````
-typedef struct _NFCRM_SET_RADIO_STATE  {
-  BOOLEAN SystemStateUpdate;
-  BOOLEAN MediaRadioOn;
-} _NFCRM_SET_RADIO_STATE, *P_NFCRM_SET_RADIO_STATE;
-````
-
-
 ## -struct-fields
 
 

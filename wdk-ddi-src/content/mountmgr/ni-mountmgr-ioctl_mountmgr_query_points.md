@@ -46,15 +46,10 @@ req.typenames: MOUNTDEV_UNIQUE_ID, *PMOUNTDEV_UNIQUE_ID
 # IOCTL_MOUNTMGR_QUERY_POINTS IOCTL
 
 
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
-
 ## -description
 
 
-This IOCTL returns triples that consist of a persistent symbolic link name for the volume (that is, a mount point), a unique ID for the volume, and a nonpersistent device name (such as "\Device\HarddiskVolume1") for the volume. The input to this IOCTL is a <a href="..\mountmgr\ns-mountmgr-_mountmgr_mount_point.md">MOUNTMGR_MOUNT_POINT</a> structure that contains a single triple.
+This IOCTL returns triples that consist of a persistent symbolic link name for the volume (that is, a mount point), a unique ID for the volume, and a nonpersistent device name (such as "\Device\HarddiskVolume1") for the volume. The input to this IOCTL is a <a href="https://msdn.microsoft.com/library/windows/hardware/ff562286">MOUNTMGR_MOUNT_POINT</a> structure that contains a single triple.
 
 If the input triple contains a unique ID or a non-persistent device name, the request retrieves all associated mount points (symbolic links), including the volume GUID pathname and the drive letters. However, if the input triple has a symbolic link, but does not specify either the unique ID or the device name, the request only returns a single triple that contains the symbolic link that was provided in the input, together with the unique ID and the device name. The caller must submit another IOCTL with either the unique ID or the device name to retrieve the remaining mount points.
 
@@ -70,7 +65,7 @@ The mount manager returns triples that match as much info as is provided by the 
 
 ### -input-buffer
 
-The mount manager client initializes the <a href="..\mountmgr\ns-mountmgr-_mountmgr_mount_point.md">MOUNTMGR_MOUNT_POINT</a> structure, defined in <i>Mountmgr.h</i>, at the beginning of the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>. Immediately following this structure, the MM client loads the symbolic link name, the unique ID and the device name, in that order.
+The mount manager client initializes the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562286">MOUNTMGR_MOUNT_POINT</a> structure, defined in <i>Mountmgr.h</i>, at the beginning of the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>. Immediately following this structure, the MM client loads the symbolic link name, the unique ID and the device name, in that order.
 
 
 ### -input-buffer-length
@@ -80,7 +75,7 @@ The mount manager client initializes the <a href="..\mountmgr\ns-mountmgr-_mount
 
 ### -output-buffer
 
-The mount manager initializes a variable-length structure of type <a href="..\mountmgr\ns-mountmgr-_mountmgr_mount_points.md">MOUNTMGR_MOUNT_POINTS</a>, defined in <i>Mountmgr.h</i>, at the beginning of the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>. The mount manager inserts the mount points, associated with the indicated volume, at the address pointed to by the <i>MountPoints[]</i> member of this structure. Each mount point is represented by a MOUNTMGR_MOUNT_POINT structure as defined in the <b>Input</b> section for this IOCTL.
+The mount manager initializes a variable-length structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff562288">MOUNTMGR_MOUNT_POINTS</a>, defined in <i>Mountmgr.h</i>, at the beginning of the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>. The mount manager inserts the mount points, associated with the indicated volume, at the address pointed to by the <i>MountPoints[]</i> member of this structure. Each mount point is represented by a MOUNTMGR_MOUNT_POINT structure as defined in the <b>Input</b> section for this IOCTL.
 
 
 ### -output-buffer-length
@@ -129,10 +124,10 @@ If any of the three strings contained within any of the triples is aligned on an
 
 ## -see-also
 
-<a href="..\mountmgr\ns-mountmgr-_mountmgr_mount_points.md">MOUNTMGR_MOUNT_POINTS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562288">MOUNTMGR_MOUNT_POINTS</a>
  
 
  

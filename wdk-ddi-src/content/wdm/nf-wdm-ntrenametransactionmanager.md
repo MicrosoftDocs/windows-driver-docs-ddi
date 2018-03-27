@@ -7,7 +7,7 @@ old-location: kernel\ntrenametransactionmanager.htm
 old-project: kernel
 ms.assetid: 53baa93a-bd71-4975-86cc-51eb31c2f430
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/1/2018
 ms.keywords: NtRenameTransactionManager, NtRenameTransactionManager routine [Kernel-Mode Driver Architecture], kernel.ntrenametransactionmanager, ntx_299b8860-3b7b-4bc7-8f33-c3805fd0a38f.xml, wdm/NtRenameTransactionManager
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: "<=APC_LEVEL"
 topic_type:
@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 The <b>NtRenameTransactionManager</b> routine changes the identity of the transaction manager object that is stored in the <a href="https://msdn.microsoft.com/4da3cb49-dc20-4713-813b-ff458c99ab90">CLFS</a> log file stream contained in the log file name.
 
 
-## -syntax
-
-
-````
-NTSTATUS NtRenameTransactionManager(
-  _In_ PUNICODE_STRING LogFileName,
-  _In_ LPGUID          ExistingTransactionManagerGuid
-);
-````
-
-
 ## -parameters
 
 
@@ -78,6 +67,6 @@ NTSTATUS NtRenameTransactionManager(
 ## -see-also
 
 
-<a href="..\wdm\nf-wdm-tmrenametransactionmanager.md">TmRenameTransactionManager</a>
+<a href="https://msdn.microsoft.com/B4124FF4-50CC-474A-B42F-17BCF698AB59">TmRenameTransactionManager</a>
 
 

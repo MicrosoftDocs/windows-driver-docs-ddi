@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: Any IRQL
 topic_type:
@@ -51,16 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>SPB_REQUEST_PARAMETERS_INIT</b> function initializes an <a href="https://msdn.microsoft.com/91A5C504-7072-4B64-86F1-2BDE616CCA31">SPB_REQUEST_PARAMETERS</a> structure.
-
-
-## -syntax
-
-
-````
-VOID SPB_REQUEST_PARAMETERS_INIT(
-  _Out_ SPB_REQUEST_PARAMETERS *Parameters
-);
-````
 
 
 ## -parameters
@@ -93,7 +83,6 @@ Your SPB controller driver must use this function to initialize an <b>SPB_REQUES
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450922">SpbRequestGetParameters</a>
 
 
 
@@ -101,6 +90,7 @@ Your SPB controller driver must use this function to initialize an <b>SPB_REQUES
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450922">SpbRequestGetParameters</a>
  
 
  

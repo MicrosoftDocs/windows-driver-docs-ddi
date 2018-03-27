@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -50,18 +50,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>OutputRegisters2</b> method formats and outputs the target's <a href="https://msdn.microsoft.com/library/windows/hardware/ff554369">registers</a>.
-
-
-## -syntax
-
-
-````
-HRESULT OutputRegisters2(
-  [in] ULONG OutputControl,
-  [in] ULONG Source,
-  [in] ULONG Flags
-);
-````
 
 
 ## -parameters
@@ -200,21 +188,21 @@ The registers are formatted in a way that is specific to the target architecture
 
 The method <a href="https://msdn.microsoft.com/library/windows/hardware/ff553242">OutputRegisters</a> performs the same task as this method but always uses the target as the register source.
 
-For an overview of the <a href="..\dbgeng\nn-dbgeng-idebugregisters.md">IDebugRegisters</a> interface and other register-related methods, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff554369">Registers</a>.
+For an overview of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550825">IDebugRegisters</a> interface and other register-related methods, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff554369">Registers</a>.
 
 
 
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550835">IDebugRegisters2</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553242">OutputRegisters</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugregisters2.md">IDebugRegisters2</a>
-
-
-
  
 
  

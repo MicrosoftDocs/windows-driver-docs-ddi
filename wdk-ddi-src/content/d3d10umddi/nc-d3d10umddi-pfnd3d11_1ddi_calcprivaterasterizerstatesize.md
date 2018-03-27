@@ -52,26 +52,12 @@ req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 Determines the size of the user-mode display driver's private region of memory (that is, the size of internal driver structures, not the size of the resource video memory) for a rasterizer state.
 
 
-## -prototype
-
-
-````
-PFND3D11_1DDI_CALCPRIVATERASTERIZERSTATESIZE CalcPrivateRasterizerStateSize(D3D11_1);
-
-SIZE_T APIENTRY* CalcPrivateRasterizerStateSize(D3D11_1)(
-             D3D10DDI_HDEVICE            hDevice,
-  _In_ const D3D11_1_DDI_RASTERIZER_DESC 
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
 
 
-### -param D3D10DDI_HDEVICE
+### -param Arg1
 
 
 ### -param *
@@ -85,7 +71,7 @@ SIZE_T APIENTRY* CalcPrivateRasterizerStateSize(D3D11_1)(
 
 #### - [in]
 
- A pointer to a <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1_ddi_rasterizer_desc.md">D3D11_1_DDI_RASTERIZER_DESC</a> structure that describes the parameters that the user-mode display driver uses to calculate the size of the memory region. 
+ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh451052">D3D11_1_DDI_RASTERIZER_DESC</a> structure that describes the parameters that the user-mode display driver uses to calculate the size of the memory region. 
 
 
 #### - hDevice
@@ -104,10 +90,10 @@ The size of the memory region that the driver requires for creating a rasterizer
 
 ## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1_ddi_rasterizer_desc.md">D3D11_1_DDI_RASTERIZER_DESC</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451052">D3D11_1_DDI_RASTERIZER_DESC</a>
  
 
  

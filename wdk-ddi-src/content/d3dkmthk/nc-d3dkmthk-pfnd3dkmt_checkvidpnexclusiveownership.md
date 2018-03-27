@@ -52,16 +52,6 @@ req.typenames: DXGK_TARGETMODE_DETAIL_TIMING
 The <b>D3DKMTCheckVidPnExclusiveOwnership</b> function determines the video present source in the path of a video present network (VidPN) topology that exclusively owns the VidPN. 
 
 
-## -prototype
-
-
-````
-NTSTATUS D3DKMTCheckVidPnExclusiveOwnership(
-  _In_ const D3DKMT_CHECKVIDPNEXCLUSIVEOWNERSHIP *pData
-);
-````
-
-
 ## -parameters
 
 
@@ -78,7 +68,7 @@ NTSTATUS D3DKMTCheckVidPnExclusiveOwnership(
 
 #### - pData [in]
 
-A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_checkvidpnexclusiveownership.md">D3DKMT_CHECKVIDPNEXCLUSIVEOWNERSHIP</a> structure that describes the parameters to determine exclusive VidPN ownership. 
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff547784">D3DKMT_CHECKVIDPNEXCLUSIVEOWNERSHIP</a> structure that describes the parameters to determine exclusive VidPN ownership. 
 
 
 ## -returns
@@ -121,7 +111,7 @@ The graphics adapter was stopped or the display device was reset.
 </dl>
 </td>
 <td width="60%">
-The video present source that is identified by the <b>VidPnSourceId</b> member of <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_checkvidpnexclusiveownership.md">D3DKMT_CHECKVIDPNEXCLUSIVEOWNERSHIP</a> is already owned by a display mode manager (DMM) client and cannot be used until the client releases the video present source.
+The video present source that is identified by the <b>VidPnSourceId</b> member of <a href="https://msdn.microsoft.com/library/windows/hardware/ff547784">D3DKMT_CHECKVIDPNEXCLUSIVEOWNERSHIP</a> is already owned by a display mode manager (DMM) client and cannot be used until the client releases the video present source.
 
 </td>
 </tr>
@@ -157,10 +147,10 @@ This function might also return other <b>NTSTATUS</b> values.
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_checkvidpnexclusiveownership.md">D3DKMT_CHECKVIDPNEXCLUSIVEOWNERSHIP</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547784">D3DKMT_CHECKVIDPNEXCLUSIVEOWNERSHIP</a>
  
 
  

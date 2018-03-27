@@ -55,21 +55,6 @@ The
   operations on a subordinate NIC or on an ISA bus-master NIC.
 
 
-## -syntax
-
-
-````
-NDIS_STATUS NdisMRegisterDmaChannel(
-  _Out_ PNDIS_HANDLE          MiniportDmaHandle,
-  _In_  NDIS_HANDLE           MiniportAdapterHandle,
-  _In_  UINT                  DmaChannel,
-  _In_  BOOLEAN               Dma32BitAddresses,
-  _In_  PNDIS_DMA_DESCRIPTION DmaDescription,
-  _In_  ULONG                 MaximumLength
-);
-````
-
-
 ## -parameters
 
 
@@ -85,7 +70,7 @@ A pointer to a caller-supplied variable in which this function returns a handle 
 ### -param MiniportAdapterHandle [in]
 
 The miniport adapter handle input to the 
-     <a href="..\ndis\nc-ndis-miniport_initialize.md">
+     <a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">
      MiniportInitializeEx</a> function.
 
 
@@ -261,7 +246,7 @@ Either the bus type or bus number is out of range or the driver declared the NIC
 
 A driver of a subordinate-DMA NIC must call 
     <b>NdisMRegisterDmaChannel</b> from its 
-    <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a> function to
+    <a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a> function to
     reserve system resources for subsequent DMA operations and to claim them in the registry.
 
 The driver of an ISA bus-master NIC also must call 
@@ -269,20 +254,20 @@ The driver of an ISA bus-master NIC also must call
     <i>MiniportInitializeEx</i> to claim a system DMA controller channel for the NIC in the registry.
 
 <i>MiniportInitializeEx</i> must call the 
-    <a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">
+    <a href="https://msdn.microsoft.com/861626af-23ea-40dc-a91a-7da42d4b0a1c">
     NdisMSetMiniportAttributes</a> function before calling 
     <b>NdisMRegisterDmaChannel</b>.
 
 <i>MiniportInitializeEx</i> obtained the bus-relative values passed to 
     <b>NdisMRegisterDmaChannel</b> either from the registry or by calling the 
-    <a href="..\ndis\nf-ndis-ndismgetbusdata.md">NdisMGetBusData</a> function.
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff563591">NdisMGetBusData</a> function.
 
 If such a driver cannot allocate the system DMA resources that its device needs, 
     <i>MiniportInitializeEx</i> should release all resources it already allocated for the NIC and, then, fail
     initialization for that NIC.
 
 If the driver successfully registers the DMA channel, it must later call the 
-    <a href="..\ndis\nf-ndis-ndismderegisterdmachannel.md">
+    <a href="https://msdn.microsoft.com/1581cbfd-bdab-40ed-9978-f60ec220c17a">
     NdisMDeregisterDmaChannel</a> function to deregister the DMA channel.
 
 
@@ -290,22 +275,22 @@ If the driver successfully registers the DMA channel, it must later call the
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndismderegisterdmachannel.md">NdisMDeregisterDmaChannel</a>
+<a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563574">NdisMDeregisterDmaChannel</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndismgetbusdata.md">NdisMGetBusData</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563591">NdisMGetBusData</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563672">NdisMSetMiniportAttributes</a>
  
 
  

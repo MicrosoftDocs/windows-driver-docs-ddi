@@ -53,21 +53,6 @@ req.product: Windows 10 or later.
 The WWAN_READY_INFO structure represents the ready-state of the MB device.
 
 
-## -syntax
-
-
-````
-typedef struct _WWAN_READY_INFO {
-  WWAN_READY_STATE    ReadyState;
-  WWAN_EMERGENCY_MODE EmergencyMode;
-  WCHAR               SubscriberId[WWAN_SUBSCRIBERID_LEN];
-  WCHAR               SimIccId[WWAN_SIMICCID_LEN];
-  BYTE                CdmaShortMsgSize;
-  WWAN_LIST_HEADER    TNListHeader;
-} WWAN_READY_INFO, *PWWAN_READY_INFO;
-````
-
-
 ## -struct-fields
 
 
@@ -80,7 +65,7 @@ The ready-state of the device.
 
 ### -field EmergencyMode
 
-The emergency mode of the device. For more information, see <a href="..\wwan\ne-wwan-_wwan_emergency_mode.md">WWAN_EMERGENCY_MODE</a>.
+The emergency mode of the device. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff571207">WWAN_EMERGENCY_MODE</a>.
 
 
 ### -field SubscriberId
@@ -129,22 +114,22 @@ Miniport drivers should not specify this value until the device ready-state chan
 
 ## -see-also
 
-<a href="..\wwan\ne-wwan-_wwan_emergency_mode.md">WWAN_EMERGENCY_MODE</a>
 
 
 
-<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_ready_info.md">NDIS_WWAN_READY_INFO</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567916">NDIS_WWAN_READY_INFO</a>
 
 
 
-<a href="..\wwan\ne-wwan-_wwan_ready_state.md">WWAN_READY_STATE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571207">WWAN_EMERGENCY_MODE</a>
 
 
 
-<a href="..\wwan\ns-wwan-_wwan_list_header.md">WWAN_LIST_HEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571208">WWAN_LIST_HEADER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571227">WWAN_READY_STATE</a>
  
 
  

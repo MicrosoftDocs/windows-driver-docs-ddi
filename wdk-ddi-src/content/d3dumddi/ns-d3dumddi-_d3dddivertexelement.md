@@ -52,21 +52,6 @@ req.typenames: D3DDDIVERTEXELEMENT
 The D3DDDIVERTEXELEMENT structure describes an element in the array for a vertex shader declaration.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DDDIVERTEXELEMENT {
-  USHORT Stream;
-  USHORT Offset;
-  UCHAR  Type;
-  UCHAR  Method;
-  UCHAR  Usage;
-  UCHAR  UsageIndex;
-} D3DDDIVERTEXELEMENT;
-````
-
-
 ## -struct-fields
 
 
@@ -104,10 +89,10 @@ typedef struct _D3DDDIVERTEXELEMENT {
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createvertexshaderdecl.md">CreateVertexShaderDecl</a>
 
 
 
+<a href="https://msdn.microsoft.com/00c53e81-93db-46b8-b65c-c8d62059452a">CreateVertexShaderDecl</a>
  
 
  

@@ -53,19 +53,6 @@ req.product: Windows 10 or later.
 The <b>USBD_PIPE_TYPE</b> enumerator indicates the type of pipe.
 
 
-## -syntax
-
-
-````
-typedef enum _USBD_PIPE_TYPE { 
-  UsbdPipeTypeControl      = 0,
-  UsbdPipeTypeIsochronous  = 1,
-  UsbdPipeTypeBulk         = 2,
-  UsbdPipeTypeInterrupt    = 3
-} USBD_PIPE_TYPE;
-````
-
-
 ## -enum-fields
 
 
@@ -93,10 +80,10 @@ Indicates that the pipe is a interrupt pipe.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539322">USB Constants and Enumerations</a>
-
-
-
  
 
  

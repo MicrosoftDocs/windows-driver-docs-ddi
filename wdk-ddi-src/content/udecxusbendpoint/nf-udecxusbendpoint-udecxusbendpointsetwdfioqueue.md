@@ -54,17 +54,6 @@ req.product: Windows 10 or later.
 Sets a framework queue object with a UDE endpoint.
 
 
-## -syntax
-
-
-````
-FORCEINLINE void UdecxUsbEndpointSetWdfIoQueue(
-  _In_ UDECXUSBENDPOINT UdecxUsbEndpoint,
-  _In_ WDFQUEUE         WdfQueue
-);
-````
-
-
 ## -parameters
 
 
@@ -72,12 +61,12 @@ FORCEINLINE void UdecxUsbEndpointSetWdfIoQueue(
 
 ### -param UdecxUsbEndpoint [in]
 
-A handle to a UDE endpoint object. The client driver retrieved this pointer in the previous call to <a href="..\udecxusbendpoint\nf-udecxusbendpoint-udecxusbendpointcreate.md">UdecxUsbEndpointCreate</a>.
+A handle to a UDE endpoint object. The client driver retrieved this pointer in the previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/mt627983">UdecxUsbEndpointCreate</a>.
 
 
 ### -param WdfQueue [in]
 
-A handle to a framework queue object that will handle requests sent to the endpoint. The client driver retrieved this pointer in the previous call to <a href="..\wdfio\nf-wdfio-wdfioqueuecreate.md">WdfIoQueueCreate</a>. 
+A handle to a framework queue object that will handle requests sent to the endpoint. The client driver retrieved this pointer in the previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff547401">WdfIoQueueCreate</a>. 
 
 
 ## -returns
@@ -91,7 +80,6 @@ This function does not return a value.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
 
 
 
@@ -103,6 +91,7 @@ This function does not return a value.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
  
 
  

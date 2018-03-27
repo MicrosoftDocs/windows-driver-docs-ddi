@@ -52,18 +52,6 @@ req.typenames: KSCOMPLETION_INVOCATION
 
 
 
-## -syntax
-
-
-````
-typedef enum  { 
-  KsInvokeOnSuccess  = 1,
-  KsInvokeOnError    = 2,
-  KsInvokeOnCancel   = 4
-} KSCOMPLETION_INVOCATION;
-````
-
-
 ## -enum-fields
 
 

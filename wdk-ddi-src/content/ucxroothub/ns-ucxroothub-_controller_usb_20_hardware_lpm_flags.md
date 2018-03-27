@@ -53,20 +53,6 @@ req.product: Windows 10 or later.
 Describes supported protocol capabilities for Link Power Management (LPM) in as defined the USB 2.0 specification.
 
 
-## -syntax
-
-
-````
-typedef union _CONTROLLER_USB_20_HARDWARE_LPM_FLAGS {
-  UCHAR  AsUchar;
-  struct {
-    ULONG L1CapabilitySupported  :1;
-    ULONG BeslLpmCapabilitySupported  :1;
-  };
-} CONTROLLER_USB_20_HARDWARE_LPM_FLAGS;
-````
-
-
 ## -struct-fields
 
 
@@ -96,10 +82,10 @@ Indicates support for L1 transitions.
 
 ## -see-also
 
-<a href="..\ucxroothub\ns-ucxroothub-_roothub_20port_info.md">ROOTHUB_20PORT_INFO</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt188027">ROOTHUB_20PORT_INFO</a>
  
 
  

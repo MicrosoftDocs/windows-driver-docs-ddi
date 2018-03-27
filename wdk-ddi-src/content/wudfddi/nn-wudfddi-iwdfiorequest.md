@@ -26,7 +26,7 @@ req.max-support: Unavailable in UMDF 2.0 and later.
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: wudfddi.h
+req.lib: 
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
@@ -57,7 +57,7 @@ The <b>IWDFIoRequest</b> interface exposes an I/O request object.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDFIoRequest</b> interface inherits from <a href="..\wudfddi\nn-wudfddi-iwdfobject.md">IWDFObject</a>. <b>IWDFIoRequest</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDFIoRequest</b> interface inherits from <a href="https://msdn.microsoft.com/library/windows/hardware/ff560200">IWDFObject</a>. <b>IWDFIoRequest</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -147,7 +147,7 @@ The <a href="https://msdn.microsoft.com/96de6f7a-da1d-44a6-b1f7-44859312a662">Ge
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559099">IWDFIoRequest::GetFileObject</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/2d6567f1-9e2a-405f-ae8d-eb531cc29275">GetFileObject</a> method retrieves a pointer to the <a href="..\wudfddi\nn-wudfddi-iwdffile.md">IWDFFile</a> interface that is associated with an I/O request.
+The <a href="https://msdn.microsoft.com/2d6567f1-9e2a-405f-ae8d-eb531cc29275">GetFileObject</a> method retrieves a pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff558912">IWDFFile</a> interface that is associated with an I/O request.
 
 </td>
 </tr>

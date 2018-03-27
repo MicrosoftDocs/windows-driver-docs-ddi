@@ -50,23 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-Describes information required to reset an endpoint. This structure is passed by UCX in the <a href="..\ucxendpoint\nc-ucxendpoint-evt_ucx_endpoint_reset.md">EVT_UCX_ENDPOINT_RESET</a> callback function.
-
-
-## -syntax
-
-
-````
-typedef struct _ENDPOINT_RESET {
-#if _cplusplus
-  USBDEVICE_MGMT_HEADER Header;
-#else 
-  USBDEVICE_MGMT_HEADER ;
-#endif 
-  UCXENDPOINT           Endpoint;
-  ENDPOINT_RESET_FLAGS  Flags;
-} ENDPOINT_RESET, *P_ENDPOINT_RESET;
-````
+Describes information required to reset an endpoint. This structure is passed by UCX in the <a href="https://msdn.microsoft.com/library/windows/hardware/mt187828">EVT_UCX_ENDPOINT_RESET</a> callback function.
 
 
 ## -struct-fields
@@ -76,7 +60,7 @@ typedef struct _ENDPOINT_RESET {
 
 ### -field Header
 
-A <a href="..\ucxusbdevice\ns-ucxusbdevice-_usbdevice_mgmt_header.md">USBDEVICE_MGMT_HEADER</a> structure that stores handles to the USB hub or device whose endpoints.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/mt188075">USBDEVICE_MGMT_HEADER</a> structure that stores handles to the USB hub or device whose endpoints.
 
 
 ### -field Endpoint
@@ -86,15 +70,15 @@ A handle to the device endpoint to reset.
 
 ### -field Flags
 
-A <a href="..\ucxendpoint\ne-ucxendpoint-_endpoint_reset_flags.md">ENDPOINT_RESET_FLAGS</a> value that indicates reset parameters.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/mt187817">ENDPOINT_RESET_FLAGS</a> value that indicates reset parameters.
 
 
 ## -see-also
 
-<a href="..\ucxendpoint\ne-ucxendpoint-_endpoint_reset_flags.md">ENDPOINT_RESET_FLAGS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt187817">ENDPOINT_RESET_FLAGS</a>
  
 
  

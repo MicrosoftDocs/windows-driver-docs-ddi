@@ -52,16 +52,6 @@ req.typenames: FILE_MAILSLOT_SET_INFORMATION, *PFILE_MAILSLOT_SET_INFORMATION
 The <b>FILE_MAILSLOT_SET_INFORMATION</b> structure is used to set a value on a   mailslot.
 
 
-## -syntax
-
-
-````
-typedef struct _FILE_MAILSLOT_SET_INFORMATION {
-  PLARGE_INTEGER  ReadTimeout;
-} FILE_MAILSLOT_SET_INFORMATION, *PFILE_MAILSLOT_SET_INFORMATION;
-````
-
-
 ## -struct-fields
 
 

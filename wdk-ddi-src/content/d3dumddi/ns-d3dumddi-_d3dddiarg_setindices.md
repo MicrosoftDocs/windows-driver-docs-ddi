@@ -52,17 +52,6 @@ req.typenames: D3DDDIARG_SETINDICES
 The D3DDDIARG_SETINDICES structure describes parameters for setting the current index buffer. 
 
 
-## -syntax
-
-
-````
-typedef struct _D3DDDIARG_SETINDICES {
-  HANDLE hIndexBuffer;
-  UINT   Stride;
-} D3DDDIARG_SETINDICES;
-````
-
-
 ## -struct-fields
 
 
@@ -80,14 +69,14 @@ typedef struct _D3DDDIARG_SETINDICES {
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setindices.md">SetIndices</a>
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setstreamsourceum.md">SetStreamSourceUM</a>
+<a href="https://msdn.microsoft.com/5348b3f9-78c5-4915-ba68-296d6f9f916c">SetIndices</a>
 
 
 
+<a href="https://msdn.microsoft.com/75a70801-0338-45ed-a691-5f84202575d5">SetStreamSourceUM</a>
  
 
  

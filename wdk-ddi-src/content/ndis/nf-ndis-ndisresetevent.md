@@ -54,16 +54,6 @@ The
   <b>NdisResetEvent</b> function clears the Signaled state of a given event.
 
 
-## -syntax
-
-
-````
-VOID NdisResetEvent(
-  _In_ PNDIS_EVENT Event
-);
-````
-
-
 ## -parameters
 
 
@@ -92,11 +82,11 @@ None
 
 When an event is set to the 
     <i>signaled</i> state with the 
-    <a href="..\ndis\nf-ndis-ndissetevent.md">NdisSetEvent</a> function, it remains in that
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff564539">NdisSetEvent</a> function, it remains in that
     state until an explicit call to 
     <b>NdisResetEvent</b> occurs. While an event remains in the 
     <i>signaled</i> state, callers of the 
-    <a href="..\ndis\nf-ndis-ndiswaitevent.md">NdisWaitEvent</a> function on that event are
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff564651">NdisWaitEvent</a> function on that event are
     dispatched for execution without waiting.
 
 
@@ -104,18 +94,18 @@ When an event is set to the
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndissetevent.md">NdisSetEvent</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisinitializeevent.md">NdisInitializeEvent</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562732">NdisInitializeEvent</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndiswaitevent.md">NdisWaitEvent</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564539">NdisSetEvent</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564651">NdisWaitEvent</a>
  
 
  

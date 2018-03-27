@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: Microsoft.WDTF
 req.assembly: WDTFDriverSetupDeviceAction.Interop.dll
 req.type-library: 
-req.lib: wdtfdriversetupdeviceaction.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -53,14 +53,6 @@ req.product: Windows 10 or later.
 Uninstalls the current driver for the target device.
 
 
-## -syntax
-
-
-````
-HRESULT UnInstallDriverPermanently();
-````
-
-
 ## -parameters
 
 
@@ -84,10 +76,10 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="..\wdtfdriversetupdeviceaction\nn-wdtfdriversetupdeviceaction-iwdtfdriversetupaction2.md">IWDTFDriverSetupAction2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450938">IWDTFDriverSetupAction2</a>
  
 
  

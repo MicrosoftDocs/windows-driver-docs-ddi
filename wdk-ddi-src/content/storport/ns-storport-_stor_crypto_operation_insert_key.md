@@ -53,15 +53,5 @@ req.product: Windows 10 or later.
 Reserved for system use.
 
 
-## -syntax
-
-
-````
-typedef struct _STOR_CRYPTO_OPERATION_INSERT_KEY {
-  ;      // Reserved for system use.
-} STOR_CRYPTO_OPERATION_INSERT_KEY, *PSTOR_CRYPTO_OPERATION_INSERT_KEY;
-````
-
-
 ## -struct-fields
 

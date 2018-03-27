@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
@@ -50,19 +50,6 @@ req.typenames: LAMP_INTENSITY_WHITE
 
 
 <b>ChangerError</b> performs device-specific error handling. 
-
-
-## -syntax
-
-
-````
-VOID ChangerError(
-   PDEVICE_OBJECT      DeviceObject,
-   PSCSI_REQUEST_BLOCK Srb,
-   NTSTATUS            *Status,
-   BOOLEAN             *Retry
-);
-````
 
 
 ## -parameters

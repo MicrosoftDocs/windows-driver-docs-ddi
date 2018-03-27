@@ -53,17 +53,6 @@ The NDIS_WWAN_SET_SIGNAL_INDICATION structure represents the signal indication o
   device.
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_WWAN_SET_SIGNAL_INDICATION {
-  NDIS_OBJECT_HEADER         Header;
-  WWAN_SET_SIGNAL_INDICATION SignalIndication;
-} NDIS_WWAN_SET_SIGNAL_INDICATION, *PNDIS_WWAN_SET_SIGNAL_INDICATION;
-````
-
-
 ## -struct-fields
 
 
@@ -117,27 +106,27 @@ sizeof(NDIS_WWAN_SET_SIGNAL_INDICATION)
  
 
 For more information about these members, see 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>.
 
 
 ### -field SignalIndication
 
 A formatted 
-     <a href="..\wwan\ns-wwan-_wwan_set_signal_indication.md">
+     <a href="https://msdn.microsoft.com/266ec8f5-f6ec-47e5-b433-4f570f2d43d2">
      WWAN_SET_SIGNAL_INDICATION</a> object that represents the frequency of RSSI interval and RSSI
      threshold notifications.
 
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_set_signal_indication.md">WWAN_SET_SIGNAL_INDICATION</a>
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571237">WWAN_SET_SIGNAL_INDICATION</a>
  
 
  

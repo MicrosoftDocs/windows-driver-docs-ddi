@@ -53,50 +53,6 @@ To specify its driver characteristics, a filter driver initializes an
   NDIS_FILTER_DRIVER_CHARACTERISTICS structure and passes it to NDIS.
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_FILTER_DRIVER_CHARACTERISTICS {
-  NDIS_OBJECT_HEADER                              Header;
-  UCHAR                                           MajorNdisVersion;
-  UCHAR                                           MinorNdisVersion;
-  UCHAR                                           MajorDriverVersion;
-  UCHAR                                           MinorDriverVersion;
-  ULONG                                           Flags;
-  NDIS_STRING                                     FriendlyName;
-  NDIS_STRING                                     UniqueName;
-  NDIS_STRING                                     ServiceName;
-  SET_OPTIONS_HANDLER                             SetOptionsHandler;
-  FILTER_SET_FILTER_MODULE_OPTIONS_HANDLER        SetFilterModuleOptionsHandler;
-  FILTER_ATTACH_HANDLER                           AttachHandler;
-  FILTER_DETACH_HANDLER                           DetachHandler;
-  FILTER_RESTART_HANDLER                          RestartHandler;
-  FILTER_PAUSE_HANDLER                            PauseHandler;
-  FILTER_SEND_NET_BUFFER_LISTS_HANDLER            SendNetBufferListsHandler;
-  FILTER_SEND_NET_BUFFER_LISTS_COMPLETE_HANDLER   SendNetBufferListsCompleteHandler;
-  FILTER_CANCEL_SEND_HANDLER                      CancelSendNetBufferListsHandler;
-  FILTER_RECEIVE_NET_BUFFER_LISTS_HANDLER         ReceiveNetBufferListsHandler;
-  FILTER_RETURN_NET_BUFFER_LISTS_HANDLER          ReturnNetBufferListsHandler;
-  FILTER_OID_REQUEST_HANDLER                      OidRequestHandler;
-  FILTER_OID_REQUEST_COMPLETE_HANDLER             OidRequestCompleteHandler;
-  FILTER_CANCEL_OID_REQUEST_HANDLER               CancelOidRequestHandler;
-  FILTER_DEVICE_PNP_EVENT_NOTIFY_HANDLER          DevicePnPEventNotifyHandler;
-  FILTER_NET_PNP_EVENT_HANDLER                    NetPnPEventHandler;
-  FILTER_STATUS_HANDLER                           StatusHandler;
-#if (NDIS_SUPPORT_NDIS61)
-  FILTER_DIRECT_OID_REQUEST_HANDLER               DirectOidRequestHandler;
-  FILTER_DIRECT_OID_REQUEST_COMPLETE_HANDLER      DirectOidRequestCompleteHandler;
-  FILTER_CANCEL_DIRECT_OID_REQUEST_HANDLER        CancelDirectOidRequestHandler;
-#endif 
-#if (NDIS_SUPPORT_NDIS680)
-  FILTER_SYNCHRONOUS_OID_REQUEST_HANDLER          SynchronousOidRequestHandler;
-  FILTER_SYNCHRONOUS_OID_REQUEST_COMPLETE_HANDLER SynchronousOidRequestHandlerComplete;
-#endif 
-} NDIS_FILTER_DRIVER_CHARACTERISTICS, *PNDIS_FILTER_DRIVER_CHARACTERISTICS;
-````
-
-
 ## -struct-fields
 
 
@@ -105,7 +61,7 @@ typedef struct _NDIS_FILTER_DRIVER_CHARACTERISTICS {
 ### -field Header
 
 The 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure for the
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure for the
      filter driver characteristics structure (NDIS_FILTER_DRIVER_CHARACTERISTICS). Set the 
      <b>Type</b> member of the structure that 
      <b>Header</b> specifies to NDIS_OBJECT_TYPE_FILTER_DRIVER_CHARACTERISTICS.
@@ -308,45 +264,45 @@ Specifies the entry point of the caller's
 ### -field SetFilterModuleOptionsHandler
 
 The entry point of the caller's 
-     <a href="..\ndis\nc-ndis-filter_set_module_options.md">
+     <a href="https://msdn.microsoft.com/04b7ac32-8996-4648-8c88-aa9f630b1bc4">
      FilterSetModuleOptions</a> function.
 
 
 ### -field AttachHandler
 
 The entry point of the caller's 
-     <a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a> function.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff540442">FilterAttach</a> function.
 
 
 ### -field DetachHandler
 
 The entry point of the caller's 
-     <a href="..\ndis\nc-ndis-filter_detach.md">FilterDetach</a> function.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff540475">FilterDetach</a> function.
 
 
 ### -field RestartHandler
 
 The entry point of the caller's 
-     <a href="..\ndis\nc-ndis-filter_restart.md">FilterRestart</a> function.
+     <a href="https://msdn.microsoft.com/4a917824-eef1-4945-b45e-1c940bc8a50d">FilterRestart</a> function.
 
 
 ### -field PauseHandler
 
 The entry point of the caller's 
-     <a href="..\ndis\nc-ndis-filter_pause.md">FilterPause</a> function.
+     <a href="https://msdn.microsoft.com/a239889e-ec39-48fc-9e82-c8bc3d7ca51a">FilterPause</a> function.
 
 
 ### -field SendNetBufferListsHandler
 
 The entry point of the caller's 
-     <a href="..\ndis\nc-ndis-filter_send_net_buffer_lists.md">
+     <a href="https://msdn.microsoft.com/1b3fc0c8-95da-47e5-8ff1-b7967f5148e7">
      FilterSendNetBufferLists</a> function. To bypass this function, set this member to <b>NULL</b>.
 
 
 ### -field SendNetBufferListsCompleteHandler
 
 The entry point of the caller's 
-     <a href="..\ndis\nc-ndis-filter_send_net_buffer_lists_complete.md">
+     <a href="https://msdn.microsoft.com/1a3a1e80-29f1-4f19-b3c7-9a8b189f18c4">
      FilterSendNetBufferListsComplete</a> function. To bypass this function, set this member to
      <b>NULL</b>.
 
@@ -354,84 +310,84 @@ The entry point of the caller's
 ### -field CancelSendNetBufferListsHandler
 
 The entry point of the caller's 
-     <a href="..\ndis\nc-ndis-filter_cancel_send_net_buffer_lists.md">
+     <a href="https://msdn.microsoft.com/55979b0d-61a6-43da-8fa5-11159b1a48d1">
      FilterCancelSendNetBufferLists</a> function. To bypass this function, set this member to <b>NULL</b>.
 
 
 ### -field ReceiveNetBufferListsHandler
 
 The entry point of the caller's 
-     <a href="..\ndis\nc-ndis-filter_receive_net_buffer_lists.md">
+     <a href="https://msdn.microsoft.com/6359c2a7-1208-41ea-bbf9-015c91b6e8f6">
      FilterReceiveNetBufferLists</a> function. To bypass this function, set this member to <b>NULL</b>.
 
 
 ### -field ReturnNetBufferListsHandler
 
 The entry point of the caller's 
-     <a href="..\ndis\nc-ndis-filter_return_net_buffer_lists.md">
+     <a href="https://msdn.microsoft.com/8d7e362f-62da-4ce7-9497-1cfaff2b678e">
      FilterReturnNetBufferLists</a> function. To bypass this function, set this member to <b>NULL</b>.
 
 
 ### -field OidRequestHandler
 
 The entry point of the caller's 
-     <a href="..\ndis\nc-ndis-filter_oid_request.md">FilterOidRequest</a> function. To bypass
+     <a href="https://msdn.microsoft.com/238bfa21-a971-4fe4-a774-6ba834efc3c5">FilterOidRequest</a> function. To bypass
      this function, set this member to <b>NULL</b>.
 
 
 ### -field OidRequestCompleteHandler
 
 The entry point of the caller's 
-     <a href="..\ndis\nc-ndis-filter_oid_request_complete.md">
+     <a href="https://msdn.microsoft.com/2dba21d8-512b-4a1a-9cf9-0240c94a69a0">
      FilterOidRequestComplete</a> function. To bypass this function, set this member to <b>NULL</b>.
 
 
 ### -field CancelOidRequestHandler
 
 The entry point of the caller's 
-     <a href="..\ndis\nc-ndis-filter_cancel_oid_request.md">
+     <a href="https://msdn.microsoft.com/e7e3f67e-5353-4355-bf19-8a8041cafc84">
      FilterCancelOidRequest</a> function. To bypass this function, set this member to <b>NULL</b>.
 
 
 ### -field DevicePnPEventNotifyHandler
 
 The entry point of the caller's 
-     <a href="..\ndis\nc-ndis-filter_device_pnp_event_notify.md">
+     <a href="https://msdn.microsoft.com/dea4ab30-ba1d-4c9c-9f00-e48cc3cc0b46">
      FilterDevicePnPEventNotify</a> function. To bypass this function, set this member to <b>NULL</b>.
 
 
 ### -field NetPnPEventHandler
 
 The entry point of the caller's 
-     <a href="..\ndis\nc-ndis-filter_net_pnp_event.md">FilterNetPnPEvent</a> function. To
+     <a href="https://msdn.microsoft.com/5c52b2d2-3fba-4d28-8172-7b6854386061">FilterNetPnPEvent</a> function. To
      bypass this function, set this member to <b>NULL</b>.
 
 
 ### -field StatusHandler
 
 The entry point of the caller's 
-     <a href="..\ndis\nc-ndis-filter_status.md">FilterStatus</a> function. To bypass this
+     <a href="https://msdn.microsoft.com/051ce37c-a7a5-4367-9495-023fc51349ba">FilterStatus</a> function. To bypass this
      function, set this member to <b>NULL</b>.
 
 
 ### -field DirectOidRequestHandler
 
 The entry point of the caller's 
-      <a href="..\ndis\nc-ndis-filter_direct_oid_request.md">
+      <a href="https://msdn.microsoft.com/a39f4b50-0183-4f92-82f2-3c8e2e2d0632">
       FilterDirectOidRequest</a> function. To bypass this function, set this member to <b>NULL</b>.
 
 
 ### -field DirectOidRequestCompleteHandler
 
 The entry point of the caller's 
-      <a href="..\ndis\nc-ndis-filter_direct_oid_request_complete.md">
+      <a href="https://msdn.microsoft.com/a97c86e9-4fd9-4e2f-9787-4fa19c38a69b">
       FilterDirectOidRequestComplete</a> function. To bypass this function, set this member to <b>NULL</b>.
 
 
 ### -field CancelDirectOidRequestHandler
 
 The entry point of the caller's 
-      <a href="..\ndis\nc-ndis-filter_cancel_direct_oid_request.md">
+      <a href="https://msdn.microsoft.com/3587c5dc-3b4c-4aab-8c2d-cc9988373a56">
       FilterCancelDirectOidRequest</a> function. To bypass this function, set this member to <b>NULL</b>.
 
 
@@ -461,7 +417,7 @@ This member is reserved.
 
 
 A filter driver calls the 
-    <a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">
+    <a href="https://msdn.microsoft.com/14381de2-36d9-4ec8-9d4e-7af3e6d8ecf3">
     NdisFRegisterFilterDriver</a> function to register its characteristics, including the default entry
     points for its filter driver functions (<i>FilterXxx</i>). The filter driver initializes an NDIS_FILTER_DRIVER_CHARACTERISTICS structure and
     passes a pointer to this structure in the 
@@ -473,36 +429,82 @@ A filter driver calls the
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
 
 
 
-<a href="..\ndis\nc-ndis-filter_receive_net_buffer_lists.md">FilterReceiveNetBufferLists</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540442">FilterAttach</a>
 
 
 
-<a href="..\ndis\nc-ndis-filter_net_pnp_event.md">FilterNetPnPEvent</a>
-
-
-
-<a href="..\ndis\nc-ndis-filter_cancel_direct_oid_request.md">
+<a href="https://msdn.microsoft.com/3587c5dc-3b4c-4aab-8c2d-cc9988373a56">
    FilterCancelDirectOidRequest</a>
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="https://msdn.microsoft.com/e7e3f67e-5353-4355-bf19-8a8041cafc84">FilterCancelOidRequest</a>
 
 
 
-<a href="..\ndis\nc-ndis-filter_detach.md">FilterDetach</a>
+<a href="https://msdn.microsoft.com/55979b0d-61a6-43da-8fa5-11159b1a48d1">
+   FilterCancelSendNetBufferLists</a>
 
 
 
-<a href="https://msdn.microsoft.com/e24b18b5-76d3-4d56-bf60-0dea91ba014e">Initializing a Filter Driver</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540475">FilterDetach</a>
 
 
 
-<a href="..\ndis\nc-ndis-filter_send_net_buffer_lists.md">FilterSendNetBufferLists</a>
+<a href="https://msdn.microsoft.com/dea4ab30-ba1d-4c9c-9f00-e48cc3cc0b46">FilterDevicePnPEventNotify</a>
+
+
+
+<a href="https://msdn.microsoft.com/a39f4b50-0183-4f92-82f2-3c8e2e2d0632">FilterDirectOidRequest</a>
+
+
+
+<a href="https://msdn.microsoft.com/a97c86e9-4fd9-4e2f-9787-4fa19c38a69b">
+   FilterDirectOidRequestComplete</a>
+
+
+
+<a href="https://msdn.microsoft.com/5c52b2d2-3fba-4d28-8172-7b6854386061">FilterNetPnPEvent</a>
+
+
+
+<a href="https://msdn.microsoft.com/238bfa21-a971-4fe4-a774-6ba834efc3c5">FilterOidRequest</a>
+
+
+
+<a href="https://msdn.microsoft.com/2dba21d8-512b-4a1a-9cf9-0240c94a69a0">FilterOidRequestComplete</a>
+
+
+
+<a href="https://msdn.microsoft.com/a239889e-ec39-48fc-9e82-c8bc3d7ca51a">FilterPause</a>
+
+
+
+<a href="https://msdn.microsoft.com/6359c2a7-1208-41ea-bbf9-015c91b6e8f6">FilterReceiveNetBufferLists</a>
+
+
+
+<a href="https://msdn.microsoft.com/4a917824-eef1-4945-b45e-1c940bc8a50d">FilterRestart</a>
+
+
+
+<a href="https://msdn.microsoft.com/8d7e362f-62da-4ce7-9497-1cfaff2b678e">FilterReturnNetBufferLists</a>
+
+
+
+<a href="https://msdn.microsoft.com/1b3fc0c8-95da-47e5-8ff1-b7967f5148e7">FilterSendNetBufferLists</a>
+
+
+
+<a href="https://msdn.microsoft.com/1a3a1e80-29f1-4f19-b3c7-9a8b189f18c4">
+   FilterSendNetBufferListsComplete</a>
+
+
+
+<a href="https://msdn.microsoft.com/04b7ac32-8996-4648-8c88-aa9f630b1bc4">FilterSetModuleOptions</a>
 
 
 
@@ -510,67 +512,7 @@ A filter driver calls the
 
 
 
-<a href="..\ndis\nc-ndis-filter_direct_oid_request_complete.md">
-   FilterDirectOidRequestComplete</a>
-
-
-
-<a href="..\ndis\nc-ndis-filter_pause.md">FilterPause</a>
-
-
-
-<a href="..\ndis\nc-ndis-filter_cancel_oid_request.md">FilterCancelOidRequest</a>
-
-
-
-<a href="..\ndis\nc-ndis-filter_device_pnp_event_notify.md">FilterDevicePnPEventNotify</a>
-
-
-
-<a href="..\ndis\ns-ndis-_ndis_filter_partial_characteristics.md">
-   NDIS_FILTER_PARTIAL_CHARACTERISTICS</a>
-
-
-
-<a href="..\ndis\nc-ndis-filter_set_module_options.md">FilterSetModuleOptions</a>
-
-
-
-<a href="..\ndis\nc-ndis-filter_return_net_buffer_lists.md">FilterReturnNetBufferLists</a>
-
-
-
-<a href="..\ndis\nc-ndis-filter_oid_request_complete.md">FilterOidRequestComplete</a>
-
-
-
-<a href="..\ndis\nc-ndis-filter_restart.md">FilterRestart</a>
-
-
-
-<a href="..\ndis\nc-ndis-filter_status.md">FilterStatus</a>
-
-
-
-<a href="..\ndis\nc-ndis-filter_send_net_buffer_lists_complete.md">
-   FilterSendNetBufferListsComplete</a>
-
-
-
-<a href="..\ndis\nc-ndis-filter_direct_oid_request.md">FilterDirectOidRequest</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">NdisFRegisterFilterDriver</a>
-
-
-
-<a href="..\ndis\nc-ndis-filter_cancel_send_net_buffer_lists.md">
-   FilterCancelSendNetBufferLists</a>
-
-
-
-<a href="..\ndis\nc-ndis-filter_oid_request.md">FilterOidRequest</a>
+<a href="https://msdn.microsoft.com/051ce37c-a7a5-4367-9495-023fc51349ba">FilterStatus</a>
 
 
 
@@ -578,6 +520,20 @@ A filter driver calls the
 
 
 
+<a href="https://msdn.microsoft.com/e24b18b5-76d3-4d56-bf60-0dea91ba014e">Initializing a Filter Driver</a>
+
+
+
+<a href="https://msdn.microsoft.com/4a7f365c-a252-4d8e-bddf-684b3298db5c">
+   NDIS_FILTER_PARTIAL_CHARACTERISTICS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562608">NdisFRegisterFilterDriver</a>
  
 
  

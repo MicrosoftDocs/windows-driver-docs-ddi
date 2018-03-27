@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -52,19 +52,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 The <b>EvaluateWide</b>  method evaluates an expression, returning the result.
 
 
-## -syntax
-
-
-````
-HRESULT EvaluateWide(
-  [in]            PCWSTR       Expression,
-  [in]            ULONG        DesiredType,
-  [out]           PDEBUG_VALUE Value,
-  [out, optional] PULONG       RemainderIndex
-);
-````
-
-
 ## -parameters
 
 
@@ -77,7 +64,7 @@ Specifies the expression to be evaluated.
 
 ### -param DesiredType [in]
 
-Specifies the desired return type.  Possible values are described in <a href="..\dbgeng\ns-dbgeng-_debug_value.md">DEBUG_VALUE</a>; with the addition of DEBUG_VALUE_INVALID, which indicates that the return type should be the expression's natural type.
+Specifies the desired return type.  Possible values are described in <a href="https://msdn.microsoft.com/library/windows/hardware/ff541719">DEBUG_VALUE</a>; with the addition of DEBUG_VALUE_INVALID, which indicates that the return type should be the expression's natural type.
 
 
 ### -param Value [out]
@@ -144,7 +131,6 @@ If an error occurs while evaluating the expression, returning E_FAIL, the <i>Rem
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556696">SetExpressionSyntax</a>
 
 
 
@@ -152,14 +138,15 @@ If an error occurs while evaluating the expression, returning E_FAIL, the <i>Rem
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550526">IDebugControl4</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556696">SetExpressionSyntax</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556697">SetExpressionSyntaxByName</a>
-
-
-
  
 
  

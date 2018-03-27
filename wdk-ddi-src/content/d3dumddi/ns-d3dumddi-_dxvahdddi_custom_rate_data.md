@@ -52,19 +52,6 @@ req.typenames: DXVAHDDDI_CUSTOM_RATE_DATA
 The DXVAHDDDI_CUSTOM_RATE_DATA structure describes the video content that a decode device processes. 
 
 
-## -syntax
-
-
-````
-typedef struct _DXVAHDDDI_CUSTOM_RATE_DATA {
-  DXVAHDDDI_RATIONAL CustomRate;
-  UINT               OutputFrames;
-  BOOL               InputInterlaced;
-  UINT               InputFramesOrFields;
-} DXVAHDDDI_CUSTOM_RATE_DATA;
-````
-
-
 ## -struct-fields
 
 
@@ -73,7 +60,7 @@ typedef struct _DXVAHDDDI_CUSTOM_RATE_DATA {
 ### -field CustomRate
 
 
-      [in] A <a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_rational.md">DXVAHDDDI_RATIONAL</a> structure that specifies a fractional value that represents the input and output frame rate. 
+      [in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff563064">DXVAHDDDI_RATIONAL</a> structure that specifies a fractional value that represents the input and output frame rate. 
      
 
 
@@ -105,10 +92,10 @@ The driver can expose custom rates for the frame rate conversion or the inverse 
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_rational.md">DXVAHDDDI_RATIONAL</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563064">DXVAHDDDI_RATIONAL</a>
  
 
  

@@ -53,20 +53,6 @@ req.product: Windows 10 or later.
 <i>HwVidStartIO</i> processes the specified <a href="https://msdn.microsoft.com/a1de1905-09f3-4689-ace9-06690a1f930a">VRP</a>.
 
 
-## -prototype
-
-
-````
-PVIDEO_HW_START_IO HwVidStartIO;
-
-BOOLEAN HwVidStartIO(
-   PVOID                 HwDeviceExtension,
-   PVIDEO_REQUEST_PACKET RequestPacket
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -79,7 +65,7 @@ Pointer to the miniport driver's per-adapter storage area. For more information,
 
 ### -param RequestPacket
 
-Pointer to a <a href="..\video\ns-video-_video_request_packet.md">VIDEO_REQUEST_PACKET</a> structure, which contains all the parameters originally passed to <a href="https://msdn.microsoft.com/library/windows/hardware/ff564838">EngDeviceIoControl</a>.
+Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff570547">VIDEO_REQUEST_PACKET</a> structure, which contains all the parameters originally passed to <a href="https://msdn.microsoft.com/library/windows/hardware/ff564838">EngDeviceIoControl</a>.
 
 
 ## -returns
@@ -117,7 +103,7 @@ Set the <b>Status</b> and <b>Information</b> members in the <a href="https://msd
 
 </li>
 </ol>
-The system video port driver serializes all requests. A miniport driver need not perform any serialization of its own unless it has a <a href="..\video\nc-video-pvideo_hw_interrupt.md">HwVidInterrupt</a> function.
+The system video port driver serializes all requests. A miniport driver need not perform any serialization of its own unless it has a <a href="https://msdn.microsoft.com/523471e3-cf1e-48d2-b5f0-2f8d19ad71e0">HwVidInterrupt</a> function.
 
 However, every miniport driver's <i>HwVidStartIO</i> function must complete each requested operation or set an appropriate error in the VRP's <b>StatusBlock</b> before it returns control.
 
@@ -128,18 +114,18 @@ However, every miniport driver's <i>HwVidStartIO</i> function must complete each
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570547">VIDEO_REQUEST_PACKET</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff570515">Video Miniport Driver I/O Control Codes</a>
 
 
 
-<a href="..\video\nf-video-videoportsynchronizeexecution.md">VideoPortSynchronizeExecution</a>
-
-
-
-<a href="..\video\ns-video-_video_request_packet.md">VIDEO_REQUEST_PACKET</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570372">VideoPortSynchronizeExecution</a>
  
 
  

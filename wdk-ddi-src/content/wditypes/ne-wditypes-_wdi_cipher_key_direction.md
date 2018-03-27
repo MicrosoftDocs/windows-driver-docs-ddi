@@ -53,18 +53,6 @@ req.product: Windows 10 or later.
 The WDI_CIPHER_KEY_DIRECTION enumeration defines the traffic directions decrypted by a cipher key.
 
 
-## -syntax
-
-
-````
-typedef enum _WDI_CIPHER_KEY_DIRECTION { 
-  WDI_CIPHER_KEY_DIRECTION_INBOUND   = 1,
-  WDI_CIPHER_KEY_DIRECTION_OUTBOUND  = 2,
-  WDI_CIPHER_KEY_DIRECTION_BOTH      = 3
-} WDI_CIPHER_KEY_DIRECTION;
-````
-
-
 ## -enum-fields
 
 

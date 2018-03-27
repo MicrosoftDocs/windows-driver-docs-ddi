@@ -52,20 +52,6 @@ req.typenames: D3DKMT_FLIPOVERLAY
 The D3DKMT_FLIPOVERLAY structure describes a new allocation to display for the overlay. 
 
 
-## -syntax
-
-
-````
-typedef struct _D3DKMT_FLIPOVERLAY {
-  D3DKMT_HANDLE hDevice;
-  D3DKMT_HANDLE hOverlay;
-  D3DKMT_HANDLE hSource;
-  VOID          *pPrivateDriverData;
-  UINT          PrivateDriverDataSize;
-} D3DKMT_FLIPOVERLAY;
-````
-
-
 ## -struct-fields
 
 
@@ -98,10 +84,10 @@ typedef struct _D3DKMT_FLIPOVERLAY {
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtflipoverlay.md">D3DKMTFlipOverlay</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546949">D3DKMTFlipOverlay</a>
  
 
  

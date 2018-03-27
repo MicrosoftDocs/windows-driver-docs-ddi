@@ -52,18 +52,6 @@ req.typenames: D3D12DDI_VIDEO_FIELD_TYPE_0020
 Contains values that define how a video frame is interlaced.
 
 
-## -syntax
-
-
-````
-typedef enum D3D12DDI_VIDEO_FIELD_TYPE_0020 { 
-  D3D12DDI_VIDEO_FIELD_TYPE_0020_NONE                           = 0,
-  D3D12DDI_VIDEO_FIELD_TYPE_0020_INTERLACED_TOP_FIELD_FIRST     = 1,
-  D3D12DDI_VIDEO_FIELD_TYPE_0020_INTERLACED_BOTTOM_FIELD_FIRST  = 2
-} D3D12DDI_VIDEO_FIELD_TYPE_0020;
-````
-
-
 ## -enum-fields
 
 

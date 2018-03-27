@@ -52,19 +52,6 @@ req.typenames: D3DKMT_ADDSURFACETOSWAPCHAIN
 Used to add a surface to the swapchain.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DKMT_ADDSURFACETOSWAPCHAIN {
-  HANDLE hNtSwapChain;
-  BOOL   bProducer;
-  HANDLE hNtSurfaceHandle;
-  UINT   BufferIdx;
-} D3DKMT_ADDSURFACETOSWAPCHAIN;
-````
-
-
 ## -struct-fields
 
 

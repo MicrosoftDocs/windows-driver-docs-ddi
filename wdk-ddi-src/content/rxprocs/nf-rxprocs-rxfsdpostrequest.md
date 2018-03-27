@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
@@ -51,16 +51,6 @@ req.product: Windows 10 or later.
 
 
 <b>RxFsdPostRequest</b> queues the I/O request packet (IRP) specified by an RX_CONTEXT structure to the worker queue for processing by the file system process (FSP). 
-
-
-## -syntax
-
-
-````
-NTSTATUS RxFsdPostRequest(
-  _In_ PRX_CONTEXT RxContext
-);
-````
 
 
 ## -parameters
@@ -142,10 +132,10 @@ All calls to <b>RxFsdPostRequest</b> are queued to a worker thread to call the <
 
 ## -see-also
 
-<a href="..\mrx\nf-mrx-rxfsddispatch.md">RxFsdDispatch</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554468">RxFsdDispatch</a>
  
 
  

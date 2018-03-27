@@ -49,19 +49,7 @@ req.typenames: VOLUME_READ_PLEX_INPUT, *PVOLUME_READ_PLEX_INPUT
 ## -description
 
 
-This structure is used in conjunction with <a href="..\ntddvol\ni-ntddvol-ioctl_volume_read_plex.md">IOCTL_VOLUME_READ_PLEX</a> to read data from a specific <a href="https://msdn.microsoft.com/139a10e9-203b-499b-9291-8537eae9189c">plex</a> in a volume. 
-
-
-## -syntax
-
-
-````
-typedef struct _VOLUME_READ_PLEX_INPUT {
-  LARGE_INTEGER ByteOffset;
-  ULONG         Length;
-  ULONG         PlexNumber;
-} VOLUME_READ_PLEX_INPUT, *PVOLUME_READ_PLEX_INPUT;
-````
+This structure is used in conjunction with <a href="https://msdn.microsoft.com/library/windows/hardware/ff561442">IOCTL_VOLUME_READ_PLEX</a> to read data from a specific <a href="https://msdn.microsoft.com/139a10e9-203b-499b-9291-8537eae9189c">plex</a> in a volume. 
 
 
 ## -struct-fields
@@ -86,10 +74,10 @@ Supplies the zero-based plex number.
 
 ## -see-also
 
-<a href="..\ntddvol\ni-ntddvol-ioctl_volume_read_plex.md">IOCTL_VOLUME_READ_PLEX</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561442">IOCTL_VOLUME_READ_PLEX</a>
  
 
  

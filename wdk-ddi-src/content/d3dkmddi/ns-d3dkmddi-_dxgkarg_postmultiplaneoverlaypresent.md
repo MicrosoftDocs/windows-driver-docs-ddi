@@ -52,19 +52,6 @@ req.typenames: DXGKARG_POSTMULTIPLANEOVERLAYPRESENT
 Contains arguments for the DxgkDdiPostMultiPlaneOverlayPresent function.
 
 
-## -syntax
-
-
-````
-typedef struct _DXGKARG_POSTMULTIPLANEOVERLAYPRESENT {
-  D3DDDI_VIDEO_PRESENT_TARGET_ID VidPnTargetId;
-  UINT                           PhysicalAdapterMask;
-  DWORD                          LayerIndex;
-  ULONGLONG                      PresentId;
-} DXGKARG_POSTMULTIPLANEOVERLAYPRESENT;
-````
-
-
 ## -struct-fields
 
 

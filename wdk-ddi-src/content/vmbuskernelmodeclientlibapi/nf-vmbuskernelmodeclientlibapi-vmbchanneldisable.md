@@ -57,16 +57,6 @@ The <b>VmbChannelDisable</b> function disables a channel, which closes it for cl
 before it returns.
 
 
-## -syntax
-
-
-````
-VOID VmbChannelDisable(
-  _In_ VMBCHANNEL Channel
-);
-````
-
-
 ## -parameters
 
 

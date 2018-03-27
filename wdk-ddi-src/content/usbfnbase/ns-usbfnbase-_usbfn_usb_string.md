@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 Describes a USB string descriptor and the associated string index. 
 
 
-## -syntax
-
-
-````
-typedef struct _USBFN_USB_STRING {
-  UINT8 StringIndex;
-  WCHAR  UsbString[MAX_USB_STRING_LENGTH];
-} USBFN_USB_STRING, *PUSBFN_USB_STRING;
-````
-
-
 ## -struct-fields
 
 
@@ -81,10 +70,10 @@ Pointer to the string.
 
 ## -see-also
 
-<a href="..\usbfnioctl\ni-usbfnioctl-ioctl_internal_usbfn_register_usb_string.md">IOCTL_INTERNAL_USBFN_REGISTER_USB_STRING</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt187899">IOCTL_INTERNAL_USBFN_REGISTER_USB_STRING</a>
  
 
  

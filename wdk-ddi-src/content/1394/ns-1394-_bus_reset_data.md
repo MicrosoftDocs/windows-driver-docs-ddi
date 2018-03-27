@@ -52,20 +52,6 @@ req.typenames: BUS_RESET_DATA, *PBUS_RESET_DATA
 The <b>BUS_RESET_DATA</b> structure specifies the context for the extended bus reset notification routine. 
 
 
-## -syntax
-
-
-````
-typedef struct _BUS_RESET_DATA {
-  PVOID        ResetContext;
-  ULONG        GenerationCount;
-  NODE_ADDRESS DeviceNodeId;
-  NODE_ADDRESS LocalNodeId;
-  UCHAR        SpeedToNode;
-} BUS_RESET_DATA, *PBUS_RESET_DATA;
-````
-
-
 ## -struct-fields
 
 
@@ -122,10 +108,10 @@ The negotiated speed to the device. The possible values are as follows:
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/5473C6AC-284C-41B1-AA67-75696BE96C24">Device Driver Interface (DDI) Changes in Windows 7</a>
-
-
-
  
 
  

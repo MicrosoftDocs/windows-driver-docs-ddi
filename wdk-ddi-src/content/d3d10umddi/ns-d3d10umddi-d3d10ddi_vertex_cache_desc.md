@@ -52,19 +52,6 @@ req.typenames: D3D10DDI_VERTEX_CACHE_DESC
 The D3D10DDI_VERTEX_CACHE_DESC structure describes mesh-optimization data.
 
 
-## -syntax
-
-
-````
-typedef struct D3D10DDI_VERTEX_CACHE_DESC {
-  UINT Pattern;
-  UINT OptMethod;
-  UINT CacheSize;
-  UINT MagicNumber;
-} D3D10DDI_VERTEX_CACHE_DESC;
-````
-
-
 ## -struct-fields
 
 

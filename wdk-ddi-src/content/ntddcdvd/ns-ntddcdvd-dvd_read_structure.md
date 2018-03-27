@@ -49,20 +49,7 @@ req.typenames: DVD_READ_STRUCTURE, *PDVD_READ_STRUCTURE
 ## -description
 
 
-The DVD_READ_STRUCTURE structure is used in conjunction with the <a href="..\ntddcdvd\ni-ntddcdvd-ioctl_dvd_read_structure.md">IOCTL_DVD_READ_STRUCTURE</a> request to retrieve a DVD descriptor containing information about a DVD disc. 
-
-
-## -syntax
-
-
-````
-typedef struct DVD_READ_STRUCTURE {
-  LARGE_INTEGER        BlockByteOffset;
-  DVD_STRUCTURE_FORMAT Format;
-  DVD_SESSION_ID       SessionId;
-  UCHAR                LayerNumber;
-} DVD_READ_STRUCTURE, *PDVD_READ_STRUCTURE;
-````
+The DVD_READ_STRUCTURE structure is used in conjunction with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560426">IOCTL_DVD_READ_STRUCTURE</a> request to retrieve a DVD descriptor containing information about a DVD disc. 
 
 
 ## -struct-fields
@@ -77,7 +64,7 @@ Contains an offset to the logical block address of the descriptor to be retrieve
 
 ### -field Format
 
-Indicates the type of DVD descriptor to retrieve. See the <a href="..\ntddcdvd\ne-ntddcdvd-dvd_structure_format.md">DVD_STRUCTURE_FORMAT</a> enumeration type for further information about the values that can be assigned to this member. 
+Indicates the type of DVD descriptor to retrieve. See the <a href="https://msdn.microsoft.com/library/windows/hardware/ff553750">DVD_STRUCTURE_FORMAT</a> enumeration type for further information about the values that can be assigned to this member. 
 
 
 ### -field SessionId
@@ -101,14 +88,14 @@ The DVD_READ_STRUCTURE structure contains data such as copyright information, or
 
 ## -see-also
 
-<a href="..\ntddcdvd\ni-ntddcdvd-ioctl_dvd_read_structure.md">IOCTL_DVD_READ_STRUCTURE</a>
 
 
 
-<a href="..\ntddcdvd\ne-ntddcdvd-dvd_structure_format.md">DVD_STRUCTURE_FORMAT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553750">DVD_STRUCTURE_FORMAT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560426">IOCTL_DVD_READ_STRUCTURE</a>
  
 
  

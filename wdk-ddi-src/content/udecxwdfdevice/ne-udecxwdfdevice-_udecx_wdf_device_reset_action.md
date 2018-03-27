@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 Defines values that indicate the types of reset operation supported by an emulated USB host controller.
 
 
-## -syntax
-
-
-````
-typedef enum _UDECX_WDF_DEVICE_RESET_ACTION { 
-  UdecxWdfDeviceResetActionResetEachUsbDevice  = 0,
-  UdecxWdfDeviceResetActionResetWdfDevice      = 
-} UDECX_WDF_DEVICE_RESET_ACTION;
-````
-
-
 ## -enum-fields
 
 
@@ -81,14 +70,14 @@ The emulated host controller is reset.
 
 ## -see-also
 
-<a href="..\udecxwdfdevice\ns-udecxwdfdevice-_udecx_wdf_device_config.md">UDECX_WDF_DEVICE_CONFIG</a>
 
 
 
-<a href="..\udecxwdfdevice\nc-udecxwdfdevice-evt_udecx_wdf_device_reset.md">EVT_UDECX_WDF_DEVICE_RESET</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt595920">EVT_UDECX_WDF_DEVICE_RESET</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt628008">UDECX_WDF_DEVICE_CONFIG</a>
  
 
  

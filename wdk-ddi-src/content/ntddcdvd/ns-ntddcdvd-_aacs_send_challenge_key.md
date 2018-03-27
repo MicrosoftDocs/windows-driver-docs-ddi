@@ -52,17 +52,6 @@ req.typenames: AACS_SEND_CHALLENGE_KEY, *PAACS_SEND_CHALLENGE_KEY
 The AACS_SEND_CHALLENGE_KEY structure is defined as a challenge key that host software sends to an Advanced Access Content System (AACS) device.
 
 
-## -syntax
-
-
-````
-typedef struct _AACS_SEND_CHALLENGE_KEY {
-  DVD_SESSION_ID     SessionId;
-  AACS_CHALLENGE_KEY ChallengeKey;
-} AACS_SEND_CHALLENGE_KEY, *PAACS_SEND_CHALLENGE_KEY;
-````
-
-
 ## -struct-fields
 
 
@@ -75,21 +64,24 @@ A value of type DVD_SESSION_ID that specifies an Authentication Grant Identifier
 
 ### -field ChallengeKey
 
-A structure of type <a href="..\ntddcdvd\ns-ntddcdvd-_aacs_challenge_key.md">AACS_CHALLENGE_KEY</a> that specifies the challenge key to retrieve.
+A structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff550108">AACS_CHALLENGE_KEY</a> that specifies the challenge key to retrieve.
 
 
 ## -remarks
 
 
 
-Host software send this challenge key to an AACS-compliant device with an <a href="..\ntddcdvd\ni-ntddcdvd-ioctl_aacs_send_challenge_key.md">IOCTL_AACS_SEND_CHALLENGE_KEY</a> request.
+Host software send this challenge key to an AACS-compliant device with an <a href="https://msdn.microsoft.com/library/windows/hardware/ff559302">IOCTL_AACS_SEND_CHALLENGE_KEY</a> request.
 
 
 
 
 ## -see-also
 
-<a href="..\ntddcdvd\ni-ntddcdvd-ioctl_aacs_send_challenge_key.md">IOCTL_AACS_SEND_CHALLENGE_KEY</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550108">AACS_CHALLENGE_KEY</a>
 
 
 
@@ -97,10 +89,7 @@ Host software send this challenge key to an AACS-compliant device with an <a hre
 
 
 
-<a href="..\ntddcdvd\ns-ntddcdvd-_aacs_challenge_key.md">AACS_CHALLENGE_KEY</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559302">IOCTL_AACS_SEND_CHALLENGE_KEY</a>
  
 
  

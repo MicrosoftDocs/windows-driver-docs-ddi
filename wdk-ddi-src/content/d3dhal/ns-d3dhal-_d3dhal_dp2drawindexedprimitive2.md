@@ -53,22 +53,7 @@ req.typenames: D3DHAL_DP2DRAWINDEXEDPRIMITIVE2
    DirectX 8.0 and later versions only.
    
 
-D3DHAL_DRAWINDEXEDPRIMITIVE2 is parsed from the command buffer by the <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a> callback when the <a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a> structure's <b>bCommand</b> member is set to D3DDP2OP_DRAWINDEXEDPRIMITIVE2, and is used to render a primitive using vertex indices.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DHAL_DP2DRAWINDEXEDPRIMITIVE2 {
-  D3DPRIMITIVETYPE primType;
-  INT              BaseVertexOffset;
-  DWORD            MinIndex;
-  DWORD            NumVertices;
-  DWORD            StartIndexOffset;
-  DWORD            PrimitiveCount;
-} D3DHAL_DP2DRAWINDEXEDPRIMITIVE2, *LPD3DHAL_DP2DRAWINDEXEDPRIMITIVE2;
-````
+D3DHAL_DRAWINDEXEDPRIMITIVE2 is parsed from the command buffer by the <a href="https://msdn.microsoft.com/6128ff7a-0d2c-48df-8b5e-cab33c5a74f5">D3dDrawPrimitives2</a> callback when the <a href="https://msdn.microsoft.com/library/windows/hardware/ff545454">D3DHAL_DP2COMMAND</a> structure's <b>bCommand</b> member is set to D3DDP2OP_DRAWINDEXEDPRIMITIVE2, and is used to render a primitive using vertex indices.
 
 
 ## -struct-fields
@@ -119,18 +104,18 @@ As with vertices, the actual indices to use are not passed with the token data, 
 
 ## -see-also
 
+
+
+
 D3DDP2OP_DRAWINDEXEDPRIMITIVE2
 
 
 
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2drawindexedprimitive2.md">D3DHAL_DP2DRAWINDEXEDPRIMITIVE2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545517">D3DHAL_DP2DRAWINDEXEDPRIMITIVE2</a>
 
 
 
-<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
-
-
-
+<a href="https://msdn.microsoft.com/6128ff7a-0d2c-48df-8b5e-cab33c5a74f5">D3dDrawPrimitives2</a>
  
 
  

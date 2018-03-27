@@ -52,18 +52,6 @@ req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
 Reports the colorimetry values selected by the OS for a target.
 
 
-## -prototype
-
-
-````
-NTSTATUS APIENTRY DXGKDDI_SETTARGETADJUSTEDCOLORIMETRY(
-  _In_ const Handle                         hAdapter,
-  _In_       D3DDDI_VIDEO_PRESENT_TARGET_ID TargetId,
-  _In_       DXGK_COLORIMETRY               AdjustedColorimetry
-);
-````
-
-
 ## -parameters
 
 

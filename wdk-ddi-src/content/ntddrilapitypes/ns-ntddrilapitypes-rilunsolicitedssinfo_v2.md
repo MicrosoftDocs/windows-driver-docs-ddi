@@ -52,25 +52,6 @@ req.typenames: RILUNSOLICITEDSSINFO_V2, *LPRILUNSOLICITEDSSINFO_V2, RILUNSOLICIT
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef struct _RILUNSOLICITEDSSINFO_V2 {
-  DWORD                                 cbSize;
-  DWORD                                 dwParams;
-  DWORD                                 dwExecutor;
-  DWORD                                 dwID;
-  RILUNSOLICITEDSSINFONOTIFICATIONCODE  dwNotificationCode;
-  RILADDRESS                            raAddress;
-  RILSUBADDRESS                         rsaSubAddress;
-  DWORD                                 dwCUGIndex;
-  DWORD                                 dwHistorynfoLength;
-  WCHAR [1]                             wszHistoryInfo;
-} RILUNSOLICITEDSSINFO_V2, RILUNSOLICITEDSSINFO_V2;
-````
-
-
 ## -struct-fields
 
 

@@ -53,17 +53,7 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 A protocol driver calls the 
   <b>NdisCloseAdapterEx</b> function to release the binding and the resources that were allocated when the
   driver called the 
-  <a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a> function.
-
-
-## -syntax
-
-
-````
-NDIS_STATUS NdisCloseAdapterEx(
-  _In_ NDIS_HANDLE NdisBindingHandle
-);
-````
+  <a href="https://msdn.microsoft.com/library/windows/hardware/ff563715">NdisOpenAdapterEx</a> function.
 
 
 ## -parameters
@@ -109,7 +99,7 @@ The handle that NDIS provided at the
 <td width="60%">
 <b>NdisCloseAdapterEx</b> did not complete the close operation and the operation will be completed
        asynchronously. NDIS calls the protocol driver's 
-       <a href="..\ndis\nc-ndis-protocol_close_adapter_complete_ex.md">
+       <a href="https://msdn.microsoft.com/62cc047a-bc91-4e1e-817e-7fd509d4d90e">
        ProtocolCloseAdapterCompleteEx</a> function when the operation is complete.
 
 </td>
@@ -126,10 +116,10 @@ The handle that NDIS provided at the
 
 A protocol driver typically calls 
     <b>NdisCloseAdapterEx</b> from its 
-    <a href="..\ndis\nc-ndis-protocol_unbind_adapter_ex.md">
+    <a href="https://msdn.microsoft.com/19fa7be2-acb9-42f6-bd9f-5be3e3c8b5fa">
     ProtocolUnbindAdapterEx</a> function. The driver can also call 
     <b>NdisCloseAdapterEx</b> from its 
-    <a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a> function.
+    <a href="https://msdn.microsoft.com/1958722e-012e-4110-a82c-751744bcf9b5">ProtocolBindAdapterEx</a> function.
     For example, if the driver failed to set an OID value after it called 
     <b>NdisOpenAdapterEx</b>, it can call 
     <b>NdisCloseAdapterEx</b> from its 
@@ -138,7 +128,7 @@ A protocol driver typically calls
 If a protocol driver must close a miniport adapter outside the context of 
     <i>ProtocolUnbindAdapterEx</i> or 
     <i>ProtocolBindAdapterEx</i>, it must call the 
-    <a href="..\ndis\nf-ndis-ndisunbindadapter.md">NdisUnbindAdapter</a> function.
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff564630">NdisUnbindAdapter</a> function.
 
 Protocol drivers should wait for all send requests and OID requests that they originated to complete
     before calling 
@@ -146,7 +136,7 @@ Protocol drivers should wait for all send requests and OID requests that they or
 
 As soon as the driver calls 
     <b>NdisCloseAdapterEx</b>, the handle obtained from the 
-    <a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a> function at the 
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff563715">NdisOpenAdapterEx</a> function at the 
     <i>NdisBindingHandle</i> parameter becomes invalid.
 
 
@@ -154,27 +144,27 @@ As soon as the driver calls
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisunbindadapter.md">NdisUnbindAdapter</a>
 
 
 
-<a href="..\ndis\nc-ndis-protocol_unbind_adapter_ex.md">ProtocolUnbindAdapterEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563715">NdisOpenAdapterEx</a>
 
 
 
-<a href="..\ndis\nc-ndis-protocol_close_adapter_complete_ex.md">
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564630">NdisUnbindAdapter</a>
+
+
+
+<a href="https://msdn.microsoft.com/1958722e-012e-4110-a82c-751744bcf9b5">ProtocolBindAdapterEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/62cc047a-bc91-4e1e-817e-7fd509d4d90e">
    ProtocolCloseAdapterCompleteEx</a>
 
 
 
-<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
-
-
-
+<a href="https://msdn.microsoft.com/19fa7be2-acb9-42f6-bd9f-5be3e3c8b5fa">ProtocolUnbindAdapterEx</a>
  
 
  

@@ -52,18 +52,6 @@ req.typenames: D3D12DDI_VIDEO_DECODER_HEAP_SIZE_DATA_0032
 Data structure for the D3D12DDICAPS_TYPE_VIDEO_0032_DECODER_HEAP_SIZE capability check.  Retrieves the memory allocation size of a video decoder heap created with the given properties.
 
 
-## -syntax
-
-
-````
-typedef struct _D3D12DDI_VIDEO_DECODER_HEAP_SIZE_DATA_0032 {
-  D3D12DDIARG_CREATE_VIDEO_DECODER_HEAP_0032 VideoDecoderHeapDesc;
-  UINT64                                     MemoryPoolL0Size;
-  UINT64                                     MemoryPoolL1Size;
-} D3D12DDI_VIDEO_DECODER_HEAP_SIZE_DATA_0032;
-````
-
-
 ## -struct-fields
 
 

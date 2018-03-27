@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -50,20 +50,6 @@ req.product: Windows 10 or later.
 ## -description
 
 
-
-
-## -syntax
-
-
-````
-INT APIENTRY OEMTTYGetInfo(
-        PDEVOBJ                      pdevobj,
-        DWORD                        dwInfoIndex,
-  _Out_ _writes_bytes_(dwSize) PVOID pOutputBuf,
-        DWORD                        dwSize,
-  _Out_ DWORD                        *pcbcNeeded
-);
-````
 
 
 ## -parameters

@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -279,10 +279,10 @@ Although <b>IDebugBreakpoint</b> implements the <b>IUnknown</b> interface, the <
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugbreakpoint2.md">IDebugBreakpoint2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549822">IDebugBreakpoint2</a>
  
 
  

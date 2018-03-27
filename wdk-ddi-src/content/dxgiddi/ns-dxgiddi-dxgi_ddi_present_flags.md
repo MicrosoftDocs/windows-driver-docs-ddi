@@ -52,25 +52,6 @@ req.typenames: DXGI_DDI_PRESENT_FLAGS
 Identifies how to perform a present operation.
 
 
-## -syntax
-
-
-````
-typedef struct DXGI_DDI_PRESENT_FLAGS {
-  union {
-    struct {
-      UINT Blt  :1;
-      UINT Flip  :1;
-      UINT PreferRight  :1;
-      UINT TemporaryMono  :1;
-      UINT Reserved  :28;
-    };
-    UINT   Value;
-  };
-} DXGI_DDI_PRESENT_FLAGS;
-````
-
-
 ## -struct-fields
 
 
@@ -132,14 +113,14 @@ A member in the union that is contained in DXGI_DDI_PRESENT_FLAGS that can hold 
 
 ## -see-also
 
-<a href="..\dxgiddi\ns-dxgiddi-dxgi_ddi_arg_present.md">DXGI_DDI_ARG_PRESENT</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557464">DXGI_DDI_ARG_PRESENT</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569179">PresentDXGI</a>
-
-
-
  
 
  

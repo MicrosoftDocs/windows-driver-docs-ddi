@@ -52,19 +52,6 @@ req.typenames: ATA_ADDRESS_TRANSLATION
 The ATA_ADDRESS_TRANSLATION enumeration type indicates the type of address translation used during data transfers.
 <div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
-## -syntax
-
-
-````
-typedef enum  { 
-  UnknownMode   = 0,
-  ChsMode       = 1,
-  LbaMode       = 2,
-  Lba48BitMode  = 3
-} ATA_ADDRESS_TRANSLATION;
-````
-
-
 ## -enum-fields
 
 

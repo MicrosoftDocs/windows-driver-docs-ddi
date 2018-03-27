@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -50,21 +50,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>GetLineByOffsetWide</b>  method returns the source filename and the line number within the source file of an instruction in the target.
-
-
-## -syntax
-
-
-````
-HRESULT GetLineByOffsetWide(
-  [in]            ULONG64  Offset,
-  [out, optional] PULONG   Line,
-  [out, optional] PWSTR    FileBuffer,
-  [in]            ULONG    FileBufferSize,
-  [out, optional] PULONG   FileSize,
-  [out, optional] PULONG64 Displacement
-);
-````
 
 
 ## -parameters
@@ -152,7 +137,6 @@ For more information about source files, see <a href="https://msdn.microsoft.com
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
 
 
@@ -160,6 +144,7 @@ For more information about source files, see <a href="https://msdn.microsoft.com
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550870">IDebugSymbols3</a>
  
 
  

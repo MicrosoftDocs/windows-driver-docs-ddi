@@ -52,25 +52,6 @@ req.typenames: D3D10_DDI_RASTERIZER_DESC
 The D3D10_DDI_RASTERIZER_DESC structure describes a rasterizer state.
 
 
-## -syntax
-
-
-````
-typedef struct D3D10_DDI_RASTERIZER_DESC {
-  D3D10_DDI_FILL_MODE FillMode;
-  D3D10_DDI_CULL_MODE CullMode;
-  BOOL                FrontCounterClockwise;
-  INT32               DepthBias;
-  FLOAT               DepthBiasClamp;
-  FLOAT               SlopeScaledDepthBias;
-  BOOL                DepthClipEnable;
-  BOOL                ScissorEnable;
-  BOOL                MultisampleEnable;
-  BOOL                AntialiasedLineEnable;
-} D3D10_DDI_RASTERIZER_DESC;
-````
-
-
 ## -struct-fields
 
 
@@ -205,14 +186,14 @@ However, using <b>DepthBias</b> and <b>SlopeScaledDepthBias</b> alone can introd
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_calcprivaterasterizerstatesize.md">CalcPrivateRasterizerStateSize</a>
 
 
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createrasterizerstate.md">CreateRasterizerState</a>
+<a href="https://msdn.microsoft.com/8b10b2b8-21b0-451c-9a85-353222d9c288">CalcPrivateRasterizerStateSize</a>
 
 
 
+<a href="https://msdn.microsoft.com/4507b92e-2437-4f90-b527-e06773ca1e08">CreateRasterizerState</a>
  
 
  

@@ -55,19 +55,6 @@ The <b>KsValidateConnectRequest</b> function validates a connection request and 
 This function can only be called at PASSIVE_LEVEL.
 
 
-## -syntax
-
-
-````
-NTSTATUS KsValidateConnectRequest(
-  _In_        PIRP             Irp ,
-  _In_        ULONG            DescriptorsCount ,
-  _In_  const KSPIN_DESCRIPTOR *Descriptor ,
-  _Out_       PKSPIN_CONNECT   *Connect 
-);
-````
-
-
 ## -parameters
 
 
@@ -85,12 +72,12 @@ Specifies the number of pin descriptors passed.
 
 ### -param Descriptor [in]
 
-Specifies a pointer to the list of <a href="..\ks\ns-ks-kspin_descriptor.md">KSPIN_DESCRIPTOR</a> structures.
+Specifies a pointer to the list of <a href="https://msdn.microsoft.com/library/windows/hardware/ff563533">KSPIN_DESCRIPTOR</a> structures.
 
 
 ### -param Connect [out]
 
-Specifies a location in which to place a pointer to the <a href="..\ks\ns-ks-kspin_connect.md">KSPIN_CONNECT</a> pointer passed to the create request. If <b>KsValidateConnectRequest</b>  returns success, then Connect+1 will contain a pointer to the KSDATAFORMAT with which the pin was opened.
+Specifies a location in which to place a pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563531">KSPIN_CONNECT</a> pointer passed to the create request. If <b>KsValidateConnectRequest</b>  returns success, then Connect+1 will contain a pointer to the KSDATAFORMAT with which the pin was opened.
 
 
 ## -returns

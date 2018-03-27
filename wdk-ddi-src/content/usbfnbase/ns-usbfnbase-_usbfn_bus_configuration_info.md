@@ -54,18 +54,6 @@ Configuration packet that stores information about
 an available USB configuration.
 
 
-## -syntax
-
-
-````
-typedef struct _USBFN_BUS_CONFIGURATION_INFO {
-  WCHAR    ConfigurationName[MAX_CONFIGURATION_NAME_LENGTH];
-  BOOLEAN  IsCurrent;
-  BOOLEAN  IsActive;
-} USBFN_BUS_CONFIGURATION_INFO, *PUSBFN_BUS_CONFIGURATION_INFO;
-````
-
-
 ## -struct-fields
 
 

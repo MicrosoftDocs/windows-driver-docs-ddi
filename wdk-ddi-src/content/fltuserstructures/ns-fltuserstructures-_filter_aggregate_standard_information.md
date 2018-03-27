@@ -52,35 +52,6 @@ req.typenames: FILTER_AGGREGATE_STANDARD_INFORMATION, *PFILTER_AGGREGATE_STANDAR
 The FILTER_AGGREGATE_STANDARD_INFORMATION structure contains information about a minifilter or legacy filter driver.
 
 
-## -syntax
-
-
-````
-typedef struct _FILTER_AGGREGATE_STANDARD_INFORMATION {
-  ULONG NextEntryOffset;
-  ULONG Flags;
-  union {
-    struct {
-      ULONG  Flags;
-      ULONG  FrameID;
-      ULONG  NumberOfInstances;
-      USHORT FilterNameLength;
-      USHORT FilterNameBufferOffset;
-      USHORT FilterAltitudeLength;
-      USHORT FilterAltitudeBufferOffset;
-    } MiniFilter;
-    struct {
-      ULONG  Flags;
-      USHORT FilterNameLength;
-      USHORT FilterNameBufferOffset;
-      USHORT FilterAltitudeLength;
-      USHORT FilterAltitudeBufferOffset;
-    } LegacyFilter;
-  } Type;
-} FILTER_AGGREGATE_STANDARD_INFORMATION, *PFILTER_AGGREGATE_STANDARD_INFORMATION;
-````
-
-
 ## -struct-fields
 
 
@@ -226,13 +197,13 @@ The FILTER_AGGREGATE_STANDARD_INFORMATION structure can be allocated from paged 
 </li>
 <li>
 
-<a href="..\fltkernel\nf-fltkernel-fltenumeratefilterinformation.md">FltEnumerateFilterInformation</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542060">FltEnumerateFilterInformation</a>
 
 
 </li>
 <li>
 
-<a href="..\fltkernel\nf-fltkernel-fltgetfilterinformation.md">FltGetFilterInformation</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543053">FltGetFilterInformation</a>
 
 
 </li>
@@ -244,15 +215,14 @@ The FILTER_AGGREGATE_STANDARD_INFORMATION structure must be aligned on a LONGLON
 
 ## -see-also
 
-<a href="..\fltuserstructures\ns-fltuserstructures-_filter_full_information.md">FILTER_FULL_INFORMATION</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltgetfilterinformation.md">FltGetFilterInformation</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541559">FILTER_AGGREGATE_BASIC_INFORMATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540488">FilterFindNext</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541587">FILTER_FULL_INFORMATION</a>
 
 
 
@@ -260,7 +230,7 @@ The FILTER_AGGREGATE_STANDARD_INFORMATION structure must be aligned on a LONGLON
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltenumeratefilterinformation.md">FltEnumerateFilterInformation</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540488">FilterFindNext</a>
 
 
 
@@ -268,10 +238,11 @@ The FILTER_AGGREGATE_STANDARD_INFORMATION structure must be aligned on a LONGLON
 
 
 
-<a href="..\fltuserstructures\ns-fltuserstructures-_filter_aggregate_basic_information.md">FILTER_AGGREGATE_BASIC_INFORMATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542060">FltEnumerateFilterInformation</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543053">FltGetFilterInformation</a>
  
 
  

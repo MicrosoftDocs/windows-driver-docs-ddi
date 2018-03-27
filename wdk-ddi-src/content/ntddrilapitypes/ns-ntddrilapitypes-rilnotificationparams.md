@@ -52,17 +52,6 @@ req.typenames: RILNOTIFICATIONPARAMS, *LPRILNOTIFICATIONPARAMS
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef struct _RILNOTIFICATIONPARAMS {
-  DWORD     dwNotificationCount;
-  DWORD [1] pdwNotifications;
-} RILNOTIFICATIONPARAMS, RILNOTIFICATIONPARAMS;
-````
-
-
 ## -struct-fields
 
 

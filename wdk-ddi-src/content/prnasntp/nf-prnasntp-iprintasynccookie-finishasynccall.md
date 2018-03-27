@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: prnasntp.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -53,16 +53,6 @@ req.product: Windows 10 or later.
 
 
 
-## -syntax
-
-
-````
-HRESULT FinishAsyncCall(
-  [in] HRESULT hRes
-);
-````
-
-
 ## -parameters
 
 
@@ -84,10 +74,10 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="..\prnasntp\nn-prnasntp-iprintasynccookie.md">IPrintAsyncCookie</a>
 
 
 
+<a href="https://msdn.microsoft.com/CF323800-F4C3-4CDB-B4EC-13359E262BF3">IPrintAsyncCookie</a>
  
 
  

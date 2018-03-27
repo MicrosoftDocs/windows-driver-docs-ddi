@@ -52,17 +52,6 @@ req.typenames: GetPersistentBinding2_IN, *PGetPersistentBinding2_IN
 The GetPersistentBinding2_IN structure is used to deliver input parameter data to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554959">GetPersistentBinding2</a> WMI method.
 
 
-## -syntax
-
-
-````
-typedef struct _GetPersistentBinding2_IN {
-  UCHAR PortWWN[8];
-  ULONG InEntryCount;
-} GetPersistentBinding2_IN, *PGetPersistentBinding2_IN;
-````
-
-
 ## -struct-fields
 
 
@@ -89,10 +78,10 @@ The WMI tool suite generates a declaration of the GetPersistentBinding2_IN struc
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554959">GetPersistentBinding2</a>
-
-
-
  
 
  

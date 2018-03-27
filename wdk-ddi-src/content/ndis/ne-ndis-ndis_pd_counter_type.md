@@ -49,21 +49,7 @@ req.typenames: NDIS_PD_COUNTER_TYPE
 ## -description
 
 
-The <b>NDIS_PD_COUNTER_TYPE</b> enumeration defines types of PacketDirect Provider Interface (PDPI)  counters. Its enumeration values are used in the <b>Type</b> member of the <a href="..\ndis\ns-ndis-_ndis_pd_counter_parameters.md">NDIS_PD_COUNTER_PARAMETERS</a> structure.
-
-
-## -syntax
-
-
-````
-typedef enum _NDIS_PD_COUNTER_TYPE { 
-  PDCounterTypeUnknown,
-  PDCounterTypeReceiveQueue,
-  PDCounterTypeTransmitQueue,
-  PDCounterTypeReceiveFilter,
-  PDCounterTypeMax
-} NDIS_PD_COUNTER_TYPE;
-````
+The <b>NDIS_PD_COUNTER_TYPE</b> enumeration defines types of PacketDirect Provider Interface (PDPI)  counters. Its enumeration values are used in the <b>Type</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/dn931836">NDIS_PD_COUNTER_PARAMETERS</a> structure.
 
 
 ## -enum-fields
@@ -100,10 +86,10 @@ The maximum value for this enumeration. This value might change in future versio
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_ndis_pd_counter_parameters.md">NDIS_PD_COUNTER_PARAMETERS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn931836">NDIS_PD_COUNTER_PARAMETERS</a>
  
 
  

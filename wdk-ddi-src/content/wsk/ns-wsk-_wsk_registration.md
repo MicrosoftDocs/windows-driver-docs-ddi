@@ -54,18 +54,6 @@ The WSK_REGISTRATION structure is used by the WSK subsystem to register or unreg
   application as a WSK client.
 
 
-## -syntax
-
-
-````
-typedef struct _WSK_REGISTRATION {
-  ULONGLONG  ReservedRegistrationState;
-  PVOID      ReservedRegistrationContext;
-  KSPIN_LOCK ReservedRegistrationLock;
-} WSK_REGISTRATION, *PWSK_REGISTRATION;
-````
-
-
 ## -struct-fields
 
 

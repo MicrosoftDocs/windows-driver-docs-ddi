@@ -52,22 +52,6 @@ req.typenames: WCS_PROFILE_MANAGEMENT_SCOPE
 <b>EVT_IDD_CX_MONITOR_OPM_GET_RANDOM_NUMBER</b> is called by the OS to get an OPM random number.
 
 
-## -prototype
-
-
-````
-EVT_IDD_CX_MONITOR_OPM_GET_RANDOM_NUMBER EvtIddCxMonitorOpmGetRandomNumber;
-
-NTSTATUS EvtIddCxMonitorOpmGetRandomNumber(
-  _In_  IDDCX_OPMCTX                     OpmCxtObject,
-  _Out_ IDARG_OUT_OPM_GET_RANDOM_NUMBER* pOutArgs
-)
-{ ... }
-
-typedef EVT_IDD_CX_MONITOR_OPM_GET_RANDOM_NUMBER PFN_IDD_CX_MONITOR_OPM_GET_RANDOM_NUMBER;
-````
-
-
 ## -parameters
 
 

@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: Microsoft.WDTF
 req.assembly: WDTF.Interop.metadata_dll
 req.type-library: 
-req.lib: wdtf.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -53,16 +53,6 @@ req.product: Windows 10 or later.
 Removes a long number from the collection.
 
 
-## -syntax
-
-
-````
-HRESULT Remove(
-  [in] LONG Index
-);
-````
-
-
 ## -parameters
 
 
@@ -84,10 +74,10 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="..\wdtf\nn-wdtf-iwdtflongnumbers2.md">IWDTFLongNumbers2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451027">IWDTFLongNumbers2</a>
  
 
  

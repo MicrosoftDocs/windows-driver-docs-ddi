@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -53,22 +53,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>WDF_PROPERTY_STORE_RETRIEVE_FLAGS</b> enumeration contains values that indicate whether  UMDF should create a registry key if the key does not already exist.
-
-
-## -syntax
-
-
-````
-typedef enum _WDF_PROPERTY_STORE_RETRIEVE_FLAGS { 
-  WdfPropertyStoreNormal              = 0,
-  WdfPropertyStoreCreateIfMissing     = 0x1,
-  WdfPropertyStoreCreateVolatile      = 0x2,
-  WdfPropertyStoreRetrieveFlagsMask   = WdfPropertyStoreNormal |
-                                      WdfPropertyStoreCreateIfMissing |
-                                      WdfPropertyStoreCreateVolatile
-
-} WDF_PROPERTY_STORE_RETRIEVE_FLAGS;
-````
 
 
 ## -enum-fields
@@ -107,6 +91,9 @@ Reserved for system use.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558842">IWDFDevice::RetrieveDevicePropertyStore</a>
 
 
@@ -116,9 +103,6 @@ Reserved for system use.
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560228">IWDFPropertyStoreFactory::RetrieveDevicePropertyStore</a>
-
-
-
  
 
  

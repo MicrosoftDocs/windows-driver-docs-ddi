@@ -52,19 +52,6 @@ req.typenames: MSFC_LinkEvent, *PMSFC_LinkEvent
 A WMI provider uses the MSFC_LinkEvent structure to report link events for the indicated adapter.
 
 
-## -syntax
-
-
-````
-typedef struct _MSFC_LinkEvent {
-  ULONG EventType;
-  UCHAR AdapterWWN[8];
-  ULONG RLIRBufferSize;
-  UCHAR RLIRBuffer[1];
-} MSFC_LinkEvent, *PMSFC_LinkEvent;
-````
-
-
 ## -struct-fields
 
 
@@ -92,10 +79,10 @@ Contains the data associated with a register link incident request (RLIR).
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/528e5eaa-aaeb-4e5b-a4b2-0f518fcd79ee">EVENT_TYPE_QUALIFIERS</a>
-
-
-
  
 
  

@@ -55,16 +55,6 @@ Protocol drivers call the
   adapter.
 
 
-## -syntax
-
-
-````
-NDIS_STATUS NdisUnbindAdapter(
-  _In_ NDIS_HANDLE NdisBindingHandle
-);
-````
-
-
 ## -parameters
 
 
@@ -73,7 +63,7 @@ NDIS_STATUS NdisUnbindAdapter(
 ### -param NdisBindingHandle [in]
 
 A handle that the protocol driver obtained from a call to the 
-     <a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a> function. The handle
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff563715">NdisOpenAdapterEx</a> function. The handle
      identifies the binding to close.
 
 
@@ -122,8 +112,8 @@ A handle that the protocol driver obtained from a call to the
 
 Protocol drivers call 
     <b>NdisUnbindAdapter</b> outside the context of the 
-    <a href="..\ndis\nc-ndis-protocol_unbind_adapter_ex.md">ProtocolUnbindAdapterEx</a> or 
-    <a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a> functions.
+    <a href="https://msdn.microsoft.com/19fa7be2-acb9-42f6-bd9f-5be3e3c8b5fa">ProtocolUnbindAdapterEx</a> or 
+    <a href="https://msdn.microsoft.com/1958722e-012e-4110-a82c-751744bcf9b5">ProtocolBindAdapterEx</a> functions.
     NDIS schedules a work item to call the protocol driver's 
     <i>ProtocolUnbindAdapterEx</i> function and returns immediately.
 
@@ -141,18 +131,18 @@ Before the call to
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
 
 
 
-<a href="..\ndis\nc-ndis-protocol_unbind_adapter_ex.md">ProtocolUnbindAdapterEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563715">NdisOpenAdapterEx</a>
 
 
 
-<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
+<a href="https://msdn.microsoft.com/1958722e-012e-4110-a82c-751744bcf9b5">ProtocolBindAdapterEx</a>
 
 
 
+<a href="https://msdn.microsoft.com/19fa7be2-acb9-42f6-bd9f-5be3e3c8b5fa">ProtocolUnbindAdapterEx</a>
  
 
  

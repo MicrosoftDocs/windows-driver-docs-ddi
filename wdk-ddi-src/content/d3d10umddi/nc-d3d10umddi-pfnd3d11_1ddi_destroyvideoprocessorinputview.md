@@ -49,22 +49,8 @@ req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 ## -description
 
 
-Releases resources for the video processor input view that were created through a call to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessorinputview.md">CreateVideoProcessorInputView</a> function.
+Releases resources for the video processor input view that were created through a call to the <a href="https://msdn.microsoft.com/f3942c53-e366-41c5-9f43-d093fa6b6ed6">CreateVideoProcessorInputView</a> function.
 
-
-
-## -prototype
-
-
-````
-PFND3D11_1DDI_DESTROYVIDEOPROCESSORINPUTVIEW pfnDestroyVideoProcessorInputView;
-
-VOID APIENTRY* pfnDestroyVideoProcessorInputView(
-  _In_ D3D10DDI_HDEVICE                    hDevice,
-  _In_ D3D11_1DDI_HVIDEOPROCESSORINPUTVIEW hView
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -72,10 +58,10 @@ VOID APIENTRY* pfnDestroyVideoProcessorInputView(
 
 
 
-### -param D3D10DDI_HDEVICE
+### -param Arg1
 
 
-### -param D3D11_1DDI_HVIDEOPROCESSORINPUTVIEW
+### -param Arg2
 
 
 
@@ -93,7 +79,7 @@ A handle to the display device (graphics context).
 
 #### - hView [in]
 
-A handle to the driver's private data for the video processor input view. This handle was created by the Direct3D runtime and passed to the driver in the call to <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessorinputview.md">CreateVideoProcessorInputView</a>.
+A handle to the driver's private data for the video processor input view. This handle was created by the Direct3D runtime and passed to the driver in the call to <a href="https://msdn.microsoft.com/f3942c53-e366-41c5-9f43-d093fa6b6ed6">CreateVideoProcessorInputView</a>.
 
 
 ## -returns

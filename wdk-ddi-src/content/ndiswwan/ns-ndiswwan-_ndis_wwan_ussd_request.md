@@ -52,17 +52,6 @@ req.typenames: NDIS_WWAN_USSD_REQUEST, *PNDIS_WWAN_USSD_REQUEST
 The NDIS_WWAN_USSD_EVENT structure represents an Unstructured Supplementary Service Data (USSD) NDIS request.
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_WWAN_USSD_REQUEST {
-  NDIS_OBJECT_HEADER Header;
-  WWAN_USSD_REQUEST  UssdRequest;
-} NDIS_WWAN_USSD_REQUEST, *PNDIS_WWAN_USSD_REQUEST;
-````
-
-
 ## -struct-fields
 
 
@@ -115,21 +104,21 @@ sizeof(NDIS_WWAN_USSD_REQUEST)
  
 
 For more information about these members, see 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>.
 
 
 ### -field UssdRequest
 
 A formatted 
-     <a href="..\wwan\ns-wwan-_wwan_ussd_request.md">WWAN_USSD_REQUEST</a> object that represents a USSD request.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/hh464138">WWAN_USSD_REQUEST</a> object that represents a USSD request.
 
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_ussd_request.md">WWAN_USSD_REQUEST</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh464138">WWAN_USSD_REQUEST</a>
  
 
  

@@ -52,19 +52,6 @@ req.typenames: DXGK_GENERIC_DESCRIPTOR, *PDXGK_GENERIC_DESCRIPTOR
 The DXGK_GENERIC_DESCRIPTOR structure contains descriptive information about a child device of the display adapter.
 
 
-## -syntax
-
-
-````
-typedef struct _DXGK_GENERIC_DESCRIPTOR {
-  WCHAR HardwareId[DXGK_MAX_REG_SZ_LEN];
-  WCHAR InstanceId[DXGK_MAX_REG_SZ_LEN];
-  WCHAR CompatibleId[DXGK_MAX_REG_SZ_LEN];
-  WCHAR DeviceText[DXGK_MAX_REG_SZ_LEN];
-} DXGK_GENERIC_DESCRIPTOR, *PDXGK_GENERIC_DESCRIPTOR;
-````
-
-
 ## -struct-fields
 
 
@@ -94,17 +81,17 @@ A single wide-character string, terminated by two wide NULL characters, that hol
 
 
 
-The display adapter has two types of child devices: <b>TypeVideoOutput</b> and <b>TypeOther</b>. For child devices of type <b>TypeOther</b>, the display port driver passes a DXGK_GENERIC_DESCRIPTOR structure to the display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgkddi_query_device_descriptor.md">DxgkDdiQueryDeviceDescriptor</a> function. <i>DxgkDdiQueryDeviceDescriptor</i> must fill in the members of the structure.
+The display adapter has two types of child devices: <b>TypeVideoOutput</b> and <b>TypeOther</b>. For child devices of type <b>TypeOther</b>, the display port driver passes a DXGK_GENERIC_DESCRIPTOR structure to the display miniport driver's <a href="https://msdn.microsoft.com/0dfcc012-9fff-40b6-b71f-da2ca229896c">DxgkDdiQueryDeviceDescriptor</a> function. <i>DxgkDdiQueryDeviceDescriptor</i> must fill in the members of the structure.
 
 
 
 
 ## -see-also
 
-<a href="..\dispmprt\ns-dispmprt-_dxgk_device_descriptor.md">DXGK_DEVICE_DESCRIPTOR</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561050">DXGK_DEVICE_DESCRIPTOR</a>
  
 
  

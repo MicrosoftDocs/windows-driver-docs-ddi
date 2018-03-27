@@ -52,19 +52,6 @@ req.typenames: SM_GetPersistentBinding_OUT, *PSM_GetPersistentBinding_OUT
 The SM_GetPersistentBinding_OUT structure is used to receive output parameters from the SM_GetPersistentBinding method.
 
 
-## -syntax
-
-
-````
-typedef struct _SM_GetPersistentBinding_OUT {
-  ULONG                 HBAStatus;
-  ULONG                 TotalEntryCount;
-  ULONG                 OutEntryCount;
-  MS_SMHBA_BINDINGENTRY Entry[1];
-} SM_GetPersistentBinding_OUT, *PSM_GetPersistentBinding_OUT;
-````
-
-
 ## -struct-fields
 
 

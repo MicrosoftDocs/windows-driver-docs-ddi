@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: 
+req.irql: "<=DISPATCH_LEVEL"
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -50,20 +50,6 @@ req.typenames: STORAGE_CRYPTO_KEY_SIZE, *PSTORAGE_CRYPTO_KEY_SIZE
 
 
 The <b>STORAGE_CRYPTO_KEY_SIZE</b> enum returns the Size of the key in bits.
-
-
-## -syntax
-
-
-````
-typedef enum _STORAGE_CRYPTO_KEY_SIZE { 
-  StorageCryptoKeySizeUnknown  = 0,
-  StorageCryptoKeySize128Bits  = 1,
-  StorageCryptoKeySize192Bits,
-  StorageCryptoKeySize256Bits,
-  StorageCryptoKeySize512Bits
-} STORAGE_CRYPTO_KEY_SIZE, *PSTORAGE_CRYPTO_KEY_SIZE;
-````
 
 
 ## -enum-fields

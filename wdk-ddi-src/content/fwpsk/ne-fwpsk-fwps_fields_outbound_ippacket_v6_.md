@@ -54,25 +54,6 @@ The FWPS_FIELDS_OUTBOUND_IPPACKET_V6 enumeration type specifies the data field i
   <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa366492">run-time filtering layers</a>.
 
 
-## -syntax
-
-
-````
-typedef enum FWPS_FIELDS_OUTBOUND_IPPACKET_V6_ { 
-  FWPS_FIELD_OUTBOUND_IPPACKET_V6_IP_LOCAL_ADDRESS,
-  FWPS_FIELD_OUTBOUND_IPPACKET_V6_IP_LOCAL_ADDRESS_TYPE,
-  FWPS_FIELD_OUTBOUND_IPPACKET_V6_IP_REMOTE_ADDRESS,
-  FWPS_FIELD_OUTBOUND_IPPACKET_V6_IP_LOCAL_INTERFACE,
-  FWPS_FIELD_OUTBOUND_IPPACKET_V6_INTERFACE_INDEX,
-  FWPS_FIELD_OUTBOUND_IPPACKET_V6_SUB_INTERFACE_INDEX,
-  FWPS_FIELD_OUTBOUND_IPPACKET_V6_FLAGS,
-  FWPS_FIELD_OUTBOUND_IPPACKET_V6_INTERFACE_TYPE,
-  FWPS_FIELD_OUTBOUND_IPPACKET_V6_TUNNEL_TYPE,
-  FWPS_FIELD_OUTBOUND_IPPACKET_V6_MAX
-} FWPS_FIELDS_OUTBOUND_IPPACKET_V6;
-````
-
-
 ## -enum-fields
 
 
@@ -96,7 +77,7 @@ The remote IP address.
 
 ### -field FWPS_FIELD_OUTBOUND_IPPACKET_V6_IP_LOCAL_INTERFACE
 
-The locally unique identifier (<a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a>) for the network interface associated with the
+The locally unique identifier (<a href="https://msdn.microsoft.com/library/windows/hardware/ff557080">LUID</a>) for the network interface associated with the
      local IP address.
 
 
@@ -144,14 +125,14 @@ The maximum value for this enumeration. This value might change in future versio
 
 ## -see-also
 
-<a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557080">LUID</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568757">NL_ADDRESS_TYPE</a>
-
-
-
  
 
  

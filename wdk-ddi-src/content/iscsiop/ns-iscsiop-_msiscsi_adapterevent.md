@@ -52,17 +52,6 @@ req.typenames: MSiSCSI_AdapterEvent, *PMSiSCSI_AdapterEvent
 The MSiSCSI_AdapterEvent structure contains information that is reported whenever an adapter event occurs.
 
 
-## -syntax
-
-
-````
-typedef struct _MSiSCSI_AdapterEvent {
-  ULONGLONG UniqueAdapterId;
-  ULONG     EventCode;
-} MSiSCSI_AdapterEvent, *PMSiSCSI_AdapterEvent;
-````
-
-
 ## -struct-fields
 
 
@@ -70,12 +59,12 @@ typedef struct _MSiSCSI_AdapterEvent {
 
 ### -field UniqueAdapterId
 
-A 64-bit integer that uniquely identifies an HBA initiator and a loaded instance of a storage miniport driver that manages the HBA. The initiator should use the address of the adapter extension or another address that the device driver owns to construct this identifier (ID). The initiator reports this value in the <b>UniqueAdapterId</b> member of the <a href="..\iscsimgt\ns-iscsimgt-_msiscsi_hbainformation.md">MSiSCSI_HBAInformation</a> structure.
+A 64-bit integer that uniquely identifies an HBA initiator and a loaded instance of a storage miniport driver that manages the HBA. The initiator should use the address of the adapter extension or another address that the device driver owns to construct this identifier (ID). The initiator reports this value in the <b>UniqueAdapterId</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563012">MSiSCSI_HBAInformation</a> structure.
 
 
 ### -field EventCode
 
-An <a href="..\iscsiop\ne-iscsiop-piscsi_adapter_event_code.md">ISCSI_ADAPTER_EVENT_CODE</a> enumeration value that indicates the type of adapter event that occurred.
+An <a href="https://msdn.microsoft.com/library/windows/hardware/ff561485">ISCSI_ADAPTER_EVENT_CODE</a> enumeration value that indicates the type of adapter event that occurred.
 
 
 ## -remarks
@@ -89,18 +78,18 @@ The WMI tool suite automatically generates a declaration of the MSiSCSI_AdapterE
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561485">ISCSI_ADAPTER_EVENT_CODE</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff562971">MSiSCSI_AdapterEvent WMI Class</a>
 
 
 
-<a href="..\iscsimgt\ns-iscsimgt-_msiscsi_hbainformation.md">MSiSCSI_HBAInformation</a>
-
-
-
-<a href="..\iscsiop\ne-iscsiop-piscsi_adapter_event_code.md">ISCSI_ADAPTER_EVENT_CODE</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563012">MSiSCSI_HBAInformation</a>
  
 
  

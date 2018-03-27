@@ -52,23 +52,6 @@ req.typenames: DXGKARG_COLLECTDBGINFO_EXT
 The DXGKARG_COLLECTDBGINFO_EXT structure describes extension information for a debug report.
 
 
-## -syntax
-
-
-````
-typedef struct _DXGKARG_COLLECTDBGINFO_EXT {
-  UINT BucketingKey;
-  UINT CurrentDmaBufferOffset;
-  UINT Reserved2;
-  UINT Reserved3;
-  UINT Reserved4;
-  UINT Reserved5;
-  UINT Reserved6;
-  UINT Reserved7;
-} DXGKARG_COLLECTDBGINFO_EXT;
-````
-
-
 ## -struct-fields
 
 
@@ -116,14 +99,14 @@ Reserved for future use.
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_collectdbginfo.md">DXGKARG_COLLECTDBGINFO</a>
 
 
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_collectdbginfo.md">DxgkDdiCollectDbgInfo</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557545">DXGKARG_COLLECTDBGINFO</a>
 
 
 
+<a href="https://msdn.microsoft.com/f2f3d8f7-5a54-4830-b8f8-ac2f93096eda">DxgkDdiCollectDbgInfo</a>
  
 
  

@@ -52,17 +52,6 @@ req.typenames: WRITE_ROTATION, *PWRITE_ROTATION
 The WRITE_ROTATION enumeration specifies whether a CD-ROM drive uses constant linear velocity (CLV) rotation or constant angular velocity (CAV) rotation when it writes to a CD.
 
 
-## -syntax
-
-
-````
-typedef enum _WRITE_ROTATION { 
-  CdromDefaultRotation  = 0,
-  CdromCAVRotation      = 1
-} WRITE_ROTATION, *PWRITE_ROTATION;
-````
-
-
 ## -enum-fields
 
 
@@ -80,14 +69,14 @@ The CD-ROM drive uses the (default) constant angular velocity (CAV) method when 
 
 ## -see-also
 
-<a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_set_speed.md">IOCTL_CDROM_SET_SPEED</a>
 
 
 
-<a href="..\ntddcdrm\ne-ntddcdrm-_cdrom_speed_request.md">CDROM_SPEED_REQUEST</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551370">CDROM_SPEED_REQUEST</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559381">IOCTL_CDROM_SET_SPEED</a>
  
 
  

@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
@@ -53,19 +53,6 @@ req.product: Windows 10 or later.
 Creates an endpoint on the specified USB device object.
 
 
-## -syntax
-
-
-````
-NTSTATUS UcxEndpointCreate(
-  [in]           UCXUSBDEVICE           UsbDevice,
-  [out]          PUCXENDPOINT_INIT      *EndpointInit,
-  [in, optional] PWDF_OBJECT_ATTRIBUTES Attributes,
-  [out]          UCXENDPOINT            *Endpoint
-);
-````
-
-
 ## -parameters
 
 
@@ -73,7 +60,7 @@ NTSTATUS UcxEndpointCreate(
 
 ### -param UsbDevice [in]
 
-A handle to the USB device object that contains the endpoint. The client driver retrieved the handle in a previous call to <a href="..\ucxusbdevice\nf-ucxusbdevice-ucxusbdevicecreate.md">UcxUsbDeviceCreate</a>.
+A handle to the USB device object that contains the endpoint. The client driver retrieved the handle in a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/mt188052">UcxUsbDeviceCreate</a>.
 
 
 ### -param EndpointInit [out]
@@ -85,7 +72,7 @@ A pointer to a <b>UCXENDPOINT_INIT</b> structure that describes various configur
 
 ### -param Attributes [in, optional]
 
-A pointer to a caller-allocated <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a> structure that specifies attributes for the endpoint object. 
+A pointer to a caller-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/ff552400">WDF_OBJECT_ATTRIBUTES</a> structure that specifies attributes for the endpoint object. 
 
 
 ### -param Endpoint [out]
@@ -106,11 +93,11 @@ The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this met
 
 
 
-The client driver for the host controller must call this method after the <a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a> call. The parent of the new endpoint object is the USB device object. 
+The client driver for the host controller must call this method after the <a href="https://msdn.microsoft.com/library/windows/hardware/ff545926">WdfDeviceCreate</a> call. The parent of the new endpoint object is the USB device object. 
 
 The method initializes the endpoint object with information such as the type of endpoint, pipe, transfer, and maximum transfers size.
 
-For a code example, see <a href="..\ucxusbdevice\nc-ucxusbdevice-evt_ucx_usbdevice_endpoint_add.md">EVT_UCX_USBDEVICE_ENDPOINT_ADD</a>.
+For a code example, see <a href="https://msdn.microsoft.com/library/windows/hardware/mt187843">EVT_UCX_USBDEVICE_ENDPOINT_ADD</a>.
 
 
 

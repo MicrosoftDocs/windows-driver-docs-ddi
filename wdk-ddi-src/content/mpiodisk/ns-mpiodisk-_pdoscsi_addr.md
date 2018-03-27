@@ -52,19 +52,6 @@ req.typenames: PDOSCSI_ADDR, *PPDOSCSI_ADDR
 The PDOSCSI_ADDR structure is used to represent a SCSI address.
 
 
-## -syntax
-
-
-````
-typedef struct _PDOSCSI_ADDR {
-  UCHAR PortNumber;
-  UCHAR ScsiPathId;
-  UCHAR TargetId;
-  UCHAR Lun;
-} PDOSCSI_ADDR, *PPDOSCSI_ADDR;
-````
-
-
 ## -struct-fields
 
 

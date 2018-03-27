@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
@@ -51,18 +51,8 @@ req.product: Windows 10 or later.
 
 
 
-                        Initializes the <a href="..\ucmtcpcidevice\ns-ucmtcpcidevice-_ucmtcpci_device_config.md">UCMTCPCI_DEVICE_CONFIG</a> structure.
+                        Initializes the <a href="https://msdn.microsoft.com/library/windows/hardware/mt805896">UCMTCPCI_DEVICE_CONFIG</a> structure.
                 
-
-
-## -syntax
-
-
-````
-VOID UCMTCPCI_DEVICE_CONFIG_INIT(
-  _Out_ PUCMTCPCI_DEVICE_CONFIG Config
-);
-````
 
 
 ## -parameters
@@ -72,7 +62,7 @@ VOID UCMTCPCI_DEVICE_CONFIG_INIT(
 
 ### -param Config [out]
 
-A pointer to the driver-allocated <a href="..\ucmtcpcidevice\ns-ucmtcpcidevice-_ucmtcpci_device_config.md">UCMTCPCI_DEVICE_CONFIG</a> structure.
+A pointer to the driver-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/mt805896">UCMTCPCI_DEVICE_CONFIG</a> structure.
 
 
 ## -returns
@@ -86,10 +76,10 @@ This method does not return a value.
 
 ## -see-also
 
-<a href="..\ucmtcpcidevice\nf-ucmtcpcidevice-ucmtcpcideviceinitialize.md">UcmTcpciDeviceInitialize</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt805841">UcmTcpciDeviceInitialize</a>
  
 
  

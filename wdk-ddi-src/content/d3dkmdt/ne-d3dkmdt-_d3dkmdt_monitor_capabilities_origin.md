@@ -52,21 +52,6 @@ req.typenames: D3DKMDT_MONITOR_CAPABILITIES_ORIGIN
 The D3DKMDT_MONITOR_CAPABILITIES_ORIGIN enumeration is used to indicate where a monitor's capability information was obtained.
 
 
-## -syntax
-
-
-````
-typedef enum _D3DKMDT_MONITOR_CAPABILITIES_ORIGIN { 
-  D3DKMDT_MCO_UNINITIALIZED                       = 0,
-  D3DKMDT_MCO_DEFAULTMONITORPROFILE               = 1,
-  D3DKMDT_MCO_MONITORDESCRIPTOR                   = 2,
-  D3DKMDT_MCO_MONITORDESCRIPTOR_REGISTRYOVERRIDE  = 3,
-  D3DKMDT_MCO_SPECIFICCAP_REGISTRYOVERRIDE        = 4,
-  D3DKMDT_MCO_DRIVER                              = 5
-} D3DKMDT_MONITOR_CAPABILITIES_ORIGIN;
-````
-
-
 ## -enum-fields
 
 
@@ -99,24 +84,24 @@ Indicates that the capability information was obtained from an INF file section 
 
 ### -field D3DKMDT_MCO_DRIVER
 
-Indicates that the capability information was obtained by a call to the display miniport driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_recommendmonitormodes.md">DxgkDdiRecommendMonitorModes</a> function.
+Indicates that the capability information was obtained by a call to the display miniport driver's <a href="https://msdn.microsoft.com/1fa29ab6-1faa-4be6-ae87-4cac9057471d">DxgkDdiRecommendMonitorModes</a> function.
 
 
 ## -remarks
 
 
 
-The <b>Origin</b> member of the <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_monitor_source_mode.md">D3DKMDT_MONITOR_SOURCE_MODE</a> structure is a constant from the D3DKMDT_MONITOR_CAPABILITIES_ORIGIN enumeration.
+The <b>Origin</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff546133">D3DKMDT_MONITOR_SOURCE_MODE</a> structure is a constant from the D3DKMDT_MONITOR_CAPABILITIES_ORIGIN enumeration.
 
 
 
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568435">Monitor Source Mode Set Interface</a>
-
-
-
  
 
  

@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 The <b>VideoPortDeleteEvent</b> function deletes the specified event object.
 
 
-## -syntax
-
-
-````
-VP_STATUS VideoPortDeleteEvent(
-  _In_ PVOID  HwDeviceExtension,
-  _In_ PEVENT pEvent
-);
-````
-
-
 ## -parameters
 
 
@@ -99,14 +88,14 @@ This function should not be used to delete a mapped user event. To delete a mapp
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565434">EngUnmapEvent</a>
 
 
 
-<a href="..\video\nf-video-videoportcreateevent.md">VideoPortCreateEvent</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570287">VideoPortCreateEvent</a>
  
 
  

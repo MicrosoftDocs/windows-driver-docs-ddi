@@ -52,17 +52,6 @@ req.typenames: HBA_FCPTARGETMAPPING, *PHBA_FCPTARGETMAPPING
 The HBA_FCPTargetMapping structure contains an array of bindings between operating system and fibre channel protocol (FCP) identifiers for a set of target devices. 
 
 
-## -syntax
-
-
-````
-typedef struct HBA_FCPTargetMapping {
-  HBA_UINT32       NumberOfEntries;
-  HBA_FCPSCSIENTRY entry[1];
-} HBA_FCPTARGETMAPPING, *PHBA_FCPTARGETMAPPING;
-````
-
-
 ## -struct-fields
 
 
@@ -75,15 +64,15 @@ Indicates the number of bindings.
 
 ### -field entry
 
-Contains a variable length array of structures of type <a href="..\hbaapi\ns-hbaapi-hba_fcpscsientry.md">HBA_FcpScsiEntry</a> each of which defines a mapping between an operating system identifier for a logical unit and the corresponding fibre channel protocol (FCP) identifier for the logical unit. 
+Contains a variable length array of structures of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff556064">HBA_FcpScsiEntry</a> each of which defines a mapping between an operating system identifier for a logical unit and the corresponding fibre channel protocol (FCP) identifier for the logical unit. 
 
 
 ## -see-also
 
-<a href="..\hbaapi\ns-hbaapi-hba_fcpscsientry.md">HBA_FcpScsiEntry</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556064">HBA_FcpScsiEntry</a>
  
 
  

@@ -52,16 +52,6 @@ req.typenames: D3DDDIARG_DESTROYLIGHT
 The D3DDDIARG_DESTROYLIGHT structure contains the index into a light array for the light to destroy.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DDDIARG_DESTROYLIGHT {
-  UINT Index;
-} D3DDDIARG_DESTROYLIGHT;
-````
-
-
 ## -struct-fields
 
 
@@ -74,10 +64,10 @@ typedef struct _D3DDDIARG_DESTROYLIGHT {
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_destroylight.md">DestroyLight</a>
 
 
 
+<a href="https://msdn.microsoft.com/dbc86e4d-a002-4270-a3c4-02d16972c921">DestroyLight</a>
  
 
  

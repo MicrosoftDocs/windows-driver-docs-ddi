@@ -52,24 +52,6 @@ req.typenames: MS_SMHBA_SASPHYSTATISTICS, *PMS_SMHBA_SASPHYSTATISTICS
 The MS_SMHBA_SASPHYSTATISTICS structure reports the traffic statistics for a SAS physical link.
 
 
-## -syntax
-
-
-````
-typedef struct _MS_SMHBA_SASPHYSTATISTICS {
-  LONGLONG SecondsSinceLastReset;
-  LONGLONG TxFrames;
-  LONGLONG TxWords;
-  LONGLONG RxFrames;
-  LONGLONG RxWords;
-  LONGLONG InvalidDwordCount;
-  LONGLONG RunningDisparityErrorCount;
-  LONGLONG LossofDwordSyncCount;
-  LONGLONG PhyResetProblemCount;
-} MS_SMHBA_SASPHYSTATISTICS, *PMS_SMHBA_SASPHYSTATISTICS;
-````
-
-
 ## -struct-fields
 
 

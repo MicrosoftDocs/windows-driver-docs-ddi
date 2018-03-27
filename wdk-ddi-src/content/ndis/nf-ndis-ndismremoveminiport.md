@@ -55,16 +55,6 @@ The
   has determined is unrecoverable from the system.
 
 
-## -syntax
-
-
-````
-NDIS_STATUS NdisMRemoveMiniport(
-  _In_ NDIS_HANDLE MiniportAdapterHandle
-);
-````
-
-
 ## -parameters
 
 

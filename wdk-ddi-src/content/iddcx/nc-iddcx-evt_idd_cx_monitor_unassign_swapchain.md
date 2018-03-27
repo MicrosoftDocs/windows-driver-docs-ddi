@@ -52,21 +52,6 @@ req.typenames: WCS_PROFILE_MANAGEMENT_SCOPE
 <b>EVT_IDD_CX_MONITOR_UNASSIGN_SWAPCHAIN</b> is called by the OS to inform the driver that a swapchain associated with a monitor is not valid anymore.
 
 
-## -prototype
-
-
-````
-EVT_IDD_CX_MONITOR_UNASSIGN_SWAPCHAIN EvtIddCxMonitorUnassignSwapchain;
-
-NTSTATUS EvtIddCxMonitorUnassignSwapchain(
-  _In_ IDDCX_MONITOR MonitorObject
-)
-{ ... }
-
-typedef EVT_IDD_CX_MONITOR_UNASSIGN_SWAPCHAIN PFN_IDD_CX_MONITOR_UNASSIGN_SWAPCHAIN;
-````
-
-
 ## -parameters
 
 

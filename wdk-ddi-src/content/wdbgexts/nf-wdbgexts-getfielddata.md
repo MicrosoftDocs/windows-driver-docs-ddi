@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,20 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>GetFieldData</b> function returns the value of a member in a structure.
-
-
-## -syntax
-
-
-````
-__inline ULONG GetFieldData(
-  _In_  ULONG64 TypeAddress,
-  _In_  LPCSTR  Type,
-  _In_  LPCSTR  Field,
-  _In_  ULONG   OutSize,
-  _Out_ PVOID   pOutValue
-);
-````
 
 
 ## -parameters

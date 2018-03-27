@@ -55,18 +55,6 @@ The
   <b>Ndis<i>Xxx</i></b> timer functions.
 
 
-## -syntax
-
-
-````
-NDIS_STATUS NdisAllocateTimerObject(
-  _In_  NDIS_HANDLE                 NdisHandle,
-  _In_  PNDIS_TIMER_CHARACTERISTICS TimerCharacteristics,
-  _Out_ PNDIS_HANDLE                pTimerObject
-);
-````
-
-
 ## -parameters
 
 
@@ -82,7 +70,7 @@ An NDIS handle that was obtained during caller initialization. For more informat
 ### -param TimerCharacteristics [in]
 
 A pointer to a caller-supplied 
-     <a href="..\ndis\ns-ndis-_ndis_timer_characteristics.md">
+     <a href="https://msdn.microsoft.com/9a62e94c-f635-4ab7-b439-b98c60ba2854">
      NDIS_TIMER_CHARACTERISTICS</a> structure that specifies the characteristics of the allocated timer
      object.
 
@@ -165,38 +153,38 @@ To use timer services, an NDIS driver first calls the
     <b>NdisAllocateTimerObject</b> is called during driver initialization.
 
 To start a timer, call the 
-    <a href="..\ndis\nf-ndis-ndissettimerobject.md">NdisSetTimerObject</a> function. Calls to 
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff564563">NdisSetTimerObject</a> function. Calls to 
     <b>NdisSetTimerObject</b> insert the timer object in the system timer queue. Only one instance of a
     particular timer object can be queued at any given moment.
 
 To cancel a timer, call the 
-    <a href="..\ndis\nf-ndis-ndiscanceltimerobject.md">NdisCancelTimerObject</a> function. 
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561624">NdisCancelTimerObject</a> function. 
     <b>NdisCancelTimerObject</b> dequeues the timer object if it is currently queued.
 
 To free a timer object, you must call the 
-    <a href="..\ndis\nf-ndis-ndisfreetimerobject.md">NdisFreeTimerObject</a> function.
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff562605">NdisFreeTimerObject</a> function.
 
 
 
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisfreetimerobject.md">NdisFreeTimerObject</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndiscanceltimerobject.md">NdisCancelTimerObject</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567886">NDIS_TIMER_CHARACTERISTICS</a>
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_timer_characteristics.md">NDIS_TIMER_CHARACTERISTICS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561624">NdisCancelTimerObject</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndissettimerobject.md">NdisSetTimerObject</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562605">NdisFreeTimerObject</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564563">NdisSetTimerObject</a>
  
 
  

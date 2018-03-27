@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: "_Must_inspect_result_"
 topic_type:
@@ -52,17 +52,6 @@ req.typenames:
 An asynchronous initiation function called by the driver to create a WDDM graphics adapter.
 
                 
-
-
-## -syntax
-
-
-````
-NTSTATUS IddCxAdapterInitAsync(
-  _In_  const IDARG_IN_ADAPTER_INIT*  pInArgs,
-  _Out_       IDARG_OUT_ADAPTER_INIT* pOutArgs
-);
-````
 
 
 ## -parameters

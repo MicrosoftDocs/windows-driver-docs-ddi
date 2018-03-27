@@ -52,20 +52,6 @@ req.typenames: SM_SendTEST_IN, *PSM_SendTEST_IN
 The SM_SendTEST_IN structure is used to provide input parameters to the SM_SendTEST method.
 
 
-## -syntax
-
-
-````
-typedef struct _SM_SendTEST_IN {
-  UCHAR HbaPortWWN[8];
-  UCHAR DestWWN[8];
-  ULONG DestFCID;
-  ULONG ReqBufferSize;
-  UCHAR ReqBuffer[1];
-} SM_SendTEST_IN, *PSM_SendTEST_IN;
-````
-
-
 ## -struct-fields
 
 

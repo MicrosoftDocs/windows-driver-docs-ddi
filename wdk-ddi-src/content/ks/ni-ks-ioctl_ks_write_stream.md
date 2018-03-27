@@ -46,15 +46,10 @@ req.typenames:
 # IOCTL_KS_WRITE_STREAM IOCTL
 
 
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
-
 ## -description
 
 
-An application can use IOCTL_KS_WRITE_STREAM to write data to a pin. The application passes IOCTL_KS_WRITE_STREAM with the parameters described below to the <a href="..\ksproxy\nf-ksproxy-kssynchronousdevicecontrol.md">KsSynchronousDeviceControl</a> function.
+An application can use IOCTL_KS_WRITE_STREAM to write data to a pin. The application passes IOCTL_KS_WRITE_STREAM with the parameters described below to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567142">KsSynchronousDeviceControl</a> function.
 
 
 ## -ioctlparameters
@@ -64,7 +59,7 @@ An application can use IOCTL_KS_WRITE_STREAM to write data to a pin. The applica
 
 ### -input-buffer
 
-A client provides a pointer to an array of <a href="..\ks\ns-ks-ksstream_header.md">KSSTREAM_HEADER</a> structures in <b>InBuffer</b>. The stream data to write is contained in the buffers pointed to by the stream headers. The headers can also contain presentation time and duration. 
+A client provides a pointer to an array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff567138">KSSTREAM_HEADER</a> structures in <b>InBuffer</b>. The stream data to write is contained in the buffers pointed to by the stream headers. The headers can also contain presentation time and duration. 
 
 
 ### -input-buffer-length
@@ -111,14 +106,14 @@ If the request is successful, the Status member is set to STATUS_SUCCESS.
 
 ## -see-also
 
-<a href="..\ks\ni-ks-ioctl_ks_read_stream.md">IOCTL_KS_READ_STREAM</a>
 
 
 
-<a href="..\ks\nf-ks-ksprobestreamirp.md">KsProbeStreamIrp</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560827">IOCTL_KS_READ_STREAM</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564252">KsProbeStreamIrp</a>
  
 
  

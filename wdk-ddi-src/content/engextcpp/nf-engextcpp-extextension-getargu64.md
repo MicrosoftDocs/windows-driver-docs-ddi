@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: engextcpp.hpp
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -52,17 +52,6 @@ req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
 The <b>GetArgU64</b> method returns the value of a named expression argument from the command line used to invoke the current extension command.
 
 
-## -syntax
-
-
-````
-ULONG64 GetArgU64(
-  [in] PCSTR Name,
-  [in] bool  Required
-);
-````
-
-
 ## -parameters
 
 
@@ -70,7 +59,7 @@ ULONG64 GetArgU64(
 
 ### -param Name [in]
 
-Specifies the name of the argument.  The command-line description used in <a href="..\engextcpp\nf-engextcpp-ext_command.md">EXT_COMMAND</a> must specify that the type of this argument is expression.
+Specifies the name of the argument.  The command-line description used in <a href="https://msdn.microsoft.com/library/windows/hardware/ff544514">EXT_COMMAND</a> must specify that the type of this argument is expression.
 
 
 ### -param Required [in]
@@ -100,14 +89,14 @@ This method should only be called during the execution of an extension command p
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544514">EXT_COMMAND</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543981">ExtExtension</a>
-
-
-
-<a href="..\engextcpp\nf-engextcpp-ext_command.md">EXT_COMMAND</a>
-
-
-
  
 
  

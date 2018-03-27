@@ -52,16 +52,6 @@ req.typenames: HBA_WWNTYPE
 The <b>HBA_OpenAdapter</b> routine opens an HBA and returns a handle.
 
 
-## -syntax
-
-
-````
-HBA_HANDLE HBA_API HBA_OpenAdapter(
-  _In_ PSTR SniaAdapterName
-);
-````
-
-
 ## -parameters
 
 

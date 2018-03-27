@@ -52,18 +52,6 @@ req.typenames: RILGSMKIND
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef enum _RILGSMKIND { 
-  RIL_GSMKIND_GPRS,
-  RIL_GSMKIND_EDGE,
-  RIL_GSMKIND_MAX
-} RILGSMKIND;
-````
-
-
 ## -enum-fields
 
 

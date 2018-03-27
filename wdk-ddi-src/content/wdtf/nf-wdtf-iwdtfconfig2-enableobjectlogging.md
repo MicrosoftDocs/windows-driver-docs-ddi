@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: Microsoft.WDTF
 req.assembly: WDTF.Interop.metadata_dll
 req.type-library: 
-req.lib: wdtf.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,14 +51,6 @@ req.product: Windows 10 or later.
 
 
 Enables object logging for all objects.
-
-
-## -syntax
-
-
-````
-HRESULT EnableObjectLogging();
-````
 
 
 ## -parameters
@@ -90,10 +82,10 @@ test scripts log.
 
 ## -see-also
 
-<a href="..\wdtf\nn-wdtf-iwdtfconfig2.md">IWDTFCONFIG2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406381">IWDTFCONFIG2</a>
  
 
  

@@ -52,17 +52,6 @@ req.typenames: DXGK_PTE
 A callback to create a new hardware queue
 
 
-## -prototype
-
-
-````
-_Check_return_ HRESULT APIENTRY CALLBACK PFND3DDDI_CREATEHWQUEUECB(
-  _In_    HANDLE                        hDevice,
-  _Inout_ D3DDDICB_CREATEHWQUEUE *const createHwQueue
-);
-````
-
-
 ## -parameters
 
 

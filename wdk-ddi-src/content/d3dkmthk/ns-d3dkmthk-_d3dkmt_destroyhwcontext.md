@@ -52,16 +52,6 @@ req.typenames: D3DKMT_DESTROYHWCONTEXT
 A structure holding information to destroy a hardware context.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DKMT_DESTROYHWCONTEXT {
-  D3DKMT_HANDLE hHwContext;
-} D3DKMT_DESTROYHWCONTEXT;
-````
-
-
 ## -struct-fields
 
 

@@ -52,18 +52,6 @@ req.typenames: TAPE_WMI_OPERATIONS, *PTAPE_WMI_OPERATIONS
 The tape miniclass driver passes this structure to its <a href="https://msdn.microsoft.com/library/windows/hardware/ff567957">TapeMiniWMIControl</a> routine to indicate which WMI operation must be performed by the device. 
 
 
-## -syntax
-
-
-````
-typedef struct _TAPE_WMI_OPERATIONS {
-  ULONG Method;
-  ULONG DataBufferSize;
-  PVOID DataBuffer;
-} TAPE_WMI_OPERATIONS, *PTAPE_WMI_OPERATIONS;
-````
-
-
 ## -struct-fields
 
 
@@ -105,19 +93,19 @@ Indicates the size in bytes of the buffer in which the tape minidriver returns t
 
 ### -field DataBuffer
 
-Pointer to a buffer in which the tape minidriver returns the results of the operation. The first <b>sizeof</b>(ULONG) bytes of <b>DataBuffer</b> contain a value of type <a href="..\ntddtape\ne-ntddtape-_tape_drive_problem_type.md">TAPE_DRIVE_PROBLEM_TYPE</a>, followed by <b>DataBufferSize</b> - <b>sizeof</b>(ULONG) bytes of tape data. 
+Pointer to a buffer in which the tape minidriver returns the results of the operation. The first <b>sizeof</b>(ULONG) bytes of <b>DataBuffer</b> contain a value of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff567962">TAPE_DRIVE_PROBLEM_TYPE</a>, followed by <b>DataBufferSize</b> - <b>sizeof</b>(ULONG) bytes of tape data. 
 
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567962">TAPE_DRIVE_PROBLEM_TYPE</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567957">TapeMiniWMIControl</a>
-
-
-
-<a href="..\ntddtape\ne-ntddtape-_tape_drive_problem_type.md">TAPE_DRIVE_PROBLEM_TYPE</a>
-
-
-
  
 
  

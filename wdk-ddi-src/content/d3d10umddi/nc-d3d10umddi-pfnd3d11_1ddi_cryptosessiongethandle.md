@@ -52,21 +52,6 @@ req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 Returns a handle for a cryptographic session.
 
 
-## -prototype
-
-
-````
-PFND3D11_1DDI_CRYPTOSESSIONGETHANDLE CryptoSessionGetHandle;
-
-HRESULT APIENTRY* CryptoSessionGetHandle(
-  _In_  D3D10DDI_HDEVICE          hDevice,
-  _In_  D3D11_1DDI_HCRYPTOSESSION hCryptoSession,
-  _Out_ HANDLE                    *pHandle
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -81,7 +66,7 @@ A handle to the display device (graphics context).
 
 ### -param hCryptoSession [in]
 
-A handle to the driver's private data for the cryptographic session. This handle was created by the Direct3D runtime and passed to the driver in the call to <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createcryptosession.md">CreateCryptoSession</a>.
+A handle to the driver's private data for the cryptographic session. This handle was created by the Direct3D runtime and passed to the driver in the call to <a href="https://msdn.microsoft.com/library/windows/hardware/hh451619">CreateCryptoSession</a>.
 
 
 ### -param *pHandle [out]
@@ -156,10 +141,10 @@ This function allows the driver to define its own handle to its state data for t
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createcryptosession.md">CreateCryptoSession</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451619">CreateCryptoSession</a>
  
 
  

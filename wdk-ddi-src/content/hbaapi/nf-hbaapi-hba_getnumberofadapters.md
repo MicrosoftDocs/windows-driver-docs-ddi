@@ -52,14 +52,6 @@ req.typenames: HBA_WWNTYPE
 The <b>HBA_GetNumberOfAdapters</b> routine returns the number of HBAs supported by the library. 
 
 
-## -syntax
-
-
-````
-HBA_UINT32 HBA_API HBA_GetNumberOfAdapters(void);
-````
-
-
 ## -parameters
 
 

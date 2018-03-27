@@ -52,20 +52,6 @@ req.typenames: ScsiReportLuns_OUT, *PScsiReportLuns_OUT
 The ScsiReportLuns_OUT structure holds the output data for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff564918">ScsiReportLuns</a> method.
 
 
-## -syntax
-
-
-````
-typedef struct _ScsiReportLuns_OUT {
-  ULONG Status;
-  ULONG ResponseBufferSize;
-  UCHAR ScsiStatus;
-  UCHAR SenseBuffer[18];
-  UCHAR ResponseBuffer[1];
-} ScsiReportLuns_OUT, *PScsiReportLuns_OUT;
-````
-
-
 ## -struct-fields
 
 
@@ -107,7 +93,6 @@ You must implement this method.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564918">ScsiReportLuns</a>
 
 
 
@@ -115,7 +100,7 @@ You must implement this method.
 
 
 
-<a href="..\iscsiop\ns-iscsiop-_scsireportluns_in.md">ScsiReportLuns_IN</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>
 
 
 
@@ -123,10 +108,11 @@ You must implement this method.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564918">ScsiReportLuns</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564925">ScsiReportLuns_IN</a>
  
 
  

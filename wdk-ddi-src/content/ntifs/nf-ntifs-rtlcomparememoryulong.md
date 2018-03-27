@@ -53,18 +53,6 @@ req.typenames: TOKEN_TYPE
 The <b>RtlCompareMemoryUlong</b> routine returns how many bytes in a block of memory match a specified pattern. 
 
 
-## -syntax
-
-
-````
-SIZE_T RtlCompareMemoryUlong(
-  _In_ PVOID  Source,
-  _In_ SIZE_T Length,
-  _In_ ULONG  Pattern
-);
-````
-
-
 ## -parameters
 
 
@@ -107,10 +95,10 @@ For more information about managing buffered data and initializing driver-alloca
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-rtlcomparememory.md">RtlCompareMemory</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561778">RtlCompareMemory</a>
  
 
  

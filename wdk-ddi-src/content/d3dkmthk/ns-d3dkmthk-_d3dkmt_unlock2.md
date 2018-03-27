@@ -52,17 +52,6 @@ req.typenames: D3DKMT_UNLOCK2
 <b>D3DKMT_UNLOCK2</b> describes an allocation to unlock.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DKMT_UNLOCK2 {
-  D3DKMT_HANDLE hDevice;
-  D3DKMT_HANDLE hAllocation;
-} D3DKMT_UNLOCK2;
-````
-
-
 ## -struct-fields
 
 

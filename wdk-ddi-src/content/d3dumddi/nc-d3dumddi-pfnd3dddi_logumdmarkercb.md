@@ -52,20 +52,6 @@ req.typenames: DXGK_PTE
 Called by the user-mode display driver to log a custom Event Tracing for Windows (ETW) marker event.
 
 
-## -prototype
-
-
-````
-PFND3DDDI_LOGUMDMARKERCB pfnLogUMDMarkerCb;
-
-_Check_return_ HRESULT APIENTRY CALLBACK* pfnLogUMDMarkerCb(
-  _In_       HANDLE                hDevice,
-  _In_ const D3DDDICB_LOGUMDMARKER *pLogUMDMarker
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -87,7 +73,7 @@ A handle to the display device (graphics context).
 
 #### - pLogUMDMarker [in]
 
-A pointer to a <a href="..\d3dumddi\ns-d3dumddi-d3dddicb_logumdmarker.md">D3DDDICB_LOGUMDMARKER</a> structure that indicates the location of an ETW marker event that is defined by the user-mode display driver.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn535965">D3DDDICB_LOGUMDMARKER</a> structure that indicates the location of an ETW marker event that is defined by the user-mode display driver.
 
 
 ## -returns

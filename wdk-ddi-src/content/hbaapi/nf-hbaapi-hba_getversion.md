@@ -52,14 +52,6 @@ req.typenames: HBA_WWNTYPE
 The <b>HBA_GetVersion</b> routine returns the version of the fibre channel HBA API specification with which the HBA API library is compatible.
 
 
-## -syntax
-
-
-````
-HBA_UINT32 HBA_API HBA_GetVersion(void);
-````
-
-
 ## -parameters
 
 
@@ -78,10 +70,10 @@ The <b>HBA_GetVersion</b> routine returns a value that indicates the version of 
 
 ## -see-also
 
-<a href="..\hbaapi\nf-hbaapi-hba_getvendorlibraryattributes.md">HBA_GetVendorLibraryAttributes</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556112">HBA_GetVendorLibraryAttributes</a>
  
 
  

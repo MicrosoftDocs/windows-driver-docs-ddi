@@ -7,7 +7,7 @@ old-location: audio\pfndrmforwardcontenttointerface.htm
 old-project: audio
 ms.assetid: DFD077B7-307B-439B-828D-DC225FC5AAA0
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/19/2018
 ms.keywords: DRMForwardContentToInterface, DRMForwardContentToInterface callback function [Audio Devices], PFNDRMFORWARDCONTENTTOINTERFACE, audio.pfndrmforwardcontenttointerface, drmk/DRMForwardContentToInterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,23 +50,6 @@ req.typenames: WDI_TX_METADATA, *PWDI_TX_METADATA
 
 
 This callback function is reserved for system use.
-
-
-## -prototype
-
-
-````
-PFNDRMFORWARDCONTENTTOINTERFACE DRMForwardContentToInterface;
-
-NTSTATUS DRMForwardContentToInterface(
-  _In_ ULONG     ContentId,
-  _In_ PUNKNOWN  pUnknown,
-  _In_ ULONG     NumMethods
-)
-{ ... }
-
-typedef PFNDRMFORWARDCONTENTTOINTERFACE DRMForwardContentToInterface;
-````
 
 
 ## -parameters

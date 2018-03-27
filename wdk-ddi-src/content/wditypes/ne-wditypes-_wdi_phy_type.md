@@ -53,28 +53,6 @@ req.product: Windows 10 or later.
 The WDI_PHY_TYPE enumeration defines the PHY types.
 
 
-## -syntax
-
-
-````
-typedef enum _WDI_PHY_TYPE { 
-  WDI_PHY_TYPE_UNKNOWN     = 0,
-  WDI_PHY_TYPE_ANY         = 0,
-  WDI_PHY_TYPE_FHSS        = 1,
-  WDI_PHY_TYPE_DSSS        = 2,
-  WDI_PHY_TYPE_IRBASEBAND  = 3,
-  WDI_PHY_TYPE_OFDM        = 4,
-  WDI_PHY_TYPE_HRDSSS      = 5,
-  WDI_PHY_TYPE_ERP         = 6,
-  WDI_PHY_TYPE_HT          = 7,
-  WDI_PHY_TYPE_VHT         = 8,
-  WDI_PHY_TYPE_DMG         = 9,
-  WDI_PHY_TYPE_IHV_START   = 0x80000000,
-  WDI_PHY_TYPE_IHV_END     = 0xffffffff
-} WDI_PHY_TYPE;
-````
-
-
 ## -enum-fields
 
 

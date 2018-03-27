@@ -52,16 +52,6 @@ req.typenames: D3DKMT_STANDARDALLOCATION_EXISTINGHEAP
 Holds information about the existing heap.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DKMT_STANDARDALLOCATION_EXISTINGHEAP {
-  SIZE_T Size;
-} D3DKMT_STANDARDALLOCATION_EXISTINGHEAP;
-````
-
-
 ## -struct-fields
 
 

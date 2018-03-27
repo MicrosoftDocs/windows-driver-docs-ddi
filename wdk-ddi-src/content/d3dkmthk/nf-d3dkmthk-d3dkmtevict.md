@@ -55,16 +55,6 @@ req.typenames: D3DKMT_DRIVERVERSION
 <b>D3DKMTEvict</b> is used to decrement the allocation residency reference count. Once this count reaches zero, it will remove the allocation from the device residency list.
 
 
-## -syntax
-
-
-````
-EXTERN_C _Check_return_ NTSTATUS APIENTRY D3DKMTEvict(
-  _Inout_ D3DKMT_EVICT *pData
-);
-````
-
-
 ## -parameters
 
 
@@ -74,7 +64,7 @@ EXTERN_C _Check_return_ NTSTATUS APIENTRY D3DKMTEvict(
 
 #### - pData [in, out]
 
-A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_evict.md">D3DKMT_EVICT</a> structure that describes the operation.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn906794">D3DKMT_EVICT</a> structure that describes the operation.
 
 
 ## -returns
@@ -130,10 +120,10 @@ Once the eviction request is queued, it is illegal to access the underlying allo
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_evict.md">D3DKMT_EVICT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn906794">D3DKMT_EVICT</a>
  
 
  

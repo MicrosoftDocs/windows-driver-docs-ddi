@@ -52,21 +52,6 @@ req.typenames: WCS_PROFILE_MANAGEMENT_SCOPE
 <b>EVT_IDD_CX_MONITOR_OPM_DESTROY_PROTECTED_OUTPUT</b> is called by the OS to destroy an OPM protected output context.
 
 
-## -prototype
-
-
-````
-EVT_IDD_CX_MONITOR_OPM_DESTROY_PROTECTED_OUTPUT EvtIddCxMonitorOpmDestroyProtectedOutput;
-
-NTSTATUS EvtIddCxMonitorOpmDestroyProtectedOutput(
-  _In_ IDDCX_OPMCTX OpmCxtObject
-)
-{ ... }
-
-typedef EVT_IDD_CX_MONITOR_OPM_DESTROY_PROTECTED_OUTPUT PFN_IDD_CX_MONITOR_OPM_DESTROY_PROTECTED_OUTPUT;
-````
-
-
 ## -parameters
 
 

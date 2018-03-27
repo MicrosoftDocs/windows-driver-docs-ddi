@@ -52,18 +52,6 @@ req.typenames: EXCLUSIVE_ACCESS_REQUEST_TYPE, *PEXCLUSIVE_ACCESS_REQUEST_TYPE
 The EXCLUSIVE_ACCESS_REQUEST_TYPE enumeration is used to report the exclusive access state of a CD-ROM device.
 
 
-## -syntax
-
-
-````
-typedef enum _EXCLUSIVE_ACCESS_REQUEST_TYPE { 
-  ExclusiveAccessQueryState    = 0,
-  ExclusiveAccessLockDevice    = 1,
-  ExclusiveAccessUnlockDevice  = 2
-} EXCLUSIVE_ACCESS_REQUEST_TYPE, *PEXCLUSIVE_ACCESS_REQUEST_TYPE;
-````
-
-
 ## -enum-fields
 
 
@@ -88,17 +76,17 @@ A request for the CD-ROM class driver to unlock a CD-ROM device that was previou
 
 
 
-The EXCLUSIVE_ACCESS_REQUEST_TYPE enumeration is used with the <a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_exclusive_access.md">IOCTL_CDROM_EXCLUSIVE_ACCESS</a> request to query the access state of a CD-ROM device or to lock or unlock the device for exclusive access.
+The EXCLUSIVE_ACCESS_REQUEST_TYPE enumeration is used with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559327">IOCTL_CDROM_EXCLUSIVE_ACCESS</a> request to query the access state of a CD-ROM device or to lock or unlock the device for exclusive access.
 
 
 
 
 ## -see-also
 
-<a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_exclusive_access.md">IOCTL_CDROM_EXCLUSIVE_ACCESS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559327">IOCTL_CDROM_EXCLUSIVE_ACCESS</a>
  
 
  

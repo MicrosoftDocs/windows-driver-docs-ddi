@@ -52,21 +52,6 @@ req.typenames: DEBUG_HANDLE_DATA_BASIC, *PDEBUG_HANDLE_DATA_BASIC
 The DEBUG_HANDLE_DATA_BASIC structure contains handle-related information about a system object.
 
 
-## -syntax
-
-
-````
-typedef struct _DEBUG_HANDLE_DATA_BASIC {
-  ULONG TypeNameSize;
-  ULONG ObjectNameSize;
-  ULONG Attributes;
-  ULONG GrantedAccess;
-  ULONG HandleCount;
-  ULONG PointerCount;
-} DEBUG_HANDLE_DATA_BASIC, *PDEBUG_HANDLE_DATA_BASIC;
-````
-
-
 ## -struct-fields
 
 

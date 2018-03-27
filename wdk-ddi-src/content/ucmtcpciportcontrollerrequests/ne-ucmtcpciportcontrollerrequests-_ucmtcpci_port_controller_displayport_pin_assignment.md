@@ -52,27 +52,6 @@ req.product: Windows 10 or later.
 TBD
 
 
-## -syntax
-
-
-````
-typedef enum _UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_PIN_ASSIGNMENT { 
-  UcmTcpciPortControllerPinAssignmentInvalid  = 0x0,
-  UcmTcpciPortControllerDFPDPinAssignmentA    = ,
-  UcmTcpciPortControllerDFPDPinAssignmentB    = ,
-  UcmTcpciPortControllerDFPDPinAssignmentC    = ,
-  UcmTcpciPortControllerDFPDPinAssignmentD    = ,
-  UcmTcpciPortControllerDFPDPinAssignmentE    = ,
-  UcmTcpciPortControllerDFPDPinAssignmentF    = ,
-  UcmTcpciPortControllerUFPDPinAssignmentA    = ,
-  UcmTcpciPortControllerUFPDPinAssignmentB    = ,
-  UcmTcpciPortControllerUFPDPinAssignmentC    = ,
-  UcmTcpciPortControllerUFPDPinAssignmentD    = ,
-  UcmTcpciPortControllerUFPDPinAssignmentE    = 
-} UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_PIN_ASSIGNMENT;
-````
-
-
 ## -enum-fields
 
 

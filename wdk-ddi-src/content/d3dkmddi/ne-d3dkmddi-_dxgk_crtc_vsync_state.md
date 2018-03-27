@@ -49,19 +49,7 @@ req.typenames: DXGK_CRTC_VSYNC_STATE
 ## -description
 
 
-Provides additional information for <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_controlinterrupt2.md">DxgkDdi_ControlInterrupt2 </a>when VSYNC is being utilized.
-
-
-## -syntax
-
-
-````
-typedef enum _DXGK_CRTC_VSYNC_STATE { 
-  DXGK_INTERRUPT_ENABLE            = 0,
-  DXGK_VSYNC_DISABLE_KEEP_PHASE    = 1,
-  DXGK_VSYNC_DISABLE_NO_PHASE      = 2
-} DXGK_CRTC_VSYNC_STATE;
-````
+Provides additional information for <a href="https://msdn.microsoft.com/0C09CAB1-3DFC-4340-8FF2-99CAF7F13156">DxgkDdi_ControlInterrupt2 </a>when VSYNC is being utilized.
 
 
 ## -enum-fields

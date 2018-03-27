@@ -52,16 +52,6 @@ req.typenames: D3DKMT_DESTROYHWQUEUE
 A structure holding information to destroy a hardware queue.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DKMT_DESTROYHWQUEUE {
-  D3DKMT_HANDLE hHwQueue;
-} D3DKMT_DESTROYHWQUEUE;
-````
-
-
 ## -struct-fields
 
 

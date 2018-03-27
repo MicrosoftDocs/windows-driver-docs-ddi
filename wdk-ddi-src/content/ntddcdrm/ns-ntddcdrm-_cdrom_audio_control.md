@@ -52,17 +52,6 @@ req.typenames: CDROM_AUDIO_CONTROL, *PCDROM_AUDIO_CONTROL
 The CDROM_AUDIO_CONTROL structure is used in conjunction with the IOCTL_CDROM_GET_CONTROL request to report the audio playback mode. 
 
 
-## -syntax
-
-
-````
-typedef struct _CDROM_AUDIO_CONTROL {
-  UCHAR  LbaFormat;
-  USHORT LogicalBlocksPerSecond;
-} CDROM_AUDIO_CONTROL, *PCDROM_AUDIO_CONTROL;
-````
-
-
 ## -struct-fields
 
 
@@ -80,10 +69,10 @@ Contains the number of logical blocks per second.
 
 ## -see-also
 
-<a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_get_control.md">IOCTL_CDROM_GET_CONTROL</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559336">IOCTL_CDROM_GET_CONTROL</a>
  
 
  

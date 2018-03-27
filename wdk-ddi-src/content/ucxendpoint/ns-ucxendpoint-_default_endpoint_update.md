@@ -50,23 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-Contains the handle to the default endpoint to update in a framework request that is passed by UCX when it invokes <a href="..\ucxendpoint\nc-ucxendpoint-evt_ucx_default_endpoint_update.md">EVT_UCX_DEFAULT_ENDPOINT_UPDATE</a> callback function.
-
-
-## -syntax
-
-
-````
-typedef struct _DEFAULT_ENDPOINT_UPDATE {
-#if __cplusplus
-  USBDEVICE_MGMT_HEADER Header;
-#else 
-  USBDEVICE_MGMT_HEADER ;
-#endif 
-  UCXENDPOINT           DefaultEndpoint;
-  ULONG                 MaxPacketSize;
-} DEFAULT_ENDPOINT_UPDATE, *P_DEFAULT_ENDPOINT_UPDATE;
-````
+Contains the handle to the default endpoint to update in a framework request that is passed by UCX when it invokes <a href="https://msdn.microsoft.com/library/windows/hardware/mt187824">EVT_UCX_DEFAULT_ENDPOINT_UPDATE</a> callback function.
 
 
 ## -struct-fields
@@ -76,7 +60,7 @@ typedef struct _DEFAULT_ENDPOINT_UPDATE {
 
 ### -field Header
 
-A <a href="..\ucxusbdevice\ns-ucxusbdevice-_usbdevice_mgmt_header.md">USBDEVICE_MGMT_HEADER</a> structure that contains header information related to the USB device or hub endpoint.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/mt188075">USBDEVICE_MGMT_HEADER</a> structure that contains header information related to the USB device or hub endpoint.
 
 
 ### -field DefaultEndpoint
@@ -91,10 +75,10 @@ The maximum packet size of the default endpoint.
 
 ## -see-also
 
-<a href="..\ucxendpoint\nc-ucxendpoint-evt_ucx_default_endpoint_update.md">EVT_UCX_DEFAULT_ENDPOINT_UPDATE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt187824">EVT_UCX_DEFAULT_ENDPOINT_UPDATE</a>
  
 
  

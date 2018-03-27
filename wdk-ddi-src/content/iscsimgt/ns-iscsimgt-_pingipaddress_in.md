@@ -52,19 +52,6 @@ req.typenames: PingIPAddress_IN, *PPingIPAddress_IN
 The PingIPAddress_IN structure holds the input data for the PingIPAddress method.
 
 
-## -syntax
-
-
-````
-typedef struct _PingIPAddress_IN {
-  ULONG            RequestCount;
-  ULONG            RequestSize;
-  ULONG            Timeout;
-  ISCSI_IP_Address Address;
-} PingIPAddress_IN, *PPingIPAddress_IN;
-````
-
-
 ## -struct-fields
 
 
@@ -87,7 +74,7 @@ The timeout (in milliseconds) for each ping request.
 
 ### -field Address
 
-The IP address to which the ping request must be sent. The IP address is provided by the <a href="..\iscsidef\ns-iscsidef-_iscsi_ip_address.md">ISCSI_IP_Address</a> structure.
+The IP address to which the ping request must be sent. The IP address is provided by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff561536">ISCSI_IP_Address</a> structure.
 
 
 ## -remarks
@@ -101,10 +88,10 @@ We recommend that you implement this class.
 
 ## -see-also
 
-<a href="..\iscsidef\ns-iscsidef-_iscsi_ip_address.md">ISCSI_IP_Address</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561536">ISCSI_IP_Address</a>
  
 
  

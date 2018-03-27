@@ -54,17 +54,6 @@ req.product: Windows 10 or later.
 Attempts to handle an IOCTL request sent by a user-mode software. 
 
 
-## -syntax
-
-
-````
-FORCEINLINE BOOLEAN UdecxWdfDeviceTryHandleUserIoctl(
-  _In_ WDFDEVICE  Device,
-  _In_ WDFREQUEST Request
-);
-````
-
-
 ## -parameters
 
 
@@ -82,7 +71,7 @@ A handle to a framework request object that represents the IOCTL request.
 
 #### - Device [in]
 
-A handle to a framework device object that represents the controller. The client driver initialized this object in the previous call to <a href="..\udecxwdfdevice\nf-udecxwdfdevice-udecxwdfdeviceaddusbdeviceemulation.md">UdecxWdfDeviceAddUsbDeviceEmulation</a>.
+A handle to a framework device object that represents the controller. The client driver initialized this object in the previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/mt627990">UdecxWdfDeviceAddUsbDeviceEmulation</a>.
 
 
 ## -returns
@@ -108,10 +97,10 @@ The UDE client driver presents itself to user-mode software as a host controller
 
 <ul>
 <li>
-<a href="..\usbioctl\ni-usbioctl-ioctl_get_hcd_driverkey_name.md">IOCTL_GET_HCD_DRIVERKEY_NAME</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537236">IOCTL_GET_HCD_DRIVERKEY_NAME</a>
 </li>
 <li>
-<a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_root_hub_name.md">IOCTL_USB_GET_ROOT_HUB_NAME</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537326">IOCTL_USB_GET_ROOT_HUB_NAME</a>
 </li>
 <li>
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537344">IOCTL_USB_USER_REQUEST</a>
@@ -122,7 +111,6 @@ The UDE client driver presents itself to user-mode software as a host controller
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
 
 
 
@@ -130,6 +118,7 @@ The UDE client driver presents itself to user-mode software as a host controller
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
  
 
  

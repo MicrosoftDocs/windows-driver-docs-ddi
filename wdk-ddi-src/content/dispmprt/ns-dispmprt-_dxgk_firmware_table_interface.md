@@ -54,34 +54,6 @@ Contains functions that user-mode display drivers can use to read and enumerate 
 
 
 
-## -syntax
-
-
-````
-typedef struct _DXGK_FIRMWARE_TABLE_INTERFACE {
-  USHORT                 Size;
-  USHORT                 Version;
-  PVOID                  Context;
-  PINTERFACE_REFERENCE   InterfaceReference;
-  PINTERFACE_DEREFERENCE InterfaceDereference;
-  NTSTATUS               (*EnumSystemFirmwareTables)(
-      _In_ VOID *Context, 
-      _In_ ULONG ProviderSignature, 
-      _In_ ULONG TableId, 
-      _In_ ULONG BufferSize, 
-      _Out_opt_ VOID *Buffer, 
-      _Out_ ULONG *RequiredSize);
-  NTSTATUS               (*ReadSystemFirmwareTable)(
-      _In_ VOID *Context, 
-      _In_ ULONG ProviderSignature, 
-      _In_ ULONG TableId, 
-      _In_ ULONG BufferSize, 
-      _Out_opt_ VOID *Buffer, 
-      _Out_ ULONG *RequiredSize);
-} DXGK_FIRMWARE_TABLE_INTERFACE, *PDXGK_FIRMWARE_TABLE_INTERFACE;
-````
-
-
 ## -struct-fields
 
 
@@ -306,7 +278,7 @@ For ACPI, if the system contains multiple tables with the same name, they are al
 
 #### Context
 
-A handle to a context block that is associated with a display adapter. The display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a> function previously provided this handle to the DirectX graphics kernel subsystem.
+A handle to a context block that is associated with a display adapter. The display miniport driver's <a href="https://msdn.microsoft.com/5fd4046f-54c3-4dfc-8d51-0d9ebcde0bea">DxgkDdiAddDevice</a> function previously provided this handle to the DirectX graphics kernel subsystem.
 
 
 
@@ -395,7 +367,6 @@ A pointer to a value that receives the minimum size of the  buffer pointed to by
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh802471">ReadSystemFirmwareTable</a>
 
 
 
@@ -403,6 +374,7 @@ A pointer to a value that receives the minimum size of the  buffer pointed to by
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh802471">ReadSystemFirmwareTable</a>
  
 
  

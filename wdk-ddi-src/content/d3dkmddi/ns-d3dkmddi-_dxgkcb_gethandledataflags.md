@@ -52,22 +52,6 @@ req.typenames: DXGKCB_GETHANDLEDATAFLAGS
 The DXGKCB_GETHANDLEDATAFLAGS structure indicates if allocations belong to a resource.
 
 
-## -syntax
-
-
-````
-typedef struct _DXGKCB_GETHANDLEDATAFLAGS {
-  union {
-    struct {
-      UINT DeviceSpecific  :1;
-      UINT Reserved  :31;
-    };
-    UINT Value;
-  };
-} DXGKCB_GETHANDLEDATAFLAGS;
-````
-
-
 ## -struct-fields
 
 
@@ -92,10 +76,10 @@ A member in the union that DXGKCB_GETHANDLEDATAFLAGS contains that can hold a 32
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkargcb_gethandledata.md">DXGKARGCB_GETHANDLEDATA</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557534">DXGKARGCB_GETHANDLEDATA</a>
  
 
  

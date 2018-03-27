@@ -52,17 +52,6 @@ req.typenames: D3DDDI_RATIONAL
 The D3DDDI_RATIONAL structure describes a fractional value that represents vertical and horizontal frequencies of a video mode (that is, vertical sync and horizontal sync). 
 
 
-## -syntax
-
-
-````
-typedef struct _D3DDDI_RATIONAL {
-  UINT Numerator;
-  UINT Denominator;
-} D3DDDI_RATIONAL;
-````
-
-
 ## -struct-fields
 
 

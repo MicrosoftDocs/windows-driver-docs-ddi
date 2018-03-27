@@ -52,20 +52,6 @@ req.typenames: SM_SendRNID_IN, *PSM_SendRNID_IN
 The SM_SendRNID_IN structure is used to provide input parameters to the SM_SendRNID method.
 
 
-## -syntax
-
-
-````
-typedef struct _SM_SendRNID_IN {
-  UCHAR HbaPortWWN[8];
-  UCHAR DestWWN[8];
-  ULONG DestFCID;
-  ULONG NodeIdDataFormat;
-  ULONG InRespBufferMaxSize;
-} SM_SendRNID_IN, *PSM_SendRNID_IN;
-````
-
-
 ## -struct-fields
 
 

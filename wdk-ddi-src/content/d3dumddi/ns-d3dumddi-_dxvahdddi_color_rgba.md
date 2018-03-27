@@ -52,19 +52,6 @@ req.typenames: DXVAHDDDI_COLOR_RGBA
 The DXVAHDDDI_COLOR_RGBA structure describes color in RGB terms.  
 
 
-## -syntax
-
-
-````
-typedef struct _DXVAHDDDI_COLOR_RGBA {
-  FLOAT R;
-  FLOAT G;
-  FLOAT B;
-  FLOAT A;
-} DXVAHDDDI_COLOR_RGBA;
-````
-
-
 ## -struct-fields
 
 
@@ -98,17 +85,17 @@ The setting of DXVAHDDDI_COLOR_RGBA for full range RGB black with opaque alpha i
 
 R, G, and B values can be out of the [0.0, 1.0] range for wide gamut format (for example, for XR_BIAS, FP16, and FP32 formats).
 
-A DXVAHDDDI_COLOR_YCbCrA structure is specified in the <b>RGB</b> member of the <a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_color.md">DXVAHDDDI_COLOR</a> union to specify the color in RGB terms.
+A DXVAHDDDI_COLOR_YCbCrA structure is specified in the <b>RGB</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563025">DXVAHDDDI_COLOR</a> union to specify the color in RGB terms.
 
 
 
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_color.md">DXVAHDDDI_COLOR</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563025">DXVAHDDDI_COLOR</a>
  
 
  

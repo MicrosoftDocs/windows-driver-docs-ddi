@@ -47,11 +47,6 @@ req.product: Windows 10 or later.
 # IOCTL_BIOMETRIC_CALIBRATE IOCTL
 
 
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
-
 ## -description
 
 
@@ -75,12 +70,12 @@ None.
 
 ### -output-buffer
 
-The <b>AssociatedIrp</b>.<b>SystemBuffer</b> member points to a buffer that contains a <a href="..\winbio_ioctl\ns-winbio_ioctl-_winbio_calibration_info.md">WINBIO_CALIBRATION_INFO</a> structure.
+The <b>AssociatedIrp</b>.<b>SystemBuffer</b> member points to a buffer that contains a <a href="https://msdn.microsoft.com/library/windows/hardware/ff536465">WINBIO_CALIBRATION_INFO</a> structure.
 
 
 ### -output-buffer-length
 
-Length of a <a href="..\winbio_ioctl\ns-winbio_ioctl-_winbio_calibration_info.md">WINBIO_CALIBRATION_INFO</a> structure. 
+Length of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff536465">WINBIO_CALIBRATION_INFO</a> structure. 
 
 The vendor-supplied driver can optionally return a DWORD-sized buffer that specifies the buffer size necessary for the requested operation.
 

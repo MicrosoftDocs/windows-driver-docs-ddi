@@ -49,20 +49,7 @@ req.typenames: DXGK_QUERYSEGMENTMEMORYSTATE, DXGK_SEGMENTMEMORYSTATE
 ## -description
 
 
-<b>DXGK_QUERYSEGMENTMEMORYSTATE</b> is used with <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_queryadapterinfo.md">DxgkDdiQueryAdapterInfo</a> to query invalid graphics processing unit (GPU) memory ranges.
-
-
-## -syntax
-
-
-````
-typedef struct _DXGK_QUERYSEGMENTMEMORYSTATE {
-  WORD             DriverSegmentId;
-  WORD             PhysicalAdapterIndex;
-  UINT             NumInvalidMemoryRanges;
-  DXGK_MEMORYRANGE *pMemoryRanges;
-} DXGK_QUERYSEGMENTMEMORYSTATE;
-````
+<b>DXGK_QUERYSEGMENTMEMORYSTATE</b> is used with <a href="https://msdn.microsoft.com/f2f4c54c-7413-48e5-a165-d71f35642b6c">DxgkDdiQueryAdapterInfo</a> to query invalid graphics processing unit (GPU) memory ranges.
 
 
 ## -struct-fields
@@ -82,28 +69,28 @@ Physical adapter index in a linked display adapter link.
 
 ### -field NumInvalidMemoryRanges
 
-The number of entries in the <b>pMemoryRanges</b> array. This is the value returned by the kernel mode driver in <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_segmentdescriptor4.md">DXGK_SEGMENTDESCRIPTOR4</a>.
+The number of entries in the <b>pMemoryRanges</b> array. This is the value returned by the kernel mode driver in <a href="https://msdn.microsoft.com/library/windows/hardware/dn906842">DXGK_SEGMENTDESCRIPTOR4</a>.
 
 
 ### -field pMemoryRanges
 
-Array of <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_memoryrange.md">DXGK_MEMORYRANGE</a> structures for the invalid memory ranges.
+Array of <a href="https://msdn.microsoft.com/library/windows/hardware/dn906829">DXGK_MEMORYRANGE</a> structures for the invalid memory ranges.
 
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_memoryrange.md">DXGK_MEMORYRANGE</a>
 
 
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_queryadapterinfo.md">DxgkDdiQueryAdapterInfo</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn906829">DXGK_MEMORYRANGE</a>
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_segmentdescriptor4.md">DXGK_SEGMENTDESCRIPTOR4</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn906842">DXGK_SEGMENTDESCRIPTOR4</a>
 
 
 
+<a href="https://msdn.microsoft.com/f2f4c54c-7413-48e5-a165-d71f35642b6c">DxgkDdiQueryAdapterInfo</a>
  
 
  

@@ -52,19 +52,6 @@ req.typenames: RILRFSTATEPARAMMASK
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef enum _RILRFSTATEPARAMMASK { 
-  RIL_PARAM_RFSTATE_RFSTATE,
-  RIL_PARAM_RFSTATE_RFDATASIZE,
-  RIL_PARAM_RFSTATE_RFDATA,
-  RIL_PARAM_RFSTATE_ALL
-} RILRFSTATEPARAMMASK;
-````
-
-
 ## -enum-fields
 
 

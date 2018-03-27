@@ -53,18 +53,6 @@ req.product: Windows 10 or later.
 Defines power roles of USB Type-C connected devices. 
 
 
-## -syntax
-
-
-````
-typedef enum _UCM_POWER_ROLE { 
-  UcmPowerRoleInvalid  = 0x0,
-  UcmPowerRoleSink     = 0x1,
-  UcmPowerRoleSource   = 0x2
-} UCM_POWER_ROLE;
-````
-
-
 ## -enum-fields
 
 
@@ -87,18 +75,18 @@ Indicates the power role is set to source power.
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt187819">EVT_UCM_CONNECTOR_SET_POWER_ROLE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt187924">UCM_CONNECTOR_PD_CONFIG</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt187914">UcmConnectorPowerDirectionChanged</a>
-
-
-
-<a href="..\ucmmanager\ns-ucmmanager-_ucm_connector_pd_config.md">UCM_CONNECTOR_PD_CONFIG</a>
-
-
-
-<a href="..\ucmmanager\nc-ucmmanager-evt_ucm_connector_set_power_role.md">EVT_UCM_CONNECTOR_SET_POWER_ROLE</a>
-
-
-
  
 
  

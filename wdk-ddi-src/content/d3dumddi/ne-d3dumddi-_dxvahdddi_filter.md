@@ -49,23 +49,7 @@ req.typenames: DXVAHDDDI_FILTER
 ## -description
 
 
-The DXVAHDDDI_FILTER enumeration contains values that identify the filter range, which the driver should retrieve when the driver's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getcaps.md">GetCaps</a> function is called with the D3DDDICAPS_DXVAHD_GETVPFILTERRANGE value set. 
-
-
-## -syntax
-
-
-````
-typedef enum _DXVAHDDDI_FILTER { 
-  DXVAHDDDI_FILTER_BRIGHTNESS          = 0,
-  DXVAHDDDI_FILTER_CONTRAST            = 1,
-  DXVAHDDDI_FILTER_HUE                 = 2,
-  DXVAHDDDI_FILTER_SATURATION          = 3,
-  DXVAHDDDI_FILTER_NOISE_REDUCTION     = 4,
-  DXVAHDDDI_FILTER_EDGE_ENHANCEMENT    = 5,
-  DXVAHDDDI_FILTER_ANAMORPHIC_SCALING  = 6
-} DXVAHDDDI_FILTER;
-````
+The DXVAHDDDI_FILTER enumeration contains values that identify the filter range, which the driver should retrieve when the driver's <a href="https://msdn.microsoft.com/cf6c61ce-7b53-46d0-b3ff-ed5b2b964c65">GetCaps</a> function is called with the D3DDDICAPS_DXVAHD_GETVPFILTERRANGE value set. 
 
 
 ## -enum-fields
@@ -110,10 +94,10 @@ A value that specifies that the filter range of anamorphic scaling.
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getcaps.md">GetCaps</a>
 
 
 
+<a href="https://msdn.microsoft.com/cf6c61ce-7b53-46d0-b3ff-ed5b2b964c65">GetCaps</a>
  
 
  

@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -54,19 +54,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 The <b>SetScope</b> method sets the current scope.
 
 
-## -syntax
-
-
-````
-HRESULT SetScope(
-  [in]           ULONG64            InstructionOffset,
-  [in, optional] PDEBUG_STACK_FRAME ScopeFrame,
-  [in, optional] PVOID              ScopeContext,
-  [in]           ULONG              ScopeContextSize
-);
-````
-
-
 ## -parameters
 
 
@@ -79,7 +66,7 @@ Specifies the location in the process's virtual address space for the scope's cu
 
 ### -param ScopeFrame [in, optional]
 
-Specifies the scope's stack frame.  For information about this structure, see <a href="..\dbgeng\ns-dbgeng-_debug_stack_frame.md">DEBUG_STACK_FRAME</a>.
+Specifies the scope's stack frame.  For information about this structure, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff541643">DEBUG_STACK_FRAME</a>.
 
 
 ### -param ScopeContext [in, optional]
@@ -146,23 +133,6 @@ For more information about scopes, see <a href="https://msdn.microsoft.com/libra
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556774">SetScopeFrameByIndex</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554577">ResetScope</a>
 
 
 
@@ -170,6 +140,23 @@ For more information about scopes, see <a href="https://msdn.microsoft.com/libra
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550856">IDebugSymbols</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550864">IDebugSymbols2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550870">IDebugSymbols3</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554577">ResetScope</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556774">SetScopeFrameByIndex</a>
  
 
  

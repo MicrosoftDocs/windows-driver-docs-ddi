@@ -52,19 +52,6 @@ req.typenames: D3DKMT_ADAPTERINFO
 Supplies configuration information about a graphics adapter.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DKMT_ADAPTERINFO {
-  D3DKMT_HANDLE hAdapter;
-  LUID          AdapterLuid;
-  ULONG         NumOfSources;
-  BOOL          bPresentMoveRegionsPreferred;
-} D3DKMT_ADAPTERINFO;
-````
-
-
 ## -struct-fields
 
 

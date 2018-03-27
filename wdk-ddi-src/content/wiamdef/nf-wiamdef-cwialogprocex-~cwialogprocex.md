@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: wiamdef.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -53,16 +53,6 @@ req.product: Windows 10 or later.
 The<b>~CWiaLogProcEx</b> destructor is called when the function or method being logged is exited.
 
 
-## -syntax
-
-
-````
-void ~CWiaLogProcEx(
-    
-);
-````
-
-
 ## -parameters
 
 
@@ -83,10 +73,10 @@ This method does not return a value.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt844723">CWiaLogProcEx</a>
-
-
-
  
 
  

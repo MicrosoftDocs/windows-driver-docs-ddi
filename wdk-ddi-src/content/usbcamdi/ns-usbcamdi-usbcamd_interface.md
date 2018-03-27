@@ -53,21 +53,6 @@ req.product: Windows 10 or later.
 The USBCAMD_INTERFACE structure defines a set of services related to the USB bus interfaces.
 
 
-## -syntax
-
-
-````
-typedef struct {
-  INTERFACE                      Interface;
-  PFNUSBCAMD_WaitOnDeviceEvent   USBCAMD_WaitOnDeviceEvent;
-  PFNUSBCAMD_BulkReadWrite       USBCAMD_BulkReadWrite;
-  PFNUSBCAMD_SetVideoFormat      USBCAMD_SetVideoFormat;
-  PFNUSBCAMD_SetIsoPipeState     USBCAMD_SetIsoPipeState;
-  PFNUSBCAMD_CancelBulkReadWrite USBCAMD_CancelBulkReadWrite;
-} USBCAMD_INTERFACE, *PUSBCAMD_INTERFACE;
-````
-
-
 ## -struct-fields
 
 
@@ -117,31 +102,14 @@ The camera minidriver may obtain the USBCAMD_INTERFACE entry points at any point
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn895657">INTERFACE</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551687">IRP_MN_QUERY_INTERFACE</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568577">USBCAMD_BulkReadWrite</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568634">USBCAMD_SetVideoFormat</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568629">USBCAMD_SetIsoPipeState</a>
-
-
-
-<a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568580">USBCAMD_CancelBulkReadWrite</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568638">USBCAMD_WaitOnDeviceEvent</a>
 
 
 
@@ -149,6 +117,23 @@ The camera minidriver may obtain the USBCAMD_INTERFACE entry points at any point
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568577">USBCAMD_BulkReadWrite</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568580">USBCAMD_CancelBulkReadWrite</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568629">USBCAMD_SetIsoPipeState</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568634">USBCAMD_SetVideoFormat</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568638">USBCAMD_WaitOnDeviceEvent</a>
  
 
  

@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,20 +51,6 @@ req.product: Windows 10 or later.
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef enum _RILPHONEBOOKLOCATIONCAPS { 
-  RIL_CAPS_PBLOC_UICCFIXDIALING,
-  RIL_CAPS_PBLOC_OWNNUMBERS,
-  RIL_CAPS_PBLOC_UICCPHONEBOOK,
-  RIL_CAPS_PBLOC_UICCSERVICEDIALING,
-  RIL_CAPS_PBLOC_ALL
-} RILPHONEBOOKLOCATIONCAPS;
-````
 
 
 ## -enum-fields

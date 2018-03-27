@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
@@ -52,22 +52,6 @@ req.product: Windows 10 or later.
 
 
 			For internal use only.
-
-
-## -syntax
-
-
-````
-NTSTATUS WdfCompanionTargetSendTaskSynchronously(
-  _In_     WDFCOMPANIONTARGET     CompanionTarget,
-  _In_     USHORT                 TaskQueueIdentifier,
-  _In_     ULONG                  TaskOperationCode,
-  _In_opt_ PWDF_MEMORY_DESCRIPTOR InputBuffer,
-  _In_opt_ PWDF_MEMORY_DESCRIPTOR OutputBuffer,
-  _In_opt_ PWDF_TASK_SEND_OPTIONS TaskOptions,
-  _Out_    PULONG_PTR             BytesReturned
-);
-````
 
 
 ## -parameters

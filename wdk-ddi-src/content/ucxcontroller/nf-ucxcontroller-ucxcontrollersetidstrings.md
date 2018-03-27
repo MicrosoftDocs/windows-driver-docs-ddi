@@ -55,19 +55,6 @@ Updates the identifier strings
     of a controller after the controller has been initialized.
 
 
-## -syntax
-
-
-````
-NTSTATUS UcxControllerSetIdStrings(
-  _In_ UCXCONTROLLER   UcxController,
-  _In_ PUNICODE_STRING ManufacturerNameString,
-  _In_ PUNICODE_STRING ModelNameString,
-  _In_ PUNICODE_STRING ModelNumberString
-);
-````
-
-
 ## -parameters
 
 

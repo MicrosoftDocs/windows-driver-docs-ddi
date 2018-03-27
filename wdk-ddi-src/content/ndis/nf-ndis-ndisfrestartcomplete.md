@@ -53,18 +53,7 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 A filter driver must call the 
   <b>NdisFRestartComplete</b> function to complete a restart operation if the driver returned
   NDIS_STATUS_PENDING from its 
-  <a href="..\ndis\nc-ndis-filter_restart.md">FilterRestart</a> function.
-
-
-## -syntax
-
-
-````
-VOID NdisFRestartComplete(
-  _In_ NDIS_HANDLE NdisFilterHandle,
-  _In_ NDIS_STATUS Status
-);
-````
+  <a href="https://msdn.microsoft.com/4a917824-eef1-4945-b45e-1c940bc8a50d">FilterRestart</a> function.
 
 
 ## -parameters
@@ -76,7 +65,7 @@ VOID NdisFRestartComplete(
 
 The NDIS handle that identifies this filter module. NDIS passed the handle to the filter driver in
      a call to the 
-     <a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a> function.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff540442">FilterAttach</a> function.
 
 
 ### -param Status [in]
@@ -104,7 +93,7 @@ The restart failed because of insufficient resources.
 
 The driver indicates NDIS_STATUS_FAILURE if none of the preceding values applies. The driver
        should call the 
-       <a href="..\ndis\nf-ndis-ndiswriteeventlogentry.md">NdisWriteEventLogEntry</a> function
+       <a href="https://msdn.microsoft.com/library/windows/hardware/ff564672">NdisWriteEventLogEntry</a> function
        together with parameters that specify the reason for the failure.
 
 
@@ -122,7 +111,7 @@ None
 
 
 NDIS calls a filter driver's 
-    <a href="..\ndis\nc-ndis-filter_restart.md">FilterRestart</a> function to initiate a
+    <a href="https://msdn.microsoft.com/4a917824-eef1-4945-b45e-1c940bc8a50d">FilterRestart</a> function to initiate a
     restart request for filter module. The filter module remains in the 
     <i>Restarting</i> state until the restart operation is complete.
 
@@ -140,18 +129,18 @@ A filter driver can resume indicating received network data immediately after ND
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
 
 
 
-<a href="..\ndis\nc-ndis-filter_restart.md">FilterRestart</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540442">FilterAttach</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndiswriteeventlogentry.md">NdisWriteEventLogEntry</a>
+<a href="https://msdn.microsoft.com/4a917824-eef1-4945-b45e-1c940bc8a50d">FilterRestart</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564672">NdisWriteEventLogEntry</a>
  
 
  

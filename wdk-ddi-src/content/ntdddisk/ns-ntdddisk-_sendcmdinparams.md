@@ -52,21 +52,6 @@ req.typenames: SENDCMDINPARAMS, *PSENDCMDINPARAMS, *LPSENDCMDINPARAMS
 The SENDCMDINPARAMS structure contains the input parameters for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566206">SMART_SEND_DRIVE_COMMAND</a> request.
 
 
-## -syntax
-
-
-````
-typedef struct _SENDCMDINPARAMS {
-  ULONG   cBufferSize;
-  IDEREGS irDriveRegs;
-  UCHAR   bDriveNumber;
-  UCHAR   bReserved[3];
-  ULONG   dwReserved[4];
-  UCHAR   bBuffer[1];
-} SENDCMDINPARAMS, *PSENDCMDINPARAMS, *LPSENDCMDINPARAMS;
-````
-
-
 ## -struct-fields
 
 
@@ -79,7 +64,7 @@ Contains the buffer size, in bytes.
 
 ### -field irDriveRegs
 
-Contains a <a href="..\ntdddisk\ns-ntdddisk-_ideregs.md">IDEREGS</a> structure used to report the contents of the IDE controller registers.
+Contains a <a href="https://msdn.microsoft.com/library/windows/hardware/ff559015">IDEREGS</a> structure used to report the contents of the IDE controller registers.
 
 
 ### -field bDriveNumber
@@ -115,11 +100,10 @@ The SENDCMDINPARAMS structure is also used with the <a href="https://msdn.micros
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566206">SMART_SEND_DRIVE_COMMAND</a>
 
 
 
-<a href="..\ntdddisk\ns-ntdddisk-_sendcmdoutparams.md">SENDCMDOUTPARAMS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565405">SENDCMDOUTPARAMS</a>
 
 
 
@@ -127,6 +111,7 @@ The SENDCMDINPARAMS structure is also used with the <a href="https://msdn.micros
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566206">SMART_SEND_DRIVE_COMMAND</a>
  
 
  

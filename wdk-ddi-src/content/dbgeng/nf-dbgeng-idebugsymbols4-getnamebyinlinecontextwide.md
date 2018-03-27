@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -50,21 +50,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 Gets a name by inline context.
-
-
-## -syntax
-
-
-````
-HRESULT GetNameByInlineContextWide(
-  [in]            ULONG64                            Offset,
-  [in]            ULONG                              InlineContext,
-  [out]           _writes_opt_(NameBufferSize) PWSTR NameBuffer,
-  [in]            ULONG                              NameBufferSize,
-  [out, optional] PULONG                             NameSize,
-  [out, optional] PULONG64                           Displacement
-);
-````
 
 
 ## -parameters
@@ -113,10 +98,10 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols4.md">IDebugSymbols4</a>
 
 
 
+<a href="https://msdn.microsoft.com/BE2734B5-1E67-4E38-B4DF-0C353BFB1F0B">IDebugSymbols4</a>
  
 
  

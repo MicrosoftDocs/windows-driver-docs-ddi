@@ -49,17 +49,7 @@ req.typenames: D3DDDIARG_DESTROYCRYPTOSESSION
 ## -description
 
 
-The D3DDDIARG_DESTROYCRYPTOSESSION structure contains the handle to an encryption session that is destroyed in a call to the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_destroycryptosession.md">DestroyCryptoSession</a> function. 
-
-
-## -syntax
-
-
-````
-typedef struct _D3DDDIARG_DESTROYCRYPTOSESSION {
-  HANDLE hCryptoSession;
-} D3DDDIARG_DESTROYCRYPTOSESSION;
-````
+The D3DDDIARG_DESTROYCRYPTOSESSION structure contains the handle to an encryption session that is destroyed in a call to the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451632">DestroyCryptoSession</a> function. 
 
 
 ## -struct-fields
@@ -74,10 +64,10 @@ typedef struct _D3DDDIARG_DESTROYCRYPTOSESSION {
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_destroycryptosession.md">DestroyCryptoSession</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451632">DestroyCryptoSession</a>
  
 
  

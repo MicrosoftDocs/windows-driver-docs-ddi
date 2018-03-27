@@ -54,17 +54,6 @@ req.product: Windows 10 or later.
 Sets the USB speed of the virtual USB device to create. 
 
 
-## -syntax
-
-
-````
-FORCEINLINE void UdecxUsbDeviceInitSetSpeed(
-  _Inout_ PUDECXUSBDEVICE_INIT   UdecxUsbDeviceInit,
-  _In_    UDECX_USB_DEVICE_SPEED UsbDeviceSpeed
-);
-````
-
-
 ## -parameters
 
 
@@ -72,12 +61,12 @@ FORCEINLINE void UdecxUsbDeviceInitSetSpeed(
 
 ### -param UdecxUsbDeviceInit [in, out]
 
-A pointer to a WDF-allocated structure that contains initialization parameters for the virtual USB device.  The client driver retrieved this pointer in the previous call to <a href="..\udecxusbdevice\nf-udecxusbdevice-udecxusbdeviceinitallocate.md">UdecxUsbDeviceInitAllocate</a>. 
+A pointer to a WDF-allocated structure that contains initialization parameters for the virtual USB device.  The client driver retrieved this pointer in the previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/mt627968">UdecxUsbDeviceInitAllocate</a>. 
 
 
 ### -param UsbDeviceSpeed [in]
 
-A <a href="..\udecxusbdevice\ne-udecxusbdevice-_udecx_usb_device_speed.md">UDECX_USB_DEVICE_SPEED</a>-type value that indicates the USB speed to set.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/mt628002">UDECX_USB_DEVICE_SPEED</a>-type value that indicates the USB speed to set.
 
 
 ## -returns
@@ -100,7 +89,6 @@ After the client driver sets the USB speed of the device, it only operates in th
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
 
 
 
@@ -108,6 +96,7 @@ After the client driver sets the USB speed of the device, it only operates in th
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
  
 
  

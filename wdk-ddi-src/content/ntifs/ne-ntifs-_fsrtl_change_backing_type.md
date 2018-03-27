@@ -52,18 +52,6 @@ req.typenames: FSRTL_CHANGE_BACKING_TYPE, *PFSRTL_CHANGE_BACKING_TYPE
 The FSRTL_CHANGE_BACKING_TYPE enumeration specifies the type of cache or control area that a file object designates.
 
 
-## -syntax
-
-
-````
-typedef enum _FSRTL_CHANGE_BACKING_TYPE { 
-  ChangeDataControlArea   = 0,
-  ChangeImageControlArea  = 1,
-  ChangeSharedCacheMap    = 2
-} FSRTL_CHANGE_BACKING_TYPE, *PFSRTL_CHANGE_BACKING_TYPE;
-````
-
-
 ## -enum-fields
 
 
@@ -86,10 +74,10 @@ The shared cache map of the cache manager.
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-fsrtlchangebackingfileobject.md">FsRtlChangeBackingFileObject</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545749">FsRtlChangeBackingFileObject</a>
  
 
  

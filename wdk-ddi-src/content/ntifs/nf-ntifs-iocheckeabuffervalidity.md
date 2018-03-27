@@ -52,18 +52,6 @@ req.typenames: TOKEN_TYPE
 The <b>IoCheckEaBufferValidity</b> routine checks whether the specified extended attribute (EA) buffer is valid.
 
 
-## -syntax
-
-
-````
-NTSTATUS IoCheckEaBufferValidity(
-  _In_  PFILE_FULL_EA_INFORMATION EaBuffer,
-  _In_  ULONG                     EaLength,
-  _Out_ PULONG                    ErrorOffset
-);
-````
-
-
 ## -parameters
 
 
@@ -139,11 +127,10 @@ To be valid, the EA buffer must meet all of these conditions.
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_file_full_ea_information.md">FILE_FULL_EA_INFORMATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549346">IRP_MJ_SET_EA</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545793">FILE_FULL_EA_INFORMATION</a>
 
 
 
@@ -151,6 +138,7 @@ To be valid, the EA buffer must meet all of these conditions.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549346">IRP_MJ_SET_EA</a>
  
 
  

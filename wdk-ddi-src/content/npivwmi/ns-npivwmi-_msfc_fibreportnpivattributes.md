@@ -52,19 +52,6 @@ req.typenames: MSFC_FibrePortNPIVAttributes, *PMSFC_FibrePortNPIVAttributes
 The MSFC_FibrePortNPIVAttributes structure contains attribute information for the virtual ports on an adapter.
 
 
-## -syntax
-
-
-````
-typedef struct _MSFC_FibrePortNPIVAttributes {
-  UCHAR                           WWPN[8];
-  UCHAR                           WWNN[8];
-  ULONG                           NumberVirtualPorts;
-  MSFC_VirtualFibrePortAttributes VirtualPorts[1];
-} MSFC_FibrePortNPIVAttributes, *PMSFC_FibrePortNPIVAttributes;
-````
-
-
 ## -struct-fields
 
 
@@ -92,10 +79,10 @@ An array of virtual ports. The array length is specified in the <b>NumberVirtual
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh127624">MSFC_FibrePortNPIVAttributes WMI Class</a>
-
-
-
  
 
  

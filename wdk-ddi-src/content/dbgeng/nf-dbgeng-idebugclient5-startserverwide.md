@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -50,16 +50,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>StartServerWide</b> method starts a debugging server.
-
-
-## -syntax
-
-
-````
-HRESULT StartServerWide(
-  [in] PCSTR Options
-);
-````
 
 
 ## -parameters
@@ -113,15 +103,14 @@ For more information about debugging servers, see Debugging Server and Debugging
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
 
 
 
-<a href="..\dbgeng\nf-dbgeng-debugconnect.md">DebugConnect</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540465">DebugConnect</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558810">StartProcessServer</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550497">IDebugClient5</a>
 
 
 
@@ -129,6 +118,7 @@ For more information about debugging servers, see Debugging Server and Debugging
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558810">StartProcessServer</a>
  
 
  

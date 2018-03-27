@@ -52,17 +52,6 @@ req.typenames: RILCALLINFODIRECTION
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef enum _RILCALLINFODIRECTION { 
-  RIL_CALLDIR_OUTGOING,
-  RIL_CALLDIR_MAX
-} RILCALLINFODIRECTION;
-````
-
-
 ## -enum-fields
 
 

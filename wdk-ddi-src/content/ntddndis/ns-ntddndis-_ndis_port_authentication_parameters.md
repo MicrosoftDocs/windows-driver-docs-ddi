@@ -53,20 +53,6 @@ The NDIS_PORT_AUTHENTICATION_PARAMETERS structure specifies the state parameters
   port.
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_PORT_AUTHENTICATION_PARAMETERS {
-  NDIS_OBJECT_HEADER            Header;
-  NDIS_PORT_CONTROLL_STATE      SendControlState;
-  NDIS_PORT_CONTROLL_STATE      RcvControlState;
-  NDIS_PORT_AUTHORIZATION_STATE SendAuthorizationState;
-  NDIS_PORT_AUTHORIZATION_STATE RcvAuthorizationState;
-} NDIS_PORT_AUTHENTICATION_PARAMETERS, *PNDIS_PORT_AUTHENTICATION_PARAMETERS;
-````
-
-
 ## -struct-fields
 
 
@@ -75,7 +61,7 @@ typedef struct _NDIS_PORT_AUTHENTICATION_PARAMETERS {
 ### -field Header
 
 The 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure for the
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure for the
      NDIS_PORT_AUTHENTICATION_PARAMETERS structure. Set the 
      <b>Type</b> member of the structure that 
      <b>Header</b> specifies to NDIS_OBJECT_TYPE_DEFAULT, the 
@@ -229,15 +215,15 @@ The NDIS_PORT_AUTHENTICATION_PARAMETERS structure is used in
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
+
+
+
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-port-authentication-parameters">
    OID_GEN_PORT_AUTHENTICATION_PARAMETERS</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
  
 
  

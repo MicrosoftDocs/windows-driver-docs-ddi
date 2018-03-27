@@ -52,18 +52,6 @@ req.typenames: MSiSCSI_PersistentLogins, *PMSiSCSI_PersistentLogins
 The MSiSCSI_PersistentLogins structure contains the list of persistent target logon sessions. 
 
 
-## -syntax
-
-
-````
-typedef struct _MSiSCSI_PersistentLogins {
-  ULONG                  PersistentLoginCount;
-  ULONG                  Reserved;
-  ISCSI_Persistent_Login PersistentLogins[1];
-} MSiSCSI_PersistentLogins, *PMSiSCSI_PersistentLogins;
-````
-
-
 ## -struct-fields
 
 
@@ -81,7 +69,7 @@ Reserved for Microsoft use only.
 
 ### -field PersistentLogins
 
-A variable length array of <a href="..\iscsiop\ns-iscsiop-_iscsi_persistent_login.md">ISCSI_Persistent_Login</a> structures, each of which contains information that is associated with a particular persistent logon session that the initiator maintains.
+A variable length array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff561553">ISCSI_Persistent_Login</a> structures, each of which contains information that is associated with a particular persistent logon session that the initiator maintains.
 
 
 ## -remarks
@@ -95,18 +83,18 @@ Miniport drivers that manage iSCSI initiators automatically establish persistent
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561553">ISCSI_Persistent_Login</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561556">ISCSI_Persistent_Login WMI Class</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563096">MSiSCSI_PersistentLogins WMI Class</a>
-
-
-
-<a href="..\iscsiop\ns-iscsiop-_iscsi_persistent_login.md">ISCSI_Persistent_Login</a>
-
-
-
  
 
  

@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: ndis.h
+req.lib: 
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
@@ -52,22 +52,8 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 The 
   <b>NdisMCmOidRequestComplete</b> function returns the final status of a CoNDIS OID requestthat a miniport
   call manager (MCM) driver's 
-  <a href="..\ndis\nc-ndis-protocol_co_oid_request.md">ProtocolCoOidRequest</a> function
+  <a href="https://msdn.microsoft.com/8247396f-8781-45da-aba1-a31a2a26a46f">ProtocolCoOidRequest</a> function
   previously returned NDIS_STATUS_PENDING for.
-
-
-## -syntax
-
-
-````
-VOID NdisMCmOidRequestComplete(
-  [in]           NDIS_HANDLE       NdisAfHandle,
-  [in, optional] NDIS_HANDLE       NdisVcHandle,
-  [in, optional] NDIS_HANDLE       NdisPartyHandle,
-  [in]           PNDIS_OID_REQUEST OidRequest,
-  [in]           NDIS_STATUS       Status
-);
-````
 
 
 ## -parameters
@@ -107,7 +93,7 @@ TBD
 #### - NdisAfHandle [in]
 
 An address family (AF) handle that NDIS passed to the MCM's 
-     <a href="..\ndis\nc-ndis-protocol_co_oid_request.md">
+     <a href="https://msdn.microsoft.com/8247396f-8781-45da-aba1-a31a2a26a46f">
      ProtocolCoOidRequest</a> function.
 
 
@@ -124,14 +110,14 @@ A party handle that NDIS passed to the MCM's
 A virtual connection (VC) handle that NDIS passed to the MCM's 
      <i>ProtocolCoOidRequest</i> function. A <b>NULL</b> value for this parameter indicates that the request is not
      VC-specific. This parameter is <b>NULL</b> if the caller of the 
-     <a href="..\ndis\nf-ndis-ndiscooidrequest.md">NdisCoOidRequest</a> function specified a
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff561711">NdisCoOidRequest</a> function specified a
      <b>NULL</b> VC handle.
 
 
 #### - OidRequest [in]
 
 A pointer to an 
-     <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a> structure that the caller
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566710">NDIS_OID_REQUEST</a> structure that the caller
      of the 
      <b>NdisCoOidRequest</b> function supplied.
 
@@ -148,15 +134,15 @@ The final status of the request operation. This parameter can be NDIS_STATUS_SUC
 
 
 A CoNDIS MCM that returns NDIS_STATUS_PENDING from its 
-    <a href="..\ndis\nc-ndis-protocol_co_oid_request.md">ProtocolCoOidRequest</a> function must
+    <a href="https://msdn.microsoft.com/8247396f-8781-45da-aba1-a31a2a26a46f">ProtocolCoOidRequest</a> function must
     call the 
     <b>NdisMCmOidRequestComplete</b> function after the MCM has finished the OID request operation.
 
 After the MCM calls 
     <b>NdisMCmOidRequestComplete</b>, NDIS calls the 
-    <a href="..\ndis\nc-ndis-protocol_co_oid_request_complete.md">
+    <a href="https://msdn.microsoft.com/16883c64-3cc6-4f50-8be7-7c58c422a717">
     ProtocolCoOidRequestComplete</a> function of the CoNDIS client that originally called the 
-    <a href="..\ndis\nf-ndis-ndiscooidrequest.md">NdisCoOidRequest</a> function.
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561711">NdisCoOidRequest</a> function.
 
 For more information about the OIDs defined to use with CONDIS drivers, see 
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566707">NDIS OIDs</a>.
@@ -166,23 +152,23 @@ For more information about the OIDs defined to use with CONDIS drivers, see
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndiscooidrequest.md">NdisCoOidRequest</a>
 
 
 
-<a href="..\ndis\nc-ndis-protocol_co_oid_request.md">ProtocolCoOidRequest</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566710">NDIS_OID_REQUEST</a>
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561711">NdisCoOidRequest</a>
 
 
 
-<a href="..\ndis\nc-ndis-protocol_co_oid_request_complete.md">
+<a href="https://msdn.microsoft.com/8247396f-8781-45da-aba1-a31a2a26a46f">ProtocolCoOidRequest</a>
+
+
+
+<a href="https://msdn.microsoft.com/16883c64-3cc6-4f50-8be7-7c58c422a717">
    ProtocolCoOidRequestComplete</a>
-
-
-
  
 
  

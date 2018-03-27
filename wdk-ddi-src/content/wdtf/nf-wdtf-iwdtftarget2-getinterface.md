@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: Microsoft.WDTF
 req.assembly: WDTF.Interop.metadata_dll
 req.type-library: 
-req.lib: wdtf.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,19 +51,6 @@ req.product: Windows 10 or later.
 
 
 Returns an action for the target.
-
-
-## -syntax
-
-
-````
-HRESULT GetInterface(
-  [in]           BSTR         ProgID,
-  [in, optional] VARIANT      MoreTargets,
-  [in, optional] VARIANT      MonikerSuffix,
-  [out, retval]  IWDTFAction2 **ppInterface
-);
-````
 
 
 ## -parameters
@@ -142,10 +129,10 @@ see <a href="https://msdn.microsoft.com/library/windows/hardware/ff538355">Actio
 
 ## -see-also
 
-<a href="..\wdtf\nn-wdtf-iwdtftarget2.md">IWDTFTarget2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439367">IWDTFTarget2</a>
  
 
  

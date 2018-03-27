@@ -52,19 +52,6 @@ req.typenames: DOCKING_STATE
 The DOCKING_STATE enumeration is used to describe the state of a portable computer that can be attached to a docking station.
 
 
-## -syntax
-
-
-````
-typedef enum  { 
-  DockStateUnsupported  = 0,
-  DockStateUnDocked     = 1,
-  DockStateDocked       = 2,
-  DockStateUnknown      = 3
-} DOCKING_STATE;
-````
-
-
 ## -enum-fields
 
 

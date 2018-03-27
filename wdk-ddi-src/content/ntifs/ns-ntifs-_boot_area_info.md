@@ -52,19 +52,6 @@ req.typenames: BOOT_AREA_INFO, *PBOOT_AREA_INFO
 The <b>BOOT_AREA_INFO</b> structure contains the output for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff728858">FSCTL_GET_BOOT_AREA_INFO</a> control code.
 
 
-## -syntax
-
-
-````
-typedef struct _BOOT_AREA_INFO {
-  ULONG  BootSectorCount;
-  struct {
-    LARGE_INTEGER Offset;
-  } BootSectors[2];
-} BOOT_AREA_INFO, *PBOOT_AREA_INFO;
-````
-
-
 ## -struct-fields
 
 
@@ -88,10 +75,10 @@ The location of a boot sector or a copy of a boot sector.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff728858">FSCTL_GET_BOOT_AREA_INFO</a>
-
-
-
  
 
  

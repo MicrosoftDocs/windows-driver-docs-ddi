@@ -61,14 +61,6 @@ The <i>FreeStackSymFrames</i> callback function frees memory from a stack provid
 </tr>
 </table></span></div>
 
-## -prototype
-
-
-````
- CALLBACK* PDEBUG_STACK_PROVIDER_FREESTACKSYMFRAMES FreeStackSymFrames;
-````
-
-
 ## -parameters
 
 
@@ -101,10 +93,10 @@ After <i>FreeStackSymFrames</i> is called, the debugger calls the stack provider
 
 ## -see-also
 
-<a href="..\dbgeng\nc-dbgeng-pdebug_stack_provider_endthreadstackreconstruction.md">EndThreadStackReconstruction</a>
 
 
 
+<a href="https://msdn.microsoft.com/76984F28-7AC9-44FD-9D8B-CC184484C73E">EndThreadStackReconstruction</a>
  
 
  

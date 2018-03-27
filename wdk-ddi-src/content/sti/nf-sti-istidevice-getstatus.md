@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: sti.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -53,16 +53,6 @@ req.product: Windows 10 or later.
 The <b>IStiDevice::GetStatus</b> method returns a still image device's status information.
 
 
-## -syntax
-
-
-````
-HRESULT GetStatus(
-  [in, out] PSTI_DEVICE_STATUS pDevStatus
-);
-````
-
-
 ## -parameters
 
 
@@ -70,7 +60,7 @@ HRESULT GetStatus(
 
 ### -param pDevStatus [in, out]
 
-Caller-supplied pointer to an <a href="..\sti\ns-sti-_sti_device_status.md">STI_DEVICE_STATUS</a> structure. The caller must set the <b>dwSize</b> and <b>StatusMask</b> members.
+Caller-supplied pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff548369">STI_DEVICE_STATUS</a> structure. The caller must set the <b>dwSize</b> and <b>StatusMask</b> members.
 
 
 ## -returns
@@ -86,7 +76,7 @@ If the operation succeeds, the method returns S_OK. Otherwise, it returns one of
 
 
 
-The <b>IStiDevice::GetStatus</b> method returns device status information in the caller-supplied <a href="..\sti\ns-sti-_sti_device_status.md">STI_DEVICE_STATUS</a> structure. It obtains the status by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff543823">IStiUSD::GetStatus</a>, which is exported by vendor-supplied minidrivers.
+The <b>IStiDevice::GetStatus</b> method returns device status information in the caller-supplied <a href="https://msdn.microsoft.com/library/windows/hardware/ff548369">STI_DEVICE_STATUS</a> structure. It obtains the status by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff543823">IStiUSD::GetStatus</a>, which is exported by vendor-supplied minidrivers.
 
 Before calling <b>IStiDevice::GetStatus</b>, clients of the <b>IStiDevice</b> COM interface must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff543778">IStillImage::CreateDevice</a> to obtain an <b>IStiDevice</b> interface pointer, which provides access to a specified device.
 

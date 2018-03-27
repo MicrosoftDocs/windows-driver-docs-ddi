@@ -52,18 +52,6 @@ req.typenames: D3D12DDI_VIDEO_DECODE_CONFIGURATION_0020
 Includes information about the video decode configuration.
 
 
-## -syntax
-
-
-````
-typedef struct D3D12DDI_VIDEO_DECODE_CONFIGURATION_0020 {
-  GUID                                     DecodeProfile;
-  GUID                                     BitstreamEncryption;
-  D3D12DDI_VIDEO_CODED_INTERLACE_TYPE_0020 InterlaceType;
-} D3D12DDI_VIDEO_DECODE_CONFIGURATION_0020;
-````
-
-
 ## -struct-fields
 
 

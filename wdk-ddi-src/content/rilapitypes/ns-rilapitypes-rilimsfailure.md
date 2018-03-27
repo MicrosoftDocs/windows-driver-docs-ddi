@@ -53,22 +53,6 @@ req.product: Windows 10 or later.
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef struct _RILIMSFAILURE {
-  DWORD                     cbSize;
-  DWORD                     dwParams;
-  DWORD                     dwExecutor;
-  RILIMSFAILUREMESSAGETYPE  dwMessageType;
-  DWORD                     dwMessageSubType;
-  DWORD                     dwErrorCode;
-  WCHAR [256]               wszErrorString;
-} RILIMSFAILURE, RILIMSFAILURE;
-````
-
-
 ## -struct-fields
 
 

@@ -40,7 +40,7 @@ api_name:
 -	CLIENT_PreProcessControllerInterrupt
 product: Windows
 targetos: Windows
-req.typenames: GNSS_V2UPL_NI_INFO, *PGNSS_V2UPL_NI_INFO
+req.typenames: FWPS_CONNECT_REQUEST0
 ---
 
 # GPIO_CLIENT_PRE_PROCESS_CONTROLLER_INTERRUPT callback
@@ -50,20 +50,6 @@ req.typenames: GNSS_V2UPL_NI_INFO, *PGNSS_V2UPL_NI_INFO
 
 
 The <i>CLIENT_PreProcessControllerInterrupt</i> event callback function performs any pre-processing of a general-purpose I/O (GPIO) interrupt that must be done immediately if the ISR is scheduled to run at a later time.
-
-
-## -prototype
-
-
-````
-GPIO_CLIENT_PRE_PROCESS_CONTROLLER_INTERRUPT CLIENT_PreProcessControllerInterrupt;
-
-NTSTATUS CLIENT_PreProcessControllerInterrupt(
-  _In_ PVOID   Context,
-  _In_ BANK_ID BankId
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -153,7 +139,6 @@ The GPIO_CLIENT_PRE_PROCESS_CONTROLLER_INTERRUPT function type is defined in the
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439490">GPIO_CLX_RegisterClient</a>
 
 
 
@@ -161,6 +146,7 @@ The GPIO_CLIENT_PRE_PROCESS_CONTROLLER_INTERRUPT function type is defined in the
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439490">GPIO_CLX_RegisterClient</a>
  
 
  

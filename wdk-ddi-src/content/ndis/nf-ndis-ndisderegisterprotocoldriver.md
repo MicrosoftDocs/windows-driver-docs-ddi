@@ -53,18 +53,8 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 A protocol driver calls the
   <b>NdisDeregisterProtocolDriver</b> function to release the resources that NDIS allocated when the driver
   called the 
-  <a href="..\ndis\nf-ndis-ndisregisterprotocoldriver.md">
+  <a href="https://msdn.microsoft.com/b48571eb-13a2-4541-80ac-c8d31f378d37">
   NdisRegisterProtocolDriver</a> function.
-
-
-## -syntax
-
-
-````
-VOID NdisDeregisterProtocolDriver(
-  _In_ NDIS_HANDLE NdisProtocolHandle
-);
-````
 
 
 ## -parameters
@@ -75,7 +65,7 @@ VOID NdisDeregisterProtocolDriver(
 ### -param NdisProtocolHandle [in]
 
 The handle returned by the 
-     <a href="..\ndis\nf-ndis-ndisregisterprotocoldriver.md">
+     <a href="https://msdn.microsoft.com/b48571eb-13a2-4541-80ac-c8d31f378d37">
      NdisRegisterProtocolDriver</a> function.
 
 
@@ -96,14 +86,14 @@ Registered protocol drivers typically call
     <b>NdisDeregisterProtocolDriver</b> when the driver's 
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff564886">Unload</a> routine has been called or after errors occur
     in the 
-    <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> routine. Protocol drivers must not
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> routine. Protocol drivers must not
     call 
     <b>NdisDeregisterProtocolDriver</b> from any entry point that NDIS calls. Calling 
     <b>NdisDeregisterProtocolDriver</b> from such an entry point could cause a deadlock.
 
 If a protocol driver has open bindings, its call to 
     <b>NdisDeregisterProtocolDriver</b> causes NDIS to call the protocol driver's 
-    <a href="..\ndis\nc-ndis-protocol_unbind_adapter_ex.md">
+    <a href="https://msdn.microsoft.com/19fa7be2-acb9-42f6-bd9f-5be3e3c8b5fa">
     ProtocolUnbindAdapterEx</a> function once for each open binding. NDIS calls 
     <i>ProtocolUnbindAdapterEx</i> within the context of the 
     <b>NdisDeregisterProtocolDriver</b> call.
@@ -117,22 +107,22 @@ After any outstanding bindings have been closed,
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-protocol_unbind_adapter_ex.md">ProtocolUnbindAdapterEx</a>
 
 
 
-<a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisregisterprotocoldriver.md">NdisRegisterProtocolDriver</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564520">NdisRegisterProtocolDriver</a>
+
+
+
+<a href="https://msdn.microsoft.com/19fa7be2-acb9-42f6-bd9f-5be3e3c8b5fa">ProtocolUnbindAdapterEx</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564886">Unload</a>
-
-
-
  
 
  

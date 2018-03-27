@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: printerextension.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,16 +51,6 @@ req.product: Windows 10 or later.
 
 
 Cancels the asynchronous operation.
-
-
-## -syntax
-
-
-````
-HRESULT Cancel(
-    void
-);
-````
 
 
 ## -parameters
@@ -96,10 +86,10 @@ Also, note that this method does not wait for the cancellation to be processed -
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprinterextensionasyncoperation.md">IPrinterExtensionAsyncOperation</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265387">IPrinterExtensionAsyncOperation</a>
  
 
  

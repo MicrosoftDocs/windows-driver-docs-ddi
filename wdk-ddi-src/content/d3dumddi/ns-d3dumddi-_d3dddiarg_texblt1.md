@@ -52,21 +52,6 @@ req.typenames: D3DDDIARG_TEXBLT1
 Describes parameters for a texture bit-block transfer (bitblt) operation.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DDDIARG_TEXBLT1 {
-  HANDLE hDstResource;
-  HANDLE hSrcResource;
-  UINT   CubeMapFace;
-  POINT  DstPoint;
-  RECT   SrcRect;
-  UINT   CopyFlags;
-} D3DDDIARG_TEXBLT1;
-````
-
-
 ## -struct-fields
 
 
@@ -99,23 +84,23 @@ A <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a
 
 ### -field CopyFlags
 
-A value that specifies characteristics of a copy operation as a bitwise OR of the values in the <a href="..\d3dumddi\ne-d3dumddi-d3dddi_copy_flags.md">D3DDDI_COPY_FLAGS</a> enumeration type.
+A value that specifies characteristics of a copy operation as a bitwise OR of the values in the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451175">D3DDDI_COPY_FLAGS</a> enumeration type.
 
 
 ## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451175">D3DDDI_COPY_FLAGS</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">POINT</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
-
-
-
-<a href="..\d3dumddi\ne-d3dumddi-d3dddi_copy_flags.md">D3DDDI_COPY_FLAGS</a>
-
-
-
  
 
  

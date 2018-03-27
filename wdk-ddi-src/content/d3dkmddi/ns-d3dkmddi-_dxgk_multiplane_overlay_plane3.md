@@ -52,26 +52,6 @@ req.typenames: DXGK_MULTIPLANE_OVERLAY_PLANE3
 Specifies an overlay plane to display in a call to the DxgkDdiSetVidPnSourceAddressWithMultiPlaneOverlay3 function.
 
 
-## -syntax
-
-
-````
-typedef struct _DXGK_MULTIPLANE_OVERLAY_PLANE3 {
-  UINT                                 LayerIndex;
-  ULONGLONG                            PresentId;
-  DXGK_PLANE_SPECIFIC_INPUT_FLAGS      InputFlags;
-  DXGK_PLANE_SPECIFIC_OUTPUT_FLAGS     OutputFlags;
-  UINT                                 MaxImmediateFlipLine;
-  UINT                                 ContextCount;
-  HANDLE                               *pContext;
-  DXGK_PRIMARYDATA                     *pPrimaryData;
-  UINT                                 DriverPrivateDataSize;
-  PVOID                                pDriverPrivateData;
-  DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES3  PlaneAttributes;
-} DXGK_MULTIPLANE_OVERLAY_PLANE3;
-````
-
-
 ## -struct-fields
 
 

@@ -53,16 +53,6 @@ The
   WDI_MAC_ADDRESS structure defines an IEEE media access control (MAC) address.
 
 
-## -syntax
-
-
-````
-typedef struct _WDI_MAC_ADDRESS {
-  UINT8 Address[6];
-} WDI_MAC_ADDRESS, *PWDI_MAC_ADDRESS;
-````
-
-
 ## -struct-fields
 
 

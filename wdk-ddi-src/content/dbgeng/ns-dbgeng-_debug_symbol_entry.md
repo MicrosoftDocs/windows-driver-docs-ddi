@@ -52,27 +52,6 @@ req.typenames: DEBUG_SYMBOL_ENTRY, *PDEBUG_SYMBOL_ENTRY
 The DEBUG_SYMBOL_ENTRY structure describes a symbol in a symbol group.
 
 
-## -syntax
-
-
-````
-typedef struct _DEBUG_SYMBOL_ENTRY {
-  ULONG64 ModuleBase;
-  ULONG64 Offset;
-  ULONG64 Id;
-  ULONG64 Arg64;
-  ULONG   Size;
-  ULONG   Flags;
-  ULONG   TypeId;
-  ULONG   NameSize;
-  ULONG   Token;
-  ULONG   Tag;
-  ULONG   Arg32;
-  ULONG   Reserved;
-}  DEBUG_SYMBOL_ENTRY, *PDEBUG_SYMBOL_ENTRY;
-````
-
-
 ## -struct-fields
 
 
@@ -140,14 +119,14 @@ Set to zero.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/ee8ea970-04ee-4bf5-9e81-7d5baf0eac0d">IdebugSymbolGroup2::GetSymbolEntryInformation</a>
 
 
 
 <a href="https://msdn.microsoft.com/02fe418f-1793-4585-9891-1274a4ddba74">IdebugSymbols3::GetSymbolEntryInformation</a>
-
-
-
  
 
  

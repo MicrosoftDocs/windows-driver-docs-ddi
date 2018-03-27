@@ -52,17 +52,6 @@ req.typenames: RILSETEXECUTORCONFIGPARAMS, *LPRILSETEXECUTORCONFIGPARAMS
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef struct _RILSETEXECUTORCONFIGPARAMS {
-  DWORD              dwExecutor;
-  RILEXECUTORCONFIG  rilExecutorConfig;
-} RILSETEXECUTORCONFIGPARAMS, RILSETEXECUTORCONFIGPARAMS;
-````
-
-
 ## -struct-fields
 
 

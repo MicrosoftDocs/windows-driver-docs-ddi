@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,16 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>UPSGetState</b> function returns the operational state of the UPS.
-
-
-## -syntax
-
-
-````
-DWORD UPSGetState(
-   void 
-);
-````
 
 
 ## -parameters

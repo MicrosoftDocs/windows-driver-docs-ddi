@@ -52,18 +52,6 @@ req.typenames: D3DDDICB_LOCK2
 <b>D3DDDICB_LOCK2</b> describes parameters for locking an allocation.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DDDICB_LOCK2 {
-  D3DKMT_HANDLE       hAllocation;
-  D3DDDICB_LOCK2FLAGS Flags;
-  PVOID               pData;
-} D3DDDICB_LOCK2;
-````
-
-
 ## -struct-fields
 
 
@@ -76,7 +64,7 @@ typedef struct _D3DDDICB_LOCK2 {
 
 ### -field Flags
 
-A set of flags to pass to the <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtlock2.md">Lock2</a> kernel function which will determine how the allocation is locked. See <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddicb_lock2flags.md">D3DDDICB_LOCK2FLAGS</a> for details.
+A set of flags to pass to the <a href="https://msdn.microsoft.com/033FF321-2617-4AAF-8445-10800411F0B5">Lock2</a> kernel function which will determine how the allocation is locked. See <a href="https://msdn.microsoft.com/library/windows/hardware/dn894602">D3DDDICB_LOCK2FLAGS</a> for details.
 
 
 ### -field pData
@@ -86,14 +74,14 @@ A set of flags to pass to the <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtlock2.md">L
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtlock2.md">Lock2</a>
 
 
 
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddicb_lock2flags.md">D3DDDICB_LOCK2FLAGS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn894602">D3DDDICB_LOCK2FLAGS</a>
 
 
 
+<a href="https://msdn.microsoft.com/033FF321-2617-4AAF-8445-10800411F0B5">Lock2</a>
  
 
  

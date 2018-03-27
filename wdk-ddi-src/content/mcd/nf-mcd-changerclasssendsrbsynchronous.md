@@ -53,20 +53,6 @@ req.typenames: LAMP_INTENSITY_WHITE
 The <b>ChangerClassSendSrbSynchronous</b> routine synchronously sends an SRB to a specified device.
 
 
-## -syntax
-
-
-````
-NTSTATUS ChangerClassSendSrbSynchronous(
-  _In_ PDEVICE_OBJECT      DeviceObject,
-  _In_ PSCSI_REQUEST_BLOCK Srb,
-  _In_ PVOID               Buffer,
-  _In_ ULONG               BufferSize,
-  _In_ BOOLEAN             WriteToDevice
-);
-````
-
-
 ## -parameters
 
 
@@ -121,10 +107,10 @@ If the IRP fails and the sense request data indicates that the IRP should be ret
 
 ## -see-also
 
-<a href="..\storport\ns-storport-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565393">SCSI_REQUEST_BLOCK</a>
  
 
  

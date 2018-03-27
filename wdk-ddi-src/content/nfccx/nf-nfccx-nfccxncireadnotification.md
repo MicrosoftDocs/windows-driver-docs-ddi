@@ -52,17 +52,6 @@ req.typenames: NFC_CX_TRANSPORT_TYPE, *PNFC_CX_TRANSPORT_TYPE
 Called by the client driver when a read packet is available. The WDFMEMORY can be deallocated by the client driver after completion of the call. While NFC CXs implementation will quickly process this call, it is expected that the client driver doesnt make this call from the context of an ISR. It is recommend that the client driver issues this call from the ISR work-item.
 
 
-## -syntax
-
-
-````
-NTSTATUS NfcCxNciReadNotification(
-   WDFDEVICE Device,
-   WDFMEMORY Memory
-);
-````
-
-
 ## -parameters
 
 
@@ -91,7 +80,6 @@ If the operation succeeds, the function returns STATUS_SUCCESS.
 
 ## -see-also
 
-<a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
 
 
 
@@ -99,6 +87,7 @@ If the operation succeeds, the function returns STATUS_SUCCESS.
 
 
 
+<a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
  
 
  

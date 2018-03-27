@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,20 +51,6 @@ req.product: Windows 10 or later.
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef enum _RILCALLMEDIAOFFERANSWERPARAMMASK { 
-  RIL_PARAM_CMOA_CHANGE,
-  RIL_PARAM_CMOA_ACTION,
-  RIL_PARAM_CMOA_OLD_STATE,
-  RIL_PARAM_CMOA_NEW_STATE,
-  RIL_PARAM_CMOA_ALL
-} RILCALLMEDIAOFFERANSWERPARAMMASK;
-````
 
 
 ## -enum-fields

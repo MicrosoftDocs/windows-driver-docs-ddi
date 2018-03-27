@@ -52,19 +52,6 @@ req.typenames: ScsiInquiry_IN, *PScsiInquiry_IN
 The ScsiInquiry_IN structure holds the input data for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff564585">ScsiInquiry</a> method, which is used to send a SCSI inquiry command.
 
 
-## -syntax
-
-
-````
-typedef struct _ScsiInquiry_IN {
-  ULONGLONG UniqueSessionId;
-  ULONGLONG Lun;
-  UCHAR     InquiryFlags;
-  UCHAR     PageCode;
-} ScsiInquiry_IN, *PScsiInquiry_IN;
-````
-
-
 ## -struct-fields
 
 
@@ -101,11 +88,6 @@ You must implement this method.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564585">ScsiInquiry</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
 
 
 
@@ -113,10 +95,15 @@ You must implement this method.
 
 
 
-<a href="..\iscsiop\ns-iscsiop-_scsiinquiry_out.md">ScsiInquiry_OUT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564585">ScsiInquiry</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564602">ScsiInquiry_OUT</a>
  
 
  

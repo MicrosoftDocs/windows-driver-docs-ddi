@@ -49,20 +49,7 @@ req.typenames: D3DDDIARG_QUERYAUTHENTICATEDCHANNEL
 ## -description
 
 
-The D3DDDIARG_QUERYAUTHENTICATEDCHANNEL structure describes authenticated-channel information to query by using the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_queryauthenticatedchannel.md">QueryAuthenticatedChannel</a> function. 
-
-
-## -syntax
-
-
-````
-typedef struct _D3DDDIARG_QUERYAUTHENTICATEDCHANNEL {
-  UINT       InputSize;
-  const VOID *pInputData;
-  UINT       OutputSize;
-  VOID       *pOutputData;
-} D3DDDIARG_QUERYAUTHENTICATEDCHANNEL;
-````
+The D3DDDIARG_QUERYAUTHENTICATEDCHANNEL structure describes authenticated-channel information to query by using the <a href="https://msdn.microsoft.com/13b65b5a-9512-4d67-b629-479bdd74674e">QueryAuthenticatedChannel</a> function. 
 
 
 ## -struct-fields
@@ -87,7 +74,7 @@ typedef struct _D3DDDIARG_QUERYAUTHENTICATEDCHANNEL {
 
 ### -field pOutputData
 
-[in/out] A pointer to a buffer that describes the information that the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_queryauthenticatedchannel.md">QueryAuthenticatedChannel</a> function returns. The buffer that <b>pOutputData</b> points to is defined identically to the output buffer that the <b>IDirect3DAuthenticatedChannel::Query</b> method returns. 
+[in/out] A pointer to a buffer that describes the information that the <a href="https://msdn.microsoft.com/13b65b5a-9512-4d67-b629-479bdd74674e">QueryAuthenticatedChannel</a> function returns. The buffer that <b>pOutputData</b> points to is defined identically to the output buffer that the <b>IDirect3DAuthenticatedChannel::Query</b> method returns. 
 
 
 ## -remarks
@@ -96,7 +83,7 @@ typedef struct _D3DDDIARG_QUERYAUTHENTICATEDCHANNEL {
 
 The definitions of the input and output buffers to which the <b>pInputData</b> and <b>pOutputData</b> members point, depend on the type of information. The first member of the input buffer is always a D3DAUTHENTICATEDCHANNEL_QUERY_INPUT structure, whose <b>QueryType</b> member identifies the type of information to query.
 
-The definition of the output buffer also depends on the information that the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_queryauthenticatedchannel.md">QueryAuthenticatedChannel</a> function queries. However, the first member of the output buffer is always a D3DAUTHENTICATEDCHANNEL_QUERY_OUTPUT structure, whose members specify the following information:
+The definition of the output buffer also depends on the information that the <a href="https://msdn.microsoft.com/13b65b5a-9512-4d67-b629-479bdd74674e">QueryAuthenticatedChannel</a> function queries. However, the first member of the output buffer is always a D3DAUTHENTICATEDCHANNEL_QUERY_OUTPUT structure, whose members specify the following information:
 
 <ul>
 <li>
@@ -113,10 +100,10 @@ The <b>QueryType</b>, <b>hChannel</b>, and <b>SequenceNumber</b> members from th
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_queryauthenticatedchannel.md">QueryAuthenticatedChannel</a>
 
 
 
+<a href="https://msdn.microsoft.com/13b65b5a-9512-4d67-b629-479bdd74674e">QueryAuthenticatedChannel</a>
  
 
  

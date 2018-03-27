@@ -52,18 +52,6 @@ req.typenames: NETWORK_APP_INSTANCE_ECP_CONTEXT, *PNETWORK_APP_INSTANCE_ECP_CONT
 The <b>NETWORK_APP_INSTANCE_ECP_CONTEXT</b> structure is an Extra Create Parameter (ECP) and contains an application instance identifier  to associate with a file. This structure is used to identify the files opened for a failover cluster client application when that application resumes access to its files on another node. 
 
 
-## -syntax
-
-
-````
-typedef struct _NETWORK_APP_INSTANCE_ECP_CONTEXT {
-  USHORT Size;
-  USHORT Reserved;
-  GUID   AppInstanceID;
-} NETWORK_APP_INSTANCE_ECP_CONTEXT, *PNETWORK_APP_INSTANCE_ECP_CONTEXT;
-````
-
-
 ## -struct-fields
 
 
@@ -101,14 +89,14 @@ For information about how to use ECPs to associate extra information with a file
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540148">ECP_LIST</a>
 
 
 
-<a href="..\ntddk\nf-ntddk-iocreatefileex.md">IoCreateFileEx</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548283">IoCreateFileEx</a>
  
 
  

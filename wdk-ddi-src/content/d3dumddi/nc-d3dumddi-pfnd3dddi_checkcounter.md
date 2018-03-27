@@ -52,28 +52,6 @@ req.typenames: DXGK_PTE
 Called by the Microsoft Direct3D runtime to retrieve info that describes a counter. Must be implemented by Windows Display Driver Model (WDDM) 1.3 and later user-mode display drivers.
 
 
-## -prototype
-
-
-````
-PFND3DDDI_CHECKCOUNTER pfnCheckCounter;
-
-_Check_return_ HRESULT APIENTRY* pfnCheckCounter(
-  _In_        HANDLE              hDevice,
-  _In_        D3DDDIQUERYTYPE     Counter,
-  _Out_       D3DDDI_COUNTER_TYPE *pType,
-  _Out_       UINT                *pActiveCounters,
-  _Out_opt_   LPSTR               pszName,
-  _Inout_opt_ UINT                *pNameLength,
-  _Out_opt_   LPSTR               pszUnits,
-  _Inout_opt_ UINT                *pUnitsLength,
-  _Out_opt_   LPSTR               pszDescription,
-  _Inout_opt_ UINT                *pDescriptionLength
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -84,13 +62,13 @@ _Check_return_ HRESULT APIENTRY* pfnCheckCounter(
  A handle to the display device (graphics context).
 
 
-### -param D3DDDIQUERYTYPE
+### -param Arg1
 
 
 ### -param *
 
 
-### -param LPSTR
+### -param Arg2
 
 
 ### -param *pNameLength [in, out, optional]
@@ -105,6 +83,9 @@ Here are limitations on the values of the <i>pNameLength</i> and  <i>pszName</i>
 <li>If both <i>pszName</i> and <i>pNameLength</i> are not <b>NULL</b>, the driver must check the input value of <i>pNameLength</i> to ensure that there's enough room in the allocated buffer, and then the length of the <i>pszName</i> string (including terminating <b>NULL</b> character) is passed out through the <i>pNameLength</i> parameter.</li>
 </ul>
 
+### -param Arg3
+
+
 ### -param *pUnitsLength [in, out, optional]
 
  An optional pointer to a variable that receives the size, in bytes, of the <b>NULL</b>-terminated string that the <i>pszUnits</i> parameter specifies.
@@ -116,6 +97,9 @@ Here are limitations on the values of the <i>pUnitsLength</i> and  <i>pszUnits</
 <li> If <i>pszUnits</i> is <b>NULL</b> and <i>pUnitsLength</i> is not <b>NULL</b>, the input value of <i>pUnitsLength</i> is ignored, and the length of the string (including terminating <b>NULL</b> character) must be returned through the <i>pUnitsLength</i> parameter. </li>
 <li>If both <i>pszUnits</i> and <i>pUnitsLength</i> are not <b>NULL</b>, the driver must check the input value of <i>pUnitsLength</i> to ensure that there's enough room in the allocated buffer, and then the length of the <i>pszUnits</i> string (including terminating <b>NULL</b> character) is passed out through the <i>pUnitsLength</i> parameter.</li>
 </ul>
+
+### -param Arg4
+
 
 ### -param *pDescriptionLength [in, out, optional]
 
@@ -131,7 +115,7 @@ Here are limitations on the values of the <i>pDescriptionLength</i> and  <i>pszD
 
 #### - Counter [in]
 
- A value of type <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createquery.md">D3DDDIQUERYTYPE</a> that identifies the counter identifier that info is retrieved for.
+ A value of type <a href="https://msdn.microsoft.com/f80224c6-9046-4471-b6c6-eb14f02fc51f">D3DDDIQUERYTYPE</a> that identifies the counter identifier that info is retrieved for.
 
 
 #### - pActiveCounters [out]
@@ -247,12 +231,12 @@ Even though all strings used in this function are based on Unicode, they are alw
 
 
 
-This function should behave similarly to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_checkcounter.md">CheckCounter</a> function that supports Microsoft Direct3D 10 and later.
+This function should behave similarly to the <a href="https://msdn.microsoft.com/592a5146-a2fe-41d1-854b-df27a97bd513">CheckCounter</a> function that supports Microsoft Direct3D 10 and later.
 
 Counters are typically used by tools that capture a frame and play it back multiple times. The pass that records accurate timing info is separate from other  passes. In later passes, a different set of counters is used each time.
 The priority should be to obtain an accurate correlation of counter results to draw calls, and the overhead incurred during playback can be sacrificed. The driver must insert flush calls or wait-for-idle calls to ensure an accurate correlation.
 
-Typically an app can simultaneously monitor only a small number of possible native counters, which might number in the hundreds. Additionally, the driver must indicate the number of active counters used by monitoring each supported counter ID from the <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createquery.md">D3DDDIQUERYTYPE</a> enumeration (both well-known counter IDs and device-specific counter IDs). For example, the driver can indicate that monitoring a <i>FillRateUtilized</i> variable requires 3 of the maximum 4 simultaneously active counters (indicated by the <i>pActiveCounters</i> parameter). The app can therefore also monitor another counter ID, as long as that counter ID requires one or fewer active counters.
+Typically an app can simultaneously monitor only a small number of possible native counters, which might number in the hundreds. Additionally, the driver must indicate the number of active counters used by monitoring each supported counter ID from the <a href="https://msdn.microsoft.com/f80224c6-9046-4471-b6c6-eb14f02fc51f">D3DDDIQUERYTYPE</a> enumeration (both well-known counter IDs and device-specific counter IDs). For example, the driver can indicate that monitoring a <i>FillRateUtilized</i> variable requires 3 of the maximum 4 simultaneously active counters (indicated by the <i>pActiveCounters</i> parameter). The app can therefore also monitor another counter ID, as long as that counter ID requires one or fewer active counters.
 
 If a counter ID can always be monitored (and it doesn't interfere with monitoring any other counter IDs), the number of simultaneous active counters required by the counter ID can be zero.
 
@@ -261,14 +245,14 @@ If a counter ID can always be monitored (and it doesn't interfere with monitorin
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_checkcounter.md">CheckCounter</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createquery.md">D3DDDIQUERYTYPE</a>
+<a href="https://msdn.microsoft.com/592a5146-a2fe-41d1-854b-df27a97bd513">CheckCounter</a>
 
 
 
+<a href="https://msdn.microsoft.com/f80224c6-9046-4471-b6c6-eb14f02fc51f">D3DDDIQUERYTYPE</a>
  
 
  

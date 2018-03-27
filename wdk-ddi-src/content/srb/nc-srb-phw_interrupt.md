@@ -53,16 +53,6 @@ req.product: Windows 10 or later.
 The PHW_INTERRUPT routine prototype declares the miniport driver's interrupt handler routine. 
 
 
-## -prototype
-
-
-````
-typedef BOOLEAN (*PHW_INTERRUPT)(
-  _In_ PVOID DeviceExtension 
-);
-````
-
-
 ## -parameters
 
 
@@ -88,23 +78,23 @@ If the interrupt handler routine determines that its HBA generated the interrupt
 
 The interrupt handler routine for both SCSI and StorPort miniport drivers are declared using this prototype. 
 
-For more information about the SCSI miniport driver's interrupt handler routine see <a href="..\strmini\nc-strmini-phw_interrupt.md">HwScsiInterrupt</a>. 
+For more information about the SCSI miniport driver's interrupt handler routine see <a href="https://msdn.microsoft.com/library/windows/hardware/ff557312">HwScsiInterrupt</a>. 
 
-For more information about the miniport driver's interrupt handler routine that is used with the StorPort driver see <a href="..\storport\nc-storport-hw_interrupt.md">HwStorInterrupt</a>. 
+For more information about the miniport driver's interrupt handler routine that is used with the StorPort driver see <a href="https://msdn.microsoft.com/library/windows/hardware/ff557403">HwStorInterrupt</a>. 
 
 
 
 
 ## -see-also
 
-<a href="..\strmini\nc-strmini-phw_interrupt.md">HwScsiInterrupt</a>
 
 
 
-<a href="..\storport\nc-storport-hw_interrupt.md">HwStorInterrupt</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557312">HwScsiInterrupt</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557403">HwStorInterrupt</a>
  
 
  

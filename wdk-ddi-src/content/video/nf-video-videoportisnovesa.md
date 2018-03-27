@@ -53,14 +53,6 @@ req.product: Windows 10 or later.
 The <b>VideoPortIsNoVesa</b> function determines whether a video miniport driver that does not support Plug and Play (PnP) is restricted to legacy VGA resources.
 
 
-## -syntax
-
-
-````
-BOOLEAN VideoPortIsNoVesa(void);
-````
-
-
 ## -parameters
 
 

@@ -50,24 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-Contains parameters for a request to get information about the specified hub. This structure is passed by UCX in request parameters (<b>Parameters.Others.Arg1</b>) of a framework request object of the <a href="..\ucxusbdevice\nc-ucxusbdevice-evt_ucx_usbdevice_hub_info.md">EVT_UCX_USBDEVICE_HUB_INFO</a> callback function.
-
-
-## -syntax
-
-
-````
-typedef struct _USBDEVICE_HUB_INFO {
-#if __cplusplus
-  USBDEVICE_MGMT_HEADER Header;
-#else 
-  USBDEVICE_MGMT_HEADER ;
-#endif 
-  ULONG                 NumberOfPorts;
-  ULONG                 NumberOfTTs;
-  ULONG                 TTThinkTime;
-} USBDEVICE_HUB_INFO, *P_USBDEVICE_HUB_INFO;
-````
+Contains parameters for a request to get information about the specified hub. This structure is passed by UCX in request parameters (<b>Parameters.Others.Arg1</b>) of a framework request object of the <a href="https://msdn.microsoft.com/library/windows/hardware/mt187844">EVT_UCX_USBDEVICE_HUB_INFO</a> callback function.
 
 
 ## -struct-fields
@@ -77,7 +60,7 @@ typedef struct _USBDEVICE_HUB_INFO {
 
 ### -field Header
 
-A <a href="..\ucxusbdevice\ns-ucxusbdevice-_usbdevice_mgmt_header.md">USBDEVICE_MGMT_HEADER</a> structure that contains  the handle for the USB hub or device.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/mt188075">USBDEVICE_MGMT_HEADER</a> structure that contains  the handle for the USB hub or device.
 
 
 ### -field NumberOfPorts
@@ -97,10 +80,10 @@ The ThinkTime property of the TT hub, filled by the client driver.
 
 ## -see-also
 
-<a href="..\ucxusbdevice\nc-ucxusbdevice-evt_ucx_usbdevice_hub_info.md">EVT_UCX_USBDEVICE_HUB_INFO</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt187844">EVT_UCX_USBDEVICE_HUB_INFO</a>
  
 
  

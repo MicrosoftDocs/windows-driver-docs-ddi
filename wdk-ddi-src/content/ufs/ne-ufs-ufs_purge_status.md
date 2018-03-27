@@ -53,21 +53,6 @@ req.product: Windows 10 or later.
 Specifies the current status of a purge operation.
 
 
-## -syntax
-
-
-````
-typedef enum _UFS_PURGE_STATUS { 
-  UFS_PurgeStatusIdle           = 0,
-  UFS_PurgeStatusInProgress     = 1,
-  UFS_PurgeStatusInterrupted    = 2,
-  UFS_PurgeStatusSuccess        = 3,
-  UFS_PurgeStatusQueueNotEmpty  = 4,
-  UFS_PurgeStatusFailure        = 5
-} UFS_PURGE_STATUS;
-````
-
-
 ## -enum-fields
 
 
@@ -118,10 +103,10 @@ that it is read.
 
 ## -see-also
 
-<a href="..\ufs\ne-ufs-ufs_attributes_descriptor.md">UFS_ATTRIBUTES_DESCRIPTOR</a>
 
 
 
+<a href="https://msdn.microsoft.com/695D8FE9-FADB-488F-A5F7-7715EAD48DD6">UFS_ATTRIBUTES_DESCRIPTOR</a>
  
 
  

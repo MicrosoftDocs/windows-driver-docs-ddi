@@ -52,19 +52,6 @@ req.typenames: MSiSCSI_InitiatorNodeFailureEvent, *PMSiSCSI_InitiatorNodeFailure
 The MSiSCSI_InitiatorNodeFailureEvent structure is used to report an event when a node failure occurs.
 
 
-## -syntax
-
-
-````
-typedef struct _MSiSCSI_InitiatorNodeFailureEvent {
-  ULONGLONG        FailureTime;
-  UCHAR            FailureType;
-  WCHAR            TargetFailureName[223 + 1];
-  ISCSI_IP_Address TargetFailureAddr;
-} MSiSCSI_InitiatorNodeFailureEvent, *PMSiSCSI_InitiatorNodeFailureEvent;
-````
-
-
 ## -struct-fields
 
 
@@ -145,7 +132,7 @@ A wide character string that specifies the name of the target that a logon or lo
 
 ### -field TargetFailureAddr
 
-A <a href="..\iscsidef\ns-iscsidef-_iscsi_ip_address.md">ISCSI_IP_Address</a> structure that specifies the IP address of the target that a logon or logoff failed for.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff561536">ISCSI_IP_Address</a> structure that specifies the IP address of the target that a logon or logoff failed for.
 
 
 ## -remarks
@@ -159,14 +146,14 @@ It is optional that you implement this class.
 
 ## -see-also
 
-<a href="..\iscsidef\ns-iscsidef-_iscsi_ip_address.md">ISCSI_IP_Address</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561536">ISCSI_IP_Address</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563049">MSiSCSI_InitiatorNodeFailureEvent WMI Class</a>
-
-
-
  
 
  

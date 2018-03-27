@@ -55,20 +55,6 @@ req.product: Windows 10 or later.
 A driver's <i>EvtRequestImpersonate</i> event callback function performs tasks at the requested impersonation level, such as opening a protected file.
 
 
-## -prototype
-
-
-````
-EVT_WDF_REQUEST_IMPERSONATE EvtRequestImpersonate;
-
-void EvtRequestImpersonate(
-  _In_     WDFREQUEST Request,
-  _In_opt_ PVOID      Context
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -81,7 +67,7 @@ A handle to a framework request object that represents the I/O request that requ
 
 ### -param Context [in, optional]
 
-A pointer to a context that was previously supplied in the <a href="..\wdfrequest\nf-wdfrequest-wdfrequestimpersonate.md">WdfRequestImpersonate</a> method. This parameter is optional and can be NULL if a context is not required. 
+A pointer to a context that was previously supplied in the <a href="https://msdn.microsoft.com/library/windows/hardware/dn265619">WdfRequestImpersonate</a> method. This parameter is optional and can be NULL if a context is not required. 
 
 
 
@@ -145,10 +131,10 @@ The <b>EVT_WDF_REQUEST_IMPERSONATE</b> function type is defined in the Wdfreques
 
 ## -see-also
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestimpersonate.md">WdfRequestImpersonate</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265619">WdfRequestImpersonate</a>
  
 
  

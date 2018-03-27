@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 The WWAN_PACKET_SERVICE_ACTION enumeration lists different packet service actions.
 
 
-## -syntax
-
-
-````
-typedef enum _WWAN_PACKET_SERVICE_ACTION { 
-  WwanPacketServiceActionAttach  = 0,
-  WwanPacketServiceActionDetach
-} WWAN_PACKET_SERVICE_ACTION, *PWWAN_PACKET_SERVICE_ACTION;
-````
-
-
 ## -enum-fields
 
 
@@ -81,10 +70,10 @@ Packet-detach from the registered provider.
 
 ## -see-also
 
-<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_set_packet_service.md">NDIS_WWAN_SET_PACKET_SERVICE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567921">NDIS_WWAN_SET_PACKET_SERVICE</a>
  
 
  

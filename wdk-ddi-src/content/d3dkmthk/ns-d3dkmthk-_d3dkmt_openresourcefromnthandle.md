@@ -52,30 +52,6 @@ req.typenames: D3DKMT_OPENRESOURCEFROMNTHANDLE
 Describes information that is required to open a shared resource from an NT handle to the process. The shared resource can be a set of allocations, a keyed mutex, or a synchronization object.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DKMT_OPENRESOURCEFROMNTHANDLE {
-  D3DKMT_HANDLE              hDevice;
-  HANDLE                     hNtHandle;
-  UINT                       NumAllocations;
-  D3DDDI_OPENALLOCATIONINFO2 *pOpenAllocationInfo2;
-  UINT                       PrivateRuntimeDataSize;
-  VOID                       *pPrivateRuntimeData;
-  UINT                       ResourcePrivateDriverDataSize;
-  VOID                       *pResourcePrivateDriverData;
-  UINT                       TotalPrivateDriverDataBufferSize;
-  VOID                       *pTotalPrivateDriverDataBuffer;
-  D3DKMT_HANDLE              hResource;
-  D3DKMT_HANDLE              hKeyedMutex;
-  VOID                       *pKeyedMutexPrivateRuntimeData;
-  UINT                       KeyedMutexPrivateRuntimeDataSize;
-  D3DKMT_HANDLE              hSyncObject;
-} D3DKMT_OPENRESOURCEFROMNTHANDLE;
-````
-
-
 ## -struct-fields
 
 
@@ -164,18 +140,18 @@ If this member has a value of <b>NULL</b>, the value of the <b>KeyedMutexPrivate
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439280">D3DDDI_OPENALLOCATIONINFO2</a>
 
 
 
-<a href="..\d3dkmthk\nc-d3dkmthk-pfnd3dkmt_opennthandlefromname.md">D3DKMTOpenNtHandleFromName</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439409">D3DKMTOpenNtHandleFromName</a>
 
 
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtshareobjects.md">D3DKMTShareObjects</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh780251">D3DKMTShareObjects</a>
  
 
  

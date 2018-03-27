@@ -52,20 +52,6 @@ req.typenames: D3D12DDICB_RECLAIMALLOCATIONS2
 Describes video memory resources that are to be reclaimed and that the driver  previously offered  for reuse.
 
 
-## -syntax
-
-
-````
-typedef struct _D3D12DDICB_RECLAIMALLOCATIONS2 {
-  _In_ UINT                                      NumAllocations;
-  _In_reads_(NumAllocations) CONST HANDLE        *pResources;
-  _In_reads_(NumAllocations) CONST D3DKMT_HANDLE *HandleList;
-  _Out_writes_all_opt_(NumAllocations) BOOL      *pDiscarded;
-  _Out_ UINT64                                   PagingFenceValue;
-} D3D12DDICB_RECLAIMALLOCATIONS2;
-````
-
-
 ## -struct-fields
 
 

@@ -52,23 +52,6 @@ req.typenames: HBA_WWNTYPE
 The <b>HBA_ScsiReportLUNsV2</b> routine sends a SCSI report LUNs command to the indicated remote port. 
 
 
-## -syntax
-
-
-````
-HBA_STATUS HBA_API HBA_ScsiReportLUNsV2(
-  _In_    HBA_HANDLE HbaHandle,
-  _In_    HBA_WWN    HbaPortWWN,
-  _In_    HBA_WWN    discoveredPortWWN,
-  _Out_   void       *pRespBuffer,
-  _Inout_ HBA_UINT32 *pRespBufferSize,
-  _Out_   HBA_UINT8  *pScsiStatus,
-  _Out_   void       *pSenseBuffer,
-  _Inout_ HBA_UINT32 *pSenseBufferSize
-);
-````
-
-
 ## -parameters
 
 
@@ -116,7 +99,7 @@ On input, indicates the size, in bytes, of the buffer at <i>pSenseBuffer</i>. On
 
 #### - HbaHandle [in]
 
-Contains a value returned by the routine <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a> that identifies the HBA through which the SCSI report LUNs command is sent.
+Contains a value returned by the routine <a href="https://msdn.microsoft.com/library/windows/hardware/ff557097">HBA_OpenAdapter</a> that identifies the HBA through which the SCSI report LUNs command is sent.
 
 
 #### - discoveredPortWWN [in]
@@ -209,14 +192,14 @@ Returned if an unspecified error occurred that prevented the execution of the SC
 
 ## -see-also
 
-<a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557097">HBA_OpenAdapter</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
-
-
-
  
 
  

@@ -50,18 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The <b>USB_COMMON_DESCRIPTOR</b> structure contains the head of the first descriptor that matches the search criteria in a call to <a href="..\usbdlib\nf-usbdlib-usbd_parsedescriptors.md">USBD_ParseDescriptors</a>. 
-
-
-## -syntax
-
-
-````
-typedef struct _USB_COMMON_DESCRIPTOR {
-  UCHAR bLength;
-  UCHAR bDescriptorType;
-} USB_COMMON_DESCRIPTOR, *PUSB_COMMON_DESCRIPTOR;
-````
+The <b>USB_COMMON_DESCRIPTOR</b> structure contains the head of the first descriptor that matches the search criteria in a call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff539109">USBD_ParseDescriptors</a>. 
 
 
 ## -struct-fields
@@ -81,7 +70,6 @@ Specifies the descriptor type code, as assigned by USB, for this descriptor.
 
 ## -see-also
 
-<a href="..\usbdlib\nf-usbdlib-usbd_parsedescriptors.md">USBD_ParseDescriptors</a>
 
 
 
@@ -89,6 +77,7 @@ Specifies the descriptor type code, as assigned by USB, for this descriptor.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539109">USBD_ParseDescriptors</a>
  
 
  

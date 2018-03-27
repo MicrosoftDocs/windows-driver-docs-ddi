@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,16 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>GetDebuggerCacheSize</b> function returns the size of the cache that is used by the debugger to hold data that was obtained from the target.
-
-
-## -syntax
-
-
-````
-__inline BOOL GetDebuggerCacheSize(
-  _Out_ PULONG64 CacheSize
-);
-````
 
 
 ## -parameters
@@ -95,10 +85,10 @@ Each target process has its own cache.  The returned size is the size of the cac
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff562180">.cache (Set Cache Size)</a>
-
-
-
  
 
  

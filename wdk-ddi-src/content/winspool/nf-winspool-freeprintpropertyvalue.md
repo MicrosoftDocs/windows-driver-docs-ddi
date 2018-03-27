@@ -51,18 +51,8 @@ req.product: Windows 10 or later.
 ## -description
 
 
-Frees the value that is retrieved using <a href="..\winspool\nf-winspool-getjobnamedpropertyvalue.md">GetJobNamedPropertyValue</a> function. 
+Frees the value that is retrieved using <a href="https://msdn.microsoft.com/library/windows/hardware/mt299059">GetJobNamedPropertyValue</a> function. 
 
-
-
-## -syntax
-
-
-````
-DWORD WINAPI FreePrintPropertyValue(
-  _Inout_ PrintPropertyValue *pValue
-);
-````
 
 
 ## -parameters
@@ -72,7 +62,7 @@ DWORD WINAPI FreePrintPropertyValue(
 
 ### -param pValue [in, out]
 
-Pointer to <b>PrintPropertyValue</b> structure that is returned from <a href="..\winspool\nf-winspool-getjobnamedpropertyvalue.md">GetJobNamedPropertyValue</a>. 
+Pointer to <b>PrintPropertyValue</b> structure that is returned from <a href="https://msdn.microsoft.com/library/windows/hardware/mt299059">GetJobNamedPropertyValue</a>. 
 
 
 

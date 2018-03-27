@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 The <b>WWAN_CDMA_MRL</b> structure represents the measured results list (MRL) of both serving and neighboring CDMA cells.
 
 
-## -syntax
-
-
-````
-typedef struct _WWAN_CDMA_MRL {
-  ULONG ElementCount;
-  BYTE  CDMAMrl[ANYSIZE_ARRAY];
-} WWAN_CDMA_MRL, *PWWAN_CDMA_MRL;
-````
-
-
 ## -struct-fields
 
 
@@ -83,23 +72,23 @@ The count of MRL entries following this member.
 
 #### - CDMAMrl[ANYSIZE_ARRAY]
 
-The array of MRL records, each specified as a <a href="..\wwan\ns-wwan-_wwan_cdma_mrl_info.md">WWAN_CDMA_MRL_INFO</a> structure.
+The array of MRL records, each specified as a <a href="https://msdn.microsoft.com/D8633E80-C7A3-4050-8E8E-8AE459F905D5">WWAN_CDMA_MRL_INFO</a> structure.
 
 
 ## -see-also
+
+
+
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/mb-base-stations-information-query-support">MB base stations information query support</a>
 
 
 
-<a href="..\wwan\ns-wwan-_wwan_cdma_mrl_info.md">WWAN_CDMA_MRL_INFO</a>
+<a href="https://msdn.microsoft.com/66460B28-C2B4-4F05-A133-31A753AF9489">WWAN_BASE_STATIONS_INFO</a>
 
 
 
-<a href="..\wwan\ns-wwan-_wwan_base_stations_info.md">WWAN_BASE_STATIONS_INFO</a>
-
-
-
+<a href="https://msdn.microsoft.com/D8633E80-C7A3-4050-8E8E-8AE459F905D5">WWAN_CDMA_MRL_INFO</a>
  
 
  

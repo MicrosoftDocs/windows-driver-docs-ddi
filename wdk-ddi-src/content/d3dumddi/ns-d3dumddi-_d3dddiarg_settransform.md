@@ -52,17 +52,6 @@ req.typenames: D3DDDIARG_SETTRANSFORM
 The D3DDDIARG_SETTRANSFORM structure describes how to set up a transform. 
 
 
-## -syntax
-
-
-````
-typedef struct _D3DDDIARG_SETTRANSFORM {
-  D3DTRANSFORMSTATETYPE TransformType;
-  D3DMATRIX             Matrix;
-} D3DDDIARG_SETTRANSFORM;
-````
-
-
 ## -struct-fields
 
 
@@ -120,17 +109,17 @@ World transformation
 
 
 
-The Microsoft Direct3D runtime uses D3DDDIARG_SETTRANSFORM in a call to the user-mode display driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_settransform.md">SetTransform</a> function to inform the driver about various hardware transformation and lighting matrices. 
+The Microsoft Direct3D runtime uses D3DDDIARG_SETTRANSFORM in a call to the user-mode display driver <a href="https://msdn.microsoft.com/0e989ea4-3693-4c0b-86a5-96b865a0193f">SetTransform</a> function to inform the driver about various hardware transformation and lighting matrices. 
 
 
 
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_settransform.md">SetTransform</a>
 
 
 
+<a href="https://msdn.microsoft.com/0e989ea4-3693-4c0b-86a5-96b865a0193f">SetTransform</a>
  
 
  

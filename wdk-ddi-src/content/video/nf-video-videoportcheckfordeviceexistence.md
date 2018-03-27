@@ -53,22 +53,6 @@ req.product: Windows 10 or later.
 The <b>VideoPortCheckForDeviceExistence</b> function determines whether the specified PCI device exists in the system.
 
 
-## -syntax
-
-
-````
-BOOLEAN VideoPortCheckForDeviceExistence(
-  _In_ PVOID  HwDeviceExtension,
-  _In_ USHORT VendorId,
-  _In_ USHORT DeviceId,
-  _In_ UCHAR  RevisionId,
-  _In_ USHORT SubVendorId,
-  _In_ USHORT SubSystemId,
-  _In_ ULONG  Flags
-);
-````
-
-
 ## -parameters
 
 

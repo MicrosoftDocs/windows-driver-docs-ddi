@@ -53,19 +53,6 @@ req.product: Windows 10 or later.
 The WDI_POWER_SAVE_LEVEL enumeration defines the power save levels.
 
 
-## -syntax
-
-
-````
-typedef enum _WDI_POWER_SAVE_LEVEL { 
-  WDI_POWER_SAVE_LEVEL_NO_POWER_SAVE  = 0,
-  WDI_POWER_SAVE_LEVEL_FAST_PSP       = 8,
-  WDI_POWER_SAVE_LEVEL_MAX_PSP        = 16,
-  WDI_POWER_SAVE_LEVEL_MAXIMUM_LEVEL  = 24
-} WDI_POWER_SAVE_LEVEL;
-````
-
-
 ## -enum-fields
 
 

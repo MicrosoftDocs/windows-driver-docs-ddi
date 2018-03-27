@@ -52,19 +52,6 @@ req.typenames: TOKEN_TYPE
 The <b>CcPurgeCacheSection</b> routine purges all or a portion of a cached file from the system cache.
 
 
-## -syntax
-
-
-````
-BOOLEAN CcPurgeCacheSection(
-  _In_     PSECTION_OBJECT_POINTERS SectionObjectPointer,
-  _In_opt_ PLARGE_INTEGER           FileOffset,
-  _In_     ULONG                    Length,
-  _In_     ULONG                    UninitializeCacheMaps
-);
-````
-
-
 ## -parameters
 
 
@@ -125,11 +112,14 @@ Before calling <b>CcPurgeCacheSection</b>, the caller must acquire the file excl
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-ccuninitializecachemap.md">CcUninitializeCacheMap</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-ccflushcache.md">CcFlushCache</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539082">CcFlushCache</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539135">CcInitializeCacheMap</a>
 
 
 
@@ -137,14 +127,11 @@ Before calling <b>CcPurgeCacheSection</b>, the caller must acquire the file excl
 
 
 
-<a href="..\ntifs\nf-ntifs-mmflushimagesection.md">MmFlushImageSection</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539225">CcUninitializeCacheMap</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549808">MmFlushImageSection</a>
  
 
  

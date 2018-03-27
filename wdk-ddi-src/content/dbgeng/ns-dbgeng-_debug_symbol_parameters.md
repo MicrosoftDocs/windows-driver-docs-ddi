@@ -52,21 +52,6 @@ req.typenames: DEBUG_SYMBOL_PARAMETERS, *PDEBUG_SYMBOL_PARAMETERS
 The <b>DEBUG_SYMBOL_PARAMETERS</b> structure describes a symbol in a symbol group.
 
 
-## -syntax
-
-
-````
-typedef struct _DEBUG_SYMBOL_PARAMETERS {
-  ULONG64 Module;
-  ULONG   TypeId;
-  ULONG   ParentSymbol;
-  ULONG   SubElements;
-  ULONG   Flags;
-  ULONG64 Reserved;
-} DEBUG_SYMBOL_PARAMETERS, *PDEBUG_SYMBOL_PARAMETERS;
-````
-
-
 ## -struct-fields
 
 

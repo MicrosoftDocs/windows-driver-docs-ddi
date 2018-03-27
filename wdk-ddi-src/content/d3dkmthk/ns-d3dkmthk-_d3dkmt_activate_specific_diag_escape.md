@@ -52,17 +52,6 @@ req.typenames: D3DKMT_ACTIVATE_SPECIFIC_DIAG_ESCAPE
 Indicates an escape type that is to be activated or deactivated.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DKMT_ACTIVATE_SPECIFIC_DIAG_ESCAPE {
-  D3DKMT_ESCAPETYPE Type;
-  BOOL              Activate;
-} D3DKMT_ACTIVATE_SPECIFIC_DIAG_ESCAPE;
-````
-
-
 ## -struct-fields
 
 
@@ -70,7 +59,7 @@ typedef struct _D3DKMT_ACTIVATE_SPECIFIC_DIAG_ESCAPE {
 
 ### -field Type
 
-The <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_escape.md">D3DKMT_ESCAPETYPE</a> escape type  that needs to be activated or deactivated.
+The <a href="https://msdn.microsoft.com/db57ae5e-7060-4d45-99a5-e54c82b0aa05">D3DKMT_ESCAPETYPE</a> escape type  that needs to be activated or deactivated.
 
 
 ### -field Activate
@@ -80,10 +69,10 @@ If <b>TRUE</b>, the escape type is to be activated. If <b>FALSE</b>, the escape 
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_escape.md">D3DKMT_ESCAPETYPE</a>
 
 
 
+<a href="https://msdn.microsoft.com/db57ae5e-7060-4d45-99a5-e54c82b0aa05">D3DKMT_ESCAPETYPE</a>
  
 
  

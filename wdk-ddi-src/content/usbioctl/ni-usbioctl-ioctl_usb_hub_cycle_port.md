@@ -47,11 +47,6 @@ req.product: Windows 10 or later.
 # IOCTL_USB_HUB_CYCLE_PORT IOCTL
 
 
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
-
 ## -description
 
 
@@ -70,12 +65,12 @@ The <b>IOCTL_USB_HUB_CYCLE_PORT</b> I/O control request power-cycles the port th
 
 ### -input-buffer
 
-The <b>AssociatedIrp.SystemBuffer</b> member points to a caller-allocated  <a href="..\usbioctl\ns-usbioctl-_usb_cycle_port_params.md">USB_CYCLE_PORT_PARAMS</a> structure that specifies the port number.
+The <b>AssociatedIrp.SystemBuffer</b> member points to a caller-allocated  <a href="https://msdn.microsoft.com/library/windows/hardware/gg615085">USB_CYCLE_PORT_PARAMS</a> structure that specifies the port number.
 
 
 ### -input-buffer-length
 
-The size of a <a href="..\usbioctl\ns-usbioctl-_usb_cycle_port_params.md">USB_CYCLE_PORT_PARAMS</a> structure.
+The size of a <a href="https://msdn.microsoft.com/library/windows/hardware/gg615085">USB_CYCLE_PORT_PARAMS</a> structure.
 
 
 ### -output-buffer

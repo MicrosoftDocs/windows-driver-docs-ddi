@@ -54,16 +54,6 @@ The
   <b>NdisMSleep</b> function delays execution of the caller for a given interval in microseconds.
 
 
-## -syntax
-
-
-````
-VOID NdisMSleep(
-  _In_ ULONG MicrosecondsToSleep
-);
-````
-
-
 ## -parameters
 
 
@@ -95,7 +85,7 @@ For the given time in the
 
 An NDIS driver should always call 
     <b>NdisMSleep</b> in preference to the 
-    <a href="..\ndis\nf-ndis-ndisstallexecution.md">NdisStallExecution</a> function unless the
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff564568">NdisStallExecution</a> function unless the
     driver is running at IRQL &gt;= DISPATCH_LEVEL. 
     <b>NdisMSleep</b> can accept a larger delay interval than 
     <b>NdisStallExecution</b>, which should 
@@ -103,9 +93,9 @@ An NDIS driver should always call
 
 Miniport drivers can call 
     <b>NdisMSleep</b> from their 
-    <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a> and,
+    <a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a> and,
     possibly, 
-    <a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a> functions when either
+    <a href="https://msdn.microsoft.com/b8d452b4-bef3-4991-87cf-fac15bedfde4">MiniportHaltEx</a> functions when either
     function must wait for state changes to occur in the NIC before that function continues its
     operations.
 
@@ -113,7 +103,7 @@ Both
     <b>NdisMSleep</b> and 
     <b>NdisStallExecution</b> allow a miniport driver to specify a delay consistently and independently of the
     clock speed of the host CPU. Neither function involves a timer object such as those that are used by the 
-    <a href="..\ndis\nf-ndis-ndissettimerobject.md">NdisSetTimerObject</a> function. The
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff564563">NdisSetTimerObject</a> function. The
     resolution of the host system clock varies, so very short delays can take slightly longer than the delay
     time that the caller of 
     <b>NdisMSleep</b> or 
@@ -124,30 +114,30 @@ Both
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndiswaitevent.md">NdisWaitEvent</a>
 
 
 
-<a href="..\ndis\nc-ndis-ndis_timer_function.md">NetTimerCallback</a>
+<a href="https://msdn.microsoft.com/b8d452b4-bef3-4991-87cf-fac15bedfde4">MiniportHaltEx</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisstallexecution.md">NdisStallExecution</a>
+<a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a>
 
 
 
-<a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564563">NdisSetTimerObject</a>
 
 
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564568">NdisStallExecution</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndissettimerobject.md">NdisSetTimerObject</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564651">NdisWaitEvent</a>
 
 
 
+<a href="https://msdn.microsoft.com/76e59376-58a4-4e35-bac4-ec5938c88cd7">NetTimerCallback</a>
  
 
  

@@ -47,11 +47,6 @@ req.product: Windows 10 or later.
 # IOCTL_INTERNAL_USBFN_SET_POWER_FILTER_STATE IOCTL
 
 
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
-
 ## -description
 
 
@@ -67,12 +62,12 @@ Do not use.
 
 ### -input-buffer
 
-The input buffer contains a <a href="..\usbfnioctl\ns-usbfnioctl-_usbfn_power_filter_state.md">USBFN_POWER_FILTER_STATE</a> structure that specifies the device state.
+The input buffer contains a <a href="https://msdn.microsoft.com/library/windows/hardware/mt188005">USBFN_POWER_FILTER_STATE</a> structure that specifies the device state.
 
 
 ### -input-buffer-length
 
-The size of a <a href="..\usbfnioctl\ns-usbfnioctl-_usbfn_power_filter_state.md">USBFN_POWER_FILTER_STATE</a> structure.
+The size of a <a href="https://msdn.microsoft.com/library/windows/hardware/mt188005">USBFN_POWER_FILTER_STATE</a> structure.
 
 
 ### -output-buffer
@@ -111,7 +106,7 @@ Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 
 Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
 
-For more information, see [XREF-LINK:NTSTATUS Values].
+For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/ntstatus-values).
 
 
 

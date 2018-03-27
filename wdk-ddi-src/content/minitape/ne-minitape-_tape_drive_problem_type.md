@@ -52,29 +52,6 @@ req.typenames: TAPE_DRIVE_PROBLEM_TYPE
 The TAPE_DRIVE_PROBLEM_TYPE enumerator is used to report problems with the tape drive. 
 
 
-## -syntax
-
-
-````
-typedef enum _TAPE_DRIVE_PROBLEM_TYPE { 
-  TapeDriveProblemNone          = 0,
-  TapeDriveReadWriteWarning     = 1,
-  TapeDriveReadWriteError       = 2,
-  TapeDriveReadWarning          = 3,
-  TapeDriveWriteWarning         = 4,
-  TapeDriveReadError            = 5,
-  TapeDriveWriteError           = 6,
-  TapeDriveHardwareError        = 7,
-  TapeDriveUnsupportedMedia     = 8,
-  TapeDriveScsiConnectionError  = 9,
-  TapeDriveTimetoClean          = 10,
-  TapeDriveCleanDriveNow        = 11,
-  TapeDriveMediaLifeExpired     = 12,
-  TapeDriveSnappedTape          = 13
-} TAPE_DRIVE_PROBLEM_TYPE;
-````
-
-
 ## -enum-fields
 
 
@@ -152,14 +129,14 @@ Indicates that the tape has snapped.
 
 ## -see-also
 
-<a href="..\ntddtape\ns-ntddtape-_tape_wmi_operations.md">TAPE_WMI_OPERATIONS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567977">TAPE_WMI_OPERATIONS</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567957">TapeMiniWMIControl</a>
-
-
-
  
 
  

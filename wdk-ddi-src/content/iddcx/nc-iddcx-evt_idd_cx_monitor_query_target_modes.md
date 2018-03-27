@@ -52,23 +52,6 @@ req.typenames: WCS_PROFILE_MANAGEMENT_SCOPE
 <b>EVT_IDD_CX_MONITOR_QUERY_TARGET_MODES</b> is called by the OS to get a list of target modes supported by the driver for a monitor connected to the endpoint.
 
 
-## -prototype
-
-
-````
-EVT_IDD_CX_MONITOR_QUERY_TARGET_MODES EvtIddCxMonitorQueryTargetModes;
-
-NTSTATUS EvtIddCxMonitorQueryTargetModes(
-  _In_        IDDCX_MONITOR               MonitorObject,
-  _In_  const IDARG_IN_QUERYTARGETMODES*  pInArgs,
-  _Out_       IDARG_OUT_QUERYTARGETMODES* pOutArgs
-)
-{ ... }
-
-typedef EVT_IDD_CX_MONITOR_QUERY_TARGET_MODES PFN_IDD_CX_MONITOR_QUERY_TARGET_MODES;
-````
-
-
 ## -parameters
 
 

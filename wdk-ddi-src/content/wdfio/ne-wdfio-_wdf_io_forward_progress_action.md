@@ -55,18 +55,6 @@ req.product: Windows 10 or later.
 The <b>WDF_IO_FORWARD_PROGRESS_ACTION</b> enumeration identifies actions that the framework can take for an I/O request packet (IRP) that your driver examines during a low-memory situation.
 
 
-## -syntax
-
-
-````
-typedef enum _WDF_IO_FORWARD_PROGRESS_ACTION { 
-  WdfIoForwardProgressActionInvalid             = 0x0,
-  WdfIoForwardProgressActionFailRequest         = 0x1,
-  WdfIoForwardProgressActionUseReservedRequest  = 0x2
-} WDF_IO_FORWARD_PROGRESS_ACTION;
-````
-
-
 ## -enum-fields
 
 
@@ -91,17 +79,17 @@ The framework will use a reserved request object, if one is available, for the c
 
 
 
-The <b>WDF_IO_FORWARD_PROGRESS_ACTION</b> enumeration is used as the return value for the <a href="..\wdfio\nc-wdfio-evt_wdf_io_wdm_irp_for_forward_progress.md">EvtIoWdmIrpForForwardProgress</a> callback function.
+The <b>WDF_IO_FORWARD_PROGRESS_ACTION</b> enumeration is used as the return value for the <a href="https://msdn.microsoft.com/71974802-954d-4856-a32b-1dcc45c36ba5">EvtIoWdmIrpForForwardProgress</a> callback function.
 
 
 
 
 ## -see-also
 
-<a href="..\wdfio\nc-wdfio-evt_wdf_io_wdm_irp_for_forward_progress.md">EvtIoWdmIrpForForwardProgress</a>
 
 
 
+<a href="https://msdn.microsoft.com/71974802-954d-4856-a32b-1dcc45c36ba5">EvtIoWdmIrpForForwardProgress</a>
  
 
  

@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,18 +51,6 @@ req.typenames: IDE_POWER_STATE
 
 The <b>AtaPortRequestTimer</b> routine requests a timer callback.
 <div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
-
-## -syntax
-
-
-````
-BOOLEAN __inline AtaPortRequestTimer(
-  _In_ PVOID      ChannelExtension,
-  _In_ IDE_HW_DPC TimerRoutine,
-  _In_ ULONG      TimerValue
-);
-````
-
 
 ## -parameters
 
@@ -111,10 +99,10 @@ The ATA port driver passes a pointer to the channel extension to the timer routi
 
 ## -see-also
 
-<a href="..\irb\nf-irb-ataportstallexecution.md">AtaPortStallExecution</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550234">AtaPortStallExecution</a>
  
 
  

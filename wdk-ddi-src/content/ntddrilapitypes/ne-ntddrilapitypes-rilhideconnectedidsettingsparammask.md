@@ -52,18 +52,6 @@ req.typenames: RILHIDECONNECTEDIDSETTINGSPARAMMASK
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef enum _RILHIDECONNECTEDIDSETTINGSPARAMMASK { 
-  RIL_PARAM_HCIDS_STATUS,
-  RIL_PARAM_HCIDS_PROVISIONING,
-  RIL_PARAM_HCIDS_ALL
-} RILHIDECONNECTEDIDSETTINGSPARAMMASK;
-````
-
-
 ## -enum-fields
 
 

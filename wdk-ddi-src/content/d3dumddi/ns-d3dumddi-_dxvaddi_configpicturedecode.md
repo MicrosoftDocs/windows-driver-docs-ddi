@@ -52,32 +52,6 @@ req.typenames: DXVADDI_CONFIGPICTUREDECODE
 The DXVADDI_CONFIGPICTUREDECODE structure describes the configuration for compressed picture decoding. 
 
 
-## -syntax
-
-
-````
-typedef struct _DXVADDI_CONFIGPICTUREDECODE {
-  GUID   guidConfigBitstreamEncryption;
-  GUID   guidConfigMBcontrolEncryption;
-  GUID   guidConfigResidDiffEncryption;
-  UINT   ConfigBitstreamRaw;
-  UINT   ConfigMBcontrolRasterOrder;
-  UINT   ConfigResidDiffHost;
-  UINT   ConfigSpatialResid8;
-  UINT   ConfigResid8Subtraction;
-  UINT   ConfigSpatialHost8or9Clipping;
-  UINT   ConfigSpatialResidInterleaved;
-  UINT   ConfigIntraResidUnsigned;
-  UINT   ConfigResidDiffAccelerator;
-  UINT   ConfigHostInverseScan;
-  UINT   ConfigSpecificIDCT;
-  UINT   Config4GroupedCoefs;
-  USHORT ConfigMinRenderTargetBuffCount;
-  USHORT ConfigDecoderSpecific;
-} DXVADDI_CONFIGPICTUREDECODE;
-````
-
-
 ## -struct-fields
 
 
@@ -225,7 +199,7 @@ The preferred value for <b>ConfigHostInverseScan</b> is 1 if <b>ConfigResidDiffA
 
 ### -field Config4GroupedCoefs
 
-[in] A UINT value that specifies how transform coefficients for off-host IDCT are sent. A value of 1 in this member indicates that transform coefficients for off-host IDCT are sent by using the <a href="..\dxva\ns-dxva-_dxva_tcoef4group.md">DXVA_TCoef4Group</a> structure rather than the <a href="..\dxva\ns-dxva-_dxva_tcoefsingle.md">DXVA_TCoefSingle</a> structure. <b>Config4GroupedCoefs</b> is zero if <b>ConfigResidDiffAccelerator</b> is zero or if <b>ConfigHostInverseScan</b> is 1.
+[in] A UINT value that specifies how transform coefficients for off-host IDCT are sent. A value of 1 in this member indicates that transform coefficients for off-host IDCT are sent by using the <a href="https://msdn.microsoft.com/library/windows/hardware/ff564053">DXVA_TCoef4Group</a> structure rather than the <a href="https://msdn.microsoft.com/library/windows/hardware/ff564060">DXVA_TCoefSingle</a> structure. <b>Config4GroupedCoefs</b> is zero if <b>ConfigResidDiffAccelerator</b> is zero or if <b>ConfigHostInverseScan</b> is 1.
 
 The preferred value for <b>Config4GroupedCoefs</b> is zero if <b>ConfigResidDiffAccelerator</b> is 1.
 
@@ -242,18 +216,18 @@ The preferred value for <b>Config4GroupedCoefs</b> is zero if <b>ConfigResidDiff
 
 ## -see-also
 
-<a href="..\d3dumddi\ne-d3dumddi-_d3dddicaps_type.md">D3DDDICAPS_TYPE</a>
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getcaps.md">GetCaps</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543148">D3DDDIARG_GETCAPS</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_getcaps.md">D3DDDIARG_GETCAPS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544132">D3DDDICAPS_TYPE</a>
 
 
 
+<a href="https://msdn.microsoft.com/cf6c61ce-7b53-46d0-b3ff-ed5b2b964c65">GetCaps</a>
  
 
  

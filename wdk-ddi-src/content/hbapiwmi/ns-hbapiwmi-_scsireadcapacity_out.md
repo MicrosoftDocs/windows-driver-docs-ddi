@@ -52,21 +52,6 @@ req.typenames: ScsiReadCapacity_OUT, *PScsiReadCapacity_OUT
 The ScsiReadCapacity_OUT structure is used to report the output data of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff564890">ScsiReadCapacity</a> WMI method to the WMI client.
 
 
-## -syntax
-
-
-````
-typedef struct _ScsiReadCapacity_OUT {
-  ULONG HBAStatus;
-  ULONG ResponseBufferSize;
-  ULONG SenseBufferSize;
-  UCHAR ScsiStatus;
-  UCHAR ResponseBuffer[1];
-  UCHAR SenseBuffer[1];
-} ScsiReadCapacity_OUT, *PScsiReadCapacity_OUT;
-````
-
-
 ## -struct-fields
 
 
@@ -113,14 +98,14 @@ The WMI tool suite generates a declaration of the ScsiReadCapacity_OUT structure
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564890">ScsiReadCapacity</a>
-
-
-
  
 
  

@@ -52,20 +52,6 @@ req.typenames: D3D11_1DDI_GETCAPTUREHANDLEDATA
 The <i>pfnCreateVideoProcessor</i> callback function creates a video processor.
 
 
-## -prototype
-
-
-````
-PFND3D12DDI_CREATEVIDEOPROCESSOR_0021 pfnCreateVideoProcessor;
-
-HRESULT  APIENTRY* pfnCreateVideoProcessor(
-   D3D12DDI_HDEVICE         hDrvDevice,
-   D3D12DDI_HVIDEOPROCESSOR hDrvVideoProcessor
-)
-{ ... }
-````
-
-
 ## -parameters
 
 

@@ -52,17 +52,6 @@ req.typenames: D3D12DDI_RANGE
 Specifies a range.
 
 
-## -syntax
-
-
-````
-typedef struct D3D12DDI_RANGE {
-  UINT64 Begin;
-  UINT64 End;
-} D3D12DDI_RANGE;
-````
-
-
 ## -struct-fields
 
 

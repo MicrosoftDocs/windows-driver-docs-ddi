@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: prnasntp.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -53,14 +53,6 @@ req.product: Windows 10 or later.
 
 
 
-## -syntax
-
-
-````
-HRESULT RegisterForNotifications();
-````
-
-
 ## -parameters
 
 
@@ -79,10 +71,10 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="..\prnasntp\nn-prnasntp-iprintasyncnotifyregistration.md">IPrintAsyncNotifyRegistration</a>
 
 
 
+<a href="https://msdn.microsoft.com/DF6A3FD2-22B4-452D-8D43-1EB25E2CEEA5">IPrintAsyncNotifyRegistration</a>
  
 
  

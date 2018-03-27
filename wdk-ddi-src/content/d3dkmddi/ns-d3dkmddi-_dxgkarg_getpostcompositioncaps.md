@@ -52,18 +52,6 @@ req.typenames: DXGKARG_GETPOSTCOMPOSITIONCAPS
 Arguments for the DxgkDdiGetPostCompositionCaps function.
 
 
-## -syntax
-
-
-````
-typedef struct _DXGKARG_GETPOSTCOMPOSITIONCAPS {
-  D3DDDI_VIDEO_PRESENT_SOURCE_ID VidPnSourceId;
-  float                          MaxStretchFactor;
-  float                          MaxShrinkFactor;
-} DXGKARG_GETPOSTCOMPOSITIONCAPS;
-````
-
-
 ## -struct-fields
 
 

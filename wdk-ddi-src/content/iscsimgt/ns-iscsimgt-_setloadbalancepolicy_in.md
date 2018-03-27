@@ -52,16 +52,6 @@ req.typenames: SetLoadBalancePolicy_IN, *PSetLoadBalancePolicy_IN
 The SetLoadBalancePolicy_IN structure holds the input data for the SetLoadBalance method.
 
 
-## -syntax
-
-
-````
-typedef struct _SetLoadBalancePolicy_IN {
-  ISCSI_Supported_LB_Policies LoadBalancePolicies;
-} SetLoadBalancePolicy_IN, *PSetLoadBalancePolicy_IN;
-````
-
-
 ## -struct-fields
 
 
@@ -83,10 +73,10 @@ You must implement this class.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563062">MSiSCSI_LB_Operations WMI Class</a>
-
-
-
  
 
  

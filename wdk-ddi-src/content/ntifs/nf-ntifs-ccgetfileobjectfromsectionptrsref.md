@@ -52,16 +52,6 @@ req.typenames: TOKEN_TYPE
 When passed a pointer to a SECTION_OBJECT_POINTERS structure for a cached file, the <b>CcGetFileObjectFromSectionPtrsRef</b> routine returns a pointer to the file object that the cache manager is using for the cached file.
 
 
-## -syntax
-
-
-````
-PFILE_OBJECT CcGetFileObjectFromSectionPtrsRef(
-  _In_ PSECTION_OBJECT_POINTERS SectionObjectPointer
-);
-````
-
-
 ## -parameters
 
 
@@ -69,7 +59,7 @@ PFILE_OBJECT CcGetFileObjectFromSectionPtrsRef(
 
 ### -param SectionObjectPointer [in]
 
-A pointer to the <a href="..\wdm\ns-wdm-_section_object_pointers.md">SECTION_OBJECT_POINTERS</a> structure that is associated with the cached file.
+A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563687">SECTION_OBJECT_POINTERS</a> structure that is associated with the cached file.
 
 
 ## -returns
@@ -85,25 +75,25 @@ A pointer to the file object for the cached file, or <b>NULL</b> if the file is 
 
 
 
-The file object is returned with a reference.  The caller is responsible for calling <a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a> on the file object when it has finished using the file object.
+The file object is returned with a reference.  The caller is responsible for calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff557724">ObDereferenceObject</a> on the file object when it has finished using the file object.
 
 
 
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_section_object_pointers.md">SECTION_OBJECT_POINTERS</a>
 
 
 
-<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539104">CcGetFileObjectFromSectionPtrs</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-ccgetfileobjectfromsectionptrs.md">CcGetFileObjectFromSectionPtrs</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557724">ObDereferenceObject</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563687">SECTION_OBJECT_POINTERS</a>
  
 
  

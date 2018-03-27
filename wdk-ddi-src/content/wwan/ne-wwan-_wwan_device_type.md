@@ -53,20 +53,6 @@ req.product: Windows 10 or later.
 The WWAN_DEVICE_TYPE enumeration lists the different device types that describe the MB device.
 
 
-## -syntax
-
-
-````
-typedef enum _WWAN_DEVICE_TYPE { 
-  WwanDeviceTypeUnknown    = 0,
-  WwanDeviceTypeEmbedded,
-  WwanDeviceTypeRemovable,
-  WwanDeviceTypeRemote,
-  WwanDeviceTypeMax
-} WWAN_DEVICE_TYPE, *PWWAN_DEVICE_TYPE;
-````
-
-
 ## -enum-fields
 
 
@@ -99,10 +85,10 @@ The total number of supported device types.
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_device_caps.md">WWAN_DEVICE_CAPS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571204">WWAN_DEVICE_CAPS</a>
  
 
  

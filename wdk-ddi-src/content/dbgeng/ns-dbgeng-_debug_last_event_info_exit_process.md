@@ -52,16 +52,6 @@ req.typenames: DEBUG_LAST_EVENT_INFO_EXIT_PROCESS, *PDEBUG_LAST_EVENT_INFO_EXIT_
 Describes the exit process of the last event.
 
 
-## -syntax
-
-
-````
-typedef struct _DEBUG_LAST_EVENT_INFO_EXIT_PROCESS {
-  ULONG ExitCode;
-} DEBUG_LAST_EVENT_INFO_EXIT_PROCESS, *PDEBUG_LAST_EVENT_INFO_EXIT_PROCESS;
-````
-
-
 ## -struct-fields
 
 

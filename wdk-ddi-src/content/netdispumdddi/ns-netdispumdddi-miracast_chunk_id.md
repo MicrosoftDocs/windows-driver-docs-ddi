@@ -52,20 +52,6 @@ req.typenames: MIRACAST_CHUNK_ID
 Stores info that identifies a wireless display (Miracast) encode chunk.
 
 
-## -syntax
-
-
-````
-typedef union {
-  struct {
-    UINT64 FrameNumber  :40;
-    UINT64 PartNumber  :24;
-  };
-  UINT64 Value;
-} MIRACAST_CHUNK_ID;
-````
-
-
 ## -struct-fields
 
 

@@ -52,21 +52,6 @@ req.typenames: RILNITZINFO_V1, *LPRILNITZINFO_V1
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef struct _RILNITZINFO_V1 {
-  DWORD          cbSize;
-  DWORD          dwParams;
-  DWORD          dwExecutor;
-  int            TimeZoneOffsetMinutes;
-  int            DaylightSavingOffsetMinutes;
-  RILSYSTEMTIME  SysTime;
-} RILNITZINFO_V1, RILNITZINFO_V1;
-````
-
-
 ## -struct-fields
 
 

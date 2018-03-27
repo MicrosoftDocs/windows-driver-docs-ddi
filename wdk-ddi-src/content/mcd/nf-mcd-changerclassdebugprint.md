@@ -53,17 +53,6 @@ req.typenames: LAMP_INTENSITY_WHITE
 The <b>ChangerClassDebugPrint</b> function prints debugging information. 
 
 
-## -syntax
-
-
-````
-VOID ChangerClassDebugPrint(
-   ULONG  DebugPrintLevel,
-   PCCHAR DebugMessage
-);
-````
-
-
 ## -parameters
 
 

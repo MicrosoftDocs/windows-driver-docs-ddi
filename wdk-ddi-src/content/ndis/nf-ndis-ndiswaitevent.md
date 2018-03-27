@@ -55,17 +55,6 @@ The
   state or the wait times out.
 
 
-## -syntax
-
-
-````
-BOOLEAN NdisWaitEvent(
-  _In_ PNDIS_EVENT Event,
-  _In_ UINT        MsToWait
-);
-````
-
-
 ## -parameters
 
 
@@ -104,12 +93,12 @@ The number of milliseconds the caller will wait if the event is not set to the
 
 A miniport driver typically calls 
     <b>NdisWaitEvent</b> from its 
-    <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a> and 
-    <a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a> functions. A protocol
+    <a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a> and 
+    <a href="https://msdn.microsoft.com/b8d452b4-bef3-4991-87cf-fac15bedfde4">MiniportHaltEx</a> functions. A protocol
     driver typically calls 
     <b>NdisWaitEvent</b> from its 
-    <a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a> and 
-    <a href="..\ndis\nc-ndis-protocol_unbind_adapter_ex.md">
+    <a href="https://msdn.microsoft.com/1958722e-012e-4110-a82c-751744bcf9b5">ProtocolBindAdapterEx</a> and 
+    <a href="https://msdn.microsoft.com/19fa7be2-acb9-42f6-bd9f-5be3e3c8b5fa">
     ProtocolUnbindAdapterEx</a> functions.
 
 
@@ -117,19 +106,6 @@ A miniport driver typically calls
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisresetevent.md">NdisResetEvent</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_unbind_adapter_ex.md">ProtocolUnbindAdapterEx</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndissetevent.md">NdisSetEvent</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisinitializeevent.md">NdisInitializeEvent</a>
 
 
 
@@ -138,18 +114,31 @@ A miniport driver typically calls
 
 
 
-<a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
+<a href="https://msdn.microsoft.com/b8d452b4-bef3-4991-87cf-fac15bedfde4">MiniportHaltEx</a>
 
 
 
-<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
+<a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a>
 
 
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562732">NdisInitializeEvent</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564526">NdisResetEvent</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564539">NdisSetEvent</a>
+
+
+
+<a href="https://msdn.microsoft.com/1958722e-012e-4110-a82c-751744bcf9b5">ProtocolBindAdapterEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/19fa7be2-acb9-42f6-bd9f-5be3e3c8b5fa">ProtocolUnbindAdapterEx</a>
  
 
  

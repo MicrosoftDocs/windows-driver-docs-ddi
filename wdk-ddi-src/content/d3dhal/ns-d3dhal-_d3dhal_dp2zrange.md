@@ -49,18 +49,7 @@ req.typenames: D3DHAL_DP2ZRANGE
 ## -description
 
 
-The D3DHAL_DP2ZRANGE structure specifies z-range minimum and maximum in <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DHAL_DP2ZRANGE {
-  D3DVALUE dvMinZ;
-  D3DVALUE dvMaxZ;
-} D3DHAL_DP2ZRANGE, *LPD3DHAL_DP2ZRANGE;
-````
+The D3DHAL_DP2ZRANGE structure specifies z-range minimum and maximum in <a href="https://msdn.microsoft.com/6128ff7a-0d2c-48df-8b5e-cab33c5a74f5">D3dDrawPrimitives2</a>.
 
 
 ## -struct-fields
@@ -80,10 +69,10 @@ Specifies the maximum z value for the Mvs matrix described in the <a href="https
 
 ## -see-also
 
-<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
 
 
 
+<a href="https://msdn.microsoft.com/6128ff7a-0d2c-48df-8b5e-cab33c5a74f5">D3dDrawPrimitives2</a>
  
 
  

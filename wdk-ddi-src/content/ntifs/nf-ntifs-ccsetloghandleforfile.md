@@ -52,18 +52,6 @@ req.typenames: TOKEN_TYPE
 The <b>CcSetLogHandleForFile</b> routine sets a log handle for a file. 
 
 
-## -syntax
-
-
-````
-VOID CcSetLogHandleForFile(
-  _In_ PFILE_OBJECT  FileObject,
-  _In_ PVOID         LogHandle,
-  _In_ PFLUSH_TO_LSN FlushToLsnRoutine
-);
-````
-
-
 ## -parameters
 
 
@@ -123,21 +111,21 @@ None
 
 
 
-<b>CcSetLogHandleForFile</b> sets a log handle for a file, for use in subsequent calls to <a href="..\ntifs\nf-ntifs-ccgetdirtypages.md">CcGetDirtyPages</a>. 
+<b>CcSetLogHandleForFile</b> sets a log handle for a file, for use in subsequent calls to <a href="https://msdn.microsoft.com/library/windows/hardware/ff539088">CcGetDirtyPages</a>. 
 
 
 
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-ccsetdirtypinneddata.md">CcSetDirtyPinnedData</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-ccgetdirtypages.md">CcGetDirtyPages</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539088">CcGetDirtyPages</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539211">CcSetDirtyPinnedData</a>
  
 
  

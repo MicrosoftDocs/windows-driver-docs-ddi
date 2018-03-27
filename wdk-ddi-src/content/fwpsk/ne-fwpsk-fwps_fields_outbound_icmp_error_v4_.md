@@ -54,33 +54,6 @@ The FWPS_FIELDS_OUTBOUND_ICMP_ERROR_V4 enumeration type specifies the data field
   <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa366492">run-time filtering layers</a>.
 
 
-## -syntax
-
-
-````
-typedef enum FWPS_FIELDS_OUTBOUND_ICMP_ERROR_V4_ { 
-  FWPS_FIELD_OUTBOUND_ICMP_ERROR_V4_IP_LOCAL_ADDRESS,
-  FWPS_FIELD_OUTBOUND_ICMP_ERROR_V4_IP_REMOTE_ADDRESS,
-  FWPS_FIELD_OUTBOUND_ICMP_ERROR_V4_IP_LOCAL_ADDRESS_TYPE,
-  FWPS_FIELD_OUTBOUND_ICMP_ERROR_V4_IP_LOCAL_INTERFACE,
-  FWPS_FIELD_OUTBOUND_ICMP_ERROR_V4_ICMP_TYPE,
-  FWPS_FIELD_OUTBOUND_ICMP_ERROR_V4_ICMP_CODE,
-  FWPS_FIELD_OUTBOUND_ICMP_ERROR_V4_INTERFACE_INDEX,
-  FWPS_FIELD_OUTBOUND_ICMP_ERROR_V4_SUB_INTERFACE_INDEX,
-  FWPS_FIELD_OUTBOUND_ICMP_ERROR_V4_INTERFACE_TYPE,
-  FWPS_FIELD_OUTBOUND_ICMP_ERROR_V4_TUNNEL_TYPE,
-#if (NTDDI_VERSION >= NTDDI_WIN6SP1)
-  FWPS_FIELD_OUTBOUND_ICMP_ERROR_V4_FLAGS,
-#if (NTDDI_VERSION >= NTDDI_WIN7)
-  FWPS_FIELD_OUTBOUND_ICMP_ERROR_V4_NEXTHOP_INTERFACE_PROFILE_ID,
-  FWPS_FIELD_OUTBOUND_ICMP_ERROR_V4_INTERFACE_QUARANTINE_EPOCH,
-#endif 
-#endif 
-  FWPS_FIELD_OUTBOUND_ICMP_ERROR_V4_MAX
-} FWPS_FIELDS_OUTBOUND_ICMP_ERROR_V4;
-````
-
-
 ## -enum-fields
 
 
@@ -104,7 +77,7 @@ The local IP address type. The possible values are defined by the
 
 ### -field FWPS_FIELD_OUTBOUND_ICMP_ERROR_V4_IP_LOCAL_INTERFACE
 
-The locally unique identifier (<a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a>) for the network interface associated with the
+The locally unique identifier (<a href="https://msdn.microsoft.com/library/windows/hardware/ff557080">LUID</a>) for the network interface associated with the
      local IP address.
 
 
@@ -183,14 +156,14 @@ The maximum value for this enumeration. This value might change in future versio
 
 ## -see-also
 
-<a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557080">LUID</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568757">NL_ADDRESS_TYPE</a>
-
-
-
  
 
  

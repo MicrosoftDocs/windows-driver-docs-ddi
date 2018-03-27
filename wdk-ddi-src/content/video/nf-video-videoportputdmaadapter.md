@@ -50,18 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The <b>VideoPortPutDmaAdapter</b> function frees a <a href="https://msdn.microsoft.com/library/windows/hardware/ff570570">VP_DMA_ADAPTER</a> structure that was previously allocated by a call to <a href="..\video\nf-video-videoportgetdmaadapter.md">VideoPortGetDmaAdapter</a>.
-
-
-## -syntax
-
-
-````
-VOID VideoPortPutDmaAdapter(
-  _In_ PVOID           HwDeviceExtension,
-  _In_ PVP_DMA_ADAPTER VpDmaAdapter
-);
-````
+The <b>VideoPortPutDmaAdapter</b> function frees a <a href="https://msdn.microsoft.com/library/windows/hardware/ff570570">VP_DMA_ADAPTER</a> structure that was previously allocated by a call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff570312">VideoPortGetDmaAdapter</a>.
 
 
 ## -parameters
@@ -99,7 +88,6 @@ A miniport driver should call this function only if it will not use the same VP_
 
 ## -see-also
 
-<a href="..\video\nf-video-videoportgetdmaadapter.md">VideoPortGetDmaAdapter</a>
 
 
 
@@ -107,6 +95,7 @@ A miniport driver should call this function only if it will not use the same VP_
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570312">VideoPortGetDmaAdapter</a>
  
 
  

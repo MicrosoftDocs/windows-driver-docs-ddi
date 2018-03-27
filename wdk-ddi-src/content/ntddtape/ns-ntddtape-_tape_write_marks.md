@@ -49,19 +49,7 @@ req.typenames: TAPE_WRITE_MARKS, *PTAPE_WRITE_MARKS
 ## -description
 
 
-The TAPE_WRITE_MARKS structure is used in conjunction with an <a href="..\ntddtape\ni-ntddtape-ioctl_tape_write_marks.md">IOCTL_TAPE_WRITE_MARKS</a> request to write a setmark, a filemark, a short filemark, or a long filemark to tape. 
-
-
-## -syntax
-
-
-````
-typedef struct _TAPE_WRITE_MARKS {
-  ULONG   Type;
-  ULONG   Count;
-  BOOLEAN Immediate;
-} TAPE_WRITE_MARKS, *PTAPE_WRITE_MARKS;
-````
+The TAPE_WRITE_MARKS structure is used in conjunction with an <a href="https://msdn.microsoft.com/library/windows/hardware/ff560641">IOCTL_TAPE_WRITE_MARKS</a> request to write a setmark, a filemark, a short filemark, or a long filemark to tape. 
 
 
 ## -struct-fields
@@ -134,14 +122,14 @@ When set to <b>TRUE</b>, indicates that the target device should return status i
 
 ## -see-also
 
-<a href="..\ntddtape\ni-ntddtape-ioctl_tape_write_marks.md">IOCTL_TAPE_WRITE_MARKS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560641">IOCTL_TAPE_WRITE_MARKS</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567958">TapeMiniWriteMarks</a>
-
-
-
  
 
  

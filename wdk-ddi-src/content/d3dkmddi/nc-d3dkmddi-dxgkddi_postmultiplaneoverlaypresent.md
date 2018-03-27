@@ -52,17 +52,6 @@ req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
 Called after a new multi-plane overlay configuration has taken effect, allowing the driver to optimize hardware state.  Optional for Windows Display Driver Model (WDDM) 2.0 or later drivers that support multi-plane overlays.
 
 
-## -prototype
-
-
-````
-NTSTATUS  DXGKDDI_POSTMULTIPLANEOVERLAYPRESENT(
-  _In_ const HANDLE                                hAdapter,
-  _In_ const PDXGKARG_POSTMULTIPLANEOVERLAYPRESENT pPostMultiPlaneOverlayPresent
-);
-````
-
-
 ## -parameters
 
 

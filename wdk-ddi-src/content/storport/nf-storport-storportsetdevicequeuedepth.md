@@ -54,20 +54,6 @@ req.product: Windows 10 or later.
 The <b>StorPortSetDeviceQueueDepth</b> routine sets the maximum depth of the device queue for the indicated device. 
 
 
-## -syntax
-
-
-````
-STORPORT_API BOOLEAN StorPortSetDeviceQueueDepth(
-  _In_ PVOID HwDeviceExtension,
-  _In_ UCHAR PathId,
-  _In_ UCHAR TargetId,
-  _In_ UCHAR Lun,
-  _In_ ULONG Depth
-);
-````
-
-
 ## -parameters
 
 
@@ -114,10 +100,10 @@ Supplies the depth to which the queue is to be set. This value is always &gt; 0.
 Before the first call to <b>StorPortSetDeviceQueueDepth</b>, the device queue depth is set to the default value. The following conditional description determines the default queue depth.
 
 <b>InitialQueueDepth</b>
-<a href="..\strmini\ns-strmini-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567785">PORT_CONFIGURATION_INFORMATION</a>
 <b>InitialQueueDepth</b>
 <b>MaxIOsPerLun</b>
-<a href="..\strmini\ns-strmini-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567785">PORT_CONFIGURATION_INFORMATION</a>
 <b>MaxIOsPerLun</b>
 The <b>StorPortSetDeviceQueueDepth</b> routine should be called when the miniport driver receives the first SCSI Inquiry command for the specified LUN, or at any time thereafter (but not before), as long as the LUN is valid.
 

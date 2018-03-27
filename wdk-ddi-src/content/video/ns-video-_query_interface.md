@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: "<= DISPATCH_LEVEL"
+req.irql: See Remarks section.
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -53,20 +53,6 @@ req.product: Windows 10 or later.
 The QUERY_INTERFACE structure describes the interface being requested.
 
 
-## -syntax
-
-
-````
-typedef struct _QUERY_INTERFACE {
-  const GUID *InterfaceType;
-  USHORT     Size;
-  USHORT     Version;
-  PINTERFACE Interface;
-  PVOID      InterfaceSpecificData;
-} QUERY_INTERFACE, *PQUERY_INTERFACE;
-````
-
-
 ## -struct-fields
 
 
@@ -81,7 +67,7 @@ The parent generates this GUID with <i>uuidgen.exe</i>. See <a href="https://msd
 
 ### -field Size
 
-Specifies the size in bytes of the <a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a> structure to which <b>Interface</b> points. The miniport driver must not return an INTERFACE structure larger than <b>Size</b> bytes.
+Specifies the size in bytes of the <a href="https://msdn.microsoft.com/library/windows/hardware/dn895657">INTERFACE</a> structure to which <b>Interface</b> points. The miniport driver must not return an INTERFACE structure larger than <b>Size</b> bytes.
 
 
 ### -field Version
@@ -93,7 +79,7 @@ If a parent supports more than one version of an interface, its driver should re
 
 ### -field Interface
 
-Pointer to an <a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a> structure in which the miniport driver returns the requested interface information. The querying driver is responsible for allocating this structure before calling <a href="..\video\nc-video-pvideo_hw_query_interface.md">HwVidQueryInterface</a>.
+Pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/dn895657">INTERFACE</a> structure in which the miniport driver returns the requested interface information. The querying driver is responsible for allocating this structure before calling <a href="https://msdn.microsoft.com/f16a7fa3-3471-4ccb-b1b4-982d33f930d3">HwVidQueryInterface</a>.
 
 
 ### -field InterfaceSpecificData
@@ -112,17 +98,17 @@ Specifies additional information about the interface being requested. Typically,
 
 
 
-The <i>QueryInterface</i> parameter of the video miniport driver's <a href="..\video\nc-video-pvideo_hw_query_interface.md">HwVidQueryInterface</a> function is a pointer to a QUERY_INTERFACE structure. 
+The <i>QueryInterface</i> parameter of the video miniport driver's <a href="https://msdn.microsoft.com/f16a7fa3-3471-4ccb-b1b4-982d33f930d3">HwVidQueryInterface</a> function is a pointer to a QUERY_INTERFACE structure. 
 
 
 
 
 ## -see-also
 
-<a href="..\video\nc-video-pvideo_hw_query_interface.md">HwVidQueryInterface</a>
 
 
 
+<a href="https://msdn.microsoft.com/f16a7fa3-3471-4ccb-b1b4-982d33f930d3">HwVidQueryInterface</a>
  
 
  

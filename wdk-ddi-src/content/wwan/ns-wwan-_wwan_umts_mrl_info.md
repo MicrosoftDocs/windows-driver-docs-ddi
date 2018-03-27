@@ -53,25 +53,6 @@ req.product: Windows 10 or later.
 The <b>WWAN_UMTS_MRL_INFO</b> structure represents information about a neighboring UMTS cell.
 
 
-## -syntax
-
-
-````
-typedef struct _WWAN_UMTS_MRL_INFO {
-  ULONG ProviderIdOffset;
-  ULONG ProviderIdSize;
-  ULONG LocationAreaCode;
-  ULONG CellId;
-  ULONG UARFCN;
-  ULONG PrimaryScramblingCode;
-  ULONG RSCP;
-  ULONG ECNO;
-  ULONG PathLoss;
-  BYTE  Data[ANYSIZE_ARRAY];
-} WWAN_UMTS_MRL_INFO, *PWWAN_UMTS_MRL_INFO;
-````
-
-
 ## -struct-fields
 
 
@@ -136,7 +117,6 @@ The data buffer containing <i>ProviderId</i>.
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_umts_serving_cell_info.md">WWAN_UMTS_SERVING_CELL_INFO</a>
 
 
 
@@ -144,14 +124,15 @@ The data buffer containing <i>ProviderId</i>.
 
 
 
-<a href="..\wwan\ns-wwan-_wwan_umts_mrl.md">WWAN_UMTS_MRL</a>
+<a href="https://msdn.microsoft.com/66460B28-C2B4-4F05-A133-31A753AF9489">WWAN_BASE_STATIONS_INFO</a>
 
 
 
-<a href="..\wwan\ns-wwan-_wwan_base_stations_info.md">WWAN_BASE_STATIONS_INFO</a>
+<a href="https://msdn.microsoft.com/B62F63EB-747A-4672-9A79-5065A8BC04D1">WWAN_UMTS_MRL</a>
 
 
 
+<a href="https://msdn.microsoft.com/62257D65-DCB9-43C3-A862-DAB31C27EF0A">WWAN_UMTS_SERVING_CELL_INFO</a>
  
 
  

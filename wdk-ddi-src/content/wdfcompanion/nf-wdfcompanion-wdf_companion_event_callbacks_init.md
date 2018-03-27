@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -52,16 +52,6 @@ req.product: Windows 10 or later.
 
 
 			For internal use only.
-
-
-## -syntax
-
-
-````
-FORCEINLINE VOID WDF_COMPANION_EVENT_CALLBACKS_INIT(
-  _Out_ PWDF_COMPANION_EVENT_CALLBACKS Callbacks
-);
-````
 
 
 ## -parameters

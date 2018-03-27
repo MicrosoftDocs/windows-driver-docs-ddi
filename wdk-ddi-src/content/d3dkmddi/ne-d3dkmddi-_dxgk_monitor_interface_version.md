@@ -52,18 +52,6 @@ req.typenames: DXGK_MONITOR_INTERFACE_VERSION
 The <b>DXGK_MONITOR_INTERFACE_VERSION</b> enumeration indicates a particular version of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff568433">Monitor interface</a>.
 
 
-## -syntax
-
-
-````
-typedef enum _DXGK_MONITOR_INTERFACE_VERSION { 
-  DXGK_MONITOR_INTERFACE_VERSION_UNINITIALIZED  = 0,
-  DXGK_MONITOR_INTERFACE_VERSION_V1             = 1,
-  DXGK_MONITOR_INTERFACE_VERSION_V2             = 2
-} DXGK_MONITOR_INTERFACE_VERSION;
-````
-
-
 ## -enum-fields
 
 
@@ -90,7 +78,7 @@ Indicates version 1, available in Windows Vista and later versions of the Window
 
 
 
-The <b>Version</b> member of the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_monitor_interface.md">DXGK_MONITOR_INTERFACE</a> structure is a value from the <b>DXGK_MONITOR_INTERFACE_VERSION</b> enumeration.
+The <b>Version</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff561949">DXGK_MONITOR_INTERFACE</a> structure is a value from the <b>DXGK_MONITOR_INTERFACE_VERSION</b> enumeration.
 
 
 

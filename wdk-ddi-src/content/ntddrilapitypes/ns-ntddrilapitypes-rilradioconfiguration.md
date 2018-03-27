@@ -52,18 +52,6 @@ req.typenames: RILRADIOCONFIGURATION, *LPRILRADIOCONFIGURATION
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef struct _RILRADIOCONFIGURATION {
-  DWORD                           dwConfigId;
-  RILRADIOCONFIGURATIONRADIOTYPE  dwRadioType;
-  DWORD [2]                       dwSystemTypes;
-} RILRADIOCONFIGURATION, RILRADIOCONFIGURATION;
-````
-
-
 ## -struct-fields
 
 

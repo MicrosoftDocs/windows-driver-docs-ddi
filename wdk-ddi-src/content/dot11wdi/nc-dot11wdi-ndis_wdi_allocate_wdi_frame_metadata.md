@@ -51,20 +51,7 @@ req.typenames: SYNTH_STATS, *PSYNTH_STATS
 
 The NdisWdiAllocateWiFiFrameMetaData callback function  allocates a frame metadata buffer.
 
-This is a callback inside <a href="..\dot11wdi\ns-dot11wdi-_ndis_wdi_data_api.md">NDIS_WDI_DATA_API</a>.
-
-
-## -prototype
-
-
-````
-NDIS_WDI_ALLOCATE_WDI_FRAME_METADATA NdisWdiAllocateWiFiFrameMetaData;
-
-PWDI_FRAME_METADATA NdisWdiAllocateWiFiFrameMetaData(
-  _In_ NDIS_HANDLE NdisMiniportDataPathHandle
-)
-{ ... }
-````
+This is a callback inside <a href="https://msdn.microsoft.com/library/windows/hardware/mt297620">NDIS_WDI_DATA_API</a>.
 
 
 ## -parameters
@@ -74,7 +61,7 @@ PWDI_FRAME_METADATA NdisWdiAllocateWiFiFrameMetaData(
 
 ### -param NdisMiniportDataPathHandle [in]
 
-The NdisMiniportDataPathHandle passed to the IHV miniport in <a href="..\dot11wdi\nc-dot11wdi-miniport_wdi_tal_txrx_initialize.md">MiniportWdiTalTxRxInitialize</a>.
+The NdisMiniportDataPathHandle passed to the IHV miniport in <a href="https://msdn.microsoft.com/C297D681-D43F-4105-9E08-7FF42807E9A0">MiniportWdiTalTxRxInitialize</a>.
 
 
 ## -returns
@@ -88,14 +75,14 @@ The allocated frame metadata buffer.
 
 ## -see-also
 
-<a href="..\dot11wdi\ns-dot11wdi-_wdi_frame_metadata.md">WDI_FRAME_METADATA</a>
 
 
 
-<a href="..\dot11wdi\ns-dot11wdi-_ndis_wdi_data_api.md">NDIS_WDI_DATA_API</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt297620">NDIS_WDI_DATA_API</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn897827">WDI_FRAME_METADATA</a>
  
 
  

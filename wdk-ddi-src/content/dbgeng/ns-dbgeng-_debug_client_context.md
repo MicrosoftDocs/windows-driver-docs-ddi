@@ -52,17 +52,6 @@ req.typenames: DEBUG_CLIENT_CONTEXT, *PDEBUG_CLIENT_CONTEXT
 Contains a debug client constant to provide to the <a href="https://msdn.microsoft.com/235DA791-D4D1-486C-B136-3703E62E91E2">IDebugClient7::SetClientContext</a>  method. 
 
 
-## -syntax
-
-
-````
-typedef struct _DEBUG_CLIENT_CONTEXT {
-  UINT cbSize;
-  UINT eClient;
-} DEBUG_CLIENT_CONTEXT, *PDEBUG_CLIENT_CONTEXT;
-````
-
-
 ## -struct-fields
 
 
@@ -80,10 +69,10 @@ A client value.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/235DA791-D4D1-486C-B136-3703E62E91E2">IDebugClient7::SetClientContext</a>
-
-
-
  
 
  

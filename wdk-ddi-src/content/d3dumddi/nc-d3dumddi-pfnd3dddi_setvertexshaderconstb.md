@@ -52,21 +52,6 @@ req.typenames: DXGK_PTE
 The <i>SetVertexShaderConstB</i> function sets one or more vertex shader constant registers with Boolean values.
 
 
-## -prototype
-
-
-````
-PFND3DDDI_SETVERTEXSHADERCONSTB SetVertexShaderConstB;
-
-__checkReturn HRESULT APIENTRY SetVertexShaderConstB(
-  _In_       HANDLE                         hDevice,
-  _In_ const D3DDDIARG_SETVERTEXSHADERCONST *pData,
-  _In_ const BOOL                           *pRegisters
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -88,7 +73,7 @@ __checkReturn HRESULT APIENTRY SetVertexShaderConstB(
 
 #### - pData [in]
 
- A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_setvertexshaderconst.md">D3DDDIARG_SETVERTEXSHADERCONST</a> structure that specifies how to set the vertex shader constant registers.
+ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543368">D3DDDIARG_SETVERTEXSHADERCONST</a> structure that specifies how to set the vertex shader constant registers.
 
 
 #### - pRegisters [in]
@@ -107,14 +92,14 @@ __checkReturn HRESULT APIENTRY SetVertexShaderConstB(
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_setvertexshaderconst.md">D3DDDIARG_SETVERTEXSHADERCONST</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543368">D3DDDIARG_SETVERTEXSHADERCONST</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544519">D3DDDI_DEVICEFUNCS</a>
  
 
  

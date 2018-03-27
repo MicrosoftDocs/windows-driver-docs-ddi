@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: "<= PASSIVE_LEVEL"
 topic_type:
@@ -53,18 +53,6 @@ req.product: Windows 10 or later.
 The Bluetooth 
   <b>SdpFindAttributeInTree</b> function is used to locate the specified attribute node in the tree-based
   representation of an SDP record.
-
-
-## -syntax
-
-
-````
-NTSTATUS SdpFindAttributeInTree(
-  _In_  PSDP_TREE_ROOT_NODE Tree,
-  _In_  USHORT              AttribId,
-  _Out_ PSDP_NODE           *AttribValue
-);
-````
 
 
 ## -parameters
@@ -112,7 +100,7 @@ The
     perform a copy. This node pointer is valid until the SDP tree that it references is freed.
 
 Bluetooth profile drivers can obtain a pointer to this function through the 
-    <a href="..\bthsdpddi\ns-bthsdpddi-_bthddi_sdp_parse_interface.md">
+    <a href="https://msdn.microsoft.com/bb8a1dd5-8207-4034-993e-eed49dc0f9c4">
     BTHDDI_SDP_PARSE_INTERFACE</a> structure.
 
 
@@ -120,10 +108,10 @@ Bluetooth profile drivers can obtain a pointer to this function through the
 
 ## -see-also
 
-<a href="..\bthsdpddi\ns-bthsdpddi-_bthddi_sdp_parse_interface.md">BTHDDI_SDP_PARSE_INTERFACE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536636">BTHDDI_SDP_PARSE_INTERFACE</a>
  
 
  

@@ -52,16 +52,6 @@ req.typenames: D3DKMT_FENCE_PRESENTHISTORYTOKEN
 The D3DKMT_FENCE_PRESENTHISTORYTOKEN structure identifies a fence present-history operation.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DKMT_FENCE_PRESENTHISTORYTOKEN {
-  UINT64 Key;
-} D3DKMT_FENCE_PRESENTHISTORYTOKEN;
-````
-
-
 ## -struct-fields
 
 
@@ -74,10 +64,10 @@ typedef struct _D3DKMT_FENCE_PRESENTHISTORYTOKEN {
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_presenthistorytoken.md">D3DKMT_PRESENTHISTORYTOKEN</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548188">D3DKMT_PRESENTHISTORYTOKEN</a>
  
 
  

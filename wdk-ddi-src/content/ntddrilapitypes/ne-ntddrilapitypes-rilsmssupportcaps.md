@@ -52,17 +52,6 @@ req.typenames: RILSMSSUPPORTCAPS
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef enum _RILSMSSUPPORTCAPS { 
-  RIL_CAPS_SMSSUPPORT_16BITREFERENCENUMBER,
-  RIL_CAPS_SMSSUPPORT_ALL
-} RILSMSSUPPORTCAPS;
-````
-
-
 ## -enum-fields
 
 

@@ -53,22 +53,6 @@ req.product: Windows 10 or later.
 The client driver's implementation that UCX calls to start the queue associated with the endpoint.
 
 
-## -prototype
-
-
-````
-EVT_UCX_ENDPOINT_START EvtUcxEndpointStart;
-
-VOID EvtUcxEndpointStart(
-  _In_ UCXCONTROLLER UcxController,
-  _In_ UCXENDPOINT   Endpoint
-)
-{ ... }
-
-typedef EVT_UCX_ENDPOINT_START PEVT_UCX_ENDPOINT_START;
-````
-
-
 ## -parameters
 
 
@@ -106,7 +90,7 @@ This callback function does not return a value.
 
 
 
-The UCX client driver registers this callback function with the USB host controller extension (UCX) by calling the <a href="..\ucxendpoint\nf-ucxendpoint-ucxendpointcreate.md">UcxEndpointCreate</a>
+The UCX client driver registers this callback function with the USB host controller extension (UCX) by calling the <a href="https://msdn.microsoft.com/library/windows/hardware/mt188039">UcxEndpointCreate</a>
  method.
 
 

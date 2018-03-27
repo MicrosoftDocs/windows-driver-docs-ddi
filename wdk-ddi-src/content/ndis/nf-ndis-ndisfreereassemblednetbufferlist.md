@@ -52,20 +52,8 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 
 Call the 
   <b>NdisFreeReassembledNetBufferList</b> function to free a reassembled 
-  <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure and the associated 
-  <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a> structure and MDL chain.
-
-
-## -syntax
-
-
-````
-VOID NdisFreeReassembledNetBufferList(
-  _In_ PNET_BUFFER_LIST ReassembledNetBufferList,
-  _In_ ULONG            DataOffsetDelta,
-  _In_ ULONG            FreeReassembleFlags
-);
-````
+  <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structure and the associated 
+  <a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a> structure and MDL chain.
 
 
 ## -parameters
@@ -76,7 +64,7 @@ VOID NdisFreeReassembledNetBufferList(
 ### -param ReassembledNetBufferList [in]
 
 A pointer to a NET_BUFFER_LIST structure that the driver allocated by calling the 
-     <a href="..\ndis\nf-ndis-ndisallocatereassemblednetbufferlist.md">
+     <a href="https://msdn.microsoft.com/6a7fcb43-93bf-4351-8198-1d788b1bcc8c">
      NdisAllocateReassembledNetBufferList</a> function.
 
 
@@ -109,9 +97,9 @@ None
 
 
 <b>NdisFreeReassembledNetBufferList</b> frees a reassembled 
-    <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure that the caller
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structure that the caller
     allocated by calling 
-    <a href="..\ndis\nf-ndis-ndisallocatereassemblednetbufferlist.md">
+    <a href="https://msdn.microsoft.com/6a7fcb43-93bf-4351-8198-1d788b1bcc8c">
     NdisAllocateReassembledNetBufferList</a>.
 
 
@@ -119,19 +107,19 @@ None
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisallocatereassemblednetbufferlist.md">
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a>
+
+
+
+<a href="https://msdn.microsoft.com/6a7fcb43-93bf-4351-8198-1d788b1bcc8c">
    NdisAllocateReassembledNetBufferList</a>
-
-
-
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
-
-
-
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
-
-
-
  
 
  

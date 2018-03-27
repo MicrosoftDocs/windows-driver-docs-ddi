@@ -53,19 +53,6 @@ The <b>NDIS_RECEIVE_FILTER_TYPE</b> enumeration identifies the receive filter ty
   supports.
 
 
-## -syntax
-
-
-````
-typedef enum _NDIS_RECEIVE_FILTER_TYPE { 
-  NdisReceiveFilterTypeUndefined,
-  NdisReceiveFilterTypeVMQueue,
-  NdisReceiveFilterTypePacketCoalescing,
-  NdisReceiveFilterTypeMaximum
-} NDIS_RECEIVE_FILTER_TYPE, *PNDIS_RECEIVE_FILTER_TYPE;
-````
-
-
 ## -enum-fields
 
 
@@ -97,7 +84,7 @@ The maximum value for this enumeration. This value might change in future versio
 
 
 The NDIS_RECEIVE_FILTER_TYPE enumeration is used in the 
-    <a href="..\ntddndis\ns-ntddndis-_ndis_receive_filter_parameters.md">
+    <a href="https://msdn.microsoft.com/39dc6b3a-f24d-4f1a-96f8-416fbcb3f894">
     NDIS_RECEIVE_FILTER_PARAMETERS</a> structure.
 
 For more information about VMQ, see <a href="https://msdn.microsoft.com/c502c7d6-bdf1-4656-b5a5-339250910f08">Virtual Machine Queue (VMQ)</a>.
@@ -111,11 +98,11 @@ For more information about packet coalescing, see <a href="https://msdn.microsof
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_receive_filter_parameters.md">
+
+
+
+<a href="https://msdn.microsoft.com/39dc6b3a-f24d-4f1a-96f8-416fbcb3f894">
    NDIS_RECEIVE_FILTER_PARAMETERS</a>
-
-
-
  
 
  

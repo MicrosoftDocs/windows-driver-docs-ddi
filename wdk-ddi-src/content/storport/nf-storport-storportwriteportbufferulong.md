@@ -54,19 +54,6 @@ req.product: Windows 10 or later.
 The <b>StorPortWritePortBufferUlong</b> routine writes a value to a specified register address. 
 
 
-## -syntax
-
-
-````
-STORPORT_API VOID StorPortWritePortBufferUlong(
-  _In_ PVOID  HwDeviceExtension,
-  _In_ PULONG Port,
-  _In_ PULONG Buffer,
-  _In_ ULONG  Count
-);
-````
-
-
 ## -parameters
 
 
@@ -120,21 +107,21 @@ Contains the address of the port to be written to.
 
 
 
-For more information, see <a href="..\storport\nf-storport-scsiportwriteportbufferulong.md">ScsiPortWritePortBufferUlong</a>. For a nonbuffered equivalent of this routine, see <a href="..\storport\nf-storport-storportwriteportulong.md">StorPortWritePortUlong</a>. 
+For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff564824">ScsiPortWritePortBufferUlong</a>. For a nonbuffered equivalent of this routine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff567524">StorPortWritePortUlong</a>. 
 
 
 
 
 ## -see-also
 
-<a href="..\storport\nf-storport-scsiportwriteportbufferulong.md">ScsiPortWritePortBufferUlong</a>
 
 
 
-<a href="..\storport\nf-storport-storportwriteportulong.md">StorPortWritePortUlong</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564824">ScsiPortWritePortBufferUlong</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567524">StorPortWritePortUlong</a>
  
 
  

@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -50,19 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The <b>StorPortInitializePerfOpts</b> function initializes the performance optimizations that both the miniport driver and the Storport driver support using a <a href="..\storport\ns-storport-_perf_configuration_data.md">PERF_CONFIGURATION_DATA</a> structure.
-
-
-## -syntax
-
-
-````
-ULONG StorPortInitializePerfOpts(
-  _In_    PVOID                    HwDeviceExtension,
-  _In_    BOOLEAN                  Query,
-  _Inout_ PPERF_CONFIGURATION_DATA PerfConfigData
-);
-````
+The <b>StorPortInitializePerfOpts</b> function initializes the performance optimizations that both the miniport driver and the Storport driver support using a <a href="https://msdn.microsoft.com/library/windows/hardware/ff563845">PERF_CONFIGURATION_DATA</a> structure.
 
 
 ## -parameters
@@ -127,7 +115,7 @@ Or if <i>Query</i> is set to <b>TRUE</b>,  the <b>Flags</b> member of the struct
 </dl>
 </td>
 <td width="60%">
-The miniport driver set a flag in <i>PerfConfigData</i> that Storport did not recognize, or the miniport driver has called this routine from outside the miniport-driver-supplied <a href="..\storport\nc-storport-hw_initialize.md">HwStorInitialize</a> routine.
+The miniport driver set a flag in <i>PerfConfigData</i> that Storport did not recognize, or the miniport driver has called this routine from outside the miniport-driver-supplied <a href="https://msdn.microsoft.com/library/windows/hardware/ff557396">HwStorInitialize</a> routine.
 
 </td>
 </tr>
@@ -164,20 +152,20 @@ Either the <i>HwDeviceExtension</i> parameter or the <i>PerfConfigData</i> param
 
 
 
-    The miniport driver can call <b>StorPortInitializePerfOpts</b> only during the miniport-supplied   <a href="..\storport\nc-storport-hw_initialize.md">HwStorInitialize</a> routine or <a href="..\storport\nc-storport-hw_passive_initialize_routine.md">HwStorPassiveInitializeRoutine</a> routine.
+    The miniport driver can call <b>StorPortInitializePerfOpts</b> only during the miniport-supplied   <a href="https://msdn.microsoft.com/library/windows/hardware/ff557396">HwStorInitialize</a> routine or <a href="https://msdn.microsoft.com/library/windows/hardware/ff557407">HwStorPassiveInitializeRoutine</a> routine.
    
 
-Available performance optimizations depend on the version of <a href="..\storport\ns-storport-_perf_configuration_data.md">PERF_CONFIGURATION_DATA</a>. Setting the <b>Version</b> member to <b>STOR_PERF_VERSION</b> will allow all supported optimizations to be selected.
+Available performance optimizations depend on the version of <a href="https://msdn.microsoft.com/library/windows/hardware/ff563845">PERF_CONFIGURATION_DATA</a>. Setting the <b>Version</b> member to <b>STOR_PERF_VERSION</b> will allow all supported optimizations to be selected.
 
 
 
 
 ## -see-also
 
-<a href="..\storport\ns-storport-_perf_configuration_data.md">PERF_CONFIGURATION_DATA</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563845">PERF_CONFIGURATION_DATA</a>
  
 
  

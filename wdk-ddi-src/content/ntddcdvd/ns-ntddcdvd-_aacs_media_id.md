@@ -52,17 +52,6 @@ req.typenames: AACS_MEDIA_ID, *PAACS_MEDIA_ID
 The AACS_MEDIA_ID structure contains an Advanced Access Content System (AACS) media identifier and corresponding message authentication code (MAC).
 
 
-## -syntax
-
-
-````
-typedef struct _AACS_MEDIA_ID {
-  UCHAR MediaID[16];
-  UCHAR MAC[16];
-} AACS_MEDIA_ID, *PAACS_MEDIA_ID;
-````
-
-
 ## -struct-fields
 
 
@@ -82,17 +71,17 @@ The message authentication code (MAC) that the client uses to verify that the Me
 
 
 
-Clients retrieve the AACS certificate with an <a href="..\ntddcdvd\ni-ntddcdvd-ioctl_aacs_read_media_id.md">IOCTL_AACS_READ_MEDIA_ID</a> request.
+Clients retrieve the AACS certificate with an <a href="https://msdn.microsoft.com/library/windows/hardware/ff559272">IOCTL_AACS_READ_MEDIA_ID</a> request.
 
 
 
 
 ## -see-also
 
-<a href="..\ntddcdvd\ni-ntddcdvd-ioctl_aacs_read_media_id.md">IOCTL_AACS_READ_MEDIA_ID</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559272">IOCTL_AACS_READ_MEDIA_ID</a>
  
 
  

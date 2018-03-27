@@ -53,16 +53,6 @@ req.typenames: OPEN_REPARSE_LIST, *POPEN_REPARSE_LIST
   structures that specify the tag and possibly GUID that should be  opened directly without returning <b>STATUS_REPARSE</b>.
 
 
-## -syntax
-
-
-````
-typedef struct _OPEN_REPARSE_LIST {
-  LIST_ENTRY OpenReparseList;
-} OPEN_REPARSE_LIST, *POPEN_REPARSE_LIST;
-````
-
-
 ## -struct-fields
 
 

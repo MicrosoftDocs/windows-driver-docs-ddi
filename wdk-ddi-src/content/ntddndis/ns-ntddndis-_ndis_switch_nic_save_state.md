@@ -55,24 +55,6 @@ The <b>NDIS_SWITCH_NIC_SAVE_STATE</b> structure specifies the run-time state inf
 
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_SWITCH_NIC_SAVE_STATE {
-  NDIS_OBJECT_HEADER                 Header;
-  ULONG                              Flags;
-  NDIS_SWITCH_NIC_INDEX              NicIndex;
-  NDIS_SWITCH_PORT_ID                PortId;
-  GUID                               ExtensionId;
-  NDIS_SWITCH_EXTENSION_FRIENDLYNAME ExtensionFriendlyName;
-  GUID                               FeatureClassId;
-  USHORT                             SaveDataSize;
-  USHORT                             SaveDataOffset;
-} NDIS_SWITCH_NIC_SAVE_STATE, *PNDIS_SWITCH_NIC_SAVE_STATE;
-````
-
-
 ## -struct-fields
 
 
@@ -80,7 +62,7 @@ typedef struct _NDIS_SWITCH_NIC_SAVE_STATE {
 
 ### -field Header
 
-The type, revision, and size of the <b>NDIS_SWITCH_NIC_SAVE_STATE</b> structure. This member is formatted as an <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure.
+The type, revision, and size of the <b>NDIS_SWITCH_NIC_SAVE_STATE</b> structure. This member is formatted as an <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure.
 
 The <b>Type</b> member of <b>Header</b> must be set to NDIS_OBJECT_TYPE_DEFAULT. To specify the version of the <b>NDIS_SWITCH_NIC_SAVE_STATE</b> structure, the <b>Revision</b> member of <b>Header</b> must be set to the following value: 
 
@@ -191,23 +173,6 @@ For more information on how to save or restore run-time port information, see <a
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh598269">OID_SWITCH_NIC_SAVE_COMPLETE</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh598268">OID_SWITCH_NIC_SAVE</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh598267">OID_SWITCH_NIC_RESTORE</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451419">IF_COUNTED_STRING</a>
 
 
 
@@ -215,6 +180,23 @@ For more information on how to save or restore run-time port information, see <a
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451419">IF_COUNTED_STRING</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh598267">OID_SWITCH_NIC_RESTORE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh598268">OID_SWITCH_NIC_SAVE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh598269">OID_SWITCH_NIC_SAVE_COMPLETE</a>
  
 
  

@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 Sets stream information for each stream enabled by the client driver.
 
 
-## -syntax
-
-
-````
-inline void UcxStaticStreamsSetStreamInfo(
-  [in] UCXSSTREAMS  StaticStreams,
-  [in] PSTREAM_INFO StreamInfo
-);
-````
-
-
 ## -parameters
 
 
@@ -76,7 +65,7 @@ inline void UcxStaticStreamsSetStreamInfo(
 
 ### -param StreamInfo [in]
 
-                A pointer to a <a href="..\ucxsstreams\ns-ucxsstreams-_stream_info.md">STREAM_INFO</a> structure that contains static stream-related information.
+                A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/mt188032">STREAM_INFO</a> structure that contains static stream-related information.
 
 
 ## -returns
@@ -92,20 +81,20 @@ This method does not return a value.
 
 
 
-The client driver must call this method from its implementation of the <a href="..\ucxendpoint\nc-ucxendpoint-evt_ucx_endpoint_static_streams_add.md">EVT_UCX_ENDPOINT_STATIC_STREAMS_ADD</a> event callback . 
+The client driver must call this method from its implementation of the <a href="https://msdn.microsoft.com/library/windows/hardware/mt187830">EVT_UCX_ENDPOINT_STATIC_STREAMS_ADD</a> event callback . 
     This method must be called for the number of streams on the endpoint. 
 
-For a code example, see <a href="..\ucxendpoint\nc-ucxendpoint-evt_ucx_endpoint_static_streams_add.md">EVT_UCX_ENDPOINT_STATIC_STREAMS_ADD</a>.
+For a code example, see <a href="https://msdn.microsoft.com/library/windows/hardware/mt187830">EVT_UCX_ENDPOINT_STATIC_STREAMS_ADD</a>.
 
 
 
 
 ## -see-also
 
-<a href="..\ucxendpoint\nf-ucxendpoint-ucxendpointcreate.md">UcxEndpointCreate</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt188039">UcxEndpointCreate</a>
  
 
  

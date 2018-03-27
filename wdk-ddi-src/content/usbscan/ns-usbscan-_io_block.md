@@ -50,20 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The IO_BLOCK structure is used as a parameter to <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a>, when the specified I/O control code is <a href="..\usbscan\ni-usbscan-ioctl_read_registers.md">IOCTL_READ_REGISTERS</a> or <a href="..\usbscan\ni-usbscan-ioctl_write_registers.md">IOCTL_WRITE_REGISTERS</a>. Values contained in structure members are used to create a USB Device Request (described in the <i>Universal Serial Bus Specification</i>).
-
-
-## -syntax
-
-
-````
-typedef struct _IO_BLOCK {
-  unsigned uOffset;
-  unsigned uLength;
-  PUCHAR   pbyData;
-  unsigned uIndex;
-} IO_BLOCK, *PIO_BLOCK;
-````
+The IO_BLOCK structure is used as a parameter to <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a>, when the specified I/O control code is <a href="https://msdn.microsoft.com/library/windows/hardware/ff542869">IOCTL_READ_REGISTERS</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff542920">IOCTL_WRITE_REGISTERS</a>. Values contained in structure members are used to create a USB Device Request (described in the <i>Universal Serial Bus Specification</i>).
 
 
 ## -struct-fields

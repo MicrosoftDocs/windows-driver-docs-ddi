@@ -53,22 +53,6 @@ req.product: Windows 10 or later.
 The filter driver's implementation that gets invoked when charger is attached to the port.
 
 
-## -prototype
-
-
-````
-USBFN_GET_ATTACH_ACTION UsbFnGetAttachAction;
-
-NTSTATUS UsbFnGetAttachAction(
-  _In_  PVOID            Context,
-  _Out_ PUSBFN_ON_ATTACH OnAttach
-)
-{ ... }
-
-typedef USBFN_GET_ATTACH_ACTION PFN_USBFN_GET_ATTACH_ACTION;
-````
-
-
 ## -parameters
 
 
@@ -81,7 +65,7 @@ typedef USBFN_GET_ATTACH_ACTION PFN_USBFN_GET_ATTACH_ACTION;
 
 ### -param OnAttach [out]
 
-A pointer to a caller-allocated <a href="..\usbfnattach\ns-usbfnattach-_usbfn_on_attach.md">USBFN_ON_ATTACH</a> structure that the driver populates with the type of attach and port. 
+A pointer to a caller-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/mt188002">USBFN_ON_ATTACH</a> structure that the driver populates with the type of attach and port. 
 
 
 ## -returns
@@ -167,10 +151,10 @@ UsbLowerFilter_GetAttachAction(
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/05D2B46A-282C-4B75-9F5C-2FC0AF344AB9">USB filter driver for supporting proprietary chargers</a>
-
-
-
  
 
  

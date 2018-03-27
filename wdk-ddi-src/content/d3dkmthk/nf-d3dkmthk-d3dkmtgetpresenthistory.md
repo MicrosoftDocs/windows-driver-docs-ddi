@@ -55,16 +55,6 @@ req.typenames: D3DKMT_DRIVERVERSION
 The <b>D3DKMTGetPresentHistory</b> function retrieves copying history.
 
 
-## -syntax
-
-
-````
-NTSTATUS D3DKMTGetPresentHistory(
-  _Inout_ D3DKMT_GETPRESENTHISTORY *pData
-);
-````
-
-
 ## -parameters
 
 
@@ -74,7 +64,7 @@ NTSTATUS D3DKMTGetPresentHistory(
 
 #### - pData [in, out]
 
-Supplies a pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_getpresenthistory.md">D3DKMT_GETPRESENTHISTORY</a> structure that describes the copying history.
+Supplies a pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff548052">D3DKMT_GETPRESENTHISTORY</a> structure that describes the copying history.
 
 
 ## -returns
@@ -88,10 +78,10 @@ Returns <b>STATUS_SUCCESS</b> if copying history is successfully retrieved; othe
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_getpresenthistory.md">D3DKMT_GETPRESENTHISTORY</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548052">D3DKMT_GETPRESENTHISTORY</a>
  
 
  

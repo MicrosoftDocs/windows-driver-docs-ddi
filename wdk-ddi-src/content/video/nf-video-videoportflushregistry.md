@@ -53,16 +53,6 @@ req.product: Windows 10 or later.
 The <b>VideoPortFlushRegistry</b> function flushes registry keys and values associated with the video miniport driver.
 
 
-## -syntax
-
-
-````
-VP_STATUS VideoPortFlushRegistry(
-   PVOID HwDeviceExtension
-);
-````
-
-
 ## -parameters
 
 
@@ -84,14 +74,14 @@ Pointer to the miniport driver's device extension.
 
 ## -see-also
 
-<a href="..\video\nf-video-videoportgetregistryparameters.md">VideoPortGetRegistryParameters</a>
 
 
 
-<a href="..\video\nf-video-videoportsetregistryparameters.md">VideoPortSetRegistryParameters</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570316">VideoPortGetRegistryParameters</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570365">VideoPortSetRegistryParameters</a>
  
 
  

@@ -52,19 +52,6 @@ req.typenames: STORAGE_DIAGNOSTIC_MP_REQUEST, *PSTORAGE_DIAGNOSTIC_MP_REQUEST
 The PSDBUS_ACKNOWLEDGE_INT_ROUTINE prototype declares the routine that a Secure Digital (SD) device driver must call to acknowledge to the bus driver that it has finished processing the interrupt.
 
 
-## -prototype
-
-
-````
-PSDBUS_ACKNOWLEDGE_INT_ROUTINE AcknowledgeInterrupt;
-
-NTSTATUS AcknowledgeInterrupt(
-  _In_ PVOID Context
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -99,14 +86,14 @@ The caller must be running at IRQL &lt;= DISPATCH_LEVEL when it acknowledges tha
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/92b8762d-8af3-493c-aa1d-bc245b0cbd83">SDBUS_INTERFACE_STANDARD</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537906">SdBusOpenInterface</a>
-
-
-
  
 
  

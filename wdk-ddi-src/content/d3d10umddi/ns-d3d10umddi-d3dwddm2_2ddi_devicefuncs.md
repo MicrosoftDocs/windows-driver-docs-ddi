@@ -52,19 +52,6 @@ req.typenames: D3DWDDM2_2DDI_DEVICEFUNCS
 Specifies the callback functions that operate on a shader cache. 
 
 
-## -syntax
-
-
-````
-typedef struct D3DWDDM2_2DDI_DEVICEFUNCS {
-  PFND3DWDDM2_2DDI_CALCPRIVATE_SHADERCACHE_SESSION_SIZE pfnCalcPrivateShaderCacheSessionSize;
-  PFND3DWDDM2_2DDI_CREATE_SHADERCACHE_SESSION           pfnCreateShaderCacheSession;
-  PFND3DWDDM2_2DDI_DESTROY_SHADERCACHE_SESSION          pfnDestroyShaderCacheSession;
-  PFND3DWDDM2_2DDI_SET_SHADERCACHE_SESSION              pfnSetShaderCacheSession;
-} D3DWDDM2_2DDI_DEVICEFUNCS;
-````
-
-
 ## -struct-fields
 
 

@@ -54,18 +54,6 @@ The WWAN_ACTIVATION_COMMAND enumeration lists the Packet Data Protocol (PDP) act
   are supported by the MB device.
 
 
-## -syntax
-
-
-````
-typedef enum _WWAN_ACTIVATION_COMMAND { 
-  WwanActivationCommandDeactivate  = 0,
-  WwanActivationCommandActivate,
-  WwanActivationCommandMax
-} WWAN_ACTIVATION_COMMAND, *PWWAN_ACTIVATION_COMMAND;
-````
-
-
 ## -enum-fields
 
 
@@ -89,10 +77,10 @@ The total number of supported activation commands.
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_set_context_state.md">WWAN_SET_CONTEXT_STATE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571235">WWAN_SET_CONTEXT_STATE</a>
  
 
  

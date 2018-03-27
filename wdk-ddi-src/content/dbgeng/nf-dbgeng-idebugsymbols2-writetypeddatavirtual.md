@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -52,21 +52,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>WriteTypedDataVirtual</b> method writes data to the target's virtual address space.  The number of bytes written is the size of the specified type.
-
-
-## -syntax
-
-
-````
-HRESULT WriteTypedDataVirtual(
-  [in]            ULONG64 Offset,
-  [in]            ULONG64 Module,
-  [in]            ULONG   TypeId,
-  [in]            PVOID   Buffer,
-  [in]            ULONG   BufferSize,
-  [out, optional] PULONG  BytesWritten
-);
-````
 
 
 ## -parameters

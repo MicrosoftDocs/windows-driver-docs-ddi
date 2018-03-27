@@ -53,16 +53,6 @@ Gives information about the
              acquired swap chain buffer.
 
 
-## -syntax
-
-
-````
-typedef struct IDARG_OUT_RELEASEANDACQUIREBUFFER {
-  IDDCX_METADATA MetaData;
-} IDARG_OUT_RELEASEANDACQUIREBUFFER, *IDARG_OUT_RELEASEANDACQUIREBUFFER;
-````
-
-
 ## -struct-fields
 
 

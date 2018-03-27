@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -50,23 +50,6 @@ req.product: Windows 10 or later.
 ## -description
 
 
-
-
-## -syntax
-
-
-````
-BOOL APIENTRY OEMQueryColorProfile(
-        HANDLE                               hPrinter,
-        POEMUIOBJ                            poemuiobj,
-        PDEVMODE                             pPublicDM,
-        PVOID                                pOEMDM,
-        ULONG                                ulQueryMode,
-  _Out_ _writes_bytes_(*pcbProfileData) VOID *pvProfileData,
-  _Out_ ULONG                                *pcbProfileData,
-  _Out_ FLONG                                *pflProfileData
-);
-````
 
 
 ## -parameters

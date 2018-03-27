@@ -52,16 +52,6 @@ req.typenames: ClearMpioDiskHealthCounters_IN, *PClearMpioDiskHealthCounters_IN
 The ClearMpioDiskHealthCounters_IN structure is used to provide an input parameter to the ClearMpioDiskHealthCounters method.
 
 
-## -syntax
-
-
-````
-typedef struct _ClearMpioDiskHealthCounters_IN {
-  ULONG DiskOrdinal;
-} ClearMpioDiskHealthCounters_IN, *PClearMpioDiskHealthCounters_IN;
-````
-
-
 ## -struct-fields
 
 

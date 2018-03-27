@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 The <b>WWAN_LTE_MRL</b> structure represents the measured results list (MRL) of neighboring LTE cells.
 
 
-## -syntax
-
-
-````
-typedef struct _WWAN_LTE_MRL {
-  ULONG ElementCount;
-  BYTE  LTEMrl[ANYSIZE_ARRAY];
-} WWAN_LTE_MRL, *PWWAN_LTE_MRL;
-````
-
-
 ## -struct-fields
 
 
@@ -83,27 +72,27 @@ The count of MRL entries following this member.
 
 #### - LTEMrl[ANYSIZE_ARRAY]
 
-The array of MRL records, each specified as a <a href="..\wwan\ns-wwan-_wwan_lte_mrl_info.md">WWAN_LTE_MRL_INFO</a> structure.
+The array of MRL records, each specified as a <a href="https://msdn.microsoft.com/49C3D862-EB78-4C44-A7B7-CE15E79EB021">WWAN_LTE_MRL_INFO</a> structure.
 
 
 ## -see-also
+
+
+
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/mb-base-stations-information-query-support">MB base stations information query support</a>
 
 
 
-<a href="..\wwan\ns-wwan-_wwan_lte_mrl_info.md">WWAN_LTE_MRL_INFO</a>
+<a href="https://msdn.microsoft.com/66460B28-C2B4-4F05-A133-31A753AF9489">WWAN_BASE_STATIONS_INFO</a>
 
 
 
-<a href="..\wwan\ns-wwan-_wwan_lte_serving_cell_info.md">WWAN_LTE_SERVING_CELL_INFO</a>
+<a href="https://msdn.microsoft.com/49C3D862-EB78-4C44-A7B7-CE15E79EB021">WWAN_LTE_MRL_INFO</a>
 
 
 
-<a href="..\wwan\ns-wwan-_wwan_base_stations_info.md">WWAN_BASE_STATIONS_INFO</a>
-
-
-
+<a href="https://msdn.microsoft.com/17A78DC7-A89D-405A-983E-FC0DC469A4B0">WWAN_LTE_SERVING_CELL_INFO</a>
  
 
  

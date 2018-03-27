@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 The <b>VideoPortUnLockBuffer</b> function unlocks physical pages described by the specified memory descriptor list (<a href="https://msdn.microsoft.com/library/windows/hardware/ff554414">MDL</a>).
 
 
-## -syntax
-
-
-````
-VOID VideoPortUnlockBuffer(
-  _In_ PVOID HwDeviceExtension,
-  _In_ PVOID Mdl
-);
-````
-
-
 ## -parameters
 
 
@@ -76,7 +65,7 @@ Pointer to the miniport driver's device extension.
 
 ### -param Mdl [in]
 
-Pointer to the MDL of the buffer to be released. This parameter should be the same pointer that was returned by <a href="..\video\nf-video-videoportlockbuffer.md">VideoPortLockBuffer</a>.
+Pointer to the MDL of the buffer to be released. This parameter should be the same pointer that was returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff570326">VideoPortLockBuffer</a>.
 
 
 ## -returns
@@ -90,10 +79,10 @@ None
 
 ## -see-also
 
-<a href="..\video\nf-video-videoportlockbuffer.md">VideoPortLockBuffer</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570326">VideoPortLockBuffer</a>
  
 
  

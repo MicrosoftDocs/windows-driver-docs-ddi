@@ -54,36 +54,6 @@ req.typenames: D3D12DDIARG_CREATE_PIPELINE_STATE_0033
 Creates a pipeline state.
 
 
-## -syntax
-
-
-````
-typedef struct _D3D12DDIARG_CREATE_PIPELINE_STATE_0033 {
-  D3D12DDI_HSHADER                       hComputeShader;
-  D3D12DDI_HSHADER                       hVertexShader;
-  D3D12DDI_HSHADER                       hPixelShader;
-  D3D12DDI_HSHADER                       hDomainShader;
-  D3D12DDI_HSHADER                       hHullShader;
-  D3D12DDI_HSHADER                       hGeometryShader;
-  D3D12DDI_HROOTSIGNATURE                hRootSignature;
-  D3D12DDI_HBLENDSTATE                   hBlendState;
-  UINT                                   SampleMask;
-  D3D12DDI_HRASTERIZERSTATE              hRasterizerState;
-  D3D12DDI_HDEPTHSTENCILSTATE            hDepthStencilState;
-  D3D12DDI_HELEMENTLAYOUT                hElementLayout;
-  D3D12DDI_INDEX_BUFFER_STRIP_CUT_VALUE  IBStripCutValue;
-  D3D12DDI_PRIMITIVE_TOPOLOGY_TYPE       PrimitiveTopologyType;
-  UINT                                   NumRenderTargets;
-  DXGI_FORMAT [8]                        RTVFormats;
-  DXGI_FORMAT                            DSVFormat;
-  DXGI_SAMPLE_DESC                       SampleDesc;
-  UINT                                   NodeMask;
-  D3D12DDI_LIBRARY_REFERENCE_0010        LibraryReference;
-  D3D12DDI_VIEW_INSTANCING_DESC          ViewInstancingDesc;
-} D3D12DDIARG_CREATE_PIPELINE_STATE_0033, D3D12DDIARG_CREATE_PIPELINE_STATE_0033;
-````
-
-
 ## -struct-fields
 
 

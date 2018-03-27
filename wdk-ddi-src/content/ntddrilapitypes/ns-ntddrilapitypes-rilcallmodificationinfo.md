@@ -52,24 +52,6 @@ req.typenames: RILCALLMODIFICATIONINFO, *LPRILCALLMODIFICATIONINFO
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef struct _RILCALLMODIFICATIONINFO {
-  DWORD                                    cbSize;
-  DWORD                                    dwParams;
-  DWORD                                    dwExecutor;
-  DWORD                                    dwID;
-  RILCALLMODIFICATIONINFOMODIFICATIONTYPE  dwModificationType;
-  RILCALLTYPE                              dwOldCallType;
-  RILCALLTYPE                              dwNewCallType;
-  RILADDRESS                               raAddress;
-  RILALPHAIDENTIFIER                       aiIdentifier;
-} RILCALLMODIFICATIONINFO, RILCALLMODIFICATIONINFO;
-````
-
-
 ## -struct-fields
 
 

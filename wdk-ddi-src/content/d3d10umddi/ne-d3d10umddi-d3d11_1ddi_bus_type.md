@@ -52,26 +52,6 @@ req.typenames: D3D11_1DDI_BUS_TYPE
 Specifies the type of I/O bus that is used by the graphics adapter.
 
 
-## -syntax
-
-
-````
-typedef enum D3D11_1DDI_BUS_TYPE { 
-  D3D11_1DDI_BUS_TYPE_OTHER                                             = 0x00000000,
-  D3D11_1DDI_BUS_TYPE_PCI                                               = 0x00000001,
-  D3D11_1DDI_BUS_TYPE_PCIX                                              = 0x00000002,
-  D3D11_1DDI_BUS_TYPE_PCIEXPRESS                                        = 0x00000003,
-  D3D11_1DDI_BUS_TYPE_AGP                                               = 0x00000004,
-  D3D11_1DDI_BUS_IMPL_MODIFIER_INSIDE_OF_CHIPSET                        = 0x00010000,
-  D3D11_1DDI_BUS_IMPL_MODIFIER_TRACKS_ON_MOTHER_BOARD_TO_CHIP           = 0x00020000,
-  D3D11_1DDI_BUS_IMPL_MODIFIER_TRACKS_ON_MOTHER_BOARD_TO_SOCKET         = 0x00030000,
-  D3D11_1DDI_BUS_IMPL_MODIFIER_DAUGHTER_BOARD_CONNECTOR                 = 0x00040000,
-  D3D11_1DDI_BUS_IMPL_MODIFIER_DAUGHTER_BOARD_CONNECTOR_INSIDE_OF_NUAE  = 0x00050000,
-  D3D11_1DDI_BUS_IMPL_MODIFIER_NON_STANDARD                             = 0x80000000
-} D3D11_1DDI_BUS_TYPE;
-````
-
-
 ## -enum-fields
 
 

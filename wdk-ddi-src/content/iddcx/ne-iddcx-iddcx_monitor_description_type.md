@@ -54,18 +54,6 @@ req.typenames:
                 
 
 
-## -syntax
-
-
-````
-typedef enum _IDDCX_MONITOR_DESCRIPTION_TYPE { 
-  IDDCX_MONITOR_DESCRIPTION_TYPE_UNINITIALIZED  = 0,
-  IDDCX_MONITOR_DESCRIPTION_TYPE_EDID           = 1,
-  IDDCX_MONITOR_DESCRIPTION_TYPE_DISPLAYID      = 2
-} IDDCX_MONITOR_DESCRIPTION_TYPE;
-````
-
-
 ## -enum-fields
 
 

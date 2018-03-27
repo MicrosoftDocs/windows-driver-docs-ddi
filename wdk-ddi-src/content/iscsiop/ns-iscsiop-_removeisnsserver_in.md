@@ -52,16 +52,6 @@ req.typenames: RemoveiSNSServer_IN, *PRemoveiSNSServer_IN
 The RemoveiSNSServer_IN structure holds the input data for the user-mode <b>RemoveISNSServer</b> method, which is used to remove an iSNS server entry.
 
 
-## -syntax
-
-
-````
-typedef struct _RemoveiSNSServer_IN {
-  WCHAR iSNSServerName[223 + 1];
-} RemoveiSNSServer_IN, *PRemoveiSNSServer_IN;
-````
-
-
 ## -struct-fields
 
 
@@ -83,10 +73,10 @@ It is optional that you implement this method.
 
 ## -see-also
 
-<a href="..\iscsiop\ns-iscsiop-_removeisnsserver_out.md">RemoveiSNSServer_OUT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563982">RemoveiSNSServer_OUT</a>
  
 
  

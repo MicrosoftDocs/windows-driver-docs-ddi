@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,20 +51,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>GetTotalNumberThreadsAndProcesses</b> method returns the total number of <a href="https://msdn.microsoft.com/6182ca34-ee5e-47e9-82fe-29266397e3a8">threads</a> and <a href="https://msdn.microsoft.com/6182ca34-ee5e-47e9-82fe-29266397e3a8">processes</a> in all the targets the engine is attached to, in addition to the largest number of threads and processes in a target.
-
-
-## -syntax
-
-
-````
-HRESULT GetTotalNumberThreadsAndProcesses(
-  [out] PULONG TotalThreads,
-  [out] PULONG TotalProcesses,
-  [out] PULONG LargestProcessThreads,
-  [out] PULONG LargestSystemThreads,
-  [out] PULONG LargestSystemProcesses
-);
-````
 
 
 ## -parameters
@@ -136,18 +122,18 @@ If no target is found, all the values are set to zero.
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550892">IDebugSystemObjects3</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550893">IDebugSystemObjects4</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558896">Threads and Processes</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugsystemobjects4.md">IDebugSystemObjects4</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugsystemobjects3.md">IDebugSystemObjects3</a>
-
-
-
  
 
  

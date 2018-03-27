@@ -52,17 +52,6 @@ req.typenames: D3DDDIARG_SETDISPLAYMODE
 The D3DDDIARG_SETDISPLAYMODE structure describes parameters for setting the display mode. 
 
 
-## -syntax
-
-
-````
-typedef struct _D3DDDIARG_SETDISPLAYMODE {
-  HANDLE hResource;
-  UINT   SubResourceIndex;
-} D3DDDIARG_SETDISPLAYMODE;
-````
-
-
 ## -struct-fields
 
 
@@ -80,10 +69,10 @@ typedef struct _D3DDDIARG_SETDISPLAYMODE {
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setdisplaymode.md">SetDisplayMode</a>
 
 
 
+<a href="https://msdn.microsoft.com/d0e409fe-1c64-4468-b52e-b0ede39f6601">SetDisplayMode</a>
  
 
  

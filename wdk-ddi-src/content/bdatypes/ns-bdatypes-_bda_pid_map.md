@@ -52,18 +52,6 @@ req.typenames: BDA_PID_MAP, *PBDA_PID_MAP
 The BDA_PID_MAP structure describes a type of data to filter out of the input stream of a packet identifier (PID) filter and then pass to a downstream filter. This output consists of packets that are identified with PIDs and contain particular media content. 
 
 
-## -syntax
-
-
-````
-typedef struct _BDA_PID_MAP {
-  MEDIA_SAMPLE_CONTENT MediaSampleContent;
-  ULONG                ulcPIDs;
-  ULONG                aulPIDs[MIN_DIMENSION];
-} BDA_PID_MAP, *PBDA_PID_MAP;
-````
-
-
 ## -struct-fields
 
 
@@ -86,11 +74,10 @@ Array of PIDs that identify packets to map to the output of a PID filter.
 
 ## -see-also
 
-<a href="..\bdatypes\ns-bdatypes-pid_map.md">PID_MAP</a>
 
 
 
-<a href="..\bdatypes\ns-bdatypes-_bda_pid_unmap.md">BDA_PID_UNMAP</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556540">BDA_PID_UNMAP</a>
 
 
 
@@ -102,6 +89,7 @@ Array of PIDs that identify packets to map to the output of a PID filter.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567763">PID_MAP</a>
  
 
  

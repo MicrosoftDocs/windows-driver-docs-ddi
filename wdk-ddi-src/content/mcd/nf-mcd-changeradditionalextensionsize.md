@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
@@ -50,14 +50,6 @@ req.typenames: LAMP_INTENSITY_WHITE
 
 
 <b>ChangerAdditionalExtensionSize</b> indicates the number of bytes the changer miniclass driver requires to store device-specific information in the device extension.
-
-
-## -syntax
-
-
-````
-ULONG ChangerAdditionalExtensionSize(void);
-````
 
 
 ## -parameters
@@ -89,10 +81,10 @@ The device-specific information stored by a changer miniclass driver is determin
 
 ## -see-also
 
-<a href="..\mcd\nf-mcd-changerinitialize.md">ChangerInitialize</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551431">ChangerInitialize</a>
  
 
  

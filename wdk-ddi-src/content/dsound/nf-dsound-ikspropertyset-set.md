@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dsound.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -50,21 +50,6 @@ req.typenames: DRMRIGHTS, *PDRMRIGHTS
 
 
 The <b>Set</b> method sets a property identified by a property-set GUID and a property identifier.
-
-
-## -syntax
-
-
-````
-HRESULT Set(
-  [in] REFGUID PropSet,
-  [in] ULONG   Id,
-  [in] LPVOID  InstanceData,
-  [in] ULONG   InstanceLength,
-  [in] LPVOID  PropertyData,
-  [in] ULONG   DataLength
-);
-````
 
 
 ## -parameters
@@ -162,10 +147,10 @@ If an application must include both <i>ksproxy.h</i> and <i>dsound.h</i>, whiche
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560719">IKsPropertySet::Get</a>
-
-
-
  
 
  

@@ -52,17 +52,6 @@ req.typenames: KSMULTIPLE_ITEM, *PKSMULTIPLE_ITEM
 The KSMULTIPLE_ITEM structure is a generic header for property data that can contain multiple entries.
 
 
-## -syntax
-
-
-````
-typedef struct {
-  ULONG Size;
-  ULONG Count;
-} KSMULTIPLE_ITEM, *PKSMULTIPLE_ITEM;
-````
-
-
 ## -struct-fields
 
 
@@ -80,11 +69,10 @@ Specifies the number of buffers that follow this header.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/23c020e8-b778-4784-9dc0-21920557e1c1">Kernel Streaming Property Sets</a>
 
 
 
-<a href="..\ks\ns-ks-_kspin.md">KSPIN</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563483">KSPIN</a>
 
 
 
@@ -92,6 +80,7 @@ Specifies the number of buffers that follow this header.
 
 
 
+<a href="https://msdn.microsoft.com/23c020e8-b778-4784-9dc0-21920557e1c1">Kernel Streaming Property Sets</a>
  
 
  

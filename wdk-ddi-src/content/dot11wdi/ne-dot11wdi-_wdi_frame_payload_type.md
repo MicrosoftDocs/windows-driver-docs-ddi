@@ -52,17 +52,6 @@ req.typenames: WDI_FRAME_PAYLOAD_TYPE
 The WDI_FRAME_PAYLOAD_TYPE enumeration defines the frame payload type.
 
 
-## -syntax
-
-
-````
-typedef enum _WDI_FRAME_PAYLOAD_TYPE { 
-  WDI_FRAME_MSDU           = 0,
-  WDI_FRAME_MSDU_FRAGMENT  = 1
-} WDI_FRAME_PAYLOAD_TYPE;
-````
-
-
 ## -enum-fields
 
 

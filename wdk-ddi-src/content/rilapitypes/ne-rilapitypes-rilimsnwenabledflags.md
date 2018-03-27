@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,20 +51,6 @@ req.product: Windows 10 or later.
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef enum _RILIMSNWENABLEDFLAGS { 
-  RIL_IMS_NW_ENABLED_FLAG_PROVISION,
-  RIL_IMS_NW_ENABLED_FLAG_VOICE,
-  RIL_IMS_NW_ENABLED_FLAG_VIDEO,
-  RIL_IMS_NW_ENABLED_FLAG_EAB,
-  RIL_IMS_NW_ENABLED_FLAG_ALL
-} RILIMSNWENABLEDFLAGS;
-````
 
 
 ## -enum-fields

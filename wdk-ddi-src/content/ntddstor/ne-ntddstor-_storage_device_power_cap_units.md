@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: 
+req.irql: "<=DISPATCH_LEVEL"
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -50,17 +50,6 @@ req.typenames: STORAGE_DEVICE_POWER_CAP_UNITS, *PSTORAGE_DEVICE_POWER_CAP_UNITS
 
 
 The units of the maximum power threshold.
-
-
-## -syntax
-
-
-````
-typedef enum _STORAGE_DEVICE_POWER_CAP_UNITS { 
-  StorageDevicePowerCapUnitsPercent,
-  StorageDevicePowerCapUnitsMilliwatts
-} STORAGE_DEVICE_POWER_CAP_UNITS;
-````
 
 
 ## -enum-fields

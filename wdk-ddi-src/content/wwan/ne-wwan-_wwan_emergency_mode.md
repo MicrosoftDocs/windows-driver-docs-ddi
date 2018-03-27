@@ -54,18 +54,6 @@ The WWAN_EMERGENCY_MODE enumeration lists the different types of emergency modes
   by the MB device.
 
 
-## -syntax
-
-
-````
-typedef enum _WWAN_EMERGENCY_MODE { 
-  WwanEmergencyModeOff  = 0,
-  WwanEmergencyModeOn,
-  WwanEmergencyModeMax
-} WWAN_EMERGENCY_MODE, *PWWAN_EMERGENCY_MODE;
-````
-
-
 ## -enum-fields
 
 
@@ -88,10 +76,10 @@ The total number of supported emergency modes.
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_ready_info.md">WWAN_READY_INFO</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571226">WWAN_READY_INFO</a>
  
 
  

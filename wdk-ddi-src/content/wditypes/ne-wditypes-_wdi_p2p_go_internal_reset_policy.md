@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 The WDI_P2P_GO_INTERNAL_RESET_POLICY enumeration defines the Wi-Fi Direct Group Owner internal reset policies.
 
 
-## -syntax
-
-
-````
-typedef enum _WDI_P2P_GO_INTERNAL_RESET_POLICY { 
-  WDI_P2P_GO_INTERNAL_RESET_POLICY_USE_LAST_CHANNEL            = 1,
-  WDI_P2P_GO_INTERNAL_RESET_POLICY_ALLOW_CHANNEL_OPTIMIZATION  = 2
-} WDI_P2P_GO_INTERNAL_RESET_POLICY;
-````
-
-
 ## -enum-fields
 
 

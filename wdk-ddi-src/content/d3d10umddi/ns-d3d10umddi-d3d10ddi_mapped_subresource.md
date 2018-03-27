@@ -49,19 +49,7 @@ req.typenames: D3D10DDI_MAPPED_SUBRESOURCE
 ## -description
 
 
-The D3D10DDI_MAPPED_SUBRESOURCE structure describes a subresource that the driver maps to through a call to the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_resourcemap.md">ResourceMap</a> function.
-
-
-## -syntax
-
-
-````
-typedef struct D3D10DDI_MAPPED_SUBRESOURCE {
-  void *pData;
-  UINT RowPitch;
-  UINT DepthPitch;
-} D3D10DDI_MAPPED_SUBRESOURCE;
-````
+The D3D10DDI_MAPPED_SUBRESOURCE structure describes a subresource that the driver maps to through a call to the driver's <a href="https://msdn.microsoft.com/1310a3f8-02dd-4d35-98ad-4016e57d1eb2">ResourceMap</a> function.
 
 
 ## -struct-fields
@@ -107,10 +95,10 @@ To avoid zero values for these members, it helps to think of all  resources as b
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_resourcemap.md">ResourceMap</a>
 
 
 
+<a href="https://msdn.microsoft.com/1310a3f8-02dd-4d35-98ad-4016e57d1eb2">ResourceMap</a>
  
 
  

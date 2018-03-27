@@ -52,17 +52,6 @@ req.typenames: RILSUBADDRESSTYPE
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef enum _RILSUBADDRESSTYPE { 
-  RIL_SUBADDRTYPE_USER,
-  RIL_SUBADDRTYPE_MAX
-} RILSUBADDRESSTYPE;
-````
-
-
 ## -enum-fields
 
 

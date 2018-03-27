@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: "<= DISPATCH_LEVEL"
+req.irql: See Remarks section.
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -53,19 +53,6 @@ req.product: Windows 10 or later.
 The I2C_CALLBACKS structure contains pointers to functions, implemented by the video miniport driver, that read from and write to the serial data and serial clock lines of the I2C bus.
 
 
-## -syntax
-
-
-````
-typedef struct _I2C_CALLBACKS {
-  PVIDEO_WRITE_CLOCK_LINE WriteClockLine;
-  PVIDEO_WRITE_DATA_LINE  WriteDataLine;
-  PVIDEO_READ_CLOCK_LINE  ReadClockLine;
-  PVIDEO_READ_DATA_LINE   ReadDataLine;
-} I2C_CALLBACKS, *PI2C_CALLBACKS;
-````
-
-
 ## -struct-fields
 
 
@@ -73,27 +60,34 @@ typedef struct _I2C_CALLBACKS {
 
 ### -field WriteClockLine
 
-A pointer to the <a href="..\video\nc-video-pvideo_write_clock_line.md">WriteClockLine</a> function implemented by the video miniport driver.
+A pointer to the <a href="https://msdn.microsoft.com/4dfd6223-420e-4087-b5bd-8277575321f7">WriteClockLine</a> function implemented by the video miniport driver.
 
 
 ### -field WriteDataLine
 
-A pointer to the <a href="..\video\nc-video-pvideo_write_data_line.md">WriteDataLine</a> function implemented by the video miniport driver.
+A pointer to the <a href="https://msdn.microsoft.com/3f860619-a479-4291-b3f3-ea4d309beee7">WriteDataLine</a> function implemented by the video miniport driver.
 
 
 ### -field ReadClockLine
 
-A pointer to the <a href="..\video\nc-video-pvideo_read_clock_line.md">ReadClockLine</a> function implemented by the video miniport driver.
+A pointer to the <a href="https://msdn.microsoft.com/1051a234-ef63-454e-8957-292e86f4efcd">ReadClockLine</a> function implemented by the video miniport driver.
 
 
 ### -field ReadDataLine
 
-A pointer to the <a href="..\video\nc-video-pvideo_read_data_line.md">ReadDataLine</a> function implemented by the video miniport driver.
+A pointer to the <a href="https://msdn.microsoft.com/071000a3-c1b7-47fd-aec7-9e9f32edddf6">ReadDataLine</a> function implemented by the video miniport driver.
 
 
 ## -see-also
 
-<a href="..\video\nc-video-pvideo_hw_get_child_descriptor.md">HwVidGetVideoChildDescriptor</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549272">DDC_CONTROL</a>
+
+
+
+<a href="https://msdn.microsoft.com/175030c1-95d9-4a3b-976c-16e04852cb91">HwVidGetVideoChildDescriptor</a>
 
 
 
@@ -101,14 +95,7 @@ A pointer to the <a href="..\video\nc-video-pvideo_read_data_line.md">ReadDataLi
 
 
 
-<a href="..\video\ns-video-_ddc_control.md">DDC_CONTROL</a>
-
-
-
-<a href="..\video\nf-video-videoportddcmonitorhelper.md">VideoPortDDCMonitorHelper</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570290">VideoPortDDCMonitorHelper</a>
  
 
  

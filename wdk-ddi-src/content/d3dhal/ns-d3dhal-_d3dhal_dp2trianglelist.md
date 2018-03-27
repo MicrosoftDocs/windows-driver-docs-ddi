@@ -49,17 +49,7 @@ req.typenames: D3DHAL_DP2TRIANGLELIST, *LPD3DHAL_DP2TRIANGLELIST
 ## -description
 
 
-One D3DHAL_DP2TRIANGLELIST structure is parsed from the command buffer by the <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a> callback when the <a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a> structure's <b>bCommand</b> member is set to D3DDP2OP_TRIANGLELIST, and is used to render the specified unconnected triangles.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DHAL_DP2TRIANGLELIST {
-  WORD wVStart;
-} D3DHAL_DP2TRIANGLELIST, *LPD3DHAL_DP2TRIANGLELIST;
-````
+One D3DHAL_DP2TRIANGLELIST structure is parsed from the command buffer by the <a href="https://msdn.microsoft.com/6128ff7a-0d2c-48df-8b5e-cab33c5a74f5">D3dDrawPrimitives2</a> callback when the <a href="https://msdn.microsoft.com/library/windows/hardware/ff545454">D3DHAL_DP2COMMAND</a> structure's <b>bCommand</b> member is set to D3DDP2OP_TRIANGLELIST, and is used to render the specified unconnected triangles.
 
 
 ## -struct-fields
@@ -79,7 +69,7 @@ Specifies the offset into the vertex buffer containing coordinate data for the i
 One D3DHAL_DP2TRIANGLELIST structure follows the D3DHAL_DP2COMMAND structure in the command buffer.
 
 
-<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a> should sequentially process a total of <b>wPrimitiveCount</b> * 3 vertices from the vertex buffer, three vertices per triangle, rendering <b>wPrimitiveCount</b> triangles. Starting from the vertex buffer offset, the sequence of triangles rendered is (<b>wVStart</b>, <b>wVStart</b> + 1, <b>wVStart</b> + 2), (<b>wVStart</b> + 3, <b>wVStart</b> + 4, <b>wVStart</b> + 5),..., (<b>wVStart</b> + (<b>wPrimitiveCount</b> - 1) * 3, <b>wVStart</b> + <b>wPrimitiveCount</b> * 3 - 2, <b>wVStart</b> + <b>wPrimitiveCount</b> * 3 - 1). The value of <b>wPrimitiveCount</b> is specified in the D3DHAL_DP2COMMAND structure.
+<a href="https://msdn.microsoft.com/6128ff7a-0d2c-48df-8b5e-cab33c5a74f5">D3dDrawPrimitives2</a> should sequentially process a total of <b>wPrimitiveCount</b> * 3 vertices from the vertex buffer, three vertices per triangle, rendering <b>wPrimitiveCount</b> triangles. Starting from the vertex buffer offset, the sequence of triangles rendered is (<b>wVStart</b>, <b>wVStart</b> + 1, <b>wVStart</b> + 2), (<b>wVStart</b> + 3, <b>wVStart</b> + 4, <b>wVStart</b> + 5),..., (<b>wVStart</b> + (<b>wPrimitiveCount</b> - 1) * 3, <b>wVStart</b> + <b>wPrimitiveCount</b> * 3 - 2, <b>wVStart</b> + <b>wPrimitiveCount</b> * 3 - 1). The value of <b>wPrimitiveCount</b> is specified in the D3DHAL_DP2COMMAND structure.
 
 The following figure shows a portion of a sample command buffer containing a D3DDP2OP_TRIANGLELIST command and one D3DHAL_DP2TRIANGLELIST structure. The driver should draw two triangles using the following six vertices from the vertex buffer: (v[2], v[3], v[4]), (v[5], v[6], v[7]).
 
@@ -89,11 +79,6 @@ The following figure shows a portion of a sample command buffer containing a D3D
 
 ## -see-also
 
-<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
-
-
-
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a>
 
 
 
@@ -101,6 +86,11 @@ D3DDP2OP_TRIANGLELIST
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545454">D3DHAL_DP2COMMAND</a>
+
+
+
+<a href="https://msdn.microsoft.com/6128ff7a-0d2c-48df-8b5e-cab33c5a74f5">D3dDrawPrimitives2</a>
  
 
  

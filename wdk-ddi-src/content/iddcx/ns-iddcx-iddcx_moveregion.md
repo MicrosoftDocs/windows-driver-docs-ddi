@@ -53,18 +53,6 @@ req.typenames:
                  Gives information about the current move region.
 
 
-## -syntax
-
-
-````
-typedef struct IDDCX_MOVEREGION {
-  UINT  Size;
-  POINT SourcePoint;
-  RECT  DestRect;
-} IDDCX_MOVEREGION, *IDDCX_MOVEREGION;
-````
-
-
 ## -struct-fields
 
 

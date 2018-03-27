@@ -52,19 +52,6 @@ req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
 The <b>DxgkCbGetHandleParent</b> function retrieves the parent resource from the specified allocation.
 
 
-## -prototype
-
-
-````
-DXGKCB_GETHANDLEPARENT DxgkCbGetHandleParent;
-
-D3DKMT_HANDLE APIENTRY DxgkCbGetHandleParent(
-  _In_ D3DKMT_HANDLE hAllocation
-)
-{ ... }
-````
-
-
 ## -parameters
 
 

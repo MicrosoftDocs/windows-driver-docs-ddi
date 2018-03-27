@@ -52,17 +52,6 @@ req.typenames: TOKEN_TYPE
 The <b>FsRtlOplockKeysEqual</b> routine compares the opportunistic lock (oplock) keys that are stored in the file object extensions of two file objects. 
 
 
-## -syntax
-
-
-````
-BOOLEAN FsRtlOplockKeysEqual(
-  _In_opt_ PFILE_OBJECT Fo1,
-  _In_opt_ PFILE_OBJECT Fo2
-);
-````
-
-
 ## -parameters
 
 
@@ -93,17 +82,17 @@ The <b>FsRtlOplockKeysEqual</b> routine returns <b>TRUE</b> if the keys match or
 
 If no oplock keys were provided when the file objects were created, they are considered to match if the file object pointers are the same (that is, they are the same file object). If the file object pointers are different and either or both of them do not have an associated oplock key, they are considered to not match.
 
-Minifilters should call <a href="..\fltkernel\nf-fltkernel-fltoplockkeysequal.md">FltOplockKeysEqual</a> instead of <b>FsRtlOplockKeysEqual</b>. 
+Minifilters should call <a href="https://msdn.microsoft.com/library/windows/hardware/ff543408">FltOplockKeysEqual</a> instead of <b>FsRtlOplockKeysEqual</b>. 
 
 
 
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltoplockkeysequal.md">FltOplockKeysEqual</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543408">FltOplockKeysEqual</a>
  
 
  

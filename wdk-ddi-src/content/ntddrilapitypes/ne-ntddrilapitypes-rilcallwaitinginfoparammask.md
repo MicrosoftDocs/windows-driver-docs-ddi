@@ -52,18 +52,6 @@ req.typenames: RILCALLWAITINGINFOPARAMMASK
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef enum _RILCALLWAITINGINFOPARAMMASK { 
-  RIL_PARAM_CWI_CALLTYPE,
-  RIL_PARAM_CWI_CALLERINFO,
-  RIL_PARAM_CWI_ALL
-} RILCALLWAITINGINFOPARAMMASK;
-````
-
-
 ## -enum-fields
 
 

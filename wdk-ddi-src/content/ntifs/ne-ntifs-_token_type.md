@@ -52,17 +52,6 @@ req.typenames: TOKEN_TYPE
 The TOKEN_TYPE enumeration type contains values that differentiate between a primary token and an impersonation token. 
 
 
-## -syntax
-
-
-````
-typedef enum _TOKEN_TYPE { 
-  TokenPrimary        = 1,
-  TokenImpersonation  = 2
-} TOKEN_TYPE, *PTOKEN_TYPE;
-````
-
-
 ## -enum-fields
 
 
@@ -80,26 +69,26 @@ Indicates an impersonation token.
 
 ## -see-also
 
-<a href="..\ntifs\ns-ntifs-_token_statistics.md">TOKEN_STATISTICS</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-sequeryinformationtoken.md">SeQueryInformationToken</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556690">SeQueryInformationToken</a>
 
 
 
-<a href="..\ntifs\ne-ntifs-_token_information_class.md">TOKEN_INFORMATION_CLASS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556838">TOKEN_INFORMATION_CLASS</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-zwsetinformationtoken.md">ZwSetInformationToken</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556849">TOKEN_STATISTICS</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-zwqueryinformationtoken.md">ZwQueryInformationToken</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567055">ZwQueryInformationToken</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567102">ZwSetInformationToken</a>
  
 
  

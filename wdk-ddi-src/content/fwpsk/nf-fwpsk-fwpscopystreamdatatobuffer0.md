@@ -54,19 +54,6 @@ The
   <b>FwpsCopyStreamDataToBuffer0</b> function copies stream data to a buffer.
 <div class="alert"><b>Note</b>  <b>FwpsCopyStreamDataToBuffer0</b> is a specific version of <b>FwpsCopyStreamDataToBuffer</b>. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
 
-## -syntax
-
-
-````
-void NTAPI FwpsCopyStreamDataToBuffer0(
-  _In_    const FWPS_STREAM_DATA0 *calloutStreamData,
-  _Inout_       PVOID             buffer,
-  _In_          SIZE_T            bytesToCopy,
-  _Out_         SIZE_T            *bytesCopied
-);
-````
-
-
 ## -parameters
 
 
@@ -75,7 +62,7 @@ void NTAPI FwpsCopyStreamDataToBuffer0(
 ### -param calloutStreamData [in]
 
 A pointer to a 
-     <a href="..\fwpsk\ns-fwpsk-fwps_stream_data0_.md">FWPS_STREAM_DATA0</a> structure that contains
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff552419">FWPS_STREAM_DATA0</a> structure that contains
      the stream data to be copied.
 
 
@@ -120,10 +107,10 @@ To copy all indicated data to the receiving buffer, ensure that the buffer is at
 
 ## -see-also
 
-<a href="..\fwpsk\ns-fwpsk-fwps_stream_data0_.md">FWPS_STREAM_DATA0</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552419">FWPS_STREAM_DATA0</a>
  
 
  

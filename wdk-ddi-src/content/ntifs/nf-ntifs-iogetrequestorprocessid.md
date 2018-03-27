@@ -52,16 +52,6 @@ req.typenames: TOKEN_TYPE
 The <b>IoGetRequestorProcessId</b> routine returns the unique 32-bit process ID for the thread that originally requested a given I/O operation.
 
 
-## -syntax
-
-
-````
-ULONG IoGetRequestorProcessId(
-  _In_ PIRP Irp
-);
-````
-
-
 ## -parameters
 
 
@@ -96,10 +86,10 @@ For more information about using system threads and managing synchronization wit
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-iogetrequestorprocess.md">IoGetRequestorProcess</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548385">IoGetRequestorProcess</a>
  
 
  

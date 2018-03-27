@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -50,24 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-Initializes a <a href="..\ucxcontroller\ns-ucxcontroller-_ucx_controller_config.md">UCX_CONTROLLER_CONFIG</a> structure with the specified values for the controller with PCI as the parent bus type.
-
-
-## -syntax
-
-
-````
-__inline
-void UCX_CONTROLLER_CONFIG_SET_PCI_INFO(
-  _In_ PUCX_CONTROLLER_CONFIG Config,
-  _In_ ULONG                  VendorId,
-  _In_ ULONG                  DeviceId,
-  _In_ USHORT                 RevisionId,
-  _In_ ULONG                  BusNumber,
-  _In_ ULONG                  DeviceNumber,
-  _In_ ULONG                  FunctionNumber
-);
-````
+Initializes a <a href="https://msdn.microsoft.com/library/windows/hardware/mt188057">UCX_CONTROLLER_CONFIG</a> structure with the specified values for the controller with PCI as the parent bus type.
 
 
 ## -parameters
@@ -77,7 +60,7 @@ void UCX_CONTROLLER_CONFIG_SET_PCI_INFO(
 
 ### -param Config [in]
 
-A pointer to a <a href="..\ucxcontroller\ns-ucxcontroller-_ucx_controller_config.md">UCX_CONTROLLER_CONFIG</a> structure to initialize.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/mt188057">UCX_CONTROLLER_CONFIG</a> structure to initialize.
 
 
 ### -param VendorId [in]
@@ -121,14 +104,14 @@ This function does not return a value.
 
 ## -see-also
 
-<a href="..\ucxcontroller\ns-ucxcontroller-_ucx_controller_config.md">UCX_CONTROLLER_CONFIG</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt188057">UCX_CONTROLLER_CONFIG</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt188033">UcxControllerCreate</a>
-
-
-
  
 
  

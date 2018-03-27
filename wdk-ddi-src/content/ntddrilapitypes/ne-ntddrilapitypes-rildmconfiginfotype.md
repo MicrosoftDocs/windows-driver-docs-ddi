@@ -52,19 +52,6 @@ req.typenames: RILDMCONFIGINFOTYPE
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef enum _RILDMCONFIGINFOTYPE { 
-  RIL_DMCV_TYPE_BOOLEAN,
-  RIL_DMCV_TYPE_DWORD,
-  RIL_DMCV_TYPE_STRING,
-  RIL_DMCV_TYPE_MAX
-} RILDMCONFIGINFOTYPE;
-````
-
-
 ## -enum-fields
 
 

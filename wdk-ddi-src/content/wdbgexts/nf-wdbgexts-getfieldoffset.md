@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,18 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>GetFieldOffset</b> function returns the offset of a member from the beginning of a structure.
-
-
-## -syntax
-
-
-````
-__inline ULONG GetFieldOffset(
-  _In_  LPCSTR Type,
-  _In_  LPCSTR Field,
-  _Out_ PULONG pOffset
-);
-````
 
 
 ## -parameters

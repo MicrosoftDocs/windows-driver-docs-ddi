@@ -52,17 +52,7 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 
 The 
   <b>NdisFreeMdl</b> function frees an MDL that was allocated by calling the 
-  <a href="..\ndis\nf-ndis-ndisallocatemdl.md">NdisAllocateMdl</a> function.
-
-
-## -syntax
-
-
-````
-VOID NdisFreeMdl(
-  _In_ PMDL Mdl
-);
-````
+  <a href="https://msdn.microsoft.com/library/windows/hardware/ff561605">NdisAllocateMdl</a> function.
 
 
 ## -parameters
@@ -86,10 +76,10 @@ None
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisallocatemdl.md">NdisAllocateMdl</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561605">NdisAllocateMdl</a>
  
 
  

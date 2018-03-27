@@ -52,19 +52,6 @@ req.typenames: SM_SendRLS_OUT, *PSM_SendRLS_OUT
 The SM_SendRLS_OUT structure is used to receive output parameters from the SM_SendRLS method.
 
 
-## -syntax
-
-
-````
-typedef struct _SM_SendRLS_OUT {
-  ULONG HBAStatus;
-  ULONG TotalRespBufferSize;
-  ULONG OutRespBufferSize;
-  UCHAR RespBuffer[1];
-} SM_SendRLS_OUT, *PSM_SendRLS_OUT;
-````
-
-
 ## -struct-fields
 
 

@@ -52,17 +52,6 @@ req.typenames: RILCALLLIST_V2, *LPRILCALLLIST_V2
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef struct _RILCALLLIST_V2 {
-  DWORD              dwNumberOfCalls;
-  RILCALLINFO_V2 [1] rciCallInfo;
-} RILCALLLIST_V2, RILCALLLIST_V2;
-````
-
-
 ## -struct-fields
 
 

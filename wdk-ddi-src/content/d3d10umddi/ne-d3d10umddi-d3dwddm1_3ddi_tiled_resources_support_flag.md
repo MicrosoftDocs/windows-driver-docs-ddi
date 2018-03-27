@@ -52,17 +52,6 @@ req.typenames: D3DWDDM1_3DDI_TILED_RESOURCES_SUPPORT_FLAG
 Indicates the level of support by the hardware and user-mode display driver for tiled resources.
 
 
-## -syntax
-
-
-````
-typedef enum _D3DWDDM1_3DDI_TILED_RESOURCES_SUPPORT_FLAG { 
-  D3DWDDM1_3DDI_TILED_RESOURCES_TIER_1_SUPPORTED  = 0x00000001,
-  D3DWDDM1_3DDI_TILED_RESOURCES_TIER_2_SUPPORTED  = 0x00000002
-} D3DWDDM1_3DDI_TILED_RESOURCES_SUPPORT_FLAG;
-````
-
-
 ## -enum-fields
 
 
@@ -87,10 +76,10 @@ If this flag is set, the Direct3D runtime assumes that the support level of the 
 
 ## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3dwddm1_3ddi_d3d11_options_data1.md">D3DWDDM1_3DDI_D3D11_OPTIONS_DATA1</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn475744">D3DWDDM1_3DDI_D3D11_OPTIONS_DATA1</a>
  
 
  

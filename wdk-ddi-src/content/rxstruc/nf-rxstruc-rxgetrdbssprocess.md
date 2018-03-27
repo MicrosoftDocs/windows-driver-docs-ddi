@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: Any level
 topic_type:
@@ -51,14 +51,6 @@ req.product: Windows 10 or later.
 
 
 <b>RxGetRDBSSProcess</b> returns a pointer to the process of the main thread used by the RDBSS kernel process.
-
-
-## -syntax
-
-
-````
-PEPROCESS RxGetRDBSSProcess(void);
-````
 
 
 ## -parameters
@@ -88,7 +80,6 @@ When <b>RxDriverEntry</b> is called to initialize RDBSS, a pointer to the kernel
 
 ## -see-also
 
-<a href="..\rxprocs\nf-rxprocs-rxdriverentry.md">RxDriverEntry</a>
 
 
 
@@ -96,6 +87,7 @@ When <b>RxDriverEntry</b> is called to initialize RDBSS, a pointer to the kernel
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554404">RxDriverEntry</a>
  
 
  

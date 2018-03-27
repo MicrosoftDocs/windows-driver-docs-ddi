@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 The WWAN_DEVICE_SERVICE_SESSION_WRITE structure represents data associated with a device service session write request.
 
 
-## -syntax
-
-
-````
-typedef struct _WWAN_DEVICE_SERVICE_SESSION_WRITE {
-  ULONG uSessionID;
-  ULONG uDataSize;
-} WWAN_DEVICE_SERVICE_SESSION_WRITE, *PWWAN_DEVICE_SERVICE_SESSION_WRITE;
-````
-
-
 ## -struct-fields
 
 
@@ -76,19 +65,19 @@ The session ID of the device service.
 
 ### -field uDataSize
 
-The size, in bytes, of the device service data that follows the structure instance in memory. This value should not exceed the value of the <b>uMaxSessionDataSize</b> member of the <a href="..\wwan\ns-wwan-_wwan_supported_device_services.md">WWAN_SUPPORTED_DEVICE_SERVICES</a> structure.
+The size, in bytes, of the device service data that follows the structure instance in memory. This value should not exceed the value of the <b>uMaxSessionDataSize</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh831880">WWAN_SUPPORTED_DEVICE_SERVICES</a> structure.
 
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_supported_device_services.md">WWAN_SUPPORTED_DEVICE_SERVICES</a>
 
 
 
-<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_device_service_session_write.md">NDIS_WWAN_DEVICE_SERVICE_SESSION_WRITE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh831860">NDIS_WWAN_DEVICE_SERVICE_SESSION_WRITE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh831880">WWAN_SUPPORTED_DEVICE_SERVICES</a>
  
 
  

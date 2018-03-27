@@ -52,18 +52,6 @@ req.typenames: D3DDDIARG_SETRENDERTARGET
 The D3DDDIARG_SETRENDERTARGET structure describes the render target surface. 
 
 
-## -syntax
-
-
-````
-typedef struct _D3DDDIARG_SETRENDERTARGET {
-  UINT   RenderTargetIndex;
-  HANDLE hRenderTarget;
-  UINT   SubResourceIndex;
-} D3DDDIARG_SETRENDERTARGET;
-````
-
-
 ## -struct-fields
 
 
@@ -86,10 +74,10 @@ typedef struct _D3DDDIARG_SETRENDERTARGET {
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setrendertarget.md">SetRenderTarget</a>
 
 
 
+<a href="https://msdn.microsoft.com/067378bd-a2d8-4c83-9436-531519eadaa3">SetRenderTarget</a>
  
 
  

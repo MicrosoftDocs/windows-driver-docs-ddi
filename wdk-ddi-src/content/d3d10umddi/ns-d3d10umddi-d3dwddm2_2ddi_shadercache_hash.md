@@ -52,16 +52,6 @@ req.typenames: D3DWDDM2_2DDI_SHADERCACHE_HASH
 Contains a hash value for a shader cache.
 
 
-## -syntax
-
-
-````
-typedef struct D3DWDDM2_2DDI_SHADERCACHE_HASH {
-  BYTE Hash[16];
-} D3DWDDM2_2DDI_SHADERCACHE_HASH;
-````
-
-
 ## -struct-fields
 
 

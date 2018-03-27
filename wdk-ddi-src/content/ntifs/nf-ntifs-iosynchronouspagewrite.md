@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -49,17 +49,7 @@ req.typenames: TOKEN_TYPE
 ## -description
 
 
-The <b>IoSynchronousPageWrite</b> routine is reserved for system use. See <a href="..\ntifs\nf-ntifs-cccopywrite.md">CcCopyWrite</a>, <a href="..\ntifs\nf-ntifs-ccpreparemdlwrite.md">CcPrepareMdlWrite</a>, and <a href="..\wdm\nf-wdm-iobuildsynchronousfsdrequest.md">IoBuildSynchronousFsdRequest</a>. 
-
-
-## -syntax
-
-
-````
-  IoSynchronousPageWrite(
-    
-);
-````
+The <b>IoSynchronousPageWrite</b> routine is reserved for system use. See <a href="https://msdn.microsoft.com/library/windows/hardware/ff539045">CcCopyWrite</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff539181">CcPrepareMdlWrite</a>, and <a href="https://msdn.microsoft.com/library/windows/hardware/ff548330">IoBuildSynchronousFsdRequest</a>. 
 
 
 ## -parameters

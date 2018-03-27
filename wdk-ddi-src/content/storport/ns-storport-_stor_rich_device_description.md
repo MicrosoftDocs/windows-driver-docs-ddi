@@ -55,20 +55,6 @@ req.product: Windows 10 or later.
 The <b>STOR_RICH_DEVICE_DESCRIPTION</b> structure describes the attributes of the <b> physical device </b> for which a driver is requesting a DMA (direct memory access) adapter.
 
 
-## -syntax
-
-
-````
-typedef struct _STOR_RICH_DEVICE_DESCRIPTION {
-  ULONG Version;
-  ULONG Size;
-  Char  VendorId[STOR_VENDOR_ID_LENGTH +1];
-  Char  ModelNumber[STOR_MODEL_NUMBER_LENGTH + 1];
-  Char  FirmwareRevision[STOR_FIRMWARE_REVISION_LENGTH + 1];
-} STOR_RICH_DEVICE_DESCRIPTION, *PSTOR_RICH_DEVICE_DESCRIPTION;
-````
-
-
 ## -struct-fields
 
 
@@ -119,10 +105,10 @@ This is invoked during the Unit enumeration process or the device description up
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh920398">HwStorUnitControl</a>
-
-
-
  
 
  

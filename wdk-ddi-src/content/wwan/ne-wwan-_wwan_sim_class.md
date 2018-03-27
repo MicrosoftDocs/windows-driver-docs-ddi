@@ -54,20 +54,6 @@ The WWAN_SIM_CLASS enumeration lists the different types of Subscriber Identity 
   are supported by the MB device.
 
 
-## -syntax
-
-
-````
-typedef enum _WWAN_SIM_CLASS { 
-  WwanSimClassUnknown       = 0,
-  WwanSimClassSimLogical,
-  WwanSimClassSimRemovable,
-  WwanSimClassSimRemote,
-  WwanSimClassMax
-} WWAN_SIM_CLASS, *PWWAN_SIM_CLASS;
-````
-
-
 ## -enum-fields
 
 
@@ -101,10 +87,10 @@ The total number of supported SIM classes.
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_device_caps.md">WWAN_DEVICE_CAPS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571204">WWAN_DEVICE_CAPS</a>
  
 
  

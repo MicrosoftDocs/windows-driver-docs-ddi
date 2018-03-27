@@ -7,7 +7,7 @@ old-location: kernel\clfs_mgmt_policy.htm
 old-project: kernel
 ms.assetid: 6765ced9-e21f-4bd9-bb2b-45df1d6dba75
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/1/2018
 ms.keywords: "*PCLFS_MGMT_POLICY, CLFS_MGMT_POLICY, CLFS_MGMT_POLICY structure [Kernel-Mode Driver Architecture], PCLFS_MGMT_POLICY, PCLFS_MGMT_POLICY structure pointer [Kernel-Mode Driver Architecture], _CLFS_MGMT_POLICY, kernel.clfs_mgmt_policy, kstruct_a_12bfc6be-5318-49df-b74a-251c40c0b916.xml, wdm/CLFS_MGMT_POLICY, wdm/PCLFS_MGMT_POLICY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,55 +53,6 @@ req.product: Windows 10 or later.
 The <b>CLFS_MGMT_POLICY</b> structure holds a description of a policy for managing a CLFS log.
 
 
-## -syntax
-
-
-````
-typedef struct _CLFS_MGMT_POLICY {
-  ULONG                 Version;
-  ULONG                 LengthInBytes;
-  ULONG                 PolicyFlags;
-  CLFS_MGMT_POLICY_TYPE PolicyType;
-  union {
-    struct {
-      ULONG Containers;
-    } MaximumSize;
-    struct {
-      ULONG Containers;
-    } MinimumSize;
-    struct {
-      ULONG SizeInBytes;
-    } NewContainerSize;
-    struct {
-      ULONG AbsoluteGrowthInContainers;
-      ULONG RelativeGrowthPercentage;
-    } GrowthRate;
-    struct {
-      ULONG MinimumAvailablePercentage;
-      ULONG MinimumAvailableContainers;
-    } LogTail;
-    struct {
-      ULONG Percentage;
-    } AutoShrink;
-    struct {
-      ULONG Enabled;
-    } AutoGrow;
-    struct {
-      USHORT PrefixLengthInBytes;
-      WCHAR  PrefixString[1];
-    } NewContainerPrefix;
-    struct {
-      ULONGLONG NextContainerSuffix;
-    } NewContainerSuffix;
-    struct {
-      USHORT ExtensionLengthInBytes;
-      WCHAR  ExtensionString[1];
-    } NewContainerExtension;
-  } PolicyParameters;
-} CLFS_MGMT_POLICY, *PCLFS_MGMT_POLICY;
-````
-
-
 ## -struct-fields
 
 
@@ -124,7 +75,7 @@ The flags that apply to this instance of the <b>CLFS_MGMT_POLICY</b> structure. 
 
 ### -field PolicyType
 
-A value of the <a href="..\wdm\ne-wdm-_clfs_mgmt_policy_type.md">CLFS_MGMT_POLICY_TYPE</a> enumeration that supplies the type of this instance of the <b>CLFS_MGMT_POLICY</b> structure.
+A value of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff541849">CLFS_MGMT_POLICY_TYPE</a> enumeration that supplies the type of this instance of the <b>CLFS_MGMT_POLICY</b> structure.
 
 
 ### -field PolicyParameters
@@ -269,25 +220,25 @@ You can only install a policy whose policy type specified in the <b>PolicyType</
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-clfsmgmtinstallpolicy.md">ClfsMgmtInstallPolicy</a>
 
 
 
-<a href="..\wdm\nf-wdm-clfsmgmtremovepolicy.md">ClfsMgmtRemovePolicy</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541849">CLFS_MGMT_POLICY_TYPE</a>
 
 
 
-<a href="..\wdm\ne-wdm-_clfs_mgmt_policy_type.md">CLFS_MGMT_POLICY_TYPE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541634">ClfsMgmtInstallPolicy</a>
 
 
 
-<a href="..\wdm\nf-wdm-clfsmgmtquerypolicy.md">ClfsMgmtQueryPolicy</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541638">ClfsMgmtQueryPolicy</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541648">ClfsMgmtRemovePolicy</a>
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20CLFS_MGMT_POLICY structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20CLFS_MGMT_POLICY structure%20 RELEASE:%20(3/1/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -52,17 +52,6 @@ req.typenames: DEBUG_LAST_EVENT_INFO_SYSTEM_ERROR, *PDEBUG_LAST_EVENT_INFO_SYSTE
 Describes the system error of the last event.
 
 
-## -syntax
-
-
-````
-typedef struct _DEBUG_LAST_EVENT_INFO_SYSTEM_ERROR {
-  ULONG Error;
-  ULONG Level;
-} DEBUG_LAST_EVENT_INFO_SYSTEM_ERROR, *PDEBUG_LAST_EVENT_INFO_SYSTEM_ERROR;
-````
-
-
 ## -struct-fields
 
 

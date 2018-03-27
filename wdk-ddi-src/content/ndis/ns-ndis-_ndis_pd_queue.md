@@ -52,20 +52,6 @@ req.typenames: NDIS_PD_QUEUE, NDIS_PD_QUEUE
 This structure represents a provider's receive or transmit queue
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_PD_QUEUE {
-  NDIS_OBJECT_HEADER           Header;
-  ULONG                        Flags;
-  const NDIS_PD_QUEUE_DISPATCH *Dispatch;
-  PVOID                        PDPlatformReserved[2];
-  PVOID                        PDClientReserved[2];
-} NDIS_PD_QUEUE, *PNDIS_PD_QUEUE;
-````
-
-
 ## -struct-fields
 
 
@@ -73,7 +59,7 @@ typedef struct _NDIS_PD_QUEUE {
 
 ### -field Header
 
-The <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure for the <b>NDIS_PD_QUEUE</b> structure. Set the members of this structure as follows:
+The <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure for the <b>NDIS_PD_QUEUE</b> structure. Set the members of this structure as follows:
 
 <ul>
 <li><b>Type</b> = <b>NDIS_OBJECT_TYPE_PD_TRANSMIT_QUEUE</b> or <b>NDIS_OBJECT_TYPE_PD_RECEIVE_QUEUE</b></li>
@@ -88,7 +74,7 @@ This member is reserved and must be set to 0.
 
 ### -field Dispatch
 
-See <a href="..\ndis\ns-ndis-_ndis_pd_queue_dispatch.md">NDIS_PD_QUEUE_DISPATCH</a>.
+See <a href="https://msdn.microsoft.com/library/windows/hardware/dn931845">NDIS_PD_QUEUE_DISPATCH</a>.
 
 
 ### -field PDPlatformReserved
@@ -103,10 +89,10 @@ Reserved for the client.
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
  
 
  

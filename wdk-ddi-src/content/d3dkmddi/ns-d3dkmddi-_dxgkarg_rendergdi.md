@@ -52,25 +52,6 @@ req.typenames: DXGKARG_RENDERGDI
 The <b>DXGKARG_RENDERGDI</b> structure is used when submitting Windows Graphics Device Interface (GDI) commands for contexts that support virtual addressing.
 
 
-## -syntax
-
-
-````
-typedef struct _DXGKARG_RENDERGDI {
-  const  VOID CONST      *pCommand;
-  const UINT             CommandLength;
-  VOID                   *pDmaBuffer;
-  D3DGPU_VIRTUAL_ADDRESS DmaBufferGpuVirtualAddress;
-  UINT                   DmaSize;
-  VOID                   *pDmaBufferPrivateData;
-  UINT                   DmaBufferPrivateDataSize;
-  DXGK_ALLOCATIONLIST    *pAllocationList;
-  UINT                   AllocationListSize;
-  UINT                   MultipassOffset;
-} DXGKARG_RENDERGDI;
-````
-
-
 ## -struct-fields
 
 
@@ -113,7 +94,7 @@ The number of bytes that remain in the private data structure that <b>pDmaBuffer
 
 ### -field pAllocationList
 
-An array of <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationlist.md">DXGK_ALLOCATIONLIST</a> structures for the list of allocations that the DMA buffer references. Each allocation that is referenced should appear once for optimal performance.
+An array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff560975">DXGK_ALLOCATIONLIST</a> structures for the list of allocations that the DMA buffer references. Each allocation that is referenced should appear once for optimal performance.
 
 
 ### -field AllocationListSize

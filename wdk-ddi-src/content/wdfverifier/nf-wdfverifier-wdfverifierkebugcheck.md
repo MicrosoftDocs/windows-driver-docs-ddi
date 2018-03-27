@@ -58,20 +58,6 @@ req.product: Windows 10 or later.
 The <b>WdfVerifierKeBugCheck</b> function creates a bug check.
 
 
-## -syntax
-
-
-````
-VOID WdfVerifierKeBugCheck(
-  _In_ ULONG     BugCheckCode,
-  _In_ ULONG_PTR BugCheckParameter1,
-  _In_ ULONG_PTR BugCheckParameter2,
-  _In_ ULONG_PTR BugCheckParameter3,
-  _In_ ULONG_PTR BugCheckParameter4
-);
-````
-
-
 ## -parameters
 
 
@@ -147,10 +133,10 @@ The following code example creates a bug check that uses the <a href="https://ms
 
 ## -see-also
 
-<a href="..\wdfverifier\nf-wdfverifier-wdfverifierdbgbreakpoint.md">WdfVerifierDbgBreakPoint</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551164">WdfVerifierDbgBreakPoint</a>
  
 
  

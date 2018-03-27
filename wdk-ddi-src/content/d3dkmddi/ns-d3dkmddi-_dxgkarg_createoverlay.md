@@ -52,18 +52,6 @@ req.typenames: DXGKARG_CREATEOVERLAY
 The DXGKARG_CREATEOVERLAY structure describes parameters to create an overlay.
 
 
-## -syntax
-
-
-````
-typedef struct _DXGKARG_CREATEOVERLAY {
-  D3DDDI_VIDEO_PRESENT_SOURCE_ID VidPnSourceId;
-  DXGK_OVERLAYINFO               OverlayInfo;
-  HANDLE                         hOverlay;
-} DXGKARG_CREATEOVERLAY;
-````
-
-
 ## -struct-fields
 
 
@@ -76,7 +64,7 @@ typedef struct _DXGKARG_CREATEOVERLAY {
 
 ### -field OverlayInfo
 
-[in] A <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_overlayinfo.md">DXGK_OVERLAYINFO</a> structure that contains parameters that are required to create the overlay.
+[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff561988">DXGK_OVERLAYINFO</a> structure that contains parameters that are required to create the overlay.
 
 
 ### -field hOverlay
@@ -86,14 +74,14 @@ typedef struct _DXGKARG_CREATEOVERLAY {
 
 ## -see-also
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createoverlay.md">DxgkDdiCreateOverlay</a>
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_overlayinfo.md">DXGK_OVERLAYINFO</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561988">DXGK_OVERLAYINFO</a>
 
 
 
+<a href="https://msdn.microsoft.com/1ccdd16d-fd76-4039-b538-86c77b4e8cbb">DxgkDdiCreateOverlay</a>
  
 
  

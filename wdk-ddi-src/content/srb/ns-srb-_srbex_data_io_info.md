@@ -53,24 +53,6 @@ req.product: Windows 10 or later.
 The <b>SRBEX_DATA_IO_INFO</b> structure contains additional information related to a read or write request in an extended SRB.
 <div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
-## -syntax
-
-
-````
-typedef struct _SRBEX_DATA_IO_INFO {
-  SRBEXDATATYPE Type;
-  ULONG         Length;
-  ULONG         Flags;
-  ULONG         Key;
-  ULONG         RWLength;
-  BOOLEAN       IsWriteRequest;
-  UCHAR         CachePriority;
-  UCHAR         Reserved[2];
-  ULONG         Reserved1[3];
-} SRBEX_DATA_IO_INFO, *PSRBEX_DATA_IO_INFO;
-````
-
-
 ## -struct-fields
 
 
@@ -209,10 +191,10 @@ This member is present starting with Windows 8.1 Update.
 
 ## -see-also
 
-<a href="..\storport\ns-storport-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451474">STORAGE_REQUEST_BLOCK</a>
  
 
  

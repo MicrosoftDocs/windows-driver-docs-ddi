@@ -53,41 +53,6 @@ req.product: Windows 10 or later.
 The <b>USB_CONTROLLER_FLAVOR</b> enumeration specifies the type of USB host controller.
 
 
-## -syntax
-
-
-````
-typedef enum _USB_CONTROLLER_FLAVOR { 
-  USB_HcGeneric        = 0,
-  OHCI_Generic         = 100,
-  OHCI_Hydra           = 101,
-  OHCI_NEC             = 102,
-  UHCI_Generic         = 200,
-  UHCI_Piix4           = 201,
-  UHCI_Piix3           = 202,
-  UHCI_Ich2            = 203,
-  UHCI_Ich1            = 205,
-  UHCI_Ich3m           = 206,
-  UHCI_Ich4            = 207,
-  UHCI_Ich5            = 208,
-  UHCI_Ich6            = 209,
-  UHCI_Intel           = 249,
-  UHCI_VIA             = 250,
-  UHCI_VIA_x01         = 251,
-  UHCI_VIA_x02         = 252,
-  UHCI_VIA_x03         = 253,
-  UHCI_VIA_x04         = 254,
-  UHCI_VIA_x0E_FIFO    = 264,
-  EHCI_Generic         = 1000,
-  EHCI_NEC             = 2000,
-  EHCI_Lucent          = 3000,
-  EHCI_NVIDIA_Tegra2   = 4000,
-  EHCI_NVIDIA_Tegra3   = 4001,
-  EHCI_Intel_Medfield  = 5001
-} USB_CONTROLLER_FLAVOR;
-````
-
-
 ## -enum-fields
 
 
@@ -228,7 +193,6 @@ Indicates an Intel Medfield host controller.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539256">USB_CONTROLLER_INFO_0</a>
 
 
 
@@ -236,6 +200,7 @@ Indicates an Intel Medfield host controller.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539256">USB_CONTROLLER_INFO_0</a>
  
 
  

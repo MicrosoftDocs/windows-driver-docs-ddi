@@ -53,23 +53,6 @@ req.product: Windows 10 or later.
 Defines the Universal Serial Bus (USB) device states for the device/controller.  These states correspond to the USB device states as defined in section 9.1 of the USB 2.0 Specification.
 
 
-## -syntax
-
-
-````
-typedef enum _USBFN_DEVICE_STATE { 
-  UsbfnDeviceStateMinimum       = 0x0,
-  UsbfnDeviceStateAttached,
-  UsbfnDeviceStateDefault,
-  UsbfnDeviceStateDetached,
-  UsbfnDeviceStateAddressed,
-  UsbfnDeviceStateConfigured,
-  UsbfnDeviceStateSuspended,
-  UsbfnDeviceStateStateMaximum
-} USBFN_DEVICE_STATE;
-````
-
-
 ## -enum-fields
 
 

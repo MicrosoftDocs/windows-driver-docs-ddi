@@ -51,53 +51,7 @@ req.typenames: D3DKMT_VIDMM_ESCAPE
 
 <b>Do not use the D3DKMT_VIDMM_ESCAPE structure; it is for testing purposes only.</b>
 
-The D3DKMT_VIDMM_ESCAPE structure describes how to control the video memory manager (which is part of Dxgkrnl.sys) in a call to the <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtescape.md">D3DKMTEscape</a> function.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DKMT_VIDMM_ESCAPE {
-  D3DKMT_VIDMMESCAPETYPE Type;
-  union {
-    struct {
-      union {
-        struct {
-          ULONG ProbeAndLock  :1;
-          ULONG SplitPoin  :1;
-          ULONG HotAddMemory  :1;
-          ULONG SwizzlingAperture  :1;
-          ULONG PagingPathLockSubRange  :1;
-          ULONG PagingPathLockMinRange  :1;
-          ULONG ComplexLock  :1;
-          ULONG FailVARotation  :1;
-          ULONG NoWriteCombined  :1;
-          ULONG NoPrePatching  :1;
-          ULONG AlwaysRepatch  :1;
-          ULONG ExpectPreparationFailure  :1;
-          ULONG FailUserModeVAMapping  :1;
-#if (DXGKDDI_INTERFACE_VERSION >= DXGKDDI_INTERFACE_VERSION_WIN8)
-          ULONG NeverDiscardOfferedAllocation  :1;
-          ULONG AlwaysDiscardOfferedAllocation  :1;
-          ULONG Reserved  :17;
-#else 
-          ULONG Reserved  :19;
-#endif 
-        };
-        ULONG Value;
-      };
-    } SetFault;
-    struct {
-      D3DKMT_HANDLE ResourceHandle;
-      D3DKMT_HANDLE AllocationHandle;
-    } Evict;
-    struct {
-      UINT64 NtHandle;
-    } EvictByNtHandle;
-  };
-} D3DKMT_VIDMM_ESCAPE;
-````
+The D3DKMT_VIDMM_ESCAPE structure describes how to control the video memory manager (which is part of Dxgkrnl.sys) in a call to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff546940">D3DKMTEscape</a> function.
 
 
 ## -struct-fields
@@ -345,14 +299,14 @@ typedef struct _D3DKMT_VIDMM_ESCAPE {
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_escape.md">D3DKMT_ESCAPE</a>
 
 
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtescape.md">D3DKMTEscape</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546940">D3DKMTEscape</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547970">D3DKMT_ESCAPE</a>
  
 
  

@@ -55,16 +55,6 @@ req.typenames: D3DKMT_DRIVERVERSION
 The <b>D3DKMTDestroyDCFromMemory</b> function releases the display context.
 
 
-## -syntax
-
-
-````
-NTSTATUS D3DKMTDestroyDCFromMemory(
-  _In_ const D3DKMT_DESTROYDCFROMMEMORY *pData
-);
-````
-
-
 ## -parameters
 
 
@@ -79,7 +69,7 @@ TBD
 
 #### - pData [in]
 
- A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_destroydcfrommemory.md">D3DKMT_DESTROYDCFROMMEMORY</a> structure that contains handles to the display context and bitmap.
+ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff547878">D3DKMT_DESTROYDCFROMMEMORY</a> structure that contains handles to the display context and bitmap.
 
 
 ## -returns
@@ -125,10 +115,10 @@ This function might also return other <b>NTSTATUS</b> values.
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_destroydcfrommemory.md">D3DKMT_DESTROYDCFROMMEMORY</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547878">D3DKMT_DESTROYDCFROMMEMORY</a>
  
 
  

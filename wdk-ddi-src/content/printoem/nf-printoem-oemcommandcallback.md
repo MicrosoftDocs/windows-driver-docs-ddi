@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -50,19 +50,6 @@ req.product: Windows 10 or later.
 ## -description
 
 
-
-
-## -syntax
-
-
-````
-INT APIENTRY OEMCommandCallback(
-       PDEVOBJ                     pdevobj,
-       DWORD                       dwCallbackID,
-       DWORD                       dwCount,
-  _In_ _reads_opt_(dwCount) PDWORD pdwParams
-);
-````
 
 
 ## -parameters

@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -54,19 +54,6 @@ req.product: Windows 10 or later.
 
 The <b>WDF_WRITE_PORT_BUFFER_USHORT</b> function writes a number of USHORT values from a buffer to the specified port address. 
 
-
-
-## -syntax
-
-
-````
-void WDF_WRITE_PORT_BUFFER_USHORT(
-  _In_ WDFDEVICE Device,
-  _In_ PUSHORT   Port,
-  _In_ PUSHORT   Buffer,
-  _In_ ULONG     Count 
-);
-````
 
 
 ## -parameters

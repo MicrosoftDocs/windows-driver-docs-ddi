@@ -47,11 +47,6 @@ req.product: Windows 10 or later.
 # IOCTL_USB_NOTIFY_ON_TRANSPORT_CHARACTERISTICS_CHANGE IOCTL
 
 
-##  Major Code: 
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548649">IRP_MJ_DEVICE_CONTROL</a>
-
 ## -description
 
 
@@ -101,12 +96,12 @@ This request notifies the caller of change in transport characteristics.
 
 ### -in-out-buffer
 
-The <b>AssociatedIrp.SystemBuffer</b> member is a pointer to a caller-allocated <a href="..\usbioctl\ns-usbioctl-_usb_transport_characteristics_change_notification.md">USB_TRANSPORT_CHARACTERISTICS_CHANGE_NOTIFICATION</a> structure. On input the caller passes the registration handle retrieved in the previous <a href="..\usbioctl\ni-usbioctl-ioctl_usb_register_for_transport_characteristics_change.md">IOCTL_USB_REGISTER_FOR_TRANSPORT_CHARACTERISTICS_CHANGE</a> request. On output, the structure is filled  with the latest information about  the type of information for which  the caller.
+The <b>AssociatedIrp.SystemBuffer</b> member is a pointer to a caller-allocated <a href="https://msdn.microsoft.com/C7E1996F-E00C-4A89-8CE4-E9B4987AEED1">USB_TRANSPORT_CHARACTERISTICS_CHANGE_NOTIFICATION</a> structure. On input the caller passes the registration handle retrieved in the previous <a href="https://msdn.microsoft.com/4192501F-5A30-463C-924D-CD4F2C8C3764">IOCTL_USB_REGISTER_FOR_TRANSPORT_CHARACTERISTICS_CHANGE</a> request. On output, the structure is filled  with the latest information about  the type of information for which  the caller.
 
 
 ### -inout-buffer-length
 
-The size of the <a href="..\usbioctl\ns-usbioctl-_usb_transport_characteristics_change_notification.md">USB_TRANSPORT_CHARACTERISTICS_CHANGE_NOTIFICATION</a> structure.
+The size of the <a href="https://msdn.microsoft.com/C7E1996F-E00C-4A89-8CE4-E9B4987AEED1">USB_TRANSPORT_CHARACTERISTICS_CHANGE_NOTIFICATION</a> structure.
 
 
 ### -status-block
@@ -125,11 +120,6 @@ This request is kept pending by the USB driver stack until a there is a change i
 
 ## -see-also
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
-
-
-
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
 
 
 
@@ -137,14 +127,19 @@ This request is kept pending by the USB driver stack until a there is a change i
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
-
-
-
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/usbcon/usb-client-drivers-for-ma-usb">USB client drivers for Media-Agnostic (MA-USB)</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548651">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548656">WdfIoTargetSendInternalIoctlSynchronously</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548660">WdfIoTargetSendIoctlSynchronously</a>
  
 
  

@@ -54,19 +54,6 @@ req.product: Windows 10 or later.
 The <b>StorPortReadPortBufferUchar</b> routine reads a value from a specified port address 
 
 
-## -syntax
-
-
-````
-STORPORT_API VOID StorPortReadPortBufferUchar(
-  _In_ PVOID  HwDeviceExtension,
-  _In_ PUCHAR Port,
-  _In_ PUCHAR Buffer,
-  _In_ ULONG  Count
-);
-````
-
-
 ## -parameters
 
 
@@ -120,21 +107,21 @@ Pointer to the address from which to read.
 
 
 
-For more information, see the <a href="..\storport\nf-storport-scsiportreadportbufferuchar.md">ScsiPortReadPortBufferUchar</a> routine. For a nonbuffered version of this routine, see <a href="..\storport\nf-storport-storportreadportuchar.md">StorPortReadPortUchar</a>. 
+For more information, see the <a href="https://msdn.microsoft.com/library/windows/hardware/ff564715">ScsiPortReadPortBufferUchar</a> routine. For a nonbuffered version of this routine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff567474">StorPortReadPortUchar</a>. 
 
 
 
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportreadportuchar.md">StorPortReadPortUchar</a>
 
 
 
-<a href="..\storport\nf-storport-scsiportreadportbufferuchar.md">ScsiPortReadPortBufferUchar</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564715">ScsiPortReadPortBufferUchar</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567474">StorPortReadPortUchar</a>
  
 
  

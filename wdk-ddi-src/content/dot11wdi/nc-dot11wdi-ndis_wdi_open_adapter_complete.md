@@ -49,23 +49,9 @@ req.typenames: SYNTH_STATS, *PSYNTH_STATS
 ## -description
 
 
-The NdisWdiOpenAdapterComplete callback function is called by the IHV when an Open Task operation from <a href="..\dot11wdi\nc-dot11wdi-miniport_wdi_open_adapter.md">MiniportWdiOpenAdapter</a> has been successfully started.
+The NdisWdiOpenAdapterComplete callback function is called by the IHV when an Open Task operation from <a href="https://msdn.microsoft.com/C4D09CAD-833A-43A0-AC03-EEDE8270EA12">MiniportWdiOpenAdapter</a> has been successfully started.
 
-This is a control path callback inside <a href="..\dot11wdi\ns-dot11wdi-_ndis_wdi_init_parameters.md">NDIS_WDI_INIT_PARAMETERS</a>.
-
-
-## -prototype
-
-
-````
-NDIS_WDI_OPEN_ADAPTER_COMPLETE NdisWdiOpenAdapterComplete;
-
-VOID NdisWdiOpenAdapterComplete(
-  _In_ NDIS_HANDLE MiniportAdapterHandle,
-  _In_ NDIS_STATUS CompletionStatus
-)
-{ ... }
-````
+This is a control path callback inside <a href="https://msdn.microsoft.com/library/windows/hardware/mt297621">NDIS_WDI_INIT_PARAMETERS</a>.
 
 
 ## -parameters
@@ -94,14 +80,14 @@ This callback function does not return a value.
 
 ## -see-also
 
-<a href="..\dot11wdi\ns-dot11wdi-_ndis_wdi_init_parameters.md">NDIS_WDI_INIT_PARAMETERS</a>
 
 
 
-<a href="..\dot11wdi\nc-dot11wdi-miniport_wdi_open_adapter.md">MiniportWdiOpenAdapter</a>
+<a href="https://msdn.microsoft.com/C4D09CAD-833A-43A0-AC03-EEDE8270EA12">MiniportWdiOpenAdapter</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt297621">NDIS_WDI_INIT_PARAMETERS</a>
  
 
  

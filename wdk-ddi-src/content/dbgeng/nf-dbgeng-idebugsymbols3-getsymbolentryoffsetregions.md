@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -53,20 +53,6 @@ Returns all the memory regions known to be associated
     with a symbol.  
 
 
-## -syntax
-
-
-````
-HRESULT GetSymbolEntryOffsetRegions(
-  [in]            PDEBUG_MODULE_AND_ID                            Id,
-  [in]            ULONG                                           Flags,
-  [out]           _writes_opt_(RegionsCount) PDEBUG_OFFSET_REGION Regions,
-  [in]            ULONG                                           RegionsCount,
-  [out, optional] PULONG                                          RegionsAvail
-);
-````
-
-
 ## -parameters
 
 
@@ -74,7 +60,7 @@ HRESULT GetSymbolEntryOffsetRegions(
 
 ### -param Id [in]
 
-The ID of a module as a pointer to a <a href="..\dbgeng\ns-dbgeng-_debug_module_and_id.md">DEBUG_MODULE_AND_ID</a> structure. 
+The ID of a module as a pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541511">DEBUG_MODULE_AND_ID</a> structure. 
 
 
 ### -param Flags [in]
@@ -115,18 +101,18 @@ The quality of information returned is highly
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541511">DEBUG_MODULE_AND_ID</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550870">IDebugSymbols3</a>
 
 
 
 <a href="https://msdn.microsoft.com/A39FF088-1AA3-4E2F-8EF6-AD7F79FBBC92">IDebugSymbols3::GetSourceEntryOffsetRegions</a>
-
-
-
-<a href="..\dbgeng\ns-dbgeng-_debug_module_and_id.md">DEBUG_MODULE_AND_ID</a>
-
-
-
  
 
  

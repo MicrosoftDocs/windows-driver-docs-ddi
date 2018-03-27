@@ -52,17 +52,6 @@ req.typenames: D3D12DDI_VIDEO_PROCESS_INPUT_STREAM_RATE_INFO_0032
 The video process input stream rate info.
 
 
-## -syntax
-
-
-````
-typedef struct _D3D12DDI_VIDEO_PROCESS_INPUT_STREAM_RATE_INFO_0032 {
-  UINT  OutputIndex;
-  UINT  InputFrameOrField;
-} D3D12DDI_VIDEO_PROCESS_INPUT_STREAM_RATE_INFO_0032, D3D12DDI_VIDEO_PROCESS_INPUT_STREAM_RATE_INFO_0032;
-````
-
-
 ## -struct-fields
 
 

@@ -50,27 +50,8 @@ req.typenames: DEVICE_POWER_DESCRIPTOR, *PDEVICE_POWER_DESCRIPTOR
 
 
 Used in conjunction with the 
-   <a href="..\ntddstor\ni-ntddstor-ioctl_storage_query_property.md">IOCTL_STORAGE_QUERY_PROPERTY</a> control code 
+   <a href="https://msdn.microsoft.com/library/windows/hardware/ff560590">IOCTL_STORAGE_QUERY_PROPERTY</a> control code 
    to describes the power capabilities of a storage device.
-
-
-## -syntax
-
-
-````
-typedef struct _DEVICE_POWER_DESCRIPTOR {
-  ULONG   Version;
-  ULONG   Size;
-  BOOLEAN DeviceAttentionSupported;
-  BOOLEAN AsynchronousNotificationSupported;
-  BOOLEAN IdlePowerManagementEnabled;
-  BOOLEAN D3ColdEnabled;
-  BOOLEAN D3ColdSupported;
-  BOOLEAN NoVerifyDuringIdlePower;
-  UCHAR   Reserved[2];
-  ULONG   IdleTimeoutInMS;
-} DEVICE_POWER_DESCRIPTOR, *PDEVICE_POWER_DESCRIPTOR;
-````
 
 
 ## -struct-fields
@@ -135,10 +116,10 @@ The idle timeout value in milliseconds. This member is ignored unless
 
 ## -see-also
 
-<a href="..\ntddstor\ni-ntddstor-ioctl_storage_query_property.md">IOCTL_STORAGE_QUERY_PROPERTY</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560590">IOCTL_STORAGE_QUERY_PROPERTY</a>
  
 
  

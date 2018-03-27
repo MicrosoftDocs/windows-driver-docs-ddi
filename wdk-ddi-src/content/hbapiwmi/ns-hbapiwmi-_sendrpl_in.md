@@ -52,19 +52,6 @@ req.typenames: SendRPL_IN, *PSendRPL_IN
 The SendRPL_IN structure is used to deliver input parameter data to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565488">SendRPL</a> WMI method.
 
 
-## -syntax
-
-
-````
-typedef struct _SendRPL_IN {
-  UCHAR PortWWN[8];
-  UCHAR AgentWWN[8];
-  ULONG agent_domain;
-  ULONG portIndex;
-} SendRPL_IN, *PSendRPL_IN;
-````
-
-
 ## -struct-fields
 
 
@@ -101,10 +88,10 @@ The WMI tool suite generates a declaration of the SendRPL_IN structure in <i>Hba
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565488">SendRPL</a>
-
-
-
  
 
  

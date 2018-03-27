@@ -52,21 +52,6 @@ req.typenames: WDI_TX_PAUSE_REASON
 The WDI_TX_PAUSE_REASON enumeration defines the reasons for a TX pause.
 
 
-## -syntax
-
-
-````
-typedef enum _WDI_TX_PAUSE_REASON { 
-  WDI_TX_PAUSE_REASON_NULL         = 0x00000000,
-  WDI_TX_PAUSE_REASON_CREDIT       = 0x00000001,
-  WDI_TX_PAUSE_REASON_PEER_CREATE  = 0x00000002,
-  WDI_TX_PAUSE_REASON_PS           = 0x00000004,
-  WDI_TX_PAUSE_REASON_IHV_START    = 0x01000000,
-  WDI_TX_PAUSE_REASON_IHV_END      = 0x80000000
-} WDI_TX_PAUSE_REASON;
-````
-
-
 ## -enum-fields
 
 
@@ -104,10 +89,10 @@ Inclusive end of range of valid pause reasons for IHV use.
 
 ## -see-also
 
-<a href="..\dot11wdi\ns-dot11wdi-_wdi_txrx_target_capabilities.md">WDI_TXRX_CAPABILITIES</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn898187">WDI_TXRX_CAPABILITIES</a>
  
 
  

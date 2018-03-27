@@ -53,18 +53,6 @@ req.product: Windows 10 or later.
 The WDI_QOS_PROTOCOL enumeration defines Wi-Fi QOS protocols.
 
 
-## -syntax
-
-
-````
-typedef enum _WDI_QOS_PROTOCOL { 
-  WDI_QOS_PROTOCOL_NONE  = 0x00,
-  WDI_QOS_PROTOCOL_WMM   = 0x01,
-  WDI_QOS_PROTOCOL_11E   = 0x02
-} WDI_QOS_PROTOCOL;
-````
-
-
 ## -enum-fields
 
 

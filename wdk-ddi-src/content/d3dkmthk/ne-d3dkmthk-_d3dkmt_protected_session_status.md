@@ -52,17 +52,6 @@ req.typenames: D3DKMT_PROTECTED_SESSION_STATUS
 Indicates the status of the protected session.
 
 
-## -syntax
-
-
-````
-typedef enum _D3DKMT_PROTECTED_SESSION_STATUS { 
-  D3DKMT_PROTECTED_SESSION_STATUS_OK       = 0,
-  D3DKMT_PROTECTED_SESSION_STATUS_INVALID  = 1
-} D3DKMT_PROTECTED_SESSION_STATUS;
-````
-
-
 ## -enum-fields
 
 

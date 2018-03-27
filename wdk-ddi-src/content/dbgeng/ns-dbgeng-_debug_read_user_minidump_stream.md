@@ -52,21 +52,6 @@ req.typenames: DEBUG_READ_USER_MINIDUMP_STREAM, *PDEBUG_READ_USER_MINIDUMP_STREA
 Describes a user minidump to read.
 
 
-## -syntax
-
-
-````
-typedef struct _DEBUG_READ_USER_MINIDUMP_STREAM {
-  ULONG   StreamType;
-  ULONG   Flags;
-  ULONG64 Offset;
-  PVOID   Buffer;
-  ULONG   BufferSize;
-  ULONG   BufferUsed;
-} DEBUG_READ_USER_MINIDUMP_STREAM, *PDEBUG_READ_USER_MINIDUMP_STREAM;
-````
-
-
 ## -struct-fields
 
 

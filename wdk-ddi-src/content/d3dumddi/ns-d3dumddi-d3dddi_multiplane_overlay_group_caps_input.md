@@ -52,17 +52,6 @@ req.typenames: D3DDDI_MULTIPLANE_OVERLAY_GROUP_CAPS_INPUT
 Specifies info on a multiplane overlay capability group.
 
 
-## -syntax
-
-
-````
-typedef struct D3DDDI_MULTIPLANE_OVERLAY_GROUP_CAPS_INPUT {
-  D3DDDI_VIDEO_PRESENT_SOURCE_ID VidPnSourceId;
-  UINT                           GroupIndex;
-} D3DDDI_MULTIPLANE_OVERLAY_GROUP_CAPS_INPUT, *PD3DDDI_MULTIPLANE_OVERLAY_GROUP_CAPS_INPUT;
-````
-
-
 ## -struct-fields
 
 
@@ -75,15 +64,15 @@ typedef struct D3DDDI_MULTIPLANE_OVERLAY_GROUP_CAPS_INPUT {
 
 ### -field GroupIndex
 
-[in] The index of the overlay capability group for which capabilities are queried. This value is always between zero and (<a href="..\d3dumddi\ns-d3dumddi-d3dddi_multiplane_overlay_caps.md">D3DDDI_MULTIPLANE_OVERLAY_CAPS</a>.<b>NumCapabilityGroups</b> – 1).
+[in] The index of the overlay capability group for which capabilities are queried. This value is always between zero and (<a href="https://msdn.microsoft.com/library/windows/hardware/hh780236">D3DDDI_MULTIPLANE_OVERLAY_CAPS</a>.<b>NumCapabilityGroups</b> – 1).
 
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-d3dddi_multiplane_overlay_caps.md">D3DDDI_MULTIPLANE_OVERLAY_CAPS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh780236">D3DDDI_MULTIPLANE_OVERLAY_CAPS</a>
  
 
  

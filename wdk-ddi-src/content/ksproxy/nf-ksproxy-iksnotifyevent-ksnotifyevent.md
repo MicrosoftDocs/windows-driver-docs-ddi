@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: ksproxy.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -52,18 +52,6 @@ req.typenames: PIPE_STATE
 <b>DirectX 9.0 and later versions only.</b>
 
 The <b>KsNotifyEvent</b> method requests that the KS object that owns the given DirectShow event notify the calling application with the given parameters whenever action related to the event occurs. 
-
-
-## -syntax
-
-
-````
-HRESULT KsNotifyEvent(
-  [in] ULONG     Event,
-  [in] ULONG_PTR lParam1,
-  [in] ULONG_PTR lParam2
-);
-````
 
 
 ## -parameters
@@ -97,10 +85,10 @@ Returns NOERROR if successful; otherwise, returns an error code.
 
 ## -see-also
 
+
+
+
 <a href="http://go.microsoft.com/fwlink/p/?linkid=183549">IMediaEvent</a>
-
-
-
  
 
  

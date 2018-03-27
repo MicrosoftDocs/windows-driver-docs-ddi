@@ -54,16 +54,6 @@ Gives information about the initialized adapter that can be used by the OS to ca
              
 
 
-## -syntax
-
-
-````
-typedef struct IDARG_OUT_ADAPTER_INIT {
-  IDDCX_ADAPTER AdapterObject;
-} IDARG_OUT_ADAPTER_INIT, *IDARG_OUT_ADAPTER_INIT;
-````
-
-
 ## -struct-fields
 
 

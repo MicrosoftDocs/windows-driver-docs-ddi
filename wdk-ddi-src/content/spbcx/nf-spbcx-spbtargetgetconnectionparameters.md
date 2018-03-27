@@ -54,17 +54,6 @@ req.product: Windows 10 or later.
 The <b>SpbTargetGetConnectionParameters</b> method retrieves the connection parameters for a target device on the bus.
 
 
-## -syntax
-
-
-````
-VOID SpbTargetGetConnectionParameters(
-  _In_  SPBTARGET                 Target,
-  _Out_ SPB_CONNECTION_PARAMETERS *ConnectionParameters
-);
-````
-
-
 ## -parameters
 
 
@@ -106,11 +95,14 @@ The SPB framework extension (SpbCx) calls your controller driver's <a href="http
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406205">SPB_CONNECTION_PARAMETERS_INIT</a>
 
 
 
 <a href="https://msdn.microsoft.com/D90DD169-A989-4D08-B1B8-BDE7EC9B7A82">EvtSpbTargetConnect</a>
+
+
+
+<a href="https://msdn.microsoft.com/02756C35-E76C-42C0-80FA-359CADE224A1">EvtSpbTargetDisconnect</a>
 
 
 
@@ -122,10 +114,7 @@ The SPB framework extension (SpbCx) calls your controller driver's <a href="http
 
 
 
-<a href="https://msdn.microsoft.com/02756C35-E76C-42C0-80FA-359CADE224A1">EvtSpbTargetDisconnect</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406205">SPB_CONNECTION_PARAMETERS_INIT</a>
  
 
  

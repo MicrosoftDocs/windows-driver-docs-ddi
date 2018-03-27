@@ -52,25 +52,6 @@ req.typenames: DXGK_CONNECTION_STATUS, *PDXGK_CONNECTION_STATUS
 Enumeration indicating the connection status values which can be reported.  
 
 
-## -syntax
-
-
-````
-typedef enum _DXGK_CONNECTION_STATUS { 
-  ConnectionStatusUninitialized  = 0,
-  TargetStatusDisconnected       = 4,
-  TargetStatusConnected,
-  TargetStatusJoined,
-  MonitorStatusDisconnected      = 8,
-  MonitorStatusUnknown,
-  MonitorStatusConnected,
-  LinkConfigurationStarted       = 12,
-  LinkConfigurationFailed,
-  LinkConfigurationSucceeded
-} DXGK_CONNECTION_STATUS;
-````
-
-
 ## -enum-fields
 
 

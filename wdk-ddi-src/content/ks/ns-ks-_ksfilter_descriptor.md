@@ -52,31 +52,6 @@ req.typenames: KSFILTER_DESCRIPTOR, *PKSFILTER_DESCRIPTOR
 The KSFILTER_DESCRIPTOR structure describes the characteristics of a filter created by a given filter factory.
 
 
-## -syntax
-
-
-````
-typedef struct _KSFILTER_DESCRIPTOR {
-  const KSFILTER_DISPATCH     *Dispatch;
-  const KSAUTOMATION_TABLE    *AutomationTable;
-  ULONG                       Version;
-  ULONG                       Flags;
-  const GUID                  *ReferenceGuid;
-  ULONG                       PinDescriptorsCount;
-  ULONG                       PinDescriptorSize;
-  const KSPIN_DESCRIPTOR_EX   *PinDescriptors;
-  ULONG                       CategoriesCount;
-  const GUID                  *Categories;
-  ULONG                       NodeDescriptorsCount;
-  ULONG                       NodeDescriptorSize;
-  const KSNODE_DESCRIPTOR     *NodeDescriptors;
-  ULONG                       ConnectionsCount;
-  const KSTOPOLOGY_CONNECTION *Connections;
-  const KSCOMPONENTID         *ComponentId;
-} KSFILTER_DESCRIPTOR, *PKSFILTER_DESCRIPTOR;
-````
-
-
 ## -struct-fields
 
 
@@ -84,12 +59,12 @@ typedef struct _KSFILTER_DESCRIPTOR {
 
 ### -field Dispatch
 
-A pointer to a <a href="..\ks\ns-ks-_ksfilter_dispatch.md">KSFILTER_DISPATCH</a> structure for this type of filter. This member is optional and need only be provided by clients that wish to receive notifications about filter creations, deletions, and so on. Drivers that are interested in the processing of data (transforms) typically provide this dispatch table and a processing function. Providing a filter-processing function instead of individual pin-processing functions is what makes a driver filter-centric instead of pin-centric.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff562554">KSFILTER_DISPATCH</a> structure for this type of filter. This member is optional and need only be provided by clients that wish to receive notifications about filter creations, deletions, and so on. Drivers that are interested in the processing of data (transforms) typically provide this dispatch table and a processing function. Providing a filter-processing function instead of individual pin-processing functions is what makes a driver filter-centric instead of pin-centric.
 
 
 ### -field AutomationTable
 
-A pointer to a <a href="..\ks\ns-ks-ksautomation_table_.md">KSAUTOMATION_TABLE</a> structure for this type of filter. The automation table is what describes the properties, methods, and events supported by this filter. This automation table is merged with the automation table supplied by AVStream for all filters. Should the client supply a property, method, or event handler already implemented by AVStream, the client's implementation supersedes AVStream's.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff560990">KSAUTOMATION_TABLE</a> structure for this type of filter. The automation table is what describes the properties, methods, and events supported by this filter. This automation table is merged with the automation table supplied by AVStream for all filters. Should the client supply a property, method, or event handler already implemented by AVStream, the client's implementation supersedes AVStream's.
 
 
 ### -field Version
@@ -112,7 +87,7 @@ KSFILTER_FLAG_DISPATCH_LEVEL_PROCESSING
 
 </td>
 <td>
-Indicates that the filter processes at IRQL DISPATCH_LEVEL as opposed to PASSIVE_LEVEL. This applies to the filter process callback as described in <a href="..\ks\ns-ks-_ksfilter_dispatch.md">KSFILTER_DISPATCH</a>.
+Indicates that the filter processes at IRQL DISPATCH_LEVEL as opposed to PASSIVE_LEVEL. This applies to the filter process callback as described in <a href="https://msdn.microsoft.com/library/windows/hardware/ff562554">KSFILTER_DISPATCH</a>.
 
 </td>
 </tr>
@@ -132,7 +107,7 @@ KSFILTER_FLAG_RECEIVE_ZERO_LENGTH_SAMPLES
 
 </td>
 <td>
-Set this flag if a filter-centric filter needs to receive zero-length samples (stream headers with flags but no data). If this flag is not set, zero length samples are passed on to downstream pins, with automatic propagation of necessary flags. Note that this is identical to default behavior in DX8 and prior. If this happens, <i>these samples bypass the minidriver</i>. Set the <b>Terminate</b> flag in <a href="..\ks\ns-ks-_ksprocesspin.md">KSPROCESSPIN</a> to "turn off" this flag. Also see <a href="https://msdn.microsoft.com/e56c5102-7ea6-4687-ae5e-1550db9500f0">Filter-Centric Processing</a>.
+Set this flag if a filter-centric filter needs to receive zero-length samples (stream headers with flags but no data). If this flag is not set, zero length samples are passed on to downstream pins, with automatic propagation of necessary flags. Note that this is identical to default behavior in DX8 and prior. If this happens, <i>these samples bypass the minidriver</i>. Set the <b>Terminate</b> flag in <a href="https://msdn.microsoft.com/library/windows/hardware/ff564256">KSPROCESSPIN</a> to "turn off" this flag. Also see <a href="https://msdn.microsoft.com/e56c5102-7ea6-4687-ae5e-1550db9500f0">Filter-Centric Processing</a>.
 
 </td>
 </tr>
@@ -177,7 +152,7 @@ This member specifies the size of each individual descriptor in the descriptor t
 
 ### -field PinDescriptors
 
-A pointer to an array of <a href="..\ks\ns-ks-_kspin_descriptor_ex.md">KSPIN_DESCRIPTOR_EX</a> structures that describe the pins supported by this filter type. If <b>PinDescriptorsCount</b> is zero, set this member to <b>NULL</b>..
+A pointer to an array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff563534">KSPIN_DESCRIPTOR_EX</a> structures that describe the pins supported by this filter type. If <b>PinDescriptorsCount</b> is zero, set this member to <b>NULL</b>..
 
 
 ### -field CategoriesCount
@@ -202,7 +177,7 @@ This member specifies the size in bytes of each individual descriptor in the des
 
 ### -field NodeDescriptors
 
-A pointer to an array of <a href="..\ks\ns-ks-_ksnode_descriptor.md">KSNODE_DESCRIPTOR</a> structures describing the topology nodes for this filter type. This member may be <b>null</b> if and only if <b>NodeDescriptorsCount</b> is zero.
+A pointer to an array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff563473">KSNODE_DESCRIPTOR</a> structures describing the topology nodes for this filter type. This member may be <b>null</b> if and only if <b>NodeDescriptorsCount</b> is zero.
 
 
 ### -field ConnectionsCount
@@ -212,12 +187,12 @@ This member specifies the number of topology connections present in <b>Connectio
 
 ### -field Connections
 
-A pointer to an array of <a href="..\ks\ns-ks-kstopology_connection.md">KSTOPOLOGY_CONNECTION</a> structures present in this filter type. This member is optional; it may be <b>NULL</b> if and only if <b>ConnectionsCount</b> is zero (in which case, the default topology is used).
+A pointer to an array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff567148">KSTOPOLOGY_CONNECTION</a> structures present in this filter type. This member is optional; it may be <b>NULL</b> if and only if <b>ConnectionsCount</b> is zero (in which case, the default topology is used).
 
 
 ### -field ComponentId
 
-A pointer to the <a href="..\ks\ns-ks-kscomponentid.md">KSCOMPONENTID</a> structure for this filter type. This is used for the component ID property that provides identification information. This member is optional.
+A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff561027">KSCOMPONENTID</a> structure for this filter type. This is used for the component ID property that provides identification information. This member is optional.
 
 
 ## -remarks
@@ -313,30 +288,30 @@ Similarly, if you do not use <b>DEFINE_KS_FILTER_NODE_DESCRIPTORS</b> to set <i>
 
 ## -see-also
 
-<a href="..\ks\ns-ks-kstopology_connection.md">KSTOPOLOGY_CONNECTION</a>
 
 
 
-<a href="..\ks\ns-ks-kscomponentid.md">KSCOMPONENTID</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561027">KSCOMPONENTID</a>
 
 
 
-<a href="..\ks\ns-ks-_ksfilter_dispatch.md">KSFILTER_DISPATCH</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562554">KSFILTER_DISPATCH</a>
 
 
 
-<a href="..\ks\ns-ks-_kspin_descriptor_ex.md">KSPIN_DESCRIPTOR_EX</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563473">KSNODE_DESCRIPTOR</a>
 
 
 
-<a href="..\ks\ns-ks-_ksnode_descriptor.md">KSNODE_DESCRIPTOR</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563534">KSPIN_DESCRIPTOR_EX</a>
 
 
 
-<a href="..\ks\nf-ks-kscreatefilterfactory.md">KsCreateFilterFactory</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567148">KSTOPOLOGY_CONNECTION</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561650">KsCreateFilterFactory</a>
  
 
  

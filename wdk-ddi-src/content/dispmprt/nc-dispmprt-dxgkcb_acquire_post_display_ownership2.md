@@ -52,23 +52,6 @@ req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
 Called by a display miniport driver to obtain the display information from the current  power-on self-test (POST) display device or the previously running Windows Display Driver Model (WDDM) driver.
 
 
-## -prototype
-
-
-````
-DXGKCB_ACQUIRE_POST_DISPLAY_OWNERSHIP2 DxgkcbAcquirePostDisplayOwnership2;
-
-NTSTATUS DxgkcbAcquirePostDisplayOwnership2(
-   HANDLE                        DeviceHandle,
-   PDXGK_DISPLAY_INFORMATION     DisplayInfo,
-   PDXGK_DISPLAY_OWNERSHIP_FLAGS Flags
-)
-{ ... }
-
-typedef DXGKCB_ACQUIRE_POST_DISPLAY_OWNERSHIP2 ;
-````
-
-
 ## -parameters
 
 

@@ -52,20 +52,6 @@ req.typenames: D3D12DDI_VIDEO_DECODE_DECRYPTION_ARGUMENTS_0030
 Video decode decryption arguments.
 
 
-## -syntax
-
-
-````
-typedef struct _D3D12DDI_VIDEO_DECODE_DECRYPTION_ARGUMENTS_0030 {
-  D3D12DDI_HCRYPTOSESSIONPOLICY_0030  hDrvCryptoSessionPolicy;
-  CONST VOID *                        pIV;
-  UINT                                IVSize;
-  CONST VOID *                        pSubSampleMappingBlock;
-  UINT                                SubSampleMappingCount;
-} D3D12DDI_VIDEO_DECODE_DECRYPTION_ARGUMENTS_0030, D3D12DDI_VIDEO_DECODE_DECRYPTION_ARGUMENTS_0030;
-````
-
-
 ## -struct-fields
 
 

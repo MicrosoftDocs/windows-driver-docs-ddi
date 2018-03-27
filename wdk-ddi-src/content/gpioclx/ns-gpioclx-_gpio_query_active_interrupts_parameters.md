@@ -52,18 +52,6 @@ req.typenames: GPIO_QUERY_ACTIVE_INTERRUPTS_PARAMETERS, *PGPIO_QUERY_ACTIVE_INTE
 The <b>GPIO_QUERY_ACTIVE_INTERRUPTS_PARAMETERS</b> structure describes a set of general-purpose I/O (GPIO) interrupt pins to query for their enabled and active states.
 
 
-## -syntax
-
-
-````
-typedef struct _GPIO_QUERY_ACTIVE_INTERRUPTS_PARAMETERS {
-  BANK_ID BankId;
-  ULONG64 EnabledMask;
-  ULONG64 ActiveMask;
-} GPIO_QUERY_ACTIVE_INTERRUPTS_PARAMETERS, *PGPIO_QUERY_ACTIVE_INTERRUPTS_PARAMETERS;
-````
-
-
 ## -struct-fields
 
 
@@ -95,6 +83,9 @@ The <i>QueryActiveParameters</i> parameter of the <a href="https://msdn.microsof
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439358">CLIENT_CONTROLLER_BASIC_INFORMATION</a>
 
 
@@ -104,9 +95,6 @@ The <i>QueryActiveParameters</i> parameter of the <a href="https://msdn.microsof
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439399">CLIENT_QueryControllerBasicInformation</a>
-
-
-
  
 
  

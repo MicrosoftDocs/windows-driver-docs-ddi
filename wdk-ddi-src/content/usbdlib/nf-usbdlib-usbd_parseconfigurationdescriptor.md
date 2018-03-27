@@ -51,19 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The  <b>USBD_ParseConfigurationDescriptor</b> routine has been deprecated. Use <a href="..\usbdlib\nf-usbdlib-usbd_parseconfigurationdescriptorex.md">USBD_ParseConfigurationDescriptorEx</a> instead.
-
-
-## -syntax
-
-
-````
-PUSB_INTERFACE_DESCRIPTOR USBD_ParseConfigurationDescriptor(
-  _In_ PUSB_CONFIGURATION_DESCRIPTOR ConfigurationDescriptor,
-  _In_ UCHAR                         InterfaceNumber,
-  _In_ UCHAR                         AlternateSetting
-);
-````
+The  <b>USBD_ParseConfigurationDescriptor</b> routine has been deprecated. Use <a href="https://msdn.microsoft.com/library/windows/hardware/ff539102">USBD_ParseConfigurationDescriptorEx</a> instead.
 
 
 ## -parameters
@@ -97,7 +85,6 @@ Specifies the device-defined alternate-setting index of the interface to be retr
 
 ## -see-also
 
-<a href="..\usbdlib\nf-usbdlib-usbd_parseconfigurationdescriptorex.md">USBD_ParseConfigurationDescriptorEx</a>
 
 
 
@@ -105,6 +92,7 @@ Specifies the device-defined alternate-setting index of the interface to be retr
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539102">USBD_ParseConfigurationDescriptorEx</a>
  
 
  

@@ -52,38 +52,6 @@ req.typenames: RILMSGCDMAOUTSUBMIT, *LPRILMSGCDMAOUTSUBMIT
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef struct _RILMSGCDMAOUTSUBMIT {
-  RILADDRESS                raDestAddress;
-  RILSUBADDRESS             rsaDestSubaddr;
-  BOOL                      bDigit;
-  RILSYSTEMTIME             stValidityPeriodAbs;
-  RILSYSTEMTIME             stValidityPeriodRel;
-  RILSYSTEMTIME             stDeferredDelTimeAbs;
-  RILSYSTEMTIME             stDeferredDelTimeRel;
-  BOOL                      bDeliveryAckRequest;
-  BOOL                      bUserAckRequest;
-  BOOL                      bBearerReplyRequest;
-  DWORD                     dwReplySeqNumber;
-  RILMSGCDMAMSGDISPLAYMODE  dwMsgDisplayMode;
-  RILADDRESS                raCallBackNumber;
-  RILMSGCDMAMSGPRIORITY     dwMsgPriority;
-  RILMSGCDMAMSGPRIVACY      dwMsgPrivacy;
-  DWORD                     dwTeleservice;
-  DWORD                     dwMsgID;
-  RILMSGCDMALANGUAGE        dwMsgLang;
-  RILMSGCDMAMSGENCODING     dwMsgEncoding;
-  DWORD                     cbHdrLength;
-  DWORD                     cchMsgLength;
-  BYTE [140]                rgbHdr;
-  BYTE [256]                rgbMsg;
-} RILMSGCDMAOUTSUBMIT, RILMSGCDMAOUTSUBMIT;
-````
-
-
 ## -struct-fields
 
 

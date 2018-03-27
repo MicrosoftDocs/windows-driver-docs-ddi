@@ -52,18 +52,6 @@ req.typenames: KSRESET
 
 
 
-## -syntax
-
-
-````
-typedef enum  { 
-  KSRESET_BEGIN,
-  KSRESET_END
-
-} KSRESET;
-````
-
-
 ## -enum-fields
 
 

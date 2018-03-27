@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 The PHW_INITIALIZE routine prototype declares a routine that initializes the miniport driver after a reboot or power failure occurs. 
 
 
-## -prototype
-
-
-````
-typedef BOOLEAN (*PHW_STARTIO)(
-  _In_ PVOID               DeviceExtension ,
-  _In_ PSCSI_REQUEST_BLOCK Srb 
-);
-````
-
-
 ## -parameters
 
 
@@ -94,23 +83,23 @@ The start I/O routine returns <b>TRUE</b> to acknowledge receipt of the SCSI req
 
 The start routine for both SCSI and StorPort miniport drivers are declared using this prototype. 
 
-For more information about the SCSI miniport driver's start I/O routine see <a href="..\srb\nc-srb-phw_startio.md">HwScsiStartIo</a>. 
+For more information about the SCSI miniport driver's start I/O routine see <a href="https://msdn.microsoft.com/library/windows/hardware/ff557323">HwScsiStartIo</a>. 
 
-For more information about the miniport driver's start I/O routine that is used with the StorPort driver see <a href="..\storport\nc-storport-hw_startio.md">HwStorStartIo</a>. 
+For more information about the miniport driver's start I/O routine that is used with the StorPort driver see <a href="https://msdn.microsoft.com/library/windows/hardware/ff557423">HwStorStartIo</a>. 
 
 
 
 
 ## -see-also
 
-<a href="..\srb\nc-srb-phw_startio.md">HwScsiStartIo</a>
 
 
 
-<a href="..\storport\nc-storport-hw_startio.md">HwStorStartIo</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557323">HwScsiStartIo</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557423">HwStorStartIo</a>
  
 
  

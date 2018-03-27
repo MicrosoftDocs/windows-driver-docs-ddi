@@ -52,25 +52,6 @@ req.typenames: MSiSCSI_SessionStatistics, *PMSiSCSI_SessionStatistics
 The MSiSCSI_SessionStatistics structure is used by iSCSI initiators to report session statistics. 
 
 
-## -syntax
-
-
-````
-typedef struct _MSiSCSI_SessionStatistics {
-  WCHAR     iSCSIName[223 + 1];
-  ULONGLONG USID;
-  ULONGLONG UniqueAdapterId;
-  ULONGLONG BytesSent;
-  ULONGLONG BytesReceived;
-  ULONGLONG PDUCommandsSent;
-  ULONGLONG PDUResponsesReceived;
-  ULONGLONG DigestErrors;
-  ULONGLONG ConnectionTimeoutErrors;
-  ULONGLONG FormatErrors;
-} MSiSCSI_SessionStatistics, *PMSiSCSI_SessionStatistics;
-````
-
-
 ## -struct-fields
 
 
@@ -88,7 +69,7 @@ The iSCSI session identifier (ID) for this connection instance. This ID is an in
 
 ### -field UniqueAdapterId
 
-A 64-bit integer that uniquely identifies an HBA initiator and a loaded instance of a storage miniport driver that manages the HBA. The initiator should use the address of the adapter extension or another address that the device driver owns to construct this ID. The initiator reports this value in the <i>UniqueAdapterId</i> member of the <a href="..\iscsimgt\ns-iscsimgt-_msiscsi_hbainformation.md">MSiSCSI_HBAInformation</a> structure.
+A 64-bit integer that uniquely identifies an HBA initiator and a loaded instance of a storage miniport driver that manages the HBA. The initiator should use the address of the adapter extension or another address that the device driver owns to construct this ID. The initiator reports this value in the <i>UniqueAdapterId</i> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563012">MSiSCSI_HBAInformation</a> structure.
 
 
 ### -field BytesSent
@@ -137,6 +118,9 @@ It is optional that you implement this class.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a>
 
 
@@ -145,14 +129,11 @@ It is optional that you implement this class.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563012">MSiSCSI_HBAInformation</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563139">MSiSCSI_SessionStatistics WMI Class</a>
-
-
-
-<a href="..\iscsimgt\ns-iscsimgt-_msiscsi_hbainformation.md">MSiSCSI_HBAInformation</a>
-
-
-
  
 
  

@@ -52,20 +52,6 @@ req.typenames: D3DKMT_UNORDEREDPRESENTSWAPCHAIN
 Used to store information about the swapchain being presented.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DKMT_UNORDEREDPRESENTSWAPCHAIN {
-  HANDLE hNtSwapChain;
-  BOOL   bProducer;
-  UINT   PresentBufferIdx;
-  UINT   MetaDataSize;
-  PVOID  pMetaData;
-} D3DKMT_UNORDEREDPRESENTSWAPCHAIN;
-````
-
-
 ## -struct-fields
 
 

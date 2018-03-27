@@ -53,17 +53,6 @@ req.typenames: TAPE_STATUS, *PTAPE_STATUS
 The <b>TapeClassZeroMemory</b> routine fills a buffer with zeros.
 
 
-## -syntax
-
-
-````
-VOID TapeClassZeroMemory(
-  _Inout_ PVOID Buffer,
-  _In_    ULONG BufferSize
-);
-````
-
-
 ## -parameters
 
 
@@ -99,10 +88,10 @@ A tape miniclass driver calls <b>TapeClassZeroMemory</b> to zero a buffer in a p
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552656">DriverEntry of Tape Miniclass Driver</a>
-
-
-
  
 
  

@@ -46,11 +46,6 @@ req.typenames: DVD_STRUCTURE_FORMAT, *PDVD_STRUCTURE_FORMAT
 # IOCTL_AACS_READ_MEDIA_KEY_BLOCK_SIZE IOCTL
 
 
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
-
 ## -description
 
 
@@ -82,7 +77,7 @@ The buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> contains a ULONG that ho
 
 ### -output-buffer-length
 
-Use this value to determine the size of the buffer to allocate for <a href="..\ntddcdvd\ni-ntddcdvd-ioctl_aacs_read_media_key_block.md">IOCTL_AACS_READ_MEDIA_KEY_BLOCK</a>. The size is always a multiple of 32,768 (0x8000).
+Use this value to determine the size of the buffer to allocate for <a href="https://msdn.microsoft.com/library/windows/hardware/ff559279">IOCTL_AACS_READ_MEDIA_KEY_BLOCK</a>. The size is always a multiple of 32,768 (0x8000).
 
 
 ### -in-out-buffer

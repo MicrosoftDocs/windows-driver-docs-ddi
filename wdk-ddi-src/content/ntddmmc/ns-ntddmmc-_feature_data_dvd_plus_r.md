@@ -52,19 +52,6 @@ req.typenames: FEATURE_DATA_DVD_PLUS_R, *PFEATURE_DATA_DVD_PLUS_R
 The FEATURE_DATA_DVD_PLUS_R structure contains information about the DVD+R feature. 
 
 
-## -syntax
-
-
-````
-typedef struct _FEATURE_DATA_DVD_PLUS_R {
-  FEATURE_HEADER Header;
-  UCHAR          Write  :1;
-  UCHAR          Reserved1  :7;
-  UCHAR          Reserved2[3];
-} FEATURE_DATA_DVD_PLUS_R, *PFEATURE_DATA_DVD_PLUS_R;
-````
-
-
 ## -struct-fields
 
 
@@ -72,7 +59,7 @@ typedef struct _FEATURE_DATA_DVD_PLUS_R {
 
 ### -field Header
 
-Contains a <a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a> structure with header information for this feature descriptor. 
+Contains a <a href="https://msdn.microsoft.com/library/windows/hardware/ff553848">FEATURE_HEADER</a> structure with header information for this feature descriptor. 
 
 
 ### -field Write
@@ -101,10 +88,10 @@ This structure holds data for the feature named "DVD+R" by the <i>MMC-3 </i>spec
 
 ## -see-also
 
-<a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553848">FEATURE_HEADER</a>
  
 
  

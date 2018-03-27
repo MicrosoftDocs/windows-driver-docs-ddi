@@ -55,16 +55,6 @@ req.typenames: TOKEN_TYPE
 The <b>RtlCaptureContext </b>function retrieves a context record in the context of the caller.
 
 
-## -syntax
-
-
-````
-VOID RtlCaptureContext(
-  _Out_ PCONTEXT ContextRecord
-);
-````
-
-
 ## -parameters
 
 
@@ -97,10 +87,10 @@ For kernel-mode code, the CONTEXT structure is defined in <i>Ntddk.h</i>. For mo
 
 ## -see-also
 
+
+
+
 <a href="http://go.microsoft.com/fwlink/p/?linkid=132119">CONTEXT</a>
-
-
-
  
 
  

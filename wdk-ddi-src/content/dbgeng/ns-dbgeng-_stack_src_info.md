@@ -52,21 +52,6 @@ req.typenames: STACK_SRC_INFO, *PSTACK_SRC_INFO
 Defines stack source information. 
 
 
-## -syntax
-
-
-````
-typedef struct _STACK_SRC_INFO {
-  PCWSTR ImagePath;
-  PCWSTR ModuleName;
-  PCWSTR Function;
-  ULONG  Displacement;
-  ULONG  Row;
-  ULONG  Column;
-} STACK_SRC_INFO, *PSTACK_SRC_INFO;
-````
-
-
 ## -struct-fields
 
 

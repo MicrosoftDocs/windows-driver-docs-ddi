@@ -56,16 +56,6 @@ req.product: Windows 10 or later.
 The <b>WDF_USB_PIPE_DIRECTION_IN</b> function determines whether a specified USB endpoint is an input endpoint.
 
 
-## -syntax
-
-
-````
-BOOLEAN WDF_USB_PIPE_DIRECTION_IN(
-  _In_ UCHAR EndpointAddress
-);
-````
-
-
 ## -parameters
 
 
@@ -98,14 +88,14 @@ For more information about the <b>WDF_USB_PIPE_DIRECTION_IN</b> function and USB
 
 ## -see-also
 
-<a href="..\wdfusb\nf-wdfusb-wdfusbtargetpipeisinendpoint.md">WdfUsbTargetPipeIsInEndpoint</a>
 
 
 
-<a href="..\wdfusb\nf-wdfusb-wdf_usb_pipe_direction_out.md">WDF_USB_PIPE_DIRECTION_OUT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553032">WDF_USB_PIPE_DIRECTION_OUT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551151">WdfUsbTargetPipeIsInEndpoint</a>
  
 
  

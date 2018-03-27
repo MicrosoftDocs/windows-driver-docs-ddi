@@ -52,19 +52,6 @@ req.typenames: RILCALLHANDOVERSTATEPARAMMASK
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef enum _RILCALLHANDOVERSTATEPARAMMASK { 
-  RIL_PARAM_HANDOVER_OLD_TYPE,
-  RIL_PARAM_HANDOVER_NEW_TYPE,
-  RIL_PARAM_HANDOVER_3GPPCAUSE,
-  RIL_PARAM_HANDOVER_ALL
-} RILCALLHANDOVERSTATEPARAMMASK;
-````
-
-
 ## -enum-fields
 
 

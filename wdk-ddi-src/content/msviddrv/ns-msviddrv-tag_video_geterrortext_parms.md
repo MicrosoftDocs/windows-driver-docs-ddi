@@ -52,22 +52,6 @@ req.typenames: VIDEO_GETERRORTEXT_PARMS, *LPVIDEO_GETERRORTEXT_PARMS
 
 
 
-## -syntax
-
-
-````
-typedef struct tag_video_geterrortext_parms {
-  DWORD  dwError;
-#ifdef _WIN32
-  LPWSTR lpText;
-#else 
-  LPSTR  lpText;
-#endif 
-  DWORD  dwLength;
-} VIDEO_GETERRORTEXT_PARMS, *LPVIDEO_GETERRORTEXT_PARMS;
-````
-
-
 ## -struct-fields
 
 

@@ -52,19 +52,6 @@ req.typenames: D3D11_1DDI_VIDEO_PROCESSOR_CUSTOM_RATE
 Specifies a custom rate for frame-rate conversion or inverse telecine (IVTC).
 
 
-## -syntax
-
-
-````
-typedef struct D3D11_1DDI_VIDEO_PROCESSOR_CUSTOM_RATE {
-  DXGI_RATIONAL CustomRate;
-  UINT          OutputFrames;
-  BOOL          InputInterlaced;
-  UINT          InputFramesOrFields;
-} D3D11_1DDI_VIDEO_PROCESSOR_CUSTOM_RATE;
-````
-
-
 ## -struct-fields
 
 
@@ -101,10 +88,10 @@ The <b>CustomRate</b> member gives the rate conversion factor, while the remaini
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/0a878d11-dc90-4cad-bde5-54a135e53a86">DXGI_RATIONAL</a>
-
-
-
  
 
  

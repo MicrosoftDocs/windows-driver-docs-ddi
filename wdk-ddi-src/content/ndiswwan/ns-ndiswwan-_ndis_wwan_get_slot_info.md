@@ -52,17 +52,6 @@ req.typenames: NDIS_WWAN_GET_SLOT_INFO, *PNDIS_WWAN_GET_SLOT_INFO
 The <b>NDIS_WWAN_GET_SLOT_INFO</b> structure represents the status of a slot in the modem of the MB device.
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_WWAN_GET_SLOT_INFO {
-  NDIS_OBJECT_HEADER Header;
-  WWAN_GET_SLOT_INFO SlotInfoStatus;
-} NDIS_WWAN_GET_SLOT_INFO, *PNDIS_WWAN_GET_SLOT_INFO;
-````
-
-
 ## -struct-fields
 
 
@@ -116,7 +105,7 @@ sizeof(NDIS_WWAN_GET_SLOT_INFO)
  
 
 For more information about these members, see 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>.
 
 
 ### -field GetSlotInfo
@@ -128,19 +117,19 @@ For more information about these members, see
 
 #### - SlotInfoStatus
 
-A formatted <a href="..\wwan\ns-wwan-_wwan_get_slot_info.md">WWAN_GET_SLOT_INFO</a> structure which contains the slot index to specify which slot's status the query request is for.
+A formatted <a href="https://msdn.microsoft.com/62955CA4-8631-4A85-8E78-5A91A9DA0069">WWAN_GET_SLOT_INFO</a> structure which contains the slot index to specify which slot's status the query request is for.
 
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_get_slot_info.md">WWAN_GET_SLOT_INFO</a>
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
 
 
 
+<a href="https://msdn.microsoft.com/62955CA4-8631-4A85-8E78-5A91A9DA0069">WWAN_GET_SLOT_INFO</a>
  
 
  

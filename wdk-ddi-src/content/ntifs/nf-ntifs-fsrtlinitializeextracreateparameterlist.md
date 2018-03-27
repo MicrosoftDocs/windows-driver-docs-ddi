@@ -52,16 +52,6 @@ req.typenames: TOKEN_TYPE
 The <b>FsRtlInitializeExtraCreateParameterList</b> routine initializes an extra create parameter (ECP) context structure list. 
 
 
-## -syntax
-
-
-````
-NTSTATUS FsRtlInitializeExtraCreateParameterList(
-  _Inout_ PECP_LIST EcpList
-);
-````
-
-
 ## -parameters
 
 
@@ -83,10 +73,10 @@ Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff54
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540148">ECP_LIST</a>
-
-
-
  
 
  

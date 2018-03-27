@@ -52,17 +52,6 @@ req.typenames: TOKEN_TYPE
 The <b>MmCanFileBeTruncated</b> routine checks whether a file can be truncated.
 
 
-## -syntax
-
-
-````
-BOOLEAN MmCanFileBeTruncated(
-  _In_     PSECTION_OBJECT_POINTERS SectionPointer,
-  _In_opt_ PLARGE_INTEGER           NewFileSize
-);
-````
-
-
 ## -parameters
 
 
@@ -118,14 +107,14 @@ One or more users hold references to the data section for the file, and <i>NewFi
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-ccpurgecachesection.md">CcPurgeCacheSection</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-mmflushimagesection.md">MmFlushImageSection</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539188">CcPurgeCacheSection</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549808">MmFlushImageSection</a>
  
 
  

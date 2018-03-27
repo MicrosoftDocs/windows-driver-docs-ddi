@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 The WDI_ENCAPSULATION_TYPE enumeration defines the Wi-Fi encapsulation types.
 
 
-## -syntax
-
-
-````
-typedef enum _WDI_ENCAPSULATION_TYPE { 
-  WDI_ENCAPSULATION_RFC_1042  = 1,
-  WDI_ENCAPSULATION_802_1H    = 2
-} WDI_ENCAPSULATION_TYPE;
-````
-
-
 ## -enum-fields
 
 

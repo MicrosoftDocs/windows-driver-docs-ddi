@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: Microsoft.WDTF
 req.assembly: WDTF.Interop.metadata_dll
 req.type-library: 
-req.lib: wdtf.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,18 +51,6 @@ req.product: Windows 10 or later.
 
 
 Returns a collection of related targets.
-
-
-## -syntax
-
-
-````
-HRESULT GetRelations(
-  [in]          BSTR          RelationSDEL,
-  [in]          BSTR          MatchSDEL,
-  [out, retval] IWDTFTargets2 **ppRelations
-);
-````
 
 
 ## -parameters
@@ -102,7 +90,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 You use the <b>GetRelations</b> method to retrieve related 
-instances of the <a href="..\wdtf\nn-wdtf-iwdtftarget2.md">IWDTFTarget2</a> interface. 
+instances of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439367">IWDTFTarget2</a> interface. 
 You specify the desired targets by a relation 
 <a href="https://msdn.microsoft.com/84c2a1d6-6bec-4aeb-b858-c29f50d74390">SDEL</a> statement.
 Typically, an SDEL statement can contain attribute tokens, comparison operators, 
@@ -131,10 +119,10 @@ Language Overview</a>.
 
 ## -see-also
 
-<a href="..\wdtf\nn-wdtf-iwdtftarget2.md">IWDTFTarget2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439367">IWDTFTarget2</a>
  
 
  

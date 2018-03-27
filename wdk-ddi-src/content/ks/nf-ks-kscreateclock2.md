@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
@@ -52,18 +52,6 @@ req.typenames:
 Creates a handle to a clock instance. Call this function after the Component Object Model (COM) is initialized.
 
 Supported starting in Windows 8.
-
-
-## -syntax
-
-
-````
-KSDDKAPI HRESULT NTAPI KsCreateClock2(
-  _In_  HANDLE          ConnectionHandle,
-  _In_  PKSCLOCK_CREATE ClockCreate,
-  _Out_ PHANDLE         ClockHandle
-);
-````
 
 
 ## -parameters
@@ -99,21 +87,21 @@ Returns <b>NOERROR</b> if successful; otherwise, returns an error code.
 
 
 
-This is a new version of the <a href="..\ks\nf-ks-kscreateclock.md">KsCreateClock</a> function and uses the device broker to create the handle to the kernel streaming object. In addition, the COM <a href="https://msdn.microsoft.com/0f171cf4-87b9-43a6-97f2-80ed344fe376">CoInitialize</a> function must be called before this function is called.
+This is a new version of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff561637">KsCreateClock</a> function and uses the device broker to create the handle to the kernel streaming object. In addition, the COM <a href="https://msdn.microsoft.com/0f171cf4-87b9-43a6-97f2-80ed344fe376">CoInitialize</a> function must be called before this function is called.
 
 
 
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/0f171cf4-87b9-43a6-97f2-80ed344fe376">CoInitialize</a>
 
 
 
-<a href="..\ks\nf-ks-kscreateclock.md">KsCreateClock</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561637">KsCreateClock</a>
  
 
  

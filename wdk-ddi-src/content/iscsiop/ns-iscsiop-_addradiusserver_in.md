@@ -52,16 +52,6 @@ req.typenames: AddRADIUSServer_IN, *PAddRADIUSServer_IN
 The AddRADIUSServer_IN structure holds the input data for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550133">AddRADIUSServer</a> method, which is used to add a new RADIUS server entry to existing list.
 
 
-## -syntax
-
-
-````
-typedef struct _AddRADIUSServer_IN {
-  ISCSI_IP_Address RADIUSIPAddress;
-} AddRADIUSServer_IN, *PAddRADIUSServer_IN;
-````
-
-
 ## -struct-fields
 
 
@@ -69,7 +59,7 @@ typedef struct _AddRADIUSServer_IN {
 
 ### -field RADIUSIPAddress
 
-A <a href="..\iscsidef\ns-iscsidef-_iscsi_ip_address.md">ISCSI_IP_Address</a> structure that contains an IP version-independent address of the RADIUS server.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff561536">ISCSI_IP_Address</a> structure that contains an IP version-independent address of the RADIUS server.
 
 
 ## -remarks
@@ -83,7 +73,6 @@ It is optional that you implement this method.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563091">MSiSCSI_Operations WMI Class</a>
 
 
 
@@ -91,14 +80,15 @@ It is optional that you implement this method.
 
 
 
-<a href="..\iscsiop\ns-iscsiop-_addradiusserver_out.md">AddRADIUSServer_OUT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550135">AddRADIUSServer_OUT</a>
 
 
 
-<a href="..\iscsidef\ns-iscsidef-_iscsi_ip_address.md">ISCSI_IP_Address</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561536">ISCSI_IP_Address</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563091">MSiSCSI_Operations WMI Class</a>
  
 
  

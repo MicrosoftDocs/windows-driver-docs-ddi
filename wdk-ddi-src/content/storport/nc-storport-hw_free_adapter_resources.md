@@ -53,19 +53,6 @@ req.product: Windows 10 or later.
 The <b>HwStorFreeAdapterResources</b> callback routine allows the Storport virtual miniport driver to free resources when the virtual adapter is being removed. This is the last callback routine for the adapter.
 
 
-## -prototype
-
-
-````
-HW_FREE_ADAPTER_RESOURCES HwStorFreeAdapterResources;
-
-VOID HwStorFreeAdapterResources(
-   IN PVOID DeviceExtension
-)
-{ ... }
-````
-
-
 ## -parameters
 
 

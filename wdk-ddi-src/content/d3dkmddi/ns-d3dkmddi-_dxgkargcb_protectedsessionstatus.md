@@ -52,17 +52,6 @@ req.typenames: DXGKARGCB_PROTECTEDSESSIONSTATUS
 Used for information on the status of the protected session.
 
 
-## -syntax
-
-
-````
-typedef struct _DXGKARGCB_PROTECTEDSESSIONSTATUS {
-  HANDLE                        hProtectedSession;
-  DXGK_PROTECTED_SESSION_STATUS Status;
-} DXGKARGCB_PROTECTEDSESSIONSTATUS;
-````
-
-
 ## -struct-fields
 
 

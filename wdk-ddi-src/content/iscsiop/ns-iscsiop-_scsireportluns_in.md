@@ -52,16 +52,6 @@ req.typenames: ScsiReportLuns_IN, *PScsiReportLuns_IN
 The ScsiReportLuns_IN structure holds the input data for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff564918">ScsiReportLuns</a> method.
 
 
-## -syntax
-
-
-````
-typedef struct _ScsiReportLuns_IN {
-  ULONGLONG UniqueSessionId;
-} ScsiReportLuns_IN, *PScsiReportLuns_IN;
-````
-
-
 ## -struct-fields
 
 
@@ -83,6 +73,9 @@ You must implement this method.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a>
 
 
@@ -91,14 +84,11 @@ You must implement this method.
 
 
 
-<a href="..\iscsiop\ns-iscsiop-_scsireportluns_out.md">ScsiReportLuns_OUT</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564918">ScsiReportLuns</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564936">ScsiReportLuns_OUT</a>
  
 
  

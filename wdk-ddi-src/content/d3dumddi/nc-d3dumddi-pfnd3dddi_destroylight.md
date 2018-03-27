@@ -52,20 +52,6 @@ req.typenames: DXGK_PTE
 The <b>DestroyLight</b> function deactivates a light source.
 
 
-## -prototype
-
-
-````
-PFND3DDDI_DESTROYLIGHT DestroyLight;
-
-__checkReturn HRESULT APIENTRY DestroyLight(
-  _In_       HANDLE                 hDevice,
-  _In_ const D3DDDIARG_DESTROYLIGHT *pData
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -87,7 +73,7 @@ __checkReturn HRESULT APIENTRY DestroyLight(
 
 #### - pData [in]
 
- A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_destroylight.md">D3DDDIARG_DESTROYLIGHT</a> structure that describes how to set the light source.
+ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543034">D3DDDIARG_DESTROYLIGHT</a> structure that describes how to set the light source.
 
 
 ## -returns
@@ -101,14 +87,14 @@ __checkReturn HRESULT APIENTRY DestroyLight(
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_destroylight.md">D3DDDIARG_DESTROYLIGHT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543034">D3DDDIARG_DESTROYLIGHT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544519">D3DDDI_DEVICEFUNCS</a>
  
 
  

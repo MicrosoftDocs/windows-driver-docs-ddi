@@ -52,18 +52,6 @@ req.typenames: DXGKARG_GETSCANLINE
 The DXGKARG_GETSCANLINE structure contains information about a video present target's vertical blanking status.
 
 
-## -syntax
-
-
-````
-typedef struct _DXGKARG_GETSCANLINE {
-  D3DDDI_VIDEO_PRESENT_TARGET_ID VidPnTargetId;
-  BOOLEAN                        InVerticalBlank;
-  UINT                           ScanLine;
-} DXGKARG_GETSCANLINE;
-````
-
-
 ## -struct-fields
 
 
@@ -95,10 +83,10 @@ A video present path represents a connection between a video present source (vie
 
 ## -see-also
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_getscanline.md">DxgkDdiGetScanLine</a>
 
 
 
+<a href="https://msdn.microsoft.com/e37bb3c6-a0b6-409f-8a82-20ec7a931c6a">DxgkDdiGetScanLine</a>
  
 
  

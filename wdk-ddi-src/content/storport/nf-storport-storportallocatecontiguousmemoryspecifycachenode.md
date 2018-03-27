@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
@@ -51,23 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>StorPortAllocateContiguousMemorySpecifyCacheNode</b> routine allocates a range of physically contiguous noncached, nonpaged memory.
-
-
-## -syntax
-
-
-````
-ULONG StorPortAllocateContiguousMemorySpecifyCacheNode(
-  _In_     PVOID               HwDeviceExtension,
-  _In_     SIZE_T              NumberOfBytes,
-  _In_     PHYSICAL_ADDRESS    LowestAcceptableAddress,
-  _In_     PHYSICAL_ADDRESS    HighestAcceptableAddress,
-  _In_opt_ PHYSICAL_ADDRESS    BoundaryAddressMultiple,
-  _In_     MEMORY_CACHING_TYPE CacheType,
-  _In_     NODE_REQUIREMENT    PreferredNode,
-  _Out_    PVOID               *BufferPointer
-);
-````
 
 
 ## -parameters

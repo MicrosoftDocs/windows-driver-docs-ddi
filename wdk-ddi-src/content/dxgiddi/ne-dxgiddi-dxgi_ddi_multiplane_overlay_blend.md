@@ -52,17 +52,6 @@ req.typenames: DXGI_DDI_MULTIPLANE_OVERLAY_BLEND
 Identifies a blend operation to be performed on an overlay plane.
 
 
-## -syntax
-
-
-````
-typedef enum DXGI_DDI_MULTIPLANE_OVERLAY_BLEND { 
-  DXGI_DDI_MULTIPLANE_OVERLAY_BLEND_OPAQUE      = 0x0,
-  DXGI_DDI_MULTIPLANE_OVERLAY_BLEND_ALPHABLEND  = 0x1
-} DXGI_DDI_MULTIPLANE_OVERLAY_BLEND;
-````
-
-
 ## -enum-fields
 
 

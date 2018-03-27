@@ -54,19 +54,6 @@ req.product: Windows 10 or later.
 The <b>StorPortReadPortBufferUshort</b> routine reads a value from a specified port address. 
 
 
-## -syntax
-
-
-````
-STORPORT_API VOID StorPortReadPortBufferUshort(
-  _In_ PVOID   HwDeviceExtension,
-  _In_ PUSHORT Port,
-  _In_ PUSHORT Buffer,
-  _In_ ULONG   Count
-);
-````
-
-
 ## -parameters
 
 
@@ -120,21 +107,21 @@ Pointer to the address from which to read.
 
 
 
-For more information, see <a href="..\storport\nf-storport-scsiportreadportbufferushort.md">ScsiPortReadPortBufferUshort</a>. For a nonbuffered version of this routine, see <a href="..\storport\nf-storport-storportreadportushort.md">StorPortReadPortUshort</a>. 
+For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff564721">ScsiPortReadPortBufferUshort</a>. For a nonbuffered version of this routine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff567477">StorPortReadPortUshort</a>. 
 
 
 
 
 ## -see-also
 
-<a href="..\storport\nf-storport-scsiportreadportbufferushort.md">ScsiPortReadPortBufferUshort</a>
 
 
 
-<a href="..\storport\nf-storport-storportreadportushort.md">StorPortReadPortUshort</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564721">ScsiPortReadPortBufferUshort</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567477">StorPortReadPortUshort</a>
  
 
  

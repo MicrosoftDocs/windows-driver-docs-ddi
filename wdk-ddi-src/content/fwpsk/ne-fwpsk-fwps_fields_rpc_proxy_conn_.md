@@ -54,22 +54,6 @@ The FWPS_FIELDS_RPC_PROXY_CONN enumeration type specifies the data field identif
   <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa366492">run-time filtering layer</a>.
 
 
-## -syntax
-
-
-````
-typedef enum FWPS_FIELDS_RPC_PROXY_CONN_ { 
-  FWPS_FIELD_RPC_PROXY_CONN_CLIENT_TOKEN,
-  FWPS_FIELD_RPC_PROXY_CONN_SERVER_NAME,
-  FWPS_FIELD_RPC_PROXY_CONN_SERVER_PORT,
-  FWPS_FIELD_RPC_PROXY_CONN_PROXY_AUTH_TYPE,
-  FWPS_FIELD_RPC_PROXY_CONN_CLIENT_CERT_KEY_LENGTH,
-  FWPS_FIELD_RPC_PROXY_CONN_CLIENT_CERT_OID,
-  FWPS_FIELD_RPC_PROXY_CONN_MAX
-} FWPS_FIELDS_RPC_PROXY_CONN;
-````
-
-
 ## -enum-fields
 
 

@@ -52,18 +52,6 @@ req.typenames: D3D12DDI_DEVICE_FUNCS_CORE_0021
 Specifies core device functions. 
 
 
-## -syntax
-
-
-````
-typedef struct D3D12DDI_DEVICE_FUNCS_CORE_0021 {
-  PFND3D12DDI_CALC_PRIVATE_PIPELINE_STATE_SIZE_0010 pfnCalcPrivatePipelineStateSize;
-  PFND3D12DDI_CREATE_PIPELINE_STATE_0021            pfnCreatePipelineState;
-  PFND3D12DDI_DESTROY_PIPELINE_STATE                pfnDestroyPipelineState;
-} D3D12DDI_DEVICE_FUNCS_CORE_0021;
-````
-
-
 ## -struct-fields
 
 

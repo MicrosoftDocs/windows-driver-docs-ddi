@@ -52,22 +52,6 @@ req.typenames: FEATURE_DATA_WRITE_PROTECT, *PFEATURE_DATA_WRITE_PROTECT
 The FEATURE_DATA_WRITE_PROTECT structure contains information about the Write Protect feature. 
 
 
-## -syntax
-
-
-````
-typedef struct _FEATURE_DATA_WRITE_PROTECT {
-  FEATURE_HEADER Header;
-  UCHAR          SupportsSWPPBit  :1;
-  UCHAR          SupportsPersistentWriteProtect  :1;
-  UCHAR          WriteInhibitDCB  :1;
-  UCHAR          DiscWriteProtectPAC  :1;
-  UCHAR          Reserved01  :4;
-  UCHAR          Reserved2[3];
-} FEATURE_DATA_WRITE_PROTECT, *PFEATURE_DATA_WRITE_PROTECT;
-````
-
-
 ## -struct-fields
 
 
@@ -75,7 +59,7 @@ typedef struct _FEATURE_DATA_WRITE_PROTECT {
 
 ### -field Header
 
-Contains a <a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a> structure with header information for this feature descriptor. 
+Contains a <a href="https://msdn.microsoft.com/library/windows/hardware/ff553848">FEATURE_HEADER</a> structure with header information for this feature descriptor. 
 
 
 ### -field SupportsSWPPBit
@@ -113,14 +97,14 @@ This structure holds data for the feature named "Write Protect" by the <i>MMC-3 
 
 ## -see-also
 
-<a href="..\ntddmmc\ne-ntddmmc-_feature_number.md">FEATURE_NUMBER</a>
 
 
 
-<a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553848">FEATURE_HEADER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553850">FEATURE_NUMBER</a>
  
 
  

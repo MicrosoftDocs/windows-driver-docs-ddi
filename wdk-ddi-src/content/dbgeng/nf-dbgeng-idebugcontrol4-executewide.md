@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -50,18 +50,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>ExecuteWide</b>  method executes the specified debugger commands.
-
-
-## -syntax
-
-
-````
-HRESULT ExecuteWide(
-  [in] ULONG  OutputControl,
-  [in] PCWSTR Command,
-  [in] ULONG  Flags
-);
-````
 
 
 ## -parameters
@@ -161,7 +149,6 @@ This method executes the given command string.  If the string has multiple comma
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
 
 
 
@@ -169,6 +156,7 @@ This method executes the given command string.  If the string has multiple comma
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550526">IDebugControl4</a>
  
 
  

@@ -53,18 +53,6 @@ req.product: Windows 10 or later.
 The WWAN_DEVICE_SERVICE_SESSION_CAPABILITY enumeration lists the different device service session operations that are supported by the device service.
 
 
-## -syntax
-
-
-````
-typedef enum _WWAN_DEVICE_SERVICE_SESSION_CAPABILITY { 
-  WwanDeviceServiceSessionNotSupported    = 0x00,
-  WwanDeviceServiceSessionWriteSupported  = 0x01,
-  WwanDeviceServiceSessionReadSupported   = 0x02
-} WWAN_DEVICE_SERVICE_SESSION_CAPABILITY;
-````
-
-
 ## -enum-fields
 
 
@@ -87,10 +75,10 @@ The device service supports read indication  notifications on a session for data
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_device_service_entry.md">WWAN_DEVICE_SERVICE_ENTRY</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh831870">WWAN_DEVICE_SERVICE_ENTRY</a>
  
 
  

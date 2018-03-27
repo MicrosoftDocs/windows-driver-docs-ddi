@@ -52,16 +52,6 @@ req.typenames: DXGKVGPU_ESCAPE_RELEASE
 Indicates that an escape has been released.
 
 
-## -syntax
-
-
-````
-typedef struct _DXGKVGPU_ESCAPE_RELEASE {
-  DXGKVGPU_ESCAPE_HEAD Header;
-} DXGKVGPU_ESCAPE_RELEASE;
-````
-
-
 ## -struct-fields
 
 

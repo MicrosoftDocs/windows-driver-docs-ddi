@@ -52,27 +52,6 @@ req.typenames: DXGK_MULTIPLANE_OVERLAY_BLEND
 Identifies a blend operation to be performed on an overlay plane.
 
 
-## -syntax
-
-
-````
-typedef struct _DXGK_MULTIPLANE_OVERLAY_BLEND {
-  union {
-    struct {
-      UINT AlphaBlend  :1;
-#if (DXGKDDI_INTERFACE_VERSION >= DXGKDDI_INTERFACE_VERSION_WDDM2_0)
-      UINT ColorKey  :1;
-      UINT Reserved  :30;
-#else 
-      UINT Reserved  :31;
-#endif 
-    };
-    UINT   Value;
-  };
-} DXGK_MULTIPLANE_OVERLAY_BLEND;
-````
-
-
 ## -struct-fields
 
 

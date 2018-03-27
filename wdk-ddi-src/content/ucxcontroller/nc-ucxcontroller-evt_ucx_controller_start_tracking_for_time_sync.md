@@ -53,22 +53,6 @@ req.product: Windows 10 or later.
 UCX invokes this callback function to the start time tracking functionality in the controller. 
 
 
-## -prototype
-
-
-````
-EVT_UCX_CONTROLLER_START_TRACKING_FOR_TIME_SYNC EvUcxControllerStartTrackingForTimeSync;
-
-void EvUcxControllerStartTrackingForTimeSync(
-  _In_ UCXCONTROLLER UcxController,
-  _In_ WDFREQUEST    WdfRequest,
-  _In_ size_t        OutputBufferLength,
-  _In_ size_t        InputBufferLength
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -87,13 +71,13 @@ A framework request object that contains the request to start time tracking.
 ### -param OutputBufferLength [in]
 
 The length, in bytes, of the request's output buffer, if an output buffer
-        is available. This value is the size of the <a href="..\usbioctl\ns-usbioctl-_usb_start_tracking_for_time_sync_information.md">USB_START_TRACKING_FOR_TIME_SYNC_INFORMATION</a> structure. 
+        is available. This value is the size of the <a href="https://msdn.microsoft.com/2C82743C-2675-4196-839D-885EE17B2A7A">USB_START_TRACKING_FOR_TIME_SYNC_INFORMATION</a> structure. 
 
 
 ### -param InputBufferLength [in]
 
 The length, in bytes, of the request's input buffer, if an input buffer
-        is available. This value is the size of the <a href="..\usbioctl\ns-usbioctl-_usb_start_tracking_for_time_sync_information.md">USB_START_TRACKING_FOR_TIME_SYNC_INFORMATION</a> structure.
+        is available. This value is the size of the <a href="https://msdn.microsoft.com/2C82743C-2675-4196-839D-885EE17B2A7A">USB_START_TRACKING_FOR_TIME_SYNC_INFORMATION</a> structure.
 
 
 ## -returns
@@ -107,10 +91,10 @@ This callback function does not return a value.
 
 ## -see-also
 
-<a href="..\usbioctl\ni-usbioctl-ioctl_usb_start_tracking_for_time_sync.md">IOCTL_USB_START_TRACKING_FOR_TIME_SYNC</a>
 
 
 
+<a href="https://msdn.microsoft.com/C9EA7A04-3B53-46D4-BC1B-A2766577095F">IOCTL_USB_START_TRACKING_FOR_TIME_SYNC</a>
  
 
  

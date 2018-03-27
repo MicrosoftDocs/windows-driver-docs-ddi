@@ -52,17 +52,6 @@ req.typenames: GetPathConfiguration_OUT, *PGetPathConfiguration_OUT
 The GetPathConfiguration_OUT structure is used to report the output parameters that are associated with the GetPathConfiguration method.
 
 
-## -syntax
-
-
-````
-typedef struct _GetPathConfiguration_OUT {
-  ULONG     EntryCount;
-  SCSI_ADDR Address[1];
-} GetPathConfiguration_OUT, *PGetPathConfiguration_OUT;
-````
-
-
 ## -struct-fields
 
 

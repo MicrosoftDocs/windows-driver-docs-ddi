@@ -52,17 +52,6 @@ req.typenames: D3D12DDIARG_OPEN_CRYPTO_SESSION_POLICY_0030
 Opens a crypto session policy.
 
 
-## -syntax
-
-
-````
-typedef struct _D3D12DDIARG_OPEN_CRYPTO_SESSION_POLICY_0030 {
-  const void *  pPrivateDriverData;
-  UINT          PrivateDriverDataSize;
-} D3D12DDIARG_OPEN_CRYPTO_SESSION_POLICY_0030, D3D12DDIARG_OPEN_CRYPTO_SESSION_POLICY_0030;
-````
-
-
 ## -struct-fields
 
 

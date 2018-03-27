@@ -52,24 +52,6 @@ req.typenames: DEBUG_STACK_FRAME, *PDEBUG_STACK_FRAME
 The DEBUG_STACK_FRAME structure describes a stack frame and the address of the current instruction for the stack frame. 
 
 
-## -syntax
-
-
-````
-typedef struct _DEBUG_STACK_FRAME {
-  ULONG64 InstructionOffset;
-  ULONG64 ReturnOffset;
-  ULONG64 FrameOffset;
-  ULONG64 StackOffset;
-  ULONG64 FuncTableEntry;
-  ULONG64 Params[4];
-  ULONG64 Reserved[6];
-  BOOL    Virtual;
-  ULONG   FrameNumber;
-} DEBUG_STACK_FRAME, *PDEBUG_STACK_FRAME;
-````
-
-
 ## -struct-fields
 
 

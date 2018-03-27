@@ -52,17 +52,6 @@ req.typenames: D3D12DDIARG_CREATE_CRYPTO_SESSION_POLICY_0030
 Creates a crypto session policy.
 
 
-## -syntax
-
-
-````
-typedef struct _D3D12DDIARG_CREATE_CRYPTO_SESSION_POLICY_0030 {
-  const void *  pKeyInfo;
-  UINT          KeyInfoSize;
-} D3D12DDIARG_CREATE_CRYPTO_SESSION_POLICY_0030, D3D12DDIARG_CREATE_CRYPTO_SESSION_POLICY_0030;
-````
-
-
 ## -struct-fields
 
 

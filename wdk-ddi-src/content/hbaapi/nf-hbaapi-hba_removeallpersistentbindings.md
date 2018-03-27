@@ -52,17 +52,6 @@ req.typenames: HBA_WWNTYPE
 The <b>HBA_RemoveAllPersistentBindings</b> routine removes all persistent bindings for a specified HBA port.
 
 
-## -syntax
-
-
-````
-HBA_STATUS HBA_API HBA_RemoveAllPersistentBindings(
-  _In_ HBA_HANDLE Handle,
-  _In_ HBA_WWN    HbaPortWWN
-);
-````
-
-
 ## -parameters
 
 
@@ -70,7 +59,7 @@ HBA_STATUS HBA_API HBA_RemoveAllPersistentBindings(
 
 ### -param Handle [in]
 
-Contains a value returned by the routine <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a> that identifies the HBA on which the port is located. 
+Contains a value returned by the routine <a href="https://msdn.microsoft.com/library/windows/hardware/ff557097">HBA_OpenAdapter</a> that identifies the HBA on which the port is located. 
 
 
 ### -param HbaPortWWN [in]
@@ -150,14 +139,14 @@ The removal of persistent bindings does not change target mappings until the ope
 
 ## -see-also
 
-<a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557097">HBA_OpenAdapter</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
-
-
-
  
 
  

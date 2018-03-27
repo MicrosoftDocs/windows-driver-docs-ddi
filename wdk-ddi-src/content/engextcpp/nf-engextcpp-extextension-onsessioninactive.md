@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: engextcpp.hpp
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -50,16 +50,6 @@ req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
 
 
 The <b>OnSessionInactive</b> method is called by the engine to inform the EngExtCpp extension library when the debugging session becomes inactive.
-
-
-## -syntax
-
-
-````
-virtual void OnSessionInactive(
-  [in] ULONG64 Argument
-);
-````
 
 
 ## -parameters
@@ -94,11 +84,6 @@ This method is called at the end of a session.
 
 ## -see-also
 
-<a href="..\engextcpp\nf-engextcpp-extextension-onsessionactive.md">OnSessionActive</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543981">ExtExtension</a>
 
 
 
@@ -106,6 +91,11 @@ This method is called at the end of a session.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543981">ExtExtension</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552312">OnSessionActive</a>
  
 
  

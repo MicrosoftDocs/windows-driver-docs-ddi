@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,24 +51,6 @@ req.product: Windows 10 or later.
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef enum _RILCALLBARRINGSTATUSPARAMSTYPE { 
-  RIL_BARRTYPE_OUTGOINGINT,
-  RIL_BARRTYPE_OUTGOINGINTEXTOHOME,
-  RIL_BARRTYPE_ALLINCOMING,
-  RIL_BARRTYPE_INCOMINGROAMING,
-  RIL_BARRTYPE_INCOMINGNOTINUICC,
-  RIL_BARRTYPE_ALLBARRING,
-  RIL_BARRTYPE_ALLOUTGOINGBARRING,
-  RIL_BARRTYPE_ALLINCOMINGBARRING,
-  RIL_BARRTYPE_ALL
-} RILCALLBARRINGSTATUSPARAMSTYPE;
-````
 
 
 ## -enum-fields

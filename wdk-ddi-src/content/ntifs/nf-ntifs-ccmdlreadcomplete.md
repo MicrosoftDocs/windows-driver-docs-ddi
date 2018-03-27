@@ -52,17 +52,6 @@ req.typenames: TOKEN_TYPE
 The <b>CcMdlReadComplete</b> routine frees the memory descriptor lists (MDL) created by <a href="https://msdn.microsoft.com/library/windows/hardware/ff539159">CcMdlRead</a> for a cached file.
 
 
-## -syntax
-
-
-````
-VOID CcMdlReadComplete(
-  _In_ PFILE_OBJECT FileObject,
-  _In_ PMDL         MdlChain
-);
-````
-
-
 ## -parameters
 
 
@@ -100,10 +89,10 @@ Each call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff5391
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539159">CcMdlRead</a>
-
-
-
  
 
  

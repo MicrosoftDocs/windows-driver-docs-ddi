@@ -52,16 +52,6 @@ req.typenames: DEBUG_LAST_EVENT_INFO_UNLOAD_MODULE, *PDEBUG_LAST_EVENT_INFO_UNLO
 Describes the unload module of the last event. 
 
 
-## -syntax
-
-
-````
-typedef struct _DEBUG_LAST_EVENT_INFO_UNLOAD_MODULE {
-  ULONG64 Base;
-} DEBUG_LAST_EVENT_INFO_UNLOAD_MODULE, *PDEBUG_LAST_EVENT_INFO_UNLOAD_MODULE;
-````
-
-
 ## -struct-fields
 
 

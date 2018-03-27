@@ -55,19 +55,6 @@ req.product: Windows 10 or later.
    The <b>USBD_ParseDescriptors</b> routine searches a given configuration descriptor and returns a pointer to the first descriptor that matches the search criteria.
 
 
-## -syntax
-
-
-````
-PUSB_COMMON_DESCRIPTOR USBD_ParseDescriptors(
-  _In_ PVOID DescriptorBuffer,
-  _In_ ULONG TotalLength,
-  _In_ PVOID StartPosition,
-  _In_ LONG  DescriptorType
-);
-````
-
-
 ## -parameters
 
 
@@ -117,7 +104,7 @@ Specifies that the descriptor being searched for is an endpoint descriptor.
 
 
 
-<b>USBD_ParseDescriptors</b> returns a pointer to a <a href="..\usbspec\ns-usbspec-_usb_common_descriptor.md">USB_COMMON_DESCRIPTOR</a> structure that is the head of the first descriptor that matches the given search criteria, or <b>NULL</b> is returned if no match is found:
+<b>USBD_ParseDescriptors</b> returns a pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff539238">USB_COMMON_DESCRIPTOR</a> structure that is the head of the first descriptor that matches the given search criteria, or <b>NULL</b> is returned if no match is found:
 
 
 
@@ -135,10 +122,10 @@ When this routine parses the configuration descriptor looking for the descriptor
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540134">USB device driver programming reference</a>
-
-
-
  
 
  

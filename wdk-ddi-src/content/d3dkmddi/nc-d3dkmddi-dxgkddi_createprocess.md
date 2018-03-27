@@ -53,20 +53,6 @@ req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
 <b>DxgkDdiCreateProcess</b> creates a graphics kernel process object.
 
 
-## -prototype
-
-
-````
-DXGKDDI_CREATEPROCESS DxgkDdiCreateProcess;
-
-NTSTATUS APIENTRY DxgkDdiCreateProcess(
-  _In_    const HANDLE                hAdapter,
-  _Inout_       DXGKARG_CREATEPROCESS *pArgs
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -79,7 +65,7 @@ A handle to the display adapter.
 
 ### -param pArgs [in, out]
 
-The <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_createprocess.md">DXGKARG_CREATEPROCESS</a> structure that describes the operation.
+The <a href="https://msdn.microsoft.com/library/windows/hardware/dn914470">DXGKARG_CREATEPROCESS</a> structure that describes the operation.
 
 
 ## -returns
@@ -103,10 +89,10 @@ During process creation the kernel mode driver is allowed to call the <b>DxgkCbR
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_createprocess.md">DXGKARG_CREATEPROCESS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn914470">DXGKARG_CREATEPROCESS</a>
  
 
  

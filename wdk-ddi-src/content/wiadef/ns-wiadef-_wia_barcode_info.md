@@ -21,10 +21,10 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: WDTFSystemAction.idl
 req.max-support: 
-req.namespace: 
-req.assembly: 
+req.namespace: Microsoft.WDTF
+req.assembly: WDTFSystemAction.Interop.dll
 req.type-library: 
 req.lib: 
 req.dll: 
@@ -51,24 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>WIA_BARCODE_INFO</b> structure stores information for one decoded barcode.
-
-
-## -syntax
-
-
-````
-typedef struct _WIA_BARCODE_INFO {
-  DWORD Size;
-  DWORD Type;
-  DWORD Page;
-  DWORD Confidence;
-  DWORD Xoffset;
-  DWORD Yoffset;
-  DWORD Rotation;
-  DWORD Length;
-  WCHAR Text[1];
-} WIA_BARCODE_INFO;
-````
 
 
 ## -struct-fields

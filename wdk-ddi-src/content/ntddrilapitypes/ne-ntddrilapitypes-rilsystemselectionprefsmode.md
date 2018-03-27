@@ -52,17 +52,6 @@ req.typenames: RILSYSTEMSELECTIONPREFSMODE
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef enum _RILSYSTEMSELECTIONPREFSMODE { 
-  RIL_OPSELMODE_MANUAL,
-  RIL_OPSELMODE_MAX
-} RILSYSTEMSELECTIONPREFSMODE;
-````
-
-
 ## -enum-fields
 
 

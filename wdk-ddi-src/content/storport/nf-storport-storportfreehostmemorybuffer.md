@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -52,18 +52,6 @@ req.product: Windows 10 or later.
 
 The <b>StorPortFreeHostMemoryBuffer</b> routine frees the physically contiguous memory
     that was allocated to be used for a Host Memory Buffer (HMB) 
-
-
-## -syntax
-
-
-````
-ULONG StorPortFreeHostMemoryBuffer(
-  _In_ PVOID                                               HwDeviceExtension,
-       _In_reads_(PhysicalAddressRangeCount) PACCESS_RANGE PhysicalAddressRanges,
-  _In_ ULONG                                               PhysicalAddressRangeCount
-);
-````
 
 
 ## -parameters
@@ -128,10 +116,10 @@ The host memory buffer was not valid (likely already freed).
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/B8413B02-32A6-40AE-9DD2-C25AD2D2D45C">StorPortAllocateHostMemoryBuffer</a>
-
-
-
  
 
  

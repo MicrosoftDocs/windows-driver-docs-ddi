@@ -53,20 +53,6 @@ The NDIS_IF_PROVIDER_CHARACTERISTICS structure defines NDIS network interface pr
   and other provider characteristics.
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_IF_PROVIDER_CHARACTERISTICS {
-  NDIS_OBJECT_HEADER Header;
-  IFP_QUERY_OBJECT   QueryObjectHandler;
-  IFP_SET_OBJECT     SetObjectHandler;
-  PVOID              Reserved1;
-  PVOID              Reserved2;
-} NDIS_IF_PROVIDER_CHARACTERISTICS, *PNDIS_IF_PROVIDER_CHARACTERISTICS;
-````
-
-
 ## -struct-fields
 
 
@@ -75,7 +61,7 @@ typedef struct _NDIS_IF_PROVIDER_CHARACTERISTICS {
 ### -field Header
 
 The 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure for the
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure for the
      interface provider characteristics structure (NDIS_IF_PROVIDER_CHARACTERISTICS). The driver sets the 
      <b>Type</b> member of the structure that 
      <b>Header</b> specifies to NDIS_OBJECT_TYPE_DEFAULT, the 
@@ -86,14 +72,14 @@ The
 ### -field QueryObjectHandler
 
 The entry point for the 
-     <a href="..\ndis\nc-ndis-if_query_object.md">
+     <a href="https://msdn.microsoft.com/dea90ff0-7620-4364-90dc-2dc5d2e34ce1">
      ProviderQueryObject</a> function.
 
 
 ### -field SetObjectHandler
 
 The entry point for the 
-     <a href="..\ndis\nc-ndis-if_set_object.md">ProviderSetObject</a> function.
+     <a href="https://msdn.microsoft.com/e5dcb46e-5a8a-45b7-b6aa-150a9cec0155">ProviderSetObject</a> function.
 
 
 ### -field Reserved1
@@ -116,7 +102,7 @@ All NDIS network driver types can register as network interface providers. An ND
 
 To register as an interface provider, the driver passes a pointer to the initialized
     NDIS_IF_PROVIDER_CHARACTERISTICS structure to the 
-    <a href="..\ndis\nf-ndis-ndisifregisterprovider.md">
+    <a href="https://msdn.microsoft.com/1624426b-9e67-4aa2-83d8-f1e6fa484858">
     NdisIfRegisterProvider</a> function.
 
 
@@ -124,22 +110,22 @@ To register as an interface provider, the driver passes a pointer to the initial
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-if_query_object.md">ProviderQueryObject</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisifregisterprovider.md">NdisIfRegisterProvider</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
 
 
 
-<a href="..\ndis\nc-ndis-if_set_object.md">ProviderSetObject</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562716">NdisIfRegisterProvider</a>
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="https://msdn.microsoft.com/dea90ff0-7620-4364-90dc-2dc5d2e34ce1">ProviderQueryObject</a>
 
 
 
+<a href="https://msdn.microsoft.com/e5dcb46e-5a8a-45b7-b6aa-150a9cec0155">ProviderSetObject</a>
  
 
  

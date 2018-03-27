@@ -52,18 +52,6 @@ req.typenames: WCS_PROFILE_MANAGEMENT_SCOPE
 The <code>WcsGetUsePerUserProfiles</code> function determines whether the user has chosen to use a per-user profile association list for the specified device.
 
 
-## -syntax
-
-
-````
-BOOL WcsGetUsePerUserProfiles(
-  _In_  LPCWSTR pDeviceName,
-  _In_  DWORD   dwDeviceClass,
-  _Out_ PBOOL   pUsePerUserProfiles
-);
-````
-
-
 ## -parameters
 
 
@@ -117,10 +105,10 @@ This function is executable in Least-Privileged User Account (LUA) context.
 
 ## -see-also
 
-<a href="..\icm\nf-icm-wcssetuseperuserprofiles.md">WcsSetUsePerUserProfiles</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563741">WcsSetUsePerUserProfiles</a>
  
 
  

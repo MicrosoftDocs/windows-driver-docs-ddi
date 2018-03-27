@@ -53,22 +53,6 @@ req.product: Windows 10 or later.
 The <b>HwStorDpcRoutine</b> routine is a routine that is deferred for execution at DISPATCH IRQL by means of the deferred procedure call (DPC) mechanism. 
 
 
-## -prototype
-
-
-````
-HW_DPC_ROUTINE HwStorDpcRoutine;
-
-VOID HwStorDpcRoutine(
-   IN PSTOR_DPC Dpc,
-   IN PVOID     HwDeviceExtension,
-   IN PVOID     SystemArgument1,
-   IN PVOID     SystemArgument2
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -107,9 +91,9 @@ None.
 
 
 
-When a miniport driver calls <a href="..\storport\nf-storport-storportinitializedpc.md">StorPortInitializeDpc</a> to initialize a DPC it must load the <i>HwDpcRoutine</i>  parameter of the <b>StorPortInitializeDpc</b> routine with a pointer to the <b>HwStorDpcRoutine</b> routine. 
+When a miniport driver calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff567110">StorPortInitializeDpc</a> to initialize a DPC it must load the <i>HwDpcRoutine</i>  parameter of the <b>StorPortInitializeDpc</b> routine with a pointer to the <b>HwStorDpcRoutine</b> routine. 
 
-Any particular instance of a DPC routine is guaranteed to be synchronized with other instances of the DPC routine. A DPC routine can synchronize itself with the <a href="..\storport\nc-storport-hw_startio.md">HwStorStartIo</a> routine or with the <a href="..\storport\nc-storport-hw_interrupt.md">HwStorInterrupt</a> routine by acquiring the appropriate spin lock with a call to <a href="..\storport\nf-storport-storportacquirespinlock.md">StorPortAcquireSpinLock</a>. For more information about the management of spin locks within DPC routines, see <a href="..\storport\nf-storport-storportissuedpc.md">StorPortIssueDpc</a>. 
+Any particular instance of a DPC routine is guaranteed to be synchronized with other instances of the DPC routine. A DPC routine can synchronize itself with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff557423">HwStorStartIo</a> routine or with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff557403">HwStorInterrupt</a> routine by acquiring the appropriate spin lock with a call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff567025">StorPortAcquireSpinLock</a>. For more information about the management of spin locks within DPC routines, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff567116">StorPortIssueDpc</a>. 
 
 The name <b>HwStorDpcRoutine</b> is just a placeholder. The actual prototype of this routine is defined in <i>storport.h</i> as follows:
 
@@ -178,26 +162,26 @@ The <b>HW_DPC_ROUTINE</b> function type is defined in the Storport.h header file
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportacquirespinlock.md">StorPortAcquireSpinLock</a>
 
 
 
-<a href="..\storport\nc-storport-hw_startio.md">HwStorStartIo</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557403">HwStorInterrupt</a>
 
 
 
-<a href="..\storport\nc-storport-hw_interrupt.md">HwStorInterrupt</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557423">HwStorStartIo</a>
 
 
 
-<a href="..\storport\nf-storport-storportissuedpc.md">StorPortIssueDpc</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567025">StorPortAcquireSpinLock</a>
 
 
 
-<a href="..\storport\nf-storport-storportinitializedpc.md">StorPortInitializeDpc</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567110">StorPortInitializeDpc</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567116">StorPortIssueDpc</a>
  
 
  

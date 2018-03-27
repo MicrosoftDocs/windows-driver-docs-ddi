@@ -53,20 +53,6 @@ req.typenames: TOKEN_TYPE
 The <b>RtlAddAce</b> routine adds one or more access control entries (ACEs) to a specified access control list (ACL).
 
 
-## -syntax
-
-
-````
-NTSTATUS RtlAddAce(
-  _Inout_ PACL  Acl,
-  _In_    ULONG AceRevision,
-  _In_    ULONG StartingAceIndex,
-  _In_    PVOID AceList,
-  _In_    ULONG AceListLength
-);
-````
-
-
 ## -parameters
 
 
@@ -184,13 +170,13 @@ STATUS_INVALID_PARAMETER is an error code.
 
 
 
-For information about calculating the size of an ACL, see the Remarks section of the reference entry for <a href="..\ntifs\nf-ntifs-rtlcreateacl.md">RtlCreateAcl</a>. 
+For information about calculating the size of an ACL, see the Remarks section of the reference entry for <a href="https://msdn.microsoft.com/library/windows/hardware/ff552151">RtlCreateAcl</a>. 
 
-To obtain a pointer to an ACE in an ACL, use <a href="..\ntifs\nf-ntifs-rtlgetace.md">RtlGetAce</a>. 
+To obtain a pointer to an ACE in an ACL, use <a href="https://msdn.microsoft.com/library/windows/hardware/ff552288">RtlGetAce</a>. 
 
-To delete an ACE from an ACL, use <a href="..\ntifs\nf-ntifs-rtldeleteace.md">RtlDeleteAce</a>. 
+To delete an ACE from an ACL, use <a href="https://msdn.microsoft.com/library/windows/hardware/ff552206">RtlDeleteAce</a>. 
 
-To add an access-allowed ACE to an ACL, use <a href="..\ntifs\nf-ntifs-rtladdaccessallowedace.md">RtlAddAccessAllowedAce</a>. 
+To add an access-allowed ACE to an ACL, use <a href="https://msdn.microsoft.com/library/windows/hardware/ff552092">RtlAddAccessAllowedAce</a>. 
 
 For more information about security and access control, see the Microsoft Windows Software Development Kit (SDK) for Windows 7 and .NET Framework 4.0 documentation.
 
@@ -199,7 +185,6 @@ For more information about security and access control, see the Microsoft Window
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-rtladdaccessallowedace.md">RtlAddAccessAllowedAce</a>
 
 
 
@@ -207,22 +192,23 @@ For more information about security and access control, see the Microsoft Window
 
 
 
-<a href="..\wdm\ns-wdm-_acl.md">ACL</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538866">ACL</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-rtlcreateacl.md">RtlCreateAcl</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552092">RtlAddAccessAllowedAce</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-rtldeleteace.md">RtlDeleteAce</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552151">RtlCreateAcl</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-rtlgetace.md">RtlGetAce</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552206">RtlDeleteAce</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552288">RtlGetAce</a>
  
 
  

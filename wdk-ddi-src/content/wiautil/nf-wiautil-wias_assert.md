@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: wiautil.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,17 +51,6 @@ req.product: Windows 10 or later.
 
 
 The WIAS_ASSERT macro writes a diagnostic message to the <i>Wiatrace.log</i> file.
-
-
-## -syntax
-
-
-````
-VOID WIAS_ASSERT(
-   HInst      HInst,
-   Expression Expression
-);
-````
 
 
 ## -parameters
@@ -108,18 +97,18 @@ To enable asserts in free builds, drivers must define the WIA_DEBUG macro by add
 
 ## -see-also
 
-<a href="..\wiautil\nf-wiautil-wias_trace.md">WIAS_TRACE</a>
 
 
 
-<a href="..\wiautil\nf-wiautil-wias_error.md">WIAS_ERROR</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549565">WIAS_ERROR</a>
 
 
 
-<a href="..\wiautil\nf-wiautil-wias_hresult.md">WIAS_HRESULT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549572">WIAS_HRESULT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549619">WIAS_TRACE</a>
  
 
  

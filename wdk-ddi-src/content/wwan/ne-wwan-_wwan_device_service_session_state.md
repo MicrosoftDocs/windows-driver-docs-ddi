@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 The WWAN_DEVICE_SERVICE_SESSION_STATE enumeration specifies the state of device service session. It can be used in a set operation to set the state of a session or can be used in an indication to report the state of a session.
 
 
-## -syntax
-
-
-````
-typedef enum _WWAN_DEVICE_SERVICE_SESSION_STATE { 
-  WwanDeviceServiceSessionOpen    = 0x01,
-  WwanDeviceServiceSessionClosed  = 0x02
-} WWAN_DEVICE_SERVICE_SESSION_STATE;
-````
-
-
 ## -enum-fields
 
 
@@ -90,10 +79,10 @@ The WWAN_DEVICE_SERVICE_SESSION structure uses the WWAN_DEVICE_SERVICE_SESSION_S
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_device_service_session.md">WWAN_DEVICE_SERVICE_SESSION</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh831873">WWAN_DEVICE_SERVICE_SESSION</a>
  
 
  

@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -49,17 +49,7 @@ req.typenames: TOKEN_TYPE
 ## -description
 
 
-The <b>KeAttachProcess</b> routine is exported to support existing driver binaries and is obsolete. Use <a href="..\ntifs\nf-ntifs-kestackattachprocess.md">KeStackAttachProcess</a> instead.
-
-
-## -syntax
-
-
-````
-  KeAttachProcess(
-    
-);
-````
+The <b>KeAttachProcess</b> routine is exported to support existing driver binaries and is obsolete. Use <a href="https://msdn.microsoft.com/library/windows/hardware/ff549659">KeStackAttachProcess</a> instead.
 
 
 ## -parameters

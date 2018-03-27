@@ -49,20 +49,7 @@ req.typenames: D3DWDDM1_3DDI_TILE_COPY_FLAG
 ## -description
 
 
-Identifies how to copy a tile using the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3dwddm1_3ddi_copytiles.md">CopyTiles</a> function.
-
-
-## -syntax
-
-
-````
-enum D3DWDDM1_3DDI_TILE_COPY_FLAG {
-  D3DWDDM1_3DDI_TILE_COPY_NO_OVERWRITE                              = 0x00000001, 
-  D3DWDDM1_3DDI_TILE_COPY_LINEAR_BUFFER_TO_SWIZZLED_TILED_RESOURCE  = 0x00000002, 
-  D3DWDDM1_3DDI_TILE_COPY_SWIZZLED_TILED_RESOURCE_TO_LINEAR_BUFFER  = 0x00000004 
-
-};
-````
+Identifies how to copy a tile using the <a href="https://msdn.microsoft.com/8DA0FF6C-CA2C-4943-93C3-BFC3773617CC">CopyTiles</a> function.
 
 
 ## -enum-fields
@@ -77,20 +64,20 @@ The GPU isn't currently referencing any of the portions of destination memory be
 
 ### -field D3DWDDM1_3DDI_TILE_COPY_LINEAR_BUFFER_TO_SWIZZLED_TILED_RESOURCE
 
-The <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3dwddm1_3ddi_copytiles.md">CopyTiles</a> operation involves copying a linear buffer to a swizzled tiled resource. This means to copy tile data from the specified buffer location, reading tiles sequentially, to the specified tile region (in <i>x</i>, <i>y</i>, <i>z</i> order if the region is a box), swizzling to optimal hardware memory layout as needed. In this <i>CopyTiles</i> call, you specify the source data with the <i>hBuffer</i> parameter and the destination with the <i>hTiledResource</i> parameter.
+The <a href="https://msdn.microsoft.com/8DA0FF6C-CA2C-4943-93C3-BFC3773617CC">CopyTiles</a> operation involves copying a linear buffer to a swizzled tiled resource. This means to copy tile data from the specified buffer location, reading tiles sequentially, to the specified tile region (in <i>x</i>, <i>y</i>, <i>z</i> order if the region is a box), swizzling to optimal hardware memory layout as needed. In this <i>CopyTiles</i> call, you specify the source data with the <i>hBuffer</i> parameter and the destination with the <i>hTiledResource</i> parameter.
 
 
 ### -field D3DWDDM1_3DDI_TILE_COPY_SWIZZLED_TILED_RESOURCE_TO_LINEAR_BUFFER
 
-The <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3dwddm1_3ddi_copytiles.md">CopyTiles</a> operation involves copying a swizzled tiled resource to a linear buffer. This means to copy tile data from the tile region, reading tiles sequentially (in <i>x</i>, <i>y</i>, <i>z</i> order if the region is a box), to the specified buffer location, deswizzling to linear memory layout as needed. In this <i>CopyTiles</i> call, you specify the source data with the <i>hTiledResource</i> parameter and the destination with the <i>hBuffer</i> parameter.
+The <a href="https://msdn.microsoft.com/8DA0FF6C-CA2C-4943-93C3-BFC3773617CC">CopyTiles</a> operation involves copying a swizzled tiled resource to a linear buffer. This means to copy tile data from the tile region, reading tiles sequentially (in <i>x</i>, <i>y</i>, <i>z</i> order if the region is a box), to the specified buffer location, deswizzling to linear memory layout as needed. In this <i>CopyTiles</i> call, you specify the source data with the <i>hTiledResource</i> parameter and the destination with the <i>hBuffer</i> parameter.
 
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3dwddm1_3ddi_copytiles.md">CopyTiles</a>
 
 
 
+<a href="https://msdn.microsoft.com/8DA0FF6C-CA2C-4943-93C3-BFC3773617CC">CopyTiles</a>
  
 
  

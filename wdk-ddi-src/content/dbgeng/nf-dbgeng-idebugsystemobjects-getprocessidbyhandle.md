@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -53,17 +53,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>GetProcessIdByHandle</b> method returns the engine process ID for the specified process.  The process is specified by its system handle.
-
-
-## -syntax
-
-
-````
-HRESULT GetProcessIdByHandle(
-  [in]  ULONG64 Handle,
-  [out] PULONG  Id
-);
-````
 
 
 ## -parameters

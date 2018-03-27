@@ -52,16 +52,6 @@ req.typenames: SetPresharedKeyForId_OUT, *PSetPresharedKeyForId_OUT
 The SetPresharedKeyForId_OUT structure holds the output data for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565800">SetPresharedKeyForId</a> method.
 
 
-## -syntax
-
-
-````
-typedef struct _SetPresharedKeyForId_OUT {
-  ULONG Status;
-} SetPresharedKeyForId_OUT, *PSetPresharedKeyForId_OUT;
-````
-
-
 ## -struct-fields
 
 
@@ -83,11 +73,6 @@ You must implement this method.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565800">SetPresharedKeyForId</a>
-
-
-
-<a href="..\iscsiop\ns-iscsiop-_setpresharedkeyforid_in.md">SetPresharedKeyForId_IN</a>
 
 
 
@@ -95,6 +80,11 @@ You must implement this method.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565800">SetPresharedKeyForId</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565806">SetPresharedKeyForId_IN</a>
  
 
  

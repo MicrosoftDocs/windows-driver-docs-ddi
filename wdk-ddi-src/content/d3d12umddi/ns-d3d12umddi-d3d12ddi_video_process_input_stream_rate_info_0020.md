@@ -52,18 +52,6 @@ req.typenames: D3D12DDI_VIDEO_PROCESS_INPUT_STREAM_RATE_INFO_0020
 Information for the input stream rate to use for video processing in a pattern, such as deinterlacing or frame-rate conversion. 
 
 
-## -syntax
-
-
-````
-typedef struct D3D12DDI_VIDEO_PROCESS_INPUT_STREAM_RATE_INFO_0020 {
-  DXGI_RATIONAL FrameRate;
-  UINT          OutputIndex;
-  UINT          InputFrameOrField;
-} D3D12DDI_VIDEO_PROCESS_INPUT_STREAM_RATE_INFO_0020;
-````
-
-
 ## -struct-fields
 
 
@@ -86,10 +74,10 @@ The zero-based index of the input frame or field.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/0a878d11-dc90-4cad-bde5-54a135e53a86">DXGI_RATIONAL</a>
-
-
-
  
 
  

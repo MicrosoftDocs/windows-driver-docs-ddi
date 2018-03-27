@@ -52,20 +52,6 @@ req.typenames: DXGK_PTE
 <b>pfnCreateContextVirtualCb</b> should be used with contexts that support virtual addressing.
 
 
-## -prototype
-
-
-````
-PFND3DDDI_CREATECONTEXTVIRTUALCB pfnCreateContextVirtualCb;
-
-HRESULT APIENTRY CALLBACK* pfnCreateContextVirtualCb(
-  _In_    HANDLE                 hDevice,
-  _Inout_ D3DDDICB_CREATECONTEXT *pData
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -87,7 +73,7 @@ A handle to the display device.
 
 #### - pData [in, out]
 
-A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_createcontextvirtual.md">D3DDDICB_CREATECONTEXTVIRTUAL</a> structure that describes the context to create.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn914418">D3DDDICB_CREATECONTEXTVIRTUAL</a> structure that describes the context to create.
 
 
 ## -returns

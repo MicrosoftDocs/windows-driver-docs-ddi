@@ -52,23 +52,6 @@ req.typenames: HBA_WWNTYPE
 The <b>HBA_SendRPS</b> routine sends a read port status block (RPS) request to the indicated agent port or domain controller. 
 
 
-## -syntax
-
-
-````
-HBA_STATUS HBA_API HBA_SendRPS(
-  _In_    HBA_HANDLE Handle,
-  _In_    HBA_WWN    hbaPortWWN,
-  _In_    HBA_WWN    agent_wwn,
-  _In_    HBA_UINT32 agent_domain,
-  _In_    HBA_WWN    object_wwn,
-  _In_    HBA_UINT32 object_port_number,
-  _Out_   void       *pRspBuffer,
-  _Inout_ HBA_UINT32 *RspBufferSize
-);
-````
-
-
 ## -parameters
 
 
@@ -76,7 +59,7 @@ HBA_STATUS HBA_API HBA_SendRPS(
 
 ### -param Handle [in]
 
-Contains a value returned by the routine <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a> that identifies the local HBA through which the request is sent. 
+Contains a value returned by the routine <a href="https://msdn.microsoft.com/library/windows/hardware/ff557097">HBA_OpenAdapter</a> that identifies the local HBA through which the request is sent. 
 
 
 ### -param HbaPortWWN
@@ -209,14 +192,14 @@ Returned if an unspecified error occurred that prevented the execution of the RP
 
 ## -see-also
 
-<a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557097">HBA_OpenAdapter</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
-
-
-
  
 
  

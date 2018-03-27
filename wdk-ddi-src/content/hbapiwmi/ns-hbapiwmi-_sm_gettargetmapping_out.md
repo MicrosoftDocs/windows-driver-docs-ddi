@@ -52,19 +52,6 @@ req.typenames: SM_GetTargetMapping_OUT, *PSM_GetTargetMapping_OUT
 The SM_GetTargetMapping structure_OUT structure is used to receive output parameters from the SM_GetTargetMapping method.
 
 
-## -syntax
-
-
-````
-typedef struct _SM_GetTargetMapping_OUT {
-  ULONG              HBAStatus;
-  ULONG              TotalEntryCount;
-  ULONG              OutEntryCount;
-  MS_SMHBA_SCSIENTRY Entry[1];
-} SM_GetTargetMapping_OUT, *PSM_GetTargetMapping_OUT;
-````
-
-
 ## -struct-fields
 
 

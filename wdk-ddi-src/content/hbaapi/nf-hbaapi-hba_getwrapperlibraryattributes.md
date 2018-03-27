@@ -52,16 +52,6 @@ req.typenames: HBA_WWNTYPE
 The <b>HBA_GetWrapperLibraryAttributes</b> routine retrieves the attributes of the fibre channel HBA API library that are operating system-specific. 
 
 
-## -syntax
-
-
-````
-HBA_UINT32 HBA_API HBA_GetWrapperLibraryAttributes(
-  _Out_ HBA_LIBRARYATTRIBUTES *Attributes
-);
-````
-
-
 ## -parameters
 
 
@@ -69,7 +59,7 @@ HBA_UINT32 HBA_API HBA_GetWrapperLibraryAttributes(
 
 ### -param Attributes [out]
 
-Pointer, on return, to a structure of type <a href="..\hbaapi\ns-hbaapi-hba_libraryattributes.md">HBA_LibraryAttributes</a> that holds the attributes of the wrapper library.
+Pointer, on return, to a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff556119">HBA_LibraryAttributes</a> that holds the attributes of the wrapper library.
 
 
 ## -returns
@@ -85,7 +75,7 @@ The <b>HBA_GetWrapperLibraryAttributes</b> routine returns a value that indicate
 
 
 
-The <b>HBA_GetWrapperLibraryAttributes</b> routine, as defined by the T11 committee's <i>Fibre Channel HBA API</i> specification, retrieves information about a system-supplied HBA API library, and the related routine <a href="..\hbaapi\nf-hbaapi-hba_getvendorlibraryattributes.md">HBA_GetVendorLibraryAttributes</a> reports the characteristics of a system-supplied wrapper library that works with the vendor library to provide the fibre channel HBA API. 
+The <b>HBA_GetWrapperLibraryAttributes</b> routine, as defined by the T11 committee's <i>Fibre Channel HBA API</i> specification, retrieves information about a system-supplied HBA API library, and the related routine <a href="https://msdn.microsoft.com/library/windows/hardware/ff556112">HBA_GetVendorLibraryAttributes</a> reports the characteristics of a system-supplied wrapper library that works with the vendor library to provide the fibre channel HBA API. 
 
 In particular, the <b>HBA_GetWrapperLibraryAttributes</b> routine allows the caller to determine whether a compatible library is installed. 
 
@@ -96,14 +86,14 @@ Microsoft supplies both libraries, so currently they return the same information
 
 ## -see-also
 
-<a href="..\hbaapi\ns-hbaapi-hba_libraryattributes.md">HBA_LibraryAttributes</a>
 
 
 
-<a href="..\hbaapi\nf-hbaapi-hba_getvendorlibraryattributes.md">HBA_GetVendorLibraryAttributes</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556112">HBA_GetVendorLibraryAttributes</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556119">HBA_LibraryAttributes</a>
  
 
  

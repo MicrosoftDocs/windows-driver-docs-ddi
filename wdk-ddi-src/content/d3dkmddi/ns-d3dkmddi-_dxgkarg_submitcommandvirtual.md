@@ -49,30 +49,9 @@ req.typenames: DXGKARG_SUBMITCOMMANDVIRTUAL
 ## -description
 
 
-<b>DXGKARG_SUBMITCOMMANDVIRTUAL</b> is used to submit a direct memory access (DMA) buffer to a context that supports virtual addressing with the  <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_submitcommandvirtual.md">DxgkDdiSubmitCommandVirtual</a>device driver interface (DDI).
+<b>DXGKARG_SUBMITCOMMANDVIRTUAL</b> is used to submit a direct memory access (DMA) buffer to a context that supports virtual addressing with the  <a href="https://msdn.microsoft.com/7A55FB51-BDC2-4215-895E-3250579BEAF0">DxgkDdiSubmitCommandVirtual</a>device driver interface (DDI).
 
 
-
-
-## -syntax
-
-
-````
-typedef struct _DXGKARG_SUBMITCOMMANDVIRTUAL {
-  HANDLE                         hContext;
-  D3DGPU_VIRTUAL_ADDRESS         DmaBufferVirtualAddress;
-  UINT                           DmaBufferSize;
-  VOID                           *pDmaBufferPrivateData;
-  UINT                           DmaBufferPrivateDataSize;
-  UINT                           DmaBufferUmdPrivateDataSize;
-  UINT                           SubmissionFenceId;
-  D3DDDI_VIDEO_PRESENT_SOURCE_ID VidPnSourceId;
-  D3DDDI_FLIPINTERVAL_TYPE       FlipInterval;
-  DXGK_SUBMITCOMMANDFLAGS        Flags;
-  UINT                           EngineOrdinal;
-  UINT                           NodeOrdinal;
-} DXGKARG_SUBMITCOMMANDVIRTUAL;
-````
 
 
 ## -struct-fields
@@ -82,7 +61,7 @@ typedef struct _DXGKARG_SUBMITCOMMANDVIRTUAL {
 
 ### -field hContext
 
-The handle returned from <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createcontext.md">DxgkDdiCreateContext</a>.
+The handle returned from <a href="https://msdn.microsoft.com/aea21a36-f3d5-4541-bd2d-aa026668c562">DxgkDdiCreateContext</a>.
 
 
 ### -field DmaBufferVirtualAddress
@@ -107,7 +86,7 @@ The size of the driver-private data buffer in bytes.
 
 ### -field DmaBufferUmdPrivateDataSize
 
-Size of the private driver data, in bytes, that was set by the user mode driver in <b>SubmitCommandCb</b>. When <b>SubmitCommandCb</b> is called, the DirectX graphics kernel allocates a buffer for the private driver data with the size equal to <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_contextinfo.md">DXGK_CONTEXTINFO</a>::<b>DmaBufferPrivateDataSize</b>. This size was reported by the kernel mode driver in the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createcontext.md">DxgkDdiCreateContext</a> call. The DirectX graphics kernel copies the driver private data from the <b>SubmitCommandCb</b> to the allocated buffer.
+Size of the private driver data, in bytes, that was set by the user mode driver in <b>SubmitCommandCb</b>. When <b>SubmitCommandCb</b> is called, the DirectX graphics kernel allocates a buffer for the private driver data with the size equal to <a href="https://msdn.microsoft.com/library/windows/hardware/ff561019">DXGK_CONTEXTINFO</a>::<b>DmaBufferPrivateDataSize</b>. This size was reported by the kernel mode driver in the <a href="https://msdn.microsoft.com/aea21a36-f3d5-4541-bd2d-aa026668c562">DxgkDdiCreateContext</a> call. The DirectX graphics kernel copies the driver private data from the <b>SubmitCommandCb</b> to the allocated buffer.
 
 
 ### -field SubmissionFenceId
@@ -122,12 +101,12 @@ The zero-based identification number of the video present source in a path of a 
 
 ### -field FlipInterval
 
-A <a href="..\d3dukmdt\ne-d3dukmdt-d3dddi_flipinterval_type.md">D3DDDI_FLIPINTERVAL_TYPE</a>-typed value that indicates the flip interval (that is, if the flip occurs after zero, one, two, three, or four vertical syncs). <b>FlipInterval</b> is valid only if the <b>Flip</b> bit-field flag is set (that is, <b>TRUE</b>) in the <b>Flags</b> member.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff544549">D3DDDI_FLIPINTERVAL_TYPE</a>-typed value that indicates the flip interval (that is, if the flip occurs after zero, one, two, three, or four vertical syncs). <b>FlipInterval</b> is valid only if the <b>Flip</b> bit-field flag is set (that is, <b>TRUE</b>) in the <b>Flags</b> member.
 
 
 ### -field Flags
 
-A <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_submitcommandflags.md">DXGK_SUBMITCOMMANDFLAGS</a> structure that identifies information about the DMA buffer to submit.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff562058">DXGK_SUBMITCOMMANDFLAGS</a> structure that identifies information about the DMA buffer to submit.
 
 
 ### -field EngineOrdinal
@@ -142,26 +121,26 @@ The zero-based index of the node that the context is created for. Identifies the
 
 ## -see-also
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createcontext.md">DxgkDdiCreateContext</a>
 
 
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_submitcommandvirtual.md">DxgkDdiSubmitCommandVirtual</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544549">D3DDDI_FLIPINTERVAL_TYPE</a>
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_contextinfo.md">DXGK_CONTEXTINFO</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561019">DXGK_CONTEXTINFO</a>
 
 
 
-<a href="..\d3dukmdt\ne-d3dukmdt-d3dddi_flipinterval_type.md">D3DDDI_FLIPINTERVAL_TYPE</a>
+<a href="https://msdn.microsoft.com/aea21a36-f3d5-4541-bd2d-aa026668c562">DxgkDdiCreateContext</a>
+
+
+
+<a href="https://msdn.microsoft.com/7A55FB51-BDC2-4215-895E-3250579BEAF0">DxgkDdiSubmitCommandVirtual</a>
 
 
 
 <a href="https://msdn.microsoft.com/0ec8a4eb-c441-47ae-b5de-d86e6065ffd4">Supplying Fence Identifiers</a>
-
-
-
  
 
  

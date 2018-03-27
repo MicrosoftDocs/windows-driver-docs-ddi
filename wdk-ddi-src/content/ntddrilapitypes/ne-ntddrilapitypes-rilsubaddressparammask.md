@@ -52,17 +52,6 @@ req.typenames: RILSUBADDRESSPARAMMASK
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef enum _RILSUBADDRESSPARAMMASK { 
-  RIL_PARAM_SA_SUBADDRESS,
-  RIL_PARAM_SA_ALL
-} RILSUBADDRESSPARAMMASK;
-````
-
-
 ## -enum-fields
 
 

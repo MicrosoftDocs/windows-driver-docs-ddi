@@ -53,16 +53,6 @@ req.product: Windows 10 or later.
 The <b>VideoPortInterlockedDecrement</b> function decrements a caller-supplied variable as an atomic operation.
 
 
-## -syntax
-
-
-````
-LONG FASTCALL VideoPortInterlockedDecrement(
-  _In_ PLONG Addend
-);
-````
-
-
 ## -parameters
 
 
@@ -95,14 +85,14 @@ This function is atomic only with respect to other <b>VideoPortInterlocked</b><i
 
 ## -see-also
 
-<a href="..\video\nf-video-videoportinterlockedexchange.md">VideoPortInterlockedExchange</a>
 
 
 
-<a href="..\video\nf-video-videoportinterlockedincrement.md">VideoPortInterlockedIncrement</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570323">VideoPortInterlockedExchange</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570324">VideoPortInterlockedIncrement</a>
  
 
  

@@ -58,19 +58,6 @@ function is called, Kernel Mode Client Library (KMCL) uses PnP to find the VMBus
 provided interface. 
 
 
-## -syntax
-
-
-````
-NTSTATUS VmbClientChannelInitSetTargetPnp(
-  _In_     VMBCHANNEL                  Channel,
-  _In_     LPCGUID                     InterfaceType,
-  _In_opt_ LPCGUID                     InterfaceInstance,
-  _In_opt_ PFN_VMB_CHANNEL_PNP_FAILURE PnpFailureCallback
-);
-````
-
-
 ## -parameters
 
 

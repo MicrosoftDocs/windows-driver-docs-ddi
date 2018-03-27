@@ -49,18 +49,7 @@ req.typenames: D3D10_DDI_MAP_FLAG
 ## -description
 
 
-The D3D10_DDI_MAP_FLAG enumeration type contains flags that identify how to map to a subresource in a call to the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_resourcemap.md">ResourceMap</a> function.
-
-
-## -syntax
-
-
-````
-typedef enum D3D10_DDI_MAP_FLAG { 
-  D3D10_DDI_MAP_FLAG_DONOTWAIT  = 0x00100000L,
-  D3D10_DDI_MAP_FLAG_MASK       = 0x00100000L
-} D3D10_DDI_MAP_FLAG;
-````
+The D3D10_DDI_MAP_FLAG enumeration type contains flags that identify how to map to a subresource in a call to the driver's <a href="https://msdn.microsoft.com/1310a3f8-02dd-4d35-98ad-4016e57d1eb2">ResourceMap</a> function.
 
 
 ## -enum-fields
@@ -70,7 +59,7 @@ typedef enum D3D10_DDI_MAP_FLAG {
 
 ### -field D3D10_DDI_MAP_FLAG_DONOTWAIT
 
-The driver can call the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a> function to set the ERR_WASSTILLDRAWING error code if contention exists between an application and hardware when the driver receives the call to <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_resourcemap.md">ResourceMap</a>.
+The driver can call the <a href="https://msdn.microsoft.com/968b04a7-8869-410c-a6fc-83d57726858f">pfnSetErrorCb</a> function to set the ERR_WASSTILLDRAWING error code if contention exists between an application and hardware when the driver receives the call to <a href="https://msdn.microsoft.com/1310a3f8-02dd-4d35-98ad-4016e57d1eb2">ResourceMap</a>.
 
 
 ### -field D3D10_DDI_MAP_FLAG_MASK
@@ -80,14 +69,14 @@ A mask value that indicates the valid bitfields in a bitwise OR combination of t
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
 
 
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_resourcemap.md">ResourceMap</a>
+<a href="https://msdn.microsoft.com/1310a3f8-02dd-4d35-98ad-4016e57d1eb2">ResourceMap</a>
 
 
 
+<a href="https://msdn.microsoft.com/968b04a7-8869-410c-a6fc-83d57726858f">pfnSetErrorCb</a>
  
 
  

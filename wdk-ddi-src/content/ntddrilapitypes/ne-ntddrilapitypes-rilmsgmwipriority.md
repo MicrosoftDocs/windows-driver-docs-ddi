@@ -52,20 +52,6 @@ req.typenames: RILMSGMWIPRIORITY
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef enum _RILMSGMWIPRIORITY { 
-  RIL_MSGMWIPRIORITY_LOW,
-  RIL_MSGMWIPRIORITY_NORMAL,
-  RIL_MSGMWIPRIORITY_URGENT,
-  RIL_MSGMWIPRIORITY_EMERGENCY,
-  RIL_MSGMWIPRIORITY_MAX
-} RILMSGMWIPRIORITY;
-````
-
-
 ## -enum-fields
 
 

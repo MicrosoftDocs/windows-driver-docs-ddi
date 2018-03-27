@@ -52,17 +52,6 @@ req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
 Used to create a protected session.
 
 
-## -prototype
-
-
-````
-NTSTATUS APIENTRY DXGKDDI_CREATEPROTECTEDSESSION(
-  _In_    const HANDLE                           hAdapter,
-  _Inout_       PDXGKARG_CREATEPROTECTEDSESSION  pCreateProtectedSession
-);
-````
-
-
 ## -parameters
 
 

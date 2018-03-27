@@ -56,24 +56,8 @@ The
 The management action is specified in the 
     <b>DEVICE_MANAGE_DATA_SET_ATTRIBUTES</b> 
     structure that is contained in the system buffer of an 
-    <a href="..\ntddstor\ni-ntddstor-ioctl_storage_manage_data_set_attributes.md">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a> 
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff560573">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a> 
     request.
-
-
-## -syntax
-
-
-````
-typedef struct _DEVICE_MANAGE_DATA_SET_ATTRIBUTES {
-  ULONG                             Size;
-  DEVICE_DATA_MANAGEMENT_SET_ACTION Action;
-  ULONG                             Flags;
-  ULONG                             ParameterBlockOffset;
-  ULONG                             ParameterBlockLength;
-  ULONG                             DataSetRangesOffset;
-  ULONG                             DataSetRangesLength;
-} DEVICE_MANAGE_DATA_SET_ATTRIBUTES, *PDEVICE_MANAGE_DATA_SET_ATTRIBUTES;
-````
 
 
 ## -struct-fields
@@ -108,11 +92,11 @@ Starting with Windows 7, this value can be a bitwise OR of one or more of the fo
 </td>
 <td width="60%">
 The specified action is non-destructive. If this flag is set, the driver can safely forward the 
-         <a href="..\ntddstor\ni-ntddstor-ioctl_storage_manage_data_set_attributes.md">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a> 
+         <a href="https://msdn.microsoft.com/library/windows/hardware/ff560573">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a> 
          request to the next lower driver in the stack even if the driver does not handle the specified action.
 
 <div class="alert"><b>Note</b>  Before it forwards the 
-         <a href="..\ntddstor\ni-ntddstor-ioctl_storage_manage_data_set_attributes.md">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a> 
+         <a href="https://msdn.microsoft.com/library/windows/hardware/ff560573">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a> 
          request, the driver should still perform the normal processing of the data set ranges block that is specified 
          by the <b>DataSetRangesOffset</b> and <b>DataSetRangesLength</b> 
          members.</div>
@@ -152,7 +136,7 @@ Specifies that the control action is specified for the entire block of data set 
 ### -field ParameterBlockOffset
 
 Specifies the start of the parameter block within the system buffer of the 
-       <a href="..\ntddstor\ni-ntddstor-ioctl_storage_manage_data_set_attributes.md">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a> 
+       <a href="https://msdn.microsoft.com/library/windows/hardware/ff560573">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a> 
        request. The format of the parameter block depends on the value of the <b>Action</b> 
        member. For more information, see 
        <a href="https://msdn.microsoft.com/library/windows/hardware/ff552520">DEVICE_DATA_MANAGEMENT_SET_ACTION</a>.
@@ -166,7 +150,7 @@ If set to zero, then the parameter block does not exist.
 ### -field ParameterBlockLength
 
 Specifies the length, in bytes, of the parameter block within the payload of the 
-       <a href="..\ntddstor\ni-ntddstor-ioctl_storage_manage_data_set_attributes.md">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a> 
+       <a href="https://msdn.microsoft.com/library/windows/hardware/ff560573">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a> 
        request.
 
 If set to zero, then the parameter block does not exist.
@@ -175,12 +159,12 @@ If set to zero, then the parameter block does not exist.
 ### -field DataSetRangesOffset
 
 Specifies the start of the block of data set ranges within the system buffer of the 
-       <a href="..\ntddstor\ni-ntddstor-ioctl_storage_manage_data_set_attributes.md">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a> 
+       <a href="https://msdn.microsoft.com/library/windows/hardware/ff560573">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a> 
        request. This block consists of one or more contiguous entries that are formatted as 
-       <a href="..\ntddstor\ns-ntddstor-_device_data_set_range.md">DEVICE_DATA_SET_RANGE</a> structures.
+       <a href="https://msdn.microsoft.com/library/windows/hardware/ff552523">DEVICE_DATA_SET_RANGE</a> structures.
 
 <div class="alert"><b>Note</b>  The offset of the data set range block must be aligned on the address boundary of the 
-       <a href="..\ntddstor\ns-ntddstor-_device_data_set_range.md">DEVICE_DATA_SET_RANGE</a> structure.</div>
+       <a href="https://msdn.microsoft.com/library/windows/hardware/ff552523">DEVICE_DATA_SET_RANGE</a> structure.</div>
 <div> </div>
 If set to zero, then the block of data set ranges does not exist. 
 
@@ -188,7 +172,7 @@ If set to zero, then the block of data set ranges does not exist.
 ### -field DataSetRangesLength
 
 Specifies the length, in bytes, of the block of data set ranges within the payload of the 
-       <a href="..\ntddstor\ni-ntddstor-ioctl_storage_manage_data_set_attributes.md">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a> 
+       <a href="https://msdn.microsoft.com/library/windows/hardware/ff560573">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a> 
        request.
 
 If set to zero, then the block of data set ranges does not exist.
@@ -200,7 +184,7 @@ If set to zero, then the block of data set ranges does not exist.
 
 The block of data set ranges is specified by the <b>DataSetRangesOffset</b> and 
      <b>DataSetRangesLength</b> members. If this block exists, it contains contiguous 
-     <a href="..\ntddstor\ns-ntddstor-_device_data_set_range.md">DEVICE_DATA_SET_RANGE</a> structures. The total 
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff552523">DEVICE_DATA_SET_RANGE</a> structures. The total 
      size of the buffer should be at least:
 
 <code>sizeof(DEVICE_MANAGE_DATA_SET_ATTRIBUTES) + ParameterBlockLength + DataSetRangesLength</code>
@@ -210,7 +194,6 @@ The block of data set ranges is specified by the <b>DataSetRangesOffset</b> and
 
 ## -see-also
 
-<a href="..\ntddstor\ni-ntddstor-ioctl_storage_manage_data_set_attributes.md">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a>
 
 
 
@@ -218,6 +201,7 @@ The block of data set ranges is specified by the <b>DataSetRangesOffset</b> and
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560573">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a>
  
 
  

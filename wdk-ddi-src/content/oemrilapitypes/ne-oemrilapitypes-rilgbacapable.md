@@ -52,19 +52,6 @@ req.typenames: RILGBACAPABLE
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef enum _RILGBACAPABLE { 
-  RIL_GBA_UNKNOWN,
-  RIL_GBA_NOT_SUPPORTED,
-  RIL_GBA_ME_SUPPORTED,
-  RIL_GBA_U_SUPPORTED
-} RILGBACAPABLE;
-````
-
-
 ## -enum-fields
 
 

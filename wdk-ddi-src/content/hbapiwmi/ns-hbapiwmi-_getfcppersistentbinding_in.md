@@ -52,16 +52,6 @@ req.typenames: GetFcpPersistentBinding_IN, *PGetFcpPersistentBinding_IN
 The GetFcpPersistentBinding_IN structure is used to pass input parameter data to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff553966">GetFcpPersistentBinding</a> WMI method 
 
 
-## -syntax
-
-
-````
-typedef struct _GetFcpPersistentBinding_IN {
-  ULONG InEntryCount;
-} GetFcpPersistentBinding_IN, *PGetFcpPersistentBinding_IN;
-````
-
-
 ## -struct-fields
 
 
@@ -83,7 +73,6 @@ The WMI tool suite generates a declaration of the GetFcpPersistentBinding_IN str
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562509">MSFC_HBAFCPInfo WMI Class</a>
 
 
 
@@ -91,6 +80,7 @@ The WMI tool suite generates a declaration of the GetFcpPersistentBinding_IN str
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562509">MSFC_HBAFCPInfo WMI Class</a>
  
 
  

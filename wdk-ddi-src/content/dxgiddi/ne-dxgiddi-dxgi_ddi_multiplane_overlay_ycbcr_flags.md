@@ -52,18 +52,6 @@ req.typenames: DXGI_DDI_MULTIPLANE_OVERLAY_YCbCr_FLAGS
 Identifies YUV range and conversion info that describes a multiplane overlay.
 
 
-## -syntax
-
-
-````
-typedef enum DXGI_DDI_MULTIPLANE_OVERLAY_YCbCr_FLAGS { 
-  DXGI_DDI_MULTIPLANE_OVERLAY_YCbCr_FLAG_NOMINAL_RANGE  = 0x1,
-  DXGI_DDI_MULTIPLANE_OVERLAY_YCbCr_FLAG_BT709          = 0x2,
-  DXGI_DDI_MULTIPLANE_OVERLAY_YCbCr_FLAG_xvYCC          = 0x4
-} DXGI_DDI_MULTIPLANE_OVERLAY_YCbCr_FLAGS;
-````
-
-
 ## -enum-fields
 
 

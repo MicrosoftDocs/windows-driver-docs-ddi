@@ -50,20 +50,7 @@ req.typenames:
 ## -description
 
 
-The<b> KsInitializeDevice </b>function is called by AVStream to initialize the AVStream device class from within <a href="..\ks\nf-ks-kscreatedevice.md">KsCreateDevice</a>.
-
-
-## -syntax
-
-
-````
-NTSTATUS KsInitializeDevice(
-  _In_           PDEVICE_OBJECT      FunctionalDeviceObject,
-  _In_           PDEVICE_OBJECT      PhysicalDeviceObject,
-  _In_           PDEVICE_OBJECT      NextDeviceObject,
-  _In_opt_ const KSDEVICE_DESCRIPTOR *Descriptor
-);
-````
+The<b> KsInitializeDevice </b>function is called by AVStream to initialize the AVStream device class from within <a href="https://msdn.microsoft.com/library/windows/hardware/ff561647">KsCreateDevice</a>.
 
 
 ## -parameters
@@ -73,24 +60,24 @@ NTSTATUS KsInitializeDevice(
 
 ### -param FunctionalDeviceObject [in]
 
-A pointer to a <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a> structure representing the WDM functional device object for the device being initialized. 
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a> structure representing the WDM functional device object for the device being initialized. 
 
-Normally, this is returned from an <a href="..\wdm\nf-wdm-iocreatedevice.md">IoCreateDevice</a> call. Minidrivers calling this function directly are responsible for calling <b>IoCreateDevice</b> and attaching themselves to the device stack.
+Normally, this is returned from an <a href="https://msdn.microsoft.com/library/windows/hardware/ff548397">IoCreateDevice</a> call. Minidrivers calling this function directly are responsible for calling <b>IoCreateDevice</b> and attaching themselves to the device stack.
 
 
 ### -param PhysicalDeviceObject [in]
 
-A pointer to a <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a> structure representing the WDM physical device object for the device being initialized.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a> structure representing the WDM physical device object for the device being initialized.
 
 
 ### -param NextDeviceObject [in]
 
-A pointer to the next <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a> structure in the device stack as determined by a call to <a href="..\wdm\nf-wdm-ioattachdevicetodevicestack.md">IoAttachDeviceToDeviceStack</a>.
+A pointer to the next <a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a> structure in the device stack as determined by a call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff548300">IoAttachDeviceToDeviceStack</a>.
 
 
 ### -param Descriptor [in, optional]
 
-A pointer to a <a href="..\ks\ns-ks-_ksdevice_descriptor.md">KSDEVICE_DESCRIPTOR</a> structure that describes the characteristics of the device being initialized. If this parameter is <b>NULL</b>, the device is initialized with the default characteristics and has no associated filter factories.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff561691">KSDEVICE_DESCRIPTOR</a> structure that describes the characteristics of the device being initialized. If this parameter is <b>NULL</b>, the device is initialized with the default characteristics and has no associated filter factories.
 
 
 ## -returns
@@ -106,49 +93,49 @@ A pointer to a <a href="..\ks\ns-ks-_ksdevice_descriptor.md">KSDEVICE_DESCRIPTOR
 
 
 
-Most minidrivers do not call this function directly. Only call <b>KsInitializeDevice</b> if your minidriver does not use <a href="..\ks\nf-ks-ksinitializedriver.md">KsInitializeDriver</a> for initialization, handles <b>AddDevice</b> independently, and does not use <a href="..\ks\nf-ks-ksadddevice.md">KsAddDevice</a> or <a href="..\ks\nf-ks-kscreatedevice.md">KsCreateDevice</a> in its <b>AddDevice</b> handler. 
+Most minidrivers do not call this function directly. Only call <b>KsInitializeDevice</b> if your minidriver does not use <a href="https://msdn.microsoft.com/library/windows/hardware/ff562683">KsInitializeDriver</a> for initialization, handles <b>AddDevice</b> independently, and does not use <a href="https://msdn.microsoft.com/library/windows/hardware/ff560927">KsAddDevice</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff561647">KsCreateDevice</a> in its <b>AddDevice</b> handler. 
 
 
 
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>
 
 
 
-<a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a>
 
 
 
-<a href="..\ks\nf-ks-kscreatedevice.md">KsCreateDevice</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544174">DRIVER_OBJECT</a>
 
 
 
-<a href="..\ks\nf-ks-ksinitializedriver.md">KsInitializeDriver</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548300">IoAttachDeviceToDeviceStack</a>
 
 
 
-<a href="..\ks\nf-ks-ksterminatedevice.md">KsTerminateDevice</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548397">IoCreateDevice</a>
 
 
 
-<a href="..\wdm\nf-wdm-iocreatedevice.md">IoCreateDevice</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561681">KSDEVICE</a>
 
 
 
-<a href="..\wdm\nf-wdm-ioattachdevicetodevicestack.md">IoAttachDeviceToDeviceStack</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560927">KsAddDevice</a>
 
 
 
-<a href="..\ks\nf-ks-ksadddevice.md">KsAddDevice</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561647">KsCreateDevice</a>
 
 
 
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562683">KsInitializeDriver</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567144">KsTerminateDevice</a>
  
 
  

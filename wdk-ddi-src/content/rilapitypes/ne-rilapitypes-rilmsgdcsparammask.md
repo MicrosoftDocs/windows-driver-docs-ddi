@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,21 +51,6 @@ req.product: Windows 10 or later.
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef enum _RILMSGDCSPARAMMASK { 
-  RIL_PARAM_MDCS_FLAGS,
-  RIL_PARAM_MDCS_MSGCLASS,
-  RIL_PARAM_MDCS_ALPHABET,
-  RIL_PARAM_MDCS_INDICATION,
-  RIL_PARAM_MDCS_LANGUAGE,
-  RIL_PARAM_MDCS_ALL
-} RILMSGDCSPARAMMASK;
-````
 
 
 ## -enum-fields

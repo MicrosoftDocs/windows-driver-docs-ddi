@@ -52,16 +52,6 @@ req.typenames: WIM_PROVIDER_REMOVE_OVERLAY_INPUT, *PWIM_PROVIDER_REMOVE_OVERLAY_
 A Windows Image File (WIM) data source to remove from the WIM provider is specified in the <b>WIM_PROVIDER_REMOVE_OVERLAY_INPUT</b> structure.
 
 
-## -syntax
-
-
-````
-typedef struct _WIM_PROVIDER_ADD_OVERLAY_INPUT {
-  LARGE_INTEGER DataSourceId;
-} WIM_PROVIDER_ADD_OVERLAY_INPUT, *PWIM_PROVIDER_ADD_OVERLAY_INPUT;
-````
-
-
 ## -struct-fields
 
 
@@ -83,15 +73,6 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/dn632442">FSCTL
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn632445">FSCTL_UPDATE_OVERLAY</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt426735">FSCTL_SUSPEND_OVERLAY</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn632442">FSCTL_REMOVE_OVERLAY</a>
 
 
 
@@ -99,6 +80,15 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/dn632442">FSCTL
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn632442">FSCTL_REMOVE_OVERLAY</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt426735">FSCTL_SUSPEND_OVERLAY</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn632445">FSCTL_UPDATE_OVERLAY</a>
  
 
  

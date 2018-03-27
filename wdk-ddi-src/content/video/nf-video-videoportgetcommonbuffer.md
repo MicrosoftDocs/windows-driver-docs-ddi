@@ -50,24 +50,9 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The <b>VideoPortGetCommonBuffer</b> function is <b>obsolete</b> in Windows XP and later, and is supported only for backward compatibility with existing drivers. In its place, driver writers should use <a href="..\video\nf-video-videoportallocatecommonbuffer.md">VideoPortAllocateCommonBuffer</a>.
+The <b>VideoPortGetCommonBuffer</b> function is <b>obsolete</b> in Windows XP and later, and is supported only for backward compatibility with existing drivers. In its place, driver writers should use <a href="https://msdn.microsoft.com/library/windows/hardware/ff570178">VideoPortAllocateCommonBuffer</a>.
 
 <b>VideoPortGetCommonBuffer</b> allocates and maps system memory so that it is simultaneously accessible from both the processor and a device for common-buffer DMA operations.
-
-
-## -syntax
-
-
-````
-PVOID VideoPortGetCommonBuffer(
-  _In_  PVOID             HwDeviceExtension,
-  _In_  ULONG             DesiredLength,
-  _In_  ULONG             Alignment,
-  _Out_ PPHYSICAL_ADDRESS LogicalAddress,
-  _Out_ PULONG            pActualLength,
-  _In_  BOOLEAN           CacheEnabled
-);
-````
 
 
 ## -parameters
@@ -125,10 +110,10 @@ See <a href="https://msdn.microsoft.com/fe6c2e16-d222-4948-b1df-34ed8d57d9d8">Bu
 
 ## -see-also
 
-<a href="..\video\nf-video-videoportallocatecommonbuffer.md">VideoPortAllocateCommonBuffer</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570178">VideoPortAllocateCommonBuffer</a>
  
 
  

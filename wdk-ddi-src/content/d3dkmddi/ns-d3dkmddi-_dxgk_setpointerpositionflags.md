@@ -52,23 +52,6 @@ req.typenames: DXGK_SETPOINTERPOSITIONFLAGS
 The <b>DXGK_SETPOINTERPOSITIONFLAGS</b> structure identifies, in bit-field flags, information about a mouse pointer.
 
 
-## -syntax
-
-
-````
-typedef struct _DXGK_SETPOINTERPOSITIONFLAGS {
-  union {
-    struct {
-      UINT Visible  :1;
-      UINT Procedural  :1;
-      UINT Reserved  :30;
-    };
-    UINT Value;
-  };
-} DXGK_SETPOINTERPOSITIONFLAGS;
-````
-
-
 ## -struct-fields
 
 
@@ -76,7 +59,7 @@ typedef struct _DXGK_SETPOINTERPOSITIONFLAGS {
 
 ### -field Visible
 
-[in] A <b>UINT</b> value that specifies whether the mouse pointer is visible. If this member is set, the mouse pointer is visible; if this member is not set, the mouse pointer is invisible. The driver should ignore the values in the <b>X</b> and <b>Y</b> members of the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_setpointerposition.md">DXGKARG_SETPOINTERPOSITION</a> structure if <b>Visible</b> is not set (that is, <b>Visible</b> is set to 0). 
+[in] A <b>UINT</b> value that specifies whether the mouse pointer is visible. If this member is set, the mouse pointer is visible; if this member is not set, the mouse pointer is invisible. The driver should ignore the values in the <b>X</b> and <b>Y</b> members of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff557660">DXGKARG_SETPOINTERPOSITION</a> structure if <b>Visible</b> is not set (that is, <b>Visible</b> is set to 0). 
 
 Setting this member is equivalent to setting the first bit of the 32-bit <b>Value</b> member (0x00000001).
 
@@ -102,10 +85,10 @@ Supported starting with Windows 8.
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_setpointerposition.md">DXGKARG_SETPOINTERPOSITION</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557660">DXGKARG_SETPOINTERPOSITION</a>
  
 
  

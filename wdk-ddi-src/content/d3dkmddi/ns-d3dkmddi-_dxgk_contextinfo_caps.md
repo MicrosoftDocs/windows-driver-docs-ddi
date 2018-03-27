@@ -52,24 +52,6 @@ req.typenames: DXGK_CONTEXTINFO_CAPS
 <b>DXGK_CONTEXTINFO_CAPS</b> is used to describe  the capabilities supported by a driver.
 
 
-## -syntax
-
-
-````
-typedef struct _DXGK_CONTEXTINFO_CAPS {
-  union {
-    struct {
-      UINT NoPatchingRequired  :1;
-      UINT DriverManagesResidency  :1;
-      UINT UseIoMmu  :1;
-      UINT Reserved  :29;
-    };
-    UINT   Value;
-  };
-} DXGK_CONTEXTINFO_CAPS;
-````
-
-
 ## -struct-fields
 
 

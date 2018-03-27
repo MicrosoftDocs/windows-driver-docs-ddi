@@ -52,46 +52,6 @@ req.typenames: D3D11DDI_HANDLETYPE
 Contains values that identify handle types. 
 
 
-## -syntax
-
-
-````
-typedef enum D3D11DDI_HANDLETYPE { 
-  D3D10DDI_HT_RESOURCE                           = 0,
-  D3D10DDI_HT_SHADERRESOURCEVIEW                 = 1,
-  D3D10DDI_HT_RENDERTARGETVIEW                   = 2,
-  D3D10DDI_HT_DEPTHSTENCILVIEW                   = 3,
-  D3D10DDI_HT_SHADER                             = 4,
-  D3D10DDI_HT_ELEMENTLAYOUT                      = 5,
-  D3D10DDI_HT_BLENDSTATE                         = 6,
-  D3D10DDI_HT_DEPTHSTENCILSTATE                  = 7,
-  D3D10DDI_HT_RASTERIZERSTATE                    = 8,
-  D3D10DDI_HT_SAMPLERSTATE                       = 9,
-  D3D10DDI_HT_QUERY                              = 10,
-  D3D11DDI_HT_COMMANDLIST                        = 11,
-  D3D11DDI_HT_UNORDEREDACCESSVIEW                = 12,
-#if D3D11DDI_MINOR_HEADER_VERSION >= 3
-  D3D11_1DDI_HT_DECODE                           = 13,
-  D3D11_1DDI_HT_VIDEOPROCESSORENUM               = 14,
-  D3D11_1DDI_HT_VIDEOPROCESSOR                   = 15,
-  D3D11_1DDI_HT_VIDEODECODEROUTPUTVIEW           = 16,
-  D3D11_1DDI_HT_VIDEOPROCESSORINPUTVIEW          = 17,
-  D3D11_1DDI_HT_VIDEOPROCESSOROUTPUTVIEW         = 18,
-#endif 
-#if D3D12DDI_MINOR_HEADER_VERSION >= 2
-      D3D12DDI_HT_COMMAND_QUEUE                  = ,
-      D3D12DDI_HT_COMMAND_ALLOCATOR              = ,
-      D3D12DDI_HT_PIPELINE_STATE                 = ,
-      D3D12DDI_HT_COMMAND_LIST                   = ,
-      D3D12DDI_HT_FENCE                          = ,
-      D3D12DDI_HT_DESCRIPTOR_HEAP                = ,
-      D3D12DDI_HT_HEAP                           = ,
-      D3D12DDI_HT_UNORDERED_ACCESS_VIEW_COUNTER  = 
-
-#endif } D3D11DDI_HANDLETYPE;
-````
-
-
 ## -enum-fields
 
 

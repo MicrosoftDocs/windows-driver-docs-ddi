@@ -52,23 +52,6 @@ req.typenames: RILGBATOKEN, *LPRILGBATOKEN
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef struct _RILGBATOKEN {
-  DWORD   cbSize;
-  DWORD   cbBTIDSize;
-  DWORD   dwBTIDOffset;
-  DWORD   cbNAFKeyLifetimeSize;
-  DWORD   dwNAFKeyLifetimeOffset;
-  DWORD   cbNAFKeySize;
-  DWORD   dwNAFKeyOffset;
-  BYTE [] bData;
-} RILGBATOKEN, *LPRILGBATOKEN;
-````
-
-
 ## -struct-fields
 
 

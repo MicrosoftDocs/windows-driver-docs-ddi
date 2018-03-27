@@ -54,17 +54,6 @@ The WWAN_SERVICE_ACTIVATION_STATUS structure represents the status of service ac
   device.
 
 
-## -syntax
-
-
-````
-typedef struct _WWAN_SERVICE_ACTIVATION_STATUS {
-  ULONG uNwError;
-  ULONG uVendorSpecificBufferSize;
-} WWAN_SERVICE_ACTIVATION_STATUS, *PWWAN_SERVICE_ACTIVATION_STATUS;
-````
-
-
 ## -struct-fields
 
 
@@ -85,11 +74,11 @@ The size, in bytes, of the vendor-specific buffer that follows the structure ins
 
 ## -see-also
 
-<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_service_activation_status.md">
+
+
+
+<a href="https://msdn.microsoft.com/669ef35f-0e59-4ec3-b6cc-5cb2156b51a2">
    NDIS_WWAN_SERVICE_ACTIVATION_STATUS</a>
-
-
-
  
 
  

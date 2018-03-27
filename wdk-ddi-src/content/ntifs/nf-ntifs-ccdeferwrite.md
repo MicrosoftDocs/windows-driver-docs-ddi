@@ -52,21 +52,6 @@ req.typenames: TOKEN_TYPE
 The <b>CcDeferWrite</b> routine defers writing to a cached file. The post routine that is supplied, is called by the cache manager when it can accommodate the write operation.
 
 
-## -syntax
-
-
-````
-VOID CcDeferWrite(
-  _In_ PFILE_OBJECT            FileObject,
-  _In_ PCC_POST_DEFERRED_WRITE PostRoutine,
-  _In_ PVOID                   Context1,
-  _In_ PVOID                   Context2,
-  _In_ ULONG                   BytesToWrite,
-  _In_ BOOLEAN                 Retrying
-);
-````
-
-
 ## -parameters
 
 
@@ -79,7 +64,7 @@ Pointer to a file object for the cached file to which the data is to be written.
 
 ### -param PostRoutine [in]
 
-Address of a routine for the cache manager to call to write to the cached file. Note that it is possible that this routine will be called immediately, even if <a href="..\ntifs\nf-ntifs-cccaniwrite.md">CcCanIWrite</a> has just returned <b>FALSE</b> .
+Address of a routine for the cache manager to call to write to the cached file. Note that it is possible that this routine will be called immediately, even if <a href="https://msdn.microsoft.com/library/windows/hardware/ff539021">CcCanIWrite</a> has just returned <b>FALSE</b> .
 
 The post routine is defined in ntifs.h as:
 
@@ -131,9 +116,9 @@ None
 
 
 
-A file system would normally call <b>CcDeferWrite</b> after receiving a return value of <b>FALSE</b> from <a href="..\ntifs\nf-ntifs-cccaniwrite.md">CcCanIWrite</a>.
+A file system would normally call <b>CcDeferWrite</b> after receiving a return value of <b>FALSE</b> from <a href="https://msdn.microsoft.com/library/windows/hardware/ff539021">CcCanIWrite</a>.
 
-To cache a file, use <a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a>.
+To cache a file, use <a href="https://msdn.microsoft.com/library/windows/hardware/ff539135">CcInitializeCacheMap</a>.
 
 The context parameters passed to <i>PostRoutine</i> are typically the I/O request and related context data.
 
@@ -142,18 +127,18 @@ The context parameters passed to <i>PostRoutine</i> are typically the I/O reques
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-cccaniwrite.md">CcCanIWrite</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-ccsetdirtypagethreshold.md">CcSetDirtyPageThreshold</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539021">CcCanIWrite</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539135">CcInitializeCacheMap</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539209">CcSetDirtyPageThreshold</a>
  
 
  

@@ -52,25 +52,6 @@ req.typenames: SID_NAME_USE, *PSID_NAME_USE
 The SID_NAME_USE enumeration type contains values that specify the type of a security identifier (SID).
 
 
-## -syntax
-
-
-````
-typedef enum _SID_NAME_USE { 
-  SidTypeUser            = 1,
-  SidTypeGroup           = 2,
-  SidTypeDomain          = 3,
-  SidTypeAlias           = 4,
-  SidTypeWellKnownGroup  = 5,
-  SidTypeDeletedAccount  = 6,
-  SidTypeInvalid         = 7,
-  SidTypeUnknown         = 8,
-  SidTypeComputer        = 9,
-  SidTypeLabel           = 10
-} SID_NAME_USE, *PSID_NAME_USE;
-````
-
-
 ## -enum-fields
 
 
@@ -140,14 +121,14 @@ This enumeration type is the same as the Win32 SID_NAME_USE enumeration type def
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-seclookupaccountname.md">SecLookupAccountName</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-seclookupaccountsid.md">SecLookupAccountSid</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554795">SecLookupAccountName</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556579">SecLookupAccountSid</a>
  
 
  

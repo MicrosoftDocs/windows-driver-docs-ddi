@@ -52,18 +52,6 @@ req.typenames: FILE_PROVIDER_EXTERNAL_INFO_V1, *PFILE_PROVIDER_EXTERNAL_INFO_V1
 The <b>FILE_PROVIDER_EXTERNAL_INFO_V1</b> structure defines metadata specific to files provided by WOF_PROVIDER_FILE. This provider gives efficient compression for data which will not be modified, such as executable files.  If the file is opened for write access, the file will be transparently decompressed.
 
 
-## -syntax
-
-
-````
-typedef struct _FILE_PROVIDER_EXTERNAL_INFO_V1 {
-  ULONG Version;
-  ULONG Algorithm;
-  ULONG Flags;
-} FILE_PROVIDER_EXTERNAL_INFO_V1, *PFILE_PROVIDER_EXTERNAL_INFO_V1;
-````
-
-
 ## -struct-fields
 
 
@@ -92,10 +80,10 @@ Specifies flags for the operation. Reserved for future use, should be 0.
 
 ## -see-also
 
-<a href="..\ntifs\ns-ntifs-_file_provider_external_info_v0.md">FILE_PROVIDER_EXTERNAL_INFO_V0</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt426731">FILE_PROVIDER_EXTERNAL_INFO_V0</a>
  
 
  

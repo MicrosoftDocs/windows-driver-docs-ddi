@@ -52,16 +52,6 @@ req.typenames: DXGK_QUERYPHYSICALADAPTERCAPSIN
 The <b>DXGK_QUERYPHYSICALADAPTERCAPSIN</b> structure is used to query the display driver for the capabilities of the physical display adapter.
 
 
-## -syntax
-
-
-````
-typedef struct _DXGK_QUERYPHYSICALADAPTERCAPSIN {
-  UINT PhysicalAdapterIndex;
-} DXGK_QUERYPHYSICALADAPTERCAPSIN;
-````
-
-
 ## -struct-fields
 
 

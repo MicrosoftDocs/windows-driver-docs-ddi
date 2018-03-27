@@ -52,17 +52,6 @@ req.typenames: DXVAHDDDI_COLOR
 The DXVAHDDDI_COLOR union contains information that specifies color with either a YCbCr or RGB color structure.  
 
 
-## -syntax
-
-
-````
-typedef union _DXVAHDDDI_COLOR {
-  DXVAHDDDI_COLOR_RGBA   RGB;
-  DXVAHDDDI_COLOR_YCbCrA YCbCr;
-} DXVAHDDDI_COLOR;
-````
-
-
 ## -struct-fields
 
 
@@ -70,24 +59,24 @@ typedef union _DXVAHDDDI_COLOR {
 
 ### -field RGB
 
-[in] A <a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_color_rgba.md">DXVAHDDDI_COLOR_RGBA</a> structure that describes color in RGB terms. 
+[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff563027">DXVAHDDDI_COLOR_RGBA</a> structure that describes color in RGB terms. 
 
 
 ### -field YCbCr
 
-[in] A <a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_color_ycbcra.md">DXVAHDDDI_COLOR_YCbCrA</a> structure that describes color in a YCbCr terms. 
+[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff563033">DXVAHDDDI_COLOR_YCbCrA</a> structure that describes color in a YCbCr terms. 
 
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_color_rgba.md">DXVAHDDDI_COLOR_RGBA</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_color_ycbcra.md">DXVAHDDDI_COLOR_YCbCrA</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563027">DXVAHDDDI_COLOR_RGBA</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563033">DXVAHDDDI_COLOR_YCbCrA</a>
  
 
  

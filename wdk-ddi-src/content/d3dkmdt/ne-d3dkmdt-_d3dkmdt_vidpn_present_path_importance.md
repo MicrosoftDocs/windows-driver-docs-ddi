@@ -52,26 +52,6 @@ req.typenames: D3DKMDT_VIDPN_PRESENT_PATH_IMPORTANCE
 The D3DKMDT_VIDPN_PRESENT_PATH_IMPORTANCE enumeration indicates the importance of a video present path.
 
 
-## -syntax
-
-
-````
-typedef enum _D3DKMDT_VIDPN_PRESENT_PATH_IMPORTANCE { 
-  D3DKMDT_VPPI_UNINITIALIZED  = 0,
-  D3DKMDT_VPPI_PRIMARY        = 1,
-  D3DKMDT_VPPI_SECONDARY      = 2,
-  D3DKMDT_VPPI_TERTIARY       = 3,
-  D3DKMDT_VPPI_QUATERNARY     = 4,
-  D3DKMDT_VPPI_QUINARY        = 5,
-  D3DKMDT_VPPI_SENARY         = 6,
-  D3DKMDT_VPPI_SEPTENARY      = 7,
-  D3DKMDT_VPPI_OCTONARY       = 8,
-  D3DKMDT_VPPI_NONARY         = 9,
-  D3DKMDT_VPPI_DENARY         = 10
-} D3DKMDT_VIDPN_PRESENT_PATH_IMPORTANCE;
-````
-
-
 ## -enum-fields
 
 
@@ -142,17 +122,17 @@ A variable of type D3DKMDT_VIDPN_PRESENT_PATH_IMPORTANCE can have any integer va
 
 It is useful to rank the video present paths in a video present network (VidPN) according to importance. For example, a path that represents the primary view can be assigned a higher importance than other paths so that it gets the best source and target mode sets.
 
-The <b>ImportanceOrdinal</b> member of the <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_vidpn_present_path.md">D3DKMDT_VIDPN_PRESENT_PATH</a> structure is a D3DKMDT_VIDPN_PRESENT_PATH_IMPORTANCE value. Path importance ordinal numbers are unique within a given VidPN topology. 
+The <b>ImportanceOrdinal</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff546647">D3DKMDT_VIDPN_PRESENT_PATH</a> structure is a D3DKMDT_VIDPN_PRESENT_PATH_IMPORTANCE value. Path importance ordinal numbers are unique within a given VidPN topology. 
 
 
 
 
 ## -see-also
 
-<a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_vidpn_present_path.md">D3DKMDT_VIDPN_PRESENT_PATH</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546647">D3DKMDT_VIDPN_PRESENT_PATH</a>
  
 
  

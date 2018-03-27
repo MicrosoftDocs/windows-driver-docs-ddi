@@ -52,18 +52,6 @@ req.typenames: RILCALLINFODISCONNECTINITIATOR
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef enum _RILCALLINFODISCONNECTINITIATOR { 
-  RIL_DISCINIT_LOCAL,
-  RIL_DISCINIT_REMOTE,
-  RIL_DISCINIT_MAX
-} RILCALLINFODISCONNECTINITIATOR;
-````
-
-
 ## -enum-fields
 
 

@@ -52,17 +52,6 @@ req.typenames: MPIO_CONTROLLER_CONFIGURATION, *PMPIO_CONTROLLER_CONFIGURATION
 The MPIO_CONTROLLER_CONFIGURATION structure provides a top-level view of the storage controllers and the targets that are connected to them in the system.
 
 
-## -syntax
-
-
-````
-typedef struct _MPIO_CONTROLLER_CONFIGURATION {
-  ULONG                NumberControllers;
-  MPIO_CONTROLLER_INFO ControllerInfo[1];
-} MPIO_CONTROLLER_CONFIGURATION, *PMPIO_CONTROLLER_CONFIGURATION;
-````
-
-
 ## -struct-fields
 
 

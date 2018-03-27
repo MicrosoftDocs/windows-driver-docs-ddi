@@ -53,18 +53,6 @@ req.product: Windows 10 or later.
 The WDI_SCAN_TYPE enumeration defines the scan types.
 
 
-## -syntax
-
-
-````
-typedef enum _WDI_SCAN_TYPE { 
-  WDI_SCAN_TYPE_ACTIVE_ONLY   = 1,
-  WDI_SCAN_TYPE_PASSIVE_ONLY  = 2,
-  WDI_SCAN_TYPE_AUTO          = 3
-} WDI_SCAN_TYPE;
-````
-
-
 ## -enum-fields
 
 

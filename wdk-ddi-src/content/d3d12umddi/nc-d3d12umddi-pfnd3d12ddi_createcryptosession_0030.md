@@ -52,19 +52,6 @@ req.typenames: D3D11_1DDI_GETCAPTUREHANDLEDATA
 Used to create a crypto session.
 
 
-## -prototype
-
-
-````
-HRESULT APIENTRY* PFND3D12DDI_CREATECRYPTOSESSION_0030(
-             D3D12DDI_HDEVICE                       hDrvDevice,
-  _In_ const D3D12DDIARG_CREATE_CRYPTO_SESSION_0030 *pArgs,
-             D3D12DDI_HCRYPTOSESSION_0030           hDrvCryptoSession,
-             D3D12DDI_HRTPROTECTEDSESSION_0030      hRtProtectedSession
-);
-````
-
-
 ## -parameters
 
 

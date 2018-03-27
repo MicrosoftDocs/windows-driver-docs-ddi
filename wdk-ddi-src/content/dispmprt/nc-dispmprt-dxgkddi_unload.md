@@ -52,19 +52,6 @@ req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
 The <i>DxgkDdiUnload</i> function frees any resources allocated during execution of the display miniport driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> function.
 
 
-## -prototype
-
-
-````
-DXGKDDI_UNLOAD DxgkDdiUnload;
-
-VOID DxgkDdiUnload(
-   VOID 
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -100,10 +87,10 @@ Typically, there will be nothing to do in <i>DxgkDdiUnload</i>.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556157">DriverEntry of Display Miniport Driver</a>
-
-
-
  
 
  

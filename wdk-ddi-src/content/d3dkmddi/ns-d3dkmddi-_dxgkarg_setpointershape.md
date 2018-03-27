@@ -52,23 +52,6 @@ req.typenames: DXGKARG_SETPOINTERSHAPE
 The DXGKARG_SETPOINTERSHAPE structure describes the appearance of the mouse pointer and the location that it should be displayed in. 
 
 
-## -syntax
-
-
-````
-typedef struct _DXGKARG_SETPOINTERSHAPE {
-  DXGK_POINTERFLAGS              Flags;
-  UINT                           Width;
-  UINT                           Height;
-  UINT                           Pitch;
-  D3DDDI_VIDEO_PRESENT_SOURCE_ID VidPnSourceId;
-  const VOID                     *pPixels;
-  UINT                           XHot;
-  UINT                           YHot;
-} DXGKARG_SETPOINTERSHAPE;
-````
-
-
 ## -struct-fields
 
 
@@ -76,7 +59,7 @@ typedef struct _DXGKARG_SETPOINTERSHAPE {
 
 ### -field Flags
 
-[in] A <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_pointerflags.md">DXGK_POINTERFLAGS</a> structure that identifies, in bit-field flags, how to display the mouse pointer.
+[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff561995">DXGK_POINTERFLAGS</a> structure that identifies, in bit-field flags, how to display the mouse pointer.
 
 
 ### -field Width
@@ -178,14 +161,14 @@ The <b>XHot</b> and <b>YHot</b> members are used by display miniport drivers tha
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_pointerflags.md">DXGK_POINTERFLAGS</a>
 
 
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_setpointershape.md">DxgkDdiSetPointerShape</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561995">DXGK_POINTERFLAGS</a>
 
 
 
+<a href="https://msdn.microsoft.com/36b462f7-5bad-4716-8138-af00d20e945b">DxgkDdiSetPointerShape</a>
  
 
  

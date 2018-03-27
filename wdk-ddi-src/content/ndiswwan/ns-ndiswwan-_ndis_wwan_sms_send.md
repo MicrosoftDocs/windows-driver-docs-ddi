@@ -52,17 +52,6 @@ req.typenames: NDIS_WWAN_SMS_SEND, *PNDIS_WWAN_SMS_SEND
 The NDIS_WWAN_SMS_SEND structure represents an SMS message to send.
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_WWAN_SMS_SEND {
-  NDIS_OBJECT_HEADER Header;
-  WWAN_SMS_SEND      SmsSend;
-} NDIS_WWAN_SMS_SEND, *PNDIS_WWAN_SMS_SEND;
-````
-
-
 ## -struct-fields
 
 
@@ -116,26 +105,26 @@ sizeof(NDIS_WWAN_SMS_SEND)
  
 
 For more information about these members, see 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>.
 
 
 ### -field SmsSend
 
 A formatted 
-     <a href="..\wwan\ns-wwan-_wwan_sms_send.md">WWAN_SMS_SEND</a> object that represents a SMS
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571250">WWAN_SMS_SEND</a> object that represents a SMS
      text message to send.
 
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_sms_send.md">WWAN_SMS_SEND</a>
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571250">WWAN_SMS_SEND</a>
  
 
  

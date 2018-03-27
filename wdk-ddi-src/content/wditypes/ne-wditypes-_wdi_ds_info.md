@@ -53,18 +53,6 @@ req.product: Windows 10 or later.
 The WDI_DS_INFO enumeration defines values that specify whether the port is connected to the same DS that it was previously associated to.
 
 
-## -syntax
-
-
-````
-typedef enum _WDI_DS_INFO { 
-  WDI_DS_CHANGED    = 1,
-  WDI_DS_UNCHANGED  = 2,
-  WDI_DS_UNKNOWN    = 3
-} WDI_DS_INFO;
-````
-
-
 ## -enum-fields
 
 

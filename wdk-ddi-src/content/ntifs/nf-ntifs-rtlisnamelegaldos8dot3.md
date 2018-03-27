@@ -52,18 +52,6 @@ req.typenames: TOKEN_TYPE
 The <b>RtlIsNameLegalDOS8Dot3</b> routine determines whether a given name represents a valid short (8.3) file name. 
 
 
-## -syntax
-
-
-````
-BOOLEAN RtlIsNameLegalDOS8Dot3(
-  _In_      PCUNICODE_STRING Name,
-  _Inout_   POEM_STRING      OemName,
-  _Out_opt_ PBOOLEAN         NameContainsSpaces
-);
-````
-
-
 ## -parameters
 
 
@@ -108,7 +96,6 @@ If the block of memory at <i>Name</i> is nonpaged, the caller can be running at 
 
 ## -see-also
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 
 
@@ -116,10 +103,11 @@ If the block of memory at <i>Name</i> is nonpaged, the caller can be running at 
 
 
 
-<a href="..\ntifs\nf-ntifs-rtlgenerate8dot3name.md">RtlGenerate8dot3Name</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552285">RtlGenerate8dot3Name</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a>
  
 
  

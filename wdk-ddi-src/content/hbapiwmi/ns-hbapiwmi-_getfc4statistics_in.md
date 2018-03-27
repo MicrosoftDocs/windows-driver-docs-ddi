@@ -52,17 +52,6 @@ req.typenames: GetFC4Statistics_IN, *PGetFC4Statistics_IN
 The GetFC4Statistics_IN structure is used to pass input parameter data to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff553949">GetFC4Statistics</a> WMI method.
 
 
-## -syntax
-
-
-````
-typedef struct _GetFC4Statistics_IN {
-  UCHAR PortWWN[8];
-  UCHAR FC4Type;
-} GetFC4Statistics_IN, *PGetFC4Statistics_IN;
-````
-
-
 ## -struct-fields
 
 
@@ -93,10 +82,10 @@ For a definition of Nx_Port, see the T11 committee's specification for <i>Fibre 
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553949">GetFC4Statistics</a>
-
-
-
  
 
  

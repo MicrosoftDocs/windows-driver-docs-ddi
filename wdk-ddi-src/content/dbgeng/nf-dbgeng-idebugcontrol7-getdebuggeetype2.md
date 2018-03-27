@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -50,18 +50,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The GetDebuggeeType2 method describes the nature of the current target. 
-
-
-## -syntax
-
-
-````
-void GetDebuggeeType2(
-  [in]  ULONG  Flags,
-  [out] PULONG Class,
-  [out] PULONG Qualifier
-);
-````
 
 
 ## -parameters
@@ -258,10 +246,10 @@ This method does not return a value.
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol7.md">IDebugControl7</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn818571">IDebugControl7</a>
  
 
  

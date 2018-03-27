@@ -52,17 +52,6 @@ req.typenames: NDIS_WWAN_DEVICE_SERVICE_COMMAND, *PNDIS_WWAN_DEVICE_SERVICE_COMM
 The NDIS_WWAN_DEVICE_SERVICE_COMMAND structure describes device service command data.
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_WWAN_DEVICE_SERVICE_COMMAND {
-  NDIS_OBJECT_HEADER          Header;
-  WWAN_DEVICE_SERVICE_COMMAND Command;
-} NDIS_WWAN_DEVICE_SERVICE_COMMAND, *PNDIS_WWAN_DEVICE_SERVICE_COMMAND;
-````
-
-
 ## -struct-fields
 
 
@@ -116,7 +105,7 @@ sizeof(NDIS_WWAN_DEVICE_SERVICE_COMMAND)
  
 
 For more information about these members, see 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>.
 
 
 ### -field Command
@@ -126,10 +115,10 @@ The device service command.
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_device_service_command.md">WWAN_DEVICE_SERVICE_COMMAND</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh831869">WWAN_DEVICE_SERVICE_COMMAND</a>
  
 
  

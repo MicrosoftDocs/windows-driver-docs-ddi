@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
@@ -51,16 +51,6 @@ req.product: Windows 10 or later.
 
 
 <b>RxCeTearDownTransport</b> unbinds an RDBSS transport object.
-
-
-## -syntax
-
-
-````
-NTSTATUS RxCeTearDownTransport(
-  _In_ PRXCE_TRANSPORT pTransport
-);
-````
 
 
 ## -parameters
@@ -114,10 +104,10 @@ If a transport that has not been bound to is specified in the <i>pTransport</i> 
 
 ## -see-also
 
-<a href="..\rxce\nf-rxce-rxcebuildtransport.md">RxCeBuildTransport</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553434">RxCeBuildTransport</a>
  
 
  

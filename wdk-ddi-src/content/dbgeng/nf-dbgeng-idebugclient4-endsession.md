@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -54,16 +54,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>EndSession</b> method ends the current debugger session.
-
-
-## -syntax
-
-
-````
-HRESULT EndSession(
-  [in] ULONG Flags
-);
-````
 
 
 ## -parameters

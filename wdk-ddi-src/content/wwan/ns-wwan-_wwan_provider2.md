@@ -53,19 +53,6 @@ req.product: Windows 10 or later.
 The WWAN_PROVIDER2 structure describes the details of a network provider.
 
 
-## -syntax
-
-
-````
-typedef struct _WWAN_PROVIDER2 {
-  WWAN_PROVIDER       Provider;
-  WWAN_CELLULAR_CLASS WwanCellularClass;
-  ULONG               Rssi;
-  ULONG               ErrorRate;
-} WWAN_PROVIDER2, *PWWAN_PROVIDER2;
-````
-
-
 ## -struct-fields
 
 
@@ -83,28 +70,28 @@ The cellular class that the provider uses.
 
 ### -field Rssi
 
-A value that represents the strength of the wireless signal. Please refer to <a href="..\wwan\ns-wwan-_wwan_signal_state.md">WWAN_SIGNAL_STATE</a> on the format of this member.
+A value that represents the strength of the wireless signal. Please refer to <a href="https://msdn.microsoft.com/library/windows/hardware/ff571239">WWAN_SIGNAL_STATE</a> on the format of this member.
 
 
 ### -field ErrorRate
 
-	A coded value that represents a percentage range of error rates. Please refer to <a href="..\wwan\ns-wwan-_wwan_signal_state.md">WWAN_SIGNAL_STATE</a> on the format of this member.
+	A coded value that represents a percentage range of error rates. Please refer to <a href="https://msdn.microsoft.com/library/windows/hardware/ff571239">WWAN_SIGNAL_STATE</a> on the format of this member.
 
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_provider.md">WWAN_PROVIDER</a>
 
 
 
-<a href="..\wwan\ne-wwan-_wwan_cellular_class.md">WWAN_CELLULAR_CLASS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571199">WWAN_CELLULAR_CLASS</a>
 
 
 
-<a href="..\wwan\ns-wwan-_wwan_signal_state.md">WWAN_SIGNAL_STATE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571223">WWAN_PROVIDER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571239">WWAN_SIGNAL_STATE</a>
  
 
  

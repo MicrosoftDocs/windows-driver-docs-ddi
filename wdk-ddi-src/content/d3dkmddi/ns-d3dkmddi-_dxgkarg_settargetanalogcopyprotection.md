@@ -52,19 +52,6 @@ req.typenames: DXGKARG_SETTARGETANALOGCOPYPROTECTION
 Holds information to set analog copy protection on a display adapter's video present target.
 
 
-## -syntax
-
-
-````
-typedef struct _DXGKARG_SETTARGETANALOGCOPYPROTECTION {
-  D3DDDI_VIDEO_PRESENT_TARGET_ID                    TargetId;
-  D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION_TYPE    CopyProtectionType;
-  UINT                                              APSTriggerBits;
-  D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION_SUPPORT CopyProtectionSupport;
-} DXGKARG_SETTARGETANALOGCOPYPROTECTION;
-````
-
-
 ## -struct-fields
 
 

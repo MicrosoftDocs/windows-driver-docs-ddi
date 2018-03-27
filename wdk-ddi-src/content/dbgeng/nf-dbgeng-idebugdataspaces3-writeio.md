@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -53,22 +53,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>WriteIo</b> method writes to the system and bus I/O memory.
-
-
-## -syntax
-
-
-````
-HRESULT WriteIo(
-  [in]            ULONG   InterfaceType,
-  [in]            ULONG   BusNumber,
-  [in]            ULONG   AddressSpace,
-  [in]            ULONG64 Offset,
-  [in]            PVOID   Buffer,
-  [in]            ULONG   BufferSize,
-  [out, optional] PULONG  BytesWritten
-);
-````
 
 
 ## -parameters

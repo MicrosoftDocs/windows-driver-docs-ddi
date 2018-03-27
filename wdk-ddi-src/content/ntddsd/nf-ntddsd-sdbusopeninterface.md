@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: "< DISPATCH_LEVEL"
 topic_type:
@@ -50,19 +50,6 @@ req.typenames: SD_REQUEST_FUNCTION
 
 
 The <b>SdBusOpenInterface</b> routine obtains an interface from the Secure Digital (SD) bus driver.
-
-
-## -syntax
-
-
-````
-NTSTATUS SdBusOpenInterface(
-  _In_  PDEVICE_OBJECT            Pdo,
-  _Out_ PSDBUS_INTERFACE_STANDARD InterfaceStandard,
-  _In_  USHORT                    Size,
-  _In_  USHORT                    Version
-);
-````
 
 
 ## -parameters
@@ -112,7 +99,6 @@ SD card drivers must call this routine to establish communication with the bus d
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/92b8762d-8af3-493c-aa1d-bc245b0cbd83">SDBUS_INTERFACE_STANDARD</a>
 
 
 
@@ -120,6 +106,7 @@ SD card drivers must call this routine to establish communication with the bus d
 
 
 
+<a href="https://msdn.microsoft.com/92b8762d-8af3-493c-aa1d-bc245b0cbd83">SDBUS_INTERFACE_STANDARD</a>
  
 
  

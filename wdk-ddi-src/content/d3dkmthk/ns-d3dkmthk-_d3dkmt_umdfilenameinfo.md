@@ -52,17 +52,6 @@ req.typenames: D3DKMT_UMDFILENAMEINFO
 The D3DKMT_UMDFILENAMEINFO structure contains the name of an OpenGL ICD that is based on the specified version of the DirectX runtime. 
 
 
-## -syntax
-
-
-````
-typedef struct _D3DKMT_UMDFILENAMEINFO {
-  KMTUMDVERSION Version;
-  WCHAR         UmdFileName[MAX_PATH];
-} D3DKMT_UMDFILENAMEINFO;
-````
-
-
 ## -struct-fields
 
 

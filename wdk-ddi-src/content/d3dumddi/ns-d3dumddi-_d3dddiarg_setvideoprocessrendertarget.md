@@ -52,18 +52,6 @@ req.typenames: D3DDDIARG_SETVIDEOPROCESSRENDERTARGET
 The D3DDDIARG_SETVIDEOPROCESSRENDERTARGET structure describes the render target surface for video processing. 
 
 
-## -syntax
-
-
-````
-typedef struct _D3DDDIARG_SETVIDEOPROCESSRENDERTARGET {
-  HANDLE hVideoProcess;
-  HANDLE hRenderTarget;
-  UINT   SubResourceIndex;
-} D3DDDIARG_SETVIDEOPROCESSRENDERTARGET;
-````
-
-
 ## -struct-fields
 
 
@@ -71,7 +59,7 @@ typedef struct _D3DDDIARG_SETVIDEOPROCESSRENDERTARGET {
 
 ### -field hVideoProcess
 
-[in] A handle to the Microsoft DirectX Video Acceleration (DirectX VA) video processing device. The user-mode display driver returns this handle in a call to its <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createvideoprocessdevice.md">CreateVideoProcessDevice</a> function.
+[in] A handle to the Microsoft DirectX Video Acceleration (DirectX VA) video processing device. The user-mode display driver returns this handle in a call to its <a href="https://msdn.microsoft.com/3149c7d9-0bf7-4355-8f15-821cf6b92f0a">CreateVideoProcessDevice</a> function.
 
 
 ### -field hRenderTarget
@@ -86,14 +74,14 @@ typedef struct _D3DDDIARG_SETVIDEOPROCESSRENDERTARGET {
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setvideoprocessrendertarget.md">SetVideoProcessRenderTarget</a>
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createvideoprocessdevice.md">CreateVideoProcessDevice</a>
+<a href="https://msdn.microsoft.com/3149c7d9-0bf7-4355-8f15-821cf6b92f0a">CreateVideoProcessDevice</a>
 
 
 
+<a href="https://msdn.microsoft.com/8aa7e23e-f52e-4252-9f22-56ce523f6cba">SetVideoProcessRenderTarget</a>
  
 
  

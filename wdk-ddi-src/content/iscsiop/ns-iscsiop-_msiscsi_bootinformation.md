@@ -52,18 +52,6 @@ req.typenames: MSiSCSI_BootInformation, *PMSiSCSI_BootInformation
 The MSiSCSI_BootInformation structure is used with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562984">MSiSCSI_BootInformation WMI Class</a> to expose information about the node that contains the target boot device. 
 
 
-## -syntax
-
-
-````
-typedef struct _MSiSCSI_BootInformation {
-  UCHAR NodeName[223];
-  ULONG SharedSecretLength;
-  UCHAR SharedSecret[255];
-} MSiSCSI_BootInformation, *PMSiSCSI_BootInformation;
-````
-
-
 ## -struct-fields
 
 
@@ -95,10 +83,10 @@ You must implement this class if the adapter supports iSCSI boot.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/a6ed673a-b5c1-4857-803a-4f0f3cf798d8">MSiSCSI_BootInformationWMI Class</a>
-
-
-
  
 
  

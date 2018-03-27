@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: 
+req.irql: "<=DISPATCH_LEVEL"
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -50,18 +50,6 @@ req.typenames: STORAGE_PROTOCOL_UFS_DATA_TYPE, *PSTORAGE_PROTOCOL_UFS_DATA_TYPE
 
 
 The UFS (Universal Flash Storage) data type. Describes the type of UFS specific data that's to be queried during an <a href="https://msdn.microsoft.com/library/windows/hardware/ff560590">IOCTL_STORAGE_QUERY_PROPERTY</a> request.
-
-
-## -syntax
-
-
-````
-typedef enum _STORAGE_PROTOCOL_UFS_DATA_TYPE { 
-  UfsDataTypeUnknown              = 0,
-      UfsDataTypeQueryDescriptor,
-          UfsDataTypeMax
-} STORAGE_PROTOCOL_UFS_DATA_TYPE;
-````
 
 
 ## -enum-fields
@@ -86,10 +74,10 @@ Max size of data type.
 
 ## -see-also
 
-<a href="..\ntddstor\ns-ntddstor-_storage_protocol_data_descriptor.md">STORAGE_PROTOCOL_DATA_DESCRIPTOR</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn931815">STORAGE_PROTOCOL_DATA_DESCRIPTOR</a>
  
 
  

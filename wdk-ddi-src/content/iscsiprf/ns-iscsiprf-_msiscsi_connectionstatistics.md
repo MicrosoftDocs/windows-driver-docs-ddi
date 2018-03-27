@@ -52,23 +52,6 @@ req.typenames: MSiSCSI_ConnectionStatistics, *PMSiSCSI_ConnectionStatistics
 The <b>MSiSCSI_ConnectionStatistics</b> structure is used by iSCSI initiators to report statistics for a connection within a session. 
 
 
-## -syntax
-
-
-````
-typedef struct _MSiSCSI_ConnectionStatistics {
-  WCHAR     iSCSIName[223 + 1];
-  USHORT    CID;
-  ULONGLONG USID;
-  ULONGLONG UniqueAdapterId;
-  ULONGLONG BytesSent;
-  ULONGLONG BytesReceived;
-  ULONGLONG PDUCommandsSent;
-  ULONGLONG PDUResponsesReceived;
-} MSiSCSI_ConnectionStatistics, *PMSiSCSI_ConnectionStatistics;
-````
-
-
 ## -struct-fields
 
 
@@ -91,7 +74,7 @@ The iSCSI session ID for this connection instance. This ID is an internal value 
 
 ### -field UniqueAdapterId
 
-A 64-bit integer that uniquely identifies an HBA initiator and a loaded instance of a storage miniport driver that manages the HBA. The initiator should use the address of the adapter extension or another address that the device driver owns to construct this ID. The initiator reports this value in the <b>UniqueAdapterId</b> member of the <a href="..\iscsimgt\ns-iscsimgt-_msiscsi_hbainformation.md">MSiSCSI_HBAInformation</a> structure.
+A 64-bit integer that uniquely identifies an HBA initiator and a loaded instance of a storage miniport driver that manages the HBA. The initiator should use the address of the adapter extension or another address that the device driver owns to construct this ID. The initiator reports this value in the <b>UniqueAdapterId</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563012">MSiSCSI_HBAInformation</a> structure.
 
 
 ### -field BytesSent
@@ -132,12 +115,15 @@ Initiators must register the <a href="https://msdn.microsoft.com/library/windows
 </table></span></div>
 The first number sign (#) is the value in the <b>USID</b> member of <b>MSiSCSI_ConnectionStatistics</b>, and the second number sign (#) is the value in the <b>CID</b> member. It is optional that you implement this class.
 
-The totals tracked by this structure are valid for the lifetime of the connection in the session. Totals for all connections in a session are obtained in <a href="..\iscsiprf\ns-iscsiprf-_msiscsi_sessionstatistics.md">MSiSCSI_SessionStatistics</a> structure.
+The totals tracked by this structure are valid for the lifetime of the connection in the session. Totals for all connections in a session are obtained in <a href="https://msdn.microsoft.com/library/windows/hardware/ff563137">MSiSCSI_SessionStatistics</a> structure.
 
 
 
 
 ## -see-also
+
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a>
 
@@ -147,14 +133,11 @@ The totals tracked by this structure are valid for the lifetime of the connectio
 
 
 
-<a href="..\iscsimgt\ns-iscsimgt-_msiscsi_hbainformation.md">MSiSCSI_HBAInformation</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff562989">MSiSCSI_ConnectionStatistics WMI Class</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563012">MSiSCSI_HBAInformation</a>
  
 
  

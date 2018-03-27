@@ -52,21 +52,6 @@ req.typenames: STOR_DEVICE_POWER_STATE, *PSTOR_DEVICE_POWER_STATE
 The STOR_DEVICE_POWER_STATE enumerator specifies a device power state.
 
 
-## -syntax
-
-
-````
-typedef enum _STOR_DEVICE_POWER_STATE { 
-  StorPowerDeviceUnspecified  = 0,
-  StorPowerDeviceD0           = 1,
-  StorPowerDeviceD1           = 2,
-  StorPowerDeviceD2           = 3,
-  StorPowerDeviceD3           = 4,
-  StorPowerDeviceMaximum      = 5
-} STOR_DEVICE_POWER_STATE, *PSTOR_DEVICE_POWER_STATE;
-````
-
-
 ## -enum-fields
 
 
@@ -104,10 +89,10 @@ The upper delimiting value on device power states.
 
 ## -see-also
 
-<a href="..\storport\ns-storport-_scsi_power_request_block.md">SCSI_POWER_REQUEST_BLOCK</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565389">SCSI_POWER_REQUEST_BLOCK</a>
  
 
  

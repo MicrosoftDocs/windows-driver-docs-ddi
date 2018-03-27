@@ -52,17 +52,6 @@ req.typenames: D3DKMT_PNP_KEY_TYPE
 An enum that indicates the type of PNP key. 
 
 
-## -syntax
-
-
-````
-typedef enum _D3DKMT_PNP_KEY_TYPE { 
-  D3DKMT_PNP_KEY_HARDWARE  = 1,
-  D3DKMT_PNP_KEY_SOFTWARE  = 2
-} D3DKMT_PNP_KEY_TYPE;
-````
-
-
 ## -enum-fields
 
 

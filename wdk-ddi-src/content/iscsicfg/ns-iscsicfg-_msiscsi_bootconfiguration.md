@@ -52,25 +52,6 @@ req.typenames: MSiSCSI_BootConfiguration, *PMSiSCSI_BootConfiguration
 The MSiSCSI_BootConfiguration structure describes how the boot device is configured. 
 
 
-## -syntax
-
-
-````
-typedef struct _MSiSCSI_BootConfiguration {
-  ULONGLONG          LUN;
-  ULONGLONG          SecurityFlags;
-  ULONG              UsernameSize;
-  ULONG              PasswordSize;
-  BOOLEAN            DiscoverBootDevice;
-  WCHAR              InitiatorNode[223 + 1];
-  WCHAR              TargetName[223 + 1];
-  ISCSI_TargetPortal TargetPortal;
-  ISCSI_LoginOptions LoginOptions;
-  UCHAR              Username[1];
-} MSiSCSI_BootConfiguration, *PMSiSCSI_BootConfiguration;
-````
-
-
 ## -struct-fields
 
 
@@ -113,12 +94,12 @@ The iSCSI name for the target that contains the boot device.
 
 ### -field TargetPortal
 
-A <a href="..\iscsidef\ns-iscsidef-_iscsi_targetportal.md">ISCSI_TargetPortal</a> structure that specifies the portal to use for the connection.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff561574">ISCSI_TargetPortal</a> structure that specifies the portal to use for the connection.
 
 
 ### -field LoginOptions
 
-A <a href="..\iscsidef\ns-iscsidef-_iscsi_loginoptions.md">ISCSI_LoginOptions</a> structure that specifies the characteristics of the logon session to establish with the boot device.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff561541">ISCSI_LoginOptions</a> structure that specifies the characteristics of the logon session to establish with the boot device.
 
 
 ### -field Username
@@ -137,11 +118,14 @@ The WMI tool suite automatically generates a declaration of the MSiSCSI_BootConf
 
 ## -see-also
 
-<a href="..\iscsidef\ns-iscsidef-_iscsi_loginoptions.md">ISCSI_LoginOptions</a>
 
 
 
-<a href="..\iscsidef\ns-iscsidef-_iscsi_targetportal.md">ISCSI_TargetPortal</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561541">ISCSI_LoginOptions</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561574">ISCSI_TargetPortal</a>
 
 
 
@@ -150,9 +134,6 @@ The WMI tool suite automatically generates a declaration of the MSiSCSI_BootConf
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565399">SECURITY_FLAG_QUALIFIERS</a>
-
-
-
  
 
  

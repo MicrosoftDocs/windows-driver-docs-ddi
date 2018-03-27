@@ -52,17 +52,6 @@ req.typenames: FEATURE_DATA_DISC_CONTROL_BLOCKS, *PFEATURE_DATA_DISC_CONTROL_BLO
 The FEATURE_DATA_DISC_CONTROL_BLOCKS structure holds an array of the data reported for the Disc Control Block feature. 
 
 
-## -syntax
-
-
-````
-typedef struct _FEATURE_DATA_DISC_CONTROL_BLOCKS {
-  FEATURE_HEADER                      Header;
-  FEATURE_DATA_DISC_CONTROL_BLOCKS_EX Data[];
-} FEATURE_DATA_DISC_CONTROL_BLOCKS, *PFEATURE_DATA_DISC_CONTROL_BLOCKS;
-````
-
-
 ## -struct-fields
 
 
@@ -70,12 +59,12 @@ typedef struct _FEATURE_DATA_DISC_CONTROL_BLOCKS {
 
 ### -field Header
 
-Contains a <a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a> structure with header information for this feature descriptor. 
+Contains a <a href="https://msdn.microsoft.com/library/windows/hardware/ff553848">FEATURE_HEADER</a> structure with header information for this feature descriptor. 
 
 
 ### -field Data
 
-Contains zero, one, or more disk control blocks. Each disk control block is contained in a <a href="..\ntddmmc\ns-ntddmmc-_feature_data_disc_control_blocks_ex.md">FEATURE_DATA_DISC_CONTROL_BLOCKS_EX</a> structure. 
+Contains zero, one, or more disk control blocks. Each disk control block is contained in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff553783">FEATURE_DATA_DISC_CONTROL_BLOCKS_EX</a> structure. 
 
 
 ## -remarks
@@ -89,18 +78,18 @@ This structure holds data for the feature named "Disc Control Blocks" by the <i>
 
 ## -see-also
 
-<a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a>
 
 
 
-<a href="..\ntddmmc\ne-ntddmmc-_feature_number.md">FEATURE_NUMBER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553783">FEATURE_DATA_DISC_CONTROL_BLOCKS_EX</a>
 
 
 
-<a href="..\ntddmmc\ns-ntddmmc-_feature_data_disc_control_blocks_ex.md">FEATURE_DATA_DISC_CONTROL_BLOCKS_EX</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553848">FEATURE_HEADER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553850">FEATURE_NUMBER</a>
  
 
  

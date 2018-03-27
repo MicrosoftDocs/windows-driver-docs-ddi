@@ -49,20 +49,7 @@ req.typenames: TAPE_SET_POSITION, *PTAPE_SET_POSITION
 ## -description
 
 
-The TAPE_SET_POSITION structure is used in conjunction with the <a href="..\ntddtape\ni-ntddtape-ioctl_tape_set_position.md">IOCTL_TAPE_SET_POSITION</a> request to move the current position on the tape to the specified partition and offset.
-
-
-## -syntax
-
-
-````
-typedef struct _TAPE_SET_POSITION {
-  ULONG         Method;
-  ULONG         Partition;
-  LARGE_INTEGER Offset;
-  BOOLEAN       Immediate;
-} TAPE_SET_POSITION, *PTAPE_SET_POSITION;
-````
+The TAPE_SET_POSITION structure is used in conjunction with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560637">IOCTL_TAPE_SET_POSITION</a> request to move the current position on the tape to the specified partition and offset.
 
 
 ## -struct-fields
@@ -162,6 +149,56 @@ Specifies an offset whose type depends on the value in <b>Method</b>. If the spe
 When set to <b>TRUE</b>, indicates that the target device should return status immediately. When set to <b>FALSE</b>, indicates that the device should return status after the operation is complete. 
 
 
+##### - Method.TAPE_ABSOLUTE_BLOCK
+
+Positions the tape at the absolute block address located at the offset from the beginning specified by <b>Offset</b>. The value in the <b>Partition</b> member is ignored. 
+
+
+##### - Method.TAPE_LOGICAL_BLOCK
+
+Positions the tape to the logical block address specified by <b>Offset</b>, relative to the beginning of the partition indicated in <b>Partition</b>. If the media is not partitioned, <b>Partition</b> must be set to zero. 
+
+
+##### - Method.TAPE_PSEUDO_LOGICAL_BLOCK
+
+Positions the tape to the pseudological block address specified by <b>Offset</b>, relative to the beginning of the partition indicated in <b>Partition</b>. If the media is not partitioned, <b>Partition</b> must be to zero.
+
+
+##### - Method.TAPE_REWIND
+
+Positions the tape at the beginning of the partition indicated in <b>Partition</b> if the media is partitioned, and to the beginning of the media if the media is not partitioned. If the media is not partitioned, <b>Partition</b> must be set to zero. The <b>Offset</b> member is ignored. 
+
+
+##### - Method.TAPE_SPACE_END_OF_DATA
+
+Positions the tape at the end of the partition indicated in <b>Partition</b>, or if the media is not partitioned, at the end of the tape. The <b>Offset</b> member is ignored. 
+
+
+##### - Method.TAPE_SPACE_FILEMARKS
+
+Starting from the current position, positions the tape immediately after the number of filemarks specified by <b>Offset</b>. The <b>Partition</b> member is ignored. 
+
+
+##### - Method.TAPE_SPACE_RELATIVE_BLOCKS
+
+Starting from the current position, positions the tape immediately after the number of blocks specified by <b>Offset</b>. The <b>Partition</b> member is ignored. 
+
+
+##### - Method.TAPE_SPACE_SEQUENTIAL_FMKS
+
+Starting from the current position, positions the tape immediately after the next occurrence, if any, of the number of consecutive filemarks specified by <b>Offset</b>. The <b>Partition</b> member is ignored. 
+
+
+##### - Method.TAPE_SPACE_SEQUENTIAL_SMKS
+
+Starting from the current position, positions the tape immediately after the next occurrence, if any, of the number of consecutive setmarks specified by <b>Offset</b>. The <b>Partition</b> member is ignored. 
+
+
+##### - Method.TAPE_SPACE_SETMARKS
+
+Starting from the current position, positions the tape immediately after the number of setmarks specified by <b>Offset</b>. The <b>Partition</b> member is ignored. 
+
+
 ## -remarks
 
 
@@ -177,14 +214,14 @@ When the offset specifies a number of blocks, filemarks, or setmarks to position
 
 ## -see-also
 
-<a href="..\ntddtape\ni-ntddtape-ioctl_tape_set_position.md">IOCTL_TAPE_SET_POSITION</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560637">IOCTL_TAPE_SET_POSITION</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567954">TapeMiniSetPosition</a>
-
-
-
  
 
  

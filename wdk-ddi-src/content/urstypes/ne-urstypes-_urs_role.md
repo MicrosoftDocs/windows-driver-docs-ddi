@@ -53,18 +53,6 @@ req.product: Windows 10 or later.
 Defines values for roles supported by a USB dual-role controller.
 
 
-## -syntax
-
-
-````
-typedef enum _URS_ROLE { 
-  UrsRoleNone      = 0,
-  UrsRoleHost,
-  UrsRoleFunction
-} URS_ROLE, *PURS_ROLE;
-````
-
-
 ## -enum-fields
 
 

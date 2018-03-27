@@ -50,19 +50,9 @@ req.typenames:
 ## -description
 
 
-The <b>KsFreeDefaultClock</b> function frees a default clock structure previously allocated with <a href="..\ks\nf-ks-ksallocatedefaultclock.md">KsAllocateDefaultClock</a>, taking into account any currently running timer DPCs. This assumes that all instances of the clock have been closed. This may actually just decrement the internal reference counter and allow a pending DPC to free the structure asynchronously.
+The <b>KsFreeDefaultClock</b> function frees a default clock structure previously allocated with <a href="https://msdn.microsoft.com/library/windows/hardware/ff560952">KsAllocateDefaultClock</a>, taking into account any currently running timer DPCs. This assumes that all instances of the clock have been closed. This may actually just decrement the internal reference counter and allow a pending DPC to free the structure asynchronously.
 
 This may only be called at PASSIVE_LEVEL.
-
-
-## -syntax
-
-
-````
-VOID KsFreeDefaultClock(
-  _In_ PKSDEFAULTCLOCK DefaultClock
-);
-````
 
 
 ## -parameters

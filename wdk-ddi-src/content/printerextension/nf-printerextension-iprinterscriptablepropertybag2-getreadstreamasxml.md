@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: printerextension.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 
 
 
-## -syntax
-
-
-````
-HRESULT GetReadStreamAsXML(
-  [in]  BSTR     bstrName,
-  [out] IUnknown **ppXmlNode
-);
-````
-
-
 ## -parameters
 
 
@@ -86,10 +75,10 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprinterscriptablepropertybag2.md">IPrinterScriptablePropertyBag2</a>
 
 
 
+<a href="https://msdn.microsoft.com/97586B8D-D070-4DF1-AECE-50EB4D28414B">IPrinterScriptablePropertyBag2</a>
  
 
  

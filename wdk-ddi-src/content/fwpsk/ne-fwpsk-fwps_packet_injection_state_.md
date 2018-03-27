@@ -53,20 +53,6 @@ The FWPS_PACKET_INJECTION_STATE enumeration type specifies the injection state o
   list.
 
 
-## -syntax
-
-
-````
-typedef enum FWPS_PACKET_INJECTION_STATE_ { 
-  FWPS_PACKET_NOT_INJECTED                 = 0,
-  FWPS_PACKET_INJECTED_BY_SELF,
-  FWPS_PACKET_INJECTED_BY_OTHER,
-  FWPS_PACKET_PREVIOUSLY_INJECTED_BY_SELF,
-  FWPS_PACKET_INJECTION_STATE_MAX
-} FWPS_PACKET_INJECTION_STATE;
-````
-
-
 ## -enum-fields
 
 

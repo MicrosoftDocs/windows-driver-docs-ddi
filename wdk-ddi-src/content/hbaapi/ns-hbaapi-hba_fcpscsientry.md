@@ -52,17 +52,6 @@ req.typenames: HBA_FCPSCSIENTRY, *PHBA_FCPSCSIENTRY
 The HBA_FcpScsiEntry structure defines a mapping between an operating system identifier for a logical unit and the corresponding fibre channel protocol (FCP) identifier for the logical unit. 
 
 
-## -syntax
-
-
-````
-typedef struct HBA_FcpScsiEntry {
-  HBA_SCSIID ScsiId;
-  HBA_FCPID  FcpId;
-} HBA_FCPSCSIENTRY, *PHBA_FCPSCSIENTRY;
-````
-
-
 ## -struct-fields
 
 
@@ -70,24 +59,24 @@ typedef struct HBA_FcpScsiEntry {
 
 ### -field ScsiId
 
-Contains a structure of type <a href="..\hbaapi\ns-hbaapi-hba_scsiid.md">HBA_ScsiId</a> that holds information that the operating system uses to identify a SCSI device. 
+Contains a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff557191">HBA_ScsiId</a> that holds information that the operating system uses to identify a SCSI device. 
 
 
 ### -field FcpId
 
-Contains a structure of type <a href="..\hbaapi\ns-hbaapi-hba_fcpid.md">HBA_FcpId</a> that uniquely identifies the device anywhere on the fibre channel network. 
+Contains a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff556062">HBA_FcpId</a> that uniquely identifies the device anywhere on the fibre channel network. 
 
 
 ## -see-also
 
-<a href="..\hbaapi\ns-hbaapi-hba_scsiid.md">HBA_ScsiId</a>
 
 
 
-<a href="..\hbaapi\ns-hbaapi-hba_fcpid.md">HBA_FcpId</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556062">HBA_FcpId</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557191">HBA_ScsiId</a>
  
 
  

@@ -58,18 +58,6 @@ outstanding memory mappings, releases any buffers in use, and, if the opposite e
 completion packet. 
 
 
-## -syntax
-
-
-````
-VOID VmbChannelPacketComplete(
-  _In_ VMBPACKETCOMPLETION             PacketCompletionContext,
-  _In_ reads_bytes_opt_(BufSize) PVOID PacketCompletionBuffer,
-  _In_ UINT32                          BufSize
-);
-````
-
-
 ## -parameters
 
 

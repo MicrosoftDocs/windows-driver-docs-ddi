@@ -51,22 +51,9 @@ req.typenames: L2CAP_CONFIG_OPTION, *PL2CAP_CONFIG_OPTION
 
 An array of L2CAP_CONFIG_OPTION structures is used to specify values for the 
   <b>ExtraOptions</b> member of the 
-  <a href="..\bthddi\ns-bthddi-_channel_config_parameters.md">CHANNEL_CONFIG_PARAMETERS</a>, 
-  <a href="..\bthddi\ns-bthddi-_brb_l2ca_open_channel.md">_BRB_L2CA_OPEN_CHANNEL</a>, and 
-  <a href="..\bthddi\ns-bthddi-_indication_parameters.md">INDICATION_PARAMETERS</a> structures.
-
-
-## -syntax
-
-
-````
-typedef struct _L2CAP_CONFIG_OPTION {
-  CO_HEADER      Header;
-  VOID UNALIGNED *DynamicBuffer;
-  UCHAR          FixedBuffer[4];
-  USHORT         Flags;
-} L2CAP_CONFIG_OPTION, *PL2CAP_CONFIG_OPTION;
-````
+  <a href="https://msdn.microsoft.com/library/windows/hardware/ff536659">CHANNEL_CONFIG_PARAMETERS</a>, 
+  <a href="https://msdn.microsoft.com/library/windows/hardware/ff536860">_BRB_L2CA_OPEN_CHANNEL</a>, and 
+  <a href="https://msdn.microsoft.com/library/windows/hardware/ff536680">INDICATION_PARAMETERS</a> structures.
 
 
 ## -struct-fields
@@ -77,7 +64,7 @@ typedef struct _L2CAP_CONFIG_OPTION {
 ### -field Header
 
 A 
-     <a href="..\bthddi\ns-bthddi-_co_header.md">CO_HEADER</a> structure that specifies information
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff536673">CO_HEADER</a> structure that specifies information
      about vendor-specific configuration options.
 
 
@@ -135,18 +122,18 @@ If set, the
 
 ## -see-also
 
-<a href="..\bthddi\ns-bthddi-_brb_l2ca_open_channel.md">_BRB_L2CA_OPEN_CHANNEL</a>
 
 
 
-<a href="..\bthddi\ns-bthddi-_channel_config_parameters.md">CHANNEL_CONFIG_PARAMETERS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536659">CHANNEL_CONFIG_PARAMETERS</a>
 
 
 
-<a href="..\bthddi\ns-bthddi-_indication_parameters.md">INDICATION_PARAMETERS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536680">INDICATION_PARAMETERS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536860">_BRB_L2CA_OPEN_CHANNEL</a>
  
 
  

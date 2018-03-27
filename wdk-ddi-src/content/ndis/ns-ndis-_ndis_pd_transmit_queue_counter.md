@@ -52,17 +52,6 @@ req.typenames: NDIS_PD_TRANSMIT_QUEUE_COUNTER
 This structure is used to hold counter information for a transmit queue.
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_PD_TRANSMIT_QUEUE_COUNTER {
-  ULONG64 PacketsTransmitted;
-  ULONG64 BytesTransmitted;
-} NDIS_PD_TRANSMIT_QUEUE_COUNTER, *PNDIS_PD_TRANSMIT_QUEUE_COUNTER;
-````
-
-
 ## -struct-fields
 
 

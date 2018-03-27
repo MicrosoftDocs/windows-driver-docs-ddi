@@ -53,22 +53,6 @@ req.product: Windows 10 or later.
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef struct _RILSETCALLBARRINGSTATUSPARAMS {
-  DWORD                             dwExecutor;
-  RILCALLBARRINGSTATUSPARAMSTYPE    dwType;
-  BOOL                              fAllClasses;
-  DWORD                             dwInfoClasses;
-  BOOL                              fPassword;
-  char [256]                        szPassword;
-  RILCALLBARRINGSTATUSPARAMSSTATUS  dwStatus;
-} RILSETCALLBARRINGSTATUSPARAMS, RILSETCALLBARRINGSTATUSPARAMS;
-````
-
-
 ## -struct-fields
 
 

@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 This structure contains information that the sensor driver passes to the class extension about each sensor.
 
 
-## -syntax
-
-
-````
-typedef struct _SENSOR_CONFIG {
-  ULONG                   Size;
-  PSENSOR_COLLECTION_LIST pEnumerationList;
-} SENSOR_CONFIG, *PSENSOR_CONFIG;
-````
-
-
 ## -struct-fields
 
 
@@ -76,7 +65,7 @@ The allocated size of this structure (in bytes).
 
 ### -field pEnumerationList
 
-The list of enumerations. For more information, see <a href="..\sensorsdef\ns-sensorsdef-sensor_collection_list.md">SENSOR_COLLECTION_LIST</a>.
+The list of enumerations. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/dn957092">SENSOR_COLLECTION_LIST</a>.
 
 
 ## -remarks
@@ -87,7 +76,7 @@ The SENSOR_CONFIG structure works with the following helper function:
 
 <ul>
 <li>
-<a href="..\sensorscx\nf-sensorscx-sensor_config_init.md">SENSOR_CONFIG_INIT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn957097">SENSOR_CONFIG_INIT</a>
 </li>
 </ul>
 

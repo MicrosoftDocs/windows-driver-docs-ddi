@@ -52,24 +52,6 @@ req.typenames: STORAGE_MINIPORT_DESCRIPTOR, *PSTORAGE_MINIPORT_DESCRIPTOR
 Reserved for system use.
 
 
-## -syntax
-
-
-````
-typedef struct _STORAGE_MINIPORT_DESCRIPTOR {
-  ULONG                 Version;
-  ULONG                 Size;
-  STORAGE_PORT_CODE_SET Portdriver;
-  BOOLEAN               LUNResetSupported;
-  BOOLEAN               TargetResetSupported;
-  USHORT                IoTimeoutValue;
-  BOOLEAN               ExtraIoInfoSupported;
-  UCHAR                 Reserved0[3];
-  UCHAR                 Reserved1;
-} STORAGE_MINIPORT_DESCRIPTOR, *PSTORAGE_MINIPORT_DESCRIPTOR;
-````
-
-
 ## -struct-fields
 
 

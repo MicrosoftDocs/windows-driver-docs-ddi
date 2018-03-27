@@ -52,29 +52,6 @@ req.typenames: RILMESSAGE, *LPRILMESSAGE
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef struct _RILMESSAGE {
-  DWORD                cbSize;
-  DWORD                dwParams;
-  RILADDRESS           raSvcCtrAddress;
-  RILMESSAGETYPE       dwType;
-  DWORD                dwFlags;
-  NULL                 RILMSGUNION;
-  RILMSGUNION          msgUnion;
-  RILMSGINDELIVER      unMsgInDeliver;
-  RILMSGINSTATUS       unMsgInStatus;
-  RILMSGOUTSUBMIT      unMsgOutSubmit;
-  RILMSGBCGENERAL      unMsgBcGeneral;
-  RILMSGIS637INSTATUS  unMsgIS637InStatus;
-  RILMSGCDMAINDELIVER  unMsgCDMAInDeliver;
-  RILMSGCDMAOUTSUBMIT  unMsgCDMAOutSubmit;
-} RILMESSAGE, RILMESSAGE;
-````
-
-
 ## -struct-fields
 
 

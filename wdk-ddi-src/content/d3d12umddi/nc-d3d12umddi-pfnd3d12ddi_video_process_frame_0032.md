@@ -52,20 +52,6 @@ req.typenames: D3D11_1DDI_GETCAPTUREHANDLEDATA
 Used to process a video frame.
 
 
-## -prototype
-
-
-````
-VOID APIENTRY* PFND3D12DDI_VIDEO_PROCESS_FRAME_0032(
-         D3D12DDI_HCOMMANDLIST                                  hDrvCommandList,
-         D3D12DDI_HVIDEOPROCESSOR_0020                          hDrvVideoProcessor,
-   const D3D12DDIARG_VIDEO_PROCESS_OUTPUT_STREAM_ARGUMENTS_0032 *pOutputParameters,
-   const D3D12DDIARG_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS_0032  *pInputStreamParameters,
-         UINT                                                   NumInputStreams
-);
-````
-
-
 ## -parameters
 
 

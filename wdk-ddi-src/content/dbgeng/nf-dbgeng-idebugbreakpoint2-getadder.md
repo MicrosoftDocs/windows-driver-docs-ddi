@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -53,16 +53,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 The <b>GetAdder</b> method returns the client that owns the breakpoint.
 
 
-## -syntax
-
-
-````
-HRESULT GetAdder(
-  [out] PDEBUG_CLIENT *Adder
-);
-````
-
-
 ## -parameters
 
 
@@ -70,7 +60,7 @@ HRESULT GetAdder(
 
 ### -param Adder [out]
 
-An <a href="..\dbgeng\nn-dbgeng-idebugclient.md">IDebugClient</a> interface pointer to the client object that added the breakpoint.
+An <a href="https://msdn.microsoft.com/library/windows/hardware/ff549827">IDebugClient</a> interface pointer to the client object that added the breakpoint.
 
 
 ## -returns

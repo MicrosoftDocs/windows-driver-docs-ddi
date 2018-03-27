@@ -54,17 +54,6 @@ req.product: Windows 10 or later.
 The <b>StorPortReadRegisterUshort</b> routine reads a value from a specified register address. 
 
 
-## -syntax
-
-
-````
-STORPORT_API USHORT StorPortReadRegisterUshort(
-  _In_ PVOID   HwDeviceExtension,
-  _In_ PUSHORT Register
-);
-````
-
-
 ## -parameters
 
 
@@ -98,21 +87,21 @@ Pointer to the register where the data is to be read.
 
 
 
-For more information, see <a href="..\storport\nf-storport-scsiportreadregisterushort.md">ScsiPortReadRegisterUshort</a>. For a buffered version of this routine, see <a href="..\storport\nf-storport-storportreadregisterbufferushort.md">StorPortReadRegisterBufferUshort</a>.
+For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff564744">ScsiPortReadRegisterUshort</a>. For a buffered version of this routine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff567481">StorPortReadRegisterBufferUshort</a>.
 
 
 
 
 ## -see-also
 
-<a href="..\storport\nf-storport-scsiportreadregisterushort.md">ScsiPortReadRegisterUshort</a>
 
 
 
-<a href="..\storport\nf-storport-storportreadregisterbufferushort.md">StorPortReadRegisterBufferUshort</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564744">ScsiPortReadRegisterUshort</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567481">StorPortReadRegisterBufferUshort</a>
  
 
  

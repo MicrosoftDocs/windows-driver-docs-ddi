@@ -52,20 +52,6 @@ req.typenames: STORAGE_DIAGNOSTIC_MP_REQUEST, *PSTORAGE_DIAGNOSTIC_MP_REQUEST
 The PSDBUS_CALLBACK_ROUTINE prototype declares the Secure Digital (SD) driver callback routine that the SD bus driver uses to report device interrupts to the driver.
 
 
-## -prototype
-
-
-````
-SDBUS_CALLBACK_ROUTINE SdBusCallbackRoutine;
-
-VOID SdBusCallbackRoutine(
-  _In_ PVOID CallbackRoutineContext,
-  _In_ ULONG InterruptType
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -103,10 +89,10 @@ The bus driver calls the SD card driver's callback routine whenever the card ind
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/d407131e-5dda-4d50-b09a-0f937774eefb">SDBUS_INTERFACE_PARAMETERS</a>
-
-
-
  
 
  

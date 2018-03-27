@@ -52,23 +52,6 @@ req.typenames: MIRACAST_CHUNK_TYPE
 Specifies the types of wireless display (Miracast) chunk info that is to be processed.
 
 
-## -syntax
-
-
-````
-typedef enum  { 
-  MIRACAST_CHUNK_TYPE_UNKNOWN                  = 0,
-  MIRACAST_CHUNK_TYPE_COLOR_CONVERT_COMPLETE   = 1,
-  MIRACAST_CHUNK_TYPE_ENCODE_COMPLETE          = 2,
-  MIRACAST_CHUNK_TYPE_FRAME_START              = 3,
-  MIRACAST_CHUNK_TYPE_FRAME_DROPPED            = 4,
-  MIRACAST_CHUNK_TYPE_ENCODE_DRIVER_DEFINED_1  = 0x80000000,
-  MIRACAST_CHUNK_TYPE_ENCODE_DRIVER_DEFINED_2  = 0x80000001,
-  MIRACAST_CHUNK_TYPE_ENCODE_FORCE_UINT32      = 0xffffffff
-} MIRACAST_CHUNK_TYPE;
-````
-
-
 ## -enum-fields
 
 

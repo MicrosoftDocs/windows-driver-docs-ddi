@@ -54,17 +54,6 @@ req.product: Windows 10 or later.
 The <b>ScsiPortWriteRegisterUshort</b> routine transfers a USHORT value to the HBA.
 <div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
-## -syntax
-
-
-````
-VOID ScsiPortWriteRegisterUshort(
-  _In_ PUSHORT Register,
-  _In_ USHORT  Value
-);
-````
-
-
 ## -parameters
 
 
@@ -82,10 +71,10 @@ Specifies the value to be written to the HBA's register.
 
 ## -see-also
 
-<a href="..\srb\nf-srb-scsiportgetdevicebase.md">ScsiPortGetDeviceBase</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564629">ScsiPortGetDeviceBase</a>
  
 
  

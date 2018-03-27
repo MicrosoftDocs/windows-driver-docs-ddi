@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: DISPATCH_LEVEL
 topic_type:
@@ -56,17 +56,6 @@ in Windows 8 and later.</div><div> </div>The
   (DPC) has completed on a DMA channel.
 
 
-## -syntax
-
-
-````
-VOID NetDmaInterruptDpc(
-  _In_     PVOID            NetDmaChannelHandle,
-  _In_opt_ PHYSICAL_ADDRESS DmaDescriptor
-);
-````
-
-
 ## -parameters
 
 
@@ -76,7 +65,7 @@ VOID NetDmaInterruptDpc(
 
 A handle that identifies the DMA channel. The DMA provider driver received this handle from NetDMA
      in a call to the 
-     <a href="..\netdma\nc-netdma-dma_channel_allocate_handler.md">
+     <a href="https://msdn.microsoft.com/42bc0e08-3d85-424f-aaa4-4df788d3706a">
      ProviderAllocateDmaChannel</a> function.
 
 
@@ -106,10 +95,10 @@ DMA providers call the
 
 ## -see-also
 
-<a href="..\netdma\nc-netdma-dma_channel_allocate_handler.md">ProviderAllocateDmaChannel</a>
 
 
 
+<a href="https://msdn.microsoft.com/42bc0e08-3d85-424f-aaa4-4df788d3706a">ProviderAllocateDmaChannel</a>
  
 
  

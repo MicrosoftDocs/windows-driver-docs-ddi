@@ -52,21 +52,6 @@ req.typenames: D3D11_1DDI_GETCAPTUREHANDLEDATA
 The <i>pfnCreateVideoDecoder</i> callback function creates a video decoder.
 
 
-## -prototype
-
-
-````
-PFND3D12DDI_CREATEVIDEODECODER_0021 pfnCreateVideoDecoder;
-
-HRESULT APIENTRY* pfnCreateVideoDecoder(
-             D3D12DDI_HDEVICE                 hDevice,
-  _In_ const D3D12DDIARG_CREATE_VIDEO_DECODER *CreateVideoDecoder,
-             D3D12DDI_HVIDEODECODER           hDrvVideoDecoder
-)
-{ ... }
-````
-
-
 ## -parameters
 
 

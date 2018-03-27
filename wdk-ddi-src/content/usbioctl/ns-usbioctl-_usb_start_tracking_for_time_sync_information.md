@@ -50,18 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The input and output buffer for the <a href="..\usbioctl\ni-usbioctl-ioctl_usb_start_tracking_for_time_sync.md">IOCTL_USB_START_TRACKING_FOR_TIME_SYNC</a> request.
-
-
-## -syntax
-
-
-````
-typedef struct _USB_START_TRACKING_FOR_TIME_SYNC_INFORMATION {
-  HANDLE  TimeTrackingHandle;
-  BOOLEAN IsStartupDelayTolerable;
-} USB_START_TRACKING_FOR_TIME_SYNC_INFORMATION, *PUSB_START_TRACKING_FOR_TIME_SYNC_INFORMATION;
-````
+The input and output buffer for the <a href="https://msdn.microsoft.com/C9EA7A04-3B53-46D4-BC1B-A2766577095F">IOCTL_USB_START_TRACKING_FOR_TIME_SYNC</a> request.
 
 
 ## -struct-fields
@@ -71,7 +60,7 @@ typedef struct _USB_START_TRACKING_FOR_TIME_SYNC_INFORMATION {
 
 ### -field TimeTrackingHandle
 
-Registration handle for time sync tracking retrieved through the <a href="..\usbioctl\ni-usbioctl-ioctl_usb_start_tracking_for_time_sync.md">IOCTL_USB_START_TRACKING_FOR_TIME_SYNC</a> request. On input, this handle must be set to NULL. On output, the USB driver stack sets this member to the assigned handle. 
+Registration handle for time sync tracking retrieved through the <a href="https://msdn.microsoft.com/C9EA7A04-3B53-46D4-BC1B-A2766577095F">IOCTL_USB_START_TRACKING_FOR_TIME_SYNC</a> request. On input, this handle must be set to NULL. On output, the USB driver stack sets this member to the assigned handle. 
 
 
 ### -field IsStartupDelayTolerable
@@ -83,10 +72,10 @@ On input, the caller must specify whether the initial startup latency of up to 2
 
 ## -see-also
 
-<a href="..\usbioctl\ni-usbioctl-ioctl_usb_start_tracking_for_time_sync.md">IOCTL_USB_START_TRACKING_FOR_TIME_SYNC</a>
 
 
 
+<a href="https://msdn.microsoft.com/C9EA7A04-3B53-46D4-BC1B-A2766577095F">IOCTL_USB_START_TRACKING_FOR_TIME_SYNC</a>
  
 
  

@@ -52,16 +52,6 @@ req.typenames: DEBUG_LAST_EVENT_INFO_LOAD_MODULE, *PDEBUG_LAST_EVENT_INFO_LOAD_M
 Describes the load module of the last event.
 
 
-## -syntax
-
-
-````
-typedef struct _DEBUG_LAST_EVENT_INFO_LOAD_MODULE {
-  ULONG64 Base;
-} DEBUG_LAST_EVENT_INFO_LOAD_MODULE, *PDEBUG_LAST_EVENT_INFO_LOAD_MODULE;
-````
-
-
 ## -struct-fields
 
 

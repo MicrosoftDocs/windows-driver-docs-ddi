@@ -52,17 +52,6 @@ req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
 Used to destroy a protected session.
 
 
-## -prototype
-
-
-````
-NTSTATUS APIENTRY DXGKDDI_DESTROYPROTECTEDSESSION(
-  _In_ const HANDLE hAdapter,
-  _In_ const HANDLE hProtectedSession
-);
-````
-
-
 ## -parameters
 
 

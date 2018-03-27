@@ -55,18 +55,6 @@ req.product: Windows 10 or later.
 The WDF_DEVICE_FAILED_ACTION enumeration identifies the action that the framework will take when a driver reports an unrecoverable software or hardware failure.
 
 
-## -syntax
-
-
-````
-typedef enum _WDF_DEVICE_FAILED_ACTION { 
-  WdfDeviceFailedUndefined       = 0,
-  WdfDeviceFailedAttemptRestart  = 1,
-  WdfDeviceFailedNoRestart       = 2
-} WDF_DEVICE_FAILED_ACTION;
-````
-
-
 ## -enum-fields
 
 
@@ -91,21 +79,21 @@ If the device's drivers are not supporting other devices on the system, the I/O 
 
 
 
-The WDF_DEVICE_FAILED_ACTION enumeration is used as an input argument to <a href="..\wdfdevice\nf-wdfdevice-wdfdevicesetfailed.md">WdfDeviceSetFailed</a>.
+The WDF_DEVICE_FAILED_ACTION enumeration is used as an input argument to <a href="https://msdn.microsoft.com/library/windows/hardware/ff546890">WdfDeviceSetFailed</a>.
 
 Drivers typically specify <b>WdfDeviceFailedAttemptRestart</b> if they encounter an unrecoverable software error, because specifying this enumerator reloads the drivers. A driver might specify <b>WdfDeviceFailedNoRestart</b> if it encounters an unrecoverable hardware error that affects all of the driver's devices.
 
-For information about specifying <b>WdfDeviceFailedAttemptRestart</b> in a UMDF driver, see the Remarks of <a href="..\wdfdevice\nf-wdfdevice-wdfdevicesetfailed.md">WdfDeviceSetFailed</a>.
+For information about specifying <b>WdfDeviceFailedAttemptRestart</b> in a UMDF driver, see the Remarks of <a href="https://msdn.microsoft.com/library/windows/hardware/ff546890">WdfDeviceSetFailed</a>.
 
 
 
 
 ## -see-also
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdevicesetfailed.md">WdfDeviceSetFailed</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546890">WdfDeviceSetFailed</a>
  
 
  

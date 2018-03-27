@@ -54,18 +54,6 @@ req.product: Windows 10 or later.
 The <b>ScsiPortMoveMemory</b> routine copies data from one location to another.
 <div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
-## -syntax
-
-
-````
-VOID ScsiPortMoveMemory(
-  _In_ PVOID WriteBuffer,
-  _In_ PVOID ReadBuffer,
-  _In_ ULONG Length
-);
-````
-
-
 ## -parameters
 
 

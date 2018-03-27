@@ -47,11 +47,6 @@ req.product: Windows 10 or later.
 # IOCTL_USB_GET_TRANSPORT_CHARACTERISTICS IOCTL
 
 
-##  Major Code: 
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548649">IRP_MJ_DEVICE_CONTROL</a>
-
 ## -description
 
 
@@ -101,12 +96,12 @@ The client driver sends this request to retrieve the transport characteristics.
 
 ### -in-out-buffer
 
-The <b>AssociatedIrp.SystemBuffer</b> member is a pointer to a caller-allocated <a href="..\usbioctl\ns-usbioctl-_usb_transport_characteristics.md">USB_TRANSPORT_CHARACTERISTICS</a> structure.  On input, set <b>Version</b> to USB_TRANSPORT_CHARACTERISTICS_VERSION_1. On output <b>Version</b> is reset to a version less than or equal to USB_TRANSPORT_CHARACTERISTICS_VERSION_1;  he remaining members of the structure is filled with transport information.
+The <b>AssociatedIrp.SystemBuffer</b> member is a pointer to a caller-allocated <a href="https://msdn.microsoft.com/56394A88-7231-4693-8DD1-C5C7586E490C">USB_TRANSPORT_CHARACTERISTICS</a> structure.  On input, set <b>Version</b> to USB_TRANSPORT_CHARACTERISTICS_VERSION_1. On output <b>Version</b> is reset to a version less than or equal to USB_TRANSPORT_CHARACTERISTICS_VERSION_1;  he remaining members of the structure is filled with transport information.
 
 
 ### -inout-buffer-length
 
-The size of the <a href="..\usbioctl\ns-usbioctl-_usb_transport_characteristics.md">USB_TRANSPORT_CHARACTERISTICS</a> structure.
+The size of the <a href="https://msdn.microsoft.com/56394A88-7231-4693-8DD1-C5C7586E490C">USB_TRANSPORT_CHARACTERISTICS</a> structure.
 
 
 ### -status-block
@@ -128,13 +123,13 @@ If the client diver is interested in knowing the latest information at all times
 
 <ul>
 <li>
-<a href="..\usbioctl\ni-usbioctl-ioctl_usb_register_for_transport_characteristics_change.md">IOCTL_USB_REGISTER_FOR_TRANSPORT_CHARACTERISTICS_CHANGE</a>
+<a href="https://msdn.microsoft.com/4192501F-5A30-463C-924D-CD4F2C8C3764">IOCTL_USB_REGISTER_FOR_TRANSPORT_CHARACTERISTICS_CHANGE</a>
 </li>
 <li>
-<a href="..\usbioctl\ni-usbioctl-ioctl_usb_notify_on_transport_characteristics_change.md">IOCTL_USB_NOTIFY_ON_TRANSPORT_CHARACTERISTICS_CHANGE</a>
+<a href="https://msdn.microsoft.com/1B71794C-EBAD-4F6C-A71C-C0D419D486BE">IOCTL_USB_NOTIFY_ON_TRANSPORT_CHARACTERISTICS_CHANGE</a>
 </li>
 <li>
-<a href="..\usbioctl\ni-usbioctl-ioctl_usb_unregister_for_transport_characteristics_change.md">IOCTL_USB_UNREGISTER_FOR_TRANSPORT_CHARACTERISTICS_CHANGE</a>
+<a href="https://msdn.microsoft.com/A6D17761-4E5F-42FC-AB40-C2BCE7769243">IOCTL_USB_UNREGISTER_FOR_TRANSPORT_CHARACTERISTICS_CHANGE</a>
 </li>
 </ul>
 
@@ -142,11 +137,6 @@ If the client diver is interested in knowing the latest information at all times
 
 ## -see-also
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
-
-
-
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
 
 
 
@@ -154,14 +144,19 @@ If the client diver is interested in knowing the latest information at all times
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
-
-
-
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/usbcon/usb-client-drivers-for-ma-usb">USB client drivers for Media-Agnostic (MA-USB)</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548651">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548656">WdfIoTargetSendInternalIoctlSynchronously</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548660">WdfIoTargetSendIoctlSynchronously</a>
  
 
  

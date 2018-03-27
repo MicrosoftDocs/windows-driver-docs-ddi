@@ -53,18 +53,6 @@ req.typenames:
 The <b>KsAllocateDeviceHeader</b> function allocates and initializes the required device extension header. 
 
 
-## -syntax
-
-
-````
-NTSTATUS KsAllocateDeviceHeader(
-  _Out_    KSDEVICE_HEADER       *Header,
-  _In_     ULONG                 ItemsCount,
-  _In_opt_ PKSOBJECT_CREATE_ITEM ItemsList
-);
-````
-
-
 ## -parameters
 
 
@@ -125,14 +113,14 @@ Drivers must not free the memory allocated for the subobject KSOBJECT_CREATE_ITE
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ksobject_create_item.md">KSOBJECT_CREATE_ITEM</a>
 
 
 
-<a href="..\ks\nf-ks-ksfreedeviceheader.md">KsFreeDeviceHeader</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563479">KSOBJECT_CREATE_ITEM</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562560">KsFreeDeviceHeader</a>
  
 
  

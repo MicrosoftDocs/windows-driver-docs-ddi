@@ -52,17 +52,6 @@ req.typenames: ISCSI_TargetPortalGroup, *PISCSI_TargetPortalGroup
 The ISCSI_TargetPortalGroup structure provides a definition of a target portal group. 
 
 
-## -syntax
-
-
-````
-typedef struct _ISCSI_TargetPortalGroup {
-  ULONG              PortalCount;
-  ISCSI_TargetPortal Portals[1];
-} ISCSI_TargetPortalGroup, *PISCSI_TargetPortalGroup;
-````
-
-
 ## -struct-fields
 
 
@@ -75,19 +64,19 @@ The number of portals in the portal group.
 
 ### -field Portals
 
-A variable-length array of <a href="..\iscsidef\ns-iscsidef-_iscsi_targetportal.md">ISCSI_TargetPortal</a> structures, which describe portals in the target portal group. The number of elements in the array is specified by the PortalCount field.
+A variable-length array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff561574">ISCSI_TargetPortal</a> structures, which describe portals in the target portal group. The number of elements in the array is specified by the PortalCount field.
 
 
 ## -see-also
 
-<a href="..\iscsidef\ns-iscsidef-_iscsi_targetportal.md">ISCSI_TargetPortal</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561574">ISCSI_TargetPortal</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561576">ISCSI_TargetPortalGroup WMI Class</a>
-
-
-
  
 
  

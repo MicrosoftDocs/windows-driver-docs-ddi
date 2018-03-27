@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: usbdlib.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,22 +51,7 @@ req.product: Windows 10 or later.
 
 
 
-   The <b>UsbBuildGetStatusRequest</b> macro formats an <a href="..\usb\ns-usb-_urb.md">URB</a> to obtain status from a device, interface, endpoint, or other device-defined target on a USB device.
-
-
-## -syntax
-
-
-````
-void UsbBuildGetStatusRequest(
-  _Inout_         urb,
-  _In_     USHORT op,
-  _In_     USHORT index,
-  _In_opt_ PVOID  transferBuffer,
-  _In_opt_ PMDL   transferBufferMDL,
-  _In_     PURB   link
-);
-````
+   The <b>UsbBuildGetStatusRequest</b> macro formats an <a href="https://msdn.microsoft.com/library/windows/hardware/ff538923">URB</a> to obtain status from a device, interface, endpoint, or other device-defined target on a USB device.
 
 
 ## -parameters
@@ -76,7 +61,7 @@ void UsbBuildGetStatusRequest(
 
 ### -param urb [in, out]
 
-Pointer to an <a href="..\usb\ns-usb-_urb.md">URB</a> to be formatted as an status request.
+Pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff538923">URB</a> to be formatted as an status request.
 
 
 ### -param op [in]
@@ -132,11 +117,10 @@ Reserved. Must be set to <b>NULL</b>.
 
 ## -see-also
 
-<a href="..\usb\ns-usb-_urb_control_get_status_request.md">_URB_CONTROL_GET_STATUS_REQUEST</a>
 
 
 
-<a href="..\usb\ns-usb-_urb.md">URB</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538923">URB</a>
 
 
 
@@ -144,6 +128,7 @@ Reserved. Must be set to <b>NULL</b>.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540378">_URB_CONTROL_GET_STATUS_REQUEST</a>
  
 
  

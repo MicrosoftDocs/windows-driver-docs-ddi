@@ -52,16 +52,6 @@ req.typenames: TOKEN_TYPE
 The <b>ObIsKernelHandle</b> routine determines whether the specified handle is a kernel handle.
 
 
-## -syntax
-
-
-````
-BOOLEAN ObIsKernelHandle(
-  _In_ HANDLE Handle
-);
-````
-
-
 ## -parameters
 
 
@@ -85,7 +75,7 @@ The handle to check.
 
 
 
-You can use kernel handles only in kernel mode.  A driver can mark a handle as a kernel handle by specifying the OBJ_KERNEL_HANDLE flag in <a href="..\wudfwdm\ns-wudfwdm-_object_attributes.md">OBJECT_ATTRIBUTES</a> when it creates the handle.
+You can use kernel handles only in kernel mode.  A driver can mark a handle as a kernel handle by specifying the OBJ_KERNEL_HANDLE flag in <a href="https://msdn.microsoft.com/library/windows/hardware/ff557749">OBJECT_ATTRIBUTES</a> when it creates the handle.
 
 <div class="alert"><b>Note</b>  <b>ObIsKernelHandle</b> does not verify that the parameter is a valid handle.  This routine only determines if a valid handle is a kernel handle.  If the parameter is not a valid handle, the result of the routine is undefined.</div>
 <div> </div>
@@ -94,10 +84,10 @@ You can use kernel handles only in kernel mode.  A driver can mark a handle as a
 
 ## -see-also
 
-<a href="..\wudfwdm\ns-wudfwdm-_object_attributes.md">OBJECT_ATTRIBUTES</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557749">OBJECT_ATTRIBUTES</a>
  
 
  

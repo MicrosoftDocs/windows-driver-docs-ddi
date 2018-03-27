@@ -26,7 +26,7 @@ req.max-support: Unavailable in UMDF 2.0 and later.
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -55,19 +55,6 @@ req.product: Windows 10 or later.
 The <b>READ_PORT_BUFFER_ULONG</b> function reads a number of ULONG values from the specified port address into a buffer.
 
 
-## -syntax
-
-
-````
-void READ_PORT_BUFFER_ULONG(
-  _In_  IWDFDevice3 *pDevice,
-  _In_  PULONG      Port,
-  _Out_ PULONG      Buffer,
-  _In_  ULONG       Count 
-);
-````
-
-
 ## -parameters
 
 
@@ -75,7 +62,7 @@ void READ_PORT_BUFFER_ULONG(
 
 ### -param pDevice [in]
 
-Specifies a pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfdevice3.md">IWDFDevice3</a> interface for the device object of the device to access.
+Specifies a pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451197">IWDFDevice3</a> interface for the device object of the device to access.
 
 
 ### -param Port [in]

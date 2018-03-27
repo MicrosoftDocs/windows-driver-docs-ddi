@@ -52,20 +52,6 @@ req.typenames: DXGK_DISPLAYDETECTCONTROLTYPE
 Enumeration indicating the type of display detection action.
 
 
-## -syntax
-
-
-````
-typedef enum _DXGK_DISPLAYDETECTCONTROLTYPE { 
-  DXGK_DDCT_UNINITIALIZED  = 0,
-  DXGK_DDCT_POLLONE,
-  DXGK_DDCT_POLLALL,
-  DXGK_DDCT_ENABLEHPD,
-  DXGK_DDCT_DISABLEHPD
-} DXGK_DISPLAYDETECTCONTROLTYPE;
-````
-
-
 ## -enum-fields
 
 

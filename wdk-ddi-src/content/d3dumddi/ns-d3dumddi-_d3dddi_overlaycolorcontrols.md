@@ -52,23 +52,6 @@ req.typenames: D3DDDI_OVERLAYCOLORCONTROLS
 The D3DDDI_OVERLAYCOLORCONTROLS structure describes color-control settings for an overlay. 
 
 
-## -syntax
-
-
-````
-typedef struct _D3DDDI_OVERLAYCOLORCONTROLS {
-  INT                              BrightnessSetting;
-  INT                              ContrastSetting;
-  INT                              HueSetting;
-  INT                              SaturationSetting;
-  INT                              SharpnessSetting;
-  INT                              GammaSetting;
-  INT                              ColorEnableSetting;
-  D3DDDI_OVERLAYCOLORCONTROLSFLAGS Flags;
-} D3DDDI_OVERLAYCOLORCONTROLS;
-````
-
-
 ## -struct-fields
 
 
@@ -111,23 +94,23 @@ typedef struct _D3DDDI_OVERLAYCOLORCONTROLS {
 
 ### -field Flags
 
-[in] A <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_overlaycolorcontrolsflags.md">D3DDDI_OVERLAYCOLORCONTROLSFLAGS</a> structure that identifies color-control settings that the overlay hardware supports.
+[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff544615">D3DDDI_OVERLAYCOLORCONTROLSFLAGS</a> structure that identifies color-control settings that the overlay hardware supports.
 
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_getoverlaycolorcontrols.md">D3DDDIARG_GETOVERLAYCOLORCONTROLS</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_overlaycolorcontrolsflags.md">D3DDDI_OVERLAYCOLORCONTROLSFLAGS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543169">D3DDDIARG_GETOVERLAYCOLORCONTROLS</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_setoverlaycolorcontrols.md">D3DDDIARG_SETOVERLAYCOLORCONTROLS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543323">D3DDDIARG_SETOVERLAYCOLORCONTROLS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544615">D3DDDI_OVERLAYCOLORCONTROLSFLAGS</a>
  
 
  

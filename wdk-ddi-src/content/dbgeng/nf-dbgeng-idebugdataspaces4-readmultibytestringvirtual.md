@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -50,20 +50,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>ReadMultiByteStringVirtual</b> method reads a null-terminated, multibyte string from the target.
-
-
-## -syntax
-
-
-````
-HRESULT ReadMultiByteStringVirtual(
-  [in]            ULONG64 Offset,
-  [in]            ULONG   MaxBytes,
-  [out, optional] PSTR    Buffer,
-  [in]            ULONG   BufferSize,
-  [out, optional] PULONG  StringBytes
-);
-````
 
 
 ## -parameters
@@ -159,7 +145,10 @@ The engine will read up to <i>MaxBytes</i> from the target looking for a null-te
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554351">ReadUnicodeStringVirtual</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550546">IDebugDataSpaces4</a>
 
 
 
@@ -167,10 +156,7 @@ The engine will read up to <i>MaxBytes</i> from the target looking for a null-te
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugdataspaces4.md">IDebugDataSpaces4</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554351">ReadUnicodeStringVirtual</a>
  
 
  

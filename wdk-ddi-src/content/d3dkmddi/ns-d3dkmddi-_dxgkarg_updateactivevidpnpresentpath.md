@@ -49,17 +49,7 @@ req.typenames: DXGKARG_UPDATEACTIVEVIDPNPRESENTPATH
 ## -description
 
 
-The DXGKARG_UPDATEACTIVEVIDPNPRESENTPATH structure contains a <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_vidpn_present_path.md">D3DKMDT_VIDPN_PRESENT_PATH</a> structure, which contains arguments for the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_updateactivevidpnpresentpath.md">DxgkDdiUpdateActiveVidPnPresentPath</a> function.
-
-
-## -syntax
-
-
-````
-typedef struct _DXGKARG_UPDATEACTIVEVIDPNPRESENTPATH {
-  D3DKMDT_VIDPN_PRESENT_PATH VidPnPresentPathInfo;
-} DXGKARG_UPDATEACTIVEVIDPNPRESENTPATH;
-````
+The DXGKARG_UPDATEACTIVEVIDPNPRESENTPATH structure contains a <a href="https://msdn.microsoft.com/library/windows/hardware/ff546647">D3DKMDT_VIDPN_PRESENT_PATH</a> structure, which contains arguments for the <a href="https://msdn.microsoft.com/3bf5ebf7-8113-4ab2-beb1-1a52df25ac37">DxgkDdiUpdateActiveVidPnPresentPath</a> function.
 
 
 ## -struct-fields
@@ -69,15 +59,15 @@ typedef struct _DXGKARG_UPDATEACTIVEVIDPNPRESENTPATH {
 
 ### -field VidPnPresentPathInfo
 
-A <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_vidpn_present_path.md">D3DKMDT_VIDPN_PRESENT_PATH</a> structure that contains the arguments required by <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_updateactivevidpnpresentpath.md">DxgkDdiUpdateActiveVidPnPresentPath</a>.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff546647">D3DKMDT_VIDPN_PRESENT_PATH</a> structure that contains the arguments required by <a href="https://msdn.microsoft.com/3bf5ebf7-8113-4ab2-beb1-1a52df25ac37">DxgkDdiUpdateActiveVidPnPresentPath</a>.
 
 
 ## -see-also
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_updateactivevidpnpresentpath.md">DxgkDdiUpdateActiveVidPnPresentPath</a>
 
 
 
+<a href="https://msdn.microsoft.com/3bf5ebf7-8113-4ab2-beb1-1a52df25ac37">DxgkDdiUpdateActiveVidPnPresentPath</a>
  
 
  

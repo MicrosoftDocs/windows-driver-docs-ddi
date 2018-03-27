@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: prnasntp.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,17 +51,6 @@ req.product: Windows 10 or later.
 
 
 
-
-
-## -syntax
-
-
-````
-HRESULT FinishAsyncCallWithData(
-  [in] IPrintAsyncNotifyChannel **ppChannel,
-  [in] ULONG                    uL
-);
-````
 
 
 ## -parameters
@@ -93,10 +82,10 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="..\prnasntp\nn-prnasntp-iprintasyncnewchannelcookie.md">IPrintAsyncNewChannelCookie</a>
 
 
 
+<a href="https://msdn.microsoft.com/48C5F80F-64AB-415A-AAF5-8B06505B02BF">IPrintAsyncNewChannelCookie</a>
  
 
  

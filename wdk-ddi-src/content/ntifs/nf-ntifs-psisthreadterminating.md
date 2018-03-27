@@ -52,16 +52,6 @@ req.typenames: TOKEN_TYPE
 The <b>PsIsThreadTerminating</b> routine checks whether a thread is terminating.
 
 
-## -syntax
-
-
-````
-BOOLEAN PsIsThreadTerminating(
-  _In_ PETHREAD Thread
-);
-````
-
-
 ## -parameters
 
 
@@ -92,10 +82,10 @@ For more information about using system threads and managing synchronization wit
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-psgetprocessexittime.md">PsGetProcessExitTime</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551902">PsGetProcessExitTime</a>
  
 
  

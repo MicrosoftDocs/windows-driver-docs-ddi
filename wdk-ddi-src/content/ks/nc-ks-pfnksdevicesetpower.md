@@ -52,22 +52,6 @@ req.typenames: SOUNDDETECTOR_PATTERNHEADER
 AVStream calls a minidriver's <i>AVStrMiniDeviceSetPower</i> routine when it receives an <a href="https://msdn.microsoft.com/library/windows/hardware/ff551744">IRP_MN_SET_POWER</a>.
 
 
-## -prototype
-
-
-````
-PFNKSDEVICESETPOWER AVStrMiniDeviceSetPower;
-
-void AVStrMiniDeviceSetPower(
-  _In_ PKSDEVICE          Device,
-  _In_ PIRP               Irp,
-  _In_ DEVICE_POWER_STATE To,
-  _In_ DEVICE_POWER_STATE From
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -75,7 +59,7 @@ void AVStrMiniDeviceSetPower(
 
 ### -param Device [in]
 
-Pointer to the <a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a> structure that received the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551744">IRP_MN_SET_POWER</a>.
+Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff561681">KSDEVICE</a> structure that received the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551744">IRP_MN_SET_POWER</a>.
 
 
 ### -param Irp [in]
@@ -108,7 +92,7 @@ None
 
 If a driver has registered its device for idle detection, the power manager sends an <a href="https://msdn.microsoft.com/library/windows/hardware/ff551744">IRP_MN_SET_POWER</a> to change the power state of an idle device.
 
-The minidriver specifies this routine's address in the <b>SetPower</b> member of its <a href="..\ks\ns-ks-_ksdevice_dispatch.md">KSDEVICE_DISPATCH</a> structure.
+The minidriver specifies this routine's address in the <b>SetPower</b> member of its <a href="https://msdn.microsoft.com/library/windows/hardware/ff561693">KSDEVICE_DISPATCH</a> structure.
 
 This routine is optional.
 
@@ -117,7 +101,6 @@ This routine is optional.
 
 ## -see-also
 
-<a href="..\ks\ns-ks-_ksdevice_dispatch.md">KSDEVICE_DISPATCH</a>
 
 
 
@@ -125,6 +108,7 @@ This routine is optional.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561693">KSDEVICE_DISPATCH</a>
  
 
  

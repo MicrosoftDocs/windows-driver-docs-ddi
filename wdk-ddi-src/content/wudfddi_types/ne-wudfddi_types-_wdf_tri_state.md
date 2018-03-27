@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -54,18 +54,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Applies to KMDF and UMDF]
 
 The WDF_TRI_STATE enumeration type defines three values that the framework uses for some structure members and function parameters.
-
-
-## -syntax
-
-
-````
-typedef enum _WDF_TRI_STATE { 
-  WdfFalse       = FALSE,
-  WdfTrue        = TRUE,
-  WdfUseDefault  = 2
-} WDF_TRI_STATE, *PWDF_TRI_STATE;
-````
 
 
 ## -enum-fields

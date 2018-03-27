@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -52,21 +52,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 The <b>GetSymbolEntriesByOffset</b> method returns the <a href="https://msdn.microsoft.com/library/windows/hardware/ff558824">symbols</a> which are located at a specified address.
 
 
-## -syntax
-
-
-````
-HRESULT GetSymbolEntriesByOffset(
-  [in]            ULONG64              Offset,
-  [in]            ULONG                Flags,
-  [out, optional] PDEBUG_MODULE_AND_ID Ids,
-  [out, optional] PULONG64             Displacements,
-  [in]            ULONG                IdsCount,
-  [out, optional] PULONG               Entries
-);
-````
-
-
 ## -parameters
 
 
@@ -84,7 +69,7 @@ Set to zero.
 
 ### -param Ids [out, optional]
 
-Receives the symbols.  This is an array of <i>IdsCount</i> entries of type <a href="..\dbgeng\ns-dbgeng-_debug_module_and_id.md">DEBUG_MODULE_AND_ID</a>.  If <i>Ids</i> is <b>NULL</b>, this information is not returned.
+Receives the symbols.  This is an array of <i>IdsCount</i> entries of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff541511">DEBUG_MODULE_AND_ID</a>.  If <i>Ids</i> is <b>NULL</b>, this information is not returned.
 
 
 ### -param Displacements [out, optional]
@@ -141,7 +126,6 @@ For more information about symbols, see <a href="https://msdn.microsoft.com/libr
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
 
 
@@ -149,6 +133,7 @@ For more information about symbols, see <a href="https://msdn.microsoft.com/libr
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550870">IDebugSymbols3</a>
  
 
  

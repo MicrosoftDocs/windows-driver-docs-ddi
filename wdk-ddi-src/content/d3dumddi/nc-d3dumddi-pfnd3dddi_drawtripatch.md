@@ -52,22 +52,6 @@ req.typenames: DXGK_PTE
 The <b>DrawTriPatch</b> function draws a new or cached triangular patch or updates the specification of a previously defined patch.
 
 
-## -prototype
-
-
-````
-PFND3DDDI_DRAWTRIPATCH DrawTriPatch;
-
-__checkReturn HRESULT APIENTRY DrawTriPatch(
-  _In_       HANDLE                 hDevice,
-  _In_ const D3DDDIARG_DRAWTRIPATCH *pData,
-  _In_ const D3DDDITRIPATCH_INFO    *pInfo,
-  _In_ const FLOAT                  *pPatch
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -89,7 +73,7 @@ __checkReturn HRESULT APIENTRY DrawTriPatch(
 
 #### - pData [in]
 
- A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_drawtripatch.md">D3DDDIARG_DRAWTRIPATCH</a> structure that describes the triangular patch to draw.
+ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543070">D3DDDIARG_DRAWTRIPATCH</a> structure that describes the triangular patch to draw.
 
 
 #### - pInfo [in]
@@ -115,7 +99,7 @@ __checkReturn HRESULT APIENTRY DrawTriPatch(
 
 
 
-When the Microsoft Direct3D runtime calls the user-mode display driver's <b>DrawTriPatch</b> function, it can optionally supply information in the <i>pInfo</i> and <i>pPatch</i> parameters. The runtime sets flags in the <b>Flags</b> member of the <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_drawtripatch.md">D3DDDIARG_DRAWTRIPATCH</a> structure that is specified by <i>pData</i> to indicate if it supplies this optional information. 
+When the Microsoft Direct3D runtime calls the user-mode display driver's <b>DrawTriPatch</b> function, it can optionally supply information in the <i>pInfo</i> and <i>pPatch</i> parameters. The runtime sets flags in the <b>Flags</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff543070">D3DDDIARG_DRAWTRIPATCH</a> structure that is specified by <i>pData</i> to indicate if it supplies this optional information. 
 
 The runtime supplies a UINT value in the <b>Handle</b> member of D3DDDIARG_DRAWTRIPATCH to refer to the patch surface. Whenever the runtime redraws the patch surface, it passes the patch handle value and is not required to re-specify the D3DDDITRIPATCH_INFO data structure for the patch surface. The user-mode display driver can precompute and cache forward-difference coefficients and any other information. Therefore, subsequent calls to the driver's DrawTriPatch function that use the same patch handle value run more efficiently.
 
@@ -150,14 +134,14 @@ The driver receives notification to release cached patch information through the
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_drawtripatch.md">D3DDDIARG_DRAWTRIPATCH</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543070">D3DDDIARG_DRAWTRIPATCH</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544519">D3DDDI_DEVICEFUNCS</a>
  
 
  

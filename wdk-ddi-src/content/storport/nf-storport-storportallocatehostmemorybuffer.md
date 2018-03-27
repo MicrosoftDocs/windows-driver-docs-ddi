@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -64,25 +64,6 @@ Depending on the allocation policy, this function may allocate as much as
     ranges as possible, but it may have to use multiple physical address ranges
     to satisfy the desired HMB size.
 
-
-
-## -syntax
-
-
-````
-ULONG StorPortAllocateHostMemoryBuffer(
-  _In_     PVOID                                                                                 HwDeviceExtension,
-  _In_     SIZE_T                                                                                MinimumBytes,
-  _In_     SIZE_T                                                                                PreferredBytes,
-  _In_     ULONGLONG                                                                             UtilizationBytes,
-  _In_     ULONG                                                                                 AlignmentBytes,
-  _In_     PHYSICAL_ADDRESS                                                                      LowestAcceptableAddress,
-  _In_     PHYSICAL_ADDRESS                                                                      HighestAcceptableAddress,
-  _In_opt_ PHYSICAL_ADDRESS                                                                      BoundaryAddressMultiple,
-           _Out_writes_to_(*PhysicalAddressRangeCount, *PhysicalAddressRangeCount) PACCESS_RANGE PhysicalAddressRanges,
-  _Inout_  PULONG                                                                                PhysicalAddressRangeCount
-);
-````
 
 
 ## -parameters
@@ -213,10 +194,10 @@ The host memory buffer could not be allocated.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/686D141E-E6EA-4BB6-8556-0ECAC592E8F0">StorPortFreeHostMemoryBuffer</a>
-
-
-
  
 
  

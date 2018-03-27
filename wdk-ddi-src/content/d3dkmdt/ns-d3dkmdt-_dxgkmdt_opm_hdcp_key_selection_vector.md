@@ -52,16 +52,6 @@ req.typenames: DXGKMDT_OPM_HDCP_KEY_SELECTION_VECTOR
 The DXGKMDT_OPM_HDCP_KEY_SELECTION_VECTOR structure contains a key-selection vector (KSV) for a High-bandwidth Digital Content Protection (HDCP) protected output.
 
 
-## -syntax
-
-
-````
-typedef struct _DXGKMDT_OPM_HDCP_KEY_SELECTION_VECTOR {
-  BYTE abKeySelectionVector[DXGKMDT_OPM_HDCP_KEY_SELECTION_VECTOR_SIZE];
-} DXGKMDT_OPM_HDCP_KEY_SELECTION_VECTOR;
-````
-
-
 ## -struct-fields
 
 
@@ -83,10 +73,10 @@ For more information about the HDCP KSV, see the <a href="http://go.microsoft.co
 
 ## -see-also
 
-<a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_connected_hdcp_device_information.md">DXGKMDT_OPM_CONNECTED_HDCP_DEVICE_INFORMATION</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560854">DXGKMDT_OPM_CONNECTED_HDCP_DEVICE_INFORMATION</a>
  
 
  

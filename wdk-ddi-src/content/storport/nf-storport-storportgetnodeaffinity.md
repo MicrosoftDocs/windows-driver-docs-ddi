@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
@@ -51,18 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>StorPortGetNodeAffinity</b> routine constructs a mask of the active processors in a requested non-uniform memory access (NUMA) node.
-
-
-## -syntax
-
-
-````
-ULONG StorPortGetNodeAffinity(
-  _In_  PVOID           HwDeviceExtension,
-  _In_  ULONG           NodeNumber,
-  _Out_ PGROUP_AFFINITY NodeAffinityMask
-);
-````
 
 
 ## -parameters

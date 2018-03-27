@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,19 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>WriteControlSpace</b> function writes to the processor-specific control space of the current target.
-
-
-## -syntax
-
-
-````
-VOID WriteControlSpace(
-   USHORT processor,
-   ULONG  address,
-   PVOID  buf,
-   ULONG  size
-);
-````
 
 
 ## -parameters
@@ -111,14 +98,14 @@ This function can only be called in kernel-mode debugging.
 
 ## -see-also
 
-<a href="..\wdbgexts\ns-wdbgexts-_readcontrolspace64.md">ReadControlSpace64</a>
 
 
 
-<a href="..\wdbgexts\ns-wdbgexts-_readcontrolspace.md">ReadControlSpace</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553527">ReadControlSpace</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553532">ReadControlSpace64</a>
  
 
  

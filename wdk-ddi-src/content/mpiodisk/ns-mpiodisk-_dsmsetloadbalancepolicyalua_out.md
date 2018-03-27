@@ -52,16 +52,6 @@ req.typenames: DsmSetLoadBalancePolicyALUA_OUT, *PDsmSetLoadBalancePolicyALUA_OU
 The<b> DsmSetLoadBalancePolicyALUA_OUT</b> structure reports the output of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552672">DsmSetLoadBalancePolicyALUA</a> method.
 
 
-## -syntax
-
-
-````
-typedef struct _DsmSetLoadBalancePolicyALUA_OUT {
-  ULONG Status;
-} DsmSetLoadBalancePolicyALUA_OUT, *PDsmSetLoadBalancePolicyALUA_OUT;
-````
-
-
 ## -struct-fields
 
 

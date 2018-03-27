@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
@@ -51,18 +51,6 @@ req.product: Windows 10 or later.
 
 
 <b>RxCeBuildTransport</b> binds an RDBSS transport object to a specified transport name.
-
-
-## -syntax
-
-
-````
-NTSTATUS RxCeBuildTransport(
-  _In_ PRXCE_TRANSPORT pTransport,
-  _In_ PUNICODE_STRING pTransportName,
-  _In_ ULONG           QualityOfService
-);
-````
 
 
 ## -parameters
@@ -142,10 +130,10 @@ The connection engine routines in RDBSS do not participate in the computation of
 
 ## -see-also
 
-<a href="..\rxce\nf-rxce-rxceteardowntransport.md">RxCeTearDownTransport</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554328">RxCeTearDownTransport</a>
  
 
  

@@ -53,23 +53,6 @@ req.typenames: EXpsFontRestriction
 <b>FltDeviceIoControlFile</b> sends a control code directly to a specified device driver, causing the corresponding driver to perform the specified action. 
 
 
-## -syntax
-
-
-````
-NTSTATUS FltDeviceIoControlFile(
-  _In_      PFLT_INSTANCE Instance,
-  _In_      PFILE_OBJECT  FileObject,
-  _In_      ULONG         IoControlCode,
-  _In_opt_  PVOID         InputBuffer,
-  _In_      ULONG         InputBufferLength,
-  _Out_     PVOID         OutputBuffer,
-  _In_      ULONG         OutputBufferLength,
-  _Out_opt_ PULONG        LengthReturned
-);
-````
-
-
 ## -parameters
 
 
@@ -135,10 +118,10 @@ For more information about the system-defined IOCTL_<i>XXX</i> codes, see the Re
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltfscontrolfile.md">FltFsControlFile</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542988">FltFsControlFile</a>
  
 
  

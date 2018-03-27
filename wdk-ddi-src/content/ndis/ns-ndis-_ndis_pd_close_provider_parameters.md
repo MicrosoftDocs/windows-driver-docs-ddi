@@ -52,18 +52,6 @@ req.typenames: NDIS_PD_CLOSE_PROVIDER_PARAMETERS
 This structure represents the parameters that are used when calling the <a href="https://msdn.microsoft.com/library/windows/hardware/dn931851">OID_PD_CLOSE_PROVIDER</a> OID.
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_PD_CLOSE_PROVIDER_PARAMETERS {
-  NDIS_OBJECT_HEADER      Header;
-  ULONG                   Flags;
-  NDIS_PD_PROVIDER_HANDLE ProviderHandle;
-} NDIS_PD_CLOSE_PROVIDER_PARAMETERS;
-````
-
-
 ## -struct-fields
 
 
@@ -71,7 +59,7 @@ typedef struct _NDIS_PD_CLOSE_PROVIDER_PARAMETERS {
 
 ### -field Header
 
-The <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure for the <b>NDIS_PD_CLOSE_PROVIDER_PARAMETERS</b> structure. Set the members of this structure as follows:
+The <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure for the <b>NDIS_PD_CLOSE_PROVIDER_PARAMETERS</b> structure. Set the members of this structure as follows:
 
 <ul>
 <li><b>Type</b> = <b>NDIS_OBJECT_TYPE_DEFAULT</b></li>
@@ -100,14 +88,14 @@ This structure must be aligned on an 8-byte boundary.
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn931851">OID_PD_CLOSE_PROVIDER</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
  
 
  

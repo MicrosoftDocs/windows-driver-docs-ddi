@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 The WWAN_SET_SMS_CONFIGURATION structure represents how MB devices support SMS configuration.
 
 
-## -syntax
-
-
-````
-typedef struct _WWAN_SET_SMS_CONFIGURATION {
-  CHAR            ScAddress[WWAN_SMS_ADDRESS_MAX_LEN];
-  WWAN_SMS_FORMAT SmsFormat;
-} WWAN_SET_SMS_CONFIGURATION, *PWWAN_SET_SMS_CONFIGURATION;
-````
-
-
 ## -struct-fields
 
 
@@ -104,15 +93,15 @@ The SMS message format that should be used for the unsolicited indication of new
 
 ## -see-also
 
-<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_set_sms_configuration.md">
+
+
+
+<a href="https://msdn.microsoft.com/aa191c47-4b3b-464a-8a12-db673fca0f20">
    NDIS_WWAN_SET_SMS_CONFIGURATION</a>
 
 
 
-<a href="..\wwan\ne-wwan-_wwan_sms_format.md">WWAN_SMS_FORMAT</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571247">WWAN_SMS_FORMAT</a>
  
 
  

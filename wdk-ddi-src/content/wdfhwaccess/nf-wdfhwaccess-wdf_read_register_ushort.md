@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Applies to UMDF only]
 
 The <b>WDF_READ_REGISTER_USHORT</b> function reads a USHORT value from the specified register address.
-
-
-## -syntax
-
-
-````
-USHORT WDF_READ_REGISTER_USHORT(
-  _In_ WDFDEVICE Device,
-  _In_ PUSHORT   Register
-);
-````
 
 
 ## -parameters

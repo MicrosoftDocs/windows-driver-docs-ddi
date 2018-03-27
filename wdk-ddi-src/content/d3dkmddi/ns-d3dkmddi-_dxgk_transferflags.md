@@ -49,27 +49,7 @@ req.typenames: DXGK_TRANSFERFLAGS
 ## -description
 
 
-The DXGK_TRANSFERFLAGS structure identifies the type of transfer operation to set up in a call to the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_buildpagingbuffer.md">DxgkDdiBuildPagingBuffer</a> function. 
-
-
-## -syntax
-
-
-````
-typedef struct _DXGK_TRANSFERFLAGS {
-  union {
-    struct {
-      UINT Swizzle  :1;
-      UINT Unswizzle  :1;
-      UINT AllocationIsIdle  :1;
-      UINT TransferStart  :1;
-      UINT TransferEnd  :1;
-      UINT Reserved  :27;
-    };
-    UINT Value;
-  };
-} DXGK_TRANSFERFLAGS;
-````
+The DXGK_TRANSFERFLAGS structure identifies the type of transfer operation to set up in a call to the <a href="https://msdn.microsoft.com/d315ff53-4a9f-46a3-ad74-d65a5eb72de1">DxgkDdiBuildPagingBuffer</a> function. 
 
 
 ## -struct-fields
@@ -93,7 +73,7 @@ Setting this member is equivalent to setting the second bit of the 32-bit <b>Val
 
 ### -field AllocationIsIdle
 
-[in] A UINT value that specifies whether the graphics processing unit (GPU) is using the given allocation. If this member is set, the GPU is not using the given allocation; that is, no work was queued or will be queued to the GPU until the call to <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_buildpagingbuffer.md">DxgkDdiBuildPagingBuffer</a> returns.
+[in] A UINT value that specifies whether the graphics processing unit (GPU) is using the given allocation. If this member is set, the GPU is not using the given allocation; that is, no work was queued or will be queued to the GPU until the call to <a href="https://msdn.microsoft.com/d315ff53-4a9f-46a3-ad74-d65a5eb72de1">DxgkDdiBuildPagingBuffer</a> returns.
 
 Setting this member is equivalent to setting the third bit of the 32-bit <b>Value</b> member (0x00000004).
 
@@ -133,14 +113,14 @@ You can set the transfer-operation type by setting bits in the 32-bit <b>Value</
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_buildpagingbuffer.md">DXGKARG_BUILDPAGINGBUFFER</a>
 
 
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_buildpagingbuffer.md">DxgkDdiBuildPagingBuffer</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557540">DXGKARG_BUILDPAGINGBUFFER</a>
 
 
 
+<a href="https://msdn.microsoft.com/d315ff53-4a9f-46a3-ad74-d65a5eb72de1">DxgkDdiBuildPagingBuffer</a>
  
 
  

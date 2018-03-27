@@ -50,20 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-Each stream may have a clock associated to it. The class driver queries the clock by calling the stream minidriver-supplied <i>StrMiniClock</i> function, provided in each stream's <a href="..\strmini\ns-strmini-_hw_stream_object.md">HW_STREAM_OBJECT</a>.
-
-
-## -prototype
-
-
-````
-PHW_QUERY_CLOCK_ROUTINE StrMiniClock;
-
-VOID StrMiniClock(
-  _In_ PHW_TIME_CONTEXT HwTimeContext
-)
-{ ... }
-````
+Each stream may have a clock associated to it. The class driver queries the clock by calling the stream minidriver-supplied <i>StrMiniClock</i> function, provided in each stream's <a href="https://msdn.microsoft.com/library/windows/hardware/ff559697">HW_STREAM_OBJECT</a>.
 
 
 ## -parameters
@@ -82,7 +69,7 @@ VOID StrMiniClock(
 
 #### - HwTimeContext [in]
 
-Pointer to the <a href="..\strmini\ns-strmini-_hw_time_context.md">HW_TIME_CONTEXT</a> structure that <i>StrMiniClock</i> must fill out with the requested information.
+Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559706">HW_TIME_CONTEXT</a> structure that <i>StrMiniClock</i> must fill out with the requested information.
 
 
 ## -returns
@@ -98,25 +85,25 @@ None
 
 
 
-A stream specifies its <i>StrMiniClock</i> function within the <b>HwClockFunction</b> member of the <a href="..\strmini\ns-strmini-_hw_clock_object.md">HW_CLOCK_OBJECT</a> substructure of its <a href="..\strmini\ns-strmini-_hw_stream_object.md">HW_STREAM_OBJECT</a>. The minidriver fills out the <b>HW_STREAM_OBJECT</b> for a stream within its <a href="..\strmini\nc-strmini-phw_receive_device_srb.md">StrMiniReceiveDevicePacket</a> routine in response to a SRB_OPEN_STREAM request.
+A stream specifies its <i>StrMiniClock</i> function within the <b>HwClockFunction</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559671">HW_CLOCK_OBJECT</a> substructure of its <a href="https://msdn.microsoft.com/library/windows/hardware/ff559697">HW_STREAM_OBJECT</a>. The minidriver fills out the <b>HW_STREAM_OBJECT</b> for a stream within its <a href="https://msdn.microsoft.com/library/windows/hardware/ff568463">StrMiniReceiveDevicePacket</a> routine in response to a SRB_OPEN_STREAM request.
 
-When the class driver calls <i>StrMiniClock</i>, it fills in the <b>HwDeviceExtension</b>, <b>HwStreamObject</b>, and <b>Function</b> members of the <i>HwTimeContext</i> parameter. It expects <i>StrMiniClock</i> to fill in the <b>Time</b> member with the time value, in 100-nanosecond units, specified in the <i>Function</i> parameter. <i>StrMiniClock</i> must also fill in the <b>SystemTime</b> member with the current system time, by calling <a href="..\wdm\nf-wdm-kequeryperformancecounter.md">KeQueryPerformanceCounter</a>, and converting the result to 100-nanosecond units.
+When the class driver calls <i>StrMiniClock</i>, it fills in the <b>HwDeviceExtension</b>, <b>HwStreamObject</b>, and <b>Function</b> members of the <i>HwTimeContext</i> parameter. It expects <i>StrMiniClock</i> to fill in the <b>Time</b> member with the time value, in 100-nanosecond units, specified in the <i>Function</i> parameter. <i>StrMiniClock</i> must also fill in the <b>SystemTime</b> member with the current system time, by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff553053">KeQueryPerformanceCounter</a>, and converting the result to 100-nanosecond units.
 
-The <i>StrMiniClock</i> routine must handle the functions specified in the <b>ClockSupportFlags</b> of the clock's HW_CLOCK_OBJECT. See <a href="..\strmini\ns-strmini-_hw_clock_object.md">HW_CLOCK_OBJECT</a> for details.
+The <i>StrMiniClock</i> routine must handle the functions specified in the <b>ClockSupportFlags</b> of the clock's HW_CLOCK_OBJECT. See <a href="https://msdn.microsoft.com/library/windows/hardware/ff559671">HW_CLOCK_OBJECT</a> for details.
 
 
 
 
 ## -see-also
 
-<a href="..\strmini\ns-strmini-_hw_clock_object.md">HW_CLOCK_OBJECT</a>
 
 
 
-<a href="..\strmini\ns-strmini-_hw_time_context.md">HW_TIME_CONTEXT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559671">HW_CLOCK_OBJECT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559706">HW_TIME_CONTEXT</a>
  
 
  

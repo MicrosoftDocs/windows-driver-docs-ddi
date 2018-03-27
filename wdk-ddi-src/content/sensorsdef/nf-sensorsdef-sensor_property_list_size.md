@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,16 +51,6 @@ req.product: Windows 10 or later.
 
 
 This function returns the size of the property list.
-
-
-## -syntax
-
-
-````
-FORCEINLINE ULONG SENSOR_PROPERTY_LIST_SIZE(
-  _In_ ULONG Count
-);
-````
 
 
 ## -parameters

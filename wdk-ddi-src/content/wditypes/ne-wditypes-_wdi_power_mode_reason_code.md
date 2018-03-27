@@ -53,21 +53,6 @@ req.product: Windows 10 or later.
 The WDI_POWER_MODE_REASON_CODE enumeration defines the reasons for entering the Power Save state.
 
 
-## -syntax
-
-
-````
-typedef enum _WDI_POWER_MODE_REASON_CODE { 
-  WDI_POWER_MODE_REASON_CODE_NO_CHANGE             = 0,
-  WDI_POWER_MODE_REASON_CODE_NONCOMPLIANT_AP       = 1,
-  WDI_POWER_MODE_REASON_CODE_LEGACY_P2P_DEVICE     = 2,
-  WDI_POWER_MODE_REASON_CODE_COMPLIANT_AP          = 3,
-  WDI_POWER_MODE_REASON_CODE_COMPLIANT_P2P_DEVICE  = 4,
-  WDI_POWER_MODE_REASON_CODE_OTHERS                = 5
-} WDI_POWER_MODE_REASON_CODE;
-````
-
-
 ## -enum-fields
 
 

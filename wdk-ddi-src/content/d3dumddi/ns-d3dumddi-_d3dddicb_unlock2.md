@@ -52,16 +52,6 @@ req.typenames: D3DDDICB_UNLOCK2
 <b>D3DDDICB_UNLOCK2</b> describes an allocation to unlock.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DDDICB_UNLOCK2 {
-  D3DKMT_HANDLE hAllocation;
-} D3DDDICB_UNLOCK2;
-````
-
-
 ## -struct-fields
 
 

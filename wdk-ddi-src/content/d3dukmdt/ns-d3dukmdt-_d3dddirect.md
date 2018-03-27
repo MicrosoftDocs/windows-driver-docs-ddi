@@ -52,19 +52,6 @@ req.typenames: D3DDDIRECT
 The D3DDDIRECT structure defines a rectangle by the coordinates of its upper-left and lower-right corners.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DDDIRECT {
-  LONG left;
-  LONG top;
-  LONG right;
-  LONG bottom;
-} D3DDDIRECT;
-````
-
-
 ## -struct-fields
 
 
@@ -92,10 +79,10 @@ typedef struct _D3DDDIRECT {
 
 ## -see-also
 
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_kerneloverlayinfo.md">D3DDDI_KERNELOVERLAYINFO</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544577">D3DDDI_KERNELOVERLAYINFO</a>
  
 
  

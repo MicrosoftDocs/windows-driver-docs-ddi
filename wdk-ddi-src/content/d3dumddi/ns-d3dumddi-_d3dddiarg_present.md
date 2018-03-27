@@ -52,21 +52,6 @@ req.typenames: D3DDDIARG_PRESENT
 The D3DDDIARG_PRESENT structure describes a resource to display.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DDDIARG_PRESENT {
-  HANDLE                   hSrcResource;
-  UINT                     SrcSubResourceIndex;
-  HANDLE                   hDstResource;
-  UINT                     DstSubResourceIndex;
-  D3DDDI_PRESENTFLAGS      Flags;
-  D3DDDI_FLIPINTERVAL_TYPE FlipInterval;
-} D3DDDIARG_PRESENT;
-````
-
-
 ## -struct-fields
 
 
@@ -96,20 +81,20 @@ typedef struct _D3DDDIARG_PRESENT {
 
 ### -field Flags
 
-[in] A <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_presentflags.md">D3DDDI_PRESENTFLAGS</a> structure that identifies, in bit-field flags, how to display. 
+[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff544639">D3DDDI_PRESENTFLAGS</a> structure that identifies, in bit-field flags, how to display. 
 
 
 ### -field FlipInterval
 
-[in] A <a href="..\d3dukmdt\ne-d3dukmdt-d3dddi_flipinterval_type.md">D3DDDI_FLIPINTERVAL_TYPE</a>-typed value that indicates the flip interval (that is, if the flip occurs after zero, one, two, three, or four vertical syncs). 
+[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff544549">D3DDDI_FLIPINTERVAL_TYPE</a>-typed value that indicates the flip interval (that is, if the flip occurs after zero, one, two, three, or four vertical syncs). 
 
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_present.md">Present</a>
 
 
 
+<a href="https://msdn.microsoft.com/e90683b4-64b6-4018-96a5-b50118df3367">Present</a>
  
 
  

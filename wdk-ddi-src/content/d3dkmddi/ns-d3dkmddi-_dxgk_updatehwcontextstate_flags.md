@@ -52,23 +52,6 @@ req.typenames: DXGK_UPDATEHWCONTEXTSTATE_FLAGS
 Used to update the HW context state flags.
 
 
-## -syntax
-
-
-````
-typedef struct _DXGK_UPDATEHWCONTEXTSTATE_FLAGS {
-  union {
-    struct {
-      UINT Suspended;
-      UINT InterruptOnSwitchCompletion;
-      UINT Reserved;
-    };
-    UINT Value;
-  };
-} DXGK_UPDATEHWCONTEXTSTATE_FLAGS;
-````
-
-
 ## -struct-fields
 
 

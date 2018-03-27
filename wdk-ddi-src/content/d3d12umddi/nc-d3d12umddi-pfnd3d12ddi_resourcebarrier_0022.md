@@ -52,27 +52,12 @@ req.typenames: D3D11_1DDI_GETCAPTUREHANDLEDATA
 The <i>pfnResourceBarrier</i> callback function supports resource barriers. 
 
 
-## -prototype
-
-
-````
-PFND3D12DDI_RESOURCEBARRIER_0022 pfnResourceBarrier;
-
-VOID APIENTRY* pfnResourceBarrier(
-             D3D12DDI_HCOMMANDLIST                            hDrvCommandList,
-             UINT                                             Count,
-  _In_ const _reads_(Count) D3D12DDIARG_RESOURCE_BARRIER_0022 *ResourceBarrier
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
 
 
-### -param D3D12DDI_HCOMMANDLIST
+### -param Arg1
 
 
 ### -param Count
@@ -91,7 +76,7 @@ Specifies a count.
 
 #### - ResourceBarrier [in]
 
-A pointer to a resource barrier as a <a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddiarg_resource_barrier_0022.md">D3D12DDIARG_RESOURCE_BARRIER_0022</a> structure. 
+A pointer to a resource barrier as a <a href="https://msdn.microsoft.com/ED597BB0-F9ED-4311-9E2F-06AEA2755B37">D3D12DDIARG_RESOURCE_BARRIER_0022</a> structure. 
 
 
 #### - hDrvCommandList
@@ -119,10 +104,10 @@ Access this callback function by using a command list functions structure, such 
 
 ## -see-also
 
-<a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddiarg_resource_barrier_0022.md">D3D12DDIARG_RESOURCE_BARRIER_0022</a>
 
 
 
+<a href="https://msdn.microsoft.com/ED597BB0-F9ED-4311-9E2F-06AEA2755B37">D3D12DDIARG_RESOURCE_BARRIER_0022</a>
  
 
  

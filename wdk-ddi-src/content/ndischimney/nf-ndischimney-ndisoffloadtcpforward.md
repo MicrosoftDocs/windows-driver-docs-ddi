@@ -57,17 +57,6 @@ A protocol driver or an intermediate driver calls the
   driver or offload target.
 
 
-## -syntax
-
-
-````
-NDIS_STATUS NdisOffloadTcpForward(
-  _In_ PNDIS_OFFLOAD_HANDLE NdisOffloadHandle,
-  _In_ PNET_BUFFER_LIST     NetBufferList
-);
-````
-
-
 ## -parameters
 
 
@@ -76,7 +65,7 @@ NDIS_STATUS NdisOffloadTcpForward(
 ### -param NdisOffloadHandle [in]
 
 A handle to an 
-     <a href="..\ndischimney\ns-ndischimney-_ndis_offload_handle.md">NDIS_OFFLOAD_HANDLE</a> structure in the
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566705">NDIS_OFFLOAD_HANDLE</a> structure in the
      caller's context for the offloaded TCP connection. For more information, see 
      <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/referencing-offloaded-state-through-an-intermediate-driver">
      Referencing Offloaded State Through an Intermediate Driver</a>.
@@ -85,10 +74,10 @@ A handle to an
 ### -param NetBufferList [in]
 
 A pointer to a 
-     <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure. This structure
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structure. This structure
      can be a stand-alone structure or the first structure in a linked list of NET_BUFFER_LIST structures.
      Each NET_BUFFER_LIST structure in the list describes one 
-     <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a> structure. Each NET_BUFFER structure
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a> structure. Each NET_BUFFER structure
      points to a chain of memory descriptor lists (MDLs). The MDLs associated with a NET_BUFFER structure
      contain one and only one TCP segment that is being forwarded to the offload target. The first byte of
      the first MDL is the first byte of the TCP header. The NET_BUFFER_LIST and associated structures are
@@ -131,7 +120,7 @@ An
 </li>
 <li>
 The same PNET_BUFFER_LIST pointer that NDIS passed to the intermediate driver's 
-      <a href="..\ndischimney\nc-ndischimney-w_tcp_offload_forward_handler.md">
+      <a href="https://msdn.microsoft.com/e5702476-60a3-4bfc-b959-198e98f0f9ba">
       MiniportTcpOffloadForward</a> function.
 
 </li>
@@ -147,32 +136,32 @@ When the underlying driver or offload target subsequently completes the forward 
 
 ## -see-also
 
-<a href="..\ndischimney\ns-ndischimney-_ndis_offload_handle.md">NDIS_OFFLOAD_HANDLE</a>
 
 
 
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+<a href="https://msdn.microsoft.com/e5702476-60a3-4bfc-b959-198e98f0f9ba">MiniportTcpOffloadForward</a>
 
 
 
-<a href="..\ndischimney\nc-ndischimney-w_tcp_offload_forward_handler.md">MiniportTcpOffloadForward</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566705">NDIS_OFFLOAD_HANDLE</a>
 
 
 
-<a href="..\ndischimney\nc-ndischimney-tcp_offload_forward_complete_handler.md">
-   ProtocolTcpOffloadForwardComplete</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a>
 
 
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a>
 
 
 
-<a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_forward_complete.md">
+<a href="https://msdn.microsoft.com/080949ab-8a27-4d13-992e-597210d4882c">
    NdisTcpOffloadForwardComplete</a>
 
 
 
+<a href="https://msdn.microsoft.com/02a11841-d98a-4c74-8922-458826e2911e">
+   ProtocolTcpOffloadForwardComplete</a>
  
 
  

@@ -53,25 +53,6 @@ req.product: Windows 10 or later.
 The <b>USBD_INTERFACE_INFORMATION</b> structure holds information about an interface for a configuration on a USB device.
 
 
-## -syntax
-
-
-````
-typedef struct _USBD_INTERFACE_INFORMATION {
-  USHORT                Length;
-  UCHAR                 InterfaceNumber;
-  UCHAR                 AlternateSetting;
-  UCHAR                 Class;
-  UCHAR                 SubClass;
-  UCHAR                 Protocol;
-  UCHAR                 Reserved;
-  USBD_INTERFACE_HANDLE InterfaceHandle;
-  ULONG                 NumberOfPipes;
-  USBD_PIPE_INFORMATION Pipes[1];
-} USBD_INTERFACE_INFORMATION, *PUSBD_INTERFACE_INFORMATION;
-````
-
-
 ## -struct-fields
 
 
@@ -124,7 +105,7 @@ Specifies the number of pipes (endpoints) in this interface.
 
 ### -field Pipes
 
-Pointer to the first element in the array of <a href="..\usb\ns-usb-_usbd_pipe_information.md">USBD_PIPE_INFORMATION</a> structures. The length of the array depends on the number of endpoints in the interface descriptor.
+Pointer to the first element in the array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff539114">USBD_PIPE_INFORMATION</a> structures. The length of the array depends on the number of endpoints in the interface descriptor.
 
 
 ## -remarks
@@ -140,7 +121,6 @@ The reserved members of this structure must be treated as opaque and are reserve
 
 ## -see-also
 
-<a href="..\usb\ns-usb-_usbd_pipe_information.md">USBD_PIPE_INFORMATION</a>
 
 
 
@@ -148,6 +128,7 @@ The reserved members of this structure must be treated as opaque and are reserve
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539114">USBD_PIPE_INFORMATION</a>
  
 
  

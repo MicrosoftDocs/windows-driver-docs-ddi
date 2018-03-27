@@ -52,18 +52,6 @@ req.typenames: TOKEN_TYPE
 Given an ANSI or double-byte character set (DBCS) pathname string, the <b>FsRtlDissectDbcs</b> routine returns two strings: one containing the first file name found in the string, the other containing the remaining unparsed portion of the pathname string.
 
 
-## -syntax
-
-
-````
-VOID FsRtlDissectDbcs(
-  _In_  ANSI_STRING  Path,
-  _Out_ PANSI_STRING FirstName,
-  _Out_ PANSI_STRING RemainingName
-);
-````
-
-
 ## -parameters
 
 
@@ -247,10 +235,10 @@ For information about other string-handling routines, see <a href="https://msdn.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540605">ANSI_STRING</a>
-
-
-
  
 
  

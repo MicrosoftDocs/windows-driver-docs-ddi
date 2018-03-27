@@ -58,17 +58,6 @@ req.product: Windows 10 or later.
 The <b>WdfDeviceAssignSxWakeSettings</b> method provides driver-supplied information about a device's ability to trigger a wake signal while both the device and the system are in a low-power state.
 
 
-## -syntax
-
-
-````
-NTSTATUS WdfDeviceAssignSxWakeSettings(
-  _In_ WDFDEVICE                              Device,
-  _In_ PWDF_DEVICE_POWER_POLICY_WAKE_SETTINGS Settings
-);
-````
-
-
 ## -parameters
 
 
@@ -81,7 +70,7 @@ A handle to a framework device object.
 
 ### -param Settings [in]
 
-A pointer to a caller-supplied <a href="..\wdfdevice\ns-wdfdevice-_wdf_device_power_policy_wake_settings.md">WDF_DEVICE_POWER_POLICY_WAKE_SETTINGS</a> structure. 
+A pointer to a caller-supplied <a href="https://msdn.microsoft.com/library/windows/hardware/ff551277">WDF_DEVICE_POWER_POLICY_WAKE_SETTINGS</a> structure. 
 
 
 ## -returns
@@ -125,7 +114,7 @@ An invalid <i>Settings</i> value is detected.
 </dl>
 </td>
 <td width="60%">
-The size of the <a href="..\wdfdevice\ns-wdfdevice-_wdf_device_power_policy_wake_settings.md">WDF_DEVICE_POWER_POLICY_WAKE_SETTINGS</a> structure is incorrect. 
+The size of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551277">WDF_DEVICE_POWER_POLICY_WAKE_SETTINGS</a> structure is incorrect. 
 
 </td>
 </tr>
@@ -136,7 +125,7 @@ The size of the <a href="..\wdfdevice\ns-wdfdevice-_wdf_device_power_policy_wake
 </dl>
 </td>
 <td width="60%">
-The bus driver indicates the device cannot trigger a wake signal, or the <a href="..\wdfdevice\ns-wdfdevice-_wdf_device_power_policy_wake_settings.md">WDF_DEVICE_POWER_POLICY_WAKE_SETTINGS</a> structure contains an invalid device power state.
+The bus driver indicates the device cannot trigger a wake signal, or the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551277">WDF_DEVICE_POWER_POLICY_WAKE_SETTINGS</a> structure contains an invalid device power state.
 
 
 </td>
@@ -160,7 +149,7 @@ For more information, see <a href="https://msdn.microsoft.com/519dcd1a-9975-48b1
 
 #### Examples
 
-The following code example initializes a WDF_DEVICE_POWER_POLICY_WAKE_SETTINGS structure and then calls <b>WdfDeviceAssignSxWakeSettings</b>. The example uses the default settings that <a href="..\wdfdevice\nf-wdfdevice-wdf_device_power_policy_wake_settings_init.md">WDF_DEVICE_POWER_POLICY_WAKE_SETTINGS_INIT</a> sets.
+The following code example initializes a WDF_DEVICE_POWER_POLICY_WAKE_SETTINGS structure and then calls <b>WdfDeviceAssignSxWakeSettings</b>. The example uses the default settings that <a href="https://msdn.microsoft.com/library/windows/hardware/ff551279">WDF_DEVICE_POWER_POLICY_WAKE_SETTINGS_INIT</a> sets.
 
 <div class="code"><span codelanguage=""><table>
 <tr>
@@ -188,14 +177,14 @@ if (!NT_SUCCESS(status)) {
 
 ## -see-also
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceassigns0idlesettings.md">WdfDeviceAssignS0IdleSettings</a>
 
 
 
-<a href="..\wdfdevice\ns-wdfdevice-_wdf_device_power_policy_wake_settings.md">WDF_DEVICE_POWER_POLICY_WAKE_SETTINGS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551277">WDF_DEVICE_POWER_POLICY_WAKE_SETTINGS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545903">WdfDeviceAssignS0IdleSettings</a>
  
 
  

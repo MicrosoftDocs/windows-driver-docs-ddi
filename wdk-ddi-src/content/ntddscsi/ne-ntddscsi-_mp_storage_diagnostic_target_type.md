@@ -52,20 +52,6 @@ req.typenames: MP_STORAGE_DIAGNOSTIC_TARGET_TYPE, *PMP_STORAGE_DIAGNOSTIC_TARGET
 The <b>MP_STORAGE_DIAGNOSTIC_TARGET_TYPE</b> enumeration specifies the target type of a storage diagnostic.
 
 
-## -syntax
-
-
-````
-typedef enum _MP_STORAGE_DIAGNOSTIC_TARGET_TYPE { 
-  StorageDiagnosticTargetTypeUndefined    = 0,
-  StorageDiagnosticTargetTypePort         = 2,
-  StorageDiagnosticTargetTypeMiniport,
-  StorageDiagnosticTargetTypeHbaFirmware,
-  StorageDiagnosticTargetTypeMax
-} MP_STORAGE_DIAGNOSTIC_TARGET_TYPE, *PMP_STORAGE_DIAGNOSTIC_TARGET_TYPE;
-````
-
-
 ## -enum-fields
 
 

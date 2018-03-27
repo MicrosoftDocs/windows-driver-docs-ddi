@@ -52,19 +52,6 @@ req.typenames: DXGI_DDI_ARG_RECLAIMRESOURCES
 Describes video memory resources that are to be reclaimed and that the user-mode display driver  previously offered  for reuse. Used with the <a href="https://msdn.microsoft.com/AF3DCD16-9F8C-442A-A9A5-9EA2BD1C3B84">pfnReclaimResources</a> function by Windows Display Driver Model (WDDM) 1.2 and later user-mode display drivers.
 
 
-## -syntax
-
-
-````
-typedef struct _DXGI_DDI_ARG_RECLAIMRESOURCES {
-  DXGI_DDI_HDEVICE         hDevice;
-  const DXGI_DDI_HRESOURCE *pResources;
-  BOOL                     *pDiscarded;
-  UINT                     Resources;
-} DXGI_DDI_ARG_RECLAIMRESOURCES;
-````
-
-
 ## -struct-fields
 
 
@@ -74,7 +61,7 @@ typedef struct _DXGI_DDI_ARG_RECLAIMRESOURCES {
 
 [in] A handle to the display device (graphics context) on which the driver offers resources for reuse.
 
-The Direct3D runtime passed this handle to the driver in the <b>hDrvDevice</b> member of the <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createdevice.md">D3D10DDIARG_CREATEDEVICE</a> structure when it created the device by calling the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createdevice.md">CreateDevice(D3D10)</a> routine.
+The Direct3D runtime passed this handle to the driver in the <b>hDrvDevice</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff541664">D3D10DDIARG_CREATEDEVICE</a> structure when it created the device by calling the <a href="https://msdn.microsoft.com/c69eedb1-c975-412c-aa9f-cf64a702f937">CreateDevice(D3D10)</a> routine.
 
 
 ### -field pResources
@@ -100,10 +87,10 @@ If <b>pDiscarded</b> is <b>NULL</b>, the driver can ignore it.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/AF3DCD16-9F8C-442A-A9A5-9EA2BD1C3B84">pfnReclaimResources</a>
-
-
-
  
 
  

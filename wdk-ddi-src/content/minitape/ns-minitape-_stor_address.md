@@ -53,19 +53,6 @@ req.typenames: STOR_ADDRESS, *PSTOR_ADDRESS
    A general structure for holding a storage device address.
 
 
-## -syntax
-
-
-````
-typedef struct _STOR_ADDRESS {
-  USHORT Type;
-  USHORT Port;
-  ULONG  AddressLength;
-  UCHAR  AddressData[ANYSIZE_ARRAY];
-} STOR_ADDRESS, *PSTOR_ADDRESS;
-````
-
-
 ## -struct-fields
 
 
@@ -121,14 +108,14 @@ The address data specific to an address type.
 
 ## -see-also
 
-<a href="..\storport\ns-storport-_stor_addr_btl8.md">STOR_ADDR_BTL8</a>
 
 
 
-<a href="..\storport\nf-storport-storportsetunitattributes.md">StorPortSetUnitAttributes</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451521">STOR_ADDR_BTL8</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj206452">StorPortSetUnitAttributes</a>
  
 
  

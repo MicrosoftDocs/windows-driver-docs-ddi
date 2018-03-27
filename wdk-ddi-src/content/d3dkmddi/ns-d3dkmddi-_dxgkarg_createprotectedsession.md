@@ -52,18 +52,6 @@ req.typenames: DXGKARG_CREATEPROTECTEDSESSION
 Used to create a protected session.
 
 
-## -syntax
-
-
-````
-typedef struct _DXGKARG_CREATEPROTECTEDSESSION {
-  HANDLE hProtectedSession;
-  PVOID  pPrivateDriverData;
-  UINT   PrivateDriverDataSize;
-} DXGKARG_CREATEPROTECTEDSESSION;
-````
-
-
 ## -struct-fields
 
 

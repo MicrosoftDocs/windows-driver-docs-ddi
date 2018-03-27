@@ -50,20 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-Provides information about USB 3.0 root hub ports. This structure is passed by UCX in the <a href="..\ucxroothub\nc-ucxroothub-evt_ucx_roothub_get_30port_info.md">EVT_UCX_ROOTHUB_GET_30PORT_INFO</a> callback function.
-
-
-## -syntax
-
-
-````
-typedef struct _ROOTHUB_30PORTS_INFO {
-  ULONG                 Size;
-  USHORT                NumberOfPorts;
-  USHORT                PortInfoSize;
-   PROOTHUB_30PORT_INFO *PortInfoArray;
-} ROOTHUB_30PORTS_INFO, *P_ROOTHUB_30PORTS_INFO;
-````
+Provides information about USB 3.0 root hub ports. This structure is passed by UCX in the <a href="https://msdn.microsoft.com/library/windows/hardware/mt187835">EVT_UCX_ROOTHUB_GET_30PORT_INFO</a> callback function.
 
 
 ## -struct-fields
@@ -83,20 +70,20 @@ Number of USB 3.0 root hub ports.
 
 ### -field PortInfoSize
 
-The size of the <a href="..\ucxroothub\ns-ucxroothub-_roothub_30port_info.md">ROOTHUB_30PORT_INFO</a> array.
+The size of the <a href="https://msdn.microsoft.com/library/windows/hardware/mt188029">ROOTHUB_30PORT_INFO</a> array.
 
 
 ### -field PortInfoArray
 
-A pointer to an array of  <a href="..\ucxroothub\ns-ucxroothub-_roothub_30port_info.md">ROOTHUB_30PORT_INFO</a> structures.
+A pointer to an array of  <a href="https://msdn.microsoft.com/library/windows/hardware/mt188029">ROOTHUB_30PORT_INFO</a> structures.
 
 
 ## -see-also
 
-<a href="..\ucxroothub\nc-ucxroothub-evt_ucx_roothub_get_30port_info.md">EVT_UCX_ROOTHUB_GET_30PORT_INFO</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt187835">EVT_UCX_ROOTHUB_GET_30PORT_INFO</a>
  
 
  

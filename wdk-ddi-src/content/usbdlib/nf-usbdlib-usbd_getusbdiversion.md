@@ -52,17 +52,7 @@ req.product: Windows 10 or later.
 
 
 The <b>USBD_GetUSBDIVersion</b> routine returns version information about the host controller driver (HCD) that controls the client's USB device.
-<div class="alert"><b>Note</b>  <a href="..\usbdlib\nf-usbdlib-usbd_isinterfaceversionsupported.md">USBD_IsInterfaceVersionSupported</a> replaces the <b>USBD_GetUSBDIVersion</b>  routine</div><div> </div>
-
-## -syntax
-
-
-````
-void USBD_GetUSBDIVersion(
-  _Out_ PUSBD_VERSION_INFORMATION VersionInformation
-);
-````
-
+<div class="alert"><b>Note</b>  <a href="https://msdn.microsoft.com/library/windows/hardware/hh406233">USBD_IsInterfaceVersionSupported</a> replaces the <b>USBD_GetUSBDIVersion</b>  routine</div><div> </div>
 
 ## -parameters
 
@@ -71,7 +61,7 @@ void USBD_GetUSBDIVersion(
 
 ### -param VersionInformation [out]
 
-Pointer to caller-allocated memory for a <a href="..\usb\ns-usb-_usbd_version_information.md">USBD_VERSION_INFORMATION</a> structure that on return from the routine, contains version information about the HCD.
+Pointer to caller-allocated memory for a <a href="https://msdn.microsoft.com/library/windows/hardware/ff539149">USBD_VERSION_INFORMATION</a> structure that on return from the routine, contains version information about the HCD.
 
 
 ## -returns
@@ -94,7 +84,6 @@ Callers of this routine can be running at IRQL &lt;= DISPATCH_LEVEL if the memor
 
 ## -see-also
 
-<a href="..\usbdlib\nf-usbdlib-usbd_isinterfaceversionsupported.md">USBD_IsInterfaceVersionSupported</a>
 
 
 
@@ -102,6 +91,7 @@ Callers of this routine can be running at IRQL &lt;= DISPATCH_LEVEL if the memor
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406233">USBD_IsInterfaceVersionSupported</a>
  
 
  

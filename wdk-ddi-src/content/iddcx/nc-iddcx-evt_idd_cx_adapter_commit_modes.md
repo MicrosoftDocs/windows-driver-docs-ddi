@@ -52,22 +52,6 @@ req.typenames: WCS_PROFILE_MANAGEMENT_SCOPE
 <b>EVT_IDD_CX_ADAPTER_COMMIT_MODES</b> is called by the OS to inform the driver of a mode change for monitors on the adapter.
 
 
-## -prototype
-
-
-````
-EVT_IDD_CX_ADAPTER_COMMIT_MODES EvtIddCxAdapterCommitModes;
-
-NTSTATUS EvtIddCxAdapterCommitModes(
-  _In_       IDDCX_ADAPTER         AdapterObject,
-  _In_ const IDARG_IN_COMMITMODES* pInArgs
-)
-{ ... }
-
-typedef EVT_IDD_CX_ADAPTER_COMMIT_MODES PFN_IDD_CX_ADAPTER_COMMIT_MODES;
-````
-
-
 ## -parameters
 
 

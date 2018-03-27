@@ -52,25 +52,6 @@ req.typenames: D3DDDIARG_COPYFLAGS
 Describes how to handle the existing contents of a resource during a copy or update operation of a region within that resource. Used by Windows Display Driver Model (WDDM) 1.3 and later user-mode display drivers.
 
 
-## -syntax
-
-
-````
-typedef struct D3DDDIARG_COPYFLAGS {
-  union {
-    struct {
-      UINT NoOverwrite  :1;
-      UINT Discard  :1;
-      UINT Reserved1  :22;
-      UINT BoxValid  :1;
-      UINT Reserved2  :7;
-    };
-    UINT Value;
-  };
-} D3DDDIARG_COPYFLAGS;
-````
-
-
 ## -struct-fields
 
 
@@ -118,10 +99,10 @@ A member in the union that <b>D3DDDIARG_COPYFLAGS</b> contains that can hold a 3
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-d3dddiarg_updatesubresourceup.md">D3DDDIARG_UPDATESUBRESOURCEUP</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn449153">D3DDDIARG_UPDATESUBRESOURCEUP</a>
  
 
  

@@ -52,17 +52,6 @@ req.typenames: DEBUG_OFFSET_REGION, *PDEBUG_OFFSET_REGION
 Defines a debug offset region.
 
 
-## -syntax
-
-
-````
-typedef struct _DEBUG_OFFSET_REGION {
-  ULONG64 Base;
-  ULONG64 Size;
-} DEBUG_OFFSET_REGION, *PDEBUG_OFFSET_REGION;
-````
-
-
 ## -struct-fields
 
 
@@ -80,10 +69,10 @@ The size of the region.
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugadvanced.md">IDebugAdvanced</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549798">IDebugAdvanced</a>
  
 
  

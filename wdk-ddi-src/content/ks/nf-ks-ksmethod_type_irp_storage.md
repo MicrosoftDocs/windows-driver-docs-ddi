@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: ks.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -49,17 +49,7 @@ req.typenames:
 ## -description
 
 
-This macro accesses the type of method as described in the <a href="..\ks\ns-ks-ksmethod_item.md">KSMETHOD_ITEM</a>. If the method will be processed asynchronously using <a href="..\ks\nf-ks-ksdispatchspecificmethod.md">KsDispatchSpecificMethod</a>, this storage must be maintained intact.
-
-
-## -syntax
-
-
-````
-VOID KSMETHOD_TYPE_IRP_STORAGE(
-  [in] IRP Irp
-);
-````
+This macro accesses the type of method as described in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563420">KSMETHOD_ITEM</a>. If the method will be processed asynchronously using <a href="https://msdn.microsoft.com/library/windows/hardware/ff561715">KsDispatchSpecificMethod</a>, this storage must be maintained intact.
 
 
 ## -parameters
@@ -76,7 +66,7 @@ Specifies the IRP passed to the handler routine.
 
 
 
-The relevant KSMETHOD_ITEM structure is extracted from <b>Irp-&gt;Tail.Overlay.DriverContext</b>. Parameters in <b>DriverContext</b> are initialized by <a href="..\ks\nf-ks-ksmethodhandler.md">KsMethodHandler</a> and <a href="..\ks\nf-ks-ksmethodhandlerwithallocator.md">KsMethodHandlerWithAllocator</a>.
+The relevant KSMETHOD_ITEM structure is extracted from <b>Irp-&gt;Tail.Overlay.DriverContext</b>. Parameters in <b>DriverContext</b> are initialized by <a href="https://msdn.microsoft.com/library/windows/hardware/ff563399">KsMethodHandler</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff563401">KsMethodHandlerWithAllocator</a>.
 
 The macro is defined as follows:
 
@@ -86,23 +76,6 @@ The macro is defined as follows:
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksmethodhandlerwithallocator.md">KsMethodHandlerWithAllocator</a>
-
-
-
-<a href="..\ks\ns-ks-ksmethod_set.md">KSMETHOD_SET</a>
-
-
-
-<a href="..\ks\nf-ks-ksmethodhandler.md">KsMethodHandler</a>
-
-
-
-<a href="..\ks\nf-ks-ksfastmethodhandler.md">KsFastMethodHandler</a>
-
-
-
-<a href="..\ks\ns-ks-ksmethod_item.md">KSMETHOD_ITEM</a>
 
 
 
@@ -110,6 +83,23 @@ The macro is defined as follows:
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563420">KSMETHOD_ITEM</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563423">KSMETHOD_SET</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561940">KsFastMethodHandler</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563399">KsMethodHandler</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563401">KsMethodHandlerWithAllocator</a>
  
 
  

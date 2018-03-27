@@ -52,17 +52,6 @@ req.typenames: TOKEN_TYPE
 The <b>FsRtlNormalizeNtstatus</b> routine translates an arbitrary exception into a status value that is handled by the exception filter.
 
 
-## -syntax
-
-
-````
-NTSTATUS FsRtlNormalizeNtstatus(
-  _In_ NTSTATUS Exception,
-  _In_ NTSTATUS GenericException
-);
-````
-
-
 ## -parameters
 
 
@@ -89,10 +78,10 @@ Generic status value to return if <i>Exception</i> is not within the set of exce
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlisntstatusexpected.md">FsRtlIsNtstatusExpected</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546860">FsRtlIsNtstatusExpected</a>
  
 
  

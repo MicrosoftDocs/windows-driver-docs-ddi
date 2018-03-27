@@ -53,21 +53,6 @@ req.product: Windows 10 or later.
 Describes the configuration options for a Type-C connector. 
 
 
-## -syntax
-
-
-````
-typedef struct _UCM_CONNECTOR_TYPEC_CONFIG {
-  ULONG                           Size;
-  BOOLEAN                         IsSupported;
-  ULONG                           SupportedOperatingModes;
-  ULONG                           SupportedPowerSourcingCapabilities;
-  BOOLEAN                         AudioAccessoryCapable;
-  PFN_UCM_CONNECTOR_SET_DATA_ROLE EvtSetDataRole;
-} UCM_CONNECTOR_TYPEC_CONFIG, *PUCM_CONNECTOR_TYPEC_CONFIG;
-````
-
-
 ## -struct-fields
 
 
@@ -85,12 +70,12 @@ TRUE indicates a Type-C connector. FALSE, otherwise.  is supported.
 
 ### -field SupportedOperatingModes
 
-Indicates the supported operating mode of the connector. This value is a bitwise OR of <a href="..\ucmtypes\ne-ucmtypes-_ucm_typec_operating_mode.md">UCM_TYPEC_OPERATING_MODE</a>-typed flags.
+Indicates the supported operating mode of the connector. This value is a bitwise OR of <a href="https://msdn.microsoft.com/library/windows/hardware/mt187946">UCM_TYPEC_OPERATING_MODE</a>-typed flags.
 
 
 ### -field SupportedPowerSourcingCapabilities
 
-Indicates the supported power source capabilities of the connector. This value is a bitwise OR of <a href="..\ucmtypes\ne-ucmtypes-_ucm_typec_current.md">UCM_TYPEC_CURRENT</a>-typed flags.
+Indicates the supported power source capabilities of the connector. This value is a bitwise OR of <a href="https://msdn.microsoft.com/library/windows/hardware/mt187945">UCM_TYPEC_CURRENT</a>-typed flags.
 
 
 ### -field AudioAccessoryCapable
@@ -100,24 +85,24 @@ Indicates whether the connector is capable of detecting a USB Type-C analog inpu
 
 ### -field EvtSetDataRole
 
-A pointer to the client driver's implementation of the <a href="..\ucmmanager\nc-ucmmanager-evt_ucm_connector_set_data_role.md">EVT_UCM_CONNECTOR_SET_DATA_ROLE</a> callback function.
+A pointer to the client driver's implementation of the <a href="https://msdn.microsoft.com/library/windows/hardware/mt187818">EVT_UCM_CONNECTOR_SET_DATA_ROLE</a> callback function.
 
 
 ## -remarks
 
 
 
-Initialize this structure by calling <a href="..\ucmmanager\nf-ucmmanager-ucm_connector_typec_config_init.md">UCM_CONNECTOR_TYPEC_CONFIG_INIT</a>. An initialized <b>UCM_CONNECTOR_TYPEC_CONFIG</b> structure is an input parameter value to <a href="..\ucmmanager\nf-ucmmanager-ucmconnectorcreate.md">UcmConnectorCreate</a> that is used by Policy Manager to create a connector object.
+Initialize this structure by calling <a href="https://msdn.microsoft.com/library/windows/hardware/mt187931">UCM_CONNECTOR_TYPEC_CONFIG_INIT</a>. An initialized <b>UCM_CONNECTOR_TYPEC_CONFIG</b> structure is an input parameter value to <a href="https://msdn.microsoft.com/library/windows/hardware/mt187909">UcmConnectorCreate</a> that is used by Policy Manager to create a connector object.
 
 
 
 
 ## -see-also
 
-<a href="..\ucmmanager\nf-ucmmanager-ucmconnectorcreate.md">UcmConnectorCreate</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt187909">UcmConnectorCreate</a>
  
 
  

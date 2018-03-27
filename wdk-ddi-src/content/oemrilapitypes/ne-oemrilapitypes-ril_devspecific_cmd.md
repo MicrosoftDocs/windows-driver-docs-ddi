@@ -52,20 +52,6 @@ req.typenames: RIL_DEVSPECIFIC_CMD
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef enum _RIL_DEVSPECIFIC_CMD { 
-  RIL_DEVSPECIFIC_CMD_OEM_GBA_UNKNOWN,
-  RIL_DEVSPECIFIC_CMD_OEM_GBA_GET_GBA_CAPABLE,
-  RIL_DEVSPECIFIC_CMD_OEM_GBA_GET_GBA_TOKEN,
-  RIL_DEVSPECIFIC_CMD_OEM_GBA_GET_GBA_TOKEN_FORCE,
-  RIL_DEVSPECIFIC_CMD_OEM_MAX
-} RIL_DEVSPECIFIC_CMD;
-````
-
-
 ## -enum-fields
 
 

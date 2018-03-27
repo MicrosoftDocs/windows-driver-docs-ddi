@@ -52,19 +52,6 @@ req.typenames: TOKEN_TYPE
 The <b>CcFastCopyWrite</b> routine performs a fast copy write from a buffer in memory to a cached file.
 
 
-## -syntax
-
-
-````
-VOID CcFastCopyWrite(
-  _In_ PFILE_OBJECT FileObject,
-  _In_ ULONG        FileOffset,
-  _In_ ULONG        Length,
-  _In_ PVOID        Buffer
-);
-````
-
-
 ## -parameters
 
 
@@ -103,7 +90,7 @@ None
 
 
 
-<b>CcFastCopyWrite</b> is a faster version of <a href="..\ntifs\nf-ntifs-cccopywrite.md">CcCopyWrite</a>. It differs from <b>CcCopyWrite</b> in the following respects:
+<b>CcFastCopyWrite</b> is a faster version of <a href="https://msdn.microsoft.com/library/windows/hardware/ff539045">CcCopyWrite</a>. It differs from <b>CcCopyWrite</b> in the following respects:
 
 <ul>
 <li>
@@ -123,21 +110,21 @@ If the required pages of the cached file are already resident in memory, the dat
 
 If any failure occurs, <b>CcFastCopyWrite</b> raises a status exception for that particular failure. For example, if a pool allocation failure occurs, <b>CcFastCopyWrite</b> raises a STATUS_INSUFFICIENT_RESOURCES exception; if an I/O error occurs, <b>CcFastCopyWrite</b> raises the status exception of the I/O error. Therefore, to gain control if a failure occurs, the driver should wrap the call to <b>CcFastCopyWrite</b> in a <b>try-except</b> or <b>try-finally</b> statement.
 
-To cache a file, use <a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a>.
+To cache a file, use <a href="https://msdn.microsoft.com/library/windows/hardware/ff539135">CcInitializeCacheMap</a>.
 
 
 
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-cccopywrite.md">CcCopyWrite</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539045">CcCopyWrite</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539135">CcInitializeCacheMap</a>
  
 
  

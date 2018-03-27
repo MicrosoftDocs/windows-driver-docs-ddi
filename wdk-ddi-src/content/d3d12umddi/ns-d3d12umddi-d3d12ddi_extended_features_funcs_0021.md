@@ -52,19 +52,6 @@ req.typenames: D3D12DDI_EXTENDED_FEATURES_FUNCS_0021
 Specifies callback functions for extended features.
 
 
-## -syntax
-
-
-````
-typedef struct D3D12DDI_EXTENDED_FEATURES_FUNCS_0021 {
-  PFND3D12DDI_GET_SUPPORTED_EXTENDED_FEATURES_0020         pfnGetSupportedExtendedFeatures;
-  PFND3D12DDI_GET_SUPPORTED_EXTENDED_FEATURE_VERSIONS_0020 pfnGetSupportedExtendedFeatureVersions;
-  PFND3D12DDI_ENABLE_EXTENDED_FEATURE_0020                 pfnEnableExtendedFeature;
-  PFND3D12DDI_SET_EXTENDED_FEATURE_CALLBACKS_0021          pfnSetExtendedFeatureCallbacks;
-} D3D12DDI_EXTENDED_FEATURES_FUNCS_0021;
-````
-
-
 ## -struct-fields
 
 

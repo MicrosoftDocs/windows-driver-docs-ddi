@@ -49,21 +49,7 @@ req.typenames: DXGKARG_CREATEPROCESS
 ## -description
 
 
-<b>DXGKARG_CREATEPROCESS</b> is used with <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createprocess.md">DxgkDdiCreateProcess</a> to create a kernel mode driver object for a Microsoft DirectX graphics kernel process object.
-
-
-## -syntax
-
-
-````
-typedef struct _DXGKARG_CREATEPROCESS {
-  HANDLE                  hDxgkProcess;
-  HANDLE                  hKmdProcess;
-  DXGK_CREATEPROCESSFLAGS Flags;
-  UINT                    NumPasid;
-  ULONG*                  pPasid;
-} DXGKARG_CREATEPROCESS;
-````
+<b>DXGKARG_CREATEPROCESS</b> is used with <a href="https://msdn.microsoft.com/E5AAEEB1-C29E-4AA7-9F8E-2C2DCFADED81">DxgkDdiCreateProcess</a> to create a kernel mode driver object for a Microsoft DirectX graphics kernel process object.
 
 
 ## -struct-fields
@@ -83,7 +69,7 @@ typedef struct _DXGKARG_CREATEPROCESS {
 
 ### -field Flags
 
-[in] A <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_createprocessflags.md">DXGK_CREATEPROCESSFLAGS</a> structure describing the operation.
+[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/dn914476">DXGK_CREATEPROCESSFLAGS</a> structure describing the operation.
 
 
 ### -field NumPasid
@@ -98,14 +84,14 @@ typedef struct _DXGKARG_CREATEPROCESS {
 
 ## -see-also
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createprocess.md">DxgkDdiCreateProcess</a>
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_createprocessflags.md">DXGK_CREATEPROCESSFLAGS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn914476">DXGK_CREATEPROCESSFLAGS</a>
 
 
 
+<a href="https://msdn.microsoft.com/E5AAEEB1-C29E-4AA7-9F8E-2C2DCFADED81">DxgkDdiCreateProcess</a>
  
 
  

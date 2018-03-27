@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -50,17 +50,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The GetSynchronizationStatus method returns information about the synchronization status of the debugger engine.
-
-
-## -syntax
-
-
-````
-HRESULT GetSynchronizationStatus(
-  [out] PULONG SendsAttempted,
-  [out] PULONG SecondsSinceLastResponse
-);
-````
 
 
 ## -parameters
@@ -117,14 +106,14 @@ When the client object connects to a session, the most recent output from the se
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol6.md">IDebugControl6</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn818568">IDebugControl6</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558852">Synchronizing with the Target Computer</a>
-
-
-
  
 
  

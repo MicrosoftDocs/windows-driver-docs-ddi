@@ -52,19 +52,6 @@ req.typenames:
 The DISPLAYID_DETAILED_TIMING_TYPE_I_STEREO_MODE enumeration indicates the display device's stereo vision mode.
 
 
-## -syntax
-
-
-````
-enum _DISPLAYID_DETAILED_TIMING_TYPE_I_STEREO_MODE {
-  DIDDT1_Monoscopic  = 0, 
-  DIDDT1_Stereo      = 1, 
-  DIDDT1_Dependent   = 2 
-
-};
-````
-
-
 ## -enum-fields
 
 

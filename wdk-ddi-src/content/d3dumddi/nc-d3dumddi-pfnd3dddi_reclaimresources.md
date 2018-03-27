@@ -52,20 +52,6 @@ req.typenames: DXGK_PTE
 Called by the Microsoft Direct3D runtime to reclaim video memory resources that it  previously offered  for reuse.
 
 
-## -prototype
-
-
-````
-PFND3DDDI_RECLAIMRESOURCES ReclaimResources;
-
-__checkReturn HRESULT APIENTRY* ReclaimResources(
-  _In_       HANDLE                     hDevice,
-  _In_ const D3DDDIARG_RECLAIMRESOURCES *pData
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -87,7 +73,7 @@ __checkReturn HRESULT APIENTRY* ReclaimResources(
 
 #### - pData [in]
 
- A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_reclaimresources.md">D3DDDIARG_RECLAIMRESOURCES</a> structure that defines the video memory resources to reclaim.
+ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh451080">D3DDDIARG_RECLAIMRESOURCES</a> structure that defines the video memory resources to reclaim.
 
 
 ## -returns
@@ -151,15 +137,18 @@ This error code is returned if the driver calls the <a href="https://msdn.micros
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_reclaimresources.md">D3DDDIARG_RECLAIMRESOURCES</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451080">D3DDDIARG_RECLAIMRESOURCES</a>
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_offerresources.md">OfferResources</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544519">D3DDDI_DEVICEFUNCS</a>
+
+
+
+<a href="https://msdn.microsoft.com/68551AD7-AC0C-4138-948F-33773F02DA41">OfferResources</a>
 
 
 
@@ -168,9 +157,6 @@ This error code is returned if the driver calls the <a href="https://msdn.micros
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451695">pfnReclaimAllocationsCb</a>
-
-
-
  
 
  

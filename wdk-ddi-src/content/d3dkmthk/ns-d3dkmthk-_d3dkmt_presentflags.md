@@ -52,51 +52,6 @@ req.typenames: D3DKMT_PRESENTFLAGS
 The D3DKMT_PRESENTFLAGS structure identifies how to perform a present operation.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DKMT_PRESENTFLAGS {
-  union {
-    struct {
-      UINT Blt  :1;
-      UINT ColorFill  :1;
-      UINT Flip  :1;
-      UINT FlipDoNotFlip  :1;
-      UINT FlipDoNotWait  :1;
-      UINT FlipRestart  :1;
-      UINT DstRectValid  :1;
-      UINT SrcRectValid  :1;
-      UINT RestrictVidPnSource  :1;
-      UINT SrcColorKey  :1;
-      UINT DstColorKey  :1;
-      UINT LinearToSrgb  :1;
-      UINT PresentCountValid  :1;
-      UINT Rotate  :1;
-      UINT PresentToBitmap  :1;
-      UINT RedirectedFlip  :1;
-      UINT RedirectedBlt  :1;
-#if (DXGKDDI_INTERFACE_VERSION >= DXGKDDI_INTERFACE_VERSION_WIN8)
-      UINT FlipStereo  :1;
-      UINT FlipStereoTemporaryMono  :1;
-      UINT FlipStereoPreferRight  :1;
-      UINT BltStereoUseRight  :1;
-      UINT PresentHistoryTokenOnly  :1;
-      UINT PresentRegionsValid  :1;
-      UINT PresentDDA  :1;
-      UINT ProtectedContentBlankedOut  :1;
-      UINT RemoteSession  :1;
-      UINT Reserved  :6;
-#else 
-      UINT Reserved  :15;
-#endif 
-    };
-    UINT   Value;
-  };
-} D3DKMT_PRESENTFLAGS;
-````
-
-
 ## -struct-fields
 
 
@@ -111,7 +66,7 @@ Setting this member is equivalent to setting the first bit of the 32-bit <b>Valu
 
 ### -field ColorFill
 
-A UINT value that specifies whether to perform a colorfill bitblt to the primary surface by using the value in the <b>Color</b> member of the <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_present.md">D3DKMT_PRESENT</a> structure. This bit-field flag can be used with the <b>DstRectValid</b> bit-field flag.
+A UINT value that specifies whether to perform a colorfill bitblt to the primary surface by using the value in the <b>Color</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff548168">D3DKMT_PRESENT</a> structure. This bit-field flag can be used with the <b>DstRectValid</b> bit-field flag.
 
 Setting this member is equivalent to setting the second bit of the 32-bit <b>Value</b> member (0x00000002).
 
@@ -160,14 +115,14 @@ Setting this member is equivalent to setting the eighth bit of the 32-bit <b>Val
 
 ### -field RestrictVidPnSource
 
-A UINT value that specifies whether to restrict the bitblt. If the <b>hWindow</b> member is <b>NULL</b>, the <b>VidPnSourceId</b> member of the <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_present.md">D3DKMT_PRESENT</a> structure indicates which output the full-screen bitblt is directed to; if <b>hWindow</b> is non-<b>NULL</b>, <b>VidPnSourceId</b> indicates which output to restrict the windowed bitblt to.
+A UINT value that specifies whether to restrict the bitblt. If the <b>hWindow</b> member is <b>NULL</b>, the <b>VidPnSourceId</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff548168">D3DKMT_PRESENT</a> structure indicates which output the full-screen bitblt is directed to; if <b>hWindow</b> is non-<b>NULL</b>, <b>VidPnSourceId</b> indicates which output to restrict the windowed bitblt to.
 
 Setting this member is equivalent to setting the ninth bit of the 32-bit <b>Value</b> member (0x00000100).
 
 
 ### -field SrcColorKey
 
-A UINT value that specifies whether to perform source color-keying by using the value in the <b>Color</b> member of the <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_present.md">D3DKMT_PRESENT</a> structure. That is, any pixel in the source surface that matches the color key should not be copied to the destination surface, and all of the source pixels that do not match the color key should be copied.
+A UINT value that specifies whether to perform source color-keying by using the value in the <b>Color</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff548168">D3DKMT_PRESENT</a> structure. That is, any pixel in the source surface that matches the color key should not be copied to the destination surface, and all of the source pixels that do not match the color key should be copied.
 
 Setting this member is equivalent to setting the tenth bit of the 32-bit <b>Value</b> member (0x00000200).
 
@@ -188,14 +143,14 @@ Setting this member is equivalent to setting the twelfth bit of the 32-bit <b>Va
 
 ### -field PresentCountValid
 
-A UINT value that specifies whether the value set in the <b>PresentCount</b> member of the <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_present.md">D3DKMT_PRESENT</a> structure is valid. 
+A UINT value that specifies whether the value set in the <b>PresentCount</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff548168">D3DKMT_PRESENT</a> structure is valid. 
 
 Setting this member is equivalent to setting the thirteenth bit of the 32-bit <b>Value</b> member (0x00001000).
 
 
 ### -field Rotate
 
-[in] A UINT value that specifies whether to rotate the presentation data to match the current orientation of the screen during the presentation bit-block transfer (bitblt). The current orientation of the screen is set in the <b>Rotation</b> member of a <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_vidpn_present_path_transformation.md">D3DKMDT_VIDPN_PRESENT_PATH_TRANSFORMATION</a> structure, which is set in the <b>ContentTransformation</b> member of the <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_vidpn_present_path.md">D3DKMDT_VIDPN_PRESENT_PATH</a> structure for the video present path.
+[in] A UINT value that specifies whether to rotate the presentation data to match the current orientation of the screen during the presentation bit-block transfer (bitblt). The current orientation of the screen is set in the <b>Rotation</b> member of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff546719">D3DKMDT_VIDPN_PRESENT_PATH_TRANSFORMATION</a> structure, which is set in the <b>ContentTransformation</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff546647">D3DKMDT_VIDPN_PRESENT_PATH</a> structure for the video present path.
 
 The display miniport driver should rotate the data only if the <b>Rotate</b> bit-field flag is set. Even if the driver determines that the current orientation of the screen is rotated from the presentation data and <b>Rotate</b> is not set, the driver should not rotate the data.
 
@@ -233,9 +188,9 @@ Supported starting with Windows 7.
 
 Specifies whether the driver should flip both left and right images of a stereo allocation.
 
-If the <b>FlipOnNextVSync</b> member of the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_setvidpnsourceaddress_flags.md">DXGK_SETVIDPNSOURCEADDRESS_FLAGS</a> structure is  set, the driver should complete the flip to the left image on the next VSync and then complete the flip to the right image on the following VSync.
+If the <b>FlipOnNextVSync</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562052">DXGK_SETVIDPNSOURCEADDRESS_FLAGS</a> structure is  set, the driver should complete the flip to the left image on the next VSync and then complete the flip to the right image on the following VSync.
 
-If the <b>FlipImmediate</b> member of the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_setvidpnsourceaddress_flags.md">DXGK_SETVIDPNSOURCEADDRESS_FLAGS</a> structure is  set, the driver should immediately start to scan out from the new allocation. For example, if the driver was scanning a right image, it should start the new scan from the same relative offset in the right image of the new allocation.
+If the <b>FlipImmediate</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562052">DXGK_SETVIDPNSOURCEADDRESS_FLAGS</a> structure is  set, the driver should immediately start to scan out from the new allocation. For example, if the driver was scanning a right image, it should start the new scan from the same relative offset in the right image of the new allocation.
 
 The <b>FlipStereo</b> and <b>FlipStereoTemporaryMono</b> members cannot both be set at the same time.
 
@@ -250,7 +205,7 @@ Supported starting with Windows 8.
 
 Specifies whether the driver should use the left image of a stereo allocation for the right and left portions of a stereo frame. The driver performs the same present operation as with <b>FlipStereo</b>, except that it should scan out only from the left image to produce both images of a stereo frame.
 
-This member should  be set only if the driver reports support for this option in the current display mode by setting the <b>Type</b> member of the <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_vidpn_source_mode.md">D3DKMDT_VIDPN_SOURCE_MODE</a> structure to D3DKMDT_RMT_GRAPHICS_STEREO_ADVANCED_SCAN.
+This member should  be set only if the driver reports support for this option in the current display mode by setting the <b>Type</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff546724">D3DKMDT_VIDPN_SOURCE_MODE</a> structure to D3DKMDT_RMT_GRAPHICS_STEREO_ADVANCED_SCAN.
 
 The <b>FlipStereo</b> and <b>FlipStereoTemporaryMono</b> members cannot both be set at the same time.
 
@@ -298,7 +253,7 @@ Supported starting with Windows 8.
 
 ### -field PresentRegionsValid
 
-Specifies that the <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_present.md">D3DKMT_PRESENT</a>.<b>pPresentRegions</b> member is a valid pointer (not <b>NULL</b>).
+Specifies that the <a href="https://msdn.microsoft.com/library/windows/hardware/ff548168">D3DKMT_PRESENT</a>.<b>pPresentRegions</b> member is a valid pointer (not <b>NULL</b>).
 
 Setting this member is equivalent to setting the twenty-third    bit of the 32-bit <b>Value</b> member (0x00400000).
 
@@ -373,39 +328,39 @@ A 32-bit value that identifies how to perform the present operation.
 If any of the <b>FlipStereo</b>, <b>FlipStereoTemporaryMono</b>, or <b>FlipStereoPreferRight</b>  members are set, these conditions apply:
 
 <ul>
-<li>The <b>hAllocation</b> member of the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_setvidpnsourceaddress.md">DXGKARG_SETVIDPNSOURCEADDRESS</a> structure should point to an allocation that is created with the <b>Stereo</b> member set in the <b>Flags</b> member of the <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_displaymode.md">D3DKMT_DISPLAYMODE</a> structure.</li>
-<li>The <b>PrimarySegment</b> and <b>PrimaryAddress</b> members of <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_setvidpnsourceaddress.md">DXGKARG_SETVIDPNSOURCEADDRESS</a> should point to the starting physical address of the allocation.</li>
-<li>The driver should honor the settings of the <b>FlipImmediate</b> and <b>FlipOnNextVSync</b> members of  the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_setvidpnsourceaddress_flags.md">DXGK_SETVIDPNSOURCEADDRESS_FLAGS</a> structure.</li>
+<li>The <b>hAllocation</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559484">DXGKARG_SETVIDPNSOURCEADDRESS</a> structure should point to an allocation that is created with the <b>Stereo</b> member set in the <b>Flags</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff547942">D3DKMT_DISPLAYMODE</a> structure.</li>
+<li>The <b>PrimarySegment</b> and <b>PrimaryAddress</b> members of <a href="https://msdn.microsoft.com/library/windows/hardware/ff559484">DXGKARG_SETVIDPNSOURCEADDRESS</a> should point to the starting physical address of the allocation.</li>
+<li>The driver should honor the settings of the <b>FlipImmediate</b> and <b>FlipOnNextVSync</b> members of  the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562052">DXGK_SETVIDPNSOURCEADDRESS_FLAGS</a> structure.</li>
 </ul>
 
 
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_present.md">D3DKMT_PRESENT</a>
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_setvidpnsourceaddress_flags.md">DXGK_SETVIDPNSOURCEADDRESS_FLAGS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546647">D3DKMDT_VIDPN_PRESENT_PATH</a>
 
 
 
-<a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_vidpn_present_path_transformation.md">D3DKMDT_VIDPN_PRESENT_PATH_TRANSFORMATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546719">D3DKMDT_VIDPN_PRESENT_PATH_TRANSFORMATION</a>
 
 
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_displaymode.md">D3DKMT_DISPLAYMODE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547942">D3DKMT_DISPLAYMODE</a>
 
 
 
-<a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_vidpn_present_path.md">D3DKMDT_VIDPN_PRESENT_PATH</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548168">D3DKMT_PRESENT</a>
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_setvidpnsourceaddress.md">DXGKARG_SETVIDPNSOURCEADDRESS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559484">DXGKARG_SETVIDPNSOURCEADDRESS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562052">DXGK_SETVIDPNSOURCEADDRESS_FLAGS</a>
  
 
  

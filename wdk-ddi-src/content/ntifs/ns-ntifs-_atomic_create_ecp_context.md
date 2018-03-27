@@ -53,30 +53,6 @@ This structure allows supplemental
 operations to be performed on a file atomically during create. Use the 
 
 
-## -syntax
-
-
-````
-typedef struct _ATOMIC_CREATE_ECP_CONTEXT {
-  USHORT                                                           Size;
-  USHORT                                                           InFlags;
-  USHORT                                                           OutFlags;
-  USHORT                                                           ReparseBufferLength;
-  _Field_size_bytes_opt_(ReparseBufferLength) PREPARSE_DATA_BUFFER ReparseBuffer;
-  LONGLONG                                                         FileSize;
-  LONGLONG                                                         ValidDataLength;
-#if (NTDDI_VERSION >= NTDDI_WIN10_RS2)
-  PFILE_TIMESTAMPS                                                 FileTimestamps;
-#endif 
-#if (NTDDI_VERSION >= NTDDI_WIN10_RS3)
-  ULONG                                                            FileAttributes;
-  ULONG                                                            UsnSourceInfo;
-  USN                                                              Usn;
-#endif 
-} ATOMIC_CREATE_ECP_CONTEXT, *PATOMIC_CREATE_ECP_CONTEXT;
-````
-
-
 ## -struct-fields
 
 
@@ -266,7 +242,7 @@ The optional value that is used with <b>ATOMIC_CREATE_ECP_IN_FLAG_VDL_SPECIFIED<
 
 ### -field FileTimestamps
 
-Pointer to an optional <a href="..\ntifs\ns-ntifs-_file_timestamps.md">FILE_TIMESTAMPS</a> structure which contains  the last recorded instance of specific actions on a file.
+Pointer to an optional <a href="https://msdn.microsoft.com/0F016D21-34CD-43DD-BE39-C6DF6D63A3AC">FILE_TIMESTAMPS</a> structure which contains  the last recorded instance of specific actions on a file.
 
 
 ### -field FileAttributes

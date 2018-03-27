@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,17 +51,6 @@ req.typenames: TOKEN_TYPE
 
 The <b>RtlIsPartialPlaceholder</b> routine determines if a file or a directory is a CloudFiles placeholder,
     based on the <b>FileAttributes</b> and <b>ReparseTag</b> values of the file. These values can be obtained by listing the directory containing the file or by directly querying <b>FileAttributeTagInfo</b> on the file.
-
-
-## -syntax
-
-
-````
-BOOLEAN RtlIsPartialPlaceholder(
-  _In_ ULONG FileAttributes,
-  _In_ ULONG ReparseTag
-);
-````
 
 
 ## -parameters
@@ -91,14 +80,14 @@ This function returns <b>TRUE</b> if the file or directory is a partial placehol
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-rtlispartialplaceholderfileinfo.md">RtlIsPartialPlaceholderFileInfo</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-rtlispartialplaceholderfilehandle.md">RtlIsPartialPlaceholderFileHandle</a>
+<a href="https://msdn.microsoft.com/A80C5714-525F-4E07-851D-2E203DD9387A">RtlIsPartialPlaceholderFileHandle</a>
 
 
 
+<a href="https://msdn.microsoft.com/B84CC8C1-639D-45B4-A2A4-03BA2F1FF04B">RtlIsPartialPlaceholderFileInfo</a>
  
 
  

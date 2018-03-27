@@ -53,20 +53,6 @@ req.product: Windows 10 or later.
 The WWAN_SMS_SEND structure represents an SMS text message to send.
 
 
-## -syntax
-
-
-````
-typedef struct _WWAN_SMS_SEND {
-  WWAN_SMS_FORMAT SmsFormat;
-  union {
-    WWAN_SMS_SEND_PDU  Pdu;
-    WWAN_SMS_SEND_CDMA Cdma;
-  } u;
-} WWAN_SMS_SEND, *PWWAN_SMS_SEND;
-````
-
-
 ## -struct-fields
 
 
@@ -156,18 +142,18 @@ Cdma
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_sms_send_pdu.md">WWAN_SMS_SEND_PDU</a>
 
 
 
-<a href="..\wwan\ns-wwan-_wwan_sms_send_cdma.md">WWAN_SMS_SEND_CDMA</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567943">NDIS_WWAN_SMS_SEND</a>
 
 
 
-<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_sms_send.md">NDIS_WWAN_SMS_SEND</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571251">WWAN_SMS_SEND_CDMA</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571252">WWAN_SMS_SEND_PDU</a>
  
 
  

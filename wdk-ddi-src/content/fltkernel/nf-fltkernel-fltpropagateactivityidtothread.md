@@ -52,18 +52,6 @@ req.typenames: EXpsFontRestriction
 The <b>FltPropagateActivityIdToThread</b> routine associates the activity ID from the  IRP in the minifilter's callback data with the current thread.
 
 
-## -syntax
-
-
-````
-NTSTATUS FltPropagateActivityIdToThread(
-  _In_    PFLT_CALLBACK_DATA CallbackData,
-  _Inout_ LPGUID             PropagatedId,
-  _Out_   LPGUID             *OriginalId
-);
-````
-
-
 ## -parameters
 
 
@@ -153,14 +141,14 @@ The <b>FltPropagateActivityIdToThread</b> routine is  used by trace aware minifi
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltgetactivityidcallbackdata.md">FltGetActivityIdCallbackData</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltsetactivityidcallbackdata.md">FltSetActivityIdCallbackData</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh967698">FltGetActivityIdCallbackData</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh967702">FltSetActivityIdCallbackData</a>
  
 
  

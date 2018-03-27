@@ -49,18 +49,7 @@ req.typenames: ENUM_PDO_RESULTS, *PENUM_PDO_RESULTS
 ## -description
 
 
-This structure describes a result set of Physical Device Objects (PDOs) that are enumerated with <a href="..\ehstorioctl\ni-ehstorioctl-ioctl_ehstor_device_enumerate_pdos.md">IOCTL_EHSTOR_DEVICE_ENUMERATE_PDOS</a>.
-
-
-## -syntax
-
-
-````
-typedef struct _ENUM_PDO_RESULTS {
-  ULONG          cEntries;
-  ENUM_PDO_ENTRY rgEntries[ANYSIZE_ARRAY];
-} ENUM_PDO_RESULTS, *PENUM_PDO_RESULTS;
-````
+This structure describes a result set of Physical Device Objects (PDOs) that are enumerated with <a href="https://msdn.microsoft.com/library/windows/hardware/hh451409">IOCTL_EHSTOR_DEVICE_ENUMERATE_PDOS</a>.
 
 
 ## -struct-fields
@@ -80,10 +69,10 @@ This member contains the array of ENUM_PDO_ENTRY structures.
 
 ## -see-also
 
-<a href="..\ehstorioctl\ni-ehstorioctl-ioctl_ehstor_device_enumerate_pdos.md">IOCTL_EHSTOR_DEVICE_ENUMERATE_PDOS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451409">IOCTL_EHSTOR_DEVICE_ENUMERATE_PDOS</a>
  
 
  

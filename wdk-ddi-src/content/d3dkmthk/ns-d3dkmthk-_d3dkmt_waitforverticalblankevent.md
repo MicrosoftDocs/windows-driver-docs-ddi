@@ -52,18 +52,6 @@ req.typenames: D3DKMT_WAITFORVERTICALBLANKEVENT
 The D3DKMT_WAITFORVERTICALBLANKEVENT structure describes parameters for waiting for the vertical blanking interval to occur.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DKMT_WAITFORVERTICALBLANKEVENT {
-  D3DKMT_HANDLE                  hAdapter;
-  D3DKMT_HANDLE                  hDevice;
-  D3DDDI_VIDEO_PRESENT_SOURCE_ID VidPnSourceId;
-} D3DKMT_WAITFORVERTICALBLANKEVENT;
-````
-
-
 ## -struct-fields
 
 
@@ -86,10 +74,10 @@ typedef struct _D3DKMT_WAITFORVERTICALBLANKEVENT {
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtwaitforverticalblankevent.md">D3DKMTWaitForVerticalBlankEvent</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547265">D3DKMTWaitForVerticalBlankEvent</a>
  
 
  

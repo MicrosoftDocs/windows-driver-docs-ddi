@@ -7,7 +7,7 @@ old-location: debugger\extremotetyped.htm
 old-project: debugger
 ms.assetid: 1f5d71a5-fa60-4819-9838-2b035ef21374
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/27/2018
 ms.keywords: EngExtCpp_Ref_04970dac-e759-4a04-a1e0-8dab752c1418.xml, ExtRemoteTyped, ExtRemoteTyped class [Windows Debugging], ExtRemoteTyped class [Windows Debugging], described, debugger.extremotetyped, engextcpp/ExtRemoteTyped
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,17 +26,17 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: engextcpp.hpp
+req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	engextcpp.hpp
-apiname:
+api_name:
 -	ExtRemoteTyped
 product: Windows
 targetos: Windows
@@ -51,7 +51,7 @@ req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
 
 The <b>ExtRemoteTyped</b> class provides the ability to manipulate typed data on the target.  An instance of this class represents a small region of memory on the target. This region is interpreted as a specific type.  This class provides methods for manipulating the memory according to the type and for accessing the object hierarchy on the target.
 
-<b>ExtRemoteTyped</b> is a subclass of <a href="..\engextcpp\nl-engextcpp-extremotedata.md">ExtRemoteData</a>.
+<b>ExtRemoteTyped</b> is a subclass of <a href="https://msdn.microsoft.com/library/windows/hardware/ff544008">ExtRemoteData</a>.
 
 The <b>ExtRemoteTyped</b> class includes the following constructors, operators, and methods:
 <dl>
@@ -63,49 +63,49 @@ The <b>ExtRemoteTyped</b> class includes the following constructors, operators, 
 </dd>
 <dd>
 
-<a href="..\engextcpp\nf-engextcpp-extbuffer-operator=.md">operator=</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544349">operator=</a>
 
 
 </dd>
 <dd>
 
-<a href="..\engextcpp\nf-engextcpp-extbuffer-operator=.md">operator=</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544349">operator=</a>
 
 
 </dd>
 <dd>
 
-<a href="..\engextcpp\nf-engextcpp-extbuffer-copy.md">Copy(Debug Typed Data)</a>
+<a href="https://msdn.microsoft.com/bfeafa09-49b7-45b3-84d8-afad5f43b78e">Copy(Debug Typed Data)</a>
 
 
 </dd>
 <dd>
 
-<a href="..\engextcpp\nf-engextcpp-extbuffer-copy.md">Copy(ExtRemoteTyped)</a>
+<a href="https://msdn.microsoft.com/7cc91411-3332-4a33-8873-832f71fd3281">Copy(ExtRemoteTyped)</a>
 
 
 </dd>
 <dd>
 
-<a href="..\engextcpp\nf-engextcpp-extbuffer-set.md">Set(bool)</a>
+<a href="https://msdn.microsoft.com/e75c17d2-fdf7-4dba-9892-74c764956924">Set(bool)</a>
 
 
 </dd>
 <dd>
 
-<a href="..\engextcpp\nf-engextcpp-extbuffer-set.md">Set(pcstr)</a>
+<a href="https://msdn.microsoft.com/a19d6aff-c4e4-4188-8f27-3689e91023b4">Set(pcstr)</a>
 
 
 </dd>
 <dd>
 
-<a href="..\engextcpp\nf-engextcpp-extbuffer-set.md">Set(pcstr ulong64)</a>
+<a href="https://msdn.microsoft.com/acf789f7-781d-4078-90cc-79b0d2709696">Set(pcstr ulong64)</a>
 
 
 </dd>
 <dd>
 
-<a href="..\engextcpp\nf-engextcpp-extbuffer-set.md">Set(pcstr ulong64 bool)</a>
+<a href="https://msdn.microsoft.com/fc3d8d9c-0b19-42b3-b4d7-90df4667739b">Set(pcstr ulong64 bool)</a>
 
 
 </dd>
@@ -175,25 +175,25 @@ The <b>ExtRemoteTyped</b> class includes the following constructors, operators, 
 </dd>
 <dd>
 
-<a href="..\engextcpp\nf-engextcpp-extremotetyped-operator[].md">operator[]</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544338">operator[]</a>
 
 
 </dd>
 <dd>
 
-<a href="..\engextcpp\nf-engextcpp-extremotetyped-operator[].md">operator[]</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544338">operator[]</a>
 
 
 </dd>
 <dd>
 
-<a href="..\engextcpp\nf-engextcpp-extremotetyped-operator[].md">operator[]</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544338">operator[]</a>
 
 
 </dd>
 <dd>
 
-<a href="..\engextcpp\nf-engextcpp-extremotetyped-operator[].md">operator[]</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544338">operator[]</a>
 
 
 </dd>
@@ -251,29 +251,29 @@ public:
 <dl>
 <dt><a id="m_Typed"></a><a id="m_typed"></a><a id="M_TYPED"></a><b>m_Typed</b></dt>
 <dd>
-The <a href="..\wdbgexts\ns-wdbgexts-_debug_typed_data.md">DEBUG_TYPED_DATA</a> structure that describes the typed data represented by this instance of <b>ExtRemoteTyped</b>.
+The <a href="https://msdn.microsoft.com/library/windows/hardware/ff541706">DEBUG_TYPED_DATA</a> structure that describes the typed data represented by this instance of <b>ExtRemoteTyped</b>.
 
 </dd>
 <dt><a id="m_Release"></a><a id="m_release"></a><a id="M_RELEASE"></a><b>m_Release</b></dt>
 <dd>
-Indicates whether or not the destructor for this instance of <b>ExtRemoteTyped</b> needs to release the <a href="..\wdbgexts\ns-wdbgexts-_debug_typed_data.md">DEBUG_TYPED_DATA</a> structure that is specified in <b>m_Typed</b>.
+Indicates whether or not the destructor for this instance of <b>ExtRemoteTyped</b> needs to release the <a href="https://msdn.microsoft.com/library/windows/hardware/ff541706">DEBUG_TYPED_DATA</a> structure that is specified in <b>m_Typed</b>.
 
 </dd>
 </dl>
 
 ## -see-also
 
-<a href="..\engextcpp\nl-engextcpp-extremotedata.md">ExtRemoteData</a>
 
 
 
-<a href="..\wdbgexts\ns-wdbgexts-_debug_typed_data.md">DEBUG_TYPED_DATA</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541706">DEBUG_TYPED_DATA</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544008">ExtRemoteData</a>
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20ExtRemoteTyped class%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20ExtRemoteTyped class%20 RELEASE:%20(2/27/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

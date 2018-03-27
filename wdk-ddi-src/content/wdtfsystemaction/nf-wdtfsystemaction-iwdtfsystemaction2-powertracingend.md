@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: Microsoft.WDTF
 req.assembly: WDTFSystemAction.Interop.dll
 req.type-library: 
-req.lib: wdtfsystemaction.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -56,14 +56,6 @@ This method ends a power trace session. Any power state events that occurred bet
 
 
 
-## -syntax
-
-
-````
-HRESULT PowerTracingEnd();
-````
-
-
 ## -parameters
 
 
@@ -82,10 +74,10 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="..\wdtfsystemaction\nn-wdtfsystemaction-iwdtfsystemaction2.md">IWDTFSystemAction2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439302">IWDTFSystemAction2</a>
  
 
  

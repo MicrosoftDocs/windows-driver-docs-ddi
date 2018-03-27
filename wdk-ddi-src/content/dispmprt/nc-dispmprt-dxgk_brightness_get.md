@@ -52,20 +52,6 @@ req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
 The <i>DxgkDdiGetBrightness</i> function retrieves the currently active brightness level of an integrated display panel.
 
 
-## -prototype
-
-
-````
-DXGK_BRIGHTNESS_GET DxgkDdiGetBrightness;
-
-NTSTATUS* DxgkDdiGetBrightness(
-  _In_ PVOID  Context,
-  _In_ PUCHAR Brightness
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -73,7 +59,7 @@ NTSTATUS* DxgkDdiGetBrightness(
 
 ### -param Context [in]
 
-A handle to a context block that is associated with a display adapter. The display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a> function previously provided this handle to the Microsoft DirectX graphics kernel subsystem.
+A handle to a context block that is associated with a display adapter. The display miniport driver's <a href="https://msdn.microsoft.com/5fd4046f-54c3-4dfc-8d51-0d9ebcde0bea">DxgkDdiAddDevice</a> function previously provided this handle to the Microsoft DirectX graphics kernel subsystem.
 
 
 ### -param Brightness [in]
@@ -105,10 +91,10 @@ Because the monitor driver always gets the brightness level for the integrated d
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
 
 
 
+<a href="https://msdn.microsoft.com/5fd4046f-54c3-4dfc-8d51-0d9ebcde0bea">DxgkDdiAddDevice</a>
  
 
  

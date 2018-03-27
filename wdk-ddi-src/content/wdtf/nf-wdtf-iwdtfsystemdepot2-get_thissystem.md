@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: Microsoft.WDTF
 req.assembly: WDTF.Interop.metadata_dll
 req.type-library: 
-req.lib: wdtf.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,19 +51,9 @@ req.product: Windows 10 or later.
 ## -description
 
 
-Gets an <a href="..\wdtf\nn-wdtf-iwdtftarget2.md">IWDTFTarget2</a> value that represents the local computer.
+Gets an <a href="https://msdn.microsoft.com/library/windows/hardware/hh439367">IWDTFTarget2</a> value that represents the local computer.
 
 This property is read-only.
-
-
-## -syntax
-
-
-````
-HRESULT get_ThisSystem(
-  [out, retval] IWDTFTarget2 **pVal
-);
-````
 
 
 ## -parameters
@@ -71,14 +61,14 @@ HRESULT get_ThisSystem(
 
 ## -see-also
 
-<a href="..\wdtf\nn-wdtf-iwdtftarget2.md">IWDTFTarget2</a>
 
 
 
-<a href="..\wdtf\nn-wdtf-iwdtfsystemdepot2.md">IWDTFSystemDepot2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439331">IWDTFSystemDepot2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439367">IWDTFTarget2</a>
  
 
  

@@ -49,18 +49,7 @@ req.typenames: D3DDDIARG_TRIMRESIDENCYSET
 ## -description
 
 
-<b>D3DDDIARG_TRIMRESIDENCYSET</b> is used with <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_trimresidencyset.md">pfnTrimResidencySet</a> by a user mode driver to trim the residency list for a given device.
-
-
-## -syntax
-
-
-````
-typedef struct D3DDDIARG_TRIMRESIDENCYSET {
-  D3DDDI_TRIMRESIDENCYSET_FLAGS TrimFlags;
-  UINT64                        NumBytesToTrim;
-} D3DDDIARG_TRIMRESIDENCYSET;
-````
+<b>D3DDDIARG_TRIMRESIDENCYSET</b> is used with <a href="https://msdn.microsoft.com/192F419C-F38F-4B42-8111-86D58D6781DA">pfnTrimResidencySet</a> by a user mode driver to trim the residency list for a given device.
 
 
 ## -struct-fields
@@ -80,10 +69,10 @@ When <b>TrimToBudget</b> is set, this value specifies how much the application s
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_trimresidencyset.md">pfnTrimResidencySet</a>
 
 
 
+<a href="https://msdn.microsoft.com/192F419C-F38F-4B42-8111-86D58D6781DA">pfnTrimResidencySet</a>
  
 
  

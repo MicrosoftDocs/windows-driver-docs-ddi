@@ -52,19 +52,6 @@ req.typenames: TOKEN_TYPE
 The <b>IoEnumerateDeviceObjectList</b> routine enumerates a driver's device object list. 
 
 
-## -syntax
-
-
-````
-NTSTATUS IoEnumerateDeviceObjectList(
-  _In_  PDRIVER_OBJECT DriverObject,
-  _Out_ PDEVICE_OBJECT *DeviceObjectList,
-  _In_  ULONG          DeviceObjectListSize,
-  _Out_ PULONG         ActualNumberDeviceObjects
-);
-````
-
-
 ## -parameters
 
 
@@ -137,7 +124,7 @@ A file system filter driver calls <b>IoEnumerateDeviceObjectList</b> to enumerat
 
 <ul>
 <li>
-The device objects it has created. This is commonly done when the driver is preparing to unload. Note that a file system filter driver cannot safely be unloaded from a running system. For more information, see <a href="..\wdm\nf-wdm-zwunloaddriver.md">ZwUnloadDriver</a>.
+The device objects it has created. This is commonly done when the driver is preparing to unload. Note that a file system filter driver cannot safely be unloaded from a running system. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff567117">ZwUnloadDriver</a>.
 
 </li>
 <li>
@@ -149,33 +136,33 @@ The device objects created by the base file system, so the filter knows the numb
 
 In the latter case, the filter driver typically calls <b>IoEnumerateDeviceObjectList</b> twice: once to get the number of device objects in the list, and once to get the device object list itself. In the first call, the caller should set the <i>DeviceObjectList</i> parameter to <b>NULL</b> and <i>DeviceObjectListSize</i> to zero. In the second call, <i>DeviceObjectList</i> should contain a pointer to an appropriately-sized pointer array, and <i>DeviceObjectListSize</i> should contain the size, in bytes, of that array. 
 
-<b>IoEnumerateDeviceObjectList</b> increments the reference count on every device object in the list pointed to by <i>DeviceObjectList</i>. Thus every successful call to <b>IoEnumerateDeviceObjectList</b> must be matched by a subsequent call to <a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>for each device object in the list. Failure to do so prevents the system from freeing or deleting these device objects because of an outstanding reference count. 
+<b>IoEnumerateDeviceObjectList</b> increments the reference count on every device object in the list pointed to by <i>DeviceObjectList</i>. Thus every successful call to <b>IoEnumerateDeviceObjectList</b> must be matched by a subsequent call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff557724">ObDereferenceObject</a>for each device object in the list. Failure to do so prevents the system from freeing or deleting these device objects because of an outstanding reference count. 
 
 
 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iogetattacheddevicereference.md">IoGetAttachedDeviceReference</a>
 
 
 
-<a href="..\wdm\nf-wdm-zwunloaddriver.md">ZwUnloadDriver</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548359">IoGetAttachedDevice</a>
 
 
 
-<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549145">IoGetAttachedDeviceReference</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-iogetlowerdeviceobject.md">IoGetLowerDeviceObject</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548379">IoGetLowerDeviceObject</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-iogetattacheddevice.md">IoGetAttachedDevice</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557724">ObDereferenceObject</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567117">ZwUnloadDriver</a>
  
 
  

@@ -52,16 +52,6 @@ req.typenames: DXGK_SURPRISE_REMOVAL_TYPE
 Indicates the type of surprise removal event when an external display device is disconnected  from the system.
 
 
-## -syntax
-
-
-````
-typedef enum _DXGK_SURPRISE_REMOVAL_TYPE { 
-  DxgkRemovalHibernation  = 0
-} DXGK_SURPRISE_REMOVAL_TYPE;
-````
-
-
 ## -enum-fields
 
 

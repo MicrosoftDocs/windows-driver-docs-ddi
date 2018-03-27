@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -54,18 +54,6 @@ req.typenames: PD_BUFFER_VIRTUAL_SUBNET_INFO
 This function obtains the entry points of the NDIS functions for a particular chimney type.
 
 
-## -syntax
-
-
-````
-NDIS_STATUS NdisMGetOffloadHandlers(
-  _In_  NDIS_HANDLE                  NdisMiniportHandle,
-  _In_  NDIS_CHIMNEY_OFFLOAD_TYPE    ChimneyType,
-  _Out_ PNDIS_OFFLOAD_EVENT_HANDLERS *OffloadHandlers
-);
-````
-
-
 ## -parameters
 
 
@@ -76,9 +64,9 @@ NDIS_STATUS NdisMGetOffloadHandlers(
 The handle to a context area that is offload target-allocated in which the offload target
      maintains state information about this instance of the adapter. The offload target provided this handle
      to NDIS when calling 
-     <a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">
+     <a href="https://msdn.microsoft.com/861626af-23ea-40dc-a91a-7da42d4b0a1c">
      NdisMSetMiniportAttributes</a> from its 
-     <a href="..\ndis\nc-ndis-miniport_initialize.md">
+     <a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">
      MiniportInitializeEx</a> function.
 
 
@@ -129,7 +117,7 @@ This structure contains the following member:
 #### Header
 
 Specifies an NDIS object header, which is formatted as an 
-       <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure.
+       <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure.
 
 
 ## -returns
@@ -179,7 +167,7 @@ NDIS does not support the chimney type specified by the offload target. In this 
 
 
 The offload target calls this function from its 
-    <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a> function to
+    <a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a> function to
     get the entry points of the NDIS functions for a particular chimney type. The offload target calls 
     <b>NdisMGetOffloadHandlers</b> once for each chimney type that it supports. In each call, the offload
     target specifies a different chimney type.
@@ -188,7 +176,7 @@ If the call to the
     <b>NdisMGetOffloadHandlers</b> function succeeds, NDIS supplies a valid 
     <i>OffloadHandlers</i> pointer, which points to an NDIS_OFFLOAD_EVENT_HANDLERS structure. This structure
     contains an 
-    <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure. The offload
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure. The offload
     target examines the 
     <b>Type</b>, 
     <b>Revision</b>, and 
@@ -215,7 +203,7 @@ If the offload target supports the specified
 </td>
 <td>
 
-<a href="..\ndischimney\ns-ndischimney-_ndis_tcp_offload_event_handlers.md">
+<a href="https://msdn.microsoft.com/72863a3e-9907-43e1-ad83-831a972ab823">
         NDIS_TCP_OFFLOAD_EVENT_HANDLERS</a>
 
 
@@ -239,23 +227,23 @@ The offload target copies the entry points from the chimney-specific structure i
 
 ## -see-also
 
-<a href="..\ndischimney\ns-ndischimney-_ndis_tcp_offload_event_handlers.md">
+
+
+
+<a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
+
+
+
+<a href="https://msdn.microsoft.com/72863a3e-9907-43e1-ad83-831a972ab823">
    NDIS_TCP_OFFLOAD_EVENT_HANDLERS</a>
 
 
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563672">NdisMSetMiniportAttributes</a>
  
 
  

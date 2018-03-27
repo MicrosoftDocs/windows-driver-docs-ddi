@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: wiautil.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,20 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>CWiauPropertyList::DefineProperty</b> method adds a property definition to a property list object.
-
-
-## -syntax
-
-
-````
-HRESULT DefineProperty(
-   int        *pIdx,
-   PROPID     PropId,
-   LPOLESTR   PropName,
-   ULONG      Access,
-   ULONG      SubType
-);
-````
 
 
 ## -parameters
@@ -119,14 +105,14 @@ Before a property can be added to a property list, the property list must be ini
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/4f11bec0-8ff4-4fa0-824c-71ce9774d5d1">CWiauPropertyList</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540396">CWiauPropertyList::Init</a>
-
-
-
-<a href="..\wiautil\nl-wiautil-cwiaupropertylist.md">CWiauPropertyList</a>
-
-
-
  
 
  

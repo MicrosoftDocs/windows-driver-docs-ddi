@@ -54,44 +54,27 @@ req.typenames: D3D11_1DDI_GETCAPTUREHANDLEDATA
 Used to simultaneously create a heap and resource.
 
 
-## -prototype
-
-
-````
-HRESULT  APIENTRY* PFND3D12DDI_CREATEHEAPANDRESOURCE_0030(
-                 D3D12DDI_HDEVICE                        d3d12ddi_hdevice,
-  _In_opt_ const D3D12DDIARG_CREATEHEAP_0001             *d3d12ddiarg_createheap_0001,
-                 D3D12DDI_HHEAP                          d3d12ddi_hheap,
-                 D3D12DDI_HRTRESOURCE                    d3d12ddi_hrtresource,
-  _In_opt_ const D3D12DDIARG_CREATERESOURCE_0003         *d3d12ddiarg_createresource_0003,
-  _In_opt_ const D3D12DDI_CLEAR_VALUES                   *d3d12ddi_clear_values,
-                 D3D12DDI_HPROTECTEDRESOURCESESSION_0030 d3d12ddi_hprotectedresourcesession_0030,
-                 D3D12DDI_HRESOURCE                      d3d12ddi_hresource
-);
-````
-
-
 ## -parameters
 
 
 
 
-### -param D3D12DDI_HDEVICE
+### -param Arg1
 
 
 ### -param *
 
 
-### -param D3D12DDI_HHEAP
+### -param Arg2
 
 
-### -param D3D12DDI_HRTRESOURCE
+### -param Arg3
 
 
-### -param D3D12DDI_HPROTECTEDRESOURCESESSION_0030
+### -param Arg4
 
 
-### -param D3D12DDI_HRESOURCE
+### -param Arg5
 
 
 

@@ -60,16 +60,6 @@ req.product: Windows 10 or later.
   prevents an I/O queue from delivering new I/O requests and causes the framework to cancel existing unprocessed requests and driver-owned cancellable requests, but the queue receives and stores new requests.
 
 
-## -syntax
-
-
-````
-void WdfIoQueueStopAndPurgeSynchronously(
-  _In_ WDFQUEUE Queue
-);
-````
-
-
 ## -parameters
 
 
@@ -93,7 +83,7 @@ This method does not return a value.
 
 
 
-This method returns after all the unprocessed and driver-owned requests (not including requests added to the queue after this call is made) are completed or canceled. If new requests are inserted while <b>WdfIoQueueStopAndPurgeSynchronously</b> is in progress, these new requests are not delivered until driver calls <a href="..\wdfio\nf-wdfio-wdfioqueuestart.md">WdfIoQueueStart</a>.
+This method returns after all the unprocessed and driver-owned requests (not including requests added to the queue after this call is made) are completed or canceled. If new requests are inserted while <b>WdfIoQueueStopAndPurgeSynchronously</b> is in progress, these new requests are not delivered until driver calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff548478">WdfIoQueueStart</a>.
 
 A bug check occurs if the driver supplies an invalid object handle.
 
@@ -102,10 +92,10 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 ## -see-also
 
-<a href="..\wdfio\nf-wdfio-wdfioqueuestopandpurge.md">WdfIoQueueStopAndPurge</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439289">WdfIoQueueStopAndPurge</a>
  
 
  

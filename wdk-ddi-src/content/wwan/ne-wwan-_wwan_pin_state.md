@@ -55,18 +55,6 @@ The WWAN_PIN_STATE enumeration describes whether the MB device or Subscriber Ide
   state.
 
 
-## -syntax
-
-
-````
-typedef enum _WWAN_PIN_STATE { 
-  WwanPinStateNone   = 0,
-  WwanPinStateEnter,
-  WwanPinStateMax
-} WWAN_PIN_STATE, *PWWAN_PIN_STATE;
-````
-
-
 ## -enum-fields
 
 
@@ -89,10 +77,10 @@ The total number of supported PIN states.
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_pin_info.md">WWAN_PIN_INFO</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571216">WWAN_PIN_INFO</a>
  
 
  

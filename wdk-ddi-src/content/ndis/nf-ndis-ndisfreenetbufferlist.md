@@ -52,18 +52,8 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 
 Call the 
   <b>NdisFreeNetBufferList</b> function to free a 
-  <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure that was previously
+  <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structure that was previously
   allocated from a NET_BUFFER_LIST structure pool.
-
-
-## -syntax
-
-
-````
-VOID NdisFreeNetBufferList(
-  _In_ PNET_BUFFER_LIST NetBufferList
-);
-````
 
 
 ## -parameters
@@ -74,8 +64,8 @@ VOID NdisFreeNetBufferList(
 ### -param NetBufferList [in]
 
 A pointer to a NET_BUFFER_LIST structure that was allocated by calling the 
-     <a href="..\ndis\nf-ndis-ndisallocatenetbufferlist.md">NdisAllocateNetBufferList</a> or 
-     <a href="..\ndis\nf-ndis-ndisallocatenetbufferandnetbufferlist.md">
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff561609">NdisAllocateNetBufferList</a> or 
+     <a href="https://msdn.microsoft.com/b872eff3-2d0a-4f01-874d-e00e09195801">
      NdisAllocateNetBufferAndNetBufferList</a> function.
 
 
@@ -93,20 +83,20 @@ None
 
 
 To allocate a 
-    <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure from a pool, call
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structure from a pool, call
     the 
-    <a href="..\ndis\nf-ndis-ndisallocatenetbufferlist.md">NdisAllocateNetBufferList</a> or 
-    <a href="..\ndis\nf-ndis-ndisallocatenetbufferandnetbufferlist.md">
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561609">NdisAllocateNetBufferList</a> or 
+    <a href="https://msdn.microsoft.com/b872eff3-2d0a-4f01-874d-e00e09195801">
     NdisAllocateNetBufferAndNetBufferList</a> function.
 
 The 
-    <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a> structures that are associated with
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a> structures that are associated with
     the NET_BUFFER_LIST structure are not freed unless they were preallocated with the NET_BUFFER_LIST
     structure. You can reuse any NET_BUFFER structures that were not preallocated or you should free such
     structures separately.
 
 If you allocated context space for a NET_BUFFER_LIST structure with the 
-    <a href="..\ndis\nf-ndis-ndisallocatenetbufferlistcontext.md">
+    <a href="https://msdn.microsoft.com/3bbad723-86bf-4206-9e51-52a66efaec20">
     NdisAllocateNetBufferListContext</a> function, you must free such context space before you free the
     NET_BUFFER_LIST structure. You must not attempt to free the context space that you allocated with 
     <b>NdisAllocateNetBufferList</b> or 
@@ -119,28 +109,28 @@ If you allocated context space for a NET_BUFFER_LIST structure with the
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisallocatenetbufferlistcontext.md">
-   NdisAllocateNetBufferListContext</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisallocatenetbufferandnetbufferlist.md">
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a>
+
+
+
+<a href="https://msdn.microsoft.com/b872eff3-2d0a-4f01-874d-e00e09195801">
    NdisAllocateNetBufferAndNetBufferList</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisallocatenetbufferlist.md">NdisAllocateNetBufferList</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561609">NdisAllocateNetBufferList</a>
 
 
 
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
-
-
-
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
-
-
-
+<a href="https://msdn.microsoft.com/3bbad723-86bf-4206-9e51-52a66efaec20">
+   NdisAllocateNetBufferListContext</a>
  
 
  

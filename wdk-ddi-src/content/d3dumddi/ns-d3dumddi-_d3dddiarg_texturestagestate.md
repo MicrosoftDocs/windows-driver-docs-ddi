@@ -52,18 +52,6 @@ req.typenames: D3DDDIARG_TEXTURESTAGESTATE
 The D3DDDIARG_TEXTURESTAGESTATE structure describes how to update a texture at a particular stage in a multiple-texture group. 
 
 
-## -syntax
-
-
-````
-typedef struct _D3DDDIARG_TEXTURESTAGESTATE {
-  UINT                        Stage;
-  D3DDDITEXTURESTAGESTATETYPE State;
-  UINT                        Value;
-} D3DDDIARG_TEXTURESTAGESTATE;
-````
-
-
 ## -struct-fields
 
 
@@ -120,10 +108,10 @@ Update the colorkey for the current texture. The <b>Value</b> member is set to t
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_settexturestagestate.md">SetTextureStageState</a>
 
 
 
+<a href="https://msdn.microsoft.com/56b9d7bf-1036-4ad1-a0fb-4d7154b50b27">SetTextureStageState</a>
  
 
  

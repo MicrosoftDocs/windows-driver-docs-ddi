@@ -52,20 +52,6 @@ req.typenames: DXGK_PTE
 Called by the user-mode display driver   to offer  video memory allocations for reuse.
 
 
-## -prototype
-
-
-````
-PFND3DDDI_OFFERALLOCATIONS2CB pfnOfferAllocations2Cb;
-
-__checkReturn HRESULT CALLBACK pfnOfferAllocations2Cb(
-  _In_       HANDLE                     hDevice,
-  _In_ const D3DDDICB_OFFERALLOCATIONS2 *pData
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -73,7 +59,7 @@ __checkReturn HRESULT CALLBACK pfnOfferAllocations2Cb(
 
 ### -param hDevice [in]
 
- A handle to the display device (graphics context). The Direct3D runtime passed the user-mode driver this handle as the <b>hDevice</b> member of the <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createdevice.md">D3DDDIARG_CREATEDEVICE</a> structure at device creation.
+ A handle to the display device (graphics context). The Direct3D runtime passed the user-mode driver this handle as the <b>hDevice</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff542931">D3DDDIARG_CREATEDEVICE</a> structure at device creation.
 
 
 ### -param *
@@ -111,7 +97,7 @@ __checkReturn HRESULT CALLBACK pfnOfferAllocations2Cb(
 <td width="60%">
 The  allocations were successfully offered.
 
-<div class="alert"><b>Note</b>  If the driver does not need to call <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_offerallocations2cb.md">pfnOfferAllocations2Cb</a>, it should return <b>S_OK</b>.</div>
+<div class="alert"><b>Note</b>  If the driver does not need to call <a href="https://msdn.microsoft.com/4A8123D3-3A7D-4716-BD02-DD6533DB22F6">pfnOfferAllocations2Cb</a>, it should return <b>S_OK</b>.</div>
 <div> </div>
 </td>
 </tr>
@@ -125,7 +111,7 @@ The  allocations were successfully offered.
 
          The video memory manager or display miniport driver could not complete the operation because either a Plug and Play (PnP) Stop event or a Timeout Detection and Recovery (TDR) event occurred.
 
-<div class="alert"><b>Note</b>  If this error code is returned, the driver's calling function (typically the <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_offerresources.md">pfnOfferResources</a> routine) must return this error code to the  Direct3D runtime.</div>
+<div class="alert"><b>Note</b>  If this error code is returned, the driver's calling function (typically the <a href="https://msdn.microsoft.com/2E85EFB6-6116-4FE7-97E0-547FFD61B511">pfnOfferResources</a> routine) must return this error code to the  Direct3D runtime.</div>
 <div> </div>
 </td>
 </tr>
@@ -152,7 +138,7 @@ An invalid parameter was supplied.
 
 The user-mode display driver calls <b>pfnOfferAllocations2Cb</b> to notify the Microsoft DirectX graphics kernel subsystem that, after it completes any previously submitted render operations,  it can offer the allocations' memory for other processes to use.
 
-After the driver calls <b>pfnOfferAllocations2Cb</b> to offer an allocation to reuse, it must call <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_reclaimallocations3cb.md">pfnReclaimAllocations3Cb</a>  before it locks the allocation or submits it for rendering operations.
+After the driver calls <b>pfnOfferAllocations2Cb</b> to offer an allocation to reuse, it must call <a href="https://msdn.microsoft.com/BA0A8BF0-39C2-4641-9952-05512B1B1662">pfnReclaimAllocations3Cb</a>  before it locks the allocation or submits it for rendering operations.
 
 <b>pfnOfferAllocations2Cb</b> functions identically to <a href="https://msdn.microsoft.com/library/windows/hardware/hh451693">pfnOfferAllocationsCb</a>, except that it takes flags into account through the pData parameter.
 
@@ -161,19 +147,10 @@ After the driver calls <b>pfnOfferAllocations2Cb</b> to offer an allocation to r
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicecallbacks.md">D3DDDI_DEVICECALLBACKS</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_offerresources.md">pfnOfferResources</a>
-
-
-
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_reclaimallocations3cb.md">pfnReclaimAllocations3Cb</a>
-
-
-
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createdevice.md">D3DDDIARG_CREATEDEVICE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542931">D3DDDIARG_CREATEDEVICE</a>
 
 
 
@@ -181,6 +158,15 @@ After the driver calls <b>pfnOfferAllocations2Cb</b> to offer an allocation to r
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544512">D3DDDI_DEVICECALLBACKS</a>
+
+
+
+<a href="https://msdn.microsoft.com/2E85EFB6-6116-4FE7-97E0-547FFD61B511">pfnOfferResources</a>
+
+
+
+<a href="https://msdn.microsoft.com/BA0A8BF0-39C2-4641-9952-05512B1B1662">pfnReclaimAllocations3Cb</a>
  
 
  

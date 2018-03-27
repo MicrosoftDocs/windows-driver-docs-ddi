@@ -52,19 +52,6 @@ req.typenames: MPIO_DSM_Path, *PMPIO_DSM_Path
 The MPIO_DSM_Path structure is used to represent the DSM's definition of a path.
 
 
-## -syntax
-
-
-````
-typedef struct _MPIO_DSM_Path {
-  ULONGLONG DsmPathId;
-  ULONGLONG Reserved;
-  ULONG     PathWeight;
-  ULONG     PrimaryPath;
-} MPIO_DSM_Path, *PMPIO_DSM_Path;
-````
-
-
 ## -struct-fields
 
 

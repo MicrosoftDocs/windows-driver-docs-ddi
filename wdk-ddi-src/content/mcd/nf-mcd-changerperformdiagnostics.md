@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -52,17 +52,6 @@ req.typenames: LAMP_INTENSITY_WHITE
 <b>ChangerPerformDiagnostics</b> performs diagnostic tests on the changer device.
 
 
-## -syntax
-
-
-````
-NTSTATUS ChangerPerformDiagnostics(
-  _In_  PDEVICE_OBJECT                    DeviceObject,
-  _Out_ PWMI_CHANGER_PROBLEM_DEVICE_ERROR ChangerDeviceError
-);
-````
-
-
 ## -parameters
 
 
@@ -82,7 +71,7 @@ TBD
 
 #### - ChangerDeviceError [out]
 
-Pointer to the buffer of type <a href="..\wmidata\ns-wmidata-_wmi_changer_problem_device_error.md">WMI_CHANGER_PROBLEM_DEVICE_ERROR</a> in which the minidriver returns the diagnostic information.
+Pointer to the buffer of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff568029">WMI_CHANGER_PROBLEM_DEVICE_ERROR</a> in which the minidriver returns the diagnostic information.
 
 
 ## -returns
@@ -112,14 +101,14 @@ STATUS_BUFFER_TOO_SMALL
 
 ## -see-also
 
-<a href="..\ntddchgr\ne-ntddchgr-_changer_device_problem_type.md">CHANGER_DEVICE_PROBLEM_TYPE</a>
 
 
 
-<a href="..\wmidata\ns-wmidata-_wmi_changer_problem_device_error.md">WMI_CHANGER_PROBLEM_DEVICE_ERROR</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551453">CHANGER_DEVICE_PROBLEM_TYPE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568029">WMI_CHANGER_PROBLEM_DEVICE_ERROR</a>
  
 
  

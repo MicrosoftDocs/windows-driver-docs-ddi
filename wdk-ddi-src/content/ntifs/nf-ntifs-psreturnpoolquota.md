@@ -52,18 +52,6 @@ req.typenames: TOKEN_TYPE
 The <b>PsReturnPoolQuota</b> routine returns pool quota of the specified pool type to the specified process. 
 
 
-## -syntax
-
-
-````
-VOID PsReturnPoolQuota(
-  _In_ PEPROCESS Process,
-  _In_ POOL_TYPE PoolType,
-  _In_ ULONG_PTR Amount
-);
-````
-
-
 ## -parameters
 
 
@@ -118,10 +106,10 @@ For more information about memory management, see <a href="https://msdn.microsof
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-pschargepoolquota.md">PsChargePoolQuota</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551889">PsChargePoolQuota</a>
  
 
  

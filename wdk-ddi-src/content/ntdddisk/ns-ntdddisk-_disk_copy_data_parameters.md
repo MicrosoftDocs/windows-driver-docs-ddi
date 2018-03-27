@@ -52,19 +52,6 @@ req.typenames: DISK_COPY_DATA_PARAMETERS, *PDISK_COPY_DATA_PARAMETERS
 DISK_COPY_DATA_PARAMETERS is used with IOCTL_DISK_COPY_DATA to copy data from one area of the disk to another.
 
 
-## -syntax
-
-
-````
-typedef struct _DISK_COPY_DATA_PARAMETERS {
-  LARGE_INTEGER SourceOffset;
-  LARGE_INTEGER DestinationOffset;
-  LARGE_INTEGER CopyLength;
-  ULONGLONG     Reserved;
-} DISK_COPY_DATA_PARAMETERS, *PDISK_COPY_DATA_PARAMETERS;
-````
-
-
 ## -struct-fields
 
 
@@ -101,10 +88,10 @@ The source and destination areas must not overlap.
 
 ## -see-also
 
-<a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_copy_data.md">IOCTL_DISK_COPY_DATA</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559434">IOCTL_DISK_COPY_DATA</a>
  
 
  

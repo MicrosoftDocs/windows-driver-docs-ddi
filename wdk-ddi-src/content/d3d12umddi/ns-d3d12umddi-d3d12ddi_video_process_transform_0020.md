@@ -52,20 +52,6 @@ req.typenames: D3D12DDI_VIDEO_PROCESS_TRANSFORM_0020
 Contains information for a transform.
 
 
-## -syntax
-
-
-````
-typedef struct D3D12DDI_VIDEO_PROCESS_TRANSFORM_0020 {
-  DXGI_RATIONAL                           SourceAspectRatio;
-  DXGI_RATIONAL                           DestinationAspectRatio;
-  D3D12DDI_RECT                           SourceRectangle;
-  D3D12DDI_RECT                           DestinationRectangle;
-  D3D12DDI_VIDEO_PROCESS_ORIENTATION_0020 Orientation;
-} D3D12DDI_VIDEO_PROCESS_TRANSFORM_0020;
-````
-
-
 ## -struct-fields
 
 

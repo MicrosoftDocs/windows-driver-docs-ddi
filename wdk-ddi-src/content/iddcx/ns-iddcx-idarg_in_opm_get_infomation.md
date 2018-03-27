@@ -53,16 +53,6 @@ req.typenames:
                  Gives information about the OPM.
 
 
-## -syntax
-
-
-````
-typedef struct IDARG_IN_OPM_GET_INFOMATION {
-  IDDCX_OPM_GET_INFO_PARAMETERS GetInfoParameters;
-} IDARG_IN_OPM_GET_INFOMATION, *IDARG_IN_OPM_GET_INFOMATION;
-````
-
-
 ## -struct-fields
 
 

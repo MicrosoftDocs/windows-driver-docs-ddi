@@ -52,17 +52,6 @@ req.typenames: EXpsFontRestriction
 The <b>FltIsVolumeWritable</b> routine determines whether the disk device that corresponds to a volume or minifilter driver instance is writable.
 
 
-## -syntax
-
-
-````
-NTSTATUS FltIsVolumeWritable(
-  _In_  PVOID    FltObject,
-  _Out_ PBOOLEAN IsWritable
-);
-````
-
-
 ## -parameters
 
 
@@ -121,7 +110,7 @@ The disk device does not support IOCTL_DISK_IS_WRITABLE requests. This is an err
 
 
 
-<b>FltIsVolumeWritable</b> sends an <a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_is_writable.md">IOCTL_DISK_IS_WRITABLE</a> request to the underlying storage device that is associated with the given volume or instance. 
+<b>FltIsVolumeWritable</b> sends an <a href="https://msdn.microsoft.com/library/windows/hardware/ff560384">IOCTL_DISK_IS_WRITABLE</a> request to the underlying storage device that is associated with the given volume or instance. 
 
 In versions of Windows prior to Windows Vista, the <b>FltIsVolumeWritable</b> routine accepted only volumes, not instances. 
 
@@ -130,10 +119,10 @@ In versions of Windows prior to Windows Vista, the <b>FltIsVolumeWritable</b> ro
 
 ## -see-also
 
-<a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_is_writable.md">IOCTL_DISK_IS_WRITABLE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560384">IOCTL_DISK_IS_WRITABLE</a>
  
 
  

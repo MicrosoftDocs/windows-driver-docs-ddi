@@ -52,29 +52,6 @@ req.typenames: RILPHONEBOOKENTRY, *LPRILPHONEBOOKENTRY
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef struct _RILPHONEBOOKENTRY {
-  DWORD       cbSize;
-  DWORD       dwParams;
-  DWORD       dwIndex;
-  RILADDRESS  raAddress;
-  WCHAR [256] wszText;
-  WCHAR [256] wszSecondName;
-  DWORD       dwGroupIdCount;
-  DWORD [10]  rgdwGroupId;
-  DWORD       dwAdditionalNumCount;
-  DWORD       dwAdditionalNumSize;
-  DWORD       dwAdditionalNumOffset;
-  DWORD       dwEmailCount;
-  DWORD       dwEmailSize;
-  DWORD       dwEmailOffset;
-} RILPHONEBOOKENTRY, RILPHONEBOOKENTRY;
-````
-
-
 ## -struct-fields
 
 

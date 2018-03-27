@@ -52,20 +52,6 @@ req.typenames: NET_PNP_EVENT, *PNET_PNP_EVENT
 Called by the NFC CX to send a write packet to the client driver. The request code must match IOCTL_NFCCX_WRITE_PACKET. 
 
 
-## -prototype
-
-
-````
-EVT_NFC_CX_WRITE_NCI_PACKET EvtNfcCxWriteNciPacket;
-
-void EvtNfcCxWriteNciPacket(
-  _In_ WDFDEVICE  Device,
-  _In_ WDFREQUEST Request
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -101,7 +87,6 @@ The client driver should not make any blocking calls when handling this function
 
 ## -see-also
 
-<a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
 
 
 
@@ -109,6 +94,7 @@ The client driver should not make any blocking calls when handling this function
 
 
 
+<a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
  
 
  

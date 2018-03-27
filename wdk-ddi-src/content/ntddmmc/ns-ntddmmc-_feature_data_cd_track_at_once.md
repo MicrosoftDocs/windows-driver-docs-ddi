@@ -52,26 +52,6 @@ req.typenames: FEATURE_DATA_CD_TRACK_AT_ONCE, *PFEATURE_DATA_CD_TRACK_AT_ONCE
 The FEATURE_DATA_CD_TRACK_AT_ONCE structure holds information about the CD Track at Once feature. 
 
 
-## -syntax
-
-
-````
-typedef struct _FEATURE_DATA_CD_TRACK_AT_ONCE {
-  FEATURE_HEADER Header;
-  UCHAR          RWSubchannelsRecordable  :1;
-  UCHAR          CdRewritable  :1;
-  UCHAR          TestWriteOk  :1;
-  UCHAR          RWSubchannelPackedOk  :1;
-  UCHAR          RWSubchannelRawOk  :1;
-  UCHAR          Reserved1  :1;
-  UCHAR          BufferUnderrunFree  :1;
-  UCHAR          Reserved3  :1;
-  UCHAR          Reserved2;
-  UCHAR          DataTypeSupported[2];
-} FEATURE_DATA_CD_TRACK_AT_ONCE, *PFEATURE_DATA_CD_TRACK_AT_ONCE;
-````
-
-
 ## -struct-fields
 
 
@@ -79,7 +59,7 @@ typedef struct _FEATURE_DATA_CD_TRACK_AT_ONCE {
 
 ### -field Header
 
-Contains a <a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a> structure with header information for this feature descriptor.
+Contains a <a href="https://msdn.microsoft.com/library/windows/hardware/ff553848">FEATURE_HEADER</a> structure with header information for this feature descriptor.
 
 
 ### -field RWSubchannelsRecordable
@@ -143,14 +123,14 @@ This structure holds data for the feature named "CD Track at Once" by the <i>MMC
 
 ## -see-also
 
-<a href="..\ntddmmc\ne-ntddmmc-_feature_number.md">FEATURE_NUMBER</a>
 
 
 
-<a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553848">FEATURE_HEADER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553850">FEATURE_NUMBER</a>
  
 
  

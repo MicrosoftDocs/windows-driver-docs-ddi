@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: "_Must_inspect_result_"
 topic_type:
@@ -52,17 +52,6 @@ req.typenames:
 
 
                 An OS callback function the driver calls when it wants to setup hardware cursor support for the path.  By default when a mode is committed on a path software cursor is enabled, if the driver wants to accelerate the cursor on that path it uses this callback to enable hardware cursor support.
-
-
-## -syntax
-
-
-````
-NTSTATUS IddCxMonitorSetupHardwareCursor(
-  _In_       IDDCX_MONITOR            MonitorObject,
-  _In_ const IDARG_IN_SETUP_HWCURSOR* pInArgs
-);
-````
 
 
 ## -parameters

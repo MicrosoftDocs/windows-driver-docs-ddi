@@ -50,24 +50,9 @@ req.typenames: NET_BUFFER_LIST_POOL_PARAMETERS, *PNET_BUFFER_LIST_POOL_PARAMETER
 
 
 
-The <b>NET_BUFFER_LIST_POOL_PARAMETERS</b> structure defines the parameters for a pool of <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structures.
+The <b>NET_BUFFER_LIST_POOL_PARAMETERS</b> structure defines the parameters for a pool of <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structures.
 
 
-
-
-## -syntax
-
-
-````
-typedef struct _NET_BUFFER_LIST_POOL_PARAMETERS {
-  NDIS_OBJECT_HEADER Header;
-  UCHAR              ProtocolId;
-  BOOLEAN            fAllocateNetBuffer;
-  USHORT             ContextSize;
-  ULONG              PoolTag;
-  ULONG              DataSize;
-} NET_BUFFER_LIST_POOL_PARAMETERS, *PNET_BUFFER_LIST_POOL_PARAMETERS;
-````
 
 
 ## -struct-fields
@@ -77,7 +62,7 @@ typedef struct _NET_BUFFER_LIST_POOL_PARAMETERS {
 
 ### -field Header
 
-The type, revision, and size of the <b>NET_BUFFER_LIST_POOL_PARAMETERS</b> structure. This member is formatted as an <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure.
+The type, revision, and size of the <b>NET_BUFFER_LIST_POOL_PARAMETERS</b> structure. This member is formatted as an <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure.
 
 The miniport driver must set the <b>Type</b> member of <b>Header</b> to NDIS_OBJECT_TYPE_DEFAULT. To specify the version of the <b>NET_BUFFER_LIST_POOL_PARAMETERS</b> structure, the driver must set the <b>Revision</b> member of <b>Header</b> to the following value: 
 
@@ -127,11 +112,11 @@ Specifies the NetBEUI protocol.
 
 ### -field fAllocateNetBuffer
 
-If this member is set to TRUE, NDIS allocates a pool of <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structures. Each allocated <b>NET_BUFFER_LIST</b> structure is initialized with one 
-       <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a> structure. 
+If this member is set to TRUE, NDIS allocates a pool of <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structures. Each allocated <b>NET_BUFFER_LIST</b> structure is initialized with one 
+       <a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a> structure. 
 
-If this member is set to FALSE, NDIS allocates a pool of <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structures. Each allocated <b>NET_BUFFER_LIST</b> structure is not initialized  to contain any 
-       <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a> structures.
+If this member is set to FALSE, NDIS allocates a pool of <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structures. Each allocated <b>NET_BUFFER_LIST</b> structure is not initialized  to contain any 
+       <a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a> structures.
 
 For more information, see the Remarks section.
 
@@ -139,7 +124,7 @@ For more information, see the Remarks section.
 ### -field ContextSize
 
 The size, in bytes, of the preallocated 
-       <a href="..\ndis\ns-ndis-_net_buffer_list_context.md">NET_BUFFER_LIST_CONTEXT</a> structure
+       <a href="https://msdn.microsoft.com/library/windows/hardware/ff568389">NET_BUFFER_LIST_CONTEXT</a> structure
        data that NDIS should provide for the NET_BUFFER_LIST structures in this pool. The 
        <b>ContextSize</b> must be a multiple of the value that is defined by MEMORY_ALLOCATION_ALIGNMENT.
 
@@ -149,15 +134,15 @@ The size, in bytes, of the preallocated
 A kernel pool tag that the caller uses when it allocates NET_BUFFER_LIST structures from this
        pool. The tag is a string, delimited by single quotation marks, with up to four characters, usually
        specified in reversed order. The kernel pool tag helps NDIS to identify the owner of the
-       <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structures that are allocated from this pool.
+       <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structures that are allocated from this pool.
 
 
 ### -field DataSize
 
 The default data size, in bytes, for data buffers that are associated with this 
-       <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> pool, if any. NDIS uses
+       <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> pool, if any. NDIS uses
        this value to set the size of any data buffers that it allocates for any associated 
-       <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a> structures. 
+       <a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a> structures. 
        
 
 For more information, see the Remarks section.
@@ -168,42 +153,42 @@ For more information, see the Remarks section.
 
 
 If 
-       <b>fAllocateNetBuffer</b> is set to FALSE, NDIS will not allocate <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a> structures, and 
+       <b>fAllocateNetBuffer</b> is set to FALSE, NDIS will not allocate <a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a> structures, and 
        <b>DataSize</b> should be set to zero.
 
 If 
        <b>DataSize</b> is not zero, 
-       <b>fAllocateNetBuffer</b> must be set to TRUE. This causes NDIS to allocate the <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a> structure with a data buffer
+       <b>fAllocateNetBuffer</b> must be set to TRUE. This causes NDIS to allocate the <a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a> structure with a data buffer
        of the specified size.
 
 If 
        <b>DataSize</b> is zero and 
-       <b>fAllocateNetBuffer</b> is <b>TRUE</b>, NDIS allocates the <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a> structure but not the data
+       <b>fAllocateNetBuffer</b> is <b>TRUE</b>, NDIS allocates the <a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a> structure but not the data
        buffer.
 
-The <i>Parameters</i> parameter of the <a href="..\ndis\nf-ndis-ndisallocatenetbufferlistpool.md">NdisAllocateNetBufferListPool</a> function contains a pointer to an <b>NET_BUFFER_LIST_POOL_PARAMETERS</b> structure.
+The <i>Parameters</i> parameter of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff561611">NdisAllocateNetBufferListPool</a> function contains a pointer to an <b>NET_BUFFER_LIST_POOL_PARAMETERS</b> structure.
 
 
 
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_net_buffer_list_data.md">NET_BUFFER_LIST_DATA</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisallocatenetbufferlistpool.md">NdisAllocateNetBufferListPool</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a>
 
 
 
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a>
 
 
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568393">NET_BUFFER_LIST_DATA</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561611">NdisAllocateNetBufferListPool</a>
  
 
  

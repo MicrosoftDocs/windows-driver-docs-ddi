@@ -53,20 +53,6 @@ req.product: Windows 10 or later.
 The WDI_STOP_AP_REASON enumeration defines the reasons an adapter cannot sustain 802.11 Access Point (AP) functionality on any of the PHYs.
 
 
-## -syntax
-
-
-````
-typedef enum _WDI_STOP_AP_REASON { 
-  WDI_STOP_AP_REASON_FREQUENCY_NOT_AVAILABLE  = 1,
-  WDI_STOP_AP_REASON_CHANNEL_NOT_AVAILABLE    = 2,
-  WDI_STOP_AP_REASON_AP_ACTIVE                = 3,
-  WDI_STOP_AP_REASON_IHV_START                = 0xFF000000,
-  WDI_STOP_AP_REASON_IHV_END                  = 0xFFFFFFFF
-} WDI_STOP_AP_REASON;
-````
-
-
 ## -enum-fields
 
 

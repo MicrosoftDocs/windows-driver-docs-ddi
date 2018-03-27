@@ -54,15 +54,5 @@ The <b>NDIS_RW_LOCK_REFCOUNT</b> union defines attributes of a read/write lock. 
    
 
 
-## -syntax
-
-
-````
-typedef union _NDIS_RW_LOCK_REFCOUNT {
-  ;      // Reserved for NDIS.
-} NDIS_RW_LOCK_REFCOUNT;
-````
-
-
 ## -struct-fields
 

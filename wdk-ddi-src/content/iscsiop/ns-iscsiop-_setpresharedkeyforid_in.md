@@ -52,21 +52,6 @@ req.typenames: SetPresharedKeyForId_IN, *PSetPresharedKeyForId_IN
 The SetPresharedKeyForId_IN structure holds the input data for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565800">SetPresharedKeyForId</a> method.
 
 
-## -syntax
-
-
-````
-typedef struct _SetPresharedKeyForId_IN {
-  ULONG     PortNumber;
-  ULONGLONG SecurityFlags;
-  UCHAR     IdType;
-  ULONG     IdSize;
-  ULONG     KeySize;
-  UCHAR     Id[1];
-} SetPresharedKeyForId_IN, *PSetPresharedKeyForId_IN;
-````
-
-
 ## -struct-fields
 
 
@@ -161,11 +146,6 @@ You must implement this method.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565800">SetPresharedKeyForId</a>
-
-
-
-<a href="..\iscsiop\ns-iscsiop-_setpresharedkeyforid_out.md">SetPresharedKeyForId_OUT</a>
 
 
 
@@ -173,6 +153,11 @@ You must implement this method.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565800">SetPresharedKeyForId</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565810">SetPresharedKeyForId_OUT</a>
  
 
  

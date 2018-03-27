@@ -52,29 +52,15 @@ req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 The <i>pfnDestroyShaderCacheSession</i> callback function destroys a shader cache session.
 
 
-## -prototype
-
-
-````
-PFND3DWDDM2_2DDI_DESTROY_SHADERCACHE_SESSION pfnDestroyShaderCacheSession;
-
-VOID APIENTRY* pfnDestroyShaderCacheSession(
-   D3D10DDI_HDEVICE            hDevice,
-   D3DWDDM2_2DDI_HCACHESESSION hCacheSession
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
 
 
-### -param D3D10DDI_HDEVICE
+### -param Arg1
 
 
-### -param D3DWDDM2_2DDI_HCACHESESSION
+### -param Arg2
 
 
 
@@ -106,17 +92,17 @@ This callback function does not return a value.
 
 
 
-Access this callback function by using the <a href="..\d3d10umddi\ns-d3d10umddi-d3dwddm2_2ddi_devicefuncs.md">D3DWDDM2_2DDI_DEVICEFUNCS</a> structure. 
+Access this callback function by using the <a href="https://msdn.microsoft.com/4E082193-70BA-4F36-9001-2A12014F3AC3">D3DWDDM2_2DDI_DEVICEFUNCS</a> structure. 
 
 
 
 
 ## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3dwddm2_2ddi_devicefuncs.md">D3DWDDM2_2DDI_DEVICEFUNCS</a>
 
 
 
+<a href="https://msdn.microsoft.com/4E082193-70BA-4F36-9001-2A12014F3AC3">D3DWDDM2_2DDI_DEVICEFUNCS</a>
  
 
  

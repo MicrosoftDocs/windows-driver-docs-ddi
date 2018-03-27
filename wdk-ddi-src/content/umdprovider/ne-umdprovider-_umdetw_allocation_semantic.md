@@ -53,22 +53,6 @@ req.product: Windows 10 or later.
 Indicates what a memory allocation is used for if the allocation is internal to the user-mode driver.
 
 
-## -syntax
-
-
-````
-typedef enum _UMDETW_ALLOCATION_SEMANTIC { 
-  UMDETW_ALLOCATION_SEMANTIC_NONE              = 0,
-  UMDETW_ALLOCATION_SEMANTIC_DMA_BUFFER        = 1,
-  UMDETW_ALLOCATION_SEMANTIC_UPLOAD_STAGING    = 2,
-  UMDETW_ALLOCATION_SEMANTIC_DOWNLOAD_STAGING  = 3,
-  UMDETW_ALLOCATION_SEMANTIC_CONTEXT_SAVE      = 4,
-  UMDETW_ALLOCATION_SEMANTIC_DRIVER_OTHER_MIN  = 5,
-  UMDETW_ALLOCATION_SEMANTIC_DRIVER_OTHER_MAX  = 0xFFFF
-} UMDETW_ALLOCATION_SEMANTIC;
-````
-
-
 ## -enum-fields
 
 
@@ -111,14 +95,14 @@ The driver can use this semantic value for its own internal purposes.
 
 ## -see-also
 
-<a href="..\umdprovider\nf-umdprovider-umdetwlogunmapallocation.md">UMDEtwLogUnmapAllocation</a>
 
 
 
-<a href="..\umdprovider\nf-umdprovider-umdetwlogmapallocation.md">UMDEtwLogMapAllocation</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj542437">UMDEtwLogMapAllocation</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj542438">UMDEtwLogUnmapAllocation</a>
  
 
  

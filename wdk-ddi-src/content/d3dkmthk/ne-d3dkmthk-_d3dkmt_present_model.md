@@ -52,23 +52,6 @@ req.typenames: D3DKMT_PRESENT_MODEL
 The D3DKMT_PRESENT_MODEL enumeration type contains values that indicate the model for a present operation. 
 
 
-## -syntax
-
-
-````
-typedef enum _D3DKMT_PRESENT_MODEL { 
-  D3DKMT_PM_UNINITIALIZED           = 0,
-  D3DKMT_PM_REDIRECTED_GDI          = 1,
-  D3DKMT_PM_REDIRECTED_FLIP         = 2,
-  D3DKMT_PM_REDIRECTED_BLT          = 3,
-  D3DKMT_PM_REDIRECTED_VISTABLT     = 4,
-  D3DKMT_PM_SCREENCAPTUREFENCE      = 5,
-  D3DKMT_PM_REDIRECTED_GDI_SYSMEM   = 6,
-  D3DKMT_PM_REDIRECTED_COMPOSITION  = 7
-} D3DKMT_PRESENT_MODEL;
-````
-
-
 ## -enum-fields
 
 
@@ -121,10 +104,10 @@ The present-operation model is redirected composition swap chain presentation. T
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_presenthistorytoken.md">D3DKMT_PRESENTHISTORYTOKEN</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548188">D3DKMT_PRESENTHISTORYTOKEN</a>
  
 
  

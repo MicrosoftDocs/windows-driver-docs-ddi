@@ -54,22 +54,6 @@ req.product: Windows 10 or later.
 The <b>StorPortSetBusDataByOffset</b> routine writes bus-specific configuration information.
 
 
-## -syntax
-
-
-````
-STORPORT_API ULONG StorPortSetBusDataByOffset(
-  _In_ PVOID DeviceExtension,
-  _In_ ULONG BusDataType,
-  _In_ ULONG SystemIoBusNumber,
-  _In_ ULONG SlotNumber,
-  _In_ PVOID Buffer,
-  _In_ ULONG Offset,
-  _In_ ULONG Length
-);
-````
-
-
 ## -parameters
 
 
@@ -82,12 +66,12 @@ Pointer to the miniport driver's per-HBA storage area.
 
 ### -param BusDataType [in]
 
-Contains a value of type <a href="..\ntddk\ne-ntddk-_bus_data_type.md">BUS_DATA_TYPE</a> that specifies the type of the bus for which configuration information is to be written. Currently, its value can be <b>PCIConfiguration</b>. However, additional types of standardized, dynamically configurable buses will be supported in future. The upper bound on the bus types supported is always <b>MaximumBusDataType</b>. 
+Contains a value of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff540700">BUS_DATA_TYPE</a> that specifies the type of the bus for which configuration information is to be written. Currently, its value can be <b>PCIConfiguration</b>. However, additional types of standardized, dynamically configurable buses will be supported in future. The upper bound on the bus types supported is always <b>MaximumBusDataType</b>. 
 
 
 ### -param SystemIoBusNumber [in]
 
-Specifies the system-assigned number of the I/O bus on which the HBA is connected. The miniport driver's <a href="..\storport\nc-storport-hw_find_adapter.md">HwStorFindAdapter</a> routine obtains this value from the input <b>PORT_CONFIGURATION_INFORMATION</b><b>SystemIoBusNumber</b> member. 
+Specifies the system-assigned number of the I/O bus on which the HBA is connected. The miniport driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff557390">HwStorFindAdapter</a> routine obtains this value from the input <b>PORT_CONFIGURATION_INFORMATION</b><b>SystemIoBusNumber</b> member. 
 
 
 ### -param SlotNumber [in]
@@ -125,10 +109,10 @@ Indicates the length, in bytes, of the maximum amount of data to return.
 
 ## -see-also
 
-<a href="..\srb\nf-srb-scsiportsetbusdatabyoffset.md">ScsiPortSetBusDataByOffset</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564751">ScsiPortSetBusDataByOffset</a>
  
 
  

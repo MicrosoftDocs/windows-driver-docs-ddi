@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -50,18 +50,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 Gets a quit lock string.
-
-
-## -syntax
-
-
-````
-HRESULT GetQuitLockString(
-  [out]           writes_opt_(BufferSize) PSTR Buffer,
-  [in]            ULONG                        BufferSize,
-  [out, optional] PULONG                       StringSize
-);
-````
 
 
 ## -parameters
@@ -108,10 +96,10 @@ The quit lock string
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550497">IDebugClient5</a>
  
 
  

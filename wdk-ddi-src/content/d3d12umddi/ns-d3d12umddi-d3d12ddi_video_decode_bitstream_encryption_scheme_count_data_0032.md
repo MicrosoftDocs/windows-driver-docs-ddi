@@ -52,18 +52,6 @@ req.typenames: D3D12DDI_VIDEO_DECODE_BITSTREAM_ENCRYPTION_SCHEME_COUNT_DATA_0032
 Video decode bitstream encryption scheme count data.
 
 
-## -syntax
-
-
-````
-typedef struct _D3D12DDI_VIDEO_DECODE_BITSTREAM_ENCRYPTION_SCHEME_COUNT_DATA_0032 {
-  UINT  NodeIndex;
-  GUID  DecodeProfile;
-  UINT  BitstreamEncryptionSchemeCount;
-} D3D12DDI_VIDEO_DECODE_BITSTREAM_ENCRYPTION_SCHEME_COUNT_DATA_0032, D3D12DDI_VIDEO_DECODE_BITSTREAM_ENCRYPTION_SCHEME_COUNT_DATA_0032;
-````
-
-
 ## -struct-fields
 
 

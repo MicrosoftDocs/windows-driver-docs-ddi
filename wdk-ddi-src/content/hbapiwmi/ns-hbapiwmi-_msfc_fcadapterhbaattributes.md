@@ -52,31 +52,6 @@ req.typenames: MSFC_FCAdapterHBAAttributes, *PMSFC_FCAdapterHBAAttributes
 The MSFC_FCAdapterHBAAttributes structure is used by a WMI provider to expose attribute information associated with a fibre channel adapter. 
 
 
-## -syntax
-
-
-````
-typedef struct _MSFC_FCAdapterHBAAttributes {
-  ULONGLONG UniqueAdapterId;
-  ULONG     HBAStatus;
-  UCHAR     NodeWWN[8];
-  ULONG     VendorSpecificID;
-  ULONG     NumberOfPorts;
-  WCHAR     Manufacturer[64 + 1];
-  WCHAR     SerialNumber[64 + 1];
-  WCHAR     Model[256 + 1];
-  WCHAR     ModelDescription[256 + 1];
-  WCHAR     NodeSymbolicName[256 + 1];
-  WCHAR     HardwareVersion[256 + 1];
-  WCHAR     DriverVersion[256 + 1];
-  WCHAR     OptionROMVersion[256 + 1];
-  WCHAR     FirmwareVersion[256 + 1];
-  WCHAR     DriverName[256 + 1];
-  WCHAR     MfgDomain[256 + 1];
-} MSFC_FCAdapterHBAAttributes, *PMSFC_FCAdapterHBAAttributes;
-````
-
-
 ## -struct-fields
 
 
@@ -164,14 +139,14 @@ Contains the name of the HBA manufacturer.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff562497">MSFC_FCAdapterHBAAttributes WMI Class</a>
-
-
-
  
 
  

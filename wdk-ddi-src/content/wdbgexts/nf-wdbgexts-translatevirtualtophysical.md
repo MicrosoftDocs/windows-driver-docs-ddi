@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,17 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>TranslateVirtualToPhysical</b> function translates a virtual memory address into a physical memory address.
-
-
-## -syntax
-
-
-````
-__inline BOOL TranslateVirtualToPhysical(
-   ULONG64 Virtual,
-   ULONG64 *Physical
-);
-````
 
 
 ## -parameters

@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -50,18 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-Initializes a <a href="..\ucmmanager\ns-ucmmanager-_ucm_connector_pd_conn_state_changed_params.md">UCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS</a> structure.
-
-
-## -syntax
-
-
-````
-void UCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS_INIT(
-  _Out_ PUCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS Params,
-  _In_  UCM_PD_CONN_STATE                           PdConnState
-);
-````
+Initializes a <a href="https://msdn.microsoft.com/library/windows/hardware/mt187926">UCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS</a> structure.
 
 
 ## -parameters
@@ -71,12 +60,12 @@ void UCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS_INIT(
 
 ### -param Params [out]
 
-Pointer to a caller-allocated <a href="..\ucmmanager\ns-ucmmanager-_ucm_connector_pd_conn_state_changed_params.md">UCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS</a> structure to initialize.
+Pointer to a caller-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/mt187926">UCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS</a> structure to initialize.
 
 
 ### -param PdConnState [in]
 
-A <a href="..\ucmtypes\ne-ucmtypes-_ucm_pd_conn_state.md">UCM_PD_CONN_STATE</a>-typed flag that indicates the connection state of the partner port.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/mt187934">UCM_PD_CONN_STATE</a>-typed flag that indicates the connection state of the partner port.
 
 
 ## -returns
@@ -90,10 +79,10 @@ This function does not return a value.
 
 ## -see-also
 
-<a href="..\ucmmanager\nf-ucmmanager-ucmconnectorpdconnectionstatechanged.md">UcmConnectorPdConnectionStateChanged</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt187911">UcmConnectorPdConnectionStateChanged</a>
  
 
  

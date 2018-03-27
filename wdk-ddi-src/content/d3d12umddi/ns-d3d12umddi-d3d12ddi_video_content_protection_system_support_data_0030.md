@@ -52,18 +52,6 @@ req.typenames: D3D12DDI_VIDEO_CONTENT_PROTECTION_SYSTEM_SUPPORT_DATA_0030
 Video content protection system support data.
 
 
-## -syntax
-
-
-````
-typedef struct _D3D12DDI_VIDEO_CONTENT_PROTECTION_SYSTEM_SUPPORT_DATA_0030 {
-  UINT    NodeIndex;
-  UINT    ContentProtectionSystemCount;
-  GUID *  pContentProtectionSystems;
-} D3D12DDI_VIDEO_CONTENT_PROTECTION_SYSTEM_SUPPORT_DATA_0030, D3D12DDI_VIDEO_CONTENT_PROTECTION_SYSTEM_SUPPORT_DATA_0030;
-````
-
-
 ## -struct-fields
 
 

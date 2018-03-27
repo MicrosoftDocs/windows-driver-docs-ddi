@@ -52,22 +52,6 @@ req.typenames: KS_LogicalMemoryType
 
 
 
-## -syntax
-
-
-````
-typedef enum  { 
-  KS_MemoryTypeDontCare          = 0,
-  KS_MemoryTypeKernelPaged,
-  KS_MemoryTypeKernelNonPaged,
-  KS_MemoryTypeDeviceHostMapped,
-  KS_MemoryTypeDeviceSpecific,
-  KS_MemoryTypeUser,
-  KS_MemoryTypeAnyHost
-} KS_LogicalMemoryType;
-````
-
-
 ## -enum-fields
 
 

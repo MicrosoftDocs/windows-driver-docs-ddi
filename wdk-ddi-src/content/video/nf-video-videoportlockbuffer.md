@@ -53,19 +53,6 @@ req.product: Windows 10 or later.
 The <b>VideoPortLockBuffer</b> function probes the specified buffer, makes the buffer's memory pages resident in memory, and locks the physical pages mapped by the virtual address range.
 
 
-## -syntax
-
-
-````
-PVOID VideoPortLockBuffer(
-  _In_ PVOID             HwDeviceExtension,
-  _In_ PVOID             BaseAddress,
-  _In_ ULONG             Length,
-  _In_ VP_LOCK_OPERATION Operation
-);
-````
-
-
 ## -parameters
 
 
@@ -104,17 +91,17 @@ Returns a pointer to a memory descriptor list (<a href="https://msdn.microsoft.c
 
 
 
-To unlock the buffer, the video miniport driver should call <a href="..\video\nf-video-videoportunlockbuffer.md">VideoPortUnlockBuffer</a>. 
+To unlock the buffer, the video miniport driver should call <a href="https://msdn.microsoft.com/library/windows/hardware/ff570373">VideoPortUnlockBuffer</a>. 
 
 
 
 
 ## -see-also
 
-<a href="..\video\nf-video-videoportunlockbuffer.md">VideoPortUnlockBuffer</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570373">VideoPortUnlockBuffer</a>
  
 
  

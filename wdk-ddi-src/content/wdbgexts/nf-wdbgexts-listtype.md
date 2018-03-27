@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,21 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>ListType</b> function calls a specified callback function for every element in a linked list.
-
-
-## -syntax
-
-
-````
-__inline ULONG ListType(
-  _In_ LPCSTR                   Type,
-  _In_ ULONG64                  Address,
-  _In_ USHORT                   ListByFieldAddress,
-  _In_ LPCSTR                   NextPointer,
-  _In_ PVOID                    Context,
-  _In_ PSYM_DUMP_FIELD_CALLBACK CallbackRoutine
-);
-````
 
 
 ## -parameters
@@ -112,7 +97,7 @@ Specifies a pointer that is passed to the callback function specified by <i>Call
 
 ### -param CallbackRoutine [in]
 
-Specifies a function that is called for each entry in the linked list.  The parameters passed to the function are the <i>Context</i> pointer and a <a href="..\wdbgexts\ns-wdbgexts-_field_info.md">FIELD_INFO</a> structure; the address of the entry is found in the <b>address</b> member of this structure.
+Specifies a function that is called for each entry in the linked list.  The parameters passed to the function are the <i>Context</i> pointer and a <a href="https://msdn.microsoft.com/library/windows/hardware/ff545316">FIELD_INFO</a> structure; the address of the entry is found in the <b>address</b> member of this structure.
 
 
 ## -returns

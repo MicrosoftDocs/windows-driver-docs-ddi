@@ -52,18 +52,8 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 
 The 
   <b>NdisAdjustNetBufferCurrentMdl</b> function updates a 
-  <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a> structure based on the current data
+  <a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a> structure based on the current data
   offset.
-
-
-## -syntax
-
-
-````
-VOID NdisAdjustNetBufferCurrentMdl(
-  _In_ PNET_BUFFER NetBuffer
-);
-````
 
 
 ## -parameters
@@ -74,7 +64,7 @@ VOID NdisAdjustNetBufferCurrentMdl(
 ### -param NetBuffer [in]
 
 A pointer to a 
-     <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a> structure.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a> structure.
 
 
 ## -returns
@@ -94,7 +84,7 @@ The
     <b>NdisAdjustNetBufferCurrentMdl</b> function recalculates and sets the 
     <b>CurrentMdl</b> and 
     <b>CurrentMdlOffset</b> members of a 
-    <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a> structure based on the 
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a> structure based on the 
     <b>DataOffset</b> member of the NET_BUFFER structure.
 
 Callers of 
@@ -106,10 +96,10 @@ Callers of
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a>
  
 
  

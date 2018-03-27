@@ -52,19 +52,6 @@ req.typenames: STORAGE_HW_FIRMWARE_INFO_QUERY, *PSTORAGE_HW_FIRMWARE_INFO_QUERY
 This structure contains information about the device firmware.
 
 
-## -syntax
-
-
-````
-typedef struct _STORAGE_HW_FIRMWARE_INFO_QUERY {
-  ULONG Version;
-  ULONG Size;
-  ULONG Flags;
-  ULONG Reserved;
-} STORAGE_HW_FIRMWARE_INFO_QUERY, *PSTORAGE_HW_FIRMWARE_INFO_QUERY;
-````
-
-
 ## -struct-fields
 
 

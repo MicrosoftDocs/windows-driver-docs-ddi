@@ -52,32 +52,6 @@ req.typenames: D3D11_1DDI_VIDEO_DECODER_CONFIG
 Describes the configuration of a Microsoft Direct3D 11 decoder device for Microsoft DirectX Video Acceleration (DXVA).
 
 
-## -syntax
-
-
-````
-typedef struct D3D11_1DDI_VIDEO_DECODER_CONFIG {
-  GUID   guidConfigBitstreamEncryption;
-  GUID   guidConfigMBcontrolEncryption;
-  GUID   guidConfigResidDiffEncryption;
-  UINT   ConfigBitstreamRaw;
-  UINT   ConfigMBcontrolRasterOrder;
-  UINT   ConfigResidDiffHost;
-  UINT   ConfigSpatialResid8;
-  UINT   ConfigResid8Subtraction;
-  UINT   ConfigSpatialHost8or9Clipping;
-  UINT   ConfigSpatialResidInterleaved;
-  UINT   ConfigIntraResidUnsigned;
-  UINT   ConfigResidDiffAccelerator;
-  UINT   ConfigHostInverseScan;
-  UINT   ConfigSpecificIDCT;
-  UINT   Config4GroupedCoefs;
-  UINT   ConfigMinRenderTargetBuffCount;
-  USHORT ConfigDecoderSpecific;
-} D3D11_1DDI_VIDEO_DECODER_CONFIG;
-````
-
-
 ## -struct-fields
 
 
@@ -89,7 +63,7 @@ typedef struct D3D11_1DDI_VIDEO_DECODER_CONFIG {
             Defines the encryption protocol type for bit-stream data buffers. If no encryption is applied, the value is <b>DXVA_NoEncrypt</b> (a GUID name defined in Dxva.h). If <b>ConfigBitstreamRaw</b> is 0, the value must be <b>DXVA_NoEncrypt</b>.
           
 
-If set to <b>D3DWDDM2_0DDI_DECODER_ENCRYPTION_HW_CENC</b>, this indicates that the following parameters will be passed in to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_videodecoderbeginframe.md">VideoDecoderBeginFrame</a> call:
+If set to <b>D3DWDDM2_0DDI_DECODER_ENCRYPTION_HW_CENC</b>, this indicates that the following parameters will be passed in to the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451697">VideoDecoderBeginFrame</a> call:
 
 <table>
 <tr>
@@ -102,7 +76,7 @@ If set to <b>D3DWDDM2_0DDI_DECODER_ENCRYPTION_HW_CENC</b>, this indicates that t
 </dl>
 </td>
 <td width="60%">
-A pointer to the <a href="..\d3d10umddi\ns-d3d10umddi-d3dwddm2_0ddi_video_decoder_begin_frame_crypto_session.md">D3DWDDM2_0DDI_VIDEO_DECODER_BEGIN_FRAME_CRYPTO_SESSION</a> structure, indicating which CryptoSession and the key information used to decrypt the frame.
+A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/dn894618">D3DWDDM2_0DDI_VIDEO_DECODER_BEGIN_FRAME_CRYPTO_SESSION</a> structure, indicating which CryptoSession and the key information used to decrypt the frame.
 
 </td>
 </tr>
@@ -112,7 +86,7 @@ A pointer to the <a href="..\d3d10umddi\ns-d3d10umddi-d3dwddm2_0ddi_video_decode
 </dl>
 </td>
 <td width="60%">
-Set to the size of the <a href="..\d3d10umddi\ns-d3d10umddi-d3dwddm2_0ddi_video_decoder_begin_frame_crypto_session.md">D3DWDDM2_0DDI_VIDEO_DECODER_BEGIN_FRAME_CRYPTO_SESSION</a> structure.
+Set to the size of the <a href="https://msdn.microsoft.com/library/windows/hardware/dn894618">D3DWDDM2_0DDI_VIDEO_DECODER_BEGIN_FRAME_CRYPTO_SESSION</a> structure.
 
 </td>
 </tr>
@@ -296,7 +270,7 @@ If <b>ConfigResidDiffHost</b> is 1 and <b>ConfigSpatialResid8</b> is 1, the host
 ### -field Config4GroupedCoefs
 
 
-            If the value is 1, transform coefficients for off-host IDCT will be sent using the <a href="..\dxva\ns-dxva-_dxva_tcoef4group.md">DXVA_TCoef4Group</a> structure. If the value is 0, the <a href="..\dxva\ns-dxva-_dxva_tcoefsingle.md">DXVA_TCoefSingle</a> structure is used. The value must be 0 if <b>ConfigResidDiffAccelerator</b> is 0 or if <b>ConfigHostInverseScan</b> is 1.
+            If the value is 1, transform coefficients for off-host IDCT will be sent using the <a href="https://msdn.microsoft.com/library/windows/hardware/ff564053">DXVA_TCoef4Group</a> structure. If the value is 0, the <a href="https://msdn.microsoft.com/library/windows/hardware/ff564060">DXVA_TCoefSingle</a> structure is used. The value must be 0 if <b>ConfigResidDiffAccelerator</b> is 0 or if <b>ConfigHostInverseScan</b> is 1.
           
 
 
@@ -316,18 +290,18 @@ If <b>ConfigResidDiffHost</b> is 1 and <b>ConfigSpatialResid8</b> is 1, the host
 
 ## -see-also
 
-<a href="..\dxva\ns-dxva-_dxva_tcoef4group.md">DXVA_TCoef4Group</a>
 
 
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3dwddm2_0ddi_video_decoder_begin_frame_crypto_session.md">D3DWDDM2_0DDI_VIDEO_DECODER_BEGIN_FRAME_CRYPTO_SESSION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn894618">D3DWDDM2_0DDI_VIDEO_DECODER_BEGIN_FRAME_CRYPTO_SESSION</a>
 
 
 
-<a href="..\dxva\ns-dxva-_dxva_tcoefsingle.md">DXVA_TCoefSingle</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564053">DXVA_TCoef4Group</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564060">DXVA_TCoefSingle</a>
  
 
  

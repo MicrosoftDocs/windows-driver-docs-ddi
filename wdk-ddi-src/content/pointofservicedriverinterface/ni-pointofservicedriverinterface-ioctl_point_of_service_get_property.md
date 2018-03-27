@@ -46,11 +46,6 @@ req.typenames: PosPropertyId
 # IOCTL_POINT_OF_SERVICE_GET_PROPERTY IOCTL
 
 
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
-
 ## -description
 
 
@@ -64,7 +59,7 @@ This I/O control function returns the value of the specified property from the d
 
 ### -input-buffer
 
-Pointer to a buffer that contains the <a href="..\pointofservicedriverinterface\ne-pointofservicedriverinterface-_pospropertyid.md">PosPropertyId</a> for the property you want to get.
+Pointer to a buffer that contains the <a href="https://msdn.microsoft.com/library/windows/hardware/dn772239">PosPropertyId</a> for the property you want to get.
 
 
 ### -input-buffer-length

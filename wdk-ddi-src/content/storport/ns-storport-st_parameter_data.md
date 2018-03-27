@@ -55,18 +55,6 @@ req.product: Windows 10 or later.
 The <b>ST_PARAMETER_DATA</b> structure contains the parameter list for the set timestamp command. 
 
 
-## -syntax
-
-
-````
-typedef struct _ST_PARAMETER_DATA {
-  UCHAR Reserved1[4];
-  UCHAR Timestamp[6];
-  UCHAR Reserved2[2];
-} ST_PARAMETER_DATA, *PST_PARAMETER_DATA;
-````
-
-
 ## -struct-fields
 
 
@@ -90,10 +78,10 @@ Reserved for future use.
 
 ## -see-also
 
-<a href="..\storport\ns-storport-rt_parameter_data.md">RT_PARAMETER_DATA</a>
 
 
 
+<a href="https://msdn.microsoft.com/EB23D502-87E4-48B1-B1DC-0B215AB361C8">RT_PARAMETER_DATA</a>
  
 
  

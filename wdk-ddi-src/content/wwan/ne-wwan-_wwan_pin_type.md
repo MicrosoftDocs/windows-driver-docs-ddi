@@ -54,34 +54,6 @@ The WWAN_PIN_TYPE enumeration lists the different types of Personal Identificati
   that are supported by the MB device.
 
 
-## -syntax
-
-
-````
-typedef enum _WWAN_PIN_TYPE { 
-  WwanPinTypeNone               = 0,
-  WwanPinTypeCustom,
-  WwanPinTypePin1,
-  WwanPinTypePin2,
-  WwanPinTypeDeviceSimPin,
-  WwanPinTypeDeviceFirstSimPin,
-  WwanPinTypeNetworkPin,
-  WwanPinTypeNetworkSubsetPin,
-  WwanPinTypeSvcProviderPin,
-  WwanPinTypeCorporatePin,
-  WwanPinTypeSubsidyLock,
-  WwanPinTypePuk1,
-  WwanPinTypePuk2,
-  WwanPinTypeDeviceFirstSimPuk,
-  WwanPinTypeNetworkPuk,
-  WwanPinTypeNetworkSubsetPuk,
-  WwanPinTypeSvcProviderPuk,
-  WwanPinTypeCorporatePuk,
-  WwanPinTypeMax
-} WWAN_PIN_TYPE, *PWWAN_PIN_TYPE;
-````
-
-
 ## -enum-fields
 
 
@@ -191,14 +163,14 @@ The total number of supported PIN types.
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_pin_info.md">WWAN_PIN_INFO</a>
 
 
 
-<a href="..\wwan\ns-wwan-_wwan_pin_action.md">WWAN_PIN_ACTION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571213">WWAN_PIN_ACTION</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571216">WWAN_PIN_INFO</a>
  
 
  

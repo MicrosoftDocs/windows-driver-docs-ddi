@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -50,25 +50,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>GetSymbolInformationWideEx</b> method returns specified information about a symbol.
-
-
-## -syntax
-
-
-````
-HRESULT GetSymbolInformationWideEx(
-  [in]            ULONG           Which,
-  [in]            ULONG64         Arg64,
-  [in]            ULONG           Arg32,
-  [out, optional] PVOID           Buffer,
-  [in]            ULONG           BufferSize,
-  [out, optional] PULONG          InfoSize,
-  [out, optional] PWSTR           StringBuffer,
-  [in]            ULONG           StringBufferSize,
-  [out, optional] PULONG          StringSize,
-  [out, optional] PSYMBOL_INFO_EX pInfoEx
-);
-````
 
 
 ## -parameters
@@ -225,7 +206,7 @@ Receives the size, in characters, of the string returned to <i>StringBuffer</i>.
 
 ### -param pInfoEx [out, optional]
 
-A pointer to a <a href="..\dbgeng\ns-dbgeng-_symbol_info_ex.md">SYMBOL_INFO_EX</a> structure. 
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/mt613240">SYMBOL_INFO_EX</a> structure. 
 
 
 ## -returns

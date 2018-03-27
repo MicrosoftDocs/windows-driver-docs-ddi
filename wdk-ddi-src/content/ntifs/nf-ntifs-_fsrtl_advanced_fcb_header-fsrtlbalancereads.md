@@ -52,16 +52,6 @@ req.typenames: TOKEN_TYPE
 The <b>FsRtlBalanceReads</b> routine signals to a fault-tolerant disk driver that it is now safe to start balancing reads from a mirrored drive. 
 
 
-## -syntax
-
-
-````
-NTSTATUS FsRtlBalanceReads(
-  _In_ PDEVICE_OBJECT TargetDevice
-);
-````
-
-
 ## -parameters
 
 
@@ -92,10 +82,10 @@ A pointer to the device object from which the device starts the balanced read.
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-ccistheredirtydata.md">CcIsThereDirtyData</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539145">CcIsThereDirtyData</a>
  
 
  

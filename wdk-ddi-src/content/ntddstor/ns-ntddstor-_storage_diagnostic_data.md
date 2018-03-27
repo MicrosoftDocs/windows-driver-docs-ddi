@@ -52,21 +52,6 @@ req.typenames: STORAGE_DIAGNOSTIC_DATA, *PSTORAGE_DIAGNOSTIC_DATA
 Describes  diagnostic data about the storage driver stack. The <b>STORAGE_DIAGNOSTIC_DATA</b> structure is provided in the output buffer of an  <a href="https://msdn.microsoft.com/5F71CCBE-F93F-4DCD-A673-1D6DE49C7400">IOCTL_STORAGE_DIAGNOSTIC</a> request.
 
 
-## -syntax
-
-
-````
-typedef struct _STORAGE_DIAGNOSTIC_DATA {
-  ULONG                          Version;
-  ULONG                          Size;
-  GUID                           ProviderId;
-   ULONG                         BufferSize;
-  ULONG                          Reserved;
-  _Field_size_(BufferSize) UCHAR DiagnosticDataBuffer[ANYSIZE_ARRAY];
-} STORAGE_DIAGNOSTIC_DATA, *PSTORAGE_DIAGNOSTIC_DATA;
-````
-
-
 ## -struct-fields
 
 
@@ -107,7 +92,6 @@ Specifies the Diagnostic data buffer.
 
 ## -see-also
 
-<a href="..\ntddstor\ns-ntddstor-_storage_diagnostic_request.md">STORAGE_DIAGNOSTIC_REQUEST</a>
 
 
 
@@ -115,6 +99,7 @@ Specifies the Diagnostic data buffer.
 
 
 
+<a href="https://msdn.microsoft.com/BAC83B5C-4F14-430D-9CEF-46812FC4DFED">STORAGE_DIAGNOSTIC_REQUEST</a>
  
 
  

@@ -52,17 +52,6 @@ req.typenames: D3DKMT_SETDISPLAYMODE_FLAGS
 The D3DKMT_SETDISPLAYMODE_FLAGS structure identifies attributes for setting the display mode.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DKMT_SETDISPLAYMODE_FLAGS {
-  BOOLEAN PreserveVidPn  :1;
-  UINT    Reserved  :31;
-} D3DKMT_SETDISPLAYMODE_FLAGS;
-````
-
-
 ## -struct-fields
 
 
@@ -82,17 +71,17 @@ typedef struct _D3DKMT_SETDISPLAYMODE_FLAGS {
 
 
 
-To set attributes of the display mode, you specify bitfields of the D3DKMT_SETDISPLAYMODE_FLAGS structure in the <b>Flags</b> member of the <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_setdisplaymode.md">D3DKMT_SETDISPLAYMODE</a> structure. 
+To set attributes of the display mode, you specify bitfields of the D3DKMT_SETDISPLAYMODE_FLAGS structure in the <b>Flags</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff548275">D3DKMT_SETDISPLAYMODE</a> structure. 
 
 
 
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_setdisplaymode.md">D3DKMT_SETDISPLAYMODE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548275">D3DKMT_SETDISPLAYMODE</a>
  
 
  

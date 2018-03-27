@@ -52,21 +52,6 @@ req.typenames: RILUICCCMDPARAMETERS, *LPRILUICCCMDPARAMETERS
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef struct _RILUICCCMDPARAMETERS {
-  DWORD            cbSize;
-  DWORD            dwParams;
-  RILUICCFILEPATH  filePath;
-  DWORD            dwParameter1;
-  DWORD            dwParameter2;
-  DWORD            dwParameter3;
-} RILUICCCMDPARAMETERS, RILUICCCMDPARAMETERS;
-````
-
-
 ## -struct-fields
 
 

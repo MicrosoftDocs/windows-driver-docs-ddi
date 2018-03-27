@@ -53,19 +53,6 @@ req.product: Windows 10 or later.
 Reads the device's read-only memory (ROM).
 
 
-## -syntax
-
-
-````
-PVOID VideoPortGetRomImage(
-  _In_       PVOID HwDeviceExtension,
-  _Reserved_ PVOID Unused1,
-  _Reserved_ ULONG Unused2,
-  _In_       ULONG Length
-);
-````
-
-
 ## -parameters
 
 
@@ -119,10 +106,10 @@ The miniport driver can free the buffer allocated by the video port driver by ca
 
 ## -see-also
 
-<a href="..\video\nf-video-videoportscanrom.md">VideoPortScanRom</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570360">VideoPortScanRom</a>
  
 
  

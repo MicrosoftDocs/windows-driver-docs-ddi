@@ -55,18 +55,6 @@ The
   list.
 <div class="alert"><b>Note</b>  <b>FwpsGetPacketListSecurityInformation0</b> is a specific version of <b>FwpsGetPacketListSecurityInformation</b>. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
 
-## -syntax
-
-
-````
-NTSTATUS NTAPI FwpsGetPacketListSecurityInformation0(
-  _In_    NET_BUFFER_LIST               *packetList,
-  _In_    UINT32                        queryFlags,
-  _Inout_ FWPS_PACKET_LIST_INFORMATION0 *packetInformation
-);
-````
-
-
 ## -parameters
 
 
@@ -75,7 +63,7 @@ NTSTATUS NTAPI FwpsGetPacketListSecurityInformation0(
 ### -param packetList [in]
 
 A pointer to the 
-     <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure for which the
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structure for which the
      associated information is being retrieved.
 
 
@@ -129,7 +117,7 @@ Retrieve all information associated with an outbound packet list.
 ### -param packetInformation [in, out]
 
 A pointer to an 
-     <a href="..\fwpsk\ns-fwpsk-fwps_packet_list_information0_.md">FWPS_PACKET_LIST_INFORMATION0</a> structure that receives the information associated with the packet
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff552412">FWPS_PACKET_LIST_INFORMATION0</a> structure that receives the information associated with the packet
      list.
 
 
@@ -179,7 +167,7 @@ An error occurred.
 
 A callout driver calls the 
     <b>FwpsGetPacketListSecurityInformation0</b> function from within its 
-    <a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a> callout function to retrieve
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a> callout function to retrieve
     information associated with the packet list. This information can be used to determine the action to be
     taken on the data.
 
@@ -188,18 +176,18 @@ A callout driver calls the
 
 ## -see-also
 
-<a href="..\fwpsk\ns-fwpsk-fwps_packet_list_information0_.md">FWPS_PACKET_LIST_INFORMATION0</a>
 
 
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552412">FWPS_PACKET_LIST_INFORMATION0</a>
 
 
 
-<a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a>
  
 
  

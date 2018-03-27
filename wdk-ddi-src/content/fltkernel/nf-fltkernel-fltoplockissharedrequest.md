@@ -52,16 +52,6 @@ req.typenames: EXpsFontRestriction
 The <b>FltOplockIsSharedRequest</b> routine determines if a request for an opportunistic lock (oplock) wants a shared oplock. 
 
 
-## -syntax
-
-
-````
-BOOLEAN FltOplockIsSharedRequest(
-  _In_ PFLT_CALLBACK_DATA CallbackData
-);
-````
-
-
 ## -parameters
 
 
@@ -69,7 +59,7 @@ BOOLEAN FltOplockIsSharedRequest(
 
 ### -param CallbackData [in]
 
-A pointer to the callback data (<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>) structure for the I/O operation. The caller must ensure that the I/O operation has a major code of IRP_MJ_FILE_SYSTEM_CONTROL and a minor code of IRP_MN_USER_FS_REQUEST. 
+A pointer to the callback data (<a href="https://msdn.microsoft.com/library/windows/hardware/ff544620">FLT_CALLBACK_DATA</a>) structure for the I/O operation. The caller must ensure that the I/O operation has a major code of IRP_MJ_FILE_SYSTEM_CONTROL and a minor code of IRP_MN_USER_FS_REQUEST. 
 
 
 ## -returns
@@ -83,10 +73,10 @@ A pointer to the callback data (<a href="..\fltkernel\ns-fltkernel-_flt_callback
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtloplockissharedrequest.md">FsRtlOplockIsSharedRequest</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547128">FsRtlOplockIsSharedRequest</a>
  
 
  

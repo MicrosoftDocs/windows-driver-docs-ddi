@@ -52,20 +52,6 @@ req.typenames: ScsiInquiry_OUT, *PScsiInquiry_OUT
 The ScsiInquiry_OUT structure holds the output data for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff564585">ScsiInquiry</a> method.
 
 
-## -syntax
-
-
-````
-typedef struct _ScsiInquiry_OUT {
-  ULONG Status;
-  ULONG ResponseBufferSize;
-  UCHAR ScsiStatus;
-  UCHAR SenseBuffer[18];
-  UCHAR ResponseBuffer[1];
-} ScsiInquiry_OUT, *PScsiInquiry_OUT;
-````
-
-
 ## -struct-fields
 
 
@@ -107,11 +93,6 @@ You must implement this method.
 
 ## -see-also
 
-<a href="..\iscsiop\ns-iscsiop-_scsiinquiry_in.md">ScsiInquiry_IN</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564585">ScsiInquiry</a>
 
 
 
@@ -119,6 +100,11 @@ You must implement this method.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564585">ScsiInquiry</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564598">ScsiInquiry_IN</a>
  
 
  

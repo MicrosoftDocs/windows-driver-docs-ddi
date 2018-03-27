@@ -52,22 +52,6 @@ req.typenames: DXGK_STANDARD_COLORIMETRY_FLAGS, *PDXGK_STANDARD_COLORIMETRY_FLAG
 Flags describing standard colorimetry and related support.
 
 
-## -syntax
-
-
-````
-typedef union _DXGK_STANDARD_COLORIMETRY_FLAGS {
-  struct {
-    UINT BT2020YCC  :1;
-    UINT BT2020RGB  :1;
-    UINT ST2084  :1;
-    UINT Reserved  :29;
-  };
-  ULONG Value;
-} DXGK_STANDARD_COLORIMETRY_FLAGS, *PDXGK_STANDARD_COLORIMETRY_FLAGS;
-````
-
-
 ## -struct-fields
 
 

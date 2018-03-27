@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: prcomoem.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -53,19 +53,6 @@ req.product: Windows 10 or later.
 The <code>IPrintOemUI::DevQueryPrintEx</code> method allows a user interface plug-in to help determine if a print job is printable.
 
 
-## -syntax
-
-
-````
-HRESULT DevQueryPrintEx(
-   POEMUIOBJ           poemuiobj,
-   PDEVQUERYPRINT_INFO pDQPInfo,
-   PDEVMODE            pPublicDM,
-   PVOID               pOEMDM
-);
-````
-
-
 ## -parameters
 
 
@@ -73,12 +60,12 @@ HRESULT DevQueryPrintEx(
 
 ### -param poemuiobj
 
-Caller-supplied pointer to an <a href="..\printoem\ns-printoem-_oemuiobj.md">OEMUIOBJ</a> structure.
+Caller-supplied pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff559571">OEMUIOBJ</a> structure.
 
 
 ### -param pDQPInfo
 
-Caller-supplied pointer to a <a href="..\winddiui\ns-winddiui-_devqueryprint_info.md">DEVQUERYPRINT_INFO</a> structure.
+Caller-supplied pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff547580">DEVQUERYPRINT_INFO</a> structure.
 
 
 ### -param pPublicDM
@@ -145,7 +132,7 @@ The method is not implemented.
 
 
 
-A user interface plug-in's <code>IPrintOemUI::DevQueryPrintEx</code> method performs the same types of operations as the <a href="..\winddiui\nf-winddiui-devqueryprintex.md">DevQueryPrintEx</a> function that is exported by user-mode printer interface DLLs. You can use this method to enhance the functionality provided by the <b>DevQueryPrintEx</b> function. Like the <b>DevQueryPrintEx</b> function, the <code>IPrintOemUI::DevQueryPrintEx</code> method's responsibility is to determine if the print job described by the supplied DEVMODEW structure can be printed.
+A user interface plug-in's <code>IPrintOemUI::DevQueryPrintEx</code> method performs the same types of operations as the <a href="https://msdn.microsoft.com/library/windows/hardware/ff547576">DevQueryPrintEx</a> function that is exported by user-mode printer interface DLLs. You can use this method to enhance the functionality provided by the <b>DevQueryPrintEx</b> function. Like the <b>DevQueryPrintEx</b> function, the <code>IPrintOemUI::DevQueryPrintEx</code> method's responsibility is to determine if the print job described by the supplied DEVMODEW structure can be printed.
 
 When the driver's <b>DevQueryPrintEx</b> function is called, it checks the DEVMODEW structure, along with the currently selected printer options, to determine if the job is printable. If it is not, the function returns <b>FALSE</b>. If the job appears to be printable, the function calls the <code>IPrintOemUI::DevQueryPrintEx</code> method in each user interface plug-in associated with the driver. If all <code>IPrintOemUI::DevQueryPrintEx</code> methods return S_OK, then <b>DevQueryPrintEx</b> returns <b>TRUE</b>. Thus, a job is not printable unless the <b>DevQueryPrintEx</b> function and all <code>IPrintOemUI::DevQueryPrintEx</code> methods declare it to be printable.
 
@@ -158,10 +145,10 @@ For more information about creating and installing user interface plug-ins, see 
 
 ## -see-also
 
-<a href="..\winddiui\nf-winddiui-devqueryprintex.md">DevQueryPrintEx</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547576">DevQueryPrintEx</a>
  
 
  

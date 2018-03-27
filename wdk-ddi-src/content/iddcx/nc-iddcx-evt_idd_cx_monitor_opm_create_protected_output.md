@@ -52,23 +52,6 @@ req.typenames: WCS_PROFILE_MANAGEMENT_SCOPE
 <b>EVT_IDD_CX_MONITOR_OPM_CREATE_PROTECTED_OUTPUT</b> is called by the OS to create an OPM protected output context.
 
 
-## -prototype
-
-
-````
-EVT_IDD_CX_MONITOR_OPM_CREATE_PROTECTED_OUTPUT EvtIddCxMonitorOpmCreateProtectedOutput;
-
-NTSTATUS EvtIddCxMonitorOpmCreateProtectedOutput(
-  _In_       IDDCX_MONITOR                         MonitorObject,
-  _In_       IDDCX_OPMCTX                          OpmCxtObject,
-  _In_ const IDARG_IN_OPM_CREATE_PROTECTED_OUTPUT* pInArgs
-)
-{ ... }
-
-typedef EVT_IDD_CX_MONITOR_OPM_CREATE_PROTECTED_OUTPUT PFN_IDD_CX_MONITOR_OPM_CREATE_PROTECTED_OUTPUT;
-````
-
-
 ## -parameters
 
 

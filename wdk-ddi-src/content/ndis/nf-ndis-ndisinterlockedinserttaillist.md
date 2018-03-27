@@ -55,18 +55,6 @@ The
   linked list so that access to the list is synchronized in a multiprocessor-safe way.
 
 
-## -syntax
-
-
-````
-PLIST_ENTRY NdisInterlockedInsertTailList(
-  [in] PLIST_ENTRY     ListHead,
-  [in] PLIST_ENTRY     ListEntry,
-  [in] PNDIS_SPIN_LOCK SpinLock
-);
-````
-
-
 ## -parameters
 
 
@@ -94,10 +82,10 @@ A pointer to a caller-supplied spin lock, used to synchronize access to the list
 Before calling 
     <b>NdisInterlockedInsertTailList</b>, a driver must initialize the variable at 
     <i>ListHead</i> with the 
-    <a href="..\ndis\nf-ndis-ndisinitializelisthead.md">NdisInitializeListHead</a> function and
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff562734">NdisInitializeListHead</a> function and
     the variable at 
     <i>SpinLock</i> with the 
-    <a href="..\ndis\nf-ndis-ndisallocatespinlock.md">NdisAllocateSpinLock</a> function. The
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561617">NdisAllocateSpinLock</a> function. The
     driver also must provide resident storage for these variables and for its internal queue.
 
 The caller-supplied spin lock prevents any other function from accessing the driver's internal queue
@@ -122,8 +110,6 @@ If
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisinterlockedinsertheadlist.md">
-   NdisInterlockedInsertHeadList</a>
 
 
 
@@ -131,19 +117,21 @@ If
 
 
 
-<a href="..\ndis\nf-ndis-ndisinterlockedremoveheadlist.md">
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561617">NdisAllocateSpinLock</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562734">NdisInitializeListHead</a>
+
+
+
+<a href="https://msdn.microsoft.com/c6221ce9-682c-453b-b036-f4219c9540da">
+   NdisInterlockedInsertHeadList</a>
+
+
+
+<a href="https://msdn.microsoft.com/85cbc158-7132-4666-8161-a78251a62e4d">
    NdisInterlockedRemoveHeadList</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisinitializelisthead.md">NdisInitializeListHead</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisallocatespinlock.md">NdisAllocateSpinLock</a>
-
-
-
  
 
  

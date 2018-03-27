@@ -52,21 +52,6 @@ req.typenames: RILDRVNOTIFICATION, *LPRILDRVNOTIFICATION
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef struct _RILDRVNOTIFICATION {
-  DWORD    cbSize;
-  DWORD    cbSizeNeeded;
-  DWORD    dwCode;
-  HRESULT  hrCmdID;
-  DWORD    dwDataSize;
-  BYTE [1] pbData;
-} RILDRVNOTIFICATION, RILDRVNOTIFICATION;
-````
-
-
 ## -struct-fields
 
 

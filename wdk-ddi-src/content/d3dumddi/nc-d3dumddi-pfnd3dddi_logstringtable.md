@@ -52,20 +52,6 @@ req.typenames: DXGK_PTE
 Called by the Microsoft Direct3D runtime to request that the user-mode display driver log a custom Event Tracing for Windows (ETW) marker event. Optionally implemented by Windows Display Driver Model (WDDM) 1.3 and later drivers.
 
 
-## -prototype
-
-
-````
-PFND3DDDI_LOGSTRINGTABLE LogMarkerStringTable;
-
-_Check_return_ HRESULT APIENTRY* LogMarkerStringTable(
-   HANDLE                          hLog,
-   PFND3DDDICB_LOGSTRINGTABLEENTRY pfnLogStringTableEntryCb
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -78,7 +64,7 @@ A handle to the Event Tracing for Windows (ETW) log that is to be written to.
 
 ### -param pfnLogStringTableEntryCb
 
-A function pointer to the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddicb_logstringtableentry.md">LogMarkerStringTableEntry</a> function that locates a string table entry.
+A function pointer to the <a href="https://msdn.microsoft.com/54D1F822-2D82-498D-A50F-A917FA127496">LogMarkerStringTableEntry</a> function that locates a string table entry.
 
 
 ## -returns
@@ -102,10 +88,10 @@ This function is free-threaded.
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddicb_logstringtableentry.md">LogMarkerStringTableEntry</a>
 
 
 
+<a href="https://msdn.microsoft.com/54D1F822-2D82-498D-A50F-A917FA127496">LogMarkerStringTableEntry</a>
  
 
  

@@ -54,20 +54,6 @@ The WWAN_PIN_OPERATION enumeration lists the different Personal Identification N
   operations that are supported by the MB device.
 
 
-## -syntax
-
-
-````
-typedef enum _WWAN_PIN_OPERATION { 
-  WwanPinOperationEnter    = 0,
-  WwanPinOperationEnable,
-  WwanPinOperationDisable,
-  WwanPinOperationChange,
-  WwanPinOperationMax
-} WWAN_PIN_OPERATION, *PWWAN_PIN_OPERATION;
-````
-
-
 ## -enum-fields
 
 
@@ -112,10 +98,10 @@ If a PIN disable operation for a given PIN type is tried when that PIN type is l
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_pin_action.md">WWAN_PIN_ACTION</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571213">WWAN_PIN_ACTION</a>
  
 
  

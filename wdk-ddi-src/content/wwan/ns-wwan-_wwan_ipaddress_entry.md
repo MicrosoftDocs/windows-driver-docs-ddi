@@ -53,21 +53,6 @@ req.product: Windows 10 or later.
 The WWAN_IPADDRESS_ENTRY structure represents either the IPV4 or IPV6 address of a PDP context.
 
 
-## -syntax
-
-
-````
-typedef struct _WWAN_IPADDRESS_ENTRY {
-  ULONG IsIpv6:1;
-  ULONG IsReported:1;
-  union {
-    WWAN_IPV4_ADDRESS Ipv4;
-    WWAN_IPV6_ADDRESS Ipv6;
-  };
-} WWAN_IPADDRESS_ENTRY, *PWWAN_IPADDRESS_ENTRY;
-````
-
-
 ## -struct-fields
 
 

@@ -52,16 +52,6 @@ req.typenames: DSM_QueryLBPolicy, *PDSM_QueryLBPolicy
 The DSM_QueryLBPolicy structure is used to query a LUN's current load balance policy.
 
 
-## -syntax
-
-
-````
-typedef struct _DSM_QueryLBPolicy {
-  DSM_Load_Balance_Policy LoadBalancePolicy;
-} DSM_QueryLBPolicy, *PDSM_QueryLBPolicy;
-````
-
-
 ## -struct-fields
 
 

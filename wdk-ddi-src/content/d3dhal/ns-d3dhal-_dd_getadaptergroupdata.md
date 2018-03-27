@@ -56,19 +56,6 @@ req.typenames: DD_GETADAPTERGROUPDATA
 DD_GETADAPTERGROUPDATA is the data structure pointed to by the <b>lpvData</b> field of <a href="https://msdn.microsoft.com/library/windows/hardware/ff551550">DD_GETDRIVERINFODATA</a> for DD_GETDRIVERINFO2DATA queries with the type D3DGDI2_TYPE_GETADAPTERGROUP.
 
 
-## -syntax
-
-
-````
-typedef struct _DD_GETADAPTERGROUPDATA {
-  DD_GETDRIVERINFO2DATA gdi2;
-  ULONG_PTR             ulUniqueAdapterGroupId;
-  DWORD                 dwReserved1;
-  DWORD                 dwReserved2;
-} DD_GETADAPTERGROUPDATA;
-````
-
-
 ## -struct-fields
 
 
@@ -76,7 +63,7 @@ typedef struct _DD_GETADAPTERGROUPDATA {
 
 ### -field gdi2
 
-Specifies a <a href="..\d3dhal\ns-d3dhal-_dd_getdriverinfo2data.md">DD_GETDRIVERINFO2DATA</a> structure that contains the <b>GetDriverInfo2</b> data for the query.
+Specifies a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551548">DD_GETDRIVERINFO2DATA</a> structure that contains the <b>GetDriverInfo2</b> data for the query.
 
 
 ### -field ulUniqueAdapterGroupId
@@ -107,14 +94,14 @@ The identifier in <b>ulUniqueAdapterGroupId</b> must be unique across drivers, i
 
 ## -see-also
 
-<a href="..\d3dhal\ns-d3dhal-_dd_getdriverinfo2data.md">DD_GETDRIVERINFO2DATA</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551548">DD_GETDRIVERINFO2DATA</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551550">DD_GETDRIVERINFODATA</a>
-
-
-
  
 
  

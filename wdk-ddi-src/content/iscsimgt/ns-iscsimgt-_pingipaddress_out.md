@@ -52,17 +52,6 @@ req.typenames: PingIPAddress_OUT, *PPingIPAddress_OUT
 The PingIPAddress_OUT structure holds the output data for the PingIPAddress method.
 
 
-## -syntax
-
-
-````
-typedef struct _PingIPAddress_OUT {
-  ULONG Status;
-  ULONG ResponsesReceived;
-} PingIPAddress_OUT, *PPingIPAddress_OUT;
-````
-
-
 ## -struct-fields
 
 

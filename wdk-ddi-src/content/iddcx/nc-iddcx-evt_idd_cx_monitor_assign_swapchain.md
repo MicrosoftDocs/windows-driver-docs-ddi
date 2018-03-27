@@ -52,22 +52,6 @@ req.typenames: WCS_PROFILE_MANAGEMENT_SCOPE
 <b>EVT_IDD_CX_MONITOR_ASSIGN_SWAPCHAIN</b> is called by the OS to inform the driver of a mode change for monitors on the adapter.
 
 
-## -prototype
-
-
-````
-EVT_IDD_CX_MONITOR_ASSIGN_SWAPCHAIN EvtIddCxMonitorAssignSwapchain;
-
-NTSTATUS EvtIddCxMonitorAssignSwapchain(
-  _In_       IDDCX_MONITOR          MonitorObject,
-  _In_ const IDARG_IN_SETSWAPCHAIN* pInArgs
-)
-{ ... }
-
-typedef EVT_IDD_CX_MONITOR_ASSIGN_SWAPCHAIN PFN_IDD_CX_MONITOR_ASSIGN_SWAPCHAIN;
-````
-
-
 ## -parameters
 
 

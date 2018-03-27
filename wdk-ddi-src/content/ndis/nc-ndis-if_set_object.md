@@ -53,24 +53,6 @@ The
   <i>ProviderSetObject</i> function sets information that is associated with a network interface.
 
 
-## -prototype
-
-
-````
-IF_SET_OBJECT ProviderSetObject;
-
-NDIS_STATUS ProviderSetObject(
-  _In_ NDIS_HANDLE      ProviderIfContext,
-  _In_ NET_IF_OBJECT_ID ObjectId,
-  _In_ ULONG            InputBufferLength,
-  _In_ PVOID            pInputBuffer
-)
-{ ... }
-
-typedef IF_SET_OBJECT *IFP_SET_OBJECT;
-````
-
-
 ## -parameters
 
 
@@ -80,7 +62,7 @@ typedef IF_SET_OBJECT *IFP_SET_OBJECT;
 
 A handle that identifies the interface provider's context area for the interface. The interface
      provider passed this handle to NDIS in a call to the 
-     <a href="..\ndis\nf-ndis-ndisifregisterinterface.md">
+     <a href="https://msdn.microsoft.com/d0b0ada7-afb1-4cb7-ada6-7c5c7abe7d19">
      NdisIfRegisterInterface</a> function.
 
 
@@ -185,10 +167,10 @@ NDIS calls
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisifregisterinterface.md">NdisIfRegisterInterface</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562715">NdisIfRegisterInterface</a>
  
 
  

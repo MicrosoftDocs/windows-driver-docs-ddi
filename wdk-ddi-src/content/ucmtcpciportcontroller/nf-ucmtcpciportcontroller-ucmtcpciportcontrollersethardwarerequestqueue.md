@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
@@ -55,17 +55,6 @@ req.product: Windows 10 or later.
                 Assigns a framework queue object to which the UcmTcpciCx dispatches hardware requests for the port controller.
 
 
-## -syntax
-
-
-````
-VOID UcmTcpciPortControllerSetHardwareRequestQueue(
-   UCMTCPCIPORTCONTROLLER PortControllerObject,
-   WDFQUEUE               HardwareRequestQueue
-);
-````
-
-
 ## -parameters
 
 
@@ -73,7 +62,7 @@ VOID UcmTcpciPortControllerSetHardwareRequestQueue(
 
 ### -param PortControllerObject
 
-Handle to the port controller object that the client driver received in the previous call to <a href="..\ucmtcpciportcontroller\nf-ucmtcpciportcontroller-ucmtcpciportcontrollercreate.md">UcmTcpciPortControllerCreate</a>.
+Handle to the port controller object that the client driver received in the previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/mt805844">UcmTcpciPortControllerCreate</a>.
 
 
 ### -param HardwareRequestQueue
@@ -94,7 +83,7 @@ This method does not return a value.
 
 
 
-The client driver must call <b>UcmTcpciPortControllerSetHardwareRequestQueue</b> after creating the port controller object. The driver must call this method only once before calling <a href="..\ucmtcpciportcontroller\nf-ucmtcpciportcontroller-ucmtcpciportcontrollerstart.md">UcmTcpciPortControllerStart</a>.
+The client driver must call <b>UcmTcpciPortControllerSetHardwareRequestQueue</b> after creating the port controller object. The driver must call this method only once before calling <a href="https://msdn.microsoft.com/library/windows/hardware/mt805846">UcmTcpciPortControllerStart</a>.
 
 The parent of the queue object is the port controller object. 
 
@@ -106,10 +95,10 @@ A client driver may choose to use the same queue across multiple port controller
 
 ## -see-also
 
-<a href="..\ucmtcpciportcontroller\nf-ucmtcpciportcontroller-ucmtcpciportcontrollercreate.md">UcmTcpciPortControllerCreate</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt805844">UcmTcpciPortControllerCreate</a>
  
 
  

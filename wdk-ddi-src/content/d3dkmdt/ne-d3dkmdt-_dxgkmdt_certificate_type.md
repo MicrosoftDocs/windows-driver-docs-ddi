@@ -49,20 +49,7 @@ req.typenames: DXGKMDT_CERTIFICATE_TYPE
 ## -description
 
 
-The DXGKMDT_CERTIFICATE_TYPE enumeration identifies the type of certificate that callers of the <a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_certificate_size.md">DxgkDdiOPMGetCertificateSize</a> and <a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_certificate.md">DxgkDdiOPMGetCertificate</a> functions require. 
-
-
-## -syntax
-
-
-````
-typedef enum _DXGKMDT_CERTIFICATE_TYPE { 
-  DXGKMDT_OPM_CERTIFICATE   = 0,
-  DXGKMDT_COPP_CERTIFICATE  = 1,
-  DXGKMDT_UAB_CERTIFICATE   = 2,
-  DXGKMDT_FORCE_ULONG       = 0xFFFFFFFF
-} DXGKMDT_CERTIFICATE_TYPE;
-````
+The DXGKMDT_CERTIFICATE_TYPE enumeration identifies the type of certificate that callers of the <a href="https://msdn.microsoft.com/fe4197ad-52a2-47b3-ad96-57ea73cd931f">DxgkDdiOPMGetCertificateSize</a> and <a href="https://msdn.microsoft.com/3c055598-5f07-46e1-830d-1df9a459f742">DxgkDdiOPMGetCertificate</a> functions require. 
 
 
 ## -enum-fields
@@ -104,14 +91,14 @@ For more information about certificates that are used with OPM, download the Out
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_certificate.md">DxgkDdiOPMGetCertificate</a>
 
 
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_certificate_size.md">DxgkDdiOPMGetCertificateSize</a>
+<a href="https://msdn.microsoft.com/3c055598-5f07-46e1-830d-1df9a459f742">DxgkDdiOPMGetCertificate</a>
 
 
 
+<a href="https://msdn.microsoft.com/fe4197ad-52a2-47b3-ad96-57ea73cd931f">DxgkDdiOPMGetCertificateSize</a>
  
 
  

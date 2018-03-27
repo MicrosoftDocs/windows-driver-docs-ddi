@@ -52,20 +52,6 @@ req.typenames: D3DKMT_GETPRESENTHISTORY
 The D3DKMT_GETPRESENTHISTORY structure describes the state of copying history.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DKMT_GETPRESENTHISTORY {
-  D3DKMT_HANDLE              hAdapter;
-  UINT                       ProvidedSize;
-  UINT                       WrittenSize;
-  D3DKMT_PRESENTHISTORYTOKEN *pTokens;
-  UINT                       NumTokens;
-} D3DKMT_GETPRESENTHISTORY;
-````
-
-
 ## -struct-fields
 
 
@@ -87,33 +73,33 @@ Supported in Windows 7 and later versions.
 
 Supported in Windows 7 and later versions.
 
-[out] The size, in bytes, that the <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtgetpresenthistory.md">D3DKMTGetPresentHistory</a> function copies to the buffer that the <b>pTokens</b> member points to or the required size for first token. 
+[out] The size, in bytes, that the <a href="https://msdn.microsoft.com/library/windows/hardware/ff546987">D3DKMTGetPresentHistory</a> function copies to the buffer that the <b>pTokens</b> member points to or the required size for first token. 
 
 
 ### -field pTokens
 
 Supported in Windows 7 and later versions.
 
-[in/out] A pointer to the buffer that receives the tokens. Each token is described by a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_presenthistorytoken.md">D3DKMT_PRESENTHISTORYTOKEN</a> structure. 
+[in/out] A pointer to the buffer that receives the tokens. Each token is described by a <a href="https://msdn.microsoft.com/library/windows/hardware/ff548188">D3DKMT_PRESENTHISTORYTOKEN</a> structure. 
 
 
 ### -field NumTokens
 
 Supported in Windows 7 and later versions.
 
-[out] The number of tokens that the <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtgetpresenthistory.md">D3DKMTGetPresentHistory</a> function copies to the buffer that the <b>pTokens</b> member points to. 
+[out] The number of tokens that the <a href="https://msdn.microsoft.com/library/windows/hardware/ff546987">D3DKMTGetPresentHistory</a> function copies to the buffer that the <b>pTokens</b> member points to. 
 
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_presenthistorytoken.md">D3DKMT_PRESENTHISTORYTOKEN</a>
 
 
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtgetpresenthistory.md">D3DKMTGetPresentHistory</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546987">D3DKMTGetPresentHistory</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548188">D3DKMT_PRESENTHISTORYTOKEN</a>
  
 
  

@@ -52,17 +52,6 @@ req.typenames: GPIO_QUERY_ENABLED_INTERRUPTS_PARAMETERS, *PGPIO_QUERY_ENABLED_IN
 The <b>GPIO_QUERY_ENABLED_INTERRUPTS_PARAMETERS</b> structure indicates which interrupt pins in a bank of general-purpose I/O (GPIO) pins are enabled.
 
 
-## -syntax
-
-
-````
-typedef struct _GPIO_QUERY_ENABLED_INTERRUPTS_PARAMETERS {
-  BANK_ID BankId;
-  ULONG64 EnabledMask;
-} GPIO_QUERY_ENABLED_INTERRUPTS_PARAMETERS, *PGPIO_QUERY_ENABLED_INTERRUPTS_PARAMETERS;
-````
-
-
 ## -struct-fields
 
 
@@ -89,11 +78,10 @@ The <i>QueryEnabledParameters</i> parameter of the <a href="https://msdn.microso
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439358">CLIENT_CONTROLLER_BASIC_INFORMATION</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn265184">CLIENT_QueryEnabledInterrupts</a>
 
 
 
@@ -101,6 +89,7 @@ The <i>QueryEnabledParameters</i> parameter of the <a href="https://msdn.microso
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265184">CLIENT_QueryEnabledInterrupts</a>
  
 
  

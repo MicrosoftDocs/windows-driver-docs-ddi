@@ -55,17 +55,6 @@ Filter drivers call the
   request.
 
 
-## -syntax
-
-
-````
-NDIS_STATUS NdisFOidRequest(
-  _In_ NDIS_HANDLE       NdisFilterHandle,
-  _In_ PNDIS_OID_REQUEST OidRequest
-);
-````
-
-
 ## -parameters
 
 
@@ -75,13 +64,13 @@ NDIS_STATUS NdisFOidRequest(
 
 An NDIS handle that identifies a filter module. NDIS passed the handle to the filter driver in a
      call to the 
-     <a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a> function.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff540442">FilterAttach</a> function.
 
 
 ### -param OidRequest [in]
 
 A pointer to an 
-     <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a> structure that specifies
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566710">NDIS_OID_REQUEST</a> structure that specifies
      the operation requested with a given OID_<i>XXX</i> code. The structure can specify a query, set, or method request. For more information about
      OIDs, see 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff566707">NDIS OIDs</a>.
@@ -92,7 +81,7 @@ A pointer to an
 
 
 See the 
-     <a href="..\ndis\nf-ndis-ndisoidrequest.md">NdisOidRequest</a> function.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff563710">NdisOidRequest</a> function.
 
 
 
@@ -105,16 +94,16 @@ Filter drivers can originate OID requests to underlying drivers by calling
     <b>NdisFOidRequest</b>.
 
 Filter drivers can also filter OID requests that are originated by overlying drivers. NDIS calls the 
-    <a href="..\ndis\nc-ndis-filter_oid_request.md">FilterOidRequest</a> function to process
+    <a href="https://msdn.microsoft.com/238bfa21-a971-4fe4-a774-6ba834efc3c5">FilterOidRequest</a> function to process
     each such request.
 
 If 
     <b>NdisFOidRequest</b> returns <b>NDIS_STATUS_PENDING</b>, NDIS calls the 
-    <a href="..\ndis\nc-ndis-filter_oid_request_complete.md">FilterOidRequestComplete</a> function after the underlying drivers complete the OID request.
+    <a href="https://msdn.microsoft.com/2dba21d8-512b-4a1a-9cf9-0240c94a69a0">FilterOidRequestComplete</a> function after the underlying drivers complete the OID request.
 
 If 
     <b>NdisFOidRequest</b> returns <b>NDIS_STATUS_SUCCESS</b>, it returns the results of a query request in the
-    <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a> structure at the 
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff566710">NDIS_OID_REQUEST</a> structure at the 
     <i>OidRequest</i> parameter.
 
 <b>NdisFOidRequest</b> can return <b>NDIS_STATUS_INVALID_PARAMETER</b> if the filter driver passes invalid values
@@ -122,7 +111,7 @@ If
     <b>Type</b> and 
     <b>Size</b> fields in the 
     <b>Header</b> field of the 
-    <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a> structure.
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff566710">NDIS_OID_REQUEST</a> structure.
 
 A driver can call 
     <b>NdisFOidRequest</b> when it is in the 
@@ -136,26 +125,26 @@ A driver can call
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
 
 
 
-<a href="..\ndis\nc-ndis-filter_oid_request_complete.md">FilterOidRequestComplete</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540442">FilterAttach</a>
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
+<a href="https://msdn.microsoft.com/238bfa21-a971-4fe4-a774-6ba834efc3c5">FilterOidRequest</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisoidrequest.md">NdisOidRequest</a>
+<a href="https://msdn.microsoft.com/2dba21d8-512b-4a1a-9cf9-0240c94a69a0">FilterOidRequestComplete</a>
 
 
 
-<a href="..\ndis\nc-ndis-filter_oid_request.md">FilterOidRequest</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566710">NDIS_OID_REQUEST</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563710">NdisOidRequest</a>
  
 
  

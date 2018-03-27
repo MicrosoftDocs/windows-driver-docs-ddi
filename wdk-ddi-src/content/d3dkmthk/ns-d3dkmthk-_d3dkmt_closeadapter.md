@@ -52,16 +52,6 @@ req.typenames: D3DKMT_CLOSEADAPTER
 The D3DKMT_CLOSEADAPTER structure specifies the graphics adapter to close.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DKMT_CLOSEADAPTER {
-  D3DKMT_HANDLE hAdapter;
-} D3DKMT_CLOSEADAPTER;
-````
-
-
 ## -struct-fields
 
 
@@ -74,10 +64,10 @@ typedef struct _D3DKMT_CLOSEADAPTER {
 
 ## -see-also
 
-<a href="..\d3dkmthk\nc-d3dkmthk-pfnd3dkmt_closeadapter.md">D3DKMTCloseAdapter</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546787">D3DKMTCloseAdapter</a>
  
 
  

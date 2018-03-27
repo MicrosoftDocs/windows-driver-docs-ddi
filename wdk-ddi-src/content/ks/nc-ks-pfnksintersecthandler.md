@@ -52,22 +52,6 @@ req.typenames: SOUNDDETECTOR_PATTERNHEADER
 A streaming minidriver's <i>KStrIntersectHandler</i> routine is called to compare a data range to determine if there is an intersection, and if so, the data format of the intersection.
 
 
-## -prototype
-
-
-````
-PFNKSINTERSECTHANDLER KStrIntersectHandler;
-
-NTSTATUS KStrIntersectHandler(
-  _In_      PIRP         Irp,
-  _In_      PKSP_PIN     Pin,
-  _In_      PKSDATARANGE DataRange,
-  _Out_opt_ PVOID        Data
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -145,10 +129,10 @@ If there is no intersection.
 
 ## -see-also
 
-<a href="..\ks\nf-ks-kspindataintersection.md">KsPinDataIntersection</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563496">KsPinDataIntersection</a>
  
 
  

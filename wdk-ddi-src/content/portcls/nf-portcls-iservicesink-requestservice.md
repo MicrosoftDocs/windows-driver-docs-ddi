@@ -7,7 +7,7 @@ old-location: audio\iservicesink_requestservice.htm
 old-project: audio
 ms.assetid: c5035dee-3523-4b0d-9baa-e30720115499
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/19/2018
 ms.keywords: IServiceSink, IServiceSink interface [Audio Devices], RequestService method, IServiceSink::RequestService, RequestService method [Audio Devices], RequestService method [Audio Devices], IServiceSink interface, RequestService,IServiceSink.RequestService, audio.iservicesink_requestservice, audmp-routines_c59de1c6-446e-489b-ba96-c2b24f74576a.xml, portcls/IServiceSink::RequestService
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: portcls.h
+req.lib: 
 req.dll: 
 req.irql: DISPATCH_LEVEL
 topic_type:
@@ -50,16 +50,6 @@ req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 
 
 The <code>RequestService</code> method is called to forward a service request to an <b>IServiceSink</b> object.
-
-
-## -syntax
-
-
-````
-VOID RequestService(
-    None
-);
-````
 
 
 ## -parameters

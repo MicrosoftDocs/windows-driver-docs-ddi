@@ -52,16 +52,6 @@ req.typenames: EXpsFontRestriction
 The <b>FltLoadFilter</b> routine dynamically loads a minifilter driver into the currently running system. 
 
 
-## -syntax
-
-
-````
-NTSTATUS FltLoadFilter(
-  _In_ PCUNICODE_STRING FilterName
-);
-````
-
-
 ## -parameters
 
 
@@ -69,7 +59,7 @@ NTSTATUS FltLoadFilter(
 
 ### -param FilterName [in]
 
-Pointer to a <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure containing the service name for the minifilter driver. 
+Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> structure containing the service name for the minifilter driver. 
 
 
 ## -returns
@@ -139,21 +129,21 @@ No matching minifilter driver was found. This is an error code.
 
 A minifilter driver that has a dependency on another minifilter driver can load that minifilter driver by calling <b>FltLoadFilter</b>. 
 
-To unload the supporting minifilter driver, call <a href="..\fltkernel\nf-fltkernel-fltunloadfilter.md">FltUnloadFilter</a>. 
+To unload the supporting minifilter driver, call <a href="https://msdn.microsoft.com/library/windows/hardware/ff544602">FltUnloadFilter</a>. 
 
 
 
 
 ## -see-also
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltunloadfilter.md">FltUnloadFilter</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544602">FltUnloadFilter</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a>
  
 
  

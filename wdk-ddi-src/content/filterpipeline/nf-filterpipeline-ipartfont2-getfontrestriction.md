@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: filterpipeline.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -52,16 +52,6 @@ req.typenames: EXpsFontRestriction
 
 
 
-## -syntax
-
-
-````
-HRESULT GetFontRestriction(
-  [out] EXpsFontRestriction *pRestriction
-);
-````
-
-
 ## -parameters
 
 
@@ -81,10 +71,10 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="..\filterpipeline\nn-filterpipeline-ipartfont2.md">IPartFont2</a>
 
 
 
+<a href="https://msdn.microsoft.com/AB1EFF6E-4FF5-413E-A4E4-3EEC47CDEBD4">IPartFont2</a>
  
 
  

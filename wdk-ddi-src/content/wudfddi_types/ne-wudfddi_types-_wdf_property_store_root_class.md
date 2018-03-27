@@ -26,7 +26,7 @@ req.max-support: Unavailable in UMDF 2.0 and later.
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -53,19 +53,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>WDF_PROPERTY_STORE_ROOT_CLASS</b> enumeration identifies the registry keys that UMDF property stores represent.
-
-
-## -syntax
-
-
-````
-typedef enum _WDF_PROPERTY_STORE_ROOT_CLASS { 
-  WdfPropertyStoreRootClassHardwareKey         = 0x00,
-  WdfPropertyStoreRootClassSoftwareKey         = 0x01,
-  WdfPropertyStoreRootClassDeviceInterfaceKey  = 0x02,
-  WdfPropertyStoreRootClassLegacyHardwareKey   = 0x03
-} WDF_PROPERTY_STORE_ROOT_CLASS;
-````
 
 
 ## -enum-fields
@@ -97,17 +84,17 @@ The property store represents the <a href="https://docs.microsoft.com/en-us/wind
 
 
 
-The <b>WDF_PROPERTY_STORE_ROOT_CLASS</b> enumeration is used in the <a href="..\wudfddi_types\ns-wudfddi_types-_wdf_property_store_root.md">WDF_PROPERTY_STORE_ROOT</a> structure.
+The <b>WDF_PROPERTY_STORE_ROOT_CLASS</b> enumeration is used in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff561453">WDF_PROPERTY_STORE_ROOT</a> structure.
 
 
 
 
 ## -see-also
 
-<a href="..\wudfddi_types\ns-wudfddi_types-_wdf_property_store_root.md">WDF_PROPERTY_STORE_ROOT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561453">WDF_PROPERTY_STORE_ROOT</a>
  
 
  

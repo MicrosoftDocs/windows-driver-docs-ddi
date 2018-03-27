@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -50,18 +50,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>GetOffsetByLineWide</b>  method returns the location of the instruction that corresponds to a specified line in the source code.
-
-
-## -syntax
-
-
-````
-HRESULT GetOffsetByLineWide(
-  [in]  ULONG    Line,
-  [in]  PCWSTR   File,
-  [out] PULONG64 Offset
-);
-````
 
 
 ## -parameters
@@ -125,7 +113,6 @@ For more information about source files, see <a href="https://msdn.microsoft.com
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
 
 
@@ -133,6 +120,7 @@ For more information about source files, see <a href="https://msdn.microsoft.com
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550870">IDebugSymbols3</a>
  
 
  

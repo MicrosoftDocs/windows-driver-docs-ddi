@@ -52,16 +52,6 @@ req.typenames: DSM_QueryLBPolicy_V2, *PDSM_QueryLBPolicy_V2
 The DSM_QueryLBPolicy_V2 structure is used to query a LUN's current load balance policy. It is basically the same as the DSM_QueryLBPolicy structure except that it returns the load balance information by using the DSM_Load_Balance_Policy_V2 structure.
 
 
-## -syntax
-
-
-````
-typedef struct _DSM_QueryLBPolicy_V2 {
-  DSM_Load_Balance_Policy_V2 LoadBalancePolicy;
-} DSM_QueryLBPolicy_V2, *PDSM_QueryLBPolicy_V2;
-````
-
-
 ## -struct-fields
 
 

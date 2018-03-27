@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: ndis.h
+req.lib: 
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
@@ -51,17 +51,6 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 
 <b>NdisMCmDispatchIncomingCallQoSChange</b> notifies a client that a request to change the quality of
   service on that client's active connection has been received over the network.
-
-
-## -syntax
-
-
-````
-VOID NdisMCmDispatchIncomingCallQoSChange(
-  [in] NDIS_HANDLE         NdisVcHandle,
-  [in] PCO_CALL_PARAMETERS CallParameters
-);
-````
 
 
 ## -parameters
@@ -94,9 +83,9 @@ Pointer to a structure of type
 
 Specifies the handle to the VC for which the change in QoS is being requested. The MCM driver
      obtained this handle either when it called 
-     <a href="..\ndis\nf-ndis-ndismcmcreatevc.md">NdisMCmCreateVc</a> to set up this connection
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff562812">NdisMCmCreateVc</a> to set up this connection
      for an incoming call or as an input parameter to its 
-     <a href="..\ndis\nc-ndis-protocol_co_create_vc.md">ProtocolCoCreateVc</a> function.
+     <a href="https://msdn.microsoft.com/b086dd24-74f5-474a-8684-09bf92ac731b">ProtocolCoCreateVc</a> function.
 
 
 ## -remarks
@@ -109,7 +98,7 @@ An MCM driver calls
     is a feature like QoS itself that depends on the signaling protocol.
 
 The MCM driver should call 
-    <a href="..\ndis\nf-ndis-ndismcmactivatevc.md">NdisMCmActivateVc</a> whenever it makes
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff562792">NdisMCmActivateVc</a> whenever it makes
     changes in the call parameters for an active VC.
 
 A call to 
@@ -129,33 +118,6 @@ Only connection-oriented miniport drivers that provide integrated call-managemen
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisclmodifycallqos.md">NdisClModifyCallQoS</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismcmcreatevc.md">NdisMCmCreateVc</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_cl_incoming_call_qos_change.md">
-   ProtocolClIncomingCallQosChange</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndiscmdispatchincomingcallqoschange.md">
-   NdisCmDispatchIncomingCallQoSChange</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismcmactivatevc.md">NdisMCmActivateVc</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_co_create_vc.md">ProtocolCoCreateVc</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisclclosecall.md">NdisClCloseCall</a>
 
 
 
@@ -163,6 +125,33 @@ Only connection-oriented miniport drivers that provide integrated call-managemen
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561627">NdisClCloseCall</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561636">NdisClModifyCallQoS</a>
+
+
+
+<a href="https://msdn.microsoft.com/eee2625e-6dc8-4f54-81e9-2d31d25f62d7">
+   NdisCmDispatchIncomingCallQoSChange</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562792">NdisMCmActivateVc</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562812">NdisMCmCreateVc</a>
+
+
+
+<a href="https://msdn.microsoft.com/ca9953f4-35db-4acb-b0ea-887156b4f6ee">
+   ProtocolClIncomingCallQosChange</a>
+
+
+
+<a href="https://msdn.microsoft.com/b086dd24-74f5-474a-8684-09bf92ac731b">ProtocolCoCreateVc</a>
  
 
  

@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
@@ -51,17 +51,6 @@ req.product: Windows 10 or later.
 
 
 <b>RxCeBuildVC</b> adds a virtual circuit to a specified RDBSS connection..
-
-
-## -syntax
-
-
-````
-NTSTATUS RxCeBuildVC(
-  _Inout_ PRXCE_VC         pVc,
-  _In_    PRXCE_CONNECTION pConnection
-);
-````
 
 
 ## -parameters
@@ -136,10 +125,10 @@ When <b>RxCeBuildVC</b> is successful, the data members in the RXCE_VC structure
 
 ## -see-also
 
-<a href="..\rxce\nf-rxce-rxceteardownvc.md">RxCeTearDownVC</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554332">RxCeTearDownVC</a>
  
 
  

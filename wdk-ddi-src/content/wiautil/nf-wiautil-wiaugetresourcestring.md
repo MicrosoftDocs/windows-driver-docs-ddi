@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,18 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>wiauGetResourceString</b> function gets a resource string, storing it as a <b>BSTR</b>.
-
-
-## -syntax
-
-
-````
-HRESULT _stdcall wiauGetResourceString(
-        HINSTANCE hInst,
-        LONG      lResourceID,
-  _Out_ BSTR      *pbstrStr
-);
-````
 
 
 ## -parameters

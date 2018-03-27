@@ -52,16 +52,6 @@ req.typenames: RemovePersistentLogin_OUT, *PRemovePersistentLogin_OUT
 The RemovePersistentLogin_OUT structure holds the output data for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563995">RemovePersistentLogin</a> method.
 
 
-## -syntax
-
-
-````
-typedef struct _RemovePersistentLogin_OUT {
-  ULONG Status;
-} RemovePersistentLogin_OUT, *PRemovePersistentLogin_OUT;
-````
-
-
 ## -struct-fields
 
 
@@ -83,11 +73,6 @@ You must implement this method.
 
 ## -see-also
 
-<a href="..\iscsiop\ns-iscsiop-_removepersistentlogin_in.md">RemovePersistentLogin_IN</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563995">RemovePersistentLogin</a>
 
 
 
@@ -95,6 +80,11 @@ You must implement this method.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563995">RemovePersistentLogin</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564003">RemovePersistentLogin_IN</a>
  
 
  

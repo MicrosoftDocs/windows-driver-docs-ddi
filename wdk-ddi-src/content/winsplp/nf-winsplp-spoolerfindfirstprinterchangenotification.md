@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,23 +51,6 @@ req.product: Windows 10 or later.
 
 
 
-
-
-## -syntax
-
-
-````
-BOOL WINAPI SpoolerFindFirstPrinterChangeNotification(
-  _In_      HANDLE                   hPrinter,
-            DWORD                    fdwFilterFlags,
-            DWORD                    fdwOptions,
-  _In_      PVOID                    pPrinterNotifyOptions,
-  _In_opt_  PVOID                    pvReserved,
-  _In_      PVOID                    pNotificationConfig,
-  _Out_opt_ PHANDLE                  phNotify,
-  _Out_opt_ PHANDLE                  phEvent
-);
-````
 
 
 ## -parameters

@@ -54,18 +54,6 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
   manager previously returned NDIS_STATUS_PENDING, to modify the quality of service on a VC.
 
 
-## -syntax
-
-
-````
-VOID NdisCmModifyCallQoSComplete(
-  _In_ NDIS_STATUS         Status,
-  _In_ NDIS_HANDLE         NdisVcHandle,
-  _In_ PCO_CALL_PARAMETERS CallParameters
-);
-````
-
-
 ## -parameters
 
 
@@ -82,7 +70,7 @@ Specifies the final status of the client's request to modify the QoS on this VC,
 
 Specifies the handle to the VC, obtained from the 
      <i>CallMgrVcContext</i> passed in to the CM's 
-     <a href="..\ndis\nc-ndis-protocol_cm_modify_qos_call.md">
+     <a href="https://msdn.microsoft.com/24523677-9f5a-4109-8484-95883a4d1bbf">
      ProtocolCmModifyCallQoS</a> function for this request.
 
 
@@ -109,11 +97,11 @@ None
 
 A call to 
     <b>NdisCmModifyCallQoSComplete</b> causes NDIS to call the client's 
-    <a href="..\ndis\nc-ndis-protocol_cl_modify_call_qos_complete.md">
+    <a href="https://msdn.microsoft.com/0d925862-49af-4579-b877-c9a033e73be0">
     ProtocolClModifyCallQoSComplete</a> function.
 
 Because the CM can modify the client-supplied call parameters that were input to its 
-    <a href="..\ndis\nc-ndis-protocol_cm_modify_qos_call.md">
+    <a href="https://msdn.microsoft.com/24523677-9f5a-4109-8484-95883a4d1bbf">
     ProtocolCmModifyCallQoS</a> function before it calls 
     <b>NdisCmModifyCallQoSComplete</b>, the client's 
     <i>ProtocolClModifyCallQoSComplete</i> function examines the QoS to determine whether it is acceptable to
@@ -131,20 +119,6 @@ Only stand-alone call managers, which register themselves with NDIS as protocol 
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisclmodifycallqos.md">NdisClModifyCallQoS</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismcmmodifycallqoscomplete.md">NdisMCmModifyCallQosComplete</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_cm_modify_qos_call.md">ProtocolCmModifyCallQoS</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_cl_modify_call_qos_complete.md">
-   ProtocolClModifyCallQoSComplete</a>
 
 
 
@@ -152,6 +126,20 @@ Only stand-alone call managers, which register themselves with NDIS as protocol 
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561636">NdisClModifyCallQoS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563545">NdisMCmModifyCallQosComplete</a>
+
+
+
+<a href="https://msdn.microsoft.com/0d925862-49af-4579-b877-c9a033e73be0">
+   ProtocolClModifyCallQoSComplete</a>
+
+
+
+<a href="https://msdn.microsoft.com/24523677-9f5a-4109-8484-95883a4d1bbf">ProtocolCmModifyCallQoS</a>
  
 
  

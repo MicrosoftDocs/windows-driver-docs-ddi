@@ -52,21 +52,6 @@ req.typenames: D3DHAL_GLOBALDRIVERDATA
 The D3DHAL_GLOBALDRIVERDATA structure specifies the 3D capabilities of the driver and its device.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DHAL_GLOBALDRIVERDATA {
-  DWORD            dwSize;
-  D3DDEVICEDESC_V1 hwCaps;
-  DWORD            dwNumVertices;
-  DWORD            dwNumClipVertices;
-  DWORD            dwNumTextureFormats;
-  LPDDSURFACEDESC  lpTextureFormats;
-} D3DHAL_GLOBALDRIVERDATA, *LPD3DHAL_GLOBALDRIVERDATA;
-````
-
-
 ## -struct-fields
 
 
@@ -79,7 +64,7 @@ Specifies the size in bytes of this D3DHAL_GLOBALDRIVERDATA structure.
 
 ### -field hwCaps
 
-Specifies a <a href="..\d3dhal\ns-d3dhal-_d3ddevicedesc_v1.md">D3DDEVICEDESC_V1</a> structure where the driver should return its hardware capabilities.
+Specifies a <a href="https://msdn.microsoft.com/library/windows/hardware/ff544689">D3DDEVICEDESC_V1</a> structure where the driver should return its hardware capabilities.
 
 
 ### -field dwNumVertices
@@ -113,15 +98,14 @@ The driver is responsible for allocating space for and setting all members of th
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544689">D3DDEVICEDESC_V1</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550339">DDSURFACEDESC</a>
-
-
-
-<a href="..\d3dhal\ns-d3dhal-_d3ddevicedesc_v1.md">D3DDEVICEDESC_V1</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556229">DrvGetDirectDrawInfo</a>
 
 
 
@@ -129,6 +113,7 @@ The driver is responsible for allocating space for and setting all members of th
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556229">DrvGetDirectDrawInfo</a>
  
 
  

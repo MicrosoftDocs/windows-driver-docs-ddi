@@ -52,40 +52,6 @@ req.typenames: NDIS_MINIPORT_WDI_DATA_HANDLERS, *PNDIS_MINIPORT_WDI_DATA_HANDLER
 The NDIS_MINIPORT_WDI_DATA_HANDLERS structure specifies the entry points for the IHV miniport datapath handlers.
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_MINIPORT_WDI_DATA_HANDLERS {
-  NDIS_OBJECT_HEADER                                Header;
-  MINIPORT_WDI_TX_ABORT_HANDLER                     TxAbortHandler;
-  MINIPORT_WDI_TX_TARGET_DESC_INIT_HANDLER          TxTargetDescInitHandler;
-  MINIPORT_WDI_TX_TARGET_DESC_DEINIT_HANDLER        TxTargetDescDeInitHandler;
-  MINIPORT_WDI_TX_DATA_SEND_HANDLER                 TxDataSendHandler;
-  MINIPORT_WDI_TX_TAL_SEND_HANDLER                  TxTalSendHandler;
-  MINIPORT_WDI_TX_TAL_SEND_COMPLETE_HANDLER         TxTalSendCompleteHandler;
-  MINIPORT_WDI_TX_TAL_QUEUE_IN_ORDER_HANDLER        TxTalQueueInOrderHandler;
-  MINIPORT_WDI_TX_PEER_BACKLOG_HANDLER              TxPeerBacklogHandler;
-  MINIPORT_WDI_RX_STOP_HANDLER                      RxStopHandler;
-  MINIPORT_WDI_RX_FLUSH_HANDLER                     RxFlushHandler;
-  MINIPORT_WDI_RX_RESTART_HANDLER                   RxRestartHandler;
-  MINIPORT_WDI_RX_GET_MPDUS_HANDLER                 RxGetMpdusHandler;
-  MINIPORT_WDI_RX_RETURN_FRAMES_HANDLER             RxReturnFramesHandler;
-  MINIPORT_WDI_RX_RESUME_HANDLER                    RxResumeHandler;
-  MINIPORT_WDI_RX_THROTTLE_HANDLER                  RxThrottleHandler;
-  MINIPORT_WDI_RX_PPDU_RSSI_HANDLER                 RxPpduRssiHandler;
-  MINIPORT_WDI_TAL_TXRX_START_HANDLER               TalTxRxStartHandler;
-  MINIPORT_WDI_TAL_TXRX_STOP_HANDLER                TalTxRxStopHandler;
-  MINIPORT_WDI_TAL_TXRX_ADD_PORT_HANDLER            TalTxRxAddPortHandler;
-  MINIPORT_WDI_TAL_TXRX_DELETE_PORT_HANDLER         TalTxRxDeletePortHandler;
-  MINIPORT_WDI_TAL_TXRX_SET_PORT_OPMODE_HANDLER     TalTxRxSetPortOpModeHandler;
-  MINIPORT_WDI_TAL_TXRX_RESET_PORT_HANDLER          TalTxRxResetPortHandler;
-  MINIPORT_WDI_TAL_TXRX_PEER_CONFIG_HANDLER         TalTxRxPeerConfigHandler;
-  MINIPORT_WDI_TAL_TXRX_PEER_DELETE_CONFIRM_HANDLER TalTxRxPeerDeleteConfirmHandler;
-} NDIS_MINIPORT_WDI_DATA_HANDLERS, *PNDIS_MINIPORT_WDI_DATA_HANDLERS;
-````
-
-
 ## -struct-fields
 
 
@@ -94,7 +60,7 @@ typedef struct _NDIS_MINIPORT_WDI_DATA_HANDLERS {
 ### -field Header
 
 The 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure for the
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure for the
      NDIS_MINIPORT_WDI_DATA_HANDLERS structure. Set the 
      <b>Type</b> member of the structure that 
      <b>Header</b> specifies to NDIS_OBJECT_TYPE_MINIPORT_WDI_DATA_HANDLERS.
@@ -115,122 +81,122 @@ Set the
 
 ### -field TxAbortHandler
 
-The entry point of the <a href="..\dot11wdi\nc-dot11wdi-miniport_wdi_tx_abort.md">MiniportWdiTxAbort</a> handler function.
+The entry point of the <a href="https://msdn.microsoft.com/FA6BEAE9-5D48-463E-A398-518737D78867">MiniportWdiTxAbort</a> handler function.
 
 
 ### -field TxTargetDescInitHandler
 
-The entry point of the <a href="..\dot11wdi\nc-dot11wdi-miniport_wdi_tx_target_desc_init.md">MiniportWdiTxTargetDescInit</a> handler function.
+The entry point of the <a href="https://msdn.microsoft.com/EAFE6F7D-6820-4626-863D-C28FBFFCE6A0">MiniportWdiTxTargetDescInit</a> handler function.
 
 
 ### -field TxTargetDescDeInitHandler
 
-The entry point of the <a href="..\dot11wdi\nc-dot11wdi-miniport_wdi_tx_target_desc_deinit.md">MiniportWdiTxTargetDescDeInit</a> handler function.
+The entry point of the <a href="https://msdn.microsoft.com/C7C6C175-5E9D-4C6B-8A6B-F903DDE4DC78">MiniportWdiTxTargetDescDeInit</a> handler function.
 
 
 ### -field TxDataSendHandler
 
-The entry point of the <a href="..\dot11wdi\nc-dot11wdi-miniport_wdi_tx_data_send.md">MiniportWdiTxDataSend</a> handler function.
+The entry point of the <a href="https://msdn.microsoft.com/A9EB1E8C-BD10-450F-9F4B-CD19C8AF13EA">MiniportWdiTxDataSend</a> handler function.
 
 
 ### -field TxTalSendHandler
 
-The entry point of the <a href="..\dot11wdi\nc-dot11wdi-miniport_wdi_tx_tal_send.md">MiniportWdiTxTalSend</a> handler function.
+The entry point of the <a href="https://msdn.microsoft.com/42489ADA-78BF-4EBF-A6EC-5484F82C46ED">MiniportWdiTxTalSend</a> handler function.
 
 
 ### -field TxTalSendCompleteHandler
 
-The entry point of the <a href="..\dot11wdi\nc-dot11wdi-miniport_wdi_tx_tal_send_complete.md">MiniportWdiTxTalSendComplete</a> handler function.
+The entry point of the <a href="https://msdn.microsoft.com/347B069F-76B6-42D5-9613-7D0214C2FEDB">MiniportWdiTxTalSendComplete</a> handler function.
 
 
 ### -field TxTalQueueInOrderHandler
 
-The entry point of the <a href="..\dot11wdi\nc-dot11wdi-miniport_wdi_tx_tal_queue_in_order.md">MiniportWdiTxTalQueueInOrder</a> handler function.
+The entry point of the <a href="https://msdn.microsoft.com/E82E19EA-4336-49DE-9CE4-DFBA0A347DFE">MiniportWdiTxTalQueueInOrder</a> handler function.
 
 
 ### -field TxPeerBacklogHandler
 
-The entry point of the <a href="..\dot11wdi\nc-dot11wdi-miniport_wdi_tx_peer_backlog.md">MiniportWdiTxPeerBacklog</a> handler function.
+The entry point of the <a href="https://msdn.microsoft.com/49DC9034-9A50-4B0F-B7F7-A06147D1046F">MiniportWdiTxPeerBacklog</a> handler function.
 
 
 ### -field RxStopHandler
 
-The entry point of the <a href="..\dot11wdi\nc-dot11wdi-miniport_wdi_rx_stop.md">MiniportWdiRxStop</a> handler function.
+The entry point of the <a href="https://msdn.microsoft.com/AAFECA64-07D7-43E6-ABFB-C0C85A9C03CD">MiniportWdiRxStop</a> handler function.
 
 
 ### -field RxFlushHandler
 
-The entry point of the <a href="..\dot11wdi\nc-dot11wdi-miniport_wdi_rx_flush.md">MiniportWdiRxFlush</a> handler function.
+The entry point of the <a href="https://msdn.microsoft.com/76945A84-A6DB-4753-B04E-32249359B8C6">MiniportWdiRxFlush</a> handler function.
 
 
 ### -field RxRestartHandler
 
-The entry point of the <a href="..\dot11wdi\nc-dot11wdi-miniport_wdi_rx_restart.md">MiniportWdiRxRestart</a> handler function.
+The entry point of the <a href="https://msdn.microsoft.com/465716C7-A157-4B06-BAE2-F18A08126040">MiniportWdiRxRestart</a> handler function.
 
 
 ### -field RxGetMpdusHandler
 
-The entry point of the <a href="..\dot11wdi\nc-dot11wdi-miniport_wdi_rx_get_mpdus.md">MiniportWdiRxGetMpdus</a> handler function.
+The entry point of the <a href="https://msdn.microsoft.com/195F4143-4889-4788-BAF5-2F1ED6E4E50A">MiniportWdiRxGetMpdus</a> handler function.
 
 
 ### -field RxReturnFramesHandler
 
-The entry point of the <a href="..\dot11wdi\nc-dot11wdi-miniport_wdi_rx_return_frames.md">MiniportWdiRxReturnFrames</a> handler function.
+The entry point of the <a href="https://msdn.microsoft.com/BF2DB7C6-97F9-454B-8DED-E8CC21A4F07F">MiniportWdiRxReturnFrames</a> handler function.
 
 
 ### -field RxResumeHandler
 
-The entry point of the <a href="..\dot11wdi\nc-dot11wdi-miniport_wdi_rx_resume.md">MiniportWdiRxResume</a> handler function.
+The entry point of the <a href="https://msdn.microsoft.com/483C59C3-8F9C-48A5-B5E4-34A60BAE1B1A">MiniportWdiRxResume</a> handler function.
 
 
 ### -field RxThrottleHandler
 
-The entry point of the <a href="..\dot11wdi\nc-dot11wdi-miniport_wdi_rx_throttle.md">MiniportWdiRxThrottle</a> handler function.
+The entry point of the <a href="https://msdn.microsoft.com/A5985C6D-3768-4ACE-B52B-3D3494334114">MiniportWdiRxThrottle</a> handler function.
 
 
 ### -field RxPpduRssiHandler
 
-The entry point of the <a href="..\dot11wdi\nc-dot11wdi-miniport_wdi_rx_ppdu_rssi.md">MiniportWdiRxPpduRssi</a> handler function.
+The entry point of the <a href="https://msdn.microsoft.com/34C34C42-E5E1-44F6-AC81-ADC77206DED0">MiniportWdiRxPpduRssi</a> handler function.
 
 
 ### -field TalTxRxStartHandler
 
-The entry point of the <a href="..\dot11wdi\nc-dot11wdi-miniport_wdi_tal_txrx_start.md">MiniportWdiTalTxRxStart</a> handler function.
+The entry point of the <a href="https://msdn.microsoft.com/6F88F4B1-8D2A-41CC-8D60-C1CF91ED072A">MiniportWdiTalTxRxStart</a> handler function.
 
 
 ### -field TalTxRxStopHandler
 
-The entry point of the <a href="..\dot11wdi\nc-dot11wdi-miniport_wdi_tal_txrx_stop.md">MiniportWdiTalTxRxStop</a> handler function.
+The entry point of the <a href="https://msdn.microsoft.com/21841DC6-B95F-4372-BBD1-EA195832A118">MiniportWdiTalTxRxStop</a> handler function.
 
 
 ### -field TalTxRxAddPortHandler
 
-The entry point of the <a href="..\dot11wdi\nc-dot11wdi-miniport_wdi_tal_txrx_add_port.md">MiniportWdiTalTxRxAddPort</a> handler function.
+The entry point of the <a href="https://msdn.microsoft.com/D3006A0B-B0E0-4FEA-864A-FA4B75594FB0">MiniportWdiTalTxRxAddPort</a> handler function.
 
 
 ### -field TalTxRxDeletePortHandler
 
-The entry point of the <a href="..\dot11wdi\nc-dot11wdi-miniport_wdi_tal_txrx_delete_port.md">MiniportWdiTalTxRxDeletePort</a> handler function.
+The entry point of the <a href="https://msdn.microsoft.com/3DB6AC6F-2A6F-43E1-B98D-B4E5C8A87845">MiniportWdiTalTxRxDeletePort</a> handler function.
 
 
 ### -field TalTxRxSetPortOpModeHandler
 
-The entry point of the <a href="..\dot11wdi\nc-dot11wdi-miniport_wdi_tal_txrx_set_port_opmode.md">MiniportWdiTalTxRxSetPortOpMode</a> handler function.
+The entry point of the <a href="https://msdn.microsoft.com/86F3005E-8BB3-4309-AFDE-7FA6E0427BFD">MiniportWdiTalTxRxSetPortOpMode</a> handler function.
 
 
 ### -field TalTxRxResetPortHandler
 
-The entry point of the <a href="..\dot11wdi\nc-dot11wdi-miniport_wdi_tal_txrx_reset_port.md">MiniportWdiTalTxRxResetPort</a> handler function.
+The entry point of the <a href="https://msdn.microsoft.com/BB584FC9-8048-42F4-AFA9-7BF6790EDD69">MiniportWdiTalTxRxResetPort</a> handler function.
 
 
 ### -field TalTxRxPeerConfigHandler
 
-The entry point of the <a href="..\dot11wdi\nc-dot11wdi-miniport_wdi_tal_txrx_peer_config.md">MiniportWdiTalTxRxPeerConfig</a> handler function.
+The entry point of the <a href="https://msdn.microsoft.com/48BB554D-A19E-46C0-8278-690A686A731D">MiniportWdiTalTxRxPeerConfig</a> handler function.
 
 
 ### -field TalTxRxPeerDeleteConfirmHandler
 
-The entry point of the <a href="..\dot11wdi\nc-dot11wdi-miniport_wdi_tal_txrx_peer_delete_confirm.md">MiniportWdiTalTxRxPeerDeleteConfirm</a> handler function.
+The entry point of the <a href="https://msdn.microsoft.com/993C600F-E2FA-46D7-AE66-77048B481660">MiniportWdiTalTxRxPeerDeleteConfirm</a> handler function.
 
 
 ### -field TxSuspectFrameAbortHandler

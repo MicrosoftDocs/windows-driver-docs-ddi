@@ -53,19 +53,6 @@ The SCO_RETRANSMISSION_EFFORT enumeration type is used to determine the retransm
   SCO channel.
 
 
-## -syntax
-
-
-````
-typedef enum _SCO_RETRANSMISSION_EFFORT { 
-  SCO_RETRANSMISSION_NONE          = 0x00,
-  SCO_RETRANSMISSION_MIN1_POWER    = 0x01,
-  SCO_RETRANSMISSION_MIN1_QUALITY  = 0x02,
-  SCO_RETRANSMISSION_DONT_CARE     = 0xFF
-} SCO_RETRANSMISSION_EFFORT, *PSCO_RETRANSMISSION_EFFORT;
-````
-
-
 ## -enum-fields
 
 

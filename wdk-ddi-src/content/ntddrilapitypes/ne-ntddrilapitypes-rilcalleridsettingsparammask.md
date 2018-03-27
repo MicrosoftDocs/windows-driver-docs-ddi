@@ -52,18 +52,6 @@ req.typenames: RILCALLERIDSETTINGSPARAMMASK
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef enum _RILCALLERIDSETTINGSPARAMMASK { 
-  RIL_PARAM_CIDS_PROVISIONING,
-  RIL_PARAM_CIDS_STATUS,
-  RIL_PARAM_CIDS_ALL
-} RILCALLERIDSETTINGSPARAMMASK;
-````
-
-
 ## -enum-fields
 
 

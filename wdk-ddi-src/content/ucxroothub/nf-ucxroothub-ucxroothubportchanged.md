@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
@@ -54,16 +54,6 @@ Notifies UCX about a new port change event on the host controller.
 
 
 
-## -syntax
-
-
-````
-void UcxRootHubPortChanged(
-  [in] UCXROOTHUB UcxRootHub
-);
-````
-
-
 ## -parameters
 
 
@@ -87,17 +77,17 @@ This method does not return a value.
 
 
 
-This method causes interrupt transfers to be sent to the host controller. UCX invokes the client driver's implementation of the <a href="..\ucxroothub\nc-ucxroothub-evt_ucx_roothub_interrupt_tx.md">EVT_UCX_ROOTHUB_INTERRUPT_TX</a> event callback.
+This method causes interrupt transfers to be sent to the host controller. UCX invokes the client driver's implementation of the <a href="https://msdn.microsoft.com/library/windows/hardware/mt187837">EVT_UCX_ROOTHUB_INTERRUPT_TX</a> event callback.
 
 
 
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt188048">UcxRootHubCreate</a>
-
-
-
  
 
  

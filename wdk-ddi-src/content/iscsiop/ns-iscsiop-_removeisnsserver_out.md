@@ -52,16 +52,6 @@ req.typenames: RemoveiSNSServer_OUT, *PRemoveiSNSServer_OUT
 The RemoveiSNSServer_OUT structure holds the output data for the user-mode <b>RemoveISNSServer</b> method.
 
 
-## -syntax
-
-
-````
-typedef struct _RemoveiSNSServer_OUT {
-  ULONG Status;
-} RemoveiSNSServer_OUT, *PRemoveiSNSServer_OUT;
-````
-
-
 ## -struct-fields
 
 
@@ -83,7 +73,6 @@ It is optional that you implement this method.
 
 ## -see-also
 
-<a href="..\iscsiop\ns-iscsiop-_removeisnsserver_in.md">RemoveiSNSServer_IN</a>
 
 
 
@@ -91,6 +80,7 @@ It is optional that you implement this method.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563981">RemoveiSNSServer_IN</a>
  
 
  

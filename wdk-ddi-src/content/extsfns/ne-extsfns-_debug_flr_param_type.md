@@ -54,20 +54,6 @@ The values of <b>DEBUG_FLR_PARAM_TYPE</b> enumeration are tags that indicate the
 The <b>DEBUG_FLR_PARAM_TYPE</b> enumeration is also called the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/writing-an-analysis-extension-to-extend--analyze">FA_TAG</a> enumeration.
 
 
-## -syntax
-
-
-````
-typedef enum _DEBUG_FLR_PARAM_TYPE { 
-  DEBUG_FLR_INVALID        = 0,
-  DEBUG_FLR_RESERVED,
-  DEBUG_FLR_DRIVER_OBJECT,
-  ...,
-  DEBUG_FLR_MASK_ALL       = 0xFFFFFFFF
-} DEBUG_FLR_PARAM_TYPE;
-````
-
-
 ## -enum-fields
 
 
@@ -2281,11 +2267,10 @@ For more information about tags, see <a href="https://msdn.microsoft.com/7648F78
 
 ## -see-also
 
+
+
+
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/writing-an-analysis-extension-to-extend--analyze">FA_TAG enumeration</a>
-
-
-
-<a href="https://msdn.microsoft.com/7648F789-85D5-4247-90DD-2EAA43543483">Writing an Analysis Extension Plug-in to Extend !analyze</a>
 
 
 
@@ -2293,10 +2278,11 @@ For more information about tags, see <a href="https://msdn.microsoft.com/7648F78
 
 
 
-<a href="..\extsfns\nn-extsfns-idebugfailureanalysis2.md">IDebugFailureAnalysis2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj983405">IDebugFailureAnalysis2</a>
 
 
 
+<a href="https://msdn.microsoft.com/7648F789-85D5-4247-90DD-2EAA43543483">Writing an Analysis Extension Plug-in to Extend !analyze</a>
  
 
  

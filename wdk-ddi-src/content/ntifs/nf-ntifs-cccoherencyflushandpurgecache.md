@@ -52,20 +52,6 @@ req.typenames: TOKEN_TYPE
 The <b>CcCoherencyFlushAndPurgeCache</b> routine flushes and/or purges the cache to ensure cache coherency. Use <b>CcCoherencyFlushAndPurgeCache</b> when possible instead of an explicit flush and purge call sequence as it will invalidate user mapped views to prevent data corruption.
 
 
-## -syntax
-
-
-````
-VOID CcCoherencyFlushAndPurgeCache(
-  _In_     PSECTION_OBJECT_POINTERS SectionObjectPointer,
-  _In_opt_ PLARGE_INTEGER           FileOffset,
-  _In_     ULONG                    Length,
-  _Out_    PIO_STATUS_BLOCK         IoStatus,
-  _In_opt_ ULONG                    Flags
-);
-````
-
-
 ## -parameters
 
 
@@ -140,14 +126,14 @@ An <i>IoStatus</i>-&gt;<i>Status </i>value of STATUS_CACHE_PAGE_LOCKED indicates
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-ccpurgecachesection.md">CcPurgeCacheSection</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-ccflushcache.md">CcFlushCache</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539082">CcFlushCache</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539188">CcPurgeCacheSection</a>
  
 
  

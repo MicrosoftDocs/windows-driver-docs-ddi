@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: "_IRQL_requires_max_(APC_LEVEL)"
 topic_type:
@@ -49,24 +49,12 @@ req.typenames: EXpsFontRestriction
 ## -description
 
 
-This routine removes an <a href="..\ntifs\ns-ntifs-_open_reparse_list_entry.md">OPEN_REPARSE_LIST_ENTRY</a> structure (added by <a href="..\fltkernel\nf-fltkernel-fltaddopenreparseentry.md">FltAddOpenReparseEntry</a>) from a create operation.
+This routine removes an <a href="https://msdn.microsoft.com/A6D28F60-FA38-45EA-9E3C-D2E6F899333E">OPEN_REPARSE_LIST_ENTRY</a> structure (added by <a href="https://msdn.microsoft.com/library/windows/hardware/mt734255">FltAddOpenReparseEntry</a>) from a create operation.
 
 
-<div class="alert"><b>Important</b>  <i>OpenReparseEntry</i> must be an entry added by <a href="..\fltkernel\nf-fltkernel-fltaddopenreparseentry.md">FltAddOpenReparseEntry</a>. All other entries are not valid.</div>
+<div class="alert"><b>Important</b>  <i>OpenReparseEntry</i> must be an entry added by <a href="https://msdn.microsoft.com/library/windows/hardware/mt734255">FltAddOpenReparseEntry</a>. All other entries are not valid.</div>
 <div> </div>
 
-
-
-## -syntax
-
-
-````
-void FltAddOpenReparseEntry(
-  _In_ PFLT_FILTER              Filter,
-  _In_ PFLT_CALLBACK_DATA       Data,
-  _In_ POPEN_REPARSE_LIST_ENTRY OpenReparseEntry
-);
-````
 
 
 ## -parameters
@@ -87,7 +75,7 @@ The create operation to remove open reparse information
 
 ### -param OpenReparseEntry [in]
 
-The open reparse information to remove, of type <a href="..\ntifs\ns-ntifs-_open_reparse_list_entry.md">OPEN_REPARSE_LIST_ENTRY</a>.
+The open reparse information to remove, of type <a href="https://msdn.microsoft.com/A6D28F60-FA38-45EA-9E3C-D2E6F899333E">OPEN_REPARSE_LIST_ENTRY</a>.
 
 
 ## -returns

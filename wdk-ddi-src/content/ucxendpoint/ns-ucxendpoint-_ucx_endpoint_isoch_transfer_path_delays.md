@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 Stores the isochronous transfer path delay values. 
 
 
-## -syntax
-
-
-````
-typedef struct _UCX_ENDPOINT_ISOCH_TRANSFER_PATH_DELAYS {
-  ULONG MaximumSendPathDelayInMilliSeconds;
-  ULONG MaximumCompletionPathDelayInMilliSeconds;
-} UCX_ENDPOINT_ISOCH_TRANSFER_PATH_DELAYS, *PUCX_ENDPOINT_ISOCH_TRANSFER_PATH_DELAYS;
-````
-
-
 ## -struct-fields
 
 
@@ -82,10 +71,10 @@ The maximum delay in milliseconds from the time an isochronous transfer is compl
 
 ## -see-also
 
-<a href="..\ucxendpoint\nc-ucxendpoint-evt_ucx_endpoint_get_isoch_transfer_path_delays.md">EVT_UCX_ENDPOINT_GET_ISOCH_TRANSFER_PATH_DELAYS</a>
 
 
 
+<a href="https://msdn.microsoft.com/E400CCAE-8F0F-4814-8B63-EB4E116543A2">EVT_UCX_ENDPOINT_GET_ISOCH_TRANSFER_PATH_DELAYS</a>
  
 
  

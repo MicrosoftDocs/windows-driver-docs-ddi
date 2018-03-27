@@ -52,18 +52,6 @@ req.typenames: D3DHAL_DP2STATESET
 The D3DHAL_DP2STATESET structure is used to inform the driver about stateset operations to perform.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DHAL_DP2STATESET {
-  DWORD             dwOperation;
-  DWORD             dwParam;
-  D3DSTATEBLOCKTYPE sbType;
-} D3DHAL_DP2STATESET, *LPD3DHAL_DP2STATESET;
-````
-
-
 ## -struct-fields
 
 

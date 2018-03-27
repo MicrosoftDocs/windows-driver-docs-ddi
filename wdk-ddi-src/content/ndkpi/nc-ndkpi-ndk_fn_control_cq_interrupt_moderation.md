@@ -54,21 +54,6 @@ The <i>NdkControlCqInterruptModeration</i> (<i>NDK_FN_CONTROL_CQ_INTERRUPT_MODER
 For more information about interrupt moderation, see <a href="https://msdn.microsoft.com/291f9606-6379-4b78-b388-ba663f84b431">Interrupt Moderation</a>.
 
 
-## -prototype
-
-
-````
-NDK_FN_CONTROL_CQ_INTERRUPT_MODERATION NdkControlCqInterruptModeration;
-
-NTSTATUS NdkControlCqInterruptModeration(
-  _In_ NDK_CQ *pNdkCq,
-  _In_ ULONG  ModerationInterval,
-  _In_ ULONG  ModerationCount
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -76,7 +61,7 @@ NTSTATUS NdkControlCqInterruptModeration(
 
 ### -param *pNdkCq [in]
 
-A pointer to an NDK completion queue object (<a href="..\ndkpi\ns-ndkpi-_ndk_cq.md">NDK_CQ</a>).
+A pointer to an NDK completion queue object (<a href="https://msdn.microsoft.com/library/windows/hardware/hh439854">NDK_CQ</a>).
 
 
 
@@ -136,7 +121,7 @@ The operation completed successfully.
 </td>
 <td width="60%">
 The NDK 
-provider does not support CQ interrupt moderation control with <a href="..\ndkpi\nc-ndkpi-ndk_fn_control_cq_interrupt_moderation.md">NDK_FN_CONTROL_CQ_INTERRUPT_MODERATION</a>. A provider that sets the NDK_ADAPTER_FLAG_CQ_INTERRUPT_MODERATION_SUPPORT flag in the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439851">NDK_ADAPTER_INFO</a> structure's <b>AdapterFlags</b> member must not return this status code.
+provider does not support CQ interrupt moderation control with <a href="https://msdn.microsoft.com/library/windows/hardware/jj552973">NDK_FN_CONTROL_CQ_INTERRUPT_MODERATION</a>. A provider that sets the NDK_ADAPTER_FLAG_CQ_INTERRUPT_MODERATION_SUPPORT flag in the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439851">NDK_ADAPTER_INFO</a> structure's <b>AdapterFlags</b> member must not return this status code.
 
 
 </td>
@@ -191,11 +176,6 @@ Providers that indicate support for interrupt moderation with the NDK_ADAPTER_FL
 
 ## -see-also
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_cq.md">NDK_CQ</a>
-
-
-
-<a href="..\ndkpi\ns-ndkpi-_ndk_cq_dispatch.md">NDK_CQ_DISPATCH</a>
 
 
 
@@ -203,6 +183,11 @@ Providers that indicate support for interrupt moderation with the NDK_ADAPTER_FL
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439854">NDK_CQ</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439855">NDK_CQ_DISPATCH</a>
  
 
  

@@ -49,17 +49,7 @@ req.typenames: D3DKMT_DESTROYKEYEDMUTEX
 ## -description
 
 
-The D3DKMT_DESTROYKEYEDMUTEX structure describes a keyed mutex that the <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtdestroykeyedmutex.md">D3DKMTDestroyKeyedMutex</a> function destroys. 
-
-
-## -syntax
-
-
-````
-typedef struct _D3DKMT_DESTROYKEYEDMUTEX {
-  D3DKMT_HANDLE hKeyedMutex;
-} D3DKMT_DESTROYKEYEDMUTEX;
-````
+The D3DKMT_DESTROYKEYEDMUTEX structure describes a keyed mutex that the <a href="https://msdn.microsoft.com/library/windows/hardware/ff546920">D3DKMTDestroyKeyedMutex</a> function destroys. 
 
 
 ## -struct-fields
@@ -74,10 +64,10 @@ typedef struct _D3DKMT_DESTROYKEYEDMUTEX {
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtdestroykeyedmutex.md">D3DKMTDestroyKeyedMutex</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546920">D3DKMTDestroyKeyedMutex</a>
  
 
  

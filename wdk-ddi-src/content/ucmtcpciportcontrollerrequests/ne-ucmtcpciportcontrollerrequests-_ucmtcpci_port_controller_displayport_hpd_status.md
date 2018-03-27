@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 Defines values to determine whether a DisplayPort device is plugged in.
 
 
-## -syntax
-
-
-````
-typedef enum _UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_HPD_STATUS { 
-  UcmTcpciPortControllerHPDStatusLow   = 0x1,
-  UcmTcpciPortControllerHPDStatusHigh  = 0x2
-} UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_HPD_STATUS;
-````
-
-
 ## -enum-fields
 
 
@@ -81,10 +70,10 @@ A DisplayPort device such as a monitor is plugged in.
 
 ## -see-also
 
-<a href="..\ucmtcpciportcontrollerrequests\ni-ucmtcpciportcontrollerrequests-ioctl_ucmtcpci_port_controller_displayport_hpd_status_changed.md">IOCTL_UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_HPD_STATUS_CHANGED</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt805831">IOCTL_UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_HPD_STATUS_CHANGED</a>
  
 
  

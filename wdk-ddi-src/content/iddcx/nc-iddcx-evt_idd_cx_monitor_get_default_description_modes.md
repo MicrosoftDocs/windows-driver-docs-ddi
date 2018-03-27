@@ -52,23 +52,6 @@ req.typenames: WCS_PROFILE_MANAGEMENT_SCOPE
 <b>EVT_IDD_CX_MONITOR_GET_DEFAULT_DESCRIPTION_MODES</b> is called by the OS to request the default monitor mode list from the driver for the specified monitor when a monitor without a description is connected.
 
 
-## -prototype
-
-
-````
-EVT_IDD_CX_MONITOR_GET_DEFAULT_DESCRIPTION_MODES EvtIddCxMonitorGetDefaultDescriptionModes;
-
-NTSTATUS EvtIddCxMonitorGetDefaultDescriptionModes(
-  _In_        IDDCX_MONITOR                         MonitorObject,
-  _In_  const IDARG_IN_GETDEFAULTDESCRIPTIONMODES*  pInArgs,
-  _Out_       IDARG_OUT_GETDEFAULTDESCRIPTIONMODES* pOutArgs
-)
-{ ... }
-
-typedef EVT_IDD_CX_MONITOR_GET_DEFAULT_DESCRIPTION_MODES PFN_IDD_CX_MONITOR_GET_DEFAULT_DESCRIPTION_MODES;
-````
-
-
 ## -parameters
 
 

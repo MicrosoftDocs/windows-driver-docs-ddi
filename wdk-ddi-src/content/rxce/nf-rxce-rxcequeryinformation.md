@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
@@ -51,19 +51,6 @@ req.product: Windows 10 or later.
 
 
 <b>RxCeQueryInformation</b> queries information about a connection in a caller-allocated buffer.
-
-
-## -syntax
-
-
-````
-NTSTATUS RxCeQueryInformation(
-  _In_  PRXCE_VC                          pVc,
-  _In_  RXCE_CONNECTION_INFORMATION_CLASS InformationClass,
-  _Out_ PVOID                             pInformation,
-  _In_  ULONG                             Length
-);
-````
 
 
 ## -parameters
@@ -202,14 +189,14 @@ For some values of <i>InformationClass</i>, <b>RxCeQueryInformation</b> calls <b
 
 ## -see-also
 
-<a href="..\rxce\nf-rxce-rxcequerytransportinformation.md">RxCeQueryTransportInformation</a>
 
 
 
-<a href="..\rxce\nf-rxce-rxcequeryadapterstatus.md">RxCeQueryAdapterStatus</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553456">RxCeQueryAdapterStatus</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553474">RxCeQueryTransportInformation</a>
  
 
  

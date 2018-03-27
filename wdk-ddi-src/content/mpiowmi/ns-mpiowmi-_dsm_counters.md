@@ -52,22 +52,6 @@ req.typenames: DSM_COUNTERS, *PDSM_COUNTERS
 The DSM_COUNTERS structure holds the various timer counters that are applicable to all LUNs that are controlled by the DSM.
 
 
-## -syntax
-
-
-````
-typedef struct _DSM_COUNTERS {
-  ULONG     PathVerifyEnabled;
-  ULONG     PathVerificationPeriod;
-  ULONG     PDORemovePeriod;
-  ULONG     RetryCount;
-  ULONG     RetryInterval;
-  ULONG     Reserved32;
-  ULONGLONG Reserved64;
-} DSM_COUNTERS, *PDSM_COUNTERS;
-````
-
-
 ## -struct-fields
 
 

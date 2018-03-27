@@ -52,18 +52,6 @@ req.typenames: TOKEN_TYPE
 Call the <b>CcSetAdditionalCacheAttributes</b> routine to enable or disable read-ahead (also called "lazy read") or write-behind (also called "lazy write") on a cached file.
 
 
-## -syntax
-
-
-````
-VOID CcSetAdditionalCacheAttributes(
-  _In_ PFILE_OBJECT FileObject,
-  _In_ BOOLEAN      DisableReadAhead,
-  _In_ BOOLEAN      DisableWriteBehind
-);
-````
-
-
 ## -parameters
 
 
@@ -97,25 +85,25 @@ None
 
 
 
-<b>CcSetAdditionalCacheAttributes</b> can be called any time after calling <a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a>. Initially, both read-ahead and write-behind are enabled.
+<b>CcSetAdditionalCacheAttributes</b> can be called any time after calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff539135">CcInitializeCacheMap</a>. Initially, both read-ahead and write-behind are enabled.
 
 
 
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539135">CcInitializeCacheMap</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539191">CcReadAhead</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-ccsetreadaheadgranularity.md">CcSetReadAheadGranularity</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539224">CcSetReadAheadGranularity</a>
  
 
  

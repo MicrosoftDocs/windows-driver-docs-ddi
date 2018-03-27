@@ -56,17 +56,6 @@ req.product: Windows 10 or later.
 The <b>VmbChannelInitSetStateChangeCallbacks</b>  function sets optional callback functions for state changes.
 
 
-## -syntax
-
-
-````
-NTSTATUS VmbChannelInitSetStateChangeCallbacks(
-  _In_ VMBCHANNEL                          Channel,
-  _In_ PVMB_CHANNEL_STATE_CHANGE_CALLBACKS StateChangeCallbacks
-);
-````
-
-
 ## -parameters
 
 

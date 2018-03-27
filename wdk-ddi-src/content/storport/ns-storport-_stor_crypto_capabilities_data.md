@@ -53,15 +53,5 @@ req.product: Windows 10 or later.
 Reserved for system use.
 
 
-## -syntax
-
-
-````
-typedef struct _STOR_CRYPTO_CAPABILITIES_DATA {
-  ;      // Reserved for system use.
-} STOR_CRYPTO_CAPABILITIES_DATA, *PSTOR_CRYPTO_CAPABILITIES_DATA;
-````
-
-
 ## -struct-fields
 

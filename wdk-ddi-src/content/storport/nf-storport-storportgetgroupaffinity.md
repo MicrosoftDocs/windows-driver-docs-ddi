@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
@@ -51,18 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>StorPortGetGroupAffinity</b> routine constructs a mask of the active processors in a requested group.
-
-
-## -syntax
-
-
-````
-ULONG StorPortGetGroupAffinity(
-  _In_  PVOID      HwDeviceExtension,
-  _In_  USHORT     GroupNumber,
-  _Out_ PKAFFINITY GroupAffinityMask
-);
-````
 
 
 ## -parameters

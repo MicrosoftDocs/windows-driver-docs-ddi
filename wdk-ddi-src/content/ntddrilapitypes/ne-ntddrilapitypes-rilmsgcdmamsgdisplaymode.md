@@ -52,18 +52,6 @@ req.typenames: RILMSGCDMAMSGDISPLAYMODE
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef enum _RILMSGCDMAMSGDISPLAYMODE { 
-  RIL_MSGDISPLAYMODE_MOBILEDEFAULT,
-  RIL_MSGDISPLAYMODE_USERDEFAULT,
-  RIL_MSGDISPLAYMODE_MAX
-} RILMSGCDMAMSGDISPLAYMODE;
-````
-
-
 ## -enum-fields
 
 

@@ -52,17 +52,6 @@ req.typenames: GetBindingCapability_OUT, *PGetBindingCapability_OUT
 The GetBindingCapability_OUT structure is used by a WMI provider to report the output parameter data of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff553902">GetBindingCapability</a> WMI method to the WMI client.
 
 
-## -syntax
-
-
-````
-typedef struct _GetBindingCapability_OUT {
-  ULONG HBAStatus;
-  ULONG BindType;
-} GetBindingCapability_OUT, *PGetBindingCapability_OUT;
-````
-
-
 ## -struct-fields
 
 
@@ -89,10 +78,10 @@ The WMI tool suite generates a declaration of the GetBindingCapability_OUT struc
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553902">GetBindingCapability</a>
-
-
-
  
 
  

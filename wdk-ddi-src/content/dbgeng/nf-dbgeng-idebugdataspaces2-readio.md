@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -53,22 +53,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>ReadIo</b> method reads from the system and bus I/O memory.
-
-
-## -syntax
-
-
-````
-HRESULT ReadIo(
-  [in]            ULONG   InterfaceType,
-  [in]            ULONG   BusNumber,
-  [in]            ULONG   AddressSpace,
-  [in]            ULONG64 Offset,
-  [out]           PVOID   Buffer,
-  [in]            ULONG   BufferSize,
-  [out, optional] PULONG  BytesRead
-);
-````
 
 
 ## -parameters

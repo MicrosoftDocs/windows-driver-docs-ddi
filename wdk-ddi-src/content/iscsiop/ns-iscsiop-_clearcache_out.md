@@ -52,16 +52,6 @@ req.typenames: ClearCache_OUT, *PClearCache_OUT
 The ClearCache_OUT structure holds the output data for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552442">ClearCache</a> method.
 
 
-## -syntax
-
-
-````
-typedef struct _ClearCache_OUT {
-  ULONG Status;
-} ClearCache_OUT, *PClearCache_OUT;
-````
-
-
 ## -struct-fields
 
 
@@ -83,11 +73,10 @@ You must implement this method.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552442">ClearCache</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563135">MSiSCSI_SecurityConfigOperations WMI Class</a>
 
 
 
@@ -95,6 +84,7 @@ You must implement this method.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563135">MSiSCSI_SecurityConfigOperations WMI Class</a>
  
 
  

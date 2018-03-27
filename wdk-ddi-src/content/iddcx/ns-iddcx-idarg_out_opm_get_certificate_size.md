@@ -53,16 +53,6 @@ req.typenames:
                  Gives information about the OPM certificate size.
 
 
-## -syntax
-
-
-````
-typedef struct IDARG_OUT_OPM_GET_CERTIFICATE_SIZE {
-  UINT CertificateSize;
-} IDARG_OUT_OPM_GET_CERTIFICATE_SIZE, *IDARG_OUT_OPM_GET_CERTIFICATE_SIZE;
-````
-
-
 ## -struct-fields
 
 

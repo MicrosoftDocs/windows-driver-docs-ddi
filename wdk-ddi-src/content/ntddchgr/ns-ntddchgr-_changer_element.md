@@ -52,17 +52,6 @@ req.typenames: CHANGER_ELEMENT, *PCHANGER_ELEMENT
 The CHANGER_ELEMENT structure contains a description of a changer element. 
 
 
-## -syntax
-
-
-````
-typedef struct _CHANGER_ELEMENT {
-  ELEMENT_TYPE ElementType;
-  ULONG        ElementAddress;
-} CHANGER_ELEMENT, *PCHANGER_ELEMENT;
-````
-
-
 ## -struct-fields
 
 
@@ -70,7 +59,7 @@ typedef struct _CHANGER_ELEMENT {
 
 ### -field ElementType
 
-Indicates the type of element. Can be one of the following values taken from the <a href="..\ntddchgr\ne-ntddchgr-_element_type.md">ELEMENT_TYPE</a> enumeration.
+Indicates the type of element. Can be one of the following values taken from the <a href="https://msdn.microsoft.com/library/windows/hardware/ff553754">ELEMENT_TYPE</a> enumeration.
 
 
 
@@ -147,18 +136,18 @@ On input, a changer miniclass driver must translate the zero-based address in <b
 
 ## -see-also
 
-<a href="..\ntddchgr\ne-ntddchgr-_element_type.md">ELEMENT_TYPE</a>
 
 
 
-<a href="..\ntddchgr\ns-ntddchgr-_changer_element_status.md">CHANGER_ELEMENT_STATUS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551459">CHANGER_ELEMENT_LIST</a>
 
 
 
-<a href="..\ntddchgr\ns-ntddchgr-_changer_element_list.md">CHANGER_ELEMENT_LIST</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551461">CHANGER_ELEMENT_STATUS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553754">ELEMENT_TYPE</a>
  
 
  

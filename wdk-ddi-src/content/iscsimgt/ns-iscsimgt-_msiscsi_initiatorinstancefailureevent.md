@@ -52,17 +52,6 @@ req.typenames: MSiSCSI_InitiatorInstanceFailureEvent, *PMSiSCSI_InitiatorInstanc
 The MSiSCSI_InitiatorInstanceFailureEvent structure is used to report an event when an initiator instance failure occurs.
 
 
-## -syntax
-
-
-````
-typedef struct _MSiSCSI_InitiatorInstanceFailureEvent {
-  UCHAR FailureType;
-  WCHAR RemoteNodeName[223 + 1];
-} MSiSCSI_InitiatorInstanceFailureEvent, *PMSiSCSI_InitiatorInstanceFailureEvent;
-````
-
-
 ## -struct-fields
 
 
@@ -89,7 +78,6 @@ We recommend that you implement this class.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563032">MSiSCSI_InitiatorInstanceFailureEvent WMI Class</a>
 
 
 
@@ -97,6 +85,7 @@ We recommend that you implement this class.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563032">MSiSCSI_InitiatorInstanceFailureEvent WMI Class</a>
  
 
  

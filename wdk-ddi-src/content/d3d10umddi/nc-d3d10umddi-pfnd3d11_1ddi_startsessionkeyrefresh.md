@@ -54,22 +54,6 @@ Gets a random number that can be used to refresh the session key.
 
 
 
-## -prototype
-
-
-````
-PFND3D11_1DDI_STARTSESSIONKEYREFRESH pfnStartSessionKeyRefresh;
-
-VOID APIENTRY* pfnStartSessionKeyRefresh(
-  _In_    D3D10DDI_HDEVICE          hDevice,
-  _In_    D3D11_1DDI_HCRYPTOSESSION hCryptoSession,
-  _Inout_ UINT                      RandomNumberSize,
-  _In_    VOID                      *pRandomNumber
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -84,7 +68,7 @@ A handle to the display device (graphics context).
 
 ### -param hCryptoSession [in]
 
-A handle to the cryptographic session object that was created through a call to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createcryptosession.md">CreateCryptoSession</a> function.
+A handle to the cryptographic session object that was created through a call to the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451619">CreateCryptoSession</a> function.
 
 
 
@@ -120,7 +104,7 @@ The hardware and driver can optionally support <b>StartSessionKeyRefresh</b> for
 
 When the Microsoft Direct3D runtime calls the driver's <b>StartSessionKeyRefresh</b> function, the driver generates and saves a random number and returns it in the buffer that the <i>pRandomNumber</i> parameter points to.
 
-When the runtime subsequently calls the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_finishsessionkeyrefresh.md">FinishSessionKeyRefresh</a> function, the driver refreshes the session key by performing an XOR operation of the random number with the key.
+When the runtime subsequently calls the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/hh451648">FinishSessionKeyRefresh</a> function, the driver refreshes the session key by performing an XOR operation of the random number with the key.
 
 
 
@@ -129,14 +113,14 @@ When the runtime subsequently calls the driver's <a href="..\d3d10umddi\nc-d3d10
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createcryptosession.md">CreateCryptoSession</a>
 
 
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_finishsessionkeyrefresh.md">FinishSessionKeyRefresh</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451619">CreateCryptoSession</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451648">FinishSessionKeyRefresh</a>
  
 
  

@@ -52,19 +52,6 @@ req.typenames: MIRACAST_CHUNK_INFO
 Contains info about a specified wireless display (Miracast) encode chunk.
 
 
-## -syntax
-
-
-````
-typedef struct {
-  MIRACAST_CHUNK_TYPE ChunkType;
-  MIRACAST_CHUNK_ID   ChunkId;
-  UINT                ProcessingTime;
-  UINT                EncodeRate;
-} MIRACAST_CHUNK_INFO;
-````
-
-
 ## -struct-fields
 
 
@@ -72,12 +59,12 @@ typedef struct {
 
 ### -field ChunkType
 
-The type of chunk that is to be processed, specified as a <a href="..\netdispumdddi\ne-netdispumdddi-miracast_chunk_type.md">MIRACAST_CHUNK_TYPE</a> enumeration value.
+The type of chunk that is to be processed, specified as a <a href="https://msdn.microsoft.com/library/windows/hardware/dn265474">MIRACAST_CHUNK_TYPE</a> enumeration value.
 
 
 ### -field ChunkId
 
-The identifier for this chunk, of type <a href="..\netdispumdddi\ns-netdispumdddi-miracast_chunk_id.md">MIRACAST_CHUNK_ID</a>.
+The identifier for this chunk, of type <a href="https://msdn.microsoft.com/library/windows/hardware/dn265472">MIRACAST_CHUNK_ID</a>.
 
 
 ### -field ProcessingTime
@@ -92,14 +79,14 @@ The encode bit rate, in kilobits per second, that the user-mode driver reported 
 
 ## -see-also
 
-<a href="..\netdispumdddi\ne-netdispumdddi-miracast_chunk_type.md">MIRACAST_CHUNK_TYPE</a>
 
 
 
-<a href="..\netdispumdddi\ns-netdispumdddi-miracast_chunk_id.md">MIRACAST_CHUNK_ID</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265472">MIRACAST_CHUNK_ID</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265474">MIRACAST_CHUNK_TYPE</a>
  
 
  

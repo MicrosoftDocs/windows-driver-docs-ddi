@@ -26,7 +26,7 @@ req.max-support: Unavailable in UMDF 2.0 and later.
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: wudfddi.h
+req.lib: 
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
@@ -55,17 +55,6 @@ req.product: Windows 10 or later.
 The <b>GetState</b> method retrieves the state of an I/O queue.
 
 
-## -syntax
-
-
-````
-WDF_IO_QUEUE_STATE GetState(
-  [out] ULONG *pulNumOfRequestsInQueue,
-  [out] ULONG *pulNumOfRequestsInDriver
-);
-````
-
-
 ## -parameters
 
 
@@ -85,7 +74,7 @@ A pointer to a variable that receives the number of I/O requests that the driver
 
 
 
-<b>GetState</b> returns a bitwise OR of <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_io_queue_state.md">WDF_IO_QUEUE_STATE</a>-typed values that provides the state of the queue.
+<b>GetState</b> returns a bitwise OR of <a href="https://msdn.microsoft.com/library/windows/hardware/ff561417">WDF_IO_QUEUE_STATE</a>-typed values that provides the state of the queue.
 
 
 
@@ -101,14 +90,14 @@ The total number of requests that are associated with the I/O queue is the sum o
 
 ## -see-also
 
-<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_io_queue_state.md">WDF_IO_QUEUE_STATE</a>
 
 
 
-<a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558943">IWDFIoQueue</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561417">WDF_IO_QUEUE_STATE</a>
  
 
  

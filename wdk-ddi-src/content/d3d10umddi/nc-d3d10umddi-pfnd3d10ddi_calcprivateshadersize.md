@@ -52,27 +52,12 @@ req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 The <b>CalcPrivateShaderSize</b> function determines the size of the user-mode display driver's private region of memory (that is, the size of internal driver structures, not the size of the resource video memory) for a shader.
 
 
-## -prototype
-
-
-````
-PFND3D10DDI_CALCPRIVATESHADERSIZE CalcPrivateShaderSize;
-
-SIZE_T APIENTRY CalcPrivateShaderSize(
-   D3D10DDI_HDEVICE                           hDevice,
-   __in_ecount(pCode[1]) CONST UINT           *pCode,
-   __in CONST D3D10DDIARG_STAGE_IO_SIGNATURES *pSignatures
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
 
 
-### -param D3D10DDI_HDEVICE
+### -param Arg1
 
 
 ### -param *pShaderCode
@@ -101,7 +86,7 @@ SIZE_T APIENTRY CalcPrivateShaderSize(
 
 #### - pSignatures
 
- [in] A pointer to a <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_stage_io_signatures.md">D3D10DDIARG_STAGE_IO_SIGNATURES</a> structure that makes up the shader's signature.
+ [in] A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541746">D3D10DDIARG_STAGE_IO_SIGNATURES</a> structure that makes up the shader's signature.
 
 
 ## -returns
@@ -115,14 +100,14 @@ SIZE_T APIENTRY CalcPrivateShaderSize(
 
 ## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_devicefuncs.md">D3D10DDI_DEVICEFUNCS</a>
 
 
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_stage_io_signatures.md">D3D10DDIARG_STAGE_IO_SIGNATURES</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541746">D3D10DDIARG_STAGE_IO_SIGNATURES</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541833">D3D10DDI_DEVICEFUNCS</a>
  
 
  

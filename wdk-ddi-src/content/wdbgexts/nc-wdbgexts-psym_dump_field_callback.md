@@ -50,18 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The PSYM_DUMP_FIELD_CALLBACK callback function is called by the debugger engine during the <a href="..\wdbgexts\ns-wdbgexts-_sym_dump_param.md">IG_DUMP_SYMBOL_INFO</a> Ioctl operation with information about a member in the specified symbol.
-
-
-## -prototype
-
-
-````
-typedef ULONG ( WDBGAPI *PSYM_DUMP_FIELD_CALLBACK)(
-   struct _FIELD_INFO *pField,
-   PVOID              UserContext
-);
-````
+The PSYM_DUMP_FIELD_CALLBACK callback function is called by the debugger engine during the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550906">IG_DUMP_SYMBOL_INFO</a> Ioctl operation with information about a member in the specified symbol.
 
 
 ## -parameters
@@ -71,7 +60,7 @@ typedef ULONG ( WDBGAPI *PSYM_DUMP_FIELD_CALLBACK)(
 
 ### -param *pField
 
-Specifies the field for which this callback function is being called.  The debugger engine fills in the contents of this parameter before making the call.  See <a href="..\wdbgexts\ns-wdbgexts-_field_info.md">FIELD_INFO</a> for details about the members of this parameter.
+Specifies the field for which this callback function is being called.  The debugger engine fills in the contents of this parameter before making the call.  See <a href="https://msdn.microsoft.com/library/windows/hardware/ff545316">FIELD_INFO</a> for details about the members of this parameter.
 
 
 ### -param UserContext
@@ -100,18 +89,18 @@ If you are writing a WdbgExts extension, include wdbgexts.h. If you are writing 
 
 ## -see-also
 
-<a href="..\wdbgexts\nc-wdbgexts-pwindbg_ioctl_routine.md">Ioctl</a>
 
 
 
-<a href="..\wdbgexts\ns-wdbgexts-_sym_dump_param.md">IG_DUMP_SYMBOL_INFO</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545316">FIELD_INFO</a>
 
 
 
-<a href="..\wdbgexts\ns-wdbgexts-_field_info.md">FIELD_INFO</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550906">IG_DUMP_SYMBOL_INFO</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551084">Ioctl</a>
  
 
  

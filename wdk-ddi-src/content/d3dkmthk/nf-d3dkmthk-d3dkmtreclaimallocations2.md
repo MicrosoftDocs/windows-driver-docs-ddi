@@ -55,16 +55,6 @@ req.typenames: D3DKMT_DRIVERVERSION
 <b>D3DKMTReclaimAllocations2</b> reclaims video memory allocations.
 
 
-## -syntax
-
-
-````
-EXTERN_C _Check_return_ NTSTATUS APIENTRY D3DKMTReclaimAllocations2(
-  _Inout_ D3DKMT_RECLAIMALLOCATIONS2 *pData
-);
-````
-
-
 ## -parameters
 
 
@@ -74,7 +64,7 @@ EXTERN_C _Check_return_ NTSTATUS APIENTRY D3DKMTReclaimAllocations2(
 
 #### - pData [in, out]
 
-A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_reclaimallocations2.md">D3DKMT_RECLAIMALLOCATIONS2</a> structure that defines memory allocations to reclaim.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn906801">D3DKMT_RECLAIMALLOCATIONS2</a> structure that defines memory allocations to reclaim.
 
 
 ## -returns
@@ -130,10 +120,10 @@ Parameters were validated and determined to be incorrect.
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_reclaimallocations2.md">D3DKMT_RECLAIMALLOCATIONS2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn906801">D3DKMT_RECLAIMALLOCATIONS2</a>
  
 
  

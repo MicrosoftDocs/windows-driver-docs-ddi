@@ -52,20 +52,6 @@ req.typenames: GPIO_CLIENT_CONTROLLER_SPECIFIC_FUNCTION_PARAMETERS, *PGPIO_CLIEN
 The <b>GPIO_CLIENT_CONTROLLER_SPECIFIC_FUNCTION_PARAMETERS</b> structure describes the input and output buffers for a controller-specific operation.
 
 
-## -syntax
-
-
-````
-typedef struct _GPIO_CLIENT_CONTROLLER_SPECIFIC_FUNCTION_PARAMETERS {
-  PVOID  InputBuffer;
-  SIZE_T InputBufferLength;
-  PVOID  OutputBuffer;
-  SIZE_T OutputBufferLength;
-  ULONG  BytesWritten;
-} GPIO_CLIENT_CONTROLLER_SPECIFIC_FUNCTION_PARAMETERS, *PGPIO_CLIENT_CONTROLLER_SPECIFIC_FUNCTION_PARAMETERS;
-````
-
-
 ## -struct-fields
 
 
@@ -109,10 +95,10 @@ The GPIO framework extension (GpioClx) fills in the first four members of the st
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh698237">CLIENT_ControllerSpecificFunction</a>
-
-
-
  
 
  

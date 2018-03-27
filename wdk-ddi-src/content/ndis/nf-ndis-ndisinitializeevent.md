@@ -55,16 +55,6 @@ The
   subsequently as a synchronization mechanism.
 
 
-## -syntax
-
-
-````
-VOID NdisInitializeEvent(
-  _Out_ PNDIS_EVENT Event
-);
-````
-
-
 ## -parameters
 
 
@@ -101,8 +91,8 @@ The
     <b>Ndis<i>Xxx</i>Event</b> functions.
 
 While driver functions that must run at IRQL &lt;= DISPATCH_LEVEL can call the 
-    <a href="..\ndis\nf-ndis-ndissetevent.md">NdisSetEvent</a> and 
-    <a href="..\ndis\nf-ndis-ndisresetevent.md">NdisResetEvent</a> functions ,calling 
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff564539">NdisSetEvent</a> and 
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff564526">NdisResetEvent</a> functions ,calling 
     <b>NdisWaitEvent</b> from any IRQL &gt; PASSIVE_LEVEL is a fatal error.
 
 
@@ -110,22 +100,22 @@ While driver functions that must run at IRQL &lt;= DISPATCH_LEVEL can call the
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisresetevent.md">NdisResetEvent</a>
+<a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndissetevent.md">NdisSetEvent</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564526">NdisResetEvent</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndiswaitevent.md">NdisWaitEvent</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564539">NdisSetEvent</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564651">NdisWaitEvent</a>
  
 
  

@@ -52,17 +52,6 @@ req.typenames: KSPEEKOPERATION
 
 
 
-## -syntax
-
-
-````
-typedef enum  { 
-  KsPeekOperation_PeekOnly,
-  KsPeekOperation_AddRef
-} KSPEEKOPERATION;
-````
-
-
 ## -enum-fields
 
 

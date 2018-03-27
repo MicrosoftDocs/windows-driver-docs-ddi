@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
@@ -55,18 +55,6 @@ in Windows 8 and later.</div><div> </div>The
   <b>NetDmaRegisterProvider</b> function registers a DMA provider.
 
 
-## -syntax
-
-
-````
-NTSTATUS NetDmaRegisterProvider(
-  _In_ PVOID                             ProviderContext,
-  _In_ PVOID                             *pNetDmaProviderHandle,
-  _In_ PNET_DMA_PROVIDER_CHARACTERISTICS ProviderCharacteristics
-);
-````
-
-
 ## -parameters
 
 
@@ -90,7 +78,7 @@ A pointer to a value that is a handle that
 ### -param ProviderCharacteristics [in]
 
 A pointer to a 
-     <a href="..\netdma\ns-netdma-_net_dma_provider_characteristics.md">
+     <a href="https://msdn.microsoft.com/7ec6d449-fdc2-44d8-976b-5a1d23c76e7b">
      NET_DMA_PROVIDER_CHARACTERISTICS</a> structure that defines the characteristics of the DMA
      provider.
 
@@ -156,12 +144,12 @@ DMA provider drivers call the
 
 In the 
     <b>AddDevice</b> routine, the DMA provider driver calls the 
-    <a href="..\wdm\nf-wdm-iocreatedevice.md">IoCreateDevice</a> function to create a functional
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff548397">IoCreateDevice</a> function to create a functional
     device object (FDO) and inserts it at the top of the device stack. The DMA provider driver then calls 
     <b>NetDmaRegisterProvider</b> to register the associated DMA provider.
 
 The DMA provider driver supplies a 
-    <a href="..\netdma\ns-netdma-_net_dma_provider_characteristics.md">
+    <a href="https://msdn.microsoft.com/7ec6d449-fdc2-44d8-976b-5a1d23c76e7b">
     NET_DMA_PROVIDER_CHARACTERISTICS</a> structure at the 
     <i>ProviderCharacteristics</i> parameter of 
     <b>NetDmaRegisterProvider</b>. The NET_DMA_PROVIDER_CHARACTERISTICS structure specifies the
@@ -182,7 +170,7 @@ When
 
 If a computer supports MSI-X, the NetDMA interface, while in the context of the 
     <b>NetDmaRegisterProvider</b> function, calls the DMA provider driver's 
-    <a href="..\netdma\nc-netdma-dma_channels_cpu_affinity_handler.md">
+    <a href="https://msdn.microsoft.com/a53d8798-63fa-4b16-bda2-880ca3521d03">
     ProviderSetDmaChannelCpuAffinity</a> function to specify the CPU affinity of the interrupt for each DMA
     channel.
 
@@ -197,7 +185,7 @@ If a computer supports MSI-X, the DMA provider driver can specify interrupt affi
     <i>ProviderSetDmaChannelCpuAffinity</i>.
 
 To deregister a DMA provider, a DMA provider driver calls the 
-    <a href="..\netdma\nf-netdma-netdmaderegisterprovider.md">
+    <a href="https://msdn.microsoft.com/8832adbc-c2ab-4742-94a0-4e33d03eaaf1">
     NetDmaDeregisterProvider</a> function.
 
 
@@ -205,17 +193,10 @@ To deregister a DMA provider, a DMA provider driver calls the
 
 ## -see-also
 
-<a href="..\netdma\nc-netdma-dma_channels_cpu_affinity_handler.md">
-   ProviderSetDmaChannelCpuAffinity</a>
 
 
 
-<a href="..\netdma\nf-netdma-netdmaderegisterprovider.md">NetDmaDeregisterProvider</a>
-
-
-
-<a href="..\netdma\ns-netdma-_net_dma_provider_characteristics.md">
-   NET_DMA_PROVIDER_CHARACTERISTICS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a>
 
 
 
@@ -224,14 +205,21 @@ To deregister a DMA provider, a DMA provider driver calls the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548397">IoCreateDevice</a>
 
 
 
-<a href="..\wdm\nf-wdm-iocreatedevice.md">IoCreateDevice</a>
+<a href="https://msdn.microsoft.com/7ec6d449-fdc2-44d8-976b-5a1d23c76e7b">
+   NET_DMA_PROVIDER_CHARACTERISTICS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568328">NetDmaDeregisterProvider</a>
+
+
+
+<a href="https://msdn.microsoft.com/a53d8798-63fa-4b16-bda2-880ca3521d03">
+   ProviderSetDmaChannelCpuAffinity</a>
  
 
  

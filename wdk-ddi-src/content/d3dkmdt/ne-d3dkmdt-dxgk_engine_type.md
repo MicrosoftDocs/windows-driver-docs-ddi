@@ -52,23 +52,6 @@ req.typenames: DXGK_ENGINE_TYPE
 Indicates the type of engine on a GPU node. Note the selection rules discussed in Remarks.
 
 
-## -syntax
-
-
-````
-typedef enum _DXGK_ENGINE_TYPE { 
-  DXGK_ENGINE_TYPE_OTHER             = 0,
-  DXGK_ENGINE_TYPE_3D                = 1,
-  DXGK_ENGINE_TYPE_VIDEO_DECODE      = 2,
-  DXGK_ENGINE_TYPE_VIDEO_ENCODE      = 3,
-  DXGK_ENGINE_TYPE_VIDEO_PROCESSING  = 4,
-  DXGK_ENGINE_TYPE_SCENE_ASSEMBLY    = 5,
-  DXGK_ENGINE_TYPE_COPY              = 6,
-  DXGK_ENGINE_TYPE_OVERLAY           = 7
-} DXGK_ENGINE_TYPE;
-````
-
-
 ## -enum-fields
 
 
@@ -76,7 +59,7 @@ typedef enum _DXGK_ENGINE_TYPE {
 
 ### -field DXGK_ENGINE_TYPE_OTHER
 
-The engine does not match any of the other <a href="..\d3dkmdt\ne-d3dkmdt-dxgk_engine_type.md">DXGK_ENGINE_TYPE</a> enumeration values. This value is used for proprietary or unique functionality that is not exposed by typical adapters, as well as for an engine that performs work that doesn't fall under another category.
+The engine does not match any of the other <a href="https://msdn.microsoft.com/library/windows/hardware/dn265417">DXGK_ENGINE_TYPE</a> enumeration values. This value is used for proprietary or unique functionality that is not exposed by typical adapters, as well as for an engine that performs work that doesn't fall under another category.
 
 
 ### -field DXGK_ENGINE_TYPE_3D

@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: "_Must_inspect_result_"
 topic_type:
@@ -52,17 +52,6 @@ req.typenames:
 
 
                 An OS callback function the driver calls to report the frame statistics after it has processed a frame completely
-
-
-## -syntax
-
-
-````
-NTSTATUS IddCxSwapChainReportFrameStatistics(
-  _In_       IDDCX_SWAPCHAIN                 SwapChainObject,
-  _In_ const IDARG_IN_REPORTFRAMESTATISTICS* pInArgs
-);
-````
 
 
 ## -parameters

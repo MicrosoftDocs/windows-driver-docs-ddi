@@ -52,17 +52,6 @@ req.typenames: DXVAHDDDI_STREAM_STATE_DESTINATION_RECT_DATA
 The DXVAHDDDI_STREAM_STATE_DESTINATION_RECT_DATA structure describes stream-state data that specifies the destination rectangle. The driver scales the source rectangle within the input surface to the destination rectangle within the output surface. 
 
 
-## -syntax
-
-
-````
-typedef struct _DXVAHDDDI_STREAM_STATE_DESTINATION_RECT_DATA {
-  BOOL Enable;
-  RECT DestinationRect;
-} DXVAHDDDI_STREAM_STATE_DESTINATION_RECT_DATA;
-````
-
-
 ## -struct-fields
 
 
@@ -91,10 +80,10 @@ The application can use the destination rectangle to specify the active rectangl
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
-
-
-
  
 
  

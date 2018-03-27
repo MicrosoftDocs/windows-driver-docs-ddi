@@ -52,22 +52,6 @@ req.typenames: REFS_SMR_VOLUME_GC_PARAMETERS, *PREFS_SMR_VOLUME_GC_PARAMETERS
 The <b>REFS_SMR_VOLUME_GC_PARAMETERS</b> structure is used as the input structure for <a href="https://msdn.microsoft.com/782542C4-CFC5-4BF7-AF38-3247A3AC6AB9">FSCTL_SET_REFS_SMR_VOLUME_GC_PARAMETERS</a>.
 
 
-## -syntax
-
-
-````
-typedef struct _REFS_SMR_VOLUME_GC_PARAMETERS {
-  ULONG                     Version;
-  ULONG                     Flags;
-  REFS_SMR_VOLUME_GC_ACTION Action;
-  REFS_SMR_VOLUME_GC_METHOD Method;
-  ULONG                     IoGranularity;
-  ULONG                     CompressionFormat;
-  ULONG                     Unused[8];
-} REFS_SMR_VOLUME_GC_PARAMETERS, *PREFS_SMR_VOLUME_GC_PARAMETERS;
-````
-
-
 ## -struct-fields
 
 
@@ -110,10 +94,10 @@ Reserved for future use.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/782542C4-CFC5-4BF7-AF38-3247A3AC6AB9">FSCTL_SET_REFS_SMR_VOLUME_GC_PARAMETERS</a>
-
-
-
  
 
  

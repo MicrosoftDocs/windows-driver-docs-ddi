@@ -53,19 +53,6 @@ req.product: Windows 10 or later.
 The <b>VideoPortAllocatePool</b> function allocates a block of pool memory, inserting a caller-supplied tag at the beginning of the memory.
 
 
-## -syntax
-
-
-````
-PVOID VideoPortAllocatePool(
-  _In_ PVOID        HwDeviceExtension,
-  _In_ VP_POOL_TYPE PoolType,
-  _In_ SIZE_T       NumberOfBytes,
-  _In_ ULONG        Tag
-);
-````
-
-
 ## -parameters
 
 
@@ -163,10 +150,10 @@ Callers of <b>VideoPortAllocatePool</b> can be running at IRQL = DISPATCH_LEVEL 
 
 ## -see-also
 
-<a href="..\video\nf-video-videoportfreepool.md">VideoPortFreePool</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570301">VideoPortFreePool</a>
  
 
  

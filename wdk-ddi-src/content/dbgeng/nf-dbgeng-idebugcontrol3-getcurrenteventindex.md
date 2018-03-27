@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -50,16 +50,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>GetCurrentEventIndex</b> method returns the index of the current event within the current list of events for the current target, if such a list exists.
-
-
-## -syntax
-
-
-````
-HRESULT GetCurrentEventIndex(
-  [out] PULONG Index
-);
-````
 
 
 ## -parameters
@@ -111,11 +101,6 @@ Targets that do not have fixed sets of events will always return zero to <i>Inde
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556737">SetNextEventIndex</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
 
 
@@ -123,6 +108,11 @@ Targets that do not have fixed sets of events will always return zero to <i>Inde
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550519">IDebugControl3</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556737">SetNextEventIndex</a>
  
 
  

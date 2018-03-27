@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: 
+req.irql: "<=DISPATCH_LEVEL"
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -50,26 +50,6 @@ req.typenames: STORAGE_DEVICE_FORM_FACTOR, *PSTORAGE_DEVICE_FORM_FACTOR
 
 
 Indicates the form factor of a storage device.
-
-
-## -syntax
-
-
-````
-typedef enum _STORAGE_DEVICE_FORM_FACTOR { 
-  FormFactorUnknown     = 0, // 0x0
-  FormFactor3_5,
-  FormFactor2_5,
-  FormFactor1_8,
-  FormFactor1_8Less,
-  FormFactorEmbedded,
-  FormFactorMemoryCard,
-  FormFactormSata,
-  FormFactorM_2,
-  FormFactorPCIeBoard,
-  FormFactorDimm
-} STORAGE_DEVICE_FORM_FACTOR, *PSTORAGE_DEVICE_FORM_FACTOR;
-````
 
 
 ## -enum-fields

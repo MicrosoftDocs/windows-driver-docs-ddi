@@ -52,19 +52,6 @@ req.typenames: DXVA_VideoPropertyRange, *LPDXVA_VideoPropertyRange
 The DXVA_VideoPropertyRange structure specifies the range of allowed values for ProcAmp control properties.
 
 
-## -syntax
-
-
-````
-typedef struct _DXVA_VideoPropertyRange {
-  FLOAT MinValue;
-  FLOAT MaxValue;
-  FLOAT DefaultValue;
-  FLOAT StepSize;
-} DXVA_VideoPropertyRange, *LPDXVA_VideoPropertyRange;
-````
-
-
 ## -struct-fields
 
 
@@ -92,10 +79,10 @@ Specifies the step size increment for a given property.
 
 ## -see-also
 
-<a href="..\dxva\ns-dxva-_dxva_videodesc.md">DXVA_VideoDesc</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564070">DXVA_VideoDesc</a>
  
 
  

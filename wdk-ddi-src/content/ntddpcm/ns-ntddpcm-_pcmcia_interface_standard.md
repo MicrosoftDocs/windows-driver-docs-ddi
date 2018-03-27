@@ -52,23 +52,6 @@ req.typenames: PCMCIA_INTERFACE_STANDARD, *PPCMCIA_INTERFACE_STANDARD
 The PCMCIA bus driver makes the PCMCIA_INTERFACE_STANDARD interface available to PCMCIA memory card drivers in order to allow them to make direct calls to the bus driver without allocating IRPs. 
 
 
-## -syntax
-
-
-````
-typedef struct _PCMCIA_INTERFACE_STANDARD {
-  USHORT                       Size;
-  USHORT                       Version;
-  PINTERFACE_REFERENCE         InterfaceReference;
-  PINTERFACE_DEREFERENCE       InterfaceDereference;
-  PVOID                        Context;
-  PPCMCIA_MODIFY_MEMORY_WINDOW ModifyMemoryWindow;
-  PPCMCIA_SET_VPP              SetVpp;
-  PPCMCIA_IS_WRITE_PROTECTED   IsWriteProtected;
-} PCMCIA_INTERFACE_STANDARD, *PPCMCIA_INTERFACE_STANDARD;
-````
-
-
 ## -struct-fields
 
 
@@ -86,12 +69,12 @@ Indicates the version of the returned interface.
 
 ### -field InterfaceReference
 
-Pointer to the <a href="..\wudfwdm\nc-wudfwdm-pinterface_reference.md">InterfaceReference</a> implementation. 
+Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff547833">InterfaceReference</a> implementation. 
 
 
 ### -field InterfaceDereference
 
-Pointer to the <a href="..\wudfwdm\nc-wudfwdm-pinterface_dereference.md">InterfaceDereference</a> implementation. 
+Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff547829">InterfaceDereference</a> implementation. 
 
 
 ### -field Context
@@ -116,11 +99,6 @@ Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff53
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537611">PCMCIA_SET_VPP</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537610">PCMCIA_MODIFY_MEMORY_WINDOW</a>
 
 
 
@@ -128,6 +106,11 @@ Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff53
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537610">PCMCIA_MODIFY_MEMORY_WINDOW</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537611">PCMCIA_SET_VPP</a>
  
 
  

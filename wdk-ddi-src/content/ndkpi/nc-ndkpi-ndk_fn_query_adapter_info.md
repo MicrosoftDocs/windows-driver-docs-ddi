@@ -52,21 +52,6 @@ req.typenames: NDIS_WWAN_VISIBLE_PROVIDERS, *PNDIS_WWAN_VISIBLE_PROVIDERS
 The <i>NdkQueryAdapterInfo</i> (<i>NDK_FN_QUERY_ADAPTER_INFO</i>) function retrieves information about limits and capabilities of an  NDK adapter.
 
 
-## -prototype
-
-
-````
-NDK_FN_QUERY_ADAPTER_INFO NdkQueryAdapterInfo;
-
-NTSTATUS NdkQueryAdapterInfo(
-  _In_ NDK_ADAPTER                                                            *pNdkAdapter,
-       _Out_writes_bytes_to_opt_(*pBufferSize, *pBufferSize) NDK_ADAPTER_INFO *pInfo,
-       _Inout_ ULONG                                                          *pBufferSize
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -74,7 +59,7 @@ NTSTATUS NdkQueryAdapterInfo(
 
 ### -param *pNdkAdapter [in]
 
-A pointer to an NDK adapter (<a href="..\ndkpi\ns-ndkpi-_ndk_adapter.md">NDK_ADAPTER)</a> instance.
+A pointer to an NDK adapter (<a href="https://msdn.microsoft.com/7EEFC371-5E6F-4507-BF7F-66A1954C7A1A">NDK_ADAPTER)</a> instance.
 
 
 ### -param *pInfo
@@ -155,18 +140,18 @@ An error occurred.
 
 ## -see-also
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_adapter_dispatch.md">NDK_ADAPTER_DISPATCH</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439848">NDK_ADAPTER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439850">NDK_ADAPTER_DISPATCH</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439851">NDK_ADAPTER_INFO</a>
-
-
-
-<a href="..\ndkpi\ns-ndkpi-_ndk_adapter.md">NDK_ADAPTER</a>
-
-
-
  
 
  

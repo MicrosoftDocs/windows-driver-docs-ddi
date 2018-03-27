@@ -52,26 +52,6 @@ req.typenames: DXVA_PicResample, *LPDXVA_PicResample
 The DXVA_PicResample structure is sent by the host decoder to the accelerator to control the resampling process. This process is invoked when the <a href="https://msdn.microsoft.com/6db9fa71-7bc2-4eb6-afcb-b16df48f7e8b">bDXVA_Func variable</a> is equal to 4.
 
 
-## -syntax
-
-
-````
-typedef struct _DXVA_PicResample {
-  WORD  wPicResampleSourcePicIndex;
-  WORD  wPicResampleDestPicIndex;
-  WORD  wPicResampleRcontrol;
-  BYTE  bPicResampleExtrapWidth;
-  BYTE  bPicResampleExtrapHeight;
-  DWORD dwPicResampleSourceWidth;
-  DWORD dwPicResampleSourceHeight;
-  DWORD dwPicResampleDestWidth;
-  DWORD dwPicResampleDestHeight;
-  DWORD dwPicResampleFullDestWidth;
-  DWORD dwPicResampleFullDestHeight;
-} DXVA_PicResample, *LPDXVA_PicResample;
-````
-
-
 ## -struct-fields
 
 

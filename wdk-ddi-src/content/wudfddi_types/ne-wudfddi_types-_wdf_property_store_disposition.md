@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -55,17 +55,6 @@ req.product: Windows 10 or later.
 The <b>WDF_PROPERTY_STORE_DISPOSITION</b> enumeration contains values that indicate whether a registry value was created or already existed when a driver obtained a property store interface.
 
 
-## -syntax
-
-
-````
-typedef enum _WDF_PROPERTY_STORE_DISPOSITION { 
-  CreatedNewStore      = 0x1,
-  OpenedExistingStore  = 0x2
-} WDF_PROPERTY_STORE_DISPOSITION;
-````
-
-
 ## -enum-fields
 
 
@@ -92,6 +81,9 @@ The <b>WDF_PROPERTY_STORE_DISPOSITION</b> enumeration is used as output from the
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558842">IWDFDevice::RetrieveDevicePropertyStore</a>
 
 
@@ -101,9 +93,6 @@ The <b>WDF_PROPERTY_STORE_DISPOSITION</b> enumeration is used as output from the
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560228">IWDFPropertyStoreFactory::RetrieveDevicePropertyStore</a>
-
-
-
  
 
  

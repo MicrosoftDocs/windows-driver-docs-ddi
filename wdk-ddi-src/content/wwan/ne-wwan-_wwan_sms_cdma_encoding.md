@@ -54,26 +54,6 @@ The WWAN_SMS_CDMA_ENCODING enumeration lists the different SMS CDMA encoding for
   supported by the MB device.
 
 
-## -syntax
-
-
-````
-typedef enum _WWAN_SMS_CDMA_ENCODING { 
-  WwanSmsCdmaEncodingOctet        = 0,
-  WwanSmsCdmaEncodingEpm,
-  WwanSmsCdmaEncoding7BitAscii,
-  WwanSmsCdmaEncodingIa5,
-  WwanSmsCdmaEncodingUnicode,
-  WwanSmsCdmaEncodingShiftJis,
-  WwanSmsCdmaEncodingKorean,
-  WwanSmsCdmaEncodingLatinHebrew,
-  WwanSmsCdmaEncodingLatin,
-  WwanSmsCdmaEncodingGsm7Bit,
-  WwanSmsCdmaEncodingMax
-} WWAN_SMS_CDMA_ENCODING, *PWWAN_SMS_CDMA_ENCODING;
-````
-
-
 ## -enum-fields
 
 
@@ -136,14 +116,14 @@ The total number of supported SMS CDMA encoding formats.
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_sms_cdma_record.md">WWAN_SMS_CDMA_RECORD</a>
 
 
 
-<a href="..\wwan\ns-wwan-_wwan_sms_send_cdma.md">WWAN_SMS_SEND_CDMA</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571243">WWAN_SMS_CDMA_RECORD</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571251">WWAN_SMS_SEND_CDMA</a>
  
 
  

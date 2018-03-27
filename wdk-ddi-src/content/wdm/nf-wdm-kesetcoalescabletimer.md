@@ -7,7 +7,7 @@ old-location: kernel\kesetcoalescabletimer.htm
 old-project: kernel
 ms.assetid: e053c120-8c43-4714-acf1-0648958eabb8
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/1/2018
 ms.keywords: KeSetCoalescableTimer, KeSetCoalescableTimer routine [Kernel-Mode Driver Architecture], k105_3e45ae54-682d-47f6-a577-28277cee4829.xml, kernel.kesetcoalescabletimer, wdm/KeSetCoalescableTimer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,20 +53,6 @@ req.product: Windows 10 or later.
 The <b>KeSetCoalescableTimer</b> routine sets the initial expiration time and period of a timer object and specifies how much delay can be tolerated in the expiration times. 
 
 
-## -syntax
-
-
-````
-BOOLEAN KeSetCoalescableTimer(
-  _Inout_  PKTIMER       Timer,
-  _In_     LARGE_INTEGER DueTime,
-  _In_     ULONG         Period,
-  _In_     ULONG         TolerableDelay,
-  _In_opt_ PKDPC         Dpc
-);
-````
-
-
 ## -parameters
 
 
@@ -74,7 +60,7 @@ BOOLEAN KeSetCoalescableTimer(
 
 ### -param Timer [in, out]
 
-A pointer to a timer object. This parameter points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff554250">KTIMER</a> structure, which is an opaque, system structure that represents the timer object. This object must have been previously initialized by the <a href="..\wdm\nf-wdm-keinitializetimerex.md">KeInitializeTimerEx</a> or <a href="..\wdm\nf-wdm-keinitializetimer.md">KeInitializeTimer</a> routine.
+A pointer to a timer object. This parameter points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff554250">KTIMER</a> structure, which is an opaque, system structure that represents the timer object. This object must have been previously initialized by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552173">KeInitializeTimerEx</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff552168">KeInitializeTimer</a> routine.
 
 
 ### -param DueTime [in]
@@ -94,7 +80,7 @@ Specifies a tolerance, in milliseconds, for the timer period that <i>Period</i> 
 
 ### -param Dpc [in, optional]
 
-A pointer to a DPC object. This parameter points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551882">KDPC</a> structure, which is an opaque, system structure that represents the DPC object. This object must have been previously initialized by the <a href="..\wdm\nf-wdm-keinitializedpc.md">KeInitializeDpc</a> routine. This parameter is optional and can be specified as <b>NULL</b> if the caller does not require a DPC.
+A pointer to a DPC object. This parameter points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551882">KDPC</a> structure, which is an opaque, system structure that represents the DPC object. This object must have been previously initialized by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552130">KeInitializeDpc</a> routine. This parameter is optional and can be specified as <b>NULL</b> if the caller does not require a DPC.
 
 
 ## -returns
@@ -130,7 +116,7 @@ Makes the timer active and sets the due time and period of the timer to the spec
 
 </li>
 </ul>
-The <a href="..\wdm\nf-wdm-kesettimerex.md">KeSetTimerEx</a> routine is similar to <b>KeSetCoalescableTimer</b> but does not accept a <i>TolerableDelay</i> parameter. The <i>TolerableDelay</i> parameter of <b>KeSetCoalescableTimer</b> enables the caller to specify a tolerance for the timer period. A call to <b>KeSetCoalescableTimer</b> with <i>TolerableDelay</i> = 0 is the same as a call to <b>KeSetTimerEx</b>. In many instances, developers can easily modify existing drivers by replacing calls to <b>KeSetTimerEx</b> with calls to <b>KeSetCoalescableTimer</b>.
+The <a href="https://msdn.microsoft.com/library/windows/hardware/ff553292">KeSetTimerEx</a> routine is similar to <b>KeSetCoalescableTimer</b> but does not accept a <i>TolerableDelay</i> parameter. The <i>TolerableDelay</i> parameter of <b>KeSetCoalescableTimer</b> enables the caller to specify a tolerance for the timer period. A call to <b>KeSetCoalescableTimer</b> with <i>TolerableDelay</i> = 0 is the same as a call to <b>KeSetTimerEx</b>. In many instances, developers can easily modify existing drivers by replacing calls to <b>KeSetTimerEx</b> with calls to <b>KeSetCoalescableTimer</b>.
 
 If two <b>KeSetCoalescableTimer</b> calls specify the same timer object, and the second call occurs before the <i>DueTime</i> that is specified for the first call expires, the second call implicitly cancels the timer from the first call. However, if a timer expiration from the first call has already enabled a DPC to run, the DPC might run after the timer is canceled. The second call replaces the pending expiration time from the first call with a new expiration time, and activates the timer again.
 
@@ -138,13 +124,13 @@ If the <i>Period</i> parameter is nonzero, the timer is periodic. For a periodic
 
 If the <i>Dpc</i> parameter is non-<b>NULL</b>, the routine creates an association between the specified DPC object and the timer object. After the timer expires, the timer service removes the timer object from the system timer queue and sets this object to a signaled state. If a DPC object is associated with the timer object, the timer service inserts the DPC object into the system DPC queue to run as soon as conditions allow.
 
-Only one instance of a particular DPC object can be in the system DPC queue at a time. To avoid potential race conditions, avoid passing the same DPC object to both the <b>KeSetCoalescableTimer</b> and <a href="..\wdm\nf-wdm-keinsertqueuedpc.md">KeInsertQueueDpc</a> routines.
+Only one instance of a particular DPC object can be in the system DPC queue at a time. To avoid potential race conditions, avoid passing the same DPC object to both the <b>KeSetCoalescableTimer</b> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff552185">KeInsertQueueDpc</a> routines.
 
-Avoid changing the importance or the target processor of a DPC that is associated with an active timer. Either cancel the timer or make sure that the timer has expired before you call a routine such as <a href="..\wdm\nf-wdm-kesetimportancedpc.md">KeSetImportanceDpc</a> or <a href="..\wdm\nf-wdm-kesettargetprocessordpcex.md">KeSetTargetProcessorDpcEx</a> to change the DPC settings. For example, if a driver updates the target processor of a DPC while a timer enables the DPC to run, the DPC might run on an arbitrary processor.
+Avoid changing the importance or the target processor of a DPC that is associated with an active timer. Either cancel the timer or make sure that the timer has expired before you call a routine such as <a href="https://msdn.microsoft.com/library/windows/hardware/ff553259">KeSetImportanceDpc</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff553279">KeSetTargetProcessorDpcEx</a> to change the DPC settings. For example, if a driver updates the target processor of a DPC while a timer enables the DPC to run, the DPC might run on an arbitrary processor.
 
 A periodic timer automatically restarts as soon as it expires. Therefore, in a multiprocessor system, the DPC for a periodic timer might be running on two or more processors at the same time.
 
-Drivers must cancel any active timers in their <a href="https://msdn.microsoft.com/library/windows/hardware/ff564886">Unload</a> routines. Call the <a href="..\wdm\nf-wdm-kecanceltimer.md">KeCancelTimer</a> routine to cancel a timer. If a DPC is associated with a timer that is periodic or that might recently have expired, a driver must wait (for example, by calling the <a href="..\wdm\nf-wdm-keflushqueueddpcs.md">KeFlushQueuedDpcs</a> routine) to free the DPC and its associated data until all pending DPC executions on all processors finish. 
+Drivers must cancel any active timers in their <a href="https://msdn.microsoft.com/library/windows/hardware/ff564886">Unload</a> routines. Call the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551970">KeCancelTimer</a> routine to cancel a timer. If a DPC is associated with a timer that is periodic or that might recently have expired, a driver must wait (for example, by calling the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552050">KeFlushQueuedDpcs</a> routine) to free the DPC and its associated data until all pending DPC executions on all processors finish. 
 
 <b>KeSetCoalescableTimer</b> uses the <i>TolerableDelay</i> parameter to perform timer coalescing. That is, the routine adjusts the expiration times for the timer to coincide with the expiration times of other software timers. Timer coalescing helps increase the length of idle periods so that the operating system can reduce power consumption and improve energy efficiency.
 
@@ -163,19 +149,6 @@ For more information about timer objects, see <a href="https://msdn.microsoft.co
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kecanceltimer.md">KeCancelTimer</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564886">Unload</a>
-
-
-
-<a href="..\wdm\nf-wdm-keinitializedpc.md">KeInitializeDpc</a>
-
-
-
-<a href="..\wdm\nf-wdm-kesettimerex.md">KeSetTimerEx</a>
 
 
 
@@ -183,37 +156,50 @@ For more information about timer objects, see <a href="https://msdn.microsoft.co
 
 
 
-<a href="..\wdm\nf-wdm-kesettargetprocessordpcex.md">KeSetTargetProcessorDpcEx</a>
-
-
-
-<a href="..\wdm\nf-wdm-keinitializetimer.md">KeInitializeTimer</a>
-
-
-
-<a href="..\wdm\nf-wdm-keinitializetimerex.md">KeInitializeTimerEx</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554250">KTIMER</a>
 
 
 
-<a href="..\wdm\nf-wdm-keinsertqueuedpc.md">KeInsertQueueDpc</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551970">KeCancelTimer</a>
 
 
 
-<a href="..\wdm\nf-wdm-kesetimportancedpc.md">KeSetImportanceDpc</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552050">KeFlushQueuedDpcs</a>
 
 
 
-<a href="..\wdm\nf-wdm-keflushqueueddpcs.md">KeFlushQueuedDpcs</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552130">KeInitializeDpc</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552168">KeInitializeTimer</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552173">KeInitializeTimerEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552185">KeInsertQueueDpc</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553259">KeSetImportanceDpc</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553279">KeSetTargetProcessorDpcEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553292">KeSetTimerEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564886">Unload</a>
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20KeSetCoalescableTimer routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20KeSetCoalescableTimer routine%20 RELEASE:%20(3/1/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

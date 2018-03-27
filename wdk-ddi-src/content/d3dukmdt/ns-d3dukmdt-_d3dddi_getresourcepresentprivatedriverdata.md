@@ -49,20 +49,8 @@ req.typenames: D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA
 ## -description
 
 
-<b>D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA</b> is used with <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getresourcepresentprivatedriverdatacb.md">pfnGetResourcePresentPrivateDriverDataCb</a> to query the resource private data, which is associated with the resource during Present. 
+<b>D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA</b> is used with <a href="https://msdn.microsoft.com/D4F0F272-60DC-4060-9762-3DB49236CE62">pfnGetResourcePresentPrivateDriverDataCb</a> to query the resource private data, which is associated with the resource during Present. 
 
-
-
-## -syntax
-
-
-````
-typedef struct _D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA {
-  D3DKMT_HANDLE hResource;
-  UINT          PrivateDriverDataSize;
-  PVOID         *pPrivateDriverData;
-} D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA;
-````
 
 
 ## -struct-fields
@@ -91,10 +79,10 @@ typedef struct _D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA {
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getresourcepresentprivatedriverdatacb.md">pfnGetResourcePresentPrivateDriverDataCb</a>
 
 
 
+<a href="https://msdn.microsoft.com/D4F0F272-60DC-4060-9762-3DB49236CE62">pfnGetResourcePresentPrivateDriverDataCb</a>
  
 
  

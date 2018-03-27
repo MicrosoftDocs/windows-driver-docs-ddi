@@ -52,17 +52,6 @@ req.typenames: D3DDDI_HDR_METADATA_TYPE
 Defines the format of HDR metadata.
 
 
-## -syntax
-
-
-````
-typedef enum _D3DDDI_HDR_METADATA_TYPE { 
-  D3DDDI_HDR_METADATA_TYPE_NONE                 = 0,
-  D3DDDI_HDR_METADATA_TYPE_HDR10                = 1
-} D3DDDI_HDR_METADATA_TYPE;
-````
-
-
 ## -enum-fields
 
 

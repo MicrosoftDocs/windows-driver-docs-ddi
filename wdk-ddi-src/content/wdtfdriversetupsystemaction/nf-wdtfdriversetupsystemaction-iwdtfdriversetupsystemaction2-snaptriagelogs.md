@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: Microsoft.WDTF
 req.assembly: WDTFDriverSetupSystemAction.Interop.dll
 req.type-library: 
-req.lib: wdtfdriversetupsystemaction.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,14 +51,6 @@ req.product: Windows 10 or later.
 
 
 Copies the driver setup triage logs.
-
-
-## -syntax
-
-
-````
-HRESULT SnapTriageLogs();
-````
 
 
 ## -parameters
@@ -89,10 +81,10 @@ triage logs to the current directory.
 
 ## -see-also
 
-<a href="..\wdtfdriversetupsystemaction\nn-wdtfdriversetupsystemaction-iwdtfdriversetupsystemaction2.md">IWDTFDriverSetupSystemAction2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450948">IWDTFDriverSetupSystemAction2</a>
  
 
  

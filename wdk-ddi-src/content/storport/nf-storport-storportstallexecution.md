@@ -54,16 +54,6 @@ req.product: Windows 10 or later.
 The <b>StorPortStallExecution</b> routine stalls the miniport driver. 
 
 
-## -syntax
-
-
-````
-STORPORT_API VOID StorPortStallExecution(
-  _In_ ULONG Delay
-);
-````
-
-
 ## -parameters
 
 
@@ -85,10 +75,10 @@ None
 
 ## -see-also
 
-<a href="..\srb\nf-srb-scsiportstallexecution.md">ScsiPortStallExecution</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564757">ScsiPortStallExecution</a>
  
 
  

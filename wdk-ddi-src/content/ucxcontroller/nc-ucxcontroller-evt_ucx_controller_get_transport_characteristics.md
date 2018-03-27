@@ -53,22 +53,6 @@ req.product: Windows 10 or later.
  UCX invokes this callback to retrieve the host controller characteristics.
 
 
-## -prototype
-
-
-````
-EVT_UCX_CONTROLLER_GET_TRANSPORT_CHARACTERISTICS EvUcxControllerGetTransportCharacteristics;
-
-NTSTATUS EvUcxControllerGetTransportCharacteristics(
-  _In_  UCXCONTROLLER                             UcxController,
-  _Out_ PUCX_CONTROLLER_TRANSPORT_CHARACTERISTICS UcxControllerTransportCharacteristics
-)
-{ ... }
-
-typedef EVT_UCX_CONTROLLER_GET_TRANSPORT_CHARACTERISTICS *PFN_UCX_CONTROLLER_GET_TRANSPORT_CHARACTERISTICS;
-````
-
-
 ## -parameters
 
 
@@ -81,7 +65,7 @@ typedef EVT_UCX_CONTROLLER_GET_TRANSPORT_CHARACTERISTICS *PFN_UCX_CONTROLLER_GET
 
 ### -param UcxControllerTransportCharacteristics [out]
 
-A pointer to a <a href="..\ucxcontroller\ns-ucxcontroller-_ucx_controller_transport_characteristics.md">UCX_CONTROLLER_TRANSPORT_CHARACTERISTICS</a> structure that the client driver for the host controller fills with transport characteristics.
+A pointer to a <a href="https://msdn.microsoft.com/9F267427-8D70-45D5-A8E6-67A1C6B73CDB">UCX_CONTROLLER_TRANSPORT_CHARACTERISTICS</a> structure that the client driver for the host controller fills with transport characteristics.
 
 
 ## -returns
@@ -99,17 +83,17 @@ If the operation is successful, the callback function must return STATUS_SUCCESS
 
 The UCX client driver registers its implementation with the USB host controller extension (UCX) by calling the <a href="https://msdn.microsoft.com/library/windows/hardware/mt188033">UcxControllerCreate</a> method.
 
-This callback function is optional. Whenever transport characteristics change, the client driver is responsible for notifying UCX that one of the characteristics have changed using a new function <a href="..\ucxcontroller\nf-ucxcontroller-ucxcontrollernotifytransportcharacteristicschange.md">UcxControllerNotifyTransportCharacteristicsChange</a>. 
+This callback function is optional. Whenever transport characteristics change, the client driver is responsible for notifying UCX that one of the characteristics have changed using a new function <a href="https://msdn.microsoft.com/DB49DF98-8A5B-4528-B312-63CE3DFABEF2">UcxControllerNotifyTransportCharacteristicsChange</a>. 
 
 
 
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt188033">UcxControllerCreate</a>
-
-
-
  
 
  

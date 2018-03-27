@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: ndis.h
+req.lib: 
 req.dll: 
 req.irql: Any level
 topic_type:
@@ -53,17 +53,6 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
   value.
 
 
-## -syntax
-
-
-````
-VOID NdisSetPhysicalAddressLow(
-  [in] NDIS_PHYSICAL_ADDRESS PhysicalAddress,
-  [in] ULONG                 Value
-);
-````
-
-
 ## -parameters
 
 
@@ -81,11 +70,6 @@ Specifies the value to be written into the low-order part of the address.
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisgetphysicaladdresslow.md">NdisGetPhysicalAddressLow</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndissetphysicaladdresshigh.md">NdisSetPhysicalAddressHigh</a>
 
 
 
@@ -93,6 +77,11 @@ Specifies the value to be written into the low-order part of the address.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562654">NdisGetPhysicalAddressLow</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564551">NdisSetPhysicalAddressHigh</a>
  
 
  

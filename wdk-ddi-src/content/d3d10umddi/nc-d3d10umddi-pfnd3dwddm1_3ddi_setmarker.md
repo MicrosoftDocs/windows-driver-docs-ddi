@@ -52,19 +52,6 @@ req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 Notifies the user-mode display driver that it must generate a new time stamp if any GPU work has completed since the last call to <i>SetMarker</i>.
 
 
-## -prototype
-
-
-````
-PFND3DWDDM1_3DDI_SETMARKER SetMarker;
-
-_Check_return_ HRESULT APIENTRY* SetMarker(
-  _In_ D3D10DDI_HDEVICE hDevice
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -89,10 +76,10 @@ A handle to the display device (graphics context).
 
 
 
-If the marker event type from the  <i>Type</i> parameter of the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3dwddm1_3ddi_setmarkermode.md">SetMarkerMode</a> function is not <b>D3DWDDM1_3DDI_MARKER_TYPE_NONE</b>, the user-mode display driver must perform this procedure with each call to <i>SetMarker</i>:
+If the marker event type from the  <i>Type</i> parameter of the <a href="https://msdn.microsoft.com/18B13509-7692-4336-937C-264B31A6FB78">SetMarkerMode</a> function is not <b>D3DWDDM1_3DDI_MARKER_TYPE_NONE</b>, the user-mode display driver must perform this procedure with each call to <i>SetMarker</i>:
 
 <ol>
-<li>Increment the value of the <b>APISequenceNumber</b> member of the <a href="..\d3dumddi\ns-d3dumddi-d3dddicb_logumdmarker.md">D3DDDICB_LOGUMDMARKER</a> structure.</li>
+<li>Increment the value of the <b>APISequenceNumber</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/dn535965">D3DDDICB_LOGUMDMARKER</a> structure.</li>
 <li>Determine which contexts associated with single-threaded device driver interface (DDI) render calls submitted work with the last call to <i>SetMarker</i>. For each such context:<ol>
 <li>If the command buffer for the context is empty, do nothing.</li>
 <li>Otherwise:<ul>
@@ -110,10 +97,10 @@ If the marker event type from the  <i>Type</i> parameter of the <a href="..\d3d1
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3dwddm1_3ddi_setmarkermode.md">SetMarkerMode</a>
 
 
 
+<a href="https://msdn.microsoft.com/18B13509-7692-4336-937C-264B31A6FB78">SetMarkerMode</a>
  
 
  

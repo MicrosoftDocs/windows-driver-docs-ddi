@@ -52,19 +52,6 @@ req.typenames: TOKEN_TYPE
 The <b>CcGetDirtyPages</b> routine searches for dirty pages in all files that match a given log handle. 
 
 
-## -syntax
-
-
-````
-LARGE_INTEGER CcGetDirtyPages(
-  _In_ PVOID               LogHandle,
-  _In_ PDIRTY_PAGE_ROUTINE DirtyPageRoutine,
-  _In_ PVOID               Context1,
-  _In_ PVOID               Context2
-);
-````
-
-
 ## -parameters
 
 
@@ -168,21 +155,21 @@ Second context parameter to be passed to the <i>DirtyPageRoutine</i>.
 
 File systems call <b>CcGetDirtyPages</b> to return dirty pages in all files that match a given log handle. <b>CcGetDirtyPages</b> searches for dirty pages in all files that match the given <i>LogHandle</i> and calls the <i>DirtyPageRoutine</i> for each page. 
 
-To set a log handle for a file, use <a href="..\ntifs\nf-ntifs-ccsetloghandleforfile.md">CcSetLogHandleForFile</a>. 
+To set a log handle for a file, use <a href="https://msdn.microsoft.com/library/windows/hardware/ff539217">CcSetLogHandleForFile</a>. 
 
 
 
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-ccsetdirtypinneddata.md">CcSetDirtyPinnedData</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-ccsetloghandleforfile.md">CcSetLogHandleForFile</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539211">CcSetDirtyPinnedData</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539217">CcSetLogHandleForFile</a>
  
 
  

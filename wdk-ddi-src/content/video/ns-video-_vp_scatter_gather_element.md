@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: "<= DISPATCH_LEVEL"
+req.irql: See Remarks section.
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -51,18 +51,6 @@ req.product: Windows 10 or later.
 
 
 The VP_SCATTER_GATHER_ELEMENT structure is used to store information about a single scatter/gather element.
-
-
-## -syntax
-
-
-````
-typedef struct _VP_SCATTER_GATHER_ELEMENT {
-  PHYSICAL_ADDRESS Address;
-  ULONG            Length;
-  ULONG_PTR        Reserved;
-} VP_SCATTER_GATHER_ELEMENT, *PVP_SCATTER_GATHER_ELEMENT;
-````
 
 
 ## -struct-fields
@@ -91,17 +79,17 @@ Reserved for system use.
 
 This structure is available in Windows XP and later.
 
-A VP_SCATTER_GATHER_ELEMENT structure is one element of the <a href="..\video\ns-video-_vp_scatter_gather_list.md">VP_SCATTER_GATHER_LIST</a> structure's array member.
+A VP_SCATTER_GATHER_ELEMENT structure is one element of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff570572">VP_SCATTER_GATHER_LIST</a> structure's array member.
 
 
 
 
 ## -see-also
 
-<a href="..\video\ns-video-_vp_scatter_gather_list.md">VP_SCATTER_GATHER_LIST</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570572">VP_SCATTER_GATHER_LIST</a>
  
 
  

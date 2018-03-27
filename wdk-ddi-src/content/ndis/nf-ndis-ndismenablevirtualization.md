@@ -53,20 +53,6 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 A miniport driver calls the <b>NdisMEnableVirtualization</b> function during the creation or deletion of a NIC switch on the network adapter. By calling this function, the driver configures the single root I/O virtualization (SR-IOV) Extended Capability structure in the PCI Express (PCIe) configuration space for the network adapter's Physical Function (PF).
 <div class="alert"><b>Note</b>  <b>NdisMEnableVirtualization</b> must only be called by the miniport driver for the network adapter's PF.</div><div> </div>
 
-## -syntax
-
-
-````
-NDIS_STATUS NdisMEnableVirtualization(
-  _In_ NDIS_HANDLE NdisMiniportHandle,
-  _In_ USHORT      NumVFs,
-  _In_ BOOLEAN     EnableVFMigration,
-  _In_ BOOLEAN     EnableMigrationInterrupt,
-  _In_ BOOLEAN     EnableVirtualization
-);
-````
-
-
 ## -parameters
 
 
@@ -76,7 +62,7 @@ NDIS_STATUS NdisMEnableVirtualization(
 
 The network adapter handle that NDIS passed to the 
      <i>MiniportAdapterHandle</i> parameter of 
-     <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>.
+     <a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a>.
 
 
 ### -param NumVFs [in]
@@ -248,11 +234,14 @@ The VBD that runs in the Hyper-V parent partition's management operating system 
 
 ## -see-also
 
+
+
+
+<b></b>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451005">EnableVirtualization</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451817">OID_NIC_SWITCH_DELETE_SWITCH</a>
 
 
 
@@ -264,10 +253,7 @@ The VBD that runs in the Hyper-V parent partition's management operating system 
 
 
 
-<b></b>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451817">OID_NIC_SWITCH_DELETE_SWITCH</a>
  
 
  

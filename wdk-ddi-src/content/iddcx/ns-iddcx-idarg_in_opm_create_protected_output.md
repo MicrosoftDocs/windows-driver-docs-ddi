@@ -53,16 +53,6 @@ Gives information about the video output semantics for the OPM  context that wil
              
 
 
-## -syntax
-
-
-````
-typedef struct IDARG_IN_OPM_CREATE_PROTECTED_OUTPUT {
-  OPM_VIDEO_OUTPUT_SEMANTICS VideoOutputSemantics;
-} IDARG_IN_OPM_CREATE_PROTECTED_OUTPUT, *IDARG_IN_OPM_CREATE_PROTECTED_OUTPUT;
-````
-
-
 ## -struct-fields
 
 

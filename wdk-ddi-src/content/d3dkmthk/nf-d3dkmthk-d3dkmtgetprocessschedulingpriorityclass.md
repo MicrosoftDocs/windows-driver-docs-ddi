@@ -55,17 +55,6 @@ req.typenames: D3DKMT_DRIVERVERSION
 The <b>D3DKMTGetProcessSchedulingPriorityClass</b> function retrieves the scheduling priority for a process.
 
 
-## -syntax
-
-
-````
-NTSTATUS D3DKMTGetProcessSchedulingPriorityClass(
-  _In_  HANDLE                         hProcess,
-  _Out_ D3DKMT_SCHEDULINGPRIORITYCLASS *pPriority
-);
-````
-
-
 ## -parameters
 
 
@@ -85,7 +74,7 @@ A handle to the process for which scheduling priority is set.
 
 #### - pPriority [out]
 
-A pointer to a variable that receives a <a href="..\d3dkmthk\ne-d3dkmthk-_d3dkmt_schedulingpriorityclass.md">D3DKMT_SCHEDULINGPRIORITYCLASS</a>-typed value that indicates the priority level for the process.
+A pointer to a variable that receives a <a href="https://msdn.microsoft.com/library/windows/hardware/ff548248">D3DKMT_SCHEDULINGPRIORITYCLASS</a>-typed value that indicates the priority level for the process.
 
 
 ## -returns
@@ -131,14 +120,14 @@ This function might also return other <b>NTSTATUS</b> values.
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtsetprocessschedulingpriorityclass.md">D3DKMTSetProcessSchedulingPriorityClass</a>
 
 
 
-<a href="..\d3dkmthk\ne-d3dkmthk-_d3dkmt_schedulingpriorityclass.md">D3DKMT_SCHEDULINGPRIORITYCLASS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547182">D3DKMTSetProcessSchedulingPriorityClass</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548248">D3DKMT_SCHEDULINGPRIORITYCLASS</a>
  
 
  

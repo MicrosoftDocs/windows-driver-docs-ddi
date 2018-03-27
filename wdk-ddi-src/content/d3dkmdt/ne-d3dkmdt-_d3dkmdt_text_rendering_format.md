@@ -52,16 +52,6 @@ req.typenames: D3DKMDT_TEXT_RENDERING_FORMAT
 The D3DKMDT_TEXT_RENDERING_FORMAT enumeration is currently not used.
 
 
-## -syntax
-
-
-````
-typedef enum _D3DKMDT_TEXT_RENDERING_FORMAT { 
-  D3DKMDT_TRF_UNINITIALIZED  = 0
-} D3DKMDT_TEXT_RENDERING_FORMAT;
-````
-
-
 ## -enum-fields
 
 
@@ -76,17 +66,17 @@ Indicates that a variable of type D3DKMDT_TEXT_RENDERING_FORMAT has not yet been
 
 
 
-The <b>Format.Text</b> member of the <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_vidpn_source_mode.md">D3DKMDT_VIDPN_SOURCE_MODE</a> structure is a D3DKMDT_TEXT_RENDERING_FORMAT value.
+The <b>Format.Text</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff546724">D3DKMDT_VIDPN_SOURCE_MODE</a> structure is a D3DKMDT_TEXT_RENDERING_FORMAT value.
 
 
 
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff570558">VidPn Source Mode Set Interface</a>
-
-
-
  
 
  

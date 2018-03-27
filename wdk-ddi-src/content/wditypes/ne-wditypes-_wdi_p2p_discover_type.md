@@ -53,19 +53,6 @@ req.product: Windows 10 or later.
 The WDI_P2P_DISCOVER_TYPE enumeration defines the Wi-Fi Direct discovery types.
 
 
-## -syntax
-
-
-````
-typedef enum _WDI_P2P_DISCOVER_TYPE { 
-  WDI_P2P_DISCOVER_TYPE_SCAN_ONLY             = 1,
-  WDI_P2P_DISCOVER_TYPE_FIND_ONLY             = 2,
-  WDI_P2P_DISCOVER_TYPE_AUTO                  = 3,
-  WDI_P2P_DISCOVER_TYPE_SCAN_SOCIAL_CHANNELS  = 4
-} WDI_P2P_DISCOVER_TYPE;
-````
-
-
 ## -enum-fields
 
 

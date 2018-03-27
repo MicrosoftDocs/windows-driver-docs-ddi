@@ -52,20 +52,6 @@ req.typenames: STORAGE_HW_FIRMWARE_ACTIVATE, *PSTORAGE_HW_FIRMWARE_ACTIVATE
 This structure contains information about the downloaded firmware to activate.
 
 
-## -syntax
-
-
-````
-typedef struct _STORAGE_HW_FIRMWARE_ACTIVATE {
-  ULONG Version;
-  ULONG Size;
-  ULONG Flags;
-  UCHAR Slot;
-  UCHAR Reserved0[3];
-} STORAGE_HW_FIRMWARE_ACTIVATE, *PSTORAGE_HW_FIRMWARE_ACTIVATE;
-````
-
-
 ## -struct-fields
 
 

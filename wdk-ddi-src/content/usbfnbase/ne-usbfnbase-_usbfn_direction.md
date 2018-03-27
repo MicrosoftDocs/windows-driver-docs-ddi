@@ -53,21 +53,6 @@ req.product: Windows 10 or later.
 Defines the USB data transfer direction types.
 
 
-## -syntax
-
-
-````
-typedef enum _USBFN_DIRECTION { 
-  UsbfnDirectionMinimum  = 0x0,
-  UsbfnDirectionIn,
-  UsbfnDirectionOut,
-  UsbfnDirectionTx       = UsbfnDirectionIn,
-  UsbfnDirectionRx       = UsbfnDirectionOut,
-  UsbfnDirectionMaximum
-} USBFN_DIRECTION;
-````
-
-
 ## -enum-fields
 
 

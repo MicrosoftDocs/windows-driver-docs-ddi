@@ -50,17 +50,9 @@ req.typenames: DRMRIGHTS, *PDRMRIGHTS
 ## -description
 
 
-Do not use the <b>DxApiGetVersion</b> function; use the <a href="..\dxapi\nf-dxapi-dxapi.md">DxApi</a> function along with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550637">DD_DXAPI_GETVERSIONNUMBER</a> function identifier instead.
+Do not use the <b>DxApiGetVersion</b> function; use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff557364">DxApi</a> function along with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550637">DD_DXAPI_GETVERSIONNUMBER</a> function identifier instead.
 
 The <b>DxApiGetVersion</b> function returns a Direct Sound version number of 4.02.
-
-
-## -syntax
-
-
-````
-ULONG DxApiGetVersion(void);
-````
 
 
 ## -parameters
@@ -81,11 +73,6 @@ Returns the major and minor version numbers of Direct Sound as 4 and 2 respectiv
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550637">DD_DXAPI_GETVERSIONNUMBER</a>
-
-
-
-<a href="..\dxapi\nf-dxapi-dxapi.md">DxApi</a>
 
 
 
@@ -93,6 +80,11 @@ Returns the major and minor version numbers of Direct Sound as 4 and 2 respectiv
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550637">DD_DXAPI_GETVERSIONNUMBER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557364">DxApi</a>
  
 
  

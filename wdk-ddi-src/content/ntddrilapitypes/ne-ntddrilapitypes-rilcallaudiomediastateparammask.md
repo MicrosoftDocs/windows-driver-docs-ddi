@@ -52,18 +52,6 @@ req.typenames: RILCALLAUDIOMEDIASTATEPARAMMASK
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef enum _RILCALLAUDIOMEDIASTATEPARAMMASK { 
-  RIL_PARAM_CALLAUDIO_QUALITY,
-  RIL_PARAM_CALLAUDIO_FLAGS,
-  RIL_PARAM_CALLAUDIO_ALL
-} RILCALLAUDIOMEDIASTATEPARAMMASK;
-````
-
-
 ## -enum-fields
 
 

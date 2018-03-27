@@ -53,22 +53,6 @@ req.product: Windows 10 or later.
 The client driver's implementation that UCX calls to retrieve the current 32-bit frame number.
 
 
-## -prototype
-
-
-````
-EVT_UCX_CONTROLLER_GET_CURRENT_FRAMENUMBER EvtUcxControllerGetCurrentFrameNumber;
-
-NTSTATUS EvtUcxControllerGetCurrentFrameNumber(
-  _In_  UCXCONTROLLER UcxController,
-  _Out_ PULONG        FrameNumber
-)
-{ ... }
-
-typedef EVT_UCX_CONTROLLER_GET_CURRENT_FRAMENUMBER PEVT_UCX_CONTROLLER_GET_CURRENT_FRAMENUMBER;
-````
-
-
 ## -parameters
 
 
@@ -136,10 +120,10 @@ Controller_EvtControllerGetCurrentFrameNumber(
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt188033">UcxControllerCreate</a>
-
-
-
  
 
  

@@ -53,18 +53,6 @@ req.product: Windows 10 or later.
 Defines values for endpoint offloading options in the USB device or host controller.
 
 
-## -syntax
-
-
-````
-typedef enum _USBD_ENDPOINT_OFFLOAD_MODE { 
-  UsbdEndpointOffloadModeNotSupported  = 0,
-  UsbdEndpointOffloadSoftwareAssisted,
-  UsbdEndpointOffloadHardwareAssisted
-} USBD_ENDPOINT_OFFLOAD_MODE;
-````
-
-
 ## -enum-fields
 
 
@@ -87,10 +75,10 @@ Endpoint offloading is handled in the USB device or host controller hardware.
 
 ## -see-also
 
-<a href="..\usbdlib\nf-usbdlib-usbd_queryusbcapability.md">USBD_QueryUsbCapability</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406230">USBD_QueryUsbCapability</a>
  
 
  

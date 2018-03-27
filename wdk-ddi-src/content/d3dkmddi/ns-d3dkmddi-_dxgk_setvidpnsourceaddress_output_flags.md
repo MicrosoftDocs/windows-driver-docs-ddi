@@ -52,22 +52,6 @@ req.typenames: DXGK_SETVIDPNSOURCEADDRESS_OUTPUT_FLAGS
 A structure containing the flags used to set the VidPN source address.
 
 
-## -syntax
-
-
-````
-typedef struct _DXGK_SETVIDPNSOURCEADDRESS_OUTPUT_FLAGS {
-  union {
-    struct {
-      UINT PrePresentNeeded  :1;
-      UINT Reserved  :31;
-    };
-    UINT Value;
-  };
-} DXGK_SETVIDPNSOURCEADDRESS_OUTPUT_FLAGS;
-````
-
-
 ## -struct-fields
 
 

@@ -52,20 +52,6 @@ req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
 <b>DxgkDdiMapCpuHostAperture</b> is called to map an allocation that is resident in a local memory segment into the CPU host aperture in order to make it visible to the CPU.
 
 
-## -prototype
-
-
-````
-DXGKDDI_MAPCPUHOSTAPERTURE DxgkDdiMapCpuHostAperture;
-
-NTSTATUS APIENTRY DxgkDdiMapCpuHostAperture(
-  _In_ HANDLE                     hAdapter,
-  _In_ DXGKARG_MAPCPUHOSTAPERTURE *Map
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -87,7 +73,7 @@ A handle to the display adapter.
 
 #### - Map [in]
 
-The <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_mapcpuhostaperture.md">DXGKARG_MAPCPUHOSTAPERTURE</a> structure that describes the operation.
+The <a href="https://msdn.microsoft.com/library/windows/hardware/dn906822">DXGKARG_MAPCPUHOSTAPERTURE</a> structure that describes the operation.
 
 
 ## -returns

@@ -52,20 +52,6 @@ req.typenames: TOKEN_TYPE
 The <b>CcCopyWrite</b> routine copies data from a user buffer to a cached file.
 
 
-## -syntax
-
-
-````
-BOOLEAN CcCopyWrite(
-  _In_ PFILE_OBJECT   FileObject,
-  _In_ PLARGE_INTEGER FileOffset,
-  _In_ ULONG          Length,
-  _In_ BOOLEAN        Wait,
-  _In_ PVOID          Buffer
-);
-````
-
-
 ## -parameters
 
 
@@ -115,17 +101,17 @@ If <i>Wait</i> is <b>FALSE</b>, <b>CcCopyWrite</b> will refuse to block, and wil
 
 If any failure occurs, <b>CcCopyWrite</b> raises a status exception for that particular failure. For example, if a pool allocation failure occurs, <b>CcCopyWrite</b> raises a STATUS_INSUFFICIENT_RESOURCES exception; if an I/O error occurs, <b>CcCopyWrite</b> raises the status exception of the I/O error. Therefore, to gain control if a failure occurs, the driver should wrap the call to <b>CcCopyWrite</b> in a <b>try-except</b> or <b>try-finally</b> statement.
 
-To cache a file, use <a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a>.
+To cache a file, use <a href="https://msdn.microsoft.com/library/windows/hardware/ff539135">CcInitializeCacheMap</a>.
 
 
 
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539135">CcInitializeCacheMap</a>
  
 
  

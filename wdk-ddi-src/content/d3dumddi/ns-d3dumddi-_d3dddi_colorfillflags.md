@@ -52,22 +52,6 @@ req.typenames: D3DDDI_COLORFILLFLAGS
 The D3DDDI_COLORFILLFLAGS structure describes how to color-fill a rectangle on a surface.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DDDI_COLORFILLFLAGS {
-  union {
-    struct {
-      UINT PresentToDwm  :1;
-      UINT Reserved  :31;
-    };
-    UINT   Value;
-  };
-} D3DDDI_COLORFILLFLAGS;
-````
-
-
 ## -struct-fields
 
 
@@ -92,14 +76,14 @@ A member in the union that is contained in D3DDDI_COLORFILLFLAGS that can hold o
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_colorfill.md">D3DDDIARG_COLORFILL</a>
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_colorfill.md">ColorFill</a>
+<a href="https://msdn.microsoft.com/c120421d-6a10-4d37-b936-98dac75e236b">ColorFill</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542907">D3DDDIARG_COLORFILL</a>
  
 
  

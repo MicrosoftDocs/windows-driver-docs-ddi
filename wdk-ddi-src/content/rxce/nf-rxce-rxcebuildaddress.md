@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
@@ -51,20 +51,6 @@ req.product: Windows 10 or later.
 
 
 <b>RxCeBuildAddress</b> associates a transport address with a transport binding.
-
-
-## -syntax
-
-
-````
-NTSTATUS RxCeBuildAddress(
-  _Inout_ PRXCE_ADDRESS               pAddress,
-  _In_    PRXCE_TRANSPORT             pTransport,
-  _In_    PTRANSPORT_ADDRESS          pTransportAddress,
-  _In_    PRXCE_ADDRESS_EVENT_HANDLER pHandler,
-  _In_    PVOID                       pEventContext
-);
-````
 
 
 ## -parameters
@@ -147,10 +133,10 @@ When <b>RxCeBuildAddress</b> is successful, the data members in the RXCE_ADDRESS
 
 ## -see-also
 
-<a href="..\rxce\nf-rxce-rxceteardownaddress.md">RxCeTearDownAddress</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553488">RxCeTearDownAddress</a>
  
 
  

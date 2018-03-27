@@ -52,25 +52,6 @@ req.typenames: GPIO_CONNECT_IO_PINS_PARAMETERS, *PGPIO_CONNECT_IO_PINS_PARAMETER
 The <b>GPIO_CONNECT_IO_PINS_PARAMETERS</b> structure describes a logical connection to a set of general-purpose I/O (GPIO) pins and specifies whether to configure these pins as data inputs or outputs.
 
 
-## -syntax
-
-
-````
-typedef struct _GPIO_CONNECT_IO_PINS_PARAMETERS {
-  BANK_ID                   BankId;
-  PPIN_NUMBER               PinNumberTable;
-  USHORT                    PinCount;
-  GPIO_CONNECT_IO_PINS_MODE ConnectMode;
-  UCHAR                     PullConfiguration;
-  USHORT                    DebounceTimeout;
-  USHORT                    DriveStrength;
-  PVOID                     VendorData;
-  ULONG                     VendorDataLength;
-  ULONG                     ConnectFlags;
-} GPIO_CONNECT_IO_PINS_PARAMETERS, *PGPIO_CONNECT_IO_PINS_PARAMETERS;
-````
-
-
 ## -struct-fields
 
 
@@ -145,6 +126,9 @@ The <i>ClientParameters</i> parameter to the <a href="https://msdn.microsoft.com
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439358">CLIENT_CONTROLLER_BASIC_INFORMATION</a>
 
 
@@ -153,7 +137,7 @@ The <i>ClientParameters</i> parameter to the <a href="https://msdn.microsoft.com
 
 
 
-<a href="https://msdn.microsoft.com/B8091F53-C9B7-4A22-BDE3-4156370ABA83">GPIO_PIN_PULL_CONFIGURATION_XXX</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439399">CLIENT_QueryControllerBasicInformation</a>
 
 
 
@@ -161,10 +145,7 @@ The <i>ClientParameters</i> parameter to the <a href="https://msdn.microsoft.com
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439399">CLIENT_QueryControllerBasicInformation</a>
-
-
-
+<a href="https://msdn.microsoft.com/B8091F53-C9B7-4A22-BDE3-4156370ABA83">GPIO_PIN_PULL_CONFIGURATION_XXX</a>
  
 
  

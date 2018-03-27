@@ -52,20 +52,6 @@ req.typenames: MSiSCSI_SecurityCapabilities, *PMSiSCSI_SecurityCapabilities
 The MSiSCSI_SecurityCapabilities structure describes the security capabilities of an initiator. 
 
 
-## -syntax
-
-
-````
-typedef struct _MSiSCSI_SecurityCapabilities {
-  BOOLEAN ProtectiScsiTraffic;
-  BOOLEAN ProtectiSNSTraffic;
-  BOOLEAN CertificatesSupported;
-  ULONG   EncryptionAvailableCount;
-  ULONG   EncryptionAvailable[1];
-} MSiSCSI_SecurityCapabilities, *PMSiSCSI_SecurityCapabilities;
-````
-
-
 ## -struct-fields
 
 
@@ -93,7 +79,7 @@ The number of encryption types that the initiator supports.
 
 ### -field EncryptionAvailable
 
-A variable length array of <a href="..\iscsicfg\ne-iscsicfg-piscsi_encryption_types.md">ISCSI_ENCRYPTION_TYPES</a> structures, which indicate types of encryption that the initiator supports. 
+A variable length array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff561528">ISCSI_ENCRYPTION_TYPES</a> structures, which indicate types of encryption that the initiator supports. 
 
 
 ## -remarks
@@ -111,14 +97,14 @@ Initiators must register the MSiSCSI_SecurityCapabilities class using the name o
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561528">ISCSI_ENCRYPTION_TYPES</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563131">MSiSCSI_SecurityCapabilities WMI Class</a>
-
-
-
-<a href="..\iscsicfg\ne-iscsicfg-piscsi_encryption_types.md">ISCSI_ENCRYPTION_TYPES</a>
-
-
-
  
 
  

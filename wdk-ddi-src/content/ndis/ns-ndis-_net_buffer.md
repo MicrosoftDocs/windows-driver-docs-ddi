@@ -52,29 +52,6 @@ req.typenames: NET_BUFFER, *PNET_BUFFER, NET_BUFFER, *PNET_BUFFER
 The NET_BUFFER structure specifies data that is transmitted or received over the network.
 
 
-## -syntax
-
-
-````
-typedef struct _NET_BUFFER {
-  NET_BUFFER_HEADER     NetBufferHeader;
-  USHORT                ChecksumBias;
-  USHORT                Reserved;
-  NDIS_HANDLE           NdisPoolHandle;
-  PVOID                 NdisReserved[2];
-  PVOID                 ProtocolReserved[6];
-  PVOID                 MiniportReserved[4];
-  NDIS_PHYSICAL_ADDRESS DataPhysicalAddress;
-#if (NDIS_SUPPORT_NDIS620)
-  union {
-    PNET_BUFFER_SHARED_MEMORY SharedMemoryInfo;
-    PSCATTER_GATHER_LIST      ScatterGatherList;
-  };
-#endif 
-} NET_BUFFER, *PNET_BUFFER;
-````
-
-
 ## -struct-fields
 
 
@@ -152,7 +129,7 @@ The physical address of the data portion of a frame. This member should be to ze
       NDIS_NBL_FLAGS_SPLIT_AT_UPPER_LAYER_PROTOCOL_HEADER or
       NDIS_NBL_FLAGS_SPLIT_AT_UPPER_LAYER_PROTOCOL_PAYLOAD flag is set in the 
       <b>NblFlags</b> member of the 
-      <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure that is
+      <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structure that is
       associated with the NET_BUFFER.
 
 <div class="alert"><b>Note</b>  A miniport driver can set the 
@@ -164,7 +141,7 @@ The physical address of the data portion of a frame. This member should be to ze
 #### - NetBufferHeader
 
 A 
-     <a href="..\ndis\ns-ndis-_net_buffer_header.md">NET_BUFFER_HEADER</a> structure.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568387">NET_BUFFER_HEADER</a> structure.
 
 
 #### - ScatterGatherList
@@ -175,7 +152,7 @@ The SCATTER_GATHER_LIST structure describes a scatter/gather list for DMA.
 #### - SharedMemoryInfo
 
 A pointer to an 
-      <a href="..\ndis\ns-ndis-_net_buffer_shared_memory.md">
+      <a href="https://msdn.microsoft.com/492bb1cd-fc3e-4e85-9074-32ebbf1fb837">
       NET_BUFFER_SHARED_MEMORY</a> structure.
 
 
@@ -188,24 +165,24 @@ NDIS drivers can call the following functions to allocate and initialize a NET_B
 <ul>
 <li>
 
-<a href="..\ndis\nf-ndis-ndisallocatenetbuffer.md">NdisAllocateNetBuffer</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561607">NdisAllocateNetBuffer</a>
 
 
 </li>
 <li>
 
-<a href="..\ndis\nf-ndis-ndisallocatenetbufferandnetbufferlist.md">
+<a href="https://msdn.microsoft.com/b872eff3-2d0a-4f01-874d-e00e09195801">
        NdisAllocateNetBufferAndNetBufferList</a>
 
 
 </li>
 </ul>
 NDIS drivers can call the 
-    <a href="..\ndis\nf-ndis-ndisallocatenetbufferlistpool.md">
+    <a href="https://msdn.microsoft.com/b117b472-0c26-41a9-b364-3d0cfbd26cc9">
     NdisAllocateNetBufferListPool</a> function and then set the 
     <b>fAllocateNetBuffer</b> member of the 
-    <a href="..\ndis\ns-ndis-_net_buffer_list_pool_parameters.md">NET_BUFFER_LIST_POOL_PARAMETERS</a> structure to <b>TRUE</b> when allocating a 
-    <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure pool. In this
+    <a href="https://msdn.microsoft.com/library/windows/hardware/hh205394">NET_BUFFER_LIST_POOL_PARAMETERS</a> structure to <b>TRUE</b> when allocating a 
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structure pool. In this
     case, a NET_BUFFER structure is preallocated with each NET_BUFFER_LIST structure that the driver
     allocates from the pool.
 
@@ -218,14 +195,14 @@ To access additional data space in the MDL chain, NDIS drivers can call the foll
 <ul>
 <li>
 
-<a href="..\ndis\nf-ndis-ndisretreatnetbufferdatastart.md">
+<a href="https://msdn.microsoft.com/4b58a1dc-8a5a-464b-a2a2-deb952febe25">
        NdisRetreatNetBufferDataStart</a>
 
 
 </li>
 <li>
 
-<a href="..\ndis\nf-ndis-ndisretreatnetbufferlistdatastart.md">
+<a href="https://msdn.microsoft.com/76a1294f-d098-4751-9b59-923993379c6e">
        NdisRetreatNetBufferListDataStart</a>
 
 
@@ -281,7 +258,7 @@ To access members of the NET_BUFFER structure, use the following macros and func
 
 
 
-<a href="..\ndis\nf-ndis-ndisgetpoolfromnetbuffer.md">NdisGetPoolFromNetBuffer</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562657">NdisGetPoolFromNetBuffer</a>
 
 
 For more information on how to use net buffers, see 
@@ -292,40 +269,6 @@ For more information on how to use net buffers, see
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndismsendnetbufferlistscomplete.md">
-   NdisMSendNetBufferListsComplete</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568383">NET_BUFFER_DATA_OFFSET</a>
-
-
-
-<a href="..\wdm\ns-wdm-_scatter_gather_list.md">SCATTER_GATHER_LIST</a>
-
-
-
-<a href="..\ndis\ns-ndis-_net_buffer_header.md">NET_BUFFER_HEADER</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568382">NET_BUFFER_DATA_LENGTH</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisallocatenetbuffer.md">NdisAllocateNetBuffer</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568416">NET_BUFFER_NEXT_NB</a>
-
-
-
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff568380">NET_BUFFER_CURRENT_MDL_OFFSET</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568415">NET_BUFFER_MINIPORT_RESERVED</a>
 
 
 
@@ -333,26 +276,19 @@ For more information on how to use net buffers, see
 
 
 
-<a href="..\ndis\nf-ndis-ndisretreatnetbufferdatastart.md">
-   NdisRetreatNetBufferDataStart</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568379">NET_BUFFER_CURRENT_MDL</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisallocatenetbufferandnetbufferlist.md">
-   NdisAllocateNetBufferAndNetBufferList</a>
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff568380">NET_BUFFER_CURRENT_MDL_OFFSET</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisallocatenetbufferlistpool.md">
-   NdisAllocateNetBufferListPool</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568382">NET_BUFFER_DATA_LENGTH</a>
 
 
 
-<a href="..\ndis\ns-ndis-_net_buffer_list_pool_parameters.md">NET_BUFFER_LIST_POOL_PARAMETERS</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568417">NET_BUFFER_PROTOCOL_RESERVED</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568383">NET_BUFFER_DATA_OFFSET</a>
 
 
 
@@ -360,23 +296,64 @@ For more information on how to use net buffers, see
 
 
 
-<a href="..\ndis\nf-ndis-ndisretreatnetbufferlistdatastart.md">
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568387">NET_BUFFER_HEADER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh205394">NET_BUFFER_LIST_POOL_PARAMETERS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568415">NET_BUFFER_MINIPORT_RESERVED</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568416">NET_BUFFER_NEXT_NB</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568417">NET_BUFFER_PROTOCOL_RESERVED</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561607">NdisAllocateNetBuffer</a>
+
+
+
+<a href="https://msdn.microsoft.com/b872eff3-2d0a-4f01-874d-e00e09195801">
+   NdisAllocateNetBufferAndNetBufferList</a>
+
+
+
+<a href="https://msdn.microsoft.com/b117b472-0c26-41a9-b364-3d0cfbd26cc9">
+   NdisAllocateNetBufferListPool</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562657">NdisGetPoolFromNetBuffer</a>
+
+
+
+<a href="https://msdn.microsoft.com/33890582-5eba-4cc1-a0d9-ec07f18da453">
+   NdisMSendNetBufferListsComplete</a>
+
+
+
+<a href="https://msdn.microsoft.com/4b58a1dc-8a5a-464b-a2a2-deb952febe25">
+   NdisRetreatNetBufferDataStart</a>
+
+
+
+<a href="https://msdn.microsoft.com/76a1294f-d098-4751-9b59-923993379c6e">
    NdisRetreatNetBufferListDataStart</a>
 
 
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568379">NET_BUFFER_CURRENT_MDL</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisgetpoolfromnetbuffer.md">NdisGetPoolFromNetBuffer</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563664">SCATTER_GATHER_LIST</a>
  
 
  

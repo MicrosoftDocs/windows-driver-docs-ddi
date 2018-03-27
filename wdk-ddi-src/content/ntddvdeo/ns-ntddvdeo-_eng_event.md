@@ -52,17 +52,6 @@ req.typenames: "*PEVENT, ENG_EVENT, *PENG_EVENT"
 The ENG_EVENT structure is reserved for system use.
 
 
-## -syntax
-
-
-````
-typedef struct _ENG_EVENT {
-  PVOID pKEvent;
-  ULONG fFlags;
-} ENG_EVENT, *PENG_EVENT;
-````
-
-
 ## -struct-fields
 
 

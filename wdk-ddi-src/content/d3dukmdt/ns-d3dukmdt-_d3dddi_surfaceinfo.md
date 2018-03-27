@@ -52,21 +52,6 @@ req.typenames: D3DDDI_SURFACEINFO
 The D3DDDI_SURFACEINFO structure describes a resource type, such as a surface.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DDDI_SURFACEINFO {
-  UINT       Width;
-  UINT       Height;
-  UINT       Depth;
-  const VOID *pSysMem;
-  UINT       SysMemPitch;
-  UINT       SysMemSlicePitch;
-} D3DDDI_SURFACEINFO;
-````
-
-
 ## -struct-fields
 
 
@@ -91,7 +76,7 @@ typedef struct _D3DDDI_SURFACEINFO {
 
 [in] A pointer to a buffer that contains the contents of the resource if the resource exists in system memory and <b>NULL</b> if the resource exists in video memory.
 
-Note that this member is valid only if the <b>Pool</b> member of the <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddiarg_createresource.md">D3DDDIARG_CREATERESOURCE</a> structure for creating the resource is set to the D3DDDIPOOL_SYSTEMMEM value.
+Note that this member is valid only if the <b>Pool</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff542963">D3DDDIARG_CREATERESOURCE</a> structure for creating the resource is set to the D3DDDIPOOL_SYSTEMMEM value.
 
 
 ### -field SysMemPitch
@@ -106,14 +91,14 @@ Note that this member is valid only if the <b>Pool</b> member of the <a href="..
 
 ## -see-also
 
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddiarg_createresource.md">D3DDDIARG_CREATERESOURCE</a>
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createresource.md">CreateResource</a>
+<a href="https://msdn.microsoft.com/5b74c989-1a62-4415-a19a-dd0ba2fcff83">CreateResource</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542963">D3DDDIARG_CREATERESOURCE</a>
  
 
  

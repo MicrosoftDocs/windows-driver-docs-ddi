@@ -52,16 +52,6 @@ req.typenames: D3DDDIARG_DRAWTRIPATCH
 The D3DDDIARG_DRAWTRIPATCH structure describes a triangular patch to draw. 
 
 
-## -syntax
-
-
-````
-typedef struct _D3DDDIARG_DRAWTRIPATCH {
-  UINT Handle;
-} D3DDDIARG_DRAWTRIPATCH;
-````
-
-
 ## -struct-fields
 
 
@@ -76,17 +66,17 @@ typedef struct _D3DDDIARG_DRAWTRIPATCH {
 
 
 
-The <b>Handle</b> member refers to the patch surface, so that the next time the patch surface is drawn, the Microsoft Direct3D runtime is not required to re-specify the D3DTRIPATCH_INFO data structure for the patch surface. The user-mode display driver can precompute and cache forward-difference coefficients and any other information, which allows subsequent calls to the driver's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_drawtripatch.md">DrawTriPatch</a> function that use the same handle to run more efficiently.
+The <b>Handle</b> member refers to the patch surface, so that the next time the patch surface is drawn, the Microsoft Direct3D runtime is not required to re-specify the D3DTRIPATCH_INFO data structure for the patch surface. The user-mode display driver can precompute and cache forward-difference coefficients and any other information, which allows subsequent calls to the driver's <a href="https://msdn.microsoft.com/98e5f2c5-2795-4226-b5c0-9498b37c22df">DrawTriPatch</a> function that use the same handle to run more efficiently.
 
 
 
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_drawtripatch.md">DrawTriPatch</a>
 
 
 
+<a href="https://msdn.microsoft.com/98e5f2c5-2795-4226-b5c0-9498b37c22df">DrawTriPatch</a>
  
 
  

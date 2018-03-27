@@ -55,21 +55,6 @@ The
   path into a single packet.
 <div class="alert"><b>Note</b>  <b>FwpsReassembleForwardFragmentGroup0</b> is a specific version of <b>FwpsReassembleForwardFragmentGroup</b>. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
 
-## -syntax
-
-
-````
-NTSTATUS NTAPI FwpsReassembleForwardFragmentGroup0(
-  _In_     ADDRESS_FAMILY  addressFamily,
-  _Inout_  NET_BUFFER_LIST *fragmentGroupNblChain,
-  _In_opt_ NDIS_HANDLE     netBufferAndNetBufferListPoolHandle,
-  _In_     ULONG           dataBackFill,
-  _In_     ULONG           flags,
-  _Out_    NET_BUFFER_LIST **reassembledNbl
-);
-````
-
-
 ## -parameters
 
 
@@ -98,7 +83,7 @@ The IPv6 address family.
 ### -param fragmentGroupNblChain [in, out]
 
 A pointer to the 
-     <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> chain of IP fragments to
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> chain of IP fragments to
      reassemble into a single packet. For more information on the usage of
      this parameter, see Remarks.
 
@@ -106,12 +91,12 @@ A pointer to the
 ### -param netBufferAndNetBufferListPoolHandle [in, optional]
 
 An optional 
-     <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure pool handle that
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structure pool handle that
      was previously returned from the 
-     <a href="..\ndis\nf-ndis-ndisallocatenetbufferlistpool.md">
+     <a href="https://msdn.microsoft.com/b117b472-0c26-41a9-b364-3d0cfbd26cc9">
      NdisAllocateNetBufferListPool</a> function. The 
      <b>fAllocateNetBuffer</b> member of the 
-     <a href="..\ndis\ns-ndis-_net_buffer_list_pool_parameters.md">NET_BUFFER_LIST_POOL_PARAMETERS</a> structure that the caller passed to 
+     <a href="https://msdn.microsoft.com/library/windows/hardware/hh205394">NET_BUFFER_LIST_POOL_PARAMETERS</a> structure that the caller passed to 
      <b>NdisAllocateNetBufferListPool</b> must have been set to <b>TRUE</b>, and the 
      <b>DataSize</b> member set to zero. If this parameter is <b>NULL</b>, NDIS uses an internal pool.
 
@@ -131,7 +116,7 @@ Reserved. Callout drivers must set this parameter to zero.
 ### -param reassembledNbl [out]
 
 A pointer to a 
-     <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> pointer that receives the
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> pointer that receives the
      address of the reassembled single network buffer list.
 
 
@@ -155,7 +140,7 @@ The
 </td>
 <td width="60%">
 The list of IP fragments was successfully reassembled into a single 
-       <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure.
+       <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structure.
 
 </td>
 </tr>
@@ -197,22 +182,22 @@ An error occurred.
 The 
     <b>FwpsReassembleForwardFragmentGroup0</b> function assembles a list of IP fragments in the forwarding
     data path, described by a 
-    <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> chain, into a single packet.
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> chain, into a single packet.
     The reassembled packet is a single net buffer list that contains one net buffer and references the input
     fragment chain. This function is typically used by edge firewalls to inspect network packets.
 
 The input chain of IP fragments, 
     <i>fragmentGroupNblChain</i>, must be one that is indicated by the 
-    <a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a> callout function to the
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a> callout function to the
     FWPS_LAYER_IPFORWARD_V4 or FWPS_LAYER_IPFORWARD_V6 layer when the FWP_CONDITION_FLAG_IS_FRAGMENT_GROUP
     flag is set. If this is not the case, the behavior of 
     <b>FwpsReassembleForwardFragmentGroup0</b> is undefined.
 
 Call the 
-    <a href="..\fwpsk\nf-fwpsk-fwpsfreenetbufferlist0.md">FwpsFreeNetBufferList0</a> function to
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff551172">FwpsFreeNetBufferList0</a> function to
     free the 
     <i>reassembledNbl</i> NET_BUFFER_LIST structure and all of the associated 
-    <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a> structures and MDL chains. 
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a> structures and MDL chains. 
     <b>FwpsFreeNetBufferList0</b> dereferences the original input fragment chain.
 
 You can use the following command to view the current "Group Forwarded Fragments" setting for the
@@ -228,31 +213,31 @@ Because
 
 ## -see-also
 
-<a href="..\fwpsk\nf-fwpsk-fwpsfreenetbufferlist0.md">FwpsFreeNetBufferList0</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisallocatenetbufferlistpool.md">
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551172">FwpsFreeNetBufferList0</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh205394">NET_BUFFER_LIST_POOL_PARAMETERS</a>
+
+
+
+<a href="https://msdn.microsoft.com/b117b472-0c26-41a9-b364-3d0cfbd26cc9">
    NdisAllocateNetBufferListPool</a>
 
 
 
-<a href="..\ndis\ns-ndis-_net_buffer_list_pool_parameters.md">NET_BUFFER_LIST_POOL_PARAMETERS</a>
-
-
-
-<a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a>
-
-
-
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
-
-
-
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a>
  
 
  

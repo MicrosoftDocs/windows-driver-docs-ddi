@@ -52,16 +52,6 @@ req.typenames: RILGEOLOCATIONREQUESTACCURACY
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef enum _RILGEOLOCATIONREQUESTACCURACY { 
-  RIL_LOCACCURACY_DEFAULT
-} RILGEOLOCATIONREQUESTACCURACY;
-````
-
-
 ## -enum-fields
 
 

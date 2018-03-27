@@ -52,19 +52,6 @@ req.typenames: D3D12DDI_RESOURCE_TRANSITION_BARRIER_0003
 Describes a transition barrier between subresources.
 
 
-## -syntax
-
-
-````
-typedef struct D3D12DDI_RESOURCE_TRANSITION_BARRIER_0003 {
-  D3D12DDI_HRESOURCE       hResource;
-  UINT                     Subresource;
-  D3D12DDI_RESOURCE_STATES StateBefore;
-  D3D12DDI_RESOURCE_STATES StateAfter;
-} D3D12DDI_RESOURCE_TRANSITION_BARRIER_0003;
-````
-
-
 ## -struct-fields
 
 

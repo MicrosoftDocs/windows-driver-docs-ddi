@@ -53,26 +53,6 @@ req.product: Windows 10 or later.
 The <b>USB_BUS_INTERFACE_USBDI_V2</b> structure is provided by the USB hub driver to allow USB clients to make direct calls to the hub driver without allocating IRPs. 
 
 
-## -syntax
-
-
-````
-typedef struct _USB_BUS_INTERFACE_USBDI_V2 {
-  USHORT                             Size;
-  USHORT                             Version;
-  PVOID                              BusContext;
-  PINTERFACE_REFERENCE               InterfaceReference;
-  PINTERFACE_DEREFERENCE             InterfaceDereference;
-  PUSB_BUSIFFN_GETUSBDI_VERSION      GetUSBDIVersion;
-  PUSB_BUSIFFN_QUERY_BUS_TIME        QueryBusTime;
-  PUSB_BUSIFFN_SUBMIT_ISO_OUT_URB    SubmitIsoOutUrb;
-  PUSB_BUSIFFN_QUERY_BUS_INFORMATION QueryBusInformation;
-  PUSB_BUSIFFN_IS_DEVICE_HIGH_SPEED  IsDeviceHighSpeed;
-  PUSB_BUSIFFN_ENUM_LOG_ENTRY        EnumLogEntry;
-} USB_BUS_INTERFACE_USBDI_V2, *PUSB_BUS_INTERFACE_USBDI_V2;
-````
-
-
 ## -struct-fields
 
 
@@ -143,12 +123,12 @@ Contains information that describes the USB bus and the USB bus driver that expo
 
 ### -field InterfaceReference
 
-Pointer to a routine that increments the number of references to this interface. For more information about this routine, see <a href="..\wudfwdm\nc-wudfwdm-pinterface_reference.md">InterfaceReference</a>. 
+Pointer to a routine that increments the number of references to this interface. For more information about this routine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff547833">InterfaceReference</a>. 
 
 
 ### -field InterfaceDereference
 
-Pointer to a routine that decrements the number of references to this interface. For more information about this routine, see <a href="..\wudfwdm\nc-wudfwdm-pinterface_dereference.md">InterfaceDereference</a>. 
+Pointer to a routine that decrements the number of references to this interface. For more information about this routine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff547829">InterfaceDereference</a>. 
 
 
 ### -field GetUSBDIVersion
@@ -194,7 +174,6 @@ The routines in this structure must be callable at IRQL &gt;= DISPATCH_LEVEL.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
 
 
 
@@ -202,6 +181,7 @@ The routines in this structure must be callable at IRQL &gt;= DISPATCH_LEVEL.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
  
 
  

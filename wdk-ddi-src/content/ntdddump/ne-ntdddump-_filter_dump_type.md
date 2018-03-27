@@ -52,18 +52,6 @@ req.typenames: FILTER_DUMP_TYPE, *PFILTER_DUMP_TYPE
 The FILTER_DUMP_TYPE enumeration indicates the type of dump stack that this instance of the filter driver is loaded on.
 
 
-## -syntax
-
-
-````
-typedef enum _FILTER_DUMP_TYPE { 
-  DumpTypeUndefined    = 0,
-  DumpTypeCrashdump    = 1,
-  DumpTypeHibernation  = 2
-} FILTER_DUMP_TYPE, *PFILTER_DUMP_TYPE;
-````
-
-
 ## -enum-fields
 
 

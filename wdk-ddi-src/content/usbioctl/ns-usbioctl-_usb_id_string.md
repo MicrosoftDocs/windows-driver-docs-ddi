@@ -53,18 +53,6 @@ req.product: Windows 10 or later.
 The <b>USB_ID_STRING</b> structure is used to store a string or multi-string.
 
 
-## -syntax
-
-
-````
-typedef struct _USB_ID_STRING {
-  USHORT  LanguageId;
-  ULONG   LengthInBytes;
-  PWCHAR  Buffer;
-} USB_ID_STRING, *PUSB_ID_STRING;
-````
-
-
 ## -struct-fields
 
 
@@ -101,10 +89,10 @@ The reserved members of this structure must be treated as opaque and are reserve
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
-
-
-
  
 
  

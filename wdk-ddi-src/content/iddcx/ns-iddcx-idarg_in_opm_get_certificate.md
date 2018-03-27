@@ -54,18 +54,6 @@ req.typenames:
              OPM certificate.
 
 
-## -syntax
-
-
-````
-typedef struct IDARG_IN_OPM_GET_CERTIFICATE {
-  OPM_VIDEO_OUTPUT_SEMANTICS                            CertificateType;
-  UINT                                                  CertificateBufferSizeInBytes;
-  _Field_size_full_(CertificateBufferSizeInBytes) PVOID pCertificate;
-} IDARG_IN_OPM_GET_CERTIFICATE, *IDARG_IN_OPM_GET_CERTIFICATE;
-````
-
-
 ## -struct-fields
 
 

@@ -49,18 +49,7 @@ req.typenames: DXGKARG_CONTROLINTERRUPT2
 ## -description
 
 
-The DXGKARG_CONTROLINTERRUPT2 structure is used in <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_controlinterrupt2.md">DxgkDdi_ControlInterrupt2</a> calls to describe the state of interrupts. 
-
-
-## -syntax
-
-
-````
-typedef struct _DXGKARG_CONTROLINTERRUPT2 {
-  DXGK_INTERRUPT_STATE  InterruptState;
-  DXGK_CRTC_VSYNC_STATE CrtcVsyncState;
-} DXGKARG_CONTROLINTTERUPT2;
-````
+The DXGKARG_CONTROLINTERRUPT2 structure is used in <a href="https://msdn.microsoft.com/library/windows/hardware/mt667971">DxgkDdi_ControlInterrupt2</a> calls to describe the state of interrupts. 
 
 
 ## -struct-fields
@@ -87,10 +76,10 @@ Indicates whether  interrupts are enabled for the driver.
 
 ## -see-also
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_controlinterrupt2.md">DxgkDdi_ControlInterrupt2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt667971">DxgkDdi_ControlInterrupt2</a>
  
 
  

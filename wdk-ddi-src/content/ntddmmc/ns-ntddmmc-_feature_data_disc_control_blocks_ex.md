@@ -52,16 +52,6 @@ req.typenames: FEATURE_DATA_DISC_CONTROL_BLOCKS_EX, *PFEATURE_DATA_DISC_CONTROL_
 The FEATURE_DATA_DISC_CONTROL_BLOCKS_EX structure holds the data reported for a Disc Control Block. 
 
 
-## -syntax
-
-
-````
-typedef struct _FEATURE_DATA_DISC_CONTROL_BLOCKS_EX {
-  UCHAR ContentDescriptor[4];
-} FEATURE_DATA_DISC_CONTROL_BLOCKS_EX, *PFEATURE_DATA_DISC_CONTROL_BLOCKS_EX;
-````
-
-
 ## -struct-fields
 
 
@@ -83,10 +73,10 @@ This structure holds data for the feature named "Disc Control Blocks" by the <i>
 
 ## -see-also
 
-<a href="..\ntddmmc\ns-ntddmmc-_feature_data_disc_control_blocks.md">FEATURE_DATA_DISC_CONTROL_BLOCKS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553781">FEATURE_DATA_DISC_CONTROL_BLOCKS</a>
  
 
  

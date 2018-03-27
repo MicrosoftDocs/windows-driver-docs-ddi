@@ -52,19 +52,6 @@ req.typenames: D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION_TYPE
 The D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION_TYPE enumeration is used to indicate the type of copy protection that is supported by a VidPN present path.
 
 
-## -syntax
-
-
-````
-typedef enum _D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION_TYPE { 
-  D3DKMDT_VPPMT_UNINITIALIZED            = 0,
-  D3DKMDT_VPPMT_NOPROTECTION             = 1,
-  D3DKMDT_VPPMT_MACROVISION_APSTRIGGER   = 2,
-  D3DKMDT_VPPMT_MACROVISION_FULLSUPPORT  = 3
-} D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION_TYPE;
-````
-
-
 ## -enum-fields
 
 
@@ -94,7 +81,7 @@ Indicates that the path provides full Rovi (formerly Macrovision) copy protectio
 
 
 
-The <b>CopyProtectionType</b> member of the <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_vidpn_present_path_copyprotection.md">D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION</a> structure is a value from the D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION_TYPE enumeration.
+The <b>CopyProtectionType</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff546656">D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION</a> structure is a value from the D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION_TYPE enumeration.
 
 
 

@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
@@ -51,16 +51,6 @@ req.product: Windows 10 or later.
 
 
 <b>RxCeTearDownConnection</b> tears down a given connection between a local RDBSS connection address and a remote address.
-
-
-## -syntax
-
-
-````
-NTSTATUS RxCeTearDownConnection(
-  _In_ PRXCE_CONNECTION pConnection
-);
-````
 
 
 ## -parameters
@@ -123,10 +113,10 @@ When <b>RxCeTearDownConnection</b> is successful, the data members in the RXCE_C
 
 ## -see-also
 
-<a href="..\rxce\nf-rxce-rxcebuildconnection.md">RxCeBuildConnection</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553417">RxCeBuildConnection</a>
  
 
  

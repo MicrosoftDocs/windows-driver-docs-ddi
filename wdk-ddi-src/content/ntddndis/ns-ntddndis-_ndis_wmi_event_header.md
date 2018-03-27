@@ -52,23 +52,6 @@ req.typenames: NDIS_WMI_EVENT_HEADER, *PNDIS_WMI_EVENT_HEADER
 The NDIS_WMI_EVENT_HEADER structure provides information about a GUID event for WMI clients.
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_WMI_EVENT_HEADER {
-  NDIS_OBJECT_HEADER Header;
-  NET_IFINDEX        IfIndex;
-  NET_LUID           NetLuid;
-  ULONG64            RequestId;
-  NDIS_PORT_NUMBER   PortNumber;
-  ULONG              DeviceNameLength;
-  ULONG              DeviceNameOffset;
-  UCHAR              Padding[4];
-} NDIS_WMI_EVENT_HEADER, *PNDIS_WMI_EVENT_HEADER;
-````
-
-
 ## -struct-fields
 
 
@@ -77,7 +60,7 @@ typedef struct _NDIS_WMI_EVENT_HEADER {
 ### -field Header
 
 The 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure for this
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure for this
      NDIS_WMI_EVENT_HEADER structure. Set the 
      <b>Type</b> member of NDIS_OBJECT_HEADER to NDIS_WMI_OBJECT_TYPE_EVENT, the 
      <b>Revision</b> member to NDIS_WMI_EVENT_HEADER_REVISION_1, and the 
@@ -102,7 +85,7 @@ An identifier for the request. If a miniport driver must complete a request imme
      completes the request with a status of NDIS_STATUS_INDICATION_REQUIRED, the miniport driver uses this 
      <b>RequestId</b> value to set the 
      <b>RequestId</b> member of the associated 
-     <a href="..\ndis\ns-ndis-_ndis_status_indication.md">NDIS_STATUS_INDICATION</a> structure. 
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff567373">NDIS_STATUS_INDICATION</a> structure. 
      
 
 NDIS or overlying drivers can also use the 
@@ -112,7 +95,7 @@ NDIS or overlying drivers can also use the
      <b>RequestId</b> is zero, the miniport driver can ignore this member.
 
 For more information about this member, see 
-     <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566710">NDIS_OID_REQUEST</a>.
 
 
 ### -field PortNumber
@@ -151,10 +134,10 @@ WMI GUID event indications that are specific to NDIS 6.0 and later versions incl
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
  
 
  

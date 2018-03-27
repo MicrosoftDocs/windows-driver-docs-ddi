@@ -52,20 +52,6 @@ req.typenames: DXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_1, *PDXGK_GRAPHICSPOWER_REG
 Used to register the power state of a new input.
 
 
-## -syntax
-
-
-````
-typedef struct _DXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_1 {
-  ULONG                      Version;
-  PVOID                      PrivateHandle;
-  PDXGK_POWER_NOTIFICATION   PowerNotificationCb;
-  PDXGK_REMOVAL_NOTIFICATION RemovalNotificationCb;
-  PDXGK_FSTATE_NOTIFICATION  FStateNotificationCb;
-} DXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_1, *PDXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_1;
-````
-
-
 ## -struct-fields
 
 

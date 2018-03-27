@@ -52,18 +52,6 @@ req.typenames: RILRADIOSTATEITEMS, *LPRILRADIOSTATEITEMS
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef struct _RILRADIOSTATEITEMS {
-  DWORD                 dwGroupId;
-  DWORD                 dwCntItems;
-  RILRADIOSTATEITEM [1] rilItems;
-} RILRADIOSTATEITEMS, RILRADIOSTATEITEMS;
-````
-
-
 ## -struct-fields
 
 

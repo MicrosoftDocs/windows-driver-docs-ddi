@@ -52,25 +52,6 @@ req.typenames: FEATURE_DATA_FORMATTABLE, *PFEATURE_DATA_FORMATTABLE
 The FEATURE_DATA_FORMATTABLE structure contains information for the Formattable feature. 
 
 
-## -syntax
-
-
-````
-typedef struct _FEATURE_DATA_FORMATTABLE {
-  FEATURE_HEADER Header;
-  UCHAR          FullCertification  :1;
-  UCHAR          QuickCertification  :1;
-  UCHAR          SpareAreaExpansion  :1;
-  UCHAR          RENoSpareAllocated  :1;
-  UCHAR          Reserved1  :4;
-  UCHAR          Reserved2[3];
-  UCHAR          RRandomWritable  :1;
-  UCHAR          Reserved3  :7;
-  UCHAR          Reserved4[3];
-} FEATURE_DATA_FORMATTABLE, *PFEATURE_DATA_FORMATTABLE;
-````
-
-
 ## -struct-fields
 
 
@@ -78,7 +59,7 @@ typedef struct _FEATURE_DATA_FORMATTABLE {
 
 ### -field Header
 
-Contains a <a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a> structure with header information for this feature descriptor. 
+Contains a <a href="https://msdn.microsoft.com/library/windows/hardware/ff553848">FEATURE_HEADER</a> structure with header information for this feature descriptor. 
 
 
 ### -field FullCertification
@@ -114,21 +95,21 @@ Contains a <a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a>
 
 This structure holds data for the feature named "Formattable" by the <i>SCSI Multimedia - 4 (MMC-4)</i> specification. Devices that support this feature can format media into logical blocks. 
 
-When queried, devices supporting this feature must return the information indicated in <a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a>. No other feature-specific information is required. 
+When queried, devices supporting this feature must return the information indicated in <a href="https://msdn.microsoft.com/library/windows/hardware/ff553848">FEATURE_HEADER</a>. No other feature-specific information is required. 
 
 
 
 
 ## -see-also
 
-<a href="..\ntddmmc\ne-ntddmmc-_feature_number.md">FEATURE_NUMBER</a>
 
 
 
-<a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553848">FEATURE_HEADER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553850">FEATURE_NUMBER</a>
  
 
  

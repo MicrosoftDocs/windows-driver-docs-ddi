@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
@@ -51,17 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>StorPortFreeMdl</b> routine frees a memory descriptor list (MDL) describing non-paged pool memory.
-
-
-## -syntax
-
-
-````
-ULONG StorPortFreeMdl(
-  _In_ PVOID HwDeviceExtension,
-  _In_ PVOID Mdl
-);
-````
 
 
 ## -parameters
@@ -144,17 +133,17 @@ The call was made at an invalid IRQL.
 
 
 
-A miniport driver calls the <b>StorPortFreeMdl</b> routine to free the MDL that was allocated in a previous call to <a href="..\storport\nf-storport-storportallocatemdl.md">StorPortAllocateMdl</a>.
+A miniport driver calls the <b>StorPortFreeMdl</b> routine to free the MDL that was allocated in a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff567028">StorPortAllocateMdl</a>.
 
 
 
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportallocatemdl.md">StorPortAllocateMdl</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567028">StorPortAllocateMdl</a>
  
 
  

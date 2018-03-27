@@ -52,19 +52,6 @@ req.typenames: HBAFCPID, *PHBAFCPID
 The HBAFCPID structure contains information that uniquely identifies a logical unit on a fibre channel network.
 
 
-## -syntax
-
-
-````
-typedef struct _HBAFCPID {
-  ULONG     Fcid;
-  UCHAR     NodeWWN[8];
-  UCHAR     PortWWN[8];
-  ULONGLONG FcpLun;
-} HBAFCPID, *PHBAFCPID;
-````
-
-
 ## -struct-fields
 
 
@@ -103,14 +90,14 @@ For more information about the fibre channel protocol (FCP), see the T11 committ
 
 ## -see-also
 
-<a href="..\hbapiwmi\ns-hbapiwmi-_hbafcpbindingentry.md">HBAFCPBindingEntry</a>
 
 
 
-<a href="..\hbaapi\ns-hbaapi-hba_fcpid.md">HBA_FcpId</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556034">HBAFCPBindingEntry</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556062">HBA_FcpId</a>
  
 
  

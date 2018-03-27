@@ -53,16 +53,6 @@ req.product: Windows 10 or later.
 The WWAN_NETWORK_IDLE_HINT structure contains a hint for the network interface regarding whether data is expected to be active or idle on the interface.
 
 
-## -syntax
-
-
-````
-typedef struct _WWAN_NETWORK_IDLE_HINT {
-  BOOLEAN IsEnabled;
-} WWAN_NETWORK_IDLE_HINT, *PWWAN_NETWORK_IDLE_HINT;
-````
-
-
 ## -struct-fields
 
 
@@ -75,14 +65,14 @@ If TRUE, this is a hint that the network interface should utilize mechanisms for
 
 ## -see-also
 
-<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_network_idle_hint.md">NDIS_WWAN_NETWORK_IDLE_HINT</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn931088">NDIS_WWAN_NETWORK_IDLE_HINT</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn931089">OID_WWAN_NETWORK_IDLE_HINT</a>
-
-
-
  
 
  

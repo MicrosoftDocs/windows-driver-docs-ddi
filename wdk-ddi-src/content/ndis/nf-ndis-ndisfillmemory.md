@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: ndis.h
+req.lib: 
 req.dll: 
 req.irql: See Remarks section
 topic_type:
@@ -51,18 +51,6 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 
 The 
   <b>NdisFillMemory</b> function fills a caller-supplied buffer with the given character.
-
-
-## -syntax
-
-
-````
-VOID NdisFillMemory(
-  [in] PVOID Destination,
-  [in] ULONG Length,
-  [in] UCHAR Fill
-);
-````
 
 
 ## -parameters
@@ -99,14 +87,14 @@ Callers of
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-rtlequalmemory.md">RtlEqualMemory</a>
 
 
 
-<a href="..\wdm\nf-wdm-rtlzeromemory.md">RtlZeroMemory</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561846">RtlEqualMemory</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563610">RtlZeroMemory</a>
  
 
  

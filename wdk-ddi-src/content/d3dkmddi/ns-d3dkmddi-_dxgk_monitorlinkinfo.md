@@ -52,17 +52,6 @@ req.typenames: DXGK_MONITORLINKINFO
 This structure was defined in WDDM 2.1, however the usage hints and capabilities structure definitions were nested within DXGK_MONITORLINKINFO.  In order to allow the same capabilities structure to be reused in DXGK_QUERYINTEGRATEDDISPLAYOUT, the nested definitions have been extracted into their own structures.
 
 
-## -syntax
-
-
-````
-typedef struct _DXGK_MONITORLINKINFO {
-  DXGK_MONITORLINKINFO_USAGEHINTS   UsageHints;
-  DXGK_MONITORLINKINFO_CAPABILITIES Capabilities;
-} DXGK_MONITORLINKINFO, *PDXGK_MONITORLINKINFO;
-````
-
-
 ## -struct-fields
 
 

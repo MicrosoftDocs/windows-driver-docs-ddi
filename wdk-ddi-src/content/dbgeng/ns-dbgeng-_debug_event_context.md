@@ -52,19 +52,6 @@ req.typenames: DEBUG_EVENT_CONTEXT, *PDEBUG_EVENT_CONTEXT
 Defines context information about an event.
 
 
-## -syntax
-
-
-````
-typedef struct _DEBUG_EVENT_CONTEXT {
-  ULONG Size;
-  ULONG ProcessEngineId;
-  ULONG ThreadEngineId;
-  ULONG FrameEngineId;
-} DEBUG_EVENT_CONTEXT, *PDEBUG_EVENT_CONTEXT;
-````
-
-
 ## -struct-fields
 
 
@@ -92,10 +79,10 @@ The frame engine ID of the event.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff541478">DEBUG_EVENT_XXX</a>
-
-
-
  
 
  

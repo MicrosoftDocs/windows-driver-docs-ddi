@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -52,24 +52,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>GetLastEventInformation</b>  method returns information about the last event that occurred in a target.
-
-
-## -syntax
-
-
-````
-HRESULT GetLastEventInformation(
-  [out]           PULONG Type,
-  [out]           PULONG ProcessId,
-  [out]           PULONG ThreadId,
-  [out, optional] PVOID  ExtraInformation,
-  [in]            ULONG  ExtraInformationSize,
-  [out, optional] PULONG ExtraInformationUsed,
-  [out, optional] PSTR   Description,
-  [in]            ULONG  DescriptionSize,
-  [out, optional] PULONG DescriptionUsed
-);
-````
 
 
 ## -parameters
@@ -174,22 +156,22 @@ For more information about the last event, see the topic <a href="https://msdn.m
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548431">GetStoredEventInformation</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550508">IDebugControl</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550512">IDebugControl2</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550519">IDebugControl3</a>
  
 
  

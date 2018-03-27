@@ -53,20 +53,6 @@ req.product: Windows 10 or later.
 The <b>USBFN_BUS_SPEED</b> enumeration defines possible bus speeds.
 
 
-## -syntax
-
-
-````
-typedef enum _USBFN_BUS_SPEED { 
-  UsbfnBusSpeedLow,
-  UsbfnBusSpeedFull,
-  UsbfnBusSpeedHigh,
-  UsbfnBusSpeedSuper,
-  UsbfnBusSpeedMaximum
-} USBFN_BUS_SPEED;
-````
-
-
 ## -enum-fields
 
 

@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: Microsoft.WDTF
 req.assembly: WDTF.Interop.metadata_dll
 req.type-library: 
-req.lib: wdtf.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -52,12 +52,12 @@ req.product: Windows 10 or later.
 
 
 The <b>IAction</b> interfaces are plug-ins that can control an instance of the 
-<a href="..\wdtf\nn-wdtf-iwdtftarget2.md">IWDTFTarget2</a> interface.
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439367">IWDTFTarget2</a> interface.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAction</b> interface inherits from <a href="..\wdtf\nn-wdtf-itracing.md">ITracing</a>. <b>IAction</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAction</b> interface inherits from <a href="https://msdn.microsoft.com/library/windows/hardware/ff539519">ITracing</a>. <b>IAction</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -88,10 +88,10 @@ the <a href="https://msdn.microsoft.com/dddd631e-7ccf-4554-9236-b567c5108fe2">IW
 You can retrieve an <b>IAction</b> interface for a target by calling 
 <a href="https://msdn.microsoft.com/dddd631e-7ccf-4554-9236-b567c5108fe2">IWDTFTarget2::GetInterface</a>.
 
-The <b>IAction</b> interface inherits from <a href="..\wdtf\nn-wdtf-itracing.md">ITracing</a>. You can use <b>ITracing</b> to set the trace level of the action.
+The <b>IAction</b> interface inherits from <a href="https://msdn.microsoft.com/library/windows/hardware/ff539519">ITracing</a>. You can use <b>ITracing</b> to set the trace level of the action.
 
 Domain experts use this interface as a base for implementing a WDTF plug-in (that is, action) that can 
-control an instance of an <a href="..\wdtf\nn-wdtf-iwdtftarget2.md">IWDTFTarget2</a> interface. For more information about action interfaces, see <a href="https://msdn.microsoft.com/b329e9a2-7d24-4612-9aa1-9d7955a61473">Controlling Targets</a>.
+control an instance of an <a href="https://msdn.microsoft.com/library/windows/hardware/hh439367">IWDTFTarget2</a> interface. For more information about action interfaces, see <a href="https://msdn.microsoft.com/b329e9a2-7d24-4612-9aa1-9d7955a61473">Controlling Targets</a>.
 
 For a listing of all action interfaces included in WDTF, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff538355">Action Interfaces</a>.
 
@@ -100,18 +100,18 @@ For a listing of all action interfaces included in WDTF, see <a href="https://ms
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539519">ITracing</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439367">IWDTFTarget2</a>
+
+
+
 <a href="https://msdn.microsoft.com/dddd631e-7ccf-4554-9236-b567c5108fe2">IWDTFTarget2::GetInterface</a>
-
-
-
-<a href="..\wdtf\nn-wdtf-itracing.md">ITracing</a>
-
-
-
-<a href="..\wdtf\nn-wdtf-iwdtftarget2.md">IWDTFTarget2</a>
-
-
-
  
 
  

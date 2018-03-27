@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 The WWAN_SMS_READ structure represents the format and filter of SMS messages to read.
 
 
-## -syntax
-
-
-````
-typedef struct _WWAN_SMS_READ {
-  WWAN_SMS_FORMAT SmsFormat;
-  WWAN_SMS_FILTER ReadFilter;
-} WWAN_SMS_READ, *PWWAN_SMS_READ;
-````
-
-
 ## -struct-fields
 
 
@@ -92,18 +81,18 @@ Represents the filter upon which the miniport driver should retrieve the message
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_sms_filter.md">WWAN_SMS_FILTER</a>
 
 
 
-<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_sms_read.md">NDIS_WWAN_SMS_READ</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567941">NDIS_WWAN_SMS_READ</a>
 
 
 
-<a href="..\wwan\ne-wwan-_wwan_sms_format.md">WWAN_SMS_FORMAT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571245">WWAN_SMS_FILTER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571247">WWAN_SMS_FORMAT</a>
  
 
  

@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: Microsoft.WDTF
 req.assembly: WDTF.Interop.metadata_dll
 req.type-library: 
-req.lib: wdtf.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,17 +51,6 @@ req.product: Windows 10 or later.
 
 
 Returns a long number value from the target that is associated with a specified attribute.
-
-
-## -syntax
-
-
-````
-HRESULT GetValueLongNumber(
-  [in]          BSTR     SDEL,
-  [out, retval] LONGLONG *pValue
-);
-````
 
 
 ## -parameters
@@ -103,10 +92,10 @@ to work properly.
 
 ## -see-also
 
-<a href="..\wdtf\nn-wdtf-iwdtftarget2.md">IWDTFTarget2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439367">IWDTFTarget2</a>
  
 
  

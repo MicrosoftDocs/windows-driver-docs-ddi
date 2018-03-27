@@ -52,20 +52,6 @@ req.typenames: DXGK_PTE
 The <b>DestroyOverlay</b> function disables the overlay hardware and frees the overlay handle.
 
 
-## -prototype
-
-
-````
-PFND3DDDI_DESTROYOVERLAY DestroyOverlay;
-
-__checkReturn HRESULT APIENTRY DestroyOverlay(
-  _In_       HANDLE                   hDevice,
-  _In_ const D3DDDIARG_DESTROYOVERLAY *pData
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -87,7 +73,7 @@ __checkReturn HRESULT APIENTRY DestroyOverlay(
 
 #### - pData [in]
 
- A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_destroyoverlay.md">D3DDDIARG_DESTROYOVERLAY</a> structure that contains the overlay handle.
+ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543042">D3DDDIARG_DESTROYOVERLAY</a> structure that contains the overlay handle.
 
 
 ## -returns
@@ -110,14 +96,14 @@ Overlays are independent from the resources that are displayed by using the over
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_destroyoverlay.md">D3DDDIARG_DESTROYOVERLAY</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543042">D3DDDIARG_DESTROYOVERLAY</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544519">D3DDDI_DEVICEFUNCS</a>
  
 
  

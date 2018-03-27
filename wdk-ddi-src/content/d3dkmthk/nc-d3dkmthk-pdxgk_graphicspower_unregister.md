@@ -52,17 +52,6 @@ req.typenames: DXGK_TARGETMODE_DETAIL_TIMING
 A callback to un-register itself with the graphics driver.  
 
 
-## -prototype
-
-
-````
-NTSTATUS PDXGK_GRAPHICSPOWER_UNREGISTER(
-   PVOID DeviceHandle,
-   PVOID PrivateHandle
-);
-````
-
-
 ## -parameters
 
 

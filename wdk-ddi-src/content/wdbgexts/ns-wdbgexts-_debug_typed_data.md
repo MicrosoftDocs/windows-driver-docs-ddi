@@ -53,26 +53,6 @@ req.product: Windows 10 or later.
 The DEBUG_TYPED_DATA structure describes typed data in the memory of the target. 
 
 
-## -syntax
-
-
-````
-typedef struct _DEBUG_TYPED_DATA {
-  ULONG64 ModBase;
-  ULONG64 Offset;
-  ULONG64 EngineHandle;
-  ULONG64 Data;
-  ULONG   Size;
-  ULONG   Flags;
-  ULONG   TypeId;
-  ULONG   BaseTypeId;
-  ULONG   Tag;
-  ULONG   Register;
-  ULONG64 Internal[9];
-}  DEBUG_TYPED_DATA, *PDEBUG_TYPED_DATA;
-````
-
-
 ## -struct-fields
 
 
@@ -209,14 +189,14 @@ There is one exception to the preceding rule: the <b>EXT_TDOP_SET_FROM_TYPE_ID_A
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff541547">DEBUG_REQUEST_EXT_TYPED_DATA_ANSI</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554564">Request</a>
-
-
-
  
 
  

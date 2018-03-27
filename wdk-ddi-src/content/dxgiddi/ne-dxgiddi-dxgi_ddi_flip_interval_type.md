@@ -52,20 +52,6 @@ req.typenames: DXGI_DDI_FLIP_INTERVAL_TYPE
 The DXGI_DDI_FLIP_INTERVAL_TYPE enumeration type contains values that identify the type of flip that occurs in present operations.
 
 
-## -syntax
-
-
-````
-typedef enum DXGI_DDI_FLIP_INTERVAL_TYPE { 
-  DXGI_DDI_FLIP_INTERVAL_IMMEDIATE  = 0,
-  DXGI_DDI_FLIP_INTERVAL_ONE        = 1,
-  DXGI_DDI_FLIP_INTERVAL_TWO        = 2,
-  DXGI_DDI_FLIP_INTERVAL_THREE      = 3,
-  DXGI_DDI_FLIP_INTERVAL_FOUR       = 4
-} DXGI_DDI_FLIP_INTERVAL_TYPE;
-````
-
-
 ## -enum-fields
 
 
@@ -103,10 +89,10 @@ Indicates to perform the flip on every fourth vertical sync.
 
 ## -see-also
 
-<a href="..\dxgiddi\ns-dxgiddi-dxgi_ddi_arg_present.md">DXGI_DDI_ARG_PRESENT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557464">DXGI_DDI_ARG_PRESENT</a>
  
 
  

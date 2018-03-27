@@ -52,19 +52,6 @@ req.typenames: SM_SendRPL_OUT, *PSM_SendRPL_OUT
 The SM_SendRPL_OUT structure is used to receive output parameters from the SM_SendRPL method.
 
 
-## -syntax
-
-
-````
-typedef struct _SM_SendRPL_OUT {
-  ULONG HBAStatus;
-  ULONG TotalRespBufferSize;
-  ULONG OutRespBufferSize;
-  UCHAR RespBuffer[1];
-} SM_SendRPL_OUT, *PSM_SendRPL_OUT;
-````
-
-
 ## -struct-fields
 
 

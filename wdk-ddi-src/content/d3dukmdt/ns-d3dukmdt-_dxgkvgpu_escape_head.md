@@ -52,17 +52,6 @@ req.typenames: DXGKVGPU_ESCAPE_HEAD
 A structure describing the escape head.
 
 
-## -syntax
-
-
-````
-typedef struct _DXGKVGPU_ESCAPE_HEAD  {
-  GPUP_DRIVER_ESCAPE_INPUT Luid;
-  DXGKVGPU_ESCAPE_TYPE     Type;
-} DXGKVGPU_ESCAPE_HEAD ;
-````
-
-
 ## -struct-fields
 
 

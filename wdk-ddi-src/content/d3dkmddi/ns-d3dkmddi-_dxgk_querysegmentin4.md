@@ -52,16 +52,6 @@ req.typenames: DXGK_QUERYSEGMENTIN4
 The <b>DXGK_QUERYSEGMENTIN4</b> structure is used to specify the adapter to query.
 
 
-## -syntax
-
-
-````
-typedef struct _DXGK_QUERYSEGMENTIN4 {
-  UINT PhysicalAdapterIndex;
-} DXGK_QUERYSEGMENTIN4;
-````
-
-
 ## -struct-fields
 
 
@@ -74,10 +64,10 @@ A zero-based physical adapter index in a linked display adapter  (LDA) link. Zer
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_querysegmentout4.md">DXGK_QUERYSEGMENTOUT4</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn906840">DXGK_QUERYSEGMENTOUT4</a>
  
 
  

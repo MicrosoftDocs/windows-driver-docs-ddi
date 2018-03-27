@@ -1,6 +1,6 @@
 ---
 UID: NC:usbbusif.PUSB_BUSIFFN_QUERY_BUS_TIME_EX
-title: USB_BUSIFFN_QUERY_BUS_TIME_EX
+title: PUSB_BUSIFFN_QUERY_BUS_TIME_EX
 author: windows-driver-content
 description: The QueryBusTimeEx routine gets the current 32-bit USB micro-frame number.
 old-location: buses\querybustimeex.htm
@@ -56,20 +56,6 @@ This request is not supported.
 The <b>QueryBusTimeEx</b> routine gets the current 32-bit USB micro-frame number. 
 
 
-## -prototype
-
-
-````
-USB_BUSIFFN_QUERY_BUS_TIME_EX QueryBusTimeEx;
-
-NTSTATUS QueryBusTimeEx(
-  _In_  PVOID    BusContext,
-  _Out_ PULONG   CurrentMicroFrame
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -85,7 +71,7 @@ NTSTATUS QueryBusTimeEx(
 
 #### - BusContext [in]
 
-Handle returned in the <b>BusContext</b> member of the <a href="..\usbbusif\ns-usbbusif-_usb_bus_interface_usbdi_v3.md">USB_BUS_INTERFACE_USBDI_V3</a> structure by an IRP_MN_QUERY_INTERFACE request. 
+Handle returned in the <b>BusContext</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff539227">USB_BUS_INTERFACE_USBDI_V3</a> structure by an IRP_MN_QUERY_INTERFACE request. 
 
 
 #### - CurrentMicroFrame [out]
@@ -155,10 +141,10 @@ The function definition that is provided on this reference page is an example fu
 
 ## -see-also
 
-<a href="..\usbbusif\ns-usbbusif-_usb_bus_interface_usbdi_v3.md">USB_BUS_INTERFACE_USBDI_V3</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539227">USB_BUS_INTERFACE_USBDI_V3</a>
  
 
  

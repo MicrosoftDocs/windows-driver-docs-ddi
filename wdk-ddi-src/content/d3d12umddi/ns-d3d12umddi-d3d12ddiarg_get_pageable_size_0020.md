@@ -52,17 +52,6 @@ req.typenames: D3D12DDIARG_GET_PAGEABLE_SIZE_0020
 Specifies information used to get the driver reported size for an array of allocations.
 
 
-## -syntax
-
-
-````
-typedef struct D3D12DDIARG_GET_PAGEABLE_SIZE_0020 {
-  UINT                                                    NumObjects;
-  _Field_size_(NumObjects) CONST D3D12DDI_HANDLE_AND_TYPE *pObjects;
-} D3D12DDIARG_GET_PAGEABLE_SIZE_0020;
-````
-
-
 ## -struct-fields
 
 

@@ -52,22 +52,6 @@ req.typenames: FEATURE_DATA_DVD_PLUS_RW, *PFEATURE_DATA_DVD_PLUS_RW
 The FEATURE_DATA_DVD_PLUS_RW structure contains information about the DVD+RW feature. 
 
 
-## -syntax
-
-
-````
-typedef struct _FEATURE_DATA_DVD_PLUS_RW {
-  FEATURE_HEADER Header;
-  UCHAR          Write  :1;
-  UCHAR          Reserved1  :7;
-  UCHAR          CloseOnly  :1;
-  UCHAR          QuickStart  :1;
-  UCHAR          Reserved02  :6;
-  UCHAR          Reserved03[2];
-} FEATURE_DATA_DVD_PLUS_RW, *PFEATURE_DATA_DVD_PLUS_RW;
-````
-
-
 ## -struct-fields
 
 
@@ -75,7 +59,7 @@ typedef struct _FEATURE_DATA_DVD_PLUS_RW {
 
 ### -field Header
 
-Contains a <a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a> structure with header information for this feature descriptor. 
+Contains a <a href="https://msdn.microsoft.com/library/windows/hardware/ff553848">FEATURE_HEADER</a> structure with header information for this feature descriptor. 
 
 
 ### -field Write
@@ -113,14 +97,14 @@ This structure holds data for the feature named "DVD+RW" by the <i>SCSI Multimed
 
 ## -see-also
 
-<a href="..\ntddmmc\ne-ntddmmc-_feature_number.md">FEATURE_NUMBER</a>
 
 
 
-<a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553848">FEATURE_HEADER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553850">FEATURE_NUMBER</a>
  
 
  

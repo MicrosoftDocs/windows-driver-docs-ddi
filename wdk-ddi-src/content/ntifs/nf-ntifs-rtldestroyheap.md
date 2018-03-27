@@ -52,16 +52,6 @@ req.typenames: TOKEN_TYPE
 The <b>RtlDestroyHeap</b> routine destroys the specified heap object. <b>RtlDestroyHeap</b> decommits and releases all the pages of a private heap object, and it invalidates the handle to the heap. 
 
 
-## -syntax
-
-
-````
-PVOID RtlDestroyHeap(
-  _In_ PVOID HeapHandle
-);
-````
-
-
 ## -parameters
 
 
@@ -94,18 +84,18 @@ Processes can call <b>RtlDestroyHeap</b> without first calling <b>RtlFreeHeap</b
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-rtlfreeheap.md">RtlFreeHeap</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-rtlcreateheap.md">RtlCreateHeap</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552108">RtlAllocateHeap</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-rtlallocateheap.md">RtlAllocateHeap</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552159">RtlCreateHeap</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552276">RtlFreeHeap</a>
  
 
  

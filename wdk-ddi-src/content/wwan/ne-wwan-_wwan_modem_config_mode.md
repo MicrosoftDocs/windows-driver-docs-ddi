@@ -53,19 +53,6 @@ req.product: Windows 10 or later.
 The <b>WWAN_MODEM_CONFIG_MODE</b> enumeration lists modem configuration modes.
 
 
-## -syntax
-
-
-````
-typedef enum _WWAN_MODEM_CONFIG_MODE { 
-  WwanModemConfigModeUnknown       = 0,
-  WwanModemConfigModeModemCentric,
-  WwanModemConfigModeHostCentric,
-  WwanModemConfigModeMax
-} WWAN_MODEM_CONFIG_MODE, *PWWAN_MODEM_CONFIG_MODE;
-````
-
-
 ## -enum-fields
 
 
@@ -103,10 +90,10 @@ The modem configuration mode shall not change during runtime. If a change is det
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_modem_config_info.md">WWAN_MODEM_CONFIG_INFO</a>
 
 
 
+<a href="https://msdn.microsoft.com/14FBFA51-F4A5-417A-8905-241CEA543774">WWAN_MODEM_CONFIG_INFO</a>
  
 
  

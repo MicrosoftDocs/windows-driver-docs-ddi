@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: Microsoft.WDTF
 req.assembly: WDTF.Interop.metadata_dll
 req.type-library: 
-req.lib: wdtf.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -50,21 +50,8 @@ req.product: Windows 10 or later.
 ## -description
 
 
-Returns a collection of actions that support the interface - one <a href="..\wdtf\nn-wdtf-iwdtfaction2.md">IWDTFAction2</a> for each item
+Returns a collection of actions that support the interface - one <a href="https://msdn.microsoft.com/library/windows/hardware/hh406311">IWDTFAction2</a> for each item
 that has one.
-
-
-## -syntax
-
-
-````
-HRESULT GetInterfaces(
-  [in]           BSTR          ProgID,
-  [in, optional] VARIANT       MoreTargets,
-  [in, optional] VARIANT       MonikerSuffix,
-  [out, retval]  IWDTFActions2 **ppInterface
-);
-````
 
 
 ## -parameters
@@ -128,10 +115,10 @@ If any items in the collection fail to return an action, this method fails.
 
 ## -see-also
 
-<a href="..\wdtf\nn-wdtf-iwdtftargets2.md">IWDTFTargets2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439458">IWDTFTargets2</a>
  
 
  

@@ -52,23 +52,6 @@ req.typenames: DXVA_ProcAmpControlBlt
 The DXVA_ProcAmpControlBlt structure contains the ProcAmp adjustment data that is output to the destination surface.
 
 
-## -syntax
-
-
-````
-typedef struct _DXVA_ProcAmpControlBlt {
-  DWORD Size;
-  RECT  DstRect;
-  RECT  SrcRect;
-  FLOAT Alpha;
-  FLOAT Brightness;
-  FLOAT Contrast;
-  FLOAT Hue;
-  FLOAT Saturation;
-} DXVA_ProcAmpControlBlt;
-````
-
-
 ## -struct-fields
 
 
@@ -81,7 +64,7 @@ Specifies the size of this structure in bytes.
 
 ### -field DstRect
 
-Specifies the destination rectangle as a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure. The destination rectangle is required for subrectangle stretching. Support for stretching is optional and is reported by the <a href="..\dxva\ns-dxva-_dxva_procampcontrolcaps.md">DXVA_ProcAmpControlCaps</a> structure. Support for subrectangles is optional.
+Specifies the destination rectangle as a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure. The destination rectangle is required for subrectangle stretching. Support for stretching is optional and is reported by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff564019">DXVA_ProcAmpControlCaps</a> structure. Support for subrectangles is optional.
 
 
 ### -field SrcRect
@@ -116,14 +99,14 @@ Specifies the saturation of the output image as it is written to the destination
 
 ## -see-also
 
-<a href="..\dxva\ns-dxva-_dxva_procampcontrolqueryrange.md">DXVA_ProcAmpControlQueryRange</a>
 
 
 
-<a href="..\dxva\ns-dxva-_dxva_procampcontrolcaps.md">DXVA_ProcAmpControlCaps</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564019">DXVA_ProcAmpControlCaps</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564032">DXVA_ProcAmpControlQueryRange</a>
  
 
  

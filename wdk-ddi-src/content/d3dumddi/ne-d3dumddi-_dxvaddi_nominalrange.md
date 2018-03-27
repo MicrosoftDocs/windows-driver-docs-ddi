@@ -52,22 +52,6 @@ req.typenames: DXVADDI_NOMINALRANGE
 The DXVADDI_NOMINALRANGE enumeration type contains values that identify whether sample data includes headroom (that is, values beyond 1.0 white) and toeroom (that is, superblacks below the reference 0.0 black). 
 
 
-## -syntax
-
-
-````
-typedef enum _DXVADDI_NOMINALRANGE { 
-  DXVADDI_NominalRangeMask      = 0x07,
-  DXVADDI_NominalRange_Unknown  = 0,
-  DXVADDI_NominalRange_Normal   = 1,
-  DXVADDI_NominalRange_Wide     = 2,
-  DXVADDI_NominalRange_0_255    = 1,
-  DXVADDI_NominalRange_16_235   = 2,
-  DXVADDI_NominalRange_48_208   = 3
-} DXVADDI_NOMINALRANGE;
-````
-
-
 ## -enum-fields
 
 
@@ -112,7 +96,7 @@ Normalized chroma [0..1] maps explicitly to [48..208] (8bit).
 
 
 
-One of the values of DXVADDI_NOMINALRANGE can be specified in the <b>NominalRange</b> member of the <a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_extendedformat.md">DXVADDI_EXTENDEDFORMAT</a> structure.
+One of the values of DXVADDI_NOMINALRANGE can be specified in the <b>NominalRange</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562904">DXVADDI_EXTENDEDFORMAT</a> structure.
 
 Wide gamut R'G'B' (that is, blackpoint at 16,16,16 and whitepoint at 235,235,235) must be differentiated from normal <a href="http://go.microsoft.com/fwlink/p/?linkid=10112">sRGB</a>.
 
@@ -121,10 +105,10 @@ Wide gamut R'G'B' (that is, blackpoint at 16,16,16 and whitepoint at 235,235,235
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_extendedformat.md">DXVADDI_EXTENDEDFORMAT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562904">DXVADDI_EXTENDEDFORMAT</a>
  
 
  

@@ -52,18 +52,6 @@ req.typenames: DXGIDDICB_PRESENT_MULTIPLANE_OVERLAY1
 Describes multiplane overlay allocations, private driver data, and context information for each multiplane overlay plane. 
 
 
-## -syntax
-
-
-````
-typedef struct _DXGIDDICB_PRESENT_MULTIPLANE_OVERLAY1 {
-  VOID                                  *pDXGIContext;
-  DWORD                                 PresentPlaneCount;
-  DXGIDDI_MULTIPLANE_OVERLAY_PLANE_INFO **ppPresentPlanes;
-} DXGIDDICB_PRESENT_MULTIPLANE_OVERLAY1;
-````
-
-
 ## -struct-fields
 
 

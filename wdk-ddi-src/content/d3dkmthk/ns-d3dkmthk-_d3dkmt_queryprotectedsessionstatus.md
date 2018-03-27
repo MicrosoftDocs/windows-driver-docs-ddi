@@ -52,17 +52,6 @@ req.typenames: D3DKMT_QUERYPROTECTEDSESSIONSTATUS
 Used to query the status of the protected session.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DKMT_QUERYPROTECTEDSESSIONSTATUS {
-  D3DKMT_HANDLE                   hHandle;
-  D3DKMT_PROTECTED_SESSION_STATUS Status;
-} D3DKMT_QUERYPROTECTEDSESSIONSTATUS;
-````
-
-
 ## -struct-fields
 
 

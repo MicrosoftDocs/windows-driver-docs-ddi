@@ -47,11 +47,6 @@ req.product: Windows 10 or later.
 # IOCTL_INTERNAL_USBFN_BUS_EVENT_NOTIFICATION IOCTL
 
 
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
-
 ## -description
 
 
@@ -76,13 +71,13 @@ None.
 
 ### -output-buffer
 
-A pointer to a caller-allocated <a href="..\usbfnbase\ns-usbfnbase-_usbfn_notification.md">USBFN_NOTIFICATION</a> 
+A pointer to a caller-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/mt188001">USBFN_NOTIFICATION</a> 
 			structure that UFX populates with the type of bus event and data associated with that event. 
 
 
 ### -output-buffer-length
 
-The size of a <a href="..\usbfnbase\ns-usbfnbase-_usbfn_notification.md">USBFN_NOTIFICATION</a> 
+The size of a <a href="https://msdn.microsoft.com/library/windows/hardware/mt188001">USBFN_NOTIFICATION</a> 
 			structure.
 
 
@@ -120,14 +115,14 @@ UFX completes this request in response to an event on the bus. It is recommended
 
 ## -see-also
 
-<a href="..\usbfnbase\ne-usbfnbase-_usbfn_event.md">USBFN_EVENT</a>
 
 
 
-<a href="..\usbfnbase\ns-usbfnbase-_usbfn_notification.md">USBFN_NOTIFICATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt187994">USBFN_EVENT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt188001">USBFN_NOTIFICATION</a>
  
 
  

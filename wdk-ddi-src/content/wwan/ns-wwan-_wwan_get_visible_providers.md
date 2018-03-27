@@ -53,16 +53,6 @@ req.product: Windows 10 or later.
 The WWAN_GET_VISIBLE_PROVIDERS structure provides information about the type of visible providers to return.
 
 
-## -syntax
-
-
-````
-typedef struct _WWAN_GET_VISIBLE_PROVIDERS {
-  ULONG Action;
-} WWAN_GET_VISIBLE_PROVIDERS, *PWWAN_GET_VISIBLE_PROVIDERS;
-````
-
-
 ## -struct-fields
 
 
@@ -112,10 +102,10 @@ Only providers that are currently visible and that can be set as home provider s
 
 ## -see-also
 
-<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_get_visible_providers.md">NDIS_WWAN_GET_VISIBLE_PROVIDERS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh831863">NDIS_WWAN_GET_VISIBLE_PROVIDERS</a>
  
 
  

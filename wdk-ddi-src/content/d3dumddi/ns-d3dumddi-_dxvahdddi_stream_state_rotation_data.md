@@ -52,17 +52,6 @@ req.typenames: DXVAHDDDI_STREAM_STATE_ROTATION_DATA
 Describes stream-state data that specifies the clockwise rotation of the display output surface.
 
 
-## -syntax
-
-
-````
-typedef struct _DXVAHDDDI_STREAM_STATE_ROTATION_DATA {
-  BOOL               Enable;
-  DXVAHDDDI_ROTATION Rotation;
-} DXVAHDDDI_STREAM_STATE_ROTATION_DATA;
-````
-
-
 ## -struct-fields
 
 
@@ -75,15 +64,15 @@ A Boolean value that specifies whether the driver should rotate the output surfa
 
 ### -field Rotation
 
-The clockwise degrees of rotation as specified by a <a href="..\d3dumddi\ne-d3dumddi-_dxvahdddi_rotation.md">DXVAHDDDI_ROTATION</a> enumeration value.
+The clockwise degrees of rotation as specified by a <a href="https://msdn.microsoft.com/library/windows/hardware/hh464119">DXVAHDDDI_ROTATION</a> enumeration value.
 
 
 ## -see-also
 
-<a href="..\d3dumddi\ne-d3dumddi-_dxvahdddi_rotation.md">DXVAHDDDI_ROTATION</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh464119">DXVAHDDDI_ROTATION</a>
  
 
  

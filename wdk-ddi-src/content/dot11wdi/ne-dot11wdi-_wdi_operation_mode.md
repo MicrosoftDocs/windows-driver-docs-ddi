@@ -52,19 +52,6 @@ req.typenames: WDI_OPERATION_MODE
 The WDI_OPERATION_MODE enumeration defines operation modes.
 
 
-## -syntax
-
-
-````
-typedef enum _WDI_OPERATION_MODE { 
-  WDI_OPERATION_MODE_STA         = 0x1,
-  WDI_OPERATION_MODE_P2P_DEVICE  = 0x8,
-  WDI_OPERATION_MODE_P2P_CLIENT  = 0x10,
-  WDI_OPERATION_MODE_P2P_GO      = 0x20
-} WDI_OPERATION_MODE;
-````
-
-
 ## -enum-fields
 
 

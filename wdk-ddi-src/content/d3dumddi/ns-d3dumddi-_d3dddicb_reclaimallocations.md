@@ -52,19 +52,6 @@ req.typenames: D3DDDICB_RECLAIMALLOCATIONS
 Describes video memory resources that are to be reclaimed and that the user-mode display driver  previously offered  for reuse. Used with the  <a href="https://msdn.microsoft.com/library/windows/hardware/hh451695">pfnReclaimAllocationsCb</a> function.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DDDICB_RECLAIMALLOCATIONS {
-  const HANDLE        *pResources;
-  const D3DKMT_HANDLE *HandleList;
-  BOOL                *pDiscarded;
-  UINT                NumAllocations;
-} D3DDDICB_RECLAIMALLOCATIONS;
-````
-
-
 ## -struct-fields
 
 
@@ -104,18 +91,18 @@ The value of <b>pDiscarded</b> can be <b>NULL</b>. If the driver sets it to <b>N
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/2dff9d2e-c497-422f-824b-a7101904fd67">CreateResource(D3D11)</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541697">D3D10DDIARG_CREATERESOURCE</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451695">pfnReclaimAllocationsCb</a>
-
-
-
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createresource.md">D3D10DDIARG_CREATERESOURCE</a>
-
-
-
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11ddi_createresource.md">CreateResource(D3D11)</a>
-
-
-
  
 
  

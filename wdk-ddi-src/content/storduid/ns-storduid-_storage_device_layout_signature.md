@@ -53,22 +53,6 @@ req.product: Windows 10 or later.
 The STORAGE_DEVICE_LAYOUT_SIGNATURE structure defines a device layout structure.
 
 
-## -syntax
-
-
-````
-typedef struct _STORAGE_DEVICE_LAYOUT_SIGNATURE {
-  ULONG   Version;
-  ULONG   Size;
-  BOOLEAN Mbr;
-  union {
-    ULONG MbrSignature;
-    GUID  GptDiskId;
-  } DeviceSpecific;
-} STORAGE_DEVICE_LAYOUT_SIGNATURE, *PSTORAGE_DEVICE_LAYOUT_SIGNATURE;
-````
-
-
 ## -struct-fields
 
 
@@ -108,17 +92,17 @@ The GUID that uniquely identifies the disk.
 
 
 
-The device layout signature contributes to the definition of a device unique identifier (DUID). For more information about DUIDs, see the description of the <a href="..\storduid\ns-storduid-_storage_device_unique_identifier.md">STORAGE_DEVICE_UNIQUE_IDENTIFIER</a> structure.
+The device layout signature contributes to the definition of a device unique identifier (DUID). For more information about DUIDs, see the description of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566975">STORAGE_DEVICE_UNIQUE_IDENTIFIER</a> structure.
 
 
 
 
 ## -see-also
 
-<a href="..\storduid\ns-storduid-_storage_device_unique_identifier.md">STORAGE_DEVICE_UNIQUE_IDENTIFIER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566975">STORAGE_DEVICE_UNIQUE_IDENTIFIER</a>
  
 
  

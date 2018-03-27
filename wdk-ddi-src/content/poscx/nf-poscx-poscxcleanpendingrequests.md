@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -53,18 +53,6 @@ req.product: Windows 10 or later.
       PosCxCleanPendingRequests is called to cancel all pending requests for a given  
 
       caller, identified by the open instance.
-
-
-## -syntax
-
-
-````
-VOID PosCxCleanPendingRequests(
-  _In_     WDFDEVICE     device,
-  _In_opt_ WDFFILEOBJECT callerFileObj,
-  _In_     NTSTATUS      completionStatus
-);
-````
 
 
 ## -parameters

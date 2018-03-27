@@ -54,20 +54,6 @@ The WWAN_VOICE_CLASS enumeration lists the different types of voice classes that
   MB device.
 
 
-## -syntax
-
-
-````
-typedef enum _WWAN_VOICE_CLASS { 
-  WwanVoiceClassUnknown                = 0,
-  WwanVoiceClassNoVoice,
-  WwanVoiceClassSeparateVoiceData,
-  WwanVoiceClassSimultaneousVoiceData,
-  WwanVoiceClassMax
-} WWAN_VOICE_CLASS, *PWWAN_VOICE_CLASS;
-````
-
-
 ## -enum-fields
 
 
@@ -100,10 +86,10 @@ The total number of supported cellular voice classes.
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_device_caps.md">WWAN_DEVICE_CAPS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571204">WWAN_DEVICE_CAPS</a>
  
 
  

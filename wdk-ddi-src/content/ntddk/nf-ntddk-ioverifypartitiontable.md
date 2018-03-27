@@ -7,7 +7,7 @@ old-location: kernel\ioverifypartitiontable.htm
 old-project: kernel
 ms.assetid: dc7b543b-1fb5-477c-a612-c8e7381e637e
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/1/2018
 ms.keywords: IoVerifyPartitionTable, IoVerifyPartitionTable routine [Kernel-Mode Driver Architecture], k104_d550806b-f911-45f6-b6ab-efbf05683c4d.xml, kernel.ioverifypartitiontable, ntddk/IoVerifyPartitionTable
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ api_name:
 -	IoVerifyPartitionTable
 product: Windows
 targetos: Windows
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+req.typenames: SUBSYSTEM_INFORMATION_TYPE, *PSUBSYSTEM_INFORMATION_TYPE
 ---
 
 # IoVerifyPartitionTable function
@@ -51,17 +51,6 @@ req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 
 The <b>IoVerifyPartitionTable</b> routine checks the validity of the partition table 
    for a disk.
-
-
-## -syntax
-
-
-````
-NTSTATUS IoVerifyPartitionTable(
-  _In_ PDEVICE_OBJECT DeviceObject,
-  _In_ BOOLEAN        FixErrors
-);
-````
 
 
 ## -parameters

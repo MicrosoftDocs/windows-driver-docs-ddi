@@ -52,22 +52,6 @@ req.typenames: WCS_PROFILE_MANAGEMENT_SCOPE
 <b>EVT_IDD_CX_MONITOR_OPM_SET_SIGNING_KEY_AND_SEQUENCE_NUMBERS</b> is called by the OS to set the signing key and sequence number.
 
 
-## -prototype
-
-
-````
-EVT_IDD_CX_MONITOR_OPM_SET_SIGNING_KEY_AND_SEQUENCE_NUMBERS EvtIddCxMonitorOpmSetSigningKeyAndSequenceNumbers;
-
-NTSTATUS EvtIddCxMonitorOpmSetSigningKeyAndSequenceNumbers(
-  _In_       IDDCX_OPMCTX                                       OpmCxtObject,
-  _In_ const IDARG_IN_OPM_SET_SIGNING_KEY_AND_SEQUENCE_NUMBERS* pInArgs
-)
-{ ... }
-
-typedef EVT_IDD_CX_MONITOR_OPM_SET_SIGNING_KEY_AND_SEQUENCE_NUMBERS PFN_IDD_CX_MONITOR_OPM_SET_SIGNING_KEY_AND_SEQUENCE_NUMBERS;
-````
-
-
 ## -parameters
 
 

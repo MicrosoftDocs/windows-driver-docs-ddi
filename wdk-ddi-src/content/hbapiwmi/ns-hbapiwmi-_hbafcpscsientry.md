@@ -52,18 +52,6 @@ req.typenames: HBAFCPScsiEntry, *PHBAFCPScsiEntry
 The HBAFCPScsiEntry structure is used with <a href="https://msdn.microsoft.com/library/windows/hardware/ff554948">GetFcpTargetMapping</a> method of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562509">MSFC_HBAFCPInfo WMI Class</a> to define a binding between the operating system information that uniquely identifies a logical unit and the fibre channel protocol (FCP) identifier that identifies the logical unit.  
 
 
-## -syntax
-
-
-````
-typedef struct _HBAFCPScsiEntry {
-  HBAFCPID  FCPId;
-  UCHAR     Luid[256];
-  HBAScsiID ScsiId;
-} HBAFCPScsiEntry, *PHBAFCPScsiEntry;
-````
-
-
 ## -struct-fields
 
 
@@ -71,7 +59,7 @@ typedef struct _HBAFCPScsiEntry {
 
 ### -field FCPId
 
-Contains a structure of type <a href="..\hbapiwmi\ns-hbapiwmi-_hbafcpid.md">HBAFCPID</a> that contains the FCP identifier for the logical unit and information about the port to be queried for information about the device.
+Contains a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff556038">HBAFCPID</a> that contains the FCP identifier for the logical unit and information about the port to be queried for information about the device.
 
 
 ### -field Luid
@@ -81,15 +69,15 @@ Contains the logical unit descriptor for the device that the operating system de
 
 ### -field ScsiId
 
-Contains a structure of type <a href="..\hbapiwmi\ns-hbapiwmi-_hbascsiid.md">HBAScsiID</a> that contains the information that uniquely identifies a logical unit for the operating system. 
+Contains a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff556042">HBAScsiID</a> that contains the information that uniquely identifies a logical unit for the operating system. 
 
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554948">GetFcpTargetMapping</a>
-
-
-
  
 
  

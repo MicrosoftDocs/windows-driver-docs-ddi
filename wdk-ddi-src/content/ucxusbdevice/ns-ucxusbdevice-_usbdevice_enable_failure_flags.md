@@ -50,19 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The flags that are set by the client driver in the  <a href="..\ucxusbdevice\nc-ucxusbdevice-evt_ucx_usbdevice_enable.md">EVT_UCX_USBDEVICE_ENABLE</a> callback function. Indicate errors, if any, that might have occurred while enabling the device.
-
-
-## -syntax
-
-
-````
-typedef struct _USBDEVICE_ENABLE_FAILURE_FLAGS {
-  ULONG InsufficientHardwareResourcesForDefaultEndpoint  :1;
-  ULONG InsufficientHardwareResourcesForDevice  :1;
-  ULONG Reserved  :30;
-} USBDEVICE_ENABLE_FAILURE_FLAGS, *P_USBDEVICE_ENABLE_FAILURE_FLAGS;
-````
+The flags that are set by the client driver in the  <a href="https://msdn.microsoft.com/library/windows/hardware/mt187841">EVT_UCX_USBDEVICE_ENABLE</a> callback function. Indicate errors, if any, that might have occurred while enabling the device.
 
 
 ## -struct-fields
@@ -87,14 +75,14 @@ Do not use.
 
 ## -see-also
 
-<a href="..\ucxusbdevice\ns-ucxusbdevice-_usbdevice_enable.md">USBDEVICE_ENABLE</a>
 
 
 
-<a href="..\ucxusbdevice\nc-ucxusbdevice-evt_ucx_usbdevice_enable.md">EVT_UCX_USBDEVICE_ENABLE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt187841">EVT_UCX_USBDEVICE_ENABLE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt188072">USBDEVICE_ENABLE</a>
  
 
  

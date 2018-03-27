@@ -52,24 +52,6 @@ req.typenames: D3DKMT_CREATEDCFROMMEMORY
 The D3DKMT_CREATEDCFROMMEMORY structure describes parameters for creating the display context.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DKMT_CREATEDCFROMMEMORY {
-  VOID         *pMemory;
-  D3DDDIFORMAT Format;
-  UINT         Width;
-  UINT         Height;
-  UINT         Pitch;
-  HDC          hDeviceDc;
-  PALETTEENTRY *pColorTable;
-  HDC          hDc;
-  HANDLE       hBitmap;
-} D3DKMT_CREATEDCFROMMEMORY;
-````
-
-
 ## -struct-fields
 
 
@@ -82,7 +64,7 @@ typedef struct _D3DKMT_CREATEDCFROMMEMORY {
 
 ### -field Format
 
-[in] A <a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>-typed value that indicates the pixel format for the memory block that <b>pMemory</b> points to.
+[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff544312">D3DDDIFORMAT</a>-typed value that indicates the pixel format for the memory block that <b>pMemory</b> points to.
 
 
 ### -field Width
@@ -122,14 +104,14 @@ typedef struct _D3DKMT_CREATEDCFROMMEMORY {
 
 ## -see-also
 
-<a href="..\d3dkmthk\nc-d3dkmthk-pfnd3dkmt_createdcfrommemory.md">D3DKMTCreateDCFromMemory</a>
 
 
 
-<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544312">D3DDDIFORMAT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546826">D3DKMTCreateDCFromMemory</a>
  
 
  

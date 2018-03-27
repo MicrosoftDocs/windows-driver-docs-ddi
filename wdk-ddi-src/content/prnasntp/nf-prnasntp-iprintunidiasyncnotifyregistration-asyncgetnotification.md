@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: prnasntp.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,16 +51,6 @@ req.product: Windows 10 or later.
 
 
 
-
-
-## -syntax
-
-
-````
-HRESULT AsyncGetNotification(
-  [in] IAsyncGetSendNotificationCookie *pCookie
-);
-````
 
 
 ## -parameters
@@ -89,10 +79,10 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="..\prnasntp\nn-prnasntp-iprintunidiasyncnotifyregistration.md">IPrintUnidiAsyncNotifyRegistration</a>
 
 
 
+<a href="https://msdn.microsoft.com/A1CC714A-CDD5-494F-8157-9D95DF738CBE">IPrintUnidiAsyncNotifyRegistration</a>
  
 
  

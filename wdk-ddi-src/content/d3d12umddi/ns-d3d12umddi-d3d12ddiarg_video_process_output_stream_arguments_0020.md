@@ -52,23 +52,6 @@ req.typenames: D3D12DDIARG_VIDEO_PROCESS_OUTPUT_STREAM_ARGUMENTS_0020
 Specifies output stream parameters for the output to be processed.
 
 
-## -syntax
-
-
-````
-typedef struct D3D12DDIARG_VIDEO_PROCESS_OUTPUT_STREAM_ARGUMENTS_0020 {
-  D3D12DDI_VIDEO_PROCESS_OUTPUT_STREAM_0020   OutputStream[2];
-  D3D12DDI_VIDEO_PROCESS_ALPHA_FILL_MODE_0020 AlphaFillMode;
-  UINT                                        AlphaFillModeSourceStreamIndex;
-  FLOAT                                       BackgroundColor[4];
-  DXGI_RATIONAL                               FrameRate;
-  BOOL                                        EnableStereo;
-  DXGI_COLOR_SPACE_TYPE                       ColorSpace;
-  D3D12DDI_RECT                               TargetRectangle;
-} D3D12DDIARG_VIDEO_PROCESS_OUTPUT_STREAM_ARGUMENTS_0020;
-````
-
-
 ## -struct-fields
 
 
@@ -81,7 +64,7 @@ The output surfaces for the video process command.  If stereo output is enabled,
 
 ### -field AlphaFillMode
 
-The alpha fill mode for data that the video processor writes to the render target.  For more information, see <a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_video_process_alpha_fill_mode_0020.md">D3D12DDI_VIDEO_PROCESS_ALPHA_FILL_MODE</a> enumeration. 
+The alpha fill mode for data that the video processor writes to the render target.  For more information, see <a href="https://msdn.microsoft.com/74F07876-5502-4B57-9128-624F6066AF5B">D3D12DDI_VIDEO_PROCESS_ALPHA_FILL_MODE</a> enumeration. 
 
 
 ### -field AlphaFillModeSourceStreamIndex
@@ -145,7 +128,10 @@ The target rectangle, which is the area within the destination surface where the
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/0a878d11-dc90-4cad-bde5-54a135e53a86">DXGI_RATIONAL</a>
+
+
+
+<a href="https://msdn.microsoft.com/74F07876-5502-4B57-9128-624F6066AF5B">D3D12DDI_VIDEO_PROCESS_ALPHA_FILL_MODE</a>
 
 
 
@@ -153,10 +139,7 @@ The target rectangle, which is the area within the destination surface where the
 
 
 
-<a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_video_process_alpha_fill_mode_0020.md">D3D12DDI_VIDEO_PROCESS_ALPHA_FILL_MODE</a>
-
-
-
+<a href="https://msdn.microsoft.com/0a878d11-dc90-4cad-bde5-54a135e53a86">DXGI_RATIONAL</a>
  
 
  

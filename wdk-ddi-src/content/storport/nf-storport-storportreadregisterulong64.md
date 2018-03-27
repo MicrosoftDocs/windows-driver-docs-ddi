@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: storport.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,16 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>StorPortReadRegisterUlong64</b> routine reads a 64-bit value from a specified 64-bit register address.
-
-
-## -syntax
-
-
-````
- VOID StorPortReadRegisterUlong64(
-  _In_ PULONG64  Register
-);
-````
 
 
 ## -parameters
@@ -98,10 +88,10 @@ The <b>StorPortReadRegisterUlong64</b> routine is only available on the 64-bit v
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportwriteregisterulong64.md">StorPortWriteRegisterUlong64</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh967743">StorPortWriteRegisterUlong64</a>
  
 
  

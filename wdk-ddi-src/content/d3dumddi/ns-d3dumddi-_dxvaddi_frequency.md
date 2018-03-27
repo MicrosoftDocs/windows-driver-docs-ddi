@@ -52,17 +52,6 @@ req.typenames: DXVADDI_FREQUENCY
 The DXVADDI_FREQUENCY structure describes the video frame rate in Hertz (Hz). For example, NTSC TV is 60000 over 1001.
 
 
-## -syntax
-
-
-````
-typedef struct _DXVADDI_FREQUENCY {
-  UINT Numerator;
-  UINT Denominator;
-} DXVADDI_FREQUENCY;
-````
-
-
 ## -struct-fields
 
 
@@ -103,10 +92,10 @@ The user-mode display driver must interpret the video frame rate for the followi
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_videodesc.md">DXVADDI_VIDEODESC</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562944">DXVADDI_VIDEODESC</a>
  
 
  

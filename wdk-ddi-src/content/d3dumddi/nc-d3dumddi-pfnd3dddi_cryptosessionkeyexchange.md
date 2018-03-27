@@ -52,20 +52,6 @@ req.typenames: DXGK_PTE
 The <b>CryptoSessionKeyExchange</b> function negotiates a session key. 
 
 
-## -prototype
-
-
-````
-PFND3DDDI_CRYPTOSESSIONKEYEXCHANGE CryptoSessionKeyExchange;
-
-__checkReturn HRESULT APIENTRY CryptoSessionKeyExchange(
-  _In_    HANDLE                             hDevice,
-  _Inout_ D3DDDIARG_CRYPTOSESSIONKEYEXCHANGE *pData
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -87,7 +73,7 @@ __checkReturn HRESULT APIENTRY CryptoSessionKeyExchange(
 
 #### - pData [in, out]
 
- A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_cryptosessionkeyexchange.md">D3DDDIARG_CRYPTOSESSIONKEYEXCHANGE</a> structure that describes a session key that is used for encryption. 
+ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff542981">D3DDDIARG_CRYPTOSESSIONKEYEXCHANGE</a> structure that describes a session key that is used for encryption. 
 
 
 ## -returns
@@ -120,7 +106,7 @@ The session key is successfully exchanged.
 </td>
 <td width="60%">
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_cryptosessionkeyexchange.md">CryptoSessionKeyExchange</a> could not allocate the required memory for it to complete.
+<a href="https://msdn.microsoft.com/f8055bb3-b8f1-47f5-9ae0-8e7a26989871">CryptoSessionKeyExchange</a> could not allocate the required memory for it to complete.
 
 </td>
 </tr>
@@ -136,17 +122,17 @@ The session key is successfully exchanged.
 
 The driver should only support a single key exchange mechanism for each encryption type. Microsoft has standardized the key exchange type D3DKEYEXCHANGE_RSAES_OAEP. However, hardware vendors can use proprietary key exchange mechanisms. 
 
-For D3DKEYEXCHANGE_RSAES_OAEP, the <b>pData</b> member of the <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_cryptosessionkeyexchange.md">D3DDDIARG_CRYPTOSESSIONKEYEXCHANGE</a> structure points to a buffer that contains the session key that an application previously RSAES-OAEP-encrypted with the public key from the driver's crypto session certificate. The actual size of the buffer is 256 bytes. This exchange is identical to how the <a href="https://msdn.microsoft.com/2c138dbd-55ca-4c71-8c8b-b2efd1ca80f2">Output Protection Manager</a> (OPM) key exchange works, except the OPM buffer contains additional data besides the session key. The same certificate that is used for OPM key exchange can be used for the D3DKEYEXCHANGE_RSAES_OAEP key exchange. 
+For D3DKEYEXCHANGE_RSAES_OAEP, the <b>pData</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff542981">D3DDDIARG_CRYPTOSESSIONKEYEXCHANGE</a> structure points to a buffer that contains the session key that an application previously RSAES-OAEP-encrypted with the public key from the driver's crypto session certificate. The actual size of the buffer is 256 bytes. This exchange is identical to how the <a href="https://msdn.microsoft.com/2c138dbd-55ca-4c71-8c8b-b2efd1ca80f2">Output Protection Manager</a> (OPM) key exchange works, except the OPM buffer contains additional data besides the session key. The same certificate that is used for OPM key exchange can be used for the D3DKEYEXCHANGE_RSAES_OAEP key exchange. 
 
 
 
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_cryptosessionkeyexchange.md">D3DDDIARG_CRYPTOSESSIONKEYEXCHANGE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542981">D3DDDIARG_CRYPTOSESSIONKEYEXCHANGE</a>
  
 
  

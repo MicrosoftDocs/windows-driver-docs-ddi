@@ -26,7 +26,7 @@ req.max-support: Unavailable in UMDF 2.0 and later.
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: wudfddi.h
+req.lib: 
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
@@ -55,14 +55,6 @@ req.product: Windows 10 or later.
 The <b>CommitPnpState</b> method commits the state of the Plug and Play (PnP) property (that is, turns on, turns off, or sets to the default state) that the <a href="https://msdn.microsoft.com/library/windows/hardware/ff558892">IWDFDevice::SetPnpState</a> method set.
 
 
-## -syntax
-
-
-````
-void CommitPnpState();
-````
-
-
 ## -parameters
 
 
@@ -83,7 +75,7 @@ None
 
 
 
-The values of the <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_pnp_state.md">WDF_PNP_STATE</a> enumeration identify the state of PnP for the device.
+The values of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff561434">WDF_PNP_STATE</a> enumeration identify the state of PnP for the device.
 
 
 #### Examples
@@ -96,7 +88,10 @@ For a code example of how to use the <b>CommitPnpState</b> method, see <a href="
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556917">IWDFDevice</a>
 
 
 
@@ -104,10 +99,7 @@ For a code example of how to use the <b>CommitPnpState</b> method, see <a href="
 
 
 
-<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_pnp_state.md">WDF_PNP_STATE</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561434">WDF_PNP_STATE</a>
  
 
  

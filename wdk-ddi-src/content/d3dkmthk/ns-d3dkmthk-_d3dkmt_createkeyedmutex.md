@@ -49,19 +49,7 @@ req.typenames: D3DKMT_CREATEKEYEDMUTEX
 ## -description
 
 
-The D3DKMT_CREATEKEYEDMUTEX structure describes a keyed mutex that the <a href="..\d3dkmthk\nc-d3dkmthk-pfnd3dkmt_createkeyedmutex.md">D3DKMTCreateKeyedMutex</a> function creates. 
-
-
-## -syntax
-
-
-````
-typedef struct _D3DKMT_CREATEKEYEDMUTEX {
-  UINT64        InitialValue;
-  D3DKMT_HANDLE hSharedHandle;
-  D3DKMT_HANDLE hKeyedMutex;
-} D3DKMT_CREATEKEYEDMUTEX;
-````
+The D3DKMT_CREATEKEYEDMUTEX structure describes a keyed mutex that the <a href="https://msdn.microsoft.com/library/windows/hardware/ff546845">D3DKMTCreateKeyedMutex</a> function creates. 
 
 
 ## -struct-fields
@@ -86,10 +74,10 @@ typedef struct _D3DKMT_CREATEKEYEDMUTEX {
 
 ## -see-also
 
-<a href="..\d3dkmthk\nc-d3dkmthk-pfnd3dkmt_createkeyedmutex.md">D3DKMTCreateKeyedMutex</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546845">D3DKMTCreateKeyedMutex</a>
  
 
  

@@ -54,22 +54,7 @@ The <b>DrvXMoveTo</b> function is obsolete.
 
  Windows 2000 and later Unidrv plug-ins should use <a href="https://msdn.microsoft.com/library/windows/hardware/ff553141">IPrintOemDriverUni::DrvXMoveTo</a>. 
 
-This function pointer prototype defines the type of the <b>DrvXMoveTo</b> member of the <a href="..\printoem\ns-printoem-_drvprocs.md">DRVPROCS</a> structure.
-
-
-## -prototype
-
-
-````
-PFN_DrvXMoveTo DrvXMoveTo;
-
-INT APIENTRY* DrvXMoveTo(
-   PDEVOBJ pdevobj,
-   INT     x,
-   DWORD   dwFlags
-)
-{ ... }
-````
+This function pointer prototype defines the type of the <b>DrvXMoveTo</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff548571">DRVPROCS</a> structure.
 
 
 ## -parameters

@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: ks.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -52,20 +52,6 @@ req.typenames:
 The <b>IKsControl::KsEvent</b> method enables or disables an event, together with any other defined support operations available on an event set. 
 
 
-## -syntax
-
-
-````
-NTSTATUS KsEvent(
-   PKSEVENT Event,
-   ULONG    EventLength,
-   PVOID    EventData,
-   ULONG    DataLength,
-   ULONG    BytesReturned
-);
-````
-
-
 ## -parameters
 
 
@@ -83,7 +69,7 @@ Specifies size, in bytes, of the buffer at <i>Event</i> when the event is enable
 
 ### -param EventData
 
-Pointer to a <a href="..\ks\ns-ks-kseventdata.md">KSEVENTDATA</a> structure that contains data for the event and buffer space that receives data for the event. 
+Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff561750">KSEVENTDATA</a> structure that contains data for the event and buffer space that receives data for the event. 
 
 
 ### -param DataLength
@@ -109,21 +95,21 @@ The <b>IKsControl::KsEvent</b> method returns the same value that would be retur
 
 
 
-To disable an event, set <i>Event</i> to <b>NULL</b>, <i>EventLength</i> to zero, and <i>EventData</i> to the pointer to the <a href="..\ks\ns-ks-kseventdata.md">KSEVENTDATA</a> structure that was previously used to enable the event.
+To disable an event, set <i>Event</i> to <b>NULL</b>, <i>EventLength</i> to zero, and <i>EventData</i> to the pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff561750">KSEVENTDATA</a> structure that was previously used to enable the event.
 
 
 
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561744">KSEVENT</a>
 
 
 
-<a href="..\ks\ns-ks-kseventdata.md">KSEVENTDATA</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561750">KSEVENTDATA</a>
  
 
  

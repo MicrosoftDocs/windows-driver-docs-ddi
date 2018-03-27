@@ -52,20 +52,6 @@ req.typenames: MSiSCSI_NICConfig, *PMSiSCSI_NICConfig
 The MSiSCSI_NICConfig structure describes the configuration of a network interface card (NIC) port.
 
 
-## -syntax
-
-
-````
-typedef struct _MSiSCSI_NICConfig {
-  ULONG LinkSpeed;
-  ULONG MaxLinkSpeed;
-  ULONG LinkState;
-  ULONG MaxFrameSize;
-  UCHAR MacAddress[6];
-} MSiSCSI_NICConfig, *PMSiSCSI_NICConfig;
-````
-
-
 ## -struct-fields
 
 
@@ -83,7 +69,7 @@ The maximum speed of the network link, in megabits per second (Mbps).
 
 ### -field LinkState
 
-A <a href="..\iscsicfg\ne-iscsicfg-piscsi_nic_linkstate.md">ISCSI_NIC_LINKSTATE</a> enumeration value that indicates whether the port is connected to the network or not.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff561549">ISCSI_NIC_LINKSTATE</a> enumeration value that indicates whether the port is connected to the network or not.
 
 
 ### -field MaxFrameSize
@@ -113,14 +99,14 @@ Initiators should register each instance of the MSiSCSI_NICConfig class by using
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561549">ISCSI_NIC_LINKSTATE</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563083">MSiSCSI_NICConfig WMI Class</a>
-
-
-
-<a href="..\iscsicfg\ne-iscsicfg-piscsi_nic_linkstate.md">ISCSI_NIC_LINKSTATE</a>
-
-
-
  
 
  

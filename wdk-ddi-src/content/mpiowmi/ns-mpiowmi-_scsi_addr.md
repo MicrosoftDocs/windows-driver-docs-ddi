@@ -52,19 +52,6 @@ req.typenames: SCSI_ADDR, *PSCSI_ADDR
 The SCSI_ADDR structure represents a SCSI address.
 
 
-## -syntax
-
-
-````
-typedef struct _SCSI_ADDR {
-  UCHAR PortNumber;
-  UCHAR ScsiPathId;
-  UCHAR TargetId;
-  UCHAR Lun;
-} SCSI_ADDR, *PSCSI_ADDR;
-````
-
-
 ## -struct-fields
 
 

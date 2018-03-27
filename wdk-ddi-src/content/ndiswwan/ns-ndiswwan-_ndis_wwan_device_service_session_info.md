@@ -52,18 +52,6 @@ req.typenames: NDIS_WWAN_DEVICE_SERVICE_SESSION_INFO, *PNDIS_WWAN_DEVICE_SERVICE
 The NDIS_WWAN_DEVICE_SERVICE_SESSION_INFO structure represents the status of a device service session.
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_WWAN_DEVICE_SERVICE_SESSION_INFO {
-  NDIS_OBJECT_HEADER          Header;
-  WWAN_STATUS                 uStatus;
-  WWAN_DEVICE_SERVICE_SESSION Session;
-} NDIS_WWAN_DEVICE_SERVICE_SESSION_INFO, *PNDIS_WWAN_DEVICE_SERVICE_SESSION_INFO;
-````
-
-
 ## -struct-fields
 
 
@@ -117,7 +105,7 @@ sizeof(NDIS_WWAN_DEVICE_SERVICE_SESSION_INFO)
  
 
 For more information about these members, see 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>.
 
 
 ### -field uStatus
@@ -132,10 +120,10 @@ The session to obtain status of.
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_device_service_session.md">WWAN_DEVICE_SERVICE_SESSION</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh831873">WWAN_DEVICE_SERVICE_SESSION</a>
  
 
  

@@ -52,18 +52,6 @@ req.typenames: TOKEN_TYPE
 The <b>IoReplaceFileObjectName</b> routine replaces the name of a file object.
 
 
-## -syntax
-
-
-````
-NTSTATUS IoReplaceFileObjectName(
-  _In_ PFILE_OBJECT FileObject,
-  _In_ PWSTR        NewFileName,
-  _In_ USHORT       FileNameLength
-);
-````
-
-
 ## -parameters
 
 

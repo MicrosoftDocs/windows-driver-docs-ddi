@@ -55,16 +55,6 @@ The
   NIC.
 
 
-## -syntax
-
-
-````
-VOID NdisMDeregisterDmaChannel(
-  _In_ NDIS_HANDLE MiniportDmaHandle
-);
-````
-
-
 ## -parameters
 
 
@@ -73,7 +63,7 @@ VOID NdisMDeregisterDmaChannel(
 ### -param MiniportDmaHandle [in]
 
 The DMA handle returned by the 
-     <a href="..\ndis\nf-ndis-ndismregisterdmachannel.md">
+     <a href="https://msdn.microsoft.com/32e92f77-8f45-408b-a284-c00d3b5bd1b4">
      NdisMRegisterDmaChannel</a> function.
 
 
@@ -96,26 +86,26 @@ The caller should consider
     registry.
 
 <b>NdisMDeregisterDmaChannel</b> can be called only from a miniport driver's 
-    <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a> and 
-    <a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a> functions.
+    <a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a> and 
+    <a href="https://msdn.microsoft.com/b8d452b4-bef3-4991-87cf-fac15bedfde4">MiniportHaltEx</a> functions.
 
 
 
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
 
 
-<a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
+<a href="https://msdn.microsoft.com/b8d452b4-bef3-4991-87cf-fac15bedfde4">MiniportHaltEx</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndismregisterdmachannel.md">NdisMRegisterDmaChannel</a>
+<a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563646">NdisMRegisterDmaChannel</a>
  
 
  

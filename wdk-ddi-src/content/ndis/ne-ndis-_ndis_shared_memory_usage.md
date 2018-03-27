@@ -52,26 +52,6 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 The NDIS_SHARED_MEMORY_USAGE enumeration specifies how shared memory is used.
 
 
-## -syntax
-
-
-````
-typedef enum _NDIS_SHARED_MEMORY_USAGE { 
-  NdisSharedMemoryUsageUndefined,
-  NdisSharedMemoryUsageXmit,
-  NdisSharedMemoryUsageXmitHeader,
-  NdisSharedMemoryUsageXmitData,
-  NdisSharedMemoryUsageReceive,
-  NdisSharedMemoryUsageReceiveLookahead,
-  NdisSharedMemoryUsageReceivePostLookahead,
-  NdisSharedMemoryUsageReceiveHeader,
-  NdisSharedMemoryUsageReceiveData,
-  NdisSharedMemoryUsageOther,
-  NdisSharedMemoryUsageMax
-} NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE;
-````
-
-
 ## -enum-fields
 
 
@@ -138,9 +118,9 @@ The maximum value for this enumeration. This value might change in future versio
 
 
 The NDIS_SHARED_MEMORY_USAGE enumeration is used in the 
-    <a href="..\ndis\ns-ndis-_ndis_shared_memory_parameters.md">
+    <a href="https://msdn.microsoft.com/286b08f6-179e-426e-ae65-b108529d049a">
     NDIS_SHARED_MEMORY_PARAMETERS</a> and 
-    <a href="..\ndis\ns-ndis-_ndis_scatter_gather_list_parameters.md">
+    <a href="https://msdn.microsoft.com/5c14a6ed-3180-41d6-a09a-b3ae0a0c8b36">
     NDIS_SCATTER_GATHER_LIST_PARAMETERS</a> structures.
 
 
@@ -148,15 +128,15 @@ The NDIS_SHARED_MEMORY_USAGE enumeration is used in the
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_ndis_scatter_gather_list_parameters.md">
+
+
+
+<a href="https://msdn.microsoft.com/5c14a6ed-3180-41d6-a09a-b3ae0a0c8b36">
    NDIS_SCATTER_GATHER_LIST_PARAMETERS</a>
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_shared_memory_parameters.md">NDIS_SHARED_MEMORY_PARAMETERS</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567303">NDIS_SHARED_MEMORY_PARAMETERS</a>
  
 
  

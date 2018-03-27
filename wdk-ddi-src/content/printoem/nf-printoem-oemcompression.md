@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -50,20 +50,6 @@ req.product: Windows 10 or later.
 ## -description
 
 
-
-
-## -syntax
-
-
-````
-INT APIENTRY OEMCompression(
-        PDEVOBJ                        pdevobj,
-  _In_  _reads_bytes_(dwInLen) PBYTE   pInBuf,
-  _Out_ _writes_bytes_(dwOutLen) PBYTE pOutBuf,
-        DWORD                          dwInLen,
-        DWORD                          dwOutLen
-);
-````
 
 
 ## -parameters

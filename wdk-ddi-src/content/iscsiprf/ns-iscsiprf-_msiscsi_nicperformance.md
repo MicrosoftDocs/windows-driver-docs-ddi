@@ -52,19 +52,6 @@ req.typenames: MSiSCSI_NICPerformance, *PMSiSCSI_NICPerformance
 The MSiSCSI_NICPerformance structure can be used by an iSCSI initiator to report statistics for a network interface card (NIC) port. 
 
 
-## -syntax
-
-
-````
-typedef struct _MSiSCSI_NICPerformance {
-  ULONG BytesTransmitted;
-  ULONG BytesReceived;
-  ULONG PDUTransmitted;
-  ULONG PDUReceived;
-} MSiSCSI_NICPerformance, *PMSiSCSI_NICPerformance;
-````
-
-
 ## -struct-fields
 
 
@@ -101,10 +88,10 @@ It is optional that you implement this class.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563089">MSiSCSI_NICPerformance WMI Class</a>
-
-
-
  
 
  

@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
@@ -51,16 +51,6 @@ req.product: Windows 10 or later.
 
 
 Informs USB Host Controller Extension (UCX) that the controller has encountered a critical failure. 
-
-
-## -syntax
-
-
-````
-void UcxControllerSetFailed(
-  [in] UCXCONTROLLER Controller
-);
-````
 
 
 ## -parameters
@@ -93,10 +83,10 @@ This method does not return a value.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt188033">UcxControllerCreate</a>
-
-
-
  
 
  

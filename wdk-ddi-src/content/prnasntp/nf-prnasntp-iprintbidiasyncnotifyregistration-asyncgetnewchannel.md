@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: prnasntp.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,16 +51,6 @@ req.product: Windows 10 or later.
 
 
 
-
-
-## -syntax
-
-
-````
-HRESULT AsyncGetNewChannel(
-  [in] IPrintAsyncNewChannelCookie *pCookie
-);
-````
 
 
 ## -parameters
@@ -89,10 +79,10 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="..\prnasntp\nn-prnasntp-iprintbidiasyncnotifyregistration.md">IPrintBidiAsyncNotifyRegistration</a>
 
 
 
+<a href="https://msdn.microsoft.com/A187FD9F-8A2E-4B98-8CC4-C0AC66D6FB08">IPrintBidiAsyncNotifyRegistration</a>
  
 
  

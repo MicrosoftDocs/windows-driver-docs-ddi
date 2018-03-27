@@ -49,20 +49,7 @@ req.typenames: D3DKMT_OPENKEYEDMUTEX2
 ## -description
 
 
-Describes a keyed mutex that the <a href="..\d3dkmthk\nc-d3dkmthk-pfnd3dkmt_openkeyedmutex2.md">D3DKMTOpenKeyedMutex2</a> function opens.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DKMT_OPENKEYEDMUTEX2 {
-  D3DKMT_HANDLE hSharedHandle;
-  D3DKMT_HANDLE hKeyedMutex;
-  VOID          *pPrivateRuntimeData;
-  UINT          PrivateRuntimeDataSize;
-} D3DKMT_OPENKEYEDMUTEX2;
-````
+Describes a keyed mutex that the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439405">D3DKMTOpenKeyedMutex2</a> function opens.
 
 
 ## -struct-fields
@@ -92,10 +79,10 @@ typedef struct _D3DKMT_OPENKEYEDMUTEX2 {
 
 ## -see-also
 
-<a href="..\d3dkmthk\nc-d3dkmthk-pfnd3dkmt_openkeyedmutex2.md">D3DKMTOpenKeyedMutex2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439405">D3DKMTOpenKeyedMutex2</a>
  
 
  

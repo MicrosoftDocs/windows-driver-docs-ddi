@@ -53,22 +53,6 @@ req.product: Windows 10 or later.
 The client driver's implementation that UCX calls when it receives a request for information about changed ports.
 
 
-## -prototype
-
-
-````
-EVT_UCX_ROOTHUB_INTERRUPT_TX EvtUcxInterruptTransferTx;
-
-VOID EvtUcxInterruptTransferTx(
-  _In_ UCXROOTHUB UcxRootHub,
-  _In_ WDFREQUEST Request
-)
-{ ... }
-
-typedef EVT_UCX_ROOTHUB_INTERRUPT_TX PEVT_UCX_ROOTHUB_INTERRUPT_TX;
-````
-
-
 ## -parameters
 
 
@@ -81,7 +65,7 @@ A handle to a UCX object that represents the root hub.
 
 ### -param Request [in]
 
-Contains the <a href="..\usb\ns-usb-_urb.md">URB</a> for the root hub interrupt transfer request.
+Contains the <a href="https://msdn.microsoft.com/library/windows/hardware/ff538923">URB</a> for the root hub interrupt transfer request.
 
 
 ## -returns

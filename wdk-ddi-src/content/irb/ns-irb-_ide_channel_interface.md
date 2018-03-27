@@ -52,25 +52,6 @@ req.typenames: IDE_CHANNEL_INTERFACE, *PIDE_CHANNEL_INTERFACE
 The IDE_CHANNEL_INTERFACE structure contains interface information for the indicated channel.
 <div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
-## -syntax
-
-
-````
-typedef struct _IDE_CHANNEL_INTERFACE {
-  USHORT            Version;
-  UCHAR             ChannelNumber;
-  UCHAR             Reserved;
-  ULONG             ReservedUlong;
-  IDE_HW_INITIALIZE IdeHwInitialize;
-  IDE_HW_BUILDIO    IdeHwBuildIo;
-  IDE_HW_STARTIO    IdeHwStartIo;
-  IDE_HW_INTERRUPT  IdeHwInterrupt;
-  IDE_HW_RESET      IdeHwReset;
-  IDE_HW_CONTROL    IdeHwControl;
-} IDE_CHANNEL_INTERFACE, *PIDE_CHANNEL_INTERFACE;
-````
-
-
 ## -struct-fields
 
 
@@ -118,19 +99,10 @@ Reserved for future use. The miniport driver must not use this field.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558998">IdeHwReset</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557462">IdeHwBuildIo</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558992">IdeHwInterrupt</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559003">IdeHwStartIo</a>
 
 
 
@@ -142,6 +114,15 @@ Reserved for future use. The miniport driver must not use this field.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558992">IdeHwInterrupt</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558998">IdeHwReset</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559003">IdeHwStartIo</a>
  
 
  

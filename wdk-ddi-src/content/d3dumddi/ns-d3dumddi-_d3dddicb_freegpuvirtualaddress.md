@@ -49,18 +49,7 @@ req.typenames: D3DDDICB_FREEGPUVIRTUALADDRESS
 ## -description
 
 
-<b>D3DDDICB_FREEGPUVIRTUALADDRESS</b> is used with <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_freegpuvirtualaddresscb.md">pfnFreeGpuVirtualAddressCb</a> to release a range of graphics processing unit (GPU) virtual addresses that were previously reserved or mapped.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DDDICB_FREEGPUVIRTUALADDRESS {
-  D3DGPU_VIRTUAL_ADDRESS BaseAddress;
-  D3DGPU_SIZE_T          Size;
-} D3DDDICB_FREEGPUVIRTUALADDRESS;
-````
+<b>D3DDDICB_FREEGPUVIRTUALADDRESS</b> is used with <a href="https://msdn.microsoft.com/92F2A43C-699B-4580-8A56-472D837A76E2">pfnFreeGpuVirtualAddressCb</a> to release a range of graphics processing unit (GPU) virtual addresses that were previously reserved or mapped.
 
 
 ## -struct-fields
@@ -80,10 +69,10 @@ Specifies the size, in bytes, of the range to free. Must be aligned to 4 KB.
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_freegpuvirtualaddresscb.md">pfnFreeGpuVirtualAddressCb</a>
 
 
 
+<a href="https://msdn.microsoft.com/92F2A43C-699B-4580-8A56-472D837A76E2">pfnFreeGpuVirtualAddressCb</a>
  
 
  

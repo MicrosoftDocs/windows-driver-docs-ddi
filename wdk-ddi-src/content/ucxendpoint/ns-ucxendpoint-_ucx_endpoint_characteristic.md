@@ -53,20 +53,6 @@ req.product: Windows 10 or later.
 Stores the characteristics of an endpoint. 
 
 
-## -syntax
-
-
-````
-typedef struct _UCX_ENDPOINT_CHARACTERISTIC {
-  ULONG                            Size;
-  UCX_ENDPOINT_CHARACTERISTIC_TYPE CharacteristicType;
-  union {
-    UCX_CONTROLLER_ENDPOINT_CHARACTERISTIC_PRIORITY Priority;
-  };
-} UCX_ENDPOINT_CHARACTERISTIC, *PUCX_ENDPOINT_CHARACTERISTIC;
-````
-
-
 ## -struct-fields
 
 
@@ -79,24 +65,24 @@ Size of this structure.
 
 ### -field CharacteristicType
 
-A <a href="..\ucxendpoint\ne-ucxendpoint-_ucx_endpoint_characteristic_type.md">UCX_ENDPOINT_CHARACTERISTIC_TYPE</a>-type value that indicates the type of endpoint characteristic.
+A <a href="https://msdn.microsoft.com/1F49C8CA-51CE-49B2-AC37-C114A688B1DB">UCX_ENDPOINT_CHARACTERISTIC_TYPE</a>-type value that indicates the type of endpoint characteristic.
 
 
 #### - Priority
 
-A <a href="..\ucxendpoint\ne-ucxendpoint-_ucx_endpoint_characteristic_priority.md">UCX_CONTROLLER_ENDPOINT_CHARACTERISTIC_PRIORITY</a>-typed value that indicates the priority of the endpoint.
+A <a href="https://msdn.microsoft.com/43031BE8-B94A-4B22-B9E2-CBF59A31F3A2">UCX_CONTROLLER_ENDPOINT_CHARACTERISTIC_PRIORITY</a>-typed value that indicates the priority of the endpoint.
 
 
 ## -see-also
 
-<a href="..\ucxendpoint\ne-ucxendpoint-_ucx_endpoint_characteristic_priority.md">UCX_CONTROLLER_ENDPOINT_CHARACTERISTIC_PRIORITY</a>
 
 
 
-<a href="..\ucxendpoint\nc-ucxendpoint-evt_ucx_endpoint_set_characteristic.md">EVT_UCX_ENDPOINT_SET_CHARACTERISTIC</a>
+<a href="https://msdn.microsoft.com/4FA3F175-52E4-472D-A9B3-B3B4B37E1701">EVT_UCX_ENDPOINT_SET_CHARACTERISTIC</a>
 
 
 
+<a href="https://msdn.microsoft.com/43031BE8-B94A-4B22-B9E2-CBF59A31F3A2">UCX_CONTROLLER_ENDPOINT_CHARACTERISTIC_PRIORITY</a>
  
 
  

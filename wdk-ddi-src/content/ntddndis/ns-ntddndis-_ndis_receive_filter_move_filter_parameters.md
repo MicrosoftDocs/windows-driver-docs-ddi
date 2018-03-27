@@ -52,21 +52,6 @@ req.typenames: NDIS_RECEIVE_FILTER_MOVE_FILTER_PARAMETERS, *PNDIS_RECEIVE_FILTER
 The <b>NDIS_RECEIVE_FILTER_MOVE_FILTER_PARAMETERS</b> structure specifies the parameters for moving a previously created receive filter. A receive filter is moved  from a receive queue on a virtual port (VPort) to a receive queue on another VPort.
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_RECEIVE_FILTER_MOVE_FILTER_PARAMETERS {
-  NDIS_OBJECT_HEADER       Header;
-  NDIS_RECEIVE_FILTER_ID   FilterId;
-  NDIS_RECEIVE_QUEUE_ID    SourceQueueId;
-  NDIS_NIC_SWITCH_VPORT_ID SourceVPortId;
-  NDIS_RECEIVE_QUEUE_ID    DestQueueId;
-  NDIS_NIC_SWITCH_VPORT_ID DestVPortId;
-} NDIS_RECEIVE_FILTER_MOVE_FILTER_PARAMETERS, *PNDIS_RECEIVE_FILTER_MOVE_FILTER_PARAMETERS;
-````
-
-
 ## -struct-fields
 
 
@@ -74,7 +59,7 @@ typedef struct _NDIS_RECEIVE_FILTER_MOVE_FILTER_PARAMETERS {
 
 ### -field Header
 
-The type, revision, and size of the <b>NDIS_RECEIVE_FILTER_MOVE_FILTER_PARAMETERS</b> structure. This member is formatted as an <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure.
+The type, revision, and size of the <b>NDIS_RECEIVE_FILTER_MOVE_FILTER_PARAMETERS</b> structure. This member is formatted as an <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure.
 
 The miniport driver must set the <b>Type</b> member of <b>Header</b> to NDIS_OBJECT_TYPE_DEFAULT. To specify the version of the <b>NDIS_RECEIVE_FILTER_MOVE_FILTER_PARAMETERS</b> structure, the driver must set the <b>Revision</b> member of <b>Header</b> to the following value: 
 
@@ -129,11 +114,6 @@ This structure is used in OID set requests of <a href="https://msdn.microsoft.co
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451845">OID_RECEIVE_FILTER_MOVE_FILTER</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 
@@ -141,6 +121,11 @@ This structure is used in OID set requests of <a href="https://msdn.microsoft.co
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451845">OID_RECEIVE_FILTER_MOVE_FILTER</a>
  
 
  

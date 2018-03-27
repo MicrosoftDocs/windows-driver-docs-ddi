@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -54,18 +54,6 @@ req.product: Windows 10 or later.
 
 The <b>VmbPacketRestore</b> function restores packet from a buffer that contains saved packet
 context.
-
-
-## -syntax
-
-
-````
-NTSTATUS VmbPacketRestore(
-  _In_ __drv_aliasesMem VMBPACKET     PacketObject,
-  _In_ reads_bytes_(BufferSize) PVOID Buffer,
-  _In_ ULONG                          BufferSize
-);
-````
 
 
 ## -parameters

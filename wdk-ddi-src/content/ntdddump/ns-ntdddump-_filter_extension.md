@@ -52,21 +52,6 @@ req.typenames: FILTER_EXTENSION, *PFILTER_EXTENSION
 The crash dump driver passes a pointer to a FILTER_EXTENSION structure when the filter driver callback routines are called.
 
 
-## -syntax
-
-
-````
-typedef struct _FILTER_EXTENSION {
-  FILTER_DUMP_TYPE    DumpType;
-  PDEVICE_OBJECT      DeviceObject;
-  DISK_GEOMETRY       Geometry;
-  LARGE_INTEGER       DiskSize;
-  DISK_PARTITION_INFO PartitionInfo;
-  PVOID               DumpData;
-} FILTER_EXTENSION, *PFILTER_EXTENSION;
-````
-
-
 ## -struct-fields
 
 
@@ -84,7 +69,7 @@ A pointer to the device object of the dump volume. This pointer points to the to
 
 ### -field Geometry
 
-The disk geometry of the dump device in <a href="..\ntdddisk\ns-ntdddisk-_disk_geometry.md">DISK_GEOMETRY</a> format.
+The disk geometry of the dump device in <a href="https://msdn.microsoft.com/library/windows/hardware/ff552613">DISK_GEOMETRY</a> format.
 
 
 ### -field DiskSize
@@ -94,12 +79,12 @@ Size of the disk.
 
 ### -field PartitionInfo
 
-The partition information in <a href="..\ntdddisk\ns-ntdddisk-_disk_partition_info.md">DISK_PARTITION_INFO</a> format.
+The partition information in <a href="https://msdn.microsoft.com/library/windows/hardware/ff552629">DISK_PARTITION_INFO</a> format.
 
 
 ### -field DumpData
 
-A pointer to the context data that is provided by the filter driver in <a href="..\ntdddump\ns-ntdddump-_filter_initialization_data.md">FILTER_INITIALIZATION_DATA</a>.
+A pointer to the context data that is provided by the filter driver in <a href="https://msdn.microsoft.com/library/windows/hardware/ff553865">FILTER_INITIALIZATION_DATA</a>.
 
 
 ### -field Size
@@ -116,18 +101,18 @@ A pointer to the context data that is provided by the filter driver in <a href="
 
 ## -see-also
 
-<a href="..\ntdddump\ns-ntdddump-_filter_initialization_data.md">FILTER_INITIALIZATION_DATA</a>
 
 
 
-<a href="..\ntdddisk\ns-ntdddisk-_disk_geometry.md">DISK_GEOMETRY</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552613">DISK_GEOMETRY</a>
 
 
 
-<a href="..\ntdddisk\ns-ntdddisk-_disk_partition_info.md">DISK_PARTITION_INFO</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552629">DISK_PARTITION_INFO</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553865">FILTER_INITIALIZATION_DATA</a>
  
 
  

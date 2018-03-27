@@ -52,18 +52,6 @@ req.typenames: IRB_REQ_ISOCH_QUERY_RESOURCES
 This structure contains the fields necessary to carry out a IsochQueryResources request.
 
 
-## -syntax
-
-
-````
-typedef struct _IRB_REQ_ISOCH_QUERY_RESOURCES {
-  ULONG         fulSpeed;
-  ULONG         BytesPerFrameAvailable;
-  LARGE_INTEGER ChannelsAvailable;
-} IRB_REQ_ISOCH_QUERY_RESOURCES;
-````
-
-
 ## -struct-fields
 
 

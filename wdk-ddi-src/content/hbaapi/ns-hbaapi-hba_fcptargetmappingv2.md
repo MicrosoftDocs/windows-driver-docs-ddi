@@ -52,17 +52,6 @@ req.typenames: HBA_FCPTARGETMAPPINGV2, *PHBA_FCPTARGETMAPPINGV2
 The HBA_FCPTargetMappingV2 structure contains a variable length array of target mappings. 
 
 
-## -syntax
-
-
-````
-typedef struct HBA_FCPTargetMappingV2 {
-  HBA_UINT32         NumberOfEntries;
-  HBA_FCPSCSIENTRYV2 entry[1];
-} HBA_FCPTARGETMAPPINGV2, *PHBA_FCPTARGETMAPPINGV2;
-````
-
-
 ## -struct-fields
 
 
@@ -75,15 +64,15 @@ Indicates the number of bindings.
 
 ### -field entry
 
-Contains a variable length array of structures of type <a href="..\hbaapi\ns-hbaapi-hba_fcpscsientryv2.md">HBA_FcpScsiEntryV2</a> each of which defines a mapping between an operating system identifier, a logical unit ID descriptor (LUID) and the corresponding fibre channel protocol (FCP) identifier for a logical unit. 
+Contains a variable length array of structures of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff556068">HBA_FcpScsiEntryV2</a> each of which defines a mapping between an operating system identifier, a logical unit ID descriptor (LUID) and the corresponding fibre channel protocol (FCP) identifier for a logical unit. 
 
 
 ## -see-also
 
-<a href="..\hbaapi\nf-hbaapi-hba_getfcptargetmappingv2.md">HBA_GetFcpTargetMappingV2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556099">HBA_GetFcpTargetMappingV2</a>
  
 
  

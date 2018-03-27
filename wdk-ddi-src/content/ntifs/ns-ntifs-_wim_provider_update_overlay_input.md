@@ -52,18 +52,6 @@ req.typenames: WIM_PROVIDER_UPDATE_OVERLAY_INPUT, *PWIM_PROVIDER_UPDATE_OVERLAY_
 A current Windows Image File (WIM) data source is updated with a new WIM file using the <a href="https://msdn.microsoft.com/library/windows/hardware/dn632445">FSCTL_UPDATE_OVERLAY</a> control request with a <b>WIM_PROVIDER_UPDATE_OVERLAY_INPUT</b> structure.
 
 
-## -syntax
-
-
-````
-typedef struct _WIM_PROVIDER_ADD_OVERLAY_INPUT {
-  LARGE_INTEGER DataSourceId;
-  ULONG         WimFileNameOffset;
-  ULONG         WimFileNameLength;
-} WIM_PROVIDER_ADD_OVERLAY_INPUT, *PWIM_PROVIDER_ADD_OVERLAY_INPUT;
-````
-
-
 ## -struct-fields
 
 
@@ -97,15 +85,6 @@ The WIM file name includes a terminating NULL character. <b>WimFileNameLength</b
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn632445">FSCTL_UPDATE_OVERLAY</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt426735">FSCTL_SUSPEND_OVERLAY</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn632442">FSCTL_REMOVE_OVERLAY</a>
 
 
 
@@ -113,6 +92,15 @@ The WIM file name includes a terminating NULL character. <b>WimFileNameLength</b
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn632442">FSCTL_REMOVE_OVERLAY</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt426735">FSCTL_SUSPEND_OVERLAY</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn632445">FSCTL_UPDATE_OVERLAY</a>
  
 
  

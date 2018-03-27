@@ -52,16 +52,6 @@ req.typenames: EXpsFontRestriction
 The <b>FltObjectDereference</b> routine removes a rundown reference from an opaque filter, instance, or volume pointer. 
 
 
-## -syntax
-
-
-````
-VOID FltObjectDereference(
-  _Inout_ PVOID FltObject
-);
-````
-
-
 ## -parameters
 
 
@@ -85,17 +75,17 @@ None
 
 
 
-To add a rundown reference to an opaque filter, instance, or volume pointer, call <a href="..\fltkernel\nf-fltkernel-fltobjectreference.md">FltObjectReference</a>. 
+To add a rundown reference to an opaque filter, instance, or volume pointer, call <a href="https://msdn.microsoft.com/library/windows/hardware/ff543382">FltObjectReference</a>. 
 
 
 
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltobjectreference.md">FltObjectReference</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543382">FltObjectReference</a>
  
 
  

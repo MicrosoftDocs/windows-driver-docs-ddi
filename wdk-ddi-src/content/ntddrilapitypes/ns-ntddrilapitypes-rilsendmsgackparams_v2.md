@@ -52,22 +52,6 @@ req.typenames: RILSENDMSGACKPARAMS_V2, RILSENDMSGACKPARAMS, *LPRILSENDMSGACKPARA
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef struct _RILSENDMSGACKPARAMS_V2 {
-  DWORD            cbSize;
-  DWORD            dwExecutor;
-  HUICCAPP         hUiccApp;
-  DWORD            dwAckID;
-  RILMSGACKSTATUS  dwMsgStatus;
-  RILSMSFORMAT     dwSmsFormat;
-  DWORD            dwOptions;
-} RILSENDMSGACKPARAMS_V2, RILSENDMSGACKPARAMS_V2;
-````
-
-
 ## -struct-fields
 
 

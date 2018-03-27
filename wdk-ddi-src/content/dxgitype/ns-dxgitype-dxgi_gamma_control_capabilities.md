@@ -52,20 +52,6 @@ req.typenames: DXGI_GAMMA_CONTROL_CAPABILITIES
 The DXGI_GAMMA_CONTROL_CAPABILIITES structure describes gamma capabilities. 
 
 
-## -syntax
-
-
-````
-typedef struct DXGI_GAMMA_CONTROL_CAPABILIITES {
-  BOOL  ScaleAndOffsetSupported;
-  float MaxConvertedValue;
-  float MinConvertedValue;
-  UINT  NumGammaControlPoints;
-  float ControlPointPositions[1025];
-} DXGI_GAMMA_CONTROL_CAPABILITIES;
-````
-
-
 ## -struct-fields
 
 
@@ -98,14 +84,14 @@ typedef struct DXGI_GAMMA_CONTROL_CAPABILIITES {
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557455">DXGI_DDI_ARG_GET_GAMMA_CONTROL_CAPS</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566790">GetGammaCapsDXGI</a>
-
-
-
-<a href="..\dxgiddi\ns-dxgiddi-dxgi_ddi_arg_get_gamma_control_caps.md">DXGI_DDI_ARG_GET_GAMMA_CONTROL_CAPS</a>
-
-
-
  
 
  

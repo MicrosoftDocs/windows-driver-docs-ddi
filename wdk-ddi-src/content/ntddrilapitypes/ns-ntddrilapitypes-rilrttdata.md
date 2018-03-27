@@ -52,19 +52,6 @@ req.typenames: RILRTTDATA, *LPRILRTTDATA
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef struct _RILRTTDATA {
-  DWORD       cbSize;
-  DWORD       dwID;
-  DWORD       dwExecutor;
-  WCHAR [127] wszRTTData;
-} RILRTTDATA, RILRTTDATA;
-````
-
-
 ## -struct-fields
 
 

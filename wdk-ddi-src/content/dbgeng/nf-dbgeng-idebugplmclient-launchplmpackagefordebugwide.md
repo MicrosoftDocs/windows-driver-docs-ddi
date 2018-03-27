@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -50,22 +50,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 Launches a suspended Process Lifecycle Management (PLM) application.
-
-
-## -syntax
-
-
-````
-HRESULT LaunchPlmPackageForDebugWide(
-  [in]           ULONG64 Server,
-  [in]           ULONG   Timeout,
-  [in]           PCWSTR  PackageFullName,
-  [in]           PCWSTR  AppName,
-  [in, optional] PCWSTR  Arguments,
-  [out]          PULONG  ProcessId,
-  [out]          PULONG  ThreadId
-);
-````
 
 
 ## -parameters
@@ -119,10 +103,10 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugplmclient.md">IDebugPlmClient</a>
 
 
 
+<a href="https://msdn.microsoft.com/2D713354-4C93-4DC1-A3E9-7E6BC991FD08">IDebugPlmClient</a>
  
 
  

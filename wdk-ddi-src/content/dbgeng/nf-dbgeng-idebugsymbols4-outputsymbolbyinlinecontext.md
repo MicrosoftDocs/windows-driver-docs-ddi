@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -50,19 +50,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 Specifies an output symbol by using an inline context.
-
-
-## -syntax
-
-
-````
-HRESULT OutputSymbolByInlineContext(
-  [in] ULONG   OutputControl,
-  [in] ULONG   Flags,
-  [in] ULONG64 Offset,
-  [in] ULONG   InlineContext
-);
-````
 
 
 ## -parameters
@@ -101,10 +88,10 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols4.md">IDebugSymbols4</a>
 
 
 
+<a href="https://msdn.microsoft.com/BE2734B5-1E67-4E38-B4DF-0C353BFB1F0B">IDebugSymbols4</a>
  
 
  

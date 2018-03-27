@@ -53,17 +53,6 @@ The OFFLOAD_IPSEC_DELETE_UDPESP_SA structure contains information for each secur
   and parser entry that a miniport driver deletes from a NIC.
 
 
-## -syntax
-
-
-````
-typedef struct _OFFLOAD_IPSEC_DELETE_UDPESP_SA {
-  HANDLE OffloadHandle;
-  HANDLE EncapTypeEntryOffldHandle;
-} OFFLOAD_IPSEC_DELETE_UDPESP_SA, *POFFLOAD_IPSEC_DELETE_UDPESP_SA;
-````
-
-
 ## -struct-fields
 
 
@@ -93,11 +82,11 @@ The OFFLOAD_IPSEC_DELETE_UDPESP_SA structure is used with the
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff569809">
    OID_TCP_TASK_IPSEC_DELETE_UDPESP_SA</a>
-
-
-
  
 
  

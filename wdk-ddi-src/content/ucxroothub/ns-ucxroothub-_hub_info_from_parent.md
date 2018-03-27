@@ -53,30 +53,6 @@ req.product: Windows 10 or later.
 Describes information about a hub from its parent device. 
 
 
-## -syntax
-
-
-````
-typedef struct _HUB_INFO_FROM_PARENT {
-  PDEVICE_OBJECT                              IoTarget;
-  USB_DEVICE_DESCRIPTOR                       DeviceDescriptor;
-  USHORT                                      U1ExitLatency;
-  USHORT                                      U2ExitLatency;
-  USHORT                                      ExitLatencyOfSlowestLinkForU1;
-  UCHAR                                       DepthOfSlowestLinkForU1;
-  USHORT                                      ExitLatencyOfSlowestLinkForU2;
-  UCHAR                                       DepthOfSlowestLinkForU2;
-  USHORT                                      HostInitiatedU1ExitLatency;
-  USHORT                                      HostInitiatedU2ExitLatency;
-  UCHAR                                       TotalHubDepth;
-  USHORT                                      TotalTPPropogationDelay;
-  PARENT_HUB_FLAGS                            HubFlags;
-  PUSB_DEVICE_CAPABILITY_SUPERSPEEDPLUS_SPEED SublinkSpeedAttr;
-  ULONG                                       SublinkSpeedAttrCount;
-} HUB_INFO_FROM_PARENT, *P_HUB_INFO_FROM_PARENT;
-````
-
-
 ## -struct-fields
 
 
@@ -89,7 +65,7 @@ A pointer to the WDM device object of the parent that represents the I/O target.
 
 ### -field DeviceDescriptor
 
-A <a href="..\usbspec\ns-usbspec-_usb_device_descriptor.md">USB_DEVICE_DESCRIPTOR</a> structure that contains the device descriptor.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff539280">USB_DEVICE_DESCRIPTOR</a> structure that contains the device descriptor.
 
 
 ### -field U1ExitLatency
@@ -146,7 +122,7 @@ The total TP propagation delay.
 
 ### -field HubFlags
 
-A bitwise-OR of <a href="..\ucxroothub\ns-ucxroothub-_parent_hub_flags.md">PARENT_HUB_FLAGS</a> flags.
+A bitwise-OR of <a href="https://msdn.microsoft.com/library/windows/hardware/mt188025">PARENT_HUB_FLAGS</a> flags.
 
 
 ### -field SublinkSpeedAttr

@@ -52,16 +52,6 @@ req.typenames: NDIS_WWAN_SET_PRESHUTDOWN_STATE, *PNDIS_WWAN_SET_PRESHUTDOWN_STAT
 The NDIS_WWAN_SET_PRESHUTDOWN_STATE structure represents the command to notify the modem to finish all operations and prepare to shut down.
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_WWAN_SET_PRESHUTDOWN_STATE {
-  NDIS_OBJECT_HEADER Header;
-} NDIS_WWAN_SET_PRESHUTDOWN_STATE, *PNDIS_WWAN_SET_PRESHUTDOWN_STATE;
-````
-
-
 ## -struct-fields
 
 
@@ -111,15 +101,15 @@ sizeof(NDIS_WWAN_SET_PRESHUTDOWN_STATE)
  
 
 For more information about these members, see 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>.
 
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt593239">OID_WWAN_PRESHUTDOWN</a>
-
-
-
  
 
  

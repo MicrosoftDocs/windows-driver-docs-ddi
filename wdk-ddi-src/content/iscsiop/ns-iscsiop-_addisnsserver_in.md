@@ -52,16 +52,6 @@ req.typenames: AddiSNSServer_IN, *PAddiSNSServer_IN
 The AddiSNSServer_IN structure holds the input data for the user-mode <b>AddISNSServer</b> method, which is used to add a new iSNS server entry to the list of iSNS server names that the initiator maintains.
 
 
-## -syntax
-
-
-````
-typedef struct _AddiSNSServer_IN {
-  WCHAR iSNSServerName[223 + 1];
-} AddiSNSServer_IN, *PAddiSNSServer_IN;
-````
-
-
 ## -struct-fields
 
 
@@ -83,14 +73,14 @@ It is optional that you implement this method.
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550127">AddiSNSServer_OUT</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563091">MSiSCSI_Operations WMI Class</a>
-
-
-
-<a href="..\iscsiop\ns-iscsiop-_addisnsserver_out.md">AddiSNSServer_OUT</a>
-
-
-
  
 
  

@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: Microsoft.WDTF
 req.assembly: WDTF.Interop.metadata_dll
 req.type-library: 
-req.lib: wdtf.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -56,29 +56,19 @@ Gets the WDTF configuration object.
 This property is read-only.
 
 
-## -syntax
-
-
-````
-HRESULT get_Config(
-  [out, retval] IWDTFCONFIG2 **ppConfig
-);
-````
-
-
 ## -parameters
 
 
 ## -see-also
 
-<a href="..\wdtf\nn-wdtf-iwdtfconfig2.md">IWDTFConfig2</a>
 
 
 
-<a href="..\wdtf\nn-wdtf-iwdtf2.md">IWDTF2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406300">IWDTF2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406381">IWDTFConfig2</a>
  
 
  

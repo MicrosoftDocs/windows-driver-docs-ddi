@@ -53,19 +53,6 @@ req.product: Windows 10 or later.
 The <b>HwStorCleanupTracing</b> callback routine allows the Storport virtual miniport driver to stop tracing and to free any related resources.
 
 
-## -prototype
-
-
-````
-HW_CLEANUP_TRACING HwStorCleanupTracing;
-
-VOID HwStorCleanupTracing(
-   IN PVOID Arg1
-)
-{ ... }
-````
-
-
 ## -parameters
 
 

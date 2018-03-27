@@ -52,17 +52,6 @@ req.typenames: KSLIST_ENTRY_LOCATION
 
 
 
-## -syntax
-
-
-````
-typedef enum  { 
-  KsListEntryTail,
-  KsListEntryHead
-} KSLIST_ENTRY_LOCATION;
-````
-
-
 ## -enum-fields
 
 

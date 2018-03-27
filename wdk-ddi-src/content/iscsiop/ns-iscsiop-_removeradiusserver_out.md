@@ -52,16 +52,6 @@ req.typenames: RemoveRADIUSServer_OUT, *PRemoveRADIUSServer_OUT
 The RemoveiSNSServer_OUT structure holds the output data for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff564020">RemoveRADIUSServer</a> method.
 
 
-## -syntax
-
-
-````
-typedef struct _RemoveRADIUSServer_OUT {
-  ULONG Status;
-} RemoveRADIUSServer_OUT, *PRemoveRADIUSServer_OUT;
-````
-
-
 ## -struct-fields
 
 
@@ -83,11 +73,6 @@ It is optional that you implement this method.
 
 ## -see-also
 
-<a href="..\iscsiop\ns-iscsiop-_removeradiusserver_in.md">RemoveRADIUSServer_IN</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564020">RemoveRADIUSServer</a>
 
 
 
@@ -95,6 +80,11 @@ It is optional that you implement this method.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564020">RemoveRADIUSServer</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564023">RemoveRADIUSServer_IN</a>
  
 
  

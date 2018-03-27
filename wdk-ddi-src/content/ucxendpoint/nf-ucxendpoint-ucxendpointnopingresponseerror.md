@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
@@ -54,16 +54,6 @@ Notifies UCX about a "No Ping Response" error for a transfer on
     the specified endpoint object
 
 
-## -syntax
-
-
-````
-void UcxEndpointNoPingResponseError(
-  [in] UCXENDPOINT Endpoint
-);
-````
-
-
 ## -parameters
 
 
@@ -71,7 +61,7 @@ void UcxEndpointNoPingResponseError(
 
 ### -param Endpoint [in]
 
-A handle to the endpoint object. The client driver retrieved the handle in a previous call to <a href="..\ucxendpoint\nf-ucxendpoint-ucxendpointcreate.md">UcxEndpointCreate</a>.
+A handle to the endpoint object. The client driver retrieved the handle in a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/mt188039">UcxEndpointCreate</a>.
 
 
 ## -returns
@@ -85,10 +75,10 @@ This method does not return a value.
 
 ## -see-also
 
-<a href="..\ucxendpoint\nf-ucxendpoint-ucxendpointcreate.md">UcxEndpointCreate</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt188039">UcxEndpointCreate</a>
  
 
  

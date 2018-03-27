@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: wiamindr_lh.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,24 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>IWiaMiniDrv::drvInitializeWia</b> method initializes the minidriver and builds the driver item tree representing the device.
-
-
-## -syntax
-
-
-````
-HRESULT drvInitializeWia(
-  [in]            BYTE        *pWiasContext,
-  [in]            LONG        lFlags,
-  [in]            BSTR        bstrDeviceID,
-  [in]            BSTR        bstrRootFullItemName,
-  [in, optional]  IUnknown    *pStiDevice,
-  [in, optional]  IUnknown    *pIUnknownOuter,
-  [out, optional] IWiaDrvItem **ppIDrvItemRoot,
-  [out, optional] IUnknown    **ppIUnknownInner,
-  [out]           LONG        *plDevErrVal
-);
-````
 
 
 ## -parameters
@@ -160,7 +142,7 @@ Points to a memory location that will receive a status code for this method. If 
 
 #### - ppIDrvItemRoot [out, optional]
 
-Points to a memory location that will receive the address of a <a href="..\wiamindr_lh\nn-wiamindr_lh-iwiadrvitem.md">IWiaDrvItem Interface</a>, the interface of the root item.
+Points to a memory location that will receive the address of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543896">IWiaDrvItem Interface</a>, the interface of the root item.
 
 
 #### - ppIUnknownInner [out, optional]
@@ -194,15 +176,6 @@ For example, if the user right-clicks a WIA scanner icon in <b>My Computer</b>, 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545010">IWiaMiniDrv::drvUnInitializeWia</a>
-
-
-
-<a href="..\wiamindr_lh\nn-wiamindr_lh-iwiaminidrv.md">IWiaMiniDrv</a>
-
-
-
-<a href="..\wiamdef\nf-wiamdef-wiascreatedrvitem.md">wiasCreateDrvItem</a>
 
 
 
@@ -210,10 +183,19 @@ For example, if the user right-clicks a WIA scanner icon in <b>My Computer</b>, 
 
 
 
+<a href="https://msdn.microsoft.com/15068d10-5e24-427c-9684-24ce67b75ada">IWiaMiniDrv</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543982">IWiaMiniDrv::drvGetDeviceErrorStr</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545010">IWiaMiniDrv::drvUnInitializeWia</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549160">wiasCreateDrvItem</a>
  
 
  

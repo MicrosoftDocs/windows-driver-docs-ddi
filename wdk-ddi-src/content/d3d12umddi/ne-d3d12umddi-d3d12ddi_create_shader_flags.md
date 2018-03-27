@@ -52,18 +52,6 @@ req.typenames: D3D12DDI_CREATE_SHADER_FLAGS
 Defines flags for shader creation.
 
 
-## -syntax
-
-
-````
-typedef enum D3D12DDI_CREATE_SHADER_FLAGS { 
-  D3D12DDI_CREATE_SHADER_FLAG_NONE                   = 0x0,
-  D3D12DDI_CREATE_SHADER_FLAG_ENABLE_SHADER_TRACING  = 0x1,
-  D3D12DDI_CREATE_SHADER_FLAG_DISABLE_OPTIMIZATION   = 0x2
-} D3D12DDI_CREATE_SHADER_FLAGS;
-````
-
-
 ## -enum-fields
 
 

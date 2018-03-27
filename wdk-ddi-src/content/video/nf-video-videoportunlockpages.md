@@ -50,20 +50,9 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The <b>VideoPortUnlockPages</b> function is <b>obsolete</b> in Windows 2000 and later. Use <a href="..\video\nf-video-videoportunlockbuffer.md">VideoPortUnlockBuffer</a> in place of this function.
+The <b>VideoPortUnlockPages</b> function is <b>obsolete</b> in Windows 2000 and later. Use <a href="https://msdn.microsoft.com/library/windows/hardware/ff570373">VideoPortUnlockBuffer</a> in place of this function.
 
 <b>VideoPortUnlockPages</b> releases memory used for packet-based DMA.
-
-
-## -syntax
-
-
-````
-BOOLEAN VideoPortUnlockPages(
-   PVOID hwDeviceExtension,
-   PDMA  pDma
-);
-````
 
 
 ## -parameters
@@ -103,10 +92,10 @@ This function can be called only within the context of a DMA IOCTL. It cannot be
 
 ## -see-also
 
-<a href="..\video\nf-video-videoportunlockbuffer.md">VideoPortUnlockBuffer</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570373">VideoPortUnlockBuffer</a>
  
 
  

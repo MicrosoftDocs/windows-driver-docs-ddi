@@ -52,17 +52,6 @@ req.typenames: DXVAHDDDI_STREAM_STATE_SOURCE_RECT_DATA
 The DXVAHDDDI_STREAM_STATE_SOURCE_RECT_DATA structure describes stream-state data that specifies the source rectangle of the input stream. The driver scales the source rectangle within the input surface to the destination rectangle within the output surface. 
 
 
-## -syntax
-
-
-````
-typedef struct _DXVAHDDDI_STREAM_STATE_SOURCE_RECT_DATA {
-  BOOL Enable;
-  RECT SourceRect;
-} DXVAHDDDI_STREAM_STATE_SOURCE_RECT_DATA;
-````
-
-
 ## -struct-fields
 
 
@@ -91,10 +80,10 @@ The application can use the source rectangle to specify the active rectangle (di
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
-
-
-
  
 
  

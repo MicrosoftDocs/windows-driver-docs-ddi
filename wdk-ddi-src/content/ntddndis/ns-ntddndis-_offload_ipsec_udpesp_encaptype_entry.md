@@ -53,17 +53,6 @@ The OFFLOAD_IPSEC_UDPESP_ENCAPTYPE_ENTRY structure specifies the UDP-ESP encapsu
   destination port of a parser entry.
 
 
-## -syntax
-
-
-````
-typedef struct _OFFLOAD_IPSEC_UDPESP_ENCAPTYPE_ENTRY {
-  UDP_ENCAP_TYPE UdpEncapType;
-  USHORT         DstEncapPort;
-} OFFLOAD_IPSEC_UDPESP_ENCAPTYPE_ENTRY, *POFFLOAD_IPSEC_UDPESP_ENCAPTYPE_ENTRY;
-````
-
-
 ## -struct-fields
 
 
@@ -107,7 +96,7 @@ For an inbound SA (Flags = OFFLOAD_INBOUND_SA), specifies the destination port t
 
 
 The OFFLOAD_IPSEC_UDPESP_ENCAPTYPE_ENTRY structure is used with the 
-    <a href="..\ntddndis\ns-ntddndis-_offload_ipsec_add_udpesp_sa.md">
+    <a href="https://msdn.microsoft.com/4d3f554f-2733-4896-827c-14e92e8034ce">
     OFFLOAD_IPSEC_ADD_UDPESP_SA</a> structure.
 
 
@@ -115,10 +104,10 @@ The OFFLOAD_IPSEC_UDPESP_ENCAPTYPE_ENTRY structure is used with the
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_offload_ipsec_add_udpesp_sa.md">OFFLOAD_IPSEC_ADD_UDPESP_SA</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569057">OFFLOAD_IPSEC_ADD_UDPESP_SA</a>
  
 
  

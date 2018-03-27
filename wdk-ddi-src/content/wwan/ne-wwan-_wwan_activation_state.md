@@ -54,21 +54,6 @@ The WWAN_ACTIVATION_STATE enumeration lists the different Packet Data Protocol (
   activation states that are supported by the MB device.
 
 
-## -syntax
-
-
-````
-typedef enum _WWAN_ACTIVATION_STATE { 
-  WwanActivationStateUnknown       = 0,
-  WwanActivationStateActivated,
-  WwanActivationStateActivating,
-  WwanActivationStateDeactivated,
-  WwanActivationStateDeactivating,
-  WwanActivationStateMax
-} WWAN_ACTIVATION_STATE, *PWWAN_ACTIVATION_STATE;
-````
-
-
 ## -enum-fields
 
 
@@ -121,10 +106,10 @@ Miniport drivers use the
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_set_context_state.md">WWAN_SET_CONTEXT_STATE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571235">WWAN_SET_CONTEXT_STATE</a>
  
 
  

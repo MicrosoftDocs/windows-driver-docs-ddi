@@ -52,22 +52,6 @@ req.typenames: DXGK_CREATEALLOCATIONFLAGS
 The DXGK_CREATEALLOCATIONFLAGS structure identifies how to create allocations.
 
 
-## -syntax
-
-
-````
-typedef struct _DXGK_CREATEALLOCATIONFLAGS {
-  union {
-    struct {
-      UINT Resource  :1;
-      UINT Reserved  :31;
-    };
-    UINT Value;
-  };
-} DXGK_CREATEALLOCATIONFLAGS;
-````
-
-
 ## -struct-fields
 
 
@@ -92,10 +76,10 @@ A member in the union that DXGK_CREATEALLOCATIONFLAGS contains that can hold a 3
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_createallocation.md">DXGKARG_CREATEALLOCATION</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557559">DXGKARG_CREATEALLOCATION</a>
  
 
  

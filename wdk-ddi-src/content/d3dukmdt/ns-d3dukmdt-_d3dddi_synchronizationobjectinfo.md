@@ -52,28 +52,6 @@ req.typenames: D3DDDI_SYNCHRONIZATIONOBJECTINFO
 The D3DDDI_SYNCHRONIZATIONOBJECTINFO structure contains information about a synchronization object.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DDDI_SYNCHRONIZATIONOBJECTINFO {
-  D3DDDI_SYNCHRONIZATIONOBJECT_TYPE Type;
-  union {
-    struct {
-      BOOL InitialState;
-    } SynchronizationMutex;
-    struct {
-      UINT MaxCount;
-      UINT InitialCount;
-    } Semaphore;
-    struct {
-      UINT Reserved[16];
-    } Reserved;
-  };
-} D3DDDI_SYNCHRONIZATIONOBJECTINFO;
-````
-
-
 ## -struct-fields
 
 
@@ -81,7 +59,7 @@ typedef struct _D3DDDI_SYNCHRONIZATIONOBJECTINFO {
 
 ### -field Type
 
-[in] A <a href="..\d3dukmdt\ne-d3dukmdt-_d3dddi_synchronizationobject_type.md">D3DDDI_SYNCHRONIZATIONOBJECT_TYPE</a>-typed value that indicates the type of synchronization object.
+[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff544669">D3DDDI_SYNCHRONIZATIONOBJECT_TYPE</a>-typed value that indicates the type of synchronization object.
 
 
 ### -field SynchronizationMutex
@@ -121,14 +99,14 @@ An array of 32-bit values that are reserved for future use.
 
 ## -see-also
 
-<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddi_synchronizationobject_type.md">D3DDDI_SYNCHRONIZATIONOBJECT_TYPE</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_createsynchronizationobject.md">D3DDDICB_CREATESYNCHRONIZATIONOBJECT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544157">D3DDDICB_CREATESYNCHRONIZATIONOBJECT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544669">D3DDDI_SYNCHRONIZATIONOBJECT_TYPE</a>
  
 
  

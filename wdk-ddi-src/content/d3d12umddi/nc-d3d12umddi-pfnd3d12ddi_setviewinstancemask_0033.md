@@ -52,23 +52,12 @@ req.typenames: D3D11_1DDI_GETCAPTUREHANDLEDATA
 Used to set a view instance mask.
 
 
-## -prototype
-
-
-````
-VOID APIENTRY* PFND3D12DDI_SETVIEWINSTANCEMASK_0033(
-   D3D12DDI_HCOMMANDLIST hCommandList,
-   UINT                  Mask
-);
-````
-
-
 ## -parameters
 
 
 
 
-### -param D3D12DDI_HCOMMANDLIST
+### -param Arg1
 
 
 ### -param Mask

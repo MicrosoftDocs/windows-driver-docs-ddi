@@ -52,14 +52,6 @@ req.typenames: TOKEN_TYPE
 The <b>PsRevertToSelf</b> routine ends the calling thread's impersonation of a client.
 
 
-## -syntax
-
-
-````
-VOID PsRevertToSelf(void);
-````
-
-
 ## -parameters
 
 
@@ -80,17 +72,17 @@ None
 
 
 
-A server thread can impersonate a client by calling the <a href="..\ntifs\nf-ntifs-psimpersonateclient.md">PsImpersonateClient</a> routine. When the thread is done impersonating the client, it can call the <b>PsRevertToSelf</b> routine to end all impersonations.
+A server thread can impersonate a client by calling the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551907">PsImpersonateClient</a> routine. When the thread is done impersonating the client, it can call the <b>PsRevertToSelf</b> routine to end all impersonations.
 
 
 
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-psimpersonateclient.md">PsImpersonateClient</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551907">PsImpersonateClient</a>
  
 
  

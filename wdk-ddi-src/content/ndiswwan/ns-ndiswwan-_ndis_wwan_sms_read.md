@@ -52,17 +52,6 @@ req.typenames: NDIS_WWAN_SMS_READ, *PNDIS_WWAN_SMS_READ
 The NDIS_WWAN_SMS_READ structure represents an SMS message to read.
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_WWAN_SMS_READ {
-  NDIS_OBJECT_HEADER Header;
-  WWAN_SMS_READ      SmsRead;
-} NDIS_WWAN_SMS_READ, *PNDIS_WWAN_SMS_READ;
-````
-
-
 ## -struct-fields
 
 
@@ -116,26 +105,26 @@ sizeof(NDIS_WWAN_SMS_READ)
  
 
 For more information about these members, see 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>.
 
 
 ### -field SmsRead
 
 A formatted 
-     <a href="..\wwan\ns-wwan-_wwan_sms_read.md">WWAN_SMS_READ</a> object that represents the
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571249">WWAN_SMS_READ</a> object that represents the
      format and filter of SMS messages to read.
 
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_sms_read.md">WWAN_SMS_READ</a>
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571249">WWAN_SMS_READ</a>
  
 
  

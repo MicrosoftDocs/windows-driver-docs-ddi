@@ -53,27 +53,6 @@ req.product: Windows 10 or later.
 The WDI_CIPHER_ALGORITHM enumeration defines the cipher algorithm values.
 
 
-## -syntax
-
-
-````
-typedef enum _WDI_CIPHER_ALGORITHM { 
-  WDI_CIPHER_ALGO_NONE           = 0x00,
-  WDI_CIPHER_ALGO_WEP40          = 0x01,
-  WDI_CIPHER_ALGO_TKIP           = 0x02,
-  WDI_CIPHER_ALGO_CCMP           = 0x04,
-  WDI_CIPHER_ALGO_WEP104         = 0x05,
-  WDI_CIPHER_ALGO_BIP            = 0x06,
-  WDI_CIPHER_ALGO_GCMP           = 0x08,
-  WDI_CIPHER_ALGO_WPA_USE_GROUP  = 0x100,
-  WDI_CIPHER_ALGO_RSN_USE_GROUP  = 0x100,
-  WDI_CIPHER_ALGO_WEP            = 0x101,
-  WDI_CIPHER_ALGO_IHV_START      = 0x80000000,
-  WDI_CIPHER_ALGO_IHV_END        = 0xffffffff
-} WDI_CIPHER_ALGORITHM;
-````
-
-
 ## -enum-fields
 
 

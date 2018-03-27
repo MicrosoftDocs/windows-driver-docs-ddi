@@ -54,16 +54,6 @@ req.product: Windows 10 or later.
 The <b>StorPortConvertUlongToPhysicalAddress</b> routine converts an unsigned long address into a physical address.
 
 
-## -syntax
-
-
-````
-STORPORT_API STOR_PHYSICAL_ADDRESS StorPortConvertUlongToPhysicalAddress(
-  _In_ ULONG_PTR UlongAddress
-);
-````
-
-
 ## -parameters
 
 

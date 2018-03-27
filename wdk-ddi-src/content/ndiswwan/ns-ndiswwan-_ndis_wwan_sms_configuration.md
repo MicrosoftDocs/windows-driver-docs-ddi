@@ -52,18 +52,6 @@ req.typenames: NDIS_WWAN_SMS_CONFIGURATION, *PNDIS_WWAN_SMS_CONFIGURATION
 The NDIS_WWAN_SMS_CONFIGURATION structure represents the SMS configuration of the MB device.
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_WWAN_SMS_CONFIGURATION {
-  NDIS_OBJECT_HEADER     Header;
-  WWAN_STATUS            uStatus;
-  WWAN_SMS_CONFIGURATION SmsConfiguration;
-} NDIS_WWAN_SMS_CONFIGURATION, *PNDIS_WWAN_SMS_CONFIGURATION;
-````
-
-
 ## -struct-fields
 
 
@@ -117,7 +105,7 @@ sizeof(NDIS_WWAN_SMS_CONFIGURATION)
  
 
 For more information about these members, see 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>.
 
 
 ### -field uStatus
@@ -189,7 +177,7 @@ WWAN_STATUS_SMS_FORMAT_NOT_SUPPORTED
 
 </td>
 <td>
-The operation failed because the SMS format specified in <a href="..\wwan\ns-wwan-_wwan_sms_configuration.md">WWAN_SMS_CONFIGURATION</a> is not supported.
+The operation failed because the SMS format specified in <a href="https://msdn.microsoft.com/library/windows/hardware/ff571244">WWAN_SMS_CONFIGURATION</a> is not supported.
 
 </td>
 </tr>
@@ -200,20 +188,20 @@ The operation failed because the SMS format specified in <a href="..\wwan\ns-wwa
 ### -field SmsConfiguration
 
 A formatted 
-     <a href="..\wwan\ns-wwan-_wwan_sms_configuration.md">WWAN_SMS_CONFIGURATION</a> object that
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571244">WWAN_SMS_CONFIGURATION</a> object that
      represents the SMS configuration of the MB device.
 
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_sms_configuration.md">WWAN_SMS_CONFIGURATION</a>
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571244">WWAN_SMS_CONFIGURATION</a>
  
 
  

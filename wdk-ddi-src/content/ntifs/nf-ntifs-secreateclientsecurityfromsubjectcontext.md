@@ -52,19 +52,6 @@ req.typenames: TOKEN_TYPE
 The <b>SeCreateClientSecurityFromSubjectContext</b> routine retrieves the access token for a security subject context and uses the result to initialize a security client context with the information needed to call <b>SeImpersonateClientEx</b>.
 
 
-## -syntax
-
-
-````
-NTSTATUS SeCreateClientSecurityFromSubjectContext(
-  _In_  PSECURITY_SUBJECT_CONTEXT    SubjectContext,
-  _In_  PSECURITY_QUALITY_OF_SERVICE ClientSecurityQos,
-  _In_  BOOLEAN                      ServerIsRemote,
-  _Out_ PSECURITY_CLIENT_CONTEXT     ClientContext
-);
-````
-
-
 ## -parameters
 
 
@@ -154,18 +141,18 @@ For more information about security and access control, see the documentation on
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-seimpersonateclientex.md">SeImpersonateClientEx</a>
 
 
 
-<a href="..\wdm\ns-wdm-_security_subject_context.md">SECURITY_SUBJECT_CONTEXT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563714">SECURITY_SUBJECT_CONTEXT</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-sedeleteclientsecurity.md">SeDeleteClientSecurity</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556648">SeDeleteClientSecurity</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556659">SeImpersonateClientEx</a>
  
 
  

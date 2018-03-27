@@ -53,19 +53,6 @@ The NDIS_GENERIC_OBJECT structure defines a generic object which a software comp
   obtain an NDIS handle.
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_GENERIC_OBJECT {
-  NDIS_OBJECT_HEADER Header;
-  PVOID              Caller;
-  PVOID              CallersCaller;
-  PDRIVER_OBJECT     DriverObject;
-} NDIS_GENERIC_OBJECT, *PNDIS_GENERIC_OBJECT;
-````
-
-
 ## -struct-fields
 
 
@@ -74,7 +61,7 @@ typedef struct _NDIS_GENERIC_OBJECT {
 ### -field Header
 
 The 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure for the
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure for the
      generic object structure (NDIS_GENERIC_OBJECT). NDIS sets the 
      <b>Type</b> member of the structure that 
      <b>Header</b> specifies to NDIS_OBJECT_TYPE_GENERIC_OBJECT, the 
@@ -98,7 +85,7 @@ Reserved for NDIS.
 The driver object that is associated with the generic object. If there is no driver object, this
      member is <b>NULL</b>. This is the value passed at the 
      <i>DriverObject</i> parameter of the 
-     <a href="..\ndis\nf-ndis-ndisallocategenericobject.md">
+     <a href="https://msdn.microsoft.com/166584fb-8a81-4a5b-93c9-3ad5348e15a7">
      NdisAllocateGenericObject</a> function.
 
 
@@ -107,7 +94,7 @@ The driver object that is associated with the generic object. If there is no dri
 
 
 Software components that do not already have an NDIS handle call 
-    <a href="..\ndis\nf-ndis-ndisallocategenericobject.md">NdisAllocateGenericObject</a> to
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561603">NdisAllocateGenericObject</a> to
     create a generic object. Such components use the handle obtained from 
     <b>NdisAllocateGenericObject</b> to allocate NDIS resources.
 
@@ -120,7 +107,7 @@ Most NDIS drivers do not require a generic object to get a handle. NDIS protocol
     miniport drivers obtain a handle during initialization.
 
 Use the 
-    <a href="..\ndis\nf-ndis-ndisfreegenericobject.md">NdisFreeGenericObject</a> function to
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561850">NdisFreeGenericObject</a> function to
     free a generic object that was created with 
     <b>NdisAllocateGenericObject</b>.
 
@@ -129,18 +116,18 @@ Use the
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisallocategenericobject.md">NdisAllocateGenericObject</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisfreegenericobject.md">NdisFreeGenericObject</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561603">NdisAllocateGenericObject</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561850">NdisFreeGenericObject</a>
  
 
  

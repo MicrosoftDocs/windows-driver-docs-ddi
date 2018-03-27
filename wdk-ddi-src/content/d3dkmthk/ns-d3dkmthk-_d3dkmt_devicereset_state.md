@@ -52,22 +52,6 @@ req.typenames: D3DKMT_DEVICERESET_STATE
 The D3DKMT_DEVICERESET_STATE structure identifies reset status.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DKMT_DEVICERESET_STATE {
-  union {
-    struct {
-      UINT DesktopSwitched  :1;
-      UINT Reserved  :31;
-    };
-    UINT   Value;
-  };
-} D3DKMT_DEVICERESET_STATE;
-````
-
-
 ## -struct-fields
 
 
@@ -92,10 +76,10 @@ A 32-bit value that identifies reset status.
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_getdevicestate.md">D3DKMT_GETDEVICESTATE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548030">D3DKMT_GETDEVICESTATE</a>
  
 
  

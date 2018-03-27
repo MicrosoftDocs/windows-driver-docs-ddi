@@ -53,22 +53,6 @@ req.product: Windows 10 or later.
 The <b>WWAN_UICCSLOT_STATE</b> enumeration lists the different states of a UICC (SIM) card slot on a modem. The slot state represents a summary of both the slot state and the card state.
 
 
-## -syntax
-
-
-````
-typedef enum _WWAN_UICCSLOT_STATE { 
-  UICCSlotStateUnknown,
-  UICCSlotStateOffEmpty,
-  UICCSlotStateOff,
-  UICCSlotStateEmpty,
-  UICCSlotStateNotReady,
-  UICCSlotStateActive,
-  UICCSlotStateError
-} WWAN_UICCSLOT_STATE;
-````
-
-
 ## -enum-fields
 
 
@@ -152,10 +136,10 @@ The set of reported states is constrained by the capability of the slot hardware
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_slot_info.md">WWAN_SLOT_INFO</a>
 
 
 
+<a href="https://msdn.microsoft.com/F45D253E-E7D7-4600-AF8C-6D4EB096030D">WWAN_SLOT_INFO</a>
  
 
  

@@ -52,17 +52,6 @@ req.typenames: D3DDDIRANGE
 Specifies a range of memory within a buffer.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DDDIRANGE {
-  UINT Offset;
-  UINT Size;
-} D3DDDIRANGE;
-````
-
-
 ## -struct-fields
 
 

@@ -52,18 +52,6 @@ req.typenames: RILOPERATORINFOPARAMMASK
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef enum _RILOPERATORINFOPARAMMASK { 
-  RIL_PARAM_OI_STATUS,
-  RIL_PARAM_OI_NAMES,
-  RIL_PARAM_OI_ALL
-} RILOPERATORINFOPARAMMASK;
-````
-
-
 ## -enum-fields
 
 

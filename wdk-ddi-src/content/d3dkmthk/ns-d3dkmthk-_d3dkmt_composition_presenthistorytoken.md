@@ -52,16 +52,6 @@ req.typenames: D3DKMT_COMPOSITION_PRESENTHISTORYTOKEN
 Identifies a composition swap chain present-history operation. This type of presentation is used for Extensible Application Markup Language (XAML)-based apps.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DKMT_COMPOSITION_PRESENTHISTORYTOKEN {
-  ULONG64 hPrivateData;
-} D3DKMT_COMPOSITION_PRESENTHISTORYTOKEN;
-````
-
-
 ## -struct-fields
 
 

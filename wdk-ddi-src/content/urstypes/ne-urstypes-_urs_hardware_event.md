@@ -53,21 +53,6 @@ req.product: Windows 10 or later.
 Defines values for the hardware events that a client driver for a USB dual-role controller can report.
 
 
-## -syntax
-
-
-````
-typedef enum _URS_HARDWARE_EVENT { 
-  UrsHardwareEventNone         = 0,
-  UrsHardwareEventDetach,
-  UrsHardwareEventIdGround,
-  UrsHardwareEventIdFloat,
-  UrsHardwareEventPortTypeDfp,
-  UrsHardwareEventPortTypeUfp
-} URS_HARDWARE_EVENT, *PURS_HARDWARE_EVENT;
-````
-
-
 ## -enum-fields
 
 
@@ -107,7 +92,7 @@ The Type-C connector has resolved to UFP. Not to be used directly by the URS cli
 
 
 
-Values defined for USB Type-C systems should not be directly used by the client driver. Instead the driver should report that it does not support hardware event reporting by calling <a href="..\ursdevice\nf-ursdevice-urssethardwareeventsupport.md">UrsSetHardwareEventSupport</a>. These hardware events are detected by a USB Type-C connector driver, see <a href="https://msdn.microsoft.com/library/windows/hardware/mt188011">USB Type-C connector driver programming reference</a>. 
+Values defined for USB Type-C systems should not be directly used by the client driver. Instead the driver should report that it does not support hardware event reporting by calling <a href="https://msdn.microsoft.com/library/windows/hardware/mt628018">UrsSetHardwareEventSupport</a>. These hardware events are detected by a USB Type-C connector driver, see <a href="https://msdn.microsoft.com/library/windows/hardware/mt188011">USB Type-C connector driver programming reference</a>. 
 
 
 

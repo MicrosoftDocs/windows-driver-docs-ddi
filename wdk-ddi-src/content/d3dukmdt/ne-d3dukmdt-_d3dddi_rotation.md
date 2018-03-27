@@ -52,19 +52,6 @@ req.typenames: D3DDDI_ROTATION
 The D3DDDI_ROTATION enumeration type contains values that identify the orientation of a resource.
 
 
-## -syntax
-
-
-````
-typedef enum _D3DDDI_ROTATION { 
-  D3DDDI_ROTATION_IDENTITY  = 1,
-  D3DDDI_ROTATION_90        = 2,
-  D3DDDI_ROTATION_180       = 3,
-  D3DDDI_ROTATION_270       = 4
-} D3DDDI_ROTATION;
-````
-
-
 ## -enum-fields
 
 
@@ -92,10 +79,10 @@ Indicates that the resource is rotated 270 degrees.
 
 ## -see-also
 
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddiarg_createresource.md">D3DDDIARG_CREATERESOURCE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542963">D3DDDIARG_CREATERESOURCE</a>
  
 
  

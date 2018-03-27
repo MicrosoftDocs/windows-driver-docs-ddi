@@ -52,20 +52,6 @@ req.typenames: DXGK_PTE
 The <i>ResolveSharedResource</i> function informs a user-mode display driver that ownership of a shared surface changed or that a surface is being used for GDI interoperation. 
 
 
-## -prototype
-
-
-````
-PFND3DDDI_RESOLVESHAREDRESOURCE ResolveSharedResource;
-
-__checkReturn HRESULT APIENTRY ResolveSharedResource(
-  _In_       HANDLE                          hDevice,
-  _In_ const D3DDDIARG_RESOLVESHAREDRESOURCE *pData
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -87,7 +73,7 @@ __checkReturn HRESULT APIENTRY ResolveSharedResource(
 
 #### - pData [in]
 
- A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_resolvesharedresource.md">D3DDDIARG_RESOLVESHAREDRESOURCE</a> structure that contains a handle to the surface. 
+ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543274">D3DDDIARG_RESOLVESHAREDRESOURCE</a> structure that contains a handle to the surface. 
 
 
 ## -returns
@@ -154,14 +140,14 @@ The driver implements <i>ResolveSharedResource</i> to appropriately manage resou
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_resolvesharedresource.md">D3DDDIARG_RESOLVESHAREDRESOURCE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543274">D3DDDIARG_RESOLVESHAREDRESOURCE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544519">D3DDDI_DEVICEFUNCS</a>
  
 
  

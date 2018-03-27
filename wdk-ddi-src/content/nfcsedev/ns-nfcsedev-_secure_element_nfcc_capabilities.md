@@ -52,19 +52,6 @@ req.typenames: SECURE_ELEMENT_NFCC_CAPABILITIES, *PSECURE_ELEMENT_NFCC_CAPABILIT
 SECURE_ELEMENT_NFCC_CAPABILITIES contains NFC controller capabilities. 
 
 
-## -syntax
-
-
-````
-typedef struct _SECURE_ELEMENT_NFCC_CAPABILITIES {
-  USHORT  cbMaxRoutingTableSize;
-  BOOLEAN IsAidRoutingSupported;
-  BOOLEAN IsProtocolRoutingSupported;
-  BOOLEAN IsTechRoutingSupported;
-} SECURE_ELEMENT_NFCC_CAPABILITIES, *P_SECURE_ELEMENT_NFCC_CAPABILITIES;
-````
-
-
 ## -struct-fields
 
 

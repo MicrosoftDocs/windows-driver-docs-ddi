@@ -52,18 +52,6 @@ req.typenames: KSE_NODE, *PKSE_NODE
 The KSE_NODE structure specifies an event request on a specific node.
 
 
-## -syntax
-
-
-````
-typedef struct {
-  KSEVENT Event;
-  ULONG   NodeId;
-  ULONG   Reserved;
-} KSE_NODE, *PKSE_NODE;
-````
-
-
 ## -struct-fields
 
 
@@ -86,10 +74,10 @@ Reserved for system use. Should be set to zero.
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ksp_node.md">KSP_NODE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566720">KSP_NODE</a>
  
 
  

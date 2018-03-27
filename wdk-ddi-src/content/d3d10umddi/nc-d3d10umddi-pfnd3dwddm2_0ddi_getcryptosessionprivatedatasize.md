@@ -52,24 +52,6 @@ req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 <b>GetCryptoSessionPrivateDataSize</b> retrieves sizes for optional private driver data.
 
 
-## -prototype
-
-
-````
-PFND3DWDDM2_0DDI_GETCRYPTOSESSIONPRIVATEDATASIZE pfnGetCryptoSessionPrivateDataSize;
-
-VOID APIENTRY* pfnGetCryptoSessionPrivateDataSize(
-  _In_           D3D10DDI_HDEVICE hDevice,
-  _In_     const GUID             *pCryptoType,
-  _In_opt_       GUID             *pDecoderProfile,
-  _In_     const GUID             *pKeyExchangeType,
-  _Out_          UINT             *pPrivateInputSize,
-  _Out_          UINT             *pPrivateOutputSize
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -77,7 +59,7 @@ VOID APIENTRY* pfnGetCryptoSessionPrivateDataSize(
 
 ### -param hDevice [in]
 
- A handle to the display device (graphics context). The Direct3D runtime passed the user-mode driver this handle as the <b>hDevice</b> member of the <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createdevice.md">D3DDDIARG_CREATEDEVICE</a> structure at device creation.
+ A handle to the display device (graphics context). The Direct3D runtime passed the user-mode driver this handle as the <b>hDevice</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff542931">D3DDDIARG_CREATEDEVICE</a> structure at device creation.
 
 
 ### -param *pCryptoType [in]
@@ -147,10 +129,10 @@ When <b>pKeyExchangeType</b> is <b>D3D11_KEY_EXCHANGE_HW_PROTECTION</b>, the fol
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createdevice.md">D3DDDIARG_CREATEDEVICE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542931">D3DDDIARG_CREATEDEVICE</a>
  
 
  

@@ -52,18 +52,6 @@ req.typenames: DriverUnifiedPosPowerReportingType
 This enumeration defines the type of power reporting that is supported by the device (for example, advanced, standard, and so on). 
 
 
-## -syntax
-
-
-````
-typedef enum _DriverUnifiedPosPowerReportingType { 
-  UnknownPowerReportingType  = 0,
-  Standard                   = 1,
-  Advanced                   = 2
-} DriverUnifiedPosPowerReportingType;
-````
-
-
 ## -enum-fields
 
 

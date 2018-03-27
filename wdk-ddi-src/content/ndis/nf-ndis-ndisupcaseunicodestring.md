@@ -55,17 +55,6 @@ The
   the converted string.
 <div class="alert"><b>Note</b>  This function is deprecated for NDIS 6.0 and later. </div><div> </div>
 
-## -syntax
-
-
-````
-NTSTATUS NdisUpcaseUnicodeString(
-  [out] PUNICODE_STRING DestinationString,
-  [in]  PUNICODE_STRING SourceString
-);
-````
-
-
 ## -parameters
 
 
@@ -97,18 +86,18 @@ A pointer to the source Unicode string to be converted to upper case.
 
 ## -see-also
 
-<a href="..\wudfwdm\nf-wudfwdm-rtlinitunicodestring.md">RtlInitUnicodeString</a>
 
 
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561934">RtlInitUnicodeString</a>
 
 
 
-<a href="..\wdm\nf-wdm-rtlunicodestringtoansistring.md">RtlUnicodeStringToAnsiString</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562969">RtlUnicodeStringToAnsiString</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a>
  
 
  

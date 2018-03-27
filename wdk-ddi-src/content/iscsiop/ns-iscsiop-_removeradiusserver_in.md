@@ -52,16 +52,6 @@ req.typenames: RemoveRADIUSServer_IN, *PRemoveRADIUSServer_IN
 The RemoveRADIUSServer_IN structure holds the input data for the user-mode <b>RemoveRADIUSServer</b> method, which is used to remove a RADIUS server entry.
 
 
-## -syntax
-
-
-````
-typedef struct _RemoveRADIUSServer_IN {
-  ISCSI_IP_Address RADIUSIPAddress;
-} RemoveRADIUSServer_IN, *PRemoveRADIUSServer_IN;
-````
-
-
 ## -struct-fields
 
 
@@ -69,7 +59,7 @@ typedef struct _RemoveRADIUSServer_IN {
 
 ### -field RADIUSIPAddress
 
-A <a href="..\iscsidef\ns-iscsidef-_iscsi_ip_address.md">ISCSI_IP_Address</a> structure that specifies the address of the RADIUS server to remove.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff561536">ISCSI_IP_Address</a> structure that specifies the address of the RADIUS server to remove.
 
 
 ## -remarks
@@ -83,14 +73,14 @@ It is optional that you implement this method.
 
 ## -see-also
 
-<a href="..\iscsidef\ns-iscsidef-_iscsi_ip_address.md">ISCSI_IP_Address</a>
 
 
 
-<a href="..\iscsiop\ns-iscsiop-_removepersistentlogin_out.md">RemovePersistentLogin_OUT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561536">ISCSI_IP_Address</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564008">RemovePersistentLogin_OUT</a>
  
 
  

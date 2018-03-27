@@ -52,21 +52,6 @@ req.typenames: DXGK_TIMED_OPERATION, *PDXGK_TIMED_OPERATION
 The DXGK_TIMED_OPERATION structure describes a timed operation, which is used in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff570086">Timed Operation Interface</a>.
 
 
-## -syntax
-
-
-````
-typedef struct _DXGK_TIMED_OPERATION {
-  USHORT        Size;
-  ULONG_PTR     OwnerTag;
-  BOOLEAN       OsHandled;
-  BOOLEAN       TimeoutTriggered;
-  LARGE_INTEGER Timeout;
-  LARGE_INTEGER StartTick;
-} DXGK_TIMED_OPERATION, *PDXGK_TIMED_OPERATION;
-````
-
-
 ## -struct-fields
 
 
@@ -113,10 +98,10 @@ Display miniport drivers should not change of rely on members that are marked wi
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff570086">Timed Operation Interface</a>
-
-
-
  
 
  

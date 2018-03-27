@@ -52,17 +52,6 @@ req.typenames: RILSETEXECUTORFOCUSPARAMS, *LPRILSETEXECUTORFOCUSPARAMS
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef struct _RILSETEXECUTORFOCUSPARAMS {
-  DWORD    dwNumberOfExecutors;
-  BOOL [2] fFocusStates;
-} RILSETEXECUTORFOCUSPARAMS, RILSETEXECUTORFOCUSPARAMS;
-````
-
-
 ## -struct-fields
 
 

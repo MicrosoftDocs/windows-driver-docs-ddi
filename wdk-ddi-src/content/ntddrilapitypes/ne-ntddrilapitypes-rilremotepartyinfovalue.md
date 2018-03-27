@@ -52,18 +52,6 @@ req.typenames: RILREMOTEPARTYINFOVALUE
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef enum _RILREMOTEPARTYINFOVALUE { 
-  RIL_REMOTEPARTYINFO_WITHHELD,
-  RIL_REMOTEPARTYINFO_UNAVAILABLE,
-  RIL_REMOTEPARTYINFO_MAX
-} RILREMOTEPARTYINFOVALUE;
-````
-
-
 ## -enum-fields
 
 

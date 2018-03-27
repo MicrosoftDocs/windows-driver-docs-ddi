@@ -52,17 +52,6 @@ req.typenames: RILCAPSLOCKINGPWDLENGTHPARAMMASK
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef enum _RILCAPSLOCKINGPWDLENGTHPARAMMASK { 
-  RIL_PARAM_CLPL_PASSWORDLENGTH,
-  RIL_PARAM_CLPL_ALL
-} RILCAPSLOCKINGPWDLENGTHPARAMMASK;
-````
-
-
 ## -enum-fields
 
 

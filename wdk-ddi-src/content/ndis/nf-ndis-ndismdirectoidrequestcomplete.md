@@ -53,20 +53,8 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 Miniport drivers call the 
   <b>NdisMDirectOidRequestComplete</b> function to return the final status of a direct OID request for which
   the driver's 
-  <a href="..\ndis\nc-ndis-miniport_direct_oid_request.md">
+  <a href="https://msdn.microsoft.com/60daba60-3e04-4e98-a458-4dc263f17761">
   MiniportDirectOidRequest</a> function returned NDIS_STATUS_PENDING.
-
-
-## -syntax
-
-
-````
-VOID NdisMDirectOidRequestComplete(
-  _In_ NDIS_HANDLE       MiniportAdapterHandle,
-  _In_ PNDIS_OID_REQUEST OidRequest,
-  _In_ NDIS_STATUS       Status
-);
-````
 
 
 ## -parameters
@@ -78,14 +66,14 @@ VOID NdisMDirectOidRequestComplete(
 
 A miniport adapter handle that NDIS passed to the 
      <i>MiniportAdapterHandle</i> parameter of the 
-     <a href="..\ndis\nc-ndis-miniport_initialize.md">
+     <a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">
      MiniportInitializeEx</a> function.
 
 
 ### -param OidRequest [in]
 
 A pointer to a buffer that is formatted as an 
-     <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a> structure. The miniport
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566710">NDIS_OID_REQUEST</a> structure. The miniport
      driver obtained this pointer as an input parameter to its 
      <i>MiniportDirectOidRequest</i> function.
 
@@ -94,7 +82,7 @@ A pointer to a buffer that is formatted as an
 
 The final status of the request operation: NDIS_STATUS_SUCCESS, NDIS_STATUS_REQUEST_ABORTED, or
      any driver-determined NDIS_STATUS_<i>Xxx</i><u>except</u> NDIS_STATUS_PENDING. For more information about OID status values, see 
-     <a href="..\ndis\nc-ndis-miniport_direct_oid_request.md">
+     <a href="https://msdn.microsoft.com/60daba60-3e04-4e98-a458-4dc263f17761">
      MiniportDirectOidRequest</a>.
 
 
@@ -112,15 +100,15 @@ None
 
 
 A miniport driver that returns NDIS_STATUS_PENDING from its 
-    <a href="..\ndis\nc-ndis-miniport_direct_oid_request.md">
+    <a href="https://msdn.microsoft.com/60daba60-3e04-4e98-a458-4dc263f17761">
     MiniportDirectOidRequest</a> function must call 
     <b>NdisMDirectOidRequestComplete</b> after the miniport driver has finished the request operation.
 
 If an overlying driver originated the direct OID request, NDIS calls the request complete function
     (see 
-    <a href="..\ndis\nc-ndis-protocol_direct_oid_request_complete.md">
+    <a href="https://msdn.microsoft.com/6b23bbba-1b18-4da7-a45c-68df7c960aad">
     ProtocolDirectOidRequestComplete</a> and 
-    <a href="..\ndis\nc-ndis-filter_direct_oid_request_complete.md">
+    <a href="https://msdn.microsoft.com/a97c86e9-4fd9-4e2f-9787-4fa19c38a69b">
     FilterDirectOidRequestComplete</a>) of the overlying that originated the request.
 
 
@@ -128,28 +116,28 @@ If an overlying driver originated the direct OID request, NDIS calls the request
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-protocol_direct_oid_request_complete.md">
-   ProtocolDirectOidRequestComplete</a>
 
 
 
-<a href="..\ndis\nc-ndis-miniport_direct_oid_request.md">MiniportDirectOidRequest</a>
-
-
-
-<a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-
-
-
-<a href="..\ndis\nc-ndis-filter_direct_oid_request_complete.md">
+<a href="https://msdn.microsoft.com/a97c86e9-4fd9-4e2f-9787-4fa19c38a69b">
    FilterDirectOidRequestComplete</a>
 
 
 
+<a href="https://msdn.microsoft.com/60daba60-3e04-4e98-a458-4dc263f17761">MiniportDirectOidRequest</a>
+
+
+
+<a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566710">NDIS_OID_REQUEST</a>
+
+
+
+<a href="https://msdn.microsoft.com/6b23bbba-1b18-4da7-a45c-68df7c960aad">
+   ProtocolDirectOidRequestComplete</a>
  
 
  

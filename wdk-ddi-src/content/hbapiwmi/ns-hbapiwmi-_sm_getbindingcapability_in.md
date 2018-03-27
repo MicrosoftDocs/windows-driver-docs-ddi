@@ -52,17 +52,6 @@ req.typenames: SM_GetBindingCapability_IN, *PSM_GetBindingCapability_IN
 The SM_GetBindingCapability_IN structure is used to provide input parameters to the SM_GetBindingCapability method.
 
 
-## -syntax
-
-
-````
-typedef struct _SM_GetBindingCapability_IN {
-  UCHAR HbaPortWWN[8];
-  UCHAR DomainPortWWN[8];
-} SM_GetBindingCapability_IN, *PSM_GetBindingCapability_IN;
-````
-
-
 ## -struct-fields
 
 

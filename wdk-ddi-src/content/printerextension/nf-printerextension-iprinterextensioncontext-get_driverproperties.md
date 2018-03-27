@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: printerextension.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -56,16 +56,6 @@ Gets the driver property bag.
 This property is read-only.
 
 
-## -syntax
-
-
-````
-HRESULT get_DriverProperties(
-  [out, retval] IPrinterPropertyBag **ppPropertyBag
-);
-````
-
-
 ## -parameters
 
 
@@ -82,14 +72,14 @@ The driver property bag uses the following GUID for its property store format ID
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprinterextensioncontext.md">IPrinterExtensionContext</a>
 
 
 
-<a href="..\printerextension\nn-printerextension-iprinterpropertybag.md">IPrinterPropertyBag</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406649">IPrinterExtensionContext</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439547">IPrinterPropertyBag</a>
  
 
  

@@ -52,21 +52,6 @@ req.typenames: NDIS_WDI_INIT_PARAMETERS, *PNDIS_WDI_INIT_PARAMETERS
 The NDIS_WDI_INIT_PARAMETERS structure specifies the WDI functions provided by the operating system and called by the IHV WDI driver.
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_WDI_INIT_PARAMETERS {
-  NDIS_OBJECT_HEADER                          Header;
-  ULONG                                       WdiVersion;
-  NDIS_WDI_OPEN_ADAPTER_COMPLETE_HANDLER      OpenAdapterCompleteHandler;
-  NDIS_WDI_CLOSE_ADAPTER_COMPLETE_HANDLER     CloseAdapterCompleteHandler;
-  NDIS_WDI_IDLE_NOTIFICATION_CONFIRM_HANDLER  UeIdleNotificationConfirm;
-  NDIS_WDI_IDLE_NOTIFICATION_COMPLETE_HANDLER UeIdleNotificationComplete;
-} NDIS_WDI_INIT_PARAMETERS, *PNDIS_WDI_INIT_PARAMETERS;
-````
-
-
 ## -struct-fields
 
 
@@ -75,7 +60,7 @@ typedef struct _NDIS_WDI_INIT_PARAMETERS {
 ### -field Header
 
 The 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure for the
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure for the
      NDIS_WDI_INIT_PARAMETERS structure. Set the 
      <b>Type</b> member of the structure that 
      <b>Header</b> specifies to NDIS_OBJECT_TYPE_WDI_INIT_PARAMETERS.
@@ -109,20 +94,20 @@ WDI version 1.0
 
 ### -field OpenAdapterCompleteHandler
 
-The entry point of the <a href="..\dot11wdi\nc-dot11wdi-ndis_wdi_open_adapter_complete.md">NdisWdiOpenAdapterComplete</a> callback function.
+The entry point of the <a href="https://msdn.microsoft.com/FD6FF134-A8D7-433E-9353-88965E67749E">NdisWdiOpenAdapterComplete</a> callback function.
 
 
 ### -field CloseAdapterCompleteHandler
 
-The entry point of the <a href="..\dot11wdi\nc-dot11wdi-ndis_wdi_close_adapter_complete.md">NdisWdiCloseAdapterComplete</a> callback function.
+The entry point of the <a href="https://msdn.microsoft.com/42500F6F-8E97-454F-819F-8EA3785C0D04">NdisWdiCloseAdapterComplete</a> callback function.
 
 
 ### -field UeIdleNotificationConfirm
 
-The entry point of the <a href="..\dot11wdi\nc-dot11wdi-ndis_wdi_idle_notification_confirm.md">NdisWdiIdleNotificationConfirm</a> callback function.
+The entry point of the <a href="https://msdn.microsoft.com/39D070BE-FF6F-4EC8-A4E4-DF45C5089AA7">NdisWdiIdleNotificationConfirm</a> callback function.
 
 
 ### -field UeIdleNotificationComplete
 
-The entry point of the <a href="..\dot11wdi\nc-dot11wdi-ndis_wdi_idle_notification_complete.md">NdisWdiIdleNotificationComplete</a> callback function.
+The entry point of the <a href="https://msdn.microsoft.com/22622545-F92E-4FEE-8F5D-64EC792490C7">NdisWdiIdleNotificationComplete</a> callback function.
 

@@ -52,19 +52,6 @@ req.typenames: DXVAHDDDI_COLOR_YCbCrA
 The DXVAHDDDI_COLOR_YCbCrA structure describes color in YCbCr terms.  
 
 
-## -syntax
-
-
-````
-typedef struct _DXVAHDDDI_COLOR_YCbCrA {
-  FLOAT Y;
-  FLOAT Cb;
-  FLOAT Cr;
-  FLOAT A;
-} DXVAHDDDI_COLOR_YCbCrA;
-````
-
-
 ## -struct-fields
 
 
@@ -96,17 +83,17 @@ typedef struct _DXVAHDDDI_COLOR_YCbCrA {
 
 The setting of DXVAHDDDI_COLOR_YCbCrA for YCbCr black with opaque alpha is (0.0625, 0.5, 0.5, 1.0), which is (16, 128, 128, 255) when 8-bit presentation is used.
 
-A DXVAHDDDI_COLOR_YCbCrA structure is specified in the <b>YCbCr</b> member of the <a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_color.md">DXVAHDDDI_COLOR</a> union to specify the color in YCbCr terms.
+A DXVAHDDDI_COLOR_YCbCrA structure is specified in the <b>YCbCr</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563025">DXVAHDDDI_COLOR</a> union to specify the color in YCbCr terms.
 
 
 
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_color.md">DXVAHDDDI_COLOR</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563025">DXVAHDDDI_COLOR</a>
  
 
  

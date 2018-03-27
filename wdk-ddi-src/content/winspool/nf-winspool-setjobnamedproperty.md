@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,18 +51,6 @@ req.product: Windows 10 or later.
 
 
 
-
-
-## -syntax
-
-
-````
-DWORD WINAPI SetJobNamedProperty(
-  _In_       HANDLE                    hPrinter,
-  _In_       DWORD                     JobId,
-  _In_ const PrintNamedProperty        *pProperty
-);
-````
 
 
 ## -parameters

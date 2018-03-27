@@ -52,18 +52,6 @@ req.typenames: TOKEN_TYPE
 The <b>FsRtlAllocatePoolWithQuotaTag</b> routine allocates pool memory, charging quota against the current process. 
 
 
-## -syntax
-
-
-````
-PVOID FsRtlAllocatePoolWithQuotaTag(
-  _In_ POOL_TYPE PoolType,
-  _In_ ULONG     NumberOfBytes,
-  _In_ ULONG     Tag
-);
-````
-
-
 ## -parameters
 
 
@@ -112,18 +100,18 @@ Callers of <b>FsRtlAllocatePoolWithQuotaTag</b> must be running at IRQL &lt;= DI
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544513">ExAllocatePoolWithQuotaTag</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544590">ExFreePool</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545659">FsRtlAllocatePoolWithQuota</a>
-
-
-
-<a href="..\wdm\nf-wdm-exallocatepoolwithquotatag.md">ExAllocatePoolWithQuotaTag</a>
-
-
-
-<a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a>
-
-
-
  
 
  

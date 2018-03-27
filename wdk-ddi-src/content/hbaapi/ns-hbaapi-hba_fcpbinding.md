@@ -52,17 +52,6 @@ req.typenames: HBA_FCPBINDING, *PHBA_FCPBINDING
 The HBA_FCPBinding structure contains an array of bindings between operating system and fibre channel protocol (FCP) identifiers for a set of logical units. 
 
 
-## -syntax
-
-
-````
-typedef struct HBA_FCPBinding {
-  HBA_UINT32          NumberOfEntries;
-  HBA_FCPBINDINGENTRY entry[1];
-} HBA_FCPBINDING, *PHBA_FCPBINDING;
-````
-
-
 ## -struct-fields
 
 
@@ -75,19 +64,19 @@ Indicates the number of bindings.
 
 ### -field entry
 
-Contains a variable length array of structures of type <a href="..\hbaapi\ns-hbaapi-hba_fcpbindingentry.md">HBA_FCPBindingEntry</a> each of which defines a binding between a pair of operating system and fibre channel protocol (FCP) identifiers for a logical unit. 
+Contains a variable length array of structures of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff556058">HBA_FCPBindingEntry</a> each of which defines a binding between a pair of operating system and fibre channel protocol (FCP) identifiers for a logical unit. 
 
 
 ## -see-also
 
-<a href="..\hbaapi\ns-hbaapi-hba_fcpbindingentry.md">HBA_FCPBindingEntry</a>
 
 
 
-<a href="..\hbapiwmi\ns-hbapiwmi-_hbafcpbindingentry.md">HBAFCPBindingEntry</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556034">HBAFCPBindingEntry</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556058">HBA_FCPBindingEntry</a>
  
 
  

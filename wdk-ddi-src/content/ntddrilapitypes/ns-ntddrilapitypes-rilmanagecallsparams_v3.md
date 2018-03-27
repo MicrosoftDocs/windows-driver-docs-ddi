@@ -52,21 +52,6 @@ req.typenames: RILMANAGECALLSPARAMS_V3, *LPRILMANAGECALLSPARAMS_V3
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef struct _RILMANAGECALLSPARAMS_V3 {
-  DWORD                       dwExecutor;
-  RILMANAGECALLPARAMSCOMMAND  dwCommand;
-  DWORD                       dwID;
-  BOOL                        fHasOfferAnswer;
-  RILCALLMEDIAOFFERANSWERSET  rcmOfferAnswer;
-  RILADDRESS                  raAddress;
-} RILMANAGECALLSPARAMS_V3, RILMANAGECALLSPARAMS_V3;
-````
-
-
 ## -struct-fields
 
 

@@ -49,24 +49,7 @@ req.typenames: DXGKCB_NOTIFY_INTERRUPT_DATA_FLAGS
 ## -description
 
 
-The DXGKCB_NOTIFY_INTERRUPT_DATA_FLAGS structure indicates whether the display miniport driver provides a physical adapter mask in a call to the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_notify_interrupt.md">DxgkCbNotifyInterrupt</a> function.
-
-
-## -syntax
-
-
-````
-typedef struct _DXGKCB_NOTIFY_INTERRUPT_DATA_FLAGS {
-  union {
-    struct {
-      UINT ValidPhysicalAdapterMask  :1;
-      UINT HsyncFlipCompletion  :1;
-      UINT Reserved  :30;
-    };
-    UINT Value;
-  };
-} DXGKCB_NOTIFY_INTERRUPT_DATA_FLAGS;
-````
+The DXGKCB_NOTIFY_INTERRUPT_DATA_FLAGS structure indicates whether the display miniport driver provides a physical adapter mask in a call to the <a href="https://msdn.microsoft.com/7968d26d-0195-463d-8954-e7ebef4f9dea">DxgkCbNotifyInterrupt</a> function.
 
 
 ## -struct-fields
@@ -76,7 +59,7 @@ typedef struct _DXGKCB_NOTIFY_INTERRUPT_DATA_FLAGS {
 
 ### -field ValidPhysicalAdapterMask
 
-A UINT value that specifies whether the driver provides a physical adapter mask. If this member is set, the driver provides a physical adapter mask in the <b>PhysicalAdapterMask</b> member of the <b>CrtcVsync</b> structure that is contained in the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkargcb_notify_interrupt_data.md">DXGKARGCB_NOTIFY_INTERRUPT_DATA</a> structure. 
+A UINT value that specifies whether the driver provides a physical adapter mask. If this member is set, the driver provides a physical adapter mask in the <b>PhysicalAdapterMask</b> member of the <b>CrtcVsync</b> structure that is contained in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff557538">DXGKARGCB_NOTIFY_INTERRUPT_DATA</a> structure. 
 
 Setting this member is equivalent to setting the first bit of the 32-bit <b>Value</b> member (0x00000001).
 
@@ -98,14 +81,14 @@ A member in the union that DXGKCB_NOTIFY_INTERRUPT_DATA_FLAGS contains that can 
 
 ## -see-also
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_notify_interrupt.md">DxgkCbNotifyInterrupt</a>
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkargcb_notify_interrupt_data.md">DXGKARGCB_NOTIFY_INTERRUPT_DATA</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557538">DXGKARGCB_NOTIFY_INTERRUPT_DATA</a>
 
 
 
+<a href="https://msdn.microsoft.com/7968d26d-0195-463d-8954-e7ebef4f9dea">DxgkCbNotifyInterrupt</a>
  
 
  

@@ -52,18 +52,6 @@ req.typenames: RILUICCFILEPATH, *LPRILUICCFILEPATH
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef struct _RILUICCFILEPATH {
-  HUICCAPP  hUiccApp;
-  DWORD     dwFilePathLen;
-  WORD [8]  wFilePath;
-} RILUICCFILEPATH, RILUICCFILEPATH;
-````
-
-
 ## -struct-fields
 
 

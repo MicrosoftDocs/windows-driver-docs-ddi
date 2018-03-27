@@ -52,17 +52,6 @@ req.typenames: D3D11_1DDI_AES_CTR_IV
 Contains an initialization vector (IV) for 128-bit Advanced Encryption Standard CTR mode (AES-CTR) block cipher encryption.
 
 
-## -syntax
-
-
-````
-typedef struct D3D11_1DDI_AES_CTR_IV {
-  UINT64 IV;
-  UINT64 Count;
-} D3D11_1DDI_AES_CTR_IV;
-````
-
-
 ## -struct-fields
 
 

@@ -52,18 +52,6 @@ req.typenames: FILE_LEVEL_TRIM, *PFILE_LEVEL_TRIM
 The <b>FILE_LEVEL_TRIM</b> structure contains an array of byte ranges to trim for a file.
 
 
-## -syntax
-
-
-````
-typedef struct _FILE_LEVEL_TRIM {
-  ULONG                 Key;
-  ULONG                 NumRanges;
-  FILE_LEVEL_TRIM_RANGE Ranges[1];
-} FILE_LEVEL_TRIM, *PFILE_LEVEL_TRIM;
-````
-
-
 ## -struct-fields
 
 
@@ -86,14 +74,14 @@ Array of trim ranges for a file.
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406405">FILE_LEVEL_TRIM_RANGE</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451098">FSCTL_FILE_LEVEL_TRIM</a>
-
-
-
-<a href="..\ntifs\ns-ntifs-_file_level_trim_range.md">FILE_LEVEL_TRIM_RANGE</a>
-
-
-
  
 
  

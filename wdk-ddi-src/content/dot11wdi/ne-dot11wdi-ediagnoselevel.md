@@ -52,19 +52,6 @@ req.typenames: eDiagnoseLevel
 The eDiagnoseLevel enumeration defines the diagnosis levels for adapter hang diagnosis.
 
 
-## -syntax
-
-
-````
-typedef enum _eDiagnoseLevel { 
-  DiagnoseLevelNone               = 0,
-  DiagnoseLevelHardwareRegisters  = 1,
-  DiagnoseLevelFirmwareImageDump  = 2,
-  DiagnoseLevelDriverStateDump    = 3
-} eDiagnoseLevel;
-````
-
-
 ## -enum-fields
 
 
@@ -92,10 +79,10 @@ Dump the driver state, full firmware image, and hardware registers. The driver s
 
 ## -see-also
 
-<a href="..\dot11wdi\nc-dot11wdi-miniport_wdi_adapter_hang_diagnose.md">MiniportWdiAdapterHangDiagnose</a>
 
 
 
+<a href="https://msdn.microsoft.com/233CCF43-481E-4759-A2FC-0329103F8208">MiniportWdiAdapterHangDiagnose</a>
  
 
  

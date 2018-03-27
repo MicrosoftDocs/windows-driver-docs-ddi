@@ -52,18 +52,6 @@ req.typenames: D3DDDICB_CREATEOVERLAY
 The D3DDDICB_CREATEOVERLAY structure describes overlay hardware.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DDDICB_CREATEOVERLAY {
-  D3DDDI_VIDEO_PRESENT_SOURCE_ID VidPnSourceId;
-  D3DDDI_KERNELOVERLAYINFO       OverlayInfo;
-  D3DKMT_HANDLE                  hKernelOverlay;
-} D3DDDICB_CREATEOVERLAY;
-````
-
-
 ## -struct-fields
 
 
@@ -76,7 +64,7 @@ typedef struct _D3DDDICB_CREATEOVERLAY {
 
 ### -field OverlayInfo
 
-[in] A <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_kerneloverlayinfo.md">D3DDDI_KERNELOVERLAYINFO</a> structure that describes information about the kernel-mode overlay object.
+[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff544577">D3DDDI_KERNELOVERLAYINFO</a> structure that describes information about the kernel-mode overlay object.
 
 
 ### -field hKernelOverlay
@@ -86,14 +74,14 @@ typedef struct _D3DDDICB_CREATEOVERLAY {
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createoverlaycb.md">pfnCreateOverlayCb</a>
 
 
 
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_kerneloverlayinfo.md">D3DDDI_KERNELOVERLAYINFO</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544577">D3DDDI_KERNELOVERLAYINFO</a>
 
 
 
+<a href="https://msdn.microsoft.com/fbd5b3af-0963-4e41-8be3-41e3e1ecf8bc">pfnCreateOverlayCb</a>
  
 
  

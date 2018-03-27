@@ -52,18 +52,6 @@ req.typenames:
 Gives information about the cursor associated with the monitor.
 
 
-## -syntax
-
-
-````
-typedef struct _IDARG_IN_QUERY_HWCURSOR {
-  IDDCX_MONITOR_DESCRIPTION                                   MonitorDescription;
-  UINT                                                        TargetModeBufferInputCount;
-  _Field_size_(TargetModeBufferInputCount) IDDCX_TARGET_MODE* pTargetModes;
-} IDARG_IN_QUERY_HWCURSOR, *PIDARG_IN_QUERY_HWCURSOR;
-````
-
-
 ## -struct-fields
 
 

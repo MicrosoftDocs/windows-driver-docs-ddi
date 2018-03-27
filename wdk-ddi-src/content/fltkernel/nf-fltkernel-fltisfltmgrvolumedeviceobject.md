@@ -52,16 +52,6 @@ req.typenames: EXpsFontRestriction
 The <b>FltIsFltMgrVolumeDeviceObject</b> routine determines whether the given device object belongs to filter manager and if the device object is a volume device object.
 
 
-## -syntax
-
-
-````
-BOOLEAN FltIsFltMgrVolumeDeviceObject(
-  _In_ PDEVICE_OBJECT DeviceObject
-);
-````
-
-
 ## -parameters
 
 
@@ -69,7 +59,7 @@ BOOLEAN FltIsFltMgrVolumeDeviceObject(
 
 ### -param DeviceObject [in]
 
-A pointer to the device object (<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>) to test.
+A pointer to the device object (<a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a>) to test.
 
 
 ## -returns
@@ -92,10 +82,10 @@ None
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a>
  
 
  

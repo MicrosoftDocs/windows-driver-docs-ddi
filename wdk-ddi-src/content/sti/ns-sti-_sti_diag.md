@@ -53,20 +53,6 @@ req.product: Windows 10 or later.
 The STI_DIAG structure is used as a parameter to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff543736">IStiDevice::Diagnostic</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff543814">IStiUSD::Diagnostic</a> methods.
 
 
-## -syntax
-
-
-````
-typedef struct _STI_DIAG {
-  DWORD          dwSize;
-  DWORD          dwBasicDiagCode;
-  DWORD          dwVendorDiagCode;
-  DWORD          dwStatusMask;
-  STI_ERROR_INFO sErrorInfo;
-} STI_DIAG, *LPSTI_DIAG;
-````
-
-
 ## -struct-fields
 
 
@@ -94,5 +80,5 @@ Reserved for future use.
 
 ### -field sErrorInfo
 
-Structure of type <a href="..\sti\ns-sti-_error_infow.md">STI_ERROR_INFO</a>.
+Structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff548396">STI_ERROR_INFO</a>.
 

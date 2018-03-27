@@ -52,18 +52,6 @@ req.typenames: D3D12DDI_VIDEO_DECODE_PROFILES_DATA_0020
 Specifies information used to retrieve a list of profiles. 
 
 
-## -syntax
-
-
-````
-typedef struct D3D12DDI_VIDEO_DECODE_PROFILES_DATA_0020 {
-  UINT NodeIndex;
-  UINT ProfileCount;
-  GUID *pProfiles;
-} D3D12DDI_VIDEO_DECODE_PROFILES_DATA_0020;
-````
-
-
 ## -struct-fields
 
 

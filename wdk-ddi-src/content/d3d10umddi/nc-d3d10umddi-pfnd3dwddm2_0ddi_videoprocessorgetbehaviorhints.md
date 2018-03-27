@@ -49,27 +49,7 @@ req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 ## -description
 
 
-Returns driver hints as to which video processor operations are best performed using multi-plane overlay hardware rather than <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_videoprocessorblt.md">VideoProcessorBlt</a>. Optional for Windows Display Driver Model (WDDM) 2.0, or later, drivers.
-
-
-## -prototype
-
-
-````
-PFND3DWDDM2_0DDI_VIDEOPROCESSORGETBEHAVIORHINTS pfnVideoProcessorGetBehaviorHints;
-
-HRESULT APIENTRY* pfnVideoProcessorGetBehaviorHints(
-  _In_        D3D10DDI_HDEVICE                                   hDevice,
-  _In_        D3D11_1DDI_HVIDEOPROCESSOR                         hVideoProcessor,
-  _In_        UINT                                               OutputWidth,
-  _In_        UINT                                               OutputHeight,
-  _In_        DXGI_FORMAT                                        OutputFormat,
-  _In_        UINT                                               StreamCount,
-  _In_  const D3DWDDM2_0DDI_VIDEO_PROCESSOR_STREAM_BEHAVIOR_HINT *pStreams,
-  _Out_       UINT                                               *pBehaviorHints
-)
-{ ... }
-````
+Returns driver hints as to which video processor operations are best performed using multi-plane overlay hardware rather than <a href="https://msdn.microsoft.com/library/windows/hardware/hh451703">VideoProcessorBlt</a>. Optional for Windows Display Driver Model (WDDM) 2.0, or later, drivers.
 
 
 ## -parameters
@@ -79,7 +59,7 @@ HRESULT APIENTRY* pfnVideoProcessorGetBehaviorHints(
 
 ### -param hDevice [in]
 
- A handle to the display device (graphics context). The Direct3D runtime passed the user-mode driver this handle as the <b>hDevice</b> member of the <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createdevice.md">D3DDDIARG_CREATEDEVICE</a> structure at device creation.
+ A handle to the display device (graphics context). The Direct3D runtime passed the user-mode driver this handle as the <b>hDevice</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff542931">D3DDDIARG_CREATEDEVICE</a> structure at device creation.
 
 
 ### -param hVideoProcessor [in]
@@ -114,7 +94,7 @@ An array of structures indicating the format and status of each stream.
 
 ### -param *pBehaviorHints [out]
 
-Receives a combination of <b>D3DWDDM2_0DDI_VIDEO_PROCESSOR_MULTIPLANE_BEHAVIOR_HINTS</b> values indicting which of the operations would best be performed using multi-plane overlay hardware rather than with <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_videoprocessorblt.md">VideoProcessorBlt</a>. 
+Receives a combination of <b>D3DWDDM2_0DDI_VIDEO_PROCESSOR_MULTIPLANE_BEHAVIOR_HINTS</b> values indicting which of the operations would best be performed using multi-plane overlay hardware rather than with <a href="https://msdn.microsoft.com/library/windows/hardware/hh451703">VideoProcessorBlt</a>. 
 
 
 ## -returns
@@ -137,14 +117,14 @@ This function uses the current state, set via the <b>VideoProcessorSetOutput</b>
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createdevice.md">D3DDDIARG_CREATEDEVICE</a>
 
 
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_videoprocessorblt.md">VideoProcessorBlt</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542931">D3DDDIARG_CREATEDEVICE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451703">VideoProcessorBlt</a>
  
 
  

@@ -52,17 +52,6 @@ req.typenames: NDIS_WWAN_SMS_DELETE_STATUS, *PNDIS_WWAN_SMS_DELETE_STATUS
 The NDIS_WWAN_SMS_DELETE_STATUS structure represents the status of a deleted SMS text message.
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_WWAN_SMS_DELETE_STATUS {
-  NDIS_OBJECT_HEADER Header;
-  WWAN_STATUS        uStatus;
-} NDIS_WWAN_SMS_DELETE_STATUS, *PNDIS_WWAN_SMS_DELETE_STATUS;
-````
-
-
 ## -struct-fields
 
 
@@ -116,7 +105,7 @@ sizeof(NDIS_WWAN_SMS_DELETE_STATUS)
  
 
 For more information about these members, see 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>.
 
 
 ### -field uStatus
@@ -126,10 +115,10 @@ The status of the SMS delete operation.
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
  
 
  

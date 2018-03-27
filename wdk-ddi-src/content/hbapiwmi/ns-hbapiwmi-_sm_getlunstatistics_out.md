@@ -52,17 +52,6 @@ req.typenames: SM_GetLUNStatistics_OUT, *PSM_GetLUNStatistics_OUT
 The SM_GetLUNStatistics_OUT structure is used to receive output parameters from the SM_GetLUNStatistics_OUT method.
 
 
-## -syntax
-
-
-````
-typedef struct _SM_GetLUNStatistics_OUT {
-  ULONG                       HBAStatus;
-  MS_SMHBA_PROTOCOLSTATISTICS ProtocolStatistics;
-} SM_GetLUNStatistics_OUT, *PSM_GetLUNStatistics_OUT;
-````
-
-
 ## -struct-fields
 
 
@@ -75,7 +64,7 @@ The status of the operation. For a list of allowed values and their descriptions
 
 ### -field ProtocolStatistics
 
-A structure of type <a href="..\hbapiwmi\ns-hbapiwmi-_ms_smhba_protocolstatistics.md">MS_SMHBA_PROTOCOLSTATISTICS</a> that is used to report protocol traffic statistics on a port.
+A structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff563172">MS_SMHBA_PROTOCOLSTATISTICS</a> that is used to report protocol traffic statistics on a port.
 
 
 ## -remarks

@@ -49,19 +49,7 @@ req.typenames: D3DDDIARG_CONFIGUREAUTHENTICATEDCHANNEL
 ## -description
 
 
-The D3DDDIARG_CONFIGUREAUTHENTICATEDCHANNEL structure describes the state that is set within an authenticated channel by using the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_configureauthenicatedchannel.md">ConfigureAuthenticatedChannel</a> function. 
-
-
-## -syntax
-
-
-````
-typedef struct _D3DDDIARG_CONFIGUREAUTHENTICATEDCHANNEL {
-  UINT       InputSize;
-  const VOID *pInputData;
-  VOID       *pOutputData;
-} D3DDDIARG_CONFIGUREAUTHENTICATEDCHANNEL;
-````
+The D3DDDIARG_CONFIGUREAUTHENTICATEDCHANNEL structure describes the state that is set within an authenticated channel by using the <a href="https://msdn.microsoft.com/95485e96-fa4f-4c88-b88b-97b79f507abd">ConfigureAuthenticatedChannel</a> function. 
 
 
 ## -struct-fields
@@ -81,7 +69,7 @@ typedef struct _D3DDDIARG_CONFIGUREAUTHENTICATEDCHANNEL {
 
 ### -field pOutputData
 
-[in/out] A pointer to a buffer that describes the information that the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_configureauthenicatedchannel.md">ConfigureAuthenticatedChannel</a> function returns. 
+[in/out] A pointer to a buffer that describes the information that the <a href="https://msdn.microsoft.com/95485e96-fa4f-4c88-b88b-97b79f507abd">ConfigureAuthenticatedChannel</a> function returns. 
 
 
 ## -remarks
@@ -106,17 +94,17 @@ The <b>SequenceNumber</b> member specifies a unique number that the driver can u
 </ul>
 The <b>pOutputData</b> member points to a D3DAUTHENTICATEDCHANNEL_CONFIGURE_OUTPUT structure that contains the configuration type and the sequence number of the output buffer to prevent against replay attacks. 
 
-Configuration state that an authenticated channel sets cannot be disabled by another authenticated channel. A call to the driver's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_configureauthenicatedchannel.md">ConfigureAuthenticatedChannel</a> function with such an attempt   fails. 
+Configuration state that an authenticated channel sets cannot be disabled by another authenticated channel. A call to the driver's <a href="https://msdn.microsoft.com/95485e96-fa4f-4c88-b88b-97b79f507abd">ConfigureAuthenticatedChannel</a> function with such an attempt   fails. 
 
 
 
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_configureauthenicatedchannel.md">ConfigureAuthenticatedChannel</a>
 
 
 
+<a href="https://msdn.microsoft.com/95485e96-fa4f-4c88-b88b-97b79f507abd">ConfigureAuthenticatedChannel</a>
  
 
  

@@ -26,7 +26,7 @@ req.max-support: Unavailable in UMDF 2.0 and later.
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: wudfddi.h
+req.lib: 
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
@@ -55,16 +55,6 @@ req.product: Windows 10 or later.
 The <b>IsVersionAvailable</b> method determines whether the specified version of the framework is available.
 
 
-## -syntax
-
-
-````
-BOOL IsVersionAvailable(
-  [in] UMDF_VERSION_DATA *pMinimumVersion
-);
-````
-
-
 ## -parameters
 
 
@@ -72,7 +62,7 @@ BOOL IsVersionAvailable(
 
 ### -param pMinimumVersion [in]
 
-A pointer to a <a href="..\wudfddi_types\ns-wudfddi_types-umdf_version_data.md">UMDF_VERSION_DATA</a> structure that describes the minimum version of the framework that the driver supports.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff561352">UMDF_VERSION_DATA</a> structure that describes the minimum version of the framework that the driver supports.
 
 
 ## -returns
@@ -86,14 +76,14 @@ A pointer to a <a href="..\wudfddi_types\ns-wudfddi_types-umdf_version_data.md">
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfdriver.md">IWDFDriver</a>
 
 
 
-<a href="..\wudfddi_types\ns-wudfddi_types-umdf_version_data.md">UMDF_VERSION_DATA</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558893">IWDFDriver</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561352">UMDF_VERSION_DATA</a>
  
 
  

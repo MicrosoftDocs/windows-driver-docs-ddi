@@ -52,17 +52,6 @@ req.typenames:
 Gives information about the default description modes for the monitor, as well as the preferred mode of the monitor.
 
 
-## -syntax
-
-
-````
-typedef struct IDARG_OUT_GETDEFAULTDESCRIPTIONMODES {
-  UINT DefaultMonitorModeBufferOutputCount;
-  UINT PreferredMonitorModeIdx;
-} IDARG_OUT_GETDEFAULTDESCRIPTIONMODES, *IDARG_OUT_GETDEFAULTDESCRIPTIONMODES;
-````
-
-
 ## -struct-fields
 
 
@@ -71,9 +60,9 @@ typedef struct IDARG_OUT_GETDEFAULTDESCRIPTIONMODES {
 ### -field DefaultMonitorModeBufferOutputCount
 
 
-                     [out] If the <a href="..\iddcx\ns-iddcx-idarg_in_parsemonitordescription.md">IDARG_IN_PARSEMONITORDESCRIPTION</a> value <b>pDefaultMonitorModes</b> was NULL, then the driver should set this to the number of monitor modes the driver would generate for the specified monitor description.
+                     [out] If the <a href="https://msdn.microsoft.com/library/windows/hardware/mt761894">IDARG_IN_PARSEMONITORDESCRIPTION</a> value <b>pDefaultMonitorModes</b> was NULL, then the driver should set this to the number of monitor modes the driver would generate for the specified monitor description.
 
- If the <a href="..\iddcx\ns-iddcx-idarg_in_parsemonitordescription.md">IDARG_IN_PARSEMONITORDESCRIPTION</a> value <b>pDefaultMonitorModes</b> was non-NULL, then this is the count of the monitor modes that the driver copied to that buffer.
+ If the <a href="https://msdn.microsoft.com/library/windows/hardware/mt761894">IDARG_IN_PARSEMONITORDESCRIPTION</a> value <b>pDefaultMonitorModes</b> was non-NULL, then this is the count of the monitor modes that the driver copied to that buffer.
                  
 
 
@@ -85,10 +74,10 @@ typedef struct IDARG_OUT_GETDEFAULTDESCRIPTIONMODES {
 
 ## -see-also
 
-<a href="..\iddcx\ns-iddcx-idarg_in_parsemonitordescription.md">IDARG_IN_PARSEMONITORDESCRIPTION</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt761894">IDARG_IN_PARSEMONITORDESCRIPTION</a>
  
 
  

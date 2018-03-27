@@ -55,17 +55,6 @@ req.product: Windows 10 or later.
 A camera minidriver's state callback function restores a previously saved device context state or saves the current device context state.
 
 
-## -prototype
-
-
-````
-NTSTATUS MyCamState(
-   PDEVICE_OBJECT BusDeviceObject,
-   PVOID          DeviceContext
-);
-````
-
-
 ## -parameters
 
 
@@ -122,10 +111,10 @@ This function is optional.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568157">SRB_CHANGE_POWER_STATE</a>
-
-
-
  
 
  

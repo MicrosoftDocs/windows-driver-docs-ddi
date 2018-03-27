@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: IRQL == PASSIVE_LEVEL
 topic_type:
@@ -51,19 +51,6 @@ req.product: Windows 10 or later.
 
 
 A miniport driver can call the <b>StorPortIsDeviceOperationAllowedminiport</b> routine to determine if operations for a certain device management      class are allowed. A status value is set in the return parameter to indicate whether such operations are allowed or not allowed for the device in its current operating environment.
-
-
-## -syntax
-
-
-````
-ULONG StorPortIsDeviceOperationAllowed(
-  _In_  PVOID         HwDeviceExtension,
-  _In_  PSTOR_ADDRESS Address,
-  _In_  LPCGUID       DeviceOperation,
-  _Out_ ULONG         *AllowedFlag
-);
-````
 
 
 ## -parameters

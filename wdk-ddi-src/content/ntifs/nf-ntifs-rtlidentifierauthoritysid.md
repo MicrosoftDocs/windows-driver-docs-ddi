@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -49,17 +49,7 @@ req.typenames: TOKEN_TYPE
 ## -description
 
 
-The <b>RtlIdentifierAuthoritySid</b> routine is reserved for system use. See <a href="..\ntifs\nf-ntifs-rtlsubauthoritysid.md">RtlSubAuthoritySid</a> and <a href="..\ntifs\ns-ntifs-_sid.md">SID</a>. 
-
-
-## -syntax
-
-
-````
-  RtlIdentifierAuthoritySid(
-    
-);
-````
+The <b>RtlIdentifierAuthoritySid</b> routine is reserved for system use. See <a href="https://msdn.microsoft.com/library/windows/hardware/ff553236">RtlSubAuthoritySid</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff556740">SID</a>. 
 
 
 ## -parameters

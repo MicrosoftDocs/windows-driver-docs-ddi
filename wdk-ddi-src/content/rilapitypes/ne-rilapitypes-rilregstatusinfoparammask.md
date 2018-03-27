@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,24 +51,6 @@ req.product: Windows 10 or later.
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef enum _RILREGSTATUSINFOPARAMMASK { 
-  RIL_PARAM_REGSI_HUICCAPP,
-  RIL_PARAM_REGSI_REGSTATUS,
-  RIL_PARAM_REGSI_ACCESSTECHNOLOGY,
-  RIL_PARAM_REGSI_SYSTEMCAPS,
-  RIL_PARAM_REGSI_REGREJECTREASON,
-  RIL_PARAM_REGSI_CURRENTOPERATOR,
-  RIL_PARAM_REGSI_VOICEDOMAIN,
-  RIL_PARAM_REGSI_NETWORKCODE,
-  RIL_PARAM_REGSI_ALL
-} RILREGSTATUSINFOPARAMMASK;
-````
 
 
 ## -enum-fields

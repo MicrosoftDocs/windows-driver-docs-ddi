@@ -52,22 +52,6 @@ req.typenames: DXGK_OVERLAYINFO
 The DXGK_OVERLAYINFO structure describes parameters that are required to create or modify an overlay. 
 
 
-## -syntax
-
-
-````
-typedef struct _DXGK_OVERLAYINFO {
-  HANDLE           hAllocation;
-  PHYSICAL_ADDRESS PhysicalAddress;
-  UINT             SegmentId;
-  RECT             DstRect;
-  RECT             SrcRect;
-  VOID             *pPrivateDriverData;
-  UINT             PrivateDriverDataSize;
-} DXGK_OVERLAYINFO;
-````
-
-
 ## -struct-fields
 
 
@@ -110,26 +94,26 @@ typedef struct _DXGK_OVERLAYINFO {
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_createoverlay.md">DXGKARG_CREATEOVERLAY</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557572">DXGKARG_CREATEOVERLAY</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559496">DXGKARG_UPDATEOVERLAY</a>
+
+
+
+<a href="https://msdn.microsoft.com/1ccdd16d-fd76-4039-b538-86c77b4e8cbb">DxgkDdiCreateOverlay</a>
+
+
+
+<a href="https://msdn.microsoft.com/b131dbb9-1e11-4d04-97cb-e15ec2b025c7">DxgkDdiUpdateOverlay</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
-
-
-
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_updateoverlay.md">DxgkDdiUpdateOverlay</a>
-
-
-
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createoverlay.md">DxgkDdiCreateOverlay</a>
-
-
-
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_updateoverlay.md">DXGKARG_UPDATEOVERLAY</a>
-
-
-
  
 
  

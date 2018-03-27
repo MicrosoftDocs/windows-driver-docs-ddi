@@ -52,23 +52,6 @@ req.typenames: DISK_DETECTION_INFO, *PDISK_DETECTION_INFO
 The DISK_DETECTION_INFO structure contains the detected drive parameters that are supplied by an x86 PC BIOS on boot.
 
 
-## -syntax
-
-
-````
-typedef struct _DISK_DETECTION_INFO {
-  ULONG          SizeOfDetectInfo;
-  DETECTION_TYPE DetectionType;
-  union {
-    struct {
-      DISK_INT13_INFO    Int13;
-      DISK_EX_INT13_INFO ExInt13;
-    };
-  };
-} DISK_DETECTION_INFO, *PDISK_DETECTION_INFO;
-````
-
-
 ## -struct-fields
 
 
@@ -97,7 +80,7 @@ Indicates one of three possible detection types:
 
 </li>
 </ol>
-See the structure <a href="..\ntdddisk\ne-ntdddisk-_detection_type.md">DETECTION_TYPE</a> for further information.
+See the structure <a href="https://msdn.microsoft.com/library/windows/hardware/ff552516">DETECTION_TYPE</a> for further information.
 
 
 ### -field DUMMYUNIONNAME
@@ -130,29 +113,29 @@ Contains the quantity, in bytes, of retrieved detect information.
 
 #### Int13
 
-Contains <a href="..\ntdddisk\ns-ntdddisk-_disk_int13_info.md">DISK_INT13_INFO</a> structure with the disk parameters for INT 13 type partitions. This member is used if <b>DetectionType </b>== <b>DetectInt13</b>.
+Contains <a href="https://msdn.microsoft.com/library/windows/hardware/ff552624">DISK_INT13_INFO</a> structure with the disk parameters for INT 13 type partitions. This member is used if <b>DetectionType </b>== <b>DetectInt13</b>.
 
 
 
 #### ExInt13
 
-Contains a <a href="..\ntdddisk\ns-ntdddisk-_disk_ex_int13_info.md">DISK_EX_INT13_INFO</a> structure with the disk parameters for extended INT 13 type partitions. This member is used if <b>DetectionType</b> == <b>DetectExInt13</b>.
+Contains a <a href="https://msdn.microsoft.com/library/windows/hardware/ff552610">DISK_EX_INT13_INFO</a> structure with the disk parameters for extended INT 13 type partitions. This member is used if <b>DetectionType</b> == <b>DetectExInt13</b>.
 
 
 ## -see-also
 
-<a href="..\ntdddisk\ns-ntdddisk-_disk_geometry_ex.md">DISK_GEOMETRY_EX</a>
 
 
 
-<a href="..\ntdddisk\ns-ntdddisk-_disk_int13_info.md">DISK_INT13_INFO</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552610">DISK_EX_INT13_INFO</a>
 
 
 
-<a href="..\ntdddisk\ns-ntdddisk-_disk_ex_int13_info.md">DISK_EX_INT13_INFO</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552618">DISK_GEOMETRY_EX</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552624">DISK_INT13_INFO</a>
  
 
  

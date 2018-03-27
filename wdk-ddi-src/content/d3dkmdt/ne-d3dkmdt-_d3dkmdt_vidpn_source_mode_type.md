@@ -52,20 +52,6 @@ req.typenames: D3DKMDT_VIDPN_SOURCE_MODE_TYPE
 The D3DKMDT_VIDPN_SOURCE_MODE_TYPE enumeration is used to indicate whether a video present network (VidPN) source mode is a graphics mode, a text mode, or a stereo mode.
 
 
-## -syntax
-
-
-````
-typedef enum _D3DKMDT_VIDPN_SOURCE_MODE_TYPE { 
-  D3DKMDT_RMT_UNINITIALIZED                  = 0,
-  D3DKMDT_RMT_GRAPHICS                       = 1,
-  D3DKMDT_RMT_TEXT                           = 2,
-  D3DKMDT_RMT_GRAPHICS_STEREO                = 3,
-  D3DKMDT_RMT_GRAPHICS_STEREO_ADVANCED_SCAN  = 4
-} D3DKMDT_VIDPN_SOURCE_MODE_TYPE;
-````
-
-
 ## -enum-fields
 
 
@@ -106,7 +92,7 @@ If mono content needs to be displayed in a stereo mode, the operating system can
 
 
 
-The <b>Type</b> member of the <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_vidpn_source_mode.md">D3DKMDT_VIDPN_SOURCE_MODE</a> structure is a D3DKMDT_VIDPN_SOURCE_MODE_TYPE value.
+The <b>Type</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff546724">D3DKMDT_VIDPN_SOURCE_MODE</a> structure is a D3DKMDT_VIDPN_SOURCE_MODE_TYPE value.
 
 
 

@@ -53,16 +53,6 @@ req.product: Windows 10 or later.
 The <b>VideoPortGetAssociatedDeviceID</b> function obtains the child ID for a specified device object.
 
 
-## -syntax
-
-
-````
-ULONG VideoPortGetAssociatedDeviceID(
-  _In_ PVOID DeviceObject
-);
-````
-
-
 ## -parameters
 
 

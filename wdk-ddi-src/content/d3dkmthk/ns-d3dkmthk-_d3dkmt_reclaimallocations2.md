@@ -49,25 +49,7 @@ req.typenames: D3DKMT_RECLAIMALLOCATIONS2
 ## -description
 
 
-<b>D3DKMT_RECLAIMALLOCATIONS2</b> describes video memory resources that are to be reclaimed and that the driver  previously offered  for reuse. Used with the  <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtreclaimallocations2.md">D3DKMTReclaimAllocations2</a> function.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DKMT_RECLAIMALLOCATIONS2 {
-  D3DKMT_HANDLE       hPagingQueue;
-  UINT                NumAllocations;
-  D3DKMT_HANDLE       *pResources;
-  const D3DKMT_HANDLE *HandleList;
-  union {
-    BOOL                   *pDiscarded;
-    D3DDDI_RECLAIM_RESULT* pResults;
-  };
-  UINT64              PagingFenceValue;
-} D3DKMT_RECLAIMALLOCATIONS2;
-````
+<b>D3DKMT_RECLAIMALLOCATIONS2</b> describes video memory resources that are to be reclaimed and that the driver  previously offered  for reuse. Used with the  <a href="https://msdn.microsoft.com/library/windows/hardware/dn906780">D3DKMTReclaimAllocations2</a> function.
 
 
 ## -struct-fields

@@ -52,19 +52,8 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 
 The 
   <b>NdisIMCancelInitializeDeviceInstance</b> function cancels a preceding call to the 
-  <a href="..\ndis\nf-ndis-ndisiminitializedeviceinstanceex.md">
+  <a href="https://msdn.microsoft.com/f65c2974-4bf4-4948-ac07-527e69c96303">
   NdisIMInitializeDeviceInstanceEx</a> function.
-
-
-## -syntax
-
-
-````
-NDIS_STATUS NdisIMCancelInitializeDeviceInstance(
-  _In_ NDIS_HANDLE  DriverHandle,
-  _In_ PNDIS_STRING DeviceInstance
-);
-````
 
 
 ## -parameters
@@ -75,7 +64,7 @@ NDIS_STATUS NdisIMCancelInitializeDeviceInstance(
 ### -param DriverHandle [in]
 
 The miniport driver handle that the 
-     <a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">
+     <a href="https://msdn.microsoft.com/bed68aa8-499d-41fd-997b-a46316913cc8">
      NdisMRegisterMiniportDriver</a> function returned at the 
      <i>NdisMiniportDriverHandle</i> parameter.
 
@@ -87,7 +76,7 @@ A pointer to an NDIS_STRING type that describes a caller-initialized counted str
      stores information about a virtual miniport and, possibly, binding-specific information. For Microsoft
      Windows 2000 and later drivers, this string contains Unicode characters. That is, for Windows 2000 and
      later, NDIS defines the NDIS_STRING type as a 
-     <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> type.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> type.
 
 
 ## -returns
@@ -107,10 +96,10 @@ A pointer to an NDIS_STRING type that describes a caller-initialized counted str
 
 
 An intermediate driver calls the 
-    <a href="..\ndis\nf-ndis-ndisiminitializedeviceinstanceex.md">
+    <a href="https://msdn.microsoft.com/f65c2974-4bf4-4948-ac07-527e69c96303">
     NdisIMInitializeDeviceInstanceEx</a> function to initiate the initialization operation for a virtual
     miniports.Before NDIS calls the driver's 
-    <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a> function, the
+    <a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a> function, the
     driver can call 
     <b>NdisIMCancelInitializeDeviceInstance</b> to cancel the initialization operation. For example, if an
     underlying driver that the intermediate driver requires for normal operation is removed, the intermediate
@@ -122,23 +111,23 @@ An intermediate driver calls the
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
 
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+<a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisiminitializedeviceinstanceex.md">
+<a href="https://msdn.microsoft.com/f65c2974-4bf4-4948-ac07-527e69c96303">
    NdisIMInitializeDeviceInstanceEx</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563654">NdisMRegisterMiniportDriver</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a>
  
 
  

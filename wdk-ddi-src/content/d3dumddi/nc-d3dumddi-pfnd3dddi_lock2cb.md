@@ -52,20 +52,6 @@ req.typenames: DXGK_PTE
 The <b>pfnLock2Cb</b> function locks an allocation and obtains a pointer to the allocation from the display miniport driver or video memory manager. 
 
 
-## -prototype
-
-
-````
-PFND3DDDI_LOCK2CB pfnLock2Cb;
-
-HRESULT APIENTRY CALLBACK* pfnLock2Cb(
-  _In_    HANDLE         hDevice,
-  _Inout_ D3DDDICB_LOCK2 *pData
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -87,7 +73,7 @@ A handle to the display device (graphics context).
 
 #### - pData [in, out]
 
-A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_lock2.md">D3DDDICB_LOCK2</a> structure that describes the allocation to lock.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn894601">D3DDDICB_LOCK2</a> structure that describes the allocation to lock.
 
 
 ## -returns
@@ -121,10 +107,10 @@ Synchronization of other lock types (not no-overwrite or discard)
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_lock2.md">D3DDDICB_LOCK2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn894601">D3DDDICB_LOCK2</a>
  
 
  

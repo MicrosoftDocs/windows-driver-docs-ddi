@@ -52,17 +52,6 @@ req.typenames: TOKEN_TYPE
 The <b>MmFlushImageSection</b> routine flushes the image section for a file.
 
 
-## -syntax
-
-
-````
-BOOLEAN MmFlushImageSection(
-  _In_ PSECTION_OBJECT_POINTERS SectionPointer,
-  _In_ MMFLUSH_TYPE             FlushType
-);
-````
-
-
 ## -parameters
 
 
@@ -141,10 +130,10 @@ Before using <b>MmFlushImageSection</b>, file system writers are strongly encour
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-ccpurgecachesection.md">CcPurgeCacheSection</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539188">CcPurgeCacheSection</a>
  
 
  

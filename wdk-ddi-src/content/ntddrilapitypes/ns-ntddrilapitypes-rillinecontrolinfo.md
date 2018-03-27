@@ -52,21 +52,6 @@ req.typenames: RILLINECONTROLINFO, *LPRILLINECONTROLINFO
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef struct _RILLINECONTROLINFO {
-  DWORD  cbSize;
-  DWORD  dwExecutor;
-  BOOL   fPolarityIncluded;
-  BOOL   fToggleMode;
-  BOOL   fReversePolarity;
-  DWORD  dwPowerDenialTime;
-} RILLINECONTROLINFO, RILLINECONTROLINFO;
-````
-
-
 ## -struct-fields
 
 

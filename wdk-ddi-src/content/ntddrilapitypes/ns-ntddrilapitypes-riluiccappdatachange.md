@@ -52,18 +52,6 @@ req.typenames: RILUICCAPPDATACHANGE, *LPRILUICCAPPDATACHANGE
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef struct _RILUICCAPPDATACHANGE {
-  DWORD                     cbSize;
-  HUICCAPP                  hUiccApp;
-  RILUICCAPPDATACHANGEENUM  dwDataChange;
-} RILUICCAPPDATACHANGE, RILUICCAPPDATACHANGE;
-````
-
-
 ## -struct-fields
 
 

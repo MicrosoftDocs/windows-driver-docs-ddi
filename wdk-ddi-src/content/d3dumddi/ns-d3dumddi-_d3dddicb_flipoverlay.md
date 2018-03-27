@@ -52,19 +52,6 @@ req.typenames: D3DDDICB_FLIPOVERLAY
 The D3DDDICB_FLIPOVERLAY structure describes a new allocation to display for the overlay. 
 
 
-## -syntax
-
-
-````
-typedef struct _D3DDDICB_FLIPOVERLAY {
-  D3DKMT_HANDLE hKernelOverlay;
-  D3DKMT_HANDLE hSource;
-  VOID          *pPrivateDriverData;
-  UINT          PrivateDriverDataSize;
-} D3DDDICB_FLIPOVERLAY;
-````
-
-
 ## -struct-fields
 
 
@@ -72,7 +59,7 @@ typedef struct _D3DDDICB_FLIPOVERLAY {
 
 ### -field hKernelOverlay
 
-[in] A D3DKMT_HANDLE data type that represents the kernel-mode handle that is returned by the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createoverlaycb.md">pfnCreateOverlayCb</a> function and that identifies the kernel-mode overlay object to be flipped.
+[in] A D3DKMT_HANDLE data type that represents the kernel-mode handle that is returned by the <a href="https://msdn.microsoft.com/fbd5b3af-0963-4e41-8be3-41e3e1ecf8bc">pfnCreateOverlayCb</a> function and that identifies the kernel-mode overlay object to be flipped.
 
 
 ### -field hSource
@@ -92,14 +79,14 @@ typedef struct _D3DDDICB_FLIPOVERLAY {
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_flipoverlaycb.md">pfnFlipOverlayCb</a>
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createoverlaycb.md">pfnCreateOverlayCb</a>
+<a href="https://msdn.microsoft.com/fbd5b3af-0963-4e41-8be3-41e3e1ecf8bc">pfnCreateOverlayCb</a>
 
 
 
+<a href="https://msdn.microsoft.com/91e4876a-82c0-4e74-84c8-4b7a6abe0756">pfnFlipOverlayCb</a>
  
 
  

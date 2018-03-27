@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -50,21 +50,6 @@ req.product: Windows 10 or later.
 ## -description
 
 
-
-
-## -syntax
-
-
-````
-PBYTE APIENTRY OEMImageProcessing(
-   PDEVOBJ           pdevobj,
-   PBYTE             pSrcBitmap,
-   PBITMAPINFOHEADER pBitmapInfoHeader,
-   PBYTE             pColorTable,
-   DWORD             dwCallbackID,
-   PIPPARAMS         pIPParams
-);
-````
 
 
 ## -parameters

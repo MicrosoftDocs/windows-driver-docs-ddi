@@ -52,20 +52,6 @@ req.typenames: DXVA_ProcAmpControlCaps, *LPDXVA_ProcAmpControlCaps
 The DXVA_ProcAmpControlCaps structure identifies the ProcAmp operations that the hardware supports.
 
 
-## -syntax
-
-
-````
-typedef struct _DXVA_ProcAmpControlCaps {
-  DWORD     Size;
-  DWORD     InputPool;
-  D3DFORMAT d3dOutputFormat;
-  DWORD     ProcAmpControlProps;
-  DWORD     VideoProcessingCaps;
-} DXVA_ProcAmpControlCaps, *LPDXVA_ProcAmpControlCaps;
-````
-
-
 ## -struct-fields
 
 
@@ -83,7 +69,7 @@ Indicates the memory pool from which the ProcAmp control source surfaces should 
 
 ### -field d3dOutputFormat
 
-Indicates the Direct3D surface format of the output frames. Usually the ProcAmp device outputs frames in a surface format that matches the input surface format. This member ensures that the <a href="https://msdn.microsoft.com/a1de1905-09f3-4689-ace9-06690a1f930a">VMR</a> or other video renderer is able to supply the correct format for the output frame surfaces to the ProcAmp control hardware. If the <b>DXVA_VideoProcess_YUV2RGB</b> flag is returned in the <a href="..\dxva\ne-dxva-_dxva_videoprocesscaps.md">DXVA_VideoProcessCaps</a> structure, the VMR assumes that valid output formats are specified by this member as well as the RGB32 format.
+Indicates the Direct3D surface format of the output frames. Usually the ProcAmp device outputs frames in a surface format that matches the input surface format. This member ensures that the <a href="https://msdn.microsoft.com/a1de1905-09f3-4689-ace9-06690a1f930a">VMR</a> or other video renderer is able to supply the correct format for the output frame surfaces to the ProcAmp control hardware. If the <b>DXVA_VideoProcess_YUV2RGB</b> flag is returned in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff564076">DXVA_VideoProcessCaps</a> structure, the VMR assumes that valid output formats are specified by this member as well as the RGB32 format.
 
 
 ### -field ProcAmpControlProps
@@ -214,14 +200,14 @@ Indicates that the VMR will not perform a buffer copy when an alpha value is cha
 
 ## -see-also
 
-<a href="..\dxva\ne-dxva-_dxva_videoprocesscaps.md">DXVA_VideoProcessCaps</a>
 
 
 
-<a href="..\dxva\ne-dxva-_dxva_procampcontrolprop.md">DXVA_ProcAmpControlProp</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564027">DXVA_ProcAmpControlProp</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564076">DXVA_VideoProcessCaps</a>
  
 
  

@@ -52,18 +52,6 @@ req.typenames: D3D12DDI_VIDEO_USAGE
 A hint for the graphics driver to optimize for different scenarios.
 
 
-## -syntax
-
-
-````
-typedef enum D3D12DDI_VIDEO_USAGE { 
-  D3D12DDI_VIDEO_USAGE_NORMAL  = 0,
-  D3D12DDI_VIDEO_USAGE_POWER   = 1,
-  D3D12_VIDEO_USAGE_QUALITY    = 2
-} D3D12DDI_VIDEO_USAGE;
-````
-
-
 ## -enum-fields
 
 

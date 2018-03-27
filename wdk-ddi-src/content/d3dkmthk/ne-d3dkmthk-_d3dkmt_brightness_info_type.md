@@ -52,25 +52,6 @@ req.typenames: D3DKMT_BRIGHTNESS_INFO_TYPE
 Indicates the type of information to retrieve or set for the brightness of an integrated display panel.
 
 
-## -syntax
-
-
-````
-typedef enum _D3DKMT_BRIGHTNESS_INFO_TYPE { 
-  D3DKMT_BRIGHTNESS_INFO_GET_POSSIBLE_LEVELS  = 1,
-  D3DKMT_BRIGHTNESS_INFO_GET                  = 2,
-  D3DKMT_BRIGHTNESS_INFO_SET                  = 3,
-  D3DKMT_BRIGHTNESS_INFO_GET_CAPS             = 4,
-  D3DKMT_BRIGHTNESS_INFO_SET_STATE            = 5,
-  D3DKMT_BRIGHTNESS_INFO_SET_OPTIMIZATION     = 6,
-  D3DKMT_BRIGHTNESS_INFO_GET_REDUCTION        = 7,
-  D3DKMT_BRIGHTNESS_INFO_BEGIN_MANUAL_MODE    = 8,
-  D3DKMT_BRIGHTNESS_INFO_END_MANUAL_MODE      = 9,
-  D3DKMT_BRIGHTNESS_INFO_TOGGLE_LOGGING       = 10
-} D3DKMT_BRIGHTNESS_INFO_TYPE;
-````
-
-
 ## -enum-fields
 
 

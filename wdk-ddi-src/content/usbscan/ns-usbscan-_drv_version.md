@@ -50,19 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The DRV_VERSION structure is used as a parameter to <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a>, when the specified I/O control code is <a href="..\usbscan\ni-usbscan-ioctl_get_version.md">IOCTL_GET_VERSION</a>.
-
-
-## -syntax
-
-
-````
-typedef struct _DRV_VERSION {
-  unsigned major;
-  unsigned minor;
-  unsigned internal;
-} DRV_VERSION, *PDRV_VERSION;
-````
+The DRV_VERSION structure is used as a parameter to <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a>, when the specified I/O control code is <a href="https://msdn.microsoft.com/library/windows/hardware/ff542866">IOCTL_GET_VERSION</a>.
 
 
 ## -struct-fields

@@ -54,17 +54,6 @@ The WSK_DATA_INDICATION structure describes data that has been received on a con
   socket.
 
 
-## -syntax
-
-
-````
-typedef struct _WSK_DATA_INDICATION {
-  struct _WSK_DATA_INDICATION  *Next;
-  WSK_BUF                     Buffer;
-} WSK_DATA_INDICATION, *PWSK_DATA_INDICATION;
-````
-
-
 ## -struct-fields
 
 
@@ -88,7 +77,7 @@ A WSK_BUF structure that describes the data that has been received on the socket
 
 The WSK subsystem passes a pointer to a WSK_DATA_INDICATION structure as the 
     <i>DataIndication</i> parameter when it calls a connection-oriented socket's 
-    <a href="..\wsk\nc-wsk-pfn_wsk_receive_event.md">WskReceiveEvent</a> event callback
+    <a href="https://msdn.microsoft.com/2a7a7570-ed26-48be-b27b-dc240588ecfc">WskReceiveEvent</a> event callback
     function.
 
 
@@ -96,18 +85,18 @@ The WSK subsystem passes a pointer to a WSK_DATA_INDICATION structure as the
 
 ## -see-also
 
-<a href="..\wsk\nc-wsk-pfn_wsk_release_data_indication_list.md">WskRelease</a>
 
 
 
-<a href="..\wsk\ns-wsk-_wsk_buf.md">WSK_BUF</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571153">WSK_BUF</a>
 
 
 
-<a href="..\wsk\nc-wsk-pfn_wsk_receive_event.md">WskReceiveEvent</a>
+<a href="https://msdn.microsoft.com/2a7a7570-ed26-48be-b27b-dc240588ecfc">WskReceiveEvent</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571144">WskRelease</a>
  
 
  

@@ -54,17 +54,6 @@ Allows the gamma LUT to be set on a path which is identified by the target id.<d
 
 
 
-## -prototype
-
-
-````
-NTSTATUS NTSTATUS DXGKDDI_SETTARGETGAMMA(
-  _In_ const HANDLE                  hAdapter,
-  _In_ const PDXGKARG_SETTARGETGAMMA pSetTargetGammaArg
-);
-````
-
-
 ## -parameters
 
 
@@ -77,7 +66,7 @@ A handle that identifies the adapter.
 
 ### -param pSetTargetGammaArg [in]
 
-A pointer to a <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_settargetgamma.md">DXGKARG_SETTARGETGAMMA</a> structure that provides the target id to be modified and provides the gamma ramp to be set.
+A pointer to a <a href="https://msdn.microsoft.com/94BA40BD-3B56-44EF-BAD4-49556E68C550">DXGKARG_SETTARGETGAMMA</a> structure that provides the target id to be modified and provides the gamma ramp to be set.
 
 
 ## -returns

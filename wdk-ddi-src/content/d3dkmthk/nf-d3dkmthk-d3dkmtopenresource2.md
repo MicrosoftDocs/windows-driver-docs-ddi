@@ -55,16 +55,6 @@ req.typenames: D3DKMT_DRIVERVERSION
 Reserved for system use. Do not use in your driver.
 
 
-## -syntax
-
-
-````
-NTSTATUS D3DKMTOpenResource2(
-  _Inout_ D3DKMT_OPENRESOURCE *pData
-);
-````
-
-
 ## -parameters
 
 

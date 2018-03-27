@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: "<= DISPATCH_LEVEL"
+req.irql: See Remarks section.
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -51,21 +51,6 @@ req.product: Windows 10 or later.
 
 
 The VPOSVERSIONINFO structure contains version information about the currently running operating system.
-
-
-## -syntax
-
-
-````
-typedef struct _VPOSVERSIONINFO {
-  IN ULONG   Size;
-  OUT ULONG  MajorVersion;
-  OUT ULONG  MinorVersion;
-  OUT ULONG  BuildNumber;
-  OUT USHORT ServicePackMajor;
-  OUT USHORT ServicePackMinor;
-} VPOSVERSIONINFO, *PVPOSVERSIONINFO;
-````
 
 
 ## -struct-fields
@@ -109,17 +94,17 @@ Specifies the minor version number of the latest Service Pack installed on the o
 
 This structure is available in Windows XP and later.
 
-To obtain version information about the currently running operating system, a video miniport driver would call the <a href="..\video\nf-video-videoportgetversion.md">VideoPortGetVersion</a> function, which fills in this structure.
+To obtain version information about the currently running operating system, a video miniport driver would call the <a href="https://msdn.microsoft.com/library/windows/hardware/ff570318">VideoPortGetVersion</a> function, which fills in this structure.
 
 
 
 
 ## -see-also
 
-<a href="..\video\nf-video-videoportgetversion.md">VideoPortGetVersion</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570318">VideoPortGetVersion</a>
  
 
  

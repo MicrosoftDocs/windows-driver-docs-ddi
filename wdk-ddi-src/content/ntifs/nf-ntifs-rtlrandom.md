@@ -52,16 +52,6 @@ req.typenames: TOKEN_TYPE
 The <b>RtlRandom</b> routine returns a random number that was generated from a given seed value. 
 
 
-## -syntax
-
-
-````
-ULONG RtlRandom(
-  _Inout_ PULONG Seed
-);
-````
-
-
 ## -parameters
 
 
@@ -94,10 +84,10 @@ The <b>RtlRandomEx</b> function is an improved version of the <b>RtlRandom</b> f
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-rtlrandomex.md">RtlRandomEx</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553181">RtlRandomEx</a>
  
 
  

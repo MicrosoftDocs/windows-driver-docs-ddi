@@ -52,18 +52,6 @@ req.typenames: NDIS_WWAN_REGISTRATION_STATE, *PNDIS_WWAN_REGISTRATION_STATE
 The NDIS_WWAN_REGISTRATION_STATE structure represents the registration state of the MB device.
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_WWAN_REGISTRATION_STATE {
-  NDIS_OBJECT_HEADER      Header;
-  WWAN_STATUS             uStatus;
-  WWAN_REGISTRATION_STATE RegistrationState;
-} NDIS_WWAN_REGISTRATION_STATE, *PNDIS_WWAN_REGISTRATION_STATE;
-````
-
-
 ## -struct-fields
 
 
@@ -117,7 +105,7 @@ sizeof(NDIS_WWAN_REGISTRATION_STATE)
  
 
 For more information about these members, see 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>.
 
 
 ### -field uStatus
@@ -270,20 +258,20 @@ The device is busy and unable to change the registration mode. This scenario can
 ### -field RegistrationState
 
 A formatted 
-     <a href="..\wwan\ns-wwan-_wwan_registration_state.md">WWAN_REGISTRATION_STATE</a> object that
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571231">WWAN_REGISTRATION_STATE</a> object that
      represents the registration state of the MB device.
 
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_registration_state.md">WWAN_REGISTRATION_STATE</a>
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571231">WWAN_REGISTRATION_STATE</a>
  
 
  

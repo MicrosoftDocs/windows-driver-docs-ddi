@@ -56,16 +56,6 @@ req.product: Windows 10 or later.
 The <b>VmbPacketGetChannel</b> function returns the VMBus channel with which a VMBus packet is associated.
 
 
-## -syntax
-
-
-````
-VMBCHANNEL VmbPacketGetChannel(
-  _In_ VMBPACKET PacketObject
-);
-````
-
-
 ## -parameters
 
 

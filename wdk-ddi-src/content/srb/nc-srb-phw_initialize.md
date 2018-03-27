@@ -53,16 +53,6 @@ req.product: Windows 10 or later.
 The PHW_INITIALIZE routine prototype declares a routine that initializes the miniport driver after a reboot or power failure occurs. 
 
 
-## -prototype
-
-
-````
-typedef BOOLEAN (*PHW_INITIALIZE)(
-  _In_ PVOID DeviceExtension 
-);
-````
-
-
 ## -parameters
 
 
@@ -88,23 +78,23 @@ If the operation succeeds, the initialization routine returns <b>TRUE</b>. Other
 
 The initialization routine for both SCSI and StorPort miniport drivers are declared using this prototype. 
 
-For more information about the SCSI miniport driver initialization routine see <a href="..\srb\nc-srb-phw_initialize.md">HwScsiInitialize</a>. 
+For more information about the SCSI miniport driver initialization routine see <a href="https://msdn.microsoft.com/library/windows/hardware/ff557302">HwScsiInitialize</a>. 
 
-For more information about the miniport driver initialization routine that is used with the StorPort driver see <a href="..\storport\nc-storport-hw_initialize.md">HwStorInitialize</a>. 
+For more information about the miniport driver initialization routine that is used with the StorPort driver see <a href="https://msdn.microsoft.com/library/windows/hardware/ff557396">HwStorInitialize</a>. 
 
 
 
 
 ## -see-also
 
-<a href="..\storport\nc-storport-hw_initialize.md">HwStorInitialize</a>
 
 
 
-<a href="..\srb\nc-srb-phw_initialize.md">HwScsiInitialize</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557302">HwScsiInitialize</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557396">HwStorInitialize</a>
  
 
  

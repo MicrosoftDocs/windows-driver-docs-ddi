@@ -56,18 +56,6 @@ The request sends an FCP response to the device. The  request is used in conjunc
 If the protocol driver is being used to control a physical device, the 1394 bus driver determines the node address dynamically, and <b>NodeAddress</b> is not used. 
 
 
-## -syntax
-
-
-````
-typedef struct _FCP_SEND_RESPONSE {
-  NODE_ADDRESS NodeAddress;
-  ULONG        Length;
-  PFCP_FRAME   Frame;
-} FCP_SEND_RESPONSE, *PFCP_SEND_RESPONSE;
-````
-
-
 ## -struct-fields
 
 
@@ -105,10 +93,10 @@ If the protocol driver is unable to allocate resources, it sets <b>Irp-&gt;IoSta
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537008">AV_61883_REQUEST</a>
-
-
-
  
 
  

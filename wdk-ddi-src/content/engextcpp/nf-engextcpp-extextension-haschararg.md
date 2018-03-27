@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: engextcpp.hpp
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -50,16 +50,6 @@ req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
 
 
 The <b>HasCharArg</b> method indicates whether a specified single-character named argument is present in the command line used to invoke the current extension command.
-
-
-## -syntax
-
-
-````
-bool HasCharArg(
-  [in] CHAR Name
-);
-````
 
 
 ## -parameters
@@ -87,7 +77,7 @@ Specifies the name of the argument.
 
 This method will work for all types of named arguments.  In particular, it can be used to detect the presence of a named argument of Boolean type.
 
-This is a convenience method and is restricted to arguments whose name is a single character.  For arguments whose names are longer than a single character, use <a href="..\engextcpp\nf-engextcpp-extextension-hasarg.md">HasArg</a>.
+This is a convenience method and is restricted to arguments whose name is a single character.  For arguments whose names are longer than a single character, use <a href="https://msdn.microsoft.com/library/windows/hardware/ff549721">HasArg</a>.
 
 For an overview of argument parsing in the EngExtCpp extensions framework, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff553340">Parsing Extension Arguments</a>.
 
@@ -98,14 +88,14 @@ This method should only be called during the execution of an extension command p
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543981">ExtExtension</a>
 
 
 
-<a href="..\engextcpp\nf-engextcpp-extextension-hasarg.md">HasArg</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549721">HasArg</a>
  
 
  

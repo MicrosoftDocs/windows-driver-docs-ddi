@@ -52,18 +52,6 @@ req.typenames: D3D12DDI_VIDEO_SCALE_SUPPORT_FLAGS_0022
 Contains the options for video scale support.
 
 
-## -syntax
-
-
-````
-typedef enum D3D12DDI_VIDEO_SCALE_SUPPORT_FLAGS_0022 { 
-  D3D12DDI_VIDEO_SCALE_SUPPORT_FLAG_0020_NONE                  = 0x0,
-  D3D12DDI_VIDEO_SCALE_SUPPORT_FLAG_0022_POW2_ONLY             = 0x1,
-  D3D12DDI_VIDEO_SCALE_SUPPORT_FLAG_0022_EVEN_DIMENSIONS_ONLY  = 0x2
-} D3D12DDI_VIDEO_SCALE_SUPPORT_FLAGS_0022;
-````
-
-
 ## -enum-fields
 
 

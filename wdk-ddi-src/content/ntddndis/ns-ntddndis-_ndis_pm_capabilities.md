@@ -52,32 +52,6 @@ req.typenames: NDIS_PM_CAPABILITIES, *PNDIS_PM_CAPABILITIES
 The <b>NDIS_PM_CAPABILITIES</b> structure specifies power management capabilities of a network adapter.
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_PM_CAPABILITIES {
-  NDIS_OBJECT_HEADER      Header;
-  ULONG                   Flags;
-  ULONG                   SupportedWoLPacketPatterns;
-  ULONG                   NumTotalWoLPatterns;
-  ULONG                   MaxWoLPatternSize;
-  ULONG                   MaxWoLPatternOffset;
-  ULONG                   MaxWoLPacketSaveBuffer;
-  ULONG                   SupportedProtocolOffloads;
-  ULONG                   NumArpOffloadIPv4Addresses;
-  ULONG                   NumNSOffloadIPv6Addresses;
-  NDIS_DEVICE_POWER_STATE MinMagicPacketWakeUp;
-  NDIS_DEVICE_POWER_STATE MinPatternWakeUp;
-  NDIS_DEVICE_POWER_STATE MinLinkChangeWakeUp;
-#if (NDIS_SUPPORT_NDIS630)
-  ULONG                   SupportedWakeUpEvents;
-  ULONG                   MediaSpecificWakeUpEvents;
-#endif 
-} NDIS_PM_CAPABILITIES, *PNDIS_PM_CAPABILITIES;
-````
-
-
 ## -struct-fields
 
 
@@ -85,7 +59,7 @@ typedef struct _NDIS_PM_CAPABILITIES {
 
 ### -field Header
 
-The type, revision, and size of the <b>NDIS_PM_CAPABILITIES</b> structure. This member is formatted as an <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure.
+The type, revision, and size of the <b>NDIS_PM_CAPABILITIES</b> structure. This member is formatted as an <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure.
 
 The miniport driver must set the <b>Type</b> member of <b>Header</b> to NDIS_OBJECT_TYPE_DEFAULT. To specify the version of the <b>NDIS_PM_CAPABILITIES</b> structure, the driver must set the <b>Revision</b> member of <b>Header</b> to the following value: 
 
@@ -126,7 +100,7 @@ If this flag is set, the miniport driver must be able to do the following with t
 
 <ul>
 <li>
-The miniport driver must be able to indicate the packet by calling <a href="..\ndis\nf-ndis-ndismindicatereceivenetbufferlists.md">NdisMIndicateReceiveNetBufferLists</a>.
+The miniport driver must be able to indicate the packet by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff563598">NdisMIndicateReceiveNetBufferLists</a>.
 
 
 
@@ -158,7 +132,7 @@ A ULONG value that contains a bitwise OR of flags that specify the wake-on-LAN (
 
 For more information about this member, see the Remarks section. For more information about WOL
      patterns, see 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_pm_wol_pattern.md">NDIS_PM_WOL_PATTERN</a>.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566768">NDIS_PM_WOL_PATTERN</a>.
 
 
 
@@ -281,7 +255,7 @@ For example, if  your driver supports 8 flexible bitmap patterns, IPv4 TCP SYN (
 <div> </div>
 For more information about WOL
      protocol patterns, see 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_pm_wol_pattern.md">NDIS_PM_WOL_PATTERN</a>.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566768">NDIS_PM_WOL_PATTERN</a>.
 
 
 ### -field MaxWoLPatternSize
@@ -364,7 +338,7 @@ Specifies the lowest device power state from which a network adapter can signal 
 
 <div class="alert"><b>Note</b>  Device power states are specified by a value of D<i>x</i>, where D0 is the highest device power state and D3 is the lowest device power state.</div>
 <div> </div>
-The device power state is specified as one of the following <a href="..\ntddndis\ne-ntddndis-_ndis_device_power_state.md">NDIS_DEVICE_POWER_STATE</a> values:
+The device power state is specified as one of the following <a href="https://msdn.microsoft.com/library/windows/hardware/gg602135">NDIS_DEVICE_POWER_STATE</a> values:
 
 
 
@@ -408,7 +382,7 @@ The network adapter can signal a magic packet wake-up from a device power state 
 
 Specifies the lowest device power state from which a network adapter can signal a wake-up event on receipt of
      a network frame that contains a pattern that is specified by the protocol driver. The power state is
-     specified as one of the following <a href="..\ntddndis\ne-ntddndis-_ndis_device_power_state.md">NDIS_DEVICE_POWER_STATE</a> values:
+     specified as one of the following <a href="https://msdn.microsoft.com/library/windows/hardware/gg602135">NDIS_DEVICE_POWER_STATE</a> values:
      
 
 
@@ -457,7 +431,7 @@ Starting with NDIS 6.20, this member specifies the lowest device power state fro
 Starting with NDIS 6.30, this member specifies the lowest device power state from which a network adapter can signal    wake-up events. These events are specified in the  <b>SupportedWakeUpEvents</b> member.
 
 The power state is specified as one of the
-     following <a href="..\ntddndis\ne-ntddndis-_ndis_device_power_state.md">NDIS_DEVICE_POWER_STATE</a> values:
+     following <a href="https://msdn.microsoft.com/library/windows/hardware/gg602135">NDIS_DEVICE_POWER_STATE</a> values:
      
 
 
@@ -580,9 +554,9 @@ If this flag is set, the MB network adapter can generate a wake-up event if it r
 
 The <b>NDIS_PM_CAPABILITIES</b> structure is used in the 
     <b>PowerManagementCapabilitiesEx</b> member of the 
-    <a href="..\ndis\ns-ndis-_ndis_miniport_adapter_general_attributes.md">
+    <a href="https://msdn.microsoft.com/5423d073-02a5-468b-b91e-713ac67a5253">
     NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES</a> and 
-    <a href="..\ndis\ns-ndis-_ndis_bind_parameters.md">NDIS_BIND_PARAMETERS</a> structures and in
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff564832">NDIS_BIND_PARAMETERS</a> structures and in
     the 
     <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567410">
     NDIS_STATUS_PM_CAPABILITIES_CHANGE</a> status indication.
@@ -613,32 +587,23 @@ The
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndismindicatereceivenetbufferlists.md">NdisMIndicateReceiveNetBufferLists</a>
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_bind_parameters.md">NDIS_BIND_PARAMETERS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564832">NDIS_BIND_PARAMETERS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439808">NDIS_STATUS_PM_WAKE_REASON</a>
-
-
-
-<a href="..\ndis\ns-ndis-_ndis_miniport_adapter_general_attributes.md">
+<a href="https://msdn.microsoft.com/5423d073-02a5-468b-b91e-713ac67a5253">
    NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES</a>
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_pm_wol_pattern.md">NDIS_PM_WOL_PATTERN</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismindicatestatusex.md">NdisMIndicateStatusEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566768">NDIS_PM_WOL_PATTERN</a>
 
 
 
@@ -647,6 +612,15 @@ The
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439808">NDIS_STATUS_PM_WAKE_REASON</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563598">NdisMIndicateReceiveNetBufferLists</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563600">NdisMIndicateStatusEx</a>
  
 
  

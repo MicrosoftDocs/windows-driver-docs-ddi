@@ -52,16 +52,6 @@ req.typenames: TOKEN_TYPE
 The <b>SeUnregisterLogonSessionTerminatedRoutine</b> routine unregisters a callback routine that was registered by an earlier call to <b>SeRegisterLogonSessionTerminatedRoutine</b>.
 
 
-## -syntax
-
-
-````
-NTSTATUS SeUnregisterLogonSessionTerminatedRoutine(
-  _In_ PSE_LOGON_SESSION_TERMINATED_ROUTINE CallbackRoutine
-);
-````
-
-
 ## -parameters
 
 
@@ -135,14 +125,14 @@ For more information about security and access control, see the documentation on
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-seregisterlogonsessionterminatedroutine.md">SeRegisterLogonSessionTerminatedRoutine</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-semarklogonsessionforterminationnotification.md">SeMarkLogonSessionForTerminationNotification</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556679">SeMarkLogonSessionForTerminationNotification</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556702">SeRegisterLogonSessionTerminatedRoutine</a>
  
 
  

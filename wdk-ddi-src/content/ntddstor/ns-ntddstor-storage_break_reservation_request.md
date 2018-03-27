@@ -49,21 +49,7 @@ req.typenames: STORAGE_BREAK_RESERVATION_REQUEST, *PSTORAGE_BREAK_RESERVATION_RE
 ## -description
 
 
-The STORAGE_BREAK_RESERVATION_REQUEST structure is used in conjunction with the <a href="..\ntddstor\ni-ntddstor-ioctl_storage_break_reservation.md">IOCTL_STORAGE_BREAK_RESERVATION</a> request to free a disk resource that was previously reserved. 
-
-
-## -syntax
-
-
-````
-typedef struct STORAGE_BREAK_RESERVATION_REQUEST {
-  ULONG Length;
-  UCHAR _unused;
-  UCHAR PathId;
-  UCHAR TargetId;
-  UCHAR Lun;
-} STORAGE_BREAK_RESERVATION_REQUEST, *PSTORAGE_BREAK_RESERVATION_REQUEST;
-````
+The STORAGE_BREAK_RESERVATION_REQUEST structure is used in conjunction with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560533">IOCTL_STORAGE_BREAK_RESERVATION</a> request to free a disk resource that was previously reserved. 
 
 
 ## -struct-fields
@@ -98,10 +84,10 @@ Contains the logical unit number.
 
 ## -see-also
 
-<a href="..\ntddstor\ni-ntddstor-ioctl_storage_break_reservation.md">IOCTL_STORAGE_BREAK_RESERVATION</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560533">IOCTL_STORAGE_BREAK_RESERVATION</a>
  
 
  

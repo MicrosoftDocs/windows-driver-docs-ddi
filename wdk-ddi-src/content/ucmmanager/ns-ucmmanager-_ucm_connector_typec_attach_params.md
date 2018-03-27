@@ -53,19 +53,6 @@ req.product: Windows 10 or later.
 Describes the partner that is currently attached to the connector.
 
 
-## -syntax
-
-
-````
-typedef struct _UCM_CONNECTOR_TYPEC_ATTACH_PARAMS {
-  ULONG              Size;
-  UCM_TYPEC_PARTNER  PortPartnerType;
-  UCM_TYPEC_CURRENT  CurrentAdvertisement;
-  UCM_CHARGING_STATE ChargingState;
-} UCM_CONNECTOR_TYPEC_ATTACH_PARAMS, *PUCM_CONNECTOR_TYPEC_ATTACH_PARAMS;
-````
-
-
 ## -struct-fields
 
 
@@ -88,29 +75,29 @@ Power sourcing capabilities of: the partner port when <b>PortPartnerType</b> is 
 
 ### -field ChargingState
 
-Optional. Charging state of the port indicated by one of the <a href="..\ucmtypes\ne-ucmtypes-_ucm_charging_state.md">UCM_CHARGING_STATE</a>-typed flags. 
+Optional. Charging state of the port indicated by one of the <a href="https://msdn.microsoft.com/library/windows/hardware/mt187921">UCM_CHARGING_STATE</a>-typed flags. 
 
 
 #### - PortPartnerType
 
-The type of partner attached to the connector, indicated by a <a href="..\ucmtypes\ne-ucmtypes-_ucm_typec_partner.md">UCM_TYPEC_PARTNER</a> value.
+The type of partner attached to the connector, indicated by a <a href="https://msdn.microsoft.com/library/windows/hardware/mt187947">UCM_TYPEC_PARTNER</a> value.
 
 
 ## -remarks
 
 
 
-Initialize this structure by calling <a href="..\ucmmanager\nf-ucmmanager-ucm_connector_typec_attach_params_init.md">UCM_CONNECTOR_TYPEC_ATTACH_PARAMS_INIT</a>. An initialized <b>UCM_CONNECTOR_TYPEC_ATTACH_PARAMS</b> structure is an input parameter value to <a href="..\ucmmanager\nf-ucmmanager-ucmconnectortypecattach.md">UcmConnectorTypeCAttach</a> that is used by the client driver to notify UcmCx about the Attached state of the port.
+Initialize this structure by calling <a href="https://msdn.microsoft.com/library/windows/hardware/mt187929">UCM_CONNECTOR_TYPEC_ATTACH_PARAMS_INIT</a>. An initialized <b>UCM_CONNECTOR_TYPEC_ATTACH_PARAMS</b> structure is an input parameter value to <a href="https://msdn.microsoft.com/library/windows/hardware/mt187915">UcmConnectorTypeCAttach</a> that is used by the client driver to notify UcmCx about the Attached state of the port.
 
 
 
 
 ## -see-also
 
-<a href="..\ucmmanager\nf-ucmmanager-ucmconnectortypecattach.md">UcmConnectorTypeCAttach</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt187915">UcmConnectorTypeCAttach</a>
  
 
  

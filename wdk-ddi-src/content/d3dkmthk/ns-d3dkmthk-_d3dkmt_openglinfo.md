@@ -52,18 +52,6 @@ req.typenames: D3DKMT_OPENGLINFO
 The D3DKMT_OPENGLINFO structure describes OpenGL installable client driver (ICD) information.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DKMT_OPENGLINFO {
-  WCHAR UmdOpenGlIcdFileName[MAX_PATH];
-  ULONG Version;
-  ULONG Flags;
-} D3DKMT_OPENGLINFO;
-````
-
-
 ## -struct-fields
 
 
@@ -86,14 +74,14 @@ typedef struct _D3DKMT_OPENGLINFO {
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_queryadapterinfo.md">D3DKMT_QUERYADAPTERINFO</a>
 
 
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtqueryadapterinfo.md">D3DKMTQueryAdapterInfo</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547100">D3DKMTQueryAdapterInfo</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548203">D3DKMT_QUERYADAPTERINFO</a>
  
 
  

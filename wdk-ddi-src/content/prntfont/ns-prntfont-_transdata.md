@@ -53,22 +53,6 @@ req.product: Windows 10 or later.
 The TRANSDATA structure is one of the structures used to define the contents of <a href="https://msdn.microsoft.com/6e643703-ace1-4660-990c-3a9ca735829d">glyph translation table files</a> (.gtt files).
 
 
-## -syntax
-
-
-````
-typedef struct _TRANSDATA {
-  BYTE  ubCodePageID;
-  BYTE  ubType;
-  union {
-    SHORT sCode;
-    BYTE  ubCode;
-    BYTE  ubPairs[2];
-  } uCode;
-} TRANSDATA, *PTRANSDATA;
-````
-
-
 ## -struct-fields
 
 
@@ -76,9 +60,9 @@ typedef struct _TRANSDATA {
 
 ### -field ubCodePageID
 
-Specifies the zero-based index of a particular structure in the array of <a href="..\prntfont\ns-prntfont-_uni_codepageinfo.md">UNI_CODEPAGEINFO</a> structures. The first structure in this array has an index of 0, the second structure has an index of 1, and so on.
+Specifies the zero-based index of a particular structure in the array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff563596">UNI_CODEPAGEINFO</a> structures. The first structure in this array has an index of 0, the second structure has an index of 1, and so on.
 
-The <b>loCodePageOffset</b> member of the <a href="..\prntfont\ns-prntfont-_uni_glyphsetdata.md">UNI_GLYPHSETDATA</a> structure contains the offset from the beginning of the UNI_GLYPHSETDATA structure to the beginning of the array of UNI_CODEPAGEINFO structures.
+The <b>loCodePageOffset</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563597">UNI_GLYPHSETDATA</a> structure contains the offset from the beginning of the UNI_GLYPHSETDATA structure to the beginning of the array of UNI_CODEPAGEINFO structures.
 
 
 ### -field ubType
@@ -139,7 +123,7 @@ The <b>ubPairs</b> member of the <b>uCode</b> union contains a two-byte characte
 
 </td>
 <td>
-One of the following flags can be set. All are optional. Not valid if the <b>lPredefinedID</b> member of the <a href="..\prntfont\ns-prntfont-_uni_glyphsetdata.md">UNI_GLYPHSETDATA</a> structure is set to CC_NOPRECNV.
+One of the following flags can be set. All are optional. Not valid if the <b>lPredefinedID</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563597">UNI_GLYPHSETDATA</a> structure is set to CC_NOPRECNV.
 
 </td>
 </tr>
@@ -161,7 +145,7 @@ MTYPE_DISABLE
 
 </td>
 <td>
-The specified mapping, contained in the .gtt file specified by the <b>lPredefinedID</b> member of the <a href="..\prntfont\ns-prntfont-_uni_glyphsetdata.md">UNI_GLYPHSETDATA</a> structure, is disabled.
+The specified mapping, contained in the .gtt file specified by the <b>lPredefinedID</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563597">UNI_GLYPHSETDATA</a> structure, is disabled.
 
 </td>
 </tr>
@@ -218,7 +202,7 @@ Character data is double-byte.
 
 #### sCode
 
-Specifies the offset to a command string. The offset is relative to the beginning of the <a href="..\prntfont\ns-prntfont-_maptable.md">MAPTABLE</a> structure containing the TRANSDATA array. The first word of the command string must be the command size. Valid if the MTYPE_COMPOSE flag is set in <b>uType</b>.
+Specifies the offset to a command string. The offset is relative to the beginning of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556509">MAPTABLE</a> structure containing the TRANSDATA array. The first word of the command string must be the command size. Valid if the MTYPE_COMPOSE flag is set in <b>uType</b>.
 
 
 
@@ -237,25 +221,25 @@ Specifies a two-byte character code. Valid if the MTYPE_PAIRED flag is set in <b
 
 
 
-A .gtt file's TRANSDATA structure array, which contains glyph mapping information, is contained in the file's <a href="..\prntfont\ns-prntfont-_maptable.md">MAPTABLE</a> structure.
+A .gtt file's TRANSDATA structure array, which contains glyph mapping information, is contained in the file's <a href="https://msdn.microsoft.com/library/windows/hardware/ff556509">MAPTABLE</a> structure.
 
 
 
 
 ## -see-also
 
-<a href="..\prntfont\ns-prntfont-_maptable.md">MAPTABLE</a>
 
 
 
-<a href="..\prntfont\ns-prntfont-_uni_glyphsetdata.md">UNI_GLYPHSETDATA</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556509">MAPTABLE</a>
 
 
 
-<a href="..\prntfont\ns-prntfont-_uni_codepageinfo.md">UNI_CODEPAGEINFO</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563596">UNI_CODEPAGEINFO</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563597">UNI_GLYPHSETDATA</a>
  
 
  

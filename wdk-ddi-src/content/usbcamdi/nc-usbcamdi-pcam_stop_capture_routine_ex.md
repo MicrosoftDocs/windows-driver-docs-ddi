@@ -53,21 +53,6 @@ req.product: Windows 10 or later.
 A camera minidriver's <b>CamStopCaptureEx</b> callback function performs any processing after the stream is stopped.
 
 
-## -prototype
-
-
-````
-PCAM_STOP_CAPTURE_ROUTINE_EX CamStopCaptureEx;
-
-NTSTATUS CamStopCaptureEx(
-   PDEVICE_OBJECT BusDeviceObject,
-   PVOID          DeviceContext,
-   ULONG          StreamNumber
-)
-{ ... }
-````
-
-
 ## -parameters
 
 

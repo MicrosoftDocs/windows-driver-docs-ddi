@@ -52,22 +52,6 @@ req.typenames: D3DKMT_GDIMODEL_PRESENTHISTORYTOKEN
 The D3DKMT_GDIMODEL_PRESENTHISTORYTOKEN structure identifies a GDI present-history operation.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DKMT_GDIMODEL_PRESENTHISTORYTOKEN {
-  ULONG64             hLogicalSurface;
-  ULONG64             hPhysicalSurface;
-#if (DXGKDDI_INTERFACE_VERSION >= DXGKDDI_INTERFACE_VERSION_WIN8)
-  RECT                ScrollRect;
-  POINT               ScrollOffset;
-#endif 
-  D3DKMT_DIRTYREGIONS DirtyRegions;
-} D3DKMT_GDIMODEL_PRESENTHISTORYTOKEN;
-````
-
-
 ## -struct-fields
 
 
@@ -99,19 +83,19 @@ Supported starting with Windows 8.
 
 ### -field DirtyRegions
 
-[in] A <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_dirtyregions.md">D3DKMT_DIRTYREGIONS</a> structure that identifies the active rectangles (dirty regions) of the GDI surface. 
+[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff547937">D3DKMT_DIRTYREGIONS</a> structure that identifies the active rectangles (dirty regions) of the GDI surface. 
 
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_dirtyregions.md">D3DKMT_DIRTYREGIONS</a>
 
 
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_presenthistorytoken.md">D3DKMT_PRESENTHISTORYTOKEN</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547937">D3DKMT_DIRTYREGIONS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548188">D3DKMT_PRESENTHISTORYTOKEN</a>
  
 
  

@@ -53,20 +53,6 @@ The NDIS_NET_BUFFER_LIST_MEDIA_SPECIFIC_INFO structure specifies media-specific 
     reserved for system use with native 802.11 drivers. Do not use this structure.
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_NET_BUFFER_LIST_MEDIA_SPECIFIC_INFO {
-  union {
-    PVOID MediaSpecificInfo;
-    PVOID NativeWifiSpecificInfo;
-    PVOID Value;
-  };
-} NDIS_NET_BUFFER_LIST_MEDIA_SPECIFIC_INFO, *PNDIS_NET_BUFFER_LIST_MEDIA_SPECIFIC_INFO;
-````
-
-
 ## -struct-fields
 
 

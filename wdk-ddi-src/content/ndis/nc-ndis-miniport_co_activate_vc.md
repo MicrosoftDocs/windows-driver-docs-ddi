@@ -56,20 +56,6 @@ The
 <div class="alert"><b>Note</b>  You must declare the function by using the <b>MINIPORT_CO_ACTIVATE_VC</b> type. For more
    information, see the following Examples section.</div><div> </div>
 
-## -prototype
-
-
-````
-MINIPORT_CO_ACTIVATE_VC MiniportCoActivateVc;
-
-NDIS_STATUS MiniportCoActivateVc(
-  _In_    NDIS_HANDLE         MiniportVcContext,
-  _Inout_ PCO_CALL_PARAMETERS CallParameters
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -118,7 +104,7 @@ Indicates that the VC was activated successfully.
 <td width="60%">
 Indicates that the miniport driver will complete the request to activate a VC asynchronously.
        When the miniport driver has finished with its operations, it must call 
-       <a href="..\ndis\nf-ndis-ndismcoactivatevccomplete.md">
+       <a href="https://msdn.microsoft.com/db5ff69f-dcae-4016-a078-c8edb2390c6c">
        NdisMCoActivateVcComplete</a>.
 
 </td>
@@ -226,18 +212,18 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-miniport_co_create_vc.md">MiniportCoCreateVc</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndismcoactivatevccomplete.md">NdisMCoActivateVcComplete</a>
+<a href="https://msdn.microsoft.com/99eaba29-ce17-4e79-878e-5fdf7411e56c">MiniportCoCreateVc</a>
 
 
 
-<a href="..\ndis\nc-ndis-miniport_co_deactivate_vc.md">MiniportCoDeactivateVc</a>
+<a href="https://msdn.microsoft.com/8c17cec8-d161-47cf-b886-bb8b8d957656">MiniportCoDeactivateVc</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563558">NdisMCoActivateVcComplete</a>
  
 
  

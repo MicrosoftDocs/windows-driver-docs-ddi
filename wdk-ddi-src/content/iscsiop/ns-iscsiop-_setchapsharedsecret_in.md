@@ -52,17 +52,6 @@ req.typenames: SetCHAPSharedSecret_IN, *PSetCHAPSharedSecret_IN
 The SetCHAPSharedSecret_IN structure holds the input data for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565585">SetCHAPSharedSecret</a> method.
 
 
-## -syntax
-
-
-````
-typedef struct _SetCHAPSharedSecret_IN {
-  ULONG SharedSecretSize;
-  UCHAR SharedSecret[1];
-} SetCHAPSharedSecret_IN, *PSetCHAPSharedSecret_IN;
-````
-
-
 ## -struct-fields
 
 
@@ -89,14 +78,14 @@ You must implement this method.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565585">SetCHAPSharedSecret</a>
 
 
 
-<a href="..\iscsiop\ns-iscsiop-_setchapsharedsecret_out.md">SetCHAPSharedSecret_OUT</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565600">SetCHAPSharedSecret_OUT</a>
  
 
  

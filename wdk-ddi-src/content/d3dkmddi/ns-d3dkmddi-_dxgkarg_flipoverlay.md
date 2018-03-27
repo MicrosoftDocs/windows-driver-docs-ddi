@@ -52,20 +52,6 @@ req.typenames: DXGKARG_FLIPOVERLAY
 The DXGKARG_FLIPOVERLAY structure describes a new allocation to display for the overlay. 
 
 
-## -syntax
-
-
-````
-typedef struct _DXGKARG_FLIPOVERLAY {
-  HANDLE           hSource;
-  PHYSICAL_ADDRESS SrcPhysicalAddress;
-  UINT             SrcSegmentId;
-  VOID             *pPrivateDriverData;
-  UINT             PrivateDriverDataSize;
-} DXGKARG_FLIPOVERLAY;
-````
-
-
 ## -struct-fields
 
 
@@ -98,10 +84,10 @@ typedef struct _DXGKARG_FLIPOVERLAY {
 
 ## -see-also
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_flipoverlay.md">DxgkDdiFlipOverlay</a>
 
 
 
+<a href="https://msdn.microsoft.com/9e35a48b-1741-4ee2-8e15-6ce51ad4c0ad">DxgkDdiFlipOverlay</a>
  
 
  

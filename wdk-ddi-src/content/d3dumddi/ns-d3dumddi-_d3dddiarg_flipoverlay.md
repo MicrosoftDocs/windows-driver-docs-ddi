@@ -52,19 +52,6 @@ req.typenames: D3DDDIARG_FLIPOVERLAY
 The D3DDDIARG_FLIPOVERLAY structure describes a new resource to display on a given overlay. 
 
 
-## -syntax
-
-
-````
-typedef struct _D3DDDIARG_FLIPOVERLAY {
-  HANDLE                  hOverlay;
-  HANDLE                  hSource;
-  UINT                    SourceIndex;
-  D3DDDI_FLIPOVERLAYFLAGS Flags;
-} D3DDDIARG_FLIPOVERLAY;
-````
-
-
 ## -struct-fields
 
 
@@ -87,19 +74,19 @@ typedef struct _D3DDDIARG_FLIPOVERLAY {
 
 ### -field Flags
 
-[in] A <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_flipoverlayflags.md">D3DDDI_FLIPOVERLAYFLAGS</a> structure that indicates, in bit-field flags, how to flip the resource.
+[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff544559">D3DDDI_FLIPOVERLAYFLAGS</a> structure that indicates, in bit-field flags, how to flip the resource.
 
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_flipoverlay.md">FlipOverlay</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_flipoverlayflags.md">D3DDDI_FLIPOVERLAYFLAGS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544559">D3DDDI_FLIPOVERLAYFLAGS</a>
 
 
 
+<a href="https://msdn.microsoft.com/8490ebdd-f993-4c77-b6da-d57ef5e5d05f">FlipOverlay</a>
  
 
  

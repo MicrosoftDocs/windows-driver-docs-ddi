@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,18 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>wiauStrW2C</b> function converts a Unicode string to an ANSI character string.
-
-
-## -syntax
-
-
-````
-HRESULT _stdcall wiauStrW2C(
-  _In_  WCHAR *pwszSrc,
-  _Out_ CHAR  *pszDst,
-        INT   iSize
-);
-````
 
 
 ## -parameters
@@ -96,18 +84,18 @@ On success, the function returns S_OK. If the function fails, it returns a stand
 
 ## -see-also
 
-<a href="..\wiautil\nf-wiautil-wiaustrc2c.md">wiauStrC2C</a>
 
 
 
-<a href="..\wiautil\nf-wiautil-wiaustrw2w.md">wiauStrW2W</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550183">wiauStrC2C</a>
 
 
 
-<a href="..\wiautil\nf-wiautil-wiaustrc2w.md">wiauStrC2W</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550186">wiauStrC2W</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550189">wiauStrW2W</a>
  
 
  

@@ -52,16 +52,6 @@ req.typenames: D3DDDI_FRAMELATENCYESCAPE
 Specifies an app's maximum frame latency.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DDDI_FRAMELATENCYESCAPE {
-  UINT RequestedLatency;
-} D3DDDI_FRAMELATENCYESCAPE;
-````
-
-
 ## -struct-fields
 
 

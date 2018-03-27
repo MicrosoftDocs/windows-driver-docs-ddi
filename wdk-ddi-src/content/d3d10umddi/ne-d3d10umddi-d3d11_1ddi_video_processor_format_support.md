@@ -52,17 +52,6 @@ req.typenames: D3D11_1DDI_VIDEO_PROCESSOR_FORMAT_SUPPORT
 Specifies how a video format can be used for video processing.
 
 
-## -syntax
-
-
-````
-typedef enum D3D11_1DDI_VIDEO_PROCESSOR_FORMAT_SUPPORT { 
-  D3D11_1DDI_VIDEO_PROCESSOR_FORMAT_SUPPORT_INPUT   = 0x00000001,
-  D3D11_1DDI_VIDEO_PROCESSOR_FORMAT_SUPPORT_OUTPUT  = 0x00000002
-} D3D11_1DDI_VIDEO_PROCESSOR_FORMAT_SUPPORT;
-````
-
-
 ## -enum-fields
 
 

@@ -54,37 +54,21 @@ Specifies whether an input stream on the video processor contains interlaced or 
 
 
 
-## -prototype
-
-
-````
-PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMFRAMEFORMAT pfnVideoProcessorSetStreamFrameFormat;
-
-VOID APIENTRY* pfnVideoProcessorSetStreamFrameFormat(
-  _In_ D3D10DDI_HDEVICE              hDevice,
-  _In_ D3D11_1DDI_HVIDEOPROCESSOR    hVideoProcessor,
-  _In_ UINT                          StreamIndex,
-  _In_ D3D11_1DDI_VIDEO_FRAME_FORMAT Format
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
 
 
-### -param D3D10DDI_HDEVICE
+### -param Arg1
 
 
-### -param D3D11_1DDI_HVIDEOPROCESSOR
+### -param Arg2
 
 
-### -param UINT
+### -param Arg3
 
 
-### -param D3D11_1DDI_VIDEO_FRAME_FORMAT
+### -param Arg4
 
 
 
@@ -95,7 +79,7 @@ VOID APIENTRY* pfnVideoProcessorSetStreamFrameFormat(
 
 #### - Format [in]
 
-A <a href="..\d3d10umddi\ne-d3d10umddi-d3d11_1ddi_video_frame_format.md">D3D11_1DDI_VIDEO_FRAME_FORMAT</a> value that specifies the frame format.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/hh450954">D3D11_1DDI_VIDEO_FRAME_FORMAT</a> value that specifies the frame format.
 
 
 
@@ -114,7 +98,7 @@ A handle to the display device (graphics context).
 
 #### - hVideoProcessor [in]
 
-A handle to the video processor object that was created through a call to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessor.md">CreateVideoProcessor</a> function. 
+A handle to the video processor object that was created through a call to the <a href="https://msdn.microsoft.com/741045a2-0a91-490a-907d-5f4900a4a0ae">CreateVideoProcessor</a> function. 
 
 
 
@@ -130,14 +114,14 @@ This callback function does not return a value.
 
 ## -see-also
 
-<a href="..\d3d10umddi\ne-d3d10umddi-d3d11_1ddi_video_frame_format.md">D3D11_1DDI_VIDEO_FRAME_FORMAT</a>
 
 
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessor.md">CreateVideoProcessor</a>
+<a href="https://msdn.microsoft.com/741045a2-0a91-490a-907d-5f4900a4a0ae">CreateVideoProcessor</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450954">D3D11_1DDI_VIDEO_FRAME_FORMAT</a>
  
 
  

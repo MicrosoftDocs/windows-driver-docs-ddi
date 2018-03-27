@@ -52,20 +52,6 @@ req.typenames: NDIS_SWITCH_NIC_STATE
 The <b>NDIS_SWITCH_NIC_STATE</b> enumeration specifies the current state of the Hyper-V extensible switch network adapter. 
 
 
-## -syntax
-
-
-````
-typedef enum _NDIS_SWITCH_NIC_STATE { 
-  NdisSwitchNicStateUnknown       = 0,
-  NdisSwitchNicStateCreated       = 1,
-  NdisSwitchNicStateConnected     = 2,
-  NdisSwitchNicStateDisconnected  = 3,
-  NdisSwitchNicStateDeleted       = 4
-} NDIS_SWITCH_NIC_STATE;
-````
-
-
 ## -enum-fields
 
 
@@ -100,7 +86,7 @@ This value specifies that the NIC is deleted.
 
 
 
-The <b>NicState</b>  member of the <a href="..\ntddndis\ns-ntddndis-_ndis_switch_nic_parameters.md">NDIS_SWITCH_NIC_PARAMETERS</a> structure is an <b>NDIS_SWITCH_NIC_STATE</b> enumeration data type. 
+The <b>NicState</b>  member of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh598215">NDIS_SWITCH_NIC_PARAMETERS</a> structure is an <b>NDIS_SWITCH_NIC_STATE</b> enumeration data type. 
 
 
 For more information about extensible switch port states, see <a href="https://msdn.microsoft.com/61403FDE-90BF-4D0A-83E1-5AF8ADBD37A5">Overview of Hyper-V Extensible Switch Network Adapters</a>.
@@ -110,10 +96,10 @@ For more information about extensible switch port states, see <a href="https://m
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_switch_nic_parameters.md">NDIS_SWITCH_NIC_PARAMETERS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh598215">NDIS_SWITCH_NIC_PARAMETERS</a>
  
 
  

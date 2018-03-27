@@ -53,17 +53,6 @@ req.typenames: TOKEN_TYPE
 The <b>RtlEqualSid</b> routine determines whether two security identifier (SID) values are equal. Two SIDs must match exactly to be considered equal. 
 
 
-## -syntax
-
-
-````
-BOOLEAN RtlEqualSid(
-  _In_ PSID Sid1,
-  _In_ PSID Sid2
-);
-````
-
-
 ## -parameters
 
 
@@ -99,22 +88,22 @@ For more information about security and access control, see the documentation on
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-rtlequalprefixsid.md">RtlEqualPrefixSid</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-rtlvalidsid.md">RtlValidSid</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552146">RtlCopySid</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-rtlcopysid.md">RtlCopySid</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552256">RtlEqualPrefixSid</a>
 
 
 
-<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553314">RtlValidSid</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556740">SID</a>
  
 
  

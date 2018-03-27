@@ -49,18 +49,7 @@ req.typenames: CDROM_PERFORMANCE_TYPE, *PCDROM_PERFORMANCE_TYPE
 ## -description
 
 
-The <b>CDROM_PERFORMANCE_TYPE</b> enumeration defines the read and write performance data requests. It is a member of the <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_performance_request.md">CDROM_PERFORMANCE_REQUEST</a> structure, which is used as an input parameter to the  <a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_get_performance.md">IOCTL_CDROM_GET_PERFORMANCE</a> I/O control request. 
-
-
-## -syntax
-
-
-````
-typedef enum _CDROM_PERFORMANCE_TYPE { 
-  CdromReadPerformance     = 1,
-    CdromWritePerformance  = 2
-} CDROM_PERFORMANCE_TYPE, *PCDROM_PERFORMANCE_TYPE;
-````
+The <b>CDROM_PERFORMANCE_TYPE</b> enumeration defines the read and write performance data requests. It is a member of the <a href="https://msdn.microsoft.com/library/windows/hardware/gg441233">CDROM_PERFORMANCE_REQUEST</a> structure, which is used as an input parameter to the  <a href="https://msdn.microsoft.com/library/windows/hardware/gg441242">IOCTL_CDROM_GET_PERFORMANCE</a> I/O control request. 
 
 
 ## -enum-fields
@@ -80,14 +69,14 @@ Requests streaming write performance data.
 
 ## -see-also
 
-<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_performance_request.md">CDROM_PERFORMANCE_REQUEST</a>
 
 
 
-<a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_get_performance.md">IOCTL_CDROM_GET_PERFORMANCE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/gg441233">CDROM_PERFORMANCE_REQUEST</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/gg441242">IOCTL_CDROM_GET_PERFORMANCE</a>
  
 
  

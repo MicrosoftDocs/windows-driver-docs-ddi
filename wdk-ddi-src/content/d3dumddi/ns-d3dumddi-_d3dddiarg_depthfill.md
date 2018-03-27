@@ -52,19 +52,6 @@ req.typenames: D3DDDIARG_DEPTHFILL
 The D3DDDIARG_DEPTHFILL structure describes the parameters of a depth-fill operation. 
 
 
-## -syntax
-
-
-````
-typedef struct _D3DDDIARG_DEPTHFILL {
-  HANDLE hResource;
-  UINT   SubResourceIndex;
-  RECT   DstRect;
-  UINT   Depth;
-} D3DDDIARG_DEPTHFILL;
-````
-
-
 ## -struct-fields
 
 
@@ -92,14 +79,14 @@ A pixel value that is specified in native format for the fill depth.
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/fc889cc0-d71d-4a81-8fa5-894c676ac110">DepthFill</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569236">RECTL</a>
-
-
-
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_depthfill.md">DepthFill</a>
-
-
-
  
 
  

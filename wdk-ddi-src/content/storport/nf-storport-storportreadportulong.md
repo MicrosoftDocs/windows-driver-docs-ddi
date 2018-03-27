@@ -54,17 +54,6 @@ req.product: Windows 10 or later.
 The <b>StorPortReadPortUlong</b> routine reads a value from a specified port address. 
 
 
-## -syntax
-
-
-````
-STORPORT_API ULONG StorPortReadPortUlong(
-  _In_ PVOID  HwDeviceExtension,
-  _In_ PULONG Port
-);
-````
-
-
 ## -parameters
 
 
@@ -98,21 +87,21 @@ Pointer to the address from which to read.
 
 
 
-For more information, see the <a href="..\storport\nf-storport-scsiportreadportulong.md">ScsiPortReadPortUlong</a> routine. For a buffered version of this routine see <a href="..\storport\nf-storport-storportreadportbufferulong.md">StorPortReadPortBufferUlong</a>.
+For more information, see the <a href="https://msdn.microsoft.com/library/windows/hardware/ff564729">ScsiPortReadPortUlong</a> routine. For a buffered version of this routine see <a href="https://msdn.microsoft.com/library/windows/hardware/ff567471">StorPortReadPortBufferUlong</a>.
 
 
 
 
 ## -see-also
 
-<a href="..\storport\nf-storport-scsiportreadportbufferulong.md">ScsiPortReadPortBufferUlong</a>
 
 
 
-<a href="..\storport\nf-storport-storportreadportulong.md">StorPortReadPortUlong</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564718">ScsiPortReadPortBufferUlong</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567475">StorPortReadPortUlong</a>
  
 
  

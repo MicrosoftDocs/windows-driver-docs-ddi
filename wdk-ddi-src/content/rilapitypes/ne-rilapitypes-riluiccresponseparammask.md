@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,19 +51,6 @@ req.product: Windows 10 or later.
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef enum _RILUICCRESPONSEPARAMMASK { 
-  RIL_PARAM_SR_STATUSWORD2,
-  RIL_PARAM_SR_RESPONSESIZE,
-  RIL_PARAM_SR_RESPONSE,
-  RIL_PARAM_SR_ALL
-} RILUICCRESPONSEPARAMMASK;
-````
 
 
 ## -enum-fields

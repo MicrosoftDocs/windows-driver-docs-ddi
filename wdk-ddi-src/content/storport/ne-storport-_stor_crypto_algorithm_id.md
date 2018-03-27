@@ -53,16 +53,6 @@ req.product: Windows 10 or later.
 Reserved for system use
 
 
-## -syntax
-
-
-````
-typedef enum _STOR_CRYPTO_ALGORITHM_ID { 
-    = 
-} STOR_CRYPTO_ALGORITHM_ID, *PSTOR_CRYPTO_ALGORITHM_ID;
-````
-
-
 ## -enum-fields
 
 

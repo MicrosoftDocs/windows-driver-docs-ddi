@@ -53,18 +53,6 @@ req.product: Windows 10 or later.
 The CUSTOMSIZEPARAM structure holds information pertaining to a single custom page size parameter for a printer.
 
 
-## -syntax
-
-
-````
-typedef struct _CUSTOMSIZEPARAM {
-  LONG dwOrder;
-  LONG lMinVal;
-  LONG lMaxVal;
-} CUSTOMSIZEPARAM, *PCUSTOMSIZEPARAM;
-````
-
-
 ## -struct-fields
 
 
@@ -96,10 +84,10 @@ The custom page size parameters include Width, Height, WidthOffset, HeightOffset
 
 ## -see-also
 
-<a href="..\printoem\ne-printoem-_eattribute_datatype.md">EATTRIBUTE_DATATYPE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548692">EATTRIBUTE_DATATYPE</a>
  
 
  

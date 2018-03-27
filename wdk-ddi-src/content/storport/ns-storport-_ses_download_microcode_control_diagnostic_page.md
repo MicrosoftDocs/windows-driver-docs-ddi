@@ -54,26 +54,6 @@ The <b>SES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE</b> structure contains a v
 for use by the enclosure services process. 
 
 
-## -syntax
-
-
-````
-typedef struct _SES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE {
-  UCHAR  PageCode;
-  UCHAR  SubEnclosureId;
-  UCHAR  PageLength[2];
-  UCHAR  ExpectedGenerationCode[4];
-  UCHAR  Mode;
-  UCHAR  Reserved[2];
-  UCHAR  BufferID;
-  UCHAR  BufferOffset[4];
-  UCHAR  ImageLength[4];
-  UCHAR  DataLength[4];
-  UCHAR  Data[ANYSIZE_ARRAY];
-} SES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE, *PSES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE;
-````
-
-
 ## -struct-fields
 
 
@@ -87,7 +67,7 @@ Specifies the diagnostic page being sent or requested based on the value. For a 
 ### -field SubEnclosureId
 
 Specifies the sub enclosure to which the application client is
-sending the microcode image. If the value does not match a valid SUBENCLOSURE_IDENTIFIER field value found in the <a href="..\storport\ns-storport-_ses_configuration_diagnostic_page.md">SES_CONFIGURATION_DIAGNOSTIC_PAGE</a>, then the enclosure services
+sending the microcode image. If the value does not match a valid SUBENCLOSURE_IDENTIFIER field value found in the <a href="https://msdn.microsoft.com/0FD748D6-F598-44D1-A8D3-E63764CB90C6">SES_CONFIGURATION_DIAGNOSTIC_PAGE</a>, then the enclosure services
 process shall abort the download microcode operation with a status of 0x80.
 
 

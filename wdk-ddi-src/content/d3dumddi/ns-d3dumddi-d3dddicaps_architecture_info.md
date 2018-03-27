@@ -52,16 +52,6 @@ req.typenames: D3DDDICAPS_ARCHITECTURE_INFO
 Describes information about display adapter architecture.
 
 
-## -syntax
-
-
-````
-typedef struct D3DDDICAPS_ARCHITECTURE_INFO {
-  BOOL TileBasedDeferredRenderer;
-} D3DDDICAPS_ARCHITECTURE_INFO;
-````
-
-
 ## -struct-fields
 
 

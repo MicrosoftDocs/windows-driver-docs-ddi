@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,24 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <code>OEMLineTo</code> function draws a single, solid, integer-only cosmetic line.
-
-
-## -syntax
-
-
-````
-BOOL APIENTRY OEMLineTo(
-   SURFOBJ  *pso,
-   CLIPOBJ  *pco,
-   BRUSHOBJ *pbo,
-   LONG     x1,
-   LONG     y1,
-   LONG     x2,
-   LONG     y2,
-   RECTL    *prclBounds,
-   MIX      mix
-);
-````
 
 
 ## -parameters

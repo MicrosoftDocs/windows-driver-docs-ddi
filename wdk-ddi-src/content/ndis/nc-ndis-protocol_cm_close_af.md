@@ -55,19 +55,6 @@ The
 <div class="alert"><b>Note</b>  You must declare the function by using the <b>PROTOCOL_CM_CLOSE_AF</b> type.
    For more information, see the following Examples section.</div><div> </div>
 
-## -prototype
-
-
-````
-PROTOCOL_CM_CLOSE_AF ProtocolCmCloseAf;
-
-NDIS_STATUS ProtocolCmCloseAf(
-  _In_ NDIS_HANDLE CallMgrAfContext
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -113,7 +100,7 @@ Indicates that the call manager has successfully released or deactivated any res
 <td width="60%">
 Indicates that the request to close the open instance of the address family will be completed
        asynchronously. The call manager must call 
-       <a href="..\ndis\nf-ndis-ndiscmcloseaddressfamilycomplete.md">
+       <a href="https://msdn.microsoft.com/1aeb2ca5-8c56-4a78-8cd5-a178efa9b014">
        NdisCmCloseAddressFamilyComplete</a> when all such operations have been completed.
 
 </td>
@@ -130,7 +117,7 @@ Indicates that the request to close the open instance of the address family will
 
 <i>ProtocolCmCloseAf</i> releases and/or deactivates any resources that were allocated by the call manager
     in its 
-    <a href="..\ndis\nc-ndis-protocol_cm_open_af.md">ProtocolCmOpenAf</a> function. The call
+    <a href="https://msdn.microsoft.com/7422c205-bc41-4121-b430-ff9e6b49dc2e">ProtocolCmOpenAf</a> function. The call
     manager also should undo any other actions it took on behalf of the connection-oriented client when the
     address family was opened by that client.
 
@@ -147,7 +134,7 @@ The call manager can fail the request with NDIS_STATUS_NOT_ACCEPTED.
 The call manager can return NDIS_STATUS_PENDING. After the client has closed all calls and
       deregistered all SAPs, the call manager can then close the address family and call 
       <b>NdisCmCloseAddressFamilyComplete</b> or 
-      <a href="..\ndis\nf-ndis-ndismcmcloseaddressfamilycomplete.md">
+      <a href="https://msdn.microsoft.com/be551557-06db-4fc9-bdcb-030e621e205a">
       NdisMCmCloseAddressFamilyComplete</a> to notify the client. This is the preferred response.
 
 </li>
@@ -193,15 +180,15 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-protocol_cm_open_af.md">ProtocolCmOpenAf</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndiscmcloseaddressfamilycomplete.md">
+<a href="https://msdn.microsoft.com/1aeb2ca5-8c56-4a78-8cd5-a178efa9b014">
    NdisCmCloseAddressFamilyComplete</a>
 
 
 
+<a href="https://msdn.microsoft.com/7422c205-bc41-4121-b430-ff9e6b49dc2e">ProtocolCmOpenAf</a>
  
 
  

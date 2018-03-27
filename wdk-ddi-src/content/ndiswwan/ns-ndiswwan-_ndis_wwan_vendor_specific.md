@@ -52,17 +52,6 @@ req.typenames: NDIS_WWAN_VENDOR_SPECIFIC, *PNDIS_WWAN_VENDOR_SPECIFIC
 The NDIS_WWAN_VENDOR_SPECIFIC structure represents vendor-specific data.
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_WWAN_VENDOR_SPECIFIC {
-  NDIS_OBJECT_HEADER   Header;
-  WWAN_VENDOR_SPECIFIC VendorSpecificData;
-} NDIS_WWAN_VENDOR_SPECIFIC, *PNDIS_WWAN_VENDOR_SPECIFIC;
-````
-
-
 ## -struct-fields
 
 
@@ -116,26 +105,26 @@ sizeof(NDIS_WWAN_VENDOR_SPECIFIC)
  
 
 For more information about these members, see 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>.
 
 
 ### -field VendorSpecificData
 
 A formatted 
-     <a href="..\wwan\ns-wwan-_wwan_vendor_specific.md">WWAN_VENDOR_SPECIFIC</a> object that
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571255">WWAN_VENDOR_SPECIFIC</a> object that
      represents vendor-specific data.
 
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_vendor_specific.md">WWAN_VENDOR_SPECIFIC</a>
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571255">WWAN_VENDOR_SPECIFIC</a>
  
 
  

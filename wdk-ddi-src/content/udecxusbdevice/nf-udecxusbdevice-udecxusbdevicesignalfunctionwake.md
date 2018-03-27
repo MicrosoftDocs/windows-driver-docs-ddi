@@ -54,17 +54,6 @@ req.product: Windows 10 or later.
 Initiates wake up of the specified function from a low power state. This applies to virtual USB 3.0 devices.
 
 
-## -syntax
-
-
-````
-void UdecxUsbDeviceSignalFunctionWake(
-  _In_ UDECXUSBDEVICE UdecxUsbDevice,
-  _In_ ULONG          Interface
-);
-````
-
-
 ## -parameters
 
 
@@ -72,7 +61,7 @@ void UdecxUsbDeviceSignalFunctionWake(
 
 ### -param UdecxUsbDevice [in]
 
-A handle to UDE device object. The client driver retrieved this pointer in the previous call to <a href="..\udecxusbdevice\nf-udecxusbdevice-udecxusbdevicecreate.md">UdecxUsbDeviceCreate</a>.
+A handle to UDE device object. The client driver retrieved this pointer in the previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/mt595959">UdecxUsbDeviceCreate</a>.
 
 
 ### -param Interface [in]
@@ -93,7 +82,7 @@ This function does not return a value.
 
 
 
-The client driver for the device must have enabled wake capability in the most recent <a href="..\udecxusbdevice\nc-udecxusbdevice-evt_udecx_usb_device_set_function_suspend_and_wake.md">EVT_UDECX_USB_DEVICE_SET_FUNCTION_SUSPEND_AND_WAKE</a> call.
+The client driver for the device must have enabled wake capability in the most recent <a href="https://msdn.microsoft.com/library/windows/hardware/mt595915">EVT_UDECX_USB_DEVICE_SET_FUNCTION_SUSPEND_AND_WAKE</a> call.
 
 
 If the device is in a low power state, or going to such a state, this call also wakes up  the entire device.
@@ -104,11 +93,6 @@ If the device is in a low power state, or going to such a state, this call also 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
-
-
-
-<a href="..\udecxusbdevice\nc-udecxusbdevice-evt_udecx_usb_device_set_function_suspend_and_wake.md">EVT_UDECX_USB_DEVICE_SET_FUNCTION_SUSPEND_AND_WAKE</a>
 
 
 
@@ -116,6 +100,11 @@ If the device is in a low power state, or going to such a state, this call also 
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt595915">EVT_UDECX_USB_DEVICE_SET_FUNCTION_SUSPEND_AND_WAKE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
  
 
  

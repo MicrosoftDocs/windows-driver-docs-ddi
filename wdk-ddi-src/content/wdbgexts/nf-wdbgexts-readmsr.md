@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,17 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>ReadMsr</b> function reads the contents of a Model-Specific Register (MSR). 
-
-
-## -syntax
-
-
-````
-__inline VOID ReadMsr(
-   ULONG     MsrReg,
-   ULONGLONG *MsrValue
-);
-````
 
 
 ## -parameters

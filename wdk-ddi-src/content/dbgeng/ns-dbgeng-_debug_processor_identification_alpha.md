@@ -52,17 +52,6 @@ req.typenames: DEBUG_PROCESSOR_IDENTIFICATION_ALPHA, *PDEBUG_PROCESSOR_IDENTIFIC
 Identifies an Alpha processor.
 
 
-## -syntax
-
-
-````
-typedef struct _DEBUG_PROCESSOR_IDENTIFICATION_ALPHA {
-  ULONG Type;
-  ULONG Revision;
-} DEBUG_PROCESSOR_IDENTIFICATION_ALPHA, *PDEBUG_PROCESSOR_IDENTIFICATION_ALPHA;
-````
-
-
 ## -struct-fields
 
 
@@ -80,10 +69,10 @@ The revision of the processor.
 
 ## -see-also
 
-<a href="..\dbgeng\ns-dbgeng-_debug_processor_identification_all.md">DEBUG_PROCESSOR_IDENTIFICATION_ALL</a>
 
 
 
+<a href="https://msdn.microsoft.com/2C4C03BC-0D84-4151-B1A1-FE76F0355CD6">DEBUG_PROCESSOR_IDENTIFICATION_ALL</a>
  
 
  

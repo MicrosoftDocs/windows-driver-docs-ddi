@@ -47,11 +47,6 @@ req.product: Windows 10 or later.
 # IOCTL_GET_CHANNEL_ALIGN_RQST IOCTL
 
 
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
-
 ## -description
 
 
@@ -78,7 +73,7 @@ Zero.
 
 ### -output-buffer
 
-Pointer to a <a href="..\usbscan\ns-usbscan-_channel_info.md">CHANNEL_INFO</a> structure.
+Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff539466">CHANNEL_INFO</a> structure.
 
 
 ### -output-buffer-length
@@ -116,7 +111,7 @@ Size of the output buffer.
 <h3><a id="ddk_ioctl_get_channel_align_rqst_si"></a><a id="DDK_IOCTL_GET_CHANNEL_ALIGN_RQST_SI"></a>DeviceIoControl Parameters</h3>
 
 
-When the <b>DeviceloControl</b> function is called with the IOCTL_GET_CHANNEL_ALIGN_RQST I/O control code, the caller must specify the address of a <a href="..\usbscan\ns-usbscan-_channel_info.md">CHANNEL_INFO</a> structure as the function's <i>lpOutBuffer</i> parameter. The kernel-mode driver fills in the structure.
+When the <b>DeviceloControl</b> function is called with the IOCTL_GET_CHANNEL_ALIGN_RQST I/O control code, the caller must specify the address of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff539466">CHANNEL_INFO</a> structure as the function's <i>lpOutBuffer</i> parameter. The kernel-mode driver fills in the structure.
 
 For more information, see <a href="https://msdn.microsoft.com/f9216d3c-4930-4c26-8eac-6ee500b038e0">Accessing Kernel-Mode Drivers for Still Image Devices</a>.
 

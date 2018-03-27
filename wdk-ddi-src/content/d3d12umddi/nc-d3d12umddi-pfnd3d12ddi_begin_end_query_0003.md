@@ -52,37 +52,21 @@ req.typenames: D3D11_1DDI_GETCAPTUREHANDLEDATA
 The <i>pfnBeginQuery</i> callback function defines the beginning of the portion of a command list to which a query applies.
 
 
-## -prototype
-
-
-````
-PFND3D12DDI_BEGIN_END_QUERY_0003 pfnBeginQuery;
-
-VOID  APIENTRY* pfnBeginQuery(
-   D3D12DDI_HCOMMANDLIST hCommandList,
-   D3D12DDI_HQUERYHEAP   hQueryHeap,
-   D3D12DDI_QUERY_TYPE   QueryType,
-   UINT                  StartElement
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
 
 
-### -param D3D12DDI_HCOMMANDLIST
+### -param Arg1
 
 
-### -param D3D12DDI_HQUERYHEAP
+### -param Arg2
 
 
-### -param D3D12DDI_QUERY_TYPE
+### -param Arg3
 
 
-### -param UINT
+### -param Arg4
 
 
 

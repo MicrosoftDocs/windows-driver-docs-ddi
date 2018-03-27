@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: filterpipeline.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -50,16 +50,6 @@ req.typenames: EXpsFontRestriction
 
 
 The <code>StartOperation</code> method starts the operation of a filter. The filter reads, processes, and writes data in this method.
-
-
-## -syntax
-
-
-````
-HRESULT STDMETHODCALLTYPE StartOperation(
-    None
-);
-````
 
 
 ## -parameters

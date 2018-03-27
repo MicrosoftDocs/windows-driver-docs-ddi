@@ -52,20 +52,6 @@ req.typenames: D3DKMT_CREATESTANDARDALLOCATION
 Used to create a standard allocation.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DKMT_CREATESTANDARDALLOCATION {
-  D3DKMT_STANDARDALLOCATIONTYPE        Type;
-  union {
-    D3DKMT_STANDARDALLOCATION_EXISTINGHEAP ExistingHeapData;
-  };
-  D3DKMT_CREATESTANDARDALLOCATIONFLAGS Flags;
-} D3DKMT_CREATESTANDARDALLOCATION;
-````
-
-
 ## -struct-fields
 
 

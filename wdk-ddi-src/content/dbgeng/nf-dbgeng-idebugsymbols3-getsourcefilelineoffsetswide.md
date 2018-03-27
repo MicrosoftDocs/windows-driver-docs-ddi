@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -50,19 +50,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>GetSourceFileLineOffsetsWide</b>  method maps each line in a source file to a location in the target's memory.
-
-
-## -syntax
-
-
-````
-HRESULT GetSourceFileLineOffsetsWide(
-  [in]            PCWSTR   File,
-  [out, optional] PULONG64 Buffer,
-  [in]            ULONG    BufferLines,
-  [out, optional] PULONG   FileLines
-);
-````
 
 
 ## -parameters
@@ -140,7 +127,6 @@ For more information about using the source path, see <a href="https://msdn.micr
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
 
 
@@ -152,6 +138,7 @@ For more information about using the source path, see <a href="https://msdn.micr
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550870">IDebugSymbols3</a>
  
 
  

@@ -52,20 +52,6 @@ req.typenames: HBA_FC4STATISTICS, *PHBA_FC4STATISTICS
 The <b>HBA_FC4Statistics</b> structure contains port statistics. 
 
 
-## -syntax
-
-
-````
-typedef struct HBA_FC4Statistics {
-  HBA_INT64 InputRequests;
-  HBA_INT64 OutputRequests;
-  HBA_INT64 ControlRequests;
-  HBA_INT64 InputMegabytes;
-  HBA_INT64 OutputMegabytes;
-} HBA_FC4STATISTICS, *PHBA_FC4STATISTICS;
-````
-
-
 ## -struct-fields
 
 
@@ -98,10 +84,10 @@ Contains the number of megabytes of output data that a port has transmitted.
 
 ## -see-also
 
-<a href="..\hbaapi\nf-hbaapi-hba_getfc4statistics.md">HBA_GetFC4Statistics</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556093">HBA_GetFC4Statistics</a>
  
 
  

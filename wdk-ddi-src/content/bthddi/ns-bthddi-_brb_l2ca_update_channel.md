@@ -53,20 +53,6 @@ The _BRB_L2CA_UPDATE_CHANNEL structure describes an update to the link character
   L2CAP channel to a remote device or to ascertain when certain channel attributes have changed.
 
 
-## -syntax
-
-
-````
-struct _BRB_L2CA_UPDATE_CHANNEL {
-  BRB_HEADER           Hdr;
-  BTH_ADDR             BtAddress;
-  L2CAP_CHANNEL_HANDLE ChannelHandle;
-  ULONG                NewChannelFlags;
-  ULONG                FailedChannelFlags;
-};
-````
-
-
 ## -struct-fields
 
 
@@ -75,7 +61,7 @@ struct _BRB_L2CA_UPDATE_CHANNEL {
 ### -field Hdr
 
 A 
-     <a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a> structure that contains information
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff536612">BRB_HEADER</a> structure that contains information
      about the current BRB.
 
 
@@ -136,7 +122,10 @@ By building and sending a <b>BRB_L2CA_UPDATE_CHANNEL</b> request, profile driver
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536620">BRB_L2CA_UPDATE_CHANNEL</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536612">BRB_HEADER</a>
 
 
 
@@ -149,10 +138,7 @@ By building and sending a <b>BRB_L2CA_UPDATE_CHANNEL</b> request, profile driver
 
 
 
-<a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536620">BRB_L2CA_UPDATE_CHANNEL</a>
  
 
  

@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: ndis.h
+req.lib: 
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
@@ -51,16 +51,6 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 
 The 
   <b>NdisDeleteNPagedLookasideList</b> function removes a nonpaged lookaside list from the system.
-
-
-## -syntax
-
-
-````
-VOID NdisDeleteNPagedLookasideList(
-  [in] PNPAGED_LOOKASIDE_LIST Lookaside
-);
-````
 
 
 ## -parameters
@@ -93,7 +83,7 @@ After freeing any remaining entries in the given lookaside list,
 However, 
     <b>NdisDeleteNPagedLookasideList</b> does not free the list head, for which the caller originally
     allocated the memory. An NDIS driver is responsible for calling the 
-    <a href="..\ndis\nf-ndis-ndisfreememory.md">NdisFreeMemory</a> function to release any
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff562577">NdisFreeMemory</a> function to release any
     memory that it allocated.
 
 
@@ -101,21 +91,21 @@ However,
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisinitializenpagedlookasidelist.md">
-   NdisInitializeNPagedLookasideList</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisallocatefromnpagedlookasidelist.md">
+<a href="https://msdn.microsoft.com/df690a05-359d-44f0-b063-4fc21d6c4d76">
    NdisAllocateFromNPagedLookasideList</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisfreetonpagedlookasidelist.md">
+<a href="https://msdn.microsoft.com/2405a405-177a-420a-9628-a340e0d0acb3">
    NdisFreeToNPagedLookasideList</a>
 
 
 
+<a href="https://msdn.microsoft.com/d240f2cc-18a6-4c2d-889f-e25a9486d5fe">
+   NdisInitializeNPagedLookasideList</a>
  
 
  

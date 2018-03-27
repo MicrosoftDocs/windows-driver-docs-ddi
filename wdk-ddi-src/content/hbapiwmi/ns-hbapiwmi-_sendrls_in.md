@@ -52,17 +52,6 @@ req.typenames: SendRLS_IN, *PSendRLS_IN
 The SendRLS_IN structure is used to deliver input parameter data to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565442">SendRLS</a> WMI method.
 
 
-## -syntax
-
-
-````
-typedef struct _SendRLS_IN {
-  UCHAR PortWWN[8];
-  UCHAR DestWWN[8];
-} SendRLS_IN, *PSendRLS_IN;
-````
-
-
 ## -struct-fields
 
 
@@ -89,10 +78,10 @@ The WMI tool suite generates a declaration of the SendRLS_IN structure in <i>Hba
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565442">SendRLS</a>
-
-
-
  
 
  

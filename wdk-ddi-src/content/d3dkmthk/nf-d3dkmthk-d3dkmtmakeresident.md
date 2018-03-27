@@ -55,16 +55,6 @@ req.typenames: D3DKMT_DRIVERVERSION
 <b>D3DKMTMakeResident</b> is used to add a resource to the device residency list and increment the residency reference count on this allocation.
 
 
-## -syntax
-
-
-````
-EXTERN_C _Check_return_ NTSTATUS APIENTRY D3DKMTMakeResident(
-  _Inout_ D3DDDI_MAKERESIDENT *pData
-);
-````
-
-
 ## -parameters
 
 
@@ -74,7 +64,7 @@ EXTERN_C _Check_return_ NTSTATUS APIENTRY D3DKMTMakeResident(
 
 #### - pData [in, out]
 
-A pointer to a <a href="..\d3dukmdt\ns-d3dukmdt-d3dddi_makeresident.md">D3DDDI_MAKERESIDENT</a> structure that describes the operation.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn906323">D3DDDI_MAKERESIDENT</a> structure that describes the operation.
 
 
 ## -returns
@@ -121,10 +111,10 @@ This function might also return other <b>NTSTATUS</b> values.
 
 ## -see-also
 
-<a href="..\d3dukmdt\ns-d3dukmdt-d3dddi_makeresident.md">D3DDDI_MAKERESIDENT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn906323">D3DDDI_MAKERESIDENT</a>
  
 
  

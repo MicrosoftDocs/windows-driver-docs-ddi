@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,20 +51,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>ReadTagged</b> method reads the tagged data that might be associated with a debugger session.
-
-
-## -syntax
-
-
-````
-HRESULT ReadTagged(
-  [in]            LPGUID Tag,
-  [in]            ULONG  Offset,
-  [out, optional] PVOID  Buffer,
-  [in]            ULONG  BufferSize,
-  [out, optional] PULONG TotalSize
-);
-````
 
 
 ## -parameters
@@ -149,11 +135,6 @@ LPGUID is a pointer to a 128-bit unique identifier.  It is defined in the Micros
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugdataspaces4.md">IDebugDataSpaces4</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugdataspaces3.md">IDebugDataSpaces3</a>
 
 
 
@@ -161,6 +142,11 @@ LPGUID is a pointer to a 128-bit unique identifier.  It is defined in the Micros
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550537">IDebugDataSpaces3</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550546">IDebugDataSpaces4</a>
  
 
  

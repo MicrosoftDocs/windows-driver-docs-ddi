@@ -52,17 +52,6 @@ req.typenames: D3DDDIARG_WINFO
 The D3DDDIARG_WINFO structure describes a w range for w buffering. 
 
 
-## -syntax
-
-
-````
-typedef struct _D3DDDIARG_WINFO {
-  FLOAT WNear;
-  FLOAT WFar;
-} D3DDDIARG_WINFO;
-````
-
-
 ## -struct-fields
 
 
@@ -80,10 +69,10 @@ typedef struct _D3DDDIARG_WINFO {
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_updatewinfo.md">UpdateWInfo</a>
 
 
 
+<a href="https://msdn.microsoft.com/e9cd87b9-3958-4b10-895d-480e03ebea76">UpdateWInfo</a>
  
 
  

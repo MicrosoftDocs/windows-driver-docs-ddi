@@ -52,16 +52,6 @@ req.typenames: AddPort_IN, *PAddPort_IN
 The AddPort_IN structure is used by a WMI client to deliver the input parameter data of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff545022">AddPort</a> WMI method to the HBA miniport driver.
 
 
-## -syntax
-
-
-````
-typedef struct _AddPort_IN {
-  UCHAR PortWWN[8];
-} AddPort_IN, *PAddPort_IN;
-````
-
-
 ## -struct-fields
 
 
@@ -74,10 +64,10 @@ Contains a worldwide name that indicates the port whose events are to be reporte
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545022">AddPort</a>
-
-
-
  
 
  

@@ -52,21 +52,6 @@ req.typenames: STORAGE_IDENTIFIER, *PSTORAGE_IDENTIFIER
 The STORAGE_IDENTIFIER structure represents a SCSI identification descriptor.
 
 
-## -syntax
-
-
-````
-typedef struct _STORAGE_IDENTIFIER {
-  STORAGE_IDENTIFIER_CODE_SET CodeSet;
-  STORAGE_IDENTIFIER_TYPE     Type;
-  USHORT                      IdentifierSize;
-  USHORT                      NextOffset;
-  STORAGE_ASSOCIATION_TYPE    Association;
-  UCHAR                       Identifier[1];
-} STORAGE_IDENTIFIER, *PSTORAGE_IDENTIFIER;
-````
-
-
 ## -struct-fields
 
 
@@ -113,7 +98,6 @@ Every device identification page (page code 0x83) of SCSI vital product data con
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566990">STORAGE_IDENTIFIER_TYPE</a>
 
 
 
@@ -121,6 +105,7 @@ Every device identification page (page code 0x83) of SCSI vital product data con
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566990">STORAGE_IDENTIFIER_TYPE</a>
  
 
  

@@ -53,20 +53,6 @@ req.product: Windows 10 or later.
 The WWAN_MSG_STATUS enumeration lists different SMS message statuses.
 
 
-## -syntax
-
-
-````
-typedef enum _WWAN_MSG_STATUS { 
-  WwanMsgStatusNew    = 0,
-  WwanMsgStatusOld,
-  WwanMsgStatusDraft,
-  WwanMsgStatusSent,
-  WwanMsgStatusMax
-} WWAN_MSG_STATUS, *PWWAN_MSG_STATUS;
-````
-
-
 ## -enum-fields
 
 
@@ -99,14 +85,14 @@ The total number of supported SMS message statuses.
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_sms_cdma_record.md">WWAN_SMS_CDMA_RECORD</a>
 
 
 
-<a href="..\wwan\ns-wwan-_wwan_sms_pdu_record.md">WWAN_SMS_PDU_RECORD</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571243">WWAN_SMS_CDMA_RECORD</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571248">WWAN_SMS_PDU_RECORD</a>
  
 
  

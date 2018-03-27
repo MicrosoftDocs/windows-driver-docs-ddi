@@ -53,22 +53,6 @@ req.product: Windows 10 or later.
 The client driver's implementation that UCX calls to abort the queue associated with the endpoint.
 
 
-## -prototype
-
-
-````
-EVT_UCX_ENDPOINT_ABORT EvtUcxEndpointAbort;
-
-VOID EvtUcxEndpointAbort(
-  _In_ UCXCONTROLLER UcxController,
-  _In_ UCXENDPOINT   Endpoint
-)
-{ ... }
-
-typedef EVT_UCX_ENDPOINT_ABORT PEVT_UCX_ENDPOINT_ABORT;
-````
-
-
 ## -parameters
 
 
@@ -106,10 +90,10 @@ This callback function does not return a value.
 
 
 
-The client driver registers this callback function with the USB host controller extension (UCX) by calling the <a href="..\ucxendpoint\nf-ucxendpoint-ucxendpointcreate.md">UcxEndpointCreate</a>
+The client driver registers this callback function with the USB host controller extension (UCX) by calling the <a href="https://msdn.microsoft.com/library/windows/hardware/mt188039">UcxEndpointCreate</a>
  method.
 
-This function completes all requests associated with the endpoint, typically by calling <a href="..\wdfio\nf-wdfio-wdfioqueuestopandpurge.md">WdfIoQueueStopAndPurge</a>.
+This function completes all requests associated with the endpoint, typically by calling <a href="https://msdn.microsoft.com/library/windows/hardware/hh439289">WdfIoQueueStopAndPurge</a>.
 
 
 #### Examples

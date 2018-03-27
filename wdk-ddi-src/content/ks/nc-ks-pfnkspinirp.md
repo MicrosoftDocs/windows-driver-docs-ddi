@@ -59,20 +59,6 @@ An AVStream minidriver's routine is called when an activity on the pin is perfor
 </li>
 </ul>
 
-## -prototype
-
-
-````
-PFNKSPINIRP AVStrMiniPinCreate;
-
-NTSTATUS AVStrMiniPinCreate(
-  _In_ PKSPIN Pin,
-  _In_ PIRP   Irp
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -80,7 +66,7 @@ NTSTATUS AVStrMiniPinCreate(
 
 ### -param Pin [in]
 
-Pointer to the <a href="..\ks\ns-ks-_kspin.md">KSPIN</a> that was just created.
+Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563483">KSPIN</a> that was just created.
 
 
 ### -param Irp [in]
@@ -110,7 +96,7 @@ If the routine succeeds, the operation is guaranteed to succeed. Return STATUS_S
 <td>
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548630">IRP_MJ_CREATE</a>
 </td>
-<td>Typically, this routine is used by minidrivers that want to initialize the context and resources associated with the pin. The minidriver specifies this routine's address in the <b>Create</b> member of its <a href="..\ks\ns-ks-_kspin_dispatch.md">KSPIN_DISPATCH</a> structure.
+<td>Typically, this routine is used by minidrivers that want to initialize the context and resources associated with the pin. The minidriver specifies this routine's address in the <b>Create</b> member of its <a href="https://msdn.microsoft.com/library/windows/hardware/ff563535">KSPIN_DISPATCH</a> structure.
 
 This routine is called when a pin is created. At the point at which this routine is called, the file object has an associated context, and the KS object header has been allocated. Typically, this function will be provided by minidrivers that want to initialize the context and resources associated with the pin. 
 
@@ -118,7 +104,7 @@ The filter control mutex is held while in this function. The function will be ca
 
 This routine is optional.
 
-If the routine succeeds, the create operation is guaranteed to succeed. Return STATUS_SUCCESS or STATUS_PENDING. If a minidriver returns STATUS_PENDING, AVStream will not complete the <a href="https://msdn.microsoft.com/library/windows/hardware/ff548630">IRP_MJ_CREATE</a> immediately. Before returning STATUS_PENDING, however, the minidriver must call <a href="..\wdm\nf-wdm-iomarkirppending.md">IoMarkIrpPending</a>. Once the processing of the create is complete, the minidriver must set the IRP's status code and then call <a href="..\ks\nf-ks-kscompletependingrequest.md">KsCompletePendingRequest</a>.
+If the routine succeeds, the create operation is guaranteed to succeed. Return STATUS_SUCCESS or STATUS_PENDING. If a minidriver returns STATUS_PENDING, AVStream will not complete the <a href="https://msdn.microsoft.com/library/windows/hardware/ff548630">IRP_MJ_CREATE</a> immediately. Before returning STATUS_PENDING, however, the minidriver must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff549422">IoMarkIrpPending</a>. Once the processing of the create is complete, the minidriver must set the IRP's status code and then call <a href="https://msdn.microsoft.com/library/windows/hardware/ff561025">KsCompletePendingRequest</a>.
 
 </td>
 </tr>
@@ -127,7 +113,7 @@ If the routine succeeds, the create operation is guaranteed to succeed. Return S
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550720">IRP_MJ_CLOSE</a>
 </td>
 <td>
-The minidriver specifies this routine's address in the <b>Close</b> member of its <a href="..\ks\ns-ks-_kspin_dispatch.md">KSPIN_DISPATCH</a> structure.
+The minidriver specifies this routine's address in the <b>Close</b> member of its <a href="https://msdn.microsoft.com/library/windows/hardware/ff563535">KSPIN_DISPATCH</a> structure.
 
 At the point at which the routine is called, any registered events on the pin have been freed, but the object is otherwise intact.
 
@@ -145,18 +131,18 @@ This routine is optional.
 
 ## -see-also
 
-<a href="..\ks\nf-ks-kscompletependingrequest.md">KsCompletePendingRequest</a>
 
 
 
-<a href="..\ks\ns-ks-_kspin_dispatch.md">KSPIN_DISPATCH</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549422">IoMarkIrpPending</a>
 
 
 
-<a href="..\wdm\nf-wdm-iomarkirppending.md">IoMarkIrpPending</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563535">KSPIN_DISPATCH</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561025">KsCompletePendingRequest</a>
  
 
  

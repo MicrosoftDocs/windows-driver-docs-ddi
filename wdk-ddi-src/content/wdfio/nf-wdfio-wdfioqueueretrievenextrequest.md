@@ -58,17 +58,6 @@ req.product: Windows 10 or later.
 The <b>WdfIoQueueRetrieveNextRequest</b> method retrieves the next available I/O request from a specified I/O queue. 
 
 
-## -syntax
-
-
-````
-NTSTATUS WdfIoQueueRetrieveNextRequest(
-  _In_  WDFQUEUE   Queue,
-  _Out_ WDFREQUEST *OutRequest
-);
-````
-
-
 ## -parameters
 
 
@@ -187,14 +176,14 @@ status = WdfIoQueueRetrieveNextRequest(
 
 ## -see-also
 
-<a href="..\wdfio\nf-wdfio-wdfioqueueretrievefoundrequest.md">WdfIoQueueRetrieveFoundRequest</a>
 
 
 
-<a href="..\wdfio\nf-wdfio-wdfioqueueretrieverequestbyfileobject.md">WdfIoQueueRetrieveRequestByFileObject</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh975099">WdfIoQueueRetrieveFoundRequest</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548470">WdfIoQueueRetrieveRequestByFileObject</a>
  
 
  

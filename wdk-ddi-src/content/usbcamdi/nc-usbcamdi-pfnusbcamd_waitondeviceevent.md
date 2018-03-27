@@ -53,25 +53,6 @@ req.product: Windows 10 or later.
 The <b>USBCAMD_WaitOnDeviceEvent</b> service is used to perform a read from the interrupt pipe if the camera has an interrupt pipe for external event notifications.
 
 
-## -prototype
-
-
-````
-PFNUSBCAMD_WaitOnDeviceEvent USBCAMD_WaitOnDeviceEvent;
-
-NTSTATUS APIENTRY USBCAMD_WaitOnDeviceEvent(
-  _In_ PVOID                      DeviceContext,
-  _In_ ULONG                      PipeIndex,
-  _In_ PVOID                      Buffer,
-  _In_ ULONG                      BufferLength,
-  _In_ PCOMMAND_COMPLETE_FUNCTION EventComplete,
-  _In_ PVOID                      EventContext,
-  _In_ BOOLEAN                    LoopBack
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -99,12 +80,12 @@ Length of the read buffer, in bytes.
 
 ### -param EventComplete [in]
 
-Pointer to a camera minidriver defined <a href="..\usbcamdi\nc-usbcamdi-pcommand_complete_function.md">CommandCompleteFunction</a>, which is called when the interrupt read is completed This value can be <b>NULL</b>.
+Pointer to a camera minidriver defined <a href="https://msdn.microsoft.com/library/windows/hardware/ff557713">CommandCompleteFunction</a>, which is called when the interrupt read is completed This value can be <b>NULL</b>.
 
 
 ### -param EventContext [in]
 
-Pointer to a block of memory, that is passed as an argument to the camera minidriver defined <a href="..\usbcamdi\nc-usbcamdi-pcommand_complete_function.md">CommandCompleteFunction</a>.
+Pointer to a block of memory, that is passed as an argument to the camera minidriver defined <a href="https://msdn.microsoft.com/library/windows/hardware/ff557713">CommandCompleteFunction</a>.
 
 
 ### -param LoopBack [in]
@@ -187,7 +168,7 @@ There are insufficient resources to allocate a work item to read from the pipe.
 
 
 
-The typical usage scenario for this function is a camera with a snapshot button and an interrupt pipe associated with the button. When a user presses the snapshot button, the read request on the interrupt pipe is satisfied and the camera minidriver is called back. If the camera minidriver sets USBCAMD_CamControlFlag_EnableDeviceEvents in the <i>CamControlFlag</i> argument during the <a href="..\usbcamdi\nf-usbcamdi-usbcamd_initializenewinterface.md">USBCAMD_InitializeNewInterface</a> call, the STI monitor also is notified of the snapshot event.
+The typical usage scenario for this function is a camera with a snapshot button and an interrupt pipe associated with the button. When a user presses the snapshot button, the read request on the interrupt pipe is satisfied and the camera minidriver is called back. If the camera minidriver sets USBCAMD_CamControlFlag_EnableDeviceEvents in the <i>CamControlFlag</i> argument during the <a href="https://msdn.microsoft.com/library/windows/hardware/ff568599">USBCAMD_InitializeNewInterface</a> call, the STI monitor also is notified of the snapshot event.
 
 <b>USBCAMD_WaitOnDeviceEvent</b> is not available in USBCAMD version 1.0.
 
@@ -196,18 +177,18 @@ The typical usage scenario for this function is a camera with a snapshot button 
 
 ## -see-also
 
-<a href="..\usbcamdi\nf-usbcamdi-usbcamd_initializenewinterface.md">USBCAMD_InitializeNewInterface</a>
 
 
 
-<a href="..\usbcamdi\ns-usbcamdi-usbcamd_interface.md">USBCAMD_INTERFACE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557713">CommandCompleteFunction</a>
 
 
 
-<a href="..\usbcamdi\nc-usbcamdi-pcommand_complete_function.md">CommandCompleteFunction</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568605">USBCAMD_INTERFACE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568599">USBCAMD_InitializeNewInterface</a>
  
 
  

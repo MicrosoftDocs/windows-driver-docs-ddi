@@ -53,18 +53,6 @@ req.product: Windows 10 or later.
 The WWAN_DRIVER_CAPS structure represents the capabilities of the miniport driver.
 
 
-## -syntax
-
-
-````
-typedef struct _WWAN_DRIVER_CAPS {
-  ULONG ulMajorVersion;
-  ULONG ulMinorVersion;
-  ULONG ulDriverCaps;
-} WWAN_DRIVER_CAPS, *PWWAN_DRIVER_CAPS;
-````
-
-
 ## -struct-fields
 
 
@@ -99,10 +87,10 @@ The miniport driver has no special capabilities.
 
 ## -see-also
 
-<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_driver_caps.md">NDIS_WWAN_DRIVER_CAPS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567908">NDIS_WWAN_DRIVER_CAPS</a>
  
 
  

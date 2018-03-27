@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -50,23 +50,6 @@ req.product: Windows 10 or later.
 ## -description
 
 
-
-
-## -syntax
-
-
-````
-DWORD APIENTRY OEMDeviceCapabilities(
-   POEMUIOBJ poemuiobj,
-   HANDLE    hPrinter,
-   PWSTR     pDeviceName,
-   WORD      wCapability,
-   PVOID     pOutput,
-   PDEVMODE  pPublicDM,
-   PVOID     pOEMDM,
-   DWORD     dwLastResult
-);
-````
 
 
 ## -parameters

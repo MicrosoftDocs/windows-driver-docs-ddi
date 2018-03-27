@@ -52,18 +52,6 @@ req.typenames: NDIS_WWAN_DEVICE_SERVICE_RESPONSE, *PNDIS_WWAN_DEVICE_SERVICE_RES
 The NDIS_WWAN_DEVICE_SERVICE_RESPONSE structure represents device service data from the transaction completion of a device service command.
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_WWAN_DEVICE_SERVICE_RESPONSE {
-  NDIS_OBJECT_HEADER           Header;
-  WWAN_STATUS                  uStatus;
-  WWAN_DEVICE_SERVICE_RESPONSE ResponseData;
-} NDIS_WWAN_DEVICE_SERVICE_RESPONSE, *PNDIS_WWAN_DEVICE_SERVICE_RESPONSE;
-````
-
-
 ## -struct-fields
 
 
@@ -117,7 +105,7 @@ sizeof(NDIS_WWAN_DEVICE_SERVICE_RESPONSE)
  
 
 For more information about these members, see 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>.
 
 
 ### -field uStatus
@@ -139,10 +127,10 @@ The response from the completion of the device service command.
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_device_service_response.md">WWAN_DEVICE_SERVICE_RESPONSE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh831872">WWAN_DEVICE_SERVICE_RESPONSE</a>
  
 
  

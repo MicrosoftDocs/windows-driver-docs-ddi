@@ -52,18 +52,6 @@ req.typenames:
 The <b>ExtKnownStruct</b> structure is used to specify how a target's structure can be formatted for output.
 
 
-## -syntax
-
-
-````
-struct ExtKnownStruct {
-  PCSTR                TypeName;
-  ExtKnownStructMethod Method;
-  bool                 SuppressesTypeName;
-};
-````
-
-
 ## -struct-fields
 
 
@@ -86,10 +74,10 @@ A Boolean flag that specifies whether the formatted output includes the name of 
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543989">ExtKnownStructMethod</a>
-
-
-
  
 
  

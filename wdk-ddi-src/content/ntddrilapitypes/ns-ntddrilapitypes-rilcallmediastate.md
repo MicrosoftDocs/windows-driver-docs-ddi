@@ -52,23 +52,6 @@ req.typenames: RILCALLMEDIASTATE, *LPRILCALLMEDIASTATE
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
-## -syntax
-
-
-````
-typedef struct _RILCALLMEDIASTATE {
-  RILCALLMEDIADIRECTION    dwDirection;
-  RILCALLMEDIATYPE         dwCallMediaType;
-  NULL                     RILCALLMEDIASTATEUNION;
-  RILCALLMEDIASTATEUNION   mediaStateUnion;
-  RILCALLAUDIOMEDIASTATE   stAudioState;
-  RILCALLVIDEOMEDIASTATE   stVideoState;
-  RILCALLCUSTOMMEDIASTATE  dwCustomStateSpecific;
-  DWORD [16]               pad;
-} RILCALLMEDIASTATE, RILCALLMEDIASTATE;
-````
-
-
 ## -struct-fields
 
 

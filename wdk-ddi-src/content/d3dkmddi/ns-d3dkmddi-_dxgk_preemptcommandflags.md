@@ -52,21 +52,6 @@ req.typenames: DXGK_PREEMPTCOMMANDFLAGS
 The DXGK_PREEMPTCOMMANDFLAGS structure specifies a union that contains either a structure with a reserved member or a 32-bit value. No bit-field flags are currently defined.
 
 
-## -syntax
-
-
-````
-typedef struct _DXGK_PREEMPTCOMMANDFLAGS {
-  union {
-    struct {
-      UINT Reserved  :32;
-    };
-    UINT Value;
-  };
-} DXGK_PREEMPTCOMMANDFLAGS;
-````
-
-
 ## -struct-fields
 
 
@@ -84,10 +69,10 @@ A member in the union that DXGK_PREEMPTCOMMANDFLAGS contains that can hold a 32-
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_preemptcommand.md">DXGKARG_PREEMPTCOMMAND</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557616">DXGKARG_PREEMPTCOMMAND</a>
  
 
  

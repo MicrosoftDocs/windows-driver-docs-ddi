@@ -52,17 +52,6 @@ req.typenames: TOKEN_TYPE
 The <b>SeTokenIsNoChildProcessRestrictionEnforced</b> routine determines if the token carries the no child process restriction.
 
 
-## -syntax
-
-
-````
-BOOLEAN NTKERNELAPI SeTokenIsNoChildProcessRestrictionEnforced(
-  _In_      PACCESS_TOKEN Token,
-  _Out_opt_ PBOOLEAN      UnlessSecure
-);
-````
-
-
 ## -parameters
 
 

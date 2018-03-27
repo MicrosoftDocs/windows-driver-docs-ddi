@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: "<= DISPATCH_LEVEL"
+req.irql: See Remarks section.
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -51,20 +51,6 @@ req.product: Windows 10 or later.
 
 
 Describes the child device to be enumerated by the miniport driver. All members are set by the video port driver.
-
-
-## -syntax
-
-
-````
-typedef struct _VIDEO_CHILD_ENUM_INFO {
-  ULONG Size;
-  ULONG ChildDescriptorSize;
-  ULONG ChildIndex;
-  ULONG ACPIHwId;
-  PVOID ChildHwDeviceExtension;
-} VIDEO_CHILD_ENUM_INFO, *PVIDEO_CHILD_ENUM_INFO;
-````
 
 
 ## -struct-fields
@@ -112,14 +98,14 @@ The ACPI_METHOD_DISPLAY_DOD alias, defined in Dispmprt.h, represents the method 
 
 ## -see-also
 
-<a href="..\video\nc-video-pvideo_hw_get_child_descriptor.md">HwVidGetVideoChildDescriptor</a>
 
 
 
-<a href="..\video\ns-video-_video_hw_initialization_data.md">VIDEO_HW_INITIALIZATION_DATA</a>
+<a href="https://msdn.microsoft.com/175030c1-95d9-4a3b-976c-16e04852cb91">HwVidGetVideoChildDescriptor</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570505">VIDEO_HW_INITIALIZATION_DATA</a>
  
 
  

@@ -56,16 +56,6 @@ req.product: Windows 10 or later.
 The <b>WdfDpcEnqueue</b> method schedules the execution of a DPC object's <a href="https://msdn.microsoft.com/b934a0da-0709-4427-bbf2-8d53f9511cf1">EvtDpcFunc</a> callback function.
 
 
-## -syntax
-
-
-````
-BOOLEAN WdfDpcEnqueue(
-  _In_ WDFDPC Dpc
-);
-````
-
-
 ## -parameters
 
 
@@ -102,7 +92,7 @@ For more information about using DPC objects, see <a href="https://msdn.microsof
 
 #### Examples
 
-The following code example schedules the execution of the callback function that is associated with a DPC object. The example uses the <b>WdfDpcEnqueue</b> method's return value as the containing function's return value. The <a href="..\wdfdpc\nf-wdfdpc-wdfdpccreate.md">WdfDpcCreate</a> code example shows how the DPC object was created.
+The following code example schedules the execution of the callback function that is associated with a DPC object. The example uses the <b>WdfDpcEnqueue</b> method's return value as the containing function's return value. The <a href="https://msdn.microsoft.com/library/windows/hardware/ff547140">WdfDpcCreate</a> code example shows how the DPC object was created.
 
 <div class="code"><span codelanguage=""><table>
 <tr>
@@ -119,14 +109,14 @@ The following code example schedules the execution of the callback function that
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/b934a0da-0709-4427-bbf2-8d53f9511cf1">EvtDpcFunc</a>
 
 
 
-<a href="..\wdfdpc\nf-wdfdpc-wdfdpccreate.md">WdfDpcCreate</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547140">WdfDpcCreate</a>
  
 
  

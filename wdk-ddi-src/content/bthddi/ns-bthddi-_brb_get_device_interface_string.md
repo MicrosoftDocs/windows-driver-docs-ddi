@@ -53,18 +53,6 @@ The _BRB_GET_DEVICE_INTERFACE_STRING structure describes the device interface st
   device object.
 
 
-## -syntax
-
-
-````
-struct _BRB_GET_DEVICE_INTERFACE_STRING {
-  BRB_HEADER Hdr;
-  PWCHAR     DeviceInterfaceString;
-  ULONG      DeviceInterfaceStringCbLength;
-};
-````
-
-
 ## -struct-fields
 
 
@@ -73,7 +61,7 @@ struct _BRB_GET_DEVICE_INTERFACE_STRING {
 ### -field Hdr
 
 A 
-     <a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a> structure that contains information
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff536612">BRB_HEADER</a> structure that contains information
      about the current BRB.
 
 
@@ -101,7 +89,7 @@ To get the device interface string for the current device object, profile driver
     BRB_GET_DEVICE_INTERFACE_STRING</a> request.
 
 The Bluetooth driver stack performs an 
-    <a href="..\wdm\nf-wdm-ioregisterdeviceinterface.md">IoRegisterDeviceInterface</a> call on
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff549506">IoRegisterDeviceInterface</a> call on
     each device object it creates. The BRB returns the device interface string returned by that call. This
     can be useful for registering for events.
 
@@ -114,11 +102,6 @@ If the buffer pointed to by the
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-ioregisterdeviceinterface.md">IoRegisterDeviceInterface</a>
-
-
-
-<a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a>
 
 
 
@@ -127,6 +110,11 @@ If the buffer pointed to by the
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536612">BRB_HEADER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549506">IoRegisterDeviceInterface</a>
  
 
  

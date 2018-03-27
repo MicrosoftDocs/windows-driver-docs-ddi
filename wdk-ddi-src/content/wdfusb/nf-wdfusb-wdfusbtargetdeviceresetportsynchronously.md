@@ -58,16 +58,6 @@ req.product: Windows 10 or later.
 The <b>WdfUsbTargetDeviceResetPortSynchronously</b> method resets the USB port that is associated with the specified USB device.
 
 
-## -syntax
-
-
-````
-NTSTATUS WdfUsbTargetDeviceResetPortSynchronously(
-  _In_ WDFUSBDEVICE UsbDevice
-);
-````
-
-
 ## -parameters
 
 
@@ -75,7 +65,7 @@ NTSTATUS WdfUsbTargetDeviceResetPortSynchronously(
 
 ### -param UsbDevice [in]
 
-A handle to a USB device object that was obtained from a previous call to <a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicecreatewithparameters.md">WdfUsbTargetDeviceCreateWithParameters</a>.
+A handle to a USB device object that was obtained from a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/hh439428">WdfUsbTargetDeviceCreateWithParameters</a>.
 
 
 ## -returns
@@ -116,11 +106,11 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
-The <b>WdfUsbTargetDeviceResetPortSynchronously</b> method resets the USB port by sending an <a href="..\usbioctl\ni-usbioctl-ioctl_internal_usb_reset_port.md">IOCTL_INTERNAL_USB_RESET_PORT</a> request.
+The <b>WdfUsbTargetDeviceResetPortSynchronously</b> method resets the USB port by sending an <a href="https://msdn.microsoft.com/library/windows/hardware/ff537269">IOCTL_INTERNAL_USB_RESET_PORT</a> request.
 
 Before the framework resets the I/O target's USB port, it cancels all I/O requests that remain in the I/O target's queue. The driver must not send additional I/O requests to the I/O target until <b>WdfUsbTargetDeviceResetPortSynchronously</b> returns.
 
-The driver must call <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetstop.md">WdfIoTargetStop</a> before it calls <b>WdfUsbTargetDeviceResetPortSynchronously</b>. After <b>WdfUsbTargetDeviceResetPortSynchronously</b> returns, the driver can call <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetstart.md">WdfIoTargetStart</a>.
+The driver must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff548680">WdfIoTargetStop</a> before it calls <b>WdfUsbTargetDeviceResetPortSynchronously</b>. After <b>WdfUsbTargetDeviceResetPortSynchronously</b> returns, the driver can call <a href="https://msdn.microsoft.com/library/windows/hardware/ff548677">WdfIoTargetStart</a>.
 
 After a successful reset operation, the bus driver reselects the configuration and any alternate interface settings that the device had before the reset operation occurred.
 
@@ -148,10 +138,10 @@ status = WdfUsbTargetDeviceResetPortSynchronously(UsbDevice);</pre>
 
 ## -see-also
 
-<a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicecreatewithparameters.md">WdfUsbTargetDeviceCreateWithParameters</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439428">WdfUsbTargetDeviceCreateWithParameters</a>
  
 
  

@@ -52,18 +52,6 @@ req.typenames: MSiSCSI_InitiatorSessionInfo, *PMSiSCSI_InitiatorSessionInfo
 The MSiSCSI_InitiatorSessionInfo structure contains information about a collection of sessions that belong to the indicated HBA initiator.
 
 
-## -syntax
-
-
-````
-typedef struct _MSiSCSI_InitiatorSessionInfo {
-  ULONGLONG               UniqueAdapterId;
-  ULONG                   SessionCount;
-  ISCSI_SessionStaticInfo SessionsList[1];
-} MSiSCSI_InitiatorSessionInfo, *PMSiSCSI_InitiatorSessionInfo;
-````
-
-
 ## -struct-fields
 
 
@@ -71,7 +59,7 @@ typedef struct _MSiSCSI_InitiatorSessionInfo {
 
 ### -field UniqueAdapterId
 
-A 64-bit integer that uniquely identifies an HBA initiator and a loaded instance of a storage miniport driver that manages the HBA. The initiator should use the address of the adapter extension or another address that the device driver owns to construct this identifier (ID). The initiator reports this value in the <b>UniqueAdapterId</b> member of the <a href="..\iscsimgt\ns-iscsimgt-_msiscsi_hbainformation.md">MSiSCSI_HBAInformation</a> structure.
+A 64-bit integer that uniquely identifies an HBA initiator and a loaded instance of a storage miniport driver that manages the HBA. The initiator should use the address of the adapter extension or another address that the device driver owns to construct this identifier (ID). The initiator reports this value in the <b>UniqueAdapterId</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563012">MSiSCSI_HBAInformation</a> structure.
 
 
 ### -field SessionCount
@@ -81,7 +69,7 @@ The number of sessions that have been established with the provided adapter ID.
 
 ### -field SessionsList
 
-A variable length array of <a href="..\iscsimgt\ns-iscsimgt-_iscsi_sessionstaticinfo.md">ISCSI_SessionStaticInfo</a> structures, which describe the static information that is associated with a session.
+A variable length array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff561565">ISCSI_SessionStaticInfo</a> structures, which describe the static information that is associated with a session.
 
 
 ## -remarks
@@ -95,18 +83,18 @@ You must implement this class.
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561565">ISCSI_SessionStaticInfo</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563012">MSiSCSI_HBAInformation</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563057">MSiSCSI_InitiatorSessionInfo WMI Class</a>
-
-
-
-<a href="..\iscsimgt\ns-iscsimgt-_iscsi_sessionstaticinfo.md">ISCSI_SessionStaticInfo</a>
-
-
-
-<a href="..\iscsimgt\ns-iscsimgt-_msiscsi_hbainformation.md">MSiSCSI_HBAInformation</a>
-
-
-
  
 
  

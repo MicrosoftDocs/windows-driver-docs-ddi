@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
@@ -51,18 +51,6 @@ req.product: Windows 10 or later.
 
 
 <b>RxCancelTimerRequest</b> cancels a recurrent timer request. The request to be canceled is identified by the worker thread routine and associated context. 
-
-
-## -syntax
-
-
-````
-NTSTATUS RxCancelTimerRequest(
-  _In_ PRDBSS_DEVICE_OBJECT     pDeviceObject,
-  _In_ PRX_WORKERTHREAD_ROUTINE Routine,
-  _In_ PVOID                    pContext
-);
-````
 
 
 ## -parameters
@@ -98,7 +86,7 @@ A pointer to the context parameter that was passed to the <b>RxPostRecurrentTime
 
 
 
-A recurrent timer is initialized by calling <a href="..\rxtimer\nf-rxtimer-rxpostrecurrenttimerrequest.md">RxPostRecurrentTimerRequest</a>.
+A recurrent timer is initialized by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff554615">RxPostRecurrentTimerRequest</a>.
 
 If the recurrent timer is not found, this routine will return STATUS_NOT_FOUND.
 
@@ -107,14 +95,14 @@ If the recurrent timer is not found, this routine will return STATUS_NOT_FOUND.
 
 ## -see-also
 
-<a href="..\rxtimer\nf-rxtimer-rxpostoneshottimerrequest.md">RxPostOneShotTimerRequest</a>
 
 
 
-<a href="..\rxtimer\nf-rxtimer-rxpostrecurrenttimerrequest.md">RxPostRecurrentTimerRequest</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554612">RxPostOneShotTimerRequest</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554615">RxPostRecurrentTimerRequest</a>
  
 
  

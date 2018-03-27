@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 Notifies UCX that a remote wake signal from the device is received.
 
 
-## -syntax
-
-
-````
-void UcxUsbDeviceRemoteWakeNotification(
-  [in] UCXUSBDEVICE UsbDevice,
-  [in] ULONG        Interface
-);
-````
-
-
 ## -parameters
 
 
@@ -71,7 +60,7 @@ void UcxUsbDeviceRemoteWakeNotification(
 
 ### -param UsbDevice [in]
 
-A handle to the USB device object for which the remote wake is received. The client driver retrieved the handle in a previous call to <a href="..\ucxusbdevice\nf-ucxusbdevice-ucxusbdevicecreate.md">UcxUsbDeviceCreate</a>.
+A handle to the USB device object for which the remote wake is received. The client driver retrieved the handle in a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/mt188052">UcxUsbDeviceCreate</a>.
 
 
 ### -param Interface [in]
@@ -100,10 +89,10 @@ This method does not return a value.
 
 ## -see-also
 
-<a href="..\ucxusbdevice\nf-ucxusbdevice-ucxusbdevicecreate.md">UcxUsbDeviceCreate</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt188052">UcxUsbDeviceCreate</a>
  
 
  

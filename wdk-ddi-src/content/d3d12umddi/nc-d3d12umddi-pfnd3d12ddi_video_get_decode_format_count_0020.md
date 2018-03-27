@@ -52,27 +52,12 @@ req.typenames: D3D11_1DDI_GETCAPTUREHANDLEDATA
 The <i>pfnGetDecodeFormatCount</i> callback function retrieves the number of formats supported for a decode configuration.
 
 
-## -prototype
-
-
-````
-PFND3D12DDI_VIDEO_GET_DECODE_FORMAT_COUNT_0020 pfnGetDecodeFormatCount;
-
-UINT APIENTRY* pfnGetDecodeFormatCount(
-         D3D12DDI_HDEVICE                    hDrvDevice,
-         UINT                                NodeIndex,
-   const D3D12DDI_VIDEO_DECODE_CONFIGURATION *pConfiguration
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
 
 
-### -param D3D12DDI_HDEVICE
+### -param Arg1
 
 
 ### -param NodeIndex
@@ -96,7 +81,7 @@ The handle of the device.
 
 #### - pConfiguration
 
-The decode configuration for the list of formats.  For more information, see the <a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_video_decode_configuration_flags_0020.md">3D12DDI_VIDEO_DECODE_CONFIGURATION</a> enumeration.
+The decode configuration for the list of formats.  For more information, see the <a href="https://msdn.microsoft.com/33BD5E1F-75F3-44DC-AE83-A22992CAB6B5">3D12DDI_VIDEO_DECODE_CONFIGURATION</a> enumeration.
 
 
 ## -returns
@@ -110,10 +95,10 @@ This function retrieves the number of formats supported for a decode configurati
 
 ## -see-also
 
-<a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_video_decode_configuration_flags_0020.md">3D12DDI_VIDEO_DECODE_CONFIGURATION</a>
 
 
 
+<a href="https://msdn.microsoft.com/33BD5E1F-75F3-44DC-AE83-A22992CAB6B5">3D12DDI_VIDEO_DECODE_CONFIGURATION</a>
  
 
  

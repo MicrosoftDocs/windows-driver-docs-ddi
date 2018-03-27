@@ -49,24 +49,7 @@ req.typenames: D3D10_DDI_STENCIL_OP
 ## -description
 
 
-The D3D10_DDI_STENCIL_OP enumeration type contains values that identify operations on stencil buffers in a call to the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createdepthstencilstate.md">CreateDepthStencilState</a> function.
-
-
-## -syntax
-
-
-````
-typedef enum D3D10_DDI_STENCIL_OP { 
-  D3D10_DDI_STENCIL_OP_KEEP      = 1,
-  D3D10_DDI_STENCIL_OP_ZERO      = 2,
-  D3D10_DDI_STENCIL_OP_REPLACE   = 3,
-  D3D10_DDI_STENCIL_OP_INCR_SAT  = 4,
-  D3D10_DDI_STENCIL_OP_DECR_SAT  = 5,
-  D3D10_DDI_STENCIL_OP_INVERT    = 6,
-  D3D10_DDI_STENCIL_OP_INCR      = 7,
-  D3D10_DDI_STENCIL_OP_DECR      = 8
-} D3D10_DDI_STENCIL_OP;
-````
+The D3D10_DDI_STENCIL_OP enumeration type contains values that identify operations on stencil buffers in a call to the driver's <a href="https://msdn.microsoft.com/ed2da104-c4e8-43eb-80e0-10273b575020">CreateDepthStencilState</a> function.
 
 
 ## -enum-fields
@@ -116,10 +99,10 @@ Decrement the stencil-buffer entry, wrapping to the maximum value if the new val
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createdepthstencilstate.md">CreateDepthStencilState</a>
 
 
 
+<a href="https://msdn.microsoft.com/ed2da104-c4e8-43eb-80e0-10273b575020">CreateDepthStencilState</a>
  
 
  

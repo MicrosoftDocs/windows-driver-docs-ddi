@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: "<= DISPATCH_LEVEL"
+req.irql: See Remarks section.
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -51,19 +51,6 @@ req.product: Windows 10 or later.
 
 
 The VP_DEVICE_DESCRIPTION structure describes the attributes of the physical device for which a driver is requesting a DMA object.
-
-
-## -syntax
-
-
-````
-typedef struct _VP_DEVICE_DESCRIPTION {
-  BOOLEAN ScatterGather;
-  BOOLEAN Dma32BitAddresses;
-  BOOLEAN Dma64BitAddresses;
-  ULONG   MaximumLength;
-} VP_DEVICE_DESCRIPTION, *PVP_DEVICE_DESCRIPTION;
-````
 
 
 ## -struct-fields

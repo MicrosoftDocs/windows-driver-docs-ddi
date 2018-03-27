@@ -52,19 +52,6 @@ req.typenames: FSRTL_PER_FILE_CONTEXT, *PFSRTL_PER_FILE_CONTEXT
 A legacy file system filter driver can use a <b>FSRTL_PER_FILE_CONTEXT</b> structure to associate driver-specific context information to an open file.
 
 
-## -syntax
-
-
-````
-typedef struct _FSRTL_PER_FILE_CONTEXT {
-  LIST_ENTRY     Links;
-  PVOID          OwnerId;
-  PVOID          InstanceId;
-  PFREE_FUNCTION FreeCallback;
-} FSRTL_PER_FILE_CONTEXT, *PFSRTL_PER_FILE_CONTEXT;
-````
-
-
 ## -struct-fields
 
 
@@ -72,7 +59,7 @@ typedef struct _FSRTL_PER_FILE_CONTEXT {
 
 ### -field Links
 
-A link for this structure in the list of all per-file context structures that are associated with the same file. <a href="..\ntifs\nf-ntifs-fsrtlinsertperfilecontext.md">FsRtlInsertPerFileContext</a> inserts this member into the list of all per-file context structures for a file. 
+A link for this structure in the list of all per-file context structures that are associated with the same file. <a href="https://msdn.microsoft.com/library/windows/hardware/ff546184">FsRtlInsertPerFileContext</a> inserts this member into the list of all per-file context structures for a file. 
 
 
 ### -field OwnerId
@@ -94,7 +81,7 @@ A pointer to a <a href="https://msdn.microsoft.com/291b57d9-3bef-4acb-a571-86b67
 
 
 
-In order to associate context information with a file, a legacy filter driver first allocates a <b>FSRTL_PER_FILE_CONTEXT</b> structure and initializes it using <a href="..\ntifs\nf-ntifs-fsrtlinsertperfilecontext.md">FsRtlInsertPerFileContext</a>. The driver then uses <b>FsRtlInsertPerFileContext</b> to associate that <b>FSRTL_PER_FILE_CONTEXT</b> object with the file. When the system tears down the file context object for a file, it calls <a href="..\ntifs\nf-ntifs-fsrtlteardownperfilecontexts.md">FsRtlTeardownPerFileContexts</a> which calls the <i>FreeCallback</i> routine that is specified in the <b>FSRTL_PER_FILE_CONTEXT</b> object. That callback must free the driver-specific context object.
+In order to associate context information with a file, a legacy filter driver first allocates a <b>FSRTL_PER_FILE_CONTEXT</b> structure and initializes it using <a href="https://msdn.microsoft.com/library/windows/hardware/ff546184">FsRtlInsertPerFileContext</a>. The driver then uses <b>FsRtlInsertPerFileContext</b> to associate that <b>FSRTL_PER_FILE_CONTEXT</b> object with the file. When the system tears down the file context object for a file, it calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff547290">FsRtlTeardownPerFileContexts</a> which calls the <i>FreeCallback</i> routine that is specified in the <b>FSRTL_PER_FILE_CONTEXT</b> object. That callback must free the driver-specific context object.
 
 Filter writers should choose an <b>OwnerID</b> value that is both meaningful and convenient, such as the address of a driver object or device object. 
 
@@ -138,7 +125,7 @@ Return value
 
 None.
 
-This macro must be used before calling <a href="..\ntifs\nf-ntifs-fsrtlinsertperfilecontext.md">FsRtlInsertPerFileContext</a>.
+This macro must be used before calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff546184">FsRtlInsertPerFileContext</a>.
 
 Filter writers should choose an <i>OwnerID</i> value that is both meaningful and convenient, such as the address of a driver object or device object. 
 
@@ -151,15 +138,6 @@ For more information about how to use and create context objects, see <a href="h
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551123">PFREE_FUNCTION</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-fsrtlteardownperfilecontexts.md">FsRtlTeardownPerFileContexts</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546161">FsRtlInitPerFileContext</a>
 
 
 
@@ -167,14 +145,23 @@ For more information about how to use and create context objects, see <a href="h
 
 
 
-<a href="..\ntifs\nf-ntifs-fsrtlinsertperfilecontext.md">FsRtlInsertPerFileContext</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546161">FsRtlInitPerFileContext</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546184">FsRtlInsertPerFileContext</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547290">FsRtlTeardownPerFileContexts</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551123">PFREE_FUNCTION</a>
 
 
 
 <a href="https://msdn.microsoft.com/6be3ff10-47e4-47f5-8f15-88a80a16f451">Tracking Per-File Context in a Legacy File System Filter Driver</a>
-
-
-
  
 
  

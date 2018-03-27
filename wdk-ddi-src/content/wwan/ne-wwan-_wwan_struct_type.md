@@ -54,30 +54,6 @@ The WWAN_STRUCT_TYPE enumeration lists the different types of the list elements 
   WWAN_LIST_HEADER object in memory.
 
 
-## -syntax
-
-
-````
-typedef enum _WWAN_STRUCT_TYPE { 
-  WwanStructTN                      = 0,
-  WwanStructContext,
-  WwanStructProvider,
-  WwanStructSmsPdu,
-  WwanStructReserved0,
-  WwanStructReserved1,
-  WwanStructReserved2,
-  WwanStructSmsCdma,
-  WwanStructReserved3,
-  WwanStructDeviceServiceEntry,
-  WwanStructProvider2,
-  WwanStructDeviceServiceGuid,
-  WwanStructDeviceServiceCommandId,
-  WwanStructDeviceCellularClass,
-  WwanStructMax
-} WWAN_STRUCT_TYPE, *PWWAN_STRUCT_TYPE;
-````
-
-
 ## -enum-fields
 
 
@@ -97,7 +73,7 @@ The elements are NULL-terminated strings of Telephone Number (TNs), with each st
 ### -field WwanStructContext
 
 The elements are of type 
-     <a href="..\wwan\ns-wwan-_wwan_context.md">WWAN_CONTEXT</a>.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571201">WWAN_CONTEXT</a>.
      
 
 
@@ -109,7 +85,7 @@ The elements are of type
 ### -field WwanStructProvider
 
 The elements are of type 
-     <a href="..\wwan\ns-wwan-_wwan_provider.md">WWAN_PROVIDER</a>.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571223">WWAN_PROVIDER</a>.
      
 
 Both <a href="https://msdn.microsoft.com/library/windows/hardware/ff569830">OID_WWAN_PREFERRED_PROVIDERS</a> and 
@@ -120,7 +96,7 @@ Both <a href="https://msdn.microsoft.com/library/windows/hardware/ff569830">OID_
 ### -field WwanStructSmsPdu
 
 The elements are of type 
-     <a href="..\wwan\ns-wwan-_wwan_sms_pdu_record.md">WWAN_SMS_PDU_RECORD</a>.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571248">WWAN_SMS_PDU_RECORD</a>.
 
 
 ### -field WwanStructReserved0
@@ -141,7 +117,7 @@ The value is reserved for future use. Do not use.
 ### -field WwanStructSmsCdma
 
 The elements are of type 
-     <a href="..\wwan\ns-wwan-_wwan_sms_cdma_record.md">WWAN_SMS_CDMA_RECORD</a>.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571243">WWAN_SMS_CDMA_RECORD</a>.
 
 
 ### -field WwanStructReserved3
@@ -152,13 +128,13 @@ The value is reserved for future use. Do not use.
 ### -field WwanStructDeviceServiceEntry
 
 The elements are of type 
-     <a href="..\wwan\ns-wwan-_wwan_device_service_entry.md">WWAN_DEVICE_SERVICE_ENTRY</a>.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/hh831870">WWAN_DEVICE_SERVICE_ENTRY</a>.
 
 
 ### -field WwanStructProvider2
 
 The elements are of type 
-     <a href="..\wwan\ns-wwan-_wwan_provider2.md">WWAN_PROVIDER2</a>.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/hh464135">WWAN_PROVIDER2</a>.
 
 The following OIDs use this value to represent a list of network providers for WWAN 2.0 miniport drivers:
 
@@ -223,7 +199,7 @@ The total number of supported types.
 
 #### - WwanStructDeviceCellularClass
 
-The elements are of type <a href="..\wwan\ne-wwan-_wwan_cellular_class.md">WWAN_CELLULAR_CLASS</a>. 
+The elements are of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff571199">WWAN_CELLULAR_CLASS</a>. 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569824">OID_WWAN_DEVICE_CAPS</a> uses this value to represent multiple cellular classes supported by the miniport driver.
@@ -231,15 +207,6 @@ The elements are of type <a href="..\wwan\ne-wwan-_wwan_cellular_class.md">WWAN_
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_provider.md">WWAN_PROVIDER</a>
-
-
-
-<a href="..\wwan\ns-wwan-_wwan_context.md">WWAN_CONTEXT</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569843">OID_WWAN_VISIBLE_PROVIDERS</a>
 
 
 
@@ -247,19 +214,7 @@ The elements are of type <a href="..\wwan\ne-wwan-_wwan_cellular_class.md">WWAN_
 
 
 
-<a href="..\wwan\ns-wwan-_wwan_sms_cdma_record.md">WWAN_SMS_CDMA_RECORD</a>
-
-
-
-<a href="..\wwan\ns-wwan-_wwan_sms_pdu_record.md">WWAN_SMS_PDU_RECORD</a>
-
-
-
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-wwan-provisioned-contexts">OID_WWAN_PROVISIONED_CONTEXTS</a>
-
-
-
-<a href="..\wwan\ns-wwan-_wwan_list_header.md">WWAN_LIST_HEADER</a>
 
 
 
@@ -267,6 +222,27 @@ The elements are of type <a href="..\wwan\ne-wwan-_wwan_cellular_class.md">WWAN_
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569843">OID_WWAN_VISIBLE_PROVIDERS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571201">WWAN_CONTEXT</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571208">WWAN_LIST_HEADER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571223">WWAN_PROVIDER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571243">WWAN_SMS_CDMA_RECORD</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571248">WWAN_SMS_PDU_RECORD</a>
  
 
  

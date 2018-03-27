@@ -49,19 +49,7 @@ req.typenames: SECURE_ELEMENT_AID_ROUTING_INFO, *PSECURE_ELEMENT_AID_ROUTING_INF
 ## -description
 
 
-SECURE_ELEMENT_AID_ROUTING_INFO is a member of <a href="..\nfcsedev\ns-nfcsedev-_secure_element_routing_table_entry.md">SECURE_ELEMENT_ROUTING_TABLE_ENTRY</a>.
-
-
-## -syntax
-
-
-````
-typedef struct _SECURE_ELEMENT_AID_ROUTING_INFO {
-  GUID                                                   guidSecureElementId;
-   _Field_range_(<= , ISO_7816_MAXIMUM_AID_LENGTH) DWORD cbAid;
-   _Field_size_bytes_(cbAid) BYTE                        pbAid[16];
-} SECURE_ELEMENT_AID_ROUTING_INFO, *P_SECURE_ELEMENT_AID_ROUTING_INFO;
-````
+SECURE_ELEMENT_AID_ROUTING_INFO is a member of <a href="https://msdn.microsoft.com/library/windows/hardware/dn905628">SECURE_ELEMENT_ROUTING_TABLE_ENTRY</a>.
 
 
 ## -struct-fields

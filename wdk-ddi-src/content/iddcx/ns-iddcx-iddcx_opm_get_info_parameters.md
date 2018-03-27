@@ -53,17 +53,6 @@ req.typenames:
                  Gives the parameters for the information request.
 
 
-## -syntax
-
-
-````
-typedef struct IDDCX_OPM_GET_INFO_PARAMETERS {
-  UINT                    Size;
-  OPM_GET_INFO_PARAMETERS GetInfoParameters;
-} IDDCX_OPM_GET_INFO_PARAMETERS, *IDDCX_OPM_GET_INFO_PARAMETERS;
-````
-
-
 ## -struct-fields
 
 

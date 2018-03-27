@@ -52,16 +52,6 @@ req.typenames: DXGKARG_UPDATEOVERLAY
 The DXGKARG_UPDATEOVERLAY structure describes parameters for modifying an overlay.
 
 
-## -syntax
-
-
-````
-typedef struct _DXGKARG_UPDATEOVERLAY {
-  DXGK_OVERLAYINFO OverlayInfo;
-} DXGKARG_UPDATEOVERLAY;
-````
-
-
 ## -struct-fields
 
 
@@ -69,19 +59,19 @@ typedef struct _DXGKARG_UPDATEOVERLAY {
 
 ### -field OverlayInfo
 
-[in] A <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_overlayinfo.md">DXGK_OVERLAYINFO</a> structure that contains parameters that are required to modify the overlay.
+[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff561988">DXGK_OVERLAYINFO</a> structure that contains parameters that are required to modify the overlay.
 
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_overlayinfo.md">DXGK_OVERLAYINFO</a>
 
 
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_updateoverlay.md">DxgkDdiUpdateOverlay</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561988">DXGK_OVERLAYINFO</a>
 
 
 
+<a href="https://msdn.microsoft.com/b131dbb9-1e11-4d04-97cb-e15ec2b025c7">DxgkDdiUpdateOverlay</a>
  
 
  

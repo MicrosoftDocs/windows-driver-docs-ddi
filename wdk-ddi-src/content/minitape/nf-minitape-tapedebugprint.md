@@ -53,17 +53,6 @@ req.typenames: TAPE_STATUS, *PTAPE_STATUS
 The <b>TapeDebugPrint</b> routine prints the indicated string.
 
 
-## -syntax
-
-
-````
-VOID TapeDebugPrint(
-   ULONG  DebugPrintLevel,
-   PCCHAR DebugMessage
-);
-````
-
-
 ## -parameters
 
 

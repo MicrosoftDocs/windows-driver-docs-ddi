@@ -52,17 +52,6 @@ req.typenames: VERIFY_INFORMATION, *PVERIFY_INFORMATION
 The VERIFY_INFORMATION structure provides information used to verify the existence of a disk extent.  
 
 
-## -syntax
-
-
-````
-typedef struct _VERIFY_INFORMATION {
-  LARGE_INTEGER StartingOffset;
-  ULONG         Length;
-} VERIFY_INFORMATION, *PVERIFY_INFORMATION;
-````
-
-
 ## -struct-fields
 
 
@@ -82,17 +71,17 @@ Indicates the length, in bytes, of the disk extent.
 
 
 
-VERIFY_INFORMATION is the output buffer for the <a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_verify.md">IOCTL_DISK_VERIFY</a> control code.
+VERIFY_INFORMATION is the output buffer for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560420">IOCTL_DISK_VERIFY</a> control code.
 
 
 
 
 ## -see-also
 
-<a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_verify.md">IOCTL_DISK_VERIFY</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560420">IOCTL_DISK_VERIFY</a>
  
 
  

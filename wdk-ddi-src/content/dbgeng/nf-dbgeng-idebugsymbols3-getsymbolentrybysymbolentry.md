@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -53,18 +53,6 @@ Allows navigation within the
     symbol entry hierarchy.
 
 
-## -syntax
-
-
-````
-HRESULT GetSymbolEntryBySymbolEntry(
-  [in]  PDEBUG_MODULE_AND_ID FromId,
-  [in]  ULONG                Flags,
-  [out] PDEBUG_MODULE_AND_ID ToId
-);
-````
-
-
 ## -parameters
 
 
@@ -72,7 +60,7 @@ HRESULT GetSymbolEntryBySymbolEntry(
 
 ### -param FromId [in]
 
-A pointer to a <a href="..\dbgeng\ns-dbgeng-_debug_module_and_id.md">DEBUG_MODULE_AND_ID</a> structure as the input ID.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541511">DEBUG_MODULE_AND_ID</a> structure as the input ID.
 
 
 ### -param Flags [in]
@@ -82,7 +70,7 @@ A bit-set that contains options that affect the behavior of this method.
 
 ### -param ToId [out]
 
-A pointer to a <a href="..\dbgeng\ns-dbgeng-_debug_module_and_id.md">DEBUG_MODULE_AND_ID</a> structure as the output ID.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541511">DEBUG_MODULE_AND_ID</a> structure as the output ID.
 
 
 ## -returns
@@ -96,14 +84,14 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
 
 
-<a href="..\dbgeng\ns-dbgeng-_debug_module_and_id.md">DEBUG_MODULE_AND_ID</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541511">DEBUG_MODULE_AND_ID</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550870">IDebugSymbols3</a>
  
 
  

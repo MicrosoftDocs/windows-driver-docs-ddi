@@ -52,16 +52,6 @@ req.typenames: DXGK_QAITARGETIN
 Used to integrate a target.
 
 
-## -syntax
-
-
-````
-typedef struct _DXGK_QAITARGETIN {
-  D3DDDI_VIDEO_PRESENT_TARGET_ID TargetId;
-} DXGK_QAITARGETIN;
-````
-
-
 ## -struct-fields
 
 

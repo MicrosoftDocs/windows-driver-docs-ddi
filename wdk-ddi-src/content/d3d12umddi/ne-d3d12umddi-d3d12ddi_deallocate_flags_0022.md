@@ -52,18 +52,6 @@ req.typenames: D3D12DDI_DEALLOCATE_FLAGS_0022
 Defines flags for use in deallocation. 
 
 
-## -syntax
-
-
-````
-typedef enum D3D12DDI_DEALLOCATE_FLAGS_0022 { 
-  D3D12DDI_DEALLOCATE_FLAGS_0022_NONE                 = 0x0,
-  D3D12DDI_DEALLOCATE_FLAGS_0022_ASSUME_NOT_IN_USE    = 0x1,
-  D3D12DDI_DEALLOCATE_FLAGS_0022_SYNCHRONOUS_DESTROY  = 0x2
-} D3D12DDI_DEALLOCATE_FLAGS_0022;
-````
-
-
 ## -enum-fields
 
 

@@ -52,17 +52,6 @@ req.typenames: D3DKMT_CURRENTDISPLAYMODE
 The D3DKMT_CURRENTDISPLAYMODE structure describes the current display mode of the specified video source. 
 
 
-## -syntax
-
-
-````
-typedef struct _D3DKMT_CURRENTDISPLAYMODE {
-  D3DDDI_VIDEO_PRESENT_SOURCE_ID VidPnSourceId;
-  D3DKMT_DISPLAYMODE             DisplayMode;
-} D3DKMT_CURRENTDISPLAYMODE;
-````
-
-
 ## -struct-fields
 
 
@@ -75,19 +64,19 @@ typedef struct _D3DKMT_CURRENTDISPLAYMODE {
 
 ### -field DisplayMode
 
-[out] A <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_displaymode.md">D3DKMT_DISPLAYMODE</a> structure that represents the current display mode.
+[out] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff547942">D3DKMT_DISPLAYMODE</a> structure that represents the current display mode.
 
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_displaymode.md">D3DKMT_DISPLAYMODE</a>
 
 
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtqueryadapterinfo.md">D3DKMTQueryAdapterInfo</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547100">D3DKMTQueryAdapterInfo</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547942">D3DKMT_DISPLAYMODE</a>
  
 
  

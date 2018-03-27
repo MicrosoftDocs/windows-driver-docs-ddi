@@ -54,20 +54,6 @@ req.product: Windows 10 or later.
 The <b>StorPortDeviceBusy</b> routine notifies the port driver that the specified logical unit is currently busy, handling outstanding requests. 
 
 
-## -syntax
-
-
-````
-STORPORT_API BOOLEAN StorPortDeviceBusy(
-  _In_ PVOID HwDeviceExtension,
-  _In_ UCHAR PathId,
-  _In_ UCHAR TargetId,
-  _In_ UCHAR Lun,
-  _In_ ULONG RequestsToComplete
-);
-````
-
-
 ## -parameters
 
 
@@ -75,7 +61,7 @@ STORPORT_API BOOLEAN StorPortDeviceBusy(
 
 ### -param HwDeviceExtension [in]
 
-A pointer to the hardware device extension. This is a per HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the mapped access ranges for the HBA. This area is available to the miniport driver immediately after the miniport driver calls <a href="..\storport\nf-storport-storportinitialize.md">StorPortInitialize</a>. The port driver frees this memory when it removes the device. 
+A pointer to the hardware device extension. This is a per HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the mapped access ranges for the HBA. This area is available to the miniport driver immediately after the miniport driver calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff567108">StorPortInitialize</a>. The port driver frees this memory when it removes the device. 
 
 
 ### -param PathId [in]
@@ -120,14 +106,14 @@ The port driver will not issue any new requests to the logical unit until the lo
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportbusy.md">StorPortBusy</a>
 
 
 
-<a href="..\storport\nf-storport-storportready.md">StorPortReady</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567041">StorPortBusy</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567489">StorPortReady</a>
  
 
  

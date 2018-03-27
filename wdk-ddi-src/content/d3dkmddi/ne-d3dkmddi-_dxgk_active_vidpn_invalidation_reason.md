@@ -52,18 +52,6 @@ req.typenames: DXGK_ACTIVE_VIDPN_INVALIDATION_REASON
 The DXGK_ACTIVE_VIDPN_INVALIDATION_REASON enumeration is used to indicate the reason why an active VidPN is invalidated and a new VidPN is requested.
 
 
-## -syntax
-
-
-````
-typedef enum _DXGK_ACTIVE_VIDPN_INVALIDATION_REASON { 
-  DXGK_AVIR_UNINITIALIZED  = DXGK_RFVR_UNINITIALIZED,
-  DXGK_AVIR_HOTKEY         = DXGK_RFVR_HOTKEY,
-  DXGK_AVIR_USERMODE       = DXGK_RFVR_USERMODE
-} DXGK_ACTIVE_VIDPN_INVALIDATION_REASON;
-````
-
-
 ## -enum-fields
 
 
@@ -81,15 +69,15 @@ Indicates that the user pressed a keyboard shortcut to change the set of monitor
 
 ### -field DXGK_AVIR_USERMODE
 
-Indicates that a call to the <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtinvalidateactivevidpn.md">D3DKMTInvalidateActiveVidPn</a> function has been made in user mode.
+Indicates that a call to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff547023">D3DKMTInvalidateActiveVidPn</a> function has been made in user mode.
 
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtinvalidateactivevidpn.md">D3DKMTInvalidateActiveVidPN</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547023">D3DKMTInvalidateActiveVidPN</a>
  
 
  

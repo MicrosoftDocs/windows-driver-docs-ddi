@@ -57,22 +57,6 @@ guest virtual machine asynchronously fails to connect even though a
 PnP device was located.
 
 
-## -prototype
-
-
-````
-EVT_VMB_CHANNEL_PNP_FAILURE EvtChannelPnpFailure;
-
-VOID EvtChannelPnpFailure(
-  _In_ VMBCHANNEL Channel,
-  _In_ NTSTATUS   FailureStatus
-)
-{ ... }
-
-typedef EVT_VMB_CHANNEL_PNP_FAILURE PFN_VMB_CHANNEL_PNP_FAILURE;
-````
-
-
 ## -parameters
 
 
@@ -101,17 +85,17 @@ This callback function does not return a value.
 
 
 
-The <a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbclientchannelinitsettargetpnp.md">VmbClientChannelInitSetTargetPnp</a> function registers <i>EvtChannelPnpFailure</i> code to run in the event  of this kind of failure. 
+The <a href="https://msdn.microsoft.com/5525FD48-BE65-48CA-B3D5-C96AFD4ECF56">VmbClientChannelInitSetTargetPnp</a> function registers <i>EvtChannelPnpFailure</i> code to run in the event  of this kind of failure. 
 
 
 
 
 ## -see-also
 
-<a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbclientchannelinitsettargetpnp.md">VmbClientChannelInitSetTargetPnp</a>
 
 
 
+<a href="https://msdn.microsoft.com/5525FD48-BE65-48CA-B3D5-C96AFD4ECF56">VmbClientChannelInitSetTargetPnp</a>
  
 
  

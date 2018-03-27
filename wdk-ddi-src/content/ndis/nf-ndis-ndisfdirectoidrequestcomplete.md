@@ -53,20 +53,8 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 Filter drivers call the 
   <b>NdisFDirectOidRequestComplete</b> function to return the final status of a direct OID request for which
   the driver's 
-  <a href="..\ndis\nc-ndis-filter_direct_oid_request.md">FilterDirectOidRequest</a> function
+  <a href="https://msdn.microsoft.com/a39f4b50-0183-4f92-82f2-3c8e2e2d0632">FilterDirectOidRequest</a> function
   returned NDIS_STATUS_PENDING.
-
-
-## -syntax
-
-
-````
-VOID NdisFDirectOidRequestComplete(
-  _In_ NDIS_HANDLE       NdisFilterHandle,
-  _In_ PNDIS_OID_REQUEST OidRequest,
-  _In_ NDIS_STATUS       Status
-);
-````
 
 
 ## -parameters
@@ -78,15 +66,15 @@ VOID NdisFDirectOidRequestComplete(
 
 The NDIS handle that identifies this filter module NDIS passed the handle to the filter driver in
      a call to the 
-     <a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a> function.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff540442">FilterAttach</a> function.
 
 
 ### -param OidRequest [in]
 
 A pointer to a buffer that is formatted as an 
-     <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a> structure. The filter
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566710">NDIS_OID_REQUEST</a> structure. The filter
      driver obtained this pointer as an input parameter to its 
-     <a href="..\ndis\nc-ndis-filter_direct_oid_request.md">
+     <a href="https://msdn.microsoft.com/a39f4b50-0183-4f92-82f2-3c8e2e2d0632">
      FilterDirectOidRequest</a> function.
 
 
@@ -110,15 +98,15 @@ None
 
 
 A filter driver that returns NDIS_STATUS_PENDING from its 
-    <a href="..\ndis\nc-ndis-filter_direct_oid_request.md">FilterDirectOidRequest</a> function
+    <a href="https://msdn.microsoft.com/a39f4b50-0183-4f92-82f2-3c8e2e2d0632">FilterDirectOidRequest</a> function
     must call the 
     <b>NdisFDirectOidRequestComplete</b> function after the driver has finished the request operation.
 
 If an overlying driver originated the direct OID request, NDIS calls the request complete function
     (see 
-    <a href="..\ndis\nc-ndis-protocol_direct_oid_request_complete.md">
+    <a href="https://msdn.microsoft.com/6b23bbba-1b18-4da7-a45c-68df7c960aad">
     ProtocolDirectOidRequestComplete</a> and 
-    <a href="..\ndis\nc-ndis-filter_direct_oid_request_complete.md">
+    <a href="https://msdn.microsoft.com/a97c86e9-4fd9-4e2f-9787-4fa19c38a69b">
     FilterDirectOidRequestComplete</a>) of the overlying driver that originated the request.
 
 
@@ -126,28 +114,28 @@ If an overlying driver originated the direct OID request, NDIS calls the request
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
 
 
 
-<a href="..\ndis\nc-ndis-protocol_direct_oid_request_complete.md">
-   ProtocolDirectOidRequestComplete</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540442">FilterAttach</a>
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
+<a href="https://msdn.microsoft.com/a39f4b50-0183-4f92-82f2-3c8e2e2d0632">FilterDirectOidRequest</a>
 
 
 
-<a href="..\ndis\nc-ndis-filter_direct_oid_request.md">FilterDirectOidRequest</a>
-
-
-
-<a href="..\ndis\nc-ndis-filter_direct_oid_request_complete.md">
+<a href="https://msdn.microsoft.com/a97c86e9-4fd9-4e2f-9787-4fa19c38a69b">
    FilterDirectOidRequestComplete</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566710">NDIS_OID_REQUEST</a>
+
+
+
+<a href="https://msdn.microsoft.com/6b23bbba-1b18-4da7-a45c-68df7c960aad">
+   ProtocolDirectOidRequestComplete</a>
  
 
  

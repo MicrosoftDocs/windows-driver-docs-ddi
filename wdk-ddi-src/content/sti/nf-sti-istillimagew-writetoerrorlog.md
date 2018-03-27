@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: sti.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,17 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>IStillImage::WriteToErrorLog </b>method writes a message to the still image error log.
-
-
-## -syntax
-
-
-````
-HRESULT WriteToErrorLog(
-       DWORD   dwMessageType,
-  [in] LPCWSTR pszMessage
-);
-````
 
 
 ## -parameters

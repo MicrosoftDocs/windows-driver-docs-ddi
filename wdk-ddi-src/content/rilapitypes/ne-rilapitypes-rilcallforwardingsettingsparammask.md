@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -51,20 +51,6 @@ req.product: Windows 10 or later.
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef enum _RILCALLFORWARDINGSETTINGSPARAMMASK { 
-  RIL_PARAM_CFS_INFOCLASSES,
-  RIL_PARAM_CFS_ADDRESS,
-  RIL_PARAM_CFS_SUBADDRESS,
-  RIL_PARAM_CFS_DELAYTIME,
-  RIL_PARAM_CFS_ALL
-} RILCALLFORWARDINGSETTINGSPARAMMASK;
-````
 
 
 ## -enum-fields

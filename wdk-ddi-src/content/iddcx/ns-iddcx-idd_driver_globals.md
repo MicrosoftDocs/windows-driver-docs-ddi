@@ -54,16 +54,6 @@ req.typenames: IDD_DRIVER_GLOBALS, *PIDD_DRIVER_GLOBALS, IDD_DRIVER_GLOBALS, *PI
              
 
 
-## -syntax
-
-
-````
-typedef struct IDD_DRIVER_GLOBALS {
-  ULONG Reserved;
-} IDD_DRIVER_GLOBALS, *IDD_DRIVER_GLOBALS;
-````
-
-
 ## -struct-fields
 
 

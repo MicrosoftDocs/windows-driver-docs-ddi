@@ -55,16 +55,6 @@ req.typenames: D3DKMT_DRIVERVERSION
 The <b>D3DKMTGetDisplayModeList</b> function retrieves a list of available display modes, including modes with extended format.
 
 
-## -syntax
-
-
-````
-NTSTATUS D3DKMTGetDisplayModeList(
-  _Inout_ D3DKMT_GETDISPLAYMODELIST *pData
-);
-````
-
-
 ## -parameters
 
 
@@ -74,7 +64,7 @@ NTSTATUS D3DKMTGetDisplayModeList(
 
 #### - pData [in, out]
 
-A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_getdisplaymodelist.md">D3DKMT_GETDISPLAYMODELIST</a> structure that describes a list of available display modes.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff548036">D3DKMT_GETDISPLAYMODELIST</a> structure that describes a list of available display modes.
 
 
 ## -returns
@@ -117,7 +107,7 @@ The graphics adapter was stopped.
 </dl>
 </td>
 <td width="60%">
-The buffer that the OpenGL ICD supplied in the <b>pModeList</b> member of <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_getdisplaymodelist.md">D3DKMT_GETDISPLAYMODELIST</a> that the <i>pData</i> parameter points to is not large enough to contain the requested display mode list. 
+The buffer that the OpenGL ICD supplied in the <b>pModeList</b> member of <a href="https://msdn.microsoft.com/library/windows/hardware/ff548036">D3DKMT_GETDISPLAYMODELIST</a> that the <i>pData</i> parameter points to is not large enough to contain the requested display mode list. 
 
 </td>
 </tr>
@@ -128,7 +118,7 @@ The buffer that the OpenGL ICD supplied in the <b>pModeList</b> member of <a hre
 </dl>
 </td>
 <td width="60%">
-No video present target is available for use with the video present source that is identified by the <b>VidPnSourceId</b> member of <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_getdisplaymodelist.md">D3DKMT_GETDISPLAYMODELIST</a> that the <i>pData</i> parameter points to. Therefore, no display modes are available for this source. 
+No video present target is available for use with the video present source that is identified by the <b>VidPnSourceId</b> member of <a href="https://msdn.microsoft.com/library/windows/hardware/ff548036">D3DKMT_GETDISPLAYMODELIST</a> that the <i>pData</i> parameter points to. Therefore, no display modes are available for this source. 
 
 </td>
 </tr>
@@ -153,10 +143,10 @@ This function might also return other <b>NTSTATUS</b> values.
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_getdisplaymodelist.md">D3DKMT_GETDISPLAYMODELIST</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548036">D3DKMT_GETDISPLAYMODELIST</a>
  
 
  

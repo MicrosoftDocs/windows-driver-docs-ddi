@@ -54,17 +54,6 @@ req.typenames:
              
 
 
-## -syntax
-
-
-````
-typedef struct IDARG_IN_MONITORCREATE {
-  PWDF_OBJECT_ATTRIBUTES ObjectAttributes;
-  IDDCX_MONITOR_INFO*    pMonitorInfo;
-} IDARG_IN_MONITORCREATE, *IDARG_IN_MONITORCREATE;
-````
-
-
 ## -struct-fields
 
 

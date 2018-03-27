@@ -52,23 +52,6 @@ req.typenames: D3DDDI_CREATEDEVICEFLAGS
 The D3DDDI_CREATEDEVICEFLAGS structure describes how to create a device.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DDDI_CREATEDEVICEFLAGS {
-  union {
-    struct {
-      UINT AllowMultithreading  :1;
-      UINT AllowFlipBatching  :1;
-      UINT Reserved  :30;
-    };
-    UINT   Value;
-  };
-} D3DDDI_CREATEDEVICEFLAGS;
-````
-
-
 ## -struct-fields
 
 
@@ -83,9 +66,9 @@ Setting this member is equivalent to setting the first bit of the 32-bit <b>Valu
 
 ### -field AllowFlipBatching
 
-A UINT value that specifies whether the user-mode display driver can queue flip operation requests so the driver can process them later on another thread. This flag applies only to when a driver implements its own threading. In this situation, the driver is not required to immediately call the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_presentcb.md">pfnPresentCb</a> function when its <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_present.md">Present</a> function is called. 
+A UINT value that specifies whether the user-mode display driver can queue flip operation requests so the driver can process them later on another thread. This flag applies only to when a driver implements its own threading. In this situation, the driver is not required to immediately call the <a href="https://msdn.microsoft.com/460b9be5-5817-4225-9089-f86ad64f4554">pfnPresentCb</a> function when its <a href="https://msdn.microsoft.com/e90683b4-64b6-4018-96a5-b50118df3367">Present</a> function is called. 
 
-The Direct3D runtime enforces a queued present limit (currently set to 1) to ensure that frame latency stays at a reasonable level. If an application initiates a call to the driver's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_present.md">Present</a> function while another present operation is queued, the current version of the runtime will flush the queued present. However, drivers should not rely on this behavior because the queued present limit might change in future versions of the runtime.
+The Direct3D runtime enforces a queued present limit (currently set to 1) to ensure that frame latency stays at a reasonable level. If an application initiates a call to the driver's <a href="https://msdn.microsoft.com/e90683b4-64b6-4018-96a5-b50118df3367">Present</a> function while another present operation is queued, the current version of the runtime will flush the queued present. However, drivers should not rely on this behavior because the queued present limit might change in future versions of the runtime.
 
 Setting this member is equivalent to setting the second bit of the 32-bit <b>Value</b> member (0x00000002).
 
@@ -102,14 +85,14 @@ A member in the union that is contained in D3DDDI_CREATEDEVICEFLAGS that can hol
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createdevice.md">D3DDDIARG_CREATEDEVICE</a>
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createdevice.md">CreateDevice</a>
+<a href="https://msdn.microsoft.com/ce35bdac-af90-471f-af93-0e665be6c7f6">CreateDevice</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542931">D3DDDIARG_CREATEDEVICE</a>
  
 
  

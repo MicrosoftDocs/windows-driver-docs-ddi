@@ -52,19 +52,6 @@ req.typenames: DRMRIGHTS, *PDRMRIGHTS
 Called by the Microsoft DirectX Graphics Infrastructure (DXGI) runtime to notify  the user-mode display driver that an application finished rendering and requests that the driver display the source surface by either copying or flipping or that the driver perform a color-fill operation. Must be implemented by Windows Display Driver Model (WDDM) 1.3 or later drivers that support multiplane overlays.
 
 
-## -prototype
-
-
-````
-PFNDDXGIDDI_PRESENT_MULTIPLANE_OVERLAYCB pfnPresentMultiPlaneOverlayCb;
-
-HRESULT __stdcall* pfnPresentMultiPlaneOverlayCb(
-   DXGI_DDI_ARG_PRESENTMULTIPLANEOVERLAY *pPresentDXGI
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -84,7 +71,7 @@ HRESULT __stdcall* pfnPresentMultiPlaneOverlayCb(
 
 #### - pPresentDXGI
 
-A pointer to a <a href="..\dxgiddi\ns-dxgiddi-_dxgi_ddi_arg_presentmultiplaneoverlay.md">DXGI_DDI_ARG_PRESENTMULTIPLANEOVERLAY</a> structure that describes how to display to the destination surface. 
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh780280">DXGI_DDI_ARG_PRESENTMULTIPLANEOVERLAY</a> structure that describes how to display to the destination surface. 
 
 
 ## -returns
@@ -107,14 +94,14 @@ When the user-mode display driver successfully completes its processing of a cal
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh780280">DXGI_DDI_ARG_PRESENTMULTIPLANEOVERLAY</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh780324">pfnPresentMultiPlaneOverlayCb (DXGI)</a>
-
-
-
-<a href="..\dxgiddi\ns-dxgiddi-_dxgi_ddi_arg_presentmultiplaneoverlay.md">DXGI_DDI_ARG_PRESENTMULTIPLANEOVERLAY</a>
-
-
-
  
 
  

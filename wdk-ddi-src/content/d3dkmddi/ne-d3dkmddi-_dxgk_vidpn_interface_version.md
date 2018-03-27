@@ -52,17 +52,6 @@ req.typenames: DXGK_VIDPN_INTERFACE_VERSION
 The DXGK_VIDPN_INTERFACE_VERSION enumeration indicates the version of a video present network (VidPN) interface.
 
 
-## -syntax
-
-
-````
-typedef enum _DXGK_VIDPN_INTERFACE_VERSION { 
-  DXGK_VIDPN_INTERFACE_VERSION_UNINITIALIZED  = 0,
-  DXGK_VIDPN_INTERFACE_VERSION_V1             = 1
-} DXGK_VIDPN_INTERFACE_VERSION;
-````
-
-
 ## -enum-fields
 
 
@@ -82,17 +71,17 @@ Indicates version 1 of the VidPN interface.
 
 
 
-The <i>VidPnInterfaceVersion</i> parameter of the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_queryvidpninterface.md">DxgkCbQueryVidPnInterface</a> function and the <b>Version</b> member of the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_vidpn_interface.md">DXGK_VIDPN_INTERFACE</a> structure are DXGK_VIDPN_INTERFACE_VERSION values.
+The <i>VidPnInterfaceVersion</i> parameter of the <a href="https://msdn.microsoft.com/649ce7fc-6852-43f3-b944-b2b64fcba874">DxgkCbQueryVidPnInterface</a> function and the <b>Version</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562108">DXGK_VIDPN_INTERFACE</a> structure are DXGK_VIDPN_INTERFACE_VERSION values.
 
 
 
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff570556">VidPn Interface</a>
-
-
-
  
 
  

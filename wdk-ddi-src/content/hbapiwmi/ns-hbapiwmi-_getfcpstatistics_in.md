@@ -52,16 +52,6 @@ req.typenames: GetFCPStatistics_IN, *PGetFCPStatistics_IN
 The GetFCPStatistics_IN structure is used to deliver input parameter data to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554939">GetFCPStatistics</a> WMI method. 
 
 
-## -syntax
-
-
-````
-typedef struct _GetFCPStatistics_IN {
-  HBAScsiID ScsiId;
-} GetFCPStatistics_IN, *PGetFCPStatistics_IN;
-````
-
-
 ## -struct-fields
 
 
@@ -69,7 +59,7 @@ typedef struct _GetFCPStatistics_IN {
 
 ### -field ScsiId
 
-Contains a structure of type <a href="..\hbapiwmi\ns-hbapiwmi-_hbascsiid.md">HBAScsiID</a> that uniquely identifies a logical unit and the bus and HBA that the logical unit is connected to.
+Contains a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff556042">HBAScsiID</a> that uniquely identifies a logical unit and the bus and HBA that the logical unit is connected to.
 
 
 ## -remarks
@@ -83,14 +73,14 @@ The WMI tool suite generates a declaration of the GetFCPStatistics_IN structure 
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554939">GetFCPStatistics</a>
 
 
 
-<a href="..\hbapiwmi\ns-hbapiwmi-_hbascsiid.md">HBAScsiID</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556042">HBAScsiID</a>
  
 
  

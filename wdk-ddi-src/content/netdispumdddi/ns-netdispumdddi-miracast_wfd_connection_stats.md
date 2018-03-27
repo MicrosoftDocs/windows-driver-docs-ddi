@@ -52,18 +52,6 @@ req.typenames: MIRACAST_WFD_CONNECTION_STATS
 Contains bit rate info on the Wi-Fi Direct connection.
 
 
-## -syntax
-
-
-````
-typedef struct {
-  UINT64 CurrentBitRate;
-  UINT64 LocalMaxBitRate;
-  UINT64 RemoteMaxBitRate;
-} MIRACAST_WFD_CONNECTION_STATS;
-````
-
-
 ## -struct-fields
 
 
