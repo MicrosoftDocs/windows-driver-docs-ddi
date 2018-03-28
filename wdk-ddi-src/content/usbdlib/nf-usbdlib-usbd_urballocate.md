@@ -112,7 +112,7 @@ You must call <a href="..\usbdlib\nf-usbdlib-usbd_urbfree.md">USBD_UrbFree</a> t
 
 #### Examples
 
-The following code example shows how to allocate, submit, and release a URB. The example submits the URB synchronously.
+The following code example shows how to allocate, submit, and release a URB. The example submits the URB synchronously. For the implementation of the SubmitUrbSync function, see the example section in [How to Submit an URB](https://docs.microsoft.com/en-us/windows-hardware/drivers/usbcon/send-requests-to-the-usb-driver-stack).
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -169,7 +169,7 @@ CreateandSubmitURBExit:
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450844">Allocating and Building URBs</a>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/usbcon/how-to-add-xrb-support-for-client-drivers">Allocating and Building URBs</a>
 
 
 
