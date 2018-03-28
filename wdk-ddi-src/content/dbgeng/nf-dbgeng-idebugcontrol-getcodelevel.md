@@ -7,7 +7,7 @@ old-location: debugger\getcodelevel.htm
 old-project: debugger
 ms.assetid: 965565ee-ef4c-4a1d-a6f1-77b6d63c6ee8
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: GetCodeLevel method [Windows Debugging], GetCodeLevel method [Windows Debugging], IDebugControl interface, GetCodeLevel method [Windows Debugging], IDebugControl2 interface, GetCodeLevel method [Windows Debugging], IDebugControl3 interface, GetCodeLevel,IDebugControl.GetCodeLevel, IDebugControl, IDebugControl interface [Windows Debugging], GetCodeLevel method, IDebugControl2 interface [Windows Debugging], GetCodeLevel method, IDebugControl2::GetCodeLevel, IDebugControl3 interface [Windows Debugging], GetCodeLevel method, IDebugControl3::GetCodeLevel, IDebugControl::GetCodeLevel, IDebugControl_8533dd3f-f004-4d89-9f02-b7835fc6169e.xml, dbgeng/IDebugControl2::GetCodeLevel, dbgeng/IDebugControl3::GetCodeLevel, dbgeng/IDebugControl::GetCodeLevel, debugger.getcodelevel
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -151,5 +151,5 @@ For more information about the code level, see <a href="https://msdn.microsoft.c
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl::GetCodeLevel method%20 RELEASE:%20(2/27/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl::GetCodeLevel method%20 RELEASE:%20(3/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

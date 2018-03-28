@@ -80,9 +80,9 @@ The <b>CreateShaderResourceView</b> function creates a shader resource view.
  A handle to the display device (graphics context).
 
 
-#### - hRTShaderResourceView [in]
+#### - pCreateShaderResourceView [in]
 
- A handle to the shader resource view that the driver should use anytime it calls back into the Direct3D runtime. 
+ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541708">D3D10DDIARG_CREATESHADERRESOURCEVIEW</a> structure that describes the parameters that the user-mode display driver uses to create a shader resource view. 
 
 
 #### - hShaderResourceView [in]
@@ -90,9 +90,9 @@ The <b>CreateShaderResourceView</b> function creates a shader resource view.
  A handle to the driver's private data for the shader resource view. The driver returns the size, in bytes, of the memory region that the Microsoft Direct3D runtime must allocate for the private data from a call to the driver's <a href="https://msdn.microsoft.com/2abf5ca9-974b-40d7-b71c-43c4fb33dd7c">CalcPrivateShaderResourceViewSize</a> function. The handle is really just a pointer to a region of memory, the size of which the driver requested. The driver uses this region of memory to store internal data structures that are related to its shader resource view object. 
 
 
-#### - pCreateShaderResourceView [in]
+#### - hRTShaderResourceView [in]
 
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541708">D3D10DDIARG_CREATESHADERRESOURCEVIEW</a> structure that describes the parameters that the user-mode display driver uses to create a shader resource view. 
+ A handle to the shader resource view that the driver should use anytime it calls back into the Direct3D runtime. 
 
 
 ## -returns

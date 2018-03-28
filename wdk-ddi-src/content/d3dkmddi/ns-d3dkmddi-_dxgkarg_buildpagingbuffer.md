@@ -563,9 +563,9 @@ This member is reserved and should not be used.
 
 
 
-#### - CopyPageTableEntries
+#### - TransferVirtual
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/dn894164">DXGK_BUILDPAGINGBUFFER_COPYPAGETABLEENTRIES</a> structure that describes the operation used copy page table entries from one location to another. 
+A <a href="https://msdn.microsoft.com/library/windows/hardware/dn894169">DXGK_BUILDPAGINGBUFFER_TRANSFERVIRTUAL</a> structure that describes the operation used to transfer allocation content between locations in memory. 
 
 
 #### - FillVirtual
@@ -573,19 +573,19 @@ A <a href="https://msdn.microsoft.com/library/windows/hardware/dn894164">DXGK_BU
 A <a href="https://msdn.microsoft.com/library/windows/hardware/dn894166">DXGK_BUILDPAGINGBUFFER_FILLVIRTUAL</a> structure that describes the operation used to fill an allocation with a pattern. 
 
 
+#### - UpdatePageTable
+
+A <a href="https://msdn.microsoft.com/library/windows/hardware/dn894171">DXGK_BUILDPAGINGBUFFER_UPDATEPAGETABLE</a> structure that describes the operation used to update a page table. 
+
+
 #### - FlushTlb
 
 A <a href="https://msdn.microsoft.com/library/windows/hardware/dn894167">DXGK_BUILDPAGINGBUFFER_FLUSHTLB</a> structure that describes the operation used to flush the translation look-aside buffers. 
 
 
-#### - NotifyResidency
+#### - CopyPageTableEntries
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/dn894168">DXGK_BUILDPAGINGBUFFER_NOTIFYRESIDENCY</a> structure that describes a residency allocation change operation. 
-
-
-#### - TransferVirtual
-
-A <a href="https://msdn.microsoft.com/library/windows/hardware/dn894169">DXGK_BUILDPAGINGBUFFER_TRANSFERVIRTUAL</a> structure that describes the operation used to transfer allocation content between locations in memory. 
+A <a href="https://msdn.microsoft.com/library/windows/hardware/dn894164">DXGK_BUILDPAGINGBUFFER_COPYPAGETABLEENTRIES</a> structure that describes the operation used copy page table entries from one location to another. 
 
 
 #### - UpdateContextAllocation
@@ -593,9 +593,9 @@ A <a href="https://msdn.microsoft.com/library/windows/hardware/dn894169">DXGK_BU
 A <a href="https://msdn.microsoft.com/library/windows/hardware/dn894170">DXGK_BUILDPAGINGBUFFER_UPDATECONTEXTALLOCATION</a> structure that describes the operation used to update the content of a context or device allocation.
 
 
-#### - UpdatePageTable
+#### - NotifyResidency
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/dn894171">DXGK_BUILDPAGINGBUFFER_UPDATEPAGETABLE</a> structure that describes the operation used to update a page table. 
+A <a href="https://msdn.microsoft.com/library/windows/hardware/dn894168">DXGK_BUILDPAGINGBUFFER_NOTIFYRESIDENCY</a> structure that describes a residency allocation change operation. 
 
 
 ## -remarks

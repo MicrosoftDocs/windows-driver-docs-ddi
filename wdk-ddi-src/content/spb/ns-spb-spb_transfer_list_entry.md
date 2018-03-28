@@ -100,7 +100,11 @@ To request an I/O transfer sequence for a target device on the bus, a client (pe
 
 ## -see-also
 
+<<<<<<< HEAD
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh406218">SPB_TRANSFER_DESCRIPTOR</a>
+=======
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450857">IOCTL_SPB_EXECUTE_SEQUENCE</a>
+>>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
 
 
 
@@ -108,6 +112,7 @@ To request an I/O transfer sequence for a target device on the bus, a client (pe
 
 
 
+<<<<<<< HEAD
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh406220">SPB_TRANSFER_DIRECTION</a>
 
 
@@ -117,6 +122,17 @@ To request an I/O transfer sequence for a target device on the bus, a client (pe
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh450857">IOCTL_SPB_EXECUTE_SEQUENCE</a>
+=======
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406215">SPB_TRANSFER_BUFFER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406220">SPB_TRANSFER_DIRECTION</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406218">SPB_TRANSFER_DESCRIPTOR</a>
+>>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
 
 
 

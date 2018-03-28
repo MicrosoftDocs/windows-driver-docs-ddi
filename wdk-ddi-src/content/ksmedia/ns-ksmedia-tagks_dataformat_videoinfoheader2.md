@@ -89,6 +89,7 @@ Minidrivers that do not need to specify bob or weave settings may use the <a hre
 
 ## -see-also
 
+<<<<<<< HEAD
 <a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a>
 
 
@@ -98,10 +99,21 @@ Minidrivers that do not need to specify bob or weave settings may use the <a hre
 
 
 <a href="..\ksmedia\ns-ksmedia-tagks_videoinfoheader2.md">KS_VIDEOINFOHEADER2</a>
+=======
+<a href="..\ksmedia\ns-ksmedia-tagks_videoinfoheader.md">KS_VIDEOINFOHEADER</a>
 
 
 
 <a href="..\ksmedia\ns-ksmedia-tagks_dataformat_videoinfoheader.md">KS_DATAFORMAT_VIDEOINFOHEADER</a>
+
+
+
+<a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a>
+>>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
+
+
+
+<a href="..\ksmedia\ns-ksmedia-tagks_videoinfoheader2.md">KS_VIDEOINFOHEADER2</a>
 
 
 

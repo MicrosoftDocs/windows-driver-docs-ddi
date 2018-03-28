@@ -7,7 +7,7 @@ old-location: netvista\net_device_pnp_event.htm
 old-project: netvista
 ms.assetid: 79298332-2d34-4ef3-ad43-5d218e3f6612
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*PNET_DEVICE_PNP_EVENT, NET_DEVICE_PNP_EVENT, NET_DEVICE_PNP_EVENT structure [Network Drivers Starting with Windows Vista], PNET_DEVICE_PNP_EVENT, PNET_DEVICE_PNP_EVENT structure pointer [Network Drivers Starting with Windows Vista], _NET_DEVICE_PNP_EVENT, miniport_structures_ref_42938d80-a578-40a4-ba12-0285d7c258eb.xml, ndis/NET_DEVICE_PNP_EVENT, ndis/PNET_DEVICE_PNP_EVENT, netvista.net_device_pnp_event"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -169,5 +169,5 @@ To provide a device PnP event notification, NDIS passes a pointer to a <b>NET_DE
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NET_DEVICE_PNP_EVENT structure%20 RELEASE:%20(2/27/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NET_DEVICE_PNP_EVENT structure%20 RELEASE:%20(3/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

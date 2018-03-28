@@ -66,14 +66,14 @@ DD_GETD3DQUERYDATA is the data structure pointed to by the <b>lpvData</b> field 
 Specifies a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551548">DD_GETDRIVERINFO2DATA</a> structure that contains the <b>GetDriverInfo2</b> data.
 
 
-#### - QueryType
-
-Receives a value from the D3DQUERYTYPE enumeration that specifies the actual query capability.
-
-
 #### - dwQueryIndex
 
 Specifies the index of the query type to return.
+
+
+#### - QueryType
+
+Receives a value from the D3DQUERYTYPE enumeration that specifies the actual query capability.
 
 
 ## -remarks

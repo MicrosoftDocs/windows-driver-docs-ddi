@@ -78,14 +78,14 @@ TBD
 Pointer to a memory location that receives the length, in bytes, of the string value pointed to by the <i>pwszValue</i> parameter. The length includes the terminating null character.
 
 
-#### - pwszValue [out]
-
-Pointer to a memory location that receives the string value, including a terminating null character.
-
-
 #### - pwszValueName [in]
 
 Points to the first character of a Unicode string containing the name of the registry entry.
+
+
+#### - pwszValue [out]
+
+Pointer to a memory location that receives the string value, including a terminating null character.
 
 
 ## -returns

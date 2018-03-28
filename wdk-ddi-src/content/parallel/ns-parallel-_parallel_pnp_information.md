@@ -205,7 +205,11 @@ For more information, see <a href="https://msdn.microsoft.com/d8ae2296-05b6-419a
 
 ## -see-also
 
+<<<<<<< HEAD
 <a href="..\parallel\ni-parallel-ioctl_internal_get_parallel_port_info.md">IOCTL_INTERNAL_GET_PARALLEL_PORT_INFO</a>
+=======
+<a href="..\parallel\nc-parallel-pparallel_deselect_routine.md">PPARALLEL_DESELECT_ROUTINE</a>
+>>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
 
 
 
@@ -213,6 +217,7 @@ For more information, see <a href="https://msdn.microsoft.com/d8ae2296-05b6-419a
 
 
 
+<<<<<<< HEAD
 <a href="..\parallel\ns-parallel-_parallel_port_information.md">PARALLEL_PORT_INFORMATION</a>
 
 
@@ -222,22 +227,41 @@ For more information, see <a href="https://msdn.microsoft.com/d8ae2296-05b6-419a
 
 
 <a href="..\parallel\ns-parallel-_more_parallel_port_information.md">MORE_PARALLEL_PORT_INFORMATION</a>
+=======
+<a href="..\parallel\ni-parallel-ioctl_internal_get_more_parallel_port_info.md">IOCTL_INTERNAL_GET_MORE_PARALLEL_PORT_INFO</a>
+
+
+
+<a href="..\parallel\ns-parallel-_parallel_port_information.md">PARALLEL_PORT_INFORMATION</a>
 
 
 
 <a href="..\parallel\nc-parallel-pparallel_set_chip_mode.md">PPARALLEL_SET_CHIP_MODE</a>
+>>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
 
 
 
+<a href="..\parallel\ni-parallel-ioctl_internal_get_parallel_port_info.md">IOCTL_INTERNAL_GET_PARALLEL_PORT_INFO</a>
+
+
+
+<<<<<<< HEAD
 <a href="..\parallel\nc-parallel-pparallel_deselect_routine.md">PPARALLEL_DESELECT_ROUTINE</a>
 
 
 
 <a href="..\parallel\nc-parallel-pparallel_clear_chip_mode.md">PPARALLEL_CLEAR_CHIP_MODE</a>
+=======
+<a href="..\parallel\ns-parallel-_more_parallel_port_information.md">MORE_PARALLEL_PORT_INFORMATION</a>
 
 
 
 <a href="..\parallel\ni-parallel-ioctl_internal_get_parallel_pnp_info.md">IOCTL_INTERNAL_GET_PARALLEL_PNP_INFO</a>
+>>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
+
+
+
+<a href="..\parallel\nc-parallel-pparallel_clear_chip_mode.md">PPARALLEL_CLEAR_CHIP_MODE</a>
 
 
 

@@ -69,16 +69,6 @@ The <b>SE_TOKEN_USER</b> structure holds the maximum-sized valid user SID that c
 
 
 
-#### - Buffer
-
-Specifies an array of SECURITY_MAX_SID_SIZE for allocating enough memory for the largest possible SID size.
-
-
-#### - Sid
-
-Specifies a <b>Security Identifier (SID)</b> structure used to uniquely identify users or groups
-
-
 #### - TokenUser
 
 Specifies a <b>TOKEN_USER</b> structure representing the user associated with an access token.
@@ -87,6 +77,16 @@ Specifies a <b>TOKEN_USER</b> structure representing the user associated with an
 #### - User
 
 Specifies an <b>SID_AND_ATTRIBUTES</b> structure representing the user associated with the access token.
+
+
+#### - Sid
+
+Specifies a <b>Security Identifier (SID)</b> structure used to uniquely identify users or groups
+
+
+#### - Buffer
+
+Specifies an array of SECURITY_MAX_SID_SIZE for allocating enough memory for the largest possible SID size.
 
 
 ## -see-also

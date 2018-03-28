@@ -74,9 +74,9 @@ TBD
 
 
 
-#### - LargeLbn [out]
+#### - OpaqueMcb [in]
 
-Pointer to a variable that receives the logical block number (LBN) that is mapped to the VBN pointed to by <i>LargeVbn</i>, or -1 if no such LBN exists. 
+Pointer to an initialized MCB structure to be searched. 
 
 
 #### - LargeVbn [out]
@@ -84,9 +84,9 @@ Pointer to a variable that receives the logical block number (LBN) that is mappe
 Pointer to a variable that receives the last virtual block number (VBN) that was mapped.
 
 
-#### - OpaqueMcb [in]
+#### - LargeLbn [out]
 
-Pointer to an initialized MCB structure to be searched. 
+Pointer to a variable that receives the logical block number (LBN) that is mapped to the VBN pointed to by <i>LargeVbn</i>, or -1 if no such LBN exists. 
 
 
 ## -returns

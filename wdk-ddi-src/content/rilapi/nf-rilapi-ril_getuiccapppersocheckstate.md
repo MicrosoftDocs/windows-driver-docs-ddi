@@ -7,7 +7,7 @@ old-location: netvista\ril_getuiccapppersocheckstate.htm
 old-project: netvista
 ms.assetid: 328f6ac4-e045-4197-a74c-607e98ba606c
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: RIL_GetUiccAppPersoCheckState, RIL_GetUiccAppPersoCheckState method [Network Drivers Starting with Windows Vista], netvista.ril_getuiccapppersocheckstate, rilapi/RIL_GetUiccAppPersoCheckState
 ms.prod: windows-hardware
 ms.technology: windows-devices

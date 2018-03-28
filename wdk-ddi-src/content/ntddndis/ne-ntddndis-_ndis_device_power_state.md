@@ -7,7 +7,7 @@ old-location: netvista\ndis_device_power_state.htm
 old-project: netvista
 ms.assetid: d241b0ee-7b13-453d-ac6a-015b82effb95
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*PNDIS_DEVICE_POWER_STATE, NDIS_DEVICE_POWER_STATE, NDIS_DEVICE_POWER_STATE enumeration [Network Drivers Starting with Windows Vista], NdisDeviceStateD0, NdisDeviceStateD1, NdisDeviceStateD2, NdisDeviceStateD3, NdisDeviceStateMaximum, NdisDeviceStateUnspecified, PNDIS_DEVICE_POWER_STATE, PNDIS_DEVICE_POWER_STATE enumeration pointer [Network Drivers Starting with Windows Vista], _NDIS_DEVICE_POWER_STATE, netvista.ndis_device_power_state, ntddndis/NDIS_DEVICE_POWER_STATE, ntddndis/NdisDeviceStateD0, ntddndis/NdisDeviceStateD1, ntddndis/NdisDeviceStateD2, ntddndis/NdisDeviceStateD3, ntddndis/NdisDeviceStateMaximum, ntddndis/NdisDeviceStateUnspecified, ntddndis/PNDIS_DEVICE_POWER_STATE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -153,5 +153,5 @@ Depending on the capabilities of the network adapter and its miniport driver, th
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_DEVICE_POWER_STATE enumeration%20 RELEASE:%20(2/27/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_DEVICE_POWER_STATE enumeration%20 RELEASE:%20(3/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

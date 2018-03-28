@@ -80,25 +80,6 @@ Sets the planar alpha for an input stream on the video processor.
 
 
 
-#### - Alpha [in]
-
-A pointer to a <b>FLOAT</b> value that specifies the planar alpha value. The value can range from 0.0 (transparent) to 1.0 (opaque). 
-
-<div class="alert"><b>Note</b>  If the <i>Enable</i> parameter is <b>FALSE</b>, this parameter is ignored.
-
-</div>
-<div> </div>
-
-#### - Enable [in]
-
-If <b>TRUE</b>, alpha blending is to be enabled on the video processor.
-
-
-#### - StreamIndex [in]
-
-The zero-based index of the input stream.
-
-
 #### - hDevice [in]
 
 A handle to the display device (graphics context).
@@ -112,6 +93,25 @@ A handle to the video processor object that was created through a call to the <a
 
 
 
+
+#### - StreamIndex [in]
+
+The zero-based index of the input stream.
+
+
+#### - Enable [in]
+
+If <b>TRUE</b>, alpha blending is to be enabled on the video processor.
+
+
+#### - Alpha [in]
+
+A pointer to a <b>FLOAT</b> value that specifies the planar alpha value. The value can range from 0.0 (transparent) to 1.0 (opaque). 
+
+<div class="alert"><b>Note</b>  If the <i>Enable</i> parameter is <b>FALSE</b>, this parameter is ignored.
+
+</div>
+<div> </div>
 
 ## -returns
 

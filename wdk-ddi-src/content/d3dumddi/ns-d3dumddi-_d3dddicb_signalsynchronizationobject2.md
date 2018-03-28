@@ -91,16 +91,16 @@ All synchronization objects must be created on the same logical adapter as the  
 All contexts must be created for the same Direct3D device and the context that is specified by <b>hContext</b>.
 
 
-#### - CpuEventHandle
-
-[in] The handle of an event object that will be signaled when the signal command is processed. This member must be set only when <b>Flags</b>.<b>EnqueueCpuEvent</b> is specified.
-
-
 #### - FenceValue
 
 [in] A 64-bit value that specifies the current fence value of the GPU synchronization object.
 
 This value applies only if the GPU synchronization object is of type <b>D3DDDI_FENCE</b>—namely, the <b>Type</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff544658">D3DDDI_SYNCHRONIZATIONOBJECTINFO2</a> structure has a value of <b>D3DDDI_FENCE</b>.
+
+
+#### - CpuEventHandle
+
+[in] The handle of an event object that will be signaled when the signal command is processed. This member must be set only when <b>Flags</b>.<b>EnqueueCpuEvent</b> is specified.
 
 
 ## -see-also

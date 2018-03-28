@@ -75,14 +75,14 @@ The <b>IWiaMiniDrv::drvUnLockWiaDevice</b> method unlocks the WIA hardware devic
 
 
 
-#### - lFlags [in]
-
-Is currently unused. 
-
-
 #### - pWiasContext [in]
 
 Pointer to a WIA item context.
+
+
+#### - lFlags [in]
+
+Is currently unused. 
 
 
 #### - plDevErrVal [out]

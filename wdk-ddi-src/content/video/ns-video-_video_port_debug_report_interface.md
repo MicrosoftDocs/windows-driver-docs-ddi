@@ -83,11 +83,6 @@ Pointer to an interface reference function that is implemented by the video port
 Pointer to an interface dereference function that is implemented by the video port driver.
 
 
-#### - DbgReportComplete
-
-The DbgReportComplete function closes an error report and frees any resources associated with the report.
-
-
 #### - DbgReportCreate
 
 The DbgReportCreate function creates an initial error report.
@@ -96,6 +91,11 @@ The DbgReportCreate function creates an initial error report.
 #### - DbgReportSecondaryData
 
 The DbgReportSecondaryData function appends data to an initial error report that was previously created by DbgReportCreate.
+
+
+#### - DbgReportComplete
+
+The DbgReportComplete function closes an error report and frees any resources associated with the report.
 
 
 ## -remarks

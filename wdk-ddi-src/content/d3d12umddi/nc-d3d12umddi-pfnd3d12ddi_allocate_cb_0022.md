@@ -69,14 +69,14 @@ The <i>pfnAllocateCb</i> callback function controls heap allocation by using a <
 
 
 
-#### - Allocate [in, out]
-
-A <a href="https://msdn.microsoft.com/C39262BA-D1CE-4634-974A-ACCE8D321830">D3D12DDICB_ALLOCATE_0022</a> structure that contains information for an allocation.
-
-
 #### - hRTDevice [in]
 
 The handle for a device.
+
+
+#### - Allocate [in, out]
+
+A <a href="https://msdn.microsoft.com/C39262BA-D1CE-4634-974A-ACCE8D321830">D3D12DDICB_ALLOCATE_0022</a> structure that contains information for an allocation.
 
 
 ## -returns

@@ -85,14 +85,14 @@ Converts pixel shader code into a hardware-specific format and associates this c
  A handle to the display device (graphics context).
 
 
-#### - hRTShader
-
- A handle to the geometry shader that the driver should use when it calls back into the Direct3D runtime.
-
-
 #### - hShader
 
  A handle to the driver's private data for the pixel shader. The driver returns the size, in bytes, of the memory region that the Microsoft Direct3D runtime must allocate for the private data from a call to the driver's <a href="https://msdn.microsoft.com/e23c267f-41df-47a6-ae43-3bbcb48fd300">CalcPrivateShaderSize(D3D11_1)</a> function. The handle is really just a pointer to a region of memory, the size of which the driver requested. The driver uses this region of memory to store internal data structures that are related to its shader object.
+
+
+#### - hRTShader
+
+ A handle to the geometry shader that the driver should use when it calls back into the Direct3D runtime.
 
 
 #### - pSignatures [in]

@@ -7,7 +7,7 @@ old-location: debugger\getconstantnamewide.htm
 old-project: debugger
 ms.assetid: 743d2f83-905b-4bc9-8e23-b330c3ca7629
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: GetConstantNameWide method [Windows Debugging], GetConstantNameWide method [Windows Debugging], IDebugSymbols3 interface, GetConstantNameWide,IDebugSymbols3.GetConstantNameWide, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetConstantNameWide method, IDebugSymbols3::GetConstantNameWide, dbgeng/IDebugSymbols3::GetConstantNameWide, debugger.getconstantnamewide
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -72,9 +72,9 @@ The <b>Draw</b> function draws nonindexed primitives.
 
 
 
-#### - StartVertexLocation [in]
+#### - hDevice [in]
 
- The first vertex in the vertex buffer that vertices are read from to draw the primitives.
+ A handle to the display device (graphics context).
 
 
 #### - VertexCount [in]
@@ -82,9 +82,9 @@ The <b>Draw</b> function draws nonindexed primitives.
  The number of vertices in the vertex buffer that vertices are read from to draw the primitives.
 
 
-#### - hDevice [in]
+#### - StartVertexLocation [in]
 
- A handle to the display device (graphics context).
+ The first vertex in the vertex buffer that vertices are read from to draw the primitives.
 
 
 ## -returns

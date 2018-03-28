@@ -2,7 +2,7 @@
 UID: NA:wlanihv
 ms.assetid: 6ebdf373-6cfd-3d8c-9d68-fedb007caffd
 ms.author: windowsdriverdev
-ms.date: 02/27/18
+ms.date: 03/13/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

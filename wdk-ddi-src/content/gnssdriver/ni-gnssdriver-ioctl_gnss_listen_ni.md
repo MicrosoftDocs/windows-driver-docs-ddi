@@ -46,11 +46,6 @@ req.typenames: GNSS_SUPL_CERT_ACTION
 # IOCTL_GNSS_LISTEN_NI IOCTL
 
 
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
-
 ## -description
 
 
@@ -136,7 +131,11 @@ These certificates, which are specified by the mobile operator and configured vi
 
 ## -see-also
 
+<<<<<<< HEAD
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff542894">Creating IOCTL Requests in Drivers</a>
+=======
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
+>>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
 
 
 
@@ -148,7 +147,11 @@ These certificates, which are specified by the mobile operator and configured vi
 
 
 
+<<<<<<< HEAD
 <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
+=======
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
+>>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
 
 
 

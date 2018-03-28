@@ -72,14 +72,14 @@ TBD
 
 
 
-#### - hr
-
-Specifies the HRESULT value to be translated into a string.
-
-
 #### - pIWiaLog
 
 Pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff543935">IWiaLog Interface</a>.
+
+
+#### - hr
+
+Specifies the HRESULT value to be translated into a string.
 
 
 ## -remarks

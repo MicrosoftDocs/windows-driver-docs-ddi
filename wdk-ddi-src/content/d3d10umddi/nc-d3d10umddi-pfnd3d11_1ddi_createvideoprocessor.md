@@ -82,9 +82,9 @@ A handle to the display device (graphics context).
 
 
 
-#### - hRTVideoProcessor [in]
+#### - pCreateData [in]
 
-A handle to the video processor object that the driver should use when it calls back into the Direct3D runtime.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh406314">D3D11_1DDIARG_CREATEVIDEOPROCESSOR</a> structure. This structure specifies the attributes of the video processor object to be created.
 
 
 #### - hVideoProcessor [in]
@@ -92,9 +92,9 @@ A handle to the video processor object that the driver should use when it calls 
 A handle to the driver's private data for the video processor object. For more information, see the Remarks section.
 
 
-#### - pCreateData [in]
+#### - hRTVideoProcessor [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh406314">D3D11_1DDIARG_CREATEVIDEOPROCESSOR</a> structure. This structure specifies the attributes of the video processor object to be created.
+A handle to the video processor object that the driver should use when it calls back into the Direct3D runtime.
 
 
 ## -returns

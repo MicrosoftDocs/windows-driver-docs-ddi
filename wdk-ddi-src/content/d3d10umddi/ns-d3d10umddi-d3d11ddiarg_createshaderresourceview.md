@@ -77,11 +77,6 @@ The D3D11DDIARG_CREATESHADERRESOURCEVIEW structure describes the shader resource
 [in] If the value in the <b>ResourceDimension</b> member is set to D3D10DDIRESOURCE_BUFFER, a member in the union that is contained in D3D11DDIARG_CREATESHADERRESOURCEVIEW that can hold a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541645">D3D10DDIARG_BUFFER_SHADERRESOURCEVIEW</a> structure for a buffer. 
 
 
-#### - BufferEx
-
-[in] If the value in the <b>ResourceDimension</b> member is set to D3D11DDIRESOURCE_BUFFEREX, a member in the union that is contained in D3D11DDIARG_CREATESHADERRESOURCEVIEW that can hold a <a href="https://msdn.microsoft.com/library/windows/hardware/ff542025">D3D11DDIARG_BUFFEREX_SHADERRESOURCEVIEW</a> structure for a buffer. 
-
-
 #### - Tex1D
 
 [in] If the value in the <b>ResourceDimension</b> member is set to D3D10DDIRESOURCE_TEXTURE1D, a member in the union that is contained in D3D11DDIARG_CREATESHADERRESOURCEVIEW that can hold a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541760">D3D10DDIARG_TEX1D_SHADERRESOURCEVIEW</a> structure for a one-dimensional texture. 
@@ -100,6 +95,11 @@ The D3D11DDIARG_CREATESHADERRESOURCEVIEW structure describes the shader resource
 #### - TexCube
 
 [in] If the value in the <b>ResourceDimension</b> member is set to D3D10DDIRESOURCE_TEXTURECUBE, a member in the union that is contained in D3D11DDIARG_CREATESHADERRESOURCEVIEW that can hold a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541865">D3D10_1DDIARG_TEXCUBE_SHADERRESOURCEVIEW</a> structure for a cube texture. 
+
+
+#### - BufferEx
+
+[in] If the value in the <b>ResourceDimension</b> member is set to D3D11DDIRESOURCE_BUFFEREX, a member in the union that is contained in D3D11DDIARG_CREATESHADERRESOURCEVIEW that can hold a <a href="https://msdn.microsoft.com/library/windows/hardware/ff542025">D3D11DDIARG_BUFFEREX_SHADERRESOURCEVIEW</a> structure for a buffer. 
 
 
 ## -see-also

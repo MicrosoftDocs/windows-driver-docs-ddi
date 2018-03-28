@@ -78,6 +78,11 @@ The <b>AgpAllocatePool</b> function reserves, commits, and maps AGP memory.
 
 
 
+#### - Context [in]
+
+A handle to a context block associated with an AGP interface. The display miniport driver previously received this handle in the <b>Context</b> member of the DXGK_AGP_INTERFACE structure that was filled in by <a href="https://msdn.microsoft.com/0ce5df90-2019-4a92-97d6-0218acc8b1e8">DxgkCbQueryServices</a>.
+
+
 #### - AllocationSize [in]
 
 The size, in bytes, of the AGP memory to be allocated.
@@ -86,11 +91,6 @@ The size, in bytes, of the AGP memory to be allocated.
 #### - CacheType [in]
 
 A constant from the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554430">MEMORY_CACHING_TYPE</a> enumeration that specifies whether the CPU can use caching or write combining when it accesses the allocated AGP memory.
-
-
-#### - Context [in]
-
-A handle to a context block associated with an AGP interface. The display miniport driver previously received this handle in the <b>Context</b> member of the DXGK_AGP_INTERFACE structure that was filled in by <a href="https://msdn.microsoft.com/0ce5df90-2019-4a92-97d6-0218acc8b1e8">DxgkCbQueryServices</a>.
 
 
 #### - PhysicalAddress [out]

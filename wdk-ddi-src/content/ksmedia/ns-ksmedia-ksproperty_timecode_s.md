@@ -80,11 +80,15 @@ Specifies the timecode sample. Timecode, absolute track number (ATN) and relativ
 
 ## -see-also
 
+<<<<<<< HEAD
 <a href="..\ksmedia\ns-ksmedia-tagtimecode_sample.md">TIMECODE_SAMPLE</a>
-
-
-
+=======
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
+>>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
+
+
+
+<a href="..\ksmedia\ns-ksmedia-tagtimecode_sample.md">TIMECODE_SAMPLE</a>
 
 
 

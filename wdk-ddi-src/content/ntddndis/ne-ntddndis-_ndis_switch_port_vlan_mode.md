@@ -7,7 +7,7 @@ old-location: netvista\ndis_switch_port_vlan_mode.htm
 old-project: netvista
 ms.assetid: 87828768-BE97-4549-AC5B-7CB27D0A9720
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*PNDIS_SWITCH_PORT_VLAN_MODE, NDIS_SWITCH_PORT_VLAN_MODE, NDIS_SWITCH_PORT_VLAN_MODE enumeration [Network Drivers Starting with Windows Vista], NdisSwitchPortVlanModeAccess, NdisSwitchPortVlanModeMax, NdisSwitchPortVlanModePrivate, NdisSwitchPortVlanModeTrunk, NdisSwitchPortVlanModeUnknown, PNDIS_SWITCH_PORT_VLAN_MODE, PNDIS_SWITCH_PORT_VLAN_MODE enumeration pointer [Network Drivers Starting with Windows Vista], _NDIS_SWITCH_PORT_VLAN_MODE, netvista.ndis_switch_port_vlan_mode, ntddndis/NDIS_SWITCH_PORT_VLAN_MODE, ntddndis/NdisSwitchPortVlanModeAccess, ntddndis/NdisSwitchPortVlanModeMax, ntddndis/NdisSwitchPortVlanModePrivate, ntddndis/NdisSwitchPortVlanModeTrunk, ntddndis/NdisSwitchPortVlanModeUnknown, ntddndis/PNDIS_SWITCH_PORT_VLAN_MODE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -120,5 +120,5 @@ For more information about extensible switch port policies, see <a href="https:/
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_SWITCH_PORT_VLAN_MODE enumeration%20 RELEASE:%20(2/27/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_SWITCH_PORT_VLAN_MODE enumeration%20 RELEASE:%20(3/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

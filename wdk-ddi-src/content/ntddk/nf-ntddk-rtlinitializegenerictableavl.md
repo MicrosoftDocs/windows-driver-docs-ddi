@@ -243,11 +243,19 @@ Callers of <b>RtlInitializeGenericTableAvl</b> must be running at IRQL &lt;= DIS
 
 ## -see-also
 
+<<<<<<< HEAD
 <a href="..\ntddk\nf-ntddk-rtlenumerategenerictableavl.md">RtlEnumerateGenericTableAvl</a>
 
 
 
 <a href="..\ntddk\nf-ntddk-rtldeleteelementgenerictableavl.md">RtlDeleteElementGenericTableAvl</a>
+=======
+<a href="..\ntddk\nf-ntddk-rtlinitializegenerictable.md">RtlInitializeGenericTable</a>
+
+
+
+<a href="..\wdm\nf-wdm-exinitializefastmutex.md">ExInitializeFastMutex</a>
+>>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
 
 
 
@@ -255,7 +263,7 @@ Callers of <b>RtlInitializeGenericTableAvl</b> must be running at IRQL &lt;= DIS
 
 
 
-<a href="..\ntddk\nf-ntddk-rtlgetelementgenerictable.md">RtlGetElementGenericTableAvl</a>
+<a href="..\ntddk\nf-ntddk-rtllookupelementgenerictableavl.md">RtlLookupElementGenericTableAvl</a>
 
 
 
@@ -263,11 +271,15 @@ Callers of <b>RtlInitializeGenericTableAvl</b> must be running at IRQL &lt;= DIS
 
 
 
+<<<<<<< HEAD
 <a href="..\wdm\nf-wdm-exinitializefastmutex.md">ExInitializeFastMutex</a>
+=======
+<a href="..\ntddk\nf-ntddk-rtldeleteelementgenerictableavl.md">RtlDeleteElementGenericTableAvl</a>
+>>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
 
 
 
-<a href="..\ntddk\nf-ntddk-rtlinitializegenerictable.md">RtlInitializeGenericTable</a>
+<a href="..\ntddk\nf-ntddk-rtlgetelementgenerictable.md">RtlGetElementGenericTableAvl</a>
 
 
 

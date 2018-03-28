@@ -189,15 +189,19 @@ If the system is unable to determine values for <b>PhysicalBytesPerSectorForAtom
 
 ## -see-also
 
+<<<<<<< HEAD
 <a href="..\fltkernel\nf-fltkernel-fltqueryvolumeinformation.md">FltQueryVolumeInformation</a>
 
 
 
 <a href="..\ntddk\ns-ntddk-_file_fs_size_information.md">FILE_FS_SIZE_INFORMATION</a>
-
-
-
+=======
 <a href="..\ntddk\ns-ntddk-_file_fs_full_size_information.md">FILE_FS_FULL_SIZE_INFORMATION</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-zwqueryvolumeinformationfile.md">ZwQueryVolumeInformationFile</a>
+>>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
 
 
 
@@ -205,7 +209,19 @@ If the system is unable to determine values for <b>PhysicalBytesPerSectorForAtom
 
 
 
+<<<<<<< HEAD
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549318">IRP_MJ_QUERY_VOLUME_INFORMATION</a>
+
+
+
 <a href="..\ntifs\nf-ntifs-fsrtlgetsectorsizeinformation.md">FsRtlGetSectorSizeInformation</a>
+=======
+<a href="..\ntifs\nf-ntifs-fsrtlgetsectorsizeinformation.md">FsRtlGetSectorSizeInformation</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltqueryvolumeinformation.md">FltQueryVolumeInformation</a>
+>>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
 
 
 

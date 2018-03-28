@@ -80,9 +80,9 @@ Creates a rasterizer state.
 A handle to the display device (graphics context).
 
 
-#### - hRTRasterizerState
+#### - pRasterizerDesc [in]
 
-A handle to the rasterizer state that the driver should use when it calls back into the Direct3D runtime.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh451052">D3D11_1_DDI_RASTERIZER_DESC</a> structure that describes the parameters that the user-mode display driver uses to create a rasterizer state.
 
 
 #### - hRasterizerState
@@ -90,9 +90,9 @@ A handle to the rasterizer state that the driver should use when it calls back i
 A handle to the driver's private data for the rasterizer state. The driver returns the size, in bytes, of the memory region that the Direct3D runtime must allocate for the private data from a call to the driver's <a href="https://msdn.microsoft.com/76d0228e-a6e5-425e-a2b6-7d719dbfa43d">CalcPrivateRasterizerStateSize(D3D11_1)</a> function. The handle is really just a pointer to a region of memory, the size of which the driver requested. The driver uses this region of memory to store internal data structures that are related to its rasterizer state object.
 
 
-#### - pRasterizerDesc [in]
+#### - hRTRasterizerState
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh451052">D3D11_1_DDI_RASTERIZER_DESC</a> structure that describes the parameters that the user-mode display driver uses to create a rasterizer state.
+A handle to the rasterizer state that the driver should use when it calls back into the Direct3D runtime.
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: netvista\clientcleanupbindingcontext.htm
 old-project: netvista
 ms.assetid: eebffed4-a2e0-4743-871b-f50f0cdda30d
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: ClientCleanupBindingContext, ClientCleanupBindingContext callback function [Network Drivers Starting with Windows Vista], NPI_CLIENT_CLEANUP_BINDING_CONTEXT_FN, PNPI_CLIENT_CLEANUP_BINDING_CONTEXT_FN, PNPI_CLIENT_CLEANUP_BINDING_CONTEXT_FN callback function [Network Drivers Starting with Windows Vista], netioddk/ClientCleanupBindingContext, netvista.clientcleanupbindingcontext, nmrref_75483511-e903-4f9d-bc78-29e823b22f8f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -133,5 +133,5 @@ The NMR calls a client module's
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NPI_CLIENT_CLEANUP_BINDING_CONTEXT_FN callback function%20 RELEASE:%20(2/27/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NPI_CLIENT_CLEANUP_BINDING_CONTEXT_FN callback function%20 RELEASE:%20(3/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

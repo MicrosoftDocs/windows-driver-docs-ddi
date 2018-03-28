@@ -7,7 +7,7 @@ old-location: netvista\wwan_voice_call_state.htm
 old-project: netvista
 ms.assetid: 50b85fc0-b84a-4c1d-9d7b-4b91150f8e76
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*PWWAN_VOICE_CALL_STATE, PWWAN_VOICE_CALL_STATE, PWWAN_VOICE_CALL_STATE enumeration pointer [Network Drivers Starting with Windows Vista], WWAN_VOICE_CALL_STATE, WWAN_VOICE_CALL_STATE enumeration [Network Drivers Starting with Windows Vista], WwanRef_65c4ae25-c50f-4527-95fd-043730c736e4.xml, WwanVoiceCallStateHangUp, WwanVoiceCallStateInProgress, WwanVoiceCallStateMaximum, WwanVoiceCallStateNone, _WWAN_VOICE_CALL_STATE, netvista.wwan_voice_call_state, wwan/PWWAN_VOICE_CALL_STATE, wwan/WWAN_VOICE_CALL_STATE, wwan/WwanVoiceCallStateHangUp, wwan/WwanVoiceCallStateInProgress, wwan/WwanVoiceCallStateMaximum, wwan/WwanVoiceCallStateNone"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -91,5 +91,5 @@ The total number of supported voice call states.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20WWAN_VOICE_CALL_STATE enumeration%20 RELEASE:%20(2/27/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20WWAN_VOICE_CALL_STATE enumeration%20 RELEASE:%20(3/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

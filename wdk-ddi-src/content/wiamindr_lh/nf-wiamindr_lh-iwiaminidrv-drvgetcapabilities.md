@@ -85,6 +85,11 @@ The <b>IWiaMiniDrv::drvGetCapabilities</b> method returns an array of events and
 
 
 
+#### - pWiasContext [in]
+
+Pointer to a WIA item context.
+
+
 #### - lFlags [in]
 
 Specifies whether the array pointed to by <i>ppCapabilites</i> consists of commands, or events, or both. This parameter can be either of the following flags or of both of them combined by an OR operator.
@@ -118,24 +123,19 @@ The array consists of device events.
  
 
 
-#### - pWiasContext [in]
-
-Pointer to a WIA item context.
-
-
 #### - pcelt [out]
 
 Points to a memory location that will receive the number of elements in the array pointed to by the <i>ppCapabilities</i> parameter.
 
 
-#### - plDevErrVal [out]
-
-Points to a memory location that will receive a status code for this method. If this method returns S_OK, the value stored will be zero. Otherwise, a minidriver-specific error code will be stored at the location pointed to by this parameter.
-
-
 #### - ppCapabilities [out, optional]
 
 Points to a memory location that will receive the address of the first element of an array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff550233">WIA_DEV_CAP_DRV</a> structures that contain the GUIDs of events and commands that the device supports. 
+
+
+#### - plDevErrVal [out]
+
+Points to a memory location that will receive a status code for this method. If this method returns S_OK, the value stored will be zero. Otherwise, a minidriver-specific error code will be stored at the location pointed to by this parameter.
 
 
 ## -returns

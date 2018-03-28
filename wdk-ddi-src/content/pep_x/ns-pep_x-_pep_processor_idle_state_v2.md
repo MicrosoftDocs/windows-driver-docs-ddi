@@ -172,6 +172,11 @@ Whether a coordinated transition to this processor idle state is performed auton
 Reserved for future use. Set to zero.
 
 
+##### - ( unnamed union ).Ulong
+
+Flag bits and status fields accessed as a single 32-bit unsigned integer value.
+
+
 ##### - ( unnamed union ).( unnamed struct )
 
 Flag bits and status fields accessed as individual bitfields.
@@ -223,11 +228,6 @@ Whether a coordinated transition to this processor idle state is performed auton
 ##### ( unnamed struct ).Reserved
 
 Reserved for future use. Set to zero.
-
-
-##### - ( unnamed union ).Ulong
-
-Flag bits and status fields accessed as a single 32-bit unsigned integer value.
 
 
 ## -remarks

@@ -81,21 +81,6 @@ The <i>ResourceResolveSubresource</i> function resolves multiple samples to one 
 
 
 
-#### - DstSubresource [in]
-
- An index that indicates the destination subresource to resolve to. 
-
-
-#### - ResolveFormat [in]
-
- A DXGI_FORMAT-typed value that indicates how to interpret the contents of the resolved resource.
-
-
-#### - SrcSubresource [in]
-
- An index that indicates the source subresource to resolve from. 
-
-
 #### - hDevice [in]
 
  A handle to the display device (graphics context).
@@ -106,9 +91,24 @@ The <i>ResourceResolveSubresource</i> function resolves multiple samples to one 
  A handle to the destination resource to resolve to. This resource must have been created as D3D10_USAGE_DEFAULT and single sampled.
 
 
+#### - DstSubresource [in]
+
+ An index that indicates the destination subresource to resolve to. 
+
+
 #### - hSrcResource [in]
 
  A handle to the source resource to resolve from.
+
+
+#### - SrcSubresource [in]
+
+ An index that indicates the source subresource to resolve from. 
+
+
+#### - ResolveFormat [in]
+
+ A DXGI_FORMAT-typed value that indicates how to interpret the contents of the resolved resource.
 
 
 ## -returns

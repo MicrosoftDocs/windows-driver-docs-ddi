@@ -403,6 +403,38 @@ The driver uses a DWORD data type without a default value to detect the patch to
 This render state notifies the driver that a patch is to be deleted. The value of this render state is the handle to the patch affected. All cached information should be freed and the handle should be removed from the driver's patch handle table. This render state is not visible to applications but is generated internally when an application calls the <b>DeletePatch</b> function. This render state is sent to the driver only when patches are deleted by <b>DeletePatch</b> explicitly. All other patches should be cleaned up when the device is destroyed.
 
 
+#### - D3DRS_MAXVERTEXSHADERINST
+
+<b>DirectX 9.0 and later versions only.</b>
+
+Determines the maximum number of instructions that the vertex shader assembler can execute.
+
+The driver uses a DWORD data type with a default value of D3DINFINITEINSTRUCTIONS (0xffffffff) to report the maximum number of vertex-shader instructions.
+This maximum number depends on the version of the vertex shader that the display device supports as shown in the following table.
+
+<table>
+<tr>
+<th>Version</th>
+<th>Maximum number</th>
+</tr>
+<tr>
+<td>earlier than 2_0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2_0 and later</td>
+<td>From 2¹⁶ (0x0000ffff) to D3DINFINITEINSTRUCTIONS</td>
+</tr>
+</table>
+ 
+
+D3DINFINITEINSTRUCTIONS represents a virtually unlimited amount.
+
+Valid values for this render state are numbers that are powers of 2; if the driver sets any other integer, the runtime uses the next nearest power of 2 number.
+
+The runtime sets the <b>MaxVShaderInstructionsExecuted</b> member of the D3DCAPS9 structure to this maximum number.
+
+
 #### - D3DRS_MAXPIXELSHADERINST
 
 <b>DirectX 9.0 and later versions only.</b>
@@ -427,38 +459,6 @@ This maximum number depends on the version of the pixel shader that the display 
 </tr>
 <tr>
 <td>3_0 and later</td>
-<td>From 2¹⁶ (0x0000ffff) to D3DINFINITEINSTRUCTIONS</td>
-</tr>
-</table>
- 
-
-D3DINFINITEINSTRUCTIONS represents a virtually unlimited amount.
-
-Valid values for this render state are numbers that are powers of 2; if the driver sets any other integer, the runtime uses the next nearest power of 2 number.
-
-The runtime sets the <b>MaxVShaderInstructionsExecuted</b> member of the D3DCAPS9 structure to this maximum number.
-
-
-#### - D3DRS_MAXVERTEXSHADERINST
-
-<b>DirectX 9.0 and later versions only.</b>
-
-Determines the maximum number of instructions that the vertex shader assembler can execute.
-
-The driver uses a DWORD data type with a default value of D3DINFINITEINSTRUCTIONS (0xffffffff) to report the maximum number of vertex-shader instructions.
-This maximum number depends on the version of the vertex shader that the display device supports as shown in the following table.
-
-<table>
-<tr>
-<th>Version</th>
-<th>Maximum number</th>
-</tr>
-<tr>
-<td>earlier than 2_0</td>
-<td>0</td>
-</tr>
-<tr>
-<td>2_0 and later</td>
 <td>From 2¹⁶ (0x0000ffff) to D3DINFINITEINSTRUCTIONS</td>
 </tr>
 </table>

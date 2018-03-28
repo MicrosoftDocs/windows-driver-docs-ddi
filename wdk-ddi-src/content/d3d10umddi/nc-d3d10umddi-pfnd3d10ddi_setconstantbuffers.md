@@ -77,14 +77,14 @@ The <b>CsSetConstantBuffers</b> function sets constant buffers for a compute sha
 
 
 
-#### - StartBuffer [in]
-
- The starting constant buffer to set. 
-
-
 #### - hDevice [in]
 
  A handle to the display device (graphics context).
+
+
+#### - StartBuffer [in]
+
+ The starting constant buffer to set. 
 
 
 #### - phBuffers [in]

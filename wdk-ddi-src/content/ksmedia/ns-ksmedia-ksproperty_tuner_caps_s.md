@@ -156,7 +156,7 @@ Specifies a unique GUID representing the hardware connection of the analog radio
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565825">KSPROPERTY_TUNER_CAPS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
 
 
 
@@ -168,7 +168,11 @@ Specifies a unique GUID representing the hardware connection of the analog radio
 
 
 
+<<<<<<< HEAD
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567800">PROPSETID_TUNER</a>
+=======
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565825">KSPROPERTY_TUNER_CAPS</a>
+>>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
 
 
 

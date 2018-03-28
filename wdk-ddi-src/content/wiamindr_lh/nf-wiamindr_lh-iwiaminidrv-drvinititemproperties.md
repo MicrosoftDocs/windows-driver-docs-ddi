@@ -75,14 +75,14 @@ The<b> IWiaMiniDrv::drvInitItemProperties</b> method initializes WIA driver item
 
 
 
-#### - lFlags [in]
-
-Is reserved. Set to zero. 
-
-
 #### - pWiasContext [in]
 
 Pointer to a WIA item context.
+
+
+#### - lFlags [in]
+
+Is reserved. Set to zero. 
 
 
 #### - plDevErrVal [out]

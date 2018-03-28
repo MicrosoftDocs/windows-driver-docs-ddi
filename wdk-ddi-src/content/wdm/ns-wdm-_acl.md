@@ -164,6 +164,7 @@ ACL and ACE structures must be aligned on 32-bit boundaries.
 
 ## -see-also
 
+<<<<<<< HEAD
 <a href="..\ntifs\nf-ntifs-rtladdaccessallowedace.md">RtlAddAccessAllowedAce</a>
 
 
@@ -177,6 +178,12 @@ ACL and ACE structures must be aligned on 32-bit boundaries.
 
 
 <a href="..\ntifs\ns-ntifs-_system_audit_ace.md">SYSTEM_AUDIT_ACE</a>
+=======
+<a href="..\ntifs\ns-ntifs-_access_allowed_ace.md">ACCESS_ALLOWED_ACE</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-rtladdaccessallowedace.md">RtlAddAccessAllowedAce</a>
 
 
 
@@ -184,6 +191,16 @@ ACL and ACE structures must be aligned on 32-bit boundaries.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538844">ACE</a>
+>>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
+
+
+
+<a href="..\ntifs\ns-ntifs-_system_alarm_ace.md">SYSTEM_ALARM_ACE</a>
+
+
+
+<<<<<<< HEAD
 <a href="..\wdm\nf-wdm-rtlsetdaclsecuritydescriptor.md">RtlSetDaclSecurityDescriptor</a>
 
 
@@ -201,6 +218,25 @@ ACL and ACE structures must be aligned on 32-bit boundaries.
 
 
 <a href="..\ntifs\ns-ntifs-_access_allowed_ace.md">ACCESS_ALLOWED_ACE</a>
+=======
+<a href="..\ntifs\nf-ntifs-rtlgetace.md">RtlGetAce</a>
+
+
+
+<a href="..\ntifs\ns-ntifs-_token_default_dacl.md">TOKEN_DEFAULT_DACL</a>
+
+
+
+<a href="..\ntifs\ns-ntifs-_system_audit_ace.md">SYSTEM_AUDIT_ACE</a>
+
+
+
+<a href="..\wdm\nf-wdm-rtlsetdaclsecuritydescriptor.md">RtlSetDaclSecurityDescriptor</a>
+
+
+
+<a href="..\ntifs\ns-ntifs-_access_denied_ace.md">ACCESS_DENIED_ACE</a>
+>>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
 
 
 

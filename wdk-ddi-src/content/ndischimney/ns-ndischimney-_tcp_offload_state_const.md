@@ -7,7 +7,7 @@ old-location: netvista\tcp_offload_state_const.htm
 old-project: netvista
 ms.assetid: 3e80f963-a494-475a-a246-abe5674dbcb6
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*PTCP_OFFLOAD_STATE_CONST, PTCP_OFFLOAD_STATE_CONST, PTCP_OFFLOAD_STATE_CONST structure pointer [Network Drivers Starting with Windows Vista], TCP_OFFLOAD_STATE_CONST, TCP_OFFLOAD_STATE_CONST structure [Network Drivers Starting with Windows Vista], _TCP_OFFLOAD_STATE_CONST, ndischimney/PTCP_OFFLOAD_STATE_CONST, ndischimney/TCP_OFFLOAD_STATE_CONST, netvista.tcp_offload_state_const, tcp_chim_struct_d6f90719-24f7-49d1-9253-5d5db776f192.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -186,5 +186,5 @@ When passed to an offload target, a TCP_OFFLOAD_STATE_CONST structure is associa
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20TCP_OFFLOAD_STATE_CONST structure%20 RELEASE:%20(2/27/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20TCP_OFFLOAD_STATE_CONST structure%20 RELEASE:%20(3/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

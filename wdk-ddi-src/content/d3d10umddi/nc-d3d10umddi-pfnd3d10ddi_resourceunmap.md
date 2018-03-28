@@ -72,11 +72,6 @@ The <i>ResourceUnmap</i> function unmaps a subresource of a resource.
 
 
 
-#### - Subresource [in]
-
- An index that indicates the subresource to unmap. 
-
-
 #### - hDevice [in]
 
  A handle to the display device (graphics context).
@@ -85,6 +80,11 @@ The <i>ResourceUnmap</i> function unmaps a subresource of a resource.
 #### - hResource [in]
 
  A handle to the resource to unmap.
+
+
+#### - Subresource [in]
+
+ An index that indicates the subresource to unmap. 
 
 
 ## -returns

@@ -69,14 +69,14 @@ The <i>RecycleCommandList</i> function recycles a command list.
 
 
 
-#### - hCommandList [in]
-
- An immediate-context handle to the driver's private data for the command list to recycle. 
-
-
 #### - hDevice [in]
 
  A deferred-context handle to the display device (graphics context). 
+
+
+#### - hCommandList [in]
+
+ An immediate-context handle to the driver's private data for the command list to recycle. 
 
 
 ## -returns

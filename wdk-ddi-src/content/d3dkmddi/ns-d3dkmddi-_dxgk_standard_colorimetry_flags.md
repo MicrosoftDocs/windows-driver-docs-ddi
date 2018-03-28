@@ -62,22 +62,22 @@ Flags describing standard colorimetry and related support.
 The combined value that is operated on.
 
 
-#### - BT2020RGB
-
-Flag which indicates device support for the color space defined by BT.2020 using an RGB signal format.
-
-
 #### - BT2020YCC
 
 Flag which indicates device support for the color space defined by BT.2020 using a YCC signal format.
 
 
-#### - Reserved
+#### - BT2020RGB
 
-This value is reserved for system use.
+Flag which indicates device support for the color space defined by BT.2020 using an RGB signal format.
 
 
 #### - ST2084
 
 Flag which indicates device support for the ST.2084 EOTF.
+
+
+#### - Reserved
+
+This value is reserved for system use.
 

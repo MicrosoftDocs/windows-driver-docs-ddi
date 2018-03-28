@@ -213,9 +213,9 @@ Indicates data will be transferred from the device to the system.
 Indicates data will be transferred from the system to the device.
 
 
-##### - SrbFlags.SRB_FLAGS_DISABLE_DISCONNECT
+##### - SrbFlags.SRB_FLAGS_NO_DATA_TRANSFER
 
-Indicates the HBA should not allow the target to disconnect from the SCSI bus during processing of this request.
+Indicates no data transfer with this request. If this is set, the flags SRB_FLAGS_DATA_OUT, SRB_FLAGS_DATA_IN, and SRB_FLAGS_UNSPECIFIED_DIRECTION are clear.
 
 
 ##### - SrbFlags.SRB_FLAGS_DISABLE_SYNCH_TRANSFER
@@ -223,9 +223,9 @@ Indicates the HBA should not allow the target to disconnect from the SCSI bus du
 Indicates the HBA, if possible, should perform asynchronous I/O for this transfer request. If synchronous I/O was negotiated previously, the HBA must renegotiate for asynchronous I/O before performing the transfer.
 
 
-##### - SrbFlags.SRB_FLAGS_NO_DATA_TRANSFER
+##### - SrbFlags.SRB_FLAGS_DISABLE_DISCONNECT
 
-Indicates no data transfer with this request. If this is set, the flags SRB_FLAGS_DATA_OUT, SRB_FLAGS_DATA_IN, and SRB_FLAGS_UNSPECIFIED_DIRECTION are clear.
+Indicates the HBA should not allow the target to disconnect from the SCSI bus during processing of this request.
 
 
 ## -remarks

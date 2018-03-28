@@ -72,11 +72,6 @@ The <i>SetResourceMinLOD</i> function sets the minimum level of detail (LOD) for
 
 
 
-#### - MinLOD [in]
-
- A single-precision float vector to set for the minimum level of detail (LOD) for the resource. 
-
-
 #### - hDevice [in]
 
  A handle to the display device (graphics context).
@@ -85,6 +80,11 @@ The <i>SetResourceMinLOD</i> function sets the minimum level of detail (LOD) for
 #### - hResource [in]
 
  A handle to the driver's private data for the resource. 
+
+
+#### - MinLOD [in]
+
+ A single-precision float vector to set for the minimum level of detail (LOD) for the resource. 
 
 
 ## -returns

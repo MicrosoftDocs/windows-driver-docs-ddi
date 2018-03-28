@@ -7,7 +7,7 @@ old-location: netvista\wwan_sms_cdma_encoding.htm
 old-project: netvista
 ms.assetid: 1f632da2-36bb-491e-b445-5c320277a446
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*PWWAN_SMS_CDMA_ENCODING, PWWAN_SMS_CDMA_ENCODING, PWWAN_SMS_CDMA_ENCODING enumeration pointer [Network Drivers Starting with Windows Vista], WWAN_SMS_CDMA_ENCODING, WWAN_SMS_CDMA_ENCODING enumeration [Network Drivers Starting with Windows Vista], WwanRef_a106195c-4a1c-4f95-9c38-91390dadf046.xml, WwanSmsCdmaEncoding7BitAscii, WwanSmsCdmaEncodingEpm, WwanSmsCdmaEncodingGsm7Bit, WwanSmsCdmaEncodingIa5, WwanSmsCdmaEncodingKorean, WwanSmsCdmaEncodingLatin, WwanSmsCdmaEncodingLatinHebrew, WwanSmsCdmaEncodingMax, WwanSmsCdmaEncodingOctet, WwanSmsCdmaEncodingShiftJis, WwanSmsCdmaEncodingUnicode, _WWAN_SMS_CDMA_ENCODING, netvista.wwan_sms_cdma_encoding, wwan/PWWAN_SMS_CDMA_ENCODING, wwan/WWAN_SMS_CDMA_ENCODING, wwan/WwanSmsCdmaEncoding7BitAscii, wwan/WwanSmsCdmaEncodingEpm, wwan/WwanSmsCdmaEncodingGsm7Bit, wwan/WwanSmsCdmaEncodingIa5, wwan/WwanSmsCdmaEncodingKorean, wwan/WwanSmsCdmaEncodingLatin, wwan/WwanSmsCdmaEncodingLatinHebrew, wwan/WwanSmsCdmaEncodingMax, wwan/WwanSmsCdmaEncodingOctet, wwan/WwanSmsCdmaEncodingShiftJis, wwan/WwanSmsCdmaEncodingUnicode"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -128,5 +128,5 @@ The total number of supported SMS CDMA encoding formats.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20WWAN_SMS_CDMA_ENCODING enumeration%20 RELEASE:%20(2/27/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20WWAN_SMS_CDMA_ENCODING enumeration%20 RELEASE:%20(3/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

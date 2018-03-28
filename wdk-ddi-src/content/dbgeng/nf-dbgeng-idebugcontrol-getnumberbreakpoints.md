@@ -7,7 +7,7 @@ old-location: debugger\getnumberbreakpoints.htm
 old-project: debugger
 ms.assetid: 9faffb72-3559-4db7-a02e-3d93dc751ac3
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: GetNumberBreakpoints method [Windows Debugging], GetNumberBreakpoints method [Windows Debugging], IDebugControl interface, GetNumberBreakpoints method [Windows Debugging], IDebugControl2 interface, GetNumberBreakpoints method [Windows Debugging], IDebugControl3 interface, GetNumberBreakpoints,IDebugControl.GetNumberBreakpoints, IDebugControl, IDebugControl interface [Windows Debugging], GetNumberBreakpoints method, IDebugControl2 interface [Windows Debugging], GetNumberBreakpoints method, IDebugControl2::GetNumberBreakpoints, IDebugControl3 interface [Windows Debugging], GetNumberBreakpoints method, IDebugControl3::GetNumberBreakpoints, IDebugControl::GetNumberBreakpoints, IDebugControl_c5b9bf83-0a0e-4570-8a05-04ca39a4d335.xml, dbgeng/IDebugControl2::GetNumberBreakpoints, dbgeng/IDebugControl3::GetNumberBreakpoints, dbgeng/IDebugControl::GetNumberBreakpoints, debugger.getnumberbreakpoints
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -118,5 +118,5 @@ The method was successful.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl::GetNumberBreakpoints method%20 RELEASE:%20(2/27/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl::GetNumberBreakpoints method%20 RELEASE:%20(3/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

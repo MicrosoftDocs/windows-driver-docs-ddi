@@ -64,14 +64,14 @@ The <code>RegisterWMIProvider</code> method registers the <a href="https://msdn.
 
 
 
-#### - MiniportWmiContext [in]
-
-Specifies a pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff565813">WMILIB_CONTEXT</a> structure that provides registration information for a driver's data blocks and event blocks.
-
-
 #### - pDeviceObject [in]
 
 Specifies a pointer to a <a href="https://msdn.microsoft.com/f3522315-cf15-41f7-ac87-c625c7dc8040">DEVICE_OBJECT </a> structure that represents the functional device object of the adapter driver.
+
+
+#### - MiniportWmiContext [in]
+
+Specifies a pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff565813">WMILIB_CONTEXT</a> structure that provides registration information for a driver's data blocks and event blocks.
 
 
 ## -returns

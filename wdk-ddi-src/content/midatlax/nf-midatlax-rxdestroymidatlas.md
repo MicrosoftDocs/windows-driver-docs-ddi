@@ -69,14 +69,14 @@ TBD
 
 
 
-#### - pContextDestructor
-
-An associated context destructor.
-
-
 #### - pMidAtlas
 
 The MID_ATLAS structure to be freed.
+
+
+#### - pContextDestructor
+
+An associated context destructor.
 
 
 ## -returns

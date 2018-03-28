@@ -7,7 +7,7 @@ old-location: kernel\exallocatepoolwithquota.htm
 old-project: kernel
 ms.assetid: cfdfae5e-4669-4e88-82d2-35fb2bca3012
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/1/2018
 ms.keywords: ExAllocatePoolWithQuota, ExAllocatePoolWithQuota routine [Kernel-Mode Driver Architecture], k102_6f0151af-8673-4fde-a4ab-744cb25d660f.xml, kernel.exallocatepoolwithquota, wdm/ExAllocatePoolWithQuota
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -119,7 +119,11 @@ Callers of <b>ExAllocatePoolWithQuota</b> must be executing at IRQL &lt;= DISPAT
 
 ## -see-also
 
+<<<<<<< HEAD
 <a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
+=======
+<a href="..\wudfwdm\ne-wudfwdm-_pool_type.md">POOL_TYPE</a>
+>>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
 
 
 
@@ -127,11 +131,19 @@ Callers of <b>ExAllocatePoolWithQuota</b> must be executing at IRQL &lt;= DISPAT
 
 
 
+<<<<<<< HEAD
 <a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a>
 
 
 
 <a href="..\wudfwdm\ne-wudfwdm-_pool_type.md">POOL_TYPE</a>
+=======
+<a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
+
+
+
+<a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a>
+>>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
 
 
 
@@ -139,5 +151,5 @@ Callers of <b>ExAllocatePoolWithQuota</b> must be executing at IRQL &lt;= DISPAT
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20ExAllocatePoolWithQuota routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20ExAllocatePoolWithQuota routine%20 RELEASE:%20(3/1/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

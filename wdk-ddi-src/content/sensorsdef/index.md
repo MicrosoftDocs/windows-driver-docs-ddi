@@ -2,7 +2,7 @@
 UID: NA:sensorsdef
 ms.assetid: 63a12ad1-ef4a-3ea4-9f1d-146661faf507
 ms.author: windowsdriverdev
-ms.date: 02/27/18
+ms.date: 03/13/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

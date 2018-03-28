@@ -193,15 +193,15 @@ The <a href="..\ntddk\ns-ntddk-_whea_xpf_processor_error_section.md">WHEA_XPF_PR
 
 ## -see-also
 
+<<<<<<< HEAD
 <a href="..\ntddk\ns-ntddk-_whea_xpf_tlb_check.md">WHEA_XPF_TLB_CHECK</a>
 
 
 
 <a href="..\ntddk\ns-ntddk-_whea_xpf_processor_error_section.md">WHEA_XPF_PROCESSOR_ERROR_SECTION</a>
-
-
-
-<a href="..\ntddk\ns-ntddk-_whea_xpf_ms_check.md">WHEA_XPF_MS_CHECK</a>
+=======
+<a href="..\ntddk\ns-ntddk-_whea_xpf_cache_check.md">WHEA_XPF_CACHE_CHECK</a>
+>>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
 
 
 
@@ -209,11 +209,23 @@ The <a href="..\ntddk\ns-ntddk-_whea_xpf_processor_error_section.md">WHEA_XPF_PR
 
 
 
-<a href="..\ntddk\ns-ntddk-_whea_xpf_cache_check.md">WHEA_XPF_CACHE_CHECK</a>
-
-
-
 <a href="..\ntddk\ns-ntddk-_whea_xpf_procinfo_validbits.md">WHEA_XPF_PROCINFO_VALIDBITS</a>
+
+
+
+<a href="..\ntddk\ns-ntddk-_whea_xpf_ms_check.md">WHEA_XPF_MS_CHECK</a>
+
+
+
+<<<<<<< HEAD
+<a href="..\ntddk\ns-ntddk-_whea_xpf_procinfo_validbits.md">WHEA_XPF_PROCINFO_VALIDBITS</a>
+=======
+<a href="..\ntddk\ns-ntddk-_whea_xpf_processor_error_section.md">WHEA_XPF_PROCESSOR_ERROR_SECTION</a>
+
+
+
+<a href="..\ntddk\ns-ntddk-_whea_xpf_tlb_check.md">WHEA_XPF_TLB_CHECK</a>
+>>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
 
 
 

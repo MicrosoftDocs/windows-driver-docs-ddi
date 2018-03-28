@@ -188,7 +188,11 @@ For additional information about the PCIe capability structure, see the <a href=
 
 
 
+<<<<<<< HEAD
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537473">PCI_EXPRESS_ROOT_CAPABILITIES_REGISTER</a>
+=======
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537463">PCI_EXPRESS_DEVICE_CAPABILITIES_REGISTER</a>
+>>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
 
 
 
@@ -196,6 +200,7 @@ For additional information about the PCIe capability structure, see the <a href=
 
 
 
+<<<<<<< HEAD
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537474">PCI_EXPRESS_ROOT_CONTROL_REGISTER</a>
 
 
@@ -205,6 +210,17 @@ For additional information about the PCIe capability structure, see the <a href=
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537465">PCI_EXPRESS_DEVICE_STATUS_REGISTER</a>
+=======
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537477">PCI_EXPRESS_ROOT_STATUS_REGISTER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537470">PCI_EXPRESS_LINK_STATUS_REGISTER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537464">PCI_EXPRESS_DEVICE_CONTROL_REGISTER</a>
+>>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
 
 
 
@@ -212,7 +228,11 @@ For additional information about the PCIe capability structure, see the <a href=
 
 
 
+<<<<<<< HEAD
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537454">PCI_CAPABILITIES_HEADER</a>
+=======
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537474">PCI_EXPRESS_ROOT_CONTROL_REGISTER</a>
+>>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
 
 
 
@@ -220,6 +240,7 @@ For additional information about the PCIe capability structure, see the <a href=
 
 
 
+<<<<<<< HEAD
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537470">PCI_EXPRESS_LINK_STATUS_REGISTER</a>
 
 
@@ -233,6 +254,21 @@ For additional information about the PCIe capability structure, see the <a href=
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537564">PCI_EXPRESS_SLOT_STATUS_REGISTER</a>
+=======
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537465">PCI_EXPRESS_DEVICE_STATUS_REGISTER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537564">PCI_EXPRESS_SLOT_STATUS_REGISTER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537473">PCI_EXPRESS_ROOT_CAPABILITIES_REGISTER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537454">PCI_CAPABILITIES_HEADER</a>
+>>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
 
 
 

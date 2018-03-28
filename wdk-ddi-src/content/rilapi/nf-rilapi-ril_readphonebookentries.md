@@ -7,7 +7,7 @@ old-location: netvista\ril_readphonebookentries.htm
 old-project: netvista
 ms.assetid: 3da05f28-a6de-4dad-a978-0439f3244bbb
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: RIL_ReadPhonebookEntries, RIL_ReadPhonebookEntries method [Network Drivers Starting with Windows Vista], netvista.ril_readphonebookentries, rilapi/RIL_ReadPhonebookEntries
 ms.prod: windows-hardware
 ms.technology: windows-devices

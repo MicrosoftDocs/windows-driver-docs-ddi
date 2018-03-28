@@ -7,7 +7,7 @@ old-location: netvista\rilcalldisconnectdetailsascode.htm
 old-project: netvista
 ms.assetid: 01b311e9-252e-49eb-bf63-d16e4fa92231
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: RILCALLDISCONNECTDETAILSASCODE, RILCALLDISCONNECTDETAILSASCODE enumeration [Network Drivers Starting with Windows Vista], RIL_CD_L2, RIL_CD_L3, RIL_CD_LAYER_MAX, netvista.rilcalldisconnectdetailsascode, ntddrilapitypes/RILCALLDISCONNECTDETAILSASCODE, ntddrilapitypes/RIL_CD_L2, ntddrilapitypes/RIL_CD_L3, ntddrilapitypes/RIL_CD_LAYER_MAX
 ms.prod: windows-hardware
 ms.technology: windows-devices

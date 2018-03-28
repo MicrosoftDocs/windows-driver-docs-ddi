@@ -7,7 +7,7 @@ old-location: netvista\ndis_wwan_set_packet_service.htm
 old-project: netvista
 ms.assetid: bded1e89-3bb5-4241-ab44-875012bfad3a
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*PNDIS_WWAN_SET_PACKET_SERVICE, NDIS_WWAN_SET_PACKET_SERVICE, NDIS_WWAN_SET_PACKET_SERVICE structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_SET_PACKET_SERVICE, PNDIS_WWAN_SET_PACKET_SERVICE structure pointer [Network Drivers Starting with Windows Vista], WwanRef_b98b2778-6d41-426f-85c3-99add8477050.xml, _NDIS_WWAN_SET_PACKET_SERVICE, ndiswwan/NDIS_WWAN_SET_PACKET_SERVICE, ndiswwan/PNDIS_WWAN_SET_PACKET_SERVICE, netvista.ndis_wwan_set_packet_service"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -130,5 +130,5 @@ A value from the
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_WWAN_SET_PACKET_SERVICE structure%20 RELEASE:%20(2/27/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_WWAN_SET_PACKET_SERVICE structure%20 RELEASE:%20(3/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

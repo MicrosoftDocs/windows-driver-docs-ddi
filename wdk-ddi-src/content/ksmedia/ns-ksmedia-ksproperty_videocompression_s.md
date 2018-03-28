@@ -95,11 +95,23 @@ All KSPROPERTY_VIDEOCOMPRESSION properties that use this structure are read/writ
 
 ## -see-also
 
+<<<<<<< HEAD
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566009">KSPROPERTY_VIDEOCOMPRESSION_PFRAMES_PER_KEYFRAME</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566019">KSPROPERTY_VIDEOCOMPRESSION_WINDOWSIZE</a>
+=======
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566004">KSPROPERTY_VIDEOCOMPRESSION_OVERRIDE_KEYFRAME</a>
+>>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565986">KSPROPERTY_VIDEOCOMPRESSION_KEYFRAME_RATE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565991">KSPROPERTY_VIDEOCOMPRESSION_OVERRIDE_FRAME_SIZE</a>
 
 
 
@@ -111,22 +123,21 @@ All KSPROPERTY_VIDEOCOMPRESSION properties that use this structure are read/writ
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566015">KSPROPERTY_VIDEOCOMPRESSION_QUALITY</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565986">KSPROPERTY_VIDEOCOMPRESSION_KEYFRAME_RATE</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566004">KSPROPERTY_VIDEOCOMPRESSION_OVERRIDE_KEYFRAME</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566019">KSPROPERTY_VIDEOCOMPRESSION_WINDOWSIZE</a>
+
+
+
+<<<<<<< HEAD
+=======
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566015">KSPROPERTY_VIDEOCOMPRESSION_QUALITY</a>
+
+
+
+>>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
  
 
  

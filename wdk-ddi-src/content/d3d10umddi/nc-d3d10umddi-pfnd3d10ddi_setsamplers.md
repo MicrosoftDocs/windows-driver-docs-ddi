@@ -77,14 +77,14 @@ The <b>CsSetSamplers</b> function sets samplers for a compute shader.
 
 
 
-#### - Offset [in]
-
- The offset to the first sampler to set. 
-
-
 #### - hDevice [in]
 
  A handle to the display device (graphics context).
+
+
+#### - Offset [in]
+
+ The offset to the first sampler to set. 
 
 
 #### - phSamplers [in]

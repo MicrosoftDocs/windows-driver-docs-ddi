@@ -7,7 +7,7 @@ old-location: netvista\wdi_cipher_algorithm.htm
 old-project: netvista
 ms.assetid: 08413358-DFBC-4AC3-97B3-380D98EFFBF3
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: WDI_CIPHER_ALGORITHM, WDI_CIPHER_ALGORITHM enumeration [Device and Driver Installation], WDI_CIPHER_ALGO_BIP, WDI_CIPHER_ALGO_CCMP, WDI_CIPHER_ALGO_GCMP, WDI_CIPHER_ALGO_IHV_END, WDI_CIPHER_ALGO_IHV_START, WDI_CIPHER_ALGO_NONE, WDI_CIPHER_ALGO_RSN_USE_GROUP, WDI_CIPHER_ALGO_TKIP, WDI_CIPHER_ALGO_WEP, WDI_CIPHER_ALGO_WEP104, WDI_CIPHER_ALGO_WEP40, WDI_CIPHER_ALGO_WPA_USE_GROUP, _WDI_CIPHER_ALGORITHM, netvista.wdi_cipher_algorithm, netvista.wifi_cipher_algorithm, wditypes/WDI_CIPHER_ALGORITHM, wditypes/WDI_CIPHER_ALGO_BIP, wditypes/WDI_CIPHER_ALGO_CCMP, wditypes/WDI_CIPHER_ALGO_GCMP, wditypes/WDI_CIPHER_ALGO_IHV_END, wditypes/WDI_CIPHER_ALGO_IHV_START, wditypes/WDI_CIPHER_ALGO_NONE, wditypes/WDI_CIPHER_ALGO_RSN_USE_GROUP, wditypes/WDI_CIPHER_ALGO_TKIP, wditypes/WDI_CIPHER_ALGO_WEP, wditypes/WDI_CIPHER_ALGO_WEP104, wditypes/WDI_CIPHER_ALGO_WEP40, wditypes/WDI_CIPHER_ALGO_WPA_USE_GROUP
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -74,14 +74,19 @@ The <b>DrawIndexedPrimitive2</b> function draws indexed primitives that the Micr
 ### -param Arg1
 
 
+#### - pData [in]
+
+ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543054">D3DDDIARG_DRAWINDEXEDPRIMITIVE2</a> structure that describes the primitive to draw.
+
+
 #### - dwIndicesSize [in]
 
  The size, in bytes, of indexes in the buffer that <i>pIndexBuffer</i> points to. This size is 2 or 4 bytes. 
 
 
-#### - pData [in]
+#### - pIndexBuffer [in]
 
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543054">D3DDDIARG_DRAWINDEXEDPRIMITIVE2</a> structure that describes the primitive to draw.
+ A pointer to a buffer of index data to be drawn.
 
 
 #### - pFlagBuffer [in, optional]
@@ -89,11 +94,6 @@ The <b>DrawIndexedPrimitive2</b> function draws indexed primitives that the Micr
  A pointer to a 32-bit value that contains triangle-edge flags, which are used only during line-fill mode. The first three bits (0/1/2) of the 32-bit value specify how the three edges of the corresponding triangle are rendered. If a bit is set to 1, its associated triangle edge is rendered; otherwise, the edge is not rendered.
 
 If the pointer is <b>NULL</b>, the user-mode display driver should use its fast path to draw primitives. 
-
-
-#### - pIndexBuffer [in]
-
- A pointer to a buffer of index data to be drawn.
 
 
 ## -returns

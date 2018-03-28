@@ -85,14 +85,14 @@ The <b>IWiaMiniDrv::drvDeviceCommand</b> method issues a command to a WIA device
 
 
 
-#### - lFlags [in]
-
-Is currently unused. 
-
-
 #### - pWiasContext [in]
 
 Pointer to a WIA item context.
+
+
+#### - lFlags [in]
+
+Is currently unused. 
 
 
 #### - plCommand [in]
@@ -100,14 +100,14 @@ Pointer to a WIA item context.
 Points to a WIA command GUID. 
 
 
-#### - plDevErrVal [out]
-
-Points to a memory location that will receive a status code for this method. If this method returns S_OK, the value stored will be zero. Otherwise, a minidriver-specific error code will be stored at the location pointed to by this parameter.
-
-
 #### - ppWiaDrvItem [out, optional]
 
 Points to a memory location that can receive a pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff543896">IWiaDrvItem Interface</a>. See Remarks.
+
+
+#### - plDevErrVal [out]
+
+Points to a memory location that will receive a status code for this method. If this method returns S_OK, the value stored will be zero. Otherwise, a minidriver-specific error code will be stored at the location pointed to by this parameter.
 
 
 ## -returns

@@ -72,14 +72,14 @@ The <b>CalcDeferredContextHandleSize</b> function queries for the amount of stor
 
 
 
-#### - HandleType [in]
-
- A <a href="https://msdn.microsoft.com/library/windows/hardware/ff542152">D3D11DDI_HANDLETYPE</a>-typed value that indicates the type of deferred context handle to determine the size of the memory region for. 
-
-
 #### - hDevice [in]
 
  A handle to the display device (graphics context).
+
+
+#### - HandleType [in]
+
+ A <a href="https://msdn.microsoft.com/library/windows/hardware/ff542152">D3D11DDI_HANDLETYPE</a>-typed value that indicates the type of deferred context handle to determine the size of the memory region for. 
 
 
 #### - pICObject [in]

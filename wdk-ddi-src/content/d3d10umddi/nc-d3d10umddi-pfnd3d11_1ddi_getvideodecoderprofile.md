@@ -72,16 +72,16 @@ Queries the attributes of a specified video decoder profile.
 
 
 
-#### - Index [in]
-
-The zero-based index of the video decoder profile. The display miniport driver returns the maximum number of video decoder profiles that it supports through a call to its <a href="https://msdn.microsoft.com/library/windows/hardware/hh451672">GetVideoDecoderProfileCount</a> function.
-
-
 #### - hDevice [in]
 
 A handle to the display device (graphics context).
 
 
+
+
+#### - Index [in]
+
+The zero-based index of the video decoder profile. The display miniport driver returns the maximum number of video decoder profiles that it supports through a call to its <a href="https://msdn.microsoft.com/library/windows/hardware/hh451672">GetVideoDecoderProfileCount</a> function.
 
 
 #### - pDecodeDesc [out]

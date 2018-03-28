@@ -130,18 +130,6 @@ Only aperture segments can be specified by this member. If the driver specifies 
 The driver determines the appropriate priority level for each allocation. For more information about priority levels, see the Remarks section of the <a href="https://msdn.microsoft.com/1812cb0f-9232-4813-9c7b-74c9fa4d03cf">pfnSetPriorityCb</a> function. If priority level for allocations is not an issue to the driver, the driver should set all priority levels to <b>D3DDDI_ALLOCATIONPRIORITY_NORMAL</b>. Note that 0 is an invalid initial allocation priority. 
 
 
-#### - Flags
-
-[out] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff560966">DXGK_ALLOCATIONINFOFLAGS</a> structure that identifies properties for an allocation in bit-field flags. These properties indicate the type of allocation to create. The display miniport driver specifies these flags for the video memory manager.
-
-
-#### - FlagsWddm2
-
-[out] The index of the physical adapter. 
-
-Support for this member started with Windows 10 and WDDM 2.0.
-
-
 #### - MaximumRenamingListLength
 
 [out] The maximum length of the renaming list for the allocation. For more information about the renaming list, see <a href="https://msdn.microsoft.com/f22e19ba-9ff3-4aa1-a3f0-103f67ea7c60">Requesting to Rename an Allocation</a>.
@@ -154,6 +142,18 @@ Support for this member started with Windows 10 and the WDDM v2.
 [out] The index of the physical adapter. 
 
 Support for this member started with Windows 10 and the WDDM v2.
+
+
+#### - Flags
+
+[out] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff560966">DXGK_ALLOCATIONINFOFLAGS</a> structure that identifies properties for an allocation in bit-field flags. These properties indicate the type of allocation to create. The display miniport driver specifies these flags for the video memory manager.
+
+
+#### - FlagsWddm2
+
+[out] The index of the physical adapter. 
+
+Support for this member started with Windows 10 and WDDM 2.0.
 
 
 ## -remarks

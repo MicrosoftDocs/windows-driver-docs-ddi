@@ -95,14 +95,14 @@ Control TDR.
 
 
 
-#### - EnableContextDelay
-
-Enable or disable context delay.
-
-
 #### - PreemptionControl
 
 Enable or disable preemption.
+
+
+#### - EnableContextDelay
+
+Enable or disable context delay.
 
 
 #### - SuspendScheduler
@@ -110,14 +110,14 @@ Enable or disable preemption.
 Suspend or resume scheduler (obsolete).
 
 
-#### - SuspendTime
-
-Time period to suspend.
-
-
 #### - TdrControl
 
 Control TDR.
+
+
+#### - SuspendTime
+
+Time period to suspend.
 
 
 ## -see-also

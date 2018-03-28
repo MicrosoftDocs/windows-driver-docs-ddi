@@ -72,14 +72,14 @@ Called during Microsoft Direct3D initialization on a <a href="https://msdn.micro
 
 
 
-#### - hAdapter [in]
-
-A handle to the graphics adapter object.
-
-
 #### - pDefaultToDiscrete [out]
 
 If <b>TRUE</b>, the application should be run on the discrete GPU. Otherwise, the application should run on the integrated GPU.
+
+
+#### - hAdapter [in]
+
+A handle to the graphics adapter object.
 
 
 #### - pfnEscapeCB [in]

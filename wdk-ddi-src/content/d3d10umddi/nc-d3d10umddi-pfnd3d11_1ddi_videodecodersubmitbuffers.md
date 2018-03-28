@@ -77,9 +77,11 @@ Submits one or more video frame buffers for DirectX Video Acceleration (DXVA) de
 
 
 
-#### - BufferCount [in]
+#### - hDevice [in]
 
-The number of buffers in the array that is referenced by the <i>pBufferDesc</i> parameter.
+A handle to the display device (graphics context).
+
+
 
 
 #### - hDecoder [in]
@@ -89,11 +91,9 @@ A handle to the video decoder object that was created through a call to the <a h
 
 
 
-#### - hDevice [in]
+#### - BufferCount [in]
 
-A handle to the display device (graphics context).
-
-
+The number of buffers in the array that is referenced by the <i>pBufferDesc</i> parameter.
 
 
 #### - pBufferDesc [in]

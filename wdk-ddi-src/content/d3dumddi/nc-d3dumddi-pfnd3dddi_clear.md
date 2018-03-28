@@ -74,14 +74,14 @@ The <b>Clear</b> function performs hardware-assisted clearing on the rendering t
 ### -param Arg1
 
 
-#### - NumRect [in]
-
- The number of rectangles in the array at <b>pRect</b> to be cleared. If the number of rectangles is set to zero, <b>Clear</b> should clear the entire render target, depth buffer, and stencil buffer. In this situation, the contents of the array at <b>pRect</b> are undefined and the driver should not attempt to read them.
-
-
 #### - pData [in]
 
  A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff542903">D3DDDIARG_CLEAR</a> structure that describes the parameters of the hardware-assisted clearing operation.
+
+
+#### - NumRect [in]
+
+ The number of rectangles in the array at <b>pRect</b> to be cleared. If the number of rectangles is set to zero, <b>Clear</b> should clear the entire render target, depth buffer, and stencil buffer. In this situation, the contents of the array at <b>pRect</b> are undefined and the driver should not attempt to read them.
 
 
 #### - pRect [in]

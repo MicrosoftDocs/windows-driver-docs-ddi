@@ -65,22 +65,22 @@ req.product: Windows 10 or later.
 
 
 
-#### - filter [in]
-
-
-#### - pCallback [in]
+#### - uL [in]
 
 
 #### - pType [in]
 
 
-#### - ppChannel [out]
+#### - filter [in]
 
 
 #### - style [in]
 
 
-#### - uL [in]
+#### - pCallback [in]
+
+
+#### - ppChannel [out]
 
 
 ## -returns

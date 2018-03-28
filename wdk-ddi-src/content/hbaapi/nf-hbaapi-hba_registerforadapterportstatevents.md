@@ -96,9 +96,9 @@ TBD
 
 
 
-#### - callbackHandle
+#### - userData
 
-Pointer to an opaque identifier that the user must pass to <a href="https://msdn.microsoft.com/library/windows/hardware/ff557175">HBA_RemoveCallback</a> to de-register the callback routine.
+Pointer to a buffer that is passed to the callback routine with each event. This data correlates the event with the source of the event registration. 
 
 
 #### - handle
@@ -106,9 +106,9 @@ Pointer to an opaque identifier that the user must pass to <a href="https://msdn
 Contains a value returned by the routine <a href="https://msdn.microsoft.com/library/windows/hardware/ff557097">HBA_OpenAdapter</a> that identifies the HBA for which the adapter events are generated. 
 
 
-#### - userData
+#### - callbackHandle
 
-Pointer to a buffer that is passed to the callback routine with each event. This data correlates the event with the source of the event registration. 
+Pointer to an opaque identifier that the user must pass to <a href="https://msdn.microsoft.com/library/windows/hardware/ff557175">HBA_RemoveCallback</a> to de-register the callback routine.
 
 
 ## -returns

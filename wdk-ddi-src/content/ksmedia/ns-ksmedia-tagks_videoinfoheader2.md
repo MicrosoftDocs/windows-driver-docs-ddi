@@ -367,7 +367,11 @@ If the AMCONTROL_COLORINFO_PRESENT flag is set in the <b>dwControlFlags</b> memb
 
 
 
+<<<<<<< HEAD
 <a href="..\ksmedia\ns-ksmedia-tagks_datarange_video2.md">KS_DATARANGE_VIDEO2</a>
+=======
+<a href="..\ksmedia\ns-ksmedia-tagks_bitmapinfoheader.md">KS_BITMAPINFOHEADER</a>
+>>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
 
 
 

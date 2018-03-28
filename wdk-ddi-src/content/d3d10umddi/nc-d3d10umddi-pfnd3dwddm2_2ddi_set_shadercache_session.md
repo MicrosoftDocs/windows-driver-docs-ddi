@@ -69,14 +69,14 @@ The <i>pfnSetShaderCacheSession</i> callback function sets a shader cache sessio
 
 
 
-#### - hCacheSession
-
-The handle of a cache session.
-
-
 #### - hDevice
 
 The handle of a device.
+
+
+#### - hCacheSession
+
+The handle of a cache session.
 
 
 ## -returns

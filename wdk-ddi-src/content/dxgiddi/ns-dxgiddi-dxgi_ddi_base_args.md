@@ -62,16 +62,11 @@ The <b>DXGI_DDI_BASE_ARGS</b> structure contains Microsoft DirectX Graphics Infr
 [in] A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff557487">DXGI_DDI_BASE_CALLBACKS</a> structure that contains a table of Microsoft Direct3D runtime callback functions that the driver can use to access kernel services.
 
 
-#### - pDXGIDDIBaseFunctions
+#### - pDXGIDDIBaseFunctions4
 
-[in/out] A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff557492">DXGI_DDI_BASE_FUNCTIONS</a> structure that the user-mode display driver fills with a table of its functions. The Direct3D runtime uses these functions to communicate with the user-mode display driver.
+[in/out] A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn465883">DXGI1_3_DDI_BASE_FUNCTIONS</a> structure that the user-mode display driver fills with a table of its functions. The Direct3D runtime uses these functions to communicate with the user-mode display driver.
 
-
-#### - pDXGIDDIBaseFunctions2
-
-[in/out] A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff557439">DXGI1_1_DDI_BASE_FUNCTIONS</a> structure that the user-mode display driver fills with a table of its functions. The Direct3D runtime uses these functions to communicate with the user-mode display driver.
-
- Supported starting with Windows 7.
+ Supported starting with Windows 8.1.
 
 
 #### - pDXGIDDIBaseFunctions3
@@ -81,11 +76,16 @@ The <b>DXGI_DDI_BASE_ARGS</b> structure contains Microsoft DirectX Graphics Infr
 Supported starting with Windows 8.
 
 
-#### - pDXGIDDIBaseFunctions4
+#### - pDXGIDDIBaseFunctions2
 
-[in/out] A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn465883">DXGI1_3_DDI_BASE_FUNCTIONS</a> structure that the user-mode display driver fills with a table of its functions. The Direct3D runtime uses these functions to communicate with the user-mode display driver.
+[in/out] A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff557439">DXGI1_1_DDI_BASE_FUNCTIONS</a> structure that the user-mode display driver fills with a table of its functions. The Direct3D runtime uses these functions to communicate with the user-mode display driver.
 
- Supported starting with Windows 8.1.
+ Supported starting with Windows 7.
+
+
+#### - pDXGIDDIBaseFunctions
+
+[in/out] A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff557492">DXGI_DDI_BASE_FUNCTIONS</a> structure that the user-mode display driver fills with a table of its functions. The Direct3D runtime uses these functions to communicate with the user-mode display driver.
 
 
 ## -see-also

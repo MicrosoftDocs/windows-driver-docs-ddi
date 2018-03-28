@@ -151,6 +151,11 @@ A flag value that specifies whether to use the embedded WCS profile. This parame
  
 
 
+#### - pDMPProfile [in]
+
+A pointer to a profile structure that specifies a WCS device model profile (DMP). The <i>pDMPProfile</i> pointer can be freed as soon as the handle is created.
+
+
 #### - dwDesiredAccess [in]
 
 A flag value that specifies how to access the given color profile. This parameter must take one of the following values:
@@ -168,11 +173,6 @@ Specifies that the color profile will be opened for read-only access.
 #### PROFILE_READWRITE
 
 Specifies that the color profile will be opened for both read and write access.  This flag value is ignored when a WCS profile is opened.
-
-
-#### - pDMPProfile [in]
-
-A pointer to a profile structure that specifies a WCS device model profile (DMP). The <i>pDMPProfile</i> pointer can be freed as soon as the handle is created.
 
 
 ## -remarks

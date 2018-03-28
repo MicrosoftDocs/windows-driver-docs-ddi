@@ -83,6 +83,25 @@ Sets the rate at which the video processor produces output frames for an input s
 
 
 
+#### - hDevice [in]
+
+A handle to the display device (graphics context).
+
+
+
+
+#### - hVideoProcessor [in]
+
+A handle to the video processor object that was created through a call to the <a href="https://msdn.microsoft.com/741045a2-0a91-490a-907d-5f4900a4a0ae">CreateVideoProcessor</a> function. 
+
+
+
+
+#### - StreamIndex [in]
+
+The zero-based index of the input stream.
+
+
 #### - OutputRate [in]
 
 The output rate, specified as a <a href="https://msdn.microsoft.com/library/windows/hardware/hh450989">D3D11_1DDI_VIDEO_PROCESSOR_OUTPUT_RATE</a> value.
@@ -104,25 +123,6 @@ If the <i>RepeatFrame</i> parameter is <b>FALSE</b>,  the driver should interpol
 
 <div class="alert"><b>Note</b>  If the <b>VideoProcessorSetStreamOutputRate</b> function is never called, the driver should interpolate frames by default.</div>
 <div> </div>
-
-#### - StreamIndex [in]
-
-The zero-based index of the input stream.
-
-
-#### - hDevice [in]
-
-A handle to the display device (graphics context).
-
-
-
-
-#### - hVideoProcessor [in]
-
-A handle to the video processor object that was created through a call to the <a href="https://msdn.microsoft.com/741045a2-0a91-490a-907d-5f4900a4a0ae">CreateVideoProcessor</a> function. 
-
-
-
 
 #### - pCustomRate [in]
 

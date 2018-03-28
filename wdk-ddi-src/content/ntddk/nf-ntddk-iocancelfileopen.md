@@ -132,14 +132,19 @@ Minifilters should use <a href="..\fltkernel\nf-fltkernel-fltcancelfileopen.md">
 
 ## -see-also
 
+<<<<<<< HEAD
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550720">IRP_MJ_CLOSE</a>
+=======
+<a href="..\wdm\nf-wdm-iocreatefile.md">IoCreateFile</a>
+>>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550720">IRP_MJ_CLOSE</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltcancelfileopen.md">FltCancelFileOpen</a>
-
-
-
+<<<<<<< HEAD
 <a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>
 
 
@@ -157,10 +162,29 @@ Minifilters should use <a href="..\fltkernel\nf-fltkernel-fltcancelfileopen.md">
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548630">IRP_MJ_CREATE</a>
+=======
+<a href="..\wdm\nf-wdm-zwopenfile.md">ZwOpenFile</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltreissuesynchronousio.md">FltReissueSynchronousIo</a>
 
 
 
 <a href="..\ntddk\nf-ntddk-iocreatefileex.md">IoCreateFileEx</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-iocreatefilespecifydeviceobjecthint.md">IoCreateFileSpecifyDeviceObjectHint</a>
+>>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltcancelfileopen.md">FltCancelFileOpen</a>
 
 
 

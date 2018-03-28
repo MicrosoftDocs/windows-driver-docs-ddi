@@ -89,11 +89,19 @@ The KSPROPERTY_VIDEODECODER_S structure is shared among the KSPROPERTY_VIDEODECO
 
 ## -see-also
 
+<<<<<<< HEAD
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566062">KSPROPERTY_VIDEODECODER_VCR_TIMING</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566058">KSPROPERTY_VIDEODECODER_STANDARD</a>
+=======
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566062">KSPROPERTY_VIDEODECODER_VCR_TIMING</a>
+>>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
 
 
 

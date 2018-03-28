@@ -121,7 +121,11 @@ This structure is used with an <a href="..\ntddpar\ni-ntddpar-ioctl_par_query_in
 
 
 
+<<<<<<< HEAD
 <a href="..\ntddpar\ni-ntddpar-ioctl_par_query_information.md">IOCTL_PAR_QUERY_INFORMATION</a>
+=======
+<a href="..\ntddpar\ns-ntddpar-_par_set_information.md">PAR_SET_INFORMATION</a>
+>>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
 
 
 

@@ -7,7 +7,7 @@ old-location: netvista\fwpsnetbufferlistremovecontext0.htm
 old-project: netvista
 ms.assetid: bd3aa1a2-3ff5-47e4-93f6-5cb2022ec630
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: FwpsNetBufferListRemoveContext0, FwpsNetBufferListRemoveContext0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsNetBufferListRemoveContext0, netvista.fwpsnetbufferlistremovecontext0, wfp_ref_2_funct_3_fwps_J-Q_320b667d-7f90-4a71-acff-e5b0b216ea3c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -169,5 +169,5 @@ Usually a callout driver will not need to use this function, because the tagged 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20FwpsNetBufferListRemoveContext0 function%20 RELEASE:%20(2/27/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20FwpsNetBufferListRemoveContext0 function%20 RELEASE:%20(3/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

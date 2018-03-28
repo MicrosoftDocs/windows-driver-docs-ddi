@@ -87,31 +87,14 @@ The DISPLAYID_DETAILED_TIMING_TYPE_I structure specifies an additional target mo
 [in] The vertical sync interval, in number of lines.
 
 
-#### - AspectRatio
-
-[in] The display aspect ratio, which must be one of the values in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554017">DISPLAYID_DETAILED_TIMING_TYPE_I_ASPECT_RATIO</a> enumeration.
-
-
-#### - HorizontalFrontPorch
-
-[in] The horizontal front porch interval, in pixels. The front porch is the blanking interval before the sync pulse.
-
-
-#### - HorizontalSyncPolarity
-
-[in] The horizontal sync polarity, which must be one of the values in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554026">DISPLAYID_DETAILED_TIMING_TYPE_I_SYNC_POLARITY</a> enumeration.
-
-
 #### - PixelClock
 
 [in] The display pixel clock rate, in units of 10 KHz. Clock rate must be between 1 MHz and 10 GHz, inclusive.
 
 
-#### - PreferredTiming
+#### - AspectRatio
 
-
-       [in] Indicates whether the first 128-byte block of a monitor's Extended Display Identification Data <a href="https://msdn.microsoft.com/0dd010e7-3e10-422a-adcb-8fe7df9e29ab">Extended Display Identification Data (EDID)</a> contains detailed timing data. This must be 1 if the display conforms to EDID version 1.3 and later.
-      
+[in] The display aspect ratio, which must be one of the values in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554017">DISPLAYID_DETAILED_TIMING_TYPE_I_ASPECT_RATIO</a> enumeration.
 
 
 #### - Reserved
@@ -127,6 +110,23 @@ The DISPLAYID_DETAILED_TIMING_TYPE_I structure specifies an additional target mo
 #### - StereoMode
 
 [in] The display stereo vision mode. Must be one of the values in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554023">DISPLAYID_DETAILED_TIMING_TYPE_I_STEREO_MODE</a> enumeration.
+
+
+#### - PreferredTiming
+
+
+       [in] Indicates whether the first 128-byte block of a monitor's Extended Display Identification Data <a href="https://msdn.microsoft.com/0dd010e7-3e10-422a-adcb-8fe7df9e29ab">Extended Display Identification Data (EDID)</a> contains detailed timing data. This must be 1 if the display conforms to EDID version 1.3 and later.
+      
+
+
+#### - HorizontalFrontPorch
+
+[in] The horizontal front porch interval, in pixels. The front porch is the blanking interval before the sync pulse.
+
+
+#### - HorizontalSyncPolarity
+
+[in] The horizontal sync polarity, which must be one of the values in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554026">DISPLAYID_DETAILED_TIMING_TYPE_I_SYNC_POLARITY</a> enumeration.
 
 
 #### - VerticalFrontPorch

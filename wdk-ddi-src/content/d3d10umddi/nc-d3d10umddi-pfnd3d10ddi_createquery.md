@@ -80,6 +80,11 @@ The <b>CreateQuery(D3D10)</b> function creates a query.
  A handle to the display device (graphics context).
 
 
+#### - pCreateQuery [in]
+
+ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541685">D3D10DDIARG_CREATEQUERY</a> structure that describes the parameters that the user-mode display driver uses to create a query. 
+
+
 #### - hQuery [in]
 
  A handle to the driver's private data for the query. The driver returns the size, in bytes, of the memory region that the Microsoft Direct3D runtime must allocate for the private data from a call to the driver's <a href="https://msdn.microsoft.com/59a59aa8-085e-4bf8-8a6f-e08f2aecd894">CalcPrivateQuerySize</a> function. The handle is really just a pointer to a region of memory, the size of which the driver requested. The driver uses this region of memory to store internal data structures that are related to its query object. 
@@ -88,11 +93,6 @@ The <b>CreateQuery(D3D10)</b> function creates a query.
 #### - hRTQuery [in]
 
  A handle to the query that the driver should use anytime it calls back into the Direct3D runtime. 
-
-
-#### - pCreateQuery [in]
-
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541685">D3D10DDIARG_CREATEQUERY</a> structure that describes the parameters that the user-mode display driver uses to create a query. 
 
 
 ## -returns

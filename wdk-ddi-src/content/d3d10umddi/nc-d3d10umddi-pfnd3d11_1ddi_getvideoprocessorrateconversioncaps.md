@@ -76,11 +76,6 @@ Queries a specified group of video processing capabilities that are associated w
 
 
 
-#### - RateConversionIndex [in]
-
-The zero-based index of the frame-rate conversion capability group. For more information, see the Remarks section.
-
-
 #### - hDevice [in]
 
 A handle to the display device (graphics context).
@@ -93,6 +88,11 @@ A handle to the display device (graphics context).
 A handle to a video processor enumeration object that was created through a call to the <a href="https://msdn.microsoft.com/38c27502-7e8a-45a1-8a7c-315300502480">CreateVideoProcessorEnum</a> function.
 
 
+
+
+#### - RateConversionIndex [in]
+
+The zero-based index of the frame-rate conversion capability group. For more information, see the Remarks section.
 
 
 #### - pCaps [out]

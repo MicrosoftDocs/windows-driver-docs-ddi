@@ -87,6 +87,11 @@ The D3DDDIARG_LOCK structure describes a resource or a surface within the resour
 [in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff544591">D3DDDI_LOCKFLAGS</a> structure that indicates, in bit-field flags, how to lock the resource. Note that some flags are mutually exclusive with other flags. For more information, see the following Remarks section.
 
 
+#### - Range
+
+[in] A D3DDDIRANGE structure that describes the subrange of the linear resource to lock.
+
+
 #### - Area
 
 [in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure that describes the subrectangle of the surface to lock.
@@ -95,11 +100,6 @@ The D3DDDIARG_LOCK structure describes a resource or a surface within the resour
 #### - Box
 
 [in] A D3DDDIBOX structure that describes the subvolume of the volume to lock.
-
-
-#### - Range
-
-[in] A D3DDDIRANGE structure that describes the subrange of the linear resource to lock.
 
 
 ## -remarks

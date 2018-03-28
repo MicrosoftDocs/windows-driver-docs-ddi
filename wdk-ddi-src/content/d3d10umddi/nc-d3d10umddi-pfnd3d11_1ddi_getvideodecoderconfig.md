@@ -72,11 +72,6 @@ Queries the video decoder configuration for a specified video operation.
 ### -param Arg2
 
 
-#### - Index [in]
-
-The zero-based index of the video decoder configuration that is used for the specified operation. The display miniport driver specifies the maximum number of video decoder configurations that are required for the operation through a call to its <a href="https://msdn.microsoft.com/library/windows/hardware/hh451668">GetVideoDecoderConfigCount</a> function.
-
-
 #### - hDevice [in]
 
 A handle to the display device (graphics context).
@@ -84,14 +79,19 @@ A handle to the display device (graphics context).
 
 
 
-#### - pConfig [out]
-
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh450947">D3D11_1DDI_VIDEO_DECODER_CONFIG</a> structure that describes the video decoder configuration.
-
-
 #### - pDecodeDesc [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh450951">D3D11_1DDI_VIDEO_DECODER_DESC</a> structure that specifies the video decoder operation.
+
+
+#### - Index [in]
+
+The zero-based index of the video decoder configuration that is used for the specified operation. The display miniport driver specifies the maximum number of video decoder configurations that are required for the operation through a call to its <a href="https://msdn.microsoft.com/library/windows/hardware/hh451668">GetVideoDecoderConfigCount</a> function.
+
+
+#### - pConfig [out]
+
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh450947">D3D11_1DDI_VIDEO_DECODER_CONFIG</a> structure that describes the video decoder configuration.
 
 
 ## -returns

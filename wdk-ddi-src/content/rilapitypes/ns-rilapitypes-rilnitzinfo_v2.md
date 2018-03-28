@@ -7,7 +7,7 @@ old-location: netvista\rilnitzinfo_v2.htm
 old-project: netvista
 ms.assetid: 31980e7f-b767-4f63-9dc6-efce582d84ea
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*LPRILNITZINFO, *LPRILNITZINFO_V2, RILNITZINFO, RILNITZINFO_V2, RILNITZINFO_V2 structure [Network Drivers Starting with Windows Vista], netvista.rilnitzinfo_v2, ntddrilapitypes/RILNITZINFO_V2"
 ms.prod: windows-hardware
 ms.technology: windows-devices

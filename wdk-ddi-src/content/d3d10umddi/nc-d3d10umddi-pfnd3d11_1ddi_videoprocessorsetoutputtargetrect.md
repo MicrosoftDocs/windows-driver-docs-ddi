@@ -77,11 +77,6 @@ Sets the target rectangle for the video processor.
 
 
 
-#### - Enable [in]
-
-If <b>TRUE</b>, the target rectangle specified by the <i>pOutputRect</i> parameter should be used by the video processor.
-
-
 #### - hDevice [in]
 
 A handle to the display device (graphics context).
@@ -94,6 +89,11 @@ A handle to the display device (graphics context).
 A handle to the video processor object that was created through a call to the <a href="https://msdn.microsoft.com/741045a2-0a91-490a-907d-5f4900a4a0ae">CreateVideoProcessor</a> function. 
 
 
+
+
+#### - Enable [in]
+
+If <b>TRUE</b>, the target rectangle specified by the <i>pOutputRect</i> parameter should be used by the video processor.
 
 
 #### - pOutputRect [in]

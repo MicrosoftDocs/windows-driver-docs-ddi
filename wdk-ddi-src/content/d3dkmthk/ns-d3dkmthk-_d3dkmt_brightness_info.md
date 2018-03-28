@@ -62,6 +62,11 @@ Contains information about the brightness of an integrated display panel.
 A value of type <a href="https://msdn.microsoft.com/library/windows/hardware/jj128342">D3DKMT_BRIGHTNESS_INFO_TYPE</a> that  indicates the type of brightness information to retrieve or set.
 
 
+#### - PossibleLevels
+
+A <a href="https://msdn.microsoft.com/library/windows/hardware/jj128343">D3DKMT_BRIGHTNESS_POSSIBLE_LEVELS</a> structure that contains information about all possible brightness levels that the integrated display panel supports.
+
+
 #### - Brightness
 
 The current brightness level.
@@ -80,11 +85,6 @@ A <a href="https://msdn.microsoft.com/library/windows/hardware/jj128361">DXGK_BR
 #### - OptimizationLevel
 
 A <a href="https://msdn.microsoft.com/library/windows/hardware/jj128358">DXGK_BACKLIGHT_OPTIMIZATION_LEVEL</a> structure that represents the optimization level of brightness control.
-
-
-#### - PossibleLevels
-
-A <a href="https://msdn.microsoft.com/library/windows/hardware/jj128343">D3DKMT_BRIGHTNESS_POSSIBLE_LEVELS</a> structure that contains information about all possible brightness levels that the integrated display panel supports.
 
 
 #### - ReductionInfo

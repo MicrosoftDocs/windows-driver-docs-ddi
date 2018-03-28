@@ -75,16 +75,6 @@ The <i>pfnSetPredication</i> callback function denotes that subsequent video ope
 
 
 
-#### - PredicationOp
-
-A predication operation. For more information, see the <a href="https://msdn.microsoft.com/70676251-BCD7-4996-B5B7-96A8D9B107DB">D3D12DDI_PREDICATION_OP</a> enumeration.
-
-
-#### - Uint64
-
-An integer.
-
-
 #### - hCommandList
 
 The handle of a command list.
@@ -93,6 +83,16 @@ The handle of a command list.
 #### - hResource
 
 The handle of a resource.
+
+
+#### - Uint64
+
+An integer.
+
+
+#### - PredicationOp
+
+A predication operation. For more information, see the <a href="https://msdn.microsoft.com/70676251-BCD7-4996-B5B7-96A8D9B107DB">D3D12DDI_PREDICATION_OP</a> enumeration.
 
 
 ## -returns

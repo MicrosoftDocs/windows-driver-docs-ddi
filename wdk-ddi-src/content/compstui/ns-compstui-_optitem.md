@@ -565,6 +565,13 @@ This union indicates the option's currently selected parameter value. Its usage 
 If <b>pOptType</b> is <b>NULL</b>, the option has no parameters, so this union identifies an icon to be associated with the treeview node for the option. The icon identifier can be either an icon handle or an icon resource identifier, as indicated by OPTIF_SEL_AS_HICON in <b>Flags</b>.
 
 
+#### - pSel
+
+This union indicates the option's currently selected parameter value. Its usage is dependent on the <a href="https://msdn.microsoft.com/3b3c002c-a201-4f81-b208-30864343409b">CPSUI option type</a>.
+
+If <b>pOptType</b> is <b>NULL</b>, the option has no parameters, so this union identifies an icon to be associated with the treeview node for the option. The icon identifier can be either an icon handle or an icon resource identifier, as indicated by OPTIF_SEL_AS_HICON in <b>Flags</b>.
+
+
 #### - pExtChkBox
 
 Pointer to EXTCHKBOX structure
@@ -575,13 +582,6 @@ Pointer to EXTCHKBOX structure
 This union can be a pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff548781">EXTCHKBOX</a> structure, a pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff548795">EXTPUSH</a> structure, or <b>NULL</b>.
 
 An OPTITEM structure can optionally have an EXTCHKBOX structure, an EXTPUSH structure, or neither, associated with it. If this union is not <b>NULL</b>, and if OPTIF_EXT_IS_EXTPUSH is set in <b>Flags</b>, <b>pExtPush</b> is valid. If the flag is not set, <b>pExtChkBox</b> is valid.
-
-
-#### - pSel
-
-This union indicates the option's currently selected parameter value. Its usage is dependent on the <a href="https://msdn.microsoft.com/3b3c002c-a201-4f81-b208-30864343409b">CPSUI option type</a>.
-
-If <b>pOptType</b> is <b>NULL</b>, the option has no parameters, so this union identifies an icon to be associated with the treeview node for the option. The icon identifier can be either an icon handle or an icon resource identifier, as indicated by OPTIF_SEL_AS_HICON in <b>Flags</b>.
 
 
 ## -remarks

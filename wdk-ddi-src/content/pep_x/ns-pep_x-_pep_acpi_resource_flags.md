@@ -109,14 +109,14 @@ When set, indicates that this device is in shared mode.
 This member is reserved and should be set to zero.
 
 
-##### - DUMMYSTRUCTNAME.AddressingMode
+##### - DUMMYSTRUCTNAME.Shared
 
-When set, indicates that this device is in addressing mode.
+When set, indicates that this is a shared device.
 
 
-##### - DUMMYSTRUCTNAME.Reserved
+##### - DUMMYSTRUCTNAME.Wake
 
-This member is reserved and should be set to zero.
+When set, indicates that this device can be woken from a low-power state.
 
 
 ##### - DUMMYSTRUCTNAME.ResourceUsage
@@ -124,9 +124,14 @@ This member is reserved and should be set to zero.
 When set, indicates that this device is in use.
 
 
-##### - DUMMYSTRUCTNAME.Shared
+##### - DUMMYSTRUCTNAME.SlaveMode
 
-When set, indicates that this is a shared device.
+When set, indicates that this device is in slave mode.
+
+
+##### - DUMMYSTRUCTNAME.AddressingMode
+
+When set, indicates that this device is in addressing mode.
 
 
 ##### - DUMMYSTRUCTNAME.SharedMode
@@ -134,12 +139,7 @@ When set, indicates that this is a shared device.
 When set, indicates that this device is in shared mode.
 
 
-##### - DUMMYSTRUCTNAME.SlaveMode
+##### - DUMMYSTRUCTNAME.Reserved
 
-When set, indicates that this device is in slave mode.
-
-
-##### - DUMMYSTRUCTNAME.Wake
-
-When set, indicates that this device can be woken from a low-power state.
+This member is reserved and should be set to zero.
 

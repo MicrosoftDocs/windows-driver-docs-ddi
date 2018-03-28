@@ -219,11 +219,19 @@ To initialize an AVL table package, you allocate a buffer that is at least <b>si
 
 ## -see-also
 
+<<<<<<< HEAD
 <a href="..\ntddk\nf-ntddk-rtlenumerategenerictable.md">RtlEnumerateGenericTableAvl</a>
 
 
 
 <a href="..\ntddk\nf-ntddk-rtldeleteelementgenerictable.md">RtlDeleteElementGenericTableAvl</a>
+=======
+<a href="..\ntddk\nf-ntddk-rtlinitializegenerictable.md">RtlInitializeGenericTableAvl</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-rtlinsertelementgenerictablefullavl.md">RtlInsertElementGenericTableFullAvl</a>
+>>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
 
 
 
@@ -231,6 +239,7 @@ To initialize an AVL table package, you allocate a buffer that is at least <b>si
 
 
 
+<<<<<<< HEAD
 <a href="..\ntddk\ns-ntddk-_rtl_generic_table.md">RTL_GENERIC_TABLE</a>
 
 
@@ -240,14 +249,8 @@ To initialize an AVL table package, you allocate a buffer that is at least <b>si
 
 
 <a href="..\ntddk\nf-ntddk-rtlinsertelementgenerictablefullavl.md">RtlInsertElementGenericTableFullAvl</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-rtlgetelementgenerictableavl.md">RtlGetElementGenericTableAvl</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-rtlisgenerictableempty.md">RtlIsGenericTableEmptyAvl</a>
+=======
+<a href="..\ntddk\nf-ntddk-rtlnumbergenerictableelements.md">RtlNumberGenericTableElementsAvl</a>
 
 
 
@@ -255,10 +258,36 @@ To initialize an AVL table package, you allocate a buffer that is at least <b>si
 
 
 
+<a href="..\ntddk\nf-ntddk-rtlenumerategenerictablelikeadirectory.md">RtlEnumerateGenericTableLikeADirectory</a>
+>>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
+
+
+
+<a href="..\ntddk\ns-ntddk-_rtl_generic_table.md">RTL_GENERIC_TABLE</a>
+
+
+
+<<<<<<< HEAD
+<a href="..\ntddk\nf-ntddk-rtlisgenerictableempty.md">RtlIsGenericTableEmptyAvl</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-rtlinsertelementgenerictable.md">RtlInsertElementGenericTableAvl</a>
+=======
+<a href="..\ntddk\nf-ntddk-rtldeleteelementgenerictable.md">RtlDeleteElementGenericTableAvl</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-rtlisgenerictableempty.md">RtlIsGenericTableEmptyAvl</a>
+>>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
+
+
+
 <a href="..\ntddk\nf-ntddk-rtlenumerategenerictablewithoutsplaying.md">RtlEnumerateGenericTableWithoutSplayingAvl</a>
 
 
 
+<<<<<<< HEAD
 <a href="..\ntddk\nf-ntddk-rtlinitializegenerictable.md">RtlInitializeGenericTableAvl</a>
 
 
@@ -272,6 +301,21 @@ To initialize an AVL table package, you allocate a buffer that is at least <b>si
 
 
 <a href="..\ntddk\nf-ntddk-rtllookupelementgenerictablefullavl.md">RtlLookupElementGenericTableFullAvl</a>
+=======
+<a href="..\ntddk\nf-ntddk-rtlenumerategenerictablewithoutsplaying.md">RtlEnumerateGenericTableWithoutSplayingAvl</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-rtlgetelementgenerictableavl.md">RtlGetElementGenericTableAvl</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-rtlenumerategenerictable.md">RtlEnumerateGenericTableAvl</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-rtllookupfirstmatchingelementgenerictableavl.md">RtlLookupFirstMatchingElementGenericTableAvl</a>
+>>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
 
 
 

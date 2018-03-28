@@ -66,9 +66,9 @@ The client driver's implementation to create a default control endpoint.
 
 
 
-#### - EndpointInit [in, out]
+#### - UfxDevice [in]
 
-A pointer to an  UFXENDPOINT_INIT opaque structure that contains the endpoint descriptor required  to create an endpoint object.
+The handle to a  USB device object that the client driver received in a previous call to  the <a href="https://msdn.microsoft.com/library/windows/hardware/mt187951">UfxDeviceCreate</a>.
 
 
 #### - MaxPacketSize [in]
@@ -76,9 +76,9 @@ A pointer to an  UFXENDPOINT_INIT opaque structure that contains the endpoint de
 The default maximum packet size that can be sent from or to this endpoint.
 
 
-#### - UfxDevice [in]
+#### - EndpointInit [in, out]
 
-The handle to a  USB device object that the client driver received in a previous call to  the <a href="https://msdn.microsoft.com/library/windows/hardware/mt187951">UfxDeviceCreate</a>.
+A pointer to an  UFXENDPOINT_INIT opaque structure that contains the endpoint descriptor required  to create an endpoint object.
 
 
 ## -returns

@@ -97,9 +97,9 @@ A <a href="https://msdn.microsoft.com/library/windows/hardware/mt186861">PEP_WOR
 A <a href="https://msdn.microsoft.com/library/windows/hardware/mt186860">PEP_WORK_ACPI_EVALUATE_CONTROL_METHOD_COMPLETE</a> structure. This structure is used if <b>WorkType</b> = <b>PepWorkAcpiEvaluateControlMethodComplete</b>.
 
 
-##### - ( unnamed union ).AcpiNotify
+##### - ( unnamed union ).PowerControl
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/mt186861">PEP_WORK_ACPI_NOTIFY</a> structure. This structure is used if <b>WorkType</b> = <b>PepWorkAcpiNotify</b>.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/mt186865">PEP_WORK_POWER_CONTROL</a> structure. This structure is used if <b>WorkType</b> = <b>PepWorkRequestPowerControl</b>.
 
 
 ##### - ( unnamed union ).CompleteIdleState
@@ -112,14 +112,14 @@ A <a href="https://msdn.microsoft.com/library/windows/hardware/mt186862">PEP_WOR
 A <a href="https://msdn.microsoft.com/library/windows/hardware/mt186863">PEP_WORK_COMPLETE_PERF_STATE</a> structure. This structure is used if <b>WorkType</b> = <b>PepWorkCompletePerfState</b>.
 
 
+##### - ( unnamed union ).AcpiNotify
+
+A <a href="https://msdn.microsoft.com/library/windows/hardware/mt186861">PEP_WORK_ACPI_NOTIFY</a> structure. This structure is used if <b>WorkType</b> = <b>PepWorkAcpiNotify</b>.
+
+
 ##### - ( unnamed union ).ControlMethodComplete
 
 A <a href="https://msdn.microsoft.com/library/windows/hardware/mt186860">PEP_WORK_ACPI_EVALUATE_CONTROL_METHOD_COMPLETE</a> structure. This structure is used if <b>WorkType</b> = <b>PepWorkAcpiEvaluateControlMethodComplete</b>.
-
-
-##### - ( unnamed union ).PowerControl
-
-A <a href="https://msdn.microsoft.com/library/windows/hardware/mt186865">PEP_WORK_POWER_CONTROL</a> structure. This structure is used if <b>WorkType</b> = <b>PepWorkRequestPowerControl</b>.
 
 
 ## -remarks

@@ -115,9 +115,15 @@ A single bit that indicates that a reported end-to-end cyclic redundancy check (
 
 
 #### - FlowControlProtocolError
+<<<<<<< HEAD
 
 A single bit that indicates that a reported flow control protocol error is a fatal error.
 
+=======
+
+A single bit that indicates that a reported flow control protocol error is a fatal error.
+
+>>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
 
 #### - MalformedTLP
 
@@ -182,7 +188,11 @@ A PCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY structure is contained in the <a href
 
 ## -see-also
 
+<<<<<<< HEAD
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537457">PCI_EXPRESS_AER_CAPABILITY</a>
+=======
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537472">PCI_EXPRESS_ROOTPORT_AER_CAPABILITY</a>
+>>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
 
 
 
@@ -190,7 +200,7 @@ A PCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY structure is contained in the <a href
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537472">PCI_EXPRESS_ROOTPORT_AER_CAPABILITY</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537457">PCI_EXPRESS_AER_CAPABILITY</a>
 
 
 

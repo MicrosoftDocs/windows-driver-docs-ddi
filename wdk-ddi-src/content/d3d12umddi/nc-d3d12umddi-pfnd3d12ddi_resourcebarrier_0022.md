@@ -74,14 +74,14 @@ Specifies a count.
 
 
 
-#### - ResourceBarrier [in]
-
-A pointer to a resource barrier as a <a href="https://msdn.microsoft.com/ED597BB0-F9ED-4311-9E2F-06AEA2755B37">D3D12DDIARG_RESOURCE_BARRIER_0022</a> structure. 
-
-
 #### - hDrvCommandList
 
 The handle of a command list.
+
+
+#### - ResourceBarrier [in]
+
+A pointer to a resource barrier as a <a href="https://msdn.microsoft.com/ED597BB0-F9ED-4311-9E2F-06AEA2755B37">D3D12DDIARG_RESOURCE_BARRIER_0022</a> structure. 
 
 
 ## -returns

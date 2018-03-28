@@ -66,6 +66,11 @@ The client driver's implementation to set or clear the specified power feature o
 
 
 
+#### - UfxDevice [in]
+
+The handle to a  USB device object that the client driver received in a previous call to  the <a href="https://msdn.microsoft.com/library/windows/hardware/mt187951">UfxDeviceCreate</a>.
+
+
 #### - Feature [in]
 
 Feature selector for the power feature that is set or cleared, as defined in section 9.4 of the USB 3.0 Specification.  The feature selector can be one of these values: 
@@ -81,11 +86,6 @@ Feature selector for the power feature that is set or cleared, as defined in sec
 If TRUE, set the feature.
 
 If FALSE, clear the feature.
-
-
-#### - UfxDevice [in]
-
-The handle to a  USB device object that the client driver received in a previous call to  the <a href="https://msdn.microsoft.com/library/windows/hardware/mt187951">UfxDeviceCreate</a>.
 
 
 ## -returns

@@ -80,9 +80,9 @@ The <b>CreateSampler</b> function creates a sampler.
  A handle to the display device (graphics context).
 
 
-#### - hRTSampler [in]
+#### - pSamplerDesc [in]
 
- A handle to the sampler that the driver should use anytime it calls back into the Direct3D runtime. 
+ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff542011">D3D10_DDI_SAMPLER_DESC</a> structure that describes the parameters that the user-mode display driver uses to create a sampler. 
 
 
 #### - hSampler [in]
@@ -90,9 +90,9 @@ The <b>CreateSampler</b> function creates a sampler.
  A handle to the driver's private data for the sampler. The driver returns the size, in bytes, of the memory region that the Microsoft Direct3D runtime must allocate for the private data from a call to the driver's <a href="https://msdn.microsoft.com/7231ba65-f6ed-4b00-a61f-21d8fe26398f">CalcPrivateSamplerSize</a> function. The handle is really just a pointer to a region of memory, the size of which the driver requested. The driver uses this region of memory to store internal data structures that are related to its sampler object.
 
 
-#### - pSamplerDesc [in]
+#### - hRTSampler [in]
 
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff542011">D3D10_DDI_SAMPLER_DESC</a> structure that describes the parameters that the user-mode display driver uses to create a sampler. 
+ A handle to the sampler that the driver should use anytime it calls back into the Direct3D runtime. 
 
 
 ## -returns

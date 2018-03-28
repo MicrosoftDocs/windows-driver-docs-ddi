@@ -66,6 +66,11 @@ The client driver's implementation to create a default endpoint object.
 
 
 
+#### - UfxDevice [in]
+
+The handle to a  USB device object that the client driver received in a previous call to  the <a href="https://msdn.microsoft.com/library/windows/hardware/mt187951">UfxDeviceCreate</a>.
+
+
 #### - EndpointDescriptor [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff539317">USB_ENDPOINT_DESCRIPTOR</a> structure that contains descriptor data.
@@ -74,11 +79,6 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff53
 #### - EndpointInit [in, out]
 
 A pointer to an  UFXENDPOINT_INIT opaque structure that contains the endpoint descriptor required  to create an endpoint object.
-
-
-#### - UfxDevice [in]
-
-The handle to a  USB device object that the client driver received in a previous call to  the <a href="https://msdn.microsoft.com/library/windows/hardware/mt187951">UfxDeviceCreate</a>.
 
 
 ## -returns

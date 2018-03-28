@@ -75,14 +75,14 @@ The<b> IWiaDrvItem::FindItemByName</b> method locates an item in a driver item t
 
 
 
-#### - bstrFullItemName [in]
-
-Specifies the full name of the item to find.
-
-
 #### - lFlags [in]
 
 Reserved. Set to zero. 
+
+
+#### - bstrFullItemName [in]
+
+Specifies the full name of the item to find.
 
 
 #### - ppItem [out, optional]

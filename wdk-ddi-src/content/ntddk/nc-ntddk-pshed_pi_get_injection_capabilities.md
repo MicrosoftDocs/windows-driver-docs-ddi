@@ -133,7 +133,11 @@ The Windows kernel calls into the PSHED to retrieve information about the types 
 
 ## -see-also
 
+<<<<<<< HEAD
 <a href="..\ntddk\ns-ntddk-_whea_pshed_plugin_registration_packet.md">WHEA_PSHED_PLUGIN_REGISTRATION_PACKET</a>
+=======
+<a href="..\ntddk\nf-ntddk-pshedregisterplugin.md">PshedRegisterPlugin</a>
+>>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
 
 
 
@@ -141,11 +145,15 @@ The Windows kernel calls into the PSHED to retrieve information about the types 
 
 
 
+<<<<<<< HEAD
 <a href="..\ntddk\ns-ntddk-_whea_error_injection_capabilities.md">WHEA_ERROR_INJECTION_CAPABILITIES</a>
-
-
-
+=======
 <a href="..\ntddk\nc-ntddk-pshed_pi_inject_error.md">InjectError</a>
+>>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
+
+
+
+<a href="..\ntddk\ns-ntddk-_whea_error_injection_capabilities.md">WHEA_ERROR_INJECTION_CAPABILITIES</a>
 
 
 

@@ -71,6 +71,20 @@ Handle to the port controller object that the client driver received in the prev
                  indicates the type of control register. This enumeration is declared in UcmTcpciSpec.h.
 
 
+#### - TCPCControl
+
+
+                     A 
+                 <b>UCMTCPCI_PORT_CONTROLLER_TCPC_CONTROL</b> structure that describes the TCPC_CONTROL Register defined as per the Universal Serial Bus Type-C Port Controller Interface Specification. This structure is declared in UcmTcpciSpec.h.
+
+
+#### - RoleControl
+
+
+                     A 
+                 <b>UCMTCPCI_PORT_CONTROLLER_ROLE_CONTROL</b> structure that describes the ROLE_CONTROL Register defined as per the Universal Serial Bus Type-C Port Controller Interface Specification. This structure is declared in UcmTcpciSpec.h.
+
+
 #### - FaultControl
 
 
@@ -83,20 +97,6 @@ Handle to the port controller object that the client driver received in the prev
 
                      A 
                  <b>UCMTCPCI_PORT_CONTROLLER_POWER_CONTROL</b> structure that describes the FAULT_POWER Register defined as per the Universal Serial Bus Type-C Port Controller Interface Specification. This structure is declared in UcmTcpciSpec.h.
-
-
-#### - RoleControl
-
-
-                     A 
-                 <b>UCMTCPCI_PORT_CONTROLLER_ROLE_CONTROL</b> structure that describes the ROLE_CONTROL Register defined as per the Universal Serial Bus Type-C Port Controller Interface Specification. This structure is declared in UcmTcpciSpec.h.
-
-
-#### - TCPCControl
-
-
-                     A 
-                 <b>UCMTCPCI_PORT_CONTROLLER_TCPC_CONTROL</b> structure that describes the TCPC_CONTROL Register defined as per the Universal Serial Bus Type-C Port Controller Interface Specification. This structure is declared in UcmTcpciSpec.h.
 
 
 ## -see-also

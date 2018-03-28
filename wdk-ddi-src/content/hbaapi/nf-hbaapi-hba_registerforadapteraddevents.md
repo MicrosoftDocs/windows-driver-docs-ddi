@@ -74,14 +74,14 @@ TBD
 
 
 
-#### - callbackHandle
-
-Contains an opaque identifier that the user must pass to <a href="https://msdn.microsoft.com/library/windows/hardware/ff557175">HBA_RemoveCallback</a> to de-register the callback routine.
-
-
 #### - userData
 
 Pointer to a buffer that will be passed to the callback routine with each event. This data correlates the event with the source of the event registration. 
+
+
+#### - callbackHandle
+
+Contains an opaque identifier that the user must pass to <a href="https://msdn.microsoft.com/library/windows/hardware/ff557175">HBA_RemoveCallback</a> to de-register the callback routine.
 
 
 ## -returns

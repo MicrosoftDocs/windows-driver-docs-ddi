@@ -82,6 +82,11 @@ A DXGK_GLITCH_DURATION value which indicates approximately how long the glitch l
 This value is reserved for system use.
 
 
+#### - OutputColorSpace
+
+A D3DDDI_COLOR_SPACE_TYPE value which describes the output color space currently being applied for the transported pixels.  The driver is responsible for sending appropriate metadata to ensure the display device is set up to interpret pixels correctly for this color space. 
+
+
 #### - DiagnosticInfo
 
 Set of information filled out by the driver for the boot display to describe any side-effects of the DxgkDdiStartDevice.  
@@ -90,9 +95,4 @@ Set of information filled out by the driver for the boot display to describe any
 
 In many cases, glitches are inevitable so these fields attempt to understand the underlying cause and the extend of the user impact.  OEMs and customers often complain about glitches during boot so having the driver report the glitch to the OS should help to investigate such issues quickly.
 
-
-
-#### - OutputColorSpace
-
-A D3DDDI_COLOR_SPACE_TYPE value which describes the output color space currently being applied for the transported pixels.  The driver is responsible for sending appropriate metadata to ensure the display device is set up to interpret pixels correctly for this color space. 
 

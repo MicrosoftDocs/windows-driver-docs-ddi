@@ -67,14 +67,14 @@ The kernel mode driver handle returned from <a href="https://msdn.microsoft.com/
 The physical address of the allocation. The physical address (0, 0) is invalid and is used when the allocation is being evicted.  
 
 
-#### - Reserved
-
-This member is not used and should be set to zero.
-
-
 #### - Resident
 
 Set to 0 when the allocation is evicted and set to 1 when the allocation is committed.
+
+
+#### - Reserved
+
+This member is not used and should be set to zero.
 
 
 ## -remarks

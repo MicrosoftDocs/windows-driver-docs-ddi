@@ -86,12 +86,12 @@ None.
 </tr>
 </table></span></div>
 
-#### -InputType
- The KSNODE type for the intput.
-
-
 #### -OutputType
  The KSNODE type for the output.
+
+
+#### -InputType
+ The KSNODE type for the intput.
 
 
 ### -output-buffer-length

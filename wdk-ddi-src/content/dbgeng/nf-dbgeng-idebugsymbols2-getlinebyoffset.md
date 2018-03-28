@@ -7,7 +7,7 @@ old-location: debugger\getlinebyoffset.htm
 old-project: debugger
 ms.assetid: 1b470ae8-49d3-467d-aa08-08bd9c9e9466
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: GetLineByOffset method [Windows Debugging], GetLineByOffset method [Windows Debugging], IDebugSymbols interface, GetLineByOffset method [Windows Debugging], IDebugSymbols2 interface, GetLineByOffset method [Windows Debugging], IDebugSymbols3 interface, GetLineByOffset,IDebugSymbols2.GetLineByOffset, IDebugSymbols interface [Windows Debugging], GetLineByOffset method, IDebugSymbols2, IDebugSymbols2 interface [Windows Debugging], GetLineByOffset method, IDebugSymbols2::GetLineByOffset, IDebugSymbols3 interface [Windows Debugging], GetLineByOffset method, IDebugSymbols3::GetLineByOffset, IDebugSymbols::GetLineByOffset, IDebugSymbols_2ed557af-4f84-46d7-be40-fd37a87cd960.xml, dbgeng/IDebugSymbols2::GetLineByOffset, dbgeng/IDebugSymbols3::GetLineByOffset, dbgeng/IDebugSymbols::GetLineByOffset, debugger.getlinebyoffset
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -159,5 +159,5 @@ For more information about source files, see <a href="https://msdn.microsoft.com
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugSymbols::GetLineByOffset method%20 RELEASE:%20(2/27/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugSymbols::GetLineByOffset method%20 RELEASE:%20(3/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

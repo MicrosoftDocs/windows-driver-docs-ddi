@@ -72,14 +72,14 @@ A driver's <i>OnInterruptDisable</i> event callback function disables a specifie
 
 
 
-#### - pAssociatedDevice [in]
-
-A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556917">IWDFDevice</a> interface that the driver used to call <a href="https://msdn.microsoft.com/library/windows/hardware/hh451208">CreateInterrupt</a>. 
-
-
 #### - pInterrupt [in]
 
 A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451283">IWDFInterrupt</a> interface.
+
+
+#### - pAssociatedDevice [in]
+
+A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556917">IWDFDevice</a> interface that the driver used to call <a href="https://msdn.microsoft.com/library/windows/hardware/hh451208">CreateInterrupt</a>. 
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: kernel\processor_number.htm
 old-project: kernel
 ms.assetid: 6ceb8d0f-8c26-4487-a976-ac92e2aca5e0
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/1/2018
 ms.keywords: "*PPROCESSOR_NUMBER, PPROCESSOR_NUMBER, PPROCESSOR_NUMBER structure pointer [Kernel-Mode Driver Architecture], PROCESSOR_NUMBER, PROCESSOR_NUMBER structure [Kernel-Mode Driver Architecture], _PROCESSOR_NUMBER, kernel.processor_number, kstruct_c_d3a9199a-f6d3-4d2d-877a-6e856e80ebb9.xml, miniport/PPROCESSOR_NUMBER, miniport/PROCESSOR_NUMBER"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -103,6 +103,7 @@ Kernel-mode routines that use the <b>PROCESSOR_NUMBER</b> structure include <a h
 
 
 
+<<<<<<< HEAD
 <a href="..\wdm\nf-wdm-kegetprocessorindexfromnumber.md">KeGetProcessorIndexFromNumber</a>
 
 
@@ -116,6 +117,21 @@ Kernel-mode routines that use the <b>PROCESSOR_NUMBER</b> structure include <a h
 
 
 <a href="..\wdm\nf-wdm-kegetprocessornumberfromindex.md">KeGetProcessorNumberFromIndex</a>
+=======
+<a href="..\wdm\nf-wdm-kequerymaximumgroupcount.md">KeQueryMaximumGroupCount</a>
+
+
+
+<a href="..\wdm\nf-wdm-kegetprocessornumberfromindex.md">KeGetProcessorNumberFromIndex</a>
+
+
+
+<a href="..\wdm\nf-wdm-kequerylogicalprocessorrelationship.md">KeQueryLogicalProcessorRelationship</a>
+
+
+
+<a href="..\wdm\nf-wdm-kegetprocessorindexfromnumber.md">KeGetProcessorIndexFromNumber</a>
+>>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
 
 
 
@@ -123,5 +139,5 @@ Kernel-mode routines that use the <b>PROCESSOR_NUMBER</b> structure include <a h
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PROCESSOR_NUMBER structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PROCESSOR_NUMBER structure%20 RELEASE:%20(3/1/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

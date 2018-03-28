@@ -93,11 +93,9 @@ If the driver does not use private data for each resource for standard allocatio
 
 
 
-#### - pCreateGdiSurfaceData
+#### - pCreateSharedPrimarySurfaceData
 
-[in] A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff546021">D3DKMDT_GDISURFACEDATA</a> structure, only available if <b>StandardAllocationType</b> specifies D3DKMDT_STANDARDALLOCATION_GDISURFACE.
-
-This member is available beginning with Windows 7.
+[in] A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff546177">D3DKMDT_SHAREDPRIMARYSURFACEDATA</a> structure, if <b>StandardAllocationType</b> specifies D3DKMDT_STANDARDALLOCATION_SHAREDPRIMARYSURFACE.
 
 
 #### - pCreateShadowSurfaceData
@@ -105,14 +103,16 @@ This member is available beginning with Windows 7.
 [in] A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff546168">D3DKMDT_SHADOWSURFACEDATA</a> structure, if <b>StandardAllocationType</b> specifies D3DKMDT_STANDARDALLOCATION_SHADOWSURFACE.
 
 
-#### - pCreateSharedPrimarySurfaceData
-
-[in] A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff546177">D3DKMDT_SHAREDPRIMARYSURFACEDATA</a> structure, if <b>StandardAllocationType</b> specifies D3DKMDT_STANDARDALLOCATION_SHAREDPRIMARYSURFACE.
-
-
 #### - pCreateStagingSurfaceData
 
 [in] A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff546583">D3DKMDT_STAGINGSURFACEDATA</a> structure, if <b>StandardAllocationType</b> specifies D3DKMDT_STANDARDALLOCATION_STAGINGSURFACE.
+
+
+#### - pCreateGdiSurfaceData
+
+[in] A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff546021">D3DKMDT_GDISURFACEDATA</a> structure, only available if <b>StandardAllocationType</b> specifies D3DKMDT_STANDARDALLOCATION_GDISURFACE.
+
+This member is available beginning with Windows 7.
 
 
 ## -remarks

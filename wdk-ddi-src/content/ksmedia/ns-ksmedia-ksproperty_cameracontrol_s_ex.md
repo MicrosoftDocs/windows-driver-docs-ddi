@@ -170,11 +170,11 @@ When a requested camera focus operation is completed or is canceled, the driver 
 
 
 
-<a href="..\ksmedia\ns-ksmedia-ksproperty_cameracontrol_flash_s.md">KSPROPERTY_CAMERACONTROL_FLASH_S</a>
-
-
-
 <a href="..\ksmedia\ne-ksmedia-ksevent_cameracontrol.md">KSEVENT_CAMERACONTROL</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
 
 
 
@@ -182,11 +182,19 @@ When a requested camera focus operation is completed or is canceled, the driver 
 
 
 
+<<<<<<< HEAD
 <a href="..\ksmedia\ns-ksmedia-ksproperty_cameracontrol_videostabilization_mode_s.md">KSPROPERTY_CAMERACONTROL_VIDEOSTABILIZATION_MODE_S</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
+=======
+<a href="..\ksmedia\ns-ksmedia-ksproperty_cameracontrol_flash_s.md">KSPROPERTY_CAMERACONTROL_FLASH_S</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
+>>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
 
 
 

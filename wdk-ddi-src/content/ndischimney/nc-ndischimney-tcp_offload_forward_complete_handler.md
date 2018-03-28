@@ -7,7 +7,7 @@ old-location: netvista\protocoltcpoffloadforwardcomplete.htm
 old-project: netvista
 ms.assetid: 02a11841-d98a-4c74-8922-458826e2911e
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: ProtocolTcpOffloadForwardComplete, ProtocolTcpOffloadForwardComplete callback function [Network Drivers Starting with Windows Vista], TCP_OFFLOAD_FORWARD_COMPLETE_HANDLER, ndischimney/ProtocolTcpOffloadForwardComplete, netvista.protocoltcpoffloadforwardcomplete, tcp_chim_protocol_func_18981e3f-fec9-483d-b60e-54017ebd57d1.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -150,5 +150,5 @@ In response, NDIS calls the overlying driver's or host stack's
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20TCP_OFFLOAD_FORWARD_COMPLETE_HANDLER callback function%20 RELEASE:%20(2/27/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20TCP_OFFLOAD_FORWARD_COMPLETE_HANDLER callback function%20 RELEASE:%20(3/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

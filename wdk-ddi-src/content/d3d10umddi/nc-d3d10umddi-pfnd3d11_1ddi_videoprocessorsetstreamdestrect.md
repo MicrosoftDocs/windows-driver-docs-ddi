@@ -78,18 +78,6 @@ Sets the destination rectangle for an input stream on the video processor.
 
 
 
-#### - Enable [in]
-
-If <b>TRUE</b>, the destination rectangle specified by the <i>pDestRect</i> parameter should be used by the video processor.
-
-
-
-
-#### - StreamIndex [in]
-
-The zero-based index of the input stream.
-
-
 #### - hDevice [in]
 
 A handle to the display device (graphics context). 
@@ -98,6 +86,18 @@ A handle to the display device (graphics context).
 #### - hVideoProcessor [in]
 
 A handle to the video processor object that was created through a call to the <a href="https://msdn.microsoft.com/68a7c394-4b0f-4446-a54b-5aee6cf8a913">CreateVideoProcessor</a> function. 
+
+
+#### - StreamIndex [in]
+
+The zero-based index of the input stream.
+
+
+#### - Enable [in]
+
+If <b>TRUE</b>, the destination rectangle specified by the <i>pDestRect</i> parameter should be used by the video processor.
+
+
 
 
 #### - pDestRect [in]

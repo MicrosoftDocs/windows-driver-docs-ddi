@@ -171,7 +171,17 @@ Supported starting with Windows 8.
 
 
 
+#### - D3D12DDI_HT_COMMAND_QUEUE
+
+Supported starting with Windows 10.
+
+
 #### - D3D12DDI_HT_COMMAND_ALLOCATOR
+
+Supported starting with Windows 10.
+
+
+#### - D3D12DDI_HT_PIPELINE_STATE
 
 Supported starting with Windows 10.
 
@@ -181,7 +191,7 @@ Supported starting with Windows 10.
 Supported starting with Windows 10.
 
 
-#### - D3D12DDI_HT_COMMAND_QUEUE
+#### - D3D12DDI_HT_FENCE
 
 Supported starting with Windows 10.
 
@@ -191,17 +201,7 @@ Supported starting with Windows 10.
 Supported starting with Windows 10.
 
 
-#### - D3D12DDI_HT_FENCE
-
-Supported starting with Windows 10.
-
-
 #### - D3D12DDI_HT_HEAP
-
-Supported starting with Windows 10.
-
-
-#### - D3D12DDI_HT_PIPELINE_STATE
 
 Supported starting with Windows 10.
 

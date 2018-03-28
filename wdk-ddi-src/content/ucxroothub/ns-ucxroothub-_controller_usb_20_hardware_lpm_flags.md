@@ -70,14 +70,14 @@ The size of structure represented as a char (8-bit) value.
 
 
 
-#### - BeslLpmCapabilitySupported
-
-Indicates Best Effort Service latency (BESL) latency support. 
-
-
 #### - L1CapabilitySupported
 
 Indicates support for L1 transitions.
+
+
+#### - BeslLpmCapabilitySupported
+
+Indicates Best Effort Service latency (BESL) latency support. 
 
 
 ## -see-also

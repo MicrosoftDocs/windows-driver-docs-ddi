@@ -149,11 +149,11 @@ The WHEA_ERROR_PACKET_FLAGS union describes the error condition reported by usin
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560465">WHEA_ERROR_PACKET</a>
-
-
-
 <a href="https://msdn.microsoft.com/d2ded330-edcc-4bdd-9b52-73c1961d8ef2">Predictive Failure Analysis (PFA)</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560465">WHEA_ERROR_PACKET</a>
 
 
 

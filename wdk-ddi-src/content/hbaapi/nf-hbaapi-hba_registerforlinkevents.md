@@ -89,14 +89,14 @@ TBD
 
 
 
-#### - callbackHandle
-
-Pointer to an opaque identifier that may be used to deregister the caller and suspend calls to the callback routine when events occur.
-
-
 #### - handle
 
 Contains a value returned by the routine <a href="https://msdn.microsoft.com/library/windows/hardware/ff557097">HBA_OpenAdapter</a> that identifies the HBA for which event callbacks are requested.
+
+
+#### - callbackHandle
+
+Pointer to an opaque identifier that may be used to deregister the caller and suspend calls to the callback routine when events occur.
 
 
 ## -returns

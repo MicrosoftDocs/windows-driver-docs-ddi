@@ -80,21 +80,6 @@ updates a destination subresource region that stores constant buffers from a sou
 A value that specifies characteristics of copy operation as a bitwise <b>OR</b> of the values in the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451047">D3D11_1_DDI_COPY_FLAGS</a> enumeration type.
 
 
-#### - DepthPitch
-
- The offset, in bytes, to move to the next depth slice of source data.
-
-
-#### - DstSubresource
-
- An index that indicates the destination subresource to copy to.
-
-
-#### - RowPitch
-
- The offset, in bytes, to move to the next row of source data.
-
-
 #### - hDevice
 
  A handle to the display device (graphics context).
@@ -105,6 +90,11 @@ A value that specifies characteristics of copy operation as a bitwise <b>OR</b> 
  A handle to the destination resource to copy to.
 
 
+#### - DstSubresource
+
+ An index that indicates the destination subresource to copy to.
+
+
 #### - pDstBox [in, optional]
 
  A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541925">D3D10_DDI_BOX</a> structure that specifies the region of the destination subresource to copy data to. If <i>pDstBox</i> is <b>NULL</b>, the driver should copy to the entire destination subresouce. 
@@ -113,6 +103,16 @@ A value that specifies characteristics of copy operation as a bitwise <b>OR</b> 
 #### - pSysMemUP [in]
 
  A pointer to the beginning address of the source data that <b>DefaultConstantBufferUpdateSubresourceUP(D3D11_1)</b> uses to update the destination subresouce. 
+
+
+#### - RowPitch
+
+ The offset, in bytes, to move to the next row of source data.
+
+
+#### - DepthPitch
+
+ The offset, in bytes, to move to the next depth slice of source data.
 
 
 ## -returns

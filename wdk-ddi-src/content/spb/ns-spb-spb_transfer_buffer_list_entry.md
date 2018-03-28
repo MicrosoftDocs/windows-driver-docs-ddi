@@ -100,11 +100,15 @@ If the buffer format is  <b>SpbTransferBufferFormatSimple</b>, an  <b>SPB_TRANSF
 
 
 
+<<<<<<< HEAD
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh450857">IOCTL_SPB_EXECUTE_SEQUENCE</a>
-
-
-
+=======
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh406221">SPB_TRANSFER_LIST</a>
+>>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406223">SPB_TRANSFER_LIST_ENTRY</a>
 
 
 

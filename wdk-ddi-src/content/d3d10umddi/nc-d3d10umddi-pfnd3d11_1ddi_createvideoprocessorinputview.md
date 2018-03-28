@@ -82,9 +82,9 @@ A handle to the display device (graphics context).
 
 
 
-#### - hRTView [in]
+#### - pView [in]
 
-A handle to the video processor input that the driver should use when it calls back into the Direct3D runtime.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh406318">D3D11_1DDIARG_CREATEVIDEOPROCESSORINPUTVIEW</a> structure. This structure specifies the attributes of the video processor input view to be created.
 
 
 #### - hView [in]
@@ -92,9 +92,9 @@ A handle to the video processor input that the driver should use when it calls b
 A handle to the driver's private data for the video processor input view. For more information, see the Remarks section.
 
 
-#### - pView [in]
+#### - hRTView [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh406318">D3D11_1DDIARG_CREATEVIDEOPROCESSORINPUTVIEW</a> structure. This structure specifies the attributes of the video processor input view to be created.
+A handle to the video processor input that the driver should use when it calls back into the Direct3D runtime.
 
 
 ## -returns

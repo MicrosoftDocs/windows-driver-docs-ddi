@@ -90,19 +90,14 @@ A pointer to a variable that receives the size, in bytes, of the NULL-terminated
  A pointer to a variable that receives the size, in bytes, of the NULL-terminated string that the <i>pDescription</i> parameter specifies. 
 
 
-#### - Query [in]
-
- A <a href="https://msdn.microsoft.com/library/windows/hardware/ff541850">D3D10DDI_QUERY</a>-typed value that identifies the counter identifier that information is retrieved for.
-
-
 #### - hDevice [in]
 
  A handle to the display device (graphics context).
 
 
-#### - pActiveCounters [out]
+#### - Query [in]
 
-A pointer to a variable that receives the number of simultaneously active counters that are allocated for the creation of the counter identifier that <i>Query</i> identifies. 
+ A <a href="https://msdn.microsoft.com/library/windows/hardware/ff541850">D3D10DDI_QUERY</a>-typed value that identifies the counter identifier that information is retrieved for.
 
 
 #### - pCounterType [out]
@@ -158,9 +153,9 @@ D3D10DDI_COUNTER_TYPE_UINT64
  
 
 
-#### - pDescription [out]
+#### - pActiveCounters [out]
 
-A pointer that the driver returns a NULL-terminated string to that contains the description of what the counter identifier measures. 
+A pointer to a variable that receives the number of simultaneously active counters that are allocated for the creation of the counter identifier that <i>Query</i> identifies. 
 
 
 #### - pName [out]
@@ -171,6 +166,11 @@ A pointer that the driver returns a NULL-terminated string to that contains the 
 #### - pUnits [out]
 
 A pointer that the driver returns a NULL-terminated string to that contains the name of the units that the counter identifier measures. 
+
+
+#### - pDescription [out]
+
+A pointer that the driver returns a NULL-terminated string to that contains the description of what the counter identifier measures. 
 
 
 ## -returns

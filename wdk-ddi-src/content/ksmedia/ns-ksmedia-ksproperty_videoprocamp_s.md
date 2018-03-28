@@ -148,14 +148,19 @@ The device supports automatic setting of the specified property.
 
 ## -see-also
 
+<<<<<<< HEAD
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566092">KSPROPERTY_VIDEOPROCAMP_SATURATION</a>
-
-
-
+=======
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566066">KSPROPERTY_VIDEOPROCAMP_COLORENABLE</a>
+>>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566076">KSPROPERTY_VIDEOPROCAMP_GAMMA</a>
+
+
+
+<<<<<<< HEAD
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568122">PROPSETID_VIDCAP_VIDEOPROCAMP</a>
 
 
@@ -165,6 +170,17 @@ The device supports automatic setting of the specified property.
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566063">KSPROPERTY_VIDEOPROCAMP_BACKLIGHT_COMPENSATION</a>
+=======
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566065">KSPROPERTY_VIDEOPROCAMP_BRIGHTNESS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566092">KSPROPERTY_VIDEOPROCAMP_SATURATION</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566078">KSPROPERTY_VIDEOPROCAMP_HUE</a>
+>>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
 
 
 
@@ -172,6 +188,7 @@ The device supports automatic setting of the specified property.
 
 
 
+<<<<<<< HEAD
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566095">KSPROPERTY_VIDEOPROCAMP_WHITEBALANCE</a>
 
 
@@ -181,6 +198,17 @@ The device supports automatic setting of the specified property.
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566078">KSPROPERTY_VIDEOPROCAMP_HUE</a>
+=======
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566070">KSPROPERTY_VIDEOPROCAMP_CONTRAST</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566063">KSPROPERTY_VIDEOPROCAMP_BACKLIGHT_COMPENSATION</a>
+>>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
 
 
 
@@ -188,7 +216,11 @@ The device supports automatic setting of the specified property.
 
 
 
+<<<<<<< HEAD
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
+=======
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566093">KSPROPERTY_VIDEOPROCAMP_SHARPNESS</a>
+>>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
 
 
 

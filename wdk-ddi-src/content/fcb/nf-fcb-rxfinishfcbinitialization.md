@@ -74,11 +74,6 @@ TBD
 
 
 
-#### - InitPacket [in, optional]
-
-Pointer to extra data that is required for initialization depending on the storage type of the FCB being initialized. This parameter may be a <b>NULL</b> pointer if no extra data is provided.
-
-
 #### - MrxFcb [in, out]
 
 A pointer to the MRX_FCB structure being initialized.
@@ -145,6 +140,11 @@ A file.
 </tr>
 </table>
  
+
+
+#### - InitPacket [in, optional]
+
+Pointer to extra data that is required for initialization depending on the storage type of the FCB being initialized. This parameter may be a <b>NULL</b> pointer if no extra data is provided.
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: netvista\rilresetmodemparams.htm
 old-project: netvista
 ms.assetid: 6fde91f1-375e-4eaa-af48-67099b3e3227
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*LPRILRESETMODEMPARAMS, RILRESETMODEMPARAMS, RILRESETMODEMPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilresetmodemparams, ntddrilapitypes/RILRESETMODEMPARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices

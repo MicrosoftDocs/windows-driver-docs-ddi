@@ -7,7 +7,7 @@ old-location: debugger\coercevalue.htm
 old-project: debugger
 ms.assetid: db037fc8-d503-4a72-b6bc-d5189f6786d4
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: CoerceValue method [Windows Debugging], CoerceValue method [Windows Debugging], IDebugControl interface, CoerceValue method [Windows Debugging], IDebugControl2 interface, CoerceValue method [Windows Debugging], IDebugControl3 interface, CoerceValue,IDebugControl2.CoerceValue, IDebugControl interface [Windows Debugging], CoerceValue method, IDebugControl2, IDebugControl2 interface [Windows Debugging], CoerceValue method, IDebugControl2::CoerceValue, IDebugControl3 interface [Windows Debugging], CoerceValue method, IDebugControl3::CoerceValue, IDebugControl::CoerceValue, IDebugControl_034a690e-25bb-40a1-b788-7b148ba0d9cd.xml, dbgeng/IDebugControl2::CoerceValue, dbgeng/IDebugControl3::CoerceValue, dbgeng/IDebugControl::CoerceValue, debugger.coercevalue
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -133,5 +133,5 @@ This method converts a value of one type into a value of another type.  If the s
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl::CoerceValue method%20 RELEASE:%20(2/27/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl::CoerceValue method%20 RELEASE:%20(3/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

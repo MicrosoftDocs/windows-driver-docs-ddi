@@ -77,14 +77,14 @@ The <b>CsSetShaderResources</b> function sets resources for a compute shader.
 
 
 
-#### - Offset [in]
-
- The offset to the first view to set. 
-
-
 #### - hDevice [in]
 
  A handle to the display device (graphics context).
+
+
+#### - Offset [in]
+
+ The offset to the first view to set. 
 
 
 #### - phShaderResourceViews [in]

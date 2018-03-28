@@ -71,14 +71,14 @@ The <b>CreateVertexShaderFunc</b> function converts vertex shader code into a ha
 
 
 
-#### - pCode [in]
-
- An array of CONST UINT tokens that make up the vertex shader code.
-
-
 #### - pData [in, out]
 
  A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff542973">D3DDDIARG_CREATEVERTEXSHADERFUNC</a> structure that retrieves the shader handle that is associated with the vertex shader code that is specified by <b>pCode</b>.
+
+
+#### - pCode [in]
+
+ An array of CONST UINT tokens that make up the vertex shader code.
 
 
 ## -returns

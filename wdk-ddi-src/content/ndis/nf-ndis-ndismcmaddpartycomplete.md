@@ -7,7 +7,7 @@ old-location: netvista\ndismcmaddpartycomplete.htm
 old-project: netvista
 ms.assetid: 5bbcd552-00c2-4085-8222-c514eb92e654
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: NdisMCmAddPartyComplete, NdisMCmAddPartyComplete macro [Network Drivers Starting with Windows Vista], condis_mcm_ref_929fb1d1-4d15-4d2d-be4b-a6845674f7e6.xml, ndis/NdisMCmAddPartyComplete, netvista.ndismcmaddpartycomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -82,6 +82,19 @@ TBD
 
 
 
+#### - Status [in]
+
+Specifies the final status of the MCM driver's add-party operation, either NDIS_STATUS_SUCCESS or
+     any NDIS_STATUS_<i>XXX</i><u>except</u> NDIS_STATUS_PENDING.
+
+
+#### - NdisPartyHandle [in]
+
+Specifies the handle identifying the party. The MCM driver obtained this handle as input parameter
+     to its 
+     <a href="https://msdn.microsoft.com/06aa5ff6-974c-43dd-8395-bc1a1a8421d5">ProtocolCmAddParty</a> function.
+
+
 #### - CallMgrPartyContext [in, optional]
 
 Specifies the handle to a caller-allocated resident context area in which the MCM driver will
@@ -95,19 +108,6 @@ Specifies the handle to a caller-allocated resident context area in which the MC
 Pointer to a structure of type 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a> that contains the call
      parameters, originally supplied by the client, for the party to be added.
-
-
-#### - NdisPartyHandle [in]
-
-Specifies the handle identifying the party. The MCM driver obtained this handle as input parameter
-     to its 
-     <a href="https://msdn.microsoft.com/06aa5ff6-974c-43dd-8395-bc1a1a8421d5">ProtocolCmAddParty</a> function.
-
-
-#### - Status [in]
-
-Specifies the final status of the MCM driver's add-party operation, either NDIS_STATUS_SUCCESS or
-     any NDIS_STATUS_<i>XXX</i><u>except</u> NDIS_STATUS_PENDING.
 
 
 ## -remarks
@@ -203,5 +203,5 @@ Only connection-oriented miniport drivers that provide integrated call-managemen
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisMCmAddPartyComplete macro%20 RELEASE:%20(2/27/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisMCmAddPartyComplete macro%20 RELEASE:%20(3/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

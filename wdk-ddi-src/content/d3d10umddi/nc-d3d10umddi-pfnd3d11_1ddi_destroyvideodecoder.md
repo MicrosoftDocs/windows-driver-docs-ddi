@@ -70,16 +70,16 @@ Releases resources for the video decoder object that were created through a call
 
 
 
-#### - hDecoder [in]
-
-A handle to the driver's private data for the video decoder object. This handle was created by the Direct3D runtime and passed to the driver in the call to <a href="https://msdn.microsoft.com/41254f99-1806-428c-8bf3-7e736dbeec84">CreateVideoDecoder</a>.
-
-
 #### - hDevice [in]
 
 A handle to the display device (graphics context).
 
 
+
+
+#### - hDecoder [in]
+
+A handle to the driver's private data for the video decoder object. This handle was created by the Direct3D runtime and passed to the driver in the call to <a href="https://msdn.microsoft.com/41254f99-1806-428c-8bf3-7e736dbeec84">CreateVideoDecoder</a>.
 
 
 ## -returns

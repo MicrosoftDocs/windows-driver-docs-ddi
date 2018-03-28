@@ -80,18 +80,6 @@ Sets the pixel aspect ratio for an input stream on the video processor.
 
 
 
-#### - Enable [in]
-
-If <b>TRUE</b>, the <i>pSourceRatio</i> and <i>pDestinationRatio</i> parameters contain valid values. Otherwise, the pixel aspect ratios are unspecified.
-
-
-
-
-#### - StreamIndex [in]
-
-The zero-based index of the input stream.
-
-
 #### - hDevice [in]
 
 A handle to the display device (graphics context).
@@ -106,18 +94,30 @@ A handle to the video processor object that was created through a call to the <a
 
 
 
-#### - pDestRatio [in]
+#### - StreamIndex [in]
 
-A pointer to a <b>DXGI_RATIONAL</b> structure that contains the pixel aspect ratio of the destination rectangle. 
+The zero-based index of the input stream.
+
+
+#### - Enable [in]
+
+If <b>TRUE</b>, the <i>pSourceRatio</i> and <i>pDestinationRatio</i> parameters contain valid values. Otherwise, the pixel aspect ratios are unspecified.
+
+
+
+
+#### - pSourceRatio [in]
+
+A pointer to a <b>DXGI_RATIONAL</b> structure that contains the pixel aspect ratio of the source rectangle. 
 
 <div class="alert"><b>Note</b>  If the <i>Enable</i> parameter is FALSE, this parameter can be NULL.
 
 </div>
 <div> </div>
 
-#### - pSourceRatio [in]
+#### - pDestRatio [in]
 
-A pointer to a <b>DXGI_RATIONAL</b> structure that contains the pixel aspect ratio of the source rectangle. 
+A pointer to a <b>DXGI_RATIONAL</b> structure that contains the pixel aspect ratio of the destination rectangle. 
 
 <div class="alert"><b>Note</b>  If the <i>Enable</i> parameter is FALSE, this parameter can be NULL.
 

@@ -101,6 +101,7 @@ For more information about updating <b>PictureNumber</b> and <b>DropCount</b> se
 
 ## -see-also
 
+<<<<<<< HEAD
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567806">PROPSETID_VIDCAP_DROPPEDFRAMES</a>
 
 
@@ -110,6 +111,17 @@ For more information about updating <b>PictureNumber</b> and <b>DropCount</b> se
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
+=======
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567806">PROPSETID_VIDCAP_DROPPEDFRAMES</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565135">KSPROPERTY_DROPPEDFRAMES_CURRENT</a>
+>>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
 
 
 

@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -150,11 +150,19 @@ The request was successful.
 
 ## -see-also
 
+<<<<<<< HEAD
 <a href="https://msdn.microsoft.com/8E083814-7408-47D2-A811-2DCBDCD13097">RtlFreeNonVolatileToken</a>
 
 
 
 <a href="https://msdn.microsoft.com/169C5F41-B372-4056-AAC5-53DD0582A563">RtlFlushNonVolatileMemoryRanges</a>
+=======
+<a href="https://msdn.microsoft.com/A9E866D4-C47F-4926-A838-EDB739CF1185">RtlGetNonVolatileToken</a>
+
+
+
+<a href="https://msdn.microsoft.com/EA1C2DF3-591C-407A-ABBF-DE615466A498">RtlDrainNonVolatileFlush</a>
+>>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
 
 
 
@@ -163,6 +171,7 @@ RtlFlushNonVolatileMemory</a>
 
 
 
+<<<<<<< HEAD
 <a href="https://msdn.microsoft.com/EA1C2DF3-591C-407A-ABBF-DE615466A498">RtlDrainNonVolatileFlush</a>
 
 
@@ -172,6 +181,17 @@ RtlFlushNonVolatileMemory</a>
 
 
 <a href="https://msdn.microsoft.com/A9E866D4-C47F-4926-A838-EDB739CF1185">RtlGetNonVolatileToken</a>
+=======
+<a href="https://msdn.microsoft.com/8E083814-7408-47D2-A811-2DCBDCD13097">RtlFreeNonVolatileToken</a>
+
+
+
+<a href="https://msdn.microsoft.com/169C5F41-B372-4056-AAC5-53DD0582A563">RtlFlushNonVolatileMemoryRanges</a>
+
+
+
+<a href="..\wdm\nf-wdm-rtlcopymemory.md">RtlCopyMemory</a>
+>>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
 
 
 

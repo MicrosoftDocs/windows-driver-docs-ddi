@@ -97,9 +97,9 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/mt18
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/mt186885">TransitionCriticalResource</a> routine. PoFx sets the value of this member. The <b>TransitionCriticalResource</b> routine is implemented by PoFx. The PEP calls this routine to transition critical system resources to the idle condition.
 
 
-#### - CompleteWork
+#### - ProcessorIdleVeto
 
-A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/mt186629">CompleteWork</a> routine. PoFx sets the value of this member. The <b>CompleteWork</b> routine is implemented by PoFx. The PEP calls this routine to notify PoFx that the PEP has completed a work item.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/mt186880">ProcessorIdleVeto</a> routine. PoFx sets the value of this member. The <b>ProcessorIdleVeto</b> routine is implemented by PoFx. The PEP calls this routine to increment or decrement the veto count for a pending transition to a processor idle state.
 
 
 #### - PlatformIdleVeto
@@ -107,14 +107,9 @@ A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/mt1
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/mt186867">PlatformIdleVeto</a> routine. PoFx sets the value of this member. The <b>PlatformIdleVeto</b> routine is implemented by PoFx. The PEP calls this routine to increment or decrement the veto count for a pending transition to a platform idle state.
 
 
-#### - ProcessorIdleVeto
+#### - UpdateProcessorIdleState
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/mt186880">ProcessorIdleVeto</a> routine. PoFx sets the value of this member. The <b>ProcessorIdleVeto</b> routine is implemented by PoFx. The PEP calls this routine to increment or decrement the veto count for a pending transition to a processor idle state.
-
-
-#### - RequestCommon
-
-A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/mt186882">RequestCommon</a> routine. PoFx sets the value of this member. The <b>RequestCommon</b> routine is implemented by PoFx. The PEP calls this routine to perform a processing operation that is specified by a request ID.
+A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/mt186887">UpdateProcessorIdleState</a> routine. PoFx sets the value of this member. The <b>UpdateProcessorIdleState</b> routine is implemented by PoFx. The PEP calls this routine to update the properties of the specified processor idle state.
 
 
 #### - UpdatePlatformIdleState
@@ -122,9 +117,14 @@ A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/mt1
 A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/mt186886">UpdatePlatformIdleState</a> routine. PoFx sets the value of this member. The <b>UpdatePlatformIdleState</b> routine is implemented by PoFx. The PEP calls this routine to update the properties of the specified platform idle state.
 
 
-#### - UpdateProcessorIdleState
+#### - CompleteWork
 
-A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/mt186887">UpdateProcessorIdleState</a> routine. PoFx sets the value of this member. The <b>UpdateProcessorIdleState</b> routine is implemented by PoFx. The PEP calls this routine to update the properties of the specified processor idle state.
+A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/mt186629">CompleteWork</a> routine. PoFx sets the value of this member. The <b>CompleteWork</b> routine is implemented by PoFx. The PEP calls this routine to notify PoFx that the PEP has completed a work item.
+
+
+#### - RequestCommon
+
+A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/mt186882">RequestCommon</a> routine. PoFx sets the value of this member. The <b>RequestCommon</b> routine is implemented by PoFx. The PEP calls this routine to perform a processing operation that is specified by a request ID.
 
 
 ## -remarks

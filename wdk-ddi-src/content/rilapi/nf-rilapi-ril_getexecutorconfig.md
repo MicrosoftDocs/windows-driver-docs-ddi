@@ -7,7 +7,7 @@ old-location: netvista\ril_getexecutorconfig.htm
 old-project: netvista
 ms.assetid: 71931187-14f1-459f-9c1a-cc3463178af9
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: RIL_GetExecutorConfig, RIL_GetExecutorConfig method [Network Drivers Starting with Windows Vista], netvista.ril_getexecutorconfig, rilapi/RIL_GetExecutorConfig
 ms.prod: windows-hardware
 ms.technology: windows-devices

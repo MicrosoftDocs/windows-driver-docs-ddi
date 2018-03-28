@@ -7,7 +7,7 @@ old-location: netvista\ndis_wwan_device_service_supported_commands.htm
 old-project: netvista
 ms.assetid: 5F619FBF-4152-447E-B228-D4147687E929
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*PNDIS_WWAN_DEVICE_SERVICE_SUPPORTED_COMMANDS, NDIS_WWAN_DEVICE_SERVICE_SUPPORTED_COMMANDS, NDIS_WWAN_DEVICE_SERVICE_SUPPORTED_COMMANDS structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_DEVICE_SERVICE_SUPPORTED_COMMANDS, PNDIS_WWAN_DEVICE_SERVICE_SUPPORTED_COMMANDS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WWAN_DEVICE_SERVICE_SUPPORTED_COMMANDS, ndiswwan/NDIS_WWAN_DEVICE_SERVICE_SUPPORTED_COMMANDS, ndiswwan/PNDIS_WWAN_DEVICE_SERVICE_SUPPORTED_COMMANDS, netvista.ndis_wwan_device_service_supported_commands"
 ms.prod: windows-hardware
 ms.technology: windows-devices

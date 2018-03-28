@@ -71,9 +71,9 @@ The <b>QueryBusInformation</b> routine gets information about the bus.
 Handle returned in the <b>BusContext</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff539210">USB_BUS_INTERFACE_USBDI_V0</a> structure by an IRP_MN_QUERY_INTERFACE request. 
 
 
-#### - BusInformationActualLength [out, optional]
+#### - Level [in]
 
-Specifies the length of the output data. 
+Specifies the level of information to be returned. If <i>Level</i> is 0, the function returns the total bandwidth and the total consumed bandwidth in bits per second. If <i>Level</i> is 1, the function returns the symbolic name of the controller in Unicode, in addition to the total bandwidth and the total consumed bandwidth. 
 
 
 #### - BusInformationBuffer [in, out]
@@ -86,9 +86,9 @@ Pointer to a buffer that receives the requested bus information.
 On input, the length of the buffer specified by <i>BusInformationBuffer</i>. On output, the length of the output data. 
 
 
-#### - Level [in]
+#### - BusInformationActualLength [out, optional]
 
-Specifies the level of information to be returned. If <i>Level</i> is 0, the function returns the total bandwidth and the total consumed bandwidth in bits per second. If <i>Level</i> is 1, the function returns the symbolic name of the controller in Unicode, in addition to the total bandwidth and the total consumed bandwidth. 
+Specifies the length of the output data. 
 
 
 ## -returns

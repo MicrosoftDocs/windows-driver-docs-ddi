@@ -59,14 +59,14 @@ Defines a color value for Microsoft Direct3D 11 video.
 
 
 
-#### - RGBA
-
-A <a href="https://msdn.microsoft.com/library/windows/hardware/hh450928">D3D11_1DDI_VIDEO_COLOR_RGBA</a> structure that contains an RGB color value.
-
-
 #### - YCbCr
 
 A <a href="https://msdn.microsoft.com/library/windows/hardware/hh450932">D3D11_1DDI_VIDEO_COLOR_YCbCrA</a> structure that contains a YCbCr color value.
+
+
+#### - RGBA
+
+A <a href="https://msdn.microsoft.com/library/windows/hardware/hh450928">D3D11_1DDI_VIDEO_COLOR_RGBA</a> structure that contains an RGB color value.
 
 
 ## -remarks

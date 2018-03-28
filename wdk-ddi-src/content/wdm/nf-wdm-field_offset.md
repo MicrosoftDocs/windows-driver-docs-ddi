@@ -72,14 +72,14 @@ TBD
 
 
 
-#### - Field [in]
-
-Specifies the name of a field in a structure of type <i>Type</i>. 
-
-
 #### - Type [in]
 
 Specifies the name of a known structure type containing <i>Field</i>. 
+
+
+#### - Field [in]
+
+Specifies the name of a field in a structure of type <i>Type</i>. 
 
 
 ## -remarks

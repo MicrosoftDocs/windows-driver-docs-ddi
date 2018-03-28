@@ -7,7 +7,7 @@ old-location: netvista\pdpostanddrainbufferlist.htm
 old-project: netvista
 ms.assetid: 5EAAEEEC-740E-4F65-B13E-E174A0DF4546
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*NDIS_PD_POST_AND_DRAIN_BUFFER_LIST_HANDLER, *NDIS_PD_POST_AND_DRAIN_BUFFER_LIST_HANDLER callback function [Network Drivers Starting with Windows Vista], NDIS_PD_POST_AND_DRAIN_BUFFER_LIST, PDPostAndDrainBufferList, PDPostAndDrainBufferList callback function [Network Drivers Starting with Windows Vista], ndis/PDPostAndDrainBufferList, netvista.pdpostanddrainbufferlist"
 ms.prod: windows-hardware
 ms.technology: windows-devices

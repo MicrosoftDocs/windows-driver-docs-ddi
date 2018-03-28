@@ -512,19 +512,9 @@ An array of 32-bit values that are reserved for future use.
 Supported starting with Windows 8.
 
 
-#### - GpuClockCounter
+#### - VidPnTargetId
 
-The GPU clock counter at the time of the VSYNC interrupt. Combined with GpuFrequency, this indicates the time of the VSYNC interrupt. 
-
-
-#### - GpuFrequency
-
-The frequency of the GPU clock counter. 
-
-
-#### - MultiPlaneOverlayVsyncInfoCount
-
-The number of overlay planes that are available to display.
+The zero-based identification number of the video present target in a path of a video present network (VidPN) topology. This number represents the video present target where the vertical sync occurs.
 
 
 #### - PhysicalAdapterMask
@@ -532,14 +522,24 @@ The number of overlay planes that are available to display.
 The physical adapter mask where the vertical sync occurs. If this member contains a valid value, the driver must also set the ValidPhysicalAdapterMask bit-field flag in the Flags member.
 
 
-#### - VidPnTargetId
+#### - MultiPlaneOverlayVsyncInfoCount
 
-The zero-based identification number of the video present target in a path of a video present network (VidPN) topology. This number represents the video present target where the vertical sync occurs.
+The number of overlay planes that are available to display.
 
 
 #### - pMultiPlaneOverlayVsyncInfo
 
 A pointer to a DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO2 structure that specifies information for each overlay plane updated by the VSync.
+
+
+#### - GpuFrequency
+
+The frequency of the GPU clock counter. 
+
+
+#### - GpuClockCounter
+
+The GPU clock counter at the time of the VSYNC interrupt. Combined with GpuFrequency, this indicates the time of the VSYNC interrupt. 
 
 
 ## -remarks

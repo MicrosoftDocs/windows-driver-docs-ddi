@@ -80,9 +80,9 @@ Creates a resource.
  A handle to the display device (graphics context).
 
 
-#### - hRTResource [in]
+#### - pCreateResource [in]
 
- A handle to the resource that the driver should use anytime it calls back into the Direct3D runtime. 
+ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541697">D3D10DDIARG_CREATERESOURCE</a> structure that describes the parameters that the user-mode display driver uses to create a resource. 
 
 
 #### - hResource [in]
@@ -90,9 +90,9 @@ Creates a resource.
  A handle to the driver's private data for the resource. The driver returns the size, in bytes, of the memory region that the Microsoft Direct3D runtime must allocate for the private data from a call to the driver's <a href="https://msdn.microsoft.com/2c4eb002-4788-46ab-92b9-3bb2dcb44ee3">CalcPrivateResourceSize</a> function. The handle is actually just a pointer to a region of memory, the size of which the driver requested. The driver uses this region of memory to store internal data structures that are related to its resource object. 
 
 
-#### - pCreateResource [in]
+#### - hRTResource [in]
 
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541697">D3D10DDIARG_CREATERESOURCE</a> structure that describes the parameters that the user-mode display driver uses to create a resource. 
+ A handle to the resource that the driver should use anytime it calls back into the Direct3D runtime. 
 
 
 ## -returns

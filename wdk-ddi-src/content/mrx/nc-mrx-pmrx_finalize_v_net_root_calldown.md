@@ -69,14 +69,14 @@ The <i>MRxFinalizeVNetRoot</i> routine is called by <a href="https://docs.micros
 
 
 
-#### - ForceDisconnect [in]
-
-A pointer to a Boolean value that indicates if the disconnect is to be forced. RDBSS currently passes <b>FALSE</b> for this parameter in all cases.
-
-
 #### - pVNetRoot [in, out]
 
 A pointer to the V_NET_ROOT structure to finalize. 
+
+
+#### - ForceDisconnect [in]
+
+A pointer to a Boolean value that indicates if the disconnect is to be forced. RDBSS currently passes <b>FALSE</b> for this parameter in all cases.
 
 
 ## -returns

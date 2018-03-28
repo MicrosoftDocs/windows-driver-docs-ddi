@@ -46,11 +46,6 @@ req.typenames: AVC_FUNCTION
 # IOCTL_AVC_CLASS IOCTL
 
 
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
-
 ## -description
 
 
@@ -197,6 +192,7 @@ Most AV/C functions must be called IRQL = PASSIVE_LEVEL. A few may be called at 
 
 ## -see-also
 
+<<<<<<< HEAD
 <a href="..\avc\ns-avc-_avc_command_irb.md">AVC_COMMAND_IRB</a>
 
 
@@ -210,6 +206,21 @@ Most AV/C functions must be called IRQL = PASSIVE_LEVEL. A few may be called at 
 
 
 <a href="..\avc\ni-avc-ioctl_avc_bus_reset.md">IOCTL_AVC_BUS_RESET</a>
+=======
+<a href="..\avc\ne-avc-_tagavc_function.md">AVC_FUNCTION</a>
+
+
+
+<a href="..\avc\ns-avc-_avc_command_irb.md">AVC_COMMAND_IRB</a>
+
+
+
+<a href="..\avc\ns-avc-_avc_multifunc_irb.md">AVC_MULTIFUNC_IRB</a>
+
+
+
+<a href="..\avc\ni-avc-ioctl_avc_remove_virtual_subunit_info.md">IOCTL_AVC_REMOVE_VIRTUAL_SUBUNIT_INFO</a>
+>>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
 
 
 
@@ -217,11 +228,19 @@ Most AV/C functions must be called IRQL = PASSIVE_LEVEL. A few may be called at 
 
 
 
+<<<<<<< HEAD
 <a href="..\avc\ns-avc-_avc_irb.md">AVC_IRB</a>
 
 
 
 <a href="..\avc\ns-avc-_avc_multifunc_irb.md">AVC_MULTIFUNC_IRB</a>
+=======
+<a href="..\avc\ni-avc-ioctl_avc_bus_reset.md">IOCTL_AVC_BUS_RESET</a>
+
+
+
+<a href="..\avc\ns-avc-_avc_irb.md">AVC_IRB</a>
+>>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
 
 
 

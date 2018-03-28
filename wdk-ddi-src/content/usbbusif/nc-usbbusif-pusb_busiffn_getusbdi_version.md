@@ -71,14 +71,14 @@ The <b>GetUSBDIVersion</b> routine returns the USB interface version number and 
 Handle returned in the <b>BusContext</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff539210">USB_BUS_INTERFACE_USBDI_V0</a> structure by an IRP_MN_QUERY_INTERFACE request. 
 
 
-#### - HcdCapabilities [out, optional]
-
-Returns the host capability flags. Currently, no host capability flags are reported.
-
-
 #### - VersionInformation [out, optional]
 
 Returns a pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff539149">USBD_VERSION_INFORMATION</a> structure that contains the USB interface version number and the USB specification version number. 
+
+
+#### - HcdCapabilities [out, optional]
+
+Returns the host capability flags. Currently, no host capability flags are reported.
 
 
 ## -returns

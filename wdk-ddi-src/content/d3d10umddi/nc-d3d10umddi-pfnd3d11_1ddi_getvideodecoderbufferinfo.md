@@ -72,11 +72,6 @@ Queries the description of a video decoder buffer for a specified video operatio
 ### -param Arg2
 
 
-#### - Index [in]
-
-The zero-based index of the video decoder buffer type that is used for the specified operation. The display miniport driver returns the maximum number of video decoder buffer types that are required for the operation through a call to its <a href="https://msdn.microsoft.com/library/windows/hardware/hh451663">GetVideoDecoderBufferTypeCount</a> function.
-
-
 #### - hDevice [in]
 
 A handle to the display device (graphics context).
@@ -87,6 +82,11 @@ A handle to the display device (graphics context).
 #### - pDecodeDesc [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh450951">D3D11_1DDI_VIDEO_DECODER_DESC</a> structure that specifies the video decoder operation.
+
+
+#### - Index [in]
+
+The zero-based index of the video decoder buffer type that is used for the specified operation. The display miniport driver returns the maximum number of video decoder buffer types that are required for the operation through a call to its <a href="https://msdn.microsoft.com/library/windows/hardware/hh451663">GetVideoDecoderBufferTypeCount</a> function.
 
 
 #### - pInfo [out]

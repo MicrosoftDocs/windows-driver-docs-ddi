@@ -66,11 +66,6 @@ For general information about HIDClass devices, see <a href="https://msdn.micros
 
 
 
-#### -ReportID
-
-Specifies the report ID for a top-level collection .
-
-
 #### -reportBuffer
 
 Pointer to a requester-allocated input buffer that contains a feature report.
@@ -79,6 +74,11 @@ Pointer to a requester-allocated input buffer that contains a feature report.
 #### -reportBufferLen
 
 Specifies the size, in bytes, of the input buffer.
+
+
+#### -ReportID
+
+Specifies the report ID for a top-level collection .
 
 
 ### -input-buffer-length

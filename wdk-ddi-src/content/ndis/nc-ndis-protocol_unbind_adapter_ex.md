@@ -7,7 +7,7 @@ old-location: netvista\protocolunbindadapterex.htm
 old-project: netvista
 ms.assetid: 19fa7be2-acb9-42f6-bd9f-5be3e3c8b5fa
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: PROTOCOL_UNBIND_ADAPTER_EX, ProtocolUnbindAdapterEx, ProtocolUnbindAdapterEx callback function [Network Drivers Starting with Windows Vista], ndis/ProtocolUnbindAdapterEx, netvista.protocolunbindadapterex, protocol_functions_ref_e8d6b640-35e1-4824-9d7b-a7ebd6273764.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -308,5 +308,5 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20PROTOCOL_UNBIND_ADAPTER_EX callback function%20 RELEASE:%20(2/27/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20PROTOCOL_UNBIND_ADAPTER_EX callback function%20 RELEASE:%20(3/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

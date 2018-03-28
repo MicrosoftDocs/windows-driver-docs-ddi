@@ -74,16 +74,16 @@ Performs an extended function for DirectX Video Acceleration (DXVA) decoding. Th
 
 
 
-#### - hDecoder [in]
-
-A handle to the video decoder object that was created through a call to the <a href="https://msdn.microsoft.com/41254f99-1806-428c-8bf3-7e736dbeec84">CreateVideoDecoder</a> function.
-
-
-
-
 #### - hDevice [in]
 
 A handle to the display device (graphics context).
+
+
+
+
+#### - hDecoder [in]
+
+A handle to the video decoder object that was created through a call to the <a href="https://msdn.microsoft.com/41254f99-1806-428c-8bf3-7e736dbeec84">CreateVideoDecoder</a> function.
 
 
 

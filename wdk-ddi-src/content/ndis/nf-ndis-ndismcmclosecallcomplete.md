@@ -7,7 +7,7 @@ old-location: netvista\ndismcmclosecallcomplete.htm
 old-project: netvista
 ms.assetid: 24477865-fb89-4078-99cb-1bf24249c7e2
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: NdisMCmCloseCallComplete, NdisMCmCloseCallComplete macro [Network Drivers Starting with Windows Vista], condis_mcm_ref_78d6cea5-8d8c-49d4-ad57-c41eb63d3a4b.xml, ndis/NdisMCmCloseCallComplete, netvista.ndismcmclosecallcomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -77,14 +77,10 @@ TBD
 
 
 
-#### - NdisPartyHandle [in, optional]
+#### - Status [in]
 
-Specifies either <b>NULL</b> if the 
-     <i>NdisVcHandle</i> represents a point-to-point VC or the handle to the last remaining party on a
-     multipoint connection, which the MCM driver obtained from its per-party state designated by the 
-     <i>CallMgrPartyContext</i> passed as an input parameter to its 
-     <a href="https://msdn.microsoft.com/b5307e1b-3905-4e43-a0b0-0068ba18ef0d">
-     ProtocolCmCloseCall</a> function.
+Specifies the final status of the client's request that the MCM driver close the connection,
+     either NDIS_STATUS_SUCCESS or any caller-determined NDIS_STATUS_<i>XXX</i> except NDIS_STATUS_PENDING.
 
 
 #### - NdisVcHandle [in]
@@ -96,10 +92,14 @@ Specifies the handle to the VC for the call. This handle was supplied by NDIS wh
      <a href="https://msdn.microsoft.com/b086dd24-74f5-474a-8684-09bf92ac731b">ProtocolCoCreateVc</a> function.
 
 
-#### - Status [in]
+#### - NdisPartyHandle [in, optional]
 
-Specifies the final status of the client's request that the MCM driver close the connection,
-     either NDIS_STATUS_SUCCESS or any caller-determined NDIS_STATUS_<i>XXX</i> except NDIS_STATUS_PENDING.
+Specifies either <b>NULL</b> if the 
+     <i>NdisVcHandle</i> represents a point-to-point VC or the handle to the last remaining party on a
+     multipoint connection, which the MCM driver obtained from its per-party state designated by the 
+     <i>CallMgrPartyContext</i> passed as an input parameter to its 
+     <a href="https://msdn.microsoft.com/b5307e1b-3905-4e43-a0b0-0068ba18ef0d">
+     ProtocolCmCloseCall</a> function.
 
 
 ## -remarks
@@ -168,5 +168,5 @@ Only connection-oriented miniport drivers that provide integrated call-managemen
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisMCmCloseCallComplete macro%20 RELEASE:%20(2/27/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisMCmCloseCallComplete macro%20 RELEASE:%20(3/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

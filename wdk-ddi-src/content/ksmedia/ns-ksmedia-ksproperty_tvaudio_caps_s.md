@@ -158,7 +158,11 @@ Reserved for system use.
 
 
 
+<<<<<<< HEAD
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
+=======
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565933">KSPROPERTY_TVAUDIO_CAPS</a>
+>>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
 
 
 

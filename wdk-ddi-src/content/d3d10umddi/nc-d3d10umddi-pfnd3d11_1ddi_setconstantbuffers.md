@@ -81,14 +81,14 @@ A pointer to the first constant in the buffer pointed to by <i>StartBuffer</i>.
 The number of constants in the  buffer pointed to by  <i>StartBuffer</i>.
 
 
-#### - StartBuffer [in]
-
- The starting constant buffer to set. 
-
-
 #### - hDevice [in]
 
  A handle to the display device (graphics context).
+
+
+#### - StartBuffer [in]
+
+ The starting constant buffer to set. 
 
 
 #### - phBuffers [in]

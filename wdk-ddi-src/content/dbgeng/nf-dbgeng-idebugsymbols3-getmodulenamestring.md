@@ -7,7 +7,7 @@ old-location: debugger\getmodulenamestring.htm
 old-project: debugger
 ms.assetid: 4264f5e1-08f5-4878-9e10-b98859043515
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: GetModuleNameString method [Windows Debugging], GetModuleNameString method [Windows Debugging], IDebugSymbols2 interface, GetModuleNameString method [Windows Debugging], IDebugSymbols3 interface, GetModuleNameString,IDebugSymbols3.GetModuleNameString, IDebugSymbols2 interface [Windows Debugging], GetModuleNameString method, IDebugSymbols2::GetModuleNameString, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetModuleNameString method, IDebugSymbols3::GetModuleNameString, IDebugSymbols_e00a93fb-08c4-4f37-9915-577a22d9c889.xml, dbgeng/IDebugSymbols2::GetModuleNameString, dbgeng/IDebugSymbols3::GetModuleNameString, debugger.getmodulenamestring
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -212,5 +212,5 @@ For more information about modules, see <a href="https://msdn.microsoft.com/libr
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugSymbols2::GetModuleNameString method%20 RELEASE:%20(2/27/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugSymbols2::GetModuleNameString method%20 RELEASE:%20(3/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

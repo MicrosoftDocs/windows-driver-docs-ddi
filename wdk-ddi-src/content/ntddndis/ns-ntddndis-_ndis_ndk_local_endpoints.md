@@ -7,7 +7,7 @@ old-location: netvista\ndis_ndk_local_endpoints.htm
 old-project: netvista
 ms.assetid: AF14B883-780E-42BE-9D8F-75C17011425B
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: NDIS_NDK_LOCAL_ENDPOINTS, NDIS_NDK_LOCAL_ENDPOINTS structure [Network Drivers Starting with Windows Vista], PNDIS_NDK_LOCAL_ENDPOINTS, PNDIS_NDK_LOCAL_ENDPOINTS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_NDK_LOCAL_ENDPOINTS, netvista.ndis_ndk_local_endpoints, ntddndis/NDIS_NDK_LOCAL_ENDPOINTS, ntddndis/PNDIS_NDK_LOCAL_ENDPOINTS
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -133,5 +133,5 @@ If the RDMA technology for the NDK provider requires the provider to map ND loca
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_NDK_LOCAL_ENDPOINTS structure%20 RELEASE:%20(2/27/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_NDK_LOCAL_ENDPOINTS structure%20 RELEASE:%20(3/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,7 +7,7 @@ old-location: debugger\getnumberinputcallbacks.htm
 old-project: debugger
 ms.assetid: 25188616-ac1a-4699-9343-0fa88e27d9b8
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: GetNumberInputCallbacks method [Windows Debugging], GetNumberInputCallbacks method [Windows Debugging], IDebugClient5 interface, GetNumberInputCallbacks,IDebugClient5.GetNumberInputCallbacks, IDebugClient5, IDebugClient5 interface [Windows Debugging], GetNumberInputCallbacks method, IDebugClient5::GetNumberInputCallbacks, IDebugClient_ccf5fe3e-20d9-4415-bcfd-4823960acd05.xml, dbgeng/IDebugClient5::GetNumberInputCallbacks, debugger.getnumberinputcallbacks
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -131,5 +131,5 @@ For more information about callbacks, see <a href="https://msdn.microsoft.com/90
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugClient5::GetNumberInputCallbacks method%20 RELEASE:%20(2/27/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugClient5::GetNumberInputCallbacks method%20 RELEASE:%20(3/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

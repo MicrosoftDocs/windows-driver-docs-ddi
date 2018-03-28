@@ -90,6 +90,16 @@ The <i>ResourceCopyRegion</i> function copies a source subresource region to a l
 
 
 
+#### - hDevice [in]
+
+ A handle to the display device (graphics context).
+
+
+#### - hDstResource [in]
+
+ A handle to the destination resource to copy to.
+
+
 #### - DstSubresource [in]
 
  An index that indicates the destination subresource to copy to. 
@@ -110,24 +120,14 @@ The <i>ResourceCopyRegion</i> function copies a source subresource region to a l
  The z-coordinate of the destination subresource. For one-dimensional (1-D) and two-dimensional (2-D) subresources, <i>DstZ</i> is set to zero.
 
 
-#### - SrcSubresource [in]
-
- An index that indicates the source subresource to copy from. 
-
-
-#### - hDevice [in]
-
- A handle to the display device (graphics context).
-
-
-#### - hDstResource [in]
-
- A handle to the destination resource to copy to.
-
-
 #### - hSrcResource [in]
 
  A handle to the source resource to copy from.
+
+
+#### - SrcSubresource [in]
+
+ An index that indicates the source subresource to copy from. 
 
 
 #### - pSrcBox [in, optional]

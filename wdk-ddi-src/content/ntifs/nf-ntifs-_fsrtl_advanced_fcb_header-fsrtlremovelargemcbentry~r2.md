@@ -74,9 +74,9 @@ TBD
 
 
 
-#### - LargeSectorCount [in]
+#### - OpaqueMcb [in]
 
-Number of sectors (VBNs) in the range for which mappings are to be removed. 
+Pointer to the MCB structure. 
 
 
 #### - LargeVbn [in]
@@ -84,9 +84,9 @@ Number of sectors (VBNs) in the range for which mappings are to be removed.
 Starting virtual block number (VBN) of the range for which mappings are to be removed from the MCB. 
 
 
-#### - OpaqueMcb [in]
+#### - LargeSectorCount [in]
 
-Pointer to the MCB structure. 
+Number of sectors (VBNs) in the range for which mappings are to be removed. 
 
 
 ## -returns

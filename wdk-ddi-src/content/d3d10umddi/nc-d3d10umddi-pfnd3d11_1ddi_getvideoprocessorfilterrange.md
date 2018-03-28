@@ -75,13 +75,6 @@ Queries the range of values that the display miniport driver supports for a spec
 
 
 
-#### - Filter [in]
-
-The type of the video processor filter, specified as a <a href="https://msdn.microsoft.com/library/windows/hardware/hh450982">D3D11_1DDI_VIDEO_PROCESSOR_FILTER</a> value.
-
-
-
-
 #### - hDevice [in]
 
 A handle to the display device (graphics context).
@@ -92,6 +85,13 @@ A handle to the display device (graphics context).
 #### - hProcessorEnum [in]
 
 A handle to a video processor enumeration object that was created through a call to the <a href="https://msdn.microsoft.com/38c27502-7e8a-45a1-8a7c-315300502480">CreateVideoProcessorEnum</a> function.
+
+
+
+
+#### - Filter [in]
+
+The type of the video processor filter, specified as a <a href="https://msdn.microsoft.com/library/windows/hardware/hh450982">D3D11_1DDI_VIDEO_PROCESSOR_FILTER</a> value.
 
 
 

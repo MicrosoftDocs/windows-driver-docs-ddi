@@ -69,14 +69,14 @@ The <i>pfnDeallocateCb</i> callback function controls heap deallocation by using
 
 
 
-#### - Deallocate [in]
-
-A  <a href="https://msdn.microsoft.com/977868D1-02E1-4460-9194-2079B986045E">D3D12DDICB_DEALLOCATE_0022</a> structure that contains information for a deallocation.
-
-
 #### - hRTDevice [in]
 
 The handle for a device.
+
+
+#### - Deallocate [in]
+
+A  <a href="https://msdn.microsoft.com/977868D1-02E1-4460-9194-2079B986045E">D3D12DDICB_DEALLOCATE_0022</a> structure that contains information for a deallocation.
 
 
 ## -returns

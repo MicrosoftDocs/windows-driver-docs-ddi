@@ -74,14 +74,14 @@ TBD
 
 
 
-#### - pContextPointer
-
-A pointer that will hold the context for this MID on exit.
-
-
 #### - pMidAtlas
 
 A pointer to the MID_ATLAS structure.
+
+
+#### - pContextPointer
+
+A pointer that will hold the context for this MID on exit.
 
 
 ## -returns

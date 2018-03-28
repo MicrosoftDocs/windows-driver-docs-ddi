@@ -46,11 +46,6 @@ req.typenames: AVC_FUNCTION
 # IOCTL_AVC_BUS_RESET IOCTL
 
 
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
-
 ## -description
 
 
@@ -131,7 +126,7 @@ Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 
 Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
 
-For more information, see [XREF-LINK:NTSTATUS Values].
+For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/ntstatus-values).
 
 
 
@@ -151,7 +146,11 @@ Must be called at IRQL = PASSIVE_LEVEL
 
 
 
+<<<<<<< HEAD
 <a href="..\avc\ni-avc-ioctl_avc_class.md">IOCTL_AVC_CLASS</a>
+=======
+<a href="..\avc\ns-avc-_avc_subunit_addr_spec.md">AVC_SUBUNIT_ADDR_SPEC</a>
+>>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
 
 
 

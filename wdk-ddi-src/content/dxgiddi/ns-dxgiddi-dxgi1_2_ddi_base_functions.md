@@ -219,17 +219,6 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh45
 
 
 
-#### - pfnCheckMultiPlaneOverlaySupport
-
-Called by the DXGI runtime to check the details on hardware support for multiplane overlays.
-
-
-
-#### pSupport
-
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh780277">DXGI_DDI_ARG_CHECKMULTIPLANEOVERLAYSUPPORT</a> structure that describes how to display to the destination surface. 
-
-
 #### - pfnGetMultiPlaneOverlayCaps
 
 Called by the DXGI runtime to request that the user-mode display driver  get basic overlay plane capabilities. Optionally implemented by WDDM 1.3 and later user-mode display drivers.
@@ -244,6 +233,17 @@ Called by the DXGI runtime to request that the user-mode display driver  get bas
 #### - pfnGetMultiPlaneOverlayFilterRange
 
 This member is reserved and should be set to zero. Supported starting with Windows 8.1.
+
+
+#### - pfnCheckMultiPlaneOverlaySupport
+
+Called by the DXGI runtime to check the details on hardware support for multiplane overlays.
+
+
+
+#### pSupport
+
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh780277">DXGI_DDI_ARG_CHECKMULTIPLANEOVERLAYSUPPORT</a> structure that describes how to display to the destination surface. 
 
 
 #### - pfnPresentMultiPlaneOverlay

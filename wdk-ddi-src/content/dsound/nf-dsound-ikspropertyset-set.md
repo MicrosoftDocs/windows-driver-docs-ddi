@@ -89,9 +89,9 @@ The <b>Set</b> method sets a property identified by a property-set GUID and a pr
 
 
 
-#### - DataLength [in]
+#### - PropSet [in]
 
-Size, in bytes, of the buffer at <i>PropertyData</i>. 
+GUID that identifies the property set.
 
 
 #### - Id [in]
@@ -109,14 +109,14 @@ Pointer to instance data for the property.
 Size, in bytes, of the buffer at <i>InstanceData</i>. 
 
 
-#### - PropSet [in]
-
-GUID that identifies the property set.
-
-
 #### - PropertyData [in]
 
 Pointer to a buffer that contains the value of the property to set. 
+
+
+#### - DataLength [in]
+
+Size, in bytes, of the buffer at <i>PropertyData</i>. 
 
 
 ## -returns

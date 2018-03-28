@@ -2,7 +2,7 @@
 UID: NA:smclib
 ms.assetid: 48cd2b63-634e-3de2-8512-b526fb95a434
 ms.author: windowsdriverdev
-ms.date: 02/27/18
+ms.date: 03/13/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

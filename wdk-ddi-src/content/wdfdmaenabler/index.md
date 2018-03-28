@@ -2,7 +2,7 @@
 UID: NA:wdfdmaenabler
 ms.assetid: f289b573-9c47-3cb2-8c3c-5761a2743379
 ms.author: windowsdriverdev
-ms.date: 02/27/18
+ms.date: 03/13/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

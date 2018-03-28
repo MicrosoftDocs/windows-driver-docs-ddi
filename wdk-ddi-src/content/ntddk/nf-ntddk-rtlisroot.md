@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: ntddk.h
+req.lib: 
 req.dll: 
 req.irql: See Remarks section.
 topic_type:
@@ -89,7 +89,11 @@ Callers of <b>RtlIsRoot</b> must be running at IRQL &lt;= DISPATCH_LEVEL if the 
 
 
 
+<<<<<<< HEAD
 <a href="..\ntddk\nf-ntddk-rtlinitializesplaylinks.md">RtlInitializeSplayLinks</a>
+=======
+<a href="..\ntddk\nf-ntddk-rtlisleftchild.md">RtlIsLeftChild</a>
+>>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
 
 
 

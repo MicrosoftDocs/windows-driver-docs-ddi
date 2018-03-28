@@ -78,21 +78,6 @@ Enables or disables rotation on an input stream of the video processor.
 
 
 
-#### - Enable [in]
-
-If <b>TRUE</b>, rotation is enabled on the input stream. Otherwise, rotation is disabled on the input stream.
-
-
-#### - Rotation [in]
-
-The clockwise degrees of rotation as specified by a <a href="https://msdn.microsoft.com/library/windows/hardware/hh451019">D3D11_1DDI_VIDEO_PROCESSOR_ROTATION</a> enumeration value.
-
-
-#### - StreamIndex [in]
-
-The zero-based index of the input stream.
-
-
 #### - hDevice [in]
 
 A handle to the display device (graphics context).
@@ -105,6 +90,21 @@ A handle to the display device (graphics context).
 A handle to the video processor object that was created through a call to the <a href="https://msdn.microsoft.com/741045a2-0a91-490a-907d-5f4900a4a0ae">CreateVideoProcessor</a> function. 
 
 
+
+
+#### - StreamIndex [in]
+
+The zero-based index of the input stream.
+
+
+#### - Enable [in]
+
+If <b>TRUE</b>, rotation is enabled on the input stream. Otherwise, rotation is disabled on the input stream.
+
+
+#### - Rotation [in]
+
+The clockwise degrees of rotation as specified by a <a href="https://msdn.microsoft.com/library/windows/hardware/hh451019">D3D11_1DDI_VIDEO_PROCESSOR_ROTATION</a> enumeration value.
 
 
 ## -returns

@@ -80,22 +80,6 @@ Sets the source rectangle for an input stream on the video processor.
 
 
 
-#### - Enable [in]
-
-If <b>TRUE</b>, the specified source rectangle must be applied to the input stream.
-
-
-
-If <b>FALSE</b>, no source rectangle is applied to the input stream.
-
-
-
-
-#### - StreamIndex [in]
-
-The zero-based index of the input stream.
-
-
 #### - hDevice [in]
 
 A handle to the display device (graphics context).
@@ -106,6 +90,22 @@ A handle to the display device (graphics context).
 #### - hVideoProcessor [in]
 
 A handle to the video processor object that was created through a call to the <a href="https://msdn.microsoft.com/741045a2-0a91-490a-907d-5f4900a4a0ae">CreateVideoProcessor</a> function. 
+
+
+
+
+#### - StreamIndex [in]
+
+The zero-based index of the input stream.
+
+
+#### - Enable [in]
+
+If <b>TRUE</b>, the specified source rectangle must be applied to the input stream.
+
+
+
+If <b>FALSE</b>, no source rectangle is applied to the input stream.
 
 
 

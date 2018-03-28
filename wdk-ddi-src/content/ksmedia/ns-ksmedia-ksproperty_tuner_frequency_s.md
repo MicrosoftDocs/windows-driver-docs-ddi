@@ -116,6 +116,7 @@ Specifies the current country code for the tuning operation. Country codes follo
 
 ## -see-also
 
+<<<<<<< HEAD
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565833">KSPROPERTY_TUNER_FREQUENCY</a>
 
 
@@ -125,10 +126,21 @@ Specifies the current country code for the tuning operation. Country codes follo
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
+=======
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567800">PROPSETID_TUNER</a>
+
+
+
+<a href="..\ksmedia\ne-ksmedia-ks_tuner_tuning_flags.md">KS_TUNER_TUNING_FLAGS</a>
+>>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565833">KSPROPERTY_TUNER_FREQUENCY</a>
 
 
 

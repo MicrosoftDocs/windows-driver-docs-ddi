@@ -94,14 +94,14 @@ Place the DPC at the end of the DPC queue, and begin processing the queue immedi
 Place the DPC at the beginning of the DPC queue, and begin processing the queue immediately. 
 
 
-##### - Importance.HighImportance
-
-Place the DPC at the beginning of the DPC queue, and begin processing the queue immediately. 
-
-
 ##### - Importance.LowImportance
 
 Place the DPC at the end of the DPC queue, and do not begin processing of the queue. 
+
+
+##### - Importance.MediumImportance
+
+Place the DPC at the end of the DPC queue. If the DPC is assigned to the current processor's DPC queue, begin processing the queue immediately. <b>MediumImportance</b> is the default value for <i>Importance</i>. 
 
 
 ##### - Importance.MediumHighImportance
@@ -109,9 +109,9 @@ Place the DPC at the end of the DPC queue, and do not begin processing of the qu
 Place the DPC at the end of the DPC queue, and begin processing the queue immediately. MediumHighImportance is available only on Windows Vista and later versions of Windows.
 
 
-##### - Importance.MediumImportance
+##### - Importance.HighImportance
 
-Place the DPC at the end of the DPC queue. If the DPC is assigned to the current processor's DPC queue, begin processing the queue immediately. <b>MediumImportance</b> is the default value for <i>Importance</i>. 
+Place the DPC at the beginning of the DPC queue, and begin processing the queue immediately. 
 
 
 ## -returns

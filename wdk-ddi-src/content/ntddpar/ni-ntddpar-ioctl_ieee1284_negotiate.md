@@ -46,11 +46,6 @@ req.typenames: OFFLOAD_SECURITY_ASSOCIATION, *POFFLOAD_SECURITY_ASSOCIATION
 # IOCTL_IEEE1284_NEGOTIATE IOCTL
 
 
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
-
 ## -description
 
 
@@ -125,11 +120,11 @@ The value of the <b>Parameters.DeviceIoControl.InputBufferLength</b> member is l
 
 
 
-<a href="..\ntddpar\ni-ntddpar-ioctl_par_get_device_caps.md">IOCTL_PAR_GET_DEVICE_CAPS</a>
-
-
-
 <a href="..\ntddpar\ni-ntddpar-ioctl_par_get_default_modes.md">IOCTL_PAR_GET_DEFAULT_MODES</a>
+
+
+
+<a href="..\ntddpar\ni-ntddpar-ioctl_par_get_device_caps.md">IOCTL_PAR_GET_DEVICE_CAPS</a>
 
 
 

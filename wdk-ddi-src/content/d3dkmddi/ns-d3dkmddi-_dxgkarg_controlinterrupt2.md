@@ -64,14 +64,14 @@ The DXGKARG_CONTROLINTERRUPT2 structure is used in <a href="https://msdn.microso
 
 
 
-#### - CrtcVsyncState
-
-Indicates whether VSYNCs are enabled if interrupts are also enabled for the driver.
-
-
 #### - InterruptState
 
 Indicates whether  interrupts are enabled for the driver.
+
+
+#### - CrtcVsyncState
+
+Indicates whether VSYNCs are enabled if interrupts are also enabled for the driver.
 
 
 ## -see-also

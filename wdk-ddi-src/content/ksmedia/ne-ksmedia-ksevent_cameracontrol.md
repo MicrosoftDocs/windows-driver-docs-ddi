@@ -93,11 +93,15 @@ For more information, see <a href="..\ksmedia\ns-ksmedia-ksproperty_cameracontro
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj156037">KSEVENT_CAMERACONTROL_FOCUS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj156038">KSEVENT_CAMERACONTROL_ZOOM</a>
 
 
 
+<<<<<<< HEAD
 <a href="..\ksmedia\ns-ksmedia-ksproperty_cameracontrol_s_ex.md">KSPROPERTY_CAMERACONTROL_S_EX</a>
+=======
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj156037">KSEVENT_CAMERACONTROL_FOCUS</a>
+>>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
 
 
 

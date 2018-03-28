@@ -177,7 +177,11 @@ A PSHED plug-in that participates in error source discovery can also implement a
 
 ## -see-also
 
+<<<<<<< HEAD
 <a href="..\ntddk\nc-ntddk-pshed_pi_get_error_source_info.md">GetErrorSourceInfo</a>
+=======
+<a href="..\ntddk\nf-ntddk-pshedregisterplugin.md">PshedRegisterPlugin</a>
+>>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
 
 
 
@@ -185,7 +189,7 @@ A PSHED plug-in that participates in error source discovery can also implement a
 
 
 
-<a href="..\ntddk\nf-ntddk-pshedregisterplugin.md">PshedRegisterPlugin</a>
+<a href="..\ntddk\nc-ntddk-pshed_pi_get_error_source_info.md">GetErrorSourceInfo</a>
 
 
 

@@ -124,15 +124,15 @@ Callers of <b>RtlEnumerateGenericTable</b> must be running at IRQL &lt; DISPATCH
 
 ## -see-also
 
+<<<<<<< HEAD
 <a href="..\ntddk\nf-ntddk-rtlenumerategenerictablewithoutsplaying.md">RtlEnumerateGenericTableWithoutSplaying</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-rtlisgenerictableempty.md">RtlIsGenericTableEmpty</a>
+=======
+<a href="..\ntddk\nf-ntddk-rtlinitializegenerictable.md">RtlInitializeGenericTable</a>
 
 
 
 <a href="..\wdm\nf-wdm-exinitializefastmutex.md">ExInitializeFastMutex</a>
+>>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
 
 
 
@@ -140,7 +140,19 @@ Callers of <b>RtlEnumerateGenericTable</b> must be running at IRQL &lt; DISPATCH
 
 
 
+<a href="..\ntddk\nf-ntddk-rtlisgenerictableempty.md">RtlIsGenericTableEmpty</a>
+
+
+
+<<<<<<< HEAD
+<a href="..\ntddk\nf-ntddk-rtlnumbergenerictableelements.md">RtlNumberGenericTableElements</a>
+
+
+
 <a href="..\ntddk\nf-ntddk-rtlinitializegenerictable.md">RtlInitializeGenericTable</a>
+=======
+<a href="..\ntddk\nf-ntddk-rtlenumerategenerictablewithoutsplaying.md">RtlEnumerateGenericTableWithoutSplaying</a>
+>>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
 
 
 

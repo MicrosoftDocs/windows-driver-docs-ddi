@@ -7,7 +7,7 @@ old-location: debugger\setlogmask.htm
 old-project: debugger
 ms.assetid: 86c4e5ec-e893-4b1e-b397-6c51351df46c
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: IDebugControl interface [Windows Debugging], SetLogMask method, IDebugControl2, IDebugControl2 interface [Windows Debugging], SetLogMask method, IDebugControl2::SetLogMask, IDebugControl3 interface [Windows Debugging], SetLogMask method, IDebugControl3::SetLogMask, IDebugControl::SetLogMask, IDebugControl_b1c44a2b-d2fd-407b-8994-00f5e53af10d.xml, SetLogMask method [Windows Debugging], SetLogMask method [Windows Debugging], IDebugControl interface, SetLogMask method [Windows Debugging], IDebugControl2 interface, SetLogMask method [Windows Debugging], IDebugControl3 interface, SetLogMask,IDebugControl2.SetLogMask, dbgeng/IDebugControl2::SetLogMask, dbgeng/IDebugControl3::SetLogMask, dbgeng/IDebugControl::SetLogMask, debugger.setlogmask
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -118,5 +118,5 @@ The method was successful.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl::SetLogMask method%20 RELEASE:%20(2/27/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl::SetLogMask method%20 RELEASE:%20(3/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

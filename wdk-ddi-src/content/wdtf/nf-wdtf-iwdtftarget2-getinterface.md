@@ -83,6 +83,11 @@ contains <b>VT_EMPTY</b>.
 The address of a variable that will receive the action.
 
 
+#### - ProgID [in]
+
+The WDTF ProgID of the requested interface.
+
+
 #### - MoreTargets [in, optional]
 
 Optional extra arguments that you can use to 
@@ -91,11 +96,6 @@ define additional targets to attach to the returned interface.
 This parameter is not 
 currently implemented. Set <i>MoreTargets</i> to a <b>VARIANT</b> 
 that contains <b>VT_EMPTY</b>.
-
-
-#### - ProgID [in]
-
-The WDTF ProgID of the requested interface.
 
 
 ## -returns

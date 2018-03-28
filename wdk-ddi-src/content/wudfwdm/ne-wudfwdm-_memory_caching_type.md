@@ -7,7 +7,7 @@ old-location: kernel\memory_caching_type.htm
 old-project: kernel
 ms.assetid: 14cde545-e9bb-4b96-ba10-a63595e8a107
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/1/2018
 ms.keywords: MEMORY_CACHING_TYPE, MEMORY_CACHING_TYPE enumeration [Kernel-Mode Driver Architecture], MmCached, MmHardwareCoherentCached, MmMaximumCacheType, MmNonCached, MmNonCachedUnordered, MmUSWCCached, MmWriteCombined, _MEMORY_CACHING_TYPE, kernel.memory_caching_type, sysenum_8e18fde8-a812-4d6a-a203-1c87d4d825cf.xml, wdm/MEMORY_CACHING_TYPE, wdm/MmCached, wdm/MmHardwareCoherentCached, wdm/MmMaximumCacheType, wdm/MmNonCached, wdm/MmNonCachedUnordered, wdm/MmUSWCCached, wdm/MmWriteCombined
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -125,7 +125,11 @@ Processor translation buffers cache virtual to physical address translations. Th
 
 ## -see-also
 
+<<<<<<< HEAD
 <a href="..\wdm\nf-wdm-mmmaplockedpagesspecifycache.md">MmMapLockedPagesSpecifyCache</a>
+=======
+<a href="..\wdm\nf-wdm-mmmapiospace.md">MmMapIoSpace</a>
+>>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
 
 
 
@@ -133,7 +137,11 @@ Processor translation buffers cache virtual to physical address translations. Th
 
 
 
+<<<<<<< HEAD
 <a href="..\wdm\nf-wdm-mmfreecontiguousmemoryspecifycache.md">MmFreeContiguousMemorySpecifyCache</a>
+=======
+<a href="..\wdm\nf-wdm-mmmaplockedpagesspecifycache.md">MmMapLockedPagesSpecifyCache</a>
+>>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
 
 
 
@@ -141,7 +149,11 @@ Processor translation buffers cache virtual to physical address translations. Th
 
 
 
+<<<<<<< HEAD
 <a href="..\wdm\nf-wdm-mmmapiospace.md">MmMapIoSpace</a>
+=======
+<a href="..\wdm\nf-wdm-mmfreecontiguousmemoryspecifycache.md">MmFreeContiguousMemorySpecifyCache</a>
+>>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
 
 
 
@@ -149,5 +161,5 @@ Processor translation buffers cache virtual to physical address translations. Th
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20MEMORY_CACHING_TYPE enumeration%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20MEMORY_CACHING_TYPE enumeration%20 RELEASE:%20(3/1/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -73,14 +73,14 @@ TBD
 
 
 
-#### - NewIrql [in]
-
-Specifies the IRQL value saved from the preceding call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff551917">KeAcquireSpinLock</a>.
-
-
 #### - SpinLock [in, out]
 
 Pointer to a spin lock for which the caller provides the storage.
+
+
+#### - NewIrql [in]
+
+Specifies the IRQL value saved from the preceding call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff551917">KeAcquireSpinLock</a>.
 
 
 ## -remarks

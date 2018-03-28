@@ -214,14 +214,14 @@ A pointer to the virtual miniport driver's <a href="https://msdn.microsoft.com/l
 A pointer to the virtual miniport driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff557372">HwStorCleanupTracing</a> routine.
 
 
-#### - PortVersionFlags
-
-A bitmap of flags that indicate the features that the port driver supports. Currently, the only flag available is SP_VER_TRACE_SUPPORT, which indicates that the port driver supports tracing.
-
-
 #### - ReservedUshort
 
 Reserved.
+
+
+#### - PortVersionFlags
+
+A bitmap of flags that indicate the features that the port driver supports. Currently, the only flag available is SP_VER_TRACE_SUPPORT, which indicates that the port driver supports tracing.
 
 
 ## -remarks

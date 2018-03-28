@@ -66,14 +66,14 @@ The client driver's implementation to update the type of the new port to which t
 
 
 
-#### - NewPort [in]
-
-A USBFN_PORT_STATE-typed flag that indicates the type of the new port.
-
-
 #### - UfxDevice [in]
 
 The handle to a  USB device object that the client driver received in a previous call to  the <a href="https://msdn.microsoft.com/library/windows/hardware/mt187951">UfxDeviceCreate</a>.
+
+
+#### - NewPort [in]
+
+A USBFN_PORT_STATE-typed flag that indicates the type of the new port.
 
 
 ## -returns

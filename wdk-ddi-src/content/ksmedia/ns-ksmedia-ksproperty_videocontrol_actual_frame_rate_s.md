@@ -113,11 +113,15 @@ The minidriver should return STATUS_NOT_SUPPORTED if the pin is not open.
 
 ## -see-also
 
+<<<<<<< HEAD
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568120">PROPSETID_VIDCAP_VIDEOCONTROL</a>
-
-
-
+=======
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566024">KSPROPERTY_VIDEOCONTROL_ACTUAL_FRAME_RATE</a>
+>>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568120">PROPSETID_VIDCAP_VIDEOCONTROL</a>
 
 
 

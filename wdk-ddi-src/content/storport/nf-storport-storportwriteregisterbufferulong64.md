@@ -83,6 +83,11 @@ TBD
 
 
 
+#### - Register [in]
+
+Pointer to the register where the data is written to. The register must be a mapped range in memory space
+
+
 #### - Buffer [in]
 
 Pointer to the buffer to write the <b>ULONG64</b> values from.
@@ -91,11 +96,6 @@ Pointer to the buffer to write the <b>ULONG64</b> values from.
 #### - Count [in]
 
 Specifies the number of data values to write. Each data item has a size of <b>sizeof</b>(ULONG64). 
-
-
-#### - Register [in]
-
-Pointer to the register where the data is written to. The register must be a mapped range in memory space
 
 
 ## -remarks

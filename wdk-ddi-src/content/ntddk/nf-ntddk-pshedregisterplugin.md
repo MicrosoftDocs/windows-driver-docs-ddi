@@ -122,6 +122,7 @@ A PSHED plug-in calls the <b>PshedRegisterPlugin</b> function to register itself
 
 ## -see-also
 
+<<<<<<< HEAD
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a>
 
 
@@ -131,6 +132,17 @@ A PSHED plug-in calls the <b>PshedRegisterPlugin</b> function to register itself
 
 
 <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a>
+=======
+<a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a>
+
+
+
+<a href="..\ntddk\ns-ntddk-_whea_pshed_plugin_registration_packet.md">WHEA_PSHED_PLUGIN_REGISTRATION_PACKET</a>
+>>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
 
 
 

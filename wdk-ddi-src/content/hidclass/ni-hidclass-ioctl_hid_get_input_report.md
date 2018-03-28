@@ -66,11 +66,6 @@ For general information about HIDClass devices, see <a href="https://msdn.micros
 
 
 
-#### -ReportID
-
-Specifies a report ID associated with a top-level collection.
-
-
 #### -reportBuffer
 
 Points to a requester-allocated output buffer that a HID minidriver uses to return an input report.
@@ -79,6 +74,11 @@ Points to a requester-allocated output buffer that a HID minidriver uses to retu
 #### -reportBufferLen
 
 Specifies the size, in bytes, of the output buffer.
+
+
+#### -ReportID
+
+Specifies a report ID associated with a top-level collection.
 
 
 ### -input-buffer-length

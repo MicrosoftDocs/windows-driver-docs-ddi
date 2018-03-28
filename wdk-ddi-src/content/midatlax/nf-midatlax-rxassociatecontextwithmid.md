@@ -74,14 +74,14 @@ TBD
 
 
 
-#### - pContext
-
-A pointer to the context.
-
-
 #### - pMidAtlas
 
 A pointer to the MID_ATLAS data structure.
+
+
+#### - pContext
+
+A pointer to the context.
 
 
 #### - pNewMid

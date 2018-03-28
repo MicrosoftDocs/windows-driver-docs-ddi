@@ -83,32 +83,6 @@ Enables or disables an image filter for an input stream on the video processor.
 
 
 
-#### - Enable [in]
-
-If <b>TRUE</b>, the filter is enabled on the video processor.
-
-
-#### - Filter [in]
-
-The filter, specified as a <a href="https://msdn.microsoft.com/library/windows/hardware/hh450982">D3D11_1DDI_VIDEO_PROCESSOR_FILTER</a> value.
-
-
-
-
-#### - Level [in]
-
-The filter level. The meaning of this value is defined by the independent hardware vendor (IHV).
-
-<div class="alert"><b>Note</b>  If the <i>Enable</i> parameter is FALSE, this parameter is ignored.
-
-</div>
-<div> </div>
-
-#### - StreamIndex [in]
-
-The zero-based index of the input stream.
-
-
 #### - hDevice [in]
 
 A handle to the display device (graphics context).
@@ -122,6 +96,32 @@ A handle to the video processor object that was created through a call to the <a
 
 
 
+
+#### - StreamIndex [in]
+
+The zero-based index of the input stream.
+
+
+#### - Filter [in]
+
+The filter, specified as a <a href="https://msdn.microsoft.com/library/windows/hardware/hh450982">D3D11_1DDI_VIDEO_PROCESSOR_FILTER</a> value.
+
+
+
+
+#### - Enable [in]
+
+If <b>TRUE</b>, the filter is enabled on the video processor.
+
+
+#### - Level [in]
+
+The filter level. The meaning of this value is defined by the independent hardware vendor (IHV).
+
+<div class="alert"><b>Note</b>  If the <i>Enable</i> parameter is FALSE, this parameter is ignored.
+
+</div>
+<div> </div>
 
 ## -returns
 

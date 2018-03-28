@@ -274,11 +274,11 @@ In the <i>DriverEntry</i> routine of the KCS example, the <i>KcsGeometricWaveCal
 
 ## -see-also
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=144623">Performance Counter Library (PERFLIB)</a>
-
-
-
 <a href="..\wdm\nf-wdm-pcwregister.md">PcwRegister</a>
+
+
+
+<a href="http://go.microsoft.com/fwlink/p/?linkid=144623">Performance Counter Library (PERFLIB)</a>
 
 
 

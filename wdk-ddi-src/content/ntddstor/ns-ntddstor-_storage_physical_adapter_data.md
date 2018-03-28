@@ -114,14 +114,9 @@ Indicates the specification of the storage adapter, of type <a href="https://msd
 
 
 
-#### - ExpandedConnector
+#### - Vendor[8]
 
-Specifies if the storage adapter includes an expanded connector.
-
-
-#### - FirmwareRevision[16]
-
-The revision number of the storage adapter.
+The vendor name of the storage adapter.
 
 
 #### - Model[40]
@@ -129,9 +124,19 @@ The revision number of the storage adapter.
 The model name of the storage adapter.
 
 
+#### - FirmwareRevision[16]
+
+The revision number of the storage adapter.
+
+
 #### - PhysicalLocation[32]
 
 This member is reserved for future use.
+
+
+#### - ExpandedConnector
+
+Specifies if the storage adapter includes an expanded connector.
 
 
 #### - Reserved0[3]
@@ -142,9 +147,4 @@ Specifies if the storage adapter is reserved.
 #### - Reserved1[3]
 
 Specifies if the storage adapter is reserved.
-
-
-#### - Vendor[8]
-
-The vendor name of the storage adapter.
 

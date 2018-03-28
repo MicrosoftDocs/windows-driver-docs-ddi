@@ -7,7 +7,7 @@ old-location: netvista\ndisgetversion.htm
 old-project: netvista
 ms.assetid: d3e2c799-f789-499f-9948-f41d7576296e
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: NdisGetVersion, NdisGetVersion function [Network Drivers Starting with Windows Vista], ndis/NdisGetVersion, ndis_configuration_ref_fcdf5ece-888e-4f1a-b855-367cbe4c68fe.xml, netvista.ndisgetversion
 ms.prod: windows-hardware
 ms.technology: windows-devices

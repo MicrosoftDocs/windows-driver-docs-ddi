@@ -2,7 +2,7 @@
 UID: NA:usbspec
 ms.assetid: 399eedeb-abab-3fb2-9a78-c323c5ecb8ef
 ms.author: windowsdriverdev
-ms.date: 02/27/18
+ms.date: 03/13/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

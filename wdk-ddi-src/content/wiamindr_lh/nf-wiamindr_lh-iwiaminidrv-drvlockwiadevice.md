@@ -75,14 +75,14 @@ The <b>IWiaMiniDrv::drvLockWiaDevice</b> method locks the WIA hardware device so
 
 
 
-#### - lFlags [in]
-
-Is currently unused. 
-
-
 #### - pWiasContext [in]
 
 Pointer to a WIA item context.
+
+
+#### - lFlags [in]
+
+Is currently unused. 
 
 
 #### - plDevErrVal [out]

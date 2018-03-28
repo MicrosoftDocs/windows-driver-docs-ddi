@@ -2,7 +2,7 @@
 UID: NA:prnasntp
 ms.assetid: 06a2babb-67c2-3b95-be24-a44b7eec0bcf
 ms.author: windowsdriverdev
-ms.date: 02/27/18
+ms.date: 03/13/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

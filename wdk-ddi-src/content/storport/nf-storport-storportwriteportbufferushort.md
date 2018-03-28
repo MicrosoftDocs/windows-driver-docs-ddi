@@ -83,16 +83,6 @@ TBD
 
 
 
-#### - Buffer [in]
-
-Pointer to the buffer containing the data to be written. 
-
-
-#### - Count [in]
-
-Contains the number of data items of size <b>sizeof</b>(USHORT) to be written. 
-
-
 #### - HwDeviceExtension [in]
 
 Pointer to the hardware device extension.
@@ -101,6 +91,16 @@ Pointer to the hardware device extension.
 #### - Port [in]
 
 Contains the address of the port to be written to. 
+
+
+#### - Buffer [in]
+
+Pointer to the buffer containing the data to be written. 
+
+
+#### - Count [in]
+
+Contains the number of data items of size <b>sizeof</b>(USHORT) to be written. 
 
 
 ## -remarks

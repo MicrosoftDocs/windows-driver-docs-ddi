@@ -77,19 +77,19 @@ The <i>IaSetVertexBuffers</i> function sets vertex buffers for an input assemble
 
 
 
-#### - StartBuffer [in]
-
- The starting vertex buffer to set. 
-
-
 #### - hDevice [in]
 
  A handle to the display device (graphics context).
 
 
-#### - pOffsets [in]
+#### - StartBuffer [in]
 
- An array of values that indicate the offsets, in bytes, into each vertex buffer. 
+ The starting vertex buffer to set. 
+
+
+#### - phBuffers [in]
+
+ An array of handles to the vertex buffers, beginning with the buffer that <i>StartBuffer</i> specifies.
 
 
 #### - pStrides [in]
@@ -97,9 +97,9 @@ The <i>IaSetVertexBuffers</i> function sets vertex buffers for an input assemble
  An array of values that indicate the sizes, in bytes, from one vertex to the next vertex for each buffer 
 
 
-#### - phBuffers [in]
+#### - pOffsets [in]
 
- An array of handles to the vertex buffers, beginning with the buffer that <i>StartBuffer</i> specifies.
+ An array of values that indicate the offsets, in bytes, into each vertex buffer. 
 
 
 ## -returns

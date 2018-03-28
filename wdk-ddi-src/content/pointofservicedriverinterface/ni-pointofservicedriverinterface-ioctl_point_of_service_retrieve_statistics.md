@@ -104,14 +104,14 @@ To get extended error information, call <a href="http://go.microsoft.com/fwlink/
 
 
 
-#### -STATUS_BUFFER_OVERFLOW
-
-The output buffer is not large enough to hold the statistics.
-
-
 #### -STATUS_NOT_SUPPORTED
 
 Statistic reporting is not supported.
+
+
+#### -STATUS_BUFFER_OVERFLOW
+
+The output buffer is not large enough to hold the statistics.
 
 
 ## -remarks

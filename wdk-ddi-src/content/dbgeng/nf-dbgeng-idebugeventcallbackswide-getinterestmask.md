@@ -7,7 +7,7 @@ old-location: debugger\idebugeventcallbackswide_getinterestmask.htm
 old-project: debugger
 ms.assetid: b1e62ae3-4a3d-42db-b7fe-87d1a7e0b438
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: GetInterestMask method [Windows Debugging], GetInterestMask method [Windows Debugging], IDebugEventCallbacksWide interface, GetInterestMask,IDebugEventCallbacksWide.GetInterestMask, IDebugEventCallbacksWide, IDebugEventCallbacksWide interface [Windows Debugging], GetInterestMask method, IDebugEventCallbacksWide::GetInterestMask, dbgeng/IDebugEventCallbacksWide::GetInterestMask, debugger.idebugeventcallbackswide_getinterestmask
 ms.prod: windows-hardware
 ms.technology: windows-devices

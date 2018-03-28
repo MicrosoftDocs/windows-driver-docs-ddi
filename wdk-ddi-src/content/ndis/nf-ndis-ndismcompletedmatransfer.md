@@ -7,7 +7,7 @@ old-location: netvista\ndismcompletedmatransfer.htm
 old-project: netvista
 ms.assetid: 12a8062a-6d4b-4757-a076-56aeb5e4e48c
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: NdisMCompleteDmaTransfer, NdisMCompleteDmaTransfer macro [Network Drivers Starting with Windows Vista], dma_ref_bd601fef-cf06-42ff-9906-d3bf8edef72f.xml, ndis/NdisMCompleteDmaTransfer, netvista.ndismcompletedmatransfer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -93,33 +93,6 @@ TBD
 
 
 
-#### - Buffer [in]
-
-A pointer to the buffer descriptor previously passed to 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff563675">NdisMSetupDmaTransfer</a>.
-
-
-#### - Length [in]
-
-The length in bytes of the transfer. This value also was passed to 
-     <b>NdisMSetupDmaTransfer</b>.
-
-
-#### - MiniportDmaHandle [in]
-
-The handle returned when the 
-     <a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a> function
-     called the 
-     <a href="https://msdn.microsoft.com/32e92f77-8f45-408b-a284-c00d3b5bd1b4">
-     NdisMRegisterDmaChannel</a> function.
-
-
-#### - Offset [in]
-
-The byte offset at which the transfer began. This value also was passed to 
-     <b>NdisMSetupDmaTransfer</b>.
-
-
 #### - Status [out]
 
 A pointer to a caller-supplied variable in which this function returns the final status of the DMA
@@ -140,6 +113,33 @@ The data has been transferred and flushed to host memory or to the device to mai
 #### NDIS_STATUS_RESOURCES
 
 The DMA controller was released but the data transfer might be incoherent.
+
+
+#### - MiniportDmaHandle [in]
+
+The handle returned when the 
+     <a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a> function
+     called the 
+     <a href="https://msdn.microsoft.com/32e92f77-8f45-408b-a284-c00d3b5bd1b4">
+     NdisMRegisterDmaChannel</a> function.
+
+
+#### - Buffer [in]
+
+A pointer to the buffer descriptor previously passed to 
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff563675">NdisMSetupDmaTransfer</a>.
+
+
+#### - Offset [in]
+
+The byte offset at which the transfer began. This value also was passed to 
+     <b>NdisMSetupDmaTransfer</b>.
+
+
+#### - Length [in]
+
+The length in bytes of the transfer. This value also was passed to 
+     <b>NdisMSetupDmaTransfer</b>.
 
 
 #### - WriteToDevice [in]
@@ -177,5 +177,5 @@ The DMA controller was released but the data transfer might be incoherent.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisMCompleteDmaTransfer macro%20 RELEASE:%20(2/27/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisMCompleteDmaTransfer macro%20 RELEASE:%20(3/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

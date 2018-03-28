@@ -85,14 +85,14 @@ The <b>IWiaMiniDrv::drvGetWiaFormatInfo</b> method finds the image formats and m
 
 
 
-#### - lFlags [in]
-
-Is currently unused. 
-
-
 #### - pWiasContext [in]
 
 Pointer to a WIA item context.
+
+
+#### - lFlags [in]
+
+Is currently unused. 
 
 
 #### - pcelt [out]
@@ -100,14 +100,14 @@ Pointer to a WIA item context.
 Points to a memory location that will receive the number of items in the array pointed to by <i>ppwfi</i>.
 
 
-#### - plDevErrVal [out]
-
-Points to a memory location that will receive a status code for this method. If this method returns S_OK, the value stored will be zero. Otherwise, a minidriver-specific error code will be stored at the location pointed to by this parameter.
-
-
 #### - ppwfi [out, optional]
 
 Points to a memory location that will receive the address of the first element of an array of WIA_FORMAT_INFO structures (described in the Microsoft Windows SDK documentation).
+
+
+#### - plDevErrVal [out]
+
+Points to a memory location that will receive a status code for this method. If this method returns S_OK, the value stored will be zero. Otherwise, a minidriver-specific error code will be stored at the location pointed to by this parameter.
 
 
 ## -returns

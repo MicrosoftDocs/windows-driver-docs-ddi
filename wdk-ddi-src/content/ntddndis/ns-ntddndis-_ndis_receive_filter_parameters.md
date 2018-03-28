@@ -7,7 +7,7 @@ old-location: netvista\ndis_receive_filter_parameters.htm
 old-project: netvista
 ms.assetid: 39dc6b3a-f24d-4f1a-96f8-416fbcb3f894
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*PNDIS_RECEIVE_FILTER_PARAMETERS, NDIS_RECEIVE_FILTER_PACKET_ENCAPSULATION_GRE, NDIS_RECEIVE_FILTER_PARAMETERS, NDIS_RECEIVE_FILTER_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_RECEIVE_FILTER_PARAMETERS, PNDIS_RECEIVE_FILTER_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_RECEIVE_FILTER_PARAMETERS, netvista.ndis_receive_filter_parameters, ntddndis/NDIS_RECEIVE_FILTER_PARAMETERS, ntddndis/PNDIS_RECEIVE_FILTER_PARAMETERS, virtual_machine_queue_ref_abdd073b-8e49-4d6d-9bd6-1eca198dbd2d.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -294,5 +294,5 @@ If the network adapter supports the VMQ interface, the  adapter should forward t
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_RECEIVE_FILTER_PARAMETERS structure%20 RELEASE:%20(2/27/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_RECEIVE_FILTER_PARAMETERS structure%20 RELEASE:%20(3/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

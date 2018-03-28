@@ -91,6 +91,7 @@ Minidrivers that must specify a data format that contains settings for bob or we
 
 ## -see-also
 
+<<<<<<< HEAD
 <a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a>
 
 
@@ -100,6 +101,17 @@ Minidrivers that must specify a data format that contains settings for bob or we
 
 
 <a href="..\ksmedia\ns-ksmedia-tagks_dataformat_videoinfoheader2.md">KS_DATAFORMAT_VIDEOINFOHEADER2</a>
+=======
+<a href="..\ksmedia\ns-ksmedia-tagks_videoinfoheader.md">KS_VIDEOINFOHEADER</a>
+
+
+
+<a href="..\ksmedia\ns-ksmedia-tagks_dataformat_videoinfoheader2.md">KS_DATAFORMAT_VIDEOINFOHEADER2</a>
+
+
+
+<a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a>
+>>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
 
 
 

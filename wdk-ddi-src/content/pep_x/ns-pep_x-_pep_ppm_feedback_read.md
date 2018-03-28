@@ -103,6 +103,11 @@ The nominal accumulated count and actual count, if the counter hardware generate
 [out] The actual value read from the counter.
 
 
+##### - ( unnamed union ).InstantaneousValue
+
+[out] The current instantaneous value read from the counter, if the counter generates an instantaneous value.
+
+
 ##### - ( unnamed union ).( unnamed struct )
 
 The nominal accumulated count and actual count, if the counter hardware generates a relative value.
@@ -118,11 +123,6 @@ The nominal accumulated count and actual count, if the counter hardware generate
 ##### ( unnamed struct ).ActualCount
 
 [out] The actual value read from the counter.
-
-
-##### - ( unnamed union ).InstantaneousValue
-
-[out] The current instantaneous value read from the counter, if the counter generates an instantaneous value.
 
 
 ## -remarks

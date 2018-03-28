@@ -7,7 +7,7 @@ old-location: kernel\zwqueryinformationfile.htm
 old-project: kernel
 ms.assetid: 007df07e-685b-4224-b9d6-55e87cf0bd5c
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/1/2018
 ms.keywords: NtQueryInformationFile, ZwQueryInformationFile, ZwQueryInformationFile routine [Kernel-Mode Driver Architecture], k111_822ab812-a644-4574-8d89-c4ebf5b17ea5.xml, kernel.zwqueryinformationfile, wdm/NtQueryInformationFile, wdm/ZwQueryInformationFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -303,6 +303,7 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 ## -see-also
 
+<<<<<<< HEAD
 <a href="..\wdm\ns-wdm-_file_basic_information.md">FILE_BASIC_INFORMATION</a>
 
 
@@ -312,6 +313,17 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 <a href="..\wdm\nf-wdm-zwsetinformationfile.md">ZwSetInformationFile</a>
+=======
+<a href="..\ntddk\ns-ntddk-_file_alignment_information.md">FILE_ALIGNMENT_INFORMATION</a>
+
+
+
+<a href="..\wdm\ns-wdm-_file_basic_information.md">FILE_BASIC_INFORMATION</a>
+
+
+
+<a href="..\ntifs\ns-ntifs-_file_all_information.md">FILE_ALL_INFORMATION</a>
+>>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
 
 
 
@@ -319,6 +331,7 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
+<<<<<<< HEAD
 <a href="..\ntifs\ns-ntifs-_file_mode_information.md">FILE_MODE_INFORMATION</a>
 
 
@@ -368,6 +381,57 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 <a href="..\ntddk\ns-ntddk-_file_name_information.md">FILE_NAME_INFORMATION</a>
+=======
+<a href="..\ntifs\ns-ntifs-_file_ea_information.md">FILE_EA_INFORMATION</a>
+
+
+
+<a href="..\wdm\ns-wdm-_file_standard_information.md">FILE_STANDARD_INFORMATION</a>
+
+
+
+<a href="..\ntddk\ns-ntddk-_file_name_information.md">FILE_NAME_INFORMATION</a>
+
+
+
+<a href="..\wdm\ns-wdm-_file_position_information.md">FILE_POSITION_INFORMATION</a>
+
+
+
+<a href="..\wdm\ns-wdm-_file_is_remote_device_information.md">FILE_IS_REMOTE_DEVICE_INFORMATION</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
+
+
+
+<a href="..\wdm\ns-wdm-_file_network_open_information.md">FILE_NETWORK_OPEN_INFORMATION</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwsetinformationfile.md">ZwSetInformationFile</a>
+
+
+
+<a href="..\ntifs\ns-ntifs-_file_internal_information.md">FILE_INTERNAL_INFORMATION</a>
+
+
+
+<a href="..\wdm\ns-wdm-_file_io_priority_hint_information.md">FILE_IO_PRIORITY_HINT_INFORMATION</a>
+
+
+
+<a href="..\ntddk\ns-ntddk-_file_attribute_tag_information.md">FILE_ATTRIBUTE_TAG_INFORMATION</a>
+
+
+
+<a href="..\ntifs\ns-ntifs-_file_access_information.md">FILE_ACCESS_INFORMATION</a>
+>>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
 
 
 
@@ -375,5 +439,5 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20ZwQueryInformationFile routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20ZwQueryInformationFile routine%20 RELEASE:%20(3/1/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

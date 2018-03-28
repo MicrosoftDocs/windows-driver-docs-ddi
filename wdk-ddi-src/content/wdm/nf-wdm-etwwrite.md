@@ -189,6 +189,7 @@ You can call <b>EtwWrite</b> at any IRQL. However, when IRQL is greater than APC
 
 ## -see-also
 
+<<<<<<< HEAD
 <a href="..\wdm\nf-wdm-etwproviderenabled.md">EtwProviderEnabled</a>
 
 
@@ -198,6 +199,17 @@ You can call <b>EtwWrite</b> at any IRQL. However, when IRQL is greater than APC
 
 
 <a href="..\wdm\nf-wdm-etweventenabled.md">EtwEventEnabled</a>
+=======
+<a href="..\wdm\nf-wdm-etweventenabled.md">EtwEventEnabled</a>
+
+
+
+<a href="..\wdm\nf-wdm-etwproviderenabled.md">EtwProviderEnabled</a>
+
+
+
+<a href="..\wdm\nf-wdm-etwwritestring.md">EtwWriteString</a>
+>>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
 
 
 
@@ -205,6 +217,7 @@ You can call <b>EtwWrite</b> at any IRQL. However, when IRQL is greater than APC
 
 
 
+<<<<<<< HEAD
 <a href="http://go.microsoft.com/fwlink/p/?linkid=70404">EventDataDescCreate</a>
 
 
@@ -214,6 +227,17 @@ You can call <b>EtwWrite</b> at any IRQL. However, when IRQL is greater than APC
 
 
 <a href="..\wdm\nf-wdm-etwunregister.md">EtwUnregister</a>
+=======
+<a href="..\wdm\nf-wdm-etwwriteex.md">EtwWriteEx</a>
+
+
+
+<a href="..\wdm\nf-wdm-etwunregister.md">EtwUnregister</a>
+
+
+
+<a href="..\wdm\nf-wdm-etwwritetransfer.md">EtwWriteTransfer</a>
+>>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
 
 
 

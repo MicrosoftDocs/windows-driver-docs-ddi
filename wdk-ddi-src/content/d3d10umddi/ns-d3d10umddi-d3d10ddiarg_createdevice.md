@@ -144,6 +144,13 @@ Supported starting with Windows 7.
 Supported starting with Windows 8.
 
 
+#### - pDeviceFuncs
+
+[in/out] A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541833">D3D10DDI_DEVICEFUNCS</a> structure that the user-mode display driver fills with a table of its functions. The Direct3D runtime uses these functions to communicate with the user-mode display driver.
+
+The driver should fill its Direct3D version 10.0 functions in the supplied <a href="https://msdn.microsoft.com/library/windows/hardware/ff541833">D3D10DDI_DEVICEFUNCS</a> structure when the value in the <b>Interface</b> member is <b>D3D10_0_DDI_INTERFACE_VERSION</b>.  
+
+
 #### - p10_1DeviceFuncs
 
 [in/out] A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541873">D3D10_1DDI_DEVICEFUNCS</a> structure that the user-mode display driver fills with a table of its functions. Version 10.1 of the Direct3D runtime uses these functions to communicate with the user-mode display driver.
@@ -162,13 +169,6 @@ The driver should fill its Direct3D version 11.0 functions in the supplied <a hr
 Supported starting with Windows 7.
 
 
-#### - p11UMCallbacks
-
-[in] A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff542137">D3D11DDI_CORELAYER_DEVICECALLBACKS</a> structure that contains a table of Direct3D 11 runtime callback functions, which the driver can use to access core user-mode runtime functionality.
-
-Supported starting with Windows 7.
-
-
 #### - p11_1DeviceFuncs
 
 [in/out] A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh406443">D3D11_1DDI_DEVICEFUNCS</a> structure that the user-mode display driver fills with a table of its functions. Starting with version 11.1, the Direct3D runtime uses these functions to communicate with the user-mode display driver.
@@ -178,18 +178,6 @@ The driver should fill its Direct3D version 11.1 functions in the supplied <a hr
 Supported starting with Windows 8.
 
 
-#### - pDeviceFuncs
-
-[in/out] A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541833">D3D10DDI_DEVICEFUNCS</a> structure that the user-mode display driver fills with a table of its functions. The Direct3D runtime uses these functions to communicate with the user-mode display driver.
-
-The driver should fill its Direct3D version 10.0 functions in the supplied <a href="https://msdn.microsoft.com/library/windows/hardware/ff541833">D3D10DDI_DEVICEFUNCS</a> structure when the value in the <b>Interface</b> member is <b>D3D10_0_DDI_INTERFACE_VERSION</b>.  
-
-
-#### - pUMCallbacks
-
-[in] A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541820">D3D10DDI_CORELAYER_DEVICECALLBACKS</a> structure that contains a table of Direct3D 10 runtime callback functions that the driver can use to access core user-mode runtime functionality. 
-
-
 #### - pWDDM1_3DeviceFuncs
 
 [in/out] A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn458988">D3DWDDM1_3DDI_DEVICEFUNCS</a> structure that the user-mode display driver fills with a table of its functions. Version 11.2 of the Direct3D runtime uses these functions to communicate with the user-mode display driver.
@@ -197,6 +185,18 @@ The driver should fill its Direct3D version 10.0 functions in the supplied <a hr
 The driver should fill its Direct3D version 11.2 functions in the supplied <a href="https://msdn.microsoft.com/library/windows/hardware/dn458988">D3DWDDM1_3DDI_DEVICEFUNCS</a> structure when the value in the <b>Interface</b> member is <b>D3DWDDM1_3_DDI_INTERFACE_VERSION</b>.
 
 Supported starting with Windows 8.1.
+
+
+#### - pUMCallbacks
+
+[in] A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541820">D3D10DDI_CORELAYER_DEVICECALLBACKS</a> structure that contains a table of Direct3D 10 runtime callback functions that the driver can use to access core user-mode runtime functionality. 
+
+
+#### - p11UMCallbacks
+
+[in] A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff542137">D3D11DDI_CORELAYER_DEVICECALLBACKS</a> structure that contains a table of Direct3D 11 runtime callback functions, which the driver can use to access core user-mode runtime functionality.
+
+Supported starting with Windows 7.
 
 
 ## -remarks

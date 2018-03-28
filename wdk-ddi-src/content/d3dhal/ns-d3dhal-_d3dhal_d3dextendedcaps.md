@@ -632,14 +632,9 @@ Reserved for system use.
 Reserved for system use.
 
 
-#### - dwMinStippleHeight, dwMaxStippleHeight
+#### - dwMinTextureWidth, dwMaxTextureWidth
 
-Specify the minimum and maximum stipple heights, in pixels, supported by the driver.
-
-
-#### - dwMinStippleWidth, dwMaxStippleWidth
-
-Specify the minimum and maximum stipple widths, in pixels, supported by the driver.
+Specify the minimum and maximum texture widths, in pixels, supported by the driver or device. This member is typically a power of 2. These members are provided as hints to the application, and it is the application's responsibility to adjust texture sizes when necessary.
 
 
 #### - dwMinTextureHeight, dwMaxTextureHeight
@@ -647,9 +642,14 @@ Specify the minimum and maximum stipple widths, in pixels, supported by the driv
 Specify the minimum and maximum texture heights, in pixels, supported by the driver. This member is typically a power of 2.
 
 
-#### - dwMinTextureWidth, dwMaxTextureWidth
+#### - dwMinStippleWidth, dwMaxStippleWidth
 
-Specify the minimum and maximum texture widths, in pixels, supported by the driver or device. This member is typically a power of 2. These members are provided as hints to the application, and it is the application's responsibility to adjust texture sizes when necessary.
+Specify the minimum and maximum stipple widths, in pixels, supported by the driver.
+
+
+#### - dwMinStippleHeight, dwMaxStippleHeight
+
+Specify the minimum and maximum stipple heights, in pixels, supported by the driver.
 
 
 ## -remarks

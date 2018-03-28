@@ -94,19 +94,9 @@ TBD
 
 
 
-#### - allTargets
+#### - userData
 
-Indicates, when nonzero, that the value in <i>discoveredPortWWN</i> will be ignored, and the callback will be called for events associated with all current and future discovered targets. If this member is 0, only events associated with the target specified by <i>discoveredPortWWN</i> will be reported. 
-
-
-#### - callbackHandle
-
-Contains an opaque identifier that the user must pass to <a href="https://msdn.microsoft.com/library/windows/hardware/ff557175">HBA_RemoveCallback</a> to de-register the callback routine.
-
-
-#### - discoveredPortWWN
-
-Contains a 64-bit WWN that uniquely identifies the remote HBA port from which target events are reported. 
+Pointer to a buffer that is passed to the callback routine with each event. This data correlates the event with the source of the event registration. 
 
 
 #### - handle
@@ -119,9 +109,19 @@ Contains a value returned by the routine <a href="https://msdn.microsoft.com/lib
 Contains a 64-bit worldwide name (WWN) that uniquely identifies the local HBA port from which the target was discovered. For a discussion of worldwide names, see the T11 committee's <i>Fibre Channel HBA API</i> specification. 
 
 
-#### - userData
+#### - discoveredPortWWN
 
-Pointer to a buffer that is passed to the callback routine with each event. This data correlates the event with the source of the event registration. 
+Contains a 64-bit WWN that uniquely identifies the remote HBA port from which target events are reported. 
+
+
+#### - callbackHandle
+
+Contains an opaque identifier that the user must pass to <a href="https://msdn.microsoft.com/library/windows/hardware/ff557175">HBA_RemoveCallback</a> to de-register the callback routine.
+
+
+#### - allTargets
+
+Indicates, when nonzero, that the value in <i>discoveredPortWWN</i> will be ignored, and the callback will be called for events associated with all current and future discovered targets. If this member is 0, only events associated with the target specified by <i>discoveredPortWWN</i> will be reported. 
 
 
 ## -returns

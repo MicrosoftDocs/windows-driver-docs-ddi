@@ -1,4 +1,4 @@
-# [Universal Serial Bus (USB)](../_usbref/index.md)
+# [buses](../_buses/index.md)
 ## [Udecxwdfdevice.h](index.md)
 ### [EVT_UDECX_WDF_DEVICE_QUERY_USB_CAPABILITY callback](../udecxwdfdevice/nc-udecxwdfdevice-evt_udecx_wdf_device_query_usb_capability.md)
 ### [EVT_UDECX_WDF_DEVICE_RESET callback](../udecxwdfdevice/nc-udecxwdfdevice-evt_udecx_wdf_device_reset.md)

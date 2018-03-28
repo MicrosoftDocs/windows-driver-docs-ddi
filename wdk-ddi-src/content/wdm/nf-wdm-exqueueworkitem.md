@@ -149,14 +149,19 @@ Threads at either priority remain interruptible.
 
 ## -see-also
 
+<<<<<<< HEAD
 <a href="..\wdm\ns-wdm-_work_queue_item.md">WORK_QUEUE_ITEM</a>
-
-
-
+=======
 <a href="..\wdm\nf-wdm-ioallocateworkitem.md">IoAllocateWorkItem</a>
+>>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
 
 
 
+<a href="..\wdm\nf-wdm-exfreepoolwithtag.md">ExFreePoolWithTag</a>
+
+
+
+<<<<<<< HEAD
 <a href="..\wdm\nf-wdm-exinitializeworkitem.md">ExInitializeWorkItem</a>
 
 
@@ -166,14 +171,29 @@ Threads at either priority remain interruptible.
 
 
 <a href="..\wdm\nf-wdm-exfreepoolwithtag.md">ExFreePoolWithTag</a>
+=======
+<a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a>
+
+
+
+<a href="..\wdm\nf-wdm-exinitializeworkitem.md">ExInitializeWorkItem</a>
 
 
 
 <a href="..\wdm\nf-wdm-iofreeworkitem.md">IoFreeWorkItem</a>
+>>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
 
 
 
+<a href="..\wdm\ns-wdm-_work_queue_item.md">WORK_QUEUE_ITEM</a>
+
+
+
+<<<<<<< HEAD
 <a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a>
+=======
+<a href="..\wdm\nf-wdm-ioqueueworkitem.md">IoQueueWorkItem</a>
+>>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
 
 
 

@@ -7,7 +7,7 @@ old-location: debugger\addtypeoptions.htm
 old-project: debugger
 ms.assetid: fe7fadc4-6ace-421a-986d-6fb2e0950ce8
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: AddTypeOptions method [Windows Debugging], AddTypeOptions method [Windows Debugging], IDebugSymbols2 interface, AddTypeOptions method [Windows Debugging], IDebugSymbols3 interface, AddTypeOptions,IDebugSymbols2.AddTypeOptions, IDebugSymbols2, IDebugSymbols2 interface [Windows Debugging], AddTypeOptions method, IDebugSymbols2::AddTypeOptions, IDebugSymbols3 interface [Windows Debugging], AddTypeOptions method, IDebugSymbols3::AddTypeOptions, IDebugSymbols_e856a688-7f26-4a00-b911-5b23a0bafa11.xml, dbgeng/IDebugSymbols2::AddTypeOptions, dbgeng/IDebugSymbols3::AddTypeOptions, debugger.addtypeoptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -128,5 +128,5 @@ For more information about types, see <a href="https://msdn.microsoft.com/librar
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugSymbols2::AddTypeOptions method%20 RELEASE:%20(2/27/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugSymbols2::AddTypeOptions method%20 RELEASE:%20(3/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

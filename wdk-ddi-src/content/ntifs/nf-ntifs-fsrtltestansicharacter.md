@@ -91,6 +91,11 @@ Pointer to the character to be tested.
 Default value to be returned if the value of <i>(SCHAR *)Character</i> is &lt; 0.
 
 
+#### - WildCardsPermissible
+
+Set to <b>TRUE</b> if wildcard characters are to be considered legal, <b>FALSE</b> otherwise.
+
+
 #### - Flags
 
 Combination of one or more of the flag values described following.
@@ -162,11 +167,6 @@ FSRTL_NTFS_LEGAL | FSRTL_OLE_LEGAL
 </tr>
 </table>
  
-
-
-#### - WildCardsPermissible
-
-Set to <b>TRUE</b> if wildcard characters are to be considered legal, <b>FALSE</b> otherwise.
 
 
 ## -remarks

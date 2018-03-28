@@ -264,7 +264,11 @@ A WHEA_ERROR_STATUS union is contained within the <a href="..\ntddk\ns-ntddk-_wh
 
 ## -see-also
 
+<<<<<<< HEAD
 <a href="..\ntddk\ns-ntddk-_whea_pcixdevice_error_section.md">WHEA_PCIXDEVICE_ERROR_SECTION</a>
+=======
+<a href="..\ntddk\ns-ntddk-_whea_pcixbus_error_section.md">WHEA_PCIXBUS_ERROR_SECTION</a>
+>>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
 
 
 

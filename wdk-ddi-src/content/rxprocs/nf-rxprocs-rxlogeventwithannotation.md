@@ -93,11 +93,6 @@ TBD
 The count of the number of annotation strings to add to the I/O error log structure.
 
 
-#### - Annotations [in]
-
-A pointer to any annotation strings to add to the I/O error log structure.
-
-
 #### - Id [in]
 
 The value indicating the I/O error log code which is different than an NTSTATUS value returned by a routine. The legal I/O error log code values are defined in the <i>ntiolog.h</i> header file included with the Microsoft Windows SDK and Visual Studio. 
@@ -116,6 +111,11 @@ A pointer to a raw data buffer to be added to the I/O error log structure.
 #### - RawDataLength [in]
 
 The length of the raw data buffer to be added to the I/O error log structure.
+
+
+#### - Annotations [in]
+
+A pointer to any annotation strings to add to the I/O error log structure.
 
 
 ## -returns

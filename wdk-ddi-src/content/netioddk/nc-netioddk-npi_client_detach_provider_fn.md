@@ -7,7 +7,7 @@ old-location: netvista\clientdetachprovider.htm
 old-project: netvista
 ms.assetid: a684136a-e2f2-4f82-9e9a-166b40bd7536
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: ClientDetachProvider, ClientDetachProvider callback function [Network Drivers Starting with Windows Vista], NPI_CLIENT_DETACH_PROVIDER_FN, PNPI_CLIENT_DETACH_PROVIDER_FN, PNPI_CLIENT_DETACH_PROVIDER_FN callback function [Network Drivers Starting with Windows Vista], netioddk/ClientDetachProvider, netvista.clientdetachprovider, nmrref_5197d4f5-2cd0-4134-bccb-b509853718cd.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -191,5 +191,5 @@ The NMR calls a client module's
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NPI_CLIENT_DETACH_PROVIDER_FN callback function%20 RELEASE:%20(2/27/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NPI_CLIENT_DETACH_PROVIDER_FN callback function%20 RELEASE:%20(3/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

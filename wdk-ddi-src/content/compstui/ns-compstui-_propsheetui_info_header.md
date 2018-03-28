@@ -147,10 +147,10 @@ Application-supplied instance handle, which CPSUI uses when loading application 
 
 
 
+#### - hIcon
+
+
 #### - IconID
 
 This union identifies the icon to be displayed in the property sheet's title bar. The union member is selected by PSUIHDRF_USEICON in <b>Flags</b>.
-
-
-#### - hIcon
 

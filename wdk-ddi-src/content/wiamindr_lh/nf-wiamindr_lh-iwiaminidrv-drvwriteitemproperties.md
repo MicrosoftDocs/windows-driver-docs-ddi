@@ -80,24 +80,24 @@ The <b>IWiaMiniDrv::drvWriteItemProperties</b> method writes driver item propert
 
 
 
-#### - lFlags [in]
-
-Is currently unused. 
-
-
 #### - pWiasContext [in]
 
 Pointer to a WIA item context.
 
 
-#### - plDevErrVal [out]
+#### - lFlags [in]
 
-Points to a memory location that will receive a status code for this method. If this method returns S_OK, the value stored will be zero. Otherwise, a minidriver-specific error code will be stored at the location pointed to by this parameter.
+Is currently unused. 
 
 
 #### - pmdtc [in]
 
 Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff545250">MINIDRV_TRANSFER_CONTEXT</a> structure containing the device transfer context.
+
+
+#### - plDevErrVal [out]
+
+Points to a memory location that will receive a status code for this method. If this method returns S_OK, the value stored will be zero. Otherwise, a minidriver-specific error code will be stored at the location pointed to by this parameter.
 
 
 ## -returns

@@ -2,7 +2,7 @@
 UID: NA:ptpusd
 ms.assetid: cc9e1f1e-798a-329b-b235-9673f8a25153
 ms.author: windowsdriverdev
-ms.date: 02/27/18
+ms.date: 03/13/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

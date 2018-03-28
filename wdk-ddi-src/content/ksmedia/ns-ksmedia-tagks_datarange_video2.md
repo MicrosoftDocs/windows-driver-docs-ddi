@@ -127,7 +127,11 @@ This structure should be used instead of a <a href="..\ksmedia\ns-ksmedia-tagks_
 
 
 
+<<<<<<< HEAD
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561658">KSDATARANGE</a>
+=======
+<a href="..\ksmedia\ns-ksmedia-tagks_videoinfoheader2.md">KS_VIDEOINFOHEADER2</a>
+>>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
 
 
 

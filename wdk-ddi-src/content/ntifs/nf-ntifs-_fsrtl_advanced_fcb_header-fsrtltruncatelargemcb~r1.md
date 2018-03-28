@@ -69,14 +69,14 @@ TBD
 
 
 
-#### - LargeVbn [in]
-
-Starting virtual block number (VBN) of the range of mappings to be removed from the MCB. 
-
-
 #### - OpaqueMcb [in]
 
 Pointer to the MCB structure. 
+
+
+#### - LargeVbn [in]
+
+Starting virtual block number (VBN) of the range of mappings to be removed from the MCB. 
 
 
 ## -returns

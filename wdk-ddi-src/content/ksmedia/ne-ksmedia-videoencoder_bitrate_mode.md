@@ -100,7 +100,11 @@ When <b>VariableBitRatePeak</b> mode is used, the <a href="https://msdn.microsof
 
 ## -see-also
 
+<<<<<<< HEAD
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559524">ENCAPIPARAM_BITRATE_MODE</a>
+=======
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559520">ENCAPIPARAM_BITRATE</a>
+>>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
 
 
 
@@ -108,7 +112,7 @@ When <b>VariableBitRatePeak</b> mode is used, the <a href="https://msdn.microsof
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559520">ENCAPIPARAM_BITRATE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559524">ENCAPIPARAM_BITRATE_MODE</a>
 
 
 

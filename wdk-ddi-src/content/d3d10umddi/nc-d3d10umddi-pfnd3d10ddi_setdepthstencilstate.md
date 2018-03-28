@@ -72,11 +72,6 @@ The <i>SetDepthStencilState</i> function sets a depth-stencil state.
 
 
 
-#### - StencilRef [in]
-
- A stencil reference value to compare against.
-
-
 #### - hDevice [in]
 
  A handle to the display device (graphics context).
@@ -85,6 +80,11 @@ The <i>SetDepthStencilState</i> function sets a depth-stencil state.
 #### - hState [in]
 
  A handle to the depth-stencil state to set.
+
+
+#### - StencilRef [in]
+
+ A stencil reference value to compare against.
 
 
 ## -returns

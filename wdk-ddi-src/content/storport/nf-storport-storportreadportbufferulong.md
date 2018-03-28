@@ -83,16 +83,6 @@ TBD
 
 
 
-#### - Buffer [in]
-
-Pointer to the buffer that receives the data that is read.
-
-
-#### - Count [in]
-
-Specifies the number of data items to be read. Each data item has a size of sizeof(ULONG). 
-
-
 #### - HwDeviceExtension [in]
 
 Pointer to the hardware device extension.
@@ -101,6 +91,16 @@ Pointer to the hardware device extension.
 #### - Port [in]
 
 Pointer to the address from which to read. 
+
+
+#### - Buffer [in]
+
+Pointer to the buffer that receives the data that is read.
+
+
+#### - Count [in]
+
+Specifies the number of data items to be read. Each data item has a size of sizeof(ULONG). 
 
 
 ## -remarks

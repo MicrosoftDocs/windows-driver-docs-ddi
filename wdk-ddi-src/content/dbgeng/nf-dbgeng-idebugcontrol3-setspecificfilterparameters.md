@@ -7,7 +7,7 @@ old-location: debugger\setspecificfilterparameters.htm
 old-project: debugger
 ms.assetid: 97eb6db8-3c0a-44b4-8fb4-9e42ee9f9856
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: IDebugControl interface [Windows Debugging], SetSpecificFilterParameters method, IDebugControl2 interface [Windows Debugging], SetSpecificFilterParameters method, IDebugControl2::SetSpecificFilterParameters, IDebugControl3, IDebugControl3 interface [Windows Debugging], SetSpecificFilterParameters method, IDebugControl3::SetSpecificFilterParameters, IDebugControl::SetSpecificFilterParameters, IDebugControl_9bf01d08-9fc1-4ddf-b8dd-c6db0b568f83.xml, SetSpecificFilterParameters method [Windows Debugging], SetSpecificFilterParameters method [Windows Debugging], IDebugControl interface, SetSpecificFilterParameters method [Windows Debugging], IDebugControl2 interface, SetSpecificFilterParameters method [Windows Debugging], IDebugControl3 interface, SetSpecificFilterParameters,IDebugControl3.SetSpecificFilterParameters, dbgeng/IDebugControl2::SetSpecificFilterParameters, dbgeng/IDebugControl3::SetSpecificFilterParameters, dbgeng/IDebugControl::SetSpecificFilterParameters, debugger.setspecificfilterparameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -141,5 +141,5 @@ For more information about <a href="https://msdn.microsoft.com/library/windows/h
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl::SetSpecificFilterParameters method%20 RELEASE:%20(2/27/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl::SetSpecificFilterParameters method%20 RELEASE:%20(3/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

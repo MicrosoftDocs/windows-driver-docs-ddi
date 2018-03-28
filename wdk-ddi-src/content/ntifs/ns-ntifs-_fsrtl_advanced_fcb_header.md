@@ -230,24 +230,24 @@ A pointer to an initialized fast mutex that is used to synchronize access to the
 If present, the <b>PushLock</b> member is used to synchronize access to the <b>FilterContexts</b> member; otherwise, <b>FastMutex</b> is used.
 
 
-#### - FileContextSupportPointer
-
-A pointer to a pointer field used by the file system runtime library (FSRTL) package to track file contexts.  If not <b>NULL</b>, this member must be a pointer to a PVOID variable inside a per-file structure for the file system that created the structure.  If <b>NULL</b>, file contexts are not supported.  This member is only available starting with Windows Vista (that is, if the <b>Version</b> bit-field of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff547343">FSRTL_COMMON_FCB_HEADER</a> structure is greater than or equal to <b>FSRTL_FCB_HEADER_V1</b>).
-
-
 #### - FilterContexts
 
 A pointer to the head of a list of all context structures that are associated with the file. Filter drivers can search this list by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff546945">FsRtlLookupPerStreamContext</a> and modify it by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff546194">FsRtlInsertPerStreamContext</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff547238">FsRtlRemovePerStreamContext</a>. 
 
 
-#### - Oplock
-
-The oplock for the file or directory. This member is only available starting with Windows 8 (that is, if the <b>Version</b> bit-field of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff547343">FSRTL_COMMON_FCB_HEADER</a> structure is greater than or equal to <b>FSRTL_FCB_HEADER_V2</b>).
-
-
 #### - PushLock
 
 A push lock used to synchronize access to the <i>FilterContexts</i> list.  This member is only available starting with  Windows Vista (that is, if the <b>Version</b> bit-field of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff547343">FSRTL_COMMON_FCB_HEADER</a> structure is greater than or equal to <b>FSRTL_FCB_HEADER_V1</b>).
+
+
+#### - FileContextSupportPointer
+
+A pointer to a pointer field used by the file system runtime library (FSRTL) package to track file contexts.  If not <b>NULL</b>, this member must be a pointer to a PVOID variable inside a per-file structure for the file system that created the structure.  If <b>NULL</b>, file contexts are not supported.  This member is only available starting with Windows Vista (that is, if the <b>Version</b> bit-field of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff547343">FSRTL_COMMON_FCB_HEADER</a> structure is greater than or equal to <b>FSRTL_FCB_HEADER_V1</b>).
+
+
+#### - Oplock
+
+The oplock for the file or directory. This member is only available starting with Windows 8 (that is, if the <b>Version</b> bit-field of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff547343">FSRTL_COMMON_FCB_HEADER</a> structure is greater than or equal to <b>FSRTL_FCB_HEADER_V2</b>).
 
 
 #### - ReservedForRemote

@@ -69,14 +69,14 @@ Used to calculate the pipeline state size.
 
 
 
-#### - d3d12ddiarg_create_pipeline_state_0033 [in]
-
-Used to create a pipeline state.
-
-
 #### - hDevice
 
 The device being processed.
+
+
+#### - d3d12ddiarg_create_pipeline_state_0033 [in]
+
+Used to create a pipeline state.
 
 
 ## -returns

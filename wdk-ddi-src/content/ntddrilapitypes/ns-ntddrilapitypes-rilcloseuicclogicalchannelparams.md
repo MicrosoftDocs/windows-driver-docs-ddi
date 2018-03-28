@@ -7,7 +7,7 @@ old-location: netvista\rilcloseuicclogicalchannelparams.htm
 old-project: netvista
 ms.assetid: 0c06bcd7-d475-40b8-b997-fe65047db331
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*LPRILCLOSEUICCLOGICALCHANNELPARAMS, RILCLOSEUICCLOGICALCHANNELPARAMS, RILCLOSEUICCLOGICALCHANNELPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilcloseuicclogicalchannelparams, ntddrilapitypes/RILCLOSEUICCLOGICALCHANNELPARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices

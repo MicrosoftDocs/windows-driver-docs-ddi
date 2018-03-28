@@ -72,9 +72,9 @@ The <i>SetTextFilterSize</i> function sets the width and height of the monochrom
 
 
 
-#### - Height [in]
+#### - hDevice [in]
 
- The height of the monochrome convolution filter. The height can be from 1 to 7 texels.
+ A handle to the display device (graphics context).
 
 
 #### - Width [in]
@@ -82,9 +82,9 @@ The <i>SetTextFilterSize</i> function sets the width and height of the monochrom
  The width of the monochrome convolution filter. The width can be from 1 to 7 texels.
 
 
-#### - hDevice [in]
+#### - Height [in]
 
- A handle to the display device (graphics context).
+ The height of the monochrome convolution filter. The height can be from 1 to 7 texels.
 
 
 ## -returns

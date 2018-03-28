@@ -238,9 +238,19 @@ Reserved.
 Indicates the ANSI version of the inquiry data standard that this data conforms to. For more information about the version values allowed in this field, see the <i>SCSI Primary Commands - 2 (SPC-2)</i> specification. 
 
 
-#### - AckReqQ
+#### - ECMAVersion
 
-Indicates, when set to one, that the target supports a request and acknowledge data transfer handshake on the secondary bus. A value of zero indicates that the target does not support this function. 
+Indicates the ECMA version of the inquiry data standard that this data conforms to. For more information about the version values allowed in this field, see the <i>SCSI Primary Commands - 2 (SPC-2)</i> specification. 
+
+
+#### - ISOVersion
+
+Indicates the ISO version of the inquiry data standard that this data conforms to. For more information about the version values allowed in this field, see the <i>SCSI Primary Commands - 2 (SPC-2)</i> specification. 
+
+
+#### - TerminateTask
+
+Indicates, when set to one, that the target device supports the SCSI TERMINATE TASK task management function. A value of zero indicates that the target device does not support the TERMINATE TASK task management function. 
 
 
 #### - Addr16
@@ -253,19 +263,9 @@ Indicates, when set to one, that the target supports 16-bit wide SCSI addresses.
 Indicates, when set to one, that the target supports 32-bit wide SCSI addresses. A value of zero indicates that the device does not support 32-bit wide SCSI addresses. 
 
 
-#### - ECMAVersion
+#### - AckReqQ
 
-Indicates the ECMA version of the inquiry data standard that this data conforms to. For more information about the version values allowed in this field, see the <i>SCSI Primary Commands - 2 (SPC-2)</i> specification. 
-
-
-#### - EnclosureServices
-
-Indicates, when set to one, that the device contains an embedded enclosure services component. A value of zero indicates that the device does not contain an embedded enclosure services component. 
-
-
-#### - ISOVersion
-
-Indicates the ISO version of the inquiry data standard that this data conforms to. For more information about the version values allowed in this field, see the <i>SCSI Primary Commands - 2 (SPC-2)</i> specification. 
+Indicates, when set to one, that the target supports a request and acknowledge data transfer handshake on the secondary bus. A value of zero indicates that the target does not support this function. 
 
 
 #### - MediumChanger
@@ -283,14 +283,14 @@ Indicates, when set to one, that the target device is a multiport (2 or more por
 Reserved. 
 
 
+#### - EnclosureServices
+
+Indicates, when set to one, that the device contains an embedded enclosure services component. A value of zero indicates that the device does not contain an embedded enclosure services component. 
+
+
 #### - ReservedBit3
 
 Reserved. 
-
-
-#### - TerminateTask
-
-Indicates, when set to one, that the target device supports the SCSI TERMINATE TASK task management function. A value of zero indicates that the target device does not support the TERMINATE TASK task management function. 
 
 
 #### - TransferDisable

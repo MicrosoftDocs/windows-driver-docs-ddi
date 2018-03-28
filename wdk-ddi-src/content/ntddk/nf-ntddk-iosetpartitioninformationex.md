@@ -120,11 +120,19 @@ This routine must be called at IRQL = PASSIVE_LEVEL because it uses a kernel eve
 
 
 
+<<<<<<< HEAD
 <a href="..\ntdddisk\ns-ntdddisk-_set_partition_information.md">SET_PARTITION_INFORMATION</a>
 
 
 
 <a href="..\ntddk\nf-ntddk-ioreadpartitiontable.md">IoReadPartitionTable</a>
+=======
+<a href="..\ntddk\nf-ntddk-iowritepartitiontable.md">IoWritePartitionTable</a>
+
+
+
+<a href="..\ntdddisk\ns-ntdddisk-_set_partition_information_ex.md">SET_PARTITION_INFORMATION_EX</a>
+>>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
 
 
 
@@ -132,7 +140,11 @@ This routine must be called at IRQL = PASSIVE_LEVEL because it uses a kernel eve
 
 
 
+<<<<<<< HEAD
 <a href="..\ntddk\nf-ntddk-iowritepartitiontable.md">IoWritePartitionTable</a>
+=======
+<a href="..\ntdddisk\ns-ntdddisk-_set_partition_information.md">SET_PARTITION_INFORMATION</a>
+>>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
 
 
 

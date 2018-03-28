@@ -87,10 +87,10 @@ The kernel streaming subsystem uses the KSEVENT_ENTRY structure to describe how 
 ### -field Flags
 
 
-#### - BufferItem
-
-
 #### - DpcItem
+
+
+#### - BufferItem
 
 
 ## -remarks

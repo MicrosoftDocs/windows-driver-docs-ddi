@@ -76,14 +76,14 @@ A handle to the display device (graphics context).
 
 
 
-#### - pConfigCount [out]
-
-A pointer to a UINT value that specifies the maximum number of decoder configurations that are supported.
-
-
 #### - pDecodeDesc [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh450951">D3D11_1DDI_VIDEO_DECODER_DESC</a> structure that specifies the video decoder operation.
+
+
+#### - pConfigCount [out]
+
+A pointer to a UINT value that specifies the maximum number of decoder configurations that are supported.
 
 
 ## -returns

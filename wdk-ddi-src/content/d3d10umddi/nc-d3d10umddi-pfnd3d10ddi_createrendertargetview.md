@@ -80,9 +80,9 @@ The <b>CreateRenderTargetView</b> function creates a render target view.
  A handle to the display device (graphics context).
 
 
-#### - hRTRenderTargetView [in]
+#### - pCreateRenderTargetView [in]
 
- A handle to the render target view that the driver should use anytime it calls back into the Direct3D runtime. 
+ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541689">D3D10DDIARG_CREATERENDERTARGETVIEW</a> structure that describes the parameters that the user-mode display driver uses to create a render target view. 
 
 
 #### - hRenderTargetView [in]
@@ -90,9 +90,9 @@ The <b>CreateRenderTargetView</b> function creates a render target view.
  A handle to the driver's private data for the render target view. The driver returns the size, in bytes, of the memory region that the Microsoft Direct3D runtime must allocate for the private data from a call to the driver's <a href="https://msdn.microsoft.com/14d85e4a-960c-4438-9360-a4f2677603b8">CalcPrivateRenderTargetViewSize</a> function. The handle is really just a pointer to a region of memory, the size of which the driver requested. The driver uses this region of memory to store internal data structures that are related to its render target view object. 
 
 
-#### - pCreateRenderTargetView [in]
+#### - hRTRenderTargetView [in]
 
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541689">D3D10DDIARG_CREATERENDERTARGETVIEW</a> structure that describes the parameters that the user-mode display driver uses to create a render target view. 
+ A handle to the render target view that the driver should use anytime it calls back into the Direct3D runtime. 
 
 
 ## -returns

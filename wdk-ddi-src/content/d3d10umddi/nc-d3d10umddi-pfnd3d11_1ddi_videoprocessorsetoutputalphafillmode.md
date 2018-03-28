@@ -77,18 +77,6 @@ Sets the alpha fill mode for data that the video processor writes to the render 
 
 
 
-#### - FillMode [in]
-
-The alpha fill mode, specified as a <a href="https://msdn.microsoft.com/library/windows/hardware/hh450963">D3D11_1DDI_VIDEO_PROCESSOR_ALPHA_FILL_MODE</a> value. For more information, see the Remarks section.
-
-
-#### - StreamIndex [in]
-
-The zero-based index of an input stream. This parameter is used if the <i>AlphaFillMode</i> parameter is set to <b>D3D11_1DDI_VIDEO_PROCESSOR_ALPHA_FILL_MODE_SOURCE_STREAM</b>. Otherwise, the parameter is ignored.
-
-
-
-
 #### - hDevice [in]
 
 A handle to the display device (graphics context).
@@ -99,6 +87,18 @@ A handle to the display device (graphics context).
 #### - hVideoProcessor [in]
 
 A handle to the video processor object that was created through a call to the <a href="https://msdn.microsoft.com/741045a2-0a91-490a-907d-5f4900a4a0ae">CreateVideoProcessor</a> function. 
+
+
+
+
+#### - FillMode [in]
+
+The alpha fill mode, specified as a <a href="https://msdn.microsoft.com/library/windows/hardware/hh450963">D3D11_1DDI_VIDEO_PROCESSOR_ALPHA_FILL_MODE</a> value. For more information, see the Remarks section.
+
+
+#### - StreamIndex [in]
+
+The zero-based index of an input stream. This parameter is used if the <i>AlphaFillMode</i> parameter is set to <b>D3D11_1DDI_VIDEO_PROCESSOR_ALPHA_FILL_MODE_SOURCE_STREAM</b>. Otherwise, the parameter is ignored.
 
 
 

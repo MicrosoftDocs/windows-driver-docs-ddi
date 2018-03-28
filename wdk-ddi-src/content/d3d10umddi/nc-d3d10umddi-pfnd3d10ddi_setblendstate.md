@@ -75,11 +75,6 @@ The <i>SetBlendState</i> function sets a blend state.
 
 
 
-#### - SampleMask [in]
-
- A sample format mask.
-
-
 #### - hDevice [in]
 
  A handle to the display device (graphics context).
@@ -93,6 +88,11 @@ The <i>SetBlendState</i> function sets a blend state.
 #### - pBlendFactor [in]
 
  A four-element array of single-precision float vectors that the driver uses to set the blend state.
+
+
+#### - SampleMask [in]
+
+ A sample format mask.
 
 
 ## -returns

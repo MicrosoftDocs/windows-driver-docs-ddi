@@ -125,6 +125,7 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/hh451552">SetVi
 
 ## -see-also
 
+<<<<<<< HEAD
 <a href="..\wdm\nc-wdm-get_set_device_data.md">SetBusData</a>
 
 
@@ -134,6 +135,17 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/hh451552">SetVi
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451143">GUID_PCI_VIRTUALIZATION_INTERFACE</a>
+=======
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451143">GUID_PCI_VIRTUALIZATION_INTERFACE</a>
+
+
+
+<a href="..\wdm\nc-wdm-get_set_device_data.md">SetBusData</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406642">PCI_VIRTUALIZATION_INTERFACE</a>
+>>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
 
 
 

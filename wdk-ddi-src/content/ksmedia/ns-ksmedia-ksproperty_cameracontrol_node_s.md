@@ -197,11 +197,15 @@ See related information about the <a href="https://msdn.microsoft.com/84b5302d-c
 
 ## -see-also
 
-<a href="..\ksmedia\ns-ksmedia-ksproperty_cameracontrol_s.md">KSPROPERTY_CAMERACONTROL_S</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
 
 
 
+<<<<<<< HEAD
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567802">PROPSETID_VIDCAP_CAMERACONTROL</a>
+=======
+<a href="..\ksmedia\ns-ksmedia-ksproperty_cameracontrol_s.md">KSPROPERTY_CAMERACONTROL_S</a>
+>>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
 
 
 

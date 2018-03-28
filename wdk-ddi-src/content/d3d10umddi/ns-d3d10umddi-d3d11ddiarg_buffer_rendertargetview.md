@@ -59,17 +59,12 @@ The D3D11DDIARG_BUFFER_RENDERTARGETVIEW structure describes a buffer that is use
 
 
 
-#### - ElementOffset
+#### - FirstElement
 
 [in] The offset, in bytes, to the first element in the buffer. 
 
 
-#### - ElementWidth
-
-[in] The width, in elements, in the buffer. 
-
-
-#### - FirstElement
+#### - ElementOffset
 
 [in] The offset, in bytes, to the first element in the buffer. 
 
@@ -77,6 +72,11 @@ The D3D11DDIARG_BUFFER_RENDERTARGETVIEW structure describes a buffer that is use
 #### - NumElements
 
 [in] The number of elements in the buffer. 
+
+
+#### - ElementWidth
+
+[in] The width, in elements, in the buffer. 
 
 
 ## -see-also

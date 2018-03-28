@@ -69,14 +69,14 @@ The <b>CommandListExecute</b> function runs a command list.
 
 
 
-#### - hCommandList [in]
-
- A handle to the driver's private data for the command list to run. 
-
-
 #### - hDevice [in]
 
  A handle to the display device (graphics context).
+
+
+#### - hCommandList [in]
+
+ A handle to the driver's private data for the command list to run. 
 
 
 ## -returns

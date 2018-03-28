@@ -75,24 +75,24 @@ The <b>CreateBlendState</b> function creates a blend state.
 
 
 
-#### - hBlendState [in]
-
- A handle to the driver's private data for the blend state. The driver returns the size, in bytes, of the memory region that the Microsoft Direct3D runtime must allocate for the private data from a call to the driver's <a href="https://msdn.microsoft.com/c13862b0-3136-4a95-bb00-6057f2934068">CalcPrivateBlendStateSize</a> function. The handle is really just a pointer to a region of memory, the size of which the driver requested. The driver uses this region of memory to store internal data structures that are related to its blend state object. 
-
-
 #### - hDevice [in]
 
  A handle to the display device (graphics context).
 
 
-#### - hRTBlendState [in]
-
- A handle to the blend state that the driver should use anytime it calls back into the Direct3D runtime. 
-
-
 #### - pBlendDesc [in]
 
  A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541919">D3D10_DDI_BLEND_DESC</a> structure that describes the parameters that the user-mode display driver uses to create a blend state. 
+
+
+#### - hBlendState [in]
+
+ A handle to the driver's private data for the blend state. The driver returns the size, in bytes, of the memory region that the Microsoft Direct3D runtime must allocate for the private data from a call to the driver's <a href="https://msdn.microsoft.com/c13862b0-3136-4a95-bb00-6057f2934068">CalcPrivateBlendStateSize</a> function. The handle is really just a pointer to a region of memory, the size of which the driver requested. The driver uses this region of memory to store internal data structures that are related to its blend state object. 
+
+
+#### - hRTBlendState [in]
+
+ A handle to the blend state that the driver should use anytime it calls back into the Direct3D runtime. 
 
 
 ## -returns

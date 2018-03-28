@@ -7,7 +7,7 @@ old-location: netvista\ndis_frame_header.htm
 old-project: netvista
 ms.assetid: 8897ae0c-6068-4fea-8944-1340595dbff3
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*PNDIS_FRAME_HEADER, NDIS_FRAME_HEADER, NDIS_FRAME_HEADER enumeration [Network Drivers Starting with Windows Vista], NdisFrameHeaderArp, NdisFrameHeaderIPv4, NdisFrameHeaderIPv6, NdisFrameHeaderMac, NdisFrameHeaderMaximum, NdisFrameHeaderUdp, NdisFrameHeaderUndefined, PNDIS_FRAME_HEADER, PNDIS_FRAME_HEADER enumeration pointer [Network Drivers Starting with Windows Vista], _NDIS_FRAME_HEADER, netvista.ndis_frame_header, ntddndis/NDIS_FRAME_HEADER, ntddndis/NdisFrameHeaderArp, ntddndis/NdisFrameHeaderIPv4, ntddndis/NdisFrameHeaderIPv6, ntddndis/NdisFrameHeaderMac, ntddndis/NdisFrameHeaderMaximum, ntddndis/NdisFrameHeaderUdp, ntddndis/NdisFrameHeaderUndefined, ntddndis/PNDIS_FRAME_HEADER, virtual_machine_queue_ref_0ee94de6-7791-4a6e-b3da-2c8639843130.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -116,5 +116,5 @@ The NDIS_FRAME_HEADER enumeration is used in the
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_FRAME_HEADER enumeration%20 RELEASE:%20(2/27/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_FRAME_HEADER enumeration%20 RELEASE:%20(3/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

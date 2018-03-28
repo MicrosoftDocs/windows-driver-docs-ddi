@@ -1016,6 +1016,7 @@ If the file name path that is passed to <b>IoCreateFileSpecifyDeviceObjectHint</
 
 ## -see-also
 
+<<<<<<< HEAD
 <a href="..\wdm\nf-wdm-zwsetinformationfile.md">ZwSetInformationFile</a>
 
 
@@ -1041,6 +1042,33 @@ If the file name path that is passed to <b>IoCreateFileSpecifyDeviceObjectHint</
 
 
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+=======
+<a href="..\wdm\nf-wdm-iocreatefile.md">IoCreateFile</a>
+
+
+
+<a href="..\wdm\ns-wdm-_file_full_ea_information.md">FILE_FULL_EA_INFORMATION</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwqueryinformationfile.md">ZwQueryInformationFile</a>
+
+
+
+<a href="..\ntddk\ns-ntddk-_io_driver_create_context.md">IO_DRIVER_CREATE_CONTEXT</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-iocheckeabuffervalidity.md">IoCheckEaBufferValidity</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwwritefile.md">ZwWriteFile</a>
+>>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
 
 
 
@@ -1048,6 +1076,7 @@ If the file name path that is passed to <b>IoCreateFileSpecifyDeviceObjectHint</
 
 
 
+<<<<<<< HEAD
 <a href="..\ntddk\ns-ntddk-_io_driver_create_context.md">IO_DRIVER_CREATE_CONTEXT</a>
 
 
@@ -1061,18 +1090,41 @@ If the file name path that is passed to <b>IoCreateFileSpecifyDeviceObjectHint</
 
 
 <a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>
+=======
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 
 
-<a href="..\wdm\nf-wdm-zwwritefile.md">ZwWriteFile</a>
+<a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>
 
 
 
+<a href="..\ntddk\nf-ntddk-iocreatefileex.md">IoCreateFileEx</a>
+
+
+
+<a href="..\wdm\ns-wdm-_acl.md">ACL</a>
+>>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
+
+
+
+<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
+
+
+
+<<<<<<< HEAD
 <a href="..\wdm\ns-wdm-_file_full_ea_information.md">FILE_FULL_EA_INFORMATION</a>
 
 
 
 <a href="..\ntddk\nf-ntddk-iocreatefileex.md">IoCreateFileEx</a>
+=======
+<a href="..\wdm\nf-wdm-zwsetinformationfile.md">ZwSetInformationFile</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
+>>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
 
 
 

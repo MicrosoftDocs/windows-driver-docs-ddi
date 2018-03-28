@@ -83,11 +83,6 @@ An array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff56923
 The number of rectangles in the array that the  <i>pRect</i> parameter specifies.
 
 
-#### - Color
-
-A 4-component array that represents the color to use to clear the resource view. For more details, see the Remarks section.
-
-
 #### - HandleType
 
 A value, of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff542152">D3D11DDI_HANDLETYPE</a>, that identifies the view handle type that supports this clear operation. Possible types are the following.
@@ -97,6 +92,11 @@ A value, of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff
 <li><b>D3D11DDI_HT_UNORDEREDACCESSVIEW</b></li>
 <li>Any <b>D3D11_1DDI_HT_VIDEOXXX</b> type</li>
 </ul>
+
+#### - Color
+
+A 4-component array that represents the color to use to clear the resource view. For more details, see the Remarks section.
+
 
 ## -returns
 

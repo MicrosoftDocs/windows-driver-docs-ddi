@@ -72,6 +72,16 @@ A reference to a sensor object.
 
 
 
+#### - Request [in]
+
+A handle to a framework request object that represents the I/O request.
+
+
+#### - OutputBufferLength [in]
+
+The length of the output buffer (in bytes).
+
+
 #### - InputBufferLength [in]
 
 The length of the input buffer (in bytes).
@@ -80,16 +90,6 @@ The length of the input buffer (in bytes).
 #### - IoControlCode [in]
 
 The code that indicates which device I/O control function is to be executed.
-
-
-#### - OutputBufferLength [in]
-
-The length of the output buffer (in bytes).
-
-
-#### - Request [in]
-
-A handle to a framework request object that represents the I/O request.
 
 
 ## -returns

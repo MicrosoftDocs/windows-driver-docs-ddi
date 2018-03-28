@@ -290,6 +290,11 @@ Supported starting with Windows 8.1.
 [out] Indicates the maximum number of updates to a single plane can be made within a single VSYNC period, where the most recent update overrides the previous update.
 
 
+#### - GammaRampCaps
+
+[out] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff561071">DXGK_GAMMARAMPCAPS</a> structure that identifies the gamma-ramp capabilities, in bit-field flags, that the driver can support.
+
+
 #### - ColorTransformCaps
 
 Flags to describe gamma and colorspace transform capabilities of the display pipelines.
@@ -297,19 +302,14 @@ Flags to describe gamma and colorspace transform capabilities of the display pip
 <div class="alert"><b>Note</b>  This field replaces the GammaRampCaps in the pre-WDDM 2.2 version of this structure.</div>
 <div> </div>
 
-#### - DmaBufferCaps
+#### - VirtualAddressCaps
 
 [out] This member is reserved and should be set to zero.
 
 Supported starting with Windows 7.
 
 
-#### - GammaRampCaps
-
-[out] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff561071">DXGK_GAMMARAMPCAPS</a> structure that identifies the gamma-ramp capabilities, in bit-field flags, that the driver can support.
-
-
-#### - VirtualAddressCaps
+#### - DmaBufferCaps
 
 [out] This member is reserved and should be set to zero.
 

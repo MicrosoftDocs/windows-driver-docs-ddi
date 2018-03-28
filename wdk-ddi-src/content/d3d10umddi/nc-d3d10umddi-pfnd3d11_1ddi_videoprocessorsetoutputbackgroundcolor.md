@@ -75,13 +75,6 @@ Sets the background color for the video processor.
 
 
 
-#### - YCbCr [in]
-
-If <b>TRUE</b>, the background color that is specified by the <i>pColor</i> parameter is a YCbCr value. Otherwise, the background color is specified as an RGBA value.
-
-
-
-
 #### - hDevice [in]
 
 A handle to the display device (graphics context).
@@ -92,6 +85,13 @@ A handle to the display device (graphics context).
 #### - hVideoProcessor [in]
 
 A handle to the video processor object that was created through a call to the <a href="https://msdn.microsoft.com/741045a2-0a91-490a-907d-5f4900a4a0ae">CreateVideoProcessor</a> function. 
+
+
+
+
+#### - YCbCr [in]
+
+If <b>TRUE</b>, the background color that is specified by the <i>pColor</i> parameter is a YCbCr value. Otherwise, the background color is specified as an RGBA value.
 
 
 

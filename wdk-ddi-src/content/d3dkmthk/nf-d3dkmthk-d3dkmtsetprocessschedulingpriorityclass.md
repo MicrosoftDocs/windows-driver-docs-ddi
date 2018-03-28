@@ -67,14 +67,14 @@ TBD
 
 
 
-#### - Priority [in]
-
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff548248">D3DKMT_SCHEDULINGPRIORITYCLASS</a>-typed value that indicates the priority level to set for the process.
-
-
 #### - hProcess [in]
 
 A handle to the process that scheduling priority is set for.
+
+
+#### - Priority [in]
+
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff548248">D3DKMT_SCHEDULINGPRIORITYCLASS</a>-typed value that indicates the priority level to set for the process.
 
 
 ## -returns

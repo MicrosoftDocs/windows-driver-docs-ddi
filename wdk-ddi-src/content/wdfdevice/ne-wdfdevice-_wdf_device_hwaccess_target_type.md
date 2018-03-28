@@ -84,10 +84,10 @@ The <b>WDF_DEVICE_HWACCESS_TARGET_SIZE</b> enumeration is used internally by the
 #### - WdfDeviceHwAccessTargetSizeInvalid
 
 
-#### - WdfDeviceHwAccessTargetSizeMaximum
-
-
 #### - WdfDeviceHwAccessTargetSizeUchar
+
+
+#### - WdfDeviceHwAccessTargetSizeUshort
 
 
 #### - WdfDeviceHwAccessTargetSizeUlong
@@ -96,7 +96,7 @@ The <b>WDF_DEVICE_HWACCESS_TARGET_SIZE</b> enumeration is used internally by the
 #### - WdfDeviceHwAccessTargetSizeUlong64
 
 
-#### - WdfDeviceHwAccessTargetSizeUshort
+#### - WdfDeviceHwAccessTargetSizeMaximum
 
 
 ## -see-also

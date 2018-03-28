@@ -88,14 +88,14 @@ Determines whether the driver has published a device interface is GUID.
 A <a href="https://msdn.microsoft.com/library/windows/hardware/mt187990">USBFN_CLASS_INTERFACE</a> structure that describes an interface for SuperSpeed device.
 
 
-#### - InterfaceGuid[MAX_INTERFACE_GUID_LENGTH]
-
-A string from which the driver can derive the device interface GUID.
-
-
 #### - InterfaceName[MAX_INTERFACE_NAME_LENGTH]
 
 A string that contains the interface name.
+
+
+#### - InterfaceGuid[MAX_INTERFACE_GUID_LENGTH]
+
+A string from which the driver can derive the device interface GUID.
 
 
 ## -see-also

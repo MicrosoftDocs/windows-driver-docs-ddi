@@ -97,14 +97,14 @@ Indicates if the user matched.
 
 
 
-#### - KeywordEndPerformanceCounter [out]
-
-Optionally returns the end time of the keyword in terms of the Windows performance counter. The OEMDLL should return 0 if this is not available.
-
-
 #### - KeywordStartPerformanceCounter [out]
 
 Optionally returns the start time of the keyword in terms of the Windows performance counter. The OEMDLL should return 0 if this is not available.
+
+
+#### - KeywordEndPerformanceCounter [out]
+
+Optionally returns the end time of the keyword in terms of the Windows performance counter. The OEMDLL should return 0 if this is not available.
 
 
 ## -returns

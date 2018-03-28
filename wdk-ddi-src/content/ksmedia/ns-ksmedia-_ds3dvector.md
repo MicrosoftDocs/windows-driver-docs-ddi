@@ -59,24 +59,14 @@ The DS3DVECTOR structure contains three-dimensional position coordinates, positi
 
 
 
-#### - dvX
-
-Specifies the x-component of the vector.
-
-
-#### - dvY
-
-Specifies the y-component of the vector.
-
-
-#### - dvZ
-
-Specifies the z-component of the vector.
-
-
 #### - x
 
 Specifies the x-coordinate of the position.
+
+
+#### - dvX
+
+Specifies the x-component of the vector.
 
 
 #### - y
@@ -84,9 +74,19 @@ Specifies the x-coordinate of the position.
 Specifies the y-coordinate of the position.
 
 
+#### - dvY
+
+Specifies the y-component of the vector.
+
+
 #### - z
 
 Specifies the z-coordinate of the position.
+
+
+#### - dvZ
+
+Specifies the z-component of the vector.
 
 
 ## -see-also

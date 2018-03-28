@@ -75,6 +75,11 @@ The <b>CheckMultisampleQualityLevels</b> function retrieves the number of qualit
 
 
 
+#### - hDevice [in]
+
+ A handle to the display device (graphics context).
+
+
 #### - Format [in]
 
  A DXGI_FORMAT-typed value that indicates the render-target format that the check is performed for. 
@@ -83,11 +88,6 @@ The <b>CheckMultisampleQualityLevels</b> function retrieves the number of qualit
 #### - SampleCount [in]
 
  The number of samples to retrieve the quality levels for. 
-
-
-#### - hDevice [in]
-
- A handle to the display device (graphics context).
 
 
 #### - pNumQualityLevels [out]

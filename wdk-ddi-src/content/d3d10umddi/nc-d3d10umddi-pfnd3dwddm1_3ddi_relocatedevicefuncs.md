@@ -71,14 +71,14 @@ Implemented by Windows Display Driver Model (WDDM) 1.3 and later user-mode displ
 
 
 
-#### - DeviceFuncs [in]
-
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn458988">D3DWDDM1_3DDI_DEVICEFUNCS</a> structure that contains pointers to the functions of the user-mode display driver.
-
-
 #### - hDevice
 
 A handle to the display device (graphics context).
+
+
+#### - DeviceFuncs [in]
+
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn458988">D3DWDDM1_3DDI_DEVICEFUNCS</a> structure that contains pointers to the functions of the user-mode display driver.
 
 
 ## -returns

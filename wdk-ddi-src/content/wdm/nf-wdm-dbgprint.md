@@ -134,11 +134,15 @@ There is no upper limit to the size of the <i>Format</i> string or the number of
 
 ## -see-also
 
+<<<<<<< HEAD
 <a href="..\wdm\nf-wdm-dbgprintex.md">DbgPrintEx</a>
-
-
-
+=======
 <a href="..\wdm\nf-wdm-kdprintex.md">KdPrintEx</a>
+>>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
+
+
+
+<a href="..\wdm\nf-wdm-kdprint.md">KdPrint</a>
 
 
 

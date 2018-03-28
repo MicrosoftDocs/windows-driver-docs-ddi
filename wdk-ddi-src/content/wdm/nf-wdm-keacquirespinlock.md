@@ -73,14 +73,14 @@ TBD
 
 
 
-#### - OldIrql [out]
-
-Pointer to a variable that is set to the current IRQL when this call occurs.
-
-
 #### - SpinLock [in]
 
 Pointer to an initialized spin lock for which the caller provides the storage.
+
+
+#### - OldIrql [out]
+
+Pointer to a variable that is set to the current IRQL when this call occurs.
 
 
 ## -remarks

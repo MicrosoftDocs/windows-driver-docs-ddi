@@ -7,7 +7,7 @@ old-location: netvista\ndis_tcp_large_send_offload_v1.htm
 old-project: netvista
 ms.assetid: 3e26b6ae-15e1-41d5-b00d-3e09c1534413
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*PNDIS_TCP_LARGE_SEND_OFFLOAD_V1, NDIS_TCP_LARGE_SEND_OFFLOAD_V1, NDIS_TCP_LARGE_SEND_OFFLOAD_V1 structure [Network Drivers Starting with Windows Vista], PNDIS_TCP_LARGE_SEND_OFFLOAD_V1, PNDIS_TCP_LARGE_SEND_OFFLOAD_V1 structure pointer [Network Drivers Starting with Windows Vista], _NDIS_TCP_LARGE_SEND_OFFLOAD_V1, netvista.ndis_tcp_large_send_offload_v1, ntddndis/NDIS_TCP_LARGE_SEND_OFFLOAD_V1, ntddndis/PNDIS_TCP_LARGE_SEND_OFFLOAD_V1, tcpip_offload_ref_2a3bb0f8-f05b-462f-984d-774f607ee0da.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -222,5 +222,5 @@ The values in the
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_TCP_LARGE_SEND_OFFLOAD_V1 structure%20 RELEASE:%20(2/27/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_TCP_LARGE_SEND_OFFLOAD_V1 structure%20 RELEASE:%20(3/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

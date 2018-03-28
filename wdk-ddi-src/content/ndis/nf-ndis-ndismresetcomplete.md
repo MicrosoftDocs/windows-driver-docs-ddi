@@ -7,7 +7,7 @@ old-location: netvista\ndismresetcomplete.htm
 old-project: netvista
 ms.assetid: 3da12a14-a90a-46a6-b67e-55044fdc3ca1
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: NdisMResetComplete, NdisMResetComplete function [Network Drivers Starting with Windows Vista], miniport_ndis_functions_ref_cea3e0dd-c6cb-49a7-86e3-68b779a355d2.xml, ndis/NdisMResetComplete, netvista.ndismresetcomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -79,6 +79,17 @@ TBD
 
 
 
+#### - MiniportAdapterHandle [in]
+
+The miniport adapter handle that NDIS originally passed to the 
+     <a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a> function.
+
+
+#### - Status [in]
+
+The final status of the reset operation just completed
+
+
 #### - AddressingReset [in]
 
 A Boolean value that is <b>TRUE</b> if NDIS is responsible for restoring the settings for multicast
@@ -94,17 +105,6 @@ If
 
 For more information, see 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff546572">Hardware Reset</a>.
-
-
-#### - MiniportAdapterHandle [in]
-
-The miniport adapter handle that NDIS originally passed to the 
-     <a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a> function.
-
-
-#### - Status [in]
-
-The final status of the reset operation just completed
 
 
 ## -remarks
@@ -154,5 +154,5 @@ In NDIS 6.0 and later, callers of
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisMResetComplete function%20 RELEASE:%20(2/27/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisMResetComplete function%20 RELEASE:%20(3/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

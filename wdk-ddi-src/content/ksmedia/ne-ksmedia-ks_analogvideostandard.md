@@ -207,11 +207,19 @@ You can combine the values in the KS_AnalogVideoStandard enumeration with a bitw
 
 
 
+<<<<<<< HEAD
 <a href="..\ksmedia\ns-ksmedia-_ks_video_stream_config_caps.md">KS_VIDEO_STREAM_CONFIG_CAPS</a>
 
 
 
 <a href="..\ksmedia\ns-ksmedia-ksproperty_tuner_standard_s.md">KSPROPERTY_TUNER_STANDARD_S</a>
+=======
+<a href="..\ksmedia\ns-ksmedia-tagks_vbiinfoheader.md">KS_VBIINFOHEADER</a>
+
+
+
+<a href="..\ksmedia\ns-ksmedia-ksproperty_videodecoder_caps_s.md">KSPROPERTY_VIDEODECODER_CAPS_S</a>
+>>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
 
 
 
@@ -219,11 +227,15 @@ You can combine the values in the KS_AnalogVideoStandard enumeration with a bitw
 
 
 
+<<<<<<< HEAD
 <a href="..\ksmedia\ns-ksmedia-tagks_vbiinfoheader.md">KS_VBIINFOHEADER</a>
+=======
+<a href="..\ksmedia\ns-ksmedia-ksproperty_tuner_standard_s.md">KSPROPERTY_TUNER_STANDARD_S</a>
+>>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
 
 
 
-<a href="..\ksmedia\ns-ksmedia-ksproperty_videodecoder_caps_s.md">KSPROPERTY_VIDEODECODER_CAPS_S</a>
+<a href="..\ksmedia\ns-ksmedia-tagks_tvtuner_change_info.md">KS_TVTUNER_CHANGE_INFO</a>
 
 
 

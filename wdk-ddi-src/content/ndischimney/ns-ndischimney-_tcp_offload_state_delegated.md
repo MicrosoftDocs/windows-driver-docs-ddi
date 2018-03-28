@@ -7,7 +7,7 @@ old-location: netvista\tcp_offload_state_delegated.htm
 old-project: netvista
 ms.assetid: ab16cfa1-24f6-434a-a687-07e19172f185
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*PTCP_OFFLOAD_STATE_DELEGATED, PTCP_OFFLOAD_STATE_DELEGATED, PTCP_OFFLOAD_STATE_DELEGATED structure pointer [Network Drivers Starting with Windows Vista], TCP_OFFLOAD_STATE_DELEGATED, TCP_OFFLOAD_STATE_DELEGATED structure [Network Drivers Starting with Windows Vista], _TCP_OFFLOAD_STATE_DELEGATED, ndischimney/PTCP_OFFLOAD_STATE_DELEGATED, ndischimney/TCP_OFFLOAD_STATE_DELEGATED, netvista.tcp_offload_state_delegated, tcp_chim_struct_e835c163-e154-4b9c-b1bb-b658376fd89d.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -356,29 +356,6 @@ This variable is used only in an initiate offload or terminate offload operation
 
 
 
-#### - BufferedData
-
-A pointer to buffered receive data. The host stack can pass such data to the offload target when
-      offloading a TCP connection. (For more information, see 
-      <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/handling-buffered-receive-data-during-and-after-an-offload-operation">Handling Buffered Receive Data During and After an Offload Operation</a>.) The
-      offload target can pass such data to the host stack when uploading a TCP connection. (For more
-      information, see 
-      <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/push-timer">Handling Buffered Receive Data During a Terminate Offload Operation</a>.)
-
-
-#### - ReceiveBacklogSize
-
-The offload target specifies this value to indicate the number of receive data bytes that are
-      buffered in the offload target for the offloaded TCP connection. The host stack can query the TCP
-      delegated state for the connection to obtain this value. The host stack uses this value to post one or
-      more receive requests on the connection that are large enough to hold all of the buffered data.
-      
-
-If the offload target does not support the receive backlog size feature, it should write a value of
-      0xFFFFFFFF to 
-      <b>ReceiveBacklogSize</b> .
-
-
 #### - SendBacklogSize
 
 The offload target specifies this value to indicate the number of data bytes that the host stack
@@ -400,6 +377,29 @@ If the offload target does not support the send-backlog-size feature, it must wr
        0xFFFFFFFF to 
        <b>SendBacklogSize</b> when the TCP-delegated state for the connection is queried. The 
        <b>SendBacklogSize</b> variable is not used in the terminate offload operation.
+
+
+#### - BufferedData
+
+A pointer to buffered receive data. The host stack can pass such data to the offload target when
+      offloading a TCP connection. (For more information, see 
+      <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/handling-buffered-receive-data-during-and-after-an-offload-operation">Handling Buffered Receive Data During and After an Offload Operation</a>.) The
+      offload target can pass such data to the host stack when uploading a TCP connection. (For more
+      information, see 
+      <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/push-timer">Handling Buffered Receive Data During a Terminate Offload Operation</a>.)
+
+
+#### - ReceiveBacklogSize
+
+The offload target specifies this value to indicate the number of receive data bytes that are
+      buffered in the offload target for the offloaded TCP connection. The host stack can query the TCP
+      delegated state for the connection to obtain this value. The host stack uses this value to post one or
+      more receive requests on the connection that are large enough to hold all of the buffered data.
+      
+
+If the offload target does not support the receive backlog size feature, it should write a value of
+      0xFFFFFFFF to 
+      <b>ReceiveBacklogSize</b> .
 
 
 ## -remarks
@@ -459,5 +459,5 @@ When passed to an offload target, a TCP_OFFLOAD_STATE_DELEGATED structure is ass
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20TCP_OFFLOAD_STATE_DELEGATED structure%20 RELEASE:%20(2/27/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20TCP_OFFLOAD_STATE_DELEGATED structure%20 RELEASE:%20(3/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

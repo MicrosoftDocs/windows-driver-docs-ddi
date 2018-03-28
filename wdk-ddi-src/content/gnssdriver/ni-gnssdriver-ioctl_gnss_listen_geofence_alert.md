@@ -46,11 +46,6 @@ req.typenames: GNSS_SUPL_CERT_ACTION
 # IOCTL_GNSS_LISTEN_GEOFENCE_ALERT IOCTL
 
 
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
-
 ## -description
 
 
@@ -139,7 +134,11 @@ This IO request is kept pending until an alert is received from the GNSS engine.
 
 ## -see-also
 
+<<<<<<< HEAD
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff542894">Creating IOCTL Requests in Drivers</a>
+=======
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
+>>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
 
 
 
@@ -151,7 +150,11 @@ This IO request is kept pending until an alert is received from the GNSS engine.
 
 
 
+<<<<<<< HEAD
 <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
+=======
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
+>>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
 
 
 

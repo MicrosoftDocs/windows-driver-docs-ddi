@@ -104,9 +104,9 @@ The <b>Status</b> member is set to one of the following values:
 
 
 
-#### -STATUS_BUFFER_TOO_SMALL
+#### -STATUS_SUCCESS
 
-The <b>Parameters.DeviceIoControl.OutputBufferLength</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550694">IRP</a> is less than the size, in bytes, of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543876">PMI_EVENT</a> structure. 
+The WDM driver that supports the PMI interface has completed the IOCTL request successfully.
 
 
 #### -STATUS_PENDING
@@ -114,9 +114,9 @@ The <b>Parameters.DeviceIoControl.OutputBufferLength</b> member of the <a href="
 The WDM driver that supports the PMI interface has put the IOCTL request in a queue and will complete it after a PMI event occurs. 
 
 
-#### -STATUS_SUCCESS
+#### -STATUS_BUFFER_TOO_SMALL
 
-The WDM driver that supports the PMI interface has completed the IOCTL request successfully.
+The <b>Parameters.DeviceIoControl.OutputBufferLength</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550694">IRP</a> is less than the size, in bytes, of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543876">PMI_EVENT</a> structure. 
 
 
 ## -remarks

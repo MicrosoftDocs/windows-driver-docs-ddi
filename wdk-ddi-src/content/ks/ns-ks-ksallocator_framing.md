@@ -77,69 +77,6 @@ Specifies the total size of the frame, including prefix and postfix. Zero indica
 Reserved for system use. Set to zero.
 
 
-#### - FileAlignment
-
-A value of type ULONG that describes the byte alignment to use when allocating frames. The following table describes several possible alignment values.
-
-<table>
-<tr>
-<th>Value</th>
-<th>Description</th>
-</tr>
-<tr>
-<td>
-FILE_BYTE_ALIGNMENT
-
-</td>
-<td>
-1-byte alignment
-
-</td>
-</tr>
-<tr>
-<td>
-FILE_WORD_ALIGNMENT
-
-</td>
-<td>
-2-byte alignment
-
-</td>
-</tr>
-<tr>
-<td>
-FILE_LONG_ALIGNMENT
-
-</td>
-<td>
-4-byte alignment
-
-</td>
-</tr>
-<tr>
-<td>
-FILE_32_BYTE_ALIGNMENT
-
-</td>
-<td>
-32-byte alignment
-
-</td>
-</tr>
-<tr>
-<td>
-FILE_64_BYTE_ALIGNMENT
-
-</td>
-<td>
-64-byte alignment
-
-</td>
-</tr>
-</table>
- 
-
-
 #### - OptionsFlags
 
 Specifies the allocator option flags specified during allocator creation for the connection point. The <b>OptionsFlags</b> member can contain one of the following values.
@@ -229,6 +166,69 @@ KSALLOCATOR_REQUIREMENTF_PREFERENCES_ONLY
 </td>
 <td>
 Indicates that the Requirements flags are preferences only and the connection point is able to allocate frames that do not meet those specifications.
+
+</td>
+</tr>
+</table>
+ 
+
+
+#### - FileAlignment
+
+A value of type ULONG that describes the byte alignment to use when allocating frames. The following table describes several possible alignment values.
+
+<table>
+<tr>
+<th>Value</th>
+<th>Description</th>
+</tr>
+<tr>
+<td>
+FILE_BYTE_ALIGNMENT
+
+</td>
+<td>
+1-byte alignment
+
+</td>
+</tr>
+<tr>
+<td>
+FILE_WORD_ALIGNMENT
+
+</td>
+<td>
+2-byte alignment
+
+</td>
+</tr>
+<tr>
+<td>
+FILE_LONG_ALIGNMENT
+
+</td>
+<td>
+4-byte alignment
+
+</td>
+</tr>
+<tr>
+<td>
+FILE_32_BYTE_ALIGNMENT
+
+</td>
+<td>
+32-byte alignment
+
+</td>
+</tr>
+<tr>
+<td>
+FILE_64_BYTE_ALIGNMENT
+
+</td>
+<td>
+64-byte alignment
 
 </td>
 </tr>

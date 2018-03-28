@@ -7,7 +7,7 @@ old-location: netvista\wwan_pin_info.htm
 old-project: netvista
 ms.assetid: 0711645f-791b-4643-95c3-604ecce2a5ed
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*PWWAN_PIN_INFO, PWWAN_PIN_INFO, PWWAN_PIN_INFO structure pointer [Network Drivers Starting with Windows Vista], WWAN_PIN_INFO, WWAN_PIN_INFO structure [Network Drivers Starting with Windows Vista], WwanRef_aae7d248-25b1-465b-9314-66a16aca4993.xml, _WWAN_PIN_INFO, netvista.wwan_pin_info, wwan/PWWAN_PIN_INFO, wwan/WWAN_PIN_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -96,5 +96,5 @@ The number of attempts that remain for any pin-related operations such as enter,
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20WWAN_PIN_INFO structure%20 RELEASE:%20(2/27/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20WWAN_PIN_INFO structure%20 RELEASE:%20(3/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

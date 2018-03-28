@@ -75,6 +75,11 @@ TBD
 
 
 
+#### - VNetRoot [in, out, optional]
+
+A pointer to the V_NET_ROOT structure being finalized.
+
+
 #### - Level [in]
 
 The flag that controls the behavior of the <b>RxFinalizeConnection</b> routine. The flag can be one of the following values:
@@ -98,11 +103,6 @@ The flag that controls the behavior of the <b>RxFinalizeConnection</b> routine. 
 #### 0xff
 
 <b>RxFinalizeConnection</b> removes the extra reference on the V_NET_ROOT structure due to the add connection request, but otherwise act like <b>FALSE</b>. <b>RxFinalizeConnection</b> fails if files or change notifications are open.
-
-
-#### - VNetRoot [in, out, optional]
-
-A pointer to the V_NET_ROOT structure being finalized.
 
 
 ## -returns

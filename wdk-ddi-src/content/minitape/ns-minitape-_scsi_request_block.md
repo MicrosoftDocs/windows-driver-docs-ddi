@@ -520,6 +520,11 @@ Specifies the SCSI-2 or later command descriptor block to be sent to the target 
 Used by the SCSI Port driver, instead of <b>SrbStatus</b>, to report the status of the completed request whenever the request cannot be delivered to the miniport driver. In such cases, <b>SrbStatus</b> is set to SRB_STATUS_INTERNAL_ERROR. This member is used exclusively for communication between the SCSI Port and the class driver and should not be used by miniport drivers.
 
 
+#### - QueueSortKey
+
+Specifies the offset from the start of the media or zero, depending on the type of the target device. 
+
+
 #### - LinkTimeoutValue
 
 
@@ -529,11 +534,6 @@ Used by the SCSI Port driver, instead of <b>SrbStatus</b>, to report the status 
 
 
 #### 
-
-
-#### - QueueSortKey
-
-Specifies the offset from the start of the media or zero, depending on the type of the target device. 
 
 
 ## -remarks

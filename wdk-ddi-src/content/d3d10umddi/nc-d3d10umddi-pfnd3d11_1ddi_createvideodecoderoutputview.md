@@ -82,9 +82,9 @@ A handle to the display device (graphics context).
 
 
 
-#### - hRTView [in]
+#### - pCreateData [in]
 
-A handle to the video decoder output view that the driver should use when it calls back into the Direct3D runtime.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh406312">D3D11_1DDIARG_CREATEVIDEODECODEROUTPUTVIEW</a> structure. This structure specifies the attributes of the video decoder output view to be created.
 
 
 #### - hView [in]
@@ -92,9 +92,9 @@ A handle to the video decoder output view that the driver should use when it cal
 A handle to the driver's private data for the video decoder output view. For more information, see the Remarks section.
 
 
-#### - pCreateData [in]
+#### - hRTView [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh406312">D3D11_1DDIARG_CREATEVIDEODECODEROUTPUTVIEW</a> structure. This structure specifies the attributes of the video decoder output view to be created.
+A handle to the video decoder output view that the driver should use when it calls back into the Direct3D runtime.
 
 
 ## -returns

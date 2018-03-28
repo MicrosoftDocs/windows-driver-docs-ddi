@@ -193,11 +193,15 @@ Any ED_TRANSCAP_Xxx or ED_TRANSBASIC_Xxx tokens are defined in <i>xprtdefs.h</i>
 
 
 
+<<<<<<< HEAD
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
-
-
-
+=======
 <a href="..\ksmedia\ns-ksmedia-transport_state.md">TRANSPORT_STATE</a>
+>>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
+
+
+
+<a href="..\ksmedia\ns-ksmedia-medium_info.md">MEDIUM_INFO</a>
 
 
 

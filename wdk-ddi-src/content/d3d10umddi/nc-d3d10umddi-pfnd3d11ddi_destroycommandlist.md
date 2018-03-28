@@ -69,14 +69,14 @@ The <b>DestroyCommandList</b> function destroys a command list.
 
 
 
-#### - hCommandList [in]
-
- A handle to the driver's private data for the command list to destroy. The Microsoft Direct3D runtime frees the memory region that it previously allocated for the command list. Therefore, the driver can no longer access this memory region. 
-
-
 #### - hDevice [in]
 
  A handle to the display device (graphics context).
+
+
+#### - hCommandList [in]
+
+ A handle to the driver's private data for the command list to destroy. The Microsoft Direct3D runtime frees the memory region that it previously allocated for the command list. Therefore, the driver can no longer access this memory region. 
 
 
 ## -returns

@@ -92,9 +92,9 @@ Reserved for use by operating system.
 Reserved for use by the operating system.
 
 
-#### - PepWorkDeviceIdle
+#### - PepWorkRequestIdleState
 
-A request for the Windows <a href="https://msdn.microsoft.com/B08F8ABF-FD43-434C-A345-337FBB799D9B">power management framework</a> (PoFx) either to start ignoring idle time-outs for the specified device, or to start monitoring these time-outs.
+Reserved for use by the operating system.
 
 
 #### - PepWorkDevicePower
@@ -102,9 +102,9 @@ A request for the Windows <a href="https://msdn.microsoft.com/B08F8ABF-FD43-434C
 Reserved for use by the operating system.
 
 
-#### - PepWorkRequestIdleState
+#### - PepWorkDeviceIdle
 
-Reserved for use by the operating system.
+A request for the Windows <a href="https://msdn.microsoft.com/B08F8ABF-FD43-434C-A345-337FBB799D9B">power management framework</a> (PoFx) either to start ignoring idle time-outs for the specified device, or to start monitoring these time-outs.
 
 
 ## -remarks

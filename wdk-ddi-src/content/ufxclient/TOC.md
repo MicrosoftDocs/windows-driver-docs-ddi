@@ -1,4 +1,4 @@
-# [Universal Serial Bus (USB)](../_usbref/index.md)
+# [buses](../_buses/index.md)
 ## [Ufxclient.h](index.md)
 ### [EVT_UFX_DEVICE_ADDRESSED callback](../ufxclient/nc-ufxclient-evt_ufx_device_addressed.md)
 ### [EVT_UFX_DEVICE_CONTROLLER_RESET callback](../ufxclient/nc-ufxclient-evt_ufx_device_controller_reset.md)

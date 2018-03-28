@@ -7,7 +7,7 @@ old-location: debugger\getsourcepathelementwide.htm
 old-project: debugger
 ms.assetid: 724ee7a6-a0ef-440b-a0d4-5eecda77338a
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: GetSourcePathElementWide method [Windows Debugging], GetSourcePathElementWide method [Windows Debugging], IDebugSymbols3 interface, GetSourcePathElementWide,IDebugSymbols3.GetSourcePathElementWide, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetSourcePathElementWide method, IDebugSymbols3::GetSourcePathElementWide, dbgeng/IDebugSymbols3::GetSourcePathElementWide, debugger.getsourcepathelementwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -145,5 +145,5 @@ For more information about manipulating the source path, see <a href="https://ms
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugSymbols3::GetSourcePathElementWide method%20 RELEASE:%20(2/27/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugSymbols3::GetSourcePathElementWide method%20 RELEASE:%20(3/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

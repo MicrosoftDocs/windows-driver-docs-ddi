@@ -66,11 +66,6 @@ For general information about HIDClass devices, see <a href="https://msdn.micros
 
 
 
-#### -ReportID
-
-Specifies the report identifier, for this collection, of the report data to be written to the device.
-
-
 #### -reportBuffer
 
 A pointer to a resident buffer containing the data to be sent to the device.
@@ -79,6 +74,11 @@ A pointer to a resident buffer containing the data to be sent to the device.
 #### -reportBufferLen
 
 Specifies the length of the buffer provided at <b>reportBuffer</b>.
+
+
+#### -ReportID
+
+Specifies the report identifier, for this collection, of the report data to be written to the device.
 
 
 ### -input-buffer-length

@@ -131,6 +131,7 @@ Upon return from a call to <a href="..\ntddk\nf-ntddk-iocreatefileex.md">IoCreat
 
 ## -see-also
 
+<<<<<<< HEAD
 <a href="..\fltkernel\nf-fltkernel-fltgetecplistfromcallbackdata.md">FltGetEcpListFromCallbackData</a>
 
 
@@ -148,22 +149,8 @@ Upon return from a call to <a href="..\ntddk\nf-ntddk-iocreatefileex.md">IoCreat
 
 
 <a href="..\fltkernel\nf-fltkernel-fltsetecplistintocallbackdata.md">FltSetEcpListIntoCallbackData</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltcreatefileex2.md">FltCreateFileEx2</a>
-
-
-
+=======
 <a href="..\ntifs\nf-ntifs-fsrtlfreeextracreateparameterlist.md">FsRtlFreeExtraCreateParameterList</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltfreeextracreateparameterlist.md">FltFreeExtraCreateParameterList</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltinsertextracreateparameter.md">FltInsertExtraCreateParameter</a>
 
 
 
@@ -171,7 +158,36 @@ Upon return from a call to <a href="..\ntddk\nf-ntddk-iocreatefileex.md">IoCreat
 
 
 
+<a href="..\fltkernel\nf-fltkernel-fltremoveextracreateparameter.md">FltRemoveExtraCreateParameter</a>
+
+
+
 <a href="..\ntddk\nf-ntddk-iocreatefilespecifydeviceobjecthint.md">IoCreateFileSpecifyDeviceObjectHint</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540148">ECP_LIST</a>
+>>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltcreatefileex2.md">FltCreateFileEx2</a>
+
+
+
+<<<<<<< HEAD
+<a href="..\ntifs\nf-ntifs-fsrtlfreeextracreateparameterlist.md">FsRtlFreeExtraCreateParameterList</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltfreeextracreateparameterlist.md">FltFreeExtraCreateParameterList</a>
+=======
+<a href="..\fltkernel\nf-fltkernel-fltfreeextracreateparameter.md">FltFreeExtraCreateParameter</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltallocateextracreateparameterfromlookasidelist.md">FltAllocateExtraCreateParameterFromLookasideList</a>
+>>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
 
 
 
@@ -179,10 +195,31 @@ Upon return from a call to <a href="..\ntddk\nf-ntddk-iocreatefileex.md">IoCreat
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltallocateextracreateparameterfromlookasidelist.md">FltAllocateExtraCreateParameterFromLookasideList</a>
+<<<<<<< HEAD
+<a href="..\ntddk\nf-ntddk-ioinitializedrivercreatecontext.md">IoInitializeDriverCreateContext</a>
+=======
+<a href="..\ntddk\nf-ntddk-iogettransactionparameterblock.md">IoGetTransactionParameterBlock</a>
+>>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
 
 
 
+<a href="..\fltkernel\nf-fltkernel-fltfreeextracreateparameterlist.md">FltFreeExtraCreateParameterList</a>
+
+
+
+<<<<<<< HEAD
+<a href="..\fltkernel\nf-fltkernel-fltallocateextracreateparameterlist.md">FltAllocateExtraCreateParameterList</a>
+=======
+<a href="..\ntddk\nf-ntddk-iocreatefileex.md">IoCreateFileEx</a>
+>>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltinsertextracreateparameter.md">FltInsertExtraCreateParameter</a>
+
+
+
+<<<<<<< HEAD
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540148">ECP_LIST</a>
 
 
@@ -192,6 +229,17 @@ Upon return from a call to <a href="..\ntddk\nf-ntddk-iocreatefileex.md">IoCreat
 
 
 <a href="..\ntddk\nf-ntddk-iocreatefileex.md">IoCreateFileEx</a>
+=======
+<a href="..\ntifs\nf-ntifs-fsrtlallocateextracreateparameterlist.md">FsRtlAllocateExtraCreateParameterList</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltgetecplistfromcallbackdata.md">FltGetEcpListFromCallbackData</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltsetecplistintocallbackdata.md">FltSetEcpListIntoCallbackData</a>
+>>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
 
 
 

@@ -77,14 +77,14 @@ Notifies the display miniport driver that the <a href="https://msdn.microsoft.co
 A handle to the display device (graphics context).
 
 
-#### - hResource [in]
-
-A handle to the driver's private data for an input view resource object. This handle is created though a call to the <a href="https://msdn.microsoft.com/f3942c53-e366-41c5-9f43-d093fa6b6ed6">CreateVideoProcessorInputView</a> function.
-
-
 #### - hView [in]
 
 A handle to the driver's private data for the video processor input view that was created through a call to the <a href="https://msdn.microsoft.com/f3942c53-e366-41c5-9f43-d093fa6b6ed6">CreateVideoProcessorInputView</a> function.
+
+
+#### - hResource [in]
+
+A handle to the driver's private data for an input view resource object. This handle is created though a call to the <a href="https://msdn.microsoft.com/f3942c53-e366-41c5-9f43-d093fa6b6ed6">CreateVideoProcessorInputView</a> function.
 
 
 ## -returns

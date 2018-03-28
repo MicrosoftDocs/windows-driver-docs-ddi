@@ -75,14 +75,14 @@ The <b>IWiaMiniDrv::drvAnalyzeItem</b> method inspects an item, and creates subi
 
 
 
-#### - lFlags [in]
-
-Is currently unused. 
-
-
 #### - pWiasContext [in]
 
 Pointer to a WIA item context.
+
+
+#### - lFlags [in]
+
+Is currently unused. 
 
 
 #### - plDevErrVal [in]

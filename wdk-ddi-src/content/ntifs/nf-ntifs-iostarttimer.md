@@ -7,7 +7,7 @@ old-location: kernel\iostarttimer.htm
 old-project: kernel
 ms.assetid: 2e13d7da-7ef3-4c2e-b028-f7d37548c208
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/1/2018
 ms.keywords: IoStartTimer, IoStartTimer routine [Kernel-Mode Driver Architecture], k104_bca7aa97-41e1-48e4-96df-52dd6109cd51.xml, kernel.iostarttimer, wdm/IoStartTimer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -92,7 +92,11 @@ The driver must already have set up the IoTimer routine for the <i>DeviceObject<
 
 ## -see-also
 
+<<<<<<< HEAD
 <a href="..\wdm\nf-wdm-keinitializetimer.md">KeInitializeTimer</a>
+=======
+<a href="..\wdm\nf-wdm-ioinitializetimer.md">IoInitializeTimer</a>
+>>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
 
 
 
@@ -100,15 +104,23 @@ The driver must already have set up the IoTimer routine for the <i>DeviceObject<
 
 
 
+<<<<<<< HEAD
 <a href="..\wdm\nf-wdm-keinitializedpc.md">KeInitializeDpc</a>
 
 
 
 <a href="..\wdm\nf-wdm-kesettimer.md">KeSetTimer</a>
+=======
+<a href="..\wdm\nf-wdm-keinitializetimer.md">KeInitializeTimer</a>
 
 
 
-<a href="..\wdm\nf-wdm-ioinitializetimer.md">IoInitializeTimer</a>
+<a href="..\wdm\nf-wdm-keinitializedpc.md">KeInitializeDpc</a>
+>>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
+
+
+
+<a href="..\wdm\nf-wdm-iostoptimer.md">IoStopTimer</a>
 
 
 
@@ -120,5 +132,5 @@ The driver must already have set up the IoTimer routine for the <i>DeviceObject<
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IoStartTimer routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IoStartTimer routine%20 RELEASE:%20(3/1/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

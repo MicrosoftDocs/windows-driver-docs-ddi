@@ -80,14 +80,14 @@ TBD
 
 
 
-#### - Comparand [in]
-
-Specifies the value that is compared with the input value pointed to by <i>Destination</i>.
-
-
 #### - Exchange [in]
 
 Specifies the output value pointed to by <i>Destination</i> if the input value pointed to by <i>Destination</i> equals the value of <i>Comparand</i>. 
+
+
+#### - Comparand [in]
+
+Specifies the value that is compared with the input value pointed to by <i>Destination</i>.
 
 
 ## -returns

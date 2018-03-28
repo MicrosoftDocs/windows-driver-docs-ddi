@@ -72,11 +72,6 @@ An AVStream minidriver's <i>AVStrMiniPinHandshake</i> routine is called when AVS
 
 
 
-#### - Data [in]
-
-Pointer to a caller-allocated buffer. If the pin supports the requested protocol, <i>AVStrMiniPinHandshake</i> should fill in this parameter with a pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff562673">KSHANDSHAKE</a> structure.
-
-
 #### - Irp [in]
 
 Pointer to the IRP containing the handshake request.
@@ -85,6 +80,11 @@ Pointer to the IRP containing the handshake request.
 #### - Request [in]
 
 Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff562676">KSIDENTIFIER</a> structure that contains a GUID identifying the requested protocol.
+
+
+#### - Data [in]
+
+Pointer to a caller-allocated buffer. If the pin supports the requested protocol, <i>AVStrMiniPinHandshake</i> should fill in this parameter with a pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff562673">KSHANDSHAKE</a> structure.
 
 
 ## -returns

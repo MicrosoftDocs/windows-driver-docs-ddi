@@ -69,14 +69,14 @@ The <i>pfnCalcPrivateVideoDecoderSize</i> callback function calculates the size 
 
 
 
-#### - CreateVideoDecoder [in]
-
-The arguments used to create a video decoder.
-
-
 #### - hDevice
 
 The handle of a device. 
+
+
+#### - CreateVideoDecoder [in]
+
+The arguments used to create a video decoder.
 
 
 ## -remarks

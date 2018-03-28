@@ -72,9 +72,9 @@ The <b>DrawInstancedIndirect</b> function draws particular instances of non-inde
 
 
 
-#### - AlignedByteOffsetForArgs [in]
+#### - hDevice [in]
 
- The offset, in bytes, into the buffer that <i>hBufferForArgs</i> specifies. <i>AlignedByteOffsetForArgs</i> must be a multiple of four. 
+ A handle to the display device (graphics context).
 
 
 #### - hBufferForArgs [in]
@@ -99,9 +99,9 @@ The <b>DrawInstancedIndirect</b> function draws particular instances of non-inde
 For more information about these arguments, see the <a href="https://msdn.microsoft.com/c539cf8b-e056-476a-9b23-7e360917a7d9">DrawInstanced</a> reference page. 
 
 
-#### - hDevice [in]
+#### - AlignedByteOffsetForArgs [in]
 
- A handle to the display device (graphics context).
+ The offset, in bytes, into the buffer that <i>hBufferForArgs</i> specifies. <i>AlignedByteOffsetForArgs</i> must be a multiple of four. 
 
 
 ## -returns

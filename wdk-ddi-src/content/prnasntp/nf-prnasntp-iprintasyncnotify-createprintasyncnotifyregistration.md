@@ -65,16 +65,16 @@ req.product: Windows 10 or later.
 
 
 
+#### - pType [in]
+
+
 #### - filter [in]
-
-
-#### - pCallback [in]
 
 
 #### - pStyle [in]
 
 
-#### - pType [in]
+#### - pCallback [in]
 
 
 #### - ppRegistration [out]

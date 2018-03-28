@@ -78,19 +78,9 @@ The <b>DrawInstanced</b> function draws particular instances of nonindexed primi
 
 
 
-#### - InstanceCount [in]
+#### - hDevice [in]
 
- The number of instances of the buffer that vertices are read from to draw the primitives. 
-
-
-#### - StartInstanceLocation [in]
-
- The first instance of the buffer that vertices are read from to draw the primitives. 
-
-
-#### - StartVertexLocation [in]
-
- The first vertex in the buffer that vertices are read from to draw the primitives. 
+ A handle to the display device (graphics context).
 
 
 #### - VertexCountPerInstance [in]
@@ -98,9 +88,19 @@ The <b>DrawInstanced</b> function draws particular instances of nonindexed primi
  The number of vertices per instance of the buffer that vertices are read from to draw the primitives. 
 
 
-#### - hDevice [in]
+#### - InstanceCount [in]
 
- A handle to the display device (graphics context).
+ The number of instances of the buffer that vertices are read from to draw the primitives. 
+
+
+#### - StartVertexLocation [in]
+
+ The first vertex in the buffer that vertices are read from to draw the primitives. 
+
+
+#### - StartInstanceLocation [in]
+
+ The first instance of the buffer that vertices are read from to draw the primitives. 
 
 
 ## -returns

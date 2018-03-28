@@ -75,6 +75,13 @@ Creates a blend state.
 
 
 
+#### - hDevice
+
+A handle to the display device (graphics context).
+
+
+
+
 #### - [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh451041">D3D11_1_DDI_BLEND_DESC</a> structure that describes the parameters that the user-mode display driver uses to create a blend state.
@@ -83,13 +90,6 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh45
 #### - hBlendState
 
 A handle to the driver's private data for the blend state. The driver returns the size, in bytes, of the memory region that the Microsoft Direct3D runtime must allocate for the private data from a call to the driver's <a href="https://msdn.microsoft.com/e53bb658-ef6c-4f44-aa5a-8c641046f90d">CalcPrivateBlendStateSize(D3D11_1)</a> function. The handle is really just a pointer to a region of memory, the size of which the driver requested. The driver uses this region of memory to store internal data structures that are related to its blend state object.
-
-
-#### - hDevice
-
-A handle to the display device (graphics context).
-
-
 
 
 #### - hRTBlendState

@@ -101,6 +101,11 @@ This member is reserved and should be set to zero.
 This member is available beginning with Windows 7.
 
 
+#### - Range
+
+[in] A D3DDDIRANGE structure that describes the subrange of the linear resource to lock, if the <b>RangeValid</b> bit-field flag is set in the D3DDDI_LOCKASYNCFLAGS structure that <b>Flags</b> specifies.
+
+
 #### - Area
 
 [in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure that describes the subrectangle of the surface to lock, if the <b>AreaValid</b> bit-field flag is set in the D3DDDI_LOCKASYNCFLAGS structure that <b>Flags</b> specifies.
@@ -109,11 +114,6 @@ This member is available beginning with Windows 7.
 #### - Box
 
 [in] A D3DDDIBOX structure that describes the subvolume of the volume to lock, if the <b>BoxValid</b> bit-field flag is set in the D3DDDI_LOCKASYNCFLAGS structure that <b>Flags</b> specifies.
-
-
-#### - Range
-
-[in] A D3DDDIRANGE structure that describes the subrange of the linear resource to lock, if the <b>RangeValid</b> bit-field flag is set in the D3DDDI_LOCKASYNCFLAGS structure that <b>Flags</b> specifies.
 
 
 ## -remarks

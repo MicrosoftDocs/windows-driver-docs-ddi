@@ -7,7 +7,7 @@ old-location: kernel\zwqueryinformationtoken.htm
 old-project: kernel
 ms.assetid: 554b541b-943a-413e-9803-7dba17d0c6ce
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/1/2018
 ms.keywords: NtQueryInformationToken, ZwQueryInformationToken, ZwQueryInformationToken routine [Kernel-Mode Driver Architecture], k111_2f945a17-f3b4-423a-90fa-6f02d240d42d.xml, kernel.zwqueryinformationtoken, ntifs/NtQueryInformationToken, ntifs/ZwQueryInformationToken
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -314,26 +314,39 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 ## -see-also
 
+<<<<<<< HEAD
 <a href="..\wudfddi\ne-wudfddi-_security_impersonation_level.md">SECURITY_IMPERSONATION_LEVEL</a>
 
 
 
 <a href="..\ntifs\ne-ntifs-_token_type.md">TOKEN_TYPE</a>
+=======
+<a href="..\ntifs\ns-ntifs-_token_user.md">TOKEN_USER</a>
 
 
 
-<a href="..\ntifs\ns-ntifs-_token_groups.md">TOKEN_GROUPS</a>
+<a href="..\ntifs\ne-ntifs-_token_information_class.md">TOKEN_INFORMATION_CLASS</a>
+>>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
 
 
 
+<a href="..\ntifs\ns-ntifs-_token_privileges.md">TOKEN_PRIVILEGES</a>
+
+
+
+<<<<<<< HEAD
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548630">IRP_MJ_CREATE</a>
+=======
+<a href="..\ntifs\nf-ntifs-sequeryinformationtoken.md">SeQueryInformationToken</a>
+>>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
 
 
 
-<a href="..\ntifs\ns-ntifs-_token_source.md">TOKEN_SOURCE</a>
+<a href="..\wudfddi\ne-wudfddi-_security_impersonation_level.md">SECURITY_IMPERSONATION_LEVEL</a>
 
 
 
+<<<<<<< HEAD
 <a href="..\wdm\ns-wdm-_acl.md">ACL</a>
 
 
@@ -347,14 +360,12 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 <a href="..\ntifs\ns-ntifs-_token_privileges.md">TOKEN_PRIVILEGES</a>
+=======
+<a href="..\ntifs\ns-ntifs-_token_primary_group.md">TOKEN_PRIMARY_GROUP</a>
 
 
 
-<a href="..\ntifs\ns-ntifs-_token_user.md">TOKEN_USER</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-sequeryinformationtoken.md">SeQueryInformationToken</a>
+<a href="..\ntifs\ns-ntifs-_token_statistics.md">TOKEN_STATISTICS</a>
 
 
 
@@ -362,11 +373,28 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
-<a href="..\ntifs\ne-ntifs-_token_information_class.md">TOKEN_INFORMATION_CLASS</a>
+<a href="..\ntifs\ns-ntifs-_token_groups.md">TOKEN_GROUPS</a>
 
 
 
-<a href="..\ntifs\ns-ntifs-_token_primary_group.md">TOKEN_PRIMARY_GROUP</a>
+<a href="..\ntifs\ns-ntifs-_sid_and_attributes.md">SID_AND_ATTRIBUTES</a>
+>>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
+
+
+
+<a href="..\wdm\ns-wdm-_acl.md">ACL</a>
+
+
+
+<<<<<<< HEAD
+<a href="..\ntifs\nf-ntifs-sequeryinformationtoken.md">SeQueryInformationToken</a>
+=======
+<a href="..\ntifs\nf-ntifs-zwsetinformationtoken.md">ZwSetInformationToken</a>
+>>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
 
 
 
@@ -374,11 +402,27 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
+<<<<<<< HEAD
+<a href="..\ntifs\ns-ntifs-_token_primary_group.md">TOKEN_PRIMARY_GROUP</a>
+
+
+
+<a href="..\ntifs\ns-ntifs-_token_owner.md">TOKEN_OWNER</a>
+=======
+<a href="..\ntifs\ns-ntifs-_token_source.md">TOKEN_SOURCE</a>
+
+
+
+<a href="..\ntifs\ns-ntifs-_token_default_dacl.md">TOKEN_DEFAULT_DACL</a>
+>>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
+
+
+
 <a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-zwsetinformationtoken.md">ZwSetInformationToken</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548630">IRP_MJ_CREATE</a>
 
 
 
@@ -390,5 +434,5 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20ZwQueryInformationToken routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20ZwQueryInformationToken routine%20 RELEASE:%20(3/1/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

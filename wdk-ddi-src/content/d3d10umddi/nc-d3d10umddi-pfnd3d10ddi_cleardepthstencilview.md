@@ -78,9 +78,14 @@ The <b>ClearDepthStencilView</b> function clears the specified currently bound d
 
 
 
-#### - Depth [in]
+#### - hDevice [in]
 
- A single-precision float vector to set the depth to. 
+ A handle to the display device (graphics context).
+
+
+#### - hDepthStencilView [in]
+
+ A handle to the depth-stencil view to clear. 
 
 
 #### - Flags [in]
@@ -116,19 +121,14 @@ The stencil value is cleared.
  
 
 
+#### - Depth [in]
+
+ A single-precision float vector to set the depth to. 
+
+
 #### - Stencil [in]
 
  An unsigned 8-bit integer value to set the stencil to. 
-
-
-#### - hDepthStencilView [in]
-
- A handle to the depth-stencil view to clear. 
-
-
-#### - hDevice [in]
-
- A handle to the display device (graphics context).
 
 
 ## -returns

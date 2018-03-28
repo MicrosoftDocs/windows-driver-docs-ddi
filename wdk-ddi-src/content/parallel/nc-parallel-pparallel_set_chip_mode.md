@@ -143,7 +143,7 @@ For more information, see <a href="https://msdn.microsoft.com/a22cdeef-4ae7-49f8
 
 ## -see-also
 
-<a href="..\parallel\ni-parallel-ioctl_internal_parallel_set_chip_mode.md">IOCTL_INTERNAL_PARALLEL_SET_CHIP_MODE</a>
+<a href="..\parallel\ns-parallel-_parallel_pnp_information.md">PARALLEL_PNP_INFORMATION</a>
 
 
 
@@ -155,7 +155,11 @@ For more information, see <a href="https://msdn.microsoft.com/a22cdeef-4ae7-49f8
 
 
 
+<<<<<<< HEAD
 <a href="..\parallel\ni-parallel-ioctl_internal_parallel_clear_chip_mode.md">IOCTL_INTERNAL_PARALLEL_CLEAR_CHIP_MODE</a>
+=======
+<a href="..\parallel\ni-parallel-ioctl_internal_parallel_set_chip_mode.md">IOCTL_INTERNAL_PARALLEL_SET_CHIP_MODE</a>
+>>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
 
 
 

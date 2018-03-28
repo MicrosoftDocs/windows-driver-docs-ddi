@@ -72,9 +72,9 @@ The <b>DispatchIndirect</b> function executes the compute shader.
 
 
 
-#### - AlignedByteOffsetForArgs [in]
+#### - hDevice [in]
 
- The offset, in bytes, into the buffer that <i>hBufferForArgs</i> specifies. <i>AlignedByteOffsetForArgs</i> must be a multiple of 4.
+ A handle to the display device (graphics context).
 
 
 #### - hBufferForArgs [in]
@@ -96,9 +96,9 @@ The <b>DispatchIndirect</b> function executes the compute shader.
 </tr>
 </table></span></div>
 
-#### - hDevice [in]
+#### - AlignedByteOffsetForArgs [in]
 
- A handle to the display device (graphics context).
+ The offset, in bytes, into the buffer that <i>hBufferForArgs</i> specifies. <i>AlignedByteOffsetForArgs</i> must be a multiple of 4.
 
 
 ## -returns

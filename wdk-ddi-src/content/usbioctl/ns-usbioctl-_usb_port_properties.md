@@ -65,14 +65,14 @@ The  port capabilities are retrieved in the <a href="https://msdn.microsoft.com/
 A bitmask that indicates the properties and capabilities of the port.
 
 
-#### - PortIsDebugCapable
-
-If <b>TRUE</b>, the port supports debugging over a USB connection.
-
-
 #### - PortIsUserConnectable
 
 If <b>TRUE</b>, the port is visible to the user and a USB device can be attached to or detached from the port.
+
+
+#### - PortIsDebugCapable
+
+If <b>TRUE</b>, the port supports debugging over a USB connection.
 
 
 #### - ReservedMBZ

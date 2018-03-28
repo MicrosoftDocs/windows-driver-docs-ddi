@@ -192,14 +192,14 @@ Supported starting with Windows 8.
 
 
 
-#### - hContext
-
-[in] A D3DKMT_HANDLE data type that represents a kernel-mode handle to the device context to present to.
-
-
 #### - hDevice
 
 [in] A D3DKMT_HANDLE data type that represents a kernel-mode handle to the device to present to. A device handle is supplied to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff547091">D3DKMTPresent</a> function in the union that D3DKMT_PRESENT contains for compatibility with Microsoft Direct3D version 10.
+
+
+#### - hContext
+
+[in] A D3DKMT_HANDLE data type that represents a kernel-mode handle to the device context to present to.
 
 
 ## -see-also

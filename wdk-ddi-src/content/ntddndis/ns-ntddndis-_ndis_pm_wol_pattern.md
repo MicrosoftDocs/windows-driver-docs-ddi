@@ -7,7 +7,7 @@ old-location: netvista\ndis_pm_wol_pattern.htm
 old-project: netvista
 ms.assetid: 2ca1fdbe-efd3-4607-aab1-751e6d5d025b
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*PNDIS_PM_WOL_PATTERN, NDIS_PM_WOL_PATTERN, NDIS_PM_WOL_PATTERN structure [Network Drivers Starting with Windows Vista], PNDIS_PM_WOL_PATTERN, PNDIS_PM_WOL_PATTERN structure pointer [Network Drivers Starting with Windows Vista], _NDIS_PM_WOL_PATTERN, miniport_power_management_ref_ce048c91-111a-406d-8dc9-958394bc78cd.xml, netvista.ndis_pm_wol_pattern, ntddndis/NDIS_PM_WOL_PATTERN, ntddndis/PNDIS_PM_WOL_PATTERN"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -337,5 +337,5 @@ The upper layer driver sets the NDIS_PM_WOL_IPV4_DEST_ADDR_WILDCARD_ENABLED and
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_PM_WOL_PATTERN structure%20 RELEASE:%20(2/27/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_PM_WOL_PATTERN structure%20 RELEASE:%20(3/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

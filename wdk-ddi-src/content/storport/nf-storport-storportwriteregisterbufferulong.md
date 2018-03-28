@@ -83,16 +83,6 @@ TBD
 
 
 
-#### - Buffer [in]
-
-Pointer to a buffer containing the data to be written.
-
-
-#### - Count [in]
-
-Specifies the number of ULONG values to be transferred to the HBA.
-
-
 #### - HwDeviceExtension [in]
 
 A pointer to the hardware device extension. This is a per HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the mapped access ranges for the HBA. This area is available to the miniport driver immediately after the miniport driver calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff567108">StorPortInitialize</a>. The port driver frees this memory when it removes the device. 
@@ -101,6 +91,16 @@ A pointer to the hardware device extension. This is a per HBA storage area that 
 #### - Register [in]
 
 Pointer to the register. The given <i>Register</i> must be in a mapped memory space range that was returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff567080">StorPortGetDeviceBase</a>. 
+
+
+#### - Buffer [in]
+
+Pointer to a buffer containing the data to be written.
+
+
+#### - Count [in]
+
+Specifies the number of ULONG values to be transferred to the HBA.
 
 
 ## -see-also

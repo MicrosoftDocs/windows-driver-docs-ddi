@@ -157,8 +157,7 @@ For more information about acquiring and releasing NDIS spin locks, see
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-miniport_synchronize_interrupt.md">
-   MiniportSynchronizeInterrupt</a>
+<a href="..\wdm\ns-wdm-_io_interrupt_message_info.md">IO_INTERRUPT_MESSAGE_INFO</a>
 
 
 
@@ -167,15 +166,25 @@ For more information about acquiring and releasing NDIS spin locks, see
 
 
 
+<<<<<<< HEAD
 <a href="..\ndis\nf-ndis-ndismregisterinterruptex.md">NdisMRegisterInterruptEx</a>
 
 
 
 <a href="..\wdm\ns-wdm-_io_interrupt_message_info.md">IO_INTERRUPT_MESSAGE_INFO</a>
+=======
+<a href="..\wdm\ns-wdm-_io_interrupt_message_info_entry.md">
+   IO_INTERRUPT_MESSAGE_INFO_ENTRY</a>
+>>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
 
 
 
 <a href="..\ndis\nc-ndis-miniport_isr.md">MiniportInterrupt</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_synchronize_interrupt.md">
+   MiniportSynchronizeInterrupt</a>
 
 
 
