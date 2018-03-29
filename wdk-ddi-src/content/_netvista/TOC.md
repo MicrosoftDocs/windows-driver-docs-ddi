@@ -3038,6 +3038,7 @@
 ### [_WWAN_LTE_MRL structure](../wwan/ns-wwan-_wwan_lte_mrl.md)
 ### [_WWAN_LTE_MRL_INFO structure](../wwan/ns-wwan-_wwan_lte_mrl_info.md)
 ### [_WWAN_LTE_SERVING_CELL_INFO structure](../wwan/ns-wwan-_wwan_lte_serving_cell_info.md)
+### [_WWAN_MODEM_CONFIG_ID structure](../wwan/ns-wwan-_wwan_modem_config_id.md)
 ### [_WWAN_MODEM_CONFIG_INFO structure](../wwan/ns-wwan-_wwan_modem_config_info.md)
 ### [_WWAN_MODEM_CONFIG_MODE enumeration](../wwan/ne-wwan-_wwan_modem_config_mode.md)
 ### [_WWAN_MODEM_CONFIG_REASON enumeration](../wwan/ne-wwan-_wwan_modem_config_reason.md)
