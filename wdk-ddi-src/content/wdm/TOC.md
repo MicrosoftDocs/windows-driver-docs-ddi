@@ -559,6 +559,7 @@
 ### [KeInsertDeviceQueue function](../wdm/nf-wdm-keinsertdevicequeue.md)
 ### [KeInsertQueueDpc function](../wdm/nf-wdm-keinsertqueuedpc.md)
 ### [KeIpiGenericCall function](../wdm/nf-wdm-keipigenericcall.md)
+### [KeIsExecutingDpc function](../wdm/nf-wdm-keisexecutingdpc.md)
 ### [KeLeaveCriticalRegion function](../wdm/nf-wdm-keleavecriticalregion.md)
 ### [KeLeaveGuardedRegion function](../wdm/nf-wdm-keleaveguardedregion.md)
 ### [KeLowerIrql macro](../wdm/nf-wdm-kelowerirql.md)
