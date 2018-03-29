@@ -13,10 +13,10 @@ ms.topic: portal
 
 
 
-This header is used by Windows kernel, Battery, Windows Driver Framework. For more information, see
+This header is used by Windows kernel, Windows Driver Framework, Battery. For more information, see
 - [Windows kernel](../_kernel/index.md)
-- [Battery](../_battery/index.md)
 - [Windows Driver Framework](../_wdf/index.md)
+- [Battery](../_battery/index.md)
 
 Ntpoapi.h contain these programming interfaces:
 

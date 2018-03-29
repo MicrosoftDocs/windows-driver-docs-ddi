@@ -17,9 +17,7 @@ This header is used by Windows kernel, Installable file system, Driver test tool
 - [Windows kernel](../_kernel/index.md)
 - [Installable file system](../_ifsk/index.md)
 - [Driver test tools](../_devtest/index.md)
-- [PCI](../_PCI/index.md)
 - [Windows Driver Framework](../_wdf/index.md)
-- [Benchmark](../_Benchmark/index.md)
 - [Battery](../_battery/index.md)
 
 Wdm.h contain these programming interfaces:

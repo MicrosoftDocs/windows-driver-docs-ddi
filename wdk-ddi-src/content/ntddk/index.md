@@ -14,10 +14,9 @@ ms.topic: portal
 
 
 This header is used by Windows Hardware Error Architecture (WHEA), Installable file system, Windows kernel, PCI, Driver test tools, Storage. For more information, see
-- [Windows Hardware Error Architecture (WHEA)](../_whea/index.md)
+
 - [Installable file system](../_ifsk/index.md)
 - [Windows kernel](../_kernel/index.md)
-- [PCI](../_PCI/index.md)
 - [Driver test tools](../_devtest/index.md)
 - [Storage](../_storage/index.md)
 

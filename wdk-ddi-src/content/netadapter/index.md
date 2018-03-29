@@ -9,18 +9,7 @@ ms.technology: windows-devices
 ms.topic: portal
 ---
 
-# Netadapter.h header
+## -description
 
-
-
-This header is used by . For more information, see
-- [](../_TBD/index.md)
-
-Netadapter.h contain these programming interfaces:
-
-
-## Callback functions
-
-| Title   | Description   |
-| ---- |:---- |
-| [EVT_NET_ADAPTER_CREATE_RXQUEUE callback function](nc-netadapter-evt_net_adapter_create_rxqueue.md) | The client driver's implementation of the EVT_NET_ADAPTER_CREATE_RXQUEUE event callback function that sets up a receive queue. |
+This header is used by NetAdapterCx client drivers. For more information, see
+- [Network Adapter WDF Class Extension (Cx)](https://docs.microsoft.com/windows-hardware/drivers/netcx/)
