@@ -117,10 +117,18 @@ Supported starting with Windows 8.1.
 
 ## -see-also
 
+<<<<<<< HEAD
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566036">KSPROPERTY_VIDEOCONTROL_CAPS_S</a>
+=======
+<a href="..\ksmedia\ns-ksmedia-ksproperty_videocontrol_mode_s.md">KSPROPERTY_VIDEOCONTROL_MODE_S</a>
+
+
+
+<a href="..\ksmedia\ns-ksmedia-ksproperty_videocontrol_caps_s.md">KSPROPERTY_VIDEOCONTROL_CAPS_S</a>
+>>>>>>> parent of 2d896a8e266... Added changes
 
 
 

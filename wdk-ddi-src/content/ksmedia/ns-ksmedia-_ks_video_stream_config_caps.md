@@ -433,10 +433,18 @@ The <b>MinCroppingSize</b>, <b>MaxCroppingSize</b>, <b>CropGranularityX</b>, <b>
 
 ## -see-also
 
+<<<<<<< HEAD
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567297">KS_AnalogVideoStandard</a>
+=======
+<a href="..\ksmedia\ns-ksmedia-tagks_bitmapinfoheader.md">KS_BITMAPINFOHEADER</a>
+
+
+
+<a href="..\ksmedia\ns-ksmedia-tagks_videoinfoheader.md">KS_VIDEOINFOHEADER</a>
+>>>>>>> parent of 2d896a8e266... Added changes
 
 
 

@@ -201,19 +201,11 @@ For more information, see <a href="https://msdn.microsoft.com/1a3ac1b1-9180-4b71
 
 
 
-<<<<<<< HEAD
 <a href="..\parallel\ni-parallel-ioctl_internal_get_parallel_port_info.md">IOCTL_INTERNAL_GET_PARALLEL_PORT_INFO</a>
 
 
 
 <a href="..\parallel\ni-parallel-ioctl_internal_select_device.md">IOCTL_INTERNAL_SELECT_DEVICE</a>
-=======
-<a href="..\parallel\ns-parallel-_parallel_pnp_information.md">PARALLEL_PNP_INFORMATION</a>
-
-
-
-<a href="..\parallel\ns-parallel-_parallel_1284_command.md">PARALLEL_1284_COMMAND</a>
->>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
 
 
 
@@ -221,19 +213,11 @@ For more information, see <a href="https://msdn.microsoft.com/1a3ac1b1-9180-4b71
 
 
 
-<<<<<<< HEAD
 <a href="..\parallel\ns-parallel-_parallel_pnp_information.md">PARALLEL_PNP_INFORMATION</a>
 
 
 
 <a href="..\parallel\nc-parallel-pparallel_deselect_routine.md">PPARALLEL_DESELECT_ROUTINE</a>
-=======
-<a href="..\parallel\ni-parallel-ioctl_internal_get_parallel_port_info.md">IOCTL_INTERNAL_GET_PARALLEL_PORT_INFO</a>
-
-
-
-<a href="..\parallel\ni-parallel-ioctl_internal_deselect_device.md">IOCTL_INTERNAL_DESELECT_DEVICE</a>
->>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
 
 
 

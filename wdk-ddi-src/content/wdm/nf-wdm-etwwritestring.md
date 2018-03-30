@@ -123,15 +123,11 @@ You can call <b>EtwWriteString</b> at any IRQL. However, when IRQL is greater th
 
 
 
-<<<<<<< HEAD
 <a href="..\wdm\nf-wdm-etwwriteex.md">EtwWriteEx</a>
-=======
+
+
+
 <a href="..\wdm\nf-wdm-etwwritetransfer.md">EtwWriteTransfer</a>
->>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
-
-
-
-<a href="..\wdm\nf-wdm-etwwriteex.md">EtwWriteEx</a>
 
 
 

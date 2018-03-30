@@ -171,10 +171,22 @@ The minidriver fills in the mode capabilities for the requested tuner mode.
 
 ## -see-also
 
+<<<<<<< HEAD
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
+=======
+<a href="..\ksmedia\ne-ksmedia-ks_analogvideostandard.md">KS_AnalogVideoStandard</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567800">PROPSETID_TUNER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565865">KSPROPERTY_TUNER_MODE_CAPS</a>
+>>>>>>> parent of 2d896a8e266... Added changes
 
 
 
@@ -186,11 +198,14 @@ The minidriver fills in the mode capabilities for the requested tuner mode.
 
 
 
+<<<<<<< HEAD
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567687">KS_TUNER_STRATEGY</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567800">PROPSETID_TUNER</a>
+=======
+>>>>>>> parent of 2d896a8e266... Added changes
  
 
  

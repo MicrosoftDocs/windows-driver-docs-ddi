@@ -179,11 +179,7 @@ The Windows kernel calls into the PSHED to read an error record from the system'
 
 ## -see-also
 
-<<<<<<< HEAD
 <a href="..\ntddk\nc-ntddk-pshed_pi_write_error_record.md">WriteErrorRecord</a>
-=======
-<a href="..\ntddk\ns-ntddk-_whea_error_record.md">WHEA_ERROR_RECORD</a>
->>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
 
 
 
@@ -199,11 +195,7 @@ The Windows kernel calls into the PSHED to read an error record from the system'
 
 
 
-<<<<<<< HEAD
 <a href="..\ntddk\ns-ntddk-_whea_error_record.md">WHEA_ERROR_RECORD</a>
-=======
-<a href="..\ntddk\nc-ntddk-pshed_pi_write_error_record.md">WriteErrorRecord</a>
->>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
 
 
 

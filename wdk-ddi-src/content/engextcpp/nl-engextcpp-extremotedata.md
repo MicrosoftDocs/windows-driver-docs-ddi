@@ -7,7 +7,7 @@ old-location: debugger\extremotedata.htm
 old-project: debugger
 ms.assetid: d645867c-3264-45ae-b0bd-4d21e388fb97
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 2/27/2018
 ms.keywords: EngExtCpp_Ref_e84c03ce-1156-481b-a429-f0a918797565.xml, ExtRemoteData, ExtRemoteData class [Windows Debugging], ExtRemoteData class [Windows Debugging], described, debugger.extremotedata, engextcpp/ExtRemoteData
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -286,3 +286,8 @@ The DEBUG_PHYSICAL_<i>XXX</i> flags used for accessing physical memory on the ta
 
  
 
+<<<<<<< HEAD
+=======
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20ExtRemoteData class%20 RELEASE:%20(2/27/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+
+>>>>>>> parent of 2d896a8e266... Added changes

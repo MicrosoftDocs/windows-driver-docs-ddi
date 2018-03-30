@@ -7,7 +7,7 @@ old-location: debugger\readbusdata.htm
 old-project: debugger
 ms.assetid: 5790b133-dbdc-4f77-a70e-616b0902794e
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 2/27/2018
 ms.keywords: IDebugDataSpaces interface [Windows Debugging], ReadBusData method, IDebugDataSpaces2, IDebugDataSpaces2 interface [Windows Debugging], ReadBusData method, IDebugDataSpaces2::ReadBusData, IDebugDataSpaces3 interface [Windows Debugging], ReadBusData method, IDebugDataSpaces3::ReadBusData, IDebugDataSpaces4 interface [Windows Debugging], ReadBusData method, IDebugDataSpaces4::ReadBusData, IDebugDataSpaces::ReadBusData, IDebugDataSpaces_59d5bf3f-7eb5-452c-ace2-4aed701d34a6.xml, ReadBusData method [Windows Debugging], ReadBusData method [Windows Debugging], IDebugDataSpaces interface, ReadBusData method [Windows Debugging], IDebugDataSpaces2 interface, ReadBusData method [Windows Debugging], IDebugDataSpaces3 interface, ReadBusData method [Windows Debugging], IDebugDataSpaces4 interface, ReadBusData,IDebugDataSpaces2.ReadBusData, dbgeng/IDebugDataSpaces2::ReadBusData, dbgeng/IDebugDataSpaces3::ReadBusData, dbgeng/IDebugDataSpaces4::ReadBusData, dbgeng/IDebugDataSpaces::ReadBusData, debugger.readbusdata
 ms.prod: windows-hardware
 ms.technology: windows-devices

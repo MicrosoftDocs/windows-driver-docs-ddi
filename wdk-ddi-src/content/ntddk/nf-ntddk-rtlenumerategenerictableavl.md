@@ -126,13 +126,10 @@ Callers of <b>RtlEnumerateGenericTableAvl</b> must be running at IRQL &lt; DISPA
 
 
 
-<<<<<<< HEAD
 <a href="..\ntddk\nf-ntddk-rtlisgenerictableemptyavl.md">RtlIsGenericTableEmptyAvl</a>
 
 
 
-=======
->>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
 <a href="..\wdm\nf-wdm-exinitializefastmutex.md">ExInitializeFastMutex</a>
 
 
@@ -142,10 +139,6 @@ Callers of <b>RtlEnumerateGenericTableAvl</b> must be running at IRQL &lt; DISPA
 
 
 <a href="..\ntddk\nf-ntddk-rtlinitializegenerictableavl.md">RtlInitializeGenericTableAvl</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-rtlenumerategenerictablewithoutsplayingavl.md">RtlEnumerateGenericTableWithoutSplayingAvl</a>
 
 
 

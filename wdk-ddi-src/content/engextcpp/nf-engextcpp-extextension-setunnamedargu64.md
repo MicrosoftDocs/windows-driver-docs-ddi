@@ -7,7 +7,7 @@ old-location: debugger\setunnamedargu64.htm
 old-project: debugger
 ms.assetid: 27f25bba-8118-47c0-9b9d-6b0a1ceb4b8e
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 2/27/2018
 ms.keywords: EngExtCpp_Ref_65080cf5-2492-440b-a496-869faf8c9c49.xml, ExtExtension, ExtExtension class [Windows Debugging], SetUnnamedArgU64 method, ExtExtension::SetUnnamedArgU64, SetUnnamedArgU64 method [Windows Debugging], SetUnnamedArgU64 method [Windows Debugging], ExtExtension class, SetUnnamedArgU64,ExtExtension.SetUnnamedArgU64, debugger.setunnamedargu64
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -106,3 +106,8 @@ This method should only be called during the execution of an extension command p
 
  
 
+<<<<<<< HEAD
+=======
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20ExtExtension.SetUnnamedArgU64 method%20 RELEASE:%20(2/27/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+
+>>>>>>> parent of 2d896a8e266... Added changes

@@ -74,6 +74,10 @@ Indicates the number of audio and video output pins on the crossbar.
 
 ## -see-also
 
+<<<<<<< HEAD
+=======
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567804">PROPSETID_VIDCAP_CROSSBAR</a>
+>>>>>>> parent of 2d896a8e266... Added changes
 
 
 

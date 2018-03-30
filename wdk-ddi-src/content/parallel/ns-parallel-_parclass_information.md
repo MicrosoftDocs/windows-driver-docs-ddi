@@ -208,7 +208,6 @@ For more information, see <a href="https://msdn.microsoft.com/c05a1a1e-308a-4b9f
 
 ## -see-also
 
-<<<<<<< HEAD
 <a href="..\parallel\nc-parallel-pparallel_write.md">PPARALLEL_WRITE</a>
 
 
@@ -218,21 +217,6 @@ For more information, see <a href="https://msdn.microsoft.com/c05a1a1e-308a-4b9f
 
 
 <a href="..\parallel\nc-parallel-pterminate_ieee_mode.md">PTERMINATE_IEEE_MODE</a>
-=======
-<a href="..\parallel\nc-parallel-pterminate_ieee_mode.md">PTERMINATE_IEEE_MODE</a>
-
-
-
-<a href="..\parallel\nc-parallel-pparallel_read.md">PPARALLEL_READ</a>
-
-
-
-<a href="..\parallel\nc-parallel-pparallel_ieee_rev_to_fwd.md">PPARALLEL_IEEE_REV_TO_FWD</a>
-
-
-
-<a href="..\parallel\ni-parallel-ioctl_internal_lock_port.md">IOCTL_INTERNAL_LOCK_PORT</a>
->>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
 
 
 
@@ -240,25 +224,6 @@ For more information, see <a href="https://msdn.microsoft.com/c05a1a1e-308a-4b9f
 
 
 
-<a href="..\parallel\ni-parallel-ioctl_internal_parclass_connect.md">IOCTL_INTERNAL_PARCLASS_CONNECT</a>
-
-
-
-<<<<<<< HEAD
-<a href="..\parallel\nc-parallel-pdetermine_ieee_modes.md">PDETERMINE_IEEE_MODES</a>
-
-
-
-<a href="..\parallel\ni-parallel-ioctl_internal_parclass_connect.md">IOCTL_INTERNAL_PARCLASS_CONNECT</a>
-
-
-
-<a href="..\parallel\ni-parallel-ioctl_internal_lock_port.md">IOCTL_INTERNAL_LOCK_PORT</a>
-
-
-
-<a href="..\parallel\nc-parallel-pparallel_ieee_rev_to_fwd.md">PPARALLEL_IEEE_REV_TO_FWD</a>
-=======
 <a href="..\parallel\nc-parallel-pparallel_ieee_fwd_to_rev.md">PPARALLEL_IEEE_FWD_TO_REV</a>
 
 
@@ -267,8 +232,15 @@ For more information, see <a href="https://msdn.microsoft.com/c05a1a1e-308a-4b9f
 
 
 
-<a href="..\parallel\nc-parallel-pparallel_write.md">PPARALLEL_WRITE</a>
->>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
+<a href="..\parallel\ni-parallel-ioctl_internal_parclass_connect.md">IOCTL_INTERNAL_PARCLASS_CONNECT</a>
+
+
+
+<a href="..\parallel\ni-parallel-ioctl_internal_lock_port.md">IOCTL_INTERNAL_LOCK_PORT</a>
+
+
+
+<a href="..\parallel\nc-parallel-pparallel_ieee_rev_to_fwd.md">PPARALLEL_IEEE_REV_TO_FWD</a>
 
 
 

@@ -96,19 +96,11 @@ For more information, see <a href="https://msdn.microsoft.com/ea3a1998-9e31-4047
 
 ## -see-also
 
-<<<<<<< HEAD
 <a href="..\parallel\ni-parallel-ioctl_internal_get_parallel_port_info.md">IOCTL_INTERNAL_GET_PARALLEL_PORT_INFO</a>
 
 
 
 <a href="..\parallel\ni-parallel-ioctl_internal_parallel_port_allocate.md">IOCTL_INTERNAL_PARALLEL_PORT_ALLOCATE</a>
-=======
-<a href="..\parallel\ni-parallel-ioctl_internal_parallel_port_allocate.md">IOCTL_INTERNAL_PARALLEL_PORT_ALLOCATE</a>
-
-
-
-<a href="..\parallel\ns-parallel-_parallel_port_information.md">PARALLEL_PORT_INFORMATION</a>
->>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
 
 
 

@@ -7,7 +7,7 @@ old-location: netvista\rilmsgserviceinfoparammask.htm
 old-project: netvista
 ms.assetid: 9314909a-4580-49f9-b587-4d5e70ff0d4f
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 2/27/2018
 ms.keywords: RILMSGSERVICEINFOPARAMMASK, RILMSGSERVICEINFOPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_MSI_ALL, RIL_PARAM_MSI_STORETOTAL, RIL_PARAM_MSI_STOREUSED, netvista.rilmsgserviceinfoparammask, ntddrilapitypes/RILMSGSERVICEINFOPARAMMASK, ntddrilapitypes/RIL_PARAM_MSI_ALL, ntddrilapitypes/RIL_PARAM_MSI_STORETOTAL, ntddrilapitypes/RIL_PARAM_MSI_STOREUSED
 ms.prod: windows-hardware
 ms.technology: windows-devices

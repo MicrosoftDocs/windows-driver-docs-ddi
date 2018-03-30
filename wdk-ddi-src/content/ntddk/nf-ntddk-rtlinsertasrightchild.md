@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: See Remarks section.
 topic_type:
@@ -120,27 +120,19 @@ Callers of <b>RtlInsertAsRightChild</b> must be running at IRQL &lt;= DISPATCH_L
 
 
 
-<<<<<<< HEAD
 <a href="..\ntddk\nf-ntddk-rtlparent.md">RtlParent</a>
-=======
+
+
+
 <a href="..\ntddk\nf-ntddk-rtlsplay.md">RtlSplay</a>
->>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
+
+
+
+<a href="..\ntddk\nf-ntddk-rtlinitializesplaylinks.md">RtlInitializeSplayLinks</a>
 
 
 
 <a href="..\ntddk\nf-ntddk-rtlisroot.md">RtlIsRoot</a>
-
-
-
-<<<<<<< HEAD
-<a href="..\ntddk\nf-ntddk-rtlinitializesplaylinks.md">RtlInitializeSplayLinks</a>
-=======
-<a href="..\ntddk\nf-ntddk-rtlparent.md">RtlParent</a>
->>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
-
-
-
-<a href="..\ntddk\nf-ntddk-rtlrightchild.md">RtlRightChild</a>
 
 
 

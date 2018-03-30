@@ -116,6 +116,7 @@ The <i>ResourceCopyRegion</i> function copies a source subresource region to a l
 
 
 #### - hDevice [in]
+<<<<<<< HEAD
 
  A handle to the display device (graphics context).
 
@@ -124,6 +125,16 @@ The <i>ResourceCopyRegion</i> function copies a source subresource region to a l
 
  A handle to the destination resource to copy to.
 
+=======
+
+ A handle to the display device (graphics context).
+
+
+#### - hDstResource [in]
+
+ A handle to the destination resource to copy to.
+
+>>>>>>> parent of 2d896a8e266... Added changes
 
 #### - hSrcResource [in]
 

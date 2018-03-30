@@ -7,7 +7,7 @@ old-location: netvista\ndis_rss_processor_info.htm
 old-project: netvista
 ms.assetid: 7f40a815-0247-428c-a46f-d3cdbf7e8058
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 2/27/2018
 ms.keywords: "*PNDIS_RSS_PROCESSOR_INFO, NDIS_RSS_PROCESSOR_INFO, NDIS_RSS_PROCESSOR_INFO structure [Network Drivers Starting with Windows Vista], PNDIS_RSS_PROCESSOR_INFO, PNDIS_RSS_PROCESSOR_INFO structure pointer [Network Drivers Starting with Windows Vista], _NDIS_RSS_PROCESSOR_INFO, ndis_processor_group_ref_de5d0ed6-e4b3-4074-8816-8ab3c3ff0c4d.xml, netvista.ndis_rss_processor_info, ntddndis/NDIS_RSS_PROCESSOR_INFO, ntddndis/PNDIS_RSS_PROCESSOR_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -186,3 +186,8 @@ NDIS network drivers use the <b>NDIS_RSS_PROCESSOR_INFO</b> structure in calls t
 
  
 
+<<<<<<< HEAD
+=======
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_RSS_PROCESSOR_INFO structure%20 RELEASE:%20(2/27/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+
+>>>>>>> parent of 2d896a8e266... Added changes

@@ -85,7 +85,11 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 
+<<<<<<< HEAD
 <a href="https://msdn.microsoft.com/library/windows/hardware/jj156038">KSEVENT_CAMERACONTROL_ZOOM</a>
+=======
+<a href="..\ksmedia\ns-ksmedia-ksproperty_cameracontrol_s_ex.md">KSPROPERTY_CAMERACONTROL_S_EX</a>
+>>>>>>> parent of 2d896a8e266... Added changes
 
 
 

@@ -1,4 +1,4 @@
-# [buses](../_buses/index.md)
+# [Universal Serial Bus (USB)](../_usbref/index.md)
 ## [Usbioctl.h](index.md)
 ### [_USB_CONNECTION_STATUS enumeration](../usbioctl/ne-usbioctl-_usb_connection_status.md)
 ### [_USB_HUB_NODE enumeration](../usbioctl/ne-usbioctl-_usb_hub_node.md)

@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: ntddk.h
 req.dll: 
 req.irql: See Remarks section.
 topic_type:
@@ -87,15 +87,11 @@ Callers of <b>RtlIsLeftChild</b> can be running at IRQL &lt;= DISPATCH_LEVEL if 
 
 ## -see-also
 
-<<<<<<< HEAD
 <a href="..\ntddk\nf-ntddk-rtlsplay.md">RtlSplay</a>
 
 
 
 <a href="..\ntddk\nf-ntddk-rtlinitializesplaylinks.md">RtlInitializeSplayLinks</a>
-=======
-<a href="..\ntddk\nf-ntddk-rtlleftchild.md">RtlLeftChild</a>
->>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
 
 
 
@@ -108,10 +104,6 @@ Callers of <b>RtlIsLeftChild</b> can be running at IRQL &lt;= DISPATCH_LEVEL if 
 
 
 <a href="..\ntddk\nf-ntddk-rtlleftchild.md">RtlLeftChild</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-rtlisrightchild.md">RtlIsRightChild</a>
 
 
 

@@ -119,11 +119,7 @@ A WHEA_GENERIC_ERROR structure is included in the <b>RawData</b> member of a <a 
 
 
 
-<<<<<<< HEAD
 <a href="..\ntddk\ns-ntddk-_whea_generic_error_blockstatus.md">WHEA_GENERIC_ERROR_BLOCKSTATUS</a>
-=======
-<a href="..\ntddk\ns-ntddk-_whea_generic_error_descriptor.md">WHEA_GENERIC_ERROR_DESCRIPTOR</a>
->>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
 
 
 

@@ -7,7 +7,7 @@ old-location: netvista\ril_setradiostatedetails.htm
 old-project: netvista
 ms.assetid: 5936bbbe-452c-4d68-ad22-e65671351f78
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 2/27/2018
 ms.keywords: RIL_SetRadioStateDetails, RIL_SetRadioStateDetails method [Network Drivers Starting with Windows Vista], netvista.ril_setradiostatedetails, rilapi/RIL_SetRadioStateDetails
 ms.prod: windows-hardware
 ms.technology: windows-devices

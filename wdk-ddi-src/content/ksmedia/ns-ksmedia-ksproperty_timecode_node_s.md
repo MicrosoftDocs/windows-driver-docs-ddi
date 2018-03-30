@@ -69,6 +69,10 @@ Specifies the timecode sample. Timecode, absolute track number (ATN) and relativ
 
 ## -see-also
 
+<<<<<<< HEAD
+=======
+<a href="..\ksmedia\ns-ksmedia-tagtimecode_sample.md">TIMECODE_SAMPLE</a>
+>>>>>>> parent of 2d896a8e266... Added changes
 
 
 
@@ -76,7 +80,11 @@ Specifies the timecode sample. Timecode, absolute track number (ATN) and relativ
 
 
 
+<<<<<<< HEAD
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565781">KSPROPERTY_TIMECODE_S</a>
+=======
+<a href="..\ksmedia\ns-ksmedia-ksproperty_timecode_s.md">KSPROPERTY_TIMECODE_S</a>
+>>>>>>> parent of 2d896a8e266... Added changes
 
 
 

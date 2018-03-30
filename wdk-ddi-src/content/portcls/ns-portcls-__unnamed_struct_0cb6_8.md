@@ -115,11 +115,7 @@ For a simple code example that shows how the <b>PCNODE_DESCRIPTOR</b> structure 
 
 
 
-<<<<<<< HEAD
 <a href="..\portcls\ns-portcls-__unnamed_struct_0cb6_6.md">PCAUTOMATION_TABLE</a>
-=======
-<a href="..\portcls\ns-portcls-__unnamed_struct_0cb6_9.md">PCFILTER_DESCRIPTOR</a>
->>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
 
 
 

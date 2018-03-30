@@ -7,7 +7,7 @@ old-location: debugger\idebugeventcallbacks_changesymbolstate.htm
 old-project: debugger
 ms.assetid: 5383bd49-df44-48dd-8385-c782a1b1f80a
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 2/27/2018
 ms.keywords: ChangeSymbolState method [Windows Debugging], ChangeSymbolState method [Windows Debugging], IDebugEventCallbacks interface, ChangeSymbolState,IDebugEventCallbacks.ChangeSymbolState, ComCallbacks_693f0465-088e-4f3d-a8a4-89e8803d0227.xml, IDebugEventCallbacks, IDebugEventCallbacks interface [Windows Debugging], ChangeSymbolState method, IDebugEventCallbacks::ChangeSymbolState, dbgeng/IDebugEventCallbacks::ChangeSymbolState, debugger.idebugeventcallbacks_changesymbolstate
 ms.prod: windows-hardware
 ms.technology: windows-devices

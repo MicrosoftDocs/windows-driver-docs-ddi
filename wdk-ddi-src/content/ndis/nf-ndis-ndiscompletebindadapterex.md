@@ -7,7 +7,7 @@ old-location: netvista\ndiscompletebindadapterex.htm
 old-project: netvista
 ms.assetid: e52c7aeb-bbd8-402e-94af-f74df6deb23c
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 2/27/2018
 ms.keywords: NdisCompleteBindAdapterEx, NdisCompleteBindAdapterEx function [Network Drivers Starting with Windows Vista], ndis/NdisCompleteBindAdapterEx, netvista.ndiscompletebindadapterex, protocol_ndis_functions_ref_11cc35a5-fa39-4922-a00d-c4ccb634ea88.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -138,3 +138,8 @@ If the open operation was successful, the protocol driver is ready to accept rec
 
  
 
+<<<<<<< HEAD
+=======
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisCompleteBindAdapterEx function%20 RELEASE:%20(2/27/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+
+>>>>>>> parent of 2d896a8e266... Added changes

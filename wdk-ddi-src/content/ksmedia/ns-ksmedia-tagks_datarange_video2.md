@@ -110,7 +110,11 @@ This structure should be used instead of a <a href="https://msdn.microsoft.com/l
 
 
 
+<<<<<<< HEAD
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567702">KS_VIDEOINFOHEADER2</a>
+=======
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561658">KSDATARANGE</a>
+>>>>>>> parent of 2d896a8e266... Added changes
 
 
 

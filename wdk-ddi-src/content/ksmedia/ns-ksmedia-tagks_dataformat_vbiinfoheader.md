@@ -78,10 +78,18 @@ This structure is used when a connection to a VBI pin is being proposed.
 
 ## -see-also
 
+<<<<<<< HEAD
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561656">KSDATAFORMAT</a>
+=======
+<a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a>
+
+
+
+<a href="..\ksmedia\ns-ksmedia-tagks_vbiinfoheader.md">KS_VBIINFOHEADER</a>
+>>>>>>> parent of 2d896a8e266... Added changes
 
 
 

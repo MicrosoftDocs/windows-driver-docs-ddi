@@ -7,7 +7,7 @@ old-location: kernel\rtlunicodetoutf8n.htm
 old-project: kernel
 ms.assetid: fdbb5d74-25d5-4920-849c-8d4adce1d216
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 2/24/2018
 ms.keywords: RtlUnicodeToUTF8N, RtlUnicodeToUTF8N routine [Kernel-Mode Driver Architecture], k109_8c33089a-9b47-4c33-9468-56a16caea229.xml, kernel.rtlunicodetoutf8n, wdm/RtlUnicodeToUTF8N
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -188,5 +188,5 @@ You can use <b>RtlUnicodeToUTF8N</b> and <b>RtlUTF8ToUnicode</b> routines to per
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20RtlUnicodeToUTF8N routine%20 RELEASE:%20(3/1/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20RtlUnicodeToUTF8N routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

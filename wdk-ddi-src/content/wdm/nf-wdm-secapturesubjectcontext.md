@@ -101,7 +101,6 @@ For more information about security and access control, see the documentation on
 
 ## -see-also
 
-<<<<<<< HEAD
 <a href="..\ntifs\nf-ntifs-sequerysubjectcontexttoken.md">SeQuerySubjectContextToken</a>
 
 
@@ -115,21 +114,6 @@ For more information about security and access control, see the documentation on
 
 
 <a href="..\ntifs\nf-ntifs-seprivilegecheck.md">SePrivilegeCheck</a>
-=======
-<a href="..\wdm\nf-wdm-selocksubjectcontext.md">SeLockSubjectContext</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-sequerysubjectcontexttoken.md">SeQuerySubjectContextToken</a>
-
-
-
-<a href="..\wdm\nf-wdm-seunlocksubjectcontext.md">SeUnlockSubjectContext</a>
-
-
-
-<a href="..\wdm\ns-wdm-_security_subject_context.md">SECURITY_SUBJECT_CONTEXT</a>
->>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
 
 
 
@@ -137,11 +121,7 @@ For more information about security and access control, see the documentation on
 
 
 
-<<<<<<< HEAD
 <a href="..\wdm\nf-wdm-selocksubjectcontext.md">SeLockSubjectContext</a>
-=======
-<a href="..\ntifs\nf-ntifs-seprivilegecheck.md">SePrivilegeCheck</a>
->>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
 
 
 

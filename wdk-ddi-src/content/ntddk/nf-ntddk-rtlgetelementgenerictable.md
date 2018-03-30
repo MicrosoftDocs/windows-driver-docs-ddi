@@ -110,7 +110,6 @@ Callers of <b>RtlGetElementGenericTable</b> must be running at IRQL &lt; DISPATC
 
 ## -see-also
 
-<<<<<<< HEAD
 <a href="..\ntddk\nf-ntddk-rtlenumerategenerictablewithoutsplaying.md">RtlEnumerateGenericTableWithoutSplaying</a>
 
 
@@ -124,29 +123,14 @@ Callers of <b>RtlGetElementGenericTable</b> must be running at IRQL &lt; DISPATC
 
 
 <a href="..\ntddk\nf-ntddk-rtlnumbergenerictableelements.md">RtlNumberGenericTableElements</a>
-=======
+
+
+
 <a href="..\ntddk\nf-ntddk-rtlinitializegenerictable.md">RtlInitializeGenericTable</a>
 
 
 
-<a href="..\ntddk\nf-ntddk-rtlnumbergenerictableelements.md">RtlNumberGenericTableElements</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-rtlinsertelementgenerictable.md">RtlInsertElementGenericTable</a>
-
-
-
 <a href="..\ntddk\nf-ntddk-rtldeleteelementgenerictable.md">RtlDeleteElementGenericTable</a>
->>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
-
-
-
-<a href="..\ntddk\nf-ntddk-rtlenumerategenerictablewithoutsplaying.md">RtlEnumerateGenericTableWithoutSplaying</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-rtllookupelementgenerictable.md">RtlLookupElementGenericTable</a>
 
 
 

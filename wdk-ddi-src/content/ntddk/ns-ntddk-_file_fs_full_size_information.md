@@ -127,7 +127,7 @@ This structure must be aligned on a LONGLONG (8-byte) boundary.
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-zwqueryvolumeinformationfile.md">ZwQueryVolumeInformationFile</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549318">IRP_MJ_QUERY_VOLUME_INFORMATION</a>
 
 
 
@@ -135,11 +135,7 @@ This structure must be aligned on a LONGLONG (8-byte) boundary.
 
 
 
-<<<<<<< HEAD
 <a href="..\ntifs\nf-ntifs-zwqueryvolumeinformationfile.md">ZwQueryVolumeInformationFile</a>
-=======
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549318">IRP_MJ_QUERY_VOLUME_INFORMATION</a>
->>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
 
 
 

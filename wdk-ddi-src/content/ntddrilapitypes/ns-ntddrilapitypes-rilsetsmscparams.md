@@ -7,7 +7,7 @@ old-location: netvista\rilsetsmscparams.htm
 old-project: netvista
 ms.assetid: ebfb768a-fa6b-4781-96e1-787278237d5f
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 2/27/2018
 ms.keywords: "*LPRILSETSMSCPARAMS, RILSETSMSCPARAMS, RILSETSMSCPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilsetsmscparams, ntddrilapitypes/RILSETSMSCPARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices

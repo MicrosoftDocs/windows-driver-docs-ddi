@@ -2,7 +2,7 @@
 UID: NA:strmini
 ms.assetid: 5ad00d3a-f0d1-3a8a-b3a7-7b92cf31e96c
 ms.author: windowsdriverdev
-ms.date: 03/13/18
+ms.date: 02/27/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

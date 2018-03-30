@@ -87,15 +87,9 @@ A ULONG representation of the contents of the PCI_EXPRESS_AER_CAPABILITIES struc
 
 
 #### - ECRCCheckCapable
-<<<<<<< HEAD
 
 A single bit that indicates that the device is capable of checking ECRC.
 
-=======
-
-A single bit that indicates that the device is capable of checking ECRC.
-
->>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
 
 #### - ECRCCheckEnable
 
@@ -135,11 +129,7 @@ A PCI_EXPRESS_AER_CAPABILITIES structure is contained in the <a href="https://ms
 
 ## -see-also
 
-<<<<<<< HEAD
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537457">PCI_EXPRESS_AER_CAPABILITY</a>
-=======
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537472">PCI_EXPRESS_ROOTPORT_AER_CAPABILITY</a>
->>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
 
 
 
@@ -147,7 +137,7 @@ A PCI_EXPRESS_AER_CAPABILITIES structure is contained in the <a href="https://ms
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537457">PCI_EXPRESS_AER_CAPABILITY</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537472">PCI_EXPRESS_ROOTPORT_AER_CAPABILITY</a>
 
 
 

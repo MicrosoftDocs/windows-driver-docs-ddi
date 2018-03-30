@@ -7,7 +7,7 @@ old-location: netvista\rilsignalqualitycaps.htm
 old-project: netvista
 ms.assetid: 5d42e083-d1a9-455a-8511-9aef37908ab7
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 2/27/2018
 ms.keywords: RILSIGNALQUALITYCAPS, RILSIGNALQUALITYCAPS enumeration [Network Drivers Starting with Windows Vista], RIL_CAPS_SIGNALQUALITY_MAX, RIL_CAPS_SIGNALQUALITY_POLLING, netvista.rilsignalqualitycaps, ntddrilapitypes/RILSIGNALQUALITYCAPS, ntddrilapitypes/RIL_CAPS_SIGNALQUALITY_MAX, ntddrilapitypes/RIL_CAPS_SIGNALQUALITY_POLLING
 ms.prod: windows-hardware
 ms.technology: windows-devices

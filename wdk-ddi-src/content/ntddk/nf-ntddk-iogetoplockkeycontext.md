@@ -97,11 +97,7 @@ Use the <b>IoGetOplockKeyContext</b> routine only in Windows 7. Because  <a hre
 
 
 
-<<<<<<< HEAD
 <a href="..\ntddk\nf-ntddk-iogetoplockkeycontextex.md">IoGetOplockKeyContextEx</a>
-=======
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551003">OPLOCK_KEY_ECP_CONTEXT</a>
->>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
 
 
 
@@ -109,11 +105,7 @@ Use the <b>IoGetOplockKeyContext</b> routine only in Windows 7. Because  <a hre
 
 
 
-<<<<<<< HEAD
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh406392">DUAL_OPLOCK_KEY_ECP_CONTEXT</a>
-=======
-<a href="..\ntddk\ns-ntddk-_oplock_key_context.md">OPLOCK_KEY_CONTEXT</a>
->>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
 
 
 

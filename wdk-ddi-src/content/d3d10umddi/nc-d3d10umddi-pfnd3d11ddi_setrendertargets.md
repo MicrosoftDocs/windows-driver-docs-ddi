@@ -110,11 +110,19 @@ Indicates the start element, in the array of bind points, where the passed unord
 
 <div class="alert"><b>Note</b>  Only one shared set of binding points exists for render target views (RTVs) and UAVs. RTVs are bound first, followed by UAVs.</div>
 <div> </div>
+<<<<<<< HEAD
 
 #### - UAVNumberUpdated [in]
 
  The number of unordered access view objects (UAVs) in the set of all updated UAVs (which includes <b>NULL</b> bindings). 
 
+=======
+
+#### - UAVNumberUpdated [in]
+
+ The number of unordered access view objects (UAVs) in the set of all updated UAVs (which includes <b>NULL</b> bindings). 
+
+>>>>>>> parent of 2d896a8e266... Added changes
 <div class="alert"><b>Note</b>  The parameters <i>UAVNumberUpdated</i> and  <i>UAVFirsttoSet</i> specify which range, in the  UAVs array, contains changes in relation to the state previously bound. Notice that points in the range could be unchanged. Also, update range indexing is not different from other parameters. For example, <i>UAVFirsttoSet</i>      starts at 0 as the first element of the shared render target view (RTV) and UAV bound space. This parameter is a convenience that reveals the span of what actually changed given that the Direct3D DDI always binds everything (including what has not changed).</div>
 <div> </div>
 

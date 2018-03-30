@@ -7,7 +7,7 @@ old-location: debugger\setflags.htm
 old-project: debugger
 ms.assetid: 126741ba-b373-466e-986d-44e33c841eee
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 2/27/2018
 ms.keywords: ComOther_0fb1a5d9-2c1f-4966-9838-e7d0ae17a43f.xml, IDebugBreakpoint, IDebugBreakpoint interface [Windows Debugging], SetFlags method, IDebugBreakpoint2 interface [Windows Debugging], SetFlags method, IDebugBreakpoint2::SetFlags, IDebugBreakpoint::SetFlags, SetFlags method [Windows Debugging], SetFlags method [Windows Debugging], IDebugBreakpoint interface, SetFlags method [Windows Debugging], IDebugBreakpoint2 interface, SetFlags,IDebugBreakpoint.SetFlags, dbgeng/IDebugBreakpoint2::SetFlags, dbgeng/IDebugBreakpoint::SetFlags, debugger.setflags
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: netvista\ndis_wwan_context_state.htm
 old-project: netvista
 ms.assetid: 7918ee03-c1cb-4a38-8773-4a01832357d2
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 2/27/2018
 ms.keywords: "*PNDIS_WWAN_CONTEXT_STATE, NDIS_WWAN_CONTEXT_STATE, NDIS_WWAN_CONTEXT_STATE structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_CONTEXT_STATE, PNDIS_WWAN_CONTEXT_STATE structure pointer [Network Drivers Starting with Windows Vista], WwanRef_87098fc7-4dbd-4331-81a4-53d425cc0bb0.xml, _NDIS_WWAN_CONTEXT_STATE, ndiswwan/NDIS_WWAN_CONTEXT_STATE, ndiswwan/PNDIS_WWAN_CONTEXT_STATE, netvista.ndis_wwan_context_state"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -331,3 +331,8 @@ A formatted
 
  
 
+<<<<<<< HEAD
+=======
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_WWAN_CONTEXT_STATE structure%20 RELEASE:%20(2/27/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+
+>>>>>>> parent of 2d896a8e266... Added changes

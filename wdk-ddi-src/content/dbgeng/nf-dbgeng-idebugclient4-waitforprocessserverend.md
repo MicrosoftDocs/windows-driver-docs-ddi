@@ -7,7 +7,7 @@ old-location: debugger\waitforprocessserverend.htm
 old-project: debugger
 ms.assetid: 19573307-0192-47bd-86a0-9c7721d16c5e
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 2/27/2018
 ms.keywords: IDebugClient2 interface [Windows Debugging], WaitForProcessServerEnd method, IDebugClient2::WaitForProcessServerEnd, IDebugClient3 interface [Windows Debugging], WaitForProcessServerEnd method, IDebugClient3::WaitForProcessServerEnd, IDebugClient4, IDebugClient4 interface [Windows Debugging], WaitForProcessServerEnd method, IDebugClient4::WaitForProcessServerEnd, IDebugClient5 interface [Windows Debugging], WaitForProcessServerEnd method, IDebugClient5::WaitForProcessServerEnd, IDebugClient_ac54327c-85c5-41ab-906f-605d374a0e2d.xml, WaitForProcessServerEnd method [Windows Debugging], WaitForProcessServerEnd method [Windows Debugging], IDebugClient2 interface, WaitForProcessServerEnd method [Windows Debugging], IDebugClient3 interface, WaitForProcessServerEnd method [Windows Debugging], IDebugClient4 interface, WaitForProcessServerEnd method [Windows Debugging], IDebugClient5 interface, WaitForProcessServerEnd,IDebugClient4.WaitForProcessServerEnd, dbgeng/IDebugClient2::WaitForProcessServerEnd, dbgeng/IDebugClient3::WaitForProcessServerEnd, dbgeng/IDebugClient4::WaitForProcessServerEnd, dbgeng/IDebugClient5::WaitForProcessServerEnd, debugger.waitforprocessserverend
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -147,3 +147,8 @@ The constant INFINITE is defined in Winbase.h.
 
  
 
+<<<<<<< HEAD
+=======
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugClient2::WaitForProcessServerEnd method%20 RELEASE:%20(2/27/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+
+>>>>>>> parent of 2d896a8e266... Added changes

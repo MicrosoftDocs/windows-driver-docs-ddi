@@ -171,11 +171,11 @@ Applications that create and delete partitions and require full descriptions of 
 
 
 
-<a href="..\ntddk\nf-ntddk-iosetpartitioninformation.md">IoSetPartitionInformation</a>
-
-
-
 <a href="..\wdm\nf-wdm-iocreatedevice.md">IoCreateDevice</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-iosetpartitioninformation.md">IoSetPartitionInformation</a>
 
 
 

@@ -46,6 +46,11 @@ req.typenames: SD_REQUEST_FUNCTION
 # IOCTL_SERIAL_INTERNAL_CANCEL_WAIT_WAKE IOCTL
 
 
+##  Major Code: 
+
+
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
+
 ## -description
 
 

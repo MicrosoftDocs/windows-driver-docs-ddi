@@ -7,7 +7,7 @@ old-location: netvista\ndisifdeleteifstackentry.htm
 old-project: netvista
 ms.assetid: 02b4a485-d44b-458c-89f5-1807500b6db8
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 2/27/2018
 ms.keywords: NdisIfDeleteIfStackEntry, NdisIfDeleteIfStackEntry function [Network Drivers Starting with Windows Vista], ndis/NdisIfDeleteIfStackEntry, net_if_functions_ref_dc4a2189-1dc6-43c5-8cef-baf5907d3d60.xml, netvista.ndisifdeleteifstackentry
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -107,3 +107,8 @@ NDIS maintains an interface stack table (<i>ifStackTable</i> from
 
  
 
+<<<<<<< HEAD
+=======
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisIfDeleteIfStackEntry function%20 RELEASE:%20(2/27/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+
+>>>>>>> parent of 2d896a8e266... Added changes

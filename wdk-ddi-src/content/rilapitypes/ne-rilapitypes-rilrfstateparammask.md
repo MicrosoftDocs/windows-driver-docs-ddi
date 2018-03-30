@@ -7,7 +7,7 @@ old-location: netvista\rilrfstateparammask.htm
 old-project: netvista
 ms.assetid: 53cd2444-fda7-4e1f-b2d3-23ab20955a0e
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 2/27/2018
 ms.keywords: RILRFSTATEPARAMMASK, RILRFSTATEPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_RFSTATE_ALL, RIL_PARAM_RFSTATE_RFDATA, RIL_PARAM_RFSTATE_RFDATASIZE, RIL_PARAM_RFSTATE_RFSTATE, netvista.rilrfstateparammask, ntddrilapitypes/RILRFSTATEPARAMMASK, ntddrilapitypes/RIL_PARAM_RFSTATE_ALL, ntddrilapitypes/RIL_PARAM_RFSTATE_RFDATA, ntddrilapitypes/RIL_PARAM_RFSTATE_RFDATASIZE, ntddrilapitypes/RIL_PARAM_RFSTATE_RFSTATE
 ms.prod: windows-hardware
 ms.technology: windows-devices

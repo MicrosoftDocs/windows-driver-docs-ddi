@@ -85,19 +85,15 @@ For more information about some of the possible baud rates that a serial control
 
 ## -see-also
 
-<<<<<<< HEAD
 <a href="..\ntddser\ni-ntddser-ioctl_serial_get_baud_rate.md">IOCTL_SERIAL_GET_BAUD_RATE</a>
-=======
+
+
+
+<a href="..\ntddser\ns-ntddser-_serial_commprop.md">SERIAL_COMMPROP</a>
+
+
+
 <a href="..\ntddser\ni-ntddser-ioctl_serial_set_baud_rate.md">IOCTL_SERIAL_SET_BAUD_RATE</a>
->>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
-
-
-
-<a href="..\ntddser\ns-ntddser-_serial_commprop.md">SERIAL_COMMPROP</a>
-
-
-
-<a href="..\ntddser\ns-ntddser-_serial_commprop.md">SERIAL_COMMPROP</a>
 
 
 

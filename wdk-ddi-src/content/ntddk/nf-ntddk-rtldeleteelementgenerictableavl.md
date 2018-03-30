@@ -118,11 +118,11 @@ The caller-supplied <i>CompareRoutine</i> or <i>FreeRoutine</i> contains pageabl
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-rtlinitializegenerictableavl.md">RtlInitializeGenericTableAvl</a>
-
-
-
 <a href="..\ntddk\nf-ntddk-rtlinsertelementgenerictableavl.md">RtlInsertElementGenericTableAvl</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-rtlinitializegenerictableavl.md">RtlInitializeGenericTableAvl</a>
 
 
 

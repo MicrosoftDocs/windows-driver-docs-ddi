@@ -7,7 +7,7 @@ old-location: netvista\rilcardappaddedparammask.htm
 old-project: netvista
 ms.assetid: 6097b40d-2f86-4f87-bf57-191371ec943d
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 2/27/2018
 ms.keywords: RILCARDAPPADDEDPARAMMASK, RILCARDAPPADDEDPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_CARDAPPADDED_ALL, RIL_PARAM_CARDAPPADDED_UICCAPPINFO, netvista.rilcardappaddedparammask, ntddrilapitypes/RILCARDAPPADDEDPARAMMASK, ntddrilapitypes/RIL_PARAM_CARDAPPADDED_ALL, ntddrilapitypes/RIL_PARAM_CARDAPPADDED_UICCAPPINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices

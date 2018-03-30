@@ -147,11 +147,7 @@ A PCI_EXPRESS_CORRECTABLE_ERROR_STATUS structure is contained in the <a href="ht
 
 ## -see-also
 
-<<<<<<< HEAD
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537457">PCI_EXPRESS_AER_CAPABILITY</a>
-=======
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537472">PCI_EXPRESS_ROOTPORT_AER_CAPABILITY</a>
->>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
 
 
 
@@ -159,7 +155,7 @@ A PCI_EXPRESS_CORRECTABLE_ERROR_STATUS structure is contained in the <a href="ht
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537457">PCI_EXPRESS_AER_CAPABILITY</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537472">PCI_EXPRESS_ROOTPORT_AER_CAPABILITY</a>
 
 
 

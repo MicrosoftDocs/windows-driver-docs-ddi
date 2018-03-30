@@ -97,13 +97,10 @@ Callers of <b>RtlSplay</b> must be running at IRQL &lt;= DISPATCH_LEVEL if the t
 
 ## -see-also
 
-<<<<<<< HEAD
 <a href="..\ntddk\nf-ntddk-rtldelete.md">RtlDelete</a>
 
 
 
-=======
->>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
 <a href="..\ntddk\nf-ntddk-rtlinitializesplaylinks.md">RtlInitializeSplayLinks</a>
 
 
@@ -113,10 +110,6 @@ Callers of <b>RtlSplay</b> must be running at IRQL &lt;= DISPATCH_LEVEL if the t
 
 
 <a href="..\ntddk\nf-ntddk-rtlinsertasleftchild.md">RtlInsertAsLeftChild</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-rtlinsertasrightchild.md">RtlInsertAsRightChild</a>
 
 
 

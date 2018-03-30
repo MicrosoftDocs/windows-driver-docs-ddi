@@ -7,7 +7,7 @@ old-location: kernel\pushentrylist.htm
 old-project: kernel
 ms.assetid: 19f387d3-6c00-4c71-8114-61c53654613c
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 2/24/2018
 ms.keywords: PushEntryList, PushEntryList routine [Kernel-Mode Driver Architecture], k109_17626baa-0fb7-4492-9e9c-a25b78b808fb.xml, kernel.pushentrylist, wdm/PushEntryList
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: Any level (See Remarks section)
 topic_type:
@@ -103,15 +103,11 @@ Callers of <b>PushEntryList</b> can be running at any IRQL. If <b>PushEntryList<
 
 ## -see-also
 
-<<<<<<< HEAD
 <a href="..\wudfwdm\nf-wudfwdm-popentrylist.md">PopEntryList</a>
-=======
+
+
+
 <a href="..\wdm\nf-wdm-exinterlockedpushentrylist.md">ExInterlockedPushEntryList</a>
->>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
-
-
-
-<a href="..\wudfwdm\nf-wudfwdm-popentrylist.md">PopEntryList</a>
 
 
 
@@ -119,5 +115,5 @@ Callers of <b>PushEntryList</b> can be running at any IRQL. If <b>PushEntryList<
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PushEntryList routine%20 RELEASE:%20(3/1/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PushEntryList routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

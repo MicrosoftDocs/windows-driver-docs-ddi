@@ -46,6 +46,11 @@ req.typenames: HPMI_HINT_BOOL, *PHPMI_HINT_BOOL
 # IOCTL_HPMI_QUERY_CAPABILITIES IOCTL
 
 
+##  Major Code: 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548649">IRP_MJ_DEVICE_CONTROL</a>
+
 ## -description
 
 
@@ -112,7 +117,7 @@ subsequent IOCTL calls.
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
 
 
 
@@ -120,23 +125,15 @@ subsequent IOCTL calls.
 
 
 
-<<<<<<< HEAD
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff542894">Creating IOCTL Requests in Drivers</a>
-=======
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
->>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff542894">Creating IOCTL Requests in Drivers</a>
 
 
 
-<<<<<<< HEAD
+<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
+
+
+
 <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
-=======
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
->>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
 
 
 

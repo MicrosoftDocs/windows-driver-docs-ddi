@@ -7,7 +7,7 @@ old-location: netvista\ndisgetcurrentprocessorcounts.htm
 old-project: netvista
 ms.assetid: 43a75def-0288-4615-ac85-b5e340aa11e6
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 2/27/2018
 ms.keywords: NdisGetCurrentProcessorCounts, NdisGetCurrentProcessorCounts function [Network Drivers Starting with Windows Vista], ndis/NdisGetCurrentProcessorCounts, ndis_sysinfo_ref_dab49118-724d-43e8-8d8d-05ebc7220f22.xml, netvista.ndisgetcurrentprocessorcounts
 ms.prod: windows-hardware
 ms.technology: windows-devices

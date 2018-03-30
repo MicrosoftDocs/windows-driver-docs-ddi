@@ -145,10 +145,18 @@ Support for this member started with Windows 10 and WDDM 2.0.
 #### - MaximumRenamingListLength
 
 [out] The maximum length of the renaming list for the allocation. For more information about the renaming list, see <a href="https://msdn.microsoft.com/f22e19ba-9ff3-4aa1-a3f0-103f67ea7c60">Requesting to Rename an Allocation</a>.
+<<<<<<< HEAD
+=======
+
+Support for this member started with Windows 10 and the WDDM v2.
+>>>>>>> parent of 2d896a8e266... Added changes
 
 Support for this member started with Windows 10 and the WDDM v2.
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> parent of 2d896a8e266... Added changes
 #### - PhysicalAdapterIndex
 
 [out] The index of the physical adapter. 

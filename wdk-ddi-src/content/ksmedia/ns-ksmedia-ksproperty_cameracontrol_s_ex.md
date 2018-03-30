@@ -155,11 +155,15 @@ When a requested camera focus operation is completed or is canceled, the driver 
 
 
 
+<<<<<<< HEAD
 <a href="https://msdn.microsoft.com/library/windows/hardware/jj151587">KSEVENT_CAMERACONTROL</a>
+=======
+<a href="..\ksmedia\ns-ksmedia-ksproperty_cameracontrol_flash_s.md">KSPROPERTY_CAMERACONTROL_FLASH_S</a>
+>>>>>>> parent of 2d896a8e266... Added changes
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
+<a href="..\ksmedia\ne-ksmedia-ksevent_cameracontrol.md">KSEVENT_CAMERACONTROL</a>
 
 
 
@@ -167,6 +171,7 @@ When a requested camera focus operation is completed or is canceled, the driver 
 
 
 
+<<<<<<< HEAD
 <a href="https://msdn.microsoft.com/library/windows/hardware/jj151592">KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_S</a>
 
 
@@ -176,6 +181,16 @@ When a requested camera focus operation is completed or is canceled, the driver 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
+=======
+<a href="..\ksmedia\ns-ksmedia-ksproperty_cameracontrol_videostabilization_mode_s.md">KSPROPERTY_CAMERACONTROL_VIDEOSTABILIZATION_MODE_S</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
+
+
+
+>>>>>>> parent of 2d896a8e266... Added changes
  
 
  

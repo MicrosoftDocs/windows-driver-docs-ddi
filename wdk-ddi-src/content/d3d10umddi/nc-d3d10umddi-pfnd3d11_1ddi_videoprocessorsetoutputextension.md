@@ -95,10 +95,18 @@ A handle to the video processor object that was created through a call to the <a
 
 
 #### - pData [in]
+<<<<<<< HEAD
+
+A pointer to a buffer that contains the private state data. 
+=======
+>>>>>>> parent of 2d896a8e266... Added changes
 
 A pointer to a buffer that contains the private state data. 
 
+<<<<<<< HEAD
+=======
 
+>>>>>>> parent of 2d896a8e266... Added changes
 
 <div class="alert"><b>Note</b>  The Direct3D runtime does not validate the private state data in the buffer before it calls the  <b>VideoProcessorSetOutputExtension</b> function</div>
 <div> </div>

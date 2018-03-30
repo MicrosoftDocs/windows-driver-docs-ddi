@@ -2,11 +2,7 @@
 UID: TP:gnss
 ms.assetid: c486e5b4-8800-3452-8ea3-63402b0ba48a
 ms.author: windowsdriverdev
-<<<<<<< HEAD
 ms.date: 03/21/18
-=======
-ms.date: 03/13/18
->>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

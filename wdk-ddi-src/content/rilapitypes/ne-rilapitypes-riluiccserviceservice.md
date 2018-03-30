@@ -7,7 +7,7 @@ old-location: netvista\riluiccserviceservice.htm
 old-project: netvista
 ms.assetid: 1aeb4642-d718-4e39-a6c7-dc33146c9687
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 2/27/2018
 ms.keywords: RILUICCSERVICESERVICE, RILUICCSERVICESERVICE enumeration [Network Drivers Starting with Windows Vista], RIL_UICCOPERATION_SERVICE_ACL, RIL_UICCOPERATION_SERVICE_BDN, RIL_UICCOPERATION_SERVICE_MAX, netvista.riluiccserviceservice, ntddrilapitypes/RILUICCSERVICESERVICE, ntddrilapitypes/RIL_UICCOPERATION_SERVICE_ACL, ntddrilapitypes/RIL_UICCOPERATION_SERVICE_BDN, ntddrilapitypes/RIL_UICCOPERATION_SERVICE_MAX
 ms.prod: windows-hardware
 ms.technology: windows-devices

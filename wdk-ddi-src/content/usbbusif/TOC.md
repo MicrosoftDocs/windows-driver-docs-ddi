@@ -1,4 +1,4 @@
-# [buses](../_buses/index.md)
+# [Universal Serial Bus (USB)](../_usbref/index.md)
 ## [Usbbusif.h](index.md)
 ### [PUSB_BUSIFFN_ENUM_LOG_ENTRY callback](../usbbusif/nc-usbbusif-pusb_busiffn_enum_log_entry.md)
 ### [PUSB_BUSIFFN_GETUSBDI_VERSION callback](../usbbusif/nc-usbbusif-pusb_busiffn_getusbdi_version.md)

@@ -7,7 +7,7 @@ old-location: debugger\adddumpinformationfile.htm
 old-project: debugger
 ms.assetid: c111eb7e-7c42-4848-89d3-177f240fff7f
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 2/27/2018
 ms.keywords: AddDumpInformationFile method [Windows Debugging], AddDumpInformationFile method [Windows Debugging], IDebugClient2 interface, AddDumpInformationFile method [Windows Debugging], IDebugClient3 interface, AddDumpInformationFile method [Windows Debugging], IDebugClient4 interface, AddDumpInformationFile method [Windows Debugging], IDebugClient5 interface, AddDumpInformationFile,IDebugClient3.AddDumpInformationFile, IDebugClient2 interface [Windows Debugging], AddDumpInformationFile method, IDebugClient2::AddDumpInformationFile, IDebugClient3, IDebugClient3 interface [Windows Debugging], AddDumpInformationFile method, IDebugClient3::AddDumpInformationFile, IDebugClient4 interface [Windows Debugging], AddDumpInformationFile method, IDebugClient4::AddDumpInformationFile, IDebugClient5 interface [Windows Debugging], AddDumpInformationFile method, IDebugClient5::AddDumpInformationFile, IDebugClient_11398d02-21c4-4ec5-9e1c-8e7e87808c35.xml, dbgeng/IDebugClient2::AddDumpInformationFile, dbgeng/IDebugClient3::AddDumpInformationFile, dbgeng/IDebugClient4::AddDumpInformationFile, dbgeng/IDebugClient5::AddDumpInformationFile, debugger.adddumpinformationfile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -151,3 +151,8 @@ For more information about crash dump files, see <a href="https://msdn.microsoft
 
  
 
+<<<<<<< HEAD
+=======
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugClient2::AddDumpInformationFile method%20 RELEASE:%20(2/27/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+
+>>>>>>> parent of 2d896a8e266... Added changes

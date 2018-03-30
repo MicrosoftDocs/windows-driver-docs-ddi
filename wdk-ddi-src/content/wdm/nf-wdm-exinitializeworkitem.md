@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: Any level
 topic_type:
@@ -144,31 +144,7 @@ Work items are a limited resource, and drivers should only allocate them as need
 
 
 
-<<<<<<< HEAD
 <a href="..\wdm\nf-wdm-ioallocateworkitem.md">IoAllocateWorkItem</a>
-=======
-<a href="..\wdm\nf-wdm-exfreepoolwithtag.md">ExFreePoolWithTag</a>
->>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
-
-
-
-<a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a>
-
-
-
-<<<<<<< HEAD
-<a href="..\wdm\nf-wdm-ioqueueworkitem.md">IoQueueWorkItem</a>
-
-
-
-<a href="..\wdm\nf-wdm-exfreepoolwithtag.md">ExFreePoolWithTag</a>
-=======
-<a href="..\wdm\nf-wdm-iofreeworkitem.md">IoFreeWorkItem</a>
-
-
-
-<a href="..\wdm\ns-wdm-_work_queue_item.md">WORK_QUEUE_ITEM</a>
->>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
 
 
 
@@ -176,11 +152,19 @@ Work items are a limited resource, and drivers should only allocate them as need
 
 
 
-<<<<<<< HEAD
-<a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a>
-=======
 <a href="..\wdm\nf-wdm-ioqueueworkitem.md">IoQueueWorkItem</a>
->>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
+
+
+
+<a href="..\wdm\nf-wdm-exfreepoolwithtag.md">ExFreePoolWithTag</a>
+
+
+
+<a href="..\wdm\nf-wdm-iofreeworkitem.md">IoFreeWorkItem</a>
+
+
+
+<a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a>
 
 
 

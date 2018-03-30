@@ -95,9 +95,15 @@ The <b>Get</b> method retrieves a property identified by a property-set GUID and
 
 
 #### - BytesReturned [out]
+<<<<<<< HEAD
 
 Pointer to a variable that receives the size, in bytes, of the data that <b>Get</b> stores in the buffer at <i>PropertyData</i>. 
 
+=======
+
+Pointer to a variable that receives the size, in bytes, of the data that <b>Get</b> stores in the buffer at <i>PropertyData</i>. 
+
+>>>>>>> parent of 2d896a8e266... Added changes
 
 #### - DataLength [in]
 

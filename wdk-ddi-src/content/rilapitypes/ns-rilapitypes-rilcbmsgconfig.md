@@ -7,7 +7,7 @@ old-location: netvista\rilcbmsgconfig.htm
 old-project: netvista
 ms.assetid: c59f26b7-47ce-4bf9-b678-a2bb48c69754
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 2/27/2018
 ms.keywords: "*LPRILCBMSGCONFIG, RILCBMSGCONFIG, RILCBMSGCONFIG structure [Network Drivers Starting with Windows Vista], netvista.rilcbmsgconfig, ntddrilapitypes/RILCBMSGCONFIG"
 ms.prod: windows-hardware
 ms.technology: windows-devices

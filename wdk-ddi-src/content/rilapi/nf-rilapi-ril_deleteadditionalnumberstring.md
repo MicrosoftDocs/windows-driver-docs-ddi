@@ -7,7 +7,7 @@ old-location: netvista\ril_deleteadditionalnumberstring.htm
 old-project: netvista
 ms.assetid: 6d115616-85d4-43f8-b0c8-ea5b5c2e4eff
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 2/27/2018
 ms.keywords: RIL_DeleteAdditionalNumberString, RIL_DeleteAdditionalNumberString method [Network Drivers Starting with Windows Vista], netvista.ril_deleteadditionalnumberstring, rilapi/RIL_DeleteAdditionalNumberString
 ms.prod: windows-hardware
 ms.technology: windows-devices

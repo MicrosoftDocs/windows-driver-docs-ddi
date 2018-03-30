@@ -7,7 +7,7 @@ old-location: kernel\kegetprocessorindexfromnumber.htm
 old-project: kernel
 ms.assetid: c7d8ca52-a1e1-4f5f-9ffe-d64cec47eac7
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 2/24/2018
 ms.keywords: KeGetProcessorIndexFromNumber, KeGetProcessorIndexFromNumber routine [Kernel-Mode Driver Architecture], k105_57b362f6-81dc-4630-a940-0d91577bf886.xml, kernel.kegetprocessorindexfromnumber, wdm/KeGetProcessorIndexFromNumber
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -98,7 +98,6 @@ The <a href="..\wdm\nf-wdm-kegetprocessornumberfromindex.md">KeGetProcessorNumbe
 
 ## -see-also
 
-<<<<<<< HEAD
 <a href="..\minitape\ns-minitape-_processor_number.md">PROCESSOR_NUMBER</a>
 
 
@@ -108,17 +107,6 @@ The <a href="..\wdm\nf-wdm-kegetprocessornumberfromindex.md">KeGetProcessorNumbe
 
 
 <a href="..\wdm\nf-wdm-kegetprocessornumberfromindex.md">KeGetProcessorNumberFromIndex</a>
-=======
-<a href="..\wdm\nf-wdm-kequeryactiveprocessorcountex.md">KeQueryActiveProcessorCountEx</a>
-
-
-
-<a href="..\wdm\nf-wdm-kegetprocessornumberfromindex.md">KeGetProcessorNumberFromIndex</a>
-
-
-
-<a href="..\minitape\ns-minitape-_processor_number.md">PROCESSOR_NUMBER</a>
->>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
 
 
 
@@ -126,5 +114,5 @@ The <a href="..\wdm\nf-wdm-kegetprocessornumberfromindex.md">KeGetProcessorNumbe
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20KeGetProcessorIndexFromNumber routine%20 RELEASE:%20(3/1/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20KeGetProcessorIndexFromNumber routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

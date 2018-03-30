@@ -145,11 +145,7 @@ Callers of <b>EtwEnableCallback</b> must be running at IRQL = PASSIVE_LEVEL in t
 
 ## -see-also
 
-<<<<<<< HEAD
 <a href="..\wdm\nf-wdm-etwproviderenabled.md">EtwProviderEnabled</a>
-=======
-<a href="..\wdm\nf-wdm-etweventenabled.md">EtwEventEnabled</a>
->>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
 
 
 
@@ -157,11 +153,7 @@ Callers of <b>EtwEnableCallback</b> must be running at IRQL = PASSIVE_LEVEL in t
 
 
 
-<<<<<<< HEAD
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545684">Event Filter Descriptor</a>
-=======
-<a href="http://go.microsoft.com/fwlink/p/?linkid=103399">EnableTrace</a>
->>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
 
 
 

@@ -7,7 +7,7 @@ old-location: netvista\fwps_fields_ale_connect_redirect_v6.htm
 old-project: netvista
 ms.assetid: 8d728b54-7848-468e-9491-47b09dfc69ff
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 2/27/2018
 ms.keywords: FWPS_FIELDS_ALE_CONNECT_REDIRECT_V6, FWPS_FIELDS_ALE_CONNECT_REDIRECT_V6 enumeration [Network Drivers Starting with Windows Vista], FWPS_FIELDS_ALE_CONNECT_REDIRECT_V6_, FWPS_FIELD_ALE_CONNECT_REDIRECT_V6_ALE_APP_ID, FWPS_FIELD_ALE_CONNECT_REDIRECT_V6_ALE_ORIGINAL_APP_ID, FWPS_FIELD_ALE_CONNECT_REDIRECT_V6_ALE_PACKAGE_ID, FWPS_FIELD_ALE_CONNECT_REDIRECT_V6_ALE_USER_ID, FWPS_FIELD_ALE_CONNECT_REDIRECT_V6_FLAGS, FWPS_FIELD_ALE_CONNECT_REDIRECT_V6_IP_DESTINATION_ADDRESS_TYPE, FWPS_FIELD_ALE_CONNECT_REDIRECT_V6_IP_LOCAL_ADDRESS, FWPS_FIELD_ALE_CONNECT_REDIRECT_V6_IP_LOCAL_ADDRESS_TYPE, FWPS_FIELD_ALE_CONNECT_REDIRECT_V6_IP_LOCAL_PORT, FWPS_FIELD_ALE_CONNECT_REDIRECT_V6_IP_PROTOCOL, FWPS_FIELD_ALE_CONNECT_REDIRECT_V6_IP_REMOTE_ADDRESS, FWPS_FIELD_ALE_CONNECT_REDIRECT_V6_IP_REMOTE_PORT, FWPS_FIELD_ALE_CONNECT_REDIRECT_V6_MAX, fwpsk/FWPS_FIELDS_ALE_CONNECT_REDIRECT_V6, fwpsk/FWPS_FIELD_ALE_CONNECT_REDIRECT_V6_ALE_APP_ID, fwpsk/FWPS_FIELD_ALE_CONNECT_REDIRECT_V6_ALE_ORIGINAL_APP_ID, fwpsk/FWPS_FIELD_ALE_CONNECT_REDIRECT_V6_ALE_PACKAGE_ID, fwpsk/FWPS_FIELD_ALE_CONNECT_REDIRECT_V6_ALE_USER_ID, fwpsk/FWPS_FIELD_ALE_CONNECT_REDIRECT_V6_FLAGS, fwpsk/FWPS_FIELD_ALE_CONNECT_REDIRECT_V6_IP_DESTINATION_ADDRESS_TYPE, fwpsk/FWPS_FIELD_ALE_CONNECT_REDIRECT_V6_IP_LOCAL_ADDRESS, fwpsk/FWPS_FIELD_ALE_CONNECT_REDIRECT_V6_IP_LOCAL_ADDRESS_TYPE, fwpsk/FWPS_FIELD_ALE_CONNECT_REDIRECT_V6_IP_LOCAL_PORT, fwpsk/FWPS_FIELD_ALE_CONNECT_REDIRECT_V6_IP_PROTOCOL, fwpsk/FWPS_FIELD_ALE_CONNECT_REDIRECT_V6_IP_REMOTE_ADDRESS, fwpsk/FWPS_FIELD_ALE_CONNECT_REDIRECT_V6_IP_REMOTE_PORT, fwpsk/FWPS_FIELD_ALE_CONNECT_REDIRECT_V6_MAX, netvista.fwps_fields_ale_connect_redirect_v6, wfp_ref_5_const_3_data_fields_af380b4c-b918-42fb-9964-7afb02360e42.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -180,3 +180,8 @@ These macros are used to access the following IPV6 data fields:
 
  
 
+<<<<<<< HEAD
+=======
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20FWPS_FIELDS_ALE_CONNECT_REDIRECT_V6 enumeration%20 RELEASE:%20(2/27/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+
+>>>>>>> parent of 2d896a8e266... Added changes

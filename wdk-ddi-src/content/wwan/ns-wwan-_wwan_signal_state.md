@@ -7,7 +7,7 @@ old-location: netvista\wwan_signal_state.htm
 old-project: netvista
 ms.assetid: ba5632bb-c1d7-47b1-b6b4-88c67710149f
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 2/27/2018
 ms.keywords: "*PWWAN_SIGNAL_STATE, PWWAN_SIGNAL_STATE, PWWAN_SIGNAL_STATE structure pointer [Network Drivers Starting with Windows Vista], WWAN_SIGNAL_STATE, WWAN_SIGNAL_STATE structure [Network Drivers Starting with Windows Vista], WwanRef_6a92457b-8b82-4956-9dce-98e5aeec9091.xml, _WWAN_SIGNAL_STATE, netvista.wwan_signal_state, wwan/PWWAN_SIGNAL_STATE, wwan/WWAN_SIGNAL_STATE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -306,3 +306,8 @@ The current threshold, in threshold units, at which the miniport driver has been
 
  
 
+<<<<<<< HEAD
+=======
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20WWAN_SIGNAL_STATE structure%20 RELEASE:%20(2/27/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+
+>>>>>>> parent of 2d896a8e266... Added changes

@@ -7,7 +7,7 @@ old-location: debugger\getinstructionoffset2.htm
 old-project: debugger
 ms.assetid: c5757dbb-16bf-46f9-836f-5a94089bbb1e
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 2/27/2018
 ms.keywords: GetInstructionOffset2 method [Windows Debugging], GetInstructionOffset2 method [Windows Debugging], IDebugRegisters2 interface, GetInstructionOffset2,IDebugRegisters2.GetInstructionOffset2, IDebugRegisters2, IDebugRegisters2 interface [Windows Debugging], GetInstructionOffset2 method, IDebugRegisters2::GetInstructionOffset2, IDebugRegisters_92189e99-c8f6-4422-8421-62fe194a05b6.xml, dbgeng/IDebugRegisters2::GetInstructionOffset2, debugger.getinstructionoffset2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -164,3 +164,8 @@ For an overview of the <a href="https://msdn.microsoft.com/library/windows/hardw
 
  
 
+<<<<<<< HEAD
+=======
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugRegisters2::GetInstructionOffset2 method%20 RELEASE:%20(2/27/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+
+>>>>>>> parent of 2d896a8e266... Added changes

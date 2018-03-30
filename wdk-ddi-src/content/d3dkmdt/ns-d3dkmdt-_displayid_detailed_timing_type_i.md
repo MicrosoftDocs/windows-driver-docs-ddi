@@ -120,9 +120,15 @@ The DISPLAYID_DETAILED_TIMING_TYPE_I structure specifies an additional target mo
 
 
 #### - ScanningType
+<<<<<<< HEAD
 
 [in] The frame scanning type. Must be one of the values in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554019">DISPLAYID_DETAILED_TIMING_TYPE_I_SCANNING_MODE</a> enumeration.
 
+=======
+
+[in] The frame scanning type. Must be one of the values in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554019">DISPLAYID_DETAILED_TIMING_TYPE_I_SCANNING_MODE</a> enumeration.
+
+>>>>>>> parent of 2d896a8e266... Added changes
 
 #### - StereoMode
 

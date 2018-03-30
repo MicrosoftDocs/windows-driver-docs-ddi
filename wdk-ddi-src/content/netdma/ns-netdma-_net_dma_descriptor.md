@@ -7,7 +7,7 @@ old-location: netvista\net_dma_descriptor.htm
 old-project: netvista
 ms.assetid: 0465a8d7-1cdd-4647-9b78-557256f60c05
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 2/27/2018
 ms.keywords: "*PNET_DMA_DESCRIPTOR, NET_DMA_DESCRIPTOR, NET_DMA_DESCRIPTOR structure [Network Drivers Starting with Windows Vista], NET_DMA_DESTINATION_DCA_ENABLE, NET_DMA_DESTINATION_NO_SNOOP, NET_DMA_DESTINATION_PAGE_BREAK, NET_DMA_INTERRUPT_ON_COMPLETION, NET_DMA_NULL_TRANSFER, NET_DMA_OP_TYPE_CONTEXT_CHANGE, NET_DMA_OP_TYPE_MASK, NET_DMA_RESERVED_MASK, NET_DMA_SERIALIZE_TRANSFER, NET_DMA_SOURCE_NO_SNOOP, NET_DMA_SOURCE_PAGE_BREAK, NET_DMA_STATUS_UPDATE_ON_COMPLETION, PNET_DMA_DESCRIPTOR, PNET_DMA_DESCRIPTOR structure pointer [Network Drivers Starting with Windows Vista], _NET_DMA_DESCRIPTOR, netdma/NET_DMA_DESCRIPTOR, netdma/PNET_DMA_DESCRIPTOR, netdma_ref_06e1861b-7904-4bf5-9ce5-e85ae1daa22e.xml, netvista.net_dma_descriptor"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -438,3 +438,8 @@ The NetDMA interface calls a DMA provider driver's
 
  
 
+<<<<<<< HEAD
+=======
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NET_DMA_DESCRIPTOR structure%20 RELEASE:%20(2/27/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+
+>>>>>>> parent of 2d896a8e266... Added changes

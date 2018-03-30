@@ -76,19 +76,15 @@ Set to HPMI_QUERY_CAPABILITIES_VERSION_1.
 
 ## -see-also
 
-<<<<<<< HEAD
 <a href="https://msdn.microsoft.com/35934D6C-3FB4-4AD4-AA50-BD3A7790269F">hpmi.h</a>
-=======
+
+
+
+<a href="..\hpmi\ns-hpmi-_hpmi_query_capabilities_response.md">HPMI_QUERY_CAPABILITIES_RESPONSE</a>
+
+
+
 <a href="..\hpmi\ni-hpmi-ioctl_hpmi_query_capabilities.md">IOCTL_HPMI_QUERY_CAPABILITIES</a>
->>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
-
-
-
-<a href="..\hpmi\ns-hpmi-_hpmi_query_capabilities_response.md">HPMI_QUERY_CAPABILITIES_RESPONSE</a>
-
-
-
-<a href="..\hpmi\ns-hpmi-_hpmi_query_capabilities_response.md">HPMI_QUERY_CAPABILITIES_RESPONSE</a>
 
 
 

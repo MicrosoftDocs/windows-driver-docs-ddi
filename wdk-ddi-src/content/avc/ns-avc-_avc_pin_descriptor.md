@@ -142,15 +142,11 @@ A description of the members of the <b>KSPIN_DESCRIPTOR</b> structure used in AV
 
 
 
-<a href="..\avc\nc-avc-pfnavcintersecthandler.md">AV/C Intersect Handler</a>
-
-
-
-<<<<<<< HEAD
-<a href="..\avc\nc-avc-pfnavcintersecthandler.md">AV/C Intersect Handler</a>
-=======
 <a href="..\avc\ns-avc-_avc_multifunc_irb.md">AVC_MULTIFUNC_IRB</a>
->>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
+
+
+
+<a href="..\avc\nc-avc-pfnavcintersecthandler.md">AV/C Intersect Handler</a>
 
 
 

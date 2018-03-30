@@ -7,7 +7,7 @@ old-location: debugger\readtypeddataphysical.htm
 old-project: debugger
 ms.assetid: 72562325-27f9-4e80-b03f-8926adad99c1
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 2/27/2018
 ms.keywords: IDebugSymbols interface [Windows Debugging], ReadTypedDataPhysical method, IDebugSymbols2 interface [Windows Debugging], ReadTypedDataPhysical method, IDebugSymbols2::ReadTypedDataPhysical, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], ReadTypedDataPhysical method, IDebugSymbols3::ReadTypedDataPhysical, IDebugSymbols::ReadTypedDataPhysical, IDebugSymbols_d9131c11-5752-4b05-b779-69cb256b8ded.xml, ReadTypedDataPhysical method [Windows Debugging], ReadTypedDataPhysical method [Windows Debugging], IDebugSymbols interface, ReadTypedDataPhysical method [Windows Debugging], IDebugSymbols2 interface, ReadTypedDataPhysical method [Windows Debugging], IDebugSymbols3 interface, ReadTypedDataPhysical,IDebugSymbols3.ReadTypedDataPhysical, dbgeng/IDebugSymbols2::ReadTypedDataPhysical, dbgeng/IDebugSymbols3::ReadTypedDataPhysical, dbgeng/IDebugSymbols::ReadTypedDataPhysical, debugger.readtypeddataphysical
 ms.prod: windows-hardware
 ms.technology: windows-devices

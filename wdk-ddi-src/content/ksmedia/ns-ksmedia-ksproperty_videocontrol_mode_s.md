@@ -74,13 +74,22 @@ Specifies the video control mode. For a Set request, this member contains the re
 
 ## -see-also
 
+<<<<<<< HEAD
+=======
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566042">KSPROPERTY_VIDEOCONTROL_MODE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
+<a href="..\ksmedia\ne-ksmedia-ks_videocontrolflags.md">KS_VideoControlFlags</a>
+>>>>>>> parent of 2d896a8e266... Added changes
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568120">PROPSETID_VIDCAP_VIDEOCONTROL</a>
+
+
+
+<<<<<<< HEAD
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566036">KSPROPERTY_VIDEOCONTROL_CAPS_S</a>
 
 
@@ -90,6 +99,13 @@ Specifies the video control mode. For a Set request, this member contains the re
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567696">KS_VideoControlFlags</a>
+=======
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
+
+
+
+<a href="..\ksmedia\ns-ksmedia-ksproperty_videocontrol_caps_s.md">KSPROPERTY_VIDEOCONTROL_CAPS_S</a>
+>>>>>>> parent of 2d896a8e266... Added changes
 
 
 

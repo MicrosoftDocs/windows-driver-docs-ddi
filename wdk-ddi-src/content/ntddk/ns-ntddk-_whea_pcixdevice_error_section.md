@@ -226,7 +226,7 @@ The WHEA_PCIXDEVICE_ERROR_SECTION structure describes the error data that is con
 
 ## -see-also
 
-<a href="..\ntddk\ns-ntddk-_whea_pcixdevice_error_section_validbits.md">WHEA_PCIXDEVICE_ERROR_SECTION_VALIDBITS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560465">WHEA_ERROR_PACKET</a>
 
 
 
@@ -234,7 +234,7 @@ The WHEA_PCIXDEVICE_ERROR_SECTION structure describes the error data that is con
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560465">WHEA_ERROR_PACKET</a>
+<a href="..\ntddk\ns-ntddk-_whea_pcixdevice_error_section_validbits.md">WHEA_PCIXDEVICE_ERROR_SECTION_VALIDBITS</a>
 
 
 

@@ -80,14 +80,24 @@ Minidrivers that must specify a data format that contains settings for bob or we
 
 ## -see-also
 
+<<<<<<< HEAD
+=======
+<a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a>
+
+
+>>>>>>> parent of 2d896a8e266... Added changes
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561656">KSDATAFORMAT</a>
 
+<<<<<<< HEAD
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567335">KS_DATAFORMAT_VIDEOINFOHEADER2</a>
+=======
+<a href="..\ksmedia\ns-ksmedia-tagks_dataformat_videoinfoheader2.md">KS_DATAFORMAT_VIDEOINFOHEADER2</a>
+>>>>>>> parent of 2d896a8e266... Added changes
 
 
 

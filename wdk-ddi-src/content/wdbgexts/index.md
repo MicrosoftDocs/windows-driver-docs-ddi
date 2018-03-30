@@ -2,7 +2,7 @@
 UID: NA:wdbgexts
 ms.assetid: 47d4ebbf-84ee-3898-8135-fa80fd566021
 ms.author: windowsdriverdev
-ms.date: 03/13/18
+ms.date: 02/27/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

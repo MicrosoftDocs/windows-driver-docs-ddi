@@ -47,6 +47,11 @@ req.product: Windows 10 or later.
 # IOCTL_VPCI_INVALIDATE_BLOCK IOCTL
 
 
+##  Major Code: 
+
+
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
+
 ## -description
 
 
@@ -144,7 +149,7 @@ Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 
 Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
 
-For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/ntstatus-values).
+For more information, see [XREF-LINK:NTSTATUS Values].
 
 
 
@@ -393,39 +398,26 @@ When the VF driver handles the <a href="https://msdn.microsoft.com/library/windo
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550766">IRP_MJ_INTERNAL_DEVICE_CONTROL</a>
-
-
-
-<<<<<<< HEAD
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550766">IRP_MJ_INTERNAL_DEVICE_CONTROL</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff542894">Creating IOCTL Requests in Drivers</a>
-
-
-
-<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
-=======
-<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndisminvalidateconfigblock.md">NdisMInvalidateConfigBlock</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550766">IRP_MJ_INTERNAL_DEVICE_CONTROL</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff542894">Creating IOCTL Requests in Drivers</a>
->>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
 
 
 
-<a href="..\wdm\nf-wdm-iocalldriver.md">IoCallDriver</a>
+<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
 
 
 
-<<<<<<< HEAD
+<a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
+
+
+
 <a href="..\wdm\nf-wdm-iocalldriver.md">IoCallDriver</a>
 
 
@@ -435,17 +427,6 @@ When the VF driver handles the <a href="https://msdn.microsoft.com/library/windo
 
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_sriov_vf_invalidate_config_block_info.md">NDIS_SRIOV_VF_INVALIDATE_CONFIG_BLOCK_INFO</a>
-=======
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451903">OID_SRIOV_VF_INVALIDATE_CONFIG_BLOCK</a>
-
-
-
-<a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
-
-
-
-<a href="..\wudfwdm\ns-wudfwdm-_io_status_block.md">IO_STATUS_BLOCK</a>
->>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
 
 
 

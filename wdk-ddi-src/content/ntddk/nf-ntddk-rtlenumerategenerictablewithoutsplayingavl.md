@@ -131,11 +131,7 @@ Callers of <b>RtlEnumerateGenericTableWithoutSplayingAvl</b> must be running at 
 
 
 
-<<<<<<< HEAD
 <a href="..\ntddk\nf-ntddk-rtlenumerategenerictableavl.md">RtlEnumerateGenericTableAvl</a>
-=======
-<a href="..\ntddk\nf-ntddk-rtlnumbergenerictableelementsavl.md">RtlNumberGenericTableElementsAvl</a>
->>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
 
 
 
@@ -143,11 +139,7 @@ Callers of <b>RtlEnumerateGenericTableWithoutSplayingAvl</b> must be running at 
 
 
 
-<<<<<<< HEAD
 <a href="..\ntddk\nf-ntddk-rtlinitializegenerictableavl.md">RtlInitializeGenericTableAvl</a>
-=======
-<a href="..\ntddk\nf-ntddk-rtlenumerategenerictableavl.md">RtlEnumerateGenericTableAvl</a>
->>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
 
 
 

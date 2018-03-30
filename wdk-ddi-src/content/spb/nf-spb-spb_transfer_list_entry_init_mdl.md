@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: Any IRQL
 topic_type:
@@ -95,6 +95,14 @@ This initialization function returns an unnamed local variable of type <b>SPB_TR
 
 ## -see-also
 
+<<<<<<< HEAD
+=======
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406216">SPB_TRANSFER_BUFFER_FORMAT</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406223">SPB_TRANSFER_LIST_ENTRY</a>
+>>>>>>> parent of 2d896a8e266... Added changes
 
 
 
@@ -102,11 +110,14 @@ This initialization function returns an unnamed local variable of type <b>SPB_TR
 
 
 
+<<<<<<< HEAD
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh406216">SPB_TRANSFER_BUFFER_FORMAT</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh406223">SPB_TRANSFER_LIST_ENTRY</a>
+=======
+>>>>>>> parent of 2d896a8e266... Added changes
  
 
  

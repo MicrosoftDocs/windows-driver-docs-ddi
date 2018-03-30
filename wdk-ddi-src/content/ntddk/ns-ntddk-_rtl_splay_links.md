@@ -125,19 +125,11 @@ Callers of the <b>Rtl</b><b><i>Xxx</i></b> splay tree routines are responsible f
 
 
 
-<<<<<<< HEAD
 <a href="..\ntddk\nf-ntddk-rtlinitializesplaylinks.md">RtlInitializeSplayLinks</a>
 
 
 
 <a href="..\ntddk\nf-ntddk-rtlinsertasrightchild.md">RtlInsertAsRightChild</a>
-=======
-<a href="..\ntddk\nf-ntddk-rtlrightchild.md">RtlRightChild</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-rtlinitializesplaylinks.md">RtlInitializeSplayLinks</a>
->>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
 
 
 
@@ -145,11 +137,7 @@ Callers of the <b>Rtl</b><b><i>Xxx</i></b> splay tree routines are responsible f
 
 
 
-<<<<<<< HEAD
 <a href="..\ntddk\nf-ntddk-rtlrightchild.md">RtlRightChild</a>
-=======
-<a href="..\ntddk\nf-ntddk-rtlleftchild.md">RtlLeftChild</a>
->>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
 
 
 

@@ -7,7 +7,7 @@ old-location: netvista\fwps_incoming_metadata_values0.htm
 old-project: netvista
 ms.assetid: fba7eb60-0d19-4bfd-b484-2e615d3e9237
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 2/27/2018
 ms.keywords: FWPS_INCOMING_METADATA_VALUES0, FWPS_INCOMING_METADATA_VALUES0 structure [Network Drivers Starting with Windows Vista], FWPS_INCOMING_METADATA_VALUES0_, FWPS_L2_INCOMING_FLAG_IS_RAW_IPV4_FRAMING, FWPS_L2_INCOMING_FLAG_IS_RAW_IPV6_FRAMING, FWPS_L2_INCOMING_FLAG_RECLASSIFY_MULTI_DESTINATION, FWPS_L2_METADATA_FIELD_ETHERNET_MAC_HEADER_SIZE, FWPS_L2_METADATA_FIELD_VSWITCH_DESTINATION_PORT_ID, FWPS_L2_METADATA_FIELD_VSWITCH_PACKET_CONTEXT, FWPS_L2_METADATA_FIELD_VSWITCH_SOURCE_NIC_INDEX, FWPS_L2_METADATA_FIELD_VSWITCH_SOURCE_PORT_ID, FWPS_L2_METADATA_FIELD_WIFI_OPERATION_MODE, fwpsk/FWPS_INCOMING_METADATA_VALUES0, netvista.fwps_incoming_metadata_values0, wfp_ref_3_struct_3_fwps_F-O_ee69ce82-24a0-4757-bba4-f1abb3f00c8e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -656,3 +656,8 @@ The callout driver must follow these guidelines when it inspects the packet:
 
  
 
+<<<<<<< HEAD
+=======
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20FWPS_INCOMING_METADATA_VALUES0 structure%20 RELEASE:%20(2/27/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+
+>>>>>>> parent of 2d896a8e266... Added changes

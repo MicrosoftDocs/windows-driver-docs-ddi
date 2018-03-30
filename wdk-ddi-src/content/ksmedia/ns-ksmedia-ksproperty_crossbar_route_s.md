@@ -88,6 +88,10 @@ If the value of <b>IndexInputPin</b> is (-1) on an audio output pin, then the au
 
 ## -see-also
 
+<<<<<<< HEAD
+=======
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567804">PROPSETID_VIDCAP_CROSSBAR</a>
+>>>>>>> parent of 2d896a8e266... Added changes
 
 
 

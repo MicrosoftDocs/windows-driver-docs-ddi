@@ -7,7 +7,7 @@ old-location: netvista\ndis_rw_lock.htm
 old-project: netvista
 ms.assetid: b44e62ec-d36a-46df-846c-3f1cf6cef003
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 2/27/2018
 ms.keywords: "*PNDIS_RW_LOCK, NDIS_RW_LOCK, NDIS_RW_LOCK structure [Network Drivers Starting with Windows Vista], PNDIS_RW_LOCK, PNDIS_RW_LOCK structure pointer [Network Drivers Starting with Windows Vista], _NDIS_RW_LOCK, ndis/NDIS_RW_LOCK, ndis/PNDIS_RW_LOCK, ndis_processor_group_ref_4680aefb-5db5-4e48-aec2-a7c6769892aa.xml, netvista.ndis_rw_lock"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,3 +66,8 @@ The <b>NDIS_RW_LOCK</b> structure defines the attributes of a read/write lock. T
 
  
 
+<<<<<<< HEAD
+=======
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_RW_LOCK structure%20 RELEASE:%20(2/27/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+
+>>>>>>> parent of 2d896a8e266... Added changes

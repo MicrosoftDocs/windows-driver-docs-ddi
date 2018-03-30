@@ -113,38 +113,7 @@ The corresponding base logical address returned by <b>ScsiPortGetDeviceBase</b> 
 
 ## -see-also
 
-<<<<<<< HEAD
 <a href="..\strmini\ns-strmini-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION (SCSI)</a>
-=======
-<a href="..\srb\nc-srb-phw_find_adapter.md">HwScsiFindAdapter</a>
->>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
-
-
-
-<a href="..\srb\nf-srb-scsiportgetdevicebase.md">ScsiPortGetDeviceBase</a>
-
-
-
-<<<<<<< HEAD
-<a href="..\srb\nf-srb-scsiportgetdevicebase.md">ScsiPortGetDeviceBase</a>
-
-
-
-<a href="..\srb\nf-srb-scsiportvalidaterange.md">ScsiPortValidateRange</a>
-
-
-
-<a href="..\srb\nf-srb-scsiportconvertulongtophysicaladdress.md">ScsiPortConvertUlongToPhysicalAddress</a>
-
-
-
-<a href="..\srb\nc-srb-phw_find_adapter.md">HwScsiFindAdapter</a>
-=======
-<a href="..\srb\nf-srb-scsiportvalidaterange.md">ScsiPortValidateRange</a>
-
-
-
-<a href="..\srb\nf-srb-scsiportconvertulongtophysicaladdress.md">ScsiPortConvertUlongToPhysicalAddress</a>
 
 
 
@@ -152,8 +121,19 @@ The corresponding base logical address returned by <b>ScsiPortGetDeviceBase</b> 
 
 
 
-<a href="..\strmini\ns-strmini-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION (SCSI)</a>
->>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
+<a href="..\srb\nf-srb-scsiportgetdevicebase.md">ScsiPortGetDeviceBase</a>
+
+
+
+<a href="..\srb\nf-srb-scsiportvalidaterange.md">ScsiPortValidateRange</a>
+
+
+
+<a href="..\srb\nf-srb-scsiportconvertulongtophysicaladdress.md">ScsiPortConvertUlongToPhysicalAddress</a>
+
+
+
+<a href="..\srb\nc-srb-phw_find_adapter.md">HwScsiFindAdapter</a>
 
 
 

@@ -116,15 +116,9 @@ A single bit that indicates that an end-to-end cyclic redundancy check (ECRC) er
 
 
 #### - FlowControlProtocolError
-<<<<<<< HEAD
 
 A single bit that indicates that a flow control protocol error has occurred.
 
-=======
-
-A single bit that indicates that a flow control protocol error has occurred.
-
->>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
 
 #### - MalformedTLP
 
@@ -189,11 +183,7 @@ A PCI_EXPRESS_UNCORRECTABLE_ERROR_STATUS structure is contained in the <a href="
 
 ## -see-also
 
-<<<<<<< HEAD
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537457">PCI_EXPRESS_AER_CAPABILITY</a>
-=======
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537472">PCI_EXPRESS_ROOTPORT_AER_CAPABILITY</a>
->>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
 
 
 
@@ -201,7 +191,7 @@ A PCI_EXPRESS_UNCORRECTABLE_ERROR_STATUS structure is contained in the <a href="
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537457">PCI_EXPRESS_AER_CAPABILITY</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537472">PCI_EXPRESS_ROOTPORT_AER_CAPABILITY</a>
 
 
 

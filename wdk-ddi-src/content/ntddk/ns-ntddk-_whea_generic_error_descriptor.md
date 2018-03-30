@@ -231,11 +231,7 @@ A WHEA_GENERIC_ERROR_DESCRIPTOR structure is contained within the <a href="..\nt
 
 ## -see-also
 
-<<<<<<< HEAD
 <a href="..\ntddk\ns-ntddk-_whea_generic_error.md">WHEA_GENERIC_ERROR</a>
-=======
-<a href="..\ntddk\ns-ntddk-_whea_notification_descriptor.md">WHEA_NOTIFICATION_DESCRIPTOR</a>
->>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
 
 
 

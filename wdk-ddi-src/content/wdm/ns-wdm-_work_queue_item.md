@@ -125,27 +125,19 @@ To post the initialized work item to a system work queue, call <a href="..\wdm\n
 
 
 
-<<<<<<< HEAD
 <a href="..\wdm\nf-wdm-exqueueworkitem.md">ExQueueWorkItem</a>
 
 
 
 <a href="..\wdm\nf-wdm-exinitializeworkitem.md">ExInitializeWorkItem</a>
-=======
-<a href="..\wdm\nf-wdm-exinitializeworkitem.md">ExInitializeWorkItem</a>
-
-
-
-<a href="..\wdm\nf-wdm-iofreeworkitem.md">IoFreeWorkItem</a>
->>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
-
-
-
-<a href="..\wdm\nf-wdm-exqueueworkitem.md">ExQueueWorkItem</a>
 
 
 
 <a href="..\wdm\nf-wdm-ioqueueworkitem.md">IoQueueWorkItem</a>
+
+
+
+<a href="..\wdm\nf-wdm-iofreeworkitem.md">IoFreeWorkItem</a>
 
 
 

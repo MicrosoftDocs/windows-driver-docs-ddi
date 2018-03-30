@@ -7,7 +7,7 @@ old-location: kernel\io_resource_descriptor.htm
 old-project: kernel
 ms.assetid: 03e3a656-c691-4aff-bcc8-4e0bc8390fd7
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 2/24/2018
 ms.keywords: "*PIO_RESOURCE_DESCRIPTOR, 0, CM_RESOURCE_CONNECTION_CLASS_GPIO, CM_RESOURCE_CONNECTION_CLASS_SERIAL, CM_RESOURCE_CONNECTION_TYPE_GPIO_IO, CM_RESOURCE_CONNECTION_TYPE_SERIAL_I2C, CM_RESOURCE_CONNECTION_TYPE_SERIAL_SPI, CM_RESOURCE_CONNECTION_TYPE_SERIAL_UART, CM_RESOURCE_INTERRUPT_LATCHED, CM_RESOURCE_INTERRUPT_LEVEL_SENSITIVE, CM_RESOURCE_INTERRUPT_MESSAGE, CM_RESOURCE_INTERRUPT_POLICY_INCLUDED, CM_RESOURCE_INTERRUPT_SECONDARY_INTERRUPT, CM_RESOURCE_INTERRUPT_WAKE_HINT, IO_RESOURCE_ALTERNATIVE, IO_RESOURCE_DEFAULT, IO_RESOURCE_DESCRIPTOR, IO_RESOURCE_DESCRIPTOR structure [Kernel-Mode Driver Architecture], IO_RESOURCE_PREFERRED, PIO_RESOURCE_DESCRIPTOR, PIO_RESOURCE_DESCRIPTOR structure pointer [Kernel-Mode Driver Architecture], _IO_RESOURCE_DESCRIPTOR, kernel.io_resource_descriptor, kstruct_b_6b096887-dd89-43b8-abb8-4f3582392573.xml, wdm/IO_RESOURCE_DESCRIPTOR, wdm/PIO_RESOURCE_DESCRIPTOR"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -759,11 +759,7 @@ The upper 32 bits of the 64-bit connection ID.
 
 ## -see-also
 
-<<<<<<< HEAD
 <a href="..\wdm\ns-wdm-_io_resource_requirements_list.md">IO_RESOURCE_REQUIREMENTS_LIST</a>
-=======
-<a href="..\wdm\nf-wdm-ioconnectinterrupt.md">IoConnectInterrupt</a>
->>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
 
 
 
@@ -783,5 +779,5 @@ The upper 32 bits of the 64-bit connection ID.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IO_RESOURCE_DESCRIPTOR structure%20 RELEASE:%20(3/1/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IO_RESOURCE_DESCRIPTOR structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

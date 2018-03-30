@@ -7,7 +7,7 @@ old-location: netvista\ndis_wwan_set_preferred_providers.htm
 old-project: netvista
 ms.assetid: 6741d440-0e17-4b2d-a642-0335d1f936cf
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 2/27/2018
 ms.keywords: "*PNDIS_WWAN_SET_PREFERRED_PROVIDERS, NDIS_WWAN_SET_PREFERRED_PROVIDERS, NDIS_WWAN_SET_PREFERRED_PROVIDERS structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_SET_PREFERRED_PROVIDERS, PNDIS_WWAN_SET_PREFERRED_PROVIDERS structure pointer [Network Drivers Starting with Windows Vista], WwanRef_9e9b42a9-813f-4440-a112-9af4bc172d4e.xml, _NDIS_WWAN_SET_PREFERRED_PROVIDERS, ndiswwan/NDIS_WWAN_SET_PREFERRED_PROVIDERS, ndiswwan/PNDIS_WWAN_SET_PREFERRED_PROVIDERS, netvista.ndis_wwan_set_preferred_providers"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -134,3 +134,8 @@ A formatted
 
  
 
+<<<<<<< HEAD
+=======
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_WWAN_SET_PREFERRED_PROVIDERS structure%20 RELEASE:%20(2/27/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+
+>>>>>>> parent of 2d896a8e266... Added changes

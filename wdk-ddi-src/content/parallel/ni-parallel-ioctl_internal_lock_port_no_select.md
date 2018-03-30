@@ -46,6 +46,11 @@ req.typenames: RILGBATOKEN, *LPRILGBATOKEN
 # IOCTL_INTERNAL_LOCK_PORT_NO_SELECT IOCTL
 
 
+##  Major Code: 
+
+
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
+
 ## -description
 
 
@@ -112,11 +117,11 @@ The <b>Status</b> member is set to one of the generic status values returned by 
 
 
 
-<a href="..\parallel\ni-parallel-ioctl_internal_lock_port.md">IOCTL_INTERNAL_LOCK_PORT</a>
-
-
-
 <a href="..\parallel\ni-parallel-ioctl_internal_unlock_port.md">IOCTL_INTERNAL_UNLOCK_PORT</a>
+
+
+
+<a href="..\parallel\ni-parallel-ioctl_internal_lock_port.md">IOCTL_INTERNAL_LOCK_PORT</a>
 
 
 

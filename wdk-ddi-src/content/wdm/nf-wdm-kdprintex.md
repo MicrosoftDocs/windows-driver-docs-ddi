@@ -149,7 +149,6 @@ This routine is defined in ntddk.h and ndis.h; component filter IDs are defined 
 
 ## -see-also
 
-<<<<<<< HEAD
 <a href="..\wdm\nf-wdm-dbgprintex.md">DbgPrintEx</a>
 
 
@@ -159,17 +158,6 @@ This routine is defined in ntddk.h and ndis.h; component filter IDs are defined 
 
 
 <a href="..\wdm\nf-wdm-kdprint.md">KdPrint</a>
-=======
-<a href="..\wdm\nf-wdm-dbgprint.md">DbgPrint</a>
-
-
-
-<a href="..\wdm\nf-wdm-kdprint.md">KdPrint</a>
-
-
-
-<a href="..\wdm\nf-wdm-dbgprintex.md">DbgPrintEx</a>
->>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
 
 
 

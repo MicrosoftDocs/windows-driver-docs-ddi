@@ -129,10 +129,17 @@ Copies a source subresource region to a location on a destination subresource.
 
 
 #### - hDstResource [in]
+<<<<<<< HEAD
 
  A handle to the destination resource to copy to.
 
 
+=======
+
+ A handle to the destination resource to copy to.
+
+
+>>>>>>> parent of 2d896a8e266... Added changes
 #### - hSrcResource [in]
 
  A handle to the source resource to copy from.

@@ -175,6 +175,10 @@ Indicates that the device settings are in relative values.
 
 ## -see-also
 
+<<<<<<< HEAD
+=======
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567802">PROPSETID_VIDCAP_CAMERACONTROL</a>
+>>>>>>> parent of 2d896a8e266... Added changes
 
 
 

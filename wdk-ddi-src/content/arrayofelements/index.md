@@ -2,7 +2,7 @@
 UID: NA:arrayofelements
 ms.assetid: 467e5627-4547-3535-a408-d23128a36471
 ms.author: windowsdriverdev
-ms.date: 03/13/18
+ms.date: 02/27/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

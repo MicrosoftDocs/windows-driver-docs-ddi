@@ -144,7 +144,11 @@ Reserved for system use.
 
 
 
+<<<<<<< HEAD
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565933">KSPROPERTY_TVAUDIO_CAPS</a>
+=======
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
+>>>>>>> parent of 2d896a8e266... Added changes
 
 
 

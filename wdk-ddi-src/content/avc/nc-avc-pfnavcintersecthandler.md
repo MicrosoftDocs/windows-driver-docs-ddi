@@ -216,11 +216,7 @@ The handler is used in conjunction with the <b>AVC_FUNCTION_GET_PIN_DESCRIPTOR</
 
 
 
-<<<<<<< HEAD
 <a href="..\ks\nc-ks-pfnksintersecthandlerex.md">AVStrMiniIntersectHandlerEx</a>
-=======
-<a href="..\avc\ns-avc-_avc_pin_descriptor.md">AVC_PIN_DESCRIPTOR</a>
->>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
 
 
 

@@ -7,7 +7,7 @@ old-location: netvista\rilsendrestricteduicccmdparams.htm
 old-project: netvista
 ms.assetid: 22c7ae24-c2dc-46d6-b3c2-b908ad6d181c
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 2/27/2018
 ms.keywords: "*LPRILSENDRESTRICTEDUICCCMDPARAMS, RILSENDRESTRICTEDUICCCMDPARAMS, RILSENDRESTRICTEDUICCCMDPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilsendrestricteduicccmdparams, ntddrilapitypes/RILSENDRESTRICTEDUICCCMDPARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices

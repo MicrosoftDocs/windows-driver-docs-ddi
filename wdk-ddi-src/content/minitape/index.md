@@ -2,7 +2,7 @@
 UID: NA:minitape
 ms.assetid: 80c8fbfb-18b9-395e-83eb-ae21dd19d444
 ms.author: windowsdriverdev
-ms.date: 03/13/18
+ms.date: 02/27/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: debugger\idebugeventcallbacks_sessionstatus.htm
 old-project: debugger
 ms.assetid: 127c4e48-87db-4735-8d3d-e01fed6a9cf0
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 2/27/2018
 ms.keywords: ComCallbacks_72cb31db-cc24-41b7-b891-65921c50ce12.xml, IDebugEventCallbacks, IDebugEventCallbacks interface [Windows Debugging], SessionStatus method, IDebugEventCallbacks::SessionStatus, SessionStatus method [Windows Debugging], SessionStatus method [Windows Debugging], IDebugEventCallbacks interface, SessionStatus,IDebugEventCallbacks.SessionStatus, dbgeng/IDebugEventCallbacks::SessionStatus, debugger.idebugeventcallbacks_sessionstatus
 ms.prod: windows-hardware
 ms.technology: windows-devices

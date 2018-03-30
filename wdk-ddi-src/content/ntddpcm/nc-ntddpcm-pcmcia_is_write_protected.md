@@ -40,7 +40,7 @@ api_name:
 -	IsWriteProtected
 product: Windows
 targetos: Windows
-req.typenames: OFFLOAD_SECURITY_ASSOCIATION, *POFFLOAD_SECURITY_ASSOCIATION
+req.typenames: PAR_SET_INFORMATION, *PPAR_SET_INFORMATION
 ---
 
 # PCMCIA_IS_WRITE_PROTECTED callback
@@ -50,6 +50,19 @@ req.typenames: OFFLOAD_SECURITY_ASSOCIATION, *POFFLOAD_SECURITY_ASSOCIATION
 
 
 The <b>PCMCIA_IS_WRITE_PROTECTED</b> interface routine returns the write-protect condition of a PCMCIA memory card.
+
+
+## -prototype
+
+
+````
+PCMCIA_IS_WRITE_PROTECTED IsWriteProtected;
+
+BOOLEAN IsWriteProtected(
+  _In_opt_ PVOID Context
+)
+{ ... }
+````
 
 
 ## -parameters
@@ -84,6 +97,7 @@ Callers of this routine must be running at IRQL &lt;= DISPATCH_LEVEL. To maintai
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537611">PCMCIA_SET_VPP</a>
 
 
 
@@ -91,7 +105,6 @@ Callers of this routine must be running at IRQL &lt;= DISPATCH_LEVEL. To maintai
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537611">PCMCIA_SET_VPP</a>
  
 
  

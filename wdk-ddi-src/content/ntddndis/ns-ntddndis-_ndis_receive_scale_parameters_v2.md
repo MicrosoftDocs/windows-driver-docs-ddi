@@ -7,7 +7,7 @@ old-location: netvista\ndis_receive_scale_parameters_v2.htm
 old-project: netvista
 ms.assetid: 96EAB6EE-BF9A-46AD-8DED-5D9BD2B6F219
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 2/27/2018
 ms.keywords: "*PNDIS_RECEIVE_SCALE_PARAMETERS_V2, NDIS_RECEIVE_SCALE_PARAMETERS_V2, NDIS_RECEIVE_SCALE_PARAMETERS_V2 structure [Network Drivers Starting with Windows Vista], NDIS_RECEIVE_SCALE_PARAM_ENABLE_RSS, NDIS_RECEIVE_SCALE_PARAM_HASH_INFO_CHANGED, NDIS_RECEIVE_SCALE_PARAM_HASH_KEY_CHANGED, NDIS_RECEIVE_SCALE_PARAM_NUMBER_OF_ENTRIES_CHANGED, NDIS_RECEIVE_SCALE_PARAM_NUMBER_OF_QUEUES_CHANGED, PNDIS_RECEIVE_SCALE_PARAMETERS_V2, PNDIS_RECEIVE_SCALE_PARAMETERS_V2 structure pointer [Network Drivers Starting with Windows Vista], _NDIS_RECEIVE_SCALE_PARAMETERS_V2, netvista.ndis_receive_scale_parameters_v2, ntddndis/NDIS_RECEIVE_SCALE_PARAMETERS_V2, ntddndis/PNDIS_RECEIVE_SCALE_PARAMETERS_V2"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -226,3 +226,8 @@ New values for this parameter will also be a power of two and cannot exceed adap
 
  
 
+<<<<<<< HEAD
+=======
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_RECEIVE_SCALE_PARAMETERS_V2 structure%20 RELEASE:%20(2/27/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+
+>>>>>>> parent of 2d896a8e266... Added changes

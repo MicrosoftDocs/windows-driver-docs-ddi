@@ -7,7 +7,7 @@ old-location: debugger\debug_value.htm
 old-project: debugger
 ms.assetid: 568469ad-79c4-4437-aefe-a29e77e5143a
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 2/27/2018
 ms.keywords: "*PDEBUG_VALUE, DEBUG_VALUE, DEBUG_VALUE structure [Windows Debugging], PDEBUG_VALUE, PDEBUG_VALUE structure pointer [Windows Debugging], Structures_2486f31c-2a25-41eb-ac3f-9cc1d62dd2e0.xml, _DEBUG_VALUE, dbgeng/DEBUG_VALUE, dbgeng/PDEBUG_VALUE, debugger.debug_value"
 ms.prod: windows-hardware
 ms.technology: windows-devices

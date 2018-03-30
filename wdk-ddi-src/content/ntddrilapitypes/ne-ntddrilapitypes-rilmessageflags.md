@@ -7,7 +7,7 @@ old-location: netvista\rilmessageflags.htm
 old-project: netvista
 ms.assetid: 82f36886-20bf-4981-b0f0-3871a87b6c4e
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 2/27/2018
 ms.keywords: RILMESSAGEFLAGS, RILMESSAGEFLAGS enumeration [Network Drivers Starting with Windows Vista], RIL_MSGFLAG_ALL, RIL_MSGFLAG_CAUSEDBYCOMMAND, RIL_MSGFLAG_HEADER, RIL_MSGFLAG_MORETOSEND, RIL_MSGFLAG_REJECTDUPS, RIL_MSGFLAG_REPLYPATH, RIL_MSGFLAG_STATUSREPORTREQUESTED, RIL_MSGFLAG_STATUSREPORTRETURNED, netvista.rilmessageflags, ntddrilapitypes/RILMESSAGEFLAGS, ntddrilapitypes/RIL_MSGFLAG_ALL, ntddrilapitypes/RIL_MSGFLAG_CAUSEDBYCOMMAND, ntddrilapitypes/RIL_MSGFLAG_HEADER, ntddrilapitypes/RIL_MSGFLAG_MORETOSEND, ntddrilapitypes/RIL_MSGFLAG_REJECTDUPS, ntddrilapitypes/RIL_MSGFLAG_REPLYPATH, ntddrilapitypes/RIL_MSGFLAG_STATUSREPORTREQUESTED, ntddrilapitypes/RIL_MSGFLAG_STATUSREPORTRETURNED
 ms.prod: windows-hardware
 ms.technology: windows-devices

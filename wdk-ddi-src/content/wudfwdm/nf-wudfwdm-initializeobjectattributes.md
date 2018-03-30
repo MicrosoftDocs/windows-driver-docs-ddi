@@ -7,7 +7,7 @@ old-location: kernel\initializeobjectattributes.htm
 old-project: kernel
 ms.assetid: ee89a9af-0bdf-476e-b4e3-eb60662e160d
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 2/24/2018
 ms.keywords: InitializeObjectAttributes, InitializeObjectAttributes macro [Kernel-Mode Driver Architecture], k107_f7e00cf9-9598-4835-b51a-3df9e003587e.xml, kernel.initializeobjectattributes, wudfwdm/InitializeObjectAttributes
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: wudfwdm.h
 req.dll: 
 req.irql: 
 topic_type:
@@ -185,7 +185,6 @@ Note that <b>InitializeObjectAttributes</b> always sets the <b>SecurityQualityOf
 
 ## -see-also
 
-<<<<<<< HEAD
 <a href="..\wdm\nf-wdm-zwcreatedirectoryobject.md">ZwCreateDirectoryObject</a>
 
 
@@ -203,25 +202,6 @@ Note that <b>InitializeObjectAttributes</b> always sets the <b>SecurityQualityOf
 
 
 <a href="..\wdm\nf-wdm-zwmaketemporaryobject.md">ZwMakeTemporaryObject</a>
-=======
-<a href="..\wdm\nf-wdm-iocreatefile.md">IoCreateFile</a>
-
-
-
-<a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
-
-
-
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-
-
-
-<a href="..\wdm\nf-wdm-zwopenfile.md">ZwOpenFile</a>
-
-
-
-<a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>
->>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
 
 
 
@@ -229,7 +209,6 @@ Note that <b>InitializeObjectAttributes</b> always sets the <b>SecurityQualityOf
 
 
 
-<<<<<<< HEAD
 <a href="..\wdm\nf-wdm-zwopensymboliclinkobject.md">ZwOpenSymbolicLinkObject</a>
 
 
@@ -243,21 +222,6 @@ Note that <b>InitializeObjectAttributes</b> always sets the <b>SecurityQualityOf
 
 
 <a href="..\wdm\nf-wdm-iocreatefile.md">IoCreateFile</a>
-=======
-<a href="..\wdm\nf-wdm-excreatecallback.md">ExCreateCallback</a>
-
-
-
-<a href="..\wdm\nf-wdm-zwcreatedirectoryobject.md">ZwCreateDirectoryObject</a>
-
-
-
-<a href="..\wdm\nf-wdm-zwopensymboliclinkobject.md">ZwOpenSymbolicLinkObject</a>
-
-
-
-<a href="..\wudfwdm\ns-wudfwdm-_object_attributes.md">OBJECT_ATTRIBUTES</a>
->>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
 
 
 
@@ -265,7 +229,6 @@ Note that <b>InitializeObjectAttributes</b> always sets the <b>SecurityQualityOf
 
 
 
-<<<<<<< HEAD
 <a href="..\wdm\nf-wdm-zwopensection.md">ZwOpenSection</a>
 
 
@@ -275,17 +238,6 @@ Note that <b>InitializeObjectAttributes</b> always sets the <b>SecurityQualityOf
 
 
 <a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
-=======
-<a href="..\wdm\nf-wdm-zwcreatekey.md">ZwCreateKey</a>
-
-
-
-<a href="..\wdm\nf-wdm-zwopenkey.md">ZwOpenKey</a>
-
-
-
-<a href="..\wdm\nf-wdm-pscreatesystemthread.md">PsCreateSystemThread</a>
->>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
 
 
 
@@ -293,5 +245,5 @@ Note that <b>InitializeObjectAttributes</b> always sets the <b>SecurityQualityOf
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20InitializeObjectAttributes macro%20 RELEASE:%20(3/1/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20InitializeObjectAttributes macro%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

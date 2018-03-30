@@ -222,11 +222,7 @@ Drivers must call <a href="..\ntifs\nf-ntifs-ioacquirevpbspinlock.md">IoAcquireV
 
 
 
-<<<<<<< HEAD
 <a href="..\ntifs\ns-ntifs-_file_objectid_information.md">FILE_OBJECT</a>
-=======
-<a href="https://msdn.microsoft.com/e8f39b06-9904-40e8-af52-eae310d11fa7">How the Volume Is Mounted</a>
->>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
 
 
 

@@ -91,7 +91,7 @@ A client uses a PARALLEL_CHIP_MODE structure with internal device control reques
 
 ## -see-also
 
-<a href="..\parallel\nc-parallel-pparallel_set_chip_mode.md">PPARALLEL_SET_CHIP_MODE</a>
+<a href="..\parallel\ni-parallel-ioctl_internal_parallel_set_chip_mode.md">IOCTL_INTERNAL_PARALLEL_SET_CHIP_MODE</a>
 
 
 
@@ -107,11 +107,7 @@ A client uses a PARALLEL_CHIP_MODE structure with internal device control reques
 
 
 
-<<<<<<< HEAD
 <a href="..\parallel\nc-parallel-pparallel_set_chip_mode.md">PPARALLEL_SET_CHIP_MODE</a>
-=======
-<a href="..\parallel\ni-parallel-ioctl_internal_parallel_set_chip_mode.md">IOCTL_INTERNAL_PARALLEL_SET_CHIP_MODE</a>
->>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
 
 
 

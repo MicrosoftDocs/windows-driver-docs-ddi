@@ -116,15 +116,9 @@ A single bit that indicates that the reporting of end-to-end cyclic redundancy c
 
 
 #### - FlowControlProtocolError
-<<<<<<< HEAD
 
 A single bit that indicates that the reporting of flow control protocol errors is masked.
 
-=======
-
-A single bit that indicates that the reporting of flow control protocol errors is masked.
-
->>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
 
 #### - MalformedTLP
 
@@ -189,11 +183,7 @@ A PCI_EXPRESS_UNCORRECTABLE_ERROR_MASK structure is contained in the <a href="ht
 
 ## -see-also
 
-<<<<<<< HEAD
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537457">PCI_EXPRESS_AER_CAPABILITY</a>
-=======
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537472">PCI_EXPRESS_ROOTPORT_AER_CAPABILITY</a>
->>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
 
 
 
@@ -201,7 +191,7 @@ A PCI_EXPRESS_UNCORRECTABLE_ERROR_MASK structure is contained in the <a href="ht
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537457">PCI_EXPRESS_AER_CAPABILITY</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537472">PCI_EXPRESS_ROOTPORT_AER_CAPABILITY</a>
 
 
 

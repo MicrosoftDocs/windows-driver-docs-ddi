@@ -100,11 +100,7 @@ For more information about handling device failure, see <a href="https://msdn.mi
 
 
 
-<<<<<<< HEAD
 <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnormalizentstatus~r1.md">FsRtlNormalizeNtstatus</a>
-=======
-<a href="..\wdm\nf-wdm-iowriteerrorlogentry.md">IoWriteErrorLogEntry</a>
->>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
 
 
 

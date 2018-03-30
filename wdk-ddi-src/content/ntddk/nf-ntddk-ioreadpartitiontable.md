@@ -124,7 +124,6 @@ Read each partition table and, for each and every entry, fill in a partition inf
 
 ## -see-also
 
-<<<<<<< HEAD
 <a href="..\ntddk\nf-ntddk-iosetpartitioninformation.md">IoSetPartitionInformation</a>
 
 
@@ -134,17 +133,6 @@ Read each partition table and, for each and every entry, fill in a partition inf
 
 
 <a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_get_drive_layout.md">IOCTL_DISK_GET_DRIVE_LAYOUT</a>
-=======
-<a href="..\ntddk\nf-ntddk-iowritepartitiontable.md">IoWritePartitionTable</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-iosetpartitioninformation.md">IoSetPartitionInformation</a>
-
-
-
-<a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_set_drive_layout.md">IOCTL_DISK_SET_DRIVE_LAYOUT</a>
->>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
 
 
 

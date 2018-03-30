@@ -139,11 +139,7 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/ff536765">IMini
 
 ## -see-also
 
-<<<<<<< HEAD
 <a href="..\portcls\ns-portcls-__unnamed_struct_0cb6_4.md">PCMETHOD_ITEM</a>
-=======
-<a href="..\portcls\ns-portcls-__unnamed_struct_0cb6_9.md">PCFILTER_DESCRIPTOR</a>
->>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
 
 
 
@@ -155,11 +151,11 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/ff536765">IMini
 
 
 
+<a href="..\portcls\ns-portcls-__unnamed_struct_0cb6_9.md">PCFILTER_DESCRIPTOR</a>
+
+
+
 <a href="..\portcls\ns-portcls-__unnamed_struct_0cb6_5.md">PCEVENT_ITEM</a>
-
-
-
-<a href="..\portcls\ns-portcls-__unnamed_struct_0cb6_4.md">PCMETHOD_ITEM</a>
 
 
 

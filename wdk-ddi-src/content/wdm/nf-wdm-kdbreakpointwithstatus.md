@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: wdm.h
 req.dll: 
 req.irql: 
 topic_type:
@@ -100,23 +100,15 @@ In kernel mode, a break exception that is not handled will cause a bug check. Yo
 
 ## -see-also
 
-<<<<<<< HEAD
 <a href="https://msdn.microsoft.com/938ef180-84de-442f-9b6c-1138c2fc8d5a">Windows Debugging</a>
-=======
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548063">KdBreakPoint</a>
 
 
 
-<a href="..\wdm\nf-wdm-dbgbreakpointwithstatus.md">DbgBreakPointWithStatus</a>
->>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
-
-
-
 <a href="..\wdm\nf-wdm-dbgbreakpoint.md">DbgBreakPoint</a>
-
-
-
-<a href="https://msdn.microsoft.com/938ef180-84de-442f-9b6c-1138c2fc8d5a">Windows Debugging</a>
 
 
 

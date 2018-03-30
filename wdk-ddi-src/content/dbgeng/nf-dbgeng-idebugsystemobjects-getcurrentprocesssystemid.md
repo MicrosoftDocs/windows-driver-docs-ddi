@@ -7,7 +7,7 @@ old-location: debugger\getcurrentprocesssystemid.htm
 old-project: debugger
 ms.assetid: 850f2f86-af0d-414a-99d7-d081753c591f
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 2/27/2018
 ms.keywords: GetCurrentProcessSystemId method [Windows Debugging], GetCurrentProcessSystemId method [Windows Debugging], IDebugSystemObjects interface, GetCurrentProcessSystemId method [Windows Debugging], IDebugSystemObjects2 interface, GetCurrentProcessSystemId method [Windows Debugging], IDebugSystemObjects3 interface, GetCurrentProcessSystemId method [Windows Debugging], IDebugSystemObjects4 interface, GetCurrentProcessSystemId,IDebugSystemObjects.GetCurrentProcessSystemId, IDebugSystemObjects, IDebugSystemObjects interface [Windows Debugging], GetCurrentProcessSystemId method, IDebugSystemObjects2 interface [Windows Debugging], GetCurrentProcessSystemId method, IDebugSystemObjects2::GetCurrentProcessSystemId, IDebugSystemObjects3 interface [Windows Debugging], GetCurrentProcessSystemId method, IDebugSystemObjects3::GetCurrentProcessSystemId, IDebugSystemObjects4 interface [Windows Debugging], GetCurrentProcessSystemId method, IDebugSystemObjects4::GetCurrentProcessSystemId, IDebugSystemObjects::GetCurrentProcessSystemId, IDebugSystemObjects_e2d8479b-c723-462c-b423-905186bf69e6.xml, dbgeng/IDebugSystemObjects2::GetCurrentProcessSystemId, dbgeng/IDebugSystemObjects3::GetCurrentProcessSystemId, dbgeng/IDebugSystemObjects4::GetCurrentProcessSystemId, dbgeng/IDebugSystemObjects::GetCurrentProcessSystemId, debugger.getcurrentprocesssystemid
 ms.prod: windows-hardware
 ms.technology: windows-devices

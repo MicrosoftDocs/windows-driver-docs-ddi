@@ -7,7 +7,7 @@ old-location: debugger\idebugeventcallbackswide_systemerror.htm
 old-project: debugger
 ms.assetid: 938eacb5-7939-43ed-a854-046708fc9c79
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 2/27/2018
 ms.keywords: IDebugEventCallbacksWide, IDebugEventCallbacksWide interface [Windows Debugging], SystemError method, IDebugEventCallbacksWide::SystemError, SystemError method [Windows Debugging], SystemError method [Windows Debugging], IDebugEventCallbacksWide interface, SystemError,IDebugEventCallbacksWide.SystemError, dbgeng/IDebugEventCallbacksWide::SystemError, debugger.idebugeventcallbackswide_systemerror
 ms.prod: windows-hardware
 ms.technology: windows-devices

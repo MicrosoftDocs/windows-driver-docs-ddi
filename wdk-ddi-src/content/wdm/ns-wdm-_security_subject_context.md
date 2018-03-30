@@ -89,7 +89,6 @@ typedef struct _SECURITY_SUBJECT_CONTEXT {
 
 ## -see-also
 
-<<<<<<< HEAD
 <a href="..\wudfddi\ne-wudfddi-_security_impersonation_level.md">SECURITY_IMPERSONATION_LEVEL</a>
 
 
@@ -107,84 +106,6 @@ typedef struct _SECURITY_SUBJECT_CONTEXT {
 
 
 <a href="..\ntifs\nf-ntifs-secreateclientsecurityfromsubjectcontext.md">SeCreateClientSecurityFromSubjectContext</a>
-=======
-<a href="..\ntifs\nf-ntifs-secreateclientsecurityfromsubjectcontext.md">SeCreateClientSecurityFromSubjectContext</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-sefiltertoken.md">SeFilterToken</a>
-
-
-
-<a href="..\wdm\nf-wdm-seunlocksubjectcontext.md">SeUnlockSubjectContext</a>
-
-
-
-<a href="..\wdm\nf-wdm-sereleasesubjectcontext.md">SeReleaseSubjectContext</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-seprivilegecheck.md">SePrivilegeCheck</a>
->>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
-
-
-
-<a href="..\wdm\nf-wdm-secapturesubjectcontext.md">SeCaptureSubjectContext</a>
-
-
-
-<<<<<<< HEAD
-<a href="..\wdm\nf-wdm-selocksubjectcontext.md">SeLockSubjectContext</a>
-
-
-
-<a href="..\wdm\ns-wdm-_access_state.md">ACCESS_STATE</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-seprivilegecheck.md">SePrivilegeCheck</a>
-
-
-
-<a href="..\wdm\nf-wdm-sereleasesubjectcontext.md">SeReleaseSubjectContext</a>
-
-
-
-<a href="..\wdm\nf-wdm-seassignsecurity.md">SeAssignSecurity</a>
-
-
-
-<a href="..\rxprocs\nf-rxprocs-fsrtlnotifyfullchangedirectory.md">FsRtlNotifyFullChangeDirectory</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-seauditingfileorglobalevents.md">SeAuditingFileOrGlobalEvents</a>
-
-
-
-<a href="..\wdm\nf-wdm-secapturesubjectcontext.md">SeCaptureSubjectContext</a>
-
-
-
-<a href="..\wdm\nf-wdm-seunlocksubjectcontext.md">SeUnlockSubjectContext</a>
-=======
-<a href="..\wudfddi\ne-wudfddi-_security_impersonation_level.md">SECURITY_IMPERSONATION_LEVEL</a>
-
-
-
-<a href="..\wdm\nf-wdm-selocksubjectcontext.md">SeLockSubjectContext</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-seauditingfileorglobalevents.md">SeAuditingFileOrGlobalEvents</a>
-
-
-
-<a href="..\wdm\nf-wdm-seaccesscheck.md">SeAccessCheck</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-sequerysubjectcontexttoken.md">SeQuerySubjectContextToken</a>
 
 
 
@@ -192,7 +113,7 @@ typedef struct _SECURITY_SUBJECT_CONTEXT {
 
 
 
-<a href="..\rxprocs\nf-rxprocs-fsrtlnotifyfullchangedirectory.md">FsRtlNotifyFullChangeDirectory</a>
+<a href="..\wdm\nf-wdm-selocksubjectcontext.md">SeLockSubjectContext</a>
 
 
 
@@ -200,8 +121,31 @@ typedef struct _SECURITY_SUBJECT_CONTEXT {
 
 
 
+<a href="..\ntifs\nf-ntifs-seprivilegecheck.md">SePrivilegeCheck</a>
+
+
+
+<a href="..\wdm\nf-wdm-sereleasesubjectcontext.md">SeReleaseSubjectContext</a>
+
+
+
 <a href="..\wdm\nf-wdm-seassignsecurity.md">SeAssignSecurity</a>
->>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
+
+
+
+<a href="..\rxprocs\nf-rxprocs-fsrtlnotifyfullchangedirectory.md">FsRtlNotifyFullChangeDirectory</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-seauditingfileorglobalevents.md">SeAuditingFileOrGlobalEvents</a>
+
+
+
+<a href="..\wdm\nf-wdm-secapturesubjectcontext.md">SeCaptureSubjectContext</a>
+
+
+
+<a href="..\wdm\nf-wdm-seunlocksubjectcontext.md">SeUnlockSubjectContext</a>
 
 
 

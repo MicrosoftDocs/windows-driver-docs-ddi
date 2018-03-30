@@ -2,7 +2,7 @@
 UID: NA:ufxclient
 ms.assetid: a102bd53-90d1-3f5d-ad42-1dedbc9a7679
 ms.author: windowsdriverdev
-ms.date: 03/13/18
+ms.date: 02/27/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

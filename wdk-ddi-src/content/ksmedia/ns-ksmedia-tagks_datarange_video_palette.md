@@ -97,11 +97,15 @@ Specifies the details of the video stream.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561658">KSDATARANGE</a>
+<a href="..\ksmedia\ns-ksmedia-tagks_videoinfo.md">KS_VIDEOINFO</a>
 
 
 
+<<<<<<< HEAD
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567698">KS_VIDEOINFO</a>
+=======
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561658">KSDATARANGE</a>
+>>>>>>> parent of 2d896a8e266... Added changes
 
 
 
