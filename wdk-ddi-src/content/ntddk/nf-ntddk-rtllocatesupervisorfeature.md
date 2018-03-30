@@ -44,7 +44,7 @@ targetos: Windows
 
 ## -description
 
-TBD
+Reserved for future use.
 
 ## -parameters
 
