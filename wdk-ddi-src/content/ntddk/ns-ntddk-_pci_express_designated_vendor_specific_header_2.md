@@ -38,7 +38,9 @@ targetos: Windows
 # _PCI_EXPRESS_DESIGNATED_VENDOR_SPECIFIC_HEADER_2 structure
 
 ## -description
+Represents the Designated Vendor-Specific Extended Capability defined by PCI-SIG. 
 
+For information about this structure, see PCI-SIG ENGINEERING CHANGE NOTICE titled,  Designated Vendor-Specific Extended Capability.
 
 ## -struct-fields
 
