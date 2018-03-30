@@ -7,7 +7,7 @@ old-location: kernel\rtllongptradd.htm
 old-project: kernel
 ms.assetid: D0036070-A23D-4525-AE80-E10B20330F97
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: RtlLongPtrAdd, RtlLongPtrAdd function [Kernel-Mode Driver Architecture], kernel.rtllongptradd, ntintsafe/RtlLongPtrAdd
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -74,9 +74,9 @@ TBD
 
 
 
-#### - u8Augend [in]
+#### - pu8Result [out]
 
-The first value in the equation.
+A pointer to the sum. If the operation results in a value that overflows or underflows the capacity of the type, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
 
 
 #### - u8Addend [in]
@@ -84,9 +84,9 @@ The first value in the equation.
 The value to add to <i>u8Augend</i>.
 
 
-#### - pu8Result [out]
+#### - u8Augend [in]
 
-A pointer to the sum. If the operation results in a value that overflows or underflows the capacity of the type, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
+The first value in the equation.
 
 
 ## -remarks

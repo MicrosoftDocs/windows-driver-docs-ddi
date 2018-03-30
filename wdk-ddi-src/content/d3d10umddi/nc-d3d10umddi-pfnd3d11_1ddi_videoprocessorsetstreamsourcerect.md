@@ -80,6 +80,22 @@ Sets the source rectangle for an input stream on the video processor.
 
 
 
+#### - Enable [in]
+
+If <b>TRUE</b>, the specified source rectangle must be applied to the input stream.
+
+
+
+If <b>FALSE</b>, no source rectangle is applied to the input stream.
+
+
+
+
+#### - StreamIndex [in]
+
+The zero-based index of the input stream.
+
+
 #### - hDevice [in]
 
 A handle to the display device (graphics context).
@@ -90,22 +106,6 @@ A handle to the display device (graphics context).
 #### - hVideoProcessor [in]
 
 A handle to the video processor object that was created through a call to the <a href="https://msdn.microsoft.com/741045a2-0a91-490a-907d-5f4900a4a0ae">CreateVideoProcessor</a> function. 
-
-
-
-
-#### - StreamIndex [in]
-
-The zero-based index of the input stream.
-
-
-#### - Enable [in]
-
-If <b>TRUE</b>, the specified source rectangle must be applied to the input stream.
-
-
-
-If <b>FALSE</b>, no source rectangle is applied to the input stream.
 
 
 
@@ -155,6 +155,4 @@ If the <b>VideoProcessorSetStreamSourceRect</b> function is never called, or if 
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMSOURCERECT callback function%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

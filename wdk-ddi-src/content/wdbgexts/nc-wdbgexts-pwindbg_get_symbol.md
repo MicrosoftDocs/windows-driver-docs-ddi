@@ -7,7 +7,7 @@ old-location: debugger\getsymbol.htm
 old-project: debugger
 ms.assetid: bec1b12f-0bf7-4cdd-86fe-baec2316d3c8
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: GetSymbol, GetSymbol callback function [Windows Debugging], PWINDBG_GET_SYMBOL, WdbgExts_Ref_a892aa24-d1ee-43f4-8fd5-ea8d00aa678a.xml, debugger.getsymbol, wdbgexts/GetSymbol
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,18 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>PWINDBG_GET_SYMBOL</b>  (<b>GetSymbol</b>) function locates the symbol nearest to <i>address</i>.
-
-
-## -prototype
-
-
-````
-VOID GetSymbol(
-   PVOID  offset,
-   PUCHAR pchBuffer,
-   PULONG pDisplacement
-);
-````
 
 
 ## -parameters

@@ -90,16 +90,6 @@ The <i>ResourceCopyRegion</i> function copies a source subresource region to a l
 
 
 
-#### - hDevice [in]
-
- A handle to the display device (graphics context).
-
-
-#### - hDstResource [in]
-
- A handle to the destination resource to copy to.
-
-
 #### - DstSubresource [in]
 
  An index that indicates the destination subresource to copy to. 
@@ -120,14 +110,24 @@ The <i>ResourceCopyRegion</i> function copies a source subresource region to a l
  The z-coordinate of the destination subresource. For one-dimensional (1-D) and two-dimensional (2-D) subresources, <i>DstZ</i> is set to zero.
 
 
-#### - hSrcResource [in]
-
- A handle to the source resource to copy from.
-
-
 #### - SrcSubresource [in]
 
  An index that indicates the source subresource to copy from. 
+
+
+#### - hDevice [in]
+
+ A handle to the display device (graphics context).
+
+
+#### - hDstResource [in]
+
+ A handle to the destination resource to copy to.
+
+
+#### - hSrcResource [in]
+
+ A handle to the source resource to copy from.
 
 
 #### - pSrcBox [in, optional]
@@ -263,6 +263,4 @@ The source and destination resources must have the same number of samples and qu
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3D10DDI_RESOURCECOPYREGION callback function%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

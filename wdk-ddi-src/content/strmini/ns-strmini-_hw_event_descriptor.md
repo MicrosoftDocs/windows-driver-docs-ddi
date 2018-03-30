@@ -92,11 +92,6 @@ Pointer to the minidriver's instance extension. The minidriver may use this buff
 Reserved for system use. Do not use.
 
 
-#### - StreamObject
-
-Points to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559697">HW_STREAM_OBJECT</a> for the stream that owns the event that the class driver is enabling/disabling, or <b>NULL</b> if the event belongs to the driver as a whole.
-
-
 #### - DeviceExtension
 
 Points to the minidriver's device extension.
@@ -105,4 +100,9 @@ Points to the minidriver's device extension.
 #### - Reserved[2]
 
 Reserved for system use. Do not use.
+
+
+#### - StreamObject
+
+Points to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559697">HW_STREAM_OBJECT</a> for the stream that owns the event that the class driver is enabling/disabling, or <b>NULL</b> if the event belongs to the driver as a whole.
 

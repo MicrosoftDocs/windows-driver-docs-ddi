@@ -7,7 +7,7 @@ old-location: kernel\vsldeletesecuresection.htm
 old-project: kernel
 ms.assetid: b81602e1-aca8-466d-90ae-13a7e073aff1
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: VslDeleteSecureSection, VslDeleteSecureSection function [Kernel-Mode Driver Architecture], kernel.vsldeletesecuresection, wdm/VslDeleteSecureSection
 ms.prod: windows-hardware
 ms.technology: windows-devices

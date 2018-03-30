@@ -71,9 +71,9 @@ The <b>QueryBusInformation</b> routine gets information about the bus.
 Handle returned in the <b>BusContext</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff539210">USB_BUS_INTERFACE_USBDI_V0</a> structure by an IRP_MN_QUERY_INTERFACE request. 
 
 
-#### - Level [in]
+#### - BusInformationActualLength [out, optional]
 
-Specifies the level of information to be returned. If <i>Level</i> is 0, the function returns the total bandwidth and the total consumed bandwidth in bits per second. If <i>Level</i> is 1, the function returns the symbolic name of the controller in Unicode, in addition to the total bandwidth and the total consumed bandwidth. 
+Specifies the length of the output data. 
 
 
 #### - BusInformationBuffer [in, out]
@@ -86,9 +86,9 @@ Pointer to a buffer that receives the requested bus information.
 On input, the length of the buffer specified by <i>BusInformationBuffer</i>. On output, the length of the output data. 
 
 
-#### - BusInformationActualLength [out, optional]
+#### - Level [in]
 
-Specifies the length of the output data. 
+Specifies the level of information to be returned. If <i>Level</i> is 0, the function returns the total bandwidth and the total consumed bandwidth in bits per second. If <i>Level</i> is 1, the function returns the symbolic name of the controller in Unicode, in addition to the total bandwidth and the total consumed bandwidth. 
 
 
 ## -returns
@@ -170,6 +170,4 @@ The function definition that is provided on this reference page is an example ro
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20USB_BUSIFFN_QUERY_BUS_INFORMATION callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

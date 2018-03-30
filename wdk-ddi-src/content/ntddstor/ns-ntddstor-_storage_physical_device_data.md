@@ -119,19 +119,14 @@ The capacity of the storage device in units of kilobytes (1024 bytes).
 
 
 
-#### - Vendor[8]
+#### - FirmwareRevision[16]
 
-The vendor name of the storage device.
+The revision number of the storage device.
 
 
 #### - Model[40]
 
 The model name of the storage device.
-
-
-#### - FirmwareRevision[16]
-
-The revision number of the storage device.
 
 
 #### - PhysicalLocation[32]
@@ -142,4 +137,9 @@ This member is reserved for future use.
 #### - Reserved[2]
 
 Specifies if the storage device is reserved.
+
+
+#### - Vendor[8]
+
+The vendor name of the storage device.
 

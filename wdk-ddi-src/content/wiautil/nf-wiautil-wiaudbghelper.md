@@ -82,9 +82,9 @@ TBD
 
 
 
-#### - prefix [in]
+#### - fmt [in]
 
-Pointer to a string containing a prefix (such as "ERROR " or "WARN ") associated with the message. 
+Pointer to a string that controls how an item or items in a variable argument list is to be formatted.
 
 
 #### - fname [in]
@@ -92,14 +92,14 @@ Pointer to a string containing a prefix (such as "ERROR " or "WARN ") associated
 Pointer to a string containing the name of the function or method into which the call to <b>wiauDbgHelper</b> is inserted.
 
 
-#### - fmt [in]
-
-Pointer to a string that controls how an item or items in a variable argument list is to be formatted.
-
-
 #### - marker
 
 Marks the beginning of a variable argument list.
+
+
+#### - prefix [in]
+
+Pointer to a string containing a prefix (such as "ERROR " or "WARN ") associated with the message. 
 
 
 ## -remarks
@@ -136,6 +136,4 @@ The <b>wiauDbgHelper</b> function is a general-purpose function that is used int
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [image\image]:%20wiauDbgHelper function%20 RELEASE:%20(2/27/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

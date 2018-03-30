@@ -79,11 +79,11 @@ TBD
 
 
 
-#### - Status [in]
+#### - CallMgrAfContext [in]
 
-Specifies the final status of the client's request to open the AF, either NDIS_STATUS_SUCCESS or
-     any caller-determined NDIS_STATUS_
-     <i>XXX</i> except NDIS_STATUS_PENDING.
+Specifies the handle to a caller-allocated resident context area, in which the MCM driver
+     maintains state about this client's open of the address family, including the 
+     <i>NdisAfHandle</i>, if the open succeeded. Otherwise, NDIS ignores this parameter.
 
 
 #### - NdisAfHandle [in]
@@ -92,11 +92,11 @@ Specifies the NDIS-supplied handle that was input to the MCM driver's
      <i>ProtocolCmOpenAf</i> function, which returned NDIS_STATUS_PENDING.
 
 
-#### - CallMgrAfContext [in]
+#### - Status [in]
 
-Specifies the handle to a caller-allocated resident context area, in which the MCM driver
-     maintains state about this client's open of the address family, including the 
-     <i>NdisAfHandle</i>, if the open succeeded. Otherwise, NDIS ignores this parameter.
+Specifies the final status of the client's request to open the AF, either NDIS_STATUS_SUCCESS or
+     any caller-determined NDIS_STATUS_
+     <i>XXX</i> except NDIS_STATUS_PENDING.
 
 
 ## -remarks
@@ -166,6 +166,4 @@ Only connection-oriented miniport drivers that provide integrated call-managemen
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisMCmOpenAddressFamilyComplete macro%20 RELEASE:%20(3/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

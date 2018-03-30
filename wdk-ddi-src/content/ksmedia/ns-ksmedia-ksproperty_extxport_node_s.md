@@ -52,35 +52,6 @@ req.typenames: KSPROPERTY_EXTXPORT_NODE_S, *PKSPROPERTY_EXTXPORT_NODE_S
 The KSPROPERTY_EXTXPORT_NODE_S structure describes an external transport and its capabilities.
 
 
-## -syntax
-
-
-````
-typedef struct {
-  KSP_NODE NodeProperty;
-  union {
-    ULONG           Capabilities;
-    ULONG           SignalMode;
-    ULONG           LoadMedium;
-    MEDIUM_INFO     MediumInfo;
-    TRANSPORT_STATE XPrtState;
-    struct {
-      BYTE frame;
-      BYTE second;
-      BYTE minute;
-      BYTE hour;
-    } Timecode;
-    DWORD           dwTimecode;
-    DWORD           dwAbsTrackNumber;
-    struct {
-      ULONG PayloadSize;
-      BYTE  Payload[512];
-    } RawAVC;
-  } u;
-} KSPROPERTY_EXTXPORT_NODE_S, *PKSPROPERTY_EXTXPORT_NODE_S;
-````
-
-
 ## -struct-fields
 
 
@@ -88,7 +59,7 @@ typedef struct {
 
 ### -field NodeProperty
 
-Specifies an initialized <a href="..\ks\ns-ks-ksp_node.md">KSP_NODE</a> structure that describes the property set, property ID, request type, and node ID.
+Specifies an initialized <a href="https://msdn.microsoft.com/library/windows/hardware/ff566720">KSP_NODE</a> structure that describes the property set, property ID, request type, and node ID.
 
 
 ### -field u
@@ -185,33 +156,23 @@ Any ED_TRANSCAP_Xxx or ED_TRANSBASIC_Xxx tokens are defined in <i>xprtdefs.h</i>
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565168">KSPROPERTY_EXTXPORT_STATE</a>
 
 
 
-<a href="..\ksmedia\ns-ksmedia-transport_state.md">TRANSPORT_STATE</a>
-
-
-
-<<<<<<< HEAD
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
 
 
 
-<a href="..\ksmedia\ns-ksmedia-transport_state.md">TRANSPORT_STATE</a>
-=======
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565168">KSPROPERTY_EXTXPORT_STATE</a>
 
 
 
-<a href="..\ksmedia\ns-ksmedia-medium_info.md">MEDIUM_INFO</a>
->>>>>>> 7b6bd3b88106eb7b25c8489b98269eb870735b73
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567726">MEDIUM_INFO</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568546">TRANSPORT_STATE</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KSPROPERTY_EXTXPORT_NODE_S structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

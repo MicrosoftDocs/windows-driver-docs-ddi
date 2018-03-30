@@ -698,24 +698,24 @@ A set of options set by RDBSS and passed to low I/O operations sent to the netwo
 A pointer to a LOWIO_CONTEXT structure passed to the network mini-redirector. <b>LowIoContext</b> is a member of unnamed structure used for low I/O requests sent to the network mini-redirector.
 
 
-#### - IoStatusBlock
-
-The I/O status block use by a network mini-redirector to return status information. The <b>IoStatusBlock</b> member is a member of an unnamed union used for returning status information.
-
-
 #### - ForceLonglongAligmentDummyField
 
 A member of an unnamed union use to force proper alignment on the <b>MRxContext[MRX_CONTEXT_FIELD_COUNT]</b> member. 
 
 
-#### - MRxContext
-
-A member of an unnamed union that contains an array of four pointers for use by a network mini-redirector driver.
-
-
 #### - FsdUid
 
 The effective user ID if <a href="https://msdn.microsoft.com/library/windows/hardware/ff554736">RxStartMinirdr</a> was called using a user-mode process thread. This member is not used by RDBSS.
+
+
+#### - IoStatusBlock
+
+The I/O status block use by a network mini-redirector to return status information. The <b>IoStatusBlock</b> member is a member of an unnamed union used for returning status information.
+
+
+#### - MRxContext
+
+A member of an unnamed union that contains an array of four pointers for use by a network mini-redirector driver.
 
 
 ## -remarks
@@ -852,6 +852,4 @@ RDBSS provides a number of routines that are used to manipulate an RX_CONTEXT an
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RX_CONTEXT structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -52,26 +52,6 @@ req.typenames: KS_VIDEOINFO, *PKS_VIDEOINFO
 The KS_VIDEOINFO structure describes the bitmap and color information for a video stream.
 
 
-## -syntax
-
-
-````
-typedef struct tagKS_VIDEOINFO {
-  RECT                rcSource;
-  RECT                rcTarget;
-  DWORD               dwBitRate;
-  DWORD               dwBitErrorRate;
-  REFERENCE_TIME      AvgTimePerFrame;
-  KS_BITMAPINFOHEADER bmiHeader;
-  union {
-    KS_RGBQUAD       bmiColors[KS_iPALETTE_COLORS];
-    DWORD            dwBitMasks[KS_iMASK_COLORS];
-    KS_TRUECOLORINFO TrueColorInfo;
-  };
-} KS_VIDEOINFO, *PKS_VIDEOINFO;
-````
-
-
 ## -struct-fields
 
 
@@ -104,13 +84,13 @@ Specifies the average time per frame in 100-nanosecond units.
 
 ### -field bmiHeader
 
-Describes a <a href="..\ksmedia\ns-ksmedia-tagks_bitmapinfoheader.md">KS_BITMAPINFOHEADER</a> structure that contains color and dimension information about the video image bitmap.
+Describes a <a href="https://msdn.microsoft.com/library/windows/hardware/ff567305">KS_BITMAPINFOHEADER</a> structure that contains color and dimension information about the video image bitmap.
 
 
 #### - TrueColorInfo
 
 
-<a href="..\ksmedia\ns-ksmedia-tag_ks_truecolorinfo.md">KS_TRUECOLORINFO</a> structure that contains both a color palette and an array of color bitmasks.
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567685">KS_TRUECOLORINFO</a> structure that contains both a color palette and an array of color bitmasks.
 
 
 #### - bmiColors
@@ -140,21 +120,19 @@ The <b>rcTarget</b> member specifies the destination rectangle for the video. Mo
 
 ## -see-also
 
-<a href="..\ksmedia\ns-ksmedia-tag_ks_truecolorinfo.md">KS_TRUECOLORINFO</a>
 
 
 
-<a href="..\ksmedia\ns-ksmedia-tagks_rgbquad.md">KS_RGBQUAD</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567305">KS_BITMAPINFOHEADER</a>
 
 
 
-<a href="..\ksmedia\ns-ksmedia-tagks_bitmapinfoheader.md">KS_BITMAPINFOHEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567675">KS_RGBQUAD</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567685">KS_TRUECOLORINFO</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KS_VIDEOINFO structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

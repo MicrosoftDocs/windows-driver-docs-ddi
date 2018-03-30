@@ -78,14 +78,14 @@ TBD
 Pointer to a memory location that receives the length, in bytes, of the string value pointed to by the <i>pwszValue</i> parameter. The length includes the terminating null character.
 
 
-#### - pwszValueName [in]
-
-Points to the first character of a Unicode string containing the name of the registry entry.
-
-
 #### - pwszValue [out]
 
 Pointer to a memory location that receives the string value, including a terminating null character.
+
+
+#### - pwszValueName [in]
+
+Points to the first character of a Unicode string containing the name of the registry entry.
 
 
 ## -returns
@@ -110,6 +110,4 @@ On success, the function returns S_OK. If the function fails, it returns a stand
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [image\image]:%20wiauRegGetStr function%20 RELEASE:%20(2/27/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

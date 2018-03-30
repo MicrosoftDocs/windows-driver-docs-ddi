@@ -7,7 +7,7 @@ old-location: debugger\disasm.htm
 old-project: debugger
 ms.assetid: 1a986b7b-b45b-4546-a14e-4abb76ddf764
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: Disasm, Disasm callback function [Windows Debugging], PWINDBG_DISASM, WdbgExts_Ref_787ab353-1829-4111-8931-2192bfb9cd0c.xml, debugger.disasm, wdbgexts/Disasm
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,18 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>PWINDBG_DISASM</b> (<b>Disasm</b>) function disassembles the instruction pointed to by <i>lpOffset</i> and places the printable string into <i>lpBuffer</i>.
-
-
-## -prototype
-
-
-````
-ULONG Disasm(
-   PULONG lpOffset,
-   PCSTR  lpBuffer,
-   ULONG  fShowEffectiveAddress
-);
-````
 
 
 ## -parameters

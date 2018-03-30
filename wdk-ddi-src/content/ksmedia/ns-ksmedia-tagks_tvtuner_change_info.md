@@ -52,19 +52,6 @@ req.typenames: KS_TVTUNER_CHANGE_INFO, *PKS_TVTUNER_CHANGE_INFO
 The KS_TVTUNER_CHANGE_INFO structure provides vertical blanking interval (VBI) codecs with information about the currently tuned channel.
 
 
-## -syntax
-
-
-````
-typedef struct tagKS_TVTUNER_CHANGE_INFO {
-  DWORD dwFlags;
-  DWORD dwCountryCode;
-  DWORD dwAnalogVideoStandard;
-  DWORD dwChannel;
-} KS_TVTUNER_CHANGE_INFO, *PKS_TVTUNER_CHANGE_INFO;
-````
-
-
 ## -struct-fields
 
 
@@ -110,7 +97,7 @@ Specifies the country code in use. This corresponds to the International Telecom
 
 ### -field dwAnalogVideoStandard
 
-Specifies the current analog video standard. This member should be set to a value from the <a href="..\ksmedia\ne-ksmedia-ks_analogvideostandard.md">KS_AnalogVideoStandard</a> enumeration.
+Specifies the current analog video standard. This member should be set to a value from the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567297">KS_AnalogVideoStandard</a> enumeration.
 
 
 ### -field dwChannel
@@ -129,13 +116,11 @@ A packet containing a KS_TVTUNER_CHANGE_INFO structure normally originates at a 
 
 ## -see-also
 
-<a href="..\ksmedia\ne-ksmedia-ks_analogvideostandard.md">KS_AnalogVideoStandard</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567297">KS_AnalogVideoStandard</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KS_TVTUNER_CHANGE_INFO structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -572,6 +572,78 @@ The IPsec offload version 2A H and ESP features are enabled for transmit and rec
 
 
 
+#### - EncapsulatedPacketTaskOffload
+
+A protocol driver sets <b>EncapsulatedPacketTaskOffload</b> as follows: 
+
+<div class="alert"><b>Note</b>  For receive side offloads such as VMQ and RSS, there are other set OIDs that the protocol driver sends down to enable and configure the offload parameters (for example, queues, hash, and indirection table). The <b>EncapsulatedPacketTaskOffload</b> member is supplemental to those OIDs and instructs the NIC to also do these offloads for encapsulated packets.</div>
+<div> </div>
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="NDIS_OFFLOAD_SET_NO_CHANGE"></a><a id="ndis_offload_set_no_change"></a><dl>
+<dt><b>NDIS_OFFLOAD_SET_NO_CHANGE</b></dt>
+<dt>0</dt>
+</dl>
+</td>
+<td width="60%">
+The NVGRE task offload state is unchanged.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="NDIS_OFFLOAD_SET_ON"></a><a id="ndis_offload_set_on"></a><dl>
+<dt><b>NDIS_OFFLOAD_SET_ON</b></dt>
+<dt>1</dt>
+</dl>
+</td>
+<td width="60%">
+Enables NVGRE task offloads.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="NDIS_OFFLOAD_SET_OFF"></a><a id="ndis_offload_set_off"></a><dl>
+<dt><b>NDIS_OFFLOAD_SET_OFF</b></dt>
+<dt>2</dt>
+</dl>
+</td>
+<td width="60%">
+Disables NVGRE task offloads.
+
+</td>
+</tr>
+</table>
+ 
+
+
+#### - EncapsulationTypes
+
+This field is effective only when the <b>EncapsulatedPacketTaskOffload</b> is set to <b>NDIS_OFFLOAD_SET_ON</b>. If the <b>EncapsulatedPacketTaskOffload</b> member is not set to <b>NDIS_OFFLOAD_SET_ON</b>, this member is zero. A protocol driver must set <b>EncapsulationTypes</b> to the bitwise OR of the flags corresponding to encapsulation types that it requires. It can select flags from the following:
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="NDIS_ENCAPSULATION_TYPE_GRE_MAC"></a><a id="ndis_encapsulation_type_gre_mac"></a><dl>
+<dt><b>NDIS_ENCAPSULATION_TYPE_GRE_MAC</b></dt>
+<dt>0x00000001</dt>
+</dl>
+</td>
+<td width="60%">
+Specifies GRE MAC  encapsulation (NVGRE).
+
+</td>
+</tr>
+</table>
+ 
+
+
 #### - RscIPv4
 
 Indicates Receive Segment Coalescing state for IPv4.
@@ -658,78 +730,6 @@ The RSC state is disabled.
  
 
 
-#### - EncapsulatedPacketTaskOffload
-
-A protocol driver sets <b>EncapsulatedPacketTaskOffload</b> as follows: 
-
-<div class="alert"><b>Note</b>  For receive side offloads such as VMQ and RSS, there are other set OIDs that the protocol driver sends down to enable and configure the offload parameters (for example, queues, hash, and indirection table). The <b>EncapsulatedPacketTaskOffload</b> member is supplemental to those OIDs and instructs the NIC to also do these offloads for encapsulated packets.</div>
-<div> </div>
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="NDIS_OFFLOAD_SET_NO_CHANGE"></a><a id="ndis_offload_set_no_change"></a><dl>
-<dt><b>NDIS_OFFLOAD_SET_NO_CHANGE</b></dt>
-<dt>0</dt>
-</dl>
-</td>
-<td width="60%">
-The NVGRE task offload state is unchanged.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="NDIS_OFFLOAD_SET_ON"></a><a id="ndis_offload_set_on"></a><dl>
-<dt><b>NDIS_OFFLOAD_SET_ON</b></dt>
-<dt>1</dt>
-</dl>
-</td>
-<td width="60%">
-Enables NVGRE task offloads.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="NDIS_OFFLOAD_SET_OFF"></a><a id="ndis_offload_set_off"></a><dl>
-<dt><b>NDIS_OFFLOAD_SET_OFF</b></dt>
-<dt>2</dt>
-</dl>
-</td>
-<td width="60%">
-Disables NVGRE task offloads.
-
-</td>
-</tr>
-</table>
- 
-
-
-#### - EncapsulationTypes
-
-This field is effective only when the <b>EncapsulatedPacketTaskOffload</b> is set to <b>NDIS_OFFLOAD_SET_ON</b>. If the <b>EncapsulatedPacketTaskOffload</b> member is not set to <b>NDIS_OFFLOAD_SET_ON</b>, this member is zero. A protocol driver must set <b>EncapsulationTypes</b> to the bitwise OR of the flags corresponding to encapsulation types that it requires. It can select flags from the following:
-
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="NDIS_ENCAPSULATION_TYPE_GRE_MAC"></a><a id="ndis_encapsulation_type_gre_mac"></a><dl>
-<dt><b>NDIS_ENCAPSULATION_TYPE_GRE_MAC</b></dt>
-<dt>0x00000001</dt>
-</dl>
-</td>
-<td width="60%">
-Specifies GRE MAC  encapsulation (NVGRE).
-
-</td>
-</tr>
-</table>
- 
-
-
 ## -remarks
 
 
@@ -781,6 +781,4 @@ The preceding members can have one of the following values:
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_OFFLOAD_PARAMETERS structure%20 RELEASE:%20(3/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

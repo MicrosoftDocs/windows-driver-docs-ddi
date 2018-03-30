@@ -7,7 +7,7 @@ old-location: kernel\pep_processor_feedback_counter.htm
 old-project: kernel
 ms.assetid: 275AE285-6309-4A03-A02C-DBE8D44727CE
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: "*PPEP_PROCESSOR_FEEDBACK_COUNTER, PEP_PROCESSOR_FEEDBACK_COUNTER, PEP_PROCESSOR_FEEDBACK_COUNTER structure [Kernel-Mode Driver Architecture], PPEP_PROCESSOR_FEEDBACK_COUNTER, PPEP_PROCESSOR_FEEDBACK_COUNTER structure pointer [Kernel-Mode Driver Architecture], PROCESSOR_FEEDBACK_COUNTER_FREQUENCY, PROCESSOR_FEEDBACK_COUNTER_PERFORMANCE, PROCESSOR_FEEDBACK_TYPE_INSTANTANEOUS, PROCESSOR_FEEDBACK_TYPE_RELATIVE, _PEP_PROCESSOR_FEEDBACK_COUNTER, kernel.pep_processor_feedback_counter, pepfx/PEP_PROCESSOR_FEEDBACK_COUNTER, pepfx/PPEP_PROCESSOR_FEEDBACK_COUNTER"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -67,48 +67,6 @@ Specifies the nominal rate of the counter.
 Identifies the counter process affinity. If set to 1, the counter must be read while executing on the target processor, otherwise, it will be set to 0.
 
 
-#### - Type
-
-Specifies the data type of the counter.
-
-
-The processor feedback counter data types are:
-
-
-
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="PROCESSOR_FEEDBACK_TYPE_INSTANTANEOUS"></a><a id="processor_feedback_type_instantaneous"></a><dl>
-<dt><b>PROCESSOR_FEEDBACK_TYPE_INSTANTANEOUS</b></dt>
-<dt>0x00</dt>
-</dl>
-</td>
-<td width="60%">
-The feedback counter returns the instantaneous value of the property being counted.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="PROCESSOR_FEEDBACK_TYPE_RELATIVE"></a><a id="processor_feedback_type_relative"></a><dl>
-<dt><b>PROCESSOR_FEEDBACK_TYPE_RELATIVE</b></dt>
-<dt>0x01</dt>
-</dl>
-</td>
-<td width="60%">
-The feedback counter returns two incrementing values: the nominal count, and the actual count. Nominal count increments at a fixed nominal rate. Actual count increments at a variable rate relative to the property being counted. When the property is incrementing at its nominal rate, the two values should increment at the same rate. To compute an average rate over a time period, the OS reads the counter once and the beginning of the period and once at the end and computes:
-
-<img alt="The average rate is equal to the nominal rate multiplied by the quotient of the variable rate divided by the fixed rate." src="../Common/PEP_PROCESSOR_FEEDBACK_COUNTER_equation.png"/>
-
-</td>
-</tr>
-</table>
- 
-
-
 #### - Counter
 
 Specifies the data the counter is providing.
@@ -154,6 +112,48 @@ The feedback counter returns the current processor performance. The nominal rate
 This member is reserved and should be set to zero.
 
 
+#### - Type
+
+Specifies the data type of the counter.
+
+
+The processor feedback counter data types are:
+
+
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="PROCESSOR_FEEDBACK_TYPE_INSTANTANEOUS"></a><a id="processor_feedback_type_instantaneous"></a><dl>
+<dt><b>PROCESSOR_FEEDBACK_TYPE_INSTANTANEOUS</b></dt>
+<dt>0x00</dt>
+</dl>
+</td>
+<td width="60%">
+The feedback counter returns the instantaneous value of the property being counted.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="PROCESSOR_FEEDBACK_TYPE_RELATIVE"></a><a id="processor_feedback_type_relative"></a><dl>
+<dt><b>PROCESSOR_FEEDBACK_TYPE_RELATIVE</b></dt>
+<dt>0x01</dt>
+</dl>
+</td>
+<td width="60%">
+The feedback counter returns two incrementing values: the nominal count, and the actual count. Nominal count increments at a fixed nominal rate. Actual count increments at a variable rate relative to the property being counted. When the property is incrementing at its nominal rate, the two values should increment at the same rate. To compute an average rate over a time period, the OS reads the counter once and the beginning of the period and once at the end and computes:
+
+<img alt="The average rate is equal to the nominal rate multiplied by the quotient of the variable rate divided by the fixed rate." src="../Common/PEP_PROCESSOR_FEEDBACK_COUNTER_equation.png"/>
+
+</td>
+</tr>
+</table>
+ 
+
+
 ## -remarks
 
 
@@ -176,6 +176,4 @@ This structure
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PEP_PROCESSOR_FEEDBACK_COUNTER structure%20 RELEASE:%20(3/1/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

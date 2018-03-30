@@ -70,14 +70,14 @@ This topic supports the Windows driver infrastructure and is not intended to be 
 ### -field RILCALLMEDIASTATEUNION
 
 
-#### - stAudioState
-
-
-#### - stVideoState
-
-
 #### - dwCustomStateSpecific
 
 
 #### - pad
+
+
+#### - stAudioState
+
+
+#### - stVideoState
 

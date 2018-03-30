@@ -88,16 +88,6 @@ The length of data to be sent.
 The context passed back to the caller during <b>SendCompletion</b> for asynchronous operations. Not that this parameter is ignored if the <i>Options</i> parameter requests a synchronous send operation.
 
 
-#### - pTransport [in]
-
-A pointer to the transport along which the TSDU is to be sent.
-
-
-#### - pAddress [in]
-
-A pointer to the local transport address.
-
-
 #### - Options [in]
 
 The desired options for transmitting the data on this send operation by the transport. Note that this is only a request sent to the transport. The transport may only support a limited number of the options specified and ignore options not supported. The <i>Options</i> parameter consists of set of bits defined in <i>rxce.h</i>. The <i>Options</i> parameter can be a combination of the following bits:
@@ -117,6 +107,16 @@ Signifies if an RX_MEM_DESC(MDL) is to be sent in its entirety, or if only porti
 Signifies if the send operation is to transmit the data synchronously. When this option is set, the request is submitted to the underlying transport and control does not return to the caller until the request completes. Note that the <i>pCompletionContext</i> parameter is ignored when this bit is set.
 
 Note that the RXCE_SEND_SYNCHRONOUS option is disregarded for sending datagrams because the underlying transports do not block on datagram sends.
+
+
+#### - pAddress [in]
+
+A pointer to the local transport address.
+
+
+#### - pTransport [in]
+
+A pointer to the transport along which the TSDU is to be sent.
 
 
 ## -returns
@@ -192,6 +192,4 @@ Note that the synchronous <i>Option</i> is disregarded for sending datagrams bec
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RxCeSendDatagram function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

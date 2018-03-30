@@ -62,6 +62,11 @@ Holds information about the preferred pixel encoding format.
 UINT used to operate on the combined bit-fields.
 
 
+#### - Intensity
+
+UINT describing supported/requested pixel encoding using intensity only.
+
+
 #### - Preference
 
 Functions as it has in previous releases, but using only 2 bits.
@@ -72,9 +77,9 @@ Functions as it has in previous releases, but using only 2 bits.
 UINT describing supported/requested pixel encoding using RGB sample format.
 
 
-#### - YCbCr444
+#### - YCbCr420
 
-UINT describing supported/requested pixel encoding using YcbCr 4:4:4 sample format.
+UINT describing supported/requested pixel encoding using YcbCr 4:2:0 sample format.
 
 
 #### - YCbCr422
@@ -82,14 +87,9 @@ UINT describing supported/requested pixel encoding using YcbCr 4:4:4 sample form
 UINT describing supported/requested pixel encoding using YcbCr 4:2:2 sample format.
 
 
-#### - YCbCr420
+#### - YCbCr444
 
-UINT describing supported/requested pixel encoding using YcbCr 4:2:0 sample format.
-
-
-#### - Intensity
-
-UINT describing supported/requested pixel encoding using intensity only.
+UINT describing supported/requested pixel encoding using YcbCr 4:4:4 sample format.
 
 
 ## -remarks

@@ -82,9 +82,9 @@ A handle to the display device (graphics context).
 
 
 
-#### - pCreateData [in]
+#### - hRTVideoProcessorEnum [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh406316">D3D11_1DDIARG_CREATEVIDEOPROCESSORENUM</a> structure. This structure specifies the attributes of the video processor enumeration object to be created.
+A handle to the video processor enumeration object that the driver should use when it calls back into the Direct3D runtime.
 
 
 #### - hVideoProcessorEnum [in]
@@ -92,9 +92,9 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh40
 A handle to the driver's private data for the video processor enumeration object. For more information, see the Remarks section.
 
 
-#### - hRTVideoProcessorEnum [in]
+#### - pCreateData [in]
 
-A handle to the video processor enumeration object that the driver should use when it calls back into the Direct3D runtime.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh406316">D3D11_1DDIARG_CREATEVIDEOPROCESSORENUM</a> structure. This structure specifies the attributes of the video processor enumeration object to be created.
 
 
 ## -returns
@@ -161,6 +161,4 @@ When the runtime  calls <i>CreateVideoProcessorEnum</i>, it passes the handle to
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3D11_1DDI_CREATEVIDEOPROCESSORENUM callback function%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

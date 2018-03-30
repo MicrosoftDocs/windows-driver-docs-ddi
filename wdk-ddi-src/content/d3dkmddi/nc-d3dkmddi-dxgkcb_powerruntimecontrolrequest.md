@@ -77,9 +77,9 @@ A handle to the display adapter. The display miniport driver receives the handle
 ### -param SIZE_T
 
 
-#### - PowerControlCode [in]
+#### - BytesReturned [out, optional]
 
-A pointer to a GUID that defines the meaning of the display miniport driver's control request. For more information, see Remarks.
+An optional pointer to a buffer that contains the number of bytes that are written by the PEP to the output buffer.
 
 
 #### - InBuffer [in, optional]
@@ -102,9 +102,9 @@ An optional pointer to an output buffer.
 The size, in bytes, of the buffer that <i>OutBuffer</i> points to.
 
 
-#### - BytesReturned [out, optional]
+#### - PowerControlCode [in]
 
-An optional pointer to a buffer that contains the number of bytes that are written by the PEP to the output buffer.
+A pointer to a GUID that defines the meaning of the display miniport driver's control request. For more information, see Remarks.
 
 
 ## -returns
@@ -195,6 +195,4 @@ These GUIDs do not imply that there is any communication protocol between the di
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKCB_POWERRUNTIMECONTROLREQUEST callback function%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

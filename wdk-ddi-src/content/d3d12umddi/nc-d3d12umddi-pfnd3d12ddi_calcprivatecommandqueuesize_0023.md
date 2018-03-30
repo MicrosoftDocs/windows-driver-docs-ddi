@@ -69,14 +69,14 @@ The <i>pfnCalcPrivateCommandQueueSize</i> callback function is used to calculate
 
 
 
-#### - hDevice
-
-The handle of a device.
-
-
 #### - CreateCommandQueue [in]
 
 An argument used to create a command queue. 
+
+
+#### - hDevice
+
+The handle of a device.
 
 
 ## -returns

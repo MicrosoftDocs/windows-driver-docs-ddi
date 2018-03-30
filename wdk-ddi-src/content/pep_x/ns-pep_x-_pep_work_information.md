@@ -7,7 +7,7 @@ old-location: kernel\pep_work_information.htm
 old-project: kernel
 ms.assetid: 7A3B2A94-AE6F-4DCC-9CDF-E2D5799C9F0D
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: "*PPEP_WORK_INFORMATION, PEP_WORK_INFORMATION, PEP_WORK_INFORMATION structure [Kernel-Mode Driver Architecture], PPEP_WORK_INFORMATION, PPEP_WORK_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _PEP_WORK_INFORMATION, kernel.pep_work_information, pepfx/PEP_WORK_INFORMATION, pepfx/PPEP_WORK_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -97,9 +97,9 @@ A <a href="https://msdn.microsoft.com/library/windows/hardware/mt186861">PEP_WOR
 A <a href="https://msdn.microsoft.com/library/windows/hardware/mt186860">PEP_WORK_ACPI_EVALUATE_CONTROL_METHOD_COMPLETE</a> structure. This structure is used if <b>WorkType</b> = <b>PepWorkAcpiEvaluateControlMethodComplete</b>.
 
 
-##### - ( unnamed union ).PowerControl
+##### - ( unnamed union ).AcpiNotify
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/mt186865">PEP_WORK_POWER_CONTROL</a> structure. This structure is used if <b>WorkType</b> = <b>PepWorkRequestPowerControl</b>.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/mt186861">PEP_WORK_ACPI_NOTIFY</a> structure. This structure is used if <b>WorkType</b> = <b>PepWorkAcpiNotify</b>.
 
 
 ##### - ( unnamed union ).CompleteIdleState
@@ -112,14 +112,14 @@ A <a href="https://msdn.microsoft.com/library/windows/hardware/mt186862">PEP_WOR
 A <a href="https://msdn.microsoft.com/library/windows/hardware/mt186863">PEP_WORK_COMPLETE_PERF_STATE</a> structure. This structure is used if <b>WorkType</b> = <b>PepWorkCompletePerfState</b>.
 
 
-##### - ( unnamed union ).AcpiNotify
-
-A <a href="https://msdn.microsoft.com/library/windows/hardware/mt186861">PEP_WORK_ACPI_NOTIFY</a> structure. This structure is used if <b>WorkType</b> = <b>PepWorkAcpiNotify</b>.
-
-
 ##### - ( unnamed union ).ControlMethodComplete
 
 A <a href="https://msdn.microsoft.com/library/windows/hardware/mt186860">PEP_WORK_ACPI_EVALUATE_CONTROL_METHOD_COMPLETE</a> structure. This structure is used if <b>WorkType</b> = <b>PepWorkAcpiEvaluateControlMethodComplete</b>.
+
+
+##### - ( unnamed union ).PowerControl
+
+A <a href="https://msdn.microsoft.com/library/windows/hardware/mt186865">PEP_WORK_POWER_CONTROL</a> structure. This structure is used if <b>WorkType</b> = <b>PepWorkRequestPowerControl</b>.
 
 
 ## -remarks
@@ -180,6 +180,4 @@ The <b>WorkInformation</b> member of the <a href="https://msdn.microsoft.com/lib
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PEP_WORK_INFORMATION structure%20 RELEASE:%20(3/1/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -92,14 +92,9 @@ TBD
 Pointer to a variable that receives the index of the mapping run that contains the VBN. This parameter is optional and can be <b>NULL</b>. 
 
 
-#### - OpaqueMcb [in]
+#### - LargeCountFromStartingLbn [out, optional]
 
-Pointer to an initialized MCB structure. 
-
-
-#### - LargeVbn [in]
-
-Pointer to the requested VBN.
+Pointer to a variable that receives the number of sectors in the mapping run. This parameter is optional and can be <b>NULL</b>. 
 
 
 #### - LargeLbn [out, optional]
@@ -117,9 +112,14 @@ Pointer to a variable that receives the number of sectors that follow <i>LargeVb
 Pointer to a variable that receives the LBN corresponding to the start of the mapping run, or -1 if no such LBN exists. This parameter is optional and can be <b>NULL</b>. 
 
 
-#### - LargeCountFromStartingLbn [out, optional]
+#### - LargeVbn [in]
 
-Pointer to a variable that receives the number of sectors in the mapping run. This parameter is optional and can be <b>NULL</b>. 
+Pointer to the requested VBN.
+
+
+#### - OpaqueMcb [in]
+
+Pointer to an initialized MCB structure. 
 
 
 ## -returns
@@ -201,6 +201,4 @@ If the specified VBN is higher than the highest VBN mapped by the MCB, or if the
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FsRtlLookupLargeMcbEntry routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

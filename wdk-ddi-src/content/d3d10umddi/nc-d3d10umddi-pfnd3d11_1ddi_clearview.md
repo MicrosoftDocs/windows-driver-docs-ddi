@@ -83,6 +83,11 @@ An array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff56923
 The number of rectangles in the array that the  <i>pRect</i> parameter specifies.
 
 
+#### - Color
+
+A 4-component array that represents the color to use to clear the resource view. For more details, see the Remarks section.
+
+
 #### - HandleType
 
 A value, of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff542152">D3D11DDI_HANDLETYPE</a>, that identifies the view handle type that supports this clear operation. Possible types are the following.
@@ -92,11 +97,6 @@ A value, of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff
 <li><b>D3D11DDI_HT_UNORDEREDACCESSVIEW</b></li>
 <li>Any <b>D3D11_1DDI_HT_VIDEOXXX</b> type</li>
 </ul>
-
-#### - Color
-
-A 4-component array that represents the color to use to clear the resource view. For more details, see the Remarks section.
-
 
 ## -returns
 
@@ -170,6 +170,4 @@ However, video views of a video surface (such as views provided to the <a href="
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3D11_1DDI_CLEARVIEW callback function%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

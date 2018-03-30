@@ -69,14 +69,14 @@ The<i> MRxFinalizeNetRoot</i> routine is called by <a href="https://docs.microso
 
 
 
-#### - pNetRoot [in, out]
-
-A pointer to the NET_ROOT structure to finalize. 
-
-
 #### - ForceDisconnect [in]
 
 A pointer to a Boolean value that indicates if the disconnect is to be forced. RDBSS currently passes <b>FALSE</b> for this parameter in all cases.
+
+
+#### - pNetRoot [in, out]
+
+A pointer to the NET_ROOT structure to finalize. 
 
 
 ## -returns
@@ -132,6 +132,4 @@ RDBSS ignores the return value from <i>MRxFinalizeNetRoot</i>.
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20PMRX_FINALIZE_NET_ROOT_CALLDOWN routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

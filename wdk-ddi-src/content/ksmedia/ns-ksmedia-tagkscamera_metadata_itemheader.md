@@ -52,17 +52,6 @@ req.typenames: KSCAMERA_METADATA_ITEMHEADER, *PKSCAMERA_METADATA_ITEMHEADER
 This structure contains the metadata header information that is filled by the camera driver.
 
 
-## -syntax
-
-
-````
-typedef struct tagKSCAMERA_METADATA_ITEMHEADER {
-  ULONG MetadataId;
-  ULONG Size;
-} KSCAMERA_METADATA_ITEMHEADER, *PKSCAMERA_METADATA_ITEMHEADER;
-````
-
-
 ## -struct-fields
 
 
@@ -70,7 +59,7 @@ typedef struct tagKSCAMERA_METADATA_ITEMHEADER {
 
 ### -field MetadataId
 
-The identifier for the metadata item. This can be a standard identifier as defined in the <a href="..\ksmedia\ne-ksmedia-kscamera_metadataid.md">KSCAMERA_MetadataId</a> enumeration or any custom metadata identifier that starts from MetadataId_Custom_Start (0x80000000).
+The identifier for the metadata item. This can be a standard identifier as defined in the <a href="https://msdn.microsoft.com/library/windows/hardware/dn925181">KSCAMERA_MetadataId</a> enumeration or any custom metadata identifier that starts from MetadataId_Custom_Start (0x80000000).
 
 
 ### -field Size

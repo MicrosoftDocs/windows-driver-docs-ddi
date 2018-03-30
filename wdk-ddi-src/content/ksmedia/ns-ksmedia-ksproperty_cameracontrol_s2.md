@@ -52,20 +52,6 @@ req.typenames: KSPROPERTY_CAMERACONTROL_S2, *PKSPROPERTY_CAMERACONTROL_S2
 The KSPROPERTY_CAMERACONTROL_S2 structure describes filter-based properties in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567802">PROPSETID_VIDCAP_CAMERACONTROL</a> property set that use two values at the same time.
 
 
-## -syntax
-
-
-````
-typedef struct {
-  KSPROPERTY Property;
-  LONG       Value1;
-  ULONG      Flags;
-  ULONG      Capabilities;
-  LONG       Value2;
-} KSPROPERTY_CAMERACONTROL_S2, *PKSPROPERTY_CAMERACONTROL_S2;
-````
-
-
 ## -struct-fields
 
 

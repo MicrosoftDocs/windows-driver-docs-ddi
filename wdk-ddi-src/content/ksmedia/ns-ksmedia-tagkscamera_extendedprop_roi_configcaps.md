@@ -52,18 +52,6 @@ req.typenames: KSCAMERA_EXTENDEDPROP_ROI_CONFIGCAPS, *PKSCAMERA_EXTENDEDPROP_ROI
 This structure contains the capabilities for an ROI control.
 
 
-## -syntax
-
-
-````
-typedef struct tagKSCAMERA_EXTENDEDPROP_ROI_CONFIGCAPS {
-  ULONG     ControlId;
-  ULONG     MaxNumberOfROIs;
-  ULONGLONG Capability;
-} KSCAMERA_EXTENDEDPROP_ROI_CONFIGCAPS, *PKSCAMERA_EXTENDEDPROP_ROI_CONFIGCAPS;
-````
-
-
 ## -struct-fields
 
 

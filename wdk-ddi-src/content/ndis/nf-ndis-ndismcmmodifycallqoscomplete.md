@@ -77,10 +77,12 @@ TBD
 
 
 
-#### - Status [in]
+#### - CallParameters [in]
 
-Specifies the final status of the client's request to modify the QoS on this VC, either
-     NDIS_STATUS_SUCCESS or any caller-determined NDIS_STATUS_<i>XXX</i><u>except</u> NDIS_STATUS_PENDING.
+Pointer to a structure of type 
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a> specifying a QoS
+     acceptable to the MCM driver if 
+     <i>Status</i> is set to NDIS_STATUS_SUCCESS.
 
 
 #### - NdisVcHandle [in]
@@ -91,12 +93,10 @@ Specifies the handle to the VC, obtained from the per-VC state designated by the
      ProtocolCmModifyCallQoS</a> function for this request.
 
 
-#### - CallParameters [in]
+#### - Status [in]
 
-Pointer to a structure of type 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a> specifying a QoS
-     acceptable to the MCM driver if 
-     <i>Status</i> is set to NDIS_STATUS_SUCCESS.
+Specifies the final status of the client's request to modify the QoS on this VC, either
+     NDIS_STATUS_SUCCESS or any caller-determined NDIS_STATUS_<i>XXX</i><u>except</u> NDIS_STATUS_PENDING.
 
 
 ## -remarks
@@ -157,6 +157,4 @@ Only connection-oriented miniport drivers that provide integrated call-managemen
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisMCmModifyCallQoSComplete macro%20 RELEASE:%20(3/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

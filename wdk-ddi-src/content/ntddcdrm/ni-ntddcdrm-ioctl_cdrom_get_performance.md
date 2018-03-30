@@ -113,9 +113,9 @@ Because of  status code propagation from other APIs, the <b>Status</b> field can
 
 
 
-#### -STATUS_SUCCESS
+#### -STATUS_BUFFER_TOO_SMALL
 
-The request completed successfully.
+The output buffer length is smaller than required.
 
 
 #### -STATUS_INFO_LENGTH_MISMATCH
@@ -123,19 +123,19 @@ The request completed successfully.
 The input buffer length is smaller than required.
 
 
+#### -STATUS_INVALID_DEVICE_REQUEST
+
+The device does not support this request.
+
+
 #### -STATUS_INVALID_PARAMETER
 
 The CDROM_PERFORMANCE_REQUEST header does not contain a valid combination of parameters specified by enumerations.
 
 
-#### -STATUS_BUFFER_TOO_SMALL
+#### -STATUS_SUCCESS
 
-The output buffer length is smaller than required.
-
-
-#### -STATUS_INVALID_DEVICE_REQUEST
-
-The device does not support this request.
+The request completed successfully.
 
 
 ## -see-also
@@ -159,6 +159,4 @@ The device does not support this request.
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20IOCTL_CDROM_GET_PERFORMANCE control code%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

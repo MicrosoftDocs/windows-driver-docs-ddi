@@ -69,6 +69,16 @@ The <b>SE_TOKEN_USER</b> structure holds the maximum-sized valid user SID that c
 
 
 
+#### - Buffer
+
+Specifies an array of SECURITY_MAX_SID_SIZE for allocating enough memory for the largest possible SID size.
+
+
+#### - Sid
+
+Specifies a <b>Security Identifier (SID)</b> structure used to uniquely identify users or groups
+
+
 #### - TokenUser
 
 Specifies a <b>TOKEN_USER</b> structure representing the user associated with an access token.
@@ -77,16 +87,6 @@ Specifies a <b>TOKEN_USER</b> structure representing the user associated with an
 #### - User
 
 Specifies an <b>SID_AND_ATTRIBUTES</b> structure representing the user associated with the access token.
-
-
-#### - Sid
-
-Specifies a <b>Security Identifier (SID)</b> structure used to uniquely identify users or groups
-
-
-#### - Buffer
-
-Specifies an array of SECURITY_MAX_SID_SIZE for allocating enough memory for the largest possible SID size.
 
 
 ## -see-also
@@ -106,6 +106,4 @@ Specifies an array of SECURITY_MAX_SID_SIZE for allocating enough memory for the
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20SE_TOKEN_USER structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

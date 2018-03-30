@@ -69,14 +69,14 @@ This structure describes the number of profile strings in a buffer.
 
 
 
-#### - EntryCount
-
-Indicates the number of statistics that follow this header.
-
-
 #### - DataLength
 
 The size in bytes of the buffer that follows this <b>PosProfileType</b>, including the size of the <b>PosProfileType</b> structure.
+
+
+#### - EntryCount
+
+Indicates the number of statistics that follow this header.
 
 
 ## -remarks

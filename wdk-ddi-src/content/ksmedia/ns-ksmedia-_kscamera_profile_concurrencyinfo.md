@@ -49,20 +49,7 @@ req.typenames: KSCAMERA_PROFILE_CONCURRENCYINFO, *PKSCAMERA_PROFILE_CONCURRENCYI
 ## -description
 
 
-An array of <b>KSCAMERA_PROFILE_CONCURRENCYINFO</b> structures form the <b>Camera.Concurrency</b> parameter of   the <a href="..\ksmedia\ns-ksmedia-_ksdevice_profile_info.md">KSDEVICE_PROFILE_INFO</a> structure (whose array size is specified by <b>Camera.CountOfConcurrency</b> parameter) indicating which profiles the profile identified in the <a href="..\ksmedia\ns-ksmedia-_kscamera_profile_info.md">KSCAMERA_PROFILE_INFO</a> structure may run simultaneously on different cameras.
-
-
-## -syntax
-
-
-````
-typedef struct _KSCAMERA_PROFILE_CONCURRENCYINFO {
-  GUID                      ReferenceGuid;
-  UINT32                    Reserved;
-  UINT32                    ProfileCount;
-  PKSCAMERA_PROFILE_PININFO Profiles;
-} KSCAMERA_PROFILE_CONCURRENCYINFO, *PKSCAMERA_PROFILE_CONCURRENCYINFO;
-````
+An array of <b>KSCAMERA_PROFILE_CONCURRENCYINFO</b> structures form the <b>Camera.Concurrency</b> parameter of   the <a href="https://msdn.microsoft.com/library/windows/hardware/dn925223">KSDEVICE_PROFILE_INFO</a> structure (whose array size is specified by <b>Camera.CountOfConcurrency</b> parameter) indicating which profiles the profile identified in the <a href="https://msdn.microsoft.com/library/windows/hardware/dn925214">KSCAMERA_PROFILE_INFO</a> structure may run simultaneously on different cameras.
 
 
 ## -struct-fields

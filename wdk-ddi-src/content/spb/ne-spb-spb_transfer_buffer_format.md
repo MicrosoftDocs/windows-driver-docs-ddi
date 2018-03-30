@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: "<= DISPATCH_LEVEL (see Remarks section)"
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -51,21 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>SPB_TRANSFER_BUFFER_FORMAT</b> enumeration specifies the format of the buffer that is described by an <a href="https://msdn.microsoft.com/library/windows/hardware/hh406215">SPB_TRANSFER_BUFFER</a> structure.
-
-
-## -syntax
-
-
-````
-typedef enum  { 
-  SpbTransferBufferFormatInvalid,
-  SpbTransferBufferFormatSimple,
-  SpbTransferBufferFormatList,
-  SpbTransferBufferFormatSimpleNonPaged,
-  SpbTransferBufferFormatMdl,
-  SpbTransferBufferFormatMax
-} SPB_TRANSFER_BUFFER_FORMAT;
-````
 
 
 ## -enum-fields
@@ -114,13 +99,11 @@ The <b>Format</b> member of the <a href="https://msdn.microsoft.com/library/wind
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh406215">SPB_TRANSFER_BUFFER</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [SPB\buses]:%20SPB_TRANSFER_BUFFER_FORMAT enumeration%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -78,11 +78,11 @@ This topic supports the Windows driver infrastructure and is not intended to be 
 #### - dwGsmKind
 
 
-#### - dwUmtsKind
+#### - dwLteKind
 
 
 #### - dwTdscdmaKind
 
 
-#### - dwLteKind
+#### - dwUmtsKind
 

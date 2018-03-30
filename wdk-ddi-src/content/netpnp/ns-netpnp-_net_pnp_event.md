@@ -530,197 +530,140 @@ An area reserved for used by TDI.
 An area reserved for used by a TDI client.
 
 
-##### - NetEvent.NetEventSetPower
+##### - Buffer.NetEventAllowBindsAbove
 
-Indicates that the power manager has sent a Set Power request, which specifies a transition to a
-       system power state. NDIS translates this state to an appropriate device power state for the
-       device.
+The buffer contents are NULL.
 
-For more information, see the Remarks section.
 
+##### - Buffer.NetEventAllowStart
 
-##### - NetEvent.NetEventQueryPower
+The buffer contents are NULL.
 
-Indicates that the power manager has sent a Query Power request, which requests a transition to
-       a system power state. NDIS translates this state to an appropriate device power state for the
-       device.
 
-For more information, see the Remarks section.
+##### - Buffer.NetEventBindFailed
 
+The buffer contains an <a href="https://msdn.microsoft.com/library/windows/hardware/jj879315">NDIS_BIND_FAILED_NOTIFICATION</a> structure.
 
-##### - NetEvent.NetEventQueryRemoveDevice
 
-Indicates that the PnP Manager has sent a Query Remove Device request. The PnP Manager sends
-       this request to query whether a device can be removed without disrupting operations.
+##### - Buffer.NetEventBindList
 
+The buffer contains a revised binding list for the network component that the 
+       <a href="https://msdn.microsoft.com/58d3baf3-a1fa-42ae-b795-2774a148aeda">
+       NET_PNP_EVENT_NOTIFICATION</a> structure is being passed to. The bind list, which is a series of
+       null-terminated Unicode strings, has a REG_MULTI_SZ format. Each of the strings is an adapter name.
+       TDI clients that are bound to a protocol use this bind list to reorder their bindings. The protocol
+       driver is responsible for validating this list.
 
-##### - NetEvent.NetEventCancelRemoveDevice
 
-Indicates that the PnP Manager has sent a Cancel Remove Device request. The PnP Manager sends
-       this request to cancel the removal of a device after the PnP Manager sends a Query Remove Device request.
+##### - Buffer.NetEventBindsComplete
 
+The buffer contents are <b>NULL</b>.
 
-##### - NetEvent.NetEventReconfigure
 
-Indicates that the configuration has changed for a network component. For example, if a user,
-       through the Network and Dial-up Connections folder, changes the IP address for TCP/IP, NDIS indicates
-       the 
-       <b>NetEventReconfigure</b> event to the TCP/IP protocol. Also, an intermediate driver typically uses
-       this event as a trigger to call the 
-       <a href="https://msdn.microsoft.com/f65c2974-4bf4-4948-ac07-527e69c96303">
-       NdisIMInitializeDeviceInstanceEx</a> function and start its virtual miniports. For more information
-       about 
-       <b>NetEventReconfigure</b>, see 
-       NetEventIMReEnableDevice.
+##### - Buffer.NetEventCancelRemoveDevice
 
+The buffer contents are <b>NULL</b>.
 
-##### - NetEvent.NetEventBindList
 
-Indicates to a protocol driver that its bind list processing order has been reconfigured. This
-       list indicates a relative order that applies to bindings when processing, for example, a user request
-       that might be routed to one of several bindings. The buffer that is passed with this event contains a
-       list of device names that are formatted as null-terminated Unicode strings. The format of each device
-       name is identical to the 
-       <b>AdapterName</b> member that is passed to a call to the 
-       <a href="https://msdn.microsoft.com/1958722e-012e-4110-a82c-751744bcf9b5">ProtocolBindAdapterEx</a> function.
+##### - Buffer.NetEventFilterPreDetach
 
+The <b>Buffer</b> member is <b>NULL</b>.
 
-##### - NetEvent.NetEventBindsComplete
 
-Indicates that a protocol driver has bound to all the NICs that it can bind to. NDIS will not
-       indicate any more NICs to the protocol unless a PnP NIC is plugged into the system.
+##### - Buffer.NetEventIMReEnableDevice
 
+The buffer contains a pointer to a variable of type NDIS_STRING that contains a null-terminated
+       Unicode string that names the device object of a virtual miniport for the device that is being
+       enabled. The string is a full path name—for example, 
+       \Device\<i>DeviceName</i>.
 
-##### - NetEvent.NetEventPnPCapabilities
 
-Indicates that the user enabled or disabled the wake-up capabilities of the underlying adapter.
-       (The binding is specified by the 
-       <i>ProtocolBindingContext</i> parameter that is passed to the 
-       <a href="https://msdn.microsoft.com/3f50bcba-c7d2-4d81-bd8b-6080e08fbe74">
-       ProtocolNetPnPEvent</a> function.)
+##### - Buffer.NetEventInhibitBindsAbove
 
+The buffer contents are NULL.
 
-##### - NetEvent.NetEventPause
 
-Indicates that the specified protocol binding should enter the 
-       Pausing state. The binding will enter the 
-       Paused state after NDIS has completed all the outstanding send requests for the
-       binding.
+##### - Buffer.NetEventNDKDisable
 
+The <b>Buffer</b> member is <b>NULL</b>.
 
-##### - NetEvent.NetEventRestart
 
-Indicates that the specified protocol binding has entered the 
-       Restarting state. After the protocol driver is ready to resume send and receive operations for
-       the binding, the binding enters the 
-       Running state.
+##### - Buffer.NetEventNDKEnable
 
+The <b>Buffer</b> member is <b>NULL</b>.
 
-##### - NetEvent.NetEventPortActivation
 
-Indicates the activation of a list of ports that are associated with the specified
-       binding.
+##### - Buffer.NetEventPause
 
+The buffer contains an 
+       <a href="https://msdn.microsoft.com/7754d47f-9e21-44c7-8a6f-141d18623ddf">
+       NDIS_PROTOCOL_PAUSE_PARAMETERS</a> structure.
 
-##### - NetEvent.NetEventPortDeactivation
 
-Indicates the deactivation of a list of ports that are associated with the specified
-       binding.
+##### - Buffer.NetEventPnPCapabilities
 
+The buffer is a ULONG that contains a bitmask. When the NDIS_DEVICE_WAKE_UP_ENABLE flag is set
+       in the bitmask, the wake-up capabilities of the NIC are enabled. Otherwise, the NIC's wake-up
+       capabilities are disabled. (The binding is specified by the 
+       <i>ProtocolBindingContext</i> parameter that is passed to 
+       <a href="https://msdn.microsoft.com/3f50bcba-c7d2-4d81-bd8b-6080e08fbe74">ProtocolNetPnPEvent</a>.) When set
+       to zero, this flag indicates that the NIC's wake-up capabilities are disabled.
 
-##### - NetEvent.NetEventIMReEnableDevice
 
-Indicates that the configuration has changed for a virtual miniport of an NDIS 6.0 or later
-       intermediate driver. 
-       <b>NetEventIMReEnableDevice</b> is similar to the 
-       <b>NetEventReconfigure</b> event except that the intermediate driver receives this event for a single
-       virtual miniport and the 
-       <b>NetEventReconfigure</b> event applies to all the intermediate driver's virtual miniports. For
-       example, an intermediate driver receives the 
-       <b>NetEventIMReEnableDevice</b> event when a user disables and then enables a single virtual miniport
-       from the Device Manager or another source. For examples of intermediate driver power management, see the 
-    <a href="http://go.microsoft.com/fwlink/p/?LinkId=617916">NDIS MUX Intermediate Driver and Notify Object</a> driver sample available in the <a href="http://go.microsoft.com/fwlink/p/?LinkId=616507">Windows driver samples</a> repository on GitHub.
+##### - Buffer.NetEventPortActivation
 
+The buffer contains the first entry in a list of 
+       <a href="https://msdn.microsoft.com/library/windows/hardware/ff566769">NDIS_PORT</a> structures that identify the ports
+       that NDIS will activate. You can use the 
+       <b>Next</b> member of the NDIS_PORT structure to get the next structure in the list.
 
-##### - NetEvent.NetEventNDKEnable
 
-Indicates that Network Direct Kernel (NDK) is currently enabled.
+##### - Buffer.NetEventPortDeactivation
 
+The buffer contains an array of port numbers, of type NDIS_PORT_NUMBER (defined as ULONG), that
+       identify the NDIS ports that NDIS will deactivate. To calculate the number of elements in the array,
+       divide the value of the 
+       <b>BufferLength</b> member, which is in the <b>NET_PNP_EVENT</b> structure that is specified in the 
+       <b>NetPnPEvent</b> member of 
+       <a href="https://msdn.microsoft.com/library/windows/hardware/ff568752">NET_PNP_EVENT_NOTIFICATION</a>,
+       by 
+       sizeof(NDIS_PORT_NUMBER).
 
-##### - NetEvent.NetEventNDKDisable
 
-Indicates that NDK is currently disabled.
+##### - Buffer.NetEventQueryPower
 
+The buffer contains the device power state that is requested for the device. The device state is
+       NDIS_DEVICE_POWER_STATE (which is described in the 
+       <b>NetEventSetPower</b> value description).
 
-##### - NetEvent.NetEventFilterPreDetach
 
-Indicates that a filter is about to be detached, so that the filter can perform any necessary cleanup that isn't possible in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff540475">FilterDetach</a> handler (because the OID and indication paths are closed at that time).
+##### - Buffer.NetEventQueryRemoveDevice
 
+The buffer contents are <b>NULL</b>.
 
-##### - NetEvent.NetEventBindFailed
 
-Indicates that a binding event failure has occurred.
+##### - Buffer.NetEventReconfigure
 
+The buffer can contain protocol-specific data. The protocol driver is responsible for validating
+       this data.
 
-##### - NetEvent.NetEventSwitchActivate
 
-Indicates that the Hyper-V Extensible Switch has completed activation, and switch extensions can now safely query for further switch configuration. The indication is only used in the Hyper-V Extensible Switch stack, issued by the extension miniport. See <a href="https://msdn.microsoft.com/AF646860-01AB-4F4B-84F8-B570054B10FC">Querying the Hyper-V Extensible Switch Configuration</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/hh598220">NDIS_SWITCH_PARAMETERS</a> for more details. 
+##### - Buffer.NetEventRequirePause
 
+The buffer contents are NULL.
 
-##### - NetEvent.NetEventInhibitBindsAbove
 
-A synchronous event that prevents other filters and protocols from binding to the miniport adapter. Any filters or protocols that were previously bound will be unbound before the event completes. The usage rules are below.
+##### - Buffer.NetEventRestart
 
-<ul>
-<li>Avoid leaving the miniport adapter in the inhibit state, for longer than 1000 milliseconds.</li>
-<li>This event can only be issued after <a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a> begins and must not be issued after <a href="https://msdn.microsoft.com/b8d452b4-bef3-4991-87cf-fac15bedfde4">MiniportHaltEx</a> returns.</li>
-<li>This event can only be issued when the miniport adapter is in a D0 state.</li>
-<li>Because this event is blocking, it should not be issued by any context that would cause a deadlock.</li>
-<li>Locks must not be held while issuing this event.</li>
-<li>This event must be issued at PASSIVE_LEVEL.</li>
-</ul>
-This event is available starting with NDIS version 6.50
-and must be used with V2 or later version of <b>NET_PNP_EVENT</b>. This event can optionally be issued by a miniport driver. Protocols and filters cannot receive this event or issue it.
+The buffer might contain NULL or an 
+       <a href="https://msdn.microsoft.com/722287da-e0ee-41d5-b85a-0ec55eac41b9">
+       NDIS_PROTOCOL_RESTART_PARAMETERS</a> structure. NDIS provides a pointer to an 
+       <a href="https://msdn.microsoft.com/library/windows/hardware/ff567255">NDIS_RESTART_ATTRIBUTES</a> structure
+       in the 
+       <b>RestartAttributes</b> member of the NDIS_PROTOCOL_RESTART_PARAMETERS structure. 
 
-
-##### - NetEvent.NetEventAllowBindsAbove
-
-An asynchronous event that reverses the effects of NetEventInhibitBindsAbove. The usage rules are below.
-
-<ul>
-<li>This event can only be issued after <a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a> begins and must not be issued after <a href="https://msdn.microsoft.com/b8d452b4-bef3-4991-87cf-fac15bedfde4">MiniportHaltEx</a> returns.</li>
-<li>This event can only be issued when the miniport adapter is in a D0 state.</li>
-<li>Locks must not be held while issuing this event.</li>
-<li>This event must be issued at PASSIVE_LEVEL.</li>
-</ul>
-This event is available starting with NDIS version 6.50 and must be used with V2 or later version of <b>NET_PNP_EVENT</b>. This event can optionally be issued by a miniport driver. Protocols and filters cannot receive this event or issue it.
-
-
-##### - NetEvent.NetEventRequirePause
-
-A synchronous event that indicates the protocols and filters including the miniport adapter must be paused. The protocols and filters and the miniport adapter are guaranteed to be paused when the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563616">NdisMNetPnPEvent</a> routine returns. The usage rules are below.
-
-<ul>
-<li>Avoid delaying between NetEventAllowStart and NetEventRequirePause events for longer than 1000 milliseconds to prevent delay in user applications.</li>
-<li>This event can only be issued after <a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a> begins and must not be issued after <a href="https://msdn.microsoft.com/b8d452b4-bef3-4991-87cf-fac15bedfde4">MiniportHaltEx</a> returns.</li>
-<li>There is no guarantee that NDIS will call <a href="https://msdn.microsoft.com/047241a5-6f52-4a82-a334-8508f0de5e1a">MiniportPause</a> after this event is issued. In particular, if your miniport adapter is already paused, NDIS won't introduce an extra start-pause loop. This means that the amount of times <i>MiniportPause</i> called is not greater than, less than, or equal to the amount this event is issued.</li>
-<li>Because this event is blocking, it should not be issued by any context that would cause a deadlock.</li>
-<li>Locks must not be held while issuing this event.</li>
-</ul>
-This event is available starting with NDIS version 6.50 and must be used with V2 or later version of <b>NET_PNP_EVENT</b>. This event can optionally be issued by a miniport driver. Protocols and filters cannot receive this event or issue it.
-
-
-##### - NetEvent.NetEventAllowStart
-
-An asynchronous event that indicates the protocols and filters including the miniport adapter does not need to be paused. The usage rules are below. There is no guaranteed pause state for any driver in the protocols and filters after the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563616">NdisMNetPnPEvent</a> routine returns. 
-
-<ul>
-<li>This event can only be issued after <a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a> begins and must not be issued after <a href="https://msdn.microsoft.com/b8d452b4-bef3-4991-87cf-fac15bedfde4">MiniportHaltEx</a> returns.</li>
-<li>Because this event is blocking, it should not be issued by any context that would cause a deadlock.</li>
-<li>Locks must not be held while issuing this event.</li>
-</ul>
-This event is available starting with NDIS version 6.50 and must be used with V2 or later version of <b>NET_PNP_EVENT</b>. This event can optionally be issued by a miniport driver. Protocols and filters cannot receive this event or issue it.
-
+<div class="alert"><b>Note</b>  If the buffer is NULL, the restart attributes have not changed since the previous restart.</div>
+<div> </div>
 
 ##### - Buffer.NetEventSetPower
 
@@ -775,144 +718,201 @@ For protocol drivers,
        receiving network data.
 
 
-##### - Buffer.NetEventQueryPower
-
-The buffer contains the device power state that is requested for the device. The device state is
-       NDIS_DEVICE_POWER_STATE (which is described in the 
-       <b>NetEventSetPower</b> value description).
-
-
-##### - Buffer.NetEventQueryRemoveDevice
-
-The buffer contents are <b>NULL</b>.
-
-
-##### - Buffer.NetEventCancelRemoveDevice
-
-The buffer contents are <b>NULL</b>.
-
-
-##### - Buffer.NetEventReconfigure
-
-The buffer can contain protocol-specific data. The protocol driver is responsible for validating
-       this data.
-
-
-##### - Buffer.NetEventBindList
-
-The buffer contains a revised binding list for the network component that the 
-       <a href="https://msdn.microsoft.com/58d3baf3-a1fa-42ae-b795-2774a148aeda">
-       NET_PNP_EVENT_NOTIFICATION</a> structure is being passed to. The bind list, which is a series of
-       null-terminated Unicode strings, has a REG_MULTI_SZ format. Each of the strings is an adapter name.
-       TDI clients that are bound to a protocol use this bind list to reorder their bindings. The protocol
-       driver is responsible for validating this list.
-
-
-##### - Buffer.NetEventBindsComplete
-
-The buffer contents are <b>NULL</b>.
-
-
-##### - Buffer.NetEventPnPCapabilities
-
-The buffer is a ULONG that contains a bitmask. When the NDIS_DEVICE_WAKE_UP_ENABLE flag is set
-       in the bitmask, the wake-up capabilities of the NIC are enabled. Otherwise, the NIC's wake-up
-       capabilities are disabled. (The binding is specified by the 
-       <i>ProtocolBindingContext</i> parameter that is passed to 
-       <a href="https://msdn.microsoft.com/3f50bcba-c7d2-4d81-bd8b-6080e08fbe74">ProtocolNetPnPEvent</a>.) When set
-       to zero, this flag indicates that the NIC's wake-up capabilities are disabled.
-
-
-##### - Buffer.NetEventPause
-
-The buffer contains an 
-       <a href="https://msdn.microsoft.com/7754d47f-9e21-44c7-8a6f-141d18623ddf">
-       NDIS_PROTOCOL_PAUSE_PARAMETERS</a> structure.
-
-
-##### - Buffer.NetEventRestart
-
-The buffer might contain NULL or an 
-       <a href="https://msdn.microsoft.com/722287da-e0ee-41d5-b85a-0ec55eac41b9">
-       NDIS_PROTOCOL_RESTART_PARAMETERS</a> structure. NDIS provides a pointer to an 
-       <a href="https://msdn.microsoft.com/library/windows/hardware/ff567255">NDIS_RESTART_ATTRIBUTES</a> structure
-       in the 
-       <b>RestartAttributes</b> member of the NDIS_PROTOCOL_RESTART_PARAMETERS structure. 
-
-<div class="alert"><b>Note</b>  If the buffer is NULL, the restart attributes have not changed since the previous restart.</div>
-<div> </div>
-
-##### - Buffer.NetEventPortActivation
-
-The buffer contains the first entry in a list of 
-       <a href="https://msdn.microsoft.com/library/windows/hardware/ff566769">NDIS_PORT</a> structures that identify the ports
-       that NDIS will activate. You can use the 
-       <b>Next</b> member of the NDIS_PORT structure to get the next structure in the list.
-
-
-##### - Buffer.NetEventPortDeactivation
-
-The buffer contains an array of port numbers, of type NDIS_PORT_NUMBER (defined as ULONG), that
-       identify the NDIS ports that NDIS will deactivate. To calculate the number of elements in the array,
-       divide the value of the 
-       <b>BufferLength</b> member, which is in the <b>NET_PNP_EVENT</b> structure that is specified in the 
-       <b>NetPnPEvent</b> member of 
-       <a href="https://msdn.microsoft.com/library/windows/hardware/ff568752">NET_PNP_EVENT_NOTIFICATION</a>,
-       by 
-       sizeof(NDIS_PORT_NUMBER).
-
-
-##### - Buffer.NetEventIMReEnableDevice
-
-The buffer contains a pointer to a variable of type NDIS_STRING that contains a null-terminated
-       Unicode string that names the device object of a virtual miniport for the device that is being
-       enabled. The string is a full path name—for example, 
-       \Device\<i>DeviceName</i>.
-
-
-##### - Buffer.NetEventNDKEnable
-
-The <b>Buffer</b> member is <b>NULL</b>.
-
-
-##### - Buffer.NetEventNDKDisable
-
-The <b>Buffer</b> member is <b>NULL</b>.
-
-
-##### - Buffer.NetEventFilterPreDetach
-
-The <b>Buffer</b> member is <b>NULL</b>.
-
-
-##### - Buffer.NetEventBindFailed
-
-The buffer contains an <a href="https://msdn.microsoft.com/library/windows/hardware/jj879315">NDIS_BIND_FAILED_NOTIFICATION</a> structure.
-
-
 ##### - Buffer.NetEventSwitchActivate
 
 The buffer contents are NULL.
 
 
-##### - Buffer.NetEventAllowBindsAbove
+##### - NetEvent.NetEventAllowBindsAbove
 
-The buffer contents are NULL.
+An asynchronous event that reverses the effects of NetEventInhibitBindsAbove. The usage rules are below.
 
-
-##### - Buffer.NetEventInhibitBindsAbove
-
-The buffer contents are NULL.
-
-
-##### - Buffer.NetEventAllowStart
-
-The buffer contents are NULL.
+<ul>
+<li>This event can only be issued after <a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a> begins and must not be issued after <a href="https://msdn.microsoft.com/b8d452b4-bef3-4991-87cf-fac15bedfde4">MiniportHaltEx</a> returns.</li>
+<li>This event can only be issued when the miniport adapter is in a D0 state.</li>
+<li>Locks must not be held while issuing this event.</li>
+<li>This event must be issued at PASSIVE_LEVEL.</li>
+</ul>
+This event is available starting with NDIS version 6.50 and must be used with V2 or later version of <b>NET_PNP_EVENT</b>. This event can optionally be issued by a miniport driver. Protocols and filters cannot receive this event or issue it.
 
 
-##### - Buffer.NetEventRequirePause
+##### - NetEvent.NetEventAllowStart
 
-The buffer contents are NULL.
+An asynchronous event that indicates the protocols and filters including the miniport adapter does not need to be paused. The usage rules are below. There is no guaranteed pause state for any driver in the protocols and filters after the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563616">NdisMNetPnPEvent</a> routine returns. 
+
+<ul>
+<li>This event can only be issued after <a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a> begins and must not be issued after <a href="https://msdn.microsoft.com/b8d452b4-bef3-4991-87cf-fac15bedfde4">MiniportHaltEx</a> returns.</li>
+<li>Because this event is blocking, it should not be issued by any context that would cause a deadlock.</li>
+<li>Locks must not be held while issuing this event.</li>
+</ul>
+This event is available starting with NDIS version 6.50 and must be used with V2 or later version of <b>NET_PNP_EVENT</b>. This event can optionally be issued by a miniport driver. Protocols and filters cannot receive this event or issue it.
+
+
+##### - NetEvent.NetEventBindFailed
+
+Indicates that a binding event failure has occurred.
+
+
+##### - NetEvent.NetEventBindList
+
+Indicates to a protocol driver that its bind list processing order has been reconfigured. This
+       list indicates a relative order that applies to bindings when processing, for example, a user request
+       that might be routed to one of several bindings. The buffer that is passed with this event contains a
+       list of device names that are formatted as null-terminated Unicode strings. The format of each device
+       name is identical to the 
+       <b>AdapterName</b> member that is passed to a call to the 
+       <a href="https://msdn.microsoft.com/1958722e-012e-4110-a82c-751744bcf9b5">ProtocolBindAdapterEx</a> function.
+
+
+##### - NetEvent.NetEventBindsComplete
+
+Indicates that a protocol driver has bound to all the NICs that it can bind to. NDIS will not
+       indicate any more NICs to the protocol unless a PnP NIC is plugged into the system.
+
+
+##### - NetEvent.NetEventCancelRemoveDevice
+
+Indicates that the PnP Manager has sent a Cancel Remove Device request. The PnP Manager sends
+       this request to cancel the removal of a device after the PnP Manager sends a Query Remove Device request.
+
+
+##### - NetEvent.NetEventFilterPreDetach
+
+Indicates that a filter is about to be detached, so that the filter can perform any necessary cleanup that isn't possible in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff540475">FilterDetach</a> handler (because the OID and indication paths are closed at that time).
+
+
+##### - NetEvent.NetEventIMReEnableDevice
+
+Indicates that the configuration has changed for a virtual miniport of an NDIS 6.0 or later
+       intermediate driver. 
+       <b>NetEventIMReEnableDevice</b> is similar to the 
+       <b>NetEventReconfigure</b> event except that the intermediate driver receives this event for a single
+       virtual miniport and the 
+       <b>NetEventReconfigure</b> event applies to all the intermediate driver's virtual miniports. For
+       example, an intermediate driver receives the 
+       <b>NetEventIMReEnableDevice</b> event when a user disables and then enables a single virtual miniport
+       from the Device Manager or another source. For examples of intermediate driver power management, see the 
+    <a href="http://go.microsoft.com/fwlink/p/?LinkId=617916">NDIS MUX Intermediate Driver and Notify Object</a> driver sample available in the <a href="http://go.microsoft.com/fwlink/p/?LinkId=616507">Windows driver samples</a> repository on GitHub.
+
+
+##### - NetEvent.NetEventInhibitBindsAbove
+
+A synchronous event that prevents other filters and protocols from binding to the miniport adapter. Any filters or protocols that were previously bound will be unbound before the event completes. The usage rules are below.
+
+<ul>
+<li>Avoid leaving the miniport adapter in the inhibit state, for longer than 1000 milliseconds.</li>
+<li>This event can only be issued after <a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a> begins and must not be issued after <a href="https://msdn.microsoft.com/b8d452b4-bef3-4991-87cf-fac15bedfde4">MiniportHaltEx</a> returns.</li>
+<li>This event can only be issued when the miniport adapter is in a D0 state.</li>
+<li>Because this event is blocking, it should not be issued by any context that would cause a deadlock.</li>
+<li>Locks must not be held while issuing this event.</li>
+<li>This event must be issued at PASSIVE_LEVEL.</li>
+</ul>
+This event is available starting with NDIS version 6.50
+and must be used with V2 or later version of <b>NET_PNP_EVENT</b>. This event can optionally be issued by a miniport driver. Protocols and filters cannot receive this event or issue it.
+
+
+##### - NetEvent.NetEventNDKDisable
+
+Indicates that NDK is currently disabled.
+
+
+##### - NetEvent.NetEventNDKEnable
+
+Indicates that Network Direct Kernel (NDK) is currently enabled.
+
+
+##### - NetEvent.NetEventPause
+
+Indicates that the specified protocol binding should enter the 
+       Pausing state. The binding will enter the 
+       Paused state after NDIS has completed all the outstanding send requests for the
+       binding.
+
+
+##### - NetEvent.NetEventPnPCapabilities
+
+Indicates that the user enabled or disabled the wake-up capabilities of the underlying adapter.
+       (The binding is specified by the 
+       <i>ProtocolBindingContext</i> parameter that is passed to the 
+       <a href="https://msdn.microsoft.com/3f50bcba-c7d2-4d81-bd8b-6080e08fbe74">
+       ProtocolNetPnPEvent</a> function.)
+
+
+##### - NetEvent.NetEventPortActivation
+
+Indicates the activation of a list of ports that are associated with the specified
+       binding.
+
+
+##### - NetEvent.NetEventPortDeactivation
+
+Indicates the deactivation of a list of ports that are associated with the specified
+       binding.
+
+
+##### - NetEvent.NetEventQueryPower
+
+Indicates that the power manager has sent a Query Power request, which requests a transition to
+       a system power state. NDIS translates this state to an appropriate device power state for the
+       device.
+
+For more information, see the Remarks section.
+
+
+##### - NetEvent.NetEventQueryRemoveDevice
+
+Indicates that the PnP Manager has sent a Query Remove Device request. The PnP Manager sends
+       this request to query whether a device can be removed without disrupting operations.
+
+
+##### - NetEvent.NetEventReconfigure
+
+Indicates that the configuration has changed for a network component. For example, if a user,
+       through the Network and Dial-up Connections folder, changes the IP address for TCP/IP, NDIS indicates
+       the 
+       <b>NetEventReconfigure</b> event to the TCP/IP protocol. Also, an intermediate driver typically uses
+       this event as a trigger to call the 
+       <a href="https://msdn.microsoft.com/f65c2974-4bf4-4948-ac07-527e69c96303">
+       NdisIMInitializeDeviceInstanceEx</a> function and start its virtual miniports. For more information
+       about 
+       <b>NetEventReconfigure</b>, see 
+       NetEventIMReEnableDevice.
+
+
+##### - NetEvent.NetEventRequirePause
+
+A synchronous event that indicates the protocols and filters including the miniport adapter must be paused. The protocols and filters and the miniport adapter are guaranteed to be paused when the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563616">NdisMNetPnPEvent</a> routine returns. The usage rules are below.
+
+<ul>
+<li>Avoid delaying between NetEventAllowStart and NetEventRequirePause events for longer than 1000 milliseconds to prevent delay in user applications.</li>
+<li>This event can only be issued after <a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a> begins and must not be issued after <a href="https://msdn.microsoft.com/b8d452b4-bef3-4991-87cf-fac15bedfde4">MiniportHaltEx</a> returns.</li>
+<li>There is no guarantee that NDIS will call <a href="https://msdn.microsoft.com/047241a5-6f52-4a82-a334-8508f0de5e1a">MiniportPause</a> after this event is issued. In particular, if your miniport adapter is already paused, NDIS won't introduce an extra start-pause loop. This means that the amount of times <i>MiniportPause</i> called is not greater than, less than, or equal to the amount this event is issued.</li>
+<li>Because this event is blocking, it should not be issued by any context that would cause a deadlock.</li>
+<li>Locks must not be held while issuing this event.</li>
+</ul>
+This event is available starting with NDIS version 6.50 and must be used with V2 or later version of <b>NET_PNP_EVENT</b>. This event can optionally be issued by a miniport driver. Protocols and filters cannot receive this event or issue it.
+
+
+##### - NetEvent.NetEventRestart
+
+Indicates that the specified protocol binding has entered the 
+       Restarting state. After the protocol driver is ready to resume send and receive operations for
+       the binding, the binding enters the 
+       Running state.
+
+
+##### - NetEvent.NetEventSetPower
+
+Indicates that the power manager has sent a Set Power request, which specifies a transition to a
+       system power state. NDIS translates this state to an appropriate device power state for the
+       device.
+
+For more information, see the Remarks section.
+
+
+##### - NetEvent.NetEventSwitchActivate
+
+Indicates that the Hyper-V Extensible Switch has completed activation, and switch extensions can now safely query for further switch configuration. The indication is only used in the Hyper-V Extensible Switch stack, issued by the extension miniport. See <a href="https://msdn.microsoft.com/AF646860-01AB-4F4B-84F8-B570054B10FC">Querying the Hyper-V Extensible Switch Configuration</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/hh598220">NDIS_SWITCH_PARAMETERS</a> for more details. 
 
 
 ## -remarks
@@ -1037,6 +1037,4 @@ The
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NET_PNP_EVENT structure%20 RELEASE:%20(3/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -77,6 +77,18 @@ Sets the amount of downsampling to perform on the output.
 
 
 
+#### - ConstrictonSize [in]
+
+The sampling size.
+
+
+#### - Enabled [in]
+
+If <b>TRUE</b>, downsampling is enabled. Otherwise, downsampling is disabled and the <i>ConstrictonSize</i> member is ignored. 
+
+
+
+
 #### - hDevice [in]
 
 A handle to the display device (graphics context).
@@ -89,18 +101,6 @@ A handle to the display device (graphics context).
 A handle to the video processor object that was created through a call to the <a href="https://msdn.microsoft.com/741045a2-0a91-490a-907d-5f4900a4a0ae">CreateVideoProcessor</a> function. 
 
 
-
-
-#### - Enabled [in]
-
-If <b>TRUE</b>, downsampling is enabled. Otherwise, downsampling is disabled and the <i>ConstrictonSize</i> member is ignored. 
-
-
-
-
-#### - ConstrictonSize [in]
-
-The sampling size.
 
 
 ## -returns
@@ -144,6 +144,4 @@ The driver reports its ability to support downsampling through the <a href="http
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3D11_1DDI_VIDEOPROCESSORSETOUTPUTCONSTRICTION callback function%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

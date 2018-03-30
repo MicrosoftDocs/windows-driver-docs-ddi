@@ -72,9 +72,9 @@ The <b>DrawIndexedInstancedIndirect</b> function draws particular instances of i
 
 
 
-#### - hDevice
+#### - AlignedByteOffsetForArgs
 
- A handle to the display device (graphics context).
+ The offset, in bytes, into the buffer that <i>hBufferForArgs</i> specifies. <i>AlignedByteOffsetForArgs</i> must be a multiple of 4. 
 
 
 #### - hBufferForArgs
@@ -100,9 +100,9 @@ The <b>DrawIndexedInstancedIndirect</b> function draws particular instances of i
 For more information about these arguments, see the <a href="https://msdn.microsoft.com/3dc64562-9dc0-4d43-835d-6fdd509435f8">DrawIndexedInstanced</a> reference page. 
 
 
-#### - AlignedByteOffsetForArgs
+#### - hDevice
 
- The offset, in bytes, into the buffer that <i>hBufferForArgs</i> specifies. <i>AlignedByteOffsetForArgs</i> must be a multiple of 4. 
+ A handle to the display device (graphics context).
 
 
 ## -returns
@@ -156,6 +156,4 @@ The driver should not encounter any error, except for D3DDDIERR_DEVICEREMOVED. T
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3D11DDI_DRAWINDEXEDINSTANCEDINDIRECT callback function%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

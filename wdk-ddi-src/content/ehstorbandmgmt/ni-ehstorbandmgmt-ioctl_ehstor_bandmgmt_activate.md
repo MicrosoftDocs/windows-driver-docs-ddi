@@ -97,9 +97,9 @@ Following <b>ACTIVATE_REVERT_PARAMETERS</b> in the system buffer is an <b>AUTH_K
 
 
 
-#### -StructSize
+#### -AuthKeyOffset
 
-The size of the structure. This is set to <b>sizeof</b>(ACTIVATE_REVERT_PARAMETERS).
+The offset from the beginning of the system buffer to the location of an <b>AUTH_KEY</b> structure.
 
 
 #### -Flags
@@ -123,9 +123,9 @@ A bitmask of activation flags. This is a bitwise OR value of the following.
  
 
 
-#### -AuthKeyOffset
+#### -Key
 
-The offset from the beginning of the system buffer to the location of an <b>AUTH_KEY</b> structure.
+A variable length byte array that contains the key data.
 
 
 #### -KeySize
@@ -133,9 +133,9 @@ The offset from the beginning of the system buffer to the location of an <b>AUTH
 The size of the key, in bytes, of the key data at <b>Key</b>. If <b>KeySize</b> is set to 0, a default key is used.
 
 
-#### -Key
+#### -StructSize
 
-A variable length byte array that contains the key data.
+The size of the structure. This is set to <b>sizeof</b>(ACTIVATE_REVERT_PARAMETERS).
 
 
 ### -input-buffer-length
@@ -247,6 +247,4 @@ enabled. A REG_DWORD value of 0 allows security activation on the storage device
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20IOCTL_EHSTOR_BANDMGMT_ACTIVATE control code%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

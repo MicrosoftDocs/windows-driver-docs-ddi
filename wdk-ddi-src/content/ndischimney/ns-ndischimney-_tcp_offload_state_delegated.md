@@ -356,29 +356,6 @@ This variable is used only in an initiate offload or terminate offload operation
 
 
 
-#### - SendBacklogSize
-
-The offload target specifies this value to indicate the number of data bytes that the host stack
-       should have outstanding at the offload target for optimum performance. (This is the number of send
-       bytes that have been passed to the offload target but that have not yet been completed by the offload
-       target.) The specific variables and algorithm that the offload target uses to calculate the send
-       backlog size are implementation-specific. The send backlog size can be a function of the roundtrip
-       time (RTT) for the connection, the interface bandwidth, and other parameters. An offload target could,
-       for example, use the minimum of the bandwidth/delay product and the advertised received window. Note
-       however, that the send backlog size does not vary according to the number of data bytes that are
-       currently posted for transmission on the connection.
-
-The host stack can query the TCP delegated state for the connection to obtain the send backlog
-       size. In addition, the offload target can indicate a change in the send backlog size by calling the 
-       <a href="https://msdn.microsoft.com/b62e8a07-fe7b-4c52-8795-19e4bb889b6e">
-       NdisTcpOffloadEventHandler</a> function.
-
-If the offload target does not support the send-backlog-size feature, it must write a value of
-       0xFFFFFFFF to 
-       <b>SendBacklogSize</b> when the TCP-delegated state for the connection is queried. The 
-       <b>SendBacklogSize</b> variable is not used in the terminate offload operation.
-
-
 #### - BufferedData
 
 A pointer to buffered receive data. The host stack can pass such data to the offload target when
@@ -400,6 +377,29 @@ The offload target specifies this value to indicate the number of receive data b
 If the offload target does not support the receive backlog size feature, it should write a value of
       0xFFFFFFFF to 
       <b>ReceiveBacklogSize</b> .
+
+
+#### - SendBacklogSize
+
+The offload target specifies this value to indicate the number of data bytes that the host stack
+       should have outstanding at the offload target for optimum performance. (This is the number of send
+       bytes that have been passed to the offload target but that have not yet been completed by the offload
+       target.) The specific variables and algorithm that the offload target uses to calculate the send
+       backlog size are implementation-specific. The send backlog size can be a function of the roundtrip
+       time (RTT) for the connection, the interface bandwidth, and other parameters. An offload target could,
+       for example, use the minimum of the bandwidth/delay product and the advertised received window. Note
+       however, that the send backlog size does not vary according to the number of data bytes that are
+       currently posted for transmission on the connection.
+
+The host stack can query the TCP delegated state for the connection to obtain the send backlog
+       size. In addition, the offload target can indicate a change in the send backlog size by calling the 
+       <a href="https://msdn.microsoft.com/b62e8a07-fe7b-4c52-8795-19e4bb889b6e">
+       NdisTcpOffloadEventHandler</a> function.
+
+If the offload target does not support the send-backlog-size feature, it must write a value of
+       0xFFFFFFFF to 
+       <b>SendBacklogSize</b> when the TCP-delegated state for the connection is queried. The 
+       <b>SendBacklogSize</b> variable is not used in the terminate offload operation.
 
 
 ## -remarks
@@ -458,6 +458,4 @@ When passed to an offload target, a TCP_OFFLOAD_STATE_DELEGATED structure is ass
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20TCP_OFFLOAD_STATE_DELEGATED structure%20 RELEASE:%20(3/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

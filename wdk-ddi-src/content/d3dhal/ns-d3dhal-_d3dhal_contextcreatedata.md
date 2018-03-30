@@ -67,6 +67,16 @@ Specifies a location that indicates, on input, the version of the Direct3D user-
 Specifies the location where the driver writes the return code for <a href="https://msdn.microsoft.com/c960c3f4-7565-4163-b8c2-a13643110c8c">D3dContextCreate</a>. A return code of D3D_OK indicates success. A return code of D3DHAL_OUTOFCONTEXTS indicates that the driver cannot create the context. For more information, see <a href="https://msdn.microsoft.com/033beb6e-5872-4cb3-8f39-459e2fff82cd">Return Codes for Direct3D Driver Callbacks</a>.
 
 
+#### - dwPID
+
+Specifies the current process ID. This is the process ID of the Direct3D application that initiated the creation of the Direct3D device.
+
+
+#### - dwrstates
+
+Points to a render state array that the driver should update when it parses render state commands from the command buffer. The array buffer must be large enough to contain at least the specified number of ULONG values.
+
+
 #### - lpDDGbl
 
  Driver structure (legacy).
@@ -95,16 +105,6 @@ Surface to be used as Z.
 #### - lpDDSZLcl
 
 Points to a DD_SURFACE_LOCAL structure that describes the DirectDraw surface to be used as a depth buffer. If this member is <b>NULL</b>, no depth buffering is to be performed.
-
-
-#### - dwPID
-
-Specifies the current process ID. This is the process ID of the Direct3D application that initiated the creation of the Direct3D device.
-
-
-#### - dwrstates
-
-Points to a render state array that the driver should update when it parses render state commands from the command buffer. The array buffer must be large enough to contain at least the specified number of ULONG values.
 
 
 ## -remarks
@@ -203,6 +203,4 @@ If the driver successfully creates a context, the driver returns the context ID 
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DHAL_CONTEXTCREATEDATA structure%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

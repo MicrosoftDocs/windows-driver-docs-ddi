@@ -67,20 +67,20 @@ This topic supports the Windows driver infrastructure and is not intended to be 
 ### -field RILCAUSEUNION
 
 
+#### - dwASCode
+
+
+#### - dwOtherCode
+
+
+#### - unGPP2Cause
+
+
 #### - unGPPCause
 
 
 #### - unGPPRejectCause
 
 
-#### - unGPP2Cause
-
-
 #### - unIMSSIPCause
-
-
-#### - dwASCode
-
-
-#### - dwOtherCode
 

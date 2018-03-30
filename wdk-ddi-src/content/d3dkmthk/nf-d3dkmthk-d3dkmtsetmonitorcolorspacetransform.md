@@ -59,6 +59,11 @@ req.typenames: D3DKMT_DRIVERVERSION
 
 
 
+### -param Arg1
+
+TBD
+
+
 
 
 #### - D3dkmt_set_colorspace_transform

@@ -465,9 +465,9 @@ Pointer to the next IRB to be processed. The port driver sets this to <b>NULL</b
 Reserved for future use.
 
 
-#### - IdeTaskFile
+#### - AsUChar
 
-Contains a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff559144">IDE_TASK_FILE</a> that holds the IDE task file for the indicated controller. This member is defined whenever the result of a bitwise AND between the <b>Function</b> member and IRB_FUNCTION_ATA_COMMAND is nonzero.
+Provides a means of accessing members <b>IdeTaskFile</b>, <b>PowerChange</b>, and <b>Cdb</b> as unsigned character data.
 
 
 #### - Cdb
@@ -475,14 +475,14 @@ Contains a structure of type <a href="https://msdn.microsoft.com/library/windows
 Contains a command descriptor block (CDB). This member is defined whenever the result of a bitwise AND between the <b>Function</b> member and IRB_FUNCTION_ATAPI_COMMAND is nonzero.
 
 
+#### - IdeTaskFile
+
+Contains a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff559144">IDE_TASK_FILE</a> that holds the IDE task file for the indicated controller. This member is defined whenever the result of a bitwise AND between the <b>Function</b> member and IRB_FUNCTION_ATA_COMMAND is nonzero.
+
+
 #### - PowerChange
 
 Indicates an enumeration value of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff563909">POWER_CHANGE_INFO</a> that defines a power state transition. This member is defined whenever <b>Function</b> is equal to IRB_FUNCTION_POWER_CHANGE.
-
-
-#### - AsUChar
-
-Provides a means of accessing members <b>IdeTaskFile</b>, <b>PowerChange</b>, and <b>Cdb</b> as unsigned character data.
 
 
 ## -remarks
@@ -515,6 +515,4 @@ The IDE_REQUEST_BLOCK structure provides a functionality similar to the <a href=
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20IDE_REQUEST_BLOCK structure%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

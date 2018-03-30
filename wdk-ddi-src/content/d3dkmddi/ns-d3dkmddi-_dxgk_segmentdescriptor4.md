@@ -121,12 +121,12 @@ The number of invalid memory ranges in the segment. If this value is not zero, t
 
 
 
-#### - CpuTranslatedAddress
-
-If <b>Flags.SupportsCpuHostAperture</b>==<b>FALSE</b> and the segment is CPU visible, this will be the CPU physical base address of the segment.
-
-
 #### - CpuHostAperture
 
 If <b>Flags.SupportsCpuHostAperture</b>==<b>TRUE</b>, this will have the CPU address and size of the <b>CPUHostAperture</b>.
+
+
+#### - CpuTranslatedAddress
+
+If <b>Flags.SupportsCpuHostAperture</b>==<b>FALSE</b> and the segment is CPU visible, this will be the CPU physical base address of the segment.
 

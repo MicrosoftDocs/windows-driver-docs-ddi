@@ -127,7 +127,7 @@ N/A
 N/A
 
 
-#### - ZoneType  : 4
+#### - NonSeq : 1
 
 N/A
 
@@ -137,17 +137,34 @@ N/A
 N/A
 
 
+#### - Reserved1  : 2
+
+N/A
+
+
+#### - Reserved3  : 16
+
+N/A
+
+N/A
+
+
+#### - Reserved4  : 16
+
+N/A
+
+
+#### - Reserved5  : 16
+
+N/A
+
+
 #### - Reset  : 1
 
 N/A
 
 
-#### - NonSeq : 1
-
-N/A
-
-
-#### - Reserved1  : 2
+#### - WritePointerLBA  : 48
 
 N/A
 
@@ -162,29 +179,12 @@ N/A
 N/A
 
 
-#### - Reserved3  : 16
-
-N/A
-
-N/A
-
-
 #### - ZoneStartLBA  : 48
 
 N/A
 
 
-#### - Reserved4  : 16
-
-N/A
-
-
-#### - WritePointerLBA  : 48
-
-N/A
-
-
-#### - Reserved5  : 16
+#### - ZoneType  : 4
 
 N/A
 

@@ -86,6 +86,11 @@ The handle of a destination buffer.
 The destination offset.
 
 
+#### - QueryType
+
+A query type.
+
+
 #### - hCommandList
 
 The handle of a command list.
@@ -94,11 +99,6 @@ The handle of a command list.
 #### - hQueryHeap
 
 The handle of a query heap.
-
-
-#### - QueryType
-
-A query type.
 
 
 ## -returns

@@ -350,18 +350,16 @@ A ULONG64 value that is reserved for the NetDMA interface to use.
 A ULONG64 value that is reserved for the NetDMA interface to use.
 
 
-#### - TransferSize
+#### - NextDestinationAddress
 
-The size, in bytes, of the memory block that is associated with this DMA descriptor. 
-      
+The physical address of the second page of destination address that is used in destination page
+      break.
 
-NetDMA 2.0 and later provider drivers use the 
-      <b>DCAContext32</b>, 
-      <b>DCAContext16</b>, and 
-      <b>DCAContext8</b> members of the union with 
-      <b>TransferSize</b> to support 
-      <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/direct-cache-access--dca-">Direct Cache Access
-      (DCA)</a>.
+
+#### - NextSourceAddress
+
+The physical address of the second page of source address that is used in source page
+      break.
 
 
 #### - Reserved1
@@ -374,12 +372,6 @@ A ULONG64 value that is reserved for the DMA engine or the DMA provider driver t
       Break</a>.
 
 
-#### - NextSourceAddress
-
-The physical address of the second page of source address that is used in source page
-      break.
-
-
 #### - Reserved2
 
 A ULONG64 value that is reserved for use the DMA engine or the DMA provider driver to use. NetDMA
@@ -390,10 +382,18 @@ A ULONG64 value that is reserved for use the DMA engine or the DMA provider driv
       Break</a>.
 
 
-#### - NextDestinationAddress
+#### - TransferSize
 
-The physical address of the second page of destination address that is used in destination page
-      break.
+The size, in bytes, of the memory block that is associated with this DMA descriptor. 
+      
+
+NetDMA 2.0 and later provider drivers use the 
+      <b>DCAContext32</b>, 
+      <b>DCAContext16</b>, and 
+      <b>DCAContext8</b> members of the union with 
+      <b>TransferSize</b> to support 
+      <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/direct-cache-access--dca-">Direct Cache Access
+      (DCA)</a>.
 
 
 ## -remarks
@@ -437,6 +437,4 @@ The NetDMA interface calls a DMA provider driver's
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NET_DMA_DESCRIPTOR structure%20 RELEASE:%20(3/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

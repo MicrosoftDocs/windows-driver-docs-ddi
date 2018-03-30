@@ -93,6 +93,11 @@ TBD
 The count of the number of annotation strings to add to the I/O error log structure.
 
 
+#### - Annotations [in]
+
+A pointer to any annotation strings to add to the I/O error log structure.
+
+
 #### - Id [in]
 
 The value indicating the I/O error log code which is different than an NTSTATUS value returned by a routine. The legal I/O error log code values are defined in the <i>ntiolog.h</i> header file included with the Microsoft Windows SDK and Visual Studio. 
@@ -111,11 +116,6 @@ A pointer to a raw data buffer to be added to the I/O error log structure.
 #### - RawDataLength [in]
 
 The length of the raw data buffer to be added to the I/O error log structure.
-
-
-#### - Annotations [in]
-
-A pointer to any annotation strings to add to the I/O error log structure.
 
 
 ## -returns
@@ -157,6 +157,4 @@ The <b>RxLogEventWithAnnotation</b> routine needs to allocate memory in order to
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RxLogEventWithAnnotation function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -96,14 +96,14 @@ Specify the size of the range to reserve in bytes. Must be a multiple of 64KB.
 [out] The reserved virtual address.
 
 
-#### - hPagingQueue
+#### - DriverProtection
 
-Paging queue to synchronize the operation on.
+Specifies the driver-specific protection
 
 
-#### - hAdapter
+#### - PagingFenceValue
 
-DirectX graphics adapter handle. 
+Paging fence identifier for synchronization
 
 
 #### - ReservationType
@@ -116,24 +116,24 @@ Specifies the virtual address reservation type.
 This member is reserved and should be set to zero.
 
 
-#### - DriverProtection
-
-Specifies the driver-specific protection
-
-
 #### - Reserved1
 
 This member is reserved and should be set to zero.
 
 
-#### - PagingFenceValue
-
-Paging fence identifier for synchronization
-
-
 #### - Reserved2
 
 This member is reserved and should be set to zero.
+
+
+#### - hAdapter
+
+DirectX graphics adapter handle. 
+
+
+#### - hPagingQueue
+
+Paging queue to synchronize the operation on.
 
 
 ## -see-also
@@ -145,6 +145,4 @@ This member is reserved and should be set to zero.
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DDDI_RESERVEGPUVIRTUALADDRESS structure%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

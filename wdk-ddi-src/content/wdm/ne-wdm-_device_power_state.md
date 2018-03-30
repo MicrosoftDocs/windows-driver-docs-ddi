@@ -7,7 +7,7 @@ old-location: kernel\device_power_state.htm
 old-project: kernel
 ms.assetid: d3166685-2aec-4874-a5a9-8cc293a96a2c
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: "*PDEVICE_POWER_STATE, DEVICE_POWER_STATE, DEVICE_POWER_STATE enumeration [Kernel-Mode Driver Architecture], PDEVICE_POWER_STATE, PDEVICE_POWER_STATE enumeration pointer [Kernel-Mode Driver Architecture], PowerDeviceD0, PowerDeviceD1, PowerDeviceD2, PowerDeviceD3, PowerDeviceMaximum, PowerDeviceUnspecified, _DEVICE_POWER_STATE, kernel.device_power_state, sysenum_4f65cc59-f3a2-42ef-a8bb-7a2d178a6be7.xml, wdm/DEVICE_POWER_STATE, wdm/PDEVICE_POWER_STATE, wdm/PowerDeviceD0, wdm/PowerDeviceD1, wdm/PowerDeviceD2, wdm/PowerDeviceD3, wdm/PowerDeviceMaximum, wdm/PowerDeviceUnspecified"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -108,6 +108,4 @@ For more information about system power states, see <a href="https://msdn.micros
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20DEVICE_POWER_STATE enumeration%20 RELEASE:%20(3/1/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

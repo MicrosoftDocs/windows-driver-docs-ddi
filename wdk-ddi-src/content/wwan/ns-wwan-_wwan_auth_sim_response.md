@@ -93,19 +93,9 @@ The WWAN_AUTH_SIM_RESPONSE structure represents a response to a SIM authenticati
 The number of responses.
 
 
-#### - Sres1[WWAN_AUTH_SRES_LEN]
-
-Response 1 of 32 bit. This member represents a multi-byte value in little-endian format.
-
-
 #### - Kc1[WWAN_AUTH_KC_LEN]
 
 Encryption key 1 of 64 bit. This member represents a multi-byte value in little-endian format.
-
-
-#### - Sres2[WWAN_AUTH_SRES_LEN]
-
-Response 2 of 32 bit. This member represents a multi-byte value in little-endian format.
 
 
 #### - Kc2[WWAN_AUTH_KC_LEN]
@@ -113,14 +103,24 @@ Response 2 of 32 bit. This member represents a multi-byte value in little-endian
 Encryption key 2 of 64 bit. This member represents a multi-byte value in little-endian format.
 
 
-#### - Sres3[WWAN_AUTH_SRES_LEN]
-
-Response 3 of 32 bit. This member represents a multi-byte value in little-endian format.
-
-
 #### - Kc3[WWAN_AUTH_KC_LEN]
 
 Encryption key 3 of 64 bit. This member represents a multi-byte value in little-endian format.
+
+
+#### - Sres1[WWAN_AUTH_SRES_LEN]
+
+Response 1 of 32 bit. This member represents a multi-byte value in little-endian format.
+
+
+#### - Sres2[WWAN_AUTH_SRES_LEN]
+
+Response 2 of 32 bit. This member represents a multi-byte value in little-endian format.
+
+
+#### - Sres3[WWAN_AUTH_SRES_LEN]
+
+Response 3 of 32 bit. This member represents a multi-byte value in little-endian format.
 
 
 ## -remarks
@@ -143,6 +143,4 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/hh464129">WWAN_
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20WWAN_AUTH_SIM_RESPONSE structure%20 RELEASE:%20(3/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

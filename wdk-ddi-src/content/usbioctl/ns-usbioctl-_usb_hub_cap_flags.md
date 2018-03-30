@@ -63,31 +63,6 @@ The <b>USB_HUB_CAP_FLAGS</b> structure is used to report the capabilities of a h
 A bitmask that represents the hub capabilities.
 
 
-#### - HubIsHighSpeedCapable
-
-If <b>TRUE</b>, the hub is high speed-capable. This capability does not necessarily mean that the hub is operating at high speed
-
-
-#### - HubIsHighSpeed
-
-If <b>TRUE</b>, the hub is high speed.
-
-
-#### - HubIsMultiTtCapable
-
-If <b>TRUE</b>, the hub is capable of doing multiple transaction translations simultaneously.
-
-
-#### - HubIsMultiTt
-
-If <b>TRUE</b>, the hub is configured to perform multiple transaction translations simultaneously.
-
-
-#### - HubIsRoot
-
-If <b>TRUE</b>, the hub is the root hub.
-
-
 #### - HubIsArmedWakeOnConnect
 
 If <b>TRUE</b>, the hub is armed to wake when a device is connected to the hub.
@@ -96,6 +71,31 @@ If <b>TRUE</b>, the hub is armed to wake when a device is connected to the hub.
 #### - HubIsBusPowered
 
 A boolean value that indicates whether the hub is bus-powered. <b>TRUE</b>, the hub is bus-powered; <b>FALSE</b>, the hub is self-powered.
+
+
+#### - HubIsHighSpeed
+
+If <b>TRUE</b>, the hub is high speed.
+
+
+#### - HubIsHighSpeedCapable
+
+If <b>TRUE</b>, the hub is high speed-capable. This capability does not necessarily mean that the hub is operating at high speed
+
+
+#### - HubIsMultiTt
+
+If <b>TRUE</b>, the hub is configured to perform multiple transaction translations simultaneously.
+
+
+#### - HubIsMultiTtCapable
+
+If <b>TRUE</b>, the hub is capable of doing multiple transaction translations simultaneously.
+
+
+#### - HubIsRoot
+
+If <b>TRUE</b>, the hub is the root hub.
 
 
 #### - ReservedMBZ
@@ -116,6 +116,4 @@ Reserved. Do not use.
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20USB_HUB_CAP_FLAGS union%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

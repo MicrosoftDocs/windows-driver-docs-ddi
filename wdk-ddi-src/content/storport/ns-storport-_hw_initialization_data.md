@@ -240,49 +240,27 @@ Pointer to the miniport driver's <a href="https://msdn.microsoft.com/library/win
 Pointer to an optional <a href="https://msdn.microsoft.com/library/windows/hardware/ff557369">HwStorBuildIo</a> routine that the port driver calls to do unsynchronized processing prior to calling the miniport driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff557423">HwStorStartIo</a> routine. 
 
 
-#### - PortVersionFlags
+#### - AddressTypeFlags
 
-Flags to indicate supported features.
+The address schemes supported by the miniport. Currently, the only one address scheme is supported and the miniport must set this member to ADDRESS_TYPE_FLAG_BTL8.
 
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="ADDRESS_TYPE_FLAG_BTL8"></a><a id="address_type_flag_btl8"></a><dl>
+<dt><b>ADDRESS_TYPE_FLAG_BTL8</b></dt>
+</dl>
+</td>
+<td width="60%">
+Bus, Target, and LUN (BTL) 8-bit addressing.
 
-#### - HwFreeAdapterResources
-
-A pointer to the virtual miniport driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff557392">HwStorFreeAdapterResources</a> routine, which is a required entry point for all virtual miniport drivers. This callback is specific to virtual miniports and is set to <b>NULL</b> by physical miniports.
-
-This callback is added in Windows 8. Virtual miniports for previous versions of Windows should use <a href="https://msdn.microsoft.com/library/windows/hardware/ff568010">VIRTUAL_HW_INITIALIZATION_DATA</a> instead of this structure.
-
-
-#### - HwProcessServiceRequest
-
-A pointer to the virtual miniport driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff557410">HwStorProcessServiceRequest</a> routine. This callback is specific to virtual miniports and is set to <b>NULL</b> by physical miniports.
-
-This callback is added in Windows 8. Virtual miniports for previous versions of Windows should use <a href="https://msdn.microsoft.com/library/windows/hardware/ff568010">VIRTUAL_HW_INITIALIZATION_DATA</a> instead of this structure.
-
-
-#### - HwCompleteServiceIrp
-
-A pointer to the virtual miniport driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff557379">HwStorCompleteServiceIrp</a> routine. This callback is specific to virtual miniports and is set to <b>NULL</b> by physical miniports.
-
-This callback is added in Windows 8. Virtual miniports for previous versions of Windows should use <a href="https://msdn.microsoft.com/library/windows/hardware/ff568010">VIRTUAL_HW_INITIALIZATION_DATA</a> instead of this structure.
-
-
-#### - HwInitializeTracing
-
-A pointer to the virtual miniport driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff557402">HwStorInitializeTracing</a> routine. This callback is specific to virtual miniports and is set to <b>NULL</b> by physical miniports.
-
-This callback is added in Windows 8. Virtual miniports for previous versions of Windows should use <a href="https://msdn.microsoft.com/library/windows/hardware/ff568010">VIRTUAL_HW_INITIALIZATION_DATA</a> instead of this structure.
-
-
-#### - HwCleanupTracing
-
-A pointer to the virtual miniport driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff557372">HwStorCleanupTracing</a> routine. This callback is specific to virtual miniports and is set to <b>NULL</b> by physical miniports.
-
-This callback is added in Windows 8. Virtual miniports for previous versions of Windows should use <a href="https://msdn.microsoft.com/library/windows/hardware/ff568010">VIRTUAL_HW_INITIALIZATION_DATA</a> instead of this structure.
-
-
-#### - HwTracingEnabled
-
-A pointer to an optional <a href="https://msdn.microsoft.com/library/windows/hardware/hh451315">HwStorTracingEnabled</a> routine that the port driver calls to notify the miniport of whether tracing is enabled or not.
+</td>
+</tr>
+</table>
+ 
 
 
 #### - FeatureSupport
@@ -378,6 +356,61 @@ The Storport driver sets the adapter interface type.
  
 
 
+#### - HwCleanupTracing
+
+A pointer to the virtual miniport driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff557372">HwStorCleanupTracing</a> routine. This callback is specific to virtual miniports and is set to <b>NULL</b> by physical miniports.
+
+This callback is added in Windows 8. Virtual miniports for previous versions of Windows should use <a href="https://msdn.microsoft.com/library/windows/hardware/ff568010">VIRTUAL_HW_INITIALIZATION_DATA</a> instead of this structure.
+
+
+#### - HwCompleteServiceIrp
+
+A pointer to the virtual miniport driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff557379">HwStorCompleteServiceIrp</a> routine. This callback is specific to virtual miniports and is set to <b>NULL</b> by physical miniports.
+
+This callback is added in Windows 8. Virtual miniports for previous versions of Windows should use <a href="https://msdn.microsoft.com/library/windows/hardware/ff568010">VIRTUAL_HW_INITIALIZATION_DATA</a> instead of this structure.
+
+
+#### - HwFreeAdapterResources
+
+A pointer to the virtual miniport driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff557392">HwStorFreeAdapterResources</a> routine, which is a required entry point for all virtual miniport drivers. This callback is specific to virtual miniports and is set to <b>NULL</b> by physical miniports.
+
+This callback is added in Windows 8. Virtual miniports for previous versions of Windows should use <a href="https://msdn.microsoft.com/library/windows/hardware/ff568010">VIRTUAL_HW_INITIALIZATION_DATA</a> instead of this structure.
+
+
+#### - HwInitializeTracing
+
+A pointer to the virtual miniport driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff557402">HwStorInitializeTracing</a> routine. This callback is specific to virtual miniports and is set to <b>NULL</b> by physical miniports.
+
+This callback is added in Windows 8. Virtual miniports for previous versions of Windows should use <a href="https://msdn.microsoft.com/library/windows/hardware/ff568010">VIRTUAL_HW_INITIALIZATION_DATA</a> instead of this structure.
+
+
+#### - HwProcessServiceRequest
+
+A pointer to the virtual miniport driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff557410">HwStorProcessServiceRequest</a> routine. This callback is specific to virtual miniports and is set to <b>NULL</b> by physical miniports.
+
+This callback is added in Windows 8. Virtual miniports for previous versions of Windows should use <a href="https://msdn.microsoft.com/library/windows/hardware/ff568010">VIRTUAL_HW_INITIALIZATION_DATA</a> instead of this structure.
+
+
+#### - HwTracingEnabled
+
+A pointer to an optional <a href="https://msdn.microsoft.com/library/windows/hardware/hh451315">HwStorTracingEnabled</a> routine that the port driver calls to notify the miniport of whether tracing is enabled or not.
+
+
+#### - HwUnitControl
+
+A pointer the miniport driver's <b>HwStorUnitControl</b> routine. The port driver calls this routine with a control request for a storage unit device.
+
+
+#### - PortVersionFlags
+
+Flags to indicate supported features.
+
+
+#### - Reserved1
+
+Reserved, set to 0.
+
+
 #### - SrbTypeFlags
 
 Flags indicating the SRB types supported by the miniport. <b>SrbTypeFlags</b> is set to 0 or a combination of the following values:
@@ -409,39 +442,6 @@ The miniport supports extended SRBs.
 </tr>
 </table>
  
-
-
-#### - AddressTypeFlags
-
-The address schemes supported by the miniport. Currently, the only one address scheme is supported and the miniport must set this member to ADDRESS_TYPE_FLAG_BTL8.
-
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="ADDRESS_TYPE_FLAG_BTL8"></a><a id="address_type_flag_btl8"></a><dl>
-<dt><b>ADDRESS_TYPE_FLAG_BTL8</b></dt>
-</dl>
-</td>
-<td width="60%">
-Bus, Target, and LUN (BTL) 8-bit addressing.
-
-</td>
-</tr>
-</table>
- 
-
-
-#### - Reserved1
-
-Reserved, set to 0.
-
-
-#### - HwUnitControl
-
-A pointer the miniport driver's <b>HwStorUnitControl</b> routine. The port driver calls this routine with a control request for a storage unit device.
 
 
 ## -remarks
@@ -498,6 +498,4 @@ Starting in Windows 8, both physical and virtual Storport miniports use <b>HW_I
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20_HW_INITIALIZATION_DATA structure%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

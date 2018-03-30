@@ -81,9 +81,9 @@ The <b>DrawIndexedInstanced</b> function draws particular instances of indexed p
 
 
 
-#### - hDevice [in]
+#### - BaseVertexLocation [in]
 
-A handle to the display device (graphics context).
+The number that should be added to each index that is referenced by the various primitives to determine the actual index of the vertex elements in each vertex stream.
 
 
 #### - IndexCountPerInstance [in]
@@ -101,14 +101,14 @@ The number of instances of the index buffer that indexes are read from to draw t
 The first index in the index buffer that indexes are read from to draw the primitives. 
 
 
-#### - BaseVertexLocation [in]
-
-The number that should be added to each index that is referenced by the various primitives to determine the actual index of the vertex elements in each vertex stream.
-
-
 #### - StartInstanceLocation [in]
 
 The first instance of the index buffer that indexes are read from to draw the primitives. 
+
+
+#### - hDevice [in]
+
+A handle to the display device (graphics context).
 
 
 ## -returns
@@ -146,6 +146,4 @@ The driver should not encounter any error, except for D3DDDIERR_DEVICEREMOVED. T
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3D10DDI_DRAWINDEXEDINSTANCED callback function%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

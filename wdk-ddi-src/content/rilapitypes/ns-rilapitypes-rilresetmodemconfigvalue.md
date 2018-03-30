@@ -70,10 +70,10 @@ This topic supports the Windows driver infrastructure and is not intended to be 
 ### -field RILRESETMODEMCONFIGVALUEUNION
 
 
-#### - fValue
-
-
 #### - dwValue
+
+
+#### - fValue
 
 
 #### - wszValue

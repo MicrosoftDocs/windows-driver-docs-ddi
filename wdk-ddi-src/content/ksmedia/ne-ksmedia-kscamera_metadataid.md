@@ -52,19 +52,6 @@ req.typenames: KSCAMERA_MetadataId
 This enumeration contains identifiers for a metadata item.
 
 
-## -syntax
-
-
-````
-typedef enum  { 
-  MetadataId_Standard_Start     = 1,
-  MetadataId_PhotoConfirmation  = MetadataId_Standard_Start,
-  MetadataId_Standard_End       = MetadataId_PhotoConfirmation,
-  MetadataId_Custom_Start       = 0x80000000
-} KSCAMERA_MetadataId;
-````
-
-
 ## -enum-fields
 
 

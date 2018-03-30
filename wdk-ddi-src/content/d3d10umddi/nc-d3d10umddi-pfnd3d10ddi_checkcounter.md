@@ -90,14 +90,19 @@ A pointer to a variable that receives the size, in bytes, of the NULL-terminated
  A pointer to a variable that receives the size, in bytes, of the NULL-terminated string that the <i>pDescription</i> parameter specifies. 
 
 
+#### - Query [in]
+
+ A <a href="https://msdn.microsoft.com/library/windows/hardware/ff541850">D3D10DDI_QUERY</a>-typed value that identifies the counter identifier that information is retrieved for.
+
+
 #### - hDevice [in]
 
  A handle to the display device (graphics context).
 
 
-#### - Query [in]
+#### - pActiveCounters [out]
 
- A <a href="https://msdn.microsoft.com/library/windows/hardware/ff541850">D3D10DDI_QUERY</a>-typed value that identifies the counter identifier that information is retrieved for.
+A pointer to a variable that receives the number of simultaneously active counters that are allocated for the creation of the counter identifier that <i>Query</i> identifies. 
 
 
 #### - pCounterType [out]
@@ -153,9 +158,9 @@ D3D10DDI_COUNTER_TYPE_UINT64
  
 
 
-#### - pActiveCounters [out]
+#### - pDescription [out]
 
-A pointer to a variable that receives the number of simultaneously active counters that are allocated for the creation of the counter identifier that <i>Query</i> identifies. 
+A pointer that the driver returns a NULL-terminated string to that contains the description of what the counter identifier measures. 
 
 
 #### - pName [out]
@@ -166,11 +171,6 @@ A pointer that the driver returns a NULL-terminated string to that contains the 
 #### - pUnits [out]
 
 A pointer that the driver returns a NULL-terminated string to that contains the name of the units that the counter identifier measures. 
-
-
-#### - pDescription [out]
-
-A pointer that the driver returns a NULL-terminated string to that contains the description of what the counter identifier measures. 
 
 
 ## -returns
@@ -214,6 +214,4 @@ The driver's <b>CheckCounter</b> function cannot call the <a href="https://msdn.
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3D10DDI_CHECKCOUNTER callback function%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

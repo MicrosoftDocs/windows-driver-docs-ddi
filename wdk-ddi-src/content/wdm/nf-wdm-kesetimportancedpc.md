@@ -7,7 +7,7 @@ old-location: kernel\kesetimportancedpc.htm
 old-project: kernel
 ms.assetid: 0feb053b-6b58-4b26-8549-a6cf3996a3e6
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: KeSetImportanceDpc, KeSetImportanceDpc routine [Kernel-Mode Driver Architecture], k105_dc95afd2-5be3-4d48-a99f-0a9f2d8dab9b.xml, kernel.kesetimportancedpc, wdm/KeSetImportanceDpc
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -94,14 +94,14 @@ Place the DPC at the end of the DPC queue, and begin processing the queue immedi
 Place the DPC at the beginning of the DPC queue, and begin processing the queue immediately. 
 
 
+##### - Importance.HighImportance
+
+Place the DPC at the beginning of the DPC queue, and begin processing the queue immediately. 
+
+
 ##### - Importance.LowImportance
 
 Place the DPC at the end of the DPC queue, and do not begin processing of the queue. 
-
-
-##### - Importance.MediumImportance
-
-Place the DPC at the end of the DPC queue. If the DPC is assigned to the current processor's DPC queue, begin processing the queue immediately. <b>MediumImportance</b> is the default value for <i>Importance</i>. 
 
 
 ##### - Importance.MediumHighImportance
@@ -109,9 +109,9 @@ Place the DPC at the end of the DPC queue. If the DPC is assigned to the current
 Place the DPC at the end of the DPC queue, and begin processing the queue immediately. MediumHighImportance is available only on Windows Vista and later versions of Windows.
 
 
-##### - Importance.HighImportance
+##### - Importance.MediumImportance
 
-Place the DPC at the beginning of the DPC queue, and begin processing the queue immediately. 
+Place the DPC at the end of the DPC queue. If the DPC is assigned to the current processor's DPC queue, begin processing the queue immediately. <b>MediumImportance</b> is the default value for <i>Importance</i>. 
 
 
 ## -returns
@@ -175,6 +175,4 @@ For more information about how the system processes the DPC queue, see <a href="
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20KeSetImportanceDpc routine%20 RELEASE:%20(3/1/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -66,6 +66,11 @@ For general information about HIDClass devices, see <a href="https://msdn.micros
 
 
 
+#### -ReportID
+
+Specifies the report identifier, for this collection, of the report data to be written to the device.
+
+
 #### -reportBuffer
 
 A pointer to a resident buffer containing the data to be sent to the device.
@@ -74,11 +79,6 @@ A pointer to a resident buffer containing the data to be sent to the device.
 #### -reportBufferLen
 
 Specifies the length of the buffer provided at <b>reportBuffer</b>.
-
-
-#### -ReportID
-
-Specifies the report identifier, for this collection, of the report data to be written to the device.
 
 
 ### -input-buffer-length
@@ -177,6 +177,4 @@ HID minidrivers that call other drivers with this IOCTL to carry out the I/O to 
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [hid\hid]:%20IOCTL_HID_WRITE_REPORT control code%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

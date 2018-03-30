@@ -213,9 +213,9 @@ Indicates data will be transferred from the device to the system.
 Indicates data will be transferred from the system to the device.
 
 
-##### - SrbFlags.SRB_FLAGS_NO_DATA_TRANSFER
+##### - SrbFlags.SRB_FLAGS_DISABLE_DISCONNECT
 
-Indicates no data transfer with this request. If this is set, the flags SRB_FLAGS_DATA_OUT, SRB_FLAGS_DATA_IN, and SRB_FLAGS_UNSPECIFIED_DIRECTION are clear.
+Indicates the HBA should not allow the target to disconnect from the SCSI bus during processing of this request.
 
 
 ##### - SrbFlags.SRB_FLAGS_DISABLE_SYNCH_TRANSFER
@@ -223,9 +223,9 @@ Indicates no data transfer with this request. If this is set, the flags SRB_FLAG
 Indicates the HBA, if possible, should perform asynchronous I/O for this transfer request. If synchronous I/O was negotiated previously, the HBA must renegotiate for asynchronous I/O before performing the transfer.
 
 
-##### - SrbFlags.SRB_FLAGS_DISABLE_DISCONNECT
+##### - SrbFlags.SRB_FLAGS_NO_DATA_TRANSFER
 
-Indicates the HBA should not allow the target to disconnect from the SCSI bus during processing of this request.
+Indicates no data transfer with this request. If this is set, the flags SRB_FLAGS_DATA_OUT, SRB_FLAGS_DATA_IN, and SRB_FLAGS_UNSPECIFIED_DIRECTION are clear.
 
 
 ## -remarks
@@ -266,6 +266,4 @@ For information about supporting WMI in miniport drivers, see the <a href="https
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20SCSI_WMI_REQUEST_BLOCK structure%20 RELEASE:%20(2/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

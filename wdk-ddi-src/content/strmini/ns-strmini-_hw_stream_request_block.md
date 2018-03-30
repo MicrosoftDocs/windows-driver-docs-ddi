@@ -467,14 +467,14 @@ Specifies the number of physical elements pointed to by <b>ScatterGatherBuffer</
 
 
 
-#### - NumberOfBytesToTransfer
-
-For a SRB_READ_DATA or SRB_WRITE_DATA request, the number of bytes to be transferred.
-
-
 #### - ActualBytesTransferred
 
 For control requests, the number of bytes actually transferred. 
+
+
+#### - NumberOfBytesToTransfer
+
+For a SRB_READ_DATA or SRB_WRITE_DATA request, the number of bytes to be transferred.
 
 
 #### - Reserved[1]

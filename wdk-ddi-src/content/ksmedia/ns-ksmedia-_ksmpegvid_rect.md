@@ -51,19 +51,6 @@ req.typenames: KSMPEGVID_RECT, *PKSMPEGVID_RECT
 
 
 
-## -syntax
-
-
-````
-typedef struct _KSMPEGVID_RECT {
-  ULONG StartX;
-  ULONG StartY;
-  ULONG EndX;
-  ULONG EndY;
-} KSMPEGVID_RECT, *PKSMPEGVID_RECT;
-````
-
-
 ## -struct-fields
 
 

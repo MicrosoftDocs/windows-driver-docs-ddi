@@ -64,14 +64,14 @@ The <b>Set</b> method sets the typed data represented by the <a href="https://ms
 
 
 
+#### - Offset [in]
+
+Specifies the location of the data in the target's memory.
+
+
 #### - PtrTo [in]
 
 Specifies whether or not to set the <b>ExtRemoteTyped</b> instance to the specified typed data, or to a pointer to the specified typed data.  If <i>PtrTo</i> is <code>true</code>, the <b>ExtRemoteTyped</b> instance will be a pointer to the typed data.
-
-
-#### - TypeModBase [in]
-
-The base address of the module to which the type belongs.
 
 
 #### - TypeId [in]
@@ -79,9 +79,9 @@ The base address of the module to which the type belongs.
 The type ID of the type.
 
 
-#### - Offset [in]
+#### - TypeModBase [in]
 
-Specifies the location of the data in the target's memory.
+The base address of the module to which the type belongs.
 
 
 ## -returns
@@ -122,6 +122,4 @@ This method does not return a value.
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20ExtRemoteTyped.Set(bool, ULONG64, ULONG, ULONG64) method%20 RELEASE:%20(3/26/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

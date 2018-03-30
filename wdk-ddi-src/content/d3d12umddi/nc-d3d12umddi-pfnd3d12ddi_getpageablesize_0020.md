@@ -69,12 +69,12 @@ The <i>pfnGetPageableSize</i> callback function gets the pageable size.
 
 
 
-#### - hDevice
-
-The handle of a device.
-
-
 #### - GetPageableSize [in]
 
 Information used to get pageable size.
+
+
+#### - hDevice
+
+The handle of a device.
 

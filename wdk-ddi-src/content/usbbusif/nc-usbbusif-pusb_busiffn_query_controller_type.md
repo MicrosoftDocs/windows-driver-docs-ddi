@@ -76,9 +76,9 @@ Handle returned in the <b>BusContext</b> member of the <a href="https://msdn.mic
 Reserved. Do not use.
 
 
-#### - PciVendorId [out]
+#### - PciClass [out]
 
-Pointer to a USHORT variable that  receives the PCI vendor ID for the USB host controller.
+Pointer to a UCHAR variable that receives the PCI class for the USB host controller.
 
 
 #### - PciDeviceId [out]
@@ -86,14 +86,9 @@ Pointer to a USHORT variable that  receives the PCI vendor ID for the USB host c
 Pointer to a USHORT variable that  receives the PCI device ID for the USB host controller.
 
 
-#### - PciClass [out]
+#### - PciProgIf [out]
 
-Pointer to a UCHAR variable that receives the PCI class for the USB host controller.
-
-
-#### - PciSubClass [out]
-
-Pointer to a UCHAR variable that receives the PCI subclass  for the USB host controller.
+Pointer to a UCHAR variable that receives the PCI programming interface  for the USB host controller.
 
 
 #### - PciRevisionId [out]
@@ -101,9 +96,14 @@ Pointer to a UCHAR variable that receives the PCI subclass  for the USB host con
 Pointer to a UCHAR variable that receives the PCI revision number for the USB host controller.
 
 
-#### - PciProgIf [out]
+#### - PciSubClass [out]
 
-Pointer to a UCHAR variable that receives the PCI programming interface  for the USB host controller.
+Pointer to a UCHAR variable that receives the PCI subclass  for the USB host controller.
+
+
+#### - PciVendorId [out]
+
+Pointer to a USHORT variable that  receives the PCI vendor ID for the USB host controller.
 
 
 ## -returns
@@ -164,6 +164,4 @@ The function definition that is provided on this reference page is an example fu
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20USB_BUSIFFN_QUERY_CONTROLLER_TYPE callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

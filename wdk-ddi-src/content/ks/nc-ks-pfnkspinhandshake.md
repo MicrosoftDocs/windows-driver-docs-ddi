@@ -72,6 +72,11 @@ An AVStream minidriver's <i>AVStrMiniPinHandshake</i> routine is called when AVS
 
 
 
+#### - Data [in]
+
+Pointer to a caller-allocated buffer. If the pin supports the requested protocol, <i>AVStrMiniPinHandshake</i> should fill in this parameter with a pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff562673">KSHANDSHAKE</a> structure.
+
+
 #### - Irp [in]
 
 Pointer to the IRP containing the handshake request.
@@ -80,11 +85,6 @@ Pointer to the IRP containing the handshake request.
 #### - Request [in]
 
 Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff562676">KSIDENTIFIER</a> structure that contains a GUID identifying the requested protocol.
-
-
-#### - Data [in]
-
-Pointer to a caller-allocated buffer. If the pin supports the requested protocol, <i>AVStrMiniPinHandshake</i> should fill in this parameter with a pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff562673">KSHANDSHAKE</a> structure.
 
 
 ## -returns
@@ -122,6 +122,4 @@ The minidriver specifies this routine's address in the <i>Handshake</i> paramete
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20PFNKSPINHANDSHAKE routine%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

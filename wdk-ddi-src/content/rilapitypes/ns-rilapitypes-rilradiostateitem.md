@@ -79,20 +79,20 @@ This topic supports the Windows driver infrastructure and is not intended to be 
 ### -field wszItemValueOptions
 
 
+#### - byteArray
+
+
+#### - intArray
+
+
 #### - intVal
+
+
+#### - uintArray
 
 
 #### - uintVal
 
 
 #### - wszVal
-
-
-#### - intArray
-
-
-#### - uintArray
-
-
-#### - byteArray
 

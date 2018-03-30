@@ -77,6 +77,69 @@ Specifies the total size of the frame, including prefix and postfix. Zero indica
 Reserved for system use. Set to zero.
 
 
+#### - FileAlignment
+
+A value of type ULONG that describes the byte alignment to use when allocating frames. The following table describes several possible alignment values.
+
+<table>
+<tr>
+<th>Value</th>
+<th>Description</th>
+</tr>
+<tr>
+<td>
+FILE_BYTE_ALIGNMENT
+
+</td>
+<td>
+1-byte alignment
+
+</td>
+</tr>
+<tr>
+<td>
+FILE_WORD_ALIGNMENT
+
+</td>
+<td>
+2-byte alignment
+
+</td>
+</tr>
+<tr>
+<td>
+FILE_LONG_ALIGNMENT
+
+</td>
+<td>
+4-byte alignment
+
+</td>
+</tr>
+<tr>
+<td>
+FILE_32_BYTE_ALIGNMENT
+
+</td>
+<td>
+32-byte alignment
+
+</td>
+</tr>
+<tr>
+<td>
+FILE_64_BYTE_ALIGNMENT
+
+</td>
+<td>
+64-byte alignment
+
+</td>
+</tr>
+</table>
+ 
+
+
 #### - OptionsFlags
 
 Specifies the allocator option flags specified during allocator creation for the connection point. The <b>OptionsFlags</b> member can contain one of the following values.
@@ -173,69 +236,6 @@ Indicates that the Requirements flags are preferences only and the connection po
  
 
 
-#### - FileAlignment
-
-A value of type ULONG that describes the byte alignment to use when allocating frames. The following table describes several possible alignment values.
-
-<table>
-<tr>
-<th>Value</th>
-<th>Description</th>
-</tr>
-<tr>
-<td>
-FILE_BYTE_ALIGNMENT
-
-</td>
-<td>
-1-byte alignment
-
-</td>
-</tr>
-<tr>
-<td>
-FILE_WORD_ALIGNMENT
-
-</td>
-<td>
-2-byte alignment
-
-</td>
-</tr>
-<tr>
-<td>
-FILE_LONG_ALIGNMENT
-
-</td>
-<td>
-4-byte alignment
-
-</td>
-</tr>
-<tr>
-<td>
-FILE_32_BYTE_ALIGNMENT
-
-</td>
-<td>
-32-byte alignment
-
-</td>
-</tr>
-<tr>
-<td>
-FILE_64_BYTE_ALIGNMENT
-
-</td>
-<td>
-64-byte alignment
-
-</td>
-</tr>
-</table>
- 
-
-
 ## -remarks
 
 
@@ -256,6 +256,4 @@ When you specify a value for the <b>FileAlignment</b> member, the smallest alloc
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KSALLOCATOR_FRAMING structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

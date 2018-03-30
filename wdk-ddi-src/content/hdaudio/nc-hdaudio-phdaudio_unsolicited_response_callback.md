@@ -69,14 +69,14 @@ HDAudio codec unsolicited response callback function. <b>PHDAUDIO_UNSOLICITED_RE
 
 
 
-#### - HDAudioCodecResponse
-
-This is a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff536422">HDAUDIO_CODEC_RESPONSE</a> that specifies the codec's response to the command. This structure is passed by value.  
-
-
 #### - Context
 
 This is the callbackContext value that was passed previously to <a href="https://msdn.microsoft.com/library/windows/hardware/ff537803">PREGISTER_EVENT_CALLBACK</a>.
+
+
+#### - HDAudioCodecResponse
+
+This is a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff536422">HDAUDIO_CODEC_RESPONSE</a> that specifies the codec's response to the command. This structure is passed by value.  
 
 
 ## -returns

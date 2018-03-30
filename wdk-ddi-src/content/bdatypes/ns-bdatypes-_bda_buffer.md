@@ -72,8 +72,8 @@ req.typenames: BDA_BUFFER, *PBDA_BUFFER
 
 
 
-#### - ulKeyuuidBufferLen
-
-
 #### - argKeyuuidBuffer
+
+
+#### - ulKeyuuidBufferLen
 
