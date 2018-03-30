@@ -39,15 +39,21 @@ targetos: Windows
 
 ## -description
 
+Represents the Designated Vendor-Specific Extended Capability defined by PCI-SIG. 
+
+For information about this structure, see PCI-SIG ENGINEERING CHANGE NOTICE titled,  Designated Vendor-Specific Extended Capability.
 
 ## -struct-fields
 
 ### -field Header
- 
+
+
 ### -field DvsecHeader1
  
-### -field DvsecHeader2
  
+### -field DvsecHeader2
+
+
 ### -field DvsecRegisters
  
 
