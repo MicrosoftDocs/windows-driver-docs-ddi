@@ -43,6 +43,8 @@ targetos: Windows
 
 ## -description
 
+Reserved for future use.
+
 Returns a mask of extended processor features that are enabled by the system.
 
 ## -parameters
