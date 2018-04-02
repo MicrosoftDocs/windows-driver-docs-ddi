@@ -2,12 +2,12 @@
 UID: NE:ntddk.WELL_KNOWN_SID_TYPE
 title: WELL_KNOWN_SID_TYPE
 author: windows-driver-content
-description: 
+description: A list of commonly used security identifiers (SIDs). Programs can pass these values to the **CreateWellKnownSid** function to create a SID from this list. For information about these values, see [WELL_KNOWN_SID_TYPE](https://msdn.microsoft.com/en-us/library/windows/desktop/aa446585).
 ms.assetid: 31995895-7bae-4cb6-9ea9-139a99d06215
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: enum
-ms.keywords: WELL_KNOWN_SID_TYPE, WELL_KNOWN_SID_TYPE, 
+ms.keywords: WELL_KNOWN_SID_TYPE, WELL_KNOWN_SID_TYPE 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 req.header: ntddk.h
