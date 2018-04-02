@@ -59,17 +59,17 @@ Used by driver's load-image routine (<a href="..\ntddk\nc-ntddk-pload_image_noti
 typedef struct _IMAGE_INFO {
   union {
     ULONG Properties;
-    struct {
+    struct {      
+       ULONG ImageAddressingMode  :8;
+       ULONG SystemModeImage  :1;
+       ULONG ImageMappedToAllPids  :1;
+       ULONG ExtendedInfoPresent  :1;
+       ULONG MachineTypeMismatch  :1;
+       ULONG ImageSignatureLevel  :4;
+       ULONG ImageSignatureType  :3;
+       ULONG ImagePartialMap  :1;
+       ULONG Reserved  :12;
     };
-    ULONG ImageAddressingMode  :8;
-    ULONG SystemModeImage  :1;
-    ULONG ImageMappedToAllPids  :1;
-    ULONG ExtendedInfoPresent  :1;
-    ULONG MachineTypeMismatch  :1;
-    ULONG ImageSignatureLevel  :4;
-    ULONG ImageSignatureType  :3;
-    ULONG ImagePartialMap  :1;
-    ULONG Reserved  :12;
   };
   ULONG  ImageBase;
   ULONG  ImageSelector;
