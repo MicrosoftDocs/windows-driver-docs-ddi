@@ -38,7 +38,8 @@ api_location:
 -	pep_x.h
 api_name:
 -	PEP_WORK_DEVICE_POWER
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PEP_WORK_DEVICE_POWER, *PPEP_WORK_DEVICE_POWER
 ---

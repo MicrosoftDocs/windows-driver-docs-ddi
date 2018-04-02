@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KSRTAUDIO_BUFFER
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSRTAUDIO_BUFFER, *PKSRTAUDIO_BUFFER
 ---

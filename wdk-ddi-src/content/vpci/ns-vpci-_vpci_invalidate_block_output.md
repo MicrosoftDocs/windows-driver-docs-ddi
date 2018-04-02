@@ -38,7 +38,8 @@ api_location:
 -	Vpci.h
 api_name:
 -	VPCI_INVALIDATE_BLOCK_OUTPUT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: VPCI_INVALIDATE_BLOCK_OUTPUT, *PVPCI_INVALIDATE_BLOCK_OUTPUT
 req.product: Windows 10 or later.

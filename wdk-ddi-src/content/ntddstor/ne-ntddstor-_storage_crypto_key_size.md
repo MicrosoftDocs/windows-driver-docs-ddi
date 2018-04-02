@@ -38,7 +38,8 @@ api_location:
 -	Ntddstor.h
 api_name:
 -	STORAGE_CRYPTO_KEY_SIZE, *PSTORAGE_CRYPTO_KEY_SIZE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STORAGE_CRYPTO_KEY_SIZE, *PSTORAGE_CRYPTO_KEY_SIZE
 ---

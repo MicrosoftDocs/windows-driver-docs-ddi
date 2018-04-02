@@ -38,7 +38,8 @@ api_location:
 -	ucxusbdevice.h
 api_name:
 -	*PFN_UCX_USBDEVICE_SUSPEND
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STREAM_INFO, *PSTREAM_INFO
 req.product: Windows 10 or later.

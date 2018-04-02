@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILMSGCDMATELESERVICE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILMSGCDMATELESERVICE
 req.product: Windows 10 or later.

@@ -38,7 +38,8 @@ api_location:
 -	Wudfddi_types.h
 api_name:
 -	WDF_REQUEST_SEND_OPTIONS_FLAGS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_REQUEST_SEND_OPTIONS_FLAGS
 req.product: Windows 10 or later.

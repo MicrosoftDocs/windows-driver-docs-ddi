@@ -38,7 +38,8 @@ api_location:
 -	wdm.h
 api_name:
 -	PCW_CALLBACK_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PCW_CALLBACK_TYPE, *PPCW_CALLBACK_TYPE
 req.product: Windows 10 or later.

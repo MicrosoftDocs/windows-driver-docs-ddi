@@ -38,7 +38,8 @@ api_location:
 -	wwan.h
 api_name:
 -	WWAN_SMS_STATUS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WWAN_SMS_STATUS, *PWWAN_SMS_STATUS
 req.product: Windows 10 or later.

@@ -38,7 +38,8 @@ api_location:
 -	ntddpcm.h
 api_name:
 -	PCMCIA_SOCKET_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PCMCIA_SOCKET_INFORMATION, *PPCMCIA_SOCKET_INFORMATION
 ---

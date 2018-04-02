@@ -38,7 +38,8 @@ api_location:
 -	iscsidef.h
 api_name:
 -	ISCSI_TargetMapping
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: ISCSI_TargetMapping, *PISCSI_TargetMapping
 ---

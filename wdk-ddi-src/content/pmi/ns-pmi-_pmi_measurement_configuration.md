@@ -38,7 +38,8 @@ api_location:
 -	pmi.h
 api_name:
 -	PMI_MEASUREMENT_CONFIGURATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PMI_MEASUREMENT_CONFIGURATION, *PPMI_MEASUREMENT_CONFIGURATION
 ---

@@ -38,7 +38,8 @@ api_location:
 -	wdm.h
 api_name:
 -	REG_SET_KEY_SECURITY_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: REG_SET_KEY_SECURITY_INFORMATION, *PREG_SET_KEY_SECURITY_INFORMATION
 req.product: Windows 10 or later.

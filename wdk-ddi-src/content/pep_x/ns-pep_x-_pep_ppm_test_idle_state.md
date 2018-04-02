@@ -38,7 +38,8 @@ api_location:
 -	pepfx.h
 api_name:
 -	PEP_PPM_TEST_IDLE_STATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PEP_PPM_TEST_IDLE_STATE, *PPEP_PPM_TEST_IDLE_STATE, PEP_PPM_TEST_IDLE_STATE, *PPEP_PPM_TEST_IDLE_STATE
 ---

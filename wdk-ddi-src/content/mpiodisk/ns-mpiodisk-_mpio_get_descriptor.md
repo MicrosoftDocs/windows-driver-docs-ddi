@@ -38,7 +38,8 @@ api_location:
 -	mpiodisk.h
 api_name:
 -	MPIO_GET_DESCRIPTOR
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MPIO_GET_DESCRIPTOR, *PMPIO_GET_DESCRIPTOR
 ---

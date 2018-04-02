@@ -39,7 +39,8 @@ api_location:
 -	Scsiport.dll
 api_name:
 -	ScsiPortWriteRegisterUshort
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STOR_DEVICE_POWER_STATE, *PSTOR_DEVICE_POWER_STATE
 req.product: Windows 10 or later.

@@ -38,7 +38,8 @@ api_location:
 -	ntdddisk.h
 api_name:
 -	GETVERSIONINPARAMS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GETVERSIONINPARAMS, *PGETVERSIONINPARAMS, *LPGETVERSIONINPARAMS
 ---

@@ -38,7 +38,8 @@ api_location:
 -	Ntifs.h
 api_name:
 -	QUERY_FILE_LAYOUT_INPUT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: QUERY_FILE_LAYOUT_INPUT, *PQUERY_FILE_LAYOUT_INPUT
 ---

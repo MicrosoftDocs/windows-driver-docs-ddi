@@ -38,7 +38,8 @@ api_location:
 -	Spoolss.dll
 api_name:
 -	RouterRegisterForPrintAsyncNotifications
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USERDATA, *PUSERDATA
 req.product: Windows 10 or later.

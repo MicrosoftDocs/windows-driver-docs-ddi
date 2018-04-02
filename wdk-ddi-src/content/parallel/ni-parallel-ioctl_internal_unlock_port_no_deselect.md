@@ -38,7 +38,8 @@ api_location:
 -	parallel.h
 api_name:
 -	IOCTL_INTERNAL_UNLOCK_PORT_NO_DESELECT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILGBATOKEN, *LPRILGBATOKEN
 ---

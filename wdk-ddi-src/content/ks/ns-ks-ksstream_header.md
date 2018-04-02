@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KSSTREAM_HEADER
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSSTREAM_HEADER, *PKSSTREAM_HEADER
 ---

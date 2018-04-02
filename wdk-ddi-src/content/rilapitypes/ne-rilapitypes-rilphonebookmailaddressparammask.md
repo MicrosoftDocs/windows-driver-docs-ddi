@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILPHONEBOOKMAILADDRESSPARAMMASK
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILPHONEBOOKMAILADDRESSPARAMMASK
 req.product: Windows 10 or later.

@@ -38,7 +38,8 @@ api_location:
 -	EhStorBandMgmt.h
 api_name:
 -	ERASE_BAND_PARAMETERS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: ERASE_BAND_PARAMETERS, *PERASE_BAND_PARAMETERS
 ---

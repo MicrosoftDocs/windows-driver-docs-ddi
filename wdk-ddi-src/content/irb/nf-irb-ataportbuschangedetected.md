@@ -38,7 +38,8 @@ api_location:
 -	Irb.h
 api_name:
 -	AtaPortBusChangeDetected
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: IDE_POWER_STATE
 ---

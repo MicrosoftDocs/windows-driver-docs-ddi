@@ -38,7 +38,8 @@ api_location:
 -	ntddk.h
 api_name:
 -	WHEA_XPF_PROCINFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WHEA_XPF_PROCINFO, *PWHEA_XPF_PROCINFO
 ---

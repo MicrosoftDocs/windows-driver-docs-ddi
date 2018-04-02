@@ -38,7 +38,8 @@ api_location:
 -	ucxendpoint.h
 api_name:
 -	UcxEndpointNeedToCancelTransfers
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: UCX_ENDPOINT_CHARACTERISTIC_TYPE
 req.product: Windows 10 or later.

@@ -38,7 +38,8 @@ api_location:
 -	video.h
 api_name:
 -	VIDEO_PORT_AGP_INTERFACE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: VIDEO_PORT_AGP_INTERFACE, *PVIDEO_PORT_AGP_INTERFACE
 req.product: Windows 10 or later.

@@ -40,7 +40,8 @@ api_name:
 -	IDebugSymbols.AppendSourcePath
 -	IDebugSymbols2.AppendSourcePath
 -	IDebugSymbols3.AppendSourcePath
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---

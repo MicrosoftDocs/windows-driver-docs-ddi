@@ -40,7 +40,8 @@ api_name:
 -	IDebugSymbols.FindSourceFile
 -	IDebugSymbols2.FindSourceFile
 -	IDebugSymbols3.FindSourceFile
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---

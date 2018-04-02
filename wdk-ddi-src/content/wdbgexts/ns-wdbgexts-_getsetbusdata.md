@@ -38,7 +38,8 @@ api_location:
 -	wdbgexts.h
 api_name:
 -	BUSDATA
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BUSDATA, *PBUSDATA
 req.product: Windows 10 or later.

@@ -38,7 +38,8 @@ api_location:
 -	winddiui.h
 api_name:
 -	ATTRIBUTE_INFO_3
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: ATTRIBUTE_INFO_3, *PATTRIBUTE_INFO_3
 req.product: Windows 10 or later.

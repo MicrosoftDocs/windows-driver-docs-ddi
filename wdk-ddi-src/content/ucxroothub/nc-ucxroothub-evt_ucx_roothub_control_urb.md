@@ -38,7 +38,8 @@ api_location:
 -	ucxroothub.h
 api_name:
 -	PEVT_UCX_ROOTHUB_CONTROL_URB
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: UCX_ENDPOINT_ISOCH_TRANSFER_PATH_DELAYS, *PUCX_ENDPOINT_ISOCH_TRANSFER_PATH_DELAYS
 req.product: Windows 10 or later.

@@ -38,7 +38,8 @@ api_location:
 -	wdm.h
 api_name:
 -	DEVICE_POWER_STATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DEVICE_POWER_STATE, *PDEVICE_POWER_STATE
 req.product: Windows 10 or later.

@@ -39,7 +39,8 @@ api_location:
 -	wudfddi_types.h
 api_name:
 -	WDF_POWER_POLICY_SX_WAKE_USER_CONTROL
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_POWER_POLICY_SX_WAKE_USER_CONTROL
 req.product: Windows 10 or later.

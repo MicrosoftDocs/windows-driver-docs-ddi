@@ -38,7 +38,8 @@ api_location:
 -	wdm.h
 api_name:
 -	COUNTED_REASON_CONTEXT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: COUNTED_REASON_CONTEXT, *PCOUNTED_REASON_CONTEXT
 ---

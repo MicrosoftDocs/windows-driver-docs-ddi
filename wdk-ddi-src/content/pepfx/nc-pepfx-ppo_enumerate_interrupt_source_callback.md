@@ -38,7 +38,8 @@ api_location:
 -	pepfx.h
 api_name:
 -	EnumerateInterruptSource
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: VPCI_PNP_ID, *PVPCI_PNP_ID
 ---

@@ -39,7 +39,8 @@ api_location:
 -	wudfddi_types.h
 api_name:
 -	WDF_DEVICE_HWACCESS_TARGET_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_DEVICE_HWACCESS_TARGET_SIZE, *PWDF_DEVICE_HWACCESS_TARGET_SIZE
 req.product: Windows 10 or later.

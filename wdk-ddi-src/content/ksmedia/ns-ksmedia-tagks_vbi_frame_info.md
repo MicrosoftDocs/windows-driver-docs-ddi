@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KS_VBI_FRAME_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KS_VBI_FRAME_INFO, *PKS_VBI_FRAME_INFO
 ---

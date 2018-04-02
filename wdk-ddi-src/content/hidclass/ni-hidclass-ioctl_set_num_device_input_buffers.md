@@ -38,7 +38,8 @@ api_location:
 -	hidclass.h
 api_name:
 -	IOCTL_SET_NUM_DEVICE_INPUT_BUFFERS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: HDAUDIO_STREAM_FORMAT, *PHDAUDIO_STREAM_FORMAT
 ---

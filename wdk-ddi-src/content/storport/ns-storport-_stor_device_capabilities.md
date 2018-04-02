@@ -38,7 +38,8 @@ api_location:
 -	storport.h
 api_name:
 -	STOR_DEVICE_CAPABILITIES
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STOR_DEVICE_CAPABILITIES, *PSTOR_DEVICE_CAPABILITIES
 req.product: Windows 10 or later.

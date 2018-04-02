@@ -38,7 +38,8 @@ api_location:
 -	irb.h
 api_name:
 -	IDE_POWER_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: IDE_POWER_INFO, *PIDE_POWER_INFO
 ---

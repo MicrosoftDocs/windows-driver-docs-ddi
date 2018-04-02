@@ -38,7 +38,8 @@ api_location:
 -	Bthddi.h
 api_name:
 -	CHANNEL_CONFIG_RESULTS_ENHANCED
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: CHANNEL_CONFIG_RESULTS_ENHANCED, *PCHANNEL_CONFIG_RESULTS_ENHANCED
 ---

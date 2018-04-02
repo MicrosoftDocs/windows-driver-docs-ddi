@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILRTTDATA
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILRTTDATA, *LPRILRTTDATA
 req.product: Windows 10 or later.

@@ -38,7 +38,8 @@ api_location:
 -	pep_x.h
 api_name:
 -	PEP_PROCESSOR_IDLE_CONSTRAINTS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PEP_PROCESSOR_IDLE_CONSTRAINTS, *PPEP_PROCESSOR_IDLE_CONSTRAINTS
 ---

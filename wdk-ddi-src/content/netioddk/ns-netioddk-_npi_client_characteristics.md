@@ -38,7 +38,8 @@ api_location:
 -	netioddk.h
 api_name:
 -	NPI_CLIENT_CHARACTERISTICS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NPI_CLIENT_CHARACTERISTICS
 ---

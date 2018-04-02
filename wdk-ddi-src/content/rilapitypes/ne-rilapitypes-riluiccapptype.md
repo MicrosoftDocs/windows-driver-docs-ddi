@@ -38,7 +38,8 @@ api_location:
 -	rilapitypes.h
 api_name:
 -	RILUICCAPPTYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILUICCAPPTYPE
 req.product: Windows 10 or later.

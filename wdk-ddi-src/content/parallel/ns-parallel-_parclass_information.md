@@ -38,7 +38,8 @@ api_location:
 -	parallel.h
 api_name:
 -	PARCLASS_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PARCLASS_INFORMATION, *PPARCLASS_INFORMATION
 ---

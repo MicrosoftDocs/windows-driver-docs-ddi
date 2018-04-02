@@ -38,7 +38,8 @@ api_location:
 -	UdecxUsbDevice.h
 api_name:
 -	UDECX_USB_DEVICE_STATE_CHANGE_CALLBACKS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: UDECX_USB_DEVICE_STATE_CHANGE_CALLBACKS, *PUDECX_USB_DEVICE_STATE_CHANGE_CALLBACKS
 req.product: Windows 10 or later.

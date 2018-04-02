@@ -38,7 +38,8 @@ api_location:
 -	ntddmmc.h
 api_name:
 -	FEATURE_DATA_SMART
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: FEATURE_DATA_SMART, *PFEATURE_DATA_SMART
 ---

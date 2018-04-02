@@ -41,7 +41,8 @@ api_name:
 -	IDebugDataSpaces2.WriteVirtualUncached
 -	IDebugDataSpaces3.WriteVirtualUncached
 -	IDebugDataSpaces4.WriteVirtualUncached
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---

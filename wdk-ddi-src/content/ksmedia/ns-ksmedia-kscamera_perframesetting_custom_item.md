@@ -38,7 +38,8 @@ api_location:
 -	Ksmedia.h
 api_name:
 -	KSCAMERA_PERFRAMESETTING_CUSTOM_ITEM
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSCAMERA_PERFRAMESETTING_CUSTOM_ITEM, *PKSCAMERA_PERFRAMESETTING_CUSTOM_ITEM
 ---

@@ -38,7 +38,8 @@ api_location:
 -	Ntddk.h
 api_name:
 -	TXN_PARAMETER_BLOCK
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TXN_PARAMETER_BLOCK, *PTXN_PARAMETER_BLOCK
 ---

@@ -38,7 +38,8 @@ api_location:
 -	rilapitypes.h
 api_name:
 -	RILADDRESSTYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILADDRESSTYPE
 req.product: Windows 10 or later.

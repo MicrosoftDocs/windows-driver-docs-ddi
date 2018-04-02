@@ -38,7 +38,8 @@ api_location:
 -	d3dukmdt.h
 api_name:
 -	D3DDDI_GAMMA_RAMP_DXGI_1
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DDDI_GAMMA_RAMP_DXGI_1
 ---

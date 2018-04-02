@@ -38,7 +38,8 @@ api_location:
 -	ntddk.h
 api_name:
 -	WHEA_PCIXBUS_ERROR_SECTION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WHEA_PCIXBUS_ERROR_SECTION, *PWHEA_PCIXBUS_ERROR_SECTION
 ---

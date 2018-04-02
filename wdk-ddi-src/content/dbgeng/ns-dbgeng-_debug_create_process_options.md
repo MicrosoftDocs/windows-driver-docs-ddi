@@ -38,7 +38,8 @@ api_location:
 -	DbgEng.h
 api_name:
 -	DEBUG_CREATE_PROCESS_OPTIONS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DEBUG_CREATE_PROCESS_OPTIONS, *PDEBUG_CREATE_PROCESS_OPTIONS
 ---

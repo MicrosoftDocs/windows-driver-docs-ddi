@@ -38,7 +38,8 @@ api_location:
 -	strmini.h
 api_name:
 -	HW_EVENT_DESCRIPTOR
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: HW_EVENT_DESCRIPTOR, *PHW_EVENT_DESCRIPTOR
 req.product: Windows 10 or later.

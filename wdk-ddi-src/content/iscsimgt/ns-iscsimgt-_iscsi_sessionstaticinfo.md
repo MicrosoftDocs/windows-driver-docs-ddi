@@ -38,7 +38,8 @@ api_location:
 -	iscsimgt.h
 api_name:
 -	ISCSI_SessionStaticInfo
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: ISCSI_SessionStaticInfo, *PISCSI_SessionStaticInfo
 ---

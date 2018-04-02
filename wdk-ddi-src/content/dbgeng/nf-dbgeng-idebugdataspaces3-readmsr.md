@@ -41,7 +41,8 @@ api_name:
 -	IDebugDataSpaces2.ReadMsr
 -	IDebugDataSpaces3.ReadMsr
 -	IDebugDataSpaces4.ReadMsr
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---

@@ -38,7 +38,8 @@ api_location:
 -	BthXDDI.h
 api_name:
 -	IOCTL_BTHX_WRITE_HCI
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BTHX_SCO_SUPPORT, *PBTHX_SCO_SUPPORT
 ---

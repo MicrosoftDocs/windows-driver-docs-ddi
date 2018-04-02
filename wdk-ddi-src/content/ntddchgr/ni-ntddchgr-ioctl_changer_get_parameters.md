@@ -38,7 +38,8 @@ api_location:
 -	Ntddchgr.h
 api_name:
 -	IOCTL_CHANGER_GET_PARAMETERS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: ELEMENT_TYPE, *PELEMENT_TYPE
 ---

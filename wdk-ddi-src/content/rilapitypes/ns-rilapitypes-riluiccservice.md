@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILUICCSERVICE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILUICCSERVICE, *LPRILUICCSERVICE
 req.product: Windows 10 or later.

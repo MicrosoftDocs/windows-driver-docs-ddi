@@ -38,7 +38,8 @@ api_location:
 -	usbspec.h
 api_name:
 -	USB_ENDPOINT_DESCRIPTOR
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USB_ENDPOINT_DESCRIPTOR, *PUSB_ENDPOINT_DESCRIPTOR
 req.product: Windows 10 or later.

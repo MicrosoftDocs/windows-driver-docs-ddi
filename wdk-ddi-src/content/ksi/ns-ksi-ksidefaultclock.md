@@ -38,7 +38,8 @@ api_location:
 -	Ksi.h
 api_name:
 -	KSIDEFAULTCLOCK
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSIDEFAULTCLOCK, *PKSIDEFAULTCLOCK
 ---

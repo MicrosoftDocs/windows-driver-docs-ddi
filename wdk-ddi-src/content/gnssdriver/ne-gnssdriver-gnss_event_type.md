@@ -38,7 +38,8 @@ api_location:
 -	gnssdriver.h
 api_name:
 -	GNSS_EVENT_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GNSS_EVENT_TYPE
 ---

@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KSSTREAMALLOCATOR_FUNCTIONTABLE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSSTREAMALLOCATOR_FUNCTIONTABLE, *PKSSTREAMALLOCATOR_FUNCTIONTABLE
 ---

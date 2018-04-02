@@ -38,7 +38,8 @@ api_location:
 -	storport.h
 api_name:
 -	STOR_SCATTER_GATHER_ELEMENT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STOR_SCATTER_GATHER_ELEMENT, *PSTOR_SCATTER_GATHER_ELEMENT
 req.product: Windows 10 or later.

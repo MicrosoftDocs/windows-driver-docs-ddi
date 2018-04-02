@@ -38,7 +38,8 @@ api_location:
 -	parallel.h
 api_name:
 -	PDETERMINE_IEEE_MODES
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILGBATOKEN, *LPRILGBATOKEN
 ---

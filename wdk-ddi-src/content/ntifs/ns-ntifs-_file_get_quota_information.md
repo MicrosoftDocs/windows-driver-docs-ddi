@@ -38,7 +38,8 @@ api_location:
 -	ntifs.h
 api_name:
 -	FILE_GET_QUOTA_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: FILE_GET_QUOTA_INFORMATION, *PFILE_GET_QUOTA_INFORMATION
 ---

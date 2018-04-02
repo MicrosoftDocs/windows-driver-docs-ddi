@@ -38,7 +38,8 @@ api_location:
 -	usbscan.h
 api_name:
 -	USBSCAN_TIMEOUT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USBSCAN_TIMEOUT, *PUSBSCAN_TIMEOUT
 req.product: Windows 10 or later.

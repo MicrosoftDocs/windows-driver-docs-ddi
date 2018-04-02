@@ -38,7 +38,8 @@ api_location:
 -	avc.h
 api_name:
 -	AVC_EXT_PLUG_COUNTS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: AVC_EXT_PLUG_COUNTS, *PAVC_EXT_PLUG_COUNTS
 ---

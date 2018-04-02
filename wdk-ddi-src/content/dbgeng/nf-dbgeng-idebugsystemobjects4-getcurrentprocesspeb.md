@@ -41,7 +41,8 @@ api_name:
 -	IDebugSystemObjects2.GetCurrentProcessPeb
 -	IDebugSystemObjects3.GetCurrentProcessPeb
 -	IDebugSystemObjects4.GetCurrentProcessPeb
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---

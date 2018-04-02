@@ -38,7 +38,8 @@ api_location:
 -	Ucxusbdevice.h
 api_name:
 -	UCX_USBDEVICE_CHARACTERISTIC_PATH_DELAY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: UCX_USBDEVICE_CHARACTERISTIC_PATH_DELAY, *PUCX_USBDEVICE_CHARACTERISTIC_PATH_DELAY
 req.product: Windows 10 or later.

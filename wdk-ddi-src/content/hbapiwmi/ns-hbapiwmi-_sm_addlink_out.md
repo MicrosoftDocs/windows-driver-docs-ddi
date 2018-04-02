@@ -38,7 +38,8 @@ api_location:
 -	hbapiwmi.h
 api_name:
 -	SM_AddLink_OUT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SM_AddLink_OUT, *PSM_AddLink_OUT
 ---

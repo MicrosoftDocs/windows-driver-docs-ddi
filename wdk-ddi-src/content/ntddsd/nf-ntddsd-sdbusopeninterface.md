@@ -38,7 +38,8 @@ api_location:
 -	ntddsd.h
 api_name:
 -	SdBusOpenInterface
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SD_REQUEST_FUNCTION
 ---

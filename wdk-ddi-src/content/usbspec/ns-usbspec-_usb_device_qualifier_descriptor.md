@@ -38,7 +38,8 @@ api_location:
 -	usbspec.h
 api_name:
 -	USB_DEVICE_QUALIFIER_DESCRIPTOR
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USB_DEVICE_QUALIFIER_DESCRIPTOR, *PUSB_DEVICE_QUALIFIER_DESCRIPTOR
 req.product: Windows 10 or later.

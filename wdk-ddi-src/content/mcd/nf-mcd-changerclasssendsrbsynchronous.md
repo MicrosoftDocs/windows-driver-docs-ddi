@@ -39,7 +39,8 @@ api_location:
 -	Mcd.dll
 api_name:
 -	ChangerClassSendSrbSynchronous
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: LAMP_INTENSITY_WHITE
 ---

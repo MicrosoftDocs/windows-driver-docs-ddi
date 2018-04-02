@@ -38,7 +38,8 @@ api_location:
 -	bthddi.h
 api_name:
 -	L2CAP_CONFIG_OPTION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: L2CAP_CONFIG_OPTION, *PL2CAP_CONFIG_OPTION
 ---

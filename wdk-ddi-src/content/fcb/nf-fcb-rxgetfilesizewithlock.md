@@ -38,7 +38,8 @@ api_location:
 -	fcb.h
 api_name:
 -	RxGetFileSizeWithLock
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: FA_ENTRY, *PFA_ENTRY
 ---

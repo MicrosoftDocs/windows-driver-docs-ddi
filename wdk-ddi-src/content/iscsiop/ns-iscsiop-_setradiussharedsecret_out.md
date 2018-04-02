@@ -38,7 +38,8 @@ api_location:
 -	iscsiop.h
 api_name:
 -	SetRADIUSSharedSecret_OUT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SetRADIUSSharedSecret_OUT, *PSetRADIUSSharedSecret_OUT
 ---

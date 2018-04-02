@@ -38,7 +38,8 @@ api_location:
 -	Bdatypes.h
 api_name:
 -	BDA_DRM_DRMSTATUS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BDA_DRM_DRMSTATUS, *PBDA_DRM_DRMSTATUS
 ---

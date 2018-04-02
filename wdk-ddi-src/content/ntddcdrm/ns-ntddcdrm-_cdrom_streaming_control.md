@@ -38,7 +38,8 @@ api_location:
 -	Ntddcdrm.h
 api_name:
 -	CDROM_STREAMING_CONTROL
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: CDROM_STREAMING_CONTROL, *PCDROM_STREAMING_CONTROL
 ---

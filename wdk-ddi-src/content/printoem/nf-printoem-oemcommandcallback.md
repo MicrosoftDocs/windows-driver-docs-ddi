@@ -38,7 +38,8 @@ api_location:
 -	printoem.h
 api_name:
 -	OEMCommandCallback
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STDVARIABLEINDEX
 req.product: Windows 10 or later.

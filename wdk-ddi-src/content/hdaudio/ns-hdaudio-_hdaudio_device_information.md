@@ -38,7 +38,8 @@ api_location:
 -	hdaudio.h
 api_name:
 -	HDAUDIO_DEVICE_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: HDAUDIO_DEVICE_INFORMATION, *PHDAUDIO_DEVICE_INFORMATION
 ---

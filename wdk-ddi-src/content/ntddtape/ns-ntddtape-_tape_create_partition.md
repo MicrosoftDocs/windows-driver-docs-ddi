@@ -38,7 +38,8 @@ api_location:
 -	ntddtape.h
 api_name:
 -	TAPE_CREATE_PARTITION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TAPE_CREATE_PARTITION, *PTAPE_CREATE_PARTITION
 ---

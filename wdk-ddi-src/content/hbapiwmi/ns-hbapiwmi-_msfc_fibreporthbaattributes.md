@@ -38,7 +38,8 @@ api_location:
 -	hbapiwmi.h
 api_name:
 -	MSFC_FibrePortHBAAttributes
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MSFC_FibrePortHBAAttributes, *PMSFC_FibrePortHBAAttributes
 ---

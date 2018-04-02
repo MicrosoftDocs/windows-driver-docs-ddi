@@ -39,7 +39,8 @@ api_location:
 -	Mcd.dll
 api_name:
 -	ChangerClassAllocatePool
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: LAMP_INTENSITY_WHITE
 ---

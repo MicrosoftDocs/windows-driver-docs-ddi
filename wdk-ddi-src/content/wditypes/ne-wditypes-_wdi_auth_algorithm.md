@@ -38,7 +38,8 @@ api_location:
 -	wditypes.hpp
 api_name:
 -	WDI_AUTH_ALGORITHM
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDI_AUTH_ALGORITHM
 req.product: Windows 10 or later.

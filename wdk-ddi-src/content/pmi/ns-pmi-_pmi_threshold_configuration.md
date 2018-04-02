@@ -38,7 +38,8 @@ api_location:
 -	pmi.h
 api_name:
 -	PMI_THRESHOLD_CONFIGURATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PMI_THRESHOLD_CONFIGURATION, *PPMI_THRESHOLD_CONFIGURATION
 ---

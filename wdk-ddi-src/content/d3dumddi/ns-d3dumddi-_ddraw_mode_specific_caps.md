@@ -38,7 +38,8 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	DDRAW_MODE_SPECIFIC_CAPS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DDRAW_MODE_SPECIFIC_CAPS
 ---

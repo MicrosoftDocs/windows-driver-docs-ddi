@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KSCLOCK_DISPATCH
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSCLOCK_DISPATCH, *PKSCLOCK_DISPATCH
 ---

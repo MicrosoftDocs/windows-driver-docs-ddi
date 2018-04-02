@@ -38,7 +38,8 @@ api_location:
 -	hbaapi.h
 api_name:
 -	HBA_LUID
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: HBA_LUID, *PHBA_LUID
 ---

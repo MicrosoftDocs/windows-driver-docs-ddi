@@ -38,7 +38,8 @@ api_location:
 -	usbfnbase.h
 api_name:
 -	USBFN_BUS_CONFIGURATION_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USBFN_BUS_CONFIGURATION_INFO, *PUSBFN_BUS_CONFIGURATION_INFO
 req.product: Windows 10 or later.

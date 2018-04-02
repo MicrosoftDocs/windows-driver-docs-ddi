@@ -38,7 +38,8 @@ api_location:
 -	Ntddsysenv.h
 api_name:
 -	IOCTL_SYSENV_SET_VARIABLE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STORAGE_ZONE_GROUP, *PSTORAGE_ZONE_GROUP
 ---

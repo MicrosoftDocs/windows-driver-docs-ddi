@@ -41,7 +41,8 @@ api_name:
 -	IDebugSystemObjects2.GetCurrentThreadId
 -	IDebugSystemObjects3.GetCurrentThreadId
 -	IDebugSystemObjects4.GetCurrentThreadId
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---

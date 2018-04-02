@@ -38,7 +38,8 @@ api_location:
 -	Hbapiwmi.h
 api_name:
 -	ScsiReadCapacity_IN
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: ScsiReadCapacity_IN, *PScsiReadCapacity_IN
 ---

@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILCONFPARTICIPANTSTATUSPARAMMASK
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILCONFPARTICIPANTSTATUSPARAMMASK
 req.product: Windows 10 or later.

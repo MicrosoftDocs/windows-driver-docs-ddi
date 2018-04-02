@@ -38,7 +38,8 @@ api_location:
 -	Acpiioct.h
 api_name:
 -	ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V2_EX
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V2_EX, *PACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V2_EX
 ---

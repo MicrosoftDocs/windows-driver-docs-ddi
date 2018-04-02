@@ -38,7 +38,8 @@ api_location:
 -	usbioctl.h
 api_name:
 -	USB_HUB_CAP_FLAGS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USB_HUB_CAP_FLAGS, *PUSB_HUB_CAP_FLAGS
 req.product: Windows 10 or later.

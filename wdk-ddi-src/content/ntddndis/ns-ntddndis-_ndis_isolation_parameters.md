@@ -38,7 +38,8 @@ api_location:
 -	Ntddndis.h
 api_name:
 -	NDIS_ISOLATION_PARAMETERS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_ISOLATION_PARAMETERS, *PNDIS_ISOLATION_PARAMETERS
 ---

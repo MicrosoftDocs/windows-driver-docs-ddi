@@ -38,7 +38,8 @@ api_location:
 -	Spb.h
 api_name:
 -	SPB_TRANSFER_DIRECTION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SPB_TRANSFER_DIRECTION, *PSPB_TRANSFER_DIRECTION
 req.product: Windows 10 or later.

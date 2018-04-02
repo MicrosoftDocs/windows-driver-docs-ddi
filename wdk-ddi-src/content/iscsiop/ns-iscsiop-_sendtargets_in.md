@@ -38,7 +38,8 @@ api_location:
 -	iscsiop.h
 api_name:
 -	SendTargets_IN
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SendTargets_IN, *PSendTargets_IN
 ---

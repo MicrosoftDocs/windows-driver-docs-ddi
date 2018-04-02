@@ -38,7 +38,8 @@ api_location:
 -	Ucxusbdevice.h
 api_name:
 -	UCX_USBDEVICE_CHARACTERISTIC
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: UCX_USBDEVICE_CHARACTERISTIC, *PUCX_USBDEVICE_CHARACTERISTIC
 req.product: Windows 10 or later.

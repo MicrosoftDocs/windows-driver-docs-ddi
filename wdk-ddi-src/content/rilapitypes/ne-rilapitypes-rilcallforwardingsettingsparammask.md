@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILCALLFORWARDINGSETTINGSPARAMMASK
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILCALLFORWARDINGSETTINGSPARAMMASK
 req.product: Windows 10 or later.

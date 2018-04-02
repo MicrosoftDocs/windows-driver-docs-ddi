@@ -38,7 +38,8 @@ api_location:
 -	ntddcdrm.h
 api_name:
 -	CDROM_SET_SPEED
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: CDROM_SET_SPEED, *PCDROM_SET_SPEED
 ---

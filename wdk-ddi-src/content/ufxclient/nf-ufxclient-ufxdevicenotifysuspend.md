@@ -38,7 +38,8 @@ api_location:
 -	ufxclient.h
 api_name:
 -	UfxDeviceNotifySuspend
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: UFX_HARDWARE_FAILURE_CONTEXT, *PUFX_HARDWARE_FAILURE_CONTEXT
 req.product: Windows 10 or later.

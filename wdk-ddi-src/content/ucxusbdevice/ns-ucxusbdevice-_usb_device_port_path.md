@@ -38,7 +38,8 @@ api_location:
 -	ucxusbdevice.h
 api_name:
 -	USB_DEVICE_PORT_PATH
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USB_DEVICE_PORT_PATH, *PUSB_DEVICE_PORT_PATH
 req.product: Windows 10 or later.

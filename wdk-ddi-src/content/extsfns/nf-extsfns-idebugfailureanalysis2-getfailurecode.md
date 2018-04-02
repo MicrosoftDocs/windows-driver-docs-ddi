@@ -38,7 +38,8 @@ api_location:
 -	extsfns.h
 api_name:
 -	IDebugFailureAnalysis2.GetFailureCode
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: FA_EXTENSION_PLUGIN_PHASE
 ---

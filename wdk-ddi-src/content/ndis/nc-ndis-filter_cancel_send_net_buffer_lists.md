@@ -38,7 +38,8 @@ api_location:
 -	Ndis.h
 api_name:
 -	(*FILTER_CANCEL_SEND_HANDLER)
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
 ---

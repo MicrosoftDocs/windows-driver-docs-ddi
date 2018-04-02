@@ -38,7 +38,8 @@ api_location:
 -	charging.h
 api_name:
 -	IOCTL_CAD_DISABLE_CHARGING
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: POWERSOURCEID, *PPOWERSOURCEID
 ---

@@ -38,7 +38,8 @@ api_location:
 -	hbaapi.h
 api_name:
 -	HBA_LINK_EVENTINFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: HBA_LINK_EVENTINFO, *PHBA_LINK_EVENTINFO
 ---

@@ -38,7 +38,8 @@ api_location:
 -	ntddcdrm.h
 api_name:
 -	VOLUME_CONTROL
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: VOLUME_CONTROL, *PVOLUME_CONTROL
 ---

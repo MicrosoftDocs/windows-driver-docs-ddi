@@ -38,7 +38,8 @@ api_location:
 -	hidpi.h
 api_name:
 -	HidP_GetCaps
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: HDAUDIO_STREAM_FORMAT, *PHDAUDIO_STREAM_FORMAT
 ---

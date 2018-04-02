@@ -38,7 +38,8 @@ api_location:
 -	strmini.h
 api_name:
 -	StrMiniCancelPacket
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: ZONE_DESCRIPTIOR, *PZONE_DESCRIPTIOR
 req.product: Windows 10 or later.

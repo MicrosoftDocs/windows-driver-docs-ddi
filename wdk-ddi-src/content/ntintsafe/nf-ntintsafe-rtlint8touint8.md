@@ -38,7 +38,8 @@ api_location:
 -	ntintsafe.h
 api_name:
 -	RtlInt8ToUInt8
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
 ---

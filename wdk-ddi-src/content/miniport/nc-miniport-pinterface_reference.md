@@ -38,7 +38,8 @@ api_location:
 -	Wdm.h
 api_name:
 -	InterfaceReference
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MCD_INIT_DATA, *PMCD_INIT_DATA
 ---

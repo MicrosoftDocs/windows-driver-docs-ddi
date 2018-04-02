@@ -38,7 +38,8 @@ api_location:
 -	Pcivirt.h
 api_name:
 -	IOCTL_SRIOV_DETACH
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SRIOV_PF_EVENT, *PSRIOV_PF_EVENT
 ---

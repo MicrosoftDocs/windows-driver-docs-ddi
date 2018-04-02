@@ -38,7 +38,8 @@ api_location:
 -	Bthddi.h
 api_name:
 -	L2CAP_RETRANSMISSION_AND_FLOW_CONTROL
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: L2CAP_RETRANSMISSION_AND_FLOW_CONTROL, *PL2CAP_RETRANSMISSION_AND_FLOW_CONTROL
 ---

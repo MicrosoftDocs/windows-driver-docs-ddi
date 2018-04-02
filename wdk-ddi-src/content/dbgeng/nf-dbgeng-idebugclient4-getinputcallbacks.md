@@ -42,7 +42,8 @@ api_name:
 -	IDebugClient3.GetInputCallbacks
 -	IDebugClient4.GetInputCallbacks
 -	IDebugClient5.GetInputCallbacks
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---

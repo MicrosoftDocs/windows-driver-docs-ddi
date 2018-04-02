@@ -38,7 +38,8 @@ api_location:
 -	Ntddndis.h
 api_name:
 -	NDIS_RSC_STATISTICS_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_RSC_STATISTICS_INFO, *PNDIS_RSC_STATISTICS_INFO
 ---

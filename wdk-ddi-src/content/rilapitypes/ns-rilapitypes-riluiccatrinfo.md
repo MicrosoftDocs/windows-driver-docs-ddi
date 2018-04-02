@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILUICCATRINFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILUICCATRINFO, *LPRILUICCATRINFO
 req.product: Windows 10 or later.

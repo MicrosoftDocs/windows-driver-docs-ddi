@@ -39,7 +39,8 @@ api_location:
 -	ndis.dll
 api_name:
 -	NdisOffloadTcpReceiveReturn
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PD_BUFFER_VIRTUAL_SUBNET_INFO
 ---

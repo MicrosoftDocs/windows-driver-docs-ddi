@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILCALLLIST_V2
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILCALLLIST_V2, *LPRILCALLLIST_V2
 ---

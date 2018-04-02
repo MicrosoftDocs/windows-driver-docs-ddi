@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILGEOSCOPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILGEOSCOPE
 req.product: Windows 10 or later.

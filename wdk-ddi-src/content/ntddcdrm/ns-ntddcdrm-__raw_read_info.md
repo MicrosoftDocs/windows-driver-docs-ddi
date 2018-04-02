@@ -38,7 +38,8 @@ api_location:
 -	ntddcdrm.h
 api_name:
 -	RAW_READ_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RAW_READ_INFO, *PRAW_READ_INFO
 ---

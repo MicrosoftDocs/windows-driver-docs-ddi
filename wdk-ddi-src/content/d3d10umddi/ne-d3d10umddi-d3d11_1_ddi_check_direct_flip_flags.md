@@ -38,7 +38,8 @@ api_location:
 -	D3d10umddi.h
 api_name:
 -	D3D11_1_DDI_CHECK_DIRECT_FLIP_FLAGS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3D11_1_DDI_CHECK_DIRECT_FLIP_FLAGS
 ---

@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILIMSSUBSCRIBETYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILIMSSUBSCRIBETYPE
 req.product: Windows 10 or later.

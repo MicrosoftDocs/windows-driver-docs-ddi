@@ -38,7 +38,8 @@ api_location:
 -	parallel.h
 api_name:
 -	IOCTL_INTERNAL_DESELECT_DEVICE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILGBATOKEN, *LPRILGBATOKEN
 ---

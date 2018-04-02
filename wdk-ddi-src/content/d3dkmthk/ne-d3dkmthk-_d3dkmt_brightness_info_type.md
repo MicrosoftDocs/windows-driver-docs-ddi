@@ -38,7 +38,8 @@ api_location:
 -	D3dkmthk.h
 api_name:
 -	D3DKMT_BRIGHTNESS_INFO_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DKMT_BRIGHTNESS_INFO_TYPE
 ---

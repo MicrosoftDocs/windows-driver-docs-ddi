@@ -38,7 +38,8 @@ api_location:
 -	hbapiwmi.h
 api_name:
 -	SM_SendCTPassThru_OUT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SM_SendCTPassThru_OUT, *PSM_SendCTPassThru_OUT
 ---

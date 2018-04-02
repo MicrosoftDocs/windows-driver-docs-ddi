@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILSETPREFERREDOPERATORLISTPARAMS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILSETPREFERREDOPERATORLISTPARAMS, *LPRILSETPREFERREDOPERATORLISTPARAMS
 req.product: Windows 10 or later.

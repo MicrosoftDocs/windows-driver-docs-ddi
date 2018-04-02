@@ -38,7 +38,8 @@ api_location:
 -	Hidpddi.h
 api_name:
 -	HIDP_REPORT_IDS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: HIDP_REPORT_IDS, *PHIDP_REPORT_IDS
 ---

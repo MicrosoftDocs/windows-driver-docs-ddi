@@ -39,7 +39,8 @@ api_location:
 -	Displib.dll
 api_name:
 -	DxgkInitializeDisplayOnlyDriver
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_SURPRISE_REMOVAL_TYPE
 ---

@@ -38,7 +38,8 @@ api_location:
 -	tcpxcv.h
 api_name:
 -	PORT_DATA_1
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PORT_DATA_1, *PPORT_DATA_1
 req.product: Windows 10 or later.

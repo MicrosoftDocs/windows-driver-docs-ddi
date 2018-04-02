@@ -38,7 +38,8 @@ api_location:
 -	Wiamdef.h
 api_name:
 -	CWiaLogProc.~CWiaLogProc
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2
 req.product: Windows 10 or later.

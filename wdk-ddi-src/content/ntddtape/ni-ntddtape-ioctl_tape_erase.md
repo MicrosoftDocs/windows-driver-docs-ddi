@@ -38,7 +38,8 @@ api_location:
 -	Ntddtape.h
 api_name:
 -	IOCTL_TAPE_ERASE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TAPE_DRIVE_PROBLEM_TYPE
 ---

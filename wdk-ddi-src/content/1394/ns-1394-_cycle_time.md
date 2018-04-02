@@ -38,7 +38,8 @@ api_location:
 -	1394.h
 api_name:
 -	CYCLE_TIME
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: CYCLE_TIME, *PCYCLE_TIME
 ---

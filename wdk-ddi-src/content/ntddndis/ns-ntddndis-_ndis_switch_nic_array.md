@@ -38,7 +38,8 @@ api_location:
 -	Ntddndis.h
 api_name:
 -	NDIS_SWITCH_NIC_ARRAY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_SWITCH_NIC_ARRAY, *PNDIS_SWITCH_NIC_ARRAY
 ---

@@ -38,7 +38,8 @@ api_location:
 -	nfccx.h
 api_name:
 -	EvtNfcCxDeviceIoControl
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NET_PNP_EVENT, *PNET_PNP_EVENT
 ---

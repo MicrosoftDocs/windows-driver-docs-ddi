@@ -38,7 +38,8 @@ api_location:
 -	wdbgexts.h
 api_name:
 -	WDBGEXTS_THREAD_OS_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDBGEXTS_THREAD_OS_INFO, *PWDBGEXTS_THREAD_OS_INFO
 req.product: Windows 10 or later.

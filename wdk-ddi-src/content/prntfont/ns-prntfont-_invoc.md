@@ -38,7 +38,8 @@ api_location:
 -	prntfont.h
 api_name:
 -	INVOC
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: INVOC, *PINVOC
 req.product: Windows 10 or later.

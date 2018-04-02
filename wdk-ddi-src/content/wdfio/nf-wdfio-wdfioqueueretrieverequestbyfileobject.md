@@ -41,7 +41,8 @@ api_location:
 -	WUDFx02000.dll.dll
 api_name:
 -	WdfIoQueueRetrieveRequestByFileObject
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_IO_QUEUE_STATE
 req.product: Windows 10 or later.

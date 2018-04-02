@@ -38,7 +38,8 @@ api_location:
 -	nfcsedev.h
 api_name:
 -	SECURE_ELEMENT_HCE_ACTIVATION_PAYLOAD
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SECURE_ELEMENT_HCE_ACTIVATION_PAYLOAD, *PSECURE_ELEMENT_HCE_ACTIVATION_PAYLOAD
 ---

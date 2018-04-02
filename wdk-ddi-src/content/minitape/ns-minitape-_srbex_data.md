@@ -38,7 +38,8 @@ api_location:
 -	Storport.h
 api_name:
 -	SRBEX_DATA
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SRBEX_DATA, *PSRBEX_DATA
 ---

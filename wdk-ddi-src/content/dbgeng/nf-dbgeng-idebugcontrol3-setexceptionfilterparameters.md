@@ -40,7 +40,8 @@ api_name:
 -	IDebugControl.SetExceptionFilterParameters
 -	IDebugControl2.SetExceptionFilterParameters
 -	IDebugControl3.SetExceptionFilterParameters
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---

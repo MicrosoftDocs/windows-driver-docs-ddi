@@ -37,7 +37,8 @@ api_location:
 -
 api_name:
 -	GETDEVICEINFORESPONSE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GETDEVICEINFORESPONSE, *LPGETDEVICEINFORESPONSE
 req.product: Windows 10 or later.

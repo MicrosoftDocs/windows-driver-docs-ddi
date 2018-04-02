@@ -38,7 +38,8 @@ api_location:
 -	gnssdriver.h
 api_name:
 -	GNSS_DISTANCETRACKING_PARAM
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GNSS_DISTANCETRACKING_PARAM, *PGNSS_DISTANCETRACKING_PARAM
 ---

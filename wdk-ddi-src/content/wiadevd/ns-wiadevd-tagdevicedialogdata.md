@@ -38,7 +38,8 @@ api_location:
 -	wiadevd.h
 api_name:
 -	DEVICEDIALOGDATA
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DEVICEDIALOGDATA, *LPDEVICEDIALOGDATA, *PDEVICEDIALOGDATA
 req.product: Windows 10 or later.

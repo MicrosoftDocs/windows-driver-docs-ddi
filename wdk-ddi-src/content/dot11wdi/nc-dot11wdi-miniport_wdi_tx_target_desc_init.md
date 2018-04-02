@@ -38,7 +38,8 @@ api_location:
 -	dot11wdi.h
 api_name:
 -	MiniportWdiTxTargetDescInit
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SYNTH_STATS, *PSYNTH_STATS
 ---

@@ -38,7 +38,8 @@ api_location:
 -	Pmi.h
 api_name:
 -	IOCTL_PMI_GET_MEASUREMENT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PMI_MEASUREMENT_UNIT
 ---

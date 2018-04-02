@@ -38,7 +38,8 @@ api_location:
 -	hbapiwmi.h
 api_name:
 -	MSFC_LinkEvent
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MSFC_LinkEvent, *PMSFC_LinkEvent
 ---

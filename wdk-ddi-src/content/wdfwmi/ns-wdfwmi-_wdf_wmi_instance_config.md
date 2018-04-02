@@ -38,7 +38,8 @@ api_location:
 -	wdfwmi.h
 api_name:
 -	WDF_WMI_INSTANCE_CONFIG
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_WMI_INSTANCE_CONFIG, *PWDF_WMI_INSTANCE_CONFIG
 req.product: Windows 10 or later.

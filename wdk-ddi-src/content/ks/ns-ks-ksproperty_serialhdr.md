@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KSPROPERTY_SERIALHDR
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSPROPERTY_SERIALHDR, *PKSPROPERTY_SERIALHDR
 ---

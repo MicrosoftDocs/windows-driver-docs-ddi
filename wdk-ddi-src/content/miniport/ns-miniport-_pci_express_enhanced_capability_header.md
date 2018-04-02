@@ -38,7 +38,8 @@ api_location:
 -	wdm.h
 api_name:
 -	PCI_EXPRESS_ENHANCED_CAPABILITY_HEADER
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PCI_EXPRESS_ENHANCED_CAPABILITY_HEADER, *PPCI_EXPRESS_ENHANCED_CAPABILITY_HEADER
 ---

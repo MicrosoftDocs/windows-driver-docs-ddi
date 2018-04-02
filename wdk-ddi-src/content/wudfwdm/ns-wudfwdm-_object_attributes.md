@@ -38,7 +38,8 @@ api_location:
 -	wudfwdm.h
 api_name:
 -	OBJECT_ATTRIBUTES
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: OBJECT_ATTRIBUTES
 req.product: Windows 10 or later.

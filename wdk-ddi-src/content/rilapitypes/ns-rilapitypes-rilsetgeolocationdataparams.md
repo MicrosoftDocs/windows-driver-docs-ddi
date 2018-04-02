@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILSETGEOLOCATIONDATAPARAMS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILSETGEOLOCATIONDATAPARAMS, *LPRILSETGEOLOCATIONDATAPARAMS
 req.product: Windows 10 or later.

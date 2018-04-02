@@ -38,7 +38,8 @@ api_location:
 -	acpitabl.h
 api_name:
 -	LPI_STATE_DESCRIPTOR
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: LPI_STATE_DESCRIPTOR, *PLPI_STATE_DESCRIPTOR
 ---

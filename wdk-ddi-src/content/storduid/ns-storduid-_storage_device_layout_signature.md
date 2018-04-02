@@ -38,7 +38,8 @@ api_location:
 -	storduid.h
 api_name:
 -	STORAGE_DEVICE_LAYOUT_SIGNATURE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STORAGE_DEVICE_LAYOUT_SIGNATURE, *PSTORAGE_DEVICE_LAYOUT_SIGNATURE
 req.product: Windows 10 or later.

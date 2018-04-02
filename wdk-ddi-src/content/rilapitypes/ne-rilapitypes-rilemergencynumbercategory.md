@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILEMERGENCYNUMBERCATEGORY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILEMERGENCYNUMBERCATEGORY
 req.product: Windows 10 or later.

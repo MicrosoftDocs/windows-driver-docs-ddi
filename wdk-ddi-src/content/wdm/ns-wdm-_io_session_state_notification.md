@@ -38,7 +38,8 @@ api_location:
 -	Wdm.h
 api_name:
 -	IO_SESSION_STATE_NOTIFICATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: IO_SESSION_STATE_NOTIFICATION, *PIO_SESSION_STATE_NOTIFICATION
 req.product: Windows 10 or later.

@@ -39,7 +39,8 @@ api_location:
 -	Udecxstub.dll
 api_name:
 -	UdecxUrbSetBytesCompleted
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USB_DEVICE_PORT_PATH, *PUSB_DEVICE_PORT_PATH
 req.product: Windows 10 or later.

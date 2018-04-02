@@ -38,7 +38,8 @@ api_location:
 -	61883.h
 api_name:
 -	BUS_RESET_NOTIFY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BUS_RESET_NOTIFY, *PBUS_RESET_NOTIFY
 ---

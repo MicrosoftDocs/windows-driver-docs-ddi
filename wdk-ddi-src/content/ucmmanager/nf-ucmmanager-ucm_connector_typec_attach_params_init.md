@@ -38,7 +38,8 @@ api_location:
 -	Ucmmanager.h
 api_name:
 -	UCM_CONNECTOR_TYPEC_ATTACH_PARAMS_INIT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PORT_DATA_1, *PPORT_DATA_1
 req.product: Windows 10 or later.

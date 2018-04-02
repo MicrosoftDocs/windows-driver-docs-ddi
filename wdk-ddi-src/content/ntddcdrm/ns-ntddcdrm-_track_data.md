@@ -38,7 +38,8 @@ api_location:
 -	ntddcdrm.h
 api_name:
 -	TRACK_DATA
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TRACK_DATA, *PTRACK_DATA
 ---

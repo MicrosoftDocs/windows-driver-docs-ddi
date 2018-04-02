@@ -38,7 +38,8 @@ api_location:
 -	npivwmi.h
 api_name:
 -	MSFC_NPIVLUNMappingInformation
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MSFC_NPIVLUNMappingInformation, *PMSFC_NPIVLUNMappingInformation
 ---

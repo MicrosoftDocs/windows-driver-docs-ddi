@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILUICCLOCKCREDENTIAL
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILUICCLOCKCREDENTIAL, *LPRILUICCLOCKCREDENTIAL
 req.product: Windows 10 or later.

@@ -38,7 +38,8 @@ api_location:
 -	Poclass.h
 api_name:
 -	THERMAL_COOLING_INTERFACE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: THERMAL_COOLING_INTERFACE, *PTHERMAL_COOLING_INTERFACE
 ---

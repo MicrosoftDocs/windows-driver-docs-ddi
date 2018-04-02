@@ -38,7 +38,8 @@ api_location:
 -	Ks.h
 api_name:
 -	KSMETHOD_STREAMALLOCATOR
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSMETHOD_STREAMALLOCATOR
 ---

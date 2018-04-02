@@ -39,7 +39,8 @@ api_location:
 api_name:
 -	IWDTFSystemAction2.IsRestarted
 -	IWDTFSystemAction2.get_IsRestarted
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TTraceLevel
 req.product: Windows 10 or later.

@@ -38,7 +38,8 @@ api_location:
 -	Storport.h
 api_name:
 -	STOR_POFX_COMPONENT_IDLE_STATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STOR_POFX_COMPONENT_IDLE_STATE, *PSTOR_POFX_COMPONENT_IDLE_STATE
 req.product: Windows 10 or later.

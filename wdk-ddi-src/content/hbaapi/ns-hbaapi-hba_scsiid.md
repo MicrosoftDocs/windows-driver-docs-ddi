@@ -38,7 +38,8 @@ api_location:
 -	hbaapi.h
 api_name:
 -	HBA_SCSIID
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: HBA_SCSIID, *PHBA_SCSIID
 ---

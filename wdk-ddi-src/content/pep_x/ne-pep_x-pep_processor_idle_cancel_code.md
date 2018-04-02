@@ -38,7 +38,8 @@ api_location:
 -	pep_x.h
 api_name:
 -	PEP_PROCESSOR_IDLE_CANCEL_CODE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PEP_PROCESSOR_IDLE_CANCEL_CODE, *PPEP_PROCESSOR_IDLE_CANCEL_CODE
 ---

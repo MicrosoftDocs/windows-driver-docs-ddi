@@ -38,7 +38,8 @@ api_location:
 -	poscx.h
 api_name:
 -	EvtPosCxDeviceRemoteRetain
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PCFILTER_DESCRIPTOR, *PPCFILTER_DESCRIPTOR
 req.product: Windows 10 or later.

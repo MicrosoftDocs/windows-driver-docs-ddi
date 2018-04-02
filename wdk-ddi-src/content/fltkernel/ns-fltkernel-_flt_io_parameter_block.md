@@ -38,7 +38,8 @@ api_location:
 -	fltkernel.h
 api_name:
 -	FLT_IO_PARAMETER_BLOCK
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: FLT_IO_PARAMETER_BLOCK, *PFLT_IO_PARAMETER_BLOCK
 ---

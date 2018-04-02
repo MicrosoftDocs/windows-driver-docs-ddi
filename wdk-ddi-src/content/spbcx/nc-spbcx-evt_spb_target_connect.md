@@ -38,7 +38,8 @@ api_location:
 -	Spbcx.h
 api_name:
 -	EvtSpbTargetConnect
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SPB_TRANSFER_LIST_ENTRY, *PSPB_TRANSFER_LIST_ENTRY
 req.product: Windows 10 or later.

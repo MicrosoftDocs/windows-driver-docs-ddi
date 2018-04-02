@@ -38,7 +38,8 @@ api_location:
 -	pepfx.h
 api_name:
 -	PEP_ACPI_QUERY_OBJECT_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PEP_ACPI_QUERY_OBJECT_INFORMATION, *PPEP_ACPI_QUERY_OBJECT_INFORMATION
 ---

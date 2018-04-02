@@ -38,7 +38,8 @@ api_location:
 -	ntdd8042.h
 api_name:
 -	MOUSE_STATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MOUSE_STATE, *PMOUSE_STATE
 ---

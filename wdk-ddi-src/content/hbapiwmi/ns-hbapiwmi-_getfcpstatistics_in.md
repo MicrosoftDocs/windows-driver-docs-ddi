@@ -38,7 +38,8 @@ api_location:
 -	hbapiwmi.h
 api_name:
 -	GetFCPStatistics_IN
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GetFCPStatistics_IN, *PGetFCPStatistics_IN
 ---

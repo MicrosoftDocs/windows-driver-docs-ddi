@@ -38,7 +38,8 @@ api_location:
 -	Ntddcdrm.h
 api_name:
 -	IOCTL_CDROM_SET_SPEED
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WRITE_ROTATION, *PWRITE_ROTATION
 ---

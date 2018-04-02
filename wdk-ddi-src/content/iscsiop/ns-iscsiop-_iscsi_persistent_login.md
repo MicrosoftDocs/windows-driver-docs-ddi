@@ -38,7 +38,8 @@ api_location:
 -	iscsiop.h
 api_name:
 -	ISCSI_Persistent_Login
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: ISCSI_Persistent_Login, *PISCSI_Persistent_Login
 ---

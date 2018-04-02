@@ -38,7 +38,8 @@ api_location:
 -	iscsimgt.h
 api_name:
 -	MSiSCSI_InitiatorNodeFailureEvent
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MSiSCSI_InitiatorNodeFailureEvent, *PMSiSCSI_InitiatorNodeFailureEvent
 ---

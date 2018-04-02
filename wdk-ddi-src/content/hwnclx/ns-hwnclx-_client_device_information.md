@@ -38,7 +38,8 @@ api_location:
 -	Hwnclx.h
 api_name:
 -	CLIENT_DEVICE_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: CLIENT_DEVICE_INFORMATION, *PCLIENT_DEVICE_INFORMATION
 ---

@@ -38,7 +38,8 @@ api_location:
 -	EhStorIoctl.h
 api_name:
 -	IOCTL_EHSTOR_DEVICE_SET_AUTHZ_STATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PDO_TYPE
 ---

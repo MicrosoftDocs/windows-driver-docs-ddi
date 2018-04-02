@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILDMCONFIGINFOTYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILDMCONFIGINFOTYPE
 req.product: Windows 10 or later.

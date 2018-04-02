@@ -39,7 +39,8 @@ api_location:
 -	wdm.h
 api_name:
 -	FILE_INFORMATION_CLASS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: FILE_INFORMATION_CLASS, *PFILE_INFORMATION_CLASS
 req.product: Windows 10 or later.

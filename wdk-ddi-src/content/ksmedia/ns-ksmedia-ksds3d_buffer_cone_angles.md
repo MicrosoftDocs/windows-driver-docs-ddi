@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KSDS3D_BUFFER_CONE_ANGLES
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSDS3D_BUFFER_CONE_ANGLES, *PKSDS3D_BUFFER_CONE_ANGLES
 ---

@@ -38,7 +38,8 @@ api_location:
 -	ntddstor.h
 api_name:
 -	DEVICE_COPY_OFFLOAD_DESCRIPTOR
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DEVICE_COPY_OFFLOAD_DESCRIPTOR, *PDEVICE_COPY_OFFLOAD_DESCRIPTOR
 ---

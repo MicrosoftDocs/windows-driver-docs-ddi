@@ -38,7 +38,8 @@ api_location:
 -	hbaapi.h
 api_name:
 -	HBA_FCPBINDINGENTRY2
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: HBA_FCPBINDINGENTRY2, *PHBA_FCPBINDINGENTRY2
 ---

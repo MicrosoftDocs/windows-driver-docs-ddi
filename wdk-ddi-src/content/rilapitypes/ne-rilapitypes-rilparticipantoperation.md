@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILPARTICIPANTOPERATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILPARTICIPANTOPERATION
 req.product: Windows 10 or later.

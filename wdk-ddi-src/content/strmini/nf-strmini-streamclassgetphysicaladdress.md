@@ -39,7 +39,8 @@ api_location:
 -	Stream.dll
 api_name:
 -	StreamClassGetPhysicalAddress
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STREAM_PRIORITY, *PSTREAM_PRIORITY
 req.product: Windows 10 or later.

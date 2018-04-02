@@ -38,7 +38,8 @@ api_location:
 -	ucxusbdevice.h
 api_name:
 -	USBDEVICE_UPDATE_20_HARDWARE_LPM_PARAMETERS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USBDEVICE_UPDATE_20_HARDWARE_LPM_PARAMETERS
 req.product: Windows 10 or later.

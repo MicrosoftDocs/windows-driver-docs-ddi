@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KSAUDIO_CHANNEL_CONFIG
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSAUDIO_CHANNEL_CONFIG, *PKSAUDIO_CHANNEL_CONFIG
 ---

@@ -38,7 +38,8 @@ api_location:
 -	BthIoctl.h
 api_name:
 -	IOCTL_INTERNAL_BTH_SUBMIT_BRB
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: HFP_BYPASS_CODEC_ID_V1, *PHFP_BYPASS_CODEC_ID_V1
 ---

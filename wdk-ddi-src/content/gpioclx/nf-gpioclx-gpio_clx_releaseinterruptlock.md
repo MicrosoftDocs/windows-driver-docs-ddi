@@ -39,7 +39,8 @@ api_location:
 -	Msgpioclxstub.dll
 api_name:
 -	GPIO_CLX_ReleaseInterruptLock
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GPIO_CONNECT_IO_PINS_MODE, *PGPIO_CONNECT_IO_PINS_MODE
 ---

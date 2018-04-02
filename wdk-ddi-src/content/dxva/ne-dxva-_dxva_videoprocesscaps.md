@@ -38,7 +38,8 @@ api_location:
 -	dxva.h
 api_name:
 -	DXVA_VideoProcessCaps
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXVA_VideoProcessCaps
 ---

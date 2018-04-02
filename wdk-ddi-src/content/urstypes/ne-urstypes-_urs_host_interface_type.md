@@ -38,7 +38,8 @@ api_location:
 -	urstypes.h
 api_name:
 -	URS_HOST_INTERFACE_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: URS_HOST_INTERFACE_TYPE
 req.product: Windows 10 or later.

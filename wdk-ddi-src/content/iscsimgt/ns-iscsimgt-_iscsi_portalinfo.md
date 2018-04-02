@@ -38,7 +38,8 @@ api_location:
 -	iscsimgt.h
 api_name:
 -	ISCSI_PortalInfo
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: ISCSI_PortalInfo, *PISCSI_PortalInfo
 ---

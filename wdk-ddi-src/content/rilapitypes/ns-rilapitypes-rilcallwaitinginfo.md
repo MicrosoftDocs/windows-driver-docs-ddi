@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILCALLWAITINGINFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILCALLWAITINGINFO, *LPRILCALLWAITINGINFO
 req.product: Windows 10 or later.

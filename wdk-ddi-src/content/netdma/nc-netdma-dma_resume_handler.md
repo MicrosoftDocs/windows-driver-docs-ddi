@@ -38,7 +38,8 @@ api_location:
 -	netdma.h
 api_name:
 -	ProviderResumeDma
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MIRACAST_DRIVER_INTERFACE, *PMIRACAST_DRIVER_INTERFACE
 ---

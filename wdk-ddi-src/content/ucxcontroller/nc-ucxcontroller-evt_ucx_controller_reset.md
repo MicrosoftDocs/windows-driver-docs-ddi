@@ -38,7 +38,8 @@ api_location:
 -	Ucxcontroller.h
 api_name:
 -	PEVT_UCX_CONTROLLER_RESET
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: UCM_PD_REQUEST_DATA_OBJECT, *PUCM_PD_REQUEST_DATA_OBJECT
 req.product: Windows 10 or later.

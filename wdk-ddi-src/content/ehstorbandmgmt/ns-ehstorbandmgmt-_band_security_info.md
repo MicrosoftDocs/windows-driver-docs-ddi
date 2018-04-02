@@ -38,7 +38,8 @@ api_location:
 -	EhStorBandMgmt.h
 api_name:
 -	BAND_LOCATION_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BAND_SECURITY_INFO, *PBAND_SECURITY_INFO
 ---

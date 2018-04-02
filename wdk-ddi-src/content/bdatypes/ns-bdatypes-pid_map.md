@@ -38,7 +38,8 @@ api_location:
 -	bdatypes.h
 api_name:
 -	PID_MAP
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PID_MAP
 ---

@@ -38,7 +38,8 @@ api_location:
 -	Dispmprt.h
 api_name:
 -	DRIVER_INITIALIZATION_DATA
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DRIVER_INITIALIZATION_DATA, *PDRIVER_INITIALIZATION_DATA
 ---

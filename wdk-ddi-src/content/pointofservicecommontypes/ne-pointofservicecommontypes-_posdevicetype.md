@@ -38,7 +38,8 @@ api_location:
 -	pointofservicecommontypes.h
 api_name:
 -	PosDeviceType
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PosDeviceType
 ---

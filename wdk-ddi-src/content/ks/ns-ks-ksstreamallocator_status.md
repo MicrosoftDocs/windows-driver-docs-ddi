@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KSSTREAMALLOCATOR_STATUS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSSTREAMALLOCATOR_STATUS, *PKSSTREAMALLOCATOR_STATUS
 ---

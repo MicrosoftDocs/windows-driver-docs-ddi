@@ -40,7 +40,8 @@ api_name:
 -	IDebugDataSpaces2.GetVirtualTranslationPhysicalOffsets
 -	IDebugDataSpaces3.GetVirtualTranslationPhysicalOffsets
 -	IDebugDataSpaces4.GetVirtualTranslationPhysicalOffsets
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---

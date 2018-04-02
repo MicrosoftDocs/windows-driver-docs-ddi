@@ -38,7 +38,8 @@ api_location:
 -	D3dkmdt.h
 api_name:
 -	DXGK_BRIGHTNESS_STATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_BRIGHTNESS_STATE
 ---

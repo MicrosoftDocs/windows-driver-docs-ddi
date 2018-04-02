@@ -38,7 +38,8 @@ api_location:
 -	keyworddetectoroemadapter.h
 api_name:
 -	IKeywordDetectorOemAdapter
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KEYWORDID
 ---

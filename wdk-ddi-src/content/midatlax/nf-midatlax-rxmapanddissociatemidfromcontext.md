@@ -38,7 +38,8 @@ api_location:
 -	midatlax.h
 api_name:
 -	RxMapAndDissociateMidFromContext
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MCD_INIT_DATA, *PMCD_INIT_DATA
 ---

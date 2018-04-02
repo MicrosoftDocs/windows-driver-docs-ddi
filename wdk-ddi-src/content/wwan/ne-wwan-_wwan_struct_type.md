@@ -38,7 +38,8 @@ api_location:
 -	wwan.h
 api_name:
 -	WWAN_STRUCT_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WWAN_STRUCT_TYPE, *PWWAN_STRUCT_TYPE
 req.product: Windows 10 or later.

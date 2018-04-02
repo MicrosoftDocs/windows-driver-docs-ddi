@@ -38,7 +38,8 @@ api_location:
 -	wdm.h
 api_name:
 -	ACL
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: ACL
 req.product: Windows 10 or later.

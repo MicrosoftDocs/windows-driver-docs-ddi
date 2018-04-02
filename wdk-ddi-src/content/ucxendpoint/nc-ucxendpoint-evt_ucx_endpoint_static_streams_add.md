@@ -38,7 +38,8 @@ api_location:
 -	ucxendpoint.h
 api_name:
 -	PEVT_UCX_ENDPOINT_STATIC_STREAMS_ADD
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: UCX_CONTROLLER_TRANSPORT_CHARACTERISTICS_CHANGE_FLAGS
 req.product: Windows 10 or later.

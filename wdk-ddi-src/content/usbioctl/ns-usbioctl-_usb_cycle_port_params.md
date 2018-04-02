@@ -38,7 +38,8 @@ api_location:
 -	usbioctl.h
 api_name:
 -	USB_CYCLE_PORT_PARAMS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USB_CYCLE_PORT_PARAMS, *PUSB_CYCLE_PORT_PARAMS
 req.product: Windows 10 or later.

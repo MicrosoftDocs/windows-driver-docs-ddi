@@ -38,7 +38,8 @@ api_location:
 -	Dispmprt.h
 api_name:
 -	DXGK_SURPRISE_REMOVAL_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_SURPRISE_REMOVAL_TYPE
 ---

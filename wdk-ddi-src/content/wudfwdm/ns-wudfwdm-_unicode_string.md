@@ -38,7 +38,8 @@ api_location:
 -	wudfwdm.h
 api_name:
 -	UNICODE_STRING
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: UNICODE_STRING
 req.product: Windows 10 or later.

@@ -38,7 +38,8 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	DestroyVideoProcessor
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_PTE
 ---

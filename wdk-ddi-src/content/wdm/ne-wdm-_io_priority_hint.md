@@ -38,7 +38,8 @@ api_location:
 -	wdm.h
 api_name:
 -	IO_PRIORITY_HINT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: IO_PRIORITY_HINT
 req.product: Windows 10 or later.

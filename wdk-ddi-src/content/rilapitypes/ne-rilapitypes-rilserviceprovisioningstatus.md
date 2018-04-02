@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILSERVICEPROVISIONINGSTATUS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILSERVICEPROVISIONINGSTATUS
 req.product: Windows 10 or later.

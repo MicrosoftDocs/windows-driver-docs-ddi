@@ -38,7 +38,8 @@ api_location:
 -	pepfx.h
 api_name:
 -	PEP_PPM_PERF_SET
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PEP_PPM_PERF_SET, *PPEP_PPM_PERF_SET, PEP_PPM_PERF_SET, *PPEP_PPM_PERF_SET
 ---

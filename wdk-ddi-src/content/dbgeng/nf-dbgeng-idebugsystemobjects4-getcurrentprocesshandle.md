@@ -41,7 +41,8 @@ api_name:
 -	IDebugSystemObjects2.GetCurrentProcessHandle
 -	IDebugSystemObjects3.GetCurrentProcessHandle
 -	IDebugSystemObjects4.GetCurrentProcessHandle
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---

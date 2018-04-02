@@ -38,7 +38,8 @@ api_location:
 -	wdm.h
 api_name:
 -	CLFS_CONTEXT_MODE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: CLFS_CONTEXT_MODE, *PCLFS_CONTEXT_MODE, PPCLFS_CONTEXT_MODE
 req.product: Windows 10 or later.

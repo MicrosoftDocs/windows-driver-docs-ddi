@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILCAPSLOCKINGPWDLENGTH
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILCAPSLOCKINGPWDLENGTH, *LPRILCAPSLOCKINGPWDLENGTH
 req.product: Windows 10 or later.

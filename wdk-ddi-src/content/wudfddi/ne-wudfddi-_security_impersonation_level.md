@@ -38,7 +38,8 @@ api_location:
 -	Wudfddi.h
 api_name:
 -	SECURITY_IMPERSONATION_LEVEL
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SECURITY_IMPERSONATION_LEVEL
 req.product: Windows 10 or later.

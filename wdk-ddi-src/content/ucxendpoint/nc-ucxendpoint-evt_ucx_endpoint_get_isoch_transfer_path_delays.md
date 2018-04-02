@@ -38,7 +38,8 @@ api_location:
 -	Ucxendpoint.h
 api_name:
 -	EvtUcxEndpointGetIsochTransferPathDelays
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: UCX_CONTROLLER_TRANSPORT_CHARACTERISTICS_CHANGE_FLAGS
 req.product: Windows 10 or later.

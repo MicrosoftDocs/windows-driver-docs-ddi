@@ -38,7 +38,8 @@ api_location:
 -	D3dumddi.h
 api_name:
 -	DXVAHDDDI_STREAM_STATE_ROTATION_DATA
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXVAHDDDI_STREAM_STATE_ROTATION_DATA
 ---

@@ -38,7 +38,8 @@ api_location:
 -	pepfx.h
 api_name:
 -	PEP_PPM_QUERY_VETO_REASON
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PEP_PPM_QUERY_VETO_REASON, *PPEP_PPM_QUERY_VETO_REASON, PEP_PPM_QUERY_VETO_REASON, *PPEP_PPM_QUERY_VETO_REASON
 ---

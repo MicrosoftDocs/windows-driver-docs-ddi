@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILPHONEBOOKADDITIONALNUMBERINFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILPHONEBOOKADDITIONALNUMBERINFO, *LPRILPHONEBOOKADDITIONALNUMBERINFO
 req.product: Windows 10 or later.

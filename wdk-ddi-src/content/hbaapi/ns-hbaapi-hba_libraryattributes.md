@@ -38,7 +38,8 @@ api_location:
 -	hbaapi.h
 api_name:
 -	HBA_LIBRARYATTRIBUTES
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: HBA_LIBRARYATTRIBUTES, *PHBA_LIBRARYATTRIBUTES
 ---

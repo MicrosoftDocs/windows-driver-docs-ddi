@@ -38,7 +38,8 @@ api_location:
 -	Printoem.h
 api_name:
 -	STDVARIABLEINDEX
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STDVARIABLEINDEX
 req.product: Windows 10 or later.

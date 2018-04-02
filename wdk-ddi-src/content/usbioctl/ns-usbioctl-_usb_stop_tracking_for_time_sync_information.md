@@ -38,7 +38,8 @@ api_location:
 -	usbioctl.h
 api_name:
 -	USB_STOP_TRACKING_FOR_TIME_SYNC_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USB_STOP_TRACKING_FOR_TIME_SYNC_INFORMATION, *PUSB_STOP_TRACKING_FOR_TIME_SYNC_INFORMATION
 req.product: Windows 10 or later.

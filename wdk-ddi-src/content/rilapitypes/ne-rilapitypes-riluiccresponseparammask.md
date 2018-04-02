@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILUICCRESPONSEPARAMMASK
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILUICCRESPONSEPARAMMASK
 req.product: Windows 10 or later.

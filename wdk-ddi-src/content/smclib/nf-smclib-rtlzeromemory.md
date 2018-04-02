@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	RtlZeroMemory
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SFFDISK_DPCMD
 req.product: Windows 10 or later.

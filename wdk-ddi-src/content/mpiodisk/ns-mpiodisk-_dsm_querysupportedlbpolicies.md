@@ -38,7 +38,8 @@ api_location:
 -	mpiodisk.h
 api_name:
 -	DSM_QuerySupportedLBPolicies
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DSM_QuerySupportedLBPolicies, *PDSM_QuerySupportedLBPolicies
 ---

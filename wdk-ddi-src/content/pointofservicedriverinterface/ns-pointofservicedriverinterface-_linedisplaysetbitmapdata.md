@@ -38,7 +38,8 @@ api_location:
 -	pointofservicedriverinterface.h
 api_name:
 -	LineDisplaySetBitmapData
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: LineDisplaySetBitmapData
 ---

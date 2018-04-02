@@ -38,7 +38,8 @@ api_location:
 -	ntddstor.h
 api_name:
 -	STORAGE_PROTOCOL_NVME_DATA_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STORAGE_PROTOCOL_NVME_DATA_TYPE, *PSTORAGE_PROTOCOL_NVME_DATA_TYPE
 ---

@@ -38,7 +38,8 @@ api_location:
 -	prefix.h
 api_name:
 -	RxpReleasePrefixTableLock
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SHIMOPTS, *PSHIMOPTS
 req.product: Windows 10 or later.

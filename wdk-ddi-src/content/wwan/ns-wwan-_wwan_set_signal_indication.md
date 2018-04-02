@@ -38,7 +38,8 @@ api_location:
 -	wwan.h
 api_name:
 -	WWAN_SET_SIGNAL_INDICATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WWAN_SET_SIGNAL_INDICATION, *PWWAN_SET_SIGNAL_INDICATION
 req.product: Windows 10 or later.

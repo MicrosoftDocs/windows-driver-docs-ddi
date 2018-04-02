@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KSRTAUDIO_HWLATENCY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSRTAUDIO_HWLATENCY, *PKSRTAUDIO_HWLATENCY
 ---

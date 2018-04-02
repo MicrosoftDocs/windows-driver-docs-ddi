@@ -38,7 +38,8 @@ api_location:
 -	Bthioctl.h
 api_name:
 -	IOCTL_BTH_SDP_SERVICE_ATTRIBUTE_SEARCH
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: HFP_BYPASS_CODEC_ID_V1, *PHFP_BYPASS_CODEC_ID_V1
 ---

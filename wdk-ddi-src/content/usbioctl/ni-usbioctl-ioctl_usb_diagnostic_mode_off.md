@@ -38,7 +38,8 @@ api_location:
 -	Usbioctl.h
 api_name:
 -	IOCTL_USB_DIAGNOSTIC_MODE_OFF
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USB_HUB_TYPE
 req.product: Windows 10 or later.

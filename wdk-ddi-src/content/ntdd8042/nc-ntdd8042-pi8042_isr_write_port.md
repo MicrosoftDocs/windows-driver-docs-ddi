@@ -38,7 +38,8 @@ api_location:
 -	ntdd8042.h
 api_name:
 -	I8042IsrWritePort
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MSFC_VirtualFibrePortAttributes, *PMSFC_VirtualFibrePortAttributes
 ---

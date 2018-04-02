@@ -38,7 +38,8 @@ api_location:
 -	scsi.h
 api_name:
 -	IOCTL_SCSI_MINIPORT_DSM
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STOR_SPINLOCK
 req.product: Windows 10 or later.

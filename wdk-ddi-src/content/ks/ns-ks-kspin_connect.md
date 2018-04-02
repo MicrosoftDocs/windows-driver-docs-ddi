@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KSPIN_CONNECT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSPIN_CONNECT, *PKSPIN_CONNECT
 ---

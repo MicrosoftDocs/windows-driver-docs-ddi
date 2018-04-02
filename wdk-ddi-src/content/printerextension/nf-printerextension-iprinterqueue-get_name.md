@@ -39,7 +39,8 @@ api_location:
 api_name:
 -	IPrinterQueue.Name
 -	IPrinterQueue.get_Name
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PrintSchemaSelectionType
 req.product: Windows 10 or later.

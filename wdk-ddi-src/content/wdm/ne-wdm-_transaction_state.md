@@ -38,7 +38,8 @@ api_location:
 -	Wdm.h
 api_name:
 -	TRANSACTION_STATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TRANSACTION_STATE
 req.product: Windows 10 or later.

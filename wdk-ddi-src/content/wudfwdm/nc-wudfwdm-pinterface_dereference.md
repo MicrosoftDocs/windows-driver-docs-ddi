@@ -38,7 +38,8 @@ api_location:
 -	Wdm.h
 api_name:
 -	InterfaceDereference
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
 req.product: Windows 10 or later.

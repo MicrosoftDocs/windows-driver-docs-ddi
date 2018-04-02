@@ -39,7 +39,8 @@ api_location:
 api_name:
 -	IPrintSchemaOption.Constrained
 -	IPrintSchemaOption.get_Constrained
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PrintSchemaSelectionType
 req.product: Windows 10 or later.

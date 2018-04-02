@@ -39,7 +39,8 @@ api_location:
 -	Bdasup.dll
 api_name:
 -	BdaUninitFilter
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSP_BDA_NODE_PIN, *PKSP_BDA_NODE_PIN
 ---

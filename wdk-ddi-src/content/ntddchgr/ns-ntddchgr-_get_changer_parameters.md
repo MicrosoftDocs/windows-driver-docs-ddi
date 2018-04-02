@@ -38,7 +38,8 @@ api_location:
 -	ntddchgr.h
 api_name:
 -	GET_CHANGER_PARAMETERS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GET_CHANGER_PARAMETERS, *PGET_CHANGER_PARAMETERS
 ---

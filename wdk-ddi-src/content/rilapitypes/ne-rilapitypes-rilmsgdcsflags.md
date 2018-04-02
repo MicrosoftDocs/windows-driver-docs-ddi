@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILMSGDCSFLAGS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILMSGDCSFLAGS
 req.product: Windows 10 or later.

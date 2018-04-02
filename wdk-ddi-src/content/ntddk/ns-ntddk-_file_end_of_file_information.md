@@ -38,7 +38,8 @@ api_location:
 -	Ntddk.h
 api_name:
 -	FILE_END_OF_FILE_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: FILE_END_OF_FILE_INFORMATION, *PFILE_END_OF_FILE_INFORMATION
 ---

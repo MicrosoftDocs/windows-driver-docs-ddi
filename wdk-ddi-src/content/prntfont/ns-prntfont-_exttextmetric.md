@@ -38,7 +38,8 @@ api_location:
 -	prntfont.h
 api_name:
 -	EXTTEXTMETRIC
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: EXTTEXTMETRIC, *PEXTTEXTMETRIC
 req.product: Windows 10 or later.

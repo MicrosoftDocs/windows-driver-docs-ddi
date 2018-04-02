@@ -38,7 +38,8 @@ api_location:
 -	swenum.h
 api_name:
 -	BUS_INTERFACE_SWENUM
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BUS_INTERFACE_SWENUM, *PBUS_INTERFACE_SWENUM
 req.product: Windows 10 or later.

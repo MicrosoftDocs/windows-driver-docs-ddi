@@ -38,7 +38,8 @@ api_location:
 -	Wdm.h
 api_name:
 -	REG_CALLBACK_CONTEXT_CLEANUP_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: REG_CALLBACK_CONTEXT_CLEANUP_INFORMATION, *PREG_CALLBACK_CONTEXT_CLEANUP_INFORMATION
 req.product: Windows 10 or later.

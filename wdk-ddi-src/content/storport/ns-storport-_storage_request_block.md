@@ -38,7 +38,8 @@ api_location:
 -	Storport.h
 api_name:
 -	STORAGE_REQUEST_BLOCK
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STORAGE_REQUEST_BLOCK, PSTORAGE_REQUEST_BLOCK
 req.product: Windows 10 or later.

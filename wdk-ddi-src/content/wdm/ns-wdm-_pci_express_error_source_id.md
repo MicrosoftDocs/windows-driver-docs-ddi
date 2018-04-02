@@ -38,7 +38,8 @@ api_location:
 -	wdm.h
 api_name:
 -	PCI_EXPRESS_ERROR_SOURCE_ID
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PCI_EXPRESS_ERROR_SOURCE_ID, *PPCI_EXPRESS_ERROR_SOURCE_ID
 req.product: Windows 10 or later.

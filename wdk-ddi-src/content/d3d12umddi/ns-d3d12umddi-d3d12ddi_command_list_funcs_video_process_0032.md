@@ -38,7 +38,8 @@ api_location:
 -	d3d12umddi.h
 api_name:
 -	D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_PROCESS_0032
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_PROCESS_0032
 ---

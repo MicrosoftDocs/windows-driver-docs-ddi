@@ -38,7 +38,8 @@ api_location:
 -	wiamindr_lh.h
 api_name:
 -	MINIDRV_TRANSFER_CONTEXT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MINIDRV_TRANSFER_CONTEXT, *PMINIDRV_TRANSFER_CONTEXT
 req.product: Windows 10 or later.

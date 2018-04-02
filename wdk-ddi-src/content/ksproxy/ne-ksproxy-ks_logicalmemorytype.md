@@ -38,7 +38,8 @@ api_location:
 -	Ksproxy.h
 api_name:
 -	KS_LogicalMemoryType
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KS_LogicalMemoryType
 ---

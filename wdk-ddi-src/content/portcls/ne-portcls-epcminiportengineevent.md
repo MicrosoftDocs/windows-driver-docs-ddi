@@ -38,7 +38,8 @@ api_location:
 -	Portcls.h
 api_name:
 -	EPcMiniportEngineEvent
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: EPcMiniportEngineEvent
 ---

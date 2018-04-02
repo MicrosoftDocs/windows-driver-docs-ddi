@@ -38,7 +38,8 @@ api_location:
 -	ntddstor.h
 api_name:
 -	DEVICE_DSM_OFFLOAD_READ_PARAMETERS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DEVICE_DSM_OFFLOAD_READ_PARAMETERS, *PDEVICE_DSM_OFFLOAD_READ_PARAMETERS
 ---

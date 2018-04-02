@@ -38,7 +38,8 @@ api_location:
 -	scsiwmi.h
 api_name:
 -	HwScsiWmiQueryDataBlock
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SCSISCAN_INFO, *PSCSISCAN_INFO
 req.product: Windows 10 or later.

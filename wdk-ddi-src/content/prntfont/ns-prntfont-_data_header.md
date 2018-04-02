@@ -38,7 +38,8 @@ api_location:
 -	prntfont.h
 api_name:
 -	DATA_HEADER
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DATA_HEADER, *PDATA_HEADER
 req.product: Windows 10 or later.

@@ -38,7 +38,8 @@ api_location:
 -	winddiui.h
 api_name:
 -	DRIVER_UPGRADE_INFO_2
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DRIVER_UPGRADE_INFO_2, *PDRIVER_UPGRADE_INFO_2
 req.product: Windows 10 or later.

@@ -39,7 +39,8 @@ api_location:
 api_name:
 -	IDebugClient4.OpenDumpFileWide
 -	IDebugClient5.OpenDumpFileWide
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---

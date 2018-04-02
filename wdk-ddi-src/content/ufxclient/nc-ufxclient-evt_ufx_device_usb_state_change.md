@@ -38,7 +38,8 @@ api_location:
 -	Ufxclient.h
 api_name:
 -	PFN_UFX_DEVICE_USB_STATE_CHANGE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: UFX_HARDWARE_FAILURE_CONTEXT, *PUFX_HARDWARE_FAILURE_CONTEXT
 req.product: Windows 10 or later.

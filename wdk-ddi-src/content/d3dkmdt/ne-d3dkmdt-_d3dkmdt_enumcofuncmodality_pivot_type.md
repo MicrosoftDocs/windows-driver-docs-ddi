@@ -38,7 +38,8 @@ api_location:
 -	d3dkmdt.h
 api_name:
 -	D3DKMDT_ENUMCOFUNCMODALITY_PIVOT_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DKMDT_ENUMCOFUNCMODALITY_PIVOT_TYPE
 ---

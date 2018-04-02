@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KSALLOCATOR_DISPATCH
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSALLOCATOR_DISPATCH, *PKSALLOCATOR_DISPATCH
 ---

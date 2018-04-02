@@ -38,7 +38,8 @@ api_location:
 -	Ndis.h
 api_name:
 -	PD_BUFFER_VIRTUAL_SUBNET_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PD_BUFFER_VIRTUAL_SUBNET_INFO
 ---

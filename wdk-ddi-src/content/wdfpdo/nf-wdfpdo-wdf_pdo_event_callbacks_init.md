@@ -38,7 +38,8 @@ api_location:
 -	wdfpdo.h
 api_name:
 -	WDF_PDO_EVENT_CALLBACKS_INIT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_OBJECT_CONTEXT_TYPE_INFO, *PWDF_OBJECT_CONTEXT_TYPE_INFO
 req.product: Windows 10 or later.

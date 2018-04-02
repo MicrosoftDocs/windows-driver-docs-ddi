@@ -38,7 +38,8 @@ api_location:
 -	ntddsd.h
 api_name:
 -	AcknowledgeInterrupt
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STORAGE_DIAGNOSTIC_MP_REQUEST, *PSTORAGE_DIAGNOSTIC_MP_REQUEST
 ---

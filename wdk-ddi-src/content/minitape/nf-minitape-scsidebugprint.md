@@ -39,7 +39,8 @@ api_location:
 -	Scsiport.dll
 api_name:
 -	ScsiDebugPrint
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TAPE_STATUS, *PTAPE_STATUS
 ---

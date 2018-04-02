@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILCLOSEUICCLOGICALCHANNELGROUPPARAMS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILCLOSEUICCLOGICALCHANNELGROUPPARAMS, *LPRILCLOSEUICCLOGICALCHANNELGROUPPARAMS
 req.product: Windows 10 or later.

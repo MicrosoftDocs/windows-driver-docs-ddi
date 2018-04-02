@@ -38,7 +38,8 @@ api_location:
 -	ntddmmc.h
 api_name:
 -	GET_CONFIGURATION_HEADER
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GET_CONFIGURATION_HEADER, *PGET_CONFIGURATION_HEADER
 ---

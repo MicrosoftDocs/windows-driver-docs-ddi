@@ -40,7 +40,8 @@ api_name:
 -	IDebugDataSpaces2.FillPhysical
 -	IDebugDataSpaces3.FillPhysical
 -	IDebugDataSpaces4.FillPhysical
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---

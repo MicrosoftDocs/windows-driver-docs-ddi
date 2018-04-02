@@ -38,7 +38,8 @@ api_location:
 -	Wudfddi_types.h
 api_name:
 -	WDF_DEVICE_IO_BUFFER_RETRIEVAL
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_DEVICE_IO_BUFFER_RETRIEVAL, *PWDF_DEVICE_IO_BUFFER_RETRIEVAL
 req.product: Windows 10 or later.

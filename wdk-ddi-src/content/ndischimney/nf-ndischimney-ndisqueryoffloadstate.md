@@ -38,7 +38,8 @@ api_location:
 -	ndis.h
 api_name:
 -	NdisQueryOffloadState
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PD_BUFFER_VIRTUAL_SUBNET_INFO
 ---

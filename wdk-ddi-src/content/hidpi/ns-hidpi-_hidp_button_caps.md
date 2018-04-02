@@ -38,7 +38,8 @@ api_location:
 -	hidpi.h
 api_name:
 -	HIDP_BUTTON_CAPS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: HIDP_BUTTON_CAPS, *PHIDP_BUTTON_CAPS
 ---

@@ -38,7 +38,8 @@ api_location:
 -	bthddi.h
 api_name:
 -	_BRB_PSM
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

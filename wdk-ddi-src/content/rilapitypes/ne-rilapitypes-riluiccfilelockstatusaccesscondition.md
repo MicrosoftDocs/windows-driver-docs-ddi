@@ -38,7 +38,8 @@ api_location:
 -	rilapitypes.h
 api_name:
 -	RILUICCFILELOCKSTATUSACCESSCONDITION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILUICCFILELOCKSTATUSACCESSCONDITION
 req.product: Windows 10 or later.

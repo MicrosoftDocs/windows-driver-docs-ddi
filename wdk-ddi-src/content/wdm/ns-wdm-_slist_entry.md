@@ -38,7 +38,8 @@ api_location:
 -	Wdm.h
 api_name:
 -	SLIST_ENTRY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SLIST_ENTRY, *PSLIST_ENTRY
 req.product: Windows 10 or later.

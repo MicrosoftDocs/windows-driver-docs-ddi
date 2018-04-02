@@ -38,7 +38,8 @@ api_location:
 -	WinSpool.drv
 api_name:
 -	RouterFreeBidiResponseContainer
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NOTIFICATION_CONFIG_FLAGS
 req.product: Windows 10 or later.

@@ -38,7 +38,8 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	D3DDDICAPS_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DDDICAPS_TYPE
 ---

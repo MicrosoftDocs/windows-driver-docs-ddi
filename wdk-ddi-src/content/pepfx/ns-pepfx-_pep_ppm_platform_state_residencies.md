@@ -38,7 +38,8 @@ api_location:
 -	pepfx.h
 api_name:
 -	PEP_PPM_PLATFORM_STATE_RESIDENCIES
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PEP_PPM_PLATFORM_STATE_RESIDENCIES, *PPEP_PPM_PLATFORM_STATE_RESIDENCIES
 ---

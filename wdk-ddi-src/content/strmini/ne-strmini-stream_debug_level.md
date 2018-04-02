@@ -38,7 +38,8 @@ api_location:
 -	strmini.h
 api_name:
 -	STREAM_DEBUG_LEVEL
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STREAM_DEBUG_LEVEL
 req.product: Windows 10 or later.

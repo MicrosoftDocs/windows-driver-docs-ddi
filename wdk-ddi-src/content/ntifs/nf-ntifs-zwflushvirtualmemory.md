@@ -39,7 +39,8 @@ api_location:
 api_name:
 -	ZwFlushVirtualMemory
 -	NtFlushVirtualMemory
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TOKEN_TYPE
 ---

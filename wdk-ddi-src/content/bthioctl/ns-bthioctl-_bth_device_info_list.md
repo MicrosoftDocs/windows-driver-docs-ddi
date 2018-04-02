@@ -38,7 +38,8 @@ api_location:
 -	bthioctl.h
 api_name:
 -	BTH_DEVICE_INFO_LIST
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BTH_DEVICE_INFO_LIST, *PBTH_DEVICE_INFO_LIST
 ---

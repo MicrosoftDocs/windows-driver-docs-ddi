@@ -38,7 +38,8 @@ api_location:
 -	winddiui.h
 api_name:
 -	DrvSplStartDoc
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WINBIO_VERSION, *PWINBIO_VERSION
 req.product: Windows 10 or later.

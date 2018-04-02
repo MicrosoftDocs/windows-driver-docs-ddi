@@ -38,7 +38,8 @@ api_location:
 -	wdfdevice.h
 api_name:
 -	WDF_POWER_FRAMEWORK_SETTINGS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_POWER_FRAMEWORK_SETTINGS, *PWDF_POWER_FRAMEWORK_SETTINGS
 req.product: Windows 10 or later.

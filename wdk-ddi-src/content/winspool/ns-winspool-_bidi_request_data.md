@@ -38,7 +38,8 @@ api_location:
 -	winspool.h
 api_name:
 -	BIDI_REQUEST_DATA
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BIDI_REQUEST_DATA, *PBIDI_REQUEST_DATA, *LPBIDI_REQUEST_DATA
 req.product: Windows 10 or later.

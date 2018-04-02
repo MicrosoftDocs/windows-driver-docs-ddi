@@ -39,7 +39,8 @@ api_location:
 -	Drmk.dll
 api_name:
 -	DrmGetContentRights
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDI_TX_METADATA, *PWDI_TX_METADATA
 ---

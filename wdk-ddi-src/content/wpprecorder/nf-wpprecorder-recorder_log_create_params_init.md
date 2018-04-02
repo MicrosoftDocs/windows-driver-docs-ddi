@@ -38,7 +38,8 @@ api_location:
 -	Wpprecorder.h
 api_name:
 -	RECORDER_LOG_CREATE_PARAMS_INIT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WNODE_HEADER, *PWNODE_HEADER
 req.product: Windows 10 or later.

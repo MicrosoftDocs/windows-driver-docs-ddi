@@ -38,7 +38,8 @@ api_location:
 -	mcd.h
 api_name:
 -	ChangerInitializeElementStatus
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: LAMP_INTENSITY_WHITE
 ---

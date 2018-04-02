@@ -38,7 +38,8 @@ api_location:
 -	scsi.h
 api_name:
 -	RECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER, *PRECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER
 ---

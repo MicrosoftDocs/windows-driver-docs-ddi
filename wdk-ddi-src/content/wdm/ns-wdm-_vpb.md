@@ -38,7 +38,8 @@ api_location:
 -	wdm.h
 api_name:
 -	VPB
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: VPB, *PVPB
 req.product: Windows 10 or later.

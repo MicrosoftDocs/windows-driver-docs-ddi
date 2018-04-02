@@ -39,7 +39,8 @@ api_location:
 -	netio.dll
 api_name:
 -	NmrProviderDetachClientComplete
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NET_DMA_PROVIDER_CHARACTERISTICS, *PNET_DMA_PROVIDER_CHARACTERISTICS
 ---

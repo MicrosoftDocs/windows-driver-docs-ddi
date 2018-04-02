@@ -38,7 +38,8 @@ api_location:
 -	D3dkmddi.h
 api_name:
 -	DXGK_MULTIPLANE_OVERLAY_VIDEO_FRAME_FORMAT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_MULTIPLANE_OVERLAY_VIDEO_FRAME_FORMAT
 ---

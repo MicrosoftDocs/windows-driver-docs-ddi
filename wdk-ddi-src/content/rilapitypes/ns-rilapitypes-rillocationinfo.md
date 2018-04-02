@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILLOCATIONINFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILLOCATIONINFO, *LPRILLOCATIONINFO
 req.product: Windows 10 or later.

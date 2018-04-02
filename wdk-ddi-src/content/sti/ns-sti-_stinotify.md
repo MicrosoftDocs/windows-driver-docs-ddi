@@ -38,7 +38,8 @@ api_location:
 -	sti.h
 api_name:
 -	STINOTIFY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STINOTIFY, *LPSTINOTIFY
 req.product: Windows 10 or later.

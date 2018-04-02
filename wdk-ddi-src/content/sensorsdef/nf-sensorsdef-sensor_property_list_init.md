@@ -38,7 +38,8 @@ api_location:
 -	Sensorsdef.h
 api_name:
 -	SENSOR_PROPERTY_LIST_INIT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SENSOR_STATE
 req.product: Windows 10 or later.

@@ -41,7 +41,8 @@ api_name:
 -	IDebugSystemObjects2.GetNumberThreads
 -	IDebugSystemObjects3.GetNumberThreads
 -	IDebugSystemObjects4.GetNumberThreads
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---

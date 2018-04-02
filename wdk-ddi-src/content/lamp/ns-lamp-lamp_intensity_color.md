@@ -38,7 +38,8 @@ api_location:
 -	lamp.h
 api_name:
 -	LAMP_INTENSITY_COLOR
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: LAMP_INTENSITY_COLOR
 ---

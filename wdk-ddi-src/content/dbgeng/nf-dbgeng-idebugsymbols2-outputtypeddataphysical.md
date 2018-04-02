@@ -40,7 +40,8 @@ api_name:
 -	IDebugSymbols.OutputTypedDataPhysical
 -	IDebugSymbols2.OutputTypedDataPhysical
 -	IDebugSymbols3.OutputTypedDataPhysical
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---

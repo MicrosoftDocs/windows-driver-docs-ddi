@@ -38,7 +38,8 @@ api_location:
 -	ntpoapi.h
 api_name:
 -	BATTERY_REPORTING_SCALE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BATTERY_REPORTING_SCALE, *PBATTERY_REPORTING_SCALE
 req.product: Windows 10 or later.

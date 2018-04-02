@@ -38,7 +38,8 @@ api_location:
 -	Wdm.h
 api_name:
 -	FILE_IS_REMOTE_DEVICE_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: FILE_IS_REMOTE_DEVICE_INFORMATION, *PFILE_IS_REMOTE_DEVICE_INFORMATION
 req.product: Windows 10 or later.

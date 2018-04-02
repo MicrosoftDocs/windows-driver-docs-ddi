@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsReferenceSoftwareBusObject
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STREAM_TIME_REFERENCE, *PSTREAM_TIME_REFERENCE
 req.product: Windows 10 or later.

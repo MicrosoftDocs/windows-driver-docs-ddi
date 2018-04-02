@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILCALLAUDIOMEDIASTATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILCALLAUDIOMEDIASTATE, *LPRILCALLAUDIOMEDIASTATE
 req.product: Windows 10 or later.

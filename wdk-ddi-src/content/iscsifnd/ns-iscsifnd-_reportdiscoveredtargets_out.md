@@ -38,7 +38,8 @@ api_location:
 -	iscsifnd.h
 api_name:
 -	ReportDiscoveredTargets_OUT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: ReportDiscoveredTargets_OUT, *PReportDiscoveredTargets_OUT
 ---

@@ -38,7 +38,8 @@ api_location:
 -	ntddndis.h
 api_name:
 -	NDIS_NDK_LOCAL_ENDPOINT_ENTRY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_NDK_LOCAL_ENDPOINT_ENTRY
 ---

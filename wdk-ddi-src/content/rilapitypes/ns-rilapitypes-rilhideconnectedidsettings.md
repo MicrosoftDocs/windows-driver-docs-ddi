@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILHIDECONNECTEDIDSETTINGS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILHIDECONNECTEDIDSETTINGS, *LPRILHIDECONNECTEDIDSETTINGS
 req.product: Windows 10 or later.

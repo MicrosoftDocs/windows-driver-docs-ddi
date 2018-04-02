@@ -40,7 +40,8 @@ api_name:
 -	IDebugControl.GetPromptText
 -	IDebugControl2.GetPromptText
 -	IDebugControl3.GetPromptText
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---

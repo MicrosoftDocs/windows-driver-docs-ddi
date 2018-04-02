@@ -38,7 +38,8 @@ api_location:
 -	poclass.h
 api_name:
 -	BATTERY_MANUFACTURE_DATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BATTERY_MANUFACTURE_DATE, *PBATTERY_MANUFACTURE_DATE
 ---

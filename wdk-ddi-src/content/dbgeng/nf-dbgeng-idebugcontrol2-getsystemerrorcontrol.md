@@ -40,7 +40,8 @@ api_name:
 -	IDebugControl.GetSystemErrorControl
 -	IDebugControl2.GetSystemErrorControl
 -	IDebugControl3.GetSystemErrorControl
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---

@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILPHONEBOOKEMAILADDRESS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILPHONEBOOKEMAILADDRESS, *LPRILPHONEBOOKEMAILADDRESS
 req.product: Windows 10 or later.

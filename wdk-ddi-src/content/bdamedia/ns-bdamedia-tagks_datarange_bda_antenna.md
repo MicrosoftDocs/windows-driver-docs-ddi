@@ -38,7 +38,8 @@ api_location:
 -	bdamedia.h
 api_name:
 -	KS_DATARANGE_BDA_ANTENNA
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KS_DATARANGE_BDA_ANTENNA, *PKS_DATARANGE_BDA_ANTENNA
 ---

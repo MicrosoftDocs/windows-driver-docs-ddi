@@ -40,7 +40,8 @@ api_name:
 -	IDebugControl.SetInterrupt
 -	IDebugControl2.SetInterrupt
 -	IDebugControl3.SetInterrupt
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---

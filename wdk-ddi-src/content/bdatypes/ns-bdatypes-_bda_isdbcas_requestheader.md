@@ -38,7 +38,8 @@ api_location:
 -	Bdatypes.h
 api_name:
 -	BDA_ISDBCAS_REQUESTHEADER
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BDA_ISDBCAS_REQUESTHEADER, *PBDA_ISDBCAS_REQUESTHEADER
 ---

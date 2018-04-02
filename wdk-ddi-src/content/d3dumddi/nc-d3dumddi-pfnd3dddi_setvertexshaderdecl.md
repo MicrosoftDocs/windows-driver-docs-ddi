@@ -38,7 +38,8 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	SetVertexShaderDecl
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_PTE
 ---

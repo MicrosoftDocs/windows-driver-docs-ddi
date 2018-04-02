@@ -38,7 +38,8 @@ api_location:
 -	Bdatypes.h
 api_name:
 -	BDA_DISEQC_RESPONSE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BDA_DISEQC_RESPONSE, *PBDA_DISEQC_RESPONSE
 ---

@@ -38,7 +38,8 @@ api_location:
 -	Drmk.h
 api_name:
 -	DRMForwardContentToInterface
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDI_TX_METADATA, *PWDI_TX_METADATA
 ---

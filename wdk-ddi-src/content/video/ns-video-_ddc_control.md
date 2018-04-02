@@ -38,7 +38,8 @@ api_location:
 -	video.h
 api_name:
 -	DDC_CONTROL
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DDC_CONTROL, *PDDC_CONTROL
 req.product: Windows 10 or later.

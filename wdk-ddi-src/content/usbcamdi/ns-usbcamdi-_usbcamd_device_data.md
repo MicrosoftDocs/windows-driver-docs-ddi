@@ -38,7 +38,8 @@ api_location:
 -	usbcamdi.h
 api_name:
 -	USBCAMD_DEVICE_DATA
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USBCAMD_DEVICE_DATA, *PUSBCAMD_DEVICE_DATA
 req.product: Windows 10 or later.

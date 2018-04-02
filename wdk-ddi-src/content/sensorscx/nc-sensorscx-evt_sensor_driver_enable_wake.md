@@ -38,7 +38,8 @@ api_location:
 -	SensorsCx.h
 api_name:
 -	EVT_SENSOR_DRIVER_ENABLE_WAKE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SensorConnectionType
 req.product: Windows 10 or later.

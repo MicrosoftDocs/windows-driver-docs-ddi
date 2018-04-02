@@ -38,7 +38,8 @@ api_location:
 -	wditypes.hpp
 api_name:
 -	WDI_P2P_GO_INTERNAL_RESET_POLICY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDI_P2P_GO_INTERNAL_RESET_POLICY
 req.product: Windows 10 or later.

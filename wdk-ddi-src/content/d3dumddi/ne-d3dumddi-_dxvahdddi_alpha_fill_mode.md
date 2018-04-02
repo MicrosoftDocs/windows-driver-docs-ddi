@@ -38,7 +38,8 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	DXVAHDDDI_ALPHA_FILL_MODE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXVAHDDDI_ALPHA_FILL_MODE
 ---

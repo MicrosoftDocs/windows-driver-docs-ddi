@@ -37,7 +37,8 @@ api_location:
 -
 api_name:
 -	IServiceGroup::RequestService
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---

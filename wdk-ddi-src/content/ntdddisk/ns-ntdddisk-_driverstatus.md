@@ -38,7 +38,8 @@ api_location:
 -	ntdddisk.h
 api_name:
 -	DRIVERSTATUS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DRIVERSTATUS, *PDRIVERSTATUS, *LPDRIVERSTATUS
 ---

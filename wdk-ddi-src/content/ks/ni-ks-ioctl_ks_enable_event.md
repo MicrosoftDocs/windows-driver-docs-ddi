@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	IOCTL_KS_ENABLE_EVENT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

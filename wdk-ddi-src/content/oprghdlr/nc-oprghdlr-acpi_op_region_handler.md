@@ -38,7 +38,8 @@ api_location:
 -	oprghdlr.h
 api_name:
 -	AcpiOpRegionHandler
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILGBATOKEN, *LPRILGBATOKEN
 ---

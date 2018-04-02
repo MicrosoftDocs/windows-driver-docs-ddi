@@ -38,7 +38,8 @@ api_location:
 -	parallel.h
 api_name:
 -	PARALLEL_INTERRUPT_SERVICE_ROUTINE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PARALLEL_INTERRUPT_SERVICE_ROUTINE, *PPARALLEL_INTERRUPT_SERVICE_ROUTINE
 ---

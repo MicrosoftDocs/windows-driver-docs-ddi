@@ -38,7 +38,8 @@ api_location:
 -	poclass.h
 api_name:
 -	BATTERY_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BATTERY_INFORMATION, *PBATTERY_INFORMATION
 ---

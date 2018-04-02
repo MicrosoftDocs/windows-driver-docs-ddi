@@ -39,7 +39,8 @@ api_location:
 api_name:
 -	IDebugControl2.GetCurrentTimeDate
 -	IDebugControl3.GetCurrentTimeDate
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---

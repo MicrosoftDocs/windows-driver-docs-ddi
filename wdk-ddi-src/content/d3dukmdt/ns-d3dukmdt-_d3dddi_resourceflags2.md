@@ -38,7 +38,8 @@ api_location:
 -	D3dukmdt.h
 api_name:
 -	D3DDDI_RESOURCEFLAGS2
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DDDI_RESOURCEFLAGS2
 ---

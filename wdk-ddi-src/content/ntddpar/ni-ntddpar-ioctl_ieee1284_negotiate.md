@@ -38,7 +38,8 @@ api_location:
 -	ntddpar.h
 api_name:
 -	IOCTL_IEEE1284_NEGOTIATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: OFFLOAD_SECURITY_ASSOCIATION, *POFFLOAD_SECURITY_ASSOCIATION
 ---

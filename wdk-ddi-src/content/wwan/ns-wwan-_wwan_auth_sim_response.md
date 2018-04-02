@@ -38,7 +38,8 @@ api_location:
 -	wwan.h
 api_name:
 -	WWAN_AUTH_SIM_RESPONSE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WWAN_AUTH_SIM_RESPONSE, *PWWAN_AUTH_SIM_RESPONSE
 req.product: Windows 10 or later.

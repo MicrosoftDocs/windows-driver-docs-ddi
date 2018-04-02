@@ -38,7 +38,8 @@ api_location:
 -	wdfdevice.h
 api_name:
 -	WDF_DEVICE_INTERFACE_PROPERTY_DATA
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_DEVICE_INTERFACE_PROPERTY_DATA, *PWDF_DEVICE_INTERFACE_PROPERTY_DATA
 req.product: Windows 10 or later.

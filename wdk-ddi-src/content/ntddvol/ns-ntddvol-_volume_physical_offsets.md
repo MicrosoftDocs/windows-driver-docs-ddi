@@ -38,7 +38,8 @@ api_location:
 -	ntddvol.h
 api_name:
 -	VOLUME_PHYSICAL_OFFSETS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: VOLUME_PHYSICAL_OFFSETS, *PVOLUME_PHYSICAL_OFFSETS
 ---

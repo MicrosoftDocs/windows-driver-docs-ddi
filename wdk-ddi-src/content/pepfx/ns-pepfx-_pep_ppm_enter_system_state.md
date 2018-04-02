@@ -38,7 +38,8 @@ api_location:
 -	Pepfx.h
 api_name:
 -	PEP_PPM_ENTER_SYSTEM_STATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PEP_PPM_ENTER_SYSTEM_STATE, *PPEP_PPM_ENTER_SYSTEM_STATE
 ---

@@ -38,7 +38,8 @@ api_location:
 -	ndis.h
 api_name:
 -	NDIS_GENERIC_OBJECT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_GENERIC_OBJECT, *PNDIS_GENERIC_OBJECT
 ---

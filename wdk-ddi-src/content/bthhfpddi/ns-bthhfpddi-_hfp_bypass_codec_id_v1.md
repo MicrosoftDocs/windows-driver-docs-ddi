@@ -38,7 +38,8 @@ api_location:
 -	Bthhfpddi.h
 api_name:
 -	HFP_BYPASS_CODEC_ID_V1
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: HFP_BYPASS_CODEC_ID_V1, *PHFP_BYPASS_CODEC_ID_V1
 ---

@@ -38,7 +38,8 @@ api_location:
 -	Wdm.h
 api_name:
 -	DEVICE_WAKE_DEPTH
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DEVICE_WAKE_DEPTH, *PDEVICE_WAKE_DEPTH
 req.product: Windows 10 or later.

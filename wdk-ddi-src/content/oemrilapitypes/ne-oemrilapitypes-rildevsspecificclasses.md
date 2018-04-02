@@ -38,7 +38,8 @@ api_location:
 -	oemrilapitypes.h
 api_name:
 -	RILDEVSSPECIFICCLASSES
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILDEVSSPECIFICCLASSES
 ---

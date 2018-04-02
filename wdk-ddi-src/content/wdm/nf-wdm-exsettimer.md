@@ -39,7 +39,8 @@ api_location:
 -	ntoskrnl.dll
 api_name:
 -	ExSetTimer
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.

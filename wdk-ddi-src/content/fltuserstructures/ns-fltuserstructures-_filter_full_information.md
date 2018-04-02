@@ -38,7 +38,8 @@ api_location:
 -	fltuserstructures.h
 api_name:
 -	FILTER_FULL_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: FILTER_FULL_INFORMATION, *PFILTER_FULL_INFORMATION
 ---

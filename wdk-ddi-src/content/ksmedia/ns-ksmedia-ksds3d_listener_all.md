@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KSDS3D_LISTENER_ALL
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSDS3D_LISTENER_ALL, *PKSDS3D_LISTENER_ALL
 ---

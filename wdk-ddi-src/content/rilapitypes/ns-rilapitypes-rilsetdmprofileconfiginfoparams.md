@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILSETDMPROFILECONFIGINFOPARAMS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILSETDMPROFILECONFIGINFOPARAMS, *LPRILSETDMPROFILECONFIGINFOPARAMS
 req.product: Windows 10 or later.

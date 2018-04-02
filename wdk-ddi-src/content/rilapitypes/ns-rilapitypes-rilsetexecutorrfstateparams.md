@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILSETEXECUTORRFSTATEPARAMS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILSETEXECUTORRFSTATEPARAMS, *LPRILSETEXECUTORRFSTATEPARAMS
 req.product: Windows 10 or later.

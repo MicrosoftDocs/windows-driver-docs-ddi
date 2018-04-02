@@ -38,7 +38,8 @@ api_location:
 -	DbgEng.h
 api_name:
 -	DEBUG_SYMBOL_PARAMETERS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DEBUG_SYMBOL_PARAMETERS, *PDEBUG_SYMBOL_PARAMETERS
 ---

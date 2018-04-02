@@ -38,7 +38,8 @@ api_location:
 -	bdamedia.h
 api_name:
 -	KSM_BDA_PIN
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSM_BDA_PIN, *PKSM_BDA_PIN
 ---

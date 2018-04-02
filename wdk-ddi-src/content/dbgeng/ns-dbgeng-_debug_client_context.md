@@ -38,7 +38,8 @@ api_location:
 -	DbgEng.h
 api_name:
 -	DEBUG_CLIENT_CONTEXT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DEBUG_CLIENT_CONTEXT, *PDEBUG_CLIENT_CONTEXT
 ---

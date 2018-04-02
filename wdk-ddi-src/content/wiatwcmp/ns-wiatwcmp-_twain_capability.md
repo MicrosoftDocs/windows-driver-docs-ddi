@@ -38,7 +38,8 @@ api_location:
 -	wiatwcmp.h
 api_name:
 -	TWAIN_CAPABILITY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TWAIN_CAPABILITY, *PTWAIN_CAPABILITY
 req.product: Windows 10 or later.

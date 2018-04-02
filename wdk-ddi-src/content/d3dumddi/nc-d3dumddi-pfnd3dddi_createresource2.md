@@ -38,7 +38,8 @@ api_location:
 -	D3dumddi.h
 api_name:
 -	CreateResource2
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_PTE
 ---

@@ -38,7 +38,8 @@ api_location:
 -	dispmprt.h
 api_name:
 -	DXGK_VIDEO_OUTPUT_CAPABILITIES
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_VIDEO_OUTPUT_CAPABILITIES, *PDXGK_VIDEO_OUTPUT_CAPABILITIES
 ---

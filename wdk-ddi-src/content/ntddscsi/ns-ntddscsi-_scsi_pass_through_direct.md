@@ -38,7 +38,8 @@ api_location:
 -	ntddscsi.h
 api_name:
 -	SCSI_PASS_THROUGH_DIRECT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SCSI_PASS_THROUGH_DIRECT, *PSCSI_PASS_THROUGH_DIRECT
 ---

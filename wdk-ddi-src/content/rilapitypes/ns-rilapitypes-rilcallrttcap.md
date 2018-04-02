@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILCALLRTTCAP
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILCALLRTTCAP, *LPRILCALLRTTCAP
 req.product: Windows 10 or later.

@@ -38,7 +38,8 @@ api_location:
 -	UcxController.h
 api_name:
 -	*PFN_UCX_CONTROLLER_GET_TRANSPORT_CHARACTERISTICS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: UCM_PD_REQUEST_DATA_OBJECT, *PUCM_PD_REQUEST_DATA_OBJECT
 req.product: Windows 10 or later.

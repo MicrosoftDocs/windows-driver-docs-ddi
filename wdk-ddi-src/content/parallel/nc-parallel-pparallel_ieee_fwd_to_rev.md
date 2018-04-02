@@ -38,7 +38,8 @@ api_location:
 -	parallel.h
 api_name:
 -	PPARALLEL_IEEE_FWD_TO_REV
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILGBATOKEN, *LPRILGBATOKEN
 ---

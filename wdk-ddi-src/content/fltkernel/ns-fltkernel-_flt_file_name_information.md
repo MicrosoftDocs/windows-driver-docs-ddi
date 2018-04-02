@@ -38,7 +38,8 @@ api_location:
 -	fltkernel.h
 api_name:
 -	FLT_FILE_NAME_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: FLT_FILE_NAME_INFORMATION, *PFLT_FILE_NAME_INFORMATION
 ---

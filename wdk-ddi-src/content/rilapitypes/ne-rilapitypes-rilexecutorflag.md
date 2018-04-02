@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILEXECUTORFLAG
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILEXECUTORFLAG
 req.product: Windows 10 or later.

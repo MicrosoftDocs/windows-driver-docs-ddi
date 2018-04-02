@@ -41,7 +41,8 @@ api_name:
 -	IDebugClient3.WriteDumpFile2
 -	IDebugClient4.WriteDumpFile2
 -	IDebugClient5.WriteDumpFile2
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---

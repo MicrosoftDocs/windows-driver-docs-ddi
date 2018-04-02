@@ -39,7 +39,8 @@ api_location:
 -	Wdf01000.sys.dll
 api_name:
 -	WdfDmaEnablerSetMaximumScatterGatherElements
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_DMA_PROFILE
 req.product: Windows 10 or later.

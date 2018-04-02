@@ -38,7 +38,8 @@ api_location:
 -	d3dkmddi.h
 api_name:
 -	DXGKARG_QUERYVIDPNHWCAPABILITY;typedef __inout DXGKARG_QUERYVIDPNHWCAPABILITY* INOUT_PDXGKARG_QUERYVIDPNHWCAPABILITY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGKARG_QUERYVIDPNHWCAPABILITY
 ---

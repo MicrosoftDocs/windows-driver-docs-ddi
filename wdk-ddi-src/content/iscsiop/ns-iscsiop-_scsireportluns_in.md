@@ -38,7 +38,8 @@ api_location:
 -	iscsiop.h
 api_name:
 -	ScsiReportLuns_IN
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: ScsiReportLuns_IN, *PScsiReportLuns_IN
 ---

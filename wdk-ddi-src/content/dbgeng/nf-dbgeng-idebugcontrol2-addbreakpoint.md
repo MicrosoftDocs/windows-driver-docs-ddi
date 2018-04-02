@@ -40,7 +40,8 @@ api_name:
 -	IDebugControl.AddBreakpoint
 -	IDebugControl2.AddBreakpoint
 -	IDebugControl3.AddBreakpoint
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---

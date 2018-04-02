@@ -38,7 +38,8 @@ api_location:
 -	usbfnbase.h
 api_name:
 -	USBFN_NOTIFICATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USBFN_NOTIFICATION, *PUSBFN_NOTIFICATION
 req.product: Windows 10 or later.

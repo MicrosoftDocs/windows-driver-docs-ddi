@@ -38,7 +38,8 @@ api_location:
 -	D3dkmddi.h
 api_name:
 -	DXGK_SEGMENTDESCRIPTOR3
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_SEGMENTDESCRIPTOR3
 ---

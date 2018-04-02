@@ -38,7 +38,8 @@ api_location:
 -	Wdm.h
 api_name:
 -	OB_POST_OPERATION_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: OB_POST_OPERATION_INFORMATION, *POB_POST_OPERATION_INFORMATION
 req.product: Windows 10 or later.

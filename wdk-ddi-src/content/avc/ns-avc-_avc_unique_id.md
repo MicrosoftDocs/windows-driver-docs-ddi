@@ -38,7 +38,8 @@ api_location:
 -	avc.h
 api_name:
 -	AVC_UNIQUE_ID
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: AVC_UNIQUE_ID, *PAVC_UNIQUE_ID
 ---

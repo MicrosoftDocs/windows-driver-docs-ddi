@@ -38,7 +38,8 @@ api_location:
 -	hidpi.h
 api_name:
 -	HidP_UsageAndPageListDifference
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: HIDP_REPORT_TYPE
 ---

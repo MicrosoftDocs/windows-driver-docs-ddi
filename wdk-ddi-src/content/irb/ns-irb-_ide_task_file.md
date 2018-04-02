@@ -38,7 +38,8 @@ api_location:
 -	irb.h
 api_name:
 -	IDE_TASK_FILE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: IDE_TASK_FILE, *PIDE_TASK_FILE
 ---

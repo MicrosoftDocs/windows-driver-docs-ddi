@@ -38,7 +38,8 @@ api_location:
 -	ntddtape.h
 api_name:
 -	TAPE_ERASE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TAPE_ERASE, *PTAPE_ERASE
 ---

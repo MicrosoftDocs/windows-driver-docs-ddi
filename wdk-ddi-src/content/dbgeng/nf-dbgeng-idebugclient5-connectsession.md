@@ -42,7 +42,8 @@ api_name:
 -	IDebugClient3.ConnectSession
 -	IDebugClient4.ConnectSession
 -	IDebugClient5.ConnectSession
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---

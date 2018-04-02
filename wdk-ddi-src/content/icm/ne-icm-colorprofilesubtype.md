@@ -38,7 +38,8 @@ api_location:
 -	icm.h
 api_name:
 -	COLORPROFILESUBTYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: COLORPROFILESUBTYPE
 ---

@@ -38,7 +38,8 @@ api_location:
 -	Wdm.h
 api_name:
 -	DMA_ADAPTER
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: "*PADAPTER_OBJECT, *PADAPTER_OBJECT, DMA_ADAPTER, *PDMA_ADAPTER"
 req.product: Windows 10 or later.

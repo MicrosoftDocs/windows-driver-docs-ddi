@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILSENDMSGACKPARAMS_V1
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILSENDMSGACKPARAMS_V1
 req.product: Windows 10 or later.

@@ -38,7 +38,8 @@ api_location:
 -	1.0\Sercx.h
 api_name:
 -	SERCX_CONFIG
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SERCX_CONFIG, *PSERCX_CONFIG
 req.product: Windows 10 or later.

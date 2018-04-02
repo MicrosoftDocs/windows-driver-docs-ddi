@@ -38,7 +38,8 @@ api_location:
 -	1394.h
 api_name:
 -	ADDRESS_OFFSET
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: ADDRESS_OFFSET, *PADDRESS_OFFSET
 ---

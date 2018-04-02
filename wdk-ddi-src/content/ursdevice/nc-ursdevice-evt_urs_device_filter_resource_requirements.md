@@ -38,7 +38,8 @@ api_location:
 -	Ursdevice.h
 api_name:
 -	PFN_URS_DEVICE_FILTER_RESOURCE_REQUIREMENTS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: UMDETW_ALLOCATION_USAGE
 req.product: Windows 10 or later.

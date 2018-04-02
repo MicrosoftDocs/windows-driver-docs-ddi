@@ -38,7 +38,8 @@ api_location:
 -	irb.h
 api_name:
 -	AtaPortRequestSynchronizedRoutine
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: IDE_POWER_STATE
 ---

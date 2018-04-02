@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILGPPREJECTCAUSE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILGPPREJECTCAUSE, *LPRILGPPREJECTCAUSE
 req.product: Windows 10 or later.

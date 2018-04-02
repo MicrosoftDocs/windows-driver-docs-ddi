@@ -38,7 +38,8 @@ api_location:
 -	acpitabl.h
 api_name:
 -	SDEV_SECURE_ACPI_INFO_ENTRY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SDEV_SECURE_ACPI_INFO_ENTRY, *PSDEV_SECURE_ACPI_INFO_ENTRY
 ---

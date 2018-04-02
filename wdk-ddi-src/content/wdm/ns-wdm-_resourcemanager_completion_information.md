@@ -38,7 +38,8 @@ api_location:
 -	Wdm.h
 api_name:
 -	RESOURCEMANAGER_COMPLETION_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RESOURCEMANAGER_COMPLETION_INFORMATION, *PRESOURCEMANAGER_COMPLETION_INFORMATION
 req.product: Windows 10 or later.

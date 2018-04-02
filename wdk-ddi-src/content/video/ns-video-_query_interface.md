@@ -38,7 +38,8 @@ api_location:
 -	video.h
 api_name:
 -	QUERY_INTERFACE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: QUERY_INTERFACE, *PQUERY_INTERFACE
 req.product: Windows 10 or later.

@@ -38,7 +38,8 @@ api_location:
 -	WinSpool.drv
 api_name:
 -	DevQueryPrintEx
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WINBIO_VERSION, *PWINBIO_VERSION
 req.product: Windows 10 or later.

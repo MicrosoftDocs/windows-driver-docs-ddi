@@ -38,7 +38,8 @@ api_location:
 -	irb.h
 api_name:
 -	IDE_LBA_RANGE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: IDE_LBA_RANGE, *PIDE_LBA_RANGE
 ---

@@ -38,7 +38,8 @@ api_location:
 -	ucxsstreams.h
 api_name:
 -	UcxStaticStreamsCreate
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: UCX_ROOTHUB_CONFIG, *PUCX_ROOTHUB_CONFIG
 req.product: Windows 10 or later.

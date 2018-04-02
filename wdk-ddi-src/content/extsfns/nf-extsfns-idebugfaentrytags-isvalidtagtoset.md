@@ -38,7 +38,8 @@ api_location:
 -	extsfns.h
 api_name:
 -	IDebugFAEntryTags.IsValidTagToSet
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: FA_EXTENSION_PLUGIN_PHASE
 ---

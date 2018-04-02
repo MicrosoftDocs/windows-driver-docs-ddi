@@ -38,7 +38,8 @@ api_location:
 -	Strmini.h
 api_name:
 -	TIME_FUNCTION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TIME_FUNCTION
 req.product: Windows 10 or later.

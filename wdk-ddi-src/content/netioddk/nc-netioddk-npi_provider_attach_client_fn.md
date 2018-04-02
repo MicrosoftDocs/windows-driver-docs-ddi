@@ -38,7 +38,8 @@ api_location:
 -	netioddk.h
 api_name:
 -	PNPI_PROVIDER_ATTACH_CLIENT_FN
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NET_DMA_PROVIDER_CHARACTERISTICS, *PNET_DMA_PROVIDER_CHARACTERISTICS
 ---

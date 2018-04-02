@@ -38,7 +38,8 @@ api_location:
 -	hpmi.h
 api_name:
 -	HPMI_QUERY_CAPABILITIES
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: HPMI_QUERY_CAPABILITIES, *PHPMI_QUERY_CAPABILITIES
 ---

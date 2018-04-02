@@ -38,7 +38,8 @@ api_location:
 -	iscsiop.h
 api_name:
 -	RemovePersistentLogin_OUT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RemovePersistentLogin_OUT, *PRemovePersistentLogin_OUT
 ---

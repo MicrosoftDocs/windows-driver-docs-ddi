@@ -39,7 +39,8 @@ api_location:
 -	ks.dll
 api_name:
 -	KsAcquireCachedMdl
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

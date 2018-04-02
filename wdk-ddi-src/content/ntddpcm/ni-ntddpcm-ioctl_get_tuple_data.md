@@ -38,7 +38,8 @@ api_location:
 -	ntddpcm.h
 api_name:
 -	IOCTL_GET_TUPLE_DATA
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PCMCIA_CONTROLLER_CLASS, *PPCMCIA_CONTROLLER_CLASS
 ---

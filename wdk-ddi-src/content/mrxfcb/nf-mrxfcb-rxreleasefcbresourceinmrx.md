@@ -38,7 +38,8 @@ api_location:
 -	mrxfcb.h
 api_name:
 -	RxReleaseFcbResourceInMRx
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SetDSMCounters_IN, *PSetDSMCounters_IN
 ---

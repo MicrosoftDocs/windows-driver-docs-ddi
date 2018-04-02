@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILREMOVECALLFORWARDINGPARAMS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILREMOVECALLFORWARDINGPARAMS, *LPRILREMOVECALLFORWARDINGPARAMS
 req.product: Windows 10 or later.

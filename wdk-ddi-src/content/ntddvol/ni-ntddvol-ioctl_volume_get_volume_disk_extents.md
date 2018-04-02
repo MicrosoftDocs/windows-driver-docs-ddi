@@ -38,7 +38,8 @@ api_location:
 -	Ntddvol.h
 api_name:
 -	IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: VIDEO_WIN32K_CALLBACKS_PARAMS, *PVIDEO_WIN32K_CALLBACKS_PARAMS
 ---

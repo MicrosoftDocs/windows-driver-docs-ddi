@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILCALLSUPPORTCAPS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILCALLSUPPORTCAPS
 req.product: Windows 10 or later.

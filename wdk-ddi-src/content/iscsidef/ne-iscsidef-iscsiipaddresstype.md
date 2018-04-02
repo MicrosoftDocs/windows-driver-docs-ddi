@@ -38,7 +38,8 @@ api_location:
 -	iscsidef.h
 api_name:
 -	ISCSIIPADDRESSTYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: ISCSIIPADDRESSTYPE, *PISCSIIPADDRESSTYPE
 ---

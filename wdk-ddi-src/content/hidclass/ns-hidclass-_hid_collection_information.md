@@ -38,7 +38,8 @@ api_location:
 -	hidclass.h
 api_name:
 -	HID_COLLECTION_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: HID_COLLECTION_INFORMATION, *PHID_COLLECTION_INFORMATION
 ---

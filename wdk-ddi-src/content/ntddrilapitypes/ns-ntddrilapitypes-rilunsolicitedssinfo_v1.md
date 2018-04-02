@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILUNSOLICITEDSSINFO_V1
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILUNSOLICITEDSSINFO_V1, *LPRILUNSOLICITEDSSINFO_V1
 ---

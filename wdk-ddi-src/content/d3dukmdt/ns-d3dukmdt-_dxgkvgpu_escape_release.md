@@ -38,7 +38,8 @@ api_location:
 -	d3dukmdt.h
 api_name:
 -	DXGKVGPU_ESCAPE_RELEASE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGKVGPU_ESCAPE_RELEASE
 ---

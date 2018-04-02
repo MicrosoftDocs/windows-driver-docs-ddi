@@ -38,7 +38,8 @@ api_location:
 -	prntfont.h
 api_name:
 -	OEMFONTINSTPARAM
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: OEMFONTINSTPARAM, *POEMFONTINSTPARAM
 req.product: Windows 10 or later.

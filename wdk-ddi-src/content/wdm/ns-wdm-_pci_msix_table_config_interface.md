@@ -38,7 +38,8 @@ api_location:
 -	Wdm.h
 api_name:
 -	PCI_MSIX_TABLE_CONFIG_INTERFACE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PCI_MSIX_TABLE_CONFIG_INTERFACE, *PPCI_MSIX_TABLE_CONFIG_INTERFACE
 req.product: Windows 10 or later.

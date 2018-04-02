@@ -38,7 +38,8 @@ api_location:
 -	ntddtape.h
 api_name:
 -	TAPE_DRIVE_PROBLEM_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TAPE_DRIVE_PROBLEM_TYPE
 ---

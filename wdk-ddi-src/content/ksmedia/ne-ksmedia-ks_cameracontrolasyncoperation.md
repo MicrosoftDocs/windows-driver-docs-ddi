@@ -38,7 +38,8 @@ api_location:
 -	Ksmedia.h
 api_name:
 -	KS_CameraControlAsyncOperation
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KS_CameraControlAsyncOperation
 ---

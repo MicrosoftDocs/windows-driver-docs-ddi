@@ -39,7 +39,8 @@ api_location:
 -	ntoskrnl.dll
 api_name:
 -	FsRtlIssueDeviceIoControl
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TOKEN_TYPE
 ---

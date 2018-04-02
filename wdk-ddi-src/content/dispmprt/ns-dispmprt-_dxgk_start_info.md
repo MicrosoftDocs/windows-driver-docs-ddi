@@ -38,7 +38,8 @@ api_location:
 -	dispmprt.h
 api_name:
 -	DXGK_START_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_START_INFO, *PDXGK_START_INFO
 ---

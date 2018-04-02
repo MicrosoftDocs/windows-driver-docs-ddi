@@ -38,7 +38,8 @@ api_location:
 -	ntddk.h
 api_name:
 -	IO_DRIVER_CREATE_CONTEXT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: IO_DRIVER_CREATE_CONTEXT, *PIO_DRIVER_CREATE_CONTEXT
 ---

@@ -42,7 +42,8 @@ api_name:
 -	IDebugClient3.SetProcessOptions
 -	IDebugClient4.SetProcessOptions
 -	IDebugClient5.SetProcessOptions
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---

@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILDIALEDIDSETTINGSPARAMMASK
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILDIALEDIDSETTINGSPARAMMASK
 req.product: Windows 10 or later.

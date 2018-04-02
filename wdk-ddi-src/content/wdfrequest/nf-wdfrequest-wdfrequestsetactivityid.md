@@ -38,7 +38,8 @@ api_location:
 -	WUDFx02000.dll
 api_name:
 -	WdfRequestSetActivityId
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_REQUEST_TYPE
 req.product: Windows 10 or later.

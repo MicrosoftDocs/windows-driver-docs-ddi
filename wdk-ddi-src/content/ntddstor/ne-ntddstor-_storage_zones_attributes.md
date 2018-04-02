@@ -38,7 +38,8 @@ api_location:
 -	Ntddstor.h
 api_name:
 -	STORAGE_ZONES_ATTRIBUTES
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STORAGE_ZONES_ATTRIBUTES, *PSTORAGE_ZONES_ATTRIBUTES
 ---

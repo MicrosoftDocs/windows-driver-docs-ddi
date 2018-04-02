@@ -38,7 +38,8 @@ api_location:
 -	sdplib.h
 api_name:
 -	SdpCreateNodeInt16
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SDCMD_DESCRIPTOR, *PSDCMD_DESCRIPTOR
 req.product: Windows 10 or later.

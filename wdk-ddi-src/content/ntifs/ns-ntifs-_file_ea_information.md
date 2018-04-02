@@ -38,7 +38,8 @@ api_location:
 -	Ntifs.h
 api_name:
 -	FILE_EA_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: FILE_EA_INFORMATION, *PFILE_EA_INFORMATION
 ---

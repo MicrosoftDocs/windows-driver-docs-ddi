@@ -38,7 +38,8 @@ api_location:
 -	iddcx.h
 api_name:
 -	IDDCX_FRAME_STATISTICS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

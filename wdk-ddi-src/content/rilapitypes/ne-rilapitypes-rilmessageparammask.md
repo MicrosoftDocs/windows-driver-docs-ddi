@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILMESSAGEPARAMMASK
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILMESSAGEPARAMMASK
 req.product: Windows 10 or later.

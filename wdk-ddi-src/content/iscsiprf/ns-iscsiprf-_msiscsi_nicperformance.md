@@ -38,7 +38,8 @@ api_location:
 -	iscsiprf.h
 api_name:
 -	MSiSCSI_NICPerformance
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MSiSCSI_NICPerformance, *PMSiSCSI_NICPerformance
 ---

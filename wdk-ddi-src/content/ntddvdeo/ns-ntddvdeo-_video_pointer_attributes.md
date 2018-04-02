@@ -38,7 +38,8 @@ api_location:
 -	ntddvdeo.h
 api_name:
 -	VIDEO_POINTER_ATTRIBUTES
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: VIDEO_POINTER_ATTRIBUTES, *PVIDEO_POINTER_ATTRIBUTES
 ---

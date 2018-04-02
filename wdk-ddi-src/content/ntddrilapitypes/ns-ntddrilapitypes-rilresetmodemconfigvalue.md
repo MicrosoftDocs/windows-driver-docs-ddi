@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILRESETMODEMCONFIGVALUE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILRESETMODEMCONFIGVALUE, *LPRILRESETMODEMCONFIGVALUE
 ---

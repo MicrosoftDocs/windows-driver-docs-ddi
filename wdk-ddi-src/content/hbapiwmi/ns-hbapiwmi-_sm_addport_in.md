@@ -38,7 +38,8 @@ api_location:
 -	hbapiwmi.h
 api_name:
 -	SM_AddPort_IN
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SM_AddPort_IN, *PSM_AddPort_IN
 ---

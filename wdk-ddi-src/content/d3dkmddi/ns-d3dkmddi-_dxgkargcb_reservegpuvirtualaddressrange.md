@@ -38,7 +38,8 @@ api_location:
 -	d3dkmddi.h
 api_name:
 -	DXGKARGCB_RESERVEGPUVIRTUALADDRESSRANGE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGKARGCB_RESERVEGPUVIRTUALADDRESSRANGE
 ---

@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KSAUDIO_PACKETSIZE_CONSTRAINTS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSAUDIO_PACKETSIZE_CONSTRAINTS
 ---

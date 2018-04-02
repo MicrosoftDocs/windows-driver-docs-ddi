@@ -38,7 +38,8 @@ api_location:
 -	iddcx.h
 api_name:
 -	IDD_DRIVER_GLOBALS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: IDD_DRIVER_GLOBALS, *PIDD_DRIVER_GLOBALS, IDD_DRIVER_GLOBALS, *PIDD_DRIVER_GLOBALS
 ---

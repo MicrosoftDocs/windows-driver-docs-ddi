@@ -40,7 +40,8 @@ api_name:
 -	IDebugControl.CoerceValues
 -	IDebugControl2.CoerceValues
 -	IDebugControl3.CoerceValues
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---

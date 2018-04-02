@@ -38,7 +38,8 @@ apilocation:
 -	portcls.h
 apiname:
 -	PCPIN_DESCRIPTOR
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: "*PPCPIN_DESCRIPTOR, PCPIN_DESCRIPTOR"
 ---

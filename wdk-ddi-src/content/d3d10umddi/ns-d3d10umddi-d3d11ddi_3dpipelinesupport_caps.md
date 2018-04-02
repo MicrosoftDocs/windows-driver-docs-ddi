@@ -38,7 +38,8 @@ api_location:
 -	d3d10umddi.h
 api_name:
 -	D3D11DDI_3DPIPELINESUPPORT_CAPS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3D11DDI_3DPIPELINESUPPORT_CAPS
 ---

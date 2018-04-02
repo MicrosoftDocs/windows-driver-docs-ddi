@@ -38,7 +38,8 @@ api_location:
 -	dxva.h
 api_name:
 -	DXVA_PicResample
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXVA_PicResample, *LPDXVA_PicResample
 ---

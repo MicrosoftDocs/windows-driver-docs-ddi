@@ -38,7 +38,8 @@ api_location:
 -	pepfx.h
 api_name:
 -	PEP_PPM_CONTEXT_QUERY_PARKING_PAGE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PEP_PPM_CONTEXT_QUERY_PARKING_PAGE, *PPEP_PPM_CONTEXT_QUERY_PARKING_PAGE
 ---

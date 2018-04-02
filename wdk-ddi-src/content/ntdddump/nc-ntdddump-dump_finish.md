@@ -38,7 +38,8 @@ api_location:
 -	ntdddump.h
 api_name:
 -	Dump_Finish
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: VERIFY_INFORMATION, *PVERIFY_INFORMATION
 ---

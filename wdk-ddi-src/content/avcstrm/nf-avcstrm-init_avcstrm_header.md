@@ -38,7 +38,8 @@ api_location:
 -	avcstrm.h
 api_name:
 -	INIT_AVCSTRM_HEADER
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: AVCSTRM_FUNCTION
 ---

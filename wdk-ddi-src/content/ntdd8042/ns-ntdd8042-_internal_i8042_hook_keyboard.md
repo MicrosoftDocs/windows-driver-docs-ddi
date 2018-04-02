@@ -38,7 +38,8 @@ api_location:
 -	ntdd8042.h
 api_name:
 -	INTERNAL_I8042_HOOK_KEYBOARD
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: INTERNAL_I8042_HOOK_KEYBOARD, *PINTERNAL_I8042_HOOK_KEYBOARD
 ---

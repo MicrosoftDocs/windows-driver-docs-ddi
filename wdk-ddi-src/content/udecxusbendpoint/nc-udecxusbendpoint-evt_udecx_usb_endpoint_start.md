@@ -38,7 +38,8 @@ api_location:
 -	UdecxUsbEndpoint.h
 api_name:
 -	EvtUsbEndpointStart
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: UDECX_USB_ENDPOINT_INIT_AND_METADATA, *PUDECX_USB_ENDPOINT_INIT_AND_METADATA
 req.product: Windows 10 or later.

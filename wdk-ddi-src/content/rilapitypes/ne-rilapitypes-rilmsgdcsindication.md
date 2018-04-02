@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILMSGDCSINDICATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILMSGDCSINDICATION
 req.product: Windows 10 or later.

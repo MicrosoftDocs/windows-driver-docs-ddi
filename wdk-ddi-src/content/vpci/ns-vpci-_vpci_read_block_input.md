@@ -38,7 +38,8 @@ api_location:
 -	Vpci.h
 api_name:
 -	VPCI_READ_BLOCK_INPUT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: VPCI_READ_BLOCK_INPUT, *PVPCI_READ_BLOCK_INPUT
 req.product: Windows 10 or later.

@@ -39,7 +39,8 @@ api_location:
 -	ucmtcpcicxstub.dll
 api_name:
 -	UcmTcpciPortControllerCreate
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: UCMTCPCI_PORT_CONTROLLER_ALERT_TYPE
 req.product: Windows 10 or later.

@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILDRVNOTIFICATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILDRVNOTIFICATION, *LPRILDRVNOTIFICATION
 req.product: Windows 10 or later.

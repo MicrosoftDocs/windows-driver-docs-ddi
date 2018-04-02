@@ -38,7 +38,8 @@ api_location:
 -	wsk.h
 api_name:
 -	WSK_PROVIDER_STREAM_DISPATCH
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WSK_PROVIDER_STREAM_DISPATCH, *PWSK_PROVIDER_STREAM_DISPATCH
 req.product: Windows 10 or later.

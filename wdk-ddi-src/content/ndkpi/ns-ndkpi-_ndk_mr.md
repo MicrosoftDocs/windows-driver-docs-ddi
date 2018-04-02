@@ -38,7 +38,8 @@ api_location:
 -	ndkpi.h
 api_name:
 -	NDK_MR
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDK_MR, NDK_MR
 ---

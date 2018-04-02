@@ -38,7 +38,8 @@ api_location:
 -	1394.h
 api_name:
 -	IRB_REQ_GET_LOCAL_HOST_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: IRB_REQ_GET_LOCAL_HOST_INFORMATION
 ---

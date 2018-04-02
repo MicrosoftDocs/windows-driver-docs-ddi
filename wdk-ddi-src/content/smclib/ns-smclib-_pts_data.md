@@ -38,7 +38,8 @@ api_location:
 -	smclib.h
 api_name:
 -	PTS_DATA
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PTS_DATA, *PPTS_DATA
 req.product: Windows 10 or later.

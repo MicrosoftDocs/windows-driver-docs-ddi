@@ -38,7 +38,8 @@ api_location:
 -	parallel.h
 api_name:
 -	(*PPARALLEL_QUERY_WAITERS_ROUTINE)
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILGBATOKEN, *LPRILGBATOKEN
 ---

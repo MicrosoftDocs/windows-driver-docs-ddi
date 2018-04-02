@@ -38,7 +38,8 @@ api_location:
 -	Ndis.h
 api_name:
 -	MiniportSynchronousOidRequest
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---

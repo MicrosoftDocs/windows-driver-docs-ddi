@@ -38,7 +38,8 @@ api_location:
 -	d3dhal.h
 api_name:
 -	D3dDrawPrimitives2
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DTRANSFORMCAPS, *LPD3DTRANSFORMCAPS
 ---

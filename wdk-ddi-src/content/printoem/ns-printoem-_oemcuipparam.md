@@ -38,7 +38,8 @@ api_location:
 -	printoem.h
 api_name:
 -	OEMCUIPPARAM
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: "*POEMCUIPPARAM, OEMCUIPPARAM"
 req.product: Windows 10 or later.

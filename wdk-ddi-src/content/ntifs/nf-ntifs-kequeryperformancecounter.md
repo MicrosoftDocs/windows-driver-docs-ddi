@@ -38,7 +38,8 @@ api_location:
 -	Hal.dll
 api_name:
 -	KeQueryPerformanceCounter
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TOKEN_TYPE
 ---

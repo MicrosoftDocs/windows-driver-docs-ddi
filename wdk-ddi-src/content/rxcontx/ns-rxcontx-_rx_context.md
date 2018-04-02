@@ -38,7 +38,8 @@ api_location:
 -	rxcontx.h
 api_name:
 -	RX_CONTEXT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RX_CONTEXT, *PRX_CONTEXT
 req.product: Windows 10 or later.

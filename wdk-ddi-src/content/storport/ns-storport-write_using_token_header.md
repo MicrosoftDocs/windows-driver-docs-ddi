@@ -38,7 +38,8 @@ api_location:
 -	scsi.h
 api_name:
 -	WRITE_USING_TOKEN_HEADER
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WRITE_USING_TOKEN_HEADER, *PWRITE_USING_TOKEN_HEADER
 req.product: Windows 10 or later.

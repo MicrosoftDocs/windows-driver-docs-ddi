@@ -38,7 +38,8 @@ api_location:
 -	D3dumddi.h
 api_name:
 -	pfnPresentMultiPlaneOverlayCb
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_PTE
 ---

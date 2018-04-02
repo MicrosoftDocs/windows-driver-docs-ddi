@@ -38,7 +38,8 @@ api_location:
 -	Ntifs.h
 api_name:
 -	SYSTEM_PROCESS_TRUST_LABEL_ACE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SYSTEM_PROCESS_TRUST_LABEL_ACE, *PSYSTEM_PROCESS_TRUST_LABEL_ACE
 ---

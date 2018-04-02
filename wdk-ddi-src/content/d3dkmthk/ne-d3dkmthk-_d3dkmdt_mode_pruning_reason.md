@@ -38,7 +38,8 @@ api_location:
 -	d3dkmthk.h
 api_name:
 -	D3DKMDT_MODE_PRUNING_REASON
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DKMDT_MODE_PRUNING_REASON
 ---

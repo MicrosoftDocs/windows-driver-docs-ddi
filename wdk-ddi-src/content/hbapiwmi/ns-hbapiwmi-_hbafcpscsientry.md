@@ -38,7 +38,8 @@ api_location:
 -	hbapiwmi.h
 api_name:
 -	HBAFCPScsiEntry
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: HBAFCPScsiEntry, *PHBAFCPScsiEntry
 ---

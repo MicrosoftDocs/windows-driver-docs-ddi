@@ -38,7 +38,8 @@ api_location:
 -	hbapiwmi.h
 api_name:
 -	AddTarget_OUT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: AddTarget_OUT, *PAddTarget_OUT
 ---

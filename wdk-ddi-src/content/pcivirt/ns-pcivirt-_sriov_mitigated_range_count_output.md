@@ -38,7 +38,8 @@ api_location:
 -	Pcivirt.h
 api_name:
 -	SRIOV_MITIGATED_RANGE_COUNT_OUTPUT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SRIOV_MITIGATED_RANGE_COUNT_OUTPUT, *PSRIOV_MITIGATED_RANGE_COUNT_OUTPUT
 ---

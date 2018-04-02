@@ -38,7 +38,8 @@ api_location:
 -	usbfnbase.h
 api_name:
 -	USBFN_EVENT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USBFN_EVENT, *PUSBFN_EVENT
 req.product: Windows 10 or later.

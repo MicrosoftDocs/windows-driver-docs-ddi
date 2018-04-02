@@ -39,7 +39,8 @@ api_location:
 api_name:
 -	IWDTFNumbers2.Item
 -	IWDTFNumbers2.get_Item
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TTraceLevel
 req.product: Windows 10 or later.

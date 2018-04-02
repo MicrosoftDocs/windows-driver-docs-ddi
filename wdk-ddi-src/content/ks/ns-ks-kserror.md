@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KSERROR
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSERROR, *PKSERROR
 ---

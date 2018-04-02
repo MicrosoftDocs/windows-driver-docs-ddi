@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RIL3GPP2TONE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RIL3GPP2TONE
 req.product: Windows 10 or later.

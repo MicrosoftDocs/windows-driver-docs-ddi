@@ -38,7 +38,8 @@ api_location:
 -	1394.h
 api_name:
 -	SELF_ID_MORE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SELF_ID_MORE, *PSELF_ID_MORE
 ---

@@ -38,7 +38,8 @@ api_location:
 -	wditypes.hpp
 api_name:
 -	WDI_ASSOC_STATUS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDI_ASSOC_STATUS
 req.product: Windows 10 or later.

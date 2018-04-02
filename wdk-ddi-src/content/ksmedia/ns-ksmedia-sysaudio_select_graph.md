@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	SYSAUDIO_SELECT_GRAPH
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SYSAUDIO_SELECT_GRAPH, *PSYSAUDIO_SELECT_GRAPH
 ---

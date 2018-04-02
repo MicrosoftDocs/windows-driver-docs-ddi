@@ -38,7 +38,8 @@ api_location:
 -	ufxclient.h
 api_name:
 -	UFX_ENDPOINT_CALLBACKS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: UFX_ENDPOINT_CALLBACKS, *PUFX_ENDPOINT_CALLBACKS
 req.product: Windows 10 or later.

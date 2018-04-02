@@ -38,7 +38,8 @@ api_location:
 -	wdfdmaenabler.h
 api_name:
 -	WDF_DMA_ENABLER_CONFIG
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_DMA_ENABLER_CONFIG, *PWDF_DMA_ENABLER_CONFIG
 req.product: Windows 10 or later.

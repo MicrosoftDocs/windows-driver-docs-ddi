@@ -38,7 +38,8 @@ api_location:
 -	iscsiop.h
 api_name:
 -	AddiSNSServer_OUT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: AddiSNSServer_OUT, *PAddiSNSServer_OUT
 ---

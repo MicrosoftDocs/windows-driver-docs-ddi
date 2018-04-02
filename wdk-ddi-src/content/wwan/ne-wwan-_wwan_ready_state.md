@@ -38,7 +38,8 @@ api_location:
 -	wwan.h
 api_name:
 -	WWAN_READY_STATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WWAN_READY_STATE, *PWWAN_READY_STATE
 req.product: Windows 10 or later.

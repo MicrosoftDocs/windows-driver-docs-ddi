@@ -38,7 +38,8 @@ api_location:
 -	Wudfddi.h
 api_name:
 -	UMDF_IO_TARGET_OPEN_PARAMS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: UMDF_IO_TARGET_OPEN_PARAMS, *PUMDF_IO_TARGET_OPEN_PARAMS
 req.product: Windows 10 or later.

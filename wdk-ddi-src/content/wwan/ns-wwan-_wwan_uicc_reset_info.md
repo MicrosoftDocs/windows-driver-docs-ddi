@@ -38,7 +38,8 @@ api_location:
 -	wwan.h
 api_name:
 -	WWAN_UICC_RESET_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WWAN_UICC_RESET_INFO, *PWWAN_UICC_RESET_INFO
 req.product: Windows 10 or later.

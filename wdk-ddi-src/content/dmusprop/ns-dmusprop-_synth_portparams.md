@@ -38,7 +38,8 @@ api_location:
 -	dmusprop.h
 api_name:
 -	SYNTH_PORTPARAMS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SYNTH_PORTPARAMS, *PSYNTH_PORTPARAMS
 ---

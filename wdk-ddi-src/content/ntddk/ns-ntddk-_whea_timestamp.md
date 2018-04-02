@@ -38,7 +38,8 @@ api_location:
 -	ntddk.h
 api_name:
 -	WHEA_TIMESTAMP
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WHEA_TIMESTAMP, *PWHEA_TIMESTAMP
 ---

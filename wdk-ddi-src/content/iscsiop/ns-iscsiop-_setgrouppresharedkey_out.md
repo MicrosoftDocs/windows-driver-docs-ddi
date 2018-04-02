@@ -38,7 +38,8 @@ api_location:
 -	iscsiop.h
 api_name:
 -	SetGroupPresharedKey_OUT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SetGroupPresharedKey_OUT, *PSetGroupPresharedKey_OUT
 ---

@@ -38,7 +38,8 @@ api_location:
 -	ntifs.h
 api_name:
 -	SE_SID
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SE_SID, *PSE_SID
 ---

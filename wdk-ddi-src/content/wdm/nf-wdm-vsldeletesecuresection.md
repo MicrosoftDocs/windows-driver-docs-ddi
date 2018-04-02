@@ -37,7 +37,8 @@ api_location:
 -
 api_name:
 -	VslDeleteSecureSection
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.

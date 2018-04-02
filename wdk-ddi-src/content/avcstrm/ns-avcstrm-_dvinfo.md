@@ -38,7 +38,8 @@ api_location:
 -	avcstrm.h
 api_name:
 -	DVINFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DVINFO, *PDVINFO
 ---

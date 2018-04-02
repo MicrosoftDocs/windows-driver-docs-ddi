@@ -39,7 +39,8 @@ api_location:
 -	Ucxstubs.dll
 api_name:
 -	UcxControllerNotifyTransportCharacteristicsChange
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: UCX_CONTROLLER_STATE
 req.product: Windows 10 or later.

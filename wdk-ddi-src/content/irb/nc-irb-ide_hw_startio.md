@@ -38,7 +38,8 @@ api_location:
 -	irb.h
 api_name:
 -	IdeHwStartIo
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: IDD_DRIVER_GLOBALS, *PIDD_DRIVER_GLOBALS, IDD_DRIVER_GLOBALS, *PIDD_DRIVER_GLOBALS
 ---

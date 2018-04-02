@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KSAUDIO_MICROPHONE_COORDINATES
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSAUDIO_MICROPHONE_COORDINATES, *PKSAUDIO_MICROPHONE_COORDINATES
 ---

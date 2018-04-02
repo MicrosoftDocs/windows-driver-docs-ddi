@@ -38,7 +38,8 @@ api_location:
 -	Ucmtypes.h
 api_name:
 -	UCM_PD_POWER_DATA_OBJECT_INIT_FIXED
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: UCM_TYPEC_PARTNER
 req.product: Windows 10 or later.

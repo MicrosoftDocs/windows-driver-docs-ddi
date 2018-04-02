@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KSNODE_CREATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSNODE_CREATE, *PKSNODE_CREATE
 ---

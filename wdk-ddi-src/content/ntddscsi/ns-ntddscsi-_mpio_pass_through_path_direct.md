@@ -38,7 +38,8 @@ api_location:
 -	ntddscsi.h
 api_name:
 -	MPIO_PASS_THROUGH_PATH_DIRECT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MPIO_PASS_THROUGH_PATH_DIRECT, *PMPIO_PASS_THROUGH_PATH_DIRECT
 ---

@@ -38,7 +38,8 @@ api_location:
 -	ntdddisk.h
 api_name:
 -	PARTITION_INFORMATION_GPT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PARTITION_INFORMATION_GPT, *PPARTITION_INFORMATION_GPT
 ---

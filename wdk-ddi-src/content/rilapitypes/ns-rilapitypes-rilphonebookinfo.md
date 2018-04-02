@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILPHONEBOOKINFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILPHONEBOOKINFO, *LPRILPHONEBOOKINFO
 req.product: Windows 10 or later.

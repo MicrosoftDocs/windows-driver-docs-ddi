@@ -38,7 +38,8 @@ api_location:
 -	ndis.h
 api_name:
 -	NdisMCompleteDmaTransfer
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---

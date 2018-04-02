@@ -38,7 +38,8 @@ api_location:
 -	hbapiwmi.h
 api_name:
 -	SM_RemovePersistentBinding_IN
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SM_RemovePersistentBinding_IN, *PSM_RemovePersistentBinding_IN
 ---

@@ -38,7 +38,8 @@ api_location:
 -	wdm.h
 api_name:
 -	IO_SESSION_STATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: IO_SESSION_STATE, *PIO_SESSION_STATE
 req.product: Windows 10 or later.

@@ -40,7 +40,8 @@ api_location:
 api_name:
 -	WdmlibIoCreateDeviceSecure
 -	IoCreateDeviceSecure
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WORK_QUEUE_ITEM, *PWORK_QUEUE_ITEM
 req.product: Windows 10 or later.

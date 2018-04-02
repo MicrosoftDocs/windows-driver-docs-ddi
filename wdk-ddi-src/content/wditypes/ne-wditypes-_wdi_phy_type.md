@@ -38,7 +38,8 @@ api_location:
 -	wditypes.hpp
 api_name:
 -	WDI_PHY_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDI_PHY_TYPE
 req.product: Windows 10 or later.

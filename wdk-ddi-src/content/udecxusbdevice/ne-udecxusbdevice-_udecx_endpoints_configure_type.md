@@ -38,7 +38,8 @@ api_location:
 -	udecxusbdevice.h
 api_name:
 -	UDECX_ENDPOINTS_CONFIGURE_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: UDECX_ENDPOINTS_CONFIGURE_TYPE, *PUDECX_ENDPOINTS_CONFIGURE_TYPE
 req.product: Windows 10 or later.

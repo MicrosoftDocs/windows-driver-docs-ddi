@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILSETNOTIFICATIONFILTERSTATEPARAMS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILSETNOTIFICATIONFILTERSTATEPARAMS, *LPRILSETNOTIFICATIONFILTERSTATEPARAMS
 req.product: Windows 10 or later.

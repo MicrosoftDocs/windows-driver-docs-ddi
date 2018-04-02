@@ -38,7 +38,8 @@ api_location:
 -	gnssdriver.h
 api_name:
 -	GNSS_FIXDATA_ACCURACY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GNSS_FIXDATA_ACCURACY, *PGNSS_FIXDATA_ACCURACY
 ---

@@ -38,7 +38,8 @@ api_location:
 -	wwan.h
 api_name:
 -	WWAN_SMS_SEND_CDMA
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WWAN_SMS_SEND_CDMA, *PWWAN_SMS_SEND_CDMA
 req.product: Windows 10 or later.

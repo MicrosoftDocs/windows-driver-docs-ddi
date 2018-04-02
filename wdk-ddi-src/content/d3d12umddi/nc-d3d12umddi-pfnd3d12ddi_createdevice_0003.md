@@ -38,7 +38,8 @@ api_location:
 -	d3d12umddi.h
 api_name:
 -	PFND3D12DDI_CREATEDEVICE_0003
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3D11_1DDI_GETCAPTUREHANDLEDATA
 ---

@@ -38,7 +38,8 @@ api_location:
 -	fltkernel.h
 api_name:
 -	FLT_CONTEXT_REGISTRATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: FLT_CONTEXT_REGISTRATION, *PFLT_CONTEXT_REGISTRATION
 ---

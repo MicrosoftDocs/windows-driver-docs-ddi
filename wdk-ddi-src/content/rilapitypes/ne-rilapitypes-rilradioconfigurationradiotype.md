@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILRADIOCONFIGURATIONRADIOTYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILRADIOCONFIGURATIONRADIOTYPE
 req.product: Windows 10 or later.

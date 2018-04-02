@@ -38,7 +38,8 @@ api_location:
 -	miniport.h
 api_name:
 -	PROCESSOR_NUMBER
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PROCESSOR_NUMBER, *PPROCESSOR_NUMBER
 ---

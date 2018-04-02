@@ -42,7 +42,8 @@ api_name:
 -	IDebugClient3.SetOutputCallbacks
 -	IDebugClient4.SetOutputCallbacks
 -	IDebugClient5.SetOutputCallbacks
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---

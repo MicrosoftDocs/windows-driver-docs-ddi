@@ -38,7 +38,8 @@ api_location:
 -	ndis.h
 api_name:
 -	NDIS_RESTART_ATTRIBUTES
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_RESTART_ATTRIBUTES, *PNDIS_RESTART_ATTRIBUTES, NDIS_RESTART_ATTRIBUTES, *PNDIS_RESTART_ATTRIBUTES
 ---

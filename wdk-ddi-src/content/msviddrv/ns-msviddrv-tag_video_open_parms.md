@@ -38,7 +38,8 @@ api_location:
 -	Msviddrv.h
 api_name:
 -	VIDEO_OPEN_PARMS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: VIDEO_OPEN_PARMS, *LPVIDEO_OPEN_PARMS
 ---

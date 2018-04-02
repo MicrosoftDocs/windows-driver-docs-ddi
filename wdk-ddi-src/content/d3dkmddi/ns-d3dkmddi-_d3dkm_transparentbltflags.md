@@ -38,7 +38,8 @@ api_location:
 -	d3dkmddi.h
 api_name:
 -	D3DKM_TRANSPARENTBLTFLAGS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DKM_TRANSPARENTBLTFLAGS
 ---

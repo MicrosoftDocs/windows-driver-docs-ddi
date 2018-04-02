@@ -38,7 +38,8 @@ api_location:
 -	dbgeng.h
 api_name:
 -	WritePhysical
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: EXT_TDOP
 req.product: Windows 10 or later.

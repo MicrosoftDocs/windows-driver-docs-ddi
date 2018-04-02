@@ -38,7 +38,8 @@ api_location:
 -	Wudfddi_types.h
 api_name:
 -	WDF_KPROCESSOR_MODE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_KPROCESSOR_MODE, *PWDF_KPROCESSOR_MODE
 req.product: Windows 10 or later.

@@ -38,7 +38,8 @@ api_location:
 -	mxdc.h
 api_name:
 -	MxdcGetPDEVAdjustment
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
 ---

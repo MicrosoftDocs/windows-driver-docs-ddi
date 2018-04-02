@@ -38,7 +38,8 @@ api_location:
 -	d3d10umddi.h
 api_name:
 -	QueryEnd
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 ---

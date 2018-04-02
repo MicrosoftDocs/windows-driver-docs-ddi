@@ -38,7 +38,8 @@ api_location:
 -	WdfDmaTransaction.h
 api_name:
 -	EvtDmaTransactionDmaTransferComplete
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_DMA_SYSTEM_PROFILE_CONFIG, *PWDF_DMA_SYSTEM_PROFILE_CONFIG
 req.product: Windows 10 or later.

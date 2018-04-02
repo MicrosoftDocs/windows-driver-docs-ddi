@@ -38,7 +38,8 @@ api_location:
 -	iscsimgt.h
 api_name:
 -	MSiSCSI_HBAInformation
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MSiSCSI_HBAInformation, *PMSiSCSI_HBAInformation
 ---

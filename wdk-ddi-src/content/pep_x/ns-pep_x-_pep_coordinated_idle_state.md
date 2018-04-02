@@ -38,7 +38,8 @@ api_location:
 -	pepfx.h
 api_name:
 -	PEP_COORDINATED_IDLE_STATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PEP_COORDINATED_IDLE_STATE, *PPEP_COORDINATED_IDLE_STATE, PEP_COORDINATED_IDLE_STATE, *PPEP_COORDINATED_IDLE_STATE
 ---

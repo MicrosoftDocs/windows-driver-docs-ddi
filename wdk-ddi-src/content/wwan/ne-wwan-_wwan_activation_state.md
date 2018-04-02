@@ -38,7 +38,8 @@ api_location:
 -	wwan.h
 api_name:
 -	WWAN_ACTIVATION_STATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WWAN_ACTIVATION_STATE, *PWWAN_ACTIVATION_STATE
 req.product: Windows 10 or later.

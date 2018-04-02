@@ -38,7 +38,8 @@ api_location:
 -	iscsifnd.h
 api_name:
 -	ISCSI_DiscoveredTarget2
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: ISCSI_DiscoveredTarget2, *PISCSI_DiscoveredTarget2
 ---

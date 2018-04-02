@@ -38,7 +38,8 @@ api_location:
 -	fwpsk.h
 api_name:
 -	FwpsNetBufferListNotifyFN0
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: INSTANCE_PARTIAL_INFORMATION, PINSTANCE_PARTIAL_INFORMATION
 ---

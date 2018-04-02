@@ -39,7 +39,8 @@ api_location:
 api_name:
 -	IDebugControl2.RemoveTextReplacements
 -	IDebugControl3.RemoveTextReplacements
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---

@@ -38,7 +38,8 @@ api_location:
 -	dot11wdi.h
 api_name:
 -	WDI_FRAME_PAYLOAD_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDI_FRAME_PAYLOAD_TYPE
 ---

@@ -38,7 +38,8 @@ api_location:
 -	iddcx.h
 api_name:
 -	IDDCX_OPM_GET_INFO_PARAMETERS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

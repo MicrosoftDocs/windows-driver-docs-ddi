@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KSAC3_ERROR_CONCEALMENT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSAC3_ERROR_CONCEALMENT, *PKSAC3_ERROR_CONCEALMENT
 ---

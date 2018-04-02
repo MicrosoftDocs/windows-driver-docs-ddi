@@ -38,7 +38,8 @@ api_location:
 -	Ntdddisk.h
 api_name:
 -	IOCTL_DISK_GET_CACHE_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DETECTION_TYPE
 ---

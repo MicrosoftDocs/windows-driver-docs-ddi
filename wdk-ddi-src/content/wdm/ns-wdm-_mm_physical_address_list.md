@@ -38,7 +38,8 @@ api_location:
 -	Wdm.h
 api_name:
 -	MM_PHYSICAL_ADDRESS_LIST
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MM_PHYSICAL_ADDRESS_LIST, *PMM_PHYSICAL_ADDRESS_LIST
 req.product: Windows 10 or later.

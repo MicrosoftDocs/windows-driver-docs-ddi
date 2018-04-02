@@ -38,7 +38,8 @@ api_location:
 -	Wpprecorder.h
 api_name:
 -	WPP_TRIAGE_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WPP_TRIAGE_INFO, *PWPP_TRIAGE_INFO
 req.product: Windows 10 or later.

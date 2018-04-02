@@ -38,7 +38,8 @@ api_location:
 -	ntddcdrm.h
 api_name:
 -	SUB_Q_CURRENT_POSITION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SUB_Q_CURRENT_POSITION, *PSUB_Q_CURRENT_POSITION
 ---

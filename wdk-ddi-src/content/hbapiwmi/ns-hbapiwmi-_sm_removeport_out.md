@@ -38,7 +38,8 @@ api_location:
 -	hbapiwmi.h
 api_name:
 -	SM_RemovePort_OUT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SM_RemovePort_OUT, *PSM_RemovePort_OUT
 ---

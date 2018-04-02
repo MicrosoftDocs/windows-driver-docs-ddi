@@ -38,7 +38,8 @@ api_location:
 -	61883.h
 api_name:
 -	SET_UNIT_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SET_UNIT_INFO, *PSET_UNIT_INFO
 ---

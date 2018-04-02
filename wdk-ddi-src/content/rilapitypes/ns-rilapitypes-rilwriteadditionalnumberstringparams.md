@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILWRITEADDITIONALNUMBERSTRINGPARAMS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILWRITEADDITIONALNUMBERSTRINGPARAMS, *LPRILWRITEADDITIONALNUMBERSTRINGPARAMS
 req.product: Windows 10 or later.

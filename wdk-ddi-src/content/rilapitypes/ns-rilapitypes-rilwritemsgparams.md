@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILWRITEMSGPARAMS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILWRITEMSGPARAMS, *LPRILWRITEMSGPARAMS
 req.product: Windows 10 or later.

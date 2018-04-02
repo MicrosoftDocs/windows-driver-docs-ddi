@@ -38,7 +38,8 @@ api_location:
 -	parallel.h
 api_name:
 -	ParallelTryAllocateRoutine
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILGBATOKEN, *LPRILGBATOKEN
 ---

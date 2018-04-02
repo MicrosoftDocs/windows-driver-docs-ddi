@@ -38,7 +38,8 @@ api_location:
 -	fltkernel.h
 api_name:
 -	FLT_RELATED_OBJECTS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: FLT_RELATED_OBJECTS, *PFLT_RELATED_OBJECTS
 ---

@@ -38,7 +38,8 @@ api_location:
 -	Wiamindr_lh.h
 api_name:
 -	IWiaMiniDrvTransferCallback
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SCANWINDOW, *PSCANWINDOW
 req.product: Windows 10 or later.

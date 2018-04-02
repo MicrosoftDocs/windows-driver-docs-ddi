@@ -42,7 +42,8 @@ api_name:
 -	IDebugClient3.RemoveProcessOptions
 -	IDebugClient4.RemoveProcessOptions
 -	IDebugClient5.RemoveProcessOptions
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---

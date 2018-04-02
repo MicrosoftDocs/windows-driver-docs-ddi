@@ -38,7 +38,8 @@ api_location:
 -	d3d9types.h
 api_name:
 -	D3DRENDERSTATETYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DRENDERSTATETYPE
 ---

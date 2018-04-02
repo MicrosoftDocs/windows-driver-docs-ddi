@@ -38,7 +38,8 @@ api_location:
 -	mountmgr.h
 api_name:
 -	MOUNTMGR_DRIVE_LETTER_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MOUNTMGR_DRIVE_LETTER_INFORMATION, *PMOUNTMGR_DRIVE_LETTER_INFORMATION
 ---

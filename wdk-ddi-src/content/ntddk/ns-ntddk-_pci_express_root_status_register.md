@@ -38,7 +38,8 @@ api_location:
 -	ntddk.h
 api_name:
 -	PCI_EXPRESS_ROOT_STATUS_REGISTER
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PCI_EXPRESS_ROOT_STATUS_REGISTER, *PPCI_EXPRESS_ROOT_STATUS_REGISTER
 ---

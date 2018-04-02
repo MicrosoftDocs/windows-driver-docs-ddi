@@ -38,7 +38,8 @@ api_location:
 -	ntddcdvd.h
 api_name:
 -	AACS_SERIAL_NUMBER
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: AACS_SERIAL_NUMBER, *PAACS_SERIAL_NUMBER
 ---

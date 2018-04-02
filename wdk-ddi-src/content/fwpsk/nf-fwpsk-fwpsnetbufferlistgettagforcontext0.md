@@ -39,7 +39,8 @@ api_location:
 -	fwpkclnt.dll
 api_name:
 -	FwpsNetBufferListGetTagForContext0
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: FWPS_VSWITCH_EVENT_TYPE
 ---

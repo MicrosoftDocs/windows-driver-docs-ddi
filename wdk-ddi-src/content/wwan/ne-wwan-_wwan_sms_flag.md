@@ -38,7 +38,8 @@ api_location:
 -	wwan.h
 api_name:
 -	WWAN_SMS_FLAG
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WWAN_SMS_FLAG, *PWWAN_SMS_FLAG
 req.product: Windows 10 or later.

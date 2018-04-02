@@ -38,7 +38,8 @@ api_location:
 -	winsplp.h
 api_name:
 -	MONITORUI
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MONITORUI, *PMONITORUI
 req.product: Windows 10 or later.

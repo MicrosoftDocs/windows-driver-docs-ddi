@@ -38,7 +38,8 @@ api_location:
 -	Bdatypes.h
 api_name:
 -	BDA_RATING_PINRESET
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BDA_RATING_PINRESET, *PBDA_RATING_PINRESET
 ---

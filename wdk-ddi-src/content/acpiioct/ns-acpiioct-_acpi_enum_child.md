@@ -38,7 +38,8 @@ api_location:
 -	Acpiioct.h
 api_name:
 -	ACPI_ENUM_CHILD
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: ACPI_ENUM_CHILD
 ---

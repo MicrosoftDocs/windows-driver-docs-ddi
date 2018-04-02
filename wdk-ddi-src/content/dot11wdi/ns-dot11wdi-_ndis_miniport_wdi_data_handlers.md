@@ -38,7 +38,8 @@ api_location:
 -	dot11wdi.h
 api_name:
 -	NDIS_MINIPORT_WDI_DATA_HANDLERS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_MINIPORT_WDI_DATA_HANDLERS, *PNDIS_MINIPORT_WDI_DATA_HANDLERS
 ---

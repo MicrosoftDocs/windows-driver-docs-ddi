@@ -38,7 +38,8 @@ api_location:
 -	wsk.h
 api_name:
 -	WSK_DATAGRAM_INDICATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WSK_DATAGRAM_INDICATION, *PWSK_DATAGRAM_INDICATION
 req.product: Windows 10 or later.

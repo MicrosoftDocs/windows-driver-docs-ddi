@@ -38,7 +38,8 @@ api_location:
 -	winsplp.h
 api_name:
 -	SPLCLIENT_INFO_1
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SPLCLIENT_INFO_1, *PSPLCLIENT_INFO_1, *LPSPLCLIENT_INFO_1
 req.product: Windows 10 or later.

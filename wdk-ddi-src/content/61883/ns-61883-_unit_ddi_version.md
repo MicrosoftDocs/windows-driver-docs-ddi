@@ -38,7 +38,8 @@ api_location:
 -	61883.h
 api_name:
 -	UNIT_DDI_VERSION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: UNIT_DDI_VERSION, *PUNIT_DDI_VERSION
 ---

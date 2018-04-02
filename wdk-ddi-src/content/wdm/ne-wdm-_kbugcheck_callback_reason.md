@@ -38,7 +38,8 @@ api_location:
 -	Wdm.h
 api_name:
 -	KBUGCHECK_CALLBACK_REASON
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KBUGCHECK_CALLBACK_REASON
 req.product: Windows 10 or later.

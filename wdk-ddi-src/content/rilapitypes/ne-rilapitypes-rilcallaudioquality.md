@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILCALLAUDIOQUALITY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILCALLAUDIOQUALITY
 req.product: Windows 10 or later.

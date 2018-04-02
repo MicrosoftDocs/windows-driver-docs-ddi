@@ -40,7 +40,8 @@ api_name:
 -	IDebugControl.GetInterruptTimeout
 -	IDebugControl2.GetInterruptTimeout
 -	IDebugControl3.GetInterruptTimeout
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---

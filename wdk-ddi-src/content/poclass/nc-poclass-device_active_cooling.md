@@ -38,7 +38,8 @@ api_location:
 -	Poclass.h
 api_name:
 -	ActiveCooling
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PMI_THRESHOLD_CONFIGURATION, *PPMI_THRESHOLD_CONFIGURATION
 ---

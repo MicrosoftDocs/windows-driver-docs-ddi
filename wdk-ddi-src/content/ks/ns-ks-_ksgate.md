@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KSGATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSGATE, *PKSGATE
 ---

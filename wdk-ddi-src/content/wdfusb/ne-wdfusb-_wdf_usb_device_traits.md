@@ -38,7 +38,8 @@ api_location:
 -	wdfusb.h
 api_name:
 -	WDF_USB_DEVICE_TRAITS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_USB_DEVICE_TRAITS
 req.product: Windows 10 or later.

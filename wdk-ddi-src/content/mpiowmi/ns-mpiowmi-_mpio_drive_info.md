@@ -38,7 +38,8 @@ api_location:
 -	mpiowmi.h
 api_name:
 -	MPIO_DRIVE_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MPIO_DRIVE_INFO, *PMPIO_DRIVE_INFO
 ---

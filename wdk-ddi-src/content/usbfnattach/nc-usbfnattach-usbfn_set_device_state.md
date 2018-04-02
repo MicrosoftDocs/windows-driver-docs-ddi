@@ -38,7 +38,8 @@ api_location:
 -	usbfnattach.h
 api_name:
 -	USBFN_SET_DEVICE_STATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USBD_INTERFACE_LIST_ENTRY, *PUSBD_INTERFACE_LIST_ENTRY
 req.product: Windows 10 or later.

@@ -38,7 +38,8 @@ api_location:
 -	KNetPwrDepBroker.h
 api_name:
 -	NpdBrokerAcquireWithTimeout
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SOUNDDETECTOR_PATTERNHEADER
 ---

@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KSDS3D_ITD_PARAMS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSDS3D_ITD_PARAMS, *PKSDS3D_ITD_PARAMS
 ---

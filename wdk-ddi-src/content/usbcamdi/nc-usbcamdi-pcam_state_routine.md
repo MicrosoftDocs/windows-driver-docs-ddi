@@ -38,7 +38,8 @@ api_location:
 -	usbcamdi.h
 api_name:
 -	MyCamState
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USB_BUS_INTERFACE_USBDI_V3, *PUSB_BUS_INTERFACE_USBDI_V3
 req.product: Windows 10 or later.
