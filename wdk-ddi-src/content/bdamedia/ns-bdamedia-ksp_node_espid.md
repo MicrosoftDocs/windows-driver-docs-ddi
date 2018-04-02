@@ -38,7 +38,8 @@ api_location:
 -	bdamedia.h
 api_name:
 -	KSP_NODE_ESPID
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSP_NODE_ESPID, *PKSP_NODE_ESPID
 ---

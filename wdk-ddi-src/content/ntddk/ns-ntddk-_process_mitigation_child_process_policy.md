@@ -38,7 +38,8 @@ api_location:
 -	Ntddk.h
 api_name:
 -	PROCESS_MITIGATION_CHILD_PROCESS_POLICY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PROCESS_MITIGATION_CHILD_PROCESS_POLICY, *PPROCESS_MITIGATION_CHILD_PROCESS_POLICY
 ---

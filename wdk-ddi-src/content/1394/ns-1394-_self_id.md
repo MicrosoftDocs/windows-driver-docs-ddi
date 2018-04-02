@@ -38,7 +38,8 @@ api_location:
 -	1394.h
 api_name:
 -	SELF_ID
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SELF_ID, *PSELF_ID
 ---

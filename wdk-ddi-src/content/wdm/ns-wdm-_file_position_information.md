@@ -38,7 +38,8 @@ api_location:
 -	Wdm.h
 api_name:
 -	FILE_POSITION_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: FILE_POSITION_INFORMATION, *PFILE_POSITION_INFORMATION
 req.product: Windows 10 or later.

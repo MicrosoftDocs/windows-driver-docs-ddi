@@ -38,7 +38,8 @@ api_location:
 -	ndiswwan.h
 api_name:
 -	NDIS_WWAN_PIN_LIST
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_WWAN_PIN_LIST, *PNDIS_WWAN_PIN_LIST
 ---

@@ -38,7 +38,8 @@ api_location:
 -	ntifs.h
 api_name:
 -	ECP_OPEN_PARAMETERS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: ECP_OPEN_PARAMETERS, *PECP_OPEN_PARAMETERS
 ---

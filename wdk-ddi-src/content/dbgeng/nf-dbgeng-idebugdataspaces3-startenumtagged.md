@@ -39,7 +39,8 @@ api_location:
 api_name:
 -	IDebugDataSpaces3.StartEnumTagged
 -	IDebugDataSpaces4.StartEnumTagged
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---

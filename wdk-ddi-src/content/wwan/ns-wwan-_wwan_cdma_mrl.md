@@ -38,7 +38,8 @@ api_location:
 -	wwan.h
 api_name:
 -	WWAN_CDMA_MRL
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WWAN_CDMA_MRL, *PWWAN_CDMA_MRL
 req.product: Windows 10 or later.

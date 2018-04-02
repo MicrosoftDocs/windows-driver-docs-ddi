@@ -38,7 +38,8 @@ api_location:
 -	Prnasntp.h
 api_name:
 -	IPrintAsyncCookie.FinishAsyncCall
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USERDATA, *PUSERDATA
 req.product: Windows 10 or later.

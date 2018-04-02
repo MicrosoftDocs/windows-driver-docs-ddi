@@ -38,7 +38,8 @@ api_location:
 -	printoem.h
 api_name:
 -	DEVOBJ
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: "*PDEVOBJ, DEVOBJ"
 req.product: Windows 10 or later.

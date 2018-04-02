@@ -38,7 +38,8 @@ api_location:
 -	Ksproxy.h
 api_name:
 -	PIPE_STATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PIPE_STATE
 ---

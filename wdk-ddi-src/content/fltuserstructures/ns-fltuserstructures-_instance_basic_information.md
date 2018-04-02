@@ -38,7 +38,8 @@ api_location:
 -	fltuserstructures.h
 api_name:
 -	INSTANCE_BASIC_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: INSTANCE_BASIC_INFORMATION, PINSTANCE_BASIC_INFORMATION
 ---

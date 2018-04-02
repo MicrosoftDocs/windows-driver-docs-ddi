@@ -38,7 +38,8 @@ api_location:
 -	iddcx.h
 api_name:
 -	IDARG_IN_OPM_SET_SIGNING_KEY_AND_SEQUENCE_NUMBERS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

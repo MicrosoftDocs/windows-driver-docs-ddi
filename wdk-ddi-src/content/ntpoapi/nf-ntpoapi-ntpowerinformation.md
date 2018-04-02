@@ -39,7 +39,8 @@ api_location:
 api_name:
 -	ZwPowerInformation
 -	NtPowerInformation
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SYSTEM_POWER_STATE, *PSYSTEM_POWER_STATE
 ---

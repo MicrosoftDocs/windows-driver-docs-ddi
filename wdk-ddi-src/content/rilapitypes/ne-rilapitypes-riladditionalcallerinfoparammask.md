@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILADDITIONALCALLERINFOPARAMMASK
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILADDITIONALCALLERINFOPARAMMASK
 req.product: Windows 10 or later.

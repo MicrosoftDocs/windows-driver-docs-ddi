@@ -38,7 +38,8 @@ api_location:
 -	avc.h
 api_name:
 -	AVC_MULTIFUNC_IRB
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: AVC_MULTIFUNC_IRB, *PAVC_MULTIFUNC_IRB
 ---

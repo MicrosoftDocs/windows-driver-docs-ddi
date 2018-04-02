@@ -38,7 +38,8 @@ api_location:
 -	WDTFDriverPNPAction.Interop.dll
 api_name:
 -	IWDTFPNPAction2.EDTTryStopDeviceRequestNewResources
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TTraceLevel
 req.product: Windows 10 or later.

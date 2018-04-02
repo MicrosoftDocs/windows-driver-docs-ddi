@@ -38,7 +38,8 @@ api_location:
 -	hbaapi.h
 api_name:
 -	HBA_FCPTARGETMAPPING
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: HBA_FCPTARGETMAPPING, *PHBA_FCPTARGETMAPPING
 ---

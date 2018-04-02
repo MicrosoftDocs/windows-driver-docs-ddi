@@ -38,7 +38,8 @@ api_location:
 -	iscsiprf.h
 api_name:
 -	MSiSCSI_MMIPSECStats
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MSiSCSI_MMIPSECStats, *PMSiSCSI_MMIPSECStats
 ---

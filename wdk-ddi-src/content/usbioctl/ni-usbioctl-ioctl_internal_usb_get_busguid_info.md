@@ -38,7 +38,8 @@ api_location:
 -	usbioctl.h
 api_name:
 -	IOCTL_INTERNAL_USB_GET_BUSGUID_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USB_HUB_TYPE
 req.product: Windows 10 or later.

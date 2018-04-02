@@ -38,7 +38,8 @@ api_location:
 -	ntddcdrm.h
 api_name:
 -	CDROM_AUDIO_CONTROL
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: CDROM_AUDIO_CONTROL, *PCDROM_AUDIO_CONTROL
 ---

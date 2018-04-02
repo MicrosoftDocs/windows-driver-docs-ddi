@@ -38,7 +38,8 @@ api_location:
 -	D3dukmdt.h
 api_name:
 -	DXGK_MIRACAST_CHUNK_ID
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_MIRACAST_CHUNK_ID
 ---

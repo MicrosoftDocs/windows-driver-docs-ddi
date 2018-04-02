@@ -38,7 +38,8 @@ api_location:
 -	wdfcontrol.h
 api_name:
 -	WDF_DEVICE_SHUTDOWN_FLAGS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_DEVICE_SHUTDOWN_FLAGS
 req.product: Windows 10 or later.

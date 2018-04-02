@@ -41,7 +41,8 @@ api_name:
 -	IDebugClient3.AddDumpInformationFile
 -	IDebugClient4.AddDumpInformationFile
 -	IDebugClient5.AddDumpInformationFile
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---

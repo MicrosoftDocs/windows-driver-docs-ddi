@@ -38,7 +38,8 @@ api_location:
 -	printoem.h
 api_name:
 -	OEMMEMORYUSAGE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: OEMMEMORYUSAGE, *POEMMEMORYUSAGE
 req.product: Windows 10 or later.

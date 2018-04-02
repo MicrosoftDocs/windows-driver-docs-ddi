@@ -38,7 +38,8 @@ api_location:
 -	dot11wdi.h
 api_name:
 -	TAL_TXRX_PARAMETERS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TAL_TXRX_PARAMETERS, *PTAL_TXRX_PARAMETERS
 ---

@@ -38,7 +38,8 @@ api_location:
 -	nfpdev.h
 api_name:
 -	IOCTL_NFP_ENABLE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SECURE_ELEMENT_TECH_ROUTING_INFO, *PSECURE_ELEMENT_TECH_ROUTING_INFO
 ---

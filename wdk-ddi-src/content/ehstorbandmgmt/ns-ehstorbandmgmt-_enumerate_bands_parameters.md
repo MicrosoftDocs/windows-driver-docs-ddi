@@ -38,7 +38,8 @@ api_location:
 -	EhStorBandMgmt.h
 api_name:
 -	ENUMERATE_BANDS_PARAMETERS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: ENUMERATE_BANDS_PARAMETERS, *PENUMERATE_BANDS_PARAMETERS
 ---

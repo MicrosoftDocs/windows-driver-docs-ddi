@@ -39,7 +39,8 @@ api_location:
 -	Hidparse.dll
 api_name:
 -	HidP_GetSpecificButtonCaps
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: HIDP_REPORT_TYPE
 ---

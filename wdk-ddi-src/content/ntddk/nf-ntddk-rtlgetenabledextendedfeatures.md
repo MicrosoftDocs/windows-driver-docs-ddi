@@ -42,7 +42,8 @@ api_location:
 -	API-MS-Win-Core-XState-L1-1-2.dll
 api_name:
 -	RtlGetEnabledExtendedFeatures
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---

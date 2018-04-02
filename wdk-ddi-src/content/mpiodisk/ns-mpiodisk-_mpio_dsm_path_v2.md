@@ -38,7 +38,8 @@ api_location:
 -	mpiodisk.h
 api_name:
 -	MPIO_DSM_Path_V2
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MPIO_DSM_Path_V2, *PMPIO_DSM_Path_V2
 ---

@@ -38,7 +38,8 @@ api_location:
 -	pepfx.h
 api_name:
 -	PEP_PROCESSOR_PARK_STATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PEP_PROCESSOR_PARK_STATE, *PPEP_PROCESSOR_PARK_STATE, PEP_PROCESSOR_PARK_STATE, *PPEP_PROCESSOR_PARK_STATE
 ---

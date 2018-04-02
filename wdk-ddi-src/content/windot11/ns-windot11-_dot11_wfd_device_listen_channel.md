@@ -38,7 +38,8 @@ api_location:
 -	Windot11.h
 api_name:
 -	DOT11_WFD_DEVICE_LISTEN_CHANNEL
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT11_WFD_DEVICE_LISTEN_CHANNEL, *PDOT11_WFD_DEVICE_LISTEN_CHANNEL
 req.product: Windows 10 or later.

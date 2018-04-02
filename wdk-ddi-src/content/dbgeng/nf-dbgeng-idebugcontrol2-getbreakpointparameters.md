@@ -40,7 +40,8 @@ api_name:
 -	IDebugControl.GetBreakpointParameters
 -	IDebugControl2.GetBreakpointParameters
 -	IDebugControl3.GetBreakpointParameters
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---

@@ -38,7 +38,8 @@ api_location:
 -	Ks.h
 api_name:
 -	KSPIN_COMMUNICATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSPIN_COMMUNICATION, *PKSPIN_COMMUNICATION
 ---

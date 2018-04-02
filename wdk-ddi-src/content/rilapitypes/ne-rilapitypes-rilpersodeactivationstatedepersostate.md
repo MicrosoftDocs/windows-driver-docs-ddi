@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILPERSODEACTIVATIONSTATEDEPERSOSTATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILPERSODEACTIVATIONSTATEDEPERSOSTATE
 req.product: Windows 10 or later.

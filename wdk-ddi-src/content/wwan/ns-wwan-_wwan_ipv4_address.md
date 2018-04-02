@@ -38,7 +38,8 @@ api_location:
 -	wwan.h
 api_name:
 -	WWAN_IPV4_ADDRESS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WWAN_IPV4_ADDRESS, *PWWAN_IPV4_ADDRESS
 req.product: Windows 10 or later.

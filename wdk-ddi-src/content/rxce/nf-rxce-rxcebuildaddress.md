@@ -38,7 +38,8 @@ api_location:
 -	rxce.h
 api_name:
 -	RxCeBuildAddress
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILWRITEPHONEBOOKENTRYPARAMS, *LPRILWRITEPHONEBOOKENTRYPARAMS
 req.product: Windows 10 or later.

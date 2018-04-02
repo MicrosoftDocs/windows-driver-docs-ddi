@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILCALLTYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILCALLTYPE
 ---

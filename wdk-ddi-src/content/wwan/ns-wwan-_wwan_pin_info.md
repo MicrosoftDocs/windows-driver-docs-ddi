@@ -38,7 +38,8 @@ api_location:
 -	wwan.h
 api_name:
 -	WWAN_PIN_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WWAN_PIN_INFO, *PWWAN_PIN_INFO
 req.product: Windows 10 or later.

@@ -38,7 +38,8 @@ api_location:
 -	ndischimney.h
 api_name:
 -	IP_OFFLOAD_STATS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: IP_OFFLOAD_STATS, *PIP_OFFLOAD_STATS
 ---

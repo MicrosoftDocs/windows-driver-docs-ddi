@@ -39,7 +39,8 @@ api_location:
 api_name:
 -	IDebugAdvanced2.Request
 -	IDebugAdvanced3.Request
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---

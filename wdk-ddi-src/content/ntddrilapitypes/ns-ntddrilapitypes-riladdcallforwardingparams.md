@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILADDCALLFORWARDINGPARAMS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILADDCALLFORWARDINGPARAMS, *LPRILADDCALLFORWARDINGPARAMS
 ---

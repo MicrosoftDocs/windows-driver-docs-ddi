@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILUICCFILEPATH
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILUICCFILEPATH, *LPRILUICCFILEPATH
 req.product: Windows 10 or later.

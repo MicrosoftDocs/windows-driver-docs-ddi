@@ -40,7 +40,8 @@ api_name:
 -	IDebugControl.GetNumberPossibleExecutingProcessorTypes
 -	IDebugControl2.GetNumberPossibleExecutingProcessorTypes
 -	IDebugControl3.GetNumberPossibleExecutingProcessorTypes
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---

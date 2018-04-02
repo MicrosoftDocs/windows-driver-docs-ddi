@@ -38,7 +38,8 @@ api_location:
 -	hbapiwmi.h
 api_name:
 -	SM_SendTEST_OUT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SM_SendTEST_OUT, *PSM_SendTEST_OUT
 ---

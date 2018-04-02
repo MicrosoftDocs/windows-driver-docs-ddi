@@ -38,7 +38,8 @@ api_location:
 -	Winsplp.h
 api_name:
 -	ROUTER_NOTIFY_CALLBACK
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SCARD_IO_REQUEST, *PSCARD_IO_REQUEST, *LPSCARD_IO_REQUEST
 req.product: Windows 10 or later.

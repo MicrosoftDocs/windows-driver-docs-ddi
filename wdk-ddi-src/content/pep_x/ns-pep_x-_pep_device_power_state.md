@@ -38,7 +38,8 @@ api_location:
 -	pepfx.h
 api_name:
 -	PEP_DEVICE_POWER_STATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PEP_DEVICE_POWER_STATE, *PPEP_DEVICE_POWER_STATE, PEP_DEVICE_POWER_STATE, *PPEP_DEVICE_POWER_STATE
 ---

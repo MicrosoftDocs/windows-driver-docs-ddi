@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KS_VIDEO_STREAM_CONFIG_CAPS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KS_VIDEO_STREAM_CONFIG_CAPS, *PKS_VIDEO_STREAM_CONFIG_CAPS
 ---

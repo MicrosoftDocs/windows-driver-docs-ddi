@@ -42,7 +42,8 @@ api_name:
 -	IDebugClient3.FlushCallbacks
 -	IDebugClient4.FlushCallbacks
 -	IDebugClient5.FlushCallbacks
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---

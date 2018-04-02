@@ -41,7 +41,8 @@ api_name:
 -	IDebugSystemObjects2.GetProcessIdBySystemId
 -	IDebugSystemObjects3.GetProcessIdBySystemId
 -	IDebugSystemObjects4.GetProcessIdBySystemId
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---

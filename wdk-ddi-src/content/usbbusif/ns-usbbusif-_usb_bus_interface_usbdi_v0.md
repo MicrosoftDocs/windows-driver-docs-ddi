@@ -38,7 +38,8 @@ api_location:
 -	usbbusif.h
 api_name:
 -	USB_BUS_INTERFACE_USBDI_V0
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USB_BUS_INTERFACE_USBDI_V0, *PUSB_BUS_INTERFACE_USBDI_V0
 req.product: Windows 10 or later.

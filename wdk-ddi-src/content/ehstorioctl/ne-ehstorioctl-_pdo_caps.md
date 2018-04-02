@@ -38,7 +38,8 @@ api_location:
 -	EhStorIoctl.h
 api_name:
 -	PDO_CAPS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PDO_CAPS
 ---

@@ -38,7 +38,8 @@ api_location:
 -	pep_x.h
 api_name:
 -	PEP_PPM_QUERY_LP_SETTINGS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PEP_PPM_QUERY_LP_SETTINGS, *PPEP_PPM_QUERY_LP_SETTINGS
 ---

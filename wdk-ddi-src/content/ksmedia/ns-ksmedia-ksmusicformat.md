@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KSMUSICFORMAT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSMUSICFORMAT, *PKSMUSICFORMAT
 ---

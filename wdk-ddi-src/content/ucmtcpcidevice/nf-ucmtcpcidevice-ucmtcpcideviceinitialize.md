@@ -39,7 +39,8 @@ api_location:
 -	ucmtcpcicxstub.dll
 api_name:
 -	UcmTcpciDeviceInitialize
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: UCM_MANAGER_CONFIG, *PUCM_MANAGER_CONFIG
 req.product: Windows 10 or later.

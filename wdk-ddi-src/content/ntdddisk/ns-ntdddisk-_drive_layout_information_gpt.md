@@ -38,7 +38,8 @@ api_location:
 -	ntdddisk.h
 api_name:
 -	DRIVE_LAYOUT_INFORMATION_GPT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DRIVE_LAYOUT_INFORMATION_GPT, *PDRIVE_LAYOUT_INFORMATION_GPT
 ---

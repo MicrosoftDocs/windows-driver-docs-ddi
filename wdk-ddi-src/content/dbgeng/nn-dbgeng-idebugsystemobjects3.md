@@ -41,7 +41,8 @@ api_name:
 -	IDebugSystemObjects3.GetCurrentSystemServer
 -	IDebugSystemObjects3.GetSystemByServer
 -	IDebugSystemObjects3.GetCurrentSystemServerName
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---

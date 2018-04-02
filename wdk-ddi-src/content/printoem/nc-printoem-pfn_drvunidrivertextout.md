@@ -38,7 +38,8 @@ api_location:
 -	printoem.h
 api_name:
 -	PFN_DrvUnidriverTextOut
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PrintSchemaSelectionType
 req.product: Windows 10 or later.

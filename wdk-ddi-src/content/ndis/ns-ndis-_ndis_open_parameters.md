@@ -38,7 +38,8 @@ api_location:
 -	ndis.h
 api_name:
 -	NDIS_OPEN_PARAMETERS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_OPEN_PARAMETERS, *PNDIS_OPEN_PARAMETERS
 ---

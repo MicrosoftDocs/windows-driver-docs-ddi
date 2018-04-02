@@ -38,7 +38,8 @@ api_location:
 -	ucxusbdevice.h
 api_name:
 -	UCX_USBDEVICE_EVENT_CALLBACKS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: UCX_USBDEVICE_EVENT_CALLBACKS, *PUCX_USBDEVICE_EVENT_CALLBACKS
 req.product: Windows 10 or later.

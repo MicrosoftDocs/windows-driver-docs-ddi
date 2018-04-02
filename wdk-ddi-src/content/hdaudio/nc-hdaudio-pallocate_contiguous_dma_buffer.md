@@ -38,7 +38,8 @@ api_location:
 -	hdaudio.h
 api_name:
 -	AllocateContiguousDmaBuffer
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SM_SetRNIDMgmtInfo_OUT, *PSM_SetRNIDMgmtInfo_OUT
 ---

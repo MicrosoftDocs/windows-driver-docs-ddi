@@ -38,7 +38,8 @@ api_location:
 -	Dmusprop.h
 api_name:
 -	SYNTH_REVERB_PARAMS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SYNTH_REVERB_PARAMS, *PSYNTH_REVERB_PARAMS
 ---

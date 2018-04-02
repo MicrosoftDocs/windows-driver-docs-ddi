@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILIMSSTATUS_V2
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILIMSSTATUS_V2, *LPRILIMSSTATUS_V2
 req.product: Windows 10 or later.

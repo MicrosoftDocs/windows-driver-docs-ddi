@@ -38,7 +38,8 @@ api_location:
 -	mpiowmi.h
 api_name:
 -	MPIO_TIMERS_COUNTERS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MPIO_TIMERS_COUNTERS, *PMPIO_TIMERS_COUNTERS
 ---

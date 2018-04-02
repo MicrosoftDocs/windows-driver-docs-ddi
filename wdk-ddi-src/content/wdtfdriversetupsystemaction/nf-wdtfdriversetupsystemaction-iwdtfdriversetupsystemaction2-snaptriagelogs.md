@@ -38,7 +38,8 @@ api_location:
 -	WDTFDriverSetupSystemAction.Interop.dll
 api_name:
 -	IWDTFDriverSetupSystemAction2.SnapTriageLogs
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TTraceLevel
 req.product: Windows 10 or later.

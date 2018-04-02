@@ -38,7 +38,8 @@ api_location:
 -	windot11.h
 api_name:
 -	DOT11_AVAILABLE_CHANNEL_LIST
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT11_AVAILABLE_CHANNEL_LIST, *PDOT11_AVAILABLE_CHANNEL_LIST
 req.product: Windows 10 or later.

@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KSQUALITY_MANAGER
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSQUALITY_MANAGER, *PKSQUALITY_MANAGER
 ---

@@ -38,7 +38,8 @@ api_location:
 -	ntddcdvd.h
 api_name:
 -	DVD_LAYER_DESCRIPTOR
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DVD_LAYER_DESCRIPTOR, *PDVD_LAYER_DESCRIPTOR
 ---

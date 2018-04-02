@@ -38,7 +38,8 @@ api_location:
 -	EhStorBandMgmt.h
 api_name:
 -	IOCTL_EHSTOR_BANDMGMT_GET_BAND_METADATA
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXVA_VideoSample32
 ---

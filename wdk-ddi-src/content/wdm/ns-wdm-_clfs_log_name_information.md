@@ -38,7 +38,8 @@ api_location:
 -	wdm.h
 api_name:
 -	CLFS_LOG_NAME_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: CLFS_LOG_NAME_INFORMATION, *PCLFS_LOG_NAME_INFORMATION, PPCLFS_LOG_NAME_INFORMATION
 req.product: Windows 10 or later.

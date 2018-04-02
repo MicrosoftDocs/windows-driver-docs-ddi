@@ -38,7 +38,8 @@ api_location:
 -	usbcamdi.h
 api_name:
 -	USBCAMD_Pipe_Config_Descriptor
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USBCAMD_Pipe_Config_Descriptor, *PUSBCAMD_Pipe_Config_Descriptor
 req.product: Windows 10 or later.

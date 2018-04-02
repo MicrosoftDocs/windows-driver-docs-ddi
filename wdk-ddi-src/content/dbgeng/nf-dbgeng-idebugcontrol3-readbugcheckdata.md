@@ -40,7 +40,8 @@ api_name:
 -	IDebugControl.ReadBugCheckData
 -	IDebugControl2.ReadBugCheckData
 -	IDebugControl3.ReadBugCheckData
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---

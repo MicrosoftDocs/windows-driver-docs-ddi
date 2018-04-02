@@ -38,7 +38,8 @@ api_location:
 -	wwan.h
 api_name:
 -	WWAN_SET_CONTEXT_STATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WWAN_SET_CONTEXT_STATE, *PWWAN_SET_CONTEXT_STATE
 req.product: Windows 10 or later.

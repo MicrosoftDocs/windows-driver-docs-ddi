@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILCALLVIDEOMEDIASTATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILCALLVIDEOMEDIASTATE, *LPRILCALLVIDEOMEDIASTATE
 req.product: Windows 10 or later.

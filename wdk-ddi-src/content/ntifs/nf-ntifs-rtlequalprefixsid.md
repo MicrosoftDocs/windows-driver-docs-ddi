@@ -38,7 +38,8 @@ api_location:
 -	Ntdll.dll
 api_name:
 -	RtlEqualPrefixSid
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TOKEN_TYPE
 ---

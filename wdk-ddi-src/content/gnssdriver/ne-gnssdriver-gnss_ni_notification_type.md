@@ -38,7 +38,8 @@ api_location:
 -	gnssdriver.h
 api_name:
 -	GNSS_NI_NOTIFICATION_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GNSS_NI_NOTIFICATION_TYPE
 ---

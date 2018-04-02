@@ -40,7 +40,8 @@ api_name:
 -	IDebugControl.CloseLogFile
 -	IDebugControl2.CloseLogFile
 -	IDebugControl3.CloseLogFile
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---

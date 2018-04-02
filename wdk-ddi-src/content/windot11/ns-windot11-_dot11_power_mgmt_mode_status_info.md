@@ -38,7 +38,8 @@ api_location:
 -	Windot11.h
 api_name:
 -	DOT11_POWER_MGMT_MODE_STATUS_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT11_POWER_MGMT_MODE_STATUS_INFO, *PDOT11_POWER_MGMT_MODE_STATUSINFO
 req.product: Windows 10 or later.

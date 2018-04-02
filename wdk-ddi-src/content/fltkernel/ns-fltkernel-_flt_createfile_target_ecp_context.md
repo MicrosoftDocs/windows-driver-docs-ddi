@@ -38,7 +38,8 @@ api_location:
 -	fltkernel.h
 api_name:
 -	FLT_CREATEFILE_TARGET_ECP_CONTEXT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: FLT_CREATEFILE_TARGET_ECP_CONTEXT, *PFLT_CREATEFILE_TARGET_ECP_CONTEXT
 ---

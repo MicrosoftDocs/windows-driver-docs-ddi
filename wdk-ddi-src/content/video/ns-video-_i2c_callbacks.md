@@ -38,7 +38,8 @@ api_location:
 -	video.h
 api_name:
 -	I2C_CALLBACKS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: I2C_CALLBACKS, *PI2C_CALLBACKS
 req.product: Windows 10 or later.

@@ -38,7 +38,8 @@ api_location:
 -	ndischimney.h
 api_name:
 -	NDIS_TCP_OFFLOAD_EVENT_HANDLERS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_TCP_OFFLOAD_EVENT_HANDLERS, *PNDIS_TCP_OFFLOAD_EVENT_HANDLERS
 ---

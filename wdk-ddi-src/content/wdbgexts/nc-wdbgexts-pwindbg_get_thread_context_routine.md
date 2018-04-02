@@ -38,7 +38,8 @@ api_location:
 -	wdbgexts.h
 api_name:
 -	GetContext
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: VPCI_WRITE_BLOCK_INPUT, *PVPCI_WRITE_BLOCK_INPUT
 req.product: Windows 10 or later.

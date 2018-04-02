@@ -38,7 +38,8 @@ api_location:
 -	wmistr.h
 api_name:
 -	WNODE_SINGLE_ITEM
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WNODE_SINGLE_ITEM, *PWNODE_SINGLE_ITEM
 req.product: Windows 10 or later.

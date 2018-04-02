@@ -38,7 +38,8 @@ api_location:
 -	hbapiwmi.h
 api_name:
 -	RemovePort_OUT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RemovePort_OUT, *PRemovePort_OUT
 ---

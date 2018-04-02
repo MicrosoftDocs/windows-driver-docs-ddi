@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RIL3GPP2ISDNALERTING
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RIL3GPP2ISDNALERTING
 req.product: Windows 10 or later.

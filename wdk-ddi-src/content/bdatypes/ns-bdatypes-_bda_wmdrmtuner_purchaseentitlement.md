@@ -38,7 +38,8 @@ api_location:
 -	Bdatypes.h
 api_name:
 -	BDA_WMDRMTUNER_PURCHASEENTITLEMENT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BDA_WMDRMTUNER_PURCHASEENTITLEMENT, *PBDA_WMDRMTUNER_PURCHASEENTITLEMENT
 ---

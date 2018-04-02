@@ -38,7 +38,8 @@ api_location:
 -	USBSidebandAudio.h
 api_name:
 -	IOCTL_USBSBAUD_GET_ERROR_STATUS_UPDATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USBSCAN_TIMEOUT, *PUSBSCAN_TIMEOUT
 req.product: Windows 10 or later.

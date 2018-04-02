@@ -38,7 +38,8 @@ api_location:
 -	PointOfServiceDriverInterface.h
 api_name:
 -	MSR_AUTHENTICATE_DEVICE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MSR_AUTHENTICATE_DEVICE, *PMSR_AUTHENTICATE_DEVICE
 ---

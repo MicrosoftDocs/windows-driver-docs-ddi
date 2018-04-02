@@ -38,7 +38,8 @@ api_location:
 -	wdfmemory.h
 api_name:
 -	WDF_MEMORY_DESCRIPTOR
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_MEMORY_DESCRIPTOR, *PWDF_MEMORY_DESCRIPTOR
 req.product: Windows 10 or later.

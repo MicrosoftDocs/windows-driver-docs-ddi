@@ -38,7 +38,8 @@ api_location:
 -	dispmprt.h
 api_name:
 -	DOCKING_STATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOCKING_STATE
 ---

@@ -38,7 +38,8 @@ api_location:
 -	Wdm.h
 api_name:
 -	D3COLD_SUPPORT_INTERFACE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3COLD_SUPPORT_INTERFACE, *PD3COLD_SUPPORT_INTERFACE
 req.product: Windows 10 or later.

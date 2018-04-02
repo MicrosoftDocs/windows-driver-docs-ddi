@@ -40,7 +40,8 @@ api_name:
 -	IDebugSymbols.GetTypeName
 -	IDebugSymbols2.GetTypeName
 -	IDebugSymbols3.GetTypeName
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---

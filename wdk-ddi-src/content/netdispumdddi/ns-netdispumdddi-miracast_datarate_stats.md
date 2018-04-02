@@ -38,7 +38,8 @@ api_location:
 -	Netdispumdddi.h
 api_name:
 -	MIRACAST_DATARATE_STATS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MIRACAST_DATARATE_STATS
 ---

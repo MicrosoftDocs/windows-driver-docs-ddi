@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILREMOTEPARTYINFOVALUEPARAM
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILREMOTEPARTYINFOVALUEPARAM, RILREMOTEPARTYINFOPARAM
 req.product: Windows 10 or later.

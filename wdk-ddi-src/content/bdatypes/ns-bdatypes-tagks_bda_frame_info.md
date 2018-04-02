@@ -38,7 +38,8 @@ api_location:
 -	bdatypes.h
 api_name:
 -	KS_BDA_FRAME_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KS_BDA_FRAME_INFO, *PKS_BDA_FRAME_INFO
 ---

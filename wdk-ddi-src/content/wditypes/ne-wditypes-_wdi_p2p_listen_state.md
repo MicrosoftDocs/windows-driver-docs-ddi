@@ -38,7 +38,8 @@ api_location:
 -	wditypes.hpp
 api_name:
 -	WDI_P2P_LISTEN_STATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDI_P2P_LISTEN_STATE
 req.product: Windows 10 or later.

@@ -38,7 +38,8 @@ api_location:
 -	D3d10umddi.h
 api_name:
 -	D3DWDDM1_3DDI_TILE_RANGE_FLAG
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DWDDM1_3DDI_TILE_RANGE_FLAG
 ---

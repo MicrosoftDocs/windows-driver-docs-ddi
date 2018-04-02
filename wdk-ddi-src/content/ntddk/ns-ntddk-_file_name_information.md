@@ -38,7 +38,8 @@ api_location:
 -	Ntddk.h
 api_name:
 -	FILE_NAME_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: FILE_NAME_INFORMATION, *PFILE_NAME_INFORMATION
 ---

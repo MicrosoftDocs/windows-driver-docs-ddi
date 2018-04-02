@@ -38,7 +38,8 @@ api_location:
 -	Wudfworkitem.h
 api_name:
 -	WUDF_WORKITEM_FUNCTION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
 req.product: Windows 10 or later.

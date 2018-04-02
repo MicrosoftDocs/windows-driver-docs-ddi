@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILDCSLANG
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILDCSLANG
 req.product: Windows 10 or later.

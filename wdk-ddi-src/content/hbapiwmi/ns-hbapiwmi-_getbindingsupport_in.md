@@ -38,7 +38,8 @@ api_location:
 -	hbapiwmi.h
 api_name:
 -	GetBindingSupport_IN
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GetBindingSupport_IN, *PGetBindingSupport_IN
 ---

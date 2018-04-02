@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KSAUDIO_MIXLEVEL
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSAUDIO_MIXLEVEL, *PKSAUDIO_MIXLEVEL
 ---

@@ -38,7 +38,8 @@ api_location:
 -	prntfont.h
 api_name:
 -	GLYPHRUN
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GLYPHRUN, *PGLYPHRUN
 req.product: Windows 10 or later.

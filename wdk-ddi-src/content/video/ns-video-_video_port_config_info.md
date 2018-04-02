@@ -38,7 +38,8 @@ api_location:
 -	video.h
 api_name:
 -	VIDEO_PORT_CONFIG_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: VIDEO_PORT_CONFIG_INFO, *PVIDEO_PORT_CONFIG_INFO
 req.product: Windows 10 or later.

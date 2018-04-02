@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILINFOCLASS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILINFOCLASS
 req.product: Windows 10 or later.

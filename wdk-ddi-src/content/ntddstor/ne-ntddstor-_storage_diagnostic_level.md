@@ -38,7 +38,8 @@ api_location:
 -	ntddstor.h
 api_name:
 -	STORAGE_DIAGNOSTIC_LEVEL
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STORAGE_DIAGNOSTIC_LEVEL, *PSTORAGE_DIAGNOSTIC_LEVEL
 ---

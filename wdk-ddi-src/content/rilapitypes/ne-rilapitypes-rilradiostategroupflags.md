@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILRADIOSTATEGROUPFLAGS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILRADIOSTATEGROUPFLAGS
 req.product: Windows 10 or later.

@@ -38,7 +38,8 @@ api_location:
 -	usbprint.h
 api_name:
 -	IOCTL_USBPRINT_VENDOR_SET_COMMAND
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USB_TRANSPORT_CHARACTERISTICS_CHANGE_UNREGISTRATION, *PUSB_TRANSPORT_CHARACTERISTICS_CHANGE_UNREGISTRATION
 req.product: Windows 10 or later.

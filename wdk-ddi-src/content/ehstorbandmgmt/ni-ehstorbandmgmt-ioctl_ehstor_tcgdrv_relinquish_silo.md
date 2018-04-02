@@ -38,7 +38,8 @@ api_location:
 -	EhStorBandMgmt.h
 api_name:
 -	IOCTL_EHSTOR_TCGDRV_RELINQUISH_SILO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXVA_VideoSample32
 ---

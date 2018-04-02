@@ -42,7 +42,8 @@ api_name:
 -	IDebugClient3.GetOtherOutputMask
 -	IDebugClient4.GetOtherOutputMask
 -	IDebugClient5.GetOtherOutputMask
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---

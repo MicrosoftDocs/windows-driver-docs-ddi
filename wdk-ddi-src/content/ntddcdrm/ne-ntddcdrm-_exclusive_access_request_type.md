@@ -38,7 +38,8 @@ api_location:
 -	ntddcdrm.h
 api_name:
 -	EXCLUSIVE_ACCESS_REQUEST_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: EXCLUSIVE_ACCESS_REQUEST_TYPE, *PEXCLUSIVE_ACCESS_REQUEST_TYPE
 ---

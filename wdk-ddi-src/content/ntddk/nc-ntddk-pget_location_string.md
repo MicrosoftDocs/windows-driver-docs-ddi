@@ -38,7 +38,8 @@ api_location:
 -	Ntddk.h
 api_name:
 -	PnpGetLocationString
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: FILTER_INITIALIZATION_DATA, *PFILTER_INITIALIZATION_DATA
 ---

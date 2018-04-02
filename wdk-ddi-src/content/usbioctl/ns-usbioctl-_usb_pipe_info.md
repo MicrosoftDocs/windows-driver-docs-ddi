@@ -38,7 +38,8 @@ api_location:
 -	usbioctl.h
 api_name:
 -	USB_PIPE_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USB_PIPE_INFO, *PUSB_PIPE_INFO
 req.product: Windows 10 or later.

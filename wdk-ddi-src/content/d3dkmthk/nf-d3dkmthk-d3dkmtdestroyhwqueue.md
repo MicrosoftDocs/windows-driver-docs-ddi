@@ -38,7 +38,8 @@ api_location:
 -	tbd
 api_name:
 -	D3DKMTDestroyHwQueue
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DKMT_DRIVERVERSION
 ---

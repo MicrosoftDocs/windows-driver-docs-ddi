@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILEXCHANGEUICCAPDURESPONSE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILEXCHANGEUICCAPDURESPONSE, *LPRILEXCHANGEUICCAPDURESPONSE
 req.product: Windows 10 or later.

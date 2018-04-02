@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KSJACK_SINK_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSJACK_SINK_INFORMATION, *PKSJACK_SINK_INFORMATION
 ---

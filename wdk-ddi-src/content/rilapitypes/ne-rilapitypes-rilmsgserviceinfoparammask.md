@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILMSGSERVICEINFOPARAMMASK
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILMSGSERVICEINFOPARAMMASK
 req.product: Windows 10 or later.

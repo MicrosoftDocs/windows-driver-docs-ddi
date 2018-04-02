@@ -38,7 +38,8 @@ api_location:
 -	wdm.h
 api_name:
 -	PCI_PM_CAPABILITY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PCI_PM_CAPABILITY, *PPCI_PM_CAPABILITY
 req.product: Windows 10 or later.

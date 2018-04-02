@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KSPROPERTY_SPHLI
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSPROPERTY_SPHLI, *PKSPROPERTY_SPHLI
 ---

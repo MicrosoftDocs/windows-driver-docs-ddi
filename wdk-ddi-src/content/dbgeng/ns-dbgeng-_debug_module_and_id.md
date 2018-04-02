@@ -38,7 +38,8 @@ api_location:
 -	DbgEng.h
 api_name:
 -	DEBUG_MODULE_AND_ID
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DEBUG_MODULE_AND_ID, *PDEBUG_MODULE_AND_ID
 ---

@@ -38,7 +38,8 @@ api_location:
 -	hbapiwmi.h
 api_name:
 -	SetPersistentEntry_IN
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SetPersistentEntry_IN, *PSetPersistentEntry_IN
 ---

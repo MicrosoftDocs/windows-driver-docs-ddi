@@ -38,7 +38,8 @@ api_location:
 -	Mountmgr.h
 api_name:
 -	IOCTL_MOUNTMGR_QUERY_POINTS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MOUNTDEV_UNIQUE_ID, *PMOUNTDEV_UNIQUE_ID
 ---

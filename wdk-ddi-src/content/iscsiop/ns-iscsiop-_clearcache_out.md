@@ -38,7 +38,8 @@ api_location:
 -	iscsiop.h
 api_name:
 -	ClearCache_OUT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: ClearCache_OUT, *PClearCache_OUT
 ---

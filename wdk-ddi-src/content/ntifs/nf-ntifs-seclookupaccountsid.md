@@ -39,7 +39,8 @@ api_location:
 -	Ksecdd.dll
 api_name:
 -	SecLookupAccountSid
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TOKEN_TYPE
 ---

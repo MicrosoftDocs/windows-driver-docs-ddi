@@ -38,7 +38,8 @@ api_location:
 -	61883.h
 api_name:
 -	CIP_VALIDATE_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: CIP_VALIDATE_INFO, *PCIP_VALIDATE_INFO
 ---

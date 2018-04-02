@@ -38,7 +38,8 @@ api_location:
 -	EhStorBandMgmt.h
 api_name:
 -	SET_BAND_SECURITY_PARAMETERS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SET_BAND_SECURITY_PARAMETERS, *PSET_BAND_SECURITY_PARAMETERS
 ---

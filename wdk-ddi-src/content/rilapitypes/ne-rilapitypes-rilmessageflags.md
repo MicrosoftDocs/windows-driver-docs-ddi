@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILMESSAGEFLAGS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILMESSAGEFLAGS
 req.product: Windows 10 or later.

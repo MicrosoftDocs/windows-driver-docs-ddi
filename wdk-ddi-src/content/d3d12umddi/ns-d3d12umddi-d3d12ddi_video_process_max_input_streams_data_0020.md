@@ -38,7 +38,8 @@ api_location:
 -	D3d12umddi.h
 api_name:
 -	D3D12DDI_VIDEO_PROCESS_MAX_INPUT_STREAMS_DATA_0020
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3D12DDI_VIDEO_PROCESS_MAX_INPUT_STREAMS_DATA_0020
 ---

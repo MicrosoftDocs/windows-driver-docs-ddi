@@ -38,7 +38,8 @@ api_location:
 -	61883.h
 api_name:
 -	CMP_SET_PLUG
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: CMP_SET_PLUG, *PCMP_SET_PLUG
 ---

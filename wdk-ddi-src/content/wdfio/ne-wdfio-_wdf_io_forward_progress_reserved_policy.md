@@ -38,7 +38,8 @@ api_location:
 -	wdfio.h
 api_name:
 -	WDF_IO_FORWARD_PROGRESS_RESERVED_POLICY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_IO_FORWARD_PROGRESS_RESERVED_POLICY
 req.product: Windows 10 or later.

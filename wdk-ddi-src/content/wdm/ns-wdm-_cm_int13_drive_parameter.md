@@ -38,7 +38,8 @@ api_location:
 -	wdm.h
 api_name:
 -	CM_INT13_DRIVE_PARAMETER
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: CM_INT13_DRIVE_PARAMETER, *PCM_INT13_DRIVE_PARAMETER
 req.product: Windows 10 or later.

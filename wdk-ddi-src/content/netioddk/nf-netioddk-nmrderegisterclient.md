@@ -39,7 +39,8 @@ api_location:
 -	Netio.dll
 api_name:
 -	NmrDeregisterClient
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NET_DMA_PROVIDER_CHARACTERISTICS, *PNET_DMA_PROVIDER_CHARACTERISTICS
 ---

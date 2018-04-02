@@ -38,7 +38,8 @@ api_location:
 -	irb.h
 api_name:
 -	IDE_DEVICE_PARAMETERS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: IDE_DEVICE_PARAMETERS, *PIDE_DEVICE_PARAMETERS
 ---

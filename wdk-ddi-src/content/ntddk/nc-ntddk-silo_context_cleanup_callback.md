@@ -38,7 +38,8 @@ api_location:
 -	ntddk.h
 api_name:
 -	CleanupCallback
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: FILTER_INITIALIZATION_DATA, *PFILTER_INITIALIZATION_DATA
 ---

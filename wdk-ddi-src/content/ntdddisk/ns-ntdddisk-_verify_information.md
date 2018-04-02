@@ -38,7 +38,8 @@ api_location:
 -	ntdddisk.h
 api_name:
 -	VERIFY_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: VERIFY_INFORMATION, *PVERIFY_INFORMATION
 ---

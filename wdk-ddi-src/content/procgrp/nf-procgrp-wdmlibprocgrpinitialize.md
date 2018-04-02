@@ -39,7 +39,8 @@ api_location:
 -	Procgrp.dll
 api_name:
 -	WdmlibProcgrpInitialize
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WIDTHTABLE, *PWIDTHTABLE
 req.product: Windows 10 or later.

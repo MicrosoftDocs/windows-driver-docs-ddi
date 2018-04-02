@@ -38,7 +38,8 @@ api_location:
 -	umdprovider.h
 api_name:
 -	UMDEtwRegister
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: UMDETW_ALLOCATION_SEMANTIC
 req.product: Windows 10 or later.

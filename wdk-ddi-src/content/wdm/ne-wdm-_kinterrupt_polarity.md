@@ -38,7 +38,8 @@ api_location:
 -	Wdm.h
 api_name:
 -	KINTERRUPT_POLARITY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KINTERRUPT_POLARITY, *PKINTERRUPT_POLARITY
 req.product: Windows 10 or later.

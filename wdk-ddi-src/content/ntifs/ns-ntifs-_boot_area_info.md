@@ -38,7 +38,8 @@ api_location:
 -	Ntifs.h
 api_name:
 -	BOOT_AREA_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BOOT_AREA_INFO, *PBOOT_AREA_INFO
 ---

@@ -39,7 +39,8 @@ api_location:
 api_name:
 -	IDebugSystemObjects3.GetTotalNumberThreadsAndProcesses
 -	IDebugSystemObjects4.GetTotalNumberThreadsAndProcesses
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---

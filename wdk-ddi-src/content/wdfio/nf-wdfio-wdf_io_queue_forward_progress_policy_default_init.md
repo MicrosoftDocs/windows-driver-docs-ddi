@@ -38,7 +38,8 @@ api_location:
 -	wdfio.h
 api_name:
 -	WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY_DEFAULT_INIT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_IO_QUEUE_STATE
 req.product: Windows 10 or later.

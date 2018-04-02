@@ -38,7 +38,8 @@ api_location:
 -	pepfx.h
 api_name:
 -	PEP_PPM_PARK_SELECTION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PEP_PPM_PARK_SELECTION, *PPEP_PPM_PARK_SELECTION, PEP_PPM_PARK_SELECTION, *PPEP_PPM_PARK_SELECTION
 ---

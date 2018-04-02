@@ -38,7 +38,8 @@ api_location:
 -	Winsplp.h
 api_name:
 -	BranchOfficeLogOfflineFileFull
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BranchOfficeLogOfflineFileFull, *PBranchOfficeLogOfflineFileFull
 req.product: Windows 10 or later.

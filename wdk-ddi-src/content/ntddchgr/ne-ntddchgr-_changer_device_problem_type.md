@@ -38,7 +38,8 @@ api_location:
 -	ntddchgr.h
 api_name:
 -	CHANGER_DEVICE_PROBLEM_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: CHANGER_DEVICE_PROBLEM_TYPE, *PCHANGER_DEVICE_PROBLEM_TYPE
 ---

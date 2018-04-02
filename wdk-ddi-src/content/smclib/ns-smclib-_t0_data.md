@@ -38,7 +38,8 @@ api_location:
 -	Smclib.h
 api_name:
 -	T0_DATA
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: T0_DATA, *PT0_DATA
 req.product: Windows 10 or later.

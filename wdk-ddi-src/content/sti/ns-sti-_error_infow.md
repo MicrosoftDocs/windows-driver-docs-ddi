@@ -38,7 +38,8 @@ api_location:
 -	sti.h
 api_name:
 -	STI_ERROR_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STI_ERROR_INFOW, *PSTI_ERROR_INFOW
 req.product: Windows 10 or later.

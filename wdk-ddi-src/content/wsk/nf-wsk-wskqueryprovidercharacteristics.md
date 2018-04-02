@@ -39,7 +39,8 @@ api_location:
 -	netio.dll
 api_name:
 -	WskQueryProviderCharacteristics
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WPP_TRIAGE_INFO, *PWPP_TRIAGE_INFO
 req.product: Windows 10 or later.

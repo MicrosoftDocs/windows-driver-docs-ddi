@@ -38,7 +38,8 @@ api_location:
 -	iscsiop.h
 api_name:
 -	MSiSCSI_AdapterEvent
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MSiSCSI_AdapterEvent, *PMSiSCSI_AdapterEvent
 ---

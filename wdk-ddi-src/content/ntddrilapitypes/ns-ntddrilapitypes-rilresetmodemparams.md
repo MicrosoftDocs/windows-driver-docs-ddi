@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILRESETMODEMPARAMS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILRESETMODEMPARAMS, *LPRILRESETMODEMPARAMS
 ---

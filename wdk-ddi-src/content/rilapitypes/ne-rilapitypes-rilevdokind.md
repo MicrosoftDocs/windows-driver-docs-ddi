@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILEVDOKIND
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILEVDOKIND
 req.product: Windows 10 or later.

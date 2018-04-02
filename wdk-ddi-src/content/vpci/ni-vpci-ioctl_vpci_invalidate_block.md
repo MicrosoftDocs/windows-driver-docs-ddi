@@ -38,7 +38,8 @@ api_location:
 -	Vpci.h
 api_name:
 -	IOCTL_VPCI_INVALIDATE_BLOCK
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: VMB_CHANNEL_STATE_CHANGE_CALLBACKS, *PVMB_CHANNEL_STATE_CHANGE_CALLBACKS
 req.product: Windows 10 or later.

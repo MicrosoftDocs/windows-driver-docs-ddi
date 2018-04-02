@@ -38,7 +38,8 @@ api_location:
 -	61883.h
 api_name:
 -	BusResetRoutine
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TOPOLOGY_MAP, *PTOPOLOGY_MAP
 ---

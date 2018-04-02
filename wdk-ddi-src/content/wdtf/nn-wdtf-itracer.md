@@ -38,7 +38,8 @@ api_location:
 -	WDTF.tlb
 api_name:
 -	ITracer
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TTraceLevel
 req.product: Windows 10 or later.

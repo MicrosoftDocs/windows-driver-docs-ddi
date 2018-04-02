@@ -38,7 +38,8 @@ api_location:
 -	minitape.h
 api_name:
 -	TAPE_STATUS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TAPE_STATUS, *PTAPE_STATUS
 ---

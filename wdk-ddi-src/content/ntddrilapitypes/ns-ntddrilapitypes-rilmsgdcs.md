@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILMSGDCS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILMSGDCS, *LPRILMSGDCS
 ---

@@ -38,7 +38,8 @@ api_location:
 -	Wdm.h
 api_name:
 -	DEVICE_OBJECT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DEVICE_OBJECT, *PDEVICE_OBJECT
 req.product: Windows 10 or later.

@@ -42,7 +42,8 @@ api_name:
 -	IDebugClient3.GetRunningProcessDescription
 -	IDebugClient4.GetRunningProcessDescription
 -	IDebugClient5.GetRunningProcessDescription
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---

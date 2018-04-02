@@ -38,7 +38,8 @@ api_location:
 -	Strmini.h
 api_name:
 -	STREAM_MINIDRIVER_STREAM_NOTIFICATION_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STREAM_MINIDRIVER_STREAM_NOTIFICATION_TYPE, *PSTREAM_MINIDRIVER_STREAM_NOTIFICATION_TYPE
 req.product: Windows 10 or later.

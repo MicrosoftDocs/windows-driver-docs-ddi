@@ -42,7 +42,8 @@ api_name:
 -	IDebugClient3.OutputIdentity
 -	IDebugClient4.OutputIdentity
 -	IDebugClient5.OutputIdentity
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---

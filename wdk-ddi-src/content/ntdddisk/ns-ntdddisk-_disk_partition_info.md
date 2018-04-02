@@ -38,7 +38,8 @@ api_location:
 -	ntdddisk.h
 api_name:
 -	DISK_PARTITION_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DISK_PARTITION_INFO, *PDISK_PARTITION_INFO
 ---

@@ -38,7 +38,8 @@ api_location:
 -	upssvc.h
 api_name:
 -	UPSWaitForStateChange
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: UMDETW_ALLOCATION_USAGE
 req.product: Windows 10 or later.

@@ -38,7 +38,8 @@ api_location:
 -	d3dhal.h
 api_name:
 -	D3DHAL_DP2INDEXEDTRIANGLELIST2
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DHAL_DP2INDEXEDTRIANGLELIST2, *LPD3DHAL_DP2INDEXEDTRIANGLELIST2
 ---

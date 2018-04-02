@@ -41,7 +41,8 @@ api_name:
 -	IDebugDataSpaces2.ReadDebuggerData
 -	IDebugDataSpaces3.ReadDebuggerData
 -	IDebugDataSpaces4.ReadDebuggerData
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---

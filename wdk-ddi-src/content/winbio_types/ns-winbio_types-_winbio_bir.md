@@ -38,7 +38,8 @@ api_location:
 -	winbio_types.h
 api_name:
 -	WINBIO_BIR
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WINBIO_BIR
 req.product: Windows 10 or later.

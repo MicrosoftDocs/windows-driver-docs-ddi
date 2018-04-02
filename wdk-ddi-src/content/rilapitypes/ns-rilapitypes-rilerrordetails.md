@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILERRORDETAILS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILERRORDETAILS, *LPRILERRORDETAILS
 req.product: Windows 10 or later.

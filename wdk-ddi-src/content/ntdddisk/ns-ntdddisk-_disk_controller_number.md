@@ -38,7 +38,8 @@ api_location:
 -	ntdddisk.h
 api_name:
 -	DISK_CONTROLLER_NUMBER
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DISK_CONTROLLER_NUMBER, *PDISK_CONTROLLER_NUMBER
 ---

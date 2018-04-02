@@ -38,7 +38,8 @@ api_location:
 -	iscsiop.h
 api_name:
 -	AddRADIUSServer_IN
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: AddRADIUSServer_IN, *PAddRADIUSServer_IN
 ---

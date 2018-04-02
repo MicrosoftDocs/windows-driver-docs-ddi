@@ -38,7 +38,8 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	DXVADDI_PVP_BLOCK128
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXVADDI_PVP_BLOCK128, DXVADDI_PVP_KEY128
 ---

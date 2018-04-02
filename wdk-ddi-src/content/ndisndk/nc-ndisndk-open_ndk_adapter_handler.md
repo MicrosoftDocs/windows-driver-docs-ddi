@@ -38,7 +38,8 @@ api_location:
 -	ndisndk.h
 api_name:
 -	OpenNdkAdapterHandler
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TCP_OFFLOAD_STATS, *PTCP_OFFLOAD_STATS
 ---

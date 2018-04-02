@@ -38,7 +38,8 @@ api_location:
 -	mcd.h
 api_name:
 -	MCD_INIT_DATA
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MCD_INIT_DATA, *PMCD_INIT_DATA
 ---

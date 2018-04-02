@@ -38,7 +38,8 @@ api_location:
 -	dxgiddi.h
 api_name:
 -	DXGI_DDI_BASE_CALLBACKS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGI_DDI_BASE_CALLBACKS
 ---

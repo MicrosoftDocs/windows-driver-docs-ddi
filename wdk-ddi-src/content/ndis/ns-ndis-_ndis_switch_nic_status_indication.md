@@ -38,7 +38,8 @@ api_location:
 -	Ndis.h
 api_name:
 -	NDIS_SWITCH_NIC_STATUS_INDICATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_SWITCH_NIC_STATUS_INDICATION, *PNDIS_SWITCH_NIC_STATUS_INDICATION
 ---

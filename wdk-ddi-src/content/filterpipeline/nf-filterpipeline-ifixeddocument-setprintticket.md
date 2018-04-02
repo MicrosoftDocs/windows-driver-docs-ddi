@@ -38,7 +38,8 @@ api_location:
 -	filterpipeline.h
 api_name:
 -	IFixedDocument.SetPrintTicket
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: EXpsFontRestriction
 ---

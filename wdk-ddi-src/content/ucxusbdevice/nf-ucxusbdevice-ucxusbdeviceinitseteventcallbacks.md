@@ -38,7 +38,8 @@ api_location:
 -	ucxusbdevice.h
 api_name:
 -	UcxUsbDeviceInitSetEventCallbacks
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: UCX_USBDEVICE_CHARACTERISTIC_TYPE
 req.product: Windows 10 or later.

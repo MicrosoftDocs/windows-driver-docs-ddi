@@ -38,7 +38,8 @@ api_location:
 -	wdbgexts.h
 api_name:
 -	TranslateVirtualToPhysical
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: EXT_TDOP
 req.product: Windows 10 or later.

@@ -38,7 +38,8 @@ api_location:
 -	Spbcx.h
 api_name:
 -	SPB_REQUEST_PARAMETERS_INIT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SPB_REQUEST_TYPE, *PSPB_REQUEST_TYPE
 req.product: Windows 10 or later.

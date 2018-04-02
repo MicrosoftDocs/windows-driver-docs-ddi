@@ -38,7 +38,8 @@ api_location:
 -	Ks.h
 api_name:
 -	KS_SEEKING_CAPABILITIES
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KS_SEEKING_CAPABILITIES
 ---

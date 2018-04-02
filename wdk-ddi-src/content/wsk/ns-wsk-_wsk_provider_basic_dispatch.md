@@ -38,7 +38,8 @@ api_location:
 -	wsk.h
 api_name:
 -	WSK_PROVIDER_BASIC_DISPATCH
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WSK_PROVIDER_BASIC_DISPATCH, *PWSK_PROVIDER_BASIC_DISPATCH
 req.product: Windows 10 or later.

@@ -38,7 +38,8 @@ api_location:
 -	Pcivirt.h
 api_name:
 -	*PSRIOV_WRITE_CONFIG
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PARCLASS_INFORMATION, *PPARCLASS_INFORMATION
 ---

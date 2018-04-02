@@ -38,7 +38,8 @@ api_location:
 -	avc.h
 api_name:
 -	AVC_PIN_DESCRIPTOR
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: AVC_PIN_DESCRIPTOR, *PAVC_PIN_DESCRIPTOR
 ---

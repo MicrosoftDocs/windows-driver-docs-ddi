@@ -38,7 +38,8 @@ api_location:
 -	rilapitypes.h
 api_name:
 -	RILPOSITIONINFOLTE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILPOSITIONINFOLTE, *LPRILPOSITIONINFOLTE
 ---

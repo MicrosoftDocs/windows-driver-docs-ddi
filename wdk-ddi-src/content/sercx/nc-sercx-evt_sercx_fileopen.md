@@ -38,7 +38,8 @@ api_location:
 -	1.0\Sercx.h
 api_name:
 -	EvtSerCxFileOpen
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SENSOR_VALUE_PAIR, *PSENSOR_VALUE_PAIR
 req.product: Windows 10 or later.

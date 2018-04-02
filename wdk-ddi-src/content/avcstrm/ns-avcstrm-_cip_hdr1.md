@@ -38,7 +38,8 @@ api_location:
 -	avcstrm.h
 api_name:
 -	CIP_HDR1
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: CIP_HDR1, *PCIP_HDR1
 ---

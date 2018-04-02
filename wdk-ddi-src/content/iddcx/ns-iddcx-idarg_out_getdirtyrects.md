@@ -38,7 +38,8 @@ api_location:
 -	iddcx.h
 api_name:
 -	IDARG_OUT_GETDIRTYRECTS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

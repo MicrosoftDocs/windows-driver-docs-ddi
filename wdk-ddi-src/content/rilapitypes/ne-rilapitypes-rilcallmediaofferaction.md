@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILCALLMEDIAOFFERACTION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILCALLMEDIAOFFERACTION
 req.product: Windows 10 or later.

@@ -38,7 +38,8 @@ api_location:
 -	gnssdriver.h
 api_name:
 -	GNSS_SUPL_NI_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GNSS_SUPL_NI_INFO, *PGNSS_SUPL_NI_INFO
 ---

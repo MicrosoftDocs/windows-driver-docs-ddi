@@ -38,7 +38,8 @@ api_location:
 -	Wdfdriver.h
 api_name:
 -	EvtDriverDeviceAdd
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_DPC_CONFIG, *PWDF_DPC_CONFIG
 req.product: Windows 10 or later.

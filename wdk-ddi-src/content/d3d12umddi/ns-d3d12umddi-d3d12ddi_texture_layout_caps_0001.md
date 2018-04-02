@@ -38,7 +38,8 @@ api_location:
 -	D3d12umddi.h
 api_name:
 -	D3D12DDI_TEXTURE_LAYOUT_CAPS_0001
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3D12DDI_TEXTURE_LAYOUT_CAPS_0001
 ---

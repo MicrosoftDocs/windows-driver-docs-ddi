@@ -38,7 +38,8 @@ api_location:
 -	Hbaapi.dll
 api_name:
 -	HBA_GetEventBuffer
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: HBA_WWNTYPE
 ---

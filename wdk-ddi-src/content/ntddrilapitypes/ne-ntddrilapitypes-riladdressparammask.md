@@ -38,7 +38,8 @@ api_location:
 -	rilapitypes.h
 api_name:
 -	RILADDRESSPARAMMASK
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILADDRESSPARAMMASK
 ---

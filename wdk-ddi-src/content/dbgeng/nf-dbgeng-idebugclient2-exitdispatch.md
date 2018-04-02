@@ -42,7 +42,8 @@ api_name:
 -	IDebugClient3.ExitDispatch
 -	IDebugClient4.ExitDispatch
 -	IDebugClient5.ExitDispatch
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---

@@ -39,7 +39,8 @@ api_location:
 -	Storport.dll
 api_name:
 -	StorPortWritePortUshort
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STOR_SPINLOCK
 req.product: Windows 10 or later.

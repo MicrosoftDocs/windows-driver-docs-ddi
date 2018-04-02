@@ -38,7 +38,8 @@ api_location:
 -	61883.h
 api_name:
 -	CIP_STOP
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: CIP_STOP, *PCIP_STOP
 ---

@@ -38,7 +38,8 @@ api_location:
 -	pointofservicedriverinterface.h
 api_name:
 -	IOCTL_POINT_OF_SERVICE_CHECK_HEALTH
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PosPropertyId
 ---

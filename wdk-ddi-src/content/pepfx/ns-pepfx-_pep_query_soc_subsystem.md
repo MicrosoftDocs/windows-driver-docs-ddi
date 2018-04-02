@@ -38,7 +38,8 @@ api_location:
 -	pepfx.h
 api_name:
 -	PEP_QUERY_SOC_SUBSYSTEM
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PEP_QUERY_SOC_SUBSYSTEM, *PPEP_QUERY_SOC_SUBSYSTEM
 ---

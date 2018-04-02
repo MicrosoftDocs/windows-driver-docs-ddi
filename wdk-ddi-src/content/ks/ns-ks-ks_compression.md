@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KS_COMPRESSION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KS_COMPRESSION, *PKS_COMPRESSION
 ---

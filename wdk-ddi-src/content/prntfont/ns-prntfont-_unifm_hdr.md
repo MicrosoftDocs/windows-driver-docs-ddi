@@ -38,7 +38,8 @@ api_location:
 -	prntfont.h
 api_name:
 -	UNIFM_HDR
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: UNIFM_HDR, *PUNIFM_HDR
 req.product: Windows 10 or later.

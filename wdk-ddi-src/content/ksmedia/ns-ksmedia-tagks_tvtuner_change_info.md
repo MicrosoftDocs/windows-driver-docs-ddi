@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KS_TVTUNER_CHANGE_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KS_TVTUNER_CHANGE_INFO, *PKS_TVTUNER_CHANGE_INFO
 ---

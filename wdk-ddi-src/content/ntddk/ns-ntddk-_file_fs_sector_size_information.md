@@ -38,7 +38,8 @@ api_location:
 -	ntddk.h
 api_name:
 -	FILE_FS_SECTOR_SIZE_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: FILE_FS_SECTOR_SIZE_INFORMATION, *PFILE_FS_SECTOR_SIZE_INFORMATION
 ---

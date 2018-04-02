@@ -38,7 +38,8 @@ api_location:
 -	dxva.h
 api_name:
 -	DXVA_MBctrl_I_OffHostIDCT_1
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXVA_MBctrl_I_OffHostIDCT_1
 ---

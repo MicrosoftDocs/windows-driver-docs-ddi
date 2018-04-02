@@ -38,7 +38,8 @@ api_location:
 -	pepfx.h
 api_name:
 -	GPIO_PIN_CONFIG_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GPIO_PIN_CONFIG_TYPE, GPIO_PIN_CONFIG_TYPE
 ---

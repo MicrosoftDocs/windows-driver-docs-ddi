@@ -38,7 +38,8 @@ api_location:
 -	Ntifs.h
 api_name:
 -	REFS_SMR_VOLUME_GC_PARAMETERS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: REFS_SMR_VOLUME_GC_PARAMETERS, *PREFS_SMR_VOLUME_GC_PARAMETERS
 ---

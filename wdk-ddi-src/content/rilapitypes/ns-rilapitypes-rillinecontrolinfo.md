@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILLINECONTROLINFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILLINECONTROLINFO, *LPRILLINECONTROLINFO
 req.product: Windows 10 or later.

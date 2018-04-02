@@ -38,7 +38,8 @@ api_location:
 -	wdm.h
 api_name:
 -	TRANSACTIONMANAGER_RECOVERY_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TRANSACTIONMANAGER_RECOVERY_INFORMATION, *PTRANSACTIONMANAGER_RECOVERY_INFORMATION
 req.product: Windows 10 or later.

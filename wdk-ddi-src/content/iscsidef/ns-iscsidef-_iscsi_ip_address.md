@@ -38,7 +38,8 @@ api_location:
 -	iscsidef.h
 api_name:
 -	ISCSI_IP_Address
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: ISCSI_IP_Address, *PISCSI_IP_Address
 ---

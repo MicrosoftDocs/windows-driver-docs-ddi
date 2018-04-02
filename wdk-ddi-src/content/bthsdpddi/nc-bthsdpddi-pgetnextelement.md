@@ -38,7 +38,8 @@ api_location:
 -	sdplib.h
 api_name:
 -	SdpGetNextElement
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BTH_VENDOR_SPECIFIC_COMMAND, *PBTH_VENDOR_SPECIFIC_COMMAND
 ---

@@ -38,7 +38,8 @@ api_location:
 -	strmini.h
 api_name:
 -	HW_STREAM_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: HW_STREAM_INFORMATION, *PHW_STREAM_INFORMATION
 req.product: Windows 10 or later.

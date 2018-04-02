@@ -40,7 +40,8 @@ api_name:
 -	IDebugControl.OutputStackTrace
 -	IDebugControl2.OutputStackTrace
 -	IDebugControl3.OutputStackTrace
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---

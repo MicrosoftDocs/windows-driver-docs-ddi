@@ -38,7 +38,8 @@ api_location:
 -	winsplp.h
 api_name:
 -	MONITOREX
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MONITOREX, *LPMONITOREX
 req.product: Windows 10 or later.

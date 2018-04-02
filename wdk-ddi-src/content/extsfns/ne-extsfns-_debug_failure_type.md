@@ -38,7 +38,8 @@ api_location:
 -	extsfns.h
 api_name:
 -	DEBUG_FAILURE_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DEBUG_FAILURE_TYPE
 ---

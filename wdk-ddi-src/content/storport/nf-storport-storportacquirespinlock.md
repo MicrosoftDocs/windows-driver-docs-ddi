@@ -38,7 +38,8 @@ api_location:
 -	storport.h
 api_name:
 -	StorPortAcquireSpinLock
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STOR_SPINLOCK
 req.product: Windows 10 or later.

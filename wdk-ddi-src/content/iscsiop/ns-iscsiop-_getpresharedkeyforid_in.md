@@ -38,7 +38,8 @@ api_location:
 -	iscsiop.h
 api_name:
 -	GetPresharedKeyForId_IN
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GetPresharedKeyForId_IN, *PGetPresharedKeyForId_IN
 ---

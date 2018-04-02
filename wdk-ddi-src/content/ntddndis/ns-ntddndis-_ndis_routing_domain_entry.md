@@ -38,7 +38,8 @@ api_location:
 -	Ntddndis.h
 api_name:
 -	NDIS_ROUTING_DOMAIN_ENTRY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_ROUTING_DOMAIN_ENTRY, *PNDIS_ROUTING_DOMAIN_ENTRY
 ---

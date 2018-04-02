@@ -38,7 +38,8 @@ api_location:
 -	Sensorsdef.h
 api_name:
 -	SENSOR_VALUE_PAIR
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SENSOR_VALUE_PAIR, *PSENSOR_VALUE_PAIR
 req.product: Windows 10 or later.

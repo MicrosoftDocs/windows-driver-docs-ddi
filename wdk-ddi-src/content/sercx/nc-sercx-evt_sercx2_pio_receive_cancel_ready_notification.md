@@ -38,7 +38,8 @@ api_location:
 -	2.0\Sercx.h
 api_name:
 -	EvtSerCx2PioReceiveCancelReadyNotification
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SENSOR_VALUE_PAIR, *PSENSOR_VALUE_PAIR
 req.product: Windows 10 or later.

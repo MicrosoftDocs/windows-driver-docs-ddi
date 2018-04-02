@@ -38,7 +38,8 @@ api_location:
 -	D3d10umddi.h
 api_name:
 -	pfnVideoProcessorSetOutputExtension
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 ---

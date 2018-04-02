@@ -38,7 +38,8 @@ api_location:
 -	hidport.h
 api_name:
 -	IOCTL_HID_GET_DEVICE_ATTRIBUTES
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USAGE_AND_PAGE, *PUSAGE_AND_PAGE
 ---

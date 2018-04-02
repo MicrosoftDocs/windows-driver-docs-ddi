@@ -38,7 +38,8 @@ api_location:
 -	Winsplp.h
 api_name:
 -	BranchOfficeJobDataPrinted
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BranchOfficeJobDataPrinted, *PBranchOfficeJobDataPrinted
 req.product: Windows 10 or later.

@@ -38,7 +38,8 @@ api_location:
 -	wditypes.hpp
 api_name:
 -	WDI_ETHERTYPE_ENCAPSULATION_ENTRY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDI_ETHERTYPE_ENCAPSULATION_ENTRY, *PWDI_ETHERTYPE_ENCAPSULATION_ENTRY
 req.product: Windows 10 or later.

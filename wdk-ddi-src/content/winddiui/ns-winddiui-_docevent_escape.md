@@ -38,7 +38,8 @@ api_location:
 -	winddiui.h
 api_name:
 -	DOCEVENT_ESCAPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOCEVENT_ESCAPE, *PDOCEVENT_ESCAPE
 req.product: Windows 10 or later.

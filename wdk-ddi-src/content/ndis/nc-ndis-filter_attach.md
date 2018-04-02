@@ -38,7 +38,8 @@ api_location:
 -	ndis.h
 api_name:
 -	FilterAttach
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
 ---

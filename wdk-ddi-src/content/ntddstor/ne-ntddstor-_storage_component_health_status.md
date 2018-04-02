@@ -38,7 +38,8 @@ api_location:
 -	Ntddstor.h
 api_name:
 -	STORAGE_COMPONENT_HEALTH_STATUS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STORAGE_COMPONENT_HEALTH_STATUS, *PSTORAGE_COMPONENT_HEALTH_STATUS
 ---

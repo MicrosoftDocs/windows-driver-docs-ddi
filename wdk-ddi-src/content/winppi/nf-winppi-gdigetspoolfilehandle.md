@@ -40,7 +40,8 @@ api_location:
 -	GDI32Full.dll
 api_name:
 -	GdiGetSpoolFileHandle
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PRINTER_EVENT_ATTRIBUTES_INFO, *PPRINTER_EVENT_ATTRIBUTES_INFO
 req.product: Windows 10 or later.

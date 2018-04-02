@@ -38,7 +38,8 @@ api_location:
 -	ntddk.h
 api_name:
 -	WHEA_X64_REGISTER_STATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WHEA_X64_REGISTER_STATE, *PWHEA_X64_REGISTER_STATE
 ---

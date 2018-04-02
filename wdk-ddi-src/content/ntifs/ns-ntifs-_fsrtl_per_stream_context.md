@@ -38,7 +38,8 @@ api_location:
 -	ntifs.h
 api_name:
 -	FSRTL_PER_STREAM_CONTEXT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: FSRTL_PER_STREAM_CONTEXT, *PFSRTL_PER_STREAM_CONTEXT
 ---

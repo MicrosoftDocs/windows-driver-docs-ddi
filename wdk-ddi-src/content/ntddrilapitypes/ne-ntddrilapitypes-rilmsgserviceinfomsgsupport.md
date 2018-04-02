@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILMSGSERVICEINFOMSGSUPPORT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILMSGSERVICEINFOMSGSUPPORT
 ---

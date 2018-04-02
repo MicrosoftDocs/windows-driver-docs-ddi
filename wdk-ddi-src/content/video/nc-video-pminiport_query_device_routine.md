@@ -38,7 +38,8 @@ api_location:
 -	video.h
 api_name:
 -	HwVidQueryDeviceCallback
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: VHF_CONFIG, *PVHF_CONFIG
 req.product: Windows 10 or later.

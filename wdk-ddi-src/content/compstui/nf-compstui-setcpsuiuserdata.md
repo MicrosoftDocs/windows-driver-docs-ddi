@@ -38,7 +38,8 @@ api_location:
 -	Compstui.dll
 api_name:
 -	SetCPSUIUserData
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: POWERSOURCEUPDATEEX, *PPOWERSOURCEUPDATEEX
 ---

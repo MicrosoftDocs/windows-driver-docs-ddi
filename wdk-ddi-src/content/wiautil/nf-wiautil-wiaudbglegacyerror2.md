@@ -38,7 +38,8 @@ api_location:
 -	Wiautil.h
 api_name:
 -	wiauDbgLegacyError2
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SKIP_AMOUNT
 req.product: Windows 10 or later.

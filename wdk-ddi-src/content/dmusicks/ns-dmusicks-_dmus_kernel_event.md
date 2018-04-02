@@ -38,7 +38,8 @@ api_location:
 -	dmusicks.h
 api_name:
 -	DMUS_KERNEL_EVENT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DMUS_KERNEL_EVENT, *PDMUS_KERNEL_EVENT
 ---

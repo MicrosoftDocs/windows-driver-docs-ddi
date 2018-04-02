@@ -38,7 +38,8 @@ api_location:
 -	ntifs.h
 api_name:
 -	FILE_TIMESTAMPS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: FILE_TIMESTAMPS, *PFILE_TIMESTAMPS
 ---

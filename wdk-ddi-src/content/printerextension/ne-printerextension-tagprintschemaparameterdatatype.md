@@ -38,7 +38,8 @@ api_location:
 -	Printerextension.h
 api_name:
 -	PrintSchemaParameterDataType
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PrintSchemaParameterDataType
 req.product: Windows 10 or later.

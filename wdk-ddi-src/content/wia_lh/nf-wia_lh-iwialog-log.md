@@ -38,7 +38,8 @@ api_location:
 -	wia_lh.h
 api_name:
 -	IWiaLog.Log
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BMP_IMAGE_INFO, *PBMP_IMAGE_INFO
 req.product: Windows 10 or later.

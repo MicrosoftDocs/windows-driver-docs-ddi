@@ -38,7 +38,8 @@ api_location:
 -	mpiodisk.h
 api_name:
 -	PDO_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PDO_INFORMATION, *PPDO_INFORMATION
 ---

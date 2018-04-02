@@ -39,7 +39,8 @@ api_location:
 -	Wdf01000.sys.dll
 api_name:
 -	WdfRequestWdmGetIrp
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_REQUEST_TYPE
 req.product: Windows 10 or later.

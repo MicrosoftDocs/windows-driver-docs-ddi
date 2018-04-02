@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILALPHAIDENTIFIERPARAMMASK
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILALPHAIDENTIFIERPARAMMASK
 req.product: Windows 10 or later.

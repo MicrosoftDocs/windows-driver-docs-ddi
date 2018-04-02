@@ -39,7 +39,8 @@ api_location:
 -	Wdf01000.sys.dll
 api_name:
 -	WdfWmiInstanceCreate
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_WMI_PROVIDER_FLAGS
 req.product: Windows 10 or later.

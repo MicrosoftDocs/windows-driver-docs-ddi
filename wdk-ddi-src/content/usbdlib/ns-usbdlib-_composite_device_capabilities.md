@@ -38,7 +38,8 @@ api_location:
 -	usbdlib.h
 api_name:
 -	COMPOSITE_DEVICE_CAPABILITIES
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: COMPOSITE_DEVICE_CAPABILITIES, *PCOMPOSITE_DEVICE_CAPABILITIES
 req.product: Windows 10 or later.

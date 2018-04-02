@@ -38,7 +38,8 @@ api_location:
 -	1394.h
 api_name:
 -	TOPOLOGY_MAP
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TOPOLOGY_MAP, *PTOPOLOGY_MAP
 ---

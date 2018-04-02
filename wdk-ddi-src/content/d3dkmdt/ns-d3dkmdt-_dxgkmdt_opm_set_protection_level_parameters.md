@@ -38,7 +38,8 @@ api_location:
 -	d3dkmdt.h
 api_name:
 -	DXGKMDT_OPM_SET_PROTECTION_LEVEL_PARAMETERS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGKMDT_OPM_SET_PROTECTION_LEVEL_PARAMETERS
 ---

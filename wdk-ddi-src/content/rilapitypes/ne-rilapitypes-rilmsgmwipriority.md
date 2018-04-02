@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILMSGMWIPRIORITY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILMSGMWIPRIORITY
 req.product: Windows 10 or later.

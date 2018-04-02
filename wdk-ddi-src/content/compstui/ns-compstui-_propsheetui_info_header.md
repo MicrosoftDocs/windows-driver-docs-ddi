@@ -38,7 +38,8 @@ api_location:
 -	compstui.h
 api_name:
 -	PROPSHEETUI_INFO_HEADER
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PROPSHEETUI_INFO_HEADER, *PPROPSHEETUI_INFO_HEADER
 ---

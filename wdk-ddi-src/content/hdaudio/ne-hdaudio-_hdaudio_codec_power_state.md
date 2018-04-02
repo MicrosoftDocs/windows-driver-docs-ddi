@@ -38,7 +38,8 @@ api_location:
 -	Hdaudio.h
 api_name:
 -	HDAUDIO_CODEC_POWER_STATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: HDAUDIO_CODEC_POWER_STATE, *PHDAUDIO_CODEC_POWER_STATE
 ---

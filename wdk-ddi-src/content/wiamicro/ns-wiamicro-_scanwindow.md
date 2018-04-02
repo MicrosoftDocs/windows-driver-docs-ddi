@@ -38,7 +38,8 @@ api_location:
 -	wiamicro.h
 api_name:
 -	SCANWINDOW
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SCANWINDOW, *PSCANWINDOW
 req.product: Windows 10 or later.

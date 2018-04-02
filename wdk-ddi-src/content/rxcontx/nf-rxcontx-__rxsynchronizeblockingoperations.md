@@ -38,7 +38,8 @@ api_location:
 -	rxcontx.h
 api_name:
 -	__RxSynchronizeBlockingOperations
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILWRITEPHONEBOOKENTRYPARAMS, *LPRILWRITEPHONEBOOKENTRYPARAMS
 req.product: Windows 10 or later.

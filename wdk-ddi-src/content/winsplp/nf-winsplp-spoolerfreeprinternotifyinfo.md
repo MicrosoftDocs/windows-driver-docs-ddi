@@ -38,7 +38,8 @@ api_location:
 -	Winsplp.h
 api_name:
 -	SpoolerFreePrinterNotifyInfo
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NOTIFICATION_CONFIG_FLAGS
 req.product: Windows 10 or later.

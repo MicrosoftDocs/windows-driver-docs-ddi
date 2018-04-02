@@ -38,7 +38,8 @@ api_location:
 -	ntddser.h
 api_name:
 -	IOCTL_SERIAL_INTERNAL_CANCEL_WAIT_WAKE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SD_REQUEST_FUNCTION
 ---

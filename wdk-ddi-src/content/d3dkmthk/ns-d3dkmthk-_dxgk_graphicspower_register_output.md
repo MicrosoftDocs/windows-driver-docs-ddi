@@ -38,7 +38,8 @@ api_location:
 -	d3dkmthk.h
 api_name:
 -	DXGK_GRAPHICSPOWER_REGISTER_OUTPUT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_GRAPHICSPOWER_REGISTER_OUTPUT, *PDXGK_GRAPHICSPOWER_REGISTER_OUTPUT
 ---

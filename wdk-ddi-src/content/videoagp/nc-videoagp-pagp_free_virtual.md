@@ -38,7 +38,8 @@ api_location:
 -	videoagp.h
 api_name:
 -	AgpFreeVirtual
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: VP_SCATTER_GATHER_LIST, *PVP_SCATTER_GATHER_LIST
 req.product: Windows 10 or later.

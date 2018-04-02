@@ -38,7 +38,8 @@ api_location:
 -	storport.h
 api_name:
 -	PRO_PARAMETER_LIST
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PRO_PARAMETER_LIST, *PPRO_PARAMETER_LIST
 req.product: Windows 10 or later.

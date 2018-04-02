@@ -38,7 +38,8 @@ api_location:
 -	ntddcdvd.h
 api_name:
 -	DVD_KEY_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DVD_KEY_TYPE
 ---

@@ -38,7 +38,8 @@ api_location:
 -	mountdev.h
 api_name:
 -	MOUNTDEV_UNIQUE_ID
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MOUNTDEV_UNIQUE_ID, *PMOUNTDEV_UNIQUE_ID
 ---

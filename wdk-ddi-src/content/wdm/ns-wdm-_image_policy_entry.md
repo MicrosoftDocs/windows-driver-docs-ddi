@@ -38,7 +38,8 @@ api_location:
 -	wdm.h
 api_name:
 -	IMAGE_POLICY_ENTRY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: IMAGE_POLICY_ENTRY
 req.product: Windows 10 or later.

@@ -38,7 +38,8 @@ api_location:
 -	gnssdriver.h
 api_name:
 -	GNSS_BREADCRUMBING_PARAM
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GNSS_BREADCRUMBING_PARAM, *PGNSS_BREADCRUMBING_PARAM
 ---

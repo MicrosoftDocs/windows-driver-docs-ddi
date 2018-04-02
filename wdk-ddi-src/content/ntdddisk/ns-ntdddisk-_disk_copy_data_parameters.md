@@ -38,7 +38,8 @@ api_location:
 -	ntdddisk.h
 api_name:
 -	DISK_COPY_DATA_PARAMETERS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DISK_COPY_DATA_PARAMETERS, *PDISK_COPY_DATA_PARAMETERS
 ---

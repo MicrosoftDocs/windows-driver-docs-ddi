@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILCALLMODIFICATIONINFOMODIFICATIONTYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILCALLMODIFICATIONINFOMODIFICATIONTYPE
 req.product: Windows 10 or later.

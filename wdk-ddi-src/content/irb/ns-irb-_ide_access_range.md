@@ -38,7 +38,8 @@ api_location:
 -	irb.h
 api_name:
 -	IDE_ACCESS_RANGE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: IDE_ACCESS_RANGE, *PIDE_ACCESS_RANGE
 ---

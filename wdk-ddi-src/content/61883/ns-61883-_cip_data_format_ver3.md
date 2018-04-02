@@ -38,7 +38,8 @@ api_location:
 -	61883.h
 api_name:
 -	CIP_DATA_FORMAT_VER3
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: CIP_DATA_FORMAT_VER3, *PCIP_DATA_FORMAT_VER3
 ---

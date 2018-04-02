@@ -38,7 +38,8 @@ api_location:
 -	ucxusbdevice.h
 api_name:
 -	USBDEVICE_DISABLE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USBDEVICE_DISABLE, *PUSBDEVICE_DISABLE
 req.product: Windows 10 or later.

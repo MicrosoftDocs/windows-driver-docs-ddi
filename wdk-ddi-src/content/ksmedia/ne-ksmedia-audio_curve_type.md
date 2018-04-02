@@ -38,7 +38,8 @@ api_location:
 -	Ksmedia.h
 api_name:
 -	AUDIO_CURVE_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: AUDIO_CURVE_TYPE
 ---

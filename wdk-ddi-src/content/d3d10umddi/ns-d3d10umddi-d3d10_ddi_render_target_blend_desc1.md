@@ -38,7 +38,8 @@ api_location:
 -	d3d10umddi.h
 api_name:
 -	D3D10_DDI_RENDER_TARGET_BLEND_DESC1
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3D10_DDI_RENDER_TARGET_BLEND_DESC1
 ---

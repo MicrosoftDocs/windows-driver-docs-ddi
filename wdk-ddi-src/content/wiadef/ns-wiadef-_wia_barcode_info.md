@@ -38,7 +38,8 @@ api_location:
 -	wiadef.h
 api_name:
 -	WIA_BARCODE_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WIA_BARCODE_INFO
 req.product: Windows 10 or later.

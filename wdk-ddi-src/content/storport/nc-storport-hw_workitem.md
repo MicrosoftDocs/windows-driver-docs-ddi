@@ -38,7 +38,8 @@ api_location:
 -	storport.h
 api_name:
 -	HwStorWorkItem
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STORAGE_DEVICE_UNIQUE_IDENTIFIER, *PSTORAGE_DEVICE_UNIQUE_IDENTIFIER
 req.product: Windows 10 or later.

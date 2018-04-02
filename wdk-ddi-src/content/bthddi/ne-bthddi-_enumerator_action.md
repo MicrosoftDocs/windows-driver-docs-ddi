@@ -38,7 +38,8 @@ api_location:
 -	bthddi.h
 api_name:
 -	ENUMERATOR_ACTION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: ENUMERATOR_ACTION, *PENUMERATOR_ACTION
 ---

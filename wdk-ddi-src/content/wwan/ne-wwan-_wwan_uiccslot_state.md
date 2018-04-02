@@ -38,7 +38,8 @@ api_location:
 -	wwan.h
 api_name:
 -	WWAN_UICCSLOT_STATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WWAN_UICCSLOT_STATE, *PWWAN_UICCSLOT_STATE
 req.product: Windows 10 or later.

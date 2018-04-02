@@ -38,7 +38,8 @@ api_location:
 -	wiamindr_lh.h
 api_name:
 -	WIAS_ENDORSER_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WIAS_ENDORSER_INFO, *PWIAS_ENDORSER_INFO
 req.product: Windows 10 or later.

@@ -38,7 +38,8 @@ api_location:
 -	wsk.h
 api_name:
 -	WSK_SOCKET
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WSK_SOCKET, *PWSK_SOCKET
 req.product: Windows 10 or later.

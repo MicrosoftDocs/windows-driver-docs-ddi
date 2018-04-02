@@ -38,7 +38,8 @@ api_location:
 -	wdtf.h
 api_name:
 -	TTraceLevel
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TTraceLevel
 req.product: Windows 10 or later.

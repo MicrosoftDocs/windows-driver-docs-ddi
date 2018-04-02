@@ -38,7 +38,8 @@ api_location:
 -	lamp.h
 api_name:
 -	IOCTL_LAMP_GET_CAPABILITIES_COLOR
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: LAMP_MODE
 ---

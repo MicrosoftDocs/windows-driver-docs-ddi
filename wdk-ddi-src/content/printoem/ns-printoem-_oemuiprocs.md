@@ -38,7 +38,8 @@ api_location:
 -	printoem.h
 api_name:
 -	OEMUIPROCS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: OEMUIPROCS, *POEMUIPROCS
 req.product: Windows 10 or later.

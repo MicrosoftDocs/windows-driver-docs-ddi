@@ -38,7 +38,8 @@ api_location:
 -	pepfx.h
 api_name:
 -	PEP_DEBUGGER_TRANSITION_REQUIREMENTS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PEP_DEBUGGER_TRANSITION_REQUIREMENTS, *PPEP_DEBUGGER_TRANSITION_REQUIREMENTS
 ---

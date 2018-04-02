@@ -38,7 +38,8 @@ api_location:
 -	wwan.h
 api_name:
 -	WWAN_SUPPORTED_DEVICE_SERVICES
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WWAN_SUPPORTED_DEVICE_SERVICES, *PWWAN_SUPPORTED_DEVICE_SERVICES
 req.product: Windows 10 or later.

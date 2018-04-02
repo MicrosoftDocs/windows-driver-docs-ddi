@@ -38,7 +38,8 @@ api_location:
 -	dispmprt.h
 api_name:
 -	DxgkInitialize
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_SURPRISE_REMOVAL_TYPE
 ---

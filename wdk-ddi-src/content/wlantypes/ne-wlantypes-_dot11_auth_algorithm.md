@@ -38,7 +38,8 @@ api_location:
 -	wlantypes.h
 api_name:
 -	DOT11_AUTH_ALGORITHM
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT11_AUTH_ALGORITHM, *PDOT11_AUTH_ALGORITHM, DOT11_AUTH_ALGORITHM, *PDOT11_AUTH_ALGORITHM
 req.product: Windows 10 or later.

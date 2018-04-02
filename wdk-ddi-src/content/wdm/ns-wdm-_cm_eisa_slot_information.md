@@ -38,7 +38,8 @@ api_location:
 -	Wdm.h
 api_name:
 -	CM_EISA_SLOT_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: CM_EISA_SLOT_INFORMATION, *PCM_EISA_SLOT_INFORMATION
 req.product: Windows 10 or later.

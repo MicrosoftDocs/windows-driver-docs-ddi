@@ -38,7 +38,8 @@ api_location:
 -	wdm.h
 api_name:
 -	PCW_REGISTRATION_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PCW_REGISTRATION_INFORMATION, *PPCW_REGISTRATION_INFORMATION
 req.product: Windows 10 or later.

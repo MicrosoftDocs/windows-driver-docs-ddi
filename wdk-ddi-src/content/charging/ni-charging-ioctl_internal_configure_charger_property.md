@@ -38,7 +38,8 @@ api_location:
 -	charging.h
 api_name:
 -	IOCTL_INTERNAL_CONFIGURE_CHARGER_PROPERTY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: POWERSOURCEID, *PPOWERSOURCEID
 ---

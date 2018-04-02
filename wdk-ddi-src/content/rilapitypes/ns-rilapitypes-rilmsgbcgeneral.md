@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILMSGBCGENERAL
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILMSGBCGENERAL, *LPRILMSGBCGENERAL
 req.product: Windows 10 or later.

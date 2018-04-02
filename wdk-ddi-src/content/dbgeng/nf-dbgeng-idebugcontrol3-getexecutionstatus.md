@@ -40,7 +40,8 @@ api_name:
 -	IDebugControl.GetExecutionStatus
 -	IDebugControl2.GetExecutionStatus
 -	IDebugControl3.GetExecutionStatus
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---

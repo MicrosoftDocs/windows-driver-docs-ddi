@@ -38,7 +38,8 @@ api_location:
 -	61883.h
 api_name:
 -	FCP_SEND_REQUEST
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: FCP_REQUEST, *PFCP_REQUEST, FCP_SEND_REQUEST, *PFCP_SEND_REQUEST
 ---

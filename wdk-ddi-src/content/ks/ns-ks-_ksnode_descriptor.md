@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KSNODE_DESCRIPTOR
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSNODE_DESCRIPTOR, *PKSNODE_DESCRIPTOR
 ---

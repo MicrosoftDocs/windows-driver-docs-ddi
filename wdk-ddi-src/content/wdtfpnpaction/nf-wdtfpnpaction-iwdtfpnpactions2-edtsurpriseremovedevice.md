@@ -38,7 +38,8 @@ api_location:
 -	wdtfpnpaction.h
 api_name:
 -	IWDTFPNPActions2.EDTSurpriseRemoveDevice
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TTraceLevel
 req.product: Windows 10 or later.

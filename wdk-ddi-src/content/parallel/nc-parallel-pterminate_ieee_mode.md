@@ -38,7 +38,8 @@ api_location:
 -	parallel.h
 api_name:
 -	PTERMINATE_IEEE_MODE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILGBATOKEN, *LPRILGBATOKEN
 ---

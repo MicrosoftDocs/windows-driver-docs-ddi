@@ -38,7 +38,8 @@ api_location:
 -	wdfiotarget.h
 api_name:
 -	WDF_IO_TARGET_OPEN_PARAMS_INIT_CREATE_BY_NAME
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_IO_TARGET_STATE, *PWDF_IO_TARGET_STATE
 req.product: Windows 10 or later.

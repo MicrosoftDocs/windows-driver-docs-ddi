@@ -38,7 +38,8 @@ api_location:
 -	ntddcdrm.h
 api_name:
 -	CDROM_SUB_Q_DATA_FORMAT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: CDROM_SUB_Q_DATA_FORMAT, *PCDROM_SUB_Q_DATA_FORMAT
 ---

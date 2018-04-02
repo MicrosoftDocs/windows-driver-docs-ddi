@@ -38,7 +38,8 @@ api_location:
 -	SensorsClassExtension.h
 api_name:
 -	LOCATION_DESIRED_ACCURACY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: LOCATION_DESIRED_ACCURACY
 req.product: Windows 10 or later.

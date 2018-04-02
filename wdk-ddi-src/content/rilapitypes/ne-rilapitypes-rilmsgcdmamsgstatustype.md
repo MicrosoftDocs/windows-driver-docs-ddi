@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILMSGCDMAMSGSTATUSTYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILMSGCDMAMSGSTATUSTYPE
 req.product: Windows 10 or later.

@@ -38,7 +38,8 @@ api_location:
 -	Ntddser.h
 api_name:
 -	SERIAL_HANDFLOW
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SERIAL_HANDFLOW, *PSERIAL_HANDFLOW
 ---

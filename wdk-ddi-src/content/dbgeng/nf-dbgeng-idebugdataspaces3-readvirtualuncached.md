@@ -41,7 +41,8 @@ api_name:
 -	IDebugDataSpaces2.ReadVirtualUncached
 -	IDebugDataSpaces3.ReadVirtualUncached
 -	IDebugDataSpaces4.ReadVirtualUncached
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---

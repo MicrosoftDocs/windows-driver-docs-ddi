@@ -38,7 +38,8 @@ api_location:
 -	drmk.h
 api_name:
 -	DRMRIGHTS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DRMRIGHTS, *PDRMRIGHTS
 ---

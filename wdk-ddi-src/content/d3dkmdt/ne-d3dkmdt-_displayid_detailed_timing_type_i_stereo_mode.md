@@ -38,7 +38,8 @@ api_location:
 -	d3dkmdt.h
 api_name:
 -	_DISPLAYID_DETAILED_TIMING_TYPE_I_STEREO_MODE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

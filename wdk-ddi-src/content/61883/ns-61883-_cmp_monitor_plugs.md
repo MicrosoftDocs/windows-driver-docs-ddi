@@ -38,7 +38,8 @@ api_location:
 -	61883.h
 api_name:
 -	CMP_MONITOR_PLUGS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: CMP_MONITOR_PLUGS, *PCMP_MONITOR_PLUGS
 ---

@@ -41,7 +41,8 @@ api_name:
 -	IDebugDataSpaces2.CheckLowMemory
 -	IDebugDataSpaces3.CheckLowMemory
 -	IDebugDataSpaces4.CheckLowMemory
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---

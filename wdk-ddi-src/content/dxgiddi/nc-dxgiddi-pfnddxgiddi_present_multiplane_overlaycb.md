@@ -38,7 +38,8 @@ api_location:
 -	Dxgiddi.h
 api_name:
 -	pfnPresentMultiPlaneOverlayCb
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DRMRIGHTS, *PDRMRIGHTS
 ---

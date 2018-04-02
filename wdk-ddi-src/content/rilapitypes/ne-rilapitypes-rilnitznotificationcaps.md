@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILNITZNOTIFICATIONCAPS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILNITZNOTIFICATIONCAPS
 req.product: Windows 10 or later.

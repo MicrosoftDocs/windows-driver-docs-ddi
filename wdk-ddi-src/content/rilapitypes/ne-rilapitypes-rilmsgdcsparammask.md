@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILMSGDCSPARAMMASK
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILMSGDCSPARAMMASK
 req.product: Windows 10 or later.

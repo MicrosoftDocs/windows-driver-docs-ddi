@@ -38,7 +38,8 @@ api_location:
 -	compstui.h
 api_name:
 -	EXTCHKBOX
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: EXTCHKBOX, *PEXTCHKBOX
 ---

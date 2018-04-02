@@ -38,7 +38,8 @@ api_location:
 -	61883.h
 api_name:
 -	AV_61883_REQUEST
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: AV_61883_REQUEST, *PAV_61883_REQUEST
 ---

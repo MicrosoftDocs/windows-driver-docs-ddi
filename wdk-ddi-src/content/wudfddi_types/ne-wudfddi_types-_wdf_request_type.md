@@ -38,7 +38,8 @@ api_location:
 -	Wudfddi_types.h
 api_name:
 -	WDF_REQUEST_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_REQUEST_TYPE, *PWDF_REQUEST_TYPE
 req.product: Windows 10 or later.

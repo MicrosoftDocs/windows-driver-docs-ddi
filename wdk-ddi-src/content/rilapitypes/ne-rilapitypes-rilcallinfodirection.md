@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILCALLINFODIRECTION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILCALLINFODIRECTION
 req.product: Windows 10 or later.

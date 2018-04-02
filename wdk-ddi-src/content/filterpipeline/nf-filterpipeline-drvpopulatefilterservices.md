@@ -38,7 +38,8 @@ api_location:
 -	Filterpipeline.h
 api_name:
 -	DrvPopulateFilterServices
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: EXpsFontRestriction
 ---

@@ -38,7 +38,8 @@ api_location:
 -	Wdm.h
 api_name:
 -	CLS_CONTAINER_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: CLS_CONTAINER_INFORMATION, *PCLS_CONTAINER_INFORMATION, PPCLS_CONTAINER_INFORMATION
 req.product: Windows 10 or later.

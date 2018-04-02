@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILSENDUICCTOOLKITCMDRESPONSEPARAMS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILSENDUICCTOOLKITCMDRESPONSEPARAMS, *LPRILSENDUICCTOOLKITCMDRESPONSEPARAMS
 req.product: Windows 10 or later.

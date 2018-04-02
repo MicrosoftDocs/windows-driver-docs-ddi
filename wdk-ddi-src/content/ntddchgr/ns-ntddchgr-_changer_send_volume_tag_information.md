@@ -38,7 +38,8 @@ api_location:
 -	ntddchgr.h
 api_name:
 -	CHANGER_SEND_VOLUME_TAG_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: CHANGER_SEND_VOLUME_TAG_INFORMATION, *PCHANGER_SEND_VOLUME_TAG_INFORMATION
 ---

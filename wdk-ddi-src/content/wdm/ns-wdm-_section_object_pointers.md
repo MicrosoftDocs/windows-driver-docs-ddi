@@ -38,7 +38,8 @@ api_location:
 -	wdm.h
 api_name:
 -	SECTION_OBJECT_POINTERS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SECTION_OBJECT_POINTERS
 req.product: Windows 10 or later.

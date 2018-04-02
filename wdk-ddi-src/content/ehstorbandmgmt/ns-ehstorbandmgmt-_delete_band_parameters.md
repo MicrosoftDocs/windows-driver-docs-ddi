@@ -38,7 +38,8 @@ api_location:
 -	EhStorBandMgmt.h
 api_name:
 -	DELETE_BAND_PARAMETERS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DELETE_BAND_PARAMETERS, *PDELETE_BAND_PARAMETERS
 ---

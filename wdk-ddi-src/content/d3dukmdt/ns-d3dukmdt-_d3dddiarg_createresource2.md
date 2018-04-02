@@ -38,7 +38,8 @@ api_location:
 -	D3dukmdt.h
 api_name:
 -	D3DDDIARG_CREATERESOURCE2
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DDDIARG_CREATERESOURCE2
 ---

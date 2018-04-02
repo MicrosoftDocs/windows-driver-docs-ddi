@@ -38,7 +38,8 @@ api_location:
 -	Storport.h
 api_name:
 -	HW_INITIALIZATION_DATA
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: HW_INITIALIZATION_DATA, *PHW_INITIALIZATION_DATA, HW_INITIALIZATION_DATA, *PHW_INITIALIZATION_DATA
 req.product: Windows 10 or later.

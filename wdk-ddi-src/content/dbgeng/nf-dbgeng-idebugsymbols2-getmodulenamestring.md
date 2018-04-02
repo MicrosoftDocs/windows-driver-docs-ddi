@@ -39,7 +39,8 @@ api_location:
 api_name:
 -	IDebugSymbols2.GetModuleNameString
 -	IDebugSymbols3.GetModuleNameString
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---

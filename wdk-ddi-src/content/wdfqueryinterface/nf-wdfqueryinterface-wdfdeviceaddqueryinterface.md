@@ -39,7 +39,8 @@ api_location:
 -	Wdf01000.sys.dll
 api_name:
 -	WdfDeviceAddQueryInterface
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_PDO_EVENT_CALLBACKS, *PWDF_PDO_EVENT_CALLBACKS
 req.product: Windows 10 or later.

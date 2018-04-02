@@ -38,7 +38,8 @@ apilocation:
 -	engextcpp.hpp
 apiname:
 -	ExtRemoteData
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXVA_VideoSample32
 ---

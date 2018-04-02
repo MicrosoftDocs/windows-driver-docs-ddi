@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILMSGINSTATUSTGTDLVSTATUS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILMSGINSTATUSTGTDLVSTATUS
 req.product: Windows 10 or later.

@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILPHONEBOOKLOCATIONCAPS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILPHONEBOOKLOCATIONCAPS
 req.product: Windows 10 or later.

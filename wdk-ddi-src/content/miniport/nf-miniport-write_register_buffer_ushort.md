@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	WRITE_REGISTER_BUFFER_USHORT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MEMORY_CACHING_TYPE
 ---

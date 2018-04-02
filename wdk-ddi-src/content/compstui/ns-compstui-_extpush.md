@@ -38,7 +38,8 @@ api_location:
 -	compstui.h
 api_name:
 -	EXTPUSH
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: EXTPUSH, *PEXTPUSH
 ---

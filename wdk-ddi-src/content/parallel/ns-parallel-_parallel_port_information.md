@@ -38,7 +38,8 @@ api_location:
 -	parallel.h
 api_name:
 -	PARALLEL_PORT_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PARALLEL_PORT_INFORMATION, *PPARALLEL_PORT_INFORMATION
 ---

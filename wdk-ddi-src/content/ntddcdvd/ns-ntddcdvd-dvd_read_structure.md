@@ -38,7 +38,8 @@ api_location:
 -	ntddcdvd.h
 api_name:
 -	DVD_READ_STRUCTURE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DVD_READ_STRUCTURE, *PDVD_READ_STRUCTURE
 ---

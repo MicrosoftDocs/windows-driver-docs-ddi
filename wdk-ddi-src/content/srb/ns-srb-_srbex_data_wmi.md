@@ -38,7 +38,8 @@ api_location:
 -	Storport.h
 api_name:
 -	SRBEX_DATA_WMI
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SRBEX_DATA_WMI, *PSRBEX_DATA_WMI
 req.product: Windows 10 or later.

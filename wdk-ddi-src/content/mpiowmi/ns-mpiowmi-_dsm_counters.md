@@ -38,7 +38,8 @@ api_location:
 -	mpiowmi.h
 api_name:
 -	DSM_COUNTERS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DSM_COUNTERS, *PDSM_COUNTERS
 ---

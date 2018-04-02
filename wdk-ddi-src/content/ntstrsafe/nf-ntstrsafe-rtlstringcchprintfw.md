@@ -41,7 +41,8 @@ api_name:
 -	RtlStringCchPrintfW
 -	RtlStringCchPrintfA
 -	RtlStringCchPrintfW
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SYSTEM_POWER_STATE_CONTEXT, *PSYSTEM_POWER_STATE_CONTEXT
 ---

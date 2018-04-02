@@ -38,7 +38,8 @@ api_location:
 -	WdfUsb.h
 api_name:
 -	EvtUsbTargetPipeReadComplete
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_TRI_STATE, *PWDF_TRI_STATE
 req.product: Windows 10 or later.

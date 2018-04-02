@@ -38,7 +38,8 @@ api_location:
 -	pointofservicedriverinterface.h
 api_name:
 -	IOCTL_POINT_OF_SERVICE_CLAIM_DEVICE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PosPropertyId
 ---

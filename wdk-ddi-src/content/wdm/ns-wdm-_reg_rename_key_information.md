@@ -38,7 +38,8 @@ api_location:
 -	wdm.h
 api_name:
 -	REG_RENAME_KEY_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: REG_RENAME_KEY_INFORMATION, *PREG_RENAME_KEY_INFORMATION
 req.product: Windows 10 or later.

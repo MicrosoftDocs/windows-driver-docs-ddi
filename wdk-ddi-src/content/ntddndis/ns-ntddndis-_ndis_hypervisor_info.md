@@ -38,7 +38,8 @@ api_location:
 -	Ntddndis.h
 api_name:
 -	NDIS_HYPERVISOR_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_HYPERVISOR_INFO, *PNDIS_HYPERVISOR_INFO
 ---

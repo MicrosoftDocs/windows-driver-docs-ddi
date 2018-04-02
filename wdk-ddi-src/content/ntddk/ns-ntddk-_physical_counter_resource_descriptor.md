@@ -38,7 +38,8 @@ api_location:
 -	ntddk.h
 api_name:
 -	PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR, *PPHYSICAL_COUNTER_RESOURCE_DESCRIPTOR
 ---

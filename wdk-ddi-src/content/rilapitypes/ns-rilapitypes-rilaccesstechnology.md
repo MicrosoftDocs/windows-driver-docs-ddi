@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILACCESSTECHNOLOGY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILACCESSTECHNOLOGY, *LPRILACCESSTECHNOLOGY
 req.product: Windows 10 or later.

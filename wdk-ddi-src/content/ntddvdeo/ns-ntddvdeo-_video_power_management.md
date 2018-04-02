@@ -38,7 +38,8 @@ api_location:
 -	ntddvdeo.h
 api_name:
 -	VIDEO_POWER_MANAGEMENT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: VIDEO_POWER_MANAGEMENT, *PVIDEO_POWER_MANAGEMENT
 ---

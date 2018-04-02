@@ -38,7 +38,8 @@ api_location:
 -	Usbioctl.h
 api_name:
 -	USB_PORT_CONNECTOR_PROPERTIES
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USB_PORT_CONNECTOR_PROPERTIES, *PUSB_PORT_CONNECTOR_PROPERTIES
 req.product: Windows 10 or later.

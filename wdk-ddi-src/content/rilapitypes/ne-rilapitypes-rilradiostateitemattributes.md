@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILRADIOSTATEITEMATTRIBUTES
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILRADIOSTATEITEMATTRIBUTES
 req.product: Windows 10 or later.

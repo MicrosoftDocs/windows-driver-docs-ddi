@@ -38,7 +38,8 @@ api_location:
 -	Ntddndis.h
 api_name:
 -	NDIS_RSS_SET_INDIRECTION_ENTRIES
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_RSS_SET_INDIRECTION_ENTRIES, *PNDIS_RSS_SET_INDIRECTION_ENTRIES
 ---

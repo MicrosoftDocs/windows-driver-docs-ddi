@@ -38,7 +38,8 @@ api_location:
 -	Usbdlib.h
 api_name:
 -	REQUEST_REMOTE_WAKE_NOTIFICATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: REQUEST_REMOTE_WAKE_NOTIFICATION, *PREQUEST_REMOTE_WAKE_NOTIFICATION
 req.product: Windows 10 or later.

@@ -38,7 +38,8 @@ api_location:
 -	Wdm.h
 api_name:
 -	DEVICE_RESET_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DEVICE_RESET_TYPE
 req.product: Windows 10 or later.

@@ -38,7 +38,8 @@ api_location:
 -	ntddmmc.h
 api_name:
 -	FEATURE_DATA_DISC_CONTROL_BLOCKS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: FEATURE_DATA_DISC_CONTROL_BLOCKS, *PFEATURE_DATA_DISC_CONTROL_BLOCKS
 ---

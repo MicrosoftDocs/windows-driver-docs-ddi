@@ -40,7 +40,8 @@ api_name:
 -	IDebugControl.GetSpecificFilterParameters
 -	IDebugControl2.GetSpecificFilterParameters
 -	IDebugControl3.GetSpecificFilterParameters
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---

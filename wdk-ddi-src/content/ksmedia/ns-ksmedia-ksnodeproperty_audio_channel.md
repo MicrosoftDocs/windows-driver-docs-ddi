@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KSNODEPROPERTY_AUDIO_CHANNEL
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSNODEPROPERTY_AUDIO_CHANNEL, *PKSNODEPROPERTY_AUDIO_CHANNEL
 ---

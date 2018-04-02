@@ -38,7 +38,8 @@ api_location:
 -	scsi.h
 api_name:
 -	RT_PARAMETER_DATA
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RT_PARAMETER_DATA, *PRT_PARAMETER_DATA
 req.product: Windows 10 or later.

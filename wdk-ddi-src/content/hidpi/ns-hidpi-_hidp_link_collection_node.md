@@ -38,7 +38,8 @@ api_location:
 -	hidpi.h
 api_name:
 -	HIDP_LINK_COLLECTION_NODE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: HIDP_LINK_COLLECTION_NODE, *PHIDP_LINK_COLLECTION_NODE
 ---

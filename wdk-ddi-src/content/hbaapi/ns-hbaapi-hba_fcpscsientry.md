@@ -38,7 +38,8 @@ api_location:
 -	hbaapi.h
 api_name:
 -	HBA_FCPSCSIENTRY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: HBA_FCPSCSIENTRY, *PHBA_FCPSCSIENTRY
 ---

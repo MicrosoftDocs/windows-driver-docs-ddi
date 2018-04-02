@@ -38,7 +38,8 @@ api_location:
 -	storport.h
 api_name:
 -	MINIPORT_DUMP_POINTERS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MINIPORT_DUMP_POINTERS, *PMINIPORT_DUMP_POINTERS
 req.product: Windows 10 or later.

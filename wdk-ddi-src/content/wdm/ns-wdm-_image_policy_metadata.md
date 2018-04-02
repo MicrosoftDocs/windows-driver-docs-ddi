@@ -38,7 +38,8 @@ api_location:
 -	wdm.h
 api_name:
 -	IMAGE_POLICY_METADATA
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: IMAGE_POLICY_METADATA
 req.product: Windows 10 or later.

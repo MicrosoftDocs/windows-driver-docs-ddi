@@ -38,7 +38,8 @@ api_location:
 -	ntifs.h
 api_name:
 -	SYSTEM_RESOURCE_ATTRIBUTE_ACE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SYSTEM_RESOURCE_ATTRIBUTE_ACE, *PSYSTEM_RESOURCE_ATTRIBUTE_ACE
 ---

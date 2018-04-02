@@ -38,7 +38,8 @@ api_location:
 -	UdecxWdfDevice.h
 api_name:
 -	EvtUdecxWdfDeviceQueryUsbCapability
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: UDECX_USB_ENDPOINT_CALLBACKS, *PUDECX_USB_ENDPOINT_CALLBACKS
 req.product: Windows 10 or later.

@@ -38,7 +38,8 @@ api_location:
 -	wdfobject.h
 api_name:
 -	WdfObjectGetTypedContextWorker
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_SYNCHRONIZATION_SCOPE
 req.product: Windows 10 or later.

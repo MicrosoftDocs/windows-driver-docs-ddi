@@ -38,7 +38,8 @@ api_location:
 -	Bthddi.h
 api_name:
 -	INDICATION_PARAMETERS_ENHANCED
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: "*PINDICATION_PARAMETERS_ENHANCED, INDICATION_PARAMETERS_ENHANCED, *PINDICATION_PARAMETERS_ENHANCED"
 ---

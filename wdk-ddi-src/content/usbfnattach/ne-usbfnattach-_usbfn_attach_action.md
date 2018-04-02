@@ -38,7 +38,8 @@ api_location:
 -	usbfnattach.h
 api_name:
 -	USBFN_ATTACH_ACTION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USBFN_ATTACH_ACTION, *PUSBFN_ATTACH_ACTION
 req.product: Windows 10 or later.

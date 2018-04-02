@@ -38,7 +38,8 @@ api_location:
 -	Ntnls.h
 api_name:
 -	NLSTABLEINFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NLSTABLEINFO, *PNLSTABLEINFO
 ---

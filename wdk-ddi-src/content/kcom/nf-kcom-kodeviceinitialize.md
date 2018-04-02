@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KoDeviceInitialize
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: CONNECT_DATA, *PCONNECT_DATA
 ---

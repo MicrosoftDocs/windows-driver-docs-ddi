@@ -38,7 +38,8 @@ api_location:
 -	windot11.h
 api_name:
 -	DOT11_ASSOCIATION_COMPLETION_PARAMETERS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT11_ASSOCIATION_COMPLETION_PARAMETERS, *PDOT11_ASSOCIATION_COMPLETION_PARAMETERS
 req.product: Windows 10 or later.

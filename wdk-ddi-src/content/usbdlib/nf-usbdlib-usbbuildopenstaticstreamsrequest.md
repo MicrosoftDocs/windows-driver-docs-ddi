@@ -38,7 +38,8 @@ api_location:
 -	Usbdlib.h
 api_name:
 -	UsbBuildOpenStaticStreamsRequest
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USBCAMD_DEVICE_DATA2, *PUSBCAMD_DEVICE_DATA2
 req.product: Windows 10 or later.

@@ -38,7 +38,8 @@ api_location:
 -	PointOfServiceDriverInterface.h
 api_name:
 -	MSR_UPDATE_KEY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MSR_UPDATE_KEY, *PMSR_UPDATE_KEY
 ---

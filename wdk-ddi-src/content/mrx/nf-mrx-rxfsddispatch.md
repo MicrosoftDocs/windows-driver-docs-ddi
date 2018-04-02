@@ -38,7 +38,8 @@ api_location:
 -	mrx.h
 api_name:
 -	RxFsdDispatch
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SetDSMCounters_IN, *PSetDSMCounters_IN
 ---

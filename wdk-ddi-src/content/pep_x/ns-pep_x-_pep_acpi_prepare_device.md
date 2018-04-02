@@ -38,7 +38,8 @@ api_location:
 -	pepfx.h
 api_name:
 -	PEP_ACPI_PREPARE_DEVICE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PEP_ACPI_PREPARE_DEVICE, *PPEP_ACPI_PREPARE_DEVICE, PEP_ACPI_PREPARE_DEVICE, *PPEP_ACPI_PREPARE_DEVICE
 ---

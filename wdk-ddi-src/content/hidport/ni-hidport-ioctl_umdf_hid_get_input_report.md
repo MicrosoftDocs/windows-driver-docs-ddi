@@ -38,7 +38,8 @@ api_location:
 -	Hidport.h
 api_name:
 -	IOCTL_UMDF_HID_GET_INPUT_REPORT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USAGE_AND_PAGE, *PUSAGE_AND_PAGE
 ---

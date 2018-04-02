@@ -40,7 +40,8 @@ api_name:
 -	IDebugControl.OutputPrompt
 -	IDebugControl2.OutputPrompt
 -	IDebugControl3.OutputPrompt
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---

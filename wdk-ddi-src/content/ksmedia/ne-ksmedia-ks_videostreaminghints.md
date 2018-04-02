@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KS_VideoStreamingHints
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KS_VideoStreamingHints
 ---

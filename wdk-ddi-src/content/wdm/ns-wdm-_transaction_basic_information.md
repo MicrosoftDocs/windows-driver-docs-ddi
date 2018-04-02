@@ -38,7 +38,8 @@ api_location:
 -	wdm.h
 api_name:
 -	TRANSACTION_BASIC_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TRANSACTION_BASIC_INFORMATION, *PTRANSACTION_BASIC_INFORMATION
 req.product: Windows 10 or later.

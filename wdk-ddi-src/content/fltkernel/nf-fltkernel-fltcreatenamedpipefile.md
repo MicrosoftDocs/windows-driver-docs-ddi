@@ -39,7 +39,8 @@ api_location:
 -	Fltmgr.dll
 api_name:
 -	FltCreateNamedPipeFile
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: EXpsFontRestriction
 ---

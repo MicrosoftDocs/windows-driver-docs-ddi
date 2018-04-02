@@ -38,7 +38,8 @@ api_location:
 -	ntddk.h
 api_name:
 -	WHEA_PSHED_PLUGIN_REGISTRATION_PACKET
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WHEA_PSHED_PLUGIN_REGISTRATION_PACKET, *PWHEA_PSHED_PLUGIN_REGISTRATION_PACKET
 ---

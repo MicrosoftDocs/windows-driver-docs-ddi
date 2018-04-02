@@ -40,7 +40,8 @@ api_name:
 -	IDebugControl.GetTextMacro
 -	IDebugControl2.GetTextMacro
 -	IDebugControl3.GetTextMacro
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---

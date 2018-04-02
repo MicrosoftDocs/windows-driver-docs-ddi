@@ -38,7 +38,8 @@ api_location:
 -	d3dukmdt.h
 api_name:
 -	D3DDDIGPUVIRTUALADDRESS_PROTECTION_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DDDIGPUVIRTUALADDRESS_PROTECTION_TYPE
 ---

@@ -40,7 +40,8 @@ api_name:
 -	IDebugControl.RemoveBreakpoint
 -	IDebugControl2.RemoveBreakpoint
 -	IDebugControl3.RemoveBreakpoint
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---

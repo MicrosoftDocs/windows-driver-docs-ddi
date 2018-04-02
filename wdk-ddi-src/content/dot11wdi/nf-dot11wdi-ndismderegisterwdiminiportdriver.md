@@ -39,7 +39,8 @@ api_location:
 -	ndis.dll
 api_name:
 -	NdisMDeregisterWdiMiniportDriver
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDI_TX_PAUSE_REASON
 ---

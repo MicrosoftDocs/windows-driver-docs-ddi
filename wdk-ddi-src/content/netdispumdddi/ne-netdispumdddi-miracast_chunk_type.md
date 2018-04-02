@@ -38,7 +38,8 @@ api_location:
 -	Netdispumdddi.h
 api_name:
 -	MIRACAST_CHUNK_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MIRACAST_CHUNK_TYPE
 ---

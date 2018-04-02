@@ -38,7 +38,8 @@ api_location:
 -	nfcsedev.h
 api_name:
 -	SECURE_ELEMENT_EVENT_SUBSCRIPTION_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SECURE_ELEMENT_EVENT_SUBSCRIPTION_INFO, *PSECURE_ELEMENT_EVENT_SUBSCRIPTION_INFO
 ---

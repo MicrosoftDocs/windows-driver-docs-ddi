@@ -38,7 +38,8 @@ api_location:
 -	avcstrm.h
 api_name:
 -	CIP_HDR2_FDF
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: CIP_HDR2_FDF, *PCIP_HDR2_FDF
 ---

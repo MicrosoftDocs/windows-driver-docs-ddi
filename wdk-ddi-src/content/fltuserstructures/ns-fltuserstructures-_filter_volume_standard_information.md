@@ -38,7 +38,8 @@ api_location:
 -	fltuserstructures.h
 api_name:
 -	FILTER_VOLUME_STANDARD_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: FILTER_VOLUME_STANDARD_INFORMATION, *PFILTER_VOLUME_STANDARD_INFORMATION
 ---

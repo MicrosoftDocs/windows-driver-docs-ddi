@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILGETDEVICEINFOPARAMS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILGETDEVICEINFOPARAMS, *LPRILGETDEVICEINFOPARAMS
 req.product: Windows 10 or later.

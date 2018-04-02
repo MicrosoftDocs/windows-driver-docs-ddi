@@ -38,7 +38,8 @@ api_location:
 -	prntfont.h
 api_name:
 -	WIDTHTABLE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WIDTHTABLE, *PWIDTHTABLE
 req.product: Windows 10 or later.

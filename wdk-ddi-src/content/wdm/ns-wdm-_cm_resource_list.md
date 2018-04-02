@@ -38,7 +38,8 @@ api_location:
 -	wdm.h
 api_name:
 -	CM_RESOURCE_LIST
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: CM_RESOURCE_LIST, *PCM_RESOURCE_LIST
 req.product: Windows 10 or later.

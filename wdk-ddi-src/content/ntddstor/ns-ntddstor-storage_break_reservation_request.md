@@ -38,7 +38,8 @@ api_location:
 -	ntddstor.h
 api_name:
 -	STORAGE_BREAK_RESERVATION_REQUEST
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STORAGE_BREAK_RESERVATION_REQUEST, *PSTORAGE_BREAK_RESERVATION_REQUEST
 ---

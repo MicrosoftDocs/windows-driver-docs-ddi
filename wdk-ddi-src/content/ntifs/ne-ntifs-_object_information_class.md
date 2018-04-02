@@ -38,7 +38,8 @@ api_location:
 -	ntifs.h
 api_name:
 -	OBJECT_INFORMATION_CLASS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: OBJECT_INFORMATION_CLASS
 ---

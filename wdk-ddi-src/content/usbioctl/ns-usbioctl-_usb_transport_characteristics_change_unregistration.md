@@ -38,7 +38,8 @@ api_location:
 -	Usbioctl.h
 api_name:
 -	USB_TRANSPORT_CHARACTERISTICS_CHANGE_UNREGISTRATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USB_TRANSPORT_CHARACTERISTICS_CHANGE_UNREGISTRATION, *PUSB_TRANSPORT_CHARACTERISTICS_CHANGE_UNREGISTRATION
 req.product: Windows 10 or later.

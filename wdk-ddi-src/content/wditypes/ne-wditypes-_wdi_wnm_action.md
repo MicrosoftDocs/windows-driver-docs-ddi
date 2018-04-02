@@ -38,7 +38,8 @@ api_location:
 -	wditypes.hpp
 api_name:
 -	WDI_WNM_ACTION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDI_WNM_ACTION
 req.product: Windows 10 or later.

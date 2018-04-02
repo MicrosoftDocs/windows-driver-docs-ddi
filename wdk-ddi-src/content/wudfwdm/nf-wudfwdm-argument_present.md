@@ -38,7 +38,8 @@ api_location:
 -	wudfwdm.h
 api_name:
 -	ARGUMENT_PRESENT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PO_FX_PERF_STATE_UNIT, *PPO_FX_PERF_STATE_UNIT
 req.product: Windows 10 or later.

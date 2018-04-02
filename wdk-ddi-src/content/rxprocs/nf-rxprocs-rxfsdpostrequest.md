@@ -38,7 +38,8 @@ api_location:
 -	rxprocs.h
 api_name:
 -	RxFsdPostRequest
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RX_CONTEXT, *PRX_CONTEXT
 req.product: Windows 10 or later.

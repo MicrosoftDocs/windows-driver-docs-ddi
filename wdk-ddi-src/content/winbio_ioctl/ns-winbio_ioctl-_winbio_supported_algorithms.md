@@ -38,7 +38,8 @@ api_location:
 -	winbio_ioctl.h
 api_name:
 -	WINBIO_SUPPORTED_ALGORITHMS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WINBIO_SUPPORTED_ALGORITHMS, *PWINBIO_SUPPORTED_ALGORITHMS
 req.product: Windows 10 or later.

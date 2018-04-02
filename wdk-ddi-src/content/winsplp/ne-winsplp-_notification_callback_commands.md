@@ -38,7 +38,8 @@ api_location:
 -	Winsplp.h
 api_name:
 -	NOTIFICATION_CALLBACK_COMMANDS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NOTIFICATION_CALLBACK_COMMANDS
 req.product: Windows 10 or later.

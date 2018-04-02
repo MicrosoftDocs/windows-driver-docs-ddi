@@ -38,7 +38,8 @@ api_location:
 -	ucxroothub.h
 api_name:
 -	CONTROLLER_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: CONTROLLER_TYPE
 req.product: Windows 10 or later.

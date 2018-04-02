@@ -39,7 +39,8 @@ api_location:
 api_name:
 -	IDebugSystemObjects3.GetSystemIdsByIndex
 -	IDebugSystemObjects4.GetSystemIdsByIndex
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---

@@ -38,7 +38,8 @@ api_location:
 -	winbio_ioctl.h
 api_name:
 -	WINBIO_DATA
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WINBIO_DATA, *PWINBIO_DATA
 req.product: Windows 10 or later.

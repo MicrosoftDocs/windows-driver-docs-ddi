@@ -38,7 +38,8 @@ api_location:
 -	WDTFDriverPackageAction.Interop.dll
 api_name:
 -	IWDTFDriverPackageAction2.GetQueryForDevicesUsingPackage
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TTraceLevel
 req.product: Windows 10 or later.

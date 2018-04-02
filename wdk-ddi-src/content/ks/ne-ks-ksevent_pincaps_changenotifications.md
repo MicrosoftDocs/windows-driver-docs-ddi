@@ -38,7 +38,8 @@ api_location:
 -	Ks.h
 api_name:
 -	KSEVENT_PINCAPS_CHANGENOTIFICATIONS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSEVENT_PINCAPS_CHANGENOTIFICATIONS
 ---

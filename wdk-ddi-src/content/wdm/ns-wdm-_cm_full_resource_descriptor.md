@@ -38,7 +38,8 @@ api_location:
 -	wdm.h
 api_name:
 -	CM_FULL_RESOURCE_DESCRIPTOR
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: CM_FULL_RESOURCE_DESCRIPTOR, *PCM_FULL_RESOURCE_DESCRIPTOR
 req.product: Windows 10 or later.

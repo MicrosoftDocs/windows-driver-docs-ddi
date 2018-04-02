@@ -38,7 +38,8 @@ api_location:
 -	Ksmedia.h
 api_name:
 -	KSAUDIOENGINE_BUFFER_SIZE_RANGE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSAUDIOENGINE_BUFFER_SIZE_RANGE, *PKSAUDIOENGINE_BUFFER_SIZE_RANGE
 ---

@@ -38,7 +38,8 @@ api_location:
 -	ntddndis.h
 api_name:
 -	OFFLOAD_IPSEC_ADD_SA
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: OFFLOAD_IPSEC_ADD_SA, *POFFLOAD_IPSEC_ADD_SA
 ---

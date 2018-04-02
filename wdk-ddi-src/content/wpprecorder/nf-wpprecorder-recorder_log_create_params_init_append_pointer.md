@@ -38,7 +38,8 @@ api_location:
 -	wpprecorder.h
 api_name:
 -	RECORDER_LOG_CREATE_PARAMS_INIT_APPEND_POINTER
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WNODE_HEADER, *PWNODE_HEADER
 req.product: Windows 10 or later.

@@ -38,7 +38,8 @@ api_location:
 -	stiusd.h
 api_name:
 -	STI_USD_CAPS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STI_USD_CAPS, *PSTI_USD_CAPS
 req.product: Windows 10 or later.

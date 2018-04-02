@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILCALLHANDOVERSTATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILCALLHANDOVERSTATE, *LPRILCALLHANDOVERSTATE
 req.product: Windows 10 or later.

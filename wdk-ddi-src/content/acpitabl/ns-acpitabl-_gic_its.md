@@ -38,7 +38,8 @@ api_location:
 -	Acpitabl.h
 api_name:
 -	GIC_ITS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GIC_ITS
 ---

@@ -38,7 +38,8 @@ api_location:
 -	Hbapiwmi.h
 api_name:
 -	HBAFCPBindingEntry2
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: HBAFCPBindingEntry2, *PHBAFCPBindingEntry2
 ---

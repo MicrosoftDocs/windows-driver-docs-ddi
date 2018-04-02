@@ -40,7 +40,8 @@ api_name:
 -	IDebugSystemObjects2.GetCurrentProcessUpTime
 -	IDebugSystemObjects3.GetCurrentProcessUpTime
 -	IDebugSystemObjects4.GetCurrentProcessUpTime
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---

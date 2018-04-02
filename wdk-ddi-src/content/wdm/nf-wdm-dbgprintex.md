@@ -39,7 +39,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	DbgPrintEx
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.

@@ -39,7 +39,8 @@ api_location:
 -	Wdf01000.sys.dll
 api_name:
 -	WdfIoQueueAssignForwardProgressPolicy
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_IO_QUEUE_STATE
 req.product: Windows 10 or later.

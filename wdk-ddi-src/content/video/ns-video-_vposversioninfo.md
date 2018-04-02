@@ -38,7 +38,8 @@ api_location:
 -	video.h
 api_name:
 -	VPOSVERSIONINFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: VPOSVERSIONINFO, *PVPOSVERSIONINFO
 req.product: Windows 10 or later.

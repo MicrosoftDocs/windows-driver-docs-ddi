@@ -38,7 +38,8 @@ api_location:
 -	D4drvif.h
 api_name:
 -	DOT4_DRIVER_CMD
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_DRIVER_CMD, *PDOT4_DRIVER_CMD
 ---

@@ -38,7 +38,8 @@ api_location:
 -	vhf.h
 api_name:
 -	EvtVhfCleanup
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USB_SUPERSPEED_ENDPOINT_COMPANION_DESCRIPTOR, *PUSB_SUPERSPEED_ENDPOINT_COMPANION_DESCRIPTOR
 req.product: Windows 10 or later.

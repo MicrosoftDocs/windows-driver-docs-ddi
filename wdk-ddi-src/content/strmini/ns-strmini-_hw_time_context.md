@@ -38,7 +38,8 @@ api_location:
 -	strmini.h
 api_name:
 -	HW_TIME_CONTEXT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: HW_TIME_CONTEXT, *PHW_TIME_CONTEXT
 req.product: Windows 10 or later.

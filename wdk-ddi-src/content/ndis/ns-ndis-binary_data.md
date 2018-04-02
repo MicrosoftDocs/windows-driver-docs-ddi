@@ -38,7 +38,8 @@ api_location:
 -	ndis.h
 api_name:
 -	BINARY_DATA
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BINARY_DATA
 ---

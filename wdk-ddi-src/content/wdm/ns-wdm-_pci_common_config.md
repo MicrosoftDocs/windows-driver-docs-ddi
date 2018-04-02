@@ -38,7 +38,8 @@ api_location:
 -	Wdm.h
 api_name:
 -	PCI_COMMON_CONFIG
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PCI_COMMON_CONFIG, *PPCI_COMMON_CONFIG, PCI_COMMON_CONFIG, *PPCI_COMMON_CONFIG
 req.product: Windows 10 or later.

@@ -38,7 +38,8 @@ api_location:
 -	dxva.h
 api_name:
 -	DXVA_ProcAmpControlQueryRange
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXVA_ProcAmpControlQueryRange, *LPDXVA_ProcAmpControlQueryRange
 ---

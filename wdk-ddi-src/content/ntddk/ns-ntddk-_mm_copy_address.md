@@ -38,7 +38,8 @@ api_location:
 -	Ntddk.h
 api_name:
 -	MM_COPY_ADDRESS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MM_COPY_ADDRESS, *PMMCOPY_ADDRESS
 ---

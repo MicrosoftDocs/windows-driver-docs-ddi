@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KSDEVICE_PROFILE_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSDEVICE_PROFILE_INFO, *PKSDEVICE_PROFILE_INFO
 ---

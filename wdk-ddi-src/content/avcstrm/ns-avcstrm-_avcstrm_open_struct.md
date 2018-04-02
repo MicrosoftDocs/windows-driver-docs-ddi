@@ -38,7 +38,8 @@ api_location:
 -	avcstrm.h
 api_name:
 -	AVCSTRM_OPEN_STRUCT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: AVCSTRM_OPEN_STRUCT, *PAVCSTRM_OPEN_STRUCT
 ---

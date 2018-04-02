@@ -38,7 +38,8 @@ api_location:
 -	wdm.h
 api_name:
 -	CM_KEYBOARD_DEVICE_DATA
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: CM_KEYBOARD_DEVICE_DATA, *PCM_KEYBOARD_DEVICE_DATA
 req.product: Windows 10 or later.

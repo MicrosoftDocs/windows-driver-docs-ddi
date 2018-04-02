@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KS_AMVPDATAINFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KS_AMVPDATAINFO, *PKS_AMVPDATAINFO
 ---

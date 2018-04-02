@@ -38,7 +38,8 @@ api_location:
 -	wditypes.hpp
 api_name:
 -	WDI_ROAM_TRIGGER
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDI_ROAM_TRIGGER
 req.product: Windows 10 or later.

@@ -38,7 +38,8 @@ api_location:
 -	hbapiwmi.h
 api_name:
 -	SM_RemoveLink_OUT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SM_RemoveLink_OUT, *PSM_RemoveLink_OUT
 ---

@@ -38,7 +38,8 @@ api_location:
 -	pepfx.h
 api_name:
 -	PEP_ACPI_ENUMERATE_DEVICE_NAMESPACE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PEP_ACPI_ENUMERATE_DEVICE_NAMESPACE, *PPEP_ACPI_ENUMERATE_DEVICE_NAMESPACE
 ---

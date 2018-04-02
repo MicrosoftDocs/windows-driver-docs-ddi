@@ -38,7 +38,8 @@ api_location:
 -	irb.h
 api_name:
 -	IDE_TRANSFER_MODE_PARAMETERS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: IDE_TRANSFER_MODE_PARAMETERS, *PIDE_TRANSFER_MODE_PARAMETERS
 ---

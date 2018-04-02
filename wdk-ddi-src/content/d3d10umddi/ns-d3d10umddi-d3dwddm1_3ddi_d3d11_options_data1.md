@@ -38,7 +38,8 @@ api_location:
 -	d3d10umddi.h
 api_name:
 -	D3DWDDM1_3DDI_D3D11_OPTIONS_DATA1
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DWDDM1_3DDI_D3D11_OPTIONS_DATA1
 ---

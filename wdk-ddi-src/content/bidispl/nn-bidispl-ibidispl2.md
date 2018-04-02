@@ -38,7 +38,8 @@ api_location:
 -	Bidispl.h
 api_name:
 -	IBidiSpl2
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MPEG2_TRANSPORT_STRIDE, *PMPEG2_TRANSPORT_STRIDE
 ---

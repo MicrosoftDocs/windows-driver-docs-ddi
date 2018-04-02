@@ -38,7 +38,8 @@ api_location:
 -	nfccx.h
 api_name:
 -	NFCCX_DRIVER_GLOBALS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NFCCX_DRIVER_GLOBALS, *PNFCCX_DRIVER_GLOBALS
 ---

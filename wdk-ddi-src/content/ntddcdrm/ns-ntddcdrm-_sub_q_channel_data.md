@@ -38,7 +38,8 @@ api_location:
 -	ntddcdrm.h
 api_name:
 -	SUB_Q_CHANNEL_DATA
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SUB_Q_CHANNEL_DATA, *PSUB_Q_CHANNEL_DATA
 ---

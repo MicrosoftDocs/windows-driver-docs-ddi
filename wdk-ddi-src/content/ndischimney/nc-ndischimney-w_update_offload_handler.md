@@ -38,7 +38,8 @@ api_location:
 -	Ndischimney.h
 api_name:
 -	MiniportUpdateOffload
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PD_BUFFER_VIRTUAL_SUBNET_INFO
 ---

@@ -38,7 +38,8 @@ api_location:
 -	mpiodisk.h
 api_name:
 -	MPIO_DEVINSTANCE_HEALTH_CLASS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MPIO_DEVINSTANCE_HEALTH_CLASS, *PMPIO_DEVINSTANCE_HEALTH_CLASS
 ---

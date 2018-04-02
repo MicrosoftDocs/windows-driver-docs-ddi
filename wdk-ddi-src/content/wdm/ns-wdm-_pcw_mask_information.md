@@ -38,7 +38,8 @@ api_location:
 -	wdm.h
 api_name:
 -	PCW_MASK_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PCW_MASK_INFORMATION, *PPCW_MASK_INFORMATION
 req.product: Windows 10 or later.

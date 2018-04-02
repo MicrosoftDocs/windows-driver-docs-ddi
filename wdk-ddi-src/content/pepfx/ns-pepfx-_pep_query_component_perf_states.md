@@ -38,7 +38,8 @@ api_location:
 -	pepfx.h
 api_name:
 -	PEP_QUERY_COMPONENT_PERF_STATES
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PEP_QUERY_COMPONENT_PERF_STATES, *PPEP_QUERY_COMPONENT_PERF_STATES
 ---

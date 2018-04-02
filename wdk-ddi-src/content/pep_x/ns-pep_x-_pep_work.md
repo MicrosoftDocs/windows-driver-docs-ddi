@@ -38,7 +38,8 @@ api_location:
 -	pepfx.h
 api_name:
 -	PEP_WORK
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PEP_WORK, *PPEP_WORK, PEP_WORK, *PPEP_WORK
 ---

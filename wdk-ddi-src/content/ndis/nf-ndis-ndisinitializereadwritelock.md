@@ -38,7 +38,8 @@ api_location:
 -	ndis.sys
 api_name:
 -	NdisInitializeReadWriteLock
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---

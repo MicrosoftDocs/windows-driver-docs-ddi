@@ -38,7 +38,8 @@ api_location:
 -	fltkernel.h
 api_name:
 -	FLT_VOLUME_PROPERTIES
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: FLT_VOLUME_PROPERTIES, *PFLT_VOLUME_PROPERTIES
 ---

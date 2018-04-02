@@ -38,7 +38,8 @@ api_location:
 -	EhStorIoctl.h
 api_name:
 -	ENUM_PDO_ENTRY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: ENUM_PDO_ENTRY, *PENUM_PDO_ENTRY
 ---

@@ -38,7 +38,8 @@ api_location:
 -	wdm.h
 api_name:
 -	PCW_COUNTER_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PCW_COUNTER_INFORMATION, *PPCW_COUNTER_INFORMATION
 req.product: Windows 10 or later.

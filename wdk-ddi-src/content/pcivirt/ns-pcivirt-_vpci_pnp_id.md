@@ -38,7 +38,8 @@ api_location:
 -	Pcivirt.h
 api_name:
 -	VPCI_PNP_ID
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: VPCI_PNP_ID, *PVPCI_PNP_ID
 ---

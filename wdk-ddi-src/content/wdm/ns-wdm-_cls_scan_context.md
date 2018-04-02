@@ -38,7 +38,8 @@ api_location:
 -	wdm.h
 api_name:
 -	CLS_SCAN_CONTEXT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: CLS_SCAN_CONTEXT, *PCLS_SCAN_CONTEXT, PPCLS_SCAN_CONTEXT
 req.product: Windows 10 or later.

@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	MEDIUM_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MEDIUM_INFO, *PMEDIUM_INFO
 ---

@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KSPROCESSPIN_INDEXENTRY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSPROCESSPIN_INDEXENTRY, *PKSPROCESSPIN_INDEXENTRY
 ---

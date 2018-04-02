@@ -39,7 +39,8 @@ api_location:
 api_name:
 -	IWDTFAction2.Target
 -	IWDTFAction2.get_Target
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TTraceLevel
 req.product: Windows 10 or later.

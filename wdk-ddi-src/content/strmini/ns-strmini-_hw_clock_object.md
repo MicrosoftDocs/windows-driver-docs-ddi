@@ -38,7 +38,8 @@ api_location:
 -	strmini.h
 api_name:
 -	HW_CLOCK_OBJECT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: HW_CLOCK_OBJECT, *PHW_CLOCK_OBJECT
 req.product: Windows 10 or later.

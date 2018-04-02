@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KSDSOUND_BUFFERDESC
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSDSOUND_BUFFERDESC, *PKSDSOUND_BUFFERDESC
 ---

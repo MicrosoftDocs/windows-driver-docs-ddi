@@ -38,7 +38,8 @@ api_location:
 -	wsk.h
 api_name:
 -	WSK_INSPECT_ID
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WSK_INSPECT_ID, *PWSK_INSPECT_ID
 req.product: Windows 10 or later.

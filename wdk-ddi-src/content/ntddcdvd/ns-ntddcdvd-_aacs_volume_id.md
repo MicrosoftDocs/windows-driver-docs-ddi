@@ -38,7 +38,8 @@ api_location:
 -	ntddcdvd.h
 api_name:
 -	AACS_VOLUME_ID
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: AACS_VOLUME_ID, *PAACS_VOLUME_ID
 ---

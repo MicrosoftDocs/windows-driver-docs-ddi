@@ -38,7 +38,8 @@ api_location:
 -	Wdm.h
 api_name:
 -	KDPC_WATCHDOG_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KDPC_WATCHDOG_INFORMATION, *PKDPC_WATCHDOG_INFORMATION
 req.product: Windows 10 or later.

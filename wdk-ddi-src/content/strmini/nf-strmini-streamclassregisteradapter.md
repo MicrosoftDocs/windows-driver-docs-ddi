@@ -38,7 +38,8 @@ api_location:
 -	strmini.h
 api_name:
 -	StreamClassRegisterAdapter
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STREAM_PRIORITY, *PSTREAM_PRIORITY
 req.product: Windows 10 or later.

@@ -38,7 +38,8 @@ api_location:
 -	wdfdevice.h
 api_name:
 -	WDF_DISPATCH_IRP_TO_IO_QUEUE_FLAGS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_DISPATCH_IRP_TO_IO_QUEUE_FLAGS
 req.product: Windows 10 or later.

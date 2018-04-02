@@ -38,7 +38,8 @@ api_location:
 -	Dispmprt.h
 api_name:
 -	KMDDOD_INITIALIZATION_DATA
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KMDDOD_INITIALIZATION_DATA, *PKMDDOD_INITIALIZATION_DATA
 ---

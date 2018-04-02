@@ -38,7 +38,8 @@ api_location:
 -	spbcx.h
 api_name:
 -	SPB_REQUEST_SEQUENCE_POSITION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SPB_REQUEST_SEQUENCE_POSITION, *PSPB_REQUEST_SEQUENCE_POSITION
 req.product: Windows 10 or later.

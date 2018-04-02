@@ -38,7 +38,8 @@ api_location:
 -	usbioctl.h
 api_name:
 -	USB_TOPOLOGY_ADDRESS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USB_TOPOLOGY_ADDRESS, *PUSB_TOPOLOGY_ADDRESS
 req.product: Windows 10 or later.

@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KSTOPOLOGY_ENDPOINTIDPAIR
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSTOPOLOGY_ENDPOINTIDPAIR, *PKSTOPOLOGY_ENDPOINTIDPAIR
 ---

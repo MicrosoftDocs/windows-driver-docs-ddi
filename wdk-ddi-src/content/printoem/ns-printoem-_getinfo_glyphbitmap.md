@@ -38,7 +38,8 @@ api_location:
 -	printoem.h
 api_name:
 -	GETINFO_GLYPHBITMAP
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GETINFO_GLYPHBITMAP, *PGETINFO_GLYPHBITMAP
 req.product: Windows 10 or later.

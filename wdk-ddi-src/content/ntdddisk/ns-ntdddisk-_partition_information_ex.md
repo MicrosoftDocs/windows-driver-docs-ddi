@@ -38,7 +38,8 @@ api_location:
 -	ntdddisk.h
 api_name:
 -	PARTITION_INFORMATION_EX
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PARTITION_INFORMATION_EX, *PPARTITION_INFORMATION_EX
 ---

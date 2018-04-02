@@ -38,7 +38,8 @@ api_location:
 -	bdatypes.h
 api_name:
 -	BDANODE_DESCRIPTOR
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BDANODE_DESCRIPTOR, *PBDANODE_DESCRIPTOR
 ---

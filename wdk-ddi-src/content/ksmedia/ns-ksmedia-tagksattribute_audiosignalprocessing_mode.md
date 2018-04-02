@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KSATTRIBUTE_AUDIOSIGNALPROCESSING_MODE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSATTRIBUTE_AUDIOSIGNALPROCESSING_MODE, *PKSATTRIBUTE_AUDIOSIGNALPROCESSING_MODE
 ---

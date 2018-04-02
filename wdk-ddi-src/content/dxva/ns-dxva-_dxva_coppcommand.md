@@ -38,7 +38,8 @@ api_location:
 -	dxva.h
 api_name:
 -	DXVA_COPPCommand
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXVA_COPPCommand, *LPDXVA_COPPCommand
 ---

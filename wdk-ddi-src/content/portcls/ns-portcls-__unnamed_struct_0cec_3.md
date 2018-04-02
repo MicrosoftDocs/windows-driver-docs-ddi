@@ -38,7 +38,8 @@ apilocation:
 -	portcls.h
 apiname:
 -	PCPROPERTY_ITEM
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PCPROPERTY_ITEM, *PPCPROPERTY_ITEM
 ---

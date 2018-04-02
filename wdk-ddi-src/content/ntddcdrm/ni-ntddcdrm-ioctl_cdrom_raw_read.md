@@ -38,7 +38,8 @@ api_location:
 -	ntddcdrm.h
 api_name:
 -	IOCTL_CDROM_RAW_READ
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WRITE_ROTATION, *PWRITE_ROTATION
 ---

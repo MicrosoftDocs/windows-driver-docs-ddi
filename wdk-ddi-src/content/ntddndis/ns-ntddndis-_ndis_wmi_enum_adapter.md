@@ -38,7 +38,8 @@ api_location:
 -	ntddndis.h
 api_name:
 -	NDIS_WMI_ENUM_ADAPTER
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_WMI_ENUM_ADAPTER, *PNDIS_WMI_ENUM_ADAPTER
 ---

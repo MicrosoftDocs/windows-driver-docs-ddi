@@ -38,7 +38,8 @@ api_location:
 -	wdfinterrupt.h
 api_name:
 -	WDF_INTERRUPT_PRIORITY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_INTERRUPT_PRIORITY, *PWDF_INTERRUPT_PRIORITY
 req.product: Windows 10 or later.

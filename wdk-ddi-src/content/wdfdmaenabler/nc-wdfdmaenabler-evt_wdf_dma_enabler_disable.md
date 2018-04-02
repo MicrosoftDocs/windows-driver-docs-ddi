@@ -38,7 +38,8 @@ api_location:
 -	WdfDmaEnabler.h
 api_name:
 -	EvtDmaEnablerDisable
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_REMOVE_LOCK_OPTIONS, *PWDF_REMOVE_LOCK_OPTIONS
 req.product: Windows 10 or later.

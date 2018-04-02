@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILGEOLOCATIONREQUESTINFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILGEOLOCATIONREQUESTINFO, *LPRILGEOLOCATIONREQUESTINFO
 req.product: Windows 10 or later.

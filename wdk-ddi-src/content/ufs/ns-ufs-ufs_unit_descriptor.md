@@ -38,7 +38,8 @@ api_location:
 -	Ufs.h
 api_name:
 -	UFS_UNIT_DESCRIPTOR
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: UFS_UNIT_DESCRIPTOR, *PUFS_UNIT_DESCRIPTOR
 req.product: Windows 10 or later.

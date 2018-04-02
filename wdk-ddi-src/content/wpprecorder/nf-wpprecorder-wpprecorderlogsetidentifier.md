@@ -38,7 +38,8 @@ api_location:
 -	Wpprecorder.h
 api_name:
 -	imp_WppRecorderLogSetIdentifier
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WNODE_HEADER, *PWNODE_HEADER
 req.product: Windows 10 or later.

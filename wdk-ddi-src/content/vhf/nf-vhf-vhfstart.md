@@ -39,7 +39,8 @@ api_location:
 -	VhfKm.dll
 api_name:
 -	VhfStart
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USB_SUPERSPEED_ENDPOINT_COMPANION_DESCRIPTOR, *PUSB_SUPERSPEED_ENDPOINT_COMPANION_DESCRIPTOR
 req.product: Windows 10 or later.

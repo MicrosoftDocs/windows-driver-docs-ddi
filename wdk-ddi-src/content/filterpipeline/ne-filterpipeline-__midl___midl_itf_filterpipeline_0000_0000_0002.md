@@ -38,7 +38,8 @@ api_location:
 -	filterpipeline.h
 api_name:
 -	EXpsFontOptions
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: EXpsFontOptions
 ---

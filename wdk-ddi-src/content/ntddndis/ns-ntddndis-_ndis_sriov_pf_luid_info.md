@@ -38,7 +38,8 @@ api_location:
 -	Ntddndis.h
 api_name:
 -	NDIS_SRIOV_PF_LUID_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_SRIOV_PF_LUID_INFO, *PNDIS_SRIOV_PF_LUID_INFO
 ---

@@ -39,7 +39,8 @@ api_location:
 -	Pciidex.dll
 api_name:
 -	AtaPortSetBusData
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: IDE_POWER_STATE
 ---

@@ -38,7 +38,8 @@ api_location:
 -	dmusicks.h
 api_name:
 -	IAllocatorMXF.GetMessage
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DMUS_STREAM_TYPE
 ---

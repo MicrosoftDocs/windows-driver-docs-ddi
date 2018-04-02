@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILNITZINFO_V2
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILNITZINFO_V2, *LPRILNITZINFO_V2, RILNITZINFO, *LPRILNITZINFO
 req.product: Windows 10 or later.

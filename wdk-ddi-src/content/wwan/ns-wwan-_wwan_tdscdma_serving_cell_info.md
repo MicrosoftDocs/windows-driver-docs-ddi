@@ -38,7 +38,8 @@ api_location:
 -	wwan.h
 api_name:
 -	WWAN_TDSCDMA_SERVING_CELL_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WWAN_TDSCDMA_SERVING_CELL_INFO, *PWWAN_TDSCDMA_SERVING_CELL_INFO
 req.product: Windows 10 or later.

@@ -38,7 +38,8 @@ api_location:
 -	prcomoem.h
 api_name:
 -	PRINT_FEATURE_OPTION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PRINT_FEATURE_OPTION
 req.product: Windows 10 or later.

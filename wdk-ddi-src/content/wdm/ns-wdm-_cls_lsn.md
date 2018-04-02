@@ -38,7 +38,8 @@ api_location:
 -	wdm.h
 api_name:
 -	CLS_LSN
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: CLS_LSN, *PCLS_LSN, PPCLS_LSN
 req.product: Windows 10 or later.

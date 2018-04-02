@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILIMSSIPCAUSE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILIMSSIPCAUSE, *LPRILIMSSIPCAUSE
 req.product: Windows 10 or later.

@@ -38,7 +38,8 @@ api_location:
 -	usbdlib.h
 api_name:
 -	GET_ISO_URB_SIZE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USBCAMD_DEVICE_DATA2, *PUSBCAMD_DEVICE_DATA2
 req.product: Windows 10 or later.

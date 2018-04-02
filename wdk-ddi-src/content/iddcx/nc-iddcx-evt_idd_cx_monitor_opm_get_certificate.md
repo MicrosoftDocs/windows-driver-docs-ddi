@@ -38,7 +38,8 @@ api_location:
 -	iddcx.h
 api_name:
 -	PFN_IDD_CX_MONITOR_OPM_GET_CERTIFICATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WCS_PROFILE_MANAGEMENT_SCOPE
 ---

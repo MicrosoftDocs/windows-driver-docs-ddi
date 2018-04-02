@@ -41,7 +41,8 @@ api_name:
 -	IDebugDataSpaces2.WriteControl
 -	IDebugDataSpaces3.WriteControl
 -	IDebugDataSpaces4.WriteControl
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---

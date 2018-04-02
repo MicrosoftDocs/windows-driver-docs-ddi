@@ -38,7 +38,8 @@ api_location:
 -	wwan.h
 api_name:
 -	WWAN_DEVICE_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WWAN_DEVICE_TYPE, *PWWAN_DEVICE_TYPE
 req.product: Windows 10 or later.

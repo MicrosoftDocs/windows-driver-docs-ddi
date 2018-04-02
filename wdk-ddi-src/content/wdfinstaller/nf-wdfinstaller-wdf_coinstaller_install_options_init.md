@@ -38,7 +38,8 @@ api_location:
 -	wdfinstaller.h
 api_name:
 -	WDF_COINSTALLER_INSTALL_OPTIONS_INIT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_FILE_INFORMATION_CLASS, *PWDF_FILE_INFORMATION_CLASS
 req.product: Windows 10 or later.

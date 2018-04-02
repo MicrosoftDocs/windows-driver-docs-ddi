@@ -38,7 +38,8 @@ api_location:
 -	poscx.h
 api_name:
 -	POS_CX_ATTRIBUTES
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: POS_CX_ATTRIBUTES
 req.product: Windows 10 or later.

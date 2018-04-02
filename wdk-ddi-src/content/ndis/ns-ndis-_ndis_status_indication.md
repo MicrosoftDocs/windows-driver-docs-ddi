@@ -38,7 +38,8 @@ api_location:
 -	ndis.h
 api_name:
 -	NDIS_STATUS_INDICATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_STATUS_INDICATION, *PNDIS_STATUS_INDICATION
 ---

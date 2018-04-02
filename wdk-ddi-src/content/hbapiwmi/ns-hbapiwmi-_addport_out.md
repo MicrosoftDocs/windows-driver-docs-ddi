@@ -38,7 +38,8 @@ api_location:
 -	hbapiwmi.h
 api_name:
 -	AddPort_OUT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: AddPort_OUT, *PAddPort_OUT
 ---

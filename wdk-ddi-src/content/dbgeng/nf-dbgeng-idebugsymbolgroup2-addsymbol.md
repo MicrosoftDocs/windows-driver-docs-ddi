@@ -39,7 +39,8 @@ api_location:
 api_name:
 -	IDebugSymbolGroup.AddSymbol
 -	IDebugSymbolGroup2.AddSymbol
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---

@@ -38,7 +38,8 @@ api_location:
 -	fltkernel.h
 api_name:
 -	PFLT_INSTANCE_TEARDOWN_CALLBACK
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: EXpsFontRestriction
 ---

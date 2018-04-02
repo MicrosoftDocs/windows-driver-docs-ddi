@@ -38,7 +38,8 @@ api_location:
 -	Ksproxy.h
 api_name:
 -	FRAMING_PROP
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: FRAMING_PROP
 ---

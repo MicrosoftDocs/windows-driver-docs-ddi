@@ -38,7 +38,8 @@ api_location:
 -	Ks.h
 api_name:
 -	KsDeleteFilterFactory
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---

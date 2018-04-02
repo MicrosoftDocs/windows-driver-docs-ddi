@@ -38,7 +38,8 @@ api_location:
 -	sti.h
 api_name:
 -	STI_DIAG
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STI_DIAG, *LPSTI_DIAG
 req.product: Windows 10 or later.

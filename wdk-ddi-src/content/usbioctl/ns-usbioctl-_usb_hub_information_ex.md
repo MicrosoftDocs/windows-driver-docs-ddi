@@ -38,7 +38,8 @@ api_location:
 -	usbioctl.h
 api_name:
 -	USB_HUB_INFORMATION_EX
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USB_HUB_INFORMATION_EX, *PUSB_HUB_INFORMATION_EX
 req.product: Windows 10 or later.

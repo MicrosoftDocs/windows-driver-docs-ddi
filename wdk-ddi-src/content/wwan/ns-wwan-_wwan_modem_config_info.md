@@ -38,7 +38,8 @@ api_location:
 -	wwan.h
 api_name:
 -	WWAN_MODEM_CONFIG_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WWAN_MODEM_CONFIG_INFO, *PWWAN_MODEM_CONFIG_INFO
 req.product: Windows 10 or later.

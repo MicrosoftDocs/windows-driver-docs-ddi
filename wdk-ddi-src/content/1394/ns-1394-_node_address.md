@@ -38,7 +38,8 @@ api_location:
 -	1394.h
 api_name:
 -	NODE_ADDRESS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NODE_ADDRESS, *PNODE_ADDRESS
 ---

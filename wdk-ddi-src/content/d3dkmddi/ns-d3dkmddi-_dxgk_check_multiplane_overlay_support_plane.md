@@ -38,7 +38,8 @@ api_location:
 -	D3dkmddi.h
 api_name:
 -	DXGK_CHECK_MULTIPLANE_OVERLAY_SUPPORT_PLANE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_CHECK_MULTIPLANE_OVERLAY_SUPPORT_PLANE
 ---

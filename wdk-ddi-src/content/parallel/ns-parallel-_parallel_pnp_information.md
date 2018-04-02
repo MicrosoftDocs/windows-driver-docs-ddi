@@ -38,7 +38,8 @@ api_location:
 -	parallel.h
 api_name:
 -	PARALLEL_PNP_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PARALLEL_PNP_INFORMATION, *PPARALLEL_PNP_INFORMATION
 ---

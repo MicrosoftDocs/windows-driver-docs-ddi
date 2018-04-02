@@ -38,7 +38,8 @@ api_location:
 -	dxva.h
 api_name:
 -	DXVA_TCoef4Group
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXVA_TCoef4Group, *LPDXVA_TCoef4Group
 ---

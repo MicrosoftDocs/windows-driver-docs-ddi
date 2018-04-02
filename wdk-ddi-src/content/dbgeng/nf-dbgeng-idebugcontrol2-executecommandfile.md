@@ -40,7 +40,8 @@ api_name:
 -	IDebugControl.ExecuteCommandFile
 -	IDebugControl2.ExecuteCommandFile
 -	IDebugControl3.ExecuteCommandFile
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---

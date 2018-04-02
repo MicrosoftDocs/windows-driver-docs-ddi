@@ -38,7 +38,8 @@ api_location:
 -	d3dkmthk.h
 api_name:
 -	PDXGK_SET_SHARED_POWER_COMPONENT_STATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_TARGETMODE_DETAIL_TIMING
 ---

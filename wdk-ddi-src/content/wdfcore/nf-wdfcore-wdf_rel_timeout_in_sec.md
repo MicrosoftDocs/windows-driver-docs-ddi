@@ -39,7 +39,8 @@ api_location:
 -	None.dll
 api_name:
 -	WDF_REL_TIMEOUT_IN_SEC
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_DEVICE_SHUTDOWN_FLAGS
 req.product: Windows 10 or later.

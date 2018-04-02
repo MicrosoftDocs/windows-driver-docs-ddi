@@ -38,7 +38,8 @@ api_location:
 -	bthddi.h
 api_name:
 -	CHANNEL_CONFIG_PARAMETERS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: CHANNEL_CONFIG_PARAMETERS, *PCHANNEL_CONFIG_PARAMETERS
 ---

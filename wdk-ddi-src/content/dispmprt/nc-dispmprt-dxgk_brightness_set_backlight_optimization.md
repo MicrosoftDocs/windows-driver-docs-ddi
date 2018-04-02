@@ -38,7 +38,8 @@ api_location:
 -	Dispmprt.h
 api_name:
 -	DxgkDdiSetBacklightOptimization
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
 ---

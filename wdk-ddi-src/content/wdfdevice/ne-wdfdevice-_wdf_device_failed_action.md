@@ -38,7 +38,8 @@ api_location:
 -	wdfdevice.h
 api_name:
 -	WDF_DEVICE_FAILED_ACTION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_DEVICE_FAILED_ACTION
 req.product: Windows 10 or later.

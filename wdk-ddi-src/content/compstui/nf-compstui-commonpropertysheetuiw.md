@@ -38,7 +38,8 @@ api_location:
 -	compstui.h
 api_name:
 -	CommonPropertySheetUI
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: POWERSOURCEUPDATEEX, *PPOWERSOURCEUPDATEEX
 ---

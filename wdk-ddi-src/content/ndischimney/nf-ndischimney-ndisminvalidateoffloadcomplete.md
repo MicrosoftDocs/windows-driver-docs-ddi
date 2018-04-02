@@ -38,7 +38,8 @@ api_location:
 -	ndischimney.h
 api_name:
 -	NdisMInvalidateOffloadComplete
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PD_BUFFER_VIRTUAL_SUBNET_INFO
 ---

@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILNOTIFICATIONFILTERMASK
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILNOTIFICATIONFILTERMASK
 req.product: Windows 10 or later.

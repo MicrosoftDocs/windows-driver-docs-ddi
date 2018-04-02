@@ -38,7 +38,8 @@ api_location:
 -	Usbscan.h
 api_name:
 -	IOCTL_SET_TIMEOUT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RAW_PIPE_TYPE
 req.product: Windows 10 or later.

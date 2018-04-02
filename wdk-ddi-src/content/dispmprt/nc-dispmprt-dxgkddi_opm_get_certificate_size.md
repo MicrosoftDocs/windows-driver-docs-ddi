@@ -38,7 +38,8 @@ api_location:
 -	dispmprt.h
 api_name:
 -	DxgkDdiOPMGetCertificateSize
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
 ---

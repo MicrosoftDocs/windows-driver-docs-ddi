@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KSEVENT_TIME_INTERVAL
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSEVENT_TIME_INTERVAL, *PKSEVENT_TIME_INTERVAL
 ---

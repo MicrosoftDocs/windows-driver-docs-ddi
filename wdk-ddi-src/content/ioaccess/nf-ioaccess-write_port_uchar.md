@@ -39,7 +39,8 @@ api_location:
 -	Hal.dll
 api_name:
 -	WRITE_PORT_UCHAR
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: IDD_DRIVER_GLOBALS, *PIDD_DRIVER_GLOBALS, IDD_DRIVER_GLOBALS, *PIDD_DRIVER_GLOBALS
 ---

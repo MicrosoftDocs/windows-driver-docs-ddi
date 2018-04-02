@@ -38,7 +38,8 @@ api_location:
 -	hbapiwmi.h
 api_name:
 -	SendRPS_IN
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SendRPS_IN, *PSendRPS_IN
 ---

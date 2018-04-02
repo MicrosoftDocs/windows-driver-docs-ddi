@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KSAC3_ROOM_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSAC3_ROOM_TYPE, *PKSAC3_ROOM_TYPE
 ---

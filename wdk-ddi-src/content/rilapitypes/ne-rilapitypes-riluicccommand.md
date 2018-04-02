@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILUICCCOMMAND
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILUICCCOMMAND
 req.product: Windows 10 or later.

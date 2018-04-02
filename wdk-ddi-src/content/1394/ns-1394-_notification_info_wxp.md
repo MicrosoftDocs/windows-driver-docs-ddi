@@ -38,7 +38,8 @@ api_location:
 -	1394.h
 api_name:
 -	NOTIFICATION_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NOTIFICATION_INFO_WXP, *PNOTIFICATION_INFO_WXP
 ---

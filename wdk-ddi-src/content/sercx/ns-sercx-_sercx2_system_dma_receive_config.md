@@ -38,7 +38,8 @@ api_location:
 -	2.0\Sercx.h
 api_name:
 -	SERCX2_SYSTEM_DMA_RECEIVE_CONFIG
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SERCX2_SYSTEM_DMA_RECEIVE_CONFIG, *PSERCX2_SYSTEM_DMA_RECEIVE_CONFIG
 req.product: Windows 10 or later.

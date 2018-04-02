@@ -38,7 +38,8 @@ api_location:
 -	netioddk.h
 api_name:
 -	PNPI_CLIENT_CLEANUP_BINDING_CONTEXT_FN
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NET_DMA_PROVIDER_CHARACTERISTICS, *PNET_DMA_PROVIDER_CHARACTERISTICS
 ---

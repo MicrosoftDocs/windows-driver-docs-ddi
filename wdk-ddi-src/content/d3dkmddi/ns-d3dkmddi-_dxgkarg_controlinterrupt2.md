@@ -38,7 +38,8 @@ api_location:
 -	d3dkmddi.h
 api_name:
 -	DXGKARG_CONTROLINTTERUPT2
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGKARG_CONTROLINTERRUPT2
 ---

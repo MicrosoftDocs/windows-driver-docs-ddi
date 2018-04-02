@@ -38,7 +38,8 @@ api_location:
 -	icm.h
 api_name:
 -	COLORTYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: COLORTYPE
 ---

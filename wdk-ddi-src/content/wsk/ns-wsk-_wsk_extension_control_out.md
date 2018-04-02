@@ -38,7 +38,8 @@ api_location:
 -	wsk.h
 api_name:
 -	WSK_EXTENSION_CONTROL_OUT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WSK_EXTENSION_CONTROL_OUT, *PWSK_EXTENSION_CONTROL_OUT
 req.product: Windows 10 or later.

@@ -38,7 +38,8 @@ api_location:
 -	usbioctl.h
 api_name:
 -	USB_MI_PARENT_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USB_MI_PARENT_INFORMATION, *PUSB_MI_PARENT_INFORMATION
 req.product: Windows 10 or later.

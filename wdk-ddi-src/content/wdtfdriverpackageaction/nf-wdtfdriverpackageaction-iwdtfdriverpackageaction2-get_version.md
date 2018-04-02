@@ -39,7 +39,8 @@ api_location:
 api_name:
 -	IWDTFDriverPackageAction2.Version
 -	IWDTFDriverPackageAction2.get_Version
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TTraceLevel
 req.product: Windows 10 or later.

@@ -38,7 +38,8 @@ api_location:
 -	storport.h
 api_name:
 -	STOR_LIST_ENTRY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STOR_LIST_ENTRY, *PSTOR_LIST_ENTRY
 req.product: Windows 10 or later.

@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KSAUDIO_PREFERRED_STATUS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSAUDIO_PREFERRED_STATUS, *PKSAUDIO_PREFERRED_STATUS
 ---

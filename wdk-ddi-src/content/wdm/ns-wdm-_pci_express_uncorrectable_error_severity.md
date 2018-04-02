@@ -38,7 +38,8 @@ api_location:
 -	wdm.h
 api_name:
 -	PCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY, *PPCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY
 req.product: Windows 10 or later.

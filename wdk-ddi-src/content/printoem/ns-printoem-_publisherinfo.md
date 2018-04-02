@@ -38,7 +38,8 @@ api_location:
 -	printoem.h
 api_name:
 -	PUBLISHERINFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PUBLISHERINFO, *PPUBLISHERINFO
 req.product: Windows 10 or later.

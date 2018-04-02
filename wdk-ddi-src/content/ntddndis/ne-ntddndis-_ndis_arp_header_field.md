@@ -38,7 +38,8 @@ api_location:
 -	Ntddndis.h
 api_name:
 -	NDIS_ARP_HEADER_FIELD
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_ARP_HEADER_FIELD, *PNDIS_ARP_HEADER_FIELD
 ---

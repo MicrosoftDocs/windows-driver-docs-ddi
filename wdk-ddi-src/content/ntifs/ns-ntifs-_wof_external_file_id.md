@@ -38,7 +38,8 @@ api_location:
 -	ntifs.h
 api_name:
 -	WOF_EXTERNAL_FILE_ID
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WOF_EXTERNAL_FILE_ID, *PWOF_EXTERNAL_FILE_ID
 ---

@@ -38,7 +38,8 @@ api_location:
 -	ntddvol.h
 api_name:
 -	DISK_EXTENT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DISK_EXTENT, *PDISK_EXTENT
 ---

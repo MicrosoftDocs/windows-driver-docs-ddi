@@ -38,7 +38,8 @@ api_location:
 -	bdatypes.h
 api_name:
 -	BDA_PROGRAM_PID_LIST
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BDA_PROGRAM_PID_LIST, *PBDA_PROGRAM_PID_LIST
 ---

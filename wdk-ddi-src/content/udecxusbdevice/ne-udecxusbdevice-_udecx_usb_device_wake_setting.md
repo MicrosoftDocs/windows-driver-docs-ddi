@@ -38,7 +38,8 @@ api_location:
 -	UdecxUsbDevice.h
 api_name:
 -	UDECX_USB_DEVICE_WAKE_SETTING
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: UDECX_USB_DEVICE_WAKE_SETTING, *PUDECX_USB_DEVICE_WAKE_SETTING
 req.product: Windows 10 or later.

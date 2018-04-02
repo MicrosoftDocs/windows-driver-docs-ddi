@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KS_DVDCOPY_TITLEKEY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KS_DVDCOPY_TITLEKEY, *PKS_DVDCOPY_TITLEKEY
 ---

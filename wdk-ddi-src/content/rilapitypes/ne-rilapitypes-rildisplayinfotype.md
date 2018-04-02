@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILDISPLAYINFOTYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILDISPLAYINFOTYPE
 req.product: Windows 10 or later.

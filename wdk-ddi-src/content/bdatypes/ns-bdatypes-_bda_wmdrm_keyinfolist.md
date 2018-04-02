@@ -38,7 +38,8 @@ api_location:
 -	Bdatypes.h
 api_name:
 -	BDA_WMDRM_KEYINFOLIST
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BDA_WMDRM_KEYINFOLIST, *PBDA_WMDRM_KEYINFOLIST
 ---

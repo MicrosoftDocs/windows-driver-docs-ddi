@@ -38,7 +38,8 @@ api_location:
 -	dxva.h
 api_name:
 -	DXVA_ConfigAlphaCombine
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXVA_ConfigAlphaCombine, *LPDXVA_ConfigAlphaCombine
 ---

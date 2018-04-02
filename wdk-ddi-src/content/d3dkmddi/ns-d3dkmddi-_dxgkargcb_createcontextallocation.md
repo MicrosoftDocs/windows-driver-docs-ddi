@@ -38,7 +38,8 @@ api_location:
 -	D3dkmddi.h
 api_name:
 -	DXGKARGCB_CREATECONTEXTALLOCATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGKARGCB_CREATECONTEXTALLOCATION
 ---

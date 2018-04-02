@@ -38,7 +38,8 @@ api_location:
 -	avc.h
 api_name:
 -	IOCTL_AVC_CLASS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: AVC_FUNCTION
 ---
