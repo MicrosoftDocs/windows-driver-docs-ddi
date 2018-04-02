@@ -7,7 +7,7 @@ old-location: dtf\iwdtfdriversetupsystemaction2_cleartriagelogs.htm
 old-project: dtf
 ms.assetid: 5de5a7b9-4ac8-4d5a-8037-eec39a580372
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 3/29/2018
 ms.keywords: ClearTriageLogs method [Windows Device Testing Framework], ClearTriageLogs method [Windows Device Testing Framework], IWDTFDriverSetupSystemAction2 interface, ClearTriageLogs,IWDTFDriverSetupSystemAction2.ClearTriageLogs, IWDTFDriverSetupSystemAction2, IWDTFDriverSetupSystemAction2 interface [Windows Device Testing Framework], ClearTriageLogs method, IWDTFDriverSetupSystemAction2::ClearTriageLogs, Microsoft.WDTF.IWDTFDriverSetupSystemAction2.ClearTriageLogs, Microsoft::WDTF::IWDTFDriverSetupSystemAction2::ClearTriageLogs, dtf.iwdtfdriversetupsystemaction2_cleartriagelogs, wdtfdriversetupsystemaction/IWDTFDriverSetupSystemAction2::ClearTriageLogs
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,14 +53,6 @@ req.product: Windows 10 or later.
 Clears the system device setup triage logs.
 
 
-## -syntax
-
-
-````
-HRESULT ClearTriageLogs();
-````
-
-
 ## -parameters
 
 
@@ -79,12 +71,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="..\wdtfdriversetupsystemaction\nn-wdtfdriversetupsystemaction-iwdtfdriversetupsystemaction2.md">IWDTFDriverSetupSystemAction2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450948">IWDTFDriverSetupSystemAction2</a>
  
 
  
-
 

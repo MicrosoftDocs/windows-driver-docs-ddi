@@ -7,7 +7,7 @@ old-location: storage\verify_information.htm
 old-project: storage
 ms.assetid: 7bb5c2ff-9bdb-4958-b290-9edb18d02668
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PVERIFY_INFORMATION, PVERIFY_INFORMATION, PVERIFY_INFORMATION structure pointer [Storage Devices], VERIFY_INFORMATION, VERIFY_INFORMATION structure [Storage Devices], _VERIFY_INFORMATION, ntdddisk/PVERIFY_INFORMATION, ntdddisk/VERIFY_INFORMATION, storage.verify_information, structs-disk_fbed0038-effc-40d8-8814-921dfd627a94.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,17 +52,6 @@ req.typenames: VERIFY_INFORMATION, *PVERIFY_INFORMATION
 The VERIFY_INFORMATION structure provides information used to verify the existence of a disk extent.  
 
 
-## -syntax
-
-
-````
-typedef struct _VERIFY_INFORMATION {
-  LARGE_INTEGER StartingOffset;
-  ULONG         Length;
-} VERIFY_INFORMATION, *PVERIFY_INFORMATION;
-````
-
-
 ## -struct-fields
 
 
@@ -82,19 +71,18 @@ Indicates the length, in bytes, of the disk extent.
 
 
 
-VERIFY_INFORMATION is the output buffer for the <a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_verify.md">IOCTL_DISK_VERIFY</a> control code.
+VERIFY_INFORMATION is the output buffer for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560420">IOCTL_DISK_VERIFY</a> control code.
 
 
 
 
 ## -see-also
 
-<a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_verify.md">IOCTL_DISK_VERIFY</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560420">IOCTL_DISK_VERIFY</a>
  
 
  
-
 

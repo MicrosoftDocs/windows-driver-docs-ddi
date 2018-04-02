@@ -7,7 +7,7 @@ old-location: storage\ioctl_cdrom_raw_read.htm
 old-project: storage
 ms.assetid: b7791cf7-476c-4319-976d-9da3d96b6a76
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_CDROM_RAW_READ, IOCTL_CDROM_RAW_READ control code [Storage Devices], k307_1c2f1a05-940c-40f8-a280-3a23d3bb4171.xml, ntddcdrm/IOCTL_CDROM_RAW_READ, storage.ioctl_cdrom_raw_read
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -62,7 +62,7 @@ Reads data from the CD-ROM in raw mode.
 
 ### -input-buffer
 
-If the IOCTL is from user mode, <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> contains a <a href="..\ntddcdrm\ns-ntddcdrm-__raw_read_info.md">RAW_READ_INFO</a> structure that specifies the starting disk offset, the sector count, and the track mode (XA or CDDA) for the read. <b>Parameters.DeviceIoControl.InputBufferLength</b> specifies the size, in bytes, of the structure, which must be &gt;= <b>sizeof</b>(RAW_READ_INFO). <b>Parameters.DeviceIoControl.OutputBufferLength</b> specifies the size of the buffer to be read, which must be &gt;= <b>sizeof</b>(<i>SectorCount</i> * RAW_SECTOR_SIZE).
+If the IOCTL is from user mode, <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> contains a <a href="https://msdn.microsoft.com/library/windows/hardware/ff563958">RAW_READ_INFO</a> structure that specifies the starting disk offset, the sector count, and the track mode (XA or CDDA) for the read. <b>Parameters.DeviceIoControl.InputBufferLength</b> specifies the size, in bytes, of the structure, which must be &gt;= <b>sizeof</b>(RAW_READ_INFO). <b>Parameters.DeviceIoControl.OutputBufferLength</b> specifies the size of the buffer to be read, which must be &gt;= <b>sizeof</b>(<i>SectorCount</i> * RAW_SECTOR_SIZE).
 
 If the IOCTL is from kernel mode, <b>Parameters.DeviceIoControl.Type3InputBuffer</b> contains a structure that specifies the starting disk offset, the sector count, and the track mode (XA or CDDA) for the read. <b>Parameters.DeviceIoControl.OutputBufferLength</b> specifies the size of the buffer, in bytes, to be read, which must be &gt;= <b>sizeof</b>(<i>SectorCount</i> * RAW_SECTOR_SIZE).
 
@@ -107,12 +107,11 @@ If the read is successful, the driver sets <b>Status</b> to STATUS_SUCCESS and <
 
 ## -see-also
 
-<a href="..\ntddcdrm\ns-ntddcdrm-__raw_read_info.md">RAW_READ_INFO</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563958">RAW_READ_INFO</a>
  
 
  
-
 

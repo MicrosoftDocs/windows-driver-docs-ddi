@@ -7,7 +7,7 @@ old-location: kernel\pep_register_debugger.htm
 old-project: kernel
 ms.assetid: 3B0240AB-4599-4F21-8CBB-14A4A60D3EFD
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: "*PPEP_REGISTER_DEBUGGER, PEP_REGISTER_DEBUGGER, PEP_REGISTER_DEBUGGER structure [Kernel-Mode Driver Architecture], PPEP_REGISTER_DEBUGGER, PPEP_REGISTER_DEBUGGER structure pointer [Kernel-Mode Driver Architecture], _PEP_REGISTER_DEBUGGER, kernel.pep_register_debugger, pepfx/PEP_REGISTER_DEBUGGER, pepfx/PPEP_REGISTER_DEBUGGER"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,16 +52,6 @@ req.typenames: PEP_REGISTER_DEBUGGER, *PPEP_REGISTER_DEBUGGER
 The <b>PEP_REGISTER_DEBUGGER</b> structure identifies a registered device that is a core system resource that provides debugger transport.
 
 
-## -syntax
-
-
-````
-typedef struct _PEP_REGISTER_DEBUGGER {
-  PEPHANDLE DeviceHandle;
-} PEP_REGISTER_DEBUGGER, *PPEP_REGISTER_DEBUGGER;
-````
-
-
 ## -struct-fields
 
 
@@ -83,7 +73,6 @@ This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186849">PEP_DPM_REGISTER_DEVICE</a>
 
 
 
@@ -91,8 +80,8 @@ This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/
 
 
 
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186849">PEP_DPM_REGISTER_DEVICE</a>
  
 
  
-
 

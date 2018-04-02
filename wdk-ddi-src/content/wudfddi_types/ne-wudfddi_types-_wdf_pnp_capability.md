@@ -55,23 +55,6 @@ req.product: Windows 10 or later.
 The <b>WDF_PNP_CAPABILITY</b> enumeration contains values that identify Plug and Play (PnP) capabilities for a device.
 
 
-## -syntax
-
-
-````
-typedef enum _WDF_PNP_CAPABILITY { 
-  WdfPnpCapInvalid            = 0,
-  WdfPnpCapLockSupported      = 1,
-  WdfPnpCapEjectSupported     = 2,
-  WdfPnpCapRemovable          = 3,
-  WdfPnpCapDockDevice         = 4,
-  WdfPnpCapSurpriseRemovalOk  = 5,
-  WdfPnpCapNoDisplayInUI      = 6,
-  WdfPnpCapMaximum            = ( WdfPnpCapNoDisplayInUI + 1 )
-} WDF_PNP_CAPABILITY;
-````
-
-
 ## -enum-fields
 
 
@@ -128,16 +111,15 @@ A UMDF driver supplies one of the values of <b>WDF_PNP_CAPABILITY</b> to the <a 
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556974">IWDFDeviceInitialize::GetPnpCapability</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556993">IWDFDeviceInitialize::SetPnpCapability</a>
-
-
-
  
 
  
-
 

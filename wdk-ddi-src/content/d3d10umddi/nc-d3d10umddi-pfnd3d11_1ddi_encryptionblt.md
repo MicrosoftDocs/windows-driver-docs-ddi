@@ -7,7 +7,7 @@ old-location: display\encryptionblt1.htm
 old-project: display
 ms.assetid: ea6f1b8c-d65a-4d6d-a7ae-998374bf5bfb
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: EncryptionBlt, EncryptionBlt callback function [Display Devices], PFND3D11_1DDI_ENCRYPTIONBLT, d3d10umddi/EncryptionBlt, display.encryptionblt1, display.pfnencryptionblt1
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,24 +52,6 @@ req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 Reads encrypted data from a protected surface.
 
 
-## -prototype
-
-
-````
-PFND3D11_1DDI_ENCRYPTIONBLT EncryptionBlt;
-
-VOID APIENTRY* EncryptionBlt(
-  _In_       D3D10DDI_HDEVICE          hDevice,
-  _In_       D3D11_1DDI_HCRYPTOSESSION hCryptoSession,
-  _In_       D3D10DDI_HRESOURCE        hSrcResource,
-  _In_       D3D10DDI_HRESOURCE        hDstResource,
-  _In_       UINT                      IVSize,
-  _In_ const VOID                      *pIV
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -84,7 +66,7 @@ A handle to the display device (graphics context).
 
 ### -param hCryptoSession [in]
 
-A handle to the driver's private data for the cryptographic session. This handle was created by the Direct3D runtime and passed to the driver in the call to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createcryptosession.md">CreateCryptoSession</a> function.
+A handle to the driver's private data for the cryptographic session. This handle was created by the Direct3D runtime and passed to the driver in the call to the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451619">CreateCryptoSession</a> function.
 
 
 ### -param hSrcResource [in]
@@ -162,7 +144,7 @@ The function does not support stretching or color space conversion.
 
 </li>
 </ul>
-For 128-bit AES-CTR encryption, the <i>pIV</i> parameter points to a <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_aes_ctr_iv.md">D3D11_1DDI_AES_CTR_IV</a> structure that is allocated by the application. However, the actual contents of this structure are filled in by the driver or graphics adapter.  When the first IV is generated, the driver or adapter  initializes the <b>IV</b> member of this structure to a random number. For each subsequent IV, the caller increments the <b>IV</b> member, ensuring that the value always increases. This procedure enables the application to validate that the same IV is never used more than once with the same key pair.
+For 128-bit AES-CTR encryption, the <i>pIV</i> parameter points to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh406334">D3D11_1DDI_AES_CTR_IV</a> structure that is allocated by the application. However, the actual contents of this structure are filled in by the driver or graphics adapter.  When the first IV is generated, the driver or adapter  initializes the <b>IV</b> member of this structure to a random number. For each subsequent IV, the caller increments the <b>IV</b> member, ensuring that the value always increases. This procedure enables the application to validate that the same IV is never used more than once with the same key pair.
 
 
 
@@ -177,16 +159,15 @@ For other encryption types, a different structure might be used, or the encrypti
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createcryptosession.md">CreateCryptoSession</a>
 
 
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_aes_ctr_iv.md">D3D11_1DDI_AES_CTR_IV</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451619">CreateCryptoSession</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406334">D3D11_1DDI_AES_CTR_IV</a>
  
 
  
-
 

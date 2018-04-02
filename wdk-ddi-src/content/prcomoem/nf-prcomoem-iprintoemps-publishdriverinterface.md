@@ -53,16 +53,6 @@ req.product: Windows 10 or later.
 The <code>IPrintOemPS::PublishDriverInterface</code> method allows a rendering plug-in for Pscript5 to obtain the Pscript5 driver's <b>IPrintCorePS2</b>, <b>IPrintOemDriverPS</b>, or <b>IPrintCoreHelperPS</b> interface.
 
 
-## -syntax
-
-
-````
-HRESULT PublishDriverInterface(
-   IUnknown *pIUnknown
-);
-````
-
-
 ## -parameters
 
 
@@ -70,7 +60,7 @@ HRESULT PublishDriverInterface(
 
 ### -param pIUnknown
 
-Caller-supplied pointer to the <b>IUnknown</b> interface of the driver's <a href="https://msdn.microsoft.com/d5eb6962-2201-405f-9a22-2b11fb6d0360">IPrintCorePS2 COM Interface</a>, <a href="https://msdn.microsoft.com/32975728-501f-45ac-a53d-34cf286bc433">IPrintOemDriverPS COM Interface</a>, or <a href="..\prcomoem\nn-prcomoem-iprintcorehelperps.md">IPrintCoreHelperPS Interface</a>.
+Caller-supplied pointer to the <b>IUnknown</b> interface of the driver's <a href="https://msdn.microsoft.com/d5eb6962-2201-405f-9a22-2b11fb6d0360">IPrintCorePS2 COM Interface</a>, <a href="https://msdn.microsoft.com/32975728-501f-45ac-a53d-34cf286bc433">IPrintOemDriverPS COM Interface</a>, or <a href="https://msdn.microsoft.com/library/windows/hardware/ff552906">IPrintCoreHelperPS Interface</a>.
 
 
 ## -returns
@@ -139,16 +129,15 @@ If the plug-in fails all calls to <code>IPrintOemPS::PublishDriverInterface</cod
 
 ## -see-also
 
-<a href="..\prcomoem\nn-prcomoem-iprintoemps.md">IPrintOemPS</a>
+
+
+
+<a href="https://msdn.microsoft.com/14c545b7-8080-424f-9164-f97ef8a1acc2">IPrintOemPS</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553221">IPrintOemPS::GetInfo</a>
-
-
-
  
 
  
-
 

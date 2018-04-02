@@ -7,7 +7,7 @@ old-location: storage\getbindingsupport_out.htm
 old-project: storage
 ms.assetid: cd67b301-a94a-41dd-9c06-e6c674ea9173
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PGetBindingSupport_OUT, GetBindingSupport_OUT, GetBindingSupport_OUT structure [Storage Devices], PGetBindingSupport_OUT, PGetBindingSupport_OUT structure pointer [Storage Devices], _GetBindingSupport_OUT, hbapiwmi/GetBindingSupport_OUT, hbapiwmi/PGetBindingSupport_OUT, storage.getbindingsupport_out, structs-Fibre_1db0b747-ead3-461f-a7ab-c8150f92623a.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,17 +52,6 @@ req.typenames: GetBindingSupport_OUT, *PGetBindingSupport_OUT
 The GetBindingSupport_OUT structure is used by a WMI provider to report the output parameter data of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff553910">GetBindingSupport</a> WMI method to the WMI client. 
 
 
-## -syntax
-
-
-````
-typedef struct _GetBindingSupport_OUT {
-  ULONG HBAStatus;
-  ULONG BindType;
-} GetBindingSupport_OUT, *PGetBindingSupport_OUT;
-````
-
-
 ## -struct-fields
 
 
@@ -89,12 +78,11 @@ The WMI tool suite generates a declaration of the GetBindingSupport_OUT structur
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553910">GetBindingSupport</a>
-
-
-
  
 
  
-
 

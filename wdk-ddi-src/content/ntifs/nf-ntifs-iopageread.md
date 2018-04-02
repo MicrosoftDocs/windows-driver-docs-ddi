@@ -7,7 +7,7 @@ old-location: ifsk\iopageread.htm
 old-project: ifsk
 ms.assetid: d1cbd6ee-6625-47bd-bf3e-356b28ff17a5
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: IoPageRead, IoPageRead function [Installable File System Drivers], ifsk.iopageread, ioref_2c5776f2-eef8-49e5-ade1-3ed0edcd6102.xml, ntifs/IoPageRead
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,17 +49,7 @@ req.typenames: TOKEN_TYPE
 ## -description
 
 
-The <b>IoPageRead</b> routine is reserved for system use. See <a href="..\ntifs\nf-ntifs-cccopyread.md">CcCopyRead</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff539159">CcMdlRead</a>. 
-
-
-## -syntax
-
-
-````
-  IoPageRead(
-    
-);
-````
+The <b>IoPageRead</b> routine is reserved for system use. See <a href="https://msdn.microsoft.com/library/windows/hardware/ff539038">CcCopyRead</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff539159">CcMdlRead</a>. 
 
 
 ## -parameters

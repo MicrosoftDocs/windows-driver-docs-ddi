@@ -7,7 +7,7 @@ old-location: display\dxva_qmatrixdata.htm
 old-project: display
 ms.assetid: 2cb96d6b-37f1-47dd-8135-66d3ead2dd64
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*LPDXVA_QmatrixData, DXVA_QmatrixData, DXVA_QmatrixData structure [Display Devices], LPDXVA_QmatrixData, LPDXVA_QmatrixData structure pointer [Display Devices], _DXVA_QmatrixData, display.dxva_qmatrixdata, dxva/DXVA_QmatrixData, dxva/LPDXVA_QmatrixData, dxvaref_96294cc5-1f6c-4632-bb98-df5e56bac34f.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,17 +50,6 @@ req.typenames: DXVA_QmatrixData, *LPDXVA_QmatrixData
 
 
 The DXVA_QmatrixData structure is sent by the host decoder to the accelerator to load inverse-quantization matrix data for off-host bitstream compressed video picture decoding.
-
-
-## -syntax
-
-
-````
-typedef struct _DXVA_QmatrixData {
-  BYTE bNewQmatrix[4];
-  WORD Qmatrix[4][DXVA_USUAL_BLOCK_WIDTH * DXVA_USUAL_BLOCK_HEIGHT];
-} DXVA_QmatrixData, *LPDXVA_QmatrixData;
-````
 
 
 ## -struct-fields
@@ -131,7 +120,7 @@ If <b>bNewQmatrix</b>[<i>i </i>- 2] is 1, the inverse-quantization matrix define
 
 ### -field Qmatrix
 
-A two-dimensional array that specifies an inverse-quantization matrix buffer. This array is present only for each element in <b>bNewQmatrix</b> equal to 1. The matrix consists of (<b>bBlockWidthMinus1</b>+1) X (<b>bBlockHeightMinus1</b>+1) unsigned words (in which only the lower 8 bits of each word are used for the dominant video coding standards), where <b>bBlockWidthMinus1</b> and <b>bBlockHeightMinus1</b> are members of the <a href="..\dxva\ns-dxva-_dxva_pictureparameters.md">DXVA_PictureParameters</a> structure.
+A two-dimensional array that specifies an inverse-quantization matrix buffer. This array is present only for each element in <b>bNewQmatrix</b> equal to 1. The matrix consists of (<b>bBlockWidthMinus1</b>+1) X (<b>bBlockHeightMinus1</b>+1) unsigned words (in which only the lower 8 bits of each word are used for the dominant video coding standards), where <b>bBlockWidthMinus1</b> and <b>bBlockHeightMinus1</b> are members of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff564012">DXVA_PictureParameters</a> structure.
 
 <div class="alert"><b>Note</b>  For MPEG-2 bitstreams, the data values within Qmatrix are in zigzag inverse scan order, as specified in subclause 7.3.1 and figure 7-2 of MPEG-2.</div>
 <div> </div>
@@ -144,7 +133,7 @@ If the video coding does not need inverse-quantization matrices (for example, H.
 
 No default values of inverse-quantization matrices may be assumed by the accelerator in the absence of any prior value sent by the host. The quantization matrix values must be sent explicitly, even if they contain values that are available by default in the relevant video coding specification.
 
-Inverse-quantization matrix buffers are sent only when the <b>bConfigBitstreamRaw</b> member of the <a href="..\dxva\ns-dxva-_dxva_configpicturedecode.md">DXVA_ConfigPictureDecode</a> structure is 1.
+Inverse-quantization matrix buffers are sent only when the <b>bConfigBitstreamRaw</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563133">DXVA_ConfigPictureDecode</a> structure is 1.
 
 The order of the data values within the inverse-quantization matrix is as specified in the relevant video coding specification.
 
@@ -153,16 +142,15 @@ The order of the data values within the inverse-quantization matrix is as specif
 
 ## -see-also
 
-<a href="..\dxva\ns-dxva-_dxva_pictureparameters.md">DXVA_PictureParameters</a>
 
 
 
-<a href="..\dxva\ns-dxva-_dxva_configpicturedecode.md">DXVA_ConfigPictureDecode</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563133">DXVA_ConfigPictureDecode</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564012">DXVA_PictureParameters</a>
  
 
  
-
 

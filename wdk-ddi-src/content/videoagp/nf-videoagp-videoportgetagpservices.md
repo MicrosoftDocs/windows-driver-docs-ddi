@@ -7,7 +7,7 @@ old-location: display\videoportgetagpservices.htm
 old-project: display
 ms.assetid: 3b01831d-d429-4dc5-9b12-a0e1fc58634d
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: VideoPortGetAgpServices, VideoPortGetAgpServices function [Display Devices], VideoPort_Functions_498a8f06-f24e-4116-90df-30360fa111a1.xml, display.videoportgetagpservices, videoagp/VideoPortGetAgpServices
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,20 +50,9 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The <b>VideoPortGetAgpServices</b> function is <b>obsolete</b> and is supported only for backward compatibility with existing drivers. In its place, driver writers should use <a href="..\video\nf-video-videoportqueryservices.md">VideoPortQueryServices</a>.
+The <b>VideoPortGetAgpServices</b> function is <b>obsolete</b> and is supported only for backward compatibility with existing drivers. In its place, driver writers should use <a href="https://msdn.microsoft.com/library/windows/hardware/ff570337">VideoPortQueryServices</a>.
 
 <b>VideoPortGetAgpServices</b> returns a list of video port driver-implemented AGP service functions.
-
-
-## -syntax
-
-
-````
-BOOLEAN VideoPortGetAgpServices(
-  _In_ PVOID                    HwDeviceExtension,
-  _In_ PVIDEO_PORT_AGP_SERVICES AgpServices
-);
-````
 
 
 ## -parameters
@@ -78,7 +67,7 @@ Pointer to the miniport driver's device extension.
 
 ### -param AgpServices [in]
 
-Pointer to an uninitialized, miniport driver-allocated <a href="..\videoagp\ns-videoagp-_video_port_agp_services.md">VIDEO_PORT_AGP_SERVICES</a> structure.
+Pointer to an uninitialized, miniport driver-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/ff570529">VIDEO_PORT_AGP_SERVICES</a> structure.
 
 
 ## -returns
@@ -96,7 +85,7 @@ Pointer to an uninitialized, miniport driver-allocated <a href="..\videoagp\ns-v
 
 PnP video miniport drivers that can use AGP should call <b>VideoPortGetAgpServices</b>.
 
-The video port driver initializes the <a href="..\videoagp\ns-videoagp-_video_port_agp_services.md">VIDEO_PORT_AGP_SERVICES</a> structure as follows:
+The video port driver initializes the <a href="https://msdn.microsoft.com/library/windows/hardware/ff570529">VIDEO_PORT_AGP_SERVICES</a> structure as follows:
 
 <ul>
 <li>
@@ -113,7 +102,22 @@ The <b>AllocationLimit</b> field is initialized to the maximum amount of AGP mem
 
 ## -see-also
 
-<a href="..\videoagp\nc-videoagp-pagp_release_virtual.md">AgpReleaseVirtual</a>
+
+
+
+<a href="https://msdn.microsoft.com/3c3a6936-7435-4a42-99e6-2c048613af23">AgpCommitPhysical</a>
+
+
+
+<a href="https://msdn.microsoft.com/8a3e7fcd-d838-47ad-a42b-7eb070f81418">AgpCommitVirtual</a>
+
+
+
+<a href="https://msdn.microsoft.com/bb0e3330-5601-47dd-afc6-94a70b42daaf">AgpFreePhysical</a>
+
+
+
+<a href="https://msdn.microsoft.com/a6f689ab-8cf1-4207-af2b-30957500c190">AgpFreeVirtual</a>
 
 
 
@@ -121,36 +125,20 @@ The <b>AllocationLimit</b> field is initialized to the maximum amount of AGP mem
 
 
 
-<a href="..\videoagp\nc-videoagp-pagp_free_physical.md">AgpFreePhysical</a>
+<a href="https://msdn.microsoft.com/4e880b39-e0ee-4801-86b7-ffc06ed415ab">AgpReleaseVirtual</a>
 
 
 
-<a href="..\videoagp\nc-videoagp-pagp_reserve_physical.md">AgpReservePhysical</a>
+<a href="https://msdn.microsoft.com/b3e21c94-acd5-4767-8ba5-70b2dcfb2aaa">AgpReservePhysical</a>
 
 
 
-<a href="..\videoagp\ns-videoagp-_video_port_agp_services.md">VIDEO_PORT_AGP_SERVICES</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570529">VIDEO_PORT_AGP_SERVICES</a>
 
 
 
-<a href="..\video\nf-video-videoportqueryservices.md">VideoPortQueryServices</a>
-
-
-
-<a href="..\videoagp\nc-videoagp-pagp_free_virtual.md">AgpFreeVirtual</a>
-
-
-
-<a href="..\videoagp\nc-videoagp-pagp_commit_virtual.md">AgpCommitVirtual</a>
-
-
-
-<a href="..\videoagp\nc-videoagp-pagp_commit_physical.md">AgpCommitPhysical</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570337">VideoPortQueryServices</a>
  
 
  
-
 

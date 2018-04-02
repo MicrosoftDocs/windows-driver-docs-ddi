@@ -7,7 +7,7 @@ old-location: display\videoprocessorsetstreamcolorspace.htm
 old-project: display
 ms.assetid: bb187968-ae2a-4872-a745-fb42c0cff528
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMCOLORSPACE, d3d10umddi/pfnVideoProcessorSetStreamColorSpace, display.videoprocessorsetstreamcolorspace, pfnVideoProcessorSetStreamColorSpace, pfnVideoProcessorSetStreamColorSpace callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -56,34 +56,18 @@ Sets the color space for an input stream on the video processor.
 
 
 
-## -prototype
-
-
-````
-PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMCOLORSPACE pfnVideoProcessorSetStreamColorSpace;
-
-VOID APIENTRY* pfnVideoProcessorSetStreamColorSpace(
-  _In_       D3D10DDI_HDEVICE                       hDevice,
-  _In_       D3D11_1DDI_HVIDEOPROCESSOR             hVideoProcessor,
-  _In_       UINT                                   StreamIndex,
-  _In_ const D3D11_1DDI_VIDEO_PROCESSOR_COLOR_SPACE *pColorSpace
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
 
 
-### -param D3D10DDI_HDEVICE
+### -param Arg1
 
 
-### -param D3D11_1DDI_HVIDEOPROCESSOR
+### -param Arg2
 
 
-### -param UINT
+### -param Arg3
 
 
 ### -param *
@@ -109,14 +93,14 @@ A handle to the display device (graphics context).
 
 #### - hVideoProcessor [in]
 
-A handle to the video processor object that was created through a call to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessor.md">CreateVideoProcessor</a> function. 
+A handle to the video processor object that was created through a call to the <a href="https://msdn.microsoft.com/741045a2-0a91-490a-907d-5f4900a4a0ae">CreateVideoProcessor</a> function. 
 
 
 
 
 #### - pColorSpace [in]
 
-A pointer to a <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_video_processor_color_space.md">D3D11_1DDI_VIDEO_PROCESSOR_COLOR_SPACE</a> structure that specifies the color space for the specified input stream.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh450970">D3D11_1DDI_VIDEO_PROCESSOR_COLOR_SPACE</a> structure that specifies the color space for the specified input stream.
 
 
 ## -returns
@@ -130,16 +114,15 @@ This callback function does not return a value.
 
 ## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_video_processor_color_space.md">D3D11_1DDI_VIDEO_PROCESSOR_COLOR_SPACE</a>
 
 
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessor.md">CreateVideoProcessor</a>
+<a href="https://msdn.microsoft.com/741045a2-0a91-490a-907d-5f4900a4a0ae">CreateVideoProcessor</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450970">D3D11_1DDI_VIDEO_PROCESSOR_COLOR_SPACE</a>
  
 
  
-
 

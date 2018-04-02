@@ -7,7 +7,7 @@ old-location: display\d3dkmt_queryallocationresidency.htm
 old-project: display
 ms.assetid: 53dd0306-4dcc-47a0-aa98-67d289c93b9b
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMT_QUERYALLOCATIONRESIDENCY, D3DKMT_QUERYALLOCATIONRESIDENCY structure [Display Devices], OpenGL_Structs_eae296e3-82c5-4229-b31a-bdb85d7e6c0c.xml, _D3DKMT_QUERYALLOCATIONRESIDENCY, d3dkmthk/D3DKMT_QUERYALLOCATIONRESIDENCY, display.d3dkmt_queryallocationresidency
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,20 +50,6 @@ req.typenames: D3DKMT_QUERYALLOCATIONRESIDENCY
 
 
 The D3DKMT_QUERYALLOCATIONRESIDENCY structure describes information for retrieving the residency status from a resource or list of allocations. 
-
-
-## -syntax
-
-
-````
-typedef struct _D3DKMT_QUERYALLOCATIONRESIDENCY {
-  D3DKMT_HANDLE                    hDevice;
-  D3DKMT_HANDLE                    hResource;
-  const D3DKMT_HANDLE              *phAllocationList;
-  UINT                             AllocationCount;
-  D3DKMT_ALLOCATIONRESIDENCYSTATUS *pResidencyStatus;
-} D3DKMT_QUERYALLOCATIONRESIDENCY;
-````
 
 
 ## -struct-fields
@@ -144,12 +130,11 @@ The resource or allocation is nonresident.
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtqueryallocationresidency.md">D3DKMTQueryAllocationResidency</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547110">D3DKMTQueryAllocationResidency</a>
  
 
  
-
 

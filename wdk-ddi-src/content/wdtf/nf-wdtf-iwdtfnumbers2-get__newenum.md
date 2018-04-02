@@ -3,12 +3,12 @@ UID: NF:wdtf.IWDTFNumbers2.get__NewEnum
 title: IWDTFNumbers2::get__NewEnum method
 author: windows-driver-content
 description: Gets a new iteration variable that the For Each loop structure implicitly uses.
-old-location: dtf\iwdtfdevicedepot2__newenum.htm
+old-location: dtf\iwdtfnumbers2__newenum.htm
 old-project: dtf
-ms.assetid: cc864595-a0bb-4fd4-9d93-830e8fd6a346
+ms.assetid: 6ebe02a7-3881-4b33-b1dc-ee41f6cde0a0
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
-ms.keywords: IWDTFDeviceDepot2 interface [Windows Device Testing Framework], _NewEnum property, IWDTFDeviceDepot2._NewEnum, IWDTFDeviceDepot2::get__NewEnum, IWDTFNumbers2, IWDTFNumbers2::get__NewEnum, Microsoft.WDTF.IWDTFDeviceDepot2._NewEnum, Microsoft::WDTF::IWDTFDeviceDepot2::_NewEnum, _NewEnum property [Windows Device Testing Framework], _NewEnum property [Windows Device Testing Framework], IWDTFDeviceDepot2 interface, dtf.iwdtfdevicedepot2__newenum, get__NewEnum,IWDTFNumbers2.get__NewEnum, wdtf/IWDTFDeviceDepot2::_NewEnum, wdtf/IWDTFDeviceDepot2::get__NewEnum
+ms.date: 3/29/2018
+ms.keywords: IWDTFNumbers2, IWDTFNumbers2 interface [Windows Device Testing Framework], _NewEnum property, IWDTFNumbers2._NewEnum, IWDTFNumbers2::get__NewEnum, Microsoft.WDTF.IWDTFNumbers2._NewEnum, Microsoft::WDTF::IWDTFNumbers2::_NewEnum, _NewEnum property [Windows Device Testing Framework], _NewEnum property [Windows Device Testing Framework], IWDTFNumbers2 interface, dtf.iwdtfnumbers2__newenum, get__NewEnum,IWDTFNumbers2.get__NewEnum, wdtf/IWDTFNumbers2::_NewEnum, wdtf/IWDTFNumbers2::get__NewEnum
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -37,8 +37,8 @@ api_type:
 api_location:
 -	WDTF.Interop.metadata_dll.dll
 api_name:
--	IWDTFDeviceDepot2._NewEnum
--	IWDTFDeviceDepot2.get__NewEnum
+-	IWDTFNumbers2._NewEnum
+-	IWDTFNumbers2.get__NewEnum
 product: Windows
 targetos: Windows
 req.typenames: TTraceLevel
@@ -55,16 +55,6 @@ Gets a new iteration variable that the <b>For Each</b>
 loop structure implicitly uses.
 
 This property is read-only.
-
-
-## -syntax
-
-
-````
-HRESULT get__NewEnum(
-  [out, retval] IUnknown **ppNewEnum
-);
-````
 
 
 ## -parameters
@@ -86,12 +76,11 @@ For more information about how ATL implements this functionality, see the
 
 ## -see-also
 
-<a href="..\wdtf\nn-wdtf-iwdtfdevicedepot2.md">IWDTFDeviceDepot2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451048">IWDTFNumbers2</a>
  
 
  
-
 

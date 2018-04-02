@@ -50,19 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This structure contains a list of all <a href="..\sensorsdef\ns-sensorsdef-sensor_value_pair.md">SENSOR_VALUE_PAIR</a> structures for each sensor. This structure is returned by calling ReadFile.
-
-
-## -syntax
-
-
-````
-typedef struct _SENSOR_PROPERTY_LIST {
-  ULONG       AllocatedSizeInBytes;
-  ULONG       Count;
-  PROPERTYKEY List[1];
-} SENSOR_PROPERTY_LIST, *PSENSOR_PROPERTY_LIST;
-````
+This structure contains a list of all <a href="https://msdn.microsoft.com/library/windows/hardware/dn946708">SENSOR_VALUE_PAIR</a> structures for each sensor. This structure is returned by calling ReadFile.
 
 
 ## -struct-fields
@@ -95,13 +83,13 @@ The SENSOR_COLLECTION_LIST structure works with the following helper functions:
 
 <ul>
 <li>
-<a href="..\sensorsdef\nf-sensorsdef-sensor_collection_list_init.md">SENSOR_COLLECTION_LIST_INIT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn957094">SENSOR_COLLECTION_LIST_INIT</a>
 </li>
 <li>
-<a href="..\sensorsdef\nf-sensorsdef-sensor_collection_list_size.md">SENSOR_COLLECTION_LIST_SIZE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn957095">SENSOR_COLLECTION_LIST_SIZE</a>
 </li>
 <li>
-<a href="..\sensorsdef\nf-sensorsdef-sensor_collection_list_calculate_max_count.md">SENSOR_COLLECTION_LIST_CALCULATE_MAX_COUNT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn957093">SENSOR_COLLECTION_LIST_CALCULATE_MAX_COUNT</a>
 </li>
 </ul>
 

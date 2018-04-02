@@ -7,7 +7,7 @@ old-location: storage\tape_write_marks.htm
 old-project: storage
 ms.assetid: 5baa7fd0-e806-4da8-9c87-c86ebc003e60
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PTAPE_WRITE_MARKS, PTAPE_WRITE_MARKS, PTAPE_WRITE_MARKS structure pointer [Storage Devices], TAPE_WRITE_MARKS, TAPE_WRITE_MARKS structure [Storage Devices], _TAPE_WRITE_MARKS, ntddtape/PTAPE_WRITE_MARKS, ntddtape/TAPE_WRITE_MARKS, storage.tape_write_marks, structs-tape_18332ea5-6bfb-4acf-8c84-0a77ded0cc72.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,19 +49,7 @@ req.typenames: TAPE_WRITE_MARKS, *PTAPE_WRITE_MARKS
 ## -description
 
 
-The TAPE_WRITE_MARKS structure is used in conjunction with an <a href="..\ntddtape\ni-ntddtape-ioctl_tape_write_marks.md">IOCTL_TAPE_WRITE_MARKS</a> request to write a setmark, a filemark, a short filemark, or a long filemark to tape. 
-
-
-## -syntax
-
-
-````
-typedef struct _TAPE_WRITE_MARKS {
-  ULONG   Type;
-  ULONG   Count;
-  BOOLEAN Immediate;
-} TAPE_WRITE_MARKS, *PTAPE_WRITE_MARKS;
-````
+The TAPE_WRITE_MARKS structure is used in conjunction with an <a href="https://msdn.microsoft.com/library/windows/hardware/ff560641">IOCTL_TAPE_WRITE_MARKS</a> request to write a setmark, a filemark, a short filemark, or a long filemark to tape. 
 
 
 ## -struct-fields
@@ -134,16 +122,15 @@ When set to <b>TRUE</b>, indicates that the target device should return status i
 
 ## -see-also
 
-<a href="..\ntddtape\ni-ntddtape-ioctl_tape_write_marks.md">IOCTL_TAPE_WRITE_MARKS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560641">IOCTL_TAPE_WRITE_MARKS</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567958">TapeMiniWriteMarks</a>
-
-
-
  
 
  
-
 

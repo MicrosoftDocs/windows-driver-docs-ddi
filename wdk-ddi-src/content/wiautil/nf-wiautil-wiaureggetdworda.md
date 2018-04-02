@@ -53,18 +53,6 @@ req.product: Windows 10 or later.
 The <b>wiauRegGetDword</b> function gets a <b>DWORD</b> value from the <b>DeviceData</b> section of the registry.
 
 
-## -syntax
-
-
-````
-HRESULT _stdcall wiauRegGetDword(
-  _In_  HKEY   hkKey,
-  _In_  PCTSTR pwszValueName,
-  _Out_ DWORD  *pdwValue
-);
-````
-
-
 ## -parameters
 
 
@@ -101,16 +89,15 @@ On success, the function returns S_OK. If the function fails, it returns a stand
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550178">wiauRegGetStr</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550179">wiauRegOpenData</a>
-
-
-
  
 
  
-
 

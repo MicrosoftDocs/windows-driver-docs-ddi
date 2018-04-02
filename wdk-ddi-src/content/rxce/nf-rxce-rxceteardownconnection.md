@@ -7,7 +7,7 @@ old-location: ifsk\rxceteardownconnection.htm
 old-project: ifsk
 ms.assetid: 71b48983-af12-4361-8cf9-adec1afffb65
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: RxCeTearDownConnection, RxCeTearDownConnection function [Installable File System Drivers], ifsk.rxceteardownconnection, rxce/RxCeTearDownConnection, rxref_bf951adb-b63e-49f6-8325-f67adb2cdbf0.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,16 +51,6 @@ req.product: Windows 10 or later.
 
 
 <b>RxCeTearDownConnection</b> tears down a given connection between a local RDBSS connection address and a remote address.
-
-
-## -syntax
-
-
-````
-NTSTATUS RxCeTearDownConnection(
-  _In_ PRXCE_CONNECTION pConnection
-);
-````
 
 
 ## -parameters
@@ -123,12 +113,11 @@ When <b>RxCeTearDownConnection</b> is successful, the data members in the RXCE_C
 
 ## -see-also
 
-<a href="..\rxce\nf-rxce-rxcebuildconnection.md">RxCeBuildConnection</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553417">RxCeBuildConnection</a>
  
 
  
-
 

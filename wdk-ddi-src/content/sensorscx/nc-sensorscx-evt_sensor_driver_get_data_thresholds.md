@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 This callback function returns the thresholds that are associated with a sensor.
 
 
-## -prototype
-
-
-````
-NTSTATUS EvtSensorGetDataThresholds(
-  _In_  SENSOROBJECT            Sensor,
-  _Out_ PSENSOR_COLLECTION_LIST pThresholds
-);
-````
-
-
 ## -parameters
 
 
@@ -76,7 +65,7 @@ A reference to a sensor object.
 
 ### -param pThresholds [out]
 
-A list of threshold properties and their values associated with the <b>Sensor</b>. For more information, see <a href="..\sensorsdef\ns-sensorsdef-sensor_collection_list.md">SENSOR_COLLECTION_LIST</a>.
+A list of threshold properties and their values associated with the <b>Sensor</b>. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/dn957092">SENSOR_COLLECTION_LIST</a>.
 
 
 ### -param pSize
@@ -112,12 +101,11 @@ This function must be implemented by the driver and is called by the class exten
 
 ## -see-also
 
-<a href="..\sensorsdef\ns-sensorsdef-sensor_collection_list.md">SENSOR_COLLECTION_LIST</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn957092">SENSOR_COLLECTION_LIST</a>
  
 
  
-
 

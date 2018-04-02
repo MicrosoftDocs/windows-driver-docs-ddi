@@ -55,16 +55,6 @@ req.product: Windows 10 or later.
 The <b>GetInterfaceGuid</b> method retrieves the GUID that identifies a <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-device-interfaces-in-umdf-drivers">device interface</a>. 
 
 
-## -syntax
-
-
-````
-void GetInterfaceGuid(
-  [out] LPGUID pDeviceInterfaceGuid
-);
-````
-
-
 ## -parameters
 
 
@@ -119,16 +109,15 @@ CMyDevice::OnRemoteInterfaceArrival(
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfremoteinterfaceinitialize.md">IWDFRemoteInterfaceInitialize</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560232">IWDFRemoteInterfaceInitialize</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560242">IWDFRemoteInterfaceInitialize::RetrieveSymbolicLink</a>
-
-
-
  
 
  
-
 

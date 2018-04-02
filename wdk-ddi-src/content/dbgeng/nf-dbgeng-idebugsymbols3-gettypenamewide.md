@@ -7,7 +7,7 @@ old-location: debugger\gettypenamewide.htm
 old-project: debugger
 ms.assetid: 0098aa2c-4ee4-49e4-a480-2402e771742f
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: GetTypeNameWide method [Windows Debugging], GetTypeNameWide method [Windows Debugging], IDebugSymbols3 interface, GetTypeNameWide,IDebugSymbols3.GetTypeNameWide, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetTypeNameWide method, IDebugSymbols3::GetTypeNameWide, dbgeng/IDebugSymbols3::GetTypeNameWide, debugger.gettypenamewide
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,20 +50,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>GetTypeNameWide</b>  method returns the name of the type symbol specified by its type ID and module.
-
-
-## -syntax
-
-
-````
-HRESULT GetTypeNameWide(
-  [in]            ULONG64 Module,
-  [in]            ULONG   TypeId,
-  [out, optional] PWSTR   NameBuffer,
-  [in]            ULONG   NameBufferSize,
-  [out, optional] PULONG  NameSize
-);
-````
 
 
 ## -parameters
@@ -157,16 +143,15 @@ For more information about symbols, see <a href="https://msdn.microsoft.com/libr
 
 ## -see-also
 
-<a href="..\wdbgexts\nf-wdbgexts-gettypesize.md">GetTypeSize</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549457">GetTypeSize</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550870">IDebugSymbols3</a>
  
 
  
-
 

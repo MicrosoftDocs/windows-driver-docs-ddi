@@ -53,16 +53,6 @@ req.typenames:
 The<b> KsReleaseControl </b>function releases the control mutex for <i>Object</i>.
 
 
-## -syntax
-
-
-````
-void KsReleaseControl(
-  _In_ PVOID Object
-);
-````
-
-
 ## -parameters
 
 
@@ -88,7 +78,7 @@ None
 
 <i>Object</i> should be either a filter or a pin cast to PVOID.
 
-Minidrivers typically do not call <b>KsReleaseControl</b> directly, but instead call <a href="..\ks\nf-ks-ksfilterreleasecontrol.md">KsFilterReleaseControl</a> or <a href="..\ks\nf-ks-kspinreleasecontrol.md">KsPinReleaseControl</a>. These versions automatically provide the necessary typecasting to PVOID.
+Minidrivers typically do not call <b>KsReleaseControl</b> directly, but instead call <a href="https://msdn.microsoft.com/library/windows/hardware/ff562551">KsFilterReleaseControl</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff563526">KsPinReleaseControl</a>. These versions automatically provide the necessary typecasting to PVOID.
 
 For more information, see <a href="https://msdn.microsoft.com/011edaaa-7449-41c3-8cfb-0d319901af8b">Mutexes in AVStream</a>. 
 
@@ -97,28 +87,27 @@ For more information, see <a href="https://msdn.microsoft.com/011edaaa-7449-41c3
 
 ## -see-also
 
-<a href="..\ks\nf-ks-kspinacquirecontrol.md">KsPinAcquireControl</a>
 
 
 
-<a href="..\ks\nf-ks-ksfilteracquirecontrol.md">KsFilterAcquireControl</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560908">KsAcquireControl</a>
 
 
 
-<a href="..\ks\nf-ks-ksfilterreleasecontrol.md">KsFilterReleaseControl</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562523">KsFilterAcquireControl</a>
 
 
 
-<a href="..\ks\nf-ks-ksacquirecontrol.md">KsAcquireControl</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562551">KsFilterReleaseControl</a>
 
 
 
-<a href="..\ks\nf-ks-kspinreleasecontrol.md">KsPinReleaseControl</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563485">KsPinAcquireControl</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563526">KsPinReleaseControl</a>
  
 
  
-
 

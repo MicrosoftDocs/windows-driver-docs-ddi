@@ -7,7 +7,7 @@ old-location: display\d3dddi_flush_flags.htm
 old-project: display
 ms.assetid: FE5EF59E-3B37-4947-A7E8-5CBE6137D07D
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDI_FLUSH_FLAGS, D3DDDI_FLUSH_FLAGS enumeration [Display Devices], D3DDDI_TRIM_MEMORY, d3dumddi/D3DDDI_FLUSH_FLAGS, d3dumddi/D3DDDI_TRIM_MEMORY, display.d3dddi_flush_flags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,17 +49,7 @@ req.typenames: D3DDDI_FLUSH_FLAGS
 ## -description
 
 
-In calls to the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_flush1.md">pfnFlush1</a> function,  indicates whether the driver should free as much memory as possible. Used by Windows Display Driver Model (WDDM) 1.3 and later user-mode display drivers.
-
-
-## -syntax
-
-
-````
-typedef enum _D3DDDI_FLUSH_FLAGS { 
-  D3DDDI_TRIM_MEMORY  = 0x00000002
-} D3DDDI_FLUSH_FLAGS;
-````
+In calls to the <a href="https://msdn.microsoft.com/6BAC104A-85CE-42FC-AE30-969B2FF6AFEF">pfnFlush1</a> function,  indicates whether the driver should free as much memory as possible. Used by Windows Display Driver Model (WDDM) 1.3 and later user-mode display drivers.
 
 
 ## -enum-fields
@@ -78,12 +68,11 @@ Supported starting with Windows 8.1.
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_flush1.md">pfnFlush1</a>
 
 
 
+<a href="https://msdn.microsoft.com/6BAC104A-85CE-42FC-AE30-969B2FF6AFEF">pfnFlush1</a>
  
 
  
-
 

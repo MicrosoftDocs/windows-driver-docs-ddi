@@ -7,7 +7,7 @@ old-location: kernel\pep_acpi_io_memory_resource.htm
 old-project: kernel
 ms.assetid: 7438C120-9CFB-4D5D-9323-8A5D84D02449
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: "*PPEP_ACPI_IO_MEMORY_RESOURCE, PEP_ACPI_IO_MEMORY_RESOURCE, PEP_ACPI_IO_MEMORY_RESOURCE structure [Kernel-Mode Driver Architecture], PPEP_ACPI_IO_MEMORY_RESOURCE, PPEP_ACPI_IO_MEMORY_RESOURCE structure pointer [Kernel-Mode Driver Architecture], _PEP_ACPI_IO_MEMORY_RESOURCE, kernel.pep_acpi_io_memory_resource, pepfx/PEP_ACPI_IO_MEMORY_RESOURCE, pepfx/PPEP_ACPI_IO_MEMORY_RESOURCE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,21 +52,6 @@ req.typenames: PEP_ACPI_IO_MEMORY_RESOURCE, *PPEP_ACPI_IO_MEMORY_RESOURCE, PEP_A
 The <b>PEP_ACPI_IO_MEMORY_RESOURCE</b> structure describes an ACPI IO port descriptor resource.
 
 
-## -syntax
-
-
-````
-typedef struct _PEP_ACPI_IO_MEMORY_RESOURCE {
-  PEP_ACPI_RESOURCE_TYPE Type;
-  UCHAR                  Information;
-  PHYSICAL_ADDRESS       MinimumAddress;
-  PHYSICAL_ADDRESS       MaximumAddress;
-  ULONG                  Alignment;
-  ULONG                  Length;
-} PEP_ACPI_IO_MEMORY_RESOURCE, *PPEP_ACPI_IO_MEMORY_RESOURCE;
-````
-
-
 ## -struct-fields
 
 
@@ -74,7 +59,7 @@ typedef struct _PEP_ACPI_IO_MEMORY_RESOURCE {
 
 ### -field Type
 
-A <a href="..\pepfx\ne-pepfx-_pep_acpi_resource_type.md">PEP_ACPI_RESOURCE_TYPE</a> enumeration value that identifies the resource type for this ACPI resource.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/mt186693">PEP_ACPI_RESOURCE_TYPE</a> enumeration value that identifies the resource type for this ACPI resource.
 
 
 ### -field Information
@@ -106,12 +91,11 @@ Specifies the number of bytes in the IO range.
 
 ## -see-also
 
-<a href="..\pepfx\ne-pepfx-_pep_acpi_resource_type.md">PEP_ACPI_RESOURCE_TYPE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt186693">PEP_ACPI_RESOURCE_TYPE</a>
  
 
  
-
 

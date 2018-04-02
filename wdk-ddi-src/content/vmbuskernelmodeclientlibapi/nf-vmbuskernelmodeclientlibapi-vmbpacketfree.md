@@ -7,7 +7,7 @@ old-location: netvista\vmbpacketfree.htm
 old-project: netvista
 ms.assetid: 15688701-2385-4F17-A944-D398EEF3C277
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: VmbPacketFree, VmbPacketFree function [Network Drivers Starting with Windows Vista], netvista.vmbpacketfree, vmbuskernelmodeclientlibapi/VmbPacketFree
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,17 +53,7 @@ req.product: Windows 10 or later.
 
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
-The <b>VmbPacketFree</b> function releases a packet allocated by using the <a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbpacketallocate.md">VmbPacketAllocate</a> function.
-
-
-## -syntax
-
-
-````
-VOID VmbPacketFree(
-  _In_ __drv_freesMem(Mem) VMBPACKET VmbPacket
-);
-````
+The <b>VmbPacketFree</b> function releases a packet allocated by using the <a href="https://msdn.microsoft.com/F121A7BC-5504-4CF5-8C8A-0568D6C4F77F">VmbPacketAllocate</a> function.
 
 
 ## -parameters
@@ -87,12 +77,11 @@ This function does not return a value.
 
 ## -see-also
 
-<a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbpacketallocate.md">VmbPacketAllocate</a>
 
 
 
+<a href="https://msdn.microsoft.com/F121A7BC-5504-4CF5-8C8A-0568D6C4F77F">VmbPacketAllocate</a>
  
 
  
-
 

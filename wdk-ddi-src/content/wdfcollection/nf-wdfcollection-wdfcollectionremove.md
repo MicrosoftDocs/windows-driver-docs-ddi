@@ -58,17 +58,6 @@ req.product: Windows 10 or later.
 The <b>WdfCollectionRemove</b> method removes an object from a specified object collection.
 
 
-## -syntax
-
-
-````
-VOID WdfCollectionRemove(
-  _In_ WDFCOLLECTION Collection,
-  _In_ WDFOBJECT     Item
-);
-````
-
-
 ## -parameters
 
 
@@ -126,12 +115,11 @@ The following code example removes a specified object from a specified object co
 
 ## -see-also
 
-<a href="..\wdfcollection\nf-wdfcollection-wdfcollectionremoveitem.md">WdfCollectionRemoveItem</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545792">WdfCollectionRemoveItem</a>
  
 
  
-
 

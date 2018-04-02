@@ -7,7 +7,7 @@ old-location: kernel\pep_acpi_query_object_information.htm
 old-project: kernel
 ms.assetid: 71E43364-CBD6-4628-B51C-B41315E0E800
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: "*PPEP_ACPI_QUERY_OBJECT_INFORMATION, PEP_ACPI_QUERY_OBJECT_INFORMATION, PEP_ACPI_QUERY_OBJECT_INFORMATION structure [Kernel-Mode Driver Architecture], PPEP_ACPI_QUERY_OBJECT_INFORMATION, PPEP_ACPI_QUERY_OBJECT_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _PEP_ACPI_QUERY_OBJECT_INFORMATION, kernel.pep_acpi_query_object_information, pepfx/PEP_ACPI_QUERY_OBJECT_INFORMATION, pepfx/PPEP_ACPI_QUERY_OBJECT_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,25 +52,6 @@ req.typenames: PEP_ACPI_QUERY_OBJECT_INFORMATION, *PPEP_ACPI_QUERY_OBJECT_INFORM
 The <b>PEP_ACPI_QUERY_OBJECT_INFORMATION</b> structure contains information about an ACPI object.
 
 
-## -syntax
-
-
-````
-typedef struct _PEP_ACPI_QUERY_OBJECT_INFORMATION {
-  PEPHANDLE            DeviceHandle;
-  PEP_ACPI_OBJECT_NAME Name;
-  PEP_ACPI_OBJECT_TYPE Type;
-  ULONG                ObjectFlags;
-  union {
-    struct {
-      ULONG InputArgumentCount;
-      ULONG OutputArgumentCount;
-    } MethodObject;
-  } DUMMYUNIONNAME;
-} PEP_ACPI_QUERY_OBJECT_INFORMATION, *PPEP_ACPI_QUERY_OBJECT_INFORMATION;
-````
-
-
 ## -struct-fields
 
 
@@ -83,12 +64,12 @@ typedef struct _PEP_ACPI_QUERY_OBJECT_INFORMATION {
 
 ### -field Name
 
-[in] A <a href="..\pepfx\ns-pepfx-_pep_acpi_object_name.md">PEP_ACPI_OBJECT_NAME</a> union that specifies the path-relative, four-character name of the object.
+[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/mt629110">PEP_ACPI_OBJECT_NAME</a> union that specifies the path-relative, four-character name of the object.
 
 
 ### -field Type
 
-[in] A <a href="..\pepfx\ne-pepfx-_pep_acpi_object_type.md">PEP_ACPI_OBJECT_TYPE</a> enumeration value that specifies the object type. Currently, a control method is the only object type that is defined for this member (<b>Type</b> = <b>PepAcpiObjectTypeMethod</b>).
+[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/mt186685">PEP_ACPI_OBJECT_TYPE</a> enumeration value that specifies the object type. Currently, a control method is the only object type that is defined for this member (<b>Type</b> = <b>PepAcpiObjectTypeMethod</b>).
 
 
 ### -field ObjectFlags
@@ -127,24 +108,23 @@ This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt629110">PEP_ACPI_OBJECT_NAME</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt186685">PEP_ACPI_OBJECT_TYPE</a>
+
+
+
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt629114">PEP_NOTIFY_ACPI_QUERY_OBJECT_INFORMATION</a>
 
 
 
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186689">PEP_NOTIFY_ACPI_REGISTER_DEVICE</a>
-
-
-
-<a href="..\pepfx\ne-pepfx-_pep_acpi_object_type.md">PEP_ACPI_OBJECT_TYPE</a>
-
-
-
-<a href="..\pepfx\ns-pepfx-_pep_acpi_object_name.md">PEP_ACPI_OBJECT_NAME</a>
-
-
-
  
 
  
-
 

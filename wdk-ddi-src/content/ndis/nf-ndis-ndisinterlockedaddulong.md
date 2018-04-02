@@ -7,7 +7,7 @@ old-location: netvista\ndisinterlockedaddulong.htm
 old-project: netvista
 ms.assetid: d2e31f3c-7152-4df9-8206-a15dee9b641f
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: NdisInterlockedAddUlong, NdisInterlockedAddUlong macro [Network Drivers Starting with Windows Vista], ndis/NdisInterlockedAddUlong, ndis_interlocked_ref_0b4862c9-6897-4b73-ab23-5cd2ede3e82a.xml, netvista.ndisinterlockedaddulong
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -55,18 +55,6 @@ The
   operation, using a caller-supplied spin lock to synchronize access to the integer variable.
 
 
-## -syntax
-
-
-````
-VOID NdisInterlockedAddUlong(
-  [in] PULONG          Addend,
-  [in] ULONG           Increment,
-  [in] PNDIS_SPIN_LOCK SpinLock
-);
-````
-
-
 ## -parameters
 
 
@@ -96,7 +84,7 @@ A pointer to a caller-initialized spin lock.
 The caller of 
     <b>NdisInterlockedAddUlong</b> must provide resident storage for the spin lock, which must be initialized
     with the 
-    <a href="..\ndis\nf-ndis-ndisallocatespinlock.md">NdisAllocateSpinLock</a> function before
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561617">NdisAllocateSpinLock</a> function before
     the initial call to 
     <b>NdisInterlockedAddUlong</b>.
 
@@ -116,28 +104,27 @@ The
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisstoreulong.md">NdisStoreUlong</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisallocatespinlock.md">NdisAllocateSpinLock</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560699">NdisAcquireSpinLock</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisacquirespinlock.md">NdisAcquireSpinLock</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561617">NdisAllocateSpinLock</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisretrieveulong.md">NdisRetrieveUlong</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564524">NdisReleaseSpinLock</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisreleasespinlock.md">NdisReleaseSpinLock</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564532">NdisRetrieveUlong</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564573">NdisStoreUlong</a>
  
 
  
-
 

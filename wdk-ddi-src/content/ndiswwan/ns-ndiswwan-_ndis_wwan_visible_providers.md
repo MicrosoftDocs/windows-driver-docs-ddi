@@ -7,7 +7,7 @@ old-location: netvista\ndis_wwan_visible_providers.htm
 old-project: netvista
 ms.assetid: ed30def8-41c5-4fa9-8098-80f47ddaaa99
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*PNDIS_WWAN_VISIBLE_PROVIDERS, NDIS_WWAN_VISIBLE_PROVIDERS, NDIS_WWAN_VISIBLE_PROVIDERS structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_VISIBLE_PROVIDERS, PNDIS_WWAN_VISIBLE_PROVIDERS structure pointer [Network Drivers Starting with Windows Vista], WwanRef_45997454-b06e-4291-82f5-57e29d8afa7e.xml, _NDIS_WWAN_VISIBLE_PROVIDERS, ndiswwan/NDIS_WWAN_VISIBLE_PROVIDERS, ndiswwan/PNDIS_WWAN_VISIBLE_PROVIDERS, netvista.ndis_wwan_visible_providers"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,18 +51,6 @@ req.typenames: NDIS_WWAN_VISIBLE_PROVIDERS, *PNDIS_WWAN_VISIBLE_PROVIDERS
 
 The NDIS_WWAN_VISIBLE_PROVIDERS structure represents a list of visible providers and the number of
   providers in the list.
-
-
-## -syntax
-
-
-````
-typedef struct _NDIS_WWAN_VISIBLE_PROVIDERS {
-  NDIS_OBJECT_HEADER Header;
-  WWAN_STATUS        uStatus;
-  WWAN_LIST_HEADER   VisibleListHeader;
-} NDIS_WWAN_VISIBLE_PROVIDERS, *PNDIS_WWAN_VISIBLE_PROVIDERS;
-````
 
 
 ## -struct-fields
@@ -118,7 +106,7 @@ sizeof(NDIS_WWAN_VISIBLE_PROVIDERS)
  
 
 For more information about these members, see 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>.
 
 
 ### -field uStatus
@@ -214,25 +202,24 @@ Service activation has failed. Subscription has expired. Device does not allow s
 ### -field VisibleListHeader
 
 A formatted 
-     <a href="..\wwan\ns-wwan-_wwan_list_header.md">WWAN_LIST_HEADER</a> object that represents a
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571208">WWAN_LIST_HEADER</a> object that represents a
      list of visible providers and the number of providers in the list.
      
 
-This member points to the list of <a href="..\wwan\ns-wwan-_wwan_provider2.md">WWAN_PROVIDER2</a> structures that use the WWAN_LIST_HEADER structure. <b>WwanDataClass</b> flags describe the presence of the specific data access technology and can be set to any combination according to the availability of the data-classes
+This member points to the list of <a href="https://msdn.microsoft.com/library/windows/hardware/hh464135">WWAN_PROVIDER2</a> structures that use the WWAN_LIST_HEADER structure. <b>WwanDataClass</b> flags describe the presence of the specific data access technology and can be set to any combination according to the availability of the data-classes
 
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_list_header.md">WWAN_LIST_HEADER</a>
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571208">WWAN_LIST_HEADER</a>
  
 
  
-
 

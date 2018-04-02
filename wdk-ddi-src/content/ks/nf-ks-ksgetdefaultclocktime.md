@@ -55,16 +55,6 @@ The <b>KsGetDefaultClockTime</b> function gets the current time of the clock.
 The function can be called at DISPATCH_LEVEL.
 
 
-## -syntax
-
-
-````
-LONGLONG KsGetDefaultClockTime(
-  _In_ PKSDEFAULTCLOCK DefaultClock
-);
-````
-
-
 ## -parameters
 
 
@@ -86,12 +76,11 @@ The <b>KsGetDefaultClockTime</b> function returns the current clock time.
 
 ## -see-also
 
-<a href="..\ks\nf-ks-kssetdefaultclocktime.md">KsSetDefaultClockTime</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566827">KsSetDefaultClockTime</a>
  
 
  
-
 

@@ -72,7 +72,7 @@ None.
 
 ### -output-buffer
 
-The <b>AssociatedIrp.SystemBuffer</b> member points to a buffer that holds a <a href="..\bthxddi\ns-bthxddi-_bthx_capabilities.md">BTHX_CAPABILITIES</a> structure. 
+The <b>AssociatedIrp.SystemBuffer</b> member points to a buffer that holds a <a href="https://msdn.microsoft.com/library/windows/hardware/hh450833">BTHX_CAPABILITIES</a> structure. 
 
 
 ### -output-buffer-length

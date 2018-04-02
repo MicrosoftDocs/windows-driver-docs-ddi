@@ -52,18 +52,6 @@ req.typenames: WCS_PROFILE_MANAGEMENT_SCOPE
 The <code>WcsAssociateColorProfileWithDevice</code> function associates a specified WCS color profile with a specified device.
 
 
-## -syntax
-
-
-````
-BOOL WcsAssociateColorProfileWithDevice(
-  _In_ WCS_PROFILE_MANAGEMENT_SCOPE profileManagementScope,
-  _In_ PCWSTR                       pProfileName,
-  _In_ PCWSTR                       pDeviceName
-);
-````
-
-
 ## -parameters
 
 
@@ -86,7 +74,7 @@ A pointer to the name of the device with which the profile is to be associated.
 
 #### - profileManagementScope [in]
 
-A <a href="..\icm\ne-icm-wcs_profile_management_scope.md">WCS_PROFILE_MANAGEMENT_SCOPE</a> value that specifies the scope of this profile management operation.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff563752">WCS_PROFILE_MANAGEMENT_SCOPE</a> value that specifies the scope of this profile management operation.
 
 
 ## -remarks
@@ -104,12 +92,11 @@ This function is executable in Least-Privileged User Account (LUA) context if <i
 
 ## -see-also
 
-<a href="..\icm\nf-icm-wcsdisassociatecolorprofilefromdevice.md">WcsDisassociateColorProfileFromDevice</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563718">WcsDisassociateColorProfileFromDevice</a>
  
 
  
-
 

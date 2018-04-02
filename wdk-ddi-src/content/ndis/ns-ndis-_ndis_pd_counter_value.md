@@ -7,7 +7,7 @@ old-location: netvista\ndis_pd_counter_value.htm
 old-project: netvista
 ms.assetid: 0C2424C5-F6EE-4D07-B5C3-CEC3520AFFDC
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*PNDIS_PD_COUNTER_VALUE, NDIS_PD_COUNTER_VALUE, NDIS_PD_COUNTER_VALUE union [Network Drivers Starting with Windows Vista], PNDIS_PD_COUNTER_VALUE, PNDIS_PD_COUNTER_VALUE union pointer [Network Drivers Starting with Windows Vista], _NDIS_PD_COUNTER_VALUE, ndis/NDIS_PD_COUNTER_VALUE, ndis/PNDIS_PD_COUNTER_VALUE, netvista.ndis_pd_counter_value"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,18 +52,6 @@ req.typenames: NDIS_PD_COUNTER_VALUE, *PNDIS_PD_COUNTER_VALUE
 This structure is used to hold a counter value for a queue or filter counter.
 
 
-## -syntax
-
-
-````
-typedef union _NDIS_PD_COUNTER_VALUE {
-  NDIS_PD_RECEIVE_QUEUE_COUNTER  ReceiveQueue;
-  NDIS_PD_TRANSMIT_QUEUE_COUNTER TransmitQueue;
-  NDIS_PD_FILTER_COUNTER         Filter;
-} NDIS_PD_COUNTER_VALUE, *PNDIS_PD_COUNTER_VALUE;
-````
-
-
 ## -struct-fields
 
 
@@ -71,15 +59,15 @@ typedef union _NDIS_PD_COUNTER_VALUE {
 
 ### -field ReceiveQueue
 
-See <a href="..\ndis\ns-ndis-_ndis_pd_receive_queue_counter.md">NDIS_PD_RECEIVE_QUEUE_COUNTER</a>.
+See <a href="https://msdn.microsoft.com/library/windows/hardware/dn931848">NDIS_PD_RECEIVE_QUEUE_COUNTER</a>.
 
 
 ### -field TransmitQueue
 
-See <a href="..\ndis\ns-ndis-_ndis_pd_transmit_queue_counter.md">NDIS_PD_TRANSMIT_QUEUE_COUNTER</a>.
+See <a href="https://msdn.microsoft.com/library/windows/hardware/dn931849">NDIS_PD_TRANSMIT_QUEUE_COUNTER</a>.
 
 
 ### -field Filter
 
-See <a href="..\ndis\ns-ndis-_ndis_pd_filter_counter.md">NDIS_PD_FILTER_COUNTER</a>.
+See <a href="https://msdn.microsoft.com/library/windows/hardware/dn931839">NDIS_PD_FILTER_COUNTER</a>.
 

@@ -7,7 +7,7 @@ old-location: storage\inquirydata.htm
 old-project: storage
 ms.assetid: 2389fb1e-b16a-4d0a-b347-8b8a0f1cf061
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PINQUIRYDATA, INQUIRYDATA, INQUIRYDATA structure [Storage Devices], PINQUIRYDATA, PINQUIRYDATA structure pointer [Storage Devices], _INQUIRYDATA, scsi/INQUIRYDATA, scsi/PINQUIRYDATA, storage.inquirydata, structs-tape_be59bcac-0d77-4186-99a6-97c34bb37793.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,56 +49,7 @@ req.typenames: INQUIRYDATA, *PINQUIRYDATA, INQUIRYDATA, *PINQUIRYDATA
 ## -description
 
 
-The INQUIRYDATA structure is used in conjunction with the <a href="..\minitape\nc-minitape-tape_extension_init_routine.md">TapeMiniExtensionInit</a> and <a href="..\minitape\nc-minitape-tape_verify_inquiry_routine.md">TapeMiniVerifyInquiry</a> routines to report SCSI inquiry data associated with a tape device. 
-
-
-## -syntax
-
-
-````
-typedef struct _INQUIRYDATA {
-  UCHAR DeviceType  :5;
-  UCHAR DeviceTypeQualifier  :3;
-  UCHAR DeviceTypeModifier  :7;
-  UCHAR RemovableMedia  :1;
-  union {
-    UCHAR  Versions;
-    struct {
-      UCHAR ANSIVersion  :3;
-      UCHAR ECMAVersion  :3;
-      UCHAR ISOVersion  :2;
-    };
-  };
-  UCHAR ResponseDataFormat  :4;
-  UCHAR HiSupport  :1;
-  UCHAR NormACA  :1;
-  UCHAR TerminateTask  :1;
-  UCHAR AERC  :1;
-  UCHAR AdditionalLength;
-  UCHAR Reserved;
-  UCHAR Addr16  :1;
-  UCHAR Addr32  :1;
-  UCHAR AckReqQ  :1;
-  UCHAR MediumChanger  :1;
-  UCHAR MultiPort  :1;
-  UCHAR ReservedBit2  :1;
-  UCHAR EnclosureServices  :1;
-  UCHAR ReservedBit3  :1;
-  UCHAR SoftReset  :1;
-  UCHAR CommandQueue  :1;
-  UCHAR TransferDisable  :1;
-  UCHAR LinkedCommands  :1;
-  UCHAR Synchronous  :1;
-  UCHAR Wide16Bit  :1;
-  UCHAR Wide32Bit  :1;
-  UCHAR RelativeAddressing  :1;
-  UCHAR VendorId[8];
-  UCHAR ProductId[16];
-  UCHAR ProductRevisionLevel[4];
-  UCHAR VendorSpecific[20];
-  UCHAR Reserved3[40];
-} INQUIRYDATA, *PINQUIRYDATA;
-````
+The INQUIRYDATA structure is used in conjunction with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567934">TapeMiniExtensionInit</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff567956">TapeMiniVerifyInquiry</a> routines to report SCSI inquiry data associated with a tape device. 
 
 
 ## -struct-fields
@@ -348,16 +299,15 @@ Indicates, when set to one, that the target supports the SCSI CONTINUE TASK and 
 
 ## -see-also
 
-<a href="..\minitape\nc-minitape-tape_verify_inquiry_routine.md">TapeMiniVerifyInquiry</a>
 
 
 
-<a href="..\minitape\nc-minitape-tape_extension_init_routine.md">TapeMiniExtensionInit</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567934">TapeMiniExtensionInit</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567956">TapeMiniVerifyInquiry</a>
  
 
  
-
 

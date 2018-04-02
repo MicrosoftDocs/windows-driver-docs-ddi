@@ -7,7 +7,7 @@ old-location: storage\stor_request_info.htm
 old-project: storage
 ms.assetid: CCC429B7-88BB-4DC3-86BC-6A5FCD405A5D
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PSTOR_REQUEST_INFO_V1, PSTOR_REQUEST_INFO_V1, PSTOR_REQUEST_INFO_V1 structure pointer [Storage Devices], REQUEST_INFO_NO_CACHE_FLAG, REQUEST_INFO_PAGING_IO_FLAG, REQUEST_INFO_SEQUENTIAL_IO_FLAG, REQUEST_INFO_TEMPORARY_FLAG, REQUEST_INFO_WRITE_THROUGH_FLAG, STOR_REQUEST_INFO_V1, STOR_REQUEST_INFO_V1 structure [Storage Devices], StorIoPriorityCritical, StorIoPriorityHigh, StorIoPriorityLow, StorIoPriorityNormal, StorIoPriorityVeryLow, _STOR_REQUEST_INFO_V1, _STOR_REQUEST_INFO_V1 structure [Storage Devices], storage.stor_request_info, storport/PSTOR_REQUEST_INFO_V1, storport/_STOR_REQUEST_INFO_V1"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,24 +52,7 @@ req.product: Windows 10 or later.
 
 
    The <b>_STOR_REQUEST_INFO_V1</b> structure contains details about the storage driver IO request associated  with a SCSI request block (SRB). <b>_STOR_REQUEST_INFO_V1</b> is returned by the  
-  <a href="..\storport\nf-storport-storportgetrequestinfo.md">StorPortGetRequestInfo</a> routine.
-
-
-## -syntax
-
-
-````
-typedef struct _STOR_REQUEST_INFO_V1 {
-  USHORT                Version;
-  USHORT                Size;
-  STOR_IO_PRIORITY_HINT PriorityHint;
-  ULONG                 Flags;
-  ULONG                 Key;
-  ULONG                 Length;
-  BOOLEAN               IsWriteRequest;
-  UCHAR                 Reserved[3];
-} STOR_REQUEST_INFO_V1, *PSTOR_REQUEST_INFO_V1;
-````
+  <a href="https://msdn.microsoft.com/library/windows/hardware/hh451480">StorPortGetRequestInfo</a> routine.
 
 
 ## -struct-fields
@@ -242,19 +225,18 @@ Reserved.
 
 
 
-The caller to <a href="..\storport\nf-storport-storportgetrequestinfo.md">StorPortGetRequestInfo</a> allocates the <b>STOR_REQUEST_INFO</b> structure. Prior to calling <b>StorPortGetRequestInfo</b>,  <b>Version</b> must be set to <b>STOR_REQUEST_INFO_VER_1</b> and <b>Size</b> must be set to <b>sizeof</b>(STOR_REQUEST_INFO). Otherwise, <b>StorPortGetRequestInfo</b> will return with a status of <b>STOR_STATUS_INVALID_PARAMETER</b>.
+The caller to <a href="https://msdn.microsoft.com/library/windows/hardware/hh451480">StorPortGetRequestInfo</a> allocates the <b>STOR_REQUEST_INFO</b> structure. Prior to calling <b>StorPortGetRequestInfo</b>,  <b>Version</b> must be set to <b>STOR_REQUEST_INFO_VER_1</b> and <b>Size</b> must be set to <b>sizeof</b>(STOR_REQUEST_INFO). Otherwise, <b>StorPortGetRequestInfo</b> will return with a status of <b>STOR_STATUS_INVALID_PARAMETER</b>.
 
 
 
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportgetrequestinfo.md">StorPortGetRequestInfo</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451480">StorPortGetRequestInfo</a>
  
 
  
-
 

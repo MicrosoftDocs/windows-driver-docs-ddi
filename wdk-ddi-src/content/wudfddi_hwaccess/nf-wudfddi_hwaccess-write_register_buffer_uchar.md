@@ -55,19 +55,6 @@ req.product: Windows 10 or later.
 The <b>WRITE_REGISTER_BUFFER_UCHAR</b> function writes a number of bytes from a buffer to the specified register.
 
 
-## -syntax
-
-
-````
-void WRITE_REGISTER_BUFFER_UCHAR(
-  _In_ IWDFDevice3 *pDevice,
-  _In_ PUCHAR      Register,
-  _In_ PUCHAR      Buffer,
-  _In_ ULONG       Count 
-);
-````
-
-
 ## -parameters
 
 
@@ -75,7 +62,7 @@ void WRITE_REGISTER_BUFFER_UCHAR(
 
 ### -param pDevice [in]
 
-Specifies a pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfdevice3.md">IWDFDevice3</a> interface for the device object of the device to access.
+Specifies a pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451197">IWDFDevice3</a> interface for the device object of the device to access.
 
 
 ### -param Register [in]

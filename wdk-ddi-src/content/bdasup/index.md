@@ -2,7 +2,7 @@
 UID: NA:bdasup
 ms.assetid: 501c4a0b-90dc-39ca-905e-a662bbbfe6be
 ms.author: windowsdriverdev
-ms.date: 03/13/18
+ms.date: 02/27/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

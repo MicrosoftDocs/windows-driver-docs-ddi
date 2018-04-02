@@ -7,7 +7,7 @@ old-location: ifsk\file_id_extd_both_dir_information.htm
 old-project: ifsk
 ms.assetid: 3673C27D-61D9-4127-ABC1-655DE83AD64E
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: "*PFILE_ID_EXTD_BOTH_DIR_INFORMATION, FILE_ID_EXTD_BOTH_DIR_INFORMATION, FILE_ID_EXTD_BOTH_DIR_INFORMATION structure [Installable File System Drivers], PFILE_ID_EXTD_BOTH_DIR_INFORMATION, PFILE_ID_EXTD_BOTH_DIR_INFORMATION structure pointer [Installable File System Drivers], _FILE_ID_EXTD_BOTH_DIR_INFORMATION, ifsk.file_id_extd_both_dir_information, ntifs/FILE_ID_EXTD_BOTH_DIR_INFORMATION, ntifs/PFILE_ID_EXTD_BOTH_DIR_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,31 +50,6 @@ req.typenames: FILE_ID_EXTD_BOTH_DIR_INFORMATION, *PFILE_ID_EXTD_BOTH_DIR_INFORM
 
 
 The <b>FILE_ID_EXTD_BOTH_DIR_INFORMATION</b> structure is used to query file reference number information for the files in a directory. 
-
-
-## -syntax
-
-
-````
-typedef struct _FILE_ID_BOTH_DIR_INFORMATION {
-  ULONG         NextEntryOffset;
-  ULONG         FileIndex;
-  LARGE_INTEGER CreationTime;
-  LARGE_INTEGER LastAccessTime;
-  LARGE_INTEGER LastWriteTime;
-  LARGE_INTEGER ChangeTime;
-  LARGE_INTEGER EndOfFile;
-  LARGE_INTEGER AllocationSize;
-  ULONG         FileAttributes;
-  ULONG         FileNameLength;
-  ULONG         EaSize;
-  ULONG         ReparsePointTag;
-  FILE_ID_128   FileId;
-  CCHAR         ShortNameLength;
-  WCHAR         ShortName[12];
-  WCHAR         FileName[1];
-} FILE_ID_EXTD_BOTH_DIR_INFORMATION, *PFILE_ID_EXTD_BOTH_DIR_INFORMATION;
-````
 
 
 ## -struct-fields
@@ -183,7 +158,7 @@ This information can be queried in either of the following ways:
 
 <ul>
 <li>
-Call <a href="..\ntifs\nf-ntifs-zwquerydirectoryfile.md">ZwQueryDirectoryFile</a>, passing <b>FileIdExtdBothDirectoryInformation</b> as the value of <i>FileInformationClass</i> and passing a caller-allocated, FILE_ID_EXTD_BOTH_DIR_INFORMATION-structured buffer as the value of <i>FileInformation</i>. 
+Call <a href="https://msdn.microsoft.com/library/windows/hardware/ff567047">ZwQueryDirectoryFile</a>, passing <b>FileIdExtdBothDirectoryInformation</b> as the value of <i>FileInformationClass</i> and passing a caller-allocated, FILE_ID_EXTD_BOTH_DIR_INFORMATION-structured buffer as the value of <i>FileInformation</i>. 
 
 </li>
 <li>
@@ -204,20 +179,19 @@ This structure must be aligned on a LONGLONG (8-byte) boundary. If a buffer cont
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547026">FsRtlNotifyFullChangeDirectory</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548658">IRP_MJ_DIRECTORY_CONTROL</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-zwquerydirectoryfile.md">ZwQueryDirectoryFile</a>
-
-
-
-<a href="..\rxprocs\nf-rxprocs-fsrtlnotifyfullchangedirectory.md">FsRtlNotifyFullChangeDirectory</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567047">ZwQueryDirectoryFile</a>
  
 
  
-
 

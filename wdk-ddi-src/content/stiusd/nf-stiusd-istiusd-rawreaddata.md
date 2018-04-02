@@ -53,18 +53,6 @@ req.product: Windows 10 or later.
 A still image minidriver's <b>IStiUSD::RawReadData</b> method reads data from a still image device.
 
 
-## -syntax
-
-
-````
-HRESULT RawReadData(
-   LPVOID       lpBuffer,
-   LPDWORD      lpdwNumberOfBytes,
-   LPOVERLAPPED lpOverlapped
-);
-````
-
-
 ## -parameters
 
 
@@ -100,14 +88,13 @@ If the operation succeeds, the method should return S_OK. Otherwise, it should r
 
 A still image minidriver typically implements this method by calling <b>ReadFile</b> (described in the Windows SDK documentation).
 
-For USB devices, better performance can be achieved if read requests are aligned to maximum packet size boundaries. Maximum packet sizes can be obtained by calling <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a>, specifying the <a href="..\usbscan\ni-usbscan-ioctl_get_channel_align_rqst.md">IOCTL_GET_CHANNEL_ALIGN_RQST</a> I/O control code.
+For USB devices, better performance can be achieved if read requests are aligned to maximum packet size boundaries. Maximum packet sizes can be obtained by calling <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a>, specifying the <a href="https://msdn.microsoft.com/library/windows/hardware/ff542849">IOCTL_GET_CHANNEL_ALIGN_RQST</a> I/O control code.
 
 
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/62740263-5bbb-48e1-be3d-9ee9cb37d6b9">IStiUSD</a>
 
 
 
@@ -115,8 +102,8 @@ For USB devices, better performance can be achieved if read requests are aligned
 
 
 
+<a href="https://msdn.microsoft.com/62740263-5bbb-48e1-be3d-9ee9cb37d6b9">IStiUSD</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: storage\addisnsserver_in.htm
 old-project: storage
 ms.assetid: 5d05eeeb-ab68-4770-88c1-483c56dbc116
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PAddiSNSServer_IN, AddiSNSServer_IN, AddiSNSServer_IN structure [Storage Devices], PAddiSNSServer_IN, PAddiSNSServer_IN structure pointer [Storage Devices], _AddiSNSServer_IN, iscsiop/AddiSNSServer_IN, iscsiop/PAddiSNSServer_IN, storage.addisnsserver_in, structs-iSCSI_2c317c93-3fea-4749-98ef-fba28c0cc93f.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,16 +52,6 @@ req.typenames: AddiSNSServer_IN, *PAddiSNSServer_IN
 The AddiSNSServer_IN structure holds the input data for the user-mode <b>AddISNSServer</b> method, which is used to add a new iSNS server entry to the list of iSNS server names that the initiator maintains.
 
 
-## -syntax
-
-
-````
-typedef struct _AddiSNSServer_IN {
-  WCHAR iSNSServerName[223 + 1];
-} AddiSNSServer_IN, *PAddiSNSServer_IN;
-````
-
-
 ## -struct-fields
 
 
@@ -83,16 +73,15 @@ It is optional that you implement this method.
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550127">AddiSNSServer_OUT</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563091">MSiSCSI_Operations WMI Class</a>
-
-
-
-<a href="..\iscsiop\ns-iscsiop-_addisnsserver_out.md">AddiSNSServer_OUT</a>
-
-
-
  
 
  
-
 

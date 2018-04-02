@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 The <b>wiasCreateLogInstance</b> function creates an instance of a logging object.
 
 
-## -syntax
-
-
-````
-HRESULT _stdcall wiasCreateLogInstance(
-  _In_  BYTE      *pModuleHandle,
-  _Out_ IWiaLogEx **ppIWiaLogEx
-);
-````
-
-
 ## -parameters
 
 

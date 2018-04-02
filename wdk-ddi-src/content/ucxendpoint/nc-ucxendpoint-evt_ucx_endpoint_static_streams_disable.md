@@ -7,7 +7,7 @@ old-location: buses\evt_ucx_endpoint_static_streams_disable.htm
 old-project: usbref
 ms.assetid: 79da55ac-61de-40cc-b25b-421f7637a9fe
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: EVT_UCX_ENDPOINT_STATIC_STREAMS_DISABLE, EvtUcxEndpointStaticStreamsDisable, EvtUcxEndpointStaticStreamsDisable callback function [Buses], PEVT_UCX_ENDPOINT_STATIC_STREAMS_DISABLE, PEVT_UCX_ENDPOINT_STATIC_STREAMS_DISABLE callback function pointer [Buses], buses.evt_ucx_endpoint_static_streams_disable, ucxendpoint/EvtUcxEndpointStaticStreamsDisable
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,23 +53,6 @@ req.product: Windows 10 or later.
 The client driver's implementation that UCX calls to release controller resources for all streams for an endpoint.
 
 
-## -prototype
-
-
-````
-EVT_UCX_ENDPOINT_STATIC_STREAMS_DISABLE EvtUcxEndpointStaticStreamsDisable;
-
-VOID EvtUcxEndpointStaticStreamsDisable(
-  _In_ UCXENDPOINT Endpoint,
-  _In_ UCXSSTREAMS UcxStaticStreams,
-  _In_ WDFREQUEST  Request
-)
-{ ... }
-
-typedef EVT_UCX_ENDPOINT_STATIC_STREAMS_DISABLE PEVT_UCX_ENDPOINT_STATIC_STREAMS_DISABLE;
-````
-
-
 ## -parameters
 
 
@@ -106,7 +89,7 @@ This callback function does not return a value.
 
 
 
-The UCX client driver registers this callback function with the USB host controller extension (UCX) by calling the <a href="..\ucxendpoint\nf-ucxendpoint-ucxendpointcreate.md">UcxEndpointCreate</a>
+The UCX client driver registers this callback function with the USB host controller extension (UCX) by calling the <a href="https://msdn.microsoft.com/library/windows/hardware/mt188039">UcxEndpointCreate</a>
  method.
 
 The client driver returns completion status in <i>Request</i> and in the USBD_STATUS

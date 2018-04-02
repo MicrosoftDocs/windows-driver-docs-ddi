@@ -56,19 +56,6 @@ The <b>WDF_WRITE_PORT_BUFFER_UCHAR</b> function writes a number of bytes from a 
 
 
 
-## -syntax
-
-
-````
-void WDF_WRITE_PORT_BUFFER_UCHAR(
-  _In_ WDFDEVICE Device,
-  _In_ PUCHAR    Port,
-  _In_ PUCHAR    Buffer,
-  _In_ ULONG     Count 
-);
-````
-
-
 ## -parameters
 
 

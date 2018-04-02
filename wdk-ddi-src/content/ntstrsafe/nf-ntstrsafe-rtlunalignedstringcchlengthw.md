@@ -7,7 +7,7 @@ old-location: kernel\rtlunalignedstringcchlength.htm
 old-project: kernel
 ms.assetid: 7b9f38f5-7fc9-4670-975d-b7bfeefb2cb8
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: RtlUnalignedStringCchLength, RtlUnalignedStringCchLengthW, RtlUnalignedStringCchLengthW function [Kernel-Mode Driver Architecture], kernel.rtlunalignedstringcchlength, ntstrsafe/RtlUnalignedStringCchLengthW, safestrings_7bfc07f7-2096-4818-a0d5-31767b7342ea.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,19 +50,7 @@ req.typenames: SYSTEM_POWER_STATE_CONTEXT, *PSYSTEM_POWER_STATE_CONTEXT
 ## -description
 
 
-The <b>RtlUnalignedStringCchLengthW</b> function is a version of the <a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchlengthw.md">RtlStringCchLength</a> function that accepts an unaligned pointer to a string of Unicode characters.
-
-
-## -syntax
-
-
-````
-NTSTATUS RtlUnalignedStringCchLengthW(
-  _In_      STRSAFE_PCUNZWCH psz,
-  _In_      size_t           cchMax,
-  _Out_opt_ size_t           *pcchLength
-);
-````
+The <b>RtlUnalignedStringCchLengthW</b> function is a version of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562856">RtlStringCchLength</a> function that accepts an unaligned pointer to a string of Unicode characters.
 
 
 ## -parameters
@@ -130,7 +118,7 @@ For information about how to test NTSTATUS values, see <a href="https://msdn.mic
 
 
 
-The <b>RtlUnalignedStringCchLengthW</b> function is available for processor architectures, such as Itanium-based and x64-based, that cause alignment exceptions when software attempts to access unaligned data. On those processors, you can use <b>RtlUnalignedStringCchLengthW</b> instead of <a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchlengthw.md">RtlStringCchLength</a> to avoid alignment exceptions. (For processors that do not cause alignment exceptions, <b>RtlUnalignedStringCchLengthW</b> is equivalent to <b>RtlStringCchLength</b>.)
+The <b>RtlUnalignedStringCchLengthW</b> function is available for processor architectures, such as Itanium-based and x64-based, that cause alignment exceptions when software attempts to access unaligned data. On those processors, you can use <b>RtlUnalignedStringCchLengthW</b> instead of <a href="https://msdn.microsoft.com/library/windows/hardware/ff562856">RtlStringCchLength</a> to avoid alignment exceptions. (For processors that do not cause alignment exceptions, <b>RtlUnalignedStringCchLengthW</b> is equivalent to <b>RtlStringCchLength</b>.)
 
 For more information about the safe string functions, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565508">Using Safe String Functions</a>. 
 
@@ -139,12 +127,11 @@ For more information about the safe string functions, see <a href="https://msdn.
 
 ## -see-also
 
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchlengthw.md">RtlStringCchLength</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562856">RtlStringCchLength</a>
  
 
  
-
 

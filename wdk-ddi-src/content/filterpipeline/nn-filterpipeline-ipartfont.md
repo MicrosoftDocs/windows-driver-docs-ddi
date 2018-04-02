@@ -54,7 +54,7 @@ The <b>IPartFont</b> interface is the abstraction for fonts in a part.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPartFont</b> interface inherits from <a href="..\filterpipeline\nn-filterpipeline-ipartbase.md">IPartBase</a>. <b>IPartFont</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPartFont</b> interface inherits from <a href="https://msdn.microsoft.com/library/windows/hardware/ff551846">IPartBase</a>. <b>IPartFont</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -99,12 +99,11 @@ The <b>SetFontOptions</b> method sets the options for the font.
 
 ## -see-also
 
-<a href="..\filterpipeline\nn-filterpipeline-ipartbase.md">IPartBase</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551846">IPartBase</a>
  
 
  
-
 

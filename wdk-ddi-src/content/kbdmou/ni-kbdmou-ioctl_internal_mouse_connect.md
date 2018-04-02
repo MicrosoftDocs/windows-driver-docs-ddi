@@ -149,7 +149,6 @@ Moufiltr is already connected (a filter driver supports only one connect request
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/949955c1-a1c7-4b0b-a74e-593dd7885135">MouseClassServiceCallback</a>
 
 
 
@@ -157,8 +156,8 @@ Moufiltr is already connected (a filter driver supports only one connect request
 
 
 
+<a href="https://msdn.microsoft.com/949955c1-a1c7-4b0b-a74e-593dd7885135">MouseClassServiceCallback</a>
  
 
  
-
 

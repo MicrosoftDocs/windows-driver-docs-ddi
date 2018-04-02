@@ -7,7 +7,7 @@ old-location: debugger\debug_flr_param_type.htm
 old-project: debugger
 ms.assetid: D57D356F-DC11-4C27-97D3-DF40BF2AB490
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "..., DEBUG_FLR_DRIVER_OBJECT, DEBUG_FLR_INVALID, DEBUG_FLR_MASK_ALL, DEBUG_FLR_PARAM_TYPE, DEBUG_FLR_PARAM_TYPE enumeration [Windows Debugging], DEBUG_FLR_RESERVED, FA_TAG, _DEBUG_FLR_PARAM_TYPE, debugger.debug_flr_param_type, extsfns/..., extsfns/DEBUG_FLR_DRIVER_OBJECT, extsfns/DEBUG_FLR_INVALID, extsfns/DEBUG_FLR_MASK_ALL, extsfns/DEBUG_FLR_PARAM_TYPE, extsfns/DEBUG_FLR_RESERVED"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,20 +52,6 @@ req.typenames: DEBUG_FLR_PARAM_TYPE
 The values of <b>DEBUG_FLR_PARAM_TYPE</b> enumeration are tags that indicate the kind of information that is stored in <a href="https://msdn.microsoft.com/759DE159-F2A8-4BB1-AAF5-B2B91C4F91B0">failure analysis entry</a>.
 
 The <b>DEBUG_FLR_PARAM_TYPE</b> enumeration is also called the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/writing-an-analysis-extension-to-extend--analyze">FA_TAG</a> enumeration.
-
-
-## -syntax
-
-
-````
-typedef enum _DEBUG_FLR_PARAM_TYPE { 
-  DEBUG_FLR_INVALID        = 0,
-  DEBUG_FLR_RESERVED,
-  DEBUG_FLR_DRIVER_OBJECT,
-  ...,
-  DEBUG_FLR_MASK_ALL       = 0xFFFFFFFF
-} DEBUG_FLR_PARAM_TYPE;
-````
 
 
 ## -enum-fields
@@ -2281,7 +2267,6 @@ For more information about tags, see <a href="https://msdn.microsoft.com/7648F78
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/7648F789-85D5-4247-90DD-2EAA43543483">Writing an Analysis Extension Plug-in to Extend !analyze</a>
 
 
 
@@ -2289,16 +2274,16 @@ For more information about tags, see <a href="https://msdn.microsoft.com/7648F78
 
 
 
-<a href="..\extsfns\nn-extsfns-idebugfailureanalysis2.md">IDebugFailureAnalysis2</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/jj991807">Failure Analysis Entries</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj983405">IDebugFailureAnalysis2</a>
+
+
+
+<a href="https://msdn.microsoft.com/7648F789-85D5-4247-90DD-2EAA43543483">Writing an Analysis Extension Plug-in to Extend !analyze</a>
  
 
  
-
 

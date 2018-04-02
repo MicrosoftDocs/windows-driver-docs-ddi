@@ -7,7 +7,7 @@ old-location: debugger\idebugbreakpoint2.htm
 old-project: debugger
 ms.assetid: 097c10e1-fd83-4a3d-8193-873644370e35
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: IDebugBreakpoint2, IDebugBreakpoint2 interface [Windows Debugging], IDebugBreakpoint2 interface [Windows Debugging], described, dbgeng/IDebugBreakpoint2, debugger.idebugbreakpoint2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,7 +53,7 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDebugBreakpoint2</b> interface inherits from <a href="..\dbgeng\nn-dbgeng-idebugbreakpoint.md">IDebugBreakpoint</a>. <b>IDebugBreakpoint2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDebugBreakpoint2</b> interface inherits from <a href="https://msdn.microsoft.com/library/windows/hardware/ff549812">IDebugBreakpoint</a>. <b>IDebugBreakpoint2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -111,12 +111,11 @@ Returns the expression string that evaluates to the location that triggers a bre
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugbreakpoint.md">IDebugBreakpoint</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549812">IDebugBreakpoint</a>
  
 
  
-
 

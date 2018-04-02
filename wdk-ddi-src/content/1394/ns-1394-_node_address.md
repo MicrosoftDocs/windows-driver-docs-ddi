@@ -52,17 +52,6 @@ req.typenames: NODE_ADDRESS, *PNODE_ADDRESS
 The NODE_ADDRESS structure specifies the 10-bit bus number and 6-bit node number that serve as the node address for a 1394 node.
 
 
-## -syntax
-
-
-````
-typedef struct _NODE_ADDRESS {
-  USHORT NA_Node_Number  :6;
-  USHORT NA_Bus_Number  :10;
-} NODE_ADDRESS, *PNODE_ADDRESS;
-````
-
-
 ## -struct-fields
 
 
@@ -80,16 +69,15 @@ Specifies the 10-bit bus number. This member specifies bits 0-10 of the node add
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537020">BUS_GENERATION_NODE</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537346">IO_ADDRESS</a>
-
-
-
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: netvista\ndisinvalidateoffload.htm
 old-project: netvista
 ms.assetid: d9cb2724-cf14-4814-8a19-1237e0862b1a
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: NdisInvalidateOffload, NdisInvalidateOffload function [Network Drivers Starting with Windows Vista], ndischimney/NdisInvalidateOffload, netvista.ndisinvalidateoffload, tcp_chim_ndis_func_f9049fdc-87ff-467c-9427-d42876e16aa3.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -56,17 +56,6 @@ A protocol or intermediate driver calls the
   <b>NdisInvalidateOffload</b> function to invalidate previously offloaded TCP chimney state objects.
 
 
-## -syntax
-
-
-````
-VOID NdisInvalidateOffload(
-  _In_ NDIS_HANDLE                       NdisBindingHandle,
-  _In_ PNDIS_PROTOCOL_OFFLOAD_BLOCK_LIST OffloadBlockList
-);
-````
-
-
 ## -parameters
 
 
@@ -76,7 +65,7 @@ VOID NdisInvalidateOffload(
 
 The handle that NDIS provided at the 
      <i>NdisBindingHandle</i> parameter of 
-     <a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>. This handle
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff563715">NdisOpenAdapterEx</a>. This handle
      identifies the binding between the caller and the underlying intermediate driver or offload
      target.
 
@@ -84,7 +73,7 @@ The handle that NDIS provided at the
 ### -param OffloadBlockList [in]
 
 A pointer to an 
-     <a href="..\ndischimney\ns-ndischimney-_ndis_protocol_offload_block_list.md">
+     <a href="https://msdn.microsoft.com/64febd55-1ab8-4e2e-b738-340167866333">
      NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST</a> structure that can be a stand-alone structure or the root of a
      linked list of such structures. These structures identify the state objects that are being
      invalidated.
@@ -110,9 +99,9 @@ An intermediate driver calls the
     State-Manipulation Operations</a>.
 
 From the 
-    <a href="..\ndischimney\ns-ndischimney-_ndis_miniport_offload_block_list.md">
+    <a href="https://msdn.microsoft.com/ebc98e65-5d11-4c3d-aea1-dfad1434c093">
     NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</a> structure that was passed to its 
-    <a href="..\ndischimney\nc-ndischimney-w_invalidate_offload_handler.md">
+    <a href="https://msdn.microsoft.com/58226149-daea-40aa-afb6-13ce615434b3">
     MiniportInvalidateOffload</a> function, the intermediate driver constructs an
     NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST structure. For more information, see 
     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/reusing-an-ndis-miniport-offload-block-list-structure">Reusing an
@@ -125,36 +114,35 @@ From the
 
 ## -see-also
 
-<a href="..\ndischimney\ns-ndischimney-_ndis_protocol_offload_block_list.md">
-   NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST</a>
 
 
 
-<a href="..\ndischimney\ns-ndischimney-_ndis_miniport_offload_block_list.md">
+<a href="https://msdn.microsoft.com/58226149-daea-40aa-afb6-13ce615434b3">MiniportInvalidateOffload</a>
+
+
+
+<a href="https://msdn.microsoft.com/ebc98e65-5d11-4c3d-aea1-dfad1434c093">
    NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</a>
 
 
 
-<a href="..\ndischimney\nc-ndischimney-invalidate_offload_complete_handler.md">
-   ProtocolInvalidateOffloadComplete</a>
+<a href="https://msdn.microsoft.com/64febd55-1ab8-4e2e-b738-340167866333">
+   NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
-
-
-
-<a href="..\ndischimney\nc-ndischimney-w_invalidate_offload_handler.md">MiniportInvalidateOffload</a>
-
-
-
-<a href="..\ndischimney\nf-ndischimney-ndisminvalidateoffloadcomplete.md">
+<a href="https://msdn.microsoft.com/fd14e983-ea4b-41f2-973d-88b114306e75">
    NdisMInvalidateOffloadComplete</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563715">NdisOpenAdapterEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/6d2c71d0-9686-4eb5-9715-27de3dc8b390">
+   ProtocolInvalidateOffloadComplete</a>
  
 
  
-
 

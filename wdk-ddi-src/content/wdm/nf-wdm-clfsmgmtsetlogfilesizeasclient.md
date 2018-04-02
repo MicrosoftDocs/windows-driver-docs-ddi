@@ -7,7 +7,7 @@ old-location: kernel\clfsmgmtsetlogfilesizeasclient_.htm
 old-project: kernel
 ms.assetid: C049A6BE-6E2B-46F2-B7CF-316E4CDB35E4
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: ClfsMgmtSetLogFileSizeAsClient, ClfsMgmtSetLogFileSizeAsClient routine [Kernel-Mode Driver Architecture], kernel.clfsmgmtsetlogfilesizeasclient_, wdm/ClfsMgmtSetLogFileSizeAsClient
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -54,21 +54,6 @@ req.product: Windows 10 or later.
 The <b>ClfsMgmtSetLogFileSizeAsClient</b>  routine sets the log file size by adding containers to a client log or deleting containers from a client log.
 
 
-## -syntax
-
-
-````
-NTSTATUS ClfsMgmtSetLogFileSizeAsClient (
-  _In_      PLOG_FILE_OBJECT                     LogFile,
-  _In_opt_  PCLFS_MGMT_CLIENT                    ClientCookie,
-  _In_      PULONGLONG                           NewSizeInContainers,
-  _Out_opt_ PULONGLONG                           ResultingSizeInContainers,
-  _In_opt_  PCLFS_SET_LOG_SIZE_COMPLETE_CALLBACK CompletionRoutine,
-  _In_opt_  PVOID                                CompletionRoutineData
-);
-````
-
-
 ## -parameters
 
 
@@ -76,12 +61,12 @@ NTSTATUS ClfsMgmtSetLogFileSizeAsClient (
 
 ### -param LogFile [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff554316">LOG_FILE_OBJECT</a> structure that represents the Common Log File System (CLFS) log, or a stream within the log, to which containers are being added or deleted. The value of this parameter is obtained through a call to the <a href="..\wdm\nf-wdm-clfscreatelogfile.md">ClfsCreateLogFile</a> routine.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff554316">LOG_FILE_OBJECT</a> structure that represents the Common Log File System (CLFS) log, or a stream within the log, to which containers are being added or deleted. The value of this parameter is obtained through a call to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff540792">ClfsCreateLogFile</a> routine.
 
 
 ### -param ClientCookie [in, optional]
 
-A pointer to a client-supplied cookie. The value of this parameter should be the <b>CLFS_MGMT_CLIENT</b> structure that is obtained through a call to the <a href="..\wdm\nf-wdm-clfsmgmtregistermanagedclient.md">ClfsMgmtRegisterManagedClient</a> routine.
+A pointer to a client-supplied cookie. The value of this parameter should be the <b>CLFS_MGMT_CLIENT</b> structure that is obtained through a call to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff541642">ClfsMgmtRegisterManagedClient</a> routine.
 
 
 ### -param NewSizeInContainers [in]
@@ -191,12 +176,11 @@ This routine might also return other <a href="https://msdn.microsoft.com/library
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff541830">CLFS Management Library Routines</a>
-
-
-
  
 
  
-
 

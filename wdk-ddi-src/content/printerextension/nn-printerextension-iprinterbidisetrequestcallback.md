@@ -93,7 +93,6 @@ Invoked when the Bidi “Set”” operation is completed.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn265391">SendBidiSetRequestAsync</a>
 
 
 
@@ -105,8 +104,8 @@ Invoked when the Bidi “Set”” operation is completed.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265391">SendBidiSetRequestAsync</a>
  
 
  
-
 

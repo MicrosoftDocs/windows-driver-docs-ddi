@@ -7,7 +7,7 @@ old-location: ifsk\atomic_create_ecp_context.htm
 old-project: ifsk
 ms.assetid: CFA879CC-6124-4E1C-B440-358455A5E6EF
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: "*PATOMIC_CREATE_ECP_CONTEXT, ATOMIC_CREATE_ECP_CONTEXT, ATOMIC_CREATE_ECP_CONTEXT structure [Installable File System Drivers], ATOMIC_CREATE_ECP_IN_FLAG_BEST_EFFORT, ATOMIC_CREATE_ECP_IN_FLAG_EOF_SPECIFIED, ATOMIC_CREATE_ECP_IN_FLAG_OPERATION_MASK, ATOMIC_CREATE_ECP_IN_FLAG_REPARSE_POINT_SPECIFIED, ATOMIC_CREATE_ECP_IN_FLAG_SPARSE_SPECIFIED, ATOMIC_CREATE_ECP_IN_FLAG_VDL_SPECIFIED, ATOMIC_CREATE_ECP_OUT_FLAG_EOF_SET, ATOMIC_CREATE_ECP_OUT_FLAG_OPERATION_MASK, ATOMIC_CREATE_ECP_OUT_FLAG_REPARSE_POINT_SET, ATOMIC_CREATE_ECP_OUT_FLAG_SPARSE_SET, ATOMIC_CREATE_ECP_OUT_FLAG_VDL_SET, PATOMIC_CREATE_ECP_CONTEXT, PATOMIC_CREATE_ECP_CONTEXT structure pointer [Installable File System Drivers], _ATOMIC_CREATE_ECP_CONTEXT, ifsk.atomic_create_ecp_context, ntifs/ATOMIC_CREATE_ECP_CONTEXT, ntifs/PATOMIC_CREATE_ECP_CONTEXT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,30 +51,6 @@ req.typenames: ATOMIC_CREATE_ECP_CONTEXT, *PATOMIC_CREATE_ECP_CONTEXT
 
 This structure allows supplemental
 operations to be performed on a file atomically during create. Use the 
-
-
-## -syntax
-
-
-````
-typedef struct _ATOMIC_CREATE_ECP_CONTEXT {
-  USHORT                                                           Size;
-  USHORT                                                           InFlags;
-  USHORT                                                           OutFlags;
-  USHORT                                                           ReparseBufferLength;
-  _Field_size_bytes_opt_(ReparseBufferLength) PREPARSE_DATA_BUFFER ReparseBuffer;
-  LONGLONG                                                         FileSize;
-  LONGLONG                                                         ValidDataLength;
-#if (NTDDI_VERSION >= NTDDI_WIN10_RS2)
-  PFILE_TIMESTAMPS                                                 FileTimestamps;
-#endif 
-#if (NTDDI_VERSION >= NTDDI_WIN10_RS3)
-  ULONG                                                            FileAttributes;
-  ULONG                                                            UsnSourceInfo;
-  USN                                                              Usn;
-#endif 
-} ATOMIC_CREATE_ECP_CONTEXT, *PATOMIC_CREATE_ECP_CONTEXT;
-````
 
 
 ## -struct-fields
@@ -266,7 +242,7 @@ The optional value that is used with <b>ATOMIC_CREATE_ECP_IN_FLAG_VDL_SPECIFIED<
 
 ### -field FileTimestamps
 
-Pointer to an optional <a href="..\ntifs\ns-ntifs-_file_timestamps.md">FILE_TIMESTAMPS</a> structure which contains  the last recorded instance of specific actions on a file.
+Pointer to an optional <a href="https://msdn.microsoft.com/0F016D21-34CD-43DD-BE39-C6DF6D63A3AC">FILE_TIMESTAMPS</a> structure which contains  the last recorded instance of specific actions on a file.
 
 
 ### -field FileAttributes

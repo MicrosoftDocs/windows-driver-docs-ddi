@@ -52,18 +52,6 @@ req.typenames: KSPROPERTY_CROSSBAR_CAPS_S, *PKSPROPERTY_CROSSBAR_CAPS_S
 The KSPROPERTY_CROSSBAR_CAPS_S structure describes the crossbar capabilities for a device.
 
 
-## -syntax
-
-
-````
-typedef struct {
-  KSPROPERTY Property;
-  ULONG      NumberOfInputs;
-  ULONG      NumberOfOutputs;
-} KSPROPERTY_CROSSBAR_CAPS_S, *PKSPROPERTY_CROSSBAR_CAPS_S;
-````
-
-
 ## -struct-fields
 
 
@@ -86,6 +74,9 @@ Indicates the number of audio and video output pins on the crossbar.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
 
 
@@ -95,11 +86,7 @@ Indicates the number of audio and video output pins on the crossbar.
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567804">PROPSETID_VIDCAP_CROSSBAR</a>
-
-
-
  
 
  
-
 

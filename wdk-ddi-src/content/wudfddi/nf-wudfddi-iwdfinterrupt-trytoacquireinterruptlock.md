@@ -55,14 +55,6 @@ req.product: Windows 10 or later.
 The <b>TryToAcquireInterruptLock</b> method acquires the interrupt lock if no other thread has already acquired it.
 
 
-## -syntax
-
-
-````
-BOOLEAN TryToAcquireInterruptLock();
-````
-
-
 ## -parameters
 
 
@@ -98,11 +90,10 @@ For more information about handling interrupts in UMDF drivers, see <a href="htt
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfinterrupt.md">IWDFInterrupt</a>
 
 
 
-<a href="..\wdfinterrupt\nf-wdfinterrupt-wdfinterrupttrytoacquirelock.md">WdfInterruptTryToAcquireLock</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451283">IWDFInterrupt</a>
 
 
 
@@ -110,8 +101,8 @@ For more information about handling interrupts in UMDF drivers, see <a href="htt
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439284">WdfInterruptTryToAcquireLock</a>
  
 
  
-
 

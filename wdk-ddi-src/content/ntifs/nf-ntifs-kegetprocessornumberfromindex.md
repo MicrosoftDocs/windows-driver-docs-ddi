@@ -7,7 +7,7 @@ old-location: kernel\kegetprocessornumberfromindex.htm
 old-project: kernel
 ms.assetid: a6c9a7fa-8fef-4d6d-aab5-e712c49c0144
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: KeGetProcessorNumberFromIndex, KeGetProcessorNumberFromIndex routine [Kernel-Mode Driver Architecture], k105_c0b567bd-4436-4f6a-87a2-86d8b165e2dc.xml, kernel.kegetprocessornumberfromindex, wdm/KeGetProcessorNumberFromIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,17 +52,6 @@ req.typenames: TOKEN_TYPE
 The <b>KeGetProcessorNumberFromIndex</b> routine converts a systemwide processor index to a group number and a group-relative processor number.
 
 
-## -syntax
-
-
-````
-NTSTATUS KeGetProcessorNumberFromIndex(
-  _In_  ULONG             ProcIndex,
-  _Out_ PPROCESSOR_NUMBER ProcNumber
-);
-````
-
-
 ## -parameters
 
 
@@ -75,7 +64,7 @@ A systemwide processor index. If a multiprocessor system contains a total of <i>
 
 ### -param ProcNumber [out]
 
-A pointer to a caller-allocated <a href="..\minitape\ns-minitape-_processor_number.md">PROCESSOR_NUMBER</a> structure into which the routine writes the group number and group-relative processor number of the processor that is identified by <i>ProcIndex</i>. 
+A pointer to a caller-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/ff559913">PROCESSOR_NUMBER</a> structure into which the routine writes the group number and group-relative processor number of the processor that is identified by <i>ProcIndex</i>. 
 
 
 ## -returns
@@ -114,9 +103,9 @@ This routine accepts as input a processor index that identifies the processor ac
 
 For example, if a multiprocessor system contains two groups, and each group contains 64 logical processors, the processor numbers in each group range from 0 to 63, but the systemwide processor indexes range from 0 to 127.
 
-To obtain the total number of active logical processors in the system, call the <a href="..\wdm\nf-wdm-kequeryactiveprocessorcountex.md">KeQueryActiveProcessorCountEx</a> routine.
+To obtain the total number of active logical processors in the system, call the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552993">KeQueryActiveProcessorCountEx</a> routine.
 
-The <a href="..\wdm\nf-wdm-kegetprocessorindexfromnumber.md">KeGetProcessorIndexFromNumber</a> routine converts a group number and a group-relative processor number to a systemwide processor index.
+The <a href="https://msdn.microsoft.com/library/windows/hardware/ff552096">KeGetProcessorIndexFromNumber</a> routine converts a group number and a group-relative processor number to a systemwide processor index.
 
 
 #### Examples
@@ -152,20 +141,19 @@ The constant value ALL_PROCESSOR_GROUPS is defined in Winnt.h and Ntdef.h.
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kegetprocessorindexfromnumber.md">KeGetProcessorIndexFromNumber</a>
 
 
 
-<a href="..\wdm\nf-wdm-kequeryactiveprocessorcountex.md">KeQueryActiveProcessorCountEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552096">KeGetProcessorIndexFromNumber</a>
 
 
 
-<a href="..\minitape\ns-minitape-_processor_number.md">PROCESSOR_NUMBER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552993">KeQueryActiveProcessorCountEx</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559913">PROCESSOR_NUMBER</a>
  
 
  
-
 

@@ -55,17 +55,6 @@ req.product: Windows 10 or later.
 The <b>WDF_READ_PORT_UCHAR</b>  function reads a byte from the specified port address.
 
 
-## -syntax
-
-
-````
-UCHAR WDF_READ_PORT_UCHAR(
-  _In_ WDFDEVICE Device,
-  _In_ PUCHAR    Port
-);
-````
-
-
 ## -parameters
 
 

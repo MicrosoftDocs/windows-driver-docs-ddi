@@ -7,7 +7,7 @@ old-location: audio\ioctl_usbsbaud_set_volume.htm
 old-project: audio
 ms.assetid: 85D53103-2B84-4846-8A6C-6F3F283AE0B6
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/19/2018
 ms.keywords: IOCTL_USBSBAUD_SET_VOLUME, IOCTL_USBSBAUD_SET_VOLUME control code [Audio Devices], audio.ioctl_usbsbaud_set_volume, usbsidebandaudio/IOCTL_USBSBAUD_SET_VOLUME
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -106,7 +106,6 @@ TBD
 
 ## -see-also
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
 
 
 
@@ -114,16 +113,16 @@ TBD
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548651">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548656">WdfIoTargetSendInternalIoctlSynchronously</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548660">WdfIoTargetSendIoctlSynchronously</a>
  
 
  
-
 

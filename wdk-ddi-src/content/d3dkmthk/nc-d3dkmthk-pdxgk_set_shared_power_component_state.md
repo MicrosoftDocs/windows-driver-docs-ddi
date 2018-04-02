@@ -7,7 +7,7 @@ old-location: display\pdxgk_set_shared_power_component_state.htm
 old-project: display
 ms.assetid: 779072A4-A82B-4251-93F5-5B6C7ED0598E
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PDXGK_SET_SHARED_POWER_COMPONENT_STATE, PDXGK_SET_SHARED_POWER_COMPONENT_STATE callback function [Display Devices], d3dkmthk/PDXGK_SET_SHARED_POWER_COMPONENT_STATE, display.pdxgk_set_shared_power_component_state
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,18 +50,6 @@ req.typenames: DXGK_TARGETMODE_DETAIL_TIMING
 
 
 A callback to indicate whether the specified power component is active.
-
-
-## -prototype
-
-
-````
-NTSTATUS PDXGK_SET_SHARED_POWER_COMPONENT_STATE(
-   PVOID GraphicsDeviceHandle,
-   PVOID GraphicsDeviceHandle,
-   ULONG GraphicsDeviceHandle
-);
-````
 
 
 ## -parameters

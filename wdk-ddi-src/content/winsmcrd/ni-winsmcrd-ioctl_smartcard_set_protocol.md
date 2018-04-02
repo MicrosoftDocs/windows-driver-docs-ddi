@@ -124,7 +124,6 @@ For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/win
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/design-guide-smart-card">Smart card design guide</a>
 
 
 
@@ -132,8 +131,8 @@ For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/win
 
 
 
+<a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/design-guide-smart-card">Smart card design guide</a>
  
 
  
-
 

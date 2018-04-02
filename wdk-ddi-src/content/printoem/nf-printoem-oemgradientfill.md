@@ -53,25 +53,6 @@ req.product: Windows 10 or later.
 The <code>OEMGradientFill</code> function shades the specified primitives.
 
 
-## -syntax
-
-
-````
-BOOL APIENTRY OEMGradientFill(
-   SURFOBJ   *psoDest,
-   CLIPOBJ   *pco,
-   XLATEOBJ  *pxlo,
-   TRIVERTEX *pVertex,
-   ULONG     nVertex,
-   PVOID     pMesh,
-   ULONG     nMesh,
-   RECTL     *prclExtents,
-   POINTL    *pptlDitherOrg,
-   ULONG     ulMode
-);
-````
-
-
 ## -parameters
 
 

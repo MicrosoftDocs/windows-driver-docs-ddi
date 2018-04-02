@@ -53,21 +53,6 @@ req.product: Windows 10 or later.
 The <code>RouterCreatePrintAsyncNotificationChannel</code> function creates an asynchronous notification channel that is associated with a printer or print server.
 
 
-## -syntax
-
-
-````
-HRESULT RouterCreatePrintAsyncNotificationChannel(
-  _In_  PCWSTR                            pName,
-  _In_  PrintAsyncNotificationType        *pNotificationType,
-  _In_  PrintAsyncNotifyUserFilter        eNotificationFilter,
-  _In_  PrintAsyncNotifyConversationStyle eConversationStyle,
-  _In_  IPrintAsyncNotifyCallback         *pCallback,
-  _Out_ IPrintAsyncNotifyChannel          **ppIAsyncNotification
-);
-````
-
-
 ## -parameters
 
 

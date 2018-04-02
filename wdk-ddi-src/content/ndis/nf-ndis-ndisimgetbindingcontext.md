@@ -7,7 +7,7 @@ old-location: netvista\ndisimgetbindingcontext.htm
 old-project: netvista
 ms.assetid: fc0668b3-9242-4d30-9dc9-820f6d596d6c
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: NdisIMGetBindingContext, NdisIMGetBindingContext function [Network Drivers Starting with Windows Vista], intermediate_ref_ef5b6cf4-209a-4e51-be20-2e0e7bcc1ac8.xml, ndis/NdisIMGetBindingContext, netvista.ndisimgetbindingcontext
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -56,16 +56,6 @@ The
   protocol driver is bound.
 
 
-## -syntax
-
-
-````
-NDIS_HANDLE NdisIMGetBindingContext(
-  _In_ NDIS_HANDLE NdisBindingHandle
-);
-````
-
-
 ## -parameters
 
 
@@ -74,7 +64,7 @@ NDIS_HANDLE NdisIMGetBindingContext(
 ### -param NdisBindingHandle [in]
 
 The binding handle that the 
-     <a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a> function returned at
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff563715">NdisOpenAdapterEx</a> function returned at
      the 
      <i>NdisBindingHandle</i> parameter that identifies the virtual miniport of the next lower intermediate
      driver to which the caller is bound.
@@ -96,14 +86,14 @@ The binding handle that the
 
 A protocol driver or intermediate driver can call 
     <b>NdisIMGetBindingContext</b> from its 
-    <a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a> function to
+    <a href="https://msdn.microsoft.com/1958722e-012e-4110-a82c-751744bcf9b5">ProtocolBindAdapterEx</a> function to
     access the device context for a virtual miniport to which it is bound. The device context provides a
     common context area for all overlying protocol drivers that are bound to the same underlying intermediate
     driver.
 
 Such a device context area was allocated and defined by the lower level NDIS intermediate driver and
     passed to NDIS in a call to the 
-    <a href="..\ndis\nf-ndis-ndisiminitializedeviceinstanceex.md">
+    <a href="https://msdn.microsoft.com/f65c2974-4bf4-4948-ac07-527e69c96303">
     NdisIMInitializeDeviceInstanceEx</a> function.
 
 All protocol drivers that call 
@@ -116,21 +106,20 @@ All protocol drivers that call
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisiminitializedeviceinstanceex.md">
+<a href="https://msdn.microsoft.com/f65c2974-4bf4-4948-ac07-527e69c96303">
    NdisIMInitializeDeviceInstanceEx</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563715">NdisOpenAdapterEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/1958722e-012e-4110-a82c-751744bcf9b5">ProtocolBindAdapterEx</a>
  
 
  
-
 

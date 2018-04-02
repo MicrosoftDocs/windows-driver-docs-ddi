@@ -7,7 +7,7 @@ old-location: storage\mountmgr_drive_letter_information.htm
 old-project: storage
 ms.assetid: ad8dc740-c297-43e7-beb9-d93019955fd3
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PMOUNTMGR_DRIVE_LETTER_INFORMATION, MOUNTMGR_DRIVE_LETTER_INFORMATION, MOUNTMGR_DRIVE_LETTER_INFORMATION structure [Storage Devices], PMOUNTMGR_DRIVE_LETTER_INFORMATION, PMOUNTMGR_DRIVE_LETTER_INFORMATION structure pointer [Storage Devices], _MOUNTMGR_DRIVE_LETTER_INFORMATION, mountmgr/MOUNTMGR_DRIVE_LETTER_INFORMATION, mountmgr/PMOUNTMGR_DRIVE_LETTER_INFORMATION, storage.mountmgr_drive_letter_information, structs-mntmgr_19ece61a-9dda-466c-a414-047d71beeb2c.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,18 +49,7 @@ req.typenames: MOUNTMGR_DRIVE_LETTER_INFORMATION, *PMOUNTMGR_DRIVE_LETTER_INFORM
 ## -description
 
 
-The MOUNTMGR_DRIVE_LETTER_INFORMATION structure is used by the mount manager to furnish a drive letter to a client that has requested a driver letter by means of an <a href="..\mountmgr\ni-mountmgr-ioctl_mountmgr_next_drive_letter.md">IOCTL_MOUNTMGR_NEXT_DRIVE_LETTER</a> request. 
-
-
-## -syntax
-
-
-````
-typedef struct _MOUNTMGR_DRIVE_LETTER_INFORMATION {
-  BOOLEAN DriveLetterWasAssigned;
-  UCHAR   CurrentDriveLetter;
-} MOUNTMGR_DRIVE_LETTER_INFORMATION, *PMOUNTMGR_DRIVE_LETTER_INFORMATION;
-````
+The MOUNTMGR_DRIVE_LETTER_INFORMATION structure is used by the mount manager to furnish a drive letter to a client that has requested a driver letter by means of an <a href="https://msdn.microsoft.com/library/windows/hardware/ff560473">IOCTL_MOUNTMGR_NEXT_DRIVE_LETTER</a> request. 
 
 
 ## -struct-fields
@@ -89,12 +78,11 @@ For a general discussion of the mount manager and how it communicates with its c
 
 ## -see-also
 
-<a href="..\mountmgr\ni-mountmgr-ioctl_mountmgr_next_drive_letter.md">IOCTL_MOUNTMGR_NEXT_DRIVE_LETTER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560473">IOCTL_MOUNTMGR_NEXT_DRIVE_LETTER</a>
  
 
  
-
 

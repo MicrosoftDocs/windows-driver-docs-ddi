@@ -7,7 +7,7 @@ old-location: kernel\mmgetsystemroutineaddress.htm
 old-project: kernel
 ms.assetid: 87e20abc-eb65-40c0-943e-eb194022a2de
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: MmGetSystemRoutineAddress, MmGetSystemRoutineAddress routine [Kernel-Mode Driver Architecture], k106_4cd56243-e8f4-428a-95f2-4e7a1d2a7396.xml, kernel.mmgetsystemroutineaddress, wdm/MmGetSystemRoutineAddress
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,16 +53,6 @@ req.product: Windows 10 or later.
 The <b>MmGetSystemRoutineAddress</b> routine returns a pointer to a function specified by <i>SystemRoutineName</i>. 
 
 
-## -syntax
-
-
-````
-PVOID MmGetSystemRoutineAddress(
-  _In_ PUNICODE_STRING SystemRoutineName
-);
-````
-
-
 ## -parameters
 
 
@@ -93,12 +83,11 @@ Drivers can use this routine to determine if a routine is available on a specifi
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-ioiswdmversionavailable.md">IoIsWdmVersionAvailable</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549382">IoIsWdmVersionAvailable</a>
  
 
  
-
 

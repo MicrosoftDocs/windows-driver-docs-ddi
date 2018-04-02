@@ -7,7 +7,7 @@ old-location: audio\ksrtaudio_hwlatency.htm
 old-project: audio
 ms.assetid: dd9998d0-46e6-4b12-aa96-1e6eede15f47
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/19/2018
 ms.keywords: "*PKSRTAUDIO_HWLATENCY, KSRTAUDIO_HWLATENCY, KSRTAUDIO_HWLATENCY structure [Audio Devices], PKSRTAUDIO_HWLATENCY, PKSRTAUDIO_HWLATENCY structure pointer [Audio Devices], aud-prop_dd10bf1b-e1b6-4dfd-bb50-1540ef3caed5.xml, audio.ksrtaudio_hwlatency, ksmedia/KSRTAUDIO_HWLATENCY, ksmedia/PKSRTAUDIO_HWLATENCY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,18 +52,6 @@ req.typenames: KSRTAUDIO_HWLATENCY, *PKSRTAUDIO_HWLATENCY
 The KSRTAUDIO_HWLATENCY structure describes the latency that the audio hardware adds to a wave stream during playback or recording.
 
 
-## -syntax
-
-
-````
-typedef struct {
-  ULONG FifoSize;
-  ULONG ChipsetDelay;
-  ULONG CodecDelay;
-} KSRTAUDIO_HWLATENCY, *PKSRTAUDIO_HWLATENCY;
-````
-
-
 ## -struct-fields
 
 
@@ -101,12 +89,11 @@ The <b>CodecDelay</b> member is the delay that the codec adds to an audio stream
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537378">KSPROPERTY_RTAUDIO_HWLATENCY</a>
-
-
-
  
 
  
-
 

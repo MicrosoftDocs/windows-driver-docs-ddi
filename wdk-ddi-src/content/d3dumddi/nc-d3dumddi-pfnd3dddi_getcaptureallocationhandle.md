@@ -7,7 +7,7 @@ old-location: display\getcaptureallocationhandle.htm
 old-project: display
 ms.assetid: fb12a12b-6fb7-46d4-aa71-4c88d34d6ff9
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: GetCaptureAllocationHandle, GetCaptureAllocationHandle callback function [Display Devices], PFND3DDDI_GETCAPTUREALLOCATIONHANDLE, UserModeDisplayDriver_Functions_839ce10f-1df9-4d62-a877-d64215b82370.xml, d3dumddi/GetCaptureAllocationHandle, display.getcaptureallocationhandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,20 +52,6 @@ req.typenames: DXGK_PTE
 The <i>GetCaptureAllocationHandle</i> function maps the given capture resource handle to a kernel-mode allocation handle.
 
 
-## -prototype
-
-
-````
-PFND3DDDI_GETCAPTUREALLOCATIONHANDLE GetCaptureAllocationHandle;
-
-__checkReturn HRESULT APIENTRY GetCaptureAllocationHandle(
-  _In_    HANDLE                               hDevice,
-  _Inout_ D3DDDIARG_GETCAPTUREALLOCATIONHANDLE *pData
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -87,7 +73,7 @@ __checkReturn HRESULT APIENTRY GetCaptureAllocationHandle(
 
 #### - pData [in, out]
 
- A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_getcaptureallocationhandle.md">D3DDDIARG_GETCAPTUREALLOCATIONHANDLE</a> structure that describes parameters for retrieving an allocation handle from a capture resource handle.
+ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543154">D3DDDIARG_GETCAPTUREALLOCATIONHANDLE</a> structure that describes parameters for retrieving an allocation handle from a capture resource handle.
 
 
 ## -returns
@@ -131,16 +117,15 @@ The given resource is in GPU-accessible memory.
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_getcaptureallocationhandle.md">D3DDDIARG_GETCAPTUREALLOCATIONHANDLE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543154">D3DDDIARG_GETCAPTUREALLOCATIONHANDLE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544519">D3DDDI_DEVICEFUNCS</a>
  
 
  
-
 

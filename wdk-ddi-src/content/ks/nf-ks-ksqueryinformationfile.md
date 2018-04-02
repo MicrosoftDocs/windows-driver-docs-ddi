@@ -53,19 +53,6 @@ req.typenames:
 The <b>KsQueryInformationFile</b> function performs an information query against the specified file object. The function attempts to use <b>FastIoDispatch</b> if possible, or it generates an information request against the device object<i>.</i>
 
 
-## -syntax
-
-
-````
-NTSTATUS KsQueryInformationFile(
-  _In_  PFILE_OBJECT           FileObject,
-  _Out_ PVOID                  FileInformation,
-  _In_  ULONG                  Length,
-  _In_  FILE_INFORMATION_CLASS FileInformationClass
-);
-````
-
-
 ## -parameters
 
 

@@ -53,16 +53,6 @@ req.typenames:
 The <b>KsFreeObjectHeader</b> function cleans up and frees a previously allocated object header.
 
 
-## -syntax
-
-
-````
-VOID KsFreeObjectHeader(
-  _In_ KSOBJECT_HEADER Header
-);
-````
-
-
 ## -parameters
 
 
@@ -84,12 +74,11 @@ None
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksallocateobjectheader.md">KsAllocateObjectHeader</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560972">KsAllocateObjectHeader</a>
  
 
  
-
 

@@ -56,16 +56,6 @@ req.product: Windows 10 or later.
 This macro is reserved for internal use only.
 
 
-## -syntax
-
-
-````
-void WDF_TYPE_NAME_POINTER_TYPE(
-    _contexttype
-);
-````
-
-
 ## -parameters
 
 

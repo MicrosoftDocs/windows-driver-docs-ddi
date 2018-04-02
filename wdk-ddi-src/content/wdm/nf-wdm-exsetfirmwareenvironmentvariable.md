@@ -7,7 +7,7 @@ old-location: kernel\exsetfirmwareenvironmentvariable.htm
 old-project: kernel
 ms.assetid: 04447D92-EB9E-400B-A018-E70B186EA3DB
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: ExSetFirmwareEnvironmentVariable, ExSetFirmwareEnvironmentVariable routine [Kernel-Mode Driver Architecture], kernel.exsetfirmwareenvironmentvariable, wdm/ExSetFirmwareEnvironmentVariable
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,20 +53,6 @@ req.product: Windows 10 or later.
 The <b>ExSetFirmwareEnvironmentVariable</b> routine sets the value of the specified system firmware environment variable.
 
 
-## -syntax
-
-
-````
-NTSTATUS ExSetFirmwareEnvironmentVariable(
-  _In_ PUNICODE_STRING VariableName,
-  _In_ LPGUID          VendorGuid,
-  _In_ PVOID           Value,
-  _In_ ULONG           ValueLength,
-  _In_ ULONG           Attributes
-);
-````
-
-
 ## -parameters
 
 
@@ -74,7 +60,7 @@ NTSTATUS ExSetFirmwareEnvironmentVariable(
 
 ### -param VariableName [in]
 
-A pointer to a <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure that contains the name of the specified environment variable.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> structure that contains the name of the specified environment variable.
 
 
 ### -param VendorGuid [in]
@@ -94,7 +80,7 @@ The size, in bytes, of the data value contained in the <i>Value</i> buffer.
 
 ### -param Attributes [in]
 
-The attributes to assign to the specified environment variable. The VARIABLE_ATTRIBUTE_NON_VOLATILE attribute bit must be set or this call will fail. For more information about the attribute bits that are defined for this parameter, see Remarks in <a href="..\wdm\nf-wdm-exgetfirmwareenvironmentvariable.md">ExGetFirmwareEnvironmentVariable</a>.
+The attributes to assign to the specified environment variable. The VARIABLE_ATTRIBUTE_NON_VOLATILE attribute bit must be set or this call will fail. For more information about the attribute bits that are defined for this parameter, see Remarks in <a href="https://msdn.microsoft.com/library/windows/hardware/jj151553">ExGetFirmwareEnvironmentVariable</a>.
 
 
 ## -returns
@@ -164,9 +150,9 @@ The firmware returned an unrecognized error.
 
 The caller requires the system environment privilege (SE_SYSTEM_ENVIRONMENT_PRIVILEGE) to use this routine.
 
-System firmware environment variables contain data values that are passed between the boot firmware environment implemented in the hardware platform and the operating-system loaders and other software that runs in the firmware environment.  For more information, see Remarks in <a href="..\wdm\nf-wdm-exgetfirmwareenvironmentvariable.md">ExGetFirmwareEnvironmentVariable</a>.
+System firmware environment variables contain data values that are passed between the boot firmware environment implemented in the hardware platform and the operating-system loaders and other software that runs in the firmware environment.  For more information, see Remarks in <a href="https://msdn.microsoft.com/library/windows/hardware/jj151553">ExGetFirmwareEnvironmentVariable</a>.
 
-If you create a backup datastore, you can use the  <a href="..\wdm\nf-wdm-exgetfirmwareenvironmentvariable.md">ExGetFirmwareEnvironmentVariable</a> routine to save all the boot settings for the platform. Later, you can use <b>ExSetFirmwareEnvironmentVariable</b> to restore these settings if needed.
+If you create a backup datastore, you can use the  <a href="https://msdn.microsoft.com/library/windows/hardware/jj151553">ExGetFirmwareEnvironmentVariable</a> routine to save all the boot settings for the platform. Later, you can use <b>ExSetFirmwareEnvironmentVariable</b> to restore these settings if needed.
 
 <b>ExSetFirmwareEnvironmentVariable</b> is the kernel-mode equivalent of the Win32 <a href="https://msdn.microsoft.com/42117632-61aa-4f83-abe1-c08f40cf3f0a">SetFirmwareEnvironmentVariable</a> function.
 
@@ -175,11 +161,10 @@ If you create a backup datastore, you can use the  <a href="..\wdm\nf-wdm-exgetf
 
 ## -see-also
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 
 
-<a href="..\wdm\nf-wdm-exgetfirmwareenvironmentvariable.md">ExGetFirmwareEnvironmentVariable</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj151553">ExGetFirmwareEnvironmentVariable</a>
 
 
 
@@ -187,8 +172,8 @@ If you create a backup datastore, you can use the  <a href="..\wdm\nf-wdm-exgetf
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a>
  
 
  
-
 

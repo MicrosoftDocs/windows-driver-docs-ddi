@@ -7,7 +7,7 @@ old-location: kernel\csqreleaselock.htm
 old-project: kernel
 ms.assetid: 484cbb69-0adc-4d31-94c2-930ae747a431
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: CsqReleaseLock, CsqReleaseLock routine [Kernel-Mode Driver Architecture], DrvrRtns_054ce175-3354-4b0e-9578-19bab44d39ca.xml, IO_CSQ_RELEASE_LOCK, kernel.csqreleaselock, wdm/CsqReleaseLock
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,21 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The <i>CsqReleaseLock</i> routine is used by the system to release the lock that was acquired using <a href="..\wdm\nc-wdm-io_csq_acquire_lock.md">CsqAcquireLock</a>.
-
-
-## -prototype
-
-
-````
-IO_CSQ_RELEASE_LOCK CsqReleaseLock;
-
-VOID CsqReleaseLock(
-  _In_ PIO_CSQ Csq,
-  _In_ KIRQL   Irql
-)
-{ ... }
-````
+The <i>CsqReleaseLock</i> routine is used by the system to release the lock that was acquired using <a href="https://msdn.microsoft.com/library/windows/hardware/ff542934">CsqAcquireLock</a>.
 
 
 ## -parameters
@@ -79,7 +65,7 @@ Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff55
 
 ### -param Irql [in]
 
-Specifies an IRQL. This is the value stored by <a href="..\wdm\nc-wdm-io_csq_acquire_lock.md">CsqAcquireLock</a> when the lock was acquired. 
+Specifies an IRQL. This is the value stored by <a href="https://msdn.microsoft.com/library/windows/hardware/ff542934">CsqAcquireLock</a> when the lock was acquired. 
 
 
 ## -returns
@@ -95,9 +81,9 @@ None
 
 
 
-The driver specifies the <i>CsqReleaseLock</i> routine for a cancel-safe IRP queue when it initializes the queue's <b>IO_CSQ</b> structure. The driver specifies the routine as the <i>CsqReleaseLock</i> parameter of <a href="..\wdm\nf-wdm-iocsqinitialize.md">IoCsqInitialize</a> or <a href="..\wdm\nf-wdm-iocsqinitializeex.md">IoCsqInitializeEx</a> when it initializes <b>IO_CSQ</b>. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff540755">Cancel-Safe IRP Queues</a>.
+The driver specifies the <i>CsqReleaseLock</i> routine for a cancel-safe IRP queue when it initializes the queue's <b>IO_CSQ</b> structure. The driver specifies the routine as the <i>CsqReleaseLock</i> parameter of <a href="https://msdn.microsoft.com/library/windows/hardware/ff549054">IoCsqInitialize</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff549060">IoCsqInitializeEx</a> when it initializes <b>IO_CSQ</b>. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff540755">Cancel-Safe IRP Queues</a>.
 
-The system calls this function to release a lock that was acquired using <a href="..\wdm\nc-wdm-io_csq_acquire_lock.md">CsqAcquireLock</a>.
+The system calls this function to release a lock that was acquired using <a href="https://msdn.microsoft.com/library/windows/hardware/ff542934">CsqAcquireLock</a>.
 
 If the driver uses a spin lock to implement locking for the queue, it must store the current IRQL when it acquires the lock, and provide the stored IRQL when it releases the lock. The <i>CsqAcquireLock</i> routine stores the current IRQL, and the system passes the stored value as the <i>Irql</i> parameter to <i>CsqReleaseLock</i>. Otherwise the driver can ignore the <i>Irql</i> parameter. For information about spin locks, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563830">Spin Locks</a>.
 
@@ -148,11 +134,30 @@ The IO_CSQ_RELEASE_LOCK function type is defined in the Wdm.h header file. To mo
 
 ## -see-also
 
-<a href="..\wdm\nc-wdm-io_csq_remove_irp.md">CsqRemoveIrp</a>
 
 
 
-<a href="..\wdm\nc-wdm-io_csq_insert_irp.md">CsqInsertIrp</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542934">CsqAcquireLock</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542940">CsqCompleteCanceledIrp</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542947">CsqInsertIrp</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542956">CsqInsertIrpEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542959">CsqPeekNextIrp</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542968">CsqRemoveIrp</a>
 
 
 
@@ -160,48 +165,28 @@ The IO_CSQ_RELEASE_LOCK function type is defined in the Wdm.h header file. To mo
 
 
 
-<a href="..\wdm\nf-wdm-iocsqremovenextirp.md">IoCsqRemoveNextIrp</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549054">IoCsqInitialize</a>
 
 
 
-<a href="..\wdm\nf-wdm-iocsqinsertirpex.md">IoCsqInsertIrpEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549060">IoCsqInitializeEx</a>
 
 
 
-<a href="..\wdm\nc-wdm-io_csq_peek_next_irp.md">CsqPeekNextIrp</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549066">IoCsqInsertIrp</a>
 
 
 
-<a href="..\wdm\nf-wdm-iocsqinitializeex.md">IoCsqInitializeEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549067">IoCsqInsertIrpEx</a>
 
 
 
-<a href="..\wdm\nf-wdm-iocsqinitialize.md">IoCsqInitialize</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549070">IoCsqRemoveIrp</a>
 
 
 
-<a href="..\wdm\nf-wdm-iocsqremoveirp.md">IoCsqRemoveIrp</a>
-
-
-
-<a href="..\wdm\nc-wdm-io_csq_complete_canceled_irp.md">CsqCompleteCanceledIrp</a>
-
-
-
-<a href="..\wdm\nc-wdm-io_csq_acquire_lock.md">CsqAcquireLock</a>
-
-
-
-<a href="..\wdm\nf-wdm-iocsqinsertirp.md">IoCsqInsertIrp</a>
-
-
-
-<a href="..\wdm\nc-wdm-io_csq_insert_irp_ex.md">CsqInsertIrpEx</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549072">IoCsqRemoveNextIrp</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: display\videoportsetevent.htm
 old-project: display
 ms.assetid: 93db9d51-3f80-47ff-a2c2-3c937b5dcf7b
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: VideoPortSetEvent, VideoPortSetEvent function [Display Devices], VideoPort_Functions_8efce2e2-f5e7-402a-a5bf-03c23ac85992.xml, display.videoportsetevent, video/VideoPortSetEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 The <b>VideoPortSetEvent</b> function sets an event object to the signaled state if it was not already in that state, and returns the event object's previous state.
 
 
-## -syntax
-
-
-````
-LONG VideoPortSetEvent(
-  _In_ PVOID  HwDeviceExtension,
-  _In_ PEVENT pEvent
-);
-````
-
-
 ## -parameters
 
 
@@ -90,12 +79,11 @@ Pointer to the event object whose state is to be set.
 
 ## -see-also
 
-<a href="..\video\nf-video-videoportclearevent.md">VideoPortClearEvent</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570284">VideoPortClearEvent</a>
  
 
  
-
 

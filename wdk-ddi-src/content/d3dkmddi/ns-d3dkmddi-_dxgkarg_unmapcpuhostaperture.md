@@ -7,7 +7,7 @@ old-location: display\dxgkarg_unmapcpuhostaperture.htm
 old-project: display
 ms.assetid: 22482590-B0F7-4F35-95D5-9B352810047D
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKARG_UNMAPCPUHOSTAPERTURE, DXGKARG_UNMAPCPUHOSTAPERTURE structure [Display Devices], _DXGKARG_UNMAPCPUHOSTAPERTURE, d3dkmddi/DXGKARG_UNMAPCPUHOSTAPERTURE, display.dxgkarg_unmapcpuhostaperture
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,19 +52,6 @@ req.typenames: DXGKARG_UNMAPCPUHOSTAPERTURE
 The <b>DXGKARG_UNMAPCPUHOSTAPERTURE</b> structure is used to unmap a previously mapped range of the CPU host aperture.
 
 
-## -syntax
-
-
-````
-typedef struct _DXGKARG_UNMAPCPUHOSTAPERTURE {
-  UINT64  NumberOfPages;
-  UINT32* pCpuHostAperturePages;
-  WORD    SegmentId;
-  WORD    PhysicalAdapterIndex;
-} DXGKARG_UNMAPCPUHOSTAPERTURE;
-````
-
-
 ## -struct-fields
 
 
@@ -94,12 +81,11 @@ The zero-based physical adapter index in a linked display adapter link.
 
 ## -see-also
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_unmapcpuhostaperture.md">DxgkDdiUnmapCpuHostAperture</a>
 
 
 
+<a href="https://msdn.microsoft.com/AFE6B92F-49DB-47F9-90BC-F75B5F37178D">DxgkDdiUnmapCpuHostAperture</a>
  
 
  
-
 

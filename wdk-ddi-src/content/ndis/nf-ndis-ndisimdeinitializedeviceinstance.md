@@ -7,7 +7,7 @@ old-location: netvista\ndisimdeinitializedeviceinstance.htm
 old-project: netvista
 ms.assetid: badfab43-ba58-4711-a181-af87dcfeba4d
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: NdisIMDeInitializeDeviceInstance, NdisIMDeInitializeDeviceInstance function [Network Drivers Starting with Windows Vista], intermediate_ref_6e10d8e6-4dd7-4d92-9c22-949dabac84f9.xml, ndis/NdisIMDeInitializeDeviceInstance, netvista.ndisimdeinitializedeviceinstance
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,18 +52,8 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 
 The 
   <b>NdisIMDeInitializeDeviceInstance</b> function calls an NDIS intermediate driver's 
-  <a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a> function to tear down the
+  <a href="https://msdn.microsoft.com/b8d452b4-bef3-4991-87cf-fac15bedfde4">MiniportHaltEx</a> function to tear down the
   driver's virtual miniport.
-
-
-## -syntax
-
-
-````
-NDIS_STATUS NdisIMDeInitializeDeviceInstance(
-  _In_ NDIS_HANDLE NdisMiniportHandle
-);
-````
 
 
 ## -parameters
@@ -74,7 +64,7 @@ NDIS_STATUS NdisIMDeInitializeDeviceInstance(
 ### -param NdisMiniportHandle [in]
 
 The handle that NDIS supplied to the 
-     <a href="..\ndis\nc-ndis-miniport_initialize.md">
+     <a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">
      MiniportInitializeEx</a> function.
 
 
@@ -95,16 +85,16 @@ The handle that NDIS supplied to the
 
 For NDIS intermediate drivers, 
     <b>NdisIMDeInitializeDeviceInstance</b> is the reciprocal of the 
-    <a href="..\ndis\nf-ndis-ndisiminitializedeviceinstanceex.md">
+    <a href="https://msdn.microsoft.com/f65c2974-4bf4-4948-ac07-527e69c96303">
     NdisIMInitializeDeviceInstanceEx</a> function. Such a driver usually calls 
     <b>NdisIMDeInitializeDeviceInstance</b> from its 
-    <a href="..\ndis\nc-ndis-protocol_unbind_adapter_ex.md">
+    <a href="https://msdn.microsoft.com/19fa7be2-acb9-42f6-bd9f-5be3e3c8b5fa">
     ProtocolUnbindAdapterEx</a> function, when the underlying miniport adapter to which it was bound is
     being removed from the system, possibly because it is being reconfigured.
 
 The call to 
     <b>NdisIMDeInitializeDeviceInstance</b> causes an NDIS call to the intermediate driver's 
-    <a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a> function after NDIS has
+    <a href="https://msdn.microsoft.com/b8d452b4-bef3-4991-87cf-fac15bedfde4">MiniportHaltEx</a> function after NDIS has
     told all higher level protocol drivers that had bound themselves to the intermediate's virtual miniport
     that they must unbind.
 
@@ -113,21 +103,20 @@ The call to
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-protocol_unbind_adapter_ex.md">ProtocolUnbindAdapterEx</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisiminitializedeviceinstanceex.md">
+<a href="https://msdn.microsoft.com/b8d452b4-bef3-4991-87cf-fac15bedfde4">MiniportHaltEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/f65c2974-4bf4-4948-ac07-527e69c96303">
    NdisIMInitializeDeviceInstanceEx</a>
 
 
 
-<a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
-
-
-
+<a href="https://msdn.microsoft.com/19fa7be2-acb9-42f6-bd9f-5be3e3c8b5fa">ProtocolUnbindAdapterEx</a>
  
 
  
-
 

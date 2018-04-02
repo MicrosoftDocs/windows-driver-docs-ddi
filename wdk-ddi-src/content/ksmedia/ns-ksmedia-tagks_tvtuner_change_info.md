@@ -52,19 +52,6 @@ req.typenames: KS_TVTUNER_CHANGE_INFO, *PKS_TVTUNER_CHANGE_INFO
 The KS_TVTUNER_CHANGE_INFO structure provides vertical blanking interval (VBI) codecs with information about the currently tuned channel.
 
 
-## -syntax
-
-
-````
-typedef struct tagKS_TVTUNER_CHANGE_INFO {
-  DWORD dwFlags;
-  DWORD dwCountryCode;
-  DWORD dwAnalogVideoStandard;
-  DWORD dwChannel;
-} KS_TVTUNER_CHANGE_INFO, *PKS_TVTUNER_CHANGE_INFO;
-````
-
-
 ## -struct-fields
 
 
@@ -110,7 +97,7 @@ Specifies the country code in use. This corresponds to the International Telecom
 
 ### -field dwAnalogVideoStandard
 
-Specifies the current analog video standard. This member should be set to a value from the <a href="..\ksmedia\ne-ksmedia-ks_analogvideostandard.md">KS_AnalogVideoStandard</a> enumeration.
+Specifies the current analog video standard. This member should be set to a value from the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567297">KS_AnalogVideoStandard</a> enumeration.
 
 
 ### -field dwChannel
@@ -129,12 +116,11 @@ A packet containing a KS_TVTUNER_CHANGE_INFO structure normally originates at a 
 
 ## -see-also
 
-<a href="..\ksmedia\ne-ksmedia-ks_analogvideostandard.md">KS_AnalogVideoStandard</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567297">KS_AnalogVideoStandard</a>
  
 
  
-
 

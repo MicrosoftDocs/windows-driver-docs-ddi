@@ -7,7 +7,7 @@ old-location: storage\sendlirr_out.htm
 old-project: storage
 ms.assetid: 842842c2-ed79-4c8a-b9c1-d73c47998f91
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PSendLIRR_OUT, PSendLIRR_OUT, PSendLIRR_OUT structure pointer [Storage Devices], SendLIRR_OUT, SendLIRR_OUT structure [Storage Devices], _SendLIRR_OUT, hbapiwmi/PSendLIRR_OUT, hbapiwmi/SendLIRR_OUT, storage.sendlirr_out, structs-Fibre_193ae454-313d-4ada-a161-39c403226edf.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,19 +52,6 @@ req.typenames: SendLIRR_OUT, *PSendLIRR_OUT
 The SendLIRR_OUT structure is used to report the output parameter data of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565419">SendLIRR</a> WMI method to the WMI client.
 
 
-## -syntax
-
-
-````
-typedef struct _SendLIRR_OUT {
-  ULONG HBAStatus;
-  ULONG TotalRspBufferSize;
-  ULONG ActualRspBufferSize;
-  UCHAR RspBuffer[1];
-} SendLIRR_OUT, *PSendLIRR_OUT;
-````
-
-
 ## -struct-fields
 
 
@@ -101,12 +88,11 @@ The WMI tool suite generates a declaration of the SendLIRR_OUT structure in <i>H
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565419">SendLIRR</a>
-
-
-
  
 
  
-
 

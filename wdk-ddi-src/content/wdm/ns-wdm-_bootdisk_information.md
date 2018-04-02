@@ -7,7 +7,7 @@ old-location: kernel\bootdisk_information.htm
 old-project: kernel
 ms.assetid: dd2a525d-fb9d-4fea-b9d7-64b1f498550c
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: "*PBOOTDISK_INFORMATION, BOOTDISK_INFORMATION, BOOTDISK_INFORMATION structure [Kernel-Mode Driver Architecture], PBOOTDISK_INFORMATION, PBOOTDISK_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _BOOTDISK_INFORMATION, kernel.bootdisk_information, kstruct_a_61cd1024-0bb4-4601-a458-4bf52a2339d5.xml, wdm/BOOTDISK_INFORMATION, wdm/PBOOTDISK_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,19 +53,6 @@ req.product: Windows 10 or later.
 The <b>BOOTDISK_INFORMATION</b> structure contains basic information describing the boot and system disks.
 
 
-## -syntax
-
-
-````
-typedef struct _BOOTDISK_INFORMATION {
-  LONGLONG BootPartitionOffset;
-  LONGLONG SystemPartitionOffset;
-  ULONG    BootDeviceSignature;
-  ULONG    SystemDeviceSignature;
-} BOOTDISK_INFORMATION, *PBOOTDISK_INFORMATION;
-````
-
-
 ## -struct-fields
 
 
@@ -96,23 +83,22 @@ If the system disk is formatted with an MBR partition table, this specifies the 
 
 
 
-<a href="..\wdm\nf-wdm-iogetbootdiskinformation.md">IoGetBootDiskInformation</a> returns this structure to describe the boot and system disks.
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549153">IoGetBootDiskInformation</a> returns this structure to describe the boot and system disks.
 
 
 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iogetbootdiskinformation.md">IoGetBootDiskInformation</a>
 
 
 
-<a href="..\wdm\ns-wdm-_bootdisk_information_ex.md">BOOTDISK_INFORMATION_EX</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540653">BOOTDISK_INFORMATION_EX</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549153">IoGetBootDiskInformation</a>
  
 
  
-
 

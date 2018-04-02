@@ -53,20 +53,7 @@ req.typenames: HID_XFER_PACKET, *PHID_XFER_PACKET
 Fills a device description
     block with collection description and the corresponding 
     report ID information for the specified report descriptor. 
-    A HID minidriver generally does not need to call this function. Instead, it returns the report descriptor to Hidclass driver in response to <a href="..\hidport\ni-hidport-ioctl_hid_get_report_descriptor.md">IOCTL_HID_GET_REPORT_DESCRIPTOR</a>.
-
-
-## -syntax
-
-
-````
-BOOLEAN __stdcall HidP_GetCollectionDescription(
-  _In_  PHIDP_REPORT_DESCRIPTOR ReportDesc,
-  _In_  ULONG                   DescLength,
-  _In_  POOL_TYPE               PoolType,
-  _Out_ PHIDP_DEVICE_DESC       DeviceDescription
-);
-````
+    A HID minidriver generally does not need to call this function. Instead, it returns the report descriptor to Hidclass driver in response to <a href="https://msdn.microsoft.com/library/windows/hardware/ff541147">IOCTL_HID_GET_REPORT_DESCRIPTOR</a>.
 
 
 ## -parameters
@@ -86,13 +73,13 @@ The length of the report descriptor array.
 
 ### -param PoolType [in]
 
-A <a href="..\wudfwdm\ne-wudfwdm-_pool_type.md">POOL_TYPE</a>-value that indicates the pool type from which memory for the linked list is allocated. This includes each <a href="..\hidpddi\ns-hidpddi-_hidp_collection_desc.md">HIDP_COLLECTION_DESC</a> array element of <a href="..\hidpddi\ns-hidpddi-_hidp_device_desc.md">HIDP_DEVICE_DESC</a>, each <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff539679">HIDP_PREPARSED_DATA</a> in each <b>HIDP_COLLECTION_DESC</b>, each <a href="..\hidpddi\ns-hidpddi-_hidp_report_ids.md">HIDP_REPORT_IDS</a> array element of <b>HIDP_DEVICE_DESC</b>.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff559707">POOL_TYPE</a>-value that indicates the pool type from which memory for the linked list is allocated. This includes each <a href="https://msdn.microsoft.com/library/windows/hardware/mt740161">HIDP_COLLECTION_DESC</a> array element of <a href="https://msdn.microsoft.com/library/windows/hardware/mt740162">HIDP_DEVICE_DESC</a>, each <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff539679">HIDP_PREPARSED_DATA</a> in each <b>HIDP_COLLECTION_DESC</b>, each <a href="https://msdn.microsoft.com/library/windows/hardware/mt740165">HIDP_REPORT_IDS</a> array element of <b>HIDP_DEVICE_DESC</b>.
 
 
 ### -param DeviceDescription [out]
 
-A pointer to a <a href="..\hidpddi\ns-hidpddi-_hidp_device_desc.md">HIDP_DEVICE_DESC</a> structure that is populated with device description block filled in
-                         collection descriptors as linked lists. This is a caller-allocated structure. However, its <a href="..\hidpddi\ns-hidpddi-_hidp_collection_desc.md">HIDP_COLLECTION_DESC</a> array elements and <a href="..\hidpddi\ns-hidpddi-_hidp_report_ids.md">HIDP_REPORT_IDS</a> array elements are allocated by this function.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/mt740162">HIDP_DEVICE_DESC</a> structure that is populated with device description block filled in
+                         collection descriptors as linked lists. This is a caller-allocated structure. However, its <a href="https://msdn.microsoft.com/library/windows/hardware/mt740161">HIDP_COLLECTION_DESC</a> array elements and <a href="https://msdn.microsoft.com/library/windows/hardware/mt740165">HIDP_REPORT_IDS</a> array elements are allocated by this function.
 
 
 ## -returns
@@ -141,7 +128,7 @@ Failed to find top-level collections
 <td width="60%">
 An error was detected in the report 
                                       descriptor. See the error code in
-                                      <b>Dbg</b> field of the <a href="..\hidpddi\ns-hidpddi-_hidp_device_desc.md">HIDP_DEVICE_DESC</a> structure.
+                                      <b>Dbg</b> field of the <a href="https://msdn.microsoft.com/library/windows/hardware/mt740162">HIDP_DEVICE_DESC</a> structure.
 
 </td>
 </tr>

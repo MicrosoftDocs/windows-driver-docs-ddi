@@ -7,7 +7,7 @@ old-location: netvista\net_buffer_list_header.htm
 old-project: netvista
 ms.assetid: 49169618-c42d-4bae-b1df-1426059d60d7
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*PNET_BUFFER_LIST_HEADER, NET_BUFFER_LIST_HEADER, NET_BUFFER_LIST_HEADER union [Network Drivers Starting with Windows Vista], PNET_BUFFER_LIST_HEADER, PNET_BUFFER_LIST_HEADER union pointer [Network Drivers Starting with Windows Vista], _NET_BUFFER_LIST_HEADER, ndis/NET_BUFFER_LIST_HEADER, ndis/PNET_BUFFER_LIST_HEADER, ndis_netbuf_structures_ref_d7b08d29-e8af-4a7d-84bc-03c1885ee7e9.xml, netvista.net_buffer_list_header"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,18 +50,7 @@ req.typenames: NET_BUFFER_LIST_HEADER, *PNET_BUFFER_LIST_HEADER
 
 
 The NET_BUFFER_LIST_HEADER defines header information for the 
-  <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure.
-
-
-## -syntax
-
-
-````
-typedef union _NET_BUFFER_LIST_HEADER {
-  NET_BUFFER_LIST_DATA NetBufferListData;
-  SLIST_HEADER         Link;
-} NET_BUFFER_LIST_HEADER, *PNET_BUFFER_LIST_HEADER;
-````
+  <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structure.
 
 
 ## -struct-fields
@@ -72,7 +61,7 @@ typedef union _NET_BUFFER_LIST_HEADER {
 ### -field NetBufferListData
 
 A 
-     <a href="..\ndis\ns-ndis-_net_buffer_list_data.md">NET_BUFFER_LIST_DATA</a> structure.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568393">NET_BUFFER_LIST_DATA</a> structure.
 
 
 ### -field Link
@@ -91,16 +80,15 @@ NDIS maintains the information in the NET_BUFFER_LIST_HEADER union.
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
 
 
-<a href="..\ndis\ns-ndis-_net_buffer_list_data.md">NET_BUFFER_LIST_DATA</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568393">NET_BUFFER_LIST_DATA</a>
  
 
  
-
 

@@ -52,16 +52,6 @@ req.typenames:
 The<b> KsGateTerminateOr</b> function deletes an existing OR gate and removes an input from any attached AND gate.
 
 
-## -syntax
-
-
-````
-void __inline KsGateTerminateOr(
-  _In_ PKSGATE OrGate
-);
-````
-
-
 ## -parameters
 
 
@@ -69,7 +59,7 @@ void __inline KsGateTerminateOr(
 
 ### -param OrGate [in]
 
-A pointer to a <a href="..\ks\ns-ks-_ksgate.md">KSGATE</a> structure that is the OR gate to delete. This gate must be at the beginning of a gate chain.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff562566">KSGATE</a> structure that is the OR gate to delete. This gate must be at the beginning of a gate chain.
 
 
 ## -returns
@@ -92,20 +82,19 @@ Logical gates should be deleted in a front to back manner. <b>KsGateTerminateOr<
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksgateterminateand.md">KsGateTerminateAnd</a>
 
 
 
-<a href="..\ks\nf-ks-ksgateinitializeor.md">KsGateInitializeOr</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562574">KsGateInitializeAnd</a>
 
 
 
-<a href="..\ks\nf-ks-ksgateinitializeand.md">KsGateInitializeAnd</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562576">KsGateInitializeOr</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562586">KsGateTerminateAnd</a>
  
 
  
-
 

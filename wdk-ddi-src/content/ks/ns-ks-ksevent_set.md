@@ -52,18 +52,6 @@ req.typenames: KSEVENT_SET, *PKSEVENT_SET
 The KSEVENT_SET structure describes the events that comprise a kernel streaming event set.
 
 
-## -syntax
-
-
-````
-typedef struct {
-  const GUID         *Set;
-  ULONG              EventsCount;
-  const KSEVENT_ITEM *EventItem;
-} KSEVENT_SET, *PKSEVENT_SET;
-````
-
-
 ## -struct-fields
 
 
@@ -81,7 +69,7 @@ Specifies the number of events in the event set.
 
 ### -field EventItem
 
-Points to the beginning of the array of <a href="..\ks\ns-ks-ksevent_item.md">KSEVENT_ITEM</a> structures that describe each event in the event set. The size of the array is in the <b>EventsCount</b> member.
+Points to the beginning of the array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff561862">KSEVENT_ITEM</a> structures that describe each event in the event set. The size of the array is in the <b>EventsCount</b> member.
 
 
 ## -remarks
@@ -95,12 +83,11 @@ Microsoft provides several system-defined kernel streaming event set GUIDs. Mini
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ksevent_item.md">KSEVENT_ITEM</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561862">KSEVENT_ITEM</a>
  
 
  
-
 

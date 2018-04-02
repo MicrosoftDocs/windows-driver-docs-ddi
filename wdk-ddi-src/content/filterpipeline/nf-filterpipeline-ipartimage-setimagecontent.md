@@ -52,16 +52,6 @@ req.typenames: EXpsFontRestriction
 The <b>SetImageContent</b> method sets an image property that is based on the content type.
 
 
-## -syntax
-
-
-````
-HRESULT SetImageContent(
-  [in] const wchar_t *contentType
-);
-````
-
-
 ## -parameters
 
 

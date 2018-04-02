@@ -56,27 +56,16 @@ Gets the namespace URI  value of the "name" attribute of this node.
 This property is read-only.
 
 
-## -syntax
-
-
-````
-HRESULT get_NamespaceUri(
-  [out, retval] BSTR *pbstrNamespaceUri
-);
-````
-
-
 ## -parameters
 
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprintschemaelement.md">IPrintSchemaElement</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451270">IPrintSchemaElement</a>
  
 
  
-
 

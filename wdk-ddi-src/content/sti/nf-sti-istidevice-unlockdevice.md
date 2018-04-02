@@ -53,14 +53,6 @@ req.product: Windows 10 or later.
 The <b>IStiDevice::UnLockDevice</b> method unlocks a device that was locked by a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff543756">IStiDevice::LockDevice</a>.
 
 
-## -syntax
-
-
-````
-HRESULT UnLockDevice();
-````
-
-
 ## -parameters
 
 

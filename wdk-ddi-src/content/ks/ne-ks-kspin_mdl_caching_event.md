@@ -52,19 +52,6 @@ req.typenames: KSPIN_MDL_CACHING_EVENT
 This enumeration is used internally by the operating system.
 
 
-## -syntax
-
-
-````
-typedef enum  { 
-  KSPIN_MDL_CACHING_NOTIFY_CLEANUP,
-  KSPIN_MDL_CACHING_NOTIFY_CLEANALL_WAIT,
-  KSPIN_MDL_CACHING_NOTIFY_CLEANALL_NOWAIT,
-  KSPIN_MDL_CACHING_NOTIFY_ADDSAMPLE
-} KSPIN_MDL_CACHING_EVENT;
-````
-
-
 ## -enum-fields
 
 

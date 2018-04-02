@@ -7,7 +7,7 @@ old-location: display\iddcx_frame_statistics_flags.htm
 old-project: display
 ms.assetid: 85ae47d8-228c-4fff-9be0-bf56868b9319
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: IDDCX_FRAME_STATISTICS_FLAGS, IDDCX_FRAME_STATISTICS_FLAGS enumeration [Display Devices], IDDCX_FRAME_STATISTICS_FLAGS_NONE, IDDCX_FRAME_STATISTICS_FLAGS_REDUCED_COLOR_FIDELITY, display.iddcx_frame_statistics_flags, iddcx/IDDCX_FRAME_STATISTICS_FLAGS, iddcx/IDDCX_FRAME_STATISTICS_FLAGS_NONE, iddcx/IDDCX_FRAME_STATISTICS_FLAGS_REDUCED_COLOR_FIDELITY
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,17 +52,6 @@ req.typenames:
 
                     
                 Indicates whether a frame was altered by the driver.
-
-
-## -syntax
-
-
-````
-typedef enum _IDDCX_FRAME_STATISTICS_FLAGS { 
-  IDDCX_FRAME_STATISTICS_FLAGS_NONE                    = 0,
-  IDDCX_FRAME_STATISTICS_FLAGS_REDUCED_COLOR_FIDELITY  = 1
-} IDDCX_FRAME_STATISTICS_FLAGS;
-````
 
 
 ## -enum-fields

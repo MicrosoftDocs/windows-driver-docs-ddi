@@ -59,7 +59,7 @@ The <b>IOCTL_SERIAL_SET_QUEUE_SIZE</b> request sets the size of the internal rec
 
 ### -input-buffer
 
-The <b>AssociatedIrp.SystemBuffer</b> member points to a client-allocated <a href="..\ntddser\ns-ntddser-_serial_queue_size.md">SERIAL_QUEUE_SIZE</a> structure that is used to input a receive buffer size.
+The <b>AssociatedIrp.SystemBuffer</b> member points to a client-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/jj673021">SERIAL_QUEUE_SIZE</a> structure that is used to input a receive buffer size.
 
 
 ### -input-buffer-length
@@ -104,12 +104,11 @@ The <b>Status</b> member is set to one of the <a href="https://docs.microsoft.co
 
 ## -see-also
 
-<a href="..\ntddser\ns-ntddser-_serial_queue_size.md">SERIAL_QUEUE_SIZE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj673021">SERIAL_QUEUE_SIZE</a>
  
 
  
-
 

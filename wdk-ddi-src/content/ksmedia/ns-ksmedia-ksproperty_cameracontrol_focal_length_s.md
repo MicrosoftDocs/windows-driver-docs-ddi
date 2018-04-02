@@ -52,19 +52,6 @@ req.typenames: KSPROPERTY_CAMERACONTROL_FOCAL_LENGTH_S, *PKSPROPERTY_CAMERACONTR
 The KSPROPERTY_CAMERACONTROL_FOCAL_LENGTH_S structure returns filter-specific data requested using the <a href="https://msdn.microsoft.com/library/windows/hardware/ff564406">KSPROPERTY_CAMERACONTROL_FOCAL_LENGTH</a> property.
 
 
-## -syntax
-
-
-````
-typedef struct {
-  KSPROPERTY Property;
-  LONG       lOcularFocalLength;
-  LONG       lObjectiveFocalLengthMin;
-  LONG       lObjectiveFocalLengthMax;
-} KSPROPERTY_CAMERACONTROL_FOCAL_LENGTH_S, *PKSPROPERTY_CAMERACONTROL_FOCAL_LENGTH_S;
-````
-
-
 ## -struct-fields
 
 
@@ -101,11 +88,10 @@ If the camera has only one lens, these values can be used to represent zoom rati
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
-
-
-
-<a href="..\ksmedia\ns-ksmedia-ksproperty_cameracontrol_node_focal_length_s.md">KSPROPERTY_CAMERACONTROL_NODE_FOCAL_LENGTH_S</a>
 
 
 
@@ -113,12 +99,12 @@ If the camera has only one lens, these values can be used to represent zoom rati
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564418">KSPROPERTY_CAMERACONTROL_NODE_FOCAL_LENGTH_S</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567802">PROPSETID_VIDCAP_CAMERACONTROL</a>
-
-
-
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: ifsk\getsecurityuserinfo.htm
 old-project: ifsk
 ms.assetid: 2f26ff14-dd2c-4e80-aea5-38a7dd16d904
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: GetSecurityUserInfo, GetSecurityUserInfo function [Installable File System Drivers], IFSMiscRef_e375e4a8-9702-41b8-b848-0dcbc0a7d9bd.xml, ifsk.getsecurityuserinfo, ntifs/GetSecurityUserInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,18 +51,6 @@ req.typenames: TOKEN_TYPE
 
 
 The <b>GetSecurityUserInfo</b> function retrieves information about a logon <a href="http://go.microsoft.com/fwlink/p/?linkid=121237">session</a>.
-
-
-## -syntax
-
-
-````
-NTSTATUS GetSecurityUserInfo(
-  _In_opt_ PLUID             LogonId,
-  _In_     ULONG             Flags,
-  _Out_    PSecurityUserData *UserInformation
-);
-````
 
 
 ## -parameters
@@ -135,7 +123,6 @@ This function obtains information about a logon <a href="http://go.microsoft.com
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-mapsecurityerror.md">MapSecurityError</a>
 
 
 
@@ -143,8 +130,8 @@ This function obtains information about a logon <a href="http://go.microsoft.com
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549736">MapSecurityError</a>
  
 
  
-
 

@@ -55,17 +55,6 @@ req.product: Windows 10 or later.
 The <b>UnmapIoSpace</b> method unmaps a specified range of physical addresses previously mapped by <a href="https://msdn.microsoft.com/library/windows/hardware/hh451225">MapIoSpace</a> method.
 
 
-## -syntax
-
-
-````
-VOID UnmapIoSpace(
-  [in] PVOID  *PseudoBaseAddress,
-  [in] SIZE_T NumberOfBytes
-);
-````
-
-
 ## -parameters
 
 
@@ -109,12 +98,11 @@ See example code in <a href="https://msdn.microsoft.com/243C7299-7C74-408A-8FB9-
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfdevice3.md">IWDFDevice3</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451197">IWDFDevice3</a>
  
 
  
-
 

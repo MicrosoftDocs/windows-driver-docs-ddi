@@ -7,7 +7,7 @@ old-location: storage\cdrom_exception_performance_descriptor.htm
 old-project: storage
 ms.assetid: 054C8E89-D0A6-46D1-A5AA-2BE73931BB7A
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PCDROM_EXCEPTION_PERFORMANCE_DESCRIPTOR, CDROM_EXCEPTION_PERFORMANCE_DESCRIPTOR, CDROM_EXCEPTION_PERFORMANCE_DESCRIPTOR structure [Storage Devices], PCDROM_EXCEPTION_PERFORMANCE_DESCRIPTOR, PCDROM_EXCEPTION_PERFORMANCE_DESCRIPTOR structure pointer [Storage Devices], _CDROM_EXCEPTION_PERFORMANCE_DESCRIPTOR, ntddcdrm/CDROM_EXCEPTION_PERFORMANCE_DESCRIPTOR, ntddcdrm/PCDROM_EXCEPTION_PERFORMANCE_DESCRIPTOR, storage.cdrom_exception_performance_descriptor"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,19 +49,8 @@ req.typenames: CDROM_EXCEPTION_PERFORMANCE_DESCRIPTOR, *PCDROM_EXCEPTION_PERFORM
 ## -description
 
 
-The <b>CDROM_EXCEPTION_PERFORMANCE_DESCRIPTOR</b> structure indicates that the result data from the <a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_get_performance.md">IOCTL_CDROM_GET_PERFORMANCE</a> I/O control request is for exception conditions. Exception conditions are exception locations that could cause seek delays to occur. The <b>CDROM_EXCEPTION_PERFORMANCE_DESCRIPTOR</b> is returned by the <b>IOCTL_CDROM_GET_PERFORMANCE</b> I/O control request when the request type is <b>CdromPerformanceRequest</b> and the <b>Except</b> field of the <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_performance_header.md">CDROM_PERFORMANCE_HEADER</a> is true (1).   Separate descriptors are returned for read and write performance requests. The fields in  <b>CDROM_EXCEPTION_PERFORMANCE_DESCRIPTOR</b> correspond to the similarly named fields in the Performance Descriptor - Exceptions  table described in the MultiMedia Command Set - 6 (MMC-6)
+The <b>CDROM_EXCEPTION_PERFORMANCE_DESCRIPTOR</b> structure indicates that the result data from the <a href="https://msdn.microsoft.com/library/windows/hardware/gg441242">IOCTL_CDROM_GET_PERFORMANCE</a> I/O control request is for exception conditions. Exception conditions are exception locations that could cause seek delays to occur. The <b>CDROM_EXCEPTION_PERFORMANCE_DESCRIPTOR</b> is returned by the <b>IOCTL_CDROM_GET_PERFORMANCE</b> I/O control request when the request type is <b>CdromPerformanceRequest</b> and the <b>Except</b> field of the <a href="https://msdn.microsoft.com/library/windows/hardware/gg441232">CDROM_PERFORMANCE_HEADER</a> is true (1).   Separate descriptors are returned for read and write performance requests. The fields in  <b>CDROM_EXCEPTION_PERFORMANCE_DESCRIPTOR</b> correspond to the similarly named fields in the Performance Descriptor - Exceptions  table described in the MultiMedia Command Set - 6 (MMC-6)
 specification.
-
-
-## -syntax
-
-
-````
-typedef struct _CDROM_EXCEPTION_PERFORMANCE_DESCRIPTOR {
-  UCHAR LBA[4];
-  UCHAR Time[2];
-} CDROM_EXCEPTION_PERFORMANCE_DESCRIPTOR, *PCDROM_EXCEPTION_PERFORMANCE_DESCRIPTOR;
-````
 
 
 ## -struct-fields
@@ -88,16 +77,15 @@ The LBA field  indicates that there is a seek delay between the logical block ad
 
 ## -see-also
 
-<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_performance_header.md">CDROM_PERFORMANCE_HEADER</a>
 
 
 
-<a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_get_performance.md">IOCTL_CDROM_GET_PERFORMANCE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/gg441232">CDROM_PERFORMANCE_HEADER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/gg441242">IOCTL_CDROM_GET_PERFORMANCE</a>
  
 
  
-
 

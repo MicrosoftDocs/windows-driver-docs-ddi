@@ -7,7 +7,7 @@ old-location: display\d3dkmt_unlock2.htm
 old-project: display
 ms.assetid: 8651297B-BCF7-42A2-9175-D9D072E052D6
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMT_UNLOCK2, D3DKMT_UNLOCK2 structure [Display Devices], _D3DKMT_UNLOCK2, d3dkmthk/D3DKMT_UNLOCK2, display.d3dkmt_unlock2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,17 +50,6 @@ req.typenames: D3DKMT_UNLOCK2
 
 
 <b>D3DKMT_UNLOCK2</b> describes an allocation to unlock.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DKMT_UNLOCK2 {
-  D3DKMT_HANDLE hDevice;
-  D3DKMT_HANDLE hAllocation;
-} D3DKMT_UNLOCK2;
-````
 
 
 ## -struct-fields

@@ -7,7 +7,7 @@ old-location: storage\ioctl_ehstor_device_silo_command.htm
 old-project: storage
 ms.assetid: 3258FA16-E1FE-4CBF-8C87-0C7A8B2A7EBF
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_EHSTOR_DEVICE_SILO_COMMAND, IOCTL_EHSTOR_DEVICE_SILO_COMMAND control code [Storage Devices], ehstorioctl/IOCTL_EHSTOR_DEVICE_SILO_COMMAND, storage.ioctl_ehstor_device_silo_command
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -59,12 +59,12 @@ This IOCTL issues a silo command to the targeted silo on the device. Both input 
 
 ### -input-buffer
 
-The input buffer at Irp-&gt;AssociatedIrp.SystemBuffer must contain a structure of type <a href="..\ehstorioctl\ns-ehstorioctl-tagsilo_command.md">SILO_COMMAND</a>.
+The input buffer at Irp-&gt;AssociatedIrp.SystemBuffer must contain a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff566201">SILO_COMMAND</a>.
 
 
 ### -input-buffer-length
 
-The length of a <a href="..\ehstorioctl\ns-ehstorioctl-tagsilo_command.md">SILO_COMMAND</a> structure.
+The length of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff566201">SILO_COMMAND</a> structure.
 
 
 ### -output-buffer

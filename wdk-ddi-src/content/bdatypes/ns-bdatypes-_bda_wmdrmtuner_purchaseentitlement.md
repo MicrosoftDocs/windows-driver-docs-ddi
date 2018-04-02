@@ -52,19 +52,6 @@ req.typenames: BDA_WMDRMTUNER_PURCHASEENTITLEMENT, *PBDA_WMDRMTUNER_PURCHASEENTI
 
 
 
-## -syntax
-
-
-````
-typedef struct _BDA_WMDRMTUNER_PURCHASEENTITLEMENT {
-  PBDARESULT lResult;
-  ULONG      ulDescrambleStatus;
-  ULONG      ulCaptureTokenLength;
-  BYTE       argbCaptureTokenBuffer[MIN_DIMENSION];
-} BDA_WMDRMTUNER_PURCHASEENTITLEMENT, *PBDA_WMDRMTUNER_PURCHASEENTITLEMENT;
-````
-
-
 ## -struct-fields
 
 

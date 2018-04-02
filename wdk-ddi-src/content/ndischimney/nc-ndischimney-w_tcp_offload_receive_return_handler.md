@@ -7,7 +7,7 @@ old-location: netvista\miniporttcpoffloadreceivereturn.htm
 old-project: netvista
 ms.assetid: b746f58d-d029-4fcd-a59d-baba037fc38e
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: MiniportTcpOffloadReceiveReturn, MiniportTcpOffloadReceiveReturn callback function [Network Drivers Starting with Windows Vista], W_TCP_OFFLOAD_RECEIVE_RETURN_HANDLER, ndischimney/MiniportTcpOffloadReceiveReturn, netvista.miniporttcpoffloadreceivereturn, tcp_chim_miniport_func_c6477511-6f31-4a37-9b28-d157e1fa09af.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,22 +53,8 @@ req.typenames: PD_BUFFER_VIRTUAL_SUBNET_INFO
 
 NDIS calls the 
   <i>MiniportTcpOffloadReceiveReturn</i> function to return ownership of 
-  <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> and associated structures to
+  <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> and associated structures to
   an offload target.
-
-
-## -prototype
-
-
-````
-W_TCP_OFFLOAD_RECEIVE_RETURN_HANDLER MiniportTcpOffloadReceiveReturn;
-
-NDIS_STATUS MiniportTcpOffloadReceiveReturn(
-  _In_ NDIS_HANDLE      MiniportAdapterContext,
-  _In_ PNET_BUFFER_LIST NetBufferList
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -81,19 +67,19 @@ NDIS_STATUS MiniportTcpOffloadReceiveReturn(
 The handle to an offload-target allocated context area in which the offload target maintains state
      information about this instance of the adapter. The miniport driver provided this handle to NDIS when it
      called 
-     <a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">
+     <a href="https://msdn.microsoft.com/861626af-23ea-40dc-a91a-7da42d4b0a1c">
      NdisMSetMiniportAttributes</a> from its 
-     <a href="..\ndis\nc-ndis-miniport_initialize.md">
+     <a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">
      MiniportInitializeEx</a> function.
 
 
 ### -param NetBufferList [in]
 
 A pointer to a 
-     <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure. This structure
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structure. This structure
      can be a stand-alone structure or the first structure in a linked list of NET_BUFFER_LIST structures.
      The linked list can contain NET_BUFFER_LIST structures from one or more calls to the 
-     <a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_receive_indicate.md">
+     <a href="https://msdn.microsoft.com/a45dede9-6559-4207-a49f-d9627054433a">
      NdisTcpOffloadReceiveHandler</a> function.
 
 
@@ -115,7 +101,7 @@ The
 NDIS calls the 
     <i>MiniportTcpOffloadReceiveReturn</i> function to return ownership of NET_BUFFER_LIST structures and
     associated structures that the offload target passed in one or more previous calls to the 
-    <a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_receive_indicate.md">
+    <a href="https://msdn.microsoft.com/a45dede9-6559-4207-a49f-d9627054433a">
     NdisTcpOffloadReceiveHandler</a> function.
 
 The 
@@ -123,7 +109,7 @@ The
     in a subsequent receive indication. Although the 
     <i>MiniportTcpOffloadReceiveReturn</i> function can return the NET_BUFFER_LIST structures to a pool (for
     example, it could call the 
-    <a href="..\ndis\nf-ndis-ndisfreenetbufferlist.md">NdisFreeNetBufferList</a> function), it
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff562583">NdisFreeNetBufferList</a> function), it
     can be more efficient to reuse the structures without returning them to the pool.
 
 Note that the offload target driver should not unload and the offload target adapter must not be
@@ -134,32 +120,31 @@ Note that the offload target driver should not unload and the offload target ada
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisfreenetbufferlist.md">NdisFreeNetBufferList</a>
+<a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a>
 
 
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a>
 
 
 
-<a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_receive_indicate.md">NdisTcpOffloadReceiveHandler</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a>
 
 
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562583">NdisFreeNetBufferList</a>
 
 
 
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563672">NdisMSetMiniportAttributes</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564606">NdisTcpOffloadReceiveHandler</a>
  
 
  
-
 

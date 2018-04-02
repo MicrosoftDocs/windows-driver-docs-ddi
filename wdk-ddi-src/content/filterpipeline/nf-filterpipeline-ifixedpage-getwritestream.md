@@ -52,16 +52,6 @@ req.typenames: EXpsFontRestriction
 The <b>GetWriteStream</b> method retrieves the stream object to write page markup to  read . You can use this stream to change page markup.
 
 
-## -syntax
-
-
-````
-HRESULT GetWriteStream(
-  [out] IPrintWriteStream **ppWriteStream
-);
-````
-
-
 ## -parameters
 
 

@@ -7,7 +7,7 @@ old-location: storage\storportquerysystemtime.htm
 old-project: storage
 ms.assetid: 20677d16-136c-47d7-a19b-21731433298e
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: StorPortQuerySystemTime, StorPortQuerySystemTime routine [Storage Devices], storage.storportquerysystemtime, storport/StorPortQuerySystemTime, storprt_fcad0e23-f796-4cd9-935c-6db56a63d899.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -54,16 +54,6 @@ req.product: Windows 10 or later.
 The <b>StoriPortQuerySystemTime</b> routine obtains the current system time.
 
 
-## -syntax
-
-
-````
-STORPORT_API VOID StorPortQuerySystemTime(
-  _Out_ PLARGE_INTEGER CurrentTime
-);
-````
-
-
 ## -parameters
 
 
@@ -94,12 +84,11 @@ The system time returned in <i>CurrentTime</i> is the number of 100-nanosecond i
 
 ## -see-also
 
-<a href="..\srb\nf-srb-scsiportquerysystemtime.md">ScsiPortQuerySystemTime</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564708">ScsiPortQuerySystemTime</a>
  
 
  
-
 

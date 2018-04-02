@@ -53,25 +53,6 @@ req.product: Windows 10 or later.
 
 
 
-## -syntax
-
-
-````
-HRESULT EnablePDEV(
-   PDEVOBJ       pdevobj,
-   PWSTR         pPrinterName,
-   ULONG         cPatterns,
-   HSURF         *phsurfPatterns,
-   ULONG         cjGdiInfo,
-   GDIINFO       *pGdiInfo,
-   ULONG         cjDevInfo,
-   DEVINFO       *pDevInfo,
-   DRVENABLEDATA *pded,
-   PDEVOEM       *pDevOem
-);
-````
-
-
 ## -parameters
 
 
@@ -118,12 +99,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="..\prcomoem\nn-prcomoem-iprintoemengine.md">IPrintOemEngine</a>
 
 
 
+<a href="https://msdn.microsoft.com/DE86FA8C-2E27-4B39-B52D-6227AF56F399">IPrintOemEngine</a>
  
 
  
-
 

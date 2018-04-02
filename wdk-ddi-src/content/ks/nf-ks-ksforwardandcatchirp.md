@@ -55,19 +55,6 @@ The <b>KsForwardAndCatchIrp</b> function forwards an IRP to the specified driver
 If a file object is being used, the caller must initialize the current stack location with that file object before calling the <b>KsForwardAndCatchIrp</b> function. The function verifies that there is a new stack location to copy into before attempting to do so. If there is not a new stack location, the function returns STATUS_INVALID_DEVICE_REQUEST. Regardless of whether a new stack location is present, the IRP is not completed.
 
 
-## -syntax
-
-
-````
-NTSTATUS KsForwardAndCatchIrp(
-  _In_ PDEVICE_OBJECT DeviceObject ,
-  _In_ PIRP           Irp ,
-  _In_ PFILE_OBJECT   FileObject ,
-  _In_ KSSTACK_USE    StackUse 
-);
-````
-
-
 ## -parameters
 
 

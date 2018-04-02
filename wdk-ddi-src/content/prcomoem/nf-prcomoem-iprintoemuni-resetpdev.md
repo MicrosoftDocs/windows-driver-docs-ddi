@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 The <code>IPrintOemUni::ResetPDEV</code> method allows a rendering plug-in for Unidrv to reset its PDEV structure.
 
 
-## -syntax
-
-
-````
-STDMETHOD ResetPDEV(
-   PDEVOBJ pdevobjOld,
-   PDEVOBJ pdevobjNew
-);
-````
-
-
 ## -parameters
 
 
@@ -71,7 +60,7 @@ STDMETHOD ResetPDEV(
 
 ### -param pdevobjOld
 
-Caller-supplied pointer to a <a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a> structure containing current PDEV information.
+Caller-supplied pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff547573">DEVOBJ</a> structure containing current PDEV information.
 
 
 ### -param pdevobjNew
@@ -135,7 +124,6 @@ The rendering plug-in's private PDEV structure's address is contained in the <b>
 
 ## -see-also
 
-<a href="..\prcomoem\nn-prcomoem-iprintoemuni.md">IPrintOemUni</a>
 
 
 
@@ -143,8 +131,8 @@ The rendering plug-in's private PDEV structure's address is contained in the <b>
 
 
 
+<a href="https://msdn.microsoft.com/097366a0-2ded-435c-9b63-2b736b716032">IPrintOemUni</a>
  
 
  
-
 

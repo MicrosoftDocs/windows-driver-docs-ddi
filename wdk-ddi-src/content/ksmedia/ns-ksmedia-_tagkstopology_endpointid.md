@@ -7,7 +7,7 @@ old-location: audio\kstopology_endpointid.htm
 old-project: audio
 ms.assetid: A84BE3D6-7D2A-4123-979B-F6E1CA8C8B23
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/19/2018
 ms.keywords: "*PKSTOPOLOGY_ENDPOINTID, KSTOPOLOGY_ENDPOINTID, KSTOPOLOGY_ENDPOINTID structure [Audio Devices], PKSTOPOLOGY_ENDPOINTID, PKSTOPOLOGY_ENDPOINTID structure pointer [Audio Devices], _tagKSTOPOLOGY_ENDPOINTID, audio.kstopology_endpointid, ksmedia/KSTOPOLOGY_ENDPOINTID, ksmedia/PKSTOPOLOGY_ENDPOINTID"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,17 +52,6 @@ req.typenames: KSTOPOLOGY_ENDPOINTID, *PKSTOPOLOGY_ENDPOINTID
 The <b>KSTOPOLOGY_ENDPOINTID</b> structure specifies the name and the pin ID of a topology endpoint.
 
 
-## -syntax
-
-
-````
-typedef struct _tagKSTOPOLOGY_ENDPOINTID {
-  WCHAR TopologyName[MAX_PATH];
-  ULONG PinId;
-} KSTOPOLOGY_ENDPOINTID, *PKSTOPOLOGY_ENDPOINTID;
-````
-
-
 ## -struct-fields
 
 
@@ -80,12 +69,11 @@ The pin ID of the topology endpoint.
 
 ## -see-also
 
-<a href="..\ksmedia\ns-ksmedia-_tagkstopology_endpointidpair.md">KSTOPOLOGY_ENDPOINTIDPAIR</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt169887">KSTOPOLOGY_ENDPOINTIDPAIR</a>
  
 
  
-
 

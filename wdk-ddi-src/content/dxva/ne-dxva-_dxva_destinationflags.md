@@ -7,7 +7,7 @@ old-location: display\dxva_destinationflags.htm
 old-project: display
 ms.assetid: 842c6ece-5304-428c-afbe-2990d239f38a
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXVA_DestinationFlagMask, DXVA_DestinationFlag_Alpha_Changed, DXVA_DestinationFlag_Background_Changed, DXVA_DestinationFlag_ColorData_Changed, DXVA_DestinationFlag_TargetRect_Changed, DXVA_DestinationFlags, DXVA_DestinationFlags enumeration [Display Devices], _DXVA_DestinationFlags, display.dxva_destinationflags, dxva/DXVA_DestinationFlagMask, dxva/DXVA_DestinationFlag_Alpha_Changed, dxva/DXVA_DestinationFlag_Background_Changed, dxva/DXVA_DestinationFlag_ColorData_Changed, dxva/DXVA_DestinationFlag_TargetRect_Changed, dxva/DXVA_DestinationFlags, dxvaref_f18a38b4-531e-4c7c-bd77-e4c0d581f86d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,20 +52,6 @@ req.typenames: DXVA_DestinationFlags
 The DXVA_DestinationFlags enumeration type contains a collection of flags that identify changes in the current destination surface from the previous destination surface.
 
 
-## -syntax
-
-
-````
-typedef enum _DXVA_DestinationFlags { 
-  DXVA_DestinationFlagMask                 = DXVABit(3)|DXVABit(2)|DXVABit(1)|DXVABit(0),
-  DXVA_DestinationFlag_Background_Changed  = 0x0001,
-  DXVA_DestinationFlag_TargetRect_Changed  = 0x0002,
-  DXVA_DestinationFlag_ColorData_Changed   = 0x0004,
-  DXVA_DestinationFlag_Alpha_Changed       = 0x0008
-} DXVA_DestinationFlags;
-````
-
-
 ## -enum-fields
 
 
@@ -99,16 +85,15 @@ Indicates that the planar alpha value for the destination surface changed.
 
 ## -see-also
 
-<a href="..\dxva\ns-dxva-_dxva_deinterlacebltex.md">DXVA_DeinterlaceBltEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563915">DXVA_DeinterlaceBltEx</a>
 
 
 
 <a href="https://msdn.microsoft.com/12a0e467-54f8-4cca-8ec0-aa8d04480ab6">DeinterlaceBltEx</a>
-
-
-
  
 
  
-
 

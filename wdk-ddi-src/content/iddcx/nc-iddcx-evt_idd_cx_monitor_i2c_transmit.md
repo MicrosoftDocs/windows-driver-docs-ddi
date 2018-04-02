@@ -7,7 +7,7 @@ old-location: display\evt_idd_cx_monitor_i2c_transmit.htm
 old-project: display
 ms.assetid: d36d45f5-fae1-430a-a01e-adb70e09573c
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: EVT_IDD_CX_MONITOR_I2C_TRANSMIT, EvtIddCxMonitorI2cTransmit, EvtIddCxMonitorI2cTransmit callback function [Display Devices], PFN_IDD_CX_MONITOR_I2C_TRANSMIT, PFN_IDD_CX_MONITOR_I2C_TRANSMIT callback function pointer [Display Devices], display.evt_idd_cx_monitor_i2c_transmit, iddcx/EvtIddCxMonitorI2cTransmit
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,22 +50,6 @@ req.typenames: WCS_PROFILE_MANAGEMENT_SCOPE
 
 
 <b>EVT_IDD_CX_MONITOR_I2C_TRANSMIT</b> is called by the OS to return data received to an I2C device in a monitor.
-
-
-## -prototype
-
-
-````
-EVT_IDD_CX_MONITOR_I2C_TRANSMIT EvtIddCxMonitorI2cTransmit;
-
-NTSTATUS EvtIddCxMonitorI2cTransmit(
-  _In_       IDDCX_MONITOR          MonitorObject,
-  _In_ const IDARG_IN_I2C_TRANSMIT* pInArgs
-)
-{ ... }
-
-typedef EVT_IDD_CX_MONITOR_I2C_TRANSMIT PFN_IDD_CX_MONITOR_I2C_TRANSMIT;
-````
 
 
 ## -parameters

@@ -52,22 +52,6 @@ req.typenames: WHEA_XPF_MCE_DESCRIPTOR, *PWHEA_XPF_MCE_DESCRIPTOR
 The WHEA_XPF_MCE_DESCRIPTOR structure describes a machine check exception (MCE) error source for an x86 or x64 processor.
 
 
-## -syntax
-
-
-````
-typedef struct _WHEA_XPF_MCE_DESCRIPTOR {
-  USHORT                      Type;
-  UCHAR                       Enabled;
-  UCHAR                       NumberOfBanks;
-  XPF_MCE_FLAGS               Flags;
-  ULONGLONG                   MCG_Capability;
-  ULONGLONG                   MCG_GlobalControl;
-  WHEA_XPF_MC_BANK_DESCRIPTOR Banks[WHEA_MAX_MC_BANKS];
-} WHEA_XPF_MCE_DESCRIPTOR, *PWHEA_XPF_MCE_DESCRIPTOR;
-````
-
-
 ## -struct-fields
 
 
@@ -85,7 +69,7 @@ A Boolean value that indicates if the error source is enabled.
 
 ### -field NumberOfBanks
 
-The number of <a href="..\ntddk\ns-ntddk-_whea_xpf_mc_bank_descriptor.md">WHEA_XPF_MC_BANK_DESCRIPTOR</a> structures contained in the <b>Banks</b> member.
+The number of <a href="https://msdn.microsoft.com/library/windows/hardware/ff560651">WHEA_XPF_MC_BANK_DESCRIPTOR</a> structures contained in the <b>Banks</b> member.
 
 
 ### -field Flags
@@ -148,30 +132,29 @@ The contents of the processor's IA32_MCG_CTL model-specific register. This regis
 
 ### -field Banks
 
-An array of <a href="..\ntddk\ns-ntddk-_whea_xpf_mc_bank_descriptor.md">WHEA_XPF_MC_BANK_DESCRIPTOR</a> structures that describe the banks of machine check registers.
+An array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff560651">WHEA_XPF_MC_BANK_DESCRIPTOR</a> structures that describe the banks of machine check registers.
 
 
 ## -remarks
 
 
 
-A WHEA_XPF_MCE_DESCRIPTOR structure is contained within the <a href="..\ntddk\ns-ntddk-_whea_error_source_descriptor.md">WHEA_ERROR_SOURCE_DESCRIPTOR</a> structure.
+A WHEA_XPF_MCE_DESCRIPTOR structure is contained within the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560505">WHEA_ERROR_SOURCE_DESCRIPTOR</a> structure.
 
 
 
 
 ## -see-also
 
-<a href="..\ntddk\ns-ntddk-_whea_xpf_mc_bank_descriptor.md">WHEA_XPF_MC_BANK_DESCRIPTOR</a>
 
 
 
-<a href="..\ntddk\ns-ntddk-_whea_error_source_descriptor.md">WHEA_ERROR_SOURCE_DESCRIPTOR</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560505">WHEA_ERROR_SOURCE_DESCRIPTOR</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560651">WHEA_XPF_MC_BANK_DESCRIPTOR</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: display\calcprivatedeferredcontextsize.htm
 old-project: display
 ms.assetid: 282898b1-45e1-4d85-9ab7-fd400623bdc5
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: CalcPrivateDeferredContextSize, CalcPrivateDeferredContextSize callback function [Display Devices], PFND3D11DDI_CALCPRIVATEDEFERREDCONTEXTSIZE, UserModeDisplayDriverDx11_Functions_577f34a4-1f2e-4666-8bce-00dc6e52c2e6.xml, d3d10umddi/CalcPrivateDeferredContextSize, display.calcprivatedeferredcontextsize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,26 +52,12 @@ req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 The <b>CalcPrivateDeferredContextSize</b> function determines the size of the user-mode display driver's private region of memory (that is, the size of internal driver structures, not the size of the resource video memory) for a deferred context.
 
 
-## -prototype
-
-
-````
-PFND3D11DDI_CALCPRIVATEDEFERREDCONTEXTSIZE CalcPrivateDeferredContextSize;
-
-SIZE_T APIENTRY CalcPrivateDeferredContextSize(
-  _In_       D3D10DDI_HDEVICE                           hDevice,
-  _In_ const D3D11DDIARG_CALCPRIVATEDEFERREDCONTEXTSIZE *pCalcPrivateDeferredContextSize
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
 
 
-### -param D3D10DDI_HDEVICE
+### -param Arg1
 
 
 ### -param *
@@ -90,7 +76,7 @@ SIZE_T APIENTRY CalcPrivateDeferredContextSize(
 
 #### - pCalcPrivateDeferredContextSize [in]
 
- A pointer to a <a href="..\d3d10umddi\ns-d3d10umddi-d3d11ddiarg_calcprivatedeferredcontextsize.md">D3D11DDIARG_CALCPRIVATEDEFERREDCONTEXTSIZE</a> structure that describes the parameters that the user-mode display driver uses to calculate the size of the memory region. 
+ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff542035">D3D11DDIARG_CALCPRIVATEDEFERREDCONTEXTSIZE</a> structure that describes the parameters that the user-mode display driver uses to calculate the size of the memory region. 
 
 
 ## -returns
@@ -106,31 +92,30 @@ SIZE_T APIENTRY CalcPrivateDeferredContextSize(
 
 
 
-The driver is only required to implement <b>CalcPrivateDeferredContextSize</b> if the driver supports the D3D11DDICAPS_COMMANDLISTS_BUILD_2 capability that can be returned in the <a href="..\d3d10umddi\ns-d3d10umddi-d3d11ddi_threading_caps.md">D3D11DDI_THREADING_CAPS</a> structure from a call to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10_2ddi_getcaps.md">GetCaps(D3D10_2)</a> function.
+The driver is only required to implement <b>CalcPrivateDeferredContextSize</b> if the driver supports the D3D11DDICAPS_COMMANDLISTS_BUILD_2 capability that can be returned in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff542163">D3D11DDI_THREADING_CAPS</a> structure from a call to the <a href="https://msdn.microsoft.com/83cd5f34-5f12-4ead-ad33-366fc3c6e804">GetCaps(D3D10_2)</a> function.
 
 
 
 
 ## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d11ddiarg_calcprivatedeferredcontextsize.md">D3D11DDIARG_CALCPRIVATEDEFERREDCONTEXTSIZE</a>
 
 
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d11ddi_devicefuncs.md">D3D11DDI_DEVICEFUNCS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542035">D3D11DDIARG_CALCPRIVATEDEFERREDCONTEXTSIZE</a>
 
 
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10_2ddi_getcaps.md">GetCaps(D3D10_2)</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542141">D3D11DDI_DEVICEFUNCS</a>
 
 
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d11ddi_threading_caps.md">D3D11DDI_THREADING_CAPS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542163">D3D11DDI_THREADING_CAPS</a>
 
 
 
+<a href="https://msdn.microsoft.com/83cd5f34-5f12-4ead-ad33-366fc3c6e804">GetCaps(D3D10_2)</a>
  
 
  
-
 

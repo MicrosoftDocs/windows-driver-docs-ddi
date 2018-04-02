@@ -7,7 +7,7 @@ old-location: display\dxgk_buildpagingbuffer_copy_range.htm
 old-project: display
 ms.assetid: BA35F50C-7399-41DC-A10B-2F5E4BB24B49
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGK_BUILDPAGINGBUFFER_COPY_RANGE, DXGK_BUILDPAGINGBUFFER_COPY_RANGE structure [Display Devices], _DXGK_BUILDPAGINGBUFFER_COPY_RANGE, d3dkmddi/DXGK_BUILDPAGINGBUFFER_COPY_RANGE, display.dxgk_buildpagingbuffer_copy_range
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,20 +52,6 @@ req.typenames: DXGK_BUILDPAGINGBUFFER_COPY_RANGE
 <b>DXGK_BUILDPAGINGBUFFER_COPY_RANGE</b> is used as part of a page table entry copy operation.
 
 
-## -syntax
-
-
-````
-typedef struct _DXGK_BUILDPAGINGBUFFER_COPY_RANGE {
-  UINT                   NumPageTableEntries;
-  D3DGPU_VIRTUAL_ADDRESS SrcPageTableAddress;
-  D3DGPU_VIRTUAL_ADDRESS DstPageTableAddress;
-  UINT                   SrcStartPteIndex;
-  UINT                   DstStartPteIndex;
-} DXGK_BUILDPAGINGBUFFER_COPY_RANGE;
-````
-
-
 ## -struct-fields
 
 
@@ -98,16 +84,15 @@ The index of the first page table entry in the destination page table for the ra
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_buildpagingbuffer.md">DXGKARG_BUILDPAGINGBUFFER</a>
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_buildpagingbuffer_copypagetableentries.md">DXGK_BUILDPAGINGBUFFER_COPYPAGETABLEENTRIES</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557540">DXGKARG_BUILDPAGINGBUFFER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn894164">DXGK_BUILDPAGINGBUFFER_COPYPAGETABLEENTRIES</a>
  
 
  
-
 

@@ -52,16 +52,6 @@ req.typenames: EXpsFontRestriction
 The <code>Reset</code> method sets the iterator to the first element.
 
 
-## -syntax
-
-
-````
-void STDMETHODCALLTYPE Reset(
-    None
-);
-````
-
-
 ## -parameters
 
 

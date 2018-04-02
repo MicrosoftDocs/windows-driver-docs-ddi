@@ -52,21 +52,6 @@ req.typenames: CMP_GET_PLUG_STATE, *PCMP_GET_PLUG_STATE
 This structure is used in getting the state of a plug.The  request retrieves state information for the specified plug, including its current connections and bus data format. Plug state is volatile and can change unexpectedly. 
 
 
-## -syntax
-
-
-````
-typedef struct _CMP_GET_PLUG_STATE {
-  HANDLE hPlug;
-  ULONG  State;
-  ULONG  DataRate;
-  ULONG  Payload;
-  ULONG  BC_Connections;
-  ULONG  PP_Connections;
-} CMP_GET_PLUG_STATE, *PCMP_GET_PLUG_STATE;
-````
-
-
 ## -struct-fields
 
 
@@ -129,12 +114,11 @@ If an incorrect parameter is passed in, the protocol driver sets <b>Irp-&gt;IoSt
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537008">AV_61883_REQUEST</a>
-
-
-
  
 
  
-
 

@@ -113,7 +113,7 @@ The client (application or peripheral device driver) sends this IOCTL to configu
 
 This IOCTL is supported by versions 1 and 2 of the serial framework extension (SerCx and SerCx2). Serial.sys, which manages the named serial ports (COM1, COM2, and so on) on a PC, does not support this IOCTL.
 
-If a serial port does not support this IOCTL, the client must explicitly specify the connection settings for the port. That is, the client must send an <a href="..\ntddser\ni-ntddser-ioctl_serial_set_baud_rate.md">IOCTL_SERIAL_SET_BAUD_RATE</a> request to set the baud rate, send an <a href="..\ntddser\ni-ntddser-ioctl_serial_set_timeouts.md">IOCTL_SERIAL_SET_TIMEOUTS</a> request to set the time-out intervals, and so on.
+If a serial port does not support this IOCTL, the client must explicitly specify the connection settings for the port. That is, the client must send an <a href="https://msdn.microsoft.com/library/windows/hardware/ff546672">IOCTL_SERIAL_SET_BAUD_RATE</a> request to set the baud rate, send an <a href="https://msdn.microsoft.com/library/windows/hardware/ff544126">IOCTL_SERIAL_SET_TIMEOUTS</a> request to set the time-out intervals, and so on.
 
 Immediately after a client opens a serial port, the client should assume that the port is configured in an unknown, uninitialized state rather than in some known, default state.
 
@@ -122,16 +122,15 @@ Immediately after a client opens a serial port, the client should assume that th
 
 ## -see-also
 
-<a href="..\ntddser\ni-ntddser-ioctl_serial_set_baud_rate.md">IOCTL_SERIAL_SET_BAUD_RATE</a>
 
 
 
-<a href="..\ntddser\ni-ntddser-ioctl_serial_set_timeouts.md">IOCTL_SERIAL_SET_TIMEOUTS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546672">IOCTL_SERIAL_SET_BAUD_RATE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544126">IOCTL_SERIAL_SET_TIMEOUTS</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: kernel\pocalldriver.htm
 old-project: kernel
 ms.assetid: e5ce7786-717a-4e0f-bc57-342655a59ca1
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: PoCallDriver, PoCallDriver routine [Kernel-Mode Driver Architecture], kernel.pocalldriver, portn_2045d7d3-993d-49e6-aaf5-52d3c1316382.xml, wdm/PoCallDriver
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,18 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The <b>PoCallDriver</b> routine passes a power <a href="..\wdm\ns-wdm-_irp.md">IRP</a> to the next-lower driver in the device stack. (Windows Server 2003, Windows XP, and Windows 2000 only.)
-
-
-## -syntax
-
-
-````
-NTSTATUS PoCallDriver(
-  _In_    PDEVICE_OBJECT DeviceObject,
-  _Inout_ PIRP           Irp
-);
-````
+The <b>PoCallDriver</b> routine passes a power <a href="https://msdn.microsoft.com/library/windows/hardware/ff550694">IRP</a> to the next-lower driver in the device stack. (Windows Server 2003, Windows XP, and Windows 2000 only.)
 
 
 ## -parameters
@@ -71,7 +60,7 @@ NTSTATUS PoCallDriver(
 
 ### -param DeviceObject [in]
 
-A pointer to the driver-created <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a> to which the IRP is to be routed.
+A pointer to the driver-created <a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a> to which the IRP is to be routed.
 
 
 ### -param Irp [in, out]
@@ -92,11 +81,11 @@ A pointer to an IRP.
 
 
 
-Beginning with Windows Vista, drivers should call <a href="..\wdm\nf-wdm-iocalldriver.md">IoCallDriver</a>, not <b>PoCallDriver</b> to pass a power IRP to the next-lower driver. However, on Windows Server 2003, Windows XP, and Windows 2000, drivers must call <b>PoCallDriver</b>, not <b>IoCallDriver</b>  to pass a power IRP to the next-lower driver. On Windows Server 2003, Windows XP, an Windows 2000, drivers must also call <a href="..\wdm\nf-wdm-postartnextpowerirp.md">PoStartNextPowerIrp</a> before calling <b>PoCallDriver</b>.
+Beginning with Windows Vista, drivers should call <a href="https://msdn.microsoft.com/library/windows/hardware/ff548336">IoCallDriver</a>, not <b>PoCallDriver</b> to pass a power IRP to the next-lower driver. However, on Windows Server 2003, Windows XP, and Windows 2000, drivers must call <b>PoCallDriver</b>, not <b>IoCallDriver</b>  to pass a power IRP to the next-lower driver. On Windows Server 2003, Windows XP, an Windows 2000, drivers must also call <a href="https://msdn.microsoft.com/library/windows/hardware/ff559776">PoStartNextPowerIrp</a> before calling <b>PoCallDriver</b>.
 
-A driver that requires a new IRP should call <a href="..\wdm\nf-wdm-porequestpowerirp.md">PoRequestPowerIrp</a>. A driver must not allocate its own power IRP.
+A driver that requires a new IRP should call <a href="https://msdn.microsoft.com/library/windows/hardware/ff559734">PoRequestPowerIrp</a>. A driver must not allocate its own power IRP.
 
-When passing a power IRP down to the next-lower driver, the caller should use <a href="https://msdn.microsoft.com/library/windows/hardware/ff550355">IoSkipCurrentIrpStackLocation</a> or <a href="..\wdm\nf-wdm-iocopycurrentirpstacklocationtonext.md">IoCopyCurrentIrpStackLocationToNext</a> to set the IRP stack location, then call <b>PoCallDriver</b>. Use <b>IoCopyCurrentIrpStackLocationToNext</b> if processing the IRP requires setting an <a href="..\wdm\nc-wdm-io_completion_routine.md">IoCompletion</a> routine, or <b>IoSkipCurrentStackLocation</b> if no <i>IoCompletion</i> routine is required.
+When passing a power IRP down to the next-lower driver, the caller should use <a href="https://msdn.microsoft.com/library/windows/hardware/ff550355">IoSkipCurrentIrpStackLocation</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff548387">IoCopyCurrentIrpStackLocationToNext</a> to set the IRP stack location, then call <b>PoCallDriver</b>. Use <b>IoCopyCurrentIrpStackLocationToNext</b> if processing the IRP requires setting an <a href="https://msdn.microsoft.com/library/windows/hardware/ff548354">IoCompletion</a> routine, or <b>IoSkipCurrentStackLocation</b> if no <i>IoCompletion</i> routine is required.
 
 When a device is powering up, its drivers must set <i>IoCompletion</i> routines to perform start-up tasks (initializing the device, restoring context, and so on) after the bus driver has set the device in the working state. Set <i>IoCompletion</i> routines before calling <b>PoCallDriver</b>.
 
@@ -115,35 +104,10 @@ On Windows 98/Me, all drivers call <b>PoCallDriver</b> at IRQL = PASSIVE_LEVEL.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551744">IRP_MN_SET_POWER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550355">IoSkipCurrentIrpStackLocation</a>
-
-
-
-<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
-
-
-
-<a href="..\wdm\nf-wdm-porequestpowerirp.md">PoRequestPowerIrp</a>
-
-
-
-<a href="..\wdm\nf-wdm-postartnextpowerirp.md">PoStartNextPowerIrp</a>
-
-
-
-<a href="..\wdm\nf-wdm-iocalldriver.md">IoCallDriver</a>
-
-
-
-<a href="..\wdm\nf-wdm-iocopycurrentirpstacklocationtonext.md">IoCopyCurrentIrpStackLocationToNext</a>
-
-
-
-<a href="..\wdm\nc-wdm-io_completion_routine.md">IoCompletion</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550694">IRP</a>
 
 
 
@@ -151,8 +115,32 @@ On Windows 98/Me, all drivers call <b>PoCallDriver</b> at IRQL = PASSIVE_LEVEL.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551744">IRP_MN_SET_POWER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548336">IoCallDriver</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548354">IoCompletion</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548387">IoCopyCurrentIrpStackLocationToNext</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550355">IoSkipCurrentIrpStackLocation</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559734">PoRequestPowerIrp</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559776">PoStartNextPowerIrp</a>
  
 
  
-
 

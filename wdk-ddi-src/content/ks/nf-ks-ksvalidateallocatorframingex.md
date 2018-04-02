@@ -52,16 +52,6 @@ req.typenames:
 For system use only.
 
 
-## -syntax
-
-
-````
-  KsValidateAllocatorFramingEx(
-    
-);
-````
-
-
 ## -parameters
 
 

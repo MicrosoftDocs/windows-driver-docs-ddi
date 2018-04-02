@@ -55,21 +55,6 @@ req.product: Windows 10 or later.
 The <b>WriteToHardware</b> method is used internally by the framework. Do not use.
 
 
-## -syntax
-
-
-````
-void WriteToHardware(
-  [in]           WDF_DEVICE_HWACCESS_TARGET_TYPE Type,
-  [in]           WDF_DEVICE_HWACCESS_TARGET_SIZE Size,
-  [in]           VOID                            *Address,
-  [in]           SIZE_T                          Value,
-  [in, optional] VOID                            *Buffer,
-  [in, optional] ULONG                           Count
-);
-````
-
-
 ## -parameters
 
 
@@ -104,12 +89,11 @@ This method does not return a value.
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfdevice3.md">IWDFDevice3</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451197">IWDFDevice3</a>
  
 
  
-
 

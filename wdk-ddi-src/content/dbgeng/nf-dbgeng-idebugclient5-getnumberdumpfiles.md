@@ -7,7 +7,7 @@ old-location: debugger\getnumberdumpfiles.htm
 old-project: debugger
 ms.assetid: d3fa4314-2f11-4ac4-86bd-3eb3f3ea9029
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: GetNumberDumpFiles method [Windows Debugging], GetNumberDumpFiles method [Windows Debugging], IDebugClient4 interface, GetNumberDumpFiles method [Windows Debugging], IDebugClient5 interface, GetNumberDumpFiles,IDebugClient5.GetNumberDumpFiles, IDebugClient4 interface [Windows Debugging], GetNumberDumpFiles method, IDebugClient4::GetNumberDumpFiles, IDebugClient5, IDebugClient5 interface [Windows Debugging], GetNumberDumpFiles method, IDebugClient5::GetNumberDumpFiles, IDebugClient_db74cf2c-c7e7-46c2-be98-f4023b22c5c3.xml, dbgeng/IDebugClient4::GetNumberDumpFiles, dbgeng/IDebugClient5::GetNumberDumpFiles, debugger.getnumberdumpfiles
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,16 +51,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>GetNumberDumpFiles</b> method returns the number of files containing supporting information that were used when opening the current dump target.
-
-
-## -syntax
-
-
-````
-HRESULT GetNumberDumpFiles(
-  [out] PULONG Number
-);
-````
 
 
 ## -parameters
@@ -112,19 +102,6 @@ For more information about crash dump files, see <a href="https://msdn.microsoft
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537874">AddDumpInformationFileWide</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546586">GetDumpFile</a>
 
 
 
@@ -132,8 +109,20 @@ For more information about crash dump files, see <a href="https://msdn.microsoft
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537874">AddDumpInformationFileWide</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546586">GetDumpFile</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550494">IDebugClient4</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550497">IDebugClient5</a>
  
 
  
-
 

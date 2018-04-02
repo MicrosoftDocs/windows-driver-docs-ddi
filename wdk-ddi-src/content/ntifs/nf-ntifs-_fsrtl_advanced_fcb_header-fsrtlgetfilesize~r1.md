@@ -7,7 +7,7 @@ old-location: ifsk\fsrtlgetfilesize.htm
 old-project: ifsk
 ms.assetid: 82fcf0da-e945-4cb4-90fc-bb095119ef20
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FsRtlGetFileSize, FsRtlGetFileSize routine [Installable File System Drivers], fsrtlref_d1056cd3-20f5-436c-9bac-0f1c217bb569.xml, ifsk.fsrtlgetfilesize, ntifs/FsRtlGetFileSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,17 +50,6 @@ req.typenames: TOKEN_TYPE
 
 
 The <b>FsRtlGetFileSize</b> routine is used to get the size of a file. 
-
-
-## -syntax
-
-
-````
-NTSTATUS FsRtlGetFileSize(
-  _In_  PFILE_OBJECT   FileObject,
-  _Out_ PLARGE_INTEGER FileSize
-);
-````
 
 
 ## -parameters
@@ -121,7 +110,7 @@ The specified <i>FileObject </i>refers to a directory.
 
 
 
-The <b>FsRtlGetFileSize</b> routine is used to retrieve the file size for a file. Unlike <a href="..\wdm\nf-wdm-zwqueryinformationfile.md">ZwQueryInformationFile</a>, <b>FsRtlGetFileSize</b> does not acquire the file object lock on synchronous file objects. If you already own file system resources, you should call <b>FsRtlGetFileSize</b> instead of <b>ZwQueryInformationFile</b>, because attempting to acquire the file object lock would violate locking order and lead to deadlocks. The <b>ZwQueryInformationFile</b> function should be only if you do not already own file system resources. 
+The <b>FsRtlGetFileSize</b> routine is used to retrieve the file size for a file. Unlike <a href="https://msdn.microsoft.com/library/windows/hardware/ff567052">ZwQueryInformationFile</a>, <b>FsRtlGetFileSize</b> does not acquire the file object lock on synchronous file objects. If you already own file system resources, you should call <b>FsRtlGetFileSize</b> instead of <b>ZwQueryInformationFile</b>, because attempting to acquire the file object lock would violate locking order and lead to deadlocks. The <b>ZwQueryInformationFile</b> function should be only if you do not already own file system resources. 
 
 <b>FsRtlGetFileSize</b> will use fast I/O if it is supported or regular IRP-based query to extract the file size. 
 
@@ -130,16 +119,15 @@ The <b>FsRtlGetFileSize</b> routine is used to retrieve the file size for a file
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwqueryinformationfile.md">ZwQueryInformationFile</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltqueryinformationfile.md">FltQueryInformationFile</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543439">FltQueryInformationFile</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567052">ZwQueryInformationFile</a>
  
 
  
-
 

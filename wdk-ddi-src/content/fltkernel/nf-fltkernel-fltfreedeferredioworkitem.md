@@ -7,7 +7,7 @@ old-location: ifsk\fltfreedeferredioworkitem.htm
 old-project: ifsk
 ms.assetid: e061c8c3-b0f9-4341-b064-91df43303f70
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FltApiRef_e_to_o_677ca3fc-8c9e-4e3e-8ed4-00a25779913d.xml, FltFreeDeferredIoWorkItem, FltFreeDeferredIoWorkItem routine [Installable File System Drivers], fltkernel/FltFreeDeferredIoWorkItem, ifsk.fltfreedeferredioworkitem
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,17 +50,7 @@ req.typenames: EXpsFontRestriction
 ## -description
 
 
-The <b>FltFreeDeferredIoWorkItem</b> routine frees a work item allocated by the <a href="..\fltkernel\nf-fltkernel-fltallocatedeferredioworkitem.md">FltAllocateDeferredIoWorkItem</a> routine. 
-
-
-## -syntax
-
-
-````
-VOID FltFreeDeferredIoWorkItem(
-  _In_ PFLT_DEFERRED_IO_WORKITEM FltWorkItem
-);
-````
+The <b>FltFreeDeferredIoWorkItem</b> routine frees a work item allocated by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff541720">FltAllocateDeferredIoWorkItem</a> routine. 
 
 
 ## -parameters
@@ -86,7 +76,7 @@ None
 
 
 
-<b>FltFreeDeferredIoWorkItem</b> frees an opaque FLT_DEFERRED_IO_WORKITEM structure that was allocated by a previous call to <a href="..\fltkernel\nf-fltkernel-fltallocatedeferredioworkitem.md">FltAllocateDeferredIoWorkItem</a>. The freed memory is returned to nonpaged pool. 
+<b>FltFreeDeferredIoWorkItem</b> frees an opaque FLT_DEFERRED_IO_WORKITEM structure that was allocated by a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff541720">FltAllocateDeferredIoWorkItem</a>. The freed memory is returned to nonpaged pool. 
 
 The FLT_DEFERRED_IO_WORKITEM structure is opaque: that is, its members are reserved for system use. 
 
@@ -95,16 +85,15 @@ The FLT_DEFERRED_IO_WORKITEM structure is opaque: that is, its members are reser
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltallocatedeferredioworkitem.md">FltAllocateDeferredIoWorkItem</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltqueuedeferredioworkitem.md">FltQueueDeferredIoWorkItem</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541720">FltAllocateDeferredIoWorkItem</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543449">FltQueueDeferredIoWorkItem</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: netvista\ndisadjustnetbuffercurrentmdl.htm
 old-project: netvista
 ms.assetid: 5d05793b-cb35-435d-aa59-6ac380668d91
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: NdisAdjustNetBufferCurrentMdl, NdisAdjustNetBufferCurrentMdl function [Network Drivers Starting with Windows Vista], ndis/NdisAdjustNetBufferCurrentMdl, ndis_netbuf_functions_ref_a555c8dc-ed71-46b9-8922-32bfad03f2a1.xml, netvista.ndisadjustnetbuffercurrentmdl
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,18 +52,8 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 
 The 
   <b>NdisAdjustNetBufferCurrentMdl</b> function updates a 
-  <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a> structure based on the current data
+  <a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a> structure based on the current data
   offset.
-
-
-## -syntax
-
-
-````
-VOID NdisAdjustNetBufferCurrentMdl(
-  _In_ PNET_BUFFER NetBuffer
-);
-````
 
 
 ## -parameters
@@ -74,7 +64,7 @@ VOID NdisAdjustNetBufferCurrentMdl(
 ### -param NetBuffer [in]
 
 A pointer to a 
-     <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a> structure.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a> structure.
 
 
 ## -returns
@@ -94,7 +84,7 @@ The
     <b>NdisAdjustNetBufferCurrentMdl</b> function recalculates and sets the 
     <b>CurrentMdl</b> and 
     <b>CurrentMdlOffset</b> members of a 
-    <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a> structure based on the 
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a> structure based on the 
     <b>DataOffset</b> member of the NET_BUFFER structure.
 
 Callers of 
@@ -106,12 +96,11 @@ Callers of
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a>
  
 
  
-
 

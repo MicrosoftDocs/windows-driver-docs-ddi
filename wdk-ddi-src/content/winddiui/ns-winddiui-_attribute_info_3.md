@@ -50,26 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The ATTRIBUTE_INFO_3 structure is used as a parameter for a printer interface DLL's <a href="..\winddiui\nf-winddiui-drvqueryjobattributes.md">DrvQueryJobAttributes</a> function. All member values are function-supplied.
-
-
-## -syntax
-
-
-````
-typedef struct _ATTRIBUTE_INFO_3 {
-  DWORD dwJobNumberOfPagesPerSide;
-  DWORD dwDrvNumberOfPagesPerSide;
-  DWORD dwNupBorderFlags;
-  DWORD dwJobPageOrderFlags;
-  DWORD dwDrvPageOrderFlags;
-  DWORD dwJobNumberOfCopies;
-  DWORD dwDrvNumberOfCopies;
-  DWORD dwColorOptimization;
-  short dmPrintQuality;
-  short dmYResolution;
-} ATTRIBUTE_INFO_3, *PATTRIBUTE_INFO_3;
-````
+The ATTRIBUTE_INFO_3 structure is used as a parameter for a printer interface DLL's <a href="https://msdn.microsoft.com/library/windows/hardware/ff548581">DrvQueryJobAttributes</a> function. All member values are function-supplied.
 
 
 ## -struct-fields
@@ -229,37 +210,36 @@ If the <b>dmPrintQuality</b> member of a print job's DEVMODEW structure is a neg
 
 The EMF print processor uses the flag specified for <b>dwColorOptimization</b> to determine whether to request GDI to perform monochrome color optimization. If monochrome color optimization is enabled, the print job can be switched between monochrome and color rendering as appropriate.
 
-If you are creating a Unidrv rendering plug-in to generate color watermarks, note that when the <b>dwColorOptimization</b> member is set to COLOR_OPTIMIZATION, color watermarks are printed in black and white when they are printed on black-and-white documents. To ensure that color watermarks print correctly with color and black-and-white documents, disable color optimization. Color optimization also can be controlled by the Unidrv *<b>ChangeColorModeOnDoc?</b> color attribute (see <a href="https://msdn.microsoft.com/c8de0186-9cf5-43e5-81e7-33351a34c13c">Color Attributes</a>), and by the <a href="..\winppi\nf-winppi-gdiendpageemf.md">GdiEndPageEMF</a> function. 
+If you are creating a Unidrv rendering plug-in to generate color watermarks, note that when the <b>dwColorOptimization</b> member is set to COLOR_OPTIMIZATION, color watermarks are printed in black and white when they are printed on black-and-white documents. To ensure that color watermarks print correctly with color and black-and-white documents, disable color optimization. Color optimization also can be controlled by the Unidrv *<b>ChangeColorModeOnDoc?</b> color attribute (see <a href="https://msdn.microsoft.com/c8de0186-9cf5-43e5-81e7-33351a34c13c">Color Attributes</a>), and by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff549468">GdiEndPageEMF</a> function. 
 
-For information about other ATTRIBUTE_INFO_3 structure members, see <a href="..\winddiui\ns-winddiui-_attribute_info_1.md">ATTRIBUTE_INFO_1</a> and <a href="..\winddiui\ns-winddiui-_attribute_info_2.md">ATTRIBUTE_INFO_2</a>.
+For information about other ATTRIBUTE_INFO_3 structure members, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff545090">ATTRIBUTE_INFO_1</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff545091">ATTRIBUTE_INFO_2</a>.
 
 
 
 
 ## -see-also
 
-<a href="..\winsplp\nf-winsplp-getjobattributesex.md">GetJobAttributesEx</a>
 
 
 
-<a href="..\winppi\nf-winppi-gdiendpageemf.md">GdiEndPageEMF</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545091">ATTRIBUTE_INFO_2</a>
 
 
 
-<a href="..\winddiui\nf-winddiui-drvqueryjobattributes.md">DrvQueryJobAttributes</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545096">ATTRIBUTE_INFO_4</a>
 
 
 
-<a href="..\winsplp\ns-winsplp-_attribute_info_4.md">ATTRIBUTE_INFO_4</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548581">DrvQueryJobAttributes</a>
 
 
 
-<a href="..\winddiui\ns-winddiui-_attribute_info_2.md">ATTRIBUTE_INFO_2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549468">GdiEndPageEMF</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550459">GetJobAttributesEx</a>
  
 
  
-
 

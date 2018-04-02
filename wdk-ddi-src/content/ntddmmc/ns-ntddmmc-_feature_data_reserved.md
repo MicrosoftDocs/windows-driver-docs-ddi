@@ -7,7 +7,7 @@ old-location: storage\feature_data_reserved.htm
 old-project: storage
 ms.assetid: 686bc6e0-7455-4b86-93ce-09b7c7d60240
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PFEATURE_DATA_RESERVED, FEATURE_DATA_RESERVED, FEATURE_DATA_RESERVED structure [Storage Devices], PFEATURE_DATA_RESERVED, PFEATURE_DATA_RESERVED structure pointer [Storage Devices], _FEATURE_DATA_RESERVED, ntddmmc/FEATURE_DATA_RESERVED, ntddmmc/PFEATURE_DATA_RESERVED, storage.feature_data_reserved, structs-CD-ROM_4fc9f24f-2488-493d-8e63-2e4c8a3ab879.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,17 +52,6 @@ req.typenames: FEATURE_DATA_RESERVED, *PFEATURE_DATA_RESERVED
 The FEATURE_DATA_RESERVED structure holds information about an unspecified feature. 
 
 
-## -syntax
-
-
-````
-typedef struct _FEATURE_DATA_RESERVED {
-  FEATURE_HEADER Header;
-  UCHAR          Data[];
-} FEATURE_DATA_RESERVED, *PFEATURE_DATA_RESERVED;
-````
-
-
 ## -struct-fields
 
 
@@ -70,7 +59,7 @@ typedef struct _FEATURE_DATA_RESERVED {
 
 ### -field Header
 
-Contains a <a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a> structure with header information for this feature descriptor. 
+Contains a <a href="https://msdn.microsoft.com/library/windows/hardware/ff553848">FEATURE_HEADER</a> structure with header information for this feature descriptor. 
 
 
 ### -field Data
@@ -89,16 +78,15 @@ You can use this structure to access the data of any feature structure as though
 
 ## -see-also
 
-<a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a>
 
 
 
-<a href="..\ntddmmc\ne-ntddmmc-_feature_number.md">FEATURE_NUMBER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553848">FEATURE_HEADER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553850">FEATURE_NUMBER</a>
  
 
  
-
 

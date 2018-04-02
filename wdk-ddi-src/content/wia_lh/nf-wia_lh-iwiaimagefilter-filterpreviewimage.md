@@ -53,19 +53,6 @@ req.product: Windows 10 or later.
 The <b>IWiaImageFilter::FilterPreviewImage</b> method is called by the WIA Preview component, when an application calls the <b>IWiaPreview::UpdatePreview</b> method.
 
 
-## -syntax
-
-
-````
-HRESULT  FilterPreviewImage(
-  [in] IWiaItem2   *pWiaChildItem2,
-  [in] RECT        InputImageExtents,
-  [in] IStream     *pInputStream
-    
-);
-````
-
-
 ## -parameters
 
 

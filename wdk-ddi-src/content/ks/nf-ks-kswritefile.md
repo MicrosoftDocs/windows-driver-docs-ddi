@@ -53,23 +53,6 @@ req.typenames:
 The <b>KsWriteFile</b> function performs a write against the specified file object. It is assumed that the caller is serializing access to the file for operations against a FO_SYNCHRONOUS_IO file object. The function attempts to use <b>FastIoDispatch</b> if possible, or it generates a write request against the device object. All relevant statistics are updated.
 
 
-## -syntax
-
-
-````
-NTSTATUS KsWriteFile(
-  _In_     PFILE_OBJECT     FileObject,
-  _In_opt_ PKEVENT          Event,
-  _In_opt_ PVOID            PortContext,
-  _Out_    PIO_STATUS_BLOCK IoStatusBlock,
-  _In_     PVOID            Buffer,
-  _In_     ULONG            Length,
-  _In_opt_ ULONG            Key,
-  _In_     KPROCESSOR_MODE  RequestorMode
-);
-````
-
-
 ## -parameters
 
 

@@ -7,7 +7,7 @@ old-location: buses\evt_ucx_usbdevice_hub_info.htm
 old-project: usbref
 ms.assetid: 5bf8000d-63d8-4901-b3fc-d3c43cefe37e
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: EVT_UCX_USBDEVICE_HUB_INFO, EvtUcxUsbDeviceHubInfo, EvtUcxUsbDeviceHubInfo callback function [Buses], PEVT_UCX_USBDEVICE_HUB_INFO, PEVT_UCX_USBDEVICE_HUB_INFO callback function pointer [Buses], buses.evt_ucx_usbdevice_hub_info, ucxusbdevice/EvtUcxUsbDeviceHubInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -54,22 +54,6 @@ The client driver's implementation that UCX calls to
 retrieve hub properties.
 
 
-## -prototype
-
-
-````
-EVT_UCX_USBDEVICE_HUB_INFO EvtUcxUsbDeviceHubInfo;
-
-VOID EvtUcxUsbDeviceHubInfo(
-  _In_ UCXCONTROLLER UcxController,
-  _In_ WDFREQUEST    Request
-)
-{ ... }
-
-typedef EVT_UCX_USBDEVICE_HUB_INFO PEVT_UCX_USBDEVICE_HUB_INFO;
-````
-
-
 ## -parameters
 
 
@@ -82,7 +66,7 @@ typedef EVT_UCX_USBDEVICE_HUB_INFO PEVT_UCX_USBDEVICE_HUB_INFO;
 
 ### -param Request [in]
 
-Contains the <a href="..\ucxusbdevice\ns-ucxusbdevice-_usbdevice_hub_info.md">USBDEVICE_HUB_INFO</a> structure.
+Contains the <a href="https://msdn.microsoft.com/library/windows/hardware/mt188074">USBDEVICE_HUB_INFO</a> structure.
 
 
 ## -returns
@@ -98,7 +82,7 @@ This callback function does not return a value.
 
 
 
-The UCX client driver registers this callback function with the USB host controller extension (UCX) by calling the <a href="..\ucxusbdevice\nf-ucxusbdevice-ucxusbdevicecreate.md">UcxUsbDeviceCreate</a> method.
+The UCX client driver registers this callback function with the USB host controller extension (UCX) by calling the <a href="https://msdn.microsoft.com/library/windows/hardware/mt188052">UcxUsbDeviceCreate</a> method.
 
 If the USB device is not a hub, do not provide this callback.
 
@@ -146,24 +130,23 @@ UsbDevice_EvtUcxUsbDeviceHubInfo(
 
 ## -see-also
 
-<a href="..\ucxusbdevice\ns-ucxusbdevice-_ucx_usbdevice_event_callbacks.md">UCX_USBDEVICE_EVENT_CALLBACKS</a>
 
 
 
-<a href="..\ucxusbdevice\ns-ucxusbdevice-_usbdevice_hub_info.md">USBDEVICE_HUB_INFO</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt188067">UCX_USBDEVICE_EVENT_CALLBACKS</a>
 
 
 
-<a href="..\ucxusbdevice\nf-ucxusbdevice-ucxusbdevicecreate.md">UcxUsbDeviceCreate</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt188068">UCX_USBDEVICE_EVENT_CALLBACKS_INIT</a>
 
 
 
-<a href="..\ucxusbdevice\nf-ucxusbdevice-ucx_usbdevice_event_callbacks_init.md">UCX_USBDEVICE_EVENT_CALLBACKS_INIT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt188074">USBDEVICE_HUB_INFO</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt188052">UcxUsbDeviceCreate</a>
  
 
  
-
 

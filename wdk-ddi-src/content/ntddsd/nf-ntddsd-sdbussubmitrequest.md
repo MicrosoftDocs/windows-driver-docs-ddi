@@ -52,17 +52,6 @@ req.typenames: SD_REQUEST_FUNCTION
 The <b>SdBusSubmitRequest</b> routine sends a synchronous Secure Digital (SD) request to the bus driver.
 
 
-## -syntax
-
-
-````
-NTSTATUS SdBusSubmitRequest(
-  _In_ PVOID                 InterfaceContext,
-  _In_ PSDBUS_REQUEST_PACKET Sdrp
-);
-````
-
-
 ## -parameters
 
 
@@ -109,7 +98,6 @@ Callers of <a href="https://msdn.microsoft.com/library/windows/hardware/ff537914
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537906">SdBusOpenInterface</a>
 
 
 
@@ -117,16 +105,16 @@ Callers of <a href="https://msdn.microsoft.com/library/windows/hardware/ff537914
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537914">SdBusSubmitRequestAsync</a>
-
-
-
 <a href="https://msdn.microsoft.com/09b30bf0-fe85-4ad5-bd3e-113ed3a093ac">SDBUS_REQUEST_PACKET</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537906">SdBusOpenInterface</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537914">SdBusSubmitRequestAsync</a>
  
 
  
-
 

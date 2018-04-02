@@ -7,7 +7,7 @@ old-location: display\d3d12ddi_resource_allocation_info_0022.htm
 old-project: display
 ms.assetid: 71CDBF47-B32D-4084-B2F6-9F8C037FCB79
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3D12DDI_RESOURCE_ALLOCATION_INFO_0022, D3D12DDI_RESOURCE_ALLOCATION_INFO_0022 structure [Display Devices], d3d12umddi/D3D12DDI_RESOURCE_ALLOCATION_INFO_0022, display.d3d12ddi_resource_allocation_info_0022
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,24 +52,6 @@ req.typenames: D3D12DDI_RESOURCE_ALLOCATION_INFO_0022
 Specifies information for resource allocation.
 
 
-## -syntax
-
-
-````
-typedef struct D3D12DDI_RESOURCE_ALLOCATION_INFO_0022 {
-  UINT64                   ResourceDataSize;
-  AdditionalDataHeaderSize UINT64;
-  UINT64                   AdditionalDataSize;
-  UINT32                   ResourceDataAlignment;
-  UINT32                   AdditionalDataHeaderAlignment;
-  UINT32                   AdditionalDataAlignment;
-  D3D12DDI_TEXTURE_LAYOUT  Layout;
-  UINT8                    MipLevelSwizzleTransition[5];
-  UINT8                    PlaneSliceSwizzleTransition[2];
-} D3D12DDI_RESOURCE_ALLOCATION_INFO_0022;
-````
-
-
 ## -struct-fields
 
 
@@ -107,7 +89,7 @@ The additional data alignment.
 
 ### -field Layout
 
-The texture layout as a <a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_texture_layout.md">D3D12DDI_TEXTURE_LAYOUT</a> value. 
+The texture layout as a <a href="https://msdn.microsoft.com/F039A0D9-D1AE-4940-B67D-30CC6344EC7D">D3D12DDI_TEXTURE_LAYOUT</a> value. 
 
 
 ### -field MipLevelSwizzleTransition
@@ -127,12 +109,11 @@ The additional size of the data header.
 
 ## -see-also
 
-<a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_texture_layout.md">D3D12DDI_TEXTURE_LAYOUT</a>
 
 
 
+<a href="https://msdn.microsoft.com/F039A0D9-D1AE-4940-B67D-30CC6344EC7D">D3D12DDI_TEXTURE_LAYOUT</a>
  
 
  
-
 

@@ -52,16 +52,6 @@ req.typenames: NFCCX_DRIVER_GLOBALS, *PNFCCX_DRIVER_GLOBALS
 
 
 
-## -syntax
-
-
-````
-typedef struct _NFCCX_DRIVER_GLOBALS {
-  ULONG Reserved;
-} NFCCX_DRIVER_GLOBALS, *PNFCCX_DRIVER_GLOBALS;
-````
-
-
 ## -struct-fields
 
 
@@ -72,16 +62,15 @@ typedef struct _NFCCX_DRIVER_GLOBALS {
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a>
 
 
 
 <a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
-
-
-
  
 
  
-
 

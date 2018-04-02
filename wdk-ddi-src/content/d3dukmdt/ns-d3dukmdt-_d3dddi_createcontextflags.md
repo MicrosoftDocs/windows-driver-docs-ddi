@@ -7,7 +7,7 @@ old-location: display\d3dddi_createcontextflags.htm
 old-project: display
 ms.assetid: e450f85c-4c73-44a8-9d0a-da2c212c87c9
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDI_CREATECONTEXTFLAGS, D3DDDI_CREATECONTEXTFLAGS structure [Display Devices], D3D_other_Structs_e20f9457-1008-4c63-a924-d5fa75929be5.xml, _D3DDDI_CREATECONTEXTFLAGS, d3dukmdt/D3DDDI_CREATECONTEXTFLAGS, display.d3dddi_createcontextflags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,23 +50,6 @@ req.typenames: D3DDDI_CREATECONTEXTFLAGS
 
 
 The D3DDDI_CREATECONTEXTFLAGS structure describes how to create a context in a call to the <a href="https://msdn.microsoft.com/f3f5d6bc-3bc6-4214-830a-cffff01069cc">pfnCreateContextCb</a> function.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DDDI_CREATECONTEXTFLAGS {
-  union {
-    struct {
-      UINT NullRendering  :1;
-      UINT InitialData  :1;
-      UINT Reserved  :30;
-    };
-    UINT   Value;
-  };
-} D3DDDI_CREATECONTEXTFLAGS;
-````
 
 
 ## -struct-fields
@@ -113,16 +96,15 @@ A member in the union that is contained in D3DDDI_CREATECONTEXTFLAGS that can ho
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_createcontext.md">D3DDDICB_CREATECONTEXT</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544143">D3DDDICB_CREATECONTEXT</a>
 
 
 
 <a href="https://msdn.microsoft.com/f3f5d6bc-3bc6-4214-830a-cffff01069cc">pfnCreateContextCb</a>
-
-
-
  
 
  
-
 

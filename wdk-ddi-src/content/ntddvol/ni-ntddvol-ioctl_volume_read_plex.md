@@ -7,7 +7,7 @@ old-location: storage\ioctl_volume_read_plex.htm
 old-project: storage
 ms.assetid: 187e15d2-b527-4dab-81ea-498663363f8b
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_VOLUME_READ_PLEX, IOCTL_VOLUME_READ_PLEX control code [Storage Devices], k307_9f88e325-8c32-4be3-acaa-5df77ee023c2.xml, ntddvol/IOCTL_VOLUME_READ_PLEX, storage.ioctl_volume_read_plex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -64,7 +64,7 @@ If, however, an application or kernel-mode component must read data from a parti
 
 ### -input-buffer
 
-Caller inserts the <a href="..\ntddvol\ns-ntddvol-_volume_read_plex_input.md">VOLUME_READ_PLEX_INPUT</a> structure, containing the logical offset, at the beginning of the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>. 
+Caller inserts the <a href="https://msdn.microsoft.com/library/windows/hardware/ff568027">VOLUME_READ_PLEX_INPUT</a> structure, containing the logical offset, at the beginning of the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>. 
 
 
 ### -input-buffer-length
@@ -110,12 +110,11 @@ The VOLUME_READ_PLEX_INPUT structure at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b
 
 ## -see-also
 
-<a href="..\ntddvol\ns-ntddvol-_volume_read_plex_input.md">VOLUME_READ_PLEX_INPUT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568027">VOLUME_READ_PLEX_INPUT</a>
  
 
  
-
 

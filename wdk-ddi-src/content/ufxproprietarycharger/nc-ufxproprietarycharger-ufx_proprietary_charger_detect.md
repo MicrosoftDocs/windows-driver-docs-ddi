@@ -7,7 +7,7 @@ old-location: buses\ufx_proprietary_charger_detect.htm
 old-project: usbref
 ms.assetid: E95D2713-8F95-460E-9107-4793B002A6AC
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: PFN_UFX_PROPRIETARY_CHARGER_DETECT, PFN_UFX_PROPRIETARY_CHARGER_DETECT callback function pointer [Buses], UFX_PROPRIETARY_CHARGER_DETECT, UfxProprietaryChargerDetect, UfxProprietaryChargerDetect callback function [Buses], buses.ufx_proprietary_charger_detect, ufxproprietarycharger/UfxProprietaryChargerDetect
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,22 +53,6 @@ req.product: Windows 10 or later.
 The filter driver's implementation to detect if a charger is attached  and get details about the charger.
 
 
-## -prototype
-
-
-````
-UFX_PROPRIETARY_CHARGER_DETECT UfxProprietaryChargerDetect;
-
-NTSTATUS UfxProprietaryChargerDetect(
-  _In_  PVOID                    Context,
-  _Out_ PUFX_PROPRIETARY_CHARGER DetectedCharger
-)
-{ ... }
-
-typedef UFX_PROPRIETARY_CHARGER_DETECT PFN_UFX_PROPRIETARY_CHARGER_DETECT;
-````
-
-
 ## -parameters
 
 
@@ -81,7 +65,7 @@ typedef UFX_PROPRIETARY_CHARGER_DETECT PFN_UFX_PROPRIETARY_CHARGER_DETECT;
 
 ### -param DetectedCharger [out]
 
-A pointer to a     <a href="..\ufxproprietarycharger\ns-ufxproprietarycharger-_ufx_proprietary_charger.md">UFX_PROPRIETARY_CHARGER</a> structure that the driver fills with charger information. 
+A pointer to a     <a href="https://msdn.microsoft.com/library/windows/hardware/mt187979">UFX_PROPRIETARY_CHARGER</a> structure that the driver fills with charger information. 
 
 
 ## -returns
@@ -190,12 +174,11 @@ UsbLowerFilter_ProprietaryChargerDetect(
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/05D2B46A-282C-4B75-9F5C-2FC0AF344AB9">USB filter driver for supporting proprietary chargers</a>
-
-
-
  
 
  
-
 

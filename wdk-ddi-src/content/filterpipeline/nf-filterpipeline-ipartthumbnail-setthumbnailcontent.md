@@ -52,16 +52,6 @@ req.typenames: EXpsFontRestriction
 The <b>SetThumbnailContent</b> method sets the thumbnail content for the part.
 
 
-## -syntax
-
-
-````
-HRESULT SetThumbnailContent(
-  [in] const wchar_t *contentType
-);
-````
-
-
 ## -parameters
 
 

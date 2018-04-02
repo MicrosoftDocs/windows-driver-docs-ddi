@@ -52,16 +52,6 @@ req.typenames: CODING_FORMAT, *PCODING_FORMAT
 This enumeration is for internal use only.
 
 
-## -syntax
-
-
-````
-typedef enum _CODING_FORMAT { 
-    = 
-} CODING_FORMAT, *PCODING_FORMAT;
-````
-
-
 ## -enum-fields
 
 

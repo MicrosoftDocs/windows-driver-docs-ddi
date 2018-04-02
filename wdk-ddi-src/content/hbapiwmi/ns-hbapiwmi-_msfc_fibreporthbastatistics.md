@@ -7,7 +7,7 @@ old-location: storage\msfc_fibreporthbastatistics.htm
 old-project: storage
 ms.assetid: 8b365e7a-6d52-417f-8c0b-78feac24602f
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PMSFC_FibrePortHBAStatistics, MSFC_FibrePortHBAStatistics, MSFC_FibrePortHBAStatistics structure [Storage Devices], PMSFC_FibrePortHBAStatistics, PMSFC_FibrePortHBAStatistics structure pointer [Storage Devices], _MSFC_FibrePortHBAStatistics, hbapiwmi/MSFC_FibrePortHBAStatistics, hbapiwmi/PMSFC_FibrePortHBAStatistics, storage.msfc_fibreporthbastatistics, structs-Fibre_d68738f2-ea37-420f-8356-51aa06362829.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,18 +52,6 @@ req.typenames: MSFC_FibrePortHBAStatistics, *PMSFC_FibrePortHBAStatistics
 The MSFC_FibrePortHBAStatistics structure is used by an HBA miniport driver that is a WMI provider to report statistics related to a fibre channel port.
 
 
-## -syntax
-
-
-````
-typedef struct _MSFC_FibrePortHBAStatistics {
-  ULONGLONG              UniquePortId;
-  ULONG                  HBAStatus;
-  MSFC_HBAPortStatistics Statistics;
-} MSFC_FibrePortHBAStatistics, *PMSFC_FibrePortHBAStatistics;
-````
-
-
 ## -struct-fields
 
 
@@ -81,17 +69,16 @@ Contains the status of the operation. For a list of allowed values and their des
 
 ### -field Statistics
 
-Contains a structure of type <a href="..\hbapiwmi\ns-hbapiwmi-_msfc_hbaportstatistics.md">MSFC_HBAPortStatistics</a> with statistical information about the port. 
+Contains a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff562512">MSFC_HBAPortStatistics</a> with statistical information about the port. 
 
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff562505">MSFC_FibrePortHBAStatistics WMI Class</a>
-
-
-
  
 
  
-
 

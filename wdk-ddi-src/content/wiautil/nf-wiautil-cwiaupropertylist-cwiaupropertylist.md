@@ -53,14 +53,6 @@ req.product: Windows 10 or later.
 The <b>CWiauPropertyList::CWiauPropertyList</b> method is the constructor for the <b>CWiauPropertyList</b> class.
 
 
-## -syntax
-
-
-````
-void CWiauPropertyList();
-````
-
-
 ## -parameters
 
 
@@ -88,11 +80,14 @@ The <b>CWiauPropertyList</b> constructor initializes all data members of a prope
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/4f11bec0-8ff4-4fa0-824c-71ce9774d5d1">CWiauPropertyList</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540391">CWiauPropertyList::DefineProperty</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540472">CWiauPropertyList::~CWiauPropertyList</a>
 
 
 
@@ -100,12 +95,8 @@ The <b>CWiauPropertyList</b> constructor initializes all data members of a prope
 
 
 
-<a href="..\wiautil\nl-wiautil-cwiaupropertylist.md">CWiauPropertyList</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540472">CWiauPropertyList::~CWiauPropertyList</a>
  
 
  
-
 

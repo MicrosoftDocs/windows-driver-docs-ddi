@@ -55,18 +55,6 @@ req.product: Windows 10 or later.
 The <b>GetPipeReadParameters</b> method retrieves parameters that are associated with the completion of a read request.
 
 
-## -syntax
-
-
-````
-void GetPipeReadParameters(
-  [out, optional] IWDFMemory **ppReadMemory,
-  [out, optional] SIZE_T     *pBytesRead,
-  [out, optional] SIZE_T     *pReadMemoryOffset
-);
-````
-
-
 ## -parameters
 
 
@@ -74,7 +62,7 @@ void GetPipeReadParameters(
 
 ### -param ppReadMemory [out, optional]
 
-A pointer to a variable that receives a pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfmemory.md">IWDFMemory</a> interface, for access to the read buffer for the read request. This parameter is optional and can be <b>NULL</b>.
+A pointer to a variable that receives a pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559249">IWDFMemory</a> interface, for access to the read buffer for the read request. This parameter is optional and can be <b>NULL</b>.
 
 
 ### -param pBytesRead [out, optional]
@@ -98,16 +86,15 @@ None
 
 ## -see-also
 
-<a href="..\wudfusb\nn-wudfusb-iwdfusbrequestcompletionparams.md">IWDFUsbRequestCompletionParams</a>
 
 
 
-<a href="..\wudfddi\nn-wudfddi-iwdfmemory.md">IWDFMemory</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559249">IWDFMemory</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560346">IWDFUsbRequestCompletionParams</a>
  
 
  
-
 

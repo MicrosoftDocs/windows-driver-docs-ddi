@@ -7,7 +7,7 @@ old-location: buses\ufx_proprietary_charger.htm
 old-project: usbref
 ms.assetid: FAAEDAFE-69A8-4092-8301-DB159FD3583D
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PUFX_PROPRIETARY_CHARGER, PUFX_PROPRIETARY_CHARGER, PUFX_PROPRIETARY_CHARGER structure pointer [Buses], UFX_PROPRIETARY_CHARGER, UFX_PROPRIETARY_CHARGER structure [Buses], _UFX_PROPRIETARY_CHARGER, buses.ufx_proprietary_charger, ufxproprietarycharger/PUFX_PROPRIETARY_CHARGER, ufxproprietarycharger/UFX_PROPRIETARY_CHARGER"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 Describes the proprietary charger's device power requirements.
 
 
-## -syntax
-
-
-````
-typedef struct _UFX_PROPRIETARY_CHARGER {
-  GUID               ChargerId;
-  DEVICE_POWER_STATE DxState;
-} UFX_PROPRIETARY_CHARGER, *PUFX_PROPRIETARY_CHARGER;
-````
-
-
 ## -struct-fields
 
 
@@ -76,5 +65,5 @@ Charger identifier used to identify a specific type of charger.
 
 ### -field DxState
 
-The minimum required device power state when it is connected, indicated by one of the <a href="..\wudfddi\ne-wudfddi-_device_power_state.md">DEVICE_POWER_STATE</a>-typed flags.
+The minimum required device power state when it is connected, indicated by one of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554628">DEVICE_POWER_STATE</a>-typed flags.
 

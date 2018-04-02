@@ -54,18 +54,6 @@ The Bluetooth
   errors.
 
 
-## -prototype
-
-
-````
-NTSTATUS SdpValidateStream(
-   PUCHAR     Stream,
-   ULONG      Size,
-   PULONG_PTR ErrorByte
-);
-````
-
-
 ## -parameters
 
 
@@ -116,7 +104,7 @@ Bluetooth profile drivers should use this function to validate all SDP streams f
     Other SDP functions might not perform complete data validation.
 
 Bluetooth profile drivers can obtain a pointer to this function through the 
-    <a href="..\bthsdpddi\ns-bthsdpddi-_bthddi_sdp_parse_interface.md">
+    <a href="https://msdn.microsoft.com/bb8a1dd5-8207-4034-993e-eed49dc0f9c4">
     BTHDDI_SDP_PARSE_INTERFACE</a> structure.
 
 
@@ -124,12 +112,11 @@ Bluetooth profile drivers can obtain a pointer to this function through the
 
 ## -see-also
 
-<a href="..\bthsdpddi\ns-bthsdpddi-_bthddi_sdp_parse_interface.md">BTHDDI_SDP_PARSE_INTERFACE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536636">BTHDDI_SDP_PARSE_INTERFACE</a>
  
 
  
-
 

@@ -53,26 +53,6 @@ req.typenames:
 The <b>KsStreamIo</b> function performs a stream read or write against the specified file object. The function attempts to use <b>FastIoDispatch</b> if possible, or it generates a read or write request against the device object.
 
 
-## -syntax
-
-
-````
-NTSTATUS KsStreamIo(
-  _In_     PFILE_OBJECT            FileObject ,
-  _In_opt_ PKEVENT                 Event ,
-  _In_opt_ PVOID                   PortContext ,
-  _In_opt_ PIO_COMPLETION_ROUTINE  CompletionRoutine ,
-  _In_opt_ PVOID                   CompletionContext ,
-  _In_opt_ KSCOMPLETION_INVOCATION CompletionInvocationFlags ,
-  _Out_    PIO_STATUS_BLOCK        IoStatusBlock ,
-  _Inout_  PVOID                   StreamHeaders ,
-  _In_     ULONG                   Length ,
-  _In_     ULONG                   Flags ,
-  _In_     KPROCESSOR_MODE         RequestorMode 
-);
-````
-
-
 ## -parameters
 
 

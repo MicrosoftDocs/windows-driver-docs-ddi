@@ -7,7 +7,7 @@ old-location: netvista\ndisgethypervisorinfo.htm
 old-project: netvista
 ms.assetid: 5469c6aa-90df-4379-b670-23aaa6919055
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: NdisGetHypervisorInfo, NdisGetHypervisorInfo function [Network Drivers Starting with Windows Vista], ndis/NdisGetHypervisorInfo, netvista.ndisgethypervisorinfo, virtual_machine_queue_ref_afe96cc4-b307-4953-9587-65b6bec35b18.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,16 +60,6 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
   system.
 
 
-## -syntax
-
-
-````
-NDIS_STATUS NdisGetHypervisorInfo(
-  _Inout_ PNDIS_HYPERVISOR_INFO HypervisorInfo
-);
-````
-
-
 ## -parameters
 
 
@@ -77,7 +67,7 @@ NDIS_STATUS NdisGetHypervisorInfo(
 
 ### -param HypervisorInfo [in, out]
 
-A pointer to a caller-allocated <a href="..\ntddndis\ns-ntddndis-_ndis_hypervisor_info.md">NDIS_HYPERVISOR_INFO</a> structure that
+A pointer to a caller-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/ff565708">NDIS_HYPERVISOR_INFO</a> structure that
      contains information about the hypervisor that is present on the system.
 
 
@@ -127,7 +117,7 @@ The size of the input parameter buffer was too small.
 NDIS miniport drivers call the 
     <b>NdisGetHypervisorInfo</b> function to determine whether a hypervisor is present on the system.
 
-When the <b>NdisGetHypervisorInfo</b> function returns, the <i>HypervisorInfo</i> parameter contains a pointer to an <a href="..\ntddndis\ns-ntddndis-_ndis_hypervisor_info.md">NDIS_HYPERVISOR_INFO</a> structure. This structure contains information about whether a hypervisor is present, along with the partition type from which this function was called. The <b>NDIS_HYPERVISOR_INFO</b> structure provides this information in the following way:
+When the <b>NdisGetHypervisorInfo</b> function returns, the <i>HypervisorInfo</i> parameter contains a pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff565708">NDIS_HYPERVISOR_INFO</a> structure. This structure contains information about whether a hypervisor is present, along with the partition type from which this function was called. The <b>NDIS_HYPERVISOR_INFO</b> structure provides this information in the following way:
 
 <ul>
 <li>
@@ -155,19 +145,18 @@ If another vendor's hypervisor is present, the <b>PartitionType</b> member is se
 </li>
 </ul>
 <div class="alert"><b>Note</b>  A driver must initialize the 
-    <b>Header</b> member of the <a href="..\ntddndis\ns-ntddndis-_ndis_hypervisor_info.md">NDIS_HYPERVISOR_INFO</a> structure before it calls the <b>NdisGetHypervisorInfo</b> function.</div>
+    <b>Header</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565708">NDIS_HYPERVISOR_INFO</a> structure before it calls the <b>NdisGetHypervisorInfo</b> function.</div>
 <div> </div>
 
 
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_hypervisor_info.md">NDIS_HYPERVISOR_INFO</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565708">NDIS_HYPERVISOR_INFO</a>
  
 
  
-
 

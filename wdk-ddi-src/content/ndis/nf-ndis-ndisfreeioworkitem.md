@@ -7,7 +7,7 @@ old-location: netvista\ndisfreeioworkitem.htm
 old-project: netvista
 ms.assetid: ddc2f96b-fa2c-43c1-960f-7f8e06a5b22d
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: NdisFreeIoWorkItem, NdisFreeIoWorkItem function [Network Drivers Starting with Windows Vista], ndis/NdisFreeIoWorkItem, ndis_work_items_ref_50b3859f-f34b-4cae-b7ef-935f1aae82cb.xml, netvista.ndisfreeioworkitem
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -54,16 +54,6 @@ NDIS drivers call the
   <b>NdisFreeIoWorkItem</b> function to free a specified work item.
 
 
-## -syntax
-
-
-````
-VOID NdisFreeIoWorkItem(
-  _In_ NDIS_HANDLE NdisIoWorkItemHandle
-);
-````
-
-
 ## -parameters
 
 
@@ -72,7 +62,7 @@ VOID NdisFreeIoWorkItem(
 ### -param NdisIoWorkItemHandle [in]
 
 A handle to a private <b>NDIS_IO_WORKITEM</b> structure that was returned by a previous call to the 
-     <a href="..\ndis\nf-ndis-ndisallocateioworkitem.md">
+     <a href="https://msdn.microsoft.com/54977838-381e-4c86-a6ca-646202fdc619">
      NdisAllocateIoWorkItem</a> function.
 
 
@@ -90,7 +80,7 @@ None
 
 
 <b>NdisFreeIoWorkItem</b> calls 
-    <a href="..\wdm\nf-wdm-iofreeworkitem.md">IoFreeWorkItem</a> to free the structure that is
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff549133">IoFreeWorkItem</a> to free the structure that is
     specified by the
     <i>NdisIoWorkItemHandle</i> parameter.
 
@@ -99,11 +89,10 @@ None
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisqueueioworkitem.md">NdisQueueIoWorkItem</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisallocateioworkitem.md">NdisAllocateIoWorkItem</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549133">IoFreeWorkItem</a>
 
 
 
@@ -111,12 +100,12 @@ None
 
 
 
-<a href="..\wdm\nf-wdm-iofreeworkitem.md">IoFreeWorkItem</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561604">NdisAllocateIoWorkItem</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563775">NdisQueueIoWorkItem</a>
  
 
  
-
 

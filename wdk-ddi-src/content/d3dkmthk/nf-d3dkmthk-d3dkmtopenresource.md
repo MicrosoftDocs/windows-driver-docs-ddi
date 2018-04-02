@@ -7,7 +7,7 @@ old-location: display\d3dkmtopenresource.htm
 old-project: display
 ms.assetid: 787ace79-c9ba-4e3e-9cee-0d07ef50ba35
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMTOpenResource, D3DKMTOpenResource function [Display Devices], OpenGL_Functions_ba035fe1-7970-45fc-a1c3-adddf285abd1.xml, d3dkmthk/D3DKMTOpenResource, display.d3dkmtopenresource
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -55,26 +55,21 @@ req.typenames: D3DKMT_DRIVERVERSION
 The <b>D3DKMTOpenResource</b> function opens a shared resource.
 
 
-## -syntax
-
-
-````
-NTSTATUS D3DKMTOpenResource(
-  _Inout_ D3DKMT_OPENRESOURCE *pData
-);
-````
-
-
 ## -parameters
 
 
+
+
+### -param Arg1
+
+TBD
 
 
 
 
 #### - pData [in, out]
 
-A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_openresource.md">D3DKMT_OPENRESOURCE</a> structure that contains parameters for opening a shared resource.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff548145">D3DKMT_OPENRESOURCE</a> structure that contains parameters for opening a shared resource.
 
 
 ## -returns
@@ -131,16 +126,15 @@ This function might also return other <a href="https://msdn.microsoft.com/librar
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_openresource.md">D3DKMT_OPENRESOURCE</a>
 
 
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtqueryresourceinfo.md">D3DKMTQueryResourceInfo</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547124">D3DKMTQueryResourceInfo</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548145">D3DKMT_OPENRESOURCE</a>
  
 
  
-
 

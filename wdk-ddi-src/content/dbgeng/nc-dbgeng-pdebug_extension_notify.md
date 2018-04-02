@@ -7,7 +7,7 @@ old-location: debugger\debugextensionnotify.htm
 old-project: debugger
 ms.assetid: 5e877882-00f7-4c46-86e1-debf576ffdb1
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: DebugExtensionNotify, DebugExtensionNotify callback function [Windows Debugging], Extensions_Ref_18dd6999-773d-42e8-826a-dcac1fc1ed35.xml, PDEBUG_EXTENSION_NOTIFY, dbgeng/DebugExtensionNotify, debugger.debugextensionnotify
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,14 +60,6 @@ The engine calls the <b>DebugExtensionNotify</b> callback function to inform the
 </td>
 </tr>
 </table></span></div>
-
-## -prototype
-
-
-````
- CALLBACK* PDEBUG_EXTENSION_NOTIFY DebugExtensionNotify;
-````
-
 
 ## -parameters
 
@@ -156,12 +148,11 @@ After the extension DLL is initialized, the engine will use this function to not
 
 ## -see-also
 
-<a href="..\dbgeng\nc-dbgeng-pdebug_extension_initialize.md">DebugExtensionInitialize</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540476">DebugExtensionInitialize</a>
  
 
  
-
 

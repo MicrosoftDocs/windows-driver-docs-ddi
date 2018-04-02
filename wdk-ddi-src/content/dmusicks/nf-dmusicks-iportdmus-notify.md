@@ -7,7 +7,7 @@ old-location: audio\iportdmus_notify.htm
 old-project: audio
 ms.assetid: 64158ea5-23ca-42a3-9284-2b1523e616b8
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/19/2018
 ms.keywords: IPortDMus, IPortDMus interface [Audio Devices], Notify method, IPortDMus::Notify, Notify method [Audio Devices], Notify method [Audio Devices], IPortDMus interface, Notify,IPortDMus.Notify, audio.iportdmus_notify, audmp-routines_cc818dda-ae0e-435e-8d94-f1632a4c4319.xml, dmusicks/IPortDMus::Notify
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,16 +52,6 @@ req.typenames: DMUS_STREAM_TYPE
 The <code>Notify</code> method should be called from the miniport driver's interrupt service routine (ISR) when a hardware interrupt has occurred. This call requests that the port driver call the miniport driver back with a deferred procedure call (DPC) while the miniport driver handles the interrupt.
 
 
-## -syntax
-
-
-````
-void Notify(
-  [in, optional] PSERVICEGROUP ServiceGroup
-);
-````
-
-
 ## -parameters
 
 
@@ -69,7 +59,7 @@ void Notify(
 
 ### -param ServiceGroup [in, optional]
 
-Pointer to an <a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a> object. This parameter is optional and can be specified as <b>NULL</b>. For more information, see the following Remarks section.
+Pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff536994">IServiceGroup</a> object. This parameter is optional and can be specified as <b>NULL</b>. For more information, see the following Remarks section.
 
 
 ## -returns
@@ -89,7 +79,7 @@ The <code>Notify</code> method sends notification to the miniport driver's servi
 
 <ul>
 <li>
-If the <i>pServiceGroup</i> parameter is non-<b>NULL</b>, the <code>Notify</code> method calls the <b>RequestService</b> method on the <a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a> object that this parameter points to.
+If the <i>pServiceGroup</i> parameter is non-<b>NULL</b>, the <code>Notify</code> method calls the <b>RequestService</b> method on the <a href="https://msdn.microsoft.com/library/windows/hardware/ff536994">IServiceGroup</a> object that this parameter points to.
 
 </li>
 <li>If <i>pServiceGroup</i> is <b>NULL</b>:<ul>
@@ -115,15 +105,6 @@ The <i>pServiceGroup</i> parameter follows the <a href="https://msdn.microsoft.c
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536882">IPortDMus::RegisterServiceGroup</a>
-
-
-
-<a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536701">IMiniportDMus::NewStream</a>
 
 
 
@@ -131,16 +112,24 @@ The <i>pServiceGroup</i> parameter follows the <a href="https://msdn.microsoft.c
 
 
 
-<a href="..\dmusicks\nn-dmusicks-iportdmus.md">IPortDMus</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536700">IMiniportDMus::Init</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536701">IMiniportDMus::NewStream</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536879">IPortDMus</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536882">IPortDMus::RegisterServiceGroup</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536994">IServiceGroup</a>
  
 
  
-
 

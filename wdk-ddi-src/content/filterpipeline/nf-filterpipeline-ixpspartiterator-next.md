@@ -52,16 +52,6 @@ req.typenames: EXpsFontRestriction
 The <code>Next</code> method advances the iterator to the next part.
 
 
-## -syntax
-
-
-````
-void STDMETHODCALLTYPE Next(
-    None
-);
-````
-
-
 ## -parameters
 
 

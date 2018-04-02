@@ -7,7 +7,7 @@ old-location: kernel\pep_ppm_perf_set_state.htm
 old-project: kernel
 ms.assetid: 0d822370-f08b-404d-ad0f-60ea091661d9
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: "*PPEP_PPM_PERF_SET_STATE, PEP_PPM_PERF_SET_STATE, PEP_PPM_PERF_SET_STATE structure [Kernel-Mode Driver Architecture], PPEP_PPM_PERF_SET_STATE, PPEP_PPM_PERF_SET_STATE structure pointer [Kernel-Mode Driver Architecture], _PEP_PPM_PERF_SET_STATE, kernel.pep_ppm_perf_set_state, pepfx/PEP_PPM_PERF_SET_STATE, pepfx/PPEP_PPM_PERF_SET_STATE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,18 +52,6 @@ req.typenames: PEP_PPM_PERF_SET_STATE, *PPEP_PPM_PERF_SET_STATE, PEP_PPM_PERF_SE
 Used in the <b>PEP_NOTIFY_PPM_PERF_SET </b>notification at runtime to set the current operating performance of the processor.  
 
 
-## -syntax
-
-
-````
-typedef struct _PEP_PPM_PERF_SET_STATE {
-  UCHAR  MinimumPerformanceState;
-  UCHAR  MaximumPerformanceState;
-  UCHAR  DesiredPerformanceState;
-} PEP_PPM_PERF_SET_STATE, *PPEP_PPM_PERF_SET_STATE;
-````
-
-
 ## -struct-fields
 
 
@@ -95,12 +83,11 @@ On input, the new requested desired performance state. This state is defined as 
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt186881">Processor power management (PPM) notifications</a>
-
-
-
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: storage\tape_drive_problem_type.htm
 old-project: storage
 ms.assetid: c2732686-5f95-41fd-8e47-8acf6900a44b
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: TAPE_DRIVE_PROBLEM_TYPE, TAPE_DRIVE_PROBLEM_TYPE enumeration [Storage Devices], TapeDriveCleanDriveNow, TapeDriveHardwareError, TapeDriveMediaLifeExpired, TapeDriveProblemNone, TapeDriveReadError, TapeDriveReadWarning, TapeDriveReadWriteError, TapeDriveReadWriteWarning, TapeDriveScsiConnectionError, TapeDriveSnappedTape, TapeDriveTimetoClean, TapeDriveUnsupportedMedia, TapeDriveWriteError, TapeDriveWriteWarning, _TAPE_DRIVE_PROBLEM_TYPE, ntddtape/TAPE_DRIVE_PROBLEM_TYPE, ntddtape/TapeDriveCleanDriveNow, ntddtape/TapeDriveHardwareError, ntddtape/TapeDriveMediaLifeExpired, ntddtape/TapeDriveProblemNone, ntddtape/TapeDriveReadError, ntddtape/TapeDriveReadWarning, ntddtape/TapeDriveReadWriteError, ntddtape/TapeDriveReadWriteWarning, ntddtape/TapeDriveScsiConnectionError, ntddtape/TapeDriveSnappedTape, ntddtape/TapeDriveTimetoClean, ntddtape/TapeDriveUnsupportedMedia, ntddtape/TapeDriveWriteError, ntddtape/TapeDriveWriteWarning, storage.tape_drive_problem_type, structs-tape_e5fef478-5c62-4cbf-adc1-8f0cc6eabb8e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,29 +50,6 @@ req.typenames: TAPE_DRIVE_PROBLEM_TYPE
 
 
 The TAPE_DRIVE_PROBLEM_TYPE enumerator is used to report problems with the tape drive. 
-
-
-## -syntax
-
-
-````
-typedef enum _TAPE_DRIVE_PROBLEM_TYPE { 
-  TapeDriveProblemNone          = 0,
-  TapeDriveReadWriteWarning     = 1,
-  TapeDriveReadWriteError       = 2,
-  TapeDriveReadWarning          = 3,
-  TapeDriveWriteWarning         = 4,
-  TapeDriveReadError            = 5,
-  TapeDriveWriteError           = 6,
-  TapeDriveHardwareError        = 7,
-  TapeDriveUnsupportedMedia     = 8,
-  TapeDriveScsiConnectionError  = 9,
-  TapeDriveTimetoClean          = 10,
-  TapeDriveCleanDriveNow        = 11,
-  TapeDriveMediaLifeExpired     = 12,
-  TapeDriveSnappedTape          = 13
-} TAPE_DRIVE_PROBLEM_TYPE;
-````
 
 
 ## -enum-fields
@@ -152,16 +129,15 @@ Indicates that the tape has snapped.
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567977">TAPE_WMI_OPERATIONS</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567957">TapeMiniWMIControl</a>
-
-
-
-<a href="..\ntddtape\ns-ntddtape-_tape_wmi_operations.md">TAPE_WMI_OPERATIONS</a>
-
-
-
  
 
  
-
 

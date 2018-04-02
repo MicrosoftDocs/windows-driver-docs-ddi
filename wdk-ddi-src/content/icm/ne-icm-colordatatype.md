@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -50,22 +50,6 @@ req.typenames: COLORDATATYPE
 
 
 The values of the COLORDATATYPE enumeration are used by WCS functions to indicate the data type of vector content.
-
-
-## -syntax
-
-
-````
-typedef enum  { 
-  COLOR_BYTE                = 1,
-  COLOR_WORD                = 2,
-  COLOR_FLOAT               = 3,
-  COLOR_S2DOT13FIXED        = 4,
-  COLOR_10b_R10G10B10A2     = 5,
-  COLOR_10b_R10G10B10A2_XR  = 6,
-  COLOR_FLOAT16             = 7
-} COLORDATATYPE;
-````
 
 
 ## -enum-fields

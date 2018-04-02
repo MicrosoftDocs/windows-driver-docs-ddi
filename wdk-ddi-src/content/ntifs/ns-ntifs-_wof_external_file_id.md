@@ -7,7 +7,7 @@ old-location: ifsk\wof_external_file_id.htm
 old-project: ifsk
 ms.assetid: 5C208DF7-C6CB-419D-B775-74E09DC4D448
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: "*PWOF_EXTERNAL_FILE_ID, PWOF_EXTERNAL_FILE_ID, PWOF_EXTERNAL_FILE_ID structure pointer [Installable File System Drivers], WOF_EXTERNAL_FILE_ID, WOF_EXTERNAL_FILE_ID structure [Installable File System Drivers], _WOF_EXTERNAL_FILE_ID, ifsk.wof_external_file_id, ntifs/PWOF_EXTERNAL_FILE_ID, ntifs/WOF_EXTERNAL_FILE_ID"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,16 +52,6 @@ req.typenames: WOF_EXTERNAL_FILE_ID, *PWOF_EXTERNAL_FILE_ID
 The <b>WOF_EXTERNAL_FILE_ID</b> structure contains a file ID that is used to open a handle to a mini-filter or driver.
 
 
-## -syntax
-
-
-````
-typedef struct _WOF_EXTERNAL_FILE_ID {
-  FILE_ID_128 FileId;
-} WOF_EXTERNAL_FILE_ID, *PWOF_EXTERNAL_FILE_ID;
-````
-
-
 ## -struct-fields
 
 
@@ -69,30 +59,29 @@ typedef struct _WOF_EXTERNAL_FILE_ID {
 
 ### -field FileId
 
-The file ID used with the <b>FILE_OPEN_BY_FILE_ID</b> flag to open a file with the <a href="..\fltkernel\nf-fltkernel-fltcreatefile.md">FltCreateFile</a> or <a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a> functions.
+The file ID used with the <b>FILE_OPEN_BY_FILE_ID</b> flag to open a file with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff541935">FltCreateFile</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff566424">ZwCreateFile</a> functions.
 
 
 ## -remarks
 
 
 
-Use the <a href="..\fltkernel\nf-fltkernel-fltcreatefile.md">FltCreateFile</a> function to open a handle to a minifilter driver and use the <a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a> function to open a handle to a driver.
+Use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff541935">FltCreateFile</a> function to open a handle to a minifilter driver and use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566424">ZwCreateFile</a> function to open a handle to a driver.
 
 
 
 
 ## -see-also
 
-<a href="..\ntifs\ns-ntifs-_wof_version_info.md">WOF_VERSION_INFO</a>
 
 
 
-<a href="..\ntifs\ns-ntifs-_wof_external_info.md">WOF_EXTERNAL_INFO</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn632452">WOF_EXTERNAL_INFO</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt426742">WOF_VERSION_INFO</a>
  
 
  
-
 

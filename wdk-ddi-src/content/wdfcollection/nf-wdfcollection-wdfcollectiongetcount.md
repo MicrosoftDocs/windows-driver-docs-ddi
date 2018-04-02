@@ -58,16 +58,6 @@ req.product: Windows 10 or later.
 The <b>WdfCollectionGetCount</b> method returns the number of objects that are currently in an object collection. 
 
 
-## -syntax
-
-
-````
-ULONG WdfCollectionGetCount(
-  _In_ WDFCOLLECTION Collection
-);
-````
-
-
 ## -parameters
 
 
@@ -126,12 +116,11 @@ for (i = 0; i &lt; count; i++) {
 
 ## -see-also
 
-<a href="..\wdfcollection\nf-wdfcollection-wdfcollectiongetitem.md">WdfCollectionGetItem</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545770">WdfCollectionGetItem</a>
  
 
  
-
 

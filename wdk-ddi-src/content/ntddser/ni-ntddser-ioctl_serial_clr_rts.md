@@ -51,7 +51,7 @@ req.typenames: SD_REQUEST_FUNCTION
 
 The <b>IOCTL_SERIAL_CLR_RTS</b> request clears the <i>request to send</i> (RTS) control signal.
 
-To set RTS, a client can use an <a href="..\ntddser\ni-ntddser-ioctl_serial_set_rts.md">IOCTL_SERIAL_SET_RTS</a> request.
+To set RTS, a client can use an <a href="https://msdn.microsoft.com/library/windows/hardware/ff546760">IOCTL_SERIAL_SET_RTS</a> request.
 
 If the handshake flow control of the device is configured to automatically use RTS, a client cannot clear or set RTS.
 
@@ -111,12 +111,11 @@ The <b>Information</b> member is set to zero.
 
 ## -see-also
 
-<a href="..\ntddser\ni-ntddser-ioctl_serial_set_rts.md">IOCTL_SERIAL_SET_RTS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546760">IOCTL_SERIAL_SET_RTS</a>
  
 
  
-
 

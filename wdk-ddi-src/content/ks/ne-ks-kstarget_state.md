@@ -52,17 +52,6 @@ req.typenames: KSTARGET_STATE
 
 
 
-## -syntax
-
-
-````
-typedef enum  { 
-  KSTARGET_STATE_DISABLED,
-  KSTARGET_STATE_ENABLED
-} KSTARGET_STATE;
-````
-
-
 ## -enum-fields
 
 

@@ -55,14 +55,6 @@ req.product: Windows 10 or later.
 The <b>GetWinUsbHandle</b> method retrieves the WinUsb interface handle that is associated with a USB interface.
 
 
-## -syntax
-
-
-````
-WINUSB_INTERFACE_HANDLE GetWinUsbHandle();
-````
-
-
 ## -parameters
 
 
@@ -96,20 +88,19 @@ The UMDF driver should not call the <a href="https://msdn.microsoft.com/library/
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560312">IWDFUsbInterface</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540233">WinUsb_Free</a>
 
 
 
-<a href="..\wudfusb\nn-wudfusb-iwdfusbinterface.md">IWDFUsbInterface</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540277">WinUsb_Initialize</a>
-
-
-
  
 
  
-
 

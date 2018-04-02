@@ -7,7 +7,7 @@ old-location: audio\iportclsruntimepower_sendpowercontrol.htm
 old-project: audio
 ms.assetid: 04B8EE71-59F9-4DE4-AD36-846632D3EBB4
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/19/2018
 ms.keywords: IPortClsRuntimePower, IPortClsRuntimePower interface [Audio Devices], SendPowerControl method, IPortClsRuntimePower::SendPowerControl, SendPowerControl method [Audio Devices], SendPowerControl method [Audio Devices], IPortClsRuntimePower interface, SendPowerControl,IPortClsRuntimePower.SendPowerControl, audio.iportclsruntimepower_sendpowercontrol, portcls/IPortClsRuntimePower::SendPowerControl
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,22 +50,6 @@ req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 
 
 The port class driver (PortCls) uses the <code>SendPowerControl</code>  method to send power control codes to the audio adapter.
-
-
-## -syntax
-
-
-````
-NTSTATUS SendPowerControl(
-  [in]            PDEVICE_OBJECT DeviceObject,
-  [in]            LPCGUID        PowerControlCode,
-  [in, optional]  PVOID          InBuffer,
-  [in]            SIZE_T         InBufferSize,
-  [out, optional] PVOID          OutBuffer,
-  [in]            SIZE_T         OutBufferSize,
-  [out, optional] PSIZE_T        BytesReturned
-);
-````
 
 
 ## -parameters
@@ -119,12 +103,11 @@ The <code>SendPowerControl</code> method returns STATUS_SUCCESS, if the call is 
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iportclsruntimepower.md">IPortClsRuntimePower</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265125">IPortClsRuntimePower</a>
  
 
  
-
 

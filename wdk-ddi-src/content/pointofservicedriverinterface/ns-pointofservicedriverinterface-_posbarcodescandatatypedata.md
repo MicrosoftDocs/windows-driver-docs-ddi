@@ -52,17 +52,6 @@ req.typenames: PosBarcodeScanDataTypeData
 This structure describes a buffer of barcode symbologies supported by the driver.
 
 
-## -syntax
-
-
-````
-typedef struct _PosBarcodeScanDataTypeData {
-  UINT32 dataLengthInBytes;
-  UINT32 scanDataTypes_0;
-} PosBarcodeScanDataTypeData;
-````
-
-
 ## -struct-fields
 
 

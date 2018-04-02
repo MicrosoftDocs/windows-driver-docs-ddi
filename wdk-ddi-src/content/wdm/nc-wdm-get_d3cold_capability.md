@@ -7,7 +7,7 @@ old-location: kernel\getbusdriverd3coldsupport.htm
 old-project: kernel
 ms.assetid: FE756171-327B-40E7-92A4-9159C509FD5E
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: GET_D3COLD_CAPABILITY, GetBusDriverD3ColdSupport, GetBusDriverD3ColdSupport routine [Kernel-Mode Driver Architecture], kernel.getbusdriverd3coldsupport, wdm/GetBusDriverD3ColdSupport
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,20 +53,6 @@ req.product: Windows 10 or later.
 The <i>GetBusDriverD3ColdSupport</i> routine enables the driver for a device to query whether the enumerating bus driver supports the D3cold device power state.
 
 
-## -prototype
-
-
-````
-GET_D3COLD_CAPABILITY GetBusDriverD3ColdSupport;
-
-NTSTATUS GetBusDriverD3ColdSupport(
-  _In_opt_ PVOID    Context,
-  _Out_    PBOOLEAN D3ColdSupported
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -74,7 +60,7 @@ NTSTATUS GetBusDriverD3ColdSupport(
 
 ### -param Context [in, optional]
 
-A pointer to interface-specific context information. The caller sets this parameter to the value of the <b>Context</b> member of the <a href="..\wdm\ns-wdm-_d3cold_support_interface.md">D3COLD_SUPPORT_INTERFACE</a> structure for the interface.
+A pointer to interface-specific context information. The caller sets this parameter to the value of the <b>Context</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh967706">D3COLD_SUPPORT_INTERFACE</a> structure for the interface.
 
 
 ### -param D3ColdSupported [out]
@@ -106,9 +92,9 @@ A bus driver supports D3cold if all of the following are true:
 <li>The bus driver implements the <i>GetBusDriverD3ColdSupport</i> routine in this interface.</li>
 <li>The output value from the <i>GetBusDriverD3ColdSupport</i> routine indicates that the bus driver supports D3cold.</li>
 </ul>
-The driver for a device can call the <a href="..\wdm\nc-wdm-get_idle_wake_info.md">GetIdleWakeInfo</a> routine to determine whether the underlying bus drivers and ACPI system firmware support D3cold for the device. If this call fails and returns an error status code, the device driver can call the <i>GetBusDriverD3ColdSupport</i> routine to determine whether the failure is caused by lack of D3cold support by the parent bus driver.
+The driver for a device can call the <a href="https://msdn.microsoft.com/library/windows/hardware/hh967712">GetIdleWakeInfo</a> routine to determine whether the underlying bus drivers and ACPI system firmware support D3cold for the device. If this call fails and returns an error status code, the device driver can call the <i>GetBusDriverD3ColdSupport</i> routine to determine whether the failure is caused by lack of D3cold support by the parent bus driver.
 
-A device on a bus can make a transition to the D3cold substate only if the bus driver supports this transition. If the bus driver does not support D3cold, the device never enters D3cold, even if the function driver for the device calls the <a href="..\wdm\nc-wdm-set_d3cold_support.md">SetD3ColdSupport</a> routine to enable the transition to D3cold. In this case, <i>SetD3ColdSupport</i> calls have no effect, but are harmless.
+A device on a bus can make a transition to the D3cold substate only if the bus driver supports this transition. If the bus driver does not support D3cold, the device never enters D3cold, even if the function driver for the device calls the <a href="https://msdn.microsoft.com/library/windows/hardware/hh967716">SetD3ColdSupport</a> routine to enable the transition to D3cold. In this case, <i>SetD3ColdSupport</i> calls have no effect, but are harmless.
 
 For this reason, most device drivers never need to call the <i>GetBusDriverD3ColdSupport</i> routine.
 
@@ -117,15 +103,10 @@ For this reason, most device drivers never need to call the <i>GetBusDriverD3Col
 
 ## -see-also
 
-<a href="..\wdm\nc-wdm-set_d3cold_support.md">SetD3ColdSupport</a>
 
 
 
-<a href="..\wdm\ns-wdm-_d3cold_support_interface.md">D3COLD_SUPPORT_INTERFACE</a>
-
-
-
-<a href="..\wdm\nc-wdm-get_idle_wake_info.md">GetIdleWakeInfo</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh967706">D3COLD_SUPPORT_INTERFACE</a>
 
 
 
@@ -133,8 +114,12 @@ For this reason, most device drivers never need to call the <i>GetBusDriverD3Col
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh967712">GetIdleWakeInfo</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh967716">SetD3ColdSupport</a>
  
 
  
-
 

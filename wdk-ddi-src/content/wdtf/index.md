@@ -2,7 +2,7 @@
 UID: NA:wdtf
 ms.assetid: 14e419d2-ee55-3451-99ed-6d9c21181fb2
 ms.author: windowsdriverdev
-ms.date: 03/13/18
+ms.date: 02/27/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

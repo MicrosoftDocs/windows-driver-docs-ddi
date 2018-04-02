@@ -7,7 +7,7 @@ old-location: kernel\kereverttousergroupaffinitythread.htm
 old-project: kernel
 ms.assetid: 13a1a106-0c5c-4c0e-964d-27e549e1c699
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: KeRevertToUserGroupAffinityThread, KeRevertToUserGroupAffinityThread routine [Kernel-Mode Driver Architecture], k105_be46d681-835f-40ba-8120-b8699e16ea0b.xml, kernel.kereverttousergroupaffinitythread, wdm/KeRevertToUserGroupAffinityThread
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,16 +53,6 @@ req.product: Windows 10 or later.
 The <b>KeRevertToUserGroupAffinityThread</b> routine restores the group affinity of the calling thread to its original value at the time that the thread was created. 
 
 
-## -syntax
-
-
-````
-VOID KeRevertToUserGroupAffinityThread(
-  _In_ PGROUP_AFFINITY PreviousAffinity
-);
-````
-
-
 ## -parameters
 
 
@@ -70,7 +60,7 @@ VOID KeRevertToUserGroupAffinityThread(
 
 ### -param PreviousAffinity [in]
 
-A pointer to the group affinity to restore. This parameter points to a <a href="..\minitape\ns-minitape-_group_affinity.md">GROUP_AFFINITY</a> structure that contains a group number and an affinity mask. The affinity mask specifies the set of logical processors that the user thread can run on. 
+A pointer to the group affinity to restore. This parameter points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff546539">GROUP_AFFINITY</a> structure that contains a group number and an affinity mask. The affinity mask specifies the set of logical processors that the user thread can run on. 
 
 
 ## -returns
@@ -92,7 +82,7 @@ The <i>PreviousAffinity</i> parameter points to a <b>GROUP_AFFINITY</b> structur
 
 A process can have affinity for more than one group at a time. However, a thread can be assigned to only one group at any time, and that group is always in the affinity of the thread's process.
 
-A thread can change the group to which it is assigned by calling the <a href="..\wdm\nf-wdm-kesetsystemgroupaffinitythread.md">KeSetSystemGroupAffinityThread</a> routine. Following one or more calls to <b>KeSetSystemGroupAffinityThread</b>, the thread can restore the original group affinity that it had when the thread was created by calling <b>KeRevertToUserGroupAffinityThread</b>.
+A thread can change the group to which it is assigned by calling the <a href="https://msdn.microsoft.com/library/windows/hardware/ff553275">KeSetSystemGroupAffinityThread</a> routine. Following one or more calls to <b>KeSetSystemGroupAffinityThread</b>, the thread can restore the original group affinity that it had when the thread was created by calling <b>KeRevertToUserGroupAffinityThread</b>.
 
 After the thread is created, a call to <b>KeRevertToUserGroupAffinityThread</b> has no effect (that is, the group number and affinity mask of the thread remain unchanged) unless the thread first calls <b>KeSetSystemGroupAffinityThread</b>. Following a call to <b>KeRevertToUserGroupAffinityThread</b>, a second call to <b>KeRevertToUserGroupAffinityThread</b> has no effect unless the thread first calls <b>KeSetSystemGroupAffinityThread</b>.
 
@@ -114,7 +104,7 @@ At least one of the processors that is specified in the affinity mask is active.
 </ul>
 If any of these conditions is not met, the call to <b>KeRevertToUserGroupAffinityThread</b> has no effect.
 
-A related routine, <a href="..\wdm\nf-wdm-kereverttouseraffinitythreadex.md">KeRevertToUserAffinityThreadEx</a>, changes the affinity mask of the calling thread, but this routine, unlike <b>KeRevertToUserGroupAffinityThread</b>, does not accept a group number as an input parameter. In Windows 7 and later versions of the Windows operating system, <b>KeRevertToUserAffinityThreadEx</b> assumes that the affinity mask refers to processors in group 0, which is compatible with the behavior of this routine in earlier versions of Windows that do not support groups. This behavior ensures that existing drivers that call <b>KeRevertToUserAffinityThreadEx</b> and that use no group-oriented features will run correctly in multiprocessor systems that have two or more groups. However, drivers that use any group-oriented features in Windows 7 and later versions of the Windows operating system should call <b>KeRevertToUserGroupAffinityThread</b> instead of <b>KeRevertToUserAffinityThreadEx</b>.
+A related routine, <a href="https://msdn.microsoft.com/library/windows/hardware/ff553190">KeRevertToUserAffinityThreadEx</a>, changes the affinity mask of the calling thread, but this routine, unlike <b>KeRevertToUserGroupAffinityThread</b>, does not accept a group number as an input parameter. In Windows 7 and later versions of the Windows operating system, <b>KeRevertToUserAffinityThreadEx</b> assumes that the affinity mask refers to processors in group 0, which is compatible with the behavior of this routine in earlier versions of Windows that do not support groups. This behavior ensures that existing drivers that call <b>KeRevertToUserAffinityThreadEx</b> and that use no group-oriented features will run correctly in multiprocessor systems that have two or more groups. However, drivers that use any group-oriented features in Windows 7 and later versions of the Windows operating system should call <b>KeRevertToUserGroupAffinityThread</b> instead of <b>KeRevertToUserAffinityThreadEx</b>.
 
 If <b>KeRevertToUserGroupAffinityThread</b> is called at IRQL &lt;= APC_LEVEL and the call is successful, the new (reverted) group affinity takes effect immediately. When the call returns, the calling thread is already running on a processor that is specified in the new group affinity. If <b>KeRevertToUserGroupAffinityThread</b> is called at IRQL = DISPATCH_LEVEL and the call is successful, the pending processor change is deferred until the caller lowers the IRQL below DISPATCH_LEVEL.
 
@@ -123,20 +113,19 @@ If <b>KeRevertToUserGroupAffinityThread</b> is called at IRQL &lt;= APC_LEVEL an
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kesetsystemgroupaffinitythread.md">KeSetSystemGroupAffinityThread</a>
 
 
 
-<a href="..\minitape\ns-minitape-_group_affinity.md">GROUP_AFFINITY</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546539">GROUP_AFFINITY</a>
 
 
 
-<a href="..\wdm\nf-wdm-kereverttouseraffinitythreadex.md">KeRevertToUserAffinityThreadEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553190">KeRevertToUserAffinityThreadEx</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553275">KeSetSystemGroupAffinityThread</a>
  
 
  
-
 

@@ -53,17 +53,6 @@ req.typenames:
 The<b> KsPinAttachOrGate</b> function connects <i>Pin</i> as an input to a previously initialized OR gate, and connects <i>OrGate</i> as an input to the relevant filter's AND gate. 
 
 
-## -syntax
-
-
-````
-void KsPinAttachOrGate(
-  _In_     PKSPIN  Pin,
-  _In_opt_ PKSGATE OrGate
-);
-````
-
-
 ## -parameters
 
 
@@ -71,12 +60,12 @@ void KsPinAttachOrGate(
 
 ### -param Pin [in]
 
-A pointer to the <a href="..\ks\ns-ks-_kspin.md">KSPIN</a> structure to use an input to the OR gate.
+A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563483">KSPIN</a> structure to use an input to the OR gate.
 
 
 ### -param OrGate [in, optional]
 
-A pointer to a <a href="..\ks\ns-ks-_ksgate.md">KSGATE</a> structure that is the previously initialized OR gate to connect to the relevant filter's AND gate. If this optional parameter is NULL, any <b>KSGATE</b> currently attached to the pin is detached.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff562566">KSGATE</a> structure that is the previously initialized OR gate to connect to the relevant filter's AND gate. If this optional parameter is NULL, any <b>KSGATE</b> currently attached to the pin is detached.
 
 
 ## -returns
@@ -92,7 +81,7 @@ None
 
 
 
-To insert the gate, first call <a href="..\ks\nf-ks-ksgateinitializeor.md">KsGateInitializeOr</a>. Then call <b>KsPinAttachOrGate</b>. For more information, see <a href="https://msdn.microsoft.com/c5592f92-a432-44e3-afe0-60fcf917a443">Flow Control Gates in AVStream</a>.
+To insert the gate, first call <a href="https://msdn.microsoft.com/library/windows/hardware/ff562576">KsGateInitializeOr</a>. Then call <b>KsPinAttachOrGate</b>. For more information, see <a href="https://msdn.microsoft.com/c5592f92-a432-44e3-afe0-60fcf917a443">Flow Control Gates in AVStream</a>.
 
 Do not leave an unattached OR gate at filter creation time. Instead, create the OR gate later, for example  when the minidriver instantiates the pin.
 
@@ -103,20 +92,19 @@ Do not leave an unattached OR gate at filter creation time. Instead, create the 
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksgateinitializeor.md">KsGateInitializeOr</a>
 
 
 
-<a href="..\ks\ns-ks-_ksgate.md">KSGATE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562566">KSGATE</a>
 
 
 
-<a href="..\ks\nf-ks-kspinattachandgate.md">KsPinAttachAndGate</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562576">KsGateInitializeOr</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563491">KsPinAttachAndGate</a>
  
 
  
-
 

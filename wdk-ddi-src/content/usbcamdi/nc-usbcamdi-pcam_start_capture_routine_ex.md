@@ -53,21 +53,6 @@ req.product: Windows 10 or later.
 A camera minidriver's <b>CamStartCaptureEx</b> callback function selects the appropriate alternate setting within the USB video streaming interface and prepares the device to stream.
 
 
-## -prototype
-
-
-````
-PCAM_START_CAPTURE_ROUTINE_EX CamStartCaptureEx;
-
-NTSTATUS CamStartCaptureEx(
-   PDEVICE_OBJECT BusDeviceObject,
-   PVOID          DeviceContext,
-   ULONG          StreamNumber
-)
-{ ... }
-````
-
-
 ## -parameters
 
 

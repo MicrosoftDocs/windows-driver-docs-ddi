@@ -7,7 +7,7 @@ old-location: ifsk\fltobjectreference.htm
 old-project: ifsk
 ms.assetid: ad6317bf-92fc-4e77-9993-37b7aa123a3d
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FltApiRef_e_to_o_66eccb5d-8f95-4779-b329-aaeb8b8c09b5.xml, FltObjectReference, FltObjectReference routine [Installable File System Drivers], fltkernel/FltObjectReference, ifsk.fltobjectreference
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,16 +50,6 @@ req.typenames: EXpsFontRestriction
 
 
 The <b>FltObjectReference</b> routine adds a rundown reference to an opaque filter, instance, or volume pointer. 
-
-
-## -syntax
-
-
-````
-NTSTATUS FltObjectReference(
-  _Inout_ PVOID FltObject
-);
-````
 
 
 ## -parameters
@@ -106,19 +96,18 @@ The minifilter driver, instance, or volume is being torn down. This is an error 
 
 Adding a rundown reference to an opaque filter, instance, or volume object pointer prevents the object from being freed. 
 
-To remove a rundown reference from an opaque filter, instance, or volume pointer, call <a href="..\fltkernel\nf-fltkernel-fltobjectdereference.md">FltObjectDereference</a>. 
+To remove a rundown reference from an opaque filter, instance, or volume pointer, call <a href="https://msdn.microsoft.com/library/windows/hardware/ff543378">FltObjectDereference</a>. 
 
 
 
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltobjectdereference.md">FltObjectDereference</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543378">FltObjectDereference</a>
  
 
  
-
 

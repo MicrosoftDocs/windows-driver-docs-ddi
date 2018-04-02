@@ -56,18 +56,6 @@ The <b>WDF_WRITE_PORT_ULONG</b> function writes a ULONG value to the specified p
 
 
 
-## -syntax
-
-
-````
-void WDF_WRITE_PORT_ULONG(
-  _In_ WDFDEVICE Device,
-  _In_ PULONG    Port,
-  _In_ ULONG     Value
-);
-````
-
-
 ## -parameters
 
 

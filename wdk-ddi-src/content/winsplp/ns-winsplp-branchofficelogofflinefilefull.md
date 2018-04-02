@@ -53,16 +53,6 @@ req.product: Windows 10 or later.
 Contains the necessary data for logging that the offline log archive on the current client overflowed at some point.
 
 
-## -syntax
-
-
-````
-typedef struct {
-  LPWSTR pMachineName;
-} BranchOfficeLogOfflineFileFull, *PBranchOfficeLogOfflineFileFull;
-````
-
-
 ## -struct-fields
 
 

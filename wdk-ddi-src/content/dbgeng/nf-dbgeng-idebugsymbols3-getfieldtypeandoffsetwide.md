@@ -7,7 +7,7 @@ old-location: debugger\getfieldtypeandoffsetwide.htm
 old-project: debugger
 ms.assetid: b4e38b33-2f23-4439-b0bc-ab3524e5180e
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: GetFieldTypeAndOffsetWide method [Windows Debugging], GetFieldTypeAndOffsetWide method [Windows Debugging], IDebugSymbols3 interface, GetFieldTypeAndOffsetWide,IDebugSymbols3.GetFieldTypeAndOffsetWide, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetFieldTypeAndOffsetWide method, IDebugSymbols3::GetFieldTypeAndOffsetWide, dbgeng/IDebugSymbols3::GetFieldTypeAndOffsetWide, debugger.getfieldtypeandoffsetwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,20 +50,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>GetFieldTypeAndOffsetWide</b>  method returns the type of a field and its offset within a container.
-
-
-## -syntax
-
-
-````
-HRESULT GetFieldTypeAndOffsetWide(
-  [in]            ULONG64 Module,
-  [in]            ULONG   ContainerTypeId,
-  [in]            PCWSTR  Field,
-  [out, optional] PULONG  FieldTypeId,
-  [out, optional] PULONG  Offset
-);
-````
 
 
 ## -parameters
@@ -148,7 +134,6 @@ For more information about types, see <a href="https://msdn.microsoft.com/librar
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
 
 
@@ -160,8 +145,8 @@ For more information about types, see <a href="https://msdn.microsoft.com/librar
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550870">IDebugSymbols3</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: display\videoportreleasespinlockfromdpclevel.htm
 old-project: display
 ms.assetid: 375158e7-3fb5-4e49-a7cf-ee9a1e5c07ca
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: VideoPortReleaseSpinLockFromDpcLevel, VideoPortReleaseSpinLockFromDpcLevel function [Display Devices], VideoPort_Functions_2c3a3aa1-4ef4-4b7f-8cdf-b658a1128c35.xml, display.videoportreleasespinlockfromdpclevel, video/VideoPortReleaseSpinLockFromDpcLevel
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,18 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The <b>VideoPortReleaseSpinLockFromDpcLevel</b> function releases the spin lock obtained by a previous call to <a href="..\video\nf-video-videoportacquirespinlockatdpclevel.md">VideoPortAcquireSpinLockAtDpcLevel</a>.
-
-
-## -syntax
-
-
-````
-VOID VideoPortReleaseSpinLockFromDpcLevel(
-  _In_    PVOID      HwDeviceExtension,
-  _Inout_ PSPIN_LOCK SpinLock
-);
-````
+The <b>VideoPortReleaseSpinLockFromDpcLevel</b> function releases the spin lock obtained by a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff570176">VideoPortAcquireSpinLockAtDpcLevel</a>.
 
 
 ## -parameters
@@ -99,25 +88,24 @@ None
 
 
 
-Miniport drivers call <b>VideoPortReleaseSpinLockFromDpcLevel</b> to release a spin lock acquired by calling <a href="..\video\nf-video-videoportacquirespinlockatdpclevel.md">VideoPortAcquireSpinLockAtDpcLevel</a>.
+Miniport drivers call <b>VideoPortReleaseSpinLockFromDpcLevel</b> to release a spin lock acquired by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff570176">VideoPortAcquireSpinLockAtDpcLevel</a>.
 
-It is an error to call <b>VideoPortReleaseSpinLockFromDpcLevel</b> if the given spin lock was acquired by calling <a href="..\video\nf-video-videoportacquirespinlock.md">VideoPortAcquireSpinLock</a> because the caller's original IRQL is not restored, which can cause deadlocks or fatal page faults. 
+It is an error to call <b>VideoPortReleaseSpinLockFromDpcLevel</b> if the given spin lock was acquired by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff570175">VideoPortAcquireSpinLock</a> because the caller's original IRQL is not restored, which can cause deadlocks or fatal page faults. 
 
 
 
 
 ## -see-also
 
-<a href="..\video\nf-video-videoportacquirespinlockatdpclevel.md">VideoPortAcquireSpinLockAtDpcLevel</a>
 
 
 
-<a href="..\video\nf-video-videoportacquirespinlock.md">VideoPortAcquireSpinLock</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570175">VideoPortAcquireSpinLock</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570176">VideoPortAcquireSpinLockAtDpcLevel</a>
  
 
  
-
 

@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 Called when a bidi response  is received.
 
 
-## -syntax
-
-
-````
-HRESULT OnBidiResponseReceived(
-  [in] BSTR    bstrResponse,
-  [in] HRESULT hrStatus
-);
-````
-
-
 ## -parameters
 
 
@@ -99,11 +88,14 @@ The <i>bstrResponse</i> parameter is formatted according to the schema that is d
 
 ## -see-also
 
+
+
+
 <a href="http://msdn.microsoft.com/en-us/library/windows/desktop/dd183368(v=vs.85).aspx">Bidi Request and Response Schemas</a>
 
 
 
-<a href="..\printerextension\nn-printerextension-iprinterqueueevent.md">IPrinterQueueEvent</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439635">IPrinterQueue</a>
 
 
 
@@ -111,12 +103,8 @@ The <i>bstrResponse</i> parameter is formatted according to the schema that is d
 
 
 
-<a href="..\printerextension\nn-printerextension-iprinterqueue.md">IPrinterQueue</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439618">IPrinterQueueEvent</a>
  
 
  
-
 

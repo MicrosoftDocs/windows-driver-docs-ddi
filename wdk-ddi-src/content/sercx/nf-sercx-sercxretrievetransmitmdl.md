@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 The <b>SerCxRetrieveTransmitMdl</b> method retrieves the MDL that describes the buffer that contains the next block of output data to be transmitted.
 
 
-## -syntax
-
-
-````
-NTSTATUS SerCxRetrieveTransmitMdl(
-  [in]  WDFDEVICE Device,
-  [out] PMDL      *Mdl
-);
-````
-
-
 ## -parameters
 
 
@@ -101,7 +90,7 @@ This value is returned if one of the following occurs:
 
 <ul>
 <li>There is no outstanding transmit request to get an MDL from.</li>
-<li>The current number of bytes transmitted (as reported by the <a href="..\sercx\nf-sercx-sercxprogresstransmit.md">SerCxProgressTransmit</a> method) does not equal zero.</li>
+<li>The current number of bytes transmitted (as reported by the <a href="https://msdn.microsoft.com/library/windows/hardware/hh406715">SerCxProgressTransmit</a> method) does not equal zero.</li>
 <li>The buffer has already been retrieved (and the corresponding call to the <b>SerCxProgressTransmit</b> method has not yet occurred).</li>
 <li>The MDL has already been retrieved (and the corresponding call to the <b>SerCxProgressTransmit</b> method has not yet occurred).</li>
 </ul>
@@ -117,7 +106,7 @@ This value is returned if one of the following occurs:
 
 
 
-The serial controller driver calls this function to obtain an MDL to use for the current transmit (write) operation. The MDL describes the buffer memory from which the driver is to obtain the data to be transmitted. The driver is the exclusive owner of this MDL until it calls the <a href="..\sercx\nf-sercx-sercxprogresstransmit.md">SerCxProgressTransmit</a> method, after which the MDL pointer is invalid and the driver must no longer try to access either the MDL or the buffer memory that the MDL describes.
+The serial controller driver calls this function to obtain an MDL to use for the current transmit (write) operation. The MDL describes the buffer memory from which the driver is to obtain the data to be transmitted. The driver is the exclusive owner of this MDL until it calls the <a href="https://msdn.microsoft.com/library/windows/hardware/hh406715">SerCxProgressTransmit</a> method, after which the MDL pointer is invalid and the driver must no longer try to access either the MDL or the buffer memory that the MDL describes.
 
 For more information about MDLs, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565421">Using MDLs</a>.
 
@@ -126,12 +115,11 @@ For more information about MDLs, see <a href="https://msdn.microsoft.com/library
 
 ## -see-also
 
-<a href="..\sercx\nf-sercx-sercxprogresstransmit.md">SerCxProgressTransmit</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406715">SerCxProgressTransmit</a>
  
 
  
-
 

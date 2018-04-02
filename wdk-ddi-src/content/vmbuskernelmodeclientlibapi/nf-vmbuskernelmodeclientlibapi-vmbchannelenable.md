@@ -7,7 +7,7 @@ old-location: netvista\vmbchannelenable.htm
 old-project: netvista
 ms.assetid: A0256B3F-C35C-45AB-A825-0A82189F08DC
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: VmbChannelEnable, VmbChannelEnable function [Network Drivers Starting with Windows Vista], netvista.vmbchannelenable, vmbuskernelmodeclientlibapi/VmbChannelEnable
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -56,17 +56,6 @@ req.product: Windows 10 or later.
 The <b>VmbChannelEnable</b> function enables a channel that is in the disabled state by connecting to VMBus and
 offering or opening a channel, as  appropriate for the endpoint type.
 
-
-
-## -syntax
-
-
-````
-NTSTATUS
- VmbChannelEnable(
-  _In_ VMBCHANNEL Channel
-);
-````
 
 
 ## -parameters

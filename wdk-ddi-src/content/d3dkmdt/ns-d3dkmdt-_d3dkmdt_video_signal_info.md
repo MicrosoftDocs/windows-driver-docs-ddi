@@ -7,7 +7,7 @@ old-location: display\d3dkmdt_video_signal_info.htm
 old-project: display
 ms.assetid: 38d0a655-265b-46e0-8af3-de6757025588
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMDT_VIDEO_SIGNAL_INFO, D3DKMDT_VIDEO_SIGNAL_INFO structure [Display Devices], DmStructs_10882170-8ccd-481d-bb36-b0a1f706e395.xml, _D3DKMDT_VIDEO_SIGNAL_INFO, d3dkmdt/D3DKMDT_VIDEO_SIGNAL_INFO, display.d3dkmdt_video_signal_info
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,31 +52,6 @@ req.typenames: D3DKMDT_VIDEO_SIGNAL_INFO
 The D3DKMDT_VIDEO_SIGNAL_INFO structure contains information about a video signal driven by a video output on a display adapter.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DKMDT_VIDEO_SIGNAL_INFO {
-  D3DKMDT_VIDEO_SIGNAL_STANDARD VideoStandard;
-  D3DKMDT_2DREGION              TotalSize;
-  D3DKMDT_2DREGION              ActiveSize;
-  D3DDDI_RATIONAL               VSyncFreq;
-  D3DDDI_RATIONAL               HSyncFreq;
-  SIZE_T                        PixelRate;
-  union {
-#if (DXGKDDI_INTERFACE_VERSION >= DXGKDDI_INTERFACE_VERSION_WDDM1_3_M1)
-    struct {
-      D3DDDI_VIDEO_SIGNAL_SCANLINE_ORDERING ScanLineOrdering  :3;
-      UINT                                  VSyncFreqDivider  :6;
-      UINT                                  Reserved  :23;
-    } AdditionalSignalInfo;
-#endif 
-    D3DDDI_VIDEO_SIGNAL_SCANLINE_ORDERING ScanLineOrdering;
-  };
-} D3DKMDT_VIDEO_SIGNAL_INFO;
-````
-
-
 ## -struct-fields
 
 
@@ -84,12 +59,12 @@ typedef struct _D3DKMDT_VIDEO_SIGNAL_INFO {
 
 ### -field VideoStandard
 
-A constant from the <a href="..\d3dkmdt\ne-d3dkmdt-_d3dkmdt_video_signal_standard.md">D3DKMDT_VIDEO_SIGNAL_STANDARD</a> enumeration that indicates the video standard (if any) that defines the video signal.
+A constant from the <a href="https://msdn.microsoft.com/library/windows/hardware/ff546632">D3DKMDT_VIDEO_SIGNAL_STANDARD</a> enumeration that indicates the video standard (if any) that defines the video signal.
 
 
 ### -field TotalSize
 
-A <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_2dregion.md">D3DKMDT_2DREGION</a> structure that specifies the width and height (in pixels) of the entire video signal.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff545977">D3DKMDT_2DREGION</a> structure that specifies the width and height (in pixels) of the entire video signal.
 
 
 ### -field ActiveSize
@@ -99,7 +74,7 @@ A D3DKMDT_2DREGION structure that specifies the width and height (in pixels) of 
 
 ### -field VSyncFreq
 
-A <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_rational.md">D3DDDI_RATIONAL</a> structure that specifies the vertical refresh rate in Hz.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff544641">D3DDDI_RATIONAL</a> structure that specifies the vertical refresh rate in Hz.
 
 
 ### -field HSyncFreq
@@ -119,7 +94,7 @@ Supported by WDDM 1.3 and later display miniport drivers running on Windows 8.1
 
 ### -field AdditionalSignalInfo.ScanLineOrdering
 
-A constant from the <a href="..\d3dukmdt\ne-d3dukmdt-_d3dddi_video_signal_scanline_ordering.md">D3DDDI_VIDEO_SIGNAL_SCANLINE_ORDERING</a> enumeration that indicates the scanline ordering (for example, progressive or interlaced) of the video signal.
+A constant from the <a href="https://msdn.microsoft.com/library/windows/hardware/ff544682">D3DDDI_VIDEO_SIGNAL_SCANLINE_ORDERING</a> enumeration that indicates the scanline ordering (for example, progressive or interlaced) of the video signal.
 
 Supported starting with Windows 8.1.
 
@@ -146,21 +121,20 @@ Supported starting with Windows 8.1.
 
 #### - ScanLineOrdering
 
-A constant from the <a href="..\d3dukmdt\ne-d3dukmdt-_d3dddi_video_signal_scanline_ordering.md">D3DDDI_VIDEO_SIGNAL_SCANLINE_ORDERING</a> enumeration that indicates the scanline ordering (for example, progressive or interlaced) of the video signal.
+A constant from the <a href="https://msdn.microsoft.com/library/windows/hardware/ff544682">D3DDDI_VIDEO_SIGNAL_SCANLINE_ORDERING</a> enumeration that indicates the scanline ordering (for example, progressive or interlaced) of the video signal.
 
 
 ## -see-also
 
-<a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_video_present_target.md">D3DKMDT_VIDEO_PRESENT_TARGET</a>
 
 
 
-<a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_vidpn_target_mode.md">D3DKMDT_VIDPN_TARGET_MODE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546617">D3DKMDT_VIDEO_PRESENT_TARGET</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546729">D3DKMDT_VIDPN_TARGET_MODE</a>
  
 
  
-
 

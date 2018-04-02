@@ -7,7 +7,7 @@ old-location: debugger\getsymbolvaluetextwide.htm
 old-project: debugger
 ms.assetid: 56e147ea-497b-4691-8a62-8165828b1f36
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: GetSymbolValueTextWide method [Windows Debugging], GetSymbolValueTextWide method [Windows Debugging], IDebugSymbolGroup2 interface, GetSymbolValueTextWide,IDebugSymbolGroup2.GetSymbolValueTextWide, IDebugSymbolGroup2, IDebugSymbolGroup2 interface [Windows Debugging], GetSymbolValueTextWide method, IDebugSymbolGroup2::GetSymbolValueTextWide, dbgeng/IDebugSymbolGroup2::GetSymbolValueTextWide, debugger.getsymbolvaluetextwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,19 +50,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>GetSymbolValueTextWide</b> method returns a string that represents the value of a symbol.
-
-
-## -syntax
-
-
-````
-HRESULT GetSymbolValueTextWide(
-  [in]            ULONG  Index,
-  [out, optional] PWSTR  Buffer,
-  [in]            ULONG  BufferSize,
-  [out, optional] PULONG NameSize
-);
-````
 
 
 ## -parameters
@@ -142,20 +129,19 @@ For more information about symbol groups, see <a href="https://msdn.microsoft.co
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547975">GetNumberSymbols</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550846">IDebugSymbolGroup2</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561457">WriteSymbol</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup2.md">IDebugSymbolGroup2</a>
-
-
-
  
 
  
-
 

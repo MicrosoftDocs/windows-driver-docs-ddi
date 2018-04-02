@@ -52,19 +52,6 @@ req.typenames: KSPROPERTY_GM
 
 
 
-## -syntax
-
-
-````
-typedef enum  { 
-  KSPROPERTY_GM_GRAPHMANAGER,
-  KSPROPERTY_GM_TIMESTAMP_CLOCK,
-  KSPROPERTY_GM_RATEMATCH,
-  KSPROPERTY_GM_RENDER_CLOCK
-} KSPROPERTY_GM;
-````
-
-
 ## -enum-fields
 
 

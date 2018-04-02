@@ -7,7 +7,7 @@ old-location: netvista\miniportsendnetbufferlists.htm
 old-project: netvista
 ms.assetid: 0bd5966d-66a6-4548-8c84-7cedced2cf40
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: MINIPORT_SEND_NET_BUFFER_LISTS, MiniportSendNetBufferLists, MiniportSendNetBufferLists callback function [Network Drivers Starting with Windows Vista], ndis/MiniportSendNetBufferLists, ndis_sendrcv_ref_2af2df46-99cf-4bae-9dea-12358fb0b489.xml, netvista.miniportsendnetbufferlists
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,25 +51,9 @@ req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
 
 NDIS calls the 
    <i>MiniportSendNetBufferLists</i> function to transmit network data that is contained in a linked list of 
-   <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structures.
+   <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structures.
 <div class="alert"><b>Note</b>  You must declare the function by using the <b>MINIPORT_SEND_NET_BUFFER_LISTS</b> type. For
    more information, see the following Examples section.</div><div> </div>
-
-## -prototype
-
-
-````
-MINIPORT_SEND_NET_BUFFER_LISTS MiniportSendNetBufferLists;
-
-VOID MiniportSendNetBufferLists(
-  _In_ NDIS_HANDLE      MiniportAdapterContext,
-  _In_ PNET_BUFFER_LIST NetBufferList,
-  _In_ NDIS_PORT_NUMBER PortNumber,
-  _In_ ULONG            SendFlags
-)
-{ ... }
-````
-
 
 ## -parameters
 
@@ -79,16 +63,16 @@ VOID MiniportSendNetBufferLists(
 ### -param MiniportAdapterContext [in]
 
 A handle to a context area that the miniport driver allocated in its 
-     <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a> function.
+     <a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a> function.
      The miniport driver uses this context area to maintain state information about an adapter.
 
 
 ### -param NetBufferList [in]
 
 A pointer to the first 
-     <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure in a linked list
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structure in a linked list
      of NET_BUFFER_LIST structures. Each NET_BUFFER_LIST structure in the list describes a list of 
-     <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a> structures. Each NET_BUFFER structure
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a> structures. Each NET_BUFFER structure
      in the list maps to a chain of MDLs. The MDLs contain the network data.
 
 
@@ -96,7 +80,7 @@ A pointer to the first
 
 A port number that identifies a miniport adapter port. To assign a miniport adapter port number,
      call the 
-     <a href="..\ndis\nf-ndis-ndismallocateport.md">NdisMAllocatePort</a> function. A zero
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff562779">NdisMAllocatePort</a> function. A zero
      value identifies the default port of a miniport adapter.
 
 
@@ -142,25 +126,25 @@ None
 
 <i>MiniportSendNetBufferLists</i> is a required function for miniport drivers. When an overlying driver
     calls the 
-    <a href="..\ndis\nf-ndis-ndissendnetbufferlists.md">NdisSendNetBufferLists</a> function,
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff564535">NdisSendNetBufferLists</a> function,
     NDIS calls the 
     <i>MiniportSendNetBufferLists</i> function of the bound miniport driver.
 
 When transmitting the network data that NDIS passes in the <i>NetBufferLists</i> parameter, the miniport driver must use the following guidelines:<ol>
 <li>
-The order of the <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a> structures in each <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure must be preserved.
+The order of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a> structures in each <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structure must be preserved.
 
 </li>
 <li>
-The order of the <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structures should be preserved if they are to be transmitted on the same connection.
+The order of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structures should be preserved if they are to be transmitted on the same connection.
 
 </li>
 <li>
-If the <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structures are to be transmitted on different connections, they can be split into multiple transmit queues if  the following features are in use. In this case, the order of the <b>NET_BUFFER_LIST</b> structures for each connection should be preserved.
+If the <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structures are to be transmitted on different connections, they can be split into multiple transmit queues if  the following features are in use. In this case, the order of the <b>NET_BUFFER_LIST</b> structures for each connection should be preserved.
 
 <ul>
 <li>
-Receive side scaling (RSS) (The RSS hash value in the <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure can be used as an index into the RSS indirection table.)
+Receive side scaling (RSS) (The RSS hash value in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structure can be used as an index into the RSS indirection table.)
 
 </li>
 <li>
@@ -187,7 +171,7 @@ Miniport drivers accept all send requests that NDIS makes by calling the
     protocol-allocated resources associated with the NET_BUFFER_LIST structures.
 
 The miniport driver must call the 
-    <a href="..\ndis\nf-ndis-ndismsendnetbufferlistscomplete.md">
+    <a href="https://msdn.microsoft.com/33890582-5eba-4cc1-a0d9-ec07f18da453">
     NdisMSendNetBufferListsComplete</a> function to complete the send requests for all NET_BUFFER_LIST
     structures. To improve system performance, the driver can create a linked list that contains the
     NET_BUFFER_LIST structures from multiple send requests. The driver can then pass such a linked list in a
@@ -260,37 +244,36 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndismsendnetbufferlistscomplete.md">
+
+
+
+<a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562779">NdisMAllocatePort</a>
+
+
+
+<a href="https://msdn.microsoft.com/33890582-5eba-4cc1-a0d9-ec07f18da453">
    NdisMSendNetBufferListsComplete</a>
 
 
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismallocateport.md">NdisMAllocatePort</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-
-
-
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564535">NdisSendNetBufferLists</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569597">OID_GEN_MAC_OPTIONS</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndissendnetbufferlists.md">NdisSendNetBufferLists</a>
-
-
-
  
 
  
-
 

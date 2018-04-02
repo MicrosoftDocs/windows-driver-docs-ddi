@@ -55,17 +55,6 @@ req.product: Windows 10 or later.
 The <b>CreateFileHandleTarget</b> method creates a file-handle-based I/O target object.
 
 
-## -syntax
-
-
-````
-HRESULT CreateFileHandleTarget(
-  [in]  HANDLE       hTarget,
-  [out] IWDFIoTarget **ppTarget
-);
-````
-
-
 ## -parameters
 
 
@@ -78,7 +67,7 @@ A handle to the target device. The handle must have been previously opened with 
 
 ### -param ppTarget [out]
 
-A pointer to a location that receives a pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfiotarget.md">IWDFIoTarget</a> interface of the I/O target object.
+A pointer to a location that receives a pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559170">IWDFIoTarget</a> interface of the I/O target object.
 
 
 ## -returns
@@ -134,11 +123,11 @@ If your driver uses a file-handle-based I/O target, the <b>DDInstall.WDF</b> sec
 
 After the driver creates a file-handle-based I/O target object, it can format I/O requests and send them to the I/O target. Typically, if the driver calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff559233">IWDFIoTarget::FormatRequestForRead</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff559236">IWDFIoTarget::FormatRequestForWrite</a>, or <a href="https://msdn.microsoft.com/library/windows/hardware/ff559230">IWDFIoTarget::FormatRequestForIoctl</a>, the driver sets the <i>pFile</i> parameter to <b>NULL</b>. The <b>NULL</b> causes the framework to use the filename that the driver specified to <b>CreateFileHandleTarget</b>. If the driver provides a non-<b>NULL</b> <i>pFile</i> parameter, the specified file replaces the file that the driver specified to <b>CreateFileHandleTarget</b>. (Drivers can also call <a href="https://msdn.microsoft.com/library/windows/hardware/ff559077">IWDFIoRequest::FormatUsingCurrentType</a> to format an I/O request.)
 
-When the driver calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff559149">IWDFIoRequest::Send</a> to send the I/O request to the I/O target, the driver must not set the <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_request_send_options_flags.md">WDF_REQUEST_SEND_OPTION_SEND_AND_FORGET</a> value in the <i>Flags</i> parameter. 
+When the driver calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff559149">IWDFIoRequest::Send</a> to send the I/O request to the I/O target, the driver must not set the <a href="https://msdn.microsoft.com/02678466-aa8d-436d-8be3-b8a57218a106">WDF_REQUEST_SEND_OPTION_SEND_AND_FORGET</a> value in the <i>Flags</i> parameter. 
 
 The Win32 handle that the driver passes to <b>CreateFileHandleTarget</b> must remain valid for the lifetime of the file-handle-based I/O target object. (The framework does not take a reference on this target handle, so your driver must ensure that the Win32 handle remains valid.)
 
-When the driver has finished using the <a href="..\wudfddi\nn-wudfddi-iwdfiotarget.md">IWDFIoTarget</a> interface that <b>CreateFileHandleTarget</b> provides, it must release the <b>IWDFIoTarget</b> interface.
+When the driver has finished using the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559170">IWDFIoTarget</a> interface that <b>CreateFileHandleTarget</b> provides, it must release the <b>IWDFIoTarget</b> interface.
 
 For more information about <b>CreateFileHandleTarget</b> and I/O targets, see <a href="https://msdn.microsoft.com/cf1b39c3-4c82-411b-8eef-117ac0fe793e">Initializing a General I/O Target in UMDF</a>.
 
@@ -192,20 +181,19 @@ if (SUCCEEDED(hr)) {
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558926">IWDFFileHandleTargetFactory</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559149">IWDFIoRequest::Send</a>
 
 
 
-<a href="..\wudfddi\nn-wudfddi-iwdfiotarget.md">IWDFIoTarget</a>
-
-
-
-<a href="..\wudfddi\nn-wudfddi-iwdffilehandletargetfactory.md">IWDFFileHandleTargetFactory</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559170">IWDFIoTarget</a>
  
 
  
-
 

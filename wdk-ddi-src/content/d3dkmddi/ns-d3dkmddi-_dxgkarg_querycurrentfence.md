@@ -7,7 +7,7 @@ old-location: display\dxgkarg_querycurrentfence.htm
 old-project: display
 ms.assetid: 84a7c49b-d079-4d14-b371-5cfb75c1331c
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*INOUT_PDXGKARG_QUERYCURRENTFENCE, DXGKARG_QUERYCURRENTFENCE, DXGKARG_QUERYCURRENTFENCE structure [Display Devices], DmStructs_799a15e5-b780-43c4-a0c2-d97e3c91caec.xml, _DXGKARG_QUERYCURRENTFENCE, d3dkmddi/DXGKARG_QUERYCURRENTFENCE, display.dxgkarg_querycurrentfence"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,18 +52,6 @@ req.typenames: DXGKARG_QUERYCURRENTFENCE
 The DXGKARG_QUERYCURRENTFENCE structure describes the latest completed submission fence. 
 
 
-## -syntax
-
-
-````
-typedef struct _DXGKARG_QUERYCURRENTFENCE {
-  UINT CurrentFence;
-  UINT NodeOrdinal;
-  UINT EngineOrdinal;
-} DXGKARG_QUERYCURRENTFENCE;
-````
-
-
 ## -struct-fields
 
 
@@ -86,12 +74,11 @@ typedef struct _DXGKARG_QUERYCURRENTFENCE {
 
 ## -see-also
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_querycurrentfence.md">DxgkDdiQueryCurrentFence</a>
 
 
 
+<a href="https://msdn.microsoft.com/0ca4d42f-3036-4b81-91a4-fbce7ac891fe">DxgkDdiQueryCurrentFence</a>
  
 
  
-
 

@@ -52,17 +52,6 @@ req.typenames: KSMETHOD_STREAMIO
 
 
 
-## -syntax
-
-
-````
-typedef enum  { 
-  KSMETHOD_STREAMIO_READ,
-  KSMETHOD_STREAMIO_WRITE
-} KSMETHOD_STREAMIO;
-````
-
-
 ## -enum-fields
 
 

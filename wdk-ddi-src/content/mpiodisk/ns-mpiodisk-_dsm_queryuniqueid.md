@@ -7,7 +7,7 @@ old-location: storage\dsm_queryuniqueid.htm
 old-project: storage
 ms.assetid: 023390a1-e878-4f1f-a5c2-1545a6786aaa
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PDSM_QueryUniqueId, DSM_QueryUniqueId, DSM_QueryUniqueId structure [Storage Devices], PDSM_QueryUniqueId, PDSM_QueryUniqueId structure pointer [Storage Devices], _DSM_QueryUniqueId, mpiodisk/DSM_QueryUniqueId, mpiodisk/PDSM_QueryUniqueId, storage.dsm_queryuniqueid, structs-scsibus_eb6e8cc6-4b6a-468f-a14c-7a11c827ef30.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,16 +50,6 @@ req.typenames: DSM_QueryUniqueId, *PDSM_QueryUniqueId
 
 
 The DSM_QueryUniqueId structure is used to query the DSM for a unique identifier. This unique identifier can be used together with the DsmPathId to create a 128-bit identifier for a path that is unique among all paths, as well as all DSMs, that are known to a management application. This is especially useful if the management application is managing devices that are spread across various systems. To query for this 64-bit unique identifier, the application must target the request to a pseudo-LUN that is addressed by its WMI instance name. This class is mandatory for any DSM that supports VDS.
-
-
-## -syntax
-
-
-````
-typedef struct _DSM_QueryUniqueId {
-  ULONGLONG DsmUniqueId;
-} DSM_QueryUniqueId, *PDSM_QueryUniqueId;
-````
 
 
 ## -struct-fields

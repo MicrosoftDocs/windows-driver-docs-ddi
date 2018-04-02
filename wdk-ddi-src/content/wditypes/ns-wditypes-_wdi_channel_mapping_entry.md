@@ -7,7 +7,7 @@ old-location: netvista\wdi_channel_mapping_entry.htm
 old-project: netvista
 ms.assetid: F05DAD5F-C0A4-46E0-8069-7CEF5B6C5707
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*PWDI_CHANNEL_MAPPING_ENTRY, PWDI_CHANNEL_MAPPING_ENTRY, PWDI_CHANNEL_MAPPING_ENTRY structure pointer [Device and Driver Installation], WDI_CHANNEL_MAPPING_ENTRY, WDI_CHANNEL_MAPPING_ENTRY structure [Device and Driver Installation], _WDI_CHANNEL_MAPPING_ENTRY, netvista.wdi_channel_mapping_entry, netvista.wifi_channel_mapping_entry, wditypes/PWDI_CHANNEL_MAPPING_ENTRY, wditypes/WDI_CHANNEL_MAPPING_ENTRY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,17 +52,6 @@ req.product: Windows 10 or later.
 
 The 
   WDI_CHANNEL_MAPPING_ENTRY structure defines a channel mapping entry.
-
-
-## -syntax
-
-
-````
-typedef struct _WDI_CHANNEL_MAPPING_ENTRY {
-  UINT32 ChannelNumber;
-  UINT32 ChannelCenterFrequency;
-} WDI_CHANNEL_MAPPING_ENTRY, *PWDI_CHANNEL_MAPPING_ENTRY;
-````
 
 
 ## -struct-fields

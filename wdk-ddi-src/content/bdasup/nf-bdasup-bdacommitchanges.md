@@ -53,16 +53,6 @@ req.typenames: KSP_BDA_NODE_PIN, *PKSP_BDA_NODE_PIN
 The <b>BdaCommitChanges</b> function commits the changes to BDA topology that have occurred since the last call to the <b>BdaStartChanges</b> function.
 
 
-## -syntax
-
-
-````
-NTSTATUS BdaCommitChanges(
-  _In_ PIRP Irp
-);
-````
-
-
 ## -parameters
 
 
@@ -93,7 +83,7 @@ Returns STATUS_SUCCESS or an appropriate error code.
 
 
 
-A BDA minidriver calls the <b>BdaCommitChanges</b> function to commit a set of BDA topology changes after the minidriver receives a <a href="https://msdn.microsoft.com/library/windows/hardware/ff563409">KSMETHOD_BDA_COMMIT_CHANGES</a> request of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563403">KSMETHODSETID_BdaChangeSync</a> method set from the network provider. BDA minidrivers define dispatch and filter-automation tables so that those minidrivers either dispatch the <b>BdaCommitChanges</b> function directly or intercept this request using an internal method (<a href="..\ks\nc-ks-pfnkshandler.md">KStrMethodHandler</a>), which then calls the <b>BdaCommitChanges</b> function. For example, BDA minidrivers that intercept this request can obtain a pointer to the BDA filter from the passed IRP so that they can: 
+A BDA minidriver calls the <b>BdaCommitChanges</b> function to commit a set of BDA topology changes after the minidriver receives a <a href="https://msdn.microsoft.com/library/windows/hardware/ff563409">KSMETHOD_BDA_COMMIT_CHANGES</a> request of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563403">KSMETHODSETID_BdaChangeSync</a> method set from the network provider. BDA minidrivers define dispatch and filter-automation tables so that those minidrivers either dispatch the <b>BdaCommitChanges</b> function directly or intercept this request using an internal method (<a href="https://msdn.microsoft.com/library/windows/hardware/ff567191">KStrMethodHandler</a>), which then calls the <b>BdaCommitChanges</b> function. For example, BDA minidrivers that intercept this request can obtain a pointer to the BDA filter from the passed IRP so that they can: 
 
 <ol>
 <li>
@@ -116,6 +106,21 @@ See <a href="https://msdn.microsoft.com/1c0dace6-b618-4705-bf5d-65457d14c072">De
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556518">BDA_CHANGE_STATE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556433">BdaCheckChanges</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556507">BdaStartChanges</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563403">KSMETHODSETID_BdaChangeSync</a>
 
 
@@ -124,24 +129,8 @@ See <a href="https://msdn.microsoft.com/1c0dace6-b618-4705-bf5d-65457d14c072">De
 
 
 
-<a href="..\ks\nc-ks-pfnkshandler.md">KStrMethodHandler</a>
-
-
-
-<a href="..\bdasup\nf-bdasup-bdacheckchanges.md">BdaCheckChanges</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556518">BDA_CHANGE_STATE</a>
-
-
-
-<a href="..\bdasup\nf-bdasup-bdastartchanges.md">BdaStartChanges</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567191">KStrMethodHandler</a>
  
 
  
-
 

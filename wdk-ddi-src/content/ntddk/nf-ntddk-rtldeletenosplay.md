@@ -7,7 +7,7 @@ old-location: ifsk\rtldeletenosplay.htm
 old-project: ifsk
 ms.assetid: 09d8096a-71f9-4e9d-a66b-282424394b76
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: RtlDeleteNoSplay, RtlDeleteNoSplay routine [Installable File System Drivers], ifsk.rtldeletenosplay, ntddk/RtlDeleteNoSplay, rtlref_def5bfa8-367a-410e-8e3c-fdbf11cce05e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,17 +52,6 @@ req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 The <b>RtlDeleteNoSplay</b> routine deletes the specified node from the splay link tree. 
 
 
-## -syntax
-
-
-````
-VOID RtlDeleteNoSplay(
-  _In_    PRTL_SPLAY_LINKS Links,
-  _Inout_ PRTL_SPLAY_LINKS *Root
-);
-````
-
-
 ## -parameters
 
 
@@ -102,28 +91,27 @@ Callers of <b>RtlDeleteNoSplay</b> must be running at IRQL &lt;= DISPATCH_LEVEL 
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-rtlsplay.md">RtlSplay</a>
 
 
 
-<a href="..\ntddk\nf-ntddk-rtlinsertasleftchild.md">RtlInsertAsLeftChild</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552201">RtlDelete</a>
 
 
 
-<a href="..\ntddk\nf-ntddk-rtldelete.md">RtlDelete</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553010">RtlInitializeSplayLinks</a>
 
 
 
-<a href="..\ntddk\nf-ntddk-rtlinitializesplaylinks.md">RtlInitializeSplayLinks</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553017">RtlInsertAsLeftChild</a>
 
 
 
-<a href="..\ntddk\nf-ntddk-rtlinsertasrightchild.md">RtlInsertAsRightChild</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553022">RtlInsertAsRightChild</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553226">RtlSplay</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: storage\phw_initialize.htm
 old-project: storage
 ms.assetid: dd678196-62f6-4c27-845f-a9b52c663e2a
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "(*PHW_INITIALIZE), (*PHW_INITIALIZE) callback function [Storage Devices], ide_minikr_95bb126d-6d4c-4091-b2fa-6b891d587186.xml, srb/(*PHW_INITIALIZE), storage.phw_initialize"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,16 +53,6 @@ req.product: Windows 10 or later.
 The PHW_INITIALIZE routine prototype declares a routine that initializes the miniport driver after a reboot or power failure occurs. 
 
 
-## -prototype
-
-
-````
-typedef BOOLEAN (*PHW_INITIALIZE)(
-  _In_ PVOID DeviceExtension 
-);
-````
-
-
 ## -parameters
 
 
@@ -88,25 +78,24 @@ If the operation succeeds, the initialization routine returns <b>TRUE</b>. Other
 
 The initialization routine for both SCSI and StorPort miniport drivers are declared using this prototype. 
 
-For more information about the SCSI miniport driver initialization routine see <a href="..\srb\nc-srb-phw_initialize.md">HwScsiInitialize</a>. 
+For more information about the SCSI miniport driver initialization routine see <a href="https://msdn.microsoft.com/library/windows/hardware/ff557302">HwScsiInitialize</a>. 
 
-For more information about the miniport driver initialization routine that is used with the StorPort driver see <a href="..\storport\nc-storport-hw_initialize.md">HwStorInitialize</a>. 
+For more information about the miniport driver initialization routine that is used with the StorPort driver see <a href="https://msdn.microsoft.com/library/windows/hardware/ff557396">HwStorInitialize</a>. 
 
 
 
 
 ## -see-also
 
-<a href="..\srb\nc-srb-phw_initialize.md">HwScsiInitialize</a>
 
 
 
-<a href="..\storport\nc-storport-hw_initialize.md">HwStorInitialize</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557302">HwScsiInitialize</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557396">HwStorInitialize</a>
  
 
  
-
 

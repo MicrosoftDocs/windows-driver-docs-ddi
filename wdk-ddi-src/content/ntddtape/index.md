@@ -2,7 +2,7 @@
 UID: NA:ntddtape
 ms.assetid: d256bd60-5dd4-3212-aedd-dbf0a73383e6
 ms.author: windowsdriverdev
-ms.date: 03/13/18
+ms.date: 02/27/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

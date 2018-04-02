@@ -52,18 +52,6 @@ req.typenames: WCS_PROFILE_MANAGEMENT_SCOPE
 The <code>WcsDisassociateColorProfileFromDevice</code> function disassociates a specified WCS color profile from a specified device.
 
 
-## -syntax
-
-
-````
-BOOL WcsDisassociateColorProfileFromDevice(
-  _In_ WCS_PROFILE_MANAGEMENT_SCOPE profileManagementScope,
-  _In_ PCWSTR                       pProfileName,
-  _In_ PCWSTR                       pDeviceName
-);
-````
-
-
 ## -parameters
 
 
@@ -86,7 +74,7 @@ A pointer to the name of the device from which the profile is to be disassociate
 
 #### - profileManagementScope [in]
 
-A <a href="..\icm\ne-icm-wcs_profile_management_scope.md">WCS_PROFILE_MANAGEMENT_SCOPE</a> value that specifies the scope of this profile management operation.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff563752">WCS_PROFILE_MANAGEMENT_SCOPE</a> value that specifies the scope of this profile management operation.
 
 
 ## -remarks
@@ -108,12 +96,11 @@ This function is executable in Least-Privileged User Account (LUA) context if <i
 
 ## -see-also
 
-<a href="..\icm\nf-icm-wcsassociatecolorprofilewithdevice.md">WcsAssociateColorProfileWithDevice</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563709">WcsAssociateColorProfileWithDevice</a>
  
 
  
-
 

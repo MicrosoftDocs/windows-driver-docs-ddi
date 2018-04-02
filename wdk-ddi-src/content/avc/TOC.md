@@ -1,4 +1,4 @@
-# [Driver installation](../_devinst/index.md)
+# [Streaming media devices](../_stream/index.md)
 ## [Avc.h](index.md)
 ### [PFNAVCINTERSECTHANDLER callback](../avc/nc-avc-pfnavcintersecthandler.md)
 ### [_KSPIN_FLAG_AVC enumeration](../avc/ne-avc-_kspin_flag_avc.md)

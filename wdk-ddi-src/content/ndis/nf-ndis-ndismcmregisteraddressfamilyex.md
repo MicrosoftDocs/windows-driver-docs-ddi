@@ -7,7 +7,7 @@ old-location: netvista\ndismcmregisteraddressfamilyex.htm
 old-project: netvista
 ms.assetid: f58a9c08-d2cf-48d1-98d1-68aecd3b7bd0
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: NdisMCmRegisterAddressFamilyEx, NdisMCmRegisterAddressFamilyEx function [Network Drivers Starting with Windows Vista], condis_mcm_ref_9e0ef0aa-0fa8-4f40-a225-8908099356bc.xml, ndis/NdisMCmRegisterAddressFamilyEx, netvista.ndismcmregisteraddressfamilyex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -55,17 +55,6 @@ The
   miniport call manager (MCM) and CoNDIS clients.
 
 
-## -syntax
-
-
-````
-NDIS_STATUS NdisMCmRegisterAddressFamilyEx(
-  _In_ NDIS_HANDLE        MiniportAdapterHandle,
-  _In_ PCO_ADDRESS_FAMILY AddressFamily
-);
-````
-
-
 ## -parameters
 
 
@@ -75,7 +64,7 @@ NDIS_STATUS NdisMCmRegisterAddressFamilyEx(
 
 An NDIS-supplied handle that identifies a miniport adapter. This handle is an input parameter to
      the MCM's 
-     <a href="..\ndis\nc-ndis-miniport_initialize.md">
+     <a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">
      MiniportInitializeEx</a> function.
 
 
@@ -87,7 +76,7 @@ A pointer to a
      
 
 The pointer becomes an input parameter to the 
-     <a href="..\ndis\nc-ndis-protocol_co_af_register_notify.md">
+     <a href="https://msdn.microsoft.com/272d99da-ef08-4ebd-90e7-74e99410b3f5">
      ProtocolCoAfRegisterNotify</a> functions of all of the CoNDIS clients that are bound to this MCM
      driver.
 
@@ -112,7 +101,7 @@ The pointer becomes an input parameter to the
 <td width="60%">
 The miniport driver registered with NDIS as a call manager for the AF that the 
        <i>AddressFamily</i> parameter specified, so NDIS will call the 
-       <a href="..\ndis\nc-ndis-protocol_co_af_register_notify.md">
+       <a href="https://msdn.microsoft.com/272d99da-ef08-4ebd-90e7-74e99410b3f5">
        ProtocolCoAfRegisterNotify</a> functions of all of the clients that bind to the MCM driver.
 
 </td>
@@ -164,16 +153,16 @@ The caller tried to register a duplicate AF for a given miniport adapter.
 
 
 NDIS MCMs, which register as NDIS miniport drivers by calling the 
-    <a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">
+    <a href="https://msdn.microsoft.com/bed68aa8-499d-41fd-997b-a46316913cc8">
     NdisMRegisterMiniportDriver</a> function, should call the 
     <b>NdisMCmRegisterAddressFamilyEx</b> function to register an AF. Stand-alone call managers should instead
     call the 
-    <a href="..\ndis\nf-ndis-ndiscmregisteraddressfamilyex.md">
+    <a href="https://msdn.microsoft.com/8890bf31-f2c7-48b0-926d-8931893ede86">
     NdisCmRegisterAddressFamilyEx</a> function.
 
 To register an AF for a miniport adapter, the MCM should call 
     <b>NdisMCmRegisterAddressFamilyEx</b> from the 
-    <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a> function.
+    <a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a> function.
 
 The driver of any network interface card (NIC) that has on-board connection-oriented signaling support
     can register itself as an MCM driver for better performance in managing calls. If a driver registers as
@@ -188,12 +177,12 @@ An MCM driver calls
 After 
     <i>MiniportInitializeEx</i> returns control with a successful registration as a call manager, NDIS calls
     the 
-    <a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a> functions
+    <a href="https://msdn.microsoft.com/1958722e-012e-4110-a82c-751744bcf9b5">ProtocolBindAdapterEx</a> functions
     of potential clients and, then, the 
-    <a href="..\ndis\nc-ndis-protocol_co_af_register_notify.md">
+    <a href="https://msdn.microsoft.com/272d99da-ef08-4ebd-90e7-74e99410b3f5">
     ProtocolCoAfRegisterNotify</a> functions of all of the clients that bind themselves to the associated
     MCM miniport adapter. These clients then cause NDIS to call the 
-    <a href="..\ndis\nc-ndis-protocol_cm_open_af.md">ProtocolCmOpenAf</a> function of the
+    <a href="https://msdn.microsoft.com/7422c205-bc41-4121-b430-ff9e6b49dc2e">ProtocolCmOpenAf</a> function of the
     MCM.
 
 An MCM can support more than one AF for a single NIC that it manages. The MCM driver must call 
@@ -206,40 +195,6 @@ An MCM can support more than one AF for a single NIC that it manages. The MCM dr
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-protocol_co_delete_vc.md">ProtocolCoDeleteVc</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_co_oid_request.md">ProtocolCoOidRequest</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_co_oid_request_complete.md">
-   ProtocolCoOidRequestComplete</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_cm_open_af.md">ProtocolCmOpenAf</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_co_af_register_notify.md">ProtocolCoAfRegisterNotify</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_co_create_vc.md">ProtocolCoCreateVc</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
 
 
@@ -247,13 +202,46 @@ An MCM can support more than one AF for a single NIC that it manages. The MCM dr
 
 
 
-<a href="..\ndis\nf-ndis-ndiscmregisteraddressfamilyex.md">
+<a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/8890bf31-f2c7-48b0-926d-8931893ede86">
    NdisCmRegisterAddressFamilyEx</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563654">NdisMRegisterMiniportDriver</a>
+
+
+
+<a href="https://msdn.microsoft.com/1958722e-012e-4110-a82c-751744bcf9b5">ProtocolBindAdapterEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/7422c205-bc41-4121-b430-ff9e6b49dc2e">ProtocolCmOpenAf</a>
+
+
+
+<a href="https://msdn.microsoft.com/272d99da-ef08-4ebd-90e7-74e99410b3f5">ProtocolCoAfRegisterNotify</a>
+
+
+
+<a href="https://msdn.microsoft.com/b086dd24-74f5-474a-8684-09bf92ac731b">ProtocolCoCreateVc</a>
+
+
+
+<a href="https://msdn.microsoft.com/d761270f-bf77-441e-834c-9ac7fb3d350f">ProtocolCoDeleteVc</a>
+
+
+
+<a href="https://msdn.microsoft.com/8247396f-8781-45da-aba1-a31a2a26a46f">ProtocolCoOidRequest</a>
+
+
+
+<a href="https://msdn.microsoft.com/16883c64-3cc6-4f50-8be7-7c58c422a717">
+   ProtocolCoOidRequestComplete</a>
  
 
  
-
 

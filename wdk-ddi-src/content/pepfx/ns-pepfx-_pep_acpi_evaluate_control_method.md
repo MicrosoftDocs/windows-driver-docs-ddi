@@ -7,7 +7,7 @@ old-location: kernel\pep_acpi_evaluate_control_method.htm
 old-project: kernel
 ms.assetid: FFCC5947-1DD5-4AD5-A414-94BDC013D1A7
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: "*PPEP_ACPI_EVALUATE_CONTROL_METHOD, PEP_ACPI_EVALUATE_CONTROL_METHOD, PEP_ACPI_EVALUATE_CONTROL_METHOD structure [Kernel-Mode Driver Architecture], PPEP_ACPI_EVALUATE_CONTROL_METHOD, PPEP_ACPI_EVALUATE_CONTROL_METHOD structure pointer [Kernel-Mode Driver Architecture], _PEP_ACPI_EVALUATE_CONTROL_METHOD, kernel.pep_acpi_evaluate_control_method, pepfx/PEP_ACPI_EVALUATE_CONTROL_METHOD, pepfx/PPEP_ACPI_EVALUATE_CONTROL_METHOD"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,29 +50,6 @@ req.typenames: PEP_ACPI_EVALUATE_CONTROL_METHOD, *PPEP_ACPI_EVALUATE_CONTROL_MET
 
 
 The <b>PEP_ACPI_EVALUATE_CONTROL_METHOD</b> structure specifies an ACPI control method to evaluate, an input argument to supply to this method, and an output buffer for the result of the evaluation.
-
-
-## -syntax
-
-
-````
-typedef struct _PEP_ACPI_EVALUATE_CONTROL_METHOD {
-  PEPHANDLE             DeviceHandle;
-  ULONG                 RequestFlags;
-  union {
-    ULONG       MethodNameUlong;
-    ANSI_STRING MethodNameString;
-  };
-  NTSTATUS              MethodStatus;
-  PVOID                 CompletionContext;
-  ULONG                 InputArgumentCount;
-  SIZE_T                InputArgumentSize;
-  PACPI_METHOD_ARGUMENT InputArguments;
-  ULONG                 OutputArgumentCount;
-  SIZE_T                OutputArgumentSize;
-  PACPI_METHOD_ARGUMENT OutputArguments;
-} PEP_ACPI_EVALUATE_CONTROL_METHOD, *PPEP_ACPI_EVALUATE_CONTROL_METHOD;
-````
 
 
 ## -struct-fields
@@ -123,12 +100,12 @@ If the PEP is to evaluate the method asychronously, set this member to STATUS_PE
 
 ### -field CompletionContext
 
-[in] A pointer to a completion context value. The PEP uses this member only if the control method is evaluated asynchronously. In this case, the PEP supplies this completion context pointer in the call to the <a href="https://msdn.microsoft.com/library/windows/hardware/mt186629">CompleteWork</a> routine that notifies the Windows <a href="https://msdn.microsoft.com/B08F8ABF-FD43-434C-A345-337FBB799D9B">power management framework</a> (PoFx) that the evaluation of the control method is complete. Included in the input parameters to this call is a pointer to a <a href="..\pepfx\ns-pepfx-_pep_work_acpi_evaluate_control_method_complete.md">PEP_WORK_ACPI_EVALUATE_CONTROL_METHOD_COMPLETE</a> structure to which the PEP has written the completion context pointer. The context is opaque to the PEP and contains data used internally by PoFx.
+[in] A pointer to a completion context value. The PEP uses this member only if the control method is evaluated asynchronously. In this case, the PEP supplies this completion context pointer in the call to the <a href="https://msdn.microsoft.com/library/windows/hardware/mt186629">CompleteWork</a> routine that notifies the Windows <a href="https://msdn.microsoft.com/B08F8ABF-FD43-434C-A345-337FBB799D9B">power management framework</a> (PoFx) that the evaluation of the control method is complete. Included in the input parameters to this call is a pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/mt186860">PEP_WORK_ACPI_EVALUATE_CONTROL_METHOD_COMPLETE</a> structure to which the PEP has written the completion context pointer. The context is opaque to the PEP and contains data used internally by PoFx.
 
 
 ### -field InputArgumentCount
 
-[in] The number of input arguments in the input buffer pointed to by the <b>InputArguments</b> member. Each argument starts with an <a href="..\acpiioct\ns-acpiioct-_acpi_method_argument_v1.md">ACPI_METHOD_ARGUMENT</a> structure that specifies the size of the argument. Currently, the maximum <b>InputArgumentCount</b> value is one.
+[in] The number of input arguments in the input buffer pointed to by the <b>InputArguments</b> member. Each argument starts with an <a href="https://msdn.microsoft.com/library/windows/hardware/ff536125">ACPI_METHOD_ARGUMENT</a> structure that specifies the size of the argument. Currently, the maximum <b>InputArgumentCount</b> value is one.
 
 
 ### -field InputArgumentSize
@@ -138,12 +115,12 @@ If the PEP is to evaluate the method asychronously, set this member to STATUS_PE
 
 ### -field InputArguments
 
-[in] A pointer to an input buffer that contains an <a href="..\acpiioct\ns-acpiioct-_acpi_method_argument_v1.md">ACPI_METHOD_ARGUMENT</a> structure that specifies the input argument for the specified ACPI control method.
+[in] A pointer to an input buffer that contains an <a href="https://msdn.microsoft.com/library/windows/hardware/ff536125">ACPI_METHOD_ARGUMENT</a> structure that specifies the input argument for the specified ACPI control method.
 
 
 ### -field OutputArgumentCount
 
-[in] The number of output arguments in the output buffer pointed to by the <b>OutputArguments</b> member. Each argument starts with an <a href="..\acpiioct\ns-acpiioct-_acpi_method_argument_v1.md">ACPI_METHOD_ARGUMENT</a> structure that specifies the size of the argument. Currently, the maximum allowed <b>OutputArgumentCount</b> value is one.
+[in] The number of output arguments in the output buffer pointed to by the <b>OutputArguments</b> member. Each argument starts with an <a href="https://msdn.microsoft.com/library/windows/hardware/ff536125">ACPI_METHOD_ARGUMENT</a> structure that specifies the size of the argument. Currently, the maximum allowed <b>OutputArgumentCount</b> value is one.
 
 
 ### -field OutputArgumentSize
@@ -153,7 +130,7 @@ If the PEP is to evaluate the method asychronously, set this member to STATUS_PE
 
 ### -field OutputArguments
 
-[in] A pointer to an output buffer to which the PEP writes an <a href="..\acpiioct\ns-acpiioct-_acpi_method_argument_v1.md">ACPI_METHOD_ARGUMENT</a> structure that contains the result of evaluating the specified ACPI control method.
+[in] A pointer to an output buffer to which the PEP writes an <a href="https://msdn.microsoft.com/library/windows/hardware/ff536125">ACPI_METHOD_ARGUMENT</a> structure that contains the result of evaluating the specified ACPI control method.
 
 
 #### - ( unnamed union )
@@ -184,15 +161,14 @@ This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536125">ACPI_METHOD_ARGUMENT</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540605">ANSI_STRING</a>
-
-
-
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186689">PEP_NOTIFY_ACPI_REGISTER_DEVICE</a>
-
-
-
-<a href="..\acpiioct\ns-acpiioct-_acpi_method_argument_v1.md">ACPI_METHOD_ARGUMENT</a>
 
 
 
@@ -200,8 +176,8 @@ This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/
 
 
 
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186689">PEP_NOTIFY_ACPI_REGISTER_DEVICE</a>
  
 
  
-
 

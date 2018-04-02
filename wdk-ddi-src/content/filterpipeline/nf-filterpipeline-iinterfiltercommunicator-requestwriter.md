@@ -52,16 +52,6 @@ req.typenames: EXpsFontRestriction
 The <b>RequestWriter</b> method retrieves the writer interface for an <b>IInterFilterCommunicator</b> object.
 
 
-## -syntax
-
-
-````
-HRESULT RequestWriter(
-  [out] void **ppIWriter
-);
-````
-
-
 ## -parameters
 
 
@@ -92,16 +82,15 @@ The <b>IInterFilterCommunicator</b> object is passed to each filter in the <a hr
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551050">IInterFilterCommunicator</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554291">IPrintPipelineFilter::InitializeFilter</a>
-
-
-
-<a href="..\filterpipeline\nn-filterpipeline-iinterfiltercommunicator.md">IInterFilterCommunicator</a>
-
-
-
  
 
  
-
 

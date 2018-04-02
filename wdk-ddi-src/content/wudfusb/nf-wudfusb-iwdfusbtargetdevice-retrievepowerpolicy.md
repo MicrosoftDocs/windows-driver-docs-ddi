@@ -55,18 +55,6 @@ req.product: Windows 10 or later.
 The <b>RetrievePowerPolicy</b> method retrieves a WinUsb power policy.
 
 
-## -syntax
-
-
-````
-HRESULT RetrievePowerPolicy(
-  [in]      ULONG PolicyType,
-  [in, out] ULONG *ValueLength,
-  [out]     PVOID Value
-);
-````
-
-
 ## -parameters
 
 
@@ -156,7 +144,10 @@ The <b>RetrievePowerPolicy</b> method generates a UMDF request and synchronously
 
 ## -see-also
 
-<a href="..\wudfusb\nn-wudfusb-iwdfusbtargetdevice.md">IWDFUsbTargetDevice</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560362">IWDFUsbTargetDevice</a>
 
 
 
@@ -165,11 +156,7 @@ The <b>RetrievePowerPolicy</b> method generates a UMDF request and synchronously
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540275">WinUsb_GetPowerPolicy</a>
-
-
-
  
 
  
-
 

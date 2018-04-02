@@ -7,7 +7,7 @@ old-location: display\finishsessionkeyrefresh1.htm
 old-project: display
 ms.assetid: 95c0433f-e4da-4566-b128-34cb758b8001
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3D11_1DDI_FINISHSESSIONKEYREFRESH, d3d10umddi/pfnFinishSessionKeyRefresh, display.finishsessionkeyrefresh1, pfnFinishSessionKeyRefresh, pfnFinishSessionKeyRefresh callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,20 +52,6 @@ req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 Completes the switch to a new session key.
 
 
-## -prototype
-
-
-````
-PFND3D11_1DDI_FINISHSESSIONKEYREFRESH pfnFinishSessionKeyRefresh;
-
-VOID APIENTRY* pfnFinishSessionKeyRefresh(
-  _In_ D3D10DDI_HDEVICE          hDevice,
-  _In_ D3D11_1DDI_HCRYPTOSESSION hCryptoSession
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -80,7 +66,7 @@ A handle to the display device (graphics context).
 
 ### -param hCryptoSession [in]
 
-A handle to the driver's private data for the cryptographic session. This handle was created by the Direct3D runtime and passed to the driver in the call to <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createcryptosession.md">CreateCryptoSession</a>.
+A handle to the driver's private data for the cryptographic session. This handle was created by the Direct3D runtime and passed to the driver in the call to <a href="https://msdn.microsoft.com/library/windows/hardware/hh451619">CreateCryptoSession</a>.
 
 
 ## -returns
@@ -103,12 +89,11 @@ This callback function does not return a value.
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createcryptosession.md">CreateCryptoSession</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451619">CreateCryptoSession</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: display\d3dddicb_destroyallocation2flags.htm
 old-project: display
 ms.assetid: 50D4BFB7-B5AC-4202-B426-F152B06C9F46
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDICB_DESTROYALLOCATION2FLAGS, D3DDDICB_DESTROYALLOCATION2FLAGS structure [Display Devices], _D3DDDICB_DESTROYALLOCATION2FLAGS, d3dukmdt/D3DDDICB_DESTROYALLOCATION2FLAGS, display.d3dddicb_destroyallocation2flags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,27 +50,9 @@ req.typenames: D3DDDICB_DESTROYALLOCATION2FLAGS
 
 
 
-The <b>D3DDDICB_DESTROYALLOCATION2FLAGS</b> structure is used with the <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_destroyallocation2.md">D3DKMT_DESTROYALLOCATION2</a> structure to describe parameters for releasing allocations with <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtdestroyallocation2.md">D3DKMTDestroyAllocation2</a>.
+The <b>D3DDDICB_DESTROYALLOCATION2FLAGS</b> structure is used with the <a href="https://msdn.microsoft.com/library/windows/hardware/dn906793">D3DKMT_DESTROYALLOCATION2</a> structure to describe parameters for releasing allocations with <a href="https://msdn.microsoft.com/library/windows/hardware/dn906772">D3DKMTDestroyAllocation2</a>.
 
 
-
-
-## -syntax
-
-
-````
-typedef struct _D3DDDICB_DESTROYALLOCATION2FLAGS {
-  union {
-    struct {
-      UINT AssumeNotInUse  :1;
-      UINT SynchronousDestroy  :1;
-      UINT Reserved  :29;
-      UINT SystemUseOnly  :1;
-    };
-    UINT Value;
-  };
-} D3DDDICB_DESTROYALLOCATION2FLAGS;
-````
 
 
 ## -struct-fields
@@ -163,16 +145,15 @@ The consolidated value of the fields in the structure.
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtdestroyallocation2.md">D3DKMTDestroyAllocation2</a>
 
 
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_destroyallocation2.md">D3DKMT_DESTROYALLOCATION2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn906772">D3DKMTDestroyAllocation2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn906793">D3DKMT_DESTROYALLOCATION2</a>
  
 
  
-
 

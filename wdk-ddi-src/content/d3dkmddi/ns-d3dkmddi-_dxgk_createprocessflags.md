@@ -7,7 +7,7 @@ old-location: display\dxgk_createprocessflags.htm
 old-project: display
 ms.assetid: 43B8202C-6AC1-4596-BA85-FEB9FB0B5746
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGK_CREATEPROCESSFLAGS, DXGK_CREATEPROCESSFLAGS structure [Display Devices], _DXGK_CREATEPROCESSFLAGS, d3dkmddi/DXGK_CREATEPROCESSFLAGS, display.dxgk_createprocessflags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,24 +49,7 @@ req.typenames: DXGK_CREATEPROCESSFLAGS
 ## -description
 
 
-<b>DXGK_CREATEPROCESSFLAGS</b> is used with <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_createprocess.md">DXGKARG_CREATEPROCESS</a> and <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createprocess.md">DxgkDdiCreateProcess</a> to create a kernel mode driver object for a Microsoft DirectX graphics kernel process object.
-
-
-## -syntax
-
-
-````
-typedef struct _DXGK_CREATEPROCESSFLAGS {
-  union {
-    struct {
-      UINT SystemProcess  :1;
-      UINT GdiProcess  :1;
-      UINT Reserved  :30;
-    };
-    UINT   Value;
-  };
-} DXGK_CREATEPROCESSFLAGS;
-````
+<b>DXGK_CREATEPROCESSFLAGS</b> is used with <a href="https://msdn.microsoft.com/library/windows/hardware/dn914470">DXGKARG_CREATEPROCESS</a> and <a href="https://msdn.microsoft.com/E5AAEEB1-C29E-4AA7-9F8E-2C2DCFADED81">DxgkDdiCreateProcess</a> to create a kernel mode driver object for a Microsoft DirectX graphics kernel process object.
 
 
 ## -struct-fields
@@ -101,16 +84,15 @@ The consolidated value of the bitfield members of the structure.
 
 ## -see-also
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createprocess.md">DxgkDdiCreateProcess</a>
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_createprocess.md">DXGKARG_CREATEPROCESS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn914470">DXGKARG_CREATEPROCESS</a>
 
 
 
+<a href="https://msdn.microsoft.com/E5AAEEB1-C29E-4AA7-9F8E-2C2DCFADED81">DxgkDdiCreateProcess</a>
  
 
  
-
 

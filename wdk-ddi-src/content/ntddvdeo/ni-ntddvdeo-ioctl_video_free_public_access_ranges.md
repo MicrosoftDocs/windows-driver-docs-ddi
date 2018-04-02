@@ -7,7 +7,7 @@ old-location: display\ioctl_video_free_public_access_ranges.htm
 old-project: display
 ms.assetid: 6adc5234-a7c3-4860-8d3e-6c990f460ecc
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_VIDEO_FREE_PUBLIC_ACCESS_RANGES, IOCTL_VIDEO_FREE_PUBLIC_ACCESS_RANGES control code [Display Devices], Video_IOCTLs_8b60ca4e-5d15-4fa1-8257-805d90276262.xml, display.ioctl_video_free_public_access_ranges, ntddvdeo/IOCTL_VIDEO_FREE_PUBLIC_ACCESS_RANGES
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.typenames: TAPE_WRITE_MARKS, *PTAPE_WRITE_MARKS
 
 
 
-Releases the address range that was allocated by a preceding <a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_query_public_access_ranges.md">IOCTL_VIDEO_QUERY_PUBLIC_ACCESS_RANGES</a> request. Support for this nonmodal request is optional.
+Releases the address range that was allocated by a preceding <a href="https://msdn.microsoft.com/library/windows/hardware/ff567829">IOCTL_VIDEO_QUERY_PUBLIC_ACCESS_RANGES</a> request. Support for this nonmodal request is optional.
 
 
 
@@ -62,7 +62,7 @@ Releases the address range that was allocated by a preceding <a href="..\ntddvde
 
 ### -input-buffer
 
-The VRP <b>InputBuffer</b> contains an array of <a href="..\ntddvdeo\ns-ntddvdeo-_video_memory.md">VIDEO_MEMORY</a> structures to be released.
+The VRP <b>InputBuffer</b> contains an array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff570506">VIDEO_MEMORY</a> structures to be released.
 
 
 ### -input-buffer-length
@@ -108,21 +108,20 @@ None
 
 ### -status-block
 
-The miniport driver does not set the <b>Information</b> member of the <a href="..\video\ns-video-_status_block.md">STATUS_BLOCK</a> structure.
+The miniport driver does not set the <b>Information</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff569732">STATUS_BLOCK</a> structure.
 
 
 ## -see-also
 
-<a href="..\ntddvdeo\ns-ntddvdeo-_video_memory.md">VIDEO_MEMORY</a>
 
 
 
-<a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_query_public_access_ranges.md">IOCTL_VIDEO_QUERY_PUBLIC_ACCESS_RANGES</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567829">IOCTL_VIDEO_QUERY_PUBLIC_ACCESS_RANGES</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570506">VIDEO_MEMORY</a>
  
 
  
-
 

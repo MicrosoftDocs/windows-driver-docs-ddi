@@ -53,20 +53,6 @@ req.product: Windows 10 or later.
 The <b>wiasReadPropStr</b> function retrieves a string property value from a WIA item.
 
 
-## -syntax
-
-
-````
-HRESULT _stdcall wiasReadPropStr(
-  _In_      BYTE   *pWiasContext,
-            PROPID propid,
-  _Out_     BSTR   *pbstr,
-  _Out_opt_ BSTR   *pbstrOld,
-            BOOL   bMustExist
-);
-````
-
-
 ## -parameters
 
 
@@ -117,28 +103,27 @@ When the minidriver has completed using the string it received from this functio
 
 ## -see-also
 
-<a href="..\wiamdef\nf-wiamdef-wiaswritepropstr.md">wiasWritePropStr</a>
 
 
 
-<a href="..\wiamdef\nf-wiamdef-wiasreadpropguid.md">wiasReadPropGuid</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549308">wiasReadPropBin</a>
 
 
 
-<a href="..\wiamdef\nf-wiamdef-wiasreadpropfloat.md">wiasReadPropFloat</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549320">wiasReadPropFloat</a>
 
 
 
-<a href="..\wiamdef\nf-wiamdef-wiasreadpropbin.md">wiasReadPropBin</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549325">wiasReadPropGuid</a>
 
 
 
-<a href="..\wiamdef\nf-wiamdef-wiasreadproplong.md">wiasReadPropLong</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549330">wiasReadPropLong</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549525">wiasWritePropStr</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: buses\usb_device_characteristics.htm
 old-project: usbref
 ms.assetid: D4A8DE43-3E81-4A1C-B1C0-ABE6000D9F11
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PUSB_DEVICE_CHARACTERISTICS, PUSB_DEVICE_CHARACTERISTICS, PUSB_DEVICE_CHARACTERISTICS structure pointer [Buses], USB_DEVICE_CHARACTERISTICS, USB_DEVICE_CHARACTERISTICS structure [Buses], _USB_DEVICE_CHARACTERISTICS, buses.usb_device_characteristics, usbioctl/PUSB_DEVICE_CHARACTERISTICS, usbioctl/USB_DEVICE_CHARACTERISTICS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,21 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-Contains information about the USB device’s characteristics, such as the maximum send and receive delays for any request.  This structure is used in the <a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_device_characteristics.md">IOCTL_USB_GET_DEVICE_CHARACTERISTICS</a> request.
-
-
-## -syntax
-
-
-````
-typedef struct _USB_DEVICE_CHARACTERISTICS {
-  ULONG                     Version;
-  ULONG                     Reserved[2];
-  ULONG                     UsbDeviceCharacteristicsFlags;
-  ULONG                     MaximumSendPathDelayInMilliSeconds;
-  ULONG                     MaximumCompletionPathDelayInMilliSeconds;
-} USB_DEVICE_CHARACTERISTICS, *PUSB_DEVICE_CHARACTERISTICS;
-````
+Contains information about the USB device’s characteristics, such as the maximum send and receive delays for any request.  This structure is used in the <a href="https://msdn.microsoft.com/FEEF13FE-E7CF-4513-8E16-B1E46283883C">IOCTL_USB_GET_DEVICE_CHARACTERISTICS</a> request.
 
 
 ## -struct-fields
@@ -109,12 +95,11 @@ Contains the maximum delay in milliseconds the host controller completes any req
 
 ## -see-also
 
-<a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_device_characteristics.md">IOCTL_USB_GET_DEVICE_CHARACTERISTICS</a>
 
 
 
+<a href="https://msdn.microsoft.com/FEEF13FE-E7CF-4513-8E16-B1E46283883C">IOCTL_USB_GET_DEVICE_CHARACTERISTICS</a>
  
 
  
-
 

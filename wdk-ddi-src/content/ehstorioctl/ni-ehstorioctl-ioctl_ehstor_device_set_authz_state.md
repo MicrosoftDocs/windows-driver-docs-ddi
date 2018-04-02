@@ -7,7 +7,7 @@ old-location: storage\ioctl_ehstor_device_set_authz_state.htm
 old-project: storage
 ms.assetid: 8C71F597-2141-4DA6-8A14-8B10CB69E5CC
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_EHSTOR_DEVICE_SET_AUTHZ_STATE, IOCTL_EHSTOR_DEVICE_SET_AUTHZ_STATE control code [Storage Devices], ehstorioctl/IOCTL_EHSTOR_DEVICE_SET_AUTHZ_STATE, storage.ioctl_ehstor_device_set_authz_state
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -59,12 +59,12 @@ This IOCTL is used to inform the owning driver for the IEEE 1667 device PDOs tha
 
 ### -input-buffer
 
-The input buffer at Irp-&gt;AssociatedIrp.SystemBuffer must contain a structure of type <a href="..\ehstorioctl\ns-ehstorioctl-tagact_authz_state.md">ACT_AUTHZ_STATE</a>.
+The input buffer at Irp-&gt;AssociatedIrp.SystemBuffer must contain a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff550120">ACT_AUTHZ_STATE</a>.
 
 
 ### -input-buffer-length
 
-The length of an <a href="..\ehstorioctl\ns-ehstorioctl-tagact_authz_state.md">ACT_AUTHZ_STATE</a> structure.
+The length of an <a href="https://msdn.microsoft.com/library/windows/hardware/ff550120">ACT_AUTHZ_STATE</a> structure.
 
 
 ### -output-buffer

@@ -56,19 +56,6 @@ The <b>WDF_WRITE_PORT_BUFFER_USHORT</b> function writes a number of USHORT value
 
 
 
-## -syntax
-
-
-````
-void WDF_WRITE_PORT_BUFFER_USHORT(
-  _In_ WDFDEVICE Device,
-  _In_ PUSHORT   Port,
-  _In_ PUSHORT   Buffer,
-  _In_ ULONG     Count 
-);
-````
-
-
 ## -parameters
 
 

@@ -7,7 +7,7 @@ old-location: netvista\wwan_sms_status.htm
 old-project: netvista
 ms.assetid: a7ebe58d-8e87-437f-b556-408610fa654e
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*PWWAN_SMS_STATUS, PWWAN_SMS_STATUS, PWWAN_SMS_STATUS structure pointer [Network Drivers Starting with Windows Vista], WWAN_SMS_STATUS, WWAN_SMS_STATUS structure [Network Drivers Starting with Windows Vista], WwanRef_5468242f-eb44-4ece-92a2-02524eb0d196.xml, _WWAN_SMS_STATUS, netvista.wwan_sms_status, wwan/PWWAN_SMS_STATUS, wwan/WWAN_SMS_STATUS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,17 +51,6 @@ req.product: Windows 10 or later.
 
 
 The WWAN_SMS_STATUS structure represents the status of the SMS message store.
-
-
-## -syntax
-
-
-````
-typedef struct _WWAN_SMS_STATUS {
-  ULONG uFlag;
-  ULONG MessageIndex;
-} WWAN_SMS_STATUS, *PWWAN_SMS_STATUS;
-````
 
 
 ## -struct-fields
@@ -139,12 +128,11 @@ If the
 
 ## -see-also
 
-<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_sms_status.md">NDIS_WWAN_SMS_STATUS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567945">NDIS_WWAN_SMS_STATUS</a>
  
 
  
-
 

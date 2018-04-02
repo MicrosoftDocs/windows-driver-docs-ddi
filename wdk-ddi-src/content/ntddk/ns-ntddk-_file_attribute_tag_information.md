@@ -7,7 +7,7 @@ old-location: kernel\file_attribute_tag_information.htm
 old-project: kernel
 ms.assetid: e330bd79-cd44-412e-b9aa-ca5b791750d4
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: "*PFILE_ATTRIBUTE_TAG_INFORMATION, FILE_ATTRIBUTE_TAG_INFORMATION, FILE_ATTRIBUTE_TAG_INFORMATION structure [Kernel-Mode Driver Architecture], PFILE_ATTRIBUTE_TAG_INFORMATION, PFILE_ATTRIBUTE_TAG_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _FILE_ATTRIBUTE_TAG_INFORMATION, kernel.file_attribute_tag_information, kstruct_b_d990c73e-3b75-4c00-954d-a16cca892895.xml, ntddk/FILE_ATTRIBUTE_TAG_INFORMATION, ntddk/PFILE_ATTRIBUTE_TAG_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,18 +49,7 @@ req.typenames: FILE_ATTRIBUTE_TAG_INFORMATION, *PFILE_ATTRIBUTE_TAG_INFORMATION
 ## -description
 
 
-The <b>FILE_ATTRIBUTE_TAG_INFORMATION</b> structure is used as an argument to <a href="..\wdm\nf-wdm-zwqueryinformationfile.md">ZwQueryInformationFile</a>. 
-
-
-## -syntax
-
-
-````
-typedef struct _FILE_ATTRIBUTE_TAG_INFORMATION {
-  ULONG FileAttributes;
-  ULONG ReparseTag;
-} FILE_ATTRIBUTE_TAG_INFORMATION, *PFILE_ATTRIBUTE_TAG_INFORMATION;
-````
+The <b>FILE_ATTRIBUTE_TAG_INFORMATION</b> structure is used as an argument to <a href="https://msdn.microsoft.com/library/windows/hardware/ff567052">ZwQueryInformationFile</a>. 
 
 
 ## -struct-fields
@@ -93,12 +82,11 @@ This structure must be aligned on a LONG (4-byte) boundary.
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwqueryinformationfile.md">ZwQueryInformationFile</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567052">ZwQueryInformationFile</a>
  
 
  
-
 

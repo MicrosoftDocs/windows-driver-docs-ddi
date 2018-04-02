@@ -7,7 +7,7 @@ old-location: kernel\write_register_uchar.htm
 old-project: kernel
 ms.assetid: 2d97d31f-d8c6-45d6-9aee-69397a523bbd
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: WRITE_REGISTER_UCHAR, WRITE_REGISTER_UCHAR routine [Kernel-Mode Driver Architecture], k103_052039f1-0f3c-4b4b-9061-ea92046f7167.xml, kernel.write_register_uchar, wdm/WRITE_REGISTER_UCHAR
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ api_name:
 -	WRITE_REGISTER_UCHAR
 product: Windows
 targetos: Windows
-req.typenames: LUID
+req.typenames: IDD_DRIVER_GLOBALS, *PIDD_DRIVER_GLOBALS, IDD_DRIVER_GLOBALS, *PIDD_DRIVER_GLOBALS
 ---
 
 # WRITE_REGISTER_UCHAR macro
@@ -50,17 +50,6 @@ req.typenames: LUID
 
 
 The <b>WRITE_REGISTER_UCHAR</b> routine writes a byte to the specified address.
-
-
-## -syntax
-
-
-````
-VOID WRITE_REGISTER_UCHAR(
-  _In_ PUCHAR Register,
-  _In_ UCHAR  Value
-);
-````
 
 
 ## -parameters

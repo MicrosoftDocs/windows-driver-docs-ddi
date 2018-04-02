@@ -110,7 +110,6 @@ If there is no card in the indicated socket, the <b>Status</b> field is set to S
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538895">TUPLE_REQUEST</a>
 
 
 
@@ -122,8 +121,8 @@ If there is no card in the indicated socket, the <b>Status</b> field is set to S
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538895">TUPLE_REQUEST</a>
  
 
  
-
 

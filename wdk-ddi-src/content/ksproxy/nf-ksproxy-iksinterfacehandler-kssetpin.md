@@ -52,16 +52,6 @@ req.typenames: PIPE_STATE
 The <b>KsSetPin</b> method informs the streaming interface handler about the pin with which to communicate when passing data.
 
 
-## -syntax
-
-
-````
-HRESULT KsSetPin(
-  [in] IKsPin *KsPin
-);
-````
-
-
 ## -parameters
 
 
@@ -69,7 +59,7 @@ HRESULT KsSetPin(
 
 ### -param KsPin [in]
 
-Pointer to the <a href="..\ksproxy\nn-ksproxy-ikspin.md">IKsPin</a> interface for the pin to which this streaming interface handler is to be attached. This pin must support the <a href="..\ksproxy\nn-ksproxy-iksobject.md">IKsObject</a> interface from which the underlying kernel handle can be obtained.
+Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559896">IKsPin</a> interface for the pin to which this streaming interface handler is to be attached. This pin must support the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559883">IKsObject</a> interface from which the underlying kernel handle can be obtained.
 
 
 ## -returns
@@ -92,16 +82,15 @@ The <b>KsSetPin</b> method is called after an instance of the interface handler 
 
 ## -see-also
 
-<a href="..\ksproxy\nn-ksproxy-ikspin.md">IKsPin</a>
 
 
 
-<a href="..\ksproxy\nn-ksproxy-iksobject.md">IKsObject</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559883">IKsObject</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559896">IKsPin</a>
  
 
  
-
 

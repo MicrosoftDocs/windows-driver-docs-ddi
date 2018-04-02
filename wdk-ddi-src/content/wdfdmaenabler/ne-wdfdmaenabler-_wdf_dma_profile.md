@@ -55,24 +55,6 @@ req.product: Windows 10 or later.
 The <b>WDF_DMA_PROFILE</b> enumeration identifies the types of bus-master or system-mode DMA operations that devices can support.
 
 
-## -syntax
-
-
-````
-typedef enum _WDF_DMA_PROFILE { 
-  WdfDmaProfileInvalid                = 0,
-  WdfDmaProfilePacket                 = 1,
-  WdfDmaProfileScatterGather          = 2,
-  WdfDmaProfilePacket64               = 3,
-  WdfDmaProfileScatterGather64        = 4,
-  WdfDmaProfileScatterGatherDuplex    = 5,
-  WdfDmaProfileScatterGather64Duplex  = 6,
-  WdfDmaProfileSystem                 = 7,
-  WdfDmaProfileSystemDuplex           = 8
-} WDF_DMA_PROFILE;
-````
-
-
 ## -enum-fields
 
 
@@ -127,7 +109,7 @@ The device supports system-mode DMA operations. The device also supports duplex 
 
 
 
-<b>WDF_DMA_PROFILE</b>-typed values are used within the driver's <a href="..\wdfdmaenabler\ns-wdfdmaenabler-_wdf_dma_enabler_config.md">WDF_DMA_ENABLER_CONFIG</a> structure. The driver supplies <b>WDF_DMA_ENABLER_CONFIG</b> when it calls <a href="..\wdfdmaenabler\nf-wdfdmaenabler-wdfdmaenablercreate.md">WdfDmaEnablerCreate</a>.
+<b>WDF_DMA_PROFILE</b>-typed values are used within the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff551290">WDF_DMA_ENABLER_CONFIG</a> structure. The driver supplies <b>WDF_DMA_ENABLER_CONFIG</b> when it calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff546983">WdfDmaEnablerCreate</a>.
 
 If the driver selects one of the system-mode DMA profiles, the framework requests the DMA version 3 interface from WDM.  System-mode DMA is available starting in Windows 8. For more information about system-mode DMA, see <a href="https://msdn.microsoft.com/CCC77C15-69CA-44CB-8DEB-29F3EAEA44F6">Supporting System-Mode DMA</a>.
 
@@ -138,12 +120,11 @@ Kernel-Mode Driver Framework (KMDF) miniport drivers such as NDIS miniport drive
 
 ## -see-also
 
-<a href="..\wdfdmaenabler\ns-wdfdmaenabler-_wdf_dma_enabler_config.md">WDF_DMA_ENABLER_CONFIG</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551290">WDF_DMA_ENABLER_CONFIG</a>
  
 
  
-
 

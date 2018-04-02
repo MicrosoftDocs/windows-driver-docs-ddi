@@ -7,7 +7,7 @@ old-location: kernel\rtlcopyunicodestring.htm
 old-project: kernel
 ms.assetid: 241801a5-4a02-46f3-a007-f571d58c7825
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 2/24/2018
 ms.keywords: RtlCopyUnicodeString, RtlCopyUnicodeString routine [Kernel-Mode Driver Architecture], k109_5d0b341c-a440-4137-bdc3-77e0da0db58c.xml, kernel.rtlcopyunicodestring, wdm/RtlCopyUnicodeString
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -108,16 +108,17 @@ The <i>DestinationString</i> and <i>SourceString</i> buffers must be resident if
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-rtlcopystring.md">RtlCopyString</a>
-
-
-
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 
 
+<a href="..\ntddk\nf-ntddk-rtlcopystring.md">RtlCopyString</a>
+
+
+
  
 
  
+
 
 

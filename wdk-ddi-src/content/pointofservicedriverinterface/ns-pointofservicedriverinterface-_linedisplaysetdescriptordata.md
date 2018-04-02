@@ -52,16 +52,6 @@ req.typenames: LineDisplaySetDescriptorData
 This structure is not implemented.
 
 
-## -syntax
-
-
-````
-typedef struct _LineDisplaySetDescriptorData {
-   ...;
-} LineDisplaySetDescriptorData, *PLineDisplaySetDescriptorData;
-````
-
-
 ## -struct-fields
 
 

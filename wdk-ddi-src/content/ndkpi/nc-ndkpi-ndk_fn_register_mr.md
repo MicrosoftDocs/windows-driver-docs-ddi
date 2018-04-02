@@ -7,7 +7,7 @@ old-location: netvista\ndk_fn_register_mr.htm
 old-project: netvista
 ms.assetid: 082BBDE1-1B80-4306-96A1-DCD23910B0F7
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: NDK_FN_REGISTER_MR, NDK_MR_FLAG_ALLOW_LOCAL_READ, NDK_MR_FLAG_ALLOW_LOCAL_WRITE, NDK_MR_FLAG_ALLOW_REMOTE_READ, NDK_MR_FLAG_ALLOW_REMOTE_WRITE, NDK_MR_FLAG_RDMA_READ_SINK, NdkRegisterMr, NdkRegisterMr callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkRegisterMr, netvista.ndk_fn_register_mr
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,24 +52,6 @@ req.typenames: NDIS_WWAN_VISIBLE_PROVIDERS, *PNDIS_WWAN_VISIBLE_PROVIDERS
 The <i>NdkRegisterMr</i> (<i>NDK_FN_REGISTER_MR</i>) function registers a virtually contiguous memory region with an NDK adapter.
 
 
-## -prototype
-
-
-````
-NDK_FN_REGISTER_MR NdkRegisterMr;
-
-NTSTATUS NdkRegisterMr(
-  _In_     NDK_MR                    *pNdkMr,
-  _In_     MDL                       *Mdl,
-  _In_     SIZE_T                    Length,
-  _In_     ULONG                     Flags,
-  _In_     NDK_FN_REQUEST_COMPLETION RequestCompletion,
-  _In_opt_ PVOID                     RequestContext
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -78,7 +60,7 @@ NTSTATUS NdkRegisterMr(
 ### -param *pNdkMr [in]
 
 A pointer to an NDK memory region (MR) object
-(<a href="..\ndkpi\ns-ndkpi-_ndk_mr.md">NDK_MR</a>).
+(<a href="https://msdn.microsoft.com/library/windows/hardware/hh439922">NDK_MR</a>).
 
 
 ### -param *Mdl [in]
@@ -147,7 +129,7 @@ A bitmask of flags that specify the access permissions for the registered memory
 
 ### -param RequestCompletion [in]
 
-A pointer to a request completion callback routine <i>NdkRequestCompletion</i> (<a href="..\ndkpi\nc-ndkpi-ndk_fn_request_completion.md">NDK_FN_REQUEST_COMPLETION</a>).
+A pointer to a request completion callback routine <i>NdkRequestCompletion</i> (<a href="https://msdn.microsoft.com/library/windows/hardware/hh439912">NDK_FN_REQUEST_COMPLETION</a>).
 
 
 ### -param RequestContext [in, optional]
@@ -186,7 +168,7 @@ The MR registration was completed successfully.
 </dl>
 </td>
 <td width="60%">
- The operation is pending and will be completed later. The driver will call the specified <i>RequestCompletion</i> (<a href="..\ndkpi\nc-ndkpi-ndk_fn_request_completion.md">NDK_FN_REQUEST_COMPLETION</a>) function to complete the pending operation.
+ The operation is pending and will be completed later. The driver will call the specified <i>RequestCompletion</i> (<a href="https://msdn.microsoft.com/library/windows/hardware/hh439912">NDK_FN_REQUEST_COMPLETION</a>) function to complete the pending operation.
  
 
 </td>
@@ -237,7 +219,7 @@ An error occurred.
 
 
 
-On an <a href="..\ndkpi\ns-ndkpi-_ndk_mr.md">NDK_MR</a> object that was created with  the <i>FastRegister</i> parameter set to FALSE, <i>NdkRegisterMr</i> is used to register a virtually contiguous memory region with the adapter. 
+On an <a href="https://msdn.microsoft.com/library/windows/hardware/hh439922">NDK_MR</a> object that was created with  the <i>FastRegister</i> parameter set to FALSE, <i>NdkRegisterMr</i> is used to register a virtually contiguous memory region with the adapter. 
 
 The NDK consumer must pass an MDL or chain of MDLs that represent virtually contiguous memory region that is pinned in physical memory. The base virtual address for the memory region being registered is the virtual address indicated by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554539">MmGetMdlVirtualAddress</a> macro. If the MDL chain does not represent a virtually contiguous memory region from the starting virtual address up to the specified length in bytes, the NDK provider must fail the request.
 
@@ -253,22 +235,13 @@ An NDK consumer must pass the <b>NDK_MR_FLAG_RDMA_READ_SINK</b> flag when it reg
 <div> </div>
 If an NDK consumer passes the <b>NDK_MR_FLAG_RDMA_READ_SINK</b> flag on an adapter for which the <b>NDK_ADAPTER_FLAG_RDMA_READ_SINK_NOT_REQUIRED</b> flag is set in the <b>AdapterFlags</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439851">NDK_ADAPTER_INFO</a> structure, the provider is not required to handle the <b>NDK_MR_FLAG_RDMA_READ_SINK</b> flag and must not fail the request  due to the presence of this flag.
 
-To deregister the memory region, use the <i>NdkDeregisterMr</i> (<a href="..\ndkpi\nc-ndkpi-ndk_fn_deregister_mr.md">NDK_FN_DEREGISTER_MR</a>) function.
+To deregister the memory region, use the <i>NdkDeregisterMr</i> (<a href="https://msdn.microsoft.com/library/windows/hardware/hh439884">NDK_FN_DEREGISTER_MR</a>) function.
 
 
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439851">NDK_ADAPTER_INFO</a>
-
-
-
-<a href="https://msdn.microsoft.com/94993523-D0D7-441E-B95C-417800840BAC">NDKPI Object Lifetime Requirements</a>
-
-
-
-<a href="..\ndkpi\ns-ndkpi-_ndk_mr.md">NDK_MR</a>
 
 
 
@@ -276,16 +249,24 @@ To deregister the memory region, use the <i>NdkDeregisterMr</i> (<a href="..\ndk
 
 
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_request_completion.md">NDK_FN_REQUEST_COMPLETION</a>
+<a href="https://msdn.microsoft.com/94993523-D0D7-441E-B95C-417800840BAC">NDKPI Object Lifetime Requirements</a>
 
 
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_deregister_mr.md">NDK_FN_DEREGISTER_MR</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439851">NDK_ADAPTER_INFO</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439884">NDK_FN_DEREGISTER_MR</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439912">NDK_FN_REQUEST_COMPLETION</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439922">NDK_MR</a>
  
 
  
-
 

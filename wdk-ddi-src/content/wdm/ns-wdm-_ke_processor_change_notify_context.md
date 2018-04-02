@@ -7,7 +7,7 @@ old-location: kernel\ke_processor_change_notify_context.htm
 old-project: kernel
 ms.assetid: b8b8e2af-487c-4d7b-8af0-b6365d4703b0
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: "*PKE_PROCESSOR_CHANGE_NOTIFY_CONTEXT, KE_PROCESSOR_CHANGE_NOTIFY_CONTEXT, KE_PROCESSOR_CHANGE_NOTIFY_CONTEXT structure [Kernel-Mode Driver Architecture], PKE_PROCESSOR_CHANGE_NOTIFY_CONTEXT, PKE_PROCESSOR_CHANGE_NOTIFY_CONTEXT structure pointer [Kernel-Mode Driver Architecture], _KE_PROCESSOR_CHANGE_NOTIFY_CONTEXT, kernel.ke_processor_change_notify_context, kstruct_c_dcd6ab01-880a-4a63-bd74-acff53b786d1.xml, wdm/KE_PROCESSOR_CHANGE_NOTIFY_CONTEXT, wdm/PKE_PROCESSOR_CHANGE_NOTIFY_CONTEXT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,19 +53,6 @@ req.product: Windows 10 or later.
 The <b>KE_PROCESSOR_CHANGE_NOTIFY_CONTEXT</b> structure describes the notification context that is passed to a registered callback function when a new processor is dynamically added to a hardware partition.
 
 
-## -syntax
-
-
-````
-typedef struct _KE_PROCESSOR_CHANGE_NOTIFY_CONTEXT {
-  KE_PROCESSOR_CHANGE_NOTIFY_STATE State;
-  ULONG                            NtNumber;
-  NTSTATUS                         Status;
-  PROCESSOR_NUMBER                 ProcNumber;
-} KE_PROCESSOR_CHANGE_NOTIFY_CONTEXT, *PKE_PROCESSOR_CHANGE_NOTIFY_CONTEXT;
-````
-
-
 ## -struct-fields
 
 
@@ -98,7 +85,7 @@ The operating system failed to add the processor. If a device driver receives th
 
 ### -field NtNumber
 
-The processor index of the new processor. For information about the relationship between a processor index and a processor number, see <a href="..\wdm\nf-wdm-kegetprocessornumberfromindex.md">KeGetProcessorNumberFromIndex</a>.
+The processor index of the new processor. For information about the relationship between a processor index and a processor number, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff552100">KeGetProcessorNumberFromIndex</a>.
 
 
 ### -field Status
@@ -108,7 +95,7 @@ If the <b>State</b> member contains <b>KeProcessorAddFailureNotify</b>, this mem
 
 ### -field ProcNumber
 
-The processor number of the new processor. This member is a <a href="..\minitape\ns-minitape-_processor_number.md">PROCESSOR_NUMBER</a> structure that specifies a group number and a group-relative processor number.
+The processor number of the new processor. This member is a <a href="https://msdn.microsoft.com/library/windows/hardware/ff559913">PROCESSOR_NUMBER</a> structure that specifies a group number and a group-relative processor number.
 
 
 ## -remarks
@@ -117,7 +104,7 @@ The processor number of the new processor. This member is a <a href="..\minitape
 
 The <b>KE_PROCESSOR_CHANGE_NOTIFY_CONTEXT</b> structure is available starting with Windows Server 2008.
 
-A device driver registers to receive notification when a new processor is dynamically added to the hardware partition by calling the <a href="..\wdm\nf-wdm-keregisterprocessorchangecallback.md">KeRegisterProcessorChangeCallback</a> function. For more information about registering for this notification, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff560897">Registering for Synchronous Driver Notification</a>.
+A device driver registers to receive notification when a new processor is dynamically added to the hardware partition by calling the <a href="https://msdn.microsoft.com/library/windows/hardware/ff553120">KeRegisterProcessorChangeCallback</a> function. For more information about registering for this notification, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff560897">Registering for Synchronous Driver Notification</a>.
 
 When a new processor is dynamically added to the hardware partition, the operating system calls each registered callback function two times. The operating system calls each registered callback function the first time with the <b>KeProcessorAddStartNotify</b> state, and the second time with either the <b>KeProcessorAddCompleteNotify</b> state or the <b>KeProcessorAddFailureNotify</b> state.
 
@@ -128,20 +115,19 @@ A device driver's callback function that receives these notifications must not m
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-keregisterprocessorchangecallback.md">KeRegisterProcessorChangeCallback</a>
 
 
 
-<a href="..\wdm\nf-wdm-kegetprocessornumberfromindex.md">KeGetProcessorNumberFromIndex</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552100">KeGetProcessorNumberFromIndex</a>
 
 
 
-<a href="..\minitape\ns-minitape-_processor_number.md">PROCESSOR_NUMBER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553120">KeRegisterProcessorChangeCallback</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559913">PROCESSOR_NUMBER</a>
  
 
  
-
 

@@ -52,17 +52,6 @@ req.typenames: KSWAVE_VOLUME, *PKSWAVE_VOLUME
 The KSWAVE_VOLUME structure is used to describe sample volume.
 
 
-## -syntax
-
-
-````
-typedef struct {
-  LONG LeftAttenuation;
-  LONG RightAttenuation;
-} KSWAVE_VOLUME, *PKSWAVE_VOLUME;
-````
-
-
 ## -struct-fields
 
 
@@ -89,12 +78,11 @@ This structure is used by the <a href="https://msdn.microsoft.com/library/window
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566529">KSPROPERTY_WAVE_VOLUME</a>
-
-
-
  
 
  
-
 

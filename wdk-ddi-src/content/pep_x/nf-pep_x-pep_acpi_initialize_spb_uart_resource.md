@@ -7,7 +7,7 @@ old-location: kernel\pep_acpi_initialize_spb_uart_resource.htm
 old-project: kernel
 ms.assetid: C1018E89-D3EC-49A0-B02E-254378000378
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: 0, 1, 2, 3, 4, 5, 6, 7, PEP_ACPI_INITIALIZE_SPB_UART_RESOURCE, PEP_ACPI_INITIALIZE_SPB_UART_RESOURCE function [Kernel-Mode Driver Architecture], kernel.pep_acpi_initialize_spb_uart_resource, pepfx/PEP_ACPI_INITIALIZE_SPB_UART_RESOURCE
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,32 +49,7 @@ req.typenames: PEP_WORK_TYPE, *PPEP_WORK_TYPE, PEP_WORK_TYPE, *PPEP_WORK_TYPE
 ## -description
 
 
-The <b>PEP_ACPI_INITIALIZE_SPB_UART_RESOURCE</b> function initializes a platform extension plug-in's (PEP) <a href="..\pepfx\ns-pepfx-_pep_acpi_spb_uart_resource.md">PEP_ACPI_SPB_UART_RESOURCE</a> structure.
-
-
-## -syntax
-
-
-````
-FORCEINLINE VOID PEP_ACPI_INITIALIZE_SPB_UART_RESOURCE(
-  _In_  ULONG              BaudRate,
-  _In_  UCHAR              BitsPerByte,
-  _In_  UCHAR              StopBits,
-  _In_  UCHAR              LinesInUse,
-  _In_  UCHAR              IsBigEndian,
-  _In_  UCHAR              Parity,
-  _In_  UCHAR              FlowControl,
-  _In_  USHORT             RxSize,
-  _In_  USHORT             TxSize,
-  _In_  PUNICODE_STRING    ResourceSource,
-  _In_  UCHAR              ResourceSourceIndex,
-  _In_  BOOLEAN            ResourceUsage,
-  _In_  BOOLEAN            SharedMode,
-  _In_  PCHAR              VendorData,
-  _In_  USHORT             VendorDataLength,
-  _Out_ PPEP_ACPI_RESOURCE Resource
-);
-````
+The <b>PEP_ACPI_INITIALIZE_SPB_UART_RESOURCE</b> function initializes a platform extension plug-in's (PEP) <a href="https://msdn.microsoft.com/library/windows/hardware/mt186697">PEP_ACPI_SPB_UART_RESOURCE</a> structure.
 
 
 ## -parameters
@@ -313,7 +288,7 @@ The length of the buffer pointed to by the <i>VendorData</i> parameter.
 
 ### -param Resource [out]
 
-A pointer to the resource. The structure behind the pointer is of type <a href="..\pepfx\ns-pepfx-_pep_acpi_spb_uart_resource.md">PEP_ACPI_SPB_UART_RESOURCE</a>.
+A pointer to the resource. The structure behind the pointer is of type <a href="https://msdn.microsoft.com/library/windows/hardware/mt186697">PEP_ACPI_SPB_UART_RESOURCE</a>.
 
 
 ## -returns
@@ -327,12 +302,11 @@ This function does not return a value.
 
 ## -see-also
 
-<a href="..\pepfx\ns-pepfx-_pep_acpi_spb_uart_resource.md">PEP_ACPI_SPB_UART_RESOURCE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt186697">PEP_ACPI_SPB_UART_RESOURCE</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: display\d3dddicb_reclaimallocations.htm
 old-project: display
 ms.assetid: 61c8fdbf-b003-4caa-af13-ba6f1e22400c
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDICB_RECLAIMALLOCATIONS, D3DDDICB_RECLAIMALLOCATIONS structure [Display Devices], _D3DDDICB_RECLAIMALLOCATIONS, d3dumddi/D3DDDICB_RECLAIMALLOCATIONS, display.d3dddicb_reclaimallocations
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,19 +52,6 @@ req.typenames: D3DDDICB_RECLAIMALLOCATIONS
 Describes video memory resources that are to be reclaimed and that the user-mode display driver  previously offered  for reuse. Used with the  <a href="https://msdn.microsoft.com/library/windows/hardware/hh451695">pfnReclaimAllocationsCb</a> function.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DDDICB_RECLAIMALLOCATIONS {
-  const HANDLE        *pResources;
-  const D3DKMT_HANDLE *HandleList;
-  BOOL                *pDiscarded;
-  UINT                NumAllocations;
-} D3DDDICB_RECLAIMALLOCATIONS;
-````
-
-
 ## -struct-fields
 
 
@@ -104,20 +91,19 @@ The value of <b>pDiscarded</b> can be <b>NULL</b>. If the driver sets it to <b>N
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/2dff9d2e-c497-422f-824b-a7101904fd67">CreateResource(D3D11)</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541697">D3D10DDIARG_CREATERESOURCE</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451695">pfnReclaimAllocationsCb</a>
-
-
-
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createresource.md">D3D10DDIARG_CREATERESOURCE</a>
-
-
-
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11ddi_createresource.md">CreateResource(D3D11)</a>
-
-
-
  
 
  
-
 

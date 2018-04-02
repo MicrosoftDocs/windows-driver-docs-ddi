@@ -53,22 +53,6 @@ req.product: Windows 10 or later.
 The <code>OEMQueryFontData</code> function retrieves information about a realized font. 
 
 
-## -syntax
-
-
-````
-LONG APIENTRY OEMQueryFontData(
-        DHPDEV                       dhpdev,
-        FONTOBJ                      *pfo,
-        ULONG                        iMode,
-        HGLYPH                       hg,
-        GLYPHDATA                    *pgd,
-  _Out_ _writes_bytes_(cjSize) PVOID pv,
-        ULONG                        cjSize
-);
-````
-
-
 ## -parameters
 
 

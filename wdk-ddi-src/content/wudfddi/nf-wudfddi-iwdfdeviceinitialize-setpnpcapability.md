@@ -55,17 +55,6 @@ req.product: Windows 10 or later.
 The <b>SetPnpCapability</b> method sets the specified Plug and Play (PnP) capability of a device to the specified state.
 
 
-## -syntax
-
-
-````
-void SetPnpCapability(
-  [in] WDF_PNP_CAPABILITY Capability,
-  [in] WDF_TRI_STATE      Value
-);
-````
-
-
 ## -parameters
 
 
@@ -73,7 +62,7 @@ void SetPnpCapability(
 
 ### -param Capability [in]
 
-A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_pnp_capability.md">WDF_PNP_CAPABILITY</a>-typed value that identifies the PnP capability to set. 
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff561428">WDF_PNP_CAPABILITY</a>-typed value that identifies the PnP capability to set. 
 
 
 ### -param Value [in]
@@ -130,7 +119,10 @@ None
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfdeviceinitialize.md">IWDFDeviceInitialize</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556965">IWDFDeviceInitialize</a>
 
 
 
@@ -138,12 +130,8 @@ None
 
 
 
-<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_pnp_capability.md">WDF_PNP_CAPABILITY</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561428">WDF_PNP_CAPABILITY</a>
  
 
  
-
 

@@ -53,17 +53,6 @@ req.typenames: GPIO_CONNECT_IO_PINS_MODE, *PGPIO_CONNECT_IO_PINS_MODE
 The <b>GPIO_CLX_ReleaseInterruptLock</b> method releases an interrupt lock on the specified bank.
 
 
-## -syntax
-
-
-````
-VOID GPIO_CLX_ReleaseInterruptLock(
-  _In_ PVOID   Context,
-  _In_ BANK_ID BankId
-);
-````
-
-
 ## -parameters
 
 
@@ -103,12 +92,11 @@ If the <i>Context</i> parameter is NULL or points to an invalid GPIO device cont
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439482">GPIO_CLX_AcquireInterruptLock</a>
-
-
-
  
 
  
-
 

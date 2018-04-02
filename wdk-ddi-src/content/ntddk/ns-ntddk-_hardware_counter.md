@@ -7,7 +7,7 @@ old-location: kernel\hardware_counter.htm
 old-project: kernel
 ms.assetid: 15eeeb07-b71f-4868-8854-6a5034d3f8c6
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: "*PHARDWARE_COUNTER, HARDWARE_COUNTER, HARDWARE_COUNTER structure [Kernel-Mode Driver Architecture], PHARDWARE_COUNTER, PHARDWARE_COUNTER structure pointer [Kernel-Mode Driver Architecture], _HARDWARE_COUNTER, kernel.hardware_counter, kstruct_b_3e230097-13da-4e6b-bb89-baf3563c3570.xml, ntddk/HARDWARE_COUNTER, ntddk/PHARDWARE_COUNTER"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,18 +52,6 @@ req.typenames: HARDWARE_COUNTER, *PHARDWARE_COUNTER
 The <b>HARDWARE_COUNTER</b> structure contains information about a hardware counter. 
 
 
-## -syntax
-
-
-````
-typedef struct _HARDWARE_COUNTER {
-  HARDWARE_COUNTER_TYPE Type;
-  ULONG                 Reserved;
-  ULONG64               Index;
-} HARDWARE_COUNTER, *PHARDWARE_COUNTER;
-````
-
-
 ## -struct-fields
 
 
@@ -71,7 +59,7 @@ typedef struct _HARDWARE_COUNTER {
 
 ### -field Type
 
-Specifies the type of the hardware counter. Set this member to the following <a href="..\ntddk\ne-ntddk-_hardware_counter_type.md">HARDWARE_COUNTER_TYPE</a> enumeration value:
+Specifies the type of the hardware counter. Set this member to the following <a href="https://msdn.microsoft.com/library/windows/hardware/ff546991">HARDWARE_COUNTER_TYPE</a> enumeration value:
 
 <ul>
 <li>
@@ -94,7 +82,7 @@ Specifies the hardware counter index. Each hardware counter in a performance mon
 
 
 
-This structure is used by the <a href="..\ntddk\nf-ntddk-kequeryhardwarecounterconfiguration.md">KeQueryHardwareCounterConfiguration</a> and <a href="..\ntddk\nf-ntddk-kesethardwarecounterconfiguration.md">KeSetHardwareCounterConfiguration</a> routines. 
+This structure is used by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff553014">KeQueryHardwareCounterConfiguration</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff553257">KeSetHardwareCounterConfiguration</a> routines. 
 
 The <b>Type</b> member specifies the type of hardware counter that is described by the structure. In Windows 7, the only defined hardware counter type is <b>PMCCounter</b>, which is a performance monitor counter. This type of counter is used by thread-profiling applications. 
 
@@ -103,20 +91,19 @@ The <b>Type</b> member specifies the type of hardware counter that is described 
 
 ## -see-also
 
-<a href="..\ntddk\ne-ntddk-_hardware_counter_type.md">HARDWARE_COUNTER_TYPE</a>
 
 
 
-<a href="..\ntddk\nf-ntddk-kesethardwarecounterconfiguration.md">KeSetHardwareCounterConfiguration</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546991">HARDWARE_COUNTER_TYPE</a>
 
 
 
-<a href="..\ntddk\nf-ntddk-kequeryhardwarecounterconfiguration.md">KeQueryHardwareCounterConfiguration</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553014">KeQueryHardwareCounterConfiguration</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553257">KeSetHardwareCounterConfiguration</a>
  
 
  
-
 

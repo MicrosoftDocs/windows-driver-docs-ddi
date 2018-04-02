@@ -53,16 +53,6 @@ req.product: Windows 10 or later.
 Disallows events to be generated.
 
 
-## -syntax
-
-
-````
-HRESULT DisableEvents(
-    Void
-);
-````
-
-
 ## -parameters
 
 
@@ -86,7 +76,6 @@ This method returns an <b>HRESULT</b> value.
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprinterextensionmanager.md">IPrinterExtensionManager</a>
 
 
 
@@ -94,8 +83,8 @@ This method returns an <b>HRESULT</b> value.
 
 
 
+<a href="https://msdn.microsoft.com/918AE3F6-2AC4-42AD-9581-E87AD7E79BAD">IPrinterExtensionManager</a>
  
 
  
-
 

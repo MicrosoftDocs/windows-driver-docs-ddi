@@ -7,7 +7,7 @@ old-location: display\videoprocessorsetoutputbackgroundcolor.htm
 old-project: display
 ms.assetid: F258F21F-0177-4DBB-87FA-F0374689DC7B
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3D11_1DDI_VIDEOPROCESSORSETOUTPUTBACKGROUNDCOLOR, d3d10umddi/pfnVideoProcessorSetOutputBackgroundColor, display.videoprocessorsetoutputbackgroundcolor, pfnVideoProcessorSetOutputBackgroundColor, pfnVideoProcessorSetOutputBackgroundColor callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,34 +52,18 @@ req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 Sets the background color for the video processor.
 
 
-## -prototype
-
-
-````
-PFND3D11_1DDI_VIDEOPROCESSORSETOUTPUTBACKGROUNDCOLOR pfnVideoProcessorSetOutputBackgroundColor;
-
-VOID APIENTRY* pfnVideoProcessorSetOutputBackgroundColor(
-  _In_       D3D10DDI_HDEVICE           hDevice,
-  _In_       D3D11_1DDI_HVIDEOPROCESSOR hVideoProcessor,
-  _In_       BOOL                       YCbCr,
-  _In_ const D3D11_1DDI_VIDEO_COLOR     *pColor
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
 
 
-### -param D3D10DDI_HDEVICE
+### -param Arg1
 
 
-### -param D3D11_1DDI_HVIDEOPROCESSOR
+### -param Arg2
 
 
-### -param BOOL
+### -param Arg3
 
 
 ### -param *
@@ -107,14 +91,14 @@ A handle to the display device (graphics context).
 
 #### - hVideoProcessor [in]
 
-A handle to the video processor object that was created through a call to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessor.md">CreateVideoProcessor</a> function. 
+A handle to the video processor object that was created through a call to the <a href="https://msdn.microsoft.com/741045a2-0a91-490a-907d-5f4900a4a0ae">CreateVideoProcessor</a> function. 
 
 
 
 
 #### - pColor [in]
 
-A pointer to a <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_video_color.md">D3D11_1DDI_VIDEO_COLOR</a> structure that specifies the background color.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh406454">D3D11_1DDI_VIDEO_COLOR</a> structure that specifies the background color.
 
 
 
@@ -130,16 +114,15 @@ This callback function does not return a value.
 
 ## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_video_color.md">D3D11_1DDI_VIDEO_COLOR</a>
 
 
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessor.md">CreateVideoProcessor</a>
+<a href="https://msdn.microsoft.com/741045a2-0a91-490a-907d-5f4900a4a0ae">CreateVideoProcessor</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406454">D3D11_1DDI_VIDEO_COLOR</a>
  
 
  
-
 

@@ -54,17 +54,6 @@ req.product: Windows 10 or later.
 A print processor's <b>ControlPrintProcessor</b> function allows the spooler to control a print job.
 
 
-## -syntax
-
-
-````
-BOOL ControlPrintProcessor(
-  _In_ HANDLE hPrintProcessor,
-  _In_ DWORD  Command
-);
-````
-
-
 ## -parameters
 
 
@@ -72,7 +61,7 @@ BOOL ControlPrintProcessor(
 
 ### -param hPrintProcessor [in]
 
-Caller-supplied print processor handle. This is the handle returned by a previous call to <a href="..\winsplp\nf-winsplp-openprintprocessor.md">OpenPrintProcessor</a>.
+Caller-supplied print processor handle. This is the handle returned by a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff559604">OpenPrintProcessor</a>.
 
 
 ### -param Command [in]
@@ -133,23 +122,22 @@ If the operation succeeds, the function should return <b>TRUE</b>. If the operat
 
 Print processors are required to export a <b>ControlPrintProcessor</b> function. The spooler calls the function when an application calls the SetJob function, described in the Microsoft Windows SDK documentation.
 
-Based on the value received for <i>Command</i>, the function should either pause, resume, or cancel the current job. The <b>ControlPrintProcessor</b> function can be called asynchronously while the print processor's <a href="..\winsplp\nf-winsplp-printdocumentonprintprocessor.md">PrintDocumentOnPrintProcessor</a> function is executing. Thus some sort of synchronization technique must be employed, such as setting an internally-defined event object to pause a job and resetting the event object when the job is resumed. The <b>ControlPrintProcessor</b> function can quickly return after setting or resetting the event object, and PrintDocumentOnPrintProcessor can wait for the event to be in the proper state.
+Based on the value received for <i>Command</i>, the function should either pause, resume, or cancel the current job. The <b>ControlPrintProcessor</b> function can be called asynchronously while the print processor's <a href="https://msdn.microsoft.com/library/windows/hardware/ff560724">PrintDocumentOnPrintProcessor</a> function is executing. Thus some sort of synchronization technique must be employed, such as setting an internally-defined event object to pause a job and resetting the event object when the job is resumed. The <b>ControlPrintProcessor</b> function can quickly return after setting or resetting the event object, and PrintDocumentOnPrintProcessor can wait for the event to be in the proper state.
 
 
 
 
 ## -see-also
 
-<a href="..\winsplp\nf-winsplp-openprintprocessor.md">OpenPrintProcessor</a>
 
 
 
-<a href="..\winsplp\nf-winsplp-printdocumentonprintprocessor.md">PrintDocumentOnPrintProcessor</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559604">OpenPrintProcessor</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560724">PrintDocumentOnPrintProcessor</a>
  
 
  
-
 

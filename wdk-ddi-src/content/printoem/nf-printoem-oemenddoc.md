@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 The <code>OEMEndDoc</code> function is called by the GDI when it has finished sending a document to the driver for rendering.
 
 
-## -syntax
-
-
-````
-BOOL APIENTRY OEMEndDoc(
-   SURFOBJ *pso,
-   FLONG   fl
-);
-````
-
-
 ## -parameters
 
 

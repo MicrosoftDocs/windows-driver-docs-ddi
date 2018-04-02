@@ -7,7 +7,7 @@ old-location: kernel\rtlssizetadd.htm
 old-project: kernel
 ms.assetid: 1CBB3CDF-E7DD-4686-8EF6-FBCADE978A16
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: RtlSSIZETAdd, RtlSSIZETAdd function [Kernel-Mode Driver Architecture], kernel.rtlssizetadd, ntintsafe/RtlSSIZETAdd
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,18 +50,6 @@ req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
 
 
 Adds two values of type <b>SSIZE_T</b>.
-
-
-## -syntax
-
-
-````
-NTSTATUS RtlSSIZETAdd(
-  _In_  SSIZE_T Augend,
-  _In_  SSIZE_T Addend,
-  _Out_ SSIZE_T *pResult
-);
-````
 
 
 ## -parameters

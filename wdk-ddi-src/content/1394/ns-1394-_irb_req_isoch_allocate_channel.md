@@ -52,18 +52,6 @@ req.typenames: IRB_REQ_ISOCH_ALLOCATE_CHANNEL
 This structure contains the fields necessary in order for the 1394 bus driver to carry out an IsochAllocateChannel request.
 
 
-## -syntax
-
-
-````
-typedef struct _IRB_REQ_ISOCH_ALLOCATE_CHANNEL {
-  ULONG         nRequestedChannel;
-  ULONG         Channel;
-  LARGE_INTEGER ChannelsAvailable;
-} IRB_REQ_ISOCH_ALLOCATE_CHANNEL;
-````
-
-
 ## -struct-fields
 
 

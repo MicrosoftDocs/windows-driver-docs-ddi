@@ -53,16 +53,6 @@ req.typenames:
 The<b> KsStreamPointerGetMdl </b>function returns the MDL associated with the frame referenced by <i>StreamPointer</i>.
 
 
-## -syntax
-
-
-````
-PMDL KsStreamPointerGetMdl(
-  _In_ PKSSTREAM_POINTER StreamPointer
-);
-````
-
-
 ## -parameters
 
 
@@ -70,7 +60,7 @@ PMDL KsStreamPointerGetMdl(
 
 ### -param StreamPointer [in]
 
-A pointer to the <a href="..\ks\ns-ks-_ksstream_pointer.md">KSSTREAM_POINTER</a> structure that references the frame for which to return the associated MDL.
+A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567139">KSSTREAM_POINTER</a> structure that references the frame for which to return the associated MDL.
 
 
 ## -returns
@@ -95,16 +85,15 @@ Also see <a href="https://msdn.microsoft.com/4bac68a0-34d2-431a-9ed9-8a42751a736
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksstreampointergetirp.md">KsStreamPointerGetIrp</a>
 
 
 
-<a href="..\ks\nf-ks-ksstreampointerlock.md">KsStreamPointerLock</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567131">KsStreamPointerGetIrp</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn892390">KsStreamPointerLock</a>
  
 
  
-
 

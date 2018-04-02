@@ -7,7 +7,7 @@ old-location: ifsk\fsrtlisfatdbcslegal.htm
 old-project: ifsk
 ms.assetid: 1ba94491-718b-41bf-bc22-2d99ba34c6af
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FsRtlIsFatDbcsLegal, FsRtlIsFatDbcsLegal routine [Installable File System Drivers], fsrtlref_259cf46c-3d21-4acb-9674-f858bacbee1d.xml, ifsk.fsrtlisfatdbcslegal, ntifs/FsRtlIsFatDbcsLegal
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,19 +50,6 @@ req.typenames: TOKEN_TYPE
 
 
 The <b>FsRtlIsFatDbcsLegal</b> routine determines whether the specified ANSI or double-byte character set (DBCS) string is a legal FAT file name.
-
-
-## -syntax
-
-
-````
-BOOLEAN FsRtlIsFatDbcsLegal(
-  _In_ ANSI_STRING DbcsName,
-  _In_ BOOLEAN     WildCardsPermissible,
-  _In_ BOOLEAN     PathNamePermissible,
-  _In_ BOOLEAN     LeadingBackslashPermissible
-);
-````
 
 
 ## -parameters
@@ -128,12 +115,11 @@ For information about other string-handling routines, see <a href="https://msdn.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540605">ANSI_STRING</a>
-
-
-
  
 
  
-
 

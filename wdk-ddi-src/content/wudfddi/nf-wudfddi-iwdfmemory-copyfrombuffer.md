@@ -55,18 +55,6 @@ req.product: Windows 10 or later.
 The <b>CopyFromBuffer</b> method safely copies data from the specified source buffer to a memory object.
 
 
-## -syntax
-
-
-````
-HRESULT CopyFromBuffer(
-  [in] ULONG_PTR DestOffset,
-  [in] void      *pSourceBuffer,
-  [in] SIZE_T    NumOfBytesToCopyFrom
-);
-````
-
-
 ## -parameters
 
 
@@ -103,16 +91,15 @@ A pointer to the source buffer that data is copied from.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558967">IWDFIoQueue::RetrieveNextRequest</a>
 
 
 
-<a href="..\wudfddi\nn-wudfddi-iwdfmemory.md">IWDFMemory</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559249">IWDFMemory</a>
  
 
  
-
 

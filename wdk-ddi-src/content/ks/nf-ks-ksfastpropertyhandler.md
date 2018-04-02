@@ -53,14 +53,6 @@ req.typenames:
 The <b>KsFastPropertyHandler</b> function handles fast property requests through IOCTL_KS_PROPERTY. It responds to all property identifiers defined by the sets that are also contained in the fast I/O list. This function can only be called at PASSIVE_LEVEL.
 
 
-## -syntax
-
-
-````
-KSDDKAPI BOOLEAN NTAPI KsFastPropertyHandler(void);
-````
-
-
 ## -parameters
 
 
@@ -128,12 +120,11 @@ The owner of a property set can perform prefiltering or postfiltering of the pro
 
 ## -see-also
 
-<a href="..\ks\nf-ks-kspropertyhandler.md">KsPropertyHandler</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564263">KsPropertyHandler</a>
  
 
  
-
 

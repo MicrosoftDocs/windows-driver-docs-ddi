@@ -53,22 +53,6 @@ req.product: Windows 10 or later.
 A print processor's <b>EnumPrintProcessorDatatypes</b> function enumerates the data types that the print processor supports.
 
 
-## -syntax
-
-
-````
-BOOL EnumPrintProcessorDatatypes(
-  _In_opt_  LPTSTR  pName,
-  _In_      LPTSTR  pPrintProcessorName,
-            DWORD   Level,
-  _Out_opt_ LPBYTE  pDatatypes,
-            DWORD   cbBuf,
-  _Out_     LPDWORD pcbNeeded,
-  _Out_     LPDWORD pcReturned
-);
-````
-
-
 ## -parameters
 
 

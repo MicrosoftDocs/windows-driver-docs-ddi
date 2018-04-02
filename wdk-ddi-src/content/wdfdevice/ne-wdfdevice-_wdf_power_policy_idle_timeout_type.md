@@ -56,18 +56,6 @@ req.product: Windows 10 or later.
    The <b>WDF_POWER_POLICY_IDLE_TIMEOUT_TYPE</b> enumeration identifies how the idle timeout for a device is determined.
 
 
-## -syntax
-
-
-````
-typedef enum _WDF_POWER_POLICY_IDLE_TIMEOUT_TYPE { 
-  DriverManagedIdleTimeout          = 0,
-  SystemManagedIdleTimeout          = 1,
-  SystemManagedIdleTimeoutWithHint  = 2
-} WDF_POWER_POLICY_IDLE_TIMEOUT_TYPE, *PWDF_POWER_POLICY_IDLE_TIMEOUT_TYPE;
-````
-
-
 ## -enum-fields
 
 
@@ -75,7 +63,7 @@ typedef enum _WDF_POWER_POLICY_IDLE_TIMEOUT_TYPE {
 
 ### -field DriverManagedIdleTimeout
 
-The idle timeout value is determined by the <b>IdleTimeout</b> member of the <a href="..\wdfdevice\ns-wdfdevice-_wdf_device_power_policy_idle_settings.md">WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS</a> structure.
+The idle timeout value is determined by the <b>IdleTimeout</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551270">WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS</a> structure.
 
 
 ### -field SystemManagedIdleTimeout
@@ -102,19 +90,18 @@ On operating systems earlier than Windows 8, the behavior is the same as <b>Dri
 
 
 
-The <b>WDF_POWER_POLICY_IDLE_TIMEOUT_TYPE</b> enumeration is used in the <a href="..\wdfdevice\ns-wdfdevice-_wdf_device_power_policy_idle_settings.md">WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS</a> structure. 
+The <b>WDF_POWER_POLICY_IDLE_TIMEOUT_TYPE</b> enumeration is used in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551270">WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS</a> structure. 
 
 
 
 
 ## -see-also
 
-<a href="..\wdfdevice\ns-wdfdevice-_wdf_device_power_policy_idle_settings.md">WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551270">WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS</a>
  
 
  
-
 

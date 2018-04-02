@@ -7,7 +7,7 @@ old-location: netvista\ndismderegisterscattergatherdma.htm
 old-project: netvista
 ms.assetid: 44792a1f-c6d5-4491-a06d-e00e41e40059
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: NdisMDeregisterScatterGatherDma, NdisMDeregisterScatterGatherDma function [Network Drivers Starting with Windows Vista], ndis/NdisMDeregisterScatterGatherDma, ndis_sgdma_ref_93a42580-1486-4ec8-90e6-ca6219c54884.xml, netvista.ndismderegisterscattergatherdma
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,18 +52,8 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 
 Bus-master miniport drivers call 
   <b>NdisMDeregisterScatterGatherDma</b> to release DMA resources that were allocated with the 
-  <a href="..\ndis\nf-ndis-ndismregisterscattergatherdma.md">
+  <a href="https://msdn.microsoft.com/90ce64a2-9140-4b5f-88aa-b4f01a3d0c6f">
   NdisMRegisterScatterGatherDma</a> function.
-
-
-## -syntax
-
-
-````
-VOID NdisMDeregisterScatterGatherDma(
-  _In_ NDIS_HANDLE NdisMiniportDmaHandle
-);
-````
 
 
 ## -parameters
@@ -93,7 +83,7 @@ None
 
 An NDIS miniport driver calls 
     <b>NdisMDeregisterScatterGatherDma</b> from its 
-    <a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a> function to release the
+    <a href="https://msdn.microsoft.com/b8d452b4-bef3-4991-87cf-fac15bedfde4">MiniportHaltEx</a> function to release the
     DMA resources it allocated and initialized in a previous call to 
     <b>NdisMRegisterScatterGatherDma</b>.
 
@@ -102,11 +92,6 @@ An NDIS miniport driver calls
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/c7e702aa-494f-4b27-a7c3-d42ef8f42a6e">Miniport Driver Scatter/Gather DMA</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
 
 
 
@@ -114,12 +99,11 @@ An NDIS miniport driver calls
 
 
 
-<a href="..\ndis\nf-ndis-ndismregisterscattergatherdma.md">
-   NdisMRegisterScatterGatherDma</a>
+<a href="https://msdn.microsoft.com/c7e702aa-494f-4b27-a7c3-d42ef8f42a6e">Miniport Driver Scatter/Gather DMA</a>
 
 
 
-<a href="https://msdn.microsoft.com/b24e0a56-1864-4f70-a646-c35e8eccd9e3">Registering and Deregistering DMA Channels</a>
+<a href="https://msdn.microsoft.com/b8d452b4-bef3-4991-87cf-fac15bedfde4">MiniportHaltEx</a>
 
 
 
@@ -127,8 +111,13 @@ An NDIS miniport driver calls
 
 
 
+<a href="https://msdn.microsoft.com/90ce64a2-9140-4b5f-88aa-b4f01a3d0c6f">
+   NdisMRegisterScatterGatherDma</a>
+
+
+
+<a href="https://msdn.microsoft.com/b24e0a56-1864-4f70-a646-c35e8eccd9e3">Registering and Deregistering DMA Channels</a>
  
 
  
-
 

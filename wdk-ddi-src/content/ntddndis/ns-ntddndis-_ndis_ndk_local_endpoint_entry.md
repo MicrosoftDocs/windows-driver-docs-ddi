@@ -7,7 +7,7 @@ old-location: netvista\ndis_ndk_local_endpoint_entry.htm
 old-project: netvista
 ms.assetid: 83B88D3D-8FBF-4DC1-8A73-FAB306281F36
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: NDIS_NDK_LOCAL_ENDPOINT_ENTRY, NDIS_NDK_LOCAL_ENDPOINT_ENTRY structure [Network Drivers Starting with Windows Vista], _NDIS_NDK_LOCAL_ENDPOINT_ENTRY, netvista.ndis_ndk_local_endpoint_entry, ntddndis/NDIS_NDK_LOCAL_ENDPOINT_ENTRY
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,19 +52,6 @@ req.typenames: NDIS_NDK_LOCAL_ENDPOINT_ENTRY
 The <b>NDIS_NDK_LOCAL_ENDPOINT_ENTRY</b> structure specifies an ND  local endpoint entry for an ND  local endpoint on a miniport adapter.
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_NDK_LOCAL_ENDPOINT_ENTRY {
-  SOCKADDR_INET Local;
-  BOOLEAN       UserModeOwner;
-  BOOLEAN       Listener;
-  ULONG         OwnerPid;
-} NDIS_NDK_LOCAL_ENDPOINT_ENTRY;
-````
-
-
 ## -struct-fields
 
 
@@ -94,19 +81,18 @@ A process identifier for an NDS user-mode connection.
 
 
 
-The NDIS_NDK_LOCAL_ENDPOINT_ENTRY structure is used in the <a href="..\ntddndis\ns-ntddndis-_ndis_ndk_local_endpoints.md">NDIS_NDK_LOCAL_ENDPOINTS</a> structure to specify an array of local endpoints.
+The NDIS_NDK_LOCAL_ENDPOINT_ENTRY structure is used in the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451563">NDIS_NDK_LOCAL_ENDPOINTS</a> structure to specify an array of local endpoints.
 
 
 
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_ndk_local_endpoints.md">NDIS_NDK_LOCAL_ENDPOINTS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451563">NDIS_NDK_LOCAL_ENDPOINTS</a>
  
 
  
-
 

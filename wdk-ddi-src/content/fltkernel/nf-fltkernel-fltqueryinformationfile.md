@@ -7,7 +7,7 @@ old-location: ifsk\fltqueryinformationfile.htm
 old-project: ifsk
 ms.assetid: f80750fb-4561-4617-bc54-1360b2e93a68
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FltApiRef_p_to_z_f6c70c3b-4b99-4ae9-ba01-789c4d3ab1c3.xml, FltQueryInformationFile, FltQueryInformationFile function [Installable File System Drivers], fltkernel/FltQueryInformationFile, ifsk.fltqueryinformationfile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,21 +50,6 @@ req.typenames: EXpsFontRestriction
 
 
 <b>FltQueryInformationFile</b> retrieves information for a given file. 
-
-
-## -syntax
-
-
-````
-NTSTATUS FltQueryInformationFile(
-  _In_      PFLT_INSTANCE          Instance,
-  _In_      PFILE_OBJECT           FileObject,
-  _Out_     PVOID                  FileInformation,
-  _In_      ULONG                  Length,
-  _In_      FILE_INFORMATION_CLASS FileInformationClass,
-  _Out_opt_ PULONG                 LengthReturned
-);
-````
 
 
 ## -parameters
@@ -117,7 +102,7 @@ Return a FILE_ALL_INFORMATION structure for the file.
 
 </td>
 <td>
-Return a <a href="..\ntddk\ns-ntddk-_file_attribute_tag_information.md">FILE_ATTRIBUTE_TAG_INFORMATION</a> structure for the file. 
+Return a <a href="https://msdn.microsoft.com/library/windows/hardware/ff545750">FILE_ATTRIBUTE_TAG_INFORMATION</a> structure for the file. 
 
 </td>
 </tr>
@@ -127,7 +112,7 @@ Return a <a href="..\ntddk\ns-ntddk-_file_attribute_tag_information.md">FILE_ATT
 
 </td>
 <td>
-Return a <a href="..\wdm\ns-wdm-_file_basic_information.md">FILE_BASIC_INFORMATION</a> structure for the file. 
+Return a <a href="https://msdn.microsoft.com/library/windows/hardware/ff545762">FILE_BASIC_INFORMATION</a> structure for the file. 
 
 </td>
 </tr>
@@ -157,7 +142,7 @@ Return a FILE_EA_INFORMATION structure for the file.
 
 </td>
 <td>
-Return a <a href="..\ntifs\ns-ntifs-_file_internal_information.md">FILE_INTERNAL_INFORMATION</a> structure for the file. 
+Return a <a href="https://msdn.microsoft.com/library/windows/hardware/ff540318">FILE_INTERNAL_INFORMATION</a> structure for the file. 
 
 </td>
 </tr>
@@ -177,7 +162,7 @@ Return a FILE_MOVE_CLUSTER_INFORMATION structure for the file.
 
 </td>
 <td>
-Return a <a href="..\ntddk\ns-ntddk-_file_name_information.md">FILE_NAME_INFORMATION</a> structure for the file. 
+Return a <a href="https://msdn.microsoft.com/library/windows/hardware/ff545817">FILE_NAME_INFORMATION</a> structure for the file. 
 
 </td>
 </tr>
@@ -187,7 +172,7 @@ Return a <a href="..\ntddk\ns-ntddk-_file_name_information.md">FILE_NAME_INFORMA
 
 </td>
 <td>
-Return a single <a href="..\wdm\ns-wdm-_file_network_open_information.md">FILE_NETWORK_OPEN_INFORMATION</a> structure for the file. 
+Return a single <a href="https://msdn.microsoft.com/library/windows/hardware/ff545822">FILE_NETWORK_OPEN_INFORMATION</a> structure for the file. 
 
 </td>
 </tr>
@@ -197,7 +182,7 @@ Return a single <a href="..\wdm\ns-wdm-_file_network_open_information.md">FILE_N
 
 </td>
 <td>
-Return a single <a href="..\wdm\ns-wdm-_file_position_information.md">FILE_POSITION_INFORMATION</a> structure for the file. 
+Return a single <a href="https://msdn.microsoft.com/library/windows/hardware/ff545848">FILE_POSITION_INFORMATION</a> structure for the file. 
 
 </td>
 </tr>
@@ -207,7 +192,7 @@ Return a single <a href="..\wdm\ns-wdm-_file_position_information.md">FILE_POSIT
 
 </td>
 <td>
-Return a single <a href="..\wdm\ns-wdm-_file_standard_information.md">FILE_STANDARD_INFORMATION</a> structure for the file. 
+Return a single <a href="https://msdn.microsoft.com/library/windows/hardware/ff545855">FILE_STANDARD_INFORMATION</a> structure for the file. 
 
 </td>
 </tr>
@@ -217,7 +202,7 @@ Return a single <a href="..\wdm\ns-wdm-_file_standard_information.md">FILE_STAND
 
 </td>
 <td>
-Return a single <a href="..\ntifs\ns-ntifs-_file_stream_information.md">FILE_STREAM_INFORMATION</a> structure for the file. 
+Return a single <a href="https://msdn.microsoft.com/library/windows/hardware/ff540364">FILE_STREAM_INFORMATION</a> structure for the file. 
 
 </td>
 </tr>
@@ -227,7 +212,7 @@ Return a single <a href="..\ntifs\ns-ntifs-_file_stream_information.md">FILE_STR
 
 </td>
 <td>
-Return a <a href="..\ntifs\ns-ntifs-_file_links_information.md">FILE_LINKS_INFORMATION</a> structure for the file. 
+Return a <a href="https://msdn.microsoft.com/library/windows/hardware/ff728841">FILE_LINKS_INFORMATION</a> structure for the file. 
 
 </td>
 </tr>
@@ -278,67 +263,66 @@ A minifilter driver calls <b>FltQueryInformationFile</b> to retrieve information
 
 Callers of <b>FltQueryInformationFile</b> must be running at IRQL = PASSIVE_LEVEL and <a href="https://msdn.microsoft.com/0578df31-1467-4bad-ba62-081d61278deb">with APCs enabled</a>.
 
-<div class="alert"><b>Note</b>  Before calling this routine, call <a href="..\wdm\nf-wdm-iogettoplevelirp.md">IoGetTopLevelIrp</a>.  If <b>IoGetTopLevelIrp</b> returns a non-<b>NULL</b> value, do not call the routine as this can cause a system deadlock.</div>
+<div class="alert"><b>Note</b>  Before calling this routine, call <a href="https://msdn.microsoft.com/library/windows/hardware/ff548405">IoGetTopLevelIrp</a>.  If <b>IoGetTopLevelIrp</b> returns a non-<b>NULL</b> value, do not call the routine as this can cause a system deadlock.</div>
 <div> </div>
 
 
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_file_standard_information.md">FILE_STANDARD_INFORMATION</a>
 
 
 
-<a href="..\ntddk\ns-ntddk-_file_name_information.md">FILE_NAME_INFORMATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545740">FILE_ALIGNMENT_INFORMATION</a>
 
 
 
-<a href="..\wdm\ns-wdm-_file_position_information.md">FILE_POSITION_INFORMATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545750">FILE_ATTRIBUTE_TAG_INFORMATION</a>
 
 
 
-<a href="..\ntddk\ns-ntddk-_file_alignment_information.md">FILE_ALIGNMENT_INFORMATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545762">FILE_BASIC_INFORMATION</a>
 
 
 
-<a href="..\wdm\ns-wdm-_file_basic_information.md">FILE_BASIC_INFORMATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540318">FILE_INTERNAL_INFORMATION</a>
 
 
 
-<a href="..\wdm\nf-wdm-zwqueryinformationfile.md">ZwQueryInformationFile</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff728841">FILE_LINKS_INFORMATION</a>
 
 
 
-<a href="..\ntifs\ns-ntifs-_file_stream_information.md">FILE_STREAM_INFORMATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545817">FILE_NAME_INFORMATION</a>
 
 
 
-<a href="..\wdm\ns-wdm-_file_network_open_information.md">FILE_NETWORK_OPEN_INFORMATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545822">FILE_NETWORK_OPEN_INFORMATION</a>
 
 
 
-<a href="..\ntifs\ns-ntifs-_file_internal_information.md">FILE_INTERNAL_INFORMATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545848">FILE_POSITION_INFORMATION</a>
 
 
 
-<a href="..\ntifs\ns-ntifs-_file_links_information.md">FILE_LINKS_INFORMATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545855">FILE_STANDARD_INFORMATION</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltsetinformationfile.md">FltSetInformationFile</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540364">FILE_STREAM_INFORMATION</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltqueryvolumeinformationfile.md">FltQueryVolumeInformationFile</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543446">FltQueryVolumeInformationFile</a>
 
 
 
-<a href="..\ntddk\ns-ntddk-_file_attribute_tag_information.md">FILE_ATTRIBUTE_TAG_INFORMATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544516">FltSetInformationFile</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567052">ZwQueryInformationFile</a>
  
 
  
-
 

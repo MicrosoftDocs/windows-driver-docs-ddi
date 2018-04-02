@@ -52,16 +52,6 @@ req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 The <b>PshedRegisterPlugin</b> function registers a PSHED plug-in with the PSHED.
 
 
-## -syntax
-
-
-````
-NTSTATUS PshedRegisterPlugin(
-  _Inout_ PWHEA_PSHED_PLUGIN_REGISTRATION_PACKET Packet
-);
-````
-
-
 ## -parameters
 
 
@@ -69,7 +59,7 @@ NTSTATUS PshedRegisterPlugin(
 
 ### -param Packet [in, out]
 
-A pointer to an initialized  <a href="..\ntddk\ns-ntddk-_whea_pshed_plugin_registration_packet.md">WHEA_PSHED_PLUGIN_REGISTRATION_PACKET</a> structure that describes the PSHED plug-in's registration information.
+A pointer to an initialized  <a href="https://msdn.microsoft.com/library/windows/hardware/ff560617">WHEA_PSHED_PLUGIN_REGISTRATION_PACKET</a> structure that describes the PSHED plug-in's registration information.
 
 
 ## -returns
@@ -115,14 +105,13 @@ The data in the supplied registration packet is invalid.
 
 
 
-A PSHED plug-in calls the <b>PshedRegisterPlugin</b> function to register itself with the PSHED. A PSHED plug-in typically calls this function from within either its <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> function or its <a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a> function.
+A PSHED plug-in calls the <b>PshedRegisterPlugin</b> function to register itself with the PSHED. A PSHED plug-in typically calls this function from within either its <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> function or its <a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a> function.
 
 
 
 
 ## -see-also
 
-<a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a>
 
 
 
@@ -130,12 +119,12 @@ A PSHED plug-in calls the <b>PshedRegisterPlugin</b> function to register itself
 
 
 
-<a href="..\ntddk\ns-ntddk-_whea_pshed_plugin_registration_packet.md">WHEA_PSHED_PLUGIN_REGISTRATION_PACKET</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560617">WHEA_PSHED_PLUGIN_REGISTRATION_PACKET</a>
  
 
  
-
 

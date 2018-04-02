@@ -7,7 +7,7 @@ old-location: buses\ucx_controller_state.htm
 old-project: usbref
 ms.assetid: 717BE2D2-2CF3-4A8C-B7DC-41E45C56B02B
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: UCX_CONTROLLER_STATE, UCX_CONTROLLER_STATE enumeration [Buses], UcxControllerStateLost, UcxControllerStatePreserved, _UCX_CONTROLLER_STATE, buses.ucx_controller_state, ucxcontroller/UCX_CONTROLLER_STATE, ucxcontroller/UcxControllerStateLost, ucxcontroller/UcxControllerStatePreserved
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 This enumeration provides values to specify the UCX controller state after a  reset.
 
 
-## -syntax
-
-
-````
-typedef enum _UCX_CONTROLLER_STATE { 
-  UcxControllerStateLost,
-  UcxControllerStatePreserved
-} UCX_CONTROLLER_STATE;
-````
-
-
 ## -enum-fields
 
 
@@ -81,12 +70,11 @@ Indicates the controller state was preserved after reset.
 
 ## -see-also
 
-<a href="..\ucxcontroller\ns-ucxcontroller-_ucx_controller_reset_complete_info.md">UCX_CONTROLLER_RESET_COMPLETE_INFO</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt188061">UCX_CONTROLLER_RESET_COMPLETE_INFO</a>
  
 
  
-
 

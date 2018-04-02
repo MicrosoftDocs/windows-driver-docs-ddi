@@ -53,18 +53,6 @@ req.product: Windows 10 or later.
 The <b>wiauGetResourceString</b> function gets a resource string, storing it as a <b>BSTR</b>.
 
 
-## -syntax
-
-
-````
-HRESULT _stdcall wiauGetResourceString(
-        HINSTANCE hInst,
-        LONG      lResourceID,
-  _Out_ BSTR      *pbstrStr
-);
-````
-
-
 ## -parameters
 
 

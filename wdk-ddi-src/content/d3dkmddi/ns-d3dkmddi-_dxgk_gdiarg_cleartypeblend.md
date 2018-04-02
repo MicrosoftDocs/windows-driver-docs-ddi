@@ -7,7 +7,7 @@ old-location: display\dxgk_gdiarg_cleartypeblend.htm
 old-project: display
 ms.assetid: 1e67bb33-c2e5-4f3c-9ea6-feeb4a1fe645
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGK_GDIARG_CLEARTYPEBLEND, DXGK_GDIARG_CLEARTYPEBLEND structure [Display Devices], DmStructs_b59789df-1494-45ea-b89a-4403e6c82dfd.xml, _DXGK_GDIARG_CLEARTYPEBLEND, d3dkmddi/DXGK_GDIARG_CLEARTYPEBLEND, display.dxgk_gdiarg_cleartypeblend
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,28 +52,6 @@ req.typenames: DXGK_GDIARG_CLEARTYPEBLEND
 The DXGK_GDIARG_CLEARTYPEBLEND structure describes the characteristics of a GDI hardware-accelerated ClearType and antialiased text pixel blending operation.
 
 
-## -syntax
-
-
-````
-typedef struct _DXGK_GDIARG_CLEARTYPEBLEND {
-  RECT DstRect;
-  UINT TmpSurfAllocationIndex;
-  UINT GammaSurfAllocationIndex;
-  UINT AlphaSurfAllocationIndex;
-  UINT DstAllocationIndex;
-  INT  DstToAlphaOffsetX;
-  INT  DstToAlphaOffsetY;
-  UINT Color;
-  UINT Gamma;
-  UINT NumSubRects;
-  RECT *pSubRects;
-  UINT AlphaSurfPitch;
-  UINT Color2;
-} DXGK_GDIARG_CLEARTYPEBLEND;
-````
-
-
 ## -struct-fields
 
 
@@ -96,7 +74,7 @@ The destination rectangle defined by <b>DstRect</b> can exceed the bounds of the
 ### -field GammaSurfAllocationIndex
 
 
-      [in] An index of the element in the allocation list that specifies a gamma table of type <a href="..\d3dkmdt\ne-d3dkmdt-_d3dkmdt_gdisurfacetype.md">D3DKMDT_GDISURFACETYPE</a>. The format of the gamma lookup allocation is 8 bits per pixel, and the resolution is 512 x 16 pixels. Each row of the allocation contains two tables: gamma and inverse gamma. Each table has 256 entries.
+      [in] An index of the element in the allocation list that specifies a gamma table of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff546039">D3DKMDT_GDISURFACETYPE</a>. The format of the gamma lookup allocation is 8 bits per pixel, and the resolution is 512 x 16 pixels. Each row of the allocation contains two tables: gamma and inverse gamma. Each table has 256 entries.
      
 
 
@@ -131,7 +109,7 @@ The destination rectangle defined by <b>DstRect</b> can exceed the bounds of the
 ### -field Color
 
 
-      [in] The foreground color, in 32-bit ARGB unsigned pixel format (as defined by the D3DDDIFMT_A8R8G8B8 value of the <a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a> enumeration), corrected for gamma.
+      [in] The foreground color, in 32-bit ARGB unsigned pixel format (as defined by the D3DDDIFMT_A8R8G8B8 value of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff544312">D3DDDIFORMAT</a> enumeration), corrected for gamma.
      
 
 
@@ -166,7 +144,7 @@ The destination rectangle defined by <b>DstRect</b> can exceed the bounds of the
 ### -field Color2
 
 
-      [in] The foreground color, in 32-bit ARGB unsigned pixel format (as defined by the D3DDDIFMT_A8R8G8B8 value of the <a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a> enumeration), not corrected for gamma.
+      [in] The foreground color, in 32-bit ARGB unsigned pixel format (as defined by the D3DDDIFMT_A8R8G8B8 value of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff544312">D3DDDIFORMAT</a> enumeration), not corrected for gamma.
      
 
 
@@ -217,7 +195,7 @@ OutputColor.b = D.b + (Color.b - D.b) * (Color.b &gt;= D.b ? A.r : A.g) / 255.0<
 </td>
 </tr>
 </table></span></div>
-Where the following parameters are in the D3DDDIFMT_A8R8G8B8 format defined in the <a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a> enumeration:
+Where the following parameters are in the D3DDDIFMT_A8R8G8B8 format defined in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff544312">D3DDDIFORMAT</a> enumeration:
 
 <ul>
 <li>
@@ -248,20 +226,19 @@ The driver must also ensure that when a component of A is 0xFF, the correspondin
 
 ## -see-also
 
-<a href="..\d3dkmdt\ne-d3dkmdt-_d3dkmdt_gdisurfacetype.md">D3DKMDT_GDISURFACETYPE</a>
 
 
 
-<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544312">D3DDDIFORMAT</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546039">D3DKMDT_GDISURFACETYPE</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
-
-
-
  
 
  
-
 

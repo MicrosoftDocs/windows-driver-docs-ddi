@@ -7,7 +7,7 @@ old-location: ifsk\file_fs_persistent_volume_information.htm
 old-project: ifsk
 ms.assetid: f1c7785e-e135-4060-8cf7-5c985b37ff83
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: "*PFILE_FS_PERSISTENT_VOLUME_INFORMATION, FILE_FS_PERSISTENT_VOLUME_INFORMATION, FILE_FS_PERSISTENT_VOLUME_INFORMATION structure [Installable File System Drivers], PERSISTENT_VOLUME_STATE_BACKED_BY_WIM, PERSISTENT_VOLUME_STATE_CONTAINS_BACKING_WIM, PERSISTENT_VOLUME_STATE_GLOBAL_METADATA_NO_SEEK_PENALTY, PERSISTENT_VOLUME_STATE_LOCAL_METADATA_NO_SEEK_PENALTY, PERSISTENT_VOLUME_STATE_NO_HEAT_GATHERING, PERSISTENT_VOLUME_STATE_SHORT_NAME_CREATION_DISABLED, PERSISTENT_VOLUME_STATE_VOLUME_SCRUB_DISABLED, PFILE_FS_PERSISTENT_VOLUME_INFORMATION, PFILE_FS_PERSISTENT_VOLUME_INFORMATION structure pointer [Installable File System Drivers], _FILE_FS_PERSISTENT_VOLUME_INFORMATION, fileinformationstructures_81dcbc8f-6b7e-455e-b1b2-b99e6fd4084d.xml, ifsk.file_fs_persistent_volume_information, ntifs/FILE_FS_PERSISTENT_VOLUME_INFORMATION, ntifs/PFILE_FS_PERSISTENT_VOLUME_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,19 +50,6 @@ req.typenames: FILE_FS_PERSISTENT_VOLUME_INFORMATION, *PFILE_FS_PERSISTENT_VOLUM
 
 
 The <b>FILE_FS_PERSISTENT_VOLUME_INFORMATION</b> structure is used to control persistent settings for a file system volume. Persistent settings persist on a file system volume between reboots of the computer. 
-
-
-## -syntax
-
-
-````
-typedef struct _FILE_FS_PERSISTENT_VOLUME_INFORMATION {
-  ULONG VolumeFlags;
-  ULONG FlagMask;
-  ULONG Version;
-  ULONG Reserved;
-} FILE_FS_PERSISTENT_VOLUME_INFORMATION, *PFILE_FS_PERSISTENT_VOLUME_INFORMATION;
-````
 
 
 ## -struct-fields
@@ -234,16 +221,15 @@ The <b>Version</b> member must be set to the current version of 1 for both a que
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545496">FSCTL_QUERY_PERSISTENT_VOLUME_STATE</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545564">FSCTL_SET_PERSISTENT_VOLUME_STATE</a>
-
-
-
  
 
  
-
 

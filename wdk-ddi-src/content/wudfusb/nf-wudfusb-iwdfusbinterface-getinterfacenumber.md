@@ -55,14 +55,6 @@ req.product: Windows 10 or later.
 The <b>GetInterfaceNumber</b> method retrieves the index of a USB interface.
 
 
-## -syntax
-
-
-````
-UCHAR GetInterfaceNumber();
-````
-
-
 ## -parameters
 
 
@@ -81,12 +73,11 @@ UCHAR GetInterfaceNumber();
 
 ## -see-also
 
-<a href="..\wudfusb\nn-wudfusb-iwdfusbinterface.md">IWDFUsbInterface</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560312">IWDFUsbInterface</a>
  
 
  
-
 

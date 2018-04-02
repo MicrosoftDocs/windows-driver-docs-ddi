@@ -55,14 +55,6 @@ req.product: Windows 10 or later.
 The <b>Reopen</b> method reopens a <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/general-i-o-targets-in-umdf">remote I/O target</a> after it has been temporarily closed.
 
 
-## -syntax
-
-
-````
-HRESULT Reopen();
-````
-
-
 ## -parameters
 
 
@@ -151,16 +143,15 @@ CMyRemoteTarget::OnRemoteTargetRemoveCanceled(
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfremotetarget.md">IWDFRemoteTarget</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560247">IWDFRemoteTarget</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560253">IWDFRemoteTarget::Close</a>
-
-
-
  
 
  
-
 

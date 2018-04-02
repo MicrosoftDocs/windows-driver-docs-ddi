@@ -7,7 +7,7 @@ old-location: kernel\rtlint8sub.htm
 old-project: kernel
 ms.assetid: 3648668C-65CD-45F9-80E0-490AE2FE405E
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: RtlInt8Sub, RtlInt8Sub function [Kernel-Mode Driver Architecture], kernel.rtlint8sub, ntintsafe/RtlInt8Sub
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,18 +50,6 @@ req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
 
 
 Subtracts one value of type <b>INT8</b> from another.
-
-
-## -syntax
-
-
-````
-NTSTATUS RtlInt8Sub(
-  _In_  INT8 i8Minuend,
-  _In_  INT8 i8Subtrahend,
-  _Out_ INT8 *pi8Result
-);
-````
 
 
 ## -parameters

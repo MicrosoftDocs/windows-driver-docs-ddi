@@ -7,7 +7,7 @@ old-location: storage\dvd_structure_format.htm
 old-project: storage
 ms.assetid: 0f3ca59b-f7e9-4bd7-a652-f7f0a6075d80
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PDVD_STRUCTURE_FORMAT, DVD_STRUCTURE_FORMAT, DVD_STRUCTURE_FORMAT enumeration [Storage Devices], DvdBCADescriptor, DvdCopyrightDescriptor, DvdDiskKeyDescriptor, DvdManufacturerDescriptor, DvdMaxDescriptor, DvdPhysicalDescriptor, PDVD_STRUCTURE_FORMAT, PDVD_STRUCTURE_FORMAT enumeration pointer [Storage Devices], ntddcdvd/DVD_STRUCTURE_FORMAT, ntddcdvd/DvdBCADescriptor, ntddcdvd/DvdCopyrightDescriptor, ntddcdvd/DvdDiskKeyDescriptor, ntddcdvd/DvdManufacturerDescriptor, ntddcdvd/DvdMaxDescriptor, ntddcdvd/DvdPhysicalDescriptor, ntddcdvd/PDVD_STRUCTURE_FORMAT, storage.dvd_structure_format, structs-DVD_299fec4b-1ed0-43ea-a522-716c1a585d0e.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,22 +49,7 @@ req.typenames: DVD_STRUCTURE_FORMAT, *PDVD_STRUCTURE_FORMAT
 ## -description
 
 
-The DVD_STRUCTURE_FORMAT enumeration type is used in conjunction with the <a href="..\ntddcdvd\ni-ntddcdvd-ioctl_dvd_read_structure.md">IOCTL_DVD_READ_STRUCTURE</a> request and the <a href="..\ntddcdvd\ns-ntddcdvd-dvd_read_structure.md">DVD_READ_STRUCTURE</a> structure to retrieve a DVD descriptor.
-
-
-## -syntax
-
-
-````
-typedef enum DVD_STRUCTURE_FORMAT { 
-  DvdPhysicalDescriptor      = 0,
-  DvdCopyrightDescriptor     = 1,
-  DvdDiskKeyDescriptor       = 2,
-  DvdBCADescriptor           = 3,
-  DvdManufacturerDescriptor  = 4,
-  DvdMaxDescriptor           = 5
-} DVD_STRUCTURE_FORMAT, *PDVD_STRUCTURE_FORMAT;
-````
+The DVD_STRUCTURE_FORMAT enumeration type is used in conjunction with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560426">IOCTL_DVD_READ_STRUCTURE</a> request and the <a href="https://msdn.microsoft.com/library/windows/hardware/ff553738">DVD_READ_STRUCTURE</a> structure to retrieve a DVD descriptor.
 
 
 ## -enum-fields
@@ -104,16 +89,15 @@ Indicates that caller is requesting a DVD max descriptor.
 
 ## -see-also
 
-<a href="..\ntddcdvd\ns-ntddcdvd-dvd_read_structure.md">DVD_READ_STRUCTURE</a>
 
 
 
-<a href="..\ntddcdvd\ni-ntddcdvd-ioctl_dvd_read_structure.md">IOCTL_DVD_READ_STRUCTURE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553738">DVD_READ_STRUCTURE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560426">IOCTL_DVD_READ_STRUCTURE</a>
  
 
  
-
 

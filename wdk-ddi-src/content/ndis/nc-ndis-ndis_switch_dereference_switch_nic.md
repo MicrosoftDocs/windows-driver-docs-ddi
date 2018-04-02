@@ -7,7 +7,7 @@ old-location: netvista\DereferenceSwitchNic.htm
 old-project: netvista
 ms.assetid: 58C72F81-07B9-45FE-A8BA-0405DBE4CA20
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: DereferenceSwitchNic, DereferenceSwitchNic callback function [Network Drivers Starting with Windows Vista], NDIS_SWITCH_DEREFERENCE_SWITCH_NIC, ndis/DereferenceSwitchNic, netvista.DereferenceSwitchNic
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -55,21 +55,6 @@ The <i>DereferenceSwitchNic</i> function decrements the Hyper-V extensible switc
 
 
 
-## -prototype
-
-
-````
-NDIS_SWITCH_DEREFERENCE_SWITCH_NIC DereferenceSwitchNic;
-
-NDIS_STATUS DereferenceSwitchNic(
-  _In_ NDIS_SWITCH_CONTEXT   NdisSwitchContext,
-  _In_ NDIS_SWITCH_PORT_ID   SwitchPortId,
-  _In_ NDIS_SWITCH_NIC_INDEX SwitchNicIndex
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -77,7 +62,7 @@ NDIS_STATUS DereferenceSwitchNic(
 
 ### -param NdisSwitchContext [in]
 
-An NDIS_SWITCH_CONTEXT value that contains the handle of the extensible switch module to which the Hyper-V extensible switch extension is attached. When the extension calls <a href="..\ndis\nf-ndis-ndisfgetoptionalswitchhandlers.md">NdisFGetOptionalSwitchHandlers</a>,  this handle is returned through the <i>NdisSwitchContext</i> parameter.
+An NDIS_SWITCH_CONTEXT value that contains the handle of the extensible switch module to which the Hyper-V extensible switch extension is attached. When the extension calls <a href="https://msdn.microsoft.com/library/windows/hardware/hh598204">NdisFGetOptionalSwitchHandlers</a>,  this handle is returned through the <i>NdisSwitchContext</i> parameter.
 
 
 ### -param SwitchPortId [in]
@@ -116,15 +101,6 @@ The extension must call <i>DereferenceSwitchNic</i> if it had previously called 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh598264">OID_SWITCH_NIC_DELETE</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisfgetoptionalswitchhandlers.md">NdisFGetOptionalSwitchHandlers</a>
-
-
-
-<a href="https://msdn.microsoft.com/8F4C76FA-A386-4A3D-8C9F-3CFF69382702">ReferenceSwitchNic</a>
 
 
 
@@ -132,8 +108,16 @@ The extension must call <i>DereferenceSwitchNic</i> if it had previously called 
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh598204">NdisFGetOptionalSwitchHandlers</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh598264">OID_SWITCH_NIC_DELETE</a>
+
+
+
+<a href="https://msdn.microsoft.com/8F4C76FA-A386-4A3D-8C9F-3CFF69382702">ReferenceSwitchNic</a>
  
 
  
-
 

@@ -148,7 +148,7 @@ A miniport driver can call
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisclosefile.md">NdisCloseFile</a>
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
 
 
@@ -156,11 +156,11 @@ A miniport driver can call
 
 
 
+<a href="..\ndis\nf-ndis-ndisclosefile.md">NdisCloseFile</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndisopenfile.md">NdisOpenFile</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
 
 

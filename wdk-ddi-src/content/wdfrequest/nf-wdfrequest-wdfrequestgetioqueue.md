@@ -58,16 +58,6 @@ req.product: Windows 10 or later.
 The <b>WdfRequestGetIoQueue</b> method returns a handle to the framework queue object from which a specified I/O request was delivered.
 
 
-## -syntax
-
-
-````
-WDFQUEUE WdfRequestGetIoQueue(
-  _In_ WDFREQUEST Request
-);
-````
-
-
 ## -parameters
 
 
@@ -119,12 +109,11 @@ device = WdfIoQueueGetDevice(WdfRequestGetIoQueue(Request));</pre>
 
 ## -see-also
 
-<a href="..\wdfio\nf-wdfio-wdfioqueuegetdevice.md">WdfIoQueueGetDevice</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547421">WdfIoQueueGetDevice</a>
  
 
  
-
 

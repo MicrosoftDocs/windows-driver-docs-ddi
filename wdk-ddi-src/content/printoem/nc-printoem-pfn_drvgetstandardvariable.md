@@ -54,24 +54,7 @@ This <b>DrvGetStandardVariable</b> function is obsolete.
 
 Windows 2000 and later printer drivers should use <a href="https://msdn.microsoft.com/library/windows/hardware/ff553129">IPrintOemDriverUni::DrvGetStandardVariable</a>. 
 
-This function pointer prototype defines the type of the <b>BGetStandardVariable</b> member of the <a href="..\printoem\ns-printoem-_drvprocs.md">DRVPROCS</a> structure.
-
-
-## -prototype
-
-
-````
-PFN_DrvGetStandardVariable DrvGetStandardVariable;
-
-BOOL APIENTRY* DrvGetStandardVariable(
-   PDEVOBJ pdevobj,
-   DWORD   dwIndex,
-   PVOID   pBuffer,
-   DWORD   cbSize,
-   PDWORD  pcbNeeded
-)
-{ ... }
-````
+This function pointer prototype defines the type of the <b>BGetStandardVariable</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff548571">DRVPROCS</a> structure.
 
 
 ## -parameters

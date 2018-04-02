@@ -7,7 +7,7 @@ old-location: display\d3dddi_overlayinfoflags.htm
 old-project: display
 ms.assetid: ebf31c28-857b-4885-a910-16da5a011ce1
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDI_OVERLAYINFOFLAGS, D3DDDI_OVERLAYINFOFLAGS structure [Display Devices], D3D_other_Structs_3c20db45-e3b5-4e0e-96a6-d2171dbf309a.xml, _D3DDDI_OVERLAYINFOFLAGS, d3dumddi/D3DDDI_OVERLAYINFOFLAGS, display.d3dddi_overlayinfoflags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,33 +52,6 @@ req.typenames: D3DDDI_OVERLAYINFOFLAGS
 The D3DDDI_OVERLAYINFOFLAGS structure identifies the type of overlay operation to perform.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DDDI_OVERLAYINFOFLAGS {
-  union {
-    struct {
-      UINT DstColorKey  :1;
-      UINT DstColorKeyRange  :1;
-      UINT SrcColorKey  :1;
-      UINT SrcColorKeyRange  :1;
-      UINT Bob  :1;
-      UINT Interleaved  :1;
-      UINT MirrorLeftRight  :1;
-      UINT MirrorUpDown  :1;
-      UINT Deinterlace  :1;
-      UINT LimitedRGB  :1;
-      UINT YCbCrBT709  :1;
-      UINT YCbCrxvYCC  :1;
-      UINT Reserved  :20;
-    };
-    UINT   Value;
-  };
-} D3DDDI_OVERLAYINFOFLAGS;
-````
-
-
 ## -struct-fields
 
 
@@ -86,7 +59,7 @@ typedef struct _D3DDDI_OVERLAYINFOFLAGS {
 
 ### -field DstColorKey
 
-A UINT value that specifies whether to perform destination color keying by using the value in the <b>DstColorKeyLow</b> member of the <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_overlayinfo.md">D3DDDI_OVERLAYINFO</a> structure. That is, any pixel in the destination surface that matches the color key should be replaced with the corresponding pixel from the source resource, and all of the destination pixels that do not match the color key should not be replaced. 
+A UINT value that specifies whether to perform destination color keying by using the value in the <b>DstColorKeyLow</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff544621">D3DDDI_OVERLAYINFO</a> structure. That is, any pixel in the destination surface that matches the color key should be replaced with the corresponding pixel from the source resource, and all of the destination pixels that do not match the color key should not be replaced. 
 
 Setting this member is equivalent to setting the first bit of the 32-bit <b>Value</b> member (0x00000001).
 
@@ -184,12 +157,11 @@ A member in the union that is contained in D3DDDI_OVERLAYINFOFLAGS that can hold
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_overlayinfo.md">D3DDDI_OVERLAYINFO</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544621">D3DDDI_OVERLAYINFO</a>
  
 
  
-
 

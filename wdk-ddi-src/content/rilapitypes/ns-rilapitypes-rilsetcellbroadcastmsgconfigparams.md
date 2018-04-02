@@ -7,7 +7,7 @@ old-location: netvista\rilsetcellbroadcastmsgconfigparams.htm
 old-project: netvista
 ms.assetid: bfaad47a-44eb-471d-9ed9-e1adf845ab9c
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*LPRILSETCELLBROADCASTMSGCONFIGPARAMS, RILSETCELLBROADCASTMSGCONFIGPARAMS, RILSETCELLBROADCASTMSGCONFIGPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilsetcellbroadcastmsgconfigparams, ntddrilapitypes/RILSETCELLBROADCASTMSGCONFIGPARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,17 +51,6 @@ req.product: Windows 10 or later.
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef struct _RILSETCELLBROADCASTMSGCONFIGPARAMS {
-  HUICCAPP        hUiccApp;
-  RILCBMSGCONFIG  rmCBConfig;
-} RILSETCELLBROADCASTMSGCONFIGPARAMS, RILSETCELLBROADCASTMSGCONFIGPARAMS;
-````
 
 
 ## -struct-fields

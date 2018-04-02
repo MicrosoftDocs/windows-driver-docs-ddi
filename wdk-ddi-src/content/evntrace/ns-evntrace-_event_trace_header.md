@@ -7,7 +7,7 @@ old-location: kernel\event_trace_header.htm
 old-project: kernel
 ms.assetid: faddcf82-1025-458f-ab33-c96cd5699ca5
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: "*PEVENT_TRACE_HEADER, EVENT_TRACE_HEADER, EVENT_TRACE_HEADER structure [Kernel-Mode Driver Architecture], PEVENT_TRACE_HEADER, PEVENT_TRACE_HEADER structure pointer [Kernel-Mode Driver Architecture], _EVENT_TRACE_HEADER, evntrace/EVENT_TRACE_HEADER, evntrace/PEVENT_TRACE_HEADER, kernel.event_trace_header, kstruct_a_9a7cc863-6913-427c-8756-4c62c20f5b60.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,50 +49,7 @@ req.typenames: EVENT_TRACE_HEADER, *PEVENT_TRACE_HEADER
 ## -description
 
 
-The <b>EVENT_TRACE_HEADER</b> structure is used to pass a WMI event to the WMI event logger. It is overlaid on the <a href="..\wmistr\ns-wmistr-_wnode_header.md">WNODE_HEADER</a> portion of the <a href="..\wmistr\ns-wmistr-tagwnode_event_item.md">WNODE_EVENT_ITEM</a> passed to <a href="..\wdm\nf-wdm-iowmiwriteevent.md">IoWMIWriteEvent</a>. Information contained in the <b>EVENT_TRACE_HEADER</b> is written to the WMI log file.
-
-
-## -syntax
-
-
-````
-typedef struct _EVENT_TRACE_HEADER {
-  USHORT        Size;
-  union {
-    USHORT FieldTypeFlags;
-    struct {
-      UCHAR HeaderType;
-      UCHAR MarkerFlags;
-    };
-  };
-  union {
-    ULONG  Version;
-    struct {
-      UCHAR  Type;
-      UCHAR  Level;
-      USHORT Version;
-    } Class;
-  };
-  ULONG         ThreadId;
-  ULONG         ProcessId;
-  LARGE_INTEGER TimeStamp;
-  union {
-    GUID      Guid;
-    ULONGLONG GuidPtr;
-  };
-  union {
-    struct {
-      ULONG KernelTime;
-      ULONG UserTime;
-    };
-    ULONG64 ProcessorTime;
-    struct {
-      ULONG ClientContext;
-      ULONG Flags;
-    };
-  };
-} EVENT_TRACE_HEADER, *PEVENT_TRACE_HEADER;
-````
+The <b>EVENT_TRACE_HEADER</b> structure is used to pass a WMI event to the WMI event logger. It is overlaid on the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566375">WNODE_HEADER</a> portion of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566373">WNODE_EVENT_ITEM</a> passed to <a href="https://msdn.microsoft.com/library/windows/hardware/ff550520">IoWMIWriteEvent</a>. Information contained in the <b>EVENT_TRACE_HEADER</b> is written to the WMI log file.
 
 
 ## -struct-fields
@@ -102,7 +59,7 @@ typedef struct _EVENT_TRACE_HEADER {
 
 ### -field Size
 
-Specifies the size, in bytes, of the buffer that is allocated to hold event tracing information. The value that is specified must include both the size of the <b>EVENT_TRACE_HEADER</b> structure and the size of any driver-specific data. (<b>EVENT_TRACE_HEADER</b> is overlaid on a <a href="..\wmistr\ns-wmistr-_wnode_header.md">WNODE_HEADER</a> structure, but the <b>Size</b> member of <b>EVENT_TRACE_HEADER</b> and the <b>BufferSize</b> member of <b>WNODE_HEADER</b> do not specify the same size. Do not use the <b>BufferSize</b> member of <b>WNODE_HEADER</b> to set the <b>Size</b> member.) 
+Specifies the size, in bytes, of the buffer that is allocated to hold event tracing information. The value that is specified must include both the size of the <b>EVENT_TRACE_HEADER</b> structure and the size of any driver-specific data. (<b>EVENT_TRACE_HEADER</b> is overlaid on a <a href="https://msdn.microsoft.com/library/windows/hardware/ff566375">WNODE_HEADER</a> structure, but the <b>Size</b> member of <b>EVENT_TRACE_HEADER</b> and the <b>BufferSize</b> member of <b>WNODE_HEADER</b> do not specify the same size. Do not use the <b>BufferSize</b> member of <b>WNODE_HEADER</b> to set the <b>Size</b> member.) 
 
 
 ### -field DUMMYUNIONNAME
@@ -203,7 +160,7 @@ Reserved for internal use.
 
 ### -field DUMMYUNIONNAME4.DUMMYSTRUCTNAME2.Flags
 
-Provides information about the contents of this structure. For information about <b>EVENT_TRACE_HEADER</b><b> Flags</b> values, see the <b>Flags</b> description in <a href="..\wmistr\ns-wmistr-_wnode_header.md">WNODE_HEADER</a>.
+Provides information about the contents of this structure. For information about <b>EVENT_TRACE_HEADER</b><b> Flags</b> values, see the <b>Flags</b> description in <a href="https://msdn.microsoft.com/library/windows/hardware/ff566375">WNODE_HEADER</a>.
 
 
 #### - FieldTypeFlags
@@ -246,20 +203,19 @@ If the driver does specify the WNODE_FLAG_USE_MOF_PTR flag, the <b>EVENT_TRACE_H
 
 ## -see-also
 
-<a href="..\wmistr\ns-wmistr-_wnode_header.md">WNODE_HEADER</a>
 
 
 
-<a href="..\wmistr\ns-wmistr-tagwnode_event_item.md">WNODE_EVENT_ITEM</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550520">IoWMIWriteEvent</a>
 
 
 
-<a href="..\wdm\nf-wdm-iowmiwriteevent.md">IoWMIWriteEvent</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566373">WNODE_EVENT_ITEM</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566375">WNODE_HEADER</a>
  
 
  
-
 

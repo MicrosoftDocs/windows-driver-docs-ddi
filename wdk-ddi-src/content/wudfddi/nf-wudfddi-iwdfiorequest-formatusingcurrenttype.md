@@ -55,14 +55,6 @@ req.product: Windows 10 or later.
 The <b>FormatUsingCurrentType</b> method formats an I/O request so that the driver can forward it, unmodified, to the next-lower driver.
 
 
-## -syntax
-
-
-````
-void  FormatUsingCurrentType();
-````
-
-
 ## -parameters
 
 
@@ -106,16 +98,15 @@ For a code example of how to use the <b>FormatUsingCurrentType</b> method, see <
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558985">IWDFIoRequest</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559149">IWDFIoRequest::Send</a>
-
-
-
  
 
  
-
 

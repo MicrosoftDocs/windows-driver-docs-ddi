@@ -7,7 +7,7 @@ old-location: display\dxgkcbqueryvidpninterface.htm
 old-project: display
 ms.assetid: 649ce7fc-6852-43f3-b944-b2b64fcba874
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKCB_QUERYVIDPNINTERFACE, DpFunctions_0bbf993b-c05b-402b-af4a-cf1a3ec4d4b8.xml, DxgkCbQueryVidPnInterface, DxgkCbQueryVidPnInterface callback function [Display Devices], d3dkmddi/DxgkCbQueryVidPnInterface, display.dxgkcbqueryvidpninterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,22 +49,7 @@ req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
 ## -description
 
 
-The <b>DxgkCbQueryVidPnInterface</b> function returns a pointer to a <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_vidpn_interface.md">DXGK_VIDPN_INTERFACE</a> structure. The structure contains pointers to functions that the display miniport driver can call to inspect and alter a VidPN object.
-
-
-## -prototype
-
-
-````
-DXGKCB_QUERYVIDPNINTERFACE DxgkCbQueryVidPnInterface;
-
-NTSTATUS APIENTRY DxgkCbQueryVidPnInterface(
-  _In_  const D3DKMDT_HVIDPN               hVidPn,
-  _In_  const DXGK_VIDPN_INTERFACE_VERSION VidPnInterfaceVersion,
-  _Out_ const DXGK_VIDPN_INTERFACE         **ppVidPnInterface
-)
-{ ... }
-````
+The <b>DxgkCbQueryVidPnInterface</b> function returns a pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff562108">DXGK_VIDPN_INTERFACE</a> structure. The structure contains pointers to functions that the display miniport driver can call to inspect and alter a VidPN object.
 
 
 ## -parameters
@@ -74,17 +59,17 @@ NTSTATUS APIENTRY DxgkCbQueryVidPnInterface(
 
 ### -param hVidPn [in]
 
-[in] A handle to a VidPN object. The VidPN manager previously provided the display miniport driver with this handle by calling <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_enumvidpncofuncmodality.md">DxgkDdiEnumVidPnCofuncModality</a>, <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_issupportedvidpn.md">DxgkDdiIsSupportedVidPn</a>, or <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_recommendfunctionalvidpn.md">DxgkDdiRecommendFunctionalVidPn</a>.
+[in] A handle to a VidPN object. The VidPN manager previously provided the display miniport driver with this handle by calling <a href="https://msdn.microsoft.com/6dda82bd-1a43-4ffe-b398-a9f8cee6d1c1">DxgkDdiEnumVidPnCofuncModality</a>, <a href="https://msdn.microsoft.com/96e96366-6306-4d20-8752-e942f2ed4069">DxgkDdiIsSupportedVidPn</a>, or <a href="https://msdn.microsoft.com/320a77a7-d7d4-47b9-8a40-2b6e12819e4b">DxgkDdiRecommendFunctionalVidPn</a>.
 
 
 ### -param VidPnInterfaceVersion [in]
 
-[in] A <a href="..\d3dkmddi\ne-d3dkmddi-_dxgk_vidpn_interface_version.md">DXGK_VIDPN_INTERFACE_VERSION</a> enumerator that specifies the version of the VidPN interface being requested. Callers must set this parameter to <b>DXGK_VIDPN_INTERFACE_VERSION_V1</b>.
+[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff562860">DXGK_VIDPN_INTERFACE_VERSION</a> enumerator that specifies the version of the VidPN interface being requested. Callers must set this parameter to <b>DXGK_VIDPN_INTERFACE_VERSION_V1</b>.
 
 
 ### -param ppVidPnInterface [out]
 
-[out] A pointer to a variable that receives a pointer to the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_vidpn_interface.md">DXGK_VIDPN_INTERFACE</a> structure.
+[out] A pointer to a variable that receives a pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562108">DXGK_VIDPN_INTERFACE</a> structure.
 
 
 ## -returns
@@ -150,15 +135,6 @@ The interface version specified by <i>VidPnInterfaceVersion</i> is not supported
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570556">VidPN Interface</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570560">VidPN Topology Interface</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570559">VidPN Target Mode Set Interface</a>
 
 
 
@@ -166,12 +142,20 @@ The interface version specified by <i>VidPnInterfaceVersion</i> is not supported
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570556">VidPN Interface</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff570558">VidPN Source Mode Set Interface</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570559">VidPN Target Mode Set Interface</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570560">VidPN Topology Interface</a>
  
 
  
-
 

@@ -52,23 +52,6 @@ req.product: Windows 10 or later.
 
 
 
-## -syntax
-
-
-````
-BOOL APIENTRY OEMHalftonePattern(
-       PDEVOBJ                                 pdevobj,
-       PBYTE                                   pHTPattern,
-       DWORD                                   dwHTPatternX,
-       DWORD                                   dwHTPatternY,
-       DWORD                                   dwHTNumPatterns,
-       DWORD                                   dwCallbackID,
-  _In_ _reads_bytes_opt_(dwResourceSize) PBYTE pResource,
-       DWORD                                   dwResourceSize
-);
-````
-
-
 ## -parameters
 
 

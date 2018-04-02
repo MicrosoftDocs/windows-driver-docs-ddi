@@ -55,16 +55,6 @@ req.product: Windows 10 or later.
 The <b>SelectSetting</b> method selects the specified alternate setting on a USB interface.
 
 
-## -syntax
-
-
-````
-HRESULT SelectSetting(
-  [in] UCHAR SettingNumber
-);
-````
-
-
 ## -parameters
 
 
@@ -146,12 +136,11 @@ hr = pIWDFUsbInterface-&gt;SelectSetting(SettingNumber);</code></pre>
 
 ## -see-also
 
-<a href="..\wudfusb\nn-wudfusb-iwdfusbinterface.md">IWDFUsbInterface</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560312">IWDFUsbInterface</a>
  
 
  
-
 

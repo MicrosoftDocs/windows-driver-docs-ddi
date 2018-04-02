@@ -7,7 +7,7 @@ old-location: debugger\getdescriptionwide.htm
 old-project: debugger
 ms.assetid: e599d960-aefb-4b68-8149-7e93150d90d5
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: GetDescriptionWide method [Windows Debugging], GetDescriptionWide method [Windows Debugging], IDebugRegisters2 interface, GetDescriptionWide,IDebugRegisters2.GetDescriptionWide, IDebugRegisters2, IDebugRegisters2 interface [Windows Debugging], GetDescriptionWide method, IDebugRegisters2::GetDescriptionWide, dbgeng/IDebugRegisters2::GetDescriptionWide, debugger.getdescriptionwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,20 +52,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 The <b>GetDescriptionWide</b>  method returns the description of a register.
 
 
-## -syntax
-
-
-````
-HRESULT GetDescriptionWide(
-  [in]            ULONG                       Register,
-  [out, optional] PWSTR                       NameBuffer,
-  [in]            ULONG                       NameBufferSize,
-  [out, optional] PULONG                      NameSize,
-  [out, optional] PDEBUG_REGISTER_DESCRIPTION Desc
-);
-````
-
-
 ## -parameters
 
 
@@ -93,7 +79,7 @@ Receives the size, in characters, of the register's name in <i>NameBuffer</i> bu
 
 ### -param Desc [out, optional]
 
-Receives the description of the register.  See <a href="..\dbgeng\ns-dbgeng-_debug_register_description.md">DEBUG_REGISTER_DESCRIPTION</a> for more details.
+Receives the description of the register.  See <a href="https://msdn.microsoft.com/library/windows/hardware/ff541538">DEBUG_REGISTER_DESCRIPTION</a> for more details.
 
 
 ## -returns
@@ -161,7 +147,7 @@ The index of the register requested is greater than the total number of register
 
 
 
-For an overview of the <a href="..\dbgeng\nn-dbgeng-idebugregisters.md">IDebugRegisters</a> interface and other register-related methods, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff554369">Registers</a>.
+For an overview of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550825">IDebugRegisters</a> interface and other register-related methods, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff554369">Registers</a>.
 
 
 

@@ -7,7 +7,7 @@ old-location: display\dxva_nominalrange.htm
 old-project: display
 ms.assetid: 9e319f9d-4c24-4dd3-b5a1-b244714c06dc
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXVA_NominalRange, DXVA_NominalRange enumeration [Display Devices], DXVA_NominalRangeMask, DXVA_NominalRangeShift, DXVA_NominalRange_0_255, DXVA_NominalRange_16_235, DXVA_NominalRange_48_208, DXVA_NominalRange_Normal, DXVA_NominalRange_Unknown, DXVA_NominalRange_Wide, _DXVA_NominalRange, display.dxva_nominalrange, dxva/DXVA_NominalRange, dxva/DXVA_NominalRangeMask, dxva/DXVA_NominalRangeShift, dxva/DXVA_NominalRange_0_255, dxva/DXVA_NominalRange_16_235, dxva/DXVA_NominalRange_48_208, dxva/DXVA_NominalRange_Normal, dxva/DXVA_NominalRange_Unknown, dxva/DXVA_NominalRange_Wide, dxvaref_5931dd2e-baac-48a6-931a-b7f3fc965b4d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,23 +50,6 @@ req.typenames: DXVA_NominalRange
 
 
 The DXVA_NominalRange enumeration type contains enumerators that identify whether sample data includes headroom (values beyond 1.0 white) and toeroom (superblacks below the reference 0.0 black). 
-
-
-## -syntax
-
-
-````
-typedef enum _DXVA_NominalRange { 
-  DXVA_NominalRangeShift     = (DXVA_ExtColorData_ShiftBase + 4),
-  DXVA_NominalRangeMask      = DXVAColorMask(5, DXVA_VideoNominalRangeShift),
-  DXVA_NominalRange_Unknown  = 0,
-  DXVA_NominalRange_Normal   = 1,
-  DXVA_NominalRange_Wide     = 2,
-  DXVA_NominalRange_0_255    = 1,
-  DXVA_NominalRange_16_235   = 2,
-  DXVA_NominalRange_48_208   = 3
-} DXVA_NominalRange;
-````
 
 
 ## -enum-fields
@@ -118,7 +101,7 @@ Specifies that normalized chroma [0..1] maps to [48..208] (8bit) or [192..832] (
 
 
 
-One of the enumerators of DXVA_NominalRange can be specified in the <b>NominalRange</b> member of the <a href="..\dxva\ns-dxva-_dxva_extendedformat.md">DXVA_ExtendedFormat</a> structure.
+One of the enumerators of DXVA_NominalRange can be specified in the <b>NominalRange</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563967">DXVA_ExtendedFormat</a> structure.
 
 Wide gamut R'G'B' (that is, blackpoint at 16,16,16 and whitepoint at 235,235,235) must be differentiated from normal <a href="http://go.microsoft.com/fwlink/p/?linkid=10112">sRGB</a>.
 
@@ -127,12 +110,11 @@ Wide gamut R'G'B' (that is, blackpoint at 16,16,16 and whitepoint at 235,235,235
 
 ## -see-also
 
-<a href="..\dxva\ns-dxva-_dxva_extendedformat.md">DXVA_ExtendedFormat</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563967">DXVA_ExtendedFormat</a>
  
 
  
-
 

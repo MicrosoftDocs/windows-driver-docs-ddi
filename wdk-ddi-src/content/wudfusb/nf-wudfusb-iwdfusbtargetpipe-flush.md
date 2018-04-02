@@ -55,14 +55,6 @@ req.product: Windows 10 or later.
 The <b>Flush</b> method discards any data that WinUsb saved when the device returned more data than the client requested.
 
 
-## -syntax
-
-
-````
-HRESULT  Flush();
-````
-
-
 ## -parameters
 
 
@@ -135,16 +127,15 @@ For more information about how <b>Flush</b> works, see the <a href="https://msdn
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560391">IWDFUsbTargetPipe</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540227">WinUsb_FlushPipe</a>
-
-
-
-<a href="..\wudfusb\nn-wudfusb-iwdfusbtargetpipe.md">IWDFUsbTargetPipe</a>
-
-
-
  
 
  
-
 

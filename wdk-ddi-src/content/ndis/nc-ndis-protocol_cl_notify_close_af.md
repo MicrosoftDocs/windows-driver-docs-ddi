@@ -7,7 +7,7 @@ old-location: netvista\protocolclnotifycloseaf.htm
 old-project: netvista
 ms.assetid: 0f595daa-9822-4ca6-8f25-e6f82030d4ea
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: PROTOCOL_CL_NOTIFY_CLOSE_AF, ProtocolClNotifyCloseAf, ProtocolClNotifyCloseAf callback function [Network Drivers Starting with Windows Vista], condis_client_ref_0b778346-7d48-4d72-807d-16d8be2da913.xml, ndis/ProtocolClNotifyCloseAf, netvista.protocolclnotifycloseaf
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -55,19 +55,6 @@ The
 <div class="alert"><b>Note</b>  You must declare the function by using the <b>PROTOCOL_CL_NOTIFY_CLOSE_AF</b> type.
    For more information, see the following Examples section.</div><div> </div>
 
-## -prototype
-
-
-````
-PROTOCOL_CL_NOTIFY_CLOSE_AF ProtocolClNotifyCloseAf;
-
-NDIS_STATUS ProtocolClNotifyCloseAf(
-  _In_ NDIS_HANDLE ProtocolAfContext
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -86,7 +73,7 @@ NDIS_STATUS ProtocolClNotifyCloseAf(
 
 A client-supplied handle to its context area for the associated AF. The client allocated this
      context area and passed this handle to NDIS in its call to the 
-     <a href="..\ndis\nf-ndis-ndisclopenaddressfamilyex.md">
+     <a href="https://msdn.microsoft.com/54170917-60b4-4d8f-bf92-df7d7dc0faee">
      NdisClOpenAddressFamilyEx</a> function.
 
 
@@ -121,7 +108,7 @@ The client successfully closed the address family.
 </td>
 <td width="60%">
 The client is handling this request asynchronously, and it will call the 
-       <a href="..\ndis\nf-ndis-ndisclnotifycloseaddressfamilycomplete.md">
+       <a href="https://msdn.microsoft.com/5d2bbf08-ea5c-4dad-8c30-9a655d25222a">
        NdisClNotifyCloseAddressFamilyComplete</a> function when the close operation is complete.
 
 </td>
@@ -158,34 +145,34 @@ The
 <ol>
 <li>
 Call the 
-      <a href="..\ndis\nf-ndis-ndiscldropparty.md">NdisClDropParty</a> function as many times
+      <a href="https://msdn.microsoft.com/library/windows/hardware/ff561629">NdisClDropParty</a> function as many times
       as necessary until only a single party remains active on each multipoint virtual connection (VC), if
       the client has any active multipoint connections.
 
 </li>
 <li>
 Call the 
-      <a href="..\ndis\nf-ndis-ndisclclosecall.md">NdisClCloseCall</a> function as many times
+      <a href="https://msdn.microsoft.com/library/windows/hardware/ff561627">NdisClCloseCall</a> function as many times
       as necessary to close all of the calls that are still open and are associated with the AF.
 
 </li>
 <li>
 Call the 
-      <a href="..\ndis\nf-ndis-ndisclderegistersap.md">NdisClDeregisterSap</a> function as many
+      <a href="https://msdn.microsoft.com/library/windows/hardware/ff561628">NdisClDeregisterSap</a> function as many
       times as necessary to deregister all service access points (SAPs) that the client has registered with
       the call manager.
 
 </li>
 <li>
 Call the 
-      <a href="..\ndis\nf-ndis-ndisclcloseaddressfamily.md">
+      <a href="https://msdn.microsoft.com/ae6b9133-bb98-4858-bef5-1cbe0ae0dd4f">
       NdisClCloseAddressFamily</a> function to close the AF.
 
 </li>
 </ol>
 The client can complete these actions asynchronously by returning NDIS_STATUS_PENDING. If the client
     completes the call asynchronously, it must subsequently call the 
-    <a href="..\ndis\nf-ndis-ndisclnotifycloseaddressfamilycomplete.md">
+    <a href="https://msdn.microsoft.com/5d2bbf08-ea5c-4dad-8c30-9a655d25222a">
     NdisClNotifyCloseAddressFamilyComplete</a> function when the close operation is complete. If the client
     does not return NDIS_STATUS_PENDING, the close operation is complete when 
     <i>
@@ -201,7 +188,7 @@ The client may use the
     ProtocolClNotifyCloseAf</i> operation is pending. If the 
     <i>
     ProtocolClNotifyCloseAf</i> function returns NDIS_STATUS_PENDING, use the handle in the 
-    <a href="..\ndis\nf-ndis-ndisclnotifycloseaddressfamilycomplete.md">
+    <a href="https://msdn.microsoft.com/5d2bbf08-ea5c-4dad-8c30-9a655d25222a">
     NdisClNotifyCloseAddressFamilyComplete</a> call after the close operation completes.
 
 <h3><a id="Examples"></a><a id="examples"></a><a id="EXAMPLES"></a>Examples</h3>
@@ -245,33 +232,32 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisclclosecall.md">NdisClCloseCall</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisclnotifycloseaddressfamilycomplete.md">
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561626">NdisClCloseAddressFamily</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561627">NdisClCloseCall</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561628">NdisClDeregisterSap</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561629">NdisClDropParty</a>
+
+
+
+<a href="https://msdn.microsoft.com/5d2bbf08-ea5c-4dad-8c30-9a655d25222a">
    NdisClNotifyCloseAddressFamilyComplete</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisclopenaddressfamilyex.md">NdisClOpenAddressFamilyEx</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndiscldropparty.md">NdisClDropParty</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisclderegistersap.md">NdisClDeregisterSap</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisclcloseaddressfamily.md">NdisClCloseAddressFamily</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561639">NdisClOpenAddressFamilyEx</a>
  
 
  
-
 

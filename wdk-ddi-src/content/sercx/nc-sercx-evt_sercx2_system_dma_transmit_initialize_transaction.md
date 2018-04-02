@@ -53,20 +53,6 @@ req.product: Windows 10 or later.
 The <i>EvtSerCx2SystemDmaTransmitInitializeTransaction</i> event callback function is called by version 2 of the serial framework extension (SerCx2) to prepare the serial controller driver to perform a system-DMA-transmit transaction.
 
 
-## -prototype
-
-
-````
-EVT_SERCX2_SYSTEM_DMA_TRANSMIT_INITIALIZE_TRANSACTION EvtSerCx2SystemDmaTransmitInitializeTransaction;
-
-VOID EvtSerCx2SystemDmaTransmitInitializeTransaction(
-  _In_ SERCX2SYSTEMDMATRANSMIT SystemDmaTransmit,
-  _In_ ULONG                   Length
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -74,7 +60,7 @@ VOID EvtSerCx2SystemDmaTransmitInitializeTransaction(
 
 ### -param SystemDmaTransmit [in]
 
-A <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2SYSTEMDMATRANSMIT</a> handle to a system-DMA-transmit object. The serial controller driver previously called the <a href="..\sercx\nf-sercx-sercx2systemdmatransmitcreate.md">SerCx2SystemDmaTransmitCreate</a> method to create this object.
+A <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2SYSTEMDMATRANSMIT</a> handle to a system-DMA-transmit object. The serial controller driver previously called the <a href="https://msdn.microsoft.com/library/windows/hardware/dn265288">SerCx2SystemDmaTransmitCreate</a> method to create this object.
 
 
 ### -param Length [in]
@@ -95,9 +81,9 @@ None.
 
 
 
-Your serial controller driver can, as an option, implement this function. If implemented, the driver registers the function in the <a href="..\sercx\nf-sercx-sercx2systemdmatransmitcreate.md">SerCx2SystemDmaTransmitCreate</a> call that creates the system-DMA-transmit object.
+Your serial controller driver can, as an option, implement this function. If implemented, the driver registers the function in the <a href="https://msdn.microsoft.com/library/windows/hardware/dn265288">SerCx2SystemDmaTransmitCreate</a> call that creates the system-DMA-transmit object.
 
-Your driver should implement an <i>EvtSerCx2SystemDmaTransmitInitializeTransaction</i> function if it needs to initialize the serial controller and associated hardware in preparation for a new system-DMA-transmit transaction. SerCx2 calls this function, if it is implemented, before a system-DMA-transmit transaction starts. In response to this call, the serial controller driver must call the <a href="..\sercx\nf-sercx-sercx2systemdmatransmitinitializetransactioncomplete.md">SerCx2SystemDmaTransmitInitializeTransactionComplete</a> method to notify SerCx2 after the initialization is finished.
+Your driver should implement an <i>EvtSerCx2SystemDmaTransmitInitializeTransaction</i> function if it needs to initialize the serial controller and associated hardware in preparation for a new system-DMA-transmit transaction. SerCx2 calls this function, if it is implemented, before a system-DMA-transmit transaction starts. In response to this call, the serial controller driver must call the <a href="https://msdn.microsoft.com/library/windows/hardware/dn265306">SerCx2SystemDmaTransmitInitializeTransactionComplete</a> method to notify SerCx2 after the initialization is finished.
 
 For more information, see <a href="https://msdn.microsoft.com/8569E76F-CAFF-4A2C-8052-62B340C5ADED">SerCx2 System-DMA-Transmit Transactions</a>.
 
@@ -144,20 +130,19 @@ The <b>EVT_SERCX2_SYSTEM_DMA_TRANSMIT_INITIALIZE_TRANSACTION</b> function type i
 
 ## -see-also
 
+
+
+
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2SYSTEMDMATRANSMIT</a>
 
 
 
-<a href="..\sercx\nf-sercx-sercx2systemdmatransmitcreate.md">SerCx2SystemDmaTransmitCreate</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265288">SerCx2SystemDmaTransmitCreate</a>
 
 
 
-<a href="..\sercx\nf-sercx-sercx2systemdmatransmitinitializetransactioncomplete.md">SerCx2SystemDmaTransmitInitializeTransactionComplete</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265306">SerCx2SystemDmaTransmitInitializeTransactionComplete</a>
  
 
  
-
 

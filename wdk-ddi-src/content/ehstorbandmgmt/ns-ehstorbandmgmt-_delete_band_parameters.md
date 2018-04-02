@@ -7,7 +7,7 @@ old-location: storage\delete_band_parameters.htm
 old-project: storage
 ms.assetid: 6C96CF49-A7B2-4A99-8C7A-FC1C8C389C18
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PDELETE_BAND_PARAMETERS, DELBAND_ERASE_BEFORE_DELETE, DELETE_BAND_PARAMETERS, DELETE_BAND_PARAMETERS structure [Storage Devices], PDELETE_BAND_PARAMETERS, PDELETE_BAND_PARAMETERS structure pointer [Storage Devices], _DELETE_BAND_PARAMETERS, ehstorbandmgmt/DELETE_BAND_PARAMETERS, ehstorbandmgmt/PDELETE_BAND_PARAMETERS, storage.delete_band_parameters"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,22 +49,7 @@ req.typenames: DELETE_BAND_PARAMETERS, *PDELETE_BAND_PARAMETERS
 ## -description
 
 
-A configured band is deleted according to the parameters in a <b>DELETE_BAND_PARAMETERS</b> structure. This structure is input for an <a href="..\ehstorbandmgmt\ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_delete_band.md"> IOCTL_EHSTOR_BANDMGMT_DELETE_BAND</a> request.
-
-
-## -syntax
-
-
-````
-typedef struct _DELETE_BAND_PARAMETERS {
-  ULONG         StructSize;
-  ULONG         Flags;
-  ULONG         Reserved;
-  ULONG         BandId;
-  LARGE_INTEGER BandStart;
-  ULONG         AuthKeyOffset;
-} DELETE_BAND_PARAMETERS, *PDELETE_BAND_PARAMETERS;
-````
+A configured band is deleted according to the parameters in a <b>DELETE_BAND_PARAMETERS</b> structure. This structure is input for an <a href="https://msdn.microsoft.com/CA0002E6-D9E7-417B-AD48-32E25E24EC32"> IOCTL_EHSTOR_BANDMGMT_DELETE_BAND</a> request.
 
 
 ## -struct-fields
@@ -154,7 +139,7 @@ To specify a default authentication key to the band, set   <b>AuthKeyOffset</b> 
 
 
 
- Precedence is given to <b>BandID</b> for band selection. If <b>BandID</b>  is greater than   0 and  <b>BandID</b>  is less than the  <b>MaxBandCount</b> member of <a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_band_management_capabilities.md">BAND_MANAGEMENT_CAPABILITIES</a>, then   <b>BandID</b> is used as the only selection criteria for a band match. If  <b>BandID</b> == –1, then <b>BandStart</b> is used as  the match criteria to select a band. If no band matches either selection criteria, then STATUS_INVALID_PARAMETER is returned in the <i>IoStatus</i> block for <a href="..\ehstorbandmgmt\ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_delete_band.md">IOCTL_EHSTOR_BANDMGMT_DELETE_BAND</a>.
+ Precedence is given to <b>BandID</b> for band selection. If <b>BandID</b>  is greater than   0 and  <b>BandID</b>  is less than the  <b>MaxBandCount</b> member of <a href="https://msdn.microsoft.com/library/windows/hardware/hh439563">BAND_MANAGEMENT_CAPABILITIES</a>, then   <b>BandID</b> is used as the only selection criteria for a band match. If  <b>BandID</b> == –1, then <b>BandStart</b> is used as  the match criteria to select a band. If no band matches either selection criteria, then STATUS_INVALID_PARAMETER is returned in the <i>IoStatus</i> block for <a href="https://msdn.microsoft.com/library/windows/hardware/hh451376">IOCTL_EHSTOR_BANDMGMT_DELETE_BAND</a>.
 
 If <b>DELBAND_ERASE_BEFORE_DELETE</b> is set in <b>Flags</b>, then an authentication key is not needed to delete the band. If this flag is not set, the current authentication key must be included at <b>AuthKeyOffset</b>.
 
@@ -165,20 +150,19 @@ If <b>DELBAND_ERASE_BEFORE_DELETE</b> is set in <b>Flags</b>, then an authentica
 
 ## -see-also
 
-<a href="..\ehstorbandmgmt\ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_erase_band.md">IOCTL_EHSTOR_BANDMGMT_ERASE_BAND</a>
 
 
 
-<a href="..\ehstorbandmgmt\ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_delete_band.md">IOCTL_EHSTOR_BANDMGMT_DELETE_BAND</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439563">BAND_MANAGEMENT_CAPABILITIES</a>
 
 
 
-<a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_band_management_capabilities.md">BAND_MANAGEMENT_CAPABILITIES</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451376">IOCTL_EHSTOR_BANDMGMT_DELETE_BAND</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451383">IOCTL_EHSTOR_BANDMGMT_ERASE_BAND</a>
  
 
  
-
 

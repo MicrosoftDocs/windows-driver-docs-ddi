@@ -52,32 +52,6 @@ req.typenames: PosDeviceControlType
 This enumeration defines values for the IOCTLs of the scanner driver and magnetic stripe reader (MSR) driver.
 
 
-## -syntax
-
-
-````
-typedef enum _PosDeviceControlType { 
-  Invalid                          = 0,
-  GetProperty                      = 1,
-  SetProperty                      = 2,
-  ClaimDevice                      = 3,
-  ReleaseDevice                    = 4,
-  RetainDevice                     = 5,
-  RetrieveStatistics               = 6,
-  ResetStatistics                  = 7,
-  UpdateStatistics                 = 8,
-  CheckHealth                      = 9,
-  GetDeviceBasics                  = 10,
-  BarcodeScannerInjectEvent        = 11,
-  MsrRetrieveDeviceAuthentication  = 12,
-  MsrAuthenticateDevice            = 13,
-  MsrDeAuthenticateDevice          = 14,
-  MsrUpdateKey                     = 15,
-  _MaxDeviceControlType            = 16
-} PosDeviceControlType;
-````
-
-
 ## -enum-fields
 
 
@@ -93,52 +67,52 @@ The event code is not valid.
 
 ### -field GetProperty
 
-Represents <a href="..\pointofservicedriverinterface\ni-pointofservicedriverinterface-ioctl_point_of_service_get_property.md">IOCTL_POINT_OF_SERVICE_GET_PROPERTY</a>.
+Represents <a href="https://msdn.microsoft.com/library/windows/hardware/dn772098">IOCTL_POINT_OF_SERVICE_GET_PROPERTY</a>.
 
 
 ### -field SetProperty
 
-Represents <a href="..\pointofservicedriverinterface\ni-pointofservicedriverinterface-ioctl_point_of_service_set_property.md">IOCTL_POINT_OF_SERVICE_SET_PROPERTY</a>.
+Represents <a href="https://msdn.microsoft.com/library/windows/hardware/dn772123">IOCTL_POINT_OF_SERVICE_SET_PROPERTY</a>.
 
 
 ### -field ClaimDevice
 
-Represents <a href="..\pointofservicedriverinterface\ni-pointofservicedriverinterface-ioctl_point_of_service_claim_device.md">IOCTL_POINT_OF_SERVICE_CLAIM_DEVICE</a>.
+Represents <a href="https://msdn.microsoft.com/library/windows/hardware/dn772093">IOCTL_POINT_OF_SERVICE_CLAIM_DEVICE</a>.
 
 
 ### -field ReleaseDevice
 
-Represents <a href="..\pointofservicedriverinterface\ni-pointofservicedriverinterface-ioctl_point_of_service_release_device.md">IOCTL_POINT_OF_SERVICE_RELEASE_DEVICE</a>.
+Represents <a href="https://msdn.microsoft.com/library/windows/hardware/dn772112">IOCTL_POINT_OF_SERVICE_RELEASE_DEVICE</a>.
 
 
 ### -field RetainDevice
 
-Represents <a href="..\pointofservicedriverinterface\ni-pointofservicedriverinterface-ioctl_point_of_service_retain_device.md">IOCTL_POINT_OF_SERVICE_RETAIN_DEVICE</a>.
+Represents <a href="https://msdn.microsoft.com/library/windows/hardware/dn772117">IOCTL_POINT_OF_SERVICE_RETAIN_DEVICE</a>.
 
 
 ### -field RetrieveStatistics
 
-Represents <a href="..\pointofservicedriverinterface\ni-pointofservicedriverinterface-ioctl_point_of_service_retrieve_statistics.md">IOCTL_POINT_OF_SERVICE_RETRIEVE_STATISTICS</a>.
+Represents <a href="https://msdn.microsoft.com/library/windows/hardware/dn772120">IOCTL_POINT_OF_SERVICE_RETRIEVE_STATISTICS</a>.
 
 
 ### -field ResetStatistics
 
-Represents <a href="..\pointofservicedriverinterface\ni-pointofservicedriverinterface-ioctl_point_of_service_reset_statistics.md">IOCTL_POINT_OF_SERVICE_RESET_STATISTICS</a>.
+Represents <a href="https://msdn.microsoft.com/library/windows/hardware/dn772114">IOCTL_POINT_OF_SERVICE_RESET_STATISTICS</a>.
 
 
 ### -field UpdateStatistics
 
-Represents <a href="..\pointofservicedriverinterface\ni-pointofservicedriverinterface-ioctl_point_of_service_update_statistics.md">IOCTL_POINT_OF_SERVICE_UPDATE_STATISTICS</a>.
+Represents <a href="https://msdn.microsoft.com/library/windows/hardware/dn772126">IOCTL_POINT_OF_SERVICE_UPDATE_STATISTICS</a>.
 
 
 ### -field CheckHealth
 
-Represents <a href="..\pointofservicedriverinterface\ni-pointofservicedriverinterface-ioctl_point_of_service_check_health.md">IOCTL_POINT_OF_SERVICE_CHECK_HEALTH</a>.
+Represents <a href="https://msdn.microsoft.com/library/windows/hardware/dn772091">IOCTL_POINT_OF_SERVICE_CHECK_HEALTH</a>.
 
 
 ### -field GetDeviceBasics
 
-Represents <a href="..\pointofservicedriverinterface\ni-pointofservicedriverinterface-ioctl_point_of_service_get_device_basics.md">IOCTL_POINT_OF_SERVICE_GET_DEVICE_BASICS</a>.
+Represents <a href="https://msdn.microsoft.com/library/windows/hardware/dn772097">IOCTL_POINT_OF_SERVICE_GET_DEVICE_BASICS</a>.
 
 
 ### -field BarcodeScannerInjectEvent
@@ -148,22 +122,22 @@ Unused.
 
 ### -field MsrRetrieveDeviceAuthentication
 
-Represents <a href="..\pointofservicedriverinterface\ni-pointofservicedriverinterface-ioctl_point_of_service_msr_retrieve_device_authentication.md">IOCTL_POINT_OF_SERVICE_MSR_RETRIEVE_DEVICE_AUTHENTICATION</a>.
+Represents <a href="https://msdn.microsoft.com/library/windows/hardware/dn772107">IOCTL_POINT_OF_SERVICE_MSR_RETRIEVE_DEVICE_AUTHENTICATION</a>.
 
 
 ### -field MsrAuthenticateDevice
 
-Represents <a href="..\pointofservicedriverinterface\ni-pointofservicedriverinterface-ioctl_point_of_service_msr_authenticate_device.md">IOCTL_POINT_OF_SERVICE_MSR_AUTHENTICATE_DEVICE</a>.
+Represents <a href="https://msdn.microsoft.com/library/windows/hardware/dn772101">IOCTL_POINT_OF_SERVICE_MSR_AUTHENTICATE_DEVICE</a>.
 
 
 ### -field MsrDeAuthenticateDevice
 
-Represents <a href="..\pointofservicedriverinterface\ni-pointofservicedriverinterface-ioctl_point_of_service_msr_deauthenticate_device.md">IOCTL_POINT_OF_SERVICE_MSR_DEAUTHENTICATE_DEVICE</a>.
+Represents <a href="https://msdn.microsoft.com/library/windows/hardware/dn772102">IOCTL_POINT_OF_SERVICE_MSR_DEAUTHENTICATE_DEVICE</a>.
 
 
 ### -field MsrUpdateKey
 
-Represents <a href="..\pointofservicedriverinterface\ni-pointofservicedriverinterface-ioctl_point_of_service_msr_update_key.md">IOCTL_POINT_OF_SERVICE_MSR_UPDATE_KEY</a>.
+Represents <a href="https://msdn.microsoft.com/library/windows/hardware/dn772108">IOCTL_POINT_OF_SERVICE_MSR_UPDATE_KEY</a>.
 
 
 ### -field StartBarcodeScannerSoftwareTrigger

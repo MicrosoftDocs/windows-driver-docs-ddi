@@ -7,7 +7,7 @@ old-location: display\idarg_out_querytargetmodes.htm
 old-project: display
 ms.assetid: 427af891-1fb7-4042-89bc-a40191ec5a31
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: IDARG_OUT_QUERYTARGETMODES, IDARG_OUT_QUERYTARGETMODES structure [Display Devices], display.idarg_out_querytargetmodes, iddcx/IDARG_OUT_QUERYTARGETMODES
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,16 +51,6 @@ req.typenames:
 
 
                  Gives information about the number of target modes provided by the OS.
-
-
-## -syntax
-
-
-````
-typedef struct IDARG_OUT_QUERYTARGETMODES {
-  UINT TargetModeBufferOutputCount;
-} IDARG_OUT_QUERYTARGETMODES, *IDARG_OUT_QUERYTARGETMODES;
-````
 
 
 ## -struct-fields

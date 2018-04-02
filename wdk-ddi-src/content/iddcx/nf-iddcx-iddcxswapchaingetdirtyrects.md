@@ -7,7 +7,7 @@ old-location: display\iddcxswapchaingetdirtyrects.htm
 old-project: display
 ms.assetid: 4ffe3c46-f729-4088-b69e-f39bc00f40a6
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: IddCxSwapChainGetDirtyRects, IddCxSwapChainGetDirtyRects method [Display Devices], display.iddcxswapchaingetdirtyrects, iddcx/IddCxSwapChainGetDirtyRects
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,18 +52,6 @@ req.typenames:
 
 
                 An OS callback function the driver calls when it wants retrieve the dirty rects for the current frame
-
-
-## -syntax
-
-
-````
-HRESULT IddCxSwapChainGetDirtyRects(
-  _In_        IDDCX_SWAPCHAIN          SwapChainObject,
-  _In_  const IDARG_IN_GETDIRTYRECTS*  pInArgs,
-  _Out_       IDARG_OUT_GETDIRTYRECTS* pOutArgs
-);
-````
 
 
 ## -parameters

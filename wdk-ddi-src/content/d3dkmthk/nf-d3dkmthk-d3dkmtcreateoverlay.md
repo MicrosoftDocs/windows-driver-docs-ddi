@@ -7,7 +7,7 @@ old-location: display\d3dkmtcreateoverlay.htm
 old-project: display
 ms.assetid: f77c20a1-c05c-456b-874b-e07d6edf5982
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMTCreateOverlay, D3DKMTCreateOverlay function [Display Devices], OpenGL_Functions_3848b4de-9ed0-4e4f-87aa-677bdbbaa7e0.xml, d3dkmthk/D3DKMTCreateOverlay, display.d3dkmtcreateoverlay
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -55,26 +55,21 @@ req.typenames: D3DKMT_DRIVERVERSION
 The <b>D3DKMTCreateOverlay</b> function creates a kernel-mode overlay object.
 
 
-## -syntax
-
-
-````
-NTSTATUS D3DKMTCreateOverlay(
-  _Inout_ D3DKMT_CREATEOVERLAY *pData
-);
-````
-
-
 ## -parameters
 
 
+
+
+### -param Arg1
+
+TBD
 
 
 
 
 #### - pData [in, out]
 
-A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_createoverlay.md">D3DKMT_CREATEOVERLAY</a> structure that describes overlay hardware.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff547840">D3DKMT_CREATEOVERLAY</a> structure that describes overlay hardware.
 
 
 ## -returns
@@ -129,7 +124,7 @@ Parameters were validated and determined to be incorrect.
 </td>
 <td width="60%">
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtcreateoverlay.md">D3DKMTCreateOverlay</a> could not complete because of insufficient memory.
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546852">D3DKMTCreateOverlay</a> could not complete because of insufficient memory.
 
 </td>
 </tr>
@@ -143,12 +138,11 @@ This function might also return other <b>NTSTATUS</b> values.
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_createoverlay.md">D3DKMT_CREATEOVERLAY</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547840">D3DKMT_CREATEOVERLAY</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: display\ddpixelformat.htm
 old-project: display
 ms.assetid: bbc26c03-c154-4b1e-883e-2942b59ded02
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*LPDDPIXELFORMAT, DDPIXELFORMAT, DDPIXELFORMAT structure [Display Devices], LPDDPIXELFORMAT, LPDDPIXELFORMAT structure pointer [Display Devices], _DDPIXELFORMAT, ddstrcts_861a4798-418e-492a-b4cb-c4f1ce794a71.xml, display.ddpixelformat, ksmedia/DDPIXELFORMAT, ksmedia/LPDDPIXELFORMAT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,56 +52,6 @@ req.typenames: DDPIXELFORMAT, *LPDDPIXELFORMAT
 The DDPIXELFORMAT structure describes the pixel format of a DirectDrawSurface object. 
 
 
-## -syntax
-
-
-````
-typedef struct _DDPIXELFORMAT {
-  DWORD dwSize;
-  DWORD dwFlags;
-  DWORD dwFourCC;
-  union {
-    DWORD dwRGBBitCount;
-    DWORD dwYUVBitCount;
-    DWORD dwZBufferBitDepth;
-    DWORD dwAlphaBitDepth;
-    DWORD dwLuminanceBitCount;
-    DWORD dwBumpBitCount;
-    DWORD dwPrivateFormatBitCount;
-  };
-  union {
-    DWORD dwRBitMask;
-    DWORD dwYBitMask;
-    DWORD dwStencilBitDepth;
-    DWORD dwLuminanceBitMask;
-    DWORD dwBumpDuBitMask;
-    DWORD dwOperations;
-  };
-  union {
-    DWORD  dwGBitMask;
-    DWORD  dwUBitMask;
-    DWORD  dwZBitMask;
-    DWORD  dwBumpDvBitMask;
-    struct {
-      WORD wFlipMSTypes;
-      WORD wBltMSTypes;
-    } MultiSampleCaps;
-  };
-  union {
-    DWORD dwBBitMask;
-    DWORD dwVBitMask;
-    DWORD dwStencilBitMask;
-    DWORD dwBumpLuminanceBitMask;
-  };
-  union {
-    DWORD dwRGBAlphaBitMask, dwYUVAlphaBitMask;
-    DWORD dwLuminanceAlphaBitMask;
-    DWORD dwRGBZBitMask, dwYUVZBitMask;
-  };
-} DDPIXELFORMAT, *LPDDPIXELFORMAT;
-````
-
-
 ## -struct-fields
 
 
@@ -111,7 +61,7 @@ typedef struct _DDPIXELFORMAT {
 
 Specifies the size in bytes of the DDPIXELFORMAT structure. The driver must initialize this member before the structure is used.
 
-<b>DirectX 9.0 and later versions only.</b> Specifies, on input, the version of the Microsoft DirectX runtime being used by the application. This member is set to DD_RUNTIME_VERSION, which is 0x00000900 for DirectX 9.0, in the <b>format</b> member of the <a href="..\d3dhal\ns-d3dhal-_dd_getformatdata.md">DD_GETFORMATDATA</a> structure for a D3DGDI2_TYPE_GETFORMAT query.
+<b>DirectX 9.0 and later versions only.</b> Specifies, on input, the version of the Microsoft DirectX runtime being used by the application. This member is set to DD_RUNTIME_VERSION, which is 0x00000900 for DirectX 9.0, in the <b>format</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551569">DD_GETFORMATDATA</a> structure for a D3DGDI2_TYPE_GETFORMAT query.
 
 
 ### -field dwFlags

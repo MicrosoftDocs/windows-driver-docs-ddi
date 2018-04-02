@@ -7,7 +7,7 @@ old-location: kernel\clfsreadrestartarea.htm
 old-project: kernel
 ms.assetid: d391a7ed-220e-412a-8e32-22b206c7a062
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: ClfsReadRestartArea, ClfsReadRestartArea routine [Kernel-Mode Driver Architecture], Clfs_bce9c012-cc19-472e-a1b3-c2d83435c6c0.xml, kernel.clfsreadrestartarea, wdm/ClfsReadRestartArea
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -54,20 +54,6 @@ req.product: Windows 10 or later.
 The <b>ClfsReadRestartArea</b> routine reads the restart record that was most recently written to a specified CLFS stream.
 
 
-## -syntax
-
-
-````
-NTSTATUS ClfsReadRestartArea(
-  _Inout_ PVOID     pvMarshalContext,
-  _Out_   PVOID     *ppvRestartBuffer,
-  _Out_   PULONG    pcbRestartBuffer,
-  _Out_   PCLFS_LSN plsn,
-  _Out_   PVOID     *ppvReadContext
-);
-````
-
-
 ## -parameters
 
 
@@ -75,7 +61,7 @@ NTSTATUS ClfsReadRestartArea(
 
 ### -param pvMarshalContext [in, out]
 
-A pointer to an opaque context that represents a marshalling area associated with a CLFS stream. The caller previously obtained this pointer by calling <a href="..\wdm\nf-wdm-clfscreatemarshallingarea.md">ClfsCreateMarshallingArea</a>.
+A pointer to an opaque context that represents a marshalling area associated with a CLFS stream. The caller previously obtained this pointer by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff541520">ClfsCreateMarshallingArea</a>.
 
 
 ### -param ppvRestartBuffer [out]
@@ -95,7 +81,7 @@ A pointer to a CLFS_LSN structure that receives the LSN of the restart record th
 
 ### -param ppvReadContext [out]
 
-A pointer to a variable that receives a pointer to an opaque read context. The caller can pass this context to <a href="..\wdm\nf-wdm-clfsreadpreviousrestartarea.md">ClfsReadPreviousRestartArea</a> or <a href="..\wdm\nf-wdm-clfsreadnextlogrecord.md">ClfsReadNextLogRecord</a>. When the caller has finished using the read context, it must free the context by calling <a href="..\wdm\nf-wdm-clfsterminatereadlog.md">ClfsTerminateReadLog</a>.
+A pointer to a variable that receives a pointer to an opaque read context. The caller can pass this context to <a href="https://msdn.microsoft.com/library/windows/hardware/ff541699">ClfsReadPreviousRestartArea</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff541690">ClfsReadNextLogRecord</a>. When the caller has finished using the read context, it must free the context by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff541767">ClfsTerminateReadLog</a>.
 
 
 ## -returns
@@ -122,24 +108,23 @@ Read contexts are not thread-safe. Clients are responsible for serializing acces
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-clfsreadnextlogrecord.md">ClfsReadNextLogRecord</a>
 
 
 
-<a href="..\wdm\nf-wdm-clfsreadpreviousrestartarea.md">ClfsReadPreviousRestartArea</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541520">ClfsCreateMarshallingArea</a>
 
 
 
-<a href="..\wdm\nf-wdm-clfsterminatereadlog.md">ClfsTerminateReadLog</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541690">ClfsReadNextLogRecord</a>
 
 
 
-<a href="..\wdm\nf-wdm-clfscreatemarshallingarea.md">ClfsCreateMarshallingArea</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541699">ClfsReadPreviousRestartArea</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541767">ClfsTerminateReadLog</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: display\dxgkddi_checkmultiplaneoverlaysupport3.htm
 old-project: display
 ms.assetid: 2EA7E8C4-51E0-4BDE-B69B-1A40FEB82952
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKDDI_CHECKMULTIPLANEOVERLAYSUPPORT3, DXGKDDI_CHECKMULTIPLANEOVERLAYSUPPORT3 callback function [Display Devices], d3dkmddi/DXGKDDI_CHECKMULTIPLANEOVERLAYSUPPORT3, display.dxgkddi_checkmultiplaneoverlaysupport3
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,17 +50,6 @@ req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
 
 
 The following new function is called to determine whether a specific multi-plane overlay configuration is supported. 
-
-
-## -prototype
-
-
-````
-NTSTATUS APIENTRY DXGKDDI_CHECKMULTIPLANEOVERLAYSUPPORT3(
-  _In_    const HANDLE                                   hAdapter,
-  _Inout_       PDXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT3  pCheckSupport
-);
-````
 
 
 ## -parameters

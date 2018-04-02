@@ -7,7 +7,7 @@ old-location: debugger\startprocessserverwide.htm
 old-project: debugger
 ms.assetid: 1e72578c-9359-4275-a4f2-2b5ae4dbf2b7
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: IDebugClient5, IDebugClient5 interface [Windows Debugging], StartProcessServerWide method, IDebugClient5::StartProcessServerWide, StartProcessServerWide method [Windows Debugging], StartProcessServerWide method [Windows Debugging], IDebugClient5 interface, StartProcessServerWide,IDebugClient5.StartProcessServerWide, dbgeng/IDebugClient5::StartProcessServerWide, debugger.startprocessserverwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,18 +50,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>StartProcessServerWide</b> method starts a process server.
-
-
-## -syntax
-
-
-````
-HRESULT StartProcessServerWide(
-  [in]           ULONG  Flags,
-  [in]           PCWSTR Options,
-  [in, optional] PVOID  Reserved
-);
-````
 
 
 ## -parameters
@@ -127,11 +115,10 @@ For more information about process servers and remote debugging, see <a href="ht
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539237">ConnectProcessServer</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff542993">EndProcessServer</a>
 
 
 
@@ -139,16 +126,16 @@ For more information about process servers and remote debugging, see <a href="ht
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542993">EndProcessServer</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550497">IDebugClient5</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561230">WaitForProcessServerEnd</a>
-
-
-
  
 
  
-
 

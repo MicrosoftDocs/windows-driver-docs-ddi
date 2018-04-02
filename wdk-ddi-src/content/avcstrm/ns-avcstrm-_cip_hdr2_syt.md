@@ -52,21 +52,6 @@ req.typenames: CIP_HDR2_SYT, *PCIP_HDR2_SYT
 The CIP_HDR2_SYT structure describes the second quadlet of a CIP header pair for a DV format stream.
 
 
-## -syntax
-
-
-````
-typedef struct _CIP_HDR2_SYT {
-  ULONG SYT  :16;
-  ULONG RSV  :2;
-  ULONG STYPE  :5;
-  ULONG F5060_OR_TSF  :1;
-  ULONG FMT  :6;
-  ULONG Bit10  :2;
-} CIP_HDR2_SYT, *PCIP_HDR2_SYT;
-````
-
-
 ## -struct-fields
 
 
@@ -94,7 +79,7 @@ Specifies field encoding or time-shift flag depending on the value of FMT. This 
 
 ### -field FMT
 
-CIP format ID. For example, 000000 = DV and 100000 = MPEG2TS. If this is 111111 (no data), then DBS, FN, SPH and DBC (in the first quadlet of the CIP header, <a href="..\avcstrm\ns-avcstrm-_cip_hdr1.md">CIP_HDR1</a>) are ignored.
+CIP format ID. For example, 000000 = DV and 100000 = MPEG2TS. If this is 111111 (no data), then DBS, FN, SPH and DBC (in the first quadlet of the CIP header, <a href="https://msdn.microsoft.com/library/windows/hardware/ff557668">CIP_HDR1</a>) are ignored.
 
 
 ### -field Bit10
@@ -104,12 +89,11 @@ Must be set to 1:0.
 
 ## -see-also
 
-<a href="..\avcstrm\ns-avcstrm-_cip_hdr1.md">CIP_HDR1</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557668">CIP_HDR1</a>
  
 
  
-
 

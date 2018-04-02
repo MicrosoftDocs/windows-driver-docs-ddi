@@ -52,17 +52,6 @@ req.typenames: BDA_ETHERNET_ADDRESS_LIST, *PBDA_ETHERNET_ADDRESS_LIST
 
 
 
-## -syntax
-
-
-````
-typedef struct _BDA_ETHERNET_ADDRESS_LIST {
-  ULONG                ulcAddresses;
-  BDA_ETHERNET_ADDRESS rgAddressl[MIN_DIMENSION];
-} BDA_ETHERNET_ADDRESS_LIST, *PBDA_ETHERNET_ADDRESS_LIST;
-````
-
-
 ## -struct-fields
 
 

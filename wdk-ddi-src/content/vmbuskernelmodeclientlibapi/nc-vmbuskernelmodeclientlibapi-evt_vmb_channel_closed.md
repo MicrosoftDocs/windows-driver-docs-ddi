@@ -7,7 +7,7 @@ old-location: netvista\evt_vmb_channel_closed.htm
 old-project: netvista
 ms.assetid: 457FADB8-4126-43A8-AA38-E3D722728459
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: EVT_VMB_CHANNEL_CLOSED, EvtVmbChannelClosed, EvtVmbChannelClosed callback function [Network Drivers Starting with Windows Vista], PFN_VMB_CHANNEL_CLOSED, PFN_VMB_CHANNEL_CLOSED callback function pointer [Network Drivers Starting with Windows Vista], netvista.evt_vmb_channel_closed, vmbuskernelmodeclientlibapi/EvtVmbChannelClosed
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,23 +53,8 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 The <i>EvtVmbChannelClosed</i> callback function is invoked when the client endpoint in the guest virtual machine closes a
-channel by using the <a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbchanneldisable.md">VmbChannelDisable</a> function, or the opposite endpoint rescinds or closes the 
+channel by using the <a href="https://msdn.microsoft.com/688A1DF3-F801-47C3-8403-9FA5D96BD428">VmbChannelDisable</a> function, or the opposite endpoint rescinds or closes the 
 channel.  
-
-
-## -prototype
-
-
-````
-EVT_VMB_CHANNEL_CLOSED EvtVmbChannelClosed;
-
-VOID EvtVmbChannelClosed(
-  _In_ VMBCHANNEL Channel
-)
-{ ... }
-
-typedef EVT_VMB_CHANNEL_CLOSED PFN_VMB_CHANNEL_CLOSED;
-````
 
 
 ## -parameters
@@ -95,15 +80,15 @@ This callback function does not return a value.
 
 
 
-After a channel is created, a client driver can specify callback functions for state changes, including  <i>EvtVmbChannelClosed</i>, by using the <a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmb_channel_state_change_callbacks_init.md">VMB_CHANNEL_STATE_CHANGE_CALLBACKS_INIT</a> function.
+After a channel is created, a client driver can specify callback functions for state changes, including  <i>EvtVmbChannelClosed</i>, by using the <a href="https://msdn.microsoft.com/2255C8A2-85FB-4B96-8AE9-66FAFD73EE73">VMB_CHANNEL_STATE_CHANGE_CALLBACKS_INIT</a> function.
 
 After this callback function finishes on the host, the channel 
 is either closed or disabled, depending on whether the guest closed 
-the channel or the Kernel Mode Client Library (KMCL) client called <a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbchanneldisable.md">VmbChannelDisable</a>, 
+the channel or the Kernel Mode Client Library (KMCL) client called <a href="https://msdn.microsoft.com/688A1DF3-F801-47C3-8403-9FA5D96BD428">VmbChannelDisable</a>, 
 respectively.  
 
 On the guest, the channel always becomes disabled. It 
-must be restarted by using the <a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbchannelenable.md">VmbChannelEnable</a> function.  
+must be restarted by using the <a href="https://msdn.microsoft.com/A0256B3F-C35C-45AB-A825-0A82189F08DC">VmbChannelEnable</a> function.  
 
 After this  is function invoked, packets can be queued, but they cannot be sent.
 
@@ -112,20 +97,19 @@ After this  is function invoked, packets can be queued, but they cannot be sent.
 
 ## -see-also
 
-<a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbchannelenable.md">VmbChannelEnable</a>
 
 
 
-<a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbchanneldisable.md">VmbChannelDisable</a>
+<a href="https://msdn.microsoft.com/2255C8A2-85FB-4B96-8AE9-66FAFD73EE73">VMB_CHANNEL_STATE_CHANGE_CALLBACKS_INIT</a>
 
 
 
-<a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmb_channel_state_change_callbacks_init.md">VMB_CHANNEL_STATE_CHANGE_CALLBACKS_INIT</a>
+<a href="https://msdn.microsoft.com/688A1DF3-F801-47C3-8403-9FA5D96BD428">VmbChannelDisable</a>
 
 
 
+<a href="https://msdn.microsoft.com/A0256B3F-C35C-45AB-A825-0A82189F08DC">VmbChannelEnable</a>
  
 
  
-
 

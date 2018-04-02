@@ -7,7 +7,7 @@ old-location: ifsk\flt_createfile_target_ecp_context.htm
 old-project: ifsk
 ms.assetid: 95BDB715-E476-48EF-9867-112CF665B66D
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: "*PFLT_CREATEFILE_TARGET_ECP_CONTEXT, FLTTCFL_AUTO_REPARSE, FLT_CREATEFILE_TARGET_ECP_CONTEXT, FLT_CREATEFILE_TARGET_ECP_CONTEXT structure [Installable File System Drivers], PFLT_CREATEFILE_TARGET_ECP_CONTEXT, PFLT_CREATEFILE_TARGET_ECP_CONTEXT structure pointer [Installable File System Drivers], _FLT_CREATEFILE_TARGET_ECP_CONTEXT, fltkernel/FLT_CREATEFILE_TARGET_ECP_CONTEXT, fltkernel/PFLT_CREATEFILE_TARGET_ECP_CONTEXT, ifsk.flt_createfile_target_ecp_context"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,20 +49,7 @@ req.typenames: FLT_CREATEFILE_TARGET_ECP_CONTEXT, *PFLT_CREATEFILE_TARGET_ECP_CO
 ## -description
 
 
-The <b>FLT_CREATEFILE_TARGET_ECP_CONTEXT</b> structure is an extra create parameter (ECP) used to return reparse target information back to the caller of <a href="..\fltkernel\nf-fltkernel-fltcreatefileex2.md">FltCreateFileEx2</a>.
-
-
-## -syntax
-
-
-````
-typedef struct _FLT_CREATEFILE_TARGET_ECP_CONTEXT {
-  PFLT_INSTANCE               Instance;
-  PFLT_VOLUME                 Volume;
-  PFLT_FILE_NAME_INFORMATION  FileNameInformation;
-  FLT_CREATEFILE_TARGET_FLAGS Flags;
-} FLT_CREATEFILE_TARGET_ECP_CONTEXT, *PFLT_CREATEFILE_TARGET_ECP_CONTEXT;
-````
+The <b>FLT_CREATEFILE_TARGET_ECP_CONTEXT</b> structure is an extra create parameter (ECP) used to return reparse target information back to the caller of <a href="https://msdn.microsoft.com/library/windows/hardware/ff541939">FltCreateFileEx2</a>.
 
 
 ## -struct-fields
@@ -100,7 +87,7 @@ Flags controlling the reparse operation. This value can be either 0 or the follo
 </dl>
 </td>
 <td width="60%">
-Request that the <a href="..\fltkernel\nf-fltkernel-fltcreatefileex2.md">FltCreateFileEx2</a> attempt a reparse operation when a target is not found with the original file information.
+Request that the <a href="https://msdn.microsoft.com/library/windows/hardware/ff541939">FltCreateFileEx2</a> attempt a reparse operation when a target is not found with the original file information.
 
 </td>
 </tr>
@@ -112,13 +99,13 @@ Request that the <a href="..\fltkernel\nf-fltkernel-fltcreatefileex2.md">FltCrea
 
 
 
-When a caller of <a href="..\fltkernel\nf-fltkernel-fltcreatefileex2.md">FltCreateFileEx2</a> wishes to  enable reparsing for a volume target, a <b>FLT_CREATEFILE_TARGET_ECP_CONTEXT</b> can be included as an ECP to the ECP list in the <i>DriverContext</i> parameter.  If this ECP is present, <b>FltCreateFileEx2</b> will adjust the target device for the create operation and attempt for find a filtered instance  of a volume appropriate for the given file information. If filter manager does not find a corresponding instance for the caller on the target volume, it will set the <b>Volume</b> and  <b>FileNameInformation</b> members of <b>FLT_CREATEFILE_TARGET_ECP_CONTEXT</b> for the new target. The caller can then use this information to decide how best to proceed.
+When a caller of <a href="https://msdn.microsoft.com/library/windows/hardware/ff541939">FltCreateFileEx2</a> wishes to  enable reparsing for a volume target, a <b>FLT_CREATEFILE_TARGET_ECP_CONTEXT</b> can be included as an ECP to the ECP list in the <i>DriverContext</i> parameter.  If this ECP is present, <b>FltCreateFileEx2</b> will adjust the target device for the create operation and attempt for find a filtered instance  of a volume appropriate for the given file information. If filter manager does not find a corresponding instance for the caller on the target volume, it will set the <b>Volume</b> and  <b>FileNameInformation</b> members of <b>FLT_CREATEFILE_TARGET_ECP_CONTEXT</b> for the new target. The caller can then use this information to decide how best to proceed.
 
-If the caller of <a href="..\fltkernel\nf-fltkernel-fltcreatefileex2.md">FltCreateFileEx2</a> intends to handle the reparse operation itself, the <b>FLTTCFL_AUTO_REPARSE</b> flag is cleared from the <b>Flags</b> member. In this case, <b>FltCreateFileEx2</b> will place the initial target adjustment information in the ECP and then will return, ending the file create attempt.
+If the caller of <a href="https://msdn.microsoft.com/library/windows/hardware/ff541939">FltCreateFileEx2</a> intends to handle the reparse operation itself, the <b>FLTTCFL_AUTO_REPARSE</b> flag is cleared from the <b>Flags</b> member. In this case, <b>FltCreateFileEx2</b> will place the initial target adjustment information in the ECP and then will return, ending the file create attempt.
 
- If  the values in <b>Instance</b>, <b>Volume</b>, or <b>FileNameInformation</b> are set in an acknowledged ECP, they are referenced objects. A caller of <a href="..\fltkernel\nf-fltkernel-fltcreatefileex2.md">FltCreateFileEx2</a> is responsible for calling <a href="..\fltkernel\nf-fltkernel-fltobjectdereference.md">FltObjectDereference</a> for <b>Instance</b> and <b>Volume</b>, and <a href="..\fltkernel\nf-fltkernel-fltreleasefilenameinformation.md">FltReleaseFileNameInformation</a> for <b>FileNameInformation</b>.
+ If  the values in <b>Instance</b>, <b>Volume</b>, or <b>FileNameInformation</b> are set in an acknowledged ECP, they are referenced objects. A caller of <a href="https://msdn.microsoft.com/library/windows/hardware/ff541939">FltCreateFileEx2</a> is responsible for calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff543378">FltObjectDereference</a> for <b>Instance</b> and <b>Volume</b>, and <a href="https://msdn.microsoft.com/library/windows/hardware/ff544320">FltReleaseFileNameInformation</a> for <b>FileNameInformation</b>.
 
-The following example routine demonstrates how a minifilter can call <a href="..\fltkernel\nf-fltkernel-fltcreatefileex2.md">FltCreateFileEx2</a> with <b>FLT_CREATEFILE_TARGET_ECP_CONTEXT</b> to handle a reparse to a different volume when required to find a file target.
+The following example routine demonstrates how a minifilter can call <a href="https://msdn.microsoft.com/library/windows/hardware/ff541939">FltCreateFileEx2</a> with <b>FLT_CREATEFILE_TARGET_ECP_CONTEXT</b> to handle a reparse to a different volume when required to find a file target.
 
 <div class="code"><span codelanguage=""><table>
 <tr>
@@ -465,20 +452,19 @@ CrossVolumeCreateExit:
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltreleasefilenameinformation.md">FltReleaseFileNameInformation</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltcreatefileex2.md">FltCreateFileEx2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541939">FltCreateFileEx2</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltobjectdereference.md">FltObjectDereference</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543378">FltObjectDereference</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544320">FltReleaseFileNameInformation</a>
  
 
  
-
 

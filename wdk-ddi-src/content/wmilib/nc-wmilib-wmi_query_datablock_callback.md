@@ -7,7 +7,7 @@ old-location: kernel\dpwmiquerydatablock.htm
 old-project: kernel
 ms.assetid: c8996367-9ac5-4725-93ff-f13a334fbc5a
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: DpWmiQueryDataBlock, DpWmiQueryDataBlock callback function [Kernel-Mode Driver Architecture], WMI_QUERY_DATABLOCK_CALLBACK, k903_9a558594-4fe5-4e18-823a-8b487e1770d9.xml, kernel.dpwmiquerydatablock, wmilib/DpWmiQueryDataBlock
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ api_name:
 -	DpWmiQueryDataBlock
 product: Windows
 targetos: Windows
-req.typenames: WMI_CHANGER_PROBLEM_DEVICE_ERROR, *PWMI_CHANGER_PROBLEM_DEVICE_ERROR
+req.typenames: DRIVER_INFO_8W, *PDRIVER_INFO_8W, *LPDRIVER_INFO_8W
 req.product: Windows 10 or later.
 ---
 
@@ -53,26 +53,6 @@ req.product: Windows 10 or later.
 The <i>DpWmiQueryDataBlock</i> routine returns either a single instance or all instances of a data block. This routine is required.
 
 
-## -prototype
-
-
-````
-WMI_QUERY_DATABLOCK_CALLBACK DpWmiQueryDataBlock;
-
-NTSTATUS DpWmiQueryDataBlock(
-  _In_    PDEVICE_OBJECT DeviceObject,
-  _In_    PIRP           Irp,
-  _In_    ULONG          GuidIndex,
-  _In_    ULONG          InstanceIndex,
-  _In_    ULONG          InstanceCount,
-  _Inout_ PULONG         InstanceLengthArray,
-  _In_    ULONG          BufferAvail,
-  _Out_   PUCHAR         Buffer
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -80,7 +60,7 @@ NTSTATUS DpWmiQueryDataBlock(
 
 ### -param DeviceObject [in]
 
-Pointer to the driver's WDM <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a> structure.
+Pointer to the driver's WDM <a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a> structure.
 
 
 ### -param Irp [in]
@@ -90,7 +70,7 @@ Pointer to the IRP.
 
 ### -param GuidIndex [in]
 
-Specifies the data block by supplying a zero-based index into the list of GUIDs that the driver provided in the <a href="..\wmilib\ns-wmilib-_wmilib_context.md">WMILIB_CONTEXT</a> structure it passed to <a href="..\wmilib\nf-wmilib-wmisystemcontrol.md">WmiSystemControl</a>.  
+Specifies the data block by supplying a zero-based index into the list of GUIDs that the driver provided in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565813">WMILIB_CONTEXT</a> structure it passed to <a href="https://msdn.microsoft.com/library/windows/hardware/ff565834">WmiSystemControl</a>.  
 
 
 ### -param InstanceIndex [in]
@@ -110,12 +90,12 @@ Pointer to a caller-supplied, <i>InstanceCount</i>-sized array of ULONG elements
 
 ### -param BufferAvail [in]
 
-Specifies the maximum number of bytes that are available to receive data in the buffer at <i>Buffer</i>. If this value is zero, the caller is requesting that the driver specify the required buffer size in its call to <a href="..\wmilib\nf-wmilib-wmicompleterequest.md">WmiCompleteRequest</a>. See the Remarks section for more information.
+Specifies the maximum number of bytes that are available to receive data in the buffer at <i>Buffer</i>. If this value is zero, the caller is requesting that the driver specify the required buffer size in its call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff565798">WmiCompleteRequest</a>. See the Remarks section for more information.
 
 
 ### -param Buffer [out]
 
-Pointer to the buffer to receive instance data. If the buffer is large enough to receive all of the data, the driver writes the instance data to the buffer with each instance aligned on an 8-byte boundary. If the buffer is too small to receive all of the data, the driver calls <a href="..\wmilib\nf-wmilib-wmicompleterequest.md">WmiCompleteRequest</a> with <i>BufferUsed</i> set to the size required.
+Pointer to the buffer to receive instance data. If the buffer is large enough to receive all of the data, the driver writes the instance data to the buffer with each instance aligned on an 8-byte boundary. If the buffer is too small to receive all of the data, the driver calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff565798">WmiCompleteRequest</a> with <i>BufferUsed</i> set to the size required.
 
 
 ## -returns
@@ -133,17 +113,17 @@ If the driver cannot complete the request immediately, it can return STATUS_PEND
 
 
 
-WMI calls a driver's <i>DpWmiQueryDataBlock</i> routine after the driver calls <a href="..\wmilib\nf-wmilib-wmisystemcontrol.md">WmiSystemControl</a> in response to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff551718">IRP_MN_QUERY_SINGLE_INSTANCE</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff551650">IRP_MN_QUERY_ALL_DATA</a> request. The driver must place the address of its <i>DpWmiQueryDataBlock</i> routine in the <a href="..\wmilib\ns-wmilib-_wmilib_context.md">WMILIB_CONTEXT</a> structure that it passes to <b>WmiSystemControl</b>.
+WMI calls a driver's <i>DpWmiQueryDataBlock</i> routine after the driver calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff565834">WmiSystemControl</a> in response to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff551718">IRP_MN_QUERY_SINGLE_INSTANCE</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff551650">IRP_MN_QUERY_ALL_DATA</a> request. The driver must place the address of its <i>DpWmiQueryDataBlock</i> routine in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565813">WMILIB_CONTEXT</a> structure that it passes to <b>WmiSystemControl</b>.
 
 The driver is responsible for validating all input arguments. Specifically, the driver must do the following:
 
 <ul>
 <li>
-Verify that the <i>GuidIndex</i> value is between zero and GuidCount-1, based on the <b>GuidCount</b> member of the <a href="..\wmilib\ns-wmilib-_wmilib_context.md">WMILIB_CONTEXT</a> structure.
+Verify that the <i>GuidIndex</i> value is between zero and GuidCount-1, based on the <b>GuidCount</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565813">WMILIB_CONTEXT</a> structure.
 
 </li>
 <li>
-Verify that the driver has not flagged the specified data block for removal. If the driver recently specified the WMIREG_FLAG_REMOVE_GUID flag in a <a href="..\wmilib\ns-wmilib-_wmiguidreginfo.md">WMIGUIDREGINFO</a> structure that is contained in a <b>WMILIB_CONTEXT</b> structure, it is possible for a query to arrive before the removal occurs.
+Verify that the driver has not flagged the specified data block for removal. If the driver recently specified the WMIREG_FLAG_REMOVE_GUID flag in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff565811">WMIGUIDREGINFO</a> structure that is contained in a <b>WMILIB_CONTEXT</b> structure, it is possible for a query to arrive before the removal occurs.
 
 </li>
 <li>
@@ -155,7 +135,7 @@ Verify that the buffer described by <i>Buffer</i> and <i>BufferAvail</i> is larg
 
 </li>
 </ul>
-After writing instance data to the buffer, the driver calls <a href="..\wmilib\nf-wmilib-wmicompleterequest.md">WmiCompleteRequest</a> to complete the request. If the buffer described by <i>Buffer</i> and <i>BufferAvail</i> is zero, or is too small to receive all the requested data, the call to <b>WmiCompleteRequest</b> must specify STATUS_BUFFER_TOO_SMALL for the <i>Status</i> parameter and the required buffer size for the <i>BufferUsed</i> parameter.
+After writing instance data to the buffer, the driver calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff565798">WmiCompleteRequest</a> to complete the request. If the buffer described by <i>Buffer</i> and <i>BufferAvail</i> is zero, or is too small to receive all the requested data, the call to <b>WmiCompleteRequest</b> must specify STATUS_BUFFER_TOO_SMALL for the <i>Status</i> parameter and the required buffer size for the <i>BufferUsed</i> parameter.
 
 This routine can be pageable.
 
@@ -166,11 +146,10 @@ For more information about implementing this routine, see <a href="https://msdn.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551650">IRP_MN_QUERY_ALL_DATA</a>
-
-
-
-<a href="..\wmilib\nf-wmilib-wmisystemcontrol.md">WmiSystemControl</a>
 
 
 
@@ -178,16 +157,16 @@ For more information about implementing this routine, see <a href="https://msdn.
 
 
 
-<a href="..\wmilib\ns-wmilib-_wmilib_context.md">WMILIB_CONTEXT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565813">WMILIB_CONTEXT</a>
 
 
 
-<a href="..\wmilib\nf-wmilib-wmicompleterequest.md">WmiCompleteRequest</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565798">WmiCompleteRequest</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565834">WmiSystemControl</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: debugger\getlogfilewide.htm
 old-project: debugger
 ms.assetid: 2dd20552-747c-4eb8-aacd-7ee241d490d1
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: GetLogFileWide method [Windows Debugging], GetLogFileWide method [Windows Debugging], IDebugControl4 interface, GetLogFileWide,IDebugControl4.GetLogFileWide, IDebugControl4, IDebugControl4 interface [Windows Debugging], GetLogFileWide method, IDebugControl4::GetLogFileWide, dbgeng/IDebugControl4::GetLogFileWide, debugger.getlogfilewide
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,19 +50,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>GetLogFileWide</b>  method returns the name of the currently open log file.
-
-
-## -syntax
-
-
-````
-HRESULT GetLogFileWide(
-  [out, optional] PWSTR  Buffer,
-  [in]            ULONG  BufferSize,
-  [out, optional] PULONG FileSize,
-  [out]           PBOOL  Append
-);
-````
 
 
 ## -parameters
@@ -153,19 +140,6 @@ For more information about log files, see <a href="https://msdn.microsoft.com/li
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547066">GetLogMask</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553154">OpenLogFile</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547025">GetLogFile2</a>
 
 
 
@@ -173,8 +147,20 @@ For more information about log files, see <a href="https://msdn.microsoft.com/li
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547025">GetLogFile2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547066">GetLogMask</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550526">IDebugControl4</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553154">OpenLogFile</a>
  
 
  
-
 

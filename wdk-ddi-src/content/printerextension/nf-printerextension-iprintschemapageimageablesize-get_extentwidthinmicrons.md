@@ -56,27 +56,16 @@ Gets the horizontal distance between the origin and the bounding limit of the ap
 This property is read-only.
 
 
-## -syntax
-
-
-````
-HRESULT get_ExtentWidthInMicrons(
-  [out, retval] ULONG *pulExtentWidth
-);
-````
-
-
 ## -parameters
 
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprintschemapageimageablesize.md">IPrintSchemaPageImageableSize</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451366">IPrintSchemaPageImageableSize</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: display\d3dddi_framelatencyescape.htm
 old-project: display
 ms.assetid: 19395349-375E-46AF-BCCF-FF5C92B374C4
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDI_FRAMELATENCYESCAPE, D3DDDI_FRAMELATENCYESCAPE structure [Display Devices], _D3DDDI_FRAMELATENCYESCAPE, d3dumddi/D3DDDI_FRAMELATENCYESCAPE, display.d3dddi_framelatencyescape
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,16 +50,6 @@ req.typenames: D3DDDI_FRAMELATENCYESCAPE
 
 
 Specifies an app's maximum frame latency.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DDDI_FRAMELATENCYESCAPE {
-  UINT RequestedLatency;
-} D3DDDI_FRAMELATENCYESCAPE;
-````
 
 
 ## -struct-fields

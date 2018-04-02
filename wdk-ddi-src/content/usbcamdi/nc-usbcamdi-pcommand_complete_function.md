@@ -53,21 +53,6 @@ req.product: Windows 10 or later.
 A camera minidriver's <i>CommandCompleteFunction</i> callback function allows the camera minidriver to perform any additional tasks necessary to complete certain USBCAMD services
 
 
-## -prototype
-
-
-````
-PCOMMAND_COMPLETE_FUNCTION CommandCompleteFunction;
-
-VOID CommandCompleteFunction(
-   PVOID    DeviceContext,
-   PVOID    CommandContext,
-   NTSTATUS NtStatus
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -114,20 +99,19 @@ USBCAMD_WaitOnDeviceEvent.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568577">USBCAMD_BulkReadWrite</a>
 
 
 
-<a href="..\usbcamdi\nf-usbcamdi-usbcamd_controlvendorcommand.md">USBCAMD_ControlVendorCommand</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568581">USBCAMD_ControlVendorCommand</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568638">USBCAMD_WaitOnDeviceEvent</a>
-
-
-
  
 
  
-
 

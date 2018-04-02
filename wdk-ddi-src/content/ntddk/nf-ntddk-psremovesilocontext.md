@@ -7,7 +7,7 @@ old-location: kernel\psremovesilocontext.htm
 old-project: kernel
 ms.assetid: 3323EF1B-9EB3-4D56-A9A5-0A8397F8A235
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: PsRemoveSiloContext, PsRemoveSiloContext routine [Kernel-Mode Driver Architecture], kernel.psremovesilocontext, ntddk/PsRemoveSiloContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,18 +52,6 @@ req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 This routine removes an object that was inserted in the <i>Silo</i>.
 
 
-## -syntax
-
-
-````
-NTSTATUS PsRemoveSiloContext(
-  _In_ PESILO                              Silo,
-  _In_ ULONG                               ContextSlot,
-       _Outptr_opt_result_maybenull_ PVOID *ReturnedSiloContext
-);
-````
-
-
 ## -parameters
 
 
@@ -76,7 +64,7 @@ The silo from which the object is to be removed. This parameter is required and 
 
 ### -param ContextSlot [in]
 
-A slot allocated by the <a href="..\ntddk\nf-ntddk-psallocsilocontextslot.md">PsAllocSiloContextSlot</a> routine.
+A slot allocated by the <a href="https://msdn.microsoft.com/library/windows/hardware/mt735056">PsAllocSiloContextSlot</a> routine.
 
 
 ### -param RemovedSiloContext
@@ -145,7 +133,7 @@ The operation completed successfully.
 
 
 
-In a successful call to <b>PsRemoveSiloContext</b> where the <i>RemovedSiloContext</i> parameter is not <b>NULL</b> and does not point to <b>NULL</b>, the caller must decrement the object that the <i>RemovedSiloContext</i> parameter points to, by calling <a href="..\ntddk\nf-ntddk-psdereferencesilocontext.md">PsDereferenceSiloContext</a> when it is no longer needed. 
+In a successful call to <b>PsRemoveSiloContext</b> where the <i>RemovedSiloContext</i> parameter is not <b>NULL</b> and does not point to <b>NULL</b>, the caller must decrement the object that the <i>RemovedSiloContext</i> parameter points to, by calling <a href="https://msdn.microsoft.com/library/windows/hardware/mt735059">PsDereferenceSiloContext</a> when it is no longer needed. 
 
 
 

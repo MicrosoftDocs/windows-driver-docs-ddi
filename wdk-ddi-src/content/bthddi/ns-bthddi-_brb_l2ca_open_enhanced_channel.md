@@ -52,59 +52,6 @@ req.typenames:
 The _BRB_L2CA_OPEN_ENHANCED_CHANNEL structure is used to open an enhanced L2CAP channel to a remote device, or send a response for accepting/rejecting an incoming enhanced L2CAP connection request that was initiated by a remote device.
 
 
-## -syntax
-
-
-````
-typedef struct _BRB_L2CA_OPEN_ENHANCED_CHANNEL {
-  BRB_HEADER                              Hdr;
-  L2CAP_CHANNEL_HANDLE                    ChannelHandle;
-  union {
-    struct {
-      USHORT Response;
-      USHORT ResponseStatus;
-    };
-    USHORT Psm;
-  };
-  ULONG                                   ChannelFlags;
-  BTH_ADDR                                BtAddress;
-  struct {
-    ULONG                    Flags;
-    L2CAP_CONFIG_VALUE_RANGE Mtu;
-    L2CAP_CONFIG_VALUE_RANGE FlushTO;
-    L2CAP_FLOWSPEC           Flow;
-    USHORT                   LinkTO;
-    ULONG                    NumExtraOptions;
-    PL2CAP_CONFIG_OPTION     ExtraOptions;
-    struct {
-      UCHAR ServiceType;
-      ULONG Latency;
-    } LocalQos;
-    struct {
-      ULONG                                 Flags;
-      L2CAP_RETRANSMISSION_AND_FLOW_CONTROL RetransmissionAndFlow;
-    } ModeConfig;
-    USHORT                   Fcs;
-    L2CAP_EXTENDED_FLOW_SPEC ExtendedFlowSpec;
-    USHORT                   ExtendedWindowSize;
-  } ConfigOut;
-  struct {
-    ULONG                    Flags;
-    L2CAP_CONFIG_VALUE_RANGE Mtu;
-    L2CAP_CONFIG_RANGE       FlushTO;
-  } ConfigIn;
-  ULONG                                   CallbackFlags;
-  PFNBTHPORT_INDICATION_CALLBACK_ENHANCED Callback;
-  PVOID                                   CallbackContext;
-  PVOID                                   ReferenceObject;
-  CHANNEL_CONFIG_RESULTS_ENHANCED         OutResults;
-  CHANNEL_CONFIG_RESULTS_ENHANCED         InResults;
-  UCHAR                                   IncomingQueueDepth;
-  PVOID                                   Reserved;
-} BRB_L2CA_OPEN_ENHANCED_CHANNEL, *PBRB_L2CA_OPEN_ENHANCED_CHANNEL;
-````
-
-
 ## -struct-fields
 
 
@@ -113,7 +60,7 @@ typedef struct _BRB_L2CA_OPEN_ENHANCED_CHANNEL {
 ### -field Hdr
 
 A 
-     <a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a> structure that contains information
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff536612">BRB_HEADER</a> structure that contains information
      about the current BRB.
 
 
@@ -555,7 +502,7 @@ If set, the callback routine will be called when the profile driver receives an 
 ### -field Callback
 
 The 
-     <a href="..\bthddi\nc-bthddi-pfnbthport_indication_callback_enhanced.md">Enhanced L2CAP Callback
+     <a href="https://msdn.microsoft.com/1C08937A-2B0C-4A6C-ACDF-1A751BF0D6F6">Enhanced L2CAP Callback
      Function</a> implemented by the profile driver, that the Bluetooth driver stack should call to notify
      the profile driver about any changes to the enhanced L2CAP connection.
 
@@ -569,15 +516,15 @@ The context to pass to the callback function specified in the
 ### -field ReferenceObject
 
 A pointer to an object to pass to 
-     <a href="..\wdm\nf-wdm-obreferenceobject.md">ObReferenceObject</a> and 
-     <a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a> for which to
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff558678">ObReferenceObject</a> and 
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff557724">ObDereferenceObject</a> for which to
      maintain a reference count of.
 
 
 ### -field OutResults
 
 A 
-     <a href="..\bthddi\ns-bthddi-_channel_config_results_enhanced.md">CHANNEL_CONFIG_RESULTS_ENHANCED</a> structure that
+     <a href="https://msdn.microsoft.com/library/windows/hardware/hh450871">CHANNEL_CONFIG_RESULTS_ENHANCED</a> structure that
      contains configuration parameters negotiated for the outbound request.
 
 
@@ -600,7 +547,7 @@ Reserved member. Do not use.
 #### - ( unnamed struct )
 
 A 
-      <a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a> structure that contains information
+      <a href="https://msdn.microsoft.com/library/windows/hardware/ff536612">BRB_HEADER</a> structure that contains information
       about the current BRB.
 
 

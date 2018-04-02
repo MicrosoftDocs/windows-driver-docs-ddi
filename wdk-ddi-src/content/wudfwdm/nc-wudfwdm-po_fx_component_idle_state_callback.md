@@ -7,7 +7,7 @@ old-location: kernel\componentidlestatecallback.htm
 old-project: kernel
 ms.assetid: B98D14A1-7016-4299-9E7E-45E5EB6BE912
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 2/24/2018
 ms.keywords: ComponentIdleStateCallback, ComponentIdleStateCallback routine [Kernel-Mode Driver Architecture], PO_FX_COMPONENT_IDLE_STATE_CALLBACK, kernel.componentidlestatecallback, wdm/ComponentIdleStateCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -163,11 +163,11 @@ The PO_FX_COMPONENT_IDLE_STATE_CALLBACK function type is defined in the Wdm.h he
 
 
 
-<a href="..\wudfwdm\ns-wudfwdm-_po_fx_device_v1.md">PO_FX_DEVICE</a>
-
-
-
 <a href="..\wdm\nf-wdm-pofxsetcomponentwake.md">PoFxSetComponentWake</a>
+
+
+
+<a href="..\wudfwdm\ns-wudfwdm-_po_fx_device_v1.md">PO_FX_DEVICE</a>
 
 
 
@@ -182,5 +182,6 @@ The PO_FX_COMPONENT_IDLE_STATE_CALLBACK function type is defined in the Wdm.h he
  
 
  
+
 
 

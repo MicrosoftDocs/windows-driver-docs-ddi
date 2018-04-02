@@ -7,7 +7,7 @@ old-location: display\d3dkmtdestroyoverlay.htm
 old-project: display
 ms.assetid: 8a5eef07-97b7-43ca-b8e0-15af89aa7d82
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMTDestroyOverlay, D3DKMTDestroyOverlay function [Display Devices], OpenGL_Functions_57efc2f4-dbbe-4f91-b724-036b5231c058.xml, d3dkmthk/D3DKMTDestroyOverlay, display.d3dkmtdestroyoverlay
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -55,16 +55,6 @@ req.typenames: D3DKMT_DRIVERVERSION
 The <b>D3DKMTDestroyOverlay</b> function destroys a kernel-mode overlay object.
 
 
-## -syntax
-
-
-````
-NTSTATUS D3DKMTDestroyOverlay(
-  _In_ const D3DKMT_DESTROYOVERLAY *pData
-);
-````
-
-
 ## -parameters
 
 
@@ -79,7 +69,7 @@ TBD
 
 #### - pData [in]
 
-A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_destroyoverlay.md">D3DKMT_DESTROYOVERLAY</a> structure that contains the handle to the overlay to destroy.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff547894">D3DKMT_DESTROYOVERLAY</a> structure that contains the handle to the overlay to destroy.
 
 
 ## -returns
@@ -125,12 +115,11 @@ This function might also return other <b>NTSTATUS</b> values.
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_destroyoverlay.md">D3DKMT_DESTROYOVERLAY</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547894">D3DKMT_DESTROYOVERLAY</a>
  
 
  
-
 

@@ -52,21 +52,6 @@ req.typenames: KSCAMERA_EXTENDEDPROP_VIDEOPROCSETTING, *PKSCAMERA_EXTENDEDPROP_V
 The <b>KSCAMERA_EXTENDEDPROP_VIDEOPROCSETTING</b> is a property payload structure for video processing settings related to white balance, exposure mode, and focus mode.
 
 
-## -syntax
-
-
-````
-typedef struct _KSCAMERA_EXTENDEDPROP_VIDEOPROCSETTING {
-  ULONG                       Mode;
-  LONG                        Min;
-  LONG                        Max;
-  LONG                        Step;
-  KSCAMERA_EXTENDEDPROP_VALUE VideoProc;
-  ULONGLONG                   Reserved;
-} KSCAMERA_EXTENDEDPROP_VIDEOPROCSETTING, *PKSCAMERA_EXTENDEDPROP_VIDEOPROCSETTING;
-````
-
-
 ## -struct-fields
 
 
@@ -214,7 +199,6 @@ Reserved.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn567576">KSPROPERTY_CAMERACONTROL_EXTENDED_FOCUSMODE</a>
 
 
 
@@ -222,12 +206,12 @@ Reserved.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn567576">KSPROPERTY_CAMERACONTROL_EXTENDED_FOCUSMODE</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn567588">KSPROPERTY_CAMERACONTROL_EXTENDED_WHITEBALANCEMODE</a>
-
-
-
  
 
  
-
 

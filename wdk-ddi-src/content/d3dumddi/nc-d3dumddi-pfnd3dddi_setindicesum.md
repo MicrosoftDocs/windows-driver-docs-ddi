@@ -7,7 +7,7 @@ old-location: display\setindicesum.htm
 old-project: display
 ms.assetid: 9ca38004-8953-4416-8552-c76813192561
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3DDDI_SETINDICESUM, SetIndicesUM, SetIndicesUM callback function [Display Devices], UserModeDisplayDriver_Functions_f692c944-6130-46e3-8e63-f3dbeb051782.xml, d3dumddi/SetIndicesUM, display.setindicesum
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,21 +52,6 @@ req.typenames: DXGK_PTE
 The <i>SetIndicesUM</i> function sets the current index buffer to the given user memory buffer. 
 
 
-## -prototype
-
-
-````
-PFND3DDDI_SETINDICESUM SetIndicesUM;
-
-__checkReturn HRESULT APIENTRY SetIndicesUM(
-  _In_       HANDLE hDevice,
-  _In_       UINT   IndexSize,
-  _In_ const VOID   *pUMBuffer
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -77,7 +62,7 @@ __checkReturn HRESULT APIENTRY SetIndicesUM(
  A handle to the display device (graphics context).
 
 
-### -param UINT
+### -param Arg1
 
 
 ### -param *
@@ -110,12 +95,11 @@ __checkReturn HRESULT APIENTRY SetIndicesUM(
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544519">D3DDDI_DEVICEFUNCS</a>
  
 
  
-
 

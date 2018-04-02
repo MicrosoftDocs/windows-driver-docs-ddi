@@ -7,7 +7,7 @@ old-location: display\dxgk_monitor_interface_v2_pfnreleaseadditionalmonitormodes
 old-project: display
 ms.assetid: b9f6cb52-8870-4319-a1ff-d3dbbeef8cb6
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKDDI_MONITOR_RELEASEADDITIONALMONITORMODESET, VidPnFunctions_7b298754-19ed-420f-88f9-2910c3f5968a.xml, d3dkmddi/pfnReleaseAdditionalMonitorModeSet, display.dxgk_monitor_interface_v2_pfnreleaseadditionalmonitormodeset, pfnReleaseAdditionalMonitorModeSet, pfnReleaseAdditionalMonitorModeSet callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,22 +49,7 @@ req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
 ## -description
 
 
-The <b>pfnReleaseAdditionalMonitorModeSet</b> function, available in the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_monitor_interface_v2.md">DXGK_MONITOR_INTERFACE_V2</a> interface beginning with Windows 7, releases a handle to an additional monitor source mode set object that is associated with a specified monitor.
-
-
-## -prototype
-
-
-````
-DXGKDDI_MONITOR_RELEASEADDITIONALMONITORMODESET pfnReleaseAdditionalMonitorModeSet;
-
-NTSTATUS APIENTRY pfnReleaseAdditionalMonitorModeSet(
-  _In_ const D3DKMDT_ADAPTER                hAdapter,
-  _In_ const D3DDDI_VIDEO_PRESENT_TARGET_ID VideoPresentTargetId,
-  _In_ const DXGK_TARGETMODE_DETAIL_TIMING  *pAdditionalModesSet
-)
-{ ... }
-````
+The <b>pfnReleaseAdditionalMonitorModeSet</b> function, available in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff561968">DXGK_MONITOR_INTERFACE_V2</a> interface beginning with Windows 7, releases a handle to an additional monitor source mode set object that is associated with a specified monitor.
 
 
 ## -parameters
@@ -74,17 +59,17 @@ NTSTATUS APIENTRY pfnReleaseAdditionalMonitorModeSet(
 
 ### -param hAdapter [in]
 
-[in] A handle that identifies a display adapter. The Microsoft DirectX graphics kernel subsystem previously provided this handle to the display miniport driver in the <i>DxgkInterface</i> parameter of the <a href="..\dispmprt\nc-dispmprt-dxgkddi_start_device.md">DxgkDdiStartDevice</a> function.
+[in] A handle that identifies a display adapter. The Microsoft DirectX graphics kernel subsystem previously provided this handle to the display miniport driver in the <i>DxgkInterface</i> parameter of the <a href="https://msdn.microsoft.com/ffacbb39-2581-4207-841d-28ce57fbc64d">DxgkDdiStartDevice</a> function.
 
 
 ### -param VideoPresentTargetId [in]
 
-[in] An integer that identifies one of the video present targets on the display adapter. The additional modes set object <i>ppAdditionalModesSet</i> returned in a call to the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_monitor_getadditionalmonitormodeset.md">pfnGetAdditionalMonitorModeSet</a> function describes the additional monitor source mode sets that are available on the monitor that is connected to this video present target.
+[in] An integer that identifies one of the video present targets on the display adapter. The additional modes set object <i>ppAdditionalModesSet</i> returned in a call to the <a href="https://msdn.microsoft.com/37878f3a-f61e-423c-ab03-94318089f7af">pfnGetAdditionalMonitorModeSet</a> function describes the additional monitor source mode sets that are available on the monitor that is connected to this video present target.
 
 
 ### -param pAdditionalModesSet [in]
 
-[in] A pointer to a variable that receives a <a href="..\d3dkmdt\ns-d3dkmdt-_dxgk_targetmode_detail_timing.md">DXGK_TARGETMODE_DETAIL_TIMING</a> structure that describes a video present target's additional timing modes that are compatible with the display device. This structure was initially obtained in a call to <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_monitor_getadditionalmonitormodeset.md">pfnGetAdditionalMonitorModeSet</a>.
+[in] A pointer to a variable that receives a <a href="https://msdn.microsoft.com/library/windows/hardware/ff562060">DXGK_TARGETMODE_DETAIL_TIMING</a> structure that describes a video present target's additional timing modes that are compatible with the display device. This structure was initially obtained in a call to <a href="https://msdn.microsoft.com/37878f3a-f61e-423c-ab03-94318089f7af">pfnGetAdditionalMonitorModeSet</a>.
 
 
 ## -returns
@@ -148,16 +133,15 @@ This function is available beginning with Windows 7.
 
 ## -see-also
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_monitor_getadditionalmonitormodeset.md">DXGK_MONITOR_INTERFACE_V2::pfnGetAdditionalMonitorModeSet</a>
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_monitor_interface_v2.md">DXGK_MONITOR_INTERFACE_V2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561968">DXGK_MONITOR_INTERFACE_V2</a>
 
 
 
+<a href="https://msdn.microsoft.com/37878f3a-f61e-423c-ab03-94318089f7af">DXGK_MONITOR_INTERFACE_V2::pfnGetAdditionalMonitorModeSet</a>
  
 
  
-
 

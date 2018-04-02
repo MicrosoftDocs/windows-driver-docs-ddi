@@ -52,18 +52,6 @@ req.product: Windows 10 or later.
 
 
 
-## -syntax
-
-
-````
-typedef enum _WDF_CALLBACK_CONSTRAINT { 
-  None              = 0,
-  WdfDeviceLevel    = 1,
-  WdfLevelReserved  = 2
-} WDF_CALLBACK_CONSTRAINT;
-````
-
-
 ## -enum-fields
 
 

@@ -52,21 +52,6 @@ req.typenames: KSCAMERA_EXTENDEDPROP_HEADER, *PKSCAMERA_EXTENDEDPROP_HEADER
 The <b>KSCAMERA_EXTENDEDPROP_HEADER</b> structure is the payload header for an extend control property.
 
 
-## -syntax
-
-
-````
-typedef struct _KSCAMERA_EXTENDEDPROP_HEADER {
-  ULONG     Version;
-  ULONG     PinId;
-  ULONG     Size;
-  ULONG     Result;
-  ULONGLONG Flags;
-  ULONGLONG Capability;
-} KSCAMERA_EXTENDEDPROP_HEADER, *PKSCAMERA_EXTENDEDPROP_HEADER;
-````
-
-
 ## -struct-fields
 
 
@@ -134,12 +119,11 @@ Applies only to asynchronous controls. This flag marks the control operation as 
 
 ## -see-also
 
-<a href="..\ksmedia\ns-ksmedia-tagkscamera_extendedprop_value.md">KSCAMERA_EXTENDEDPROP_VALUE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn567565">KSCAMERA_EXTENDEDPROP_VALUE</a>
  
 
  
-
 

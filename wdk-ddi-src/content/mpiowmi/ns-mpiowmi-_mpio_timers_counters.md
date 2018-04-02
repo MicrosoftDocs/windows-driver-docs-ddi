@@ -7,7 +7,7 @@ old-location: storage\mpio_timers_counters.htm
 old-project: storage
 ms.assetid: edbca8b0-53c1-4538-ac96-52238d75168d
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PMPIO_TIMERS_COUNTERS, MPIO_TIMERS_COUNTERS, MPIO_TIMERS_COUNTERS structure [Storage Devices], PMPIO_TIMERS_COUNTERS, PMPIO_TIMERS_COUNTERS structure pointer [Storage Devices], _MPIO_TIMERS_COUNTERS, mpiowmi/MPIO_TIMERS_COUNTERS, mpiowmi/PMPIO_TIMERS_COUNTERS, storage.mpio_timers_counters, structs-scsibus_4e4255c8-94e3-4eb0-bf6b-e5c8cddba010.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,20 +50,6 @@ req.typenames: MPIO_TIMERS_COUNTERS, *PMPIO_TIMERS_COUNTERS
 
 
 The MPIO_TIMERS_COUNTERS structure controls the timer counters that affect all devices whose controlling DSMs do not implement independent timer counter settings. To query or set the global counters, the request must be directed to the MPIO control object by using its WMI instance name.
-
-
-## -syntax
-
-
-````
-typedef struct _MPIO_TIMERS_COUNTERS {
-  ULONG PathVerifyEnabled;
-  ULONG PathVerificationPeriod;
-  ULONG PDORemovePeriod;
-  ULONG RetryCount;
-  ULONG RetryInterval;
-} MPIO_TIMERS_COUNTERS, *PMPIO_TIMERS_COUNTERS;
-````
 
 
 ## -struct-fields

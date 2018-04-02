@@ -52,19 +52,6 @@ req.typenames: PosBarcodeScannerDataReceivedEventData
 This structure contains the scanned data that is passed to the <a href="https://msdn.microsoft.com/library/windows/hardware/dn757463">BarcodeScannerDataReceived</a> event.
 
 
-## -syntax
-
-
-````
-typedef struct _PosBarcodeScannerDataReceivedEventData {
-  PosEventDataHeader Header;
-  UINT32             DataType;
-  UINT32             ScanDataLength;
-  UINT32             ScanDataLabelLength;
-} PosBarcodeScannerDataReceivedEventData;
-````
-
-
 ## -struct-fields
 
 
@@ -77,7 +64,7 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/dn772232">PosEv
 
 ### -field DataType
 
-Indicates which <a href="..\pointofservicecommontypes\ne-pointofservicecommontypes-_barcodesymbology.md">BarcodeSymbology</a> is associated with the scan data.
+Indicates which <a href="https://msdn.microsoft.com/library/windows/hardware/dn757474">BarcodeSymbology</a> is associated with the scan data.
 
 
 ### -field ScanDataLength

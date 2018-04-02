@@ -7,7 +7,7 @@ old-location: netvista\vmbchannelpacketdefertopassive.htm
 old-project: netvista
 ms.assetid: 796F849F-7281-4AE9-BE0D-350D24A39C61
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: VmbChannelPacketDeferToPassive, VmbChannelPacketDeferToPassive function [Network Drivers Starting with Windows Vista], netvista.vmbchannelpacketdefertopassive, vmbuskernelmodeclientlibapi/VmbChannelPacketDeferToPassive
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -54,17 +54,7 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 The <b>VmbChannelPacketDeferToPassive</b> function is called by the client driver to defer a packet
-passed to it by the <a href="..\vmbuskernelmodeclientlibapi\nc-vmbuskernelmodeclientlibapi-evt_vmb_channel_process_packet.md">EvtVmbChannelProcessPacket</a> callback function.  
-
-
-## -syntax
-
-
-````
-VOID VmbChannelPacketDeferToPassive(
-  _In_ VMBPACKETCOMPLETION PacketCompletionContext
-);
-````
+passed to it by the <a href="https://msdn.microsoft.com/46020122-0B0E-4C05-8B13-68100B227E93">EvtVmbChannelProcessPacket</a> callback function.  
 
 
 ## -parameters
@@ -95,19 +85,18 @@ A deferred packet goes back onto the parsing queue. It is guaranteed to be
 parsed again at PASSIVE_LEVEL.
 
 
-This routine is designed to only be called in-line from <a href="..\vmbuskernelmodeclientlibapi\nc-vmbuskernelmodeclientlibapi-evt_vmb_channel_process_packet.md">EvtVmbChannelProcessPacket</a>.
+This routine is designed to only be called in-line from <a href="https://msdn.microsoft.com/46020122-0B0E-4C05-8B13-68100B227E93">EvtVmbChannelProcessPacket</a>.
 
 
 
 
 ## -see-also
 
-<a href="..\vmbuskernelmodeclientlibapi\nc-vmbuskernelmodeclientlibapi-evt_vmb_channel_process_packet.md">EvtVmbChannelProcessPacket</a>
 
 
 
+<a href="https://msdn.microsoft.com/46020122-0B0E-4C05-8B13-68100B227E93">EvtVmbChannelProcessPacket</a>
  
 
  
-
 

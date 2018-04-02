@@ -7,7 +7,7 @@ old-location: netvista\wdi_fips_mode.htm
 old-project: netvista
 ms.assetid: 88EE4C63-C9D8-41D2-800E-9FFD5EF4962A
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: WDI_FIPS_MODE, WDI_FIPS_MODE enumeration [Network Drivers Starting with Windows Vista], WDI_FIPS_MODE_DISABLED, WDI_FIPS_MODE_ENABLED, WDI_FIPS_MODE_UNKNOWN, _WDI_FIPS_MODE, netvista.wdi_fips_mode, wditypes/WDI_FIPS_MODE, wditypes/WDI_FIPS_MODE_DISABLED, wditypes/WDI_FIPS_MODE_ENABLED, wditypes/WDI_FIPS_MODE_UNKNOWN
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,18 +52,6 @@ req.product: Windows 10 or later.
 
 The 
   WDI_FIPS_MODE enumeration defines values that specify if FIPS mode is enabled or not.
-
-
-## -syntax
-
-
-````
-typedef enum _WDI_FIPS_MODE { 
-  WDI_FIPS_MODE_DISABLED  = 0,
-  WDI_FIPS_MODE_ENABLED   = 1,
-  WDI_FIPS_MODE_UNKNOWN   = 2
-} WDI_FIPS_MODE;
-````
 
 
 ## -enum-fields

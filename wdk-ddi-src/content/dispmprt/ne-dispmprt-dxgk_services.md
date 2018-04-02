@@ -7,7 +7,7 @@ old-location: display\dxgk_services.htm
 old-project: display
 ms.assetid: 8853e0f8-1dd0-4cb5-8dbf-c1d4e62bb0ec
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGK_SERVICES, DXGK_SERVICES enumeration [Display Devices], DmEnums_340c8991-c135-47da-876d-2970157fea0b.xml, DxgkServicesAgp, DxgkServicesBDD, DxgkServicesDebugReport, DxgkServicesFirmwareTable, DxgkServicesSPB, DxgkServicesTimedOperation, display.dxgk_services, dispmprt/DXGK_SERVICES, dispmprt/DxgkServicesAgp, dispmprt/DxgkServicesBDD, dispmprt/DxgkServicesDebugReport, dispmprt/DxgkServicesFirmwareTable, dispmprt/DxgkServicesSPB, dispmprt/DxgkServicesTimedOperation
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,22 +49,7 @@ req.typenames: DXGK_SERVICES
 ## -description
 
 
-The DXGK_SERVICES enumeration indicates the type of interface being requested by a call to the <a href="..\dispmprt\nc-dispmprt-dxgkcb_query_services.md">DxgkCbQueryServices</a> function.
-
-
-## -syntax
-
-
-````
-typedef enum  { 
-  DxgkServicesAgp             = 0,
-  DxgkServicesDebugReport     = 1,
-  DxgkServicesTimedOperation  = 2,
-  DxgkServicesSPB             = 3,
-  DxgkServicesBDD             = 4,
-  DxgkServicesFirmwareTable   = 4
-} DXGK_SERVICES;
-````
+The DXGK_SERVICES enumeration indicates the type of interface being requested by a call to the <a href="https://msdn.microsoft.com/0ce5df90-2019-4a92-97d6-0218acc8b1e8">DxgkCbQueryServices</a> function.
 
 
 ## -enum-fields

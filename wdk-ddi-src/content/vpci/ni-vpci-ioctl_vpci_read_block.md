@@ -47,6 +47,11 @@ req.product: Windows 10 or later.
 # IOCTL_VPCI_READ_BLOCK IOCTL
 
 
+##  Major Code: 
+
+
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
+
 ## -description
 
 
@@ -144,7 +149,7 @@ Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 
 Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
 
-For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/ntstatus-values).
+For more information, see [XREF-LINK:NTSTATUS Values].
 
 
 
@@ -345,7 +350,7 @@ The  usage of the VF configuration block and the format of its configuration dat
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439637">ReadVfConfigBlock</a>
+<a href="..\wudfwdm\ns-wudfwdm-_io_status_block.md">IO_STATUS_BLOCK</a>
 
 
 
@@ -353,7 +358,7 @@ The  usage of the VF configuration block and the format of its configuration dat
 
 
 
-<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439637">ReadVfConfigBlock</a>
 
 
 
@@ -361,11 +366,11 @@ The  usage of the VF configuration block and the format of its configuration dat
 
 
 
-<a href="..\wdm\nf-wdm-iocalldriver.md">IoCallDriver</a>
-
-
-
 <a href="..\vpci\ns-vpci-_vpci_read_block_input.md">VPCI_READ_BLOCK_INPUT</a>
+
+
+
+<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
 
 
 
@@ -373,7 +378,7 @@ The  usage of the VF configuration block and the format of its configuration dat
 
 
 
-<a href="..\wudfwdm\ns-wudfwdm-_io_status_block.md">IO_STATUS_BLOCK</a>
+<a href="..\wdm\nf-wdm-iocalldriver.md">IoCallDriver</a>
 
 
 

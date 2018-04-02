@@ -7,7 +7,7 @@ old-location: audio\iminiportmidi_init.htm
 old-project: audio
 ms.assetid: 2afec522-5a40-4db2-9f37-ee7a9b64e823
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/19/2018
 ms.keywords: IMiniportMidi, IMiniportMidi interface [Audio Devices], Init method, IMiniportMidi::Init, Init method [Audio Devices], Init method [Audio Devices], IMiniportMidi interface, Init,IMiniportMidi.Init, audio.iminiportmidi_init, audmp-routines_44f5f136-811f-46ec-aa4d-64fba408acbf.xml, portcls/IMiniportMidi::Init
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,19 +52,6 @@ req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 The <code>Init</code> method initializes the MIDI miniport object.
 
 
-## -syntax
-
-
-````
-NTSTATUS Init(
-  [in]  PUNKNOWN      UnknownAdapter,
-  [in]  PRESOURCELIST ResourceList,
-  [in]  PPORTMIDI     Port,
-  [out] PSERVICEGROUP *ServiceGroup
-);
-````
-
-
 ## -parameters
 
 
@@ -77,17 +64,17 @@ Pointer to the <b>IUnknown</b> interface of the adapter object whose miniport ob
 
 ### -param ResourceList [in]
 
-Pointer to <a href="..\portcls\nn-portcls-iresourcelist.md">IResourceList</a> interface of the resource list object that is to be supplied to the miniport driver during initialization. After passing this reference to the miniport driver, the port driver is free to examine the contents of the resource list but will not modify the contents of this list. For more information, see the following Remarks section.
+Pointer to <a href="https://msdn.microsoft.com/library/windows/hardware/ff536976">IResourceList</a> interface of the resource list object that is to be supplied to the miniport driver during initialization. After passing this reference to the miniport driver, the port driver is free to examine the contents of the resource list but will not modify the contents of this list. For more information, see the following Remarks section.
 
 
 ### -param Port [in]
 
-Pointer to the <a href="..\portcls\nn-portcls-iportmidi.md">IPortMidi</a> object that is bound to this miniport object. The caller specifies a valid, non-<b>NULL</b> pointer value for this parameter.
+Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff536891">IPortMidi</a> object that is bound to this miniport object. The caller specifies a valid, non-<b>NULL</b> pointer value for this parameter.
 
 
 ### -param ServiceGroup [out]
 
-Output pointer for the service group. This parameter points to a caller-allocated pointer variable into which the method writes a pointer to the <a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a> interface of the miniport driver's service group object. This is the service group that is being registered for interrupt notification. The caller specifies a valid, non-<b>NULL</b> pointer value for this parameter.
+Output pointer for the service group. This parameter points to a caller-allocated pointer variable into which the method writes a pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff536994">IServiceGroup</a> interface of the miniport driver's service group object. This is the service group that is being registered for interrupt notification. The caller specifies a valid, non-<b>NULL</b> pointer value for this parameter.
 
 
 ## -returns
@@ -107,11 +94,11 @@ The <i>UnknownAdapter</i> parameter is optional:
 
 <ul>
 <li>
-If <i>UnknownAdapter</i> is non-<b>NULL</b>, the <code>Init</code> method queries the <i>UnknownAdapter</i> object for its <a href="..\portcls\nn-portcls-iinterruptsync.md">IInterruptSync</a> interface.
+If <i>UnknownAdapter</i> is non-<b>NULL</b>, the <code>Init</code> method queries the <i>UnknownAdapter</i> object for its <a href="https://msdn.microsoft.com/library/windows/hardware/ff536590">IInterruptSync</a> interface.
 
 </li>
 <li>
-If <i>UnknownAdapter</i> is <b>NULL</b>, the <code>Init</code> method calls <a href="..\portcls\nf-portcls-pcnewinterruptsync.md">PcNewInterruptSync</a> to create a new <b>IInterruptSync</b> object. In this case, the resource list that <i>ResourceList</i> points to supplies the interrupt resource that the new <b>IInterruptSync</b> object uses.
+If <i>UnknownAdapter</i> is <b>NULL</b>, the <code>Init</code> method calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff537713">PcNewInterruptSync</a> to create a new <b>IInterruptSync</b> object. In this case, the resource list that <i>ResourceList</i> points to supplies the interrupt resource that the new <b>IInterruptSync</b> object uses.
 
 </li>
 </ul>
@@ -126,27 +113,14 @@ The <i>UnknownAdapter</i>, <i>ResourceList</i>, <i>Port</i>, and <i>ServiceGroup
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iinterruptsync.md">IInterruptSync</a>
 
 
 
-<a href="..\portcls\nn-portcls-iportmidi.md">IPortMidi</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536590">IInterruptSync</a>
 
 
 
-<a href="..\portcls\nn-portcls-iresourcelist.md">IResourceList</a>
-
-
-
-<a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a>
-
-
-
-<a href="..\portcls\nf-portcls-pcnewinterruptsync.md">PcNewInterruptSync</a>
-
-
-
-<a href="..\portcls\nn-portcls-iminiportmidi.md">IMiniportMidi</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536703">IMiniportMidi</a>
 
 
 
@@ -154,8 +128,20 @@ The <i>UnknownAdapter</i>, <i>ResourceList</i>, <i>Port</i>, and <i>ServiceGroup
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536891">IPortMidi</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536976">IResourceList</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536994">IServiceGroup</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537713">PcNewInterruptSync</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: audio\pcaddstreamresource.htm
 old-project: audio
 ms.assetid: CADB17C6-07EA-4497-AA73-4AECCC1D0A45
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/19/2018
 ms.keywords: PcAddStreamResource, PcAddStreamResource function [Audio Devices], audio.pcaddstreamresource, portcls/PcAddStreamResource
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,19 +53,6 @@ PcAddStreamResource adds a stream resource.
 Two type of stream resources are supported: interrupts and driver-owned threads. PcAddStreamResource can be called by any non-audio WaveRT miniport driver that has interrupts/threads associated with an audio stream. It can also be called by audio WaveRT miniport drivers.
 
 
-## -syntax
-
-
-````
-NTSTATUS  PcAddStreamResource(
-  _In_  PDEVICE_OBJECT               PhysicalDeviceObject,
-  _In_  PVOID                        ResourceSet,
-  _In_  PPCSTREAMRESOURCE_DESCRIPTOR     ResourceDescriptor,
-  _Out_ PCSTREAMRESOURCE*            ResourceHandle
-);
-````
-
-
 ## -parameters
 
 
@@ -83,12 +70,12 @@ PVOID - Reserved for future use, set to NULL. Only device-scoped resources are s
 
 ### -param ResourceDescriptor [in]
 
-PPCSTREAMRESOURCE_DESCRIPTOR - The resource to add. For more information, see <a href="..\portcls\ns-portcls-_pcstreamresource_descriptor.md">PCSTREAMRESOURCE_DESCRIPTOR</a>. 
+PPCSTREAMRESOURCE_DESCRIPTOR - The resource to add. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/mt298191">PCSTREAMRESOURCE_DESCRIPTOR</a>. 
 
 
 ### -param ResourceHandle [out]
 
-PCSTREAMRESOURCE* - The location that will hold the resource handle. For more information, see <a href="..\portcls\nf-portcls-pcremovestreamresource.md">PcRemoveStreamResource</a>.  
+PCSTREAMRESOURCE* - The location that will hold the resource handle. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/mt298189">PcRemoveStreamResource</a>.  
 
 
 ## -returns
@@ -116,27 +103,26 @@ To help ensure glitch-free operation, audio drivers must register their streamin
 
 Stream resources are any resources used by the audio driver to process audio streams or ensure audio data flow. 
 
-All audio drivers must register their stream resources with the audio class driver. Driver registers the following resource types: interrupts, driver-owned threads and dependencies on other audio stack’s resources (example: parallel audio driver stacks). See the definition of <a href="..\portcls\ns-portcls-_pcstreamresource_descriptor.md">PCSTREAMRESOURCE_DESCRIPTOR</a> for more information.  
+All audio drivers must register their stream resources with the audio class driver. Driver registers the following resource types: interrupts, driver-owned threads and dependencies on other audio stack’s resources (example: parallel audio driver stacks). See the definition of <a href="https://msdn.microsoft.com/library/windows/hardware/mt298191">PCSTREAMRESOURCE_DESCRIPTOR</a> for more information.  
 
 Audio driver must make sure the resource is valid when making this call.
 
-Audio drivers that only run in Windows 10 can use  <b>PcAddStreamResource</b> and <a href="..\portcls\nf-portcls-pcremovestreamresource.md">PcRemoveStreamResource</a>. For Audio waveRT miniport drivers that need to also run under previous versions of Windows, use <a href="https://msdn.microsoft.com/F9F7E13B-E8D1-4B02-9CC5-737145DEFEB9">AddStreamResource</a> and <a href="https://msdn.microsoft.com/35A90B3C-27D7-4BBA-A754-098D191A3201">RemoveStreamResource</a>. 
+Audio drivers that only run in Windows 10 can use  <b>PcAddStreamResource</b> and <a href="https://msdn.microsoft.com/library/windows/hardware/mt298189">PcRemoveStreamResource</a>. For Audio waveRT miniport drivers that need to also run under previous versions of Windows, use <a href="https://msdn.microsoft.com/F9F7E13B-E8D1-4B02-9CC5-737145DEFEB9">AddStreamResource</a> and <a href="https://msdn.microsoft.com/35A90B3C-27D7-4BBA-A754-098D191A3201">RemoveStreamResource</a>. 
 
 
 
 
 ## -see-also
 
-<a href="..\portcls\nf-portcls-pcremovestreamresource.md">PcRemoveStreamResource</a>
 
 
 
-<a href="..\portcls\ns-portcls-_pcstreamresource_descriptor.md">PCSTREAMRESOURCE_DESCRIPTOR</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt298191">PCSTREAMRESOURCE_DESCRIPTOR</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt298189">PcRemoveStreamResource</a>
  
 
  
-
 

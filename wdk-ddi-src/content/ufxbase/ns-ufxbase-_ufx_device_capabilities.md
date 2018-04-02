@@ -7,7 +7,7 @@ old-location: buses\ufx_device_capabilities.htm
 old-project: usbref
 ms.assetid: 896919C9-E72E-4C0F-9E3E-9BEE9F55D27D
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PUFX_DEVICE_CAPABILITIES, PUFX_DEVICE_CAPABILITIES, PUFX_DEVICE_CAPABILITIES structure pointer [Buses], UFX_DEVICE_CAPABILITIES, UFX_DEVICE_CAPABILITIES structure [Buses], _UFX_DEVICE_CAPABILITIES, buses.ufx_device_capabilities, ufxbase/PUFX_DEVICE_CAPABILITIES, ufxbase/UFX_DEVICE_CAPABILITIES"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,21 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>UFX_DEVICE_CAPABILITIES</b> structure is used USB to define properties of the Universal Serial Bus (USB) device created by the controller.
-
-
-## -syntax
-
-
-````
-typedef struct _UFX_DEVICE_CAPABILITIES {
-  ULONG            Size;
-  USB_DEVICE_SPEED MaxSpeed;
-  ULONG            RemoteWakeSignalDelay;
-  BOOLEAN          PdcpSupported;
-  USHORT           InEndpointBitmap;
-  USHORT           OutEndpointBitmap;
-} UFX_DEVICE_CAPABILITIES, *PUFX_DEVICE_CAPABILITIES;
-````
 
 
 ## -struct-fields

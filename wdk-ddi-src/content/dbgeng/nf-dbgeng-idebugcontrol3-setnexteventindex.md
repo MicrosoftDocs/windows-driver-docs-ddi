@@ -7,7 +7,7 @@ old-location: debugger\setnexteventindex.htm
 old-project: debugger
 ms.assetid: fbff721a-fdd9-4343-b9a9-92f41fb21ba2
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: IDebugControl3, IDebugControl3 interface [Windows Debugging], SetNextEventIndex method, IDebugControl3::SetNextEventIndex, IDebugControl_9a902b9c-c621-4d71-bae7-d3fd288b1cd8.xml, SetNextEventIndex method [Windows Debugging], SetNextEventIndex method [Windows Debugging], IDebugControl3 interface, SetNextEventIndex,IDebugControl3.SetNextEventIndex, dbgeng/IDebugControl3::SetNextEventIndex, debugger.setnexteventindex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,18 +50,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>SetNextEventIndex</b> method sets the next event for the current target by selecting the event from the static list of events for the target, if such a list exists.
-
-
-## -syntax
-
-
-````
-HRESULT SetNextEventIndex(
-  [in]  ULONG  Relation,
-  [in]  ULONG  Value,
-  [out] PULONG NextIndex
-);
-````
 
 
 ## -parameters
@@ -165,11 +153,6 @@ This method is only useful if the target offers a list of events.
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547906">GetNumberEvents</a>
 
 
 
@@ -177,8 +160,12 @@ This method is only useful if the target offers a list of events.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547906">GetNumberEvents</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550519">IDebugControl3</a>
  
 
  
-
 

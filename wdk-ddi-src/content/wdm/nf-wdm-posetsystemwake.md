@@ -7,7 +7,7 @@ old-location: kernel\posetsystemwake.htm
 old-project: kernel
 ms.assetid: e79ed9a1-b271-4c0a-a82f-9fecab930569
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: PoSetSystemWake, PoSetSystemWake routine [Kernel-Mode Driver Architecture], kernel.posetsystemwake, portn_09bfa419-5a6c-4305-87ee-58a0e032d0c4.xml, wdm/PoSetSystemWake
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,16 +53,6 @@ req.product: Windows 10 or later.
 The <b>PoSetSystemWake</b> routine marks the specified IRP as one that contributed to waking the system from a sleep state.
 
 
-## -syntax
-
-
-````
-VOID PoSetSystemWake(
-  _Inout_ PIRP Irp
-);
-````
-
-
 ## -parameters
 
 
@@ -88,7 +78,7 @@ None
 
 Drivers call <b>PoSetSystemWake</b> to mark an <a href="https://msdn.microsoft.com/library/windows/hardware/ff551766">IRP_MN_WAIT_WAKE</a> IRP as contributing to waking the system from a sleep state. By default, wait/wake IRPs are considered to be device wake-up IRPs. It is the responsibility of the terminal device in a wait/wake chain to determine if it woke the system and to call <b>PoSetSystemWake</b> for the terminal wait/wake IRP. When a driver calls <b>PoSetSystemWake</b> on an IRP, it is marked as having contributed to waking the system from a sleep state. Only one driver in a stack needs to call this routine, and it should normally be the bus driver in a driver stack.
 
-All other drivers in a wait/wake chain can call <a href="..\wdm\nf-wdm-pogetsystemwake.md">PoGetSystemWake</a> for their own wait/wake IRPs at completion to determine if they should call <b>PoSetSystemWake</b> on any child wait/wake IRPs that they are about to complete. This ensures that system wake information properly progresses throughout the wait/wake chain.
+All other drivers in a wait/wake chain can call <a href="https://msdn.microsoft.com/library/windows/hardware/ff559674">PoGetSystemWake</a> for their own wait/wake IRPs at completion to determine if they should call <b>PoSetSystemWake</b> on any child wait/wake IRPs that they are about to complete. This ensures that system wake information properly progresses throughout the wait/wake chain.
 
 After a wait/wake IRP completes, the power manager checks if the IRP is marked as a system wake IRP. If the IRP is marked as a system wake IRP, the power manager adds the IRP to an internal list of the devices that woke the system. However, the power manager only keeps track of the most specific devices that work the system. For example, if device A is added as a device that woke the system, and then device B—a child of device A—is also added, the power manager only retains device B in the list because device B is the most specific. If the power manager cannot determine the most specific device that woke the system, the power manager might keep track of more than one device that reported it woke the system.
 
@@ -99,12 +89,11 @@ The power manager logs an Event Tracing for Windows (ETW) event (viewable in the
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-pogetsystemwake.md">PoGetSystemWake</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559674">PoGetSystemWake</a>
  
 
  
-
 

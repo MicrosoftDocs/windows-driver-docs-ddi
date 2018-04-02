@@ -7,7 +7,7 @@ old-location: ifsk\fsrtladdtotunnelcache.htm
 old-project: ifsk
 ms.assetid: 71cac8fd-d544-4f66-a3ba-f0b267e46d1e
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FsRtlAddToTunnelCache, FsRtlAddToTunnelCache routine [Installable File System Drivers], fsrtlref_85021948-2f5a-4462-8222-ddc25ed86f97.xml, ifsk.fsrtladdtotunnelcache, ntifs/FsRtlAddToTunnelCache
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,22 +52,6 @@ req.typenames: TOKEN_TYPE
 The <b>FsRtlAddToTunnelCache</b> routine caches a file name that is removed from a directory when a file is renamed or deleted.
 
 
-## -syntax
-
-
-````
-VOID FsRtlAddToTunnelCache(
-  _In_ TUNNEL         *Cache,
-  _In_ ULONGLONG      DirectoryKey,
-  _In_ UNICODE_STRING *ShortName,
-  _In_ UNICODE_STRING *LongName,
-  _In_ BOOLEAN        KeyByShortName,
-  _In_ ULONG          DataLength,
-  _In_ VOID           *Data
-);
-````
-
-
 ## -parameters
 
 
@@ -75,7 +59,7 @@ VOID FsRtlAddToTunnelCache(
 
 ### -param Cache [in]
 
-Pointer to a tunnel cache initialized by <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializetunnelcache.md">FsRtlInitializeTunnelCache</a>.
+Pointer to a tunnel cache initialized by <a href="https://msdn.microsoft.com/library/windows/hardware/ff546153">FsRtlInitializeTunnelCache</a>.
 
 
 ### -param DirectoryKey [in]
@@ -125,7 +109,7 @@ When a file name is removed from a directory (for a file that is being renamed o
 
 <b>FsRtlAddToTunnelCache</b> creates a new entry that contains the specified file name and directory key, and adds the entry to the tunnel cache for the mounted volume where the file is being removed or deleted. This entry can also contain a fixed-size data packet of file-system-specific information for the file. 
 
-The caller is required to synchronize this call against <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtldeletetunnelcache.md">FsRtlDeleteTunnelCache</a>. In other words, a file system must ensure that it does not call <b>FsRtlAddToTunnelCache</b> and <b>FsRtlDeleteTunnelCache</b> at the same time from different threads. 
+The caller is required to synchronize this call against <a href="https://msdn.microsoft.com/library/windows/hardware/ff545863">FsRtlDeleteTunnelCache</a>. In other words, a file system must ensure that it does not call <b>FsRtlAddToTunnelCache</b> and <b>FsRtlDeleteTunnelCache</b> at the same time from different threads. 
 
 For more information about file name tunneling, see <a href="http://go.microsoft.com/fwlink/p/?linkid=3100&amp;id=172190">Microsoft Knowledge Base Article 172190</a>.
 
@@ -134,24 +118,23 @@ For more information about file name tunneling, see <a href="http://go.microsoft
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializetunnelcache.md">FsRtlInitializeTunnelCache</a>
 
 
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545853">FsRtlDeleteKeyFromTunnelCache</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtldeletekeyfromtunnelcache~r1.md">FsRtlDeleteKeyFromTunnelCache</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545863">FsRtlDeleteTunnelCache</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtldeletetunnelcache.md">FsRtlDeleteTunnelCache</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546153">FsRtlInitializeTunnelCache</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a>
  
 
  
-
 

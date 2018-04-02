@@ -53,16 +53,6 @@ req.product: Windows 10 or later.
 Completes the extension event.
 
 
-## -syntax
-
-
-````
-HRESULT Complete(
-    Void
-);
-````
-
-
 ## -parameters
 
 
@@ -86,12 +76,11 @@ This method returns an <b>HRESULT</b> value.
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprinterextensionrequest.md">IPrinterExtensionRequest</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439517">IPrinterExtensionRequest</a>
  
 
  
-
 

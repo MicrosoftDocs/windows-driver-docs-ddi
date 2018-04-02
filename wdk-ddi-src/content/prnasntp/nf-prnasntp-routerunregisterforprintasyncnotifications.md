@@ -53,16 +53,6 @@ req.product: Windows 10 or later.
 The <code>RouterUnregisterForPrintAsyncNotifications</code> function unregisters for receiving asynchronous notifications associated with a printer or print server.
 
 
-## -syntax
-
-
-````
-HRESULT RouterUnregisterForPrintAsyncNotifications(
-  _In_ HANDLE hNotify
-);
-````
-
-
 ## -parameters
 
 
@@ -70,7 +60,7 @@ HRESULT RouterUnregisterForPrintAsyncNotifications(
 
 ### -param hNotify [in]
 
-The registration handle returned by the <a href="..\prnasntp\nf-prnasntp-routerregisterforprintasyncnotifications.md">RouterRegisterForPrintAsyncNotifications</a> function.
+The registration handle returned by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562024">RouterRegisterForPrintAsyncNotifications</a> function.
 
 
 ## -returns
@@ -84,12 +74,11 @@ This function returns S_OK on success, and a standard COM error code otherwise.
 
 ## -see-also
 
-<a href="..\prnasntp\nf-prnasntp-routerregisterforprintasyncnotifications.md">RouterRegisterForPrintAsyncNotifications</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562024">RouterRegisterForPrintAsyncNotifications</a>
  
 
  
-
 

@@ -52,17 +52,6 @@ req.typenames: KSSTREAM_POINTER_STATE
 
 
 
-## -syntax
-
-
-````
-typedef enum  { 
-  KSSTREAM_POINTER_STATE_UNLOCKED  = 0,
-  KSSTREAM_POINTER_STATE_LOCKED
-} KSSTREAM_POINTER_STATE;
-````
-
-
 ## -enum-fields
 
 

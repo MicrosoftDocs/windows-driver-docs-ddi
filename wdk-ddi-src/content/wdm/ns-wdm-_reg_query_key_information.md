@@ -7,7 +7,7 @@ old-location: kernel\reg_query_key_information.htm
 old-project: kernel
 ms.assetid: 88c64e9a-dbf2-4feb-9ce2-615b5ba98439
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: "*PREG_QUERY_KEY_INFORMATION, PREG_QUERY_KEY_INFORMATION, PREG_QUERY_KEY_INFORMATION structure pointer [Kernel-Mode Driver Architecture], REG_QUERY_KEY_INFORMATION, REG_QUERY_KEY_INFORMATION structure [Kernel-Mode Driver Architecture], _REG_QUERY_KEY_INFORMATION, kernel.reg_query_key_information, kstruct_d_5e665782-95c2-4fca-bd49-cb364c449540.xml, wdm/PREG_QUERY_KEY_INFORMATION, wdm/REG_QUERY_KEY_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,23 +53,6 @@ req.product: Windows 10 or later.
 The <b>REG_QUERY_KEY_INFORMATION</b> structure describes the metadata that is about to be queried for a key.
 
 
-## -syntax
-
-
-````
-typedef struct _REG_QUERY_KEY_INFORMATION {
-  PVOID                 Object;
-  KEY_INFORMATION_CLASS KeyInformationClass;
-  PVOID                 KeyInformation;
-  ULONG                 Length;
-  PULONG                ResultLength;
-  PVOID                 CallContext;
-  PVOID                 ObjectContext;
-  PVOID                 Reserved;
-} REG_QUERY_KEY_INFORMATION, *PREG_QUERY_KEY_INFORMATION;
-````
-
-
 ## -struct-fields
 
 
@@ -82,12 +65,12 @@ A pointer to the registry key object for the key whose metadata is about to be q
 
 ### -field KeyInformationClass
 
-The <a href="..\wdm\ne-wdm-_key_information_class.md">KEY_INFORMATION_CLASS</a> value that indicates the type of information to be returned by the system.
+The <a href="https://msdn.microsoft.com/library/windows/hardware/ff553373">KEY_INFORMATION_CLASS</a> value that indicates the type of information to be returned by the system.
 
 
 ### -field KeyInformation
 
-A pointer to a buffer that contains the information to be returned by the system. The format of the buffer depends on the value of <b>KeyInformationClass</b>. For more information see <a href="..\wdm\ne-wdm-_key_information_class.md">KEY_INFORMATION_CLASS</a>.
+A pointer to a buffer that contains the information to be returned by the system. The format of the buffer depends on the value of <b>KeyInformationClass</b>. For more information see <a href="https://msdn.microsoft.com/library/windows/hardware/ff553373">KEY_INFORMATION_CLASS</a>.
 
 
 ### -field Length
@@ -107,7 +90,7 @@ Optional driver-defined context information that the driver's <a href="https://m
 
 ### -field ObjectContext
 
-A pointer to driver-defined context information that the driver has associated with a registry object by calling <a href="..\wdm\nf-wdm-cmsetcallbackobjectcontext.md">CmSetCallbackObjectContext</a>. This member is defined for Windows Vista and later versions of the Windows operating system. 
+A pointer to driver-defined context information that the driver has associated with a registry object by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff541924">CmSetCallbackObjectContext</a>. This member is defined for Windows Vista and later versions of the Windows operating system. 
 
 
 ### -field Reserved
@@ -119,7 +102,7 @@ This member is reserved for future use. This member is defined for Windows Vista
 
 
 
-The system passes this structure to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560903">RegistryCallback</a> routine every time a thread attempts to query the metadata for a key—for example, when a user-mode thread calls <b>RegQueryInfoKey</b> or when a driver calls <a href="..\wdm\nf-wdm-zwquerykey.md">ZwQueryKey</a>.
+The system passes this structure to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560903">RegistryCallback</a> routine every time a thread attempts to query the metadata for a key—for example, when a user-mode thread calls <b>RegQueryInfoKey</b> or when a driver calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff567060">ZwQueryKey</a>.
 
 For more information about registry filtering operations, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff545879">Filtering Registry Calls</a>.
 
@@ -128,11 +111,10 @@ For more information about registry filtering operations, see <a href="https://m
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwquerykey.md">ZwQueryKey</a>
 
 
 
-<a href="..\wdm\nf-wdm-cmsetcallbackobjectcontext.md">CmSetCallbackObjectContext</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541924">CmSetCallbackObjectContext</a>
 
 
 
@@ -140,8 +122,8 @@ For more information about registry filtering operations, see <a href="https://m
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567060">ZwQueryKey</a>
  
 
  
-
 

@@ -56,16 +56,6 @@ req.product: Windows 10 or later.
 The <b>WdfIoResourceRequirementsListGetCount</b> method returns the number of <a href="https://msdn.microsoft.com/c7a6997b-34f9-4dd9-b384-2321a8b5ce54">logical configurations</a> that are contained in a resource requirements list.
 
 
-## -syntax
-
-
-````
-ULONG WdfIoResourceRequirementsListGetCount(
-  _In_ WDFIORESREQLIST RequirementsList
-);
-````
-
-
 ## -parameters
 
 

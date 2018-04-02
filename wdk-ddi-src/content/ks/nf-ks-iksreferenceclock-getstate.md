@@ -52,16 +52,6 @@ req.typenames:
 The <b>IKsReferenceClock::GetState</b> method queries the associated reference clock for its current streaming state.
 
 
-## -syntax
-
-
-````
-NTSTATUS GetState(
-  [out] PKSSTATE State
-);
-````
-
-
 ## -parameters
 
 
@@ -69,7 +59,7 @@ NTSTATUS GetState(
 
 ### -param State [out]
 
-Points to a <a href="..\ks\ne-ks-pksstate.md">KSSTATE</a> structure that indicates the streaming state of the underlying clock.
+Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff566856">KSSTATE</a> structure that indicates the streaming state of the underlying clock.
 
 
 ## -returns
@@ -94,16 +84,15 @@ AVStream uses the <a href="https://msdn.microsoft.com/library/windows/hardware/f
 
 ## -see-also
 
-<a href="..\ks\nf-ks-kspingetreferenceclockinterface.md">KsPinGetReferenceClockInterface</a>
 
 
 
-<a href="..\ks\ne-ks-pksstate.md">KSSTATE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566856">KSSTATE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563517">KsPinGetReferenceClockInterface</a>
  
 
  
-
 

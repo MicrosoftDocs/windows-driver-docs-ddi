@@ -7,7 +7,7 @@ old-location: kernel\keclearevent.htm
 old-project: kernel
 ms.assetid: ded54c88-3da0-42ec-88be-865d3cb87651
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: KeClearEvent, KeClearEvent routine [Kernel-Mode Driver Architecture], k105_1ea5c68a-0b59-48ec-911b-058b6a3e586b.xml, kernel.keclearevent, wdm/KeClearEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,16 +53,6 @@ req.product: Windows 10 or later.
 The <b>KeClearEvent</b> routine sets an event to a not-signaled state. 
 
 
-## -syntax
-
-
-````
-VOID KeClearEvent(
-  _Inout_ PRKEVENT Event
-);
-````
-
-
 ## -parameters
 
 
@@ -88,7 +78,7 @@ None
 
 <i>Event</i> is set to a not-signaled state, meaning its value is set to zero.
 
-For better performance, use <b>KeClearEvent</b> unless the caller uses the value returned by <a href="..\wdm\nf-wdm-keresetevent.md">KeResetEvent</a> to determine what to do next.
+For better performance, use <b>KeClearEvent</b> unless the caller uses the value returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff553176">KeResetEvent</a> to determine what to do next.
 
 For more information about event objects, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff544323">Event Objects</a>. 
 
@@ -97,24 +87,23 @@ For more information about event objects, see <a href="https://msdn.microsoft.co
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-keresetevent.md">KeResetEvent</a>
 
 
 
-<a href="..\wdm\nf-wdm-keinitializeevent.md">KeInitializeEvent</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552137">KeInitializeEvent</a>
 
 
 
-<a href="..\wdm\nf-wdm-kereadstateevent.md">KeReadStateEvent</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553089">KeReadStateEvent</a>
 
 
 
-<a href="..\wdm\nf-wdm-kesetevent.md">KeSetEvent</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553176">KeResetEvent</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553253">KeSetEvent</a>
  
 
  
-
 

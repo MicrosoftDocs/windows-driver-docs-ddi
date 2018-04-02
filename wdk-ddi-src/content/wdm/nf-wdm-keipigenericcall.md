@@ -7,7 +7,7 @@ old-location: kernel\keipigenericcall.htm
 old-project: kernel
 ms.assetid: 11424e94-d279-4003-a97c-a46d1a75e8e5
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: KeIpiGenericCall, KeIpiGenericCall routine [Kernel-Mode Driver Architecture], k105_f819c564-ecbc-4d28-aa64-6936c8ad3542.xml, kernel.keipigenericcall, wdm/KeIpiGenericCall
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 The <b>KeIpiGenericCall</b> routine causes the specified routine to run on all processors simultaneously.
 
 
-## -syntax
-
-
-````
-ULONG_PTR KeIpiGenericCall(
-  _In_ PKIPI_BROADCAST_WORKER BroadcastFunction,
-  _In_ ULONG_PTR              Context
-);
-````
-
-
 ## -parameters
 
 
@@ -99,12 +88,11 @@ When a driver calls <b>KeIpiGenericCall</b>, the system interrupts every process
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550688">IpiGenericCall</a>
-
-
-
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: display\d3dkmt_destroydcfrommemory.htm
 old-project: display
 ms.assetid: 98110dcc-bd82-444b-80bb-45a989e2f4f1
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMT_DESTROYDCFROMMEMORY, D3DKMT_DESTROYDCFROMMEMORY structure [Display Devices], OpenGL_Structs_1d3adbd5-a0cf-4650-b293-148ca3b093fb.xml, _D3DKMT_DESTROYDCFROMMEMORY, d3dkmthk/D3DKMT_DESTROYDCFROMMEMORY, display.d3dkmt_destroydcfrommemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,17 +52,6 @@ req.typenames: D3DKMT_DESTROYDCFROMMEMORY
 The D3DKMT_DESTROYDCFROMMEMORY structure describes parameters for releasing the display context.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DKMT_DESTROYDCFROMMEMORY {
-  HDC    hDc;
-  HANDLE hBitmap;
-} D3DKMT_DESTROYDCFROMMEMORY;
-````
-
-
 ## -struct-fields
 
 
@@ -80,12 +69,11 @@ typedef struct _D3DKMT_DESTROYDCFROMMEMORY {
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtdestroydcfrommemory.md">D3DKMTDestroyDCFromMemory</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546908">D3DKMTDestroyDCFromMemory</a>
  
 
  
-
 

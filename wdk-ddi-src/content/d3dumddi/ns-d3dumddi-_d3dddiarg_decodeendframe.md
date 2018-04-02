@@ -7,7 +7,7 @@ old-location: display\d3dddiarg_decodeendframe.htm
 old-project: display
 ms.assetid: 267335d2-37bd-4615-ad8e-5a8805eb93f7
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDIARG_DECODEENDFRAME, D3DDDIARG_DECODEENDFRAME structure [Display Devices], UMDisplayDriver_param_Structs_7c4f1596-3837-4094-9e8d-b5ea05207489.xml, _D3DDDIARG_DECODEENDFRAME, d3dumddi/D3DDDIARG_DECODEENDFRAME, display.d3dddiarg_decodeendframe
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,17 +52,6 @@ req.typenames: D3DDDIARG_DECODEENDFRAME
 The D3DDDIARG_DECODEENDFRAME structure specifies the Microsoft DirectX Video Accelerator (VA) decoder that should stop decoding a frame. 
 
 
-## -syntax
-
-
-````
-typedef struct _D3DDDIARG_DECODEENDFRAME {
-  HANDLE hDecode;
-  HANDLE *pHandleComplete;
-} D3DDDIARG_DECODEENDFRAME;
-````
-
-
 ## -struct-fields
 
 
@@ -70,7 +59,7 @@ typedef struct _D3DDDIARG_DECODEENDFRAME {
 
 ### -field hDecode
 
-A handle to the DirectX VA decode device. The user-mode display driver returns this handle in a call to its <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createdecodedevice.md">CreateDecodeDevice</a> function.
+A handle to the DirectX VA decode device. The user-mode display driver returns this handle in a call to its <a href="https://msdn.microsoft.com/4d9a062a-2fdf-4e55-a335-c03c5d5665ff">CreateDecodeDevice</a> function.
 
 
 ### -field pHandleComplete
@@ -80,16 +69,15 @@ This member is reserved and should be set to <b>NULL</b>.
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_decodeendframe.md">DecodeEndFrame</a>
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createdecodedevice.md">CreateDecodeDevice</a>
+<a href="https://msdn.microsoft.com/4d9a062a-2fdf-4e55-a335-c03c5d5665ff">CreateDecodeDevice</a>
 
 
 
+<a href="https://msdn.microsoft.com/6e8d3280-6ddc-4593-9208-c4f0c9ff254c">DecodeEndFrame</a>
  
 
  
-
 

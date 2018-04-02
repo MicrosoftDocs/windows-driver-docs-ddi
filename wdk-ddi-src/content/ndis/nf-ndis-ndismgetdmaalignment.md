@@ -7,7 +7,7 @@ old-location: netvista\ndismgetdmaalignment.htm
 old-project: netvista
 ms.assetid: b683518c-b4f4-4ae4-945d-8a2d064a5390
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: NdisMGetDmaAlignment, NdisMGetDmaAlignment function [Network Drivers Starting with Windows Vista], dma_ref_75f5af9e-a351-428c-a465-ccd747fcdd37.xml, ndis/NdisMGetDmaAlignment, netvista.ndismgetdmaalignment
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -54,16 +54,6 @@ The
   <b>NdisMGetDmaAlignment</b> function returns the alignment requirements of the DMA system for a NIC.
 
 
-## -syntax
-
-
-````
-ULONG NdisMGetDmaAlignment(
-  _In_ NDIS_HANDLE MiniportAdapterHandle
-);
-````
-
-
 ## -parameters
 
 
@@ -73,7 +63,7 @@ ULONG NdisMGetDmaAlignment(
 
 An NDIS handle that identifies the miniport adapter for the NIC. This handle was originally passed
      to the 
-     <a href="..\ndis\nc-ndis-miniport_initialize.md">
+     <a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">
      MiniportInitializeEx</a> function.
 
 
@@ -92,7 +82,7 @@ Returns a value that specifies the alignment requirements of the DMA system. The
 
 
 
-<div class="alert"><b>Note</b>  A miniport driver must have already called <a href="..\ndis\nf-ndis-ndismregisterscattergatherdma.md">NdisMRegisterScatterGatherDma</a> or <a href="..\ndis\nf-ndis-ndismregisterdmachannel.md">NdisMRegisterDmaChannel</a> to initialize a
+<div class="alert"><b>Note</b>  A miniport driver must have already called <a href="https://msdn.microsoft.com/library/windows/hardware/ff563659">NdisMRegisterScatterGatherDma</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff563646">NdisMRegisterDmaChannel</a> to initialize a
   scatter/gather DMA channel before calling <b>NdisMGetDmaAlignment</b>.</div>
 <div> </div>
 A miniport driver can call the 
@@ -105,17 +95,16 @@ A miniport driver can call the
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndismregisterscattergatherdma.md">
+<a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/90ce64a2-9140-4b5f-88aa-b4f01a3d0c6f">
    NdisMRegisterScatterGatherDma</a>
-
-
-
  
 
  
-
 

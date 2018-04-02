@@ -7,7 +7,7 @@ old-location: netvista\rilimshandoverattempt.htm
 old-project: netvista
 ms.assetid: 22491e3c-fa23-473d-b3e6-92c776b81204
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*LPRILIMSHANDOVERATTEMPT, RILIMSHANDOVERATTEMPT, RILIMSHANDOVERATTEMPT structure [Network Drivers Starting with Windows Vista], netvista.rilimshandoverattempt, ntddrilapitypes/RILIMSHANDOVERATTEMPT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,19 +50,6 @@ req.typenames: RILIMSHANDOVERATTEMPT, *LPRILIMSHANDOVERATTEMPT
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef struct _RILIMSHANDOVERATTEMPT {
-  DWORD             cbSize;
-  RILIMSSYSTEMTYPE  dwOldSystemType;
-  RILIMSSYSTEMTYPE  dwDestSystemType;
-  HRESULT           hrHandOverResult;
-} RILIMSHANDOVERATTEMPT, RILIMSHANDOVERATTEMPT;
-````
 
 
 ## -struct-fields

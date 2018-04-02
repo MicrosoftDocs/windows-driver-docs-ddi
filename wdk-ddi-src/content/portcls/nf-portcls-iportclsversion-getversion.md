@@ -7,7 +7,7 @@ old-location: audio\iportclsversion_getversion.htm
 old-project: audio
 ms.assetid: ce1394e5-1d45-4b59-8738-fcb2cbe7cf51
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/19/2018
 ms.keywords: GetVersion method [Audio Devices], GetVersion method [Audio Devices], IPortClsVersion interface, GetVersion,IPortClsVersion.GetVersion, IPortClsVersion, IPortClsVersion interface [Audio Devices], GetVersion method, IPortClsVersion::GetVersion, audio.iportclsversion_getversion, audmp-routines_82b73b24-296b-4b31-88e4-1d1303863c6c.xml, portcls/IPortClsVersion::GetVersion
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,16 +50,6 @@ req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 
 
 The <code>GetVersion</code> method returns the version of the Windows operating system that the driver is running on.
-
-
-## -syntax
-
-
-````
-DWORD GetVersion(
-    None
-);
-````
 
 
 ## -parameters
@@ -307,7 +297,7 @@ YES
 </table>
  
 
-The version numbers in the preceding table are defined in header file portcls.h. Note that portcls.h defines version numbers both for Windows versions that do and do not support the <b>IPortClsVersion</b> interface. Both types of version number can be useful. A miniport driver typically contains a proprietary routine that determines the Windows version and can return any of the version numbers in the preceding table. When executed on a platform that does not support <b>IPortClsVersion</b>, this routine needs to use other software tests to determine the Windows version. These tests typically rely on the <a href="..\wdm\nf-wdm-ioiswdmversionavailable.md">IoIsWdmVersionAvailable</a> function. For a code example of such a routine, see the sb16 sample audio driver in the Windows Driver Kit (WDK).
+The version numbers in the preceding table are defined in header file portcls.h. Note that portcls.h defines version numbers both for Windows versions that do and do not support the <b>IPortClsVersion</b> interface. Both types of version number can be useful. A miniport driver typically contains a proprietary routine that determines the Windows version and can return any of the version numbers in the preceding table. When executed on a platform that does not support <b>IPortClsVersion</b>, this routine needs to use other software tests to determine the Windows version. These tests typically rely on the <a href="https://msdn.microsoft.com/library/windows/hardware/ff549382">IoIsWdmVersionAvailable</a> function. For a code example of such a routine, see the sb16 sample audio driver in the Windows Driver Kit (WDK).
 
 The version numbers in the preceding table are listed in roughly chronological order. Each successive Windows version in the table does not necessarily represent a feature superset of the preceding version. For example, the version that is represented by <b>kVersionWin2K</b> has more audio features than the version that is represented by <b>kVersionWin98SE_QFE2</b>.
 
@@ -316,16 +306,15 @@ The version numbers in the preceding table are listed in roughly chronological o
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-ioiswdmversionavailable.md">IoIsWdmVersionAvailable</a>
 
 
 
-<a href="..\portcls\nn-portcls-iportclsversion.md">IPortClsVersion</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536877">IPortClsVersion</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549382">IoIsWdmVersionAvailable</a>
  
 
  
-
 

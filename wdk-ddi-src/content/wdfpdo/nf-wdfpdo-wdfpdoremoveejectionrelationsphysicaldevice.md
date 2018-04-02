@@ -56,17 +56,6 @@ req.product: Windows 10 or later.
 The <b>WdfPdoRemoveEjectionRelationsPhysicalDevice</b> method removes a specified device from the list of devices that must be ejected when another specified device is ejected. 
 
 
-## -syntax
-
-
-````
-VOID WdfPdoRemoveEjectionRelationsPhysicalDevice(
-  _In_ WDFDEVICE      Device,
-  _In_ PDEVICE_OBJECT PhysicalDevice
-);
-````
-
-
 ## -parameters
 
 
@@ -79,7 +68,7 @@ A handle to a framework device object.
 
 ### -param PhysicalDevice [in]
 
-A pointer to a caller-supplied <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a> structure that represents a physical device object (PDO).
+A pointer to a caller-supplied <a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a> structure that represents a physical device object (PDO).
 
 
 ## -returns
@@ -127,16 +116,15 @@ status = WdfPdoRemoveEjectionRelationsPhysicalDevice(
 
 ## -see-also
 
-<a href="..\wdfpdo\nf-wdfpdo-wdfpdoaddejectionrelationsphysicaldevice.md">WdfPdoAddEjectionRelationsPhysicalDevice</a>
 
 
 
-<a href="..\wdfpdo\nf-wdfpdo-wdfpdoclearejectionrelationsdevices.md">WdfPdoClearEjectionRelationsDevices</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548770">WdfPdoAddEjectionRelationsPhysicalDevice</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548771">WdfPdoClearEjectionRelationsDevices</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: debugger\setkernelconnectionoptionswide.htm
 old-project: debugger
 ms.assetid: aea5651f-b361-4253-bf51-bd320408bdab
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: IDebugClient5, IDebugClient5 interface [Windows Debugging], SetKernelConnectionOptionsWide method, IDebugClient5::SetKernelConnectionOptionsWide, SetKernelConnectionOptionsWide method [Windows Debugging], SetKernelConnectionOptionsWide method [Windows Debugging], IDebugClient5 interface, SetKernelConnectionOptionsWide,IDebugClient5.SetKernelConnectionOptionsWide, dbgeng/IDebugClient5::SetKernelConnectionOptionsWide, debugger.setkernelconnectionoptionswide
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,16 +50,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>SetKernelConnectionOptionsWide</b> method updates some of the connection options for a live kernel target.
-
-
-## -syntax
-
-
-````
-HRESULT SetKernelConnectionOptionsWide(
-  [in] PCWSTR Options
-);
-````
 
 
 ## -parameters
@@ -152,16 +142,15 @@ For more information about connecting to live kernel-mode targets, see <a href="
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff538145">AttachKernel</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550497">IDebugClient5</a>
  
 
  
-
 

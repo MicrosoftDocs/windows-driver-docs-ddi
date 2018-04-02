@@ -53,16 +53,6 @@ req.product: Windows 10 or later.
 This callback function stops the sensor.
 
 
-## -prototype
-
-
-````
-NT_STATUS EvtSensorStop(
-   SENSOROBJECT Sensor
-);
-````
-
-
 ## -parameters
 
 

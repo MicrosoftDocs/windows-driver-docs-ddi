@@ -7,7 +7,7 @@ old-location: dtf\iwdtfsimpleiostressaction2_stop.htm
 old-project: dtf
 ms.assetid: d813b9f4-95f7-49cd-97c0-08a04dbd362e
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 3/29/2018
 ms.keywords: IWDTFSimpleIOStressAction2, IWDTFSimpleIOStressAction2 interface [Windows Device Testing Framework], Stop method, IWDTFSimpleIOStressAction2::Stop, Microsoft.WDTF.IWDTFSimpleIOStressAction2.Stop, Microsoft::WDTF::IWDTFSimpleIOStressAction2::Stop, Stop method [Windows Device Testing Framework], Stop method [Windows Device Testing Framework], IWDTFSimpleIOStressAction2 interface, Stop,IWDTFSimpleIOStressAction2.Stop, dtf.iwdtfsimpleiostressaction2_stop, wdtfinterfaces/IWDTFSimpleIOStressAction2::Stop
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,16 +53,6 @@ req.product: Windows 10 or later.
 Stops the device.
 
 
-## -syntax
-
-
-````
-HRESULT Stop(
-  [out, retval] VARIANT_BOOL *pResult
-);
-````
-
-
 ## -parameters
 
 
@@ -87,12 +77,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="..\wdtfinterfaces\nn-wdtfinterfaces-iwdtfsimpleiostressaction2.md">IWDTFSimpleIOStressAction2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451157">IWDTFSimpleIOStressAction2</a>
  
 
  
-
 

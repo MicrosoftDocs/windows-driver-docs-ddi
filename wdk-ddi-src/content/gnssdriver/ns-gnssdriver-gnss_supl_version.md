@@ -3,12 +3,12 @@ UID: NS:gnssdriver.GNSS_SUPL_VERSION
 title: GNSS_SUPL_VERSION
 author: windows-driver-content
 description: This structure contains SUPL version information.
-old-location: gnss\gnss_supl_version.htm
-old-project: gnss
+old-location: sensors\gnss_supl_version.htm
+old-project: sensors
 ms.assetid: D004DAEF-F25F-442D-9A6D-91FB8A18E0DB
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: "*PGNSS_SUPL_VERSION, GNSS_SUPL_VERSION, GNSS_SUPL_VERSION structure [Sensor Devices], PGNSS_SUPL_VERSION, PGNSS_SUPL_VERSION structure pointer [Sensor Devices], gnss.gnss_supl_version, gnssdriver/GNSS_SUPL_VERSION, gnssdriver/PGNSS_SUPL_VERSION"
+ms.date: 2/22/2018
+ms.keywords: "*PGNSS_SUPL_VERSION, GNSS_SUPL_VERSION, GNSS_SUPL_VERSION structure [Sensor Devices], PGNSS_SUPL_VERSION, PGNSS_SUPL_VERSION structure pointer [Sensor Devices], gnssdriver/GNSS_SUPL_VERSION, gnssdriver/PGNSS_SUPL_VERSION, sensors.gnss_supl_version"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -52,17 +52,6 @@ req.typenames: GNSS_SUPL_VERSION, *PGNSS_SUPL_VERSION
 This structure contains SUPL version information.
 
 
-
-
-## -syntax
-
-
-````
-typedef struct {
-  ULONG MajorVersion;
-  ULONG MinorVersion;
-} GNSS_SUPL_VERSION, *PGNSS_SUPL_VERSION;
-````
 
 
 ## -struct-fields

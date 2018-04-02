@@ -55,18 +55,6 @@ The WIAS_LWARNING macro is obsolete for Windows Vista and later.
 The WIAS_LWARNING macro writes a diagnostic WIA_WARNING message to the log file.
 
 
-## -syntax
-
-
-````
-WIAS_LERROR( WIAS_LWARNING(
-         IWiaLog   *pIWiaLog,
-         LONG      lResId,
-   const CHAR      *format_string, ...
-);
-````
-
-
 ## -parameters
 
 
@@ -103,7 +91,7 @@ Specifies the resource ID. This value should be set to WIALOG_NO_RESOURCE_ID.
 
 #### - pIWiaLog
 
-Pointer to an <a href="..\wia_lh\nn-wia_lh-iwialog.md">IWiaLog Interface</a>.
+Pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff543935">IWiaLog Interface</a>.
 
 
 ## -remarks
@@ -130,20 +118,19 @@ Please note that it does not write to the new log file used in Windows Vista and
 
 ## -see-also
 
-<a href="..\wiautil\nf-wiautil-wias_lerror.md">WIAS_LERROR</a>
 
 
 
-<a href="..\wiautil\nf-wiautil-wias_ltrace.md">WIAS_LTRACE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549580">WIAS_LERROR</a>
 
 
 
-<a href="..\wiautil\nf-wiautil-wias_lhresult.md">WIAS_LHRESULT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549589">WIAS_LHRESULT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549600">WIAS_LTRACE</a>
  
 
  
-
 

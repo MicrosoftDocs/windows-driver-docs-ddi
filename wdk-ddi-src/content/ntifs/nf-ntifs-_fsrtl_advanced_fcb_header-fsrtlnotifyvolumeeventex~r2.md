@@ -7,7 +7,7 @@ old-location: ifsk\fsrtlnotifyvolumeeventex.htm
 old-project: ifsk
 ms.assetid: 0792e139-0217-4882-b2df-e69452118fc9
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FsRtlNotifyVolumeEventEx, FsRtlNotifyVolumeEventEx routine [Installable File System Drivers], fsrtlref_421ebbf6-0678-4b66-a7c3-00f5914ea05c.xml, ifsk.fsrtlnotifyvolumeeventex, ntifs/FsRtlNotifyVolumeEventEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,18 +52,6 @@ req.typenames: TOKEN_TYPE
 The <b>FsRtlNotifyVolumeEventEx</b> routine notifies any registered applications that a volume event is occurring. Volume events include the volume  being locked, unlocked, mounted, or made read-only. 
 
 
-## -syntax
-
-
-````
-NTSTATUS FsRtlNotifyVolumeEventEx(
-  _In_ PFILE_OBJECT                       FileObject,
-  _In_ ULONG                              EventCode,
-  _In_ PTARGET_DEVICE_CUSTOM_NOTIFICATION Event
-);
-````
-
-
 ## -parameters
 
 
@@ -71,17 +59,17 @@ NTSTATUS FsRtlNotifyVolumeEventEx(
 
 ### -param FileObject [in]
 
-A pointer to a <a href="..\wdm\ns-wdm-_file_object.md">FILE_OBJECT</a> that specifies a volume.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff545834">FILE_OBJECT</a> that specifies a volume.
 
 
 ### -param EventCode [in]
 
-An event code for the event that is occurring. For a table of event codes, see <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnotifyvolumeevent~r1.md">FsRtlNotifyVolumeEvent</a>.
+An event code for the event that is occurring. For a table of event codes, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff547060">FsRtlNotifyVolumeEvent</a>.
 
 
 ### -param Event [in]
 
-A pointer to the initialized custom notification structure (<a href="..\wdm\ns-wdm-_target_device_custom_notification.md">TARGET_DEVICE_CUSTOM_NOTIFICATION</a>) to use. 
+A pointer to the initialized custom notification structure (<a href="https://msdn.microsoft.com/library/windows/hardware/ff564596">TARGET_DEVICE_CUSTOM_NOTIFICATION</a>) to use. 
 
 
 ## -returns
@@ -108,24 +96,23 @@ Returns STATUS_SUCCESS on success or another relevant NTSTATUS value, such as ST
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnotifyvolumeevent~r1.md">FsRtlNotifyVolumeEvent</a>
 
 
 
-<a href="..\wdm\ns-wdm-_target_device_custom_notification.md">TARGET_DEVICE_CUSTOM_NOTIFICATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547060">FsRtlNotifyVolumeEvent</a>
 
 
 
-<a href="..\wdm\nf-wdm-iounregisterplugplaynotification.md">IoUnregisterPlugPlayNotification</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549526">IoRegisterPlugPlayNotification</a>
 
 
 
-<a href="..\wdm\nf-wdm-ioregisterplugplaynotification.md">IoRegisterPlugPlayNotification</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550398">IoUnregisterPlugPlayNotification</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564596">TARGET_DEVICE_CUSTOM_NOTIFICATION</a>
  
 
  
-
 

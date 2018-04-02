@@ -7,7 +7,7 @@ old-location: kernel\rtlfreeansistring.htm
 old-project: kernel
 ms.assetid: ca46be9e-31f6-4118-8958-4eb2c8450e8c
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: RtlFreeAnsiString, RtlFreeAnsiString routine [Kernel-Mode Driver Architecture], k109_0213924f-caca-4411-b5cc-d93282f01948.xml, kernel.rtlfreeansistring, wdm/RtlFreeAnsiString
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,16 +53,6 @@ req.product: Windows 10 or later.
 The <b>RtlFreeAnsiString</b> routine releases storage that was allocated by <b>RtlUnicodeStringToAnsiString</b>.
 
 
-## -syntax
-
-
-````
-VOID RtlFreeAnsiString(
-  _Inout_ PANSI_STRING AnsiString
-);
-````
-
-
 ## -parameters
 
 
@@ -93,12 +83,11 @@ This routine does not release the Unicode string buffer passed to <b>RtlUnicodeS
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-rtlunicodestringtoansistring.md">RtlUnicodeStringToAnsiString</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562969">RtlUnicodeStringToAnsiString</a>
  
 
  
-
 

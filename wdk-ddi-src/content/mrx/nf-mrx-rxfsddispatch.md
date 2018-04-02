@@ -7,7 +7,7 @@ old-location: ifsk\rxfsddispatch.htm
 old-project: ifsk
 ms.assetid: 92b9b22a-0fe7-4c95-a4fc-5f5f5558b4cf
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: RxFsdDispatch, RxFsdDispatch routine [Installable File System Drivers], ifsk.rxfsddispatch, mrx/RxFsdDispatch, rxref_23ec1489-9629-4aef-b0b0-d844364b67a7.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,17 +50,6 @@ req.typenames: SetDSMCounters_IN, *PSetDSMCounters_IN
 
 
 <b>RxFsdDispatch</b> implements the file system driver (FSD) dispatch for RDBSS to process an I/O request packet (IRP). A pointer to this routine is copied over the device driver dispatch table for the network mini-redirector driver by the <b>RxDriverEntry</b> routine when RDBSS is initialized. 
-
-
-## -syntax
-
-
-````
-NTSTATUS RxFsdDispatch(
-  _In_ PRDBSS_DEVICE_OBJECT RxDeviceObject,
-  _In_ PIRP                 Irp
-);
-````
 
 
 ## -parameters
@@ -170,12 +159,11 @@ A few IRPs are treated as special and handled internally by RDBSS. For example, 
 
 ## -see-also
 
-<a href="..\rxprocs\nf-rxprocs-rxdriverentry.md">RxDriverEntry</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554404">RxDriverEntry</a>
  
 
  
-
 

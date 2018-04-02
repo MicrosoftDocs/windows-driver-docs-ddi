@@ -53,16 +53,6 @@ req.product: Windows 10 or later.
 The <b>UPSTurnOff</b> function turns off the UPS unit's power outlets, after a specified delay time.
 
 
-## -syntax
-
-
-````
-void UPSTurnOff(
-  _In_ DWORD aTurnOffDelay
-);
-````
-
-
 ## -parameters
 
 

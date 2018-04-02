@@ -7,7 +7,7 @@ old-location: netvista\ndiswdifreewdiframemetadata.htm
 old-project: netvista
 ms.assetid: 828C181F-918A-4674-B6CE-FCB9750948E0
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: NDIS_WDI_FREE_WDI_FRAME_METADATA, NdisWdiFreeWiFiFrameMetaData, NdisWdiFreeWiFiFrameMetaData callback function [Network Drivers Starting with Windows Vista], dot11wdi/NdisWdiFreeWiFiFrameMetaData, netvista.ndiswdifreewdiframemetadata
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,21 +51,7 @@ req.typenames: SYNTH_STATS, *PSYNTH_STATS
 
 The NdisWdiFreeWiFiFrameMetaData callback function frees a frame metadata buffer.
 
-This is a callback inside <a href="..\dot11wdi\ns-dot11wdi-_ndis_wdi_data_api.md">NDIS_WDI_DATA_API</a>.
-
-
-## -prototype
-
-
-````
-NDIS_WDI_FREE_WDI_FRAME_METADATA NdisWdiFreeWiFiFrameMetaData;
-
-VOID NdisWdiFreeWiFiFrameMetaData(
-  _In_ NDIS_HANDLE         NdisMiniportDataPathHandle,
-  _In_ PWDI_FRAME_METADATA pWiFiFrameMetaData
-)
-{ ... }
-````
+This is a callback inside <a href="https://msdn.microsoft.com/library/windows/hardware/mt297620">NDIS_WDI_DATA_API</a>.
 
 
 ## -parameters
@@ -75,7 +61,7 @@ VOID NdisWdiFreeWiFiFrameMetaData(
 
 ### -param NdisMiniportDataPathHandle [in]
 
-The NdisMiniportDataPathHandle passed to the IHV miniport in <a href="..\dot11wdi\nc-dot11wdi-miniport_wdi_tal_txrx_initialize.md">MiniportWdiTalTxRxInitialize</a>.
+The NdisMiniportDataPathHandle passed to the IHV miniport in <a href="https://msdn.microsoft.com/C297D681-D43F-4105-9E08-7FF42807E9A0">MiniportWdiTalTxRxInitialize</a>.
 
 
 ### -param pWiFiFrameMetaData [in]
@@ -94,16 +80,15 @@ This callback function does not return a value.
 
 ## -see-also
 
-<a href="..\dot11wdi\ns-dot11wdi-_ndis_wdi_data_api.md">NDIS_WDI_DATA_API</a>
 
 
 
-<a href="..\dot11wdi\ns-dot11wdi-_wdi_frame_metadata.md">WDI_FRAME_METADATA</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt297620">NDIS_WDI_DATA_API</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn897827">WDI_FRAME_METADATA</a>
  
 
  
-
 

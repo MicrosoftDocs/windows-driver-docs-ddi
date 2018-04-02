@@ -7,7 +7,7 @@ old-location: storage\hba_setbindingsupport.htm
 old-project: storage
 ms.assetid: 2d4ac375-ede9-406e-bac0-9caa2273c91a
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: HBA_SetBindingSupport, HBA_SetBindingSupport routine [Storage Devices], fibreHBA_rtns_5adce4be-2d9d-4e53-ab21-3a15810153d7.xml, hbaapi/HBA_SetBindingSupport, storage.hba_setbindingsupport
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,18 +52,6 @@ req.typenames: HBA_WWNTYPE
 The <b>HBA_SetBindingSupport</b> routine enables the indicated set of capabilities on the adapter. 
 
 
-## -syntax
-
-
-````
-HBA_STATUS HBA_API HBA_SetBindingSupport(
-  _In_ HBA_HANDLE          Handle,
-  _In_ HBA_WWN             HbaPortWWN,
-  _In_ HBA_BIND_CAPABILITY Flags
-);
-````
-
-
 ## -parameters
 
 
@@ -71,7 +59,7 @@ HBA_STATUS HBA_API HBA_SetBindingSupport(
 
 ### -param Handle [in]
 
-Contains a value returned by the routine <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a> that identifies the HBA on which the port referenced by <i>HbaPortWWN </i>is located. 
+Contains a value returned by the routine <a href="https://msdn.microsoft.com/library/windows/hardware/ff557097">HBA_OpenAdapter</a> that identifies the HBA on which the port referenced by <i>HbaPortWWN </i>is located. 
 
 
 ### -param HbaPortWWN [in]
@@ -158,16 +146,15 @@ Returned if an unspecified error occurred that prevented the routine from enabli
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557097">HBA_OpenAdapter</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
-
-
-
-<a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
-
-
-
  
 
  
-
 

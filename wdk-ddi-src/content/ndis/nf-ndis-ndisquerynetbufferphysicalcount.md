@@ -7,7 +7,7 @@ old-location: netvista\ndisquerynetbufferphysicalcount.htm
 old-project: netvista
 ms.assetid: 99869b20-3458-426a-ad64-c2cc54213290
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: NdisQueryNetBufferPhysicalCount, NdisQueryNetBufferPhysicalCount function [Network Drivers Starting with Windows Vista], ndis/NdisQueryNetBufferPhysicalCount, ndis_netbuf_functions_ref_d041f487-3273-402e-8726-d9a252b1dd45.xml, netvista.ndisquerynetbufferphysicalcount
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,17 +53,7 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 The 
   <b>NdisQueryNetBufferPhysicalCount</b> function returns the maximum number of physical breaks mapped by the
   buffer descriptors that are associated with the given 
-  <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a> structure.
-
-
-## -syntax
-
-
-````
-ULONG NdisQueryNetBufferPhysicalCount(
-  _In_ PNET_BUFFER NetBuffer
-);
-````
+  <a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a> structure.
 
 
 ## -parameters
@@ -74,7 +64,7 @@ ULONG NdisQueryNetBufferPhysicalCount(
 ### -param NetBuffer [in]
 
 A pointer to a previously allocated 
-     <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a> structure.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a> structure.
 
 
 ## -returns
@@ -89,12 +79,11 @@ A pointer to a previously allocated
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a>
  
 
  
-
 

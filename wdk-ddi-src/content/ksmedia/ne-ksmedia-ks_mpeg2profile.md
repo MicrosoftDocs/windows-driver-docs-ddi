@@ -52,20 +52,6 @@ req.typenames: KS_MPEG2Profile
 The KS_MPEG2Profile enumeration describes MPEG-2 profiles.
 
 
-## -syntax
-
-
-````
-typedef enum  { 
-  KS_MPEG2Profile_Simple             = 0,
-  KS_MPEG2Profile_Main               = 1,
-  KS_MPEG2Profile_SNRScalable        = 2,
-  KS_MPEG2Profile_SpatiallyScalable  = 3,
-  KS_MPEG2Profile_High               = 4
-} KS_MPEG2Profile;
-````
-
-
 ## -enum-fields
 
 
@@ -98,12 +84,11 @@ Similar to <b>KS_MPEG2Profile_Main</b>, with spatial scalability, scalable signa
 
 ## -see-also
 
-<a href="..\ksmedia\ns-ksmedia-tagks_mpegvideoinfo2.md">KS_MPEGVIDEOINFO2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567667">KS_MPEGVIDEOINFO2</a>
  
 
  
-
 

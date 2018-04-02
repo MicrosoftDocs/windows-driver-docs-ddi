@@ -53,16 +53,6 @@ req.product: Windows 10 or later.
 The PDEV_HOSTFONT_ENABLED structure indicates whether the Hostfont feature is enabled.
 
 
-## -syntax
-
-
-````
-typedef struct _PDEV_HOSTFONT_ENABLED {
-  BOOL bHostfontEnabled;
-} PDEV_HOSTFONT_ENABLED;
-````
-
-
 ## -struct-fields
 
 
@@ -102,12 +92,11 @@ a Printer Font Binary (PFB)
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553189">IPrintOemPS2::GetPDEVAdjustment</a>
-
-
-
  
 
  
-
 

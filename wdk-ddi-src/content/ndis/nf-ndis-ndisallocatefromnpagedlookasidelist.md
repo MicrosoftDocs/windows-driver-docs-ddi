@@ -7,7 +7,7 @@ old-location: netvista\ndisallocatefromnpagedlookasidelist.htm
 old-project: netvista
 ms.assetid: df690a05-359d-44f0-b063-4fc21d6c4d76
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: NdisAllocateFromNPagedLookasideList, NdisAllocateFromNPagedLookasideList macro [Network Drivers Starting with Windows Vista], ndis/NdisAllocateFromNPagedLookasideList, ndis_lookaside_ref_455986e8-a34c-44df-b454-87416d8eccf7.xml, netvista.ndisallocatefromnpagedlookasidelist
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -54,16 +54,6 @@ The
   head. If the lookaside list currently is empty, an entry is allocated from nonpaged pool.
 
 
-## -syntax
-
-
-````
-PVOID NdisAllocateFromNPagedLookasideList(
-  [in] PNPAGED_LOOKASIDE_LIST Lookaside
-);
-````
-
-
 ## -parameters
 
 
@@ -82,7 +72,7 @@ TBD
 
 A pointer to the head of the lookaside list from which the entry will be allocated. The caller
      already initialized the list head with the 
-     <a href="..\ndis\nf-ndis-ndisinitializenpagedlookasidelist.md">
+     <a href="https://msdn.microsoft.com/d240f2cc-18a6-4c2d-889f-e25a9486d5fe">
      NdisInitializeNPagedLookasideList</a> function.
 
 
@@ -96,7 +86,7 @@ If the lookaside list is not empty,
     <b>NdisAllocateFromNPagedLookasideList</b> either calls the 
     <i>Allocate</i> function, specified in the 
     <i>Allocate</i> parameter of the 
-    <a href="..\ndis\nf-ndis-ndisinitializenpagedlookasidelist.md">
+    <a href="https://msdn.microsoft.com/d240f2cc-18a6-4c2d-889f-e25a9486d5fe">
     NdisInitializeNPagedLookasideList</a> function, that the caller specified at list initialization, if
     any, or it allocates an entry on behalf of the caller. 
     <b>NdisAllocateFromNPagedLookasideList</b> returns <b>NULL</b> if the caller-supplied 
@@ -109,7 +99,7 @@ All entries that are allocated from a nonpaged lookaside list are of a fixed siz
     demand. For example, any connection-oriented NDIS driver might allocate the VC context areas that it
     needs from a lookaside list as VCs are created and release each such entry back to the lookaside list
     with the 
-    <a href="..\ndis\nf-ndis-ndisfreetonpagedlookasidelist.md">
+    <a href="https://msdn.microsoft.com/2405a405-177a-420a-9628-a340e0d0acb3">
     NdisFreeToNPagedLookasideList</a> function as each VC is torn down.
 
 
@@ -117,23 +107,22 @@ All entries that are allocated from a nonpaged lookaside list are of a fixed siz
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisinitializenpagedlookasidelist.md">
-   NdisInitializeNPagedLookasideList</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisfreetonpagedlookasidelist.md">
-   NdisFreeToNPagedLookasideList</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisdeletenpagedlookasidelist.md">
+<a href="https://msdn.microsoft.com/0622d3db-8d28-4c15-a3d8-1092487b8096">
    NdisDeleteNPagedLookasideList</a>
 
 
 
+<a href="https://msdn.microsoft.com/2405a405-177a-420a-9628-a340e0d0acb3">
+   NdisFreeToNPagedLookasideList</a>
+
+
+
+<a href="https://msdn.microsoft.com/d240f2cc-18a6-4c2d-889f-e25a9486d5fe">
+   NdisInitializeNPagedLookasideList</a>
  
 
  
-
 

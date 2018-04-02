@@ -52,18 +52,6 @@ req.typenames: PosDeviceBasicsType
 This structure indicates the type of device, version, and recommended buffer size as specified by the driver.
 
 
-## -syntax
-
-
-````
-typedef struct _PosDeviceBasicsType {
-  UINT32        Version;
-  PosDeviceType DeviceType;
-  UINT32        RecommendedBufferSize;
-} PosDeviceBasicsType;
-````
-
-
 ## -struct-fields
 
 
@@ -76,7 +64,7 @@ Contains the major and minor version of the POS driver interface. The top 16 bit
 
 ### -field DeviceType
 
-Indicates the <a href="..\pointofservicecommontypes\ne-pointofservicecommontypes-_posdevicetype.md">PosDeviceType</a> of the POS device (for example, a barcode scanner or a magnetic stripe reader).
+Indicates the <a href="https://msdn.microsoft.com/library/windows/hardware/dn772230">PosDeviceType</a> of the POS device (for example, a barcode scanner or a magnetic stripe reader).
 
 
 ### -field RecommendedBufferSize

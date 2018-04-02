@@ -7,7 +7,7 @@ old-location: dtf\iwdtfsystemaction2_poweranalyzetracebyfile.htm
 old-project: dtf
 ms.assetid: B8C422C0-7E42-4BE7-8919-A4ABF33E8D5E
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 3/29/2018
 ms.keywords: IWDTFSystemAction2, IWDTFSystemAction2 interface [Windows Device Testing Framework], PowerAnalyzeTraceByFile method, IWDTFSystemAction2::PowerAnalyzeTraceByFile, Microsoft.WDTF.IWDTFSystemAction2.PowerAnalyzeTraceByFile, Microsoft::WDTF::IWDTFSystemAction2::PowerAnalyzeTraceByFile, PowerAnalyzeTraceByFile method [Windows Device Testing Framework], PowerAnalyzeTraceByFile method [Windows Device Testing Framework], IWDTFSystemAction2 interface, PowerAnalyzeTraceByFile,IWDTFSystemAction2.PowerAnalyzeTraceByFile, dtf.iwdtfsystemaction2_poweranalyzetracebyfile, wdtfsystemaction/IWDTFSystemAction2::PowerAnalyzeTraceByFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -54,16 +54,6 @@ Analyzes a power trace session that has already been collected and stored in the
     work on Windows 8 and above.
 
 
-## -syntax
-
-
-````
-HRESULT PowerAnalyzeTraceByFile(
-  [in] BSTR EventFilePath
-);
-````
-
-
 ## -parameters
 
 
@@ -86,12 +76,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="..\wdtfsystemaction\nn-wdtfsystemaction-iwdtfsystemaction2.md">IWDTFSystemAction2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439302">IWDTFSystemAction2</a>
  
 
  
-
 

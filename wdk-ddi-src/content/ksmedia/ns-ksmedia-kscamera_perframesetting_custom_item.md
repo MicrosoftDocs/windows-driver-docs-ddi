@@ -52,18 +52,6 @@ req.typenames: KSCAMERA_PERFRAMESETTING_CUSTOM_ITEM, *PKSCAMERA_PERFRAMESETTING_
 This structure contains a custom item.
 
 
-## -syntax
-
-
-````
-typedef struct {
-  ULONG Size;
-  ULONG Reserved;
-  GUID  Id;
-} KSCAMERA_PERFRAMESETTING_CUSTOM_ITEM, *PKSCAMERA_PERFRAMESETTING_CUSTOM_ITEM;
-````
-
-
 ## -struct-fields
 
 

@@ -7,7 +7,7 @@ old-location: dtf\iwdtfsystemaction2_isrestarted.htm
 old-project: dtf
 ms.assetid: EF89D020-BA9F-4698-B82A-7671DBE3FDE8
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 3/29/2018
 ms.keywords: IWDTFSystemAction2, IWDTFSystemAction2 interface [Windows Device Testing Framework], IsRestarted property, IWDTFSystemAction2.IsRestarted, IWDTFSystemAction2::get_IsRestarted, IsRestarted property [Windows Device Testing Framework], IsRestarted property [Windows Device Testing Framework], IWDTFSystemAction2 interface, Microsoft.WDTF.IWDTFSystemAction2.IsRestarted, Microsoft::WDTF::IWDTFSystemAction2::IsRestarted, dtf.iwdtfsystemaction2_isrestarted, get_IsRestarted,IWDTFSystemAction2.get_IsRestarted, wdtfsystemaction/IWDTFSystemAction2::IsRestarted, wdtfsystemaction/IWDTFSystemAction2::get_IsRestarted
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,27 +58,16 @@ Gets a value that indicates whether the test script restarted as a result of a c
 This property is read-only.
 
 
-## -syntax
-
-
-````
-HRESULT get_IsRestarted(
-  [out, retval] VARIANT_BOOL *pbIsRestarted
-);
-````
-
-
 ## -parameters
 
 
 ## -see-also
 
-<a href="..\wdtfsystemaction\nn-wdtfsystemaction-iwdtfsystemaction2.md">IWDTFSystemAction2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439302">IWDTFSystemAction2</a>
  
 
  
-
 

@@ -55,49 +55,6 @@ req.product: Windows 10 or later.
 The <b>WDF_REQUEST_PARAMETERS</b> structure receives parameters that are associated with an I/O request.
 
 
-## -syntax
-
-
-````
-typedef struct _WDF_REQUEST_PARAMETERS {
-  USHORT           Size;
-  UCHAR            MinorFunction;
-  WDF_REQUEST_TYPE Type;
-  union {
-    struct {
-      PIO_SECURITY_CONTEXT     SecurityContext;
-      ULONG                    Options;
-      USHORT POINTER_ALIGNMENT FileAttributes;
-      USHORT                   ShareAccess;
-      ULONG POINTER_ALIGNMENT  EaLength;
-    } Create;
-    struct {
-      size_t                  Length;
-      ULONG POINTER_ALIGNMENT Key;
-      LONGLONG                DeviceOffset;
-    } Read;
-    struct {
-      size_t                  Length;
-      ULONG POINTER_ALIGNMENT Key;
-      LONGLONG                DeviceOffset;
-    } Write;
-    struct {
-      size_t                   OutputBufferLength;
-      size_t POINTER_ALIGNMENT InputBufferLength;
-      ULONG POINTER_ALIGNMENT  IoControlCode;
-      PVOID                    Type3InputBuffer;
-    } DeviceIoControl;
-    struct {
-      PVOID                   Arg1;
-      PVOID                   Arg2;
-      ULONG POINTER_ALIGNMENT IoControlCode;
-      PVOID                   Arg4;
-    } Others;
-  } Parameters;
-} WDF_REQUEST_PARAMETERS, *PWDF_REQUEST_PARAMETERS;
-````
-
-
 ## -struct-fields
 
 
@@ -115,12 +72,12 @@ The IRP minor function code, if any, that is associated with the I/O request. So
 
 ### -field Type
 
-A <a href="..\wdfrequest\ne-wdfrequest-_wdf_request_type.md">WDF_REQUEST_TYPE</a>-typed value that identifies the I/O request's type. 
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff552503">WDF_REQUEST_TYPE</a>-typed value that identifies the I/O request's type. 
 
 
 ### -field Parameters
 
-Parameters that are unique for each IRP major function code. This member contains a subset of the Parameters member of the <a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a> structure. 
+Parameters that are unique for each IRP major function code. This member contains a subset of the Parameters member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550659">IO_STACK_LOCATION</a> structure. 
 
 
 
@@ -250,27 +207,26 @@ Use of this member is defined by the driver stack.
 
 
 
-The <b>WDF_REQUEST_PARAMETERS</b> structure is used as input to <a href="..\wdfrequest\nf-wdfrequest-wdfrequestgetparameters.md">WdfRequestGetParameters</a>. Drivers must call <a href="..\wdfrequest\nf-wdfrequest-wdf_request_parameters_init.md">WDF_REQUEST_PARAMETERS_INIT</a> to initialize this structure before they call <b>WdfRequestGetParameters</b>.
+The <b>WDF_REQUEST_PARAMETERS</b> structure is used as input to <a href="https://msdn.microsoft.com/library/windows/hardware/ff549969">WdfRequestGetParameters</a>. Drivers must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff552476">WDF_REQUEST_PARAMETERS_INIT</a> to initialize this structure before they call <b>WdfRequestGetParameters</b>.
 
 
 
 
 ## -see-also
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestgetparameters.md">WdfRequestGetParameters</a>
 
 
 
-<a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550659">IO_STACK_LOCATION</a>
 
 
 
-<a href="..\wdfrequest\nf-wdfrequest-wdf_request_parameters_init.md">WDF_REQUEST_PARAMETERS_INIT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552476">WDF_REQUEST_PARAMETERS_INIT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549969">WdfRequestGetParameters</a>
  
 
  
-
 

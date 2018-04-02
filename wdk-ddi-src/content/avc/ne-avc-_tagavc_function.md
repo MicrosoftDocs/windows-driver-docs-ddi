@@ -186,22 +186,6 @@ This function code is available to both peer and virtual instances of <i>avc.sys
 
 ## -see-also
 
-<a href="..\avc\ns-avc-_avc_ext_plug_counts.md">AVC_EXT_PLUG_COUNTS</a>
-
-
-
-<a href="..\avc\ns-avc-_avc_peer_do_list.md">AVC_PEER_DO_LIST</a>
-
-
-
-<a href="..\avc\ns-avc-_avc_preconnect_info.md">AVC_PRECONNECT_INFO</a>
-
-
-
-<a href="..\avc\ns-avc-_avc_pin_descriptor.md">AVC_PIN_DESCRIPTOR</a>
-
-
-
 <a href="..\avc\ns-avc-_avc_command_irb.md">AVC_COMMAND_IRB</a>
 
 
@@ -210,7 +194,23 @@ This function code is available to both peer and virtual instances of <i>avc.sys
 
 
 
-<a href="..\avc\ns-avc-_avc_pin_id.md">AVC_PIN_ID</a>
+<a href="..\avc\ns-avc-_avc_setconnect_info.md">AVC_SETCONNECT_INFO</a>
+
+
+
+<a href="..\avc\ns-avc-_avc_pin_descriptor.md">AVC_PIN_DESCRIPTOR</a>
+
+
+
+<a href="..\avc\ns-avc-_avc_ext_plug_counts.md">AVC_EXT_PLUG_COUNTS</a>
+
+
+
+<a href="..\avc\ns-avc-_avc_preconnect_info.md">AVC_PRECONNECT_INFO</a>
+
+
+
+<a href="..\avc\ns-avc-_avc_subunit_info_block.md">AVC_SUBUNIT_INFO_BLOCK</a>
 
 
 
@@ -218,7 +218,7 @@ This function code is available to both peer and virtual instances of <i>avc.sys
 
 
 
-<a href="..\avc\ns-avc-_avc_setconnect_info.md">AVC_SETCONNECT_INFO</a>
+<a href="..\avc\ns-avc-_avc_peer_do_list.md">AVC_PEER_DO_LIST</a>
 
 
 
@@ -226,7 +226,7 @@ This function code is available to both peer and virtual instances of <i>avc.sys
 
 
 
-<a href="..\avc\ns-avc-_avc_subunit_info_block.md">AVC_SUBUNIT_INFO_BLOCK</a>
+<a href="..\avc\ns-avc-_avc_pin_id.md">AVC_PIN_ID</a>
 
 
 

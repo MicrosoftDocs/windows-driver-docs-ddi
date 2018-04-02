@@ -7,7 +7,7 @@ old-location: display\dxgk_multiplaneoverlaycaps.htm
 old-project: display
 ms.assetid: E3F590EA-2B3B-464B-9D72-708B24CA3052
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGK_MULTIPLANEOVERLAYCAPS, DXGK_MULTIPLANEOVERLAYCAPS structure [Display Devices], _DXGK_MULTIPLANEOVERLAYCAPS, d3dkmddi/DXGK_MULTIPLANEOVERLAYCAPS, display.dxgk_multiplaneoverlaycaps
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,32 +50,6 @@ req.typenames: DXGK_MULTIPLANEOVERLAYCAPS
 
 
 Multiplane overlay capabilities returned by the DxgkDdiGetMultiPlaneOverlayCaps function.
-
-
-## -syntax
-
-
-````
-typedef struct _DXGK_MULTIPLANEOVERLAYCAPS {
-  union {
-    struct {
-      UINT Rotation  :1;
-      UINT RotationWithoutIndependentFlip  :1;
-      UINT VerticalFlip  :1;
-      UINT HorizontalFlip  :1;
-      UINT StretchRGB  :1;
-      UINT StretchYUV  :1;
-      UINT BilinearFilter  :1;
-      UINT HighFilter  :1;
-      UINT Shared  :1;
-      UINT Immediate  :1;
-      UINT Plane0ForVirtualModeOnly  :1;
-      UINT Reserved  :21;
-    };
-    UINT Value;
-  };
-} DXGK_MULTIPLANEOVERLAYCAPS;
-````
 
 
 ## -struct-fields

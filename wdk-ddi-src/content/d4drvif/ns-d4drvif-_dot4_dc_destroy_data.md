@@ -52,16 +52,6 @@ req.typenames: DOT4_DC_DESTROY_DATA, *PDOT4_DC_DESTROY_DATA
 This topic describes the <b>DOT4_DC_DESTROY_DATA</b> structure.
 
 
-## -syntax
-
-
-````
-typedef struct _DOT4_DC_DESTROY_DATA {
-  unsigned char bHsid;
-} DOT4_DC_DESTROY_DATA, *PDOT4_DC_DESTROY_DATA;
-````
-
-
 ## -struct-fields
 
 

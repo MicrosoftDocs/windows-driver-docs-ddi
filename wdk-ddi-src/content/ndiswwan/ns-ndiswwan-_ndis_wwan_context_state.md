@@ -7,7 +7,7 @@ old-location: netvista\ndis_wwan_context_state.htm
 old-project: netvista
 ms.assetid: 7918ee03-c1cb-4a38-8773-4a01832357d2
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*PNDIS_WWAN_CONTEXT_STATE, NDIS_WWAN_CONTEXT_STATE, NDIS_WWAN_CONTEXT_STATE structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_CONTEXT_STATE, PNDIS_WWAN_CONTEXT_STATE structure pointer [Network Drivers Starting with Windows Vista], WwanRef_87098fc7-4dbd-4331-81a4-53d425cc0bb0.xml, _NDIS_WWAN_CONTEXT_STATE, ndiswwan/NDIS_WWAN_CONTEXT_STATE, ndiswwan/PNDIS_WWAN_CONTEXT_STATE, netvista.ndis_wwan_context_state"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,18 +51,6 @@ req.typenames: NDIS_WWAN_CONTEXT_STATE, *PNDIS_WWAN_CONTEXT_STATE
 
 The NDIS_WWAN_CONTEXT_STATE structure represents the Packet Data Protocol (PDP) context state of the
   MB device.
-
-
-## -syntax
-
-
-````
-typedef struct _NDIS_WWAN_CONTEXT_STATE {
-  NDIS_OBJECT_HEADER Header;
-  WWAN_STATUS        uStatus;
-  WWAN_CONTEXT_STATE ContextState;
-} NDIS_WWAN_CONTEXT_STATE, *PNDIS_WWAN_CONTEXT_STATE;
-````
 
 
 ## -struct-fields
@@ -118,7 +106,7 @@ sizeof(NDIS_WWAN_CONTEXT_STATE)
  
 
 For more information about these members, see 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>.
 
 
 ### -field uStatus
@@ -325,22 +313,21 @@ The operation failed because the context identified by
 ### -field ContextState
 
 A formatted 
-     <a href="..\wwan\ns-wwan-_wwan_context_state.md">WWAN_CONTEXT_STATE</a> object that
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571202">WWAN_CONTEXT_STATE</a> object that
      represents the Packet Data Protocol (PDP) context state of the device.
 
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_context_state.md">WWAN_CONTEXT_STATE</a>
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571202">WWAN_CONTEXT_STATE</a>
  
 
  
-
 

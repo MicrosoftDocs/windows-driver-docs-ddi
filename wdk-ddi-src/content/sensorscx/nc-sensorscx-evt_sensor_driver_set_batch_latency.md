@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 This callback function sets the batch latency for a specified sensor.
 
 
-## -prototype
-
-
-````
-NTSTATUS EvtSensorSetBatchLatency(
-  _In_ SENSOROBJECT Sensor,
-  _In_ ULONG        BatchLatencyMs
-);
-````
-
-
 ## -parameters
 
 
@@ -96,7 +85,7 @@ This function returns STATUS_SUCCESS when completed successfully.
 
 The driver can set the batch latency to a value that is less than or equal to <i>BatchLatencyMs</i>, depending on buffer availability. For information about the sensor properties that a data batching sensor driver must report, see <a href="https://msdn.microsoft.com/library/windows/hardware/dn957018">Common sensor properties</a>.
 
-It is important to note that there is no change implied to sensor data delivery methods and events, due to data batching.  When data batching latency expires, the driver will call <a href="..\sensorscx\nf-sensorscx-sensorscxsensordataready.md">SensorsCxSensorDataReady</a> repeatedly to deliver all the buffered data samples, one at a time. The data samples are sent, along with the timestamp information in their <b>PKEY_SensorData_Timestamp</b>  data fields. The timestamp information (of data type VT_FILETIME) shows the time  at which a sample was taken.
+It is important to note that there is no change implied to sensor data delivery methods and events, due to data batching.  When data batching latency expires, the driver will call <a href="https://msdn.microsoft.com/library/windows/hardware/dn957088">SensorsCxSensorDataReady</a> repeatedly to deliver all the buffered data samples, one at a time. The data samples are sent, along with the timestamp information in their <b>PKEY_SensorData_Timestamp</b>  data fields. The timestamp information (of data type VT_FILETIME) shows the time  at which a sample was taken.
 
 For more information about the VT_FILETIME data type, see <a href="http://go.microsoft.com/fwlink/p/?linkid=313395">MSDN PROPVARIANT structure</a>.
 
@@ -105,7 +94,6 @@ For more information about the VT_FILETIME data type, see <a href="http://go.mic
 
 ## -see-also
 
-<a href="..\sensorscx\nf-sensorscx-sensorscxsensordataready.md">SensorsCxSensorDataReady</a>
 
 
 
@@ -113,8 +101,8 @@ For more information about the VT_FILETIME data type, see <a href="http://go.mic
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn957088">SensorsCxSensorDataReady</a>
  
 
  
-
 

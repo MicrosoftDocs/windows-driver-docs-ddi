@@ -52,19 +52,6 @@ req.product: Windows 10 or later.
 
 
 
-## -syntax
-
-
-````
-BOOL APIENTRY OEMGetInfo(
-        DWORD                        dwMode,
-  _Out_ _writes_bytes_(cbSize) PVOID pBuffer,
-        DWORD                        cbSize,
-  _Out_ DWORD                        pcbNeeded
-);
-````
-
-
 ## -parameters
 
 

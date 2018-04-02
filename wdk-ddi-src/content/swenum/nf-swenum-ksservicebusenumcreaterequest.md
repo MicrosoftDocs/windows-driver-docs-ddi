@@ -56,17 +56,6 @@ req.product: Windows 10 or later.
 The <b>KsServiceBusEnumCreateRequest</b> function services IRP_MJ_CREATE requests for the software bus device interface. 
 
 
-## -syntax
-
-
-````
-NTSTATUS KsServiceBusEnumCreateRequest(
-  _In_    PDEVICE_OBJECT DeviceObject,
-  _Inout_ PIRP           Irp
-);
-````
-
-
 ## -parameters
 
 
@@ -102,12 +91,11 @@ Returns STATUS_SUCCESS if successful. Otherwise. it returns STATUS_OBJECT_NAME_N
 
 ## -see-also
 
-<a href="..\swenum\nf-swenum-ksservicebusenumpnprequest.md">KsServiceBusEnumPnpRequest</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566816">KsServiceBusEnumPnpRequest</a>
  
 
  
-
 

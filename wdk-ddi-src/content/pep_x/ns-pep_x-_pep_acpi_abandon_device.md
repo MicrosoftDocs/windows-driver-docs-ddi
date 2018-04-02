@@ -7,7 +7,7 @@ old-location: kernel\pep_acpi_abandon_device.htm
 old-project: kernel
 ms.assetid: A8D0FA24-664F-4A2B-BF08-300D6E30F7E2
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: "*PPEP_ACPI_ABANDON_DEVICE, PEP_ACPI_ABANDON_DEVICE, PEP_ACPI_ABANDON_DEVICE structure [Kernel-Mode Driver Architecture], PPEP_ACPI_ABANDON_DEVICE, PPEP_ACPI_ABANDON_DEVICE structure pointer [Kernel-Mode Driver Architecture], _PEP_ACPI_ABANDON_DEVICE, kernel.pep_acpi_abandon_device, pepfx/PEP_ACPI_ABANDON_DEVICE, pepfx/PPEP_ACPI_ABANDON_DEVICE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,17 +52,6 @@ req.typenames: PEP_ACPI_ABANDON_DEVICE, *PPEP_ACPI_ABANDON_DEVICE, PEP_ACPI_ABAN
 The <b>PEP_ACPI_ABANDON_DEVICE</b> structure indicates whether the platform extension plug-in (PEP) accepts ownership of an abandoned device.
 
 
-## -syntax
-
-
-````
-typedef struct _PEP_ACPI_ABANDON_DEVICE {
-  PANSI_STRING AcpiDeviceName;
-  BOOLEAN      DeviceAccepted;
-} PEP_ACPI_ABANDON_DEVICE, *PPEP_ACPI_ABANDON_DEVICE;
-````
-
-
 ## -struct-fields
 
 
@@ -89,7 +78,6 @@ This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186657">PEP_NOTIFY_ACPI_ABANDON_DEVICE</a>
 
 
 
@@ -97,8 +85,8 @@ This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/
 
 
 
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186657">PEP_NOTIFY_ACPI_ABANDON_DEVICE</a>
  
 
  
-
 

@@ -52,16 +52,6 @@ req.product: Windows 10 or later.
 
 
 
-## -syntax
-
-
-````
-VOID APIENTRY OEMDisableDriver(
-   VOID 
-);
-````
-
-
 ## -parameters
 
 

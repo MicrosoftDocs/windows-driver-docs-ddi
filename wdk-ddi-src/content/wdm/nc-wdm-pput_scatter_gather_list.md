@@ -7,7 +7,7 @@ old-location: kernel\putscattergatherlist.htm
 old-project: kernel
 ms.assetid: e10091c0-0da6-4acd-8104-9d353262836a
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: PPUT_SCATTER_GATHER_LIST, PutScatterGatherList, PutScatterGatherList callback function [Kernel-Mode Driver Architecture], kdma_0f73e6d3-bf6c-4f2b-aff9-ae783b2130c5.xml, kernel.putscattergatherlist, ntddk/PutScatterGatherList
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,21 +53,6 @@ req.product: Windows 10 or later.
 The <b>PutScatterGatherList</b> routine frees the previously allocated map registers and scatter/gather list used in scatter/gather DMA. 
 
 
-## -prototype
-
-
-````
-PPUT_SCATTER_GATHER_LIST PutScatterGatherList;
-
-VOID PutScatterGatherList(
-  _In_ PDMA_ADAPTER         DmaAdapter,
-  _In_ PSCATTER_GATHER_LIST ScatterGather,
-  _In_ BOOLEAN              WriteToDevice
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -75,12 +60,12 @@ VOID PutScatterGatherList(
 
 ### -param DmaAdapter [in]
 
-Pointer to the <a href="..\wdm\ns-wdm-_dma_adapter.md">DMA_ADAPTER</a> structure returned by <a href="..\wdm\nf-wdm-iogetdmaadapter.md">IoGetDmaAdapter</a> that represents the bus-master adapter or DMA controller.
+Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff544062">DMA_ADAPTER</a> structure returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff549220">IoGetDmaAdapter</a> that represents the bus-master adapter or DMA controller.
 
 
 ### -param ScatterGather [in]
 
-Pointer to a <a href="..\wdm\ns-wdm-_scatter_gather_list.md">SCATTER_GATHER_LIST</a> structure previously returned by <a href="..\wdm\nc-wdm-pget_scatter_gather_list.md">GetScatterGatherList</a>. 
+Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff563664">SCATTER_GATHER_LIST</a> structure previously returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff546531">GetScatterGatherList</a>. 
 
 
 ### -param WriteToDevice [in]
@@ -103,38 +88,37 @@ None
 
 <b>PutScatterGatherList</b>
            is not a system routine that can be called directly by name. This routine is callable only by pointer from the address returned in a 
-          <a href="..\wdm\ns-wdm-_dma_operations.md">DMA_OPERATIONS</a>
-           structure. Drivers obtain the address of this routine by calling <a href="..\wdm\nf-wdm-iogetdmaadapter.md">IoGetDmaAdapter</a>.
+          <a href="https://msdn.microsoft.com/library/windows/hardware/ff544071">DMA_OPERATIONS</a>
+           structure. Drivers obtain the address of this routine by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff549220">IoGetDmaAdapter</a>.
 
-Drivers should call <b>PutScatterGatherList</b> after completing scatter/gather I/O. This routine flushes the adapter buffers, frees the map registers, and unmaps and frees the associated MDLs. Additionally, the routine frees the scatter/gather list if it was previously allocated by <a href="..\wdm\nc-wdm-pget_scatter_gather_list.md">GetScatterGatherList</a>. 
+Drivers should call <b>PutScatterGatherList</b> after completing scatter/gather I/O. This routine flushes the adapter buffers, frees the map registers, and unmaps and frees the associated MDLs. Additionally, the routine frees the scatter/gather list if it was previously allocated by <a href="https://msdn.microsoft.com/library/windows/hardware/ff546531">GetScatterGatherList</a>. 
 
 
 
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_dma_operations.md">DMA_OPERATIONS</a>
 
 
 
-<a href="..\wdm\ns-wdm-_dma_adapter.md">DMA_ADAPTER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544062">DMA_ADAPTER</a>
 
 
 
-<a href="..\wdm\nc-wdm-pget_scatter_gather_list.md">GetScatterGatherList</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544071">DMA_OPERATIONS</a>
 
 
 
-<a href="..\wdm\nf-wdm-iogetdmaadapter.md">IoGetDmaAdapter</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546531">GetScatterGatherList</a>
 
 
 
-<a href="..\wdm\ns-wdm-_scatter_gather_list.md">SCATTER_GATHER_LIST</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549220">IoGetDmaAdapter</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563664">SCATTER_GATHER_LIST</a>
  
 
  
-
 

@@ -49,22 +49,7 @@ req.typenames: PMI_EVENT_TYPE
 ## -description
 
 
-The PMI_EVENT_TYPE enumeration defines the type of PMI power meter event that is returned through the successful completion of an <a href="..\pmi\ni-pmi-ioctl_pmi_register_event_notify.md">IOCTL_PMI_REGISTER_EVENT_NOTIFY</a> request.
-
-
-## -syntax
-
-
-````
-typedef enum  { 
-  PmiCapabilitiesChangedEvent,
-  PmiThresholdEvent,
-  PmiConfigurationChangedEvent,
-  PmiBudgetEvent,
-  PmiAveragingIntervalChangedEvent,
-  PmiEventMax
-} PMI_EVENT_TYPE;
-````
+The PMI_EVENT_TYPE enumeration defines the type of PMI power meter event that is returned through the successful completion of an <a href="https://msdn.microsoft.com/library/windows/hardware/ff543847">IOCTL_PMI_REGISTER_EVENT_NOTIFY</a> request.
 
 
 ## -enum-fields
@@ -106,23 +91,22 @@ The maximum number of PMI event types.
 
 
 
-The <b>EventType</b> member of the <a href="..\pmi\ns-pmi-_pmi_event.md">PMI_EVENT</a> structure contains information about the type of PMI event data that is referenced by the <b>Event</b> member of that structure. This structure is returned through a successful completion of an <a href="..\pmi\ni-pmi-ioctl_pmi_register_event_notify.md">IOCTL_PMI_REGISTER_EVENT_NOTIFY</a> request.
+The <b>EventType</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff543876">PMI_EVENT</a> structure contains information about the type of PMI event data that is referenced by the <b>Event</b> member of that structure. This structure is returned through a successful completion of an <a href="https://msdn.microsoft.com/library/windows/hardware/ff543847">IOCTL_PMI_REGISTER_EVENT_NOTIFY</a> request.
 
 
 
 
 ## -see-also
 
-<a href="..\pmi\ns-pmi-_pmi_event.md">PMI_EVENT</a>
 
 
 
-<a href="..\pmi\ni-pmi-ioctl_pmi_register_event_notify.md">IOCTL_PMI_REGISTER_EVENT_NOTIFY</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543847">IOCTL_PMI_REGISTER_EVENT_NOTIFY</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543876">PMI_EVENT</a>
  
 
  
-
 

@@ -53,18 +53,6 @@ req.product: Windows 10 or later.
 The <code>IPrintOemDriverUI::DrvUpdateRegistrySetting</code> method is provided by the Unidrv and Pscript5 minidrivers so that user interface plug-ins can update device settings stored in the registry.
 
 
-## -syntax
-
-
-````
-HRESULT DrvUpgradeRegistrySetting(
-   HANDLE hPrinter,
-   PCSTR  pFeature,
-   PCSTR  pOption
-);
-````
-
-
 ## -parameters
 
 

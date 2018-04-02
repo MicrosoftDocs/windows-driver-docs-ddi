@@ -7,7 +7,7 @@ old-location: kernel\pnp_bus_information.htm
 old-project: kernel
 ms.assetid: 68372562-9af0-431d-90ae-c82678d9103e
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: "*PPNP_BUS_INFORMATION, PNP_BUS_INFORMATION, PNP_BUS_INFORMATION structure [Kernel-Mode Driver Architecture], PPNP_BUS_INFORMATION, PPNP_BUS_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _PNP_BUS_INFORMATION, kernel.pnp_bus_information, kstruct_c_a62e40f6-081a-4d2e-859b-28c98c2216f3.xml, wdm/PNP_BUS_INFORMATION, wdm/PPNP_BUS_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,19 +53,6 @@ req.product: Windows 10 or later.
 The <b>PNP_BUS_INFORMATION</b> structure describes a bus.
 
 
-## -syntax
-
-
-````
-typedef struct _PNP_BUS_INFORMATION {
-  GUID           BusTypeGuid;
-  INTERFACE_TYPE LegacyBusType;
-  INTERFACE_TYPE LegacyBusType;
-  ULONG          BusNumber;
-} PNP_BUS_INFORMATION, *PPNP_BUS_INFORMATION;
-````
-
-
 ## -struct-fields
 
 
@@ -82,12 +69,11 @@ typedef struct _PNP_BUS_INFORMATION {
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551654">IRP_MN_QUERY_BUS_INFORMATION</a>
-
-
-
  
 
  
-
 

@@ -52,16 +52,6 @@ req.typenames: KSPROPERTY_CAMERACONTROL_FLASH
 Used to specify camera flash control.
 
 
-## -syntax
-
-
-````
-typedef enum  { 
-  KSPROPERTY_CAMERACONTROL_FLASH_PROPERTY_ID  = 0
-} KSPROPERTY_CAMERACONTROL_FLASH;
-````
-
-
 ## -enum-fields
 
 
@@ -74,12 +64,11 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/jj156041">KSPRO
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/jj156041">KSPROPERTY_CAMERACONTROL_FLASH_PROPERTY</a>
-
-
-
  
 
  
-
 

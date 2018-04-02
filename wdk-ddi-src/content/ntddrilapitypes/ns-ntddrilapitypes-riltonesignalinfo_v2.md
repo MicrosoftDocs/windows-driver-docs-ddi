@@ -7,7 +7,7 @@ old-location: netvista\riltonesignalinfo_v2.htm
 old-project: netvista
 ms.assetid: e0c40d65-d290-4fae-9fa7-57a9bf047f13
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*LPRILTONESIGNALINFO, *LPRILTONESIGNALINFO_V2, RILTONESIGNALINFO, RILTONESIGNALINFO_V2, RILTONESIGNALINFO_V2 structure [Network Drivers Starting with Windows Vista], netvista.riltonesignalinfo_v2, ntddrilapitypes/RILTONESIGNALINFO_V2"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,21 +50,6 @@ req.typenames: RILTONESIGNALINFO_V2, *LPRILTONESIGNALINFO_V2, RILTONESIGNALINFO,
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef struct _RILTONESIGNALINFO_V2 {
-  DWORD                 cbSize;
-  DWORD                 dwParams;
-  DWORD                 dwExecutor;
-  RIL3GPPTONE           dwGPPTone;
-  RIL3GPP2TONE          dwGPP2Tone;
-  RIL3GPP2ISDNALERTING  dwGPP2IsdnAlerting;
-} RILTONESIGNALINFO_V2, RILTONESIGNALINFO_V2;
-````
 
 
 ## -struct-fields

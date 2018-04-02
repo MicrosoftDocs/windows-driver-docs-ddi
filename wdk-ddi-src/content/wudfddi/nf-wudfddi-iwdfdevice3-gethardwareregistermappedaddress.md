@@ -55,16 +55,6 @@ req.product: Windows 10 or later.
 A driver calls <b>GetHardwareRegisterMappedAddress</b> to get the user-mode mapped address of the memory resource it earlier mapped using <a href="https://msdn.microsoft.com/library/windows/hardware/hh451225">MapIoSpace</a>.
 
 
-## -syntax
-
-
-````
-PVOID GetHardwareRegisterMappedAddress(
-  [in] PVOID *PseudoBaseAddress
-);
-````
-
-
 ## -parameters
 
 
@@ -101,12 +91,11 @@ If you do use <b>GetHardwareRegisterMappedAddress</b>, you must set the <b>UmdfR
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfdevice3.md">IWDFDevice3</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451197">IWDFDevice3</a>
  
 
  
-
 

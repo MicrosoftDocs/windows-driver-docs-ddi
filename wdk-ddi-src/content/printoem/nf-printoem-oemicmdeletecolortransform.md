@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 The <code>OEMIcmDeleteColorTransform</code> function deletes the specified color transform.
 
 
-## -syntax
-
-
-````
-BOOL APIENTRY OEMIcmDeleteColorTransform(
-   DHPDEV dhpdev,
-   HANDLE hcmXform
-);
-````
-
-
 ## -parameters
 
 

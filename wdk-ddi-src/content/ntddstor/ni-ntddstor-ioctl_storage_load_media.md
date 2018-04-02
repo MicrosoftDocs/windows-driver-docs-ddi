@@ -7,7 +7,7 @@ old-location: storage\ioctl_storage_load_media.htm
 old-project: storage
 ms.assetid: 137ebbec-53f7-4bf6-b43b-2c736d66eb97
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_STORAGE_LOAD_MEDIA, IOCTL_STORAGE_LOAD_MEDIA control code [Storage Devices], k307_730c4c03-9d36-406b-8965-270aa539d0ca.xml, ntddstor/IOCTL_STORAGE_LOAD_MEDIA, storage.ioctl_storage_load_media
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.typenames: STORAGE_ZONE_CONDITION, *PSTORAGE_ZONE_CONDITION
 
 
 
-Causes media to be loaded in a device that the caller has opened for read or write access. If read or write access to the device is not necessary, the caller can improve performance by opening the device with FILE_READ_ATTRIBUTES and issuing an <a href="..\ntddstor\ni-ntddstor-ioctl_storage_load_media2.md">IOCTL_STORAGE_LOAD_MEDIA2</a> request instead. 
+Causes media to be loaded in a device that the caller has opened for read or write access. If read or write access to the device is not necessary, the caller can improve performance by opening the device with FILE_READ_ATTRIBUTES and issuing an <a href="https://msdn.microsoft.com/library/windows/hardware/ff560570">IOCTL_STORAGE_LOAD_MEDIA2</a> request instead. 
 
 
 
@@ -105,12 +105,11 @@ The <b>Information</b> field is set to zero. The <b>Status</b> field is set to S
 
 ## -see-also
 
-<a href="..\ntddstor\ni-ntddstor-ioctl_storage_load_media2.md">IOCTL_STORAGE_LOAD_MEDIA2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560570">IOCTL_STORAGE_LOAD_MEDIA2</a>
  
 
  
-
 

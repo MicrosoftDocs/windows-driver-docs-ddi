@@ -55,20 +55,6 @@ req.product: Windows 10 or later.
 A bus driver's <i>EvtDeviceEnableWakeAtBus</i> event callback function performs bus-level operations that enable one of the bus's devices to trigger a wake-up signal on the bus.
 
 
-## -prototype
-
-
-````
-EVT_WDF_DEVICE_ENABLE_WAKE_AT_BUS EvtDeviceEnableWakeAtBus;
-
-NTSTATUS EvtDeviceEnableWakeAtBus(
-  _In_ WDFDEVICE          Device,
-  _In_ SYSTEM_POWER_STATE PowerState
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -90,7 +76,7 @@ A SYSTEM_POWER_STATE-typed enumerator that identifies the system power state tha
 
 If the <i>EvtDeviceEnableWakeAtBus</i> callback function encountered no errors, it must return STATUS_SUCCESS or another status value for which <a href="https://msdn.microsoft.com/fe823930-e3ff-4c95-a640-bb6470c95d1d">NT_SUCCESS</a>(<i>status</i>) equals <b>TRUE</b>. Otherwise it must return a status value for which NT_SUCCESS(<i>status</i>) equals <b>FALSE</b>.
 
-If NT_SUCCESS(status) equals <b>FALSE</b>, the framework calls the driver's <a href="..\wdfpdo\nc-wdfpdo-evt_wdf_device_disable_wake_at_bus.md">EvtDeviceDisableWakeAtBus</a> callback function.
+If NT_SUCCESS(status) equals <b>FALSE</b>, the framework calls the driver's <a href="https://msdn.microsoft.com/91ae9694-5020-42ee-b882-a753e9bbe919">EvtDeviceDisableWakeAtBus</a> callback function.
 
  
 
@@ -149,12 +135,11 @@ The <b>EVT_WDF_DEVICE_ENABLE_WAKE_AT_BUS</b> function type is defined in the Wdf
 
 ## -see-also
 
-<a href="..\wdfpdo\nc-wdfpdo-evt_wdf_device_disable_wake_at_bus.md">EvtDeviceDisableWakeAtBus</a>
 
 
 
+<a href="https://msdn.microsoft.com/91ae9694-5020-42ee-b882-a753e9bbe919">EvtDeviceDisableWakeAtBus</a>
  
 
  
-
 

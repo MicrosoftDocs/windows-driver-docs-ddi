@@ -52,16 +52,6 @@ req.typenames: MPEG2_TRANSPORT_STRIDE, *PMPEG2_TRANSPORT_STRIDE
 The <b>GetRequestCount</b> method gets the number of requests in the request list.
 
 
-## -syntax
-
-
-````
-HRESULT GetRequestCount(
-  [out] ULONG *puCount
-);
-````
-
-
 ## -parameters
 
 
@@ -124,11 +114,10 @@ The <b>HRESULT</b> contains an error code corresponding to the last error.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545163">Bidirectional Communication Interfaces</a>
-
-
-
-<a href="..\bidispl\nn-bidispl-ibidirequestcontainer.md">IBidiRequestContainer</a>
 
 
 
@@ -136,8 +125,8 @@ The <b>HRESULT</b> contains an error code corresponding to the last error.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dd144970">IBidiRequestContainer</a>
  
 
  
-
 

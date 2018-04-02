@@ -7,7 +7,7 @@ old-location: audio\pcgettimeinterval.htm
 old-project: audio
 ms.assetid: 22afd9b9-9bed-45b0-afd8-1a5a34b9e6ad
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/19/2018
 ms.keywords: PcGetTimeInterval, PcGetTimeInterval function [Audio Devices], audio.pcgettimeinterval, audpc-routines_a68c0cf5-01b7-4e01-a719-f0bdea2d367f.xml, portcls/PcGetTimeInterval
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,16 +53,6 @@ req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 The <b>PcGetTimeInterval</b> function returns the time elapsed since a specified time. Time is measured in 100-nanosecond units.
 
 
-## -syntax
-
-
-````
-ULONGLONG PcGetTimeInterval(
-  _In_ ULONGLONG Since
-);
-````
-
-
 ## -parameters
 
 
@@ -86,7 +76,7 @@ Specifies the time from which to measure the interval. Typically, this function 
 
 
 
-The value that is specified in parameter <i>Since</i> is measured in 100-nanosecond units. If <i>Since</i> is zero, the time returned is the number of 100-nanosecond ticks since January 1, 1601. The time units are the same as those used to specify the system time in the <a href="..\wdm\nf-wdm-kequerysystemtime.md">KeQuerySystemTime</a> function.
+The value that is specified in parameter <i>Since</i> is measured in 100-nanosecond units. If <i>Since</i> is zero, the time returned is the number of 100-nanosecond ticks since January 1, 1601. The time units are the same as those used to specify the system time in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff553068">KeQuerySystemTime</a> function.
 
 The following macros from portcls.h are useful for converting seconds, milliseconds, and microseconds to 100-millisecond units:
 
@@ -125,12 +115,11 @@ and then checking to see whether the required interval has passed
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kequerysystemtime.md">KeQuerySystemTime</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553068">KeQuerySystemTime</a>
  
 
  
-
 

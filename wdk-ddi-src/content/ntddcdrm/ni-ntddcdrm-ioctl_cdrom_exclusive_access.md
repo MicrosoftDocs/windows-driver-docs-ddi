@@ -7,7 +7,7 @@ old-location: storage\ioctl_cdrom_exclusive_access.htm
 old-project: storage
 ms.assetid: 449936d8-9257-4044-a38f-e68d8e8d5c68
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_CDROM_EXCLUSIVE_ACCESS, IOCTL_CDROM_EXCLUSIVE_ACCESS control code [Storage Devices], k307_d22cebb2-93c2-4eb8-9c2f-6c6c559ee020.xml, ntddcdrm/IOCTL_CDROM_EXCLUSIVE_ACCESS, storage.ioctl_cdrom_exclusive_access
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -80,29 +80,29 @@ Depending on the operation that the caller requests, the caller must provide one
 <ul>
 <li>
 
-<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_exclusive_access.md">CDROM_EXCLUSIVE_ACCESS</a> (to report the access state of a CD-ROM device)
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551362">CDROM_EXCLUSIVE_ACCESS</a> (to report the access state of a CD-ROM device)
 
 </li>
 <li>
 
-<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_exclusive_lock.md">CDROM_EXCLUSIVE_LOCK</a> (to lock a CD-ROM device for exclusive access)
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551363">CDROM_EXCLUSIVE_LOCK</a> (to lock a CD-ROM device for exclusive access)
 
 </li>
 <li>
 
-<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_exclusive_access.md">CDROM_EXCLUSIVE_ACCESS</a> (to unlock a CD-ROM device that the application locked for exclusive access)
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551362">CDROM_EXCLUSIVE_ACCESS</a> (to unlock a CD-ROM device that the application locked for exclusive access)
 
 </li>
 </ul>
 
 ### -input-buffer-length
 
-The <b>Parameters.DeviceIoControl.InputBufferLength</b> member in the <a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a> structure indicates the size, in bytes, of the user-allocated input buffer.
+The <b>Parameters.DeviceIoControl.InputBufferLength</b> member in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550659">IO_STACK_LOCATION</a> structure indicates the size, in bytes, of the user-allocated input buffer.
 
 
 ### -output-buffer
 
-If the caller requests the exclusive access state of the CD-ROM device (<b>RequestType</b> = <b>ExclusiveAccessQueryState</b>), the CD-ROM class driver returns a <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_exclusive_lock_state.md">CDROM_EXCLUSIVE_LOCK_STATE</a>-type structure in the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer </b>whose <b>LockState</b> member indicates the access state of the device.
+If the caller requests the exclusive access state of the CD-ROM device (<b>RequestType</b> = <b>ExclusiveAccessQueryState</b>), the CD-ROM class driver returns a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551364">CDROM_EXCLUSIVE_LOCK_STATE</a>-type structure in the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer </b>whose <b>LockState</b> member indicates the access state of the device.
 
 
 ### -output-buffer-length
@@ -169,7 +169,7 @@ The caller sent a request with <b>RequestType</b> = <b>ExclusiveAccessUnlockDevi
 
 #### -STATUS_INVALID_DEVICE_STATE (Windows error code: ERROR_BAD_COMMAND)
 
-The caller attempted to lock a device while the file system driver was mounted on this device, without specifying that the class driver should suspend the check for a mounted file system driver. To suspend the check for a mounted file system driver, the caller must set the <b>Flags</b> member of <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_exclusive_access.md">CDROM_EXCLUSIVE_ACCESS</a> to 1. 
+The caller attempted to lock a device while the file system driver was mounted on this device, without specifying that the class driver should suspend the check for a mounted file system driver. To suspend the check for a mounted file system driver, the caller must set the <b>Flags</b> member of <a href="https://msdn.microsoft.com/library/windows/hardware/ff551362">CDROM_EXCLUSIVE_ACCESS</a> to 1. 
 
 
 #### -STATUS_INVALID_HANDLE (Windows error code: ERROR_INVALID_HANDLE)
@@ -193,39 +193,38 @@ The CD-ROM class driver returns this status code when one of the following two e
 
 <ul>
 <li>
-The <b>RequestType</b> that was specified is not a valid member of <a href="..\ntddcdrm\ne-ntddcdrm-_exclusive_access_request_type.md">EXCLUSIVE_ACCESS_REQUEST_TYPE</a>.  
+The <b>RequestType</b> that was specified is not a valid member of <a href="https://msdn.microsoft.com/library/windows/hardware/ff553766">EXCLUSIVE_ACCESS_REQUEST_TYPE</a>.  
 
 </li>
 <li>
-The caller name string in the <b>CallerName</b> member of <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_exclusive_lock.md">CDROM_EXCLUSIVE_LOCK</a> violates the naming convention. <b>CallerName</b> must be a <b>NULL</b>-terminated string that contains the following characters: alphanumerics (A - Z, a - z, 0 - 9), spaces, periods, commas, colons (:), semi-colons (;), hyphens (-), and underscores (_). The length of the string must be less than CDROM_EXCLUSIVE_CALLER_LENGTH bytes, including the <b>NULL</b> at the end of the string. 
+The caller name string in the <b>CallerName</b> member of <a href="https://msdn.microsoft.com/library/windows/hardware/ff551363">CDROM_EXCLUSIVE_LOCK</a> violates the naming convention. <b>CallerName</b> must be a <b>NULL</b>-terminated string that contains the following characters: alphanumerics (A - Z, a - z, 0 - 9), spaces, periods, commas, colons (:), semi-colons (;), hyphens (-), and underscores (_). The length of the string must be less than CDROM_EXCLUSIVE_CALLER_LENGTH bytes, including the <b>NULL</b> at the end of the string. 
 
 </li>
 </ul>
 
 ## -see-also
 
-<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_exclusive_lock.md">CDROM_EXCLUSIVE_LOCK</a>
 
 
 
-<a href="..\ntddcdrm\ne-ntddcdrm-_exclusive_access_request_type.md">EXCLUSIVE_ACCESS_REQUEST_TYPE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551362">CDROM_EXCLUSIVE_ACCESS</a>
 
 
 
-<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_exclusive_access.md">CDROM_EXCLUSIVE_ACCESS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551363">CDROM_EXCLUSIVE_LOCK</a>
 
 
 
-<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_exclusive_lock_state.md">CDROM_EXCLUSIVE_LOCK_STATE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551364">CDROM_EXCLUSIVE_LOCK_STATE</a>
 
 
 
-<a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553766">EXCLUSIVE_ACCESS_REQUEST_TYPE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550659">IO_STACK_LOCATION</a>
  
 
  
-
 

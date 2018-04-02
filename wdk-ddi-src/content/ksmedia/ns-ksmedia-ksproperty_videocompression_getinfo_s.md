@@ -52,22 +52,6 @@ req.typenames: KSPROPERTY_VIDEOCOMPRESSION_GETINFO_S, *PKSPROPERTY_VIDEOCOMPRESS
 The KSPROPERTY_VIDEOCOMPRESSION_GETINFO_S structure describes information about the video compression capabilities supported by a device.
 
 
-## -syntax
-
-
-````
-typedef struct {
-  KSPROPERTY Property;
-  ULONG      StreamIndex;
-  LONG       DefaultKeyFrameRate;
-  LONG       DefaultPFrameRate;
-  LONG       DefaultQuality;
-  LONG       NumberOfQualitySettings;
-  LONG       Capabilities;
-} KSPROPERTY_VIDEOCOMPRESSION_GETINFO_S, *PKSPROPERTY_VIDEOCOMPRESSION_GETINFO_S;
-````
-
-
 ## -struct-fields
 
 
@@ -105,25 +89,24 @@ Indicates the number of discrete compression quality settings the device support
 
 ### -field Capabilities
 
-Specifies the compression capabilities of the device. This member can be one or more (logically ORed) of the values from the <a href="..\ksmedia\ne-ksmedia-ks_compressioncaps.md">KS_CompressionCaps</a> enumeration.
+Specifies the compression capabilities of the device. This member can be one or more (logically ORed) of the values from the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567313">KS_CompressionCaps</a> enumeration.
 
 
 ## -see-also
+
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567313">KS_CompressionCaps</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567813">PROPSETID_VIDCAP_VIDEOCOMPRESSION</a>
-
-
-
-<a href="..\ksmedia\ne-ksmedia-ks_compressioncaps.md">KS_CompressionCaps</a>
-
-
-
  
 
  
-
 

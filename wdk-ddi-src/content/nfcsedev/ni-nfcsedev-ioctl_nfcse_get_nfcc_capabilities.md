@@ -71,7 +71,7 @@ None
 ### -output-buffer
 
 
-<a href="..\nfcsedev\ns-nfcsedev-_secure_element_nfcc_capabilities.md"> SECURE_ELEMENT_NFCC_CAPABILITIES</a> containing NFC controller capabilities.
+<a href="https://msdn.microsoft.com/D1F9588B-02D9-49B0-B45F-AF5C140D74E4"> SECURE_ELEMENT_NFCC_CAPABILITIES</a> containing NFC controller capabilities.
 
 
 ### -output-buffer-length

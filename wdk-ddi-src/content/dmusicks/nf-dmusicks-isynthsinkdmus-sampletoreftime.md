@@ -7,7 +7,7 @@ old-location: audio\isynthsinkdmus_sampletoreftime.htm
 old-project: audio
 ms.assetid: b2d54ee9-78aa-4799-a06d-6c79000d3e32
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/19/2018
 ms.keywords: ISynthSinkDMus, ISynthSinkDMus interface [Audio Devices], SampleToRefTime method, ISynthSinkDMus::SampleToRefTime, SampleToRefTime method [Audio Devices], SampleToRefTime method [Audio Devices], ISynthSinkDMus interface, SampleToRefTime,ISynthSinkDMus.SampleToRefTime, audio.isynthsinkdmus_sampletoreftime, audmp-routines_acfbec43-3c33-4d78-9d25-57e44afe0033.xml, dmusicks/ISynthSinkDMus::SampleToRefTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,17 +52,6 @@ req.typenames: DMUS_STREAM_TYPE
 The <code>SampleToRefTime</code> method converts a sample time to a reference time.
 
 
-## -syntax
-
-
-````
-NTSTATUS SampleToRefTime(
-  [in]  LONGLONG       llSampleTime,
-  [out] REFERENCE_TIME *prfTime
-);
-````
-
-
 ## -parameters
 
 
@@ -100,7 +89,6 @@ The calculation of reference time from sample time to reference time depends on 
 
 ## -see-also
 
-<a href="..\dmusicks\nn-dmusicks-isynthsinkdmus.md">ISynthSinkDMus</a>
 
 
 
@@ -108,8 +96,8 @@ The calculation of reference time from sample time to reference time depends on 
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537011">ISynthSinkDMus</a>
  
 
  
-
 

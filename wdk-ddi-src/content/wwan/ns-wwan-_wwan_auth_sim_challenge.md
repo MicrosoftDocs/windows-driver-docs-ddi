@@ -7,7 +7,7 @@ old-location: netvista\wwan_auth_sim_challenge.htm
 old-project: netvista
 ms.assetid: E07F3ED0-2F20-40D9-AAAE-49C81168B998
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*PWWAN_AUTH_SIM_CHALLENGE, PWWAN_AUTH_SIM_CHALLENGE, PWWAN_AUTH_SIM_CHALLENGE structure pointer [Network Drivers Starting with Windows Vista], WWAN_AUTH_SIM_CHALLENGE, WWAN_AUTH_SIM_CHALLENGE structure [Network Drivers Starting with Windows Vista], _WWAN_AUTH_SIM_CHALLENGE, netvista.wwan_auth_sim_challenge, wwan/PWWAN_AUTH_SIM_CHALLENGE, wwan/WWAN_AUTH_SIM_CHALLENGE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,19 +51,6 @@ req.product: Windows 10 or later.
 
 
 The WWAN_AUTH_SIM_CHALLENGE structure represents an authentication challenge using the SIM method.
-
-
-## -syntax
-
-
-````
-typedef struct _WWAN_AUTH_SIM_CHALLENGE {
-  BYTE  Rand1[WWAN_AUTH_RAND_LEN];
-  BYTE  Rand2[WWAN_AUTH_RAND_LEN];
-  BYTE  Rand3[WWAN_AUTH_RAND_LEN];
-  ULONG n;
-} WWAN_AUTH_SIM_CHALLENGE, *PWWAN_AUTH_SIM_CHALLENGE;
-````
 
 
 ## -struct-fields
@@ -112,19 +99,18 @@ The third 128-bit random number challenge value. This member represents a multi-
 
 The <b>n</b> member can be either <b>2</b> or <b>3</b>, according to RFC 4186. If it is set to <b>2</b>, use the <b>Rand1</b> and <b>Rand2</b> members. If it is set to <b>3</b>, then the <b>Rand1</b>, <b>Rand2</b>, and <b>Rand3</b> members.
 
-The <a href="..\wwan\ns-wwan-_wwan_auth_challenge.md">WWAN_AUTH_CHALLENGE</a> structure uses this structure.
+The <a href="https://msdn.microsoft.com/library/windows/hardware/hh464127">WWAN_AUTH_CHALLENGE</a> structure uses this structure.
 
 
 
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_auth_challenge.md">WWAN_AUTH_CHALLENGE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh464127">WWAN_AUTH_CHALLENGE</a>
  
 
  
-
 

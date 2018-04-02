@@ -52,14 +52,6 @@ req.typenames: PIPE_STATE
 The <b>KsGetObjectHandle</b> method retrieves a file handle to a KS object. 
 
 
-## -syntax
-
-
-````
-HANDLE KsGetObjectHandle();
-````
-
-
 ## -parameters
 
 
@@ -87,12 +79,11 @@ Applications can use the handle that <b>KsGetObjectHandle</b> returns to send co
 
 ## -see-also
 
-<a href="..\ksproxy\nf-ksproxy-kssynchronousdevicecontrol.md">KsSynchronousDeviceControl</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567142">KsSynchronousDeviceControl</a>
  
 
  
-
 

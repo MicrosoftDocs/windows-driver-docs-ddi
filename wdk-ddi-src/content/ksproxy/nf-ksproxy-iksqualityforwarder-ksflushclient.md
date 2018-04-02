@@ -52,16 +52,6 @@ req.typenames: PIPE_STATE
 The <b>KsFlushClient</b> method flushes information from a pin. 
 
 
-## -syntax
-
-
-````
-VOID KsFlushClient(
-  [in] IKsPin *Pin
-);
-````
-
-
 ## -parameters
 
 
@@ -69,7 +59,7 @@ VOID KsFlushClient(
 
 ### -param Pin [in]
 
-Pointer to the <a href="..\ksproxy\nn-ksproxy-ikspin.md">IKsPin</a> interface for the pin from which to flush information.
+Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559896">IKsPin</a> interface for the pin from which to flush information.
 
 
 ## -returns
@@ -83,12 +73,11 @@ None
 
 ## -see-also
 
-<a href="..\ksproxy\nn-ksproxy-ikspin.md">IKsPin</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559896">IKsPin</a>
  
 
  
-
 

@@ -55,18 +55,6 @@ req.product: Windows 10 or later.
 The <b>SetPolicy</b> method specifies the interrupt priority, processor affinity, and affinity policy for a specified interrupt.
 
 
-## -syntax
-
-
-````
-void SetPolicy(
-  [in] WDF_INTERRUPT_POLICY   Policy,
-  [in] WDF_INTERRUPT_PRIORITY Priority,
-  [in] KAFFINITY              TargetProcessorSet
-);
-````
-
-
 ## -parameters
 
 
@@ -74,12 +62,12 @@ void SetPolicy(
 
 ### -param Policy [in]
 
-A <a href="..\wudfinterrupt\ne-wudfinterrupt-_wdf_interrupt_policy.md">WDF_INTERRUPT_POLICY</a>-typed enumerator that specifies a processor affinity policy for the interrupt.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/hh464032">WDF_INTERRUPT_POLICY</a>-typed enumerator that specifies a processor affinity policy for the interrupt.
 
 
 ### -param Priority [in]
 
-A <a href="..\wudfinterrupt\ne-wudfinterrupt-_wdf_interrupt_priority.md">WDF_INTERRUPT_PRIORITY</a>-typed enumerator that specifies a priority for the interrupt.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff552355">WDF_INTERRUPT_PRIORITY</a>-typed enumerator that specifies a priority for the interrupt.
 
 
 ### -param TargetProcessorSet [in]
@@ -140,15 +128,10 @@ pIWdfInterrupt-&gt;SetPolicy(
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfinterrupt.md">IWDFInterrupt</a>
 
 
 
-<a href="..\wudfinterrupt\ne-wudfinterrupt-_wdf_interrupt_priority.md">WDF_INTERRUPT_PRIORITY</a>
-
-
-
-<a href="..\wudfinterrupt\ne-wudfinterrupt-_wdf_interrupt_policy.md">WDF_INTERRUPT_POLICY</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451283">IWDFInterrupt</a>
 
 
 
@@ -156,8 +139,12 @@ pIWdfInterrupt-&gt;SetPolicy(
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh464032">WDF_INTERRUPT_POLICY</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552355">WDF_INTERRUPT_PRIORITY</a>
  
 
  
-
 

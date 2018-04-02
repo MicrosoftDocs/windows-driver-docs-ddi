@@ -7,7 +7,7 @@ old-location: storage\sm_sendctpassthru_in.htm
 old-project: storage
 ms.assetid: a6dfb1a2-bfc2-4117-8a4e-f52979818289
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PSM_SendCTPassThru_IN, PSM_SendCTPassThru_IN, PSM_SendCTPassThru_IN structure pointer [Storage Devices], SM_SendCTPassThru_IN, SM_SendCTPassThru_IN structure [Storage Devices], _SM_SendCTPassThru_IN, hbapiwmi/PSM_SendCTPassThru_IN, hbapiwmi/SM_SendCTPassThru_IN, storage.sm_sendctpassthru_in, structs-Fibre_87514826-5f0e-4b59-a514-a4e14f60c4bb.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,19 +50,6 @@ req.typenames: SM_SendCTPassThru_IN, *PSM_SendCTPassThru_IN
 
 
 The SM_SendCTPassThru_IN structure is used to provide input parameters to the SM_SendCTPassThru method.
-
-
-## -syntax
-
-
-````
-typedef struct _SM_SendCTPassThru_IN {
-  UCHAR HbaPortWWN[8];
-  ULONG InRespBufferMaxSize;
-  ULONG ReqBufferSize;
-  UCHAR ReqBuffer[1];
-} SM_SendCTPassThru_IN, *PSM_SendCTPassThru_IN;
-````
 
 
 ## -struct-fields

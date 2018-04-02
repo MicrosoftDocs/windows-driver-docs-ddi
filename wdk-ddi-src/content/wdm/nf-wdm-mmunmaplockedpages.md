@@ -7,7 +7,7 @@ old-location: kernel\mmunmaplockedpages.htm
 old-project: kernel
 ms.assetid: ab5f33b9-5261-4d30-bceb-8e91a24ae0a8
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: MmUnmapLockedPages, MmUnmapLockedPages routine [Kernel-Mode Driver Architecture], k106_1ed6ae95-665b-4a6e-802a-4f80294c4f6e.xml, kernel.mmunmaplockedpages, wdm/MmUnmapLockedPages
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,18 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The <b>MmUnmapLockedPages</b> routine releases a mapping that was set up by a preceding call to the <a href="..\wdm\nf-wdm-mmmaplockedpages.md">MmMapLockedPages</a> or <a href="..\wdm\nf-wdm-mmmaplockedpagesspecifycache.md">MmMapLockedPagesSpecifyCache</a> routine.
-
-
-## -syntax
-
-
-````
-VOID MmUnmapLockedPages(
-  _In_ PVOID BaseAddress,
-  _In_ PMDL  MemoryDescriptorList
-);
-````
+The <b>MmUnmapLockedPages</b> routine releases a mapping that was set up by a preceding call to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554622">MmMapLockedPages</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff554629">MmMapLockedPagesSpecifyCache</a> routine.
 
 
 ## -parameters
@@ -101,16 +90,15 @@ Note that if the call to <b>MmMapLockedPages</b> or <b>MmMapLockedPagesSpecifyCa
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-mmmaplockedpages.md">MmMapLockedPages</a>
 
 
 
-<a href="..\wdm\nf-wdm-mmmaplockedpagesspecifycache.md">MmMapLockedPagesSpecifyCache</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554622">MmMapLockedPages</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554629">MmMapLockedPagesSpecifyCache</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: display\d3d12ddi-writebufferimmediate-parameter-0032.htm
 old-project: display
 ms.assetid: 84b0f28d-2157-492e-bafa-ea97956d66f2
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3D12DDI_WRITEBUFFERIMMEDIATE_PARAMETER_0032, D3D12DDI_WRITEBUFFERIMMEDIATE_PARAMETER_0032 structure [Display Devices], d3d12umddi/D3D12DDI_WRITEBUFFERIMMEDIATE_PARAMETER_0032, display.d3d12ddi-writebufferimmediate-parameter-0032
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,17 +50,6 @@ req.typenames: D3D12DDI_WRITEBUFFERIMMEDIATE_PARAMETER_0032
 
 
 Write buffer immediate parameter.
-
-
-## -syntax
-
-
-````
-typedef struct _D3D12DDI_WRITEBUFFERIMMEDIATE_PARAMETER_0032 {
-  D3D12DDI_GPU_VIRTUAL_ADDRESS  Dst;
-  UINT32                        Value;
-} D3D12DDI_WRITEBUFFERIMMEDIATE_PARAMETER_0032, D3D12DDI_WRITEBUFFERIMMEDIATE_PARAMETER_0032;
-````
 
 
 ## -struct-fields

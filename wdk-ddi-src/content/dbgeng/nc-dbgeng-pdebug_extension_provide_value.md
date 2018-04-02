@@ -7,7 +7,7 @@ old-location: debugger\debugextensionprovidevalue.htm
 old-project: debugger
 ms.assetid: b4b1953c-dc1b-495a-ab58-5cfaa6064b23
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: DEBUG_EXT_PVTYPE_IS_POINTER, DEBUG_EXT_PVTYPE_IS_VALUE, DebugExtensionProvideValue, DebugExtensionProvideValue callback function [Windows Debugging], Extensions_Ref_fa822b69-6941-46e9-8b68-d57dd8d19d14.xml, PDEBUG_EXTENSION_PROVIDE_VALUE, dbgeng/DebugExtensionProvideValue, debugger.debugextensionprovidevalue
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -61,14 +61,6 @@ The <b>DebugExtensionProvideValue</b> callback function sets <a href="https://ms
 </tr>
 </table></span></div>
 
-## -prototype
-
-
-````
- CALLBACK* PDEBUG_EXTENSION_PROVIDE_VALUE DebugExtensionProvideValue;
-````
-
-
 ## -parameters
 
 
@@ -86,7 +78,7 @@ Provides behavioral flags. This parameter is currently reserved.
 
 ### -param Name [in]
 
-The name of the value to return. This name might be one of the names that the <a href="..\dbgeng\nc-dbgeng-pdebug_extension_query_value_names.md">DebugExtensionQueryValueNames</a> function returned or a name that the caller might already be aware of.
+The name of the value to return. This name might be one of the names that the <a href="https://msdn.microsoft.com/library/windows/hardware/ff540490">DebugExtensionQueryValueNames</a> function returned or a name that the caller might already be aware of.
 
 
 ### -param Value [out]
@@ -180,6 +172,13 @@ The name that the <i>Name</i> parameter specifies must start with <b>$$</b> and 
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540476">DebugExtensionInitialize</a>
+
+
+
 <i>DebugExtensionNotify</i>
 
 
@@ -188,20 +187,12 @@ The name that the <i>Name</i> parameter specifies must start with <b>$$</b> and 
 
 
 
-<a href="..\dbgeng\nc-dbgeng-pdebug_extension_initialize.md">DebugExtensionInitialize</a>
-
-
-
 <i>DebugExtensionUninitialize</i>
 
 
 
 <i>KnownStructOutput</i>
-
-
-
  
 
  
-
 

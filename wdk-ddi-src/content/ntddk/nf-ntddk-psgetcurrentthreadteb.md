@@ -7,7 +7,7 @@ old-location: kernel\psgetcurrentthreadteb.htm
 old-project: kernel
 ms.assetid: 822B75D4-A825-4BB1-8265-A1389F4982C7
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: PsGetCurrentThreadTeb, PsGetCurrentThreadTeb routine [Kernel-Mode Driver Architecture], kernel.psgetcurrentthreadteb, ntddk/PsGetCurrentThreadTeb
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,16 +52,6 @@ req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 The <b>PsGetCurrentThreadTeb</b> routine returns the Thread Environment Block (TEB) of the current thread. The call must be made in kernel-mode.
 
 
-## -syntax
-
-
-````
-PVOID  PsGetCurrentThreadTeb(
-   void 
-);
-````
-
-
 ## -parameters
 
 
@@ -82,12 +72,11 @@ A pointer to the thread environment block of the current thread. The TEB should 
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559917">Process and Thread Manager Routines</a>
-
-
-
  
 
  
-
 

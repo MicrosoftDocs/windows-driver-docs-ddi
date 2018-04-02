@@ -7,7 +7,7 @@ old-location: storage\ioctl_disk_performance.htm
 old-project: storage
 ms.assetid: d88d323d-6e74-4a4b-9246-893d92bea89b
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_DISK_PERFORMANCE, IOCTL_DISK_PERFORMANCE control code [Storage Devices], k307_f7ebe3b4-ed77-4c99-af07-c6639b5fd3be.xml, ntdddisk/IOCTL_DISK_PERFORMANCE, storage.ioctl_disk_performance
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -72,7 +72,7 @@ None.
 
 ### -output-buffer
 
-The driver returns the <a href="..\ntdddisk\ns-ntdddisk-_disk_performance.md">DISK_PERFORMANCE</a> data in the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>.
+The driver returns the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552633">DISK_PERFORMANCE</a> data in the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>.
 
 
 ### -output-buffer-length
@@ -105,12 +105,11 @@ The <b>Information</b> field is set to <b>sizeof</b>(DISK_PERFORMANCE) when the 
 
 ## -see-also
 
-<a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_performance_off.md">IOCTL_DISK_PERFORMANCE_OFF</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560393">IOCTL_DISK_PERFORMANCE_OFF</a>
  
 
  
-
 

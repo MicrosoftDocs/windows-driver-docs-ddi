@@ -52,16 +52,6 @@ req.typenames: EXpsFontRestriction
 The <code>IsDone</code> method determines whether the iterator has finished  the iteration.
 
 
-## -syntax
-
-
-````
-BOOL STDMETHODCALLTYPE IsDone(
-    None
-);
-````
-
-
 ## -parameters
 
 

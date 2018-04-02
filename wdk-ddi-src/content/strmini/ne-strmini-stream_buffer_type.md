@@ -53,18 +53,6 @@ req.product: Windows 10 or later.
 This enumeration defines the buffer types for <a href="https://docs.microsoft.com/en-us/dotnet/core/rid-catalog">StreamClassGetPhysicalAddress</a>.
 
 
-## -syntax
-
-
-````
-typedef enum  { 
-  PerRequestExtension,
-  DmaBuffer,
-  SRBDataBuffer
-} STREAM_BUFFER_TYPE;
-````
-
-
 ## -enum-fields
 
 

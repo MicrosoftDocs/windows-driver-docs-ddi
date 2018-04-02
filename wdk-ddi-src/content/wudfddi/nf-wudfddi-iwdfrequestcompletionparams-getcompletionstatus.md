@@ -55,14 +55,6 @@ req.product: Windows 10 or later.
 The <b>GetCompletionStatus</b> method retrieves the completion status of an I/O request.
 
 
-## -syntax
-
-
-````
-HRESULT GetCompletionStatus();
-````
-
-
 ## -parameters
 
 
@@ -81,12 +73,11 @@ HRESULT GetCompletionStatus();
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfrequestcompletionparams.md">IWDFRequestCompletionParams</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560292">IWDFRequestCompletionParams</a>
  
 
  
-
 

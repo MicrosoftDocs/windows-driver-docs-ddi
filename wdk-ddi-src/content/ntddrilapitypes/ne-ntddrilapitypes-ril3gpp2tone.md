@@ -7,7 +7,7 @@ old-location: netvista\ril3gpp2tone.htm
 old-project: netvista
 ms.assetid: bf19de84-1c2d-4e9b-8061-888634dc2147
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: RIL3GPP2TONE, RIL3GPP2TONE enumeration [Network Drivers Starting with Windows Vista], RIL_3GPP2TONE_ABRVINTERCEPT, RIL_3GPP2TONE_ABRVREORDER, RIL_3GPP2TONE_ANSWER, RIL_3GPP2TONE_BUSY, RIL_3GPP2TONE_CALLWAITING, RIL_3GPP2TONE_CONFIRM, RIL_3GPP2TONE_DIAL, RIL_3GPP2TONE_INTERCEPT, RIL_3GPP2TONE_MAX, RIL_3GPP2TONE_PIP, RIL_3GPP2TONE_REORDER, RIL_3GPP2TONE_RINGBACK, netvista.ril3gpp2tone, ntddrilapitypes/RIL3GPP2TONE, ntddrilapitypes/RIL_3GPP2TONE_ABRVINTERCEPT, ntddrilapitypes/RIL_3GPP2TONE_ABRVREORDER, ntddrilapitypes/RIL_3GPP2TONE_ANSWER, ntddrilapitypes/RIL_3GPP2TONE_BUSY, ntddrilapitypes/RIL_3GPP2TONE_CALLWAITING, ntddrilapitypes/RIL_3GPP2TONE_CONFIRM, ntddrilapitypes/RIL_3GPP2TONE_DIAL, ntddrilapitypes/RIL_3GPP2TONE_INTERCEPT, ntddrilapitypes/RIL_3GPP2TONE_MAX, ntddrilapitypes/RIL_3GPP2TONE_PIP, ntddrilapitypes/RIL_3GPP2TONE_REORDER, ntddrilapitypes/RIL_3GPP2TONE_RINGBACK
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,27 +50,6 @@ req.typenames: RIL3GPP2TONE
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef enum _RIL3GPP2TONE { 
-  RIL_3GPP2TONE_DIAL,
-  RIL_3GPP2TONE_RINGBACK,
-  RIL_3GPP2TONE_INTERCEPT,
-  RIL_3GPP2TONE_ABRVINTERCEPT,
-  RIL_3GPP2TONE_REORDER,
-  RIL_3GPP2TONE_ABRVREORDER,
-  RIL_3GPP2TONE_BUSY,
-  RIL_3GPP2TONE_CONFIRM,
-  RIL_3GPP2TONE_ANSWER,
-  RIL_3GPP2TONE_CALLWAITING,
-  RIL_3GPP2TONE_PIP,
-  RIL_3GPP2TONE_MAX
-} RIL3GPP2TONE;
-````
 
 
 ## -enum-fields

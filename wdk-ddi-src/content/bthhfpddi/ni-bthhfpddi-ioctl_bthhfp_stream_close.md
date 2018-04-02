@@ -7,7 +7,7 @@ old-location: audio\ioctl_bthhfp_stream_close.htm
 old-project: audio
 ms.assetid: 689296FA-E28A-4F9C-8E09-2CAC8A189808
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/19/2018
 ms.keywords: IOCTL_BTHHFP_STREAM_CLOSE, IOCTL_BTHHFP_STREAM_CLOSE control code [Audio Devices], audio.ioctl_bthhfp_stream_close, bthhfpddi/IOCTL_BTHHFP_STREAM_CLOSE
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -114,12 +114,11 @@ The audio driver starts this request when the KS pin transitions to the KSSTATE_
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn302027">Bluetooth HFP DDI IOCTLs</a>
-
-
-
  
 
  
-
 

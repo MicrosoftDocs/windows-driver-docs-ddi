@@ -7,7 +7,7 @@ old-location: kernel\rtlrunoncebegininitialize.htm
 old-project: kernel
 ms.assetid: ed96b2ec-95ea-47a6-a3b0-f4d018e0c8e2
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: RtlRunOnceBeginInitialize, RtlRunOnceBeginInitialize routine [Kernel-Mode Driver Architecture], k109_f7299ad8-4567-4ad8-a13c-2329a12af6ea.xml, kernel.rtlrunoncebegininitialize, ntddk/RtlRunOnceBeginInitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,18 +50,6 @@ req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 
 
 The <b>RtlRunOnceBeginInitialize</b> routine begins a one-time initialization.
-
-
-## -syntax
-
-
-````
-NTSTATUS RtlRunOnceBeginInitialize(
-  _Inout_ PRTL_RUN_ONCE RunOnce,
-  _In_    ULONG         Flags,
-  _Out_   PVOID         *Context
-);
-````
 
 
 ## -parameters
@@ -127,7 +115,7 @@ The one-time initialization has already completed. The initialized data is store
 </dl>
 </td>
 <td width="60%">
-The caller has successfully begun one-time initialization. The caller now performs the driver-specific initialization steps and then calls <a href="..\ntddk\nf-ntddk-rtlrunoncecomplete.md">RtlRunOnceComplete</a> to complete the initialization. 
+The caller has successfully begun one-time initialization. The caller now performs the driver-specific initialization steps and then calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff562763">RtlRunOnceComplete</a> to complete the initialization. 
 
 </td>
 </tr>
@@ -141,35 +129,34 @@ The caller has successfully begun one-time initialization. The caller now perfor
 
 
 
-Drivers can alternatively perform one-time initialization by calling <a href="..\ntddk\nf-ntddk-rtlrunonceexecuteonce.md">RtlRunOnceExecuteOnce</a> and supplying a <a href="https://msdn.microsoft.com/library/windows/hardware/ff563635">RunOnceInitialization</a> routine.
+Drivers can alternatively perform one-time initialization by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff562765">RtlRunOnceExecuteOnce</a> and supplying a <a href="https://msdn.microsoft.com/library/windows/hardware/ff563635">RunOnceInitialization</a> routine.
 
 
 
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563626">RTL_RUN_ONCE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562763">RtlRunOnceComplete</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562765">RtlRunOnceExecuteOnce</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562767">RtlRunOnceInitialize</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563635">RunOnceInitialization</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-rtlrunonceexecuteonce.md">RtlRunOnceExecuteOnce</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-rtlrunoncecomplete.md">RtlRunOnceComplete</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-rtlrunonceinitialize.md">RtlRunOnceInitialize</a>
-
-
-
  
 
  
-
 

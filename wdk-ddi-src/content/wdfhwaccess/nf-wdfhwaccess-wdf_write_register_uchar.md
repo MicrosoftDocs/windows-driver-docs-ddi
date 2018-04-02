@@ -55,18 +55,6 @@ req.product: Windows 10 or later.
 The <b>WDF_WRITE_REGISTER_UCHAR</b> routine writes a byte to the specified address.
 
 
-## -syntax
-
-
-````
-void WDF_WRITE_REGISTER_UCHAR(
-  _In_ WDFDEVICE Device,
-  _In_ PUCHAR    Register,
-  _In_ UCHAR     Value
-);
-````
-
-
 ## -parameters
 
 

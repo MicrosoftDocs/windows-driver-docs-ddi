@@ -7,7 +7,7 @@ old-location: kernel\iocompleterequest.htm
 old-project: kernel
 ms.assetid: 59252b09-00ee-4a39-9849-5ce840ee16a7
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: IoCompleteRequest, IoCompleteRequest routine [Kernel-Mode Driver Architecture], k104_79ea2b93-3ce8-46eb-990b-ca3e56d3e3a8.xml, kernel.iocompleterequest, wdm/IoCompleteRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 The <b>IoCompleteRequest</b> routine indicates that the caller has completed all processing for a given I/O request and is returning the given IRP to the I/O manager.
 
 
-## -syntax
-
-
-````
-VOID IoCompleteRequest(
-  _In_ PIRP  Irp,
-  _In_ CCHAR PriorityBoost
-);
-````
-
-
 ## -parameters
 
 
@@ -97,7 +86,7 @@ Specifies a system-defined constant by which to increment the run-time priority 
 
 
 
-When a driver has finished all processing for a given IRP, it calls <b>IoCompleteRequest</b>. The I/O manager checks the IRP to determine whether any higher-level drivers have set up an <a href="..\wdm\nc-wdm-io_completion_routine.md">IoCompletion</a> routine for the IRP. If so, each <i>IoCompletion</i> routine is called, in turn, until every layered driver in the chain has completed the IRP.
+When a driver has finished all processing for a given IRP, it calls <b>IoCompleteRequest</b>. The I/O manager checks the IRP to determine whether any higher-level drivers have set up an <a href="https://msdn.microsoft.com/library/windows/hardware/ff548354">IoCompletion</a> routine for the IRP. If so, each <i>IoCompletion</i> routine is called, in turn, until every layered driver in the chain has completed the IRP.
 
 When all drivers have completed a given IRP, the I/O manager returns status to the original requester of the operation. Note that a higher-level driver that sets up a driver-created IRP must supply an <i>IoCompletion</i> routine to release the IRP it created.
 
@@ -108,12 +97,11 @@ Never call <b>IoCompleteRequest</b> while holding a spin lock. Attempting to com
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iosetcompletionroutine.md">IoSetCompletionRoutine</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549679">IoSetCompletionRoutine</a>
  
 
  
-
 

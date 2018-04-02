@@ -50,17 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-PosCxGetDeviceInterfaceTag returns the device interface tag that is set in <a href="..\poscx\nf-poscx-poscxopen.md">PosCxOpen</a>.
-
-
-## -syntax
-
-
-````
-ULONG PosCxGetDeviceInterfaceTag(
-  _In_ WDFFILEOBJECT fileObject
-);
-````
+PosCxGetDeviceInterfaceTag returns the device interface tag that is set in <a href="https://msdn.microsoft.com/library/windows/hardware/mt593129">PosCxOpen</a>.
 
 
 ## -parameters
@@ -70,7 +60,7 @@ ULONG PosCxGetDeviceInterfaceTag(
 
 ### -param fileObject [in]
 
-      A handle to a framework file object that identifies the caller, usually acquired with <a href="..\wdfrequest\nf-wdfrequest-wdfrequestgetfileobject.md">WdfRequestGetFileObject</a>.
+      A handle to a framework file object that identifies the caller, usually acquired with <a href="https://msdn.microsoft.com/library/windows/hardware/ff549963">WdfRequestGetFileObject</a>.
 
 
 ## -returns
@@ -84,12 +74,11 @@ ULONG PosCxGetDeviceInterfaceTag(
 
 ## -see-also
 
-<a href="..\poscx\nf-poscx-poscxopen.md">PosCxOpen</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt593129">PosCxOpen</a>
  
 
  
-
 

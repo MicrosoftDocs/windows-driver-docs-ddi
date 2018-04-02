@@ -49,19 +49,7 @@ req.typenames: ACPI_ENUM_CHILD
 ## -description
 
 
-The ACPI_ENUM_CHILD structure is a member of the <a href="..\acpiioct\ns-acpiioct-_acpi_enum_children_output_buffer.md">ACPI_ENUM_CHILDREN_OUTPUT_BUFFER</a> structure and contains the full path and name of an object in an ACPI namespace.
-
-
-## -syntax
-
-
-````
-typedef struct _ACPI_ENUM_CHILD {
-  ULONG Flags;
-  ULONG NameLength;
-  CHAR  Name[ANYSIZE_ARRAY];
-} ACPI_ENUM_CHILD;
-````
+The ACPI_ENUM_CHILD structure is a member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff536112">ACPI_ENUM_CHILDREN_OUTPUT_BUFFER</a> structure and contains the full path and name of an object in an ACPI namespace.
 
 
 ## -struct-fields
@@ -88,7 +76,7 @@ A NULL-terminated ASCII string that contains the path and name of an object in a
 
 
 
-A driver for a device uses an <a href="..\acpiioct\ni-acpiioct-ioctl_acpi_enum_children.md">IOCTL_ACPI_ENUM_CHILDREN</a> request to enumerate the child objects of the device. The enumerated child objects can be devices or any object of a supplied name. This request returns an ACPI_ENUM_CHILDREN_OUTPUT_BUFFER structure, which includes the <b>Children</b> member that contains an array of ACPI_ENUM_CHILD structures. 
+A driver for a device uses an <a href="https://msdn.microsoft.com/library/windows/hardware/ff536147">IOCTL_ACPI_ENUM_CHILDREN</a> request to enumerate the child objects of the device. The enumerated child objects can be devices or any object of a supplied name. This request returns an ACPI_ENUM_CHILDREN_OUTPUT_BUFFER structure, which includes the <b>Children</b> member that contains an array of ACPI_ENUM_CHILD structures. 
 
 The path and name that are contained in a <b>Name</b> member are in the standard format for a fully qualified path and name of an object in an ACPI namespace. For example, assume that a device named 'ABCD' is an immediate child of the root of an ACPI namespace, that device 'ABCD' has a child device named 'CHLD,' and that child device 'CHLD' has an immediate child object named '_FOO.' In this case, <b>Name</b> would contain '\ABCD.CHLD._FOO.'
 
@@ -99,16 +87,15 @@ For information about how to enumerate child objects of a device, see <a href="h
 
 ## -see-also
 
-<a href="..\acpiioct\ns-acpiioct-_acpi_enum_children_output_buffer.md">ACPI_ENUM_CHILDREN_OUTPUT_BUFFER</a>
 
 
 
-<a href="..\acpiioct\ni-acpiioct-ioctl_acpi_enum_children.md">IOCTL_ACPI_ENUM_CHILDREN</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536112">ACPI_ENUM_CHILDREN_OUTPUT_BUFFER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536147">IOCTL_ACPI_ENUM_CHILDREN</a>
  
 
  
-
 

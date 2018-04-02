@@ -7,7 +7,7 @@ old-location: kernel\rtl_osversioninfoexw.htm
 old-project: kernel
 ms.assetid: 88471e00-4913-44fd-b9f4-960ec46fb75a
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: "*LPOSVERSIONINFOEXW, *POSVERSIONINFOEXW, *PRTL_OSVERSIONINFOEXW, OSVERSIONINFOEX, OSVERSIONINFOEXW, PRTL_OSVERSIONINFOEXW, PRTL_OSVERSIONINFOEXW structure pointer [Kernel-Mode Driver Architecture], RTL_OSVERSIONINFOEXW, RTL_OSVERSIONINFOEXW structure [Kernel-Mode Driver Architecture], _OSVERSIONINFOEXW, kernel.rtl_osversioninfoexw, kstruct_d_a7e48147-5619-4ab4-b83a-18139aa0a2c5.xml, wdm/PRTL_OSVERSIONINFOEXW, wdm/RTL_OSVERSIONINFOEXW"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,26 +53,6 @@ req.product: Windows 10 or later.
 The <b>RTL_OSVERSIONINFOEXW</b> structure contains operating system version information.
 
 
-## -syntax
-
-
-````
-typedef struct _OSVERSIONINFOEXW {
-  ULONG  dwOSVersionInfoSize;
-  ULONG  dwMajorVersion;
-  ULONG  dwMinorVersion;
-  ULONG  dwBuildNumber;
-  ULONG  dwPlatformId;
-  WCHAR  szCSDVersion[128];
-  USHORT wServicePackMajor;
-  USHORT wServicePackMinor;
-  USHORT wSuiteMask;
-  UCHAR  wProductType;
-  UCHAR  wReserved;
-} RTL_OSVERSIONINFOEXW, *PRTL_OSVERSIONINFOEXW;
-````
-
-
 ## -struct-fields
 
 
@@ -80,7 +60,7 @@ typedef struct _OSVERSIONINFOEXW {
 
 ### -field dwOSVersionInfoSize
 
-The size, in bytes, of an <b>RTL_OSVERSIONINFOEXW</b> structure. This member must be set before the structure is used with <a href="..\wdm\nf-wdm-rtlgetversion.md">RtlGetVersion</a>.
+The size, in bytes, of an <b>RTL_OSVERSIONINFOEXW</b> structure. This member must be set before the structure is used with <a href="https://msdn.microsoft.com/library/windows/hardware/ff561910">RtlGetVersion</a>.
 
 
 ### -field dwMajorVersion
@@ -317,7 +297,7 @@ Reserved for future use.
 
 
 
-The information in this structure includes the major and minor version numbers, the build number, the platform identifier, the installed product suites, and the latest service pack that is installed on the system. This structure is used with the <a href="..\wdm\nf-wdm-rtlgetversion.md">RtlGetVersion</a> and <a href="..\wdm\nf-wdm-rtlverifyversioninfo.md">RtlVerifyVersionInfo</a> routines.
+The information in this structure includes the major and minor version numbers, the build number, the platform identifier, the installed product suites, and the latest service pack that is installed on the system. This structure is used with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff561910">RtlGetVersion</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff563026">RtlVerifyVersionInfo</a> routines.
 
 Relying on version information is not always the best way to test whether a feature is available. For guidance, refer to the documentation for the feature you are interested in.
 
@@ -607,20 +587,19 @@ Not applicable
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_osversioninfow.md">RTL_OSVERSIONINFOW</a>
 
 
 
-<a href="..\wdm\nf-wdm-rtlgetversion.md">RtlGetVersion</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563624">RTL_OSVERSIONINFOW</a>
 
 
 
-<a href="..\wdm\nf-wdm-rtlverifyversioninfo.md">RtlVerifyVersionInfo</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561910">RtlGetVersion</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563026">RtlVerifyVersionInfo</a>
  
 
  
-
 

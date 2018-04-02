@@ -7,7 +7,7 @@ old-location: debugger\idebugsymbols3_getsourceentriesbyoffset.htm
 old-project: debugger
 ms.assetid: CA84F931-5EB9-49D0-9EA5-288900A8DE46
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: GetSourceEntriesByOffset method [Windows Debugging], GetSourceEntriesByOffset method [Windows Debugging], IDebugSymbols3 interface, GetSourceEntriesByOffset,IDebugSymbols3.GetSourceEntriesByOffset, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetSourceEntriesByOffset method, IDebugSymbols3::GetSourceEntriesByOffset, dbgeng/IDebugSymbols3::GetSourceEntriesByOffset, debugger.idebugsymbols3_getsourceentriesbyoffset
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,20 +52,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 Queries symbol information and returns locations in the target's memory by using an offset.
 
 
-## -syntax
-
-
-````
-HRESULT GetSourceEntriesByOffset(
-  [in]            ULONG64                                               Offset,
-  [in]            ULONG                                                 Flags,
-  [out]           _writes_opt_(EntriesCount) PDEBUG_SYMBOL_SOURCE_ENTRY Entries,
-  [in]            ULONG                                                 EntriesCount,
-  [out, optional] PULONG                                                EntriesAvail
-);
-````
-
-
 ## -parameters
 
 
@@ -83,7 +69,7 @@ A bit-set that contains options that affect the behavior of this method.
 
 ### -param Entries [out]
 
-A pointer to a returned entry as a <a href="..\dbgeng\ns-dbgeng-_debug_symbol_source_entry.md">DEBUG_SYMBOL_SOURCE_ENTRY</a> structure.
+A pointer to a returned entry as a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541680">DEBUG_SYMBOL_SOURCE_ENTRY</a> structure.
 
 
 ### -param EntriesCount [in]
@@ -116,16 +102,15 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="..\dbgeng\ns-dbgeng-_debug_symbol_source_entry.md">DEBUG_SYMBOL_SOURCE_ENTRY</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541680">DEBUG_SYMBOL_SOURCE_ENTRY</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550870">IDebugSymbols3</a>
  
 
  
-
 

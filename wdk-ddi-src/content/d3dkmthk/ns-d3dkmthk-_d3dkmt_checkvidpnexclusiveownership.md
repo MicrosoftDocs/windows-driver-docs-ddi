@@ -7,7 +7,7 @@ old-location: display\d3dkmt_checkvidpnexclusiveownership.htm
 old-project: display
 ms.assetid: 5a7f05a0-11ae-49ed-9015-f2712cc77880
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMT_CHECKVIDPNEXCLUSIVEOWNERSHIP, D3DKMT_CHECKVIDPNEXCLUSIVEOWNERSHIP structure [Display Devices], OpenGL_Structs_23afa7dd-8aaa-402b-9b99-235be17cd26e.xml, _D3DKMT_CHECKVIDPNEXCLUSIVEOWNERSHIP, d3dkmthk/D3DKMT_CHECKVIDPNEXCLUSIVEOWNERSHIP, display.d3dkmt_checkvidpnexclusiveownership
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,17 +52,6 @@ req.typenames: D3DKMT_CHECKVIDPNEXCLUSIVEOWNERSHIP
 The D3DKMT_CHECKVIDPNEXCLUSIVEOWNERSHIP structure describes the parameters to determine the video present source in the path of a video present network (VidPN) topology that exclusively owns the VidPN.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DKMT_CHECKVIDPNEXCLUSIVEOWNERSHIP {
-  D3DKMT_HANDLE                  hAdapter;
-  D3DDDI_VIDEO_PRESENT_SOURCE_ID VidPnSourceId;
-} D3DKMT_CHECKVIDPNEXCLUSIVEOWNERSHIP;
-````
-
-
 ## -struct-fields
 
 
@@ -80,12 +69,11 @@ typedef struct _D3DKMT_CHECKVIDPNEXCLUSIVEOWNERSHIP {
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtcheckvidpnexclusiveownership.md">D3DKMTCheckVidPnExclusiveOwnership</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546779">D3DKMTCheckVidPnExclusiveOwnership</a>
  
 
  
-
 

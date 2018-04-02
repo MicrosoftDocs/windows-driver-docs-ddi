@@ -56,7 +56,7 @@ The IID for this interface is IID_IKsAllocatorEx.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IKsAllocatorEx</b> interface inherits from IUnknown and <a href="..\ksproxy\nn-ksproxy-iksallocator.md">IKsAllocator</a>. <b>IKsAllocatorEx</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IKsAllocatorEx</b> interface inherits from IUnknown and <a href="https://msdn.microsoft.com/library/windows/hardware/ff559719">IKsAllocator</a>. <b>IKsAllocatorEx</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -184,12 +184,11 @@ Sets the mode in which an allocator allocates memory.
 
 ## -see-also
 
-<a href="..\ksproxy\nn-ksproxy-iksallocator.md">IKsAllocator</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559719">IKsAllocator</a>
  
 
  
-
 

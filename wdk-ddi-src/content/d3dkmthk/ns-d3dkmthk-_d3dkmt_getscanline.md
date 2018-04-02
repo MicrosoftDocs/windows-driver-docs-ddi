@@ -7,7 +7,7 @@ old-location: display\d3dkmt_getscanline.htm
 old-project: display
 ms.assetid: af06c31e-0c4f-4e2a-8d19-84c1c63d6bd0
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMT_GETSCANLINE, D3DKMT_GETSCANLINE structure [Display Devices], OpenGL_Structs_1e99e2c0-2215-43ed-9dc4-657f30903637.xml, _D3DKMT_GETSCANLINE, d3dkmthk/D3DKMT_GETSCANLINE, display.d3dkmt_getscanline
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,19 +52,6 @@ req.typenames: D3DKMT_GETSCANLINE
 The D3DKMT_GETSCANLINE structure contains information about a video present source's vertical blanking status.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DKMT_GETSCANLINE {
-  D3DKMT_HANDLE                  hAdapter;
-  D3DDDI_VIDEO_PRESENT_SOURCE_ID VidPnSourceId;
-  BOOLEAN                        InVerticalBlank;
-  UINT                           ScanLine;
-} D3DKMT_GETSCANLINE;
-````
-
-
 ## -struct-fields
 
 
@@ -101,12 +88,11 @@ A video present path represents a connection between a video present source (vie
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtgetscanline.md">D3DKMTGetScanLine</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547013">D3DKMTGetScanLine</a>
  
 
  
-
 

@@ -52,29 +52,6 @@ req.typenames: NOTIFICATION_INFO_W2K, *PNOTIFICATION_INFO_W2K
 The bus driver passes NOTIFICATION_INFO to pass information to the driver-provided notification routine for a driver-allocated address range in the computer's IEEE 1394 address space. The bus driver calls the notification routine when it receives an asynchronous I/O request packet for that address.
 
 
-## -syntax
-
-
-````
-typedef struct _NOTIFICATION_INFO {
-  PMDL            Mdl;
-  ULONG           ulOffset;
-  ULONG           nLength;
-  ULONG           fulNotificationOptions;
-  PVOID           Context;
-  PADDRESS_FIFO   Fifo;
-  PVOID           RequestPacket;
-  PMDL            ResponseMdl;
-  PVOID           *ResponsePacket;
-  PULONG          ResponseLength;
-  PKEVENT         *ResponseEvent;
-#if (NTDDI_VERSION >= NTDDI_WINXP)
-  RCODE           ResponseCode;
-#endif 
-} NOTIFICATION_INFO, *PNOTIFICATION_INFO;
-````
-
-
 ## -struct-fields
 
 
@@ -216,12 +193,11 @@ If the device driver is using a linked list of ADDRESS_FIFO's as the backing sto
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537632">REQUEST_ALLOCATE_ADDRESS_RANGE</a>
-
-
-
  
 
  
-
 

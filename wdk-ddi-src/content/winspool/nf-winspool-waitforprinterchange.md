@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 
 
 
-## -syntax
-
-
-````
-DWORD WINAPI WaitForPrinterChange(
-   HANDLE hPrinter,
-   DWORD  Flags
-);
-````
-
-
 ## -parameters
 
 

@@ -7,7 +7,7 @@ old-location: kernel\rtllonglongtochar.htm
 old-project: kernel
 ms.assetid: E69889FC-11EF-4C49-A550-7C9C9FE1FDA7
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: RtlLongLongToChar, RtlLongLongToChar function [Kernel-Mode Driver Architecture], kernel.rtllonglongtochar, ntintsafe/RtlLongLongToChar
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,17 +50,6 @@ req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
 
 
 Converts a value of type <b>LONGLONG</b> to a value of type <b>CHAR</b>.
-
-
-## -syntax
-
-
-````
-NTSTATUS RtlLongLongToChar(
-  _In_  LONGLONG llOperand,
-  _Out_ CHAR     *pch
-);
-````
 
 
 ## -parameters

@@ -7,7 +7,7 @@ old-location: buses\ioctl_usb_get_node_connection_driverkey_name.htm
 old-project: usbref
 ms.assetid: e9826b4d-e8ac-495e-8125-7835b62011dc
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_USB_GET_NODE_CONNECTION_DRIVERKEY_NAME, IOCTL_USB_GET_NODE_CONNECTION_DRIVERKEY_NAME control code [Buses], buses.ioctl_usb_get_node_connection_driverkey_name, usbioctl/IOCTL_USB_GET_NODE_CONNECTION_DRIVERKEY_NAME, usbirp_cdc9e1be-96fd-41d4-a0d3-1303b0b4fb1d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -65,24 +65,24 @@ The <b>IOCTL_USB_GET_NODE_CONNECTION_DRIVERKEY_NAME</b> I/O control request retr
 
 ### -input-buffer
 
-The <b>AssociatedIrp.SystemBuffer</b> member points to a user-allocated <a href="..\usbioctl\ns-usbioctl-_usb_node_connection_driverkey_name.md">USB_NODE_CONNECTION_DRIVERKEY_NAME</a> structure. On input, the <b>ConnectionIndex</b> member of this structure contains the number of the port that the device is connected to.
+The <b>AssociatedIrp.SystemBuffer</b> member points to a user-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/ff540085">USB_NODE_CONNECTION_DRIVERKEY_NAME</a> structure. On input, the <b>ConnectionIndex</b> member of this structure contains the number of the port that the device is connected to.
 
 
 ### -input-buffer-length
 
-The size of a <a href="..\usbioctl\ns-usbioctl-_usb_node_connection_driverkey_name.md">USB_NODE_CONNECTION_DRIVERKEY_NAME</a> structure.
+The size of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff540085">USB_NODE_CONNECTION_DRIVERKEY_NAME</a> structure.
 
 
 ### -output-buffer
 
-On output, the <b>DriverKeyName</b> member of the <a href="..\usbioctl\ns-usbioctl-_usb_node_connection_driverkey_name.md">USB_NODE_CONNECTION_DRIVERKEY_NAME</a> structure at<b> AssociatedIrp.SystemBuffer</b> contains the driver key name that is associated with the device that is connected to the port that is indicated by <b>ConnectionIndex</b>. 
+On output, the <b>DriverKeyName</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff540085">USB_NODE_CONNECTION_DRIVERKEY_NAME</a> structure at<b> AssociatedIrp.SystemBuffer</b> contains the driver key name that is associated with the device that is connected to the port that is indicated by <b>ConnectionIndex</b>. 
 
-The <b>ActualLength</b> member indicates the length, in bytes, of the driver key name. The <b>Parameters.DeviceIoControl.OutputBufferLength</b> member indicates the size, in bytes, of the entire <a href="..\usbioctl\ns-usbioctl-_usb_node_connection_driverkey_name.md">USB_NODE_CONNECTION_DRIVERKEY_NAME</a> structure.
+The <b>ActualLength</b> member indicates the length, in bytes, of the driver key name. The <b>Parameters.DeviceIoControl.OutputBufferLength</b> member indicates the size, in bytes, of the entire <a href="https://msdn.microsoft.com/library/windows/hardware/ff540085">USB_NODE_CONNECTION_DRIVERKEY_NAME</a> structure.
 
 
 ### -output-buffer-length
 
-The size of a <a href="..\usbioctl\ns-usbioctl-_usb_node_connection_driverkey_name.md">USB_NODE_CONNECTION_DRIVERKEY_NAME</a> structure.
+The size of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff540085">USB_NODE_CONNECTION_DRIVERKEY_NAME</a> structure.
 
 
 ### -in-out-buffer
@@ -112,12 +112,11 @@ If the caller allocates an output buffer that is large enough to hold all of the
 
 ## -see-also
 
-<a href="..\usbioctl\ns-usbioctl-_usb_node_connection_driverkey_name.md">USB_NODE_CONNECTION_DRIVERKEY_NAME</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540085">USB_NODE_CONNECTION_DRIVERKEY_NAME</a>
  
 
  
-
 

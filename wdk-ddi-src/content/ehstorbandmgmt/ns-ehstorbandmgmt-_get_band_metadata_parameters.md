@@ -7,7 +7,7 @@ old-location: storage\get_band_metadata_parameters.htm
 old-project: storage
 ms.assetid: CE8160C5-8C64-4BA5-864E-EC634754E062
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PGET_BAND_METADATA_PARAMETERS, GET_BAND_METADATA_PARAMETERS, GET_BAND_METADATA_PARAMETERS structure [Storage Devices], PGET_BAND_METADATA_PARAMETERS, PGET_BAND_METADATA_PARAMETERS structure pointer [Storage Devices], _GET_BAND_METADATA_PARAMETERS, ehstorbandmgmt/GET_BAND_METADATA_PARAMETERS, ehstorbandmgmt/PGET_BAND_METADATA_PARAMETERS, storage.get_band_metadata_parameters"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,21 +49,7 @@ req.typenames: GET_BAND_METADATA_PARAMETERS, *PGET_BAND_METADATA_PARAMETERS
 ## -description
 
 
-The metadata for a configured band is retrieved according to the parameters in a <b>GET_BAND_METADATA_PARAMETERS</b> structure. This structure is input for an <a href="..\ehstorbandmgmt\ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_get_band_metadata.md"> IOCTL_EHSTOR_BANDMGMT_GET_BAND_METADATA</a> request.
-
-
-## -syntax
-
-
-````
-typedef struct _GET_BAND_METADATA_PARAMETERS {
-  ULONG         StructSize;
-  ULONG         BandId;
-  LARGE_INTEGER BandStart;
-  ULONG         MetadataOffset;
-                MetadataSize;
-} GET_BAND_METADATA_PARAMETERS, *PGET_BAND_METADATA_PARAMETERS;
-````
+The metadata for a configured band is retrieved according to the parameters in a <b>GET_BAND_METADATA_PARAMETERS</b> structure. This structure is input for an <a href="https://msdn.microsoft.com/543EB710-9BF5-428E-B5CE-7088B98586EA"> IOCTL_EHSTOR_BANDMGMT_GET_BAND_METADATA</a> request.
 
 
 ## -struct-fields
@@ -100,27 +86,26 @@ The length of metadata bytes to retrieve.
 
 
 
- Precedence is given to <b>BandID</b> for band selection.  If <b>BandID</b>  is greater than   0 and  <b>BandID</b>  is less than the  <b>MaxBandCount</b> member of <a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_band_management_capabilities.md">BAND_MANAGEMENT_CAPABILITIES</a>, then   <b>BandID</b> is used as the only selection criteria for a band match. If  <b>BandID</b> == –1, then <b>BandStart</b> is used as  the match criteria to select a band. If no band matches either selection criteria, then STATUS_INVALID_PARAMETER is returned in the <i>IoStatus</i> block for <a href="..\ehstorbandmgmt\ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_get_band_metadata.md">IOCTL_EHSTOR_BANDMGMT_GET_BAND_METADATA</a>.
+ Precedence is given to <b>BandID</b> for band selection.  If <b>BandID</b>  is greater than   0 and  <b>BandID</b>  is less than the  <b>MaxBandCount</b> member of <a href="https://msdn.microsoft.com/library/windows/hardware/hh439563">BAND_MANAGEMENT_CAPABILITIES</a>, then   <b>BandID</b> is used as the only selection criteria for a band match. If  <b>BandID</b> == –1, then <b>BandStart</b> is used as  the match criteria to select a band. If no band matches either selection criteria, then STATUS_INVALID_PARAMETER is returned in the <i>IoStatus</i> block for <a href="https://msdn.microsoft.com/library/windows/hardware/hh451386">IOCTL_EHSTOR_BANDMGMT_GET_BAND_METADATA</a>.
 
-If <b>BandID</b> and <b>BandStart</b> are both set to –1,  then the <a href="..\ehstorbandmgmt\ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_get_band_metadata.md">IOCTL_EHSTOR_BANDMGMT_GET_BAND_METADATA</a> returns metadata for the global band.
+If <b>BandID</b> and <b>BandStart</b> are both set to –1,  then the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451386">IOCTL_EHSTOR_BANDMGMT_GET_BAND_METADATA</a> returns metadata for the global band.
 
-If <a href="..\ehstorbandmgmt\ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_get_band_metadata.md">IOCTL_EHSTOR_BANDMGMT_GET_BAND_METADATA</a> was successful, <i>Parameters.DeviceIoControl.InputBufferLength</i> equals the value in <b>MetadataSize</b>.
+If <a href="https://msdn.microsoft.com/library/windows/hardware/hh451386">IOCTL_EHSTOR_BANDMGMT_GET_BAND_METADATA</a> was successful, <i>Parameters.DeviceIoControl.InputBufferLength</i> equals the value in <b>MetadataSize</b>.
 
 
 
 
 ## -see-also
 
-<a href="..\ehstorbandmgmt\ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_get_band_metadata.md">IOCTL_EHSTOR_BANDMGMT_GET_BAND_METADATA</a>
 
 
 
-<a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_band_management_capabilities.md">BAND_MANAGEMENT_CAPABILITIES</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439563">BAND_MANAGEMENT_CAPABILITIES</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451386">IOCTL_EHSTOR_BANDMGMT_GET_BAND_METADATA</a>
  
 
  
-
 

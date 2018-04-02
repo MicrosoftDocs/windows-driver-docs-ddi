@@ -53,16 +53,6 @@ req.product: Windows 10 or later.
 The PDEV_ADJUST_GRAPHICS_RESOLUTION structure specifies a graphics resolution value.
 
 
-## -syntax
-
-
-````
-typedef struct _PDEV_ADJUST_GRAPHICS_RESOLUTION {
-  POINT ptGraphicsResolution;
-} PDEV_ADJUST_GRAPHICS_RESOLUTION, *PPDEV_ADJUST_GRAPHICS_RESOLUTION;
-````
-
-
 ## -struct-fields
 
 

@@ -7,7 +7,7 @@ old-location: kernel\rtlintptrsub.htm
 old-project: kernel
 ms.assetid: 72352FD3-4855-4630-AF42-368FF3A6B2BB
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: RtlIntPtrSub, RtlIntPtrSub function [Kernel-Mode Driver Architecture], kernel.rtlintptrsub, ntintsafe/RtlIntPtrSub
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,18 +50,6 @@ req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
 
 
 Subtracts one value of type <b>INT_PTR</b> from another.
-
-
-## -syntax
-
-
-````
-NTSTATUS RtlIntPtrSub(
-  _In_  INT_PTR iMinuend,
-  _In_  INT_PTR iSubtrahend,
-  _Out_ INT_PTR *piResult
-);
-````
 
 
 ## -parameters

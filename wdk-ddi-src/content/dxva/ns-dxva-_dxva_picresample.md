@@ -7,7 +7,7 @@ old-location: display\dxva_picresample.htm
 old-project: display
 ms.assetid: 29b26400-9b27-4bff-9c7e-d612d250da30
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*LPDXVA_PicResample, DXVA_PicResample, DXVA_PicResample structure [Display Devices], LPDXVA_PicResample, LPDXVA_PicResample structure pointer [Display Devices], _DXVA_PicResample, display.dxva_picresample, dxva/DXVA_PicResample, dxva/LPDXVA_PicResample, dxvaref_523256d7-10ef-4750-a065-bd4bb02c1fbe.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,26 +50,6 @@ req.typenames: DXVA_PicResample, *LPDXVA_PicResample
 
 
 The DXVA_PicResample structure is sent by the host decoder to the accelerator to control the resampling process. This process is invoked when the <a href="https://msdn.microsoft.com/6db9fa71-7bc2-4eb6-afcb-b16df48f7e8b">bDXVA_Func variable</a> is equal to 4.
-
-
-## -syntax
-
-
-````
-typedef struct _DXVA_PicResample {
-  WORD  wPicResampleSourcePicIndex;
-  WORD  wPicResampleDestPicIndex;
-  WORD  wPicResampleRcontrol;
-  BYTE  bPicResampleExtrapWidth;
-  BYTE  bPicResampleExtrapHeight;
-  DWORD dwPicResampleSourceWidth;
-  DWORD dwPicResampleSourceHeight;
-  DWORD dwPicResampleDestWidth;
-  DWORD dwPicResampleDestHeight;
-  DWORD dwPicResampleFullDestWidth;
-  DWORD dwPicResampleFullDestHeight;
-} DXVA_PicResample, *LPDXVA_PicResample;
-````
 
 
 ## -struct-fields

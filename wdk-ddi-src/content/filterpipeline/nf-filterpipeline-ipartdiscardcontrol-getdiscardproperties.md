@@ -52,17 +52,6 @@ req.typenames: EXpsFontRestriction
 The <b>GetDiscardProperties</b> method gets the properties of the discard control.
 
 
-## -syntax
-
-
-````
-HRESULT GetDiscardProperties(
-  [out] BSTR *uriSentinelPage,
-  [out] BSTR *uriPartToDiscard
-);
-````
-
-
 ## -parameters
 
 

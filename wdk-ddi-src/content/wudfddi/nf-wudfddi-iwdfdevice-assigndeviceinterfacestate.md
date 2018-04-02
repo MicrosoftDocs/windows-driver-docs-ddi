@@ -55,18 +55,6 @@ req.product: Windows 10 or later.
 The <b>AssignDeviceInterfaceState</b> method enables or disables the specified device interface instance for a device.
 
 
-## -syntax
-
-
-````
-HRESULT AssignDeviceInterfaceState(
-  [in]           LPCGUID pDeviceInterfaceGuid,
-  [in, optional] PCWSTR  pReferenceString,
-  [in]           BOOL    Enable
-);
-````
-
-
 ## -parameters
 
 
@@ -119,16 +107,15 @@ For a code example of how to use the <b>AssignDeviceInterfaceState</b> method, s
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556917">IWDFDevice</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557016">IWDFDevice::CreateDeviceInterface</a>
-
-
-
-<a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
-
-
-
  
 
  
-
 

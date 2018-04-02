@@ -55,17 +55,6 @@ req.product: Windows 10 or later.
 The <b>GetNamedValue</b> method retrieves the value of a property.
 
 
-## -syntax
-
-
-````
-HRESULT GetNamedValue(
-  [in]  LPCWSTR     pszName,
-  [out] PROPVARIANT *pv
-);
-````
-
-
 ## -parameters
 
 
@@ -208,11 +197,10 @@ For more information, see <a href="https://docs.microsoft.com/en-us/windows-hard
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/062b6065-a56f-4ecd-b232-3ba338a6d806">PropVariantClear</a>
 
 
 
-<a href="..\wudfddi\nn-wudfddi-iwdfnamedpropertystore.md">IWDFNamedPropertyStore</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560164">IWDFNamedPropertyStore</a>
 
 
 
@@ -220,8 +208,8 @@ For more information, see <a href="https://docs.microsoft.com/en-us/windows-hard
 
 
 
+<a href="https://msdn.microsoft.com/062b6065-a56f-4ecd-b232-3ba338a6d806">PropVariantClear</a>
  
 
  
-
 

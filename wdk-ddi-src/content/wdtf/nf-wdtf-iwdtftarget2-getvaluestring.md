@@ -7,7 +7,7 @@ old-location: dtf\iwdtftarget2_getvaluestring.htm
 old-project: dtf
 ms.assetid: 430de835-6301-40db-b4fe-4eabff0c9b58
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 3/29/2018
 ms.keywords: GetValueString method [Windows Device Testing Framework], GetValueString method [Windows Device Testing Framework], IWDTFTarget2 interface, GetValueString,IWDTFTarget2.GetValueString, IWDTFTarget2, IWDTFTarget2 interface [Windows Device Testing Framework], GetValueString method, IWDTFTarget2::GetValueString, Microsoft.WDTF.IWDTFTarget2.GetValueString, Microsoft::WDTF::IWDTFTarget2::GetValueString, dtf.iwdtftarget2_getvaluestring, wdtf/IWDTFTarget2::GetValueString
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 Returns a string value from the target that is associated with a specified attribute.
 
 
-## -syntax
-
-
-````
-HRESULT GetValueString(
-  [in]          BSTR SDEL,
-  [out, retval] BSTR *pValue
-);
-````
-
-
 ## -parameters
 
 
@@ -103,12 +92,11 @@ to work properly.
 
 ## -see-also
 
-<a href="..\wdtf\nn-wdtf-iwdtftarget2.md">IWDTFTarget2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439367">IWDTFTarget2</a>
  
 
  
-
 

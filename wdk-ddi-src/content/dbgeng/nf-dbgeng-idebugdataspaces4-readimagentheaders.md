@@ -7,7 +7,7 @@ old-location: debugger\readimagentheaders.htm
 old-project: debugger
 ms.assetid: 2735aabf-b8b0-4eb1-89a2-4733d0b346ed
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: IDebugDataSpaces3 interface [Windows Debugging], ReadImageNtHeaders method, IDebugDataSpaces3::ReadImageNtHeaders, IDebugDataSpaces4, IDebugDataSpaces4 interface [Windows Debugging], ReadImageNtHeaders method, IDebugDataSpaces4::ReadImageNtHeaders, IDebugDataSpaces_333f4fab-a56c-43e2-92d7-59775b794e1f.xml, ReadImageNtHeaders method [Windows Debugging], ReadImageNtHeaders method [Windows Debugging], IDebugDataSpaces3 interface, ReadImageNtHeaders method [Windows Debugging], IDebugDataSpaces4 interface, ReadImageNtHeaders,IDebugDataSpaces4.ReadImageNtHeaders, dbgeng/IDebugDataSpaces3::ReadImageNtHeaders, dbgeng/IDebugDataSpaces4::ReadImageNtHeaders, debugger.readimagentheaders
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,17 +51,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>ReadImageNtHeaders</b> method returns the NT headers for the specified image loaded in the target.
-
-
-## -syntax
-
-
-````
-HRESULT ReadImageNtHeaders(
-  [in]  ULONG64             ImageBase,
-  [out] PIMAGE_NT_HEADERS64 Headers
-);
-````
 
 
 ## -parameters

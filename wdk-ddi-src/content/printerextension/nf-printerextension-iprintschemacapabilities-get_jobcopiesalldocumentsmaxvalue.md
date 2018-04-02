@@ -58,27 +58,16 @@ This is the copy count maximum.
 This property is read-only.
 
 
-## -syntax
-
-
-````
-HRESULT get_JobCopiesAllDocumentsMaxValue(
-  [out, retval] ULONG *pulJobCopiesAllDocumentsMaxValue
-);
-````
-
-
 ## -parameters
 
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprintschemacapabilities.md">IPrintSchemaCapabilities</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451256">IPrintSchemaCapabilities</a>
  
 
  
-
 

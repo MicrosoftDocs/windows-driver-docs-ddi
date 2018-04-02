@@ -7,7 +7,7 @@ old-location: audio\ksdatarange_audio.htm
 old-project: audio
 ms.assetid: 53631f26-8377-4ab5-83db-ed241c11643a
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/19/2018
 ms.keywords: "*PKSDATARANGE_AUDIO, KSDATARANGE_AUDIO, KSDATARANGE_AUDIO structure [Audio Devices], PKSDATARANGE_AUDIO, PKSDATARANGE_AUDIO structure pointer [Audio Devices], aud-prop_9a59d4cd-4c84-4c22-8a36-741cf53ec08d.xml, audio.ksdatarange_audio, ksmedia/KSDATARANGE_AUDIO, ksmedia/PKSDATARANGE_AUDIO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,21 +50,6 @@ req.typenames: KSDATARANGE_AUDIO, *PKSDATARANGE_AUDIO
 
 
 The KSDATARANGE_AUDIO structure specifies a range of audio formats.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  KSDATARANGE DataRange;
-  ULONG       MaximumChannels;
-  ULONG       MinimumBitsPerSample;
-  ULONG       MaximumBitsPerSample;
-  ULONG       MinimumSampleFrequency;
-  ULONG       MaximumSampleFrequency;
-} KSDATARANGE_AUDIO, *PKSDATARANGE_AUDIO;
-````
 
 
 ## -struct-fields
@@ -115,12 +100,11 @@ For information about data ranges and intersection handling, see <a href="https:
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561658">KSDATARANGE</a>
-
-
-
  
 
  
-
 

@@ -52,17 +52,6 @@ req.typenames: GET_LOCAL_HOST_INFO8, *PGET_LOCAL_HOST_INFO8
 The <b>GET_LOCAL_HOST_INFO8</b> structure contains the data returned by a <a href="https://msdn.microsoft.com/library/windows/hardware/ff537644">REQUEST_GET_LOCAL_HOST_INFO</a> request with <b>u.GetLocalHostInformation.nLevel</b> set to GET_HOST_DDI_VERSION.
 
 
-## -syntax
-
-
-````
-typedef struct _GET_LOCAL_HOST_INFO8 {
-  USHORT MajorVersion;
-  USHORT MinorVersion;
-} GET_LOCAL_HOST_INFO8, *PGET_LOCAL_HOST_INFO8;
-````
-
-
 ## -struct-fields
 
 

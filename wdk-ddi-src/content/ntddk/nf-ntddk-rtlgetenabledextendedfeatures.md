@@ -7,7 +7,7 @@ old-location: kernel\rtlgetenabledextendedfeatures.htm
 old-project: kernel
 ms.assetid: c23d3bfd-a83c-4480-b5a1-b057201ea279
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: RtlGetEnabledExtendedFeatures, RtlGetEnabledExtendedFeatures routine [Kernel-Mode Driver Architecture], XSTATE_MASK_GSSE, XSTATE_MASK_LEGACY, XSTATE_MASK_LEGACY_FLOATING_POINT, XSTATE_MASK_LEGACY_SSE, k109_94843b2d-9abe-4b82-a781-dd2863ddc9c1.xml, kernel.rtlgetenabledextendedfeatures, wdm/RtlGetEnabledExtendedFeatures
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -54,16 +54,6 @@ req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 
 
 The <b>RtlGetEnabledExtendedFeatures</b> routine returns a mask of extended processor features that are enabled by the system.
-
-
-## -syntax
-
-
-````
-ULONG64 RtlGetEnabledExtendedFeatures(
-  _In_ ULONG64 FeatureMask
-);
-````
 
 
 ## -parameters
@@ -139,19 +129,18 @@ The Intel Sandy Bridge (formerly Gesher) SSE extension.
 
 
 
-Another routine, <a href="..\wdm\nf-wdm-exisprocessorfeaturepresent.md">ExIsProcessorFeaturePresent</a>, indicates whether an extended processor feature is available. Unlike <b>RtlGetEnabledExtendedFeatures</b>, however, it does not indicate whether the operating system has enabled the feature for use by kernel-mode drivers. 
+Another routine, <a href="https://msdn.microsoft.com/library/windows/hardware/ff545442">ExIsProcessorFeaturePresent</a>, indicates whether an extended processor feature is available. Unlike <b>RtlGetEnabledExtendedFeatures</b>, however, it does not indicate whether the operating system has enabled the feature for use by kernel-mode drivers. 
 
 
 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-exisprocessorfeaturepresent.md">ExIsProcessorFeaturePresent</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545442">ExIsProcessorFeaturePresent</a>
  
 
  
-
 

@@ -55,19 +55,6 @@ req.product: Windows 10 or later.
 The <b>OpenRemoteInterface</b> method opens a <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-device-interfaces-in-umdf-drivers">device interface</a> so that the driver can send I/O requests to it.
 
 
-## -syntax
-
-
-````
-HRESULT OpenRemoteInterface(
-  [in]           IWDFRemoteInterface         *pRemoteInterface,
-  [in, optional] PCWSTR                      pszRelativeFileName,
-  [in]           DWORD                       DesiredAccess,
-  [in, optional] PUMDF_IO_TARGET_OPEN_PARAMS pOpenParams
-);
-````
-
-
 ## -parameters
 
 
@@ -75,7 +62,7 @@ HRESULT OpenRemoteInterface(
 
 ### -param pRemoteInterface [in]
 
-A pointer to a <a href="..\wudfddi\nn-wudfddi-iwdfremoteinterface.md">IWDFRemoteInterface</a> interface that the driver obtained from a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff556925">IWDFDevice2::CreateRemoteInterface</a>.
+A pointer to a <a href="https://msdn.microsoft.com/10d4cd20-c797-455c-b16d-00982be5c1b7">IWDFRemoteInterface</a> interface that the driver obtained from a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff556925">IWDFDevice2::CreateRemoteInterface</a>.
 
 
 ### -param pszRelativeFileName [in, optional]
@@ -90,7 +77,7 @@ A bitmask that specifies the caller's desired access to the file. For more infor
 
 ### -param pOpenParams [in, optional]
 
-A pointer to a caller-allocated <a href="..\wudfddi\ns-wudfddi-_umdf_io_target_open_params.md">UMDF_IO_TARGET_OPEN_PARAMS</a> structure that contains additional parameters. This parameter is optional and can be <b>NULL</b>.
+A pointer to a caller-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/ff561275">UMDF_IO_TARGET_OPEN_PARAMS</a> structure that contains additional parameters. This parameter is optional and can be <b>NULL</b>.
 
 
 ## -returns
@@ -181,16 +168,15 @@ Error:
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560247">IWDFRemoteTarget</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560273">IWDFRemoteTarget::OpenFileByName</a>
-
-
-
-<a href="..\wudfddi\nn-wudfddi-iwdfremotetarget.md">IWDFRemoteTarget</a>
-
-
-
  
 
  
-
 

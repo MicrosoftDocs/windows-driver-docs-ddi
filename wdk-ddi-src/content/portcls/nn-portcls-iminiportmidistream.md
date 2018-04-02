@@ -7,7 +7,7 @@ old-location: audio\iminiportmidistream.htm
 old-project: audio
 ms.assetid: a3b763af-2800-4e6d-b9f8-060ba80de7e6
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/19/2018
 ms.keywords: IMiniportMidiStream, IMiniportMidiStream interface [Audio Devices], IMiniportMidiStream interface [Audio Devices], described, audio.iminiportmidistream, audmp-routines_604abeae-e44f-418a-913f-39502b6f266b.xml, portcls/IMiniportMidiStream
 ms.prod: windows-hardware
 ms.technology: windows-devices

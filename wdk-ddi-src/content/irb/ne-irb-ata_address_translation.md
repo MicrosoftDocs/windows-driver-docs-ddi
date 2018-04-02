@@ -7,7 +7,7 @@ old-location: storage\ata_address_translation.htm
 old-project: storage
 ms.assetid: 72fddd86-6e9f-4e75-af6a-e7f3e1064a8b
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: ATA_ADDRESS_TRANSLATION, ATA_ADDRESS_TRANSLATION enumeration [Storage Devices], ChsMode, Lba48BitMode, LbaMode, UnknownMode, irb/ATA_ADDRESS_TRANSLATION, irb/ChsMode, irb/Lba48BitMode, irb/LbaMode, irb/UnknownMode, storage.ata_address_translation, structs-ATA_f2a24a19-e6fa-4457-afac-b307d9dcbc76.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,19 +51,6 @@ req.typenames: ATA_ADDRESS_TRANSLATION
 
 The ATA_ADDRESS_TRANSLATION enumeration type indicates the type of address translation used during data transfers.
 <div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
-
-## -syntax
-
-
-````
-typedef enum  { 
-  UnknownMode   = 0,
-  ChsMode       = 1,
-  LbaMode       = 2,
-  Lba48BitMode  = 3
-} ATA_ADDRESS_TRANSLATION;
-````
-
 
 ## -enum-fields
 

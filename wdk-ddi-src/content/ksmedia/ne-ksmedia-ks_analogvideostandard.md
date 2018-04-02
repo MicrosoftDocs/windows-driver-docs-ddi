@@ -52,36 +52,6 @@ req.typenames: KS_AnalogVideoStandard
 The KS_AnalogVideoStandard enumeration defines various analog video standards that are used worldwide.
 
 
-## -syntax
-
-
-````
-typedef enum  { 
-  KS_AnalogVideo_None         = 0x00000000,
-  KS_AnalogVideo_NTSC_M       = 0x00000001,
-  KS_AnalogVideo_NTSC_M_J     = 0x00000002,
-  KS_AnalogVideo_NTSC_433     = 0x00000004,
-  KS_AnalogVideo_PAL_B        = 0x00000010,
-  KS_AnalogVideo_PAL_D        = 0x00000020,
-  KS_AnalogVideo_PAL_G        = 0x00000040,
-  KS_AnalogVideo_PAL_H        = 0x00000080,
-  KS_AnalogVideo_PAL_I        = 0x00000100,
-  KS_AnalogVideo_PAL_M        = 0x00000200,
-  KS_AnalogVideo_PAL_N        = 0x00000400,
-  KS_AnalogVideo_PAL_60       = 0x00000800,
-  KS_AnalogVideo_SECAM_B      = 0x00001000,
-  KS_AnalogVideo_SECAM_D      = 0x00002000,
-  KS_AnalogVideo_SECAM_G      = 0x00004000,
-  KS_AnalogVideo_SECAM_H      = 0x00008000,
-  KS_AnalogVideo_SECAM_K      = 0x00010000,
-  KS_AnalogVideo_SECAM_K1     = 0x00020000,
-  KS_AnalogVideo_SECAM_L      = 0x00040000,
-  KS_AnalogVideo_SECAM_L1     = 0x00080000,
-  KS_AnalogVideo_PAL_N_COMBO  = 0x00100000
-} KS_AnalogVideoStandard;
-````
-
-
 ## -enum-fields
 
 
@@ -203,32 +173,31 @@ You can combine the values in the KS_AnalogVideoStandard enumeration with a bitw
 
 ## -see-also
 
-<a href="..\ksmedia\ns-ksmedia-_ks_video_stream_config_caps.md">KS_VIDEO_STREAM_CONFIG_CAPS</a>
 
 
 
-<a href="..\ksmedia\ns-ksmedia-tagks_vbiinfoheader.md">KS_VBIINFOHEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565872">KSPROPERTY_TUNER_MODE_CAPS_S</a>
 
 
 
-<a href="..\ksmedia\ns-ksmedia-ksproperty_videodecoder_caps_s.md">KSPROPERTY_VIDEODECODER_CAPS_S</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565918">KSPROPERTY_TUNER_STANDARD_S</a>
 
 
 
-<a href="..\ksmedia\ns-ksmedia-ksproperty_tuner_mode_caps_s.md">KSPROPERTY_TUNER_MODE_CAPS_S</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566047">KSPROPERTY_VIDEODECODER_CAPS_S</a>
 
 
 
-<a href="..\ksmedia\ns-ksmedia-ksproperty_tuner_standard_s.md">KSPROPERTY_TUNER_STANDARD_S</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567691">KS_TVTUNER_CHANGE_INFO</a>
 
 
 
-<a href="..\ksmedia\ns-ksmedia-tagks_tvtuner_change_info.md">KS_TVTUNER_CHANGE_INFO</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567692">KS_VBIINFOHEADER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567706">KS_VIDEO_STREAM_CONFIG_CAPS</a>
  
 
  
-
 

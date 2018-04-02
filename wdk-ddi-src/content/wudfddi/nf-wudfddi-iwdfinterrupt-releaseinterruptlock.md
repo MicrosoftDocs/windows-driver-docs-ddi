@@ -55,14 +55,6 @@ req.product: Windows 10 or later.
 The <b>ReleaseInterruptLock</b> method ends a code sequence that executes while holding an interrupt object's lock.
 
 
-## -syntax
-
-
-````
-void ReleaseInterruptLock();
-````
-
-
 ## -parameters
 
 
@@ -90,16 +82,15 @@ For more information about handling interrupts in UMDF drivers, see <a href="htt
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfinterrupt.md">IWDFInterrupt</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451283">IWDFInterrupt</a>
 
 
 
 <a href="https://msdn.microsoft.com/2ED55AEC-2446-4E66-AAFD-A22BAB3FC9C7">IWDFInterrupt::AcquireInterruptLock</a>
-
-
-
  
 
  
-
 

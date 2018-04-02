@@ -7,7 +7,7 @@ old-location: ifsk\fsrtldissectname.htm
 old-project: ifsk
 ms.assetid: d97de0e1-0724-485d-95da-b9811036a21e
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FsRtlDissectName, FsRtlDissectName routine [Installable File System Drivers], fsrtlref_a74da803-0994-46e4-90f7-bc7728b59fe5.xml, ifsk.fsrtldissectname, ntifs/FsRtlDissectName
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,18 +50,6 @@ req.typenames: TOKEN_TYPE
 
 
 Given a Unicode pathname string, the <b>FsRtlDissectName</b> routine returns two strings, one containing the first file name found in the string, the other containing the remaining unparsed portion of the pathname string.
-
-
-## -syntax
-
-
-````
-VOID FsRtlDissectName(
-  _In_  UNICODE_STRING  Path,
-  _Out_ PUNICODE_STRING FirstName,
-  _Out_ PUNICODE_STRING RemainingName
-);
-````
 
 
 ## -parameters
@@ -247,12 +235,11 @@ For information about other string-handling routines, see <a href="https://msdn.
 
 ## -see-also
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a>
  
 
  
-
 

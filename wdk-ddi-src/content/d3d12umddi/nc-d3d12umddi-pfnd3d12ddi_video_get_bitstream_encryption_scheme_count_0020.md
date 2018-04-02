@@ -7,7 +7,7 @@ old-location: display\pfnd3d12ddi_video_get_decode_bitstream_encryption_scheme_c
 old-project: display
 ms.assetid: BD3DFB48-9470-45CC-93BC-A918FD43DC3F
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3D12DDI_VIDEO_GET_BITSTREAM_ENCRYPTION_SCHEME_COUNT_0020, d3d12umddi/pfnGetBitstreamEncryptionSchemeCount, display.pfnd3d12ddi_video_get_decode_bitstream_encryption_scheme_count, pfnGetBitstreamEncryptionSchemeCount, pfnGetBitstreamEncryptionSchemeCount callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,27 +52,12 @@ req.typenames: D3D11_1DDI_GETCAPTUREHANDLEDATA
 The <i>pfnGetBitstreamEncryptionSchemeCount</i> callback function retrieves the number of encryption schemes supported for a decode profile.
 
 
-## -prototype
-
-
-````
-PFND3D12DDI_VIDEO_GET_BITSTREAM_ENCRYPTION_SCHEME_COUNT_0020 pfnGetBitstreamEncryptionSchemeCount;
-
-UINT APIENTRY* pfnGetBitstreamEncryptionSchemeCount(
-   D3D12DDI_HDEVICE hDrvDevice,
-   UINT             NodeIndex,
-   REFGUID          DecodeProfile
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
 
 
-### -param D3D12DDI_HDEVICE
+### -param Arg1
 
 
 ### -param NodeIndex

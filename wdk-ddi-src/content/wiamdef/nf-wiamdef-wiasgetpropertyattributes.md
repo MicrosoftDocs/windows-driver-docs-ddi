@@ -53,20 +53,6 @@ req.product: Windows 10 or later.
 The <b>wiasGetPropertyAttributes </b>function retrieves the access flags and valid values for a set of properties.
 
 
-## -syntax
-
-
-````
-HRESULT _stdcall wiasGetPropertyAttributes(
-  _In_  BYTE        *pWiasContext,
-        LONG        cPropSpec,
-  _In_  PROPSPEC    *pPropSpec,
-        ULONG       *pulAccessFlags,
-  _Out_ PROPVARIANT *pPropVar
-);
-````
-
-
 ## -parameters
 
 

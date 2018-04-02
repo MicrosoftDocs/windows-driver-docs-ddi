@@ -53,16 +53,6 @@ req.product: Windows 10 or later.
 
 
 
-## -syntax
-
-
-````
-typedef enum  { 
-  kMessageBox  = 0
-} UI_TYPE;
-````
-
-
 ## -enum-fields
 
 

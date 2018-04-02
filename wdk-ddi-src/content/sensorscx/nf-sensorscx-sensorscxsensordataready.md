@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 This function notifies the class extension that the driver has retrieved data.
 
 
-## -syntax
-
-
-````
-FORCEINLINE NTSTATUS SensorsCxSensorDataReady(
-  _In_ SENSOROBJECT            Sensor,
-  _In_ PSENSOR_COLLECTION_LIST pSensorData
-);
-````
-
-
 ## -parameters
 
 
@@ -76,7 +65,7 @@ A reference to a sensor object.
 
 ### -param pSensorData [in]
 
-A list of <a href="https://msdn.microsoft.com/library/windows/hardware/dn946698">Sensor properties</a>. For more information, see <a href="..\sensorsdef\ns-sensorsdef-sensor_collection_list.md">SENSOR_COLLECTION_LIST</a>.
+A list of <a href="https://msdn.microsoft.com/library/windows/hardware/dn946698">Sensor properties</a>. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/dn957092">SENSOR_COLLECTION_LIST</a>.
 
 
 ## -returns
@@ -118,11 +107,6 @@ This function is implemented by the class extension and the driver must call it.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn946698">Sensor properties</a>
-
-
-
-<a href="..\sensorsdef\ns-sensorsdef-sensor_collection_list.md">SENSOR_COLLECTION_LIST</a>
 
 
 
@@ -130,8 +114,12 @@ This function is implemented by the class extension and the driver must call it.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn957092">SENSOR_COLLECTION_LIST</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn946698">Sensor properties</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: kernel\iowmisetsingleinstance.htm
 old-project: kernel
 ms.assetid: 043b51cd-816f-414d-85b2-2573c42393e4
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: IoWMISetSingleInstance, IoWMISetSingleInstance routine [Kernel-Mode Driver Architecture], k104_35479ad6-0f12-4d8b-b375-faa271cf65fd.xml, kernel.iowmisetsingleinstance, wdm/IoWMISetSingleInstance
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,20 +53,6 @@ req.product: Windows 10 or later.
 The <b>IoWMISetSingleInstance</b> routine sets the values for properties within the data block instance that matches the specified WMI class and instance name.
 
 
-## -syntax
-
-
-````
-NTSTATUS IoWMISetSingleInstance(
-  _In_ PVOID           DataBlockObject,
-  _In_ PUNICODE_STRING InstanceName,
-  _In_ ULONG           Version,
-  _In_ ULONG           ValueBufferSize,
-  _In_ PVOID           ValueBuffer
-);
-````
-
-
 ## -parameters
 
 
@@ -74,7 +60,7 @@ NTSTATUS IoWMISetSingleInstance(
 
 ### -param DataBlockObject [in]
 
-Pointer to a WMI data block object. The caller opens the data block object for the WMI class with the <a href="..\wdm\nf-wdm-iowmiopenblock.md">IoWMIOpenBlock</a> routine. The object must be opened with the WMIGUID_SET access right. 
+Pointer to a WMI data block object. The caller opens the data block object for the WMI class with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550453">IoWMIOpenBlock</a> routine. The object must be opened with the WMIGUID_SET access right. 
 
 
 ### -param InstanceName [in]
@@ -175,22 +161,13 @@ The driver that implements the WMI data block instance is unable to update the i
 
 <b>IoWMISetSingleInstance</b> determines which drivers might support the specified WMI class and instance name, and issues an <a href="https://msdn.microsoft.com/library/windows/hardware/ff550831">IRP_MN_CHANGE_SINGLE_INSTANCE</a> request to each such driver. The driver that exports the data block instance with matching <b>InstanceName</b> property updates its data block instance. Note that a data block might have both read-only and read/write properties. In this case, only the read/write properties will be updated and STATUS_SUCCESS is returned.
 
-Drivers can also use the <a href="..\wdm\nf-wdm-iowmisetsingleitem.md">IoWMISetSingleItem</a> routine to update a single property within the class instance.
+Drivers can also use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550495">IoWMISetSingleItem</a> routine to update a single property within the class instance.
 
 
 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iowmiopenblock.md">IoWMIOpenBlock</a>
-
-
-
-<a href="..\wdm\nf-wdm-iowmiquerysingleinstance.md">IoWMIQuerySingleInstance</a>
-
-
-
-<a href="..\wdm\nf-wdm-iowmisetsingleitem.md">IoWMISetSingleItem</a>
 
 
 
@@ -198,8 +175,16 @@ Drivers can also use the <a href="..\wdm\nf-wdm-iowmisetsingleitem.md">IoWMISetS
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550453">IoWMIOpenBlock</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550471">IoWMIQuerySingleInstance</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550495">IoWMISetSingleItem</a>
  
 
  
-
 

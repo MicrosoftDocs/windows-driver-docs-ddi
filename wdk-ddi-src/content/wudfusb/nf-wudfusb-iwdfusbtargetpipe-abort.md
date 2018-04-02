@@ -55,14 +55,6 @@ req.product: Windows 10 or later.
 The <b>Abort</b> method aborts all pending transfers on a USB pipe.
 
 
-## -syntax
-
-
-````
-HRESULT  Abort();
-````
-
-
 ## -parameters
 
 
@@ -135,16 +127,15 @@ For more information about how <b>Abort</b> works, see the <a href="https://msdn
 
 ## -see-also
 
-<a href="..\wudfusb\nn-wudfusb-iwdfusbtargetpipe.md">IWDFUsbTargetPipe</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560391">IWDFUsbTargetPipe</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540202">WinUsb_AbortPipe</a>
-
-
-
  
 
  
-
 

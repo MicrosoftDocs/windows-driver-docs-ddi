@@ -7,7 +7,7 @@ old-location: display\dxgkarg_resetengine.htm
 old-project: display
 ms.assetid: a19eea7f-ceaf-47e0-b2dd-46511fcae66f
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*INOUT_PDXGKARG_RESETENGINE, DXGKARG_RESETENGINE, DXGKARG_RESETENGINE structure [Display Devices], _DXGKARG_RESETENGINE, d3dkmddi/DXGKARG_RESETENGINE, display.dxgkarg_resetengine"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,19 +49,7 @@ req.typenames: DXGKARG_RESETENGINE
 ## -description
 
 
-Specifies a node within the physical display adapter that can be reset when the display port driver's GPU scheduler calls the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_resetengine.md">DxgkDdiResetEngine</a> function to request a reset operation.
-
-
-## -syntax
-
-
-````
-typedef struct _DXGKARG_RESETENGINE {
-  UINT NodeOrdinal;
-  UINT EngineOrdinal;
-  UINT LastAbortedFenceId;
-} DXGKARG_RESETENGINE;
-````
+Specifies a node within the physical display adapter that can be reset when the display port driver's GPU scheduler calls the <a href="https://msdn.microsoft.com/9c2097b2-5742-422c-a650-7efff2484970">DxgkDdiResetEngine</a> function to request a reset operation.
 
 
 ## -struct-fields
@@ -71,7 +59,7 @@ typedef struct _DXGKARG_RESETENGINE {
 
 ### -field NodeOrdinal
 
-[in] An index of a node within the physical adapter defined by   the <b>EngineOrdinal</b> member that is being reset in a call to <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_resetengine.md">DxgkDdiResetEngine</a>.
+[in] An index of a node within the physical adapter defined by   the <b>EngineOrdinal</b> member that is being reset in a call to <a href="https://msdn.microsoft.com/9c2097b2-5742-422c-a650-7efff2484970">DxgkDdiResetEngine</a>.
 
 
 ### -field EngineOrdinal
@@ -95,12 +83,11 @@ For more information, see <a href="https://msdn.microsoft.com/5BC4F94C-2B45-44E2
 
 ## -see-also
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_resetengine.md">DxgkDdiResetEngine</a>
 
 
 
+<a href="https://msdn.microsoft.com/9c2097b2-5742-422c-a650-7efff2484970">DxgkDdiResetEngine</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: dtf\iwdtfconfig2_enableobjecterrorlogging.htm
 old-project: dtf
 ms.assetid: 10e7abc9-addd-4f0e-b77b-af9e8e1fa061
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 3/29/2018
 ms.keywords: EnableObjectErrorLogging method [Windows Device Testing Framework], EnableObjectErrorLogging method [Windows Device Testing Framework], IWDTFCONFIG2 interface, EnableObjectErrorLogging,IWDTFCONFIG2.EnableObjectErrorLogging, IWDTFCONFIG2, IWDTFCONFIG2 interface [Windows Device Testing Framework], EnableObjectErrorLogging method, IWDTFCONFIG2::EnableObjectErrorLogging, Microsoft.WDTF.IWDTFCONFIG2.EnableObjectErrorLogging, Microsoft::WDTF::IWDTFCONFIG2::EnableObjectErrorLogging, dtf.iwdtfconfig2_enableobjecterrorlogging, wdtf/IWDTFCONFIG2::EnableObjectErrorLogging
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,14 +53,6 @@ req.product: Windows 10 or later.
 Enables object error logging for all objects.
 
 
-## -syntax
-
-
-````
-HRESULT EnableObjectErrorLogging();
-````
-
-
 ## -parameters
 
 
@@ -89,12 +81,11 @@ logging defaults to disabled.
 
 ## -see-also
 
-<a href="..\wdtf\nn-wdtf-iwdtfconfig2.md">IWDTFCONFIG2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406381">IWDTFCONFIG2</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: display\dxgkddicheckmultiplaneoverlaysupport2.htm
 old-project: display
 ms.assetid: A453B59F-0DD1-4FFF-A0E6-09494211780F
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKDDI_CHECKMULTIPLANEOVERLAYSUPPORT2, DxgkDdiCheckMultiPlaneOverlaySupport2, DxgkDdiCheckMultiPlaneOverlaySupport2 callback function [Display Devices], d3dkmddi/DxgkDdiCheckMultiPlaneOverlaySupport2, display.dxgkddicheckmultiplaneoverlaysupport2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,20 +52,6 @@ req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
 <b>DxgkDdiCheckMultiPlaneOverlaySupport2</b> is called to determine whether a specific multi-plane overlay configuration is supported.  It must be implemented by Windows Display Driver Model (WDDM) 2.0 or later drivers that support multi-plane overlays.
 
 
-## -prototype
-
-
-````
-DXGKDDI_CHECKMULTIPLANEOVERLAYSUPPORT2 DxgkDdiCheckMultiPlaneOverlaySupport2;
-
-NTSTATUS APIENTRY DxgkDdiCheckMultiPlaneOverlaySupport2(
-  _In_    const HANDLE                                 hAdapter,
-  _Inout_       DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT2 *pData
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -87,7 +73,7 @@ Identifies the adapter containing the overlay hardware.
 
 #### - pData [in, out]
 
-A pointer to a <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_checkmultiplaneoverlaysupport2.md">DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT2</a> structure that describes the surfaces and display options to present.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn914469">DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT2</a> structure that describes the surfaces and display options to present.
 
 
 ## -returns
@@ -110,12 +96,11 @@ The kernel mode driver reports whether the specified configuration is supported.
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_checkmultiplaneoverlaysupport2.md">DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn914469">DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT2</a>
  
 
  
-
 

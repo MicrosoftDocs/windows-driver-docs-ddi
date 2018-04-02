@@ -7,7 +7,7 @@ old-location: storage\phw_adapter_state.htm
 old-project: storage
 ms.assetid: 68483404-5ea7-47f6-a6ae-6909e5b6759e
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "(*PHW_ADAPTER_STATE), (*PHW_ADAPTER_STATE) callback function [Storage Devices], ide_minikr_65caac84-2b5a-4977-81ff-d9efc1808dbb.xml, srb/(*PHW_ADAPTER_STATE), storage.phw_adapter_state"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,18 +53,6 @@ req.product: Windows 10 or later.
 The PHW_INITIALIZE routine prototype declares a routine that saves or restores the state of the miniport driver's HBA. 
 
 
-## -prototype
-
-
-````
-typedef BOOLEAN (*PHW_ADAPTER_STATE)(
-  _In_ PVOID   DeviceExtension ,
-  _In_ PVOID   Context,
-  _In_ BOOLEAN SaveState
-);
-````
-
-
 ## -parameters
 
 
@@ -82,7 +70,7 @@ Reserved for system use.
 
 ### -param SaveState [in]
 
-Indicates, when <b>TRUE</b>, that the miniport driver should save the current state of the HBA until the <a href="..\srb\nc-srb-phw_adapter_state.md">HwScsiAdapterState</a> routine is called again with <i>SaveState</i> set to <b>FALSE</b> to restore the saved state.
+Indicates, when <b>TRUE</b>, that the miniport driver should save the current state of the HBA until the <a href="https://msdn.microsoft.com/library/windows/hardware/ff557278">HwScsiAdapterState</a> routine is called again with <i>SaveState</i> set to <b>FALSE</b> to restore the saved state.
 
 
 ## -returns
@@ -100,19 +88,18 @@ The routine declared by this prototype returns <b>TRUE</b> if it successfully sa
 
 Only SCSI miniport drivers use this prototype. Miniport drivers that work with the StorPort driver do not use the routine that is declared by this prototype.
 
-For more information about the routine declared by this prototype, see <a href="..\srb\nc-srb-phw_adapter_state.md">HwScsiAdapterState</a>. 
+For more information about the routine declared by this prototype, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff557278">HwScsiAdapterState</a>. 
 
 
 
 
 ## -see-also
 
-<a href="..\srb\nc-srb-phw_adapter_state.md">HwScsiAdapterState</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557278">HwScsiAdapterState</a>
  
 
  
-
 

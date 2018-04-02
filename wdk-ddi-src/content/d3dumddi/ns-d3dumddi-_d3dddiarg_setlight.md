@@ -7,7 +7,7 @@ old-location: display\d3dddiarg_setlight.htm
 old-project: display
 ms.assetid: 91da1c7a-aff5-4ece-b18d-14bd41e95464
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDIARG_SETLIGHT, D3DDDIARG_SETLIGHT structure [Display Devices], UMDisplayDriver_param_Structs_85eaa308-4edf-44ee-9235-e8637c10aa35.xml, _D3DDDIARG_SETLIGHT, d3dumddi/D3DDDIARG_SETLIGHT, display.d3dddiarg_setlight
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,17 +52,6 @@ req.typenames: D3DDDIARG_SETLIGHT
 The D3DDDIARG_SETLIGHT structure describes how to set light properties. 
 
 
-## -syntax
-
-
-````
-typedef struct _D3DDDIARG_SETLIGHT {
-  UINT                 Index;
-  D3DDDI_SETLIGHT_TYPE DataType;
-} D3DDDIARG_SETLIGHT;
-````
-
-
 ## -struct-fields
 
 
@@ -88,7 +77,7 @@ D3DDDISETLIGHT_DATA
 
 </td>
 <td>
-Specifies that a pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_light.md">D3DDDI_LIGHT</a> structure that defines light properties is supplied in the <i>pLightProperties</i> parameter in a call to the user-mode display driver's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setlight.md">SetLight</a> function.
+Specifies that a pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff544579">D3DDDI_LIGHT</a> structure that defines light properties is supplied in the <i>pLightProperties</i> parameter in a call to the user-mode display driver's <a href="https://msdn.microsoft.com/28e3992e-a636-47e2-a5a6-5da06d276b5c">SetLight</a> function.
 
 </td>
 </tr>
@@ -118,16 +107,15 @@ Disables the light whose index is specified in <b>Index</b>
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setlight.md">SetLight</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_light.md">D3DDDI_LIGHT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544579">D3DDDI_LIGHT</a>
 
 
 
+<a href="https://msdn.microsoft.com/28e3992e-a636-47e2-a5a6-5da06d276b5c">SetLight</a>
  
 
  
-
 

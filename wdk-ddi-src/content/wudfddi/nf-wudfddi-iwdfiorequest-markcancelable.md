@@ -55,16 +55,6 @@ req.product: Windows 10 or later.
 The <b>MarkCancelable</b> method enables the canceling of the I/O request.
 
 
-## -syntax
-
-
-````
-void  MarkCancelable(
-  [in] IRequestCallbackCancel *pCancelCallback
-);
-````
-
-
 ## -parameters
 
 
@@ -72,7 +62,7 @@ void  MarkCancelable(
 
 ### -param pCancelCallback [in]
 
-A pointer to the <a href="..\wudfddi\nn-wudfddi-irequestcallbackcancel.md">IRequestCallbackCancel</a> interface whose method the framework calls after the I/O request is canceled.
+A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556901">IRequestCallbackCancel</a> interface whose method the framework calls after the I/O request is canceled.
 
 
 ## -returns
@@ -92,7 +82,7 @@ After a driver receives an I/O request as input to an <a href="https://msdn.micr
 
 Before a driver calls <b>MarkCancelable</b>, the driver must implement the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556903">IRequestCallbackCancel::OnCancel</a> method. 
 
-The User Mode Driver Framework (UMDF) allows only one <a href="https://msdn.microsoft.com/library/windows/hardware/ff556903">IRequestCallbackCancel::OnCancel</a> method per queue. Therefore, when a driver calls <b>MarkCancelable</b> for requests that are associated with a particular queue to enable the framework to cancel those requests, the driver must pass a pointer to the <a href="..\wudfddi\nn-wudfddi-irequestcallbackcancel.md">IRequestCallbackCancel</a> interface for the same request-callback object. Later, to cancel each request, the framework passes a pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a> interface for the request in a call to this request-callback object's <b>IRequestCallbackCancel::OnCancel</b> method.
+The User Mode Driver Framework (UMDF) allows only one <a href="https://msdn.microsoft.com/library/windows/hardware/ff556903">IRequestCallbackCancel::OnCancel</a> method per queue. Therefore, when a driver calls <b>MarkCancelable</b> for requests that are associated with a particular queue to enable the framework to cancel those requests, the driver must pass a pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556901">IRequestCallbackCancel</a> interface for the same request-callback object. Later, to cancel each request, the framework passes a pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff558985">IWDFIoRequest</a> interface for the request in a call to this request-callback object's <b>IRequestCallbackCancel::OnCancel</b> method.
 
 The driver must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff559070">IWDFIoRequest::Complete</a>, either from the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556903">IRequestCallbackCancel::OnCancel</a> method or from its regular I/O completion path.
 
@@ -142,19 +132,6 @@ The following code example sets up a request so that the framework can cancel it
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559163">IWDFIoRequest::UnmarkCancelable</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559081">IWDFIoRequest::ForwardToIoQueue</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556903">IRequestCallbackCancel::OnCancel</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556875">IQueueCallbackRead::OnRead</a>
 
 
 
@@ -162,15 +139,23 @@ The following code example sets up a request so that the framework can cancel it
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556875">IQueueCallbackRead::OnRead</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556885">IQueueCallbackWrite::OnWrite</a>
 
 
 
-<a href="..\wudfddi\nn-wudfddi-irequestcallbackcancel.md">IRequestCallbackCancel</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556901">IRequestCallbackCancel</a>
 
 
 
-<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556903">IRequestCallbackCancel::OnCancel</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558985">IWDFIoRequest</a>
 
 
 
@@ -178,8 +163,12 @@ The following code example sets up a request so that the framework can cancel it
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559081">IWDFIoRequest::ForwardToIoQueue</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559163">IWDFIoRequest::UnmarkCancelable</a>
  
 
  
-
 

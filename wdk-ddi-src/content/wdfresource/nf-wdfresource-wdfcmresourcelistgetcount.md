@@ -58,16 +58,6 @@ req.product: Windows 10 or later.
 The <b>WdfCmResourceListGetCount</b> method returns the number of resource descriptors that are contained in a specified resource list.
 
 
-## -syntax
-
-
-````
-ULONG WdfCmResourceListGetCount(
-  _In_ WDFCMRESLIST List
-);
-````
-
-
 ## -parameters
 
 
@@ -100,7 +90,7 @@ For more information about resource lists, see <a href="https://docs.microsoft.c
 
 #### Examples
 
-The following code example shows how an <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_prepare_hardware.md">EvtDevicePrepareHardware</a> callback function might locate the memory, port, and interrupt resources in the list of <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/raw-and-translated-resources">translated hardware resources</a> that the Plug and Play (PnP) manager has assigned to a device.
+The following code example shows how an <a href="https://msdn.microsoft.com/a3d4a983-8a75-44be-bd72-8673d89f9f87">EvtDevicePrepareHardware</a> callback function might locate the memory, port, and interrupt resources in the list of <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/raw-and-translated-resources">translated hardware resources</a> that the Plug and Play (PnP) manager has assigned to a device.
 
 <div class="code"><span codelanguage=""><table>
 <tr>

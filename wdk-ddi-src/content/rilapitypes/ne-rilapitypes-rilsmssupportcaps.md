@@ -7,7 +7,7 @@ old-location: netvista\rilsmssupportcaps.htm
 old-project: netvista
 ms.assetid: 723c6bf7-beb9-4ab8-8b84-ac22388022b9
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: RILSMSSUPPORTCAPS, RILSMSSUPPORTCAPS enumeration [Network Drivers Starting with Windows Vista], RIL_CAPS_SMSSUPPORT_16BITREFERENCENUMBER, RIL_CAPS_SMSSUPPORT_ALL, netvista.rilsmssupportcaps, ntddrilapitypes/RILSMSSUPPORTCAPS, ntddrilapitypes/RIL_CAPS_SMSSUPPORT_16BITREFERENCENUMBER, ntddrilapitypes/RIL_CAPS_SMSSUPPORT_ALL
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,17 +51,6 @@ req.product: Windows 10 or later.
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef enum _RILSMSSUPPORTCAPS { 
-  RIL_CAPS_SMSSUPPORT_16BITREFERENCENUMBER,
-  RIL_CAPS_SMSSUPPORT_ALL
-} RILSMSSUPPORTCAPS;
-````
 
 
 ## -enum-fields

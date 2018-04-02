@@ -7,7 +7,7 @@ old-location: netvista\ndisifderegisterinterface.htm
 old-project: netvista
 ms.assetid: 696d0870-966e-44ac-859e-d530dd6c76b8
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: NdisIfDeregisterInterface, NdisIfDeregisterInterface function [Network Drivers Starting with Windows Vista], ndis/NdisIfDeregisterInterface, net_if_functions_ref_dc1bdf3d-3cca-4d4a-b0f9-4bdef32bcdb0.xml, netvista.ndisifderegisterinterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,18 +53,8 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 The 
   <b>NdisIfDeregisterInterface</b> function deregisters an NDIS network interface that was previously
   registered by a call to the 
-  <a href="..\ndis\nf-ndis-ndisifregisterinterface.md">
+  <a href="https://msdn.microsoft.com/d0b0ada7-afb1-4cb7-ada6-7c5c7abe7d19">
   NdisIfRegisterInterface</a> function.
-
-
-## -syntax
-
-
-````
-VOID NdisIfDeregisterInterface(
-  _In_ NET_IFINDEX IfIndex
-);
-````
 
 
 ## -parameters
@@ -83,7 +73,7 @@ TBD
 
 An index that identifies the network interface to deregister. The interface provider obtained this
      index from a previous call to the 
-     <a href="..\ndis\nf-ndis-ndisifregisterinterface.md">
+     <a href="https://msdn.microsoft.com/d0b0ada7-afb1-4cb7-ada6-7c5c7abe7d19">
      NdisIfRegisterInterface</a> function.
 
 
@@ -119,7 +109,6 @@ An interface provider calls the
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisifregisterinterface.md">NdisIfRegisterInterface</a>
 
 
 
@@ -127,8 +116,8 @@ An interface provider calls the
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562715">NdisIfRegisterInterface</a>
  
 
  
-
 

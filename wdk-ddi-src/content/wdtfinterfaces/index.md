@@ -2,7 +2,7 @@
 UID: NA:wdtfinterfaces
 ms.assetid: e172752b-c698-3669-8615-778188cafdb6
 ms.author: windowsdriverdev
-ms.date: 03/13/18
+ms.date: 02/27/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

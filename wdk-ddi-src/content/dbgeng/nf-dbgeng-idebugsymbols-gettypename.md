@@ -7,7 +7,7 @@ old-location: debugger\gettypename.htm
 old-project: debugger
 ms.assetid: 09aa3ba9-d5b6-4c08-93f1-f7beca9350a1
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: GetTypeName method [Windows Debugging], GetTypeName method [Windows Debugging], IDebugSymbols interface, GetTypeName method [Windows Debugging], IDebugSymbols2 interface, GetTypeName method [Windows Debugging], IDebugSymbols3 interface, GetTypeName,IDebugSymbols.GetTypeName, IDebugSymbols, IDebugSymbols interface [Windows Debugging], GetTypeName method, IDebugSymbols2 interface [Windows Debugging], GetTypeName method, IDebugSymbols2::GetTypeName, IDebugSymbols3 interface [Windows Debugging], GetTypeName method, IDebugSymbols3::GetTypeName, IDebugSymbols::GetTypeName, IDebugSymbols_01f0496a-ce0e-442b-88c9-2a92c15a1237.xml, dbgeng/IDebugSymbols2::GetTypeName, dbgeng/IDebugSymbols3::GetTypeName, dbgeng/IDebugSymbols::GetTypeName, debugger.gettypename
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,20 +52,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>GetTypeName</b>  method returns the name of the type symbol specified by its type ID and module.
-
-
-## -syntax
-
-
-````
-HRESULT GetTypeName(
-  [in]            ULONG64 Module,
-  [in]            ULONG   TypeId,
-  [out, optional] PSTR    NameBuffer,
-  [in]            ULONG   NameBufferSize,
-  [out, optional] PULONG  NameSize
-);
-````
 
 
 ## -parameters
@@ -159,24 +145,23 @@ For more information about symbols, see <a href="https://msdn.microsoft.com/libr
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549457">GetTypeSize</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550856">IDebugSymbols</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550864">IDebugSymbols2</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550870">IDebugSymbols3</a>
  
 
  
-
 

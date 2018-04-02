@@ -7,7 +7,7 @@ old-location: display\d3dkmt-openprotectedsessionfromnthandle.htm
 old-project: display
 ms.assetid: 15937864-c6ef-4c86-b957-87c7afe1cd94
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMT_OPENPROTECTEDSESSIONFROMNTHANDLE, D3DKMT_OPENPROTECTEDSESSIONFROMNTHANDLE structure [Display Devices], _D3DKMT_OPENPROTECTEDSESSIONFROMNTHANDLE, d3dkmthk/D3DKMT_OPENPROTECTEDSESSIONFROMNTHANDLE, display.d3dkmt-openprotectedsessionfromnthandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,17 +50,6 @@ req.typenames: D3DKMT_OPENPROTECTEDSESSIONFROMNTHANDLE
 
 
 Used to open a protected session from the NT handle.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DKMT_OPENPROTECTEDSESSIONFROMNTHANDLE {
-  HANDLE        hNtHandle;
-  D3DKMT_HANDLE hHandle;
-} D3DKMT_OPENPROTECTEDSESSIONFROMNTHANDLE;
-````
 
 
 ## -struct-fields

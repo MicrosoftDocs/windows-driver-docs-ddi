@@ -7,7 +7,7 @@ old-location: storage\storportlogtelemetry.htm
 old-project: storage
 ms.assetid: 3B32F31C-3850-43D4-9C6E-40D35B8AF4D4
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: StorPortLogTelemetry, StorPortLogTelemetry routine [Storage Devices], storage.storportlogtelemetry, storport/StorPortLogTelemetry
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,19 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The <b>StorPortLogTelemetry</b> routine logs a miniport telemetry event to help diagnose or collect any useful information. The miniport can log eight general purpose name-value pairs and a buffer that has maximum length of 4KB, as well as several event related fields that are defined in structure <a href="..\storport\ns-storport-_storport_telemetry_event.md">STORPORT_TELEMETRY_EVENT</a>.
-
-
-## -syntax
-
-
-````
-ULONG StorPortLogTelemetry(
-  _In_     PVOID                     HwDeviceExtension ,
-  _In_opt_ PSTOR_ADDRESS             StorAddress,
-  _In_     PSTORPORT_TELEMETRY_EVENT Event
-);
-````
+The <b>StorPortLogTelemetry</b> routine logs a miniport telemetry event to help diagnose or collect any useful information. The miniport can log eight general purpose name-value pairs and a buffer that has maximum length of 4KB, as well as several event related fields that are defined in structure <a href="https://msdn.microsoft.com/50A3EB6D-C485-4C04-8E88-9BD7D7ED0A62">STORPORT_TELEMETRY_EVENT</a>.
 
 
 ## -parameters
@@ -82,7 +70,7 @@ The storage unit device address. This parameter is NULL for adapter devices.
 
 ### -param Event [in]
 
-Pointer to the <a href="..\storport\ns-storport-_storport_telemetry_event.md">STORPORT_TELEMETRY_EVENT</a> structure that contains the telemetry data payload.
+Pointer to the <a href="https://msdn.microsoft.com/50A3EB6D-C485-4C04-8E88-9BD7D7ED0A62">STORPORT_TELEMETRY_EVENT</a> structure that contains the telemetry data payload.
 
 
 ## -returns
@@ -160,12 +148,11 @@ If miniport has no payload to fill in Event-&gt;EventBuffer, it should set Event
 
 ## -see-also
 
-<a href="..\storport\ns-storport-_storport_telemetry_event.md">STORPORT_TELEMETRY_EVENT</a>
 
 
 
+<a href="https://msdn.microsoft.com/50A3EB6D-C485-4C04-8E88-9BD7D7ED0A62">STORPORT_TELEMETRY_EVENT</a>
  
 
  
-
 

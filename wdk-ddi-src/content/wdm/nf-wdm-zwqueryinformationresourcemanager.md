@@ -7,7 +7,7 @@ old-location: kernel\zwqueryinformationresourcemanager.htm
 old-project: kernel
 ms.assetid: 6faeb410-486e-4b79-b942-62d16039d24b
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: NtQueryInformationResourceManager, ZwQueryInformationResourceManager, ZwQueryInformationResourceManager routine [Kernel-Mode Driver Architecture], kernel.zwqueryinformationresourcemanager, ktm_ref_2232fa2b-badb-4054-8a99-65f55ca1bff5.xml, wdm/NtQueryInformationResourceManager, wdm/ZwQueryInformationResourceManager
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -54,20 +54,6 @@ req.product: Windows 10 or later.
 The <b>ZwQueryInformationResourceManager</b> routine retrieves information about a specified <a href="https://msdn.microsoft.com/b44f2035-ee9f-453b-b12d-89ca36a8b280">resource manager object</a>.
 
 
-## -syntax
-
-
-````
-NTSTATUS ZwQueryInformationResourceManager(
-  _In_      HANDLE                            ResourceManagerHandle,
-  _In_      RESOURCEMANAGER_INFORMATION_CLASS ResourceManagerInformationClass,
-  _Out_     PVOID                             ResourceManagerInformation,
-  _In_      ULONG                             ResourceManagerInformationLength,
-  _Out_opt_ PULONG                            ReturnLength
-);
-````
-
-
 ## -parameters
 
 
@@ -75,17 +61,17 @@ NTSTATUS ZwQueryInformationResourceManager(
 
 ### -param ResourceManagerHandle [in]
 
-A handle to a resource manager object that was obtained by a previous call to <a href="..\wdm\nf-wdm-zwcreateresourcemanager.md">ZwCreateResourceManager</a> or <a href="..\wdm\nf-wdm-zwopenresourcemanager.md">ZwOpenResourceManager</a>. The handle must have RESOURCEMANAGER_QUERY_INFORMATION access to the object.
+A handle to a resource manager object that was obtained by a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff566427">ZwCreateResourceManager</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff567026">ZwOpenResourceManager</a>. The handle must have RESOURCEMANAGER_QUERY_INFORMATION access to the object.
 
 
 ### -param ResourceManagerInformationClass [in]
 
-A <a href="..\wdm\ne-wdm-_resourcemanager_information_class.md">RESOURCEMANAGER_INFORMATION_CLASS</a>-typed value that specifies the information to retrieve. This value must be <b>ResourceManagerBasicInformation</b>.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff561090">RESOURCEMANAGER_INFORMATION_CLASS</a>-typed value that specifies the information to retrieve. This value must be <b>ResourceManagerBasicInformation</b>.
 
 
 ### -param ResourceManagerInformation [out]
 
-A pointer to a caller-allocated <a href="..\wdm\ns-wdm-_resourcemanager_basic_information.md">RESOURCEMANAGER_BASIC_INFORMATION</a> structure that receives information from <b>ZwQueryInformationResourceManager</b>.
+A pointer to a caller-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/ff561084">RESOURCEMANAGER_BASIC_INFORMATION</a> structure that receives information from <b>ZwQueryInformationResourceManager</b>.
 
 
 ### -param ResourceManagerInformationLength [in]
@@ -198,15 +184,14 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwsetinformationresourcemanager.md">ZwSetInformationResourceManager</a>
 
 
 
-<a href="..\wdm\nf-wdm-zwrecoverresourcemanager.md">ZwRecoverResourceManager</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561084">RESOURCEMANAGER_BASIC_INFORMATION</a>
 
 
 
-<a href="..\wdm\nf-wdm-zwopenresourcemanager.md">ZwOpenResourceManager</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561090">RESOURCEMANAGER_INFORMATION_CLASS</a>
 
 
 
@@ -214,20 +199,20 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
-<a href="..\wdm\nf-wdm-zwcreateresourcemanager.md">ZwCreateResourceManager</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566427">ZwCreateResourceManager</a>
 
 
 
-<a href="..\wdm\ne-wdm-_resourcemanager_information_class.md">RESOURCEMANAGER_INFORMATION_CLASS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567026">ZwOpenResourceManager</a>
 
 
 
-<a href="..\wdm\ns-wdm-_resourcemanager_basic_information.md">RESOURCEMANAGER_BASIC_INFORMATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567078">ZwRecoverResourceManager</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567098">ZwSetInformationResourceManager</a>
  
 
  
-
 

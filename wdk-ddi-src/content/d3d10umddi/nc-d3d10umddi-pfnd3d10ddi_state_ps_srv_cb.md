@@ -7,7 +7,7 @@ old-location: display\pfnstatepssrvcb.htm
 old-project: display
 ms.assetid: ed49ce47-c56d-4d38-8f2c-562841b8e804
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3D10DDI_STATE_PS_SRV_CB, d3d10state_functions_39451a84-f247-4325-bcc0-b9ee23c2cfe3.xml, d3d10umddi/pfnStatePsSrvCb, display.pfnstatepssrvcb, pfnStatePsSrvCb, pfnStatePsSrvCb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,30 +52,18 @@ req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 The <b>pfnStatePsSrvCb</b> function causes the Microsoft Direct3D 10 runtime to refresh the pixel shader stage's bound shader resource views.
 
 
-## -prototype
-
-
-````
-PFND3D10DDI_STATE_PS_SRV_CB pfnStatePsSrvCb;
-
-void APIENTRY pfnStatePsSrvCb(
-  _In_ D3D10DDI_HRTCORELAYER hRuntimeDevice,
-  _In_ UINT                  Base,
-  _In_ UINT                  Count
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
 
 
-### -param D3D10DDI_HRTCORELAYER
+### -param Arg1
 
 
-### -param UINT
+### -param Arg2
+
+
+### -param Arg3
 
 
 
@@ -96,7 +84,7 @@ void APIENTRY pfnStatePsSrvCb(
 
 #### - hRuntimeDevice [in]
 
- A handle to a context for the core Direct3D 10 runtime. This handle is supplied to the driver in a call to the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createdevice.md">CreateDevice(D3D10)</a> function. 
+ A handle to a context for the core Direct3D 10 runtime. This handle is supplied to the driver in a call to the driver's <a href="https://msdn.microsoft.com/c69eedb1-c975-412c-aa9f-cf64a702f937">CreateDevice(D3D10)</a> function. 
 
 
 ## -returns
@@ -110,16 +98,15 @@ None
 
 ## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_corelayer_devicecallbacks.md">D3D10DDI_CORELAYER_DEVICECALLBACKS</a>
 
 
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createdevice.md">CreateDevice(D3D10)</a>
+<a href="https://msdn.microsoft.com/c69eedb1-c975-412c-aa9f-cf64a702f937">CreateDevice(D3D10)</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541820">D3D10DDI_CORELAYER_DEVICECALLBACKS</a>
  
 
  
-
 

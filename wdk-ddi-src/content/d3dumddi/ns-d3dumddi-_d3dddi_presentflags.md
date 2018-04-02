@@ -7,7 +7,7 @@ old-location: display\d3dddi_presentflags.htm
 old-project: display
 ms.assetid: adab4c0f-b879-409c-97a3-f161a50514f5
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDI_PRESENTFLAGS, D3DDDI_PRESENTFLAGS structure [Display Devices], D3D_other_Structs_4650db5e-637b-4032-a5d2-ded887a883dc.xml, _D3DDDI_PRESENTFLAGS, d3dumddi/D3DDDI_PRESENTFLAGS, display.d3dddi_presentflags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,24 +50,6 @@ req.typenames: D3DDDI_PRESENTFLAGS
 
 
 The D3DDDI_PRESENTFLAGS structure identifies how to perform a present operation.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DDDI_PRESENTFLAGS {
-  union {
-    struct {
-      UINT Blt  :1;
-      UINT ColorFill  :1;
-      UINT Flip  :1;
-      UINT Reserved  :29;
-    };
-    UINT   Value;
-  };
-} D3DDDI_PRESENTFLAGS;
-````
 
 
 ## -struct-fields
@@ -118,16 +100,15 @@ A member in the union that is contained in D3DDDI_PRESENTFLAGS that can hold one
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_present.md">D3DDDIARG_PRESENT</a>
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_present.md">Present</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543240">D3DDDIARG_PRESENT</a>
 
 
 
+<a href="https://msdn.microsoft.com/e90683b4-64b6-4018-96a5-b50118df3367">Present</a>
  
 
  
-
 

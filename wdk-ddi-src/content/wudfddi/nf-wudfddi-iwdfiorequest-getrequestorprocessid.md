@@ -55,14 +55,6 @@ req.product: Windows 10 or later.
 The <b>GetRequestorProcessId</b> method retrieves the identifier of the process that sent an I/O request.
 
 
-## -syntax
-
-
-````
-ULONG GetRequestorProcessId();
-````
-
-
 ## -parameters
 
 
@@ -81,12 +73,11 @@ ULONG GetRequestorProcessId();
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558985">IWDFIoRequest</a>
  
 
  
-
 

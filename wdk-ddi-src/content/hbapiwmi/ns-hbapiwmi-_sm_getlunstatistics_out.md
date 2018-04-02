@@ -7,7 +7,7 @@ old-location: storage\sm_getlunstatistics_out.htm
 old-project: storage
 ms.assetid: 5b7e4eb2-d6e9-49c9-b84f-72dd4198c0ce
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PSM_GetLUNStatistics_OUT, PSM_GetLUNStatistics_OUT, PSM_GetLUNStatistics_OUT structure pointer [Storage Devices], SM_GetLUNStatistics_OUT, SM_GetLUNStatistics_OUT structure [Storage Devices], _SM_GetLUNStatistics_OUT, hbapiwmi/PSM_GetLUNStatistics_OUT, hbapiwmi/SM_GetLUNStatistics_OUT, storage.sm_getlunstatistics_out, structs-Fibre_3f322627-9c44-4675-9166-32860aa954a3.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,17 +52,6 @@ req.typenames: SM_GetLUNStatistics_OUT, *PSM_GetLUNStatistics_OUT
 The SM_GetLUNStatistics_OUT structure is used to receive output parameters from the SM_GetLUNStatistics_OUT method.
 
 
-## -syntax
-
-
-````
-typedef struct _SM_GetLUNStatistics_OUT {
-  ULONG                       HBAStatus;
-  MS_SMHBA_PROTOCOLSTATISTICS ProtocolStatistics;
-} SM_GetLUNStatistics_OUT, *PSM_GetLUNStatistics_OUT;
-````
-
-
 ## -struct-fields
 
 
@@ -75,7 +64,7 @@ The status of the operation. For a list of allowed values and their descriptions
 
 ### -field ProtocolStatistics
 
-A structure of type <a href="..\hbapiwmi\ns-hbapiwmi-_ms_smhba_protocolstatistics.md">MS_SMHBA_PROTOCOLSTATISTICS</a> that is used to report protocol traffic statistics on a port.
+A structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff563172">MS_SMHBA_PROTOCOLSTATISTICS</a> that is used to report protocol traffic statistics on a port.
 
 
 ## -remarks

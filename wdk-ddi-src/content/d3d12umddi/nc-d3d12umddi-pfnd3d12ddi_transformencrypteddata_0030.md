@@ -7,7 +7,7 @@ old-location: display\pfnd3d12ddi_transformencrypteddata_0030.htm
 old-project: display
 ms.assetid: B738C096-E821-4D7E-A713-47300E4E3779
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3D12DDI_TRANSFORMENCRYPTEDDATA_0030, PFND3D12DDI_TRANSFORMENCRYPTEDDATA_0030 callback function [Display Devices], d3d12umddi/PFND3D12DDI_TRANSFORMENCRYPTEDDATA_0030, display.pfnd3d12ddi_transformencrypteddata_0030
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,19 +50,6 @@ req.typenames: D3D11_1DDI_GETCAPTUREHANDLEDATA
 
 
 Used to transform encrypted data.
-
-
-## -prototype
-
-
-````
-HRESULT APIENTRY* PFND3D12DDI_TRANSFORMENCRYPTEDDATA_0030(
-             D3D12DDI_HDEVICE                                        hDrvDevice,
-             D3D12DDI_CRYPTO_SESSION_TRANSFORM_OPERATION_0030        Operation,
-  _In_ const D3D12DDI_CRYPTO_SESSION_TRANSFORM_OUTPUT_ARGUMENTS_0030 *pOutputArguments,
-  _In_ const D3D12DDI_CRYPTO_SESSION_TRANSFORM_INPUT_ARGUMENTS_0030  *pInputArguments
-);
-````
 
 
 ## -parameters

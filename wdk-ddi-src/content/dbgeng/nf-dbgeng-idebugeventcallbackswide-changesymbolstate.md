@@ -7,7 +7,7 @@ old-location: debugger\idebugeventcallbackswide_changesymbolstate.htm
 old-project: debugger
 ms.assetid: ea331612-5c48-4320-a658-101c3d93e7be
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: ChangeSymbolState method [Windows Debugging], ChangeSymbolState method [Windows Debugging], IDebugEventCallbacksWide interface, ChangeSymbolState,IDebugEventCallbacksWide.ChangeSymbolState, IDebugEventCallbacksWide, IDebugEventCallbacksWide interface [Windows Debugging], ChangeSymbolState method, IDebugEventCallbacksWide::ChangeSymbolState, dbgeng/IDebugEventCallbacksWide::ChangeSymbolState, debugger.idebugeventcallbackswide_changesymbolstate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,17 +50,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>ChangeSymbolState</b> callback method is called by the engine when the symbol state changes. 
-
-
-## -syntax
-
-
-````
-HRESULT ChangeSymbolState(
-  [in] ULONG   Flags,
-  [in] ULONG64 Argument
-);
-````
 
 
 ## -parameters

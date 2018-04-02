@@ -53,22 +53,6 @@ req.product: Windows 10 or later.
 The <i>EvtSerCx2CustomTransmitTransactionInitialize</i> event callback function is called by version 2 of the serial framework extension (SerCx2) to prepare the serial controller driver to perform a custom-transmit transaction.
 
 
-## -prototype
-
-
-````
-EVT_SERCX2_CUSTOM_TRANSMIT_TRANSACTION_INITIALIZE EvtSerCx2CustomTransmitTransactionInitialize;
-
-VOID EvtSerCx2CustomTransmitTransactionInitialize(
-  _In_ SERCX2CUSTOMTRANSMITTRANSACTION CustomTransmitTransaction,
-  _In_ PMDL                            Mdl,
-  _In_ ULONG                           Offset,
-  _In_ ULONG                           Length
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -76,12 +60,12 @@ VOID EvtSerCx2CustomTransmitTransactionInitialize(
 
 ### -param CustomTransmitTransaction [in]
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/dn265257">SERCX2CUSTOMTRANSMITTRANSACTION</a> handle to a custom-transmit object. The serial controller driver previously called the <a href="..\sercx\nf-sercx-sercx2customtransmittransactioncreate.md">SerCx2CustomTransmitTransactionCreate</a> method to create this object.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/dn265257">SERCX2CUSTOMTRANSMITTRANSACTION</a> handle to a custom-transmit object. The serial controller driver previously called the <a href="https://msdn.microsoft.com/library/windows/hardware/dn265259">SerCx2CustomTransmitTransactionCreate</a> method to create this object.
 
 
 ### -param Mdl [in]
 
-A pointer to an <a href="..\wdm\ns-wdm-_mdl.md">MDL</a> that describes the memory pages that are spanned by the write buffer for the custom-transmit transaction. The scatter/gather list for the DMA transfer will use the region of this memory that is specified by the <i>Offset</i> and <i>Length</i> parameters.
+A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff554414">MDL</a> that describes the memory pages that are spanned by the write buffer for the custom-transmit transaction. The scatter/gather list for the DMA transfer will use the region of this memory that is specified by the <i>Offset</i> and <i>Length</i> parameters.
 
 
 ### -param Offset [in]
@@ -107,9 +91,9 @@ None.
 
 
 
-Your serial controller driver can, as an option, implement this function. If implemented, the driver registers the function in the <a href="..\sercx\nf-sercx-sercx2customtransmittransactioncreate.md">SerCx2CustomTransmitTransactionCreate</a> call that creates the custom-transmit object.
+Your serial controller driver can, as an option, implement this function. If implemented, the driver registers the function in the <a href="https://msdn.microsoft.com/library/windows/hardware/dn265259">SerCx2CustomTransmitTransactionCreate</a> call that creates the custom-transmit object.
 
-Your driver should implement an <i>EvtSerCx2CustomTransmitTransactionInitialize</i> function if it needs to initialize the serial controller and associated hardware in preparation for a new custom-transmit transaction. SerCx2 calls this function, if it is implemented, before starting the custom-transmit transaction. In response to this call, the serial controller driver must call the <a href="..\sercx\nf-sercx-sercx2customtransmittransactioninitializecomplete.md">SerCx2CustomTransmitTransactionInitializeComplete</a> method to notify SerCx2 after the initialization is finished.
+Your driver should implement an <i>EvtSerCx2CustomTransmitTransactionInitialize</i> function if it needs to initialize the serial controller and associated hardware in preparation for a new custom-transmit transaction. SerCx2 calls this function, if it is implemented, before starting the custom-transmit transaction. In response to this call, the serial controller driver must call the <a href="https://msdn.microsoft.com/library/windows/hardware/dn265260">SerCx2CustomTransmitTransactionInitializeComplete</a> method to notify SerCx2 after the initialization is finished.
 
 For more information, see <a href="https://msdn.microsoft.com/E72E68BC-A60A-41BE-8606-92A608648042">SerCx2 Custom-Transmit Transactions</a>.
 
@@ -159,15 +143,6 @@ The <b>EVT_SERCX2_CUSTOM_TRANSMIT_TRANSACTION_INITIALIZE</b> function type is de
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn265257">SERCX2CUSTOMTRANSMITTRANSACTION</a>
-
-
-
-<a href="..\sercx\nf-sercx-sercx2customtransmittransactioncreate.md">SerCx2CustomTransmitTransactionCreate</a>
-
-
-
-<a href="..\wdm\ns-wdm-_mdl.md">MDL</a>
 
 
 
@@ -175,8 +150,16 @@ The <b>EVT_SERCX2_CUSTOM_TRANSMIT_TRANSACTION_INITIALIZE</b> function type is de
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554414">MDL</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265257">SERCX2CUSTOMTRANSMITTRANSACTION</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265259">SerCx2CustomTransmitTransactionCreate</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: netvista\ndis_receive_filter_info_array.htm
 old-project: netvista
 ms.assetid: 32896b46-1143-4598-ad15-2eb4dbdea6e8
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*PNDIS_RECEIVE_FILTER_INFO_ARRAY, NDIS_RECEIVE_FILTER_INFO_ARRAY, NDIS_RECEIVE_FILTER_INFO_ARRAY structure [Network Drivers Starting with Windows Vista], PNDIS_RECEIVE_FILTER_INFO_ARRAY, PNDIS_RECEIVE_FILTER_INFO_ARRAY structure pointer [Network Drivers Starting with Windows Vista], _NDIS_RECEIVE_FILTER_INFO_ARRAY, netvista.ndis_receive_filter_info_array, ntddndis/NDIS_RECEIVE_FILTER_INFO_ARRAY, ntddndis/PNDIS_RECEIVE_FILTER_INFO_ARRAY, virtual_machine_queue_ref_f87d474d-4909-48ed-8891-7213bd4dcbc1.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -73,24 +73,6 @@ NDIS receive filters are used in the following NDIS interfaces:
 </li>
 </ul>
 
-## -syntax
-
-
-````
-typedef struct _NDIS_RECEIVE_FILTER_INFO_ARRAY {
-  NDIS_OBJECT_HEADER       Header;
-  NDIS_RECEIVE_QUEUE_ID    QueueId;
-  ULONG                    FirstElementOffset;
-  ULONG                    NumElements;
-  ULONG                    ElementSize;
-#if (NDIS_SUPPORT_NDIS630)
-  ULONG                    Flags;
-  NDIS_NIC_SWITCH_VPORT_ID VPortId;
-#endif 
-} NDIS_RECEIVE_FILTER_INFO_ARRAY, *PNDIS_RECEIVE_FILTER_INFO_ARRAY;
-````
-
-
 ## -struct-fields
 
 
@@ -98,7 +80,7 @@ typedef struct _NDIS_RECEIVE_FILTER_INFO_ARRAY {
 
 ### -field Header
 
-The type, revision, and size of the <b>NDIS_RECEIVE_FILTER_INFO_ARRAY</b> structure. This member is formatted as an <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure.
+The type, revision, and size of the <b>NDIS_RECEIVE_FILTER_INFO_ARRAY</b> structure. This member is formatted as an <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure.
 
 The miniport driver must set the <b>Type</b> member of <b>Header</b> to NDIS_OBJECT_TYPE_DEFAULT. To specify the version of the <b>NDIS_RECEIVE_FILTER_INFO_ARRAY</b> structure, the driver must set the <b>Revision</b> member of <b>Header</b> to the following value: 
 
@@ -132,7 +114,7 @@ A receive queue identifier. This identifier is an
 
 ### -field FirstElementOffset
 
-The offset, in bytes, to the first element in an array of elements that follow this structure. The offset is measured from the start of the <b>NDIS_RECEIVE_FILTER_INFO_ARRAY</b> structure up to the beginning of the first element. Each element in the array is an <a href="..\ntddndis\ns-ntddndis-_ndis_receive_filter_info.md">NDIS_RECEIVE_FILTER_INFO</a> structure.
+The offset, in bytes, to the first element in an array of elements that follow this structure. The offset is measured from the start of the <b>NDIS_RECEIVE_FILTER_INFO_ARRAY</b> structure up to the beginning of the first element. Each element in the array is an <a href="https://msdn.microsoft.com/library/windows/hardware/ff567176">NDIS_RECEIVE_FILTER_INFO</a> structure.
 
 
 
@@ -198,7 +180,7 @@ The <b>NDIS_RECEIVE_FILTER_INFO_ARRAY</b> structure is used in the
     OID request of <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-receive-filter-enum-filters">
     OID_RECEIVE_FILTER_ENUM_FILTERS</a>. This OID request enumerates the receive filters on a VMQ  or SR-IOV receive queue. Each
     element in the array that follows the <b>NDIS_RECEIVE_FILTER_INFO_ARRAY</b> structure is an 
-    <a href="..\ntddndis\ns-ntddndis-_ndis_receive_filter_info.md">
+    <a href="https://msdn.microsoft.com/12029cfd-58d0-4621-8cbc-c07e68db61b8">
     NDIS_RECEIVE_FILTER_INFO</a> structure.
 
 
@@ -206,7 +188,14 @@ The <b>NDIS_RECEIVE_FILTER_INFO_ARRAY</b> structure is used in the
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-receive-filter-enum-filters">OID_RECEIVE_FILTER_ENUM_FILTERS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567176">NDIS_RECEIVE_FILTER_INFO</a>
 
 
 
@@ -214,16 +203,8 @@ The <b>NDIS_RECEIVE_FILTER_INFO_ARRAY</b> structure is used in the
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_receive_filter_info.md">NDIS_RECEIVE_FILTER_INFO</a>
-
-
-
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-receive-filter-enum-filters">OID_RECEIVE_FILTER_ENUM_FILTERS</a>
  
 
  
-
 

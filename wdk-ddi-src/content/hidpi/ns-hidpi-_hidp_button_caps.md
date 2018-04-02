@@ -52,49 +52,6 @@ req.typenames: HIDP_BUTTON_CAPS, *PHIDP_BUTTON_CAPS
 The HIDP_BUTTON_CAPS structure contains information about the capability of a HID control button <a href="https://msdn.microsoft.com/84fed314-3554-4291-b51c-734d874a4bab">usage</a> (or a set of buttons associated with a <a href="https://msdn.microsoft.com/84fed314-3554-4291-b51c-734d874a4bab">usage range</a>).
 
 
-## -syntax
-
-
-````
-typedef struct _HIDP_BUTTON_CAPS {
-  USAGE   UsagePage;
-  UCHAR   ReportID;
-  BOOLEAN IsAlias;
-  USHORT  BitField;
-  USHORT  LinkCollection;
-  USAGE   LinkUsage;
-  USAGE   LinkUsagePage;
-  BOOLEAN IsRange;
-  BOOLEAN IsStringRange;
-  BOOLEAN IsDesignatorRange;
-  BOOLEAN IsAbsolute;
-  ULONG   Reserved[10];
-  union {
-    struct {
-      USAGE  UsageMin;
-      USAGE  UsageMax;
-      USHORT StringMin;
-      USHORT StringMax;
-      USHORT DesignatorMin;
-      USHORT DesignatorMax;
-      USHORT DataIndexMin;
-      USHORT DataIndexMax;
-    } Range;
-    struct {
-      USAGE  Usage;
-      USAGE  Reserved1;
-      USHORT StringIndex;
-      USHORT Reserved2;
-      USHORT DesignatorIndex;
-      USHORT Reserved3;
-      USHORT DataIndex;
-      USHORT Reserved4;
-    } NotRange;
-  };
-} HIDP_BUTTON_CAPS, *PHIDP_BUTTON_CAPS;
-````
-
-
 ## -struct-fields
 
 
@@ -256,7 +213,7 @@ Reserved for internal system use.
 
 
 
-Clients obtain a <a href="https://msdn.microsoft.com/139324e5-4d46-4d00-9f5a-fd0313fc109a">button capability array</a> by calling <a href="..\hidpi\nf-hidpi-hidp_getbuttoncaps.md">HidP_GetButtonCaps</a> or <a href="..\hidpi\nf-hidpi-hidp_getspecificbuttoncaps.md">HidP_GetSpecificButtonCaps</a>. These routines return an array of HIDP_BUTTON_CAPS structures in a caller-allocated buffer. The required buffer length is specified in the <a href="..\hidpi\ns-hidpi-_hidp_caps.md">HIDP_CAPS</a> structure returned by <a href="..\hidpi\nf-hidpi-hidp_getcaps.md">HidP_GetCaps</a>. 
+Clients obtain a <a href="https://msdn.microsoft.com/139324e5-4d46-4d00-9f5a-fd0313fc109a">button capability array</a> by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff539707">HidP_GetButtonCaps</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff539733">HidP_GetSpecificButtonCaps</a>. These routines return an array of HIDP_BUTTON_CAPS structures in a caller-allocated buffer. The required buffer length is specified in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff539697">HIDP_CAPS</a> structure returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff539715">HidP_GetCaps</a>. 
 
 For information about the capabilities of HID control values, see <a href="https://msdn.microsoft.com/228fab4f-ff90-43c5-bc68-26b29e8a7dd6">Collection Capability</a> and <a href="https://msdn.microsoft.com/d447dda6-a1e5-4e57-b06f-f79f8662c236">Value Capability Arrays</a>.
 
@@ -265,36 +222,35 @@ For information about the capabilities of HID control values, see <a href="https
 
 ## -see-also
 
-<a href="..\hidpi\nf-hidpi-hidp_getbuttoncaps.md">HidP_GetButtonCaps</a>
 
 
 
-<a href="..\hidpi\ns-hidpi-_hidp_value_caps.md">HIDP_VALUE_CAPS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539697">HIDP_CAPS</a>
 
 
 
-<a href="..\hidpi\ns-hidpi-_hidp_caps.md">HIDP_CAPS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539832">HIDP_VALUE_CAPS</a>
 
 
 
-<a href="..\hidpi\nf-hidpi-hidp_getvaluecaps.md">HidP_GetValueCaps</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539707">HidP_GetButtonCaps</a>
 
 
 
-<a href="..\hidpi\nf-hidpi-hidp_getspecificbuttoncaps.md">HidP_GetSpecificButtonCaps</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539715">HidP_GetCaps</a>
 
 
 
-<a href="..\hidpi\nf-hidpi-hidp_getspecificvaluecaps.md">HidP_GetSpecificValueCaps</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539733">HidP_GetSpecificButtonCaps</a>
 
 
 
-<a href="..\hidpi\nf-hidpi-hidp_getcaps.md">HidP_GetCaps</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539737">HidP_GetSpecificValueCaps</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539754">HidP_GetValueCaps</a>
  
 
  
-
 

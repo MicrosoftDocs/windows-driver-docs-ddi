@@ -55,14 +55,6 @@ req.product: Windows 10 or later.
 The <b>CloseForQueryRemove</b> method closes a <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/general-i-o-targets-in-umdf">remote I/O target</a> because the operating system might allow the device to be removed.
 
 
-## -syntax
-
-
-````
-HRESULT CloseForQueryRemove();
-````
-
-
 ## -parameters
 
 
@@ -131,16 +123,15 @@ CMyRemoteTarget::OnRemoteTargetQueryRemove(
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfremotetarget.md">IWDFRemoteTarget</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560247">IWDFRemoteTarget</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560253">IWDFRemoteTarget::Close</a>
-
-
-
  
 
  
-
 

@@ -50,19 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The USBSCAN_GET_DESCRIPTOR structure is used as a parameter to <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a>, when the specified I/O control code is <a href="..\usbscan\ni-usbscan-ioctl_get_usb_descriptor.md">IOCTL_GET_USB_DESCRIPTOR</a>.
-
-
-## -syntax
-
-
-````
-typedef struct _USBSCAN_GET_DESCRIPTOR {
-  UCHAR  DescriptorType;
-  UCHAR  Index;
-  USHORT LanguageId;
-} USBSCAN_GET_DESCRIPTOR, *PUSBSCAN_GET_DESCRIPTOR;
-````
+The USBSCAN_GET_DESCRIPTOR structure is used as a parameter to <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a>, when the specified I/O control code is <a href="https://msdn.microsoft.com/library/windows/hardware/ff542864">IOCTL_GET_USB_DESCRIPTOR</a>.
 
 
 ## -struct-fields

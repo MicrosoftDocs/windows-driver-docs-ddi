@@ -7,7 +7,7 @@ old-location: buses\usbfn_usb_string.htm
 old-project: usbref
 ms.assetid: 1169A369-0E6D-4308-ABF6-0724FED73AF9
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PUSBFN_USB_STRING, PUSBFN_USB_STRING, PUSBFN_USB_STRING structure pointer [Buses], USBFN_USB_STRING, USBFN_USB_STRING structure [Buses], _USBFN_USB_STRING, buses.usbfn_usb_string, usbfnbase/PUSBFN_USB_STRING, usbfnbase/USBFN_USB_STRING"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 Describes a USB string descriptor and the associated string index. 
 
 
-## -syntax
-
-
-````
-typedef struct _USBFN_USB_STRING {
-  UINT8 StringIndex;
-  WCHAR  UsbString[MAX_USB_STRING_LENGTH];
-} USBFN_USB_STRING, *PUSBFN_USB_STRING;
-````
-
-
 ## -struct-fields
 
 
@@ -81,12 +70,11 @@ Pointer to the string.
 
 ## -see-also
 
-<a href="..\usbfnioctl\ni-usbfnioctl-ioctl_internal_usbfn_register_usb_string.md">IOCTL_INTERNAL_USBFN_REGISTER_USB_STRING</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt187899">IOCTL_INTERNAL_USBFN_REGISTER_USB_STRING</a>
  
 
  
-
 

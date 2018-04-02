@@ -52,16 +52,6 @@ req.typenames: KS_DVDCOPY_DISCKEY, *PKS_DVDCOPY_DISCKEY
 The KS_DVDCOPY_DISCKEY structure is used to describe the disc key information for the DVD copyright protection authentication process.
 
 
-## -syntax
-
-
-````
-typedef struct _KS_DVDCOPY_DISCKEY {
-  BYTE DiscKey[2048];
-} KS_DVDCOPY_DISCKEY, *PKS_DVDCOPY_DISCKEY;
-````
-
-
 ## -struct-fields
 
 
@@ -85,12 +75,11 @@ For more information, see <a href="https://msdn.microsoft.com/ff9cf8c8-7c8f-485c
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565144">KSPROPERTY_DVDCOPY_DISC_KEY</a>
-
-
-
  
 
  
-
 

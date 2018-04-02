@@ -7,7 +7,7 @@ old-location: display\dxgk_allocationinfoflags.htm
 old-project: display
 ms.assetid: 04bd00c3-83a8-44bb-9493-cf7f43f10602
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGK_ALLOCATIONINFOFLAGS, DXGK_ALLOCATIONINFOFLAGS structure [Display Devices], DmStructs_4e6e499c-8427-4c0f-977d-92f648ab027e.xml, _DXGK_ALLOCATIONINFOFLAGS, d3dkmddi/DXGK_ALLOCATIONINFOFLAGS, display.dxgk_allocationinfoflags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,55 +52,6 @@ req.typenames: DXGK_ALLOCATIONINFOFLAGS
 The DXGK_ALLOCATIONINFOFLAGS structure identifies properties for an allocation. The display miniport driver specifies these flags for the video memory manager.
 
 
-## -syntax
-
-
-````
-typedef struct _DXGK_ALLOCATIONINFOFLAGS {
-  union {
-    struct {
-      UINT CpuVisible  :1;
-      UINT PermanentSysMem  :1;
-      UINT Cached  :1;
-      UINT Protected  :1;
-      UINT ExistingSysMem  :1;
-      UINT ExistingKernelSysMem  :1;
-      UINT FromEndOfSegment  :1;
-      UINT Swizzled  :1;
-      UINT Overlay  :1;
-      UINT Capture  :1;
-      UINT UseAlternateVA  :1;
-      UINT SynchronousPaging  :1;
-      UINT LinkMirrored  :1;
-      UINT LinkInstanced  :1;
-      UINT HistoryBuffer  :1;
-#if (DXGKDDI_INTERFACE_VERSION >= DXGKDDI_INTERFACE_VERSION_WDDM2_0)
-      UINT AccessedPhysically  :1;
-      UINT ExplicitResidencyNotification  :1;
-      UINT Reserved  :2;
-#else 
-      UINT Reserved  :4;
-#endif 
-      UINT DXGK_ALLOC_RESERVED16  :1;
-      UINT DXGK_ALLOC_RESERVED15  :1;
-      UINT DXGK_ALLOC_RESERVED14  :1;
-      UINT DXGK_ALLOC_RESERVED13  :1;
-      UINT DXGK_ALLOC_RESERVED12  :1;
-      UINT DXGK_ALLOC_RESERVED11  :1;
-      UINT DXGK_ALLOC_RESERVED10  :1;
-      UINT DXGK_ALLOC_RESERVED9  :1;
-      UINT DXGK_ALLOC_RESERVED4  :1;
-      UINT DXGK_ALLOC_RESERVED3  :1;
-      UINT DXGK_ALLOC_RESERVED2  :1;
-      UINT DXGK_ALLOC_RESERVED1  :1;
-      UINT DXGK_ALLOC_RESERVED0  :1;
-    };
-    UINT Value;
-  };
-} DXGK_ALLOCATIONINFOFLAGS;
-````
-
-
 ## -struct-fields
 
 
@@ -108,7 +59,7 @@ typedef struct _DXGK_ALLOCATIONINFOFLAGS {
 
 ### -field CpuVisible
 
-[out] A UINT value that specifies whether the allocation is directly accessible by the CPU. The display miniport driver must set this flag for the user-mode display driver to successfully call the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_lockcb.md">pfnLockCb</a> function on the allocation. If this flag is not set on the allocation, <b>pfnLockCb</b> returns an error.
+[out] A UINT value that specifies whether the allocation is directly accessible by the CPU. The display miniport driver must set this flag for the user-mode display driver to successfully call the <a href="https://msdn.microsoft.com/69022797-432a-410b-8cbf-e1ef7111e7ea">pfnLockCb</a> function on the allocation. If this flag is not set on the allocation, <b>pfnLockCb</b> returns an error.
 
 Note that only the process that created a shared allocation can lock that allocation.
 
@@ -119,7 +70,7 @@ Setting this member is equivalent to setting the first bit of the 32-bit <b>Valu
 
 [out] A UINT value that specifies whether a copy of the allocation should be kept in system memory even when the content is located in a memory segment. By default, a surface system memory backing store is lost when transferring an allocation to a memory segment. When the <b>PermanentSysMem</b> flag is specified and the allocation is evicted from a memory segment, the content of the allocation is discarded and not paged out if the allocation is not dirty (that is, the allocation was not the target of a write operation since it was paged in). 
 
-A call to <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_lockcb.md">pfnLockCb</a> on the allocation always returns the system memory backing store for the allocation. If the allocation is located in a memory segment when the user-mode display driver calls <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_unlockcb.md">pfnUnlockCb</a>, the memory segment resource for the allocation is updated with the new content. This update appears, to the display miniport driver, as a regular paging operation through the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_buildpagingbuffer.md">DxgkDdiBuildPagingBuffer</a> function. Note that if the display miniport driver requires a minimal region size or alignment for a paging operation, this requirement should be reflected in the region that is being locked. When the driver sets <b>PermanentSysMem</b>, the driver must also set the <b>CpuVisible</b> member. The driver must not set <b>PermanentSysMem</b> on the primary surface.
+A call to <a href="https://msdn.microsoft.com/69022797-432a-410b-8cbf-e1ef7111e7ea">pfnLockCb</a> on the allocation always returns the system memory backing store for the allocation. If the allocation is located in a memory segment when the user-mode display driver calls <a href="https://msdn.microsoft.com/6684f350-da27-478d-ab7b-36e395f7df8d">pfnUnlockCb</a>, the memory segment resource for the allocation is updated with the new content. This update appears, to the display miniport driver, as a regular paging operation through the <a href="https://msdn.microsoft.com/d315ff53-4a9f-46a3-ad74-d65a5eb72de1">DxgkDdiBuildPagingBuffer</a> function. Note that if the display miniport driver requires a minimal region size or alignment for a paging operation, this requirement should be reflected in the region that is being locked. When the driver sets <b>PermanentSysMem</b>, the driver must also set the <b>CpuVisible</b> member. The driver must not set <b>PermanentSysMem</b> on the primary surface.
 
 Setting this member is equivalent to setting the second bit of the 32-bit <b>Value</b> member (0x00000002).
 
@@ -184,7 +135,7 @@ Setting this member is equivalent to setting the eighth bit of the 32-bit <b>Val
 
 ### -field Overlay
 
-[out] A UINT value that specifies whether the allocation is for an overlay operation. Overlay allocations are pinned in memory, and the video memory manager cannot evict them unless the Timeout Detection and Recovery (TDR) process, Plug and Play (PnP) stop, or <a href="https://msdn.microsoft.com/780d37d9-40c6-4737-9042-473810868227">level three synchronization</a> occurs. Note that before level three synchronization occurs, overlays are typically destroyed. By default, overlay allocations are limited and cannot occupy more than the last 20 percent of a segment. If an overlay allocation is allocated in an aperture segment, the display miniport driver should limit the size of any other allocation that uses that aperture segment as an eviction segment to 80 percent of the segment size. The display miniport driver indicates that an allocation can use a segment for eviction by specifying the appropriate bit for the segment in the <b>EvictionSegmentSet</b> member of the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationinfo.md">DXGK_ALLOCATIONINFO</a> structure for the allocation. If the display miniport driver does not limit the size of another allocation, the video memory manager cannot evict that allocation through the segment because the pinned allocation (that is, the overlay allocation) occupies the area that is required for eviction. In this case, the content of the other allocation that is being evicted is lost, and the application that owns the lost allocation can no longer render with that allocation. 
+[out] A UINT value that specifies whether the allocation is for an overlay operation. Overlay allocations are pinned in memory, and the video memory manager cannot evict them unless the Timeout Detection and Recovery (TDR) process, Plug and Play (PnP) stop, or <a href="https://msdn.microsoft.com/780d37d9-40c6-4737-9042-473810868227">level three synchronization</a> occurs. Note that before level three synchronization occurs, overlays are typically destroyed. By default, overlay allocations are limited and cannot occupy more than the last 20 percent of a segment. If an overlay allocation is allocated in an aperture segment, the display miniport driver should limit the size of any other allocation that uses that aperture segment as an eviction segment to 80 percent of the segment size. The display miniport driver indicates that an allocation can use a segment for eviction by specifying the appropriate bit for the segment in the <b>EvictionSegmentSet</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560960">DXGK_ALLOCATIONINFO</a> structure for the allocation. If the display miniport driver does not limit the size of another allocation, the video memory manager cannot evict that allocation through the segment because the pinned allocation (that is, the overlay allocation) occupies the area that is required for eviction. In this case, the content of the other allocation that is being evicted is lost, and the application that owns the lost allocation can no longer render with that allocation. 
 
 Setting this member is equivalent to setting the ninth bit of the 32-bit <b>Value</b> member (0x00000100).
 
@@ -379,24 +330,23 @@ You can specify properties of an allocation by setting bits in the 32-bit <b>Val
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_unlockcb.md">pfnUnlockCb</a>
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_lockcb.md">pfnLockCb</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560960">DXGK_ALLOCATIONINFO</a>
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationinfo.md">DXGK_ALLOCATIONINFO</a>
+<a href="https://msdn.microsoft.com/d315ff53-4a9f-46a3-ad74-d65a5eb72de1">DxgkDdiBuildPagingBuffer</a>
 
 
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_buildpagingbuffer.md">DxgkDdiBuildPagingBuffer</a>
+<a href="https://msdn.microsoft.com/69022797-432a-410b-8cbf-e1ef7111e7ea">pfnLockCb</a>
 
 
 
+<a href="https://msdn.microsoft.com/6684f350-da27-478d-ab7b-36e395f7df8d">pfnUnlockCb</a>
  
 
  
-
 

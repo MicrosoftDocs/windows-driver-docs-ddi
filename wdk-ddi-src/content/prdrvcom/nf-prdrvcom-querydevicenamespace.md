@@ -53,16 +53,6 @@ req.product: Windows 10 or later.
 The <code>IPrintTicketProvider::QueryDeviceNamespace</code> method queries the device for its default namespace uniform resource identifier (URI).
 
 
-## -syntax
-
-
-````
-HRESULT QueryDeviceNamespace(
-  [out] BSTR *pDefaultNamespace
-);
-````
-
-
 ## -parameters
 
 

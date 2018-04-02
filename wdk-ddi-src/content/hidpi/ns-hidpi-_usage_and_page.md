@@ -52,17 +52,6 @@ req.typenames: USAGE_AND_PAGE, *PUSAGE_AND_PAGE
 The USAGE_AND_PAGE structure specifies the <a href="https://msdn.microsoft.com/84fed314-3554-4291-b51c-734d874a4bab">usage page</a> and <a href="https://msdn.microsoft.com/84fed314-3554-4291-b51c-734d874a4bab">usage ID</a> of a HID control.
 
 
-## -syntax
-
-
-````
-typedef struct _USAGE_AND_PAGE {
-  USAGE Usage;
-  USAGE UsagePage;
-} USAGE_AND_PAGE, *PUSAGE_AND_PAGE;
-````
-
-
 ## -struct-fields
 
 
@@ -127,12 +116,11 @@ For more information, see <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539712">HidP_GetButtonsEx</a>
-
-
-
  
 
  
-
 

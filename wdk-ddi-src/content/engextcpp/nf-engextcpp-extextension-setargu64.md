@@ -7,7 +7,7 @@ old-location: debugger\setargu64.htm
 old-project: debugger
 ms.assetid: 119e590c-7491-44b3-a315-d3e980f547bb
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: EngExtCpp_Ref_05510fa7-509e-49a2-97a3-7a1c4494350a.xml, ExtExtension, ExtExtension class [Windows Debugging], SetArgU64 method, ExtExtension::SetArgU64, SetArgU64 method [Windows Debugging], SetArgU64 method [Windows Debugging], ExtExtension class, SetArgU64,ExtExtension.SetArgU64, debugger.setargu64
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,18 +52,6 @@ req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
 The <b>SetArgU64</b> method sets a named expression argument for the current expression command.
 
 
-## -syntax
-
-
-````
-bool SetArgU64(
-  [in] PCSTR   Name,
-  [in] ULONG64 Arg,
-  [in] bool    OnlyIfUnset
-);
-````
-
-
 ## -parameters
 
 
@@ -71,7 +59,7 @@ bool SetArgU64(
 
 ### -param Name [in]
 
-Specifies the name of the argument.  The command-line description used in <a href="..\engextcpp\nf-engextcpp-ext_command.md">EXT_COMMAND</a> must specify that the type of this argument is expression.
+Specifies the name of the argument.  The command-line description used in <a href="https://msdn.microsoft.com/library/windows/hardware/ff544514">EXT_COMMAND</a> must specify that the type of this argument is expression.
 
 
 ### -param Arg [in]
@@ -106,16 +94,15 @@ This method should only be called during the execution of an extension command p
 
 ## -see-also
 
-<a href="..\engextcpp\nf-engextcpp-ext_command.md">EXT_COMMAND</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544514">EXT_COMMAND</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543981">ExtExtension</a>
-
-
-
  
 
  
-
 

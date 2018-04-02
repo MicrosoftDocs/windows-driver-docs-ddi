@@ -7,7 +7,7 @@ old-location: display\dxgk_power_runtime_component.htm
 old-project: display
 ms.assetid: ed7e6fc4-651d-4dc3-9c90-cca3c5f0eb67
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGK_POWER_RUNTIME_COMPONENT, DXGK_POWER_RUNTIME_COMPONENT structure [Display Devices], _DXGK_POWER_RUNTIME_COMPONENT, d3dkmddi/DXGK_POWER_RUNTIME_COMPONENT, display.dxgk_power_runtime_component
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,23 +52,6 @@ req.typenames: DXGK_POWER_RUNTIME_COMPONENT
 Describes information about a <i>power component</i>—for example, a graphics processing engine, a display device, or a block of memory.
 
 
-## -syntax
-
-
-````
-typedef struct _DXGK_POWER_RUNTIME_COMPONENT {
-  ULONG                        StateCount;
-  DXGK_POWER_RUNTIME_STATE     States[DXGK_MAX_F_STATES];
-  DXGK_POWER_COMPONENT_MAPPING ComponentMapping;
-  DXGK_POWER_COMPONENT_FLAGS   Flags;
-  GUID                         ComponentGuid;
-  UCHAR                        ComponentName[DXGK_POWER_COMPONENT_NAME_SIZE];
-  ULONG                        ProviderCount;
-  ULONG                        Providers[DXGK_MAX_POWER_COMPONENT_PROVIDERS];
-} DXGK_POWER_RUNTIME_COMPONENT;
-````
-
-
 ## -struct-fields
 
 
@@ -81,19 +64,19 @@ Defines the number of idle states (F-states) for the power component.
 
 ### -field States
 
-A <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_power_runtime_state.md">DXGK_POWER_RUNTIME_STATE</a> structure that defines information about every idle state. 
+A <a href="https://msdn.microsoft.com/library/windows/hardware/hh464076">DXGK_POWER_RUNTIME_STATE</a> structure that defines information about every idle state. 
 
 <b>DXGK_MAX_F_STATES</b> is the maximum number of F-states that a power component can have. In Windows 8, <b>DXGK_MAX_F_STATES</b> is defined to have a value of 8.
 
 
 ### -field ComponentMapping
 
-A <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_power_component_mapping.md">DXGK_POWER_COMPONENT_MAPPING</a> structure that defines the standard component types of the DirectX graphics kernel subsystem (Dxgkrnl.sys) that describe the power component.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/hh464067">DXGK_POWER_COMPONENT_MAPPING</a> structure that defines the standard component types of the DirectX graphics kernel subsystem (Dxgkrnl.sys) that describe the power component.
 
 
 ### -field Flags
 
-A <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_power_component_flags.md">DXGK_POWER_COMPONENT_FLAGS</a> structure that specifies power state transition information.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/hh464063">DXGK_POWER_COMPONENT_FLAGS</a> structure that specifies power state transition information.
 
 
 ### -field ComponentGuid
@@ -131,20 +114,19 @@ Multiple power components should not be mapped to the same engine (node), to the
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_power_runtime_state.md">DXGK_POWER_RUNTIME_STATE</a>
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_power_component_flags.md">DXGK_POWER_COMPONENT_FLAGS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh464063">DXGK_POWER_COMPONENT_FLAGS</a>
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_power_component_mapping.md">DXGK_POWER_COMPONENT_MAPPING</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh464067">DXGK_POWER_COMPONENT_MAPPING</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh464076">DXGK_POWER_RUNTIME_STATE</a>
  
 
  
-
 

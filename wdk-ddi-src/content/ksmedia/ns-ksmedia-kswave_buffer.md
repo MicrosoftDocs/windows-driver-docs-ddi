@@ -52,18 +52,6 @@ req.typenames: KSWAVE_BUFFER, *PKSWAVE_BUFFER
 The KSWAVE_BUFFER structure is used to describe a sample buffer.
 
 
-## -syntax
-
-
-````
-typedef struct {
-  ULONG Attributes;
-  ULONG BufferSize;
-  PVOID BufferAddress;
-} KSWAVE_BUFFER, *PKSWAVE_BUFFER;
-````
-
-
 ## -struct-fields
 
 
@@ -123,12 +111,11 @@ This structure is used by the <a href="https://msdn.microsoft.com/library/window
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566514">KSPROPERTY_WAVE_BUFFER</a>
-
-
-
  
 
  
-
 

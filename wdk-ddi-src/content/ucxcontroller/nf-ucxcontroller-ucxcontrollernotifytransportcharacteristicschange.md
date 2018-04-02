@@ -7,7 +7,7 @@ old-location: buses\ucxcontrollernotifytransportcharacteristicschange.htm
 old-project: usbref
 ms.assetid: DB49DF98-8A5B-4528-B312-63CE3DFABEF2
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: UcxControllerNotifyTransportCharacteristicsChange, UcxControllerNotifyTransportCharacteristicsChange function [Buses], buses.ucxcontrollernotifytransportcharacteristicschange, ucxcontroller/UcxControllerNotifyTransportCharacteristicsChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -55,17 +55,6 @@ Notifies UCX about a new port change event from host controller.
 
 
 
-## -syntax
-
-
-````
-void UcxControllerNotifyTransportCharacteristicsChange(
-  _In_  UCXCONTROLLER                             UcxController,
-  _Out_ PUCX_CONTROLLER_TRANSPORT_CHARACTERISTICS UcxControllerTransportCharacteristics
-);
-````
-
-
 ## -parameters
 
 
@@ -78,7 +67,7 @@ TBD
 
 ### -param UcxControllerTransportCharacteristics [out]
 
-A pointer to a <a href="..\ucxcontroller\ns-ucxcontroller-_ucx_controller_transport_characteristics.md">UCX_CONTROLLER_TRANSPORT_CHARACTERISTICS</a> structure that contains the updated transport characteristics.
+A pointer to a <a href="https://msdn.microsoft.com/9F267427-8D70-45D5-A8E6-67A1C6B73CDB">UCX_CONTROLLER_TRANSPORT_CHARACTERISTICS</a> structure that contains the updated transport characteristics.
 
 
 #### - UcxController [in]
@@ -97,12 +86,11 @@ This function does not return a value.
 
 ## -see-also
 
-<a href="..\ucxcontroller\nc-ucxcontroller-evt_ucx_controller_get_transport_characteristics.md">EVT_UCX_CONTROLLER_GET_TRANSPORT_CHARACTERISTICS</a>
 
 
 
+<a href="https://msdn.microsoft.com/4394199C-6644-4E11-BDAF-625C2F94DEE8">EVT_UCX_CONTROLLER_GET_TRANSPORT_CHARACTERISTICS</a>
  
 
  
-
 

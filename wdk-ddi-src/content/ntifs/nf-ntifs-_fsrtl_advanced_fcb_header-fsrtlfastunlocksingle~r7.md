@@ -7,7 +7,7 @@ old-location: ifsk\fsrtlfastunlocksingle.htm
 old-project: ifsk
 ms.assetid: 8fd7aeea-f8b2-4f53-b4b6-65240ff0c7b6
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FsRtlFastUnlockSingle, FsRtlFastUnlockSingle routine [Installable File System Drivers], fsrtlref_22b539f2-395b-4ecc-b182-36a1b8333290.xml, ifsk.fsrtlfastunlocksingle, ntifs/FsRtlFastUnlockSingle
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,23 +52,6 @@ req.typenames: TOKEN_TYPE
 The <b>FsRtlFastUnlockSingle</b> routine releases a byte-range lock that was acquired by the specified process, with the specified key value, file offset, and length, for a file. 
 
 
-## -syntax
-
-
-````
-NTSTATUS FsRtlFastUnlockSingle(
-  _In_     PFILE_LOCK              FileLock,
-  _In_     PFILE_OBJECT            FileObject,
-  _In_     LARGE_INTEGER UNALIGNED *FileOffset,
-  _In_     PLARGE_INTEGER          Length,
-  _In_     PEPROCESS               ProcessId,
-  _In_     ULONG                   Key,
-  _In_opt_ PVOID                   Context,
-  _In_     BOOLEAN                 AlreadySynchronized
-);
-````
-
-
 ## -parameters
 
 
@@ -76,7 +59,7 @@ NTSTATUS FsRtlFastUnlockSingle(
 
 ### -param FileLock [in]
 
-A pointer to the FILE_LOCK structure for the file. This structure must have been initialized by a previous call to <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlallocatefilelock~r1.md">FsRtlAllocateFileLock</a> or <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializefilelock~r2.md">FsRtlInitializeFileLock</a>.
+A pointer to the FILE_LOCK structure for the file. This structure must have been initialized by a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff545640">FsRtlAllocateFileLock</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff546122">FsRtlInitializeFileLock</a>.
 
 
 ### -param FileObject [in]
@@ -125,16 +108,15 @@ The <b>FsRtlFastUnlockSingle</b> routine returns STATUS_SUCCESS or an error stat
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializefilelock~r2.md">FsRtlInitializeFileLock</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlallocatefilelock~r1.md">FsRtlAllocateFileLock</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545640">FsRtlAllocateFileLock</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546122">FsRtlInitializeFileLock</a>
  
 
  
-
 

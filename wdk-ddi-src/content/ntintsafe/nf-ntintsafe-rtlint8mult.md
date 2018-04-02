@@ -7,7 +7,7 @@ old-location: kernel\rtlint8mult.htm
 old-project: kernel
 ms.assetid: A2551FD2-55E7-4931-887B-1CB9901F23D6
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: RtlInt8Mult, RtlInt8Mult function [Kernel-Mode Driver Architecture], kernel.rtlint8mult, ntintsafe/RtlInt8Mult
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,18 +50,6 @@ req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
 
 
 Multiplies one value of type <b>INT8</b> by another.
-
-
-## -syntax
-
-
-````
-NTSTATUS RtlInt8Mult(
-  _In_  INT8 i8Multiplicand,
-  _In_  INT8 i8Multiplier,
-  _Out_ INT8 *pi8Result
-);
-````
 
 
 ## -parameters

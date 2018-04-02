@@ -52,19 +52,6 @@ req.product: Windows 10 or later.
 
 
 
-## -syntax
-
-
-````
-BOOL APIENTRY OEMPrinterEvent(
-   PWSTR  pPrinterName,
-   INT    iDriverEvent,
-   DWORD  dwFlags,
-   LPARAM lParam
-);
-````
-
-
 ## -parameters
 
 

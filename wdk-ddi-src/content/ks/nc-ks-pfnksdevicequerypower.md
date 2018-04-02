@@ -52,25 +52,6 @@ req.typenames: SOUNDDETECTOR_PATTERNHEADER
 AVStream calls a minidriver's <i>AVStrMiniDeviceQueryPower</i> routine when it receives an <a href="https://msdn.microsoft.com/library/windows/hardware/ff551699">IRP_MN_QUERY_POWER</a> request.
 
 
-## -prototype
-
-
-````
-PFNKSDEVICEQUERYPOWER AVStrMiniDeviceQueryPower;
-
-NTSTATUS AVStrMiniDeviceQueryPower(
-  _In_ PKSDEVICE          Device,
-  _In_ PIRP               Irp,
-  _In_ DEVICE_POWER_STATE DeviceTo,
-  _In_ DEVICE_POWER_STATE DeviceFrom,
-  _In_ SYSTEM_POWER_STATE SystemTo,
-  _In_ SYSTEM_POWER_STATE SystemFrom,
-  _In_ POWER_ACTION       Action
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -78,7 +59,7 @@ NTSTATUS AVStrMiniDeviceQueryPower(
 
 ### -param Device [in]
 
-Pointer to the <a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a> structure that dispatched the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551699">IRP_MN_QUERY_POWER</a>.
+Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff561681">KSDEVICE</a> structure that dispatched the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551699">IRP_MN_QUERY_POWER</a>.
 
 
 ### -param Irp [in]
@@ -128,7 +109,7 @@ The power manager or a device power policy owner sends an <a href="https://msdn.
 
 If a driver fails an IRP_MN_QUERY_POWER request for a system power state, the power manager typically responds by issuing an <a href="https://msdn.microsoft.com/library/windows/hardware/ff551744">IRP_MN_SET_POWER</a>. Usually, this IRP will reaffirm the current system state. However, it is possible that drivers might receive an IRP_MN_SET_POWER to the queried state or to some other intermediate state. Drivers should be prepared to handle these situations.
 
-The minidriver specifies this routine's address in the <b>QueryPower</b> member of its <a href="..\ks\ns-ks-_ksdevice_dispatch.md">KSDEVICE_DISPATCH</a> structure.
+The minidriver specifies this routine's address in the <b>QueryPower</b> member of its <a href="https://msdn.microsoft.com/library/windows/hardware/ff561693">KSDEVICE_DISPATCH</a> structure.
 
 This routine is optional.
 
@@ -137,7 +118,6 @@ This routine is optional.
 
 ## -see-also
 
-<a href="..\ks\ns-ks-_ksdevice_dispatch.md">KSDEVICE_DISPATCH</a>
 
 
 
@@ -145,8 +125,8 @@ This routine is optional.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561693">KSDEVICE_DISPATCH</a>
  
 
  
-
 

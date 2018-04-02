@@ -7,7 +7,7 @@ old-location: display\d3dddibox.htm
 old-project: display
 ms.assetid: 3CE49C9F-EFFC-4F43-A939-623B28FD5EFB
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDIBOX, D3DDDIBOX structure [Display Devices], _D3DDDIBOX, d3dumddi/D3DDDIBOX, display.d3dddibox
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,21 +50,6 @@ req.typenames: D3DDDIBOX
 
 
 Describes the bounds of a volume texture.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DDDIBOX {
-  UINT Left;
-  UINT Top;
-  UINT Right;
-  UINT Bottom;
-  UINT Front;
-  UINT Back;
-} D3DDDIBOX;
-````
 
 
 ## -struct-fields

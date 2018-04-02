@@ -7,7 +7,7 @@ old-location: kernel\csqinsertirpex.htm
 old-project: kernel
 ms.assetid: 1e407bcc-0a2b-42fa-982d-8ab0f12f082b
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: CsqInsertIrpEx, CsqInsertIrpEx routine [Kernel-Mode Driver Architecture], DrvrRtns_8914d2b4-6049-4d81-8f5f-4458b8bff2ed.xml, IO_CSQ_INSERT_IRP_EX, kernel.csqinsertirpex, wdm/CsqInsertIrpEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,21 +53,6 @@ req.product: Windows 10 or later.
 The <i>CsqInsertIrpEx</i> routine is used by the system to insert an IRP into a driver-implemented, cancel-safe IRP queue.
 
 
-## -prototype
-
-
-````
-IO_CSQ_INSERT_IRP_EX CsqInsertIrpEx;
-
-NTSTATUS CsqInsertIrpEx(
-  _In_ struct _IO_CSQ *Csq,
-  _In_ PIRP           Irp,
-  _In_ PVOID          InsertContext
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -101,9 +86,9 @@ Pointer to driver-defined context for the insert operation.
 
 
 
-The driver specifies the <i>CsqInsertIrpEx</i> routine for a cancel-safe IRP queue when it initializes the queue's <b>IO_CSQ</b> structure. The driver specifies the routine as the <i>CsqInsertIrp</i> parameter of <a href="..\wdm\nf-wdm-iocsqinitializeex.md">IoCsqInitializeEx</a> when it initializes <b>IO_CSQ</b>. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff540755">Cancel-Safe IRP Queues</a>.
+The driver specifies the <i>CsqInsertIrpEx</i> routine for a cancel-safe IRP queue when it initializes the queue's <b>IO_CSQ</b> structure. The driver specifies the routine as the <i>CsqInsertIrp</i> parameter of <a href="https://msdn.microsoft.com/library/windows/hardware/ff549060">IoCsqInitializeEx</a> when it initializes <b>IO_CSQ</b>. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff540755">Cancel-Safe IRP Queues</a>.
 
-The <a href="..\wdm\nf-wdm-iocsqinsertirpex.md">IoCsqInsertIrpEx</a> routine calls <i>CsqInsertIrpEx</i> to insert the IRP into the queue. The <i>InsertContext</i> parameter of <b>IoCsqInsertIrpEx</b> is passed as the <i>InsertContext</i> parameter of <i>CsqInsertIrpEx</i>.
+The <a href="https://msdn.microsoft.com/library/windows/hardware/ff549067">IoCsqInsertIrpEx</a> routine calls <i>CsqInsertIrpEx</i> to insert the IRP into the queue. The <i>InsertContext</i> parameter of <b>IoCsqInsertIrpEx</b> is passed as the <i>InsertContext</i> parameter of <i>CsqInsertIrpEx</i>.
 
 
 #### Examples
@@ -151,11 +136,30 @@ The IO_CSQ_INSERT_IRP_EX function type is defined in the Wdm.h header file. To m
 
 ## -see-also
 
-<a href="..\wdm\nc-wdm-io_csq_remove_irp.md">CsqRemoveIrp</a>
 
 
 
-<a href="..\wdm\nc-wdm-io_csq_insert_irp.md">CsqInsertIrp</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542934">CsqAcquireLock</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542940">CsqCompleteCanceledIrp</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542947">CsqInsertIrp</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542959">CsqPeekNextIrp</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542965">CsqReleaseLock</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542968">CsqRemoveIrp</a>
 
 
 
@@ -163,48 +167,28 @@ The IO_CSQ_INSERT_IRP_EX function type is defined in the Wdm.h header file. To m
 
 
 
-<a href="..\wdm\nf-wdm-iocsqremovenextirp.md">IoCsqRemoveNextIrp</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549054">IoCsqInitialize</a>
 
 
 
-<a href="..\wdm\nf-wdm-iocsqinsertirpex.md">IoCsqInsertIrpEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549060">IoCsqInitializeEx</a>
 
 
 
-<a href="..\wdm\nc-wdm-io_csq_peek_next_irp.md">CsqPeekNextIrp</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549066">IoCsqInsertIrp</a>
 
 
 
-<a href="..\wdm\nf-wdm-iocsqinitializeex.md">IoCsqInitializeEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549067">IoCsqInsertIrpEx</a>
 
 
 
-<a href="..\wdm\nf-wdm-iocsqinitialize.md">IoCsqInitialize</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549070">IoCsqRemoveIrp</a>
 
 
 
-<a href="..\wdm\nf-wdm-iocsqremoveirp.md">IoCsqRemoveIrp</a>
-
-
-
-<a href="..\wdm\nc-wdm-io_csq_release_lock.md">CsqReleaseLock</a>
-
-
-
-<a href="..\wdm\nc-wdm-io_csq_complete_canceled_irp.md">CsqCompleteCanceledIrp</a>
-
-
-
-<a href="..\wdm\nc-wdm-io_csq_acquire_lock.md">CsqAcquireLock</a>
-
-
-
-<a href="..\wdm\nf-wdm-iocsqinsertirp.md">IoCsqInsertIrp</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549072">IoCsqRemoveNextIrp</a>
  
 
  
-
 

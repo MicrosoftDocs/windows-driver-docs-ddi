@@ -55,14 +55,6 @@ req.product: Windows 10 or later.
 The <b>GetDevice</b> method returns the framework device object interface for this interrupt object.
 
 
-## -syntax
-
-
-````
-IWDFDevice3* GetDevice();
-````
-
-
 ## -parameters
 
 
@@ -90,12 +82,11 @@ For more information about handling interrupts in UMDF drivers, see <a href="htt
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfinterrupt.md">IWDFInterrupt</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451283">IWDFInterrupt</a>
  
 
  
-
 

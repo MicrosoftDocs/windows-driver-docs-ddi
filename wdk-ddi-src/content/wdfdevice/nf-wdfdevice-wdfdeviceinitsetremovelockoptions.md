@@ -57,17 +57,6 @@ req.product: Windows 10 or later.
    The <b>WdfDeviceInitSetRemoveLockOptions</b> method causes the framework to acquire a remove lock before delivering an IRP of any type to the driver.
 
 
-## -syntax
-
-
-````
-void WdfDeviceInitSetRemoveLockOptions(
-  _In_ PWDFDEVICE_INIT          DeviceInit,
-  _In_ PWDF_REMOVE_LOCK_OPTIONS Options
-);
-````
-
-
 ## -parameters
 
 
@@ -80,7 +69,7 @@ A caller-supplied pointer to a <a href="https://msdn.microsoft.com/library/windo
 
 ### -param Options [in]
 
-A pointer to a <a href="..\wdfdevice\ns-wdfdevice-_wdf_remove_lock_options.md">WDF_REMOVE_LOCK_OPTIONS</a> structure.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh406495">WDF_REMOVE_LOCK_OPTIONS</a> structure.
 
 
 ## -returns
@@ -112,7 +101,7 @@ If your driver has kernel-mode clients that send I/O unsynchronized with the PnP
 
 <div class="alert"><b>Note</b>  <b>WdfDeviceInitSetRemoveLockOptions</b> is not supported on control objects.</div>
 <div> </div>
-Typically, a driver calls <b>WdfDeviceInitSetRemoveLockOptions</b> from within its <a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a> callback function, just before calling <a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a>.
+Typically, a driver calls <b>WdfDeviceInitSetRemoveLockOptions</b> from within its <a href="https://msdn.microsoft.com/b20db029-ee2c-4fb1-bd69-ccd2e37fdc9a">EvtDriverDeviceAdd</a> callback function, just before calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff545926">WdfDeviceCreate</a>.
 
 After a driver calls <b>WdfDeviceInitSetRemoveLockOptions</b>, the setting remains in effect for the lifetime of the framework device object.
 
@@ -121,7 +110,7 @@ For more information about remove locks, see <a href="https://msdn.microsoft.com
 
 #### Examples
 
-This code example initializes a <a href="..\wdfdevice\ns-wdfdevice-_wdf_remove_lock_options.md">WDF_REMOVE_LOCK_OPTIONS</a> structure and calls <b>WdfDeviceInitSetRemoveLockOptions</b>.
+This code example initializes a <a href="https://msdn.microsoft.com/library/windows/hardware/hh406495">WDF_REMOVE_LOCK_OPTIONS</a> structure and calls <b>WdfDeviceInitSetRemoveLockOptions</b>.
 
 <div class="code"><span codelanguage=""><table>
 <tr>
@@ -148,20 +137,19 @@ WdfDeviceInitSetRemoveLockOptions(
 
 ## -see-also
 
-<a href="..\wdfdevice\ns-wdfdevice-_wdf_remove_lock_options.md">WDF_REMOVE_LOCK_OPTIONS</a>
 
 
 
-<a href="..\wdfdevice\nf-wdfdevice-wdf_remove_lock_options_init.md">WDF_REMOVE_LOCK_OPTIONS_INIT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406495">WDF_REMOVE_LOCK_OPTIONS</a>
 
 
 
-<a href="..\wdfdevice\ne-wdfdevice-_wdf_remove_lock_options_flags.md">WDF_REMOVE_LOCK_OPTIONS_FLAGS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406498">WDF_REMOVE_LOCK_OPTIONS_FLAGS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406501">WDF_REMOVE_LOCK_OPTIONS_INIT</a>
  
 
  
-
 

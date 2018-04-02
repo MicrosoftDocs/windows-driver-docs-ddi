@@ -7,7 +7,7 @@ old-location: netvista\protocolclmodifycallqoscomplete.htm
 old-project: netvista
 ms.assetid: 0d925862-49af-4579-b877-c9a033e73be0
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: PROTOCOL_CL_MODIFY_CALL_QOS_COMPLETE, ProtocolClModifyCallQoSComplete, ProtocolClModifyCallQoSComplete callback function [Network Drivers Starting with Windows Vista], condis_client_ref_19bed505-8cde-44c3-bee1-dd5cc7a26526.xml, ndis/ProtocolClModifyCallQoSComplete, netvista.protocolclmodifycallqoscomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -54,26 +54,11 @@ The
   the quality of service on a connection dynamically. Such clients must have 
   <i>ProtocolClModifyCallQoSComplete</i> functions to complete the asynchronous operations that they initate
   with 
-  <a href="..\ndis\nf-ndis-ndisclmodifycallqos.md">NdisClModifyCallQoS</a>. Otherwise, such a
+  <a href="https://msdn.microsoft.com/library/windows/hardware/ff561636">NdisClModifyCallQoS</a>. Otherwise, such a
   protocol driver's registered 
   <i>ProtocolClModifyCallQoSComplete</i> function can simply return control.
 <div class="alert"><b>Note</b>  You must declare the function by using the <b>PROTOCOL_CL_MODIFY_CALL_QOS_COMPLETE</b> type.
    For more information, see the following Examples section.</div><div> </div>
-
-## -prototype
-
-
-````
-PROTOCOL_CL_MODIFY_CALL_QOS_COMPLETE ProtocolClModifyCallQoSComplete;
-
-VOID ProtocolClModifyCallQoSComplete(
-  _In_ NDIS_STATUS         Status,
-  _In_ NDIS_HANDLE         ProtocolVcContext,
-  _In_ PCO_CALL_PARAMETERS CallParameters
-)
-{ ... }
-````
-
 
 ## -parameters
 
@@ -127,7 +112,7 @@ The call manager failed to change the QoS, and NDIS propagated the CM-determined
 
 Specifies the handle to the client's per-VC context area, which the client originally supplied to
      NDIS when it called 
-     <a href="..\ndis\nf-ndis-ndiscocreatevc.md">NdisCoCreateVc</a> to set up the VC for its
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff561696">NdisCoCreateVc</a> to set up the VC for its
      outgoing call request or from its 
      <i>ProtocolCoCreateVc</i> function if the client accepted an incoming call on this VC.
 
@@ -159,13 +144,13 @@ A call to
     VC.
 
 If the client's call to 
-    <a href="..\ndis\nf-ndis-ndisclmodifycallqos.md">NdisClModifyCallQoS</a> succeeds, 
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561636">NdisClModifyCallQoS</a> succeeds, 
     <i>ProtocolClModifyCallQoSComplete</i> can accept the QoS change by simply returning control. Otherwise, 
     <i>ProtocolClModifyCallQoSComplete</i> can engage in further negotiation with the call manager as long as
     the client's developer places some reasonable limit on the number of possible renegotiations.
     Alternatively, 
     <i>ProtocolClModifyCallQoSComplete</i> can simply tear down the call with 
-    <a href="..\ndis\nf-ndis-ndisclclosecall.md">NdisClCloseCall</a> whenever the call manager
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561627">NdisClCloseCall</a> whenever the call manager
     rejects a request to change the QoS and the previously established QoS has become unacceptable to the
     client.
 
@@ -212,36 +197,35 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a>
 
 
 
-<a href="..\ndis\nc-ndis-protocol_cm_modify_qos_call.md">ProtocolCmModifyCallQoS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561627">NdisClCloseCall</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndismcmmodifycallqoscomplete.md">NdisMCmModifyCallQoSComplete</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561636">NdisClModifyCallQoS</a>
 
 
 
-<a href="..\ndis\nc-ndis-protocol_co_create_vc.md">ProtocolCoCreateVc</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561679">NdisCmModifyCallQoSComplete</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisclclosecall.md">NdisClCloseCall</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563545">NdisMCmModifyCallQoSComplete</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndiscmmodifycallqoscomplete.md">NdisCmModifyCallQoSComplete</a>
+<a href="https://msdn.microsoft.com/24523677-9f5a-4109-8484-95883a4d1bbf">ProtocolCmModifyCallQoS</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisclmodifycallqos.md">NdisClModifyCallQoS</a>
-
-
-
+<a href="https://msdn.microsoft.com/b086dd24-74f5-474a-8684-09bf92ac731b">ProtocolCoCreateVc</a>
  
 
  
-
 

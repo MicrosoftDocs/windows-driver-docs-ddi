@@ -7,7 +7,7 @@ old-location: kernel\mmallocatemdlforiospace.htm
 old-project: kernel
 ms.assetid: 198ECC2A-1AC0-44FA-8E5C-84F1C8BEE246
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: MmAllocateMdlForIoSpace, MmAllocateMdlForIoSpace routine [Kernel-Mode Driver Architecture], kernel.mmallocatemdlforiospace, wdm/MmAllocateMdlForIoSpace
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,19 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The <b>MmAllocateMdlForIoSpace</b> routine allocates an <a href="..\wdm\ns-wdm-_mdl.md">MDL</a> and initializes this MDL to describe a set of physical address ranges in I/O address space.
-
-
-## -syntax
-
-
-````
-NTSTATUS MmAllocateMdlForIoSpace(
-  _In_  PMM_PHYSICAL_ADDRESS_LIST PhysicalAddressList,
-  _In_  SIZE_T                    NumberOfEntries,
-  _Out_ PMDL                      *NewMdl
-);
-````
+The <b>MmAllocateMdlForIoSpace</b> routine allocates an <a href="https://msdn.microsoft.com/library/windows/hardware/ff554414">MDL</a> and initializes this MDL to describe a set of physical address ranges in I/O address space.
 
 
 ## -parameters
@@ -72,7 +60,7 @@ NTSTATUS MmAllocateMdlForIoSpace(
 
 ### -param PhysicalAddressList [in]
 
-A pointer to an array of <a href="..\wdm\ns-wdm-_mm_physical_address_list.md">MM_PHYSICAL_ADDRESS_LIST</a> structures that describe the physical address ranges to include in the allocated MDL.
+A pointer to an array of <a href="https://msdn.microsoft.com/library/windows/hardware/jj206445">MM_PHYSICAL_ADDRESS_LIST</a> structures that describe the physical address ranges to include in the allocated MDL.
 
 
 ### -param NumberOfEntries [in]
@@ -140,9 +128,9 @@ The physical address ranges in the <i>PhysicalAddressList</i> array must satisfy
 <li>All physical address ranges must be in memory that is available for use as I/O address space. They cannot be in memory space that is used by the operating system for RAM.</li>
 <li>The total size of all the ranges must be less than 4 gigabytes. Specifically, the total size must not exceed 2³²-1 bytes.</li>
 </ul>
-The caller is responsible for freeing the allocated MDL when it is no longer needed. To free the MDL, call the <a href="..\wdm\nf-wdm-iofreemdl.md">IoFreeMdl</a> routine. For more information about MDLs, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565421">Using MDLs</a>.
+The caller is responsible for freeing the allocated MDL when it is no longer needed. To free the MDL, call the <a href="https://msdn.microsoft.com/library/windows/hardware/ff549126">IoFreeMdl</a> routine. For more information about MDLs, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565421">Using MDLs</a>.
 
-The MDL that is created by <b>MmAllocateMdlForIoSpace</b> is not mapped to virtual memory, but can be supplied to a routine such as <a href="..\wdm\nc-wdm-pmap_transfer_ex.md">MapTransferEx</a> to initiate a DMA transfer to or from the physical memory ranges described by the MDL. To map this MDL to a contiguous range of virtual addresses so that it can be accessed by the processor, call the <a href="..\wdm\nf-wdm-mmmaplockedpagesspecifycache.md">MmMapLockedPagesSpecifyCache</a> routine.
+The MDL that is created by <b>MmAllocateMdlForIoSpace</b> is not mapped to virtual memory, but can be supplied to a routine such as <a href="https://msdn.microsoft.com/library/windows/hardware/hh406521">MapTransferEx</a> to initiate a DMA transfer to or from the physical memory ranges described by the MDL. To map this MDL to a contiguous range of virtual addresses so that it can be accessed by the processor, call the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554629">MmMapLockedPagesSpecifyCache</a> routine.
 
 Only ranges of the physical address space that are not reserved by the operating system for use as memory are available to drivers for use as I/O address space. Drivers use I/O address space to access memory-mapped hardware resources such as device registers. When a driver starts, it might receive one or more physical address ranges as translated hardware resources. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff554399">Mapping Bus-Relative Addresses to Virtual Addresses</a>.
 
@@ -151,7 +139,7 @@ In some processor architectures, such as the x86, devices can be either memory-m
 
 #### Examples
 
-The following code example shows how to construct an array of <a href="..\wdm\ns-wdm-_mm_physical_address_list.md">MM_PHYSICAL_ADDRESS_LIST</a> structures that describe the physical address ranges to include in the allocated MDL.
+The following code example shows how to construct an array of <a href="https://msdn.microsoft.com/library/windows/hardware/jj206445">MM_PHYSICAL_ADDRESS_LIST</a> structures that describe the physical address ranges to include in the allocated MDL.
 
 <div class="code"><span codelanguage=""><table>
 <tr>
@@ -195,28 +183,27 @@ In this example, the starting physical address is specified by the <code>BasePhy
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iofreemdl.md">IoFreeMdl</a>
 
 
 
-<a href="..\wdm\ns-wdm-_mm_physical_address_list.md">MM_PHYSICAL_ADDRESS_LIST</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549126">IoFreeMdl</a>
 
 
 
-<a href="..\wdm\nf-wdm-mmmaplockedpagesspecifycache.md">MmMapLockedPagesSpecifyCache</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554414">MDL</a>
 
 
 
-<a href="..\wdm\nc-wdm-pmap_transfer_ex.md">MapTransferEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj206445">MM_PHYSICAL_ADDRESS_LIST</a>
 
 
 
-<a href="..\wdm\ns-wdm-_mdl.md">MDL</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406521">MapTransferEx</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554629">MmMapLockedPagesSpecifyCache</a>
  
 
  
-
 

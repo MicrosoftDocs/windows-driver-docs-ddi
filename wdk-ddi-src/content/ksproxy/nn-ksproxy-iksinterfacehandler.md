@@ -116,16 +116,15 @@ For more information about <b>CoCreateInstance</b>, see the Microsoft Windows SD
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559766">IKsControl</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563537">KSPIN_INTERFACE</a>
-
-
-
-<a href="..\ksproxy\nn-ksproxy-ikscontrol.md">IKsControl</a>
-
-
-
  
 
  
-
 

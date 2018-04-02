@@ -91,7 +91,6 @@ Cancels the asynchronous operation.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn265391">SendBidiSetRequestAsync</a>
 
 
 
@@ -99,8 +98,8 @@ Cancels the asynchronous operation.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265391">SendBidiSetRequestAsync</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: display\dxgkddimiracastquerycaps.htm
 old-project: display
 ms.assetid: C10CAA33-C407-4183-9090-B9D78B07CD12
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKDDI_MIRACAST_QUERY_CAPS, DxgkDdiMiracastQueryCaps, DxgkDdiMiracastQueryCaps callback function [Display Devices], display.dxgkddimiracastquerycaps, dispmprt/DxgkDdiMiracastQueryCaps
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -54,21 +54,6 @@ Queries the Miracast capabilities of the current display adapter. The operating 
 
 
 
-## -prototype
-
-
-````
-DXGKDDI_MIRACAST_QUERY_CAPS DxgkDdiMiracastQueryCaps;
-
-NTSTATUS* DxgkDdiMiracastQueryCaps(
-  _In_  PVOID              DriverContext,
-  _In_  ULONG              MiracastCapsSize,
-  _Out_ DXGK_MIRACAST_CAPS *MiracastCaps
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -76,19 +61,19 @@ NTSTATUS* DxgkDdiMiracastQueryCaps(
 
 ### -param DriverContext [in]
 
-A handle to a context block that is associated with a display adapter. The display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a> function previously provided this handle to the DirectX graphics kernel subsystem.
+A handle to a context block that is associated with a display adapter. The display miniport driver's <a href="https://msdn.microsoft.com/5fd4046f-54c3-4dfc-8d51-0d9ebcde0bea">DxgkDdiAddDevice</a> function previously provided this handle to the DirectX graphics kernel subsystem.
 
 
 ### -param MiracastCapsSize [in]
 
-The size, supplied by the operating system, of the <a href="..\dispmprt\ns-dispmprt-_dxgk_miracast_caps.md">DXGK_MIRACAST_CAPS</a> structure pointed to by the <i>MiracastCaps</i> parameter.
+The size, supplied by the operating system, of the <a href="https://msdn.microsoft.com/library/windows/hardware/dn322054">DXGK_MIRACAST_CAPS</a> structure pointed to by the <i>MiracastCaps</i> parameter.
 
 The driver should check this value before it fills the structure.
 
 
 ### -param *MiracastCaps [out]
 
-A pointer to an operating system-provided buffer that holds a <a href="..\dispmprt\ns-dispmprt-_dxgk_miracast_caps.md">DXGK_MIRACAST_CAPS</a> structure that the driver fills with Miracast device capabilities.
+A pointer to an operating system-provided buffer that holds a <a href="https://msdn.microsoft.com/library/windows/hardware/dn322054">DXGK_MIRACAST_CAPS</a> structure that the driver fills with Miracast device capabilities.
 
 
 ## -returns
@@ -112,16 +97,15 @@ The operating system guarantees that this function follows the third-level synch
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
 
 
 
-<a href="..\dispmprt\ns-dispmprt-_dxgk_miracast_caps.md">DXGK_MIRACAST_CAPS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn322054">DXGK_MIRACAST_CAPS</a>
 
 
 
+<a href="https://msdn.microsoft.com/5fd4046f-54c3-4dfc-8d51-0d9ebcde0bea">DxgkDdiAddDevice</a>
  
 
  
-
 

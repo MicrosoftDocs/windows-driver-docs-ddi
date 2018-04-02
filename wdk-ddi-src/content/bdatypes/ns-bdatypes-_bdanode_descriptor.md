@@ -52,18 +52,6 @@ req.typenames: BDANODE_DESCRIPTOR, *PBDANODE_DESCRIPTOR
 The BDANODE_DESCRIPTOR structure describes a BDA node. 
 
 
-## -syntax
-
-
-````
-typedef struct _BDANODE_DESCRIPTOR {
-  ULONG ulBdaNodeType;
-  GUID  guidFunction;
-  GUID  guidName;
-} BDANODE_DESCRIPTOR, *PBDANODE_DESCRIPTOR;
-````
-
-
 ## -struct-fields
 
 
@@ -86,16 +74,15 @@ GUID that can be used to store a string containing the name of the node. Applica
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556529">BDA Node Category GUIDs</a>
 
 
 
-<a href="..\ks\ns-ks-_ksnode_descriptor.md">KSNODE_DESCRIPTOR</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563473">KSNODE_DESCRIPTOR</a>
  
 
  
-
 

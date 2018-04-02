@@ -7,7 +7,7 @@ old-location: display\dxgk_engine_type.htm
 old-project: display
 ms.assetid: D94EF91A-784D-4AA2-A43D-6A4AE88CF0A3
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGK_ENGINE_TYPE, DXGK_ENGINE_TYPE enumeration [Display Devices], DXGK_ENGINE_TYPE_3D, DXGK_ENGINE_TYPE_COPY, DXGK_ENGINE_TYPE_OTHER, DXGK_ENGINE_TYPE_OVERLAY, DXGK_ENGINE_TYPE_SCENE_ASSEMBLY, DXGK_ENGINE_TYPE_VIDEO_DECODE, DXGK_ENGINE_TYPE_VIDEO_ENCODE, DXGK_ENGINE_TYPE_VIDEO_PROCESSING, d3dkmdt/DXGK_ENGINE_TYPE, d3dkmdt/DXGK_ENGINE_TYPE_3D, d3dkmdt/DXGK_ENGINE_TYPE_COPY, d3dkmdt/DXGK_ENGINE_TYPE_OTHER, d3dkmdt/DXGK_ENGINE_TYPE_OVERLAY, d3dkmdt/DXGK_ENGINE_TYPE_SCENE_ASSEMBLY, d3dkmdt/DXGK_ENGINE_TYPE_VIDEO_DECODE, d3dkmdt/DXGK_ENGINE_TYPE_VIDEO_ENCODE, d3dkmdt/DXGK_ENGINE_TYPE_VIDEO_PROCESSING, display.dxgk_engine_type
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,23 +52,6 @@ req.typenames: DXGK_ENGINE_TYPE
 Indicates the type of engine on a GPU node. Note the selection rules discussed in Remarks.
 
 
-## -syntax
-
-
-````
-typedef enum _DXGK_ENGINE_TYPE { 
-  DXGK_ENGINE_TYPE_OTHER             = 0,
-  DXGK_ENGINE_TYPE_3D                = 1,
-  DXGK_ENGINE_TYPE_VIDEO_DECODE      = 2,
-  DXGK_ENGINE_TYPE_VIDEO_ENCODE      = 3,
-  DXGK_ENGINE_TYPE_VIDEO_PROCESSING  = 4,
-  DXGK_ENGINE_TYPE_SCENE_ASSEMBLY    = 5,
-  DXGK_ENGINE_TYPE_COPY              = 6,
-  DXGK_ENGINE_TYPE_OVERLAY           = 7
-} DXGK_ENGINE_TYPE;
-````
-
-
 ## -enum-fields
 
 
@@ -76,7 +59,7 @@ typedef enum _DXGK_ENGINE_TYPE {
 
 ### -field DXGK_ENGINE_TYPE_OTHER
 
-The engine does not match any of the other <a href="..\d3dkmdt\ne-d3dkmdt-dxgk_engine_type.md">DXGK_ENGINE_TYPE</a> enumeration values. This value is used for proprietary or unique functionality that is not exposed by typical adapters, as well as for an engine that performs work that doesn't fall under another category.
+The engine does not match any of the other <a href="https://msdn.microsoft.com/library/windows/hardware/dn265417">DXGK_ENGINE_TYPE</a> enumeration values. This value is used for proprietary or unique functionality that is not exposed by typical adapters, as well as for an engine that performs work that doesn't fall under another category.
 
 
 ### -field DXGK_ENGINE_TYPE_3D

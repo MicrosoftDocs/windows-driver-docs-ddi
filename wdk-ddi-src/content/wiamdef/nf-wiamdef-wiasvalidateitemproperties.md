@@ -53,18 +53,6 @@ req.product: Windows 10 or later.
 The <b>wiasValidateItemProperties </b>function validates a list of simple item properties against their current valid values.
 
 
-## -syntax
-
-
-````
-HRESULT _stdcall wiasValidateItemProperties(
-  _In_       BYTE     *pWiasContext,
-             ULONG    nPropSpec,
-  _In_ const PROPSPEC *pPropSpec
-);
-````
-
-
 ## -parameters
 
 

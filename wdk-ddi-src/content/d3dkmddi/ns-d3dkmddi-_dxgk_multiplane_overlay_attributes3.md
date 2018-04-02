@@ -7,7 +7,7 @@ old-location: display\dxgk_multiplane_overlay_attributes3.htm
 old-project: display
 ms.assetid: 0491AF42-53DF-4538-BE8A-AA5AA7B2C65E
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES3, DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES3 structure [Display Devices], _DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES3, d3dkmddi/DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES3, display.dxgk_multiplane_overlay_attributes3
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,23 +50,6 @@ req.typenames: DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES3
 
 
 A structure containing the attributes used for the image in a multiplane overlay.
-
-
-## -syntax
-
-
-````
-typedef struct _DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES3 {
-  DXGK_MULTIPLANE_OVERLAY_FLAGS                 Flags;
-  RECT                                          SrcRect;
-  RECT                                          DstRect;
-  RECT                                          ClipRect;
-  D3DDDI_ROTATION                               Rotation;
-  DXGK_MULTIPLANE_OVERLAY_BLEND                 Blend;
-  D3DDDI_COLOR_SPACE_TYPE                       ColorSpaceType;
-  DXGK_MULTIPLANE_OVERLAY_STRETCH_QUALITY       StretchQuality;
-} DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES3;
-````
 
 
 ## -struct-fields

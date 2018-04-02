@@ -53,23 +53,6 @@ req.typenames:
 The <b>KsSynchronousIoControlDevice</b> function performs a synchronous device I/O control on the target device object. It waits in a nonalertable state until the I/O completes. This function can only be called at PASSIVE_LEVEL.
 
 
-## -syntax
-
-
-````
-NTSTATUS KsSynchronousIoControlDevice(
-  _In_  PFILE_OBJECT    FileObject,
-  _In_  KPROCESSOR_MODE RequesorMode,
-  _In_  ULONG           IoControl,
-  _In_  PVOID           InBuffer,
-  _In_  ULONG           InSize,
-  _Out_ PVOID           OutBuffer,
-  _In_  ULONG           OutSize,
-  _Out_ PULONG          BytesReturned
-);
-````
-
-
 ## -parameters
 
 

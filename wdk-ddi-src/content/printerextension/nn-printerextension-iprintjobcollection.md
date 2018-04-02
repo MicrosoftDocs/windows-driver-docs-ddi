@@ -76,7 +76,7 @@ The <b>IPrintJobCollection</b> interface has these methods.
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh406567">GetAt</a>
 </td>
 <td align="left" width="63%">
-Gets a pointer to an <a href="..\printerextension\nn-printerextension-iprintjob.md">IPrintJob</a> object.
+Gets a pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/dn265396">IPrintJob</a> object.
 
 </td>
 </tr>
@@ -136,7 +136,6 @@ The order of print jobs in the enumerated list is the same as the order provided
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/D1236DD2-D4AD-4615-9036-7EC75D6CADCE">Job Management</a>
 
 
 
@@ -144,8 +143,8 @@ The order of print jobs in the enumerated list is the same as the order provided
 
 
 
+<a href="https://msdn.microsoft.com/D1236DD2-D4AD-4615-9036-7EC75D6CADCE">Job Management</a>
  
 
  
-
 

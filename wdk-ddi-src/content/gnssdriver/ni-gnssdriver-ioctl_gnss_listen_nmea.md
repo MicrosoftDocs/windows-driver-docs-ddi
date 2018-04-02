@@ -3,12 +3,12 @@ UID: NI:gnssdriver.IOCTL_GNSS_LISTEN_NMEA
 title: IOCTL_GNSS_LISTEN_NMEA
 author: windows-driver-content
 description: The IOCTL_GNSS_LISTEN_NMEA control code is used to start listening for NMEA events from the driver.
-old-location: gnss\ioctl_gnss_listen_nmea.htm
-old-project: gnss
+old-location: sensors\ioctl_gnss_listen_nmea.htm
+old-project: sensors
 ms.assetid: 975F5FB4-503D-44E7-8D4C-2AEFE72B672B
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IOCTL_GNSS_LISTEN_NMEA, IOCTL_GNSS_LISTEN_NMEA control code [Sensor Devices], gnss.ioctl_gnss_listen_nmea, gnssdriver/IOCTL_GNSS_LISTEN_NMEA
+ms.date: 2/22/2018
+ms.keywords: IOCTL_GNSS_LISTEN_NMEA, IOCTL_GNSS_LISTEN_NMEA control code [Sensor Devices], gnssdriver/IOCTL_GNSS_LISTEN_NMEA, sensors.ioctl_gnss_listen_nmea
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -71,7 +71,7 @@ Set to 0.
 
 ### -output-buffer
 
-A pointer to a <a href="..\gnssdriver\ns-gnssdriver-gnss_event.md">GNSS_EVENT</a> structure.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn925134">GNSS_EVENT</a> structure.
 
 
 
@@ -137,7 +137,6 @@ When the driver completes the I/O call, the calling client will need to issue an
 
 ## -see-also
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
 
 
 
@@ -145,14 +144,15 @@ When the driver completes the I/O call, the calling client will need to issue an
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548651">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548656">WdfIoTargetSendInternalIoctlSynchronously</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548660">WdfIoTargetSendIoctlSynchronously</a>
  
 
  

@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-Exposes a collection of <a href="..\printerextension\nn-printerextension-iprinterextensioncontext.md">IPrinterExtensionContext</a> objects.
+Exposes a collection of <a href="https://msdn.microsoft.com/library/windows/hardware/hh406649">IPrinterExtensionContext</a> objects.
 
 
 ## -inheritance
@@ -83,7 +83,7 @@ Gets a pointer to the enumerants of <b>IPrinterExtensionContextCollection</b> ob
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh406567">GetAt</a>
 </td>
 <td align="left" width="63%">
-Gets a pointer to an <a href="..\printerextension\nn-printerextension-iprinterextensioncontext.md">IPrinterExtensionContext</a> object.
+Gets a pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/hh406649">IPrinterExtensionContext</a> object.
 
 </td>
 </tr>
@@ -107,7 +107,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Gets a count of the number of <a href="..\printerextension\nn-printerextension-iprinterextensioncontext.md">IPrinterExtensionContext</a> objects in the collection.
+Gets a count of the number of <a href="https://msdn.microsoft.com/library/windows/hardware/hh406649">IPrinterExtensionContext</a> objects in the collection.
 
 </td>
 </tr>
@@ -116,20 +116,19 @@ Gets a count of the number of <a href="..\printerextension\nn-printerextension-i
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406649">IPrinterExtensionContext</a>
+
+
+
 <a href="https://msdn.microsoft.com/947063C6-563A-4BB7-918E-479941B4583F">IPrinterExtensionEvent::OnPrinterQueuesEnumerated</a>
-
-
-
-<a href="..\printerextension\nn-printerextension-iprinterextensioncontext.md">IPrinterExtensionContext</a>
-
-
-
  
 
  
-
 

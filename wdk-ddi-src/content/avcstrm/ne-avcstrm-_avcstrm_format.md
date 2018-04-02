@@ -52,22 +52,6 @@ req.typenames: AVCSTRM_FORMAT
 The AVCSTRM_FUNCTION enumeration defines the AV/C subunit stream formats supported by <i>avcstrm.sys</i>.
 
 
-## -syntax
-
-
-````
-typedef enum _AVCSTRM_FORMAT { 
-  AVCSTRM_FORMAT_SDDV_NTSC   = 0,
-  AVCSTRM_FORMAT_SDDV_PAL    = 1,
-  AVCSTRM_FORMAT_MPEG2TS     = 2,
-  AVCSTRM_FORMAT_HDDV_NTSC   = 3,
-  AVCSTRM_FORMAT_HDDV_PAL    = 4,
-  AVCSTRM_FORMAT_SDLDV_NTSC  = 5,
-  AVCSTRM_FORMAT_SDLDV_PAL   = 6
-} AVCSTRM_FORMAT;
-````
-
-
 ## -enum-fields
 
 
@@ -110,12 +94,11 @@ Specifies the 61883-5 specification for SDL-DVCR data transmission. PAL. This fo
 
 ## -see-also
 
-<a href="..\avcstrm\ns-avcstrm-_avcstrm_format_info.md">AVCSTRM_FORMAT_INFO</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554117">AVCSTRM_FORMAT_INFO</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: kernel\mmmapmdl.htm
 old-project: kernel
 ms.assetid: 4272f7a2-9379-40dd-a0a1-784dd25bc8bc
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: MmMapMdl, MmMapMdl function [Kernel-Mode Driver Architecture], kernel.mmmapmdl, wdm/MmMapMdl
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -55,19 +55,6 @@ This function maps physical pages described by a memory descriptor
 
 
 
-## -syntax
-
-
-````
- NTSTATUS  MmMapMdl(
-  _In_ PMDL            MemoryDescriptorList,
-  _In_ ULONG           Protection,
-  _In_ PMM_MDL_ROUTINE DriverRoutine,
-  _In_ PVOID           DriverContext
-);
-````
-
-
 ## -parameters
 
 
@@ -85,7 +72,7 @@ A bitwise of flags that indicates the protection to set for the pages. Possible 
 
 ### -param DriverRoutine [in]
 
- A pointer to a driver-supplied callback routine (<a href="..\wdm\nc-wdm-mm_mdl_routine.md">MM_MDL_ROUTINE</a>) that is invoked after the MDL is mapped.
+ A pointer to a driver-supplied callback routine (<a href="https://msdn.microsoft.com/D8D946C9-8642-4D31-B983-DAF88B46B97B">MM_MDL_ROUTINE</a>) that is invoked after the MDL is mapped.
 
 
 ### -param DriverContext [in]
@@ -105,12 +92,11 @@ A pointer to a driver-defined context. The driver's callback function can store 
 
 ## -see-also
 
-<a href="..\wdm\nc-wdm-mm_mdl_routine.md">MM_MDL_ROUTINE</a>
 
 
 
+<a href="https://msdn.microsoft.com/D8D946C9-8642-4D31-B983-DAF88B46B97B">MM_MDL_ROUTINE</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: display\videoportgetprocaddress.htm
 old-project: display
 ms.assetid: f4263cc6-2065-475a-b618-6a5735c5f66e
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PVIDEO_PORT_GET_PROC_ADDRESS, VideoPortGetProcAddress, VideoPortGetProcAddress callback function [Display Devices], VideoPort_Functions_303c9139-f7bd-4334-9379-ca5e167e4618.xml, display.videoportgetprocaddress, video/VideoPortGetProcAddress
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,20 +53,6 @@ req.product: Windows 10 or later.
 The <i>VideoPortGetProcAddress</i> callback routine retrieves the address of a Windows 2000 or later video port driver function.
 
 
-## -prototype
-
-
-````
-PVIDEO_PORT_GET_PROC_ADDRESS VideoPortGetProcAddress;
-
-PVOID VideoPortGetProcAddress(
-  _In_ PVOID  HwDeviceExtension,
-  _In_ PUCHAR FunctionName
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -97,19 +83,18 @@ Pointer to a null-terminated ASCII string that contains the name of the function
 
 <i>VideoPortGetProcAddress</i> makes it possible for a video miniport driver to gain access to video port driver functions without linking to them directly. This enables a miniport driver to take full advantage of Windows 2000 and later features but still be able to load on earlier NT-based operating system versions. For an example of how to use <i>VideoPortGetProcAddress</i>, see <a href="https://msdn.microsoft.com/48dace7e-7ba3-48bf-9788-469ff42f6fe3">Using VideoPortGetProcAddress</a>.
 
-The <b>VideoPortGetProcAddress</b> member of the <a href="..\video\ns-video-_video_port_config_info.md">VIDEO_PORT_CONFIG_INFO</a> structure contains the address of this callback routine. 
+The <b>VideoPortGetProcAddress</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff570531">VIDEO_PORT_CONFIG_INFO</a> structure contains the address of this callback routine. 
 
 
 
 
 ## -see-also
 
-<a href="..\video\ns-video-_video_port_config_info.md">VIDEO_PORT_CONFIG_INFO</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570531">VIDEO_PORT_CONFIG_INFO</a>
  
 
  
-
 

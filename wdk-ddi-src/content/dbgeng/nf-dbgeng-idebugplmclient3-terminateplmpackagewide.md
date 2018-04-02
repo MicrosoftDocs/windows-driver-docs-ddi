@@ -7,7 +7,7 @@ old-location: debugger\idebugplmclient3_terminateplmpackagewide.htm
 old-project: debugger
 ms.assetid: EBEEF2C7-AD2E-4BE5-B20C-D4E148F1454C
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: IDebugPlmClient3, IDebugPlmClient3 interface [Windows Debugging], TerminatePlmPackageWide method, IDebugPlmClient3::TerminatePlmPackageWide, TerminatePlmPackageWide method [Windows Debugging], TerminatePlmPackageWide method [Windows Debugging], IDebugPlmClient3 interface, TerminatePlmPackageWide,IDebugPlmClient3.TerminatePlmPackageWide, dbgeng/IDebugPlmClient3::TerminatePlmPackageWide, debugger.idebugplmclient3_terminateplmpackagewide
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,17 +52,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 Ends a Process Lifecycle Management (PLM) package.
 
 
-## -syntax
-
-
-````
-HRESULT TerminatePlmPackageWide(
-  [in] ULONG64 Server,
-  [in] PCWSTR  PackageFullName
-);
-````
-
-
 ## -parameters
 
 
@@ -89,12 +78,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugplmclient3.md">IDebugPlmClient3</a>
 
 
 
+<a href="https://msdn.microsoft.com/5B0580FF-0829-406A-B511-C0CD91A08D5F">IDebugPlmClient3</a>
  
 
  
-
 

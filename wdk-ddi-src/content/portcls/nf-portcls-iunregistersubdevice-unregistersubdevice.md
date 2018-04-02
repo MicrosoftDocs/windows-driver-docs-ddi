@@ -7,7 +7,7 @@ old-location: audio\iunregistersubdevice_unregistersubdevice.htm
 old-project: audio
 ms.assetid: 042378f0-aa0f-49be-b881-86558ad33baf
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/19/2018
 ms.keywords: IUnregisterSubdevice, IUnregisterSubdevice interface [Audio Devices], UnregisterSubdevice method, IUnregisterSubdevice::UnregisterSubdevice, UnregisterSubdevice method [Audio Devices], UnregisterSubdevice method [Audio Devices], IUnregisterSubdevice interface, UnregisterSubdevice,IUnregisterSubdevice.UnregisterSubdevice, audio.iunregistersubdevice_unregistersubdevice, audmp-routines_8fb24a5e-af25-42e0-a96e-2f4728f17cde.xml, portcls/IUnregisterSubdevice::UnregisterSubdevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,18 +49,7 @@ req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ## -description
 
 
-The <b>UnregisterSubdevice</b> method deletes the registration of a subdevice that was previously registered by a call to <a href="..\portcls\nf-portcls-pcregistersubdevice.md">PcRegisterSubdevice</a>.
-
-
-## -syntax
-
-
-````
-NTSTATUS UnregisterSubdevice(
-  [in] PDEVICE_OBJECT DeviceObject,
-  [in] PUNKNOWN       Unknown
-);
-````
+The <b>UnregisterSubdevice</b> method deletes the registration of a subdevice that was previously registered by a call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff537731">PcRegisterSubdevice</a>.
 
 
 ## -parameters
@@ -70,12 +59,12 @@ NTSTATUS UnregisterSubdevice(
 
 ### -param DeviceObject [in]
 
-Pointer to the device object for the adapter device. This parameter must point to a system structure of type <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>.
+Pointer to the device object for the adapter device. This parameter must point to a system structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a>.
 
 
 ### -param Unknown [in]
 
-Pointer to the <a href="..\portcls\nn-portcls-iport.md">IPort</a> interface of the port driver object that is bound to the subdevice.
+Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff536842">IPort</a> interface of the port driver object that is bound to the subdevice.
 
 
 ## -returns
@@ -98,24 +87,23 @@ For more information, see <a href="https://msdn.microsoft.com/d8ebd6d9-37ed-4890
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iport.md">IPort</a>
 
 
 
-<a href="..\portcls\nf-portcls-pcregistersubdevice.md">PcRegisterSubdevice</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a>
 
 
 
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536842">IPort</a>
 
 
 
-<a href="..\portcls\nn-portcls-iunregistersubdevice.md">IUnregisterSubdevice</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537030">IUnregisterSubdevice</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537731">PcRegisterSubdevice</a>
  
 
  
-
 

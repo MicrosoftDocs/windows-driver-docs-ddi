@@ -52,17 +52,6 @@ req.typenames: MsrErrorReportingType
 This enumeration defines the constants that indicate the error reporting type for the magnetic stripe reader (MSR).
 
 
-## -syntax
-
-
-````
-typedef enum _MsrErrorReportingType { 
-  MsrErrorReportingType_CardLevel   = ,
-  MsrErrorReportingType_TrackLevel
-} MsrErrorReportingType;
-````
-
-
 ## -enum-fields
 
 

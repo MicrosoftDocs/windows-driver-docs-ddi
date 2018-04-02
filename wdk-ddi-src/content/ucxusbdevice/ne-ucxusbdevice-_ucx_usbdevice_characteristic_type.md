@@ -7,7 +7,7 @@ old-location: buses\ucx_usbdevice_characteristic_type.htm
 old-project: usbref
 ms.assetid: 86FA72CC-C23F-40B9-9FDD-80C3B0D5EA73
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: PUCX_USBDEVICE_CHARACTERISTIC_TYPE, PUCX_USBDEVICE_CHARACTERISTIC_TYPE enumeration pointer [Buses], UCX_USBDEVICE_CHARACTERISTIC_TYPE, UCX_USBDEVICE_CHARACTERISTIC_TYPE enumeration [Buses], UCX_USBDEVICE_CHARACTERISTIC_TYPE_PATH_DELAY, _UCX_USBDEVICE_CHARACTERISTIC_TYPE, buses.ucx_usbdevice_characteristic_type, ucxusbdevice/PUCX_USBDEVICE_CHARACTERISTIC_TYPE, ucxusbdevice/UCX_USBDEVICE_CHARACTERISTIC_TYPE, ucxusbdevice/UCX_USBDEVICE_CHARACTERISTIC_TYPE_PATH_DELAY
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,16 +53,6 @@ req.product: Windows 10 or later.
 Defines values that indicates the type of device characteristic.
 
 
-## -syntax
-
-
-````
-typedef enum _UCX_USBDEVICE_CHARACTERISTIC_TYPE { 
-  UCX_USBDEVICE_CHARACTERISTIC_TYPE_PATH_DELAY  = 0x01
-} UCX_USBDEVICE_CHARACTERISTIC_TYPE, *PUCX_USBDEVICE_CHARACTERISTIC_TYPE;
-````
-
-
 ## -enum-fields
 
 
@@ -75,16 +65,15 @@ The type of characteristic of the device.
 
 ## -see-also
 
-<a href="..\ucxusbdevice\ns-ucxusbdevice-_ucx_usbdevice_characteristic.md">UCX_USBDEVICE_CHARACTERISTIC</a>
 
 
 
-<a href="..\ucxusbdevice\nc-ucxusbdevice-evt_ucx_usbdevice_get_characteristic.md">EVT_UCX_USBDEVICE_GET_CHARACTERISTIC</a>
+<a href="https://msdn.microsoft.com/EE8568F6-3D88-477E-9F0D-044D014EBCF3">EVT_UCX_USBDEVICE_GET_CHARACTERISTIC</a>
 
 
 
+<a href="https://msdn.microsoft.com/31BF5607-51EA-4FBF-A754-872FBD45915D">UCX_USBDEVICE_CHARACTERISTIC</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: kernel\ketrytoacquirespinlockatdpclevel.htm
 old-project: kernel
 ms.assetid: b7791969-027e-4df7-b720-1eb612597c56
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: KeTryToAcquireSpinLockAtDpcLevel, KeTryToAcquireSpinLockAtDpcLevel routine [Kernel-Mode Driver Architecture], k105_416ac5db-d064-4ced-8cf8-311aca8dae7f.xml, kernel.ketrytoacquirespinlockatdpclevel, wdm/KeTryToAcquireSpinLockAtDpcLevel
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,16 +53,6 @@ req.product: Windows 10 or later.
 The <b>KeTryToAcquireSpinLockAtDpcLevel</b> routine attempts to acquire a spin lock at DISPATCH_LEVEL.
 
 
-## -syntax
-
-
-````
-BOOLEAN KeTryToAcquireSpinLockAtDpcLevel(
-  _Inout_ PKSPIN_LOCK SpinLock
-);
-````
-
-
 ## -parameters
 
 
@@ -70,7 +60,7 @@ BOOLEAN KeTryToAcquireSpinLockAtDpcLevel(
 
 ### -param SpinLock [in, out]
 
-Specifies the spin lock to acquire. The spin lock must have already been initialized by <a href="..\wdm\nf-wdm-keinitializespinlock.md">KeInitializeSpinLock</a>.
+Specifies the spin lock to acquire. The spin lock must have already been initialized by <a href="https://msdn.microsoft.com/library/windows/hardware/ff552160">KeInitializeSpinLock</a>.
 
 
 ## -returns
@@ -86,11 +76,11 @@ Specifies the spin lock to acquire. The spin lock must have already been initial
 
 
 
-If the specified spin lock is not busy, the <b>KeTryToAcquireSpinLockAtDpcLevel</b> routine acquires the spin lock (see <a href="..\wdm\nf-wdm-keacquirespinlock.md">KeAcquireSpinLock</a> for details) and returns <b>TRUE</b>. If the spin lock has already been acquired, the routine immediately returns <b>FALSE</b>.
+If the specified spin lock is not busy, the <b>KeTryToAcquireSpinLockAtDpcLevel</b> routine acquires the spin lock (see <a href="https://msdn.microsoft.com/library/windows/hardware/ff551917">KeAcquireSpinLock</a> for details) and returns <b>TRUE</b>. If the spin lock has already been acquired, the routine immediately returns <b>FALSE</b>.
 
-If the spin lock is acquired, the caller can release it by using the <a href="..\wdm\nf-wdm-kereleasespinlock.md">KeReleaseSpinLock</a> routine.
+If the spin lock is acquired, the caller can release it by using the <a href="https://msdn.microsoft.com/library/windows/hardware/ff553145">KeReleaseSpinLock</a> routine.
 
-If you want the driver to block when it is unable to acquire the spin lock, use <a href="..\wdm\nf-wdm-keacquirespinlockatdpclevel.md">KeAcquireSpinLockAtDpcLevel</a> instead.
+If you want the driver to block when it is unable to acquire the spin lock, use <a href="https://msdn.microsoft.com/library/windows/hardware/ff551921">KeAcquireSpinLockAtDpcLevel</a> instead.
 
 For more information about spin locks, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563830">Spin Locks</a>.
 
@@ -99,24 +89,23 @@ For more information about spin locks, see <a href="https://msdn.microsoft.com/l
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kereleasespinlock.md">KeReleaseSpinLock</a>
 
 
 
-<a href="..\wdm\nf-wdm-keinitializespinlock.md">KeInitializeSpinLock</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551917">KeAcquireSpinLock</a>
 
 
 
-<a href="..\wdm\nf-wdm-keacquirespinlock.md">KeAcquireSpinLock</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551921">KeAcquireSpinLockAtDpcLevel</a>
 
 
 
-<a href="..\wdm\nf-wdm-keacquirespinlockatdpclevel.md">KeAcquireSpinLockAtDpcLevel</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552160">KeInitializeSpinLock</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553145">KeReleaseSpinLock</a>
  
 
  
-
 

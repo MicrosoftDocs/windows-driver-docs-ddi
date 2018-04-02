@@ -7,7 +7,7 @@ old-location: kernel\ob_pre_duplicate_handle_information.htm
 old-project: kernel
 ms.assetid: f2798729-98a2-44b6-94a6-180bb4db96cb
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: "*POB_PRE_DUPLICATE_HANDLE_INFORMATION, OB_PRE_DUPLICATE_HANDLE_INFORMATION, OB_PRE_DUPLICATE_HANDLE_INFORMATION structure [Kernel-Mode Driver Architecture], POB_PRE_DUPLICATE_HANDLE_INFORMATION, POB_PRE_DUPLICATE_HANDLE_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _OB_PRE_DUPLICATE_HANDLE_INFORMATION, kernel.ob_pre_duplicate_handle_information, kstruct_c_5511a4ac-ea2e-412f-8514-021853d5abfd.xml, wdm/OB_PRE_DUPLICATE_HANDLE_INFORMATION, wdm/POB_PRE_DUPLICATE_HANDLE_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,20 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The <b>OB_PRE_DUPLICATE_HANDLE_INFORMATION</b> structure provides information to an <a href="..\wdm\nc-wdm-pob_pre_operation_callback.md">ObjectPreCallback</a> routine about a thread or process handle that is being duplicated.
-
-
-## -syntax
-
-
-````
-typedef struct _OB_PRE_DUPLICATE_HANDLE_INFORMATION {
-  ACCESS_MASK DesiredAccess;
-  ACCESS_MASK OriginalDesiredAccess;
-  PVOID       SourceProcess;
-  PVOID       TargetProcess;
-} OB_PRE_DUPLICATE_HANDLE_INFORMATION, *POB_PRE_DUPLICATE_HANDLE_INFORMATION;
-````
+The <b>OB_PRE_DUPLICATE_HANDLE_INFORMATION</b> structure provides information to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff557745">ObjectPreCallback</a> routine about a thread or process handle that is being duplicated.
 
 
 ## -struct-fields
@@ -73,7 +60,7 @@ typedef struct _OB_PRE_DUPLICATE_HANDLE_INFORMATION {
 
 ### -field DesiredAccess
 
-An <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a> value that specifies the access rights to grant for the handle. By default, this member equals <i>OriginalDesiredAccess</i>, but the <i>ObjectPreCallback</i> routine can modify this value to restrict the access that is granted. For a description of the access rights that drivers can use, see <a href="..\wdm\ns-wdm-_ob_pre_create_handle_information.md">OB_PRE_CREATE_HANDLE_INFORMATION</a>.
+An <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a> value that specifies the access rights to grant for the handle. By default, this member equals <i>OriginalDesiredAccess</i>, but the <i>ObjectPreCallback</i> routine can modify this value to restrict the access that is granted. For a description of the access rights that drivers can use, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff558725">OB_PRE_CREATE_HANDLE_INFORMATION</a>.
 
 
 ### -field OriginalDesiredAccess
@@ -102,7 +89,6 @@ You can never add access rights beyond what is specified in the <b>DesiredAccess
 
 ## -see-also
 
-<a href="..\wdm\nc-wdm-pob_pre_operation_callback.md">ObjectPreCallback</a>
 
 
 
@@ -110,8 +96,8 @@ You can never add access rights beyond what is specified in the <b>DesiredAccess
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557745">ObjectPreCallback</a>
  
 
  
-
 

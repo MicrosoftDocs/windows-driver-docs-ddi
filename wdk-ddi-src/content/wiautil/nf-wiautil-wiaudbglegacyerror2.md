@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 The <b>wiauDbgLegacyError2</b> function logs an error message.
 
 
-## -syntax
-
-
-````
-inline void __stdcall wiauDbgLegacyError2(
-   HINSTANCE   hInstance,
-   LPCSTR      fmt, ...
-);
-````
-
-
 ## -parameters
 
 
@@ -104,19 +93,18 @@ None
 
 
 
-The <b>wiauDbgLegacyError2</b> function is identical to the <a href="..\wiautil\nf-wiautil-wiaudbgerror.md">wiauDbgError</a> function except that the former has a parameter that specifies the handle to the DLL instance and the latter has a parameter used to identify the function or method that is active when the function is called.
+The <b>wiauDbgLegacyError2</b> function is identical to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff549633">wiauDbgError</a> function except that the former has a parameter that specifies the handle to the DLL instance and the latter has a parameter used to identify the function or method that is active when the function is called.
 
 
 
 
 ## -see-also
 
-<a href="..\wiautil\nf-wiautil-wiaudbgerror.md">wiauDbgError</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549633">wiauDbgError</a>
  
 
  
-
 

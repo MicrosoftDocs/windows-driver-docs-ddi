@@ -7,7 +7,7 @@ old-location: storage\addtarget_out.htm
 old-project: storage
 ms.assetid: 1e0f19df-1705-4a70-a47c-0569907330a4
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PAddTarget_OUT, AddTarget_OUT, AddTarget_OUT structure [Storage Devices], PAddTarget_OUT, PAddTarget_OUT structure pointer [Storage Devices], _AddTarget_OUT, hbapiwmi/AddTarget_OUT, hbapiwmi/PAddTarget_OUT, storage.addtarget_out, structs-Fibre_b3dd963b-2fd1-4fbe-bfe3-b363a95f1a51.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,16 +52,6 @@ req.typenames: AddTarget_OUT, *PAddTarget_OUT
 The AddTarget_OUT structure is used by a WMI provider to report the output parameter data of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550136">AddTarget</a> WMI method to the WMI client.
 
 
-## -syntax
-
-
-````
-typedef struct _AddTarget_OUT {
-  ULONG HBAStatus;
-} AddTarget_OUT, *PAddTarget_OUT;
-````
-
-
 ## -struct-fields
 
 
@@ -74,12 +64,11 @@ Contains the status of the operation. For a list of allowed values and their des
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550136">AddTarget</a>
-
-
-
  
 
  
-
 

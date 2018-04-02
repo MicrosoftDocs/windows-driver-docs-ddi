@@ -7,7 +7,7 @@ old-location: kernel\pep_ppm_query_coordinated_dependency.htm
 old-project: kernel
 ms.assetid: B7E857ED-66FF-4A4D-849B-A15663106507
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: "*PPEP_PPM_QUERY_COORDINATED_DEPENDENCY, PEP_PPM_QUERY_COORDINATED_DEPENDENCY, PEP_PPM_QUERY_COORDINATED_DEPENDENCY structure [Kernel-Mode Driver Architecture], PPEP_PPM_QUERY_COORDINATED_DEPENDENCY, PPEP_PPM_QUERY_COORDINATED_DEPENDENCY structure pointer [Kernel-Mode Driver Architecture], _PEP_PPM_QUERY_COORDINATED_DEPENDENCY, kernel.pep_ppm_query_coordinated_dependency, pepfx/PEP_PPM_QUERY_COORDINATED_DEPENDENCY, pepfx/PPEP_PPM_QUERY_COORDINATED_DEPENDENCY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,21 +52,6 @@ req.typenames: PEP_PPM_QUERY_COORDINATED_DEPENDENCY, *PPEP_PPM_QUERY_COORDINATED
 The <b>PEP_PPM_QUERY_COORDINATED_DEPENDENCY</b> structure describes dependencies for coordinated idle states.
 
 
-## -syntax
-
-
-````
-typedef struct _PEP_PPM_QUERY_COORDINATED_DEPENDENCY {
-  ULONG                                                                                   StateIndex;
-  ULONG                                                                                   DependencyIndex;
-  ULONG                                                                                   DependencySize;
-  _Field_range_(0, DependencySize) ULONG                                                  DependencySizeUsed;
-  POHANDLE                                                                                TargetProcessor;
-  _Field_size_part_(DependencySize, DependencySizeUsed) PEP_COORDINATED_DEPENDENCY_OPTION Options[ANYSIZE_ARRAY];
-} PEP_PPM_QUERY_COORDINATED_DEPENDENCY, *PPEP_PPM_QUERY_COORDINATED_DEPENDENCY;
-````
-
-
 ## -struct-fields
 
 
@@ -99,21 +84,20 @@ typedef struct _PEP_PPM_QUERY_COORDINATED_DEPENDENCY {
 
 ### -field Options
 
-[out] A list of <a href="..\pepfx\ns-pepfx-_pep_coordinated_dependency_option.md">PEP_COORDINATED_DEPENDENCY_OPTION</a> structures describing dependency options, one of which must be satisfied for this coordinated state to be entered.
+[out] A list of <a href="https://msdn.microsoft.com/library/windows/hardware/mt186706">PEP_COORDINATED_DEPENDENCY_OPTION</a> structures describing dependency options, one of which must be satisfied for this coordinated state to be entered.
 
 
 ## -see-also
 
-<a href="..\pepfx\ns-pepfx-_pep_coordinated_dependency_option.md">PEP_COORDINATED_DEPENDENCY_OPTION</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt186706">PEP_COORDINATED_DEPENDENCY_OPTION</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt186775">PEP_NOTIFY_PPM_QUERY_COORDINATED_DEPENDENCY notification</a>
-
-
-
  
 
  
-
 

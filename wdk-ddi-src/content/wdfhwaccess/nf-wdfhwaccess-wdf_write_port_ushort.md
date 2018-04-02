@@ -56,18 +56,6 @@ The <b>WDF_WRITE_PORT_USHORT</b> function writes a USHORT value to the specified
 
 
 
-## -syntax
-
-
-````
-void WDF_WRITE_PORT_USHORT(
-  _In_ WDFDEVICE Device,
-  _In_ PUSHORT   Port,
-  _In_ USHORT    Value
-);
-````
-
-
 ## -parameters
 
 

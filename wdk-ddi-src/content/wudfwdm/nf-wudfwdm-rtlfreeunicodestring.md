@@ -7,7 +7,7 @@ old-location: kernel\rtlfreeunicodestring.htm
 old-project: kernel
 ms.assetid: 505e2ab7-13c3-4cdd-90ba-a37bb38fe160
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 2/24/2018
 ms.keywords: RtlFreeUnicodeString, RtlFreeUnicodeString routine [Kernel-Mode Driver Architecture], k109_c23e6c5e-d2dd-4b88-8249-5f88ad8482ad.xml, kernel.rtlfreeunicodestring, wdm/RtlFreeUnicodeString
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -104,5 +104,6 @@ This routine does not release the ANSI string buffer passed to <b>RtlAnsiStringT
  
 
  
+
 
 

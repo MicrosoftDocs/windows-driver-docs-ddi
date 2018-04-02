@@ -7,7 +7,7 @@ old-location: display\destroycryptosession1.htm
 old-project: display
 ms.assetid: 067eeba4-2914-4616-98c8-f163cbe5fae2
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3D11_1DDI_DESTROYCRYPTOSESSION, d3d10umddi/pfnDestroyCryptoSession, display.destroycryptosession1, display.pfndestroycryptosession1, pfnDestroyCryptoSession, pfnDestroyCryptoSession callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,22 +49,8 @@ req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 ## -description
 
 
-Releases resources for the cryptographic session that were created through a call to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createcryptosession.md">CreateCryptoSession</a> function.
+Releases resources for the cryptographic session that were created through a call to the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451619">CreateCryptoSession</a> function.
 
-
-
-## -prototype
-
-
-````
-PFND3D11_1DDI_DESTROYCRYPTOSESSION pfnDestroyCryptoSession;
-
-VOID APIENTRY* pfnDestroyCryptoSession(
-  _In_ D3D10DDI_HDEVICE          hDevice,
-  _In_ D3D11_1DDI_HCRYPTOSESSION hCryptoSession
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -81,7 +67,7 @@ A handle to the display device (graphics context).
 
 ### -param hCryptoSession [in]
 
-A handle to the driver's private data for the cryptographic session. This handle was created by the Direct3D runtime and passed to the driver in the call to <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createcryptosession.md">CreateCryptoSession</a>.
+A handle to the driver's private data for the cryptographic session. This handle was created by the Direct3D runtime and passed to the driver in the call to <a href="https://msdn.microsoft.com/library/windows/hardware/hh451619">CreateCryptoSession</a>.
 
 
 ## -returns

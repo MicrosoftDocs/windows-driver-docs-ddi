@@ -2,7 +2,7 @@
 UID: NA:prntfont
 ms.assetid: f5e425fd-5595-35f2-a035-642b39d97e9f
 ms.author: windowsdriverdev
-ms.date: 03/13/18
+ms.date: 02/27/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -13,9 +13,9 @@ ms.topic: portal
 
 
 
-This header is used by print, Display. For more information, see
-- [print](../_print/index.md)
+This header is used by Display, print. For more information, see
 - [Display](../_display/index.md)
+- [print](../_print/index.md)
 
 Prntfont.h contain these programming interfaces:
 

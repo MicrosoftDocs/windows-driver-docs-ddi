@@ -7,7 +7,7 @@ old-location: kernel\rtlshorttouint.htm
 old-project: kernel
 ms.assetid: D4651C81-7171-4D54-BB76-EE822AABC1C3
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: RtlShortToUInt, RtlShortToUInt function [Kernel-Mode Driver Architecture], kernel.rtlshorttouint, ntintsafe/RtlShortToUInt
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,17 +50,6 @@ req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
 
 
 Converts a value of type <b>SHORT</b> to a value of type <b>UINT</b>.
-
-
-## -syntax
-
-
-````
-NTSTATUS RtlShortToUInt(
-  _In_  SHORT sOperand,
-  _Out_ UINT  *puResult
-);
-````
 
 
 ## -parameters

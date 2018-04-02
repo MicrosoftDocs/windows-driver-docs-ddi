@@ -7,7 +7,7 @@ old-location: dtf\iwdtfpnpaction2_disabledevice.htm
 old-project: dtf
 ms.assetid: b6e3f327-c928-497d-b90c-db6c05b3a7b4
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 3/29/2018
 ms.keywords: DisableDevice method [Windows Device Testing Framework], DisableDevice method [Windows Device Testing Framework], IWDTFPNPAction2 interface, DisableDevice,IWDTFPNPAction2.DisableDevice, IWDTFPNPAction2, IWDTFPNPAction2 interface [Windows Device Testing Framework], DisableDevice method, IWDTFPNPAction2::DisableDevice, Microsoft.WDTF.IWDTFPNPAction2.DisableDevice, Microsoft::WDTF::IWDTFPNPAction2::DisableDevice, dtf.iwdtfpnpaction2_disabledevice, wdtfpnpaction/IWDTFPNPAction2::DisableDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,16 +53,6 @@ req.product: Windows 10 or later.
 Disables the target device.
 
 
-## -syntax
-
-
-````
-HRESULT DisableDevice(
-  [out, retval] VARIANT_BOOL *pbSuccess
-);
-````
-
-
 ## -parameters
 
 
@@ -84,12 +74,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="..\wdtfpnpaction\nn-wdtfpnpaction-iwdtfpnpaction2.md">IWDTFPNPAction2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451065">IWDTFPNPAction2</a>
  
 
  
-
 

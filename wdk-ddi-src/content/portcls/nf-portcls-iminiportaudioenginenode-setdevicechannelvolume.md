@@ -7,7 +7,7 @@ old-location: audio\iminiportaudioenginenode_setdevicechannelvolume.htm
 old-project: audio
 ms.assetid: 05DA619B-B36A-4E14-9F63-E12E90E0BDCD
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/19/2018
 ms.keywords: IMiniportAudioEngineNode, IMiniportAudioEngineNode interface [Audio Devices], SetDeviceChannelVolume method, IMiniportAudioEngineNode::SetDeviceChannelVolume, SetDeviceChannelVolume method [Audio Devices], SetDeviceChannelVolume method [Audio Devices], IMiniportAudioEngineNode interface, SetDeviceChannelVolume,IMiniportAudioEngineNode.SetDeviceChannelVolume, audio.iminiportaudioenginenode_setdevicechannelvolume, portcls/IMiniportAudioEngineNode::SetDeviceChannelVolume
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,18 +52,6 @@ req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 Sets the volume level for a given channel of the audio device.
 
 
-## -syntax
-
-
-````
-NTSTATUS SetDeviceChannelVolume(
-  [in] ULONG  ulNodeId,
-  [in] UINT32 ulChannel,
-  [in] LONG   lVolume
-);
-````
-
-
 ## -parameters
 
 
@@ -95,12 +83,11 @@ The volume level to which the channel will be set.
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iminiportaudioenginenode.md">IMiniportAudioEngineNode</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn302040">IMiniportAudioEngineNode</a>
  
 
  
-
 

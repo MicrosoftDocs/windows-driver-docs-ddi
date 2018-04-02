@@ -7,7 +7,7 @@ old-location: netvista\ndisminvalidateconfigblock.htm
 old-project: netvista
 ms.assetid: 26D07A41-C431-41F1-9F5E-880B48CC2F0B
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: NdisMInvalidateConfigBlock, NdisMInvalidateConfigBlock function [Network Drivers Starting with Windows Vista], ndis/NdisMInvalidateConfigBlock, netvista.ndisminvalidateconfigblock
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,18 +53,6 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 A miniport driver calls the <b>NdisMInvalidateConfigBlock</b> function to notify NDIS that the data for one or more Virtual Function (VF) configuration blocks has been changed.
 <div class="alert"><b>Note</b>  <b>NdisMInvalidateConfigBlock</b> must only be called by the miniport driver for the network adapter's PCIe Physical Function (PF).</div><div> </div>
 
-## -syntax
-
-
-````
-VOID NdisMInvalidateConfigBlock(
-  _In_ NDIS_HANDLE            NdisMiniportHandle,
-  _In_ NDIS_SRIOV_FUNCTION_ID VFId,
-  _In_ ULONGLONG              BlockMask
-);
-````
-
-
 ## -parameters
 
 
@@ -74,7 +62,7 @@ VOID NdisMInvalidateConfigBlock(
 
 The network adapter handle that NDIS passed to the 
      <i>MiniportAdapterHandle</i> parameter of 
-     <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>.
+     <a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a>.
 
 
 ### -param VFId [in]
@@ -151,11 +139,11 @@ The virtualization stack notifies the virtual PCI (VPCI) driver, which  runs in 
 <li>
 In the guest operating system, the following steps occur:<ol>
 <li>
-The VPCI driver saves the cached <i>BlockMask</i> parameter data in the <b>BlockMask</b> member of the <a href="..\vpci\ns-vpci-_vpci_invalidate_block_output.md">VPCI_INVALIDATE_BLOCK_OUTPUT</a> structure that is associated with the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439301">IOCTL_VPCI_INVALIDATE_BLOCK</a> request.
+The VPCI driver saves the cached <i>BlockMask</i> parameter data in the <b>BlockMask</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451586">VPCI_INVALIDATE_BLOCK_OUTPUT</a> structure that is associated with the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439301">IOCTL_VPCI_INVALIDATE_BLOCK</a> request.
 
 </li>
 <li>
-The VPCI driver successfully completes  the  <a href="https://msdn.microsoft.com/library/windows/hardware/hh439301">IOCTL_VPCI_INVALIDATE_BLOCK</a> request. When this happens, NDIS issues an OID method request of <a href="https://msdn.microsoft.com/library/windows/hardware/hh451903">OID_SRIOV_VF_INVALIDATE_CONFIG_BLOCK</a>  to the VF miniport driver. An <a href="..\ntddndis\ns-ntddndis-_ndis_sriov_vf_invalidate_config_block_info.md">NDIS_SRIOV_VF_INVALIDATE_CONFIG_BLOCK_INFO</a> request is passed along in the OID request. This structure contains the cached <i>BlockMask</i> parameter data.
+The VPCI driver successfully completes  the  <a href="https://msdn.microsoft.com/library/windows/hardware/hh439301">IOCTL_VPCI_INVALIDATE_BLOCK</a> request. When this happens, NDIS issues an OID method request of <a href="https://msdn.microsoft.com/library/windows/hardware/hh451903">OID_SRIOV_VF_INVALIDATE_CONFIG_BLOCK</a>  to the VF miniport driver. An <a href="https://msdn.microsoft.com/library/windows/hardware/hh451684">NDIS_SRIOV_VF_INVALIDATE_CONFIG_BLOCK_INFO</a> request is passed along in the OID request. This structure contains the cached <i>BlockMask</i> parameter data.
 
 NDIS also issues another <a href="https://msdn.microsoft.com/library/windows/hardware/hh439301">IOCTL_VPCI_INVALIDATE_BLOCK</a> request to handle successive notifications of changes to VF configuration data.
 
@@ -178,19 +166,6 @@ For more information about the SR-IOV interface, see 	<a href="https://msdn.micr
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_sriov_vf_invalidate_config_block_info.md">NDIS_SRIOV_VF_INVALIDATE_CONFIG_BLOCK_INFO</a>
-
-
-
-<a href="..\vpci\ns-vpci-_vpci_invalidate_block_output.md">VPCI_INVALIDATE_BLOCK_OUTPUT</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451879">OID_SRIOV_READ_VF_CONFIG_SPACE</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439301">IOCTL_VPCI_INVALIDATE_BLOCK</a>
 
 
 
@@ -198,8 +173,20 @@ For more information about the SR-IOV interface, see 	<a href="https://msdn.micr
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439301">IOCTL_VPCI_INVALIDATE_BLOCK</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451684">NDIS_SRIOV_VF_INVALIDATE_CONFIG_BLOCK_INFO</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451879">OID_SRIOV_READ_VF_CONFIG_SPACE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451586">VPCI_INVALIDATE_BLOCK_OUTPUT</a>
  
 
  
-
 

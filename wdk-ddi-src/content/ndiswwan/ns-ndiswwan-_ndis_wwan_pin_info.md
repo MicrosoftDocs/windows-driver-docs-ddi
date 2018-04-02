@@ -7,7 +7,7 @@ old-location: netvista\ndis_wwan_pin_info.htm
 old-project: netvista
 ms.assetid: 432e1d25-b7f4-4897-99dc-27ea14c851e2
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*PNDIS_WWAN_PIN_INFO, NDIS_WWAN_PIN_INFO, NDIS_WWAN_PIN_INFO structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_PIN_INFO, PNDIS_WWAN_PIN_INFO structure pointer [Network Drivers Starting with Windows Vista], WwanRef_9095fdd7-5593-439c-897a-1def216d3374.xml, _NDIS_WWAN_PIN_INFO, ndiswwan/NDIS_WWAN_PIN_INFO, ndiswwan/PNDIS_WWAN_PIN_INFO, netvista.ndis_wwan_pin_info"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,18 +51,6 @@ req.typenames: NDIS_WWAN_PIN_INFO, *PNDIS_WWAN_PIN_INFO
 
 The NDIS_WWAN_PIN_INFO structure represents the type and PIN-entry state of Personal Identification
   Number (PIN) information required by the MB device.
-
-
-## -syntax
-
-
-````
-typedef struct _NDIS_WWAN_PIN_INFO {
-  NDIS_OBJECT_HEADER Header;
-  WWAN_STATUS        uStatus;
-  WWAN_PIN_INFO      PinInfo;
-} NDIS_WWAN_PIN_INFO, *PNDIS_WWAN_PIN_INFO;
-````
 
 
 ## -struct-fields
@@ -118,7 +106,7 @@ sizeof(NDIS_WWAN_PIN_INFO)
  
 
 For more information about these members, see 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>.
 
 
 ### -field uStatus
@@ -222,22 +210,21 @@ The operation failed because a
 ### -field PinInfo
 
 A formatted 
-     <a href="..\wwan\ns-wwan-_wwan_pin_info.md">WWAN_PIN_INFO</a> object that represents the type
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571216">WWAN_PIN_INFO</a> object that represents the type
      and PIN-entry state of Personal Identification Number (PIN) information required by the device.
 
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 
-<a href="..\wwan\ns-wwan-_wwan_pin_info.md">WWAN_PIN_INFO</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571216">WWAN_PIN_INFO</a>
  
 
  
-
 

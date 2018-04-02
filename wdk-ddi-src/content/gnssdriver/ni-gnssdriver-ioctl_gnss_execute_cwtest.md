@@ -3,12 +3,12 @@ UID: NI:gnssdriver.IOCTL_GNSS_EXECUTE_CWTEST
 title: IOCTL_GNSS_EXECUTE_CWTEST
 author: windows-driver-content
 description: The IOCTL_GNSS_EXECUTE_CWTEST control code is used by the GNSS manufacturing test application to start a carrier wave test and get the measurement. The test application must wait for the result before starting another iteration of the measurement.
-old-location: gnss\ioctl_gnss_execute_cwtest.htm
-old-project: gnss
+old-location: sensors\ioctl_gnss_execute_cwtest.htm
+old-project: sensors
 ms.assetid: 36AFBB03-9F01-4CA7-A5E8-C6F744984B6F
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IOCTL_GNSS_EXECUTE_CWTEST, IOCTL_GNSS_EXECUTE_CWTEST control code [Sensor Devices], gnss.ioctl_gnss_execute_cwtest, gnssdriver/IOCTL_GNSS_EXECUTE_CWTEST
+ms.date: 2/22/2018
+ms.keywords: IOCTL_GNSS_EXECUTE_CWTEST, IOCTL_GNSS_EXECUTE_CWTEST control code [Sensor Devices], gnssdriver/IOCTL_GNSS_EXECUTE_CWTEST, sensors.ioctl_gnss_execute_cwtest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -69,7 +69,7 @@ Set to 0.
 
 ### -output-buffer
 
-A pointer to a <a href="..\gnssdriver\ns-gnssdriver-gnss_cwtestdata.md">GNSS_CWTESTDATA</a> structure.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn925102">GNSS_CWTESTDATA</a> structure.
 
 
 ### -output-buffer-length
@@ -123,7 +123,6 @@ The GNSS stack must return the measurements as soon as they are available.
 
 ## -see-also
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
 
 
 
@@ -131,14 +130,15 @@ The GNSS stack must return the measurements as soon as they are available.
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548651">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548656">WdfIoTargetSendInternalIoctlSynchronously</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548660">WdfIoTargetSendIoctlSynchronously</a>
  
 
  

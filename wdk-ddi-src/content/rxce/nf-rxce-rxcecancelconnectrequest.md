@@ -7,7 +7,7 @@ old-location: ifsk\rxcecancelconnectrequest.htm
 old-project: ifsk
 ms.assetid: 32893a68-68ac-4bac-ab0f-1d07a1e873f3
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: RxCeCancelConnectRequest, RxCeCancelConnectRequest routine [Installable File System Drivers], ifsk.rxcecancelconnectrequest, rxce/RxCeCancelConnectRequest, rxref_b7978600-a1ca-4713-b170-bc1f365f2f96.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,18 +53,6 @@ req.product: Windows 10 or later.
 <b>RxCeCancelConnectRequest</b> cancels a previously issued connection request. Note that this routine is not currently implemented.
 
 
-## -syntax
-
-
-````
-NTSTATUS RxCeCancelConnectRequest(
-  _In_ PRXCE_ADDRESS                pLocalAddress,
-  _In_ PUNICODE_STRING              pServerName,
-  _In_ PRXCE_CONNECTION_INFORMATION pConnectionInformation
-);
-````
-
-
 ## -parameters
 
 
@@ -105,16 +93,15 @@ A pointer to the connection information that specifies the remote address. on wh
 
 ## -see-also
 
-<a href="..\rxce\nf-rxce-rxceteardownconnection.md">RxCeTearDownConnection</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554321">RxCeTearDownConnection</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565085">TDI_CONNECTION_INFORMATION</a>
-
-
-
  
 
  
-
 

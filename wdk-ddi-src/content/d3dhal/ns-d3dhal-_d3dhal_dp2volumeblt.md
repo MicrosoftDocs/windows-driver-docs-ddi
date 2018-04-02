@@ -7,7 +7,7 @@ old-location: display\d3dhal_dp2volumeblt.htm
 old-project: display
 ms.assetid: 6c301643-1e1b-4b0c-8827-8eae988b1e9b
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*LPD3DHAL_DP2VOLUMEBLT, D3DHAL_DP2VOLUMEBLT, D3DHAL_DP2VOLUMEBLT structure [Display Devices], LPD3DHAL_DP2VOLUMEBLT, LPD3DHAL_DP2VOLUMEBLT structure pointer [Display Devices], _D3DHAL_DP2VOLUMEBLT, d3dhal/D3DHAL_DP2VOLUMEBLT, d3dhal/LPD3DHAL_DP2VOLUMEBLT, d3dstrct_44b31cb6-2a36-4d2d-91a3-c59b07d8815b.xml, display.d3dhal_dp2volumeblt"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,23 +53,7 @@ req.typenames: D3DHAL_DP2VOLUMEBLT
    DirectX 8.0 and later versions only.
    
 
-The D3DHAL_DP2VOLUMEBLT structure is used for volume texture blts when <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a> responds to the D3DDP2OP_VOLUMEBLT command token.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DHAL_DP2VOLUMEBLT {
-  DWORD  dwDDDestSurface;
-  DWORD  dwDDSrcSurface;
-  DWORD  dwDestX;
-  DWORD  dwDestY;
-  DWORD  dwDestZ;
-  D3DBOX srcBox;
-  DWORD  dwFlags;
-} D3DHAL_DP2VOLUMEBLT, *LPD3DHAL_DP2VOLUMEBLT;
-````
+The D3DHAL_DP2VOLUMEBLT structure is used for volume texture blts when <a href="https://msdn.microsoft.com/6128ff7a-0d2c-48df-8b5e-cab33c5a74f5">D3dDrawPrimitives2</a> responds to the D3DDP2OP_VOLUMEBLT command token.
 
 
 ## -struct-fields
@@ -118,18 +102,13 @@ Reserved for system use.
 
 The <a href="https://msdn.microsoft.com/dd07e49c-ec1f-4ba6-8b17-80ce6d3c5813">D3dCreateSurfaceEx</a> callback creates the small integer handles to the volume textures that can be used as source and destination volume textures for volume texture blts.
 
-See Remarks for <a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2texblt.md">D3DHAL_DP2TEXBLT</a>.
+See Remarks for <a href="https://msdn.microsoft.com/library/windows/hardware/ff545869">D3DHAL_DP2TEXBLT</a>.
 
 
 
 
 ## -see-also
 
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2texblt.md">D3DHAL_DP2TEXBLT</a>
-
-
-
-<a href="https://msdn.microsoft.com/dd07e49c-ec1f-4ba6-8b17-80ce6d3c5813">D3dCreateSurfaceEx</a>
 
 
 
@@ -137,12 +116,16 @@ D3DDP2OP_VOLUMEBLT
 
 
 
-<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545869">D3DHAL_DP2TEXBLT</a>
 
 
 
+<a href="https://msdn.microsoft.com/dd07e49c-ec1f-4ba6-8b17-80ce6d3c5813">D3dCreateSurfaceEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/6128ff7a-0d2c-48df-8b5e-cab33c5a74f5">D3dDrawPrimitives2</a>
  
 
  
-
 

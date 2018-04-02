@@ -55,7 +55,7 @@ Exposes a Print Schema Feature element.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPrintSchemaFeature</b> interface inherits from <a href="..\printerextension\nn-printerextension-iprintschemadisplayableelement.md">IPrintSchemaDisplayableElement</a>. <b>IPrintSchemaFeature</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPrintSchemaFeature</b> interface inherits from <a href="https://msdn.microsoft.com/library/windows/hardware/hh451262">IPrintSchemaDisplayableElement</a>. <b>IPrintSchemaFeature</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -114,7 +114,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Gets an <a href="..\printerextension\nn-printerextension-iprintschemaoption.md">IPrintSchemaOption</a> representing the selected option.
+Gets an <a href="https://msdn.microsoft.com/library/windows/hardware/hh451335">IPrintSchemaOption</a> representing the selected option.
 
 </td>
 </tr>
@@ -130,7 +130,7 @@ Write-only
 
 </td>
 <td align="left" width="63%">
-Changes the selected option of the Print Schema Feature element to the specified <a href="..\printerextension\nn-printerextension-iprintschemaoption.md">IPrintSchemaOption</a> element.
+Changes the selected option of the Print Schema Feature element to the specified <a href="https://msdn.microsoft.com/library/windows/hardware/hh451335">IPrintSchemaOption</a> element.
 
 </td>
 </tr>
@@ -157,22 +157,21 @@ Gets the selection type of the Feature.
 
 
 
-You must ensure that each Feature or Option in a PrintTicket or PrintCapabilities XML document has a <i>name</i> attribute specified. This attribute is used to build the <a href="..\printerextension\nn-printerextension-iprintschemaoption.md">IPrintSchemaOption</a> and <b>IPrintSchemaFeature</b> objects. If the <i>name</i> attribute is omitted, the feature or option will not be displayed in the object model, or the Microsoft-provided print preferences experience.
+You must ensure that each Feature or Option in a PrintTicket or PrintCapabilities XML document has a <i>name</i> attribute specified. This attribute is used to build the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451335">IPrintSchemaOption</a> and <b>IPrintSchemaFeature</b> objects. If the <i>name</i> attribute is omitted, the feature or option will not be displayed in the object model, or the Microsoft-provided print preferences experience.
 
 
 
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/AC6434F5-0892-4426-98BB-BC02AD17917B">IPrintSchemaCapabilities::GetFeature</a>
 
 
 
-<a href="..\printerextension\nn-printerextension-iprintschemadisplayableelement.md">IPrintSchemaDisplayableElement</a>
-
-
-
-<a href="https://msdn.microsoft.com/3BD7B8D6-B06F-492F-A73E-DA0799387B2A">IPrintSchemaTicket::GetFeatureByKeyName</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451262">IPrintSchemaDisplayableElement</a>
 
 
 
@@ -180,8 +179,8 @@ You must ensure that each Feature or Option in a PrintTicket or PrintCapabilitie
 
 
 
+<a href="https://msdn.microsoft.com/3BD7B8D6-B06F-492F-A73E-DA0799387B2A">IPrintSchemaTicket::GetFeatureByKeyName</a>
  
 
  
-
 

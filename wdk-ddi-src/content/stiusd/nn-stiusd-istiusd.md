@@ -7,7 +7,7 @@ old-location: image\istiusd_interface_methods.htm
 old-project: image
 ms.assetid: 62740263-5bbb-48e1-be3d-9ee9cb37d6b9
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/27/2018
 ms.keywords: IStiUSD, IStiUSD interface [Imaging Devices], IStiUSD interface [Imaging Devices], described, image.istiusd_interface_methods, stifnc_2fa7c229-f4c5-455e-ba93-019c5b84dd79.xml, stiusd/IStiUSD
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: stiusd.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:

@@ -52,17 +52,6 @@ req.typenames: KSPIN_MDL_CACHING_NOTIFICATION, *PKSPIN_MDL_CACHING_NOTIFICATION
 This structure is used internally by the operating system.
 
 
-## -syntax
-
-
-````
-typedef struct {
-  KSPIN_MDL_CACHING_EVENT Event;
-  PVOID                   Buffer;
-} KSPIN_MDL_CACHING_NOTIFICATION, *PKSPIN_MDL_CACHING_NOTIFICATION;
-````
-
-
 ## -struct-fields
 
 

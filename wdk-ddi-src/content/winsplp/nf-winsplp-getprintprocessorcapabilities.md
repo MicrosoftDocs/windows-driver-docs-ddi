@@ -53,20 +53,6 @@ req.product: Windows 10 or later.
 A print processor's <b>GetPrintProcessorCapabilities</b> function returns capabilities associated with a specified input data type.
 
 
-## -syntax
-
-
-````
-DWORD GetPrintProcessorCapabilities(
-  _In_  LPTSTR  pValueName,
-  _In_  DWORD   dwAttributes,
-  _Out_ LPBYTE  pData,
-  _In_  DWORD   nSize,
-  _Out_ LPDWORD pcbNeeded
-);
-````
-
-
 ## -parameters
 
 

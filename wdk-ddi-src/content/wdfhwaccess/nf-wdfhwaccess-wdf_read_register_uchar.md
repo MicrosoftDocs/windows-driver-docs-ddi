@@ -55,17 +55,6 @@ req.product: Windows 10 or later.
 The <b>WDF_READ_REGISTER_UCHAR</b> function reads a byte from the specified register address.
 
 
-## -syntax
-
-
-````
-UCHAR WDF_READ_REGISTER_UCHAR(
-  _In_ WDFDEVICE Device,
-  _In_ PUCHAR    Register
-);
-````
-
-
 ## -parameters
 
 

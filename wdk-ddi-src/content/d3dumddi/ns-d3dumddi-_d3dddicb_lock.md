@@ -7,7 +7,7 @@ old-location: display\d3dddicb_lock.htm
 old-project: display
 ms.assetid: e8d563fe-937a-48cb-9c7b-f282d12a9fcf
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDICB_LOCK, D3DDDICB_LOCK structure [Display Devices], D3D_param_Structs_84ac7e9c-e228-4ace-9e1b-74af8c52af85.xml, _D3DDDICB_LOCK, d3dumddi/D3DDDICB_LOCK, display.d3dddicb_lock
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,24 +52,6 @@ req.typenames: D3DDDICB_LOCK
 The D3DDDICB_LOCK structure describes parameters for locking an allocation. 
 
 
-## -syntax
-
-
-````
-typedef struct _D3DDDICB_LOCK {
-  D3DKMT_HANDLE          hAllocation;
-  UINT                   PrivateDriverData;
-  UINT                   NumPages;
-  const UINT             *pPages;
-  VOID                   *pData;
-  D3DDDICB_LOCKFLAGS     Flags;
-#if D3D_UMD_INTERFACE_VERSION >= D3D_UMD_INTERFACE_VERSION_WIN7
-  D3DGPU_VIRTUAL_ADDRESS GpuVirtualAddress;
-#endif 
-} D3DDDICB_LOCK;
-````
-
-
 ## -struct-fields
 
 
@@ -77,14 +59,14 @@ typedef struct _D3DDDICB_LOCK {
 
 ### -field hAllocation
 
-[in/out] A D3DKMT_HANDLE data type that represents a kernel-mode handle to the allocation. The Microsoft Direct3D runtime's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_allocatecb.md">pfnAllocateCb</a> function returns this handle. Therefore, the user-mode display driver should use this handle to lock the allocation.
+[in/out] A D3DKMT_HANDLE data type that represents a kernel-mode handle to the allocation. The Microsoft Direct3D runtime's <a href="https://msdn.microsoft.com/a61e6c6a-3992-429c-ad8c-5f1a61dc7b8b">pfnAllocateCb</a> function returns this handle. Therefore, the user-mode display driver should use this handle to lock the allocation.
 
 If the <b>Discard</b> bit-field flag is set in the <b>Flags</b> member, the video memory manager creates a new instance of the allocation and returns a new handle that represents the new instance.
 
 
 ### -field PrivateDriverData
 
-[in] Private data (for example, MIP level) that is sent from the user-mode display driver to the display miniport driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_acquireswizzlingrange.md">DxgkDdiAcquireSwizzlingRange</a> function.
+[in] Private data (for example, MIP level) that is sent from the user-mode display driver to the display miniport driver's <a href="https://msdn.microsoft.com/f861e055-70db-4e0a-9c62-87e2d41f92ae">DxgkDdiAcquireSwizzlingRange</a> function.
 
 
 ### -field NumPages
@@ -104,9 +86,9 @@ If the <b>Discard</b> bit-field flag is set in the <b>Flags</b> member, the vide
 
 ### -field Flags
 
-[in] A <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddicb_lockflags.md">D3DDDICB_LOCKFLAGS</a> structure that identifies, in bit-field flags, how to lock the allocation.
+[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff544214">D3DDDICB_LOCKFLAGS</a> structure that identifies, in bit-field flags, how to lock the allocation.
 
-Note that specifying some flags together is invalid and that some flags depend on other flags. For more information about specifying these flags, see the Remarks section of <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddicb_lockflags.md">D3DDDICB_LOCKFLAGS</a>.
+Note that specifying some flags together is invalid and that some flags depend on other flags. For more information about specifying these flags, see the Remarks section of <a href="https://msdn.microsoft.com/library/windows/hardware/ff544214">D3DDDICB_LOCKFLAGS</a>.
 
 
 ### -field GpuVirtualAddress
@@ -118,20 +100,19 @@ This member is available beginning with Windows 7.
 
 ## -see-also
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_acquireswizzlingrange.md">DxgkDdiAcquireSwizzlingRange</a>
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_lockcb.md">pfnLockCb</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544214">D3DDDICB_LOCKFLAGS</a>
 
 
 
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddicb_lockflags.md">D3DDDICB_LOCKFLAGS</a>
+<a href="https://msdn.microsoft.com/f861e055-70db-4e0a-9c62-87e2d41f92ae">DxgkDdiAcquireSwizzlingRange</a>
 
 
 
+<a href="https://msdn.microsoft.com/69022797-432a-410b-8cbf-e1ef7111e7ea">pfnLockCb</a>
  
 
  
-
 

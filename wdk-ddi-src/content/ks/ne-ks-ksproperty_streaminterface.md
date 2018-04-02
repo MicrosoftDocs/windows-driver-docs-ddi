@@ -52,16 +52,6 @@ req.typenames: KSPROPERTY_STREAMINTERFACE
 
 
 
-## -syntax
-
-
-````
-typedef enum  { 
-  KSPROPERTY_STREAMINTERFACE_HEADERSIZE
-} KSPROPERTY_STREAMINTERFACE;
-````
-
-
 ## -enum-fields
 
 

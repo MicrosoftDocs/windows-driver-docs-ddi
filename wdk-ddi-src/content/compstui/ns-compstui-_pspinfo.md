@@ -49,21 +49,7 @@ req.typenames: PSPINFO, *PPSPINFO
 ## -description
 
 
-The PSPINFO structure is used as an input parameter to a property sheet page's dialog box procedure, when the Windows message is WM_INITDIALOG. The dialog box procedure's address is specified in a <a href="..\compstui\ns-compstui-_dlgpage.md">DLGPAGE</a> structure.
-
-
-## -syntax
-
-
-````
-typedef struct _PSPINFO {
-  WORD            cbSize;
-  WORD            wReserved;
-  HANDLE          hComPropSheet;
-  HANDLE          hCPSUIPage;
-  PFNCOMPROPSHEET pfnComPropSheet;
-} PSPINFO, *PPSPINFO;
-````
+The PSPINFO structure is used as an input parameter to a property sheet page's dialog box procedure, when the Windows message is WM_INITDIALOG. The dialog box procedure's address is specified in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff547607">DLGPAGE</a> structure.
 
 
 ## -struct-fields
@@ -100,7 +86,7 @@ CPSUI-supplied pointer to its <a href="https://msdn.microsoft.com/library/window
 
 
 
-Before CPSUI calls <b>CreatePropertySheetPage</b> to create a property sheet page, it expands the size of the standard PROPSHEETPAGE structure in order to append a PSPINFO structure. When the operating system calls a dialog box procedure (pointed to by a <a href="..\compstui\ns-compstui-_dlgpage.md">DLGPAGE</a> structure) and specifies a WM_INITDIALOG message, the function's <b>lParam</b> member points to the expanded PROPSHEETPAGE structure containing the PSPINFO structure.
+Before CPSUI calls <b>CreatePropertySheetPage</b> to create a property sheet page, it expands the size of the standard PROPSHEETPAGE structure in order to append a PSPINFO structure. When the operating system calls a dialog box procedure (pointed to by a <a href="https://msdn.microsoft.com/library/windows/hardware/ff547607">DLGPAGE</a> structure) and specifies a WM_INITDIALOG message, the function's <b>lParam</b> member points to the expanded PROPSHEETPAGE structure containing the PSPINFO structure.
 
 (The <b>CreatePropertySheetPage</b> function, PROPSHEETPAGE structure, WM_INITDIALOG message, and dialog box procedures are all described in the Microsoft Windows SDK documentation.)
 

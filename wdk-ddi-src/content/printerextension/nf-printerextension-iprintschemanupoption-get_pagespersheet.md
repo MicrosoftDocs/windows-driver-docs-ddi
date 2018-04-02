@@ -56,27 +56,16 @@ Gets the number of pages per sheet.
 This property is read-only.
 
 
-## -syntax
-
-
-````
-HRESULT get_PagesPerSheet(
-  [out, retval] ULONG *pulPagesPerSheet
-);
-````
-
-
 ## -parameters
 
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprintschemanupoption.md">IPrintSchemaNUpOption</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451302">IPrintSchemaNUpOption</a>
  
 
  
-
 

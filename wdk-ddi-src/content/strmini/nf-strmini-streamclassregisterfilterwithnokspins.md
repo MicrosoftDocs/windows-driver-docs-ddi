@@ -54,21 +54,6 @@ req.product: Windows 10 or later.
 The <b>StreamClassRegisterFilterWithNoKSPins</b> routine is used to register filter drivers with Microsoft DirectShow that have no kernel streaming pins and, therefore, do not stream in kernel mode. 
 
 
-## -syntax
-
-
-````
-NTSTATUS StreamClassRegisterFilterWithNoKSPins(
-  _In_           PDEVICE_OBJECT DeviceObject,
-  _In_     const GUID           *InterfaceClassGUID,
-  _In_           ULONG          PinCount,
-  _In_           BOOL           *PinDirection,
-  _In_           KSPIN_MEDIUM   *MediumList,
-  _In_opt_       GUID           *CategoryList
-);
-````
-
-
 ## -parameters
 
 
@@ -115,12 +100,11 @@ Returns STATUS_SUCCESS on success, or the appropriate error code on failure.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563538">KSPIN_MEDIUM</a>
-
-
-
  
 
  
-
 

@@ -52,16 +52,6 @@ req.typenames:
 The<b> KsFilterFactoryGetDevice </b>function returns the AVStream device to which <i>FilterFactory </i>belongs.
 
 
-## -syntax
-
-
-````
-PKSDEVICE __inline KsFilterFactoryGetDevice(
-  _In_ PKSFILTERFACTORY FilterFactory
-);
-````
-
-
 ## -parameters
 
 
@@ -69,14 +59,14 @@ PKSDEVICE __inline KsFilterFactoryGetDevice(
 
 ### -param FilterFactory [in]
 
-A pointer to a <a href="..\ks\ns-ks-_ksfilterfactory.md">KSFILTERFACTORY</a> structure for which to find the corresponding AVStream device.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff562530">KSFILTERFACTORY</a> structure for which to find the corresponding AVStream device.
 
 
 ## -returns
 
 
 
-Returns a pointer to a <a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a> structure representing the AVStream device to which <i>FilterFactory</i> belongs.
+Returns a pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff561681">KSDEVICE</a> structure representing the AVStream device to which <i>FilterFactory</i> belongs.
 
 
 
@@ -85,7 +75,7 @@ Returns a pointer to a <a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a> structure
 
 
 
-This call is an inline function call to <a href="..\ks\nf-ks-ksgetdevice.md">KsGetDevice</a>.
+This call is an inline function call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff562615">KsGetDevice</a>.
 
 For more information about the AVStream object hierarchy, see  <a href="https://msdn.microsoft.com/305039fe-0a00-4f3e-ae1a-61c50a2f2fb3">AVStream Overview</a>.
 
@@ -94,20 +84,19 @@ For more information about the AVStream object hierarchy, see  <a href="https://
 
 ## -see-also
 
-<a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a>
 
 
 
-<a href="..\ks\ns-ks-_ksfilterfactory.md">KSFILTERFACTORY</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561681">KSDEVICE</a>
 
 
 
-<a href="..\ks\nf-ks-ksgetdevice.md">KsGetDevice</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562530">KSFILTERFACTORY</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562615">KsGetDevice</a>
  
 
  
-
 

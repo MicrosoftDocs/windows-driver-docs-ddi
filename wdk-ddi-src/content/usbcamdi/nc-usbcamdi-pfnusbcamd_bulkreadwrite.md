@@ -53,24 +53,6 @@ req.product: Windows 10 or later.
 The <b>USBCAMD_BulkReadWrite</b> service performs a read or write operation on the specified bulk pipe.
 
 
-## -prototype
-
-
-````
-PFNUSBCAMD_BulkReadWrite USBCAMD_BulkReadWrite;
-
-NTSTATUS APIENTRY USBCAMD_BulkReadWrite(
-  _In_ PVOID                      DeviceContext,
-  _In_ USHORT                     PipeIndex,
-  _In_ PVOID                      Buffer,
-  _In_ ULONG                      BufferLength,
-  _In_ PCOMMAND_COMPLETE_FUNCTION CommandComplete,
-  _In_ PVOID                      CommandContext
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -98,12 +80,12 @@ Specifies the length of the read/write buffer in bytes.
 
 ### -param CommandComplete [in]
 
-Pointer to a camera minidriver defined <a href="..\usbcamdi\nc-usbcamdi-pcommand_complete_function.md">CommandCompleteFunction</a>, which is called when the bulk read or write is completed. This value can be <b>NULL</b>.
+Pointer to a camera minidriver defined <a href="https://msdn.microsoft.com/library/windows/hardware/ff557713">CommandCompleteFunction</a>, which is called when the bulk read or write is completed. This value can be <b>NULL</b>.
 
 
 ### -param CommandContext [in]
 
-Pointer to a block of memory, that is passed as an argument to the camera minidriver defined <a href="..\usbcamdi\nc-usbcamdi-pcommand_complete_function.md">CommandCompleteFunction</a>.
+Pointer to a block of memory, that is passed as an argument to the camera minidriver defined <a href="https://msdn.microsoft.com/library/windows/hardware/ff557713">CommandCompleteFunction</a>.
 
 
 ## -returns
@@ -177,16 +159,15 @@ USBCAMD can accept one read and one write request at a time.
 
 ## -see-also
 
-<a href="..\usbcamdi\nc-usbcamdi-pcommand_complete_function.md">CommandCompleteFunction</a>
 
 
 
-<a href="..\usbcamdi\ns-usbcamdi-usbcamd_interface.md">USBCAMD_INTERFACE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557713">CommandCompleteFunction</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568605">USBCAMD_INTERFACE</a>
  
 
  
-
 

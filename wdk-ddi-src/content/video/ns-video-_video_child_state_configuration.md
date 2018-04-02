@@ -7,7 +7,7 @@ old-location: display\video_child_state_configuration.htm
 old-project: display
 ms.assetid: e298ef49-d285-426a-9028-78f7f54340b2
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PVIDEO_CHILD_STATE_CONFIGURATION, PVIDEO_CHILD_STATE_CONFIGURATION, PVIDEO_CHILD_STATE_CONFIGURATION structure pointer [Display Devices], VIDEO_CHILD_STATE_CONFIGURATION, VIDEO_CHILD_STATE_CONFIGURATION structure [Display Devices], Video_Structs_22fa1242-c537-4cae-ab47-b7e972e24d09.xml, _VIDEO_CHILD_STATE_CONFIGURATION, display.video_child_state_configuration, video/PVIDEO_CHILD_STATE_CONFIGURATION, video/VIDEO_CHILD_STATE_CONFIGURATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: "<= DISPATCH_LEVEL"
+req.irql: See Remarks section.
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -50,18 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The VIDEO_CHILD_STATE_CONFIGURATION structure contains an array of <a href="..\video\ns-video-_video_child_state.md">VIDEO_CHILD_STATE</a> structures, each holding the state of a particular child device.
-
-
-## -syntax
-
-
-````
-typedef struct _VIDEO_CHILD_STATE_CONFIGURATION {
-  ULONG             Count;
-  VIDEO_CHILD_STATE ChildStateArray[ANYSIZE_ARRAY];
-} VIDEO_CHILD_STATE_CONFIGURATION, *PVIDEO_CHILD_STATE_CONFIGURATION;
-````
+The VIDEO_CHILD_STATE_CONFIGURATION structure contains an array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff570500">VIDEO_CHILD_STATE</a> structures, each holding the state of a particular child device.
 
 
 ## -struct-fields
@@ -76,7 +65,7 @@ Specifies the number of structures in the <b>ChildStateArray</b> member.
 
 ### -field ChildStateArray
 
-Is an array of <a href="..\video\ns-video-_video_child_state.md">VIDEO_CHILD_STATE</a> structures. Each element of this array contains the ID and state for a particular child device.
+Is an array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff570500">VIDEO_CHILD_STATE</a> structures. Each element of this array contains the ID and state for a particular child device.
 
 
 ## -remarks
@@ -88,12 +77,12 @@ The video port driver sends a VIDEO_CHILD_STATE_CONFIGURATION structure to the m
 <ul>
 <li>
 
-<a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_validate_child_state_configuration.md">IOCTL_VIDEO_VALIDATE_CHILD_STATE_CONFIGURATION</a>, in which the video port driver queries the miniport driver to determine whether the specified state for each child device in <b>ChildStateArray</b> is valid.
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568156">IOCTL_VIDEO_VALIDATE_CHILD_STATE_CONFIGURATION</a>, in which the video port driver queries the miniport driver to determine whether the specified state for each child device in <b>ChildStateArray</b> is valid.
 
 </li>
 <li>
 
-<a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_set_child_state_configuration.md">IOCTL_VIDEO_SET_CHILD_STATE_CONFIGURATION</a>, in which the video port driver requests the miniport driver to make the specified state change for each child device in <b>ChildStateArray</b>.
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567840">IOCTL_VIDEO_SET_CHILD_STATE_CONFIGURATION</a>, in which the video port driver requests the miniport driver to make the specified state change for each child device in <b>ChildStateArray</b>.
 
 </li>
 </ul>
@@ -102,24 +91,23 @@ The video port driver sends a VIDEO_CHILD_STATE_CONFIGURATION structure to the m
 
 ## -see-also
 
-<a href="..\video\ns-video-_video_child_state.md">VIDEO_CHILD_STATE</a>
 
 
 
-<a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_set_child_state_configuration.md">IOCTL_VIDEO_SET_CHILD_STATE_CONFIGURATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567840">IOCTL_VIDEO_SET_CHILD_STATE_CONFIGURATION</a>
 
 
 
-<a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_validate_child_state_configuration.md">IOCTL_VIDEO_VALIDATE_CHILD_STATE_CONFIGURATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568156">IOCTL_VIDEO_VALIDATE_CHILD_STATE_CONFIGURATION</a>
 
 
 
-<a href="..\video\ns-video-_video_request_packet.md">VIDEO_REQUEST_PACKET</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570500">VIDEO_CHILD_STATE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570547">VIDEO_REQUEST_PACKET</a>
  
 
  
-
 

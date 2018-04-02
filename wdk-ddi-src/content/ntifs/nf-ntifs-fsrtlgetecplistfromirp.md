@@ -7,7 +7,7 @@ old-location: ifsk\fsrtlgetecplistfromirp.htm
 old-project: ifsk
 ms.assetid: 9e225f00-f830-488f-8bf0-666290dc40b0
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FsRtlGetEcpListFromIrp, FsRtlGetEcpListFromIrp routine [Installable File System Drivers], fsrtlref_85b1fc72-e8ce-4909-a0d4-1eab35b3a0cb.xml, ifsk.fsrtlgetecplistfromirp, ntifs/FsRtlGetEcpListFromIrp
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,17 +50,6 @@ req.typenames: TOKEN_TYPE
 
 
 The <b>FsRtlGetEcpListFromIrp </b>routine returns a pointer to an extra create parameter (ECP) context structure list that is associated with a given IRP_MJ_CREATE operation.
-
-
-## -syntax
-
-
-````
-NTSTATUS FsRtlGetEcpListFromIrp(
-  _In_  PIRP      Irp,
-  _Out_ PECP_LIST *EcpList
-);
-````
 
 
 ## -parameters
@@ -110,19 +99,18 @@ The given IRP was not an IRP-based IRP_MJ_CREATE operation. In this case, <i>Ecp
 
 
 
-To attach an ECP context structure list to an IRP, use the <a href="..\ntifs\nf-ntifs-fsrtlsetecplistintoirp.md">FsRtlSetEcpListIntoIrp</a> routine.
+To attach an ECP context structure list to an IRP, use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff547250">FsRtlSetEcpListIntoIrp</a> routine.
 
 
 
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-fsrtlsetecplistintoirp.md">FsRtlSetEcpListIntoIrp</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547250">FsRtlSetEcpListIntoIrp</a>
  
 
  
-
 

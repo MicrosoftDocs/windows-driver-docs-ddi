@@ -52,16 +52,6 @@ req.typenames: EXpsFontRestriction
 The <b>SetPrintTicket</b> method associates a print ticket with the page.
 
 
-## -syntax
-
-
-````
-HRESULT SetPrintTicket(
-  [in] IPartPrintTicket *pPrintTicket
-);
-````
-
-
 ## -parameters
 
 

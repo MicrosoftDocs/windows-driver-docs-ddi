@@ -53,20 +53,6 @@ req.product: Windows 10 or later.
 The <b>ReportStatus</b> method displays information about an error or status during a transfer. In some cases this method allows the user to recover from an error.
 
 
-## -syntax
-
-
-````
-HRESULT ReportStatus(
-  [in] LONG      lFlags,
-  [in] HWND      hwndParent,
-  [in] IWiaItem2 *pWiaItem2,
-  [in] HRESULT   hrStatus,
-  [in] LONG      lPercentComplete
-);
-````
-
-
 ## -parameters
 
 
@@ -153,16 +139,15 @@ If <i>hrStatus</i> is S_OK, the data transfer has resumed and no delay or error 
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/b441fbca-75fe-4b9d-a9d5-2ad5a4a55801">IWiaErrorHandler</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543904">IWiaErrorHandler::GetStatusDescription</a>
-
-
-
-<a href="..\wia_lh\nn-wia_lh-iwiaerrorhandler.md">IWiaErrorHandler</a>
-
-
-
  
 
  
-
 

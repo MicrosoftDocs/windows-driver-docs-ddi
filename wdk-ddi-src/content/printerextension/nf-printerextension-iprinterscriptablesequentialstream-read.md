@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 The Read method reads bytes from the stream and returns them as a JavaScript array.
 
 
-## -syntax
-
-
-````
-HRESULT Read(
-  [in]          LONG      cbRead,
-  [out, retval] IDispatch **ppdispArray
-);
-````
-
-
 ## -parameters
 
 
@@ -97,12 +86,11 @@ This method returns an <b>HRESULT</b> value.
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprinterscriptablesequentialstream.md">IPrinterScriptableSequentialStream</a>
 
 
 
+<a href="https://msdn.microsoft.com/85DF7DCB-7AB1-4A46-AD70-6D47D9F98079">IPrinterScriptableSequentialStream</a>
  
 
  
-
 

@@ -58,18 +58,6 @@ For requests sent to a virtual device, the <b>NodeAddress</b> member of the outp
 For requests sent by a physical device, the 1394 bus driver determines the node address dynamically, and <b>NodeAddress</b> is not used.
 
 
-## -syntax
-
-
-````
-typedef struct _FCP_GET_REQUEST {
-  NODE_ADDRESS NodeAddress;
-  ULONG        Length;
-  PFCP_FRAME   Frame;
-} FCP_GET_REQUEST, *PFCP_GET_REQUEST;
-````
-
-
 ## -struct-fields
 
 
@@ -94,12 +82,11 @@ On input, a pointer to a caller-allocated <a href="https://msdn.microsoft.com/li
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537008">AV_61883_REQUEST</a>
-
-
-
  
 
  
-
 

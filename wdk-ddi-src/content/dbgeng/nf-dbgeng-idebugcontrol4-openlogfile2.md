@@ -7,7 +7,7 @@ old-location: debugger\openlogfile2.htm
 old-project: debugger
 ms.assetid: 58550baa-8d15-43c7-b75d-1370c36e833d
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: IDebugControl4, IDebugControl4 interface [Windows Debugging], OpenLogFile2 method, IDebugControl4::OpenLogFile2, IDebugControl_93e0a810-9b23-43c2-b714-99a39c398f1e.xml, OpenLogFile2 method [Windows Debugging], OpenLogFile2 method [Windows Debugging], IDebugControl4 interface, OpenLogFile2,IDebugControl4.OpenLogFile2, dbgeng/IDebugControl4::OpenLogFile2, debugger.openlogfile2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,17 +50,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>OpenLogFile2</b>  method opens a log file that will receive output from the <a href="https://msdn.microsoft.com/library/windows/hardware/ff539140">client objects</a>.
-
-
-## -syntax
-
-
-````
-HRESULT OpenLogFile2(
-  [in] PCSTR File,
-  [in] ULONG Flags
-);
-````
 
 
 ## -parameters
@@ -149,27 +138,6 @@ For more information about log files, see <a href="https://msdn.microsoft.com/li
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556734">SetLogMask</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564018">.logopen (Open Log File)</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547066">GetLogMask</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553154">OpenLogFile</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547025">GetLogFile2</a>
 
 
 
@@ -177,12 +145,32 @@ For more information about log files, see <a href="https://msdn.microsoft.com/li
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564018">.logopen (Open Log File)</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539148">CloseLogFile</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547025">GetLogFile2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547066">GetLogMask</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550526">IDebugControl4</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553154">OpenLogFile</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556734">SetLogMask</a>
  
 
  
-
 

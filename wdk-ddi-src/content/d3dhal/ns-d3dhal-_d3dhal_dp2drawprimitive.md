@@ -7,7 +7,7 @@ old-location: display\d3dhal_dp2drawprimitive.htm
 old-project: display
 ms.assetid: 1dd56465-e9e8-4a79-8533-a1777cf4d8a2
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*LPD3DHAL_DP2DRAWPRIMITIVE, D3DHAL_DP2DRAWPRIMITIVE, D3DHAL_DP2DRAWPRIMITIVE structure [Display Devices], LPD3DHAL_DP2DRAWPRIMITIVE, LPD3DHAL_DP2DRAWPRIMITIVE structure pointer [Display Devices], _D3DHAL_DP2DRAWPRIMITIVE, d3dhal/D3DHAL_DP2DRAWPRIMITIVE, d3dhal/LPD3DHAL_DP2DRAWPRIMITIVE, d3dstrct_2736a73d-52f8-4647-86c3-2c362dc3f669.xml, display.d3dhal_dp2drawprimitive"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,19 +53,7 @@ req.typenames: D3DHAL_DP2DRAWPRIMITIVE
    DirectX 8.0 and later versions only.
    
 
-D3DHAL_DRAWPRIMITIVE is parsed from the command buffer by the <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a> callback when the <a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a> structure's <b>bCommand</b> member is set to D3DDP2OP_DRAWPRIMITIVE, and is used to render a primitive.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DHAL_DP2DRAWPRIMITIVE {
-  D3DPRIMITIVETYPE primType;
-  DWORD            VStart;
-  DWORD            PrimitiveCount;
-} D3DHAL_DP2DRAWPRIMITIVE, *LPD3DHAL_DP2DRAWPRIMITIVE;
-````
+D3DHAL_DRAWPRIMITIVE is parsed from the command buffer by the <a href="https://msdn.microsoft.com/6128ff7a-0d2c-48df-8b5e-cab33c5a74f5">D3dDrawPrimitives2</a> callback when the <a href="https://msdn.microsoft.com/library/windows/hardware/ff545454">D3DHAL_DP2COMMAND</a> structure's <b>bCommand</b> member is set to D3DDP2OP_DRAWPRIMITIVE, and is used to render a primitive.
 
 
 ## -struct-fields
@@ -80,7 +68,7 @@ Specifies the type of primitive to draw (one of D3DPT_POINTLIST, D3DPT_LINELIST,
 
 ### -field VStart
 
-Specifies the index (into each active vertex stream) of the vertex elements with which to start drawing. Actual vertex data should be read from the current vertex streams (those referenced by the current vertex shader) rather than from the vertex data pointer in <a href="..\d3dhal\ns-d3dhal-_d3dhal_drawprimitives2data.md">D3DHAL_DRAWPRIMITIVES2DATA</a>.
+Specifies the index (into each active vertex stream) of the vertex elements with which to start drawing. Actual vertex data should be read from the current vertex streams (those referenced by the current vertex shader) rather than from the vertex data pointer in <a href="https://msdn.microsoft.com/library/windows/hardware/ff545957">D3DHAL_DRAWPRIMITIVES2DATA</a>.
 
 
 ### -field PrimitiveCount
@@ -99,15 +87,6 @@ The vertex data can be untransformed (if the hardware supports hardware vertex p
 
 ## -see-also
 
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_drawprimitives2data.md">D3DHAL_DRAWPRIMITIVES2DATA</a>
-
-
-
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a>
-
-
-
-<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
 
 
 
@@ -115,8 +94,16 @@ D3DDP2OP_DRAWPRIMITIVE
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545454">D3DHAL_DP2COMMAND</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545957">D3DHAL_DRAWPRIMITIVES2DATA</a>
+
+
+
+<a href="https://msdn.microsoft.com/6128ff7a-0d2c-48df-8b5e-cab33c5a74f5">D3dDrawPrimitives2</a>
  
 
  
-
 

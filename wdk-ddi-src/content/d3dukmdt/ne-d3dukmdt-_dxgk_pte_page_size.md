@@ -7,7 +7,7 @@ old-location: display\dxgk_pte_page_size.htm
 old-project: display
 ms.assetid: 54ADAD37-C479-4F07-B0DD-CDF25AA4390C
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGK_PTE_PAGE_SIZE, DXGK_PTE_PAGE_SIZE enumeration [Display Devices], DXGK_PTE_PAGE_TABLE_PAGE_4KB, DXGK_PTE_PAGE_TABLE_PAGE_64KB, _DXGK_PTE_PAGE_SIZE, d3dukmdt/DXGK_PTE_PAGE_SIZE, d3dukmdt/DXGK_PTE_PAGE_TABLE_PAGE_4KB, d3dukmdt/DXGK_PTE_PAGE_TABLE_PAGE_64KB, display.dxgk_pte_page_size
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,18 +49,7 @@ req.typenames: DXGK_PTE_PAGE_SIZE
 ## -description
 
 
-The <b>DXGK_PTE_PAGE_SIZE </b>enumeration is used by <a href="..\d3dukmdt\ns-d3dukmdt-_dxgk_pte.md">DXGK_PTE</a> to indicate the size of lower page level pages. 
-
-
-## -syntax
-
-
-````
-typedef enum _DXGK_PTE_PAGE_SIZE { 
-  DXGK_PTE_PAGE_TABLE_PAGE_4KB   = 0,
-  DXGK_PTE_PAGE_TABLE_PAGE_64KB  = 1
-} DXGK_PTE_PAGE_SIZE;
-````
+The <b>DXGK_PTE_PAGE_SIZE </b>enumeration is used by <a href="https://msdn.microsoft.com/library/windows/hardware/ff562008">DXGK_PTE</a> to indicate the size of lower page level pages. 
 
 
 ## -enum-fields
@@ -80,12 +69,11 @@ Indicates the lower page table level uses 64 KB pages.
 
 ## -see-also
 
-<a href="..\d3dukmdt\ns-d3dukmdt-_dxgk_pte.md">DXGK_PTE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562008">DXGK_PTE</a>
  
 
  
-
 

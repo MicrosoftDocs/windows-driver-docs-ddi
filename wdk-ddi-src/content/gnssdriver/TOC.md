@@ -1,4 +1,4 @@
-# [gnss](../_gnss/index.md)
+# [Sensors](../_sensors/index.md)
 ## [Gnssdriver.h](index.md)
 ### [GNSS_AGNSS_REQUEST_TYPE enumeration](../gnssdriver/ne-gnssdriver-gnss_agnss_request_type.md)
 ### [GNSS_DRIVERCOMMAND_TYPE enumeration](../gnssdriver/ne-gnssdriver-gnss_drivercommand_type.md)

@@ -7,7 +7,7 @@ old-location: display\videoportcreatesecondarydisplay.htm
 old-project: display
 ms.assetid: 49dc9ed8-a506-475e-910f-5dce2ad9b168
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: VideoPortCreateSecondaryDisplay, VideoPortCreateSecondaryDisplay function [Display Devices], VideoPort_Functions_eda677fc-91b7-47d3-8407-615d5fbfcb3a.xml, display.videoportcreatesecondarydisplay, video/VideoPortCreateSecondaryDisplay
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,18 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>VideoPortCreateSecondaryDisplay</b> function enables dual-view support by creating a secondary device object for the given device.
-
-
-## -syntax
-
-
-````
-VP_STATUS VideoPortCreateSecondaryDisplay(
-  _In_    PVOID HwDeviceExtension,
-  _Inout_ PVOID *SecondaryDeviceExtension,
-  _In_    ULONG ulFlag
-);
-````
 
 
 ## -parameters

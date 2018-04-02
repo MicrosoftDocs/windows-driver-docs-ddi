@@ -56,22 +56,6 @@ The <b>GetPropertyData</b> method retrieves the current setting for a device pro
 
 
 
-## -syntax
-
-
-````
-HRESULT GetPropertyData(
-  [in]            const DEVPROPKEY  *PropertyKey,
-  [in]                  LCID        Lcid,
-  [in]                  ULONG       Flags,
-  [in]                  ULONG       PropertyDataSize,
-  [out, optional]       PVOID       PropertyData,
-  [out]                 ULONG       *PropertyDataRequiredSize,
-  [out]                 DEVPROPTYPE *PropertyType
-);
-````
-
-
 ## -parameters
 
 
@@ -300,7 +284,14 @@ exit:
 
 ## -see-also
 
-<a href="..\wudfddi_types\ns-wudfddi_types-_wdf_property_store_root.md">WDF_PROPERTY_STORE_ROOT</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451399">IWDFUnifiedPropertyStore</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451403">IWDFUnifiedPropertyStoreFactory</a>
 
 
 
@@ -308,24 +299,16 @@ exit:
 
 
 
-<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_property_store_root_class.md">WDF_PROPERTY_STORE_ROOT_CLASS</a>
-
-
-
-<a href="..\wudfddi\nn-wudfddi-iwdfunifiedpropertystorefactory.md">IWDFUnifiedPropertyStoreFactory</a>
-
-
-
-<a href="..\wudfddi\nn-wudfddi-iwdfunifiedpropertystore.md">IWDFUnifiedPropertyStore</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451414">SetPropertyData</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561453">WDF_PROPERTY_STORE_ROOT</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561458">WDF_PROPERTY_STORE_ROOT_CLASS</a>
  
 
  
-
 

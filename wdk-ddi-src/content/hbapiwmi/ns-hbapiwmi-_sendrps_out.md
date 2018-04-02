@@ -7,7 +7,7 @@ old-location: storage\sendrps_out.htm
 old-project: storage
 ms.assetid: 5d243704-7424-4738-b122-6b9467eb5916
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PSendRPS_OUT, SendRPS_OUT, SendRPS_OUT structure [Storage Devices], _SendRPS_OUT, hbapiwmi/SendRPS_OUT, storage.sendrps_out, structs-Fibre_0c81817b-666f-4b2b-8ae2-2342894d7c46.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,19 +52,6 @@ req.typenames: SendRPS_OUT, *PSendRPS_OUT
 The SendRPS_OUT structure is used to report the output parameter data of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565505">SendRPS</a> WMI method to the WMI client.
 
 
-## -syntax
-
-
-````
-struct SendRPS_OUT {
-  ULONG HBAStatus;
-  ULONG TotalRspBufferSize;
-  ULONG ActualRspBufferSize;
-  UCHAR RspBuffer[1];
-};
-````
-
-
 ## -struct-fields
 
 
@@ -101,12 +88,11 @@ The WMI tool suite generates a declaration of the SendRPS_OUT structure in <i>Hb
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565505">SendRPS</a>
-
-
-
  
 
  
-
 

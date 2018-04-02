@@ -58,19 +58,6 @@ req.product: Windows 10 or later.
 The <b>WdfMemoryCopyToBuffer</b> method copies the contents of a specified memory object's buffer into a specified destination buffer.
 
 
-## -syntax
-
-
-````
-NTSTATUS WdfMemoryCopyToBuffer(
-  _In_  WDFMEMORY SourceMemory,
-  _In_  size_t    SourceOffset,
-  _Out_ PVOID     Buffer,
-  _In_  size_t    NumBytesToCopyTo
-);
-````
-
-
 ## -parameters
 
 
@@ -189,12 +176,11 @@ else{
 
 ## -see-also
 
-<a href="..\wdfmemory\nf-wdfmemory-wdfmemorycopyfrombuffer.md">WdfMemoryCopyFromBuffer</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548701">WdfMemoryCopyFromBuffer</a>
  
 
  
-
 

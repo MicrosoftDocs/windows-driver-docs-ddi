@@ -7,7 +7,7 @@ old-location: debugger\debugconnect.htm
 old-project: debugger
 ms.assetid: 77dba83d-cc25-4609-905c-7a036cb7ced9
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: ClientFns_7beeb350-b8bd-44ea-b5c9-ca0da15146ae.xml, DebugConnect, DebugConnect function [Windows Debugging], dbgeng/DebugConnect, debugger.debugconnect
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,18 +50,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>DebugConnect</b> and <b>DebugConnectWide</b> functions create a new client object and return an interface pointer to it.  The client object will be connected to a remote host.
-
-
-## -syntax
-
-
-````
-HRESULT DebugConnect(
-  _In_  PCSTR  RemoteOptions,
-  _In_  REFIID InterfaceId,
-  _Out_ PVOID  *Interface
-);
-````
 
 
 ## -parameters
@@ -123,7 +111,6 @@ As with <b>IUnknown::QueryInterface</b>, when the returned interface is no longe
 
 ## -see-also
 
-Process Server and Smart Client
 
 
 
@@ -131,8 +118,8 @@ Process Server and Smart Client
 
 
 
+Process Server and Smart Client
  
 
  
-
 

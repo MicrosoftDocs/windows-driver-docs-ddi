@@ -7,7 +7,7 @@ old-location: netvista\rilphonebookemailaddress.htm
 old-project: netvista
 ms.assetid: 89dc64a4-dce9-4ed2-a657-d216d502cded
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*LPRILPHONEBOOKEMAILADDRESS, RILPHONEBOOKEMAILADDRESS, RILPHONEBOOKEMAILADDRESS structure [Network Drivers Starting with Windows Vista], netvista.rilphonebookemailaddress, ntddrilapitypes/RILPHONEBOOKEMAILADDRESS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,18 +51,6 @@ req.product: Windows 10 or later.
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef struct _RILPHONEBOOKEMAILADDRESS {
-  DWORD       cbSize;
-  DWORD       dwParams;
-  WCHAR [256] wszAddress;
-} RILPHONEBOOKEMAILADDRESS, RILPHONEBOOKEMAILADDRESS;
-````
 
 
 ## -struct-fields

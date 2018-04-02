@@ -52,17 +52,6 @@ req.typenames: KSPROPERTY_MEMBERSLIST, *PKSPROPERTY_MEMBERSLIST
 The KSPROPERTY_MEMBERSLIST structure contains a list of legal values or ranges for a property.
 
 
-## -syntax
-
-
-````
-typedef struct {
-  KSPROPERTY_MEMBERSHEADER MembersHeader;
-  const VOID               *Members;
-} KSPROPERTY_MEMBERSLIST, *PKSPROPERTY_MEMBERSLIST;
-````
-
-
 ## -struct-fields
 
 
@@ -70,7 +59,7 @@ typedef struct {
 
 ### -field MembersHeader
 
-Indicates a structure of type <a href="..\ks\ns-ks-ksproperty_membersheader.md">KSPROPERTY_MEMBERSHEADER</a> that specifies the size and type of information contained in the <b>Members</b> array.
+Indicates a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff565189">KSPROPERTY_MEMBERSHEADER</a> that specifies the size and type of information contained in the <b>Members</b> array.
 
 
 ### -field Members
@@ -82,9 +71,9 @@ Points to an array of entries that specify legal values or ranges for a property
 
 
 
-The type of structures pointed to in the <b>Members</b> array depends on the value of <b>MembersHeader.MembersFlags</b>. See <a href="..\ks\ns-ks-ksproperty_membersheader.md">KSPROPERTY_MEMBERSHEADER</a> for details on possible flag values.  
+The type of structures pointed to in the <b>Members</b> array depends on the value of <b>MembersHeader.MembersFlags</b>. See <a href="https://msdn.microsoft.com/library/windows/hardware/ff565189">KSPROPERTY_MEMBERSHEADER</a> for details on possible flag values.  
 
-The <a href="..\ks\ns-ks-ksproperty_values.md">KSPROPERTY_VALUES</a> structure contains a pointer to an array of KSPROPERTY_MEMBERSLIST structures that specify valid range and value information for a property. In turn, a <a href="..\ks\ns-ks-ksproperty_item.md">KSPROPERTY_ITEM</a> structure contains a pointer to a KSPROPERTY_VALUES structure.
+The <a href="https://msdn.microsoft.com/library/windows/hardware/ff565966">KSPROPERTY_VALUES</a> structure contains a pointer to an array of KSPROPERTY_MEMBERSLIST structures that specify valid range and value information for a property. In turn, a <a href="https://msdn.microsoft.com/library/windows/hardware/ff565176">KSPROPERTY_ITEM</a> structure contains a pointer to a KSPROPERTY_VALUES structure.
 
 For more information, see <a href="https://msdn.microsoft.com/a385929e-1934-4d88-aaf9-ff1ddbfd30f7">KS Properties</a>.
 
@@ -93,40 +82,39 @@ For more information, see <a href="https://msdn.microsoft.com/a385929e-1934-4d88
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ksproperty_description.md">KSPROPERTY_DESCRIPTION</a>
 
 
 
-<a href="..\ks\ns-ks-ksproperty_stepping_long.md">KSPROPERTY_STEPPING_LONG</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564394">KSPROPERTY_BOUNDS_LONG</a>
 
 
 
-<a href="..\ks\ns-ks-ksproperty_membersheader.md">KSPROPERTY_MEMBERSHEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564395">KSPROPERTY_BOUNDS_LONGLONG</a>
 
 
 
-<a href="..\ks\ns-ks-ksproperty_stepping_longlong.md">KSPROPERTY_STEPPING_LONGLONG</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565132">KSPROPERTY_DESCRIPTION</a>
 
 
 
-<a href="..\ks\ns-ks-ksproperty_bounds_long.md">KSPROPERTY_BOUNDS_LONG</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565176">KSPROPERTY_ITEM</a>
 
 
 
-<a href="..\ks\ns-ks-ksproperty_values.md">KSPROPERTY_VALUES</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565189">KSPROPERTY_MEMBERSHEADER</a>
 
 
 
-<a href="..\ks\ns-ks-ksproperty_bounds_longlong.md">KSPROPERTY_BOUNDS_LONGLONG</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn936838">KSPROPERTY_STEPPING_LONG</a>
 
 
 
-<a href="..\ks\ns-ks-ksproperty_item.md">KSPROPERTY_ITEM</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn936841">KSPROPERTY_STEPPING_LONGLONG</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565966">KSPROPERTY_VALUES</a>
  
 
  
-
 

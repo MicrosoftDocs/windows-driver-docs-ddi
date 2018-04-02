@@ -53,20 +53,6 @@ req.product: Windows 10 or later.
 The <b>wiasReadMultiple </b>function retrieves multiple property values from a WIA item.
 
 
-## -syntax
-
-
-````
-HRESULT _stdcall wiasReadMultiple(
-  _In_            BYTE        *pWiasContext,
-                  ULONG       ulCount,
-  _In_      const PROPSPEC    *ps,
-  _Out_           PROPVARIANT *pv,
-  _Out_opt_       PROPVARIANT *pvOld
-);
-````
-
-
 ## -parameters
 
 
@@ -119,12 +105,11 @@ PROPSPEC, PROPVARIANT, <b>PropVariantClear</b>, and <b>IPropertyStorage::ReadMul
 
 ## -see-also
 
-<a href="..\wiamdef\nf-wiamdef-wiaswritemultiple.md">wiasWriteMultiple</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549475">wiasWriteMultiple</a>
  
 
  
-
 

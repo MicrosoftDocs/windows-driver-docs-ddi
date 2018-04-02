@@ -7,7 +7,7 @@ old-location: kernel\kequerylogicalprocessorrelationship.htm
 old-project: kernel
 ms.assetid: 343d965d-3e85-423e-a46b-894b19d5df4e
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: KeQueryLogicalProcessorRelationship, KeQueryLogicalProcessorRelationship routine [Kernel-Mode Driver Architecture], k105_0db645b1-dfa2-4d90-856f-975997dc09a8.xml, kernel.kequerylogicalprocessorrelationship, wdm/KeQueryLogicalProcessorRelationship
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,19 +53,6 @@ req.product: Windows 10 or later.
 The <b>KeQueryLogicalProcessorRelationship</b> routine gets information about the relationships of one or more processors to the other processors in a multiprocessor system.
 
 
-## -syntax
-
-
-````
-NTSTATUS KeQueryLogicalProcessorRelationship(
-  _In_opt_  PPROCESSOR_NUMBER                        ProcessorNumber,
-  _In_      LOGICAL_PROCESSOR_RELATIONSHIP           RelationshipType,
-  _Out_opt_ PSYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX Information,
-  _Inout_   PULONG                                   Length
-);
-````
-
-
 ## -parameters
 
 
@@ -73,7 +60,7 @@ NTSTATUS KeQueryLogicalProcessorRelationship(
 
 ### -param ProcessorNumber [in, optional]
 
-A pointer to a <a href="..\minitape\ns-minitape-_processor_number.md">PROCESSOR_NUMBER</a> structure that identifies the logical processor for which the caller requests relationship information. To request information about <u>all</u> logical processors in the system, set this parameter to <b>NULL</b>. 
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff559913">PROCESSOR_NUMBER</a> structure that identifies the logical processor for which the caller requests relationship information. To request information about <u>all</u> logical processors in the system, set this parameter to <b>NULL</b>. 
 
 
 ### -param RelationshipType [in]
@@ -210,20 +197,19 @@ The NT_ASSERT macro is defined in the Wdm.h header file. The NT_SUCCESS macro is
 
 ## -see-also
 
+
+
+
 <a href="http://go.microsoft.com/fwlink/p/?linkid=155068">LOGICAL_PROCESSOR_RELATIONSHIP</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559913">PROCESSOR_NUMBER</a>
+
+
+
 <a href="http://go.microsoft.com/fwlink/p/?linkid=155065">SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX</a>
-
-
-
-<a href="..\minitape\ns-minitape-_processor_number.md">PROCESSOR_NUMBER</a>
-
-
-
  
 
  
-
 

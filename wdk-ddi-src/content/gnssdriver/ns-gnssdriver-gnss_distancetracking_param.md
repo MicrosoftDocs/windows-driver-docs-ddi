@@ -3,12 +3,12 @@ UID: NS:gnssdriver.GNSS_DISTANCETRACKING_PARAM
 title: GNSS_DISTANCETRACKING_PARAM
 author: windows-driver-content
 description: This structure defines the parameters for a distance-based tracking fix session.
-old-location: gnss\gnss_distancetracking_param.htm
-old-project: gnss
+old-location: sensors\gnss_distancetracking_param.htm
+old-project: sensors
 ms.assetid: B37B3C59-225C-40BC-BCA4-9ABF2500AFC0
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: "*PGNSS_DISTANCETRACKING_PARAM, GNSS_DISTANCETRACKING_PARAM, GNSS_DISTANCETRACKING_PARAM structure [Sensor Devices], PGNSS_DISTANCETRACKING_PARAM, PGNSS_DISTANCETRACKING_PARAM structure pointer [Sensor Devices], gnss.gnss_distancetracking_param, gnssdriver/GNSS_DISTANCETRACKING_PARAM, gnssdriver/PGNSS_DISTANCETRACKING_PARAM"
+ms.date: 2/22/2018
+ms.keywords: "*PGNSS_DISTANCETRACKING_PARAM, GNSS_DISTANCETRACKING_PARAM, GNSS_DISTANCETRACKING_PARAM structure [Sensor Devices], PGNSS_DISTANCETRACKING_PARAM, PGNSS_DISTANCETRACKING_PARAM structure pointer [Sensor Devices], gnssdriver/GNSS_DISTANCETRACKING_PARAM, gnssdriver/PGNSS_DISTANCETRACKING_PARAM, sensors.gnss_distancetracking_param"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -50,18 +50,6 @@ req.typenames: GNSS_DISTANCETRACKING_PARAM, *PGNSS_DISTANCETRACKING_PARAM
 
 
 This structure defines the parameters for a distance-based tracking fix session.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  ULONG Size;
-  ULONG Version;
-  ULONG MovementThreshold;
-} GNSS_DISTANCETRACKING_PARAM, *PGNSS_DISTANCETRACKING_PARAM;
-````
 
 
 ## -struct-fields

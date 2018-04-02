@@ -7,7 +7,7 @@ old-location: netvista\filtercancelsendnetbufferlists.htm
 old-project: netvista
 ms.assetid: 55979b0d-61a6-43da-8fa5-11159b1a48d1
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "(*FILTER_CANCEL_SEND_HANDLER), (*FILTER_CANCEL_SEND_HANDLER) callback function [Network Drivers Starting with Windows Vista], FILTER_CANCEL_SEND_NET_BUFFER_LISTS, FilterCancelSendNetBufferLists, FilterCancelSendNetBufferLists callback function [Network Drivers Starting with Windows Vista], filter_functions_ref_4538f981-3e2c-496b-bbea-e85baf122257.xml, ndis/FilterCancelSendNetBufferLists, netvista.filtercancelsendnetbufferlists"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,26 +51,10 @@ req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
 
 NDIS calls a filter driver's 
   <i>FilterCancelSendNetBufferLists</i> function to cancel the transmission of all 
-  <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structures that are marked
+  <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structures that are marked
   with a specified cancellation identifier.
 <div class="alert"><b>Note</b>  You must declare the function by using the <b>FILTER_CANCEL_SEND_NET_BUFFER_LISTS</b> type. For more
    information, see the following Examples section.</div><div> </div>
-
-## -prototype
-
-
-````
-FILTER_CANCEL_SEND_NET_BUFFER_LISTS FilterCancelSendNetBufferLists;
-
-VOID FilterCancelSendNetBufferLists(
-  _In_ NDIS_HANDLE FilterModuleContext,
-  _In_ PVOID       CancelId
-)
-{ ... }
-
-typedef FILTER_CANCEL_SEND_NET_BUFFER_LISTS (*FILTER_CANCEL_SEND_HANDLER);
-````
-
 
 ## -parameters
 
@@ -80,7 +64,7 @@ typedef FILTER_CANCEL_SEND_NET_BUFFER_LISTS (*FILTER_CANCEL_SEND_HANDLER);
 ### -param FilterModuleContext [in]
 
 A handle to a context area that the filter driver allocated in its 
-     <a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a> function. The filter driver
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff540442">FilterAttach</a> function. The filter driver
      uses this context area to maintain state information for a filter module.
 
 
@@ -106,20 +90,20 @@ None
 The
     <i>FilterCancelSendNetBufferLists</i> function is optional. If a filter driver does not filter send
     requests, it can set the entry point for this function to <b>NULL</b> when it calls the 
-    <a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">
+    <a href="https://msdn.microsoft.com/14381de2-36d9-4ec8-9d4e-7af3e6d8ecf3">
     NdisFRegisterFilterDriver</a> function.
 
 Filter drivers that queue 
-    <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structures before sending
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structures before sending
     should export a 
     <i>FilterCancelSendNetBufferLists</i> function. The 
     <i>FilterCancelSendNetBufferLists</i> function cancels the pending transmission of the specified
     NET_BUFFER_LIST structures.
 
 When an overlying NDIS driver calls the 
-    <a href="..\ndis\nf-ndis-ndiscancelsendnetbufferlists.md">
+    <a href="https://msdn.microsoft.com/7b61db73-ddd4-4d46-b378-9a82fdf041ea">
     NdisCancelSendNetBufferLists</a> or 
-    <a href="..\ndis\nf-ndis-ndisfcancelsendnetbufferlists.md">
+    <a href="https://msdn.microsoft.com/358b1aa9-4bfd-4bed-94f7-1b021c732a02">
     NdisFCancelSendNetBufferLists</a> function, NDIS calls the 
     <i>FilterCancelSendNetBufferLists</i> function of the filter modules on the binding.
 
@@ -145,7 +129,7 @@ Removes from the send queue (unlinks) all
 </li>
 <li>
 Calls the 
-      <a href="..\ndis\nf-ndis-ndisfsendnetbufferlistscomplete.md">
+      <a href="https://msdn.microsoft.com/5a9008eb-86ad-4e3c-85a2-c8fd1b8fb4cb">
       NdisFSendNetBufferListsComplete</a> function for all unlinked NET_BUFFER_LIST structures to return
       the structures. The filter driver sets the status field of the NET_BUFFER_LIST structures to
       NDIS_STATUS_SEND_ABORTED.
@@ -202,25 +186,10 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisfsendnetbufferlistscomplete.md">
-   NdisFSendNetBufferListsComplete</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndiscancelsendnetbufferlists.md">NdisCancelSendNetBufferLists</a>
-
-
-
-<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisfcancelsendnetbufferlists.md">
-   NdisFCancelSendNetBufferLists</a>
-
-
-
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540442">FilterAttach</a>
 
 
 
@@ -229,16 +198,30 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
-<a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">NdisFRegisterFilterDriver</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a>
 
 
 
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561623">NdisCancelSendNetBufferLists</a>
+
+
+
+<a href="https://msdn.microsoft.com/358b1aa9-4bfd-4bed-94f7-1b021c732a02">
+   NdisFCancelSendNetBufferLists</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562608">NdisFRegisterFilterDriver</a>
+
+
+
+<a href="https://msdn.microsoft.com/5a9008eb-86ad-4e3c-85a2-c8fd1b8fb4cb">
+   NdisFSendNetBufferListsComplete</a>
  
 
  
-
 

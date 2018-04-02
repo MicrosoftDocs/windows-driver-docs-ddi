@@ -7,7 +7,7 @@ old-location: display\ioctl_video_handle_videoparameters.htm
 old-project: display
 ms.assetid: 5c48d2b7-3dcc-4025-ab3c-12085369cd7d
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_VIDEO_HANDLE_VIDEOPARAMETERS, IOCTL_VIDEO_HANDLE_VIDEOPARAMETERS control code [Display Devices], Video_IOCTLs_c94e510e-22f7-47af-8e82-f84ef2b926c6.xml, display.ioctl_video_handle_videoparameters, ntddvdeo/IOCTL_VIDEO_HANDLE_VIDEOPARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -108,21 +108,20 @@ The miniport driver returns the VIDEOPARAMETERS structure in the VRP <b>OutputBu
 
 ### -status-block
 
-If the miniport driver successfully gets or sets the requested information, it sets the <b>Information</b> member of the VRP's <a href="..\video\ns-video-_status_block.md">STATUS_BLOCK</a> to <b>sizeof</b>(VIDEOPARAMETERS); otherwise, the miniport driver sets this member to zero.
+If the miniport driver successfully gets or sets the requested information, it sets the <b>Information</b> member of the VRP's <a href="https://msdn.microsoft.com/library/windows/hardware/ff569732">STATUS_BLOCK</a> to <b>sizeof</b>(VIDEOPARAMETERS); otherwise, the miniport driver sets this member to zero.
 
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569732">STATUS_BLOCK</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff570173">VIDEOPARAMETERS</a>
-
-
-
-<a href="..\video\ns-video-_status_block.md">STATUS_BLOCK</a>
-
-
-
  
 
  
-
 

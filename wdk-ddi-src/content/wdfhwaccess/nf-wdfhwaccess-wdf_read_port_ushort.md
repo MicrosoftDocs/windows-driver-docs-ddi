@@ -55,17 +55,6 @@ req.product: Windows 10 or later.
 The <b>WDF_READ_PORT_USHORT</b>  function reads a USHORT value from the specified port address.
 
 
-## -syntax
-
-
-````
-USHORT WDF_READ_PORT_USHORT(
-  _In_ WDFDEVICE Device,
-  _In_ PUSHORT   Port
-);
-````
-
-
 ## -parameters
 
 

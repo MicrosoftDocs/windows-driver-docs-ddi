@@ -7,7 +7,7 @@ old-location: netvista\fwpmbfestateunsubscribechanges0.htm
 old-project: netvista
 ms.assetid: 1a84401a-d7da-43d2-925d-0d6ed370c980
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: FwpmBfeStateUnsubscribeChanges0, FwpmBfeStateUnsubscribeChanges0 function [Network Drivers Starting with Windows Vista], fwpmk/FwpmBfeStateUnsubscribeChanges0, netvista.fwpmbfestateunsubscribechanges0, wfp_ref_2_funct_2_fwpm_2b1f650b-81ab-4dd9-be56-97039f86ac1e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,19 +53,9 @@ req.typenames: INSTANCE_PARTIAL_INFORMATION, PINSTANCE_PARTIAL_INFORMATION
 The 
   <b>FwpmBfeStateUnsubscribeChanges0</b> function deregisters a base filtering engine (BFE) callback function that was previously
   registered by calling the 
-  <a href="..\fwpmk\nf-fwpmk-fwpmbfestatesubscribechanges0.md">
+  <a href="https://msdn.microsoft.com/375af8a1-9e05-4830-9074-6313b4e082d9">
   FwpmBfeStateSubscribeChanges0</a> function.
 <div class="alert"><b>Note</b>  <b>FwpmBfeStateUnsubscribeChanges0</b> is a specific version of <b>FwpmBfeStateUnsubscribeChanges</b>. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
-
-## -syntax
-
-
-````
-NTSTATUS NTAPI FwpmBfeStateUnsubscribeChanges0(
-  _Inout_ HANDLE changeHandle
-);
-````
-
 
 ## -parameters
 
@@ -76,7 +66,7 @@ NTSTATUS NTAPI FwpmBfeStateUnsubscribeChanges0(
 
 A handle associated with the registration of the callback function that is being deregistered.
      This handle was returned to the callout driver when it called the 
-     <a href="..\fwpmk\nf-fwpmk-fwpmbfestatesubscribechanges0.md">FwpmBfeStateSubscribeChanges0</a> function to register the callback function.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff550062">FwpmBfeStateSubscribeChanges0</a> function to register the callback function.
 
 
 ## -returns
@@ -126,15 +116,15 @@ An error occurred.
 A callout driver calls the 
     <b>FwpmBfeStateUnsubscribeChanges0</b> function to deregister a callback function that was previously
     registered by calling the 
-    <a href="..\fwpmk\nf-fwpmk-fwpmbfestatesubscribechanges0.md">
+    <a href="https://msdn.microsoft.com/375af8a1-9e05-4830-9074-6313b4e082d9">
     FwpmBfeStateSubscribeChanges0</a> function.
 
 If a callout driver registers a callback function by calling the 
-    <a href="..\fwpmk\nf-fwpmk-fwpmbfestatesubscribechanges0.md">
+    <a href="https://msdn.microsoft.com/375af8a1-9e05-4830-9074-6313b4e082d9">
     FwpmBfeStateSubscribeChanges0</a> function, it must deregister the callback function before the callout
     driver can be unloaded.
 
-Do not call <b>FwpmBfeStateUnsubscribeChanges0</b> from a callback function that your driver previously registered by calling <a href="..\fwpmk\nf-fwpmk-fwpmbfestatesubscribechanges0.md">
+Do not call <b>FwpmBfeStateUnsubscribeChanges0</b> from a callback function that your driver previously registered by calling <a href="https://msdn.microsoft.com/375af8a1-9e05-4830-9074-6313b4e082d9">
     FwpmBfeStateSubscribeChanges0</a>. Doing so can cause a deadlock.
 
 
@@ -142,13 +132,12 @@ Do not call <b>FwpmBfeStateUnsubscribeChanges0</b> from a callback function that
 
 ## -see-also
 
-<a href="..\fwpmk\nf-fwpmk-fwpmbfestatesubscribechanges0.md">
+
+
+
+<a href="https://msdn.microsoft.com/375af8a1-9e05-4830-9074-6313b4e082d9">
    FwpmBfeStateSubscribeChanges0</a>
-
-
-
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: debugger\translatevirtualtophysical.htm
 old-project: debugger
 ms.assetid: 803f766a-e02f-4b9c-bfe0-6197e0f2855c
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: TranslateVirtualToPhysical, TranslateVirtualToPhysical function [Windows Debugging], WdbgExts_Ref_ec3ff314-8800-4f77-a40e-e127e6cf0133.xml, debugger.translatevirtualtophysical, wdbgexts/TranslateVirtualToPhysical
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,17 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>TranslateVirtualToPhysical</b> function translates a virtual memory address into a physical memory address.
-
-
-## -syntax
-
-
-````
-__inline BOOL TranslateVirtualToPhysical(
-   ULONG64 Virtual,
-   ULONG64 *Physical
-);
-````
 
 
 ## -parameters

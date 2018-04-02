@@ -7,7 +7,7 @@ old-location: buses\ioctl_internal_usbfn_activate_usb_bus.htm
 old-project: usbref
 ms.assetid: A9CBD73D-2A51-4925-9B88-7D2ED97A59DA
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_INTERNAL_USBFN_ACTIVATE_USB_BUS, IOCTL_INTERNAL_USBFN_ACTIVATE_USB_BUS control code [Buses], buses.ioctl_internal_usbfn_activate_usb_bus, usbfnioctl/IOCTL_INTERNAL_USBFN_ACTIVATE_USB_BUS
 ms.prod: windows-hardware
 ms.technology: windows-devices

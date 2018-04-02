@@ -7,7 +7,7 @@ old-location: display\d3dddi_createhwcontextflags.htm
 old-project: display
 ms.assetid: 429A1C54-14F0-4E50-B0D6-BB73FCFD1904
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDI_CREATEHWCONTEXTFLAGS, D3DDDI_CREATEHWCONTEXTFLAGS structure [Display Devices], _D3DDDI_CREATEHWCONTEXTFLAGS, d3dukmdt/D3DDDI_CREATEHWCONTEXTFLAGS, display.d3dddi_createhwcontextflags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,21 +50,6 @@ req.typenames: D3DDDI_CREATEHWCONTEXTFLAGS
 
 
 A structure used to create hardware context flags.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DDDI_CREATEHWCONTEXTFLAGS {
-  union {
-    struct {
-      UINT Reserved  :32;
-    };
-    UINT Value;
-  };
-} D3DDDI_CREATEHWCONTEXTFLAGS;
-````
 
 
 ## -struct-fields

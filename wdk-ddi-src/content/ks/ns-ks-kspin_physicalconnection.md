@@ -52,18 +52,6 @@ req.typenames: KSPIN_PHYSICALCONNECTION, *PKSPIN_PHYSICALCONNECTION
 A structure of type KSPIN_PHYSICALCONNECTION is returned in response to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff565205">KSPROPERTY_PIN_PHYSICALCONNECTION</a> request.
 
 
-## -syntax
-
-
-````
-typedef struct {
-  ULONG Size;
-  ULONG Pin;
-  WCHAR SymbolicLinkName[1];
-} KSPIN_PHYSICALCONNECTION, *PKSPIN_PHYSICALCONNECTION;
-````
-
-
 ## -struct-fields
 
 
@@ -95,12 +83,11 @@ This structure is used with port class only.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565205">KSPROPERTY_PIN_PHYSICALCONNECTION</a>
-
-
-
  
 
  
-
 

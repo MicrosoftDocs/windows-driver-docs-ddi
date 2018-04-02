@@ -54,17 +54,7 @@ req.product: Windows 10 or later.
 
 
     The 
-  <b>WDF_POWER_FRAMEWORK_SETTINGS_INIT</b> function initializes a <a href="..\wdfdevice\ns-wdfdevice-_wdf_power_framework_settings.md">WDF_POWER_FRAMEWORK_SETTINGS</a> structure.
-
-
-## -syntax
-
-
-````
-void WDF_POWER_FRAMEWORK_SETTINGS_INIT(
-  _Out_ PWDF_POWER_FRAMEWORK_SETTINGS PowerFrameworkSettings
-);
-````
+  <b>WDF_POWER_FRAMEWORK_SETTINGS_INIT</b> function initializes a <a href="https://msdn.microsoft.com/library/windows/hardware/hh406489">WDF_POWER_FRAMEWORK_SETTINGS</a> structure.
 
 
 ## -parameters
@@ -74,7 +64,7 @@ void WDF_POWER_FRAMEWORK_SETTINGS_INIT(
 
 ### -param PowerFrameworkSettings [out]
 
-A pointer to a driver-allocated <a href="..\wdfdevice\ns-wdfdevice-_wdf_power_framework_settings.md">WDF_POWER_FRAMEWORK_SETTINGS</a> structure.
+A pointer to a driver-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/hh406489">WDF_POWER_FRAMEWORK_SETTINGS</a> structure.
 
 
 ## -returns
@@ -90,12 +80,12 @@ This function does not return a value.
 
 
 
-The <b>WDF_POWER_FRAMEWORK_SETTINGS_INIT</b> function zeros the specified <a href="..\wdfdevice\ns-wdfdevice-_wdf_power_framework_settings.md">WDF_POWER_FRAMEWORK_SETTINGS</a> structure and sets the structure's <b>Size</b> member.
+The <b>WDF_POWER_FRAMEWORK_SETTINGS_INIT</b> function zeros the specified <a href="https://msdn.microsoft.com/library/windows/hardware/hh406489">WDF_POWER_FRAMEWORK_SETTINGS</a> structure and sets the structure's <b>Size</b> member.
 
 
 #### Examples
 
-For a code example that uses <b>WDF_POWER_FRAMEWORK_SETTINGS_INIT</b>, see <a href="..\wdfdevice\nf-wdfdevice-wdfdevicewdmassignpowerframeworksettings.md">WdfDeviceWdmAssignPowerFrameworkSettings</a>.
+For a code example that uses <b>WDF_POWER_FRAMEWORK_SETTINGS_INIT</b>, see <a href="https://msdn.microsoft.com/library/windows/hardware/hh451097">WdfDeviceWdmAssignPowerFrameworkSettings</a>.
 
 <div class="code"></div>
 
@@ -103,16 +93,15 @@ For a code example that uses <b>WDF_POWER_FRAMEWORK_SETTINGS_INIT</b>, see <a hr
 
 ## -see-also
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdevicewdmassignpowerframeworksettings.md">WdfDeviceWdmAssignPowerFrameworkSettings</a>
 
 
 
-<a href="..\wdfdevice\ns-wdfdevice-_wdf_power_framework_settings.md">WDF_POWER_FRAMEWORK_SETTINGS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406489">WDF_POWER_FRAMEWORK_SETTINGS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451097">WdfDeviceWdmAssignPowerFrameworkSettings</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: ifsk\file_link_entry_information.htm
 old-project: ifsk
 ms.assetid: b42edb45-3f4f-4f65-aede-8f51149dda78
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: "*PFILE_LINK_ENTRY_INFORMATION, FILE_LINK_ENTRY_INFORMATION, FILE_LINK_ENTRY_INFORMATION structure [Installable File System Drivers], PFILE_LINK_ENTRY_INFORMATION, PFILE_LINK_ENTRY_INFORMATION structure pointer [Installable File System Drivers], _FILE_LINK_ENTRY_INFORMATION, ifsk.file_link_entry_information, ntifs/FILE_LINK_ENTRY_INFORMATION, ntifs/PFILE_LINK_ENTRY_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,19 +52,6 @@ req.typenames: FILE_LINK_ENTRY_INFORMATION, *PFILE_LINK_ENTRY_INFORMATION
 The <b>FILE_LINK_ENTRY_INFORMATION</b> structure describes a single NTFS hard link to an existing file.
 
 
-## -syntax
-
-
-````
-typedef struct _FILE_LINK_ENTRY_INFORMATION {
-  ULONG    NextEntryOffset;
-  LONGLONG ParentFileId;
-  ULONG    FileNameLength;
-  WCHAR    FileName;
-} FILE_LINK_ENTRY_INFORMATION, *PFILE_LINK_ENTRY_INFORMATION;
-````
-
-
 ## -struct-fields
 
 
@@ -92,12 +79,11 @@ The name of the link.
 
 ## -see-also
 
-<a href="..\ntifs\ns-ntifs-_file_links_information.md">FILE_LINKS_INFORMATION</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff728841">FILE_LINKS_INFORMATION</a>
  
 
  
-
 

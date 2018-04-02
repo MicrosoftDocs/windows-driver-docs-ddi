@@ -56,17 +56,6 @@ req.product: Windows 10 or later.
 The <b>KsGetBusEnumPnpDeviceObject</b> function retrieves the Plug and Play device object attached to the given device object. 
 
 
-## -syntax
-
-
-````
-NTSTATUS KsGetBusEnumPnpDeviceObject(
-  _In_  PDEVICE_OBJECT DeviceObject,
-  _Out_ PDEVICE_OBJECT *PnpDeviceObject
-);
-````
-
-
 ## -parameters
 
 

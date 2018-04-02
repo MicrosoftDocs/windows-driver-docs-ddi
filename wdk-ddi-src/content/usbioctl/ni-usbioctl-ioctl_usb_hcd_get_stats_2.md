@@ -7,7 +7,7 @@ old-location: buses\ioctl_usb_hcd_get_stats_2.htm
 old-project: usbref
 ms.assetid: 64d229b3-9f06-432d-8d4f-7469e0deb11a
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_USB_HCD_GET_STATS_2, IOCTL_USB_HCD_GET_STATS_2 control code [Buses], buses.ioctl_usb_hcd_get_stats_2, usbioctl/IOCTL_USB_HCD_GET_STATS_2, usbirp_62df7d2d-dc01-46bf-8ce8-aa1a0082387e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

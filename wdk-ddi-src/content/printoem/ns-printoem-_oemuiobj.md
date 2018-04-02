@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 The OEMUIOBJ structure is used as an input argument to several of the methods exported by user interface plug-ins.
 
 
-## -syntax
-
-
-````
-typedef struct _OEMUIOBJ {
-  DWORD       cbSize;
-  POEMUIPROCS pOemUIProcs;
-} OEMUIOBJ, *POEMUIOBJ;
-````
-
-
 ## -struct-fields
 
 
@@ -76,7 +65,7 @@ Size of the OEMUIOBJ structure.
 
 ### -field pOemUIProcs
 
-Pointer to a an <a href="..\printoem\ns-printoem-_oemuiprocs.md">OEMUIPROCS</a> structure, which is a private, internal structure.
+Pointer to a an <a href="https://msdn.microsoft.com/library/windows/hardware/ff559574">OEMUIPROCS</a> structure, which is a private, internal structure.
 
 
 ## -remarks

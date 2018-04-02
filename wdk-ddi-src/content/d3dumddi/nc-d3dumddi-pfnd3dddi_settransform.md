@@ -7,7 +7,7 @@ old-location: display\settransform.htm
 old-project: display
 ms.assetid: 0e989ea4-3693-4c0b-86a5-96b865a0193f
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3DDDI_SETTRANSFORM, SetTransform, SetTransform callback function [Display Devices], UserModeDisplayDriver_Functions_721be745-bcea-4eeb-9bd4-ddda1f1912a5.xml, d3dumddi/SetTransform, display.settransform
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,20 +52,6 @@ req.typenames: DXGK_PTE
 The <i>SetTransform</i> function sets up a transform.
 
 
-## -prototype
-
-
-````
-PFND3DDDI_SETTRANSFORM SetTransform;
-
-__checkReturn HRESULT APIENTRY SetTransform(
-  _In_       HANDLE                 hDevice,
-  _In_ const D3DDDIARG_SETTRANSFORM *pData
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -87,7 +73,7 @@ __checkReturn HRESULT APIENTRY SetTransform(
 
 #### - pData [in]
 
- A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_settransform.md">D3DDDIARG_SETTRANSFORM</a> structure that describes how to set up the transform.
+ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543367">D3DDDIARG_SETTRANSFORM</a> structure that describes how to set up the transform.
 
 
 ## -returns
@@ -101,16 +87,15 @@ __checkReturn HRESULT APIENTRY SetTransform(
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_settransform.md">D3DDDIARG_SETTRANSFORM</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543367">D3DDDIARG_SETTRANSFORM</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544519">D3DDDI_DEVICEFUNCS</a>
  
 
  
-
 

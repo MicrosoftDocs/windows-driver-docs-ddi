@@ -7,7 +7,7 @@ old-location: buses\usbc_function_descriptor.htm
 old-project: usbref
 ms.assetid: 43ac738b-7837-4183-ad06-5c35a2af38ff
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PUSBC_FUNCTION_DESCRIPTOR, PUSBC_FUNCTION_DESCRIPTOR, PUSBC_FUNCTION_DESCRIPTOR structure pointer [Buses], USBC_FUNCTION_DESCRIPTOR, USBC_FUNCTION_DESCRIPTOR structure [Buses], _USBC_FUNCTION_DESCRIPTOR, buses.usbc_function_descriptor, usbbusif/PUSBC_FUNCTION_DESCRIPTOR, usbbusif/USBC_FUNCTION_DESCRIPTOR, usbstrct_29623b3f-9def-4eb6-8735-eb695560ce27.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,23 +53,6 @@ req.product: Windows 10 or later.
 The <b>USBC_FUNCTION_DESCRIPTOR</b> structure describes a USB function and its associated interface collection.
 
 
-## -syntax
-
-
-````
-typedef struct _USBC_FUNCTION_DESCRIPTOR {
-  UCHAR                     FunctionNumber;
-  UCHAR                     NumberOfInterfaces;
-  PUSB_INTERFACE_DESCRIPTOR *InterfaceDescriptorList;
-  UNICODE_STRING            HardwareId;
-  UNICODE_STRING            CompatibleId;
-  UNICODE_STRING            FunctionDescription;
-  ULONG                     FunctionFlags;
-  PVOID                     Reserved;
-} USBC_FUNCTION_DESCRIPTOR, *PUSBC_FUNCTION_DESCRIPTOR;
-````
-
-
 ## -struct-fields
 
 
@@ -87,7 +70,7 @@ The number of interfaces in the interface collection.
 
 ### -field InterfaceDescriptorList
 
-An array of pointers to <a href="..\usbspec\ns-usbspec-_usb_interface_descriptor.md">USB_INTERFACE_DESCRIPTOR</a>-type structures that describe the interfaces in the interface collection.
+An array of pointers to <a href="https://msdn.microsoft.com/library/windows/hardware/ff540065">USB_INTERFACE_DESCRIPTOR</a>-type structures that describe the interfaces in the interface collection.
 
 
 ### -field HardwareId
@@ -126,7 +109,6 @@ For information on how to use user-defined callback routines to provide a custom
 
 ## -see-also
 
-<a href="..\usbspec\ns-usbspec-_usb_interface_descriptor.md">USB_INTERFACE_DESCRIPTOR</a>
 
 
 
@@ -134,8 +116,8 @@ For information on how to use user-defined callback routines to provide a custom
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540065">USB_INTERFACE_DESCRIPTOR</a>
  
 
  
-
 

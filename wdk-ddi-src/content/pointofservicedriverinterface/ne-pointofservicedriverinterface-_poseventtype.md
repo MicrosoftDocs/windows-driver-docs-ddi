@@ -52,30 +52,6 @@ req.typenames: PosEventType
 This enumeration defines values used in the <a href="https://msdn.microsoft.com/library/windows/hardware/dn772232">PosEventDataHeader</a> structure to indicate the type of event that was raised.
 
 
-## -syntax
-
-
-````
-typedef enum _PosEventType { 
-  InvalidEvent                        = 0,
-  ReleaseDeviceRequested              = 1,
-  StatusUpdated                       = 2,
-  BarcodeScannerTriggerPressed        = 3,
-  BarcodeScannerTriggerReleased       = 4,
-  BarcodeScannerDataReceived          = 5,
-  BarcodeScannerErrorOccurred         = 6,
-  BarcodeScannerImagePreviewReceived  = 7,
-  MagneticStripeReaderDataReceived    = 8,
-  MagneticStripeReaderErrorOccurred   = 9,
-  PointOfServicePrinterErrorOccurred  = 10,
-  AlarmTimeoutExpired                 = 11,
-  DrawerClosed                        = 12,
-  DrawerOpened                        = 13,
-  _Max                                = 14
-} PosEventType;
-````
-
-
 ## -enum-fields
 
 

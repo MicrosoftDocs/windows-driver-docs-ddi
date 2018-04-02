@@ -52,18 +52,6 @@ req.typenames: EXpsJobConsumption
 The EXpsJobConsumption enumeration describes job consumption updates.
 
 
-## -syntax
-
-
-````
-typedef enum  { 
-  XpsJob_DocumentSequenceAdded,
-  XpsJob_FixedDocumentAdded,
-  XpsJob_FixedPageAdded
-} EXpsJobConsumption;
-````
-
-
 ## -enum-fields
 
 
@@ -88,7 +76,7 @@ A fixed page is added to the job.
 
 
 
-A rendering filter uses the <a href="..\filterpipeline\nn-filterpipeline-iprintpipelineprogressreport.md">IPrintPipelineProgressReport</a> interface to send updates to the pipeline. 
+A rendering filter uses the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554314">IPrintPipelineProgressReport</a> interface to send updates to the pipeline. 
 
 Rendering filters convert XPS to the page description language (PDL). 
 

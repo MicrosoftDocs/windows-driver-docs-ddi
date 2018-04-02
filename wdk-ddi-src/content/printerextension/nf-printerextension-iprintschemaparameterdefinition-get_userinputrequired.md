@@ -56,16 +56,6 @@ The <b>UserInputRequired</b> property gets the Boolean value that indicates whet
 This property is read-only.
 
 
-## -syntax
-
-
-````
-HRESULT get_UserInputRequired(
-  [out, retval] BOOL *pbIsRequired
-);
-````
-
-
 ## -parameters
 
 
@@ -80,12 +70,11 @@ The print dialog can use <b>UserInputRequired</b> to determine whether or not it
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprintschemaparameterdefinition.md">IPrintSchemaParameterDefinition</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn465890">IPrintSchemaParameterDefinition</a>
  
 
  
-
 

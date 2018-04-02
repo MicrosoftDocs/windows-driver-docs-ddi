@@ -7,7 +7,7 @@ old-location: display\agpsetrate.htm
 old-project: display
 ms.assetid: 6885df05-8cc4-4ae0-b7ca-6fd94374cfbf
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: AgpSetRate, AgpSetRate callback function [Display Devices], PAGP_SET_RATE, VideoPort_Functions_4dfdb762-5156-4a06-9dd8-1766bbe3dbe4.xml, display.agpsetrate, videoagp/AgpSetRate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,20 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>AgpSetRate</b> function reprograms the data transfer rate of the AGP chipset.
-
-
-## -prototype
-
-
-````
-PAGP_SET_RATE AgpSetRate;
-
-BOOLEAN APIENTRY AgpSetRate(
-  _In_ PVOID HwDeviceExtension,
-  _In_ ULONG AgpRate
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -145,7 +131,7 @@ Eight times single speed
 
 This function is available in Microsoft Windows XP and later.
 
-The transfer rate set by the <b>AgpSetRate</b> function is persistent across changes in power state. The video miniport driver does not have to reset the AGP transfer rate when it changes from a low power state to a full power state. For information about change of power state, see <a href="..\video\nc-video-pvideo_hw_power_set.md">HwVidSetPowerState</a>.
+The transfer rate set by the <b>AgpSetRate</b> function is persistent across changes in power state. The video miniport driver does not have to reset the AGP transfer rate when it changes from a low power state to a full power state. For information about change of power state, see <a href="https://msdn.microsoft.com/d7800ab6-9d8f-47a7-b919-8b6b0197d163">HwVidSetPowerState</a>.
 
 The <b>AgpSetRate</b> function can be used to change an AGP chipset's data transfer rate to any of the rates shown in the preceding table, as long as that transfer rate has not been explicitly eliminated in the INF file that loaded the display driver. For more information, see <a href="https://msdn.microsoft.com/2075a10f-a504-4bdc-8112-9c583c5084bb">Display INF File Sections</a>.
 
@@ -154,12 +140,11 @@ The <b>AgpSetRate</b> function can be used to change an AGP chipset's data trans
 
 ## -see-also
 
-<a href="..\video\ns-video-_video_port_agp_interface_2.md">VIDEO_PORT_AGP_INTERFACE_2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570528">VIDEO_PORT_AGP_INTERFACE_2</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: buses\_ucxroothubportchanged.htm
 old-project: usbref
 ms.assetid: 7984308D-4C8E-4481-8770-2430552B00E8
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: UcxRootHubPortChanged, UcxRootHubPortChanged method [Buses], buses._ucxroothubportchanged, ucxroothub/UcxRootHubPortChanged
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -54,16 +54,6 @@ Notifies UCX about a new port change event on the host controller.
 
 
 
-## -syntax
-
-
-````
-void UcxRootHubPortChanged(
-  [in] UCXROOTHUB UcxRootHub
-);
-````
-
-
 ## -parameters
 
 
@@ -87,19 +77,18 @@ This method does not return a value.
 
 
 
-This method causes interrupt transfers to be sent to the host controller. UCX invokes the client driver's implementation of the <a href="..\ucxroothub\nc-ucxroothub-evt_ucx_roothub_interrupt_tx.md">EVT_UCX_ROOTHUB_INTERRUPT_TX</a> event callback.
+This method causes interrupt transfers to be sent to the host controller. UCX invokes the client driver's implementation of the <a href="https://msdn.microsoft.com/library/windows/hardware/mt187837">EVT_UCX_ROOTHUB_INTERRUPT_TX</a> event callback.
 
 
 
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt188048">UcxRootHubCreate</a>
-
-
-
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: debugger\fillphysical.htm
 old-project: debugger
 ms.assetid: 9fd2cc6d-c891-4566-896b-80d56d143e8d
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: FillPhysical method [Windows Debugging], FillPhysical method [Windows Debugging], IDebugDataSpaces2 interface, FillPhysical method [Windows Debugging], IDebugDataSpaces3 interface, FillPhysical method [Windows Debugging], IDebugDataSpaces4 interface, FillPhysical,IDebugDataSpaces3.FillPhysical, IDebugDataSpaces2 interface [Windows Debugging], FillPhysical method, IDebugDataSpaces2::FillPhysical, IDebugDataSpaces3, IDebugDataSpaces3 interface [Windows Debugging], FillPhysical method, IDebugDataSpaces3::FillPhysical, IDebugDataSpaces4 interface [Windows Debugging], FillPhysical method, IDebugDataSpaces4::FillPhysical, IDebugDataSpaces_a188638a-cb30-4e13-8fd0-07114f03df52.xml, dbgeng/IDebugDataSpaces2::FillPhysical, dbgeng/IDebugDataSpaces3::FillPhysical, dbgeng/IDebugDataSpaces4::FillPhysical, debugger.fillphysical
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,20 +52,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>FillPhysical</b> method writes a pattern of bytes to the target's physical memory.  The pattern is written repeatedly until the specified memory range is filled.
-
-
-## -syntax
-
-
-````
-HRESULT FillPhysical(
-  [in]            ULONG64 Start,
-  [in]            ULONG   Size,
-  [in]            PVOID   Pattern,
-  [in]            ULONG   PatternSize,
-  [out, optional] PULONG  Filled
-);
-````
 
 
 ## -parameters
@@ -139,24 +125,23 @@ If the final copy of the pattern will not completely fit into the memory range, 
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550531">IDebugDataSpaces2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550537">IDebugDataSpaces3</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550546">IDebugDataSpaces4</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561432">WritePhysical</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugdataspaces2.md">IDebugDataSpaces2</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugdataspaces4.md">IDebugDataSpaces4</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugdataspaces3.md">IDebugDataSpaces3</a>
-
-
-
  
 
  
-
 

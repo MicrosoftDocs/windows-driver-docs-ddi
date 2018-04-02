@@ -58,18 +58,6 @@ req.product: Windows 10 or later.
 The <b>WdfIoQueueRetrieveRequestByFileObject</b> method retrieves the next available I/O request, from a specified I/O queue, that is associated with a specified file object. 
 
 
-## -syntax
-
-
-````
-NTSTATUS WdfIoQueueRetrieveRequestByFileObject(
-  _In_  WDFQUEUE      Queue,
-  _In_  WDFFILEOBJECT FileObject,
-  _Out_ WDFREQUEST    *OutRequest
-);
-````
-
-
 ## -parameters
 
 
@@ -193,16 +181,15 @@ status = WdfIoQueueRetrieveRequestByFileObject(
 
 ## -see-also
 
-<a href="..\wdfio\nf-wdfio-wdfioqueueretrievenextrequest.md">WdfIoQueueRetrieveNextRequest</a>
 
 
 
-<a href="..\wdfio\nf-wdfio-wdfioqueueretrievefoundrequest.md">WdfIoQueueRetrieveFoundRequest</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh975099">WdfIoQueueRetrieveFoundRequest</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh975100">WdfIoQueueRetrieveNextRequest</a>
  
 
  
-
 

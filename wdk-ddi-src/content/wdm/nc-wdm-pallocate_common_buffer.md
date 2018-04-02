@@ -7,7 +7,7 @@ old-location: kernel\allocatecommonbuffer.htm
 old-project: kernel
 ms.assetid: 4edaae35-8ac4-4a7a-949b-8a86b45ff391
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: AllocateCommonBuffer, AllocateCommonBuffer callback function [Kernel-Mode Driver Architecture], PALLOCATE_COMMON_BUFFER, kdma_0e4a27db-db3e-48db-81c2-d83a342a0cbc.xml, kernel.allocatecommonbuffer, wdm/AllocateCommonBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,19 +53,6 @@ req.product: Windows 10 or later.
 The <b>AllocateCommonBuffer</b> routine allocates memory and maps it so that it is simultaneously accessible from both the processor and a device for DMA operations.
 
 
-## -prototype
-
-
-````
-PVOID AllocateCommonBuffer(
-  _In_  PDMA_ADAPTER      DmaAdapter,
-  _In_  ULONG             Length,
-  _Out_ PPHYSICAL_ADDRESS LogicalAddress,
-  _In_  BOOLEAN           CacheEnabled
-);
-````
-
-
 ## -parameters
 
 
@@ -73,7 +60,7 @@ PVOID AllocateCommonBuffer(
 
 ### -param DmaAdapter [in]
 
-Pointer to the <a href="..\wdm\ns-wdm-_dma_adapter.md">DMA_ADAPTER</a> structure returned by <a href="..\wdm\nf-wdm-iogetdmaadapter.md">IoGetDmaAdapter</a> that represents the bus-master adapter or DMA controller.
+Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff544062">DMA_ADAPTER</a> structure returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff549220">IoGetDmaAdapter</a> that represents the bus-master adapter or DMA controller.
 
 
 ### -param Length [in]
@@ -83,7 +70,7 @@ Specifies the number of bytes of memory to allocate.
 
 ### -param LogicalAddress [out]
 
-Pointer to a variable that receives the logical address the device can use to access the allocated buffer. Use this address rather than calling <a href="..\ntddk\nf-ntddk-mmgetphysicaladdress.md">MmGetPhysicalAddress</a> because the system can take into account any platform-specific memory restrictions.
+Pointer to a variable that receives the logical address the device can use to access the allocated buffer. Use this address rather than calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff554547">MmGetPhysicalAddress</a> because the system can take into account any platform-specific memory restrictions.
 
 
 ### -param CacheEnabled [in]
@@ -92,7 +79,7 @@ Specifies whether the allocated memory can be cached.
 
 This parameter is ignored. The operating system determines whether to enable cached memory in the common buffer that is to be allocated. That decision is based on the processor architecture and device bus. 
 
-On computers with x86-based, x64-based, and Itanium-based processors, cached memory is enabled. It is assumed that all DMA operations performed by a device are coherent with the relevant CPU caches, which might be caching that memory. If your driver needs to disable caching, call <a href="..\wdm\nc-wdm-pallocate_common_buffer_ex.md">AllocateCommonBufferEx</a> instead.
+On computers with x86-based, x64-based, and Itanium-based processors, cached memory is enabled. It is assumed that all DMA operations performed by a device are coherent with the relevant CPU caches, which might be caching that memory. If your driver needs to disable caching, call <a href="https://msdn.microsoft.com/library/windows/hardware/hh406344">AllocateCommonBufferEx</a> instead.
 
 On computers with ARM or ARM 64-based processors, the operating system does not automatically enable cached memory for all devices. The system relies on the <b>ACPI_CCA</b> method for each device to determine whether the device is cache-coherent. 
 
@@ -113,7 +100,7 @@ On computers with ARM or ARM 64-based processors, the operating system does not 
 <b>AllocateCommonBuffer</b>
            is not a system routine that can be called directly by name. This routine is callable only by pointer from the address returned in a 
           <b>DMA_OPERATIONS</b>
-           structure. Drivers obtain the address of this routine by calling <a href="..\wdm\nf-wdm-iogetdmaadapter.md">IoGetDmaAdapter</a>.
+           structure. Drivers obtain the address of this routine by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff549220">IoGetDmaAdapter</a>.
 
 <b>AllocateCommonBuffer</b> supports DMA in which the device and the processor continuously communicate through system memory, as in a control structure for a bus-master DMA device.
 
@@ -146,24 +133,23 @@ Drivers typically call <b>AllocateCommonBuffer</b> as part of device start-up, d
 
 ## -see-also
 
-<a href="..\wdm\nc-wdm-pfree_common_buffer.md">FreeCommonBuffer</a>
 
 
 
-<a href="..\wdm\nf-wdm-iogetdmaadapter.md">IoGetDmaAdapter</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544062">DMA_ADAPTER</a>
 
 
 
-<a href="..\wdm\ns-wdm-_dma_adapter.md">DMA_ADAPTER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544071">DMA_OPERATIONS</a>
 
 
 
-<a href="..\wdm\ns-wdm-_dma_operations.md">DMA_OPERATIONS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546511">FreeCommonBuffer</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549220">IoGetDmaAdapter</a>
  
 
  
-
 

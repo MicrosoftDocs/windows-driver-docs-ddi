@@ -7,7 +7,7 @@ old-location: display\d3dddiarg_setmaterial.htm
 old-project: display
 ms.assetid: 66c35c60-9f6c-44d7-b6d5-9d50a3e33c2e
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDIARG_SETMATERIAL, D3DDDIARG_SETMATERIAL structure [Display Devices], UMDisplayDriver_param_Structs_5a3ecda9-5303-46f4-b7a2-42243e3a66d1.xml, _D3DDDIARG_SETMATERIAL, d3dumddi/D3DDDIARG_SETMATERIAL, display.d3dddiarg_setmaterial
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,20 +52,6 @@ req.typenames: D3DDDIARG_SETMATERIAL
 The D3DDDIARG_SETMATERIAL structure describes the material properties that are used for rendering. 
 
 
-## -syntax
-
-
-````
-typedef struct _D3DDDIARG_SETMATERIAL {
-  D3DCOLORVALUE Diffuse;
-  D3DCOLORVALUE Ambient;
-  D3DCOLORVALUE Specular;
-  D3DCOLORVALUE Emissive;
-  FLOAT         Power;
-} D3DDDIARG_SETMATERIAL;
-````
-
-
 ## -struct-fields
 
 
@@ -98,12 +84,11 @@ typedef struct _D3DDDIARG_SETMATERIAL {
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setmaterial.md">SetMaterial</a>
 
 
 
+<a href="https://msdn.microsoft.com/e1273478-a450-44fa-95d5-ee86cb3a46b2">SetMaterial</a>
  
 
  
-
 

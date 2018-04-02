@@ -7,7 +7,7 @@ old-location: storage\msiscsi_mmipsecstats.htm
 old-project: storage
 ms.assetid: 75b11689-f940-467e-92ee-59b5e0adbf70
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PMSiSCSI_MMIPSECStats, MSiSCSI_MMIPSECStats, MSiSCSI_MMIPSECStats structure [Storage Devices], PMSiSCSI_MMIPSECStats, PMSiSCSI_MMIPSECStats structure pointer [Storage Devices], _MSiSCSI_MMIPSECStats, iscsiprf/MSiSCSI_MMIPSECStats, iscsiprf/PMSiSCSI_MMIPSECStats, storage.msiscsi_mmipsecstats, structs-iSCSI_6edce57f-fce5-422a-a98f-049cc6418514.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,36 +50,6 @@ req.typenames: MSiSCSI_MMIPSECStats, *PMSiSCSI_MMIPSECStats
 
 
 The MSiSCSI_MMIPSECStats structure is used to report main mode IPsec statistics. 
-
-
-## -syntax
-
-
-````
-typedef struct _MSiSCSI_MMIPSECStats {
-  ULONGLONG ActiveAcquire;
-  ULONGLONG ActiveReceive;
-  ULONGLONG AcquireFailures;
-  ULONGLONG ReceiveFailures;
-  ULONGLONG SendFailures;
-  ULONGLONG AcquireHeapSize;
-  ULONGLONG ReceiveHeapSize;
-  ULONGLONG NegotiationFailures;
-  ULONGLONG AuthenticationFailures;
-  ULONGLONG InvalidCookiesReceived;
-  ULONGLONG TotalGetSPI;
-  ULONGLONG KeyAdditions;
-  ULONGLONG KeyUpdates;
-  ULONGLONG GetSPIFailures;
-  ULONGLONG KeyAdditionFailures;
-  ULONGLONG KeyUpdateFailures;
-  ULONGLONG ConnectionListSize;
-  ULONGLONG OakleyMainMode;
-  ULONGLONG OakleyQuickMode;
-  ULONGLONG InvalidPackets;
-  ULONGLONG SoftAssociations;
-} MSiSCSI_MMIPSECStats, *PMSiSCSI_MMIPSECStats;
-````
 
 
 ## -struct-fields
@@ -203,12 +173,11 @@ It is optional that you implement this class.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563077">MSiSCSI_MMIPSECStats WMI Class</a>
-
-
-
  
 
  
-
 

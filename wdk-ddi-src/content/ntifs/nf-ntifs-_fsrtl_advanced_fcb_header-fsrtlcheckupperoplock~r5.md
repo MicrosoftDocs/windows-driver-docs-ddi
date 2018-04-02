@@ -7,7 +7,7 @@ old-location: ifsk\fsrtlcheckupperoplock.htm
 old-project: ifsk
 ms.assetid: 36439793-DEE4-48A8-87C4-25BB11BA9CE5
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FsRtlCheckUpperOplock, FsRtlCheckUpperOplock routine [Installable File System Drivers], OPLOCK_LEVEL_CACHE_HANDLE, OPLOCK_LEVEL_CACHE_READ, OPLOCK_LEVEL_CACHE_WRITE, ifsk.fsrtlcheckupperoplock, ntifs/FsRtlCheckUpperOplock
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,21 +52,6 @@ req.typenames: TOKEN_TYPE
 The <b>FsRtlCheckUpperOplock</b> routine provides opportunistic lock (oplock) checking  in secondary, or layered, file systems when the oplocks they hold change state. Secondary file systems, such as network redirectors and clustering file services, call <b>FsRtlCheckUpperOplock</b> when an oplock held in a lower file system by the secondary file system, changes state. A state change can occur either by a break or an upgrade. <b>FsRtlCheckUpperOplock</b> will break the oplock of upper file system, if necessary, to confirm the new lower oplock state. The caller can also provide optional callbacks for notifications of break acknowledgment and pending status.
 
 
-## -syntax
-
-
-````
-NTSTATUS FsRtlCheckUpperOplock(
-  _In_     POPLOCK                       Oplock,
-  _In_     ULONG                         NewLowerOplockState,
-  _In_opt_ PVOID                         CompletionRoutineContext,
-  _In_opt_ POPLOCK_WAIT_COMPLETE_ROUTINE CompletionRoutine,
-  _In_opt_ POPLOCK_FS_PREPOST_IRP        PrePendIrpRoutine,
-  _In_     ULONG                         Flags
-);
-````
-
-
 ## -parameters
 
 
@@ -74,7 +59,7 @@ NTSTATUS FsRtlCheckUpperOplock(
 
 ### -param Oplock [in]
 
-An opaque oplock pointer for the file. This pointer must have been initialized by a previous call to <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializeoplock.md">FsRtlInitializeOplock</a>. 
+An opaque oplock pointer for the file. This pointer must have been initialized by a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff546150">FsRtlInitializeOplock</a>. 
 
 
 ### -param NewLowerOplockState [in]
@@ -273,16 +258,15 @@ An opportunistic lock break is underway. If supplied, <i>PrePendIrpRoutine</i> i
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlupperoplockfsctrl~r4.md">FsRtlUpperOplockFsctrl</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlcheckoplockex~r5.md">FsRtlCheckOplockEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545771">FsRtlCheckOplockEx</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265178">FsRtlUpperOplockFsctrl</a>
  
 
  
-
 

@@ -53,20 +53,6 @@ req.product: Windows 10 or later.
 The <b>wiasCreateChildAppItem</b> function creates a new application item and inserts it as a child of the specified (parent) item. Note that this item will not have any properties in its property sets until the driver or application actually fills them in.
 
 
-## -syntax
-
-
-````
-HRESULT _stdcall wiasCreateChildAppItem(
-  _In_  BYTE *pParentWiasContext,
-        LONG lFlags,
-  _In_  BSTR bstrItemName,
-  _In_  BSTR bstrFullItemName,
-  _Out_ BYTE **ppWiasChildContext
-);
-````
-
-
 ## -parameters
 
 
@@ -108,12 +94,11 @@ On success, the function returns S_OK. If the function fails, it returns a stand
 
 ## -see-also
 
-<a href="..\wiamdef\nf-wiamdef-wiascreatedrvitem.md">wiasCreateDrvItem</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549160">wiasCreateDrvItem</a>
  
 
  
-
 

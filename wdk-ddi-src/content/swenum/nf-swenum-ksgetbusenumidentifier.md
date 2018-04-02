@@ -56,16 +56,6 @@ req.product: Windows 10 or later.
 The <b>KsGetBusEnumIdentifier</b> function retrieves the software bus enumerator identifier for the bus device associated with the given IRP. 
 
 
-## -syntax
-
-
-````
-NTSTATUS KsGetBusEnumIdentifier(
-  _Inout_ PIRP Irp
-);
-````
-
-
 ## -parameters
 
 

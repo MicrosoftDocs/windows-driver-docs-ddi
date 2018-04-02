@@ -55,16 +55,6 @@ req.typenames: CONNECT_DATA, *PCONNECT_DATA
 The <b>KoDeviceInitialize</b> function adds a kernel COM create-item entry to the specified device object. 
 
 
-## -syntax
-
-
-````
-NTSTATUS KoDeviceInitialize(
-  _In_ PDEVICE_OBJECT DeviceObject
-);
-````
-
-
 ## -parameters
 
 

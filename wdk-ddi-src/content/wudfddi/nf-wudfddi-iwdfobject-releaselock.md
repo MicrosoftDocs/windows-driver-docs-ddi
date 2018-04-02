@@ -55,14 +55,6 @@ req.product: Windows 10 or later.
 The <b>ReleaseLock</b> method allows the framework to call methods of interfaces that are registered by the driver that the framework previously prevented from calling because the driver called the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560204">IWDFObject::AcquireLock</a> method.
 
 
-## -syntax
-
-
-````
-void ReleaseLock();
-````
-
-
 ## -parameters
 
 
@@ -81,16 +73,15 @@ None
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfobject.md">IWDFObject</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560200">IWDFObject</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560204">IWDFObject::AcquireLock</a>
-
-
-
  
 
  
-
 

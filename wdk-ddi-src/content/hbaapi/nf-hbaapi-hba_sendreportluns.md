@@ -7,7 +7,7 @@ old-location: storage\hba_sendreportluns.htm
 old-project: storage
 ms.assetid: 0df38de0-bc05-45a3-8efa-9d7a0fc2a08e
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: HBA_SendReportLUNs, HBA_SendReportLUNs routine [Storage Devices], fibreHBA_rtns_aeda6b0e-e4bf-4679-ab57-dbe562864726.xml, hbaapi/HBA_SendReportLUNs, storage.hba_sendreportluns
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,21 +52,6 @@ req.typenames: HBA_WWNTYPE
 The <b>HBA_SendReportLUNs</b> routine sends a SCSI report LUNs command to the indicated remote port. 
 
 
-## -syntax
-
-
-````
-HBA_STATUS HBA_API HBA_SendReportLUNs(
-  _In_  HBA_HANDLE handle,
-  _In_  HBA_WWN    portWWN,
-  _Out_ void       *pRspBuffer,
-  _In_  HBA_UINT32 RspBufferSize,
-  _Out_ void       *pSenseBuffer,
-  _In_  HBA_UINT32 SenseBufferSize
-);
-````
-
-
 ## -parameters
 
 
@@ -104,7 +89,7 @@ On input, indicates the size, in bytes, of the buffer at <i>pSenseBuffer</i>. On
 
 #### - handle [in]
 
-Contains a value returned by the routine <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a> that identifies the HBA on which the target port is located.
+Contains a value returned by the routine <a href="https://msdn.microsoft.com/library/windows/hardware/ff557097">HBA_OpenAdapter</a> that identifies the HBA on which the target port is located.
 
 
 #### - portWWN [in]
@@ -197,16 +182,15 @@ Returned if an unspecified error occurred that prevented the execution of the SC
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557097">HBA_OpenAdapter</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
-
-
-
-<a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
-
-
-
  
 
  
-
 

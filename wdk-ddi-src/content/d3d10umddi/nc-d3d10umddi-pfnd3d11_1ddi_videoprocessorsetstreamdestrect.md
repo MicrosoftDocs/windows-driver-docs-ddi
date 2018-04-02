@@ -7,7 +7,7 @@ old-location: display\videoprocessorsetstreamdestrect.htm
 old-project: display
 ms.assetid: 84AD6C4F-A674-4CCC-B2E9-378E3E55EEF3
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMDESTRECT, d3d10umddi/pfnVideoProcessorSetStreamDestRect, display.videoprocessorsetstreamdestrect, pfnVideoProcessorSetStreamDestRect, pfnVideoProcessorSetStreamDestRect callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,38 +52,21 @@ req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 Sets the destination rectangle for an input stream on the video processor.
 
 
-## -prototype
-
-
-````
-PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMDESTRECT pfnVideoProcessorSetStreamDestRect;
-
-VOID APIENTRY* pfnVideoProcessorSetStreamDestRect(
-  _In_       D3D10DDI_HDEVICE           hDevice,
-  _In_       D3D11_1DDI_HVIDEOPROCESSOR hVideoProcessor,
-  _In_       UINT                       StreamIndex,
-  _In_       BOOL                       Enable,
-  _In_ const RECT                       *pDestRect
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
 
 
-### -param D3D10DDI_HDEVICE
+### -param Arg1
 
 
-### -param D3D11_1DDI_HVIDEOPROCESSOR
+### -param Arg2
 
 
-### -param UINT
+### -param Arg3
 
 
-### -param BOOL
+### -param Arg4
 
 
 ### -param *
@@ -114,7 +97,7 @@ A handle to the display device (graphics context).
 
 #### - hVideoProcessor [in]
 
-A handle to the video processor object that was created through a call to the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_dxvahd_createvideoprocessor.md">CreateVideoProcessor</a> function. 
+A handle to the video processor object that was created through a call to the <a href="https://msdn.microsoft.com/68a7c394-4b0f-4446-a54b-5aee6cf8a913">CreateVideoProcessor</a> function. 
 
 
 #### - pDestRect [in]
@@ -146,16 +129,15 @@ The default destination rectangle is an empty rectangle (0, 0, 0, 0). If the <i>
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/68a7c394-4b0f-4446-a54b-5aee6cf8a913">CreateVideoProcessor</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
-
-
-
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_dxvahd_createvideoprocessor.md">CreateVideoProcessor</a>
-
-
-
  
 
  
-
 

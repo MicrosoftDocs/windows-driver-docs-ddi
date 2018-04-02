@@ -3,12 +3,12 @@ UID: NI:gnssdriver.IOCTL_GNSS_LISTEN_GEOFENCES_TRACKINGSTATUS
 title: IOCTL_GNSS_LISTEN_GEOFENCES_TRACKINGSTATUS
 author: windows-driver-content
 description: The IOCTL_GNSS_LISTEN_GEOFENCES_TRACKINGSTATUS control code is used to receive geofence tracking status from the driver.
-old-location: gnss\ioctl_gnss_listen_geofences_trackingstatus.htm
-old-project: gnss
+old-location: sensors\ioctl_gnss_listen_geofences_trackingstatus.htm
+old-project: sensors
 ms.assetid: 3AB8CECA-C5FD-4B0A-A85B-B6E90FA22B04
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IOCTL_GNSS_LISTEN_GEOFENCES_TRACKINGSTATUS, IOCTL_GNSS_LISTEN_GEOFENCES_TRACKINGSTATUS control code [Sensor Devices], gnss.ioctl_gnss_listen_geofences_trackingstatus, gnssdriver/IOCTL_GNSS_LISTEN_GEOFENCES_TRACKINGSTATUS
+ms.date: 2/22/2018
+ms.keywords: IOCTL_GNSS_LISTEN_GEOFENCES_TRACKINGSTATUS, IOCTL_GNSS_LISTEN_GEOFENCES_TRACKINGSTATUS control code [Sensor Devices], gnssdriver/IOCTL_GNSS_LISTEN_GEOFENCES_TRACKINGSTATUS, sensors.ioctl_gnss_listen_geofences_trackingstatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -73,7 +73,7 @@ Set to 0.
 
 ### -output-buffer
 
-A pointer to a <a href="..\gnssdriver\ne-gnssdriver-gnss_event_type.md">GNSS_EVENT</a> structure.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn925134">GNSS_EVENT</a> structure.
 
 
 
@@ -153,7 +153,6 @@ Additionally, if geofence tracking is explicitly reset by the HLOS or the HLOS d
 
 ## -see-also
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
 
 
 
@@ -161,14 +160,15 @@ Additionally, if geofence tracking is explicitly reset by the HLOS or the HLOS d
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548651">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548656">WdfIoTargetSendInternalIoctlSynchronously</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548660">WdfIoTargetSendIoctlSynchronously</a>
  
 
  

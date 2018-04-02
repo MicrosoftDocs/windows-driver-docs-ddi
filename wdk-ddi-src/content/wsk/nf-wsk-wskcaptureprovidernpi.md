@@ -7,7 +7,7 @@ old-location: netvista\wskcaptureprovidernpi.htm
 old-project: netvista
 ms.assetid: b5c6667e-33b4-4482-8817-c01d9d314c3a
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: WskCaptureProviderNPI, WskCaptureProviderNPI function [Network Drivers Starting with Windows Vista], netvista.wskcaptureprovidernpi, wsk/WskCaptureProviderNPI, wskref_571be642-7c1c-471d-bf35-73bd6b271cbe.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -57,18 +57,6 @@ The
   (NPI)</a> when it becomes available from the WSK subsystem.
 
 
-## -syntax
-
-
-````
-NTSTATUS WskCaptureProviderNPI(
-  _In_  PWSK_REGISTRATION WskRegistration,
-  _In_  ULONG             WaitTimeout,
-  _Out_ PWSK_PROVIDER_NPI WskProviderNpi
-);
-````
-
-
 ## -parameters
 
 
@@ -77,9 +65,9 @@ NTSTATUS WskCaptureProviderNPI(
 ### -param WskRegistration [in]
 
 A pointer to the memory location initialized by 
-     <a href="..\wsk\nf-wsk-wskregister.md">WskRegister</a> that identifies a WSK
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571143">WskRegister</a> that identifies a WSK
      application's registration instance. For more information, see 
-     <a href="..\wsk\ns-wsk-_wsk_registration.md">WSK_REGISTRATION</a>.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571178">WSK_REGISTRATION</a>.
 
 
 ### -param WaitTimeout [in]
@@ -111,7 +99,7 @@ For more information about how this parameter is used, see
 ### -param WskProviderNpi [out]
 
 A pointer to the NPI returned by the WSK provider. This 
-     <a href="..\wsk\ns-wsk-_wsk_provider_npi.md">WSK_PROVIDER_NPI</a> structure contains a
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571177">WSK_PROVIDER_NPI</a> structure contains a
      pointer to the WSK provider dispatch table of WSK functions that the WSK application can call.
 
 
@@ -182,13 +170,13 @@ The provider NPI capture failed.
 
 For each call to 
     <b>WskCaptureProviderNPI</b> that returns a success code, there must be exactly one corresponding 
-    <a href="..\wsk\nf-wsk-wskreleaseprovidernpi.md">WskReleaseProviderNPI</a> call that uses
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff571145">WskReleaseProviderNPI</a> call that uses
     the same 
     <i>WskRegistration</i> parameter that was passed to 
     <b>WskCaptureProviderNPI</b>.
 
 <b>WskCaptureProviderNPI</b> can be called after a call is made to 
-    <a href="..\wsk\nf-wsk-wskderegister.md">WskDeregister</a> only if the 
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff571128">WskDeregister</a> only if the 
     <i>WskRegistration</i> block is not freed or overwritten. After 
     <b>WskDeregister</b> is called, any further calls to 
     <b>WskCaptureProviderNPI</b> will fail with status code STATUS_DEVICE_NOT_READY, and, unless the provider
@@ -210,20 +198,19 @@ Callers of the
 
 ## -see-also
 
-<a href="..\wsk\nf-wsk-wskreleaseprovidernpi.md">WskReleaseProviderNPI</a>
 
 
 
-<a href="..\wsk\nf-wsk-wskregister.md">WskRegister</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571128">WskDeregister</a>
 
 
 
-<a href="..\wsk\nf-wsk-wskderegister.md">WskDeregister</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571143">WskRegister</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571145">WskReleaseProviderNPI</a>
  
 
  
-
 

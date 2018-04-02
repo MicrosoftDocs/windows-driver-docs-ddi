@@ -55,17 +55,6 @@ req.product: Windows 10 or later.
 The <b>RetrieveUsbPipeObject</b> method retrieves a USB pipe object for the specified pipe index.
 
 
-## -syntax
-
-
-````
-HRESULT RetrieveUsbPipeObject(
-  [in]  UCHAR             PipeIndex,
-  [out] IWDFUsbTargetPipe **ppPipe
-);
-````
-
-
 ## -parameters
 
 
@@ -78,7 +67,7 @@ The index of the USB pipe object to retrieve.
 
 ### -param ppPipe [out]
 
-A pointer to a variable that receives a pointer to the <a href="..\wudfusb\nn-wudfusb-iwdfusbtargetpipe.md">IWDFUsbTargetPipe</a> interface for the USB pipe object whose index is specified by <i>PipeIndex</i>.
+A pointer to a variable that receives a pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560391">IWDFUsbTargetPipe</a> interface for the USB pipe object whose index is specified by <i>PipeIndex</i>.
 
 
 ## -returns
@@ -137,7 +126,7 @@ This value corresponds to the error code that the WinUsb API returned.
 
 
 
-A UMDF driver can call the methods of the <a href="..\wudfusb\nn-wudfusb-iwdfusbtargetpipe.md">IWDFUsbTargetPipe</a> interface that the <b>RetrieveUsbPipeObject</b> method retrieves to obtain the type of pipe and other information.
+A UMDF driver can call the methods of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560391">IWDFUsbTargetPipe</a> interface that the <b>RetrieveUsbPipeObject</b> method retrieves to obtain the type of pipe and other information.
 
 
 #### Examples
@@ -150,16 +139,15 @@ For a code example of how to use the<b>RetrieveUsbPipeObject</b> method, see <a 
 
 ## -see-also
 
-<a href="..\wudfusb\nn-wudfusb-iwdfusbtargetpipe.md">IWDFUsbTargetPipe</a>
 
 
 
-<a href="..\wudfusb\nn-wudfusb-iwdfusbinterface.md">IWDFUsbInterface</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560312">IWDFUsbInterface</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560391">IWDFUsbTargetPipe</a>
  
 
  
-
 

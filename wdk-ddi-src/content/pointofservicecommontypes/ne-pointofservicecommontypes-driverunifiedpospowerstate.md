@@ -52,16 +52,6 @@ req.typenames: DriverUnifiedPosPowerState
 This enumeration is not implemented.
 
 
-## -syntax
-
-
-````
-typedef enum _DriverUnifiedPosPowerState { 
-    = 
-} DriverUnifiedPosPowerState;
-````
-
-
 ## -enum-fields
 
 

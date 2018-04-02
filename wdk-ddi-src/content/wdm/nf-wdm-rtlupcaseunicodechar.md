@@ -7,7 +7,7 @@ old-location: kernel\rtlupcaseunicodechar.htm
 old-project: kernel
 ms.assetid: e8584c60-57ba-4b9c-949f-041bb37dfb13
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: RtlUpcaseUnicodeChar, RtlUpcaseUnicodeChar routine [Kernel-Mode Driver Architecture], k109_81806669-d742-4cb9-b4dd-d7e40fef171a.xml, kernel.rtlupcaseunicodechar, wdm/RtlUpcaseUnicodeChar
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -54,16 +54,6 @@ req.product: Windows 10 or later.
 The <b>RtlUpcaseUnicodeChar</b> routine converts the specified Unicode character to uppercase.
 
 
-## -syntax
-
-
-````
-WCHAR RtlUpcaseUnicodeChar(
-  _In_ WCHAR SourceCharacter
-);
-````
-
-
 ## -parameters
 
 
@@ -85,16 +75,15 @@ Specifies the character to convert.
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-rtlupcaseunicodestring.md">RtlUpcaseUnicodeString</a>
 
 
 
-<a href="..\ntddk\nf-ntddk-rtlupperchar.md">RtlUpperChar</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563005">RtlUpcaseUnicodeString</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563009">RtlUpperChar</a>
  
 
  
-
 

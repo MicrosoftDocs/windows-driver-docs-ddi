@@ -7,7 +7,7 @@ old-location: display\dxgkddisetbacklightoptimization.htm
 old-project: display
 ms.assetid: b8c37df8-ba86-4cfd-add0-49ba9c90f04a
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGK_BRIGHTNESS_SET_BACKLIGHT_OPTIMIZATION, DxgkDdiSetBacklightOptimization, DxgkDdiSetBacklightOptimization callback function [Display Devices], display.dxgkddisetbacklightoptimization, dispmprt/DxgkDdiSetBacklightOptimization
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,20 +52,6 @@ req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
 Called by the Microsoft DirectX graphics kernel subsystem to set the level of optimization that the display miniport driver uses to control the brightness of an integrated display panel.
 
 
-## -prototype
-
-
-````
-DXGK_BRIGHTNESS_SET_BACKLIGHT_OPTIMIZATION DxgkDdiSetBacklightOptimization;
-
-NTSTATUS* DxgkDdiSetBacklightOptimization(
-  _In_ PVOID                             Context,
-  _In_ DXGK_BACKLIGHT_OPTIMIZATION_LEVEL OptimizationLevel
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -73,12 +59,12 @@ NTSTATUS* DxgkDdiSetBacklightOptimization(
 
 ### -param Context [in]
 
-A handle to a context block that is associated with a display adapter. The display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a> function previously provided this handle to the DirectX graphics kernel subsystem.
+A handle to a context block that is associated with a display adapter. The display miniport driver's <a href="https://msdn.microsoft.com/5fd4046f-54c3-4dfc-8d51-0d9ebcde0bea">DxgkDdiAddDevice</a> function previously provided this handle to the DirectX graphics kernel subsystem.
 
 
 ### -param OptimizationLevel [in]
 
-A value of type <a href="..\d3dkmdt\ne-d3dkmdt-dxgk_backlight_optimization_level.md">DXGK_BACKLIGHT_OPTIMIZATION_LEVEL</a> that indicates the optimization level of brightness control.
+A value of type <a href="https://msdn.microsoft.com/library/windows/hardware/jj128358">DXGK_BACKLIGHT_OPTIMIZATION_LEVEL</a> that indicates the optimization level of brightness control.
 
 
 ## -returns
@@ -98,7 +84,7 @@ The display miniport driver can dynamically change the backlight optimization le
 
 The driver must respond to requests from the operating system to change the backlight optimization level in the <i>OptimizationLevel</i> parameter. Such requests are based upon system state changes.
 
-After the driver has enabled adaptive brightness on the display panel in response to a call to the <a href="..\dispmprt\nc-dispmprt-dxgk_brightness_set_state.md">DxgkDdiSetBrightnessState</a> function, it must not disable adaptive brightness.
+After the driver has enabled adaptive brightness on the display panel in response to a call to the <a href="https://msdn.microsoft.com/804046ff-0cc7-4ff0-be07-b574cb40fd2b">DxgkDdiSetBrightnessState</a> function, it must not disable adaptive brightness.
 
 When the driver transitions from one backlight optimization level to another, it should make a gradual transition in brightness settings of the integrated display panel. An important  example of this type of transition is when a user adjusts video playback controls and the operating system responds by resetting the value of <i>OptimizationLevel</i> from <b>DxgkBacklightOptimizationDynamic</b> to <b>DxgkBacklightOptimizationDesktop</b>.
 
@@ -111,20 +97,19 @@ This function should be made pageable.
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
 
 
 
-<a href="..\d3dkmdt\ne-d3dkmdt-dxgk_backlight_optimization_level.md">DXGK_BACKLIGHT_OPTIMIZATION_LEVEL</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj128358">DXGK_BACKLIGHT_OPTIMIZATION_LEVEL</a>
 
 
 
-<a href="..\dispmprt\nc-dispmprt-dxgk_brightness_set_state.md">DxgkDdiSetBrightnessState</a>
+<a href="https://msdn.microsoft.com/5fd4046f-54c3-4dfc-8d51-0d9ebcde0bea">DxgkDdiAddDevice</a>
 
 
 
+<a href="https://msdn.microsoft.com/804046ff-0cc7-4ff0-be07-b574cb40fd2b">DxgkDdiSetBrightnessState</a>
  
 
  
-
 

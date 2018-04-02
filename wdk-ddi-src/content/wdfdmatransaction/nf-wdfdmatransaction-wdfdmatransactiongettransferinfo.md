@@ -56,18 +56,6 @@ req.product: Windows 10 or later.
 The <b>WdfDmaTransactionGetTransferInfo</b> method returns the number of map registers and scatter/gather list entries required for an initialized DMA transaction.
 
 
-## -syntax
-
-
-````
-void WdfDmaTransactionGetTransferInfo(
-  _In_      WDFDMATRANSACTION DmaTransaction,
-  _Out_opt_ ULONG             *MapRegisterCount,
-  _Out_opt_ ULONG             *ScatterGatherElementCount
-);
-````
-
-
 ## -parameters
 
 
@@ -101,7 +89,7 @@ This method does not return a value.
 
 
 
-The driver might call <b>WdfDmaTransactionGetTransferInfo</b> before calling <a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactionallocateresources.md">WdfDmaTransactionAllocateResources</a> or <a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactionexecute.md">WdfDmaTransactionExecute</a>.
+The driver might call <b>WdfDmaTransactionGetTransferInfo</b> before calling <a href="https://msdn.microsoft.com/library/windows/hardware/hh451123">WdfDmaTransactionAllocateResources</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff547062">WdfDmaTransactionExecute</a>.
 
 When using DMA version 3, this method returns an accurate count of the number of map registers needed. When using earlier DMA versions, this method assumes that each page requires a map register.
 
@@ -110,16 +98,15 @@ When using DMA version 3, this method returns an accurate count of the number of
 
 ## -see-also
 
-<a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactionexecute.md">WdfDmaTransactionExecute</a>
 
 
 
-<a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactionallocateresources.md">WdfDmaTransactionAllocateResources</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451123">WdfDmaTransactionAllocateResources</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547062">WdfDmaTransactionExecute</a>
  
 
  
-
 

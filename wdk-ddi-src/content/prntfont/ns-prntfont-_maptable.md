@@ -53,18 +53,6 @@ req.product: Windows 10 or later.
 The MAPTABLE structure is one of the structures used to define the contents of <a href="https://msdn.microsoft.com/6e643703-ace1-4660-990c-3a9ca735829d">glyph translation table files</a> (.gtt files).
 
 
-## -syntax
-
-
-````
-typedef struct _MAPTABLE {
-  DWORD     dwSize;
-  DWORD     dwGlyphNum;
-  TRANSDATA Trans[1];
-} MAPTABLE, *PMAPTABLE;
-````
-
-
 ## -struct-fields
 
 
@@ -82,26 +70,25 @@ Specifies the number of elements in the <b>Trans</b> array.
 
 ### -field Trans
 
-Is an array of <a href="..\prntfont\ns-prntfont-_transdata.md">TRANSDATA</a> structures.
+Is an array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff562816">TRANSDATA</a> structures.
 
 
 ## -remarks
 
 
 
-A .gtt file's MAPTABLE structure, which contains a glyph mapping table, is accessed by a pointer in the file's <a href="..\prntfont\ns-prntfont-_uni_glyphsetdata.md">UNI_GLYPHSETDATA</a> structure. The table maps glyph handles to the character codes or commands that must be sent to the printer in order to print glyphs.
+A .gtt file's MAPTABLE structure, which contains a glyph mapping table, is accessed by a pointer in the file's <a href="https://msdn.microsoft.com/library/windows/hardware/ff563597">UNI_GLYPHSETDATA</a> structure. The table maps glyph handles to the character codes or commands that must be sent to the printer in order to print glyphs.
 
 
 
 
 ## -see-also
 
-<a href="..\prntfont\ns-prntfont-_transdata.md">TRANSDATA</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562816">TRANSDATA</a>
  
 
  
-
 

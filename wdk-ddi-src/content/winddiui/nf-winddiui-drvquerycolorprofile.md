@@ -53,21 +53,6 @@ req.product: Windows 10 or later.
 The <b>DrvQueryColorProfile</b> function allows a printer interface DLL to specify an ICC profile to use for color management.
 
 
-## -syntax
-
-
-````
-BOOL DrvQueryColorProfile(
-        HANDLE    hPrinter,
-  _In_  PDEVMODEW pdevmode,
-        ULONG     ulQueryMode,
-  _Out_ VOID      *pvProfileData,
-  _Out_ ULONG     *pcbProfileData,
-  _Out_ FLONG     *pflProfileData
-);
-````
-
-
 ## -parameters
 
 

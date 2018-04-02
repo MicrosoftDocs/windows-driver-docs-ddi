@@ -7,7 +7,7 @@ old-location: ifsk\seimpersonateclientex.htm
 old-project: ifsk
 ms.assetid: 7a5043b9-2517-454a-a8d3-1ea09143c81a
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: SeImpersonateClientEx, SeImpersonateClientEx routine [Installable File System Drivers], ifsk.seimpersonateclientex, ntifs/SeImpersonateClientEx, seref_557d14bb-0d77-4bc8-8c75-57bb3c789963.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,17 +50,6 @@ req.typenames: TOKEN_TYPE
 
 
 The <b>SeImpersonateClientEx</b> routine causes a thread to impersonate a user.
-
-
-## -syntax
-
-
-````
-NTSTATUS SeImpersonateClientEx(
-  _In_     PSECURITY_CLIENT_CONTEXT ClientContext,
-  _In_opt_ PETHREAD                 ServerThread
-);
-````
 
 
 ## -parameters
@@ -140,7 +129,7 @@ In cases where a higher privilege state is required, the task should be dispatch
 
 To end the impersonation of the user, call the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556717">SeStopImpersonatingClient</a> routine.
 
-The <a href="..\ntifs\nf-ntifs-psimpersonateclient.md">PsImpersonateClient</a> routine can be used to cause a server thread to impersonate a client.
+The <a href="https://msdn.microsoft.com/library/windows/hardware/ff551907">PsImpersonateClient</a> routine can be used to cause a server thread to impersonate a client.
 
 For more information about security and access control, see the documentation on these topics in the Microsoft Windows SDK. 
 
@@ -149,24 +138,23 @@ For more information about security and access control, see the documentation on
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-secreateclientsecurityfromsubjectcontext.md">SeCreateClientSecurityFromSubjectContext</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-secreateclientsecurity.md">SeCreateClientSecurity</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551907">PsImpersonateClient</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-psimpersonateclient.md">PsImpersonateClient</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556595">SeCreateClientSecurity</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556598">SeCreateClientSecurityFromSubjectContext</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556717">SeStopImpersonatingClient</a>
-
-
-
  
 
  
-
 

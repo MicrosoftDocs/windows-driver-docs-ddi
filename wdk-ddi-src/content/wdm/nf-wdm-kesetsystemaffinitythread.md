@@ -7,7 +7,7 @@ old-location: kernel\kesetsystemaffinitythread.htm
 old-project: kernel
 ms.assetid: eb66ed06-356d-4550-8ccf-10854e4ca259
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: KeSetSystemAffinityThread, KeSetSystemAffinityThread routine [Kernel-Mode Driver Architecture], k105_86ff0d26-a53d-4da4-b776-35ed30b950ad.xml, kernel.kesetsystemaffinitythread, wdm/KeSetSystemAffinityThread
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,16 +53,6 @@ req.product: Windows 10 or later.
 The <b>KeSetSystemAffinityThread</b> routine sets the system affinity of the current thread.
 
 
-## -syntax
-
-
-````
-VOID KeSetSystemAffinityThread(
-  _In_ KAFFINITY Affinity
-);
-````
-
-
 ## -parameters
 
 
@@ -95,16 +85,15 @@ If <b>KeSetSystemAffinityThread</b> is called at IRQL &lt;= APC_LEVEL and the ca
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551830">KAFFINITY</a>
 
 
 
-<a href="..\wdm\nf-wdm-kesetsystemaffinitythreadex.md">KeSetSystemAffinityThreadEx</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553271">KeSetSystemAffinityThreadEx</a>
  
 
  
-
 

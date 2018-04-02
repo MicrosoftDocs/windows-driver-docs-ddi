@@ -7,7 +7,7 @@ old-location: debugger\getpseudovalues.htm
 old-project: debugger
 ms.assetid: a1ad3b45-c89c-4990-a47b-20e47c05892a
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: GetPseudoValues method [Windows Debugging], GetPseudoValues method [Windows Debugging], IDebugRegisters2 interface, GetPseudoValues,IDebugRegisters2.GetPseudoValues, IDebugRegisters2, IDebugRegisters2 interface [Windows Debugging], GetPseudoValues method, IDebugRegisters2::GetPseudoValues, IDebugRegisters_56a9ae8d-1ef7-4b28-bcad-e9f7025aba4f.xml, dbgeng/IDebugRegisters2::GetPseudoValues, debugger.getpseudovalues
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,20 +50,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>GetPseudoValues</b> method returns the values of a number of pseudo-registers.
-
-
-## -syntax
-
-
-````
-HRESULT GetPseudoValues(
-  [in]           ULONG        Source,
-  [in]           ULONG        Count,
-  [in, optional] PULONG       Indices,
-  [in]           ULONG        Start,
-  [out]          PDEBUG_VALUE Values
-);
-````
 
 
 ## -parameters
@@ -135,7 +121,7 @@ Specifies the index of the first pseudo-register whose value will be returned.  
 
 ### -param Values [out]
 
-Receives the values of the specified pseudo-registers.  The number of elements that this array holds is <i>Count</i>.  See <a href="..\dbgeng\ns-dbgeng-_debug_value.md">DEBUG_VALUE</a> for a description of this parameter type.
+Receives the values of the specified pseudo-registers.  The number of elements that this array holds is <i>Count</i>.  See <a href="https://msdn.microsoft.com/library/windows/hardware/ff541719">DEBUG_VALUE</a> for a description of this parameter type.
 
 
 ## -returns
@@ -170,27 +156,26 @@ The method was successful.
 
 
 
-For an overview of the <a href="..\dbgeng\nn-dbgeng-idebugregisters.md">IDebugRegisters</a> interface and other register-related methods, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff554369">Registers</a>.
+For an overview of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550825">IDebugRegisters</a> interface and other register-related methods, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff554369">Registers</a>.
 
 
 
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugregisters2.md">IDebugRegisters2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541719">DEBUG_VALUE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550835">IDebugRegisters2</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556767">SetPseudoValues</a>
-
-
-
-<a href="..\dbgeng\ns-dbgeng-_debug_value.md">DEBUG_VALUE</a>
-
-
-
  
 
  
-
 

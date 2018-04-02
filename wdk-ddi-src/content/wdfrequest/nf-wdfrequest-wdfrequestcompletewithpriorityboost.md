@@ -56,18 +56,6 @@ req.product: Windows 10 or later.
 The <b>WdfRequestCompleteWithPriorityBoost</b> method completes a specified I/O request and supplies a completion status. It also specifies a value that the system can use to boost the run-time priority of the thread that requested the I/O operation.
 
 
-## -syntax
-
-
-````
-VOID WdfRequestCompleteWithPriorityBoost(
-  _In_ WDFREQUEST Request,
-  _In_ NTSTATUS   Status,
-  _In_ CCHAR      PriorityBoost
-);
-````
-
-
 ## -parameters
 
 
@@ -134,7 +122,7 @@ For more information about calling <b>WdfRequestCompleteWithPriorityBoost</b>, s
 
 #### Examples
 
-The following code example shows how the example at <a href="..\wdfrequest\nf-wdfrequest-wdfrequestcomplete.md">WdfRequestComplete</a> can use <b>WdfRequestCompleteWithPriorityBoost</b> instead of <b>WdfRequestComplete</b>.
+The following code example shows how the example at <a href="https://msdn.microsoft.com/library/windows/hardware/ff549945">WdfRequestComplete</a> can use <b>WdfRequestCompleteWithPriorityBoost</b> instead of <b>WdfRequestComplete</b>.
 
 <div class="code"><span codelanguage=""><table>
 <tr>
@@ -167,11 +155,6 @@ The following code example shows how the example at <a href="..\wdfrequest\nf-wd
 
 ## -see-also
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestcompletewithinformation.md">WdfRequestCompleteWithInformation</a>
-
-
-
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestcomplete.md">WdfRequestComplete</a>
 
 
 
@@ -179,8 +162,12 @@ The following code example shows how the example at <a href="..\wdfrequest\nf-wd
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549945">WdfRequestComplete</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549948">WdfRequestCompleteWithInformation</a>
  
 
  
-
 

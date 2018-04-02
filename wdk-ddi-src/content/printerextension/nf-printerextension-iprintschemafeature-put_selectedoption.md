@@ -51,19 +51,9 @@ req.product: Windows 10 or later.
 ## -description
 
 
-Changes the selected option of the Print Schema Feature element to the specified <a href="..\printerextension\nn-printerextension-iprintschemaoption.md">IPrintSchemaOption</a> element.
+Changes the selected option of the Print Schema Feature element to the specified <a href="https://msdn.microsoft.com/library/windows/hardware/hh451335">IPrintSchemaOption</a> element.
 
 This property is write-only.
-
-
-## -syntax
-
-
-````
-HRESULT put_SelectedOption(
-   IPrintSchemaOption *pOption
-);
-````
 
 
 ## -parameters
@@ -71,16 +61,15 @@ HRESULT put_SelectedOption(
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprintschemafeature.md">IPrintSchemaFeature</a>
 
 
 
-<a href="..\printerextension\nn-printerextension-iprintschemaoption.md">IPrintSchemaOption</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451284">IPrintSchemaFeature</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451335">IPrintSchemaOption</a>
  
 
  
-
 

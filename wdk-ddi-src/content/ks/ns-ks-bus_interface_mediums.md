@@ -52,17 +52,6 @@ req.typenames: BUS_INTERFACE_MEDIUMS, *PBUS_INTERFACE_MEDIUMS
 
 
 
-## -syntax
-
-
-````
-typedef struct {
-  INTERFACE           Interface;
-  PFNQUERYMEDIUMSLIST QueryMediumsList;
-} BUS_INTERFACE_MEDIUMS, *PBUS_INTERFACE_MEDIUMS;
-````
-
-
 ## -struct-fields
 
 

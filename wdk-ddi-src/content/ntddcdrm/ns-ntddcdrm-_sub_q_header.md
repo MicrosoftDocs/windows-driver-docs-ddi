@@ -7,7 +7,7 @@ old-location: storage\sub_q_header.htm
 old-project: storage
 ms.assetid: 3ee3657d-acdd-4d3f-9cff-eb4a494429b4
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PSUB_Q_HEADER, PSUB_Q_HEADER, PSUB_Q_HEADER structure pointer [Storage Devices], SUB_Q_HEADER, SUB_Q_HEADER structure [Storage Devices], _SUB_Q_HEADER, ntddcdrm/PSUB_Q_HEADER, ntddcdrm/SUB_Q_HEADER, storage.sub_q_header, structs-CD-ROM_c72df573-2396-4bf3-b586-7241d408c550.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,19 +49,7 @@ req.typenames: SUB_Q_HEADER, *PSUB_Q_HEADER
 ## -description
 
 
-The SUB_Q_HEADER structure contains audio status information and the length of the Q subchannel data being returned. This structure is used in conjunction with <a href="..\ntddcdrm\ns-ntddcdrm-_sub_q_channel_data.md">SUB_Q_CHANNEL_DATA</a>.
-
-
-## -syntax
-
-
-````
-typedef struct _SUB_Q_HEADER {
-  UCHAR Reserved;
-  UCHAR AudioStatus;
-  UCHAR DataLength[2];
-} SUB_Q_HEADER, *PSUB_Q_HEADER;
-````
+The SUB_Q_HEADER structure contains audio status information and the length of the Q subchannel data being returned. This structure is used in conjunction with <a href="https://msdn.microsoft.com/library/windows/hardware/ff567595">SUB_Q_CHANNEL_DATA</a>.
 
 
 ## -struct-fields
@@ -134,20 +122,19 @@ Gives the length of Q subchannel data that follows this header structure. The by
 
 ## -see-also
 
-<a href="..\ntddcdrm\ns-ntddcdrm-_sub_q_channel_data.md">SUB_Q_CHANNEL_DATA</a>
 
 
 
-<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_sub_q_data_format.md">CDROM_SUB_Q_DATA_FORMAT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551371">CDROM_SUB_Q_DATA_FORMAT</a>
 
 
 
-<a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_read_q_channel.md">IOCTL_CDROM_READ_Q_CHANNEL</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559363">IOCTL_CDROM_READ_Q_CHANNEL</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567595">SUB_Q_CHANNEL_DATA</a>
  
 
  
-
 

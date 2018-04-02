@@ -7,7 +7,7 @@ old-location: ifsk\iothreadtoprocess.htm
 old-project: ifsk
 ms.assetid: fcb51574-d966-4cd5-a946-c38dd2798b7f
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: IoThreadToProcess, IoThreadToProcess routine [Installable File System Drivers], ifsk.iothreadtoprocess, ioref_59269b9a-0a64-410d-aafa-b070b2eacfd7.xml, ntifs/IoThreadToProcess
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,16 +52,6 @@ req.typenames: TOKEN_TYPE
 The <b>IoThreadToProcess</b> routine returns a pointer to the process for the specified thread.
 
 
-## -syntax
-
-
-````
-PEPROCESS IoThreadToProcess(
-  _In_ PETHREAD Thread
-);
-````
-
-
 ## -parameters
 
 
@@ -85,20 +75,19 @@ For more information about using system threads and managing synchronization wit
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549177">IoGetCurrentProcess</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559933">PsGetCurrentProcess</a>
 
 
 
-<a href="..\wdm\nf-wdm-psgetcurrentthread.md">PsGetCurrentThread</a>
-
-
-
-<a href="..\wdm\nf-wdm-iogetcurrentprocess.md">IoGetCurrentProcess</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559936">PsGetCurrentThread</a>
  
 
  
-
 

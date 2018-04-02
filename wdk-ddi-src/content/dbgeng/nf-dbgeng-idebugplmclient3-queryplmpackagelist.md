@@ -7,7 +7,7 @@ old-location: debugger\idebugplmclient3_queryplmpackagelist.htm
 old-project: debugger
 ms.assetid: BAAAF09B-F39D-44E0-9409-1C98B0C6A56B
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: IDebugPlmClient3, IDebugPlmClient3 interface [Windows Debugging], QueryPlmPackageList method, IDebugPlmClient3::QueryPlmPackageList, QueryPlmPackageList method [Windows Debugging], QueryPlmPackageList method [Windows Debugging], IDebugPlmClient3 interface, QueryPlmPackageList,IDebugPlmClient3.QueryPlmPackageList, dbgeng/IDebugPlmClient3::QueryPlmPackageList, debugger.idebugplmclient3_queryplmpackagelist
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,17 +52,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 Query a Process Lifecycle Management (PLM) package list.
 
 
-## -syntax
-
-
-````
-HRESULT QueryPlmPackageList(
-  [in] ULONG64              Server,
-  [in] PDEBUG_OUTPUT_STREAM Stream
-);
-````
-
-
 ## -parameters
 
 
@@ -89,12 +78,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugplmclient3.md">IDebugPlmClient3</a>
 
 
 
+<a href="https://msdn.microsoft.com/5B0580FF-0829-406A-B511-C0CD91A08D5F">IDebugPlmClient3</a>
  
 
  
-
 

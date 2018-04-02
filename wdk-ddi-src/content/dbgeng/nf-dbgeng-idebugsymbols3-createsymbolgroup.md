@@ -7,7 +7,7 @@ old-location: debugger\createsymbolgroup.htm
 old-project: debugger
 ms.assetid: f55aa290-5e57-48d8-9454-370c494bbd65
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: CreateSymbolGroup method [Windows Debugging], CreateSymbolGroup method [Windows Debugging], IDebugSymbols interface, CreateSymbolGroup method [Windows Debugging], IDebugSymbols2 interface, CreateSymbolGroup method [Windows Debugging], IDebugSymbols3 interface, CreateSymbolGroup,IDebugSymbols3.CreateSymbolGroup, IDebugSymbols interface [Windows Debugging], CreateSymbolGroup method, IDebugSymbols2 interface [Windows Debugging], CreateSymbolGroup method, IDebugSymbols2::CreateSymbolGroup, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], CreateSymbolGroup method, IDebugSymbols3::CreateSymbolGroup, IDebugSymbols::CreateSymbolGroup, IDebugSymbols_fe8b31b2-0c5c-4dde-9d60-a353893e3f65.xml, dbgeng/IDebugSymbols2::CreateSymbolGroup, dbgeng/IDebugSymbols3::CreateSymbolGroup, dbgeng/IDebugSymbols::CreateSymbolGroup, debugger.createsymbolgroup
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -54,16 +54,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 The <b>CreateSymbolGroup</b>  method creates a new symbol group.
 
 
-## -syntax
-
-
-````
-HRESULT CreateSymbolGroup(
-  [out] IDebugSymbolGroup **Group
-);
-````
-
-
 ## -parameters
 
 
@@ -71,7 +61,7 @@ HRESULT CreateSymbolGroup(
 
 ### -param Group [out]
 
-Receives an interface pointer for the new <a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup.md">IDebugSymbolGroup</a> object.
+Receives an interface pointer for the new <a href="https://msdn.microsoft.com/library/windows/hardware/ff550838">IDebugSymbolGroup</a> object.
 
 
 ## -returns
@@ -117,7 +107,10 @@ For more information about symbol groups, see <a href="https://msdn.microsoft.co
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550838">IDebugSymbolGroup</a>
 
 
 
@@ -125,20 +118,16 @@ For more information about symbol groups, see <a href="https://msdn.microsoft.co
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup.md">IDebugSymbolGroup</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550856">IDebugSymbols</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550864">IDebugSymbols2</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550870">IDebugSymbols3</a>
  
 
  
-
 

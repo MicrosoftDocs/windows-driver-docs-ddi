@@ -55,18 +55,6 @@ req.product: Windows 10 or later.
       caller, identified by the open instance.
 
 
-## -syntax
-
-
-````
-VOID PosCxCleanPendingRequests(
-  _In_     WDFDEVICE     device,
-  _In_opt_ WDFFILEOBJECT callerFileObj,
-  _In_     NTSTATUS      completionStatus
-);
-````
-
-
 ## -parameters
 
 

@@ -7,7 +7,7 @@ old-location: kernel\io_interrupt_message_info_entry.htm
 old-project: kernel
 ms.assetid: e5007381-2436-4eb6-85cd-7145361ab793
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: "*PIO_INTERRUPT_MESSAGE_INFO_ENTRY, IO_INTERRUPT_MESSAGE_INFO_ENTRY, IO_INTERRUPT_MESSAGE_INFO_ENTRY structure [Kernel-Mode Driver Architecture], PIO_INTERRUPT_MESSAGE_INFO_ENTRY, PIO_INTERRUPT_MESSAGE_INFO_ENTRY structure pointer [Kernel-Mode Driver Architecture], _IO_INTERRUPT_MESSAGE_INFO_ENTRY, kernel.io_interrupt_message_info_entry, kstruct_b_eb31dbfa-458d-47c4-b1df-96c315bd3ff6.xml, wdm/IO_INTERRUPT_MESSAGE_INFO_ENTRY, wdm/PIO_INTERRUPT_MESSAGE_INFO_ENTRY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,23 +53,6 @@ req.product: Windows 10 or later.
 The <b>IO_INTERRUPT_MESSAGE_INFO_ENTRY</b> structure describes the properties of a single message-signaled interrupt.
 
 
-## -syntax
-
-
-````
-typedef struct _IO_INTERRUPT_MESSAGE_INFO_ENTRY {
-  PHYSICAL_ADDRESS    MessageAddress;
-  KAFFINITY           TargetProcessorSet;
-  PKINTERRUPT         InterruptObject;
-  ULONG               MessageData;
-  ULONG               Vector;
-  KIRQL               Irql;
-  KINTERRUPT_MODE     Mode;
-  KINTERRUPT_POLARITY Polarity;
-} IO_INTERRUPT_MESSAGE_INFO_ENTRY, *PIO_INTERRUPT_MESSAGE_INFO_ENTRY;
-````
-
-
 ## -struct-fields
 
 
@@ -107,22 +90,21 @@ Specifies the device IRQL (DIRQL) for the interrupt.
 
 ### -field Mode
 
-Specifies a <a href="..\wudfwdm\ne-wudfwdm-_kinterrupt_mode.md">KINTERRUPT_MODE</a> value that determines whether the interrupt is level-sensitive or latched. 
+Specifies a <a href="https://msdn.microsoft.com/library/windows/hardware/ff554239">KINTERRUPT_MODE</a> value that determines whether the interrupt is level-sensitive or latched. 
 
 
 ### -field Polarity
 
-Specifies a <a href="..\wdm\ne-wdm-_kinterrupt_polarity.md">KINTERRUPT_POLARITY</a> value that determines whether the interrupt is active-high or active-low. 
+Specifies a <a href="https://msdn.microsoft.com/library/windows/hardware/ff554243">KINTERRUPT_POLARITY</a> value that determines whether the interrupt is active-high or active-low. 
 
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_io_interrupt_message_info.md">IO_INTERRUPT_MESSAGE_INFO</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550576">IO_INTERRUPT_MESSAGE_INFO</a>
  
 
  
-
 

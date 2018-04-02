@@ -7,7 +7,7 @@ old-location: buses\udecxusbendpointcreate.htm
 old-project: usbref
 ms.assetid: F97642A2-FE77-41D0-A194-8DE6F9B17BB0
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: UdecxUsbEndpointCreate, UdecxUsbEndpointCreate function [Buses], buses.udecxusbendpointcreate, udecxusbendpoint/UdecxUsbEndpointCreate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -54,18 +54,6 @@ req.product: Windows 10 or later.
 Creates a UDE endpoint object.
 
 
-## -syntax
-
-
-````
-FORCEINLINE NTSTATUS UdecxUsbEndpointCreate(
-  _Inout_  PUDECXUSBENDPOINT_INIT Init,
-  _In_opt_ PWDF_OBJECT_ATTRIBUTES Attributes,
-  _Out_    UDECXUSBENDPOINT       *UdecxUsbEndpoint
-);
-````
-
-
 ## -parameters
 
 
@@ -78,7 +66,7 @@ TBD
 
 ### -param Attributes [in, optional]
 
-A pointer to a caller-allocated <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a> structure that specifies attributes for the USB device object. 
+A pointer to a caller-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/ff552400">WDF_OBJECT_ATTRIBUTES</a> structure that specifies attributes for the USB device object. 
 
 
 ### -param UdecxUsbEndpoint [out]
@@ -88,7 +76,7 @@ A pointer to a variable that receives a handle to the new UDE endpoint object th
 
 #### - Init [in, out]
 
-A pointer to an <b>UDECXUSBENDPOINT_INIT</b> structure that the client driver retrieved in the previous call to <a href="..\udecxusbendpoint\nf-udecxusbendpoint-udecxusbsimpleendpointinitallocate.md">UdecxUsbSimpleEndpointInitAllocate</a>.
+A pointer to an <b>UDECXUSBENDPOINT_INIT</b> structure that the client driver retrieved in the previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/mt627989">UdecxUsbSimpleEndpointInitAllocate</a>.
 
 
 ## -returns
@@ -102,20 +90,19 @@ The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this met
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt595932">Architecture: USB Device Emulation (UDE)</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt627989">UdecxUsbSimpleEndpointInitAllocate</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
-
-
-
-<a href="..\udecxusbendpoint\nf-udecxusbendpoint-udecxusbsimpleendpointinitallocate.md">UdecxUsbSimpleEndpointInitAllocate</a>
-
-
-
  
 
  
-
 

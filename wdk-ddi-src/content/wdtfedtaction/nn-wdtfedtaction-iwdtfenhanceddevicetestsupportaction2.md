@@ -7,7 +7,7 @@ old-location: dtf\iwdtfenhanceddevicetestsupportaction2.htm
 old-project: dtf
 ms.assetid: 273eb6e9-10cb-4ed3-86a4-103dea801b77
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 3/29/2018
 ms.keywords: IWDTFEnhancedDeviceTestSupportAction2, IWDTFEnhancedDeviceTestSupportAction2 interface [Windows Device Testing Framework], IWDTFEnhancedDeviceTestSupportAction2 interface [Windows Device Testing Framework], described, Microsoft.WDTF.IWDTFEnhancedDeviceTestSupportAction2, dtf.iwdtfenhanceddevicetestsupportaction2, wdtfedtaction/IWDTFEnhancedDeviceTestSupportAction2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -138,7 +138,7 @@ Sets a value that indicates whether the target device should be restarted by def
 
 
 The EDT filter driver provides support for the 
-<a href="..\wdtfpnpaction\nn-wdtfpnpaction-iwdtfpnpaction2.md">IWDTFPNPAction2</a> interface methods 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451065">IWDTFPNPAction2</a> interface methods 
 that are prefixed with <b>EDT</b>.
 
 

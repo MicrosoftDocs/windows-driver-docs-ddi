@@ -53,16 +53,6 @@ req.product: Windows 10 or later.
 The <code>IPrintOemPrintTicketProvider::PublishPrintTicketHelperInterface</code> method publishes the print ticket helper interface for either Unidrv or Pscript5 user interface (UI) plug-ins.
 
 
-## -syntax
-
-
-````
-HRESULT PublishPrintTicketHelperInterface(
-  [in] IUnknown *pHelper
-);
-````
-
-
 ## -parameters
 
 

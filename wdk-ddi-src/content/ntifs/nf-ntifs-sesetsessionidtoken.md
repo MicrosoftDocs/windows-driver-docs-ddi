@@ -7,7 +7,7 @@ old-location: ifsk\sesetsessionidtoken.htm
 old-project: ifsk
 ms.assetid: 18c5ef8c-de72-4d2e-9bee-5b58bc5482c7
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: SeSetSessionIdToken, SeSetSessionIdToken function [Installable File System Drivers], ifsk.sesetsessionidtoken, ntifs/SeSetSessionIdToken, seref_3af3660a-a2ba-4262-91bb-dff8533bcdcb.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,16 +50,6 @@ req.typenames: TOKEN_TYPE
 
 
 The <b>SeSetSessionIdToken</b> routine is reserved for system use. 
-
-
-## -syntax
-
-
-````
-  SeSetSessionIdToken(
-    
-);
-````
 
 
 ## -parameters

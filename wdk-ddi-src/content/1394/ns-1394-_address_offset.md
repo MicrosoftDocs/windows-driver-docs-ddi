@@ -52,17 +52,6 @@ req.typenames: ADDRESS_OFFSET, *PADDRESS_OFFSET
 The ADDRESS_OFFSET structure specifies the 48-bit address within a device's IEEE 1394 address space.
 
 
-## -syntax
-
-
-````
-typedef struct _ADDRESS_OFFSET {
-  USHORT Off_High;
-  ULONG  Off_Low;
-} ADDRESS_OFFSET, *PADDRESS_OFFSET;
-````
-
-
 ## -struct-fields
 
 
@@ -80,7 +69,6 @@ Specifies the low order offset for a IEEE 1394 address.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537632">REQUEST_ALLOCATE_ADDRESS_RANGE</a>
 
 
 
@@ -92,8 +80,8 @@ Specifies the low order offset for a IEEE 1394 address.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537632">REQUEST_ALLOCATE_ADDRESS_RANGE</a>
  
 
  
-
 

@@ -52,17 +52,6 @@ req.typenames: KSEVENT_VOLUMELIMIT
 
 
 
-## -syntax
-
-
-````
-typedef enum  { 
-  KSEVENT_VOLUMELIMIT_CHANGED
-
-} KSEVENT_VOLUMELIMIT;
-````
-
-
 ## -enum-fields
 
 

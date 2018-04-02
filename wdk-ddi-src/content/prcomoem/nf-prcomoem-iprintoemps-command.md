@@ -53,20 +53,6 @@ req.product: Windows 10 or later.
 The <code>IPrintOemPS::Command</code> method is used by rendering plug-ins for the Microsoft PostScript printer driver, in order to insert PostScript commands into the print job's data stream.
 
 
-## -syntax
-
-
-````
-HRESULT Command(
-        PDEVOBJ pdevobj,
-        DWORD   dwIndex,
-        PVOID   pData,
-        DWORD   cbSize,
-  [out] DWORD   *pdwResult
-);
-````
-
-
 ## -parameters
 
 
@@ -74,7 +60,7 @@ HRESULT Command(
 
 ### -param pdevobj
 
-Caller-supplied pointer to a <a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a> structure.
+Caller-supplied pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff547573">DEVOBJ</a> structure.
 
 
 ### -param dwIndex

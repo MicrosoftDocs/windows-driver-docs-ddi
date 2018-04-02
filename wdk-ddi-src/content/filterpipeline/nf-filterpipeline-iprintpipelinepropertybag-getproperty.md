@@ -52,17 +52,6 @@ req.typenames: EXpsFontRestriction
 The <code>GetProperty</code> method gets a property from a property bag.
 
 
-## -syntax
-
-
-````
-HRESULT GetProperty(
-  [in]  const wchar_t *pszName,
-  [out]       VARIANT *pVar
-);
-````
-
-
 ## -parameters
 
 

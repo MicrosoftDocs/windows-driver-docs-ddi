@@ -103,12 +103,11 @@ Drivers can use the  <b>IWDFUnifiedPropertyStore</b> interface to access device 
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfunifiedpropertystorefactory.md">IWDFUnifiedPropertyStoreFactory</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451403">IWDFUnifiedPropertyStoreFactory</a>
  
 
  
-
 

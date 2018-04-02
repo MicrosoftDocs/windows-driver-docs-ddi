@@ -53,18 +53,6 @@ req.product: Windows 10 or later.
 The <code>RouterGetPrintClassObject</code> function enumerates the list of print providers, searching for the print provider with the specified name and interface ID. 
 
 
-## -syntax
-
-
-````
-HRESULT RouterGetPrintClassObject(
-  _In_  PCWSTR pPrinter,
-  _In_  REFIID riid,
-  _Out_ VOID   **ppv
-);
-````
-
-
 ## -parameters
 
 

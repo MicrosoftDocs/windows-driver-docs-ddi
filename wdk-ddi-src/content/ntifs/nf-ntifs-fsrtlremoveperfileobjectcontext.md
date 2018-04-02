@@ -7,7 +7,7 @@ old-location: ifsk\fsrtlremoveperfileobjectcontext.htm
 old-project: ifsk
 ms.assetid: 84d359db-08d7-4f42-b912-02f3d483aa05
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FsRtlRemovePerFileObjectContext, FsRtlRemovePerFileObjectContext function [Installable File System Drivers], fsrtlref_2ff0b1e9-cbe5-46be-b571-3a328284b14d.xml, ifsk.fsrtlremoveperfileobjectcontext, ntifs/FsRtlRemovePerFileObjectContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,18 +52,6 @@ req.typenames: TOKEN_TYPE
 For a "legacy" file system filter driver, the <b>FsRtlRemovePerFileObjectContext</b> function unlinks a per-file-object context information structure from the list of per-file-object contexts previously associated with a file object.
 
 
-## -syntax
-
-
-````
-PFSRTL_PER_FILEOBJECT_CONTEXT FsRtlRemovePerFileObjectContext(
-  _In_     PFILE_OBJECT FileObject,
-  _In_opt_ PVOID        OwnerId,
-  _In_opt_ PVOID        InstanceId
-);
-````
-
-
 ## -parameters
 
 
@@ -97,7 +85,7 @@ A pointer to a caller-allocated variable that can be used to distinguish among p
 
 
 
-A "legacy" file system filter driver calls <b>FsRtlRemovePerFileObjectContext </b>to unlink its own per-file-object context structure from the list of per-file-object contexts associated with the file object. All such context structures must have previously been associated with the file object by calling <a href="..\ntifs\nf-ntifs-fsrtlinsertperfileobjectcontext.md">FsRtlInsertPerFileObjectContext</a>.
+A "legacy" file system filter driver calls <b>FsRtlRemovePerFileObjectContext </b>to unlink its own per-file-object context structure from the list of per-file-object contexts associated with the file object. All such context structures must have previously been associated with the file object by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff546189">FsRtlInsertPerFileObjectContext</a>.
 
 If the call to <b>FsRtlRemovePerFileObjectContext </b>is successful, the first per-file-object context structure matching <i>OwnerId</i> (and <i>InstanceId</i>, if present) is unlinked and a pointer to it returned. This pointer can be used by the filter driver to free the unlinked context structure.
 
@@ -105,20 +93,23 @@ If the call to <b>FsRtlRemovePerFileObjectContext </b>is successful, the first p
 <div> </div>
 To initialize a per-file-object context structure, use the <a href="https://msdn.microsoft.com/8ed219c8-927e-47b1-8ebf-689535dea0fc">FsRtlInitPerFileObjectContext </a>macro.
 
-To associate an initialized per-file-object context structure with a file object, use the <a href="..\ntifs\nf-ntifs-fsrtlinsertperfileobjectcontext.md">FsRtlInsertPerFileObjectContext</a> function.
+To associate an initialized per-file-object context structure with a file object, use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff546189">FsRtlInsertPerFileObjectContext</a> function.
 
-To retrieve a per-file-object context structure that is associated with a file object, use the <a href="..\ntifs\nf-ntifs-fsrtllookupperfileobjectcontext.md">FsRtlLookupPerFileObjectContext</a> function.
+To retrieve a per-file-object context structure that is associated with a file object, use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff546936">FsRtlLookupPerFileObjectContext</a> function.
 
 <div class="alert"><b>Note</b>    Legacy filter drivers must call the <b>FsRtlRemovePerFileObjectContext</b> function to unlink and free the context information structure before completion of IRP_MJ_CLOSE. Otherwise, the memory allocated to that context structure will be leaked.</div>
 <div> </div>
-Additionally, file system minifilter drivers must not use the <b>FsRtl</b><i>Xxx</i><b>PerFileObjectContext</b> functions. Instead, they can use the appropriate <b>Flt</b><i>Xxx</i><b>Context</b> functions. For additional information, see the <a href="..\ntifs\ns-ntifs-_fsrtl_per_fileobject_context.md">FSRTL_PER_FILEOBJECT_CONTEXT</a> topic.
+Additionally, file system minifilter drivers must not use the <b>FsRtl</b><i>Xxx</i><b>PerFileObjectContext</b> functions. Instead, they can use the appropriate <b>Flt</b><i>Xxx</i><b>Context</b> functions. For additional information, see the <a href="https://msdn.microsoft.com/library/windows/hardware/ff547346">FSRTL_PER_FILEOBJECT_CONTEXT</a> topic.
 
 
 
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-fsrtlinsertperfileobjectcontext.md">FsRtlInsertPerFileObjectContext</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547346">FSRTL_PER_FILEOBJECT_CONTEXT</a>
 
 
 
@@ -126,16 +117,12 @@ Additionally, file system minifilter drivers must not use the <b>FsRtl</b><i>Xxx
 
 
 
-<a href="..\ntifs\nf-ntifs-fsrtllookupperfileobjectcontext.md">FsRtlLookupPerFileObjectContext</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546189">FsRtlInsertPerFileObjectContext</a>
 
 
 
-<a href="..\ntifs\ns-ntifs-_fsrtl_per_fileobject_context.md">FSRTL_PER_FILEOBJECT_CONTEXT</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546936">FsRtlLookupPerFileObjectContext</a>
  
 
  
-
 

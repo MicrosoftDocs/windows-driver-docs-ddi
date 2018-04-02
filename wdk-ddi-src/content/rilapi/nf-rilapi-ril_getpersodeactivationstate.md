@@ -7,7 +7,7 @@ old-location: netvista\ril_getpersodeactivationstate.htm
 old-project: netvista
 ms.assetid: c82cfde4-f214-4722-8f59-d727ad5bfe7e
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: RIL_GetPersoDeactivationState, RIL_GetPersoDeactivationState method [Network Drivers Starting with Windows Vista], netvista.ril_getpersodeactivationstate, rilapi/RIL_GetPersoDeactivationState
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ api_name:
 -	RIL_GetPersoDeactivationState
 product: Windows
 targetos: Windows
-req.typenames: RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, *PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER
+req.typenames: PTP_VENDOR_DATA_OUT, *PPTP_VENDOR_DATA_OUT
 req.product: Windows 10 or later.
 ---
 
@@ -53,18 +53,6 @@ req.product: Windows 10 or later.
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
 
             
-
-
-## -syntax
-
-
-````
-HRESULT  RIL_GetPersoDeactivationState(
-   HRIL   hRil,
-   LPVOID lpContext,
-   DWORD  dwPersoFeature
-);
-````
 
 
 ## -parameters

@@ -7,7 +7,7 @@ old-location: netvista\ndismderegisterwdiminiportdriver.htm
 old-project: netvista
 ms.assetid: 6B2B0A88-9F63-4A68-894B-38424FBE161E
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: NdisMDeregisterWdiMiniportDriver, NdisMDeregisterWdiMiniportDriver function [Network Drivers Starting with Windows Vista], dot11wdi/NdisMDeregisterWdiMiniportDriver, netvista.ndismderegisterwdiminiportdriver
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,17 +50,7 @@ req.typenames: WDI_TX_PAUSE_REASON
 ## -description
 
 
-A miniport driver calls the NdisMDeregisterWdiMiniportDriver function to release resources that it allocated with a previous call to the <a href="..\dot11wdi\nf-dot11wdi-ndismregisterwdiminiportdriver.md">NdisMRegisterWdiMiniportDriver</a> function.
-
-
-## -syntax
-
-
-````
-VOID NdisMDeregisterWdiMiniportDriver(
-  _In_ NDIS_MINIPORT_DRIVER_HANDLE NdisMiniportDriverHandle
-);
-````
+A miniport driver calls the NdisMDeregisterWdiMiniportDriver function to release resources that it allocated with a previous call to the <a href="https://msdn.microsoft.com/library/windows/hardware/mt297596">NdisMRegisterWdiMiniportDriver</a> function.
 
 
 ## -parameters
@@ -84,12 +74,11 @@ This function does not return a value.
 
 ## -see-also
 
-<a href="..\dot11wdi\nf-dot11wdi-ndismregisterwdiminiportdriver.md">NdisMRegisterWdiMiniportDriver</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt297596">NdisMRegisterWdiMiniportDriver</a>
  
 
  
-
 

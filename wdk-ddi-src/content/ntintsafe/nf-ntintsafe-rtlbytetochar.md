@@ -7,7 +7,7 @@ old-location: kernel\rtlbytetochar.htm
 old-project: kernel
 ms.assetid: A571B2C7-F97E-4717-AA22-D25DE47469E8
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: RtlByteToChar, RtlByteToChar function [Kernel-Mode Driver Architecture], kernel.rtlbytetochar, ntintsafe/RtlByteToChar
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,17 +50,6 @@ req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
 
 
 Converts a value of type <b>BYTE</b> to a value of type <b>CHAR</b>.
-
-
-## -syntax
-
-
-````
-NTSTATUS RtlByteToChar(
-  _In_  BYTE bOperand,
-  _Out_ CHAR *pch
-);
-````
 
 
 ## -parameters

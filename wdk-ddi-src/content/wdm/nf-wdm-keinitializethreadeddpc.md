@@ -7,7 +7,7 @@ old-location: kernel\keinitializethreadeddpc.htm
 old-project: kernel
 ms.assetid: ee9124db-9d92-42e1-84fa-6d3eefeaeac5
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: KeInitializeThreadedDpc, KeInitializeThreadedDpc routine [Kernel-Mode Driver Architecture], k105_b5df057f-6d75-4a06-ac5f-d99340bdbb21.xml, kernel.keinitializethreadeddpc, wdm/KeInitializeThreadedDpc
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,18 +53,6 @@ req.product: Windows 10 or later.
 The <b>KeInitializeThreadedDpc</b> routine initializes a threaded DPC object, and registers a <a href="https://msdn.microsoft.com/library/windows/hardware/ff542976">CustomThreadedDpc</a> routine for that object.
 
 
-## -syntax
-
-
-````
-VOID KeInitializeThreadedDpc(
-  _Out_    PRKDPC             Dpc,
-  _In_     PKDEFERRED_ROUTINE DeferredRoutine,
-  _In_opt_ PVOID              DeferredContext
-);
-````
-
-
 ## -parameters
 
 
@@ -105,11 +93,6 @@ For more information about threaded DPCs, see <a href="https://msdn.microsoft.co
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-keremovequeuedpc.md">KeRemoveQueueDpc</a>
-
-
-
-<a href="..\wdm\nf-wdm-keinsertqueuedpc.md">KeInsertQueueDpc</a>
 
 
 
@@ -117,8 +100,12 @@ For more information about threaded DPCs, see <a href="https://msdn.microsoft.co
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552185">KeInsertQueueDpc</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553169">KeRemoveQueueDpc</a>
  
 
  
-
 

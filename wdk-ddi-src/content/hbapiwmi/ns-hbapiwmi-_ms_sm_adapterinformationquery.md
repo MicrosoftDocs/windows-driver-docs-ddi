@@ -7,7 +7,7 @@ old-location: storage\ms_sm_adapterinformationquery.htm
 old-project: storage
 ms.assetid: 81c05f47-e75a-4d67-8e77-33ebe1750c67
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PMS_SM_AdapterInformationQuery, MS_SM_AdapterInformationQuery, MS_SM_AdapterInformationQuery structure [Storage Devices], PMS_SM_AdapterInformationQuery, PMS_SM_AdapterInformationQuery structure pointer [Storage Devices], _MS_SM_AdapterInformationQuery, hbapiwmi/MS_SM_AdapterInformationQuery, hbapiwmi/PMS_SM_AdapterInformationQuery, storage.ms_sm_adapterinformationquery, structs-Fibre_feda1502-e2b9-4392-a3bd-9c10ab0fab52.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,32 +50,6 @@ req.typenames: MS_SM_AdapterInformationQuery, *PMS_SM_AdapterInformationQuery
 
 
 The MS_SM_AdapterInformationQuery structure is used by a WMI provider to expose attributes that are associated with a SAS adapter.
-
-
-## -syntax
-
-
-````
-typedef struct _MS_SM_AdapterInformationQuery {
-  ULONGLONG UniqueAdapterId;
-  ULONG     HBAStatus;
-  ULONG     NumberOfPorts;
-  ULONG     VendorSpecificID;
-  WCHAR     Manufacturer[64 + 1];
-  WCHAR     SerialNumber[64 + 1];
-  WCHAR     Model[256 + 1];
-  WCHAR     ModelDescription[256 + 1];
-  WCHAR     HardwareVersion[256 + 1];
-  WCHAR     DriverVersion[256 + 1];
-  WCHAR     OptionROMVersion[256 + 1];
-  WCHAR     FirmwareVersion[256 + 1];
-  WCHAR     DriverName[256 + 1];
-  WCHAR     HBASymbolicName[256 + 1];
-  WCHAR     RedundantOptionROMVersion[256 + 1];
-  WCHAR     RedundantFirmwareVersion[256 + 1];
-  WCHAR     MfgDomain[256 + 1];
-} MS_SM_AdapterInformationQuery, *PMS_SM_AdapterInformationQuery;
-````
 
 
 ## -struct-fields

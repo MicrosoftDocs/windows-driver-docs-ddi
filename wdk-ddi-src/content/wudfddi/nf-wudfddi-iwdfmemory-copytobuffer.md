@@ -55,18 +55,6 @@ req.product: Windows 10 or later.
 The <b>CopyToBuffer</b> method safely copies data from a memory object to the specified target buffer.
 
 
-## -syntax
-
-
-````
-HRESULT CopyToBuffer(
-  [in]  ULONG_PTR SourceOffset,
-  [out] void      *pTargetBuffer,
-  [in]  SIZE_T    NumOfBytesToCopyTo
-);
-````
-
-
 ## -parameters
 
 
@@ -103,12 +91,11 @@ A pointer to the target buffer that data is copied to.
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfmemory.md">IWDFMemory</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559249">IWDFMemory</a>
  
 
  
-
 

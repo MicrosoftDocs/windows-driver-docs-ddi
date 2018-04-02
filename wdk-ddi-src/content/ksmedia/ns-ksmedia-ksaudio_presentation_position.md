@@ -7,7 +7,7 @@ old-location: audio\ksaudio_presentation_position.htm
 old-project: audio
 ms.assetid: 6C9F2E99-17B4-49AD-A94F-E3EF9282B649
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/19/2018
 ms.keywords: "*PKSAUDIO_PRESENTATION_POSITION, KSAUDIO_PRESENTATION_POSITION, KSAUDIO_PRESENTATION_POSITION structure [Audio Devices], PKSAUDIO_PRESENTATION_POSITION, PKSAUDIO_PRESENTATION_POSITION structure pointer [Audio Devices], audio.ksaudio_presentation_position, ksmedia/KSAUDIO_PRESENTATION_POSITION, ksmedia/PKSAUDIO_PRESENTATION_POSITION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,17 +52,6 @@ req.typenames: KSAUDIO_PRESENTATION_POSITION, *PKSAUDIO_PRESENTATION_POSITION
 The <b>KSAUDIO_PRESENTATION_POSITION</b> structure specifies the current cursor position in audio data stream that is being rendered to the endpoint.
 
 
-## -syntax
-
-
-````
-typedef struct _KSAUDIO_PRESENTATION_POSITION {
-  UINT64 u64PositionInBlocks;
-  UINT64 u64QPCPosition;
-} KSAUDIO_PRESENTATION_POSITION, *PKSAUDIO_PRESENTATION_POSITION;
-````
-
-
 ## -struct-fields
 
 
@@ -80,7 +69,10 @@ Specifies the value of the performance counter at the time that the audio driver
 
 ## -see-also
 
-<a href="http://msdn.microsoft.com/en-us/library/windows/hardware/ff553053(v=vs.85).aspx">KeQueryPerformanceCounter</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450865">KSAUDIO_PRESENTATION_POSITION</a>
 
 
 
@@ -88,12 +80,8 @@ Specifies the value of the performance counter at the time that the audio driver
 
 
 
-<a href="..\ksmedia\ns-ksmedia-ksaudio_presentation_position.md">KSAUDIO_PRESENTATION_POSITION</a>
-
-
-
+<a href="http://msdn.microsoft.com/en-us/library/windows/hardware/ff553053(v=vs.85).aspx">KeQueryPerformanceCounter</a>
  
 
  
-
 

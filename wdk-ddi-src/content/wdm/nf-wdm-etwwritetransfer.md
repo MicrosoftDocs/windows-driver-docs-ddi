@@ -53,21 +53,6 @@ req.product: Windows 10 or later.
 The <b>EtwWriteTransfer</b> function marks an event that links two activities together; this type of event is referred to as a <i>transfer event</i>. A transfer event can contain the same user-defined data, the same fields, and is subject to the same rules as other events. 
 
 
-## -syntax
-
-
-````
-NTSTATUS EtwWriteTransfer(
-  _In_     REGHANDLE              RegHandle,
-  _In_     PCEVENT_DESCRIPTOR     EventDescriptor,
-  _In_opt_ LPCGUID                ActivityId,
-  _In_opt_ LPCGUID                RelatedActivityId,
-  _In_     ULONG                  UserDataCount,
-  _In_opt_ PEVENT_DATA_DESCRIPTOR UserData
-);
-````
-
-
 ## -parameters
 
 
@@ -123,16 +108,15 @@ You can call <b>EtwWriteTransfer</b> at any IRQL. However, when IRQL is greater 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-etwwrite.md">EtwWrite</a>
 
 
 
-<a href="..\wdm\nf-wdm-etwwritestring.md">EtwWriteString</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545627">EtwWrite</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545637">EtwWriteString</a>
  
 
  
-
 

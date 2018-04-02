@@ -7,7 +7,7 @@ old-location: kernel\freecommonbuffer.htm
 old-project: kernel
 ms.assetid: 9e026bde-657a-42ea-907c-71cc217dbd8d
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: FreeCommonBuffer, FreeCommonBuffer callback function [Kernel-Mode Driver Architecture], PFREE_COMMON_BUFFER, kdma_73f76fbd-2641-4002-90c8-ca412e969418.xml, kernel.freecommonbuffer, wdm/FreeCommonBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,24 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The <b>FreeCommonBuffer</b> routine frees a common buffer allocated by <a href="..\wdm\nc-wdm-pallocate_common_buffer.md">AllocateCommonBuffer</a>, along with all resources the buffer uses.
-
-
-## -prototype
-
-
-````
-PFREE_COMMON_BUFFER FreeCommonBuffer;
-
-VOID FreeCommonBuffer(
-  _In_ PDMA_ADAPTER     DmaAdapter,
-  _In_ ULONG            Length,
-  _In_ PHYSICAL_ADDRESS LogicalAddress,
-  _In_ PVOID            VirtualAddress,
-  _In_ BOOLEAN          CacheEnabled
-)
-{ ... }
-````
+The <b>FreeCommonBuffer</b> routine frees a common buffer allocated by <a href="https://msdn.microsoft.com/library/windows/hardware/ff540575">AllocateCommonBuffer</a>, along with all resources the buffer uses.
 
 
 ## -parameters
@@ -77,7 +60,7 @@ VOID FreeCommonBuffer(
 
 ### -param DmaAdapter [in]
 
-Pointer to the <a href="..\wdm\ns-wdm-_dma_adapter.md">DMA_ADAPTER</a> structure returned by <a href="..\wdm\nf-wdm-iogetdmaadapter.md">IoGetDmaAdapter</a> that represents the bus-master adapter or DMA controller.
+Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff544062">DMA_ADAPTER</a> structure returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff549220">IoGetDmaAdapter</a> that represents the bus-master adapter or DMA controller.
 
 
 ### -param Length [in]
@@ -115,34 +98,33 @@ None
 
 <b>FreeCommonBuffer</b>
            is not a system routine that can be called directly by name. This routine is callable only by pointer from the address returned in a 
-          <a href="..\wdm\ns-wdm-_dma_operations.md">DMA_OPERATIONS</a>
-           structure. Drivers obtain the address of this routine by calling <a href="..\wdm\nf-wdm-iogetdmaadapter.md">IoGetDmaAdapter</a>.
+          <a href="https://msdn.microsoft.com/library/windows/hardware/ff544071">DMA_OPERATIONS</a>
+           structure. Drivers obtain the address of this routine by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff549220">IoGetDmaAdapter</a>.
 
-To release a common buffer, a driver calls <b>FreeCommonBuffer</b> to unmap both its logical and virtual addresses. The parameters passed to <b>FreeCommonBuffer</b> must match exactly those passed to and returned from <a href="..\wdm\nc-wdm-pallocate_common_buffer.md">AllocateCommonBuffer</a>. A driver cannot free part of an allocated common buffer. 
+To release a common buffer, a driver calls <b>FreeCommonBuffer</b> to unmap both its logical and virtual addresses. The parameters passed to <b>FreeCommonBuffer</b> must match exactly those passed to and returned from <a href="https://msdn.microsoft.com/library/windows/hardware/ff540575">AllocateCommonBuffer</a>. A driver cannot free part of an allocated common buffer. 
 
 
 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iogetdmaadapter.md">IoGetDmaAdapter</a>
 
 
 
-<a href="..\wdm\ns-wdm-_dma_adapter.md">DMA_ADAPTER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540575">AllocateCommonBuffer</a>
 
 
 
-<a href="..\wdm\nc-wdm-pallocate_common_buffer.md">AllocateCommonBuffer</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544062">DMA_ADAPTER</a>
 
 
 
-<a href="..\wdm\ns-wdm-_dma_operations.md">DMA_OPERATIONS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544071">DMA_OPERATIONS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549220">IoGetDmaAdapter</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: kernel\rtlintegertounicodestring.htm
 old-project: kernel
 ms.assetid: d9c82a97-a8fb-4c23-aa9c-23711d98fd8b
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 2/24/2018
 ms.keywords: RtlIntegerToUnicodeString, RtlIntegerToUnicodeString routine [Kernel-Mode Driver Architecture], k109_2ed50455-f426-4072-be25-cab15c4c79cc.xml, kernel.rtlintegertounicodestring, wdm/RtlIntegerToUnicodeString
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -186,10 +186,6 @@ The specified code base is not valid. The only valid values are 0, 2, 8, 10, and
 
 ## -see-also
 
-<a href="..\wudfwdm\nf-wudfwdm-rtlappendunicodestringtostring.md">RtlAppendUnicodeStringToString</a>
-
-
-
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 
@@ -198,8 +194,13 @@ The specified code base is not valid. The only valid values are 0, 2, 8, 10, and
 
 
 
+<a href="..\wudfwdm\nf-wudfwdm-rtlappendunicodestringtostring.md">RtlAppendUnicodeStringToString</a>
+
+
+
  
 
  
+
 
 

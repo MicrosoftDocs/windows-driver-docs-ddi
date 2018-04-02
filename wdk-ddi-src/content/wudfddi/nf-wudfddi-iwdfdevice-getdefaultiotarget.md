@@ -55,16 +55,6 @@ req.product: Windows 10 or later.
 The <b>GetDefaultIoTarget</b> method retrieves the interface of the default I/O target for a device instance.
 
 
-## -syntax
-
-
-````
-void GetDefaultIoTarget(
-  [out] IWDFIoTarget **ppWdfIoTarget
-);
-````
-
-
 ## -parameters
 
 
@@ -72,7 +62,7 @@ void GetDefaultIoTarget(
 
 ### -param ppWdfIoTarget [out]
 
-A pointer to a variable that receives a pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfiotarget.md">IWDFIoTarget</a> interface for the default I/O target object.
+A pointer to a variable that receives a pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559170">IWDFIoTarget</a> interface for the default I/O target object.
 
 
 ## -returns
@@ -95,16 +85,15 @@ For more information, see <a href="https://msdn.microsoft.com/cf1b39c3-4c82-411b
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfiotarget.md">IWDFIoTarget</a>
 
 
 
-<a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556917">IWDFDevice</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559170">IWDFIoTarget</a>
  
 
  
-
 

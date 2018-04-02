@@ -2,7 +2,7 @@
 UID: NA:wexlogtrace
 ms.assetid: 3aa40561-30b1-310a-b289-97b5253ecbc6
 ms.author: windowsdriverdev
-ms.date: 03/13/18
+ms.date: 02/27/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: display\iddcx_update_reason.htm
 old-project: display
 ms.assetid: e451e4e3-0b8a-4a17-8e4e-2da99d336a39
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: IDDCX_UPDATE_REASON, IDDCX_UPDATE_REASON enumeration [Display Devices], IDDCX_UPDATE_REASON_CONFIGURATION_CONSTRAINTS, IDDCX_UPDATE_REASON_DISPLAY_LINK_BANDWIDTH, IDDCX_UPDATE_REASON_HOST_LINK_BANDWIDTH, IDDCX_UPDATE_REASON_OTHER, IDDCX_UPDATE_REASON_POWER_CONSTRAINTS, IDDCX_UPDATE_REASON_UNINITIALIZED, display.iddcx_update_reason, iddcx/IDDCX_UPDATE_REASON, iddcx/IDDCX_UPDATE_REASON_CONFIGURATION_CONSTRAINTS, iddcx/IDDCX_UPDATE_REASON_DISPLAY_LINK_BANDWIDTH, iddcx/IDDCX_UPDATE_REASON_HOST_LINK_BANDWIDTH, iddcx/IDDCX_UPDATE_REASON_OTHER, iddcx/IDDCX_UPDATE_REASON_POWER_CONSTRAINTS, iddcx/IDDCX_UPDATE_REASON_UNINITIALIZED
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,21 +52,6 @@ req.typenames:
 
                     Describes why the driver is calling to update the mode list
                 
-
-
-## -syntax
-
-
-````
-typedef enum _IDDCX_UPDATE_REASON { 
-  IDDCX_UPDATE_REASON_UNINITIALIZED              = 0,
-  IDDCX_UPDATE_REASON_POWER_CONSTRAINTS          = 1,
-  IDDCX_UPDATE_REASON_HOST_LINK_BANDWIDTH        = 2,
-  IDDCX_UPDATE_REASON_DISPLAY_LINK_BANDWIDTH     = 3,
-  IDDCX_UPDATE_REASON_CONFIGURATION_CONSTRAINTS  = 4,
-  IDDCX_UPDATE_REASON_OTHER                      = 5
-} IDDCX_UPDATE_REASON;
-````
 
 
 ## -enum-fields

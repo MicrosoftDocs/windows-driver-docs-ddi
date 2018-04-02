@@ -7,7 +7,7 @@ old-location: netvista\rilimsstatus_v1.htm
 old-project: netvista
 ms.assetid: 492354e3-564f-480b-8e6f-e5e1c326b24e
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*LPRILIMSSTATUS_V1, RILIMSSTATUS_V1, RILIMSSTATUS_V1 structure [Network Drivers Starting with Windows Vista], netvista.rilimsstatus_v1, ntddrilapitypes/RILIMSSTATUS_V1"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,21 +50,6 @@ req.typenames: RILIMSSTATUS_V1, *LPRILIMSSTATUS_V1
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef struct _RILIMSSTATUS_V1 {
-  DWORD         cbSize;
-  DWORD         dwParams;
-  DWORD         dwExecutor;
-  HUICCAPP      hUiccApp;
-  DWORD         dwAvailableServices;
-  RILSMSFORMAT  dwSMSSupportedFormat;
-} RILIMSSTATUS_V1, RILIMSSTATUS_V1;
-````
 
 
 ## -struct-fields

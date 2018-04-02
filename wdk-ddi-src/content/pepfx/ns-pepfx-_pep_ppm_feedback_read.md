@@ -7,7 +7,7 @@ old-location: kernel\pep_ppm_feedback_read.htm
 old-project: kernel
 ms.assetid: 9D5787B8-CEF4-49AA-B7C6-C200AC95A280
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: "*PPEP_PPM_FEEDBACK_READ, PEP_PPM_FEEDBACK_READ, PEP_PPM_FEEDBACK_READ structure [Kernel-Mode Driver Architecture], PPEP_PPM_FEEDBACK_READ, PPEP_PPM_FEEDBACK_READ structure pointer [Kernel-Mode Driver Architecture], _PEP_PPM_FEEDBACK_READ, kernel.pep_ppm_feedback_read, pepfx/PEP_PPM_FEEDBACK_READ, pepfx/PPEP_PPM_FEEDBACK_READ"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,23 +50,6 @@ req.typenames: PEP_PPM_FEEDBACK_READ, *PPEP_PPM_FEEDBACK_READ
 
 
 The <b>PEP_PPM_FEEDBACK_READ</b> structure contains the value read from a processor performance feedback counter.
-
-
-## -syntax
-
-
-````
-typedef struct _PEP_PPM_FEEDBACK_READ {
-  ULONG CounterIndex;
-  union {
-    ULONG64 InstantaneousValue;
-    struct {
-      ULONG64 NominalCount;
-      ULONG64 ActualCount;
-    };
-  };
-} PEP_PPM_FEEDBACK_READ, *PPEP_PPM_FEEDBACK_READ;
-````
 
 
 ## -struct-fields
@@ -133,11 +116,6 @@ Both an instantaneous counter and a relative counter are reset to zero when powe
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186823">PEP_NOTIFY_PPM_QUERY_FEEDBACK_COUNTERS</a>
-
-
-
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186820">PEP_NOTIFY_PPM_QUERY_CAPABILITIES</a>
 
 
 
@@ -145,8 +123,12 @@ Both an instantaneous counter and a relative counter are reset to zero when powe
 
 
 
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186820">PEP_NOTIFY_PPM_QUERY_CAPABILITIES</a>
+
+
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186823">PEP_NOTIFY_PPM_QUERY_FEEDBACK_COUNTERS</a>
  
 
  
-
 

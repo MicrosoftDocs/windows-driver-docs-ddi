@@ -7,7 +7,7 @@ old-location: kernel\file_name_information.htm
 old-project: kernel
 ms.assetid: 04ec8e82-d74d-4827-8533-aa57e3638a45
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: "*PFILE_NAME_INFORMATION, FILE_NAME_INFORMATION, FILE_NAME_INFORMATION structure [Kernel-Mode Driver Architecture], PFILE_NAME_INFORMATION, PFILE_NAME_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _FILE_NAME_INFORMATION, kernel.file_name_information, kstruct_b_075348cd-50d6-450f-9a9d-a5ad8fd985e3.xml, ntddk/FILE_NAME_INFORMATION, ntddk/PFILE_NAME_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,18 +49,7 @@ req.typenames: FILE_NAME_INFORMATION, *PFILE_NAME_INFORMATION
 ## -description
 
 
-The <b>FILE_NAME_INFORMATION</b> structure is used as argument to the <a href="..\wdm\nf-wdm-zwqueryinformationfile.md">ZwQueryInformationFile</a> and <a href="..\wdm\nf-wdm-zwsetinformationfile.md">ZwSetInformationFile</a> routines.
-
-
-## -syntax
-
-
-````
-typedef struct _FILE_NAME_INFORMATION {
-  ULONG FileNameLength;
-  WCHAR FileName[1];
-} FILE_NAME_INFORMATION, *PFILE_NAME_INFORMATION;
-````
+The <b>FILE_NAME_INFORMATION</b> structure is used as argument to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567052">ZwQueryInformationFile</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff567096">ZwSetInformationFile</a> routines.
 
 
 ## -struct-fields
@@ -82,25 +71,24 @@ Specifies the first character of the file name string. This is followed in memor
 
 
 
-The <b>ZwQueryInformationFile</b> routine uses this structure to return the file name string to the caller. For more information about the form of the name returned, see <a href="..\wdm\nf-wdm-zwqueryinformationfile.md">ZwQueryInformationFile</a>.
+The <b>ZwQueryInformationFile</b> routine uses this structure to return the file name string to the caller. For more information about the form of the name returned, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff567052">ZwQueryInformationFile</a>.
 
-Callers of <a href="..\wdm\nf-wdm-zwsetinformationfile.md">ZwSetInformationFile</a> can use this structure to specify a new short name for a file.
+Callers of <a href="https://msdn.microsoft.com/library/windows/hardware/ff567096">ZwSetInformationFile</a> can use this structure to specify a new short name for a file.
 
 
 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwqueryinformationfile.md">ZwQueryInformationFile</a>
 
 
 
-<a href="..\wdm\nf-wdm-zwsetinformationfile.md">ZwSetInformationFile</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567052">ZwQueryInformationFile</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567096">ZwSetInformationFile</a>
  
 
  
-
 

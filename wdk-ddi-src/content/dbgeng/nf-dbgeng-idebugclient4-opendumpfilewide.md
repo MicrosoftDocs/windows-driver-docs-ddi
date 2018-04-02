@@ -7,7 +7,7 @@ old-location: debugger\opendumpfilewide.htm
 old-project: debugger
 ms.assetid: 56efc94f-ef1e-41f9-ab99-57f0be34a770
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: IDebugClient4, IDebugClient4 interface [Windows Debugging], OpenDumpFileWide method, IDebugClient4::OpenDumpFileWide, IDebugClient5 interface [Windows Debugging], OpenDumpFileWide method, IDebugClient5::OpenDumpFileWide, IDebugClient_e3280682-6272-4324-bba5-120a95f27b15.xml, OpenDumpFileWide method [Windows Debugging], OpenDumpFileWide method [Windows Debugging], IDebugClient4 interface, OpenDumpFileWide method [Windows Debugging], IDebugClient5 interface, OpenDumpFileWide,IDebugClient4.OpenDumpFileWide, dbgeng/IDebugClient4::OpenDumpFileWide, dbgeng/IDebugClient5::OpenDumpFileWide, debugger.opendumpfilewide
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,17 +51,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>OpenDumpFileWide</b> method opens a dump file as a debugger target.
-
-
-## -syntax
-
-
-````
-HRESULT OpenDumpFileWide(
-  [in, optional] PCWSTR  FileName,
-  [in]           ULONG64 FileHandle
-);
-````
 
 
 ## -parameters
@@ -122,15 +111,6 @@ For more information about crash dump files, see <a href="https://msdn.microsoft
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537874">AddDumpInformationFileWide</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
 
 
 
@@ -138,16 +118,24 @@ For more information about crash dump files, see <a href="https://msdn.microsoft
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552322">OpenDumpFile</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537865">AddDumpInformationFile</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537874">AddDumpInformationFileWide</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550494">IDebugClient4</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550497">IDebugClient5</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552322">OpenDumpFile</a>
  
 
  
-
 

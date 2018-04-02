@@ -7,7 +7,7 @@ old-location: buses\udecx_usb_device_state_change_callbacks.htm
 old-project: usbref
 ms.assetid: 9847A6E1-9551-4F0A-8B50-BB191B0181EF
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PUDECX_USB_DEVICE_STATE_CHANGE_CALLBACKS, PUDECX_USB_DEVICE_STATE_CHANGE_CALLBACKS, PUDECX_USB_DEVICE_STATE_CHANGE_CALLBACKS structure pointer [Buses], UDECX_USB_DEVICE_STATE_CHANGE_CALLBACKS, UDECX_USB_DEVICE_STATE_CHANGE_CALLBACKS structure [Buses], _UDECX_USB_DEVICE_STATE_CHANGE_CALLBACKS, buses.udecx_usb_device_state_change_callbacks, udecxusbdevice/PUDECX_USB_DEVICE_STATE_CHANGE_CALLBACKS, udecxusbdevice/UDECX_USB_DEVICE_STATE_CHANGE_CALLBACKS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,21 +53,6 @@ req.product: Windows 10 or later.
 Initializes a <b>UDECX_USB_DEVICE_STATE_CHANGE_CALLBACKS</b> structure with pointers to callback functions that are implemented by a UDE client for a virtual USB device. 
 
 
-## -syntax
-
-
-````
-typedef struct _UDECX_USB_DEVICE_STATE_CHANGE_CALLBACKS {
-  ULONG                                     Size;
-  PFN_UDECX_USB_DEVICE_D0_ENTRY             EvtUsbDeviceLinkPowerEntry;
-  PFN_UDECX_USB_DEVICE_D0_EXIT              EvtUsbDeviceLinkPowerExit;
-  PFN_UDECX_USB_DEVICE_DEFAULT_ENDPOINT_ADD EvtUsbDeviceDefaultEndpointAdd;
-  PFN_UDECX_USB_DEVICE_ENDPOINT_ADD         EvtUsbDeviceEndpointAdd;
-  PFN_UDECX_USB_DEVICE_ENDPOINTS_CONFIGURE  EvtUsbDeviceEndpointsConfigure;
-} UDECX_USB_DEVICE_STATE_CHANGE_CALLBACKS, *PUDECX_USB_DEVICE_STATE_CHANGE_CALLBACKS;
-````
-
-
 ## -struct-fields
 
 
@@ -80,12 +65,12 @@ The size of this structure.
 
 ### -field EvtUsbDeviceLinkPowerEntry
 
-A pointer to an <a href="..\udecxusbdevice\nc-udecxusbdevice-evt_udecx_usb_device_d0_entry.md">EVT_UDECX_USB_DEVICE_D0_ENTRY</a> callback function implemented by a UDE client driver.
+A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/mt595910">EVT_UDECX_USB_DEVICE_D0_ENTRY</a> callback function implemented by a UDE client driver.
 
 
 ### -field EvtUsbDeviceLinkPowerExit
 
-A pointer to an <a href="..\udecxusbdevice\nc-udecxusbdevice-evt_udecx_usb_device_d0_exit.md">EVT_UDECX_USB_DEVICE_D0_EXIT</a> callback function implemented by a UDE client driver.
+A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/mt595911">EVT_UDECX_USB_DEVICE_D0_EXIT</a> callback function implemented by a UDE client driver.
 
 
 ### -field EvtUsbDeviceSetFunctionSuspendAndWake
@@ -100,27 +85,26 @@ A pointer to an <a href="..\udecxusbdevice\nc-udecxusbdevice-evt_udecx_usb_devic
 
 ### -field EvtUsbDeviceDefaultEndpointAdd
 
-A pointer to an <a href="..\udecxusbdevice\nc-udecxusbdevice-evt_udecx_usb_device_default_endpoint_add.md">EVT_UDECX_USB_DEVICE_DEFAULT_ENDPOINT_ADD</a> callback function implemented by a UDE client driver.
+A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/mt595912">EVT_UDECX_USB_DEVICE_DEFAULT_ENDPOINT_ADD</a> callback function implemented by a UDE client driver.
 
 
 ### -field EvtUsbDeviceEndpointAdd
 
-A pointer to an E<a href="..\udecxusbdevice\nc-udecxusbdevice-evt_udecx_usb_device_endpoint_add.md">VT_UDECX_USB_DEVICE_ENDPOINT_ADD</a> callback function implemented by a UDE client driver.
+A pointer to an E<a href="https://msdn.microsoft.com/82E17C75-BE81-4263-AC04-D3C93505917D">VT_UDECX_USB_DEVICE_ENDPOINT_ADD</a> callback function implemented by a UDE client driver.
 
 
 ### -field EvtUsbDeviceEndpointsConfigure
 
-A pointer to an <a href="..\udecxusbdevice\nc-udecxusbdevice-evt_udecx_usb_device_endpoints_configure.md">EVT_UDECX_USB_DEVICE_ENDPOINTS_CONFIGURE</a> callback function implemented by a UDE client driver.
+A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/mt595913">EVT_UDECX_USB_DEVICE_ENDPOINTS_CONFIGURE</a> callback function implemented by a UDE client driver.
 
 
 ## -see-also
 
-<a href="..\udecxusbdevice\nf-udecxusbdevice-udecxusbdeviceinitsetstatechangecallbacks.md">UdecxUsbDeviceInitSetStateChangeCallbacks</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt627972">UdecxUsbDeviceInitSetStateChangeCallbacks</a>
  
 
  
-
 

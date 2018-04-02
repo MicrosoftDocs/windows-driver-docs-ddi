@@ -7,7 +7,7 @@ old-location: buses\usb_cycle_port_params.htm
 old-project: usbref
 ms.assetid: 357C62F3-43FE-4132-9233-7BFAD2CE95C5
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PUSB_CYCLE_PORT_PARAMS, PUSB_CYCLE_PORT_PARAMS, PUSB_CYCLE_PORT_PARAMS structure pointer [Buses], USB_CYCLE_PORT_PARAMS, USB_CYCLE_PORT_PARAMS structure [Buses], _USB_CYCLE_PORT_PARAMS, buses.usb_cycle_port_params, usbioctl/PUSB_CYCLE_PORT_PARAMS, usbioctl/USB_CYCLE_PORT_PARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,21 +50,10 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The <b>USB_CYCLE_PORT_PARAMS</b> structure is used with the <a href="..\usbioctl\ni-usbioctl-ioctl_usb_hub_cycle_port.md">IOCTL_USB_HUB_CYCLE_PORT</a> I/O control request to power cycle the port that is associated with the PDO that receives the request.<div class="alert"><b>Note</b>  <a href="..\usbioctl\ni-usbioctl-ioctl_usb_hub_cycle_port.md">IOCTL_USB_HUB_CYCLE_PORT</a> has been deprecated in Windows Vista and later operating systems. Do not use. 
+The <b>USB_CYCLE_PORT_PARAMS</b> structure is used with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537340">IOCTL_USB_HUB_CYCLE_PORT</a> I/O control request to power cycle the port that is associated with the PDO that receives the request.<div class="alert"><b>Note</b>  <a href="https://msdn.microsoft.com/library/windows/hardware/ff537340">IOCTL_USB_HUB_CYCLE_PORT</a> has been deprecated in Windows Vista and later operating systems. Do not use. 
 </div>
 <div> </div>
 
-
-
-## -syntax
-
-
-````
-typedef struct _USB_CYCLE_PORT_PARAMS {
-  ULONG ConnectionIndex;
-  ULONG StatusReturned;
-} USB_CYCLE_PORT_PARAMS, *PUSB_CYCLE_PORT_PARAMS;
-````
 
 
 ## -struct-fields
@@ -84,16 +73,15 @@ On return, contains the USBD status of the operation.
 
 ## -see-also
 
-<a href="..\usbioctl\ni-usbioctl-ioctl_usb_hub_cycle_port.md">IOCTL_USB_HUB_CYCLE_PORT</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537340">IOCTL_USB_HUB_CYCLE_PORT</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
-
-
-
  
 
  
-
 

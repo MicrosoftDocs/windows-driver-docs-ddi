@@ -7,7 +7,7 @@ old-location: debugger\getsymbolentrystring.htm
 old-project: debugger
 ms.assetid: 3ec46b53-f3a8-4fd6-bf94-261ff8accad7
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: GetSymbolEntryString method [Windows Debugging], GetSymbolEntryString method [Windows Debugging], IDebugSymbols3 interface, GetSymbolEntryString,IDebugSymbols3.GetSymbolEntryString, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetSymbolEntryString method, IDebugSymbols3::GetSymbolEntryString, IDebugSymbols_cf31d6c1-ffc6-4112-af04-dc023635bb5a.xml, dbgeng/IDebugSymbols3::GetSymbolEntryString, debugger.getsymbolentrystring
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,20 +52,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 The <b>GetSymbolEntryString</b>  method returns string information for the specified symbol.
 
 
-## -syntax
-
-
-````
-HRESULT GetSymbolEntryString(
-  [in]            PDEBUG_MODULE_AND_ID Id,
-  [in]            ULONG                Which,
-  [out, optional] PSTR                 Buffer,
-  [in]            ULONG                BufferSize,
-  [out, optional] PULONG               StringSize
-);
-````
-
-
 ## -parameters
 
 
@@ -73,7 +59,7 @@ HRESULT GetSymbolEntryString(
 
 ### -param Id [in]
 
-Specifies the symbols whose memory regions are being requested.  The <a href="..\dbgeng\ns-dbgeng-_debug_module_and_id.md">DEBUG_MODULE_AND_ID</a> structure contains the module containing the symbol and the symbol ID of the symbol within the module.
+Specifies the symbols whose memory regions are being requested.  The <a href="https://msdn.microsoft.com/library/windows/hardware/ff541511">DEBUG_MODULE_AND_ID</a> structure contains the module containing the symbol and the symbol ID of the symbol within the module.
 
 
 ### -param Which [in]
@@ -135,11 +121,10 @@ For more information about symbols, see <a href="https://msdn.microsoft.com/libr
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548458">GetSymbolEntriesByName</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
 
 
@@ -147,8 +132,8 @@ For more information about symbols, see <a href="https://msdn.microsoft.com/libr
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550870">IDebugSymbols3</a>
  
 
  
-
 

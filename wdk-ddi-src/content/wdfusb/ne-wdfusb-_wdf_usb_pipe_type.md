@@ -55,20 +55,6 @@ req.product: Windows 10 or later.
 The <b>WDF_USB_PIPE_TYPE</b> enumeration identifies the types of USB pipes.
 
 
-## -syntax
-
-
-````
-typedef enum _WDF_USB_PIPE_TYPE { 
-  WdfUsbPipeTypeInvalid      = 0,
-  WdfUsbPipeTypeControl      = 1,
-  WdfUsbPipeTypeIsochronous  = 2,
-  WdfUsbPipeTypeBulk         = 3,
-  WdfUsbPipeTypeInterrupt    = 4
-} WDF_USB_PIPE_TYPE;
-````
-
-
 ## -enum-fields
 
 
@@ -103,19 +89,18 @@ The pipe is an interrupt pipe.
 
 
 
-The <b>WDF_USB_PIPE_TYPE</b> enumeration is used in the <a href="..\wdfusb\ns-wdfusb-_wdf_usb_pipe_information.md">WDF_USB_PIPE_INFORMATION</a> structure.
+The <b>WDF_USB_PIPE_TYPE</b> enumeration is used in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff553037">WDF_USB_PIPE_INFORMATION</a> structure.
 
 
 
 
 ## -see-also
 
-<a href="..\wdfusb\ns-wdfusb-_wdf_usb_pipe_information.md">WDF_USB_PIPE_INFORMATION</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553037">WDF_USB_PIPE_INFORMATION</a>
  
 
  
-
 

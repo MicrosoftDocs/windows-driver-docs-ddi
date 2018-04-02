@@ -7,7 +7,7 @@ old-location: ifsk\rtlispartialplaceholderfilehandle.htm
 old-project: ifsk
 ms.assetid: A80C5714-525F-4E07-851D-2E203DD9387A
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: RtlIsPartialPlaceholderFileHandle, RtlIsPartialPlaceholderFileHandle routine [Installable File System Drivers], ifsk.rtlispartialplaceholderfilehandle, ntifs/RtlIsPartialPlaceholderFileHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,17 +53,6 @@ The <b>RtlIsPartialPlaceholderFileHandle</b> routine determines if a file is a k
     handle.
 
 
-## -syntax
-
-
-````
-NTSTATUS RtlIsPartialPlaceholderFileHandle(
-  _In_  HANDLE   FileHandle,
-  _Out_ PBOOLEAN IsPartialPlaceholder
-);
-````
-
-
 ## -parameters
 
 
@@ -91,12 +80,11 @@ Returns<b> STATUS_SUCCESS</b> if <i>IsPartialPlaceholder</i> is valid and not un
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-rtlispartialplaceholder.md">RtlIsPartialPlaceholder</a>
 
 
 
+<a href="https://msdn.microsoft.com/FB47F5BE-76B4-4A99-A15F-DE3E11D1DA2B">RtlIsPartialPlaceholder</a>
  
 
  
-
 

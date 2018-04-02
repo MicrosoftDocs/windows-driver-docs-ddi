@@ -1,4 +1,6 @@
-# [smartcard](../_smartcard/index.md)
+# [Smart Card Reader Devices](../_smartcrd/index.md)
+## [Smcnt.h](index.md)
+### [_OS_DEP_DATA structure](../smcnt/ns-smcnt-_os_dep_data.md)
+# [Windows kernel](../_kernel/index.md)
 ## [Smcnt.h](index.md)
 ### [ExAllocatePool macro](../smcnt/nf-smcnt-exallocatepool.md)
-### [_OS_DEP_DATA structure](../smcnt/ns-smcnt-_os_dep_data.md)

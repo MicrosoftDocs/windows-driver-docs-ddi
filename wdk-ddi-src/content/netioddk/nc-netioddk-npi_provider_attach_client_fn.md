@@ -7,7 +7,7 @@ old-location: netvista\providerattachclient.htm
 old-project: netvista
 ms.assetid: 6c8e6cf1-0528-4da2-acc1-81ec9dbc23c3
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: NPI_PROVIDER_ATTACH_CLIENT_FN, PNPI_PROVIDER_ATTACH_CLIENT_FN, PNPI_PROVIDER_ATTACH_CLIENT_FN callback function [Network Drivers Starting with Windows Vista], ProviderAttachClient, ProviderAttachClient callback function [Network Drivers Starting with Windows Vista], netioddk/ProviderAttachClient, netvista.providerattachclient, nmrref_7b693216-cb96-4608-aae0-77ddde6dc28c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,27 +53,6 @@ A provider module's
   <i>ProviderAttachClient</i> callback function attaches the provider module to a client module.
 
 
-## -prototype
-
-
-````
-NPI_PROVIDER_ATTACH_CLIENT_FN ProviderAttachClient;
-
-NTSTATUS ProviderAttachClient(
-  _In_        HANDLE                     NmrBindingHandle,
-  _In_        PVOID                      ProviderContext,
-  _In_        PNPI_REGISTRATION_INSTANCE ClientRegistrationInstance,
-  _In_        PVOID                      ClientBindingContext,
-  _In_  const VOID                       *ClientDispatch,
-  _Out_       PVOID                      *ProviderBindingContext,
-  _Out_ const VOID                       **ProviderDispatch
-)
-{ ... }
-
-typedef NPI_PROVIDER_ATTACH_CLIENT_FN * PNPI_PROVIDER_ATTACH_CLIENT_FN;
-````
-
-
 ## -parameters
 
 
@@ -89,14 +68,14 @@ A handle used by the NMR to represent the binding between the client module and 
 
 A pointer to the provider module's registration context. The provider module passes this pointer
      to the NMR when it calls the 
-     <a href="..\netioddk\nf-netioddk-nmrregisterprovider.md">NmrRegisterProvider</a> function to
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568784">NmrRegisterProvider</a> function to
      register itself with the NMR.
 
 
 ### -param ClientRegistrationInstance [in]
 
 A pointer to an 
-     <a href="..\netioddk\ns-netioddk-_npi_registration_instance.md">
+     <a href="https://msdn.microsoft.com/a368f9d9-a7e0-4b35-ba14-b0919f74029d">
      NPI_REGISTRATION_INSTANCE</a> structure. This structure contains the client module's registration
      data.
 
@@ -210,7 +189,7 @@ An error occurred.
 
 The NMR calls a provider module's 
     <i>ProviderAttachClient</i> callback function whenever a client module calls the 
-    <a href="..\netioddk\nf-netioddk-nmrclientattachprovider.md">NmrClientAttachProvider</a> function
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff568770">NmrClientAttachProvider</a> function
     with a handle that represents a binding between the client module and the provider module.
 
 A provider module can examine the client module's registration data. This data is in the structure
@@ -228,7 +207,7 @@ A provider module can examine the client module's registration data. This data i
       <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/network-programming-interface">NPI</a> functions.</li>
 <li>Save the handle passed in the 
       <i>NmrBindingHandle</i> parameter. The provider module passes this handle as a parameter to the 
-      <a href="..\netioddk\nf-netioddk-nmrproviderdetachclientcomplete.md">
+      <a href="https://msdn.microsoft.com/a52b3cfc-d6bd-4569-8b09-36dce65d017f">
       NmrProviderDetachClientComplete</a> function when it detaches from the client module.</li>
 <li>Set the 
       <i>ProviderBindingContext</i> parameter to point to the provider module's binding context structure for
@@ -248,7 +227,7 @@ If the provider module determines that it will not attach to the client module, 
 </ul>
 If the provider module attaches to the client module and it dynamically allocated memory for its
     binding context, it should free that allocated memory when the NMR calls the provider module's 
-    <a href="..\netioddk\nc-netioddk-npi_provider_cleanup_binding_context_fn.md">
+    <a href="https://msdn.microsoft.com/0af476f6-0113-4aeb-b7d6-8e0e64a89bd0">
     ProviderCleanupBindingContext</a> callback function after the client module and provider module are
     detached from each other.
 
@@ -260,38 +239,37 @@ The NMR calls a provider module's
 
 ## -see-also
 
-<a href="..\netioddk\nf-netioddk-nmrregisterprovider.md">NmrRegisterProvider</a>
 
 
 
-<a href="..\netioddk\nf-netioddk-nmrproviderdetachclientcomplete.md">
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568814">NPI_PROVIDER_CHARACTERISTICS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568815">NPI_REGISTRATION_INSTANCE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568770">NmrClientAttachProvider</a>
+
+
+
+<a href="https://msdn.microsoft.com/a52b3cfc-d6bd-4569-8b09-36dce65d017f">
    NmrProviderDetachClientComplete</a>
 
 
 
-<a href="..\netioddk\nc-netioddk-npi_provider_cleanup_binding_context_fn.md">
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568784">NmrRegisterProvider</a>
+
+
+
+<a href="https://msdn.microsoft.com/0af476f6-0113-4aeb-b7d6-8e0e64a89bd0">
    ProviderCleanupBindingContext</a>
 
 
 
-<a href="..\netioddk\nf-netioddk-nmrclientattachprovider.md">NmrClientAttachProvider</a>
-
-
-
-<a href="..\netioddk\ns-netioddk-_npi_provider_characteristics.md">NPI_PROVIDER_CHARACTERISTICS</a>
-
-
-
-<a href="..\netioddk\nc-netioddk-npi_provider_detach_client_fn.md">ProviderDetachClient</a>
-
-
-
-<a href="..\netioddk\ns-netioddk-_npi_registration_instance.md">NPI_REGISTRATION_INSTANCE</a>
-
-
-
+<a href="https://msdn.microsoft.com/0f29bf89-856c-4019-a966-3e666a7fc78d">ProviderDetachClient</a>
  
 
  
-
 

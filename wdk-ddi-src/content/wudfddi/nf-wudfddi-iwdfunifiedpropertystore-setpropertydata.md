@@ -55,21 +55,6 @@ req.product: Windows 10 or later.
 The <b>SetPropertyData</b> method modifies the current setting of a device property.
 
 
-## -syntax
-
-
-````
-HRESULT SetPropertyData(
-  [in]           const DEVPROPKEY  *PropertyKey,
-  [in]                 LCID        Lcid,
-  [in]                 ULONG       Flags,
-  [in]                 DEVPROPTYPE PropertyType,
-  [in]                 ULONG       PropertyDataSize,
-  [in, optional]       PVOID       PropertyData
-);
-````
-
-
 ## -parameters
 
 
@@ -223,7 +208,6 @@ exit:
 
 ## -see-also
 
-<a href="..\wudfddi_types\ns-wudfddi_types-_wdf_property_store_root.md">WDF_PROPERTY_STORE_ROOT</a>
 
 
 
@@ -231,24 +215,24 @@ exit:
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451399">IWDFUnifiedPropertyStore</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451403">IWDFUnifiedPropertyStoreFactory</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451406">RetrieveUnifiedDevicePropertyStore</a>
 
 
 
-<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_property_store_root_class.md">WDF_PROPERTY_STORE_ROOT_CLASS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561453">WDF_PROPERTY_STORE_ROOT</a>
 
 
 
-<a href="..\wudfddi\nn-wudfddi-iwdfunifiedpropertystorefactory.md">IWDFUnifiedPropertyStoreFactory</a>
-
-
-
-<a href="..\wudfddi\nn-wudfddi-iwdfunifiedpropertystore.md">IWDFUnifiedPropertyStore</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561458">WDF_PROPERTY_STORE_ROOT_CLASS</a>
  
 
  
-
 

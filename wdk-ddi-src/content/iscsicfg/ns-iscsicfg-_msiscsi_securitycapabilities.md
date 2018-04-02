@@ -7,7 +7,7 @@ old-location: storage\msiscsi_securitycapabilities.htm
 old-project: storage
 ms.assetid: a385283a-7b24-43aa-b291-541bfd6a91a6
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PMSiSCSI_SecurityCapabilities, MSiSCSI_SecurityCapabilities, MSiSCSI_SecurityCapabilities structure [Storage Devices], PMSiSCSI_SecurityCapabilities, PMSiSCSI_SecurityCapabilities structure pointer [Storage Devices], _MSiSCSI_SecurityCapabilities, iscsicfg/MSiSCSI_SecurityCapabilities, iscsicfg/PMSiSCSI_SecurityCapabilities, storage.msiscsi_securitycapabilities, structs-iSCSI_0e8b2bb9-69df-4d36-8002-ac32177b724a.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,20 +52,6 @@ req.typenames: MSiSCSI_SecurityCapabilities, *PMSiSCSI_SecurityCapabilities
 The MSiSCSI_SecurityCapabilities structure describes the security capabilities of an initiator. 
 
 
-## -syntax
-
-
-````
-typedef struct _MSiSCSI_SecurityCapabilities {
-  BOOLEAN ProtectiScsiTraffic;
-  BOOLEAN ProtectiSNSTraffic;
-  BOOLEAN CertificatesSupported;
-  ULONG   EncryptionAvailableCount;
-  ULONG   EncryptionAvailable[1];
-} MSiSCSI_SecurityCapabilities, *PMSiSCSI_SecurityCapabilities;
-````
-
-
 ## -struct-fields
 
 
@@ -93,7 +79,7 @@ The number of encryption types that the initiator supports.
 
 ### -field EncryptionAvailable
 
-A variable length array of <a href="..\iscsicfg\ne-iscsicfg-piscsi_encryption_types.md">ISCSI_ENCRYPTION_TYPES</a> structures, which indicate types of encryption that the initiator supports. 
+A variable length array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff561528">ISCSI_ENCRYPTION_TYPES</a> structures, which indicate types of encryption that the initiator supports. 
 
 
 ## -remarks
@@ -111,16 +97,15 @@ Initiators must register the MSiSCSI_SecurityCapabilities class using the name o
 
 ## -see-also
 
-<a href="..\iscsicfg\ne-iscsicfg-piscsi_encryption_types.md">ISCSI_ENCRYPTION_TYPES</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561528">ISCSI_ENCRYPTION_TYPES</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563131">MSiSCSI_SecurityCapabilities WMI Class</a>
-
-
-
  
 
  
-
 

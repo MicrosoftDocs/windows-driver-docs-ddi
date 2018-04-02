@@ -7,7 +7,7 @@ old-location: ifsk\seopenobjectfordeleteauditalarm.htm
 old-project: ifsk
 ms.assetid: c7a5bcce-a19e-4938-9d7b-ce73b3ecdc86
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: SeOpenObjectForDeleteAuditAlarm, SeOpenObjectForDeleteAuditAlarm routine [Installable File System Drivers], ifsk.seopenobjectfordeleteauditalarm, ntifs/SeOpenObjectForDeleteAuditAlarm, seref_59133039-b4e5-47d9-941a-df78051d6408.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,24 +50,6 @@ req.typenames: TOKEN_TYPE
 
 
 The <b>SeOpenObjectForDeleteAuditAlarm</b> routine generates audit and alarm messages when an attempt is made to open an object for deletion.
-
-
-## -syntax
-
-
-````
-VOID SeOpenObjectForDeleteAuditAlarm(
-  _In_     PUNICODE_STRING      ObjectTypeName,
-  _In_opt_ PVOID                Object,
-  _In_opt_ PUNICODE_STRING      AbsoluteObjectName,
-  _In_     PSECURITY_DESCRIPTOR SecurityDescriptor,
-  _In_     PACCESS_STATE        AccessState,
-  _In_     BOOLEAN              ObjectCreated,
-  _In_     BOOLEAN              AccessGranted,
-  _In_     KPROCESSOR_MODE      AccessMode,
-  _Out_    PBOOLEAN             GenerateOnClose
-);
-````
 
 
 ## -parameters
@@ -144,48 +126,47 @@ For more information about security and access control, see the documentation on
 
 ## -see-also
 
-<a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
 
 
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538840">ACCESS_STATE</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-sesetaccessstategenericmapping.md">SeSetAccessStateGenericMapping</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563689">SECURITY_DESCRIPTOR</a>
 
 
 
-<a href="..\wdm\nf-wdm-selocksubjectcontext.md">SeLockSubjectContext</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554770">SeAuditingFileEvents</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-seauditingfileorglobalevents.md">SeAuditingFileOrGlobalEvents</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554778">SeAuditingFileOrGlobalEvents</a>
 
 
 
-<a href="..\wdm\nf-wdm-seunlocksubjectcontext.md">SeUnlockSubjectContext</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556651">SeDeleteObjectAuditAlarm</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-seauditingfileevents.md">SeAuditingFileEvents</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556675">SeLockSubjectContext</a>
 
 
 
-<a href="..\wdm\ns-wdm-_access_state.md">ACCESS_STATE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556682">SeOpenObjectAuditAlarm</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-seopenobjectauditalarm.md">SeOpenObjectAuditAlarm</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556707">SeSetAccessStateGenericMapping</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-sedeleteobjectauditalarm.md">SeDeleteObjectAuditAlarm</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556736">SeUnlockSubjectContext</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a>
  
 
  
-
 

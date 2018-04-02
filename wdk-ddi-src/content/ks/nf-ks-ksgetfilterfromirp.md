@@ -53,16 +53,6 @@ req.typenames:
 The<b> KsGetFilterFromIrp </b>function returns the AVStream filter object associated with a given IRP.
 
 
-## -syntax
-
-
-````
-PKSFILTER KsGetFilterFromIrp(
-  _In_ PIRP Irp
-);
-````
-
-
 ## -parameters
 
 
@@ -70,14 +60,14 @@ PKSFILTER KsGetFilterFromIrp(
 
 ### -param Irp [in]
 
-A pointer to the <a href="..\wdm\ns-wdm-_irp.md">IRP</a> structure for which to return the associated filter.
+A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550694">IRP</a> structure for which to return the associated filter.
 
 
 ## -returns
 
 
 
-<b>KsGetFilterFromIrp</b> returns either a pointer to the <a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a> structure associated with <i>Irp</i> or <b>NULL</b>. <b>NULL</b> indicates that <i>Irp</i> is not associated with an AVStream object.
+<b>KsGetFilterFromIrp</b> returns either a pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562522">KSFILTER</a> structure associated with <i>Irp</i> or <b>NULL</b>. <b>NULL</b> indicates that <i>Irp</i> is not associated with an AVStream object.
 
 
 
@@ -93,16 +83,15 @@ A pointer to the <a href="..\wdm\ns-wdm-_irp.md">IRP</a> structure for which to 
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
 
 
 
-<a href="..\ks\nf-ks-ksgetpinfromirp.md">KsGetPinFromIrp</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550694">IRP</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562668">KsGetPinFromIrp</a>
  
 
  
-
 

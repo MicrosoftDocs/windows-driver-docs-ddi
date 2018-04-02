@@ -7,7 +7,7 @@ old-location: debugger\getindexbynamewide.htm
 old-project: debugger
 ms.assetid: eb6a50b4-275f-42c9-8121-17677971ebb2
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: GetIndexByNameWide method [Windows Debugging], GetIndexByNameWide method [Windows Debugging], IDebugRegisters2 interface, GetIndexByNameWide,IDebugRegisters2.GetIndexByNameWide, IDebugRegisters2, IDebugRegisters2 interface [Windows Debugging], GetIndexByNameWide method, IDebugRegisters2::GetIndexByNameWide, dbgeng/IDebugRegisters2::GetIndexByNameWide, debugger.getindexbynamewide
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,17 +50,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>GetIndexByNameWide</b> method returns the index of the named register.
-
-
-## -syntax
-
-
-````
-HRESULT GetIndexByNameWide(
-  [in]  PCWSTR Name,
-  [out] PULONG Index
-);
-````
 
 
 ## -parameters
@@ -121,7 +110,7 @@ The register was not found.
 
 
 
-For an overview of the <a href="..\dbgeng\nn-dbgeng-idebugregisters.md">IDebugRegisters</a> interface and other register-related methods, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff554369">Registers</a>.
+For an overview of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550825">IDebugRegisters</a> interface and other register-related methods, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff554369">Registers</a>.
 
 
 

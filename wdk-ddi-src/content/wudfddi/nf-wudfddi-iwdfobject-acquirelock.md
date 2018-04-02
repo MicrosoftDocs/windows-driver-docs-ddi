@@ -55,14 +55,6 @@ req.product: Windows 10 or later.
 The <b>AcquireLock</b> method prevents the framework from calling methods of interfaces that a driver registered.
 
 
-## -syntax
-
-
-````
-void AcquireLock();
-````
-
-
 ## -parameters
 
 
@@ -100,16 +92,15 @@ For a code example of how to use the <b>AcquireLock</b> method, see <a href="htt
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560200">IWDFObject</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560214">IWDFObject::ReleaseLock</a>
-
-
-
-<a href="..\wudfddi\nn-wudfddi-iwdfobject.md">IWDFObject</a>
-
-
-
  
 
  
-
 

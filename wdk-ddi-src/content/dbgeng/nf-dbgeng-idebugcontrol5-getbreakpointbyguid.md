@@ -7,7 +7,7 @@ old-location: debugger\idebugcontrol5_getbreakpointbyguid.htm
 old-project: debugger
 ms.assetid: AC316591-CCF9-4040-B1A3-29AB2033B673
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: GetBreakpointByGuid method [Windows Debugging], GetBreakpointByGuid method [Windows Debugging], IDebugControl5 interface, GetBreakpointByGuid,IDebugControl5.GetBreakpointByGuid, IDebugControl5, IDebugControl5 interface [Windows Debugging], GetBreakpointByGuid method, IDebugControl5::GetBreakpointByGuid, dbgeng/IDebugControl5::GetBreakpointByGuid, debugger.idebugcontrol5_getbreakpointbyguid
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,17 +50,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The GetBreakpointByGuid method returns the breakpoint with the specified breakpoint GUID.
-
-
-## -syntax
-
-
-````
-HRESULT GetBreakpointByGuid(
-  [in]  LPGUID             Guid,
-  [out] PDEBUG_BREAKPOINT3 *Bp
-);
-````
 
 
 ## -parameters
@@ -119,7 +108,6 @@ No breakpoint was found with the given GUID, or the breakpoint with the specifie
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol5.md">IDebugControl5</a>
 
 
 
@@ -127,8 +115,8 @@ No breakpoint was found with the given GUID, or the breakpoint with the specifie
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn818562">IDebugControl5</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: storage\device_data_set_lb_provisioning_state.htm
 old-project: storage
 ms.assetid: 99FBD363-0999-4AEE-A222-69C0FB71D248
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PDEVICE_DATA_SET_LB_PROVISIONING_STATE, DEVICE_DATA_SET_LB_PROVISIONING_STATE, DEVICE_DATA_SET_LB_PROVISIONING_STATE structure [Storage Devices], PDEVICE_DATA_SET_LB_PROVISIONING_STATE, PDEVICE_DATA_SET_LB_PROVISIONING_STATE structure pointer [Storage Devices], _DEVICE_DATA_SET_LB_PROVISIONING_STATE, ntddstor/DEVICE_DATA_SET_LB_PROVISIONING_STATE, ntddstor/PDEVICE_DATA_SET_LB_PROVISIONING_STATE, storage.device_data_set_lb_provisioning_state"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,23 +49,7 @@ req.typenames: DEVICE_DATA_SET_LB_PROVISIONING_STATE, *PDEVICE_DATA_SET_LB_PROVI
 ## -description
 
 
-The <b>DEVICE_DATA_SET_LB_PROVISIONING_STATE</b> structure is returned by an  <a href="..\ntddstor\ni-ntddstor-ioctl_storage_manage_data_set_attributes.md">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a> request when requesting logical block  provisioning information for a data set range.
-
-
-## -syntax
-
-
-````
-typedef struct _DEVICE_DATA_SET_LB_PROVISIONING_STATE {
-  ULONG     Size;
-  ULONG     Version;
-  ULONGLONG SlabSizeInBytes;
-  ULONG     SlabOffsetDeltaInBytes;
-  ULONG     SlabAllocationBitMapBitCount;
-  ULONG     SlabAllocationBitMapLength;
-  ULONG     SlabAllocationBitMap[ANYSIZE_ARRAY];
-} DEVICE_DATA_SET_LB_PROVISIONING_STATE, *PDEVICE_DATA_SET_LB_PROVISIONING_STATE;
-````
+The <b>DEVICE_DATA_SET_LB_PROVISIONING_STATE</b> structure is returned by an  <a href="https://msdn.microsoft.com/library/windows/hardware/ff560573">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a> request when requesting logical block  provisioning information for a data set range.
 
 
 ## -struct-fields
@@ -112,15 +96,15 @@ A bitmap of slab allocations.
 
 
 
-Provisioning state information is returned when the <b>Action</b> member of <a href="..\ntddstor\ns-ntddstor-_device_manage_data_set_attributes.md">DEVICE_MANAGE_DATA_SET_ATTRIBUTES</a> is set to <b>DeviceDsmAction_Allocation</b>. The caller should include only one data set range in the system buffer at <b>DataSetRangesOffset</b>.
+Provisioning state information is returned when the <b>Action</b> member of <a href="https://msdn.microsoft.com/library/windows/hardware/ff552527">DEVICE_MANAGE_DATA_SET_ATTRIBUTES</a> is set to <b>DeviceDsmAction_Allocation</b>. The caller should include only one data set range in the system buffer at <b>DataSetRangesOffset</b>.
 
-On return, the system buffer contains a <a href="..\ntddstor\ns-ntddstor-_device_manage_data_set_attributes_output.md">DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUPUT</a> structure followed by the <b>DEVICE_DATA_SET_LB_PROVISIONING_STATE</b> structure. The <b>DEVICE_DATA_SET_LB_PROVISIONING_STATE</b> structure begins at an offset from the beginning of the system buffer specified by <b>OutputBlockOffset</b> in <b>DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUPUT</b>.
+On return, the system buffer contains a <a href="https://msdn.microsoft.com/FFC52136-8A1C-48F6-A846-C1C5BFB4570C">DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUPUT</a> structure followed by the <b>DEVICE_DATA_SET_LB_PROVISIONING_STATE</b> structure. The <b>DEVICE_DATA_SET_LB_PROVISIONING_STATE</b> structure begins at an offset from the beginning of the system buffer specified by <b>OutputBlockOffset</b> in <b>DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUPUT</b>.
 
 Each bit in the allocation bitmap represents a slab mapping within the data set range requested. The bits correspond directly to the slabs in the data set range. This means that bit 0 in the bitmap marks the first slab in the range. A slab is mapped if the bit value = 1 and unmapped if the bit value = 0.
 
 Space for <b>SlabAllocationBitMap</b> should be allocated based on the number of possible slabs  in the requested data set range. The <b>SlabAllocationBitMapLength</b> of the bitmap returned is (<i>number of slabs</i> / 32) + ((<i>number of slabs</i> MOD 32) &gt; 0 ? 1 : 0).
 
-Slab size is determined by the <b>OptimalUnmapGranularity</b> member of <a href="..\ntddstor\ns-ntddstor-_device_lb_provisioning_descriptor.md">DEVICE_LB_PROVISIONING_DESCRIPTOR</a> returned from an <a href="..\ntddstor\ni-ntddstor-ioctl_storage_query_property.md">IOCTL_STORAGE_QUERY_PROPERTY</a> request. The length of the data set range provided should be a multiple of <b>OptimalUnmapGranularity</b>. When the range length is not a multiple of <b>OptimalUnmapGranularity</b>, it is reduced to be a multiple.
+Slab size is determined by the <b>OptimalUnmapGranularity</b> member of <a href="https://msdn.microsoft.com/library/windows/hardware/hh439649">DEVICE_LB_PROVISIONING_DESCRIPTOR</a> returned from an <a href="https://msdn.microsoft.com/library/windows/hardware/ff560590">IOCTL_STORAGE_QUERY_PROPERTY</a> request. The length of the data set range provided should be a multiple of <b>OptimalUnmapGranularity</b>. When the range length is not a multiple of <b>OptimalUnmapGranularity</b>, it is reduced to be a multiple.
 
 If the starting offset in the data set range is not aligned on a slab boundary, a multiple of <b>OptimalUnmapGranularity</b>, the offset will be adjusted to the next boundary. The difference between the requested offset and the adjusted offset is returned in <b>SlabOffsetDeltaInBytes</b>.
 
@@ -131,7 +115,6 @@ If the slab allocation total returned in <b>SlabAllocationBitMapBitCount</b> is 
 
 ## -see-also
 
-<a href="..\ntddstor\ns-ntddstor-_device_manage_data_set_attributes.md">DEVICE_MANAGE_DATA_SET_ATTRIBUTES</a>
 
 
 
@@ -139,16 +122,16 @@ If the slab allocation total returned in <b>SlabAllocationBitMapBitCount</b> is 
 
 
 
-<a href="..\ntddstor\ni-ntddstor-ioctl_storage_manage_data_set_attributes.md">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552527">DEVICE_MANAGE_DATA_SET_ATTRIBUTES</a>
 
 
 
-<a href="..\ntddstor\ni-ntddstor-ioctl_storage_query_property.md">IOCTL_STORAGE_QUERY_PROPERTY</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560573">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560590">IOCTL_STORAGE_QUERY_PROPERTY</a>
  
 
  
-
 

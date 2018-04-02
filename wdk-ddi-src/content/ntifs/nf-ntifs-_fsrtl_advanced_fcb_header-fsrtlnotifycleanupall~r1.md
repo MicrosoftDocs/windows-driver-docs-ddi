@@ -7,7 +7,7 @@ old-location: ifsk\fsrtlnotifycleanupall.htm
 old-project: ifsk
 ms.assetid: 850728bd-6758-4c21-9bfd-10a0f3d006d6
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FsRtlNotifyCleanupAll, FsRtlNotifyCleanupAll routine [Installable File System Drivers], fsrtlref_f0eea2f1-9bc9-41e1-843c-a69b3e63f452.xml, ifsk.fsrtlnotifycleanupall, ntifs/FsRtlNotifyCleanupAll
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,17 +52,6 @@ req.typenames: TOKEN_TYPE
 The <b>FsRtlNotifyCleanupAll</b> routine removes all members of the specified notification list. 
 
 
-## -syntax
-
-
-````
-VOID FsRtlNotifyCleanupAll(
-  _In_ PNOTIFY_SYNC NotifySync,
-  _In_ PLIST_ENTRY  NotifyList
-);
-````
-
-
 ## -parameters
 
 
@@ -100,28 +89,27 @@ Because a notify list is typically associated with a volume, the <b>FsRtlNotifyC
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnotifyfullreportchange~r8.md">FsRtlNotifyFullReportChange</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnotifyfilterreportchange~r9.md">FsRtlNotifyFilterReportChange</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546997">FsRtlNotifyCleanup</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnotifycleanup~r2.md">FsRtlNotifyCleanup</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547010">FsRtlNotifyFilterChangeDirectory</a>
 
 
 
-<a href="..\rxprocs\nf-rxprocs-fsrtlnotifyfullchangedirectory.md">FsRtlNotifyFullChangeDirectory</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547018">FsRtlNotifyFilterReportChange</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnotifyfilterchangedirectory~r10.md">FsRtlNotifyFilterChangeDirectory</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547026">FsRtlNotifyFullChangeDirectory</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547041">FsRtlNotifyFullReportChange</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: display\pfndeallocate2cb.htm
 old-project: display
 ms.assetid: 68C7EC44-D744-4C69-86D9-35B3B089875A
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3DDDI_DEALLOCATE2CB, d3dumddi/pfnDeallocate2Cb, display.pfndeallocate2cb, pfnDeallocate2Cb, pfnDeallocate2Cb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,22 +51,8 @@ req.typenames: DXGK_PTE
 
 The <b>pfnDeallocate2Cb</b> user mode callback function releases allocations for a kernel-mode resource object if the resource object was created.
 
-<b>pfnDeallocate2Cb</b> is a replacement for <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_deallocatecb.md">pfnDeallocateCb</a> that has an additional <b>Flags</b> member. When <b>Flags</b> are set to all zeroes, behavior is equivalent to <i>pfnDeallocateCb</i>.
+<b>pfnDeallocate2Cb</b> is a replacement for <a href="https://msdn.microsoft.com/2ffa0367-0451-45d2-be05-e450c45be116">pfnDeallocateCb</a> that has an additional <b>Flags</b> member. When <b>Flags</b> are set to all zeroes, behavior is equivalent to <i>pfnDeallocateCb</i>.
   
-
-
-## -prototype
-
-
-````
-PFND3DDDI_DEALLOCATE2CB pfnDeallocate2Cb;
-
-_Check_return_ HRESULT APIENTRY CALLBACK* pfnDeallocate2Cb(
-  _In_       HANDLE               hDevice,
-  _In_ const D3DDDICB_DEALLOCATE2 *pData
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -90,7 +76,7 @@ A handle to the display device (graphics context).
 
 #### - pData [in]
 
-A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_deallocate2.md">D3DDDICB_DEALLOCATE2</a> structure that describes the resource to release.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn906761">D3DDDICB_DEALLOCATE2</a> structure that describes the resource to release.
 
 
 ## -returns
@@ -146,16 +132,15 @@ If an application or UMD would like to ensure allocation memory is reclaimed pri
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_deallocatecb.md">pfnDeallocateCb</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_deallocate2.md">D3DDDICB_DEALLOCATE2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn906761">D3DDDICB_DEALLOCATE2</a>
 
 
 
+<a href="https://msdn.microsoft.com/2ffa0367-0451-45d2-be05-e450c45be116">pfnDeallocateCb</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: ifsk\mrxisvaliddirectory.htm
 old-project: ifsk
 ms.assetid: c52441d8-b273-4e1f-b251-2b35afeda55d
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: MRxIsValidDirectory, MRxIsValidDirectory routine [Installable File System Drivers], PMRX_CHKDIR_CALLDOWN, ifsk.mrxisvaliddirectory, mrx/MRxIsValidDirectory, mrxref_85038658-4d92-4a54-99f1-082fbc61224d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,20 +50,6 @@ req.typenames: SetDSMCounters_IN, *PSetDSMCounters_IN
 
 
 The<i>MRxIsValidDirectory</i> routine is called by <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ifs/the-rdbss-driver-and-library">RDBSS</a> to request that a network mini-redirector check for the existence of a remote directory. 
-
-
-## -prototype
-
-
-````
-PMRX_CHKDIR_CALLDOWN MRxIsValidDirectory;
-
-NTSTATUS MRxIsValidDirectory(
-  _Inout_ PRX_CONTEXT     RxContext,
-  _In_    PUNICODE_STRING DirectoryName
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -120,7 +106,10 @@ This remote directory does not exist.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550786">MRxSetEaInfo</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550755">MRxQueryDirectory</a>
 
 
 
@@ -128,11 +117,27 @@ This remote directory does not exist.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550782">MRxQueryVolumeInfo</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550770">MRxQueryFileInfo</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550773">MRxQueryQuotaInfo</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550776">MRxQuerySdInfo</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550782">MRxQueryVolumeInfo</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550786">MRxSetEaInfo</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550790">MRxSetFileInfo</a>
 
 
 
@@ -144,32 +149,12 @@ This remote directory does not exist.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550773">MRxQueryQuotaInfo</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550770">MRxQueryFileInfo</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550755">MRxQueryDirectory</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550805">MRxSetSdInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550790">MRxSetFileInfo</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550810">MRxSetVolumeInfo</a>
-
-
-
  
 
  
-
 

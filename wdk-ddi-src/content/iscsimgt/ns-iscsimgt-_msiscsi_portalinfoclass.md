@@ -7,7 +7,7 @@ old-location: storage\msiscsi_portalinfoclass.htm
 old-project: storage
 ms.assetid: 400ff6fc-6eb7-4b3f-afec-7d0b69039ed1
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PMSiSCSI_PortalInfoClass, MSiSCSI_PortalInfoClass, MSiSCSI_PortalInfoClass structure [Storage Devices], PMSiSCSI_PortalInfoClass, PMSiSCSI_PortalInfoClass structure pointer [Storage Devices], _MSiSCSI_PortalInfoClass, iscsimgt/MSiSCSI_PortalInfoClass, iscsimgt/PMSiSCSI_PortalInfoClass, storage.msiscsi_portalinfoclass, structs-iSCSI_dec2f67f-5b12-4432-8c64-eef6efeb7e6a.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,17 +52,6 @@ req.typenames: MSiSCSI_PortalInfoClass, *PMSiSCSI_PortalInfoClass
 The MSiSCSI_PortalInfoClass structure contains information about a collection of iSCSI portals.
 
 
-## -syntax
-
-
-````
-typedef struct _MSiSCSI_PortalInfoClass {
-  ULONG            PortalInfoCount;
-  ISCSI_PortalInfo PortalInformation[1];
-} MSiSCSI_PortalInfoClass, *PMSiSCSI_PortalInfoClass;
-````
-
-
 ## -struct-fields
 
 
@@ -75,7 +64,7 @@ The number of portals that the initiator discovered and for which portal informa
 
 ### -field PortalInformation
 
-A variable length array of <a href="..\iscsimgt\ns-iscsimgt-_iscsi_portalinfo.md">ISCSI_PortalInfo</a> structures. The number of elements in the array is specified by the <b>PortalInfoCount</b> field.
+A variable length array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff561557">ISCSI_PortalInfo</a> structures. The number of elements in the array is specified by the <b>PortalInfoCount</b> field.
 
 
 ## -remarks
@@ -89,16 +78,15 @@ We recommend that you implement this class.
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561557">ISCSI_PortalInfo</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563100">MSiSCSI_PortalInfoClass WMI Class</a>
-
-
-
-<a href="..\iscsimgt\ns-iscsimgt-_iscsi_portalinfo.md">ISCSI_PortalInfo</a>
-
-
-
  
 
  
-
 

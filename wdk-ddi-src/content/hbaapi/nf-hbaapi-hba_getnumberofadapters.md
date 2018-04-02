@@ -7,7 +7,7 @@ old-location: storage\hba_getnumberofadapters.htm
 old-project: storage
 ms.assetid: 5864a535-4ff8-4c9a-abf9-f835c7fde305
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: HBA_GetNumberOfAdapters, HBA_GetNumberOfAdapters routine [Storage Devices], fibreHBA_rtns_de5ced35-f290-47fb-ada1-df032be61bfd.xml, hbaapi/HBA_GetNumberOfAdapters, storage.hba_getnumberofadapters
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,14 +50,6 @@ req.typenames: HBA_WWNTYPE
 
 
 The <b>HBA_GetNumberOfAdapters</b> routine returns the number of HBAs supported by the library. 
-
-
-## -syntax
-
-
-````
-HBA_UINT32 HBA_API HBA_GetNumberOfAdapters(void);
-````
 
 
 ## -parameters

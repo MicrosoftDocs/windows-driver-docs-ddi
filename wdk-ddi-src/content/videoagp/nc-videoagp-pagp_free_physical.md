@@ -7,7 +7,7 @@ old-location: display\agpfreephysical.htm
 old-project: display
 ms.assetid: bb0e3330-5601-47dd-afc6-94a70b42daaf
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: AgpFreePhysical, AgpFreePhysical callback function [Display Devices], PAGP_FREE_PHYSICAL, VideoPort_Functions_cc6360b5-12f9-4c49-bb06-d86ada229b9e.xml, display.agpfreephysical, videoagp/AgpFreePhysical
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,23 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The <b>AgpFreePhysical</b> function frees system memory that was committed by a previous call to <a href="..\videoagp\nc-videoagp-pagp_commit_physical.md">AgpCommitPhysical</a>.
-
-
-## -prototype
-
-
-````
-PAGP_FREE_PHYSICAL AgpFreePhysical;
-
-VOID APIENTRY AgpFreePhysical(
-  _In_ PVOID HwDeviceExtension,
-  _In_ PVOID PhysicalReserveContext,
-  _In_ ULONG Pages,
-  _In_ ULONG Offset
-)
-{ ... }
-````
+The <b>AgpFreePhysical</b> function frees system memory that was committed by a previous call to <a href="https://msdn.microsoft.com/3c3a6936-7435-4a42-99e6-2c048613af23">AgpCommitPhysical</a>.
 
 
 ## -parameters
@@ -81,7 +65,7 @@ Pointer to the device extension of the miniport driver.
 
 ### -param PhysicalReserveContext [in]
 
-Identifies a reserved physical address range. This context handle was obtained from <a href="..\videoagp\nc-videoagp-pagp_reserve_physical.md">AgpReservePhysical</a>.
+Identifies a reserved physical address range. This context handle was obtained from <a href="https://msdn.microsoft.com/b3e21c94-acd5-4767-8ba5-70b2dcfb2aaa">AgpReservePhysical</a>.
 
 
 ### -param Pages [in]
@@ -107,23 +91,22 @@ None
 
 
 
-When a miniport driver calls <b>AgpFreePhysical</b>, <b>Pages</b> pages of physical memory are unlocked and unmapped from the AGP-decodable physical address range. This range begins <b>Offset</b> pages into the range identified by <b>PhysicalReserveContext</b>. The miniport driver must specify that the exact offset and number of pages be freed as were committed in a prior call to <a href="..\videoagp\nc-videoagp-pagp_commit_physical.md">AgpCommitPhysical</a>.
+When a miniport driver calls <b>AgpFreePhysical</b>, <b>Pages</b> pages of physical memory are unlocked and unmapped from the AGP-decodable physical address range. This range begins <b>Offset</b> pages into the range identified by <b>PhysicalReserveContext</b>. The miniport driver must specify that the exact offset and number of pages be freed as were committed in a prior call to <a href="https://msdn.microsoft.com/3c3a6936-7435-4a42-99e6-2c048613af23">AgpCommitPhysical</a>.
 
 
 
 
 ## -see-also
 
-<a href="..\videoagp\nc-videoagp-pagp_commit_physical.md">AgpCommitPhysical</a>
 
 
 
-<a href="..\videoagp\nc-videoagp-pagp_release_physical.md">AgpReleasePhysical</a>
+<a href="https://msdn.microsoft.com/3c3a6936-7435-4a42-99e6-2c048613af23">AgpCommitPhysical</a>
 
 
 
+<a href="https://msdn.microsoft.com/4da0f5cb-a017-4df5-958b-c76b7a08495a">AgpReleasePhysical</a>
  
 
  
-
 

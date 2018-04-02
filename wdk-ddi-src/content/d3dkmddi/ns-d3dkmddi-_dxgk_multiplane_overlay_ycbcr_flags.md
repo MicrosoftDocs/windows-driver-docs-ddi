@@ -7,7 +7,7 @@ old-location: display\dxgk_multiplane_overlay_ycbcr_flags.htm
 old-project: display
 ms.assetid: c3a463b1-fc6f-4834-87e5-1d694f2823f9
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGK_MULTIPLANE_OVERLAY_YCbCr_FLAGS, DXGK_MULTIPLANE_OVERLAY_YCbCr_FLAGS structure [Display Devices], _DXGK_MULTIPLANE_OVERLAY_YCbCr_FLAGS, d3dkmddi/DXGK_MULTIPLANE_OVERLAY_YCbCr_FLAGS, display.dxgk_multiplane_overlay_ycbcr_flags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,24 +50,6 @@ req.typenames: DXGK_MULTIPLANE_OVERLAY_YCbCr_FLAGS
 
 
 Identifies YUV range and conversion info that describes a multiplane overlay.
-
-
-## -syntax
-
-
-````
-typedef struct _DXGK_MULTIPLANE_OVERLAY_YCbCr_FLAGS {
-  union {
-    struct {
-      UINT NominalRange  :1;
-      UINT Bt709  :1;
-      UINT xvYCC  :1;
-      UINT Reserved  :29;
-    };
-    UINT   Value;
-  };
-} DXGK_MULTIPLANE_OVERLAY_YCbCr_FLAGS;
-````
 
 
 ## -struct-fields

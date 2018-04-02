@@ -52,21 +52,6 @@ req.typenames: SOUNDDETECTOR_PATTERNHEADER
 An AVStream minidriver's <i>AVStrMiniInitializeAllocator</i> routine initializes an allocator that will be associated with a pin.
 
 
-## -prototype
-
-
-````
-PFNKSPININITIALIZEALLOCATOR AVStrMiniInitializeAllocator;
-
-NTSTATUS AVStrMiniInitializeAllocator(
-  _In_  PKSPIN               Pin,
-  _In_  PKSALLOCATOR_FRAMING AllocatorFraming,
-  _Out_ PVOID                *Context
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -74,17 +59,17 @@ NTSTATUS AVStrMiniInitializeAllocator(
 
 ### -param Pin [in]
 
-Pointer to a <a href="..\ks\ns-ks-_kspin.md">KSPIN</a> structure describing the pin with which the allocator is to be associated.
+Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff563483">KSPIN</a> structure describing the pin with which the allocator is to be associated.
 
 
 ### -param AllocatorFraming [in]
 
-Pointer to a <a href="..\ks\ns-ks-ksallocator_framing.md">KSALLOCATOR_FRAMING</a> structure describing the framing requirements that the allocator should use.
+Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff560979">KSALLOCATOR_FRAMING</a> structure describing the framing requirements that the allocator should use.
 
 
 ### -param *Context [out]
 
-Pointer to a context for the allocator that will be passed as a parameter to the other routines for this structure. For example, the driver could store pin or allocator framing structures for later reference by the other callback routines. Note that other routines for <a href="..\ks\ns-ks-_ksallocator_dispatch.md">KSALLOCATOR_DISPATCH</a> must have at least an indirect way of referencing <i>Pin</i>. (For instance, <a href="..\ks\nc-ks-pfnksdefaultallocate.md">AVStrMiniAllocate</a> will need to be able to access the <i>AllocatorFraming</i> information for <i>Pin</i>, and <i>Context</i> is the only parameter that AVStream will pass it.)
+Pointer to a context for the allocator that will be passed as a parameter to the other routines for this structure. For example, the driver could store pin or allocator framing structures for later reference by the other callback routines. Note that other routines for <a href="https://msdn.microsoft.com/library/windows/hardware/ff560976">KSALLOCATOR_DISPATCH</a> must have at least an indirect way of referencing <i>Pin</i>. (For instance, <a href="https://msdn.microsoft.com/library/windows/hardware/ff554265">AVStrMiniAllocate</a> will need to be able to access the <i>AllocatorFraming</i> information for <i>Pin</i>, and <i>Context</i> is the only parameter that AVStream will pass it.)
 
 
 ## -returns
@@ -100,7 +85,7 @@ Pointer to a context for the allocator that will be passed as a parameter to the
 
 
 
-The minidriver specifies this routine's address in the <b>InitializeAllocator</b> member of its <a href="..\ks\ns-ks-_ksallocator_dispatch.md">KSALLOCATOR_DISPATCH</a> structure. The minidriver passes this structure to the class driver in <a href="..\ks\ns-ks-_kspin_dispatch.md">KSPIN_DISPATCH</a>.
+The minidriver specifies this routine's address in the <b>InitializeAllocator</b> member of its <a href="https://msdn.microsoft.com/library/windows/hardware/ff560976">KSALLOCATOR_DISPATCH</a> structure. The minidriver passes this structure to the class driver in <a href="https://msdn.microsoft.com/library/windows/hardware/ff563535">KSPIN_DISPATCH</a>.
 
 Note that kernel-mode allocators cannot allocate frames that could eventually reach user mode.
 
@@ -113,28 +98,27 @@ For more information, see <a href="https://msdn.microsoft.com/07812703-a66f-450a
 
 ## -see-also
 
-<a href="..\ks\nc-ks-pfnksdeleteallocator.md">AVStrMiniDeleteAllocator</a>
 
 
 
-<a href="..\ks\ns-ks-_kspin.md">KSPIN</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554273">AVStrMiniDeleteAllocator</a>
 
 
 
-<a href="..\ks\ns-ks-ksallocator_framing.md">KSALLOCATOR_FRAMING</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560976">KSALLOCATOR_DISPATCH</a>
 
 
 
-<a href="..\ks\ns-ks-_kspin_dispatch.md">KSPIN_DISPATCH</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560979">KSALLOCATOR_FRAMING</a>
 
 
 
-<a href="..\ks\ns-ks-_ksallocator_dispatch.md">KSALLOCATOR_DISPATCH</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563483">KSPIN</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563535">KSPIN_DISPATCH</a>
  
 
  
-
 

@@ -53,16 +53,6 @@ req.product: Windows 10 or later.
 The <code>IPrintOemUI2::HideStandardUI</code> method allows a user interface plug-in to specify whether the standard property sheets should be displayed or hidden. Beginning with Microsoft Windows XP, this method can be implemented by a Pscript5 user interface plug-in. Beginning with Windows Vista, this method can be implemented by a Unidrv user interface plug-in.
 
 
-## -syntax
-
-
-````
-HRESULT HideStandardUI(
-   DWORD dwMode
-);
-````
-
-
 ## -parameters
 
 
@@ -116,7 +106,7 @@ On success, this method should return S_OK. Otherwise, it should return E_NOTIMP
 
 This method is supported in Windows Vista for Pscript 5 and Unidrv plug-ins, and in Windows XP only for Pscript5 plug-ins.
 
-Within the <a href="..\winddiui\nf-winddiui-drvdocumentpropertysheets.md">DrvDocumentPropertySheets</a> or <a href="..\winddiui\nf-winddiui-drvdevicepropertysheets.md">DrvDevicePropertySheets</a> DDIs when pPSUIInfo--&gt;Reason is set to PROPSHEETUI_REASON_INIT, the driver calls the <code>IPrintOemUI2::HideStandardUI</code> method to ask the UI plug-in about user interface requests. This method can respond in any of four ways: 
+Within the <a href="https://msdn.microsoft.com/library/windows/hardware/ff548548">DrvDocumentPropertySheets</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff548542">DrvDevicePropertySheets</a> DDIs when pPSUIInfo--&gt;Reason is set to PROPSHEETUI_REASON_INIT, the driver calls the <code>IPrintOemUI2::HideStandardUI</code> method to ask the UI plug-in about user interface requests. This method can respond in any of four ways: 
 
 <ol>
 <li>
@@ -195,20 +185,19 @@ When the printer has multiple UI plug-ins installed, the driver calls UI plug-in
 
 ## -see-also
 
-<a href="..\prcomoem\nn-prcomoem-iprintoemui2.md">IPrintOemUI2</a>
 
 
 
-<a href="..\winddiui\nf-winddiui-drvdevicepropertysheets.md">DrvDevicePropertySheets</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548542">DrvDevicePropertySheets</a>
 
 
 
-<a href="..\winddiui\nf-winddiui-drvdocumentpropertysheets.md">DrvDocumentPropertySheets</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548548">DrvDocumentPropertySheets</a>
 
 
 
+<a href="https://msdn.microsoft.com/9b7afb56-7abb-4f20-b69d-12a28d7e3617">IPrintOemUI2</a>
  
 
  
-
 

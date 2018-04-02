@@ -7,7 +7,7 @@ old-location: storage\duid_match_status.htm
 old-project: storage
 ms.assetid: 61a60e77-387c-42d6-b56b-694ce0c86570
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DUID_MATCH_STATUS, DUID_MATCH_STATUS enumeration [Storage Devices], DuidErrorGeneral, DuidErrorInvalidDeviceDescSize, DuidErrorInvalidDeviceIdDescSize, DuidErrorInvalidDuid, DuidErrorInvalidLayoutSigSize, DuidErrorInvalidLayoutSigVersion, DuidErrorMaximum, DuidErrorMissingDuid, DuidErrorVersionMismatch, DuidExactMatch, DuidNoMatch, DuidSubIdMatch, _DUID_MATCH_STATUS, storage.duid_match_status, storduid/DUID_MATCH_STATUS, storduid/DuidErrorGeneral, storduid/DuidErrorInvalidDeviceDescSize, storduid/DuidErrorInvalidDeviceIdDescSize, storduid/DuidErrorInvalidDuid, storduid/DuidErrorInvalidLayoutSigSize, storduid/DuidErrorInvalidLayoutSigVersion, storduid/DuidErrorMaximum, storduid/DuidErrorMissingDuid, storduid/DuidErrorVersionMismatch, storduid/DuidExactMatch, storduid/DuidNoMatch, storduid/DuidSubIdMatch, structs-general_8e33f54f-7115-42c2-aa06-112c79f9c392.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,28 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The DUID_MATCH_STATUS enumeration lists the status values that the <a href="..\storduid\nf-storduid-comparestorageduids.md">CompareStorageDuids</a> routine returns.
-
-
-## -syntax
-
-
-````
-typedef enum _DUID_MATCH_STATUS { 
-  DuidExactMatch                    = 0,
-  DuidSubIdMatch                    = 1,
-  DuidNoMatch                       = 2,
-  DuidErrorGeneral                  = 100,
-  DuidErrorMissingDuid              = 101,
-  DuidErrorVersionMismatch          = 102,
-  DuidErrorInvalidDuid              = 103,
-  DuidErrorInvalidDeviceIdDescSize  = 104,
-  DuidErrorInvalidDeviceDescSize    = 105,
-  DuidErrorInvalidLayoutSigSize     = 106,
-  DuidErrorInvalidLayoutSigVersion  = 107,
-  DuidErrorMaximum                  = 108
-} DUID_MATCH_STATUS;
-````
+The DUID_MATCH_STATUS enumeration lists the status values that the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552464">CompareStorageDuids</a> routine returns.
 
 
 ## -enum-fields
@@ -116,12 +95,12 @@ At least one of the two DUIDs to compare is invalid.
 
 ### -field DuidErrorInvalidDeviceIdDescSize
 
-At least one of the two DUIDs to compare contains an invalid device ID descriptor (<a href="..\ntddstor\ns-ntddstor-_storage_device_id_descriptor.md">STORAGE_DEVICE_ID_DESCRIPTOR</a>). This descriptor reports VPD data.
+At least one of the two DUIDs to compare contains an invalid device ID descriptor (<a href="https://msdn.microsoft.com/library/windows/hardware/ff566972">STORAGE_DEVICE_ID_DESCRIPTOR</a>). This descriptor reports VPD data.
 
 
 ### -field DuidErrorInvalidDeviceDescSize
 
-At least one of the two DUIDs to compare contains an invalid device descriptor (<a href="..\ntddstor\ns-ntddstor-_storage_device_descriptor.md">STORAGE_DEVICE_DESCRIPTOR</a>). This descriptor reports non-VPD inquiry data..
+At least one of the two DUIDs to compare contains an invalid device descriptor (<a href="https://msdn.microsoft.com/library/windows/hardware/ff566971">STORAGE_DEVICE_DESCRIPTOR</a>). This descriptor reports non-VPD inquiry data..
 
 
 ### -field DuidErrorInvalidLayoutSigSize
@@ -136,25 +115,24 @@ At least one of the two DUIDs to compare contains an invalid drive layout signat
 
 ### -field DuidErrorMaximum
 
-This value delimits the upper limit of the enumeration values in this enumeration. This value allows a DUID consumer to create a loop that tests for all valid error values that the <a href="..\storduid\nf-storduid-comparestorageduids.md">CompareStorageDuids</a> routine returns. As new identifier data is added to future versions of the DUID, new error values will specify which parts of the DUID are not well-formed.
+This value delimits the upper limit of the enumeration values in this enumeration. This value allows a DUID consumer to create a loop that tests for all valid error values that the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552464">CompareStorageDuids</a> routine returns. As new identifier data is added to future versions of the DUID, new error values will specify which parts of the DUID are not well-formed.
 
 
 ## -see-also
 
-<a href="..\ntddstor\ns-ntddstor-_storage_device_descriptor.md">STORAGE_DEVICE_DESCRIPTOR</a>
 
 
 
-<a href="..\ntddstor\ns-ntddstor-_storage_device_id_descriptor.md">STORAGE_DEVICE_ID_DESCRIPTOR</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552464">CompareStorageDuids</a>
 
 
 
-<a href="..\storduid\nf-storduid-comparestorageduids.md">CompareStorageDuids</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566971">STORAGE_DEVICE_DESCRIPTOR</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566972">STORAGE_DEVICE_ID_DESCRIPTOR</a>
  
 
  
-
 

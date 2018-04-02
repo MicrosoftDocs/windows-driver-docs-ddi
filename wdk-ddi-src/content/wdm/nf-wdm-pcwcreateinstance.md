@@ -53,20 +53,6 @@ req.product: Windows 10 or later.
 The <b>PcwCreateInstance</b> function creates a new instance for the specified registered counter set.
 
 
-## -syntax
-
-
-````
-NTSTATUS PcwCreateInstance(
-  _Out_ PPCW_INSTANCE     *Instance,
-  _In_  PPCW_REGISTRATION Registration,
-  _In_  PCUNICODE_STRING  Name,
-  _In_  ULONG             Count,
-  _In_  PPCW_DATA         Data
-);
-````
-
-
 ## -parameters
 
 
@@ -162,25 +148,24 @@ The size of the structure, specified by <i>Count</i>, overflows the data buffer,
 
 
 
-Before the provider uses this function, the provider must call the <a href="..\wdm\nf-wdm-pcwregister.md">PcwRegister</a> function to create a registration.
+Before the provider uses this function, the provider must call the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550323">PcwRegister</a> function to create a registration.
 
-Use the <a href="..\wdm\nf-wdm-pcwcloseinstance.md">PcwCloseInstance</a> function to close this instance.
+Use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550316">PcwCloseInstance</a> function to close this instance.
 
 
 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-pcwregister.md">PcwRegister</a>
 
 
 
-<a href="..\wdm\nf-wdm-pcwcloseinstance.md">PcwCloseInstance</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550316">PcwCloseInstance</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550323">PcwRegister</a>
  
 
  
-
 

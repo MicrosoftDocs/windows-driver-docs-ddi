@@ -7,7 +7,7 @@ old-location: display\pfnsetmarkermode.htm
 old-project: display
 ms.assetid: D45750D9-F722-4208-8D00-E14FD9C009CB
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3DDDI_SETMARKERMODE, d3dumddi/pfnSetMarkerMode, display.pfnsetmarkermode, pfnSetMarkerMode, pfnSetMarkerMode callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,22 +49,7 @@ req.typenames: DXGK_PTE
 ## -description
 
 
-Notifies the user-mode display driver that it should support a type of Event Tracing for Windows (ETW) marker event. Optionally implemented by Windows Display Driver Model (WDDM) 1.3 and later drivers running on Microsoft Direct3D Level 9 hardware. (See requirements in <a href="https://msdn.microsoft.com/F9AAE489-EC45-4EE6-875E-E084BB3054EE">Direct3D rendering performance improvements</a>.) For more advanced hardware, drivers should implement the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3dwddm1_3ddi_setmarkermode.md">SetMarkerMode</a> function.
-
-
-## -prototype
-
-
-````
-PFND3DDDI_SETMARKERMODE pfnSetMarkerMode;
-
-_Check_return_ HRESULT APIENTRY* pfnSetMarkerMode(
-  _In_ HANDLE            hDevice,
-  _In_ D3DDDI_MARKERTYPE Type,
-       UINT              Flags
-)
-{ ... }
-````
+Notifies the user-mode display driver that it should support a type of Event Tracing for Windows (ETW) marker event. Optionally implemented by Windows Display Driver Model (WDDM) 1.3 and later drivers running on Microsoft Direct3D Level 9 hardware. (See requirements in <a href="https://msdn.microsoft.com/F9AAE489-EC45-4EE6-875E-E084BB3054EE">Direct3D rendering performance improvements</a>.) For more advanced hardware, drivers should implement the <a href="https://msdn.microsoft.com/18B13509-7692-4336-937C-264B31A6FB78">SetMarkerMode</a> function.
 
 
 ## -parameters
@@ -79,7 +64,7 @@ A handle to the display device (graphics context).
 
 ### -param Type [in]
 
-A value from the <a href="..\d3dumddi\ne-d3dumddi-d3dddi_markertype.md">D3DDDI_MARKERTYPE</a> enumeration that indicates the type of marker event  that the driver should support.
+A value from the <a href="https://msdn.microsoft.com/library/windows/hardware/dn535967">D3DDDI_MARKERTYPE</a> enumeration that indicates the type of marker event  that the driver should support.
 
 
 ### -param Flags
@@ -115,16 +100,15 @@ Follow these guidelines when you set up profile-type marker events in your user-
 
 ## -see-also
 
-<a href="..\d3dumddi\ne-d3dumddi-d3dddi_markertype.md">D3DDDI_MARKERTYPE</a>
 
 
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3dwddm1_3ddi_setmarkermode.md">SetMarkerMode</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn535967">D3DDDI_MARKERTYPE</a>
 
 
 
+<a href="https://msdn.microsoft.com/18B13509-7692-4336-937C-264B31A6FB78">SetMarkerMode</a>
  
 
  
-
 

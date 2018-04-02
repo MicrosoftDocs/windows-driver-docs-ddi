@@ -7,7 +7,7 @@ old-location: display\dxgkddii2ctransmitdatatodisplay.htm
 old-project: display
 ms.assetid: 67a08982-5d2f-4cd8-be14-76977fde0aac
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKDDI_I2C_TRANSMIT_DATA_TO_DISPLAY, DmFunctions_6152910a-6f9c-4686-b025-2508bbfdf257.xml, DxgkDdiI2CTransmitDataToDisplay, DxgkDdiI2CTransmitDataToDisplay callback function [Display Devices], display.dxgkddii2ctransmitdatatodisplay, dispmprt/DxgkDdiI2CTransmitDataToDisplay
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,23 +52,6 @@ req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
 The <i>DxgkDdiI2CTransmitDataToDisplay</i> function transmits data to an I2C device in a monitor.
 
 
-## -prototype
-
-
-````
-DXGKDDI_I2C_TRANSMIT_DATA_TO_DISPLAY DxgkDdiI2CTransmitDataToDisplay;
-
-NTSTATUS DxgkDdiI2CTransmitDataToDisplay(
-  _In_       PVOID                          MiniportDeviceContext,
-  _In_       D3DDDI_VIDEO_PRESENT_TARGET_ID VidPnTargetId,
-  _In_       ULONG                          SevenBitI2CAddress,
-  _In_       ULONG                          DataLength,
-  _In_ const PVOID                          Data
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -76,7 +59,7 @@ NTSTATUS DxgkDdiI2CTransmitDataToDisplay(
 
 ### -param MiniportDeviceContext [in]
 
-A handle to a context block that is associated with a display adapter. The display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a> function previously provided this handle to the Microsoft DirectX graphics kernel subsystem.
+A handle to a context block that is associated with a display adapter. The display miniport driver's <a href="https://msdn.microsoft.com/5fd4046f-54c3-4dfc-8d51-0d9ebcde0bea">DxgkDdiAddDevice</a> function previously provided this handle to the Microsoft DirectX graphics kernel subsystem.
 
 
 ### -param VidPnTargetId [in]
@@ -192,12 +175,11 @@ If the display adapter supports HDCP, the <i>DxgkDdiI2CTransmitDataToDisplay</i>
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_i2c_receive_data_from_display.md">DxgkDdiI2CReceiveDataFromDisplay</a>
 
 
 
+<a href="https://msdn.microsoft.com/7b412180-e453-4ae4-95a5-e5393e1d9197">DxgkDdiI2CReceiveDataFromDisplay</a>
  
 
  
-
 

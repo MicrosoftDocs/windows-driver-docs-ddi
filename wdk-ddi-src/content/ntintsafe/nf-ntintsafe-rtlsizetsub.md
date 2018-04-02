@@ -7,7 +7,7 @@ old-location: kernel\rtlsizetsub.htm
 old-project: kernel
 ms.assetid: B7508B3B-DCE7-42F4-9257-E1E140625DA9
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: RtlSizeTSub, RtlSizeTSub function [Kernel-Mode Driver Architecture], kernel.rtlsizetsub, ntintsafe/RtlSizeTSub
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,18 +50,6 @@ req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
 
 
 Subtracts one value of type <b>SIZE_T</b> from another.
-
-
-## -syntax
-
-
-````
-NTSTATUS RtlSizeTSub(
-  _In_  SIZE_T Minuend,
-  _In_  SIZE_T Subtrahend,
-  _Out_ SIZE_T *pResult
-);
-````
 
 
 ## -parameters

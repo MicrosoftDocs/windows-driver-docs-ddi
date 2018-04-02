@@ -7,7 +7,7 @@ old-location: buses\ioctl_internal_usb_get_topology_address.htm
 old-project: usbref
 ms.assetid: 15a196de-7d6a-408a-97e1-58d6756433db
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_INTERNAL_USB_GET_TOPOLOGY_ADDRESS, IOCTL_INTERNAL_USB_GET_TOPOLOGY_ADDRESS control code [Buses], buses.ioctl_internal_usb_get_topology_address, usbioctl/IOCTL_INTERNAL_USB_GET_TOPOLOGY_ADDRESS
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -63,22 +63,22 @@ The <b>IOCTL_INTERNAL_USB_GET_TOPOLOGY_ADDRESS</b>
 
 ### -input-buffer
 
-<b>Parameters.Others.Argument1</b> points to a <a href="..\usbioctl\ns-usbioctl-_usb_topology_address.md">USB_TOPOLOGY_ADDRESS</a> structure to receive the device topology information.
+<b>Parameters.Others.Argument1</b> points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff540164">USB_TOPOLOGY_ADDRESS</a> structure to receive the device topology information.
 
 
 ### -input-buffer-length
 
-The size of a <a href="..\usbioctl\ns-usbioctl-_usb_topology_address.md">USB_TOPOLOGY_ADDRESS</a> structure.
+The size of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff540164">USB_TOPOLOGY_ADDRESS</a> structure.
 
 
 ### -output-buffer
 
-<b>Parameters.Others.Argument1</b> points to a <a href="..\usbioctl\ns-usbioctl-_usb_topology_address.md">USB_TOPOLOGY_ADDRESS</a> structure containing the device topology information.
+<b>Parameters.Others.Argument1</b> points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff540164">USB_TOPOLOGY_ADDRESS</a> structure containing the device topology information.
 
 
 ### -output-buffer-length
 
-The size of a <a href="..\usbioctl\ns-usbioctl-_usb_topology_address.md">USB_TOPOLOGY_ADDRESS</a> structure.
+The size of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff540164">USB_TOPOLOGY_ADDRESS</a> structure.
 
 
 ### -in-out-buffer
@@ -106,12 +106,11 @@ The hub or port driver sets <b>Irp-&gt;IoStatus.Status</b> to STATUS_SUCCESS or 
 
 ## -see-also
 
+
+
+
 <b>USB_TOPOLOGY_ADDRESS</b>
-
-
-
  
 
  
-
 

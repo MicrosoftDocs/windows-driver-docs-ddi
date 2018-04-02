@@ -53,22 +53,6 @@ req.product: Windows 10 or later.
 Contains the necessary data for logging a branch office job Pipeline Rendering Event on a remote server. This is based on job-related data available to the spooler.
 
 
-## -syntax
-
-
-````
-typedef struct {
-  LONGLONG Size;
-  DWORD    ICMMethod;
-  short    Color;
-  short    PrintQuality;
-  short    YResolution;
-  short    Copies;
-  short    TTOption;
-} BranchOfficeJobDataRendered, *PBranchOfficeJobDataRendered;
-````
-
-
 ## -struct-fields
 
 

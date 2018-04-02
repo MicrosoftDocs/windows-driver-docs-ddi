@@ -7,7 +7,7 @@ old-location: netvista\ndis_nic_switch_info.htm
 old-project: netvista
 ms.assetid: 0da6927f-c940-4e46-a63a-2127bd7fa63d
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*PNDIS_NIC_SWITCH_INFO, NDIS_NIC_SWITCH_INFO, NDIS_NIC_SWITCH_INFO structure [Network Drivers Starting with Windows Vista], PNDIS_NIC_SWITCH_INFO, PNDIS_NIC_SWITCH_INFO structure pointer [Network Drivers Starting with Windows Vista], _NDIS_NIC_SWITCH_INFO, netvista.ndis_nic_switch_info, ntddndis/NDIS_NIC_SWITCH_INFO, ntddndis/PNDIS_NIC_SWITCH_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,30 +52,6 @@ req.typenames: NDIS_NIC_SWITCH_INFO, *PNDIS_NIC_SWITCH_INFO
 The <b>NDIS_NIC_SWITCH_INFO</b> structure specifies the information about a network adapter switch on a network adapter. 
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_NIC_SWITCH_INFO {
-  NDIS_OBJECT_HEADER            Header;
-  ULONG                         Flags;
-  NDIS_NIC_SWITCH_TYPE          SwitchType;
-  NDIS_NIC_SWITCH_ID            SwitchId;
-  NDIS_NIC_SWITCH_FRIENDLY_NAME SwitchFriendlyName;
-  ULONG                         NumVFs;
-  ULONG                         NumAllocatedVFs;
-  ULONG                         NumVPorts;
-  ULONG                         NumActiveVPorts;
-  ULONG                         NumQueuePairsForDefaultVPort;
-  ULONG                         NumQueuePairsForNonDefaultVPorts;
-  ULONG                         NumActiveDefaultVPortMacAddresses;
-  ULONG                         NumActiveNonDefaultVPortMacAddresses;
-  ULONG                         NumActiveDefaultVPortVlanIds;
-  ULONG                         NumActiveNonDefaultVPortVlanIds;
-} NDIS_NIC_SWITCH_INFO, *PNDIS_NIC_SWITCH_INFO;
-````
-
-
 ## -struct-fields
 
 
@@ -83,7 +59,7 @@ typedef struct _NDIS_NIC_SWITCH_INFO {
 
 ### -field Header
 
-The type, revision, and size of the <b>NDIS_NIC_SWITCH_INFO</b> structure. This member is formatted as an <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure.
+The type, revision, and size of the <b>NDIS_NIC_SWITCH_INFO</b> structure. This member is formatted as an <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure.
 
 The miniport driver must set the <b>Type</b> member of <b>Header</b> to NDIS_OBJECT_TYPE_DEFAULT. To specify the version of the <b>NDIS_NIC_SWITCH_INFO</b> structure, the driver must set the <b>Revision</b> member of <b>Header</b> to the following value: 
 
@@ -107,7 +83,7 @@ A ULONG value that contains a bitwise OR of configuration flags that are enabled
 
 ### -field SwitchType
 
-An <a href="..\ntddndis\ne-ntddndis-_ndis_nic_switch_type.md">NDIS_NIC_SWITCH_TYPE</a> value that specifies the type of the switch.
+An <a href="https://msdn.microsoft.com/library/windows/hardware/hh451589">NDIS_NIC_SWITCH_TYPE</a> value that specifies the type of the switch.
 
 
 ### -field SwitchId
@@ -195,7 +171,7 @@ A ULONG value that specifies the number of VLAN identifier filters that are curr
 
 
 
-The <b>NDIS_NIC_SWITCH_INFO</b> structure is used in OID query requests of <a href="https://msdn.microsoft.com/library/windows/hardware/hh451819">OID_NIC_SWITCH_ENUM_SWITCHES</a>. This OID request is used to enumerate the network adapter switches on a network adapter. When this OID request is issued, one or more <b>NDIS_NIC_SWITCH_INFO</b> structures are returned within an <a href="..\ntddndis\ns-ntddndis-_ndis_nic_switch_info_array.md">NDIS_NIC_SWITCH_INFO_ARRAY</a> structure.
+The <b>NDIS_NIC_SWITCH_INFO</b> structure is used in OID query requests of <a href="https://msdn.microsoft.com/library/windows/hardware/hh451819">OID_NIC_SWITCH_ENUM_SWITCHES</a>. This OID request is used to enumerate the network adapter switches on a network adapter. When this OID request is issued, one or more <b>NDIS_NIC_SWITCH_INFO</b> structures are returned within an <a href="https://msdn.microsoft.com/library/windows/hardware/hh451584">NDIS_NIC_SWITCH_INFO_ARRAY</a> structure.
 
 <div class="alert"><b>Note</b>  Starting with NDIS 6.30, only the <b>NDIS_NIC_SWITCH_INFO</b> that describes the information about the default network adapter switch is returned through an OID request of <a href="https://msdn.microsoft.com/library/windows/hardware/hh451819">OID_NIC_SWITCH_ENUM_SWITCHES</a>.</div>
 <div> </div>
@@ -208,19 +184,6 @@ For more information about the SR-IOV interface, see 	<a href="https://msdn.micr
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451816">OID_NIC_SWITCH_CREATE_VPORT</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_nic_switch_info_array.md">NDIS_NIC_SWITCH_INFO_ARRAY</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451815">OID_NIC_SWITCH_CREATE_SWITCH</a>
 
 
 
@@ -228,8 +191,20 @@ For more information about the SR-IOV interface, see 	<a href="https://msdn.micr
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451584">NDIS_NIC_SWITCH_INFO_ARRAY</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451815">OID_NIC_SWITCH_CREATE_SWITCH</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451816">OID_NIC_SWITCH_CREATE_VPORT</a>
  
 
  
-
 

@@ -53,23 +53,6 @@ req.product: Windows 10 or later.
 Contains the necessary data for logging a branch office job completed event on a remote server. This is based on standard job-related data available to the spooler.
 
 
-## -syntax
-
-
-````
-typedef struct {
-  DWORD    Status;
-  LPWSTR   pDocumentName;
-  LPWSTR   pUserName;
-  LPWSTR   pMachineName;
-  LPWSTR   pPrinterName;
-  LPWSTR   pPortName;
-  LONGLONG Size;
-  DWORD    TotalPages;
-} BranchOfficeJobDataPrinted, *PBranchOfficeJobDataPrinted;
-````
-
-
 ## -struct-fields
 
 

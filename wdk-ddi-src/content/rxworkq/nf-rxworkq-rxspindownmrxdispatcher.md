@@ -7,7 +7,7 @@ old-location: ifsk\rxspindownmrxdispatcher.htm
 old-project: ifsk
 ms.assetid: 0ec10c43-df57-4661-9106-8edc6b76f5d7
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: RxSpinDownMRxDispatcher, RxSpinDownMRxDispatcher function [Installable File System Drivers], ifsk.rxspindownmrxdispatcher, rxref_aa43a136-8df7-45f1-bf52-48792c094f31.xml, rxworkq/RxSpinDownMRxDispatcher
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,16 +53,6 @@ req.product: Windows 10 or later.
 <b>RxSpinDownMRxDispatcher</b> tears down the dispatcher context for a network mini-redirector. 
 
 
-## -syntax
-
-
-````
-NTSTATUS RxSpinDownMRxDispatcher(
-  _Inout_ PRDBSS_DEVICE_OBJECT pMRxDeviceObject
-);
-````
-
-
 ## -parameters
 
 
@@ -95,16 +85,15 @@ The <b>RxSpinDownMRxDispatcher</b> routine is also called internally by the <b>R
 
 ## -see-also
 
-<a href="..\rxworkq\nf-rxworkq-rxdispatchtoworkerthread.md">RxDispatchToWorkerThread</a>
 
 
 
-<a href="..\rxworkq\nf-rxworkq-rxposttoworkerthread.md">RxPostToWorkerThread</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554398">RxDispatchToWorkerThread</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554620">RxPostToWorkerThread</a>
  
 
  
-
 

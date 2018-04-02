@@ -53,18 +53,6 @@ req.typenames: KSP_BDA_NODE_PIN, *PKSP_BDA_NODE_PIN
 The <b>BdaPropertyNodeEvents</b> function retrieves a list of events that a node supports. 
 
 
-## -syntax
-
-
-````
-NTSTATUS BdaPropertyNodeEvents(
-  _In_      PIRP      Irp,
-  _In_      PKSP_NODE pKSProperty,
-  _Out_opt_ GUID      *pguidProperty
-);
-````
-
-
 ## -parameters
 
 
@@ -110,11 +98,10 @@ A BDA minidriver calls the <b>BdaPropertyNodeEvents</b> function to retrieve the
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566561">KSPROPSETID_BdaTopology</a>
 
 
 
@@ -122,8 +109,8 @@ A BDA minidriver calls the <b>BdaPropertyNodeEvents</b> function to retrieve the
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566561">KSPROPSETID_BdaTopology</a>
  
 
  
-
 

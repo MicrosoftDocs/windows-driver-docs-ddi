@@ -52,17 +52,6 @@ req.typenames: KSPROCESSPIN_INDEXENTRY, *PKSPROCESSPIN_INDEXENTRY
 The KSPROCESSPIN_INDEXENTRY structure is used in <a href="https://msdn.microsoft.com/e56c5102-7ea6-4687-ae5e-1550db9500f0">Filter-Centric Processing</a> to bring together all of the input and output pins in one context.
 
 
-## -syntax
-
-
-````
-typedef struct _KSPROCESSPIN_INDEXENTRY {
-  PKSPROCESSPIN *Pins;
-  ULONG         Count;
-} KSPROCESSPIN_INDEXENTRY, *PKSPROCESSPIN_INDEXENTRY;
-````
-
-
 ## -struct-fields
 
 
@@ -70,7 +59,7 @@ typedef struct _KSPROCESSPIN_INDEXENTRY {
 
 ### -field Pins
 
-A pointer to an array of <a href="..\ks\ns-ks-_ksprocesspin.md">KSPROCESSPIN</a> structures. The array contains a listing of the instances of the given pin.
+A pointer to an array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff564256">KSPROCESSPIN</a> structures. The array contains a listing of the instances of the given pin.
 
 
 ### -field Count
@@ -82,7 +71,7 @@ This member specifies the number of process pins in <i>Pins</i> that are current
 
 
 
-This pointer table is indexed in order of the pins described in the pin descriptor table for the corresponding filter. The first pin described in the descriptor table has the first entry in the index table passed to the processing dispatch. See the processing dispatch in <a href="..\ks\ns-ks-_kspin_dispatch.md">KSPIN_DISPATCH</a>.
+This pointer table is indexed in order of the pins described in the pin descriptor table for the corresponding filter. The first pin described in the descriptor table has the first entry in the index table passed to the processing dispatch. See the processing dispatch in <a href="https://msdn.microsoft.com/library/windows/hardware/ff563535">KSPIN_DISPATCH</a>.
 
 For more information, see <a href="https://msdn.microsoft.com/e56c5102-7ea6-4687-ae5e-1550db9500f0">Filter-Centric Processing</a>.
 
@@ -91,12 +80,11 @@ For more information, see <a href="https://msdn.microsoft.com/e56c5102-7ea6-4687
 
 ## -see-also
 
-<a href="..\ks\ns-ks-_ksprocesspin.md">KSPROCESSPIN</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564256">KSPROCESSPIN</a>
  
 
  
-
 

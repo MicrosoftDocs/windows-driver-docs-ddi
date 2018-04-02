@@ -7,7 +7,7 @@ old-location: debugger\controlledoutput.htm
 old-project: debugger
 ms.assetid: d1a4aba3-9567-4d8e-980c-f6a85f54870e
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: ControlledOutput method [Windows Debugging], ControlledOutput method [Windows Debugging], IDebugControl interface, ControlledOutput method [Windows Debugging], IDebugControl2 interface, ControlledOutput method [Windows Debugging], IDebugControl3 interface, ControlledOutput,IDebugControl3.ControlledOutput, IDebugControl interface [Windows Debugging], ControlledOutput method, IDebugControl2 interface [Windows Debugging], ControlledOutput method, IDebugControl2::ControlledOutput, IDebugControl3, IDebugControl3 interface [Windows Debugging], ControlledOutput method, IDebugControl3::ControlledOutput, IDebugControl::ControlledOutput, IDebugControl_b35fb81f-3425-4a39-8c80-b6e8a161ba71.xml, dbgeng/IDebugControl2::ControlledOutput, dbgeng/IDebugControl3::ControlledOutput, dbgeng/IDebugControl::ControlledOutput, debugger.controlledoutput
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,19 +52,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>ControlledOutput</b>  method formats a string and sends the result to <a href="https://msdn.microsoft.com/7a23ee09-0314-400a-8152-eef49a225427">output callbacks</a> that were registered with some of the engine's clients.
-
-
-## -syntax
-
-
-````
-HRESULT ControlledOutput(
-  [in] ULONG OutputControl,
-  [in] ULONG Mask,
-  [in] PCSTR Format,
-             ...
-);
-````
 
 
 ## -parameters
@@ -480,11 +467,6 @@ When generating very large output strings, it is possible to reach the limits of
 
 ## -see-also
 
-<a href="..\wdbgexts\nc-wdbgexts-pwindbg_output_routine.md">dprintf</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553183">Output</a>
 
 
 
@@ -492,24 +474,28 @@ When generating very large output strings, it is possible to reach the limits of
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539252">ControlledOutputVaList</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550508">IDebugControl</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550512">IDebugControl2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550519">IDebugControl3</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553183">Output</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542750">dprintf</a>
  
 
  
-
 

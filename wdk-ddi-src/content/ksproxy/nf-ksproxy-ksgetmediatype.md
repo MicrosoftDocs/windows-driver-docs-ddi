@@ -53,19 +53,6 @@ req.typenames: PIPE_STATE
 The <b>KsGetMediaType</b> function retrieves information about a media type on a pin factory identifier. 
 
 
-## -syntax
-
-
-````
-HRESULT KsGetMediaType(
-  _In_  int           Position,
-  _Out_ AM_MEDIA_TYPE *AmMediaType,
-  _In_  HANDLE        FilterHandle,
-  _In_  ULONG         PinFactoryId
-);
-````
-
-
 ## -parameters
 
 
@@ -113,12 +100,11 @@ For more information about AM_MEDIA_TYPE, see the Microsoft Windows SDK document
 
 ## -see-also
 
-<a href="..\ksproxy\nn-ksproxy-ikspinfactory.md">IKsPinFactory</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559910">IKsPinFactory</a>
  
 
  
-
 

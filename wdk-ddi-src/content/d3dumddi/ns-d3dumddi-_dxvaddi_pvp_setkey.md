@@ -7,7 +7,7 @@ old-location: display\dxvaddi_pvp_setkey.htm
 old-project: display
 ms.assetid: 3707f9c9-109e-4ac2-bc34-c9f4f7651306
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXVA2_Structs_fbd26ed2-13ce-4f15-a7de-544f6f5fac33.xml, DXVADDI_PVP_SETKEY, DXVADDI_PVP_SETKEY structure [Display Devices], _DXVADDI_PVP_SETKEY, d3dumddi/DXVADDI_PVP_SETKEY, display.dxvaddi_pvp_setkey
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,16 +52,6 @@ req.typenames: DXVADDI_PVP_SETKEY
 The DXVADDI_PVP_SETKEY structure describes a key that the decode device uses to start decoding a frame. 
 
 
-## -syntax
-
-
-````
-typedef struct _DXVADDI_PVP_SETKEY {
-  DXVADDI_PVP_KEY128 ContentKey;
-} DXVADDI_PVP_SETKEY;
-````
-
-
 ## -struct-fields
 
 
@@ -69,25 +59,24 @@ typedef struct _DXVADDI_PVP_SETKEY {
 
 ### -field ContentKey
 
-[in] A <a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_pvp_block128.md">DXVADDI_PVP_KEY128</a> structure that contains the 128-bit key.
+[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff562922">DXVADDI_PVP_KEY128</a> structure that contains the 128-bit key.
 
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_pvp_block128.md">DXVADDI_PVP_KEY128</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_decodebeginframe.md">D3DDDIARG_DECODEBEGINFRAME</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542987">D3DDDIARG_DECODEBEGINFRAME</a>
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_decodebeginframe.md">DecodeBeginFrame</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562922">DXVADDI_PVP_KEY128</a>
 
 
 
+<a href="https://msdn.microsoft.com/3e6153aa-7b21-429d-8908-1ff3a4d25e17">DecodeBeginFrame</a>
  
 
  
-
 

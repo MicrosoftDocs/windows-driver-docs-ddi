@@ -7,7 +7,7 @@ old-location: kernel\irq_device_policy.htm
 old-project: kernel
 ms.assetid: 1a605eed-d9a1-4a2f-a095-3e790061527b
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: "*PIRQ_DEVICE_POLICY, IRQ_DEVICE_POLICY, IRQ_DEVICE_POLICY enumeration [Kernel-Mode Driver Architecture], IrqPolicyAllCloseProcessors, IrqPolicyAllProcessorsInMachine, IrqPolicyMachineDefault, IrqPolicyOneCloseProcessor, IrqPolicySpecifiedProcessors, IrqPolicySpreadMessagesAcrossAllProcessors, PIRQ_DEVICE_POLICY, PIRQ_DEVICE_POLICY enumeration pointer [Kernel-Mode Driver Architecture], _IRQ_DEVICE_POLICY, kernel.irq_device_policy, sysenum_09bcf230-5558-447e-8646-c60d807365d4.xml, wdm/IRQ_DEVICE_POLICY, wdm/IrqPolicyAllCloseProcessors, wdm/IrqPolicyAllProcessorsInMachine, wdm/IrqPolicyMachineDefault, wdm/IrqPolicyOneCloseProcessor, wdm/IrqPolicySpecifiedProcessors, wdm/IrqPolicySpreadMessagesAcrossAllProcessors, wdm/PIRQ_DEVICE_POLICY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,21 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>IRQ_DEVICE_POLICY</b> enumeration type indicates the policy the operating system can use to assign the interrupts from a device to different processors.
-
-
-## -syntax
-
-
-````
-typedef enum _IRQ_DEVICE_POLICY { 
-  IrqPolicyMachineDefault                     = 0,
-  IrqPolicyAllCloseProcessors                 = 1,
-  IrqPolicyOneCloseProcessor                  = 2,
-  IrqPolicyAllProcessorsInMachine             = 3,
-  IrqPolicySpecifiedProcessors                = 4,
-  IrqPolicySpreadMessagesAcrossAllProcessors  = 5
-} IRQ_DEVICE_POLICY, *PIRQ_DEVICE_POLICY;
-````
 
 
 ## -enum-fields
@@ -112,19 +97,18 @@ The operating system should assign different message-signaled interrupts to diff
 
 
 
-The <b>Interrupt.AffinityPolicy</b> member of the <a href="..\wdm\ns-wdm-_io_resource_descriptor.md">IO_RESOURCE_DESCRIPTOR</a> structure is an <b>IRQ_DEVICE_POLICY</b> enumeration value.
+The <b>Interrupt.AffinityPolicy</b> member of the <a href="https://msdn.microsoft.com/03e3a656-c691-4aff-bcc8-4e0bc8390fd7">IO_RESOURCE_DESCRIPTOR</a> structure is an <b>IRQ_DEVICE_POLICY</b> enumeration value.
 
 
 
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_io_resource_descriptor.md">IO_RESOURCE_DESCRIPTOR</a>
 
 
 
+<a href="https://msdn.microsoft.com/03e3a656-c691-4aff-bcc8-4e0bc8390fd7">IO_RESOURCE_DESCRIPTOR</a>
  
 
  
-
 

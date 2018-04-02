@@ -7,7 +7,7 @@ old-location: audio\iinterruptsync_disconnect.htm
 old-project: audio
 ms.assetid: 799273eb-0ff6-4815-ac32-8fbb01f457e2
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/19/2018
 ms.keywords: Disconnect method [Audio Devices], Disconnect method [Audio Devices], IInterruptSync interface, Disconnect,IInterruptSync.Disconnect, IInterruptSync, IInterruptSync interface [Audio Devices], Disconnect method, IInterruptSync::Disconnect, audio.iinterruptsync_disconnect, audmp-routines_f25f0c99-96e2-4f1b-9930-e736a6394759.xml, portcls/IInterruptSync::Disconnect
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,16 +52,6 @@ req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 The <code>Disconnect</code> method disconnects the synchronization object from the interrupt.
 
 
-## -syntax
-
-
-````
-void Disconnect(
-    None
-);
-````
-
-
 ## -parameters
 
 
@@ -83,16 +73,15 @@ None
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iinterruptsync.md">IInterruptSync</a>
 
 
 
-<a href="..\wdm\nf-wdm-iodisconnectinterrupt.md">IoDisconnectInterrupt</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536590">IInterruptSync</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549089">IoDisconnectInterrupt</a>
  
 
  
-
 

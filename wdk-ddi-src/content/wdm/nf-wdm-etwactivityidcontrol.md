@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 The <b>EtwActivityIdControl</b> function creates, queries, and sets the current activity identifier. 
 
 
-## -syntax
-
-
-````
-NTSTATUS EtwActivityIdControl(
-  _In_    ULONG  ControlCode,
-  _Inout_ LPGUID ActivityId
-);
-````
-
-
 ## -parameters
 
 
@@ -165,12 +154,11 @@ Use the <a href="https://msdn.microsoft.com/library/windows/hardware/dn268326">E
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn268326">EtwActivityIdControlKernel</a>
-
-
-
  
 
  
-
 

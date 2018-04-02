@@ -53,22 +53,6 @@ req.product: Windows 10 or later.
 An SPB controller driver's <i>EvtSpbControllerIoSequence</i> event callback function performs a sequence of data transfers between the specified target device and the buffers that are supplied with the sequence request.
 
 
-## -prototype
-
-
-````
-EVT_SPB_CONTROLLER_SEQUENCE EvtSpbControllerIoSequence;
-
-VOID EvtSpbControllerIoSequence(
-  _In_ WDFDEVICE  Controller,
-  _In_ SPBTARGET  Target,
-  _In_ SPBREQUEST Request,
-  _In_ ULONG      TransferCount
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -176,7 +160,6 @@ The EVT_SPB_CONTROLLER_SEQUENCE function type is defined in the Spbcx.h header f
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450857">IOCTL_SPB_EXECUTE_SEQUENCE</a>
 
 
 
@@ -184,23 +167,7 @@ The EVT_SPB_CONTROLLER_SEQUENCE function type is defined in the Spbcx.h header f
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/spb/spbcx-object-handles">SPBREQUEST</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450919">SpbDeviceInitialize</a>
-
-
-
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/spb/spbcx-object-handles">SPBTARGET</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450924">SpbRequestGetTransferParameters</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550819">IRP_MJ_WRITE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450857">IOCTL_SPB_EXECUTE_SEQUENCE</a>
 
 
 
@@ -208,8 +175,24 @@ The EVT_SPB_CONTROLLER_SEQUENCE function type is defined in the Spbcx.h header f
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550819">IRP_MJ_WRITE</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/spb/spbcx-object-handles">SPBREQUEST</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/spb/spbcx-object-handles">SPBTARGET</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450919">SpbDeviceInitialize</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450924">SpbRequestGetTransferParameters</a>
  
 
  
-
 

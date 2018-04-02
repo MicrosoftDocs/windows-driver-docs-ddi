@@ -7,7 +7,7 @@ old-location: kernel\kesetbaseprioritythread.htm
 old-project: kernel
 ms.assetid: 7070070c-a953-4120-bddf-c1a7f080ef50
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: KeSetBasePriorityThread, KeSetBasePriorityThread routine [Kernel-Mode Driver Architecture], k105_6c558266-e459-447c-9586-4b327e24d7dd.xml, kernel.kesetbaseprioritythread, ntddk/KeSetBasePriorityThread
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,17 +52,6 @@ req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 The <b>KeSetBasePriorityThread</b> routine sets the run-time priority, relative to the current process, for a given thread.
 
 
-## -syntax
-
-
-````
-LONG KeSetBasePriorityThread(
-  _Inout_ PKTHREAD Thread,
-  _In_    LONG     Increment
-);
-````
-
-
 ## -parameters
 
 
@@ -102,20 +91,19 @@ The new base priority is restricted to the priority class of the given thread's 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kesetprioritythread.md">KeSetPriorityThread</a>
 
 
 
-<a href="..\wdm\nf-wdm-kegetcurrentthread.md">KeGetCurrentThread</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552084">KeGetCurrentThread</a>
 
 
 
-<a href="..\wdm\nf-wdm-kequeryprioritythread.md">KeQueryPriorityThread</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553062">KeQueryPriorityThread</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553265">KeSetPriorityThread</a>
  
 
  
-
 

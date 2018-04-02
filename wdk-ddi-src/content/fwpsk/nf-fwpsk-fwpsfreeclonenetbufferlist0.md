@@ -7,7 +7,7 @@ old-location: netvista\fwpsfreeclonenetbufferlist0.htm
 old-project: netvista
 ms.assetid: 0d0dea63-de0d-4421-b123-ce31ac6af1d9
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: FwpsFreeCloneNetBufferList0, FwpsFreeCloneNetBufferList0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsFreeCloneNetBufferList0, netvista.fwpsfreeclonenetbufferlist0, wfp_ref_2_funct_3_fwps_D-H_23efae1d-62cd-4559-b332-08ff843c3ab6.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,22 +52,11 @@ req.typenames: FWPS_VSWITCH_EVENT_TYPE
 
 The 
   <b>FwpsFreeCloneNetBufferList0</b> function frees a clone 
-  <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure that was previously
+  <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structure that was previously
   allocated by a call to the 
-  <a href="..\fwpsk\nf-fwpsk-fwpsallocateclonenetbufferlist0.md">
+  <a href="https://msdn.microsoft.com/72759748-fac6-45b9-9a81-ab71e6e7c3ef">
   FwpsAllocateCloneNetBufferList0</a> function.
 <div class="alert"><b>Note</b>  <b>FwpsFreeCloneNetBufferList0</b> is a specific version of <b>FwpsFreeCloneNetBufferList</b>. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
-
-## -syntax
-
-
-````
-void NTAPI FwpsFreeCloneNetBufferList0(
-  _Inout_ NET_BUFFER_LIST *netBufferList,
-  _In_    ULONG           freeCloneFlags
-);
-````
-
 
 ## -parameters
 
@@ -77,7 +66,7 @@ void NTAPI FwpsFreeCloneNetBufferList0(
 ### -param netBufferList [in, out]
 
 A pointer to the clone 
-     <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure that is being
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structure that is being
      freed.
 
 
@@ -102,26 +91,25 @@ None.
 
 A callout driver calls the 
     <b>FwpsFreeCloneNetBufferList0</b> function to free a clone 
-    <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure that was
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structure that was
     previously allocated by a call to the 
-    <a href="..\fwpsk\nf-fwpsk-fwpsallocateclonenetbufferlist0.md">FwpsAllocateCloneNetBufferList0</a> function.
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff551134">FwpsAllocateCloneNetBufferList0</a> function.
 
 
 
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
 
 
-<a href="..\fwpsk\nf-fwpsk-fwpsallocateclonenetbufferlist0.md">
+<a href="https://msdn.microsoft.com/72759748-fac6-45b9-9a81-ab71e6e7c3ef">
    FwpsAllocateCloneNetBufferList0</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a>
  
 
  
-
 

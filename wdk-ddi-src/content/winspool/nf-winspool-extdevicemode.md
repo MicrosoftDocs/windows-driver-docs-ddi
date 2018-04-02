@@ -55,23 +55,6 @@ The <b>ExtDeviceMode</b> function is provided only for compatibility with 16-bit
 The <b>ExtDeviceMode</b> function retrieves or modifies printer initialization information for a given graphics driver, or displays a driver-supplied printer-configuration property sheet for the specified printer.
 
 
-## -syntax
-
-
-````
-LONG ExtDeviceMode(
-  _In_opt_ HWND       hWnd,
-  _In_opt_ HANDLE     hInst,
-  _Inout_  LPDEVMODEA pDevModeOutput,
-  _In_opt_ LPSTR      pDeviceName,
-  _In_opt_ LPSTR      pPort,
-  _In_opt_ LPDEVMODEA pDevModeInput,
-  _In_opt_ LPSTR      pProfile,
-           DWORD      fMode
-);
-````
-
-
 ## -parameters
 
 

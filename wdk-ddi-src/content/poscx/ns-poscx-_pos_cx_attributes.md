@@ -52,20 +52,7 @@ req.product: Windows 10 or later.
 
 The POS_CX_ATTRIBUTES structure contains pointers to event callback functions implemented by the client driver.
 
-Use <a href="..\poscx\nf-poscx-pos_cx_attributes_init.md">POS_CX_ATTRIBUTES_INIT</a> to initialize this structure.
-
-
-## -syntax
-
-
-````
-typedef struct _POS_CX_ATTRIBUTES {
-  PFN_POS_CX_DEVICE_OWNERSHIP_CHANGE EvtDeviceOwnershipChange;
-  PFN_POS_CX_DEVICE_REMOTE_CLAIM     EvtDeviceRemoteClaim;
-  PFN_POS_CX_DEVICE_REMOTE_RELEASE   EvtDeviceRemoteRelease;
-  PFN_POS_CX_DEVICE_REMOTE_RETAIN    EvtDeviceRemoteRetain;
-} POS_CX_ATTRIBUTES, *PPOS_CX_ATTRIBUTES;
-````
+Use <a href="https://msdn.microsoft.com/library/windows/hardware/mt593141">POS_CX_ATTRIBUTES_INIT</a> to initialize this structure.
 
 
 ## -struct-fields
@@ -75,36 +62,35 @@ typedef struct _POS_CX_ATTRIBUTES {
 
 ### -field EvtDeviceOwnershipChange
 
-A pointer to an <a href="..\poscx\nc-poscx-evt_pos_cx_device_ownership_change.md">EVT_POS_CX_DEVICE_OWNERSHIP_CHANGE</a> callback function.
+A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/mt593115">EVT_POS_CX_DEVICE_OWNERSHIP_CHANGE</a> callback function.
 
 
 ### -field EvtDeviceRemoteClaim
 
-A pointer to an <a href="..\poscx\nc-poscx-evt_pos_cx_device_remote_claim.md">EVT_POS_CX_DEVICE_REMOTE_CLAIM</a> callback function.
+A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/mt593116">EVT_POS_CX_DEVICE_REMOTE_CLAIM</a> callback function.
 
 
 ### -field EvtDeviceRemoteRelease
 
-A pointer to an <a href="..\poscx\nc-poscx-evt_pos_cx_device_remote_release.md">EVT_POS_CX_DEVICE_REMOTE_RELEASE</a> callback function.
+A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/mt593117">EVT_POS_CX_DEVICE_REMOTE_RELEASE</a> callback function.
 
 
 ### -field EvtDeviceRemoteRetain
 
-A pointer to an <a href="..\poscx\nc-poscx-evt_pos_cx_device_remote_retain.md">EVT_POS_CX_DEVICE_REMOTE_RETAIN</a> callback function.
+A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/mt593118">EVT_POS_CX_DEVICE_REMOTE_RETAIN</a> callback function.
 
 
 ## -see-also
 
-<a href="..\poscx\nf-poscx-pos_cx_attributes_init.md">POS_CX_ATTRIBUTES_INIT</a>
 
 
 
-<a href="..\poscx\nf-poscx-poscxinit.md">PosCxInit</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt593141">POS_CX_ATTRIBUTES_INIT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt593125">PosCxInit</a>
  
 
  
-
 

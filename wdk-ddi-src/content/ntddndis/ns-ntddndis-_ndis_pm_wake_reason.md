@@ -7,7 +7,7 @@ old-location: netvista\ndis_pm_wake_reason.htm
 old-project: netvista
 ms.assetid: 9caed664-6367-4eb0-9c9f-551f8a5938bc
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*PNDIS_PM_WAKE_REASON, NDIS_PM_WAKE_REASON, NDIS_PM_WAKE_REASON structure [Network Drivers Starting with Windows Vista], PNDIS_PM_WAKE_REASON, PNDIS_PM_WAKE_REASON structure pointer [Network Drivers Starting with Windows Vista], _NDIS_PM_WAKE_REASON, netvista.ndis_pm_wake_reason, ntddndis/NDIS_PM_WAKE_REASON, ntddndis/PNDIS_PM_WAKE_REASON"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -55,20 +55,6 @@ The <b>NDIS_PM_WAKE_REASON</b> structure specifies information about the wake-up
 
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_PM_WAKE_REASON {
-  NDIS_OBJECT_HEADER       Header;
-  ULONG                    Flags;
-  NDIS_PM_WAKE_REASON_TYPE WakeReason;
-  ULONG                    InfoBufferOffset;
-  ULONG                    InfoBufferSize;
-} NDIS_PM_WAKE_REASON, *PNDIS_PM_WAKE_REASON;
-````
-
-
 ## -struct-fields
 
 
@@ -76,7 +62,7 @@ typedef struct _NDIS_PM_WAKE_REASON {
 
 ### -field Header
 
-The type, revision, and size of the <b>NDIS_PM_WAKE_REASON</b> structure. This member is formatted as an <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure.
+The type, revision, and size of the <b>NDIS_PM_WAKE_REASON</b> structure. This member is formatted as an <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure.
 
 The miniport driver must set the <b>Type</b> member of <b>Header</b> to NDIS_OBJECT_TYPE_DEFAULT. To specify the version of the <b>NDIS_PM_WAKE_REASON</b> structure, the driver must set the <b>Revision</b> member of <b>Header</b> to the following value: 
 
@@ -100,7 +86,7 @@ A <b>ULONG</b> value that contains a bitwise <b>OR</b> of flags. This member is 
 
 ### -field WakeReason
 
-An <a href="..\ntddndis\ne-ntddndis-_ndis_pm_wake_reason_type.md">NDIS_PM_WAKE_REASON_TYPE</a> enumeration value that specifies the reason why the network adapter generated the wake-up event.
+An <a href="https://msdn.microsoft.com/library/windows/hardware/hh451607">NDIS_PM_WAKE_REASON_TYPE</a> enumeration value that specifies the reason why the network adapter generated the wake-up event.
 
 
 ### -field InfoBufferOffset
@@ -132,11 +118,6 @@ For more information about how to issue an <a href="https://msdn.microsoft.com/l
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
-<a href="..\ntddndis\ne-ntddndis-_ndis_pm_wake_reason_type.md">NDIS_PM_WAKE_REASON_TYPE</a>
 
 
 
@@ -144,8 +125,12 @@ For more information about how to issue an <a href="https://msdn.microsoft.com/l
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451607">NDIS_PM_WAKE_REASON_TYPE</a>
  
 
  
-
 

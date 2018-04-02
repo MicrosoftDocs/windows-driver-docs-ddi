@@ -7,7 +7,7 @@ old-location: kernel\rtluinttochar.htm
 old-project: kernel
 ms.assetid: 1E4620A9-5CAA-4E45-9D43-1E183D7EB572
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: RtlUIntToChar, RtlUIntToChar function [Kernel-Mode Driver Architecture], kernel.rtluinttochar, ntintsafe/RtlUIntToChar
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,17 +50,6 @@ req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
 
 
 Converts a value of type <b>UINT</b> to a value of type <b>CHAR</b>.
-
-
-## -syntax
-
-
-````
-NTSTATUS RtlUIntToChar(
-  _In_  UINT uOperand,
-  _Out_ CHAR *pch
-);
-````
 
 
 ## -parameters

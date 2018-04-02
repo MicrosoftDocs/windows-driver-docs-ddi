@@ -52,33 +52,6 @@ req.typenames: SERIAL_COMMPROP, *PSERIAL_COMMPROP
 The <b>SERIAL_COMMPROP</b> structure specifies the properties of a serial port.
 
 
-## -syntax
-
-
-````
-typedef struct _SERIAL_COMMPROP {
-  USHORT PacketLength;
-  USHORT PacketVersion;
-  ULONG  ServiceMask;
-  ULONG  Reserved1;
-  ULONG  MaxTxQueue;
-  ULONG  MaxRxQueue;
-  ULONG  MaxBaud;
-  ULONG  ProvSubType;
-  ULONG  ProvCapabilities;
-  ULONG  SettableParams;
-  ULONG  SettableBaud;
-  USHORT SettableData;
-  USHORT SettableStopParity;
-  ULONG  CurrentTxQueue;
-  ULONG  CurrentRxQueue;
-  ULONG  ProvSpec1;
-  ULONG  ProvSpec2;
-  WCHAR  ProvChar[1];
-} SERIAL_COMMPROP, *PSERIAL_COMMPROP;
-````
-
-
 ## -struct-fields
 
 
@@ -468,7 +441,7 @@ For SerCx2 and SerCx, the associated serial controller driver typically sets thi
 
 Receive queue size. This member specifies the size, in bytes, of the serial controller driver's internal input buffer. A value of zero indicates that the buffer size is unavailable.
 
-For SerCx2 and SerCx, this member is set by the associated serial controller driver. For SerCx2, the driver typically sets this member to zero. For SerCx, the driver typically sets this member to the size of the ring buffer that SerCx uses to buffer received data. This driver can call the <a href="..\sercx\nf-sercx-sercxgetringbufferutilization.md">SerCxGetRingBufferUtilization</a> method to get the ring buffer size from SerCx.
+For SerCx2 and SerCx, this member is set by the associated serial controller driver. For SerCx2, the driver typically sets this member to zero. For SerCx, the driver typically sets this member to the size of the ring buffer that SerCx uses to buffer received data. This driver can call the <a href="https://msdn.microsoft.com/library/windows/hardware/hh406704">SerCxGetRingBufferUtilization</a> method to get the ring buffer size from SerCx.
 
 Serial.sys sets this member to a nonzero value that indicates the input buffer size.
 
@@ -492,19 +465,18 @@ Provider-specific data. Applications should ignore this member unless provider-s
 
 
 
-This structure is used by the <a href="..\ntddser\ni-ntddser-ioctl_serial_get_properties.md">IOCTL_SERIAL_GET_PROPERTIES</a> request.
+This structure is used by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff546597">IOCTL_SERIAL_GET_PROPERTIES</a> request.
 
 
 
 
 ## -see-also
 
-<a href="..\ntddser\ni-ntddser-ioctl_serial_get_properties.md">IOCTL_SERIAL_GET_PROPERTIES</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546597">IOCTL_SERIAL_GET_PROPERTIES</a>
  
 
  
-
 

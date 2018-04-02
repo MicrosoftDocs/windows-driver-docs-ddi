@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 
 
 
-## -syntax
-
-
-````
-HANDLE WINAPI CreatePrinterIC(
-  _In_     HANDLE     hPrinter,
-  _In_opt_ LPDEVMODEW pDevMode
-);
-````
-
-
 ## -parameters
 
 

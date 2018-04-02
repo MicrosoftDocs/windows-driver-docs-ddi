@@ -7,7 +7,7 @@ old-location: kernel\rtlstringcchvprintf.htm
 old-project: kernel
 ms.assetid: a3552042-15e6-4778-8026-a4b615228dc7
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: RtlStringCchVPrintf, RtlStringCchVPrintfA, RtlStringCchVPrintfW, RtlStringCchVPrintfW function [Kernel-Mode Driver Architecture], kernel.rtlstringcchvprintf, ntstrsafe/RtlStringCchVPrintfA, ntstrsafe/RtlStringCchVPrintfW, safestrings_7e5dc683-a092-4540-a6e5-81b72bae11ec.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,19 +53,6 @@ req.typenames: SYSTEM_POWER_STATE_CONTEXT, *PSYSTEM_POWER_STATE_CONTEXT
 
 
 The <b>RtlStringCchVPrintfW</b> and <b>RtlStringCchVPrintfA</b> functions create a character-counted text string, with formatting that is based on supplied formatting information.
-
-
-## -syntax
-
-
-````
-NTSTATUS RtlStringCchVPrintfW(
-  _Out_ LPTSTR  pszDest,
-  _In_  size_t  cchDest,
-  _In_  LPCTSTR pszFormat,
-  _In_  va_list argList
-);
-````
 
 
 ## -parameters
@@ -220,7 +207,7 @@ L"string"
 
 If <i>pszDest</i> and <i>pszFormat</i> point to overlapping strings, or if any argument strings overlap, the behavior of the function is undefined.
 
-Neither <i>pszFormat</i> nor <i>pszDest</i> can be <b>NULL</b>. If you need to handle <b>NULL</b> string pointer values, use <a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchvprintfexw.md">RtlStringCchVPrintfEx</a>.
+Neither <i>pszFormat</i> nor <i>pszDest</i> can be <b>NULL</b>. If you need to handle <b>NULL</b> string pointer values, use <a href="https://msdn.microsoft.com/library/windows/hardware/ff562868">RtlStringCchVPrintfEx</a>.
 
 For more information about the safe string functions, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565508">Using Safe String Functions</a>.
 
@@ -229,20 +216,19 @@ For more information about the safe string functions, see <a href="https://msdn.
 
 ## -see-also
 
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcbvprintfw.md">RtlStringCbVPrintf</a>
 
 
 
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchprintfw.md">RtlStringCchPrintf</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562831">RtlStringCbVPrintf</a>
 
 
 
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchvprintfexw.md">RtlStringCchVPrintfEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562859">RtlStringCchPrintf</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562868">RtlStringCchVPrintfEx</a>
  
 
  
-
 

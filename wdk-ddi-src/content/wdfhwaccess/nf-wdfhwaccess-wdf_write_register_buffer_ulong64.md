@@ -55,19 +55,6 @@ req.product: Windows 10 or later.
 The <b>WDF_WRITE_REGISTER_BUFFER_ULONG64</b> function writes a number of ULONG64 values from a buffer to the specified register.
 
 
-## -syntax
-
-
-````
-void WDF_WRITE_REGISTER_BUFFER_ULONG64(
-  _In_ WDFDEVICE Device,
-  _In_ PULONG64  Register,
-  _In_ PULONG64  Buffer,
-  _In_ ULONG     Count 
-);
-````
-
-
 ## -parameters
 
 

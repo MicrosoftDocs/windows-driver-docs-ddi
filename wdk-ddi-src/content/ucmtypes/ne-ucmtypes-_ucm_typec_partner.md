@@ -7,7 +7,7 @@ old-location: buses\ucm_type_c_port_state.htm
 old-project: usbref
 ms.assetid: 4779E943-5C13-4DE2-AF8F-37657F0F99C0
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: UCM_TYPEC_PARTNER, UCM_TYPEC_PARTNER enumeration [Buses], UcmTypeCPartnerStateAudioAccessory, UcmTypeCPartnerStateDebugAccessory, UcmTypeCPartnerStateDfp, UcmTypeCPartnerStateInvalid, UcmTypeCPartnerStatePoweredCableNoUfp, UcmTypeCPartnerStatePoweredCableWithUfp, UcmTypeCPartnerStateUfp, _UCM_TYPEC_PARTNER, buses.ucm_type_c_port_state, ucmtypes/UCM_TYPEC_PARTNER, ucmtypes/UcmTypeCPartnerStateAudioAccessory, ucmtypes/UcmTypeCPartnerStateDebugAccessory, ucmtypes/UcmTypeCPartnerStateDfp, ucmtypes/UcmTypeCPartnerStateInvalid, ucmtypes/UcmTypeCPartnerStatePoweredCableNoUfp, ucmtypes/UcmTypeCPartnerStatePoweredCableWithUfp, ucmtypes/UcmTypeCPartnerStateUfp
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,22 +51,6 @@ req.product: Windows 10 or later.
 
 
 Defines the state of the Type-C connector.
-
-
-## -syntax
-
-
-````
-typedef enum _UCM_TYPEC_PARTNER { 
-  UcmTypeCPartnerStateInvalid               = 0,
-  UcmTypeCPartnerStateUfp ,
-  UcmTypeCPartnerStateDfp ,
-  UcmTypeCPartnerStatePoweredCableNoUfp ,
-  UcmTypeCPartnerStatePoweredCableWithUfp ,
-  UcmTypeCPartnerStateAudioAccessory,
-  UcmTypeCPartnerStateDebugAccessory
-} UCM_TYPEC_PARTNER;
-````
 
 
 ## -enum-fields
@@ -134,16 +118,15 @@ The partner is an Upstream Facing Port (UFP).
 
 ## -see-also
 
-<a href="..\ucmmanager\nf-ucmmanager-ucmconnectortypecattach.md">UcmConnectorTypeCAttach</a>
 
 
 
-<a href="..\ucmmanager\ns-ucmmanager-_ucm_connector_typec_attach_params.md">UCM_CONNECTOR_TYPEC_ATTACH_PARAMS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt187928">UCM_CONNECTOR_TYPEC_ATTACH_PARAMS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt187915">UcmConnectorTypeCAttach</a>
  
 
  
-
 

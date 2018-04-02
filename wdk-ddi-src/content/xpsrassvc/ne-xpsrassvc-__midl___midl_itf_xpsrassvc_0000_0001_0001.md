@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 The XPSRAS_RENDERING_MODE enumeration specifies the rendering mode to be used by an XPS rasterizer.
 
 
-## -syntax
-
-
-````
-typedef enum  { 
-  XPSRAS_RENDERING_MODE_ANTIALIASED  = 0,
-  XPSRAS_RENDERING_MODE_ALIASED      = 1
-} XPSRAS_RENDERING_MODE;
-````
-
-
 ## -enum-fields
 
 
@@ -92,12 +81,11 @@ For more information about rasterizing XPS documents, see <a href="https://msdn.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556350">IXpsRasterizationFactory::CreateRasterizer</a>
-
-
-
  
 
  
-
 

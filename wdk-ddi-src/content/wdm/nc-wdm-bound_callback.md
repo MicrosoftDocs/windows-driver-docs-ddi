@@ -7,7 +7,7 @@ old-location: kernel\boundcallback.htm
 old-project: kernel
 ms.assetid: D9047BB2-2FCD-41DE-B1E1-DE89AAA40ED7
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: BOUND_CALLBACK, BoundCallback, BoundCallback routine [Kernel-Mode Driver Architecture], kernel.boundcallback, wdm/BoundCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 The <i>BoundCallback</i> routine is executed whenever the system issues a bounds exception for a user-mode thread.
 
 
-## -prototype
-
-
-````
-BOUND_CALLBACK BoundCallback;
-
-BOUND_CALLBACK_STATUS BoundCallback(void)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -79,7 +68,7 @@ BOUND_CALLBACK_STATUS BoundCallback(void)
 
 
 
-A <a href="..\wdm\ne-wdm-_bound_callback_status.md">BOUND_CALLBACK_STATUS</a> value that indicates how the bounds exception was processed by the callback function. 
+A <a href="https://msdn.microsoft.com/library/windows/hardware/dn957854">BOUND_CALLBACK_STATUS</a> value that indicates how the bounds exception was processed by the callback function. 
 
 
 
@@ -90,23 +79,22 @@ A <a href="..\wdm\ne-wdm-_bound_callback_status.md">BOUND_CALLBACK_STATUS</a> va
 
 Drivers can supply a <i>BoundCallback</i> that is called when the system issues a bounds exception.
 
-Use <a href="..\wdm\nf-wdm-keregisterboundcallback.md">KeRegisterBoundCallback</a> to register a <i>BoundCallback</i> routine. A driver can subsequently remove the callback by using the <a href="..\wdm\nf-wdm-kederegisterboundcallback.md">KeDeregisterBoundCallback</a> routine. If the driver can be unloaded, it must remove any registered callbacks in its <a href="https://msdn.microsoft.com/library/windows/hardware/ff564886">Unload</a> routine.
+Use <a href="https://msdn.microsoft.com/library/windows/hardware/dn957856">KeRegisterBoundCallback</a> to register a <i>BoundCallback</i> routine. A driver can subsequently remove the callback by using the <a href="https://msdn.microsoft.com/library/windows/hardware/dn957855">KeDeregisterBoundCallback</a> routine. If the driver can be unloaded, it must remove any registered callbacks in its <a href="https://msdn.microsoft.com/library/windows/hardware/ff564886">Unload</a> routine.
 
 
 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kederegisterboundcallback.md">KeDeregisterBoundCallback</a>
 
 
 
-<a href="..\wdm\nf-wdm-keregisterboundcallback.md">KeRegisterBoundCallback</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn957855">KeDeregisterBoundCallback</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn957856">KeRegisterBoundCallback</a>
  
 
  
-
 

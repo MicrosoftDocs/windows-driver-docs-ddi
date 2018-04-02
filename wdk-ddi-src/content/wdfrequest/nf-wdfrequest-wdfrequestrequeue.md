@@ -58,16 +58,6 @@ req.product: Windows 10 or later.
 The <b>WdfRequestRequeue</b> method returns an I/O request to the head of the I/O queue from which it was delivered to the driver.
 
 
-## -syntax
-
-
-````
-NTSTATUS WdfRequestRequeue(
-  _In_ WDFREQUEST Request
-);
-````
-
-
 ## -parameters
 
 
@@ -148,7 +138,7 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 A driver can call <b>WdfRequestRequeue</b> only if it using the manual dispatching method for the I/O queue.
 
-If the driver calls <b>WdfRequestRequeue</b> after calling <a href="..\wdfio\nf-wdfio-wdfioqueuepurge.md">WdfIoQueuePurge</a>, the requeue attempt may succeed before the purge is complete. In versions 1.9 and earlier of KMDF, this 
+If the driver calls <b>WdfRequestRequeue</b> after calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff548442">WdfIoQueuePurge</a>, the requeue attempt may succeed before the purge is complete. In versions 1.9 and earlier of KMDF, this 
 sequence causes the operating system to crash.  This problem is fixed in KMDF version 1.11 and later.
 
 For more information about <b>WdfRequestRequeue</b>, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/requeuing-i-o-requests">Requeuing I/O Requests</a>.

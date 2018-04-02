@@ -7,7 +7,7 @@ old-location: display\d3dhal_dp2response.htm
 old-project: display
 ms.assetid: 3a8ae2a9-21cd-4b0d-b293-60865a4fdfe6
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*LPD3DHAL_DP2RESPONSE, D3DHAL_DP2RESPONSE, D3DHAL_DP2RESPONSE structure [Display Devices], LPD3DHAL_DP2RESPONSE, LPD3DHAL_DP2RESPONSE structure pointer [Display Devices], _D3DHAL_DP2RESPONSE, d3dhal/D3DHAL_DP2RESPONSE, d3dhal/LPD3DHAL_DP2RESPONSE, d3dstrct_cd629a64-c8e9-45d2-a0bc-048ff623cc97.xml, display.d3dhal_dp2response"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,20 +53,7 @@ req.typenames: D3DHAL_DP2RESPONSE, *LPD3DHAL_DP2RESPONSE
    DirectX 9.0 and later versions only.
    
 
-One or more D3DHAL_DP2RESPONSE structures are parsed from the response buffer that the <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a> callback returns to the runtime. Each structure specifies the availability of responses to previously issued queries.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DHAL_DP2RESPONSE {
-  BYTE  bCommand;
-  BYTE  bReserved;
-  WORD  wStateCount;
-  DWORD dwTotalSize;
-} D3DHAL_DP2RESPONSE, *LPD3DHAL_DP2RESPONSE;
-````
+One or more D3DHAL_DP2RESPONSE structures are parsed from the response buffer that the <a href="https://msdn.microsoft.com/6128ff7a-0d2c-48df-8b5e-cab33c5a74f5">D3dDrawPrimitives2</a> callback returns to the runtime. Each structure specifies the availability of responses to previously issued queries.
 
 
 ## -struct-fields
@@ -76,7 +63,7 @@ typedef struct _D3DHAL_DP2RESPONSE {
 
 ### -field bCommand
 
-Specifies a response token. This member can be either D3DDP2OP_RESPONSECONTINUE or D3DDP2OP_RESPONSEQUERY of the <a href="..\d3dhal\ne-d3dhal-_d3dhal_dp2operation.md">D3DHAL_DP2OPERATION</a> enumerated type. 
+Specifies a response token. This member can be either D3DDP2OP_RESPONSECONTINUE or D3DDP2OP_RESPONSEQUERY of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff545678">D3DHAL_DP2OPERATION</a> enumerated type. 
 
 
 ### -field bReserved
@@ -86,7 +73,7 @@ Reserved for system use and should be ignored by the driver.
 
 ### -field wStateCount
 
-Specifies the number of responses (that is, the number of <a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2responsequery.md">D3DHAL_DP2RESPONSEQUERY</a> structures) that follow this D3DHAL_DP2RESPONSE structure. If the driver sets <b>bCommand</b> to D3DDP2OP_RESPONSECONTINUE, the driver should set this member to zero. However, the runtime ignores this member when <b>bCommand</b> is set to D3DDP2OP_RESPONSECONTINUE; this member is only valid when the driver sets <b>bCommand</b> to D3DDP2OP_RESPONSEQUERY. 
+Specifies the number of responses (that is, the number of <a href="https://msdn.microsoft.com/library/windows/hardware/ff545714">D3DHAL_DP2RESPONSEQUERY</a> structures) that follow this D3DHAL_DP2RESPONSE structure. If the driver sets <b>bCommand</b> to D3DDP2OP_RESPONSECONTINUE, the driver should set this member to zero. However, the runtime ignores this member when <b>bCommand</b> is set to D3DDP2OP_RESPONSECONTINUE; this member is only valid when the driver sets <b>bCommand</b> to D3DDP2OP_RESPONSEQUERY. 
 
 
 ### -field dwTotalSize
@@ -96,11 +83,6 @@ Specifies the total size, in bytes, of the responses associated with this D3DHAL
 
 ## -see-also
 
-<a href="..\d3dhal\ne-d3dhal-_d3dhal_dp2operation.md">D3DHAL_DP2OPERATION</a>
-
-
-
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2responsequery.md">D3DHAL_DP2RESPONSEQUERY</a>
 
 
 
@@ -112,12 +94,16 @@ D3DDP2OP_RESPONSEQUERY
 
 
 
-<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545678">D3DHAL_DP2OPERATION</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545714">D3DHAL_DP2RESPONSEQUERY</a>
+
+
+
+<a href="https://msdn.microsoft.com/6128ff7a-0d2c-48df-8b5e-cab33c5a74f5">D3dDrawPrimitives2</a>
  
 
  
-
 

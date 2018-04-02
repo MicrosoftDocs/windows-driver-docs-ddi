@@ -58,16 +58,6 @@ req.product: Windows 10 or later.
 The <b>WdfWorkItemEnqueue</b> method adds a specified framework work-item object to the system's work-item queue.
 
 
-## -syntax
-
-
-````
-VOID WdfWorkItemEnqueue(
-  _In_ WDFWORKITEM WorkItem
-);
-````
-
-
 ## -parameters
 
 
@@ -75,7 +65,7 @@ VOID WdfWorkItemEnqueue(
 
 ### -param WorkItem [in]
 
-A handle to a framework work-item object that is obtained from a previous call to <a href="..\wdfworkitem\nf-wdfworkitem-wdfworkitemcreate.md">WdfWorkItemCreate</a>.
+A handle to a framework work-item object that is obtained from a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff551201">WdfWorkItemCreate</a>.
 
 
 ## -returns
@@ -95,7 +85,7 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
-After the driver calls <a href="..\wdfworkitem\nf-wdfworkitem-wdfworkitemcreate.md">WdfWorkItemCreate</a> to create a work item, the driver must call <b>WdfWorkItemEnqueue</b> to add the work item to the system's work-item queue. A system worker thread subsequently removes the work item from the queue and calls the work item's <a href="https://msdn.microsoft.com/2a2811de-9024-40a8-b8af-b61ca4100218">EvtWorkItem</a> callback function. The system removes the work items in the order that they were added to the queue.
+After the driver calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff551201">WdfWorkItemCreate</a> to create a work item, the driver must call <b>WdfWorkItemEnqueue</b> to add the work item to the system's work-item queue. A system worker thread subsequently removes the work item from the queue and calls the work item's <a href="https://msdn.microsoft.com/2a2811de-9024-40a8-b8af-b61ca4100218">EvtWorkItem</a> callback function. The system removes the work items in the order that they were added to the queue.
 
 Before drivers call <b>WdfWorkItemEnqueue</b>, they typically use the work-item object's context memory to store information about the work item. The <a href="https://msdn.microsoft.com/2a2811de-9024-40a8-b8af-b61ca4100218">EvtWorkItem</a> callback function uses this information to determine the operation that it must perform.
 
@@ -231,7 +221,6 @@ The driver's <a href="https://msdn.microsoft.com/2a2811de-9024-40a8-b8af-b61ca41
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-interlockedexchange.md">InterlockedExchange</a>
 
 
 
@@ -239,16 +228,16 @@ The driver's <a href="https://msdn.microsoft.com/2a2811de-9024-40a8-b8af-b61ca41
 
 
 
-<a href="..\wdm\nf-wdm-interlockedcompareexchange.md">InterlockedCompareExchange</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547853">InterlockedCompareExchange</a>
 
 
 
-<a href="..\wdfworkitem\nf-wdfworkitem-wdfworkitemcreate.md">WdfWorkItemCreate</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547892">InterlockedExchange</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551201">WdfWorkItemCreate</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: netvista\riluicccmdparameters.htm
 old-project: netvista
 ms.assetid: 02c37c3d-fa5b-4d26-a092-09f6f3dbd46c
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*LPRILUICCCMDPARAMETERS, RILUICCCMDPARAMETERS, RILUICCCMDPARAMETERS structure [Network Drivers Starting with Windows Vista], netvista.riluicccmdparameters, ntddrilapitypes/RILUICCCMDPARAMETERS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,21 +50,6 @@ req.typenames: RILUICCCMDPARAMETERS, *LPRILUICCCMDPARAMETERS
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef struct _RILUICCCMDPARAMETERS {
-  DWORD            cbSize;
-  DWORD            dwParams;
-  RILUICCFILEPATH  filePath;
-  DWORD            dwParameter1;
-  DWORD            dwParameter2;
-  DWORD            dwParameter3;
-} RILUICCCMDPARAMETERS, RILUICCCMDPARAMETERS;
-````
 
 
 ## -struct-fields

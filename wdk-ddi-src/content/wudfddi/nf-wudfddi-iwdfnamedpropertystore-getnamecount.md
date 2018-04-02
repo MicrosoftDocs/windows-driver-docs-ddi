@@ -55,16 +55,6 @@ req.product: Windows 10 or later.
 The <b>GetNameCount</b> method retrieves the number of properties in a property store.
 
 
-## -syntax
-
-
-````
-HRESULT GetNameCount(
-  [out] DWORD *pdwCount
-);
-````
-
-
 ## -parameters
 
 
@@ -95,12 +85,11 @@ For more information, see <a href="https://docs.microsoft.com/en-us/windows-hard
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfnamedpropertystore.md">IWDFNamedPropertyStore</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560164">IWDFNamedPropertyStore</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: netvista\ndiscmderegistersapcomplete.htm
 old-project: netvista
 ms.assetid: 92955e1e-6c5b-4e8e-a365-65ff4d0889a5
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: NdisCmDeregisterSapComplete, NdisCmDeregisterSapComplete function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_d8a656de-56d5-4b84-8179-636b72f1313b.xml, ndis/NdisCmDeregisterSapComplete, netvista.ndiscmderegistersapcomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -54,17 +54,6 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
   manager previously returned NDIS_STATUS_PENDING, to deregister a SAP.
 
 
-## -syntax
-
-
-````
-VOID NdisCmDeregisterSapComplete(
-  _In_ NDIS_STATUS Status,
-  _In_ NDIS_HANDLE NdisSapHandle
-);
-````
-
-
 ## -parameters
 
 
@@ -95,12 +84,12 @@ None
 
 <b>NdisCmDeregisterSapComplete</b> notifies both NDIS and the client that the call manager has completed
     the SAP-deregistration request for which its 
-    <a href="..\ndis\nc-ndis-protocol_cm_deregister_sap.md">
+    <a href="https://msdn.microsoft.com/738c426e-aa4f-4f59-b955-fbf67071303f">
     ProtocolCmDeregisterSap</a> function previously returned NDIS_STATUS_PENDING.
 
 A call to 
     <b>NdisCmDeregisterSapComplete</b> causes NDIS to call the client's 
-    <a href="..\ndis\nc-ndis-protocol_cl_deregister_sap_complete.md">
+    <a href="https://msdn.microsoft.com/93f8f74a-8ad4-42ea-83cf-ddfcd7f55ce6">
     ProtocolClDeregisterSapComplete</a> function.
 
 The call manager should consider the 
@@ -117,25 +106,24 @@ Only stand-alone call managers, which register themselves with NDIS as protocol 
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-protocol_cm_deregister_sap.md">ProtocolCmDeregisterSap</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndismcmderegistersapcomplete.md">NdisMCmDeregisterSapComplete</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561628">NdisClDeregisterSap</a>
 
 
 
-<a href="..\ndis\nc-ndis-protocol_cl_deregister_sap_complete.md">
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562821">NdisMCmDeregisterSapComplete</a>
+
+
+
+<a href="https://msdn.microsoft.com/93f8f74a-8ad4-42ea-83cf-ddfcd7f55ce6">
    ProtocolClDeregisterSapComplete</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisclderegistersap.md">NdisClDeregisterSap</a>
-
-
-
+<a href="https://msdn.microsoft.com/738c426e-aa4f-4f59-b955-fbf67071303f">ProtocolCmDeregisterSap</a>
  
 
  
-
 

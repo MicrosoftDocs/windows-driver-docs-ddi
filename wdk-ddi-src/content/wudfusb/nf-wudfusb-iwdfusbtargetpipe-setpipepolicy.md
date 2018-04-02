@@ -55,18 +55,6 @@ req.product: Windows 10 or later.
 The <b>SetPipePolicy</b> method sets the WinUsb pipe policy.
 
 
-## -syntax
-
-
-````
-HRESULT SetPipePolicy(
-  [in] ULONG PolicyType,
-  [in] ULONG ValueLength,
-  [in] PVOID Value
-);
-````
-
-
 ## -parameters
 
 
@@ -217,11 +205,10 @@ CMyDevice::ConfigureUsbIoTargets(
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540304">WinUsb_SetPipePolicy</a>
 
 
 
-<a href="..\wudfusb\nn-wudfusb-iwdfusbtargetpipe.md">IWDFUsbTargetPipe</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560391">IWDFUsbTargetPipe</a>
 
 
 
@@ -229,8 +216,8 @@ CMyDevice::ConfigureUsbIoTargets(
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540304">WinUsb_SetPipePolicy</a>
  
 
  
-
 

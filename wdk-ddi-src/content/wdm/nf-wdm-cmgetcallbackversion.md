@@ -7,7 +7,7 @@ old-location: kernel\cmgetcallbackversion.htm
 old-project: kernel
 ms.assetid: 4b7aba14-bc6a-4d3d-bcc5-53fd122794a1
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: CmGetCallbackVersion, CmGetCallbackVersion routine [Kernel-Mode Driver Architecture], ConfigMgrRef_f15e2e9c-8b84-40b2-abb4-b37a6d38f920.xml, kernel.cmgetcallbackversion, wdm/CmGetCallbackVersion
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,17 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>CmGetCallbackVersion</b> routine retrieves the major and minor version numbers for the current version of the configuration manager's registry callback feature.
-
-
-## -syntax
-
-
-````
-VOID CmGetCallbackVersion(
-  _Out_opt_ PULONG Major,
-  _Out_opt_ PULONG Minor
-);
-````
 
 
 ## -parameters
@@ -111,15 +100,10 @@ For more information on the differences between versions, see <a href="https://m
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwopenkey.md">ZwOpenKey</a>
 
 
 
-<a href="..\wdm\nf-wdm-zwcreatekey.md">ZwCreateKey</a>
-
-
-
-<a href="..\wdm\ns-wdm-_reg_post_create_key_information.md">REG_POST_CREATE_KEY_INFORMATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560962">REG_POST_CREATE_KEY_INFORMATION</a>
 
 
 
@@ -127,8 +111,12 @@ For more information on the differences between versions, see <a href="https://m
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566425">ZwCreateKey</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567014">ZwOpenKey</a>
  
 
  
-
 

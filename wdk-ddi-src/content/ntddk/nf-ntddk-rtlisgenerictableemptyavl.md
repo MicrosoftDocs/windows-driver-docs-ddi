@@ -7,7 +7,7 @@ old-location: ifsk\rtlisgenerictableemptyavl.htm
 old-project: ifsk
 ms.assetid: 9190DA2F-5530-4427-862F-00434DD9C950
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: RtlIsGenericTableEmptyAvl, RtlIsGenericTableEmptyAvl routine [Installable File System Drivers], ifsk.rtlisgenerictableemptyavl, ntddk/RtlIsGenericTableEmptyAvl
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,16 +52,6 @@ req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 The <b>RtlIsGenericTableEmptyAvl</b> routine determines if a generic table is empty. 
 
 
-## -syntax
-
-
-````
-BOOLEAN RtlIsGenericTableEmptyAvl(
-  _In_ PRTL_GENERIC_TABLE Table
-);
-````
-
-
 ## -parameters
 
 
@@ -69,7 +59,7 @@ BOOLEAN RtlIsGenericTableEmptyAvl(
 
 ### -param Table [in]
 
-Pointer to the generic table (<a href="..\ntddk\ns-ntddk-_rtl_generic_table.md">RTL_GENERIC_TABLE</a>). The table must have been initialized by calling <b>RtlIsGenericTableEmptyAvl</b>.
+Pointer to the generic table (<a href="https://msdn.microsoft.com/library/windows/hardware/ff553345">RTL_GENERIC_TABLE</a>). The table must have been initialized by calling <b>RtlIsGenericTableEmptyAvl</b>.
 
 
 ## -returns
@@ -89,7 +79,7 @@ By default, the operating system uses splay trees to implement generic tables, b
 
 <code>#define RTL_USE_AVL_TABLES 0</code>
 
-If RTL_USE_AVL_TABLES is not defined, you must use the AVL form of the generic table routines. For example, use the <b>RtlIsGenericTableEmptyAvl</b> routine instead of <a href="..\ntddk\nf-ntddk-rtlisgenerictableempty.md">RtlIsGenericTableEmpty</a>. In the call to <b>RtlIsGenericTableEmptyAvl</b>, the caller must pass a <a href="..\ntddk\ns-ntddk-_rtl_avl_table.md">RTL_AVL_TABLE</a> table structure rather than <a href="..\ntddk\ns-ntddk-_rtl_generic_table.md">RTL_GENERIC_TABLE</a>.
+If RTL_USE_AVL_TABLES is not defined, you must use the AVL form of the generic table routines. For example, use the <b>RtlIsGenericTableEmptyAvl</b> routine instead of <a href="https://msdn.microsoft.com/library/windows/hardware/ff553046">RtlIsGenericTableEmpty</a>. In the call to <b>RtlIsGenericTableEmptyAvl</b>, the caller must pass a <a href="https://msdn.microsoft.com/library/windows/hardware/ff553327">RTL_AVL_TABLE</a> table structure rather than <a href="https://msdn.microsoft.com/library/windows/hardware/ff553345">RTL_GENERIC_TABLE</a>.
 
 Callers of <b>RtlIsGenericTableEmptyAvl</b> must be running at ≤ APC_LEVEL if the caller-allocated memory at <i>Table</i> is pageable.
 
@@ -98,12 +88,11 @@ Callers of <b>RtlIsGenericTableEmptyAvl</b> must be running at ≤ APC_LEVEL if 
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-rtlinitializegenerictableavl.md">RtlInitializeGenericTableAvl</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406465">RtlInitializeGenericTableAvl</a>
  
 
  
-
 

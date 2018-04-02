@@ -7,7 +7,7 @@ old-location: kernel\rtlisntddiversionavailable.htm
 old-project: kernel
 ms.assetid: 54017f67-b01f-48bd-a5bb-598902672c4f
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: RtlIsNtDdiVersionAvailable, RtlIsNtDdiVersionAvailable routine [Kernel-Mode Driver Architecture], k109_62b3efdd-6678-4e88-92cb-eaacff80bfab.xml, kernel.rtlisntddiversionavailable, wdm/RtlIsNtDdiVersionAvailable
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,16 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>RtlIsNtDdiVersionAvailable</b> routine determines if a specified version of the Microsoft Windows device driver interface (DDI) is available.
-
-
-## -syntax
-
-
-````
-BOOLEAN RtlIsNtDdiVersionAvailable(
-  _In_ ULONG Version
-);
-````
 
 
 ## -parameters
@@ -163,7 +153,7 @@ Windows 2000
 
 The NTDDI_<i>XXX</i> constants are defined in the Sdkddkver.h header file.
 
-Additional NTDDI_<i>XXX</i> constants that specify service packs are available for the <a href="..\wdm\nf-wdm-rtlisservicepackversioninstalled.md">RtlIsServicePackVersionInstalled</a> routine. Do not use these values for <b>RtlIsNtDdiVersionAvailable</b>. 
+Additional NTDDI_<i>XXX</i> constants that specify service packs are available for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff561956">RtlIsServicePackVersionInstalled</a> routine. Do not use these values for <b>RtlIsNtDdiVersionAvailable</b>. 
 
 
 ## -returns
@@ -181,7 +171,7 @@ Additional NTDDI_<i>XXX</i> constants that specify service packs are available f
 
 The <b>RtlIsNtDdiVersionAvailable</b> routine compares the version that the <i>Version</i> parameter specifies to the version of the Windows operating system that is currently running.
 
-Use the <a href="..\wdm\nf-wdm-rtlisservicepackversioninstalled.md">RtlIsServicePackVersionInstalled</a> routine if you want to determine whether a particular service pack is installed.
+Use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff561956">RtlIsServicePackVersionInstalled</a> routine if you want to determine whether a particular service pack is installed.
 
 The Windows kernel implements <b>RtlIsNtDdiVersionAvailable</b> only in Windows Vista and later versions of Windows. However, a compatibility library, Rtlver.lib, implements a version of <b>RtlIsNtDdiVersionAvailable</b> that runs in Windows 2000 and later versions of Windows. For kernel-mode drivers that include the Wdm.h header file, calls to <b>RtlIsNtDdiVersionAvailable</b> go to the version of this routine that is implemented in Rtlver.lib.
 
@@ -192,12 +182,11 @@ For more information about <b>RtlIsNtDdiVersionAvailable</b> and <b>RtlIsService
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-rtlisservicepackversioninstalled.md">RtlIsServicePackVersionInstalled</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561956">RtlIsServicePackVersionInstalled</a>
  
 
  
-
 

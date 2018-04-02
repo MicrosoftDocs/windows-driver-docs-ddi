@@ -7,7 +7,7 @@ old-location: netvista\protocolclopenafcompleteex.htm
 old-project: netvista
 ms.assetid: 03ddbbfd-8fe8-44b6-8d3e-12a7bf6f8f6b
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: PROTOCOL_CL_OPEN_AF_COMPLETE_EX, ProtocolClOpenAfCompleteEx, ProtocolClOpenAfCompleteEx callback function [Network Drivers Starting with Windows Vista], condis_client_ref_8b7e876e-d2b2-4676-8120-aa18f717cca2.xml, ndis/ProtocolClOpenAfCompleteEx, netvista.protocolclopenafcompleteex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,24 +52,9 @@ req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
 The 
   <i>ProtocolClOpenAfCompleteEx</i> function completes the opening of an address family (AF) that was started
   when a CoNDIS client called the 
-  <a href="..\ndis\nf-ndis-ndisclopenaddressfamilyex.md">NdisClOpenAddressFamilyEx</a> function.
+  <a href="https://msdn.microsoft.com/library/windows/hardware/ff561639">NdisClOpenAddressFamilyEx</a> function.
 <div class="alert"><b>Note</b>  You must declare the function by using the <b>PROTOCOL_CL_OPEN_AF_COMPLETE_EX</b> type.
    For more information, see the following Examples section.</div><div> </div>
-
-## -prototype
-
-
-````
-PROTOCOL_CL_OPEN_AF_COMPLETE_EX ProtocolClOpenAfCompleteEx;
-
-VOID ProtocolClOpenAfCompleteEx(
-  _In_ NDIS_HANDLE ProtocolAfContext,
-  _In_ NDIS_HANDLE NdisAfHandle,
-  _In_ NDIS_STATUS Status
-)
-{ ... }
-````
-
 
 ## -parameters
 
@@ -80,7 +65,7 @@ VOID ProtocolClOpenAfCompleteEx(
 
 A client-supplied handle to its context area for an address AF. The client allocated this context
      area and passed this handle to NDIS in its call to the 
-     <a href="..\ndis\nf-ndis-ndisclopenaddressfamilyex.md">
+     <a href="https://msdn.microsoft.com/54170917-60b4-4d8f-bf92-df7d7dc0faee">
      NdisClOpenAddressFamilyEx</a> function.
 
 
@@ -112,7 +97,7 @@ The AF has been opened, so the client can initialize its state at
        <i>NdisAfHandle</i> in subsequent calls to 
        <b>NdisCl<i>Xxx</i></b> and 
        <b>NdisCo<i>Xxx</i></b> functions, such as 
-       <a href="..\ndis\nf-ndis-ndiscooidrequest.md">NdisCoOidRequest</a>.
+       <a href="https://msdn.microsoft.com/library/windows/hardware/ff561711">NdisCoOidRequest</a>.
 
 
 
@@ -163,7 +148,7 @@ The
     <i>ProtocolClOpenAfCompleteEx</i> function is required for CoNDIS clients. CoNDIS clients must provide 
     <i>ProtocolClOpenAfCompleteEx</i> to complete the asynchronous operations that the clients initiate by
     calling the 
-    <a href="..\ndis\nf-ndis-ndisclopenaddressfamilyex.md">
+    <a href="https://msdn.microsoft.com/54170917-60b4-4d8f-bf92-df7d7dc0faee">
     NdisClOpenAddressFamilyEx</a> function.
 
 NDIS calls 
@@ -172,10 +157,10 @@ NDIS calls
 <ul>
 <li>
 If all of the parameters that the client's 
-      <a href="..\ndis\nc-ndis-protocol_co_af_register_notify.md">
+      <a href="https://msdn.microsoft.com/272d99da-ef08-4ebd-90e7-74e99410b3f5">
       ProtocolCoAfRegisterNotify</a> function passed to the 
       <b>NdisClOpenAddressFamilyEx</b> function were valid, NDIS called the 
-      <a href="..\ndis\nc-ndis-protocol_cm_open_af.md">ProtocolCmOpenAf</a> function of the
+      <a href="https://msdn.microsoft.com/7422c205-bc41-4121-b430-ff9e6b49dc2e">ProtocolCmOpenAf</a> function of the
       call manager that just registered the specified AF with NDIS.
 
 </li>
@@ -190,7 +175,7 @@ The call manager has examined the specification that the client's
 If the client's attempt to open an AF fails, NDIS cleans up its saved state before calling 
     <i>ProtocolClOpenAfCompleteEx</i>. In this case, 
     <i>ProtocolClOpenAfCompleteEx</i> can release the resources that the client allocated for its call to 
-    <a href="..\ndis\nf-ndis-ndisclopenaddressfamilyex.md">NdisClOpenAddressFamilyEx</a> or
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561639">NdisClOpenAddressFamilyEx</a> or
     prepare them for reuse.
 
 Otherwise, 
@@ -201,10 +186,10 @@ Otherwise,
 
 If the client accepts incoming calls, it might allocate a per-service access point (SAP) state area
     and call the 
-    <a href="..\ndis\nf-ndis-ndisclregistersap.md">NdisClRegisterSap</a> function. If the
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561648">NdisClRegisterSap</a> function. If the
     client makes outgoing calls, it might allocate a per-virtual connection (VC) state area and create a VC
     with the 
-    <a href="..\ndis\nf-ndis-ndiscocreatevc.md">NdisCoCreateVc</a> function to prepare for an
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561696">NdisCoCreateVc</a> function to prepare for an
     incoming request from one of the client's own clients to make an outgoing call to a remote node.
 
 NDIS calls 
@@ -253,32 +238,31 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisclregistersap.md">NdisClRegisterSap</a>
 
 
 
-<a href="..\ndis\nc-ndis-protocol_cm_open_af.md">ProtocolCmOpenAf</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561639">NdisClOpenAddressFamilyEx</a>
 
 
 
-<a href="..\ndis\nc-ndis-protocol_co_af_register_notify.md">ProtocolCoAfRegisterNotify</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561648">NdisClRegisterSap</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisclopenaddressfamilyex.md">NdisClOpenAddressFamilyEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561696">NdisCoCreateVc</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndiscooidrequest.md">NdisCoOidRequest</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561711">NdisCoOidRequest</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndiscocreatevc.md">NdisCoCreateVc</a>
+<a href="https://msdn.microsoft.com/7422c205-bc41-4121-b430-ff9e6b49dc2e">ProtocolCmOpenAf</a>
 
 
 
+<a href="https://msdn.microsoft.com/272d99da-ef08-4ebd-90e7-74e99410b3f5">ProtocolCoAfRegisterNotify</a>
  
 
  
-
 

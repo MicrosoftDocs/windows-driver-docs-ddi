@@ -7,7 +7,7 @@ old-location: netvista\ndismcmdeactivatevc.htm
 old-project: netvista
 ms.assetid: e18f6326-621e-4bed-aa82-b326f3b1422d
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: NdisMCmDeactivateVc, NdisMCmDeactivateVc function [Network Drivers Starting with Windows Vista], condis_mcm_ref_c1aa796e-7965-4a4b-849b-370ae7f95697.xml, ndis/NdisMCmDeactivateVc, netvista.ndismcmdeactivatevc
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -54,16 +54,6 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
   VC.
 
 
-## -syntax
-
-
-````
-NDIS_STATUS NdisMCmDeactivateVc(
-  _In_ NDIS_HANDLE NdisVcHandle
-);
-````
-
-
 ## -parameters
 
 
@@ -73,9 +63,9 @@ NDIS_STATUS NdisMCmDeactivateVc(
 
 Specifies the handle identifying the VC. This handle was supplied by NDIS to the MCM driver either
      when it called 
-     <a href="..\ndis\nf-ndis-ndismcmcreatevc.md">NdisMCmCreateVc</a> for an incoming call or
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff562812">NdisMCmCreateVc</a> for an incoming call or
      when its 
-     <a href="..\ndis\nc-ndis-protocol_co_create_vc.md">ProtocolCoCreateVc</a> function set up
+     <a href="https://msdn.microsoft.com/b086dd24-74f5-474a-8684-09bf92ac731b">ProtocolCoCreateVc</a> function set up
      the VC for a client-initiated outgoing call.
 
 
@@ -141,18 +131,18 @@ The
 <li>
 Following VC deactivation and the closing of the call, a client can reuse a VC that it originally
       created to make another call with 
-      <a href="..\ndis\nf-ndis-ndisclmakecall.md">NdisClMakeCall</a>, or it can call 
-      <a href="..\ndis\nf-ndis-ndiscodeletevc.md">NdisCoDeleteVc</a>, thereby causing a call
+      <a href="https://msdn.microsoft.com/library/windows/hardware/ff561635">NdisClMakeCall</a>, or it can call 
+      <a href="https://msdn.microsoft.com/library/windows/hardware/ff561698">NdisCoDeleteVc</a>, thereby causing a call
       to the MCM driver's 
-      <a href="..\ndis\nc-ndis-protocol_co_delete_vc.md">ProtocolCoDeleteVc</a> function.
+      <a href="https://msdn.microsoft.com/d761270f-bf77-441e-834c-9ac7fb3d350f">ProtocolCoDeleteVc</a> function.
 
 </li>
 <li>
 Following VC deactivation and the closing of the call, an MCM driver can reuse a VC that it
       originally created to indicate another incoming call to the same client with 
-      <a href="..\ndis\nf-ndis-ndismcmdispatchincomingcall.md">
+      <a href="https://msdn.microsoft.com/24102e1f-375e-4bf4-8a43-6527b90c8564">
       NdisMCmDispatchIncomingCall</a>, or it can call 
-      <a href="..\ndis\nf-ndis-ndismcmdeletevc.md">NdisMCmDeleteVc</a>.
+      <a href="https://msdn.microsoft.com/library/windows/hardware/ff562819">NdisMCmDeleteVc</a>.
 
 </li>
 </ul>
@@ -170,44 +160,43 @@ Only connection-oriented miniport drivers that provide integrated call-managemen
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-protocol_co_delete_vc.md">ProtocolCoDeleteVc</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndismcmdispatchincomingcall.md">NdisMCmDispatchIncomingCall</a>
+<a href="https://msdn.microsoft.com/8c17cec8-d161-47cf-b886-bb8b8d957656">MiniportCoDeactivateVc</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndismcmdeletevc.md">NdisMCmDeleteVc</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561627">NdisClCloseCall</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisclclosecall.md">NdisClCloseCall</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561635">NdisClMakeCall</a>
 
 
 
-<a href="..\ndis\nc-ndis-protocol_cm_close_call.md">ProtocolCmCloseCall</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561657">NdisCmDeactivateVc</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndismcmactivatevc.md">NdisMCmActivateVc</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562792">NdisMCmActivateVc</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndiscmdeactivatevc.md">NdisCmDeactivateVc</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562819">NdisMCmDeleteVc</a>
 
 
 
-<a href="..\ndis\nc-ndis-miniport_co_deactivate_vc.md">MiniportCoDeactivateVc</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562830">NdisMCmDispatchIncomingCall</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisclmakecall.md">NdisClMakeCall</a>
+<a href="https://msdn.microsoft.com/b5307e1b-3905-4e43-a0b0-0068ba18ef0d">ProtocolCmCloseCall</a>
 
 
 
+<a href="https://msdn.microsoft.com/d761270f-bf77-441e-834c-9ac7fb3d350f">ProtocolCoDeleteVc</a>
  
 
  
-
 

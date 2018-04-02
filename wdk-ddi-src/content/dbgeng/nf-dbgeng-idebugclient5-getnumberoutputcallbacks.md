@@ -7,7 +7,7 @@ old-location: debugger\getnumberoutputcallbacks.htm
 old-project: debugger
 ms.assetid: 20bc6141-8c4a-4a98-acb3-506840893db6
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: GetNumberOutputCallbacks method [Windows Debugging], GetNumberOutputCallbacks method [Windows Debugging], IDebugClient5 interface, GetNumberOutputCallbacks,IDebugClient5.GetNumberOutputCallbacks, IDebugClient5, IDebugClient5 interface [Windows Debugging], GetNumberOutputCallbacks method, IDebugClient5::GetNumberOutputCallbacks, IDebugClient_ce6e107b-a356-434a-81d7-eccb8495289d.xml, dbgeng/IDebugClient5::GetNumberOutputCallbacks, debugger.getnumberoutputcallbacks
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,16 +50,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>GetNumberOutputCallbacks</b> method returns the number of <a href="https://msdn.microsoft.com/7a23ee09-0314-400a-8152-eef49a225427">output callbacks</a> registered over all clients.
-
-
-## -syntax
-
-
-````
-HRESULT GetNumberOutputCallbacks(
-  [out] PULONG Count
-);
-````
 
 
 ## -parameters
@@ -113,19 +103,6 @@ For more information about callbacks, see <a href="https://msdn.microsoft.com/90
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556751">SetOutputCallbacks</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548071">GetOutputCallbacks</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547923">GetNumberInputCallbacks</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
 
 
 
@@ -133,12 +110,24 @@ For more information about callbacks, see <a href="https://msdn.microsoft.com/90
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugoutputcallbacks.md">IDebugOutputCallbacks</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547923">GetNumberInputCallbacks</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548071">GetOutputCallbacks</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550497">IDebugClient5</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550801">IDebugOutputCallbacks</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556751">SetOutputCallbacks</a>
  
 
  
-
 

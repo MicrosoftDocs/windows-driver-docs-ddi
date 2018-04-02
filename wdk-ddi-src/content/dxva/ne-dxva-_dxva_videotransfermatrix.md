@@ -7,7 +7,7 @@ old-location: display\dxva_videotransfermatrix.htm
 old-project: display
 ms.assetid: 726ce165-fd07-4dd3-a004-8081481340a1
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXVA_VideoTransferMatrix, DXVA_VideoTransferMatrix enumeration [Display Devices], DXVA_VideoTransferMatrixMask, DXVA_VideoTransferMatrixShift, DXVA_VideoTransferMatrix_BT601, DXVA_VideoTransferMatrix_BT709, DXVA_VideoTransferMatrix_SMPTE240M, DXVA_VideoTransferMatrix_Unknown, _DXVA_VideoTransferMatrix, display.dxva_videotransfermatrix, dxva/DXVA_VideoTransferMatrix, dxva/DXVA_VideoTransferMatrixMask, dxva/DXVA_VideoTransferMatrixShift, dxva/DXVA_VideoTransferMatrix_BT601, dxva/DXVA_VideoTransferMatrix_BT709, dxva/DXVA_VideoTransferMatrix_SMPTE240M, dxva/DXVA_VideoTransferMatrix_Unknown, dxvaref_82624d1d-650f-41a2-a8d2-fb8c9936caab.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,21 +52,6 @@ req.typenames: DXVA_VideoTransferMatrix
 The DXVA_VideoTransferMatrix enumeration type contains enumerators that identify the conversion matrix from Y'Cb'Cr' to R'G'B'.
 
 
-## -syntax
-
-
-````
-typedef enum _DXVA_VideoTransferMatrix { 
-  DXVA_VideoTransferMatrixShift       = (DXVA_ExtColorData_ShiftBase + 7),
-  DXVA_VideoTransferMatrixMask        = DXVAColorMask(3, DXVA_VideoTransferMatrixShift),
-  DXVA_VideoTransferMatrix_Unknown    = 0,
-  DXVA_VideoTransferMatrix_BT709      = 1,
-  DXVA_VideoTransferMatrix_BT601      = 2,
-  DXVA_VideoTransferMatrix_SMPTE240M  = 3
-} DXVA_VideoTransferMatrix;
-````
-
-
 ## -enum-fields
 
 
@@ -106,19 +91,18 @@ Specifies a HD video standard rarely used in Japan.
 
 
 
-One of the enumerators of DXVA_VideoTransferMatrix can be specified in the <b>VideoTransferMatrix</b> member of the <a href="..\dxva\ns-dxva-_dxva_extendedformat.md">DXVA_ExtendedFormat</a> structure.
+One of the enumerators of DXVA_VideoTransferMatrix can be specified in the <b>VideoTransferMatrix</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563967">DXVA_ExtendedFormat</a> structure.
 
 
 
 
 ## -see-also
 
-<a href="..\dxva\ns-dxva-_dxva_extendedformat.md">DXVA_ExtendedFormat</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563967">DXVA_ExtendedFormat</a>
  
 
  
-
 

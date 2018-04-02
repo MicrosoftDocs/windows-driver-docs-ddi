@@ -7,7 +7,7 @@ old-location: display\d3dkmt_signalsynchronizationobject2.htm
 old-project: display
 ms.assetid: a4bdafeb-310a-4ceb-966e-a1e3660fc5f2
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMT_SIGNALSYNCHRONIZATIONOBJECT2, D3DKMT_SIGNALSYNCHRONIZATIONOBJECT2 structure [Display Devices], OpenGL_Structs_ac490d8c-5ab9-4a1f-8908-5c2e7786b65b.xml, _D3DKMT_SIGNALSYNCHRONIZATIONOBJECT2, d3dkmthk/D3DKMT_SIGNALSYNCHRONIZATIONOBJECT2, display.d3dkmt_signalsynchronizationobject2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,31 +49,7 @@ req.typenames: D3DKMT_SIGNALSYNCHRONIZATIONOBJECT2
 ## -description
 
 
-The D3DKMT_SIGNALSYNCHRONIZATIONOBJECT2 structure contains information about the synchronization events that the <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtsignalsynchronizationobject2.md">D3DKMTSignalSynchronizationObject2</a> function signals. 
-
-
-## -syntax
-
-
-````
-typedef struct _D3DKMT_SIGNALSYNCHRONIZATIONOBJECT2 {
-  D3DKMT_HANDLE        hContext;
-  UINT                 ObjectCount;
-  D3DKMT_HANDLE        ObjectHandleArray[D3DDDI_MAX_OBJECT_SIGNALED];
-  D3DDDICB_SIGNALFLAGS Flags;
-  ULONG                BroadcastContextCount;
-  D3DKMT_HANDLE        BroadcastContext[D3DDDI_MAX_BROADCAST_CONTEXT];
-  union {
-    struct {
-      UINT64 FenceValue;
-    } Fence;
-#if (DXGKDDI_INTERFACE_VERSION >= DXGKDDI_INTERFACE_VERSION_WIN8)
-    HANDLE CpuEventHandle;
-#endif 
-    UINT64 Reserved[8];
-  };
-} D3DKMT_SIGNALSYNCHRONIZATIONOBJECT2;
-````
+The D3DKMT_SIGNALSYNCHRONIZATIONOBJECT2 structure contains information about the synchronization events that the <a href="https://msdn.microsoft.com/library/windows/hardware/ff547227">D3DKMTSignalSynchronizationObject2</a> function signals. 
 
 
 ## -struct-fields
@@ -98,7 +74,7 @@ typedef struct _D3DKMT_SIGNALSYNCHRONIZATIONOBJECT2 {
 
 ### -field Flags
 
-[in] A <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddicb_signalflags.md">D3DDDICB_SIGNALFLAGS</a> structure that indicates, in bit-field flags, signaling behavior.
+[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff544271">D3DDDICB_SIGNALFLAGS</a> structure that indicates, in bit-field flags, signaling behavior.
 
 
 ### -field BroadcastContextCount
@@ -137,16 +113,15 @@ An array of 64-bit values that are reserved for future use. The union in D3DKMT_
 
 ## -see-also
 
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddicb_signalflags.md">D3DDDICB_SIGNALFLAGS</a>
 
 
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtsignalsynchronizationobject2.md">D3DKMTSignalSynchronizationObject2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544271">D3DDDICB_SIGNALFLAGS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547227">D3DKMTSignalSynchronizationObject2</a>
  
 
  
-
 

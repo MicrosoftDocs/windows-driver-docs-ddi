@@ -52,18 +52,6 @@ req.typenames: BTH_VENDOR_PATTERN, *PBTH_VENDOR_PATTERN
 The BTH_VENDOR_PATTERN structure specifies a vendor pattern.
 
 
-## -syntax
-
-
-````
-typedef struct _BTH_VENDOR_PATTERN {
-  UCHAR Offset;
-  UCHAR Size;
-  UCHAR Pattern[1];
-} BTH_VENDOR_PATTERN, *PBTH_VENDOR_PATTERN;
-````
-
-
 ## -struct-fields
 
 
@@ -90,7 +78,7 @@ A buffer that contains pattern data.
 
 
 The BTH_VENDOR_PATTERN structure specifies vendor patterns for the 
-    <a href="..\bthioctl\ns-bthioctl-_bth_vendor_specific_command.md">
+    <a href="https://msdn.microsoft.com/c37844d9-206a-4060-8b46-9afe691fe8f9">
     BTH_VENDOR_SPECIFIC_COMMAND</a> structure.
 
 A list of patterns can immediately follow the vendor-specific command data that is specified in the 
@@ -104,12 +92,11 @@ Patterns are required if a vendor-specific command does not follow the standard 
 
 ## -see-also
 
-<a href="..\bthioctl\ns-bthioctl-_bth_vendor_specific_command.md">BTH_VENDOR_SPECIFIC_COMMAND</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536656">BTH_VENDOR_SPECIFIC_COMMAND</a>
  
 
  
-
 

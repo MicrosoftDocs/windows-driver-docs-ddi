@@ -7,7 +7,7 @@ old-location: buses\ucm_connector_config_init.htm
 old-project: usbref
 ms.assetid: F9076ED0-A9D2-441A-A084-941C05EF9CCA
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: UCM_CONNECTOR_CONFIG_INIT, UCM_CONNECTOR_CONFIG_INIT function [Buses], buses.ucm_connector_config_init, ucmmanager/UCM_CONNECTOR_CONFIG_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,18 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-Initializes a <a href="..\ucmmanager\ns-ucmmanager-_ucm_connector_config.md">UCM_CONNECTOR_CONFIG</a> structure.
-
-
-## -syntax
-
-
-````
-FORCEINLINE void UCM_CONNECTOR_CONFIG_INIT(
-  _Out_ PUCM_CONNECTOR_CONFIG  Config,
-  _In_  ULONGULONG             ConnectorId
-);
-````
+Initializes a <a href="https://msdn.microsoft.com/library/windows/hardware/mt187922">UCM_CONNECTOR_CONFIG</a> structure.
 
 
 ## -parameters
@@ -71,7 +60,7 @@ FORCEINLINE void UCM_CONNECTOR_CONFIG_INIT(
 
 ### -param Config [out]
 
-Pointer to a caller-allocated <a href="..\ucmmanager\ns-ucmmanager-_ucm_connector_config.md">UCM_CONNECTOR_CONFIG</a> structure to initialize.
+Pointer to a caller-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/mt187922">UCM_CONNECTOR_CONFIG</a> structure to initialize.
 
 
 ### -param ConnectorId [in]
@@ -90,12 +79,11 @@ This function does not return a value.
 
 ## -see-also
 
-<a href="..\ucmmanager\ns-ucmmanager-_ucm_manager_config.md">UCM_MANAGER_CONFIG</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt187932">UCM_MANAGER_CONFIG</a>
  
 
  
-
 

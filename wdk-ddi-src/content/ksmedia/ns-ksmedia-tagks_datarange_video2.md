@@ -52,22 +52,6 @@ req.typenames: KS_DATARANGE_VIDEO2, *PKS_DATARANGE_VIDEO2
 The KS_DATARANGE_VIDEO2 structure describes a video stream including bob or weave settings.
 
 
-## -syntax
-
-
-````
-typedef struct tagKS_DATARANGE_VIDEO2 {
-  KSDATARANGE                 DataRange;
-  BOOL                        bFixedSizeSamples;
-  BOOL                        bTemporalCompression;
-  DWORD                       StreamDescriptionFlags;
-  DWORD                       MemoryAllocationFlags;
-  KS_VIDEO_STREAM_CONFIG_CAPS ConfigCaps;
-  KS_VIDEOINFOHEADER2         VideoInfoHeader;
-} KS_DATARANGE_VIDEO2, *PKS_DATARANGE_VIDEO2;
-````
-
-
 ## -struct-fields
 
 
@@ -112,14 +96,13 @@ Specifies the details of the video stream.
 
 
 
-This structure should be used instead of a <a href="..\ksmedia\ns-ksmedia-tagks_datarange_video.md">KS_DATARANGE_VIDEO</a> structure when a minidriver must describe content with bob or weave settings.
+This structure should be used instead of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff567628">KS_DATARANGE_VIDEO</a> structure when a minidriver must describe content with bob or weave settings.
 
 
 
 
 ## -see-also
 
-<a href="..\ksmedia\ns-ksmedia-_ks_video_stream_config_caps.md">KS_VIDEO_STREAM_CONFIG_CAPS</a>
 
 
 
@@ -127,12 +110,12 @@ This structure should be used instead of a <a href="..\ksmedia\ns-ksmedia-tagks_
 
 
 
-<a href="..\ksmedia\ns-ksmedia-tagks_videoinfoheader2.md">KS_VIDEOINFOHEADER2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567702">KS_VIDEOINFOHEADER2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567706">KS_VIDEO_STREAM_CONFIG_CAPS</a>
  
 
  
-
 

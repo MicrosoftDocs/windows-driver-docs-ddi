@@ -52,19 +52,6 @@ req.typenames: BUS_INTERFACE_REFERENCE, *PBUS_INTERFACE_REFERENCE
 A software device enumerator exports this interface to allow drivers to reference count physical device objects (PDOs) such that the device remains active while in use and is unloaded when not in use.
 
 
-## -syntax
-
-
-````
-typedef struct {
-  INTERFACE                  Interface;
-  PFNREFERENCEDEVICEOBJECT   ReferenceDeviceObject;
-  PFNDEREFERENCEDEVICEOBJECT DereferenceDeviceObject;
-  PFNQUERYREFERENCESTRING    QueryReferenceString;
-} BUS_INTERFACE_REFERENCE, *PBUS_INTERFACE_REFERENCE;
-````
-
-
 ## -struct-fields
 
 
@@ -72,7 +59,7 @@ typedef struct {
 
 ### -field Interface
 
-Specifies the exported <a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>.
+Specifies the exported <a href="https://msdn.microsoft.com/library/windows/hardware/dn895657">INTERFACE</a>.
 
 
 ### -field ReferenceDeviceObject

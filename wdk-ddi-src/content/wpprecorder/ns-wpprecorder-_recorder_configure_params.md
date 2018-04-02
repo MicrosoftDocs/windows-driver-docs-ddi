@@ -50,18 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The <b>RECORDER_CONFIGURE_PARAMS</b> structure is an input parameter to the <a href="..\wpprecorder\nf-wpprecorder-imp_wpprecorderconfigure.md">WppRecorderConfigure</a> method to enable or disable the default log to which WPP prints.
-
-
-## -syntax
-
-
-````
-typedef struct _RECORDER_CONFIGURE_PARAMS {
-  ULONG   Size;
-  BOOLEAN CreateDefaultLog;
-} RECORDER_CONFIGURE_PARAMS, *PRECORDER_CONFIGURE_PARAMS;
-````
+The <b>RECORDER_CONFIGURE_PARAMS</b> structure is an input parameter to the <a href="https://msdn.microsoft.com/library/windows/hardware/dn914611">WppRecorderConfigure</a> method to enable or disable the default log to which WPP prints.
 
 
 ## -struct-fields
@@ -83,7 +72,7 @@ Indicates whether WPP should use the default log for trace messages. TRUE (defau
 
 
 
-To initialize this structure, the caller must call <a href="..\wpprecorder\nf-wpprecorder-recorder_configure_params_init.md">RECORDER_CONFIGURE_PARAMS_INIT</a>.
+To initialize this structure, the caller must call <a href="https://msdn.microsoft.com/library/windows/hardware/dn914607">RECORDER_CONFIGURE_PARAMS_INIT</a>.
 
 
 

@@ -7,7 +7,7 @@ old-location: kernel\interfacereference.htm
 old-project: kernel
 ms.assetid: 21737c1a-dd9d-4011-85c0-7ff871265ed5
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 2/24/2018
 ms.keywords: InterfaceReference, InterfaceReference routine [Kernel-Mode Driver Architecture], PINTERFACE_REFERENCE, drvr_interface_d7092619-d2e6-4ca6-bbd3-f857d775f73e.xml, kernel.interfacereference, wdm/InterfaceReference
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -98,6 +98,10 @@ The driver that exports the interface is responsible for calling <i>InterfaceRef
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551687">IRP_MN_QUERY_INTERFACE</a>
+
+
+
 <a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
 
 
@@ -106,12 +110,9 @@ The driver that exports the interface is responsible for calling <i>InterfaceRef
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551687">IRP_MN_QUERY_INTERFACE</a>
-
-
-
  
 
  
+
 
 

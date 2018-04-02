@@ -55,17 +55,6 @@ req.product: Windows 10 or later.
 The <b>RegisterRemoteInterfaceNotification</b> method registers a driver to receive a notification when a specified <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-device-interfaces-in-umdf-drivers">device interface</a> becomes available.
 
 
-## -syntax
-
-
-````
-HRESULT RegisterRemoteInterfaceNotification(
-  [in] LPCGUID pDeviceInterfaceGuid,
-  [in] BOOL    IncludeExistingInterfaces
-);
-````
-
-
 ## -parameters
 
 
@@ -96,7 +85,7 @@ If the driver sets this value to <b>FALSE</b>, the framework notifies the driver
 
 
 
-Your driver can call <b>RegisterRemoteInterfaceNotification</b> only if the callback interface that the driver previously passed to <a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a> supports the <a href="..\wudfddi\nn-wudfddi-ipnpcallbackremoteinterfacenotification.md">IPnpCallbackRemoteInterfaceNotification</a> interface.
+Your driver can call <b>RegisterRemoteInterfaceNotification</b> only if the callback interface that the driver previously passed to <a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a> supports the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556772">IPnpCallbackRemoteInterfaceNotification</a> interface.
 
 For more information, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-device-interfaces-in-umdf-drivers">Using Device Interfaces in UMDF-based Drivers</a>.
 
@@ -151,16 +140,15 @@ CMyDriver::OnDeviceAdd(
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556775">IPnpCallbackRemoteInterfaceNotification::OnRemoteInterfaceArrival</a>
 
 
 
-<a href="..\wudfddi\nn-wudfddi-iwdfdevice2.md">IWDFDevice2</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556918">IWDFDevice2</a>
  
 
  
-
 

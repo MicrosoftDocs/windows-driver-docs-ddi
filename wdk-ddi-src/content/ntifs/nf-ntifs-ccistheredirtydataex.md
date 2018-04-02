@@ -7,7 +7,7 @@ old-location: ifsk\ccistheredirtydataex.htm
 old-project: ifsk
 ms.assetid: 88378f82-2975-4b53-9dde-53ab81df3c53
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: CcIsThereDirtyDataEx, CcIsThereDirtyDataEx routine [Installable File System Drivers], ccref_13ae1f3e-b2ea-4bc6-a1cb-0101afd58d04.xml, ifsk.ccistheredirtydataex, ntifs/CcIsThereDirtyDataEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,17 +52,6 @@ req.typenames: TOKEN_TYPE
 The <b>CcIsThereDirtyDataEx</b> routine determines whether a volume contains any files that have dirty data in the system cache.
 
 
-## -syntax
-
-
-````
-BOOLEAN CcIsThereDirtyDataEx(
-  _In_     PVPB   Vpb,
-  _In_opt_ PULONG NumberOfDirtyPages
-);
-````
-
-
 ## -parameters
 
 
@@ -91,27 +80,26 @@ The <b>CcIsThereDirtyDataEx</b> routine returns <b>TRUE</b> if the volume contai
 
 
 
-This routine will return <b>TRUE</b> if any dirty pages exist including temporary files (<a href="..\ntifs\nf-ntifs-ccistheredirtydata.md">CcIsThereDirtyData</a> ignores temporary files).  It will also return <b>TRUE</b> if there is any data currently queued to the volume.
+This routine will return <b>TRUE</b> if any dirty pages exist including temporary files (<a href="https://msdn.microsoft.com/library/windows/hardware/ff539145">CcIsThereDirtyData</a> ignores temporary files).  It will also return <b>TRUE</b> if there is any data currently queued to the volume.
 
 
 
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-ccpurgecachesection.md">CcPurgeCacheSection</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-ccflushcache.md">CcFlushCache</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539082">CcFlushCache</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-ccistheredirtydata.md">CcIsThereDirtyData</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539145">CcIsThereDirtyData</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539188">CcPurgeCacheSection</a>
  
 
  
-
 

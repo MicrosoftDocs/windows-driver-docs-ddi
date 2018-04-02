@@ -53,21 +53,6 @@ req.product: Windows 10 or later.
 
 
 
-## -syntax
-
-
-````
-BOOL WINAPI PlayGdiScriptOnPrinterIC(
-  _In_  HANDLE   hPrinterIC,
-  _In_  LPBYTE   pIn,
-  _In_  DWORD    cIn,
-  _Out_ LPBYTE   pOut,
-  _In_  DWORD    cOut,
-  _In_  DWORD    ul
-);
-````
-
-
 ## -parameters
 
 

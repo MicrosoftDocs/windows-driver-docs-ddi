@@ -7,7 +7,7 @@ old-location: storage\ioctl_tape_write_marks.htm
 old-project: storage
 ms.assetid: cc4dabe3-4e14-4495-89b4-37f1a31ea62d
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_TAPE_WRITE_MARKS, IOCTL_TAPE_WRITE_MARKS control code [Storage Devices], k307_f1ba7d65-28cf-4a26-b385-462ca5018d88.xml, ntddtape/IOCTL_TAPE_WRITE_MARKS, storage.ioctl_tape_write_marks
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -62,7 +62,7 @@ Writes one of setmarks, filemarks, short filemarks, or long filemarks to tape.
 
 ### -input-buffer
 
-The <a href="..\ntddtape\ns-ntddtape-_tape_write_marks.md">TAPE_WRITE_MARKS</a> structure in the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> indicates the type and number of marks to write. 
+The <a href="https://msdn.microsoft.com/library/windows/hardware/ff567978">TAPE_WRITE_MARKS</a> structure in the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> indicates the type and number of marks to write. 
 
 If the <b>Immediate</b> member is <b>TRUE</b>, the operation should be asynchronous. 
 
@@ -107,20 +107,19 @@ The <b>Information</b> field is set to the number of bytes written. The <b>Statu
 
 ## -see-also
 
-<a href="..\minitape\ne-minitape-_tape_status.md">TAPE_STATUS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567975">TAPE_STATUS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567978">TAPE_WRITE_MARKS</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567958">TapeMiniWriteMarks</a>
-
-
-
-<a href="..\ntddtape\ns-ntddtape-_tape_write_marks.md">TAPE_WRITE_MARKS</a>
-
-
-
  
 
  
-
 

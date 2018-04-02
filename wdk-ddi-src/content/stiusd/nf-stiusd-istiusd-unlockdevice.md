@@ -53,14 +53,6 @@ req.product: Windows 10 or later.
 A still image minidriver's <b>IStiUSD::UnLockDevice</b> method unlocks a device that was locked by a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff543829">IStiUSD::LockDevice</a>.
 
 
-## -syntax
-
-
-````
-STDMETHODIMP UnLockDevice();
-````
-
-
 ## -parameters
 
 
@@ -88,16 +80,15 @@ If a driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff543
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543770">IStiDevice::UnLockDevice</a>
 
 
 
 <a href="https://msdn.microsoft.com/62740263-5bbb-48e1-be3d-9ee9cb37d6b9">IStiUSD</a>
-
-
-
  
 
  
-
 

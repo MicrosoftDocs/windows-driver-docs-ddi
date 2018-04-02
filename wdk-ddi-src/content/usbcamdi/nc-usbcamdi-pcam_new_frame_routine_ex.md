@@ -53,22 +53,6 @@ req.product: Windows 10 or later.
 A camera minidriver's <b>CamNewVideoFrameEx</b> callback function initializes a new video frame context structure.
 
 
-## -prototype
-
-
-````
-PCAM_NEW_FRAME_ROUTINE_EX CamNewVideoFrameEx;
-
-VOID CamNewVideoFrameEx(
-   PVOID  DeviceContext,
-   PVOID  FrameContext,
-   ULONG  StreamNumber,
-   PULONG FrameLength
-)
-{ ... }
-````
-
-
 ## -parameters
 
 

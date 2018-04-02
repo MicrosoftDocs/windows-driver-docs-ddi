@@ -58,27 +58,16 @@ This is the copy count minimum.
 This property is read-only.
 
 
-## -syntax
-
-
-````
-HRESULT get_JobCopiesAllDocumentsMinValue(
-  [out, retval] ULONG *pulJobCopiesAllDocumentsMinValue 
-);
-````
-
-
 ## -parameters
 
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprintschemacapabilities.md">IPrintSchemaCapabilities</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451256">IPrintSchemaCapabilities</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: storage\changerinitialize.htm
 old-project: storage
 ms.assetid: 7cb90d35-53e5-4c73-a1f5-9fc3f99cf1b2
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: ChangerInitialize, ChangerInitialize function [Storage Devices], chgrmini_025ae048-8625-4039-82a2-29d99dcc4972.xml, mcd/ChangerInitialize, storage.changerinitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,16 +52,6 @@ req.typenames: LAMP_INTENSITY_WHITE
 <b>ChangerInitialize</b> readies the changer to receive other requests. 
 
 
-## -syntax
-
-
-````
-NTSTATUS ChangerInitialize(
-  _In_ PDEVICE_OBJECT DeviceObject
-);
-````
-
-
 ## -parameters
 
 
@@ -101,12 +91,11 @@ After <b>ChangerInitialize</b> returns, the changer miniclass driver and the cha
 
 ## -see-also
 
-<a href="..\mcd\nf-mcd-changeradditionalextensionsize.md">ChangerAdditionalExtensionSize</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551400">ChangerAdditionalExtensionSize</a>
  
 
  
-
 

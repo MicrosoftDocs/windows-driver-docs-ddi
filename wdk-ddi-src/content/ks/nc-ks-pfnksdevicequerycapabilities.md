@@ -52,21 +52,6 @@ req.typenames: SOUNDDETECTOR_PATTERNHEADER
 An AVStream minidriver's <i>AVStrMiniDeviceQueryCapabilities</i> routine is called when an <a href="https://msdn.microsoft.com/library/windows/hardware/ff551664">IRP_MN_QUERY_CAPABILITIES</a> is dispatched by the device.
 
 
-## -prototype
-
-
-````
-PFNKSDEVICEQUERYCAPABILITIES AVStrMiniDeviceQueryCapabilities;
-
-NTSTATUS AVStrMiniDeviceQueryCapabilities(
-  _In_    PKSDEVICE            Device,
-  _In_    PIRP                 Irp,
-  _Inout_ PDEVICE_CAPABILITIES Capabilities
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -74,7 +59,7 @@ NTSTATUS AVStrMiniDeviceQueryCapabilities(
 
 ### -param Device [in]
 
-Pointer to the <a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a> that dispatched the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551664">IRP_MN_QUERY_CAPABILITIES</a>.
+Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff561681">KSDEVICE</a> that dispatched the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551664">IRP_MN_QUERY_CAPABILITIES</a>.
 
 
 ### -param Irp [in]
@@ -100,7 +85,7 @@ Should return STATUS_SUCCESS or the error code that was returned from the attemp
 
 
 
-The minidriver specifies this routine's address in the <b>QueryCapabilities</b> member of its <a href="..\ks\ns-ks-_ksdevice_dispatch.md">KSDEVICE_DISPATCH</a> structure.
+The minidriver specifies this routine's address in the <b>QueryCapabilities</b> member of its <a href="https://msdn.microsoft.com/library/windows/hardware/ff561693">KSDEVICE_DISPATCH</a> structure.
 
 This routine is called when an <a href="https://msdn.microsoft.com/library/windows/hardware/ff551664">IRP_MN_QUERY_CAPABILITIES</a> is dispatched by the device. It will usually be provided by minidrivers that need to supply information regarding power management capabilities. This routine is optional.
 
@@ -109,16 +94,15 @@ This routine is called when an <a href="https://msdn.microsoft.com/library/windo
 
 ## -see-also
 
-<a href="..\ks\ns-ks-_ksdevice_dispatch.md">KSDEVICE_DISPATCH</a>
 
 
 
-<a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561681">KSDEVICE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561693">KSDEVICE_DISPATCH</a>
  
 
  
-
 

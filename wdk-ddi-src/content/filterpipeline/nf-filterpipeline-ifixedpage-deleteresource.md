@@ -52,16 +52,6 @@ req.typenames: EXpsFontRestriction
 The <b>DeleteResource</b> method deletes a resource that is associated with the page.
 
 
-## -syntax
-
-
-````
-HRESULT DeleteResource(
-  [in] const wchar_t *uri
-);
-````
-
-
 ## -parameters
 
 

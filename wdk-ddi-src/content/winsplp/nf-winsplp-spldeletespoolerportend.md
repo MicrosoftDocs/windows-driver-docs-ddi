@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 
 
 
-## -syntax
-
-
-````
-BOOL WINAPI SplDeleteSpoolerPortEnd(
-  _In_ PCWSTR  pName,
-  _In_ BOOL    bDeletePort
-);
-````
-
-
 ## -parameters
 
 

@@ -7,7 +7,7 @@ old-location: display\dxgi_ddi_mode_scanline_order.htm
 old-project: display
 ms.assetid: 114a6f0d-22ec-4306-81b4-56cf882f167f
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGI_DDI_MODE_SCANLINE_ORDER, DXGI_DDI_MODE_SCANLINE_ORDER enumeration [Display Devices], DXGI_DDI_MODE_SCANLINE_ORDER_LOWER_FIELD_FIRST, DXGI_DDI_MODE_SCANLINE_ORDER_PROGRESSIVE, DXGI_DDI_MODE_SCANLINE_ORDER_UNSPECIFIED, DXGI_DDI_MODE_SCANLINE_ORDER_UPPER_FIELD_FIRST, UMDisplayDriver_Dx10param_Structs_fe7ff8f4-48e3-4ec5-a401-35d729a17440.xml, display.dxgi_ddi_mode_scanline_order, dxgiddi/DXGI_DDI_MODE_SCANLINE_ORDER, dxgiddi/DXGI_DDI_MODE_SCANLINE_ORDER_LOWER_FIELD_FIRST, dxgiddi/DXGI_DDI_MODE_SCANLINE_ORDER_PROGRESSIVE, dxgiddi/DXGI_DDI_MODE_SCANLINE_ORDER_UNSPECIFIED, dxgiddi/DXGI_DDI_MODE_SCANLINE_ORDER_UPPER_FIELD_FIRST
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,19 +52,6 @@ req.typenames: DXGI_DDI_MODE_SCANLINE_ORDER
 The DXGI_DDI_MODE_SCANLINE_ORDER enumeration type contains values that identify how scan lines are ordered in a display mode.
 
 
-## -syntax
-
-
-````
-typedef enum DXGI_DDI_MODE_SCANLINE_ORDER { 
-  DXGI_DDI_MODE_SCANLINE_ORDER_UNSPECIFIED        = 0,
-  DXGI_DDI_MODE_SCANLINE_ORDER_PROGRESSIVE        = 1,
-  DXGI_DDI_MODE_SCANLINE_ORDER_UPPER_FIELD_FIRST  = 2,
-  DXGI_DDI_MODE_SCANLINE_ORDER_LOWER_FIELD_FIRST  = 3
-} DXGI_DDI_MODE_SCANLINE_ORDER;
-````
-
-
 ## -enum-fields
 
 
@@ -101,12 +88,11 @@ The values of the DXGI_DDI_MODE_SCANLINE_ORDER enumeration type indicate whether
 
 ## -see-also
 
-<a href="..\dxgiddi\ns-dxgiddi-dxgi_ddi_mode_desc.md">DXGI_DDI_MODE_DESC</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557499">DXGI_DDI_MODE_DESC</a>
  
 
  
-
 

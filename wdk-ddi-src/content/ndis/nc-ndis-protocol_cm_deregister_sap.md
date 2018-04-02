@@ -7,7 +7,7 @@ old-location: netvista\protocolcmderegistersap.htm
 old-project: netvista
 ms.assetid: 738c426e-aa4f-4f59-b955-fbf67071303f
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: PROTOCOL_CM_DEREGISTER_SAP, ProtocolCmDeregisterSap, ProtocolCmDeregisterSap callback function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_fce09df2-cd92-4c6e-8596-91ecdb5f0c2c.xml, ndis/ProtocolCmDeregisterSap, netvista.protocolcmderegistersap
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -55,19 +55,6 @@ The
 <div class="alert"><b>Note</b>  You must declare the function by using the <b>PROTOCOL_CM_DEREGISTER_SAP</b> type.
    For more information, see the following Examples section.</div><div> </div>
 
-## -prototype
-
-
-````
-PROTOCOL_CM_DEREGISTER_SAP ProtocolCmDeregisterSap;
-
-NDIS_STATUS ProtocolCmDeregisterSap(
-  _In_ NDIS_HANDLE CallMgrSapContext
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -77,7 +64,7 @@ NDIS_STATUS ProtocolCmDeregisterSap(
 
 Specifies the handle to a call manager-allocated context area in which the call manager maintains
      its per-SAP state information. The call manager supplied this handle to NDIS from its 
-     <a href="..\ndis\nc-ndis-protocol_cm_reg_sap.md">
+     <a href="https://msdn.microsoft.com/3e3e7a0e-a8d2-40b2-895b-187d24867080">
      ProtocolCmRegisterSap</a> function.
 
 
@@ -113,7 +100,7 @@ Indicates that the call manager successfully removed the SAP registration and fr
 <td width="60%">
 Indicates that the call manager will complete the request to deregister the SAP asynchronously.
        The call manager must call 
-       <a href="..\ndis\nf-ndis-ndiscmderegistersapcomplete.md">
+       <a href="https://msdn.microsoft.com/92955e1e-6c5b-4e8e-a365-65ff4d0889a5">
        NdisCmDeregisterSapComplete</a> to signal NDIS when the operation is complete.
 
 </td>
@@ -148,9 +135,9 @@ Communicating with other media-specific network agents
 </ul>
 If a call manager is required to communicate with networking control agents, such as a network switch,
     it should use a virtual connection to the network control agent that it established in its 
-    <a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a> function.
+    <a href="https://msdn.microsoft.com/1958722e-012e-4110-a82c-751744bcf9b5">ProtocolBindAdapterEx</a> function.
     Stand-alone call managers communicate through the underlying miniport driver by calling 
-    <a href="..\ndis\nf-ndis-ndiscosendnetbufferlists.md">NdisCoSendNetBufferLists</a>.
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561728">NdisCoSendNetBufferLists</a>.
     Miniport drivers that provide integrated call-management support never call 
     <b>NdisCoSendNetBufferLists</b>. Instead, they transmit the data directly across the network.
 
@@ -200,24 +187,23 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndiscmderegistersapcomplete.md">NdisCmDeregisterSapComplete</a>
 
 
 
-<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561659">NdisCmDeregisterSapComplete</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndiscosendnetbufferlists.md">NdisCoSendNetBufferLists</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561728">NdisCoSendNetBufferLists</a>
 
 
 
-<a href="..\ndis\nc-ndis-protocol_cm_reg_sap.md">ProtocolCmRegisterSap</a>
+<a href="https://msdn.microsoft.com/1958722e-012e-4110-a82c-751744bcf9b5">ProtocolBindAdapterEx</a>
 
 
 
+<a href="https://msdn.microsoft.com/3e3e7a0e-a8d2-40b2-895b-187d24867080">ProtocolCmRegisterSap</a>
  
 
  
-
 

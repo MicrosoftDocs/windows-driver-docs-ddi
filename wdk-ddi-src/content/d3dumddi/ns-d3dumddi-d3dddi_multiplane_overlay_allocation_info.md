@@ -7,7 +7,7 @@ old-location: display\d3dddi_multiplane_allocation_info.htm
 old-project: display
 ms.assetid: ce3610ab-a927-45e7-8ceb-3f38b5f50f00
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDI_MULTIPLANE_ALLOCATION_INFO, D3DDDI_MULTIPLANE_ALLOCATION_INFO structure [Display Devices], D3DDDI_MULTIPLANE_OVERLAY_ALLOCATION_INFO, d3dumddi/D3DDDI_MULTIPLANE_ALLOCATION_INFO, display.d3dddi_multiplane_allocation_info
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,17 +50,6 @@ req.typenames: D3DDDI_MULTIPLANE_ALLOCATION_INFO
 
 
 Specifies info about a multiplane overlay allocation.
-
-
-## -syntax
-
-
-````
-typedef struct D3DDDI_MULTIPLANE_OVERLAY_ALLOCATION_INFO {
-  D3DKMT_HANDLE PresentAllocation;
-  UINT          SubResourceIndex;
-} D3DDDI_MULTIPLANE_ALLOCATION_INFO;
-````
 
 
 ## -struct-fields

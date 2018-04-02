@@ -53,20 +53,6 @@ req.product: Windows 10 or later.
 The GETINFO_GLYPHWIDTH structure is used as input to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563594">UNIFONTOBJ_GetInfo</a> callback function.
 
 
-## -syntax
-
-
-````
-typedef struct _GETINFO_GLYPHWIDTH {
-  DWORD dwSize;
-  DWORD dwType;
-  DWORD dwCount;
-  PVOID pGlyph;
-  PLONG plWidth;
-} GETINFO_GLYPHWIDTH, *PGETINFO_GLYPHWIDTH;
-````
-
-
 ## -struct-fields
 
 
@@ -114,12 +100,11 @@ To obtain the width of a set of glyphs, a rendering plug-in can supply the addre
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563594">UNIFONTOBJ_GetInfo</a>
-
-
-
  
 
  
-
 

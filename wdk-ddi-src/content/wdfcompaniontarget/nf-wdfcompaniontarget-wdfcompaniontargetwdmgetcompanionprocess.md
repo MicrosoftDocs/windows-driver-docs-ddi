@@ -54,16 +54,6 @@ req.product: Windows 10 or later.
 			For internal use only.
 
 
-## -syntax
-
-
-````
-PEPROCESS WdfCompanionTargetWdmGetCompanionProcess(
-  _In_ WDFCOMPANIONTARGET CompanionTarget
-);
-````
-
-
 ## -parameters
 
 

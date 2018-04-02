@@ -7,7 +7,7 @@ old-location: storage\storportgetrequestinfo.htm
 old-project: storage
 ms.assetid: 3B0A25E8-6DBC-4AA9-A0D0-DDB36B402F43
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: StorPortGetRequestInfo, StorPortGetRequestInfo routine [Storage Devices], storage.storportgetrequestinfo, storport/StorPortGetRequestInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,20 +51,8 @@ req.product: Windows 10 or later.
 
 
 
-   The <b>StorPortGetRequestInfo</b> routine retrieves the IO request information associated with a SCSI request block (SRB) and  returns it in a <a href="..\storport\ns-storport-_stor_request_info_v1.md">STOR_REQUEST_INFO</a> structure. 
+   The <b>StorPortGetRequestInfo</b> routine retrieves the IO request information associated with a SCSI request block (SRB) and  returns it in a <a href="https://msdn.microsoft.com/library/windows/hardware/hh451524">STOR_REQUEST_INFO</a> structure. 
   
-
-
-## -syntax
-
-
-````
-ULONG StorPortGetRequestInfo(
-  _In_  PVOID               HwDeviceExtension,
-  _In_  PSCSI_REQUEST_BLOCK Srb,
-  _Out_ PSTOR_REQUEST_INFO  RequestInfo
-);
-````
 
 
 ## -parameters
@@ -84,7 +72,7 @@ A pointer to the SRB to be queried.
 
 ### -param RequestInfo [out]
 
-A pointer to a caller-supplied <a href="..\storport\ns-storport-_stor_request_info_v1.md">STOR_REQUEST_INFO</a> structure.
+A pointer to a caller-supplied <a href="https://msdn.microsoft.com/library/windows/hardware/hh451524">STOR_REQUEST_INFO</a> structure.
 
 
 ## -returns
@@ -105,7 +93,7 @@ The <b>StorPortGetRequestInfo</b> routine returns one of these status codes:
 </dl>
 </td>
 <td width="60%">
-The version specified for <a href="..\storport\ns-storport-_stor_request_info_v1.md">STOR_REQUEST_INFO</a> is invalid.
+The version specified for <a href="https://msdn.microsoft.com/library/windows/hardware/hh451524">STOR_REQUEST_INFO</a> is invalid.
 
 </td>
 </tr>
@@ -148,12 +136,11 @@ The caller of <b>StorPortGetRequestInfo</b> must set the <b>Version</b> member o
 
 ## -see-also
 
-<a href="..\storport\ns-storport-_stor_request_info_v1.md">STOR_REQUEST_INFO</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451524">STOR_REQUEST_INFO</a>
  
 
  
-
 

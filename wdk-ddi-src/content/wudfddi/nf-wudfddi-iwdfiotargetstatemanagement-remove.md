@@ -55,16 +55,6 @@ req.product: Windows 10 or later.
 The <b>Remove</b> method removes a <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/general-i-o-targets-in-umdf">local  I/O target</a>.
 
 
-## -syntax
-
-
-````
-HRESULT Remove(
-  [in] BOOL bIsSurpriseRemove
-);
-````
-
-
 ## -parameters
 
 
@@ -95,12 +85,11 @@ Although the <b>Remove</b> method is available, drivers do not need to call it. 
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfiotargetstatemanagement.md">IWDFIoTargetStateManagement</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559198">IWDFIoTargetStateManagement</a>
  
 
  
-
 

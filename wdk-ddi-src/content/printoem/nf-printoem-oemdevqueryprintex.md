@@ -52,19 +52,6 @@ req.product: Windows 10 or later.
 
 
 
-## -syntax
-
-
-````
-BOOL APIENTRY OEMDevQueryPrintEx(
-   POEMUIOBJ           poemuiobj,
-   PDEVQUERYPRINT_INFO pDQPInfo,
-   PDEVMODE            pPublicDM,
-   PVOID               pOEMDM
-);
-````
-
-
 ## -parameters
 
 

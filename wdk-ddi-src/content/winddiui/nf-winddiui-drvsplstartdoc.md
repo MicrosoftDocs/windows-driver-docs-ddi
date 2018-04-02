@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 
 
 
-## -syntax
-
-
-````
-HANDLE WINAPI DrvSplStartDoc(
-   HANDLE hPrinter,
-   DWORD  JobId
-);
-````
-
-
 ## -parameters
 
 

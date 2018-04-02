@@ -53,21 +53,6 @@ req.product: Windows 10 or later.
 The STI_DEVICE_STATUS structure is used as a parameter to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff543752">IStiDevice::GetStatus</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff543823">IStiUSD::GetStatus</a> methods.
 
 
-## -syntax
-
-
-````
-typedef struct _STI_DEVICE_STATUS {
-  DWORD dwSize;
-  DWORD StatusMask;
-  DWORD dwOnlineState;
-  DWORD dwHardwareStatusCode;
-  DWORD dwEventHandlingState;
-  DWORD dwPollingInterval;
-} STI_DEVICE_STATUS, *PSTI_DEVICE_STATUS;
-````
-
-
 ## -struct-fields
 
 

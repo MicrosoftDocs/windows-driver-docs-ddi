@@ -7,7 +7,7 @@ old-location: ifsk\fsrtlprocessfilelock.htm
 old-project: ifsk
 ms.assetid: 370e9dfd-ef2f-4bba-a0ec-5ebc6fbecb7a
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FsRtlProcessFileLock, FsRtlProcessFileLock routine [Installable File System Drivers], fsrtlref_93a3a663-fe0b-45c2-ab32-af4fe94b9697.xml, ifsk.fsrtlprocessfilelock, ntifs/FsRtlProcessFileLock
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,18 +52,6 @@ req.typenames: TOKEN_TYPE
 The <b>FsRtlProcessFileLock</b> routine processes and completes an IRP for a file lock operation.
 
 
-## -syntax
-
-
-````
-NTSTATUS FsRtlProcessFileLock(
-  _In_     PFILE_LOCK FileLock,
-  _In_     PIRP       Irp,
-  _In_opt_ PVOID      Context
-);
-````
-
-
 ## -parameters
 
 
@@ -71,7 +59,7 @@ NTSTATUS FsRtlProcessFileLock(
 
 ### -param FileLock [in]
 
-Pointer to the FILE_LOCK structure for the file. This structure must have been initialized by a previous call to <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlallocatefilelock~r1.md">FsRtlAllocateFileLock</a> or <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializefilelock~r2.md">FsRtlInitializeFileLock</a>.
+Pointer to the FILE_LOCK structure for the file. This structure must have been initialized by a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff545640">FsRtlAllocateFileLock</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff546122">FsRtlInitializeFileLock</a>.
 
 
 ### -param Irp [in]
@@ -105,31 +93,30 @@ On Microsoft Windows 2000 and earlier, it is the process that created the thread
 
 Callers of <b>FsRtlProcessFileLock</b> relinquish control of the input IRP.
 
-Minifilters must call <a href="..\fltkernel\nf-fltkernel-fltprocessfilelock.md">FltProcessFileLock</a> instead of <b>FsRtlProcessFileLock</b>. 
+Minifilters must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff543427">FltProcessFileLock</a> instead of <b>FsRtlProcessFileLock</b>. 
 
 
 
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializefilelock~r2.md">FsRtlInitializeFileLock</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543427">FltProcessFileLock</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545640">FsRtlAllocateFileLock</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546122">FsRtlInitializeFileLock</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549251">IRP_MJ_LOCK_CONTROL</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltprocessfilelock.md">FltProcessFileLock</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlallocatefilelock~r1.md">FsRtlAllocateFileLock</a>
-
-
-
  
 
  
-
 

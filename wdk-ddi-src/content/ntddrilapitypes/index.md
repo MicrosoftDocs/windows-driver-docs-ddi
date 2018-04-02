@@ -2,7 +2,7 @@
 UID: NA:ntddrilapitypes
 ms.assetid: 005b5749-3839-3c4f-87c6-27625d720a56
 ms.author: windowsdriverdev
-ms.date: 03/13/18
+ms.date: 02/27/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -23,7 +23,6 @@ Ntddrilapitypes.h contain these programming interfaces:
 
 | Title   | Description   |
 | ---- |:---- |
-| [GETDEVICEINFORESPONSE structure](ns-ntddrilapitypes-getdeviceinforesponse.md) | This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. |
 | [RILACCESSTECHNOLOGY structure](ns-ntddrilapitypes-rilaccesstechnology.md) | This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. |
 | [RILADDCALLFORWARDINGPARAMS structure](ns-ntddrilapitypes-riladdcallforwardingparams.md) | This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. |
 | [RILADDITIONALCALLERINFO structure](ns-ntddrilapitypes-riladditionalcallerinfo.md) | This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. |
@@ -159,7 +158,6 @@ Ntddrilapitypes.h contain these programming interfaces:
 | [RILPOSITIONINFOLTE structure](ns-ntddrilapitypes-rilpositioninfolte.md) | This structure represents the RILPOSITIONINFOLTE. |
 | [RILPOSITIONINFOTDSCDMA structure](ns-ntddrilapitypes-rilpositioninfotdscdma.md) | This structure represents the RILPOSITIONINFOTDSCDMA. |
 | [RILPOSITIONINFOUMTS structure](ns-ntddrilapitypes-rilpositioninfoumts.md) | This structure represents a RILPOSITIONINFOUMTS. |
-| [RILPOSITIONINFO_V1 structure](ns-ntddrilapitypes-rilpositioninfo_v1.md) | This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. |
 | [RILPOSITIONINFO_V2 structure](ns-ntddrilapitypes-rilpositioninfo_v2.md) | This structure represents the RILPOSITIONINFO_V2. |
 | [RILPROVISIONSTATUS structure](ns-ntddrilapitypes-rilprovisionstatus.md) | This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. |
 | [RILPSMEDIACONFIGURATION structure](ns-ntddrilapitypes-rilpsmediaconfiguration.md) | This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. |
@@ -328,7 +326,6 @@ Ntddrilapitypes.h contain these programming interfaces:
 | [RILEMERGENCYNUMBERCATEGORY enumeration](ne-ntddrilapitypes-rilemergencynumbercategory.md) | This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. |
 | [RILEMERGENCYNUMBERPARAMMASK enumeration](ne-ntddrilapitypes-rilemergencynumberparammask.md) | This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. |
 | [RILEQUIPMENTSTATE enumeration](ne-ntddrilapitypes-rilequipmentstate.md) | This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. |
-| [RILERRORCODES enumeration](ne-ntddrilapitypes-rilerrorcodes.md) | This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. |
 | [RILERRORDETAILSPARAMMASK enumeration](ne-ntddrilapitypes-rilerrordetailsparammask.md) | This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. |
 | [RILEUTRAMRLPARAMMASK enumeration](ne-ntddrilapitypes-rileutramrlparammask.md) | This enumeration describes the RILEUTRAMRLPARAMMASK. |
 | [RILEVDOKIND enumeration](ne-ntddrilapitypes-rilevdokind.md) | This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. |

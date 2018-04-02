@@ -208,7 +208,7 @@ For more information, see <a href="https://msdn.microsoft.com/c05a1a1e-308a-4b9f
 
 ## -see-also
 
-<a href="..\parallel\nc-parallel-pterminate_ieee_mode.md">PTERMINATE_IEEE_MODE</a>
+<a href="..\parallel\nc-parallel-pparallel_write.md">PPARALLEL_WRITE</a>
 
 
 
@@ -216,19 +216,11 @@ For more information, see <a href="https://msdn.microsoft.com/c05a1a1e-308a-4b9f
 
 
 
-<a href="..\parallel\nc-parallel-pparallel_ieee_rev_to_fwd.md">PPARALLEL_IEEE_REV_TO_FWD</a>
-
-
-
-<a href="..\parallel\ni-parallel-ioctl_internal_lock_port.md">IOCTL_INTERNAL_LOCK_PORT</a>
+<a href="..\parallel\nc-parallel-pterminate_ieee_mode.md">PTERMINATE_IEEE_MODE</a>
 
 
 
 <a href="..\parallel\nc-parallel-pnegotiate_ieee_mode.md">PNEGOTIATE_IEEE_MODE</a>
-
-
-
-<a href="..\parallel\ni-parallel-ioctl_internal_parclass_connect.md">IOCTL_INTERNAL_PARCLASS_CONNECT</a>
 
 
 
@@ -240,7 +232,15 @@ For more information, see <a href="https://msdn.microsoft.com/c05a1a1e-308a-4b9f
 
 
 
-<a href="..\parallel\nc-parallel-pparallel_write.md">PPARALLEL_WRITE</a>
+<a href="..\parallel\ni-parallel-ioctl_internal_parclass_connect.md">IOCTL_INTERNAL_PARCLASS_CONNECT</a>
+
+
+
+<a href="..\parallel\ni-parallel-ioctl_internal_lock_port.md">IOCTL_INTERNAL_LOCK_PORT</a>
+
+
+
+<a href="..\parallel\nc-parallel-pparallel_ieee_rev_to_fwd.md">PPARALLEL_IEEE_REV_TO_FWD</a>
 
 
 

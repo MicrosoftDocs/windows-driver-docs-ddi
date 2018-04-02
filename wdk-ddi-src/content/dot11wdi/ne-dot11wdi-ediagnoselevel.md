@@ -7,7 +7,7 @@ old-location: netvista\wdiediagnoselevel.htm
 old-project: netvista
 ms.assetid: C19C250D-3C8D-4855-A8B3-82E139CE09BB
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: DiagnoseLevelDriverStateDump, DiagnoseLevelFirmwareImageDump, DiagnoseLevelHardwareRegisters, DiagnoseLevelNone, dot11wdi/DiagnoseLevelDriverStateDump, dot11wdi/DiagnoseLevelFirmwareImageDump, dot11wdi/DiagnoseLevelHardwareRegisters, dot11wdi/DiagnoseLevelNone, dot11wdi/eDiagnoseLevel, eDiagnoseLevel, eDiagnoseLevel enumeration [Network Drivers Starting with Windows Vista], netvista.wdiediagnoselevel
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,19 +52,6 @@ req.typenames: eDiagnoseLevel
 The eDiagnoseLevel enumeration defines the diagnosis levels for adapter hang diagnosis.
 
 
-## -syntax
-
-
-````
-typedef enum _eDiagnoseLevel { 
-  DiagnoseLevelNone               = 0,
-  DiagnoseLevelHardwareRegisters  = 1,
-  DiagnoseLevelFirmwareImageDump  = 2,
-  DiagnoseLevelDriverStateDump    = 3
-} eDiagnoseLevel;
-````
-
-
 ## -enum-fields
 
 
@@ -92,12 +79,11 @@ Dump the driver state, full firmware image, and hardware registers. The driver s
 
 ## -see-also
 
-<a href="..\dot11wdi\nc-dot11wdi-miniport_wdi_adapter_hang_diagnose.md">MiniportWdiAdapterHangDiagnose</a>
 
 
 
+<a href="https://msdn.microsoft.com/233CCF43-481E-4759-A2FC-0329103F8208">MiniportWdiAdapterHangDiagnose</a>
  
 
  
-
 

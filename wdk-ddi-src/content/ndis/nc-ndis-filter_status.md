@@ -7,7 +7,7 @@ old-location: netvista\filterstatus.htm
 old-project: netvista
 ms.assetid: 051ce37c-a7a5-4367-9495-023fc51349ba
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: FILTER_STATUS, FilterStatus, FilterStatus callback function [Network Drivers Starting with Windows Vista], ndis/FilterStatus, ndis_status_ref_4bddf4b3-3869-4e47-ba86-021e9f25484b.xml, netvista.filterstatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -55,20 +55,6 @@ The
 <div class="alert"><b>Note</b>  You must declare the function by using the <b>FILTER_STATUS</b> type. For more
    information, see the following Examples section.</div><div> </div>
 
-## -prototype
-
-
-````
-FILTER_STATUS FilterStatus;
-
-VOID FilterStatus(
-  _In_ NDIS_HANDLE             FilterModuleContext,
-  _In_ PNDIS_STATUS_INDICATION StatusIndication
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -78,13 +64,13 @@ VOID FilterStatus(
 
 A handle to the context area for the filter module. The filter driver created and initialized this
      context area in the 
-     <a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a> function.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff540442">FilterAttach</a> function.
 
 
 ### -param StatusIndication [in]
 
 A pointer to an 
-     <a href="..\ndis\ns-ndis-_ndis_status_indication.md">NDIS_STATUS_INDICATION</a> structure
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff567373">NDIS_STATUS_INDICATION</a> structure
      that contains the status information.
 
 
@@ -103,14 +89,14 @@ None
 
 <i>FilterStatus</i> is an optional function. If a filter driver does not use status indications, it can
     set the entry point for this function to <b>NULL</b> when it calls the 
-    <a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">
+    <a href="https://msdn.microsoft.com/14381de2-36d9-4ec8-9d4e-7af3e6d8ecf3">
     NdisFRegisterFilterDriver</a> function.
 
 To determine link status, use the status indications from underlying drivers instead of OID queries.
     These status indications will improve system performance and avoid possible race conditions.
 
 A filter driver usually calls the 
-    <a href="..\ndis\nf-ndis-ndisfindicatestatus.md">NdisFIndicateStatus</a> function at the
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561824">NdisFIndicateStatus</a> function at the
     end of its 
     <i>FilterStatus</i> function to pass on the status indication to overlying drivers.
 
@@ -163,24 +149,23 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">NdisFRegisterFilterDriver</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisfindicatestatus.md">NdisFIndicateStatus</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540442">FilterAttach</a>
 
 
 
-<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567373">NDIS_STATUS_INDICATION</a>
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_status_indication.md">NDIS_STATUS_INDICATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561824">NdisFIndicateStatus</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562608">NdisFRegisterFilterDriver</a>
  
 
  
-
 

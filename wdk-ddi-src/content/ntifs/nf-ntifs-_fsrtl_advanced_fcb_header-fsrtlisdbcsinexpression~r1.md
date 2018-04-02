@@ -7,7 +7,7 @@ old-location: ifsk\fsrtlisdbcsinexpression.htm
 old-project: ifsk
 ms.assetid: 87292b33-4b82-4ac5-b71b-523391e5fea2
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FsRtlIsDbcsInExpression, FsRtlIsDbcsInExpression routine [Installable File System Drivers], fsrtlref_f38a4fe0-8553-4e19-a6c9-fb83a81c6cb5.xml, ifsk.fsrtlisdbcsinexpression, ntifs/FsRtlIsDbcsInExpression
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,17 +50,6 @@ req.typenames: TOKEN_TYPE
 
 
 The <b>FsRtlIsDbcsInExpression</b> routine determines whether an ANSI or double-byte character set (DBCS) string matches the specified pattern. 
-
-
-## -syntax
-
-
-````
-BOOLEAN FsRtlIsDbcsInExpression(
-  _In_ PANSI_STRING Expression,
-  _In_ PANSI_STRING Name
-);
-````
 
 
 ## -parameters
@@ -151,7 +140,7 @@ Matches zero or more characters until encountering and matching the final . in t
 </table>
  
 
-Pattern matching is case sensitive. To perform a case-insensitive match, the caller must use a routine such as <a href="..\ntddk\nf-ntddk-rtlupperstring.md">RtlUpperString</a> to convert the pattern and input strings to uppercase before calling <b>FsRtlIsDbcsInExpression</b>.
+Pattern matching is case sensitive. To perform a case-insensitive match, the caller must use a routine such as <a href="https://msdn.microsoft.com/library/windows/hardware/ff563013">RtlUpperString</a> to convert the pattern and input strings to uppercase before calling <b>FsRtlIsDbcsInExpression</b>.
 
 For information about other string-handling routines, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563884">Strings</a>. 
 
@@ -160,20 +149,19 @@ For information about other string-handling routines, see <a href="https://msdn.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540605">ANSI_STRING</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlisnameinexpression~r3.md">FsRtlIsNameInExpression</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546850">FsRtlIsNameInExpression</a>
 
 
 
-<a href="..\ntddk\nf-ntddk-rtlupperstring.md">RtlUpperString</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563013">RtlUpperString</a>
  
 
  
-
 

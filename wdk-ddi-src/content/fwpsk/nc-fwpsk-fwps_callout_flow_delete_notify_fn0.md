@@ -7,7 +7,7 @@ old-location: netvista\flowdeletefn.htm
 old-project: netvista
 ms.assetid: 65449a23-da5d-4884-b98e-030461eb019a
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: FWPS_CALLOUT_FLOW_DELETE_NOTIFY_FN0, flowDeleteFn, flowDeleteFn callback function [Network Drivers Starting with Windows Vista], fwpsk/flowDeleteFn, netvista.flowdeletefn, wfp_ref_2_funct_4_callout_b89bd091-32f2-4d86-a394-84aa027219f7.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -54,21 +54,6 @@ The filter engine calls a callout's
   callout is being terminated.
 
 
-## -prototype
-
-
-````
-FWPS_CALLOUT_FLOW_DELETE_NOTIFY_FN0 flowDeleteFn;
-
-void NTAPI flowDeleteFn(
-  _In_ UINT16 layerId,
-  _In_ UINT32 calloutId,
-  _In_ UINT64 flowContext
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -86,15 +71,15 @@ The run-time identifier for the filtering layer at which the data flow is being 
 
 The run-time identifier for the callout in the filter engine. This is the same identifier that was
      returned when the callout driver called either the 
-     <a href="..\fwpsk\nf-fwpsk-fwpscalloutregister0.md">FwpsCalloutRegister0</a> or 
-     <a href="..\fwpsk\nf-fwpsk-fwpscalloutregister1.md">FwpsCalloutRegister1</a> functions to
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff551140">FwpsCalloutRegister0</a> or 
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff551143">FwpsCalloutRegister1</a> functions to
      register the callout with the filter engine.
 
 
 ### -param flowContext [in]
 
 The most recent context that has been associated with the data flow by a call to the 
-     <a href="..\fwpsk\nf-fwpsk-fwpsflowassociatecontext0.md">FwpsFlowAssociateContext0</a> function.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff551165">FwpsFlowAssociateContext0</a> function.
 
 
 ## -returns
@@ -111,8 +96,8 @@ None.
 
 
 A callout driver registers a callout's callout functions with the filter engine by calling either the 
-    <a href="..\fwpsk\nf-fwpsk-fwpscalloutregister0.md">FwpsCalloutRegister0</a> or 
-    <a href="..\fwpsk\nf-fwpsk-fwpscalloutregister1.md">FwpsCalloutRegister1</a> functions.
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff551140">FwpsCalloutRegister0</a> or 
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff551143">FwpsCalloutRegister1</a> functions.
 
 The filter engine calls a callout's 
     <i>flowDeleteFn</i> callout function when it terminates a data flow so that the callout can clean up the
@@ -131,7 +116,7 @@ The filter engine calls a callout's
     <i>flowDeleteFn</i> callout function for the callout. In this situation, the callout driver should set the
     
     <i>flowDeleteFn</i> member of the 
-    <a href="..\fwpsk\ns-fwpsk-fwps_callout0_.md">FWPS_CALLOUT0</a> structure to <b>NULL</b> when it
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff551224">FWPS_CALLOUT0</a> structure to <b>NULL</b> when it
     registers the callout with the filter engine.
 
 The FWPS_CALLOUT_FLOW_DELETE_NOTIFY_FN0 type is defined as a pointer to the 
@@ -155,11 +140,6 @@ The filter engine calls a callout's
 
 ## -see-also
 
-<a href="..\fwpsk\nf-fwpsk-fwpsflowassociatecontext0.md">FwpsFlowAssociateContext0</a>
-
-
-
-<a href="..\fwpsk\nf-fwpsk-fwpscalloutregister1.md">FwpsCalloutRegister1</a>
 
 
 
@@ -167,16 +147,20 @@ The filter engine calls a callout's
 
 
 
-<a href="..\fwpsk\nf-fwpsk-fwpscalloutregister0.md">FwpsCalloutRegister0</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551224">FWPS_CALLOUT0</a>
 
 
 
-<a href="..\fwpsk\ns-fwpsk-fwps_callout0_.md">FWPS_CALLOUT0</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551140">FwpsCalloutRegister0</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551143">FwpsCalloutRegister1</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551165">FwpsFlowAssociateContext0</a>
  
 
  
-
 

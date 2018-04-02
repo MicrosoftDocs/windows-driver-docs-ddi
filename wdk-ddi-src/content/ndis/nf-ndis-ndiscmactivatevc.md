@@ -7,7 +7,7 @@ old-location: netvista\ndiscmactivatevc.htm
 old-project: netvista
 ms.assetid: 9091426c-3174-4367-b7c7-5684877efe9c
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: NdisCmActivateVc, NdisCmActivateVc function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_425eba15-2cda-4e36-b88d-59978501ecbf.xml, ndis/NdisCmActivateVc, netvista.ndiscmactivatevc
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -54,17 +54,6 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
   down to the underlying miniport driver.
 
 
-## -syntax
-
-
-````
-NDIS_STATUS NdisCmActivateVc(
-  _In_    NDIS_HANDLE         NdisVcHandle,
-  _Inout_ PCO_CALL_PARAMETERS CallParameters
-);
-````
-
-
 ## -parameters
 
 
@@ -74,9 +63,9 @@ NDIS_STATUS NdisCmActivateVc(
 
 Specifies the handle identifying the VC on which to set call parameters. The call manager either
      obtained this handle from 
-     <a href="..\ndis\nf-ndis-ndiscocreatevc.md">NdisCoCreateVc</a> for an incoming call or as
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff561696">NdisCoCreateVc</a> for an incoming call or as
      an input parameter to its 
-     <a href="..\ndis\nc-ndis-protocol_co_create_vc.md">ProtocolCoCreateVc</a> function for a
+     <a href="https://msdn.microsoft.com/b086dd24-74f5-474a-8684-09bf92ac731b">ProtocolCoCreateVc</a> function for a
      client-initiated outgoing call.
 
 
@@ -94,7 +83,7 @@ Pointer to a CM-allocated resident buffer, formatted as a structure of type
 When 
      <b>NdisCmActivateVc</b> returns anything other than NDIS_STATUS_PENDING, the call manager should make an
      internal call to its 
-     <a href="..\ndis\nc-ndis-protocol_cm_activate_vc_complete.md">
+     <a href="https://msdn.microsoft.com/6ec9e73e-8abd-4d27-b598-6176f2125348">
      ProtocolCmActivateVcComplete</a> function. Otherwise, NDIS calls the CM's 
      <i>ProtocolCmActivateVcComplete</i> function when this operation is completed.
 
@@ -108,7 +97,7 @@ When
 <b>NdisCmActivateVc</b> notifies the underlying miniport driver to set up call and media parameters on a
     newly created VC or to change those of an established VC. NDIS forwards the given call parameters and VC
     handle to the underlying miniport driver's 
-    <a href="..\ndis\nc-ndis-miniport_co_activate_vc.md">MiniportCoActivateVc</a> function, which
+    <a href="https://msdn.microsoft.com/243a1236-4b8a-4f00-9f14-3142fa81c362">MiniportCoActivateVc</a> function, which
     sets up all necessary resources to track the state of the VC and makes itself and a NIC ready for data
     transfers on the VC.
 
@@ -117,7 +106,7 @@ A stand-alone CM always calls
     that VC. For the duration of the connection, a CM can call 
     <b>NdisCmActivateVc</b> many times with the same 
     <i>NdisVcHandle</i> as conditions on the network change and/or whenever the client calls 
-    <a href="..\ndis\nf-ndis-ndisclmodifycallqos.md">NdisClModifyCallQoS</a>. At each such
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561636">NdisClModifyCallQoS</a>. At each such
     call to 
     <b>NdisCmActivateVc</b>, the underlying miniport driver's 
     <i>MiniportCoActivateVc</i> function must do either of the following:
@@ -145,17 +134,17 @@ For a client-initiated outgoing call, a stand-alone CM usually calls
     <b>NdisCmActivateVc</b> immediately following the packet exchange confirming a negotiated agreement with
     the remote target of the call or successful call-setup at the switch, before it notifies NDIS (and the
     client) of outgoing call completion with 
-    <a href="..\ndis\nf-ndis-ndiscmmakecallcomplete.md">NdisCmMakeCallComplete</a>. For an
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561677">NdisCmMakeCallComplete</a>. For an
     incoming call, a call manager usually calls 
     <b>NdisCmActivateVc</b> after it has called 
-    <a href="..\ndis\nf-ndis-ndiscocreatevc.md">NdisCoCreateVc</a> successfully and before it
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561696">NdisCoCreateVc</a> successfully and before it
     calls 
-    <a href="..\ndis\nf-ndis-ndiscmdispatchincomingcall.md">
+    <a href="https://msdn.microsoft.com/2172aeec-8502-414e-9d01-9292c0eb7ce8">
     NdisCmDispatchIncomingCall</a>.
 
 In the process of setting up an outgoing call and while any VC remains activated, the client can
     request changes to the call parameters for that VC, for example, by calling 
-    <a href="..\ndis\nf-ndis-ndisclmodifycallqos.md">NdisClModifyCallQos</a>. After verifying
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561636">NdisClModifyCallQos</a>. After verifying
     the validity of the given call parameters for any such a request, the stand-alone call manager must call 
     <b>NdisCmActivateVc</b> to pass the modified call parameters down to the underlying miniport driver.
 
@@ -169,49 +158,48 @@ Only stand-alone call managers, which register themselves with NDIS as protocol 
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndiscmdispatchincomingcall.md">NdisCmDispatchIncomingCall</a>
+<a href="https://msdn.microsoft.com/243a1236-4b8a-4f00-9f14-3142fa81c362">MiniportCoActivateVc</a>
 
 
 
-<a href="..\ndis\nc-ndis-protocol_cm_activate_vc_complete.md">
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561635">NdisClMakeCall</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561636">NdisClModifyCallQos</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561657">NdisCmDeactivateVc</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561664">NdisCmDispatchIncomingCall</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561696">NdisCoCreateVc</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562792">NdisMCmActivateVc</a>
+
+
+
+<a href="https://msdn.microsoft.com/6ec9e73e-8abd-4d27-b598-6176f2125348">
    ProtocolCmActivateVcComplete</a>
 
 
 
-<a href="..\ndis\nc-ndis-protocol_co_create_vc.md">ProtocolCoCreateVc</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismcmactivatevc.md">NdisMCmActivateVc</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndiscmdeactivatevc.md">NdisCmDeactivateVc</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndiscocreatevc.md">NdisCoCreateVc</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_co_activate_vc.md">MiniportCoActivateVc</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisclmakecall.md">NdisClMakeCall</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisclmodifycallqos.md">NdisClModifyCallQos</a>
-
-
-
+<a href="https://msdn.microsoft.com/b086dd24-74f5-474a-8684-09bf92ac731b">ProtocolCoCreateVc</a>
  
 
  
-
 

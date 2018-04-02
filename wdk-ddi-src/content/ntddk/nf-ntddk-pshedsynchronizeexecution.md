@@ -52,18 +52,6 @@ req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 The <b>PshedSynchronizeExecution</b> function synchronizes the execution of a given function with the hardware error processing for an error source.
 
 
-## -syntax
-
-
-````
-BOOLEAN PshedSynchronizeExecution(
-  _In_ PWHEA_ERROR_SOURCE_DESCRIPTOR ErrorSource,
-  _In_ PKSYNCHRONIZE_ROUTINE         SynchronizeRoutine,
-  _In_ PVOID                         SynchronizeContext
-);
-````
-
-
 ## -parameters
 
 
@@ -71,7 +59,7 @@ BOOLEAN PshedSynchronizeExecution(
 
 ### -param ErrorSource [in]
 
-A pointer to a <a href="..\ntddk\ns-ntddk-_whea_error_source_descriptor.md">WHEA_ERROR_SOURCE_DESCRIPTOR</a> structure that describes an error source.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff560505">WHEA_ERROR_SOURCE_DESCRIPTOR</a> structure that describes an error source.
 
 
 ### -param SynchronizeRoutine [in]
@@ -143,12 +131,11 @@ Callers of the <b>PshedSynchronizeExecution</b> function must be running at IRQL
 
 ## -see-also
 
-<a href="..\ntddk\ns-ntddk-_whea_error_source_descriptor.md">WHEA_ERROR_SOURCE_DESCRIPTOR</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560505">WHEA_ERROR_SOURCE_DESCRIPTOR</a>
  
 
  
-
 

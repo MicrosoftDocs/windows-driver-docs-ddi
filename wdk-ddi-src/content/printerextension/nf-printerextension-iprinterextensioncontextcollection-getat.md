@@ -50,18 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-Gets a pointer to an <a href="..\printerextension\nn-printerextension-iprinterextensioncontext.md">IPrinterExtensionContext</a> object.
-
-
-## -syntax
-
-
-````
-HRESULT GetAt(
-  [in]          ULONG                    ulIndex,
-  [out, retval] IPrinterExtensionContext **ppContext
-);
-````
+Gets a pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/hh406649">IPrinterExtensionContext</a> object.
 
 
 ## -parameters
@@ -71,12 +60,12 @@ HRESULT GetAt(
 
 ### -param ulIndex [in]
 
-The index of the <a href="..\printerextension\nn-printerextension-iprinterextensioncontext.md">IPrinterExtensionContext</a> object within the collection.
+The index of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh406649">IPrinterExtensionContext</a> object within the collection.
 
 
 ### -param ppContext [out, retval]
 
-Pointer to an <a href="..\printerextension\nn-printerextension-iprinterextensioncontext.md">IPrinterExtensionContext</a> interface.
+Pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/hh406649">IPrinterExtensionContext</a> interface.
 
 
 ## -returns
@@ -90,16 +79,15 @@ This method returns an <b>HRESULT</b> value.
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprinterextensioncontextcollection.md">IPrinterExtensionContextCollection</a>
 
 
 
-<a href="..\printerextension\nn-printerextension-iprinterextensioncontext.md">IPrinterExtensionContext</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406649">IPrinterExtensionContext</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh846191">IPrinterExtensionContextCollection</a>
  
 
  
-
 

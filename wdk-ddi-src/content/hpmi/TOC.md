@@ -1,4 +1,4 @@
-# [Battery](../_battery/index.md)
+# [Power metering](../_powermeter/index.md)
 ## [Hpmi.h](index.md)
 ### [_HPMI_HINT_BOOL enumeration](../hpmi/ne-hpmi-_hpmi_hint_bool.md)
 ### [IOCTL_HPMI_BATTERY_UTILIZATION_HINT IOCTL](../hpmi/ni-hpmi-ioctl_hpmi_battery_utilization_hint.md)

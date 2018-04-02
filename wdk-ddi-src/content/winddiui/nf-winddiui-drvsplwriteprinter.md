@@ -53,19 +53,6 @@ req.product: Windows 10 or later.
 
 
 
-## -syntax
-
-
-````
-BOOL WINAPI DrvSplWritePrinter(
-   HANDLE  hDriver,
-   LPVOID  pBuf,
-   DWORD   cbBuf,
-   LPDWORD pcWritten
-);
-````
-
-
 ## -parameters
 
 

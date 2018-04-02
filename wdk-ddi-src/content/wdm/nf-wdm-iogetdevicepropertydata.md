@@ -7,7 +7,7 @@ old-location: kernel\iogetdevicepropertydata.htm
 old-project: kernel
 ms.assetid: 3ca026b8-abed-409c-8be4-01553cfadca3
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: IoGetDevicePropertyData, IoGetDevicePropertyData routine [Kernel-Mode Driver Architecture], k104_85cb50ca-43cc-401a-8ed1-32ff0c381ed8.xml, kernel.iogetdevicepropertydata, wdm/IoGetDevicePropertyData
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,23 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>IoGetDevicePropertyData</b> routine retrieves the current setting for a device property.
-
-
-## -syntax
-
-
-````
-NTSTATUS IoGetDevicePropertyData(
-  _In_             PDEVICE_OBJECT Pdo,
-  _In_       const DEVPROPKEY     *PropertyKey,
-  _In_             LCID           Lcid,
-  _Reserved_       ULONG          Flags,
-  _In_             ULONG          Size,
-  _Out_            PVOID          Data,
-  _Out_            PULONG         RequiredSize,
-  _Out_            PDEVPROPTYPE   Type
-);
-````
 
 
 ## -parameters
@@ -171,7 +154,7 @@ The specified device property was not found.
 
 Kernel-mode drivers use the <b>IoGetDevicePropertyData</b> routine to retrieve device properties that are defined as part of the unified device property model. For more information about device properties, see <a href="https://msdn.microsoft.com/f41040c5-0eac-450d-b532-9165c543cc1a">Device Properties</a>.
 
-Drivers can use the <a href="..\wdm\nf-wdm-iosetdevicepropertydata.md">IoSetDevicePropertyData</a> routine to modify a device property.
+Drivers can use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff549704">IoSetDevicePropertyData</a> routine to modify a device property.
 
 Callers of <b>IoGetDevicePropertyData</b> must be running at IRQL &lt;= APC_LEVEL in the context of a system thread.
 
@@ -180,11 +163,6 @@ Callers of <b>IoGetDevicePropertyData</b> must be running at IRQL &lt;= APC_LEVE
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iosetdevicepropertydata.md">IoSetDevicePropertyData</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543546">DEVPROPTYPE</a>
 
 
 
@@ -192,8 +170,12 @@ Callers of <b>IoGetDevicePropertyData</b> must be running at IRQL &lt;= APC_LEVE
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543546">DEVPROPTYPE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549704">IoSetDevicePropertyData</a>
  
 
  
-
 

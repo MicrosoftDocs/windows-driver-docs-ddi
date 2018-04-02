@@ -52,16 +52,6 @@ req.typenames: HID_MINIDRIVER_REGISTRATION, *PHID_MINIDRIVER_REGISTRATION
 The <b>HidD_GetHidGuid</b> routine returns the <a href="https://msdn.microsoft.com/86688b5d-575d-42e1-9158-7ffba1aaf1d3">device interface</a><a href="https://msdn.microsoft.com/library/windows/hardware/dn922935">GUID</a> for HIDClass devices.
 
 
-## -syntax
-
-
-````
-void __stdcall HidD_GetHidGuid(
-  _Out_ LPGUID HidGuid
-);
-````
-
-
 ## -parameters
 
 
@@ -94,12 +84,11 @@ For more information, see <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iogetdeviceinterfaces.md">IoGetDeviceInterfaces</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549186">IoGetDeviceInterfaces</a>
  
 
  
-
 

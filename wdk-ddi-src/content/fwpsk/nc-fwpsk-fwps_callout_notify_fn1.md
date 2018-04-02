@@ -7,7 +7,7 @@ old-location: netvista\notifyfn1.htm
 old-project: netvista
 ms.assetid: 3f377049-cc5f-427d-9b09-5e49e4b305c5
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: FWPS_CALLOUT_NOTIFY_FN1, fwpsk/notifyFn1, netvista.notifyfn1, notifyFn1, notifyFn1 callback function [Network Drivers Starting with Windows Vista], wfp_ref_2_funct_4_callout_0cbdb762-b5f8-4c14-a361-a44589e1d663.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,22 +52,7 @@ req.typenames: INSTANCE_PARTIAL_INFORMATION, PINSTANCE_PARTIAL_INFORMATION
 The filter engine calls a callout's 
   <i>notifyFn1</i> callout function to notify the callout driver about events that are associated with the
   callout.
-<div class="alert"><b>Note</b>  <i>notifyFn1</i> is the specific version of <a href="https://msdn.microsoft.com/library/windows/hardware/ff568802">notifyFn</a> used in Windows 7 and later. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows 8, <a href="..\fwpsk\nc-fwpsk-fwps_callout_notify_fn2.md">notifyFn2</a> is available. For Windows Vista, <a href="..\fwpsk\nc-fwpsk-fwps_callout_notify_fn0.md">notifyFn0</a> is available.</div><div> </div>
-
-## -prototype
-
-
-````
-FWPS_CALLOUT_NOTIFY_FN1 notifyFn1;
-
-NTSTATUS NTAPI notifyFn1(
-  _In_       FWPS_CALLOUT_NOTIFY_TYPE notifyType,
-  _In_ const GUID                     *filterKey,
-  _In_ const FWPS_FILTER1             *filter
-)
-{ ... }
-````
-
+<div class="alert"><b>Note</b>  <i>notifyFn1</i> is the specific version of <a href="https://msdn.microsoft.com/library/windows/hardware/ff568802">notifyFn</a> used in Windows 7 and later. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows 8, <a href="https://msdn.microsoft.com/c70c987b-5b4c-4ddd-8eb8-8c3c40003ab3">notifyFn2</a> is available. For Windows Vista, <a href="https://msdn.microsoft.com/c0f94079-7398-4998-b2b2-471aa8c538a1">notifyFn0</a> is available.</div><div> </div>
 
 ## -parameters
 
@@ -122,7 +107,7 @@ A callout driver's
      <b>Context</b> member of this structure to point to a callout driver-supplied context structure when the
      filter is added to the filter engine. This context structure is opaque to the filter engine, and can be
      used by the callout driver's 
-     <a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn1.md">classifyFn1</a> callout function to preserve
+     <a href="https://msdn.microsoft.com/128fd929-6e83-46a0-9475-e459ede58f30">classifyFn1</a> callout function to preserve
      any driver-specific data or state information between calls by the filter engine to the callout driver's
      
      <i>classifyFn1</i> callout function.
@@ -181,7 +166,7 @@ An error occurred. If the
 
 
 A callout driver registers a callout's callout functions with the filter engine by calling the 
-    <a href="..\fwpsk\nf-fwpsk-fwpscalloutregister1.md">FwpsCalloutRegister1</a> function.
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff551143">FwpsCalloutRegister1</a> function.
 
 The filter engine calls a callout driver's 
     <i>notifyFn1</i> function to notify the callout driver about events that are associated with the callout.
@@ -217,7 +202,6 @@ When a filter that specifies a callout for the filter's action is deleted from t
 
 ## -see-also
 
-<a href="..\fwpsk\nf-fwpsk-fwpscalloutregister1.md">FwpsCalloutRegister1</a>
 
 
 
@@ -225,19 +209,7 @@ When a filter that specifies a callout for the filter's action is deleted from t
 
 
 
-<a href="..\fwpsk\nc-fwpsk-fwps_callout_notify_fn0.md">notifyFn0</a>
-
-
-
-<a href="..\fwpsk\ns-fwpsk-fwps_callout0_.md">FWPS_CALLOUT0</a>
-
-
-
-<a href="..\fwpsk\nc-fwpsk-fwps_callout_notify_fn2.md">notifyFn2</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568802">notifyFn</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551224">FWPS_CALLOUT0</a>
 
 
 
@@ -245,8 +217,20 @@ When a filter that specifies a callout for the filter's action is deleted from t
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551143">FwpsCalloutRegister1</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568802">notifyFn</a>
+
+
+
+<a href="https://msdn.microsoft.com/c0f94079-7398-4998-b2b2-471aa8c538a1">notifyFn0</a>
+
+
+
+<a href="https://msdn.microsoft.com/c70c987b-5b4c-4ddd-8eb8-8c3c40003ab3">notifyFn2</a>
  
 
  
-
 

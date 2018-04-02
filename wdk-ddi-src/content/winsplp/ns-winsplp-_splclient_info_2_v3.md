@@ -53,16 +53,6 @@ req.product: Windows 10 or later.
 
 
 
-## -syntax
-
-
-````
-typedef struct _SPLCLIENT_INFO_2_V3 {
-  UINT64           hSplPrinter;
-} SPLCLIENT_INFO_2_LONGHORN;
-````
-
-
 ## -struct-fields
 
 

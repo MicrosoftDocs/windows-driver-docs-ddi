@@ -52,16 +52,6 @@ req.typenames: MSR_DEAUTHENTICATE_DEVICE, *PMSR_DEAUTHENTICATE_DEVICE
 This structure provides the information necessary to deauthenticate the device.
 
 
-## -syntax
-
-
-````
-typedef struct _MSR_DEAUTHENTICATE_DEVICE {
-  unsigned char Challenge2[MSR_CHALLENGE_SIZE];
-} MSR_DEAUTHENTICATE_DEVICE, *PMSR_DEAUTHENTICATE_DEVICE;
-````
-
-
 ## -struct-fields
 
 

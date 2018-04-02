@@ -55,19 +55,6 @@ The <b>KdPrintEx</b> macro sends a string to the kernel debugger if the conditio
 A call to <b>KdPrintEx</b> requires double parentheses.
 
 
-## -syntax
-
-
-````
-ULONG KdPrintEx(
-  _In_ ULONG ComponentId,
-  _In_ ULONG Level,
-  _In_ PCSTR Format,
-       ...   arguments
-);
-````
-
-
 ## -parameters
 
 
@@ -149,20 +136,19 @@ This routine is defined in ntddk.h and ndis.h; component filter IDs are defined 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-dbgprint.md">DbgPrint</a>
 
 
 
-<a href="..\wdm\nf-wdm-kdprint.md">KdPrint</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543632">DbgPrint</a>
 
 
 
-<a href="..\wdm\nf-wdm-dbgprintex.md">DbgPrintEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543634">DbgPrintEx</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548092">KdPrint</a>
  
 
  
-
 

@@ -3,12 +3,12 @@ UID: NE:gnssdriver.GNSS_DRIVERCOMMAND_TYPE
 title: GNSS_DRIVERCOMMAND_TYPE
 author: windows-driver-content
 description: This enumeration indicates the type of driver command or configuration for the GNSS driver provided in the GNSS_DRIVERCOMMAND_PARAM structure.
-old-location: gnss\gnss_drivercommand_type.htm
-old-project: gnss
+old-location: sensors\gnss_drivercommand_type.htm
+old-project: sensors
 ms.assetid: 61D7C52C-D8C9-4BBE-9DCA-B5E934A02FAE
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: GNSS_ClearAgnssData, GNSS_CustomCommand, GNSS_DRIVERCOMMAND_TYPE, GNSS_DRIVERCOMMAND_TYPE enumeration [Sensor Devices], GNSS_ForceOperationMode, GNSS_ForceSatelliteSystem, GNSS_ResetEngine, GNSS_ResetGeofencesTracking, GNSS_SetLocationNIRequestAllowed, GNSS_SetLocationServiceEnabled, GNSS_SetNMEALogging, GNSS_SetNiTimeoutInterval, GNSS_SetSuplVersion, GNSS_SetUplServerAccessInterval, gnss.gnss_drivercommand_type, gnssdriver/GNSS_ClearAgnssData, gnssdriver/GNSS_CustomCommand, gnssdriver/GNSS_DRIVERCOMMAND_TYPE, gnssdriver/GNSS_ForceOperationMode, gnssdriver/GNSS_ForceSatelliteSystem, gnssdriver/GNSS_ResetEngine, gnssdriver/GNSS_ResetGeofencesTracking, gnssdriver/GNSS_SetLocationNIRequestAllowed, gnssdriver/GNSS_SetLocationServiceEnabled, gnssdriver/GNSS_SetNMEALogging, gnssdriver/GNSS_SetNiTimeoutInterval, gnssdriver/GNSS_SetSuplVersion, gnssdriver/GNSS_SetUplServerAccessInterval
+ms.date: 2/22/2018
+ms.keywords: GNSS_ClearAgnssData, GNSS_CustomCommand, GNSS_DRIVERCOMMAND_TYPE, GNSS_DRIVERCOMMAND_TYPE enumeration [Sensor Devices], GNSS_ForceOperationMode, GNSS_ForceSatelliteSystem, GNSS_ResetEngine, GNSS_ResetGeofencesTracking, GNSS_SetLocationNIRequestAllowed, GNSS_SetLocationServiceEnabled, GNSS_SetNMEALogging, GNSS_SetNiTimeoutInterval, GNSS_SetSuplVersion, GNSS_SetUplServerAccessInterval, gnssdriver/GNSS_ClearAgnssData, gnssdriver/GNSS_CustomCommand, gnssdriver/GNSS_DRIVERCOMMAND_TYPE, gnssdriver/GNSS_ForceOperationMode, gnssdriver/GNSS_ForceSatelliteSystem, gnssdriver/GNSS_ResetEngine, gnssdriver/GNSS_ResetGeofencesTracking, gnssdriver/GNSS_SetLocationNIRequestAllowed, gnssdriver/GNSS_SetLocationServiceEnabled, gnssdriver/GNSS_SetNMEALogging, gnssdriver/GNSS_SetNiTimeoutInterval, gnssdriver/GNSS_SetSuplVersion, gnssdriver/GNSS_SetUplServerAccessInterval, sensors.gnss_drivercommand_type
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -49,28 +49,7 @@ req.typenames: GNSS_DRIVERCOMMAND_TYPE
 ## -description
 
 
-This enumeration indicates the type of driver command or configuration for the GNSS driver provided in the <a href="..\gnssdriver\ns-gnssdriver-gnss_drivercommand_param.md">GNSS_DRIVERCOMMAND_PARAM</a> structure.
-
-
-## -syntax
-
-
-````
-typedef enum  { 
-  GNSS_SetLocationServiceEnabled    = 0x01,
-  GNSS_SetLocationNIRequestAllowed  = 0x02,
-  GNSS_ForceSatelliteSystem         = 0x03,
-  GNSS_ForceOperationMode           = 0x04,
-  GNSS_ResetEngine                  = 0x09,
-  GNSS_ClearAgnssData               = 0x0A,
-  GNSS_SetSuplVersion               = 0x0C,
-  GNSS_SetNMEALogging               = 0x0D,
-  GNSS_SetUplServerAccessInterval   = 0x0E,
-  GNSS_SetNiTimeoutInterval         = 0x0F,
-  GNSS_ResetGeofencesTracking       = 0x10,
-  GNSS_CustomCommand                = 0x0100
-} GNSS_DRIVERCOMMAND_TYPE;
-````
+This enumeration indicates the type of driver command or configuration for the GNSS driver provided in the <a href="https://msdn.microsoft.com/library/windows/hardware/dn925107">GNSS_DRIVERCOMMAND_PARAM</a> structure.
 
 
 ## -enum-fields
@@ -215,7 +194,7 @@ This command should only be called when there is no active fix session. This com
 
 ### -field GNSS_ClearAgnssData
 
-This command clears the AGNSS assistance data from the GNSS engine. This is used mainly for testing purpose to ensure that the driver requests for assistance data when a fix is requested. The associated command data contains the specific <a href="..\gnssdriver\ne-gnssdriver-gnss_agnss_request_type.md">GNSS_AGNSS_REQUEST_TYPE</a> enumeration to indicate the specific data element to be cleared:
+This command clears the AGNSS assistance data from the GNSS engine. This is used mainly for testing purpose to ensure that the driver requests for assistance data when a fix is requested. The associated command data contains the specific <a href="https://msdn.microsoft.com/library/windows/hardware/dn925097">GNSS_AGNSS_REQUEST_TYPE</a> enumeration to indicate the specific data element to be cleared:
 
 <ul>
 <li>
@@ -236,7 +215,7 @@ It is highly recommended that this command is supported for test purposes even i
 
 ### -field GNSS_SetSuplVersion
 
-This command sets the SUPL version that the mobile operator wants supported. The command data contains a value of <a href="..\gnssdriver\ns-gnssdriver-gnss_supl_version.md">GNSS_SUPL_VERSION</a> structure which includes both the major and the minor SUPL versions indicated by the mobile operator. The SUPL client should use the SUPL version as specifies in the OMA SUPL standards, summarizing:
+This command sets the SUPL version that the mobile operator wants supported. The command data contains a value of <a href="https://msdn.microsoft.com/library/windows/hardware/dn925233">GNSS_SUPL_VERSION</a> structure which includes both the major and the minor SUPL versions indicated by the mobile operator. The SUPL client should use the SUPL version as specifies in the OMA SUPL standards, summarizing:
 
 <ul>
 <li>
@@ -253,7 +232,7 @@ For SET initiated SUPL sessions, the initial SUPL message from the SET carries t
 
 This command sets the status for NMEA logging.
 
-This command causes the GNSS driver to start/stop providing the data fix information via NMEA strings. The GNSS driver must continue providing fixes in the <a href="..\gnssdriver\ns-gnssdriver-gnss_fixdata.md">GNSS_FIXDATA</a> structure. The parameter is a <b>DWORD</b> with the following values:
+This command causes the GNSS driver to start/stop providing the data fix information via NMEA strings. The GNSS driver must continue providing fixes in the <a href="https://msdn.microsoft.com/library/windows/hardware/dn925139">GNSS_FIXDATA</a> structure. The parameter is a <b>DWORD</b> with the following values:
 
 <pre class="syntax" xml:space="preserve"><code>#define GNSS_NMEALOGGING_NONE         0x00
 #define GNSS_NMEALOGGING_ALL          0xFF

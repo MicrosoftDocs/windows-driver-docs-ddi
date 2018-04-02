@@ -55,17 +55,6 @@ Periodically called by the WIA mini-driver during a data transfer, to update the
 For more information about the progress data that is transferred, see <a href="http://msdn.microsoft.com/library/windows/desktop/ms629867(v=vs.85).aspx">WiaTransferParams</a>.
 
 
-## -syntax
-
-
-````
-HRESULT SendMessage(
-  [in] LONG              lFlags,
-  [in] WiaTransferParams *pWiaTransferParams
-);
-````
-
-
 ## -parameters
 
 
@@ -101,20 +90,19 @@ When the current transfer sequence is cancelled, the <b>SendMessage</b> method r
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/0cdc02bf-23fe-4122-8d5f-f42c3c07da8b">Cancellation of Data Transfers in Windows Vista</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj151550">IWiaMiniDrvTransferCallback</a>
+
+
+
 <a href="http://msdn.microsoft.com/library/windows/desktop/ms629867(v=vs.85).aspx">WiaTransferParams</a>
-
-
-
-<a href="..\wiamindr_lh\nn-wiamindr_lh-iwiaminidrvtransfercallback.md">IWiaMiniDrvTransferCallback</a>
-
-
-
  
 
  
-
 

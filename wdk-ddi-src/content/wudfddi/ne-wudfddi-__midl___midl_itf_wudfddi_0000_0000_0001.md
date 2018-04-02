@@ -55,23 +55,6 @@ req.product: Windows 10 or later.
 The <b>POWER_ACTION</b> enumeration identifies the <a href="https://msdn.microsoft.com/library/windows/hardware/ff564553">system power actions</a> that can occur on a computer.
 
 
-## -syntax
-
-
-````
-typedef enum  { 
-  PowerActionNone           = 0,
-  PowerActionReserved       = ( PowerActionNone + 1 ),
-  PowerActionSleep          = ( PowerActionReserved + 1 ),
-  PowerActionHibernate      = ( PowerActionSleep + 1 ),
-  PowerActionShutdown       = ( PowerActionHibernate + 1 ),
-  PowerActionShutdownReset  = ( PowerActionShutdown + 1 ),
-  PowerActionShutdownOff    = ( PowerActionShutdownReset + 1 ),
-  PowerActionWarmEject      = ( PowerActionShutdownOff + 1 )
-} POWER_ACTION, *PPOWER_ACTION;
-````
-
-
 ## -enum-fields
 
 
@@ -128,12 +111,11 @@ The <b>POWER_ACTION</b> enumeration is used as the return value for <a href="htt
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556936">IWDFDevice2::GetSystemPowerAction</a>
-
-
-
  
 
  
-
 

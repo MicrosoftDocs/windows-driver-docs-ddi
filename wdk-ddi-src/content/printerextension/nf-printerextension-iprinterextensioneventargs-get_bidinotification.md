@@ -56,27 +56,16 @@ Gets the text of the bidirectional communication (Bidi) notification, if applica
 This property is read-only.
 
 
-## -syntax
-
-
-````
-HRESULT get_BidiNotification(
-  [out, retval] BSTR *pbstrBidiNotification
-);
-````
-
-
 ## -parameters
 
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprinterextensioneventargs.md">IPrinterExtensionEventArgs</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh973207">IPrinterExtensionEventArgs</a>
  
 
  
-
 

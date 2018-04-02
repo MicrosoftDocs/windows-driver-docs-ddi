@@ -52,16 +52,6 @@ req.typenames: TUPLE_REQUEST, *PTUPLE_REQUEST
 The TUPLE_REQUEST structure is used in conjunction with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537238">IOCTL_GET_TUPLE_DATA</a> request to retrieve tuple data from a PC Card's or CardBus card's attribute memory. 
 
 
-## -syntax
-
-
-````
-typedef struct _TUPLE_REQUEST {
-  USHORT Socket;
-} TUPLE_REQUEST, *PTUPLE_REQUEST;
-````
-
-
 ## -struct-fields
 
 
@@ -74,12 +64,11 @@ Indicates the socket number.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537238">IOCTL_GET_TUPLE_DATA</a>
-
-
-
  
 
  
-
 

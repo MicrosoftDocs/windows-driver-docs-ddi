@@ -56,17 +56,6 @@ req.product: Windows 10 or later.
 The <b>WdfPdoInitSetDefaultLocale</b> method sets a device's default locale.
 
 
-## -syntax
-
-
-````
-VOID WdfPdoInitSetDefaultLocale(
-  _In_ PWDFDEVICE_INIT DeviceInit,
-  _In_ LCID            LocaleId
-);
-````
-
-
 ## -parameters
 
 
@@ -97,7 +86,7 @@ None
 
 When the system requests device description text from a driver, it specifies a locale. If text for the specified locale is not available, the framework returns device text for the driver's default locale.
 
-The driver must call <b>WdfPdoInitSetDefaultLocale</b> before calling <a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a>. For more information about calling <b>WdfDeviceCreate</b>, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/creating-a-framework-device-object">Creating a Framework Device Object</a>.
+The driver must call <b>WdfPdoInitSetDefaultLocale</b> before calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff545926">WdfDeviceCreate</a>. For more information about calling <b>WdfDeviceCreate</b>, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/creating-a-framework-device-object">Creating a Framework Device Object</a>.
 
 
 #### Examples
@@ -122,12 +111,11 @@ The following code example sets a device's default locale to United States Engli
 
 ## -see-also
 
-<a href="..\wdfpdo\nf-wdfpdo-wdfpdoinitadddevicetext.md">WdfPdoInitAddDeviceText</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548780">WdfPdoInitAddDeviceText</a>
  
 
  
-
 

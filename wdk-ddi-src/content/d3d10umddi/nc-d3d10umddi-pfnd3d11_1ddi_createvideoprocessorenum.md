@@ -7,7 +7,7 @@ old-location: display\createvideoprocessorenum.htm
 old-project: display
 ms.assetid: 38c27502-7e8a-45a1-8a7c-315300502480
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: CreateVideoProcessorEnum, CreateVideoProcessorEnum callback function [Display Devices], PFND3D11_1DDI_CREATEVIDEOPROCESSORENUM, d3d10umddi/CreateVideoProcessorEnum, display.createvideoprocessorenum
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,37 +52,21 @@ req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 Creates an enumeration object for the video processor capabilities of the driver.
 
 
-## -prototype
-
-
-````
-PFND3D11_1DDI_CREATEVIDEOPROCESSORENUM CreateVideoProcessorEnum;
-
-HRESULT APIENTRY* CreateVideoProcessorEnum(
-  _In_       D3D10DDI_HDEVICE                       hDevice,
-  _In_ const D3D11_1DDIARG_CREATEVIDEOPROCESSORENUM *pCreateData,
-  _In_       D3D11_1DDI_HVIDEOPROCESSORENUM         hVideoProcessorEnum,
-  _In_       D3D11_1DDI_HRTVIDEOPROCESSORENUM       hRTVideoProcessorEnum
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
 
 
-### -param D3D10DDI_HDEVICE
+### -param Arg1
 
 
 ### -param *
 
 
-### -param D3D11_1DDI_HVIDEOPROCESSORENUM
+### -param Arg2
 
 
-### -param D3D11_1DDI_HRTVIDEOPROCESSORENUM
+### -param Arg3
 
 
 
@@ -110,7 +94,7 @@ A handle to the driver's private data for the video processor enumeration object
 
 #### - pCreateData [in]
 
-A pointer to a <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddiarg_createvideoprocessorenum.md">D3D11_1DDIARG_CREATEVIDEOPROCESSORENUM</a> structure. This structure specifies the attributes of the video processor enumeration object to be created.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh406316">D3D11_1DDIARG_CREATEVIDEOPROCESSORENUM</a> structure. This structure specifies the attributes of the video processor enumeration object to be created.
 
 
 ## -returns
@@ -157,7 +141,7 @@ The video processor enumeration object was created successfully.
 
 
 
-The Direct3D runtime calls <i>CreateVideoProcessorEnum</i> after it has called the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_calcprivatevideoprocessorsize.md">CalcPrivateVideoProcessorEnumSize </a>   to determine the size in bytes for the private data that the driver requires for the video processor enumeration object. The runtime allocates the memory for this private data for the driver. The driver uses this memory to store private data that is related to the video processor enumeration object.
+The Direct3D runtime calls <i>CreateVideoProcessorEnum</i> after it has called the driver's <a href="https://msdn.microsoft.com/a30d98b2-3d39-456a-8363-44ccc71e58ff">CalcPrivateVideoProcessorEnumSize </a>   to determine the size in bytes for the private data that the driver requires for the video processor enumeration object. The runtime allocates the memory for this private data for the driver. The driver uses this memory to store private data that is related to the video processor enumeration object.
 
 When the runtime  calls <i>CreateVideoProcessorEnum</i>, it passes the handle to the private data memory in the <i>hVideoProcessorEnum</i> parameter. This handle is actually a pointer to the memory. 
 
@@ -166,16 +150,15 @@ When the runtime  calls <i>CreateVideoProcessorEnum</i>, it passes the handle to
 
 ## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddiarg_createvideoprocessorenum.md">D3D11_1DDIARG_CREATEVIDEOPROCESSORENUM</a>
 
 
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_calcprivatevideoprocessorsize.md">CalcPrivateVideoProcessorEnumSize </a>
+<a href="https://msdn.microsoft.com/a30d98b2-3d39-456a-8363-44ccc71e58ff">CalcPrivateVideoProcessorEnumSize </a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406316">D3D11_1DDIARG_CREATEVIDEOPROCESSORENUM</a>
  
 
  
-
 

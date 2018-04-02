@@ -53,19 +53,6 @@ req.product: Windows 10 or later.
 The <b>IStiDevice::Initialize</b> method initializes an instance of the COM object that defines the <b>IStiDevice</b> interface. <i>This method is for internal use only</i>.
 
 
-## -syntax
-
-
-````
-HRESULT Initialize(
-  [in] HINSTANCE hinst,
-  [in] LPCWSTR   pwszDeviceName,
-       DWORD     dwVersion,
-       DWORD     dwMode
-);
-````
-
-
 ## -parameters
 
 

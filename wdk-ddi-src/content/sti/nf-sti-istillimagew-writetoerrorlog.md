@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 The <b>IStillImage::WriteToErrorLog </b>method writes a message to the still image error log.
 
 
-## -syntax
-
-
-````
-HRESULT WriteToErrorLog(
-       DWORD   dwMessageType,
-  [in] LPCWSTR pszMessage
-);
-````
-
-
 ## -parameters
 
 

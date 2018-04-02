@@ -7,7 +7,7 @@ old-location: kernel\psattachsilotocurrentthread.htm
 old-project: kernel
 ms.assetid: 1C66E50F-3BD7-4038-9FDF-2F2B712D9B5E
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: PsAttachSiloToCurrentThread, PsAttachSiloToCurrentThread routine [Kernel-Mode Driver Architecture], kernel.psattachsilotocurrentthread, ntddk/PsAttachSiloToCurrentThread
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,16 +52,6 @@ req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 This routine places a thread temporarily into the specified <i>Silo</i>.
 
 
-## -syntax
-
-
-````
-PESILO PsAttachSiloToCurrentThread(
-  _In_ PESILO Silo
-);
-````
-
-
 ## -parameters
 
 
@@ -87,7 +77,7 @@ The previous silo that was attached to the current thread.
 
 The specified <i>Silo</i> is attached to the current thread so that it becomes the effective silo for the thread.
 
-The thread then operates within the namespace of the attached silo until <a href="..\ntddk\nf-ntddk-psdetachsilofromcurrentthread.md">PsDetachSiloFromCurrentThread</a> is called.
+The thread then operates within the namespace of the attached silo until <a href="https://msdn.microsoft.com/library/windows/hardware/mt735060">PsDetachSiloFromCurrentThread</a> is called.
 
 
 #### Examples
@@ -111,12 +101,11 @@ PsDetachSiloFromCurrentThread(PreviousSilo);</pre>
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-psdetachsilofromcurrentthread.md">PsDetachSiloFromCurrentThread</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt735060">PsDetachSiloFromCurrentThread</a>
  
 
  
-
 

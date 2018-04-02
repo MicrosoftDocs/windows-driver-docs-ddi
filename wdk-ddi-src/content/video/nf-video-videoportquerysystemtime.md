@@ -7,7 +7,7 @@ old-location: display\videoportquerysystemtime.htm
 old-project: display
 ms.assetid: d9b54710-6ad2-4959-9172-76c90468d343
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: VideoPortQuerySystemTime, VideoPortQuerySystemTime function [Display Devices], VideoPort_Functions_18c4e015-b294-40e0-8aef-7642d3a9cb27.xml, display.videoportquerysystemtime, video/VideoPortQuerySystemTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,16 +53,6 @@ req.product: Windows 10 or later.
 The <b>VideoPortQuerySystemTime</b> function obtains the current system time.
 
 
-## -syntax
-
-
-````
-VOID VideoPortQuerySystemTime(
-  _Out_ PLARGE_INTEGER CurrentTime
-);
-````
-
-
 ## -parameters
 
 
@@ -86,19 +76,18 @@ None
 
 
 
-System time is a count of 100-nanosecond intervals since January 1, 1601. System time is typically updated approximately every ten milliseconds. This value is computed for the GMT time zone. To adjust this value for the local time zone use <a href="..\wdm\nf-wdm-exsystemtimetolocaltime.md">ExSystemTimeToLocalTime</a>. 
+System time is a count of 100-nanosecond intervals since January 1, 1601. System time is typically updated approximately every ten milliseconds. This value is computed for the GMT time zone. To adjust this value for the local time zone use <a href="https://msdn.microsoft.com/library/windows/hardware/ff545622">ExSystemTimeToLocalTime</a>. 
 
 
 
 
 ## -see-also
 
-<a href="..\video\nf-video-videoportqueryperformancecounter.md">VideoPortQueryPerformanceCounter</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570336">VideoPortQueryPerformanceCounter</a>
  
 
  
-
 

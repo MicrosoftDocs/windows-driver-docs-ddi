@@ -7,7 +7,7 @@ old-location: display\d3d12ddi_video_process_output_stream.htm
 old-project: display
 ms.assetid: D6C510B3-D578-41D0-9D52-131F2B61161D
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3D12DDI_VIDEO_PROCESS_OUTPUT_STREAM_0020, D3D12DDI_VIDEO_PROCESS_OUTPUT_STREAM_0020 structure [Display Devices], d3d12umddi/D3D12DDI_VIDEO_PROCESS_OUTPUT_STREAM_0020, display.d3d12ddi_video_process_output_stream
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,17 +50,6 @@ req.typenames: D3D12DDI_VIDEO_PROCESS_OUTPUT_STREAM_0020
 
 
 The output stream for video processing commands, which points to a target surface.
-
-
-## -syntax
-
-
-````
-typedef struct D3D12DDI_VIDEO_PROCESS_OUTPUT_STREAM_0020 {
-  D3D12DDI_HRESOURCE hDrvTexture2D;
-  UINT               Subresource;
-} D3D12DDI_VIDEO_PROCESS_OUTPUT_STREAM_0020;
-````
 
 
 ## -struct-fields

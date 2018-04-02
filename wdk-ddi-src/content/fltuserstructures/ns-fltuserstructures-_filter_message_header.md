@@ -7,7 +7,7 @@ old-location: ifsk\filter_message_header.htm
 old-project: ifsk
 ms.assetid: 294e5475-3aca-4758-87ed-07892a910b4f
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: "*PFILTER_MESSAGE_HEADER, FILTER_MESSAGE_HEADER, FILTER_MESSAGE_HEADER structure [Installable File System Drivers], FltSystemStructures_80f5d30b-5507-45c8-b399-6fa816ba9232.xml, PFILTER_MESSAGE_HEADER, PFILTER_MESSAGE_HEADER structure pointer [Installable File System Drivers], _FILTER_MESSAGE_HEADER, fltuserstructures/FILTER_MESSAGE_HEADER, fltuserstructures/PFILTER_MESSAGE_HEADER, ifsk.filter_message_header"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,17 +52,6 @@ req.typenames: FILTER_MESSAGE_HEADER, *PFILTER_MESSAGE_HEADER
 The FILTER_MESSAGE_HEADER structure contains message header information. 
 
 
-## -syntax
-
-
-````
-typedef struct _FILTER_MESSAGE_HEADER {
-  ULONG     ReplyLength;
-  ULONGLONG MessageId;
-} FILTER_MESSAGE_HEADER, *PFILTER_MESSAGE_HEADER;
-````
-
-
 ## -struct-fields
 
 
@@ -89,16 +78,15 @@ To receive messages from a kernel-mode minifilter, a user-mode application typic
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541628">FILTER_REPLY_HEADER</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540506">FilterGetMessage</a>
-
-
-
-<a href="..\fltuserstructures\ns-fltuserstructures-_filter_reply_header.md">FILTER_REPLY_HEADER</a>
-
-
-
  
 
  
-
 

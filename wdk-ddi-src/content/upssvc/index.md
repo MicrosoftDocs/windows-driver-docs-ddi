@@ -2,7 +2,7 @@
 UID: NA:upssvc
 ms.assetid: 56f0ed8e-9ec7-30ec-98d5-fabcd442174f
 ms.author: windowsdriverdev
-ms.date: 03/13/18
+ms.date: 02/27/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

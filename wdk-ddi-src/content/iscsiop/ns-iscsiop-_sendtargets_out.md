@@ -7,7 +7,7 @@ old-location: storage\sendtargets_out.htm
 old-project: storage
 ms.assetid: 82efeeb9-1167-4114-9d88-7ef66f613f80
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PSendTargets_OUT, PSendTargets_OUT, PSendTargets_OUT structure pointer [Storage Devices], SendTargets_OUT, SendTargets_OUT structure [Storage Devices], _SendTargets_OUT, iscsiop/PSendTargets_OUT, iscsiop/SendTargets_OUT, storage.sendtargets_out, structs-iSCSI_c54a2d75-d780-4605-bdaf-5953f7ce5008.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,18 +52,6 @@ req.typenames: SendTargets_OUT, *PSendTargets_OUT
 The SendTargets_OUT structure holds the output data for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565526">SendTargets</a> method.
 
 
-## -syntax
-
-
-````
-typedef struct _SendTargets_OUT {
-  ULONG Status;
-  ULONG ResponseSize;
-  UCHAR Response[1];
-} SendTargets_OUT, *PSendTargets_OUT;
-````
-
-
 ## -struct-fields
 
 
@@ -95,11 +83,10 @@ You must implement this method.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>
-
-
-
-<a href="..\iscsiop\ns-iscsiop-_sendtargets_in.md">SendTargets_IN</a>
 
 
 
@@ -107,8 +94,8 @@ You must implement this method.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565533">SendTargets_IN</a>
  
 
  
-
 

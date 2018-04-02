@@ -52,22 +52,6 @@ req.typenames: DRMRIGHTS, *PDRMRIGHTS
 The <b>Get</b> method retrieves a property identified by a property-set GUID and a property identifier.
 
 
-## -syntax
-
-
-````
-HRESULT Get(
-  [in]  REFGUID PropSet,
-  [in]  ULONG   Id,
-  [in]  LPVOID  InstanceData,
-  [in]  ULONG   InstanceLength,
-  [out] LPVOID  PropertyData,
-  [in]  ULONG   DataLength,
-  [out] ULONG   *BytesReturned
-);
-````
-
-
 ## -parameters
 
 
@@ -175,12 +159,11 @@ If an application must include both <i>ksproxy.h</i> and <i>dsound.h</i>, whiche
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560721">IKsPropertySet::Set</a>
-
-
-
  
 
  
-
 

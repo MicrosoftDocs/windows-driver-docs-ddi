@@ -7,7 +7,7 @@ old-location: storage\hba_closeadapter.htm
 old-project: storage
 ms.assetid: 404c7f82-02dd-4145-91e3-8820f6cbf781
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: HBA_CloseAdapter, HBA_CloseAdapter routine [Storage Devices], fibreHBA_rtns_dcbe3983-fc4d-4a50-886b-6fdb138296a7.xml, hbaapi/HBA_CloseAdapter, storage.hba_closeadapter
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,16 +52,6 @@ req.typenames: HBA_WWNTYPE
 The <b>HBA_CloseAdapter</b> routine releases system resources associated with the indicated open HBA handle.
 
 
-## -syntax
-
-
-````
-void HBA_API HBA_CloseAdapter(
-  _In_ HBA_HANDLE HbaHandle
-);
-````
-
-
 ## -parameters
 
 
@@ -76,7 +66,7 @@ TBD
 
 #### - HbaHandle [in]
 
-Contains a value returned by the routine <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a> that identifies the HBA. 
+Contains a value returned by the routine <a href="https://msdn.microsoft.com/library/windows/hardware/ff557097">HBA_OpenAdapter</a> that identifies the HBA. 
 
 
 ## -returns
@@ -90,12 +80,11 @@ None.
 
 ## -see-also
 
-<a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557097">HBA_OpenAdapter</a>
  
 
  
-
 

@@ -53,23 +53,6 @@ req.typenames:
 The <b>KsDispatchFastReadFailure</b> function is used in a KSDISPATCH_TABLE.FastRead entry when fast I/O read is not handled. The function should always return <b>FALSE</b>.
 
 
-## -syntax
-
-
-````
-BOOLEAN KsDispatchFastReadFailure(
-  _In_  PFILE_OBJECT     FileObject,
-  _In_  PLARGE_INTEGER   FileOffset,
-  _In_  ULONG            Length,
-  _In_  BOOLEAN          Wait,
-  _In_  ULONG            LockKey,
-  _Out_ PVOID            Buffer,
-  _Out_ PIO_STATUS_BLOCK IoStatus,
-  _In_  PDEVICE_OBJECT   DeviceObject
-);
-````
-
-
 ## -parameters
 
 

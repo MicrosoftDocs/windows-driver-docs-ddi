@@ -52,17 +52,6 @@ req.typenames: IRB_REQ_GET_1394_ADDRESS_FROM_DEVICE_OBJECT
 This structure contains the fields necessary to carry out a Get1394AddressFromDeviceObject request.
 
 
-## -syntax
-
-
-````
-typedef struct _IRB_REQ_GET_1394_ADDRESS_FROM_DEVICE_OBJECT {
-  ULONG        fulFlags;
-  NODE_ADDRESS NodeAddress;
-} IRB_REQ_GET_1394_ADDRESS_FROM_DEVICE_OBJECT;
-````
-
-
 ## -struct-fields
 
 

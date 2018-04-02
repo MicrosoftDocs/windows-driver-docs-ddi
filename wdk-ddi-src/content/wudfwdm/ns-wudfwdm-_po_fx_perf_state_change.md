@@ -7,7 +7,7 @@ old-location: kernel\po_fx_perf_state_change.htm
 old-project: kernel
 ms.assetid: AE7A79DE-0202-4816-A36C-5A15C4539392
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 2/24/2018
 ms.keywords: "*PPO_FX_PERF_STATE_CHANGE, PO_FX_PERF_STATE_CHANGE, PO_FX_PERF_STATE_CHANGE structure [Kernel-Mode Driver Architecture], PPO_FX_PERF_STATE_CHANGE, PPO_FX_PERF_STATE_CHANGE structure pointer [Kernel-Mode Driver Architecture], _PO_FX_PERF_STATE_CHANGE, kernel.po_fx_perf_state_change, wdm/PO_FX_PERF_STATE_CHANGE, wdm/PPO_FX_PERF_STATE_CHANGE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -98,11 +98,11 @@ The <b>PO_FX_PERF_STATE_CHANGE</b> structure is used for the <i>PerfChange</i> p
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-pofxissuecomponentperfstatechange.md">PoFxIssueComponentPerfStateChange</a>
-
-
-
 <a href="https://msdn.microsoft.com/D5341D6D-7C71-43CB-9C70-7E939B32C33F">Device Performance State Management</a>
+
+
+
+<a href="..\wdm\nf-wdm-pofxissuecomponentperfstatechange.md">PoFxIssueComponentPerfStateChange</a>
 
 
 
@@ -113,5 +113,6 @@ The <b>PO_FX_PERF_STATE_CHANGE</b> structure is used for the <i>PerfChange</i> p
  
 
  
+
 
 

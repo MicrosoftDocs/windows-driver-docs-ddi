@@ -7,7 +7,7 @@ old-location: display\dxva_videosample.htm
 old-project: display
 ms.assetid: 2fab4993-0b34-44ce-a905-5094e6e3ce47
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*LPDXVA_VideoSample, DXVA_VideoSample, DXVA_VideoSample structure [Display Devices], LPDXVA_VideoSample, LPDXVA_VideoSample structure pointer [Display Devices], _DXVA_VideoSample, display.dxva_videosample, dxva/DXVA_VideoSample, dxva/LPDXVA_VideoSample, dxvaref_08c56205-0793-4556-bb9a-e682eb6ca354.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,19 +52,6 @@ req.typenames: DXVA_VideoSample, *LPDXVA_VideoSample
 The DXVA_VideoSample structure is sent by the renderer to the driver to specify the format of a video sample.
 
 
-## -syntax
-
-
-````
-typedef struct _DXVA_VideoSample {
-  REFERENCE_TIME    rtStart;
-  REFERENCE_TIME    rtEnd;
-  DXVA_SampleFormat SampleFormat;
-  VOID              *lpDDSSrcSurface;
-} DXVA_VideoSample, *LPDXVA_VideoSample;
-````
-
-
 ## -struct-fields
 
 
@@ -82,7 +69,7 @@ Specifies the end time of the sample.
 
 ### -field SampleFormat
 
-Specifies the format of the sample as defined by a <a href="..\dxva\ne-dxva-_dxva_sampleformat.md">DXVA_SampleFormat</a> structure.
+Specifies the format of the sample as defined by a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564045">DXVA_SampleFormat</a> structure.
 
 
 ### -field lpDDSSrcSurface
@@ -92,11 +79,6 @@ Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff5517
 
 ## -see-also
 
-<a href="..\dxva\ns-dxva-_dxva_deinterlaceblt.md">DXVA_DeinterlaceBlt</a>
-
-
-
-<a href="..\dxva\ne-dxva-_dxva_sampleformat.md">DXVA_SampleFormat</a>
 
 
 
@@ -104,8 +86,12 @@ Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff5517
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563912">DXVA_DeinterlaceBlt</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564045">DXVA_SampleFormat</a>
  
 
  
-
 

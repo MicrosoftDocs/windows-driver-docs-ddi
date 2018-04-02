@@ -52,17 +52,6 @@ req.typenames: LineDisplayGlyphDefinitionData
 This structure is not implemented.
 
 
-## -syntax
-
-
-````
-typedef struct _LineDisplayGlyphDefinitionData {
-  UINT32 glyphCode;
-  UINT32 dataLength;
-} LineDisplayGlyphDefinitionData;
-````
-
-
 ## -struct-fields
 
 

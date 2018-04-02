@@ -7,7 +7,7 @@ old-location: netvista\ndismfreeport.htm
 old-project: netvista
 ms.assetid: 38d53977-ada2-41b9-8b6a-a3bd691f4525
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: NdisMFreePort, NdisMFreePort function [Network Drivers Starting with Windows Vista], ndis/NdisMFreePort, ndis_ports_ref_b5b73dda-9bc0-4d7d-a265-d50d1436c8f4.xml, netvista.ndismfreeport
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,18 +52,7 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 
 The 
   <b>NdisMFreePort</b> function frees an NDIS port that was previously allocated with the 
-  <a href="..\ndis\nf-ndis-ndismallocateport.md">NdisMAllocatePort</a> function.
-
-
-## -syntax
-
-
-````
-NDIS_STATUS NdisMFreePort(
-  _In_ NDIS_HANDLE      MiniportAdapterHandle,
-  _In_ NDIS_PORT_NUMBER PortNumber
-);
-````
+  <a href="https://msdn.microsoft.com/library/windows/hardware/ff562779">NdisMAllocatePort</a> function.
 
 
 ## -parameters
@@ -82,9 +71,9 @@ The number of the NDIS port that NDIS should free. The
      <i>PortNumber</i> value is an NDIS_PORT_NUMBER value, which has a ULONG data type. NDIS provided the port
      number in the 
      <b>PortNumber</b> member of the 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_port_characteristics.md">
+     <a href="https://msdn.microsoft.com/fd602dd6-c216-413a-a4da-292739774937">
      NDIS_PORT_CHARACTERISTICS</a> structure when the miniport driver called the 
-     <a href="..\ndis\nf-ndis-ndismallocateport.md">NdisMAllocatePort</a> function. 
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff562779">NdisMAllocatePort</a> function. 
      
 
 The port number can be a number from 1 through 0xffffff. You cannot set 
@@ -95,7 +84,7 @@ The port number can be a number from 1 through 0xffffff. You cannot set
 
 The miniport adapter handle that NDIS passed to the 
      <i>MiniportAdapterHandle</i> parameter of the 
-     <a href="..\ndis\nc-ndis-miniport_initialize.md">
+     <a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">
      MiniportInitializeEx</a> function.
 
 
@@ -167,9 +156,9 @@ The port number that was supplied at the
 
 
 If a miniport driver allocated a port by calling the 
-    <a href="..\ndis\nf-ndis-ndismallocateport.md">NdisMAllocatePort</a> function, the driver
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff562779">NdisMAllocatePort</a> function, the driver
     must free the port before it returns from its 
-    <a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a> function. If the miniport
+    <a href="https://msdn.microsoft.com/b8d452b4-bef3-4991-87cf-fac15bedfde4">MiniportHaltEx</a> function. If the miniport
     driver activated the port by issuing a 
     <b>NetEventPortActivation</b> Plug and Play (PnP) event, the driver must issue a 
     <b>NetEventPortDeactivation</b> PnP event for the port before freeing the port.
@@ -183,23 +172,6 @@ The miniport driver must not attempt to free the default port.
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_port_characteristics.md">NDIS_PORT_CHARACTERISTICS</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismallocateport.md">NdisMAllocatePort</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-
-
-
-<a href="https://msdn.microsoft.com/ae7b608d-6105-4fdc-b805-0f0101d7c218">Freeing an NDIS Port</a>
 
 
 
@@ -207,8 +179,24 @@ The miniport driver must not attempt to free the default port.
 
 
 
+<a href="https://msdn.microsoft.com/ae7b608d-6105-4fdc-b805-0f0101d7c218">Freeing an NDIS Port</a>
+
+
+
+<a href="https://msdn.microsoft.com/b8d452b4-bef3-4991-87cf-fac15bedfde4">MiniportHaltEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566791">NDIS_PORT_CHARACTERISTICS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562779">NdisMAllocatePort</a>
  
 
  
-
 

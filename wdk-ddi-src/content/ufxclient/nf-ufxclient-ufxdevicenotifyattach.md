@@ -7,7 +7,7 @@ old-location: buses\ufxdevicenotifyattach.htm
 old-project: usbref
 ms.assetid: E45FA08C-3E00-4AF6-A983-6E9C808AFA11
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: UfxDeviceNotifyAttach, UfxDeviceNotifyAttach method [Buses], buses.ufxdevicenotifyattach, ufxclient/UfxDeviceNotifyAttach
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,16 +53,6 @@ req.product: Windows 10 or later.
 Notifies UFX that the device's  USB cable has been attached.
 
 
-## -syntax
-
-
-````
-VOID UfxDeviceNotifyAttach(
-  [in] UFXDEVICE UfxDevice
-);
-````
-
-
 ## -parameters
 
 
@@ -70,7 +60,7 @@ VOID UfxDeviceNotifyAttach(
 
 ### -param UfxDevice [in]
 
-A handle to a UFX device object that the driver created by calling <a href="..\ufxclient\nf-ufxclient-ufxdevicecreate.md">UfxDeviceCreate</a>.
+A handle to a UFX device object that the driver created by calling <a href="https://msdn.microsoft.com/library/windows/hardware/mt187951">UfxDeviceCreate</a>.
 
 
 ## -returns
@@ -92,7 +82,7 @@ When the client driver calls <b>UfxDeviceNotifyAttach</b>, the USB function clas
 <li>Moves the device to the <i>Powered</i> state, as defined in the USB specification.</li>
 <li>Allows device enumeration to occur.</li>
 </ul>
-The client driver typically calls <b>UfxDeviceNotifyAttach</b> from its <a href="..\wdfinterrupt\nc-wdfinterrupt-evt_wdf_interrupt_dpc.md">EvtInterruptDpc</a> callback function, as shown in the following example.
+The client driver typically calls <b>UfxDeviceNotifyAttach</b> from its <a href="https://msdn.microsoft.com/d2d505e0-aeac-4871-8c60-d026b2833043">EvtInterruptDpc</a> callback function, as shown in the following example.
 
 <div class="code"><span codelanguage=""><table>
 <tr>

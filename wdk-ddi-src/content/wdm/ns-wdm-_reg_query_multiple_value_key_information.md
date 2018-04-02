@@ -7,7 +7,7 @@ old-location: kernel\reg_query_multiple_value_key_information.htm
 old-project: kernel
 ms.assetid: 764045c0-9057-4abc-a1bd-8713797082c6
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: "*PREG_QUERY_MULTIPLE_VALUE_KEY_INFORMATION, PREG_QUERY_MULTIPLE_VALUE_KEY_INFORMATION, PREG_QUERY_MULTIPLE_VALUE_KEY_INFORMATION structure pointer [Kernel-Mode Driver Architecture], REG_QUERY_MULTIPLE_VALUE_KEY_INFORMATION, REG_QUERY_MULTIPLE_VALUE_KEY_INFORMATION structure [Kernel-Mode Driver Architecture], _REG_QUERY_MULTIPLE_VALUE_KEY_INFORMATION, kernel.reg_query_multiple_value_key_information, kstruct_d_b61ed5ad-3ac8-4db4-abe9-5670b4c8d997.xml, wdm/PREG_QUERY_MULTIPLE_VALUE_KEY_INFORMATION, wdm/REG_QUERY_MULTIPLE_VALUE_KEY_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,24 +53,6 @@ req.product: Windows 10 or later.
 The <b>REG_QUERY_MULTIPLE_VALUE_KEY_INFORMATION</b> structure describes the multiple value entries that are being retrieved for a key.
 
 
-## -syntax
-
-
-````
-typedef struct _REG_QUERY_MULTIPLE_VALUE_KEY_INFORMATION {
-  PVOID            Object;
-  PKEY_VALUE_ENTRY ValueEntries;
-  ULONG            EntryCount;
-  PVOID            ValueBuffer;
-  PULONG           BufferLength;
-  PULONG           RequiredBufferLength;
-  PVOID            CallContext;
-  PVOID            ObjectContext;
-  PVOID            Reserved;
-} REG_QUERY_MULTIPLE_VALUE_KEY_INFORMATION, *PREG_QUERY_MULTIPLE_VALUE_KEY_INFORMATION;
-````
-
-
 ## -struct-fields
 
 
@@ -83,7 +65,7 @@ A pointer to the registry key object for the key whose value entries are being r
 
 ### -field ValueEntries
 
-A pointer to an array of <a href="..\wdm\ns-wdm-_key_value_entry.md">KEY_VALUE_ENTRY</a> structures, one for each value entry that is retrieved.
+A pointer to an array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff554214">KEY_VALUE_ENTRY</a> structures, one for each value entry that is retrieved.
 
 
 ### -field EntryCount
@@ -113,7 +95,7 @@ Optional driver-defined context information that the driver's <a href="https://m
 
 ### -field ObjectContext
 
-A pointer to driver-defined context information that the driver has associated with a registry object by calling <a href="..\wdm\nf-wdm-cmsetcallbackobjectcontext.md">CmSetCallbackObjectContext</a>. This member is defined for Windows Vista and later versions of the Windows operating system.
+A pointer to driver-defined context information that the driver has associated with a registry object by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff541924">CmSetCallbackObjectContext</a>. This member is defined for Windows Vista and later versions of the Windows operating system.
 
 
 ### -field Reserved
@@ -127,7 +109,7 @@ This member is reserved for future use. This member is defined for Windows Vista
 
 The system passes this structure to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560903">RegistryCallback</a> routine every time a thread attempts to retrieve multiple value entries for a key at once—for example, when a user-mode thread calls <b>RegQueryMultipleValues</b>.
 
-Each <a href="..\wdm\ns-wdm-_key_value_entry.md">KEY_VALUE_ENTRY</a> structure in the <b>ValueEntries</b> array describes one value entry in the <b>ValueBuffer</b> buffer. Specifically, the <b>DataOffset</b> member of <b>KEY_VALUE_ENTRY</b> contains the offset within <b>ValueBuffer</b> where the data for that value entry begins, and the <b>DataLength</b> member contains the length, in bytes, of the data for that value entry.
+Each <a href="https://msdn.microsoft.com/library/windows/hardware/ff554214">KEY_VALUE_ENTRY</a> structure in the <b>ValueEntries</b> array describes one value entry in the <b>ValueBuffer</b> buffer. Specifically, the <b>DataOffset</b> member of <b>KEY_VALUE_ENTRY</b> contains the offset within <b>ValueBuffer</b> where the data for that value entry begins, and the <b>DataLength</b> member contains the length, in bytes, of the data for that value entry.
 
 For more information about registry filtering operations, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff545879">Filtering Registry Calls</a>.
 
@@ -136,20 +118,19 @@ For more information about registry filtering operations, see <a href="https://m
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-cmsetcallbackobjectcontext.md">CmSetCallbackObjectContext</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541924">CmSetCallbackObjectContext</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554214">KEY_VALUE_ENTRY</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560903">RegistryCallback</a>
-
-
-
-<a href="..\wdm\ns-wdm-_key_value_entry.md">KEY_VALUE_ENTRY</a>
-
-
-
  
 
  
-
 

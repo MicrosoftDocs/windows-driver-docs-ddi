@@ -7,7 +7,7 @@ old-location: netvista\rilgeolocationrequestinfo.htm
 old-project: netvista
 ms.assetid: f3fa5212-66c1-45f8-a96f-78d1f2f01fe8
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*LPRILGEOLOCATIONREQUESTINFO, RILGEOLOCATIONREQUESTINFO, RILGEOLOCATIONREQUESTINFO structure [Network Drivers Starting with Windows Vista], netvista.rilgeolocationrequestinfo, ntddrilapitypes/RILGEOLOCATIONREQUESTINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,19 +50,6 @@ req.typenames: RILGEOLOCATIONREQUESTINFO, *LPRILGEOLOCATIONREQUESTINFO
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef struct _RILGEOLOCATIONREQUESTINFO {
-  DWORD  cbSize;
-  DWORD  dwLatitude;
-  DWORD  dwLongitude;
-  DWORD  dwAltitude;
-} RILGEOLOCATIONREQUESTINFO, RILGEOLOCATIONREQUESTINFO;
-````
 
 
 ## -struct-fields

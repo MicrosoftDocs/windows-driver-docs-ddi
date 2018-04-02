@@ -7,7 +7,7 @@ old-location: debugger\getexpressionsyntaxnameswide.htm
 old-project: debugger
 ms.assetid: 4d381718-366b-483b-804d-b12b31832b35
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: GetExpressionSyntaxNamesWide method [Windows Debugging], GetExpressionSyntaxNamesWide method [Windows Debugging], IDebugControl4 interface, GetExpressionSyntaxNamesWide,IDebugControl4.GetExpressionSyntaxNamesWide, IDebugControl4, IDebugControl4 interface [Windows Debugging], GetExpressionSyntaxNamesWide method, IDebugControl4::GetExpressionSyntaxNamesWide, dbgeng/IDebugControl4::GetExpressionSyntaxNamesWide, debugger.getexpressionsyntaxnameswide
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,22 +50,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>GetExpressionSyntaxNamesWide</b> method returns the full and abbreviated names of an expression syntax.
-
-
-## -syntax
-
-
-````
-HRESULT GetExpressionSyntaxNamesWide(
-  [in]            ULONG  Index,
-  [out, optional] PWSTR  FullNameBuffer,
-  [in]            ULONG  FullNameBufferSize,
-  [out, optional] PULONG FullNameSize,
-  [out, optional] PWSTR  AbbrevNameBuffer,
-  [in]            ULONG  AbbrevNameBufferSize,
-  [out, optional] PULONG AbbrevNameSize
-);
-````
 
 
 ## -parameters
@@ -158,15 +142,6 @@ Currently, there are two expression syntaxes, their full names are "Microsoft As
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556697">SetExpressionSyntaxByName</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547913">GetNumberExpressionSyntaxes</a>
 
 
 
@@ -174,8 +149,16 @@ Currently, there are two expression syntaxes, their full names are "Microsoft As
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547913">GetNumberExpressionSyntaxes</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550526">IDebugControl4</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556697">SetExpressionSyntaxByName</a>
  
 
  
-
 

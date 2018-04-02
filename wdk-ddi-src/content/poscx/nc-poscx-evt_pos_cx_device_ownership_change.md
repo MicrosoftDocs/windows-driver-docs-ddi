@@ -54,21 +54,6 @@ The
   EVT_POS_CX_DEVICE_OWNERSHIP_CHANGE callback is called during the API claim ownership transition. The driver is expected to set the device back to a default state in this routine.
 
 
-## -prototype
-
-
-````
-EVT_POS_CX_DEVICE_OWNERSHIP_CHANGE EvtPosCxDeviceOwnershipChange;
-
-VOID EvtPosCxDeviceOwnershipChange(
-  _In_     WDFDEVICE     device,
-  _In_opt_ WDFFILEOBJECT oldOwnerFileObj,
-  _In_opt_ WDFFILEOBJECT newOwnerFileObj
-)
-{ ... }
-````
-
-
 ## -parameters
 
 

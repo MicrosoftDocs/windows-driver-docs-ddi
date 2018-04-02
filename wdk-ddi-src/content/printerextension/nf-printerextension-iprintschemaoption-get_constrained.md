@@ -56,31 +56,20 @@ Gets  the constraint setting type for the schema option.
 This property is read-only.
 
 
-## -syntax
-
-
-````
-HRESULT get_Constrained(
-  [out, retval] PrintSchemaConstrainedSetting *pSetting
-);
-````
-
-
 ## -parameters
 
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprintschemaoption.md">IPrintSchemaOption</a>
 
 
 
-<a href="..\printerextension\ne-printerextension-tagprintschemaconstrainedsetting.md">PrintSchemaConstrainedSetting</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451335">IPrintSchemaOption</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh463985">PrintSchemaConstrainedSetting</a>
  
 
  
-
 

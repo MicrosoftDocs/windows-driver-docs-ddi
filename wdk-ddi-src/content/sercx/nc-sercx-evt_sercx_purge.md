@@ -53,20 +53,6 @@ req.product: Windows 10 or later.
 The <i>EvtSerCxPurge</i> event callback function is called by the serial framework extension (SerCx) to purge the serial controller's hardware buffers.
 
 
-## -prototype
-
-
-````
-EVT_SERCX_PURGE EvtSerCxPurge;
-
-NTSTATUS EvtSerCxPurge(
-  _In_ WDFDEVICE Device,
-  _In_ ULONG     PurgeMask
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -95,7 +81,7 @@ The <i>EvtSerCxPurge</i> function returns STATUS_SUCCESS if the call is successf
 
 
 
-The serial controller driver implements this callback function. SerCx calls this function when a client (application or peripheral driver) sends an <a href="..\ntddser\ni-ntddser-ioctl_serial_purge.md">IOCTL_SERIAL_PURGE</a> control request that requires hardware buffers managed by the serial controller to be purged.
+The serial controller driver implements this callback function. SerCx calls this function when a client (application or peripheral driver) sends an <a href="https://msdn.microsoft.com/library/windows/hardware/ff546655">IOCTL_SERIAL_PURGE</a> control request that requires hardware buffers managed by the serial controller to be purged.
 
 SerCx performs the purge operations that are designated by the flags listed in the following table.
 
@@ -129,7 +115,7 @@ Currently, no SERIAL_PURGE_<i>XXX</i> flags are defined to designate purge opera
 
 If the <b>IOCTL_SERIAL_PURGE</b> control request requires pending read or write requests to be canceled, SerCx cancels these requests before it calls the <i>EvtSerCxPurge</i> function.
 
-To register an <i>EvtSerCxPurge</i> callback function, the controller driver calls the <a href="..\sercx\nf-sercx-sercxinitialize.md">SerCxInitialize</a> method during the <a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a> callback.
+To register an <i>EvtSerCxPurge</i> callback function, the controller driver calls the <a href="https://msdn.microsoft.com/library/windows/hardware/hh406711">SerCxInitialize</a> method during the <a href="https://msdn.microsoft.com/b20db029-ee2c-4fb1-bd69-ccd2e37fdc9a">EvtDriverDeviceAdd</a> callback.
 
 
 #### Examples
@@ -187,20 +173,19 @@ For more information about SDV requirements for function declarations, see <a hr
 
 ## -see-also
 
-<a href="..\ntddser\ni-ntddser-ioctl_serial_purge.md">IOCTL_SERIAL_PURGE</a>
 
 
 
-<a href="..\sercx\nf-sercx-sercxinitialize.md">SerCxInitialize</a>
+<a href="https://msdn.microsoft.com/b20db029-ee2c-4fb1-bd69-ccd2e37fdc9a">EvtDriverDeviceAdd</a>
 
 
 
-<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546655">IOCTL_SERIAL_PURGE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406711">SerCxInitialize</a>
  
 
  
-
 

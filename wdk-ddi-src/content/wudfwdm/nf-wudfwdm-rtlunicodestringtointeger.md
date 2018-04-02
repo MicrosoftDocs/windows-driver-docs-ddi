@@ -7,7 +7,7 @@ old-location: kernel\rtlunicodestringtointeger.htm
 old-project: kernel
 ms.assetid: d9357864-d49b-44fe-b884-64c6da609789
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 2/24/2018
 ms.keywords: RtlUnicodeStringToInteger, RtlUnicodeStringToInteger routine [Kernel-Mode Driver Architecture], k109_862feacf-64af-4aae-87b5-264ef277ea22.xml, kernel.rtlunicodestringtointeger, wdm/RtlUnicodeStringToInteger
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -199,5 +199,6 @@ A related routine, <a href="..\wudfwdm\nf-wudfwdm-rtlintegertounicodestring.md">
  
 
  
+
 
 

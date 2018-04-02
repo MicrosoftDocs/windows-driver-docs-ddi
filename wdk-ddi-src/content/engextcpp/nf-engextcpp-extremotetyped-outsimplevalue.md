@@ -7,7 +7,7 @@ old-location: debugger\extremotetyped_outsimplevalue.htm
 old-project: debugger
 ms.assetid: e9c11c07-bd4a-4d49-a820-4617be691c80
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: EngExtCpp_Ref_8592b96c-7253-42f9-a704-739e539bad66.xml, ExtRemoteTyped, ExtRemoteTyped interface [Windows Debugging], OutSimpleValue method, ExtRemoteTyped::OutSimpleValue, OutSimpleValue method [Windows Debugging], OutSimpleValue method [Windows Debugging], ExtRemoteTyped interface, OutSimpleValue,ExtRemoteTyped.OutSimpleValue, debugger.extremotetyped_outsimplevalue
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,14 +52,6 @@ req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
 The <b>OutSimpleValue</b> method prints the value of the typed data represented by this object.
 
 
-## -syntax
-
-
-````
-void OutSimpleValue();
-````
-
-
 ## -parameters
 
 
@@ -89,16 +81,15 @@ The value is sent to the debugger engine's output callbacks.
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544162">ExtRemoteTyped</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544362">ExtRemoteTyped::OutFullValue</a>
-
-
-
-<a href="..\engextcpp\nl-engextcpp-extremotetyped.md">ExtRemoteTyped</a>
-
-
-
  
 
  
-
 

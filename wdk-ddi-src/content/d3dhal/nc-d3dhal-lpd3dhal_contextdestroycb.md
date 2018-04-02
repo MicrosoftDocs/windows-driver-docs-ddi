@@ -7,7 +7,7 @@ old-location: display\d3dcontextdestroy.htm
 old-project: display
 ms.assetid: caed780c-06a1-4697-b102-bffb134ecf84
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3dContextDestroy, D3dContextDestroy callback function [Display Devices], LPD3DHAL_CONTEXTDESTROYCB, d3dfncs_95c72dbe-9292-4501-ae28-f76316ce01e5.xml, d3dhal/D3dContextDestroy, display.d3dcontextdestroy
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,25 +52,12 @@ req.typenames: D3DTRANSFORMCAPS, *LPD3DTRANSFORMCAPS
 The <b>D3dContextDestroy</b> function deletes the specified context.
 
 
-## -prototype
-
-
-````
-LPD3DHAL_CONTEXTDESTROYCB D3dContextDestroy;
-
-DWORD APIENTRY D3dContextDestroy(
-  _In_ LPD3DHAL_CONTEXTDESTROYDATA pcdd
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
 
 
-### -param LPD3DHAL_CONTEXTDESTROYDATA
+### -param Arg1
 
 
 
@@ -81,7 +68,7 @@ DWORD APIENTRY D3dContextDestroy(
 
 #### - pcdd [in]
 
-Points to a <a href="..\d3dhal\ns-d3dhal-_d3dhal_contextdestroydata.md">D3DHAL_CONTEXTDESTROYDATA</a> structure that contains the information required for the driver to destroy the context. 
+Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff544748">D3DHAL_CONTEXTDESTROYDATA</a> structure that contains the information required for the driver to destroy the context. 
 
 
 ## -returns
@@ -125,7 +112,7 @@ Resources for <a href="https://msdn.microsoft.com/fe7dff3b-8941-4ab1-9539-0be9b5
 </ul>
 The driver should not free the Microsoft DirectDraw surfaces associated with the context because these will be freed by DirectDraw in response to an application or Direct3D runtime request.
 
-If the driver cached the pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550595">DD_DIRECTDRAW_LOCAL</a> structure that was passed in as the <b>lpDDLcl</b> member of the <a href="..\d3dhal\ns-d3dhal-_d3dhal_contextcreatedata.md">D3DHAL_CONTEXTCREATEDATA</a> structure when <a href="..\d3dhal\nc-d3dhal-lpd3dhal_contextcreatecb.md">D3dContextCreate</a> was called, the pointer might become invalid before <b>D3dContextDestroy</b> is called. Therefore, <b>D3dContextDestroy</b> must not dereference this DD_DIRECTDRAW_LOCAL pointer because an access violation might result or random data might be returned. For example, if the driver's <a href="https://msdn.microsoft.com/c68b924b-422d-4a01-8dac-674835833798">D3dDestroyDDLocal</a> function is called before <b>D3dContextDestroy</b>, the operating system releases this DD_DIRECTDRAW_LOCAL pointer before the <b>D3dContextDestroy</b> call.
+If the driver cached the pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550595">DD_DIRECTDRAW_LOCAL</a> structure that was passed in as the <b>lpDDLcl</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff544739">D3DHAL_CONTEXTCREATEDATA</a> structure when <a href="https://msdn.microsoft.com/c960c3f4-7565-4163-b8c2-a13643110c8c">D3dContextCreate</a> was called, the pointer might become invalid before <b>D3dContextDestroy</b> is called. Therefore, <b>D3dContextDestroy</b> must not dereference this DD_DIRECTDRAW_LOCAL pointer because an access violation might result or random data might be returned. For example, if the driver's <a href="https://msdn.microsoft.com/c68b924b-422d-4a01-8dac-674835833798">D3dDestroyDDLocal</a> function is called before <b>D3dContextDestroy</b>, the operating system releases this DD_DIRECTDRAW_LOCAL pointer before the <b>D3dContextDestroy</b> call.
 
 <b>D3dContextDestroy</b> can be called with a disabled <a href="https://msdn.microsoft.com/139a10e9-203b-499b-9291-8537eae9189c">PDEV</a>. A PDEV is disabled or enabled by calling the display driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff556178">DrvAssertMode</a> function. See <a href="https://msdn.microsoft.com/f7badbe8-b24f-438a-8937-95bb98de6310">Managing PDEVs</a> for more information. 
 
@@ -134,28 +121,27 @@ If the driver cached the pointer to the <a href="https://msdn.microsoft.com/libr
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544739">D3DHAL_CONTEXTCREATEDATA</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544748">D3DHAL_CONTEXTDESTROYDATA</a>
+
+
+
+<a href="https://msdn.microsoft.com/c960c3f4-7565-4163-b8c2-a13643110c8c">D3dContextCreate</a>
+
+
+
 <a href="https://msdn.microsoft.com/c68b924b-422d-4a01-8dac-674835833798">D3dDestroyDDLocal</a>
 
 
 
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_contextdestroydata.md">D3DHAL_CONTEXTDESTROYDATA</a>
-
-
-
-<a href="..\d3dhal\nc-d3dhal-lpd3dhal_contextcreatecb.md">D3dContextCreate</a>
-
-
-
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_contextcreatedata.md">D3DHAL_CONTEXTCREATEDATA</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550595">DD_DIRECTDRAW_LOCAL</a>
-
-
-
  
 
  
-
 

@@ -54,20 +54,6 @@ req.product: Windows 10 or later.
 			For internal use only.
 
 
-## -prototype
-
-
-````
-EVT_WDF_COMPANION_POST_RELEASE_HARDWARE EVT_WDF_COMPANION_POST_RELEASE_HARDWARE;
-
-NTSTATUS EVT_WDF_COMPANION_POST_RELEASE_HARDWARE(
-  _In_ WDFCOMPANION Companion,
-  _In_ WDFCMRESLIST ResourcesTranslated
-)
-{ ... }
-````
-
-
 ## -parameters
 
 

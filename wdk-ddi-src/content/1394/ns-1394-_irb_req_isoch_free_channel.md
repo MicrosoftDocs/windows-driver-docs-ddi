@@ -52,16 +52,6 @@ req.typenames: IRB_REQ_ISOCH_FREE_CHANNEL
 This structure contains the fields required to carry out a IsochFreeChannel request.
 
 
-## -syntax
-
-
-````
-typedef struct _IRB_REQ_ISOCH_FREE_CHANNEL {
-  ULONG nChannel;
-} IRB_REQ_ISOCH_FREE_CHANNEL;
-````
-
-
 ## -struct-fields
 
 

@@ -50,17 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The <b>SERCX_CONFIG_INIT</b> function initializes a <a href="..\sercx\ns-sercx-_sercx_config.md">SERCX_CONFIG</a> structure.
-
-
-## -syntax
-
-
-````
-VOID SERCX_CONFIG_INIT(
-  _Out_ SERCX_CONFIG *Config
-);
-````
+The <b>SERCX_CONFIG_INIT</b> function initializes a <a href="https://msdn.microsoft.com/library/windows/hardware/hh439548">SERCX_CONFIG</a> structure.
 
 
 ## -parameters
@@ -84,12 +74,11 @@ None.
 
 ## -see-also
 
-<a href="..\sercx\ns-sercx-_sercx_config.md">SERCX_CONFIG</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439548">SERCX_CONFIG</a>
  
 
  
-
 

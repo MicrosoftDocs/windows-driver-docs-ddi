@@ -7,7 +7,7 @@ old-location: kernel\obreferenceobjectbypointerwithtag.htm
 old-project: kernel
 ms.assetid: eaa730a8-8ee3-43a7-a18e-094fbac4ba60
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: ObReferenceObjectByPointerWithTag, ObReferenceObjectByPointerWithTag routine [Kernel-Mode Driver Architecture], k107_5e5e16de-36ff-4a81-9fe6-9602053ccc6b.xml, kernel.obreferenceobjectbypointerwithtag, wdm/ObReferenceObjectByPointerWithTag
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,20 +53,6 @@ req.product: Windows 10 or later.
 The <b>ObReferenceObjectByPointerWithTag</b> routine increments the reference count of the specified object, and writes a four-byte tag value to the object to support <a href="http://go.microsoft.com/fwlink/p/?linkid=153590">object reference tracing</a>.
 
 
-## -syntax
-
-
-````
-NTSTATUS ObReferenceObjectByPointerWithTag(
-  _In_     PVOID           Object,
-  _In_     ACCESS_MASK     DesiredAccess,
-  _In_opt_ POBJECT_TYPE    ObjectType,
-  _In_     KPROCESSOR_MODE AccessMode,
-  _In_     ULONG           Tag
-);
-````
-
-
 ## -parameters
 
 
@@ -74,7 +60,7 @@ NTSTATUS ObReferenceObjectByPointerWithTag(
 
 ### -param Object [in]
 
-A pointer to the object. The caller obtains this pointer either when it creates the object, or from a previous call to the <a href="..\wdm\nf-wdm-obreferenceobjectbyhandlewithtag.md">ObReferenceObjectByHandleWithTag</a> routine after it opens the object.
+A pointer to the object. The caller obtains this pointer either when it creates the object, or from a previous call to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff558683">ObReferenceObjectByHandleWithTag</a> routine after it opens the object.
 
 
 ### -param DesiredAccess [in]
@@ -141,11 +127,11 @@ The <i>ObjectType</i> parameter specifies the wrong object type for the object t
 
 
 
-This routine does access validation of the specified object. If access can be granted, the routine increments the object reference count. This increment prevents the object from being deleted while the caller uses the object. When the object is no longer needed, the caller should decrement the reference count by calling the <a href="..\wdm\nf-wdm-obdereferenceobjectwithtag.md">ObDereferenceObjectWithTag</a> or <a href="..\wdm\nf-wdm-obdereferenceobjectdeferdeletewithtag.md">ObDereferenceObjectDeferDeleteWithTag</a> routine.
+This routine does access validation of the specified object. If access can be granted, the routine increments the object reference count. This increment prevents the object from being deleted while the caller uses the object. When the object is no longer needed, the caller should decrement the reference count by calling the <a href="https://msdn.microsoft.com/library/windows/hardware/ff557734">ObDereferenceObjectWithTag</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff557732">ObDereferenceObjectDeferDeleteWithTag</a> routine.
 
 For more information about object references, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff554294">Life Cycle of an Object</a>.
 
-The <a href="..\wdm\nf-wdm-obreferenceobjectbypointer.md">ObReferenceObjectByPointer</a> routine is similar to <b>ObReferenceObjectByPointerWithTag</b>, except that it does not enable the caller to write a custom tag to an object. In Windows 7 and later versions of Windows, <b>ObReferenceObjectByPointer</b> always writes a default tag value ('tlfD') to the object. A call to <b>ObReferenceObjectByPointer</b> has the same effect as a call to <b>ObReferenceObjectByPointerWithTag</b> that specifies <i>Tag</i> = 'tlfD'.
+The <a href="https://msdn.microsoft.com/library/windows/hardware/ff558686">ObReferenceObjectByPointer</a> routine is similar to <b>ObReferenceObjectByPointerWithTag</b>, except that it does not enable the caller to write a custom tag to an object. In Windows 7 and later versions of Windows, <b>ObReferenceObjectByPointer</b> always writes a default tag value ('tlfD') to the object. A call to <b>ObReferenceObjectByPointer</b> has the same effect as a call to <b>ObReferenceObjectByPointerWithTag</b> that specifies <i>Tag</i> = 'tlfD'.
 
 To view an object reference trace in the <a href="http://go.microsoft.com/fwlink/p/?linkid=153599">Windows debugging tools</a>, use the <a href="http://go.microsoft.com/fwlink/p/?linkid=153600">!obtrace</a> kernel-mode debugger extension. In Windows 7, the <a href="http://go.microsoft.com/fwlink/p/?linkid=153600">!obtrace</a> extension is enhanced to display object reference tags, if object reference tracing is enabled. By default, object reference tracing is turned off. Use the <a href="http://go.microsoft.com/fwlink/p/?linkid=153601">Global Flags Editor</a> (Gflags) to enable object reference tracing. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff558668">Object Reference Tracing with Tags</a>.
 
@@ -154,7 +140,6 @@ To view an object reference trace in the <a href="http://go.microsoft.com/fwlink
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-obdereferenceobjectdeferdeletewithtag.md">ObDereferenceObjectDeferDeleteWithTag</a>
 
 
 
@@ -162,24 +147,24 @@ To view an object reference trace in the <a href="http://go.microsoft.com/fwlink
 
 
 
-<a href="..\wdm\nf-wdm-obreferenceobjectbypointer.md">ObReferenceObjectByPointer</a>
-
-
-
-<a href="..\wdm\nf-wdm-obdereferenceobjectwithtag.md">ObDereferenceObjectWithTag</a>
-
-
-
-<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558675">OBJECT_TYPE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557732">ObDereferenceObjectDeferDeleteWithTag</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557734">ObDereferenceObjectWithTag</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558686">ObReferenceObjectByPointer</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566417">ZwClose</a>
  
 
  
-
 

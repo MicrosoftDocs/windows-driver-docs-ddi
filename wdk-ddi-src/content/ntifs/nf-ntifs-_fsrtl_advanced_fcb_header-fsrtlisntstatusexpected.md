@@ -7,7 +7,7 @@ old-location: ifsk\fsrtlisntstatusexpected.htm
 old-project: ifsk
 ms.assetid: 7d495d67-fe43-43d5-8a35-50c070b78b8d
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FsRtlIsNtstatusExpected, FsRtlIsNtstatusExpected routine [Installable File System Drivers], fsrtlref_c480df4e-1601-4df7-809f-b1dec9549412.xml, ifsk.fsrtlisntstatusexpected, ntifs/FsRtlIsNtstatusExpected
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,16 +52,6 @@ req.typenames: TOKEN_TYPE
 The <b>FsRtlIsNtstatusExpected</b> routine determines whether the specified exception is handled by the exception filter.
 
 
-## -syntax
-
-
-````
-BOOLEAN FsRtlIsNtstatusExpected(
-  _In_ NTSTATUS Exception
-);
-````
-
-
 ## -parameters
 
 
@@ -92,12 +82,11 @@ File systems use <b>FsRtlIsNtstatusExpected</b> to determine whether to attempt 
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnormalizentstatus~r1.md">FsRtlNormalizeNtstatus</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546988">FsRtlNormalizeNtstatus</a>
  
 
  
-
 

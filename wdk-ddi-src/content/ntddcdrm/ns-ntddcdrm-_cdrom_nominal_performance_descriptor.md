@@ -7,7 +7,7 @@ old-location: storage\cdrom_nominal_performance_descriptor.htm
 old-project: storage
 ms.assetid: F931CE79-7070-43B9-BFED-9F3D5B18623E
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PCDROM_NOMINAL_PERFORMANCE_DESCRIPTOR, CDROM_NOMINAL_PERFORMANCE_DESCRIPTOR, CDROM_NOMINAL_PERFORMANCE_DESCRIPTOR structure [Storage Devices], PCDROM_NOMINAL_PERFORMANCE_DESCRIPTOR, PCDROM_NOMINAL_PERFORMANCE_DESCRIPTOR structure pointer [Storage Devices], _CDROM_NOMINAL_PERFORMANCE_DESCRIPTOR, ntddcdrm/CDROM_NOMINAL_PERFORMANCE_DESCRIPTOR, ntddcdrm/PCDROM_NOMINAL_PERFORMANCE_DESCRIPTOR, storage.cdrom_nominal_performance_descriptor"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,21 +50,8 @@ req.typenames: CDROM_NOMINAL_PERFORMANCE_DESCRIPTOR, *PCDROM_NOMINAL_PERFORMANCE
 
 
 The <b>CDROM_NOMINAL_PERFORMANCE_DESCRIPTOR</b>  structure gives the host an approximation of logical unit
-performance. It is returned by the <a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_get_performance.md">IOCTL_CDROM_GET_PERFORMANCE</a> I/O control request when the request type is <b>CdromPerformanceRequest</b> and the <b>Except</b> field of the <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_performance_header.md">CDROM_PERFORMANCE_HEADER</a> is false (0).   Separate descriptors are returned for read and write performance requests. The fields in  <b>CDROM_NOMINAL_PERFORMANCE_DESCRIPTOR</b> correspond to the similarly named fields in the "Performance Descriptor - Nominal Performance" table described in the MultiMedia Command Set - 6 (MMC-6)
+performance. It is returned by the <a href="https://msdn.microsoft.com/library/windows/hardware/gg441242">IOCTL_CDROM_GET_PERFORMANCE</a> I/O control request when the request type is <b>CdromPerformanceRequest</b> and the <b>Except</b> field of the <a href="https://msdn.microsoft.com/library/windows/hardware/gg441232">CDROM_PERFORMANCE_HEADER</a> is false (0).   Separate descriptors are returned for read and write performance requests. The fields in  <b>CDROM_NOMINAL_PERFORMANCE_DESCRIPTOR</b> correspond to the similarly named fields in the "Performance Descriptor - Nominal Performance" table described in the MultiMedia Command Set - 6 (MMC-6)
 specification.
-
-
-## -syntax
-
-
-````
-typedef struct _CDROM_NOMINAL_PERFORMANCE_DESCRIPTOR {
-  UCHAR  StartLba[4];
-  UCHAR StartPerformance[4];
-  UCHAR  EndLba[4];
-  UCHAR  EndPerformance[4];
-} CDROM_NOMINAL_PERFORMANCE_DESCRIPTOR, *PCDROM_NOMINAL_PERFORMANCE_DESCRIPTOR;
-````
 
 
 ## -struct-fields
@@ -94,16 +81,15 @@ The EndPerformance field (End Performance) contains the nominal logical unit per
 
 ## -see-also
 
-<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_performance_header.md">CDROM_PERFORMANCE_HEADER</a>
 
 
 
-<a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_get_performance.md">IOCTL_CDROM_GET_PERFORMANCE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/gg441232">CDROM_PERFORMANCE_HEADER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/gg441242">IOCTL_CDROM_GET_PERFORMANCE</a>
  
 
  
-
 

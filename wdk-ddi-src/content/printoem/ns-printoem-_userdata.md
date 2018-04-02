@@ -50,20 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The USERDATA structure is used by <a href="https://msdn.microsoft.com/0a51fa2b-3d09-4a5f-9fff-40604877a414">Unidrv</a> and <a href="https://msdn.microsoft.com/139a10e9-203b-499b-9291-8537eae9189c">Pscript</a> to specify additional information about printer features. A USERDATA structure pointer is supplied as the <b>UserData</b> member for each <a href="..\compstui\ns-compstui-_optitem.md">OPTITEM</a> structure.
-
-
-## -syntax
-
-
-````
-typedef struct _USERDATA {
-  DWORD     dwSize;
-  ULONG_PTR dwItemID;
-  PSTR      pKeyWordName;
-  DWORD     dwReserved[8];
-} USERDATA, *PUSERDATA;
-````
+The USERDATA structure is used by <a href="https://msdn.microsoft.com/0a51fa2b-3d09-4a5f-9fff-40604877a414">Unidrv</a> and <a href="https://msdn.microsoft.com/139a10e9-203b-499b-9291-8537eae9189c">Pscript</a> to specify additional information about printer features. A USERDATA structure pointer is supplied as the <b>UserData</b> member for each <a href="https://msdn.microsoft.com/library/windows/hardware/ff559656">OPTITEM</a> structure.
 
 
 ## -struct-fields

@@ -7,7 +7,7 @@ old-location: buses\composite_driver_capabilities_init.htm
 old-project: usbref
 ms.assetid: 92DDF65E-4B5B-443A-9C90-3B1BB2DD3CAF
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: COMPOSITE_DEVICE_CAPABILITIES_INIT, COMPOSITE_DEVICE_CAPABILITIES_INIT routine [Buses], buses.composite_driver_capabilities_init, usbdlib/COMPOSITE_DEVICE_CAPABILITIES_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,17 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The <b>COMPOSITE_DEVICE_CAPABILITIES_INIT</b> macro initializes the <a href="..\usbdlib\ns-usbdlib-_composite_device_capabilities.md">COMPOSITE_DEVICE_CAPABILITIES</a> structure.
-
-
-## -syntax
-
-
-````
-void COMPOSITE_DEVICE_CAPABILITIES_INIT(
-   PCOMPOSITE_DEVICE_CAPABILITIES CapabilityFlags
-);
-````
+The <b>COMPOSITE_DEVICE_CAPABILITIES_INIT</b> macro initializes the <a href="https://msdn.microsoft.com/3C1BF8C6-3489-4636-9B3F-B0C2C1327466">COMPOSITE_DEVICE_CAPABILITIES</a> structure.
 
 
 ## -parameters
@@ -71,7 +61,7 @@ void COMPOSITE_DEVICE_CAPABILITIES_INIT(
 
 ### -param CapabilityFlags
 
- A pointer to a caller-allocated <a href="..\usbdlib\ns-usbdlib-_composite_device_capabilities.md">COMPOSITE_DEVICE_CAPABILITIES</a> structure to be initialized. The macro sets the <b>CompositeDriverCapabilityFunctionSuspend</b>
+ A pointer to a caller-allocated <a href="https://msdn.microsoft.com/3C1BF8C6-3489-4636-9B3F-B0C2C1327466">COMPOSITE_DEVICE_CAPABILITIES</a> structure to be initialized. The macro sets the <b>CompositeDriverCapabilityFunctionSuspend</b>
 member of <b>COMPOSITE_DEVICE_CAPABILITIES</b> to 0.
 
 
@@ -86,11 +76,10 @@ This routine does not return a value.
 
 ## -see-also
 
-<a href="..\usbdlib\ns-usbdlib-_composite_device_capabilities.md">COMPOSITE_DEVICE_CAPABILITIES</a>
 
 
 
-<a href="..\usbdlib\ns-usbdlib-_register_composite_device.md">REGISTER_COMPOSITE_DEVICE</a>
+<a href="https://msdn.microsoft.com/3C1BF8C6-3489-4636-9B3F-B0C2C1327466">COMPOSITE_DEVICE_CAPABILITIES</a>
 
 
 
@@ -98,8 +87,8 @@ This routine does not return a value.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450898">REGISTER_COMPOSITE_DEVICE</a>
  
 
  
-
 

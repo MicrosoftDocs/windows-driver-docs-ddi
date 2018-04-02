@@ -7,7 +7,7 @@ old-location: netvista\ndis_pm_wol_pattern.htm
 old-project: netvista
 ms.assetid: 2ca1fdbe-efd3-4607-aab1-751e6d5d025b
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*PNDIS_PM_WOL_PATTERN, NDIS_PM_WOL_PATTERN, NDIS_PM_WOL_PATTERN structure [Network Drivers Starting with Windows Vista], PNDIS_PM_WOL_PATTERN, PNDIS_PM_WOL_PATTERN structure pointer [Network Drivers Starting with Windows Vista], _NDIS_PM_WOL_PATTERN, miniport_power_management_ref_ce048c91-111a-406d-8dc9-958394bc78cd.xml, netvista.ndis_pm_wol_pattern, ntddndis/NDIS_PM_WOL_PATTERN, ntddndis/PNDIS_PM_WOL_PATTERN"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,48 +52,6 @@ req.typenames: NDIS_PM_WOL_PATTERN, *PNDIS_PM_WOL_PATTERN
 The <b>NDIS_PM_WOL_PATTERN</b> structure defines a wake-on-LAN (WOL) pattern.
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_PM_WOL_PATTERN {
-  NDIS_OBJECT_HEADER     Header;
-  ULONG                  Flags;
-  ULONG                  Priority;
-  NDIS_PM_WOL_PACKET     WoLPacketType;
-  NDIS_PM_COUNTED_STRING FriendlyName;
-  ULONG                  PatternId;
-  ULONG                  NextWoLPatternOffset;
-  union _WOL_PATTERN {
-    struct _IPV4_TCP_SYN_WOL_PACKET_PARAMETERS {
-      ULONG  Flags;
-      UCHAR  IPv4SourceAddress[4];
-      UCHAR  IPv4DestAddress[4];
-      USHORT TCPSourcePortNumber;
-      USHORT TCPDestPortNumber;
-    } IPv4TcpSynParameters;
-    struct _IPV6_TCP_SYN_WOL_PACKET_PARAMETERS {
-      ULONG  Flags;
-      UCHAR  IPv6SourceAddress[16];
-      UCHAR  IPv6DestAddress[16];
-      USHORT TCPSourcePortNumber;
-      USHORT TCPDestPortNumber;
-    } IPv6TcpSynParameters;
-    struct _EAPOL_REQUEST_ID_MESSAGE_WOL_PACKET_PARAMETERS {
-      ULONG Flags;
-    } EapolRequestIdMessageParameters;
-    struct _WOL_BITMAP_PATTERN {
-      ULONG Flags;
-      ULONG MaskOffset;
-      ULONG MaskSize;
-      ULONG PatternOffset;
-      ULONG PatternSize;
-    } WoLBitMapPattern;
-  } WoLPattern;
-} NDIS_PM_WOL_PATTERN, *PNDIS_PM_WOL_PATTERN;
-````
-
-
 ## -struct-fields
 
 
@@ -101,7 +59,7 @@ typedef struct _NDIS_PM_WOL_PATTERN {
 
 ### -field Header
 
-The type, revision, and size of the <b>NDIS_PM_WOL_PATTERN</b> structure. This member is formatted as an <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure.
+The type, revision, and size of the <b>NDIS_PM_WOL_PATTERN</b> structure. This member is formatted as an <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure.
 
 The miniport driver must set the <b>Type</b> member of <b>Header</b> to NDIS_OBJECT_TYPE_DEFAULT. To specify the version of the <b>NDIS_PM_WOL_PATTERN</b> structure, the driver must set the <b>Revision</b> member of <b>Header</b> to the following value: 
 
@@ -111,7 +69,7 @@ The miniport driver must set the <b>Type</b> member of <b>Header</b> to NDIS_OBJ
 
 #### NDIS_PM_WOL_PATTERN_REVISION_2
 
-Revisions made to  the <a href="..\ntddndis\ne-ntddndis-_ndis_pm_wol_packet.md">NDIS_PM_WOL_PACKET</a> enumeration for NDIS 6.30.
+Revisions made to  the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566766">NDIS_PM_WOL_PACKET</a> enumeration for NDIS 6.30.
 
 Set the <b>Size</b> member to NDIS_SIZEOF_NDIS_PM_WOL_PATTERN_REVISION_2.
 
@@ -162,14 +120,14 @@ Specifies the highest priority WOL pattern.
 ### -field WoLPacketType
 
 An 
-     <a href="..\ntddndis\ne-ntddndis-_ndis_pm_wol_packet.md">NDIS_PM_WOL_PACKET</a> enumeration value that
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566766">NDIS_PM_WOL_PACKET</a> enumeration value that
      specifies the type of the WOL packet.
 
 
 ### -field FriendlyName
 
 An 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_pm_counted_string.md">NDIS_PM_COUNTED_STRING</a> structure
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566753">NDIS_PM_COUNTED_STRING</a> structure
      that contains the user-readable description of the WOL packet.
 
 
@@ -355,15 +313,18 @@ The upper layer driver sets the NDIS_PM_WOL_IPV4_DEST_ADDR_WILDCARD_ENABLED and
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 
-<a href="..\ntddndis\ne-ntddndis-_ndis_pm_wol_packet.md">NDIS_PM_WOL_PACKET</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569772">OID_PM_WOL_PATTERN_LIST</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566753">NDIS_PM_COUNTED_STRING</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566766">NDIS_PM_WOL_PACKET</a>
 
 
 
@@ -371,12 +332,8 @@ The upper layer driver sets the NDIS_PM_WOL_IPV4_DEST_ADDR_WILDCARD_ENABLED and
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_pm_counted_string.md">NDIS_PM_COUNTED_STRING</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569772">OID_PM_WOL_PATTERN_LIST</a>
  
 
  
-
 

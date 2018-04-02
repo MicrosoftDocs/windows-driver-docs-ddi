@@ -53,22 +53,6 @@ req.typenames:
 The <b>KsMoveIrpsOnCancelableQueue</b> function moves the specified IRPs from the <i>SourceList</i> parameter to the <i>DestinationList </i>parameter depending on the value returned from the minidriver-defined <a href="https://msdn.microsoft.com/library/windows/hardware/ff567187">KStrIrpListCallback</a> function.
 
 
-## -syntax
-
-
-````
-NTSTATUS KsMoveIrpsOnCancelableQueue(
-  _Inout_  PLIST_ENTRY           SourceList,
-  _In_     PKSPIN_LOCK           SourceLock,
-  _Inout_  PLIST_ENTRY           DestinationList,
-  _In_opt_ PKSPIN_LOCK           DestinationLock,
-  _In_     KSLIST_ENTRY_LOCATION ListLocation,
-  _In_     PFNKSIRPLISTCALLBACK  ListCallback ,
-  _In_     PVOID                 Context 
-);
-````
-
-
 ## -parameters
 
 
@@ -133,12 +117,11 @@ The function can be called at DISPATCH_LEVEL or lower.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567187">KStrIrpListCallback</a>
-
-
-
  
 
  
-
 

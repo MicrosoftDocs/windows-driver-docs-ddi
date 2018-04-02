@@ -3,12 +3,12 @@ UID: NS:gnssdriver.GNSS_SINGLESHOT_PARAM
 title: GNSS_SINGLESHOT_PARAM
 author: windows-driver-content
 description: This structure defines the parameters for a single-shot fix session.
-old-location: gnss\gnss_singleshot_param.htm
-old-project: gnss
+old-location: sensors\gnss_singleshot_param.htm
+old-project: sensors
 ms.assetid: BD1CB6CE-4196-4B85-AED0-A7B8ED957ADF
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: "*PGNSS_SINGLESHOT_PARAM, GNSS_SINGLESHOT_PARAM, GNSS_SINGLESHOT_PARAM structure [Sensor Devices], PGNSS_SINGLESHOT_PARAM, PGNSS_SINGLESHOT_PARAM structure pointer [Sensor Devices], gnss.gnss_singleshot_param, gnssdriver/GNSS_SINGLESHOT_PARAM, gnssdriver/PGNSS_SINGLESHOT_PARAM"
+ms.date: 2/22/2018
+ms.keywords: "*PGNSS_SINGLESHOT_PARAM, GNSS_SINGLESHOT_PARAM, GNSS_SINGLESHOT_PARAM structure [Sensor Devices], PGNSS_SINGLESHOT_PARAM, PGNSS_SINGLESHOT_PARAM structure pointer [Sensor Devices], gnssdriver/GNSS_SINGLESHOT_PARAM, gnssdriver/PGNSS_SINGLESHOT_PARAM, sensors.gnss_singleshot_param"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -50,18 +50,6 @@ req.typenames: GNSS_SINGLESHOT_PARAM, *PGNSS_SINGLESHOT_PARAM
 
 
 This structure defines the parameters for a single-shot fix session.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  ULONG Size;
-  ULONG Version;
-  ULONG ResponseTime;
-} GNSS_SINGLESHOT_PARAM, *PGNSS_SINGLESHOT_PARAM;
-````
 
 
 ## -struct-fields

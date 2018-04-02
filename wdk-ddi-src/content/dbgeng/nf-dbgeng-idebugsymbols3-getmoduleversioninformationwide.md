@@ -7,7 +7,7 @@ old-location: debugger\getmoduleversioninformationwide.htm
 old-project: debugger
 ms.assetid: 60bb493c-81a2-45d7-8c2c-939afeda8a14
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: GetModuleVersionInformationWide method [Windows Debugging], GetModuleVersionInformationWide method [Windows Debugging], IDebugSymbols3 interface, GetModuleVersionInformationWide,IDebugSymbols3.GetModuleVersionInformationWide, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetModuleVersionInformationWide method, IDebugSymbols3::GetModuleVersionInformationWide, dbgeng/IDebugSymbols3::GetModuleVersionInformationWide, debugger.getmoduleversioninformationwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,21 +50,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>GetModuleVersionInformationWide</b>  method returns version information for the specified module.
-
-
-## -syntax
-
-
-````
-HRESULT GetModuleVersionInformationWide(
-  [in]            ULONG   Index,
-  [in]            ULONG64 Base,
-  [in]            PCWSTR  Item,
-  [out, optional] PVOID   Buffer,
-  [in]            ULONG   BufferSize,
-  [out, optional] PULONG  VerInfoSize
-);
-````
 
 
 ## -parameters
@@ -165,11 +150,6 @@ For more information about modules, see <a href="https://msdn.microsoft.com/libr
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547927">GetNumberModules</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547138">GetModuleByOffset2</a>
 
 
 
@@ -177,12 +157,16 @@ For more information about modules, see <a href="https://msdn.microsoft.com/libr
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547138">GetModuleByOffset2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547927">GetNumberModules</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550870">IDebugSymbols3</a>
  
 
  
-
 

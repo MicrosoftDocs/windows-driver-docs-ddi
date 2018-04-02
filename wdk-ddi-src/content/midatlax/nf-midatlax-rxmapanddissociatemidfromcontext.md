@@ -7,7 +7,7 @@ old-location: ifsk\rxmapanddissociatemidfromcontext.htm
 old-project: ifsk
 ms.assetid: e9021983-8a01-4262-ae3f-c265948d5a2c
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: RxMapAndDissociateMidFromContext, RxMapAndDissociateMidFromContext function [Installable File System Drivers], ifsk.rxmapanddissociatemidfromcontext, midatlax/RxMapAndDissociateMidFromContext, rxref_919dabed-ac8c-4495-8709-8fb45280e16f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,18 +52,6 @@ req.typenames: MCD_INIT_DATA, *PMCD_INIT_DATA
 <b>RxMapAndDissociateMidFromContext</b> maps a Multiplex ID (MID) to its associated context in a MID_ATLAS structure and then disassociates the MID from the context. 
 
 
-## -syntax
-
-
-````
-NTSTATUS RxMapAndDissociateMidFromContext(
-   PRX_MID_ATLAS pMidAtlas,
-   USHORT        Mid,
-   PVOID         *pContextPointer
-);
-````
-
-
 ## -parameters
 
 
@@ -101,7 +89,7 @@ A pointer to the MID_ATLAS structure.
 
 
 
-<a href="..\midatlax\nf-midatlax-rxreassociatemid.md">RxReassociateMid</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554686">RxReassociateMid</a>
       always returns STATUS_SUCCESS. 
 
 The returned <i>pContextPointer</i> parameter is a pointer to the associated context, or a <b>NULL</b> if no context was associated with this MID.
@@ -120,28 +108,27 @@ RDBSS defines a Multiplex ID (MID), a 16-bit value, that can be used by both the
 
 ## -see-also
 
-<a href="..\midatlax\nf-midatlax-rxmapmidtocontext.md">RxMapMidToContext</a>
 
 
 
-<a href="..\midatlax\nf-midatlax-rxreassociatemid.md">RxReassociateMid</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553388">RxAssociateContextWithMid</a>
 
 
 
-<a href="..\midatlax\nf-midatlax-rxdestroymidatlas.md">RxDestroyMidAtlas</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554352">RxCreateMidAtlas</a>
 
 
 
-<a href="..\midatlax\nf-midatlax-rxcreatemidatlas.md">RxCreateMidAtlas</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554395">RxDestroyMidAtlas</a>
 
 
 
-<a href="..\midatlax\nf-midatlax-rxassociatecontextwithmid.md">RxAssociateContextWithMid</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554545">RxMapMidToContext</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554686">RxReassociateMid</a>
  
 
  
-
 

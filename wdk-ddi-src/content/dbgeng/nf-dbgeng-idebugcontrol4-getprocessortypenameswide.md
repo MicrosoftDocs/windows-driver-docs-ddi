@@ -7,7 +7,7 @@ old-location: debugger\getprocessortypenameswide.htm
 old-project: debugger
 ms.assetid: 24787963-98c6-4c32-9ba8-2cd4778f8436
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: GetProcessorTypeNamesWide method [Windows Debugging], GetProcessorTypeNamesWide method [Windows Debugging], IDebugControl4 interface, GetProcessorTypeNamesWide,IDebugControl4.GetProcessorTypeNamesWide, IDebugControl4, IDebugControl4 interface [Windows Debugging], GetProcessorTypeNamesWide method, IDebugControl4::GetProcessorTypeNamesWide, dbgeng/IDebugControl4::GetProcessorTypeNamesWide, debugger.getprocessortypenameswide
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,22 +50,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>GetProcessorTypeNamesWide</b>  method returns the full name and abbreviated name of the specified processor type.
-
-
-## -syntax
-
-
-````
-HRESULT GetProcessorTypeNamesWide(
-  [in]            ULONG  Type,
-  [out, optional] PWSTR  FullNameBuffer,
-  [in]            ULONG  FullNameBufferSize,
-  [out, optional] PULONG FullNameSize,
-  [out, optional] PWSTR  AbbrevNameBuffer,
-  [in]            ULONG  AbbrevNameBufferSize,
-  [out, optional] PULONG AbbrevNameSize
-);
-````
 
 
 ## -parameters
@@ -158,7 +142,6 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
 
 
 
@@ -166,8 +149,8 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550526">IDebugControl4</a>
  
 
  
-
 

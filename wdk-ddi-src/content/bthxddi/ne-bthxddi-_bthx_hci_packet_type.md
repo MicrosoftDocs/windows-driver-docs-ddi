@@ -52,18 +52,6 @@ req.typenames: BTHX_HCI_PACKET_TYPE
 The BTHX_HCI_PACKET_TYPE enumeration lists the different types of packets being sent from the Bluetooth stack to the transport driver.
 
 
-## -syntax
-
-
-````
-typedef enum _BTHX_HCI_PACKET_TYPE { 
-  HciPacketCommand  = 0x01,
-  HciPacketAclData  = 0x02,
-  HciPacketEvent    = 0x04
-} BTHX_HCI_PACKET_TYPE;
-````
-
-
 ## -enum-fields
 
 
@@ -95,16 +83,15 @@ The IOCTL_BTHX_HCI_READ and IOCTL_BTHX_HCI_WRITE IOCTLs are used to read/write d
 
 ## -see-also
 
-<a href="..\bthxddi\ni-bthxddi-ioctl_bthx_read_hci.md">IOCTL_BTHX_HCI_READ</a>
 
 
 
-<a href="..\bthxddi\ni-bthxddi-ioctl_bthx_write_hci.md">IOCTL_BTHX_HCI_WRITE</a>
+<a href="https://msdn.microsoft.com/02CC3534-D319-40C1-A73C-DEFC1F5709F7">IOCTL_BTHX_HCI_READ</a>
 
 
 
+<a href="https://msdn.microsoft.com/77BBF6AC-F5FA-4795-8898-6DC02983F573">IOCTL_BTHX_HCI_WRITE</a>
  
 
  
-
 

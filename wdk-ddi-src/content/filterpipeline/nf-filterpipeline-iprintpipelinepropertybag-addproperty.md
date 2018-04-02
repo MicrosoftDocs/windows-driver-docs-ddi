@@ -52,17 +52,6 @@ req.typenames: EXpsFontRestriction
 The <code>AddProperty</code> method adds a property to a property bag.
 
 
-## -syntax
-
-
-````
-HRESULT AddProperty(
-  [in] const wchar_t *pszName,
-  [in] const VARIANT *pVar
-);
-````
-
-
 ## -parameters
 
 

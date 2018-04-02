@@ -55,17 +55,6 @@ req.product: Windows 10 or later.
 The <b>CreateDeviceInterface</b> method creates an instance of a device interface class.
 
 
-## -syntax
-
-
-````
-HRESULT CreateDeviceInterface(
-  [in]           LPCGUID pDeviceInterfaceGuid,
-  [in, optional] PCWSTR  pReferenceString
-);
-````
-
-
 ## -parameters
 
 
@@ -134,16 +123,15 @@ The following code example shows how to create a device interface instance. In t
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556917">IWDFDevice</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557006">IWDFDevice::AssignDeviceInterfaceState</a>
-
-
-
-<a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
-
-
-
  
 
  
-
 

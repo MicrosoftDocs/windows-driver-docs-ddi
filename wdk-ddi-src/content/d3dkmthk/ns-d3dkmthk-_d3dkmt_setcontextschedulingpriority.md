@@ -7,7 +7,7 @@ old-location: display\d3dkmt_setcontextschedulingpriority.htm
 old-project: display
 ms.assetid: 879c7117-080a-4056-b94f-6462b370f434
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMT_SETCONTEXTSCHEDULINGPRIORITY, D3DKMT_SETCONTEXTSCHEDULINGPRIORITY structure [Display Devices], OpenGL_Structs_d0a33042-237e-469f-93af-f6031cf54098.xml, _D3DKMT_SETCONTEXTSCHEDULINGPRIORITY, d3dkmthk/D3DKMT_SETCONTEXTSCHEDULINGPRIORITY, display.d3dkmt_setcontextschedulingpriority
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,17 +52,6 @@ req.typenames: D3DKMT_SETCONTEXTSCHEDULINGPRIORITY
 The D3DKMT_SETCONTEXTSCHEDULINGPRIORITY structure describes parameters for setting scheduling priority for a device context. 
 
 
-## -syntax
-
-
-````
-typedef struct _D3DKMT_SETCONTEXTSCHEDULINGPRIORITY {
-  D3DKMT_HANDLE hContext;
-  INT           Priority;
-} D3DKMT_SETCONTEXTSCHEDULINGPRIORITY;
-````
-
-
 ## -struct-fields
 
 
@@ -80,12 +69,11 @@ typedef struct _D3DKMT_SETCONTEXTSCHEDULINGPRIORITY {
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtsetcontextschedulingpriority.md">D3DKMTSetContextSchedulingPriority</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547163">D3DKMTSetContextSchedulingPriority</a>
  
 
  
-
 

@@ -57,7 +57,7 @@ Drivers obtain the <b>IWDFDevice2</b> interface by calling <b>IWDFDevice::QueryI
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDFDevice2</b> interface inherits from <a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>. <b>IWDFDevice2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDFDevice2</b> interface inherits from <a href="https://msdn.microsoft.com/library/windows/hardware/ff556917">IWDFDevice</a>. <b>IWDFDevice2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

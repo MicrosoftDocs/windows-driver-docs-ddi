@@ -7,7 +7,7 @@ old-location: display\d3dkmt_openglinfo.htm
 old-project: display
 ms.assetid: d8e571dd-b823-4cad-96b6-c7841a1234c4
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMT_OPENGLINFO, D3DKMT_OPENGLINFO structure [Display Devices], OpenGL_Structs_93ba7fd7-969f-4edf-a6ce-38a135bcda83.xml, _D3DKMT_OPENGLINFO, d3dkmthk/D3DKMT_OPENGLINFO, display.d3dkmt_openglinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,18 +52,6 @@ req.typenames: D3DKMT_OPENGLINFO
 The D3DKMT_OPENGLINFO structure describes OpenGL installable client driver (ICD) information.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DKMT_OPENGLINFO {
-  WCHAR UmdOpenGlIcdFileName[MAX_PATH];
-  ULONG Version;
-  ULONG Flags;
-} D3DKMT_OPENGLINFO;
-````
-
-
 ## -struct-fields
 
 
@@ -86,16 +74,15 @@ typedef struct _D3DKMT_OPENGLINFO {
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_queryadapterinfo.md">D3DKMT_QUERYADAPTERINFO</a>
 
 
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtqueryadapterinfo.md">D3DKMTQueryAdapterInfo</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547100">D3DKMTQueryAdapterInfo</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548203">D3DKMT_QUERYADAPTERINFO</a>
  
 
  
-
 

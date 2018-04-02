@@ -52,16 +52,6 @@ req.typenames: LineDisplayCharacterData
 This structure is not implemented.
 
 
-## -syntax
-
-
-````
-typedef struct _LineDisplayCharacterData {
-   ...;
-} LineDisplayCharacterData, *PLineDisplayCharacterData;
-````
-
-
 ## -struct-fields
 
 

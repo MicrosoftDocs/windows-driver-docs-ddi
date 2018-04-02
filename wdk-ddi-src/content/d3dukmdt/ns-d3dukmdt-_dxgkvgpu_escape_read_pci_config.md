@@ -7,7 +7,7 @@ old-location: display\dxgkvgpu_escape_read_pci_config.htm
 old-project: display
 ms.assetid: B6F4207F-B55A-4B36-883D-291E351742CA
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKVGPU_ESCAPE_READ_PCI_CONFIG, DXGKVGPU_ESCAPE_READ_PCI_CONFIG structure [Display Devices], _DXGKVGPU_ESCAPE_READ_PCI_CONFIG, d3dukmdt/DXGKVGPU_ESCAPE_READ_PCI_CONFIG, display.dxgkvgpu_escape_read_pci_config
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,18 +50,6 @@ req.typenames: DXGKVGPU_ESCAPE_READ_PCI_CONFIG
 
 
 A structure used to read the PCI config for an escape.
-
-
-## -syntax
-
-
-````
-typedef struct _DXGKVGPU_ESCAPE_READ_PCI_CONFIG {
-  DXGKVGPU_ESCAPE_HEAD Header;
-  UINT                 Offset;
-  UINT                 Size;
-} DXGKVGPU_ESCAPE_READ_PCI_CONFIG;
-````
 
 
 ## -struct-fields

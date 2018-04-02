@@ -7,7 +7,7 @@ old-location: netvista\ndisinterlockedincrement.htm
 old-project: netvista
 ms.assetid: 246ded7a-4f75-469d-bdba-860ce3cd6b44
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: NdisInterlockedIncrement, NdisInterlockedIncrement macro [Network Drivers Starting with Windows Vista], ndis/NdisInterlockedIncrement, ndis_interlocked_ref_1f82d382-098a-489c-8c9b-ea0bb34d352a.xml, netvista.ndisinterlockedincrement
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -55,16 +55,6 @@ The
   operation.
 
 
-## -syntax
-
-
-````
-LONG NdisInterlockedIncrement(
-  [in] PLONG Addend
-);
-````
-
-
 ## -parameters
 
 
@@ -89,12 +79,11 @@ A pointer to a variable of type LONG.
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisinterlockeddecrement.md">NdisInterlockedDecrement</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562751">NdisInterlockedDecrement</a>
  
 
  
-
 

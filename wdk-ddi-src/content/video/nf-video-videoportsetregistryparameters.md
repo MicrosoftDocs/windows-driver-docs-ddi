@@ -7,7 +7,7 @@ old-location: display\videoportsetregistryparameters.htm
 old-project: display
 ms.assetid: 39cf1829-2caf-44e0-8528-acb0def0dd54
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: VideoPortSetRegistryParameters, VideoPortSetRegistryParameters function [Display Devices], VideoPort_Functions_a1d6dbfd-595b-4396-a1d3-9ec4fa3a6bfb.xml, display.videoportsetregistryparameters, video/VideoPortSetRegistryParameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,19 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>VideoPortSetRegistryParameters</b> function writes information under the <b>adapter</b> key in the registry.
-
-
-## -syntax
-
-
-````
-VP_STATUS VideoPortSetRegistryParameters(
-       PVOID HwDeviceExtension,
-  _In_ PWSTR ValueName,
-  _In_ PVOID ValueData,
-       ULONG ValueLength
-);
-````
 
 
 ## -parameters
@@ -114,31 +101,30 @@ In Windows 2000 and later, <b>VideoPortSetRegistryParameters</b> returns ERROR_I
 
 In a checked build of any version of the operating system, a value name that begins with "DefaultSettings." causes an assertion failure.
 
-<b>VideoPortSetRegistryParameters</b> cannot be called from a miniport driver's <a href="..\video\nc-video-pvideo_hw_interrupt.md">HwVidInterrupt</a> or <a href="..\video\nc-video-pvideo_hw_timer.md">HwVidTimer</a> functions, or from <a href="..\video\nf-video-videoportqueuedpc.md">VideoPortQueueDpc</a>, or from a callback to <a href="..\video\nf-video-videoportsynchronizeexecution.md">VideoPortSynchronizeExecution</a>. 
+<b>VideoPortSetRegistryParameters</b> cannot be called from a miniport driver's <a href="https://msdn.microsoft.com/523471e3-cf1e-48d2-b5f0-2f8d19ad71e0">HwVidInterrupt</a> or <a href="https://msdn.microsoft.com/bd41bbbf-4ec8-4e6c-8620-d8a9fe0b8bad">HwVidTimer</a> functions, or from <a href="https://msdn.microsoft.com/library/windows/hardware/ff570339">VideoPortQueueDpc</a>, or from a callback to <a href="https://msdn.microsoft.com/library/windows/hardware/ff570372">VideoPortSynchronizeExecution</a>. 
 
 
 
 
 ## -see-also
 
-<a href="..\video\nc-video-pvideo_hw_find_adapter.md">HwVidFindAdapter</a>
 
 
 
-<a href="..\video\nf-video-videoportgetregistryparameters.md">VideoPortGetRegistryParameters</a>
+<a href="https://msdn.microsoft.com/8c880eff-4b4c-439e-9239-f2343c1fe084">HwVidFindAdapter</a>
 
 
 
-<a href="..\video\nc-video-pvideo_hw_initialize.md">HwVidInitialize</a>
+<a href="https://msdn.microsoft.com/0e43de21-59e5-4368-8ea2-34fa52e99950">HwVidInitialize</a>
 
 
 
-<a href="..\video\nf-video-videoportflushregistry.md">VideoPortFlushRegistry</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570298">VideoPortFlushRegistry</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570316">VideoPortGetRegistryParameters</a>
  
 
  
-
 

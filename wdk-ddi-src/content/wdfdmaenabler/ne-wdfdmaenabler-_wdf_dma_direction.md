@@ -55,17 +55,6 @@ req.product: Windows 10 or later.
 The <b>WDF_DMA_DIRECTION</b> enumeration defines the direction of a DMA transfer.
 
 
-## -syntax
-
-
-````
-typedef enum _WDF_DMA_DIRECTION { 
-  WdfDmaDirectionReadFromDevice  = FALSE,
-  WdfDmaDirectionWriteToDevice   = TRUE
-} WDF_DMA_DIRECTION;
-````
-
-
 ## -enum-fields
 
 
@@ -85,14 +74,13 @@ The DMA transfer direction is to the device (write).
 
 
 
-The <b>WDF_DMA_DIRECTION</b> enumeration is used as input to the <a href="https://msdn.microsoft.com/c01b94b2-aabf-47dd-952a-06e481579614">EvtProgramDma</a> callback function and the <a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactioninitialize.md">WdfDmaTransactionInitialize</a> and <a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactioninitializeusingrequest.md">WdfDmaTransactionInitializeUsingRequest</a> methods.
+The <b>WDF_DMA_DIRECTION</b> enumeration is used as input to the <a href="https://msdn.microsoft.com/c01b94b2-aabf-47dd-952a-06e481579614">EvtProgramDma</a> callback function and the <a href="https://msdn.microsoft.com/library/windows/hardware/ff547099">WdfDmaTransactionInitialize</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff547107">WdfDmaTransactionInitializeUsingRequest</a> methods.
 
 
 
 
 ## -see-also
 
-<a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactioninitialize.md">WdfDmaTransactionInitialize</a>
 
 
 
@@ -100,12 +88,12 @@ The <b>WDF_DMA_DIRECTION</b> enumeration is used as input to the <a href="https:
 
 
 
-<a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactioninitializeusingrequest.md">WdfDmaTransactionInitializeUsingRequest</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547099">WdfDmaTransactionInitialize</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547107">WdfDmaTransactionInitializeUsingRequest</a>
  
 
  
-
 

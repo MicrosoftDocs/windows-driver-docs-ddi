@@ -52,19 +52,6 @@ req.typenames: KSPROPERTY_TVAUDIO_CAPS_S, *PKSPROPERTY_TVAUDIO_CAPS_S
 The KSPROPERTY_TVAUDIO_CAPS_S structure describes the capability of a TV audio device, such as stereo versus mono audio support and language capabilities.
 
 
-## -syntax
-
-
-````
-typedef struct {
-  KSPROPERTY   Property;
-  ULONG        Capabilities;
-  KSPIN_MEDIUM InputMedium;
-  KSPIN_MEDIUM OutputMedium;
-} KSPROPERTY_TVAUDIO_CAPS_S, *PKSPROPERTY_TVAUDIO_CAPS_S;
-````
-
-
 ## -struct-fields
 
 
@@ -150,11 +137,10 @@ Reserved for system use.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567811">PROPSETID_VIDCAP_TVAUDIO</a>
 
 
 
@@ -162,8 +148,8 @@ Reserved for system use.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567811">PROPSETID_VIDCAP_TVAUDIO</a>
  
 
  
-
 

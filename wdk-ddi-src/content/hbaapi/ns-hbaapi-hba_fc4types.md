@@ -7,7 +7,7 @@ old-location: storage\hba_fc4types.htm
 old-project: storage
 ms.assetid: ef043a97-3ef4-4fd3-93a6-ac1621503713
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PHBA_FC4TYPES, HBA_FC4TYPES, HBA_FC4TYPES structure [Storage Devices], HBA_fc4types, HBA_fc4types structure [Storage Devices], PHBA_FC4TYPES, PHBA_FC4TYPES structure pointer [Storage Devices], hbaapi/HBA_fc4types, hbaapi/PHBA_FC4TYPES, storage.hba_fc4types, structs-Fibre_603d3c1f-1d3c-44e5-86f0-803dda272723.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,16 +52,6 @@ req.typenames: HBA_FC4TYPES, *PHBA_FC4TYPES
 The HBA_fc4types structure contains a set of up to 32 values indicating the FC-4 types that the HBA supports. 
 
 
-## -syntax
-
-
-````
-typedef struct HBA_fc4types {
-  HBA_UINT8 bits[32];
-} HBA_FC4TYPES, *PHBA_FC4TYPES;
-````
-
-
 ## -struct-fields
 
 
@@ -74,12 +64,11 @@ Contains 32 bytes of FC4 type information. Each byte indicates a support FC-4 ty
 
 ## -see-also
 
-<a href="..\hbaapi\ns-hbaapi-hba_portattributes.md">HBA_PortAttributes</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557107">HBA_PortAttributes</a>
  
 
  
-
 

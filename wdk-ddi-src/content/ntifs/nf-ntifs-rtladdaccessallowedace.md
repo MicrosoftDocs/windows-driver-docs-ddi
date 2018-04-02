@@ -7,7 +7,7 @@ old-location: ifsk\rtladdaccessallowedace.htm
 old-project: ifsk
 ms.assetid: 39a50efc-b27a-4c73-b436-c6495256d9c6
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: RtlAddAccessAllowedAce, RtlAddAccessAllowedAce routine [Installable File System Drivers], ifsk.rtladdaccessallowedace, ntifs/RtlAddAccessAllowedAce, rtlref_ab4b97bd-c68c-4f7b-a50e-8584f53e6720.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,19 +50,6 @@ req.typenames: TOKEN_TYPE
 
 
 The <b>RtlAddAccessAllowedAce</b> routine adds an access-allowed access control entry (ACE) to an access control list (ACL). The access is granted to the specified security identifier (SID). 
-
-
-## -syntax
-
-
-````
-NTSTATUS RtlAddAccessAllowedAce(
-  _Inout_ PACL        Acl,
-  _In_    ULONG       AceRevision,
-  _In_    ACCESS_MASK AccessMask,
-  _In_    PSID        Sid
-);
-````
 
 
 ## -parameters
@@ -151,7 +138,7 @@ The ACE was successfully added.
 </dl>
 </td>
 <td width="60%">
-A new ACE does not fit into the ACL. A larger ACL buffer is required. See <a href="..\ntifs\nf-ntifs-rtlcreateacl.md">RtlCreateAcl</a> for information about calculating the size of an ACL. 
+A new ACE does not fit into the ACL. A larger ACL buffer is required. See <a href="https://msdn.microsoft.com/library/windows/hardware/ff552151">RtlCreateAcl</a> for information about calculating the size of an ACL. 
 
 </td>
 </tr>
@@ -205,11 +192,10 @@ For more information about security and access control, see the documentation on
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>
 
 
 
-<a href="..\ntifs\ns-ntifs-_access_allowed_ace.md">ACCESS_ALLOWED_ACE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538796">ACCESS_ALLOWED_ACE</a>
 
 
 
@@ -217,52 +203,52 @@ For more information about security and access control, see the documentation on
 
 
 
-<a href="..\wdm\nf-wdm-rtlvalidsecuritydescriptor.md">RtlValidSecurityDescriptor</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-rtlcreateacl.md">RtlCreateAcl</a>
-
-
-
-<a href="..\wdm\ns-wdm-_acl.md">ACL</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff538844">ACE</a>
 
 
 
-<a href="..\wdm\nf-wdm-rtllengthsecuritydescriptor.md">RtlLengthSecurityDescriptor</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538866">ACL</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-rtlcreatesecuritydescriptorrelative.md">RtlCreateSecurityDescriptorRelative</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552151">RtlCreateAcl</a>
 
 
 
-<a href="..\wdm\nf-wdm-rtlcreatesecuritydescriptor.md">RtlCreateSecurityDescriptor</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561827">RtlCreateSecurityDescriptor</a>
 
 
 
-<a href="..\wdm\nf-wdm-seassignsecurity.md">SeAssignSecurity</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552165">RtlCreateSecurityDescriptorRelative</a>
 
 
 
-<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562025">RtlLengthSecurityDescriptor</a>
 
 
 
-<a href="..\wdm\nf-wdm-rtlsetdaclsecuritydescriptor.md">RtlSetDaclSecurityDescriptor</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562781">RtlSetDaclSecurityDescriptor</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-rtlsetownersecuritydescriptor.md">RtlSetOwnerSecurityDescriptor</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553220">RtlSetOwnerSecurityDescriptor</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563024">RtlValidSecurityDescriptor</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556740">SID</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563676">SeAssignSecurity</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566424">ZwCreateFile</a>
  
 
  
-
 

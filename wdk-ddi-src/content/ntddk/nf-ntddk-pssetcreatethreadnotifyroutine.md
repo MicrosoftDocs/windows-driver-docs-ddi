@@ -7,7 +7,7 @@ old-location: kernel\pssetcreatethreadnotifyroutine.htm
 old-project: kernel
 ms.assetid: 02c5d325-e0b2-4b0f-b964-7befd1b40cb6
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: PsSetCreateThreadNotifyRoutine, PsSetCreateThreadNotifyRoutine routine [Kernel-Mode Driver Architecture], k108_1fe3d941-1e48-4f07-bf57-ad7b2855947f.xml, kernel.pssetcreatethreadnotifyroutine, ntddk/PsSetCreateThreadNotifyRoutine
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,16 +52,6 @@ req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 The <b>PsSetCreateThreadNotifyRoutine</b> routine registers a driver-supplied callback that is subsequently notified when a new thread is created and when such a thread is deleted.
 
 
-## -syntax
-
-
-````
-NTSTATUS PsSetCreateThreadNotifyRoutine(
-  _In_ PCREATE_THREAD_NOTIFY_ROUTINE NotifyRoutine
-);
-````
-
-
 ## -parameters
 
 
@@ -69,7 +59,7 @@ NTSTATUS PsSetCreateThreadNotifyRoutine(
 
 ### -param NotifyRoutine [in]
 
-A pointer to the driver's implementation of <a href="..\ntddk\nc-ntddk-pcreate_thread_notify_routine.md">PCREATE_THREAD_NOTIFY_ROUTINE</a> routine. 
+A pointer to the driver's implementation of <a href="https://msdn.microsoft.com/library/windows/hardware/mt764087">PCREATE_THREAD_NOTIFY_ROUTINE</a> routine. 
 
 
 ## -returns
@@ -104,39 +94,38 @@ Highest-level drivers can call <b>PsSetCreateThreadNotifyRoutine</b> to set up t
 </table></span></div>
 For example, an IFS or highest-level system-profiling driver might register such a thread-creation callback to track the system-wide creation and deletion of threads against the driver's internal state.
 
-A driver must remove any callbacks it registers before it unloads. You can remove the callback by calling the <a href="..\ntddk\nf-ntddk-psremovecreatethreadnotifyroutine.md">PsRemoveCreateThreadNotifyRoutine</a> routine.
+A driver must remove any callbacks it registers before it unloads. You can remove the callback by calling the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559947">PsRemoveCreateThreadNotifyRoutine</a> routine.
 
 
 
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-psgetcurrentprocessid.md">PsGetCurrentProcessId</a>
 
 
 
-<a href="..\ntddk\nf-ntddk-psremovecreatethreadnotifyroutine.md">PsRemoveCreateThreadNotifyRoutine</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559935">PsGetCurrentProcessId</a>
 
 
 
-<a href="..\ntddk\nf-ntddk-psgetcurrentthreadid.md">PsGetCurrentThreadId</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559937">PsGetCurrentThreadId</a>
 
 
 
-<a href="..\ntddk\nf-ntddk-pssetcreateprocessnotifyroutine.md">PsSetCreateProcessNotifyRoutine</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559945">PsIsSystemThread</a>
 
 
 
-<a href="..\ntddk\nf-ntddk-pssetloadimagenotifyroutine.md">PsSetLoadImageNotifyRoutine</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559947">PsRemoveCreateThreadNotifyRoutine</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-psissystemthread.md">PsIsSystemThread</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559951">PsSetCreateProcessNotifyRoutine</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559957">PsSetLoadImageNotifyRoutine</a>
  
 
  
-
 

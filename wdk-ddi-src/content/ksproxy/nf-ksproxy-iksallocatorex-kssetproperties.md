@@ -54,16 +54,6 @@ req.typenames: PIPE_STATE
 Sets the properties for an allocator. 
 
 
-## -syntax
-
-
-````
-HRESULT KsSetProperties(
-    
-);
-````
-
-
 ## -parameters
 
 
@@ -82,12 +72,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="..\ksproxy\nn-ksproxy-iksallocatorex.md">IKsAllocatorEx</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559724">IKsAllocatorEx</a>
  
 
  
-
 

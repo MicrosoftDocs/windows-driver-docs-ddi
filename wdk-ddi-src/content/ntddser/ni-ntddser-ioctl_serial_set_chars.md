@@ -51,7 +51,7 @@ req.typenames: SD_REQUEST_FUNCTION
 
 The <b>IOCTL_SERIAL_SET_CHARS</b> request sets the special characters that the serial controller driver uses for handshake flow control. This driver verifies the specified special characters.
 
-To obtain the special characters, a client can use an <a href="..\ntddser\ni-ntddser-ioctl_serial_get_chars.md">IOCTL_SERIAL_GET_CHARS</a> request.
+To obtain the special characters, a client can use an <a href="https://msdn.microsoft.com/library/windows/hardware/ff546558">IOCTL_SERIAL_GET_CHARS</a> request.
 
 
 ## -ioctlparameters
@@ -61,7 +61,7 @@ To obtain the special characters, a client can use an <a href="..\ntddser\ni-ntd
 
 ### -input-buffer
 
-The <b>AssociatedIrp.SystemBuffer</b> member points to a client-allocated <a href="..\ntddser\ns-ntddser-_serial_chars.md">SERIAL_CHARS</a> structure that is used to input special characters.
+The <b>AssociatedIrp.SystemBuffer</b> member points to a client-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/jj673020">SERIAL_CHARS</a> structure that is used to input special characters.
 
 
 ### -input-buffer-length
@@ -106,16 +106,15 @@ The <b>Status</b> member is set to one of the <a href="https://docs.microsoft.co
 
 ## -see-also
 
-<a href="..\ntddser\ni-ntddser-ioctl_serial_get_chars.md">IOCTL_SERIAL_GET_CHARS</a>
 
 
 
-<a href="..\ntddser\ns-ntddser-_serial_chars.md">SERIAL_CHARS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546558">IOCTL_SERIAL_GET_CHARS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj673020">SERIAL_CHARS</a>
  
 
  
-
 

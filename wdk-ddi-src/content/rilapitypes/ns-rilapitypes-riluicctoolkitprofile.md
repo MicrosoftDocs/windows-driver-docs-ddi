@@ -7,7 +7,7 @@ old-location: netvista\riluicctoolkitprofile.htm
 old-project: netvista
 ms.assetid: ff1f5839-78be-48ab-9c26-f8fee6788d51
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*LPRILUICCTOOLKITPROFILE, RILUICCTOOLKITPROFILE, RILUICCTOOLKITPROFILE structure [Network Drivers Starting with Windows Vista], netvista.riluicctoolkitprofile, ntddrilapitypes/RILUICCTOOLKITPROFILE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,18 +51,6 @@ req.product: Windows 10 or later.
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef struct _RILUICCTOOLKITPROFILE {
-  DWORD    cbSize;
-  DWORD    dwProfileSize;
-  BYTE [1] bProfile;
-} RILUICCTOOLKITPROFILE, RILUICCTOOLKITPROFILE;
-````
 
 
 ## -struct-fields

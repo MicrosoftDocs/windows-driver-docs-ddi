@@ -3,12 +3,12 @@ UID: NI:gnssdriver.IOCTL_GNSS_CONFIG_SUPL_CERT
 title: IOCTL_GNSS_CONFIG_SUPL_CERT
 author: windows-driver-content
 description: The IOCTL_GNSS_CONFIG_SUPL_CERT control code is used by the GNSS adapter to set SUPL certificates.
-old-location: gnss\ioctl_gnss_config_supl_cert.htm
-old-project: gnss
+old-location: sensors\ioctl_gnss_config_supl_cert.htm
+old-project: sensors
 ms.assetid: 34095934-26C1-4855-9ED9-71627E88A903
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IOCTL_GNSS_CONFIG_SUPL_CERT, IOCTL_GNSS_CONFIG_SUPL_CERT control code [Sensor Devices], gnss.ioctl_gnss_config_supl_cert, gnssdriver/IOCTL_GNSS_CONFIG_SUPL_CERT
+ms.date: 2/22/2018
+ms.keywords: IOCTL_GNSS_CONFIG_SUPL_CERT, IOCTL_GNSS_CONFIG_SUPL_CERT control code [Sensor Devices], gnssdriver/IOCTL_GNSS_CONFIG_SUPL_CERT, sensors.ioctl_gnss_config_supl_cert
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -59,7 +59,7 @@ The <b>IOCTL_GNSS_CONFIG_SUPL_CERT</b> control code is used by the GNSS adapter 
 
 ### -input-buffer
 
-Pointer to a <a href="..\gnssdriver\ns-gnssdriver-gnss_supl_cert_config.md">GNSS_SUPL_CERT_CONFIG</a> structure.
+Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn925227">GNSS_SUPL_CERT_CONFIG</a> structure.
 
 
 ### -input-buffer-length
@@ -155,7 +155,6 @@ If a certificate with the same name as an existing certificate is injected again
 
 ## -see-also
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
 
 
 
@@ -163,14 +162,15 @@ If a certificate with the same name as an existing certificate is injected again
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548651">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548656">WdfIoTargetSendInternalIoctlSynchronously</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548660">WdfIoTargetSendIoctlSynchronously</a>
  
 
  

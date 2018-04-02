@@ -52,19 +52,6 @@ req.typenames: BDA_ISDBCAS_REQUESTHEADER, *PBDA_ISDBCAS_REQUESTHEADER
 
 
 
-## -syntax
-
-
-````
-typedef struct _BDA_ISDBCAS_REQUESTHEADER {
-  BYTE  bInstruction;
-  BYTE  bReserved[3];
-  ULONG ulDataLength;
-  BYTE  argbIsdbCommand[MIN_DIMENSION];
-} BDA_ISDBCAS_REQUESTHEADER, *PBDA_ISDBCAS_REQUESTHEADER;
-````
-
-
 ## -struct-fields
 
 

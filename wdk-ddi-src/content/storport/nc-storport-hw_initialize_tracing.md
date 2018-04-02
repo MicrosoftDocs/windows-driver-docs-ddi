@@ -7,7 +7,7 @@ old-location: storage\hwstorinitializetracing.htm
 old-project: storage
 ms.assetid: e0d4ea58-415b-4ea4-9001-8a23ab44a1bf
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: HW_INITIALIZE_TRACING, HwStorInitializeTracing, HwStorInitializeTracing routine [Storage Devices], storage.hwstorinitializetracing, storport/HwStorInitializeTracing, storvmini_0c53c6e6-7c5c-4400-b923-c03a7756614f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,20 +53,6 @@ req.product: Windows 10 or later.
 The <b>HwStorInitializeTracing</b> callback routine allows the Storport virtual miniport driver to set up tracing and any related resources.
 
 
-## -prototype
-
-
-````
-HW_INITIALIZE_TRACING HwStorInitializeTracing;
-
-VOID HwStorInitializeTracing(
-   IN PVOID Arg1,
-   IN PVOID Arg2
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -74,12 +60,12 @@ VOID HwStorInitializeTracing(
 
 ### -param Arg1
 
-The first parameter that is passed to <a href="..\storport\nf-storport-storportinitialize.md">StorPortInitialize</a>.
+The first parameter that is passed to <a href="https://msdn.microsoft.com/library/windows/hardware/ff567108">StorPortInitialize</a>.
 
 
 ### -param Arg2
 
-The second parameter that is passed to <a href="..\storport\nf-storport-storportinitialize.md">StorPortInitialize</a>.
+The second parameter that is passed to <a href="https://msdn.microsoft.com/library/windows/hardware/ff567108">StorPortInitialize</a>.
 
 
 ## -returns

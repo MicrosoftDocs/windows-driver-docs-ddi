@@ -53,82 +53,6 @@ req.product: Windows 10 or later.
 The MONITORREG structure supplies print monitors with the address of registry functions to use instead of Win32 registry API functions.
 
 
-## -syntax
-
-
-````
-typedef struct _MONITORREG {
-  DWORD cbSize;
-  LONG  (WINAPI *fpCreateKey)(
-      HKEYMONITOR hcKey, 
-      LPCTSTR pszSubKey, 
-      DWORD dwOptions, 
-      REGSAM samDesired, 
-      PSECURITY_ATTRIBUTES pSecurityAttributes, 
-      HKEYMONITOR phckResult, 
-      PDWORD pdwDisposition, 
-      HANDLE hSpooler);
-  LONG  (WINAPI *fpOpenKey)(
-      HKEYMONITOR hcKey, 
-      LPCTSTR pszSubKey, 
-      REGSAM samDesired, 
-      HKEYMONITOR phkResult, 
-      HANDLE hSpooler);
-  LONG  (WINAPI *fpCloseKey)(
-      HKEYMONITOR hcKey, 
-      HANDLE hSpooler);
-  LONG  (WINAPI *fpDeleteKey)(
-      HKEYMONITOR hcKey, 
-      LPCTSTR pszSubKey, 
-      HANDLE hSpooler);
-  LONG  (WINAPI *fpEnumKey)(
-      HKEYMONITOR hcKey, 
-      DWORD dwIndex, 
-      LPTSTR pszName, 
-      PDWORD pcchName, 
-      PFILETIME pftLastWriteTime, 
-      HANDLE hSpooler);
-  LONG  (WINAPI *fpQueryInfoKey)(
-      HKEYMONITOR hcKey, 
-      PDWORD pcSubKeys, 
-      PDWORD pcbKey, 
-      PDWORD pcValues, 
-      PDWORD pcbValue, 
-      PDWORD pcbData, 
-      PDWORD pcbSecurityDescriptor, 
-      PFILETIME pftLastWriteTime, 
-      HANDLE hSpooler);
-  LONG  (WINAPI *fpSetValue)(
-      HKEYMONITOR hcKey, 
-      LPCTSTR pszValue, 
-      DWORD dwType, 
-      const BYTE* pData, 
-      DWORD cbData, 
-      HANDLE hSpooler);
-  LONG  (WINAPI *fpDeleteValue)(
-      HKEYMONITOR hcKey, 
-      LPCTSTR pszValue, 
-      HANDLE hSpooler);
-  LONG  (WINAPI *fpEnumValue)(
-      HKEYMONITOR hcKey, 
-      DWORD dwIndex, 
-      LPTSTR pszValue, 
-      PDWORD pcbValue, 
-      PDWORD pTyp, 
-      PBYTE pcbData, 
-      PDWORD pcbData, 
-      HANDLE hSpooler);
-  LONG  (WINAPI *fpQueryValue)(
-      HKEYMONITOR hcKey, 
-      LPCTSTR pszValue, 
-      PDWORD pType, 
-      PBYTE pData, 
-      PDWORD pcbData, 
-      HANDLE hSpooler);
-} MONITORREG, *PMONITORREG;
-````
-
-
 ## -struct-fields
 
 
@@ -173,7 +97,7 @@ Size, in bytes, of the MONITORREG structure.
 
 
 
-The MONITORREG structure's address is supplied in a <a href="..\winsplp\ns-winsplp-_monitorinit.md">MONITORINIT</a> structure, which is passed to a print monitor's <a href="..\winsplp\nf-winsplp-initializeprintmonitor2.md">InitializePrintMonitor2</a> function.
+The MONITORREG structure's address is supplied in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff557535">MONITORINIT</a> structure, which is passed to a print monitor's <a href="https://msdn.microsoft.com/library/windows/hardware/ff551605">InitializePrintMonitor2</a> function.
 
 When <a href="https://msdn.microsoft.com/b1c83729-d7d2-4920-9402-4e00baa12633">storing port configuration information</a>, print monitors must not explicitly call either the Win32 registry API or the cluster registry API. Instead, they must call equivalent spooler registry functions. The MONITORREG structure supplies the addresses of these functions. The following table lists each spooler registry function and its equivalent cluster registry function.
 
@@ -289,11 +213,11 @@ Input and output parameters for these spooler functions match the parameters of 
 
 <ul>
 <li>
-Each spooler registry function requires an <i>hSpooler</i> input parameter. This is the spooler handle received in the <a href="..\winsplp\ns-winsplp-_monitorinit.md">MONITORINIT</a> structure.
+Each spooler registry function requires an <i>hSpooler</i> input parameter. This is the spooler handle received in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff557535">MONITORINIT</a> structure.
 
 </li>
 <li>
-The spooler registry functions use HANDLE and PHANDLE parameter types instead of the HKEY and PHKEY types used by the cluster registry functions. Monitors receive the handle of the root registry location in the <b>hckRegistryRoot</b> member of the <a href="..\winsplp\ns-winsplp-_monitorinit.md">MONITORINIT</a> structure.
+The spooler registry functions use HANDLE and PHANDLE parameter types instead of the HKEY and PHKEY types used by the cluster registry functions. Monitors receive the handle of the root registry location in the <b>hckRegistryRoot</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff557535">MONITORINIT</a> structure.
 
 </li>
 </ul>
@@ -302,16 +226,15 @@ The spooler registry functions use HANDLE and PHANDLE parameter types instead of
 
 ## -see-also
 
-<a href="..\winsplp\nf-winsplp-initializeprintmonitor2.md">InitializePrintMonitor2</a>
 
 
 
-<a href="..\winsplp\ns-winsplp-_monitorinit.md">MONITORINIT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551605">InitializePrintMonitor2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557535">MONITORINIT</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: display\d3dddiarg_checkmultiplaneoverlaysupport.htm
 old-project: display
 ms.assetid: e5b6c24a-a3a5-4736-b9ee-ebb992070a83
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDIARG_CHECKMULTIPLANEOVERLAYSUPPORT, D3DDDIARG_CHECKMULTIPLANEOVERLAYSUPPORT structure [Display Devices], _D3DDDIARG_CHECKMULTIPLANEOVERLAYSUPPORT, d3dumddi/D3DDDIARG_CHECKMULTIPLANEOVERLAYSUPPORT, display.d3dddiarg_checkmultiplaneoverlaysupport
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,19 +52,6 @@ req.typenames: D3DDDIARG_CHECKMULTIPLANEOVERLAYSUPPORT
 Used in a call to the <a href="https://msdn.microsoft.com/A439E695-D374-439A-8A69-6D4E247FF134">pfnCheckMultiPlaneOverlaySupport (D3D)</a> function to check details on hardware support for multiplane overlays.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DDDIARG_CHECKMULTIPLANEOVERLAYSUPPORT {
-  D3DDDI_VIDEO_PRESENT_SOURCE_ID                     VidPnSourceId;
-  UINT                                               NumPlanes;
-  D3DDDI_CHECK_MULTIPLANE_OVERLAY_SUPPORT_PLANE_INFO *pPlanes;
-  BOOL                                               Supported;
-} D3DDDIARG_CHECKMULTIPLANEOVERLAYSUPPORT;
-````
-
-
 ## -struct-fields
 
 
@@ -93,7 +80,6 @@ typedef struct _D3DDDIARG_CHECKMULTIPLANEOVERLAYSUPPORT {
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/A439E695-D374-439A-8A69-6D4E247FF134">pfnCheckMultiPlaneOverlaySupport (D3D)</a>
 
 
 
@@ -101,8 +87,8 @@ typedef struct _D3DDDIARG_CHECKMULTIPLANEOVERLAYSUPPORT {
 
 
 
+<a href="https://msdn.microsoft.com/A439E695-D374-439A-8A69-6D4E247FF134">pfnCheckMultiPlaneOverlaySupport (D3D)</a>
  
 
  
-
 

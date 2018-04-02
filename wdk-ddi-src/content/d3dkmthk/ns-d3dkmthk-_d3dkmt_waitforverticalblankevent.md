@@ -7,7 +7,7 @@ old-location: display\d3dkmt_waitforverticalblankevent.htm
 old-project: display
 ms.assetid: dde8ebf7-7839-4bcc-8cb1-02a5ca922792
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMT_WAITFORVERTICALBLANKEVENT, D3DKMT_WAITFORVERTICALBLANKEVENT structure [Display Devices], OpenGL_Structs_1072adb2-825b-4fee-a84a-b958e3d2e4d4.xml, _D3DKMT_WAITFORVERTICALBLANKEVENT, d3dkmthk/D3DKMT_WAITFORVERTICALBLANKEVENT, display.d3dkmt_waitforverticalblankevent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,18 +52,6 @@ req.typenames: D3DKMT_WAITFORVERTICALBLANKEVENT
 The D3DKMT_WAITFORVERTICALBLANKEVENT structure describes parameters for waiting for the vertical blanking interval to occur.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DKMT_WAITFORVERTICALBLANKEVENT {
-  D3DKMT_HANDLE                  hAdapter;
-  D3DKMT_HANDLE                  hDevice;
-  D3DDDI_VIDEO_PRESENT_SOURCE_ID VidPnSourceId;
-} D3DKMT_WAITFORVERTICALBLANKEVENT;
-````
-
-
 ## -struct-fields
 
 
@@ -86,12 +74,11 @@ typedef struct _D3DKMT_WAITFORVERTICALBLANKEVENT {
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtwaitforverticalblankevent.md">D3DKMTWaitForVerticalBlankEvent</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547265">D3DKMTWaitForVerticalBlankEvent</a>
  
 
  
-
 

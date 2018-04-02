@@ -56,18 +56,6 @@ The <b>WRITE_PORT_UCHAR</b> function writes a byte to the specified port address
 
 
 
-## -syntax
-
-
-````
-void WRITE_PORT_UCHAR(
-  _In_ IWDFDevice3 *pDevice,
-  _In_ PUCHAR      Port,
-  _In_ UCHAR       Value
-);
-````
-
-
 ## -parameters
 
 
@@ -75,7 +63,7 @@ void WRITE_PORT_UCHAR(
 
 ### -param pDevice [in]
 
-Specifies a pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfdevice3.md">IWDFDevice3</a> interface for the device object of the device to access.
+Specifies a pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451197">IWDFDevice3</a> interface for the device object of the device to access.
 
 
 ### -param Port [in]

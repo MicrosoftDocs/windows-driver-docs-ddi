@@ -7,7 +7,7 @@ old-location: display\d3ddevicedesc_v3.htm
 old-project: display
 ms.assetid: 36a7b29a-f744-42c8-9e60-9b5dbba3a32f
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*LPD3DDEVICEDESC_V3, D3DDEVICEDESC_V3, D3DDEVICEDESC_V3 structure [Display Devices], _D3DDeviceDesc_V3, d3dhal/, d3dstrct_ae7c0a55-4597-4272-9b06-bc74a8340842.xml, display.d3ddevicedesc_v3"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,7 +51,7 @@ req.typenames: D3DDEVICEDESC_V3, *LPD3DDEVICEDESC_V3
 
 <b>The D3DDEVICEDESC_V3 structure is obsolete; only D3DDEVICEDESC_V1 should be used.</b>
 
-The D3DDEVICEDESC_V3 structure contains fields that are already reported in the <a href="..\d3dhal\ns-d3dhal-_d3dhal_d3dextendedcaps.md">D3DHAL_D3DEXTENDEDCAPS</a> structure when responding to the GUID_D3DExtendedCaps GUID in <a href="https://msdn.microsoft.com/89a22163-a678-4c72-932a-ae4d17922e0b">DdGetDriverInfo</a>.
+The D3DDEVICEDESC_V3 structure contains fields that are already reported in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff544753">D3DHAL_D3DEXTENDEDCAPS</a> structure when responding to the GUID_D3DExtendedCaps GUID in <a href="https://msdn.microsoft.com/89a22163-a678-4c72-932a-ae4d17922e0b">DdGetDriverInfo</a>.
 
 
 <pre class="syntax" xml:space="preserve"><code>typedef struct _D3DDeviceDesc_V3 {

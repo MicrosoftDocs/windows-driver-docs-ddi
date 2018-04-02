@@ -50,17 +50,7 @@ req.typenames: NFC_CX_TRANSPORT_TYPE, *PNFC_CX_TRANSPORT_TYPE
 ## -description
 
 
-The <b>NFC_CX_LLCP_CONFIG_INIT</b> function initializes the <a href="..\nfccx\ns-nfccx-_nfc_cx_llcp_config.md">NFC_CX_LLCP_CONFIG</a> structure.
-
-
-## -syntax
-
-
-````
-VOID NFC_CX_LLCP_CONFIG_INIT(
-  _Out_ PNFC_CX_LLCP_CONFIG Config
-);
-````
+The <b>NFC_CX_LLCP_CONFIG_INIT</b> function initializes the <a href="https://msdn.microsoft.com/library/windows/hardware/dn905545">NFC_CX_LLCP_CONFIG</a> structure.
 
 
 ## -parameters
@@ -70,7 +60,7 @@ VOID NFC_CX_LLCP_CONFIG_INIT(
 
 ### -param Config [out]
 
-A pointer to the <a href="..\nfccx\ns-nfccx-_nfc_cx_llcp_config.md">NFC_CX_LLCP_CONFIG</a> structure that the function will initialize.
+A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/dn905545">NFC_CX_LLCP_CONFIG</a> structure that the function will initialize.
 
 
 ## -returns
@@ -84,16 +74,15 @@ None.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a>
 
 
 
 <a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
-
-
-
  
 
  
-
 

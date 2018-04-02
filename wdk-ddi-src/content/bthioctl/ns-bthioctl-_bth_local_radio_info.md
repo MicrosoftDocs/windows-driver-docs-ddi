@@ -53,20 +53,6 @@ The BTH_LOCAL_RADIO_INFO structure contains information about the local Bluetoot
   radio.
 
 
-## -syntax
-
-
-````
-typedef struct _BTH_LOCAL_RADIO_INFO {
-  BTH_DEVICE_INFO localInfo;
-  ULONG           flags;
-  USHORT          hciRevision;
-  UCHAR           hciVersion;
-  BTH_RADIO_INFO  radioInfo;
-} BTH_LOCAL_RADIO_INFO, *PBTH_LOCAL_RADIO_INFO;
-````
-
-
 ## -struct-fields
 
 
@@ -107,7 +93,7 @@ The major version of the HCI.
 ### -field radioInfo
 
 A 
-     <a href="..\bthioctl\ns-bthioctl-_bth_radio_info.md">BTH_RADIO_INFO</a> structure that contains
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff536646">BTH_RADIO_INFO</a> structure that contains
      information about the local radio device.
 
 
@@ -116,7 +102,7 @@ A
 
 
 The 
-    <a href="..\bthioctl\ni-bthioctl-ioctl_bth_get_local_info.md">IOCTL_BTH_GET_LOCAL_INFO</a> call's
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff536684">IOCTL_BTH_GET_LOCAL_INFO</a> call's
     output buffer contains the information about the local Bluetooth system and radio.
 
 
@@ -124,20 +110,19 @@ The
 
 ## -see-also
 
+
+
+
 <a href="http://go.microsoft.com/fwlink/p/?linkid=50713">BTH_DEVICE_INFO</a>
 
 
 
-<a href="..\bthioctl\ni-bthioctl-ioctl_bth_get_local_info.md">IOCTL_BTH_GET_LOCAL_INFO</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536646">BTH_RADIO_INFO</a>
 
 
 
-<a href="..\bthioctl\ns-bthioctl-_bth_radio_info.md">BTH_RADIO_INFO</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536684">IOCTL_BTH_GET_LOCAL_INFO</a>
  
 
  
-
 

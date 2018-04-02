@@ -7,7 +7,7 @@ old-location: ifsk\fsrtlremovemcbentry.htm
 old-project: ifsk
 ms.assetid: 94342bb0-6c3b-49a0-b677-5d871136c2ba
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FsRtlRemoveMcbEntry, FsRtlRemoveMcbEntry function [Installable File System Drivers], fsrtlref_21b18ca7-32c0-441b-bb74-aa227e0d2c3e.xml, ifsk.fsrtlremovemcbentry, ntifs/FsRtlRemoveMcbEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,17 +49,7 @@ req.typenames: TOKEN_TYPE
 ## -description
 
 
-The <b>FsRtlRemoveMcbEntry</b> routine is obsolete, but is exported to support existing driver binaries. Use <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlremovelargemcbentry~r2.md">FsRtlRemoveLargeMcbEntry</a> instead.
-
-
-## -syntax
-
-
-````
-  FsRtlRemoveMcbEntry(
-    
-);
-````
+The <b>FsRtlRemoveMcbEntry</b> routine is obsolete, but is exported to support existing driver binaries. Use <a href="https://msdn.microsoft.com/library/windows/hardware/ff547215">FsRtlRemoveLargeMcbEntry</a> instead.
 
 
 ## -parameters

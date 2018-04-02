@@ -7,7 +7,7 @@ old-location: kernel\po_fx_component.htm
 old-project: kernel
 ms.assetid: 4ACCA041-C638-4124-AFC1-3F34671C9EF8
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 2/24/2018
 ms.keywords: "*PPO_FX_COMPONENT, *PPO_FX_COMPONENT_V1, PO_FX_COMPONENT, PO_FX_COMPONENT structure [Kernel-Mode Driver Architecture], PO_FX_COMPONENT_V1, PO_FX_COMPONENT_V2, PO_FX_COMPONENT_V2 structure [Kernel-Mode Driver Architecture], PPO_FX_COMPONENT_V2, PPO_FX_COMPONENT_V2 structure pointer [Kernel-Mode Driver Architecture], _PO_FX_COMPONENT_V1, kernel.po_fx_component, wdm/PO_FX_COMPONENT, wdm/PO_FX_COMPONENT_V2, wdm/PPO_FX_COMPONENT_V2"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -142,6 +142,10 @@ When the component transitions to the idle state, PoFx first makes the dependent
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450935">Component-Level Power Management</a>
+
+
+
 <a href="..\wudfwdm\ns-wudfwdm-_po_fx_device_v1.md">PO_FX_DEVICE</a>
 
 
@@ -150,12 +154,9 @@ When the component transitions to the idle state, PoFx first makes the dependent
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450935">Component-Level Power Management</a>
-
-
-
  
 
  
+
 
 

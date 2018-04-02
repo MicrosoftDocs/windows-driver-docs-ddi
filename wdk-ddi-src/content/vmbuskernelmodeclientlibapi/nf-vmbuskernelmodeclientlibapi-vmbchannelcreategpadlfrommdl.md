@@ -7,7 +7,7 @@ old-location: netvista\vmbchannelcreategpadlfrommdl.htm
 old-project: netvista
 ms.assetid: 6C63E250-1A11-45E8-B535-263806DA4A33
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: VMBUS_CHANNEL_GPADL_READ_ONLY, VmbChannelCreateGpadlFromMdl, VmbChannelCreateGpadlFromMdl function [Network Drivers Starting with Windows Vista], netvista.vmbchannelcreategpadlfrommdl, vmbuskernelmodeclientlibapi/VmbChannelCreateGpadlFromMdl
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -55,21 +55,6 @@ req.product: Windows 10 or later.
 
 The <b>VmbChannelCreateGpadlFromMdl</b> function creates a Guest Physical Address Descriptor List (GPADL) that describes a client-side buffer. The GPADL can be used
 in the server to access the buffer.  
-
-
-## -syntax
-
-
-````
-NTSTATUS VmbChannelCreateGpadlFromMdl(
-  _In_  VMBCHANNEL Channel,
-  _In_  UINT32     Flags,
-  _In_  PMDL       Mdl,
-  _In_  UINT32     StartOffsetWithinMdl,
-  _In_  UINT32     DataLengthWithinMdl,
-  _Out_ PUINT32    GpadlHandle
-);
-````
 
 
 ## -parameters
@@ -127,7 +112,7 @@ use until the end of the MDL.
 
 ### -param GpadlHandle [out]
 
-The GPADL handle of the created MDL. Send this to the server to use with the <a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbchannelmapgpadl.md">VmbChannelMapGpadl</a> function.
+The GPADL handle of the created MDL. Send this to the server to use with the <a href="https://msdn.microsoft.com/A7801EE9-BFDB-4F77-9DA4-A6612F63AD48">VmbChannelMapGpadl</a> function.
 
 
 ## -remarks
@@ -135,27 +120,26 @@ The GPADL handle of the created MDL. Send this to the server to use with the <a 
 
 
 When this function returns, the server
-endpoint can call <a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbchannelmapgpadl.md">VmbChannelMapGpadl</a>, because VMBus will already have send
+endpoint can call <a href="https://msdn.microsoft.com/A7801EE9-BFDB-4F77-9DA4-A6612F63AD48">VmbChannelMapGpadl</a>, because VMBus will already have send
 the GPADL description to the opposite endpoint and received confirmation.
 
 
- The GPADL must be deleted by using the <a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbchanneldeletegpadl.md">VmbChannelDeleteGpadl</a> function.
+ The GPADL must be deleted by using the <a href="https://msdn.microsoft.com/B1446A29-F2C1-4F08-8B38-5BE9188F5132">VmbChannelDeleteGpadl</a> function.
 
 
 
 
 ## -see-also
 
-<a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbchannelmapgpadl.md">VmbChannelMapGpadl</a>
 
 
 
-<a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbchanneldeletegpadl.md">VmbChannelDeleteGpadl</a>
+<a href="https://msdn.microsoft.com/B1446A29-F2C1-4F08-8B38-5BE9188F5132">VmbChannelDeleteGpadl</a>
 
 
 
+<a href="https://msdn.microsoft.com/A7801EE9-BFDB-4F77-9DA4-A6612F63AD48">VmbChannelMapGpadl</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: kernel\iodeletedevice.htm
 old-project: kernel
 ms.assetid: 973549c3-c570-48ab-9a82-9398c920dbd9
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: IoDeleteDevice, IoDeleteDevice routine [Kernel-Mode Driver Architecture], k104_246c1fe6-75cc-434e-a1d4-7e573eff96de.xml, kernel.iodeletedevice, wdm/IoDeleteDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,16 +53,6 @@ req.product: Windows 10 or later.
 The <b>IoDeleteDevice</b> routine removes a device object from the system, for example, when the underlying device is removed from the system. 
 
 
-## -syntax
-
-
-````
-VOID IoDeleteDevice(
-  _In_ PDEVICE_OBJECT DeviceObject
-);
-````
-
-
 ## -parameters
 
 
@@ -88,9 +78,9 @@ None
 
 When handling a PnP <a href="https://msdn.microsoft.com/library/windows/hardware/ff551738">IRP_MN_REMOVE_DEVICE</a> request, a PnP driver calls <b>IoDeleteDevice</b> to delete any associated device objects. See <a href="https://msdn.microsoft.com/library/windows/hardware/ff546687">Handling an IRP_MN_REMOVE_DEVICE Request</a> for details.
 
-A legacy driver should call this routine when it is being unloaded or when its <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> routine encounters a fatal initialization error, such as being unable to properly initialize a physical device. This routine also is called when a driver reconfigures its devices dynamically. For example, a disk driver called to repartition a disk would call <b>IoDeleteDevice</b> to tear down the device objects representing partitions to be replaced.
+A legacy driver should call this routine when it is being unloaded or when its <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> routine encounters a fatal initialization error, such as being unable to properly initialize a physical device. This routine also is called when a driver reconfigures its devices dynamically. For example, a disk driver called to repartition a disk would call <b>IoDeleteDevice</b> to tear down the device objects representing partitions to be replaced.
 
-A driver must release certain resources for which the driver supplied storage in its device extension before it calls <b>IoDeleteDevice</b>. For example, if the driver stores the pointer to its interrupt object(s) in the device extension, it must call <a href="..\wdm\nf-wdm-iodisconnectinterrupt.md">IoDisconnectInterrupt</a> before calling <b>IoDeleteDevice</b>.
+A driver must release certain resources for which the driver supplied storage in its device extension before it calls <b>IoDeleteDevice</b>. For example, if the driver stores the pointer to its interrupt object(s) in the device extension, it must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff549089">IoDisconnectInterrupt</a> before calling <b>IoDeleteDevice</b>.
 
 A driver can call <b>IoDeleteDevice</b> only once for a given device object.
 
@@ -101,16 +91,15 @@ When a driver calls <b>IoDeleteDevice</b>, the I/O manager deletes the target de
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iodisconnectinterrupt.md">IoDisconnectInterrupt</a>
 
 
 
-<a href="..\wdm\nf-wdm-iocreatedevice.md">IoCreateDevice</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548397">IoCreateDevice</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549089">IoDisconnectInterrupt</a>
  
 
  
-
 

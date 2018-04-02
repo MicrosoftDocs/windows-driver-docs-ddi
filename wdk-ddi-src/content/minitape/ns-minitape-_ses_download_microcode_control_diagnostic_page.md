@@ -7,7 +7,7 @@ old-location: storage\ses_download_microcode_control_diagnostic_page.htm
 old-project: storage
 ms.assetid: 09c2746f-cfe4-41dc-82ce-0b7e0c348897
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PSES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE, Activate deferred microcode, Download microcode with offsets, save, and activate, Download microcode with offsets, save, and defer activate, PSES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE, PSES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE structure pointer [Storage Devices], Reserved, SES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE, SES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE structure [Storage Devices], _SES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE, scsi/PSES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE, scsi/SES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE, storage.ses_download_microcode_control_diagnostic_page"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,26 +53,6 @@ The <b>SES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE</b> structure contains a v
 for use by the enclosure services process. 
 
 
-## -syntax
-
-
-````
-typedef struct _SES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE {
-  UCHAR  PageCode;
-  UCHAR  SubEnclosureId;
-  UCHAR  PageLength[2];
-  UCHAR  ExpectedGenerationCode[4];
-  UCHAR  Mode;
-  UCHAR  Reserved[2];
-  UCHAR  BufferID;
-  UCHAR  BufferOffset[4];
-  UCHAR  ImageLength[4];
-  UCHAR  DataLength[4];
-  UCHAR  Data[ANYSIZE_ARRAY];
-} SES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE, *PSES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE;
-````
-
-
 ## -struct-fields
 
 
@@ -86,7 +66,7 @@ Specifies the diagnostic page being sent or requested based on the value. For a 
 ### -field SubEnclosureId
 
 Specifies the sub enclosure to which the application client is
-sending the microcode image. If the value does not match a valid SUBENCLOSURE_IDENTIFIER field value found in the <a href="..\storport\ns-storport-_ses_configuration_diagnostic_page.md">SES_CONFIGURATION_DIAGNOSTIC_PAGE</a>, then the enclosure services
+sending the microcode image. If the value does not match a valid SUBENCLOSURE_IDENTIFIER field value found in the <a href="https://msdn.microsoft.com/0FD748D6-F598-44D1-A8D3-E63764CB90C6">SES_CONFIGURATION_DIAGNOSTIC_PAGE</a>, then the enclosure services
 process shall abort the download microcode operation with a status of 0x80.
 
 

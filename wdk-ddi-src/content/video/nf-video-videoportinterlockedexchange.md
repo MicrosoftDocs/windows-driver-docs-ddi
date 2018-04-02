@@ -7,7 +7,7 @@ old-location: display\videoportinterlockedexchange.htm
 old-project: display
 ms.assetid: a01f1552-7bc5-4ae7-a195-c4cfc3553595
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: VideoPortInterlockedExchange, VideoPortInterlockedExchange function [Display Devices], VideoPort_Functions_2b2228a1-aca1-4661-ab6a-8747213bcd26.xml, display.videoportinterlockedexchange, video/VideoPortInterlockedExchange
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 The <b>VideoPortInterlockedExchange</b> function locks or unlocks a block of memory by setting a user-defined lock variable to <b>TRUE</b> or <b>FALSE</b>, respectively. It returns the previously-held value of the lock variable.
 
 
-## -syntax
-
-
-````
-LONG FASTCALL VideoPortInterlockedExchange(
-  _Inout_ PLONG Target,
-  _In_    LONG  Value
-);
-````
-
-
 ## -parameters
 
 
@@ -101,20 +90,19 @@ When the buffer is not being read from or written to, the lock variable should h
 
 ## -see-also
 
-<a href="..\video\nf-video-videoportinterlockeddecrement.md">VideoPortInterlockedDecrement</a>
 
 
 
-<a href="..\video\nf-video-videoportinterlockedincrement.md">VideoPortInterlockedIncrement</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570308">VideoPortGetCommonBuffer</a>
 
 
 
-<a href="..\video\nf-video-videoportgetcommonbuffer.md">VideoPortGetCommonBuffer</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570322">VideoPortInterlockedDecrement</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570324">VideoPortInterlockedIncrement</a>
  
 
  
-
 

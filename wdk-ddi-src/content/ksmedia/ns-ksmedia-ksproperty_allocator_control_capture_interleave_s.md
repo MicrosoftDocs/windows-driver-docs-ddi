@@ -52,16 +52,6 @@ req.typenames: KSPROPERTY_ALLOCATOR_CONTROL_CAPTURE_INTERLEAVE_S, *PKSPROPERTY_A
 The KSPROPERTY_ALLOCATOR_CONTROL_CAPTURE_INTERLEAVE_S structure specifies if interleaved capture is possible.
 
 
-## -syntax
-
-
-````
-typedef struct {
-  ULONG InterleavedCapPossible;
-} KSPROPERTY_ALLOCATOR_CONTROL_CAPTURE_INTERLEAVE_S, *PKSPROPERTY_ALLOCATOR_CONTROL_CAPTURE_INTERLEAVE_S;
-````
-
-
 ## -struct-fields
 
 
@@ -74,16 +64,15 @@ Indicates whether interleaved capture is possible. Any nonzero value indicates t
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564271">KSPROPERTY_ALLOCATOR_CONTROL_CAPTURE_INTERLEAVE</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567792">PROPSETID_ALLOCATOR_CONTROL</a>
-
-
-
  
 
  
-
 

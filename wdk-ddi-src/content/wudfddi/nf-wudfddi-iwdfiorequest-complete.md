@@ -55,16 +55,6 @@ req.product: Windows 10 or later.
 The <b>Complete</b> method completes an I/O request.
 
 
-## -syntax
-
-
-````
-void Complete(
-  [in] HRESULT CompletionStatus
-);
-````
-
-
 ## -parameters
 
 
@@ -119,16 +109,15 @@ The following code example completes a request with the failure that occurred wh
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558985">IWDFIoRequest</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559074">IWDFIoRequest::CompleteWithInformation</a>
-
-
-
-<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
-
-
-
  
 
  
-
 

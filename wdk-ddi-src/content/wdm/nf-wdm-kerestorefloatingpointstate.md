@@ -7,7 +7,7 @@ old-location: kernel\kerestorefloatingpointstate.htm
 old-project: kernel
 ms.assetid: 9a9b3c9f-5371-4d70-b1f3-5038e4cabc83
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: KeRestoreFloatingPointState, KeRestoreFloatingPointState routine [Kernel-Mode Driver Architecture], k105_94a36699-2129-4e69-ba6a-206452f0b723.xml, kernel.kerestorefloatingpointstate, wdm/KeRestoreFloatingPointState
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,17 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The <b>KeRestoreFloatingPointState</b> routine restores the nonvolatile floating-point context saved by the preceding call to <a href="..\wdm\nf-wdm-kesavefloatingpointstate.md">KeSaveFloatingPointState</a>. 
-
-
-## -syntax
-
-
-````
-NTSTATUS KeRestoreFloatingPointState(
-  _In_ PKFLOATING_SAVE FloatSave
-);
-````
+The <b>KeRestoreFloatingPointState</b> routine restores the nonvolatile floating-point context saved by the preceding call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff553243">KeSaveFloatingPointState</a>. 
 
 
 ## -parameters
@@ -70,7 +60,7 @@ NTSTATUS KeRestoreFloatingPointState(
 
 ### -param FloatSave [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554233">KFLOATING_SAVE</a> structure that was passed in the preceding call to <a href="..\wdm\nf-wdm-kesavefloatingpointstate.md">KeSaveFloatingPointState</a>.
+A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554233">KFLOATING_SAVE</a> structure that was passed in the preceding call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff553243">KeSaveFloatingPointState</a>.
 
 
 ## -returns
@@ -115,7 +105,6 @@ The <b>KeRestoreFloatingPointState</b> call that restores a saved state must be 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kesavefloatingpointstate.md">KeSaveFloatingPointState</a>
 
 
 
@@ -123,8 +112,8 @@ The <b>KeRestoreFloatingPointState</b> call that restores a saved state must be 
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553243">KeSaveFloatingPointState</a>
  
 
  
-
 

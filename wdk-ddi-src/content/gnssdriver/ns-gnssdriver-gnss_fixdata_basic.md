@@ -3,12 +3,12 @@ UID: NS:gnssdriver.GNSS_FIXDATA_BASIC
 title: GNSS_FIXDATA_BASIC
 author: windows-driver-content
 description: This structure defines basic position information.
-old-location: gnss\gnss_fixdata_basic.htm
-old-project: gnss
+old-location: sensors\gnss_fixdata_basic.htm
+old-project: sensors
 ms.assetid: D293366B-13FA-438E-BEBD-1F0EAA693400
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: "*PGNSS_FIXDATA_BASIC, GNSS_FIXDATA_BASIC, GNSS_FIXDATA_BASIC structure [Sensor Devices], PGNSS_FIXDATA_BASIC, PGNSS_FIXDATA_BASIC structure pointer [Sensor Devices], gnss.gnss_fixdata_basic, gnssdriver/GNSS_FIXDATA_BASIC, gnssdriver/PGNSS_FIXDATA_BASIC"
+ms.date: 2/22/2018
+ms.keywords: "*PGNSS_FIXDATA_BASIC, GNSS_FIXDATA_BASIC, GNSS_FIXDATA_BASIC structure [Sensor Devices], PGNSS_FIXDATA_BASIC, PGNSS_FIXDATA_BASIC structure pointer [Sensor Devices], gnssdriver/GNSS_FIXDATA_BASIC, gnssdriver/PGNSS_FIXDATA_BASIC, sensors.gnss_fixdata_basic"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -50,22 +50,6 @@ req.typenames: GNSS_FIXDATA_BASIC, *PGNSS_FIXDATA_BASIC
 
 
 This structure defines basic position information.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  ULONG  Size;
-  ULONG  Version;
-  double Latitude;
-  double Longitude;
-  double Altitude;
-  double Speed;
-  double Heading;
-} GNSS_FIXDATA_BASIC, *PGNSS_FIXDATA_BASIC;
-````
 
 
 ## -struct-fields

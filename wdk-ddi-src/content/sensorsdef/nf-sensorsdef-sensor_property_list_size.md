@@ -53,16 +53,6 @@ req.product: Windows 10 or later.
 This function returns the size of the property list.
 
 
-## -syntax
-
-
-````
-FORCEINLINE ULONG SENSOR_PROPERTY_LIST_SIZE(
-  _In_ ULONG Count
-);
-````
-
-
 ## -parameters
 
 

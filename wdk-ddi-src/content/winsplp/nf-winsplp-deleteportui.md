@@ -53,18 +53,6 @@ req.product: Windows 10 or later.
 A port monitor UI DLL's <b>DeletePortUI</b> function deletes a printer port.
 
 
-## -syntax
-
-
-````
-BOOL WINAPI pfnDeletePortUI(
-  _In_opt_ PCWSTR pszServer,
-  _In_     HWND   hWnd,
-  _In_     PCWSTR pszPortName
-);
-````
-
-
 ## -parameters
 
 
@@ -98,7 +86,7 @@ If the operation succeeds, the function should return <b>TRUE</b>. Otherwise it 
 
 
 
-Port monitor UI DLLs are required to define a <b>DeletePortUI</b> function and include the function's address in a <a href="..\winsplp\ns-winsplp-_monitorui.md">MONITORUI</a> structure.
+Port monitor UI DLLs are required to define a <b>DeletePortUI</b> function and include the function's address in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff557541">MONITORUI</a> structure.
 
 The spooler calls <b>DeletePortUI</b> from within its <b>DeletePort</b> function. The arguments received by <b>DeletePortUI</b> are the arguments received by <b>DeletePort</b>. (The <b>DeletePort</b> function is described in the Microsoft Windows SDK documentation.)
 
@@ -143,11 +131,10 @@ Call <b>ClosePrinter</b>, specifying the handle received from <b>OpenPrinter</b>
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564254">XcvClosePort</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564258">XcvDataPort</a>
 
 
 
@@ -155,12 +142,12 @@ Call <b>ClosePrinter</b>, specifying the handle received from <b>OpenPrinter</b>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564258">XcvDataPort</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564259">XcvOpenPort</a>
-
-
-
  
 
  
-
 

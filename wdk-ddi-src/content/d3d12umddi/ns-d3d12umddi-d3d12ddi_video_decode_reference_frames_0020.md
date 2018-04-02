@@ -7,7 +7,7 @@ old-location: display\d3d12ddi_video_decode_reference_frames.htm
 old-project: display
 ms.assetid: B7ED4ADA-572A-4D15-B8FD-6EAF2DB87157
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3D12DDI_VIDEO_DECODE_REFERENCE_FRAMES_0020, D3D12DDI_VIDEO_DECODE_REFERENCE_FRAMES_0020 structure [Display Devices], d3d12umddi/D3D12DDI_VIDEO_DECODE_REFERENCE_FRAMES_0020, display.d3d12ddi_video_decode_reference_frames
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,18 +50,6 @@ req.typenames: D3D12DDI_VIDEO_DECODE_REFERENCE_FRAMES_0020
 
 
 Contains the reference frames for the current decode operation.  
-
-
-## -syntax
-
-
-````
-typedef struct D3D12DDI_VIDEO_DECODE_REFERENCE_FRAMES_0020 {
-  D3D12DDI_HRESOURCE *hDrvReferenceTexture2Ds;
-  UINT               *pReferenceSubresources;
-  UINT               NumReferenceResources;
-} D3D12DDI_VIDEO_DECODE_REFERENCE_FRAMES_0020;
-````
 
 
 ## -struct-fields

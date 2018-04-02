@@ -53,16 +53,6 @@ req.product: Windows 10 or later.
 The <b>UPSGetState</b> function returns the operational state of the UPS.
 
 
-## -syntax
-
-
-````
-DWORD UPSGetState(
-   void 
-);
-````
-
-
 ## -parameters
 
 

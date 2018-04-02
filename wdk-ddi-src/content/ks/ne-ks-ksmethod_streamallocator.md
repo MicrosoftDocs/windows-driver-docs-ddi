@@ -52,17 +52,6 @@ req.typenames: KSMETHOD_STREAMALLOCATOR
 
 
 
-## -syntax
-
-
-````
-typedef enum  { 
-  KSMETHOD_STREAMALLOCATOR_ALLOC,
-  KSMETHOD_STREAMALLOCATOR_FREE
-} KSMETHOD_STREAMALLOCATOR;
-````
-
-
 ## -enum-fields
 
 

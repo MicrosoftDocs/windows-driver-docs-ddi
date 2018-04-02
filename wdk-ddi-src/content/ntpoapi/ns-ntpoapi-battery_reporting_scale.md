@@ -52,17 +52,6 @@ req.typenames: BATTERY_REPORTING_SCALE, *PBATTERY_REPORTING_SCALE
 Battery miniclass drivers fill in this structure in response to certain <a href="https://msdn.microsoft.com/bd96b79a-5670-4aaf-b72c-619818c2a2e7">BatteryMiniQueryInformation</a> requests. 
 
 
-## -syntax
-
-
-````
-typedef struct {
-  ULONG Granularity;
-  ULONG Capacity;
-} BATTERY_REPORTING_SCALE, *PBATTERY_REPORTING_SCALE;
-````
-
-
 ## -struct-fields
 
 
@@ -80,12 +69,11 @@ Specify the battery capacity described by the corresponding granularity, in mill
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/bd96b79a-5670-4aaf-b72c-619818c2a2e7">BatteryMiniQueryInformation</a>
-
-
-
  
 
  
-
 

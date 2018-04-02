@@ -7,7 +7,7 @@ old-location: kernel\rtlextendcorrelationvector.htm
 old-project: kernel
 ms.assetid: 26de5890-edef-4e38-834a-9823327a74c2
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: RtlExtendCorrelationVector, RtlExtendCorrelationVector function [Kernel-Mode Driver Architecture], kernel.rtlextendcorrelationvector, ntddk/RtlExtendCorrelationVector
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -56,16 +56,6 @@ req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
     X.i.0.
 
 
-## -syntax
-
-
-````
- NTSTATUS  RtlExtendCorrelationVector(
-  _Inout_ PCORRELATION_VECTOR CorrelationVector
-);
-````
-
-
 ## -parameters
 
 
@@ -73,7 +63,7 @@ req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 
 ### -param CorrelationVector [in, out]
 
-A pointer to a  <a href="..\ntddk\ns-ntddk-correlation_vector.md">CORRELATION_VECTOR</a> structure that represents the correlation vector to be extended.
+A pointer to a  <a href="https://msdn.microsoft.com/35c1799f-2012-42b0-95e6-6902c818a094">CORRELATION_VECTOR</a> structure that represents the correlation vector to be extended.
 
 
 ## -returns

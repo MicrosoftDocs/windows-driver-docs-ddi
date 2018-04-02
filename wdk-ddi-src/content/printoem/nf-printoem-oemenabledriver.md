@@ -52,18 +52,6 @@ req.product: Windows 10 or later.
 
 
 
-## -syntax
-
-
-````
-DWORD APIENTRY OEMEnableDriver(
-        DWORD                                 dwOemIntfVersion,
-        DWORD                                 cbSize,
-  _Out_ _writes_bytes_(cbSize) PDRVENABLEDATA pded
-);
-````
-
-
 ## -parameters
 
 

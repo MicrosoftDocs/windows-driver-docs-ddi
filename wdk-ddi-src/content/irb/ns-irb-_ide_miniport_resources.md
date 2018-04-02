@@ -7,7 +7,7 @@ old-location: storage\ide_miniport_resources.htm
 old-project: storage
 ms.assetid: 867b6152-9846-484f-9eac-07d0f24d55df
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PIDE_MINIPORT_RESOURCES, IDE_MINIPORT_RESOURCES, IDE_MINIPORT_RESOURCES structure [Storage Devices], PIDE_MINIPORT_RESOURCES, PIDE_MINIPORT_RESOURCES structure pointer [Storage Devices], _IDE_MINIPORT_RESOURCES, irb/IDE_MINIPORT_RESOURCES, irb/PIDE_MINIPORT_RESOURCES, storage.ide_miniport_resources, structs-ATA_28df7197-d4b0-4279-a4db-e9b1269f6ba7.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,17 +52,6 @@ req.typenames: IDE_MINIPORT_RESOURCES, *PIDE_MINIPORT_RESOURCES
 The IDE_MINIPORT_RESOURCES structure is used by the port driver to provide the miniport driver with resources.
 <div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
-## -syntax
-
-
-````
-typedef struct _IDE_MINIPORT_RESOURCES {
-  ULONG             NumberOfAccessRanges;
-  PIDE_ACCESS_RANGE IdeAccessRange;
-} IDE_MINIPORT_RESOURCES, *PIDE_MINIPORT_RESOURCES;
-````
-
-
 ## -struct-fields
 
 
@@ -75,7 +64,7 @@ Contains the number of access ranges pointed to by <b>IdeAccessRange</b>. Each i
 
 ### -field IdeAccessRange
 
-Pointer to the first address range in a series of contiguous address ranges defined by a structure of type <a href="..\irb\ns-irb-_ide_access_range.md">IDE_ACCESS_RANGE</a>. The value in the <b>NumberOfAccessRanges</b> member indicates how many address ranges are provided. The port driver populates each <b>IDE_ACCESS_RANGE</b> structure with the address ranges allocated for the controller.
+Pointer to the first address range in a series of contiguous address ranges defined by a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff559019">IDE_ACCESS_RANGE</a>. The value in the <b>NumberOfAccessRanges</b> member indicates how many address ranges are provided. The port driver populates each <b>IDE_ACCESS_RANGE</b> structure with the address ranges allocated for the controller.
 
 
 ## -remarks
@@ -89,16 +78,15 @@ The port driver passes this structure to the miniport driver's <a href="https://
 
 ## -see-also
 
-<a href="..\irb\ns-irb-_ide_access_range.md">IDE_ACCESS_RANGE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559019">IDE_ACCESS_RANGE</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557465">IdeHwControl</a>
-
-
-
  
 
  
-
 

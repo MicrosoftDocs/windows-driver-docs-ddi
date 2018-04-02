@@ -22,7 +22,6 @@
 ### [_NDIS_RECEIVE_QUEUE_OPERATIONAL_STATE enumeration](../ntddndis/ne-ntddndis-_ndis_receive_queue_operational_state.md)
 ### [_NDIS_RECEIVE_QUEUE_TYPE enumeration](../ntddndis/ne-ntddndis-_ndis_receive_queue_type.md)
 ### [_NDIS_REQUEST_TYPE enumeration](../ntddndis/ne-ntddndis-_ndis_request_type.md)
-### [_NDIS_RSS_PROFILE enumeration](../ntddndis/ne-ntddndis-_ndis_rss_profile.md)
 ### [_NDIS_SWITCH_FEATURE_STATUS_TYPE enumeration](../ntddndis/ne-ntddndis-_ndis_switch_feature_status_type.md)
 ### [_NDIS_SWITCH_NIC_STATE enumeration](../ntddndis/ne-ntddndis-_ndis_switch_nic_state.md)
 ### [_NDIS_SWITCH_NIC_TYPE enumeration](../ntddndis/ne-ntddndis-_ndis_switch_nic_type.md)

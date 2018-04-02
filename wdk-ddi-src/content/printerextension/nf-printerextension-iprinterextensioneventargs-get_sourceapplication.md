@@ -56,27 +56,16 @@ Gets the name of the application that invoked the printer extension.
 This property is read-only.
 
 
-## -syntax
-
-
-````
-HRESULT get_SourceApplication(
-  [out, retval] BSTR *pbstrApplication
-);
-````
-
-
 ## -parameters
 
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprinterextensioneventargs.md">IPrinterExtensionEventArgs</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh973207">IPrinterExtensionEventArgs</a>
  
 
  
-
 

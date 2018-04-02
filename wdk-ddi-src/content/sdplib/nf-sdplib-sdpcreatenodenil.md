@@ -52,17 +52,7 @@ req.product: Windows 10 or later.
 
 The Bluetooth 
   <b>SdpCreateNodeNil</b> function is used to allocate and initialize an 
-  <a href="..\sdpnode\ns-sdpnode-_sdp_node.md">SDP_NODE</a> structure to an empty node type.
-
-
-## -syntax
-
-
-````
-PSDP_NODE SdpCreateNodeNil(
-  _In_ ULONG tag
-);
-````
+  <a href="https://msdn.microsoft.com/library/windows/hardware/ff536848">SDP_NODE</a> structure to an empty node type.
 
 
 ## -parameters
@@ -90,23 +80,22 @@ If successful, this function returns a pointer to the newly allocated SDP_NODE s
 
 
 Bluetooth profile drivers can obtain a pointer to this function through the 
-    <a href="..\bthsdpddi\ns-bthsdpddi-_bthddi_sdp_node_interface.md">BTHDDI_SDP_NODE_INTERFACE</a>.
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff536635">BTHDDI_SDP_NODE_INTERFACE</a>.
 
 
 
 
 ## -see-also
 
-<a href="..\sdpnode\ns-sdpnode-_sdp_node.md">SDP_NODE</a>
 
 
 
-<a href="..\bthsdpddi\ns-bthsdpddi-_bthddi_sdp_node_interface.md">BTHDDI_SDP_NODE_INTERFACE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536635">BTHDDI_SDP_NODE_INTERFACE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536848">SDP_NODE</a>
  
 
  
-
 

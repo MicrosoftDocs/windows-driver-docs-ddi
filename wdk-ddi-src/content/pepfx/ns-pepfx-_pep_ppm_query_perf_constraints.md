@@ -7,7 +7,7 @@ old-location: kernel\pep_ppm_perf_constraints.htm
 old-project: kernel
 ms.assetid: 29B823A2-C645-4DA3-A3BE-4A3ED6A9799F
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: "*PPEP_PPM_PERF_CONSTRAINTS, PEP_PPM_PERF_CONSTRAINTS, PEP_PPM_PERF_CONSTRAINTS structure [Kernel-Mode Driver Architecture], PERFORMANCE_LIMIT_DOMAIN_DEPENDENCY, PERFORMANCE_LIMIT_POWER, PERFORMANCE_LIMIT_THERMAL, PPEP_PPM_PERF_CONSTRAINTS, PPEP_PPM_PERF_CONSTRAINTS structure pointer [Kernel-Mode Driver Architecture], _PEP_PPM_QUERY_PERF_CONSTRAINTS, kernel.pep_ppm_perf_constraints, pepfx/PEP_PPM_PERF_CONSTRAINTS, pepfx/PPEP_PPM_PERF_CONSTRAINTS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,17 +50,6 @@ req.typenames: PEP_PPM_PERF_CONSTRAINTS, *PPEP_PPM_PERF_CONSTRAINTS
 
 
 The <b>PEP_PPM_PERF_CONSTRAINTS</b> structure describes the performance limits to apply to the processor.
-
-
-## -syntax
-
-
-````
-typedef struct _PEP_PPM_QUERY_PERF_CONSTRAINTS {
-  ULONG GuaranteedPerformanceLimit;
-  ULONG LimitReasons;
-} PEP_PPM_PERF_CONSTRAINTS, *PPEP_PPM_PERF_CONSTRAINTS;
-````
 
 
 ## -struct-fields
@@ -132,12 +121,11 @@ The <b>GuaranteedPerformanceLimit</b> member value is specified in platform-spec
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186815">PEP_NOTIFY_PPM_PERF_CONSTRAINTS</a>
-
-
-
  
 
  
-
 

@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 The Write method writes the provided JavaScript array to the stream and returns the number of bytes written.
 
 
-## -syntax
-
-
-````
-HRESULT Write(
-  [in]          IDispatch *pdispArray,
-  [out, retval] LONG      *pcbWritten
-);
-````
-
-
 ## -parameters
 
 
@@ -95,12 +84,11 @@ This method returns an <b>HRESULT</b> value.
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprinterscriptablesequentialstream.md">IPrinterScriptableSequentialStream</a>
 
 
 
+<a href="https://msdn.microsoft.com/85DF7DCB-7AB1-4A46-AD70-6D47D9F98079">IPrinterScriptableSequentialStream</a>
  
 
  
-
 

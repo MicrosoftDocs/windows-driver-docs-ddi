@@ -7,7 +7,7 @@ old-location: dtf\iwdtftarget2_getvaluelongnumbers.htm
 old-project: dtf
 ms.assetid: 178a28be-b592-45a7-8d46-47cbf9904fc6
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 3/29/2018
 ms.keywords: GetValueLongNumbers method [Windows Device Testing Framework], GetValueLongNumbers method [Windows Device Testing Framework], IWDTFTarget2 interface, GetValueLongNumbers,IWDTFTarget2.GetValueLongNumbers, IWDTFTarget2, IWDTFTarget2 interface [Windows Device Testing Framework], GetValueLongNumbers method, IWDTFTarget2::GetValueLongNumbers, Microsoft.WDTF.IWDTFTarget2.GetValueLongNumbers, Microsoft::WDTF::IWDTFTarget2::GetValueLongNumbers, dtf.iwdtftarget2_getvaluelongnumbers, wdtf/IWDTFTarget2::GetValueLongNumbers
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 Returns a collection of long number values from the target that are associated with a specified attribute.
 
 
-## -syntax
-
-
-````
-HRESULT GetValueLongNumbers(
-  [in]          BSTR              SDEL,
-  [out, retval] IWDTFLongNumbers2 **ppValue
-);
-````
-
-
 ## -parameters
 
 
@@ -103,12 +92,11 @@ to work properly.
 
 ## -see-also
 
-<a href="..\wdtf\nn-wdtf-iwdtftarget2.md">IWDTFTarget2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439367">IWDTFTarget2</a>
  
 
  
-
 

@@ -52,16 +52,6 @@ req.typenames: EXpsFontRestriction
 The <code>FilterFinished</code> method reports that a filter is finished processing.
 
 
-## -syntax
-
-
-````
-HRESULT STDMETHODCALLTYPE FilterFinished(
-    None
-);
-````
-
-
 ## -parameters
 
 

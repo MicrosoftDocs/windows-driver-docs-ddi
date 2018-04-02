@@ -52,19 +52,6 @@ req.product: Windows 10 or later.
 
 
 
-## -syntax
-
-
-````
-DWORD APIENTRY OEMCommand(
-       PDEVOBJ                         pdevobj,
-       DWORD                           dwIndex,
-  _In_ _reads_bytes_opt_(cbSize) PVOID pData,
-       DWORD                           cbSize
-);
-````
-
-
 ## -parameters
 
 

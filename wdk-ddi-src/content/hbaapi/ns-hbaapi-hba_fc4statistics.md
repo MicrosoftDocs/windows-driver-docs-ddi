@@ -7,7 +7,7 @@ old-location: storage\hba_fc4statistics.htm
 old-project: storage
 ms.assetid: e1e37d2c-5688-4528-9cc5-62e70a7561fe
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PHBA_FC4STATISTICS, HBA_FC4STATISTICS, HBA_FC4STATISTICS structure [Storage Devices], HBA_FC4Statistics, HBA_FC4Statistics structure [Storage Devices], PHBA_FC4STATISTICS, PHBA_FC4STATISTICS structure pointer [Storage Devices], hbaapi/HBA_FC4Statistics, hbaapi/PHBA_FC4STATISTICS, storage.hba_fc4statistics, structs-Fibre_1ab7a8f5-1b91-44ea-82b7-9c9ee92ce0e5.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,20 +52,6 @@ req.typenames: HBA_FC4STATISTICS, *PHBA_FC4STATISTICS
 The <b>HBA_FC4Statistics</b> structure contains port statistics. 
 
 
-## -syntax
-
-
-````
-typedef struct HBA_FC4Statistics {
-  HBA_INT64 InputRequests;
-  HBA_INT64 OutputRequests;
-  HBA_INT64 ControlRequests;
-  HBA_INT64 InputMegabytes;
-  HBA_INT64 OutputMegabytes;
-} HBA_FC4STATISTICS, *PHBA_FC4STATISTICS;
-````
-
-
 ## -struct-fields
 
 
@@ -98,12 +84,11 @@ Contains the number of megabytes of output data that a port has transmitted.
 
 ## -see-also
 
-<a href="..\hbaapi\nf-hbaapi-hba_getfc4statistics.md">HBA_GetFC4Statistics</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556093">HBA_GetFC4Statistics</a>
  
 
  
-
 

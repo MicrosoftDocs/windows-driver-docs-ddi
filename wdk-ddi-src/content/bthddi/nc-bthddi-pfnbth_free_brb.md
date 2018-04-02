@@ -54,19 +54,6 @@ The
   <i>BthAllocateBrb</i>.
 
 
-## -prototype
-
-
-````
-PFNBTH_FREE_BRB BthFreeBrb;
-
-VOID BthFreeBrb(
-  _In_ PBRB pBrb
-)
-{ ... }
-````
-
-
 ## -parameters
 
 

@@ -52,16 +52,6 @@ req.typenames: KS_COPY_MACROVISION, *PKS_COPY_MACROVISION
 The KS_COPY_MACROVISION structure specifies the Macrovision level of the data stream.
 
 
-## -syntax
-
-
-````
-typedef struct _KS_COPY_MACROVISION {
-  ULONG MACROVISIONLevel;
-} KS_COPY_MACROVISION, *PKS_COPY_MACROVISION;
-````
-
-
 ## -struct-fields
 
 
@@ -133,12 +123,11 @@ For additional uses of this structure see <a href="https://msdn.microsoft.com/ff
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565114">KSPROPERTY_COPY_MACROVISION</a>
-
-
-
  
 
  
-
 

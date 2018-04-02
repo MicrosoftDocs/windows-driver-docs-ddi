@@ -55,20 +55,6 @@ req.product: Windows 10 or later.
 The <b>WDF_IO_QUEUE_STATE</b> enumeration type identifies the status of a framework queue object. The enumerators are used as bit masks.
 
 
-## -syntax
-
-
-````
-typedef enum _WDF_IO_QUEUE_STATE { 
-  WdfIoQueueAcceptRequests    = 0x01,
-  WdfIoQueueDispatchRequests  = 0x02,
-  WdfIoQueueNoRequests        = 0x04,
-  WdfIoQueueDriverNoRequests  = 0x08,
-  WdfIoQueuePnpHeld           = 0x10
-} WDF_IO_QUEUE_STATE;
-````
-
-
 ## -enum-fields
 
 
@@ -76,9 +62,9 @@ typedef enum _WDF_IO_QUEUE_STATE {
 
 ### -field WdfIoQueueAcceptRequests
 
-If set, the I/O queue can accept new I/O requests from the I/O manager and requests that are forwarded by the <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceconfigurerequestdispatching.md">WdfDeviceConfigureRequestDispatching</a> and <a href="..\wdfrequest\nf-wdfrequest-wdfrequestforwardtoioqueue.md">WdfRequestForwardToIoQueue</a> (or <a href="..\wdfrequest\nf-wdfrequest-wdfrequestforwardtoparentdeviceioqueue.md">WdfRequestForwardToParentDeviceIoQueue</a>) methods. 
+If set, the I/O queue can accept new I/O requests from the I/O manager and requests that are forwarded by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff545920">WdfDeviceConfigureRequestDispatching</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff549958">WdfRequestForwardToIoQueue</a> (or <a href="https://msdn.microsoft.com/library/windows/hardware/ff549959">WdfRequestForwardToParentDeviceIoQueue</a>) methods. 
 
-If not set, the framework cancels requests from the I/O manager and <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceconfigurerequestdispatching.md">WdfDeviceConfigureRequestDispatching</a> and fails requests from <a href="..\wdfrequest\nf-wdfrequest-wdfrequestforwardtoioqueue.md">WdfRequestForwardToIoQueue</a> (or <a href="..\wdfrequest\nf-wdfrequest-wdfrequestforwardtoparentdeviceioqueue.md">WdfRequestForwardToParentDeviceIoQueue</a>) with STATUS_WDF_BUSY.
+If not set, the framework cancels requests from the I/O manager and <a href="https://msdn.microsoft.com/library/windows/hardware/ff545920">WdfDeviceConfigureRequestDispatching</a> and fails requests from <a href="https://msdn.microsoft.com/library/windows/hardware/ff549958">WdfRequestForwardToIoQueue</a> (or <a href="https://msdn.microsoft.com/library/windows/hardware/ff549959">WdfRequestForwardToParentDeviceIoQueue</a>) with STATUS_WDF_BUSY.
 
 
 ### -field WdfIoQueueDispatchRequests
@@ -105,7 +91,7 @@ If set, the framework has stopped delivering requests to the driver because the 
 
 
 
-The WDF_IO_QUEUE_STATE enumeration type is used as the return value for the <a href="..\wdfio\nf-wdfio-wdfioqueuegetstate.md">WdfIoQueueGetState</a> method.
+The WDF_IO_QUEUE_STATE enumeration type is used as the return value for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff548437">WdfIoQueueGetState</a> method.
 
 The following functions are defined in <i>wdfio.h</i>:
 
@@ -116,12 +102,11 @@ The following functions are defined in <i>wdfio.h</i>:
 
 ## -see-also
 
-<a href="..\wdfio\nf-wdfio-wdfioqueuegetstate.md">WdfIoQueueGetState</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548437">WdfIoQueueGetState</a>
  
 
  
-
 

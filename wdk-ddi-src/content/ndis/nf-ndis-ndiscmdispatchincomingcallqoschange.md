@@ -7,7 +7,7 @@ old-location: netvista\ndiscmdispatchincomingcallqoschange.htm
 old-project: netvista
 ms.assetid: eee2625e-6dc8-4f54-81e9-2d31d25f62d7
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: NdisCmDispatchIncomingCallQoSChange, NdisCmDispatchIncomingCallQoSChange function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_01f18e60-ebc6-4192-9544-a57b07a4575e.xml, ndis/NdisCmDispatchIncomingCallQoSChange, netvista.ndiscmdispatchincomingcallqoschange
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -54,17 +54,6 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
   on that client's active connection has been received over the network.
 
 
-## -syntax
-
-
-````
-VOID NdisCmDispatchIncomingCallQoSChange(
-  _In_ NDIS_HANDLE         NdisVcHandle,
-  _In_ PCO_CALL_PARAMETERS CallParameters
-);
-````
-
-
 ## -parameters
 
 
@@ -74,9 +63,9 @@ VOID NdisCmDispatchIncomingCallQoSChange(
 
 Specifies the handle to the VC for which the change in QoS is being requested. The call manager
      originally obtained this handle either when it called 
-     <a href="..\ndis\nf-ndis-ndiscocreatevc.md">NdisCoCreateVc</a> to set up this connection
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff561696">NdisCoCreateVc</a> to set up this connection
      for an incoming call or as an input parameter to its 
-     <a href="..\ndis\nc-ndis-protocol_co_create_vc.md">ProtocolCoCreateVc</a> function.
+     <a href="https://msdn.microsoft.com/b086dd24-74f5-474a-8684-09bf92ac731b">ProtocolCoCreateVc</a> function.
 
 
 ### -param CallParameters [in]
@@ -106,7 +95,7 @@ A stand-alone call manager calls
 
 When the CM itself receives a request for a QoS change, the call manager passes appropriately modified
     call parameters to 
-    <a href="..\ndis\nf-ndis-ndiscmactivatevc.md">NdisCmActivateVc</a>, so the underlying
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561649">NdisCmActivateVc</a>, so the underlying
     miniport driver also is notified of the proposed QoS change. Assuming the underlying miniport driver
     accepts the changed call parameters, the CM then calls 
     <b>NdisCmDispatchIncomingCallQoSChange</b>.
@@ -128,43 +117,42 @@ Only stand-alone call managers, which register themselves with NDIS as protocol 
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndismcmdispatchincomingcallqoschange.md">
+<a href="https://msdn.microsoft.com/243a1236-4b8a-4f00-9f14-3142fa81c362">MiniportCoActivateVc</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561627">NdisClCloseCall</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561636">NdisClModifyCallQoS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561649">NdisCmActivateVc</a>
+
+
+
+<a href="https://msdn.microsoft.com/e3da62c2-4940-4c55-8232-1780d92b7f1f">
    NdisMCmDispatchIncomingCallQoSChange</a>
 
 
 
-<a href="..\ndis\nc-ndis-protocol_cl_incoming_call_qos_change.md">
+<a href="https://msdn.microsoft.com/ca9953f4-35db-4acb-b0ea-887156b4f6ee">
    ProtocolClIncomingCallQosChange</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisclclosecall.md">NdisClCloseCall</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_co_receive_net_buffer_lists.md">
+<a href="https://msdn.microsoft.com/1755804c-d82f-465d-862f-8a2340516f8e">
    ProtocolCoReceiveNetBufferLists</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndiscmactivatevc.md">NdisCmActivateVc</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_co_activate_vc.md">MiniportCoActivateVc</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisclmodifycallqos.md">NdisClModifyCallQoS</a>
-
-
-
  
 
  
-
 

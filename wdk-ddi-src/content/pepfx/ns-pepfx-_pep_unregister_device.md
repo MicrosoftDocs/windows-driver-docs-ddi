@@ -7,7 +7,7 @@ old-location: kernel\pep_unregister_device.htm
 old-project: kernel
 ms.assetid: B6A0F80C-8AE2-4FFE-A3EE-F0260A8774D6
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: "*PPEP_UNREGISTER_DEVICE, PEP_UNREGISTER_DEVICE, PEP_UNREGISTER_DEVICE structure [Kernel-Mode Driver Architecture], PPEP_UNREGISTER_DEVICE, PPEP_UNREGISTER_DEVICE structure pointer [Kernel-Mode Driver Architecture], _PEP_UNREGISTER_DEVICE, kernel.pep_unregister_device, pepfx/PEP_UNREGISTER_DEVICE, pepfx/PPEP_UNREGISTER_DEVICE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,16 +52,6 @@ req.typenames: PEP_UNREGISTER_DEVICE, *PPEP_UNREGISTER_DEVICE
 The <b>PEP_UNREGISTER_DEVICE</b> structure identifies a device whose registration is being removed from the Windows <a href="https://msdn.microsoft.com/9F2D8ACD-44D5-46E0-9FC7-1B38B99450FF">power management framework</a> (PoFx).
 
 
-## -syntax
-
-
-````
-typedef struct _PEP_UNREGISTER_DEVICE {
-  PEPHANDLE DeviceHandle;
-} PEP_UNREGISTER_DEVICE, *PPEP_UNREGISTER_DEVICE;
-````
-
-
 ## -struct-fields
 
 
@@ -83,7 +73,6 @@ This structure is used by the <a href="https://docs.microsoft.com/en-us/windows-
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/using-peps-for-acpi-services">PEP_DPM_UNREGISTER_DEVICE</a>
 
 
 
@@ -91,8 +80,8 @@ This structure is used by the <a href="https://docs.microsoft.com/en-us/windows-
 
 
 
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/using-peps-for-acpi-services">PEP_DPM_UNREGISTER_DEVICE</a>
  
 
  
-
 

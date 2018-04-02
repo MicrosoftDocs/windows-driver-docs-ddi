@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: "<= DISPATCH_LEVEL (see Remarks section)"
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -51,19 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>SPB_TRANSFER_DIRECTION</b> enumeration describes the direction (read or write) of a single transfer in an <a href="https://msdn.microsoft.com/7415DB28-5E93-4F47-B169-7C652969D4C7">I/O transfer sequence</a>.
-
-
-## -syntax
-
-
-````
-typedef enum  { 
-  SpbTransferDirectionNone,
-  SpbTransferDirectionFromDevice,
-  SpbTransferDirectionToDevice,
-  SpbTransferDirectionMax
-} SPB_TRANSFER_DIRECTION;
-````
 
 
 ## -enum-fields
@@ -108,7 +95,18 @@ A lock (<a href="https://msdn.microsoft.com/library/windows/hardware/hh450858">I
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/5A4BC061-4703-4C46-BD5D-A891F3DA8842">EvtSpbControllerIoOther</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh450857">IOCTL_SPB_EXECUTE_SEQUENCE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450858">IOCTL_SPB_LOCK_CONTROLLER</a>
 
 
 
@@ -116,11 +114,11 @@ A lock (<a href="https://msdn.microsoft.com/library/windows/hardware/hh450858">I
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450922">SpbRequestGetParameters</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549327">IRP_MJ_READ</a>
 
 
 
-<a href="https://msdn.microsoft.com/5A4BC061-4703-4C46-BD5D-A891F3DA8842">EvtSpbControllerIoOther</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550819">IRP_MJ_WRITE</a>
 
 
 
@@ -132,20 +130,8 @@ A lock (<a href="https://msdn.microsoft.com/library/windows/hardware/hh450858">I
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450858">IOCTL_SPB_LOCK_CONTROLLER</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550819">IRP_MJ_WRITE</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549327">IRP_MJ_READ</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450922">SpbRequestGetParameters</a>
  
 
  
-
 

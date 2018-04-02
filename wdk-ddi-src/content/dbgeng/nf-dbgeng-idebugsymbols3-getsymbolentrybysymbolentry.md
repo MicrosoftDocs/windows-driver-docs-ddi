@@ -7,7 +7,7 @@ old-location: debugger\idebugsymbols3_getsymbolentrybysymbolentry.htm
 old-project: debugger
 ms.assetid: 39AD3C10-C6E8-463F-BDDE-5941CB4B2830
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: GetSymbolEntryBySymbolEntry method [Windows Debugging], GetSymbolEntryBySymbolEntry method [Windows Debugging], IDebugSymbols3 interface, GetSymbolEntryBySymbolEntry,IDebugSymbols3.GetSymbolEntryBySymbolEntry, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetSymbolEntryBySymbolEntry method, IDebugSymbols3::GetSymbolEntryBySymbolEntry, dbgeng/IDebugSymbols3::GetSymbolEntryBySymbolEntry, debugger.idebugsymbols3_getsymbolentrybysymbolentry
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,18 +53,6 @@ Allows navigation within the
     symbol entry hierarchy.
 
 
-## -syntax
-
-
-````
-HRESULT GetSymbolEntryBySymbolEntry(
-  [in]  PDEBUG_MODULE_AND_ID FromId,
-  [in]  ULONG                Flags,
-  [out] PDEBUG_MODULE_AND_ID ToId
-);
-````
-
-
 ## -parameters
 
 
@@ -72,7 +60,7 @@ HRESULT GetSymbolEntryBySymbolEntry(
 
 ### -param FromId [in]
 
-A pointer to a <a href="..\dbgeng\ns-dbgeng-_debug_module_and_id.md">DEBUG_MODULE_AND_ID</a> structure as the input ID.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541511">DEBUG_MODULE_AND_ID</a> structure as the input ID.
 
 
 ### -param Flags [in]
@@ -82,7 +70,7 @@ A bit-set that contains options that affect the behavior of this method.
 
 ### -param ToId [out]
 
-A pointer to a <a href="..\dbgeng\ns-dbgeng-_debug_module_and_id.md">DEBUG_MODULE_AND_ID</a> structure as the output ID.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541511">DEBUG_MODULE_AND_ID</a> structure as the output ID.
 
 
 ## -returns
@@ -96,16 +84,15 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
 
 
-<a href="..\dbgeng\ns-dbgeng-_debug_module_and_id.md">DEBUG_MODULE_AND_ID</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541511">DEBUG_MODULE_AND_ID</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550870">IDebugSymbols3</a>
  
 
  
-
 

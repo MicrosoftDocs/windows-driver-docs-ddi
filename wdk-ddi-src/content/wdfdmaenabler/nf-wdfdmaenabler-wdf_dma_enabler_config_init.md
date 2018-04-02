@@ -52,19 +52,7 @@ req.product: Windows 10 or later.
 
 <p class="CCE_Message">[Applies to KMDF only]
 
-The <b>WDF_DMA_ENABLER_CONFIG_INIT</b> function initializes a driver's <a href="..\wdfdmaenabler\ns-wdfdmaenabler-_wdf_dma_enabler_config.md">WDF_DMA_ENABLER_CONFIG</a> structure.
-
-
-## -syntax
-
-
-````
-VOID WDF_DMA_ENABLER_CONFIG_INIT(
-  _Out_ PWDF_DMA_ENABLER_CONFIG Config,
-  _In_  WDF_DMA_PROFILE         Profile,
-  _In_  size_t                  MaximumLength
-);
-````
+The <b>WDF_DMA_ENABLER_CONFIG_INIT</b> function initializes a driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff551290">WDF_DMA_ENABLER_CONFIG</a> structure.
 
 
 ## -parameters
@@ -74,17 +62,17 @@ VOID WDF_DMA_ENABLER_CONFIG_INIT(
 
 ### -param Config [out]
 
-A pointer to a driver-allocated <a href="..\wdfdmaenabler\ns-wdfdmaenabler-_wdf_dma_enabler_config.md">WDF_DMA_ENABLER_CONFIG</a> structure.
+A pointer to a driver-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/ff551290">WDF_DMA_ENABLER_CONFIG</a> structure.
 
 
 ### -param Profile [in]
 
-A value for the <b>Profile</b> member of the <a href="..\wdfdmaenabler\ns-wdfdmaenabler-_wdf_dma_enabler_config.md">WDF_DMA_ENABLER_CONFIG</a> structure.
+A value for the <b>Profile</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551290">WDF_DMA_ENABLER_CONFIG</a> structure.
 
 
 ### -param MaximumLength [in]
 
-A value for the <b>MaximumLength</b> member of the <a href="..\wdfdmaenabler\ns-wdfdmaenabler-_wdf_dma_enabler_config.md">WDF_DMA_ENABLER_CONFIG</a> structure.
+A value for the <b>MaximumLength</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551290">WDF_DMA_ENABLER_CONFIG</a> structure.
 
 
 ## -returns
@@ -100,12 +88,12 @@ None
 
 
 
-Drivers must call the <b>WDF_DMA_ENABLER_CONFIG_INIT</b> function before calling <a href="..\wdfdmaenabler\nf-wdfdmaenabler-wdfdmaenablercreate.md">WdfDmaEnablerCreate</a>. 
+Drivers must call the <b>WDF_DMA_ENABLER_CONFIG_INIT</b> function before calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff546983">WdfDmaEnablerCreate</a>. 
 
 
 #### Examples
 
-For a code example that uses <b>WDF_DMA_ENABLER_CONFIG_INIT</b>, see <a href="..\wdfdmaenabler\nf-wdfdmaenabler-wdfdmaenablercreate.md">WdfDmaEnablerCreate</a>.
+For a code example that uses <b>WDF_DMA_ENABLER_CONFIG_INIT</b>, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff546983">WdfDmaEnablerCreate</a>.
 
 <div class="code"></div>
 
@@ -113,16 +101,15 @@ For a code example that uses <b>WDF_DMA_ENABLER_CONFIG_INIT</b>, see <a href="..
 
 ## -see-also
 
-<a href="..\wdfdmaenabler\ns-wdfdmaenabler-_wdf_dma_enabler_config.md">WDF_DMA_ENABLER_CONFIG</a>
 
 
 
-<a href="..\wdfdmaenabler\nf-wdfdmaenabler-wdfdmaenablercreate.md">WdfDmaEnablerCreate</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551290">WDF_DMA_ENABLER_CONFIG</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546983">WdfDmaEnablerCreate</a>
  
 
  
-
 

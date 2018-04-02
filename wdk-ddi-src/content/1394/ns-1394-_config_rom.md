@@ -52,20 +52,6 @@ req.typenames: CONFIG_ROM, *PCONFIG_ROM
 The CONFIG_ROM structure is used to contain the first 24 bytes of an IEEE 1394 device's configuration ROM.
 
 
-## -syntax
-
-
-````
-typedef struct _CONFIG_ROM {
-  ULONG CR_Info;
-  ULONG CR_Signiture;
-  ULONG CR_BusInfoBlockCaps;
-  ULONG CR_Node_UniqueID[2];
-  ULONG CR_Root_Info;
-} CONFIG_ROM, *PCONFIG_ROM;
-````
-
-
 ## -struct-fields
 
 

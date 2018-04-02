@@ -7,7 +7,7 @@ old-location: kernel\rtlstringcchcopynex.htm
 old-project: kernel
 ms.assetid: c53672b7-fbe7-45f7-b3ff-30cfeefa7d52
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: RtlStringCchCopyNEx, RtlStringCchCopyNExA, RtlStringCchCopyNExW, RtlStringCchCopyNExW function [Kernel-Mode Driver Architecture], STRSAFE_FILL_BEHIND_NULL, STRSAFE_FILL_ON_FAILURE, STRSAFE_IGNORE_NULLS, STRSAFE_NO_TRUNCATION, STRSAFE_NULL_ON_FAILURE, kernel.rtlstringcchcopynex, ntstrsafe/RtlStringCchCopyNExA, ntstrsafe/RtlStringCchCopyNExW, safestrings_60ae1ee7-e0ba-407d-8946-a2928d2b9b32.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,22 +53,6 @@ req.typenames: SYSTEM_POWER_STATE_CONTEXT, *PSYSTEM_POWER_STATE_CONTEXT
 
 
 The <b>RtlStringCchCopyNExW</b> and <b>RtlStringCchCopyNExA</b> functions copy a character-counted string to a buffer while limiting the size of the copied string.
-
-
-## -syntax
-
-
-````
-NTSTATUS RtlStringCchCopyNExW(
-  _Out_opt_ LPTSTR  pszDest,
-  _In_      size_t  cchDest ,
-  _In_opt_  LPCTSTR pszSrc,
-  _In_      size_t  cchSrc,
-  _Out_opt_ LPTSTR  *ppszDestEnd,
-  _Out_opt_ size_t  *pcchRemaining,
-  _In_      DWORD   dwFlags
-);
-````
 
 
 ## -parameters
@@ -244,7 +228,7 @@ The functions copy a given number of characters from a source string. The size, 
 
 Note that these functions behave differently from <b>strncpy</b> in one respect. If <i>cchSrc</i> is larger than the number of characters in <i>pszSrc</i>, <b>RtlStringCchCopyNExW</b> and <b>RtlStringCchCopyNExA</b>—unlike <b>strncpy</b>—do not continue to pad <i>pszDest</i> with null characters until <i>cchSrc</i> characters have been copied.
 
-<b>RtlStringCchCopyNExW</b> and <b>RtlStringCchCopyNExA</b> add to the functionality of <a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchcopynw.md">RtlStringCchCopyN</a> by returning a pointer to the end of the destination string, as well as the number of characters left unused in that string. Flags can be passed to the function for additional control.
+<b>RtlStringCchCopyNExW</b> and <b>RtlStringCchCopyNExA</b> add to the functionality of <a href="https://msdn.microsoft.com/library/windows/hardware/ff562846">RtlStringCchCopyN</a> by returning a pointer to the end of the destination string, as well as the number of characters left unused in that string. Flags can be passed to the function for additional control.
 
 Use <b>RtlStringCchCopyNExW</b> to handle Unicode strings and <b>RtlStringCchCopyNExA</b> to handle ANSI strings. The form you  use depends on your data, as shown in the following table.
 
@@ -296,16 +280,15 @@ For more information about the safe string functions, see <a href="https://msdn.
 
 ## -see-also
 
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchcopynw.md">RtlStringCchCopyN</a>
 
 
 
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcbcopynexw.md">RtlStringCbCopyNEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562813">RtlStringCbCopyNEx</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562846">RtlStringCchCopyN</a>
  
 
  
-
 

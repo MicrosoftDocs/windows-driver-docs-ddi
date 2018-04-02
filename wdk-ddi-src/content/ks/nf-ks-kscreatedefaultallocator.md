@@ -53,16 +53,6 @@ req.typenames:
 Given a validated IRP_MJ_CREATE request, the <b>KsCreateDefaultAllocator</b> function creates a default allocator that uses the specified memory pool and associates the IoGetCurrentIrpStackLocation(Irp)-&gt;FileObject with the allocator using an internal dispatch table (KSDISPATCH_TABLE).
 
 
-## -syntax
-
-
-````
-NTSTATUS KsCreateDefaultAllocator(
-  _In_ PIRP Irp
-);
-````
-
-
 ## -parameters
 
 

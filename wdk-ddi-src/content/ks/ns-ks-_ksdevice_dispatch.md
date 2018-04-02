@@ -52,29 +52,6 @@ req.typenames: KSDEVICE_DISPATCH, *PKSDEVICE_DISPATCH
 The KSDEVICE_DISPATCH structure describes the callbacks that a client can provide to receive notification of device creation and PnP events.
 
 
-## -syntax
-
-
-````
-typedef struct _KSDEVICE_DISPATCH {
-  PFNKSDEVICECREATE            Add;
-  PFNKSDEVICEPNPSTART          Start;
-  PFNKSDEVICE                  PostStart;
-  PFNKSDEVICEIRP               QueryStop;
-  PFNKSDEVICEIRPVOID           CancelStop;
-  PFNKSDEVICEIRPVOID           Stop;
-  PFNKSDEVICEIRP               QueryRemove;
-  PFNKSDEVICEIRPVOID           CancelRemove;
-  PFNKSDEVICEIRPVOID           Remove;
-  PFNKSDEVICEQUERYCAPABILITIES QueryCapabilities;
-  PFNKSDEVICEIRPVOID           SurpriseRemoval;
-  PFNKSDEVICEQUERYPOWER        QueryPower;
-  PFNKSDEVICESETPOWER          SetPower;
-  PFNKSDEVICEIRP               QueryInterface;
-} KSDEVICE_DISPATCH, *PKSDEVICE_DISPATCH;
-````
-
-
 ## -struct-fields
 
 
@@ -82,17 +59,17 @@ typedef struct _KSDEVICE_DISPATCH {
 
 ### -field Add
 
-Optional. Can be <b>NULL</b>. A pointer to a minidriver-supplied <a href="..\ks\nc-ks-pfnksdevicecreate.md">AVStrMiniDeviceAdd</a> callback routine.
+Optional. Can be <b>NULL</b>. A pointer to a minidriver-supplied <a href="https://msdn.microsoft.com/library/windows/hardware/ff554276">AVStrMiniDeviceAdd</a> callback routine.
 
 
 ### -field Start
 
-Optional. Can be <b>NULL</b>. A pointer to a minidriver-supplied <a href="..\ks\nc-ks-pfnksdevicepnpstart.md">AVStrMiniDeviceStart</a> callback routine.
+Optional. Can be <b>NULL</b>. A pointer to a minidriver-supplied <a href="https://msdn.microsoft.com/library/windows/hardware/ff556297">AVStrMiniDeviceStart</a> callback routine.
 
 
 ### -field PostStart
 
-Optional. Can be <b>NULL</b>. A pointer to a minidriver-supplied <a href="..\ks\nc-ks-pfnksdevice.md">AVStrMiniDevicePostStart</a> callback routine.
+Optional. Can be <b>NULL</b>. A pointer to a minidriver-supplied <a href="https://msdn.microsoft.com/library/windows/hardware/ff554284">AVStrMiniDevicePostStart</a> callback routine.
 
 
 ### -field QueryStop
@@ -102,7 +79,7 @@ Optional. Can be <b>NULL</b>. A pointer to a minidriver-supplied <a href="https:
 
 ### -field CancelStop
 
-Optional. Can be <b>NULL</b>. A pointer to a minidriver-supplied <a href="..\ks\nc-ks-pfnksdeviceirpvoid.md">AVStrMiniDeviceCancelStop</a> callback routine.
+Optional. Can be <b>NULL</b>. A pointer to a minidriver-supplied <a href="https://msdn.microsoft.com/library/windows/hardware/ff554281">AVStrMiniDeviceCancelStop</a> callback routine.
 
 
 ### -field Stop
@@ -112,7 +89,7 @@ Optional. Can be <b>NULL</b>. A pointer to a minidriver-supplied <a href="https:
 
 ### -field QueryRemove
 
-Optional. Can be <b>NULL</b>. A pointer to a minidriver-supplied <a href="..\ks\nc-ks-pfnksdeviceirp.md">AVStrMiniDeviceQueryRemove</a> callback routine.
+Optional. Can be <b>NULL</b>. A pointer to a minidriver-supplied <a href="https://msdn.microsoft.com/library/windows/hardware/ff554297">AVStrMiniDeviceQueryRemove</a> callback routine.
 
 
 ### -field CancelRemove
@@ -127,7 +104,7 @@ Optional. Can be <b>NULL</b>. A pointer to a minidriver-supplied <a href="https:
 
 ### -field QueryCapabilities
 
-Optional. Can be <b>NULL</b>. A pointer to a minidriver-supplied <a href="..\ks\nc-ks-pfnksdevicequerycapabilities.md">AVStrMiniDeviceQueryCapabilities</a> callback routine.
+Optional. Can be <b>NULL</b>. A pointer to a minidriver-supplied <a href="https://msdn.microsoft.com/library/windows/hardware/ff554285">AVStrMiniDeviceQueryCapabilities</a> callback routine.
 
 
 ### -field SurpriseRemoval
@@ -137,12 +114,12 @@ Optional. Can be <b>NULL</b>. A pointer to a minidriver-supplied <a href="https:
 
 ### -field QueryPower
 
-Optional. can be <b>NULL</b>. A pointer to a minidriver-supplied <a href="..\ks\nc-ks-pfnksdevicequerypower.md">AVStrMiniDeviceQueryPower</a> callback routine.
+Optional. can be <b>NULL</b>. A pointer to a minidriver-supplied <a href="https://msdn.microsoft.com/library/windows/hardware/ff554293">AVStrMiniDeviceQueryPower</a> callback routine.
 
 
 ### -field SetPower
 
-Optional. Can be <b>NULL</b>. A pointer to a minidriver-supplied <a href="..\ks\nc-ks-pfnksdevicesetpower.md">AVStrMiniDeviceSetPower</a> callback routine.
+Optional. Can be <b>NULL</b>. A pointer to a minidriver-supplied <a href="https://msdn.microsoft.com/library/windows/hardware/ff554309">AVStrMiniDeviceSetPower</a> callback routine.
 
 
 ### -field QueryInterface
@@ -154,19 +131,18 @@ Optional. Can be <b>NULL</b>. A pointer to a minidriver-supplied <a href="https:
 
 
 
-In describing a device with the <a href="..\ks\ns-ks-_ksdevice_descriptor.md">KSDEVICE_DESCRIPTOR</a> structure, clients include a pointer to a dispatch table defined by this structure. Any member of this structure may be <b>NULL</b> indicating that the minidriver receives no notification for that particular message.
+In describing a device with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff561691">KSDEVICE_DESCRIPTOR</a> structure, clients include a pointer to a dispatch table defined by this structure. Any member of this structure may be <b>NULL</b> indicating that the minidriver receives no notification for that particular message.
 
 
 
 
 ## -see-also
 
-<a href="..\ks\ns-ks-_ksdevice_descriptor.md">KSDEVICE_DESCRIPTOR</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561691">KSDEVICE_DESCRIPTOR</a>
  
 
  
-
 

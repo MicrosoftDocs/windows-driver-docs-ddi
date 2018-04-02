@@ -7,7 +7,7 @@ old-location: display\d3dddiarg_createoverlay.htm
 old-project: display
 ms.assetid: 74252431-5250-408a-91cc-cc529396f720
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDIARG_CREATEOVERLAY, D3DDDIARG_CREATEOVERLAY structure [Display Devices], UMDisplayDriver_param_Structs_3261a00d-4b26-4c64-a5e0-abd453aee84c.xml, _D3DDDIARG_CREATEOVERLAY, d3dumddi/D3DDDIARG_CREATEOVERLAY, display.d3dddiarg_createoverlay
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,18 +52,6 @@ req.typenames: D3DDDIARG_CREATEOVERLAY
 The D3DDDIARG_CREATEOVERLAY structure describes an overlay to create. 
 
 
-## -syntax
-
-
-````
-typedef struct _D3DDDIARG_CREATEOVERLAY {
-  D3DDDI_VIDEO_PRESENT_SOURCE_ID VidPnSourceId;
-  D3DDDI_OVERLAYINFO             OverlayInfo;
-  HANDLE                         hOverlay;
-} D3DDDIARG_CREATEOVERLAY;
-````
-
-
 ## -struct-fields
 
 
@@ -76,7 +64,7 @@ typedef struct _D3DDDIARG_CREATEOVERLAY {
 
 ### -field OverlayInfo
 
-[in] A pointer to the <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_overlayinfo.md">D3DDDI_OVERLAYINFO</a> structure that describes information about the overlay. 
+[in] A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff544621">D3DDDI_OVERLAYINFO</a> structure that describes information about the overlay. 
 
 
 ### -field hOverlay
@@ -86,16 +74,15 @@ typedef struct _D3DDDIARG_CREATEOVERLAY {
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_overlayinfo.md">D3DDDI_OVERLAYINFO</a>
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createoverlay.md">CreateOverlay</a>
+<a href="https://msdn.microsoft.com/761377ff-95a6-426b-8372-3f347870f9c4">CreateOverlay</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544621">D3DDDI_OVERLAYINFO</a>
  
 
  
-
 

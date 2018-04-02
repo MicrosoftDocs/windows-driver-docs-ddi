@@ -56,16 +56,6 @@ Gets a more detailed activation reason than what can be retrieved from  <a href=
 This property is read-only.
 
 
-## -syntax
-
-
-````
-HRESULT get_DetailedReasonId(
-  [out, retval] GUID *pDetailedReasonId
-);
-````
-
-
 ## -parameters
 
 
@@ -80,16 +70,15 @@ The value of <b>DetailedReasonId</b> is always {5D5A1704-DFD1-4181-8EEE-815C86ED
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprinterextensioneventargs.md">IPrinterExtensionEventArgs</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh973207">IPrinterExtensionEventArgs</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh973210">ReasonId</a>
-
-
-
  
 
  
-
 

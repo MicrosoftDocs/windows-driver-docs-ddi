@@ -7,7 +7,7 @@ old-location: storage\storportwriteportbufferuchar.htm
 old-project: storage
 ms.assetid: 44b57aa2-37ef-4491-8a88-9e7f880f5c1b
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: StorPortWritePortBufferUchar, StorPortWritePortBufferUchar routine [Storage Devices], storage.storportwriteportbufferuchar, storport/StorPortWritePortBufferUchar, storprt_5bdd38fc-5cb0-483e-a0aa-19179c7ad833.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,19 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>StorPortWritePortBufferUchar</b> routine writes a value to a specified register address. 
-
-
-## -syntax
-
-
-````
-STORPORT_API VOID StorPortWritePortBufferUchar(
-  _In_ PVOID  HwDeviceExtension,
-  _In_ PUCHAR Port,
-  _In_ PUCHAR Buffer,
-  _In_ ULONG  Count
-);
-````
 
 
 ## -parameters
@@ -120,23 +107,22 @@ Contains the address of the port to be written to.
 
 
 
-For more information, see <a href="..\storport\nf-storport-scsiportwriteportbufferuchar.md">ScsiPortWritePortBufferUchar</a>. For a nonbuffered equivalent of this routine, see <a href="..\storport\nf-storport-storportwriteportuchar.md">StorPortWritePortUchar</a>. 
+For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff564817">ScsiPortWritePortBufferUchar</a>. For a nonbuffered equivalent of this routine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff567522">StorPortWritePortUchar</a>. 
 
 
 
 
 ## -see-also
 
-<a href="..\storport\nf-storport-scsiportwriteportbufferuchar.md">ScsiPortWritePortBufferUchar</a>
 
 
 
-<a href="..\storport\nf-storport-storportwriteportuchar.md">StorPortWritePortUchar</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564817">ScsiPortWritePortBufferUchar</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567522">StorPortWritePortUchar</a>
  
 
  
-
 

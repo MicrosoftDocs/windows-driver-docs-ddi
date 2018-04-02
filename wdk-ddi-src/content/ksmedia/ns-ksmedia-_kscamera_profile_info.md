@@ -52,19 +52,6 @@ req.typenames: KSCAMERA_PROFILE_INFO, *PKSCAMERA_PROFILE_INFO
 The <b>KSCAMERA_PROFILE_INFO</b> structure is used to uniquely identify a given profile.
 
 
-## -syntax
-
-
-````
-typedef struct _KSCAMERA_PROFILE_INFO {
-  GUID                      ProfileId;
-  UINT32                    Index;
-  UINT32                    PinCount;
-  PKSCAMERA_PROFILE_PININFO Pins;
-} KSCAMERA_PROFILE_INFO, *PKSCAMERA_PROFILE_INFO;
-````
-
-
 ## -struct-fields
 
 
@@ -84,7 +71,7 @@ Each profile within a given <b>ProfileId</b> group must have a unique <b>Index</
 
 ### -field PinCount
 
-The number of <a href="..\ksmedia\ns-ksmedia-_kscamera_profile_pininfo.md">KSCAMERA_PROFILE_PININFO</a> structures pointed to by <b>Pins</b>.  This value must be greater than 0.
+The number of <a href="https://msdn.microsoft.com/library/windows/hardware/dn925220">KSCAMERA_PROFILE_PININFO</a> structures pointed to by <b>Pins</b>.  This value must be greater than 0.
 
 
 ### -field Pins

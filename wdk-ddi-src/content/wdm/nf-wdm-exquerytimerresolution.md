@@ -7,7 +7,7 @@ old-location: kernel\exquerytimerresolution.htm
 old-project: kernel
 ms.assetid: 2648AD10-B2D7-4F24-A508-239DA6AF551D
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: ExQueryTimerResolution, ExQueryTimerResolution routine [Kernel-Mode Driver Architecture], kernel.exquerytimerresolution, wdm/ExQueryTimerResolution
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -54,18 +54,6 @@ req.product: Windows 10 or later.
 The <b>ExQueryTimerResolution</b> routine reports the range of timer resolutions that are supported by the system clock.
 
 
-## -syntax
-
-
-````
-VOID ExQueryTimerResolution(
-  _Out_ PULONG MaximumTime,
-  _Out_ PULONG MinimumTime,
-  _Out_ PULONG CurrentTime
-);
-````
-
-
 ## -parameters
 
 
@@ -99,25 +87,24 @@ None.
 
 
 
-If your driver calls the <a href="..\wdm\nf-wdm-exsettimerresolution.md">ExSetTimerResolution</a> routine to change the time interval between successive system clock interrupts, the driver can first call <b>ExQueryTimerResolution</b> to determine the range of intervals supported by the system clock.
+If your driver calls the <a href="https://msdn.microsoft.com/library/windows/hardware/ff545614">ExSetTimerResolution</a> routine to change the time interval between successive system clock interrupts, the driver can first call <b>ExQueryTimerResolution</b> to determine the range of intervals supported by the system clock.
 
-When your driver calls a routine such as <a href="..\wdm\nf-wdm-kesettimerex.md">KeSetTimerEx</a> to set a timer, the accuracy of the timer depends on the resolution of the system clock. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/jj602805">Timer Accuracy</a>.
+When your driver calls a routine such as <a href="https://msdn.microsoft.com/library/windows/hardware/ff553292">KeSetTimerEx</a> to set a timer, the accuracy of the timer depends on the resolution of the system clock. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/jj602805">Timer Accuracy</a>.
 
 
 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-exsettimerresolution.md">ExSetTimerResolution</a>
 
 
 
-<a href="..\wdm\nf-wdm-kesettimerex.md">KeSetTimerEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545614">ExSetTimerResolution</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553292">KeSetTimerEx</a>
  
 
  
-
 

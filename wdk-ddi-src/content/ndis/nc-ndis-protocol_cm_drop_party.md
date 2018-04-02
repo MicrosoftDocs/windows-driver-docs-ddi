@@ -7,7 +7,7 @@ old-location: netvista\protocolcmdropparty.htm
 old-project: netvista
 ms.assetid: be0fce3e-7308-42fa-b63a-4d5cfec7ea6c
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: PROTOCOL_CM_DROP_PARTY, ProtocolCmDropParty, ProtocolCmDropParty callback function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_cda3b3ab-baf4-43a7-b560-7a717687508e.xml, ndis/ProtocolCmDropParty, netvista.protocolcmdropparty
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -56,21 +56,6 @@ The
 <div class="alert"><b>Note</b>  You must declare the function by using the <b>PROTOCOL_CM_DROP_PARTY</b> type.
    For more information, see the following Examples section.</div><div> </div>
 
-## -prototype
-
-
-````
-PROTOCOL_CM_DROP_PARTY ProtocolCmDropParty;
-
-NDIS_STATUS ProtocolCmDropParty(
-  _In_     NDIS_HANDLE CallMgrPartyContext,
-  _In_opt_ PVOID       CloseData,
-  _In_opt_ UINT        Size
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -80,7 +65,7 @@ NDIS_STATUS ProtocolCmDropParty(
 
 Specifies the handle to a call manager-allocated context area in which the call manager maintains
      its per-party state. This handle was provided to NDIS in the call managers 
-     <a href="..\ndis\nc-ndis-protocol_cm_add_party.md">ProtocolCmAddParty</a> function.
+     <a href="https://msdn.microsoft.com/06aa5ff6-974c-43dd-8395-bc1a1a8421d5">ProtocolCmAddParty</a> function.
 
 
 ### -param CloseData [in, optional]
@@ -129,7 +114,7 @@ Indicates that the call manager has successfully dropped the party, sent any clo
 <td width="60%">
 Indicates that the call manager will complete the request to drop the party asynchronously. The
        call manager must call 
-       <a href="..\ndis\nf-ndis-ndiscmdroppartycomplete.md">NdisCmDropPartyComplete</a> when
+       <a href="https://msdn.microsoft.com/library/windows/hardware/ff561674">NdisCmDropPartyComplete</a> when
        all processing has been finished to notify NDIS and the requesting actor that the party has been
        dropped.
 
@@ -162,7 +147,7 @@ Indicates that
     necessary for its media, to drop a party from an existing multipoint call. If the call manager is
     required to communicated with network control agents (such as, a networking switch) it should use a
     virtual connection to the network control agents that it established in its 
-    <a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">
+    <a href="https://msdn.microsoft.com/1958722e-012e-4110-a82c-751744bcf9b5">
     ProtocolBindAdapterEx</a> function.
 
 If 
@@ -219,16 +204,15 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndiscmdroppartycomplete.md">NdisCmDropPartyComplete</a>
 
 
 
-<a href="..\ndis\nc-ndis-protocol_cm_add_party.md">ProtocolCmAddParty</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561674">NdisCmDropPartyComplete</a>
 
 
 
+<a href="https://msdn.microsoft.com/06aa5ff6-974c-43dd-8395-bc1a1a8421d5">ProtocolCmAddParty</a>
  
 
  
-
 

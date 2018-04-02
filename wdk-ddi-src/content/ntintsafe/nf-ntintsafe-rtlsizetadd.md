@@ -7,7 +7,7 @@ old-location: kernel\rtlsizetadd.htm
 old-project: kernel
 ms.assetid: A3A2BD4D-F95D-4427-BE63-80A6E9AC9293
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: RtlSizeTAdd, RtlSizeTAdd function [Kernel-Mode Driver Architecture], kernel.rtlsizetadd, ntintsafe/RtlSizeTAdd
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,18 +50,6 @@ req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
 
 
 Adds two values of type <b>SIZE_T</b>.
-
-
-## -syntax
-
-
-````
-NTSTATUS RtlSizeTAdd(
-  _In_  SIZE_T Augend,
-  _In_  SIZE_T Addend,
-  _Out_ SIZE_T *pResult
-);
-````
 
 
 ## -parameters

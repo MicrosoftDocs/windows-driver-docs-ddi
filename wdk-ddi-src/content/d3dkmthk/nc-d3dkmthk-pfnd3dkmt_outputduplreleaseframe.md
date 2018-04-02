@@ -7,7 +7,7 @@ old-location: display\d3dkmtoutputduplreleaseframe.htm
 old-project: display
 ms.assetid: 07bbc201-0320-4f26-be0a-27c06763813f
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMTOutputDuplReleaseFrame, D3DKMTOutputDuplReleaseFrame callback function [Display Devices], PFND3DKMT_OUTPUTDUPLRELEASEFRAME, d3dkmthk/D3DKMTOutputDuplReleaseFrame, display.d3dkmtoutputduplreleaseframe
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,16 +52,6 @@ req.typenames: DXGK_TARGETMODE_DETAIL_TIMING
 Indicates that the driver has finished processing the duplicated desktop image.
 
 
-## -prototype
-
-
-````
-EXTERN_C _Check_return_ NTSTATUS APIENTRY D3DKMTOutputDuplReleaseFrame(
-  _Inout_ D3DKMT_OUTPUTDUPL_RELEASE_FRAME *pData
-);
-````
-
-
 ## -parameters
 
 
@@ -78,7 +68,7 @@ EXTERN_C _Check_return_ NTSTATUS APIENTRY D3DKMTOutputDuplReleaseFrame(
 
 #### - pData [in, out]
 
-A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_outputdupl_release_frame.md">D3DKMT_OUTPUTDUPL_RELEASE_FRAME</a> structure that defines the duplicated desktop image that is to be released.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh406533">D3DKMT_OUTPUTDUPL_RELEASE_FRAME</a> structure that defines the duplicated desktop image that is to be released.
 
 
 ## -returns
@@ -136,12 +126,11 @@ This function might also return other NTSTATUS values.
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_outputdupl_release_frame.md">D3DKMT_OUTPUTDUPL_RELEASE_FRAME</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406533">D3DKMT_OUTPUTDUPL_RELEASE_FRAME</a>
  
 
  
-
 

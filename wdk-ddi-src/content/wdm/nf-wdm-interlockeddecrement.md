@@ -7,7 +7,7 @@ old-location: kernel\interlockeddecrement.htm
 old-project: kernel
 ms.assetid: 06964a2c-f666-44e8-a747-41791f61c67c
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: InterlockedDecrement, InterlockedDecrement routine [Kernel-Mode Driver Architecture], k102_cc85e517-f056-413e-a095-671867632613.xml, kernel.interlockeddecrement, wdm/InterlockedDecrement
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,16 +58,6 @@ req.product: Windows 10 or later.
 The <b>InterlockedDecrement</b> routine decrements a caller-supplied variable of type LONG as an atomic operation. 
 
 
-## -syntax
-
-
-````
-LONG InterlockedDecrement(
-  _Inout_ LONG volatile *Addend
-);
-````
-
-
 ## -parameters
 
 
@@ -104,24 +94,23 @@ Interlocked operations cannot be used on non-cached memory.
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-interlockedexchange.md">InterlockedExchange</a>
 
 
 
-<a href="..\wdm\nf-wdm-interlockedincrement.md">InterlockedIncrement</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545335">ExInterlockedAddLargeInteger</a>
 
 
 
-<a href="..\wdm\nf-wdm-exinterlockedaddlargeinteger.md">ExInterlockedAddLargeInteger</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545343">ExInterlockedAddUlong</a>
 
 
 
-<a href="..\wdm\nf-wdm-exinterlockedaddulong.md">ExInterlockedAddUlong</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547892">InterlockedExchange</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547910">InterlockedIncrement</a>
  
 
  
-
 

@@ -56,16 +56,6 @@ req.product: Windows 10 or later.
 The <b>WdfFileObjectGetFlags</b> method returns the flags that a specified framework file object contains.
 
 
-## -syntax
-
-
-````
-ULONG WdfFileObjectGetFlags(
-  _In_ WDFFILEOBJECT FileObject
-);
-````
-
-
 ## -parameters
 
 

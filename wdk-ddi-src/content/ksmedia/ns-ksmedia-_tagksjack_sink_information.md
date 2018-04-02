@@ -7,7 +7,7 @@ old-location: audio\ksjack_sink_information.htm
 old-project: audio
 ms.assetid: ec832068-9b5d-40ce-bafc-31642539e2d9
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/19/2018
 ms.keywords: "*PKSJACK_SINK_INFORMATION, KSJACK_SINK_INFORMATION, KSJACK_SINK_INFORMATION structure [Audio Devices], PKSJACK_SINK_INFORMATION, PKSJACK_SINK_INFORMATION structure pointer [Audio Devices], _tagKSJACK_SINK_INFORMATION, aud-prop_e9bbfa8a-d002-400c-a35d-3da0a8026cd6.xml, audio.ksjack_sink_information, ksmedia/KSJACK_SINK_INFORMATION, ksmedia/PKSJACK_SINK_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,24 +50,6 @@ req.typenames: KSJACK_SINK_INFORMATION, *PKSJACK_SINK_INFORMATION
 
 
 The <code>KSJACK_SINK_INFORMATION</code> structure specifies information about a display-related digital audio device, such as an HDMI device or a display port.
-
-
-## -syntax
-
-
-````
-typedef struct _tagKSJACK_SINK_INFORMATION {
-  KSJACK_SINK_CONNECTIONTYPE ConnType;
-  WORD                       ManufacturerId;
-  WORD                       ProductId;
-  WORD                       AudioLatency;
-  BOOL                       HDCPCapable;
-  BOOL                       AICapable;
-  UCHAR                      SinkDescriptionLength;
-  WCHAR                      SinkDescription[MAX_SINK_DESCRIPTION_NAME_LENGTH];
-  LUID                       Reserved;
-} KSJACK_SINK_INFORMATION, *PKSJACK_SINK_INFORMATION;
-````
 
 
 ## -struct-fields
@@ -117,24 +99,16 @@ Specifies a string that contains the sink name, which must be NULL-terminated. T
 
 ### -field PortId
 
- 
-
-
-
-
-#### - Reserved
-
 Reserved.
 
 
 ## -see-also
 
-<a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557080">LUID</a>
  
 
  
-
 

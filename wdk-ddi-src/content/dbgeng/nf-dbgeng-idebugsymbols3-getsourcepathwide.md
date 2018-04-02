@@ -7,7 +7,7 @@ old-location: debugger\getsourcepathwide.htm
 old-project: debugger
 ms.assetid: 6c9c8270-78c4-4bc2-a0e4-5c5e245326ad
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: GetSourcePathWide method [Windows Debugging], GetSourcePathWide method [Windows Debugging], IDebugSymbols3 interface, GetSourcePathWide,IDebugSymbols3.GetSourcePathWide, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetSourcePathWide method, IDebugSymbols3::GetSourcePathWide, dbgeng/IDebugSymbols3::GetSourcePathWide, debugger.getsourcepathwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,18 +50,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>GetSourcePathWide</b>  method returns the source path.
-
-
-## -syntax
-
-
-````
-HRESULT GetSourcePathWide(
-  [out, optional] PWSTR  Buffer,
-  [in]            ULONG  BufferSize,
-  [out, optional] PULONG PathSize
-);
-````
 
 
 ## -parameters
@@ -136,11 +124,6 @@ For more information about manipulating the source path, see <a href="https://ms
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556781">SetSourcePath</a>
 
 
 
@@ -152,8 +135,12 @@ For more information about manipulating the source path, see <a href="https://ms
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550870">IDebugSymbols3</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556781">SetSourcePath</a>
  
 
  
-
 

@@ -102,12 +102,11 @@ The <b>Status</b> member is set to STATUS_NOT_IMPLEMENTED.
 
 ## -see-also
 
-<a href="..\kbdmou\ni-kbdmou-ioctl_internal_mouse_connect.md">IOCTL_INTERNAL_MOUSE_CONNECT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541294">IOCTL_INTERNAL_MOUSE_CONNECT</a>
  
 
  
-
 

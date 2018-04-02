@@ -7,7 +7,7 @@ old-location: storage\ioctl_ehstor_device_enumerate_pdos.htm
 old-project: storage
 ms.assetid: 900A8CAB-287D-4D92-B4CB-2959E87C8E67
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_EHSTOR_DEVICE_ENUMERATE_PDOS, IOCTL_EHSTOR_DEVICE_ENUMERATE_PDOS control code [Storage Devices], ehstorioctl/IOCTL_EHSTOR_DEVICE_ENUMERATE_PDOS, storage.ioctl_ehstor_device_enumerate_pdos
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -86,7 +86,7 @@ Caution is required here because IOCTL_EHSTOR_DEVICE_ENUMERATE_PDOS is defined w
 
 ### -input-buffer
 
-The input buffer at Irp-&gt;AssociatedIrp.SystemBuffer must contain a ULONG value as defined in <a href="..\ehstorioctl\ne-ehstorioctl-_pdo_type.md">PDO_TYPE</a>,
+The input buffer at Irp-&gt;AssociatedIrp.SystemBuffer must contain a ULONG value as defined in <a href="https://msdn.microsoft.com/library/windows/hardware/ff563838">PDO_TYPE</a>,
 
 where either all of the PDOs, just the disk PDO, just the control PDO or all silo PDOs are enumerated respectively according to the provided PDO_TYPE input value.
 
@@ -100,7 +100,7 @@ The length of a ULONG.
 
 Irp-&gt;AssociatedIrp.SystemBuffer points to the buffer that will receive the PDO enumeration results. If the client supplied a non-<b>NULL</b> buffer with the issued IOCTL, then the driver fills it with the result set only if the Parameters.DeviceIoControl.The return value is STATUS_SUCCESS if the buffer size is sufficient and the results have been copied to the buffer. Otherwise STATUS_INVALID_BUFFER_SIZE is returned and the output buffer is unmodified.
 
-The returned enumeration buffer contains a result set structured according to the following rules. The leading structure in the buffer, <a href="..\ehstorioctl\ns-ehstorioctl-_enum_pdo_results.md">ENUM_PDO_RESULTS</a>, consists of a structure count and an array of <a href="..\ehstorioctl\ns-ehstorioctl-_enum_pdo_entry.md">ENUM_PDO_ENTRY</a> structures.
+The returned enumeration buffer contains a result set structured according to the following rules. The leading structure in the buffer, <a href="https://msdn.microsoft.com/library/windows/hardware/ff553759">ENUM_PDO_RESULTS</a>, consists of a structure count and an array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff553757">ENUM_PDO_ENTRY</a> structures.
 
 
 ### -output-buffer-length

@@ -53,16 +53,6 @@ req.product: Windows 10 or later.
 The <b>SPB_TRANSFER_DESCRIPTOR_INIT</b> function initializes an  <a href="https://msdn.microsoft.com/library/windows/hardware/hh406218">SPB_TRANSFER_DESCRIPTOR</a> structure.
 
 
-## -syntax
-
-
-````
-VOID SPB_TRANSFER_DESCRIPTOR_INIT(
-  _Out_ SPB_TRANSFER_DESCRIPTOR *Descriptor
-);
-````
-
-
 ## -parameters
 
 
@@ -93,16 +83,15 @@ Your SPB controller driver must use this function to initialize an <b>SPB_TRANSF
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh406218">SPB_TRANSFER_DESCRIPTOR</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh450924">SpbRequestGetTransferParameters</a>
-
-
-
  
 
  
-
 

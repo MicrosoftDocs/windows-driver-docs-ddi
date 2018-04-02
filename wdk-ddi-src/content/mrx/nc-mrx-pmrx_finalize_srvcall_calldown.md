@@ -7,7 +7,7 @@ old-location: ifsk\mrxfinalizesrvcall.htm
 old-project: ifsk
 ms.assetid: f870334a-cf39-47a2-868a-f6fd7c3aee1c
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: MRxFinalizeSrvCall, MRxFinalizeSrvCall routine [Installable File System Drivers], PMRX_FINALIZE_SRVCALL_CALLDOWN, ifsk.mrxfinalizesrvcall, mrx/MRxFinalizeSrvCall, mrxref_7f2d4c59-1668-4c73-adc4-bdb6fac34d38.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,20 +52,6 @@ req.typenames: SetDSMCounters_IN, *PSetDSMCounters_IN
 The <i>MRxFinalizeSrvCall</i> routine is called by <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ifs/the-rdbss-driver-and-library">RDBSS</a> to request that a network mini-redirector finalize an SRV_CALL structure. 
 
 
-## -prototype
-
-
-````
-PMRX_FINALIZE_SRVCALL_CALLDOWN MRxFinalizeSrvCall;
-
-NTSTATUS MRxFinalizeSrvCall(
-  _Inout_ PMRX_SRV_CALL pSrvCall,
-  _In_    BOOLEAN       Force
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -76,7 +62,7 @@ NTSTATUS MRxFinalizeSrvCall(
 
 ### -param Force [in]
 
-A pointer to a Boolean value that indicates if the disconnect is to be enforced immediately, ignoring the reference count on the SRV_CALL structure. The <i>Force</i> parameter is the <i>ForceFinalize</i> parameter passed to the <a href="..\fcb\nf-fcb-rxfinalizesrvcall.md">RxFinalizeSrvCall</a> routine. This action triggers a call to <i>MRxFinalizeSrvCall</i>.
+A pointer to a Boolean value that indicates if the disconnect is to be enforced immediately, ignoring the reference count on the SRV_CALL structure. The <i>Force</i> parameter is the <i>ForceFinalize</i> parameter passed to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554426">RxFinalizeSrvCall</a> routine. This action triggers a call to <i>MRxFinalizeSrvCall</i>.
 
 
 #### - pSrvCall [in, out]
@@ -99,7 +85,7 @@ A pointer to the SRV_CALL structure to finalize.
 
 <i>MRxFinalizeSrvCall</i> is called when RDBSS is tearing down an SRV_CALL structure. The network mini-redirector is expected to close its connection to the server. 
 
-<i>MRxFinalizeSrvCall</i> is called by RDBSS after receiving an <a href="..\fcb\nf-fcb-rxfinalizesrvcall.md">RxFinalizeSrvCall</a> call. If <a href="..\fcb\nf-fcb-rxfinalizenetroot.md">RxFinalizeNetRoot</a> is called from a different process than the RDBSS system process, then the call to <i>MRxFinalizeSrvCall</i> is posted to a worker thread for later execution. At some later time <b>RxFinalizeSrvCall</b> is called to complete the finalization of the SRV_CALL structure. 
+<i>MRxFinalizeSrvCall</i> is called by RDBSS after receiving an <a href="https://msdn.microsoft.com/library/windows/hardware/ff554426">RxFinalizeSrvCall</a> call. If <a href="https://msdn.microsoft.com/library/windows/hardware/ff554421">RxFinalizeNetRoot</a> is called from a different process than the RDBSS system process, then the call to <i>MRxFinalizeSrvCall</i> is posted to a worker thread for later execution. At some later time <b>RxFinalizeSrvCall</b> is called to complete the finalization of the SRV_CALL structure. 
 
 RDBSS ignores the return value from the <i>MRxFinalizeSrvCall</i> call. 
 
@@ -108,40 +94,39 @@ RDBSS ignores the return value from the <i>MRxFinalizeSrvCall</i> call.
 
 ## -see-also
 
-<a href="..\mrx\nc-mrx-pmrx_create_v_net_root.md">MRxCreateVNetRoot</a>
 
 
 
-<a href="..\mrx\nc-mrx-pmrx_finalize_net_root_calldown.md">MRxFinalizeNetRoot</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549864">MRxCreateSrvCall</a>
 
 
 
-<a href="..\mrx\nc-mrx-pmrx_create_srvcall.md">MRxCreateSrvCall</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549869">MRxCreateVNetRoot</a>
 
 
 
-<a href="..\mrx\nc-mrx-pmrx_preparse_name.md">MRxPreparseName</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550649">MRxExtractNetRootName</a>
 
 
 
-<a href="..\mrx\nc-mrx-pmrx_srvcall_winner_notify.md">MRxSrvCallWinnerNotify</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550653">MRxFinalizeNetRoot</a>
 
 
 
-<a href="..\mrx\nc-mrx-pmrx_finalize_v_net_root_calldown.md">MRxFinalizeVNetRoot</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550663">MRxFinalizeVNetRoot</a>
 
 
 
-<a href="..\fcb\nf-fcb-rxfinalizesrvcall.md">RxFinalizeSrvCall</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550750">MRxPreparseName</a>
 
 
 
-<a href="..\mrx\nc-mrx-pmrx_extract_netroot_name.md">MRxExtractNetRootName</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550824">MRxSrvCallWinnerNotify</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554426">RxFinalizeSrvCall</a>
  
 
  
-
 

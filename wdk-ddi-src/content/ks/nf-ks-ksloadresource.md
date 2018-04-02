@@ -53,21 +53,6 @@ req.typenames:
 Copies (loads) a resource from the given image. 
 
 
-## -syntax
-
-
-````
-NTSTATUS KsLoadResource(
-  _In_      PVOID     ImageBase,
-  _In_      POOL_TYPE PoolType,
-  _In_      ULONG_PTR ResourceName,
-  _In_      ULONG     ResourceType,
-  _Out_     PVOID     *Resource,
-  _Out_opt_ PULONG    ResourceSize
-);
-````
-
-
 ## -parameters
 
 

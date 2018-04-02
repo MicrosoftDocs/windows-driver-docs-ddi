@@ -52,16 +52,6 @@ req.typenames: CIP_LISTEN, *PCIP_LISTEN
 This structure is used for a listen request. The request begins isochronous reception on the specified connection. This request will start capturing CIP packets, whether the packets have frames attached. 
 
 
-## -syntax
-
-
-````
-typedef struct _CIP_LISTEN {
-  HANDLE hConnect;
-} CIP_LISTEN, *PCIP_LISTEN;
-````
-
-
 ## -struct-fields
 
 
@@ -87,12 +77,11 @@ If the protocol driver is unable to allocate resources, it sets <b>Irp-&gt;IoSta
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537008">AV_61883_REQUEST</a>
-
-
-
  
 
  
-
 

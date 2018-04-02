@@ -7,7 +7,7 @@ old-location: display\d3dddicb_updategpuvirtualaddress.htm
 old-project: display
 ms.assetid: 6D460EBF-1D5D-4A99-90EE-FCBBC56B8EA4
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDICB_UPDATEGPUVIRTUALADDRESS, D3DDDICB_UPDATEGPUVIRTUALADDRESS structure [Display Devices], _D3DDDICB_UPDATEGPUVIRTUALADDRESS, d3dumddi/D3DDDICB_UPDATEGPUVIRTUALADDRESS, display.d3dddicb_updategpuvirtualaddress
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,31 +49,8 @@ req.typenames: D3DDDICB_UPDATEGPUVIRTUALADDRESS
 ## -description
 
 
-<b>D3DDDICB_UPDATEGPUVIRTUALADDRESS</b> is used with <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_updategpuvirtualaddresscb.md">pfnUpdateGpuVirtualAddressCb</a> to allow the user mode driver to specify a number of mapping operations to be applied to the process virtual address space in a single batch of page table updates. 
+<b>D3DDDICB_UPDATEGPUVIRTUALADDRESS</b> is used with <a href="https://msdn.microsoft.com/99D075A0-4483-47D1-BA24-80C45BFF407A">pfnUpdateGpuVirtualAddressCb</a> to allow the user mode driver to specify a number of mapping operations to be applied to the process virtual address space in a single batch of page table updates. 
 
-
-
-## -syntax
-
-
-````
-typedef struct _D3DDDICB_UPDATEGPUVIRTUALADDRESS {
-  HANDLE                                   hContext;
-  D3DKMT_HANDLE                            hFenceObject;
-  UINT                                     NumOperations;
-  D3DDDI_UPDATEGPUVIRTUALADDRESS_OPERATION *Operations;
-  UINT                                     Reserved0;
-  UINT64                                   Reserved1;
-  UINT64                                   FenceValue;
-  union {
-    struct {
-      UINT DoNotWait  :1;
-      UINT Reserved  :31;
-    };
-    UINT   Value;
-  } Flags;
-} D3DDDICB_UPDATEGPUVIRTUALADDRESS;
-````
 
 
 ## -struct-fields
@@ -99,7 +76,7 @@ Specifies the number of operations in the <b>Operations</b> array.
 ### -field Operations
 
 
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_updategpuvirtualaddress_operation.md">D3DDDI_UPDATEGPUVIRTUALADDRESS_OPERATION</a> array of operations to perform on the GPU virtual address space.
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn906329">D3DDDI_UPDATEGPUVIRTUALADDRESS_OPERATION</a> array of operations to perform on the GPU virtual address space.
 
 
 ### -field Reserved0
@@ -138,16 +115,15 @@ This member is reserved and should be set to zero.
 
 ## -see-also
 
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_updategpuvirtualaddress_operation.md">D3DDDI_UPDATEGPUVIRTUALADDRESS_OPERATION</a>
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_updategpuvirtualaddresscb.md">pfnUpdateGpuVirtualAddressCb</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn906329">D3DDDI_UPDATEGPUVIRTUALADDRESS_OPERATION</a>
 
 
 
+<a href="https://msdn.microsoft.com/99D075A0-4483-47D1-BA24-80C45BFF407A">pfnUpdateGpuVirtualAddressCb</a>
  
 
  
-
 

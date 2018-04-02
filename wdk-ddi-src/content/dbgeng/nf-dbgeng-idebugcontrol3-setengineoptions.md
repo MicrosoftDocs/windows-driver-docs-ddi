@@ -7,7 +7,7 @@ old-location: debugger\setengineoptions.htm
 old-project: debugger
 ms.assetid: ff9008d7-1de9-4414-8197-2710fd11747e
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: IDebugControl interface [Windows Debugging], SetEngineOptions method, IDebugControl2 interface [Windows Debugging], SetEngineOptions method, IDebugControl2::SetEngineOptions, IDebugControl3, IDebugControl3 interface [Windows Debugging], SetEngineOptions method, IDebugControl3::SetEngineOptions, IDebugControl::SetEngineOptions, IDebugControl_bcc66264-b955-480d-b610-5080386354c9.xml, SetEngineOptions method [Windows Debugging], SetEngineOptions method [Windows Debugging], IDebugControl interface, SetEngineOptions method [Windows Debugging], IDebugControl2 interface, SetEngineOptions method [Windows Debugging], IDebugControl3 interface, SetEngineOptions,IDebugControl3.SetEngineOptions, dbgeng/IDebugControl2::SetEngineOptions, dbgeng/IDebugControl3::SetEngineOptions, dbgeng/IDebugControl::SetEngineOptions, debugger.setengineoptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,16 +52,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>SetEngineOptions</b> method changes the engine's options.
-
-
-## -syntax
-
-
-````
-HRESULT SetEngineOptions(
-  [in] ULONG Options
-);
-````
 
 
 ## -parameters
@@ -133,7 +123,7 @@ The debugger engine generates a warning instead of an error if the version of th
 
 </td>
 <td>
-Disable version checking for extensions.  This suppresses the debugger engine's call to <a href="..\wdbgexts\nc-wdbgexts-pwindbg_check_version.md">CheckVersion</a>.
+Disable version checking for extensions.  This suppresses the debugger engine's call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff539096">CheckVersion</a>.
 
 </td>
 </tr>
@@ -352,23 +342,6 @@ Disables upload of Software Quality Metrics (SQM) data.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546598">GetEngineOptions</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554491">RemoveEngineOptions</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
 
 
@@ -376,8 +349,24 @@ Disables upload of Software Quality Metrics (SQM) data.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546598">GetEngineOptions</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550508">IDebugControl</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550512">IDebugControl2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550519">IDebugControl3</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554491">RemoveEngineOptions</a>
  
 
  
-
 

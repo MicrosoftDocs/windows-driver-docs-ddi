@@ -7,7 +7,7 @@ old-location: display\video_pointer_attributes.htm
 old-project: display
 ms.assetid: aa897435-443b-4145-b6ca-7bafdb36b9c1
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PVIDEO_POINTER_ATTRIBUTES, PVIDEO_POINTER_ATTRIBUTES, PVIDEO_POINTER_ATTRIBUTES structure pointer [Display Devices], VIDEO_MODE_ANIMATE_START, VIDEO_MODE_ANIMATE_UPDATE, VIDEO_MODE_ASYNC_POINTER, VIDEO_MODE_COLOR_POINTER, VIDEO_MODE_MONO_POINTER, VIDEO_POINTER_ATTRIBUTES, VIDEO_POINTER_ATTRIBUTES structure [Display Devices], Video_Structs_5ade2674-a930-46b3-aaad-6d3a8d017453.xml, _VIDEO_POINTER_ATTRIBUTES, display.video_pointer_attributes, ntddvdeo/PVIDEO_POINTER_ATTRIBUTES, ntddvdeo/VIDEO_POINTER_ATTRIBUTES"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,23 +50,6 @@ req.typenames: VIDEO_POINTER_ATTRIBUTES, *PVIDEO_POINTER_ATTRIBUTES
 
 
 The VIDEO_POINTER_ATTRIBUTES structure contains attributes of the screen pointer.
-
-
-## -syntax
-
-
-````
-typedef struct _VIDEO_POINTER_ATTRIBUTES {
-  ULONG Flags;
-  ULONG Width;
-  ULONG Height;
-  ULONG WidthInBytes;
-  ULONG Enable;
-  SHORT Column;
-  SHORT Row;
-  UCHAR Pixels[1];
-} VIDEO_POINTER_ATTRIBUTES, *PVIDEO_POINTER_ATTRIBUTES;
-````
 
 
 ## -struct-fields
@@ -174,16 +157,15 @@ The pointer data, in device-compatible DIB format. Mask data is always in 1-bpp 
 
 ## -see-also
 
-<a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_query_pointer_attr.md">IOCTL_VIDEO_QUERY_POINTER_ATTR</a>
 
 
 
-<a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_set_pointer_attr.md">IOCTL_VIDEO_SET_POINTER_ATTR</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567825">IOCTL_VIDEO_QUERY_POINTER_ATTR</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568144">IOCTL_VIDEO_SET_POINTER_ATTR</a>
  
 
  
-
 

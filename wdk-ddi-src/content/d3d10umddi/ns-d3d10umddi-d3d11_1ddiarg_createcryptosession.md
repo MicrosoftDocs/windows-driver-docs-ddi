@@ -7,7 +7,7 @@ old-location: display\d3d11_1ddiarg_createcryptosession.htm
 old-project: display
 ms.assetid: 9e63a4eb-050b-4f12-ad43-00e62021abd3
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3D11_1DDIARG_CREATECRYPTOSESSION, D3D11_1DDIARG_CREATECRYPTOSESSION structure [Display Devices], D3D11_1DDI_CRYPTO_TYPE_AES128_CTR, D3D11_1DDI_CRYPTO_TYPE_PROPRIETARY, D3D11_1DDI_KEY_EXCHANGE_RSAES_OAEP, D3DWDDM2_0DDI_KEY_EXCHANGE_HW_PROTECTION, d3d10umddi/D3D11_1DDIARG_CREATECRYPTOSESSION, display.d3d11_1ddiarg_createcryptosession
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,19 +49,7 @@ req.typenames: D3D11_1DDIARG_CREATECRYPTOSESSION
 ## -description
 
 
-Specifies the attributes of the cryptographic session to be created by the user-mode driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createcryptosession.md">CreateCryptoSession</a> function.
-
-
-## -syntax
-
-
-````
-typedef struct D3D11_1DDIARG_CREATECRYPTOSESSION {
-  GUID CryptoType;
-  GUID DecodeProfile;
-  GUID KeyExchangeType;
-} D3D11_1DDIARG_CREATECRYPTOSESSION;
-````
+Specifies the attributes of the cryptographic session to be created by the user-mode driver's <a href="https://msdn.microsoft.com/library/windows/hardware/hh451619">CreateCryptoSession</a> function.
 
 
 ## -struct-fields
@@ -71,7 +59,7 @@ typedef struct D3D11_1DDIARG_CREATECRYPTOSESSION {
 
 ### -field CryptoType
 
-a GUID that indicates the encryption type, which the driver uses for the encryption session that the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createcryptosession.md">CreateCryptoSession</a> function creates. The GUID can be one of the following:
+a GUID that indicates the encryption type, which the driver uses for the encryption session that the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/hh451619">CreateCryptoSession</a> function creates. The GUID can be one of the following:
 
 <table>
 <tr>
@@ -104,7 +92,7 @@ A proprietary encryption algorithm.
 
 ### -field DecodeProfile
 
-A GUID that specifies the DirectX Video Acceleration (DXVA) decode profile that the driver uses for the encryption session that the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createcryptosession.md">CreateCryptoSession</a> function creates. For a list of possible values, see <b>CreateCryptoSession</b>. If DXVA decoding will not be used, set this parameter to <b>NULL_GUID</b>.
+A GUID that specifies the DirectX Video Acceleration (DXVA) decode profile that the driver uses for the encryption session that the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/hh451619">CreateCryptoSession</a> function creates. For a list of possible values, see <b>CreateCryptoSession</b>. If DXVA decoding will not be used, set this parameter to <b>NULL_GUID</b>.
 
 
 ### -field KeyExchangeType
@@ -141,29 +129,29 @@ When this GUID is specified, the following DDIs should not be called for the cry
 
 <ul>
 <li>
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_getcertificatesize.md">GetCertificateSize</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451654">GetCertificateSize</a>
 </li>
 <li>
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_getcertificate.md">GetCertificate</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451652">GetCertificate</a>
 </li>
 <li>
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_encryptionblt.md">EncryptionBlt</a>
+<a href="https://msdn.microsoft.com/a92bfff7-8af6-48c3-9e7f-95b9426aaaf2">EncryptionBlt</a>
 </li>
 <li>
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_decryptionblt.md">DecryptionBlt</a>
+<a href="https://msdn.microsoft.com/1bfe2b9c-90f6-48bf-b0b3-30788ef94110">DecryptionBlt</a>
 </li>
 <li>
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_startsessionkeyrefresh.md">StartSessionKeyRefresh</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451696">StartSessionKeyRefresh</a>
 </li>
 <li>
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_finishsessionkeyrefresh.md">FinishSessionKeyRefresh</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451648">FinishSessionKeyRefresh</a>
 </li>
 <li>
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getencryptionbltkey.md">GetEncryptionBltKey</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451660">GetEncryptionBltKey</a>
 </li>
 </ul>
 
-The DRM commands are sent to the user mode driver by calling the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_negotiatecryptosessionkeyeschange.md">NegotiateCryptoSessionKeyExchange</a> function where the data passed is a pointer to a <a href="..\d3d10umddi\ns-d3d10umddi-d3dwddm2_0ddi_key_exchange_hw_protection_data.md">D3DWDDM2_0DDI_KEY_EXCHANGE_HW_PROTECTION_DATA</a> structure.
+The DRM commands are sent to the user mode driver by calling the <a href="https://msdn.microsoft.com/a48dcbae-3236-4523-bc14-4be694da9a7b">NegotiateCryptoSessionKeyExchange</a> function where the data passed is a pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn894610">D3DWDDM2_0DDI_KEY_EXCHANGE_HW_PROTECTION_DATA</a> structure.
 
 
 </td>

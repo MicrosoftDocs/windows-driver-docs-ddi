@@ -7,7 +7,7 @@ old-location: storage\ataportcompleteallactiverequests.htm
 old-project: storage
 ms.assetid: e17b1a76-ab1e-4263-9e4a-42c6f2066de1
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: AtaPortCompleteAllActiveRequests, AtaPortCompleteAllActiveRequests routine [Storage Devices], atartns_b9f2bdc5-ede8-4a7f-9d9e-df16a9d83634.xml, irb/AtaPortCompleteAllActiveRequests, storage.ataportcompleteallactiverequests
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -54,19 +54,6 @@ req.typenames: IDE_POWER_STATE
 
 The <b>AtaPortCompleteAllActiveRequests</b> routine completes all active IRBs for the indicated device.
 <div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
-
-## -syntax
-
-
-````
-VOID AtaPortCompleteAllActiveRequests(
-  _In_ PVOID ChannelExtension,
-  _In_ UCHAR Target,
-  _In_ UCHAR Lun,
-  _In_ UCHAR IrbStatus
-);
-````
-
 
 ## -parameters
 
@@ -115,12 +102,11 @@ The miniport driver must not call this routine from the <a href="https://msdn.mi
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558992">IdeHwInterrupt</a>
-
-
-
  
 
  
-
 

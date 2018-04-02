@@ -7,7 +7,7 @@ old-location: display\ioctl_video_get_child_state.htm
 old-project: display
 ms.assetid: 2b912f2d-2bb3-4f38-a415-a61900ad16fb
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_VIDEO_GET_CHILD_STATE, IOCTL_VIDEO_GET_CHILD_STATE control code [Display Devices], Video_IOCTLs_5f13cbad-a5b4-41cb-8d93-dce6badfc8ce.xml, display.ioctl_video_get_child_state, ntddvdeo/IOCTL_VIDEO_GET_CHILD_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -62,7 +62,7 @@ Determines whether a child device is currently enabled. Although miniport driver
 
 ### -input-buffer
 
-The VRP <b>InputBuffer</b> contains a pointer to a ULONG, containing the index of the child device, as specified in <a href="..\video\nc-video-pvideo_hw_get_child_descriptor.md">HwVidGetVideoChildDescriptor</a>.
+The VRP <b>InputBuffer</b> contains a pointer to a ULONG, containing the index of the child device, as specified in <a href="https://msdn.microsoft.com/175030c1-95d9-4a3b-976c-16e04852cb91">HwVidGetVideoChildDescriptor</a>.
 
 
 ### -input-buffer-length
@@ -160,21 +160,20 @@ This flag is used for mode pruning. By default, Windows 2000 and later perform m
 
 ### -status-block
 
-The video miniport driver sets the <b>Information</b> member of the <a href="..\video\ns-video-_status_block.md">STATUS_BLOCK</a> structure to <b>sizeof</b>(ULONG).
+The video miniport driver sets the <b>Information</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff569732">STATUS_BLOCK</a> structure to <b>sizeof</b>(ULONG).
 
 
 ## -see-also
 
-<a href="..\video\ns-video-_status_block.md">STATUS_BLOCK</a>
 
 
 
-<a href="..\video\nc-video-pvideo_hw_get_child_descriptor.md">HwVidGetVideoChildDescriptor</a>
+<a href="https://msdn.microsoft.com/175030c1-95d9-4a3b-976c-16e04852cb91">HwVidGetVideoChildDescriptor</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569732">STATUS_BLOCK</a>
  
 
  
-
 

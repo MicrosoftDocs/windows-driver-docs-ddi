@@ -56,17 +56,6 @@ req.product: Windows 10 or later.
 The <b>KsGetBusEnumParentFDOFromChildPDO </b>function retrieves the FDO of the parent of the given child PDO. 
 
 
-## -syntax
-
-
-````
-NTSTATUS KsGetBusEnumParentFDOFromChildPDO(
-  _In_  PDEVICE_OBJECT DeviceObject,
-  _Out_ PDEVICE_OBJECT *FunctionalDeviceObject
-);
-````
-
-
 ## -parameters
 
 

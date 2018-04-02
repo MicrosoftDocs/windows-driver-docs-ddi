@@ -7,7 +7,7 @@ old-location: ifsk\flt_parameters.htm
 old-project: ifsk
 ms.assetid: 62aa20b7-ce5c-4d42-bce2-1d76a98887ed
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: "*PFLT_PARAMETERS, FLT_PARAMETERS, FLT_PARAMETERS union [Installable File System Drivers], FltSystemStructures_2ebb0ec7-76cc-49a3-b2ec-186f67369bbb.xml, PFLT_PARAMETERS, PFLT_PARAMETERS union pointer [Installable File System Drivers], _FLT_PARAMETERS, fltkernel/FLT_PARAMETERS, fltkernel/PFLT_PARAMETERS, ifsk.flt_parameters"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,16 +52,6 @@ req.typenames: FLT_PARAMETERS, *PFLT_PARAMETERS
 The FLT_PARAMETERS union defines the request-type-specific parameters associated with an I/O operation. 
 
 
-## -syntax
-
-
-````
-typedef union _FLT_PARAMETERS {
-  ...
-} FLT_PARAMETERS, *PFLT_PARAMETERS;
-````
-
-
 ## -struct-fields
 
 
@@ -69,7 +59,7 @@ typedef union _FLT_PARAMETERS {
 
 
 
-This structure is stored in the <b>Parameters</b> field of the <a href="..\fltkernel\ns-fltkernel-_flt_io_parameter_block.md">FLT_IO_PARAMETER_BLOCK</a> structure for the operation. (A pointer to the FLT_IO_PARAMETER_BLOCK structure is stored in the <b>Iopb</b> field of the <a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a> structure for the operation.) 
+This structure is stored in the <b>Parameters</b> field of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff544638">FLT_IO_PARAMETER_BLOCK</a> structure for the operation. (A pointer to the FLT_IO_PARAMETER_BLOCK structure is stored in the <b>Iopb</b> field of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff544620">FLT_CALLBACK_DATA</a> structure for the operation.) 
 
 For the specific FLT_PARAMETERS union component used in each type of I/O operation, see the following reference entries. 
 
@@ -202,20 +192,19 @@ The following I/O operations do not have parameters:
 
 ## -see-also
 
-<a href="..\fltkernel\ns-fltkernel-_flt_io_parameter_block.md">FLT_IO_PARAMETER_BLOCK</a>
 
 
 
-<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544620">FLT_CALLBACK_DATA</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltsetcallbackdatadirty.md">FltSetCallbackDataDirty</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544638">FLT_IO_PARAMETER_BLOCK</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544383">FltSetCallbackDataDirty</a>
  
 
  
-
 

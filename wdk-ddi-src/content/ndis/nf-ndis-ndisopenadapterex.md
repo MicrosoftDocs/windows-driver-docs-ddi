@@ -7,7 +7,7 @@ old-location: netvista\ndisopenadapterex.htm
 old-project: netvista
 ms.assetid: 2dc356e6-a2ef-4b43-abe5-7c5058c15cf5
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: NdisOpenAdapterEx, NdisOpenAdapterEx function [Network Drivers Starting with Windows Vista], ndis/NdisOpenAdapterEx, netvista.ndisopenadapterex, protocol_ndis_functions_ref_7ea04244-bfbb-460d-86f3-35e908850c6a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,22 +52,8 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 
 A protocol driver calls the
   <b>NdisOpenAdapterEx</b> function from its 
-  <a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a> function to
+  <a href="https://msdn.microsoft.com/1958722e-012e-4110-a82c-751744bcf9b5">ProtocolBindAdapterEx</a> function to
   set up a binding between the protocol driver and an underlying driver.
-
-
-## -syntax
-
-
-````
-NDIS_STATUS NdisOpenAdapterEx(
-  _In_  NDIS_HANDLE           NdisProtocolHandle,
-  _In_  NDIS_HANDLE           ProtocolBindingContext,
-  _In_  PNDIS_OPEN_PARAMETERS OpenParameters,
-  _In_  NDIS_HANDLE           BindContext,
-  _Out_ PNDIS_HANDLE          NdisBindingHandle
-);
-````
 
 
 ## -parameters
@@ -78,7 +64,7 @@ NDIS_STATUS NdisOpenAdapterEx(
 ### -param NdisProtocolHandle [in]
 
 The handle returned by the 
-     <a href="..\ndis\nf-ndis-ndisregisterprotocoldriver.md">
+     <a href="https://msdn.microsoft.com/b48571eb-13a2-4541-80ac-c8d31f378d37">
      NdisRegisterProtocolDriver</a> function.
 
 
@@ -91,7 +77,7 @@ The handle for a caller-supplied context area in which the protocol driver maint
 ### -param OpenParameters [in]
 
 A pointer to an 
-     <a href="..\ndis\ns-ndis-_ndis_open_parameters.md">NDIS_OPEN_PARAMETERS</a> structure that is
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566734">NDIS_OPEN_PARAMETERS</a> structure that is
      set up by the caller.
 
 
@@ -143,7 +129,7 @@ A pointer to a caller-supplied variable. NDIS writes a handle at
 </td>
 <td width="60%">
 <b>NdisOpenAdapterEx</b> did not complete the open operation. NDIS later calls the protocol driver's 
-       <a href="..\ndis\nc-ndis-protocol_open_adapter_complete_ex.md">
+       <a href="https://msdn.microsoft.com/59d18822-8ce2-4506-90d7-9f1cdc7a9e10">
        ProtocolOpenAdapterCompleteEx</a> function to complete the open operation.
 
 </td>
@@ -208,7 +194,7 @@ A pointer to a caller-supplied variable. NDIS writes a handle at
 
 A protocol driver must call 
     <b>NdisOpenAdapterEx</b> from its 
-    <a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a> function.
+    <a href="https://msdn.microsoft.com/1958722e-012e-4110-a82c-751744bcf9b5">ProtocolBindAdapterEx</a> function.
     NDIS fails any attempt to call 
     <b>NdisOpenAdapterEx</b> outside the context of 
     <i>ProtocolBindAdapterEx</i>.
@@ -218,7 +204,7 @@ If
     <i>NdisBindingHandle</i> and the 
     <b>SelectedMediumIndex</b> member at 
     <i>OpenParameters</i> until NDIS calls the 
-    <a href="..\ndis\nc-ndis-protocol_open_adapter_complete_ex.md">
+    <a href="https://msdn.microsoft.com/59d18822-8ce2-4506-90d7-9f1cdc7a9e10">
     ProtocolOpenAdapterCompleteEx</a> function.
 
 The string at 
@@ -240,25 +226,24 @@ After the open operation completes successfully, the caller can use the value th
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_ndis_open_parameters.md">NDIS_OPEN_PARAMETERS</a>
 
 
 
-<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566734">NDIS_OPEN_PARAMETERS</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisregisterprotocoldriver.md">NdisRegisterProtocolDriver</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564520">NdisRegisterProtocolDriver</a>
 
 
 
-<a href="..\ndis\nc-ndis-protocol_open_adapter_complete_ex.md">
+<a href="https://msdn.microsoft.com/1958722e-012e-4110-a82c-751744bcf9b5">ProtocolBindAdapterEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/59d18822-8ce2-4506-90d7-9f1cdc7a9e10">
    ProtocolOpenAdapterCompleteEx</a>
-
-
-
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: debugger\readiospaceex64.htm
 old-project: debugger
 ms.assetid: 6903a684-e9da-4ff0-b5ea-330b070849c6
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: ReadIoSpaceEx64, ReadIoSpaceEx64 function [Windows Debugging], WdbgExts_Ref_5d81517c-f30d-4f8c-b4fe-e3487ad6c49e.xml, debugger.readiospaceex64, wdbgexts/ReadIoSpaceEx64
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,22 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The <b>ReadIoSpaceEx64</b> function is an extended version of <a href="..\wdbgexts\nf-wdbgexts-readiospace64.md">ReadIoSpace64</a>. It reads not only the system I/O locations, but also I/O locations on a bus. <b>ReadIoSpace64</b> works like <b>ReadIoSpaceEx64</b>, except that it defaults <i>interfacetype</i> to ISA, <i>busnumber</i> to zero, and <i>addressspace</i> to 1.
-
-
-## -syntax
-
-
-````
-__inline VOID ReadIoSpaceEx64(
-   ULONG64 address,
-   PULONG  data,
-   PULONG  size,
-   ULONG   interfacetype,
-   ULONG   busnumber,
-   ULONG   addressspace
-);
-````
+The <b>ReadIoSpaceEx64</b> function is an extended version of <a href="https://msdn.microsoft.com/library/windows/hardware/ff553577">ReadIoSpace64</a>. It reads not only the system I/O locations, but also I/O locations on a bus. <b>ReadIoSpace64</b> works like <b>ReadIoSpaceEx64</b>, except that it defaults <i>interfacetype</i> to ISA, <i>busnumber</i> to zero, and <i>addressspace</i> to 1.
 
 
 ## -parameters
@@ -116,7 +101,7 @@ None
 
 
 
-If you are writing 32-bit code, you should use <a href="..\wdbgexts\nf-wdbgexts-readiospaceex.md">ReadIoSpaceEx</a> instead. See <a href="https://msdn.microsoft.com/library/windows/hardware/ff537780">32-Bit Pointers and 64-Bit Pointers</a> for details.
+If you are writing 32-bit code, you should use <a href="https://msdn.microsoft.com/library/windows/hardware/ff553580">ReadIoSpaceEx</a> instead. See <a href="https://msdn.microsoft.com/library/windows/hardware/ff537780">32-Bit Pointers and 64-Bit Pointers</a> for details.
 
 If you are writing a WdbgExts extension, include <b>wdbgexts.h</b>. If you are writing a DbgEng extension that calls this function, include <b>wdbgexts.h</b> before <b>dbgeng.h</b> (see <a href="https://msdn.microsoft.com/library/windows/hardware/ff561480">Writing DbgEng Extension Code</a> for details).
 

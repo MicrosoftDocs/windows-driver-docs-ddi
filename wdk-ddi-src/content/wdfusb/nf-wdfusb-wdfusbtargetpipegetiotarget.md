@@ -58,16 +58,6 @@ req.product: Windows 10 or later.
 The <b>WdfUsbTargetPipeGetIoTarget</b> method returns a handle to the I/O target object that is associated with a specified USB pipe.
 
 
-## -syntax
-
-
-````
-WDFIOTARGET WdfUsbTargetPipeGetIoTarget(
-  _In_ WDFUSBPIPE Pipe
-);
-````
-
-
 ## -parameters
 
 
@@ -75,7 +65,7 @@ WDFIOTARGET WdfUsbTargetPipeGetIoTarget(
 
 ### -param Pipe [in]
 
-A handle to a framework pipe object that was obtained by calling <a href="..\wdfusb\nf-wdfusb-wdfusbinterfacegetconfiguredpipe.md">WdfUsbInterfaceGetConfiguredPipe</a>.
+A handle to a framework pipe object that was obtained by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff550057">WdfUsbInterfaceGetConfiguredPipe</a>.
 
 
 ## -returns
@@ -100,7 +90,7 @@ For more information about the <b>WdfUsbTargetPipeGetIoTarget</b> method and USB
 
 #### Examples
 
-The following code example shows how an <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_d0_entry.md">EvtDeviceD0Entry</a> callback function can start a continuous reader for a USB pipe. 
+The following code example shows how an <a href="https://msdn.microsoft.com/0cfabb0f-2d5e-4445-8683-d2916de5b549">EvtDeviceD0Entry</a> callback function can start a continuous reader for a USB pipe. 
 
 <div class="code"><span codelanguage=""><table>
 <tr>
@@ -131,16 +121,15 @@ MyEvtDeviceD0Entry(
 
 ## -see-also
 
-<a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicegetiotarget.md">WdfUsbTargetDeviceGetIoTarget</a>
 
 
 
-<a href="..\wdfusb\nf-wdfusb-wdfusbinterfacegetconfiguredpipe.md">WdfUsbInterfaceGetConfiguredPipe</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550057">WdfUsbInterfaceGetConfiguredPipe</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550093">WdfUsbTargetDeviceGetIoTarget</a>
  
 
  
-
 

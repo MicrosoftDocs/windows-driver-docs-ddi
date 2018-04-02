@@ -7,7 +7,7 @@ old-location: storage\hba_fcpbinding.htm
 old-project: storage
 ms.assetid: e06b82f7-2b48-47e8-b6fa-c86b790e8019
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PHBA_FCPBINDING, HBA_FCPBINDING, HBA_FCPBINDING structure [Storage Devices], HBA_FCPBinding, HBA_FCPBinding structure [Storage Devices], PHBA_FCPBINDING, PHBA_FCPBINDING structure pointer [Storage Devices], hbaapi/HBA_FCPBinding, hbaapi/PHBA_FCPBINDING, storage.hba_fcpbinding, structs-Fibre_c02a809a-3b65-4e19-93e0-c72a0aead81c.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,17 +52,6 @@ req.typenames: HBA_FCPBINDING, *PHBA_FCPBINDING
 The HBA_FCPBinding structure contains an array of bindings between operating system and fibre channel protocol (FCP) identifiers for a set of logical units. 
 
 
-## -syntax
-
-
-````
-typedef struct HBA_FCPBinding {
-  HBA_UINT32          NumberOfEntries;
-  HBA_FCPBINDINGENTRY entry[1];
-} HBA_FCPBINDING, *PHBA_FCPBINDING;
-````
-
-
 ## -struct-fields
 
 
@@ -75,21 +64,20 @@ Indicates the number of bindings.
 
 ### -field entry
 
-Contains a variable length array of structures of type <a href="..\hbaapi\ns-hbaapi-hba_fcpbindingentry.md">HBA_FCPBindingEntry</a> each of which defines a binding between a pair of operating system and fibre channel protocol (FCP) identifiers for a logical unit. 
+Contains a variable length array of structures of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff556058">HBA_FCPBindingEntry</a> each of which defines a binding between a pair of operating system and fibre channel protocol (FCP) identifiers for a logical unit. 
 
 
 ## -see-also
 
-<a href="..\hbapiwmi\ns-hbapiwmi-_hbafcpbindingentry.md">HBAFCPBindingEntry</a>
 
 
 
-<a href="..\hbaapi\ns-hbaapi-hba_fcpbindingentry.md">HBA_FCPBindingEntry</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556034">HBAFCPBindingEntry</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556058">HBA_FCPBindingEntry</a>
  
 
  
-
 

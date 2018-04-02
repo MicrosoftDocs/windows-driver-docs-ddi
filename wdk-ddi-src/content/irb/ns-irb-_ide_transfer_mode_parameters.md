@@ -7,7 +7,7 @@ old-location: storage\ide_transfer_mode_parameters.htm
 old-project: storage
 ms.assetid: 66e6efd0-6651-4c87-94ba-d9d3b9191339
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PIDE_TRANSFER_MODE_PARAMETERS, IDE_TRANSFER_MODE_PARAMETERS, IDE_TRANSFER_MODE_PARAMETERS structure [Storage Devices], PIDE_TRANSFER_MODE_PARAMETERS, PIDE_TRANSFER_MODE_PARAMETERS structure pointer [Storage Devices], _IDE_TRANSFER_MODE_PARAMETERS, irb/IDE_TRANSFER_MODE_PARAMETERS, irb/PIDE_TRANSFER_MODE_PARAMETERS, storage.ide_transfer_mode_parameters, structs-ATA_41b44f2c-8685-45fe-8c56-2a9a648782b4.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,21 +52,6 @@ req.typenames: IDE_TRANSFER_MODE_PARAMETERS, *PIDE_TRANSFER_MODE_PARAMETERS
 The IDE_TRANSFER_MODE_PARAMETERS structure is used in conjunction with the miniport driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff550143">AtaControllerTransferModeSelect</a> routine to set the transfer mode parameters on a channel.
 <div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
-## -syntax
-
-
-````
-typedef struct _IDE_TRANSFER_MODE_PARAMETERS {
-  UCHAR           ChannelNumber;
-  IDE_DEVICE_TYPE DeviceType[MAX_IDE_DEVICE];
-  BOOLEAN         IoReadySupported[MAX_IDE_DEVICE];
-  ULONG           DeviceTransferModeSupported[MAX_IDE_DEVICE];
-  ULONG           DeviceTransferModeCurrent[MAX_IDE_DEVICE];
-  ULONG           DeviceTransferModeSelected[MAX_IDE_DEVICE];
-} IDE_TRANSFER_MODE_PARAMETERS, *PIDE_TRANSFER_MODE_PARAMETERS;
-````
-
-
 ## -struct-fields
 
 
@@ -79,7 +64,7 @@ Indicates the channel number whose mode parameters are to be set.
 
 ### -field DeviceType
 
-Contains an enumeration value of type <a href="..\irb\ne-irb-ide_device_type.md">IDE_DEVICE_TYPE</a> that indicates the type of device. The miniport driver should not select a transfer mode if the device type is <b>DeviceNotExist</b>.
+Contains an enumeration value of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff559096">IDE_DEVICE_TYPE</a> that indicates the type of device. The miniport driver should not select a transfer mode if the device type is <b>DeviceNotExist</b>.
 
 
 ### -field IoReadySupported
@@ -155,7 +140,6 @@ Member arrays <b>DeviceTransferModeSupported</b>, <b>DeviceTransferModeCurrent</
 
 ## -see-also
 
-<a href="..\irb\ne-irb-ide_device_type.md">IDE_DEVICE_TYPE</a>
 
 
 
@@ -163,8 +147,8 @@ Member arrays <b>DeviceTransferModeSupported</b>, <b>DeviceTransferModeCurrent</
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559096">IDE_DEVICE_TYPE</a>
  
 
  
-
 

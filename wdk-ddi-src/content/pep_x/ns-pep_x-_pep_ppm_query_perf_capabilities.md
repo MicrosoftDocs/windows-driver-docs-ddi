@@ -7,7 +7,7 @@ old-location: kernel\pep_ppm_query_perf_capabilities.htm
 old-project: kernel
 ms.assetid: 562EA523-A74D-4D46-8C01-12C745106F86
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: "*PPEP_PPM_QUERY_PERF_CAPABILITIES, PEP_PPM_QUERY_PERF_CAPABILITIES, PEP_PPM_QUERY_PERF_CAPABILITIES structure [Kernel-Mode Driver Architecture], PPEP_PPM_QUERY_PERF_CAPABILITIES, PPEP_PPM_QUERY_PERF_CAPABILITIES structure pointer [Kernel-Mode Driver Architecture], _PEP_PPM_QUERY_PERF_CAPABILITIES, kernel.pep_ppm_query_perf_capabilities, pepfx/PEP_PPM_QUERY_PERF_CAPABILITIES, pepfx/PPEP_PPM_QUERY_PERF_CAPABILITIES"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,21 +50,6 @@ req.typenames: PEP_PPM_QUERY_PERF_CAPABILITIES, *PPEP_PPM_QUERY_PERF_CAPABILITIE
 
 
 The <b>PEP_PPM_QUERY_PERF_CAPABILITIES</b> structure describes the performance capabilities of the processors in the specified processor performance domain.
-
-
-## -syntax
-
-
-````
-typedef struct _PEP_PPM_QUERY_PERF_CAPABILITIES {
-  ULONG HighestPerformance;
-  ULONG NominalPerformance;
-  ULONG LowestNonlinearPerformance;
-  ULONG LowestPerformance;
-  ULONG DomainId;
-  ULONG DomainMembers;
-} PEP_PPM_QUERY_PERF_CAPABILITIES, *PPEP_PPM_QUERY_PERF_CAPABILITIES;
-````
 
 
 ## -struct-fields
@@ -115,7 +100,6 @@ Processor performance levels are specified in platform-specific units. For examp
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt629132">Platform Performance Thresholds</a>
 
 
 
@@ -123,8 +107,8 @@ Processor performance levels are specified in platform-specific units. For examp
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt629132">Platform Performance Thresholds</a>
  
 
  
-
 

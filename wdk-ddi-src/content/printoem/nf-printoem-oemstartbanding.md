@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 The <code>OEMStartBanding</code> function is called by GDI when it is ready to start sending bands of a physical page to the driver for rendering.
 
 
-## -syntax
-
-
-````
-BOOL APIENTRY OEMStartBanding(
-   SURFOBJ *pso,
-   POINTL  *pptl
-);
-````
-
-
 ## -parameters
 
 

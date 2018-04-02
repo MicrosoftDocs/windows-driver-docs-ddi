@@ -50,20 +50,9 @@ req.typenames:
 ## -description
 
 
-The <b>KsSetDefaultClockTime</b> function sets the current time of the clock. It modifies the current time returned by the clock. The owner of the default clock is expected to serialize access to this function and to the <a href="..\ks\nf-ks-kssetdefaultclockstate.md">KsSetDefaultClockState</a> function.
+The <b>KsSetDefaultClockTime</b> function sets the current time of the clock. It modifies the current time returned by the clock. The owner of the default clock is expected to serialize access to this function and to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566820">KsSetDefaultClockState</a> function.
 
 The function can be called at DISPATCH_LEVEL.
-
-
-## -syntax
-
-
-````
-VOID KsSetDefaultClockTime(
-  _In_ PKSDEFAULTCLOCK DefaultClock,
-  _In_ LONGLONG        Time
-);
-````
 
 
 ## -parameters
@@ -92,12 +81,11 @@ None
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksgetdefaultclocktime.md">KsGetDefaultClockTime</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562614">KsGetDefaultClockTime</a>
  
 
  
-
 

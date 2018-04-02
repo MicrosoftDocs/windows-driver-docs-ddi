@@ -53,19 +53,6 @@ req.product: Windows 10 or later.
 The <b>wiasWriteMultiple </b>function writes multiple property values to a WIA item.
 
 
-## -syntax
-
-
-````
-HRESULT _stdcall wiasWriteMultiple(
-  _In_       BYTE        *pWiasContext,
-             ULONG       ulCount,
-  _In_ const PROPSPEC    *ps,
-       const PROPVARIANT *pv
-);
-````
-
-
 ## -parameters
 
 
@@ -111,12 +98,11 @@ This function operates in a similar manner to <b>IPropertyStorage::WriteMultiple
 
 ## -see-also
 
-<a href="..\wiamdef\nf-wiamdef-wiasreadmultiple.md">wiasReadMultiple</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549300">wiasReadMultiple</a>
  
 
  
-
 

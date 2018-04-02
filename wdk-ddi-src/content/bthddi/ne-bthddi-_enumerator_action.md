@@ -52,19 +52,6 @@ req.typenames: ENUMERATOR_ACTION, *PENUMERATOR_ACTION
 Reserved for internal use.
 
 
-## -syntax
-
-
-````
-typedef enum _ENUMERATOR_ACTION { 
-  ENUMERATOR_ACTION_CREATE,
-  ENUMERATOR_ACTION_REMOVE,
-  ENUMERATOR_ACTION_DESTROY,
-  ENUMERATOR_ACTION_MAX
-}  *ENUMERATOR_ACTION, *PENUMERATOR_ACTION;
-````
-
-
 ## -enum-fields
 
 
@@ -92,28 +79,27 @@ Reserved.
 
 ## -see-also
 
-<a href="..\bthddi\ns-bthddi-_brb.md">BRB</a>
 
 
 
-<a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536607">BRB</a>
 
 
 
-<a href="..\bthddi\nc-bthddi-pfnbth_allocate_brb.md">BthAllocateBrb</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536612">BRB_HEADER</a>
 
 
 
-<a href="..\bthioctl\ni-bthioctl-ioctl_internal_bth_submit_brb.md">IOCTL_INTERNAL_BTH_SUBMIT_BRB</a>
+<a href="https://msdn.microsoft.com/e1ac9d4c-75e2-4d37-86d7-3c3f1486222e">BthAllocateBrb</a>
 
 
 
-<a href="..\bthddi\nc-bthddi-pfnbth_initialize_brb.md">BthInitializeBrb</a>
+<a href="https://msdn.microsoft.com/0b822d28-edaa-40cc-a678-112a356d9022">BthInitializeBrb</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536751">IOCTL_INTERNAL_BTH_SUBMIT_BRB</a>
  
 
  
-
 

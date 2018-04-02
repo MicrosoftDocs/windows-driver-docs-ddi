@@ -58,16 +58,6 @@ req.product: Windows 10 or later.
 The <b>WdfDeviceGetDefaultQueue</b> method returns a handle to a device's default I/O queue.
 
 
-## -syntax
-
-
-````
-WDFQUEUE WdfDeviceGetDefaultQueue(
-  _In_ WDFDEVICE Device
-);
-````
-
-
 ## -parameters
 
 

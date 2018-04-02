@@ -7,7 +7,7 @@ old-location: netvista\wwan_auth_response.htm
 old-project: netvista
 ms.assetid: CD0B90A1-032D-4F09-827F-E80607AE4EA7
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*PWWAN_AUTH_RESPONSE, PWWAN_AUTH_RESPONSE, PWWAN_AUTH_RESPONSE structure pointer [Network Drivers Starting with Windows Vista], WWAN_AUTH_RESPONSE, WWAN_AUTH_RESPONSE structure [Network Drivers Starting with Windows Vista], _WWAN_AUTH_RESPONSE, netvista.wwan_auth_response, wwan/PWWAN_AUTH_RESPONSE, wwan/WWAN_AUTH_RESPONSE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,21 +53,6 @@ req.product: Windows 10 or later.
 The WWAN_AUTH_RESPONSE structure represents an authentication challenge response.
 
 
-## -syntax
-
-
-````
-typedef struct _WWAN_AUTH_RESPONSE {
-  WWAN_AUTH_METHOD AuthMethod;
-  union {
-    WWAN_AUTH_SIM_RESPONSE  AuthSim;
-    WWAN_AUTH_AKA_RESPONSE  AuthAka;
-    WWAN_AUTH_AKAP_RESPONSE AuthAkap;
-  } u;
-} WWAN_AUTH_RESPONSE, *PWWAN_AUTH_RESPONSE;
-````
-
-
 ## -struct-fields
 
 
@@ -105,35 +90,34 @@ The response from the AKA' authentication method.  If <b>AuthMethod</b> is set t
 
 
 
-The <a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_auth_response.md">NDIS_WWAN_AUTH_RESPONSE</a> structure uses this structure.
+The <a href="https://msdn.microsoft.com/library/windows/hardware/hh439834">NDIS_WWAN_AUTH_RESPONSE</a> structure uses this structure.
 
 
 
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_auth_akap_response.md">WWAN_AUTH_AKAP_RESPONSE</a>
 
 
 
-<a href="..\wwan\ne-wwan-_wwan_auth_method.md">WWAN_AUTH_METHOD</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439834">NDIS_WWAN_AUTH_RESPONSE</a>
 
 
 
-<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_auth_response.md">NDIS_WWAN_AUTH_RESPONSE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh440303">WWAN_AUTH_AKAP_RESPONSE</a>
 
 
 
-<a href="..\wwan\ns-wwan-_wwan_auth_aka_response.md">WWAN_AUTH_AKA_RESPONSE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh464126">WWAN_AUTH_AKA_RESPONSE</a>
 
 
 
-<a href="..\wwan\ns-wwan-_wwan_auth_sim_response.md">WWAN_AUTH_SIM_RESPONSE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh464128">WWAN_AUTH_METHOD</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh464131">WWAN_AUTH_SIM_RESPONSE</a>
  
 
  
-
 

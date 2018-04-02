@@ -7,7 +7,7 @@ old-location: display\dxgkarg_destroyperiodicframenotification.htm
 old-project: display
 ms.assetid: 94797515-3440-46A9-ACBD-09D005A33CE3
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKARG_DESTROYPERIODICFRAMENOTIFICATION, DXGKARG_DESTROYPERIODICFRAMENOTIFICATION structure [Display Devices], _DXGKARG_DESTROYPERIODICFRAMENOTIFICATION, d3dkmddi/DXGKARG_DESTROYPERIODICFRAMENOTIFICATION, display.dxgkarg_destroyperiodicframenotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,17 +50,6 @@ req.typenames: DXGKARG_DESTROYPERIODICFRAMENOTIFICATION
 
 
 The arguments used to destroy a periodic frame notification.
-
-
-## -syntax
-
-
-````
-typedef struct _DXGKARG_DESTROYPERIODICFRAMENOTIFICATION {
-  HANDLE hNotification;
-  HANDLE hAdapter;
-} DXGKARG_DESTROYPERIODICFRAMENOTIFICATION;
-````
 
 
 ## -struct-fields

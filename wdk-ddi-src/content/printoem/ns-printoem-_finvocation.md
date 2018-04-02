@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 The FINVOCATION structure is used as input to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554274">IPrintOemUni::SendFontCmd</a> method. The structure is defined in printoem.h.
 
 
-## -syntax
-
-
-````
-typedef struct _FINVOCATION {
-  DWORD dwCount;
-  PBYTE pubCommand;
-} FINVOCATION, *PFINVOCATION;
-````
-
-
 ## -struct-fields
 
 
@@ -81,12 +70,11 @@ Unidrv-supplied pointer to a string containing the printer's font selection comm
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554274">IPrintOemUni::SendFontCmd</a>
-
-
-
  
 
  
-
 

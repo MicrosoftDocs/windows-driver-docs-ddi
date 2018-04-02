@@ -7,7 +7,7 @@ old-location: display\dxva_deinterlacequerymodecaps.htm
 old-project: display
 ms.assetid: 4978e4f6-23e3-4381-be4e-550292101013
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXVA_DeinterlaceQueryModeCaps, DXVA_DeinterlaceQueryModeCaps structure [Display Devices], _DXVA_DeinterlaceQueryModeCaps, display.dxva_deinterlacequerymodecaps, dxva/DXVA_DeinterlaceQueryModeCaps, dxvaref_a9b0a8a8-0a11-417c-a356-6b39cb1f7ddb.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,18 +52,6 @@ req.typenames: DXVA_DeinterlaceQueryModeCaps
 The DXVA_DeinterlaceQueryModeCaps structure describes a deinterlacing mode. 
 
 
-## -syntax
-
-
-````
-typedef struct _DXVA_DeinterlaceQueryModeCaps {
-  DWORD          Size;
-  GUID           Guid;
-  DXVA_VideoDesc VideoDesc;
-} DXVA_DeinterlaceQueryModeCaps;
-````
-
-
 ## -struct-fields
 
 
@@ -81,34 +69,33 @@ Specifies for which mode of deinterlacing the driver should return capabilities.
 
 ### -field VideoDesc
 
-Specifies a <a href="..\dxva\ns-dxva-_dxva_videodesc.md">DXVA_VideoDesc</a> structure that describes the type of video that is to be deinterlaced.
+Specifies a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564070">DXVA_VideoDesc</a> structure that describes the type of video that is to be deinterlaced.
 
 
 ## -remarks
 
 
 
-The driver receives the DXVA_DeinterlaceQueryModeCaps structure with all members assigned in a query for capabilities about a particular deinterlacing mode. The driver returns capabilities in a <a href="..\dxva\ns-dxva-_dxva_deinterlacecaps.md">DXVA_DeinterlaceCaps</a> structure.
+The driver receives the DXVA_DeinterlaceQueryModeCaps structure with all members assigned in a query for capabilities about a particular deinterlacing mode. The driver returns capabilities in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff563939">DXVA_DeinterlaceCaps</a> structure.
 
 
 
 
 ## -see-also
 
-<a href="..\dxva\ns-dxva-_dxva_deinterlacequeryavailablemodes.md">DXVA_DeinterlaceQueryAvailableModes</a>
 
 
 
-<a href="..\dxva\ns-dxva-_dxva_deinterlacecaps.md">DXVA_DeinterlaceCaps</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563939">DXVA_DeinterlaceCaps</a>
 
 
 
-<a href="..\dxva\ns-dxva-_dxva_videodesc.md">DXVA_VideoDesc</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563951">DXVA_DeinterlaceQueryAvailableModes</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564070">DXVA_VideoDesc</a>
  
 
  
-
 

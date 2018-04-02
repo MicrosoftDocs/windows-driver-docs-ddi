@@ -7,7 +7,7 @@ old-location: kernel\pep_processor_idle_constraints.htm
 old-project: kernel
 ms.assetid: E2939DFA-52EC-4AA7-ACC6-63D60603A24D
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: "*PPEP_PROCESSOR_IDLE_CONSTRAINTS, PEP_PROCESSOR_IDLE_CONSTRAINTS, PEP_PROCESSOR_IDLE_CONSTRAINTS structure [Kernel-Mode Driver Architecture], PPEP_PROCESSOR_IDLE_CONSTRAINTS, PPEP_PROCESSOR_IDLE_CONSTRAINTS structure pointer [Kernel-Mode Driver Architecture], _PEP_PROCESSOR_IDLE_CONSTRAINTS, kernel.pep_processor_idle_constraints, pep_x/PEP_PROCESSOR_IDLE_CONSTRAINTS, pep_x/PPEP_PROCESSOR_IDLE_CONSTRAINTS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,18 +52,6 @@ req.typenames: PEP_PROCESSOR_IDLE_CONSTRAINTS, *PPEP_PROCESSOR_IDLE_CONSTRAINTS
 The <b>PEP_PROCESSOR_IDLE_CONSTRAINTS</b> structure specifies a set of constraints that the PEP uses to select a processor idle state.
 
 
-## -syntax
-
-
-````
-typedef struct _PEP_PROCESSOR_IDLE_CONSTRAINTS {
-  ULONGLONG               IdleDuration;
-  BOOLEAN                 Interruptible;
-  PEP_PROCESSOR_IDLE_TYPE Type;
-} PEP_PROCESSOR_IDLE_CONSTRAINTS, *PPEP_PROCESSOR_IDLE_CONSTRAINTS;
-````
-
-
 ## -struct-fields
 
 
@@ -81,30 +69,29 @@ Whether the processor must be able to respond to interrupts in the selected idle
 
 ### -field Type
 
-A <a href="..\pep_x\ne-pep_x-ppep_processor_idle_type.md">PEP_PROCESSOR_IDLE_TYPE</a> enumeration value that indicates whether these idle constraints apply to just the current processor (<b>Type</b> = <b>PepIdleTypeProcessor</b>) or to all processors in the hardware platform (<b>Type</b> = <b>PepIdleTypePlatform</b>).
+A <a href="https://msdn.microsoft.com/library/windows/hardware/mt629126">PEP_PROCESSOR_IDLE_TYPE</a> enumeration value that indicates whether these idle constraints apply to just the current processor (<b>Type</b> = <b>PepIdleTypeProcessor</b>) or to all processors in the hardware platform (<b>Type</b> = <b>PepIdleTypePlatform</b>).
 
 
 ## -remarks
 
 
 
-The <b>Constraints</b> member of the <a href="..\pep_x\ns-pep_x-_pep_ppm_idle_select.md">PEP_PPM_IDLE_SELECT</a> structure is a pointer to a <b>PEP_PROCESSOR_IDLE_CONSTRAINTS</b> structure.
+The <b>Constraints</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/mt629120">PEP_PPM_IDLE_SELECT</a> structure is a pointer to a <b>PEP_PROCESSOR_IDLE_CONSTRAINTS</b> structure.
 
 
 
 
 ## -see-also
 
-<a href="..\pep_x\ne-pep_x-ppep_processor_idle_type.md">PEP_PROCESSOR_IDLE_TYPE</a>
 
 
 
-<a href="..\pep_x\ns-pep_x-_pep_ppm_idle_select.md">PEP_PPM_IDLE_SELECT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt629120">PEP_PPM_IDLE_SELECT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt629126">PEP_PROCESSOR_IDLE_TYPE</a>
  
 
  
-
 

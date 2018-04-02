@@ -7,7 +7,7 @@ old-location: ifsk\psupdatediskcounters.htm
 old-project: ifsk
 ms.assetid: 0BDC6629-9C0E-4437-888D-1EF730714CA4
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: PsUpdateDiskCounters, PsUpdateDiskCounters routine [Installable File System Drivers], ifsk.psupdatediskcounters, ntifs/PsUpdateDiskCounters
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,21 +50,6 @@ req.typenames: TOKEN_TYPE
 
 
 The <b>PsUpdateDiskCounters</b> routine updates the disk I/O counters of a given process.
-
-
-## -syntax
-
-
-````
-VOID PsUpdateDiskCounters(
-   PEPROCESS Process,
-   ULONG64   BytesRead,
-   ULONG64   BytesWritten,
-   ULONG     ReadOperationCount,
-   ULONG     WriteOperationCount,
-   ULONG     FlushOperationCount
-);
-````
 
 
 ## -parameters
@@ -122,12 +107,11 @@ File system drivers use <b>PsUpdateDiskCounters</b> to update counts for disk I/
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-psisdiskcountersenabled.md">PsIsDiskCountersEnabled</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh971608">PsIsDiskCountersEnabled</a>
  
 
  
-
 

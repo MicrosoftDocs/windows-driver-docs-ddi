@@ -7,7 +7,7 @@ old-location: kernel\kequeryruntimethread.htm
 old-project: kernel
 ms.assetid: 300720f6-8049-4558-ba8b-ecdbb8a59dbd
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: KeQueryRuntimeThread, KeQueryRuntimeThread routine [Kernel-Mode Driver Architecture], k105_e8f1a28f-98f1-447c-bb72-1d1da6b50f01.xml, kernel.kequeryruntimethread, wdm/KeQueryRuntimeThread
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 The <b>KeQueryRuntimeThread</b> routine reports the accumulated kernel-mode and user-mode run time of a thread, in clock ticks.
 
 
-## -syntax
-
-
-````
-ULONG KeQueryRuntimeThread(
-  _In_  PKTHREAD Thread,
-  _Out_ PULONG   UserTime
-);
-````
-
-
 ## -parameters
 
 
@@ -90,12 +79,11 @@ Pointer to the memory location where <b>KeQueryRuntimeThread</b> returns the acc
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kequerytimeincrement.md">KeQueryTimeIncrement</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553075">KeQueryTimeIncrement</a>
  
 
  
-
 

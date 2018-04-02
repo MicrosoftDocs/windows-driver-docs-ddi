@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 Used to initialize a state change.
 
 
-## -syntax
-
-
-````
-FORCEINLINE VOID SensorsCxStateChange(
-  _In_ SENSOROBJECT Sensor,
-  _In_ SENSOR_STATE State
-);
-````
-
-
 ## -parameters
 
 

@@ -7,7 +7,7 @@ old-location: storage\storportregistryread.htm
 old-project: storage
 ms.assetid: 16f13973-c1c1-4123-8fa4-20187ec2c204
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: StorPortRegistryRead, StorPortRegistryRead routine [Storage Devices], storage.storportregistryread, storport/StorPortRegistryRead, storprt_6eafcbbc-b767-45b3-97d6-86e591a29a19.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -54,21 +54,6 @@ req.product: Windows 10 or later.
 The <b>StorPortRegistryRead</b> routine reads the registry data for the indicated device and value. 
 
 
-## -syntax
-
-
-````
-BOOLEAN StorPortRegistryRead(
-   IN PVOID  HwDeviceExtension,
-   IN PUCHAR ValueName,
-   IN ULONG  Global,
-   IN ULONG  Type,
-   IN PUCHAR Buffer,
-   IN PULONG BufferLength
-);
-````
-
-
 ## -parameters
 
 
@@ -76,7 +61,7 @@ BOOLEAN StorPortRegistryRead(
 
 ### -param HwDeviceExtension
 
-A pointer to the hardware device extension. This is a per HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the mapped access ranges for the HBA. This area is available to the miniport driver immediately after the miniport driver calls <a href="..\storport\nf-storport-storportinitialize.md">StorPortInitialize</a>. The port driver frees this memory when it removes the device. The miniport driver must be running at IRQL PASSIVE_LEVEL when it calls this routine.
+A pointer to the hardware device extension. This is a per HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the mapped access ranges for the HBA. This area is available to the miniport driver immediately after the miniport driver calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff567108">StorPortInitialize</a>. The port driver frees this memory when it removes the device. The miniport driver must be running at IRQL PASSIVE_LEVEL when it calls this routine.
 
 
 ### -param ValueName
@@ -269,23 +254,22 @@ Pointer to a ULONG that contains the size, in bytes, of the registry data return
 
 If <b>StorPortRegistryRead</b> returns <b>FALSE</b> with a nonzero value in the <i>BufferLength</i> parameter, the buffer that was passed was too small and the <i>BufferLength</i> parameter reflects the correct buffer size that should be used. If the routine returns <b>FALSE</b> with the <i>BufferLength</i> parameter set to zero, another error has occurred.
 
-The buffer used in this routine is allocated by calling <a href="..\storport\nf-storport-storportallocateregistrybuffer.md">StorPortAllocateRegistryBuffer</a> and freed by calling <a href="..\storport\nf-storport-storportfreeregistrybuffer.md">StorPortFreeRegistryBuffer</a>.
+The buffer used in this routine is allocated by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff567034">StorPortAllocateRegistryBuffer</a> and freed by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff567067">StorPortFreeRegistryBuffer</a>.
 
 
 
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportallocateregistrybuffer.md">StorPortAllocateRegistryBuffer</a>
 
 
 
-<a href="..\storport\nf-storport-storportfreeregistrybuffer.md">StorPortFreeRegistryBuffer</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567034">StorPortAllocateRegistryBuffer</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567067">StorPortFreeRegistryBuffer</a>
  
 
  
-
 

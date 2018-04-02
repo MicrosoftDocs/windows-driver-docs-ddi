@@ -7,7 +7,7 @@ old-location: display\d3d12ddi-d3d12-options-data-0032.htm
 old-project: display
 ms.assetid: 23b2a512-9828-4d1c-9282-2df6a1a80d85
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3D12DDI_D3D12_OPTIONS_DATA_0032, D3D12DDI_D3D12_OPTIONS_DATA_0032 structure [Display Devices], d3d12umddi/D3D12DDI_D3D12_OPTIONS_DATA_0032, display.d3d12ddi-d3d12-options-data-0032
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,26 +50,6 @@ req.typenames: D3D12DDI_D3D12_OPTIONS_DATA_0032
 
 
 Display options data.
-
-
-## -syntax
-
-
-````
-typedef struct _D3D12DDI_D3D12_OPTIONS_DATA_0032 {
-  D3D12DDI_RESOURCE_BINDING_TIER               ResourceBindingTier;
-  D3D12DDI_CONSERVATIVE_RASTERIZATION_TIER     ConservativeRasterizationTier;
-  D3D12DDI_TILED_RESOURCES_TIER                TiledResourcesTier;
-  D3D12DDI_CROSS_NODE_SHARING_TIER             CrossNodeSharingTier;
-  BOOL                                         VPAndRTArrayIndexFromAnyShaderFeedingRasterizerSupportedWithoutGSEmulation;
-  BOOL                                         OutputMergerLogicOp;
-  D3D12DDI_RESOURCE_HEAP_TIER                  ResourceHeapTier;
-  BOOL                                         DepthBoundsTestSupported;
-  D3D12DDI_PROGRAMMABLE_SAMPLE_POSITIONS_TIER  ProgrammableSamplePositionsTier;
-  BOOL                                         CopyQueueTimestampQueriesSupported;
-  D3D12DDI_COMMAND_QUEUE_FLAGS                 WriteBufferImmediateQueueFlags;
-} D3D12DDI_D3D12_OPTIONS_DATA_0032, D3D12DDI_D3D12_OPTIONS_DATA_0032;
-````
 
 
 ## -struct-fields

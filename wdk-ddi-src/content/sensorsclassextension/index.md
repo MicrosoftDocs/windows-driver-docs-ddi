@@ -2,7 +2,7 @@
 UID: NA:sensorsclassextension
 ms.assetid: 9181ae48-c50e-3f5e-942d-1030b8e2c0b5
 ms.author: windowsdriverdev
-ms.date: 03/13/18
+ms.date: 02/27/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

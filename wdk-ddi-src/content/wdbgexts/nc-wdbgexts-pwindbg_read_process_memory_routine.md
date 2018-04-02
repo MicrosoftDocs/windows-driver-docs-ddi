@@ -7,7 +7,7 @@ old-location: debugger\readmemory.htm
 old-project: debugger
 ms.assetid: 36169759-1ee3-4463-a381-67b0277cca25
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: PWINDBG_READ_PROCESS_MEMORY_ROUTINE, ReadMemory, ReadMemory callback function [Windows Debugging], WdbgExts_Ref_53e869bc-03c9-4818-80fd-ca1bdafe2b96.xml, debugger.readmemory, wdbgexts/ReadMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,19 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>PWINDBG_READ_PROCESS_MEMORY_ROUTINE</b> (<b>ReadMemory</b>) function works like the Win32 <b>ReadProcessMemory</b> function. It reads memory from the process being debugged. The entire area to be read must be accessible, or the operation fails. 
-
-
-## -prototype
-
-
-````
-ULONG  ReadMemory(
-   ULONG_PTR offset,
-   PVOID     lpBuffer,
-   ULONG     cb,
-   PULONG    lpcbBytesRead
-);
-````
 
 
 ## -parameters

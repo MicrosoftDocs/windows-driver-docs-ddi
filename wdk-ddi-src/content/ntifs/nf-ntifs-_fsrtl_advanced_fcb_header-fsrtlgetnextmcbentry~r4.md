@@ -7,7 +7,7 @@ old-location: ifsk\fsrtlgetnextmcbentry.htm
 old-project: ifsk
 ms.assetid: 0d77bb03-debb-4ba8-ac6b-ce130a8a16fa
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FsRtlGetNextMcbEntry, FsRtlGetNextMcbEntry function [Installable File System Drivers], fsrtlref_3465b156-f358-4049-8480-e59e92ecccbb.xml, ifsk.fsrtlgetnextmcbentry, ntifs/FsRtlGetNextMcbEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,17 +49,7 @@ req.typenames: TOKEN_TYPE
 ## -description
 
 
-The <b>FsRtlGetNextMcbEntry</b> routine is obsolete, but is exported to support existing driver binaries. Use <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlgetnextlargemcbentry~r4.md">FsRtlGetNextLargeMcbEntry</a> instead.
-
-
-## -syntax
-
-
-````
-  FsRtlGetNextMcbEntry(
-    
-);
-````
+The <b>FsRtlGetNextMcbEntry</b> routine is obsolete, but is exported to support existing driver binaries. Use <a href="https://msdn.microsoft.com/library/windows/hardware/ff546040">FsRtlGetNextLargeMcbEntry</a> instead.
 
 
 ## -parameters

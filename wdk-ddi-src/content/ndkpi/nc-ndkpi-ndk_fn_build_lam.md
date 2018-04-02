@@ -7,7 +7,7 @@ old-location: netvista\ndk_fn_build_lam.htm
 old-project: netvista
 ms.assetid: 89183961-0A96-4ED0-8316-E6A2C99C929F
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: NDK_FN_BUILD_LAM, NdkBuildLam, NdkBuildLam callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkBuildLam, netvista.ndk_fn_build_lam
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,26 +52,6 @@ req.typenames: NDIS_WWAN_VISIBLE_PROVIDERS, *PNDIS_WWAN_VISIBLE_PROVIDERS
 The <i>NdkBuildLam</i> (<i>NDK_FN_BUILD_LAM</i>) function gets an adapter logical address mapping (LAM) from the NDK provider for a virtually contiguous memory region.
 
 
-## -prototype
-
-
-````
-NDK_FN_BUILD_LAM NdkBuildLam;
-
-NTSTATUS NdkBuildLam(
-  _In_     NDK_ADAPTER                                                                 *pNdkAdapter,
-  _In_     MDL                                                                         *Mdl,
-  _In_     SIZE_T                                                                      Length,
-  _In_     NDK_FN_REQUEST_COMPLETION                                                   RequestCompletion,
-  _In_opt_ PVOID                                                                       RequestContext,
-           _Out_writes_bytes_to_opt_(*pLAMSize, *pLAMSize) NDK_LOGICAL_ADDRESS_MAPPING *pNdkLAM,
-           _Inout_ ULONG                                                               *pLAMSize,
-  _Out_    ULONG                                                                       *pFBO
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -79,7 +59,7 @@ NTSTATUS NdkBuildLam(
 
 ### -param *pNdkAdapter [in]
 
-A pointer to an NDK adapter object (<a href="..\ndkpi\ns-ndkpi-_ndk_adapter.md">NDK_ADAPTER</a>).
+A pointer to an NDK adapter object (<a href="https://msdn.microsoft.com/library/windows/hardware/hh439848">NDK_ADAPTER</a>).
 
 
 
@@ -95,7 +75,7 @@ The number of bytes to map starting from the first MDL's virtual address.  The M
 
 ### -param RequestCompletion [in]
 
-A pointer to a <i>NdkRequestCompletion</i> (<a href="..\ndkpi\nc-ndkpi-ndk_fn_request_completion.md">NDK_FN_REQUEST_COMPLETION</a>) callback function.
+A pointer to a <i>NdkRequestCompletion</i> (<a href="https://msdn.microsoft.com/library/windows/hardware/hh439912">NDK_FN_REQUEST_COMPLETION</a>) callback function.
 
 
 ### -param RequestContext [in, optional]
@@ -105,7 +85,7 @@ A context value for the provider to pass back to the <i>NdkRequestCompletion</i>
 
 ### -param *pNdkLAM
 
-A pointer to a buffer that will hold an <a href="..\ndkpi\ns-ndkpi-_ndk_logical_address_mapping.md">NDK_LOGICAL_ADDRESS_MAPPING</a>  structure that contains an adapter page array. The  adapter page array is stored  in the <b>AdapterPageArray</b> member and the <b>AdapterPageCount</b> member contains the number of adapter page elements.
+A pointer to a buffer that will hold an <a href="https://msdn.microsoft.com/library/windows/hardware/hh439920">NDK_LOGICAL_ADDRESS_MAPPING</a>  structure that contains an adapter page array. The  adapter page array is stored  in the <b>AdapterPageArray</b> member and the <b>AdapterPageCount</b> member contains the number of adapter page elements.
 
 
 ### -param *pLAMSize
@@ -148,7 +128,7 @@ The operation completed successfully.
 </dl>
 </td>
 <td width="60%">
-The request is pending, the function specified at the <i>RequestCompletion</i>  parameter(<a href="..\ndkpi\nc-ndkpi-ndk_fn_request_completion.md">NDK_FN_REQUEST_COMPLETION</a>) will be called when the LAM build operation is complete.
+The request is pending, the function specified at the <i>RequestCompletion</i>  parameter(<a href="https://msdn.microsoft.com/library/windows/hardware/hh439912">NDK_FN_REQUEST_COMPLETION</a>) will be called when the LAM build operation is complete.
 
 </td>
 </tr>
@@ -214,7 +194,7 @@ The part of the MDL chain from the starting virtual address up to the number of 
 <div> </div>
 An adapter accesses physical memory with logical addresses. This is similar to a CPU accessing physical memory with virtual addresses. If an NDK consumer will use physical memory pages directly as local data buffers in send, receive, read, or write requests,  it must get an NDK adapter logical address mapping from the NDK provider and use the logical addresses rather than physical addresses. Similarly, an NDK consumer must also use logical addresses in fast-register requests.
 
-An NDK consumer can call  the <i>NdkGetPrivilegedMemoryRegionToken</i> (<a href="..\ndkpi\nc-ndkpi-ndk_fn_get_privileged_memory_region_token.md">NDK_FN_GET_PRIVILEGED_MEMORY_REGION_TOKEN</a>) function to  get a privileged memory region token from an NDK provider. 
+An NDK consumer can call  the <i>NdkGetPrivilegedMemoryRegionToken</i> (<a href="https://msdn.microsoft.com/library/windows/hardware/hh439896">NDK_FN_GET_PRIVILEGED_MEMORY_REGION_TOKEN</a>) function to  get a privileged memory region token from an NDK provider. 
 
 All adapter pages returned by an NDK provider must be of <b>PAGE_SIZE</b> bytes in length, where <b>PAGE_SIZE</b> is the memory page size that is supported by the host platform as defined in wdm.h.
 
@@ -227,11 +207,6 @@ If a provider has an error while processing an <i>NdkBuildLam</i> request, the p
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/94993523-D0D7-441E-B95C-417800840BAC">NDKPI Object Lifetime Requirements</a>
-
-
-
-<a href="..\ndkpi\ns-ndkpi-_ndk_adapter_dispatch.md">NDK_ADAPTER_DISPATCH</a>
 
 
 
@@ -239,28 +214,32 @@ If a provider has an error while processing an <i>NdkBuildLam</i> request, the p
 
 
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_get_privileged_memory_region_token.md">NDK_FN_GET_PRIVILEGED_MEMORY_REGION_TOKEN</a>
+<a href="https://msdn.microsoft.com/94993523-D0D7-441E-B95C-417800840BAC">NDKPI Object Lifetime Requirements</a>
 
 
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_request_completion.md">NDK_FN_REQUEST_COMPLETION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439848">NDK_ADAPTER</a>
 
 
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_adapter.md">NDK_ADAPTER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439850">NDK_ADAPTER_DISPATCH</a>
 
 
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_release_lam.md">NDK_FN_RELEASE_LAM</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439896">NDK_FN_GET_PRIVILEGED_MEMORY_REGION_TOKEN</a>
 
 
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_logical_address_mapping.md">NDK_LOGICAL_ADDRESS_MAPPING</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439910">NDK_FN_RELEASE_LAM</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439912">NDK_FN_REQUEST_COMPLETION</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439920">NDK_LOGICAL_ADDRESS_MAPPING</a>
  
 
  
-
 

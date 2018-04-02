@@ -7,7 +7,7 @@ old-location: display\dxgkcbunmapmemory.htm
 old-project: display
 ms.assetid: 71e8eb0e-599b-44cf-955b-828f6667edf6
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKCB_UNMAP_MEMORY, DpFunctions_d0ba5b02-22ab-4fad-a54a-1e402f538456.xml, DxgkCbUnmapMemory, DxgkCbUnmapMemory callback function [Display Devices], display.dxgkcbunmapmemory, dispmprt/DxgkCbUnmapMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,21 +49,7 @@ req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
 ## -description
 
 
-The <b>DxgkCbUnmapMemory</b> function unmaps a range of addresses previously mapped by <a href="..\dispmprt\nc-dispmprt-dxgkcb_map_memory.md">DxgkCbMapMemory</a>.
-
-
-## -prototype
-
-
-````
-DXGKCB_UNMAP_MEMORY DxgkCbUnmapMemory;
-
-NTSTATUS DxgkCbUnmapMemory(
-  _In_ HANDLE DeviceHandle,
-  _In_ PVOID  VirtualAddress
-)
-{ ... }
-````
+The <b>DxgkCbUnmapMemory</b> function unmaps a range of addresses previously mapped by <a href="https://msdn.microsoft.com/916a4d1d-0c40-4125-89ae-488251b04810">DxgkCbMapMemory</a>.
 
 
 ## -parameters
@@ -73,7 +59,7 @@ NTSTATUS DxgkCbUnmapMemory(
 
 ### -param DeviceHandle [in]
 
-A handle that represents a display adapter. The display miniport driver previously obtained this handle in the <b>DeviceHandle</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560942">DXGKRNL_INTERFACE</a> structure that was passed to <a href="..\dispmprt\nc-dispmprt-dxgkddi_start_device.md">DxgkDdiStartDevice</a>.
+A handle that represents a display adapter. The display miniport driver previously obtained this handle in the <b>DeviceHandle</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560942">DXGKRNL_INTERFACE</a> structure that was passed to <a href="https://msdn.microsoft.com/ffacbb39-2581-4207-841d-28ce57fbc64d">DxgkDdiStartDevice</a>.
 
 
 ### -param VirtualAddress [in]
@@ -92,12 +78,11 @@ The beginning address of the range to be unmapped. This address can be a virtual
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkcb_map_memory.md">DxgkCbMapMemory</a>
 
 
 
+<a href="https://msdn.microsoft.com/916a4d1d-0c40-4125-89ae-488251b04810">DxgkCbMapMemory</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: display\d3dkmdt_gdisurfacetype.htm
 old-project: display
 ms.assetid: b1c8fc0a-b877-4321-85b9-0c5c174ffc45
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMDT_GDISURFACETYPE, D3DKMDT_GDISURFACETYPE enumeration [Display Devices], D3DKMDT_GDISURFACE_EXISTINGSYSMEM, D3DKMDT_GDISURFACE_INVALID, D3DKMDT_GDISURFACE_LOOKUPTABLE, D3DKMDT_GDISURFACE_STAGING, D3DKMDT_GDISURFACE_STAGING_CPUVISIBLE, D3DKMDT_GDISURFACE_TEXTURE, D3DKMDT_GDISURFACE_TEXTURE_CPUVISIBLE, D3DKMDT_GDISURFACE_TEXTURE_CPUVISIBLE_CROSSADAPTER, D3DKMDT_GDISURFACE_TEXTURE_CROSSADAPTER, DmEnums_5e870c41-1496-48ff-bddd-f01a2f9e36e6.xml, _D3DKMDT_GDISURFACETYPE, d3dkmdt/D3DKMDT_GDISURFACETYPE, d3dkmdt/D3DKMDT_GDISURFACE_EXISTINGSYSMEM, d3dkmdt/D3DKMDT_GDISURFACE_INVALID, d3dkmdt/D3DKMDT_GDISURFACE_LOOKUPTABLE, d3dkmdt/D3DKMDT_GDISURFACE_STAGING, d3dkmdt/D3DKMDT_GDISURFACE_STAGING_CPUVISIBLE, d3dkmdt/D3DKMDT_GDISURFACE_TEXTURE, d3dkmdt/D3DKMDT_GDISURFACE_TEXTURE_CPUVISIBLE, d3dkmdt/D3DKMDT_GDISURFACE_TEXTURE_CPUVISIBLE_CROSSADAPTER, d3dkmdt/D3DKMDT_GDISURFACE_TEXTURE_CROSSADAPTER, display.d3dkmdt_gdisurfacetype
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,26 +50,6 @@ req.typenames: D3DKMDT_GDISURFACETYPE
 
 
 The D3DKMDT_GDISURFACETYPE enumeration indicates the type of lockable surface that is used by the Desktop Window Manager (DWM) for redirection.
-
-
-## -syntax
-
-
-````
-typedef enum _D3DKMDT_GDISURFACETYPE { 
-  D3DKMDT_GDISURFACE_INVALID                          = 0,
-  D3DKMDT_GDISURFACE_TEXTURE                          = 1,
-  D3DKMDT_GDISURFACE_STAGING_CPUVISIBLE               = 2,
-  D3DKMDT_GDISURFACE_STAGING                          = 3,
-  D3DKMDT_GDISURFACE_LOOKUPTABLE                      = 4,
-  D3DKMDT_GDISURFACE_EXISTINGSYSMEM                   = 5,
-  D3DKMDT_GDISURFACE_TEXTURE_CPUVISIBLE               = 6,
-#if (DXGKDDI_INTERFACE_VERSION >= DXGKDDI_INTERFACE_VERSION_WDDM1_3)
-  D3DKMDT_GDISURFACE_TEXTURE_CROSSADAPTER             = 7,
-  D3DKMDT_GDISURFACE_TEXTURE_CPUVISIBLE_CROSSADAPTER  = 8
-
-#endif } D3DKMDT_GDISURFACETYPE;
-````
 
 
 ## -enum-fields
@@ -131,7 +111,7 @@ Its pitch must be returned by the display miniport driver.
 
 </li>
 <li>
-Its pitch value and surface address must be aligned to the value of the <b>AlignmentShift</b> member of the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_presentationcaps.md">DXGK_PRESENTATIONCAPS</a> structure (that is, <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_drivercaps.md">DXGK_DRIVERCAPS</a>-&gt;PresentationCaps.AlignmentShift).
+Its pitch value and surface address must be aligned to the value of the <b>AlignmentShift</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562004">DXGK_PRESENTATIONCAPS</a> structure (that is, <a href="https://msdn.microsoft.com/library/windows/hardware/ff561062">DXGK_DRIVERCAPS</a>-&gt;PresentationCaps.AlignmentShift).
 
 </li>
 </ul>
@@ -165,15 +145,15 @@ It is not visible to the CPU.
 
 </li>
 <li>
-It is used only during processing of commands that are specified by the <b>ClearTypeBlend</b> and <b>OpCode</b>.DXGK_GDIOP_BITBLT (copy-only) members of the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_renderkm_command.md">DXGK_RENDERKM_COMMAND</a> structure.
+It is used only during processing of commands that are specified by the <b>ClearTypeBlend</b> and <b>OpCode</b>.DXGK_GDIOP_BITBLT (copy-only) members of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562026">DXGK_RENDERKM_COMMAND</a> structure.
 
 </li>
 <li>
-The format is defined by the D3DDDIFMT_A8 value of the <a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a> enumeration.
+The format is defined by the D3DDDIFMT_A8 value of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff544312">D3DDDIFORMAT</a> enumeration.
 
 </li>
 <li>
-The gamma lookup allocation is created one time and never changes after it is initialized. The allocation is initialized in D3DDDIFMT_A8 format by issuing a <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_renderkm_command.md">DXGK_RENDERKM_COMMAND</a>-&gt;Opcode.DXGK_GDIOP_BITBLT command from a D3DKMDT_GDISURFACE_STAGING_CPUVISIBLE surface.
+The gamma lookup allocation is created one time and never changes after it is initialized. The allocation is initialized in D3DDDIFMT_A8 format by issuing a <a href="https://msdn.microsoft.com/library/windows/hardware/ff562026">DXGK_RENDERKM_COMMAND</a>-&gt;Opcode.DXGK_GDIOP_BITBLT command from a D3DKMDT_GDISURFACE_STAGING_CPUVISIBLE surface.
 
 </li>
 </ul>
@@ -188,7 +168,7 @@ It is visible to the CPU. The allocation must be a linear format and in a cache-
 
 </li>
 <li>
-Its pitch value and surface address must be aligned to the value of the <b>AlignmentShift</b> member of the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_presentationcaps.md">DXGK_PRESENTATIONCAPS</a> structure (that is, <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_drivercaps.md">DXGK_DRIVERCAPS</a>-&gt;PresentationCaps.AlignmentShift).
+Its pitch value and surface address must be aligned to the value of the <b>AlignmentShift</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562004">DXGK_PRESENTATIONCAPS</a> structure (that is, <a href="https://msdn.microsoft.com/library/windows/hardware/ff561062">DXGK_DRIVERCAPS</a>-&gt;PresentationCaps.AlignmentShift).
 
 </li>
 <li>
@@ -218,7 +198,7 @@ It is not visible to the CPU, and the video memory manager will create it as a s
 
 </li>
 <li>
-Its pitch must be returned by the display miniport driver in the <b>Pitch</b> member of the <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_gdisurfacedata.md">D3DKMDT_GDISURFACEDATA</a> structure.
+Its pitch must be returned by the display miniport driver in the <b>Pitch</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff546021">D3DKMDT_GDISURFACEDATA</a> structure.
 
 </li>
 <li>
@@ -238,28 +218,27 @@ Supported starting with Windows 8.1.
 
 ## -see-also
 
-<a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_gdisurfacedata.md">D3DKMDT_GDISURFACEDATA</a>
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_renderkm_command.md">DXGK_RENDERKM_COMMAND</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544312">D3DDDIFORMAT</a>
 
 
 
-<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546021">D3DKMDT_GDISURFACEDATA</a>
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_presentationcaps.md">DXGK_PRESENTATIONCAPS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561062">DXGK_DRIVERCAPS</a>
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_drivercaps.md">DXGK_DRIVERCAPS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562004">DXGK_PRESENTATIONCAPS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562026">DXGK_RENDERKM_COMMAND</a>
  
 
  
-
 

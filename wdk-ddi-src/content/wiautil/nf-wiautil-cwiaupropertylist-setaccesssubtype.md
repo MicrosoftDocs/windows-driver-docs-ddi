@@ -53,18 +53,6 @@ req.product: Windows 10 or later.
 The <b>CWiauPropertyList::SetAccessSubType</b> method resets a property's access and subtype. 
 
 
-## -syntax
-
-
-````
-void SetAccessSubType(
-   INT     index,
-   ULONG   Access,
-   ULONG   SubType
-);
-````
-
-
 ## -parameters
 
 
@@ -107,16 +95,15 @@ A property's access and subtype are set originally in a call to the <a href="htt
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/4f11bec0-8ff4-4fa0-824c-71ce9774d5d1">CWiauPropertyList</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540391">CWiauPropertyList::DefineProperty</a>
-
-
-
-<a href="..\wiautil\nl-wiautil-cwiaupropertylist.md">CWiauPropertyList</a>
-
-
-
  
 
  
-
 

@@ -2,13 +2,13 @@
 UID: NC:usbfnattach.USBFN_SET_DEVICE_STATE
 title: USBFN_SET_DEVICE_STATE
 author: windows-driver-content
-description: The filter driver's implementation to set the device state and operating bus speed.
-old-location: buses\usbfn_set_device_state.htm
+description: The filter driver's implementation to abort an attach-detect operation.
+old-location: buses\usbfn_get_attach_action_abort.htm
 old-project: usbref
-ms.assetid: EAEFEE8A-D96B-40D8-A4F0-FEFA670E1E6E
+ms.assetid: 0A44551A-F379-442D-99E9-87231F5FB178
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
-ms.keywords: PFN_USBFN_SET_DEVICE_STATE, PFN_USBFN_SET_DEVICE_STATE callback function pointer [Buses], USBFN_SET_DEVICE_STATE, UsbFnSetDeviceState, UsbFnSetDeviceState callback function [Buses], buses.usbfn_set_device_state, usbfnattach/UsbFnSetDeviceState
+ms.date: 3/29/2018
+ms.keywords: USBFN_GET_ATTACH_ACTION_ABORT, USBFN_SET_DEVICE_STATE, USBFN_SET_DEVICE_STATE callback function [Buses], UsbFnGetAttachActionAbort, UsbFnGetAttachActionAbort callback function [Buses], buses.usbfn_get_attach_action_abort, usbfnattach/UsbFnGetAttachActionAbort
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -37,7 +37,7 @@ api_type:
 api_location:
 -	usbfnattach.h
 api_name:
--	PFN_USBFN_SET_DEVICE_STATE
+-	USBFN_SET_DEVICE_STATE
 product: Windows
 targetos: Windows
 req.typenames: USBD_INTERFACE_LIST_ENTRY, *PUSBD_INTERFACE_LIST_ENTRY
@@ -50,24 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The filter driver's implementation to set the device state and operating bus speed.
-
-
-## -prototype
-
-
-````
-USBFN_SET_DEVICE_STATE UsbFnSetDeviceState;
-
-NTSTATUS UsbFnSetDeviceState(
-  _In_ PVOID              Context,
-  _In_ USBFN_DEVICE_STATE DeviceState,
-  _In_ USBFN_BUS_SPEED    BusSpeed
-)
-{ ... }
-
-typedef USBFN_SET_DEVICE_STATE PFN_USBFN_SET_DEVICE_STATE;
-````
+The filter driver's implementation to abort an attach-detect operation.
 
 
 ## -parameters
@@ -80,14 +63,16 @@ typedef USBFN_SET_DEVICE_STATE PFN_USBFN_SET_DEVICE_STATE;
     A pointer to a driver-defined context.
 
 
-### -param DeviceState [in]
-
-    A <a href="..\usbfnbase\ne-usbfnbase-_usbfn_device_state.md">USBFN_DEVICE_STATE</a>-typed flag that indicates the state of the device.
+### -param DeviceState
 
 
-### -param BusSpeed [in]
+### -param BusSpeed
 
-A <a href="..\usbfnbase\ne-usbfnbase-_usbfn_bus_speed.md">USBFN_BUS_SPEED</a>-typed flag that indicates the bus speed.
+
+
+
+
+
 
 
 ## -returns
@@ -105,8 +90,6 @@ If the operation is successful, the callback function must return STATUS_SUCCESS
 
 To support attach and detatch detection, the USB lower filter driver must publish its support. During the publishing process, the driver also registers its implementation of this  callback function. For more information, see <a href="https://msdn.microsoft.com/05D2B46A-282C-4B75-9F5C-2FC0AF344AB9">USB filter driver for supporting proprietary chargers</a>.
 
-The lower filter driver might implement  a <i>USBFN_SET_DEVICE_STATE</i> even callback function if it requires notification of device state changes to properly configure charging when attached to a host, or in lab scenarios where charging via USB must be disabled.
-
 
 #### Examples
 
@@ -117,10 +100,8 @@ The lower filter driver might implement  a <i>USBFN_SET_DEVICE_STATE</i> even ca
 <tr>
 <td>
 <pre>NTSTATUS
-UsbLowerFilter_SetDeviceState(
-    _In_ PVOID Context,
-    _In_ USBFN_DEVICE_STATE DeviceState,
-    _In_ USBFN_BUS_SPEED BusSpeed
+UsbLowerFilter_GetAttachActionAbortOperation(
+    __in PVOID Context
     )
 {
     PPDCP_CONTEXT PdcpContext = NULL;
@@ -130,8 +111,8 @@ UsbLowerFilter_SetDeviceState(
     // Get our context
     PdcpContext = DeviceGetUsbLowerFilterContext((WDFDEVICE)Context);
 
-    PdcpContext-&gt;CurrentDeviceState = DeviceState;
-    PdcpContext-&gt;BusSpeed = BusSpeed;
+    // Set our event
+    (void) KeSetEvent(&amp;PdcpContext-&gt;AbortAttachOperation, LOW_REALTIME_PRIORITY, FALSE);
 
     return STATUS_SUCCESS;
 }
@@ -144,12 +125,11 @@ UsbLowerFilter_SetDeviceState(
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/05D2B46A-282C-4B75-9F5C-2FC0AF344AB9">USB filter driver for supporting proprietary chargers</a>
-
-
-
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: netvista\ndis_wwan_set_pin_ex.htm
 old-project: netvista
 ms.assetid: F08180ED-DC5A-4DA0-A42A-48511BC63DF8
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*PNDIS_WWAN_SET_PIN_EX, NDIS_WWAN_SET_PIN_EX, NDIS_WWAN_SET_PIN_EX structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_SET_PIN_EX, PNDIS_WWAN_SET_PIN_EX structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WWAN_SET_PIN_EX, ndiswwan/NDIS_WWAN_SET_PIN_EX, ndiswwan/PNDIS_WWAN_SET_PIN_EX, netvista.ndis_wwan_set_pin_ex"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,17 +50,6 @@ req.typenames: NDIS_WWAN_SET_PIN_EX, *PNDIS_WWAN_SET_PIN_EX
 
 
 The NDIS_WWAN_SET_PIN_EX structure represents what PIN action to take on the MB device.
-
-
-## -syntax
-
-
-````
-typedef struct _NDIS_WWAN_SET_PIN_EX {
-  NDIS_OBJECT_HEADER Header;
-  WWAN_PIN_ACTION    PinAction;
-} NDIS_WWAN_SET_PIN_EX, *PNDIS_WWAN_SET_PIN_EX;
-````
 
 
 ## -struct-fields
@@ -116,7 +105,7 @@ sizeof(NDIS_WWAN_SET_PIN_EX)
  
 
 For more information about these members, see 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>.
 
 
 ### -field PinAction
@@ -126,12 +115,11 @@ A formatted WWAN_PIN_ACTION object that represents an action to perform with a P
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_pin_action.md">WWAN_PIN_ACTION</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571213">WWAN_PIN_ACTION</a>
  
 
  
-
 

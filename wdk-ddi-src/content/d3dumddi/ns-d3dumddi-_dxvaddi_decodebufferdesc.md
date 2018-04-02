@@ -7,7 +7,7 @@ old-location: display\dxvaddi_decodebufferdesc.htm
 old-project: display
 ms.assetid: 809b4cf8-e4c5-4cb6-b58f-8b6b98111361
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXVA2_Structs_0946584e-3d1f-4bb4-95d5-7ae2c669814a.xml, DXVADDI_DECODEBUFFERDESC, DXVADDI_DECODEBUFFERDESC structure [Display Devices], _DXVADDI_DECODEBUFFERDESC, d3dumddi/DXVADDI_DECODEBUFFERDESC, display.dxvaddi_decodebufferdesc
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,27 +52,6 @@ req.typenames: DXVADDI_DECODEBUFFERDESC
 The DXVADDI_DECODEBUFFERDESC structure describes a buffer that is currently passed from the host decoder to the accelerator. 
 
 
-## -syntax
-
-
-````
-typedef struct _DXVADDI_DECODEBUFFERDESC {
-  HANDLE            hBuffer;
-  D3DDDIFORMAT      CompressedBufferType;
-  UINT              BufferIndex;
-  UINT              DataOffset;
-  UINT              DataSize;
-  UINT              FirstMBaddress;
-  UINT              NumMBsInBuffer;
-  UINT              Width;
-  UINT              Height;
-  UINT              Stride;
-  UINT              ReservedBits;
-  DXVADDI_PVP_HW_IV *pCipherCounter;
-} DXVADDI_DECODEBUFFERDESC;
-````
-
-
 ## -struct-fields
 
 
@@ -85,7 +64,7 @@ typedef struct _DXVADDI_DECODEBUFFERDESC {
 
 ### -field CompressedBufferType
 
-[in] A <a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>-typed value that indicates the pixel format of the buffer.
+[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff544312">D3DDDIFORMAT</a>-typed value that indicates the pixel format of the buffer.
 
 
 ### -field BufferIndex
@@ -105,7 +84,7 @@ typedef struct _DXVADDI_DECODEBUFFERDESC {
 
 ### -field FirstMBaddress
 
-[in] The macroblock address of the first macroblock in the buffer that is passed to the accelerator. The macroblock address is given in raster scan order. The address is determined by the members of the <a href="..\dxva\ns-dxva-_dxva_pictureparameters.md">DXVA_PictureParameters</a> structure. The following table shows examples of macroblock addresses.
+[in] The macroblock address of the first macroblock in the buffer that is passed to the accelerator. The macroblock address is given in raster scan order. The address is determined by the members of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff564012">DXVA_PictureParameters</a> structure. The following table shows examples of macroblock addresses.
 
 <table>
 <tr>
@@ -197,7 +176,7 @@ Slice-control command
 
 </td>
 <td>
-The value of the <b>wNumberMBsInSlice</b> member of the <a href="..\dxva\ns-dxva-_dxva_sliceinfo.md">DXVA_SliceInfo</a> structure in the slice-control buffer.
+The value of the <b>wNumberMBsInSlice</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff564049">DXVA_SliceInfo</a> structure in the slice-control buffer.
 
 </td>
 </tr>
@@ -237,14 +216,14 @@ The same value as for the corresponding slice-control command buffer.
 
 ### -field pCipherCounter
 
-[in] A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_pvp_hw_iv.md">DXVADDI_PVP_HW_IV</a> structure that contains a 128-bit protected video path (PVP) value. 
+[in] A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff562920">DXVADDI_PVP_HW_IV</a> structure that contains a 128-bit protected video path (PVP) value. 
 
 
 ## -remarks
 
 
 
-An array of DXVADDI_DECODEBUFFERDESC structures is referred to as a <i>buffer description list</i>. When a set of buffers is sent from the host decoder to the hardware accelerator, a buffer description list is sent to describe the buffers. The buffer description list contains one DXVADDI_DECODEBUFFERDESC structure for each buffer in this set. The buffer description list starts with a DXVADDI_DECODEBUFFERDESC structure for the first buffer of the first type, followed by a DXVADDI_DECODEBUFFERDESC structure for the next buffer of the same type, and so on. The buffer description list then continues with a DXVADDI_DECODEBUFFERDESC structure for the first buffer of the next type, and so on. This entire list is contained in a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_decodeexecute.md">D3DDDIARG_DECODEEXECUTE</a> structure.
+An array of DXVADDI_DECODEBUFFERDESC structures is referred to as a <i>buffer description list</i>. When a set of buffers is sent from the host decoder to the hardware accelerator, a buffer description list is sent to describe the buffers. The buffer description list contains one DXVADDI_DECODEBUFFERDESC structure for each buffer in this set. The buffer description list starts with a DXVADDI_DECODEBUFFERDESC structure for the first buffer of the first type, followed by a DXVADDI_DECODEBUFFERDESC structure for the next buffer of the same type, and so on. The buffer description list then continues with a DXVADDI_DECODEBUFFERDESC structure for the first buffer of the next type, and so on. This entire list is contained in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543001">D3DDDIARG_DECODEEXECUTE</a> structure.
 
 Because Microsoft DirectX Video Acceleration (VA) version 2.0 uses Microsoft Direct3D surfaces rather than the private surfaces that DirectX VA 1.0 uses, the user-mode display driver obtains values for the index, width, height, and stride from the given compressed buffer type rather than from the values in the <b>BufferIndex</b>, <b>Width</b>, <b>Height</b>, and <b>Stride</b> members. In fact, the Microsoft Direct3D runtime sets these members to zero.
 
@@ -253,24 +232,23 @@ Because Microsoft DirectX Video Acceleration (VA) version 2.0 uses Microsoft Dir
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_pvp_hw_iv.md">DXVADDI_PVP_HW_IV</a>
 
 
 
-<a href="..\dxva\ns-dxva-_dxva_pictureparameters.md">DXVA_PictureParameters</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543001">D3DDDIARG_DECODEEXECUTE</a>
 
 
 
-<a href="..\dxva\ns-dxva-_dxva_sliceinfo.md">DXVA_SliceInfo</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562920">DXVADDI_PVP_HW_IV</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_decodeexecute.md">D3DDDIARG_DECODEEXECUTE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564012">DXVA_PictureParameters</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564049">DXVA_SliceInfo</a>
  
 
  
-
 

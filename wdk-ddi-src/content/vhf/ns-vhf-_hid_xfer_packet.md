@@ -53,18 +53,6 @@ req.product: Windows 10 or later.
 The HID_XFER_PACKET structure contains information about a HID report that the HID class driver uses with I/O requests to get or set a report.
 
 
-## -syntax
-
-
-````
-typedef struct _HID_XFER_PACKET {
-  PUCHAR reportBuffer;
-  ULONG  reportBufferLen;
-  UCHAR  reportId;
-} HID_XFER_PACKET, *PHID_XFER_PACKET;
-````
-
-
 ## -struct-fields
 
 
@@ -96,24 +84,23 @@ The HID class driver uses this structure to specify information about a HID repo
 
 ## -see-also
 
-<a href="..\hidclass\ni-hidclass-ioctl_hid_get_input_report.md">IOCTL_HID_GET_INPUT_REPORT</a>
 
 
 
-<a href="..\hidclass\ni-hidclass-ioctl_hid_get_feature.md">IOCTL_HID_GET_FEATURE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541100">IOCTL_HID_GET_FEATURE</a>
 
 
 
-<a href="..\hidclass\ni-hidclass-ioctl_hid_set_output_report.md">IOCTL_HID_SET_OUTPUT_REPORT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541126">IOCTL_HID_GET_INPUT_REPORT</a>
 
 
 
-<a href="..\hidclass\ni-hidclass-ioctl_hid_set_feature.md">IOCTL_HID_SET_FEATURE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541176">IOCTL_HID_SET_FEATURE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541196">IOCTL_HID_SET_OUTPUT_REPORT</a>
  
 
  
-
 

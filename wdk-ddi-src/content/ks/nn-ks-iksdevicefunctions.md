@@ -72,7 +72,7 @@ The <b>IKsDeviceFunctions</b> interface has these methods.
 <a href="https://msdn.microsoft.com/e5dc54a6-e26a-455b-9990-92f5cfece923">RegisterAdapterObjectEx</a>
 </td>
 <td align="left" width="63%">
-Registers a DMA adapter object with AVStream. All drivers compiled for Win64 should use this method instead of <a href="..\ks\nf-ks-ksdeviceregisteradapterobject.md">KsDeviceRegisterAdapterObject</a>.
+Registers a DMA adapter object with AVStream. All drivers compiled for Win64 should use this method instead of <a href="https://msdn.microsoft.com/library/windows/hardware/ff561687">KsDeviceRegisterAdapterObject</a>.
 
 </td>
 </tr>

@@ -7,7 +7,7 @@ old-location: audio\iminiportstreamaudioenginenode_getstreamlinearbufferposition
 old-project: audio
 ms.assetid: C1C91ECE-7AFF-468B-84AE-9D289EECE1E1
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/19/2018
 ms.keywords: GetStreamLinearBufferPosition method [Audio Devices], GetStreamLinearBufferPosition method [Audio Devices], IMiniportStreamAudioEngineNode interface, GetStreamLinearBufferPosition,IMiniportStreamAudioEngineNode.GetStreamLinearBufferPosition, IMiniportStreamAudioEngineNode, IMiniportStreamAudioEngineNode interface [Audio Devices], GetStreamLinearBufferPosition method, IMiniportStreamAudioEngineNode::GetStreamLinearBufferPosition, audio.iminiportstreamaudioenginenode_getstreamlinearbufferposition, portcls/IMiniportStreamAudioEngineNode::GetStreamLinearBufferPosition
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,16 +52,6 @@ req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 	Gets the number of bytes that the DMA has fetched from the audio buffer since the beginning of the stream.
 
 
-## -syntax
-
-
-````
-NTSTATUS GetStreamLinearBufferPosition(
-  [out] ULONGLONG *pullLinearBufferPosition
-);
-````
-
-
 ## -parameters
 
 
@@ -83,12 +73,11 @@ The number of bytes that the DMA has fetched.
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iminiportstreamaudioenginenode.md">IMiniportStreamAudioEngineNode</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265090">IMiniportStreamAudioEngineNode</a>
  
 
  
-
 

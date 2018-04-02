@@ -7,7 +7,7 @@ old-location: display\dxvaddi_videosample.htm
 old-project: display
 ms.assetid: 20495325-8ef6-4e6d-8f86-edc12537d46f
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXVA2_Structs_c3a4d002-09dc-4653-a965-9c4f587529d4.xml, DXVADDI_VIDEOSAMPLE, DXVADDI_VIDEOSAMPLE structure [Display Devices], _DXVADDI_VIDEOSAMPLE, d3dumddi/DXVADDI_VIDEOSAMPLE, display.dxvaddi_videosample
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,25 +52,6 @@ req.typenames: DXVADDI_VIDEOSAMPLE
 The DXVADDI_VIDEOSAMPLE structure describes the format of a video sample that is used in a video processing operation.
 
 
-## -syntax
-
-
-````
-typedef struct _DXVADDI_VIDEOSAMPLE {
-  REFERENCE_TIME           Start;
-  REFERENCE_TIME           End;
-  DXVADDI_EXTENDEDFORMAT   SampleFormat;
-  DXVADDI_VIDEOSAMPLEFLAGS SampleFlags;
-  HANDLE                   SrcResource;
-  UINT                     SrcSubResourceIndex;
-  RECT                     SrcRect;
-  RECT                     DstRect;
-  DXVADDI_AYUVSAMPLE8      Pal[16];
-  DXVADDI_FIXED32          PlanarAlpha;
-} DXVADDI_VIDEOSAMPLE;
-````
-
-
 ## -struct-fields
 
 
@@ -88,12 +69,12 @@ typedef struct _DXVADDI_VIDEOSAMPLE {
 
 ### -field SampleFormat
 
-[in] A <a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_extendedformat.md">DXVADDI_EXTENDEDFORMAT</a> structure that describes the extended format of the video sample.
+[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff562904">DXVADDI_EXTENDEDFORMAT</a> structure that describes the extended format of the video sample.
 
 
 ### -field SampleFlags
 
-[in] A <a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_videosampleflags.md">DXVADDI_VIDEOSAMPLEFLAGS</a> structure that identifies changes in the current sample frame from the previous sample frame.
+[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff562959">DXVADDI_VIDEOSAMPLEFLAGS</a> structure that identifies changes in the current sample frame from the previous sample frame.
 
 
 ### -field SrcResource
@@ -118,38 +99,37 @@ typedef struct _DXVADDI_VIDEOSAMPLE {
 
 ### -field Pal
 
-[in] An array of <a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_ayuvsample8.md">DXVADDI_AYUVSAMPLE8</a> structures that represent a complete 16-color palette for palletized video substream pixel formats. The driver uses this palette to composite the substream sample. For nonpalletized pixel formats, the <b>Pal</b> member is <b>NULL</b> and can be ignored.
+[in] An array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff562893">DXVADDI_AYUVSAMPLE8</a> structures that represent a complete 16-color palette for palletized video substream pixel formats. The driver uses this palette to composite the substream sample. For nonpalletized pixel formats, the <b>Pal</b> member is <b>NULL</b> and can be ignored.
 
 
 ### -field PlanarAlpha
 
-[in] A <a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_fixed32.md">DXVADDI_FIXED32</a> structure that specifies the transparency value that the driver should apply to the composited background color and video stream and substream image (the entire video plane) as it is written to the destination surface. A value of 0.0 indicates transparent. A value of 1.0 indicates opaque.
+[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff562909">DXVADDI_FIXED32</a> structure that specifies the transparency value that the driver should apply to the composited background color and video stream and substream image (the entire video plane) as it is written to the destination surface. A value of 0.0 indicates transparent. A value of 1.0 indicates opaque.
 
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_videoprocessblt.md">D3DDDIARG_VIDEOPROCESSBLT</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_fixed32.md">DXVADDI_FIXED32</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544102">D3DDDIARG_VIDEOPROCESSBLT</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_extendedformat.md">DXVADDI_EXTENDEDFORMAT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562893">DXVADDI_AYUVSAMPLE8</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_ayuvsample8.md">DXVADDI_AYUVSAMPLE8</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562904">DXVADDI_EXTENDEDFORMAT</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562909">DXVADDI_FIXED32</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
-
-
-
  
 
  
-
 

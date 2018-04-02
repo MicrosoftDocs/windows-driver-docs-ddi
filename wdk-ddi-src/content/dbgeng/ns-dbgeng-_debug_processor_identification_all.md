@@ -7,7 +7,7 @@ old-location: debugger\debug_processor_identification_all.htm
 old-project: debugger
 ms.assetid: 2C4C03BC-0D84-4151-B1A1-FE76F0355CD6
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*PDEBUG_PROCESSOR_IDENTIFICATION_ALL, DEBUG_PROCESSOR_IDENTIFICATION_ALL, DEBUG_PROCESSOR_IDENTIFICATION_ALL union [Windows Debugging], _DEBUG_PROCESSOR_IDENTIFICATION_ALL, dbgeng/DEBUG_PROCESSOR_IDENTIFICATION_ALL, debugger.debug_processor_identification_all"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,21 +52,6 @@ req.typenames: DEBUG_PROCESSOR_IDENTIFICATION_ALL, *PDEBUG_PROCESSOR_IDENTIFICAT
 This union contains relevant information for a processor the supported processors. 
 
 
-## -syntax
-
-
-````
-typedef union _DEBUG_PROCESSOR_IDENTIFICATION_ALL {
-  DEBUG_PROCESSOR_IDENTIFICATION_ALPHA Alpha;
-  DEBUG_PROCESSOR_IDENTIFICATION_AMD64 Amd64;
-  DEBUG_PROCESSOR_IDENTIFICATION_IA64  Ia64;
-  DEBUG_PROCESSOR_IDENTIFICATION_X86   X86;
-  DEBUG_PROCESSOR_IDENTIFICATION_ARM   Arm;
-  DEBUG_PROCESSOR_IDENTIFICATION_ARM64 Arm64;
-} DEBUG_PROCESSOR_IDENTIFICATION_ALL;
-````
-
-
 ## -struct-fields
 
 
@@ -74,62 +59,61 @@ typedef union _DEBUG_PROCESSOR_IDENTIFICATION_ALL {
 
 ### -field Alpha
 
-An Alpha processor as a <a href="..\dbgeng\ns-dbgeng-_debug_processor_identification_alpha.md">DEBUG_PROCESSOR_IDENTIFICATION_ALPHA</a> struct.
+An Alpha processor as a <a href="https://msdn.microsoft.com/AE0DB2CC-6364-4B50-8CD3-8EF8B495FBED">DEBUG_PROCESSOR_IDENTIFICATION_ALPHA</a> struct.
 
 
 ### -field Amd64
 
-An AMD64 processor as a <a href="..\dbgeng\ns-dbgeng-_debug_processor_identification_amd64.md">DEBUG_PROCESSOR_IDENTIFICATION_AMD64</a> stuct. 
+An AMD64 processor as a <a href="https://msdn.microsoft.com/71E28D54-19D2-4A62-9A63-633186F67AD5">DEBUG_PROCESSOR_IDENTIFICATION_AMD64</a> stuct. 
 
 
 ### -field Ia64
 
-An Italium architecture processor as a <a href="..\dbgeng\ns-dbgeng-_debug_processor_identification_ia64.md">DEBUG_PROCESSOR_IDENTIFICATION_IA64</a> stuct.
+An Italium architecture processor as a <a href="https://msdn.microsoft.com/8827D989-EB59-4474-97D8-9CD9BF24FCC1">DEBUG_PROCESSOR_IDENTIFICATION_IA64</a> stuct.
 
 
 ### -field X86
 
-An x86 processor as a <a href="..\dbgeng\ns-dbgeng-_debug_processor_identification_x86.md">DEBUG_PROCESSOR_IDENTIFICATION_X86</a> struct.
+An x86 processor as a <a href="https://msdn.microsoft.com/B5AD9CE8-B0F0-49BC-984E-4372FD3BF93B">DEBUG_PROCESSOR_IDENTIFICATION_X86</a> struct.
 
 
 ### -field Arm
 
-An ARM processor as a <a href="..\dbgeng\ns-dbgeng-_debug_processor_identification_arm.md">DEBUG_PROCESSOR_IDENTIFICATION_ARM</a> struct.
+An ARM processor as a <a href="https://msdn.microsoft.com/4C7D5959-7900-4482-A45C-61D66541C276">DEBUG_PROCESSOR_IDENTIFICATION_ARM</a> struct.
 
 
 ### -field Arm64
 
-An ARM64 processor as a <a href="..\dbgeng\ns-dbgeng-_debug_processor_identification_arm64.md">DEBUG_PROCESSOR_IDENTIFICATION_ARM64</a> struct. 
+An ARM64 processor as a <a href="https://msdn.microsoft.com/4F47EC75-4D68-4202-9B29-8F6FB36528A5">DEBUG_PROCESSOR_IDENTIFICATION_ARM64</a> struct. 
 
 
 ## -see-also
 
-<a href="..\dbgeng\ns-dbgeng-_debug_processor_identification_alpha.md">DEBUG_PROCESSOR_IDENTIFICATION_ALPHA</a>
 
 
 
-<a href="..\dbgeng\ns-dbgeng-_debug_processor_identification_arm64.md">DEBUG_PROCESSOR_IDENTIFICATION_ARM64</a>
+<a href="https://msdn.microsoft.com/AE0DB2CC-6364-4B50-8CD3-8EF8B495FBED">DEBUG_PROCESSOR_IDENTIFICATION_ALPHA</a>
 
 
 
-<a href="..\dbgeng\ns-dbgeng-_debug_processor_identification_ia64.md">DEBUG_PROCESSOR_IDENTIFICATION_IA64</a>
+<a href="https://msdn.microsoft.com/71E28D54-19D2-4A62-9A63-633186F67AD5">DEBUG_PROCESSOR_IDENTIFICATION_AMD64</a>
 
 
 
-<a href="..\dbgeng\ns-dbgeng-_debug_processor_identification_amd64.md">DEBUG_PROCESSOR_IDENTIFICATION_AMD64</a>
+<a href="https://msdn.microsoft.com/4C7D5959-7900-4482-A45C-61D66541C276">DEBUG_PROCESSOR_IDENTIFICATION_ARM</a>
 
 
 
-<a href="..\dbgeng\ns-dbgeng-_debug_processor_identification_arm.md">DEBUG_PROCESSOR_IDENTIFICATION_ARM</a>
+<a href="https://msdn.microsoft.com/4F47EC75-4D68-4202-9B29-8F6FB36528A5">DEBUG_PROCESSOR_IDENTIFICATION_ARM64</a>
 
 
 
-<a href="..\dbgeng\ns-dbgeng-_debug_processor_identification_x86.md">DEBUG_PROCESSOR_IDENTIFICATION_X86</a>
+<a href="https://msdn.microsoft.com/8827D989-EB59-4474-97D8-9CD9BF24FCC1">DEBUG_PROCESSOR_IDENTIFICATION_IA64</a>
 
 
 
+<a href="https://msdn.microsoft.com/B5AD9CE8-B0F0-49BC-984E-4372FD3BF93B">DEBUG_PROCESSOR_IDENTIFICATION_X86</a>
  
 
  
-
 

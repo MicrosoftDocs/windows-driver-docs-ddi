@@ -7,7 +7,7 @@ old-location: debugger\idebugregisters.htm
 old-project: debugger
 ms.assetid: a2587ea7-20cd-43be-ba71-750e699ee0ce
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: IDebugRegisters, IDebugRegisters interface [Windows Debugging], IDebugRegisters interface [Windows Debugging], described, IDebugRegisters_ca710692-a977-4276-b779-2b66311938dc.xml, dbgeng/IDebugRegisters, debugger.idebugregisters
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -170,12 +170,11 @@ Sets the value of several of the target's registers.
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugregisters2.md">IDebugRegisters2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550835">IDebugRegisters2</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: storage\sm_addtarget_out.htm
 old-project: storage
 ms.assetid: ed4e58cb-6b32-454b-9538-f9f8aa68df4c
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PSM_AddTarget_OUT, PSM_AddTarget_OUT, PSM_AddTarget_OUT structure pointer [Storage Devices], SM_AddTarget_OUT, SM_AddTarget_OUT structure [Storage Devices], _SM_AddTarget_OUT, hbapiwmi/PSM_AddTarget_OUT, hbapiwmi/SM_AddTarget_OUT, storage.sm_addtarget_out, structs-Fibre_8a6bbd22-c27f-4b75-a11a-93fafd51d2a9.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,16 +50,6 @@ req.typenames: SM_AddTarget_OUT, *PSM_AddTarget_OUT
 
 
 The SM_AddTarget_OUT structure is used to receive output parameters from the SM_AddTarget WMI method.
-
-
-## -syntax
-
-
-````
-typedef struct _SM_AddTarget_OUT {
-  ULONG HBAStatus;
-} SM_AddTarget_OUT, *PSM_AddTarget_OUT;
-````
 
 
 ## -struct-fields

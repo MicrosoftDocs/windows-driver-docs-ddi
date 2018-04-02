@@ -55,14 +55,6 @@ req.product: Windows 10 or later.
 The <b>GetType</b> method retrieves the type of operation that a request contains.
 
 
-## -syntax
-
-
-````
-WDF_REQUEST_TYPE  GetType();
-````
-
-
 ## -parameters
 
 
@@ -74,23 +66,22 @@ WDF_REQUEST_TYPE  GetType();
 
 
 
-<b>GetType</b> returns a <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_request_type.md">WDF_REQUEST_TYPE</a>-typed value that identifies the request type and why the request is sent to the driver.
+<b>GetType</b> returns a <a href="https://msdn.microsoft.com/library/windows/hardware/ff552503">WDF_REQUEST_TYPE</a>-typed value that identifies the request type and why the request is sent to the driver.
 
 
 
 
 ## -see-also
 
-<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_request_type.md">WDF_REQUEST_TYPE</a>
 
 
 
-<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558985">IWDFIoRequest</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552503">WDF_REQUEST_TYPE</a>
  
 
  
-
 

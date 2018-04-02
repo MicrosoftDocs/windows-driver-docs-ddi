@@ -52,16 +52,6 @@ req.typenames: EXpsFontRestriction
 The <code>GetThumbnail</code> method gets the document thumbnail object. 
 
 
-## -syntax
-
-
-````
-HRESULT GetThumbnail(
-  [out] IPartThumbnail **ppThumbnail
-);
-````
-
-
 ## -parameters
 
 

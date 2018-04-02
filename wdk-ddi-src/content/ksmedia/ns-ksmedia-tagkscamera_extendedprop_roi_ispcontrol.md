@@ -52,19 +52,6 @@ req.typenames: KSCAMERA_EXTENDEDPROP_ROI_ISPCONTROL, *PKSCAMERA_EXTENDEDPROP_ROI
 This structure contains information for an ROI ISP control.
 
 
-## -syntax
-
-
-````
-typedef struct tagKSCAMERA_EXTENDEDPROP_ROI_ISPCONTROL {
-  ULONG ControlId;
-  ULONG ROICount;
-  ULONG Result;
-  ULONG Reserved;
-} KSCAMERA_EXTENDEDPROP_ROI_ISPCONTROL, *PKSCAMERA_EXTENDEDPROP_ROI_ISPCONTROL;
-````
-
-
 ## -struct-fields
 
 

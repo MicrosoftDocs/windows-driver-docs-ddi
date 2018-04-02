@@ -7,7 +7,7 @@ old-location: debugger\getcurrentprocessaddr.htm
 old-project: debugger
 ms.assetid: 31fada1c-53eb-4e55-bf5f-bf852a8df3ad
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: GetCurrentProcessAddr, GetCurrentProcessAddr function [Windows Debugging], WdbgExts_Ref_cf956b74-b0e4-43fa-911f-289b01dbf8c8.xml, debugger.getcurrentprocessaddr, wdbgexts/GetCurrentProcessAddr
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,18 +53,6 @@ req.product: Windows 10 or later.
 The <b>GetCurrentProcessAddr</b> function returns the location of the system data that describes the current process.
 
 
-## -syntax
-
-
-````
-__inline VOID GetCurrentProcessAddr(
-   DWORD    Processor,
-   ULONG64  CurrentThread,
-   PULONG64 Address
-);
-````
-
-
 ## -parameters
 
 
@@ -77,7 +65,7 @@ Specifies the index of the processor or virtual thread that was running the curr
 
 ### -param CurrentThread
 
-Specifies the location of the system data for the current thread.  This is the location returned by <a href="..\wdbgexts\nf-wdbgexts-getcurrentthreadaddr.md">GetCurrentThreadAddr</a>.
+Specifies the location of the system data for the current thread.  This is the location returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff545889">GetCurrentThreadAddr</a>.
 
 In kernel-mode debugging, <i>CurrentThread</i> can be <b>NULL</b>, in which case <i>Processor</i> is used instead.
 
@@ -100,7 +88,7 @@ None
 
 
 
-In user-mode debugging, <b>GetCurrentProcessAddr</b> returns the location of the process's Process Environment Block (PEB).  This is the same location that <a href="..\wdbgexts\nf-wdbgexts-getpebaddress.md">GetPebAddress</a> returns.
+In user-mode debugging, <b>GetCurrentProcessAddr</b> returns the location of the process's Process Environment Block (PEB).  This is the same location that <a href="https://msdn.microsoft.com/library/windows/hardware/ff548122">GetPebAddress</a> returns.
 
 In kernel-mode debugging, <b>GetCurrentProcessAddr</b> returns the location of the KPROCESS structure of the current process.
 
@@ -111,16 +99,15 @@ For details on the KPROCESS and PEB structures, see <i>Microsoft Windows Interna
 
 ## -see-also
 
-<a href="..\wdbgexts\nf-wdbgexts-getcurrentthreadaddr.md">GetCurrentThreadAddr</a>
 
 
 
-<a href="..\wdbgexts\nf-wdbgexts-getpebaddress.md">GetPebAddress</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545889">GetCurrentThreadAddr</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548122">GetPebAddress</a>
  
 
  
-
 

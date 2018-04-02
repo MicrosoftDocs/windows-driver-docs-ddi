@@ -53,18 +53,6 @@ req.typenames: KSP_BDA_NODE_PIN, *PKSP_BDA_NODE_PIN
 The <b>BdaPropertyNodeTypes</b> function retrieves a list of node types in a template topology. 
 
 
-## -syntax
-
-
-````
-NTSTATUS BdaPropertyNodeTypes(
-  _In_  PIRP        Irp,
-  _In_  PKSPROPERTY pKSProperty,
-  _Out_ ULONG       *pulProperty
-);
-````
-
-
 ## -parameters
 
 
@@ -110,6 +98,9 @@ A BDA minidriver calls the <b>BdaPropertyNodeTypes</b> function to retrieve the 
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
 
 
@@ -119,11 +110,7 @@ A BDA minidriver calls the <b>BdaPropertyNodeTypes</b> function to retrieve the 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566561">KSPROPSETID_BdaTopology</a>
-
-
-
  
 
  
-
 

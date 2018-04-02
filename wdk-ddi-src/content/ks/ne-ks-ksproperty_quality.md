@@ -52,17 +52,6 @@ req.typenames: KSPROPERTY_QUALITY
 
 
 
-## -syntax
-
-
-````
-typedef enum  { 
-  KSPROPERTY_QUALITY_REPORT,
-  KSPROPERTY_QUALITY_ERROR
-} KSPROPERTY_QUALITY;
-````
-
-
 ## -enum-fields
 
 

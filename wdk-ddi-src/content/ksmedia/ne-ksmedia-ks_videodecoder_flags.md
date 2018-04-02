@@ -52,18 +52,6 @@ req.typenames: KS_VIDEODECODER_FLAGS
 The KS_VIDEODECODER_FLAGS enumeration defines video decoder capabilities.
 
 
-## -syntax
-
-
-````
-typedef enum  { 
-  KS_VIDEODECODER_FLAGS_CAN_DISABLE_OUTPUT   = 0X0001,
-  KS_VIDEODECODER_FLAGS_CAN_USE_VCR_LOCKING  = 0X0002,
-  KS_VIDEODECODER_FLAGS_CAN_INDICATE_LOCKED  = 0X0004
-} KS_VIDEODECODER_FLAGS;
-````
-
-
 ## -enum-fields
 
 
@@ -86,12 +74,11 @@ The video decoder can distinguish whether it has locked to an incoming analog vi
 
 ## -see-also
 
-<a href="..\ksmedia\ns-ksmedia-ksproperty_videodecoder_caps_s.md">KSPROPERTY_VIDEODECODER_CAPS_S</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566047">KSPROPERTY_VIDEODECODER_CAPS_S</a>
  
 
  
-
 

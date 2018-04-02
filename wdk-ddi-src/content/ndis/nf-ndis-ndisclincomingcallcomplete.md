@@ -7,7 +7,7 @@ old-location: netvista\ndisclincomingcallcomplete.htm
 old-project: netvista
 ms.assetid: b3931dd7-319e-4ef8-9812-6dc3f2e41b2c
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: NdisClIncomingCallComplete, NdisClIncomingCallComplete function [Network Drivers Starting with Windows Vista], condis_client_ref_93263dd6-f55a-4923-8173-b3617f40353a.xml, ndis/NdisClIncomingCallComplete, netvista.ndisclincomingcallcomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,20 +52,8 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 
 <b>NdisClIncomingCallComplete</b> returns a client's acceptance or rejection of an offered incoming call,
   for which the client's 
-  <a href="..\ndis\nc-ndis-protocol_cl_incoming_call.md">ProtocolClIncomingCall</a> function
+  <a href="https://msdn.microsoft.com/8a5922ac-b22b-444e-9ea0-3bb56e71ef33">ProtocolClIncomingCall</a> function
   previously returned NDIS_STATUS_PENDING.
-
-
-## -syntax
-
-
-````
-VOID NdisClIncomingCallComplete(
-  _In_ NDIS_STATUS         Status,
-  _In_ NDIS_HANDLE         NdisVcHandle,
-  _In_ PCO_CALL_PARAMETERS CallParameters
-);
-````
 
 
 ## -parameters
@@ -85,7 +73,7 @@ Is set to NDIS_STATUS_SUCCESS if the client accepts the offered call. Otherwise,
 Specifies the handle to the VC that was created by the call manager to represent the incoming
      call. The client obtained this handle from it per-VC state designated by the 
      <i>ProtocolVcContext</i> passed as an input parameter to its 
-     <a href="..\ndis\nc-ndis-protocol_cl_incoming_call.md">
+     <a href="https://msdn.microsoft.com/8a5922ac-b22b-444e-9ea0-3bb56e71ef33">
      ProtocolClIncomingCall</a> function.
 
 
@@ -110,16 +98,16 @@ None
 
 
 If a client's 
-    <a href="..\ndis\nc-ndis-protocol_cl_incoming_call.md">ProtocolClIncomingCall</a> function
+    <a href="https://msdn.microsoft.com/8a5922ac-b22b-444e-9ea0-3bb56e71ef33">ProtocolClIncomingCall</a> function
     returns NDIS_STATUS_PENDING for an offered call incoming on a particular SAP, previously registered by
     the client with 
-    <a href="..\ndis\nf-ndis-ndisclregistersap.md">NdisClRegisterSap</a>, the client
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561648">NdisClRegisterSap</a>, the client
     subsequently must call 
     <b>NdisClIncomingCallComplete</b> to indicate whether it is accepting or rejecting the offered call.
 
 Before it calls 
     <b>NdisClIncomingCallComplete</b>, such a client can negotiate with the call manager by calling 
-    <a href="..\ndis\nf-ndis-ndisclmodifycallqos.md">NdisClModifyCallQoS</a> one or more times
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561636">NdisClModifyCallQoS</a> one or more times
     until both drivers reach an agreement on an acceptable quality of service for the incoming call or the
     client determines it should reject the offered call because its attempts to modify the QoS reach some
     client-determined limit without resulting in an agreement.
@@ -132,14 +120,14 @@ If the client has changed the call parameters passed in to its
     CALL_PARAMETERS_CHANGED when it passes these changes to 
     <b>NdisClIncomingCallComplete</b>. Depending on whether the call manager accepts or rejects the client's
     proposed changes to the call parameters, NDIS subsequently calls either the client's
-    <a href="..\ndis\nc-ndis-protocol_cl_call_connected.md">
+    <a href="https://msdn.microsoft.com/675b2066-6a65-47cf-bde7-3c843f97c960">
     ProtocolClCallConnected</a> function or its 
-    <a href="..\ndis\nc-ndis-protocol_cl_incoming_close_call.md">
+    <a href="https://msdn.microsoft.com/01c7d887-eb54-47c3-98f0-bc567b60fb4b">
     ProtocolClIncomingCloseCall</a> function, respectively.
 
 A call to 
     <b>NdisClIncomingCallComplete</b> causes NDIS to call the CM's 
-    <a href="..\ndis\nc-ndis-protocol_cm_incoming_call_complete.md">
+    <a href="https://msdn.microsoft.com/353e929b-17c8-47e8-82fd-b646e93a5b9a">
     ProtocolCmIncomingCallComplete</a> function. NDIS passes the client-supplied parameters of 
     <b>NdisClIncomingCallComplete</b> as input parameters to 
     <i>ProtocolCmIncomingCallComplete</i>.
@@ -154,41 +142,40 @@ If a client rejects an offered call by setting
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a>
 
 
 
-<a href="..\ndis\nc-ndis-protocol_cm_incoming_call_complete.md">
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561636">NdisClModifyCallQoS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561648">NdisClRegisterSap</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561664">NdisCmDispatchIncomingCall</a>
+
+
+
+<a href="https://msdn.microsoft.com/675b2066-6a65-47cf-bde7-3c843f97c960">ProtocolClCallConnected</a>
+
+
+
+<a href="https://msdn.microsoft.com/8a5922ac-b22b-444e-9ea0-3bb56e71ef33">ProtocolClIncomingCall</a>
+
+
+
+<a href="https://msdn.microsoft.com/01c7d887-eb54-47c3-98f0-bc567b60fb4b">ProtocolClIncomingCloseCall</a>
+
+
+
+<a href="https://msdn.microsoft.com/353e929b-17c8-47e8-82fd-b646e93a5b9a">
    ProtocolCmIncomingCallComplete</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisclregistersap.md">NdisClRegisterSap</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndiscmdispatchincomingcall.md">NdisCmDispatchIncomingCall</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_cl_incoming_close_call.md">ProtocolClIncomingCloseCall</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_cl_incoming_call.md">ProtocolClIncomingCall</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisclmodifycallqos.md">NdisClModifyCallQoS</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_cl_call_connected.md">ProtocolClCallConnected</a>
-
-
-
  
 
  
-
 

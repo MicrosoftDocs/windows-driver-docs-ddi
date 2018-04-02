@@ -53,18 +53,6 @@ req.typenames:
 The <b>KsAllocateExtraData</b> function is used with streaming IRPs to allocate a buffer to contain additional header data. A pointer to the allocated buffer is returned, and the buffer must eventually be freed by the caller. 
 
 
-## -syntax
-
-
-````
-NTSTATUS KsAllocateExtraData(
-  _Inout_ PIRP  Irp ,
-  _In_    ULONG ExtraSize ,
-  _Out_   PVOID *ExtraBuffer 
-);
-````
-
-
 ## -parameters
 
 

@@ -55,16 +55,6 @@ req.product: Windows 10 or later.
 The <b>RetrieveNextRequest</b> method retrieves the next I/O request from an I/O queue.
 
 
-## -syntax
-
-
-````
-HRESULT  RetrieveNextRequest(
-  [out] IWDFIoRequest **ppRequest
-);
-````
-
-
 ## -parameters
 
 
@@ -72,7 +62,7 @@ HRESULT  RetrieveNextRequest(
 
 ### -param ppRequest [out]
 
-A pointer to a buffer that receives a pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a> interface for the next request object, or receives <b>NULL</b> if the queue is empty or if the next request is not found.
+A pointer to a buffer that receives a pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff558985">IWDFIoRequest</a> interface for the next request object, or receives <b>NULL</b> if the queue is empty or if the next request is not found.
 
 
 ## -returns
@@ -222,11 +212,10 @@ CMyDevice::ServiceSwitchChangeQueue(
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
 
 
 
-<a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558943">IWDFIoQueue</a>
 
 
 
@@ -234,8 +223,8 @@ CMyDevice::ServiceSwitchChangeQueue(
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558985">IWDFIoRequest</a>
  
 
  
-
 

@@ -53,18 +53,6 @@ req.product: Windows 10 or later.
 A Point and Print DLL's <code>SpoolerCopyFileEvent</code> function receives notifications of events associated with copying print queue-associated files to a print client, when the client connects to a print server.
 
 
-## -syntax
-
-
-````
-BOOL SpoolerCopyFileEvent(
-  _In_ LPWSTR pszPrinterName,
-  _In_ LPWSTR pszKey,
-  _In_ DWORD  dwCopyFileEvent
-);
-````
-
-
 ## -parameters
 
 
@@ -188,12 +176,11 @@ If <i>dwCopyFileEvent</i> is COPYFILE_EVENT_ADD_PRINTER_CONNECTION or COPYFILE_E
 
 ## -see-also
 
-<a href="..\winsplp\nf-winsplp-generatecopyfilepaths.md">GenerateCopyFilePaths</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549896">GenerateCopyFilePaths</a>
  
 
  
-
 

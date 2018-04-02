@@ -7,7 +7,7 @@ old-location: storage\changer_element_list.htm
 old-project: storage
 ms.assetid: 6e85eaa7-d622-4b05-9efd-c1b6b7789c03
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PCHANGER_ELEMENT_LIST, CHANGER_ELEMENT_LIST, CHANGER_ELEMENT_LIST structure [Storage Devices], PCHANGER_ELEMENT_LIST, PCHANGER_ELEMENT_LIST structure pointer [Storage Devices], _CHANGER_ELEMENT_LIST, ntddchgr/CHANGER_ELEMENT_LIST, ntddchgr/PCHANGER_ELEMENT_LIST, storage.changer_element_list, structs-changer_e1782d96-458d-49a5-9885-c853d835ba0a.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,17 +52,6 @@ req.typenames: CHANGER_ELEMENT_LIST, *PCHANGER_ELEMENT_LIST
 The CHANGER_ELEMENT_LIST structure indicates a range of elements of a single type. 
 
 
-## -syntax
-
-
-````
-typedef struct _CHANGER_ELEMENT_LIST {
-  CHANGER_ELEMENT Element;
-  ULONG           NumberOfElements;
-} CHANGER_ELEMENT_LIST, *PCHANGER_ELEMENT_LIST;
-````
-
-
 ## -struct-fields
 
 
@@ -70,7 +59,7 @@ typedef struct _CHANGER_ELEMENT_LIST {
 
 ### -field Element
 
-Describes the first element of type <a href="..\ntddchgr\ns-ntddchgr-_changer_element.md">CHANGER_ELEMENT</a> in a range <b>NumberOfElements</b> long.
+Describes the first element of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff551457">CHANGER_ELEMENT</a> in a range <b>NumberOfElements</b> long.
 
 
 ### -field NumberOfElements
@@ -89,20 +78,19 @@ A changer class driver uses CHANGER_ELEMENT_LIST to indicate a range of elements
 
 ## -see-also
 
-<a href="..\ntddchgr\ns-ntddchgr-_changer_element.md">CHANGER_ELEMENT</a>
 
 
 
-<a href="..\mcd\nf-mcd-changerinitializeelementstatus.md">ChangerInitializeElementStatus</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551457">CHANGER_ELEMENT</a>
 
 
 
-<a href="..\mcd\nf-mcd-changergetelementstatus.md">ChangerGetElementStatus</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551424">ChangerGetElementStatus</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551433">ChangerInitializeElementStatus</a>
  
 
  
-
 

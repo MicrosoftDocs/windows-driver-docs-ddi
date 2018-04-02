@@ -7,7 +7,7 @@ old-location: netvista\fwps_packet_list_information0.htm
 old-project: netvista
 ms.assetid: 1fc6ffb1-c6e9-4bca-9d10-541708fe0086
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: FWPS_PACKET_LIST_INFORMATION0, FWPS_PACKET_LIST_INFORMATION0 structure [Network Drivers Starting with Windows Vista], FWPS_PACKET_LIST_INFORMATION0_, fwpsk/FWPS_PACKET_LIST_INFORMATION0, netvista.fwps_packet_list_information0, wfp_ref_3_struct_3_fwps_P-Z_f2647b5d-3267-4bc2-889e-8fb3a81f6440.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,17 +52,6 @@ req.typenames: FWPS_PACKET_LIST_INFORMATION0
 The <b>FWPS_PACKET_LIST_INFORMATION0</b> structure defines information associated with a packet list.
 <div class="alert"><b>Note</b>  <b>FWPS_PACKET_LIST_INFORMATION0</b> is a specific version of <b>FWPS_PACKET_LIST_INFORMATION</b>. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
 
-## -syntax
-
-
-````
-typedef struct FWPS_PACKET_LIST_INFORMATION0_ {
-  FWPS_PACKET_LIST_IPSEC_INFORMATION0 ipsecInformation;
-  FWPS_PACKET_LIST_FWP_INFORMATION0   fwpInformation;
-} FWPS_PACKET_LIST_INFORMATION0;
-````
-
-
 ## -struct-fields
 
 
@@ -71,14 +60,14 @@ typedef struct FWPS_PACKET_LIST_INFORMATION0_ {
 ### -field ipsecInformation
 
 An 
-     <a href="..\fwpsk\ns-fwpsk-fwps_packet_list_ipsec_information0_.md">FWPS_PACKET_LIST_IPSEC_INFORMATION0</a> structure that contains IPsec information associated with the
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff552414">FWPS_PACKET_LIST_IPSEC_INFORMATION0</a> structure that contains IPsec information associated with the
      packet list.
 
 
 ### -field fwpInformation
 
 An 
-     <a href="..\fwpsk\ns-fwpsk-fwps_packet_list_fwp_information0_.md">FWPS_PACKET_LIST_FWP_INFORMATION0</a> structure that contains Windows Filtering Platform information
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff552410">FWPS_PACKET_LIST_FWP_INFORMATION0</a> structure that contains Windows Filtering Platform information
      associated with the packet list.
 
 
@@ -87,7 +76,7 @@ An
 
 
 A callout driver passes a pointer to an FWPS_PACKET_LIST_INFORMATION0 structure to the 
-    <a href="..\fwpsk\nf-fwpsk-fwpsgetpacketlistsecurityinformation0.md">
+    <a href="https://msdn.microsoft.com/c3391615-963b-4916-9280-ce782269692c">
     FwpsGetPacketListSecurityInformation0</a> function when querying information associated with a packet
     list.
 
@@ -96,23 +85,22 @@ A callout driver passes a pointer to an FWPS_PACKET_LIST_INFORMATION0 structure 
 
 ## -see-also
 
-<a href="..\fwpsk\nf-fwpsk-fwpsgetpacketlistsecurityinformation0.md">
-   FwpsGetPacketListSecurityInformation0</a>
 
 
 
-<a href="..\fwpsk\ns-fwpsk-fwps_packet_list_fwp_information0_.md">
+<a href="https://msdn.microsoft.com/e2d3faf3-cd3b-4147-8ceb-5b3f0c257939">
    FWPS_PACKET_LIST_FWP_INFORMATION0</a>
 
 
 
-<a href="..\fwpsk\ns-fwpsk-fwps_packet_list_ipsec_information0_.md">
+<a href="https://msdn.microsoft.com/bd005dd9-887a-4323-9816-e4a3b96ca53d">
    FWPS_PACKET_LIST_IPSEC_INFORMATION0</a>
 
 
 
+<a href="https://msdn.microsoft.com/c3391615-963b-4916-9280-ce782269692c">
+   FwpsGetPacketListSecurityInformation0</a>
  
 
  
-
 

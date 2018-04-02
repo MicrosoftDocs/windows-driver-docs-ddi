@@ -7,7 +7,7 @@ old-location: storage\ataportstallexecution.htm
 old-project: storage
 ms.assetid: 5dae484f-fb79-4291-bae5-dba0be7f9b97
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: AtaPortStallExecution, AtaPortStallExecution function [Storage Devices], atartns_3a78519d-4ee5-4a4a-9564-1d2bbd256300.xml, irb/AtaPortStallExecution, storage.ataportstallexecution
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -55,16 +55,6 @@ req.typenames: IDE_POWER_STATE
 The <b>AtaPortStallExecution</b> stalls in the miniport driver.
 <div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
-## -syntax
-
-
-````
-VOID AtaPortStallExecution(
-  _In_ ULONG Delay
-);
-````
-
-
 ## -parameters
 
 
@@ -92,19 +82,18 @@ Miniport drivers should rarely call the <b>AtaPortStallExecution</b> routine. Th
 
 Typically, a miniport driver should call <b>AtaPortStallExecution</b> only if the driver must wait for some sort of state change on the HBA that is unable to cause an interrupt, or if the driver must delay for a very short interval between accesses to the HBA.
 
-Miniport drivers should use the <a href="..\irb\nf-irb-ataportrequesttimer.md">AtaPortRequestTimer</a> routine for delays longer than 1 millisecond.
+Miniport drivers should use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550227">AtaPortRequestTimer</a> routine for delays longer than 1 millisecond.
 
 
 
 
 ## -see-also
 
-<a href="..\irb\nf-irb-ataportrequesttimer.md">AtaPortRequestTimer</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550227">AtaPortRequestTimer</a>
  
 
  
-
 

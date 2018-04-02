@@ -55,17 +55,6 @@ req.product: Windows 10 or later.
 The <b>SetPnpState</b> method turns on or off (or sets to the default state) the specified Plug and Play (PnP) property of a device.
 
 
-## -syntax
-
-
-````
-void SetPnpState(
-  [in] WDF_PNP_STATE State,
-  [in] WDF_TRI_STATE Value
-);
-````
-
-
 ## -parameters
 
 
@@ -73,7 +62,7 @@ void SetPnpState(
 
 ### -param State [in]
 
-A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_pnp_state.md">WDF_PNP_STATE</a>-typed value that identifies the PnP property to set.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff561434">WDF_PNP_STATE</a>-typed value that identifies the PnP property to set.
 
 
 ### -param Value [in]
@@ -188,7 +177,10 @@ CUmdfHidDevice::OnCompletion(
 
 ## -see-also
 
-<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_pnp_state.md">WDF_PNP_STATE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556917">IWDFDevice</a>
 
 
 
@@ -200,12 +192,8 @@ CUmdfHidDevice::OnCompletion(
 
 
 
-<a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561434">WDF_PNP_STATE</a>
  
 
  
-
 

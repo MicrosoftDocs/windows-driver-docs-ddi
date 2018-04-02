@@ -7,7 +7,7 @@ old-location: debugger\idebugeventcallbackswide_exception.htm
 old-project: debugger
 ms.assetid: 02f5bec1-f2d2-4b72-bd9e-b30315c334da
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: Exception method [Windows Debugging], Exception method [Windows Debugging], IDebugEventCallbacksWide interface, Exception,IDebugEventCallbacksWide.Exception, IDebugEventCallbacksWide, IDebugEventCallbacksWide interface [Windows Debugging], Exception method, IDebugEventCallbacksWide::Exception, dbgeng/IDebugEventCallbacksWide::Exception, debugger.idebugeventcallbackswide_exception
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,17 +50,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>Exception</b> callback method is called by the engine when an <a href="https://msdn.microsoft.com/0dd010e7-3e10-422a-adcb-8fe7df9e29ab">exception</a>debugging event occurs in the target.
-
-
-## -syntax
-
-
-````
-HRESULT Exception(
-  [in] PEXCEPTION_RECORD64 Exception,
-  [in] ULONG               FirstChance
-);
-````
 
 
 ## -parameters

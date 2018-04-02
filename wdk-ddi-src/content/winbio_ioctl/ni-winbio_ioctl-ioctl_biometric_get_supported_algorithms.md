@@ -70,7 +70,7 @@ None.
 
 ### -output-buffer
 
-The <b>AssociatedIrp</b>.<b>SystemBuffer</b> member points to a buffer that contains a <a href="..\winbio_ioctl\ns-winbio_ioctl-_winbio_supported_algorithms.md">WINBIO_SUPPORTED_ALGORITHMS</a> structure.
+The <b>AssociatedIrp</b>.<b>SystemBuffer</b> member points to a buffer that contains a <a href="https://msdn.microsoft.com/library/windows/hardware/ff536478">WINBIO_SUPPORTED_ALGORITHMS</a> structure.
 
 
 ### -output-buffer-length
@@ -223,7 +223,7 @@ SHA-512
 
 IOCTL_BIOMETRIC_GET_SUPPORTED_ALGORITHMS must be implemented if the device supports WINBIO_CAPABILITY_SECURE_STORAGE.  The device must support at least SHA-1 ("1.3.14.3.2.26") to be used for storing WinBio templates.
 
-If the vendor-supplied driver passes back the entire payload, it should fill in the <b>WinBioHresult</b> member of <a href="..\winbio_ioctl\ns-winbio_ioctl-_winbio_supported_algorithms.md">WINBIO_SUPPORTED_ALGORITHMS</a> with the status of the Biometric operation.
+If the vendor-supplied driver passes back the entire payload, it should fill in the <b>WinBioHresult</b> member of <a href="https://msdn.microsoft.com/library/windows/hardware/ff536478">WINBIO_SUPPORTED_ALGORITHMS</a> with the status of the Biometric operation.
 
 Possible values include:
 

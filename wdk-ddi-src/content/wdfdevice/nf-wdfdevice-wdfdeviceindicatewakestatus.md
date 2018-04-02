@@ -56,17 +56,6 @@ req.product: Windows 10 or later.
 The <b>WdfDeviceIndicateWakeStatus</b> method informs the framework that the calling bus driver has stopped waiting for a specified device to trigger a wake signal on the bus.
 
 
-## -syntax
-
-
-````
-NTSTATUS WdfDeviceIndicateWakeStatus(
-  _In_ WDFDEVICE Device,
-  _In_ NTSTATUS  WaitWakeStatus 
-);
-````
-
-
 ## -parameters
 
 

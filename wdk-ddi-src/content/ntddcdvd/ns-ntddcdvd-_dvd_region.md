@@ -7,7 +7,7 @@ old-location: storage\dvd_region.htm
 old-project: storage
 ms.assetid: a2e31a1a-59e4-4a83-b866-944ef1693f65
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PDVD_REGION, DVD_REGION, DVD_REGION structure [Storage Devices], PDVD_REGION, PDVD_REGION structure pointer [Storage Devices], _DVD_REGION, ntddcdvd/DVD_REGION, ntddcdvd/PDVD_REGION, storage.dvd_region, structs-DVD_b1569a34-c55e-482b-b87e-30becd20e2c1.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,20 +49,7 @@ req.typenames: DVD_REGION, *PDVD_REGION
 ## -description
 
 
-The DVD_REGION structure is used in conjunction with the <a href="..\ntddcdvd\ni-ntddcdvd-ioctl_dvd_get_region.md">IOCTL_DVD_GET_REGION</a> request to retrieve region playback control (RPC) information for a DVD device.
-
-
-## -syntax
-
-
-````
-typedef struct _DVD_REGION {
-  UCHAR CopySystem;
-  UCHAR RegionData;
-  UCHAR SystemRegion;
-  UCHAR ResetCount;
-} DVD_REGION, *PDVD_REGION;
-````
+The DVD_REGION structure is used in conjunction with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560423">IOCTL_DVD_GET_REGION</a> request to retrieve region playback control (RPC) information for a DVD device.
 
 
 ## -struct-fields
@@ -92,12 +79,11 @@ Indicates the remaining number of times the DVD device's region code can be chan
 
 ## -see-also
 
-<a href="..\ntddcdvd\ni-ntddcdvd-ioctl_dvd_get_region.md">IOCTL_DVD_GET_REGION</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560423">IOCTL_DVD_GET_REGION</a>
  
 
  
-
 

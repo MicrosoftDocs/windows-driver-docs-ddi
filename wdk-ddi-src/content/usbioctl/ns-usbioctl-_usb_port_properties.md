@@ -7,7 +7,7 @@ old-location: buses\usb_port_properties.htm
 old-project: usbref
 ms.assetid: BCADC907-3770-4FBE-AEB3-96F93502E899
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PUSB_PORT_PROPERTIES, PUSB_PORT_PROPERTIES, PUSB_PORT_PROPERTIES union pointer [Buses], USB_PORT_PROPERTIES, USB_PORT_PROPERTIES union [Buses], _USB_PORT_PROPERTIES, buses.usb_port_properties, usbioctl/PUSB_PORT_PROPERTIES, usbioctl/USB_PORT_PROPERTIES"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,22 +52,7 @@ req.product: Windows 10 or later.
 
 The <b>USB_PORT_PROPERTIES</b> union is used to report the capabilities of a Universal Serial Bus (USB) port.
 
-The  port capabilities are retrieved in the <a href="..\usbioctl\ns-usbioctl-_usb_port_connector_properties.md">USB_PORT_CONNECTOR_PROPERTIES</a> structure by the <a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_port_connector_properties.md">IOCTL_USB_GET_PORT_CONNECTOR_PROPERTIES</a> I/O control request.
-
-
-## -syntax
-
-
-````
-typedef union _USB_PORT_PROPERTIES {
-  ULONG  ul;
-  struct {
-    ULONG PortIsUserConnectable  :1;
-    ULONG PortIsDebugCapable  :1;
-    ULONG ReservedMBZ  :30;
-  };
-} USB_PORT_PROPERTIES, *PUSB_PORT_PROPERTIES;
-````
+The  port capabilities are retrieved in the <a href="https://msdn.microsoft.com/library/windows/hardware/hh406265">USB_PORT_CONNECTOR_PROPERTIES</a> structure by the <a href="https://msdn.microsoft.com/library/windows/hardware/hh450863">IOCTL_USB_GET_PORT_CONNECTOR_PROPERTIES</a> I/O control request.
 
 
 ## -struct-fields
@@ -97,16 +82,15 @@ Reserved. Do not use.
 
 ## -see-also
 
-<a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_port_connector_properties.md">IOCTL_USB_GET_PORT_CONNECTOR_PROPERTIES</a>
 
 
 
-<a href="..\usbioctl\ns-usbioctl-_usb_port_connector_properties.md">USB_PORT_CONNECTOR_PROPERTIES</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450863">IOCTL_USB_GET_PORT_CONNECTOR_PROPERTIES</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406265">USB_PORT_CONNECTOR_PROPERTIES</a>
  
 
  
-
 

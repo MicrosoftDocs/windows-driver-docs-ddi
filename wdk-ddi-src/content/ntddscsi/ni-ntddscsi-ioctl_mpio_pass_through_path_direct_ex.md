@@ -7,7 +7,7 @@ old-location: storage\ioctl_mpio_pass_through_path_direct_ex.htm
 old-project: storage
 ms.assetid: 2B5AF281-C080-4ED9-9C58-5757CDE0117A
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_MPIO_PASS_THROUGH_PATH_DIRECT_EX, IOCTL_MPIO_PASS_THROUGH_PATH_DIRECT_EX control code [Storage Devices], ntddscsi/IOCTL_MPIO_PASS_THROUGH_PATH_DIRECT_EX, storage.ioctl_mpio_pass_through_path_direct_ex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.typenames: MP_STORAGE_DIAGNOSTIC_TARGET_TYPE, *PMP_STORAGE_DIAGNOSTIC_TARGET
 
 
 The <b>IOCTL_MPIO_PASS_THROUGH_PATH_DIRECT_EX</b> control code request 
-     is the extended version of the <a href="..\ntddscsi\ni-ntddscsi-ioctl_mpio_pass_through_path_direct.md">IOCTL_MPIO_PASS_THROUGH_PATH_DIRECT</a> request. This request provides support for bidirectional data transfers and allows a command data block (CDB) &gt; 16 bytes.
+     is the extended version of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560495">IOCTL_MPIO_PASS_THROUGH_PATH_DIRECT</a> request. This request provides support for bidirectional data transfers and allows a command data block (CDB) &gt; 16 bytes.
 
 This I/O control code allows an application or kernel driver to send a SCSI command to a designated real LUN. The following restrictions apply to the use of this I/O control code:
 <ul>
@@ -67,11 +67,11 @@ Applications do not require administrative privileges to send a pass-through req
 
 </li>
 <li>
-The request comprises a SCSI pass-through request (in an embedded <a href="..\ntddscsi\ns-ntddscsi-_scsi_pass_through_direct.md">SCSI_PASS_THROUGH_DIRECT</a> structure) as well as certain directives.
+The request comprises a SCSI pass-through request (in an embedded <a href="https://msdn.microsoft.com/library/windows/hardware/ff565346">SCSI_PASS_THROUGH_DIRECT</a> structure) as well as certain directives.
 
 </li>
 <li>
-The SCSI pass-through structure should meet the requirements for such, as described in <a href="..\ntddscsi\ns-ntddscsi-_scsi_pass_through_direct.md">SCSI_PASS_THROUGH_DIRECT</a>.
+The SCSI pass-through structure should meet the requirements for such, as described in <a href="https://msdn.microsoft.com/library/windows/hardware/ff565346">SCSI_PASS_THROUGH_DIRECT</a>.
 
 </li>
 <li>
@@ -106,7 +106,7 @@ The port driver returns any request-sense data and any data that is transferred 
 
 ### -output-buffer-length
 
-The <b>SenseInfoLength</b> and <b>DataOutTransferLength</b> in the embedded <a href="..\ntddscsi\ns-ntddscsi-_scsi_pass_through_direct_ex.md">SCSI_PASS_THROUGH_DIRECT_EX</a> structure are updated to indicate the amount of data that is transferred.
+The <b>SenseInfoLength</b> and <b>DataOutTransferLength</b> in the embedded <a href="https://msdn.microsoft.com/library/windows/hardware/jj553713">SCSI_PASS_THROUGH_DIRECT_EX</a> structure are updated to indicate the amount of data that is transferred.
 
 
 ### -in-out-buffer
@@ -129,21 +129,20 @@ The <b>SenseInfoLength</b> and <b>DataOutTransferLength</b> in the embedded <a h
 
 ### -status-block
 
-The <b>Information</b> field is set to the number of bytes returned in the output buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>. The <b>Status</b> field is set to STATUS_SUCCESS, or possibly to STATUS_BUFFER_TOO_SMALL or STATUS_INVALID_PARAMETER if the input <b>Length</b> value in the embedded <a href="..\ntddscsi\ns-ntddscsi-_scsi_pass_through_direct_ex.md">SCSI_PASS_THROUGH_DIRECT_EX</a> is improperly set.
+The <b>Information</b> field is set to the number of bytes returned in the output buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>. The <b>Status</b> field is set to STATUS_SUCCESS, or possibly to STATUS_BUFFER_TOO_SMALL or STATUS_INVALID_PARAMETER if the input <b>Length</b> value in the embedded <a href="https://msdn.microsoft.com/library/windows/hardware/jj553713">SCSI_PASS_THROUGH_DIRECT_EX</a> is improperly set.
 
 
 ## -see-also
 
-<a href="..\ntddscsi\ns-ntddscsi-_mpio_pass_through_path_direct_ex.md">MPIO_PASS_THROUGH_PATH_DIRECT_EX</a>
 
 
 
-<a href="..\ntddscsi\ns-ntddscsi-_scsi_pass_through_direct_ex.md">SCSI_PASS_THROUGH_DIRECT_EX</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj602802">MPIO_PASS_THROUGH_PATH_DIRECT_EX</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj553713">SCSI_PASS_THROUGH_DIRECT_EX</a>
  
 
  
-
 

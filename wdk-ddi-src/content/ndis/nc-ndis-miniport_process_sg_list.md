@@ -7,7 +7,7 @@ old-location: netvista\miniportprocesssglist.htm
 old-project: netvista
 ms.assetid: ddd5d14f-f886-40d0-9fc8-eeb37da63ebd
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: MINIPORT_PROCESS_SG_LIST, MiniportProcessSGList, MiniportProcessSGList callback function [Network Drivers Starting with Windows Vista], ndis/MiniportProcessSGList, ndis_sgdma_ref_e9dec598-19ce-4d50-98e3-508ffbb444bc.xml, netvista.miniportprocesssglist
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -54,22 +54,6 @@ A bus-master miniport driver provides a
 <div class="alert"><b>Note</b>  You must declare the function by using the <b>MINIPORT_PROCESS_SG_LIST</b> type. For more
    information, see the following Examples section.</div><div> </div>
 
-## -prototype
-
-
-````
-MINIPORT_PROCESS_SG_LIST MiniportProcessSGList;
-
-VOID MiniportProcessSGList(
-  _In_ PDEVICE_OBJECT       pDO,
-  _In_ PVOID                Reserved,
-  _In_ PSCATTER_GATHER_LIST pSGL,
-  _In_ PVOID                Context
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -89,7 +73,7 @@ Miniport drivers should ignore this parameter.
 
 A pointer to a scatter/gather list buffer. This is not necessarily the same buffer as the one the
      driver specified in the call to the 
-     <a href="..\ndis\nf-ndis-ndismallocatenetbuffersglist.md">
+     <a href="https://msdn.microsoft.com/3fd8d121-a249-433a-a93d-4027a4bfcb61">
      NdisMAllocateNetBufferSGList</a> function
 
 
@@ -113,7 +97,7 @@ None
 
 
 Miniport drivers call the 
-    <a href="..\ndis\nf-ndis-ndismregisterscattergatherdma.md">
+    <a href="https://msdn.microsoft.com/90ce64a2-9140-4b5f-88aa-b4f01a3d0c6f">
     NdisMRegisterScatterGatherDma</a> function to register a 
     <i>MiniportProcessSGList</i> function. When a miniport driver calls 
     <b>NdisMAllocateNetBufferSGList</b> to create a scatter/gather list, NDIS calls HAL to create the list.
@@ -177,17 +161,16 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndismallocatenetbuffersglist.md">NdisMAllocateNetBufferSGList</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndismregisterscattergatherdma.md">
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562776">NdisMAllocateNetBufferSGList</a>
+
+
+
+<a href="https://msdn.microsoft.com/90ce64a2-9140-4b5f-88aa-b4f01a3d0c6f">
    NdisMRegisterScatterGatherDma</a>
-
-
-
  
 
  
-
 

@@ -52,18 +52,7 @@ req.product: Windows 10 or later.
 
 The Bluetooth 
   <b>SdpCreateNodeInt128</b> function is used to allocate and initialize an 
-  <a href="..\sdpnode\ns-sdpnode-_sdp_node.md">SDP_NODE</a> structure to a 128-bit integer type.
-
-
-## -syntax
-
-
-````
-PSDP_NODE SdpCreateNodeInt128(
-  _In_ PSDP_LARGE_INTEGER_16 pul16Val,
-  _In_ ULONG                 tag
-);
-````
+  <a href="https://msdn.microsoft.com/library/windows/hardware/ff536848">SDP_NODE</a> structure to a 128-bit integer type.
 
 
 ## -parameters
@@ -102,18 +91,18 @@ If successful, this function returns a pointer to the newly allocated SDP_NODE s
 
 After the 
     <b>SdpCreateNodeInt128</b> function allocates an 
-    <a href="..\sdpnode\ns-sdpnode-_sdp_node.md">SDP_NODE</a> structure, it initializes the structure in
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff536848">SDP_NODE</a> structure, it initializes the structure in
     the following ways.
 
 It ensures that the SDP_NODE structure's data type and data size fields are set appropriately.
 
 It ensures that the pointer members of the associated 
-      <a href="..\sdpnode\ns-sdpnode-_sdp_node_header.md">SDP_NODE_HEADER</a> structure are initialized
+      <a href="https://msdn.microsoft.com/library/windows/hardware/ff536850">SDP_NODE_HEADER</a> structure are initialized
       to point to the node itself. This creates a valid list with only one element.
 
 It ensures that the 
       <i>value</i> parameter passed to the function is copied to the appropriate element of the 
-      <a href="..\sdpnode\ns-sdpnode-_sdp_node_data.md">SDP_NODE_DATA</a> union that is associated with
+      <a href="https://msdn.microsoft.com/library/windows/hardware/ff536849">SDP_NODE_DATA</a> union that is associated with
       the SDP_NODE structure.
 
 The data associated with the 
@@ -121,31 +110,30 @@ The data associated with the
     time.
 
 Bluetooth profile drivers can obtain a pointer to this function through the 
-    <a href="..\bthsdpddi\ns-bthsdpddi-_bthddi_sdp_node_interface.md">BTHDDI_SDP_NODE_INTERFACE</a>.
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff536635">BTHDDI_SDP_NODE_INTERFACE</a>.
 
 
 
 
 ## -see-also
 
-<a href="..\sdpnode\ns-sdpnode-_sdp_node.md">SDP_NODE</a>
 
 
 
-<a href="..\sdpnode\ns-sdpnode-_sdp_node_data.md">SDP_NODE_DATA</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536635">BTHDDI_SDP_NODE_INTERFACE</a>
 
 
 
-<a href="..\sdpnode\ns-sdpnode-_sdp_node_header.md">SDP_NODE_HEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536848">SDP_NODE</a>
 
 
 
-<a href="..\bthsdpddi\ns-bthsdpddi-_bthddi_sdp_node_interface.md">BTHDDI_SDP_NODE_INTERFACE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536849">SDP_NODE_DATA</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536850">SDP_NODE_HEADER</a>
  
 
  
-
 

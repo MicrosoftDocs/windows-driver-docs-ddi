@@ -55,16 +55,6 @@ req.product: Windows 10 or later.
 The <b>WdfFileObjectGetInitiatorProcessId</b> function retrieves the initiator process ID that is associated with a specified framework file object.
 
 
-## -syntax
-
-
-````
-ULONG WdfFileObjectGetInitiatorProcessId(
-  _In_ WDFFILEOBJECT FileObject
-);
-````
-
-
 ## -parameters
 
 
@@ -97,7 +87,6 @@ Starting in Windows 8, a system component may issue a create on behalf of an ap
 
 ## -see-also
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestgetrequestorprocessid.md">WdfRequestGetRequestorProcessId</a>
 
 
 
@@ -105,8 +94,8 @@ Starting in Windows 8, a system component may issue a create on behalf of an ap
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265617">WdfRequestGetRequestorProcessId</a>
  
 
  
-
 

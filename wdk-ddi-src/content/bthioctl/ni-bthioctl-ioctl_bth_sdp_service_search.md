@@ -65,7 +65,7 @@ The IOCTL_BTH_SDP_SERVICE_SEARCH request contacts a remote device with an SDP re
 
 The 
       <b>AssociatedIrp.SystemBuffer</b> member contains a 
-      <a href="..\bthioctl\ns-bthioctl-_bth_sdp_service_search_request.md">
+      <a href="https://msdn.microsoft.com/d1ef833e-8350-499c-9a3d-408d900c9245">
       BTH_SDP_SERVICE_SEARCH_REQUEST</a> structure that specifies the connection handle to the remote SDP
       server and an array of GUIDs to search for.
 
@@ -73,7 +73,7 @@ The
 ### -input-buffer-length
 
 The length of a 
-      <a href="..\bthioctl\ns-bthioctl-_bth_sdp_service_search_request.md">
+      <a href="https://msdn.microsoft.com/d1ef833e-8350-499c-9a3d-408d900c9245">
       BTH_SDP_SERVICE_SEARCH_REQUEST</a> structure/
 
 
@@ -201,12 +201,11 @@ The SDP service could not process the number of GUIDs passed in the input buffer
 
 ## -see-also
 
-<a href="..\bthioctl\ns-bthioctl-_bth_sdp_service_search_request.md">BTH_SDP_SERVICE_SEARCH_REQUEST</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536652">BTH_SDP_SERVICE_SEARCH_REQUEST</a>
  
 
  
-
 

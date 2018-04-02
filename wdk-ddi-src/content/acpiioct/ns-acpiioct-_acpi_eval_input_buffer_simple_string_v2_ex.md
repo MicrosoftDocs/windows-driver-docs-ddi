@@ -52,20 +52,6 @@ req.typenames: ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V2_EX, *PACPI_EVAL_INPUT_BUF
 This topic describes the  <b>ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V2_EX</b> structure.
 
 
-## -syntax
-
-
-````
-typedef struct _ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V2_EX {
-  ULONG                                                  Signature;
-  CHAR                                                   MethodName[256];
-  ULONG                                                  StringLength;
-  _Field_size_(StringLength)
-    _Null_terminated_ UCHAR String[ANYSIZE_ARRAY];
-} ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V2_EX, *PACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V2_EX;
-````
-
-
 ## -struct-fields
 
 

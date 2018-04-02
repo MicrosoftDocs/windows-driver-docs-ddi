@@ -7,7 +7,7 @@ old-location: netvista\ndismsetvirtualfunctionbusdata.htm
 old-project: netvista
 ms.assetid: 74c6789e-22a6-42e9-bc14-8b9f93da668b
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: NdisMSetVirtualFunctionBusData, NdisMSetVirtualFunctionBusData function [Network Drivers Starting with Windows Vista], ndis/NdisMSetVirtualFunctionBusData, netvista.ndismsetvirtualfunctionbusdata
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,20 +53,6 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 A miniport driver calls the <b>NdisMSetVirtualFunctionBusData</b> function to write data to the PCI  Express (PCIe) configuration space of a Virtual Function (VF) on the network adapter. 
 <div class="alert"><b>Note</b>  <b>NdisMGetVirtualFunctionBusData</b> must only be called by the miniport driver for the network adapter's PCIe Physical Function (PF).</div><div> </div>
 
-## -syntax
-
-
-````
-ULONG NdisMSetVirtualFunctionBusData(
-  _In_ NDIS_HANDLE            NdisMiniportHandle,
-  _In_ NDIS_SRIOV_FUNCTION_ID VFId,
-  _In_ PVOID                  Buffer,
-  _In_ ULONG                  Offset,
-  _In_ ULONG                  Length
-);
-````
-
-
 ## -parameters
 
 
@@ -76,7 +62,7 @@ ULONG NdisMSetVirtualFunctionBusData(
 
 The network adapter handle that NDIS passed to the 
      <i>MiniportAdapterHandle</i> parameter of 
-     <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>.
+     <a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a>.
 
 
 ### -param VFId [in]
@@ -115,7 +101,7 @@ The length, in units of bytes, of the data to be written.
 
 
 The PF miniport driver typically calls <b>NdisMSetVirtualFunctionBusData</b> when it handles an OID method request of  <a href="https://msdn.microsoft.com/library/windows/hardware/hh451925">OID_SRIOV_WRITE_VF_CONFIG_SPACE</a>.  
-However, the driver can call this function any time after virtualization has been enabled on the network adapter through a call to <a href="..\ndis\nf-ndis-ndismenablevirtualization.md">NdisMEnableVirtualization</a>.
+However, the driver can call this function any time after virtualization has been enabled on the network adapter through a call to <a href="https://msdn.microsoft.com/library/windows/hardware/hh451481">NdisMEnableVirtualization</a>.
 
 For more information about backchannel communication within the single root I/O virtualization (SR-IOV) interface, see <a href="https://msdn.microsoft.com/66D40452-1286-449E-BD6B-AFAD466E03A1">SR-IOV PF/VF Backchannel Communication</a>.
 
@@ -131,11 +117,18 @@ The VBD that runs in the Hyper-V parent partition's management operating system 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451552">SetVirtualFunctionData</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndismenablevirtualization.md">NdisMEnableVirtualization</a>
+<b></b>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451143">GUID_PCI_VIRTUALIZATION_INTERFACE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451481">NdisMEnableVirtualization</a>
 
 
 
@@ -147,16 +140,8 @@ The VBD that runs in the Hyper-V parent partition's management operating system 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451143">GUID_PCI_VIRTUALIZATION_INTERFACE</a>
-
-
-
-<b></b>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451552">SetVirtualFunctionData</a>
  
 
  
-
 

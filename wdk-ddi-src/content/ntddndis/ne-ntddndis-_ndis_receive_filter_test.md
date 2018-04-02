@@ -7,7 +7,7 @@ old-location: netvista\ndis_receive_filter_test.htm
 old-project: netvista
 ms.assetid: 064d8335-3ebf-4bc2-901e-10ce46bf7732
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*PNDIS_RECEIVE_FILTER_TEST, NDIS_RECEIVE_FILTER_TEST, NDIS_RECEIVE_FILTER_TEST enumeration [Network Drivers Starting with Windows Vista], NdisReceiveFilterTestEqual, NdisReceiveFilterTestMaskEqual, NdisReceiveFilterTestMaximum, NdisReceiveFilterTestNotEqual, NdisReceiveFilterTestUndefined, PNDIS_RECEIVE_FILTER_TEST, PNDIS_RECEIVE_FILTER_TEST enumeration pointer [Network Drivers Starting with Windows Vista], _NDIS_RECEIVE_FILTER_TEST, netvista.ndis_receive_filter_test, ntddndis/NDIS_RECEIVE_FILTER_TEST, ntddndis/NdisReceiveFilterTestEqual, ntddndis/NdisReceiveFilterTestMaskEqual, ntddndis/NdisReceiveFilterTestMaximum, ntddndis/NdisReceiveFilterTestNotEqual, ntddndis/NdisReceiveFilterTestUndefined, ntddndis/PNDIS_RECEIVE_FILTER_TEST, virtual_machine_queue_ref_16206d46-2048-429b-b7cf-aa5f5d099ae1.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,20 +53,6 @@ The <b>NDIS_RECEIVE_FILTER_TEST</b> enumeration identifies the type of test that
   performs.
 
 
-## -syntax
-
-
-````
-typedef enum _NDIS_RECEIVE_FILTER_TEST { 
-  NdisReceiveFilterTestUndefined,
-  NdisReceiveFilterTestEqual,
-  NdisReceiveFilterTestMaskEqual,
-  NdisReceiveFilterTestNotEqual,
-  NdisReceiveFilterTestMaximum
-} NDIS_RECEIVE_FILTER_TEST, *PNDIS_RECEIVE_FILTER_TEST;
-````
-
-
 ## -enum-fields
 
 
@@ -106,7 +92,7 @@ The maximum value for this enumeration. This value might change in future versio
 
 
 The NDIS_RECEIVE_FILTER_TEST enumeration is used in the 
-    <a href="..\ntddndis\ns-ntddndis-_ndis_receive_filter_field_parameters.md">
+    <a href="https://msdn.microsoft.com/3d387fe9-a7cc-4034-b31e-ba1359db2ae1">
     NDIS_RECEIVE_FILTER_FIELD_PARAMETERS</a> structure.
 
 
@@ -114,13 +100,12 @@ The NDIS_RECEIVE_FILTER_TEST enumeration is used in the
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_receive_filter_field_parameters.md">
+
+
+
+<a href="https://msdn.microsoft.com/3d387fe9-a7cc-4034-b31e-ba1359db2ae1">
    NDIS_RECEIVE_FILTER_FIELD_PARAMETERS</a>
-
-
-
  
 
  
-
 

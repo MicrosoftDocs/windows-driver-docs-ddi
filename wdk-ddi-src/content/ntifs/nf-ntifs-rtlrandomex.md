@@ -7,7 +7,7 @@ old-location: ifsk\rtlrandomex.htm
 old-project: ifsk
 ms.assetid: 2a5c70da-69dc-431c-9ce9-908633045372
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: RtlRandomEx, RtlRandomEx routine [Installable File System Drivers], ifsk.rtlrandomex, ntifs/RtlRandomEx, rtlref_29425246-066b-4f0f-ba4b-419db1de119d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,16 +52,6 @@ req.typenames: TOKEN_TYPE
 The <b>RtlRandomEx</b> routine returns a random number that was generated from a given seed value. 
 
 
-## -syntax
-
-
-````
-ULONG RtlRandomEx(
-  _Inout_ PULONG Seed
-);
-````
-
-
 ## -parameters
 
 
@@ -94,12 +84,11 @@ The <b>RtlRandomEx</b> function is an improved version of the <b>RtlRandom</b> f
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-rtlrandom.md">RtlRandom</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553177">RtlRandom</a>
  
 
  
-
 

@@ -55,14 +55,6 @@ req.product: Windows 10 or later.
 The <b>Close</b> method closes an instance of a UMDF driver-created-file object that was created by calling the <a href="https://msdn.microsoft.com/library/windows/hardware/ff558828">IWDFDevice::CreateWdfFile</a> method.
 
 
-## -syntax
-
-
-````
-void  Close();
-````
-
-
 ## -parameters
 
 
@@ -90,7 +82,6 @@ For more information, see <a href="https://msdn.microsoft.com/84b677b4-fddf-4f06
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfdrivercreatedfile.md">IWDFDriverCreatedFile</a>
 
 
 
@@ -98,8 +89,8 @@ For more information, see <a href="https://msdn.microsoft.com/84b677b4-fddf-4f06
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558895">IWDFDriverCreatedFile</a>
  
 
  
-
 

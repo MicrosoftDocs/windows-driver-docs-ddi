@@ -7,7 +7,7 @@ old-location: display\d3d12ddi_texture_layout.htm
 old-project: display
 ms.assetid: F039A0D9-D1AE-4940-B67D-30CC6344EC7D
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3D12DDI_TEXTURE_LAYOUT, D3D12DDI_TEXTURE_LAYOUT enumeration [Display Devices], D3D12DDI_TL_64KB_TILE_STANDARD_SWIZZLE, D3D12DDI_TL_64KB_TILE_UNDEFINED_SWIZZLE, D3D12DDI_TL_DEVICE_DEPENDENT_SWIZZLE_0, D3D12DDI_TL_ROW_MAJOR, D3D12DDI_TL_UNDEFINED, d3d12umddi/D3D12DDI_TEXTURE_LAYOUT, d3d12umddi/D3D12DDI_TL_64KB_TILE_STANDARD_SWIZZLE, d3d12umddi/D3D12DDI_TL_64KB_TILE_UNDEFINED_SWIZZLE, d3d12umddi/D3D12DDI_TL_DEVICE_DEPENDENT_SWIZZLE_0, d3d12umddi/D3D12DDI_TL_ROW_MAJOR, d3d12umddi/D3D12DDI_TL_UNDEFINED, display.d3d12ddi_texture_layout
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,20 +50,6 @@ req.typenames: D3D12DDI_TEXTURE_LAYOUT
 
 
 Specifies a texture layout.
-
-
-## -syntax
-
-
-````
-typedef enum D3D12DDI_TEXTURE_LAYOUT { 
-  D3D12DDI_TL_UNDEFINED                    = 0,
-  D3D12DDI_TL_ROW_MAJOR                    = 1,
-  D3D12DDI_TL_64KB_TILE_UNDEFINED_SWIZZLE  = 2,
-  D3D12DDI_TL_64KB_TILE_STANDARD_SWIZZLE   = 3,
-  D3D12DDI_TL_DEVICE_DEPENDENT_SWIZZLE_0   = 0x100
-} D3D12DDI_TEXTURE_LAYOUT;
-````
 
 
 ## -enum-fields

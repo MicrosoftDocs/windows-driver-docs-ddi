@@ -57,16 +57,6 @@ The <b>SetUserModeDriverInitiatedIo</b> method
   indicates to kernel-mode drivers that sit below the UMDF driver in the same device stack that a particular request should be treated as though it came from a UMDF driver.
 
 
-## -syntax
-
-
-````
-void SetUserModeDriverInitiatedIo(
-  [in] BOOL IsUserModeDriverInitiated
-);
-````
-
-
 ## -parameters
 
 
@@ -90,7 +80,7 @@ This method does not return a value.
 
 
 
-If a UMDF driver calls this method with the <i>IsUserModeDriverInitiated</i> parameter set to <b>TRUE</b>, the framework sets the IRP_UM_DRIVER_INITIATED_IO flag in the <b>Flags</b> member of the WDM <a href="..\wdm\ns-wdm-_irp.md">IRP</a> structure before forwarding the request to kernel-mode drivers.
+If a UMDF driver calls this method with the <i>IsUserModeDriverInitiated</i> parameter set to <b>TRUE</b>, the framework sets the IRP_UM_DRIVER_INITIATED_IO flag in the <b>Flags</b> member of the WDM <a href="https://msdn.microsoft.com/library/windows/hardware/ff550694">IRP</a> structure before forwarding the request to kernel-mode drivers.
 
 A kernel-mode driver that resides below the UMDF driver in the same device stack can check for this flag to determine if the request should be treated as though initiated by a UMDF driver.
 
@@ -100,18 +90,13 @@ A UMDF driver might set the <i>IsUserModeDriverInitiated</i> parameter to <b>TRU
 
 Requests that the driver created on its own are already marked as having originated from a UMDF driver.
 
-The UMDF 2 equivalent of this method is <a href="..\wdfrequest\nf-wdfrequest-wdfrequestsetusermodedriverinitiatedio.md">WdfRequestSetUserModeDriverInitiatedIo</a>.
+The UMDF 2 equivalent of this method is <a href="https://msdn.microsoft.com/library/windows/hardware/dn265623">WdfRequestSetUserModeDriverInitiatedIo</a>.
 
 
 
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfiorequest3.md">IWDFIoRequest3</a>
-
-
-
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestsetusermodedriverinitiatedio.md">WdfRequestSetUserModeDriverInitiatedIo</a>
 
 
 
@@ -119,8 +104,12 @@ The UMDF 2 equivalent of this method is <a href="..\wdfrequest\nf-wdfrequest-wdf
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451337">IWDFIoRequest3</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265623">WdfRequestSetUserModeDriverInitiatedIo</a>
  
 
  
-
 

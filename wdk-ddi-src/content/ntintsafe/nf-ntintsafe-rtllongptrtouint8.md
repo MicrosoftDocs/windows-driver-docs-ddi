@@ -7,7 +7,7 @@ old-location: kernel\rtllongptrtouint8.htm
 old-project: kernel
 ms.assetid: 1E7BB805-1A91-4DA6-A7E9-E60DD8D4AAF3
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: RtlLongPtrToUInt8, RtlLongPtrToUInt8 function [Kernel-Mode Driver Architecture], kernel.rtllongptrtouint8, ntintsafe/RtlLongPtrToUInt8
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,17 +50,6 @@ req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
 
 
 Converts a value of type <b>LONG_PTR</b> to a value of type <b>UINT8</b>.
-
-
-## -syntax
-
-
-````
-NTSTATUS RtlLongPtrToUInt8(
-  _In_  LONG_PTR lOperand,
-  _Out_ UINT8    *pui8Result
-);
-````
 
 
 ## -parameters

@@ -7,7 +7,7 @@ old-location: display\iddcx_frame_statistics.htm
 old-project: display
 ms.assetid: 5099ff37-eed9-44fd-8254-3828b8c5d8bd
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: IDDCX_FRAME_STATISTICS, IDDCX_FRAME_STATISTICS structure [Display Devices], display.iddcx_frame_statistics, iddcx/IDDCX_FRAME_STATISTICS
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,30 +51,6 @@ req.typenames:
 
 Gives information about the current frame being processed.
              
-
-
-## -syntax
-
-
-````
-typedef struct IDDCX_FRAME_STATISTICS {
-  UINT                                                                 Size;
-  UINT                                                                 PresentationFrameNumber;
-  IDDCX_FRAME_STATUS                                                   FrameStatus;
-  UINT                                                                 ReEncodeNumber;
-  UINT                                                                 FrameSliceTotal;
-  UINT                                                                 CurrentSlice;
-  UINT64                                                               FrameAcquireQpcTime;
-  UINT                                                                 FrameProcessingStepsCount;
-  _Field_size_(FrameProcessingStepsCount) IDDCX_FRAME_STATISTICS_STEP* pFrameProcessingStep;
-  UINT64                                                               SendStartQpcTime;
-  UINT64                                                               SendStopQpcTime;
-  UINT64                                                               SendCompleteQpcTime;
-  IDDCX_FRAME_STATISTICS_FLAGS                                         Flags;
-  UINT                                                                 ProcessedPixelCount;
-  UINT                                                                 FrameSizeInBytes;
-} IDDCX_FRAME_STATISTICS, *IDDCX_FRAME_STATISTICS;
-````
 
 
 ## -struct-fields

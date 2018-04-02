@@ -2,7 +2,7 @@
 UID: NA:namcache
 ms.assetid: c527b3d1-92c4-3901-8854-46f3a1d6612b
 ms.author: windowsdriverdev
-ms.date: 03/13/18
+ms.date: 02/27/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

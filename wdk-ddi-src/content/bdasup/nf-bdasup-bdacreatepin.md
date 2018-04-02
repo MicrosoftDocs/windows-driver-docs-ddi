@@ -53,18 +53,6 @@ req.typenames: KSP_BDA_NODE_PIN, *PKSP_BDA_NODE_PIN
 The <b>BdaCreatePin</b> function creates a new pin in the specified filter. 
 
 
-## -syntax
-
-
-````
-NTSTATUS BdaCreatePin(
-  _In_      PKSFILTER pKSFilter,
-  _In_      ULONG     ulPinType,
-  _Out_opt_ PULONG    pulPinId
-);
-````
-
-
 ## -parameters
 
 
@@ -98,7 +86,7 @@ Returns STATUS_SUCCESS or an appropriate error code.
 
 
 
-A BDA minidriver calls the <a href="..\bdasup\nf-bdasup-bdamethodcreatepin.md">BdaMethodCreatePin</a> function when the network provider dynamically creates a pin using the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563411">KSMETHOD_BDA_CREATE_PIN_FACTORY</a> request of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563404">KSMETHODSETID_BdaDeviceConfiguration</a> method set. If a BDA minidriver must create a pin without relying on the network provider, the BDA minidriver should call the <b>BdaCreatePin</b> function directly.
+A BDA minidriver calls the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556467">BdaMethodCreatePin</a> function when the network provider dynamically creates a pin using the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563411">KSMETHOD_BDA_CREATE_PIN_FACTORY</a> request of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563404">KSMETHODSETID_BdaDeviceConfiguration</a> method set. If a BDA minidriver must create a pin without relying on the network provider, the BDA minidriver should call the <b>BdaCreatePin</b> function directly.
 
 .
 
@@ -107,19 +95,18 @@ A BDA minidriver calls the <a href="..\bdasup\nf-bdasup-bdamethodcreatepin.md">B
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563411">KSMETHOD_BDA_CREATE_PIN_FACTORY</a>
 
 
 
-<a href="..\bdasup\nf-bdasup-bdadeletepin.md">BdaDeletePin</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556452">BdaDeletePin</a>
 
 
 
-<a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556467">BdaMethodCreatePin</a>
 
 
 
-<a href="..\bdasup\nf-bdasup-bdamethodcreatepin.md">BdaMethodCreatePin</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562522">KSFILTER</a>
 
 
 
@@ -127,8 +114,8 @@ A BDA minidriver calls the <a href="..\bdasup\nf-bdasup-bdamethodcreatepin.md">B
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563411">KSMETHOD_BDA_CREATE_PIN_FACTORY</a>
  
 
  
-
 

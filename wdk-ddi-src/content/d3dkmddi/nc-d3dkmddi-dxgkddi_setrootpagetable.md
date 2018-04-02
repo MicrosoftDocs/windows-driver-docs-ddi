@@ -7,7 +7,7 @@ old-location: display\dxgkddisetrootpagetable.htm
 old-project: display
 ms.assetid: BC9E7A2D-690D-4EC2-8D16-22C5FEBA574A
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKDDI_SETROOTPAGETABLE, DxgkDdiSetRootPageTable, DxgkDdiSetRootPageTable callback function [Display Devices], d3dkmddi/DxgkDdiSetRootPageTable, display.dxgkddisetrootpagetable, dispmprt/DxgkDdiSetRootPageTable
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,20 +58,6 @@ This is level 1 synchronization function. The targeted context is guaranteed to 
   
 
 
-## -prototype
-
-
-````
-DXGKDDI_SETROOTPAGETABLE DxgkDdiSetRootPageTable;
-
-VOID APIENTRY DxgkDdiSetRootPageTable(
-  _In_ const HANDLE                   hAdapter,
-  _In_ const DXGKARG_SETROOTPAGETABLE *pSetPageTable
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -84,7 +70,7 @@ A handle to the display adapter.
 
 ### -param pSetPageTable [in]
 
-The <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_setrootpagetable.md">DXGKARG_SETROOTPAGETABLE</a> structure that describes the operation.
+The <a href="https://msdn.microsoft.com/library/windows/hardware/dn906824">DXGKARG_SETROOTPAGETABLE</a> structure that describes the operation.
 
 
 ## -returns
@@ -98,12 +84,11 @@ This callback function does not return a value.
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_setrootpagetable.md">DXGKARG_SETROOTPAGETABLE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn906824">DXGKARG_SETROOTPAGETABLE</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: display\negotiateauthenticatedchannelkeyexchange.htm
 old-project: display
 ms.assetid: a54a26d2-d38c-4e82-a3e9-7a17c0afff27
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3D11_1DDI_NEGOTIATEAUTHENTICATEDCHANNELKEYEXCHANGE, d3d10umddi/pfnNegotiateAuthenticatedChannelKeyExchange, display.negotiateauthenticatedchannelkeyexchange, pfnNegotiateAuthenticatedChannelKeyExchange, pfnNegotiateAuthenticatedChannelKeyExchange callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -54,22 +54,6 @@ Establishes a session key for an authenticated channel.
 
 
 
-## -prototype
-
-
-````
-PFND3D11_1DDI_NEGOTIATEAUTHENTICATEDCHANNELKEYEXCHANGE pfnNegotiateAuthenticatedChannelKeyExchange;
-
-HRESULT APIENTRY* pfnNegotiateAuthenticatedChannelKeyExchange(
-  _In_ D3D10DDI_HDEVICE        hDevice,
-  _In_ D3D11_1DDI_HAUTHCHANNEL hCAuthChannel,
-  _In_ UINT                    DataSize,
-  _In_ VOID                    *pData
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -84,7 +68,7 @@ A handle to the display device (graphics context).
 
 ### -param hCAuthChannel [in]
 
-A handle to an authenticated channel object that was created through a call to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createauthenticatedchannel.md">CreateAuthenticatedChannel(D3D11_1)</a> function.
+A handle to an authenticated channel object that was created through a call to the <a href="https://msdn.microsoft.com/90b43bc3-6569-4799-8be3-e4e60f59164f">CreateAuthenticatedChannel(D3D11_1)</a> function.
 
 
 
@@ -167,12 +151,11 @@ The key exchange for an authenticated channel is identical to the key exchange f
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createauthenticatedchannel.md">CreateAuthenticatedChannel(D3D11_1)</a>
 
 
 
+<a href="https://msdn.microsoft.com/90b43bc3-6569-4799-8be3-e4e60f59164f">CreateAuthenticatedChannel(D3D11_1)</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: display\d3dkmtreclaimallocations.htm
 old-project: display
 ms.assetid: 3bfb2a82-9451-4365-b113-6311c3f13fe6
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMTReclaimAllocations, D3DKMTReclaimAllocations callback function [Display Devices], PFND3DKMT_RECLAIMALLOCATIONS, d3dkmthk/D3DKMTReclaimAllocations, display.d3dkmtreclaimallocations
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,16 +52,6 @@ req.typenames: D3DKMT_DRIVERVERSION
 Reclaims video memory allocations.
 
 
-## -syntax
-
-
-````
-EXTERN_C _Check_return_ NTSTATUS APIENTRY D3DKMTReclaimAllocations(
-  _Inout_ const D3DKMT_RECLAIMALLOCATIONS *pData
-);
-````
-
-
 ## -parameters
 
 
@@ -76,7 +66,7 @@ TBD
 
 #### - pData [in, out]
 
-A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_reclaimallocations.md">D3DKMT_RECLAIMALLOCATIONS</a> structure that defines memory allocations to reclaim.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh406566">D3DKMT_RECLAIMALLOCATIONS</a> structure that defines memory allocations to reclaim.
 
 
 ## -returns
@@ -131,16 +121,15 @@ Parameters were validated and determined to be incorrect.
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_reclaimallocations.md">D3DKMT_RECLAIMALLOCATIONS</a>
 
 
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtofferallocations.md">D3DKMTOfferAllocations</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439402">D3DKMTOfferAllocations</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406566">D3DKMT_RECLAIMALLOCATIONS</a>
  
 
  
-
 
