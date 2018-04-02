@@ -86,8 +86,7 @@ The physical medium type for the base underlying miniport adapter. For more info
 
 ### -field RestartAttributes
 
-
-      A pointer to an NDIS_RESTART_ATTRIBUTES structure.
+A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_restart_attributes">NDIS_RESTART_ATTRIBUTES</a> structure.
      
 
 
