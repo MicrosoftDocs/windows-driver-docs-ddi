@@ -7,7 +7,7 @@ old-location: display\destroyoverlay.htm
 old-project: display
 ms.assetid: 63004d19-e2cd-462c-8fa5-ea4dd6e29735
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DestroyOverlay, DestroyOverlay callback function [Display Devices], PFND3DDDI_DESTROYOVERLAY, UserModeDisplayDriver_Functions_e3dd8286-aff0-40c0-8cf2-84ecc706df90.xml, d3dumddi/DestroyOverlay, display.destroyoverlay
 ms.prod: windows-hardware
 ms.technology: windows-devices

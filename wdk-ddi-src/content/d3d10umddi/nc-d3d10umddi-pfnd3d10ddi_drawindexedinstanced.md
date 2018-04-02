@@ -7,7 +7,7 @@ old-location: display\drawindexedinstanced.htm
 old-project: display
 ms.assetid: 3dc64562-9dc0-4d43-835d-6fdd509435f8
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DrawIndexedInstanced, DrawIndexedInstanced callback function [Display Devices], PFND3D10DDI_DRAWINDEXEDINSTANCED, UserModeDisplayDriverDx10_Functions_7452fd0b-4fff-4321-b0ce-464ac0ad2f6d.xml, d3d10umddi/DrawIndexedInstanced, display.drawindexedinstanced
 ms.prod: windows-hardware
 ms.technology: windows-devices

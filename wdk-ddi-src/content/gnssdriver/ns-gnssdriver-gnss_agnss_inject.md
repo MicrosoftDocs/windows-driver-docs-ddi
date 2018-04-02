@@ -3,12 +3,12 @@ UID: NS:gnssdriver.GNSS_AGNSS_INJECT
 title: GNSS_AGNSS_INJECT
 author: windows-driver-content
 description: This structure defines the parameters for AGNSS injection.
-old-location: gnss\gnss_agnss_inject.htm
-old-project: gnss
+old-location: sensors\gnss_agnss_inject.htm
+old-project: sensors
 ms.assetid: B81F5D71-9928-412C-8199-787E71CE2638
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: "*PGNSS_AGNSS_INJECT, GNSS_AGNSS_INJECT, GNSS_AGNSS_INJECT structure [Sensor Devices], PGNSS_AGNSS_INJECT, PGNSS_AGNSS_INJECT structure pointer [Sensor Devices], gnss.gnss_agnss_inject, gnssdriver/GNSS_AGNSS_INJECT, gnssdriver/PGNSS_AGNSS_INJECT"
+ms.date: 2/22/2018
+ms.keywords: "*PGNSS_AGNSS_INJECT, GNSS_AGNSS_INJECT, GNSS_AGNSS_INJECT structure [Sensor Devices], PGNSS_AGNSS_INJECT, PGNSS_AGNSS_INJECT structure pointer [Sensor Devices], gnssdriver/GNSS_AGNSS_INJECT, gnssdriver/PGNSS_AGNSS_INJECT, sensors.gnss_agnss_inject"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -50,26 +50,6 @@ req.typenames: GNSS_AGNSS_INJECT, *PGNSS_AGNSS_INJECT
 
 
 This structure defines the parameters for AGNSS injection.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  ULONG                   Size;
-  ULONG                   Version;
-  GNSS_AGNSS_REQUEST_TYPE InjectionType;
-  NTSTATUS                InjectionStatus;
-  ULONG                   InjectionDataSize;
-  BYTE                    Unused[512];
-  union {
-    GNSS_AGNSS_INJECTTIME     Time;
-    GNSS_AGNSS_INJECTPOSITION Position;
-    GNSS_AGNSS_INJECTBLOB     BlobData;
-  };
-} GNSS_AGNSS_INJECT, *PGNSS_AGNSS_INJECT;
-````
 
 
 ## -struct-fields
@@ -116,19 +96,19 @@ Size of the injection data.
 #### - BlobData
 
 
-<a href="..\gnssdriver\ns-gnssdriver-gnss_agnss_injectblob.md">GNSS_AGNSS_INJECTBLOB</a>  contains the format for AGNSS extended ephemeris injection.
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn925093">GNSS_AGNSS_INJECTBLOB</a>  contains the format for AGNSS extended ephemeris injection.
 
 
 #### - Position
 
 
-<a href="..\gnssdriver\ns-gnssdriver-gnss_agnss_injectposition.md">GNSS_AGNSS_INJECTPOSITION</a> contains  the format for AGNSS position injection.
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn925094">GNSS_AGNSS_INJECTPOSITION</a> contains  the format for AGNSS position injection.
 
 
 #### - Time
 
 
-<a href="..\gnssdriver\ns-gnssdriver-gnss_agnss_injecttime.md">GNSS_AGNSS_INJECTTIME</a> contains the format for AGNSS time injection.
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn925095">GNSS_AGNSS_INJECTTIME</a> contains the format for AGNSS time injection.
 
 
 #### - Unused[512]

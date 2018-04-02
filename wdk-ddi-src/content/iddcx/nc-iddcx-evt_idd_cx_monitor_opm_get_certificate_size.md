@@ -7,7 +7,7 @@ old-location: display\evt_idd_cx_monitor_opm_get_certificate_size.htm
 old-project: display
 ms.assetid: f5293625-19eb-4df9-9934-1e1990b7d608
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: EVT_IDD_CX_MONITOR_OPM_GET_CERTIFICATE_SIZE, EvtIddCxMonitorOpmGetCertificateSize, EvtIddCxMonitorOpmGetCertificateSize callback function [Display Devices], PFN_IDD_CX_MONITOR_OPM_GET_CERTIFICATE_SIZE, PFN_IDD_CX_MONITOR_OPM_GET_CERTIFICATE_SIZE callback function pointer [Display Devices], display.evt_idd_cx_monitor_opm_get_certificate_size, iddcx/EvtIddCxMonitorOpmGetCertificateSize
 ms.prod: windows-hardware
 ms.technology: windows-devices

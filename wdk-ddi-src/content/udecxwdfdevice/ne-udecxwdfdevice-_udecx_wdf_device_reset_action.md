@@ -7,7 +7,7 @@ old-location: buses\udecx_wdf_device_reset_action.htm
 old-project: usbref
 ms.assetid: E3216F62-5506-4DA2-AD89-B2406D3E97C0
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PUDECX_WDF_DEVICE_RESET_ACTION, UDECX_WDF_DEVICE_RESET_ACTION, UDECX_WDF_DEVICE_RESET_ACTION enumeration [Buses], UdecxWdfDeviceResetActionResetEachUsbDevice, UdecxWdfDeviceResetActionResetWdfDevice, _UDECX_WDF_DEVICE_RESET_ACTION, buses.udecx_wdf_device_reset_action, udecxwdfdevice/UDECX_WDF_DEVICE_RESET_ACTION, udecxwdfdevice/UdecxWdfDeviceResetActionResetEachUsbDevice, udecxwdfdevice/UdecxWdfDeviceResetActionResetWdfDevice"
 ms.prod: windows-hardware
 ms.technology: windows-devices

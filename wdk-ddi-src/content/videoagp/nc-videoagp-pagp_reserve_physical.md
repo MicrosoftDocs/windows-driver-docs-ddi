@@ -7,7 +7,7 @@ old-location: display\agpreservephysical.htm
 old-project: display
 ms.assetid: b3e21c94-acd5-4767-8ba5-70b2dcfb2aaa
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: AgpReservePhysical, AgpReservePhysical callback function [Display Devices], PAGP_RESERVE_PHYSICAL, VideoPort_Functions_9ce9c724-b077-4821-9b9a-adb3d16f5671.xml, display.agpreservephysical, videoagp/AgpReservePhysical
 ms.prod: windows-hardware
 ms.technology: windows-devices

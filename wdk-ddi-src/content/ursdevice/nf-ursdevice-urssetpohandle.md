@@ -7,7 +7,7 @@ old-location: buses\urssetpohandle.htm
 old-project: usbref
 ms.assetid: 87B34452-DC2C-4FD4-B0F8-51EFAF2D4AA6
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: UrsSetPoHandle, UrsSetPoHandle function [Buses], buses.urssetpohandle, ursdevice/UrsSetPoHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices

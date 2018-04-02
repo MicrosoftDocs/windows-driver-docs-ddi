@@ -7,7 +7,7 @@ old-location: display\dxgkddicommitvidpn.htm
 old-project: display
 ms.assetid: 979b86e9-f3ff-4022-8c00-b6afc2b1f747
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKDDI_COMMITVIDPN, DmFunctions_467cba1e-3eeb-4735-9fb3-46c8c737b48d.xml, DxgkDdiCommitVidPn, DxgkDdiCommitVidPn callback function [Display Devices], d3dkmddi/DxgkDdiCommitVidPn, display.dxgkddicommitvidpn
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: dtf\iwdtftarget2_hascontext.htm
 old-project: dtf
 ms.assetid: 16ea6100-6e3e-4e50-9055-4396deb39a37
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 3/29/2018
 ms.keywords: HasContext method [Windows Device Testing Framework], HasContext method [Windows Device Testing Framework], IWDTFTarget2 interface, HasContext,IWDTFTarget2.HasContext, IWDTFTarget2, IWDTFTarget2 interface [Windows Device Testing Framework], HasContext method, IWDTFTarget2::HasContext, Microsoft.WDTF.IWDTFTarget2.HasContext, Microsoft::WDTF::IWDTFTarget2::HasContext, dtf.iwdtftarget2_hascontext, wdtf/IWDTFTarget2::HasContext
 ms.prod: windows-hardware
 ms.technology: windows-devices

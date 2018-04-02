@@ -7,7 +7,7 @@ old-location: display\d3dkmtshareobjects.htm
 old-project: display
 ms.assetid: 853c4e73-b571-4b68-8690-bbef7a726c8e
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMTShareObjects, D3DKMTShareObjects function [Display Devices], d3dkmthk/D3DKMTShareObjects, display.d3dkmtshareobjects
 ms.prod: windows-hardware
 ms.technology: windows-devices

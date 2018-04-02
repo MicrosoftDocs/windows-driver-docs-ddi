@@ -7,7 +7,7 @@ old-location: display\ioctl_video_query_public_access_ranges.htm
 old-project: display
 ms.assetid: 2ae79e9c-34e4-4862-afd1-be6e808183cf
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_VIDEO_QUERY_PUBLIC_ACCESS_RANGES, IOCTL_VIDEO_QUERY_PUBLIC_ACCESS_RANGES control code [Display Devices], Video_IOCTLs_e41d01a5-e889-445e-87cd-948f95ba2810.xml, display.ioctl_video_query_public_access_ranges, ntddvdeo/IOCTL_VIDEO_QUERY_PUBLIC_ACCESS_RANGES
 ms.prod: windows-hardware
 ms.technology: windows-devices

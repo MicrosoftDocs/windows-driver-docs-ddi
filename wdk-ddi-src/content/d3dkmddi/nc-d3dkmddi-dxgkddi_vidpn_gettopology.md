@@ -7,7 +7,7 @@ old-location: display\dxgk_vidpn_interface_pfngettopology.htm
 old-project: display
 ms.assetid: 2bc43cd0-97a2-4120-8e6f-425664d3d28c
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKDDI_VIDPN_GETTOPOLOGY, VidPnFunctions_2818281e-102f-4c76-a57d-3b133b0692e6.xml, d3dkmddi/pfnGetTopology, display.dxgk_vidpn_interface_pfngettopology, pfnGetTopology, pfnGetTopology callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices

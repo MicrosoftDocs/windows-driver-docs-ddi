@@ -7,7 +7,7 @@ old-location: ifsk\pflt_normalize_context_cleanup.htm
 old-project: ifsk
 ms.assetid: 968cfc99-4862-41f7-bf7e-d579a3e8061f
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FltCallbacks_3391a3bd-55a2-4f87-b116-78c2e4f93b88.xml, NormalizeContextCleanupCallback, NormalizeContextCleanupCallback routine [Installable File System Drivers], PFLT_NORMALIZE_CONTEXT_CLEANUP, fltkernel/NormalizeContextCleanupCallback, ifsk.pflt_normalize_context_cleanup
 ms.prod: windows-hardware
 ms.technology: windows-devices

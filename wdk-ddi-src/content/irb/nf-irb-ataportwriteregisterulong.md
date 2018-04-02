@@ -7,7 +7,7 @@ old-location: storage\ataportwriteregisterulong.htm
 old-project: storage
 ms.assetid: 62abbee8-cd62-4106-9a7e-c93bfc916769
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: AtaPortWriteRegisterUlong, AtaPortWriteRegisterUlong routine [Storage Devices], atartns_9cbbfe00-9ab2-4c7b-8f33-c9ebb166214a.xml, irb/AtaPortWriteRegisterUlong, storage.ataportwriteregisterulong
 ms.prod: windows-hardware
 ms.technology: windows-devices

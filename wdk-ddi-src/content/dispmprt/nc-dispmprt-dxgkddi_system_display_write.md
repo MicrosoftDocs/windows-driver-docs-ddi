@@ -7,7 +7,7 @@ old-location: display\dxgkddisystemdisplaywrite.htm
 old-project: display
 ms.assetid: 5C0F9878-522C-4DDE-A790-54C94880F119
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKDDI_SYSTEM_DISPLAY_WRITE, DxgkDdiSystemDisplayWrite, DxgkDdiSystemDisplayWrite callback function [Display Devices], display.dxgkddisystemdisplaywrite, dispmprt/DxgkDdiSystemDisplayWrite
 ms.prod: windows-hardware
 ms.technology: windows-devices

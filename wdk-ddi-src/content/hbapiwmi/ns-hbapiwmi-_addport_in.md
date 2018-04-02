@@ -7,7 +7,7 @@ old-location: storage\addport_in.htm
 old-project: storage
 ms.assetid: c9cdc0fc-e292-4142-a070-50a25a2a5673
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PAddPort_IN, AddPort_IN, AddPort_IN structure [Storage Devices], PAddPort_IN, PAddPort_IN structure pointer [Storage Devices], _AddPort_IN, hbapiwmi/AddPort_IN, hbapiwmi/PAddPort_IN, storage.addport_in, structs-Fibre_0f7b349b-048b-444c-b8ac-bdf63b00f998.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices

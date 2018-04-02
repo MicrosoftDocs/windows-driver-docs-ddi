@@ -7,7 +7,7 @@ old-location: ifsk\fsrtllookupperfilecontext.htm
 old-project: ifsk
 ms.assetid: b15598bd-8362-44f1-83ce-b4282d6604b0
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FsRtlLookupPerFileContext, FsRtlLookupPerFileContext routine [Installable File System Drivers], fsrtlref_ab859bb7-ea43-4d55-ab37-feebddd270ff.xml, ifsk.fsrtllookupperfilecontext, ntifs/FsRtlLookupPerFileContext
 ms.prod: windows-hardware
 ms.technology: windows-devices

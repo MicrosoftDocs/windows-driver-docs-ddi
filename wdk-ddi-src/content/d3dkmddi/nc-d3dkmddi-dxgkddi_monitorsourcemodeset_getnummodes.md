@@ -7,7 +7,7 @@ old-location: display\dxgk_monitorsourcemodeset_interface_pfngetnummodes.htm
 old-project: display
 ms.assetid: 58daf5be-45c5-493b-9d51-ef48bb123dce
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKDDI_MONITORSOURCEMODESET_GETNUMMODES, VidPnFunctions_ac29494d-c35e-46bb-bfc1-6aaf70edbc2d.xml, d3dkmddi/pfnGetNumModes, display.dxgk_monitorsourcemodeset_interface_pfngetnummodes, pfnGetNumModes, pfnGetNumModes callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices

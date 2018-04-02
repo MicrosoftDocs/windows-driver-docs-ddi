@@ -7,7 +7,7 @@ old-location: dtf\iwdtfenhanceddevicetestsupportactions2_isenabled.htm
 old-project: dtf
 ms.assetid: 926cf957-3747-4475-a8fc-1c9ca41734f9
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 3/29/2018
 ms.keywords: IWDTFEnhancedDeviceTestSupportActions2, IWDTFEnhancedDeviceTestSupportActions2 interface [Windows Device Testing Framework], IsEnabled method, IWDTFEnhancedDeviceTestSupportActions2::IsEnabled, IsEnabled method [Windows Device Testing Framework], IsEnabled method [Windows Device Testing Framework], IWDTFEnhancedDeviceTestSupportActions2 interface, IsEnabled,IWDTFEnhancedDeviceTestSupportActions2.IsEnabled, dtf.iwdtfenhanceddevicetestsupportactions2_isenabled, wdtfedtaction/IWDTFEnhancedDeviceTestSupportActions2::IsEnabled
 ms.prod: windows-hardware
 ms.technology: windows-devices

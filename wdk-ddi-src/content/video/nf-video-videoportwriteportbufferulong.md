@@ -7,7 +7,7 @@ old-location: display\videoportwriteportbufferulong.htm
 old-project: display
 ms.assetid: 7b892bea-a21a-4bf3-863a-d56d919538aa
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: VideoPortWritePortBufferUlong, VideoPortWritePortBufferUlong function [Display Devices], VideoPort_Functions_f8e5a168-7d9d-4478-b3e9-00053456506f.xml, display.videoportwriteportbufferulong, video/VideoPortWritePortBufferUlong
 ms.prod: windows-hardware
 ms.technology: windows-devices

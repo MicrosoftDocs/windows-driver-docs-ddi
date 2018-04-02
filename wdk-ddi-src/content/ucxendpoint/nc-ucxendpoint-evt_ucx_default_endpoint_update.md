@@ -7,7 +7,7 @@ old-location: buses\evt_ucx_default_endpoint_update.htm
 old-project: usbref
 ms.assetid: 0a67ef0a-07ec-43d3-9a25-b28192677b35
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: EVT_UCX_DEFAULT_ENDPOINT_UPDATE, EvtUcxDefaultEndpointUpdate, EvtUcxDefaultEndpointUpdate callback function [Buses], PEVT_UCX_DEFAULT_ENDPOINT_UPDATE, PEVT_UCX_DEFAULT_ENDPOINT_UPDATE callback function pointer [Buses], buses.evt_ucx_default_endpoint_update, ucxendpoint/EvtUcxDefaultEndpointUpdate
 ms.prod: windows-hardware
 ms.technology: windows-devices

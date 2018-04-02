@@ -7,7 +7,7 @@ old-location: dtf\iwdtfnumbers2_count.htm
 old-project: dtf
 ms.assetid: 2802d99c-1139-4a24-a752-91a28e6033e9
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 3/29/2018
 ms.keywords: Count property [Windows Device Testing Framework], Count property [Windows Device Testing Framework], IWDTFNumbers2 interface, IWDTFNumbers2, IWDTFNumbers2 interface [Windows Device Testing Framework], Count property, IWDTFNumbers2.Count, IWDTFNumbers2::get_Count, Microsoft.WDTF.IWDTFNumbers2.Count, Microsoft::WDTF::IWDTFNumbers2::Count, dtf.iwdtfnumbers2_count, get_Count,IWDTFNumbers2.get_Count, wdtf/IWDTFNumbers2::Count, wdtf/IWDTFNumbers2::get_Count
 ms.prod: windows-hardware
 ms.technology: windows-devices

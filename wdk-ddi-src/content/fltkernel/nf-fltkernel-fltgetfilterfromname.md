@@ -7,7 +7,7 @@ old-location: ifsk\fltgetfilterfromname.htm
 old-project: ifsk
 ms.assetid: 95224198-e86e-4005-b50f-6775e6b8b749
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FltApiRef_e_to_o_f0bda010-8549-4e0d-b86a-ce200745ac5a.xml, FltGetFilterFromName, FltGetFilterFromName routine [Installable File System Drivers], fltkernel/FltGetFilterFromName, ifsk.fltgetfilterfromname
 ms.prod: windows-hardware
 ms.technology: windows-devices

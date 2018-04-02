@@ -7,7 +7,7 @@ old-location: buses\udecxusbdeviceplugoutanddelete.htm
 old-project: usbref
 ms.assetid: 27816655-1FE9-44A0-81BB-59808FE6F064
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: UdecxUsbDevicePlugOutAndDelete, UdecxUsbDevicePlugOutAndDelete function [Buses], buses.udecxusbdeviceplugoutanddelete, udecxusbdevice/UdecxUsbDevicePlugOutAndDelete
 ms.prod: windows-hardware
 ms.technology: windows-devices

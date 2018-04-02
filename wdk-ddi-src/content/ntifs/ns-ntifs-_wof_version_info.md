@@ -7,7 +7,7 @@ old-location: ifsk\wof_version_info.htm
 old-project: ifsk
 ms.assetid: 953F34FC-2E8F-4569-89B8-2F9541456F3B
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: "*PWOF_VERSION_INFO, PWOF_VERSION_INFO, PWOF_VERSION_INFO structure pointer [Installable File System Drivers], WOF_VERSION_INFO, WOF_VERSION_INFO structure [Installable File System Drivers], _WOF_VERSION_INFO, ifsk.wof_version_info, ntifs/PWOF_VERSION_INFO, ntifs/WOF_VERSION_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

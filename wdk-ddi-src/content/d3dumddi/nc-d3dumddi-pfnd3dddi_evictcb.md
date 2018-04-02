@@ -7,7 +7,7 @@ old-location: display\pfnevictcb.htm
 old-project: display
 ms.assetid: 5E66A522-BC1C-4E7C-8732-87D40F99BBDA
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3DDDI_EVICTCB, d3dumddi/pfnEvictCb, display.pfnevictcb, pfnEvictCb, pfnEvictCb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices

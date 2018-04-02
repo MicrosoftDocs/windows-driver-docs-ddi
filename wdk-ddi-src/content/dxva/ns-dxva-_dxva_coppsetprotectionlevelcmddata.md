@@ -7,7 +7,7 @@ old-location: display\dxva_coppsetprotectionlevelcmddata.htm
 old-project: display
 ms.assetid: d68d6e50-1373-43bc-a22b-dd9db47614c8
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXVA_COPPSetProtectionLevelCmdData, DXVA_COPPSetProtectionLevelCmdData structure [Display Devices], _DXVA_COPPSetProtectionLevelCmdData, display.dxva_coppsetprotectionlevelcmddata, dxva/DXVA_COPPSetProtectionLevelCmdData, dxvaref_ac7e802b-dd23-49da-ab02-21d80eaabe86.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

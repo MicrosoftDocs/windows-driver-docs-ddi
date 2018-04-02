@@ -7,7 +7,7 @@ old-location: storage\tapeminitapeerror.htm
 old-project: storage
 ms.assetid: a39fac12-f284-4b3a-a9ab-ae75934f810e
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "(*TAPE_ERROR_ROUTINE), (*TAPE_ERROR_ROUTINE) routine [Storage Devices], TAPE_ERROR_ROUTINE, minitape/(*TAPE_ERROR_ROUTINE), storage.tapeminitapeerror, tapemini_cf0f724e-63c4-4923-a59e-508c45dac6d9.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ api_name:
 -	(*TAPE_ERROR_ROUTINE)
 product: Windows
 targetos: Windows
-req.typenames: MCD_INIT_DATA, *PMCD_INIT_DATA
+req.typenames: PROCESSOR_NUMBER, *PPROCESSOR_NUMBER
 ---
 
 # TAPE_ERROR_ROUTINE callback

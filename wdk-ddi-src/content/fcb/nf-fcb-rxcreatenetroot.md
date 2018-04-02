@@ -7,7 +7,7 @@ old-location: ifsk\rxcreatenetroot.htm
 old-project: ifsk
 ms.assetid: 076624d3-96f5-4e93-8598-b880a6b2289b
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: RxCreateNetRoot, RxCreateNetRoot function [Installable File System Drivers], fcb/RxCreateNetRoot, ifsk.rxcreatenetroot, rxref_3171aa4b-bf5b-4114-a5a0-40af765b09da.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: storage\storage_device_power_cap_units.htm
 old-project: storage
 ms.assetid: 199900F4-90A7-4F2E-B85E-25BF3593D50B
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PSTORAGE_DEVICE_POWER_CAP_UNITS, STORAGE_DEVICE_POWER_CAP_UNITS, STORAGE_DEVICE_POWER_CAP_UNITS enumeration [Storage Devices], StorageDevicePowerCapUnitsMilliwatts, StorageDevicePowerCapUnitsPercent, _STORAGE_DEVICE_POWER_CAP_UNITS, ntddstor/STORAGE_DEVICE_POWER_CAP_UNITS, ntddstor/StorageDevicePowerCapUnitsMilliwatts, ntddstor/StorageDevicePowerCapUnitsPercent, storage.storage_device_power_cap_units"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: "<=DISPATCH_LEVEL"
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax

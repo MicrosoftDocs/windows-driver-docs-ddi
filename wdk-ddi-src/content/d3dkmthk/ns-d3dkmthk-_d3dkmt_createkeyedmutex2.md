@@ -7,7 +7,7 @@ old-location: display\d3dkmt_createkeyedmutex2.htm
 old-project: display
 ms.assetid: 6c4c07ff-5e37-4094-9dc3-57082dec8edf
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMT_CREATEKEYEDMUTEX2, D3DKMT_CREATEKEYEDMUTEX2 structure [Display Devices], _D3DKMT_CREATEKEYEDMUTEX2, d3dkmthk/D3DKMT_CREATEKEYEDMUTEX2, display.d3dkmt_createkeyedmutex2
 ms.prod: windows-hardware
 ms.technology: windows-devices

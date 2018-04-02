@@ -7,7 +7,7 @@ old-location: storage\setpresharedkeyforid_out.htm
 old-project: storage
 ms.assetid: 839041be-bb8c-4e02-a260-e9adcec98ff3
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PSetPresharedKeyForId_OUT, PSetPresharedKeyForId_OUT, PSetPresharedKeyForId_OUT structure pointer [Storage Devices], SetPresharedKeyForId_OUT, SetPresharedKeyForId_OUT structure [Storage Devices], _SetPresharedKeyForId_OUT, iscsiop/PSetPresharedKeyForId_OUT, iscsiop/SetPresharedKeyForId_OUT, storage.setpresharedkeyforid_out, structs-iSCSI_c0146684-fe9e-4bca-81d2-2a09b554d006.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices

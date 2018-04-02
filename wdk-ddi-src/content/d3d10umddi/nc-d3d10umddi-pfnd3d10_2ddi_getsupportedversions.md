@@ -7,7 +7,7 @@ old-location: display\getsupportedversions.htm
 old-project: display
 ms.assetid: b38683f3-42f2-4f5e-9482-f72e9f2e0a34
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: GetSupportedVersions, GetSupportedVersions callback function [Display Devices], PFND3D10_2DDI_GETSUPPORTEDVERSIONS, UserModeDisplayDriverDx11_Functions_065e47e6-c02d-4091-b614-a93aa834cbfb.xml, d3d10umddi/GetSupportedVersions, display.getsupportedversions
 ms.prod: windows-hardware
 ms.technology: windows-devices

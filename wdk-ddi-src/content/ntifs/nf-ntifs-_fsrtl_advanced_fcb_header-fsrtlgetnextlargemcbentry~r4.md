@@ -7,7 +7,7 @@ old-location: ifsk\fsrtlgetnextlargemcbentry.htm
 old-project: ifsk
 ms.assetid: e67f60da-4200-4d87-9b36-55ce027f0933
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FsRtlGetNextLargeMcbEntry, FsRtlGetNextLargeMcbEntry routine [Installable File System Drivers], fsrtlref_cee90943-5308-4e1f-ae2e-2e607f19252f.xml, ifsk.fsrtlgetnextlargemcbentry, ntifs/FsRtlGetNextLargeMcbEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices

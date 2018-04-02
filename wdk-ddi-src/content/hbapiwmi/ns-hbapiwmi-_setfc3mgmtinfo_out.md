@@ -7,7 +7,7 @@ old-location: storage\setfc3mgmtinfo_out.htm
 old-project: storage
 ms.assetid: 00e6eb1a-3302-46ac-b859-9c22ad6cee22
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PSetFC3MgmtInfo_OUT, PSetFC3MgmtInfo_OUT, PSetFC3MgmtInfo_OUT structure pointer [Storage Devices], SetFC3MgmtInfo_OUT, SetFC3MgmtInfo_OUT structure [Storage Devices], _SetFC3MgmtInfo_OUT, hbapiwmi/PSetFC3MgmtInfo_OUT, hbapiwmi/SetFC3MgmtInfo_OUT, storage.setfc3mgmtinfo_out, structs-Fibre_86907ae9-a0a0-4836-a822-d07cd2adfdb0.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices

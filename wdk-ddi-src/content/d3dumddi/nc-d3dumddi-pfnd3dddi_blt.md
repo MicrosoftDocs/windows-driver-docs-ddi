@@ -7,7 +7,7 @@ old-location: display\blt.htm
 old-project: display
 ms.assetid: e87576c6-0173-4d8e-bbaf-b82e2907140a
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: Blt, Blt callback function [Display Devices], PFND3DDDI_BLT, UserModeDisplayDriver_Functions_d2dfd3c9-e7e0-4953-bc88-3d3330aff161.xml, d3dumddi/Blt, display.blt
 ms.prod: windows-hardware
 ms.technology: windows-devices

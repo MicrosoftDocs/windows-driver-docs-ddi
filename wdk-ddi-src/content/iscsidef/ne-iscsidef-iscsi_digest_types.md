@@ -7,7 +7,7 @@ old-location: storage\iscsi_digest_types.htm
 old-project: storage
 ms.assetid: 0515dd76-ef1f-4f0f-a7d7-1b3b07e0523d
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PISCSI_DIGEST_TYPES, ISCSI_DIGEST_TYPES, ISCSI_DIGEST_TYPES enumeration [Storage Devices], ISCSI_DIGEST_TYPE_CRC32C, ISCSI_DIGEST_TYPE_NONE, PISCSI_DIGEST_TYPES, PISCSI_DIGEST_TYPES enumeration pointer [Storage Devices], iscsidef/ISCSI_DIGEST_TYPES, iscsidef/ISCSI_DIGEST_TYPE_CRC32C, iscsidef/ISCSI_DIGEST_TYPE_NONE, iscsidef/PISCSI_DIGEST_TYPES, storage.iscsi_digest_types, structs-iSCSI_107b48fe-7dd1-41d3-b329-d82ba0cd13d4.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices

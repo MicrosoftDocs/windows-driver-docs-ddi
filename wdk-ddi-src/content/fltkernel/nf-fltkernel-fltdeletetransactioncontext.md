@@ -7,7 +7,7 @@ old-location: ifsk\fltdeletetransactioncontext.htm
 old-project: ifsk
 ms.assetid: 120285ff-1cb4-4570-a1e7-0a7d22b43560
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FltApiRef_a_to_d_785d668e-0232-4937-996e-846e459db2c5.xml, FltDeleteTransactionContext, FltDeleteTransactionContext routine [Installable File System Drivers], fltkernel/FltDeleteTransactionContext, ifsk.fltdeletetransactioncontext
 ms.prod: windows-hardware
 ms.technology: windows-devices

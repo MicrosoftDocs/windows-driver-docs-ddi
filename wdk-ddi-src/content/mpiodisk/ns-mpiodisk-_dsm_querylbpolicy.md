@@ -7,7 +7,7 @@ old-location: storage\dsm_querylbpolicy.htm
 old-project: storage
 ms.assetid: f2ac985a-8fcb-48ad-b100-4137b5b1a777
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PDSM_QueryLBPolicy, DSM_QueryLBPolicy, DSM_QueryLBPolicy structure [Storage Devices], PDSM_QueryLBPolicy, PDSM_QueryLBPolicy structure pointer [Storage Devices], _DSM_QueryLBPolicy, mpiodisk/DSM_QueryLBPolicy, mpiodisk/PDSM_QueryLBPolicy, storage.dsm_querylbpolicy, structs-scsibus_f1a0bedd-e5ba-474d-9a45-ae6a2863cfb3.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices

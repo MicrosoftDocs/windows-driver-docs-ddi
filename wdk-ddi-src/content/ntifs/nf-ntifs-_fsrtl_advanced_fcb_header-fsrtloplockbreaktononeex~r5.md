@@ -7,7 +7,7 @@ old-location: ifsk\fsrtloplockbreaktononeex.htm
 old-project: ifsk
 ms.assetid: 229d4f31-7c3f-4ae2-bb67-d31c67121f61
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FsRtlOplockBreakToNoneEx, FsRtlOplockBreakToNoneEx routine [Installable File System Drivers], fsrtlref_df3afc17-e57b-43b5-8281-4128854d2064.xml, ifsk.fsrtloplockbreaktononeex, ntifs/FsRtlOplockBreakToNoneEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

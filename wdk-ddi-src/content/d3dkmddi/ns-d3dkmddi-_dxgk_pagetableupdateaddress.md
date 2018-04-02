@@ -7,7 +7,7 @@ old-location: display\dxgk_pagetableupdateaddress.htm
 old-project: display
 ms.assetid: 39013276-C76A-4E31-80DD-26C17A020BD6
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGK_PAGETABLEUPDATEADDRESS, DXGK_PAGETABLEUPDATEADDRESS structure [Display Devices], _DXGK_PAGETABLEUPDATEADDRESS, d3dkmddi/DXGK_PAGETABLEUPDATEADDRESS, display.dxgk_pagetableupdateaddress
 ms.prod: windows-hardware
 ms.technology: windows-devices

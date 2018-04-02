@@ -7,7 +7,7 @@ old-location: display\queryend.htm
 old-project: display
 ms.assetid: 5a231d7e-7e47-40ad-99d1-82661dec41d0
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3D10DDI_QUERYEND, QueryEnd, QueryEnd callback function [Display Devices], UserModeDisplayDriverDx10_Functions_9897bbe4-a58c-430b-815a-eb4360ce8043.xml, d3d10umddi/QueryEnd, display.queryend
 ms.prod: windows-hardware
 ms.technology: windows-devices

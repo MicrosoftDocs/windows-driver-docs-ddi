@@ -7,7 +7,7 @@ old-location: dtf\iwdtfsimulatedbatterysystemaction_enablerealbatteries.htm
 old-project: dtf
 ms.assetid: 32748776-fe07-4f7e-bceb-5b554fa8f9f1
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 3/29/2018
 ms.keywords: EnableRealBatteries method [Windows Device Testing Framework], EnableRealBatteries method [Windows Device Testing Framework], IWDTFSimulatedBatterySystemAction interface, EnableRealBatteries,IWDTFSimulatedBatterySystemAction.EnableRealBatteries, IWDTFSimulatedBatterySystemAction, IWDTFSimulatedBatterySystemAction interface [Windows Device Testing Framework], EnableRealBatteries method, IWDTFSimulatedBatterySystemAction::EnableRealBatteries, dtf.iwdtfsimulatedbatterysystemaction_enablerealbatteries, wdtfsimulatedbatterysystemaction/IWDTFSimulatedBatterySystemAction::EnableRealBatteries
 ms.prod: windows-hardware
 ms.technology: windows-devices

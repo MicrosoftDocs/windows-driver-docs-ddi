@@ -7,7 +7,7 @@ old-location: display\d3d10ddiarg_buffer_rendertargetview.htm
 old-project: display
 ms.assetid: 05c1d6e2-61e1-4bf0-b02e-5ea8ad144a9f
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3D10DDIARG_BUFFER_RENDERTARGETVIEW, D3D10DDIARG_BUFFER_RENDERTARGETVIEW structure [Display Devices], UMDisplayDriver_Dx10param_Structs_7307c354-c2a6-45e8-a9f6-9cb3d7c7724d.xml, d3d10umddi/D3D10DDIARG_BUFFER_RENDERTARGETVIEW, display.d3d10ddiarg_buffer_rendertargetview
 ms.prod: windows-hardware
 ms.technology: windows-devices

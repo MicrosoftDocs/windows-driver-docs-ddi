@@ -7,7 +7,7 @@ old-location: display\createauthenticatedchannel.htm
 old-project: display
 ms.assetid: 0a565bff-fc6f-41c1-a6fd-3a82dd0d7889
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: CreateAuthenticatedChannel, CreateAuthenticatedChannel callback function [Display Devices], PFND3DDDI_CREATEAUTHENTICATEDCHANNEL, UserModeDisplayDriver_Functions_5645674c-e4e5-4b9c-9cbf-588b829df423.xml, d3dumddi/CreateAuthenticatedChannel, display.createauthenticatedchannel
 ms.prod: windows-hardware
 ms.technology: windows-devices

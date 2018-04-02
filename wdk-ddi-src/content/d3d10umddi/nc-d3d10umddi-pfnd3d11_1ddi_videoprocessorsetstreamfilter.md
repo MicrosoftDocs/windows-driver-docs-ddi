@@ -7,7 +7,7 @@ old-location: display\videoprocessorsetstreamfilter.htm
 old-project: display
 ms.assetid: e44e5e4a-20e1-4327-b64c-5806d1bb2ece
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMFILTER, d3d10umddi/pfnVideoProcessorSetStreamFilter, display.videoprocessorsetstreamfilter, pfnVideoProcessorSetStreamFilter, pfnVideoProcessorSetStreamFilter callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices

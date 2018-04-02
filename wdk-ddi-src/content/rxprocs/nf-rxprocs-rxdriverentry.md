@@ -7,7 +7,7 @@ old-location: ifsk\rxdriverentry.htm
 old-project: ifsk
 ms.assetid: f100f872-6db2-4b6d-a9c0-abbbfee0a621
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: RxDriverEntry, RxDriverEntry routine [Installable File System Drivers], ifsk.rxdriverentry, rxprocs/RxDriverEntry, rxref_a882d71c-b6c3-4454-a45b-37b312af2069.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

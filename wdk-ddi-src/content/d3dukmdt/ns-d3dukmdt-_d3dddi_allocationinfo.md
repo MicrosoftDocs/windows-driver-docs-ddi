@@ -7,7 +7,7 @@ old-location: display\d3dddi_allocationinfo.htm
 old-project: display
 ms.assetid: 69181a7c-62bd-4df0-95fc-fe6c3ab14209
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDI_ALLOCATIONINFO, D3DDDI_ALLOCATIONINFO structure [Display Devices], D3D_other_Structs_5125c057-c4b7-45fd-b7d9-9ebcfce4fff7.xml, _D3DDDI_ALLOCATIONINFO, d3dukmdt/D3DDDI_ALLOCATIONINFO, display.d3dddi_allocationinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

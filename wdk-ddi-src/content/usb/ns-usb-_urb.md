@@ -7,7 +7,7 @@ old-location: buses\urb.htm
 old-project: usbref
 ms.assetid: f28b2c97-61ee-4843-b3c5-b3a55f172c50
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: PURB, PURB structure pointer [Buses], URB, URB structure [Buses], _URB, buses.urb, usb/PURB, usb/URB, usbstrct_20441a98-258d-44d2-b414-67b336a44fac.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

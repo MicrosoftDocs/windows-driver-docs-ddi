@@ -7,7 +7,7 @@ old-location: display\videoportinitialize.htm
 old-project: display
 ms.assetid: cc0da962-beeb-4035-a68e-e5b856cd5d9b
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: VideoPortInitialize, VideoPortInitialize function [Display Devices], VideoPort_Functions_215d2fe2-98a9-4504-96cb-492370e349c8.xml, display.videoportinitialize, video/VideoPortInitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices

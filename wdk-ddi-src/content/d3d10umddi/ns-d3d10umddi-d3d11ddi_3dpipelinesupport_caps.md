@@ -7,7 +7,7 @@ old-location: display\d3d11ddi_3dpipelinesupport_caps.htm
 old-project: display
 ms.assetid: 69bafa36-2f99-4c6f-b5ed-99a7030b22e6
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3D11DDI_3DPIPELINESUPPORT_CAPS, D3D11DDI_3DPIPELINESUPPORT_CAPS structure [Display Devices], UMDisplayDriver_Dx11param_Structs_dc9a2de4-8fcf-4cd4-9c59-cc57941cab00.xml, d3d10umddi/D3D11DDI_3DPIPELINESUPPORT_CAPS, display.d3d11ddi_3dpipelinesupport_caps
 ms.prod: windows-hardware
 ms.technology: windows-devices

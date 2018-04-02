@@ -7,7 +7,7 @@ old-location: display\dxgkddigetbrightnesscaps.htm
 old-project: display
 ms.assetid: 3418dd2b-63cb-411f-9bae-390148885907
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGK_BRIGHTNESS_GET_CAPS, DxgkDdiGetBrightnessCaps, DxgkDdiGetBrightnessCaps callback function [Display Devices], display.dxgkddigetbrightnesscaps, dispmprt/DxgkDdiGetBrightnessCaps
 ms.prod: windows-hardware
 ms.technology: windows-devices

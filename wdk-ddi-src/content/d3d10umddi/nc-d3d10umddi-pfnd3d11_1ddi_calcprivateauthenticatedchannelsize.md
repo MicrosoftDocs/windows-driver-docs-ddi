@@ -7,7 +7,7 @@ old-location: display\calcprivateauthenticatedchannelsize.htm
 old-project: display
 ms.assetid: f22dee75-a7e3-4ad4-a0d1-584adff3230e
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: CalcPrivateAuthenticatedChannelSize, CalcPrivateAuthenticatedChannelSize callback function [Display Devices], PFND3D11_1DDI_CALCPRIVATEAUTHENTICATEDCHANNELSIZE, d3d10umddi/CalcPrivateAuthenticatedChannelSize, display.calcprivateauthenticatedchannelsize
 ms.prod: windows-hardware
 ms.technology: windows-devices

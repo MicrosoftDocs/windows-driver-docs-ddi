@@ -7,7 +7,7 @@ old-location: dtf\iwdtfpnpaction2_edttrystopdevicefailrestart.htm
 old-project: dtf
 ms.assetid: f451f97d-ff56-47ae-b9c6-4f5e3a1dd4bf
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 3/29/2018
 ms.keywords: EDTTryStopDeviceFailRestart method [Windows Device Testing Framework], EDTTryStopDeviceFailRestart method [Windows Device Testing Framework], IWDTFPNPAction2 interface, EDTTryStopDeviceFailRestart,IWDTFPNPAction2.EDTTryStopDeviceFailRestart, IWDTFPNPAction2, IWDTFPNPAction2 interface [Windows Device Testing Framework], EDTTryStopDeviceFailRestart method, IWDTFPNPAction2::EDTTryStopDeviceFailRestart, Microsoft.WDTF.IWDTFPNPAction2.EDTTryStopDeviceFailRestart, Microsoft::WDTF::IWDTFPNPAction2::EDTTryStopDeviceFailRestart, dtf.iwdtfpnpaction2_edttrystopdevicefailrestart, wdtfpnpaction/IWDTFPNPAction2::EDTTryStopDeviceFailRestart
 ms.prod: windows-hardware
 ms.technology: windows-devices

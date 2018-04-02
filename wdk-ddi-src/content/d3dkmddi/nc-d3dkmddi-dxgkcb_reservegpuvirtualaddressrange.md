@@ -7,7 +7,7 @@ old-location: display\dxgkcbreservegpuvirtualaddressrange.htm
 old-project: display
 ms.assetid: 26A827F1-1094-4A7D-9C63-758925EE6273
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKCB_RESERVEGPUVIRTUALADDRESSRANGE, DxgkCbReserveGpuVirtualAddressRange, DxgkCbReserveGpuVirtualAddressRange callback function [Display Devices], d3dkmddi/DxgkCbReserveGpuVirtualAddressRange, display.dxgkcbreservegpuvirtualaddressrange, dispmprt/DxgkCbReserveGpuVirtualAddressRange
 ms.prod: windows-hardware
 ms.technology: windows-devices

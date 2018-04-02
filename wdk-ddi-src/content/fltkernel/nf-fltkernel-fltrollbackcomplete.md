@@ -7,7 +7,7 @@ old-location: ifsk\fltrollbackcomplete.htm
 old-project: ifsk
 ms.assetid: 822d3ed1-66ce-48a8-924c-48e1082cbb25
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FltApiRef_p_to_z_5a4ebf97-8580-437d-b34d-e873bad7161b.xml, FltRollbackComplete, FltRollbackComplete routine [Installable File System Drivers], fltkernel/FltRollbackComplete, ifsk.fltrollbackcomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices

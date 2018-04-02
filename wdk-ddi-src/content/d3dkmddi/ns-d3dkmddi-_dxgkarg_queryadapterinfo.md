@@ -7,7 +7,7 @@ old-location: display\dxgkarg_queryadapterinfo.htm
 old-project: display
 ms.assetid: 5992c846-93de-4f95-839a-81f14db709f7
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKARG_QUERYADAPTERINFO, DXGKARG_QUERYADAPTERINFO structure [Display Devices], DmStructs_82a38a66-d65c-4b88-be6d-974590e9472a.xml, _DXGKARG_QUERYADAPTERINFO, d3dkmddi/DXGKARG_QUERYADAPTERINFO, display.dxgkarg_queryadapterinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

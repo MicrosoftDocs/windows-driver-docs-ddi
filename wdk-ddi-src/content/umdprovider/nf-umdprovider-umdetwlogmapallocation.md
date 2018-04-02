@@ -7,7 +7,7 @@ old-location: display\umdetwlogmapallocation.htm
 old-project: display
 ms.assetid: 60456f6a-3de7-46ae-b486-f53041ce1508
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: UMDEtwLogMapAllocation, UMDEtwLogMapAllocation function [Display Devices], display.umdetwlogmapallocation, umdprovider/UMDEtwLogMapAllocation
 ms.prod: windows-hardware
 ms.technology: windows-devices

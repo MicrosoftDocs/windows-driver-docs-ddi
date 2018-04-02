@@ -7,7 +7,7 @@ old-location: display\dxgk_allocationinfoflags.htm
 old-project: display
 ms.assetid: 04bd00c3-83a8-44bb-9493-cf7f43f10602
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGK_ALLOCATIONINFOFLAGS, DXGK_ALLOCATIONINFOFLAGS structure [Display Devices], DmStructs_4e6e499c-8427-4c0f-977d-92f648ab027e.xml, _DXGK_ALLOCATIONINFOFLAGS, d3dkmddi/DXGK_ALLOCATIONINFOFLAGS, display.dxgk_allocationinfoflags
 ms.prod: windows-hardware
 ms.technology: windows-devices

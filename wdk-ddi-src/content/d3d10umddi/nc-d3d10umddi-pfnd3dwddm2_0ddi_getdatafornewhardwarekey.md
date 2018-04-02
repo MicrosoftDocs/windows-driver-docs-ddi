@@ -7,7 +7,7 @@ old-location: display\getdatafornewhardwarekey.htm
 old-project: display
 ms.assetid: 0B365C66-2E6E-4DE9-A7A4-963965995F61
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3DWDDM2_0DDI_GETDATAFORNEWHARDWAREKEY, d3d10umddi/pfnGetDataForNewHardwareKey, display.getdatafornewhardwarekey, pfnGetDataForNewHardwareKey, pfnGetDataForNewHardwareKey callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices

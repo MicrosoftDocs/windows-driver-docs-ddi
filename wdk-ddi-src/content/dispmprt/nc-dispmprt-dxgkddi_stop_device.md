@@ -7,7 +7,7 @@ old-location: display\dxgkddistopdevice.htm
 old-project: display
 ms.assetid: 3c17c7cf-9cfa-421d-a503-88726519fb6c
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKDDI_STOP_DEVICE, DmFunctions_c2d7e95b-beba-488a-b046-98e5daa728b9.xml, DxgkDdiStopDevice, DxgkDdiStopDevice callback function [Display Devices], display.dxgkddistopdevice, dispmprt/DxgkDdiStopDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices

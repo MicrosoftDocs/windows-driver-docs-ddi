@@ -7,7 +7,7 @@ old-location: storage\storportsetadapterbustype.htm
 old-project: storage
 ms.assetid: 818A9F03-F56E-47D6-A9D1-DD0F63B05054
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: StorPortSetAdapterBusType, StorPortSetAdapterBusType routine [Storage Devices], storage.storportsetadapterbustype, storport/StorPortSetAdapterBusType
 ms.prod: windows-hardware
 ms.technology: windows-devices

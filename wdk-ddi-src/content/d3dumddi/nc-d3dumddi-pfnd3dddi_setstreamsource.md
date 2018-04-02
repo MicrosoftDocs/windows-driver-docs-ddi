@@ -7,7 +7,7 @@ old-location: display\setstreamsource.htm
 old-project: display
 ms.assetid: 669dbabc-91fb-40f9-a034-11c3c2e70436
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3DDDI_SETSTREAMSOURCE, SetStreamSource, SetStreamSource callback function [Display Devices], UserModeDisplayDriver_Functions_c84f438f-92b5-4d01-8d27-275deedc29e4.xml, d3dumddi/SetStreamSource, display.setstreamsource
 ms.prod: windows-hardware
 ms.technology: windows-devices

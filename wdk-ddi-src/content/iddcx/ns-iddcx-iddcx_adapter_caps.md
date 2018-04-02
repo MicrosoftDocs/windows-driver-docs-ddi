@@ -7,7 +7,7 @@ old-location: display\iddcx_adapter_caps.htm
 old-project: display
 ms.assetid: 3a8610e4-22d5-4732-b4be-846449acb5b1
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: IDDCX_ADAPTER_CAPS, IDDCX_ADAPTER_CAPS structure [Display Devices], display.iddcx_adapter_caps, iddcx/IDDCX_ADAPTER_CAPS
 ms.prod: windows-hardware
 ms.technology: windows-devices

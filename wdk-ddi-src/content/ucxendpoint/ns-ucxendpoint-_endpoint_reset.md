@@ -7,7 +7,7 @@ old-location: buses\_endpoint_reset.htm
 old-project: usbref
 ms.assetid: 99F65058-8718-4D2A-9C7F-D442BA8DA527
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PENDPOINT_RESET, ENDPOINT_RESET, ENDPOINT_RESET structure [Buses], P_ENDPOINT_RESET, P_ENDPOINT_RESET structure pointer [Buses], _ENDPOINT_RESET, buses._endpoint_reset, ucxendpoint/P_ENDPOINT_RESET, ucxendpoint/_ENDPOINT_RESET"
 ms.prod: windows-hardware
 ms.technology: windows-devices

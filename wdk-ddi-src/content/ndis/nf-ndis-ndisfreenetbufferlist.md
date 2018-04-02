@@ -7,7 +7,7 @@ old-location: netvista\ndisfreenetbufferlist.htm
 old-project: netvista
 ms.assetid: fddfe5f8-900a-4f4c-8c78-a106a4a54d88
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: NdisFreeNetBufferList, NdisFreeNetBufferList function [Network Drivers Starting with Windows Vista], ndis/NdisFreeNetBufferList, ndis_netbuf_functions_ref_202dda58-f8c4-442b-9c18-9c9b2b7708af.xml, netvista.ndisfreenetbufferlist
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -135,8 +135,3 @@ If you allocated context space for a NET_BUFFER_LIST structure with the
 
  
 
-<<<<<<< HEAD
-=======
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisFreeNetBufferList function%20 RELEASE:%20(2/27/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
-
->>>>>>> parent of 2d896a8e266... Added changes

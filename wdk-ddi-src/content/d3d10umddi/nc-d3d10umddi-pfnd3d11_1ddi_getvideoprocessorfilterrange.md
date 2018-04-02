@@ -7,7 +7,7 @@ old-location: display\getvideoprocessorfilterrange.htm
 old-project: display
 ms.assetid: ab3f8abb-4735-42c1-9664-8f2f5f7d5da7
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3D11_1DDI_GETVIDEOPROCESSORFILTERRANGE, d3d10umddi/pfnGetVideoProcessorFilterRange, display.getvideoprocessorfilterrange, pfnGetVideoProcessorFilterRange, pfnGetVideoProcessorFilterRange callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: display\createvideodecoder.htm
 old-project: display
 ms.assetid: 41254f99-1806-428c-8bf3-7e736dbeec84
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: CreateVideoDecoder, CreateVideoDecoder callback function [Display Devices], PFND3D11_1DDI_CREATEVIDEODECODER, d3d10umddi/CreateVideoDecoder, display.createvideodecoder
 ms.prod: windows-hardware
 ms.technology: windows-devices

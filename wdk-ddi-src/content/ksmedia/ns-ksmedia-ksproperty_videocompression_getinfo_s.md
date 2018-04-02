@@ -94,10 +94,6 @@ Specifies the compression capabilities of the device. This member can be one or 
 
 ## -see-also
 
-<<<<<<< HEAD
-=======
-<a href="..\ksmedia\ne-ksmedia-ks_compressioncaps.md">KS_CompressionCaps</a>
->>>>>>> parent of 2d896a8e266... Added changes
 
 
 

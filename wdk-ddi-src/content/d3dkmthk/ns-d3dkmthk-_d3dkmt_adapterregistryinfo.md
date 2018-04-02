@@ -7,7 +7,7 @@ old-location: display\d3dkmt_adapterregistryinfo.htm
 old-project: display
 ms.assetid: b1bad6e8-8592-457a-8f66-40fc5040ae96
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMT_ADAPTERREGISTRYINFO, D3DKMT_ADAPTERREGISTRYINFO structure [Display Devices], OpenGL_Structs_0d97d602-7fc3-40a2-aa06-2966a6fc04f7.xml, _D3DKMT_ADAPTERREGISTRYINFO, d3dkmthk/D3DKMT_ADAPTERREGISTRYINFO, display.d3dkmt_adapterregistryinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

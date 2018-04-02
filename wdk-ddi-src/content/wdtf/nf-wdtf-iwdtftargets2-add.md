@@ -7,7 +7,7 @@ old-location: dtf\iwdtftargets2_add.htm
 old-project: dtf
 ms.assetid: 0d8ba3ae-3afd-4f26-9951-0d4bdc9e4d49
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 3/29/2018
 ms.keywords: Add method [Windows Device Testing Framework], Add method [Windows Device Testing Framework], IWDTFTargets2 interface, Add,IWDTFTargets2.Add, IWDTFTargets2, IWDTFTargets2 interface [Windows Device Testing Framework], Add method, IWDTFTargets2::Add, Microsoft.WDTF.IWDTFTargets2.Add, Microsoft::WDTF::IWDTFTargets2::Add, dtf.iwdtftargets2_add, wdtf/IWDTFTargets2::Add
 ms.prod: windows-hardware
 ms.technology: windows-devices

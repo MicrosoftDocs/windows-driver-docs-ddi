@@ -7,7 +7,7 @@ old-location: ifsk\psimpersonateclient.htm
 old-project: ifsk
 ms.assetid: 69cc1253-07eb-43cf-abc7-5ad02ecb014d
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: PsImpersonateClient, PsImpersonateClient routine [Installable File System Drivers], ifsk.psimpersonateclient, ntifs/PsImpersonateClient, psref_57279501-1e5a-4113-93ea-a04825989e73.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

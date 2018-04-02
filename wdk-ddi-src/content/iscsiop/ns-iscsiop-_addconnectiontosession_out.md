@@ -7,7 +7,7 @@ old-location: storage\addconnectiontosession_out.htm
 old-project: storage
 ms.assetid: 9c7df21b-c7cd-4492-b457-6c2e82286961
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PAddConnectionToSession_OUT, AddConnectionToSession_OUT, AddConnectionToSession_OUT structure [Storage Devices], PAddConnectionToSession_OUT, PAddConnectionToSession_OUT structure pointer [Storage Devices], _AddConnectionToSession_OUT, iscsiop/AddConnectionToSession_OUT, iscsiop/PAddConnectionToSession_OUT, storage.addconnectiontosession_out, structs-iSCSI_d630117d-61cb-4c93-97c3-2a0c0b13b04c.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: buses\hub_device_config_info.htm
 old-project: usbref
 ms.assetid: 2e94cf01-6edf-40ca-b25e-ce7c125e4686
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PHUB_DEVICE_CONFIG_INFO, HUB_DEVICE_CONFIG_INFO, HUB_DEVICE_CONFIG_INFO structure [Buses], PHUB_DEVICE_CONFIG_INFO, PHUB_DEVICE_CONFIG_INFO structure pointer [Buses], _HUB_DEVICE_CONFIG_INFO_V1, buses.hub_device_config_info, usbioctl/HUB_DEVICE_CONFIG_INFO, usbioctl/PHUB_DEVICE_CONFIG_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

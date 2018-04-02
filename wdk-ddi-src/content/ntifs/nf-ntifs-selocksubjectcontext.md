@@ -7,7 +7,7 @@ old-location: ifsk\selocksubjectcontext.htm
 old-project: ifsk
 ms.assetid: 032e203a-9cb0-4232-91fc-883528e15a81
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: SeLockSubjectContext, SeLockSubjectContext routine [Installable File System Drivers], ifsk.selocksubjectcontext, ntifs/SeLockSubjectContext, seref_ea4696ab-8343-4d15-866c-15720d009db8.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

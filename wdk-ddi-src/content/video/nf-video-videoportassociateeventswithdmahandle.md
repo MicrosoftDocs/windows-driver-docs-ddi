@@ -7,7 +7,7 @@ old-location: display\videoportassociateeventswithdmahandle.htm
 old-project: display
 ms.assetid: d8a64a06-41b9-429b-a5ac-6de4996c702b
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: VideoPortAssociateEventsWithDmaHandle, VideoPortAssociateEventsWithDmaHandle function [Display Devices], VideoPort_Functions_0b61cb97-6bee-4882-83c9-1a56b8c2807b.xml, display.videoportassociateeventswithdmahandle, video/VideoPortAssociateEventsWithDmaHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices

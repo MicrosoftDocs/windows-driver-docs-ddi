@@ -7,7 +7,7 @@ old-location: ifsk\fltgetdestinationfilenameinformation.htm
 old-project: ifsk
 ms.assetid: b5438802-fc96-4445-9261-5d497d2d24cc
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FltApiRef_e_to_o_127cb786-b74b-4c1b-bb38-87ad3494900b.xml, FltGetDestinationFileNameInformation, FltGetDestinationFileNameInformation routine [Installable File System Drivers], fltkernel/FltGetDestinationFileNameInformation, ifsk.fltgetdestinationfilenameinformation
 ms.prod: windows-hardware
 ms.technology: windows-devices

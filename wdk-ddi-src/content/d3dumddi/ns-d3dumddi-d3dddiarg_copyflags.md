@@ -7,7 +7,7 @@ old-location: display\d3dddiarg_copyflags.htm
 old-project: display
 ms.assetid: DA114D60-60EE-4D1D-B42C-A84CE54C8B95
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDIARG_COPYFLAGS, D3DDDIARG_COPYFLAGS structure [Display Devices], d3dumddi/D3DDDIARG_COPYFLAGS, display.d3dddiarg_copyflags
 ms.prod: windows-hardware
 ms.technology: windows-devices

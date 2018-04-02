@@ -7,7 +7,7 @@ old-location: display\agpreleasevirtual.htm
 old-project: display
 ms.assetid: 4e880b39-e0ee-4801-86b7-ffc06ed415ab
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: AgpReleaseVirtual, AgpReleaseVirtual callback function [Display Devices], PAGP_RELEASE_VIRTUAL, VideoPort_Functions_4ea0bf12-5d18-4704-9efe-7d8a65a44f1f.xml, display.agpreleasevirtual, videoagp/AgpReleaseVirtual
 ms.prod: windows-hardware
 ms.technology: windows-devices

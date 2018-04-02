@@ -7,7 +7,7 @@ old-location: ifsk\rtlsetgroupsecuritydescriptor.htm
 old-project: ifsk
 ms.assetid: f0473975-7ab6-46ba-bdb7-eb227e6bc258
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: RtlSetGroupSecurityDescriptor, RtlSetGroupSecurityDescriptor routine [Installable File System Drivers], ifsk.rtlsetgroupsecuritydescriptor, ntifs/RtlSetGroupSecurityDescriptor, rtlref_113e5ca7-5db3-4c93-a26f-c568e2164de9.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

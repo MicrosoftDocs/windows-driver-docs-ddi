@@ -7,7 +7,7 @@ old-location: display\d3d11_1ddiarg_createvideoprocessorinputview.htm
 old-project: display
 ms.assetid: 73F8F146-A38B-4890-867D-862361455AD4
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3D11_1DDIARG_CREATEVIDEOPROCESSORINPUTVIEW, D3D11_1DDIARG_CREATEVIDEOPROCESSORINPUTVIEW structure [Display Devices], PD3D11_1DDIARG_CREATEVIDEOPROCESSORINPUTVIEW, PD3D11_1DDIARG_CREATEVIDEOPROCESSORINPUTVIEW structure pointer [Display Devices], d3d10umddi/D3D11_1DDIARG_CREATEVIDEOPROCESSORINPUTVIEW, d3d10umddi/PD3D11_1DDIARG_CREATEVIDEOPROCESSORINPUTVIEW, display.d3d11_1ddiarg_createvideoprocessorinputview
 ms.prod: windows-hardware
 ms.technology: windows-devices

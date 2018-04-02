@@ -7,7 +7,7 @@ old-location: display\reclaimresources.htm
 old-project: display
 ms.assetid: F0533DBB-CB18-4556-9871-2DF4CA719172
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3DDDI_RECLAIMRESOURCES, ReclaimResources, ReclaimResources callback function [Display Devices], d3dumddi/ReclaimResources, display.reclaimresources
 ms.prod: windows-hardware
 ms.technology: windows-devices

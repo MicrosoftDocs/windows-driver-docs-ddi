@@ -7,7 +7,7 @@ old-location: display\dxgi_ddi_arg_checkmultiplaneoverlaysupport.htm
 old-project: display
 ms.assetid: 1b339a88-9c05-4b57-9044-b00ef1c305fb
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGI_DDI_ARG_CHECKMULTIPLANEOVERLAYSUPPORT, DXGI_DDI_ARG_CHECKMULTIPLANEOVERLAYSUPPORT structure [Display Devices], _DXGI_DDI_ARG_CHECKMULTIPLANEOVERLAYSUPPORT, display.dxgi_ddi_arg_checkmultiplaneoverlaysupport, dxgiddi/DXGI_DDI_ARG_CHECKMULTIPLANEOVERLAYSUPPORT
 ms.prod: windows-hardware
 ms.technology: windows-devices

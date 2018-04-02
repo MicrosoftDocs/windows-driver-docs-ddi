@@ -7,7 +7,7 @@ old-location: display\dxgk_memoryrange.htm
 old-project: display
 ms.assetid: 68B9465D-BA5E-4DE3-8A55-B344399FBB5F
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGK_MEMORYRANGE, DXGK_MEMORYRANGE structure [Display Devices], _DXGK_MEMORYRANGE, d3dkmddi/DXGK_MEMORYRANGE, display.dxgk_memoryrange
 ms.prod: windows-hardware
 ms.technology: windows-devices

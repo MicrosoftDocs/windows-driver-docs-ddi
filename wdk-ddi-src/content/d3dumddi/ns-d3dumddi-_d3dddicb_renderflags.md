@@ -7,7 +7,7 @@ old-location: display\d3dddicb_renderflags.htm
 old-project: display
 ms.assetid: 18ae8ec2-a9e9-40e2-8b11-93fd163a801d
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDICB_RENDERFLAGS, D3DDDICB_RENDERFLAGS structure [Display Devices], D3D_other_Structs_559cfa58-5c9b-470e-aa4b-6c145045ed82.xml, _D3DDDICB_RENDERFLAGS, d3dumddi/D3DDDICB_RENDERFLAGS, display.d3dddicb_renderflags
 ms.prod: windows-hardware
 ms.technology: windows-devices

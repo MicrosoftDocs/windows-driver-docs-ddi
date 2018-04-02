@@ -7,7 +7,7 @@ old-location: storage\ioctl_scsi_miniport_nvcache.htm
 old-project: storage
 ms.assetid: 6331e850-34a7-4d03-a87b-527f3e38f735
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_SCSI_MINIPORT_NVCACHE, IOCTL_SCSI_MINIPORT_NVCACHE control code [Storage Devices], k307_0a3946a8-c611-4499-b62c-25f920eeec1e.xml, ntddscsi/IOCTL_SCSI_MINIPORT_NVCACHE, storage.ioctl_scsi_miniport_nvcache
 ms.prod: windows-hardware
 ms.technology: windows-devices

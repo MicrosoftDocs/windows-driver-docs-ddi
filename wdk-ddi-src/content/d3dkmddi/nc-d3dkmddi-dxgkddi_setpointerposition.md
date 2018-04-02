@@ -7,7 +7,7 @@ old-location: display\dxgkddisetpointerposition.htm
 old-project: display
 ms.assetid: b30e4f19-068c-4ab0-a2e9-b1f57592be1c
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKDDI_SETPOINTERPOSITION, DmFunctions_1067a75d-aece-48c2-93c1-35465c57c07e.xml, DxgkDdiSetPointerPosition, DxgkDdiSetPointerPosition callback function [Display Devices], d3dkmddi/DxgkDdiSetPointerPosition, display.dxgkddisetpointerposition
 ms.prod: windows-hardware
 ms.technology: windows-devices

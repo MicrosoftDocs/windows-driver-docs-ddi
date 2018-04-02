@@ -7,7 +7,7 @@ old-location: debugger\getnumberpossibleexecutingprocessortypes.htm
 old-project: debugger
 ms.assetid: 9e4ca8a6-f33f-4403-a52f-f242ce40aac8
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: GetNumberPossibleExecutingProcessorTypes method [Windows Debugging], GetNumberPossibleExecutingProcessorTypes method [Windows Debugging], IDebugControl interface, GetNumberPossibleExecutingProcessorTypes method [Windows Debugging], IDebugControl2 interface, GetNumberPossibleExecutingProcessorTypes method [Windows Debugging], IDebugControl3 interface, GetNumberPossibleExecutingProcessorTypes,IDebugControl2.GetNumberPossibleExecutingProcessorTypes, IDebugControl interface [Windows Debugging], GetNumberPossibleExecutingProcessorTypes method, IDebugControl2, IDebugControl2 interface [Windows Debugging], GetNumberPossibleExecutingProcessorTypes method, IDebugControl2::GetNumberPossibleExecutingProcessorTypes, IDebugControl3 interface [Windows Debugging], GetNumberPossibleExecutingProcessorTypes method, IDebugControl3::GetNumberPossibleExecutingProcessorTypes, IDebugControl::GetNumberPossibleExecutingProcessorTypes, IDebugControl_62f066c6-6ffb-4323-ad82-786a8a763783.xml, dbgeng/IDebugControl2::GetNumberPossibleExecutingProcessorTypes, dbgeng/IDebugControl3::GetNumberPossibleExecutingProcessorTypes, dbgeng/IDebugControl::GetNumberPossibleExecutingProcessorTypes, debugger.getnumberpossibleexecutingprocessortypes
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -123,8 +123,3 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
  
 
-<<<<<<< HEAD
-=======
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl::GetNumberPossibleExecutingProcessorTypes method%20 RELEASE:%20(2/27/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
-
->>>>>>> parent of 2d896a8e266... Added changes

@@ -7,7 +7,7 @@ old-location: buses\usbbuildopenbasicstreamsrequest.htm
 old-project: usbref
 ms.assetid: B514B88E-2D1F-43F1-BF70-BC49294CFE93
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: UsbBuildOpenStaticStreamsRequest, UsbBuildOpenStaticStreamsRequest function [Buses], buses.usbbuildopenbasicstreamsrequest, usbdlib/UsbBuildOpenStaticStreamsRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices

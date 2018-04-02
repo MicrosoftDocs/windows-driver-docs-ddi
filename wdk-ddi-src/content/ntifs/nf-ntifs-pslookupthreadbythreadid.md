@@ -7,7 +7,7 @@ old-location: ifsk\pslookupthreadbythreadid.htm
 old-project: ifsk
 ms.assetid: 4b61f480-6432-48db-9211-68a7d823d698
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: PsLookupThreadByThreadId, PsLookupThreadByThreadId routine [Installable File System Drivers], ifsk.pslookupthreadbythreadid, ntifs/PsLookupThreadByThreadId, psref_36f0c499-8370-4257-849c-dc8bad2720cc.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

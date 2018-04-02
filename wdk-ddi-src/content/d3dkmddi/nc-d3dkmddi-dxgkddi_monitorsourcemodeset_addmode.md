@@ -7,7 +7,7 @@ old-location: display\dxgk_monitorsourcemodeset_interface_pfnaddmode.htm
 old-project: display
 ms.assetid: 88fe5a2d-d140-4ebc-846d-acea39b8bc73
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKDDI_MONITORSOURCEMODESET_ADDMODE, VidPnFunctions_1b037d93-a615-41e1-bc22-bf9565050062.xml, d3dkmddi/pfnAddMode, display.dxgk_monitorsourcemodeset_interface_pfnaddmode, pfnAddMode, pfnAddMode callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices

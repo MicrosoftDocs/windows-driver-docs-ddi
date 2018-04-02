@@ -7,7 +7,7 @@ old-location: netvista\miniporttcpoffloadforward.htm
 old-project: netvista
 ms.assetid: e5702476-60a3-4bfc-b959-198e98f0f9ba
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: MiniportTcpOffloadForward, MiniportTcpOffloadForward callback function [Network Drivers Starting with Windows Vista], W_TCP_OFFLOAD_FORWARD_HANDLER, ndischimney/MiniportTcpOffloadForward, netvista.miniporttcpoffloadforward, tcp_chim_miniport_func_18a2b561-13cd-4337-8ff4-fcd3bfc34b3b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -190,8 +190,3 @@ The host stack allocates the NET_BUFFER_LIST and associated structures that NDIS
 
  
 
-<<<<<<< HEAD
-=======
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20W_TCP_OFFLOAD_FORWARD_HANDLER callback function%20 RELEASE:%20(2/27/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
-
->>>>>>> parent of 2d896a8e266... Added changes

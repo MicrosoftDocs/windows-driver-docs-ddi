@@ -7,7 +7,7 @@ old-location: ifsk\fltgetstreamhandlecontext.htm
 old-project: ifsk
 ms.assetid: c6e7c0d8-8005-4a40-a13b-ee58feeabbf0
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FltApiRef_e_to_o_4a329c48-3a48-47bc-b998-3aaee454fbef.xml, FltGetStreamHandleContext, FltGetStreamHandleContext routine [Installable File System Drivers], fltkernel/FltGetStreamHandleContext, ifsk.fltgetstreamhandlecontext
 ms.prod: windows-hardware
 ms.technology: windows-devices

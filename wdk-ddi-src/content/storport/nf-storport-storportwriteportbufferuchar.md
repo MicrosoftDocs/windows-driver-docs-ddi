@@ -7,7 +7,7 @@ old-location: storage\storportwriteportbufferuchar.htm
 old-project: storage
 ms.assetid: 44b57aa2-37ef-4491-8a88-9e7f880f5c1b
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: StorPortWritePortBufferUchar, StorPortWritePortBufferUchar routine [Storage Devices], storage.storportwriteportbufferuchar, storport/StorPortWritePortBufferUchar, storprt_5bdd38fc-5cb0-483e-a0aa-19179c7ad833.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: display\d3dddi_createdeviceflags.htm
 old-project: display
 ms.assetid: f9415dc9-352a-4e93-a0c1-2519c8c89762
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDI_CREATEDEVICEFLAGS, D3DDDI_CREATEDEVICEFLAGS structure [Display Devices], D3D_other_Structs_45151acf-e91a-454b-be32-b7b7aaa619e9.xml, _D3DDDI_CREATEDEVICEFLAGS, d3dumddi/D3DDDI_CREATEDEVICEFLAGS, display.d3dddi_createdeviceflags
 ms.prod: windows-hardware
 ms.technology: windows-devices

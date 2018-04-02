@@ -7,7 +7,7 @@ old-location: display\videoportwriteregisterbufferushort.htm
 old-project: display
 ms.assetid: 52bc00d5-313c-444d-91d9-8f95640e7d81
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: VideoPortWriteRegisterBufferUshort, VideoPortWriteRegisterBufferUshort function [Display Devices], VideoPort_Functions_f385c5d4-bc63-4aae-b021-b503f6a5336f.xml, display.videoportwriteregisterbufferushort, video/VideoPortWriteRegisterBufferUshort
 ms.prod: windows-hardware
 ms.technology: windows-devices

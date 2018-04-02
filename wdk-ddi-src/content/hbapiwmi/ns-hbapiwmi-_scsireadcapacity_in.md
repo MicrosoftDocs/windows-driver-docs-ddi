@@ -7,7 +7,7 @@ old-location: storage\scsireadcapacity_in2.htm
 old-project: storage
 ms.assetid: 6d5aa608-9ee7-45a6-bd2f-13a5b8338437
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PScsiReadCapacity_IN, PScsiReadCapacity_IN, PScsiReadCapacity_IN structure pointer [Storage Devices], ScsiReadCapacity_IN, ScsiReadCapacity_IN structure [Storage Devices], _ScsiReadCapacity_IN, hbapiwmi/PScsiReadCapacity_IN, hbapiwmi/ScsiReadCapacity_IN, storage.scsireadcapacity_in2, structs-Fibre_235165a1-b938-461a-9e4d-f555eae34119.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices

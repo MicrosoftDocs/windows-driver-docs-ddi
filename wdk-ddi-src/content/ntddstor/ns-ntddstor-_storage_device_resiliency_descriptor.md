@@ -7,7 +7,7 @@ old-location: storage\storage_device_resiliency_descriptor.htm
 old-project: storage
 ms.assetid: 71351CB7-1295-4797-802C-23A6B1C2C53F
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PSTORAGE_DEVICE_RESILIENCY_DESCRIPTOR, PSTORAGE_DEVICE_RESILIENCY_DESCRIPTOR structure pointer [Storage Devices], STORAGE_DEVICE_RESILIENCY_DESCRIPTOR, STORAGE_DEVICE_RESILIENCY_DESCRIPTOR structure [Storage Devices], _STORAGE_DEVICE_RESILIENCY_DESCRIPTOR, ntddstor/PSTORAGE_DEVICE_RESILIENCY_DESCRIPTOR, ntddstor/STORAGE_DEVICE_RESILIENCY_DESCRIPTOR, storage.storage_device_resiliency_descriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices

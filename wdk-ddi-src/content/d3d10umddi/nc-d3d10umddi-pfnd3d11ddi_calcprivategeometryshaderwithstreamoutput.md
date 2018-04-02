@@ -7,7 +7,7 @@ old-location: display\calcprivategeometryshaderwithstreamoutput_d3d11_.htm
 old-project: display
 ms.assetid: ba3f5a24-c608-42ca-bada-b126cb080f15
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: CalcPrivateGeometryShaderWithStreamOutput, CalcPrivateGeometryShaderWithStreamOutput callback function [Display Devices], PFND3D11DDI_CALCPRIVATEGEOMETRYSHADERWITHSTREAMOUTPUT, UserModeDisplayDriverDx11_Functions_7345bace-3d45-45fe-a0f5-ee76a842c998.xml, d3d10umddi/CalcPrivateGeometryShaderWithStreamOutput, display.calcprivategeometryshaderwithstreamoutput_d3d11_
 ms.prod: windows-hardware
 ms.technology: windows-devices

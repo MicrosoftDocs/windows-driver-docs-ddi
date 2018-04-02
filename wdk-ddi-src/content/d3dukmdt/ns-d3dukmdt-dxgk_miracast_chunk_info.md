@@ -7,7 +7,7 @@ old-location: display\dxgk_miracast_chunk_info.htm
 old-project: display
 ms.assetid: 4A5413AD-A2EB-4772-89BF-867C30E0CD10
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGK_MIRACAST_CHUNK_INFO, DXGK_MIRACAST_CHUNK_INFO structure [Display Devices], d3dukmdt/DXGK_MIRACAST_CHUNK_INFO, display.dxgk_miracast_chunk_info
 ms.prod: windows-hardware
 ms.technology: windows-devices

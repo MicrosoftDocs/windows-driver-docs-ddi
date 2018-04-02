@@ -7,7 +7,7 @@ old-location: display\createdepthstencilstate.htm
 old-project: display
 ms.assetid: ed2da104-c4e8-43eb-80e0-10273b575020
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: CreateDepthStencilState, CreateDepthStencilState callback function [Display Devices], PFND3D10DDI_CREATEDEPTHSTENCILSTATE, UserModeDisplayDriverDx10_Functions_1d472cf5-dd58-4989-afa5-12243f6c9301.xml, d3d10umddi/CreateDepthStencilState, display.createdepthstencilstate
 ms.prod: windows-hardware
 ms.technology: windows-devices

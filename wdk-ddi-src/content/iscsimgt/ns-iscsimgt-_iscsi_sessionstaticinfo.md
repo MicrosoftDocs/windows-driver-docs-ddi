@@ -7,7 +7,7 @@ old-location: storage\iscsi_sessionstaticinfo.htm
 old-project: storage
 ms.assetid: c652268f-4a31-4ec1-a668-8700cb7f4e1b
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PISCSI_SessionStaticInfo, ISCSI_SessionStaticInfo, ISCSI_SessionStaticInfo structure [Storage Devices], PISCSI_SessionStaticInfo, PISCSI_SessionStaticInfo structure pointer [Storage Devices], _ISCSI_SessionStaticInfo, iscsimgt/ISCSI_SessionStaticInfo, iscsimgt/PISCSI_SessionStaticInfo, storage.iscsi_sessionstaticinfo, structs-iSCSI_94ec0954-b409-4acf-8935-7c8dc6b0d095.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices

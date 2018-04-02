@@ -7,7 +7,7 @@ old-location: display\dxgkarg_setpalette.htm
 old-project: display
 ms.assetid: a76d9549-d182-437f-a570-7d24fd6a5488
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKARG_SETPALETTE, DXGKARG_SETPALETTE structure [Display Devices], DmStructs_d5720608-bc3d-437a-b080-6cd8b9635391.xml, _DXGKARG_SETPALETTE, d3dkmdt/DXGKARG_SETPALETTE, display.dxgkarg_setpalette
 ms.prod: windows-hardware
 ms.technology: windows-devices

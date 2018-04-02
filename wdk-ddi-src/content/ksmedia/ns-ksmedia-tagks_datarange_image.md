@@ -79,21 +79,13 @@ A <a href="https://msdn.microsoft.com/library/windows/hardware/ff567305">KS_BITM
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561658">KSDATARANGE</a>
 
-<<<<<<< HEAD
-=======
-<a href="..\ksmedia\ns-ksmedia-tagks_bitmapinfoheader.md">KS_BITMAPINFOHEADER</a>
->>>>>>> parent of 2d896a8e266... Added changes
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563533">KSPIN_DESCRIPTOR</a>
 
-<<<<<<< HEAD
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567305">KS_BITMAPINFOHEADER</a>
-=======
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561658">KSDATARANGE</a>
->>>>>>> parent of 2d896a8e266... Added changes
 
 
 

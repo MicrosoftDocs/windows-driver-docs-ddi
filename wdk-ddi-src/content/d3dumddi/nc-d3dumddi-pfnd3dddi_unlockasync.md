@@ -7,7 +7,7 @@ old-location: display\unlockasync.htm
 old-project: display
 ms.assetid: 6af04c22-e559-4328-a20a-034b443fddc6
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3DDDI_UNLOCKASYNC, UnlockAsync, UnlockAsync callback function [Display Devices], UserModeDisplayDriver_Functions_f2270e47-4bf2-4486-8e6b-919daabd7c48.xml, d3dumddi/UnlockAsync, display.unlockasync
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: display\discard.htm
 old-project: display
 ms.assetid: F3EC7AAE-9DB8-43A1-B756-5F5C91F8372E
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: Discard, Discard callback function [Display Devices], PFND3DDDI_DISCARD, d3dumddi/Discard, display.discard
 ms.prod: windows-hardware
 ms.technology: windows-devices

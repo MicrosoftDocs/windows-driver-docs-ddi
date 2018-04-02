@@ -7,7 +7,7 @@ old-location: display\bufblt.htm
 old-project: display
 ms.assetid: d75f3fad-3bcd-44ad-9bd5-f61f5346cf8d
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: BufBlt, BufBlt callback function [Display Devices], PFND3DDDI_BUFBLT, UserModeDisplayDriver_Functions_87f3469d-cae9-43e7-a0ae-d19bef34314e.xml, d3dumddi/BufBlt, display.bufblt
 ms.prod: windows-hardware
 ms.technology: windows-devices

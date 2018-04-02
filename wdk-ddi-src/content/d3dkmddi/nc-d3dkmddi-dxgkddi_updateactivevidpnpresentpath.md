@@ -7,7 +7,7 @@ old-location: display\dxgkddiupdateactivevidpnpresentpath.htm
 old-project: display
 ms.assetid: 3bf5ebf7-8113-4ab2-beb1-1a52df25ac37
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKDDI_UPDATEACTIVEVIDPNPRESENTPATH, DmFunctions_837597a1-a23e-4aa9-b219-b1f69eb58ed1.xml, DxgkDdiUpdateActiveVidPnPresentPath, DxgkDdiUpdateActiveVidPnPresentPath callback function [Display Devices], d3dkmddi/DxgkDdiUpdateActiveVidPnPresentPath, display.dxgkddiupdateactivevidpnpresentpath
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: ifsk\fsrtlfastchecklockforwrite.htm
 old-project: ifsk
 ms.assetid: 4b4295dd-0d4b-4d41-a2ca-f09fe2d8d8b2
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FsRtlFastCheckLockForWrite, FsRtlFastCheckLockForWrite routine [Installable File System Drivers], fsrtlref_1f8feaa8-cc2d-47fb-af4a-00ef0efb4190.xml, ifsk.fsrtlfastchecklockforwrite, ntifs/FsRtlFastCheckLockForWrite
 ms.prod: windows-hardware
 ms.technology: windows-devices

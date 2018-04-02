@@ -7,7 +7,7 @@ old-location: display\getcryptosessionprivatedatasize.htm
 old-project: display
 ms.assetid: 1D135203-AA20-4D5D-A0F2-A53BDF5104C0
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3DWDDM2_0DDI_GETCRYPTOSESSIONPRIVATEDATASIZE, d3d10umddi/pfnGetCryptoSessionPrivateDataSize, display.getcryptosessionprivatedatasize, pfnGetCryptoSessionPrivateDataSize, pfnGetCryptoSessionPrivateDataSize callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices

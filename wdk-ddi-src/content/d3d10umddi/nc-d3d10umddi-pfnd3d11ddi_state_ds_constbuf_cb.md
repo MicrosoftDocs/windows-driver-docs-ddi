@@ -7,7 +7,7 @@ old-location: display\pfnstatedsconstbufcb.htm
 old-project: display
 ms.assetid: 8170be69-3e75-4e33-a123-3039e3f9d0c0
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3D11DDI_STATE_DS_CONSTBUF_CB, d3d10umddi/pfnStateDsConstBufCb, d3d11state_functions_5672a801-6215-48f3-b107-82281c9e8a9d.xml, display.pfnstatedsconstbufcb, pfnStateDsConstBufCb, pfnStateDsConstBufCb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices

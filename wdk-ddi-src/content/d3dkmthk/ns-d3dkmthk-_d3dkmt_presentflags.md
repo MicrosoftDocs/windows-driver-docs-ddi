@@ -7,7 +7,7 @@ old-location: display\d3dkmt_presentflags.htm
 old-project: display
 ms.assetid: 2ebee0bd-90f0-4628-8ddf-9e8029b4959a
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMT_PRESENTFLAGS, D3DKMT_PRESENTFLAGS structure [Display Devices], OpenGL_Structs_bd28ba63-6019-4cc5-b1d0-7275a5a575b3.xml, _D3DKMT_PRESENTFLAGS, d3dkmthk/D3DKMT_PRESENTFLAGS, display.d3dkmt_presentflags
 ms.prod: windows-hardware
 ms.technology: windows-devices

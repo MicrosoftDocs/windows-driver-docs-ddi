@@ -7,7 +7,7 @@ old-location: display\dxgkddipresentdisplayonly.htm
 old-project: display
 ms.assetid: b68839e3-ad82-4fcc-8e5a-02dea5db08d9
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKDDI_PRESENTDISPLAYONLY, DxgkDdiPresentDisplayOnly, DxgkDdiPresentDisplayOnly callback function [Display Devices], d3dkmddi/DxgkDdiPresentDisplayOnly, display.dxgkddipresentdisplayonly
 ms.prod: windows-hardware
 ms.technology: windows-devices

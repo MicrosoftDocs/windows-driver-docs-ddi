@@ -7,7 +7,7 @@ old-location: display\calcprivatedeferredcontextsize.htm
 old-project: display
 ms.assetid: 282898b1-45e1-4d85-9ab7-fd400623bdc5
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: CalcPrivateDeferredContextSize, CalcPrivateDeferredContextSize callback function [Display Devices], PFND3D11DDI_CALCPRIVATEDEFERREDCONTEXTSIZE, UserModeDisplayDriverDx11_Functions_577f34a4-1f2e-4666-8bce-00dc6e52c2e6.xml, d3d10umddi/CalcPrivateDeferredContextSize, display.calcprivatedeferredcontextsize
 ms.prod: windows-hardware
 ms.technology: windows-devices

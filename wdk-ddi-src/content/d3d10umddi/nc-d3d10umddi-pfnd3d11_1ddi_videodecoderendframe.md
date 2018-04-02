@@ -7,7 +7,7 @@ old-location: display\videodecoderendframe.htm
 old-project: display
 ms.assetid: f0110435-d060-4f4b-ad29-baaeb8fc2e0e
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3D11_1DDI_VIDEODECODERENDFRAME, d3d10umddi/pfnVideoDecoderEndFrame, display.videodecoderendframe, pfnVideoDecoderEndFrame, pfnVideoDecoderEndFrame callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices

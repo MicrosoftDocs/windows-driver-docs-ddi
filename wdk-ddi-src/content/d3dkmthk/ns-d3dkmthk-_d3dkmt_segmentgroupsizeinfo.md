@@ -7,7 +7,7 @@ old-location: display\d3dkmt_segmentgroupsizeinfo.htm
 old-project: display
 ms.assetid: 4D9D8179-AA55-409B-A733-7346EC06391B
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMT_SEGMENTGROUPSIZEINFO, D3DKMT_SEGMENTGROUPSIZEINFO structure [Display Devices], _D3DKMT_SEGMENTGROUPSIZEINFO, d3dkmthk/D3DKMT_SEGMENTGROUPSIZEINFO, display.d3dkmt_segmentgroupsizeinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

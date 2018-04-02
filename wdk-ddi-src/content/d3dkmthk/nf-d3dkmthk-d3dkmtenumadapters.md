@@ -7,7 +7,7 @@ old-location: display\d3dkmtenumadapters.htm
 old-project: display
 ms.assetid: 07c0aeac-0f82-492a-aa98-0ba5a962b9cf
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMTEnumAdapters, D3DKMTEnumAdapters callback function [Display Devices], PFND3DKMT_ENUMADAPTERS, d3dkmthk/D3DKMTEnumAdapters, display.d3dkmtenumadapters
 ms.prod: windows-hardware
 ms.technology: windows-devices

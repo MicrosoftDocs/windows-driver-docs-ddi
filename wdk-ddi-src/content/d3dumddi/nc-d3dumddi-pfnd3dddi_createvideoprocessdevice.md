@@ -7,7 +7,7 @@ old-location: display\createvideoprocessdevice.htm
 old-project: display
 ms.assetid: 3149c7d9-0bf7-4355-8f15-821cf6b92f0a
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: CreateVideoProcessDevice, CreateVideoProcessDevice callback function [Display Devices], PFND3DDDI_CREATEVIDEOPROCESSDEVICE, UserModeDisplayDriver_Functions_2f8b832f-db45-4f76-ab8f-5ba94f818933.xml, d3dumddi/CreateVideoProcessDevice, display.createvideoprocessdevice
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: display\dxgi_ddi_arg_checkpresentdurationsupport.htm
 old-project: display
 ms.assetid: FE12CFAB-3936-4453-88B5-A4CF0CA51E1A
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGI_DDI_ARG_CHECKPRESENTDURATIONSUPPORT, DXGI_DDI_ARG_CHECKPRESENTDURATIONSUPPORT structure [Display Devices], _DXGI_DDI_ARG_CHECKPRESENTDURATIONSUPPORT, display.dxgi_ddi_arg_checkpresentdurationsupport, dxgiddi/DXGI_DDI_ARG_CHECKPRESENTDURATIONSUPPORT
 ms.prod: windows-hardware
 ms.technology: windows-devices

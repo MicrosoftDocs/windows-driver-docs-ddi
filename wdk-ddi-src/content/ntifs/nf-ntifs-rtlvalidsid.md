@@ -7,7 +7,7 @@ old-location: ifsk\rtlvalidsid.htm
 old-project: ifsk
 ms.assetid: d4579703-0d51-4e23-b458-b2be43951dac
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: RtlValidSid, RtlValidSid routine [Installable File System Drivers], ifsk.rtlvalidsid, ntifs/RtlValidSid, rtlref_8d79344c-bb78-433f-be34-84e314b232a0.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

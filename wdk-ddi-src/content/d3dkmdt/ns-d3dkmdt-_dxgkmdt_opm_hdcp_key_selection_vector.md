@@ -7,7 +7,7 @@ old-location: display\dxgkmdt_opm_hdcp_key_selection_vector.htm
 old-project: display
 ms.assetid: a69eae04-a7e0-4d0c-a3e0-d49905096c8e
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKMDT_OPM_HDCP_KEY_SELECTION_VECTOR, DXGKMDT_OPM_HDCP_KEY_SELECTION_VECTOR structure [Display Devices], DmStructs_381ec3d0-fcf3-4153-8cc3-f2dda3f9684f.xml, _DXGKMDT_OPM_HDCP_KEY_SELECTION_VECTOR, d3dkmdt/DXGKMDT_OPM_HDCP_KEY_SELECTION_VECTOR, display.dxgkmdt_opm_hdcp_key_selection_vector
 ms.prod: windows-hardware
 ms.technology: windows-devices

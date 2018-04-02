@@ -7,7 +7,7 @@ old-location: storage\ataportgetbusdata.htm
 old-project: storage
 ms.assetid: bfff10ab-7e15-4db3-b808-947d61844bc0
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: AtaPortGetBusData, AtaPortGetBusData routine [Storage Devices], atartns_a137d697-85fa-4d99-964f-94e9bcbb6b7b.xml, irb/AtaPortGetBusData, storage.ataportgetbusdata
 ms.prod: windows-hardware
 ms.technology: windows-devices

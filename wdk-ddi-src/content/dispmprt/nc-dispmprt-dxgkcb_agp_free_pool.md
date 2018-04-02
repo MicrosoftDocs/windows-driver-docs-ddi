@@ -7,7 +7,7 @@ old-location: display\agpfreepool.htm
 old-project: display
 ms.assetid: 6d4e957e-ad9c-45da-8d1d-0ef5f108c692
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: AgpFreePool, AgpFreePool callback function [Display Devices], DXGKCB_AGP_FREE_POOL, DpFunctions_ffe16de5-aa04-4f4b-bae5-de5b25682f65.xml, display.agpfreepool, dispmprt/AgpFreePool
 ms.prod: windows-hardware
 ms.technology: windows-devices

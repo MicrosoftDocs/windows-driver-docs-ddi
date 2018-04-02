@@ -7,7 +7,7 @@ old-location: buses\_ucxendpointcreate.htm
 old-project: usbref
 ms.assetid: 2BB3B2CE-FD15-4D28-BBDA-29C3BB523874
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: UcxEndpointCreate, UcxEndpointCreate method [Buses], buses._ucxendpointcreate, ucxendpoint/UcxEndpointCreate
 ms.prod: windows-hardware
 ms.technology: windows-devices

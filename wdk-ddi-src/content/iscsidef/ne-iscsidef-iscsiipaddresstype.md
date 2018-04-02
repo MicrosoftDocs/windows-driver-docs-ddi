@@ -7,7 +7,7 @@ old-location: storage\iscsiipaddresstype.htm
 old-project: storage
 ms.assetid: a92f7048-ca8a-450c-93ab-6ea040412198
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PISCSIIPADDRESSTYPE, ISCSIIPADDRESSTYPE, ISCSIIPADDRESSTYPE enumeration [Storage Devices], ISCSI_IP_ADDRESS_EMPTY, ISCSI_IP_ADDRESS_IPV4, ISCSI_IP_ADDRESS_IPV6, ISCSI_IP_ADDRESS_TEXT, PISCSIIPADDRESSTYPE, PISCSIIPADDRESSTYPE enumeration pointer [Storage Devices], iscsidef/ISCSIIPADDRESSTYPE, iscsidef/ISCSI_IP_ADDRESS_EMPTY, iscsidef/ISCSI_IP_ADDRESS_IPV4, iscsidef/ISCSI_IP_ADDRESS_IPV6, iscsidef/ISCSI_IP_ADDRESS_TEXT, iscsidef/PISCSIIPADDRESSTYPE, storage.iscsiipaddresstype, structs-iSCSI_3e947807-84e7-4886-aae9-95b8d1b508ab.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices

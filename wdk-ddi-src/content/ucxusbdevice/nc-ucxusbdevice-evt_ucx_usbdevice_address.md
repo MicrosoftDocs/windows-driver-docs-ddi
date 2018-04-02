@@ -7,7 +7,7 @@ old-location: buses\evt_ucx_usbdevice_address.htm
 old-project: usbref
 ms.assetid: 48bda241-18b0-44c2-8e8b-7d3ecaad8a05
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: EVT_UCX_USBDEVICE_ADDRESS, EvtUcxUsbDeviceAddress, EvtUcxUsbDeviceAddress callback function [Buses], PEVT_UCX_USBDEVICE_ADDRESS, PEVT_UCX_USBDEVICE_ADDRESS callback function pointer [Buses], buses.evt_ucx_usbdevice_address, ucxusbdevice/EvtUcxUsbDeviceAddress
 ms.prod: windows-hardware
 ms.technology: windows-devices

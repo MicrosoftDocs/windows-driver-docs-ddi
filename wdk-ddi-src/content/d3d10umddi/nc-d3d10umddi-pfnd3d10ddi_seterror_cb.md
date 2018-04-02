@@ -7,7 +7,7 @@ old-location: display\pfnseterrorcb.htm
 old-project: display
 ms.assetid: 968b04a7-8869-410c-a6fc-83d57726858f
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3D10DDI_SETERROR_CB, d3d10state_functions_1d57cbc9-ec37-47ce-ab4f-71535419375a.xml, d3d10umddi/pfnSetErrorCb, display.pfnseterrorcb, pfnSetErrorCb, pfnSetErrorCb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices

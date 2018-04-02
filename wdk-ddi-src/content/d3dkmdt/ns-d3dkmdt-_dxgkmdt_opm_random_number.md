@@ -7,7 +7,7 @@ old-location: display\dxgkmdt_opm_random_number.htm
 old-project: display
 ms.assetid: 40b3217f-2529-4551-ad72-7e1600b58351
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PDXGKMDT_OPM_RANDOM_NUMBER, DXGKMDT_OPM_RANDOM_NUMBER, DXGKMDT_OPM_RANDOM_NUMBER structure [Display Devices], DmStructs_904ac539-a89e-4192-b520-29837016633d.xml, PDXGKMDT_OPM_RANDOM_NUMBER, PDXGKMDT_OPM_RANDOM_NUMBER structure pointer [Display Devices], _DXGKMDT_OPM_RANDOM_NUMBER, d3dkmdt/DXGKMDT_OPM_RANDOM_NUMBER, d3dkmdt/PDXGKMDT_OPM_RANDOM_NUMBER, display.dxgkmdt_opm_random_number"
 ms.prod: windows-hardware
 ms.technology: windows-devices

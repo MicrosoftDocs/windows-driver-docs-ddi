@@ -7,7 +7,7 @@ old-location: display\dxgk_buildpagingbuffer_notifyresidency.htm
 old-project: display
 ms.assetid: 0E70F621-03CD-4593-88C7-DF6F2ADC902A
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGK_BUILDPAGINGBUFFER_NOTIFYRESIDENCY, DXGK_BUILDPAGINGBUFFER_NOTIFYRESIDENCY structure [Display Devices], _DXGK_BUILDPAGINGBUFFER_NOTIFYRESIDENCY, d3dkmddi/DXGK_BUILDPAGINGBUFFER_NOTIFYRESIDENCY, display.dxgk_buildpagingbuffer_notifyresidency
 ms.prod: windows-hardware
 ms.technology: windows-devices

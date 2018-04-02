@@ -74,7 +74,6 @@ Indicates the video control capabilities for the specified stream. This member m
 
 ## -see-also
 
-<<<<<<< HEAD
 
 
 
@@ -87,28 +86,10 @@ Indicates the video control capabilities for the specified stream. This member m
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566043">KSPROPERTY_VIDEOCONTROL_MODE_S</a>
-=======
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566035">KSPROPERTY_VIDEOCONTROL_CAPS</a>
 
 
 
-<a href="..\ksmedia\ne-ksmedia-ks_videocontrolflags.md">KS_VideoControlFlags</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568120">PROPSETID_VIDCAP_VIDEOCONTROL</a>
-
-
->>>>>>> parent of 2d896a8e266... Added changes
-
-
-
-<<<<<<< HEAD
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567696">KS_VideoControlFlags</a>
-=======
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
->>>>>>> parent of 2d896a8e266... Added changes
 
 
 

@@ -7,7 +7,7 @@ old-location: display\createrendertargetview.htm
 old-project: display
 ms.assetid: bf9fc732-5f9a-4fee-8ea0-19b140789463
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: CreateRenderTargetView, CreateRenderTargetView callback function [Display Devices], PFND3D10DDI_CREATERENDERTARGETVIEW, UserModeDisplayDriverDx10_Functions_abef4fc8-0aac-40a9-9f45-de2160c347af.xml, d3d10umddi/CreateRenderTargetView, display.createrendertargetview
 ms.prod: windows-hardware
 ms.technology: windows-devices

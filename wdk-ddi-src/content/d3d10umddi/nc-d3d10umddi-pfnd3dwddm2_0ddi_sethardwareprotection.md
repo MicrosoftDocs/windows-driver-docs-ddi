@@ -7,7 +7,7 @@ old-location: display\sethardwareprotection.htm
 old-project: display
 ms.assetid: 9D41C504-1F84-4F1A-B767-D3B423A8AA46
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3DWDDM2_0DDI_SETHARDWAREPROTECTION, d3d10umddi/pfnSetHardwareProtection, display.sethardwareprotection, pfnSetHardwareProtection, pfnSetHardwareProtection callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices

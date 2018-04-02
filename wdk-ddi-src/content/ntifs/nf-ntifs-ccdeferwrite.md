@@ -7,7 +7,7 @@ old-location: ifsk\ccdeferwrite.htm
 old-project: ifsk
 ms.assetid: a655bcde-c627-4c90-8579-348ab0174c27
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: CcDeferWrite, CcDeferWrite routine [Installable File System Drivers], ccref_06158fb8-cf33-42fa-bf7c-94b3a5e1fcfd.xml, ifsk.ccdeferwrite, ntifs/CcDeferWrite
 ms.prod: windows-hardware
 ms.technology: windows-devices

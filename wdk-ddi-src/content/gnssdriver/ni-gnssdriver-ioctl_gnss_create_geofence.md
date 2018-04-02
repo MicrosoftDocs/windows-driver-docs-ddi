@@ -3,12 +3,12 @@ UID: NI:gnssdriver.IOCTL_GNSS_CREATE_GEOFENCE
 title: IOCTL_GNSS_CREATE_GEOFENCE
 author: windows-driver-content
 description: The IOCTL_GNSS_CREATE_GEOFENCE control code is used by the GNSS adapter to create a geofence.
-old-location: gnss\ioctl_gnss_create_geofence.htm
-old-project: gnss
+old-location: sensors\ioctl_gnss_create_geofence.htm
+old-project: sensors
 ms.assetid: 114B7E39-1FC6-4AC4-A238-3FC3D4A122B0
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IOCTL_GNSS_CREATE_GEOFENCE, IOCTL_GNSS_CREATE_GEOFENCE control code [Sensor Devices], gnss.ioctl_gnss_create_geofence, gnssdriver/IOCTL_GNSS_CREATE_GEOFENCE
+ms.date: 2/22/2018
+ms.keywords: IOCTL_GNSS_CREATE_GEOFENCE, IOCTL_GNSS_CREATE_GEOFENCE control code [Sensor Devices], gnssdriver/IOCTL_GNSS_CREATE_GEOFENCE, sensors.ioctl_gnss_create_geofence
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -46,11 +46,6 @@ req.typenames: GNSS_SUPL_CERT_ACTION
 # IOCTL_GNSS_CREATE_GEOFENCE IOCTL
 
 
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
-
 ## -description
 
 
@@ -68,7 +63,7 @@ The <b>IOCTL_GNSS_CREATE_GEOFENCE</b>
 
 ### -input-buffer
 
-A pointer to a <a href="..\gnssdriver\ns-gnssdriver-gnss_geofence_create_param.md">GNSS_GEOFENCE_CREATE_PARAM</a> structure that defines the geofence to be created.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn925162">GNSS_GEOFENCE_CREATE_PARAM</a> structure that defines the geofence to be created.
 
 
 
@@ -82,7 +77,7 @@ Set to sizeof(<b>GNSS_GEOFENCE_CREATE_PARAM</b>).
 
 ### -output-buffer
 
-A pointer to a <a href="..\gnssdriver\ns-gnssdriver-gnss_geofence_create_response.md">GNSS_GEOFENCE_CREATE_RESPONSE</a> structure.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn925165">GNSS_GEOFENCE_CREATE_RESPONSE</a> structure.
 
 
 ### -output-buffer-length
@@ -166,22 +161,22 @@ The GNSS driver and the GNSS engine must expose documented IHV-specific tuning p
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff542894">Creating IOCTL Requests in Drivers</a>
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548651">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548656">WdfIoTargetSendInternalIoctlSynchronously</a>
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548660">WdfIoTargetSendIoctlSynchronously</a>
  
 
  

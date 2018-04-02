@@ -7,7 +7,7 @@ old-location: ifsk\fsrtlinitializefilelock.htm
 old-project: ifsk
 ms.assetid: 0a476cd8-b0e6-4faa-bb97-3647a88ecded
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FsRtlInitializeFileLock, FsRtlInitializeFileLock routine [Installable File System Drivers], fsrtlref_227dc998-43e4-427b-afe5-6d26ff5d1c36.xml, ifsk.fsrtlinitializefilelock, ntifs/FsRtlInitializeFileLock
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: buses\usbd_buildregistercompositedriver.htm
 old-project: usbref
 ms.assetid: 6683C688-CCDD-498B-AA60-81430DC3BCA4
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: USBD_BuildRegisterCompositeDevice, USBD_BuildRegisterCompositeDevice routine [Buses], buses.usbd_buildregistercompositedriver, usbdlib/ USBD_BuildRegisterCompositeDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices

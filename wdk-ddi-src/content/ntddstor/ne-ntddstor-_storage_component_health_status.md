@@ -7,7 +7,7 @@ old-location: storage\storage_component_health_status.htm
 old-project: storage
 ms.assetid: 6768C1D7-A964-44A7-A340-98060130FF24
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PSTORAGE_COMPONENT_HEALTH_STATUS, HealthStatusDisabled, HealthStatusFailed, HealthStatusNormal, HealthStatusThrottled, HealthStatusUnknown, HealthStatusWarning, PSTORAGE_COMPONENT_HEALTH_STATUS, PSTORAGE_COMPONENT_HEALTH_STATUS enumeration pointer [Storage Devices], STORAGE_COMPONENT_HEALTH_STATUS, STORAGE_COMPONENT_HEALTH_STATUS enumeration [Storage Devices], _STORAGE_COMPONENT_HEALTH_STATUS, ntddstor/HealthStatusDisabled, ntddstor/HealthStatusFailed, ntddstor/HealthStatusNormal, ntddstor/HealthStatusThrottled, ntddstor/HealthStatusUnknown, ntddstor/HealthStatusWarning, ntddstor/PSTORAGE_COMPONENT_HEALTH_STATUS, ntddstor/STORAGE_COMPONENT_HEALTH_STATUS, storage.storage_component_health_status"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: "<=DISPATCH_LEVEL"
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax

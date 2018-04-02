@@ -7,7 +7,7 @@ old-location: storage\create_disk.htm
 old-project: storage
 ms.assetid: 20989831-5ff0-4457-9dae-ceaf34830a2e
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PCREATE_DISK, CREATE_DISK, CREATE_DISK structure [Storage Devices], PCREATE_DISK, PCREATE_DISK structure pointer [Storage Devices], _CREATE_DISK, ntdddisk/CREATE_DISK, ntdddisk/PCREATE_DISK, storage.create_disk, structs-disk_568deb80-fbd8-4c86-9646-a49355ab0d52.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices

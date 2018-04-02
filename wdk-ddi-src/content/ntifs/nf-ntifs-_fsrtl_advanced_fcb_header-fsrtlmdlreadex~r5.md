@@ -7,7 +7,7 @@ old-location: ifsk\fsrtlmdlreadex.htm
 old-project: ifsk
 ms.assetid: E1F16454-C8E6-4291-83BB-F4CF18F6DF10
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FsRtlMdlReadEx, FsRtlMdlReadEx routine [Installable File System Drivers], ifsk.fsrtlmdlreadex, ntifs/FsRtlMdlReadEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

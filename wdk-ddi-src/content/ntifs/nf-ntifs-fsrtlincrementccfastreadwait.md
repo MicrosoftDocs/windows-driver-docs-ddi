@@ -7,7 +7,7 @@ old-location: ifsk\fsrtlincrementccfastreadwait.htm
 old-project: ifsk
 ms.assetid: f9d10593-28a6-4d57-a739-2d24dfe4631a
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FsRtlIncrementCcFastReadWait, FsRtlIncrementCcFastReadWait routine [Installable File System Drivers], fsrtlref_487f6c6e-ec6f-4b81-a303-829e6d82d260.xml, ifsk.fsrtlincrementccfastreadwait, ntifs/FsRtlIncrementCcFastReadWait
 ms.prod: windows-hardware
 ms.technology: windows-devices

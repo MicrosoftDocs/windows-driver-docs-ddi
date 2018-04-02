@@ -7,7 +7,7 @@ old-location: display\d3dkmtcreatecontextvirtual.htm
 old-project: display
 ms.assetid: 1E95228E-7513-46D2-8402-28CA6D26F3EB
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMTCreateContextVirtual, D3DKMTCreateContextVirtual function [Display Devices], d3dkmthk/D3DKMTCreateContextVirtual, display.d3dkmtcreatecontextvirtual
 ms.prod: windows-hardware
 ms.technology: windows-devices

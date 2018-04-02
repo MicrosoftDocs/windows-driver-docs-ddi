@@ -7,7 +7,7 @@ old-location: ifsk\rxpreleaseprefixtablelock.htm
 old-project: ifsk
 ms.assetid: 57aef4ed-2ece-4af3-b1ca-e4fe5a306f82
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: RxpReleasePrefixTableLock, RxpReleasePrefixTableLock function [Installable File System Drivers], ifsk.rxpreleaseprefixtablelock, prefix/RxpReleasePrefixTableLock, rxref_34f5b33a-efeb-42a0-8e57-6c32c262319a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: display\draw.htm
 old-project: display
 ms.assetid: 7a6f1d56-12be-4185-97bf-06f265ee6fe3
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: Draw, Draw callback function [Display Devices], PFND3D10DDI_DRAW, UserModeDisplayDriverDx10_Functions_aec9f82d-41e9-41bc-b8e7-c07c531caf4c.xml, d3d10umddi/Draw, display.draw
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: buses\ioctl_internal_usbfn_set_power_filter_exit_lpm.htm
 old-project: usbref
 ms.assetid: 2A3A1723-989E-44FD-9727-7A01218652D1
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_INTERNAL_USBFN_SET_POWER_FILTER_EXIT_LPM, IOCTL_INTERNAL_USBFN_SET_POWER_FILTER_EXIT_LPM control code [Buses], buses.ioctl_internal_usbfn_set_power_filter_exit_lpm, usbfnioctl/IOCTL_INTERNAL_USBFN_SET_POWER_FILTER_EXIT_LPM
 ms.prod: windows-hardware
 ms.technology: windows-devices

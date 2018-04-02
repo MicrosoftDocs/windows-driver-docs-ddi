@@ -7,7 +7,7 @@ old-location: display\destroydepthstencilview.htm
 old-project: display
 ms.assetid: 5cd2b7bd-0231-4f00-a54e-960b9bffa98e
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DestroyDepthStencilView, DestroyDepthStencilView callback function [Display Devices], PFND3D10DDI_DESTROYDEPTHSTENCILVIEW, UserModeDisplayDriverDx10_Functions_140d9da4-c965-4f51-b16c-1c29ff6e2e94.xml, d3d10umddi/DestroyDepthStencilView, display.destroydepthstencilview
 ms.prod: windows-hardware
 ms.technology: windows-devices

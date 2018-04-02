@@ -7,7 +7,7 @@ old-location: display\d3dddiarg_composerects.htm
 old-project: display
 ms.assetid: 9360f9c4-e30e-4fc0-ade7-1d98ff8b1d1b
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDIARG_COMPOSERECTS, D3DDDIARG_COMPOSERECTS structure [Display Devices], UMDisplayDriver_param_Structs_2f10ffa4-f55f-490b-9aa4-08c0c3e3d924.xml, _D3DDDIARG_COMPOSERECTS, d3dumddi/D3DDDIARG_COMPOSERECTS, display.d3dddiarg_composerects
 ms.prod: windows-hardware
 ms.technology: windows-devices

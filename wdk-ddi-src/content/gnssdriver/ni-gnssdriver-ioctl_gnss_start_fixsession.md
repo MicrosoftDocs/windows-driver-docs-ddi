@@ -3,12 +3,12 @@ UID: NI:gnssdriver.IOCTL_GNSS_START_FIXSESSION
 title: IOCTL_GNSS_START_FIXSESSION
 author: windows-driver-content
 description: The IOCTL_GNSS_START_FIXSESSION control code is used by the GNSS adapter to start a fix session.
-old-location: gnss\ioctl_gnss_start_fixsession.htm
-old-project: gnss
+old-location: sensors\ioctl_gnss_start_fixsession.htm
+old-project: sensors
 ms.assetid: C3D1902A-DEB6-4AC7-B452-66C4636416BB
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IOCTL_GNSS_START_FIXSESSION, IOCTL_GNSS_START_FIXSESSION control code [Sensor Devices], gnss.ioctl_gnss_start_fixsession, gnssdriver/IOCTL_GNSS_START_FIXSESSION
+ms.date: 2/22/2018
+ms.keywords: IOCTL_GNSS_START_FIXSESSION, IOCTL_GNSS_START_FIXSESSION control code [Sensor Devices], gnssdriver/IOCTL_GNSS_START_FIXSESSION, sensors.ioctl_gnss_start_fixsession
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -46,11 +46,6 @@ req.typenames: GNSS_SUPL_CERT_ACTION
 # IOCTL_GNSS_START_FIXSESSION IOCTL
 
 
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
-
 ## -description
 
 
@@ -64,7 +59,7 @@ The <b>IOCTL_GNSS_START_FIXSESSION</b> control code is used by the GNSS adapter 
 
 ### -input-buffer
 
-A pointer to a <a href="..\gnssdriver\ns-gnssdriver-gnss_fixsession_param.md">GNSS_FIXSESSION_PARAM</a> structure.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn925152">GNSS_FIXSESSION_PARAM</a> structure.
 
 
 ### -input-buffer-length
@@ -122,7 +117,7 @@ A fix session of the same type is already active and the driver does not support
 </li>
 </ul>
 <h3><a id="GNSS_adapter_notes"></a><a id="gnss_adapter_notes"></a><a id="GNSS_ADAPTER_NOTES"></a>GNSS adapter notes</h3>
-If multi-session support is not present, the GNSS adapter ensures that multiple sessions of the same fix type are multiplexed properly so that the GNSS driver sees only one session of a given type of fix. The GNSS adapter can modify the fix session parameters of an active fix session through the <a href="..\gnssdriver\ni-gnssdriver-ioctl_gnss_modify_fixsession.md">IOCTL_GNSS_MODIFY_FIXSESSION</a> call.
+If multi-session support is not present, the GNSS adapter ensures that multiple sessions of the same fix type are multiplexed properly so that the GNSS driver sees only one session of a given type of fix. The GNSS adapter can modify the fix session parameters of an active fix session through the <a href="https://msdn.microsoft.com/library/windows/hardware/dn917740">IOCTL_GNSS_MODIFY_FIXSESSION</a> call.
 
 The GNSS adapter does not start a get fix request unless the driver completes this call and returns a success status in the output.
 
@@ -140,22 +135,22 @@ Once a fix session is started, it remains active unless the fix session is expli
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff542894">Creating IOCTL Requests in Drivers</a>
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548651">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548656">WdfIoTargetSendInternalIoctlSynchronously</a>
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548660">WdfIoTargetSendIoctlSynchronously</a>
  
 
  

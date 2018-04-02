@@ -7,7 +7,7 @@ old-location: display\dd_getdriverinfo2data.htm
 old-project: display
 ms.assetid: f1b3e432-6972-49ff-9fce-b642c1be17ea
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DD_GETDRIVERINFO2DATA, DD_GETDRIVERINFO2DATA structure [Display Devices], _DD_GETDRIVERINFO2DATA, d3dhal/DD_GETDRIVERINFO2DATA, d3dstrct_64ab01fc-414f-4367-8bb7-201c7e120275.xml, display.dd_getdriverinfo2data
 ms.prod: windows-hardware
 ms.technology: windows-devices

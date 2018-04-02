@@ -7,7 +7,7 @@ old-location: storage\storportlogerror.htm
 old-project: storage
 ms.assetid: f653e6bf-e99b-4aa2-aa54-d7482d326720
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: StorPortLogError, StorPortLogError routine [Storage Devices], storage.storportlogerror, storport/StorPortLogError, storprt_0eb9851c-bfce-49aa-a22b-3d16a72b3dde.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

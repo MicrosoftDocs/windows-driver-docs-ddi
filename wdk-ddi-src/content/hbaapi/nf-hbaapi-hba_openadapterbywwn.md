@@ -7,7 +7,7 @@ old-location: storage\hba_openadapterbywwn.htm
 old-project: storage
 ms.assetid: 62492c9b-ace0-48be-ae8b-bb681dbca8b7
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: HBA_OpenAdapterByWWN, HBA_OpenAdapterByWWN routine [Storage Devices], fibreHBA_rtns_60fafeb4-de69-40e4-8942-907fe14fe8a4.xml, hbaapi/HBA_OpenAdapterByWWN, storage.hba_openadapterbywwn
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: display\dxgkarg_commitvidpn_flags.htm
 old-project: display
 ms.assetid: 02fe4216-101e-4ba7-88df-029f8bba9c17
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKARG_COMMITVIDPN_FLAGS, DXGKARG_COMMITVIDPN_FLAGS structure [Display Devices], DmStructs_267e916a-7058-4ce7-892d-9ed9d6f74bce.xml, _DXGKARG_COMMITVIDPN_FLAGS, d3dkmddi/DXGKARG_COMMITVIDPN_FLAGS, display.dxgkarg_commitvidpn_flags
 ms.prod: windows-hardware
 ms.technology: windows-devices

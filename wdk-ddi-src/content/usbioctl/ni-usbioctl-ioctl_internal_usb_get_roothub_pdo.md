@@ -7,7 +7,7 @@ old-location: buses\ioctl_internal_usb_get_roothub_pdo.htm
 old-project: usbref
 ms.assetid: 57a0063d-1dc9-48ff-98e8-59a562cc5ce0
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_INTERNAL_USB_GET_ROOTHUB_PDO, IOCTL_INTERNAL_USB_GET_ROOTHUB_PDO control code [Buses], buses.ioctl_internal_usb_get_roothub_pdo, usbioctl/IOCTL_INTERNAL_USB_GET_ROOTHUB_PDO, usbirp_66fee324-5309-4242-ad55-b0ed76dbf68e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

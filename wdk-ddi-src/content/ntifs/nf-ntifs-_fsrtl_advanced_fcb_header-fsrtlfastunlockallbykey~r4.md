@@ -7,7 +7,7 @@ old-location: ifsk\fsrtlfastunlockallbykey.htm
 old-project: ifsk
 ms.assetid: 57214e6a-cd29-4576-894a-9523ca3c7e7d
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FsRtlFastUnlockAllByKey, FsRtlFastUnlockAllByKey routine [Installable File System Drivers], fsrtlref_193afe01-52f3-4dbc-8a33-bd058beb10ce.xml, ifsk.fsrtlfastunlockallbykey, ntifs/FsRtlFastUnlockAllByKey
 ms.prod: windows-hardware
 ms.technology: windows-devices

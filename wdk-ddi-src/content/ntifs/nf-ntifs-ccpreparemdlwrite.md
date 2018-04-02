@@ -7,7 +7,7 @@ old-location: ifsk\ccpreparemdlwrite.htm
 old-project: ifsk
 ms.assetid: 84e231ad-50a1-471e-b514-6b769f2a7e1e
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: CcPrepareMdlWrite, CcPrepareMdlWrite routine [Installable File System Drivers], ccref_2523ff15-d200-4f45-bc05-aab30afadc15.xml, ifsk.ccpreparemdlwrite, ntifs/CcPrepareMdlWrite
 ms.prod: windows-hardware
 ms.technology: windows-devices

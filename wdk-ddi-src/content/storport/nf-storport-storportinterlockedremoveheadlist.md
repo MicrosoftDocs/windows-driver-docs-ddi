@@ -7,7 +7,7 @@ old-location: storage\storportinterlockedremoveheadlist.htm
 old-project: storage
 ms.assetid: 6B99D78A-B582-4114-9472-D01D39FDD4C9
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: StorPortInterlockedRemoveHeadList, StorPortInterlockedRemoveHeadList routine [Storage Devices], storage.storportinterlockedremoveheadlist, storport/StorPortInterlockedRemoveHeadList
 ms.prod: windows-hardware
 ms.technology: windows-devices

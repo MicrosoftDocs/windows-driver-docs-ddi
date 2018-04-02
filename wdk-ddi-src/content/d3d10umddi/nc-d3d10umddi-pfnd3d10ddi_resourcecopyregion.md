@@ -7,7 +7,7 @@ old-location: display\resourcecopyregion.htm
 old-project: display
 ms.assetid: e782dc8c-e34e-4f96-b6d9-c34d7843ed05
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3D10DDI_RESOURCECOPYREGION, ResourceCopyRegion, ResourceCopyRegion callback function [Display Devices], UserModeDisplayDriverDx10_Functions_8b5cb003-4fa5-4d23-99c4-a8165253907c.xml, d3d10umddi/ResourceCopyRegion, display.resourcecopyregion
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -116,7 +116,6 @@ The <i>ResourceCopyRegion</i> function copies a source subresource region to a l
 
 
 #### - hDevice [in]
-<<<<<<< HEAD
 
  A handle to the display device (graphics context).
 
@@ -125,16 +124,6 @@ The <i>ResourceCopyRegion</i> function copies a source subresource region to a l
 
  A handle to the destination resource to copy to.
 
-=======
-
- A handle to the display device (graphics context).
-
-
-#### - hDstResource [in]
-
- A handle to the destination resource to copy to.
-
->>>>>>> parent of 2d896a8e266... Added changes
 
 #### - hSrcResource [in]
 

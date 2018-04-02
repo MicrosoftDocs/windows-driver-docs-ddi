@@ -7,7 +7,7 @@ old-location: display\setvertexshaderconst.htm
 old-project: display
 ms.assetid: 2dbde343-b10a-4357-a2b7-d6b1b1b868f2
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3DDDI_SETVERTEXSHADERCONST, SetVertexShaderConst, SetVertexShaderConst callback function [Display Devices], UserModeDisplayDriver_Functions_473fa267-d7f2-47b7-bae8-3430d89dd632.xml, d3dumddi/SetVertexShaderConst, display.setvertexshaderconst
 ms.prod: windows-hardware
 ms.technology: windows-devices

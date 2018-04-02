@@ -7,7 +7,7 @@ old-location: storage\hba_sendreportluns.htm
 old-project: storage
 ms.assetid: 0df38de0-bc05-45a3-8efa-9d7a0fc2a08e
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: HBA_SendReportLUNs, HBA_SendReportLUNs routine [Storage Devices], fibreHBA_rtns_aeda6b0e-e4bf-4679-ab57-dbe562864726.xml, hbaapi/HBA_SendReportLUNs, storage.hba_sendreportluns
 ms.prod: windows-hardware
 ms.technology: windows-devices

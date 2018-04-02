@@ -7,7 +7,7 @@ old-location: display\dxgkddiopenallocation.htm
 old-project: display
 ms.assetid: 551154d7-950d-40e5-810b-8d803c1731ca
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKDDI_OPENALLOCATIONINFO, DmFunctions_e27ad0cd-ae79-4207-abb0-68f048452101.xml, DxgkDdiOpenAllocation, DxgkDdiOpenAllocation callback function [Display Devices], d3dkmddi/DxgkDdiOpenAllocation, display.dxgkddiopenallocation
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: buses\ufx_proprietary_charger_reset_operation.htm
 old-project: usbref
 ms.assetid: F307A139-B55A-4C29-BE2F-14C243115F8C
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: PFN_UFX_PROPRIETARY_CHARGER_RESET_OPERATION, PFN_UFX_PROPRIETARY_CHARGER_RESET_OPERATION callback function pointer [Buses], UFX_PROPRIETARY_CHARGER_RESET_OPERATION, UfxProprietaryChargerReset, UfxProprietaryChargerReset callback function [Buses], buses.ufx_proprietary_charger_reset_operation, ufxproprietarycharger/UfxProprietaryChargerReset
 ms.prod: windows-hardware
 ms.technology: windows-devices

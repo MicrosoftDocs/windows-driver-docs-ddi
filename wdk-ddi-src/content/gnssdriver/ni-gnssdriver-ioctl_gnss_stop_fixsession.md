@@ -3,12 +3,12 @@ UID: NI:gnssdriver.IOCTL_GNSS_STOP_FIXSESSION
 title: IOCTL_GNSS_STOP_FIXSESSION
 author: windows-driver-content
 description: The IOCTL_GNSS_STOP_FIXSESSION control code is used by the GNSS adapter to stop an active fix session.
-old-location: gnss\ioctl_gnss_stop_fixsession.htm
-old-project: gnss
+old-location: sensors\ioctl_gnss_stop_fixsession.htm
+old-project: sensors
 ms.assetid: 3A15A61A-8822-4E20-9979-B89BFA092281
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IOCTL_GNSS_STOP_FIXSESSION, IOCTL_GNSS_STOP_FIXSESSION control code [Sensor Devices], gnss.ioctl_gnss_stop_fixsession, gnssdriver/IOCTL_GNSS_STOP_FIXSESSION
+ms.date: 2/22/2018
+ms.keywords: IOCTL_GNSS_STOP_FIXSESSION, IOCTL_GNSS_STOP_FIXSESSION control code [Sensor Devices], gnssdriver/IOCTL_GNSS_STOP_FIXSESSION, sensors.ioctl_gnss_stop_fixsession
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -46,11 +46,6 @@ req.typenames: GNSS_SUPL_CERT_ACTION
 # IOCTL_GNSS_STOP_FIXSESSION IOCTL
 
 
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
-
 ## -description
 
 
@@ -64,7 +59,7 @@ The <b>IOCTL_GNSS_STOP_FIXSESSION</b> control code is used by the GNSS adapter t
 
 ### -input-buffer
 
-A pointer to a <a href="..\gnssdriver\ns-gnssdriver-gnss_stopfixsession_param.md">GNSS_STOPFIXSESSION_PARAM</a> structure.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn925221">GNSS_STOPFIXSESSION_PARAM</a> structure.
 
 
 ### -input-buffer-length
@@ -134,22 +129,22 @@ If no other fix sessions are active, the GNSS driver should keep the GNSS engine
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff542894">Creating IOCTL Requests in Drivers</a>
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548651">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548656">WdfIoTargetSendInternalIoctlSynchronously</a>
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548660">WdfIoTargetSendIoctlSynchronously</a>
  
 
  

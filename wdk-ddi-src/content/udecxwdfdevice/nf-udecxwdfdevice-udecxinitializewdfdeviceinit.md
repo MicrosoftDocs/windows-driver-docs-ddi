@@ -7,7 +7,7 @@ old-location: buses\udecxinitializewdfdeviceinit.htm
 old-project: usbref
 ms.assetid: 6FF62F6B-D83D-45DB-BE83-7A6D61A6AC92
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: UdecxInitializeWdfDeviceInit, UdecxInitializeWdfDeviceInit function [Buses], buses.udecxinitializewdfdeviceinit, udecxwdfdevice/UdecxInitializeWdfDeviceInit
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: display\d3dddi_getresourcepresentprivatedriverdata.htm
 old-project: display
 ms.assetid: 4473E808-D22E-47C4-8619-7427C8BA682E
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA, D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA structure [Display Devices], _D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA, d3dukmdt/D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA, display.d3dddi_getresourcepresentprivatedriverdata
 ms.prod: windows-hardware
 ms.technology: windows-devices

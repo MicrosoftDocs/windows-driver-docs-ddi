@@ -7,7 +7,7 @@ old-location: storage\scsiportgetphysicaladdress.htm
 old-project: storage
 ms.assetid: 4a0d0b10-9773-40d7-962c-cf2acffcee47
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: ScsiPortGetPhysicalAddress, ScsiPortGetPhysicalAddress routine [Storage Devices], scsiprt_946bea8c-eb6d-4614-9dc0-004ee2501457.xml, srb/ScsiPortGetPhysicalAddress, storage.scsiportgetphysicaladdress
 ms.prod: windows-hardware
 ms.technology: windows-devices

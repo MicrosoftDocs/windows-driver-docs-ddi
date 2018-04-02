@@ -7,7 +7,7 @@ old-location: display\hwvidinterrupt.htm
 old-project: display
 ms.assetid: 523471e3-cf1e-48d2-b5f0-2f8d19ad71e0
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: HwVidInterrupt, HwVidInterrupt callback function [Display Devices], PVIDEO_HW_INTERRUPT, VideoMiniport_Functions_9c3ff1cb-9812-461c-8ac5-b6cbdbe63c59.xml, display.hwvidinterrupt, video/HwVidInterrupt
 ms.prod: windows-hardware
 ms.technology: windows-devices

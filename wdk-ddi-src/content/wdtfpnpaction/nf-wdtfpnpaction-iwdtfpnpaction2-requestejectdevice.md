@@ -7,7 +7,7 @@ old-location: dtf\iwdtfpnpaction2_requestejectdevice.htm
 old-project: dtf
 ms.assetid: e4782fd9-0c71-4460-892e-180be41ed3bb
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 3/29/2018
 ms.keywords: IWDTFPNPAction2, IWDTFPNPAction2 interface [Windows Device Testing Framework], RequestEjectDevice method, IWDTFPNPAction2::RequestEjectDevice, Microsoft.WDTF.IWDTFPNPAction2.RequestEjectDevice, Microsoft::WDTF::IWDTFPNPAction2::RequestEjectDevice, RequestEjectDevice method [Windows Device Testing Framework], RequestEjectDevice method [Windows Device Testing Framework], IWDTFPNPAction2 interface, RequestEjectDevice,IWDTFPNPAction2.RequestEjectDevice, dtf.iwdtfpnpaction2_requestejectdevice, wdtfpnpaction/IWDTFPNPAction2::RequestEjectDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices

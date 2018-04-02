@@ -7,7 +7,7 @@ old-location: ifsk\fltreleasepushlock.htm
 old-project: ifsk
 ms.assetid: 34d1b945-329c-47ff-913d-5576eef665b8
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FltApiRef_p_to_z_31e736a4-7790-443f-a6bf-e43d3823ad27.xml, FltReleasePushLock, FltReleasePushLock routine [Installable File System Drivers], fltkernel/FltReleasePushLock, ifsk.fltreleasepushlock
 ms.prod: windows-hardware
 ms.technology: windows-devices

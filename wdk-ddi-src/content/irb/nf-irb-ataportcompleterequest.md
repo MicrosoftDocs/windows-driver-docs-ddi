@@ -7,7 +7,7 @@ old-location: storage\ataportcompleterequest.htm
 old-project: storage
 ms.assetid: 2dddd012-9a13-49e4-9392-300938e78609
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: AtaPortCompleteRequest, AtaPortCompleteRequest routine [Storage Devices], atartns_6ed3a9ca-b9b8-4d2f-a2f2-5a57db2071f8.xml, irb/AtaPortCompleteRequest, storage.ataportcompleterequest
 ms.prod: windows-hardware
 ms.technology: windows-devices

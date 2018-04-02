@@ -7,7 +7,7 @@ old-location: buses\evt_udecx_usb_device_d0_entry.htm
 old-project: usbref
 ms.assetid: 92CEEAF3-BD70-4B1C-8385-00720A195E50
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: EVT_UDECX_USB_DEVICE_D0_ENTRY, EvtUsbDeviceLinkPowerEntry, EvtUsbDeviceLinkPowerEntry callback function [Buses], buses.evt_udecx_usb_device_d0_entry, udecxusbdevice/EvtUsbDeviceLinkPowerEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices

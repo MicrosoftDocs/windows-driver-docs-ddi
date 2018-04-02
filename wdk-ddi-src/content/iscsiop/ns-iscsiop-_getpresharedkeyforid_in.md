@@ -7,7 +7,7 @@ old-location: storage\getpresharedkeyforid_in.htm
 old-project: storage
 ms.assetid: 4b3d3c5d-c34c-4ed8-bf62-1d885442ee1e
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PGetPresharedKeyForId_IN, GetPresharedKeyForId_IN, GetPresharedKeyForId_IN structure [Storage Devices], PGetPresharedKeyForId_IN, PGetPresharedKeyForId_IN structure pointer [Storage Devices], _GetPresharedKeyForId_IN, iscsiop/GetPresharedKeyForId_IN, iscsiop/PGetPresharedKeyForId_IN, storage.getpresharedkeyforid_in, structs-iSCSI_2bdada81-7b98-40cd-bc44-e23e53118c60.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: buses\evt_udecx_usb_device_endpoints_configure.htm
 old-project: usbref
 ms.assetid: 5E425011-BFC7-434C-9D0A-DB4481EC315F
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: EVT_UDECX_USB_DEVICE_ENDPOINTS_CONFIGURE, EvtUsbDeviceEndpointsConfigure, EvtUsbDeviceEndpointsConfigure callback function [Buses], buses.evt_udecx_usb_device_endpoints_configure, udecxusbdevice/EvtUsbDeviceEndpointsConfigure
 ms.prod: windows-hardware
 ms.technology: windows-devices

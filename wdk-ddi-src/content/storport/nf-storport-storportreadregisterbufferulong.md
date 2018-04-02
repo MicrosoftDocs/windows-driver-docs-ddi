@@ -7,7 +7,7 @@ old-location: storage\storportreadregisterbufferulong.htm
 old-project: storage
 ms.assetid: 069defee-6295-4492-b0bb-135c476c79aa
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: StorPortReadRegisterBufferUlong, StorPortReadRegisterBufferUlong routine [Storage Devices], storage.storportreadregisterbufferulong, storport/StorPortReadRegisterBufferUlong, storprt_18f8816c-5e0f-4139-829d-d9de65d63529.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

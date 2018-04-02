@@ -7,7 +7,7 @@ old-location: storage\verify_information.htm
 old-project: storage
 ms.assetid: 7bb5c2ff-9bdb-4958-b290-9edb18d02668
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PVERIFY_INFORMATION, PVERIFY_INFORMATION, PVERIFY_INFORMATION structure pointer [Storage Devices], VERIFY_INFORMATION, VERIFY_INFORMATION structure [Storage Devices], _VERIFY_INFORMATION, ntdddisk/PVERIFY_INFORMATION, ntdddisk/VERIFY_INFORMATION, storage.verify_information, structs-disk_fbed0038-effc-40d8-8814-921dfd627a94.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices

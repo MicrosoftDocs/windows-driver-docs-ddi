@@ -7,7 +7,7 @@ old-location: storage\dump_read.htm
 old-project: storage
 ms.assetid: 5F95D38C-8E11-49D4-82C4-718BD846A834
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: Dump_Read, Dump_Read routine [Storage Devices], PDUMP_READ, ntdddump/Dump_Read, storage.dump_read
 ms.prod: windows-hardware
 ms.technology: windows-devices

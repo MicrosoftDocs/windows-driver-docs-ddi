@@ -7,7 +7,7 @@ old-location: ifsk\pflt_post_operation_callback.htm
 old-project: ifsk
 ms.assetid: 5bf2a533-e06b-4834-9075-62cb62fa5b06
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FltCallbacks_a3bdb676-d994-4bef-9b35-c233b12c5c9c.xml, PFLT_POST_OPERATION_CALLBACK, PFLT_POST_OPERATION_CALLBACK function pointer [Installable File System Drivers], fltkernel/PFLT_POST_OPERATION_CALLBACK, ifsk.pflt_post_operation_callback
 ms.prod: windows-hardware
 ms.technology: windows-devices

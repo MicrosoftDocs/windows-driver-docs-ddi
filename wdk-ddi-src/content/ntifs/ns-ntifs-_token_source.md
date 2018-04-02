@@ -7,7 +7,7 @@ old-location: ifsk\token_source.htm
 old-project: ifsk
 ms.assetid: 0820f6f2-bec2-4d38-9a95-cfff6151ef02
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: "*PTOKEN_SOURCE, PTOKEN_SOURCE, PTOKEN_SOURCE structure pointer [Installable File System Drivers], TOKEN_SOURCE, TOKEN_SOURCE structure [Installable File System Drivers], _TOKEN_SOURCE, ifsk.token_source, ntifs/PTOKEN_SOURCE, ntifs/TOKEN_SOURCE, securitystructures_caf23dc4-0bfe-40e1-9b94-b58bb0eb893e.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices

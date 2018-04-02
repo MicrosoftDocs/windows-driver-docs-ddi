@@ -52,19 +52,6 @@ req.typenames: SERIAL_HANDFLOW, *PSERIAL_HANDFLOW
 The <b>SERIAL_HANDFLOW</b> structure specifies the handshake and flow control settings for a serial port.
 
 
-## -syntax
-
-
-````
-typedef struct _SERIAL_HANDFLOW {
-  ULONG ControlHandShake;
-  ULONG FlowReplace;
-  LONG  XonLimit;
-  LONG  XoffLimit;
-} SERIAL_HANDFLOW, *PSERIAL_HANDFLOW;
-````
-
-
 ## -struct-fields
 
 
@@ -133,7 +120,7 @@ A bitmask that specifies flow control behavior. This member is set to zero or to
 </tr>
 <tr>
 <td>SERIAL_ERROR_CHAR</td>
-<td>Insert the error character into the received data when an error occurs. For more information, see the description of the <b>ErrorChar</b> member in <a href="..\ntddser\ns-ntddser-_serial_chars.md">SERIAL_CHARS</a>.</td>
+<td>Insert the error character into the received data when an error occurs. For more information, see the description of the <b>ErrorChar</b> member in <a href="https://msdn.microsoft.com/library/windows/hardware/jj673020">SERIAL_CHARS</a>.</td>
 </tr>
 <tr>
 <td>SERIAL_NULL_STRIPPING</td>
@@ -141,7 +128,7 @@ A bitmask that specifies flow control behavior. This member is set to zero or to
 </tr>
 <tr>
 <td>SERIAL_BREAK_CHAR</td>
-<td>Insert the break character into the received data when a break occurs. For more information, see the description of the <b>BreakChar</b> member in <a href="..\ntddser\ns-ntddser-_serial_chars.md">SERIAL_CHARS</a>.</td>
+<td>Insert the break character into the received data when a break occurs. For more information, see the description of the <b>BreakChar</b> member in <a href="https://msdn.microsoft.com/library/windows/hardware/jj673020">SERIAL_CHARS</a>.</td>
 </tr>
 <tr>
 <td>SERIAL_RTS_CONTROL</td>
@@ -178,7 +165,7 @@ XOFF limit. When the number of characters in the internal receive buffer reaches
 
 
 
-This structure is used by the <a href="..\ntddser\ni-ntddser-ioctl_serial_get_handflow.md">IOCTL_SERIAL_GET_HANDFLOW</a> and <a href="..\ntddser\ni-ntddser-ioctl_serial_set_handflow.md">IOCTL_SERIAL_SET_HANDFLOW</a> requests.
+This structure is used by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff546574">IOCTL_SERIAL_GET_HANDFLOW</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff546736">IOCTL_SERIAL_SET_HANDFLOW</a> requests.
 
 After sending an XOFF (transmit off) character, the serial port stops transmitting immediately, without sending any more characters. This behavior supports serial ports that interpret any character that follows an XOFF as an implied XON (transmit on).
 
@@ -189,17 +176,15 @@ SerCx2 and SerCx support only subsets of the flags that are defined for the <b>C
 
 ## -see-also
 
-<a href="..\ntddser\ni-ntddser-ioctl_serial_set_handflow.md">IOCTL_SERIAL_SET_HANDFLOW</a>
 
 
 
-<a href="..\ntddser\ni-ntddser-ioctl_serial_get_handflow.md">IOCTL_SERIAL_GET_HANDFLOW</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546574">IOCTL_SERIAL_GET_HANDFLOW</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546736">IOCTL_SERIAL_SET_HANDFLOW</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [serports\serports]:%20SERIAL_HANDFLOW structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

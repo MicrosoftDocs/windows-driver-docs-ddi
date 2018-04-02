@@ -7,7 +7,7 @@ old-location: display\videoprocessorinputviewreadafterwritehazard.htm
 old-project: display
 ms.assetid: 320cfd00-656a-47ce-912e-7196986deaae
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3D11_1DDI_VIDEOPROCESSORINPUTVIEWREADAFTERWRITEHAZARD, VideoProcessorInputViewReadAfterWriteHazard, VideoProcessorInputViewReadAfterWriteHazard callback function [Display Devices], d3d10umddi/VideoProcessorInputViewReadAfterWriteHazard, display.videoprocessorinputviewreadafterwritehazard
 ms.prod: windows-hardware
 ms.technology: windows-devices

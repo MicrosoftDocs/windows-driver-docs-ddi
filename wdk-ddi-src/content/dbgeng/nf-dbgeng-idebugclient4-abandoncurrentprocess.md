@@ -7,7 +7,7 @@ old-location: debugger\abandoncurrentprocess.htm
 old-project: debugger
 ms.assetid: a6abbdb8-8d19-4ae0-8272-8faa87b8e409
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: AbandonCurrentProcess method [Windows Debugging], AbandonCurrentProcess method [Windows Debugging], IDebugClient2 interface, AbandonCurrentProcess method [Windows Debugging], IDebugClient3 interface, AbandonCurrentProcess method [Windows Debugging], IDebugClient4 interface, AbandonCurrentProcess method [Windows Debugging], IDebugClient5 interface, AbandonCurrentProcess,IDebugClient4.AbandonCurrentProcess, IDebugClient2 interface [Windows Debugging], AbandonCurrentProcess method, IDebugClient2::AbandonCurrentProcess, IDebugClient3 interface [Windows Debugging], AbandonCurrentProcess method, IDebugClient3::AbandonCurrentProcess, IDebugClient4, IDebugClient4 interface [Windows Debugging], AbandonCurrentProcess method, IDebugClient4::AbandonCurrentProcess, IDebugClient5 interface [Windows Debugging], AbandonCurrentProcess method, IDebugClient5::AbandonCurrentProcess, IDebugClient_2a3f34d6-591b-4cae-bc28-2da5f05a9548.xml, dbgeng/IDebugClient2::AbandonCurrentProcess, dbgeng/IDebugClient3::AbandonCurrentProcess, dbgeng/IDebugClient4::AbandonCurrentProcess, dbgeng/IDebugClient5::AbandonCurrentProcess, debugger.abandoncurrentprocess
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -143,8 +143,3 @@ Windows will continue to consider this process as being debugged, and so the pro
 
  
 
-<<<<<<< HEAD
-=======
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugClient2::AbandonCurrentProcess method%20 RELEASE:%20(2/27/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
-
->>>>>>> parent of 2d896a8e266... Added changes

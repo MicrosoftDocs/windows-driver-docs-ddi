@@ -7,7 +7,7 @@ old-location: dtf\iwdtfactions2_clear.htm
 old-project: dtf
 ms.assetid: f594e1f0-0e7f-4644-a97e-1fce58aa7c71
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 3/29/2018
 ms.keywords: Clear method [Windows Device Testing Framework], Clear method [Windows Device Testing Framework], IWDTFActions2 interface, Clear,IWDTFActions2.Clear, IWDTFActions2, IWDTFActions2 interface [Windows Device Testing Framework], Clear method, IWDTFActions2::Clear, dtf.iwdtfactions2_clear, wdtf/IWDTFActions2::Clear
 ms.prod: windows-hardware
 ms.technology: windows-devices

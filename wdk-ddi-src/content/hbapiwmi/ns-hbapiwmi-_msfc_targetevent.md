@@ -7,7 +7,7 @@ old-location: storage\msfc_targetevent.htm
 old-project: storage
 ms.assetid: e34e505c-74b1-45e4-9d9f-ba7cae111156
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PMSFC_TargetEvent, MSFC_TargetEvent, MSFC_TargetEvent structure [Storage Devices], PMSFC_TargetEvent, PMSFC_TargetEvent structure pointer [Storage Devices], _MSFC_TargetEvent, hbapiwmi/MSFC_TargetEvent, hbapiwmi/PMSFC_TargetEvent, storage.msfc_targetevent, structs-Fibre_3f8b9bd0-29b2-43f3-85ae-47324d168956.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices

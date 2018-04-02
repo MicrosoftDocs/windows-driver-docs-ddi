@@ -7,7 +7,7 @@ old-location: display\d3d10ddiarg_createshaderresourceview.htm
 old-project: display
 ms.assetid: 60f0019b-ba02-433d-b5a2-f92a43f4d5a8
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3D10DDIARG_CREATESHADERRESOURCEVIEW, D3D10DDIARG_CREATESHADERRESOURCEVIEW structure [Display Devices], UMDisplayDriver_Dx10param_Structs_5307f7f2-0e25-4847-b1d4-5300c27320b7.xml, d3d10umddi/D3D10DDIARG_CREATESHADERRESOURCEVIEW, display.d3d10ddiarg_createshaderresourceview
 ms.prod: windows-hardware
 ms.technology: windows-devices

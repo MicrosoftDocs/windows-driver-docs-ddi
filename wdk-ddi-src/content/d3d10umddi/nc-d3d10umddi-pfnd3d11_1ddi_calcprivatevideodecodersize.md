@@ -7,7 +7,7 @@ old-location: display\calcprivatevideodecodersize.htm
 old-project: display
 ms.assetid: a878cba1-589e-4932-9d2b-1abab417660f
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: CalcPrivateVideoDecoderSize, CalcPrivateVideoDecoderSize callback function [Display Devices], FND3D11_1DDI_CALCPRIVATEVIDEODECODERSIZE, d3d10umddi/CalcPrivateVideoDecoderSize, display.calcprivatevideodecodersize
 ms.prod: windows-hardware
 ms.technology: windows-devices

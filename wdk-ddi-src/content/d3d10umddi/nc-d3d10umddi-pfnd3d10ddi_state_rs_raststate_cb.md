@@ -7,7 +7,7 @@ old-location: display\pfnstatersraststatecb.htm
 old-project: display
 ms.assetid: 2ce213a6-8075-4ad9-9f58-204c2f7fd8d9
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3D10DDI_STATE_RS_RASTSTATE_CB, d3d10state_functions_4b9543a0-e36e-4540-bccd-9d7beceaba60.xml, d3d10umddi/pfnStateRsRastStateCb, display.pfnstatersraststatecb, pfnStateRsRastStateCb, pfnStateRsRastStateCb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices

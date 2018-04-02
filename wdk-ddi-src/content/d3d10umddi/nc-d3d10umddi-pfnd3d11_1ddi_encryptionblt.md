@@ -7,7 +7,7 @@ old-location: display\encryptionblt1.htm
 old-project: display
 ms.assetid: ea6f1b8c-d65a-4d6d-a7ae-998374bf5bfb
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: EncryptionBlt, EncryptionBlt callback function [Display Devices], PFND3D11_1DDI_ENCRYPTIONBLT, d3d10umddi/EncryptionBlt, display.encryptionblt1, display.pfnencryptionblt1
 ms.prod: windows-hardware
 ms.technology: windows-devices

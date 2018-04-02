@@ -7,7 +7,7 @@ old-location: ifsk\query_file_layout_output.htm
 old-project: ifsk
 ms.assetid: 204893BE-8B89-4BE4-BEDB-BF28DBAAACE9
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: "*PQUERY_FILE_LAYOUT_OUTPUT, PQUERY_FILE_LAYOUT_OUTPUT, PQUERY_FILE_LAYOUT_OUTPUT structure pointer [Installable File System Drivers], QUERY_FILE_LAYOUT_OUTPUT, QUERY_FILE_LAYOUT_OUTPUT structure [Installable File System Drivers], QUERY_FILE_LAYOUT_SINGLE_INSTANCED, _QUERY_FILE_LAYOUT_OUTPUT, ifsk.query_file_layout_output, ntifs/PQUERY_FILE_LAYOUT_OUTPUT, ntifs/QUERY_FILE_LAYOUT_OUTPUT"
 ms.prod: windows-hardware
 ms.technology: windows-devices

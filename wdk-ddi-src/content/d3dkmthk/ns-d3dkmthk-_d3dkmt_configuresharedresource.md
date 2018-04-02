@@ -7,7 +7,7 @@ old-location: display\d3dkmt_configuresharedresource.htm
 old-project: display
 ms.assetid: ba190f01-428a-4574-8032-c800ce19ba3e
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMT_CONFIGURESHAREDRESOURCE, D3DKMT_CONFIGURESHAREDRESOURCE structure [Display Devices], OpenGL_Structs_ae687fae-f425-4a9b-8426-ee3cc02c8170.xml, _D3DKMT_CONFIGURESHAREDRESOURCE, d3dkmthk/D3DKMT_CONFIGURESHAREDRESOURCE, display.d3dkmt_configuresharedresource
 ms.prod: windows-hardware
 ms.technology: windows-devices

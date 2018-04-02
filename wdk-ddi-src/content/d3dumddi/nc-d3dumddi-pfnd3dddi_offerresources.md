@@ -7,7 +7,7 @@ old-location: display\offerresources.htm
 old-project: display
 ms.assetid: 68551AD7-AC0C-4138-948F-33773F02DA41
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: OfferResources, OfferResources callback function [Display Devices], PFND3DDDI_OFFERRESOURCES, d3dumddi/OfferResources, display.offerresources
 ms.prod: windows-hardware
 ms.technology: windows-devices

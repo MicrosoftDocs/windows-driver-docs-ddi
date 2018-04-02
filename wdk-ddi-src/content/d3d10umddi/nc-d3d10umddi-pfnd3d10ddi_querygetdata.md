@@ -7,7 +7,7 @@ old-location: display\querygetdata.htm
 old-project: display
 ms.assetid: 78ee9813-e23e-4d46-acc4-f2fa88559b03
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3D10DDI_QUERYGETDATA, QueryGetData, QueryGetData callback function [Display Devices], UserModeDisplayDriverDx10_Functions_c1a88bca-7df5-4640-9134-fc893e5c8a0d.xml, d3d10umddi/QueryGetData, display.querygetdata
 ms.prod: windows-hardware
 ms.technology: windows-devices

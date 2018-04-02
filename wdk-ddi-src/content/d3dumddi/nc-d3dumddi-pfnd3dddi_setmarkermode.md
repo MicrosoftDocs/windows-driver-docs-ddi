@@ -7,7 +7,7 @@ old-location: display\pfnsetmarkermode.htm
 old-project: display
 ms.assetid: D45750D9-F722-4208-8D00-E14FD9C009CB
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3DDDI_SETMARKERMODE, d3dumddi/pfnSetMarkerMode, display.pfnsetmarkermode, pfnSetMarkerMode, pfnSetMarkerMode callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices

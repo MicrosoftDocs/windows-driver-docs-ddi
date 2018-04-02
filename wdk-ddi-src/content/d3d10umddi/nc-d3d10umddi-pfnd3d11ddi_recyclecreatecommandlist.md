@@ -7,7 +7,7 @@ old-location: display\recyclecreatecommandlist.htm
 old-project: display
 ms.assetid: c387545e-2891-401d-b7ca-ee7549a52603
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3D11DDI_RECYCLECREATECOMMANDLIST, RecycleCreateCommandList, RecycleCreateCommandList callback function [Display Devices], UserModeDisplayDriverDx11_Functions_ae724488-211a-4590-abcc-f2c8f954531e.xml, d3d10umddi/RecycleCreateCommandList, display.recyclecreatecommandlist
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: ifsk\rxacquiresharedfcbresourceinmrxex.htm
 old-project: ifsk
 ms.assetid: bf8390db-7e42-4860-8cf6-df3459f16cea
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: RxAcquireSharedFcbResourceInMRxEx, RxAcquireSharedFcbResourceInMRxEx routine [Installable File System Drivers], ifsk.rxacquiresharedfcbresourceinmrxex, mrxfcb/RxAcquireSharedFcbResourceInMRxEx, rxref_2b8fc5d6-96e5-45a0-897a-f55964e6cc8a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

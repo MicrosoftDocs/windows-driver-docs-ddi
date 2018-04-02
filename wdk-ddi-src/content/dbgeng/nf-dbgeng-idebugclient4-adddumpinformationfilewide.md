@@ -7,7 +7,7 @@ old-location: debugger\adddumpinformationfilewide.htm
 old-project: debugger
 ms.assetid: 0b6318de-4f8e-43e8-ad86-c1fc52097662
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: AddDumpInformationFileWide method [Windows Debugging], AddDumpInformationFileWide method [Windows Debugging], IDebugClient4 interface, AddDumpInformationFileWide method [Windows Debugging], IDebugClient5 interface, AddDumpInformationFileWide,IDebugClient4.AddDumpInformationFileWide, IDebugClient4, IDebugClient4 interface [Windows Debugging], AddDumpInformationFileWide method, IDebugClient4::AddDumpInformationFileWide, IDebugClient5 interface [Windows Debugging], AddDumpInformationFileWide method, IDebugClient5::AddDumpInformationFileWide, IDebugClient_515044fe-647d-447a-bb74-5738d4d08d6d.xml, dbgeng/IDebugClient4::AddDumpInformationFileWide, dbgeng/IDebugClient5::AddDumpInformationFileWide, debugger.adddumpinformationfilewide
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -146,8 +146,3 @@ For more information about crash dump files, see <a href="https://msdn.microsoft
 
  
 
-<<<<<<< HEAD
-=======
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugClient4::AddDumpInformationFileWide method%20 RELEASE:%20(2/27/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
-
->>>>>>> parent of 2d896a8e266... Added changes

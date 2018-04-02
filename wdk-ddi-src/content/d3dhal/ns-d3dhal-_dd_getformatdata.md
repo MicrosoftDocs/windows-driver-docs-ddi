@@ -7,7 +7,7 @@ old-location: display\dd_getformatdata.htm
 old-project: display
 ms.assetid: 881a52d1-8e37-4474-a943-086ef5ceca80
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DD_GETFORMATDATA, DD_GETFORMATDATA structure [Display Devices], _DD_GETFORMATDATA, d3dhal/DD_GETFORMATDATA, d3dstrct_cfa9e4e0-86d8-4b38-9c50-8661012c34e8.xml, display.dd_getformatdata
 ms.prod: windows-hardware
 ms.technology: windows-devices

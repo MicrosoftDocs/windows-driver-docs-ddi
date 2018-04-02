@@ -7,7 +7,7 @@ old-location: display\setstreamsourcefreq.htm
 old-project: display
 ms.assetid: 92cb270c-1548-4239-81cd-5b3483769fc8
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3DDDI_SETSTREAMSOURCEFREQ, SetStreamSourceFreq, SetStreamSourceFreq callback function [Display Devices], UserModeDisplayDriver_Functions_4cb72b36-4cea-424f-b7a3-149435170f24.xml, d3dumddi/SetStreamSourceFreq, display.setstreamsourcefreq
 ms.prod: windows-hardware
 ms.technology: windows-devices

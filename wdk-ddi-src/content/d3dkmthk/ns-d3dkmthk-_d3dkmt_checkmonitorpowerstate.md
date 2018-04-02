@@ -7,7 +7,7 @@ old-location: display\d3dkmt_checkmonitorpowerstate.htm
 old-project: display
 ms.assetid: aa7cee9a-5051-4ebc-be7c-ac9ac91ba631
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMT_CHECKMONITORPOWERSTATE, D3DKMT_CHECKMONITORPOWERSTATE structure [Display Devices], OpenGL_Structs_2c4ec2cb-c35a-4447-8e35-dc8e4964e8b2.xml, _D3DKMT_CHECKMONITORPOWERSTATE, d3dkmthk/D3DKMT_CHECKMONITORPOWERSTATE, display.d3dkmt_checkmonitorpowerstate
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: display\videoportzeromemory.htm
 old-project: display
 ms.assetid: 96827d2e-0fee-4276-a758-82f5b7383eec
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: VideoPortZeroMemory, VideoPortZeroMemory function [Display Devices], VideoPort_Functions_518c5fa4-2011-47bd-a24c-0dff144dfa3a.xml, display.videoportzeromemory, video/VideoPortZeroMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices

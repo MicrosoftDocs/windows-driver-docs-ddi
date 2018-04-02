@@ -7,7 +7,7 @@ old-location: buses\evt_ufx_device_test_mode_set.htm
 old-project: usbref
 ms.assetid: 24B17B8E-C2F0-4CA8-AA9D-5EE86EB20CCC
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: EVT_UFX_DEVICE_TEST_MODE_SET, EvtUfxDeviceTestModeSet, EvtUfxDeviceTestModeSet callback function [Buses], PFN_UFX_DEVICE_TEST_MODE_SET, PFN_UFX_DEVICE_TEST_MODE_SET callback function pointer [Buses], buses.evt_ufx_device_test_mode_set, ufxclient/EvtUfxDeviceTestModeSet
 ms.prod: windows-hardware
 ms.technology: windows-devices

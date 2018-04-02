@@ -7,7 +7,7 @@ old-location: ifsk\fltcheckandgrownamecontrol.htm
 old-project: ifsk
 ms.assetid: 0a49e69e-6b6b-4f86-bd41-d1ad73e63a17
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FltApiRef_a_to_d_5ab0b3b3-adeb-4752-9cb5-1d7521b84607.xml, FltCheckAndGrowNameControl, FltCheckAndGrowNameControl routine [Installable File System Drivers], fltkernel/FltCheckAndGrowNameControl, ifsk.fltcheckandgrownamecontrol
 ms.prod: windows-hardware
 ms.technology: windows-devices

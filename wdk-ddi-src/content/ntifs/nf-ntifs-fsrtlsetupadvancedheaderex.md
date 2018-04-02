@@ -7,7 +7,7 @@ old-location: ifsk\fsrtlsetupadvancedheaderex.htm
 old-project: ifsk
 ms.assetid: 41e5d9f2-ac0b-4834-bca8-88ed872f2f70
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FsRtlSetupAdvancedHeaderEx, FsRtlSetupAdvancedHeaderEx function [Installable File System Drivers], fsrtlref_9214990b-2568-43d9-801a-c43514a6448f.xml, ifsk.fsrtlsetupadvancedheaderex, ntifs/FsRtlSetupAdvancedHeaderEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

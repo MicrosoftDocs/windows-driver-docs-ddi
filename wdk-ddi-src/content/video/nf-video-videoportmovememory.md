@@ -7,7 +7,7 @@ old-location: display\videoportmovememory.htm
 old-project: display
 ms.assetid: 32b754ef-2a85-4ba7-9d4f-3c2de2501319
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: VideoPortMoveMemory, VideoPortMoveMemory function [Display Devices], VideoPort_Functions_ab574585-85be-48ea-9713-25867812699a.xml, display.videoportmovememory, video/VideoPortMoveMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices

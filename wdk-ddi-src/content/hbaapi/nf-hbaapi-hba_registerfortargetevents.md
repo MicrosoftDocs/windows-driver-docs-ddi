@@ -7,7 +7,7 @@ old-location: storage\hba_registerfortargetevents.htm
 old-project: storage
 ms.assetid: a06f6757-e125-4f80-9594-a60fa1fef6e4
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: HBA_RegisterForTargetEvents, HBA_RegisterForTargetEvents routine [Storage Devices], fibreHBA_rtns_511fff45-f98b-4dbe-a74c-d577497f4e8c.xml, hbaapi/HBA_RegisterForTargetEvents, storage.hba_registerfortargetevents
 ms.prod: windows-hardware
 ms.technology: windows-devices

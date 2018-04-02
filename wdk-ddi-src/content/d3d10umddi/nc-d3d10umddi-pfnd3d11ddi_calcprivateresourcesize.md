@@ -7,7 +7,7 @@ old-location: display\calcprivateresourcesize_d3d11_.htm
 old-project: display
 ms.assetid: 3b3a2571-012e-4acd-b836-f52e7b88a2fb
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: CalcPrivateResourceSize, CalcPrivateResourceSize callback function [Display Devices], PFND3D11DDI_CALCPRIVATERESOURCESIZE, UserModeDisplayDriverDx11_Functions_85fd70d1-91ec-4b9d-b379-18b5d3d43e67.xml, d3d10umddi/CalcPrivateResourceSize, display.calcprivateresourcesize_d3d11_
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: buses\evt_ucx_controller_set_transport_characteristics_change_noti
 old-project: usbref
 ms.assetid: 559D2215-B78C-41EA-9E2C-6E67AE5276BE
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PFN_UCX_CONTROLLER_SET_TRANSPORT_CHARACTERISTICS_CHANGE_NOTIFICATION, *PFN_UCX_CONTROLLER_SET_TRANSPORT_CHARACTERISTICS_CHANGE_NOTIFICATION callback function pointer [Buses], EVT_UCX_CONTROLLER_SET_TRANSPORT_CHARACTERISTICS_CHANGE_NOTIFICATION, EvUcxControllerSetTransportCharacteristicsChangeNotification, EvUcxControllerSetTransportCharacteristicsChangeNotification callback function [Buses], buses.evt_ucx_controller_set_transport_characteristics_change_notification, ucxcontroller/EvUcxControllerSetTransportCharacteristicsChangeNotification"
 ms.prod: windows-hardware
 ms.technology: windows-devices

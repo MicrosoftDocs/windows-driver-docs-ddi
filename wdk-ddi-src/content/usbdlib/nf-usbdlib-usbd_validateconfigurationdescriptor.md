@@ -7,7 +7,7 @@ old-location: buses\usbd_validateconfigurationdescriptor.htm
 old-project: usbref
 ms.assetid: 2fbe08ca-a9eb-4e3b-aa28-1ff34ad22a46
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: USBD_ValidateConfigurationDescriptor, USBD_ValidateConfigurationDescriptor routine [Buses], buses.usbd_validateconfigurationdescriptor, usbdlib/USBD_ValidateConfigurationDescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices

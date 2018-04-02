@@ -7,7 +7,7 @@ old-location: display\dxva_videosample32.htm
 old-project: display
 ms.assetid: 78609b64-38fa-4431-bc74-8a83fe687a45
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXVA_VideoSample32, DXVA_VideoSample32 structure [Display Devices], _DXVA_VideoSample32, display.dxva_videosample32, dxva/DXVA_VideoSample32, dxvaref_3e581191-6878-4daa-87e6-62188fa4708e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

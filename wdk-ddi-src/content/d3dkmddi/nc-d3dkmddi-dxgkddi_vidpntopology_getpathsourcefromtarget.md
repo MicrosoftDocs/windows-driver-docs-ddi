@@ -7,7 +7,7 @@ old-location: display\dxgk_vidpntopology_interface_pfngetpathsourcefromtarget.ht
 old-project: display
 ms.assetid: c3e7b025-2382-4a81-8d78-9333b62b556a
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKDDI_VIDPNTOPOLOGY_GETPATHSOURCEFROMTARGET, VidPnFunctions_a6324165-7203-455f-8b96-40cf1a0dfb14.xml, d3dkmddi/pfnGetPathSourceFromTarget, display.dxgk_vidpntopology_interface_pfngetpathsourcefromtarget, pfnGetPathSourceFromTarget, pfnGetPathSourceFromTarget callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices

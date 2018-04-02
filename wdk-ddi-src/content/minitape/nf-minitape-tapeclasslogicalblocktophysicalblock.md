@@ -7,7 +7,7 @@ old-location: storage\tapeclasslogicalblocktophysicalblock.htm
 old-project: storage
 ms.assetid: 4ad11a15-ba72-4921-a00a-6d3bfb443b51
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: TapeClassLogicalBlockToPhysicalBlock, TapeClassLogicalBlockToPhysicalBlock routine [Storage Devices], minitape/TapeClassLogicalBlockToPhysicalBlock, storage.tapeclasslogicalblocktophysicalblock, tapeclas_6d45358d-68a6-4f00-991e-714a489fd78d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

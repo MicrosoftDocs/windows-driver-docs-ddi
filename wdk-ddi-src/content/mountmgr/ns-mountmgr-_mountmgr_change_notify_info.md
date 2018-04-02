@@ -7,7 +7,7 @@ old-location: storage\mountmgr_change_notify_info.htm
 old-project: storage
 ms.assetid: 3b1bb2be-2abb-414a-bf68-9d06e53c2808
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PMOUNTMGR_CHANGE_NOTIFY_INFO, MOUNTMGR_CHANGE_NOTIFY_INFO, MOUNTMGR_CHANGE_NOTIFY_INFO structure [Storage Devices], PMOUNTMGR_CHANGE_NOTIFY_INFO, PMOUNTMGR_CHANGE_NOTIFY_INFO structure pointer [Storage Devices], _MOUNTMGR_CHANGE_NOTIFY_INFO, mountmgr/MOUNTMGR_CHANGE_NOTIFY_INFO, mountmgr/PMOUNTMGR_CHANGE_NOTIFY_INFO, storage.mountmgr_change_notify_info, structs-mntmgr_4d6cf8d3-c3cd-4ff5-8ff0-7fac5946d6a5.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices

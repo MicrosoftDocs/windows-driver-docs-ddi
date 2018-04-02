@@ -7,7 +7,7 @@ old-location: storage\hba_setpersistentbindingv2.htm
 old-project: storage
 ms.assetid: b0b32954-62d1-4434-892f-67106b0f8ef7
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: HBA_SetPersistentBindingV2, HBA_SetPersistentBindingV2 routine [Storage Devices], fibreHBA_rtns_b081179f-690d-4646-ae40-1737c5933394.xml, hbaapi/HBA_SetPersistentBindingV2, storage.hba_setpersistentbindingv2
 ms.prod: windows-hardware
 ms.technology: windows-devices

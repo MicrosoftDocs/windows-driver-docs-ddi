@@ -7,7 +7,7 @@ old-location: display\ioctl_video_query_avail_modes.htm
 old-project: display
 ms.assetid: 926ec9d5-090c-490d-a0ea-90cc515bdec7
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_VIDEO_QUERY_AVAIL_MODES, IOCTL_VIDEO_QUERY_AVAIL_MODES control code [Display Devices], Video_IOCTLs_a846ef88-234e-4867-a3fe-4d8c9b43e00e.xml, display.ioctl_video_query_avail_modes, ntddvdeo/IOCTL_VIDEO_QUERY_AVAIL_MODES
 ms.prod: windows-hardware
 ms.technology: windows-devices

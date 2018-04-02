@@ -7,7 +7,7 @@ old-location: display\pfnsetprioritycb.htm
 old-project: display
 ms.assetid: 1812cb0f-9232-4813-9c7b-74c9fa4d03cf
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3Druntime_Functions_4bd6f90d-e958-43cc-8267-36d4d0448096.xml, PFND3DDDI_SETPRIORITYCB, d3dumddi/pfnSetPriorityCb, display.pfnsetprioritycb, pfnSetPriorityCb, pfnSetPriorityCb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices

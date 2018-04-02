@@ -7,7 +7,7 @@ old-location: ifsk\rxmapanddissociatemidfromcontext.htm
 old-project: ifsk
 ms.assetid: e9021983-8a01-4262-ae3f-c265948d5a2c
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: RxMapAndDissociateMidFromContext, RxMapAndDissociateMidFromContext function [Installable File System Drivers], ifsk.rxmapanddissociatemidfromcontext, midatlax/RxMapAndDissociateMidFromContext, rxref_919dabed-ac8c-4495-8709-8fb45280e16f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

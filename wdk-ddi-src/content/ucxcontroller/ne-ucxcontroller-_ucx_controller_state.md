@@ -7,7 +7,7 @@ old-location: buses\ucx_controller_state.htm
 old-project: usbref
 ms.assetid: 717BE2D2-2CF3-4A8C-B7DC-41E45C56B02B
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: UCX_CONTROLLER_STATE, UCX_CONTROLLER_STATE enumeration [Buses], UcxControllerStateLost, UcxControllerStatePreserved, _UCX_CONTROLLER_STATE, buses.ucx_controller_state, ucxcontroller/UCX_CONTROLLER_STATE, ucxcontroller/UcxControllerStateLost, ucxcontroller/UcxControllerStatePreserved
 ms.prod: windows-hardware
 ms.technology: windows-devices

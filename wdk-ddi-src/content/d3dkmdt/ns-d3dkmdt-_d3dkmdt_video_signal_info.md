@@ -7,7 +7,7 @@ old-location: display\d3dkmdt_video_signal_info.htm
 old-project: display
 ms.assetid: 38d0a655-265b-46e0-8af3-de6757025588
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMDT_VIDEO_SIGNAL_INFO, D3DKMDT_VIDEO_SIGNAL_INFO structure [Display Devices], DmStructs_10882170-8ccd-481d-bb36-b0a1f706e395.xml, _D3DKMDT_VIDEO_SIGNAL_INFO, d3dkmdt/D3DKMDT_VIDEO_SIGNAL_INFO, display.d3dkmdt_video_signal_info
 ms.prod: windows-hardware
 ms.technology: windows-devices

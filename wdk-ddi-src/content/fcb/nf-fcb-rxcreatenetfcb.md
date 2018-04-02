@@ -7,7 +7,7 @@ old-location: ifsk\rxcreatenetfcb.htm
 old-project: ifsk
 ms.assetid: 8be20f25-d72d-4c4d-be05-abb38cdd492d
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: RxCreateNetFcb, RxCreateNetFcb function [Installable File System Drivers], fcb/RxCreateNetFcb, ifsk.rxcreatenetfcb, rxref_d5f0cde4-daba-475d-9a63-b56047cc24e2.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: storage\hba_refreshinformation.htm
 old-project: storage
 ms.assetid: 7fd03702-154b-47d4-96cb-6ad9683124ca
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: HBA_RefreshInformation, HBA_RefreshInformation routine [Storage Devices], fibreHBA_rtns_3c486993-5307-42c2-924c-743f635447e8.xml, hbaapi/HBA_RefreshInformation, storage.hba_refreshinformation
 ms.prod: windows-hardware
 ms.technology: windows-devices

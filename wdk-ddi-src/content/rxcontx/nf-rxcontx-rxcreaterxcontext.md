@@ -7,7 +7,7 @@ old-location: ifsk\rxcreaterxcontext.htm
 old-project: ifsk
 ms.assetid: ff39aebb-03c0-4ba4-844a-417579ed2bbf
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: RxCreateRxContext, RxCreateRxContext function [Installable File System Drivers], ifsk.rxcreaterxcontext, rxcontx/RxCreateRxContext, rxref_ceb498ca-e985-4100-a104-8333abb41fdf.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

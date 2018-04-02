@@ -7,7 +7,7 @@ old-location: storage\mpio_controller_configuration.htm
 old-project: storage
 ms.assetid: af608197-fa2b-474f-aa87-eb933a57b8cc
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PMPIO_CONTROLLER_CONFIGURATION, MPIO_CONTROLLER_CONFIGURATION, MPIO_CONTROLLER_CONFIGURATION structure [Storage Devices], PMPIO_CONTROLLER_CONFIGURATION, PMPIO_CONTROLLER_CONFIGURATION structure pointer [Storage Devices], _MPIO_CONTROLLER_CONFIGURATION, mpiowmi/MPIO_CONTROLLER_CONFIGURATION, mpiowmi/PMPIO_CONTROLLER_CONFIGURATION, storage.mpio_controller_configuration, structs-scsibus_1859c081-42ae-47f9-a4fb-a55db52b6752.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices

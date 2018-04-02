@@ -95,10 +95,6 @@ A lock (<a href="https://msdn.microsoft.com/library/windows/hardware/hh450858">I
 
 ## -see-also
 
-<<<<<<< HEAD
-=======
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406223">SPB_TRANSFER_LIST_ENTRY</a>
->>>>>>> parent of 2d896a8e266... Added changes
 
 
 
@@ -106,23 +102,11 @@ A lock (<a href="https://msdn.microsoft.com/library/windows/hardware/hh450858">I
 
 
 
-<<<<<<< HEAD
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh450857">IOCTL_SPB_EXECUTE_SEQUENCE</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh450858">IOCTL_SPB_LOCK_CONTROLLER</a>
-=======
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549327">IRP_MJ_READ</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450922">SpbRequestGetParameters</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550819">IRP_MJ_WRITE</a>
->>>>>>> parent of 2d896a8e266... Added changes
 
 
 
@@ -130,7 +114,6 @@ A lock (<a href="https://msdn.microsoft.com/library/windows/hardware/hh450858">I
 
 
 
-<<<<<<< HEAD
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549327">IRP_MJ_READ</a>
 
 
@@ -144,17 +127,6 @@ A lock (<a href="https://msdn.microsoft.com/library/windows/hardware/hh450858">I
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh406223">SPB_TRANSFER_LIST_ENTRY</a>
-=======
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450857">IOCTL_SPB_EXECUTE_SEQUENCE</a>
-
-
-
-<a href="https://msdn.microsoft.com/5A4BC061-4703-4C46-BD5D-A891F3DA8842">EvtSpbControllerIoOther</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450858">IOCTL_SPB_LOCK_CONTROLLER</a>
->>>>>>> parent of 2d896a8e266... Added changes
 
 
 

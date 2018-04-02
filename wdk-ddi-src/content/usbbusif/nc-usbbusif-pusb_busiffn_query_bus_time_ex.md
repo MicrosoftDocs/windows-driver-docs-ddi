@@ -7,7 +7,7 @@ old-location: buses\querybustimeex.htm
 old-project: usbref
 ms.assetid: 8a9718eb-59f3-441a-b482-c2a376a48ac1
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: PUSB_BUSIFFN_QUERY_BUS_TIME_EX, QueryBusTimeEx, QueryBusTimeEx callback function [Buses], USB_BUSIFFN_QUERY_BUS_TIME_EX, buses.querybustimeex, usbbusif/QueryBusTimeEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

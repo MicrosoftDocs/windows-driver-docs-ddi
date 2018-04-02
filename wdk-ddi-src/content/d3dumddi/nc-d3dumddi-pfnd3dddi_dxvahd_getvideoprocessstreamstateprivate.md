@@ -7,7 +7,7 @@ old-location: display\getvideoprocessstreamstateprivate.htm
 old-project: display
 ms.assetid: 0503b382-8ed3-461e-906f-27953ac5f757
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: GetVideoProcessStreamStatePrivate, GetVideoProcessStreamStatePrivate callback function [Display Devices], PFND3DDDI_DXVAHD_GETVIDEOPROCESSSTREAMSTATEPRIVATE, UserModeDisplayDriver_Functions_1016a4a3-3988-40ef-9ef9-f62a20651aaa.xml, d3dumddi/GetVideoProcessStreamStatePrivate, display.getvideoprocessstreamstateprivate
 ms.prod: windows-hardware
 ms.technology: windows-devices

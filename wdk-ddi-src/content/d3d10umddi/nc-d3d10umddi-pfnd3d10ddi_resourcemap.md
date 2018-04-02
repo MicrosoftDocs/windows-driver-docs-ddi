@@ -7,7 +7,7 @@ old-location: display\resourcemap.htm
 old-project: display
 ms.assetid: 1310a3f8-02dd-4d35-98ad-4016e57d1eb2
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3D10DDI_RESOURCEMAP, ResourceMap, ResourceMap callback function [Display Devices], UserModeDisplayDriverDx10_Functions_2c1f2d21-4d2c-4e3f-993d-c6af5177e793.xml, d3d10umddi/ResourceMap, display.resourcemap
 ms.prod: windows-hardware
 ms.technology: windows-devices

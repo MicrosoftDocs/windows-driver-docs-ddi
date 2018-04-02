@@ -7,7 +7,7 @@ old-location: storage\feature_data_dvd_recordable_write.htm
 old-project: storage
 ms.assetid: 13a816f9-c41a-49f1-ac79-98106f4630d4
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PFEATURE_DATA_DVD_RECORDABLE_WRITE, FEATURE_DATA_DVD_RECORDABLE_WRITE, FEATURE_DATA_DVD_RECORDABLE_WRITE structure [Storage Devices], PFEATURE_DATA_DVD_RECORDABLE_WRITE, PFEATURE_DATA_DVD_RECORDABLE_WRITE structure pointer [Storage Devices], _FEATURE_DATA_DVD_RECORDABLE_WRITE, ntddmmc/FEATURE_DATA_DVD_RECORDABLE_WRITE, ntddmmc/PFEATURE_DATA_DVD_RECORDABLE_WRITE, storage.feature_data_dvd_recordable_write, structs-CD-ROM_c7d92388-964e-4db2-803a-1a7c10c45cc0.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices

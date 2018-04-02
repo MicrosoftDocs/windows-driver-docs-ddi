@@ -7,7 +7,7 @@ old-location: display\destroyauthenticatedchannel.htm
 old-project: display
 ms.assetid: ccea427b-e19e-433b-91b0-b40ce7c1da5a
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DestroyAuthenticatedChannel, DestroyAuthenticatedChannel callback function [Display Devices], PFND3DDDI_DESTROYAUTHENTICATEDCHANNEL, UserModeDisplayDriver_Functions_94df7fa0-966d-45e3-81b7-bae1f6ebac64.xml, d3dumddi/DestroyAuthenticatedChannel, display.destroyauthenticatedchannel
 ms.prod: windows-hardware
 ms.technology: windows-devices

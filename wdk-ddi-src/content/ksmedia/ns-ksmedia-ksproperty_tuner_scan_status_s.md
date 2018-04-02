@@ -112,10 +112,6 @@ The current locked-in frequency, in Hz, on the tuning device.
 
 ## -see-also
 
-<<<<<<< HEAD
-=======
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565893">KSPROPERTY_TUNER_SCAN_STATUS</a>
->>>>>>> parent of 2d896a8e266... Added changes
 
 
 

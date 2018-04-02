@@ -7,7 +7,7 @@ old-location: ifsk\fltgetnextextracreateparameter.htm
 old-project: ifsk
 ms.assetid: 8eae5ac8-9da5-475f-8fbb-5e118bad4e67
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FltApiRef_e_to_o_c458316b-2dd7-4ff2-a59f-a6dfbd659f47.xml, FltGetNextExtraCreateParameter, FltGetNextExtraCreateParameter routine [Installable File System Drivers], fltkernel/FltGetNextExtraCreateParameter, ifsk.fltgetnextextracreateparameter
 ms.prod: windows-hardware
 ms.technology: windows-devices

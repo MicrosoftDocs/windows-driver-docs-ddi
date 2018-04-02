@@ -7,7 +7,7 @@ old-location: ifsk\secreateclientsecurityfromsubjectcontext.htm
 old-project: ifsk
 ms.assetid: 3b3b12b8-05f7-40e6-909c-b99bf18cc299
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: SeCreateClientSecurityFromSubjectContext, SeCreateClientSecurityFromSubjectContext routine [Installable File System Drivers], ifsk.secreateclientsecurityfromsubjectcontext, ntifs/SeCreateClientSecurityFromSubjectContext, seref_fac27935-a941-48f6-a27b-7ca56bd1f9e2.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

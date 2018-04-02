@@ -7,7 +7,7 @@ old-location: buses\ioctl_internal_usb_reset_port.htm
 old-project: usbref
 ms.assetid: 0ba0abfe-a32d-4650-ad08-f40d0b14f9a5
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_INTERNAL_USB_RESET_PORT, IOCTL_INTERNAL_USB_RESET_PORT control code [Buses], buses.ioctl_internal_usb_reset_port, usbioctl/IOCTL_INTERNAL_USB_RESET_PORT, usbirp_d96d4c35-d399-444e-905b-c59360a01754.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

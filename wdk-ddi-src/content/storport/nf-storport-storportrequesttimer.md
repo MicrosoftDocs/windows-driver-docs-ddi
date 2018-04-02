@@ -7,7 +7,7 @@ old-location: storage\storportrequesttimer.htm
 old-project: storage
 ms.assetid: EE5A6D39-EC76-4D97-B2EC-4A43225C2FB5
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: StorPortRequestTimer, StorPortRequestTimer routine [Storage Devices], storage.storportrequesttimer, storport/StorPortRequestTimer
 ms.prod: windows-hardware
 ms.technology: windows-devices

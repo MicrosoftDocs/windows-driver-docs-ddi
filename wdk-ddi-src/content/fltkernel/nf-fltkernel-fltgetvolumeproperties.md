@@ -7,7 +7,7 @@ old-location: ifsk\fltgetvolumeproperties.htm
 old-project: ifsk
 ms.assetid: 1e975626-fa47-456f-a2a9-48506c67cbe5
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FltApiRef_e_to_o_3afcdc71-3007-478e-8699-a1480ca118b8.xml, FltGetVolumeProperties, FltGetVolumeProperties routine [Installable File System Drivers], fltkernel/FltGetVolumeProperties, ifsk.fltgetvolumeproperties
 ms.prod: windows-hardware
 ms.technology: windows-devices

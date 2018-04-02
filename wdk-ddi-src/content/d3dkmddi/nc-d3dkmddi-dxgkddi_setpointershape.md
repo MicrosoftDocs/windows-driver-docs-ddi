@@ -7,7 +7,7 @@ old-location: display\dxgkddisetpointershape.htm
 old-project: display
 ms.assetid: 36b462f7-5bad-4716-8138-af00d20e945b
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKDDI_SETPOINTERSHAPE, DmFunctions_39ac69a2-f8dc-4704-b5ab-d57d83685071.xml, DxgkDdiSetPointerShape, DxgkDdiSetPointerShape callback function [Display Devices], d3dkmddi/DxgkDdiSetPointerShape, display.dxgkddisetpointershape
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: dtf\iwdtftarget2_getvaluestrings.htm
 old-project: dtf
 ms.assetid: 2bc18baa-77e0-4ce1-85d9-55817333ecaa
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 3/29/2018
 ms.keywords: GetValueStrings method [Windows Device Testing Framework], GetValueStrings method [Windows Device Testing Framework], IWDTFTarget2 interface, GetValueStrings,IWDTFTarget2.GetValueStrings, IWDTFTarget2, IWDTFTarget2 interface [Windows Device Testing Framework], GetValueStrings method, IWDTFTarget2::GetValueStrings, Microsoft.WDTF.IWDTFTarget2.GetValueStrings, Microsoft::WDTF::IWDTFTarget2::GetValueStrings, dtf.iwdtftarget2_getvaluestrings, wdtf/IWDTFTarget2::GetValueStrings
 ms.prod: windows-hardware
 ms.technology: windows-devices

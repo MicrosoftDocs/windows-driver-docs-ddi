@@ -7,7 +7,7 @@ old-location: storage\cdrom_exclusive_lock.htm
 old-project: storage
 ms.assetid: 8c94cdb2-965a-448c-aa97-f7aae9550662
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PCDROM_EXCLUSIVE_LOCK, CDROM_EXCLUSIVE_LOCK, CDROM_EXCLUSIVE_LOCK structure [Storage Devices], PCDROM_EXCLUSIVE_LOCK, PCDROM_EXCLUSIVE_LOCK structure pointer [Storage Devices], _CDROM_EXCLUSIVE_LOCK, ntddcdrm/CDROM_EXCLUSIVE_LOCK, ntddcdrm/PCDROM_EXCLUSIVE_LOCK, storage.cdrom_exclusive_lock, structs-CD-ROM_98cdead9-8c28-497a-9ba3-f686e87554ea.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices

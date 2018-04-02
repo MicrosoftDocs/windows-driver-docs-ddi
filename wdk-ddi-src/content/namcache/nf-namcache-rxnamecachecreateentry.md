@@ -7,7 +7,7 @@ old-location: ifsk\rxnamecachecreateentry.htm
 old-project: ifsk
 ms.assetid: 1cfe2d2d-99fa-4dc2-b517-5026fd72d5d4
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: RxNameCacheCreateEntry, RxNameCacheCreateEntry function [Installable File System Drivers], ifsk.rxnamecachecreateentry, namcache/RxNameCacheCreateEntry, rxref_a1245999-8aba-4012-a143-609517c2686b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

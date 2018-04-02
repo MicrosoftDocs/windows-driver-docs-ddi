@@ -7,7 +7,7 @@ old-location: display\d3dhal_dp2renderstate.htm
 old-project: display
 ms.assetid: 9d30ed5d-0621-4a90-941c-c5b0564df13f
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*LPD3DHAL_DP2RENDERSTATE, D3DHAL_DP2RENDERSTATE, D3DHAL_DP2RENDERSTATE structure [Display Devices], LPD3DHAL_DP2RENDERSTATE, LPD3DHAL_DP2RENDERSTATE structure pointer [Display Devices], _D3DHAL_DP2RENDERSTATE, d3dhal/D3DHAL_DP2RENDERSTATE, d3dhal/LPD3DHAL_DP2RENDERSTATE, d3dstrct_4cfe9ea2-c3cc-432d-bd11-85d51ba121b5.xml, display.d3dhal_dp2renderstate"
 ms.prod: windows-hardware
 ms.technology: windows-devices

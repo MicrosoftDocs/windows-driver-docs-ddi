@@ -7,7 +7,7 @@ old-location: display\dd_free_deferred_agp_data.htm
 old-project: display
 ms.assetid: 38830856-1f66-44d6-9501-9454a31571b7
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DD_FREE_DEFERRED_AGP_DATA, DD_FREE_DEFERRED_AGP_DATA structure [Display Devices], _DD_FREE_DEFERRED_AGP_DATA, d3dhal/DD_FREE_DEFERRED_AGP_DATA, d3dstrct_06ad77f0-33c0-4297-a713-d23f0684dbee.xml, display.dd_free_deferred_agp_data
 ms.prod: windows-hardware
 ms.technology: windows-devices

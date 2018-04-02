@@ -7,7 +7,7 @@ old-location: debugger\idebugeventcallbacks_createthread.htm
 old-project: debugger
 ms.assetid: c3b2cbaa-33b9-4784-922d-d1209fc23dfd
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: ComCallbacks_db1fe5dc-8392-4c79-a1ed-9752170eed3c.xml, CreateThread method [Windows Debugging], CreateThread method [Windows Debugging], IDebugEventCallbacks interface, CreateThread,IDebugEventCallbacks.CreateThread, IDebugEventCallbacks, IDebugEventCallbacks interface [Windows Debugging], CreateThread method, IDebugEventCallbacks::CreateThread, dbgeng/IDebugEventCallbacks::CreateThread, debugger.idebugeventcallbacks_createthread
 ms.prod: windows-hardware
 ms.technology: windows-devices

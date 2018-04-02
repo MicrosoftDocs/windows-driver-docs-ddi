@@ -7,7 +7,7 @@ old-location: display\dxgkddiunload.htm
 old-project: display
 ms.assetid: 336fa87a-6c3e-4337-90d9-b0ebeb355e68
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKDDI_UNLOAD, DmFunctions_b7f60489-c7e7-4bd1-bf17-ff193bc7d614.xml, DxgkDdiUnload, DxgkDdiUnload callback function [Display Devices], display.dxgkddiunload, dispmprt/DxgkDdiUnload
 ms.prod: windows-hardware
 ms.technology: windows-devices

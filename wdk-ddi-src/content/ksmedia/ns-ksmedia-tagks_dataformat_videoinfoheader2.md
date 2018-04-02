@@ -78,36 +78,22 @@ Minidrivers that do not need to specify bob or weave settings may use the <a hre
 
 ## -see-also
 
-<<<<<<< HEAD
-=======
-<a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a>
-
-
->>>>>>> parent of 2d896a8e266... Added changes
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561656">KSDATAFORMAT</a>
 
-<<<<<<< HEAD
-=======
-<a href="..\ksmedia\ns-ksmedia-tagks_videoinfoheader2.md">KS_VIDEOINFOHEADER2</a>
->>>>>>> parent of 2d896a8e266... Added changes
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567331">KS_DATAFORMAT_VIDEOINFOHEADER</a>
 
 
 
-<<<<<<< HEAD
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567700">KS_VIDEOINFOHEADER</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567702">KS_VIDEOINFOHEADER2</a>
-=======
-
->>>>>>> parent of 2d896a8e266... Added changes
  
 
  

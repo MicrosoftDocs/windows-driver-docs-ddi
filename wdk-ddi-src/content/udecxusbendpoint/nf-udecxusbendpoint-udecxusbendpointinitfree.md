@@ -7,7 +7,7 @@ old-location: buses\udecxusbendpointinitfree.htm
 old-project: usbref
 ms.assetid: F95BDA95-4667-4EC3-9FE5-C78B453AC0B3
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: UdecxUsbEndpointInitFree, UdecxUsbEndpointInitFree function [Buses], buses.udecxusbendpointinitfree, udecxusbendpoint/UdecxUsbEndpointInitFree
 ms.prod: windows-hardware
 ms.technology: windows-devices

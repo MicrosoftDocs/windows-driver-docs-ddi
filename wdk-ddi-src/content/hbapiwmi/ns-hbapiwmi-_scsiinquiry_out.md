@@ -7,7 +7,7 @@ old-location: storage\scsiinquiry_out2.htm
 old-project: storage
 ms.assetid: ea1d6f35-1dc5-4c65-9158-7f85464c5cd7
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PScsiInquiry_OUT, PScsiInquiry_OUT, PScsiInquiry_OUT structure pointer [Storage Devices], ScsiInquiry_OUT, ScsiInquiry_OUT structure [Storage Devices], _ScsiInquiry_OUT, hbapiwmi/PScsiInquiry_OUT, hbapiwmi/ScsiInquiry_OUT, storage.scsiinquiry_out2, structs-Fibre_2c7df8b3-a571-4e88-b4db-202d2bd39ce8.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: display\videoprocessorsetstreamframeformat.htm
 old-project: display
 ms.assetid: 49310ddf-403a-4fb4-98bb-9ef00ef28310
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMFRAMEFORMAT, d3d10umddi/pfnVideoProcessorSetStreamFrameFormat, display.videoprocessorsetstreamframeformat, pfnVideoProcessorSetStreamFrameFormat, pfnVideoProcessorSetStreamFrameFormat callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices

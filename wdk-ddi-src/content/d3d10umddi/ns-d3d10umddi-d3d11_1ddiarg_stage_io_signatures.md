@@ -7,7 +7,7 @@ old-location: display\d3d11_1ddiarg_stage_io_signatures.htm
 old-project: display
 ms.assetid: c7da4303-2ba4-4ac3-ad24-4ff25bb5466d
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3D11_1DDIARG_STAGE_IO_SIGNATURES, D3D11_1DDIARG_STAGE_IO_SIGNATURES structure [Display Devices], d3d10umddi/D3D11_1DDIARG_STAGE_IO_SIGNATURES, display.d3d11_1ddiarg_stage_io_signatures
 ms.prod: windows-hardware
 ms.technology: windows-devices

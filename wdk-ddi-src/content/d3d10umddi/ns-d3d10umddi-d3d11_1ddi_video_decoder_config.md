@@ -7,7 +7,7 @@ old-location: display\d3d11_1ddi_video_decoder_config.htm
 old-project: display
 ms.assetid: f96a63b5-a560-4230-b6c9-3e3e98c1b8ab
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: ContentKeySize, D3D11_1DDI_VIDEO_DECODER_CONFIG, D3D11_1DDI_VIDEO_DECODER_CONFIG structure [Display Devices], d3d10umddi/D3D11_1DDI_VIDEO_DECODER_CONFIG, display.d3d11_1ddi_video_decoder_config, pContentKey
 ms.prod: windows-hardware
 ms.technology: windows-devices

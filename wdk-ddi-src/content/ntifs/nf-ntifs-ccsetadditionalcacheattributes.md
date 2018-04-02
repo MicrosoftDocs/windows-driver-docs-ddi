@@ -7,7 +7,7 @@ old-location: ifsk\ccsetadditionalcacheattributes.htm
 old-project: ifsk
 ms.assetid: 2f891543-0222-45c8-97cd-719ec5dd2fa8
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: CcSetAdditionalCacheAttributes, CcSetAdditionalCacheAttributes routine [Installable File System Drivers], ccref_a9722d17-3140-4bcd-abd9-46d31fa13174.xml, ifsk.ccsetadditionalcacheattributes, ntifs/CcSetAdditionalCacheAttributes
 ms.prod: windows-hardware
 ms.technology: windows-devices

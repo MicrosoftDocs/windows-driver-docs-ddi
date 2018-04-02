@@ -7,7 +7,7 @@ old-location: display\d3dkmtsubmitcommand.htm
 old-project: display
 ms.assetid: E726B4AC-F003-45B3-B467-F123DBE60D87
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMTSubmitCommand, D3DKMTSubmitCommand function [Display Devices], d3dkmthk/D3DKMTSubmitCommand, display.d3dkmtsubmitcommand
 ms.prod: windows-hardware
 ms.technology: windows-devices

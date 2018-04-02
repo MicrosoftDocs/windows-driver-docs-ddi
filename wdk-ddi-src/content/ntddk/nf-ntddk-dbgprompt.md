@@ -53,18 +53,6 @@ req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 The <b>DbgPrompt</b> routine displays a caller-specified user prompt string on the kernel debugger's display device and obtains a user response string.
 
 
-## -syntax
-
-
-````
-ULONG DbgPrompt(
-  _In_  PCCH  Prompt,
-  _Out_ PCHAR Response,
-  _In_  ULONG MaximumResponseLength
-);
-````
-
-
 ## -parameters
 
 

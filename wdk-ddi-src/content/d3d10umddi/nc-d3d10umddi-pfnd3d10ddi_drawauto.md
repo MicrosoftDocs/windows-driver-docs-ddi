@@ -7,7 +7,7 @@ old-location: display\drawauto.htm
 old-project: display
 ms.assetid: 83d96dc0-dfd4-449e-9e14-18f354d44534
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DrawAuto, DrawAuto callback function [Display Devices], PFND3D10DDI_DRAWAUTO, UserModeDisplayDriverDx10_Functions_ff0a6fae-2ed9-4b49-8095-fe5f61cac148.xml, d3d10umddi/DrawAuto, display.drawauto
 ms.prod: windows-hardware
 ms.technology: windows-devices

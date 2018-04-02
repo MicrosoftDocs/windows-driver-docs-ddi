@@ -7,7 +7,7 @@ old-location: storage\dvd_copyright_descriptor.htm
 old-project: storage
 ms.assetid: e3478867-394b-466c-ad9a-259bedd66669
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PDVD_COPYRIGHT_DESCRIPTOR, DVD_COPYRIGHT_DESCRIPTOR, DVD_COPYRIGHT_DESCRIPTOR structure [Storage Devices], PDVD_COPYRIGHT_DESCRIPTOR, PDVD_COPYRIGHT_DESCRIPTOR structure pointer [Storage Devices], _DVD_COPYRIGHT_DESCRIPTOR, ntddcdvd/DVD_COPYRIGHT_DESCRIPTOR, ntddcdvd/PDVD_COPYRIGHT_DESCRIPTOR, storage.dvd_copyright_descriptor, structs-DVD_35ca576a-d7b4-49df-95cf-1d5339c6ae78.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices

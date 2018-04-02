@@ -52,37 +52,6 @@ req.typenames: "*PWHEA_ERROR_SOURCE_DESCRIPTOR, WHEA_ERROR_SOURCE_DESCRIPTOR, *P
 The WHEA_ERROR_SOURCE_DESCRIPTOR structure describes an error source.
 
 
-## -syntax
-
-
-````
-typedef struct _WHEA_ERROR_SOURCE_DESCRIPTOR {
-  ULONG                   Length;
-  ULONG                   Version;
-  WHEA_ERROR_SOURCE_TYPE  Type;
-  WHEA_ERROR_SOURCE_STATE State;
-  ULONG                   MaxRawDataLength;
-  ULONG                   NumRecordsToPreallocate;
-  ULONG                   MaxSectionsPerRecord;
-  ULONG                   ErrorSourceId;
-  ULONG                   PlatformErrorSourceId;
-  ULONG                   Flags;
-  union {
-    WHEA_XPF_MCE_DESCRIPTOR       XpfMceDescriptor;
-    WHEA_XPF_CMC_DESCRIPTOR       XpfCmcDescriptor;
-    WHEA_XPF_NMI_DESCRIPTOR       XpfNmiDescriptor;
-    WHEA_IPF_MCA_DESCRIPTOR       IpfMcaDescriptor;
-    WHEA_IPF_CMC_DESCRIPTOR       IpfCmcDescriptor;
-    WHEA_IPF_CPE_DESCRIPTOR       IpfCpeDescriptor;
-    WHEA_AER_ROOTPORT_DESCRIPTOR  AerRootportDescriptor;
-    WHEA_AER_ENDPOINT_DESCRIPTOR  AerEndpointDescriptor;
-    WHEA_AER_BRIDGE_DESCRIPTOR    AerBridgeDescriptor;
-    WHEA_GENERIC_ERROR_DESCRIPTOR GenErrDescriptor;
-  } Info;
-} WHEA_ERROR_SOURCE_DESCRIPTOR, *PWHEA_ERROR_SOURCE_DESCRIPTOR;
-````
-
-
 ## -struct-fields
 
 
@@ -100,12 +69,12 @@ The version number of the WHEA_ERROR_SOURCE_DESCRIPTOR structure. This member co
 
 ### -field Type
 
-A <a href="..\ntddk\ne-ntddk-_whea_error_source_type.md">WHEA_ERROR_SOURCE_TYPE</a>-typed value that specifies the type of the error source.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff560511">WHEA_ERROR_SOURCE_TYPE</a>-typed value that specifies the type of the error source.
 
 
 ### -field State
 
-A <a href="..\ntddk\ne-ntddk-_whea_error_source_state.md">WHEA_ERROR_SOURCE_STATE</a>-typed value that specifies the state of the error source.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff560507">WHEA_ERROR_SOURCE_STATE</a>-typed value that specifies the state of the error source.
 
 
 ### -field MaxRawDataLength
@@ -166,61 +135,61 @@ A union of descriptor structures that are specific to each different type of err
 
 #### XpfMceDescriptor
 
-A <a href="..\ntddk\ns-ntddk-_whea_xpf_mce_descriptor.md">WHEA_XPF_MCE_DESCRIPTOR</a> structure that describes an x86 or x64 processor machine check exception (MCE) error source.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff560649">WHEA_XPF_MCE_DESCRIPTOR</a> structure that describes an x86 or x64 processor machine check exception (MCE) error source.
 
 
 
 #### XpfCmcDescriptor
 
-A <a href="..\ntddk\ns-ntddk-_whea_xpf_cmc_descriptor.md">WHEA_XPF_CMC_DESCRIPTOR</a> structure that describes an x86 or x64 processor corrected machine check (CMC) error source.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff560646">WHEA_XPF_CMC_DESCRIPTOR</a> structure that describes an x86 or x64 processor corrected machine check (CMC) error source.
 
 
 
 #### XpfNmiDescriptor
 
-A <a href="..\ntddk\ns-ntddk-_whea_xpf_nmi_descriptor.md">WHEA_XPF_NMI_DESCRIPTOR</a> structure that describes an x86 or x64 processor nonmaskable interrupt (NMI) error source.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff560654">WHEA_XPF_NMI_DESCRIPTOR</a> structure that describes an x86 or x64 processor nonmaskable interrupt (NMI) error source.
 
 
 
 #### IpfMcaDescriptor
 
-A <a href="..\ntddk\ns-ntddk-_whea_ipf_mca_descriptor.md">WHEA_IPF_MCA_DESCRIPTOR</a> structure that describes an Itanium processor machine check abort (MCA) error source.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff560552">WHEA_IPF_MCA_DESCRIPTOR</a> structure that describes an Itanium processor machine check abort (MCA) error source.
 
 
 
 #### IpfCmcDescriptor
 
-A <a href="..\ntddk\ns-ntddk-_whea_ipf_cmc_descriptor.md">WHEA_IPF_CMC_DESCRIPTOR</a> structure that describes an Itanium processor corrected machine check (CMC) error source.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff560549">WHEA_IPF_CMC_DESCRIPTOR</a> structure that describes an Itanium processor corrected machine check (CMC) error source.
 
 
 
 #### IpfCpeDescriptor
 
-A <a href="..\ntddk\ns-ntddk-_whea_ipf_cpe_descriptor.md">WHEA_IPF_CPE_DESCRIPTOR</a> structure that describes an Itanium processor corrected platform error (CPE) error source.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff560550">WHEA_IPF_CPE_DESCRIPTOR</a> structure that describes an Itanium processor corrected platform error (CPE) error source.
 
 
 
 #### AerRootportDescriptor
 
-A <a href="..\ntddk\ns-ntddk-_whea_aer_rootport_descriptor.md">WHEA_AER_ROOTPORT_DESCRIPTOR</a> structure that describes a PCI Express (PCIe) root port error source.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff560450">WHEA_AER_ROOTPORT_DESCRIPTOR</a> structure that describes a PCI Express (PCIe) root port error source.
 
 
 
 #### AerEndpointDescriptor
 
-A <a href="..\ntddk\ns-ntddk-_whea_aer_endpoint_descriptor.md">WHEA_AER_ENDPOINT_DESCRIPTOR</a> structure that describes a PCIe endpoint error source. 
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff560447">WHEA_AER_ENDPOINT_DESCRIPTOR</a> structure that describes a PCIe endpoint error source. 
 
 
 
 #### AerBridgeDescriptor
 
-A <a href="..\ntddk\ns-ntddk-_whea_aer_bridge_descriptor.md">WHEA_AER_BRIDGE_DESCRIPTOR</a> structure that describes a PCIe bridge error source.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff560446">WHEA_AER_BRIDGE_DESCRIPTOR</a> structure that describes a PCIe bridge error source.
 
 
 
 #### GenErrDescriptor
 
-A <a href="..\ntddk\ns-ntddk-_whea_generic_error_descriptor.md">WHEA_GENERIC_ERROR_DESCRIPTOR</a> structure that describes a generic error source.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff560531">WHEA_GENERIC_ERROR_DESCRIPTOR</a> structure that describes a generic error source.
 
 
 ## -remarks
@@ -236,63 +205,26 @@ A user-mode WHEA management application can control the error sources in the sys
 
 ## -see-also
 
-<a href="..\ntddk\ns-ntddk-_whea_xpf_nmi_descriptor.md">WHEA_XPF_NMI_DESCRIPTOR</a>
 
 
 
-<a href="..\ntddk\nc-ntddk-pshed_pi_set_error_source_info.md">SetErrorSourceInfo</a>
+<a href="https://msdn.microsoft.com/062927db-9581-447a-820b-82687710ea8d">DisableErrorSource</a>
 
 
 
-<a href="..\ntddk\nc-ntddk-pshed_pi_get_error_source_info.md">GetErrorSourceInfo</a>
+<a href="https://msdn.microsoft.com/f2bc3b38-003e-4078-9bbd-d535e8971491">EnableErrorSource</a>
 
 
 
-<a href="..\ntddk\ns-ntddk-_whea_generic_error_descriptor.md">WHEA_GENERIC_ERROR_DESCRIPTOR</a>
+<a href="https://msdn.microsoft.com/e9c97f88-aa13-4a3e-9236-c09703d17e4b">GetAllErrorSources</a>
 
 
 
-<a href="..\ntddk\ns-ntddk-_whea_ipf_cmc_descriptor.md">WHEA_IPF_CMC_DESCRIPTOR</a>
+<a href="https://msdn.microsoft.com/8ede391a-acda-4540-a8bb-1b232695d632">GetErrorSourceInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559527">WHEAErrorSourceMethods::GetAllErrorSourcesRtn</a>
-
-
-
-<a href="..\ntddk\ns-ntddk-_whea_xpf_cmc_descriptor.md">WHEA_XPF_CMC_DESCRIPTOR</a>
-
-
-
-<a href="..\ntddk\ns-ntddk-_whea_aer_rootport_descriptor.md">WHEA_AER_ROOTPORT_DESCRIPTOR</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559530">WHEAErrorSourceMethods::GetErrorSourceInfoRtn</a>
-
-
-
-<a href="..\ntddk\ns-ntddk-_whea_ipf_mca_descriptor.md">WHEA_IPF_MCA_DESCRIPTOR</a>
-
-
-
-<a href="..\ntddk\ns-ntddk-_whea_ipf_cpe_descriptor.md">WHEA_IPF_CPE_DESCRIPTOR</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559525">WHEAErrorSourceMethods::EnableErrorSourceRtn</a>
-
-
-
-<a href="..\ntddk\ns-ntddk-_whea_aer_bridge_descriptor.md">WHEA_AER_BRIDGE_DESCRIPTOR</a>
-
-
-
-<a href="..\ntddk\ns-ntddk-_whea_xpf_mce_descriptor.md">WHEA_XPF_MCE_DESCRIPTOR</a>
-
-
-
-<a href="..\ntddk\nc-ntddk-pshed_pi_get_all_error_sources.md">GetAllErrorSources</a>
+<a href="https://msdn.microsoft.com/0b9cd546-d4ad-4e0e-92cb-7994c7327977">SetErrorSourceInfo</a>
 
 
 
@@ -300,7 +232,15 @@ A user-mode WHEA management application can control the error sources in the sys
 
 
 
-<a href="..\ntddk\nc-ntddk-pshed_pi_disable_error_source.md">DisableErrorSource</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559525">WHEAErrorSourceMethods::EnableErrorSourceRtn</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559527">WHEAErrorSourceMethods::GetAllErrorSourcesRtn</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559530">WHEAErrorSourceMethods::GetErrorSourceInfoRtn</a>
 
 
 
@@ -308,25 +248,52 @@ A user-mode WHEA management application can control the error sources in the sys
 
 
 
-<a href="..\ntddk\ne-ntddk-_whea_error_source_state.md">WHEA_ERROR_SOURCE_STATE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560446">WHEA_AER_BRIDGE_DESCRIPTOR</a>
 
 
 
-<a href="..\ntddk\nc-ntddk-pshed_pi_enable_error_source.md">EnableErrorSource</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560447">WHEA_AER_ENDPOINT_DESCRIPTOR</a>
 
 
 
-<a href="..\ntddk\ns-ntddk-_whea_aer_endpoint_descriptor.md">WHEA_AER_ENDPOINT_DESCRIPTOR</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560450">WHEA_AER_ROOTPORT_DESCRIPTOR</a>
 
 
 
-<a href="..\ntddk\ne-ntddk-_whea_error_source_type.md">WHEA_ERROR_SOURCE_TYPE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560507">WHEA_ERROR_SOURCE_STATE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560511">WHEA_ERROR_SOURCE_TYPE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560531">WHEA_GENERIC_ERROR_DESCRIPTOR</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560549">WHEA_IPF_CMC_DESCRIPTOR</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560550">WHEA_IPF_CPE_DESCRIPTOR</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560552">WHEA_IPF_MCA_DESCRIPTOR</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560646">WHEA_XPF_CMC_DESCRIPTOR</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560649">WHEA_XPF_MCE_DESCRIPTOR</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560654">WHEA_XPF_NMI_DESCRIPTOR</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [whea\whea]:%20WHEA_ERROR_SOURCE_DESCRIPTOR structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

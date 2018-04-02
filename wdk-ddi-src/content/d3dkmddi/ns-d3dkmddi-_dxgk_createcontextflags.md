@@ -7,7 +7,7 @@ old-location: display\dxgk_createcontextflags.htm
 old-project: display
 ms.assetid: f7cadf78-c908-4034-889d-b5c7d0ffdaad
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGK_CREATECONTEXTFLAGS, DXGK_CREATECONTEXTFLAGS structure [Display Devices], DmStructs_19418464-77f9-407f-8b04-c6a35561069b.xml, _DXGK_CREATECONTEXTFLAGS, d3dkmddi/DXGK_CREATECONTEXTFLAGS, display.dxgk_createcontextflags
 ms.prod: windows-hardware
 ms.technology: windows-devices

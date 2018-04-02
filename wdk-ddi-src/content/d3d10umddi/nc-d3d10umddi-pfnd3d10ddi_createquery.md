@@ -7,7 +7,7 @@ old-location: display\createquery_d3d10_.htm
 old-project: display
 ms.assetid: abe6a82f-1613-4c74-9e81-01939db74bfd
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: CreateQuery, CreateQuery callback function [Display Devices], PFND3D10DDI_CREATEQUERY, UserModeDisplayDriverDx10_Functions_faa26999-d692-40b4-81ef-99c730879b49.xml, d3d10umddi/CreateQuery, display.createquery_d3d10_
 ms.prod: windows-hardware
 ms.technology: windows-devices

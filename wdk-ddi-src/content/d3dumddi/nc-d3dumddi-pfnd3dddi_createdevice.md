@@ -7,7 +7,7 @@ old-location: display\createdevice.htm
 old-project: display
 ms.assetid: ce35bdac-af90-471f-af93-0e665be6c7f6
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: CreateDevice, CreateDevice callback function [Display Devices], PFND3DDDI_CREATEDEVICE, UserModeDisplayDriver_Functions_4603a980-54aa-4d90-859a-d84c2afe5f03.xml, d3dumddi/CreateDevice, display.createdevice
 ms.prod: windows-hardware
 ms.technology: windows-devices

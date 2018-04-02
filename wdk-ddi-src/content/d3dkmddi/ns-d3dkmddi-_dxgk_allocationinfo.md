@@ -7,7 +7,7 @@ old-location: display\dxgk_allocationinfo.htm
 old-project: display
 ms.assetid: d5767bd3-11f8-45a7-b760-3ed51c54c044
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGK_ALLOCATIONINFO, DXGK_ALLOCATIONINFO structure [Display Devices], DmStructs_f571b666-75fd-477a-a8a7-673033d9284e.xml, _DXGK_ALLOCATIONINFO, d3dkmddi/DXGK_ALLOCATIONINFO, display.dxgk_allocationinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -145,18 +145,10 @@ Support for this member started with Windows 10 and WDDM 2.0.
 #### - MaximumRenamingListLength
 
 [out] The maximum length of the renaming list for the allocation. For more information about the renaming list, see <a href="https://msdn.microsoft.com/f22e19ba-9ff3-4aa1-a3f0-103f67ea7c60">Requesting to Rename an Allocation</a>.
-<<<<<<< HEAD
-=======
-
-Support for this member started with Windows 10 and the WDDM v2.
->>>>>>> parent of 2d896a8e266... Added changes
 
 Support for this member started with Windows 10 and the WDDM v2.
 
-<<<<<<< HEAD
 
-=======
->>>>>>> parent of 2d896a8e266... Added changes
 #### - PhysicalAdapterIndex
 
 [out] The index of the physical adapter. 

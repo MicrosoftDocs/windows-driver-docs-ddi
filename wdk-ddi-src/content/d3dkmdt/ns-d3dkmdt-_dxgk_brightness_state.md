@@ -7,7 +7,7 @@ old-location: display\dxgk_brightness_state.htm
 old-project: display
 ms.assetid: 60896a51-63c9-46fd-96ee-9cdbb72ac30c
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGK_BRIGHTNESS_STATE, DXGK_BRIGHTNESS_STATE structure [Display Devices], _DXGK_BRIGHTNESS_STATE, d3dkmdt/DXGK_BRIGHTNESS_STATE, display.dxgk_brightness_state
 ms.prod: windows-hardware
 ms.technology: windows-devices

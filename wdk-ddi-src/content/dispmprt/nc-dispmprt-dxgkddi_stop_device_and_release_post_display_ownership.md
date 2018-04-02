@@ -7,7 +7,7 @@ old-location: display\dxgkddireleasepostdisplayownership.htm
 old-project: display
 ms.assetid: 6AF170BF-C422-4340-8935-31A4D4F3EFA5
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKDDI_STOP_DEVICE_AND_RELEASE_POST_DISPLAY_OWNERSHIP, DxgkDdiStopDeviceAndReleasePostDisplayOwnership, DxgkDdiStopDeviceAndReleasePostDisplayOwnership callback function [Display Devices], display.dxgkddireleasepostdisplayownership, dispmprt/DxgkDdiStopDeviceAndReleasePostDisplayOwnership
 ms.prod: windows-hardware
 ms.technology: windows-devices

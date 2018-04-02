@@ -7,7 +7,7 @@ old-location: storage\tapeminiextensioninit.htm
 old-project: storage
 ms.assetid: 4837b9c2-a3c1-4574-8f5b-4bf7c7d037a0
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "(*TAPE_EXTENSION_INIT_ROUTINE), (*TAPE_EXTENSION_INIT_ROUTINE) routine [Storage Devices], TAPE_EXTENSION_INIT_ROUTINE, minitape/(*TAPE_EXTENSION_INIT_ROUTINE), storage.tapeminiextensioninit, tapemini_858bcb61-472e-45c4-8438-060eb61f1c4a.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ api_name:
 -	(*TAPE_EXTENSION_INIT_ROUTINE)
 product: Windows
 targetos: Windows
-req.typenames: MCD_INIT_DATA, *PMCD_INIT_DATA
+req.typenames: PROCESSOR_NUMBER, *PPROCESSOR_NUMBER
 ---
 
 # TAPE_EXTENSION_INIT_ROUTINE callback

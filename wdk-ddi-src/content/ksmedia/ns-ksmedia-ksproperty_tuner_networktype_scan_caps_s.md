@@ -79,7 +79,6 @@ A pointer to a buffer to hold the scanning capabilities of a broadcast network t
 
 ## -see-also
 
-<<<<<<< HEAD
 
 
 
@@ -92,21 +91,6 @@ A pointer to a buffer to hold the scanning capabilities of a broadcast network t
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565887">KSPROPERTY_TUNER_SCAN_CAPS</a>
-=======
-<a href="..\ksmedia\ns-ksmedia-tuner_analog_caps_s.md">TUNER_ANALOG_CAPS_S</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565887">KSPROPERTY_TUNER_SCAN_CAPS</a>
-
-
-
-<a href="..\ksmedia\ns-ksmedia-ksproperty_tuner_scan_caps_s.md">KSPROPERTY_TUNER_SCAN_CAPS_S</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565881">KSPROPERTY_TUNER_NETWORKTYPE_SCAN_CAPS</a>
->>>>>>> parent of 2d896a8e266... Added changes
 
 
 

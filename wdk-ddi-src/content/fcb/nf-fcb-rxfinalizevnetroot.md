@@ -7,7 +7,7 @@ old-location: ifsk\rxfinalizevnetroot.htm
 old-project: ifsk
 ms.assetid: 7a24d8b4-cd07-453c-9813-d794b75b039e
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: RxFinalizeVNetRoot, RxFinalizeVNetRoot function [Installable File System Drivers], fcb/RxFinalizeVNetRoot, ifsk.rxfinalizevnetroot, rxref_1c20872c-4783-4c7d-a1fa-44ca6170ab00.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

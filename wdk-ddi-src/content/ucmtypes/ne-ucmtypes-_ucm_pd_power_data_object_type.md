@@ -7,7 +7,7 @@ old-location: buses\ucm_pd_power_data_object_type.htm
 old-project: usbref
 ms.assetid: FCDD6B04-339D-4BBA-9D19-AE74CCB27666
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: UCM_PD_POWER_DATA_OBJECT_TYPE, UCM_PD_POWER_DATA_OBJECT_TYPE enumeration [Buses], UcmPdPdoTypeBatterySupply, UcmPdPdoTypeFixedSupply, UcmPdPdoTypeVariableSupplyNonBattery, _UCM_PD_POWER_DATA_OBJECT_TYPE, buses.ucm_pd_power_data_object_type, ucmtypes/UCM_PD_POWER_DATA_OBJECT_TYPE, ucmtypes/UcmPdPdoTypeBatterySupply, ucmtypes/UcmPdPdoTypeFixedSupply, ucmtypes/UcmPdPdoTypeVariableSupplyNonBattery
 ms.prod: windows-hardware
 ms.technology: windows-devices

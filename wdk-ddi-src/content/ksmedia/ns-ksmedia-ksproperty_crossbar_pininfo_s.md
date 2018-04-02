@@ -149,15 +149,11 @@ All index values are zero-based, and input pins are counted separately from outp
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567804">PROPSETID_VIDCAP_CROSSBAR</a>
-
-
-
-<<<<<<< HEAD
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565121">KSPROPERTY_CROSSBAR_PININFO</a>
-=======
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
->>>>>>> parent of 2d896a8e266... Added changes
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565121">KSPROPERTY_CROSSBAR_PININFO</a>
 
 
 

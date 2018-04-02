@@ -7,7 +7,7 @@ old-location: storage\msfc_hbaportstatistics.htm
 old-project: storage
 ms.assetid: 0274b3c7-c17e-45bf-867f-2b0f741b2ecb
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PMSFC_HBAPortStatistics, MSFC_HBAPortStatistics, MSFC_HBAPortStatistics structure [Storage Devices], PMSFC_HBAPortStatistics, PMSFC_HBAPortStatistics structure pointer [Storage Devices], _MSFC_HBAPortStatistics, hbapiwmi/MSFC_HBAPortStatistics, hbapiwmi/PMSFC_HBAPortStatistics, storage.msfc_hbaportstatistics, structs-Fibre_93c56324-f8c5-4d43-815a-40ca9d44350d.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: display\ioctl_video_query_pointer_position.htm
 old-project: display
 ms.assetid: 0dbca53e-5fe0-4435-9f94-45601fbbf950
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_VIDEO_QUERY_POINTER_POSITION, IOCTL_VIDEO_QUERY_POINTER_POSITION control code [Display Devices], Video_IOCTLs_ebaaecc3-ace3-4252-8f01-d80bb1c2472f.xml, display.ioctl_video_query_pointer_position, ntddvdeo/IOCTL_VIDEO_QUERY_POINTER_POSITION
 ms.prod: windows-hardware
 ms.technology: windows-devices

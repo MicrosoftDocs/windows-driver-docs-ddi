@@ -7,7 +7,7 @@ old-location: display\pfnstatehssamplercb.htm
 old-project: display
 ms.assetid: 95475c7a-874c-45e9-ab92-1c3983315446
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3D11DDI_STATE_HS_SAMPLER_CB, d3d10umddi/pfnStateHsSamplerCb, d3d11state_functions_36ac0f95-b5df-45d2-bae7-38c2ea1986b7.xml, display.pfnstatehssamplercb, pfnStateHsSamplerCb, pfnStateHsSamplerCb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices

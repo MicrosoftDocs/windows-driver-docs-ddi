@@ -7,7 +7,7 @@ old-location: ifsk\fltcancelio.htm
 old-project: ifsk
 ms.assetid: 30f2345d-6ed8-475f-879a-d3218039fded
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FltApiRef_a_to_d_e539a1bb-9dd4-4e1b-ac10-b5f742923839.xml, FltCancelIo, FltCancelIo routine [Installable File System Drivers], fltkernel/FltCancelIo, ifsk.fltcancelio
 ms.prod: windows-hardware
 ms.technology: windows-devices

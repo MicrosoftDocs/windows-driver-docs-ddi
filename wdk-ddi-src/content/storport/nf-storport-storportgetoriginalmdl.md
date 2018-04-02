@@ -7,7 +7,7 @@ old-location: storage\storportgetoriginalmdl.htm
 old-project: storage
 ms.assetid: 48042e9d-ed83-4326-931d-ded753deb1a7
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: StorPortGetOriginalMdl, StorPortGetOriginalMdl routine [Storage Devices], storage.storportgetoriginalmdl, storport/StorPortGetOriginalMdl, storprt_4617200d-18b4-4ee2-aa43-92fc5f3a7b66.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

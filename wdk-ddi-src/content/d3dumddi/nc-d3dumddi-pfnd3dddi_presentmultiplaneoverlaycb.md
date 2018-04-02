@@ -7,7 +7,7 @@ old-location: display\pfnpresentmultiplaneoverlaycb_d3d.htm
 old-project: display
 ms.assetid: f355c29a-8a8d-46aa-b3b3-c93c0afef266
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3DDDI_PRESENTMULTIPLANEOVERLAYCB, d3dumddi/pfnPresentMultiPlaneOverlayCb, display.pfnpresentmultiplaneoverlaycb_d3d, pfnPresentMultiPlaneOverlayCb, pfnPresentMultiPlaneOverlayCb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices

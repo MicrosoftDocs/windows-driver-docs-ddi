@@ -7,7 +7,7 @@ old-location: display\d3dkmt_vidsch_escape.htm
 old-project: display
 ms.assetid: 8e19e8a1-0cb6-4d57-862c-2e3a785b949b
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMT_VIDSCH_ESCAPE, D3DKMT_VIDSCH_ESCAPE structure [Display Devices], OpenGL_Structs_d668addb-7c4a-4f07-bf9b-71ccd4a216fa.xml, _D3DKMT_VIDSCH_ESCAPE, d3dkmthk/D3DKMT_VIDSCH_ESCAPE, display.d3dkmt_vidsch_escape
 ms.prod: windows-hardware
 ms.technology: windows-devices

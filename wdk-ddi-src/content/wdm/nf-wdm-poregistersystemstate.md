@@ -94,6 +94,26 @@ A user is present.
 The settings are continuous and should remain in effect until explicitly changed.
 
 
+##### - Flags.ES_CONTINUOUS
+
+The settings are continuous and should remain in effect until explicitly changed.
+
+
+##### - Flags.ES_DISPLAY_REQUIRED
+
+Use of the display is required.
+
+
+##### - Flags.ES_SYSTEM_REQUIRED
+
+The system is not idle, regardless of apparent load.
+
+
+##### - Flags.ES_USER_PRESENT
+
+A user is present.
+
+
 ## -returns
 
 

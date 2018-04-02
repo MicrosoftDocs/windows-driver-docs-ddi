@@ -7,7 +7,7 @@ old-location: buses\evt_ucx_controller_query_usb_capability.htm
 old-project: usbref
 ms.assetid: c01150b6-e6cf-484c-be3e-c63984e97bb3
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: EVT_UCX_CONTROLLER_QUERY_USB_CAPABILITY, EvtUcxControllerQueryUsbCapability, EvtUcxControllerQueryUsbCapability callback function [Buses], PEVT_UCX_CONTROLLER_QUERY_USB_CAPABILITY, PEVT_UCX_CONTROLLER_QUERY_USB_CAPABILITY callback function pointer [Buses], buses.evt_ucx_controller_query_usb_capability, ucxcontroller/EvtUcxControllerQueryUsbCapability
 ms.prod: windows-hardware
 ms.technology: windows-devices

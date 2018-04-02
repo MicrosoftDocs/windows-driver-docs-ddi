@@ -7,7 +7,7 @@ old-location: ifsk\fsrtlchecklockforwriteaccess.htm
 old-project: ifsk
 ms.assetid: 549da751-6a28-4d54-995f-dabb9e29ab09
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FsRtlCheckLockForWriteAccess, FsRtlCheckLockForWriteAccess routine [Installable File System Drivers], fsrtlref_460451fb-37b9-4c7e-bf53-8d72c7e73a55.xml, ifsk.fsrtlchecklockforwriteaccess, ntifs/FsRtlCheckLockForWriteAccess
 ms.prod: windows-hardware
 ms.technology: windows-devices

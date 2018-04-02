@@ -7,7 +7,7 @@ old-location: storage\scsiportiomaptransfer.htm
 old-project: storage
 ms.assetid: 627a2d4c-22c8-48ea-b409-dc246c85a316
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: ScsiPortIoMapTransfer, ScsiPortIoMapTransfer routine [Storage Devices], scsiprt_9473c978-7355-4296-b8ac-07b20f6ea441.xml, srb/ScsiPortIoMapTransfer, storage.scsiportiomaptransfer
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: display\dxgi_ddi_arg_resolvesharedresource.htm
 old-project: display
 ms.assetid: adc4bd3a-fbff-4a63-b818-b778762956ac
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGI_DDI_ARG_RESOLVESHAREDRESOURCE, DXGI_DDI_ARG_RESOLVESHAREDRESOURCE structure [Display Devices], UMDisplayDriver_Dx10param_Structs_16bbb236-75b5-4d2c-a6ca-b61010d5e08d.xml, display.dxgi_ddi_arg_resolvesharedresource, dxgiddi/DXGI_DDI_ARG_RESOLVESHAREDRESOURCE
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: debugger\idebugfaentrytags_gettagbyname.htm
 old-project: debugger
 ms.assetid: 3EA8FE2A-85CE-4C81-81EB-F08028F0F822
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: GetTagByName method [Windows Debugging], GetTagByName method [Windows Debugging], IDebugFAEntryTags interface, GetTagByName,IDebugFAEntryTags.GetTagByName, IDebugFAEntryTags, IDebugFAEntryTags interface [Windows Debugging], GetTagByName method, IDebugFAEntryTags::GetTagByName, debugger.idebugfaentrytags_gettagbyname, extsfns/IDebugFAEntryTags::GetTagByName
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -125,8 +125,3 @@ If you call this method from an analysis extension plug-in, and you set <i>Plugi
 
  
 
-<<<<<<< HEAD
-=======
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugFAEntryTags::GetTagByName method%20 RELEASE:%20(2/27/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
-
->>>>>>> parent of 2d896a8e266... Added changes

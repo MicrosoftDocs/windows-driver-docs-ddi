@@ -7,7 +7,7 @@ old-location: ifsk\fsrtlprocessfilelock.htm
 old-project: ifsk
 ms.assetid: 370e9dfd-ef2f-4bba-a0ec-5ebc6fbecb7a
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FsRtlProcessFileLock, FsRtlProcessFileLock routine [Installable File System Drivers], fsrtlref_93a3a663-fe0b-45c2-ab32-af4fe94b9697.xml, ifsk.fsrtlprocessfilelock, ntifs/FsRtlProcessFileLock
 ms.prod: windows-hardware
 ms.technology: windows-devices

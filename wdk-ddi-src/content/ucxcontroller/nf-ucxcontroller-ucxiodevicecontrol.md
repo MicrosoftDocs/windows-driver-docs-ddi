@@ -7,7 +7,7 @@ old-location: buses\_ucxiodevicecontrol.htm
 old-project: usbref
 ms.assetid: 7C1DD018-2EDF-48BB-8DFC-ADAF72A1909D
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: UcxIoDeviceControl, UcxIoDeviceControl method [Buses], buses._ucxiodevicecontrol, ucxcontroller/UcxIoDeviceControl
 ms.prod: windows-hardware
 ms.technology: windows-devices

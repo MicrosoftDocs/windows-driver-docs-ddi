@@ -7,7 +7,7 @@ old-location: buses\ucxcontrollernotifytransportcharacteristicschange.htm
 old-project: usbref
 ms.assetid: DB49DF98-8A5B-4528-B312-63CE3DFABEF2
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: UcxControllerNotifyTransportCharacteristicsChange, UcxControllerNotifyTransportCharacteristicsChange function [Buses], buses.ucxcontrollernotifytransportcharacteristicschange, ucxcontroller/UcxControllerNotifyTransportCharacteristicsChange
 ms.prod: windows-hardware
 ms.technology: windows-devices

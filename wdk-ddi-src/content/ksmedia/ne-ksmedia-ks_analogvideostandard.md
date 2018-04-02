@@ -175,22 +175,14 @@ You can combine the values in the KS_AnalogVideoStandard enumeration with a bitw
 
 
 
-<<<<<<< HEAD
-=======
-<a href="..\ksmedia\ns-ksmedia-_ks_video_stream_config_caps.md">KS_VIDEO_STREAM_CONFIG_CAPS</a>
->>>>>>> parent of 2d896a8e266... Added changes
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565872">KSPROPERTY_TUNER_MODE_CAPS_S</a>
 
 
-<<<<<<< HEAD
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565918">KSPROPERTY_TUNER_STANDARD_S</a>
 
 
-=======
-<a href="..\ksmedia\ns-ksmedia-ksproperty_tuner_standard_s.md">KSPROPERTY_TUNER_STANDARD_S</a>
->>>>>>> parent of 2d896a8e266... Added changes
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566047">KSPROPERTY_VIDEODECODER_CAPS_S</a>
 
@@ -199,16 +191,8 @@ You can combine the values in the KS_AnalogVideoStandard enumeration with a bitw
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567691">KS_TVTUNER_CHANGE_INFO</a>
 
 
-<<<<<<< HEAD
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567692">KS_VBIINFOHEADER</a>
-=======
-<a href="..\ksmedia\ns-ksmedia-tagks_vbiinfoheader.md">KS_VBIINFOHEADER</a>
-
-
-
-<a href="..\ksmedia\ns-ksmedia-ksproperty_videodecoder_caps_s.md">KSPROPERTY_VIDEODECODER_CAPS_S</a>
->>>>>>> parent of 2d896a8e266... Added changes
 
 
 

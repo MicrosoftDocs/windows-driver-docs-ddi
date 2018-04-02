@@ -7,7 +7,7 @@ old-location: display\reportstatistic.htm
 old-project: display
 ms.assetid: 13e1afa2-5552-468f-ac6b-3458dedd9b76
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFN_REPORT_STATISTIC, ReportStatistic, ReportStatistic callback function [Display Devices], display.reportstatistic, netdispumdddi/ReportStatistic
 ms.prod: windows-hardware
 ms.technology: windows-devices

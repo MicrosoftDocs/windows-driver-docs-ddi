@@ -7,7 +7,7 @@ old-location: display\dxgkmdt_opm_requested_information.htm
 old-project: display
 ms.assetid: c483786a-be8c-4ae3-a48c-45064ce81939
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PDXGKMDT_OPM_REQUESTED_INFORMATION, DXGKMDT_OPM_REQUESTED_INFORMATION, DXGKMDT_OPM_REQUESTED_INFORMATION structure [Display Devices], DmStructs_671b07eb-3d44-4c06-863a-8bd74f10ee4b.xml, PDXGKMDT_OPM_REQUESTED_INFORMATION, PDXGKMDT_OPM_REQUESTED_INFORMATION structure pointer [Display Devices], _DXGKMDT_OPM_REQUESTED_INFORMATION, d3dkmdt/DXGKMDT_OPM_REQUESTED_INFORMATION, d3dkmdt/PDXGKMDT_OPM_REQUESTED_INFORMATION, display.dxgkmdt_opm_requested_information"
 ms.prod: windows-hardware
 ms.technology: windows-devices

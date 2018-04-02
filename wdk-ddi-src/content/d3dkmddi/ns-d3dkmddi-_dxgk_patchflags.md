@@ -7,7 +7,7 @@ old-location: display\dxgk_patchflags.htm
 old-project: display
 ms.assetid: 4052b760-70b0-4418-84f9-1e520a551a03
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGK_PATCHFLAGS, DXGK_PATCHFLAGS structure [Display Devices], DmStructs_e798cfa4-1915-42c8-87ad-709df6a5555f.xml, _DXGK_PATCHFLAGS, d3dkmddi/DXGK_PATCHFLAGS, display.dxgk_patchflags
 ms.prod: windows-hardware
 ms.technology: windows-devices

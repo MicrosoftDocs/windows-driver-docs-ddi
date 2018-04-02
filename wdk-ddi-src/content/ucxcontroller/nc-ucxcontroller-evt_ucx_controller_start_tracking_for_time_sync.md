@@ -7,7 +7,7 @@ old-location: buses\evt_ucx_controller_start_tracking_for_time_sync.htm
 old-project: usbref
 ms.assetid: 8465B255-E36E-481D-B063-597B9C861DCD
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: EVT_UCX_CONTROLLER_START_TRACKING_FOR_TIME_SYNC, EvUcxControllerStartTrackingForTimeSync, EvUcxControllerStartTrackingForTimeSync callback function [Buses], buses.evt_ucx_controller_start_tracking_for_time_sync, ucxcontroller/EvUcxControllerStartTrackingForTimeSync
 ms.prod: windows-hardware
 ms.technology: windows-devices

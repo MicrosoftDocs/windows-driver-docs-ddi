@@ -7,7 +7,7 @@ old-location: buses\_controller_type.htm
 old-project: usbref
 ms.assetid: E7DFBFFA-C65B-4757-8DB8-202760D6D3C6
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: CONTROLLER_TYPE, ControllerTypeSoftXhci, ControllerTypeXhci, _CONTROLLER_TYPE, _CONTROLLER_TYPE enumeration [Buses], buses._controller_type, ucxroothub/ControllerTypeSoftXhci, ucxroothub/ControllerTypeXhci, ucxroothub/_CONTROLLER_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: storage\ioctl_mountdev_query_device_name.htm
 old-project: storage
 ms.assetid: 3df96552-d4f6-4d1c-bc07-3eff5f3eabfb
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_MOUNTDEV_QUERY_DEVICE_NAME, IOCTL_MOUNTDEV_QUERY_DEVICE_NAME control code [Storage Devices], k307_4a0b9087-3740-4467-aa0f-ca7f56b8ae13.xml, mountmgr/IOCTL_MOUNTDEV_QUERY_DEVICE_NAME, storage.ioctl_mountdev_query_device_name
 ms.prod: windows-hardware
 ms.technology: windows-devices

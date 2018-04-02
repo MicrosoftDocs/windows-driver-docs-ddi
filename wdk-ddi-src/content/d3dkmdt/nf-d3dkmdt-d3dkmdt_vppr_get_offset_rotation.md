@@ -7,7 +7,7 @@ old-location: display\d3dkmdt_vppr_get_offset_rotation.htm
 old-project: display
 ms.assetid: EA7D2840-63B2-417A-933C-C1D360106264
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMDT_VPPR_GET_OFFSET_ROTATION, D3DKMDT_VPPR_GET_OFFSET_ROTATION function [Display Devices], d3dkmdt/D3DKMDT_VPPR_GET_OFFSET_ROTATION, display.d3dkmdt_vppr_get_offset_rotation
 ms.prod: windows-hardware
 ms.technology: windows-devices

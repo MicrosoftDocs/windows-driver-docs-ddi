@@ -7,7 +7,7 @@ old-location: buses\usb_id_string.htm
 old-project: usbref
 ms.assetid: e7af07ed-f1a7-4f66-8824-2e12492d037a
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PUSB_ID_STRING, PUSB_ID_STRING, PUSB_ID_STRING structure pointer [Buses], USB_ID_STRING, USB_ID_STRING structure [Buses], _USB_ID_STRING, buses.usb_id_string, usbioctl/PUSB_ID_STRING, usbioctl/USB_ID_STRING"
 ms.prod: windows-hardware
 ms.technology: windows-devices

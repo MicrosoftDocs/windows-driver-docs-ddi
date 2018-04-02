@@ -7,7 +7,7 @@ old-location: display\d3dwddm2_2ddi_corelayer_devicecallbacks.htm
 old-project: display
 ms.assetid: B42DA194-690F-41A6-AC11-71224887A2E4
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DWDDM2_2DDI_CORELAYER_DEVICECALLBACKS, D3DWDDM2_2DDI_CORELAYER_DEVICECALLBACKS structure [Display Devices], d3d10umddi/D3DWDDM2_2DDI_CORELAYER_DEVICECALLBACKS, display.d3dwddm2_2ddi_corelayer_devicecallbacks
 ms.prod: windows-hardware
 ms.technology: windows-devices

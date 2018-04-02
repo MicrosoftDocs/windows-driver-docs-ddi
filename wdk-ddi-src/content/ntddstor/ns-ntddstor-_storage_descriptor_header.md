@@ -7,7 +7,7 @@ old-location: storage\storage_descriptor_header.htm
 old-project: storage
 ms.assetid: 57d019b0-7914-42f6-a888-16042aa97444
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PSTORAGE_DESCRIPTOR_HEADER, PSTORAGE_DESCRIPTOR_HEADER structure pointer [Storage Devices], STORAGE_DESCRIPTOR_HEADER, STORAGE_DESCRIPTOR_HEADER structure [Storage Devices], _STORAGE_DESCRIPTOR_HEADER, ntddstor/PSTORAGE_DESCRIPTOR_HEADER, ntddstor/STORAGE_DESCRIPTOR_HEADER, storage.storage_descriptor_header, structs-general_9ba3bf25-17dc-41e1-9b3e-971d2ddd4780.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

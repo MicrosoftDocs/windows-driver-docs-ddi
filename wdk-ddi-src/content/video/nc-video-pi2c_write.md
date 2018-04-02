@@ -7,7 +7,7 @@ old-location: display\i2cwrite.htm
 old-project: display
 ms.assetid: 5aaebf38-bc09-4fb5-969e-7b456773d5ac
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: I2CWrite, I2CWrite callback function [Display Devices], PI2C_WRITE, VideoPort_Functions_3e35f4d8-7c13-4c2c-b0e4-c518bc63e6f6.xml, display.i2cwrite, video/I2CWrite
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: display\d3dkmdt_monitor_descriptor.htm
 old-project: display
 ms.assetid: 4bdce35f-adce-4898-8ef5-011a5476065a
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMDT_MONITOR_DESCRIPTOR, D3DKMDT_MONITOR_DESCRIPTOR structure [Display Devices], DmStructs_760a75c4-4db4-445e-a63b-7e77b6b69090.xml, _D3DKMDT_MONITOR_DESCRIPTOR, d3dkmdt/D3DKMDT_MONITOR_DESCRIPTOR, display.d3dkmdt_monitor_descriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices

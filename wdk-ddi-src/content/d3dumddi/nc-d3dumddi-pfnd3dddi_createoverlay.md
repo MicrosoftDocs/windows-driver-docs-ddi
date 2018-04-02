@@ -7,7 +7,7 @@ old-location: display\createoverlay.htm
 old-project: display
 ms.assetid: 761377ff-95a6-426b-8372-3f347870f9c4
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: CreateOverlay, CreateOverlay callback function [Display Devices], PFND3DDDI_CREATEOVERLAY, UserModeDisplayDriver_Functions_8418bf74-3398-4913-9002-2f0b2a0941fb.xml, d3dumddi/CreateOverlay, display.createoverlay
 ms.prod: windows-hardware
 ms.technology: windows-devices

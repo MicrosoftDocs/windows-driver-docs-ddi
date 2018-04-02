@@ -7,7 +7,7 @@ old-location: display\pfnd3d12ddi_calcprivatecommandqueuesize_0023.htm
 old-project: display
 ms.assetid: 70A81285-97CD-4526-8EB0-F00908B2D331
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3D12DDI_CALCPRIVATECOMMANDQUEUESIZE_0023, d3d12umddi/pfnCalcPrivateCommandQueueSize, display.pfnd3d12ddi_calcprivatecommandqueuesize_0023, pfnCalcPrivateCommandQueueSize, pfnCalcPrivateCommandQueueSize callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices

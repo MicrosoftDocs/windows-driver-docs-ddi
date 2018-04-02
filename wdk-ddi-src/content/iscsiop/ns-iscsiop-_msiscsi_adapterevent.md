@@ -7,7 +7,7 @@ old-location: storage\msiscsi_adapterevent.htm
 old-project: storage
 ms.assetid: 03820d4d-d013-40fb-a686-1b228f178f50
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PMSiSCSI_AdapterEvent, MSiSCSI_AdapterEvent, MSiSCSI_AdapterEvent structure [Storage Devices], PMSiSCSI_AdapterEvent, PMSiSCSI_AdapterEvent structure pointer [Storage Devices], _MSiSCSI_AdapterEvent, iscsiop/MSiSCSI_AdapterEvent, iscsiop/PMSiSCSI_AdapterEvent, storage.msiscsi_adapterevent, structs-iSCSI_86ec7324-3d5c-44d2-8972-691504f1c5e1.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices

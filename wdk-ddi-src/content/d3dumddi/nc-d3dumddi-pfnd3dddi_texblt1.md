@@ -7,7 +7,7 @@ old-location: display\texblt1.htm
 old-project: display
 ms.assetid: 63EE8130-47E5-4976-8A72-1B11136B1192
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3DDDI_TEXBLT1, TexBlt1, TexBlt1 callback function [Display Devices], d3dumddi/TexBlt1, display.texblt1
 ms.prod: windows-hardware
 ms.technology: windows-devices

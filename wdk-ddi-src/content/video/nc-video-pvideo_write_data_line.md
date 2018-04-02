@@ -7,7 +7,7 @@ old-location: display\writedataline.htm
 old-project: display
 ms.assetid: 3f860619-a479-4291-b3f3-ea4d309beee7
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PVIDEO_WRITE_DATA_LINE, VideoMiniport_Functions_35effeac-fbe1-44b9-905f-111460800d86.xml, WriteDataLine, WriteDataLine callback function [Display Devices], display.writedataline, video/WriteDataLine
 ms.prod: windows-hardware
 ms.technology: windows-devices

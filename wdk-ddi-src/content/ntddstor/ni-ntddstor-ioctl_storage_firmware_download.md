@@ -7,7 +7,7 @@ old-location: storage\ioctl_storage_firmware_download.htm
 old-project: storage
 ms.assetid: D5572EE3-C277-494C-B288-A6E8F8A26A3E
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_STORAGE_FIRMWARE_DOWNLOAD, IOCTL_STORAGE_FIRMWARE_DOWNLOAD control code [Storage Devices], ntddstor/IOCTL_STORAGE_FIRMWARE_DOWNLOAD, storage.ioctl_storage_firmware_download
 ms.prod: windows-hardware
 ms.technology: windows-devices

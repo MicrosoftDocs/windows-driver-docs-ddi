@@ -7,7 +7,7 @@ old-location: storage\iscsi_discoveredtargetportalgroup2.htm
 old-project: storage
 ms.assetid: d852f062-3090-4a7a-bdb8-9dde93257a90
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PISCSI_DiscoveredTargetPortalGroup2, ISCSI_DiscoveredTargetPortalGroup2, ISCSI_DiscoveredTargetPortalGroup2 structure [Storage Devices], PISCSI_DiscoveredTargetPortalGroup2, PISCSI_DiscoveredTargetPortalGroup2 structure pointer [Storage Devices], _ISCSI_DiscoveredTargetPortalGroup2, iscsifnd/ISCSI_DiscoveredTargetPortalGroup2, iscsifnd/PISCSI_DiscoveredTargetPortalGroup2, storage.iscsi_discoveredtargetportalgroup2, structs-iSCSI_2135fea1-a4b9-401e-a7b3-9a1b1896fe28.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices

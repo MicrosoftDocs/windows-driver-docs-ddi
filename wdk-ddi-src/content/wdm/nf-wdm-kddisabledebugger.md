@@ -53,14 +53,6 @@ req.product: Windows 10 or later.
 The <b>KdDisableDebugger</b> routine disables the kernel debugger. 
 
 
-## -syntax
-
-
-````
-NTSTATUS KdDisableDebugger(void);
-````
-
-
 ## -parameters
 
 
@@ -89,20 +81,18 @@ If the operating system was booted with no debug controls, <b>KdDisableDebugger<
 
 If the kernel debugger is blocked (that is, the <b>KdBlockEnable</b> system variable is set to a value other than <b>FALSE</b>), <b>KdDisableDebugger</b> returns STATUS_ACCESS_DENIED. 
 
-After a caller calls <b>KdDisableDebugger</b> to disable the kernel debugger, the caller can call the <a href="..\wdm\nf-wdm-kdenabledebugger.md">KdEnableDebugger</a> routine to re-enable the kernel debugger.
+After a caller calls <b>KdDisableDebugger</b> to disable the kernel debugger, the caller can call the <a href="https://msdn.microsoft.com/library/windows/hardware/ff548085">KdEnableDebugger</a> routine to re-enable the kernel debugger.
 
 
 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kdenabledebugger.md">KdEnableDebugger</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548085">KdEnableDebugger</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [devtest\devtest]:%20KdDisableDebugger routine%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

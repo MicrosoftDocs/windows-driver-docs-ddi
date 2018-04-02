@@ -7,7 +7,7 @@ old-location: display\miracastiocontrol.htm
 old-project: display
 ms.assetid: df63ec18-79e0-40a6-a412-46071eb8a7fe
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: MiracastIoControl, MiracastIoControl callback function [Display Devices], PFN_MIRACAST_IO_CONTROL, display.miracastiocontrol, netdispumdddi/MiracastIoControl
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: storage\scsiportwmipostprocess.htm
 old-project: storage
 ms.assetid: da1770bc-2233-47ef-afab-cfcb34edb4b9
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: ScsiPortWmiPostProcess, ScsiPortWmiPostProcess routine [Storage Devices], scsiprt_e10d02e1-18d2-4152-ac11-83bdcbb2ce49.xml, scsiwmi/ScsiPortWmiPostProcess, storage.scsiportwmipostprocess
 ms.prod: windows-hardware
 ms.technology: windows-devices

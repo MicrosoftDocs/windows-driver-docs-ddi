@@ -7,7 +7,7 @@ old-location: buses\_usbdevice_startio.htm
 old-project: usbref
 ms.assetid: 6FE2962A-90A3-44C6-9A2E-CCEBCE8C1417
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PUSBDEVICE_STARTIO, P_USBDEVICE_STARTIO, P_USBDEVICE_STARTIO structure pointer [Buses], USBDEVICE_STARTIO, USBDEVICE_STARTIO structure [Buses], _USBDEVICE_STARTIO, buses._usbdevice_startio, ucxusbdevice/P_USBDEVICE_STARTIO, ucxusbdevice/_USBDEVICE_STARTIO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

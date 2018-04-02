@@ -7,7 +7,7 @@ old-location: display\dxgkddisetbrightness.htm
 old-project: display
 ms.assetid: 83609679-20df-463d-ac3a-bb8a87897608
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGK_BRIGHTNESS_SET, DmFunctions_7b5ff27a-7a8f-4dee-8b3d-c9b0df76db6d.xml, DxgkDdiSetBrightness, DxgkDdiSetBrightness callback function [Display Devices], display.dxgkddisetbrightness, dispmprt/DxgkDdiSetBrightness
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: display\d3dkmdt_vidpn_present_path_transformation.htm
 old-project: display
 ms.assetid: 7b2370c8-ea8a-4719-b88a-2401dbafb64c
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMDT_VIDPN_PRESENT_PATH_TRANSFORMATION, D3DKMDT_VIDPN_PRESENT_PATH_TRANSFORMATION structure [Display Devices], DmStructs_3c1dd0fd-471f-48e0-9df5-003f98237ac2.xml, _D3DKMDT_VIDPN_PRESENT_PATH_TRANSFORMATION, d3dkmdt/D3DKMDT_VIDPN_PRESENT_PATH_TRANSFORMATION, display.d3dkmdt_vidpn_present_path_transformation
 ms.prod: windows-hardware
 ms.technology: windows-devices

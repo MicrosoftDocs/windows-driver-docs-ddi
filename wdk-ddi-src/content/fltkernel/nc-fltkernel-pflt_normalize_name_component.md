@@ -7,7 +7,7 @@ old-location: ifsk\pflt_normalize_name_component.htm
 old-project: ifsk
 ms.assetid: 7050e872-3976-4842-9d16-50caf415acbc
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FltCallbacks_674b1fbb-234b-4505-931e-8148e2f23d1b.xml, NormalizeNameComponentCallback, NormalizeNameComponentCallback routine [Installable File System Drivers], PFLT_NORMALIZE_NAME_COMPONENT, fltkernel/NormalizeNameComponentCallback, ifsk.pflt_normalize_name_component
 ms.prod: windows-hardware
 ms.technology: windows-devices

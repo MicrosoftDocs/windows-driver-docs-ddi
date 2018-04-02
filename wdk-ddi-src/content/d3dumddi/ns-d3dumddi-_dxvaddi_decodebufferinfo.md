@@ -7,7 +7,7 @@ old-location: display\dxvaddi_decodebufferinfo.htm
 old-project: display
 ms.assetid: e0a0ad31-86c1-44bd-b069-70442973a539
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXVA2_Structs_b076dffc-bfe0-4141-a075-9349b69af16c.xml, DXVADDI_DECODEBUFFERINFO, DXVADDI_DECODEBUFFERINFO structure [Display Devices], _DXVADDI_DECODEBUFFERINFO, d3dumddi/DXVADDI_DECODEBUFFERINFO, display.dxvaddi_decodebufferinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

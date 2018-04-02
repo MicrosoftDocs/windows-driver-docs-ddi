@@ -7,7 +7,7 @@ old-location: display\setrendertargets_d3d11_.htm
 old-project: display
 ms.assetid: cfe5f570-4e53-43ee-942d-56da8dfcfe80
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3D11DDI_SETRENDERTARGETS, SetRenderTargets, SetRenderTargets callback function [Display Devices], UserModeDisplayDriverDx11_Functions_a24d5500-fe0a-4d17-a3fb-acb6ed9e4698.xml, d3d10umddi/SetRenderTargets, display.setrendertargets_d3d11_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -110,19 +110,11 @@ Indicates the start element, in the array of bind points, where the passed unord
 
 <div class="alert"><b>Note</b>  Only one shared set of binding points exists for render target views (RTVs) and UAVs. RTVs are bound first, followed by UAVs.</div>
 <div> </div>
-<<<<<<< HEAD
 
 #### - UAVNumberUpdated [in]
 
  The number of unordered access view objects (UAVs) in the set of all updated UAVs (which includes <b>NULL</b> bindings). 
 
-=======
-
-#### - UAVNumberUpdated [in]
-
- The number of unordered access view objects (UAVs) in the set of all updated UAVs (which includes <b>NULL</b> bindings). 
-
->>>>>>> parent of 2d896a8e266... Added changes
 <div class="alert"><b>Note</b>  The parameters <i>UAVNumberUpdated</i> and  <i>UAVFirsttoSet</i> specify which range, in the  UAVs array, contains changes in relation to the state previously bound. Notice that points in the range could be unchanged. Also, update range indexing is not different from other parameters. For example, <i>UAVFirsttoSet</i>      starts at 0 as the first element of the shared render target view (RTV) and UAV bound space. This parameter is a convenience that reveals the span of what actually changed given that the Direct3D DDI always binds everything (including what has not changed).</div>
 <div> </div>
 

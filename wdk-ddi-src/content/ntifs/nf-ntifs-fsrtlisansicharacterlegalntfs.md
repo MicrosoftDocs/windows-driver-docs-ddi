@@ -7,7 +7,7 @@ old-location: ifsk\fsrtlisansicharacterlegalntfs.htm
 old-project: ifsk
 ms.assetid: 05d03799-752d-4f59-b96e-1a6d91bee8c4
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FsRtlIsAnsiCharacterLegalNtfs, FsRtlIsAnsiCharacterLegalNtfs function [Installable File System Drivers], fsrtlref_9150101b-7411-4de2-afd5-0b928ed0e6b1.xml, ifsk.fsrtlisansicharacterlegalntfs, ntifs/FsRtlIsAnsiCharacterLegalNtfs
 ms.prod: windows-hardware
 ms.technology: windows-devices

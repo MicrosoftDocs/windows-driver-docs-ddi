@@ -7,7 +7,7 @@ old-location: netvista\wwan_activation_state.htm
 old-project: netvista
 ms.assetid: ca5caf9d-5c73-4516-bbc9-ee3ff9511e99
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*PWWAN_ACTIVATION_STATE, PWWAN_ACTIVATION_STATE, PWWAN_ACTIVATION_STATE enumeration pointer [Network Drivers Starting with Windows Vista], WWAN_ACTIVATION_STATE, WWAN_ACTIVATION_STATE enumeration [Network Drivers Starting with Windows Vista], WwanActivationStateActivated, WwanActivationStateActivating, WwanActivationStateDeactivated, WwanActivationStateDeactivating, WwanActivationStateMax, WwanActivationStateUnknown, WwanRef_d1e0cf59-316c-45a2-8ae3-231c30cae091.xml, _WWAN_ACTIVATION_STATE, netvista.wwan_activation_state, wwan/PWWAN_ACTIVATION_STATE, wwan/WWAN_ACTIVATION_STATE, wwan/WwanActivationStateActivated, wwan/WwanActivationStateActivating, wwan/WwanActivationStateDeactivated, wwan/WwanActivationStateDeactivating, wwan/WwanActivationStateMax, wwan/WwanActivationStateUnknown"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -114,8 +114,3 @@ Miniport drivers use the
 
  
 
-<<<<<<< HEAD
-=======
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20WWAN_ACTIVATION_STATE enumeration%20 RELEASE:%20(2/27/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
-
->>>>>>> parent of 2d896a8e266... Added changes

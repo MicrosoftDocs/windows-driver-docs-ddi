@@ -7,7 +7,7 @@ old-location: ifsk\fsrtllookuplargemcbentry.htm
 old-project: ifsk
 ms.assetid: 35c6fefb-6045-4b0e-abe8-f78176ca144a
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FsRtlLookupLargeMcbEntry, FsRtlLookupLargeMcbEntry routine [Installable File System Drivers], fsrtlref_600ea10a-a948-4169-9877-5a8a603b0426.xml, ifsk.fsrtllookuplargemcbentry, ntifs/FsRtlLookupLargeMcbEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices

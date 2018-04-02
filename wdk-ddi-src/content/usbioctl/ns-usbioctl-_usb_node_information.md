@@ -7,7 +7,7 @@ old-location: buses\usb_node_information.htm
 old-project: usbref
 ms.assetid: 56d30c25-00e7-4edf-af06-64519eb5f755
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PUSB_NODE_INFORMATION, PUSB_NODE_INFORMATION, PUSB_NODE_INFORMATION structure pointer [Buses], USB_NODE_INFORMATION, USB_NODE_INFORMATION structure [Buses], _USB_NODE_INFORMATION, buses.usb_node_information, usbioctl/PUSB_NODE_INFORMATION, usbioctl/USB_NODE_INFORMATION, usbstrct_c3f807a8-2895-4a43-bfd3-84092fb4115e.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices

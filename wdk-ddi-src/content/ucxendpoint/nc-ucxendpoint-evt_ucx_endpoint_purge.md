@@ -7,7 +7,7 @@ old-location: buses\evt_ucx_endpoint_purge.htm
 old-project: usbref
 ms.assetid: e4ceb597-ebfe-4016-ba83-e5246a70f566
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: EVT_UCX_ENDPOINT_PURGE, EvtUcxEndpointPurge, EvtUcxEndpointPurge callback function [Buses], PEVT_UCX_ENDPOINT_PURGE, PEVT_UCX_ENDPOINT_PURGE callback function pointer [Buses], buses.evt_ucx_endpoint_purge, ucxendpoint/EvtUcxEndpointPurge
 ms.prod: windows-hardware
 ms.technology: windows-devices

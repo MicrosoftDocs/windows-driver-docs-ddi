@@ -7,7 +7,7 @@ old-location: display\cssetshaderresources.htm
 old-project: display
 ms.assetid: 29570c3b-eb3b-4d8f-b471-8f3ea6226e23
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: CsSetShaderResources, CsSetShaderResources callback function [Display Devices], PFND3D10DDI_SETSHADERRESOURCES, UserModeDisplayDriverDx11_Functions_0fe556e4-8c6f-4848-b502-d35744c60713.xml, d3d10umddi/CsSetShaderResources, display.cssetshaderresources
 ms.prod: windows-hardware
 ms.technology: windows-devices

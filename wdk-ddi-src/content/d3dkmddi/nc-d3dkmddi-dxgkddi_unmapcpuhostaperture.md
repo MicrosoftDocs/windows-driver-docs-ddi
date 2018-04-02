@@ -7,7 +7,7 @@ old-location: display\dxgkddiunmapcpuhostaperture.htm
 old-project: display
 ms.assetid: AFE6B92F-49DB-47F9-90BC-F75B5F37178D
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKDDI_UNMAPCPUHOSTAPERTURE, DxgkDdiUnmapCpuHostAperture, DxgkDdiUnmapCpuHostAperture callback function [Display Devices], d3dkmddi/DxgkDdiUnmapCpuHostAperture, display.dxgkddiunmapcpuhostaperture
 ms.prod: windows-hardware
 ms.technology: windows-devices

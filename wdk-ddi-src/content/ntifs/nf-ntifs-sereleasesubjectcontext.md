@@ -7,7 +7,7 @@ old-location: ifsk\sereleasesubjectcontext.htm
 old-project: ifsk
 ms.assetid: efae077e-2698-4392-ac2a-8f41acdb12a2
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: SeReleaseSubjectContext, SeReleaseSubjectContext routine [Installable File System Drivers], ifsk.sereleasesubjectcontext, ntifs/SeReleaseSubjectContext, seref_f46fe5d3-13d1-4907-85b4-47eb78116fe0.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: ifsk\fsrtloplockisfastiopossible.htm
 old-project: ifsk
 ms.assetid: ba482fbf-862c-48b4-b8f9-aaab6c5527ee
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FsRtlOplockIsFastIoPossible, FsRtlOplockIsFastIoPossible function [Installable File System Drivers], fsrtlref_94131dc4-e2ee-4ec0-92b9-39cd8a7d6e41.xml, ifsk.fsrtloplockisfastiopossible, rxprocs/FsRtlOplockIsFastIoPossible
 ms.prod: windows-hardware
 ms.technology: windows-devices

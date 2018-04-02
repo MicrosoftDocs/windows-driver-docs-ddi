@@ -7,7 +7,7 @@ old-location: display\resourceunmap.htm
 old-project: display
 ms.assetid: fb2b714e-232d-40b2-88ad-ee8dcd70a057
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3D10DDI_RESOURCEUNMAP, ResourceUnmap, ResourceUnmap callback function [Display Devices], UserModeDisplayDriverDx10_Functions_473ebdfc-f365-4194-9d52-6338e19ca0d5.xml, d3d10umddi/ResourceUnmap, display.resourceunmap
 ms.prod: windows-hardware
 ms.technology: windows-devices

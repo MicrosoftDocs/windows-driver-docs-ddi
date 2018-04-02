@@ -7,7 +7,7 @@ old-location: display\d3d11ddiarg_tex2d_unorderedaccessview.htm
 old-project: display
 ms.assetid: 2d6a5945-5e30-404c-8ddb-13be781da1b4
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3D11DDIARG_TEX2D_UNORDEREDACCESSVIEW, D3D11DDIARG_TEX2D_UNORDEREDACCESSVIEW structure [Display Devices], UMDisplayDriver_Dx11param_Structs_ca281413-3ae7-472c-acd6-76c8ef97b713.xml, d3d10umddi/D3D11DDIARG_TEX2D_UNORDEREDACCESSVIEW, display.d3d11ddiarg_tex2d_unorderedaccessview
 ms.prod: windows-hardware
 ms.technology: windows-devices

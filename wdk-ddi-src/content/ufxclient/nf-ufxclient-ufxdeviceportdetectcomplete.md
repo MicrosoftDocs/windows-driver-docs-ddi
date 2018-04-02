@@ -7,7 +7,7 @@ old-location: buses\ufxdeviceportdetectcomplete.htm
 old-project: usbref
 ms.assetid: D5F65152-54CD-45FA-99CE-F5B4DF444BB8
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: UfxDevicePortDetectComplete, UfxDevicePortDetectComplete method [Buses], buses.ufxdeviceportdetectcomplete, ufxclient/UfxDevicePortDetectComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices

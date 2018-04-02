@@ -7,7 +7,7 @@ old-location: storage\idehwbuildio.htm
 old-project: storage
 ms.assetid: 057fb78f-6f1c-4b16-b9fa-6fcff299a90d
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: IDE_HW_BUILDIO, IdeHwBuildIo, IdeHwBuildIo routine [Storage Devices], atartns_9111d60c-e0e1-4c5c-aacf-2af56fcf7338.xml, irb/IdeHwBuildIo, storage.idehwbuildio
 ms.prod: windows-hardware
 ms.technology: windows-devices

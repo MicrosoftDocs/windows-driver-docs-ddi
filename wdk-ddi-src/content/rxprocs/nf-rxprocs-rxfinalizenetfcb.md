@@ -7,7 +7,7 @@ old-location: ifsk\rxfinalizenetfcb.htm
 old-project: ifsk
 ms.assetid: 1eed44e2-f9ed-45a1-a5fa-dbf6a9c7c703
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: RxFinalizeNetFcb, RxFinalizeNetFcb function [Installable File System Drivers], ifsk.rxfinalizenetfcb, rxprocs/RxFinalizeNetFcb, rxref_5aaa19aa-c75c-4978-b731-f3046e84217d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

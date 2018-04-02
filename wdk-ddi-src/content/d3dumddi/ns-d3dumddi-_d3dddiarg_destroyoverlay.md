@@ -7,7 +7,7 @@ old-location: display\d3dddiarg_destroyoverlay.htm
 old-project: display
 ms.assetid: a468205c-288c-49d5-ab14-0ee39dca7b7c
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDIARG_DESTROYOVERLAY, D3DDDIARG_DESTROYOVERLAY structure [Display Devices], UMDisplayDriver_param_Structs_e7a2d82a-2e1c-4362-ae4d-23617911de3b.xml, _D3DDDIARG_DESTROYOVERLAY, d3dumddi/D3DDDIARG_DESTROYOVERLAY, display.d3dddiarg_destroyoverlay
 ms.prod: windows-hardware
 ms.technology: windows-devices

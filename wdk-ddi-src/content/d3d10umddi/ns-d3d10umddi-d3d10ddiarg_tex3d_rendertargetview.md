@@ -7,7 +7,7 @@ old-location: display\d3d10ddiarg_tex3d_rendertargetview.htm
 old-project: display
 ms.assetid: 2feff5f5-a104-4738-94be-add08fd99037
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3D10DDIARG_TEX3D_RENDERTARGETVIEW, D3D10DDIARG_TEX3D_RENDERTARGETVIEW structure [Display Devices], UMDisplayDriver_Dx10param_Structs_705e661d-890a-45db-a805-60d2c2cbde6f.xml, d3d10umddi/D3D10DDIARG_TEX3D_RENDERTARGETVIEW, display.d3d10ddiarg_tex3d_rendertargetview
 ms.prod: windows-hardware
 ms.technology: windows-devices

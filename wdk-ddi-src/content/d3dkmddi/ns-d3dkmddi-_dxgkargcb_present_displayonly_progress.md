@@ -7,7 +7,7 @@ old-location: display\dxgkargcb_present_displayonly_progress.htm
 old-project: display
 ms.assetid: c3849df0-0794-43fe-ba29-6daa8461cd9a
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKARGCB_PRESENT_DISPLAYONLY_PROGRESS, DXGKARGCB_PRESENT_DISPLAYONLY_PROGRESS structure [Display Devices], _DXGKARGCB_PRESENT_DISPLAYONLY_PROGRESS, d3dkmddi/DXGKARGCB_PRESENT_DISPLAYONLY_PROGRESS, display.dxgkargcb_present_displayonly_progress
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: display\dxgkarg_acquireswizzlingrange.htm
 old-project: display
 ms.assetid: 865f4d08-f2b3-4922-956f-2c49aa4e68b0
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*INOUT_PDXGKARG_ACQUIRESWIZZLINGRANGE, DXGKARG_ACQUIRESWIZZLINGRANGE, DXGKARG_ACQUIRESWIZZLINGRANGE structure [Display Devices], DmStructs_761fb707-877a-455c-b5cd-0c2e2b050aea.xml, _DXGKARG_ACQUIRESWIZZLINGRANGE, d3dkmddi/DXGKARG_ACQUIRESWIZZLINGRANGE, display.dxgkarg_acquireswizzlingrange"
 ms.prod: windows-hardware
 ms.technology: windows-devices

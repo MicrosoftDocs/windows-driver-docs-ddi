@@ -7,7 +7,7 @@ old-location: storage\hwstorworkitem.htm
 old-project: storage
 ms.assetid: CBBB1350-66BE-4F74-A0CE-0400245352F3
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: HW_WORKITEM, HwStorWorkItem, HwStorWorkItem routine [Storage Devices], storage.hwstorworkitem, storport/HwStorWorkItem
 ms.prod: windows-hardware
 ms.technology: windows-devices

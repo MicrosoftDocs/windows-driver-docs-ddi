@@ -7,7 +7,7 @@ old-location: ifsk\fsrtlnotifyfilterreportchange.htm
 old-project: ifsk
 ms.assetid: 7924405f-9862-4704-bff1-05e0285592b9
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FsRtlNotifyFilterReportChange, FsRtlNotifyFilterReportChange function [Installable File System Drivers], fsrtlref_c4a79c57-aa80-40f3-9882-76ed887c99cb.xml, ifsk.fsrtlnotifyfilterreportchange, ntifs/FsRtlNotifyFilterReportChange
 ms.prod: windows-hardware
 ms.technology: windows-devices

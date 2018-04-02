@@ -7,7 +7,7 @@ old-location: display\dxgk_vidpntopology_interface_pfnenumpathtargetsfromsource.
 old-project: display
 ms.assetid: ca925b3c-8141-419d-99a1-43764ec07315
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKDDI_VIDPNTOPOLOGY_ENUMPATHTARGETSFROMSOURCE, VidPnFunctions_1d5b570a-a3c6-444f-884f-cbd7228f64c9.xml, d3dkmddi/pfnEnumPathTargetsFromSource, display.dxgk_vidpntopology_interface_pfnenumpathtargetsfromsource, pfnEnumPathTargetsFromSource, pfnEnumPathTargetsFromSource callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: display\setpalette.htm
 old-project: display
 ms.assetid: 5d1c8c2d-7886-4876-b48e-1e6b252ae8f7
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3DDDI_SETPALETTE, SetPalette, SetPalette callback function [Display Devices], UserModeDisplayDriver_Functions_9366fa90-a9d7-4c03-9c96-a8bc4eba6abb.xml, d3dumddi/SetPalette, display.setpalette
 ms.prod: windows-hardware
 ms.technology: windows-devices

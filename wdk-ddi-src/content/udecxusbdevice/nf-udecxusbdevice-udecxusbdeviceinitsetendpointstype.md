@@ -7,7 +7,7 @@ old-location: buses\udecxusbdeviceinitsetendpointstype.htm
 old-project: usbref
 ms.assetid: 44760191-77DD-40A9-AA11-AE8AB55AB307
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: UdecxUsbDeviceInitSetEndpointsType, UdecxUsbDeviceInitSetEndpointsType function [Buses], buses.udecxusbdeviceinitsetendpointstype, udecxusbdevice/UdecxUsbDeviceInitSetEndpointsType
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: display\dxgkddiopmgetcertificatesize.htm
 old-project: display
 ms.assetid: fe4197ad-52a2-47b3-ad96-57ea73cd931f
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKDDI_OPM_GET_CERTIFICATE_SIZE, Dm_Opm_functions_62785ff7-3c52-4e07-b075-eb27de1236b8.xml, DxgkDdiOPMGetCertificateSize, DxgkDdiOPMGetCertificateSize callback function [Display Devices], display.dxgkddiopmgetcertificatesize, dispmprt/DxgkDdiOPMGetCertificateSize
 ms.prod: windows-hardware
 ms.technology: windows-devices

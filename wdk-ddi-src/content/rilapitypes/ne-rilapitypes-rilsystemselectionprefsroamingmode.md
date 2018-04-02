@@ -7,7 +7,7 @@ old-location: netvista\rilsystemselectionprefsroamingmode.htm
 old-project: netvista
 ms.assetid: aa9e1a92-e175-46ce-9f2e-3794e8d96636
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: RILSYSTEMSELECTIONPREFSROAMINGMODE, RILSYSTEMSELECTIONPREFSROAMINGMODE enumeration [Network Drivers Starting with Windows Vista], RIL_ROAMMODE_AUTOMATIC, RIL_ROAMMODE_DOMESTIC, RIL_ROAMMODE_MAX, netvista.rilsystemselectionprefsroamingmode, ntddrilapitypes/RILSYSTEMSELECTIONPREFSROAMINGMODE, ntddrilapitypes/RIL_ROAMMODE_AUTOMATIC, ntddrilapitypes/RIL_ROAMMODE_DOMESTIC, ntddrilapitypes/RIL_ROAMMODE_MAX
 ms.prod: windows-hardware
 ms.technology: windows-devices

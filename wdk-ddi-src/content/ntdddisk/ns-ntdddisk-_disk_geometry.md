@@ -7,7 +7,7 @@ old-location: storage\disk_geometry.htm
 old-project: storage
 ms.assetid: f92d1f63-4361-4775-88f8-be1c9bf781ef
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PDISK_GEOMETRY, DISK_GEOMETRY, DISK_GEOMETRY structure [Storage Devices], PDISK_GEOMETRY, PDISK_GEOMETRY structure pointer [Storage Devices], _DISK_GEOMETRY, ntdddisk/DISK_GEOMETRY, ntdddisk/PDISK_GEOMETRY, storage.disk_geometry, structs-disk_3ad908b7-8f42-4a06-914e-92b631cc1a56.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices

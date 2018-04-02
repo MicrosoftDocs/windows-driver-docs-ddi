@@ -7,7 +7,7 @@ old-location: display\decryptionblt1.htm
 old-project: display
 ms.assetid: 36aeb826-251e-404e-8ce3-6b2246ff07bc
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DecryptionBlt, DecryptionBlt callback function [Display Devices], PFND3D11_1DDI_DECRYPTIONBLT, d3d10umddi/DecryptionBlt, display.decryptionblt1
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: display\dxgk_buildpagingbuffer_copypagetableentries.htm
 old-project: display
 ms.assetid: 627FB3E6-3C5D-4104-B129-08D3EC0B963E
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGK_BUILDPAGINGBUFFER_COPYPAGETABLEENTRIES, DXGK_BUILDPAGINGBUFFER_COPYPAGETABLEENTRIES structure [Display Devices], _DXGK_BUILDPAGINGBUFFER_COPYPAGETABLEENTRIES, d3dkmddi/DXGK_BUILDPAGINGBUFFER_COPYPAGETABLEENTRIES, display.dxgk_buildpagingbuffer_copypagetableentries
 ms.prod: windows-hardware
 ms.technology: windows-devices

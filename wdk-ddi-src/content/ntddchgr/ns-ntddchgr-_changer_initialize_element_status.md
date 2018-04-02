@@ -7,7 +7,7 @@ old-location: storage\changer_initialize_element_status.htm
 old-project: storage
 ms.assetid: fd26a97d-cbea-4ab4-b54e-1831d6e3a8ed
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PCHANGER_INITIALIZE_ELEMENT_STATUS, CHANGER_INITIALIZE_ELEMENT_STATUS, CHANGER_INITIALIZE_ELEMENT_STATUS structure [Storage Devices], PCHANGER_INITIALIZE_ELEMENT_STATUS, PCHANGER_INITIALIZE_ELEMENT_STATUS structure pointer [Storage Devices], _CHANGER_INITIALIZE_ELEMENT_STATUS, ntddchgr/CHANGER_INITIALIZE_ELEMENT_STATUS, ntddchgr/PCHANGER_INITIALIZE_ELEMENT_STATUS, storage.changer_initialize_element_status, structs-changer_94235bd7-09e6-47a1-b30c-0d5d12ca7917.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: display\setstreamsourceum.htm
 old-project: display
 ms.assetid: 75a70801-0338-45ed-a691-5f84202575d5
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3DDDI_SETSTREAMSOURCEUM, SetStreamSourceUM, SetStreamSourceUM callback function [Display Devices], UserModeDisplayDriver_Functions_0bea09c2-3bd9-4c60-9688-1c5a687e0dc9.xml, d3dumddi/SetStreamSourceUM, display.setstreamsourceum
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: display\decodeendframe.htm
 old-project: display
 ms.assetid: 6e8d3280-6ddc-4593-9208-c4f0c9ff254c
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DecodeEndFrame, DecodeEndFrame callback function [Display Devices], PFND3DDDI_DECODEENDFRAME, UserModeDisplayDriver_Functions_c80e307b-2b64-4b43-84c3-cae711e8282f.xml, d3dumddi/DecodeEndFrame, display.decodeendframe
 ms.prod: windows-hardware
 ms.technology: windows-devices

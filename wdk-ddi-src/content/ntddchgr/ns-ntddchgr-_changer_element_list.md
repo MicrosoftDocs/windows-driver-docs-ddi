@@ -7,7 +7,7 @@ old-location: storage\changer_element_list.htm
 old-project: storage
 ms.assetid: 6e85eaa7-d622-4b05-9efd-c1b6b7789c03
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PCHANGER_ELEMENT_LIST, CHANGER_ELEMENT_LIST, CHANGER_ELEMENT_LIST structure [Storage Devices], PCHANGER_ELEMENT_LIST, PCHANGER_ELEMENT_LIST structure pointer [Storage Devices], _CHANGER_ELEMENT_LIST, ntddchgr/CHANGER_ELEMENT_LIST, ntddchgr/PCHANGER_ELEMENT_LIST, storage.changer_element_list, structs-changer_e1782d96-458d-49a5-9885-c853d835ba0a.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices

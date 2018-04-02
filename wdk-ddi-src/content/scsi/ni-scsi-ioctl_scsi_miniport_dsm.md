@@ -7,7 +7,7 @@ old-location: storage\ioctl_scsi_miniport_dsm.htm
 old-project: storage
 ms.assetid: CA91B623-F926-453D-A348-92655875D801
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_SCSI_MINIPORT_DSM, IOCTL_SCSI_MINIPORT_DSM control code [Storage Devices], scsi/IOCTL_SCSI_MINIPORT_DSM, storage.ioctl_scsi_miniport_dsm
 ms.prod: windows-hardware
 ms.technology: windows-devices

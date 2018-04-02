@@ -7,7 +7,7 @@ old-location: display\d3d12ddi-view-instance-location.htm
 old-project: display
 ms.assetid: 1b31ac34-233b-4246-a1c3-d0aac0f35db6
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3D12DDI_VIEW_INSTANCE_LOCATION, D3D12DDI_VIEW_INSTANCE_LOCATION structure [Display Devices], d3d12umddi/D3D12DDI_VIEW_INSTANCE_LOCATION, display.d3d12ddi-view-instance-location
 ms.prod: windows-hardware
 ms.technology: windows-devices

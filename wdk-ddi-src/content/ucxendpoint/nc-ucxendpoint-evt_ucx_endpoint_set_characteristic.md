@@ -7,7 +7,7 @@ old-location: buses\evt_ucx_endpoint_set_characteristic.htm
 old-project: usbref
 ms.assetid: 4FA3F175-52E4-472D-A9B3-B3B4B37E1701
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: EVT_UCX_ENDPOINT_SET_CHARACTERISTIC, EvtUcxEndpointSetCharacteristic, EvtUcxEndpointSetCharacteristic callback function [Buses], buses.evt_ucx_endpoint_set_characteristic, ucxendpoint/EvtUcxEndpointSetCharacteristic
 ms.prod: windows-hardware
 ms.technology: windows-devices

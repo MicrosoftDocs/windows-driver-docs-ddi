@@ -7,7 +7,7 @@ old-location: ifsk\mrxislockrealizable.htm
 old-project: ifsk
 ms.assetid: 4b8c9a94-a81e-4a02-b68c-10b2fb64157f
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: MRxIsLockRealizable, MRxIsLockRealizable routine [Installable File System Drivers], PMRX_IS_LOCK_REALIZABLE, ifsk.mrxislockrealizable, mrx/MRxIsLockRealizable, mrxref_52518201-df6f-40ab-803d-14d8fc0993f6.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

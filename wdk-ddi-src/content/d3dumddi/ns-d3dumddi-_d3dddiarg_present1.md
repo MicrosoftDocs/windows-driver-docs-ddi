@@ -7,7 +7,7 @@ old-location: display\d3dddiarg_present1.htm
 old-project: display
 ms.assetid: 17EBEEF1-4C86-4948-AADA-669B2952755A
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDIARG_PRESENT1, D3DDDIARG_PRESENT1 structure [Display Devices], _D3DDDIARG_PRESENT1, d3dumddi/D3DDDIARG_PRESENT1, display.d3dddiarg_present1
 ms.prod: windows-hardware
 ms.technology: windows-devices

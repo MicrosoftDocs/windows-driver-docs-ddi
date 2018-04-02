@@ -7,7 +7,7 @@ old-location: buses\ioctl_ucmtcpci_port_controller_set_receive_detect.htm
 old-project: usbref
 ms.assetid: D76C78F0-DCC3-4C63-91B9-38CC1D8BD513
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_UCMTCPCI_PORT_CONTROLLER_SET_RECEIVE_DETECT, IOCTL_UCMTCPCI_PORT_CONTROLLER_SET_RECEIVE_DETECT control code [Buses], buses.ioctl_ucmtcpci_port_controller_set_receive_detect, ucmtcpciportcontrollerrequests/IOCTL_UCMTCPCI_PORT_CONTROLLER_SET_RECEIVE_DETECT
 ms.prod: windows-hardware
 ms.technology: windows-devices

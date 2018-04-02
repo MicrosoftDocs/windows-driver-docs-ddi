@@ -7,7 +7,7 @@ old-location: display\iasetindexbuffer.htm
 old-project: display
 ms.assetid: 042ebb72-b794-4cb8-9d81-bd52a785f1e0
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: IaSetIndexBuffer, IaSetIndexBuffer callback function [Display Devices], PFND3D10DDI_IA_SETINDEXBUFFER, UserModeDisplayDriverDx10_Functions_5b51e721-283c-447e-8170-17af90a29081.xml, d3d10umddi/IaSetIndexBuffer, display.iasetindexbuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices

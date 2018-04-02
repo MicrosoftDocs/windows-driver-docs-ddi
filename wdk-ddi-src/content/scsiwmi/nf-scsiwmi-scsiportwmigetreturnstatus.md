@@ -7,7 +7,7 @@ old-location: storage\scsiportwmigetreturnstatus.htm
 old-project: storage
 ms.assetid: 79213f47-ba4c-41b0-b095-1b5c25c79456
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: ScsiPortWmiGetReturnStatus, ScsiPortWmiGetReturnStatus macro [Storage Devices], scsiprt_cb3693a3-2fab-4d25-9c64-84327a7ef61c.xml, scsiwmi/ScsiPortWmiGetReturnStatus, storage.scsiportwmigetreturnstatus
 ms.prod: windows-hardware
 ms.technology: windows-devices

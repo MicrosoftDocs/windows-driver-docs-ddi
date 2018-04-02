@@ -7,7 +7,7 @@ old-location: ifsk\ioisfileopenedexclusively.htm
 old-project: ifsk
 ms.assetid: ffe3196b-22f4-4d45-abcc-928857d215b5
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: IoIsFileOpenedExclusively, IoIsFileOpenedExclusively macro [Installable File System Drivers], ifsk.ioisfileopenedexclusively, ioref_3aa5aef5-1d17-4301-b02f-8013829fea38.xml, ntifs/IoIsFileOpenedExclusively
 ms.prod: windows-hardware
 ms.technology: windows-devices

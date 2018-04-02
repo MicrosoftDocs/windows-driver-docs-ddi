@@ -53,20 +53,6 @@ req.product: Windows 10 or later.
 The <b>EventWriteString</b> function is a tracing function that you can use when no sophisticated data is required. This function is similar to a debug print statement. 
 
 
-## -syntax
-
-
-````
-NTSTATUS EtwWriteString(
-  _In_     REGHANDLE RegHandle,
-  _In_     UCHAR     Level,
-  _In_     ULONGLONG Keyword,
-  _In_opt_ LPCGUID   ActivityId,
-  _In_     PCWSTR    String
-);
-````
-
-
 ## -parameters
 
 
@@ -112,28 +98,26 @@ The function returns STATUS_SUCCESS if the event is published successfully.
 
 Because the string produced by <b>EventWriteString</b> function is not localizable, this function is not recommended for use in production code. This function should not be used to log highly visible events.
 
-You can call <b>EtwWriteString</b> at any IRQL. However, when IRQL is greater than APC_LEVEL, any data passed to the <b>EtwWrite</b>, <a href="..\wdm\nf-wdm-etwwriteex.md">EtwWriteEx</a>, <b>EtwWriteString</b>,  and <b>EtwWriteTransfer</b> functions must not be pageable. That is, any kernel-mode routine that is running at IRQL greater than APC_LEVEL cannot access pageable memory. Data passed to the <b>EtwWrite</b>, <b>EtwWriteEx</b>, <b>EtwWriteString</b>, and <b>EtwWriteTransfer</b> functions must reside in system-space memory, regardless of what the IRQL is.
+You can call <b>EtwWriteString</b> at any IRQL. However, when IRQL is greater than APC_LEVEL, any data passed to the <b>EtwWrite</b>, <a href="https://msdn.microsoft.com/library/windows/hardware/dn144773">EtwWriteEx</a>, <b>EtwWriteString</b>,  and <b>EtwWriteTransfer</b> functions must not be pageable. That is, any kernel-mode routine that is running at IRQL greater than APC_LEVEL cannot access pageable memory. Data passed to the <b>EtwWrite</b>, <b>EtwWriteEx</b>, <b>EtwWriteString</b>, and <b>EtwWriteTransfer</b> functions must reside in system-space memory, regardless of what the IRQL is.
 
 
 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-etwwrite.md">EtwWrite</a>
 
 
 
-<a href="..\wdm\nf-wdm-etwwriteex.md">EtwWriteEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545627">EtwWrite</a>
 
 
 
-<a href="..\wdm\nf-wdm-etwwritetransfer.md">EtwWriteTransfer</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn144773">EtwWriteEx</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545642">EtwWriteTransfer</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [devtest\devtest]:%20EtwWriteString function%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

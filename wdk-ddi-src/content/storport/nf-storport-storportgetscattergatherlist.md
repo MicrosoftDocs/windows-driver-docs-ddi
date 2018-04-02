@@ -7,7 +7,7 @@ old-location: storage\storportgetscattergatherlist.htm
 old-project: storage
 ms.assetid: ddb7052d-b9f3-40f6-b00a-6bf52f010cdc
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: StorPortGetScatterGatherList, StorPortGetScatterGatherList routine [Storage Devices], storage.storportgetscattergatherlist, storport/StorPortGetScatterGatherList, storprt_1736d395-ccc8-42ec-8d84-a9d3b7656996.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

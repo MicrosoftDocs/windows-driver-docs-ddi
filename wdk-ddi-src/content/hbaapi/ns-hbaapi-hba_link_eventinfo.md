@@ -7,7 +7,7 @@ old-location: storage\hba_link_eventinfo.htm
 old-project: storage
 ms.assetid: be682bc7-61cb-40bd-920d-bc2224d6e426
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PHBA_LINK_EVENTINFO, HBA_LINK_EVENTINFO, HBA_LINK_EVENTINFO structure [Storage Devices], HBA_Link_EventInfo, HBA_Link_EventInfo structure [Storage Devices], PHBA_LINK_EVENTINFO, PHBA_LINK_EVENTINFO structure pointer [Storage Devices], hbaapi/HBA_Link_EventInfo, hbaapi/PHBA_LINK_EVENTINFO, storage.hba_link_eventinfo, structs-Fibre_eb994375-ebac-41f5-af82-341f14400b1f.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices

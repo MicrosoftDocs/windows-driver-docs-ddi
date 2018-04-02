@@ -3,12 +3,12 @@ UID: NS:gnssdriver.GNSS_GEOFENCE_DELETE_PARAM
 title: GNSS_GEOFENCE_DELETE_PARAM
 author: windows-driver-content
 description: This structure is used for deleting a geofence.
-old-location: gnss\gnss_geofence_delete_param.htm
-old-project: gnss
+old-location: sensors\gnss_geofence_delete_param.htm
+old-project: sensors
 ms.assetid: 5F22EC0A-C4C6-43BB-B005-654E47EFACF7
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: "*PGNSS_GEOFENCE_DELETE_PARAM, GNSS_GEOFENCE_DELETE_PARAM, GNSS_GEOFENCE_DELETE_PARAM structure [Sensor Devices], PGNSS_GEOFENCE_DELETE_PARAM, PGNSS_GEOFENCE_DELETE_PARAM structure pointer [Sensor Devices], gnss.gnss_geofence_delete_param, gnssdriver/GNSS_GEOFENCE_DELETE_PARAM, gnssdriver/PGNSS_GEOFENCE_DELETE_PARAM"
+ms.date: 2/22/2018
+ms.keywords: "*PGNSS_GEOFENCE_DELETE_PARAM, GNSS_GEOFENCE_DELETE_PARAM, GNSS_GEOFENCE_DELETE_PARAM structure [Sensor Devices], PGNSS_GEOFENCE_DELETE_PARAM, PGNSS_GEOFENCE_DELETE_PARAM structure pointer [Sensor Devices], gnssdriver/GNSS_GEOFENCE_DELETE_PARAM, gnssdriver/PGNSS_GEOFENCE_DELETE_PARAM, sensors.gnss_geofence_delete_param"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -50,19 +50,6 @@ req.typenames: GNSS_GEOFENCE_DELETE_PARAM, *PGNSS_GEOFENCE_DELETE_PARAM
 
 
 This structure is used for deleting a geofence.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  ULONG Size;
-  ULONG Version;
-  ULONG GeofenceID;
-  BYTE  Unused[512];
-} GNSS_GEOFENCE_DELETE_PARAM, *PGNSS_GEOFENCE_DELETE_PARAM;
-````
 
 
 ## -struct-fields

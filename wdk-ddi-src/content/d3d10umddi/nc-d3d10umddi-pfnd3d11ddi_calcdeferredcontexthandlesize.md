@@ -7,7 +7,7 @@ old-location: display\calcdeferredcontexthandlesize.htm
 old-project: display
 ms.assetid: d26c26ef-be8e-434a-b3d3-623ed539c541
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: CalcDeferredContextHandleSize, CalcDeferredContextHandleSize callback function [Display Devices], PFND3D11DDI_CALCDEFERREDCONTEXTHANDLESIZE, UserModeDisplayDriverDx11_Functions_f5e77e2c-2925-4556-b80a-84636a4b326a.xml, d3d10umddi/CalcDeferredContextHandleSize, display.calcdeferredcontexthandlesize
 ms.prod: windows-hardware
 ms.technology: windows-devices

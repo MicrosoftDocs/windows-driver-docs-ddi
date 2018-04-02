@@ -7,7 +7,7 @@ old-location: display\logmarkerstringtableentry.htm
 old-project: display
 ms.assetid: 54D1F822-2D82-498D-A50F-A917FA127496
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: LogMarkerStringTableEntry, LogMarkerStringTableEntry callback function [Display Devices], PFND3DDDICB_LOGSTRINGTABLEENTRY, d3dumddi/LogMarkerStringTableEntry, display.logmarkerstringtableentry
 ms.prod: windows-hardware
 ms.technology: windows-devices

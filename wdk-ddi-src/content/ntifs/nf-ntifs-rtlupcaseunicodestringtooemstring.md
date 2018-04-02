@@ -7,7 +7,7 @@ old-location: ifsk\rtlupcaseunicodestringtooemstring.htm
 old-project: ifsk
 ms.assetid: 3d81c5e4-780b-4b1f-ad3a-6d59cab5650f
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: RtlUpcaseUnicodeStringToOemString, RtlUpcaseUnicodeStringToOemString routine [Installable File System Drivers], ifsk.rtlupcaseunicodestringtooemstring, ntifs/RtlUpcaseUnicodeStringToOemString, rtlref_a98f9782-c665-40fa-af3d-47eb2bef27d9.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

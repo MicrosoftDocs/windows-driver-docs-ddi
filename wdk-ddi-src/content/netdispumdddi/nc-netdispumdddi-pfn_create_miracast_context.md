@@ -7,7 +7,7 @@ old-location: display\createmiracastcontext.htm
 old-project: display
 ms.assetid: 3b10ddd9-a48d-4f96-b35e-db017d1f9583
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: CreateMiracastContext, CreateMiracastContext callback function [Display Devices], PFN_CREATE_MIRACAST_CONTEXT, display.createmiracastcontext, netdispumdddi/CreateMiracastContext
 ms.prod: windows-hardware
 ms.technology: windows-devices

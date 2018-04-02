@@ -7,7 +7,7 @@ old-location: display\createdeferredcontext.htm
 old-project: display
 ms.assetid: 464a2291-55c8-4e51-ba08-219ce426d038
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: CreateDeferredContext, CreateDeferredContext callback function [Display Devices], PFND3D11DDI_CREATEDEFERREDCONTEXT, UserModeDisplayDriverDx11_Functions_8de581fa-3b85-4827-bf32-f0b96d011202.xml, d3d10umddi/CreateDeferredContext, display.createdeferredcontext
 ms.prod: windows-hardware
 ms.technology: windows-devices

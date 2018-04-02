@@ -7,7 +7,7 @@ old-location: display\iddcx_metadata.htm
 old-project: display
 ms.assetid: 7128e49d-71e9-4014-9f08-591cfaeba363
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: IDDCX_METADATA, IDDCX_METADATA structure, IDDCX_METADATA structure [Display Devices], IDDCX_METADATA structure pointer [Display Devices], IDDCX_METADATA structure structure [Display Devices], display.iddcx_metadata, iddcx/IDDCX_METADATA
 ms.prod: windows-hardware
 ms.technology: windows-devices

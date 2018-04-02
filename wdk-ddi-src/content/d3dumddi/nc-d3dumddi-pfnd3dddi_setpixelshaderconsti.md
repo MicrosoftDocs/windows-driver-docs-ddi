@@ -7,7 +7,7 @@ old-location: display\setpixelshaderconsti.htm
 old-project: display
 ms.assetid: fafc046e-0595-4901-bfb1-70bd980388bc
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3DDDI_SETPIXELSHADERCONSTI, SetPixelShaderConstI, SetPixelShaderConstI callback function [Display Devices], UserModeDisplayDriver_Functions_409d06ae-2fdf-4c27-9f12-abd91a179bcb.xml, d3dumddi/SetPixelShaderConstI, display.setpixelshaderconsti
 ms.prod: windows-hardware
 ms.technology: windows-devices

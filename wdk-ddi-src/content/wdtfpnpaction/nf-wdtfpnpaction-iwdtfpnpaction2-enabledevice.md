@@ -7,7 +7,7 @@ old-location: dtf\iwdtfpnpaction2_enabledevice.htm
 old-project: dtf
 ms.assetid: f11d31ec-71fb-4110-949c-6d33671dc85c
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 3/29/2018
 ms.keywords: EnableDevice method [Windows Device Testing Framework], EnableDevice method [Windows Device Testing Framework], IWDTFPNPAction2 interface, EnableDevice,IWDTFPNPAction2.EnableDevice, IWDTFPNPAction2, IWDTFPNPAction2 interface [Windows Device Testing Framework], EnableDevice method, IWDTFPNPAction2::EnableDevice, Microsoft.WDTF.IWDTFPNPAction2.EnableDevice, Microsoft::WDTF::IWDTFPNPAction2::EnableDevice, dtf.iwdtfpnpaction2_enabledevice, wdtfpnpaction/IWDTFPNPAction2::EnableDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices

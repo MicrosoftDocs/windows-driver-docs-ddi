@@ -7,7 +7,7 @@ old-location: display\d3dwddm2_0ddi_devicefuncs.htm
 old-project: display
 ms.assetid: 9A41512A-91C4-4053-9C60-5B485E93D14B
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DWDDM2_0DDI_DEVICEFUNCS, D3DWDDM2_0DDI_DEVICEFUNCS structure [Display Devices], d3d10umddi/D3DWDDM2_0DDI_DEVICEFUNCS, display.d3dwddm2_0ddi_devicefuncs
 ms.prod: windows-hardware
 ms.technology: windows-devices

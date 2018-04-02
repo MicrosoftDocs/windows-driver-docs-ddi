@@ -52,29 +52,6 @@ req.typenames: WHEA_AER_BRIDGE_DESCRIPTOR, *PWHEA_AER_BRIDGE_DESCRIPTOR
 The WHEA_AER_BRIDGE_DESCRIPTOR structure describes a PCI Express (PCIe) bridge error source.
 
 
-## -syntax
-
-
-````
-typedef struct _WHEA_AER_BRIDGE_DESCRIPTOR {
-  USHORT                      Type;
-  BOOLEAN                     Enabled;
-  UCHAR                       Reserved;
-  ULONG                       BusNumber;
-  WHEA_PCI_SLOT_NUMBER        Slot;
-  USHORT                      DeviceControl;
-  AER_BRIDGE_DESCRIPTOR_FLAGS Flags;
-  ULONG                       UncorrectableErrorMask;
-  ULONG                       UncorrectableErrorSeverity;
-  ULONG                       CorrectableErrorMask;
-  ULONG                       AdvancedCapsAndControl;
-  ULONG                       SecondaryUncorrectableErrorMask;
-  ULONG                       SecondaryUncorrectableErrorSev;
-  ULONG                       SecondaryCapsAndControl;
-} WHEA_AER_BRIDGE_DESCRIPTOR, *PWHEA_AER_BRIDGE_DESCRIPTOR;
-````
-
-
 ## -struct-fields
 
 
@@ -102,7 +79,7 @@ The bridge's primary bus number.
 
 ### -field Slot
 
-A <a href="..\ntddk\ns-ntddk-_whea_pci_slot_number.md">WHEA_PCI_SLOT_NUMBER</a> structure that describes the logical PCI slot where the bridge is located in the system.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff560595">WHEA_PCI_SLOT_NUMBER</a> structure that describes the logical PCI slot where the bridge is located in the system.
 
 
 ### -field DeviceControl
@@ -232,24 +209,22 @@ The contents of the bridge's Secondary Error Capabilities and Control register.
 
 
 
-A WHEA_AER_BRIDGE_DESCRIPTOR structure is contained within the <a href="..\ntddk\ns-ntddk-_whea_error_source_descriptor.md">WHEA_ERROR_SOURCE_DESCRIPTOR</a> structure.
+A WHEA_AER_BRIDGE_DESCRIPTOR structure is contained within the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560505">WHEA_ERROR_SOURCE_DESCRIPTOR</a> structure.
 
 
 
 
 ## -see-also
 
-<a href="..\ntddk\ns-ntddk-_whea_pci_slot_number.md">WHEA_PCI_SLOT_NUMBER</a>
 
 
 
-<a href="..\ntddk\ns-ntddk-_whea_error_source_descriptor.md">WHEA_ERROR_SOURCE_DESCRIPTOR</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560505">WHEA_ERROR_SOURCE_DESCRIPTOR</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560595">WHEA_PCI_SLOT_NUMBER</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [whea\whea]:%20WHEA_AER_BRIDGE_DESCRIPTOR structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,7 +7,7 @@ old-location: buses\usb_node_connection_information_ex.htm
 old-project: usbref
 ms.assetid: d824e279-50a9-46a1-a93a-9ae17928f146
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PUSB_NODE_CONNECTION_INFORMATION_EX, PUSB_NODE_CONNECTION_INFORMATION_EX, PUSB_NODE_CONNECTION_INFORMATION_EX structure pointer [Buses], USB_NODE_CONNECTION_INFORMATION_EX, USB_NODE_CONNECTION_INFORMATION_EX structure [Buses], _USB_NODE_CONNECTION_INFORMATION_EX, buses.usb_node_connection_information_ex, usbioctl/PUSB_NODE_CONNECTION_INFORMATION_EX, usbioctl/USB_NODE_CONNECTION_INFORMATION_EX, usbstrct_2ee693b4-4279-4f3a-bbfb-1855f9b917d6.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices

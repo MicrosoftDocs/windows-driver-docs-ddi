@@ -7,7 +7,7 @@ old-location: display\d3dkmt_setqueuedlimit.htm
 old-project: display
 ms.assetid: 4fe525b1-9c06-4e2c-9e57-041164905efe
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMT_SETQUEUEDLIMIT, D3DKMT_SETQUEUEDLIMIT structure [Display Devices], OpenGL_Structs_3c7f7e33-f71a-4547-89ee-7dba69917a4f.xml, _D3DKMT_SETQUEUEDLIMIT, d3dkmthk/D3DKMT_SETQUEUEDLIMIT, display.d3dkmt_setqueuedlimit
 ms.prod: windows-hardware
 ms.technology: windows-devices

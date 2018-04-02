@@ -7,7 +7,7 @@ old-location: display\d3dhal_dp2setstreamsourceum.htm
 old-project: display
 ms.assetid: 42a8c14d-3b73-4d9a-a902-d4bf2b46ddf8
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*LPD3DHAL_DP2SETSTREAMSOURCEUM, D3DHAL_DP2SETSTREAMSOURCEUM, D3DHAL_DP2SETSTREAMSOURCEUM structure [Display Devices], LPD3DHAL_DP2SETSTREAMSOURCEUM, LPD3DHAL_DP2SETSTREAMSOURCEUM structure pointer [Display Devices], _D3DHAL_DP2SETSTREAMSOURCEUM, d3dhal/D3DHAL_DP2SETSTREAMSOURCEUM, d3dhal/LPD3DHAL_DP2SETSTREAMSOURCEUM, d3dstrct_58dd4856-1fc8-4772-96db-77ff9b81afbf.xml, display.d3dhal_dp2setstreamsourceum"
 ms.prod: windows-hardware
 ms.technology: windows-devices

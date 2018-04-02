@@ -7,7 +7,7 @@ old-location: display\setrenderstate.htm
 old-project: display
 ms.assetid: 22fb67f7-cc28-4f10-950d-1379769ddf89
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3DDDI_SETRENDERSTATE, SetRenderState, SetRenderState callback function [Display Devices], UserModeDisplayDriver_Functions_738b0898-2699-4f3d-8dc1-b4ea4cdbfeae.xml, d3dumddi/SetRenderState, display.setrenderstate
 ms.prod: windows-hardware
 ms.technology: windows-devices

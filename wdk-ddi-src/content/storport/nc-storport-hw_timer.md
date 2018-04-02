@@ -7,7 +7,7 @@ old-location: storage\hwstortimer.htm
 old-project: storage
 ms.assetid: 61aced1b-9f8a-454a-901c-561ec6179873
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: HW_TIMER, HwStorTimer, HwStorTimer routine [Storage Devices], storage.hwstortimer, stormini_6127daf5-8672-4bf4-9241-b67bed14b8f8.xml, storport/HwStorTimer
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: buses\usbd_pipe_information.htm
 old-project: usbref
 ms.assetid: 92e4e960-fd74-42e1-8448-a07676507427
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PUSBD_PIPE_INFORMATION, PUSBD_PIPE_INFORMATION, PUSBD_PIPE_INFORMATION structure pointer [Buses], USBD_PIPE_INFORMATION, USBD_PIPE_INFORMATION structure [Buses], _USBD_PIPE_INFORMATION, buses.usbd_pipe_information, usb/PUSBD_PIPE_INFORMATION, usb/USBD_PIPE_INFORMATION, usbstrct_79d986fc-2853-4179-8a41-cc438582b317.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices

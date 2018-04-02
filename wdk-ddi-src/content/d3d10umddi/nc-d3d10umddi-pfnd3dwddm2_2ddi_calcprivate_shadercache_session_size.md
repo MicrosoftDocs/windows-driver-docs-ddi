@@ -7,7 +7,7 @@ old-location: display\pfnd3dwddm2_2ddi_calcprivate_shadercache_session_size.htm
 old-project: display
 ms.assetid: 86FD1B35-878A-4D68-83CB-7F322CD9006D
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3DWDDM2_2DDI_CALCPRIVATE_SHADERCACHE_SESSION_SIZE, d3d10umddi/pfnCalcPrivateShaderCacheSessionSize, display.pfnd3dwddm2_2ddi_calcprivate_shadercache_session_size, pfnCalcPrivateShaderCacheSessionSize, pfnCalcPrivateShaderCacheSessionSize callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices

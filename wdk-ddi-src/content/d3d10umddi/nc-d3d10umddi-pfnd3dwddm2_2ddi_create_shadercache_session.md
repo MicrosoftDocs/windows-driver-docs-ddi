@@ -7,7 +7,7 @@ old-location: display\pfnd3dwddm2_2ddi_create_shadercache_session.htm
 old-project: display
 ms.assetid: 14B3AB7A-DB27-412F-9578-5BA44628ECE7
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3DWDDM2_2DDI_CREATE_SHADERCACHE_SESSION, d3d10umddi/pfnCreateShaderCacheSession, display.pfnd3dwddm2_2ddi_create_shadercache_session, pfnCreateShaderCacheSession, pfnCreateShaderCacheSession callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices

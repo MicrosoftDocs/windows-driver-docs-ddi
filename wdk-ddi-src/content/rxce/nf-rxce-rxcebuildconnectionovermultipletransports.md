@@ -7,7 +7,7 @@ old-location: ifsk\rxcebuildconnectionovermultipletransports.htm
 old-project: ifsk
 ms.assetid: 9ef9a5a5-e0ad-46c0-8193-8d2a18a21ea0
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: RxCeBuildConnectionOverMultipleTransports, RxCeBuildConnectionOverMultipleTransports routine [Installable File System Drivers], ifsk.rxcebuildconnectionovermultipletransports, rxce/RxCeBuildConnectionOverMultipleTransports, rxref_813ee01b-f378-4598-813a-4f2f3c47189f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

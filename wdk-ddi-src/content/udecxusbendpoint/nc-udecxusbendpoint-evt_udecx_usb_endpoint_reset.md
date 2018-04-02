@@ -7,7 +7,7 @@ old-location: buses\evt_udecx_usb_endpoint_reset.htm
 old-project: usbref
 ms.assetid: 4220509B-A378-47F4-8E71-0290EDED89EB
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: EVT_UDECX_USB_ENDPOINT_RESET, EvtUsbEndpointReset, EvtUsbEndpointReset callback function [Buses], buses.evt_udecx_usb_endpoint_reset, udecxusbendpoint/EvtUsbEndpointReset
 ms.prod: windows-hardware
 ms.technology: windows-devices

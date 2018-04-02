@@ -7,7 +7,7 @@ old-location: storage\storportissuedpc.htm
 old-project: storage
 ms.assetid: a0c46c51-f6c4-4609-9dba-b730f33c3ed6
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: StorPortIssueDpc, StorPortIssueDpc routine [Storage Devices], storage.storportissuedpc, storport/StorPortIssueDpc, storprt_e9cbe677-4d21-4c07-97a2-9db50858321f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

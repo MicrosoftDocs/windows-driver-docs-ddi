@@ -7,7 +7,7 @@ old-location: display\setconvolutionkernelmono.htm
 old-project: display
 ms.assetid: b560352f-ca4e-4f03-88ac-13ec080834aa
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3DDDI_SETCONVOLUTIONKERNELMONO, SetConvolutionKernelMono, SetConvolutionKernelMono callback function [Display Devices], UserModeDisplayDriver_Functions_488a5fdd-562a-475b-a86d-23d05f35c6dc.xml, d3dumddi/SetConvolutionKernelMono, display.setconvolutionkernelmono
 ms.prod: windows-hardware
 ms.technology: windows-devices

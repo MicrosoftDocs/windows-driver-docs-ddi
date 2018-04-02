@@ -7,7 +7,7 @@ old-location: display\getvideodecoderconfig.htm
 old-project: display
 ms.assetid: e13cb42b-258e-4fa6-8dc0-8983b118af3c
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3D11_1DDI_GETVIDEODECODERCONFIG, d3d10umddi/pfnGetVideoDecoderConfig, display.getvideodecoderconfig, pfnGetVideoDecoderConfig, pfnGetVideoDecoderConfig callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: display\dxgk_allocationlist.htm
 old-project: display
 ms.assetid: 1be057dc-6a97-4798-a152-7cc6d6febda5
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGK_ALLOCATIONLIST, DXGK_ALLOCATIONLIST structure [Display Devices], DmStructs_ed92f9cf-ad3f-4566-89ff-31d6b162f755.xml, _DXGK_ALLOCATIONLIST, d3dkmddi/DXGK_ALLOCATIONLIST, display.dxgk_allocationlist
 ms.prod: windows-hardware
 ms.technology: windows-devices

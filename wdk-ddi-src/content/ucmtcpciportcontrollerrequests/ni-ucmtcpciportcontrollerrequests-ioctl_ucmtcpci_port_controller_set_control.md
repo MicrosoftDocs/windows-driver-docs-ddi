@@ -7,7 +7,7 @@ old-location: buses\ioctl_ucmtcpci_port_controller_set_control.htm
 old-project: usbref
 ms.assetid: F37BFBBE-B175-40AE-BE34-A4D6B00735D0
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_UCMTCPCI_PORT_CONTROLLER_SET_CONTROL, IOCTL_UCMTCPCI_PORT_CONTROLLER_SET_CONTROL control code [Buses], buses.ioctl_ucmtcpci_port_controller_set_control, ucmtcpciportcontrollerrequests/IOCTL_UCMTCPCI_PORT_CONTROLLER_SET_CONTROL
 ms.prod: windows-hardware
 ms.technology: windows-devices

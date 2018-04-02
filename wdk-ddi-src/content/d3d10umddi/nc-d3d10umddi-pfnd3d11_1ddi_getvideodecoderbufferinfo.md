@@ -7,7 +7,7 @@ old-location: display\getvideodecoderbufferinfo.htm
 old-project: display
 ms.assetid: f129ae04-da7f-4681-a266-ac13317a895d
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3D11_1DDI_GETVIDEODECODERBUFFERINFO, d3d10umddi/pfnGetVideoDecoderBufferInfo, display.getvideodecoderbufferinfo, pfnGetVideoDecoderBufferInfo, pfnGetVideoDecoderBufferInfo callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices

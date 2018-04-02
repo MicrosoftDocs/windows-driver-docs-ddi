@@ -7,7 +7,7 @@ old-location: display\svgahwioportushortstring.htm
 old-project: display
 ms.assetid: cfb8d6d9-0210-4800-979c-7c6a6bbfe633
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PDRIVER_IO_PORT_USHORT_STRING, SvgaHwIoPortUshortString, SvgaHwIoPortUshortString callback function [Display Devices], VideoMiniport_Functions_7ac011d5-6b69-4ac5-92dd-abc8f2c43740.xml, display.svgahwioportushortstring, video/SvgaHwIoPortUshortString
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: netvista\ndis_wmi_set_header.htm
 old-project: netvista
 ms.assetid: ea6f37e0-a46f-41d9-84f2-624f5727863a
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*PNDIS_WMI_SET_HEADER, NDIS_WMI_SET_HEADER, NDIS_WMI_SET_HEADER structure [Network Drivers Starting with Windows Vista], PNDIS_WMI_SET_HEADER, PNDIS_WMI_SET_HEADER structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WMI_SET_HEADER, ndis_wmi_ref_c7789da2-ca0f-48e3-8000-8abff7fe866e.xml, netvista.ndis_wmi_set_header, ntddndis/NDIS_WMI_SET_HEADER, ntddndis/PNDIS_WMI_SET_HEADER"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -149,8 +149,3 @@ WMI GUID set requests that are specific to NDIS 6.0 and later versions include a
 
  
 
-<<<<<<< HEAD
-=======
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_WMI_SET_HEADER structure%20 RELEASE:%20(2/27/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
-
->>>>>>> parent of 2d896a8e266... Added changes

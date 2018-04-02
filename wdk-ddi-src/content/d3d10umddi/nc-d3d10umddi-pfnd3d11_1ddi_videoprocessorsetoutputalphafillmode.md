@@ -7,7 +7,7 @@ old-location: display\videoprocessorsetoutputalphafillmode.htm
 old-project: display
 ms.assetid: 0c2cbb8f-d031-4267-b32f-620ed1ad065c
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3D11_1DDI_VIDEOPROCESSORSETOUTPUTALPHAFILLMODE, d3d10umddi/pfnVideoProcessorSetOutputAlphaFillMode, display.videoprocessorsetoutputalphafillmode, pfnVideoProcessorSetOutputAlphaFillMode, pfnVideoProcessorSetOutputAlphaFillMode callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices

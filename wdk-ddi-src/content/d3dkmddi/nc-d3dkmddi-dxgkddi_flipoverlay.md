@@ -7,7 +7,7 @@ old-location: display\dxgkddiflipoverlay.htm
 old-project: display
 ms.assetid: 9e35a48b-1741-4ee2-8e15-6ce51ad4c0ad
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKDDI_FLIPOVERLAY, DmFunctions_fac1657b-03ec-4d63-93d6-3458423a1fe9.xml, DxgkDdiFlipOverlay, DxgkDdiFlipOverlay callback function [Display Devices], d3dkmddi/DxgkDdiFlipOverlay, display.dxgkddiflipoverlay
 ms.prod: windows-hardware
 ms.technology: windows-devices

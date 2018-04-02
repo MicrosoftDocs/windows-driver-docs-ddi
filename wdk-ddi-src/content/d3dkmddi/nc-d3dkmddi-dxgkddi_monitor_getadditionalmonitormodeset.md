@@ -7,7 +7,7 @@ old-location: display\dxgk_monitor_interface_v2_pfngetadditionalmonitormodeset.h
 old-project: display
 ms.assetid: 37878f3a-f61e-423c-ab03-94318089f7af
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKDDI_MONITOR_GETADDITIONALMONITORMODESET, VidPnFunctions_c86b07fb-c73c-4990-86a0-15c93ba7e2dd.xml, d3dkmddi/pfnGetAdditionalMonitorModeSet, display.dxgk_monitor_interface_v2_pfngetadditionalmonitormodeset, pfnGetAdditionalMonitorModeSet, pfnGetAdditionalMonitorModeSet callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices

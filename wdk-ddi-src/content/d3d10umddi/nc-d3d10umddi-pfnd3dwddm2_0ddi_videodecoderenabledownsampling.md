@@ -7,7 +7,7 @@ old-location: display\videodecoderenabledownsampling.htm
 old-project: display
 ms.assetid: 0817C977-1113-4953-B60C-A69185443335
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3DWDDM2_0DDI_VIDEODECODERENABLEDOWNSAMPLING, d3d10umddi/pfnVideoDecoderEnableDownsampling, display.videodecoderenabledownsampling, pfnVideoDecoderEnableDownsampling, pfnVideoDecoderEnableDownsampling callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices

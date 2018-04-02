@@ -7,7 +7,7 @@ old-location: storage\disk_geometry_ex.htm
 old-project: storage
 ms.assetid: 6397c0dd-4dc7-49fa-85a7-841f6c2b30d8
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PDISK_GEOMETRY_EX, DISK_GEOMETRY_EX, DISK_GEOMETRY_EX structure [Storage Devices], PDISK_GEOMETRY_EX, PDISK_GEOMETRY_EX structure pointer [Storage Devices], _DISK_GEOMETRY_EX, ntdddisk/DISK_GEOMETRY_EX, ntdddisk/PDISK_GEOMETRY_EX, storage.disk_geometry_ex, structs-disk_58b543a6-c9ee-4acf-9012-6572e9e9e627.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices

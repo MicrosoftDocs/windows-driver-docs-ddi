@@ -7,7 +7,7 @@ old-location: display\videoportreadportulong.htm
 old-project: display
 ms.assetid: 73402b35-85ce-4bb1-8ec5-619805d5a3e0
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: VideoPortReadPortUlong, VideoPortReadPortUlong function [Display Devices], VideoPort_Functions_347d0c32-a4b6-4061-bbd5-16325e0e3af6.xml, display.videoportreadportulong, video/VideoPortReadPortUlong
 ms.prod: windows-hardware
 ms.technology: windows-devices

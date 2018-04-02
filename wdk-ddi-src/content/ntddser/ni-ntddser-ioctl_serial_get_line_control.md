@@ -46,19 +46,14 @@ req.typenames: SD_REQUEST_FUNCTION
 # IOCTL_SERIAL_GET_LINE_CONTROL IOCTL
 
 
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
-
 ## -description
 
 
 The <b>IOCTL_SERIAL_GET_LINE_CONTROL</b> request returns information about the line control set for a serial device. The line control parameters include the number of stop bits, the number of data bits, and the parity.
 
-To configure the line control, a client can use an <a href="..\ntddser\ni-ntddser-ioctl_serial_set_line_control.md">IOCTL_SERIAL_SET_LINE_CONTROL</a> request.
+To configure the line control, a client can use an <a href="https://msdn.microsoft.com/library/windows/hardware/ff546740">IOCTL_SERIAL_SET_LINE_CONTROL</a> request.
 
-For information about valid line control register settings, see <a href="..\ntddser\ns-ntddser-_serial_line_control.md">SERIAL_LINE_CONTROL</a>.
+For information about valid line control register settings, see <a href="https://msdn.microsoft.com/library/windows/hardware/jj680686">SERIAL_LINE_CONTROL</a>.
 
 
 ## -ioctlparameters
@@ -113,17 +108,15 @@ The <b>Status</b> member is set to one of the <a href="https://docs.microsoft.co
 
 ## -see-also
 
-<a href="..\ntddser\ns-ntddser-_serial_line_control.md">SERIAL_LINE_CONTROL</a>
 
 
 
-<a href="..\ntddser\ni-ntddser-ioctl_serial_set_line_control.md">IOCTL_SERIAL_SET_LINE_CONTROL</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546740">IOCTL_SERIAL_SET_LINE_CONTROL</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj680686">SERIAL_LINE_CONTROL</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [serports\serports]:%20IOCTL_SERIAL_GET_LINE_CONTROL control code%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

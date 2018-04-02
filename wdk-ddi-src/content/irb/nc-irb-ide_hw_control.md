@@ -7,7 +7,7 @@ old-location: storage\idehwcontrol.htm
 old-project: storage
 ms.assetid: 53f85f8d-3b50-4cfe-8bdd-d41d8c057f3e
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: IDE_HW_CONTROL, IdeHwControl, IdeHwControl routine [Storage Devices], atartns_9c868c08-5470-4940-9067-0aa8a796b191.xml, irb/IdeHwControl, storage.idehwcontrol
 ms.prod: windows-hardware
 ms.technology: windows-devices

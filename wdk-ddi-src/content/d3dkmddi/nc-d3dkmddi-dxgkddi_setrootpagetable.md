@@ -7,7 +7,7 @@ old-location: display\dxgkddisetrootpagetable.htm
 old-project: display
 ms.assetid: BC9E7A2D-690D-4EC2-8D16-22C5FEBA574A
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKDDI_SETROOTPAGETABLE, DxgkDdiSetRootPageTable, DxgkDdiSetRootPageTable callback function [Display Devices], d3dkmddi/DxgkDdiSetRootPageTable, display.dxgkddisetrootpagetable, dispmprt/DxgkDdiSetRootPageTable
 ms.prod: windows-hardware
 ms.technology: windows-devices

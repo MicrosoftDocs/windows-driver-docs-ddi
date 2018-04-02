@@ -7,7 +7,7 @@ old-location: display\dxgkcbsetpowercomponentidle.htm
 old-project: display
 ms.assetid: 7746d09a-7fb6-4e5d-926c-4ded6830b06d
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKCB_SETPOWERCOMPONENTIDLE, DxgkCbSetPowerComponentIdle, DxgkCbSetPowerComponentIdle callback function [Display Devices], d3dkmddi/DxgkCbSetPowerComponentIdle, display.dxgkcbsetpowercomponentidle
 ms.prod: windows-hardware
 ms.technology: windows-devices

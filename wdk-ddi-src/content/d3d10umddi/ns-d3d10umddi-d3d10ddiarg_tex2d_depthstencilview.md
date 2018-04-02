@@ -7,7 +7,7 @@ old-location: display\d3d10ddiarg_tex2d_depthstencilview.htm
 old-project: display
 ms.assetid: f659584f-e0a5-46b6-b20d-c19aba421114
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3D10DDIARG_TEX2D_DEPTHSTENCILVIEW, D3D10DDIARG_TEX2D_DEPTHSTENCILVIEW structure [Display Devices], UMDisplayDriver_Dx10param_Structs_6887e338-dbab-4f35-bce1-e4412598d9bc.xml, d3d10umddi/D3D10DDIARG_TEX2D_DEPTHSTENCILVIEW, display.d3d10ddiarg_tex2d_depthstencilview
 ms.prod: windows-hardware
 ms.technology: windows-devices

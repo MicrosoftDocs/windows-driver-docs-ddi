@@ -7,7 +7,7 @@ old-location: buses\ucm_power_role.htm
 old-project: usbref
 ms.assetid: 005B2A80-F6F8-42DA-86C3-277676B9168A
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: UCM_POWER_ROLE, UCM_POWER_ROLE enumeration [Buses], UcmPowerRoleInvalid, UcmPowerRoleSink, UcmPowerRoleSource, _UCM_POWER_ROLE, buses.ucm_power_role, ucmtypes/UCM_POWER_ROLE, ucmtypes/UcmPowerRoleInvalid, ucmtypes/UcmPowerRoleSink, ucmtypes/UcmPowerRoleSource
 ms.prod: windows-hardware
 ms.technology: windows-devices

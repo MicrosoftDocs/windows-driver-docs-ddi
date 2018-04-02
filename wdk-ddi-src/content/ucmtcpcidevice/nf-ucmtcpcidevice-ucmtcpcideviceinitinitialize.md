@@ -7,7 +7,7 @@ old-location: buses\ucmtcpcideviceinitinitialize.htm
 old-project: usbref
 ms.assetid: a9afbac3-9494-466c-b36b-26a5839913f1
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: UcmTcpciDeviceInitInitialize, UcmTcpciDeviceInitInitialize method [Buses], buses.ucmtcpcideviceinitinitialize, ucmtcpcidevice/UcmTcpciDeviceInitInitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices

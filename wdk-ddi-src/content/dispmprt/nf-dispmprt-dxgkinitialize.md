@@ -7,7 +7,7 @@ old-location: display\dxgkinitialize.htm
 old-project: display
 ms.assetid: 0eda4184-2852-4a31-b4da-1fbb99ed4670
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DpFunctions_a3ffc7d5-f2bc-42f0-97f3-411bfe7b95e7.xml, DxgkInitialize, DxgkInitialize function [Display Devices], display.dxgkinitialize, dispmprt/DxgkInitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices

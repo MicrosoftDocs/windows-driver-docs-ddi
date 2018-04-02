@@ -7,7 +7,7 @@ old-location: display\d3dkmt_releasekeyedmutex2.htm
 old-project: display
 ms.assetid: e343b11c-7cd1-4aea-a87c-e33577456851
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMT_RELEASEKEYEDMUTEX2, D3DKMT_RELEASEKEYEDMUTEX2 structure [Display Devices], _D3DKMT_RELEASEKEYEDMUTEX2, d3dkmthk/D3DKMT_RELEASEKEYEDMUTEX2, display.d3dkmt_releasekeyedmutex2
 ms.prod: windows-hardware
 ms.technology: windows-devices

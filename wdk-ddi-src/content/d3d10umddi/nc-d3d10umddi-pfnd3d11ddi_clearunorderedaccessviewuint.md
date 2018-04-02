@@ -7,7 +7,7 @@ old-location: display\clearunorderedaccessviewuint.htm
 old-project: display
 ms.assetid: 7cdc81a9-e468-4da8-bc32-9e9cea1fd60d
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: ClearUnorderedAccessViewUINT, ClearUnorderedAccessViewUINT callback function [Display Devices], PFND3D11DDI_CLEARUNORDEREDACCESSVIEWUINT, UserModeDisplayDriverDx11_Functions_c31370b0-9955-4ccb-b540-92b15fc27cc5.xml, d3d10umddi/ClearUnorderedAccessViewUINT, display.clearunorderedaccessviewuint
 ms.prod: windows-hardware
 ms.technology: windows-devices

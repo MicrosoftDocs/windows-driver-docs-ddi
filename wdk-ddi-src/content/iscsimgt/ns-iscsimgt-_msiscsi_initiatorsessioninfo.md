@@ -7,7 +7,7 @@ old-location: storage\msiscsi_initiatorsessioninfo.htm
 old-project: storage
 ms.assetid: 0406efa5-26ad-4a3d-829b-d9b03b7c3b26
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PMSiSCSI_InitiatorSessionInfo, MSiSCSI_InitiatorSessionInfo, MSiSCSI_InitiatorSessionInfo structure [Storage Devices], PMSiSCSI_InitiatorSessionInfo, PMSiSCSI_InitiatorSessionInfo structure pointer [Storage Devices], _MSiSCSI_InitiatorSessionInfo, iscsimgt/MSiSCSI_InitiatorSessionInfo, iscsimgt/PMSiSCSI_InitiatorSessionInfo, storage.msiscsi_initiatorsessioninfo, structs-iSCSI_a3ebb8e8-47ff-4482-b896-7b310216bdf1.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices

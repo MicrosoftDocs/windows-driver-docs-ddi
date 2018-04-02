@@ -7,7 +7,7 @@ old-location: storage\ataportbuildrequestsenseirb.htm
 old-project: storage
 ms.assetid: f5083841-a6d7-4437-9941-bd7dca2f1771
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: AtaPortBuildRequestSenseIrb, AtaPortBuildRequestSenseIrb routine [Storage Devices], atartns_82b5c3cd-1956-47a0-9c05-cd18dbb2e2b6.xml, irb/AtaPortBuildRequestSenseIrb, storage.ataportbuildrequestsenseirb
 ms.prod: windows-hardware
 ms.technology: windows-devices

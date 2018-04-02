@@ -7,7 +7,7 @@ old-location: display\d3dkmtcheckmonitorpowerstate.htm
 old-project: display
 ms.assetid: 8f218b63-304e-4f25-88d8-ea1326c613ee
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMTCheckMonitorPowerState, D3DKMTCheckMonitorPowerState callback function [Display Devices], OpenGL_Functions_d05a2b63-fe81-45f0-908d-94043416b1d0.xml, PFND3DKMT_CHECKMONITORPOWERSTATE, d3dkmthk/D3DKMTCheckMonitorPowerState, display.d3dkmtcheckmonitorpowerstate
 ms.prod: windows-hardware
 ms.technology: windows-devices

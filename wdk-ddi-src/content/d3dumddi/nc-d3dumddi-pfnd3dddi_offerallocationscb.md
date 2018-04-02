@@ -7,7 +7,7 @@ old-location: display\pfnofferallocationscb.htm
 old-project: display
 ms.assetid: D711C545-BDEE-4EE5-B80A-75F01FAA0C33
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3DDDI_OFFERALLOCATIONSCB, d3dumddi/pfnOfferAllocationsCb, display.pfnofferallocationscb, pfnOfferAllocationsCb, pfnOfferAllocationsCb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices

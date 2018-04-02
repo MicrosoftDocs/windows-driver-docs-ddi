@@ -7,7 +7,7 @@ old-location: ifsk\fsrtlnotifycleanupall.htm
 old-project: ifsk
 ms.assetid: 850728bd-6758-4c21-9bfd-10a0f3d006d6
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FsRtlNotifyCleanupAll, FsRtlNotifyCleanupAll routine [Installable File System Drivers], fsrtlref_f0eea2f1-9bc9-41e1-843c-a69b3e63f452.xml, ifsk.fsrtlnotifycleanupall, ntifs/FsRtlNotifyCleanupAll
 ms.prod: windows-hardware
 ms.technology: windows-devices

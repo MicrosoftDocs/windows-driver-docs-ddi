@@ -3,12 +3,12 @@ UID: NS:gnssdriver.GNSS_DRIVER_REQUEST_DATA
 title: GNSS_DRIVER_REQUEST_DATA
 author: windows-driver-content
 description: This structure contains driver data request information.
-old-location: gnss\gnss_driver_request_data.htm
-old-project: gnss
+old-location: sensors\gnss_driver_request_data.htm
+old-project: sensors
 ms.assetid: 801FBD9D-304A-41AC-AD28-00DE95DEFE63
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: GNSS_DRIVER_REQUEST_DATA, GNSS_DRIVER_REQUEST_DATA structure [Sensor Devices], PGNSS_DRIVER_REQUEST_DATA, PGNSS_DRIVER_REQUEST_DATA structure pointer [Sensor Devices], gnss.gnss_driver_request_data, gnssdriver/GNSS_DRIVER_REQUEST_DATA, gnssdriver/PGNSS_DRIVER_REQUEST_DATA
+ms.date: 2/22/2018
+ms.keywords: GNSS_DRIVER_REQUEST_DATA, GNSS_DRIVER_REQUEST_DATA structure [Sensor Devices], PGNSS_DRIVER_REQUEST_DATA, PGNSS_DRIVER_REQUEST_DATA structure pointer [Sensor Devices], gnssdriver/GNSS_DRIVER_REQUEST_DATA, gnssdriver/PGNSS_DRIVER_REQUEST_DATA, sensors.gnss_driver_request_data
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -54,19 +54,6 @@ This structure contains driver data request information.
 
 
 
-## -syntax
-
-
-````
-typedef struct {
-  ULONG               Size;
-  ULONG               Version;
-  GNSS_DRIVER_REQUEST Request;
-  ULONG               RequestFlag;
-} GNSS_DRIVER_REQUEST_DATA, *PGNSS_DRIVER_REQUEST_DATA;
-````
-
-
 ## -struct-fields
 
 
@@ -86,7 +73,7 @@ Version number.
 
 The type of request made by the driver.
 
-Represented by the <a href="..\gnssdriver\ne-gnssdriver-gnss_driver_request.md">GNSS_DRIVER_REQUEST</a> enumeration.
+Represented by the <a href="https://msdn.microsoft.com/library/windows/hardware/dn925124">GNSS_DRIVER_REQUEST</a> enumeration.
 
 
 ### -field RequestFlag

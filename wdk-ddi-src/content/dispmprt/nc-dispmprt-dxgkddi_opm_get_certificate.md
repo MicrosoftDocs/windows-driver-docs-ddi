@@ -7,7 +7,7 @@ old-location: display\dxgkddiopmgetcertificate.htm
 old-project: display
 ms.assetid: 3c055598-5f07-46e1-830d-1df9a459f742
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKDDI_OPM_GET_CERTIFICATE, Dm_Opm_functions_80d478db-b192-4d86-8938-c105bcc8a677.xml, DxgkDdiOPMGetCertificate, DxgkDdiOPMGetCertificate callback function [Display Devices], display.dxgkddiopmgetcertificate, dispmprt/DxgkDdiOPMGetCertificate
 ms.prod: windows-hardware
 ms.technology: windows-devices

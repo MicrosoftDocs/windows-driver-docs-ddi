@@ -7,7 +7,7 @@ old-location: debugger\readtypeddatavirtual.htm
 old-project: debugger
 ms.assetid: 526bebd8-95af-4f6f-a381-eb60273d1af5
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: IDebugSymbols interface [Windows Debugging], ReadTypedDataVirtual method, IDebugSymbols2 interface [Windows Debugging], ReadTypedDataVirtual method, IDebugSymbols2::ReadTypedDataVirtual, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], ReadTypedDataVirtual method, IDebugSymbols3::ReadTypedDataVirtual, IDebugSymbols::ReadTypedDataVirtual, IDebugSymbols_c7a6fee6-d6bc-4dd6-923a-7e789801091f.xml, ReadTypedDataVirtual method [Windows Debugging], ReadTypedDataVirtual method [Windows Debugging], IDebugSymbols interface, ReadTypedDataVirtual method [Windows Debugging], IDebugSymbols2 interface, ReadTypedDataVirtual method [Windows Debugging], IDebugSymbols3 interface, ReadTypedDataVirtual,IDebugSymbols3.ReadTypedDataVirtual, dbgeng/IDebugSymbols2::ReadTypedDataVirtual, dbgeng/IDebugSymbols3::ReadTypedDataVirtual, dbgeng/IDebugSymbols::ReadTypedDataVirtual, debugger.readtypeddatavirtual
 ms.prod: windows-hardware
 ms.technology: windows-devices

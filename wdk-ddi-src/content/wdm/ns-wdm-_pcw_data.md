@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 The PCW_DATA structure describes the array of data blocks that are associated with an instance.
 
 
-## -syntax
-
-
-````
-typedef struct _PCW_DATA {
-  const VOID *Data;
-  ULONG      Size;
-} PCW_DATA, *PPCW_DATA;
-````
-
-
 ## -struct-fields
 
 

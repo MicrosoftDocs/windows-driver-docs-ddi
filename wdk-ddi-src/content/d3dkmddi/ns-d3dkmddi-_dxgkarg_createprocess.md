@@ -7,7 +7,7 @@ old-location: display\dxgkarg_createprocess.htm
 old-project: display
 ms.assetid: F4FDF254-1C36-43DC-B1FD-376AD7658E61
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*INOUT_PDXGKARG_CREATEPROCESS, DXGKARG_CREATEPROCESS, DXGKARG_CREATEPROCESS structure [Display Devices], _DXGKARG_CREATEPROCESS, d3dkmddi/DXGKARG_CREATEPROCESS, display.dxgkarg_createprocess"
 ms.prod: windows-hardware
 ms.technology: windows-devices

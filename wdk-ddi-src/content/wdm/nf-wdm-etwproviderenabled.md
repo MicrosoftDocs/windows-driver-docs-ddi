@@ -53,18 +53,6 @@ req.product: Windows 10 or later.
 The <b>EtwProviderEnabled</b> function verifies that a provider is enabled for event logging at a specified level and keyword. 
 
 
-## -syntax
-
-
-````
-BOOLEAN EtwProviderEnabled(
-  _In_ REGHANDLE RegHandle,
-  _In_ UCHAR     Level,
-  _In_ ULONGLONG Keyword
-);
-````
-
-
 ## -parameters
 
 
@@ -100,20 +88,18 @@ The function returns <b>TRUE</b> if the provider is enabled and <b>FALSE</b> if 
 
 You can use the <b>EtwProviderEnabled</b> function to verify that the registered provider is enabled for any event by passing in zeros for the <i>Level</i> and <i>Keyword</i> values when you call the function. If any event is enabled, the provider is enabled. 
 
-If an event descriptor is already available, use the <a href="..\wdm\nf-wdm-etweventenabled.md">EtwEventEnabled</a> function.
+If an event descriptor is already available, use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff545590">EtwEventEnabled</a> function.
 
 
 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-etweventenabled.md">EtwEventEnabled</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545590">EtwEventEnabled</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [devtest\devtest]:%20EtwProviderEnabled function%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

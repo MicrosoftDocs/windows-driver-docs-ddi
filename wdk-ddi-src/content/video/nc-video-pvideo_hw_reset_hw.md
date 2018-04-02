@@ -7,7 +7,7 @@ old-location: display\hwvidresethw.htm
 old-project: display
 ms.assetid: dae00663-17bd-461d-9b3f-febff2d9811b
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: HwVidResetHw, HwVidResetHw callback function [Display Devices], PVIDEO_HW_RESET_HW, VideoMiniport_Functions_783bcc9a-8af3-4cfb-8121-a2bbeb0e64f1.xml, display.hwvidresethw, video/HwVidResetHw
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: ifsk\rxpunregisterminirdr.htm
 old-project: ifsk
 ms.assetid: 84155e3f-8090-4b0d-a101-25ecd126bc37
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: RxpUnregisterMinirdr, RxpUnregisterMinirdr function [Installable File System Drivers], ifsk.rxpunregisterminirdr, mrx/RxpUnregisterMinirdr, rxref_3d8dd57c-4753-47c7-afda-efbd54882c74.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

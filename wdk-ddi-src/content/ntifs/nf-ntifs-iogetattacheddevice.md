@@ -7,7 +7,7 @@ old-location: ifsk\iogetattacheddevice.htm
 old-project: ifsk
 ms.assetid: 18083431-37b5-49e9-9c69-8b6cd7b5f736
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: IoGetAttachedDevice, IoGetAttachedDevice routine [Installable File System Drivers], ifsk.iogetattacheddevice, ioref_5a77f51f-2bea-4991-bf10-965e6b72e9ab.xml, ntifs/IoGetAttachedDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices

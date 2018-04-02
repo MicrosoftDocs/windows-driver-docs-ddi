@@ -7,7 +7,7 @@ old-location: storage\storportinterlockedinserttaillist.htm
 old-project: storage
 ms.assetid: 56147D28-B832-4C5D-BFB7-60C4020CA299
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: StorPortInterlockedInsertTailList, StorPortInterlockedInsertTailList routine [Storage Devices], storage.storportinterlockedinserttaillist, storport/StorPortInterlockedInsertTailList
 ms.prod: windows-hardware
 ms.technology: windows-devices

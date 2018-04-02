@@ -7,7 +7,7 @@ old-location: display\dxgkddiquerydependentenginegroup.htm
 old-project: display
 ms.assetid: 42040ffc-40a3-4794-805c-7a165c47c8c9
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKDDI_QUERYDEPENDENTENGINEGROUP, DxgkDdiQueryDependentEngineGroup, DxgkDdiQueryDependentEngineGroup callback function [Display Devices], d3dkmddi/DxgkDdiQueryDependentEngineGroup, display.dxgkddiquerydependentenginegroup
 ms.prod: windows-hardware
 ms.technology: windows-devices

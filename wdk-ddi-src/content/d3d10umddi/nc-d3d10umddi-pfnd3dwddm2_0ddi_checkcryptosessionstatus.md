@@ -7,7 +7,7 @@ old-location: display\checkcryptosessionstatus.htm
 old-project: display
 ms.assetid: C7BA5CE0-F89E-4C4B-9976-B9CB6BF8DA81
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: CheckCryptoSessionStatus, CheckCryptoSessionStatus callback function [Display Devices], d3d10umddi/CheckCryptoSessionStatus, display.checkcryptosessionstatus
 ms.prod: windows-hardware
 ms.technology: windows-devices

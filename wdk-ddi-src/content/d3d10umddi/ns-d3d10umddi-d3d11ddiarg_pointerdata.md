@@ -7,7 +7,7 @@ old-location: display\d3d11ddiarg_pointerdata.htm
 old-project: display
 ms.assetid: 1065079d-ff48-4b68-930c-bbbd3f17d5bd
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3D11DDIARG_POINTERDATA, D3D11DDIARG_POINTERDATA structure [Display Devices], UMDisplayDriver_Dx11param_Structs_4e1d0abb-4385-4d8b-9687-0c913884ab46.xml, d3d10umddi/D3D11DDIARG_POINTERDATA, display.d3d11ddiarg_pointerdata
 ms.prod: windows-hardware
 ms.technology: windows-devices

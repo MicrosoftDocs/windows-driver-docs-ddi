@@ -7,7 +7,7 @@ old-location: storage\scsiportwriteregisterushort.htm
 old-project: storage
 ms.assetid: a6ed2bb8-e62c-4566-9b61-6acac68e8309
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: ScsiPortWriteRegisterUshort, ScsiPortWriteRegisterUshort routine [Storage Devices], scsiprt_550ba014-1ffa-496f-8cea-009f234fa8e4.xml, srb/ScsiPortWriteRegisterUshort, storage.scsiportwriteregisterushort
 ms.prod: windows-hardware
 ms.technology: windows-devices

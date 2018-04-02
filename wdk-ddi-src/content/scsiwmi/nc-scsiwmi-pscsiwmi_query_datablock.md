@@ -7,7 +7,7 @@ old-location: storage\hwscsiwmiquerydatablock.htm
 old-project: storage
 ms.assetid: a2e588b8-50d6-4bed-b50c-c42be24955f1
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: HwScsiWmiQueryDataBlock, HwScsiWmiQueryDataBlock callback function [Storage Devices], PSCSIWMI_QUERY_DATABLOCK, Scsimini_1405dcfc-840b-4cc6-bd4c-63d071aa993e.xml, scsiwmi/HwScsiWmiQueryDataBlock, storage.hwscsiwmiquerydatablock
 ms.prod: windows-hardware
 ms.technology: windows-devices

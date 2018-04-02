@@ -7,7 +7,7 @@ old-location: display\d3dkmt_renderflags.htm
 old-project: display
 ms.assetid: 6a25528c-063b-4cd5-963d-82245009bb48
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMT_RENDERFLAGS, D3DKMT_RENDERFLAGS structure [Display Devices], OpenGL_Structs_8a885a03-0eba-4119-973a-a1c1dafe3c10.xml, _D3DKMT_RENDERFLAGS, d3dkmthk/D3DKMT_RENDERFLAGS, display.d3dkmt_renderflags
 ms.prod: windows-hardware
 ms.technology: windows-devices

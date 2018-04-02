@@ -7,7 +7,7 @@ old-location: storage\sm_setbindingsupport_in.htm
 old-project: storage
 ms.assetid: 7bcee845-9b3f-4ad7-843f-1f4cd74ee1be
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PSM_SetBindingSupport_IN, PSM_SetBindingSupport_IN, PSM_SetBindingSupport_IN structure pointer [Storage Devices], SM_SetBindingSupport_IN, SM_SetBindingSupport_IN structure [Storage Devices], _SM_SetBindingSupport_IN, hbapiwmi/PSM_SetBindingSupport_IN, hbapiwmi/SM_SetBindingSupport_IN, storage.sm_setbindingsupport_in, structs-Fibre_9797bfcd-a063-47dd-8a98-0837b3fb7698.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices

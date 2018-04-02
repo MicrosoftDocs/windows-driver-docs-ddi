@@ -7,7 +7,7 @@ old-location: storage\tapeclasslidiv.htm
 old-project: storage
 ms.assetid: 13c449c6-6e2b-434e-8948-62c8af237173
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: TapeClassLiDiv, TapeClassLiDiv routine [Storage Devices], minitape/TapeClassLiDiv, storage.tapeclasslidiv, tapeclas_8c5ecef8-fdd0-4889-8e3f-1bd80fe5b5c6.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

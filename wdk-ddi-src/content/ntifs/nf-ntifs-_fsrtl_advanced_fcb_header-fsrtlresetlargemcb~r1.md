@@ -7,7 +7,7 @@ old-location: ifsk\fsrtlresetlargemcb.htm
 old-project: ifsk
 ms.assetid: 49134501-165a-4296-b4c6-3f1e7ae9d485
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FsRtlResetLargeMcb, FsRtlResetLargeMcb routine [Installable File System Drivers], fsrtlref_947ccacb-eef2-44d8-9b73-1b8aa930cd03.xml, ifsk.fsrtlresetlargemcb, ntifs/FsRtlResetLargeMcb
 ms.prod: windows-hardware
 ms.technology: windows-devices

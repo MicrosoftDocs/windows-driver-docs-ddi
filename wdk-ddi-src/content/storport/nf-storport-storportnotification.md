@@ -7,7 +7,7 @@ old-location: storage\storportnotification.htm
 old-project: storage
 ms.assetid: 3f361f50-3ca2-4fb6-828c-27928b50cf55
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: StorPortNotification, StorPortNotification routine [Storage Devices], storage.storportnotification, storport/StorPortNotification, storprt_5915c32e-be1b-4786-b391-67be5e61760f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

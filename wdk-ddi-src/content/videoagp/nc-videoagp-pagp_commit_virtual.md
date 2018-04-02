@@ -7,7 +7,7 @@ old-location: display\agpcommitvirtual.htm
 old-project: display
 ms.assetid: 8a3e7fcd-d838-47ad-a42b-7eb070f81418
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: AgpCommitVirtual, AgpCommitVirtual callback function [Display Devices], PAGP_COMMIT_VIRTUAL, VideoPort_Functions_74f16518-6071-45bb-a44d-80fe042814ea.xml, display.agpcommitvirtual, videoagp/AgpCommitVirtual
 ms.prod: windows-hardware
 ms.technology: windows-devices

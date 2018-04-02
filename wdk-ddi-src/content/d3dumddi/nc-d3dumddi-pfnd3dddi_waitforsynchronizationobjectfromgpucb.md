@@ -7,7 +7,7 @@ old-location: display\pfnwaitforsynchronizationobjectfromgpucb.htm
 old-project: display
 ms.assetid: 49023D25-D57E-418F-AD10-133377B90493
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3DDDI_WAITFORSYNCHRONIZATIONOBJECTFROMGPUCB, d3dumddi/pfnWaitForSynchronizationObjectFromGpuCb, display.pfnwaitforsynchronizationobjectfromgpucb, pfnWaitForSynchronizationObjectFromGpuCb, pfnWaitForSynchronizationObjectFromGpuCb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices

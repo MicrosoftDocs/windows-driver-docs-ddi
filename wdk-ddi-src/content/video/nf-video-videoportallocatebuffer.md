@@ -7,7 +7,7 @@ old-location: display\videoportallocatebuffer.htm
 old-project: display
 ms.assetid: 87289ea8-f727-428d-93a1-2d3b0ab44e8b
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: VideoPortAllocateBuffer, VideoPortAllocateBuffer function [Display Devices], VideoPort_Functions_6e90fb68-96c2-4163-87dd-0891d2e25254.xml, display.videoportallocatebuffer, video/VideoPortAllocateBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices

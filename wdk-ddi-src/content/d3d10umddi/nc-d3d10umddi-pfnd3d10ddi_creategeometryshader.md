@@ -7,7 +7,7 @@ old-location: display\creategeometryshader.htm
 old-project: display
 ms.assetid: b3b422e3-f8da-4aad-a230-7c7e26dd72ec
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: CreateGeometryShader, CreateGeometryShader callback function [Display Devices], PFND3D10DDI_CREATEGEOMETRYSHADER, UserModeDisplayDriverDx10_Functions_9802537e-bb60-4aae-8049-11ccff9f99a5.xml, d3d10umddi/CreateGeometryShader, display.creategeometryshader
 ms.prod: windows-hardware
 ms.technology: windows-devices

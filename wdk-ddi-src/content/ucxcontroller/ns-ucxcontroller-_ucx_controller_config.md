@@ -7,7 +7,7 @@ old-location: buses\_ucx_controller_config.htm
 old-project: usbref
 ms.assetid: 9A4249B6-BFC2-42B4-BBA6-094BD78C98DE
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PUCX_CONTROLLER_CONFIG, P_UCX_CONTROLLER_CONFIG, P_UCX_CONTROLLER_CONFIG structure pointer [Buses], UCX_CONTROLLER_CONFIG, UCX_CONTROLLER_CONFIG structure [Buses], _UCX_CONTROLLER_CONFIG, buses._ucx_controller_config, ucxcontroller/P_UCX_CONTROLLER_CONFIG, ucxcontroller/_UCX_CONTROLLER_CONFIG"
 ms.prod: windows-hardware
 ms.technology: windows-devices

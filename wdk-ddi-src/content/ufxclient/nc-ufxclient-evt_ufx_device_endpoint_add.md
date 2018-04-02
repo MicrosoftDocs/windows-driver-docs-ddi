@@ -7,7 +7,7 @@ old-location: buses\evt_ufx_device_endpoint_add.htm
 old-project: usbref
 ms.assetid: F366990E-7FE3-401B-B8BE-E71EAFD3AC58
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: EVT_UFX_DEVICE_ENDPOINT_ADD, EvtUfxDeviceEndpointAdd, EvtUfxDeviceEndpointAdd callback function [Buses], PFN_UFX_DEVICE_ENDPOINT_ADD, PFN_UFX_DEVICE_ENDPOINT_ADD callback function pointer [Buses], buses.evt_ufx_device_endpoint_add, ufxclient/EvtUfxDeviceEndpointAdd
 ms.prod: windows-hardware
 ms.technology: windows-devices

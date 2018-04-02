@@ -7,7 +7,7 @@ old-location: display\videodecoderbeginframe.htm
 old-project: display
 ms.assetid: 5aebc8c9-baa1-457f-9e46-3a86929ba0b5
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3D11_1DDI_VIDEODECODERBEGINFRAME, d3d10umddi/pfnVideoDecoderBeginFrame, display.videodecoderbeginframe, pfnVideoDecoderBeginFrame, pfnVideoDecoderBeginFrame callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: display\calcprivateelementlayoutsize.htm
 old-project: display
 ms.assetid: 9fc80cea-8e4a-467a-b232-74333d2ceb5f
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: CalcPrivateElementLayoutSize, CalcPrivateElementLayoutSize callback function [Display Devices], PFND3D10DDI_CALCPRIVATEELEMENTLAYOUTSIZE, UserModeDisplayDriverDx10_Functions_7c153781-eabd-4f5e-b949-0ac5c9e0d94b.xml, d3d10umddi/CalcPrivateElementLayoutSize, display.calcprivateelementlayoutsize
 ms.prod: windows-hardware
 ms.technology: windows-devices

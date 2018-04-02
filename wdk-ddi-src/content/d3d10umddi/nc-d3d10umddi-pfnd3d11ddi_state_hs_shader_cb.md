@@ -7,7 +7,7 @@ old-location: display\pfnstatehsshadercb.htm
 old-project: display
 ms.assetid: 74b243a2-722b-4eec-b382-936a6f2f990e
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3D11DDI_STATE_HS_SHADER_CB, d3d10umddi/pfnStateHsShaderCb, d3d11state_functions_b16162bf-d379-49de-bc4a-85d7df7e95bf.xml, display.pfnstatehsshadercb, pfnStateHsShaderCb, pfnStateHsShaderCb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices

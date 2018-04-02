@@ -7,7 +7,7 @@ old-location: storage\disk_extent.htm
 old-project: storage
 ms.assetid: 74ffdfba-1b80-479d-9637-43222a438fa9
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PDISK_EXTENT, DISK_EXTENT, DISK_EXTENT structure [Storage Devices], PDISK_EXTENT, PDISK_EXTENT structure pointer [Storage Devices], _DISK_EXTENT, ntddvol/DISK_EXTENT, ntddvol/PDISK_EXTENT, storage.disk_extent, structs-disk_2874d2a7-dc4e-46e6-9d43-2374e82c857b.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices

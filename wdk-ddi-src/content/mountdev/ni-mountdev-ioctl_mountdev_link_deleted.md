@@ -7,7 +7,7 @@ old-location: storage\ioctl_mountdev_link_deleted.htm
 old-project: storage
 ms.assetid: 6fd0696d-5b8d-4502-bbdb-a013bee2e9d4
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_MOUNTDEV_LINK_DELETED, IOCTL_MOUNTDEV_LINK_DELETED control code [Storage Devices], k307_b0ab5504-dac9-410f-bb73-bbb5876e4a59.xml, mountdev/IOCTL_MOUNTDEV_LINK_DELETED, storage.ioctl_mountdev_link_deleted
 ms.prod: windows-hardware
 ms.technology: windows-devices

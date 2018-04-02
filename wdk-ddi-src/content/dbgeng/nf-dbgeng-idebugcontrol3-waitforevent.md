@@ -7,7 +7,7 @@ old-location: debugger\waitforevent.htm
 old-project: debugger
 ms.assetid: b7038bcf-2469-4d5f-ac73-0c7835da23c3
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: IDebugControl interface [Windows Debugging], WaitForEvent method, IDebugControl2 interface [Windows Debugging], WaitForEvent method, IDebugControl2::WaitForEvent, IDebugControl3, IDebugControl3 interface [Windows Debugging], WaitForEvent method, IDebugControl3::WaitForEvent, IDebugControl::WaitForEvent, IDebugControl_19a7d8b3-1f16-400e-bf8f-c782d48b2cf5.xml, WaitForEvent method [Windows Debugging], WaitForEvent method [Windows Debugging], IDebugControl interface, WaitForEvent method [Windows Debugging], IDebugControl2 interface, WaitForEvent method [Windows Debugging], IDebugControl3 interface, WaitForEvent,IDebugControl3.WaitForEvent, dbgeng/IDebugControl2::WaitForEvent, dbgeng/IDebugControl3::WaitForEvent, dbgeng/IDebugControl::WaitForEvent, debugger.waitforevent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -178,8 +178,3 @@ For more information about using <b>WaitForEvent</b> to control the execution fl
 
  
 
-<<<<<<< HEAD
-=======
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl::WaitForEvent method%20 RELEASE:%20(2/27/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
-
->>>>>>> parent of 2d896a8e266... Added changes

@@ -7,7 +7,7 @@ old-location: storage\storportfreetimer.htm
 old-project: storage
 ms.assetid: AF6B1693-6242-4F09-8226-472E75B809F3
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: StorPortFreeTimer, StorPortFreeTimer routine [Storage Devices], storage.storportfreetimer, storport/StorPortFreeTimer
 ms.prod: windows-hardware
 ms.technology: windows-devices

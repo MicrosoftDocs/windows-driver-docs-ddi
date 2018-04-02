@@ -7,7 +7,7 @@ old-location: netvista\rilunblockuicclockparams.htm
 old-project: netvista
 ms.assetid: 48d1deeb-8862-4e01-aa22-119a53aa4aba
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*LPRILUNBLOCKUICCLOCKPARAMS, RILUNBLOCKUICCLOCKPARAMS, RILUNBLOCKUICCLOCKPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilunblockuicclockparams, ntddrilapitypes/RILUNBLOCKUICCLOCKPARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices

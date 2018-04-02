@@ -7,7 +7,7 @@ old-location: storage\storportgetpfns.htm
 old-project: storage
 ms.assetid: F9E69501-4889-4A1B-8942-C6D4406474DE
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: StorPortGetPfns, StorPortGetPfns routine [Storage Devices], storage.storportgetpfns, storport/StorPortGetPfns
 ms.prod: windows-hardware
 ms.technology: windows-devices

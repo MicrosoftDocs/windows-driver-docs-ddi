@@ -7,7 +7,7 @@ old-location: ifsk\fsrtlregisteruncproviderex.htm
 old-project: ifsk
 ms.assetid: 5b7302c1-2f31-4b9f-bddb-7b35bbee4a2c
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FsRtlRegisterUncProviderEx, FsRtlRegisterUncProviderEx routine [Installable File System Drivers], fsrtlref_ae033ff2-3d3a-468c-973d-d6a78a2293a2.xml, ifsk.fsrtlregisteruncproviderex, ntifs/FsRtlRegisterUncProviderEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

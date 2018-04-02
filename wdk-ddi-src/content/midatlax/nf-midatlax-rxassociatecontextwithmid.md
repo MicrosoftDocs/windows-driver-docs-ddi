@@ -7,7 +7,7 @@ old-location: ifsk\rxassociatecontextwithmid.htm
 old-project: ifsk
 ms.assetid: b2ced4fb-5104-4bf3-8c6c-bf129e3dff97
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: RxAssociateContextWithMid, RxAssociateContextWithMid function [Installable File System Drivers], ifsk.rxassociatecontextwithmid, midatlax/RxAssociateContextWithMid, rxref_fdf65b83-9924-4463-bf63-ca28d11f3090.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

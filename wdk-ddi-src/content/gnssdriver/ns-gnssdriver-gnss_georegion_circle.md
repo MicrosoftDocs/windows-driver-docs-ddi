@@ -3,12 +3,12 @@ UID: NS:gnssdriver.GNSS_GEOREGION_CIRCLE
 title: GNSS_GEOREGION_CIRCLE
 author: windows-driver-content
 description: This structure is used for defining a circular geofence.
-old-location: gnss\gnss_georegion_circle.htm
-old-project: gnss
+old-location: sensors\gnss_georegion_circle.htm
+old-project: sensors
 ms.assetid: 498F8325-C887-4FDE-8BCF-A713639E3B35
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: "*PGNSS_GEOREGION_CIRCLE, GNSS_GEOREGION_CIRCLE, GNSS_GEOREGION_CIRCLE structure [Sensor Devices], PGNSS_GEOREGION_CIRCLE, PGNSS_GEOREGION_CIRCLE structure pointer [Sensor Devices], gnss.gnss_georegion_circle, gnssdriver/GNSS_GEOREGION_CIRCLE, gnssdriver/PGNSS_GEOREGION_CIRCLE"
+ms.date: 2/22/2018
+ms.keywords: "*PGNSS_GEOREGION_CIRCLE, GNSS_GEOREGION_CIRCLE, GNSS_GEOREGION_CIRCLE structure [Sensor Devices], PGNSS_GEOREGION_CIRCLE, PGNSS_GEOREGION_CIRCLE structure pointer [Sensor Devices], gnssdriver/GNSS_GEOREGION_CIRCLE, gnssdriver/PGNSS_GEOREGION_CIRCLE, sensors.gnss_georegion_circle"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -50,18 +50,6 @@ req.typenames: GNSS_GEOREGION_CIRCLE, *PGNSS_GEOREGION_CIRCLE
 
 
 This structure is used for defining a circular geofence.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  double Latitude;
-  double Longitude;
-  double RadiusInMeters;
-} GNSS_GEOREGION_CIRCLE, *PGNSS_GEOREGION_CIRCLE;
-````
 
 
 ## -struct-fields

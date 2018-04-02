@@ -7,7 +7,7 @@ old-location: storage\ioctl_storage_set_hotplug_info.htm
 old-project: storage
 ms.assetid: 5badc919-8663-4905-aaec-70f6b51ab2f1
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_STORAGE_SET_HOTPLUG_INFO, IOCTL_STORAGE_SET_HOTPLUG_INFO control code [Storage Devices], k307_f6fb6bb6-0058-4fa6-9d4f-2f964b1ef646.xml, ntddstor/IOCTL_STORAGE_SET_HOTPLUG_INFO, storage.ioctl_storage_set_hotplug_info
 ms.prod: windows-hardware
 ms.technology: windows-devices

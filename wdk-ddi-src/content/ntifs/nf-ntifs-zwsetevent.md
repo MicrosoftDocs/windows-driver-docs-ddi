@@ -7,7 +7,7 @@ old-location: kernel\zwsetevent.htm
 old-project: kernel
 ms.assetid: f561fc3e-2233-4237-a88d-bd5a887a1e7a
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/28/2018
 ms.keywords: NtSetEvent, ZwSetEvent, ZwSetEvent routine [Kernel-Mode Driver Architecture], k111_e01bbbbf-29f9-4c0a-89a2-84cf927aeb47.xml, kernel.zwsetevent, ntifs/NtSetEvent, ntifs/ZwSetEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,17 +51,6 @@ req.typenames: TOKEN_TYPE
 
 
 The <b>ZwSetEvent</b> routine sets an event object to a Signaled state and attempts to satisfy as many waits as possible.
-
-
-## -syntax
-
-
-````
-NTSTATUS ZwSetEvent(
-  _In_      HANDLE EventHandle,
-  _Out_opt_ PLONG  PreviousState
-);
-````
 
 
 ## -parameters
@@ -144,19 +133,30 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iocreatenotificationevent.md">IoCreateNotificationEvent</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-zwwaitforsingleobject.md">ZwWaitForSingleObject</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549039">IoCreateNotificationEvent</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-zwcreateevent.md">ZwCreateEvent</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549045">IoCreateSynchronizationEvent</a>
 
 
 
-<a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551980">KeClearEvent</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553176">KeResetEvent</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553253">KeSetEvent</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553350">KeWaitForSingleObject</a>
 
 
 
@@ -164,29 +164,16 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
-<a href="..\wdm\nf-wdm-keresetevent.md">KeResetEvent</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566417">ZwClose</a>
 
 
 
-<a href="..\wdm\nf-wdm-iocreatesynchronizationevent.md">IoCreateSynchronizationEvent</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566423">ZwCreateEvent</a>
 
 
 
-<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
-
-
-
-<a href="..\wdm\nf-wdm-keclearevent.md">KeClearEvent</a>
-
-
-
-<a href="..\wdm\nf-wdm-kesetevent.md">KeSetEvent</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567120">ZwWaitForSingleObject</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20ZwSetEvent routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

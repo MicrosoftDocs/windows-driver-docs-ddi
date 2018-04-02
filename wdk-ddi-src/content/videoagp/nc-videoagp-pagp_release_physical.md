@@ -7,7 +7,7 @@ old-location: display\agpreleasephysical.htm
 old-project: display
 ms.assetid: 4da0f5cb-a017-4df5-958b-c76b7a08495a
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: AgpReleasePhysical, AgpReleasePhysical callback function [Display Devices], PAGP_RELEASE_PHYSICAL, VideoPort_Functions_427923a7-3205-41a7-a470-dbc7d531e47f.xml, display.agpreleasephysical, videoagp/AgpReleasePhysical
 ms.prod: windows-hardware
 ms.technology: windows-devices

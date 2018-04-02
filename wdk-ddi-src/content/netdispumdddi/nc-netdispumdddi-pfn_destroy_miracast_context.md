@@ -7,7 +7,7 @@ old-location: display\destroymiracastcontext.htm
 old-project: display
 ms.assetid: 1b155e15-1e4e-45bb-98cc-f1c19923ed2c
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DestroyMiracastContext, DestroyMiracastContext callback function [Display Devices], PFN_DESTROY_MIRACAST_CONTEXT, display.destroymiracastcontext, netdispumdddi/DestroyMiracastContext
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -88,25 +88,14 @@ For more information about updating <b>PictureNumber</b> and <b>DropCount</b> se
 
 ## -see-also
 
-<<<<<<< HEAD
-=======
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567806">PROPSETID_VIDCAP_DROPPEDFRAMES</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565135">KSPROPERTY_DROPPEDFRAMES_CURRENT</a>
->>>>>>> parent of 2d896a8e266... Added changes
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
-<<<<<<< HEAD
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565135">KSPROPERTY_DROPPEDFRAMES_CURRENT</a>
-=======
->>>>>>> parent of 2d896a8e266... Added changes
 
 
 

@@ -7,7 +7,7 @@ old-location: debugger\setsymboloptions.htm
 old-project: debugger
 ms.assetid: 06cfae40-eb32-4f9b-b7ad-266cb12f4a32
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: IDebugSymbols interface [Windows Debugging], SetSymbolOptions method, IDebugSymbols2 interface [Windows Debugging], SetSymbolOptions method, IDebugSymbols2::SetSymbolOptions, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], SetSymbolOptions method, IDebugSymbols3::SetSymbolOptions, IDebugSymbols::SetSymbolOptions, IDebugSymbols_56cfcd8d-304b-4433-beab-2fc3e58a54a4.xml, SetSymbolOptions method [Windows Debugging], SetSymbolOptions method [Windows Debugging], IDebugSymbols interface, SetSymbolOptions method [Windows Debugging], IDebugSymbols2 interface, SetSymbolOptions method [Windows Debugging], IDebugSymbols3 interface, SetSymbolOptions,IDebugSymbols3.SetSymbolOptions, dbgeng/IDebugSymbols2::SetSymbolOptions, dbgeng/IDebugSymbols3::SetSymbolOptions, dbgeng/IDebugSymbols::SetSymbolOptions, debugger.setsymboloptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -135,8 +135,3 @@ For more information about symbols, see <a href="https://msdn.microsoft.com/libr
 
  
 
-<<<<<<< HEAD
-=======
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugSymbols::SetSymbolOptions method%20 RELEASE:%20(2/27/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
-
->>>>>>> parent of 2d896a8e266... Added changes

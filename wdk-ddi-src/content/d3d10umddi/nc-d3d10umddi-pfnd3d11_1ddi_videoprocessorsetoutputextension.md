@@ -7,7 +7,7 @@ old-location: display\videoprocessorsetoutputextension.htm
 old-project: display
 ms.assetid: 040aa673-4b80-4e89-a58d-f298936537cd
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3D11_1DDI_VIDEOPROCESSORSETOUTPUTEXTENSION, d3d10umddi/pfnVideoProcessorSetOutputExtension, display.videoprocessorsetoutputextension, pfnVideoProcessorSetOutputExtension, pfnVideoProcessorSetOutputExtension callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -95,18 +95,10 @@ A handle to the video processor object that was created through a call to the <a
 
 
 #### - pData [in]
-<<<<<<< HEAD
-
-A pointer to a buffer that contains the private state data. 
-=======
->>>>>>> parent of 2d896a8e266... Added changes
 
 A pointer to a buffer that contains the private state data. 
 
-<<<<<<< HEAD
-=======
 
->>>>>>> parent of 2d896a8e266... Added changes
 
 <div class="alert"><b>Note</b>  The Direct3D runtime does not validate the private state data in the buffer before it calls the  <b>VideoProcessorSetOutputExtension</b> function</div>
 <div> </div>

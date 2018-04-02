@@ -7,7 +7,7 @@ old-location: buses\urs_config.htm
 old-project: usbref
 ms.assetid: 3857CA53-6992-410A-96D1-EEA9CC586EDF
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PURS_CONFIG, PURS_CONFIG, PURS_CONFIG structure pointer [Buses], URS_CONFIG, URS_CONFIG structure [Buses], _URS_CONFIG, buses.urs_config, ursdevice/PURS_CONFIG, ursdevice/URS_CONFIG"
 ms.prod: windows-hardware
 ms.technology: windows-devices

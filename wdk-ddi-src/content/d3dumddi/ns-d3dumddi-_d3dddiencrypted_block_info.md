@@ -7,7 +7,7 @@ old-location: display\d3dddiencrypted_block_info.htm
 old-project: display
 ms.assetid: a02f782f-6918-479a-b3de-9443df2e9ffe
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDIENCRYPTED_BLOCK_INFO, D3DDDIENCRYPTED_BLOCK_INFO structure [Display Devices], D3D_other_Structs_ca22516f-415c-47ff-9ba5-b837171cf77e.xml, _D3DDDIENCRYPTED_BLOCK_INFO, d3dumddi/D3DDDIENCRYPTED_BLOCK_INFO, display.d3dddiencrypted_block_info
 ms.prod: windows-hardware
 ms.technology: windows-devices

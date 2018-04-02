@@ -7,7 +7,7 @@ old-location: ifsk\pflt_section_conflict_notification_callback.htm
 old-project: ifsk
 ms.assetid: 22840772-7DFC-4339-9C06-4900E47048B4
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: PFLT_SECTION_CONFLICT_NOTIFICATION_CALLBACK, SectionNotificationCallback, SectionNotificationCallback routine [Installable File System Drivers], fltkernel/SectionNotificationCallback, ifsk.pflt_section_conflict_notification_callback
 ms.prod: windows-hardware
 ms.technology: windows-devices

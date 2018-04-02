@@ -7,7 +7,7 @@ old-location: display\createdepthstencilview.htm
 old-project: display
 ms.assetid: 1a1c28f0-8343-4255-8055-d31eb643b7d5
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: CreateDepthStencilView, CreateDepthStencilView callback function [Display Devices], PFND3D10DDI_CREATEDEPTHSTENCILVIEW, UserModeDisplayDriverDx10_Functions_299a6bcd-ba94-4568-a4fc-d89c84742c45.xml, d3d10umddi/CreateDepthStencilView, display.createdepthstencilview
 ms.prod: windows-hardware
 ms.technology: windows-devices

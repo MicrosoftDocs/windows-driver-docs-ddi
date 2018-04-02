@@ -7,7 +7,7 @@ old-location: display\hwvidtimer.htm
 old-project: display
 ms.assetid: bd41bbbf-4ec8-4e6c-8620-d8a9fe0b8bad
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: HwVidTimer, HwVidTimer callback function [Display Devices], PVIDEO_HW_TIMER, VideoMiniport_Functions_80fa0df4-2b7c-4ffa-9048-e252b8af26cf.xml, display.hwvidtimer, video/HwVidTimer
 ms.prod: windows-hardware
 ms.technology: windows-devices

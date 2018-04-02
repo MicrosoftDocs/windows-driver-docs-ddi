@@ -7,7 +7,7 @@ old-location: ifsk\mrxdeallocateforfcb.htm
 old-project: ifsk
 ms.assetid: 4347f481-cd8f-4a88-92e0-f6bc7a4b7ffb
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: MRxDeallocateForFcb, MRxDeallocateForFcb routine [Installable File System Drivers], PMRX_DEALLOCATE_FOR_FCB, ifsk.mrxdeallocateforfcb, mrx/MRxDeallocateForFcb, mrxref_02a9e4a3-db00-48e1-ac2e-cd6a47ae4c37.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

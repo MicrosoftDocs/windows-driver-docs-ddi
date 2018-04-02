@@ -7,7 +7,7 @@ old-location: buses\evt_ufx_device_usb_state_change.htm
 old-project: usbref
 ms.assetid: 81D4F3C5-7412-4148-A5B4-0C56DD9ADB35
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: EVT_UFX_DEVICE_USB_STATE_CHANGE, EvtUfxDeviceUsbStateChange, EvtUfxDeviceUsbStateChange callback function [Buses], PFN_UFX_DEVICE_USB_STATE_CHANGE, PFN_UFX_DEVICE_USB_STATE_CHANGE callback function pointer [Buses], buses.evt_ufx_device_usb_state_change, ufxclient/EvtUfxDeviceUsbStateChange
 ms.prod: windows-hardware
 ms.technology: windows-devices

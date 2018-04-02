@@ -7,7 +7,7 @@ old-location: display\videoportfreedevicebase.htm
 old-project: display
 ms.assetid: 5b165237-f6fb-449c-878d-0ee09076d203
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: VideoPortFreeDeviceBase, VideoPortFreeDeviceBase function [Display Devices], VideoPort_Functions_cdbada9a-c5be-48e3-90e7-9414a055350c.xml, display.videoportfreedevicebase, video/VideoPortFreeDeviceBase
 ms.prod: windows-hardware
 ms.technology: windows-devices

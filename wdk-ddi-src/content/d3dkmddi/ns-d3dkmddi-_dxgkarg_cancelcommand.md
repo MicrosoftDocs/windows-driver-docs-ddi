@@ -7,7 +7,7 @@ old-location: display\dxgkarg_cancelcommand.htm
 old-project: display
 ms.assetid: c0066718-50d0-4bd2-a1bf-678c3f6b9253
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKARG_CANCELCOMMAND, DXGKARG_CANCELCOMMAND structure [Display Devices], _DXGKARG_CANCELCOMMAND, d3dkmddi/DXGKARG_CANCELCOMMAND, display.dxgkarg_cancelcommand
 ms.prod: windows-hardware
 ms.technology: windows-devices

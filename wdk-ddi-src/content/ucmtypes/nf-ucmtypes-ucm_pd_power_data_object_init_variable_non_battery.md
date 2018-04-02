@@ -7,7 +7,7 @@ old-location: buses\ucm_pd_power_data_object_init_variable_non_battery.htm
 old-project: usbref
 ms.assetid: BBC8975A-E5B1-4137-83D8-891075A8F4D0
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: UCM_PD_POWER_DATA_OBJECT_INIT_VARIABLE_NON_BATTERY, UCM_PD_POWER_DATA_OBJECT_INIT_VARIABLE_NON_BATTERY function [Buses], buses.ucm_pd_power_data_object_init_variable_non_battery, ucmtypes/UCM_PD_POWER_DATA_OBJECT_INIT_VARIABLE_NON_BATTERY
 ms.prod: windows-hardware
 ms.technology: windows-devices

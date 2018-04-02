@@ -7,7 +7,7 @@ old-location: display\d3d11ddi_corelayer_devicecallbacks.htm
 old-project: display
 ms.assetid: 7a10b7e0-b062-4ec9-9883-7042f6e55505
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3D11DDI_CORELAYER_DEVICECALLBACKS, D3D11DDI_CORELAYER_DEVICECALLBACKS structure [Display Devices], UMDisplayDriver_Dx11param_Structs_182fd279-98be-4418-b7ca-658d038cb39a.xml, d3d10umddi/D3D11DDI_CORELAYER_DEVICECALLBACKS, display.d3d11ddi_corelayer_devicecallbacks
 ms.prod: windows-hardware
 ms.technology: windows-devices

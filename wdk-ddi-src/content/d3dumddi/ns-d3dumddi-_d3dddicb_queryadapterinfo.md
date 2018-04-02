@@ -7,7 +7,7 @@ old-location: display\d3dddicb_queryadapterinfo.htm
 old-project: display
 ms.assetid: 484406a5-54be-49fa-839a-2e55747020f4
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDICB_QUERYADAPTERINFO, D3DDDICB_QUERYADAPTERINFO structure [Display Devices], D3D_param_Structs_24ed4d09-d2ff-4b79-95fc-5a1c7d146faa.xml, _D3DDDICB_QUERYADAPTERINFO, d3dumddi/D3DDDICB_QUERYADAPTERINFO, display.d3dddicb_queryadapterinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

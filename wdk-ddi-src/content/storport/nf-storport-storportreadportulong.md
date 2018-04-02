@@ -7,7 +7,7 @@ old-location: storage\storportreadportulong.htm
 old-project: storage
 ms.assetid: b04ef64a-cf1f-4de5-acb3-e57687f64719
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: StorPortReadPortUlong, StorPortReadPortUlong routine [Storage Devices], storage.storportreadportulong, storport/StorPortReadPortUlong, storprt_3ef5c577-3d75-4797-b5ce-8f36e4080c47.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

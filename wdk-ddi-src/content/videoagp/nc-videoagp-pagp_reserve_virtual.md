@@ -7,7 +7,7 @@ old-location: display\agpreservevirtual.htm
 old-project: display
 ms.assetid: 966dfc6c-6830-4872-b411-2801e3a4b753
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: AgpReserveVirtual, AgpReserveVirtual callback function [Display Devices], PAGP_RESERVE_VIRTUAL, VideoPort_Functions_ed4d4e19-25f2-4169-a80e-8c57c80ffd2b.xml, display.agpreservevirtual, videoagp/AgpReserveVirtual
 ms.prod: windows-hardware
 ms.technology: windows-devices

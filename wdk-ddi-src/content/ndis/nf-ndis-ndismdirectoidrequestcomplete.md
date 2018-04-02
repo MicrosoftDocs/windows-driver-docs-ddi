@@ -7,7 +7,7 @@ old-location: netvista\ndismdirectoidrequestcomplete.htm
 old-project: netvista
 ms.assetid: 11b8d4ed-54c8-4c64-ba9d-2a6fc1b22724
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: NdisMDirectOidRequestComplete, NdisMDirectOidRequestComplete function [Network Drivers Starting with Windows Vista], ndis/NdisMDirectOidRequestComplete, ndis_request_direct_ref_5f09825b-962f-41a9-b25d-e21c20e23249.xml, netvista.ndismdirectoidrequestcomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -142,8 +142,3 @@ If an overlying driver originated the direct OID request, NDIS calls the request
 
  
 
-<<<<<<< HEAD
-=======
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisMDirectOidRequestComplete function%20 RELEASE:%20(2/27/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
-
->>>>>>> parent of 2d896a8e266... Added changes

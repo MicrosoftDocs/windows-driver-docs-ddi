@@ -7,7 +7,7 @@ old-location: buses\ucmconnectorpdportpartnersourcecaps.htm
 old-project: usbref
 ms.assetid: 282E12E2-F16F-4399-BC8C-78BD64F05F13
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: UcmConnectorPdPartnerSourceCaps, UcmConnectorPdPartnerSourceCaps method [Buses], buses.ucmconnectorpdportpartnersourcecaps, ucmmanager/UcmConnectorPdPartnerSourceCaps
 ms.prod: windows-hardware
 ms.technology: windows-devices

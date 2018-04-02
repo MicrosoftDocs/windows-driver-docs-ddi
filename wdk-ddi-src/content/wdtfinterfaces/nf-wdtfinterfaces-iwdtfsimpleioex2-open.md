@@ -7,7 +7,7 @@ old-location: dtf\iwdtfsimpleioex2_open.htm
 old-project: dtf
 ms.assetid: 991a60a0-8d82-4f41-8cfe-bf633338bdda
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 3/29/2018
 ms.keywords: IWDTFSimpleIOEx2, IWDTFSimpleIOEx2 interface [Windows Device Testing Framework], Open method, IWDTFSimpleIOEx2::Open, Microsoft.WDTF.IWDTFSimpleIOEx2.Open, Microsoft::WDTF::IWDTFSimpleIOEx2::Open, Open method [Windows Device Testing Framework], Open method [Windows Device Testing Framework], IWDTFSimpleIOEx2 interface, Open,IWDTFSimpleIOEx2.Open, dtf.iwdtfsimpleioex2_open, wdtfinterfaces/IWDTFSimpleIOEx2::Open
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: storage\storportqueueworkitem.htm
 old-project: storage
 ms.assetid: 7B5DD97C-2E3D-4FF7-BF04-36F016B0C6B3
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: StorPortQueueWorkItem, StorPortQueueWorkItem routine [Storage Devices], storage.storportqueueworkitem, storport/StorPortQueueWorkItem
 ms.prod: windows-hardware
 ms.technology: windows-devices

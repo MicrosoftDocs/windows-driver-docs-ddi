@@ -7,7 +7,7 @@ old-location: dtf\iwdtfdriversetupsystemaction2_importdriverpackage.htm
 old-project: dtf
 ms.assetid: dc10fd33-e330-4c74-934b-2d178b17c51b
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 3/29/2018
 ms.keywords: IWDTFDriverSetupSystemAction2, IWDTFDriverSetupSystemAction2 interface [Windows Device Testing Framework], ImportDriverPackage method, IWDTFDriverSetupSystemAction2::ImportDriverPackage, ImportDriverPackage method [Windows Device Testing Framework], ImportDriverPackage method [Windows Device Testing Framework], IWDTFDriverSetupSystemAction2 interface, ImportDriverPackage,IWDTFDriverSetupSystemAction2.ImportDriverPackage, Microsoft.WDTF.IWDTFDriverSetupSystemAction2.ImportDriverPackage, Microsoft::WDTF::IWDTFDriverSetupSystemAction2::ImportDriverPackage, dtf.iwdtfdriversetupsystemaction2_importdriverpackage, wdtfdriversetupsystemaction/IWDTFDriverSetupSystemAction2::ImportDriverPackage
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: storage\ataportreadportuchar.htm
 old-project: storage
 ms.assetid: 9be74e98-ba68-492c-9660-43b2f76052cd
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: AtaPortReadPortUchar, AtaPortReadPortUchar routine [Storage Devices], atartns_6ac346ce-b2cd-4c50-b55f-1c952a01e736.xml, irb/AtaPortReadPortUchar, storage.ataportreadportuchar
 ms.prod: windows-hardware
 ms.technology: windows-devices

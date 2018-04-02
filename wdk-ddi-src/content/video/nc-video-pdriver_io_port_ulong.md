@@ -7,7 +7,7 @@ old-location: display\svgahwioportulong.htm
 old-project: display
 ms.assetid: e749188f-a255-403a-8ae9-a2c3c9b41c58
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PDRIVER_IO_PORT_ULONG, SvgaHwIoPortUlong, SvgaHwIoPortUlong callback function [Display Devices], VideoMiniport_Functions_84ae9115-8192-469a-b3c1-536d3964d906.xml, display.svgahwioportulong, video/SvgaHwIoPortUlong
 ms.prod: windows-hardware
 ms.technology: windows-devices

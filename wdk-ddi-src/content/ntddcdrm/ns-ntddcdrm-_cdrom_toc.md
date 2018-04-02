@@ -7,7 +7,7 @@ old-location: storage\cdrom_toc.htm
 old-project: storage
 ms.assetid: 84312199-5055-41a1-9aa2-4ee91a15d5bf
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PCDROM_TOC, CDROM_TOC, CDROM_TOC structure [Storage Devices], PCDROM_TOC, PCDROM_TOC structure pointer [Storage Devices], _CDROM_TOC, ntddcdrm/CDROM_TOC, ntddcdrm/PCDROM_TOC, storage.cdrom_toc, structs-CD-ROM_943f0104-ee61-4f40-a1a1-8392a15f3fd1.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: display\dxgi_ddi_base_args.htm
 old-project: display
 ms.assetid: e835edb9-7a7e-4258-957a-49877b1ed562
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGI_DDI_BASE_ARGS, DXGI_DDI_BASE_ARGS structure [Display Devices], UMDisplayDriver_Dx10param_Structs_3dec4197-80df-4de3-96ca-d4f90f23e85d.xml, display.dxgi_ddi_base_args, dxgiddi/DXGI_DDI_BASE_ARGS
 ms.prod: windows-hardware
 ms.technology: windows-devices

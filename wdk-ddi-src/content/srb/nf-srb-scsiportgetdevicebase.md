@@ -7,7 +7,7 @@ old-location: storage\scsiportgetdevicebase.htm
 old-project: storage
 ms.assetid: d8d14818-4b84-4c65-a29e-2cd97e8bfbe9
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: ScsiPortGetDeviceBase, ScsiPortGetDeviceBase routine [Storage Devices], scsiprt_2924bfb1-e5a0-4533-afd7-65d2d7962b46.xml, srb/ScsiPortGetDeviceBase, storage.scsiportgetdevicebase
 ms.prod: windows-hardware
 ms.technology: windows-devices

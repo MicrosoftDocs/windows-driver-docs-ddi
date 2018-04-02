@@ -7,7 +7,7 @@ old-location: display\retrievesubobject_d3d11_1_.htm
 old-project: display
 ms.assetid: 9029ec8d-102f-4d83-8ab5-fc208d8b5249
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3D10DDI_RETRIEVESUBOBJECT, RetrieveSubObject(D3D11_1), RetrieveSubObject(D3D11_1) callback function [Display Devices], d3d10umddi/RetrieveSubObject(D3D11_1), display.retrievesubobject, display.retrievesubobject_d3d11_1_
 ms.prod: windows-hardware
 ms.technology: windows-devices

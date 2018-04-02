@@ -7,7 +7,7 @@ old-location: display\dxgkarg_submitcommand.htm
 old-project: display
 ms.assetid: f0b5c7aa-855e-419a-ac27-c9f4edefd648
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKARG_SUBMITCOMMAND, DXGKARG_SUBMITCOMMAND structure [Display Devices], DmStructs_04cbfdbf-3b43-4b70-8964-75eb9f9c4128.xml, _DXGKARG_SUBMITCOMMAND, d3dkmddi/DXGKARG_SUBMITCOMMAND, display.dxgkarg_submitcommand
 ms.prod: windows-hardware
 ms.technology: windows-devices

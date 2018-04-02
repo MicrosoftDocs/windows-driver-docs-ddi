@@ -7,7 +7,7 @@ old-location: storage\hba_getportstatistics.htm
 old-project: storage
 ms.assetid: 282eccaf-7cb9-4675-9cc3-9261ed1322ca
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: HBA_GetPortStatistics, HBA_GetPortStatistics routine [Storage Devices], fibreHBA_rtns_cd33c55b-4c61-4353-ba28-8497e09b49dd.xml, hbaapi/HBA_GetPortStatistics, storage.hba_getportstatistics
 ms.prod: windows-hardware
 ms.technology: windows-devices

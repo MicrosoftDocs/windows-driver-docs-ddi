@@ -7,7 +7,7 @@ old-location: display\dxgkddisubmitcommandvirtual.htm
 old-project: display
 ms.assetid: 7A55FB51-BDC2-4215-895E-3250579BEAF0
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKDDI_SUBMITCOMMANDVIRTUAL, DxgkDdiSubmitCommandVirtual, DxgkDdiSubmitCommandVirtual callback function [Display Devices], d3dkmddi/DxgkDdiSubmitCommandVirtual, display.dxgkddisubmitcommandvirtual
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: display\dxgkddiopmgetinformation.htm
 old-project: display
 ms.assetid: 3d6559e5-776e-4fc0-b99a-8818cbcc289d
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKDDI_OPM_GET_INFORMATION, Dm_Opm_functions_6d4af4a5-4390-49f1-a557-735bf2c90ce6.xml, DxgkDdiOPMGetInformation, DxgkDdiOPMGetInformation callback function [Display Devices], display.dxgkddiopmgetinformation, dispmprt/DxgkDdiOPMGetInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices

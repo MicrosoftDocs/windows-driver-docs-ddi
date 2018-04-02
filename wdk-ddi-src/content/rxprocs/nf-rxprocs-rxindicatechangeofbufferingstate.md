@@ -7,7 +7,7 @@ old-location: ifsk\rxindicatechangeofbufferingstate.htm
 old-project: ifsk
 ms.assetid: 981f5a33-a4f1-438c-8fcf-03a5ab4c0e44
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: RxIndicateChangeOfBufferingState, RxIndicateChangeOfBufferingState routine [Installable File System Drivers], ifsk.rxindicatechangeofbufferingstate, rxprocs/RxIndicateChangeOfBufferingState, rxref_4a7ba539-c0b8-4c3b-b642-c272d262310b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

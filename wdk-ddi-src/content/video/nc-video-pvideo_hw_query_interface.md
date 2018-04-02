@@ -7,7 +7,7 @@ old-location: display\hwvidqueryinterface.htm
 old-project: display
 ms.assetid: f16a7fa3-3471-4ccb-b1b4-982d33f930d3
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: HwVidQueryInterface, HwVidQueryInterface callback function [Display Devices], PVIDEO_HW_QUERY_INTERFACE, VideoMiniport_Functions_69dec180-d966-4082-b050-0ed2e0e03121.xml, display.hwvidqueryinterface, video/HwVidQueryInterface
 ms.prod: windows-hardware
 ms.technology: windows-devices

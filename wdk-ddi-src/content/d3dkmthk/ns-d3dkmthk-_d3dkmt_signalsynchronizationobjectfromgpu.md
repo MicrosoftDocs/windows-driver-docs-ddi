@@ -7,7 +7,7 @@ old-location: display\d3dkmt_signalsynchronizationobjectfromgpu.htm
 old-project: display
 ms.assetid: 09190DCC-5F88-4C49-89B3-9063707E3F15
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMGPU, D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMGPU structure [Display Devices], _D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMGPU, d3dkmthk/D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMGPU, display.d3dkmt_signalsynchronizationobjectfromgpu
 ms.prod: windows-hardware
 ms.technology: windows-devices

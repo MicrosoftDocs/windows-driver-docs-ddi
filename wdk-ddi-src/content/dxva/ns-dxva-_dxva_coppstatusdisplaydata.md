@@ -7,7 +7,7 @@ old-location: display\dxva_coppstatusdisplaydata.htm
 old-project: display
 ms.assetid: 377845f7-772f-4361-8fcb-10c432fa7abf
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXVA_COPPStatusDisplayData, DXVA_COPPStatusDisplayData structure [Display Devices], _DXVA_COPPStatusDisplayData, display.dxva_coppstatusdisplaydata, dxva/DXVA_COPPStatusDisplayData, dxvaref_93230a15-ba58-4da6-8577-eb1f2bf8528e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

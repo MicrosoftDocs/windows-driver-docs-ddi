@@ -7,7 +7,7 @@ old-location: display\dxgkarg_recommendfunctionalvidpn.htm
 old-project: display
 ms.assetid: 58031257-5363-4e4f-b95f-aa3cd603c113
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKARG_RECOMMENDFUNCTIONALVIDPN, DXGKARG_RECOMMENDFUNCTIONALVIDPN structure [Display Devices], DmStructs_15342273-6bfe-4cee-8f8e-1d89c7683e4b.xml, _DXGKARG_RECOMMENDFUNCTIONALVIDPN, d3dkmddi/DXGKARG_RECOMMENDFUNCTIONALVIDPN, display.dxgkarg_recommendfunctionalvidpn
 ms.prod: windows-hardware
 ms.technology: windows-devices

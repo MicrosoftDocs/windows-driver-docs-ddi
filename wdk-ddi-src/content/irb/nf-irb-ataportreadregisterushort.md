@@ -7,7 +7,7 @@ old-location: storage\ataportreadregisterushort.htm
 old-project: storage
 ms.assetid: a0a9792c-a2a1-4079-9e1c-c41c5b872fa0
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: AtaPortReadRegisterUshort, AtaPortReadRegisterUshort routine [Storage Devices], atartns_4173b6fd-0784-4279-ae9e-d51469a000c6.xml, irb/AtaPortReadRegisterUshort, storage.ataportreadregisterushort
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: storage\scsi_pass_through_direct.htm
 old-project: storage
 ms.assetid: 306babe7-393f-4b4a-9d8a-4c973cb3eaa2
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PSCSI_PASS_THROUGH_DIRECT, PSCSI_PASS_THROUGH_DIRECT, PSCSI_PASS_THROUGH_DIRECT structure pointer [Storage Devices], SCSI_PASS_THROUGH_DIRECT, SCSI_PASS_THROUGH_DIRECT structure [Storage Devices], _SCSI_PASS_THROUGH_DIRECT, ntddscsi/PSCSI_PASS_THROUGH_DIRECT, ntddscsi/SCSI_PASS_THROUGH_DIRECT, storage.scsi_pass_through_direct, structs-scsibus_64c46eef-e5bc-4e81-a479-2bdbd93605e7.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices

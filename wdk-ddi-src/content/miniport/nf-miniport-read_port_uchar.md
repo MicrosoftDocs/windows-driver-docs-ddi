@@ -7,7 +7,7 @@ old-location: kernel\read_port_uchar.htm
 old-project: kernel
 ms.assetid: a58e55f5-d657-43bf-afef-05af7c6c02cc
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/28/2018
 ms.keywords: READ_PORT_UCHAR, READ_PORT_UCHAR routine [Kernel-Mode Driver Architecture], k103_d0d69b7f-15ad-4a72-ad99-6a5753348f6a.xml, kernel.read_port_uchar, wdm/READ_PORT_UCHAR
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,22 +53,12 @@ req.typenames: MEMORY_CACHING_TYPE
 The <b>READ_PORT_UCHAR</b> routine reads a byte from the specified port address.
 
 
-## -syntax
-
-
-````
-UCHAR READ_PORT_UCHAR(
-  _In_ PUCHAR Port
-);
-````
-
-
 ## -parameters
 
 
 
 
-### -param Port [in]
+#### - Port [in]
 
 Specifies the port address, which must be a mapped memory range in I/O space. 
 

@@ -7,7 +7,7 @@ old-location: ifsk\ccmapdata.htm
 old-project: ifsk
 ms.assetid: dccc79ba-68d9-41cf-b86d-37adb83558a0
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: CcMapData, CcMapData routine [Installable File System Drivers], ccref_1eb788ce-2fb2-40b4-b696-14609a0c8556.xml, ifsk.ccmapdata, ntifs/CcMapData
 ms.prod: windows-hardware
 ms.technology: windows-devices

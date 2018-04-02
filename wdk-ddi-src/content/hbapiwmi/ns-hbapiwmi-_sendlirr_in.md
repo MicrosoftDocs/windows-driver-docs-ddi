@@ -7,7 +7,7 @@ old-location: storage\sendlirr_in.htm
 old-project: storage
 ms.assetid: 774acafb-c929-483a-82b0-2a358054dc7f
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PSendLIRR_IN, PSendLIRR_IN, PSendLIRR_IN structure pointer [Storage Devices], SendLIRR_IN, SendLIRR_IN structure [Storage Devices], _SendLIRR_IN, hbapiwmi/PSendLIRR_IN, hbapiwmi/SendLIRR_IN, storage.sendlirr_in, structs-Fibre_6f0fd3c1-9eb5-4042-b12e-8dd225d966b1.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: buses\ucmconnectorchargingstatechanged.htm
 old-project: usbref
 ms.assetid: A645BFE0-4B7F-416F-9096-596ADAA37951
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: UcmConnectorChargingStateChanged, UcmConnectorChargingStateChanged method [Buses], buses.ucmconnectorchargingstatechanged, ucmmanager/UcmConnectorChargingStateChanged
 ms.prod: windows-hardware
 ms.technology: windows-devices

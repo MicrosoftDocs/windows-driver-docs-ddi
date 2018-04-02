@@ -342,11 +342,7 @@ If the AMCONTROL_COLORINFO_PRESENT flag is set in the <b>dwControlFlags</b> memb
 
 
 
-<<<<<<< HEAD
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567305">KS_BITMAPINFOHEADER</a>
-=======
-<a href="..\ksmedia\ns-ksmedia-tagks_datarange_video2.md">KS_DATARANGE_VIDEO2</a>
->>>>>>> parent of 2d896a8e266... Added changes
 
 
 

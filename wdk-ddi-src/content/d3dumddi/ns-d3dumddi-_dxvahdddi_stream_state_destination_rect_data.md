@@ -7,7 +7,7 @@ old-location: display\dxvahdddi_stream_state_destination_rect_data.htm
 old-project: display
 ms.assetid: 82f0cb12-fc0e-4627-af50-df4697f6764f
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXVA2_Structs_3b88b3f0-9b31-46c6-8725-514f227b12a1.xml, DXVAHDDDI_STREAM_STATE_DESTINATION_RECT_DATA, DXVAHDDDI_STREAM_STATE_DESTINATION_RECT_DATA structure [Display Devices], _DXVAHDDDI_STREAM_STATE_DESTINATION_RECT_DATA, d3dumddi/DXVAHDDDI_STREAM_STATE_DESTINATION_RECT_DATA, display.dxvahdddi_stream_state_destination_rect_data
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: buses\ufx_device_callbacks_init.htm
 old-project: usbref
 ms.assetid: D9E7D359-5FC8-44C8-ACA2-641DEFF17616
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: UFX_DEVICE_CALLBACKS_INIT, UFX_DEVICE_CALLBACKS_INIT function [Buses], buses.ufx_device_callbacks_init, ufxclient/UFX_DEVICE_CALLBACKS_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices

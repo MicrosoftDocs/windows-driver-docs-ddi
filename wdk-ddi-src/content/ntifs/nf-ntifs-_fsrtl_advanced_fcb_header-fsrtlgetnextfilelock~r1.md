@@ -7,7 +7,7 @@ old-location: ifsk\fsrtlgetnextfilelock.htm
 old-project: ifsk
 ms.assetid: 175fa4a7-a8e0-4fb1-8103-e513ea8c0778
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FsRtlGetNextFileLock, FsRtlGetNextFileLock routine [Installable File System Drivers], fsrtlref_d34dc7b6-7bdd-47a8-a35e-302c621bf93d.xml, ifsk.fsrtlgetnextfilelock, ntifs/FsRtlGetNextFileLock
 ms.prod: windows-hardware
 ms.technology: windows-devices

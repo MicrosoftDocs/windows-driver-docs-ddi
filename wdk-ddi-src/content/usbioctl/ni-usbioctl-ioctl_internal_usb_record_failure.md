@@ -7,7 +7,7 @@ old-location: buses\ioctl_internal_usb_record_failure.htm
 old-project: usbref
 ms.assetid: b0b2f80c-38d3-47c7-b57b-d49fb5b6edd7
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_INTERNAL_USB_RECORD_FAILURE, IOCTL_INTERNAL_USB_RECORD_FAILURE control code [Buses], buses.ioctl_internal_usb_record_failure, usbioctl/IOCTL_INTERNAL_USB_RECORD_FAILURE
 ms.prod: windows-hardware
 ms.technology: windows-devices

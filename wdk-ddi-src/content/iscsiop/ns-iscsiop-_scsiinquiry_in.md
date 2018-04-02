@@ -7,7 +7,7 @@ old-location: storage\scsiinquiry_in.htm
 old-project: storage
 ms.assetid: b1a73ef7-c13a-4627-8eb0-b9285567caec
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PScsiInquiry_IN, PScsiInquiry_IN, PScsiInquiry_IN structure pointer [Storage Devices], ScsiInquiry_IN, ScsiInquiry_IN structure [Storage Devices], _ScsiInquiry_IN, iscsiop/PScsiInquiry_IN, iscsiop/ScsiInquiry_IN, storage.scsiinquiry_in, structs-iSCSI_2129d82b-f03d-49f2-bf1d-8716840d086c.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices

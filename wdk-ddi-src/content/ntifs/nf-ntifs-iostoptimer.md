@@ -7,7 +7,7 @@ old-location: kernel\iostoptimer.htm
 old-project: kernel
 ms.assetid: 4b903046-8f96-4299-94e7-85900be1bbd4
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/28/2018
 ms.keywords: IoStopTimer, IoStopTimer routine [Kernel-Mode Driver Architecture], k104_dfedf779-1137-44c1-ab06-223c3ce6e9c6.xml, kernel.iostoptimer, wdm/IoStopTimer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,17 +49,7 @@ req.typenames: TOKEN_TYPE
 ## -description
 
 
-The <b>IoStopTimer</b> routine disables the timer for a specified device object so the driver-supplied <a href="..\wdm\nc-wdm-io_timer_routine.md">IoTimer</a> routine is not called. 
-
-
-## -syntax
-
-
-````
-VOID IoStopTimer(
-  _In_ PDEVICE_OBJECT DeviceObject
-);
-````
+The <b>IoStopTimer</b> routine disables the timer for a specified device object so the driver-supplied <a href="https://msdn.microsoft.com/library/windows/hardware/ff550381">IoTimer</a> routine is not called. 
 
 
 ## -parameters
@@ -69,7 +59,7 @@ VOID IoStopTimer(
 
 ### -param DeviceObject [in]
 
-Pointer to the device object with which the <a href="..\wdm\nc-wdm-io_timer_routine.md">IoTimer</a> routine is associated.
+Pointer to the device object with which the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550381">IoTimer</a> routine is associated.
 
 
 ## -returns
@@ -85,7 +75,7 @@ None
 
 
 
-The driver-supplied <a href="..\wdm\nc-wdm-io_timer_routine.md">IoTimer</a> routine can be reenabled with a call to <b>IoStartTimer</b>.
+The driver-supplied <a href="https://msdn.microsoft.com/library/windows/hardware/ff550381">IoTimer</a> routine can be reenabled with a call to <b>IoStartTimer</b>.
 
 Do not call <b>IoStopTimer</b> from within the <i>IoTimer</i> routine. 
 
@@ -94,17 +84,15 @@ Do not call <b>IoStopTimer</b> from within the <i>IoTimer</i> routine.
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-ioinitializetimer.md">IoInitializeTimer</a>
 
 
 
-<a href="..\wdm\nf-wdm-iostarttimer.md">IoStartTimer</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549344">IoInitializeTimer</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550373">IoStartTimer</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IoStopTimer routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

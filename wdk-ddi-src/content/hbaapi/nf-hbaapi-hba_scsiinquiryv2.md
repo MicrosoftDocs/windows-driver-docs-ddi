@@ -7,7 +7,7 @@ old-location: storage\hba_scsiinquiryv2.htm
 old-project: storage
 ms.assetid: ba82c6f1-f310-4258-8867-8309845320cc
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: HBA_ScsiInquiryV2, HBA_ScsiInquiryV2 routine [Storage Devices], fibreHBA_rtns_eb1e2682-5317-4ea3-a3e2-2d1db00c5f9b.xml, hbaapi/HBA_ScsiInquiryV2, storage.hba_scsiinquiryv2
 ms.prod: windows-hardware
 ms.technology: windows-devices

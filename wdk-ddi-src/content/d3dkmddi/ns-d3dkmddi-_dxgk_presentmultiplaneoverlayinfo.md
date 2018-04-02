@@ -7,7 +7,7 @@ old-location: display\dxgk_presentmultiplaneoverlayinfo.htm
 old-project: display
 ms.assetid: b9cc78f3-b8b5-4a54-87b2-321b75ed9a21
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGK_PRESENTMULTIPLANEOVERLAYINFO, DXGK_PRESENTMULTIPLANEOVERLAYINFO structure [Display Devices], _DXGK_PRESENTMULTIPLANEOVERLAYINFO, d3dkmddi/DXGK_PRESENTMULTIPLANEOVERLAYINFO, display.dxgk_presentmultiplaneoverlayinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

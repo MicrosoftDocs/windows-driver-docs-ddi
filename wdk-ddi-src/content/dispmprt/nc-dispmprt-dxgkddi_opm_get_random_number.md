@@ -7,7 +7,7 @@ old-location: display\dxgkddiopmgetrandomnumber.htm
 old-project: display
 ms.assetid: 91b07a5c-ed25-4268-bd6d-273ae8b1ac28
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKDDI_OPM_GET_RANDOM_NUMBER, Dm_Opm_functions_a7d335ef-61bf-452a-a811-20048ff28dbf.xml, DxgkDdiOPMGetRandomNumber, DxgkDdiOPMGetRandomNumber callback function [Display Devices], display.dxgkddiopmgetrandomnumber, dispmprt/DxgkDdiOPMGetRandomNumber
 ms.prod: windows-hardware
 ms.technology: windows-devices

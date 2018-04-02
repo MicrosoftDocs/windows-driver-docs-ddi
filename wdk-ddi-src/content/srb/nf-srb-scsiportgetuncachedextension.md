@@ -7,7 +7,7 @@ old-location: storage\scsiportgetuncachedextension.htm
 old-project: storage
 ms.assetid: d32da7d9-7f26-4c99-8c10-3b9e1a7c9c22
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: ScsiPortGetUncachedExtension, ScsiPortGetUncachedExtension routine [Storage Devices], scsiprt_b3764d3f-3e99-4a2f-b17c-30d6fcafe255.xml, srb/ScsiPortGetUncachedExtension, storage.scsiportgetuncachedextension
 ms.prod: windows-hardware
 ms.technology: windows-devices

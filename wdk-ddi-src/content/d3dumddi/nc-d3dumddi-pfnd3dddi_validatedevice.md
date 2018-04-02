@@ -7,7 +7,7 @@ old-location: display\validatedevice.htm
 old-project: display
 ms.assetid: 058696e0-be4a-45f3-b3e8-55abccdce3ce
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3DDDI_VALIDATEDEVICE, UserModeDisplayDriver_Functions_37e253ca-1d0f-4896-aaad-4c36053877c5.xml, ValidateDevice, ValidateDevice callback function [Display Devices], d3dumddi/ValidateDevice, display.validatedevice
 ms.prod: windows-hardware
 ms.technology: windows-devices

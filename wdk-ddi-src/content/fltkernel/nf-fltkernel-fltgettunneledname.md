@@ -7,7 +7,7 @@ old-location: ifsk\fltgettunneledname.htm
 old-project: ifsk
 ms.assetid: 760ee574-5ca5-4db1-8b47-009a12398076
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FltApiRef_e_to_o_5a952e3d-25d1-48e7-b91b-9891a446d53b.xml, FltGetTunneledName, FltGetTunneledName routine [Installable File System Drivers], fltkernel/FltGetTunneledName, ifsk.fltgettunneledname
 ms.prod: windows-hardware
 ms.technology: windows-devices

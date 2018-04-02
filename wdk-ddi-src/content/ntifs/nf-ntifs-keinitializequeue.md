@@ -7,7 +7,7 @@ old-location: ifsk\keinitializequeue.htm
 old-project: ifsk
 ms.assetid: 8dd47333-679a-482b-bd45-1e73505b3fea
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: KeInitializeQueue, KeInitializeQueue routine [Installable File System Drivers], ifsk.keinitializequeue, keref_85ea0829-c42c-4411-8ad9-a32d8eb0a40f.xml, ntifs/KeInitializeQueue
 ms.prod: windows-hardware
 ms.technology: windows-devices

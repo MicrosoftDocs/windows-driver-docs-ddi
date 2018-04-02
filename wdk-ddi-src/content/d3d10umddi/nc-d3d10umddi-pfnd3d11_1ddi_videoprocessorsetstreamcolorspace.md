@@ -7,7 +7,7 @@ old-location: display\videoprocessorsetstreamcolorspace.htm
 old-project: display
 ms.assetid: bb187968-ae2a-4872-a745-fb42c0cff528
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMCOLORSPACE, d3d10umddi/pfnVideoProcessorSetStreamColorSpace, display.videoprocessorsetstreamcolorspace, pfnVideoProcessorSetStreamColorSpace, pfnVideoProcessorSetStreamColorSpace callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: display\d3dddiarg_presentmultiplaneoverlay.htm
 old-project: display
 ms.assetid: 862441ee-8a6e-4ddc-8dba-d3d990f45cfc
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDIARG_PRESENTMULTIPLANEOVERLAY, D3DDDIARG_PRESENTMULTIPLANEOVERLAY structure [Display Devices], d3dumddi/D3DDDIARG_PRESENTMULTIPLANEOVERLAY, display.d3dddiarg_presentmultiplaneoverlay
 ms.prod: windows-hardware
 ms.technology: windows-devices

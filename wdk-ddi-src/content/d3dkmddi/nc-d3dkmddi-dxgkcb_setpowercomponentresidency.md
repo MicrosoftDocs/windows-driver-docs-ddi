@@ -7,7 +7,7 @@ old-location: display\dxgkcbsetpowercomponentresidency.htm
 old-project: display
 ms.assetid: 9D567380-2E77-4A63-8674-E19A13C7B8BC
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKCB_SETPOWERCOMPONENTRESIDENCY, DxgkCbSetPowerComponentResidency, DxgkCbSetPowerComponentResidency callback function [Display Devices], d3dkmddi/DxgkCbSetPowerComponentResidency, display.dxgkcbsetpowercomponentresidency
 ms.prod: windows-hardware
 ms.technology: windows-devices

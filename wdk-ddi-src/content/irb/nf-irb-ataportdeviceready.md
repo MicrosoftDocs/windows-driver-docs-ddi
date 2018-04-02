@@ -7,7 +7,7 @@ old-location: storage\ataportdeviceready.htm
 old-project: storage
 ms.assetid: 65cbed1a-35f9-44f7-941a-ffc87cc79649
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: AtaPortDeviceReady, AtaPortDeviceReady routine [Storage Devices], atartns_28cebf8c-cdda-46f4-9785-184552630769.xml, irb/AtaPortDeviceReady, storage.ataportdeviceready
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: storage\ioctl_ehstor_bandmgmt_enumerate_bands.htm
 old-project: storage
 ms.assetid: 80F7546C-3683-460B-A0D9-AD41386E6195
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_EHSTOR_BANDMGMT_ENUMERATE_BANDS, IOCTL_EHSTOR_BANDMGMT_ENUMERATE_BANDS control code [Storage Devices], ehstorbandmgmt/IOCTL_EHSTOR_BANDMGMT_ENUMERATE_BANDS, storage.ioctl_ehstor_bandmgmt_enumerate_bands
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: dtf\iwdtftargets2_clear.htm
 old-project: dtf
 ms.assetid: 4fe37240-7cef-4bfb-91be-49a0bca2fa8f
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 3/29/2018
 ms.keywords: Clear method [Windows Device Testing Framework], Clear method [Windows Device Testing Framework], IWDTFTargets2 interface, Clear,IWDTFTargets2.Clear, IWDTFTargets2, IWDTFTargets2 interface [Windows Device Testing Framework], Clear method, IWDTFTargets2::Clear, Microsoft.WDTF.IWDTFTargets2.Clear, Microsoft::WDTF::IWDTFTargets2::Clear, dtf.iwdtftargets2_clear, wdtf/IWDTFTargets2::Clear
 ms.prod: windows-hardware
 ms.technology: windows-devices

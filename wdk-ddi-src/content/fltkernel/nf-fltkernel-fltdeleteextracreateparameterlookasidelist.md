@@ -7,7 +7,7 @@ old-location: ifsk\fltdeleteextracreateparameterlookasidelist.htm
 old-project: ifsk
 ms.assetid: 8df06f2c-7358-49ea-8948-b76c5090d75b
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FltApiRef_a_to_d_ac849af2-706e-4eac-be0b-1c3c905ccdfe.xml, FltDeleteExtraCreateParameterLookasideList, FltDeleteExtraCreateParameterLookasideList routine [Installable File System Drivers], fltkernel/FltDeleteExtraCreateParameterLookasideList, ifsk.fltdeleteextracreateparameterlookasidelist
 ms.prod: windows-hardware
 ms.technology: windows-devices

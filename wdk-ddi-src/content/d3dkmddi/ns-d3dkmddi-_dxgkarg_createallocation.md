@@ -7,7 +7,7 @@ old-location: display\dxgkarg_createallocation.htm
 old-project: display
 ms.assetid: e1464561-b9f2-41aa-921e-84f3a855130f
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*INOUT_PDXGKARG_CREATEALLOCATION, DXGKARG_CREATEALLOCATION, DXGKARG_CREATEALLOCATION structure [Display Devices], DmStructs_751430a9-4161-4230-bb97-d09600d48d62.xml, _DXGKARG_CREATEALLOCATION, d3dkmddi/DXGKARG_CREATEALLOCATION, display.dxgkarg_createallocation"
 ms.prod: windows-hardware
 ms.technology: windows-devices

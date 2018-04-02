@@ -7,7 +7,7 @@ old-location: ifsk\fsrtlistotaldevicefailure.htm
 old-project: ifsk
 ms.assetid: 6d1a39ea-bdc0-47e2-94a5-69554f4b38c4
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FsRtlIsTotalDeviceFailure, FsRtlIsTotalDeviceFailure routine [Installable File System Drivers], fsrtlref_b4ec70b9-8a76-4e47-905a-54238a0b9173.xml, ifsk.fsrtlistotaldevicefailure, ntddk/FsRtlIsTotalDeviceFailure
 ms.prod: windows-hardware
 ms.technology: windows-devices

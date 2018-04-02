@@ -7,7 +7,7 @@ old-location: display\videoprocessorsetstreamsourcerect.htm
 old-project: display
 ms.assetid: 78d62117-260a-46ab-9daa-ee9dcfc7fc1f
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMSOURCERECT, d3d10umddi/pfnVideoProcessorSetStreamSourceRect, display.videoprocessorsetstreamsourcerect, pfnVideoProcessorSetStreamSourceRect, pfnVideoProcessorSetStreamSourceRect callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices

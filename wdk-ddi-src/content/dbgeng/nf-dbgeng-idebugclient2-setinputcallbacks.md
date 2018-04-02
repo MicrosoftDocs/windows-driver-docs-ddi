@@ -7,7 +7,7 @@ old-location: debugger\setinputcallbacks.htm
 old-project: debugger
 ms.assetid: 4fd7ba5f-c400-4f44-bebb-b52e9a579f99
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: IDebugClient interface [Windows Debugging], SetInputCallbacks method, IDebugClient2, IDebugClient2 interface [Windows Debugging], SetInputCallbacks method, IDebugClient2::SetInputCallbacks, IDebugClient3 interface [Windows Debugging], SetInputCallbacks method, IDebugClient3::SetInputCallbacks, IDebugClient4 interface [Windows Debugging], SetInputCallbacks method, IDebugClient4::SetInputCallbacks, IDebugClient5 interface [Windows Debugging], SetInputCallbacks method, IDebugClient5::SetInputCallbacks, IDebugClient::SetInputCallbacks, IDebugClient_fea0d021-69b2-462f-965f-455305fd5971.xml, SetInputCallbacks method [Windows Debugging], SetInputCallbacks method [Windows Debugging], IDebugClient interface, SetInputCallbacks method [Windows Debugging], IDebugClient2 interface, SetInputCallbacks method [Windows Debugging], IDebugClient3 interface, SetInputCallbacks method [Windows Debugging], IDebugClient4 interface, SetInputCallbacks method [Windows Debugging], IDebugClient5 interface, SetInputCallbacks,IDebugClient2.SetInputCallbacks, dbgeng/IDebugClient2::SetInputCallbacks, dbgeng/IDebugClient3::SetInputCallbacks, dbgeng/IDebugClient4::SetInputCallbacks, dbgeng/IDebugClient5::SetInputCallbacks, dbgeng/IDebugClient::SetInputCallbacks, debugger.setinputcallbacks
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -139,8 +139,3 @@ The <b>IDebugInputCallbacks</b> interface extends the COM interface <b>IUnknown<
 
  
 
-<<<<<<< HEAD
-=======
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugClient::SetInputCallbacks method%20 RELEASE:%20(2/27/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
-
->>>>>>> parent of 2d896a8e266... Added changes

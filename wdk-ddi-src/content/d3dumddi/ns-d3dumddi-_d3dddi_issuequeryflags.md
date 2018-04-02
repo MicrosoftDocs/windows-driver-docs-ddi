@@ -7,7 +7,7 @@ old-location: display\d3dddi_issuequeryflags.htm
 old-project: display
 ms.assetid: 68360c2e-4b03-40a3-a313-bdb9ef26a298
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDI_ISSUEQUERYFLAGS, D3DDDI_ISSUEQUERYFLAGS structure [Display Devices], D3D_other_Structs_794dd0b0-f24c-4e9e-befe-d79dd4efbaef.xml, _D3DDDI_ISSUEQUERYFLAGS, d3dumddi/D3DDDI_ISSUEQUERYFLAGS, display.d3dddi_issuequeryflags
 ms.prod: windows-hardware
 ms.technology: windows-devices

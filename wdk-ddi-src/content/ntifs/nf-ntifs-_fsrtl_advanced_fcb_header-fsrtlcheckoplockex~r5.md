@@ -7,7 +7,7 @@ old-location: ifsk\fsrtlcheckoplockex.htm
 old-project: ifsk
 ms.assetid: e06ae137-fbd8-47cc-8102-9fe21993f1ca
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FsRtlCheckOplockEx, FsRtlCheckOplockEx routine [Installable File System Drivers], fsrtlref_8c9699aa-3c4e-4095-9eee-4caef21f4709.xml, ifsk.fsrtlcheckoplockex, ntifs/FsRtlCheckOplockEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

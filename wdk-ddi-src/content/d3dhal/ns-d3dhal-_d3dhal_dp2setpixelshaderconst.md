@@ -7,7 +7,7 @@ old-location: display\d3dhal_dp2setpixelshaderconst.htm
 old-project: display
 ms.assetid: 8431fee3-d8c9-4c31-aa74-f5ce55f7fdcd
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*LPD3DHAL_DP2SETPIXELSHADERCONST, *LPD3DHAL_DP2SETPIXELSHADERCONSTB, *LPD3DHAL_DP2SETPIXELSHADERCONSTI, D3DHAL_DP2SETPIXELSHADERCONST, D3DHAL_DP2SETPIXELSHADERCONST structure [Display Devices], D3DHAL_DP2SETPIXELSHADERCONSTB, D3DHAL_DP2SETPIXELSHADERCONSTI, _D3DHAL_DP2SETPIXELSHADERCONST, d3dhal/D3DHAL_DP2SETPIXELSHADERCONST, d3dstrct_927a3360-7000-4cf0-99c7-f02407ae63eb.xml, display.d3dhal_dp2setpixelshaderconst"
 ms.prod: windows-hardware
 ms.technology: windows-devices

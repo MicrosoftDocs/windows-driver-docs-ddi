@@ -7,7 +7,7 @@ old-location: storage\ataportstallexecution.htm
 old-project: storage
 ms.assetid: 5dae484f-fb79-4291-bae5-dba0be7f9b97
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: AtaPortStallExecution, AtaPortStallExecution function [Storage Devices], atartns_3a78519d-4ee5-4a4a-9564-1d2bbd256300.xml, irb/AtaPortStallExecution, storage.ataportstallexecution
 ms.prod: windows-hardware
 ms.technology: windows-devices

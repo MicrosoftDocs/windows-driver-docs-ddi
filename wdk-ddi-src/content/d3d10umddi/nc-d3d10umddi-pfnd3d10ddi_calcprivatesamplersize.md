@@ -7,7 +7,7 @@ old-location: display\calcprivatesamplersize.htm
 old-project: display
 ms.assetid: 7231ba65-f6ed-4b00-a61f-21d8fe26398f
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: CalcPrivateSamplerSize, CalcPrivateSamplerSize callback function [Display Devices], PFND3D10DDI_CALCPRIVATESAMPLERSIZE, UserModeDisplayDriverDx10_Functions_66c06423-c710-4b1f-8084-d42c79066909.xml, d3d10umddi/CalcPrivateSamplerSize, display.calcprivatesamplersize
 ms.prod: windows-hardware
 ms.technology: windows-devices

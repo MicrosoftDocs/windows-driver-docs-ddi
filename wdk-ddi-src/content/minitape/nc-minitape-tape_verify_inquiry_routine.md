@@ -7,7 +7,7 @@ old-location: storage\tapeminiverifyinquiry.htm
 old-project: storage
 ms.assetid: ed216b13-546a-4d0c-82db-79c175912556
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "(*TAPE_VERIFY_INQUIRY_ROUTINE), (*TAPE_VERIFY_INQUIRY_ROUTINE) routine [Storage Devices], TAPE_VERIFY_INQUIRY_ROUTINE, minitape/(*TAPE_VERIFY_INQUIRY_ROUTINE), storage.tapeminiverifyinquiry, tapemini_d8a92eee-8b82-4fac-b568-fbe40c906ec1.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ api_name:
 -	(*TAPE_VERIFY_INQUIRY_ROUTINE)
 product: Windows
 targetos: Windows
-req.typenames: MCD_INIT_DATA, *PMCD_INIT_DATA
+req.typenames: PROCESSOR_NUMBER, *PPROCESSOR_NUMBER
 ---
 
 # TAPE_VERIFY_INQUIRY_ROUTINE callback

@@ -7,7 +7,7 @@ old-location: display\dxgk_vidpn_interface_pfnacquiresourcemodeset.htm
 old-project: display
 ms.assetid: cf19f468-86c1-4cc9-8945-e23f73a85c91
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKDDI_VIDPN_ACQUIRESOURCEMODESET, VidPnFunctions_1ef2f7d1-cdea-4b0d-a8b5-76b5013afba3.xml, d3dkmddi/pfnAcquireSourceModeSet, display.dxgk_vidpn_interface_pfnacquiresourcemodeset, pfnAcquireSourceModeSet, pfnAcquireSourceModeSet callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices

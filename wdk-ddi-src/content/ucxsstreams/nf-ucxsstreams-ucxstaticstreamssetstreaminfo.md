@@ -7,7 +7,7 @@ old-location: buses\_ucxstaticstreamssetstreaminfo.htm
 old-project: usbref
 ms.assetid: 40AE9327-ABB7-4A63-AC90-494E2BC26C08
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: UcxStaticStreamsSetStreamInfo, UcxStaticStreamsSetStreamInfo method [Buses], buses._ucxstaticstreamssetstreaminfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

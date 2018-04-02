@@ -7,7 +7,7 @@ old-location: display\dxgkcbcreatecontextallocation.htm
 old-project: display
 ms.assetid: b6b142a4-20eb-4368-bd7f-8a25f4fe48ca
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKCB_CREATECONTEXTALLOCATION, DxgkCbCreateContextAllocation, DxgkCbCreateContextAllocation callback function [Display Devices], d3dkmddi/DxgkCbCreateContextAllocation, display.dxgkcbcreatecontextallocation
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: debugger\closelogfile.htm
 old-project: debugger
 ms.assetid: 86ae188b-379c-474e-9f21-60286af19656
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: CloseLogFile method [Windows Debugging], CloseLogFile method [Windows Debugging], IDebugControl interface, CloseLogFile method [Windows Debugging], IDebugControl2 interface, CloseLogFile method [Windows Debugging], IDebugControl3 interface, CloseLogFile,IDebugControl.CloseLogFile, IDebugControl, IDebugControl interface [Windows Debugging], CloseLogFile method, IDebugControl2 interface [Windows Debugging], CloseLogFile method, IDebugControl2::CloseLogFile, IDebugControl3 interface [Windows Debugging], CloseLogFile method, IDebugControl3::CloseLogFile, IDebugControl::CloseLogFile, IDebugControl_988fe3ac-a51d-4757-995d-40fe9d66aa02.xml, dbgeng/IDebugControl2::CloseLogFile, dbgeng/IDebugControl3::CloseLogFile, dbgeng/IDebugControl::CloseLogFile, debugger.closelogfile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -138,8 +138,3 @@ For more about log files, see <a href="https://msdn.microsoft.com/library/window
 
  
 
-<<<<<<< HEAD
-=======
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl::CloseLogFile method%20 RELEASE:%20(2/27/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
-
->>>>>>> parent of 2d896a8e266... Added changes

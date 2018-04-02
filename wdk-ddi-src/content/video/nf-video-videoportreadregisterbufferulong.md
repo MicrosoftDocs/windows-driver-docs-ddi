@@ -7,7 +7,7 @@ old-location: display\videoportreadregisterbufferulong.htm
 old-project: display
 ms.assetid: ebef1d9f-9559-436c-b425-92ccf3bbf203
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: VideoPortReadRegisterBufferUlong, VideoPortReadRegisterBufferUlong function [Display Devices], VideoPort_Functions_69ff5729-b386-4527-8bca-adc70e2d467d.xml, display.videoportreadregisterbufferulong, video/VideoPortReadRegisterBufferUlong
 ms.prod: windows-hardware
 ms.technology: windows-devices

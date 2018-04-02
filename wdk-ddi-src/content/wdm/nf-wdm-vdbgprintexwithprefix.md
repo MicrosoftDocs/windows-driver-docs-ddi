@@ -54,20 +54,6 @@ req.product: Windows 10 or later.
 The <b>vDbgPrintExWithPrefix</b> routine sends a string to the kernel debugger if certain conditions that you specify are met. This routine can append a prefix to debugger output to help organize debugging results.
 
 
-## -syntax
-
-
-````
-ULONG vDbgPrintExWithPrefix(
-  _In_ PCCH    Prefix,
-  _In_ ULONG   ComponentId,
-  _In_ ULONG   Level,
-  _In_ PCCH    Format,
-  _In_ va_list arglist
-);
-````
-
-
 ## -parameters
 
 
@@ -158,17 +144,15 @@ This routine is defined in Wdm.h. Component filter IDs are defined in Dpfilter.h
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-vdbgprintex.md">vDbgPrintEx</a>
 
 
 
-<a href="..\wdm\nf-wdm-dbgprintex.md">DbgPrintEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543634">DbgPrintEx</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556075">vDbgPrintEx</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [devtest\devtest]:%20vDbgPrintExWithPrefix routine%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

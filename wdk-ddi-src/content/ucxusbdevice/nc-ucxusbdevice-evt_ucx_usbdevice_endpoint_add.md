@@ -7,7 +7,7 @@ old-location: buses\evt_ucx_usbdevice_endpoint_add.htm
 old-project: usbref
 ms.assetid: 1cbafa33-e957-4865-9d4f-26f12827a941
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: EVT_UCX_USBDEVICE_ENDPOINT_ADD, EvtUcxUsbDeviceEndpointAdd, EvtUcxUsbDeviceEndpointAdd callback function [Buses], PEVT_UCX_USBDEVICE_ENDPOINT_ADD, PEVT_UCX_USBDEVICE_ENDPOINT_ADD callback function pointer [Buses], buses.evt_ucx_usbdevice_endpoint_add, ucxusbdevice/EvtUcxUsbDeviceEndpointAdd
 ms.prod: windows-hardware
 ms.technology: windows-devices

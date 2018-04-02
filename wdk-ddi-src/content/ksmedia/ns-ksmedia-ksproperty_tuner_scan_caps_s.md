@@ -86,7 +86,6 @@ The number of GUIDs in the <b>GUIDBucket</b> array.
 
 ## -see-also
 
-<<<<<<< HEAD
 
 
 
@@ -99,21 +98,6 @@ The number of GUIDs in the <b>GUIDBucket</b> array.
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565887">KSPROPERTY_TUNER_SCAN_CAPS</a>
-=======
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565887">KSPROPERTY_TUNER_SCAN_CAPS</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565881">KSPROPERTY_TUNER_NETWORKTYPE_SCAN_CAPS</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567800">PROPSETID_TUNER</a>
->>>>>>> parent of 2d896a8e266... Added changes
 
 
 

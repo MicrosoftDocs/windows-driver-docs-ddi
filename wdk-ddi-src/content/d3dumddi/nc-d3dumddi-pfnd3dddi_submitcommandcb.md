@@ -7,7 +7,7 @@ old-location: display\pfnsubmitcommandcb.htm
 old-project: display
 ms.assetid: 60300845-9050-4D0A-83D1-76A45EA823C1
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3DDDI_SUBMITCOMMANDCB, d3dumddi/pfnSubmitCommandCb, display.pfnsubmitcommandcb, pfnSubmitCommandCb, pfnSubmitCommandCb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices

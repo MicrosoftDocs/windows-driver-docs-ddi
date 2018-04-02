@@ -7,7 +7,7 @@ old-location: storage\scsiportgetlogicalunit.htm
 old-project: storage
 ms.assetid: 10088043-fc0b-4df9-a5bf-fdee9740b88a
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: ScsiPortGetLogicalUnit, ScsiPortGetLogicalUnit routine [Storage Devices], scsiprt_2b4c797a-4fbb-4c0c-913a-628bfb6dab3d.xml, srb/ScsiPortGetLogicalUnit, storage.scsiportgetlogicalunit
 ms.prod: windows-hardware
 ms.technology: windows-devices

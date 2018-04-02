@@ -7,7 +7,7 @@ old-location: display\d3dkmdt_vidpn_source_mode_type.htm
 old-project: display
 ms.assetid: c2a48cf2-f595-4f78-b779-416d324e90d7
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMDT_RMT_GRAPHICS, D3DKMDT_RMT_GRAPHICS_STEREO, D3DKMDT_RMT_GRAPHICS_STEREO_ADVANCED_SCAN, D3DKMDT_RMT_TEXT, D3DKMDT_RMT_UNINITIALIZED, D3DKMDT_VIDPN_SOURCE_MODE_TYPE, D3DKMDT_VIDPN_SOURCE_MODE_TYPE enumeration [Display Devices], DmEnums_602e0ab4-4fea-489f-8f2e-c8cf9534caa8.xml, _D3DKMDT_VIDPN_SOURCE_MODE_TYPE, d3dkmdt/D3DKMDT_RMT_GRAPHICS, d3dkmdt/D3DKMDT_RMT_GRAPHICS_STEREO, d3dkmdt/D3DKMDT_RMT_GRAPHICS_STEREO_ADVANCED_SCAN, d3dkmdt/D3DKMDT_RMT_TEXT, d3dkmdt/D3DKMDT_RMT_UNINITIALIZED, d3dkmdt/D3DKMDT_VIDPN_SOURCE_MODE_TYPE, display.d3dkmdt_vidpn_source_mode_type
 ms.prod: windows-hardware
 ms.technology: windows-devices

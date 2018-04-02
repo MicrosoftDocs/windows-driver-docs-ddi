@@ -7,7 +7,7 @@ old-location: kernel\bus_data_type.htm
 old-project: kernel
 ms.assetid: a2a2e964-b9ae-4367-85de-f0ebe3c7a952
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/28/2018
 ms.keywords: "*PBUS_DATA_TYPE, BUS_DATA_TYPE, BUS_DATA_TYPE enumeration [Kernel-Mode Driver Architecture], CbusConfiguration, Cmos, ConfigurationSpaceUndefined, EisaConfiguration, MPIConfiguration, MPSAConfiguration, MaximumBusDataType, NuBusConfiguration, PBUS_DATA_TYPE, PBUS_DATA_TYPE enumeration pointer [Kernel-Mode Driver Architecture], PCIConfiguration, PCMCIAConfiguration, PNPISAConfiguration, Pos, SgiInternalConfiguration, VMEConfiguration, _BUS_DATA_TYPE, kernel.bus_data_type, ntddk/BUS_DATA_TYPE, ntddk/CbusConfiguration, ntddk/Cmos, ntddk/ConfigurationSpaceUndefined, ntddk/EisaConfiguration, ntddk/MPIConfiguration, ntddk/MPSAConfiguration, ntddk/MaximumBusDataType, ntddk/NuBusConfiguration, ntddk/PBUS_DATA_TYPE, ntddk/PCIConfiguration, ntddk/PCMCIAConfiguration, ntddk/PNPISAConfiguration, ntddk/Pos, ntddk/SgiInternalConfiguration, ntddk/VMEConfiguration, sysenum_3f6df31a-39d8-463e-8d44-44e51cd9989d.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,29 +50,6 @@ req.typenames: BUS_DATA_TYPE, *PBUS_DATA_TYPE
 
 
 The <b>BUS_DATA_TYPE</b> enumeration indicates the type of bus configuration space.
-
-
-## -syntax
-
-
-````
-typedef enum _BUS_DATA_TYPE { 
-  ConfigurationSpaceUndefined  = -1,
-  Cmos                         = 0,
-  EisaConfiguration            = 1,
-  Pos                          = 2,
-  CbusConfiguration            = 3,
-  PCIConfiguration             = 4,
-  VMEConfiguration             = 5,
-  NuBusConfiguration           = 6,
-  PCMCIAConfiguration          = 7,
-  MPIConfiguration             = 8,
-  MPSAConfiguration            = 9,
-  PNPISAConfiguration          = 10,
-  SgiInternalConfiguration     = 11,
-  MaximumBusDataType           = 12
-} BUS_DATA_TYPE, *PBUS_DATA_TYPE;
-````
 
 
 ## -enum-fields
@@ -152,6 +129,9 @@ Indicates the upper limit of the bus configuration space types.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546599">HalGetBusData</a>
 
 
@@ -165,12 +145,7 @@ Indicates the upper limit of the bus configuration space types.
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546633">HalSetBusDataByOffset</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20BUS_DATA_TYPE enumeration%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

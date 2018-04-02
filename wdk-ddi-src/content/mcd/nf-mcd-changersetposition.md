@@ -7,7 +7,7 @@ old-location: storage\changersetposition.htm
 old-project: storage
 ms.assetid: cab12c57-dd2b-4453-90ed-7f8954e0fe5d
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: ChangerSetPosition, ChangerSetPosition function [Storage Devices], chgrmini_28455ca6-3f1f-40ac-a756-c1f026f35f87.xml, mcd/ChangerSetPosition, storage.changersetposition
 ms.prod: windows-hardware
 ms.technology: windows-devices

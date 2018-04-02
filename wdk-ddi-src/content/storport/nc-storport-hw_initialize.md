@@ -7,7 +7,7 @@ old-location: storage\hwstorinitialize.htm
 old-project: storage
 ms.assetid: c6c70f15-2614-4623-8979-6046cdc6239b
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: HW_INITIALIZE, HwStorInitialize, HwStorInitialize routine [Storage Devices], storage.hwstorinitialize, stormini_ef5f6b0d-443d-4ee4-a319-117e5be40831.xml, storport/HwStorInitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices

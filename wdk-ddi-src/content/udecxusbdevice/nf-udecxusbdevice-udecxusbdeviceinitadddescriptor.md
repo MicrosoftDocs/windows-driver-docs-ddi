@@ -7,7 +7,7 @@ old-location: buses\udecxusbdeviceinitadddescriptor.htm
 old-project: usbref
 ms.assetid: BC43B6AB-E34C-45A9-B666-1B323104FC48
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: UdecxUsbDeviceInitAddDescriptor, UdecxUsbDeviceInitAddDescriptor function [Buses], buses.udecxusbdeviceinitadddescriptor, udecxusbdevice/UdecxUsbDeviceInitAddDescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices

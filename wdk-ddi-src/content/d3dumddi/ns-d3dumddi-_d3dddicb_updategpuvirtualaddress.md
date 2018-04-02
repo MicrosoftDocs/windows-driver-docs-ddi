@@ -7,7 +7,7 @@ old-location: display\d3dddicb_updategpuvirtualaddress.htm
 old-project: display
 ms.assetid: 6D460EBF-1D5D-4A99-90EE-FCBBC56B8EA4
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDICB_UPDATEGPUVIRTUALADDRESS, D3DDDICB_UPDATEGPUVIRTUALADDRESS structure [Display Devices], _D3DDDICB_UPDATEGPUVIRTUALADDRESS, d3dumddi/D3DDDICB_UPDATEGPUVIRTUALADDRESS, display.d3dddicb_updategpuvirtualaddress
 ms.prod: windows-hardware
 ms.technology: windows-devices

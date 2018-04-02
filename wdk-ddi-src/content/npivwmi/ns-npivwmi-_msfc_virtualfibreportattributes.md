@@ -7,7 +7,7 @@ old-location: storage\msfc_virtualfibreportattributes.htm
 old-project: storage
 ms.assetid: FD8D6063-E6DD-4EA6-9675-774C58C08B40
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PMSFC_VirtualFibrePortAttributes, MSFC_VirtualFibrePortAttributes, MSFC_VirtualFibrePortAttributes structure [Storage Devices], PMSFC_VirtualFibrePortAttributes, PMSFC_VirtualFibrePortAttributes structure pointer [Storage Devices], _MSFC_VirtualFibrePortAttributes, npivwmi/MSFC_VirtualFibrePortAttributes, npivwmi/PMSFC_VirtualFibrePortAttributes, storage.msfc_virtualfibreportattributes"
 ms.prod: windows-hardware
 ms.technology: windows-devices

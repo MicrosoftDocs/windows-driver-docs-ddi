@@ -7,7 +7,7 @@ old-location: ifsk\fltcbdqremovenextio.htm
 old-project: ifsk
 ms.assetid: 4f207ef2-e999-4410-aaa1-5d32c4f22864
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FltApiRef_a_to_d_fec6e01e-c699-45cf-b9fb-c4dea9b2e462.xml, FltCbdqRemoveNextIo, FltCbdqRemoveNextIo function [Installable File System Drivers], fltkernel/FltCbdqRemoveNextIo, ifsk.fltcbdqremovenextio
 ms.prod: windows-hardware
 ms.technology: windows-devices

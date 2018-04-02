@@ -7,7 +7,7 @@ old-location: display\videoprocessorgetstreamextension.htm
 old-project: display
 ms.assetid: e2c91e9c-f8ab-48ba-b98a-332cb0ac7077
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3D11_1DDI_VIDEOPROCESSORGETSTREAMEXTENSION, d3d10umddi/pfnVideoProcessorGetStreamExtension, display.videoprocessorgetstreamextension, pfnVideoProcessorGetStreamExtension, pfnVideoProcessorGetStreamExtension callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: netvista\vmbchannelinitsetmaximumexternaldata.htm
 old-project: netvista
 ms.assetid: 558E8162-7B1F-41AB-A04C-113E94C97DB6
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: VmbChannelInitSetMaximumExternalData, VmbChannelInitSetMaximumExternalData function [Network Drivers Starting with Windows Vista], netvista.vmbchannelinitsetmaximumexternaldata, vmbuskernelmodeclientlibapi/VmbChannelInitSetMaximumExternalData
 ms.prod: windows-hardware
 ms.technology: windows-devices

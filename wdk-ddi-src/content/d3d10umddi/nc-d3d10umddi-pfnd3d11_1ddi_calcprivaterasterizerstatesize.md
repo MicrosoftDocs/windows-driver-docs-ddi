@@ -7,7 +7,7 @@ old-location: display\calcprivaterasterizerstatesize_d3d11_1_.htm
 old-project: display
 ms.assetid: 76d0228e-a6e5-425e-a2b6-7d719dbfa43d
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: CalcPrivateRasterizerStateSize(D3D11_1), CalcPrivateRasterizerStateSize(D3D11_1) callback function [Display Devices], PFND3D11_1DDI_CALCPRIVATERASTERIZERSTATESIZE, d3d10umddi/CalcPrivateRasterizerStateSize(D3D11_1), display.calcprivaterasterizerstatesize_d3d11_1_, display.pfncalcprivaterasterizerstatesize
 ms.prod: windows-hardware
 ms.technology: windows-devices

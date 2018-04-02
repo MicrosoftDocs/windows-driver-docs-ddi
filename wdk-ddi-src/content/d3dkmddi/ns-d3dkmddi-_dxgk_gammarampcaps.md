@@ -7,7 +7,7 @@ old-location: display\dxgk_gammarampcaps.htm
 old-project: display
 ms.assetid: 3e160700-5d90-4241-8ed4-8d87b545b9c3
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGK_GAMMARAMPCAPS, DXGK_GAMMARAMPCAPS structure [Display Devices], DmStructs_2f60099d-a359-41f4-b3d0-a7c0d0a6cca4.xml, _DXGK_GAMMARAMPCAPS, d3dkmddi/DXGK_GAMMARAMPCAPS, display.dxgk_gammarampcaps
 ms.prod: windows-hardware
 ms.technology: windows-devices

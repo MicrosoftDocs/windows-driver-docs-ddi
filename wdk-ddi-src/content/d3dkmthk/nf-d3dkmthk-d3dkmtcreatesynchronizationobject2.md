@@ -7,7 +7,7 @@ old-location: display\d3dkmtcreatesynchronizationobject2.htm
 old-project: display
 ms.assetid: 45849844-a466-4e62-957a-bfe33a464b5a
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMTCreateSynchronizationObject2, D3DKMTCreateSynchronizationObject2 function [Display Devices], OpenGL_Functions_ba9aa4a0-19e6-40d2-8a17-d22c8756c555.xml, d3dkmthk/D3DKMTCreateSynchronizationObject2, display.d3dkmtcreatesynchronizationobject2
 ms.prod: windows-hardware
 ms.technology: windows-devices

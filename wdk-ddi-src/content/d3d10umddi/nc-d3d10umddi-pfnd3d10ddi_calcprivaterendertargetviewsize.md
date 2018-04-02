@@ -7,7 +7,7 @@ old-location: display\calcprivaterendertargetviewsize.htm
 old-project: display
 ms.assetid: 14d85e4a-960c-4438-9360-a4f2677603b8
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: CalcPrivateRenderTargetViewSize, CalcPrivateRenderTargetViewSize callback function [Display Devices], PFND3D10DDI_CALCPRIVATERENDERTARGETVIEWSIZE, UserModeDisplayDriverDx10_Functions_48ca8f95-06ba-4a11-8517-bd4638691e65.xml, d3d10umddi/CalcPrivateRenderTargetViewSize, display.calcprivaterendertargetviewsize
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: ifsk\iocreatefilespecifydeviceobjecthint.htm
 old-project: ifsk
 ms.assetid: b7374625-6997-44db-b43b-748dab813fcd
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: IoCreateFileSpecifyDeviceObjectHint, IoCreateFileSpecifyDeviceObjectHint routine [Installable File System Drivers], ifsk.iocreatefilespecifydeviceobjecthint, ioref_729440cd-ded3-40cf-a0c9-c10f523cd774.xml, ntddk/IoCreateFileSpecifyDeviceObjectHint
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,30 +50,6 @@ req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 
 
 The <b>IoCreateFileSpecifyDeviceObjectHint</b> routine is used by file system filter drivers to send a create request only to the filters below a specified device object and to the file system.
-
-
-## -syntax
-
-
-````
-NTSTATUS IoCreateFileSpecifyDeviceObjectHint(
-  _Out_    PHANDLE            FileHandle,
-  _In_     ACCESS_MASK        DesiredAccess,
-  _In_     POBJECT_ATTRIBUTES ObjectAttributes,
-  _Out_    PIO_STATUS_BLOCK   IoStatusBlock,
-  _In_opt_ PLARGE_INTEGER     AllocationSize,
-  _In_     ULONG              FileAttributes,
-  _In_     ULONG              ShareAccess,
-  _In_     ULONG              Disposition,
-  _In_     ULONG              CreateOptions,
-  _In_opt_ PVOID              EaBuffer,
-  _In_     ULONG              EaLength,
-  _In_     CREATE_FILE_TYPE   CreateFileType,
-  _In_opt_ PVOID              InternalParameters,
-  _In_     ULONG              Options,
-  _In_opt_ PVOID              DeviceObject
-);
-````
 
 
 ## -parameters
@@ -141,7 +117,7 @@ READ_CONTROL
 
 </td>
 <td>
-The access control list (<a href="..\wdm\ns-wdm-_acl.md">ACL</a>) and ownership information associated with the file can be read.
+The access control list (<a href="https://msdn.microsoft.com/library/windows/hardware/ff538866">ACL</a>) and ownership information associated with the file can be read.
 
 </td>
 </tr>
@@ -191,7 +167,7 @@ WRITE_DAC
 
 </td>
 <td>
-The discretionary access control list (<a href="..\wdm\ns-wdm-_acl.md">DACL</a>) associated with the file can be written.
+The discretionary access control list (<a href="https://msdn.microsoft.com/dac27df2-fabd-4402-8daf-9317888dd30b">DACL</a>) associated with the file can be written.
 
 </td>
 </tr>
@@ -311,7 +287,7 @@ The FILE_READ_DATA, FILE_WRITE_DATA, FILE_EXECUTE, and FILE_APPEND_DATA <i>Desir
 
 ### -param ObjectAttributes [in]
 
-A pointer to an <a href="..\wudfwdm\ns-wudfwdm-_object_attributes.md">OBJECT_ATTRIBUTES</a> structure already initialized by the <a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a> routine. If the caller is running in the system process context, this parameter (<i>ObjectAttributes</i>) can be <b>NULL</b>. Otherwise, the caller must set the OBJ_KERNEL_HANDLE attribute in the call to the <b>InitializeObjectAttributes</b> routine. Members of the OBJECT_ATTRIBUTES structure for a file object include the following.
+A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff557749">OBJECT_ATTRIBUTES</a> structure already initialized by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff547804">InitializeObjectAttributes</a> routine. If the caller is running in the system process context, this parameter (<i>ObjectAttributes</i>) can be <b>NULL</b>. Otherwise, the caller must set the OBJ_KERNEL_HANDLE attribute in the call to the <b>InitializeObjectAttributes</b> routine. Members of the OBJECT_ATTRIBUTES structure for a file object include the following.
 
 <table>
 <tr>
@@ -374,7 +350,7 @@ A set of flags that controls the file object attributes. If the caller is runnin
 
 ### -param IoStatusBlock [out]
 
-A pointer to an <a href="..\wudfwdm\ns-wudfwdm-_io_status_block.md">IO_STATUS_BLOCK</a> structure that receives the final completion status and information about the requested operation. On return from <b>IoCreateFileSpecifyDeviceObjectHint</b>, the <b>Information</b> member contains one of the following values:
+A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff550671">IO_STATUS_BLOCK</a> structure that receives the final completion status and information about the requested operation. On return from <b>IoCreateFileSpecifyDeviceObjectHint</b>, the <b>Information</b> member contains one of the following values:
 
 FILE_CREATED
 
@@ -718,7 +694,7 @@ FILE_DELETE_ON_CLOSE
 
 </td>
 <td>
-Delete the file when the last handle to it is passed to <a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>. 
+Delete the file when the last handle to it is passed to <a href="https://msdn.microsoft.com/library/windows/hardware/ff566417">ZwClose</a>. 
 
 </td>
 </tr>
@@ -770,7 +746,7 @@ This flag allows an application to request a filter opportunistic lock (oplock) 
 
 ### -param EaBuffer [in, optional]
 
-A pointer to a caller-supplied <a href="..\wdm\ns-wdm-_file_full_ea_information.md">FILE_FULL_EA_INFORMATION</a>-structured buffer containing extended attribute (EA) information to be applied to the file. 
+A pointer to a caller-supplied <a href="https://msdn.microsoft.com/library/windows/hardware/ff545793">FILE_FULL_EA_INFORMATION</a>-structured buffer containing extended attribute (EA) information to be applied to the file. 
 
 
 ### -param EaLength [in]
@@ -883,9 +859,9 @@ The file or directory name contains a mount point that resolves to a volume othe
 
 This routine is used by file system filter drivers to send a create request only to the filters below a specified device object and to the file system. Filters that are attached above the specified device object in the driver stack do not receive the create request.  
 
-<div class="alert"><b>Note</b>  The Windows Vista <a href="..\ntddk\nf-ntddk-iocreatefileex.md">IoCreateFileEx</a> routine is similar to the <b>IoCreateFileSpecifyDeviceObjectHint</b> routine but provides greater functionality than the <b>IoCreateFileSpecifyDeviceObjectHint</b> routine, including access to extra create parameters (ECPs) and transaction information.</div>
+<div class="alert"><b>Note</b>  The Windows Vista <a href="https://msdn.microsoft.com/library/windows/hardware/ff548283">IoCreateFileEx</a> routine is similar to the <b>IoCreateFileSpecifyDeviceObjectHint</b> routine but provides greater functionality than the <b>IoCreateFileSpecifyDeviceObjectHint</b> routine, including access to extra create parameters (ECPs) and transaction information.</div>
 <div> </div>
-If you use the <a href="..\ntddk\nf-ntddk-iocreatefileex.md">IoCreateFileEx</a> routine instead of the <b>IoCreateFileSpecifyDeviceObjectHint</b> routine, note that the <i>DriverContext</i> parameter of the <b>IoCreateFileSpecifyDeviceObjectHint</b> routine has been moved to the <b>DeviceObjectHint</b> member of the <a href="..\ntddk\ns-ntddk-_io_driver_create_context.md">IO_DRIVER_CREATE_CONTEXT</a> structure.  The IO_DRIVER_CREATE_CONTEXT structure is passed into the <b>IoCreateFileEx</b> routine through its <i>DriverContext</i> parameter.
+If you use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff548283">IoCreateFileEx</a> routine instead of the <b>IoCreateFileSpecifyDeviceObjectHint</b> routine, note that the <i>DriverContext</i> parameter of the <b>IoCreateFileSpecifyDeviceObjectHint</b> routine has been moved to the <b>DeviceObjectHint</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff548565">IO_DRIVER_CREATE_CONTEXT</a> structure.  The IO_DRIVER_CREATE_CONTEXT structure is passed into the <b>IoCreateFileEx</b> routine through its <i>DriverContext</i> parameter.
 
 File system filter drivers call <b>IoCreateFileSpecifyDeviceObjectHint</b> to send a create request only to a specified device object, the filters attached below it, and the file system. Filters attached above the specified device object in the driver stack do not receive the create request. The same is <b>true</b> for any cleanup or close requests on the file object that is created by <b>IoCreateFileSpecifyDeviceObjectHint</b>. 
 
@@ -901,7 +877,7 @@ As a pathname relative to the directory file that is represented by the handle i
 
 </li>
 </ol>
-Any handle that is obtained from <b>IoCreateFileSpecifyDeviceObjectHint</b> must eventually be released by calling <a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>. 
+Any handle that is obtained from <b>IoCreateFileSpecifyDeviceObjectHint</b> must eventually be released by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff566417">ZwClose</a>. 
 
 Driver routines that run in a process context other than that of the system process must set the OBJ_KERNEL_HANDLE attribute for the <i>ObjectAttributes</i> parameter of <b>IoCreateFileSpecifyDeviceObjectHint</b>. This restricts the use of the handle that is returned by <b>IoCreateFileSpecifyDeviceObjectHint</b> to processes running in kernel mode. Otherwise, the handle can be accessed by the process in whose context the driver is running. 
 
@@ -927,7 +903,7 @@ If only the FILE_EXECUTE and SYNCHRONIZE flags are set, the caller cannot direct
 </ul>
 The <i>ShareAccess</i> parameter determines whether separate threads can access the same file, possibly simultaneously. Provided that both file openers have the privilege to access a file in the specified manner, the file can be successfully opened and shared. If the original caller of <b>IoCreateFileSpecifyDeviceObjectHint</b> does not specify FILE_SHARE_READ, FILE_SHARE_WRITE, or FILE_SHARE_DELETE, no other open operations can be performed on the file: that is, the original caller is given exclusive access to the file. 
 
-In order for a shared file to be successfully opened, the requested <i>DesiredAccess</i> to the file must be compatible with both the <i>DesiredAccess</i> and <i>ShareAccess</i> specifications of all preceding opens that have not yet been released with <a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>. That is, the <i>DesiredAccess</i> specified to <b>IoCreateFileSpecifyDeviceObjectHint</b> for a given file must not conflict with the accesses that other openers of the file have disallowed. 
+In order for a shared file to be successfully opened, the requested <i>DesiredAccess</i> to the file must be compatible with both the <i>DesiredAccess</i> and <i>ShareAccess</i> specifications of all preceding opens that have not yet been released with <a href="https://msdn.microsoft.com/library/windows/hardware/ff566417">ZwClose</a>. That is, the <i>DesiredAccess</i> specified to <b>IoCreateFileSpecifyDeviceObjectHint</b> for a given file must not conflict with the accesses that other openers of the file have disallowed. 
 
 
 <div class="alert"><b>Note</b>    If IO_IGNORE_SHARE_ACCESS_CHECK is specified in the <i>Options</i> parameter, the I/O manager ignores the <i>ShareAccess</i> parameter. However, the file system might still perform access checks. Thus, it is important to specify the sharing mode you would like for the <i>ShareAccess </i>parameter, even when using the IO_IGNORE_SHARE_ACCESS_CHECK flag. </div>
@@ -956,23 +932,23 @@ The <i>CreateOptions</i> FILE_NO_INTERMEDIATE_BUFFERING flag prevents the file s
 
 <ul>
 <li>
-Any byte <i>Offset</i> value that is passed to <a href="..\wdm\nf-wdm-zwreadfile.md">ZwReadFile</a> or <a href="..\wdm\nf-wdm-zwwritefile.md">ZwWriteFile</a> must be a multiple of the sector size of the underlying device. 
+Any byte <i>Offset</i> value that is passed to <a href="https://msdn.microsoft.com/library/windows/hardware/ff567072">ZwReadFile</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff567121">ZwWriteFile</a> must be a multiple of the sector size of the underlying device. 
 
 </li>
 <li>
-The <i>Length</i> that is passed to <a href="..\wdm\nf-wdm-zwreadfile.md">ZwReadFile</a> or <a href="..\wdm\nf-wdm-zwwritefile.md">ZwWriteFile</a> must be a multiple of the sector size. Note that specifying a read operation to a buffer whose length is exactly the sector size might result in a lesser number of significant bytes being transferred to that buffer if the end of the file was reached during the transfer. 
+The <i>Length</i> that is passed to <a href="https://msdn.microsoft.com/library/windows/hardware/ff567072">ZwReadFile</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff567121">ZwWriteFile</a> must be a multiple of the sector size. Note that specifying a read operation to a buffer whose length is exactly the sector size might result in a lesser number of significant bytes being transferred to that buffer if the end of the file was reached during the transfer. 
 
 </li>
 <li>
-Buffers must be aligned in accordance with the alignment requirement of the underlying device. This information can be obtained by calling <b>IoCreateFileSpecifyDeviceObjectHint</b> to get a handle for the file object that represents the physical device and then calling <a href="..\wdm\nf-wdm-zwqueryinformationfile.md">ZwQueryInformationFile</a> with that handle. For a list of the system FILE_<i>XXX</i>_ALIGNMENT values, see <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>. 
+Buffers must be aligned in accordance with the alignment requirement of the underlying device. This information can be obtained by calling <b>IoCreateFileSpecifyDeviceObjectHint</b> to get a handle for the file object that represents the physical device and then calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff567052">ZwQueryInformationFile</a> with that handle. For a list of the system FILE_<i>XXX</i>_ALIGNMENT values, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a>. 
 
 </li>
 <li>
-Calls to <a href="..\wdm\nf-wdm-zwsetinformationfile.md">ZwSetInformationFile</a> with the <i>FileInformationClass</i> parameter set to <b>FilePositionInformation</b> must specify an offset that is a multiple of the sector size. 
+Calls to <a href="https://msdn.microsoft.com/library/windows/hardware/ff567096">ZwSetInformationFile</a> with the <i>FileInformationClass</i> parameter set to <b>FilePositionInformation</b> must specify an offset that is a multiple of the sector size. 
 
 </li>
 </ul>
-The mutually exclusive <i>CreateOptions</i>, FILE_SYNCHRONOUS_IO_ALERT and FILE_SYNCHRONOUS_IO_NONALERT, specify that all I/O operations on the file are to be synchronous as long as they occur through the file object referred to by the returned <i>FileHandle</i>. All I/O on such a file is serialized across all threads using the returned handle. With either of these <i>CreateOptions</i>, the <i>DesiredAccess</i> SYNCHRONIZE flag must be set so that the I/O Manager will use the file object as a synchronization object. With either of these <i>CreateOptions</i> set, the I/O Manager maintains the "file position context" for the file object, an internal, current file position offset. This offset can be used in calls to <a href="..\wdm\nf-wdm-zwreadfile.md">ZwReadFile</a> and <a href="..\wdm\nf-wdm-zwwritefile.md">ZwWriteFile</a>. Its position also can be queried by calling <a href="..\wdm\nf-wdm-zwqueryinformationfile.md">ZwQueryInformationFile</a>, or set by calling <a href="..\wdm\nf-wdm-zwsetinformationfile.md">ZwSetInformationFile</a>.  
+The mutually exclusive <i>CreateOptions</i>, FILE_SYNCHRONOUS_IO_ALERT and FILE_SYNCHRONOUS_IO_NONALERT, specify that all I/O operations on the file are to be synchronous as long as they occur through the file object referred to by the returned <i>FileHandle</i>. All I/O on such a file is serialized across all threads using the returned handle. With either of these <i>CreateOptions</i>, the <i>DesiredAccess</i> SYNCHRONIZE flag must be set so that the I/O Manager will use the file object as a synchronization object. With either of these <i>CreateOptions</i> set, the I/O Manager maintains the "file position context" for the file object, an internal, current file position offset. This offset can be used in calls to <a href="https://msdn.microsoft.com/library/windows/hardware/ff567072">ZwReadFile</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff567121">ZwWriteFile</a>. Its position also can be queried by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff567052">ZwQueryInformationFile</a>, or set by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff567096">ZwSetInformationFile</a>.  
 
 If the <i>CreateOptions</i> FILE_OPEN_REPARSE_POINT flag is not specified and <b>IoCreateFileSpecifyDeviceObjectHint</b> attempts to open a file with a reparse point, normal reparse point processing occurs for the file.  If, on the other hand, the FILE_OPEN_REPARSE_POINT flag is specified, normal reparse processing does not occur and <b>IoCreateFileSpecifyDeviceObjectHint</b> attempts to directly open the reparse point file.  In either case, if the open operation was successful, <b>IoCreateFileSpecifyDeviceObjectHint</b> returns STATUS_SUCCESS; otherwise, the routine returns an NTSTATUS error code. <b>IoCreateFileSpecifyDeviceObjectHint</b> never returns STATUS_REPARSE.
 
@@ -1016,39 +992,6 @@ If the file name path that is passed to <b>IoCreateFileSpecifyDeviceObjectHint</
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwsetinformationfile.md">ZwSetInformationFile</a>
-
-
-
-<a href="..\wdm\nf-wdm-zwreadfile.md">ZwReadFile</a>
-
-
-
-<a href="..\wdm\nf-wdm-iocreatefile.md">IoCreateFile</a>
-
-
-
-<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-iocheckeabuffervalidity.md">IoCheckEaBufferValidity</a>
-
-
-
-<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
-
-
-
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-
-
-
-<a href="..\wdm\ns-wdm-_acl.md">ACL</a>
-
-
-
-<a href="..\ntddk\ns-ntddk-_io_driver_create_context.md">IO_DRIVER_CREATE_CONTEXT</a>
 
 
 
@@ -1056,29 +999,60 @@ If the file name path that is passed to <b>IoCreateFileSpecifyDeviceObjectHint</
 
 
 
-<a href="..\wdm\nf-wdm-zwqueryinformationfile.md">ZwQueryInformationFile</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538866">ACL</a>
 
 
 
-<a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545793">FILE_FULL_EA_INFORMATION</a>
 
 
 
-<a href="..\wdm\nf-wdm-zwwritefile.md">ZwWriteFile</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548565">IO_DRIVER_CREATE_CONTEXT</a>
 
 
 
-<a href="..\wdm\ns-wdm-_file_full_ea_information.md">FILE_FULL_EA_INFORMATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547804">InitializeObjectAttributes</a>
 
 
 
-<a href="..\ntddk\nf-ntddk-iocreatefileex.md">IoCreateFileEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548252">IoCheckEaBufferValidity</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548418">IoCreateFile</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548283">IoCreateFileEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566417">ZwClose</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566424">ZwCreateFile</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567052">ZwQueryInformationFile</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567072">ZwReadFile</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567096">ZwSetInformationFile</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567121">ZwWriteFile</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20IoCreateFileSpecifyDeviceObjectHint routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

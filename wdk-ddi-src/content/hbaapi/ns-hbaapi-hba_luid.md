@@ -7,7 +7,7 @@ old-location: storage\hba_luid.htm
 old-project: storage
 ms.assetid: af272e27-6cb4-4f87-9c46-512ac80fa310
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PHBA_LUID, HBA_LUID, HBA_LUID structure [Storage Devices], PHBA_LUID, PHBA_LUID structure pointer [Storage Devices], hbaapi/HBA_LUID, hbaapi/PHBA_LUID, storage.hba_luid, structs-Fibre_32d9473b-e356-41cc-9352-7a142fc3dcc7.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices

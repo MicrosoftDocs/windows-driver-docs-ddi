@@ -7,7 +7,7 @@ old-location: display\dxgkddidpcroutine.htm
 old-project: display
 ms.assetid: 2767906a-f084-4ccc-b24f-ba7d66c96477
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKDDI_DPC_ROUTINE, DmFunctions_12213354-74a5-40a5-a061-fa47d5a8cb03.xml, DxgkDdiDpcRoutine, DxgkDdiDpcRoutine callback function [Display Devices], display.dxgkddidpcroutine, dispmprt/DxgkDdiDpcRoutine
 ms.prod: windows-hardware
 ms.technology: windows-devices

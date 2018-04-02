@@ -7,7 +7,7 @@ old-location: storage\scsiportwmigetinstancename.htm
 old-project: storage
 ms.assetid: ff2ebd1c-d0ac-47a7-90d4-0b49259784c1
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: ScsiPortWmiGetInstanceName, ScsiPortWmiGetInstanceName routine [Storage Devices], scsiprt_184c6508-4189-4ab2-a445-7e52e5c688ab.xml, scsiwmi/ScsiPortWmiGetInstanceName, storage.scsiportwmigetinstancename
 ms.prod: windows-hardware
 ms.technology: windows-devices

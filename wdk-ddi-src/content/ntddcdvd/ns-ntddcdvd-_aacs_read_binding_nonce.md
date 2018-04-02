@@ -7,7 +7,7 @@ old-location: storage\aacs_read_binding_nonce.htm
 old-project: storage
 ms.assetid: 5d017896-bb83-4ea3-9d28-b774213f86e9
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PAACS_READ_BINDING_NONCE, AACS_READ_BINDING_NONCE, AACS_READ_BINDING_NONCE structure [Storage Devices], PAACS_READ_BINDING_NONCE, PAACS_READ_BINDING_NONCE structure pointer [Storage Devices], _AACS_READ_BINDING_NONCE, ntddcdvd/AACS_READ_BINDING_NONCE, ntddcdvd/PAACS_READ_BINDING_NONCE, storage.aacs_read_binding_nonce, structs-DVD_bc4b150f-5fa2-4c8d-b8fa-d3c3bf1c8639.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices

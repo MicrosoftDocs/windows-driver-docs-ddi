@@ -7,7 +7,7 @@ old-location: display\d3dkmdt_pixel_value_access_mode.htm
 old-project: display
 ms.assetid: da4074ac-309d-46b9-b630-79d73ed73f36
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMDT_PIXEL_VALUE_ACCESS_MODE, D3DKMDT_PIXEL_VALUE_ACCESS_MODE enumeration [Display Devices], D3DKMDT_PVAM_DIRECT, D3DKMDT_PVAM_PRESETPALETTE, D3DKMDT_PVAM_SETTABLEPALETTE, D3DKMDT_PVAM_UNINITIALIZED, DmEnums_ac8b4715-9a7c-4698-8f57-e6125f90f75b.xml, _D3DKMDT_PIXEL_VALUE_ACCESS_MODE, d3dkmdt/D3DKMDT_PIXEL_VALUE_ACCESS_MODE, d3dkmdt/D3DKMDT_PVAM_DIRECT, d3dkmdt/D3DKMDT_PVAM_PRESETPALETTE, d3dkmdt/D3DKMDT_PVAM_SETTABLEPALETTE, d3dkmdt/D3DKMDT_PVAM_UNINITIALIZED, display.d3dkmdt_pixel_value_access_mode
 ms.prod: windows-hardware
 ms.technology: windows-devices

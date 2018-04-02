@@ -7,7 +7,7 @@ old-location: display\d3dkmtmapgpuvirtualaddress.htm
 old-project: display
 ms.assetid: 6CE8112F-1DDA-4A8B-8D3D-40DC3737976A
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMTMapGpuVirtualAddress, D3DKMTMapGpuVirtualAddress function [Display Devices], d3dkmthk/D3DKMTMapGpuVirtualAddress, display.d3dkmtmapgpuvirtualaddress
 ms.prod: windows-hardware
 ms.technology: windows-devices

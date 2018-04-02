@@ -7,7 +7,7 @@ old-location: netvista\riladditionalnumberstringupdate.htm
 old-project: netvista
 ms.assetid: 43fe1e25-be15-4f7a-8ecf-e4492235c6c2
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*LPRILADDITIONALNUMBERSTRINGUPDATE, RILADDITIONALNUMBERSTRINGUPDATE, RILADDITIONALNUMBERSTRINGUPDATE structure [Network Drivers Starting with Windows Vista], netvista.riladditionalnumberstringupdate, ntddrilapitypes/RILADDITIONALNUMBERSTRINGUPDATE"
 ms.prod: windows-hardware
 ms.technology: windows-devices

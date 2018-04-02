@@ -7,7 +7,7 @@ old-location: buses\udecxusbendpointinitsetendpointaddress.htm
 old-project: usbref
 ms.assetid: 1C6DDEAE-5E49-40AF-9667-3C185A82BDE8
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: UdecxUsbEndpointInitSetEndpointAddress, UdecxUsbEndpointInitSetEndpointAddress function [Buses], buses.udecxusbendpointinitsetendpointaddress, udecxusbendpoint/UdecxUsbEndpointInitSetEndpointAddress
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: display\getvideoprocessorcustomrate.htm
 old-project: display
 ms.assetid: 49aec00a-8d63-4ec9-966a-0826354fbbe0
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3D11_1DDI_GETVIDEOPROCESSORCUSTOMRATE, d3d10umddi/pfnGetVideoProcessorCustomRate, display.getvideoprocessorcustomrate, pfnGetVideoProcessorCustomRate, pfnGetVideoProcessorCustomRate callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices

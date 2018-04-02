@@ -7,7 +7,7 @@ old-location: display\queryauthenticatedchannel1.htm
 old-project: display
 ms.assetid: bb152e3d-497f-4798-86cc-6f300e24a05c
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3D11_1DDI_QUERYAUTHENTICATEDCHANNEL, QueryAuthenticatedChannel, QueryAuthenticatedChannel callback function [Display Devices], d3d10umddi/QueryAuthenticatedChannel, display.pfnqueryauthenticatedchannel1, display.queryauthenticatedchannel1
 ms.prod: windows-hardware
 ms.technology: windows-devices

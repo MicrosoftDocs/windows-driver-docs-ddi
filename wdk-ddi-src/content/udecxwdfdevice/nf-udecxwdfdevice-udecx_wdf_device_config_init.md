@@ -7,7 +7,7 @@ old-location: buses\udecx_wdf_device_config_init.htm
 old-project: usbref
 ms.assetid: EC26EDCA-1C9E-4D06-A970-71FB96FEB0DF
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: UDECX_WDF_DEVICE_CONFIG_INIT, UDECX_WDF_DEVICE_CONFIG_INIT function [Buses], buses.udecx_wdf_device_config_init, udecxwdfdevice/UDECX_WDF_DEVICE_CONFIG_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: storage\stor_spinlock.htm
 old-project: storage
 ms.assetid: 73e5e994-4133-4651-bb94-1d21386be1cd
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DpcLock, InterruptLock, STOR_SPINLOCK, STOR_SPINLOCK enumeration [Storage Devices], StartIoLock, _STOR_SPINLOCK, storage.stor_spinlock, storport/DpcLock, storport/InterruptLock, storport/STOR_SPINLOCK, storport/StartIoLock, structs-general_53d45f74-68b2-4839-81c1-c93a2773f0d8.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

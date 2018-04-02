@@ -127,10 +127,6 @@ Indicates that the tuner is capable of tuning (get) or should switch to tuning (
 
 ## -see-also
 
-<<<<<<< HEAD
-=======
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565862">KSPROPERTY_TUNER_MODE</a>
->>>>>>> parent of 2d896a8e266... Added changes
 
 
 

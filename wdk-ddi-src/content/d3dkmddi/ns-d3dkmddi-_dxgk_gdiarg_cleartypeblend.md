@@ -7,7 +7,7 @@ old-location: display\dxgk_gdiarg_cleartypeblend.htm
 old-project: display
 ms.assetid: 1e67bb33-c2e5-4f3c-9ea6-feeb4a1fe645
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGK_GDIARG_CLEARTYPEBLEND, DXGK_GDIARG_CLEARTYPEBLEND structure [Display Devices], DmStructs_b59789df-1494-45ea-b89a-4403e6c82dfd.xml, _DXGK_GDIARG_CLEARTYPEBLEND, d3dkmddi/DXGK_GDIARG_CLEARTYPEBLEND, display.dxgk_gdiarg_cleartypeblend
 ms.prod: windows-hardware
 ms.technology: windows-devices

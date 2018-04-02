@@ -7,7 +7,7 @@ old-location: display\d3dddiarg_createdecodedevice.htm
 old-project: display
 ms.assetid: 15750301-da36-4341-8d5a-ab76a2edb970
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDIARG_CREATEDECODEDEVICE, D3DDDIARG_CREATEDECODEDEVICE structure [Display Devices], UMDisplayDriver_param_Structs_eb54920e-5904-4a9d-bfac-fe71743b2726.xml, _D3DDDIARG_CREATEDECODEDEVICE, d3dumddi/D3DDDIARG_CREATEDECODEDEVICE, display.d3dddiarg_createdecodedevice
 ms.prod: windows-hardware
 ms.technology: windows-devices

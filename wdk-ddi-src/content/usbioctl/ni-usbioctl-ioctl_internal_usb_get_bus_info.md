@@ -7,7 +7,7 @@ old-location: buses\ioctl_internal_usb_get_bus_info.htm
 old-project: usbref
 ms.assetid: 31a5a829-1bb7-45cb-93b0-e899f7737df2
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_INTERNAL_USB_GET_BUS_INFO, IOCTL_INTERNAL_USB_GET_BUS_INFO control code [Buses], buses.ioctl_internal_usb_get_bus_info, usbioctl/IOCTL_INTERNAL_USB_GET_BUS_INFO, usbirp_6f2e2c9c-3bbc-40bd-a2e7-6fc79cfcc02b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

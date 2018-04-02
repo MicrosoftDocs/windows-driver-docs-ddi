@@ -7,7 +7,7 @@ old-location: display\getcertificate.htm
 old-project: display
 ms.assetid: b2ceaa6e-a952-4c2f-9594-289ebe24c62d
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3D11_1DDI_GETCERTIFICATE, d3d10umddi/pfnGetCertificate, display.getcertificate, pfnGetCertificate, pfnGetCertificate callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices

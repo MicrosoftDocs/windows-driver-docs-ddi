@@ -7,7 +7,7 @@ old-location: display\pfnstatevssrvcb.htm
 old-project: display
 ms.assetid: 5102104e-b79c-40e5-87de-9ccf848288db
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3D10DDI_STATE_VS_SRV_CB, d3d10state_functions_18fed75e-bd90-41af-9ddd-d68c80f6afd7.xml, d3d10umddi/pfnStateVsSrvCb, display.pfnstatevssrvcb, pfnStateVsSrvCb, pfnStateVsSrvCb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices

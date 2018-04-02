@@ -7,7 +7,7 @@ old-location: buses\evt_ufx_device_testhook.htm
 old-project: usbref
 ms.assetid: 132DC454-03AC-47F0-A093-3DAEB338B9C5
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: EVT_UFX_DEVICE_TESTHOOK, EvtUfxDeviceTesthook, EvtUfxDeviceTesthook callback function [Buses], buses.evt_ufx_device_testhook, ufxclient/EvtUfxDeviceTesthook
 ms.prod: windows-hardware
 ms.technology: windows-devices

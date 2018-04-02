@@ -7,7 +7,7 @@ old-location: display\getcaps.htm
 old-project: display
 ms.assetid: cf6c61ce-7b53-46d0-b3ff-ed5b2b964c65
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: GetCaps, GetCaps callback function [Display Devices], PFND3DDDI_GETCAPS, UserModeDisplayDriver_Functions_2848e873-69ef-4b77-b8bc-8ae9f4abe2c9.xml, d3dumddi/GetCaps, display.getcaps
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -3,12 +3,12 @@ UID: NI:gnssdriver.IOCTL_GNSS_STOP_BREADCRUMBING
 title: IOCTL_GNSS_STOP_BREADCRUMBING
 author: windows-driver-content
 description: The IOCTL_GNSS_STOP_BREADCRUMBING control code is used to stop breadcrumbing.
-old-location: gnss\ioctl_gnss_stop_breadcrumbing.htm
-old-project: gnss
+old-location: sensors\ioctl_gnss_stop_breadcrumbing.htm
+old-project: sensors
 ms.assetid: FAA8B6B0-A95C-4E12-BB0C-585E676F602F
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IOCTL_GNSS_STOP_BREADCRUMBING, IOCTL_GNSS_STOP_BREADCRUMBING control code [Sensor Devices], gnss.ioctl_gnss_stop_breadcrumbing, gnssdriver/IOCTL_GNSS_STOP_BREADCRUMBING
+ms.date: 2/22/2018
+ms.keywords: IOCTL_GNSS_STOP_BREADCRUMBING, IOCTL_GNSS_STOP_BREADCRUMBING control code [Sensor Devices], gnssdriver/IOCTL_GNSS_STOP_BREADCRUMBING, sensors.ioctl_gnss_stop_breadcrumbing
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -45,11 +45,6 @@ req.typenames: GNSS_SUPL_CERT_ACTION
 
 # IOCTL_GNSS_STOP_BREADCRUMBING IOCTL
 
-
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -107,22 +102,22 @@ Size of the output buffer.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff542894">Creating IOCTL Requests in Drivers</a>
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548651">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548656">WdfIoTargetSendInternalIoctlSynchronously</a>
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548660">WdfIoTargetSendIoctlSynchronously</a>
  
 
  

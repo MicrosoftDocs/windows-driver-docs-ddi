@@ -7,7 +7,7 @@ old-location: display\dxgkddimapcpuhostaperture.htm
 old-project: display
 ms.assetid: 78729B9A-A9FA-4D1E-8D30-3FFD61B1A7D3
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKDDI_MAPCPUHOSTAPERTURE, DxgkDdiMapCpuHostAperture, DxgkDdiMapCpuHostAperture callback function [Display Devices], d3dkmddi/DxgkDdiMapCpuHostAperture, display.dxgkddimapcpuhostaperture
 ms.prod: windows-hardware
 ms.technology: windows-devices

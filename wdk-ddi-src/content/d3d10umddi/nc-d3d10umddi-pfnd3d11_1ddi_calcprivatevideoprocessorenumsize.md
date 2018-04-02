@@ -7,7 +7,7 @@ old-location: display\calcprivatevideoprocessorenumsize.htm
 old-project: display
 ms.assetid: d468c892-6635-40a5-ad52-cbcc86555419
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: CalcPrivateVideoProcessorEnumSize, CalcPrivateVideoProcessorEnumSize callback function [Display Devices], PFND3D11_1DDI_CALCPRIVATEVIDEOPROCESSORENUMSIZE, d3d10umddi/CalcPrivateVideoProcessorEnumSize, display.calcprivatevideoprocessorenumsize
 ms.prod: windows-hardware
 ms.technology: windows-devices

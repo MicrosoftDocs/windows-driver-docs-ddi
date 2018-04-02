@@ -7,7 +7,7 @@ old-location: display\dxgk_crtc_vsync_state.htm
 old-project: display
 ms.assetid: 1A7632BB-1DA6-4D03-8A3A-6468A2E4DF71
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGK_CRTC_VSYNC_STATE, DXGK_CRTC_VSYNC_STATE enumeration [Display Devices], DXGK_INTERRUPT_ENABLE, DXGK_VSYNC_DISABLE_KEEP_PHASE, DXGK_VSYNC_DISABLE_NO_PHASE, _DXGK_CRTC_VSYNC_STATE, d3dkmddi/DXGK_CRTC_VSYNC_STATE, d3dkmddi/DXGK_INTERRUPT_ENABLE, d3dkmddi/DXGK_VSYNC_DISABLE_KEEP_PHASE, d3dkmddi/DXGK_VSYNC_DISABLE_NO_PHASE, display.dxgk_crtc_vsync_state
 ms.prod: windows-hardware
 ms.technology: windows-devices

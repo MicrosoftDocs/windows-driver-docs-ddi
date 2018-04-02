@@ -7,7 +7,7 @@ old-location: display\pfnstategsconstbufcb.htm
 old-project: display
 ms.assetid: 02468226-f0a4-4f24-a7f9-61a3b67dffb1
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3D10DDI_STATE_GS_CONSTBUF_CB, d3d10state_functions_d0994a2d-dd79-490e-b35a-04719bfa1450.xml, d3d10umddi/pfnStateGsConstBufCb, display.pfnstategsconstbufcb, pfnStateGsConstBufCb, pfnStateGsConstBufCb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices

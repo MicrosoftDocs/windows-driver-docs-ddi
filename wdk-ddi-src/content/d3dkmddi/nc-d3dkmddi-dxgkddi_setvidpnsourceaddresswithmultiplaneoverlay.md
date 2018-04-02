@@ -7,7 +7,7 @@ old-location: display\dxgkddisetvidpnsourceaddresswithmultiplaneoverlay.htm
 old-project: display
 ms.assetid: 95108e45-1a3a-4a75-8719-0caadb911469
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKDDI_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY, DxgkDdiSetVidPnSourceAddressWithMultiPlaneOverlay, DxgkDdiSetVidPnSourceAddressWithMultiPlaneOverlay callback function [Display Devices], d3dkmddi/DxgkDdiSetVidPnSourceAddressWithMultiPlaneOverlay, display.dxgkddisetvidpnsourceaddresswithmultiplaneoverlay
 ms.prod: windows-hardware
 ms.technology: windows-devices

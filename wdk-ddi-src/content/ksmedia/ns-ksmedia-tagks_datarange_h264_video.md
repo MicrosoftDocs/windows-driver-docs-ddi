@@ -97,11 +97,7 @@ Specifies the details of the video stream.
 
 
 
-<<<<<<< HEAD
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561658">KSDATARANGE</a>
-=======
-<a href="..\ksmedia\ns-ksmedia-tagks_h264videoinfo.md">KS_H264VIDEOINFO</a>
->>>>>>> parent of 2d896a8e266... Added changes
 
 
 

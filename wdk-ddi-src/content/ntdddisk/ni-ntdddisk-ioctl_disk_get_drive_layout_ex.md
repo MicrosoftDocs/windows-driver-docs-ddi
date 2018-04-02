@@ -7,7 +7,7 @@ old-location: storage\ioctl_disk_get_drive_layout_ex.htm
 old-project: storage
 ms.assetid: b0ffd1a6-aaa1-4001-a02b-6c0693b7ec5c
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_DISK_GET_DRIVE_LAYOUT_EX, IOCTL_DISK_GET_DRIVE_LAYOUT_EX control code [Storage Devices], k307_81993d9b-900f-412c-ac07-f0765114141f.xml, ntdddisk/IOCTL_DISK_GET_DRIVE_LAYOUT_EX, storage.ioctl_disk_get_drive_layout_ex
 ms.prod: windows-hardware
 ms.technology: windows-devices

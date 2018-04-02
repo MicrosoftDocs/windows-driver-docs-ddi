@@ -7,7 +7,7 @@ old-location: display\d3d12ddi_video_decode_conversion_arguments.htm
 old-project: display
 ms.assetid: 01288B0F-4095-4642-9DA9-4E14B0BCBB18
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3D12DDI_VIDEO_DECODE_CONVERSION_ARGUMENTS_0021, D3D12DDI_VIDEO_DECODE_CONVERSION_ARGUMENTS_0021 structure [Display Devices], d3d12umddi/D3D12DDI_VIDEO_DECODE_CONVERSION_ARGUMENTS_0021, display.d3d12ddi_video_decode_conversion_arguments
 ms.prod: windows-hardware
 ms.technology: windows-devices

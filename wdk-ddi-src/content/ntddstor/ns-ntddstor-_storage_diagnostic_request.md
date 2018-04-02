@@ -7,7 +7,7 @@ old-location: storage\storage_diagnostic_request.htm
 old-project: storage
 ms.assetid: BAC83B5C-4F14-430D-9CEF-46812FC4DFED
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PSTORAGE_DIAGNOSTIC_REQUEST, PSTORAGE_DIAGNOSTIC_REQUEST, PSTORAGE_DIAGNOSTIC_REQUEST structure pointer [Storage Devices], STORAGE_DIAGNOSTIC_REQUEST, STORAGE_DIAGNOSTIC_REQUEST structure [Storage Devices], _STORAGE_DIAGNOSTIC_REQUEST, ntddstor/PSTORAGE_DIAGNOSTIC_REQUEST, ntddstor/STORAGE_DIAGNOSTIC_REQUEST, storage.storage_diagnostic_request"
 ms.prod: windows-hardware
 ms.technology: windows-devices

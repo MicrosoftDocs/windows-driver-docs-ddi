@@ -7,7 +7,7 @@ old-location: display\destroyresource_d3d10_.htm
 old-project: display
 ms.assetid: 3ff77844-eeee-4fda-8798-2e240bc51379
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DestroyResource, DestroyResource callback function [Display Devices], PFND3D10DDI_DESTROYRESOURCE, UserModeDisplayDriverDx10_Functions_59a8abb1-fb74-49b0-a6b8-c0e867f9d7d6.xml, d3d10umddi/DestroyResource, display.destroyresource_d3d10_
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: display\d3dddicb_waitforsynchronizationobjectfromcpu.htm
 old-project: display
 ms.assetid: 0F5BEDBF-6871-4343-88D1-85E7620171EF
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDICB_WAITFORSYNCHRONIZATIONOBJECTFROMCPU, D3DDDICB_WAITFORSYNCHRONIZATIONOBJECTFROMCPU structure [Display Devices], WaitAny, d3dumddi/D3DDDICB_WAITFORSYNCHRONIZATIONOBJECTFROMCPU, display.d3dddicb_waitforsynchronizationobjectfromcpu
 ms.prod: windows-hardware
 ms.technology: windows-devices

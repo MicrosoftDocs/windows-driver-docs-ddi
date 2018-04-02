@@ -7,7 +7,7 @@ old-location: buses\evt_ucx_usbdevice_hub_info.htm
 old-project: usbref
 ms.assetid: 5bf8000d-63d8-4901-b3fc-d3c43cefe37e
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: EVT_UCX_USBDEVICE_HUB_INFO, EvtUcxUsbDeviceHubInfo, EvtUcxUsbDeviceHubInfo callback function [Buses], PEVT_UCX_USBDEVICE_HUB_INFO, PEVT_UCX_USBDEVICE_HUB_INFO callback function pointer [Buses], buses.evt_ucx_usbdevice_hub_info, ucxusbdevice/EvtUcxUsbDeviceHubInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

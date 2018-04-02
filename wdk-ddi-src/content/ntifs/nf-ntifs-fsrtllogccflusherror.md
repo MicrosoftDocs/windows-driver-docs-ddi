@@ -7,7 +7,7 @@ old-location: ifsk\fsrtllogccflusherror.htm
 old-project: ifsk
 ms.assetid: e516758d-d1fe-4977-93bb-f427972fdd3c
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FsRtlLogCcFlushError, FsRtlLogCcFlushError routine [Installable File System Drivers], fsrtlref_5e72d84c-d788-4b6d-b5fe-3e9b06b0e074.xml, ifsk.fsrtllogccflusherror, ntifs/FsRtlLogCcFlushError
 ms.prod: windows-hardware
 ms.technology: windows-devices

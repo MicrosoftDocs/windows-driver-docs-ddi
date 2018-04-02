@@ -7,7 +7,7 @@ old-location: display\d3dddiarg_colorfill.htm
 old-project: display
 ms.assetid: 4d647c59-4e00-46b3-a46f-226e475eb63d
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDIARG_COLORFILL, D3DDDIARG_COLORFILL structure [Display Devices], UMDisplayDriver_param_Structs_1ad82ddb-4070-45be-81c3-c2347170fad0.xml, _D3DDDIARG_COLORFILL, d3dumddi/D3DDDIARG_COLORFILL, display.d3dddiarg_colorfill
 ms.prod: windows-hardware
 ms.technology: windows-devices

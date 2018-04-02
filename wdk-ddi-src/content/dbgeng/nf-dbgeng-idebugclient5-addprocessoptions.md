@@ -7,7 +7,7 @@ old-location: debugger\addprocessoptions.htm
 old-project: debugger
 ms.assetid: eb5f1d91-cfad-48e6-b578-64b64034222f
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: AddProcessOptions method [Windows Debugging], AddProcessOptions method [Windows Debugging], IDebugClient interface, AddProcessOptions method [Windows Debugging], IDebugClient2 interface, AddProcessOptions method [Windows Debugging], IDebugClient3 interface, AddProcessOptions method [Windows Debugging], IDebugClient4 interface, AddProcessOptions method [Windows Debugging], IDebugClient5 interface, AddProcessOptions,IDebugClient5.AddProcessOptions, IDebugClient interface [Windows Debugging], AddProcessOptions method, IDebugClient2 interface [Windows Debugging], AddProcessOptions method, IDebugClient2::AddProcessOptions, IDebugClient3 interface [Windows Debugging], AddProcessOptions method, IDebugClient3::AddProcessOptions, IDebugClient4 interface [Windows Debugging], AddProcessOptions method, IDebugClient4::AddProcessOptions, IDebugClient5, IDebugClient5 interface [Windows Debugging], AddProcessOptions method, IDebugClient5::AddProcessOptions, IDebugClient::AddProcessOptions, IDebugClient_995041c9-9380-4a66-b9f8-d74d68398a44.xml, dbgeng/IDebugClient2::AddProcessOptions, dbgeng/IDebugClient3::AddProcessOptions, dbgeng/IDebugClient4::AddProcessOptions, dbgeng/IDebugClient5::AddProcessOptions, dbgeng/IDebugClient::AddProcessOptions, debugger.addprocessoptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -151,8 +151,3 @@ For more information about creating and attaching to live user-mode targets, see
 
  
 
-<<<<<<< HEAD
-=======
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugClient::AddProcessOptions method%20 RELEASE:%20(2/27/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
-
->>>>>>> parent of 2d896a8e266... Added changes

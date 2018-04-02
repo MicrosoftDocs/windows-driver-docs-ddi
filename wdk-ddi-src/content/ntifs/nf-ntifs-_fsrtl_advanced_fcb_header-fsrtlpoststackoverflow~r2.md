@@ -7,7 +7,7 @@ old-location: ifsk\fsrtlpoststackoverflow.htm
 old-project: ifsk
 ms.assetid: fbd6f3b5-ecf7-438e-8e28-a06eaa141fc3
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FsRtlPostStackOverflow, FsRtlPostStackOverflow routine [Installable File System Drivers], fsrtlref_c2a888d0-ecfc-4b50-b6f0-753ef43375de.xml, ifsk.fsrtlpoststackoverflow, ntifs/FsRtlPostStackOverflow
 ms.prod: windows-hardware
 ms.technology: windows-devices

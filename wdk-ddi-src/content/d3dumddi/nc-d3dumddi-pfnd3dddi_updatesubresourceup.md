@@ -7,7 +7,7 @@ old-location: display\pfnupdatesubresourceup.htm
 old-project: display
 ms.assetid: 5AF55FED-6FD6-41BE-A743-1E9D0EA51C9C
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3DDDI_UPDATESUBRESOURCEUP, d3dumddi/pfnUpdateSubresourceUP, display.pfnupdatesubresourceup, pfnUpdateSubresourceUP, pfnUpdateSubresourceUP callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: display\dxvahdddi_stream_state_input_color_space_data.htm
 old-project: display
 ms.assetid: cced26ea-bbb8-4716-b22d-8355b81102c0
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXVA2_Structs_4e403294-5aa5-4170-a635-567f89a34e8e.xml, DXVAHDDDI_STREAM_STATE_INPUT_COLOR_SPACE_DATA, DXVAHDDDI_STREAM_STATE_INPUT_COLOR_SPACE_DATA structure [Display Devices], _DXVAHDDDI_STREAM_STATE_INPUT_COLOR_SPACE_DATA, d3dumddi/DXVAHDDDI_STREAM_STATE_INPUT_COLOR_SPACE_DATA, display.dxvahdddi_stream_state_input_color_space_data
 ms.prod: windows-hardware
 ms.technology: windows-devices

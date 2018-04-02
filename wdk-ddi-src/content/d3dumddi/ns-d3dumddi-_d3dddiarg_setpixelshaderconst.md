@@ -7,7 +7,7 @@ old-location: display\d3dddiarg_setpixelshaderconst.htm
 old-project: display
 ms.assetid: 1c8cbbdc-ac2e-462e-9d5c-484305a41302
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDIARG_SETPIXELSHADERCONST, D3DDDIARG_SETPIXELSHADERCONST structure [Display Devices], D3DDDIARG_SETPIXELSHADERCONSTB, D3DDDIARG_SETPIXELSHADERCONSTI, UMDisplayDriver_param_Structs_b2bba0b4-f57a-48f6-a738-709fedfe678e.xml, _D3DDDIARG_SETPIXELSHADERCONST, d3dumddi/D3DDDIARG_SETPIXELSHADERCONST, display.d3dddiarg_setpixelshaderconst
 ms.prod: windows-hardware
 ms.technology: windows-devices

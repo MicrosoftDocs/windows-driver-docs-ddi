@@ -53,21 +53,6 @@ req.product: Windows 10 or later.
 The PCW_REGISTRATION_INFORMATION structure supplies details about the provider and the counter set. 
 
 
-## -syntax
-
-
-````
-typedef struct _PCW_REGISTRATION_INFORMATION {
-  ULONG                   Version;
-  PCUNICODE_STRING        Name;
-  ULONG                   CounterCount;
-  PPCW_COUNTER_DESCRIPTOR Counters;
-  PPCW_CALLBACK           Callback;
-  PVOID                   CallbackContext;
-} PCW_REGISTRATION_INFORMATION, *PPCW_REGISTRATION_INFORMATION;
-````
-
-
 ## -struct-fields
 
 
@@ -95,7 +80,7 @@ A pointer to the array that describes the counters.
 
 ### -field Callback
 
-A pointer to the optional <a href="..\wdm\nc-wdm-pcw_callback.md">PcwCallback</a> function that notifies the provider about events related to this counter set.
+A pointer to the optional <a href="https://msdn.microsoft.com/5058fc17-1016-45bc-a6ea-5e2458824e7b">PcwCallback</a> function that notifies the provider about events related to this counter set.
 
 
 ### -field CallbackContext
@@ -107,28 +92,26 @@ A pointer to the callback context.
 
 
 
-The <a href="..\wdm\nf-wdm-pcwregister.md">PcwRegister</a> function takes, as a parameter, a pointer to this structure to serve as the registration handle.
+The <a href="https://msdn.microsoft.com/library/windows/hardware/ff550323">PcwRegister</a> function takes, as a parameter, a pointer to this structure to serve as the registration handle.
 
 
 
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_pcw_counter_descriptor.md">PCW_COUNTER_DESCRIPTOR</a>
 
 
 
-<a href="..\wdm\nc-wdm-pcw_callback.md">PcwCallback</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550338">PCW_COUNTER_DESCRIPTOR</a>
 
 
 
-<a href="..\wdm\nf-wdm-pcwregister.md">PcwRegister</a>
+<a href="https://msdn.microsoft.com/5058fc17-1016-45bc-a6ea-5e2458824e7b">PcwCallback</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550323">PcwRegister</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [devtest\devtest]:%20PCW_REGISTRATION_INFORMATION structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

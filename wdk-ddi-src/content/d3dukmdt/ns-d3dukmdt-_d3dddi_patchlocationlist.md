@@ -7,7 +7,7 @@ old-location: display\d3dddi_patchlocationlist.htm
 old-project: display
 ms.assetid: 88cdbf2d-4b66-47c1-97e1-e3b8377ac526
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDI_PATCHLOCATIONLIST, D3DDDI_PATCHLOCATIONLIST structure [Display Devices], D3D_other_Structs_30473342-0122-445f-81c0-9cf5c62c771e.xml, _D3DDDI_PATCHLOCATIONLIST, d3dukmdt/D3DDDI_PATCHLOCATIONLIST, display.d3dddi_patchlocationlist
 ms.prod: windows-hardware
 ms.technology: windows-devices

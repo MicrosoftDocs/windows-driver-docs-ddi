@@ -7,7 +7,7 @@ old-location: buses\udecx_usb_endpoint_callbacks_init.htm
 old-project: usbref
 ms.assetid: AE0DA609-90E5-452F-B24E-0902C5E868A8
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: UDECX_USB_ENDPOINT_CALLBACKS_INIT, UDECX_USB_ENDPOINT_CALLBACKS_INIT method [Buses], buses.udecx_usb_endpoint_callbacks_init, udecxusbendpoint/UDECX_USB_ENDPOINT_CALLBACKS_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices

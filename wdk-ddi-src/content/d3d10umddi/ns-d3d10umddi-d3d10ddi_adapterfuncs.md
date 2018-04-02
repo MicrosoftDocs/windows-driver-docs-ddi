@@ -7,7 +7,7 @@ old-location: display\d3d10ddi_adapterfuncs.htm
 old-project: display
 ms.assetid: 11a38b89-cc74-4921-855a-3fd795522945
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3D10DDI_ADAPTERFUNCS, D3D10DDI_ADAPTERFUNCS structure [Display Devices], UMDisplayDriver_Dx10param_Structs_6d9fe453-3734-43eb-833e-6f7deeccaf2f.xml, d3d10umddi/D3D10DDI_ADAPTERFUNCS, display.d3d10ddi_adapterfuncs
 ms.prod: windows-hardware
 ms.technology: windows-devices

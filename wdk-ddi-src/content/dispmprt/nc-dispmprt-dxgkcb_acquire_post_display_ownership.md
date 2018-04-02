@@ -7,7 +7,7 @@ old-location: display\DxgkCbAcquirePostDisplayOwnership.htm
 old-project: display
 ms.assetid: 6454adb3-c958-467b-acbc-b8937b98cd57
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKCB_ACQUIRE_POST_DISPLAY_OWNERSHIP, DxgkCbAcquirePostDisplayOwnership, DxgkCbAcquirePostDisplayOwnership callback function [Display Devices], display.DxgkCbAcquirePostDisplayOwnership, dispmprt/DxgkCbAcquirePostDisplayOwnership
 ms.prod: windows-hardware
 ms.technology: windows-devices

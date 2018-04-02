@@ -7,7 +7,7 @@ old-location: display\dxgkddipreemptcommand.htm
 old-project: display
 ms.assetid: 8cea02d4-f25e-4ff4-8c9e-aa360a764c4b
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKDDI_PREEMPTCOMMAND, DmFunctions_a378e47e-622c-41bf-95e7-21e4088d7026.xml, DxgkDdiPreemptCommand, DxgkDdiPreemptCommand callback function [Display Devices], d3dkmddi/DxgkDdiPreemptCommand, display.dxgkddipreemptcommand
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: storage\ioctl_cdrom_get_control.htm
 old-project: storage
 ms.assetid: 3d474eb7-6622-48fd-bf40-c17d03933828
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_CDROM_GET_CONTROL, IOCTL_CDROM_GET_CONTROL control code [Storage Devices], k307_441b4747-9431-42c3-b550-39aaea1229f1.xml, ntddcdrm/IOCTL_CDROM_GET_CONTROL, storage.ioctl_cdrom_get_control
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: storage\storportregistryread.htm
 old-project: storage
 ms.assetid: 16f13973-c1c1-4123-8fa4-20187ec2c204
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: StorPortRegistryRead, StorPortRegistryRead routine [Storage Devices], storage.storportregistryread, storport/StorPortRegistryRead, storprt_6eafcbbc-b767-45b3-97d6-86e591a29a19.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

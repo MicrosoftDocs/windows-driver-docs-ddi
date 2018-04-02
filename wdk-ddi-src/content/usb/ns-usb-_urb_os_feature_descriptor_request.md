@@ -7,7 +7,7 @@ old-location: buses\_urb_os_feature_descriptor_request.htm
 old-project: usbref
 ms.assetid: 9ff62523-e9e3-4f32-802f-6fee0082d925
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "_URB_OS_FEATURE_DESCRIPTOR_REQUEST, _URB_OS_FEATURE_DESCRIPTOR_REQUEST structure [Buses], buses._urb_os_feature_descriptor_request, usb/_URB_OS_FEATURE_DESCRIPTOR_REQUEST"
 ms.prod: windows-hardware
 ms.technology: windows-devices

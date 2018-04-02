@@ -7,7 +7,7 @@ old-location: storage\ioctl_ehstor_bandmgmt_set_band_metadata.htm
 old-project: storage
 ms.assetid: 5FBEAB29-C256-47EF-B673-6584679B8908
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_EHSTOR_BANDMGMT_SET_BAND_METADATA, IOCTL_EHSTOR_BANDMGMT_SET_BAND_METADATA control code [Storage Devices], ehstorbandmgmt/IOCTL_EHSTOR_BANDMGMT_SET_BAND_METADATA, storage.ioctl_ehstor_bandmgmt_set_band_metadata
 ms.prod: windows-hardware
 ms.technology: windows-devices

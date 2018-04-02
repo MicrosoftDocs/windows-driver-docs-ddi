@@ -7,7 +7,7 @@ old-location: storage\hwstordpcroutine.htm
 old-project: storage
 ms.assetid: bc646191-e405-49e2-8793-0c0b81e52f50
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: HW_DPC_ROUTINE, HwStorDpcRoutine, HwStorDpcRoutine routine [Storage Devices], storage.hwstordpcroutine, stormini_593e93b3-e078-48a4-b192-75cc161686bb.xml, storport/HwStorDpcRoutine
 ms.prod: windows-hardware
 ms.technology: windows-devices

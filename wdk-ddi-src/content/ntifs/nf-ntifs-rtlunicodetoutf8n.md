@@ -7,7 +7,7 @@ old-location: kernel\rtlunicodetoutf8n.htm
 old-project: kernel
 ms.assetid: fdbb5d74-25d5-4920-849c-8d4adce1d216
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/28/2018
 ms.keywords: RtlUnicodeToUTF8N, RtlUnicodeToUTF8N routine [Kernel-Mode Driver Architecture], k109_8c33089a-9b47-4c33-9468-56a16caea229.xml, kernel.rtlunicodetoutf8n, wdm/RtlUnicodeToUTF8N
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,20 +50,6 @@ req.typenames: TOKEN_TYPE
 
 
 The <b>RtlUnicodeToUTF8N</b> routine converts a Unicode string to a UTF-8 string. 
-
-
-## -syntax
-
-
-````
-NTSTATUS RtlUnicodeToUTF8N(
-  _Out_ PCHAR  UTF8StringDestination,
-  _In_  ULONG  UTF8StringMaxByteCount,
-  _Out_ PULONG UTF8StringActualByteCount,
-  _In_  PCWCH  UnicodeStringSource,
-  _In_  ULONG  UnicodeStringByteCount
-);
-````
 
 
 ## -parameters
@@ -171,7 +157,7 @@ You can make an initial call to <b>RtlUnicodeToUTF8N</b> to obtain the required 
 
 <b>RtlUnicodeToUTF8N</b> continues to convert the input string to an output string until it reaches the end of the source buffer or the end of the destination buffer, whichever occurs first. The routine converts any null characters in the input string to null characters in the output string. If the input string contains a terminating null character, but the null character is not located at the end of the source buffer, the routine continues past the terminating null character until it reaches the end of the available buffer space.
 
-The <a href="..\wdm\nf-wdm-rtlutf8tounicoden.md">RtlUTF8ToUnicodeN</a> routine converts a UTF-8 string to a Unicode string.
+The <a href="https://msdn.microsoft.com/library/windows/hardware/ff563018">RtlUTF8ToUnicodeN</a> routine converts a UTF-8 string to a Unicode string.
 
 You can use <b>RtlUnicodeToUTF8N</b> and <b>RtlUTF8ToUnicode</b> routines to perform a lossless conversion of valid text strings between the Unicode and UTF-8 formats. However, strings that have arbitrary data values are likely to violate the Unicode rules for encoding surrogate pairs, and any information that is contained in the invalid values in an input string is lost and cannot be recovered from the resulting output string. 
 
@@ -180,13 +166,11 @@ You can use <b>RtlUnicodeToUTF8N</b> and <b>RtlUTF8ToUnicode</b> routines to per
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-rtlutf8tounicoden.md">RtlUTF8ToUnicodeN</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563018">RtlUTF8ToUnicodeN</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20RtlUnicodeToUTF8N routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

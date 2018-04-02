@@ -7,7 +7,7 @@ old-location: display\setzrange.htm
 old-project: display
 ms.assetid: 29ccde7c-801c-4e90-bc39-8581f262cc65
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3DDDI_SETZRANGE, SetZRange, SetZRange callback function [Display Devices], UserModeDisplayDriver_Functions_1f472784-89a0-4ddf-ae47-ee891774d03e.xml, d3dumddi/SetZRange, display.setzrange
 ms.prod: windows-hardware
 ms.technology: windows-devices

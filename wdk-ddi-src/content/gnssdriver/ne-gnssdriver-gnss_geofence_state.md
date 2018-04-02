@@ -3,12 +3,12 @@ UID: NE:gnssdriver.GNSS_GEOFENCE_STATE
 title: GNSS_GEOFENCE_STATE
 author: windows-driver-content
 description: GNSS_GEOFENCE_STATE enumerates the various states of a single geofence.
-old-location: gnss\gnss_geofence_state.htm
-old-project: gnss
+old-location: sensors\gnss_geofence_state.htm
+old-project: sensors
 ms.assetid: 881363B2-CF4C-4D18-9F45-829771A2D325
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: GNSS_GEOFENCE_STATE, GNSS_GEOFENCE_STATE enumeration [Sensor Devices], GNSS_GeofenceState_Entered, GNSS_GeofenceState_Exited, GNSS_GeofenceState_Unknown, gnss.gnss_geofence_state, gnssdriver/GNSS_GEOFENCE_STATE, gnssdriver/GNSS_GeofenceState_Entered, gnssdriver/GNSS_GeofenceState_Exited, gnssdriver/GNSS_GeofenceState_Unknown
+ms.date: 2/22/2018
+ms.keywords: GNSS_GEOFENCE_STATE, GNSS_GEOFENCE_STATE enumeration [Sensor Devices], GNSS_GeofenceState_Entered, GNSS_GeofenceState_Exited, GNSS_GeofenceState_Unknown, gnssdriver/GNSS_GEOFENCE_STATE, gnssdriver/GNSS_GeofenceState_Entered, gnssdriver/GNSS_GeofenceState_Exited, gnssdriver/GNSS_GeofenceState_Unknown, sensors.gnss_geofence_state
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -50,18 +50,6 @@ req.typenames: GNSS_GEOFENCE_STATE
 
 
 GNSS_GEOFENCE_STATE enumerates the various states of a single geofence.
-
-
-## -syntax
-
-
-````
-typedef enum  { 
-  GNSS_GeofenceState_Unknown  = 0x00,
-  GNSS_GeofenceState_Entered  = 0x01,
-  GNSS_GeofenceState_Exited   = 0x02
-} GNSS_GEOFENCE_STATE;
-````
 
 
 ## -enum-fields

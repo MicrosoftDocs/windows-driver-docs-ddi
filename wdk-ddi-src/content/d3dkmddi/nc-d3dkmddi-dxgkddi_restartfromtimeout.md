@@ -7,7 +7,7 @@ old-location: display\dxgkddirestartfromtimeout.htm
 old-project: display
 ms.assetid: 433babb7-9a53-4079-9a65-43a5ed0c201a
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKDDI_RESTARTFROMTIMEOUT, DmFunctions_ba675ea3-7f25-446f-bf13-af2228aa1e65.xml, DxgkDdiRestartFromTimeout, DxgkDdiRestartFromTimeout callback function [Display Devices], d3dkmddi/DxgkDdiRestartFromTimeout, display.dxgkddirestartfromtimeout
 ms.prod: windows-hardware
 ms.technology: windows-devices

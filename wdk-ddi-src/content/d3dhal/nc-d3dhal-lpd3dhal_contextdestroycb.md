@@ -7,7 +7,7 @@ old-location: display\d3dcontextdestroy.htm
 old-project: display
 ms.assetid: caed780c-06a1-4697-b102-bffb134ecf84
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3dContextDestroy, D3dContextDestroy callback function [Display Devices], LPD3DHAL_CONTEXTDESTROYCB, d3dfncs_95c72dbe-9292-4501-ae28-f76316ce01e5.xml, d3dhal/D3dContextDestroy, display.d3dcontextdestroy
 ms.prod: windows-hardware
 ms.technology: windows-devices

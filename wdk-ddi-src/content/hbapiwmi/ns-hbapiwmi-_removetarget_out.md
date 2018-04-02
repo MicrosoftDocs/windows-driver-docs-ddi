@@ -7,7 +7,7 @@ old-location: storage\removetarget_out.htm
 old-project: storage
 ms.assetid: 176dbb0c-227e-48b2-956c-9e2b42f4c68b
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PRemoveTarget_OUT, PRemoveTarget_OUT, PRemoveTarget_OUT structure pointer [Storage Devices], RemoveTarget_OUT, RemoveTarget_OUT structure [Storage Devices], _RemoveTarget_OUT, hbapiwmi/PRemoveTarget_OUT, hbapiwmi/RemoveTarget_OUT, storage.removetarget_out, structs-Fibre_0cab8f87-0c96-4e03-bfd9-495e245850ca.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices

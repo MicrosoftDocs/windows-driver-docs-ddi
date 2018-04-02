@@ -7,7 +7,7 @@ old-location: buses\usbd_registerhcfilter.htm
 old-project: usbref
 ms.assetid: 2cc24024-75ec-45ba-867c-efc8e7da7587
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: USBD_RegisterHcFilter, USBD_RegisterHcFilter routine [Buses], buses.usbd_registerhcfilter, usbdlib/USBD_RegisterHcFilter, usbfunc_de494163-188c-4356-bd91-c6fa38693d55.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

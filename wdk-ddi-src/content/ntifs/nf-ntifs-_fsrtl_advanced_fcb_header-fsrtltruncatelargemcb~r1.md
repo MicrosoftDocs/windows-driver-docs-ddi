@@ -7,7 +7,7 @@ old-location: ifsk\fsrtltruncatelargemcb.htm
 old-project: ifsk
 ms.assetid: 59970380-0cf5-4557-aa39-854c837552a5
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FsRtlTruncateLargeMcb, FsRtlTruncateLargeMcb routine [Installable File System Drivers], fsrtlref_5399ea6f-c059-44a7-84f0-01a7eba2c40a.xml, ifsk.fsrtltruncatelargemcb, ntifs/FsRtlTruncateLargeMcb
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: display\pfnrendercb.htm
 old-project: display
 ms.assetid: f242162e-6237-469c-b178-5a51dcf69e32
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3Druntime_Functions_487738b4-19e4-464f-80cc-d3b83eef1c6f.xml, PFND3DDDI_RENDERCB, d3dumddi/pfnRenderCb, display.pfnrendercb, pfnRenderCb, pfnRenderCb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices

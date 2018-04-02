@@ -7,7 +7,7 @@ old-location: display\d3dkmt_waitforsynchronizationobject2.htm
 old-project: display
 ms.assetid: 934bfe32-b54b-477c-a5f8-714caa97f233
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMT_WAITFORSYNCHRONIZATIONOBJECT2, D3DKMT_WAITFORSYNCHRONIZATIONOBJECT2 structure [Display Devices], OpenGL_Structs_fb1ca5e1-799c-49c7-844d-25954fd0db64.xml, _D3DKMT_WAITFORSYNCHRONIZATIONOBJECT2, d3dkmthk/D3DKMT_WAITFORSYNCHRONIZATIONOBJECT2, display.d3dkmt_waitforsynchronizationobject2
 ms.prod: windows-hardware
 ms.technology: windows-devices

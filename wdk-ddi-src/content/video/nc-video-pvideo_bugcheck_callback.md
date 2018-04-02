@@ -7,7 +7,7 @@ old-location: display\hwvidbugcheckcallback.htm
 old-project: display
 ms.assetid: 1223534f-a89c-45b4-b07d-75c2c8383b73
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: HwVidBugcheckCallback, HwVidBugcheckCallback callback function [Display Devices], PVIDEO_BUGCHECK_CALLBACK, VideoMiniport_Functions_d3dcce93-d172-4948-8cc5-395dd2a1f9a5.xml, display.hwvidbugcheckcallback, video/HwVidBugcheckCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: storage\ioctl_storage_get_media_types_ex.htm
 old-project: storage
 ms.assetid: 706269d8-123b-48c6-83cb-8ae47fb92efc
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_STORAGE_GET_MEDIA_TYPES_EX, IOCTL_STORAGE_GET_MEDIA_TYPES_EX control code [Storage Devices], k307_6dad39e5-7a8b-477d-a96d-5f00fe7fee7b.xml, ntddstor/IOCTL_STORAGE_GET_MEDIA_TYPES_EX, storage.ioctl_storage_get_media_types_ex
 ms.prod: windows-hardware
 ms.technology: windows-devices

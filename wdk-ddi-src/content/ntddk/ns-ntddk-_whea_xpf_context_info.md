@@ -52,20 +52,6 @@ req.typenames: WHEA_XPF_CONTEXT_INFO, *PWHEA_XPF_CONTEXT_INFO
 The WHEA_XPF_CONTEXT_INFO structure describes processor context information for an x86 or x64 processor.
 
 
-## -syntax
-
-
-````
-typedef struct _WHEA_XPF_CONTEXT_INFO {
-  USHORT    RegisterContextType;
-  USHORT    RegisterDataSize;
-  ULONG     MSRAddress;
-  ULONGLONG MmRegisterAddress;
-  UCHAR     RegisterData[1];
-} WHEA_XPF_CONTEXT_INFO, *PWHEA_XPF_CONTEXT_INFO;
-````
-
-
 ## -struct-fields
 
 
@@ -207,28 +193,26 @@ The buffer contains an array of 64-bit memory mapped registers. The number of re
 
 
 
-The <b>VariableInfo</b> member of the <a href="..\ntddk\ns-ntddk-_whea_xpf_processor_error_section.md">WHEA_XPF_PROCESSOR_ERROR_SECTION</a> structure contains zero or more WHEA_XPF_CONTEXT_INFO structures, each of which describes specific context information associated with the processor error that occurred. If the size of a particular WHEA_XPF_CONTEXT_INFO structure is not an even multiple of 16 bytes, the space that is allocated for the structure in the buffer will be padded with additional bytes that are set to zero to round the allocated space up to an even multiple of 16 bytes.
+The <b>VariableInfo</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560655">WHEA_XPF_PROCESSOR_ERROR_SECTION</a> structure contains zero or more WHEA_XPF_CONTEXT_INFO structures, each of which describes specific context information associated with the processor error that occurred. If the size of a particular WHEA_XPF_CONTEXT_INFO structure is not an even multiple of 16 bytes, the space that is allocated for the structure in the buffer will be padded with additional bytes that are set to zero to round the allocated space up to an even multiple of 16 bytes.
 
 
 
 
 ## -see-also
 
-<a href="..\ntddk\ns-ntddk-_whea_x86_register_state.md">WHEA_X86_REGISTER_STATE</a>
 
 
 
-<a href="..\ntddk\ns-ntddk-_whea_x64_register_state.md">WHEA_X64_REGISTER_STATE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560631">WHEA_X64_REGISTER_STATE</a>
 
 
 
-<a href="..\ntddk\ns-ntddk-_whea_xpf_processor_error_section.md">WHEA_XPF_PROCESSOR_ERROR_SECTION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560634">WHEA_X86_REGISTER_STATE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560655">WHEA_XPF_PROCESSOR_ERROR_SECTION</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [whea\whea]:%20WHEA_XPF_CONTEXT_INFO structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

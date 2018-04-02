@@ -7,7 +7,7 @@ old-location: display\createdomainshader_d3d11_1_.htm
 old-project: display
 ms.assetid: 74e6457f-4a99-4b19-9a7e-3ebac5aef48e
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: CreateDomainShader(D3D11_1), CreateDomainShader(D3D11_1) callback function [Display Devices], PFND3D11_1DDI_CREATEDOMAINSHADER, d3d10umddi/CreateDomainShader(D3D11_1), display.createdomainshader_d3d11_1_, display.pfncreatedomainshader
 ms.prod: windows-hardware
 ms.technology: windows-devices

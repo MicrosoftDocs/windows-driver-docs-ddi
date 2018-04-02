@@ -7,7 +7,7 @@ old-location: ifsk\public_object_basic_information.htm
 old-project: ifsk
 ms.assetid: 2190f88e-6905-4e58-9523-2b6d4864c776
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: "*PPUBLIC_OBJECT_BASIC_INFORMATION, PPUBLIC_OBJECT_BASIC_INFORMATION, PPUBLIC_OBJECT_BASIC_INFORMATION structure pointer [Installable File System Drivers], PUBLIC_OBJECT_BASIC_INFORMATION, PUBLIC_OBJECT_BASIC_INFORMATION structure [Installable File System Drivers], _PUBLIC_OBJECT_BASIC_INFORMATION, ifsk.public_object_basic_information, ntifs/PPUBLIC_OBJECT_BASIC_INFORMATION, ntifs/PUBLIC_OBJECT_BASIC_INFORMATION, objectstructures_f0dec604-d95c-47b4-aedc-168a3ae1dedc.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices

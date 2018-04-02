@@ -7,7 +7,7 @@ old-location: storage\changer_element_status.htm
 old-project: storage
 ms.assetid: 3debcf76-bb84-48ec-933e-03e099ad764f
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PCHANGER_ELEMENT_STATUS, CHANGER_ELEMENT_STATUS, CHANGER_ELEMENT_STATUS structure [Storage Devices], PCHANGER_ELEMENT_STATUS, PCHANGER_ELEMENT_STATUS structure pointer [Storage Devices], _CHANGER_ELEMENT_STATUS, ntddchgr/CHANGER_ELEMENT_STATUS, ntddchgr/PCHANGER_ELEMENT_STATUS, storage.changer_element_status, structs-changer_6dd054a8-1224-42f1-ab26-29b2c108ce27.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices

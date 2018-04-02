@@ -7,7 +7,7 @@ old-location: display\cssetconstantbuffers.htm
 old-project: display
 ms.assetid: 159ee0ac-7ddf-4ffd-a07f-3d58130b90e8
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: CsSetConstantBuffers, CsSetConstantBuffers callback function [Display Devices], PFND3D10DDI_SETCONSTANTBUFFERS, UserModeDisplayDriverDx11_Functions_ae0b7e35-f8c5-428d-97d0-e22d5b609c72.xml, d3d10umddi/CsSetConstantBuffers, display.cssetconstantbuffers
 ms.prod: windows-hardware
 ms.technology: windows-devices

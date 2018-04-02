@@ -7,7 +7,7 @@ old-location: dtf\iwdtfpnpaction2_edttrystopdevice.htm
 old-project: dtf
 ms.assetid: 6a10f86e-163d-4307-b830-5c90e5cb1c45
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 3/29/2018
 ms.keywords: EDTTryStopDevice method [Windows Device Testing Framework], EDTTryStopDevice method [Windows Device Testing Framework], IWDTFPNPAction2 interface, EDTTryStopDevice,IWDTFPNPAction2.EDTTryStopDevice, IWDTFPNPAction2, IWDTFPNPAction2 interface [Windows Device Testing Framework], EDTTryStopDevice method, IWDTFPNPAction2::EDTTryStopDevice, Microsoft.WDTF.IWDTFPNPAction2.EDTTryStopDevice, Microsoft::WDTF::IWDTFPNPAction2::EDTTryStopDevice, dtf.iwdtfpnpaction2_edttrystopdevice, wdtfpnpaction/IWDTFPNPAction2::EDTTryStopDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices

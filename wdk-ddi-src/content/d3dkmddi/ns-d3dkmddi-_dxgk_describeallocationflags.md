@@ -7,7 +7,7 @@ old-location: display\dxgk_describeallocationflags.htm
 old-project: display
 ms.assetid: f5cab74a-19ce-45d1-9c6f-461a98c4506c
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGK_DESCRIBEALLOCATIONFLAGS, DXGK_DESCRIBEALLOCATIONFLAGS structure [Display Devices], _DXGK_DESCRIBEALLOCATIONFLAGS, d3dkmddi/DXGK_DESCRIBEALLOCATIONFLAGS, display.dxgk_describeallocationflags
 ms.prod: windows-hardware
 ms.technology: windows-devices

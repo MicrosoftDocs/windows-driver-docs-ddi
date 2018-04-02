@@ -7,7 +7,7 @@ old-location: ifsk\fltrequestoperationstatuscallback.htm
 old-project: ifsk
 ms.assetid: 17379ce3-d9c1-4fbf-ab2e-b87604e6c71e
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FltApiRef_p_to_z_85d8f6d5-37d1-469f-8c97-8b358f69e9ef.xml, FltRequestOperationStatusCallback, FltRequestOperationStatusCallback function [Installable File System Drivers], fltkernel/FltRequestOperationStatusCallback, ifsk.fltrequestoperationstatuscallback
 ms.prod: windows-hardware
 ms.technology: windows-devices

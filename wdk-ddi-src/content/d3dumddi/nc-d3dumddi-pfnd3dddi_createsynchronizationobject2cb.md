@@ -7,7 +7,7 @@ old-location: display\pfncreatesynchronizationobject2cb.htm
 old-project: display
 ms.assetid: 9B0F058C-B71F-4A4F-A053-F9381A5FD3A8
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3DDDI_CREATESYNCHRONIZATIONOBJECT2CB, d3dumddi/pfnCreateSynchronizationObject2Cb, display.pfncreatesynchronizationobject2cb, pfnCreateSynchronizationObject2Cb, pfnCreateSynchronizationObject2Cb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices

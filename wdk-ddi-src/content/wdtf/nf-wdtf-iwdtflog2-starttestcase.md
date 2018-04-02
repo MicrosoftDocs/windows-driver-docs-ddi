@@ -7,7 +7,7 @@ old-location: dtf\iwdtflog2_starttestcase.htm
 old-project: dtf
 ms.assetid: d72bff68-d1c0-4ce4-bc2d-abe350036eec
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 3/29/2018
 ms.keywords: IWDTFLOG2, IWDTFLOG2 interface [Windows Device Testing Framework], StartTestCase method, IWDTFLOG2::StartTestCase, Microsoft.WDTF.IWDTFLOG2.StartTestCase, Microsoft::WDTF::IWDTFLOG2::StartTestCase, StartTestCase method [Windows Device Testing Framework], StartTestCase method [Windows Device Testing Framework], IWDTFLOG2 interface, StartTestCase,IWDTFLOG2.StartTestCase, dtf.iwdtflog2_starttestcase, wdtf/IWDTFLOG2::StartTestCase
 ms.prod: windows-hardware
 ms.technology: windows-devices

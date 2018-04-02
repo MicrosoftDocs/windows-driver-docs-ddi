@@ -7,7 +7,7 @@ old-location: display\pfncreateoverlaycb.htm
 old-project: display
 ms.assetid: fbd5b3af-0963-4e41-8be3-41e3e1ecf8bc
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3Druntime_Functions_d30fc7c1-55b2-4444-9ac1-34baabc073f6.xml, PFND3DDDI_CREATEOVERLAYCB, d3dumddi/pfnCreateOverlayCb, display.pfncreateoverlaycb, pfnCreateOverlayCb, pfnCreateOverlayCb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices

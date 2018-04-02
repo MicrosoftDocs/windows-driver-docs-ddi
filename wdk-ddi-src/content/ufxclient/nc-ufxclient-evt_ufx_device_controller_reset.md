@@ -7,7 +7,7 @@ old-location: buses\evt_ufx_device_controller_reset.htm
 old-project: usbref
 ms.assetid: 37CE6358-68F8-49E2-8B3E-126D5D135ADF
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: EVT_UFX_DEVICE_CONTROLLER_RESET, EvtUfxDeviceControllerReset, EvtUfxDeviceControllerReset callback function [Buses], PFN_UFX_DEVICE_CONTROLLER_RESET, PFN_UFX_DEVICE_CONTROLLER_RESET callback function pointer [Buses], buses.evt_ufx_device_controller_reset, ufxclient/EvtUfxDeviceControllerReset
 ms.prod: windows-hardware
 ms.technology: windows-devices

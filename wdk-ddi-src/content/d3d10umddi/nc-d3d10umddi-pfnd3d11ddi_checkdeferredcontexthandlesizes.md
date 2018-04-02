@@ -7,7 +7,7 @@ old-location: display\checkdeferredcontexthandlesizes.htm
 old-project: display
 ms.assetid: 0ddaec86-79e6-4d09-8403-6588b35f8b0f
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: CheckDeferredContextHandleSizes, CheckDeferredContextHandleSizes callback function [Display Devices], PFND3D11DDI_CHECKDEFERREDCONTEXTHANDLESIZES, UserModeDisplayDriverDx11_Functions_f96ddf8f-1b3c-4840-b76c-2386dfb582f8.xml, d3d10umddi/CheckDeferredContextHandleSizes, display.checkdeferredcontexthandlesizes
 ms.prod: windows-hardware
 ms.technology: windows-devices

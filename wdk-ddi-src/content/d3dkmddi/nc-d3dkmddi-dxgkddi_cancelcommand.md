@@ -7,7 +7,7 @@ old-location: display\dxgkddicancelcommand.htm
 old-project: display
 ms.assetid: c290c313-14ee-4554-9bb1-8adec1892426
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKDDI_CANCELCOMMAND, DxgkDdiCancelCommand, DxgkDdiCancelCommand callback function [Display Devices], d3dkmddi/DxgkDdiCancelCommand, display.dxgkddicancelcommand
 ms.prod: windows-hardware
 ms.technology: windows-devices

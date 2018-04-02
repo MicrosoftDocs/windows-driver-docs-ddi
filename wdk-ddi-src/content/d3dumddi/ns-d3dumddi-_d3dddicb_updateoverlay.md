@@ -7,7 +7,7 @@ old-location: display\d3dddicb_updateoverlay.htm
 old-project: display
 ms.assetid: efa54d23-99bc-49ea-b8a3-7ea5b00e36d8
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDICB_UPDATEOVERLAY, D3DDDICB_UPDATEOVERLAY structure [Display Devices], D3D_param_Structs_b9e39db9-44ba-45d5-9500-dd9d5d8cc4bb.xml, _D3DDDICB_UPDATEOVERLAY, d3dumddi/D3DDDICB_UPDATEOVERLAY, display.d3dddicb_updateoverlay
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: display\dxgkddiremovedevice.htm
 old-project: display
 ms.assetid: 0d5f96e8-dcb3-49e5-8347-ba20d757618b
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKDDI_REMOVE_DEVICE, DmFunctions_b8ab26af-93dd-4e49-b2a2-9c620678457d.xml, DxgkDdiRemoveDevice, DxgkDdiRemoveDevice callback function [Display Devices], display.dxgkddiremovedevice, dispmprt/DxgkDdiRemoveDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices

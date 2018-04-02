@@ -7,7 +7,7 @@ old-location: storage\dvd_read_structure.htm
 old-project: storage
 ms.assetid: fe8c55de-e542-4c0d-a96b-31ad39e11dff
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PDVD_READ_STRUCTURE, DVD_READ_STRUCTURE, DVD_READ_STRUCTURE structure [Storage Devices], PDVD_READ_STRUCTURE, PDVD_READ_STRUCTURE structure pointer [Storage Devices], ntddcdvd/DVD_READ_STRUCTURE, ntddcdvd/PDVD_READ_STRUCTURE, storage.dvd_read_structure, structs-DVD_64ffaf42-815a-4a1e-a712-7027930d099f.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices

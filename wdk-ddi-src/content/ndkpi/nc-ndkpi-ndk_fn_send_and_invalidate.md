@@ -7,7 +7,7 @@ old-location: netvista\ndk_fn_send_and_invalidate.htm
 old-project: netvista
 ms.assetid: 7E344DFA-159A-4084-905A-0A0F9F102051
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: NDK_FN_SEND_AND_INVALIDATE, NDK_FN_SEND_AND_INVALIDATE callback function [Network Drivers Starting with Windows Vista], NDK_OP_FLAG_DEFER, NDK_OP_FLAG_INLINE, NDK_OP_FLAG_READ_FENCE, NDK_OP_FLAG_SEND_AND_SOLICIT_EVENT, NDK_OP_FLAG_SILENT_SUCCESS, ndkpi/NDK_FN_SEND_AND_INVALIDATE, netvista.ndk_fn_send_and_invalidate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -261,8 +261,3 @@ Any <a href="https://msdn.microsoft.com/library/windows/hardware/dn265509">NDK_R
 
  
 
-<<<<<<< HEAD
-=======
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDK_FN_SEND_AND_INVALIDATE callback function%20 RELEASE:%20(2/27/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
-
->>>>>>> parent of 2d896a8e266... Added changes

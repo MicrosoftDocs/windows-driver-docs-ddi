@@ -7,7 +7,7 @@ old-location: ifsk\rxcanceltimerrequest.htm
 old-project: ifsk
 ms.assetid: b5aeb972-3e52-4cdc-842b-7848bb2f8dc7
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: RxCancelTimerRequest, RxCancelTimerRequest routine [Installable File System Drivers], ifsk.rxcanceltimerrequest, rxref_f9950992-18a5-4418-a18d-e105ecdc74ff.xml, rxtimer/RxCancelTimerRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices

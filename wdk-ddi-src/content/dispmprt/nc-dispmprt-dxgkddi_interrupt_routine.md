@@ -7,7 +7,7 @@ old-location: display\dxgkddiinterruptroutine.htm
 old-project: display
 ms.assetid: eacfd42d-405c-4c23-8978-0f373a393e10
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKDDI_INTERRUPT_ROUTINE, DmFunctions_5341cc5a-0dd5-4493-ab02-0aa66d910ec0.xml, DxgkDdiInterruptRoutine, DxgkDdiInterruptRoutine callback function [Display Devices], display.dxgkddiinterruptroutine, dispmprt/DxgkDdiInterruptRoutine
 ms.prod: windows-hardware
 ms.technology: windows-devices

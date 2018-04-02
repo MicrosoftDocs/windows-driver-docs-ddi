@@ -7,7 +7,7 @@ old-location: display\dxgk_vidpn_interface_pfnassignmultisamplingmethodset.htm
 old-project: display
 ms.assetid: 607e3294-7399-446c-b07c-f0d5416b997e
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKDDI_VIDPN_ASSIGNMULTISAMPLINGMETHODSET, VidPnFunctions_836f1c8f-1690-4be1-9b77-43a7379278bd.xml, d3dkmddi/pfnAssignMultisamplingMethodSet, display.dxgk_vidpn_interface_pfnassignmultisamplingmethodset, pfnAssignMultisamplingMethodSet, pfnAssignMultisamplingMethodSet callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices

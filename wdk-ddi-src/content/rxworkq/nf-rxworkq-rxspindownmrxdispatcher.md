@@ -7,7 +7,7 @@ old-location: ifsk\rxspindownmrxdispatcher.htm
 old-project: ifsk
 ms.assetid: 0ec10c43-df57-4661-9106-8edc6b76f5d7
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: RxSpinDownMRxDispatcher, RxSpinDownMRxDispatcher function [Installable File System Drivers], ifsk.rxspindownmrxdispatcher, rxref_aa43a136-8df7-45f1-bf52-48792c094f31.xml, rxworkq/RxSpinDownMRxDispatcher
 ms.prod: windows-hardware
 ms.technology: windows-devices

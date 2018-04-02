@@ -7,7 +7,7 @@ old-location: display\d3dkmt_setgammaramp.htm
 old-project: display
 ms.assetid: aeab6bf1-bb6f-427e-a566-942b3fb061b2
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMT_SETGAMMARAMP, D3DKMT_SETGAMMARAMP structure [Display Devices], OpenGL_Structs_3f9b4d19-5367-43bb-94a7-288d375412d7.xml, _D3DKMT_SETGAMMARAMP, d3dkmthk/D3DKMT_SETGAMMARAMP, display.d3dkmt_setgammaramp
 ms.prod: windows-hardware
 ms.technology: windows-devices

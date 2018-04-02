@@ -7,7 +7,7 @@ old-location: buses\ioctl_internal_usb_get_parent_hub_info.htm
 old-project: usbref
 ms.assetid: c97c1081-6f8c-4aa3-b34a-b8f7455dc2ef
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_INTERNAL_USB_GET_PARENT_HUB_INFO, IOCTL_INTERNAL_USB_GET_PARENT_HUB_INFO control code [Buses], buses.ioctl_internal_usb_get_parent_hub_info, usbioctl/IOCTL_INTERNAL_USB_GET_PARENT_HUB_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices

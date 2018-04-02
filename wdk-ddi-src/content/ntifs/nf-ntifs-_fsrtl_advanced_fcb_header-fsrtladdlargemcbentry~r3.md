@@ -7,7 +7,7 @@ old-location: ifsk\fsrtladdlargemcbentry.htm
 old-project: ifsk
 ms.assetid: 7cab24f3-624f-4fd1-9f33-76042e5f16ed
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FsRtlAddLargeMcbEntry, FsRtlAddLargeMcbEntry routine [Installable File System Drivers], fsrtlref_de8b7789-cdba-4535-b2b9-bbc29add7fc6.xml, ifsk.fsrtladdlargemcbentry, ntifs/FsRtlAddLargeMcbEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices

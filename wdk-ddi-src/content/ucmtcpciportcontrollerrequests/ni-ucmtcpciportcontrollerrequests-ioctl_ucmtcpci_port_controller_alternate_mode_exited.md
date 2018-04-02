@@ -7,7 +7,7 @@ old-location: buses\ioctl_ucmtcpci_port_controller_alternate_mode_exited.htm
 old-project: usbref
 ms.assetid: 1B839FDC-E70B-4798-9169-AA3650625FDB
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_UCMTCPCI_PORT_CONTROLLER_ALTERNATE_MODE_EXITED, IOCTL_UCMTCPCI_PORT_CONTROLLER_ALTERNATE_MODE_EXITED control code [Buses], buses.ioctl_ucmtcpci_port_controller_alternate_mode_exited, ucmtcpciportcontrollerrequests/IOCTL_UCMTCPCI_PORT_CONTROLLER_ALTERNATE_MODE_EXITED
 ms.prod: windows-hardware
 ms.technology: windows-devices

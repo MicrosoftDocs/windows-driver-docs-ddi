@@ -7,7 +7,7 @@ old-location: display\dxvahdddi_stream_state_aspect_ratio_data.htm
 old-project: display
 ms.assetid: 12d33e2d-63d3-4cc8-9b50-5156132b2e72
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXVA2_Structs_daab6809-2f81-4892-9f56-c57254047627.xml, DXVAHDDDI_STREAM_STATE_ASPECT_RATIO_DATA, DXVAHDDDI_STREAM_STATE_ASPECT_RATIO_DATA structure [Display Devices], _DXVAHDDDI_STREAM_STATE_ASPECT_RATIO_DATA, d3dumddi/DXVAHDDDI_STREAM_STATE_ASPECT_RATIO_DATA, display.dxvahdddi_stream_state_aspect_ratio_data
 ms.prod: windows-hardware
 ms.technology: windows-devices

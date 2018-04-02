@@ -7,7 +7,7 @@ old-location: display\dxgk_setvidpnsourceaddress_flags.htm
 old-project: display
 ms.assetid: cdc4aec6-45d4-4a5b-aa52-7830494a12b6
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGK_SETVIDPNSOURCEADDRESS_FLAGS, DXGK_SETVIDPNSOURCEADDRESS_FLAGS structure [Display Devices], DmStructs_45e34e9d-e410-44f4-a41a-aad748f01688.xml, _DXGK_SETVIDPNSOURCEADDRESS_FLAGS, d3dkmddi/DXGK_SETVIDPNSOURCEADDRESS_FLAGS, display.dxgk_setvidpnsourceaddress_flags
 ms.prod: windows-hardware
 ms.technology: windows-devices

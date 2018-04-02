@@ -7,7 +7,7 @@ old-location: display\d3dddicb_createcontextvirtual.htm
 old-project: display
 ms.assetid: 451D1CE2-A50D-4E42-BD93-879503EDE4B5
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDICB_CREATECONTEXTVIRTUAL, D3DDDICB_CREATECONTEXTVIRTUAL structure [Display Devices], _D3DDDICB_CREATECONTEXTVIRTUAL, d3dumddi/D3DDDICB_CREATECONTEXTVIRTUAL, display.d3dddicb_createcontextvirtual
 ms.prod: windows-hardware
 ms.technology: windows-devices

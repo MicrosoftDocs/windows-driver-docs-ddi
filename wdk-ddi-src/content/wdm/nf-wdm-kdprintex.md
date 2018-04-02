@@ -55,19 +55,6 @@ The <b>KdPrintEx</b> macro sends a string to the kernel debugger if the conditio
 A call to <b>KdPrintEx</b> requires double parentheses.
 
 
-## -syntax
-
-
-````
-ULONG KdPrintEx(
-  _In_ ULONG ComponentId,
-  _In_ ULONG Level,
-  _In_ PCSTR Format,
-       ...   arguments
-);
-````
-
-
 ## -parameters
 
 
@@ -149,21 +136,19 @@ This routine is defined in ntddk.h and ndis.h; component filter IDs are defined 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-dbgprintex.md">DbgPrintEx</a>
 
 
 
-<a href="..\wdm\nf-wdm-dbgprint.md">DbgPrint</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543632">DbgPrint</a>
 
 
 
-<a href="..\wdm\nf-wdm-kdprint.md">KdPrint</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543634">DbgPrintEx</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548092">KdPrint</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [devtest\devtest]:%20KdPrintEx function%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

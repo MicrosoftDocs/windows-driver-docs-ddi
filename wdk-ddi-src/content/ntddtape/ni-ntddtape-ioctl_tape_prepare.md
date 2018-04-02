@@ -7,7 +7,7 @@ old-location: storage\ioctl_tape_prepare.htm
 old-project: storage
 ms.assetid: 0e016f3a-4f3a-4256-bb7b-10a5f955b930
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_TAPE_PREPARE, IOCTL_TAPE_PREPARE control code [Storage Devices], k307_a564f3c9-909a-437c-973c-0e6c25fad061.xml, ntddtape/IOCTL_TAPE_PREPARE, storage.ioctl_tape_prepare
 ms.prod: windows-hardware
 ms.technology: windows-devices

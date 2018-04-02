@@ -7,7 +7,7 @@ old-location: display\dxgkmdt_opm_copp_compatible_get_info_parameters.htm
 old-project: display
 ms.assetid: 51422f72-5dae-43d0-9bf2-c24403addb56
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PDXGKMDT_OPM_COPP_COMPATIBLE_GET_INFO_PARAMETERS, DXGKMDT_OPM_COPP_COMPATIBLE_GET_INFO_PARAMETERS, DXGKMDT_OPM_COPP_COMPATIBLE_GET_INFO_PARAMETERS structure [Display Devices], DmStructs_2e356de0-a1ca-4f75-a3f2-c72be3bdf87f.xml, PDXGKMDT_OPM_COPP_COMPATIBLE_GET_INFO_PARAMETERS, PDXGKMDT_OPM_COPP_COMPATIBLE_GET_INFO_PARAMETERS structure pointer [Display Devices], _DXGKMDT_OPM_COPP_COMPATIBLE_GET_INFO_PARAMETERS, d3dkmdt/DXGKMDT_OPM_COPP_COMPATIBLE_GET_INFO_PARAMETERS, d3dkmdt/PDXGKMDT_OPM_COPP_COMPATIBLE_GET_INFO_PARAMETERS, display.dxgkmdt_opm_copp_compatible_get_info_parameters"
 ms.prod: windows-hardware
 ms.technology: windows-devices

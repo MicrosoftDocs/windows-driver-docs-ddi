@@ -7,7 +7,7 @@ old-location: display\d3d11_1ddi_authenticated_query_output_id_count_input.htm
 old-project: display
 ms.assetid: 4ea0fd1b-9b4a-456d-aa6e-720d419bfe86
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3D11_1DDI_AUTHENTICATED_QUERY_OUTPUT_ID_COUNT_INPUT, D3D11_1DDI_AUTHENTICATED_QUERY_OUTPUT_ID_COUNT_INPUT structure [Display Devices], d3d10umddi/D3D11_1DDI_AUTHENTICATED_QUERY_OUTPUT_ID_COUNT_INPUT, display.d3d11_1ddi_authenticated_query_output_id_count_input
 ms.prod: windows-hardware
 ms.technology: windows-devices

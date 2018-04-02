@@ -7,7 +7,7 @@ old-location: storage\sub_q_channel_data.htm
 old-project: storage
 ms.assetid: d0304ac7-cb19-499c-81af-98be33312951
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PSUB_Q_CHANNEL_DATA, PSUB_Q_CHANNEL_DATA, PSUB_Q_CHANNEL_DATA union pointer [Storage Devices], SUB_Q_CHANNEL_DATA, SUB_Q_CHANNEL_DATA union [Storage Devices], _SUB_Q_CHANNEL_DATA, ntddcdrm/PSUB_Q_CHANNEL_DATA, ntddcdrm/SUB_Q_CHANNEL_DATA, storage.sub_q_channel_data, structs-CD-ROM_f35761c8-b362-48eb-9cfa-6ee5e7232411.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: display\pfnsetmarker.htm
 old-project: display
 ms.assetid: 6D4DB988-D339-4B2F-A9B8-41B4FD21FE66
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3DDDI_SETMARKER, d3dumddi/pfnSetMarker, display.pfnsetmarker, pfnSetMarker, pfnSetMarker callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices

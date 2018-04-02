@@ -7,7 +7,7 @@ old-location: kernel\zwreadfile.htm
 old-project: kernel
 ms.assetid: 0f1ec015-bda6-45fe-973d-be414aece918
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/28/2018
 ms.keywords: NtReadFile, ZwReadFile, ZwReadFile routine [Kernel-Mode Driver Architecture], k111_5cf3ebe2-7c2f-4998-b441-7d2aa2eb091f.xml, kernel.zwreadfile, wdm/NtReadFile, wdm/ZwReadFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,24 +53,6 @@ req.typenames: TOKEN_TYPE
 The <b>ZwReadFile</b> routine reads data from an open file. 
 
 
-## -syntax
-
-
-````
-NTSTATUS ZwReadFile(
-  _In_     HANDLE           FileHandle,
-  _In_opt_ HANDLE           Event,
-  _In_opt_ PIO_APC_ROUTINE  ApcRoutine,
-  _In_opt_ PVOID            ApcContext,
-  _Out_    PIO_STATUS_BLOCK IoStatusBlock,
-  _Out_    PVOID            Buffer,
-  _In_     ULONG            Length,
-  _In_opt_ PLARGE_INTEGER   ByteOffset,
-  _In_opt_ PULONG           Key
-);
-````
-
-
 ## -parameters
 
 
@@ -78,7 +60,7 @@ NTSTATUS ZwReadFile(
 
 ### -param FileHandle [in]
 
-Handle to the file object. This handle is created by a successful call to <a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a> or <a href="..\wdm\nf-wdm-zwopenfile.md">ZwOpenFile</a>. 
+Handle to the file object. This handle is created by a successful call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff566424">ZwCreateFile</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff567011">ZwOpenFile</a>. 
 
 
 ### -param Event [in, optional]
@@ -98,7 +80,7 @@ This parameter is reserved. Device and intermediate drivers should set this poin
 
 ### -param IoStatusBlock [out]
 
-Pointer to an <a href="..\wudfwdm\ns-wudfwdm-_io_status_block.md">IO_STATUS_BLOCK</a> structure that receives the final completion status and information about the requested read operation. The <b>Information</b> member receives the number of bytes actually read from the file.
+Pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff550671">IO_STATUS_BLOCK</a> structure that receives the final completion status and information about the requested read operation. The <b>Information</b> member receives the number of bytes actually read from the file.
 
 
 ### -param Buffer [out]
@@ -115,7 +97,7 @@ The size, in bytes, of the buffer pointed to by <i>Buffer</i>.
 
 Pointer to a variable that specifies the starting byte offset in the file where the read operation will begin. If an attempt is made to read beyond the end of the file, <b>ZwReadFile</b> returns an error.
 
-If the call to <a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a> set either of the <b>CreateOptions</b> flags FILE_SYNCHRONOUS_IO_ALERT or FILE_SYNCHRONOUS_IO_NONALERT, the I/O Manager maintains the current file position. If so, the caller of <b>ZwReadFile</b> can specify that the current file position offset be used instead of an explicit <b>ByteOffset</b> value. This specification can be made by using one of the following methods:
+If the call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff566424">ZwCreateFile</a> set either of the <b>CreateOptions</b> flags FILE_SYNCHRONOUS_IO_ALERT or FILE_SYNCHRONOUS_IO_NONALERT, the I/O Manager maintains the current file position. If so, the caller of <b>ZwReadFile</b> can specify that the current file position offset be used instead of an explicit <b>ByteOffset</b> value. This specification can be made by using one of the following methods:
 
 <ul>
 <li>
@@ -150,9 +132,9 @@ Device and intermediate drivers should set this pointer to <b>NULL</b>.
 
 
 
-Callers of <b>ZwReadFile</b> must have already called <a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a> with the FILE_READ_DATA or GENERIC_READ value set in the <i>DesiredAccess</i> parameter.
+Callers of <b>ZwReadFile</b> must have already called <a href="https://msdn.microsoft.com/library/windows/hardware/ff566424">ZwCreateFile</a> with the FILE_READ_DATA or GENERIC_READ value set in the <i>DesiredAccess</i> parameter.
 
-If the preceding call to <a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a> set the FILE_NO_INTERMEDIATE_BUFFERING flag in the <i>CreateOptions</i> parameter to <b>ZwCreateFile</b>, the <i>Length</i> and <i>ByteOffset</i> parameters to <b>ZwReadFile</b> must be multiples of the sector size. For more information, see <b>ZwCreateFile</b>.
+If the preceding call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff566424">ZwCreateFile</a> set the FILE_NO_INTERMEDIATE_BUFFERING flag in the <i>CreateOptions</i> parameter to <b>ZwCreateFile</b>, the <i>Length</i> and <i>ByteOffset</i> parameters to <b>ZwReadFile</b> must be multiples of the sector size. For more information, see <b>ZwCreateFile</b>.
 
 <b>ZwReadFile</b> begins reading from the given <i>ByteOffset</i> or the current file position into the given <i>Buffer</i>. It terminates the read operation under one of the following conditions:
 
@@ -213,29 +195,27 @@ Callers of <b>ZwReadFile</b> must be running at IRQL = PASSIVE_LEVEL and <a href
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwsetinformationfile.md">ZwSetInformationFile</a>
 
 
 
-<a href="..\wdm\nf-wdm-zwqueryinformationfile.md">ZwQueryInformationFile</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552137">KeInitializeEvent</a>
 
 
 
-<a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566424">ZwCreateFile</a>
 
 
 
-<a href="..\wdm\nf-wdm-zwwritefile.md">ZwWriteFile</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567052">ZwQueryInformationFile</a>
 
 
 
-<a href="..\wdm\nf-wdm-keinitializeevent.md">KeInitializeEvent</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567096">ZwSetInformationFile</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567121">ZwWriteFile</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20ZwReadFile routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

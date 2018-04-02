@@ -7,7 +7,7 @@ old-location: ifsk\fltsetiopriorityhintintofileobject.htm
 old-project: ifsk
 ms.assetid: 95a56ca3-e223-49ec-9151-bedb3f3597c3
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FltApiRef_p_to_z_981cae2b-b29c-4890-a462-163031a668d3.xml, FltSetIoPriorityHintIntoFileObject, FltSetIoPriorityHintIntoFileObject routine [Installable File System Drivers], fltkernel/FltSetIoPriorityHintIntoFileObject, ifsk.fltsetiopriorityhintintofileobject
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: ifsk\kereleasequeuedspinlock.htm
 old-project: ifsk
 ms.assetid: d10baf1a-149d-4499-89de-e151327218f7
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: KeReleaseQueuedSpinLock, KeReleaseQueuedSpinLock function [Installable File System Drivers], ifsk.kereleasequeuedspinlock, keref_8815930f-e691-4759-ac40-3ebbe95e9116.xml, ntifs/KeReleaseQueuedSpinLock
 ms.prod: windows-hardware
 ms.technology: windows-devices

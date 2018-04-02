@@ -196,11 +196,7 @@ For more information about the <b>PLLOffset</b> and <b>SignalStrength</b> member
 
 
 
-<<<<<<< HEAD
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565921">KSPROPERTY_TUNER_STATUS</a>
-=======
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567800">PROPSETID_TUNER</a>
->>>>>>> parent of 2d896a8e266... Added changes
 
 
 

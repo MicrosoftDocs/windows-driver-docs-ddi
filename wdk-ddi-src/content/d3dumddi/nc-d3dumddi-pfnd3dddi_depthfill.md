@@ -7,7 +7,7 @@ old-location: display\depthfill.htm
 old-project: display
 ms.assetid: fc889cc0-d71d-4a81-8fa5-894c676ac110
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DepthFill, DepthFill callback function [Display Devices], PFND3DDDI_DEPTHFILL, UserModeDisplayDriver_Functions_4f8a5911-1ed4-439f-b629-d267161c4ea9.xml, d3dumddi/DepthFill, display.depthfill
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: display\d3dkmt_setdisplaymode.htm
 old-project: display
 ms.assetid: cb590e18-59a4-4c4d-9d97-9f60c409c2e9
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMT_SETDISPLAYMODE, D3DKMT_SETDISPLAYMODE structure [Display Devices], OpenGL_Structs_05a13119-df17-4380-8c9b-8af52c989c73.xml, _D3DKMT_SETDISPLAYMODE, d3dkmthk/D3DKMT_SETDISPLAYMODE, display.d3dkmt_setdisplaymode
 ms.prod: windows-hardware
 ms.technology: windows-devices

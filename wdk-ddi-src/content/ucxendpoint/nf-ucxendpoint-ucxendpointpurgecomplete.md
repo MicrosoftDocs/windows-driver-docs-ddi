@@ -7,7 +7,7 @@ old-location: buses\_ucxendpointpurgecomplete.htm
 old-project: usbref
 ms.assetid: F640D54B-277F-4382-9478-8A7AFAD242E2
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: UcxEndpointPurgeComplete, UcxEndpointPurgeComplete method [Buses], buses._ucxendpointpurgecomplete, ucxendpoint/UcxEndpointPurgeComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices

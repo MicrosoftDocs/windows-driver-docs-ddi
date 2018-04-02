@@ -7,7 +7,7 @@ old-location: buses\evt_ucx_roothub_get_20port_info.htm
 old-project: usbref
 ms.assetid: c4a328fb-ffbf-4da4-b52d-6cea58e56b5e
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: EVT_UCX_ROOTHUB_GET_20PORT_INFO, EvtUcxRootHubGet20PortInfo, EvtUcxRootHubGet20PortInfo callback function [Buses], PEVT_UCX_ROOTHUB_GET_20PORT_INFO, PEVT_UCX_ROOTHUB_GET_20PORT_INFO callback function pointer [Buses], buses.evt_ucx_roothub_get_20port_info, ucxroothub/EvtUcxRootHubGet20PortInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

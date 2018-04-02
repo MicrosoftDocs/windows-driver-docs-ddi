@@ -7,7 +7,7 @@ old-location: display\handlekernelmodemessage.htm
 old-project: display
 ms.assetid: 9DE4F3B0-915A-4C66-85F8-AE248B8471B5
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: HandleKernelModeMessage, HandleKernelModeMessage callback function [Display Devices], PFN_HANDLE_KMD_MESSAGE, display.handlekernelmodemessage, netdispumdddi/HandleKernelModeMessage
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -89,6 +89,11 @@ Specifies the particular device on a multifunction adapter at the given slot tha
 
 
 
+##### - u.AsULONG
+
+Specifies the logical slot number of the device being configured.
+
+
 ## -remarks
 
 

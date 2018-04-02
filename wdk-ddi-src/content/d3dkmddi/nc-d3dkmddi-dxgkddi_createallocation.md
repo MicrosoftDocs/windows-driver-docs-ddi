@@ -7,7 +7,7 @@ old-location: display\dxgkddicreateallocation.htm
 old-project: display
 ms.assetid: a28287d6-4dfa-4db4-92df-bbcd9379a5b2
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKDDI_CREATEALLOCATION, DmFunctions_fa00d14b-b5f1-4dde-8283-cc7b71911f76.xml, DxgkDdiCreateAllocation, DxgkDdiCreateAllocation callback function [Display Devices], d3dkmddi/DxgkDdiCreateAllocation, display.dxgkddicreateallocation
 ms.prod: windows-hardware
 ms.technology: windows-devices

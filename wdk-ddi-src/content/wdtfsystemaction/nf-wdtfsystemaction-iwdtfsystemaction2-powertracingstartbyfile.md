@@ -7,7 +7,7 @@ old-location: dtf\iwdtfsystemaction2_powertracingstartbyfile.htm
 old-project: dtf
 ms.assetid: c37095d2-fbf5-49fa-a6c8-b4776bf530af
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 3/29/2018
 ms.keywords: IWDTFSystemAction2, IWDTFSystemAction2 interface [Windows Device Testing Framework], PowerTracingStartByFile method, IWDTFSystemAction2::PowerTracingStartByFile, Microsoft.WDTF.IWDTFSystemAction2.PowerTracingStartByFile, Microsoft::WDTF::IWDTFSystemAction2::PowerTracingStartByFile, PowerTracingStartByFile method [Windows Device Testing Framework], PowerTracingStartByFile method [Windows Device Testing Framework], IWDTFSystemAction2 interface, PowerTracingStartByFile,IWDTFSystemAction2.PowerTracingStartByFile, dtf.iwdtfsystemaction2_powertracingstartbyfile, wdtfsystemaction/IWDTFSystemAction2::PowerTracingStartByFile
 ms.prod: windows-hardware
 ms.technology: windows-devices

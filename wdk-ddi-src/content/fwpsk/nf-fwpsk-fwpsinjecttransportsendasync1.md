@@ -7,7 +7,7 @@ old-location: netvista\fwpsinjecttransportsendasync1.htm
 old-project: netvista
 ms.assetid: 74d91e43-d58a-4c2c-bfc9-4b0829a5f9f8
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: FwpsInjectTransportSendAsync1, FwpsInjectTransportSendAsync1 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsInjectTransportSendAsync1, netvista.fwpsinjecttransportsendasync1, wfp_ref_2_funct_3_fwps_I_a1489474-a130-48de-b064-614dfb2e1db2.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -384,8 +384,3 @@ FWPS_LAYER_DATAGRAM_DATA_V6 (when outbound direction is specified with FWP_DIREC
 
  
 
-<<<<<<< HEAD
-=======
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20FwpsInjectTransportSendAsync1 function%20 RELEASE:%20(2/27/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
-
->>>>>>> parent of 2d896a8e266... Added changes

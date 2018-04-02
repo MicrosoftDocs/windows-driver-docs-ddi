@@ -7,7 +7,7 @@ old-location: buses\_ucxendpointnopingresponseerror.htm
 old-project: usbref
 ms.assetid: 0EDC524E-12BB-49AD-AA12-A7D9CF7D2F9C
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: UcxEndpointNoPingResponseError, UcxEndpointNoPingResponseError method [Buses], buses._ucxendpointnopingresponseerror, ucxendpoint/UcxEndpointNoPingResponseError
 ms.prod: windows-hardware
 ms.technology: windows-devices

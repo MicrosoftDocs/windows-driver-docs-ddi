@@ -7,7 +7,7 @@ old-location: display\createcommandlist.htm
 old-project: display
 ms.assetid: 583bde52-ba21-44ce-9f48-8ace6f7a70cc
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: CreateCommandList, CreateCommandList callback function [Display Devices], PFND3D11DDI_CREATECOMMANDLIST, UserModeDisplayDriverDx11_Functions_4383a01d-9aee-4c8e-8a54-f7463e8995d9.xml, d3d10umddi/CreateCommandList, display.createcommandlist
 ms.prod: windows-hardware
 ms.technology: windows-devices

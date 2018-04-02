@@ -7,7 +7,7 @@ old-location: storage\set_partition_information_ex.htm
 old-project: storage
 ms.assetid: a30c10d4-5e85-4a59-b262-054a6fdc2fb8
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PSET_PARTITION_INFORMATION_EX, PSET_PARTITION_INFORMATION_EX, PSET_PARTITION_INFORMATION_EX structure pointer [Storage Devices], SET_PARTITION_INFORMATION_EX, SET_PARTITION_INFORMATION_EX structure [Storage Devices], _SET_PARTITION_INFORMATION_EX, ntdddisk/PSET_PARTITION_INFORMATION_EX, ntdddisk/SET_PARTITION_INFORMATION_EX, storage.set_partition_information_ex, structs-disk_5eaa53e2-feaf-404f-a2a8-174ae77bfab5.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices

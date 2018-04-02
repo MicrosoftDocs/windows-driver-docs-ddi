@@ -7,7 +7,7 @@ old-location: ifsk\fsrtlteardownperstreamcontexts.htm
 old-project: ifsk
 ms.assetid: a37a921c-748a-4ac2-99c7-a6cf987a8f54
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FsRtlTeardownPerStreamContexts, FsRtlTeardownPerStreamContexts routine [Installable File System Drivers], fsrtlref_15f597e3-b397-497b-9839-a61b6cf27745.xml, ifsk.fsrtlteardownperstreamcontexts, ntifs/FsRtlTeardownPerStreamContexts
 ms.prod: windows-hardware
 ms.technology: windows-devices

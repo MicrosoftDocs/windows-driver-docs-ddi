@@ -7,7 +7,7 @@ old-location: storage\ioctl_disk_set_cache_information.htm
 old-project: storage
 ms.assetid: ae1ca621-4862-4345-bb51-4a1c31e00542
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_DISK_SET_CACHE_INFORMATION, IOCTL_DISK_SET_CACHE_INFORMATION control code [Storage Devices], k307_4f1b855c-4788-48e9-bc26-7addf3c7e3a9.xml, ntdddisk/IOCTL_DISK_SET_CACHE_INFORMATION, storage.ioctl_disk_set_cache_information
 ms.prod: windows-hardware
 ms.technology: windows-devices

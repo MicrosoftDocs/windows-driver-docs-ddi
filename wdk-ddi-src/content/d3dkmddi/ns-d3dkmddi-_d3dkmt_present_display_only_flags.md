@@ -7,7 +7,7 @@ old-location: display\d3dkmt_present_display_only_flags.htm
 old-project: display
 ms.assetid: a45dfdeb-06d2-49c8-a6e1-f42a43857492
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMT_PRESENT_DISPLAY_ONLY_FLAGS, D3DKMT_PRESENT_DISPLAY_ONLY_FLAGS structure [Display Devices], _D3DKMT_PRESENT_DISPLAY_ONLY_FLAGS, d3dkmddi/D3DKMT_PRESENT_DISPLAY_ONLY_FLAGS, display.d3dkmt_present_display_only_flags
 ms.prod: windows-hardware
 ms.technology: windows-devices

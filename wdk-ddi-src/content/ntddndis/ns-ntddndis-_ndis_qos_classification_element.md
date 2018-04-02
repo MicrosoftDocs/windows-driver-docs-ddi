@@ -7,7 +7,7 @@ old-location: netvista\ndis_qos_classification_element.htm
 old-project: netvista
 ms.assetid: 2677dc3a-7685-40bf-94c3-2efecf21e9a8
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: NDIS_QOS_CLASSIFICATION_ELEMENT, NDIS_QOS_CLASSIFICATION_ELEMENT structure [Network Drivers Starting with Windows Vista], PNDIS_QOS_CLASSIFICATION_ELEMENT, PNDIS_QOS_CLASSIFICATION_ELEMENT structure pointer [Network Drivers Starting with Windows Vista], _NDIS_QOS_CLASSIFICATION_ELEMENT, netvista.ndis_qos_classification_element, ntddndis/NDIS_QOS_CLASSIFICATION_ELEMENT, ntddndis/PNDIS_QOS_CLASSIFICATION_ELEMENT
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -310,8 +310,3 @@ For more information on NDIS QoS traffic classes, see <a href="https://msdn.micr
 
  
 
-<<<<<<< HEAD
-=======
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_QOS_CLASSIFICATION_ELEMENT structure%20 RELEASE:%20(2/27/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
-
->>>>>>> parent of 2d896a8e266... Added changes

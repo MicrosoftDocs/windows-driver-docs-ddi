@@ -7,7 +7,7 @@ old-location: ifsk\fltenumerateinstanceinformationbyvolumename.htm
 old-project: ifsk
 ms.assetid: BBABE50B-98FF-440E-B5B0-11C8F901D8FE
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FltEnumerateInstanceInformationByVolumeName, FltEnumerateInstanceInformationByVolumeName routine [Installable File System Drivers], fltkernel/FltEnumerateInstanceInformationByVolumeName, ifsk.fltenumerateinstanceinformationbyvolumename
 ms.prod: windows-hardware
 ms.technology: windows-devices

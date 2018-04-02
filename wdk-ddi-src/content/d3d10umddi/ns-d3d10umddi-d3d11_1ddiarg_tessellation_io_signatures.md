@@ -7,7 +7,7 @@ old-location: display\d3d11_1ddiarg_tessellation_io_signatures.htm
 old-project: display
 ms.assetid: 90b9cbba-6a8f-444e-b0eb-cfbabdd57dcf
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3D11_1DDIARG_TESSELLATION_IO_SIGNATURES, D3D11_1DDIARG_TESSELLATION_IO_SIGNATURES structure [Display Devices], d3d10umddi/D3D11_1DDIARG_TESSELLATION_IO_SIGNATURES, display.d3d11_1ddiarg_tessellation_io_signatures
 ms.prod: windows-hardware
 ms.technology: windows-devices

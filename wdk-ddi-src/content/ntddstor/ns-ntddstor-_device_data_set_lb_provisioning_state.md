@@ -7,7 +7,7 @@ old-location: storage\device_data_set_lb_provisioning_state.htm
 old-project: storage
 ms.assetid: 99FBD363-0999-4AEE-A222-69C0FB71D248
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PDEVICE_DATA_SET_LB_PROVISIONING_STATE, DEVICE_DATA_SET_LB_PROVISIONING_STATE, DEVICE_DATA_SET_LB_PROVISIONING_STATE structure [Storage Devices], PDEVICE_DATA_SET_LB_PROVISIONING_STATE, PDEVICE_DATA_SET_LB_PROVISIONING_STATE structure pointer [Storage Devices], _DEVICE_DATA_SET_LB_PROVISIONING_STATE, ntddstor/DEVICE_DATA_SET_LB_PROVISIONING_STATE, ntddstor/PDEVICE_DATA_SET_LB_PROVISIONING_STATE, storage.device_data_set_lb_provisioning_state"
 ms.prod: windows-hardware
 ms.technology: windows-devices

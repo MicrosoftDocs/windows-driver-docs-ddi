@@ -7,7 +7,7 @@ old-location: storage\hba_getfcppersistentbinding.htm
 old-project: storage
 ms.assetid: a17a6dfa-c067-4a85-8787-ffb4fb6cb7ad
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: HBA_GetFcpPersistentBinding, HBA_GetFcpPersistentBinding routine [Storage Devices], fibreHBA_rtns_9ab54a28-f020-426e-9ea6-2aba3666884b.xml, hbaapi/HBA_GetFcpPersistentBinding, storage.hba_getfcppersistentbinding
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: storage\storportfreedevicebase.htm
 old-project: storage
 ms.assetid: 4feb3bde-c243-493c-a6f9-4accd545955c
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: StorPortFreeDeviceBase, StorPortFreeDeviceBase function [Storage Devices], storage.storportfreedevicebase, storport/StorPortFreeDeviceBase, storprt_f8c3e4c6-8f38-4189-bdac-70c0c61e0f18.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: ifsk\fltuninitializefilelock.htm
 old-project: ifsk
 ms.assetid: 15f0a4f4-70f3-4a26-92a2-728e363205f3
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FltApiRef_p_to_z_ad1332a2-5434-423c-91d6-de939e1cb28a.xml, FltUninitializeFileLock, FltUninitializeFileLock routine [Installable File System Drivers], fltkernel/FltUninitializeFileLock, ifsk.fltuninitializefilelock
 ms.prod: windows-hardware
 ms.technology: windows-devices

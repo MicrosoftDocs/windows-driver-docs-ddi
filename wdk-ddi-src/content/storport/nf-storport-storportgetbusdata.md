@@ -7,7 +7,7 @@ old-location: storage\storportgetbusdata.htm
 old-project: storage
 ms.assetid: 19999e21-1afd-42ac-9809-b8ed4b6ac7e3
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: StorPortGetBusData, StorPortGetBusData routine [Storage Devices], storage.storportgetbusdata, storport/StorPortGetBusData, storprt_fb8cc730-c53e-49b6-abe5-6a0648200d32.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

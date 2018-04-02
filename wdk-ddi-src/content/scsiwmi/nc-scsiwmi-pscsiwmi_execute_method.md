@@ -7,7 +7,7 @@ old-location: storage\hwscsiwmiexecutemethod.htm
 old-project: storage
 ms.assetid: 67a82442-591e-4e52-aaaf-b3cdb68c483a
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: HwScsiWmiExecuteMethod, HwScsiWmiExecuteMethod callback function [Storage Devices], PSCSIWMI_EXECUTE_METHOD, Scsimini_a0b3e943-a363-478d-9d68-09acf0c5b591.xml, scsiwmi/HwScsiWmiExecuteMethod, storage.hwscsiwmiexecutemethod
 ms.prod: windows-hardware
 ms.technology: windows-devices

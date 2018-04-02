@@ -7,7 +7,7 @@ old-location: storage\ataportrequestpowerstatechange.htm
 old-project: storage
 ms.assetid: 37cf1552-2cbe-4b80-b220-cfa853674e1b
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: AtaPortRequestPowerStateChange, AtaPortRequestPowerStateChange routine [Storage Devices], irb/AtaPortRequestPowerStateChange, storage.ataportrequestpowerstatechange
 ms.prod: windows-hardware
 ms.technology: windows-devices

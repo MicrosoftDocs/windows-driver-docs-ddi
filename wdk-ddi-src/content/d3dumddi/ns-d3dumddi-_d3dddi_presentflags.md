@@ -7,7 +7,7 @@ old-location: display\d3dddi_presentflags.htm
 old-project: display
 ms.assetid: adab4c0f-b879-409c-97a3-f161a50514f5
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDI_PRESENTFLAGS, D3DDDI_PRESENTFLAGS structure [Display Devices], D3D_other_Structs_4650db5e-637b-4032-a5d2-ded887a883dc.xml, _D3DDDI_PRESENTFLAGS, d3dumddi/D3DDDI_PRESENTFLAGS, display.d3dddi_presentflags
 ms.prod: windows-hardware
 ms.technology: windows-devices

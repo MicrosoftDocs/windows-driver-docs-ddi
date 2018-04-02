@@ -7,7 +7,7 @@ old-location: buses\ufx_proprietary_charger_abort_operation.htm
 old-project: usbref
 ms.assetid: 32BCBE1C-BD0E-46D6-9C6D-6B8F1CE0E540
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: PFN_UFX_PROPRIETARY_CHARGER_ABORT_OPERATION, PFN_UFX_PROPRIETARY_CHARGER_ABORT_OPERATION callback function pointer [Buses], UFX_PROPRIETARY_CHARGER_ABORT_OPERATION, UfxProprietaryChargerAbort, UfxProprietaryChargerAbort callback function [Buses], buses.ufx_proprietary_charger_abort_operation, ufxproprietarycharger/UfxProprietaryChargerAbort
 ms.prod: windows-hardware
 ms.technology: windows-devices

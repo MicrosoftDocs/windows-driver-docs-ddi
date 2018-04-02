@@ -7,7 +7,7 @@ old-location: display\d3d10ddiarg_calcprivatedevicesize.htm
 old-project: display
 ms.assetid: 79bb55db-dd4d-4cad-927e-e1126463bded
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3D10DDIARG_CALCPRIVATEDEVICESIZE, D3D10DDIARG_CALCPRIVATEDEVICESIZE structure [Display Devices], UMDisplayDriver_Dx10param_Structs_5d15afa8-1d91-4823-ba91-391e64e9374d.xml, d3d10umddi/D3D10DDIARG_CALCPRIVATEDEVICESIZE, display.d3d10ddiarg_calcprivatedevicesize
 ms.prod: windows-hardware
 ms.technology: windows-devices

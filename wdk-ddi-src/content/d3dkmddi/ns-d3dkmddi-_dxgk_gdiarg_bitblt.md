@@ -7,7 +7,7 @@ old-location: display\dxgk_gdiarg_bitblt.htm
 old-project: display
 ms.assetid: 367ee4cb-5074-478d-8836-962f96acf103
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGK_GDIARG_BITBLT, DXGK_GDIARG_BITBLT structure [Display Devices], DmStructs_717d3dc5-03a2-4814-b351-6ea7fb270f26.xml, _DXGK_GDIARG_BITBLT, d3dkmddi/DXGK_GDIARG_BITBLT, display.dxgk_gdiarg_bitblt
 ms.prod: windows-hardware
 ms.technology: windows-devices

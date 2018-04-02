@@ -7,7 +7,7 @@ old-location: buses\ufxdevicenotifyattach.htm
 old-project: usbref
 ms.assetid: E45FA08C-3E00-4AF6-A983-6E9C808AFA11
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: UfxDeviceNotifyAttach, UfxDeviceNotifyAttach method [Buses], buses.ufxdevicenotifyattach, ufxclient/UfxDeviceNotifyAttach
 ms.prod: windows-hardware
 ms.technology: windows-devices

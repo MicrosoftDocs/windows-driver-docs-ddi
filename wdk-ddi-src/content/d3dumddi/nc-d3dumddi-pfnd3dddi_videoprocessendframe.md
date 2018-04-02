@@ -7,7 +7,7 @@ old-location: display\videoprocessendframe.htm
 old-project: display
 ms.assetid: a5be6834-bb27-4da0-8802-25a9ca58c101
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3DDDI_VIDEOPROCESSENDFRAME, UserModeDisplayDriver_Functions_b7ef391b-90b5-49a6-880e-d0c4f287d0ad.xml, VideoProcessEndFrame, VideoProcessEndFrame callback function [Display Devices], d3dumddi/VideoProcessEndFrame, display.videoprocessendframe
 ms.prod: windows-hardware
 ms.technology: windows-devices

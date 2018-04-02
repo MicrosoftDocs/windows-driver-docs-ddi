@@ -7,7 +7,7 @@ old-location: display\hwvidquerydevicecallback.htm
 old-project: display
 ms.assetid: 81c3f484-427e-43b8-b7dd-12017533560b
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: HwVidQueryDeviceCallback, HwVidQueryDeviceCallback callback function [Display Devices], PMINIPORT_QUERY_DEVICE_ROUTINE, VideoMiniport_Functions_9da236b0-f97f-410d-a0e7-c65499d7db8b.xml, display.hwvidquerydevicecallback, video/HwVidQueryDeviceCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices

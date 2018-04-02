@@ -7,7 +7,7 @@ old-location: display\d3dkmt_evict.htm
 old-project: display
 ms.assetid: 07785939-C3D1-4085-BA1A-91E8FEE52B70
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMT_EVICT, D3DKMT_EVICT structure [Display Devices], _D3DKMT_EVICT, d3dkmthk/D3DKMT_EVICT, display.d3dkmt_evict
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: storage\cdrom_set_streaming.htm
 old-project: storage
 ms.assetid: e5c2d421-5994-4f1d-9022-718500eef1a9
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PCDROM_SET_STREAMING, CDROM_SET_STREAMING, CDROM_SET_STREAMING structure [Storage Devices], PCDROM_SET_STREAMING, PCDROM_SET_STREAMING structure pointer [Storage Devices], _CDROM_SET_STREAMING, ntddcdrm/CDROM_SET_STREAMING, ntddcdrm/PCDROM_SET_STREAMING, storage.cdrom_set_streaming, structs-CD-ROM_5157906e-31d2-42c7-8e90-cc673ed02510.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices

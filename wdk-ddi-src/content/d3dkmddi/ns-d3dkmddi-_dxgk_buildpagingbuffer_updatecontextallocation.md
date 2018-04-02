@@ -7,7 +7,7 @@ old-location: display\dxgk_buildpagingbuffer_updatecontextallocation.htm
 old-project: display
 ms.assetid: DA23251C-E901-48A0-9B58-458622DE8CF0
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGK_BUILDPAGINGBUFFER_UPDATECONTEXTALLOCATION, DXGK_BUILDPAGINGBUFFER_UPDATECONTEXTALLOCATION structure [Display Devices], _DXGK_BUILDPAGINGBUFFER_UPDATECONTEXTALLOCATION, d3dkmddi/DXGK_BUILDPAGINGBUFFER_UPDATECONTEXTALLOCATION, display.dxgk_buildpagingbuffer_updatecontextallocation
 ms.prod: windows-hardware
 ms.technology: windows-devices

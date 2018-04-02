@@ -7,7 +7,7 @@ old-location: display\d3dkmtreleasekeyedmutex.htm
 old-project: display
 ms.assetid: c2a50621-fa84-4525-86f7-845e886203fe
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMTReleaseKeyedMutex, D3DKMTReleaseKeyedMutex function [Display Devices], OpenGL_Functions_16fd3037-2615-49c0-8500-7c93bcda3c9f.xml, d3dkmthk/D3DKMTReleaseKeyedMutex, display.d3dkmtreleasekeyedmutex
 ms.prod: windows-hardware
 ms.technology: windows-devices

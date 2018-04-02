@@ -7,7 +7,7 @@ old-location: display\dxva_deinterlacebltex.htm
 old-project: display
 ms.assetid: dbc32410-119f-4172-8d2a-7d41e8b64ae4
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXVA_DeinterlaceBltEx, DXVA_DeinterlaceBltEx structure [Display Devices], _DXVA_DeinterlaceBltEx, display.dxva_deinterlacebltex, dxva/DXVA_DeinterlaceBltEx, dxvaref_4340e54b-79b9-44a1-9d29-37f6aae9fe94.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

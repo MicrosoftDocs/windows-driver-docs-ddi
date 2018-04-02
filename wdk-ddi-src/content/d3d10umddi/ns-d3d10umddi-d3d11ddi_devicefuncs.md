@@ -7,7 +7,7 @@ old-location: display\d3d11ddi_devicefuncs.htm
 old-project: display
 ms.assetid: fabd77b9-2a2e-4995-a99f-50b46806e312
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3D11DDI_DEVICEFUNCS, D3D11DDI_DEVICEFUNCS structure [Display Devices], UMDisplayDriver_Dx11param_Structs_f91ec9c6-5d1b-49ab-8a92-21028de8e10b.xml, d3d10umddi/D3D11DDI_DEVICEFUNCS, display.d3d11ddi_devicefuncs
 ms.prod: windows-hardware
 ms.technology: windows-devices

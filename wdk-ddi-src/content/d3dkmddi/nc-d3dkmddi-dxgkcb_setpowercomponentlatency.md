@@ -7,7 +7,7 @@ old-location: display\dxgkcbsetpowercomponentlatency.htm
 old-project: display
 ms.assetid: 8FF86746-15A2-4BDF-98AF-23B5F9960DB9
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKCB_SETPOWERCOMPONENTLATENCY, DxgkCbSetPowerComponentLatency, DxgkCbSetPowerComponentLatency callback function [Display Devices], d3dkmddi/DxgkCbSetPowerComponentLatency, display.dxgkcbsetpowercomponentlatency
 ms.prod: windows-hardware
 ms.technology: windows-devices

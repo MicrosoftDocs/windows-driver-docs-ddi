@@ -7,7 +7,7 @@ old-location: display\readclockline.htm
 old-project: display
 ms.assetid: 1051a234-ef63-454e-8957-292e86f4efcd
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PVIDEO_READ_CLOCK_LINE, ReadClockLine, ReadClockLine callback function [Display Devices], VideoMiniport_Functions_5e7bcadb-43ea-4a1b-81b7-666cabd66aa0.xml, display.readclockline, video/ReadClockLine
 ms.prod: windows-hardware
 ms.technology: windows-devices

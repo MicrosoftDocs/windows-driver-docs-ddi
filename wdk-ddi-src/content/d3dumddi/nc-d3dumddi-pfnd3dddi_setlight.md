@@ -7,7 +7,7 @@ old-location: display\setlight.htm
 old-project: display
 ms.assetid: 28e3992e-a636-47e2-a5a6-5da06d276b5c
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3DDDI_SETLIGHT, SetLight, SetLight callback function [Display Devices], UserModeDisplayDriver_Functions_82c42629-2344-4778-aaf4-e41acac4cfce.xml, d3dumddi/SetLight, display.setlight
 ms.prod: windows-hardware
 ms.technology: windows-devices

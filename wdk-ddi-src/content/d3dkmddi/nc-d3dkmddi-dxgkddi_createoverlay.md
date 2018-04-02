@@ -7,7 +7,7 @@ old-location: display\dxgkddicreateoverlay.htm
 old-project: display
 ms.assetid: 1ccdd16d-fd76-4039-b538-86c77b4e8cbb
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKDDI_CREATEOVERLAY, DmFunctions_61539b38-d12a-4642-926c-70c1cf1df34b.xml, DxgkDdiCreateOverlay, DxgkDdiCreateOverlay callback function [Display Devices], d3dkmddi/DxgkDdiCreateOverlay, display.dxgkddicreateoverlay
 ms.prod: windows-hardware
 ms.technology: windows-devices

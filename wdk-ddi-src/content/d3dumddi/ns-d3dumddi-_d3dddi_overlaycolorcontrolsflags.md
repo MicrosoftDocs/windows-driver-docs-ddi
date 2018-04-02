@@ -7,7 +7,7 @@ old-location: display\d3dddi_overlaycolorcontrolsflags.htm
 old-project: display
 ms.assetid: 12907aee-7c67-48f9-bf0f-84428f2d4fa7
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDI_OVERLAYCOLORCONTROLSFLAGS, D3DDDI_OVERLAYCOLORCONTROLSFLAGS structure [Display Devices], D3D_other_Structs_ada675f2-18ed-4597-bcc4-803d8598ae66.xml, _D3DDDI_OVERLAYCOLORCONTROLSFLAGS, d3dumddi/D3DDDI_OVERLAYCOLORCONTROLSFLAGS, display.d3dddi_overlaycolorcontrolsflags
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: storage\hba_sendrnid.htm
 old-project: storage
 ms.assetid: c15d74c8-bc04-4d82-a729-6b13f778b8c7
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: HBA_SendRNID, HBA_SendRNID routine [Storage Devices], fibreHBA_rtns_fd816d59-9c64-499e-a3bb-2a2d2427fbf9.xml, hbaapi/HBA_SendRNID, storage.hba_sendrnid
 ms.prod: windows-hardware
 ms.technology: windows-devices

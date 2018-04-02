@@ -7,7 +7,7 @@ old-location: storage\storportsetunitattributes.htm
 old-project: storage
 ms.assetid: 0E05233D-79B0-4FC7-B13C-91B6B1F57E89
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: StorPortSetUnitAttributes, StorPortSetUnitAttributes routine [Storage Devices], storage.storportsetunitattributes, storport/StorPortSetUnitAttributes
 ms.prod: windows-hardware
 ms.technology: windows-devices

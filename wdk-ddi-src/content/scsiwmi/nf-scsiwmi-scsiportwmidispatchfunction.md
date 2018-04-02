@@ -7,7 +7,7 @@ old-location: storage\scsiportwmidispatchfunction.htm
 old-project: storage
 ms.assetid: 48806050-403b-4375-8b19-e867f905b761
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: ScsiPortWmiDispatchFunction, ScsiPortWmiDispatchFunction routine [Storage Devices], scsiprt_03d0ec2c-b525-48d5-bcc3-cfd89fe020bd.xml, scsiwmi/ScsiPortWmiDispatchFunction, storage.scsiportwmidispatchfunction
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: storage\ioctl_mpio_pass_through_path_ex.htm
 old-project: storage
 ms.assetid: 2E7DB48A-FFCF-4EEC-98FA-D206E33D6603
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_MPIO_PASS_THROUGH_PATH_EX, IOCTL_MPIO_PASS_THROUGH_PATH_EX control code [Storage Devices], ntddscsi/IOCTL_MPIO_PASS_THROUGH_PATH_EX, storage.ioctl_mpio_pass_through_path_ex
 ms.prod: windows-hardware
 ms.technology: windows-devices

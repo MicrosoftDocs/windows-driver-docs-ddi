@@ -7,7 +7,7 @@ old-location: display\dxvaddi_videodesc.htm
 old-project: display
 ms.assetid: 19121888-ad5c-4596-a7ec-a95fbffda685
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXVA2_Structs_7e8c3d70-50a3-48f7-bc5e-4280a599e43d.xml, DXVADDI_VIDEODESC, DXVADDI_VIDEODESC structure [Display Devices], _DXVADDI_VIDEODESC, d3dumddi/DXVADDI_VIDEODESC, display.dxvaddi_videodesc
 ms.prod: windows-hardware
 ms.technology: windows-devices

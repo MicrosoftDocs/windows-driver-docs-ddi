@@ -7,7 +7,7 @@ old-location: display\getmippacking.htm
 old-project: display
 ms.assetid: 8AF361B5-279D-4525-AD98-843A4A746201
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: GetMipPacking, GetMipPacking callback function [Display Devices], PFND3DWDDM1_3DDI_GETMIPPACKING, d3d10umddi/GetMipPacking, display.getmippacking
 ms.prod: windows-hardware
 ms.technology: windows-devices

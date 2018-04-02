@@ -7,7 +7,7 @@ old-location: storage\ataportregistrycontrollerkeyread.htm
 old-project: storage
 ms.assetid: 7db22027-49ac-4ee5-8da7-bbd16c97a35b
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: AtaPortRegistryControllerKeyRead, AtaPortRegistryControllerKeyRead routine [Storage Devices], atartns_eea8e60c-8cbd-4632-b5a4-17639f02f4d8.xml, irb/AtaPortRegistryControllerKeyRead, storage.ataportregistrycontrollerkeyread
 ms.prod: windows-hardware
 ms.technology: windows-devices

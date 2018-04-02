@@ -7,7 +7,7 @@ old-location: display\createblendstate_d3d10_1_.htm
 old-project: display
 ms.assetid: 1b258f28-c386-477c-92d1-cb5918080dcf
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: CreateBlendState_d3d10_1_, CreateBlendState_d3d10_1_ callback function [Display Devices], PFND3D10_1DDI_CREATEBLENDSTATE, UserModeDisplayDriverDx10_Functions_46b88f91-736c-4b72-9220-05f347b829f2.xml, d3d10umddi/CreateBlendState_d3d10_1_, display.createblendstate_d3d10_1_
 ms.prod: windows-hardware
 ms.technology: windows-devices

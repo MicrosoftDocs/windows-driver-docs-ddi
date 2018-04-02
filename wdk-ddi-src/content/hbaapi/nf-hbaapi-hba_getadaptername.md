@@ -7,7 +7,7 @@ old-location: storage\hba_getadaptername.htm
 old-project: storage
 ms.assetid: ec17efca-2cb9-4ab4-b98f-7319f6145e4e
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: HBA_GetAdapterName, HBA_GetAdapterName routine [Storage Devices], fibreHBA_rtns_f483472a-9b5e-4120-b0bf-e3c5253a3f03.xml, hbaapi/HBA_GetAdapterName, storage.hba_getadaptername
 ms.prod: windows-hardware
 ms.technology: windows-devices

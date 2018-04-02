@@ -7,7 +7,7 @@ old-location: display\d3dkmt_createkeyedmutex2_flags.htm
 old-project: display
 ms.assetid: 21c2d262-bf8c-48a3-9801-5c2bd73f0282
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMT_CREATEKEYEDMUTEX2_FLAGS, D3DKMT_CREATEKEYEDMUTEX2_FLAGS structure [Display Devices], _D3DKMT_CREATEKEYEDMUTEX2_FLAGS, d3dkmthk/D3DKMT_CREATEKEYEDMUTEX2_FLAGS, display.d3dkmt_createkeyedmutex2_flags
 ms.prod: windows-hardware
 ms.technology: windows-devices

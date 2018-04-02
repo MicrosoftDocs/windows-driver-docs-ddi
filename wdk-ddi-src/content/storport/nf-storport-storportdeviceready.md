@@ -7,7 +7,7 @@ old-location: storage\storportdeviceready.htm
 old-project: storage
 ms.assetid: 6dd3abdb-9037-4cf5-abe7-7776dcf67bd5
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: StorPortDeviceReady, StorPortDeviceReady routine [Storage Devices], storage.storportdeviceready, storport/StorPortDeviceReady, storprt_18a6f185-17dd-446c-9bbe-3937e1003a6b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

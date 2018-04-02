@@ -7,7 +7,7 @@ old-location: display\dxgkddigetscanline.htm
 old-project: display
 ms.assetid: e37bb3c6-a0b6-409f-8a82-20ec7a931c6a
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKDDI_GETSCANLINE, DmFunctions_135e90a4-1b44-4cd6-92fe-626dd389af9b.xml, DxgkDdiGetScanLine, DxgkDdiGetScanLine callback function [Display Devices], d3dkmddi/DxgkDdiGetScanLine, display.dxgkddigetscanline
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: display\dxgk_vidpnsourcemodeset_interface_pfnreleasemodeinfo.htm
 old-project: display
 ms.assetid: 614283cc-90bf-44f2-bab2-1aeec5e7de01
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKDDI_VIDPNSOURCEMODESET_RELEASEMODEINFO, VidPnFunctions_4516c897-bcf8-4a32-9517-45c86690d746.xml, d3dkmddi/pfnReleaseModeInfo, display.dxgk_vidpnsourcemodeset_interface_pfnreleasemodeinfo, pfnReleaseModeInfo, pfnReleaseModeInfo callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices

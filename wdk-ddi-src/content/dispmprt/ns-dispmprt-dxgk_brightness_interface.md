@@ -7,7 +7,7 @@ old-location: display\dxgk_brightness_interface.htm
 old-project: display
 ms.assetid: 8fa7908c-7ed4-4f85-846c-71fc5c7dc035
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PDXGK_BRIGHTNESS_INTERFACE, DXGK_BRIGHTNESS_INTERFACE, DXGK_BRIGHTNESS_INTERFACE structure [Display Devices], DmStructs_f750f3c3-0754-49b9-8ad5-cd93f84697c4.xml, PDXGK_BRIGHTNESS_INTERFACE, PDXGK_BRIGHTNESS_INTERFACE structure pointer [Display Devices], display.dxgk_brightness_interface, dispmprt/DXGK_BRIGHTNESS_INTERFACE, dispmprt/PDXGK_BRIGHTNESS_INTERFACE"
 ms.prod: windows-hardware
 ms.technology: windows-devices

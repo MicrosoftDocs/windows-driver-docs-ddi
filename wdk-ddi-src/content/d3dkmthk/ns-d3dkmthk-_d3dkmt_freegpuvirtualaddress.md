@@ -7,7 +7,7 @@ old-location: display\d3dkmt_freegpuvirtualaddress.htm
 old-project: display
 ms.assetid: BB3DD49B-7DAB-48AC-BC63-595A184374AB
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMT_FREEGPUVIRTUALADDRESS, D3DKMT_FREEGPUVIRTUALADDRESS structure [Display Devices], _D3DKMT_FREEGPUVIRTUALADDRESS, d3dkmthk/D3DKMT_FREEGPUVIRTUALADDRESS, display.d3dkmt_freegpuvirtualaddress
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: buses\udecxusbdeviceinitallocate.htm
 old-project: usbref
 ms.assetid: 127D132B-6A40-4F6F-BCDA-473F89A1A747
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: UdecxUsbDeviceInitAllocate, UdecxUsbDeviceInitAllocate function [Buses], buses.udecxusbdeviceinitallocate, udecxusbdevice/UdecxUsbDeviceInitAllocate
 ms.prod: windows-hardware
 ms.technology: windows-devices

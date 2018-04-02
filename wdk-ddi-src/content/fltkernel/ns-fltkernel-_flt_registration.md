@@ -7,7 +7,7 @@ old-location: ifsk\flt_registration.htm
 old-project: ifsk
 ms.assetid: 3313af42-0e0a-4ad0-b0bb-0afb795e24fd
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: "*PFLT_REGISTRATION, FLTFL_REGISTRATION_DO_NOT_SUPPORT_SERVICE_STOP, FLTFL_REGISTRATION_SUPPORT_DAX_VOLUME, FLTFL_REGISTRATION_SUPPORT_NPFS_MSFS, FLT_REGISTRATION, FLT_REGISTRATION structure [Installable File System Drivers], FltSystemStructures_5257e153-faae-4eb8-845a-f6c137a29390.xml, PFLT_REGISTRATION, PFLT_REGISTRATION structure pointer [Installable File System Drivers], _FLT_REGISTRATION, fltkernel/FLT_REGISTRATION, fltkernel/PFLT_REGISTRATION, ifsk.flt_registration"
 ms.prod: windows-hardware
 ms.technology: windows-devices

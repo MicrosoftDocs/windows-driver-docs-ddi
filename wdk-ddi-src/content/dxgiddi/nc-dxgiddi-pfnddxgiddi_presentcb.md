@@ -7,7 +7,7 @@ old-location: display\pfnpresentcbdxgi.htm
 old-project: display
 ms.assetid: eefb8f2c-e460-4f9c-851d-9a97dbcd728f
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFNDDXGIDDI_PRESENTCB, d3d10state_functions_22004360-a0a0-4d54-ac0e-d7fadec2bf67.xml, display.pfnpresentcbdxgi, dxgiddi/pfnPresentCbDXGI, pfnPresentCbDXGI, pfnPresentCbDXGI callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices

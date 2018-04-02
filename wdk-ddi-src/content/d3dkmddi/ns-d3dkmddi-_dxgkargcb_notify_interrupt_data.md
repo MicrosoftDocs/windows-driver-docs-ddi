@@ -7,7 +7,7 @@ old-location: display\dxgkargcb_notify_interrupt_data.htm
 old-project: display
 ms.assetid: c71078fb-5666-4038-81a0-de9375bafb5c
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*IN_CONST_PDXGKARGCB_NOTIFY_INTERRUPT_DATA, DXGKARGCB_NOTIFY_INTERRUPT_DATA, DXGKARGCB_NOTIFY_INTERRUPT_DATA structure [Display Devices], DmStructs_071ed85c-70d6-44d8-95e3-7f6609331f4f.xml, STATUS_INVALID_PARAMETER, STATUS_NO_MEMORY, STATUS_SUCCESS, _DXGKARGCB_NOTIFY_INTERRUPT_DATA, d3dkmddi/DXGKARGCB_NOTIFY_INTERRUPT_DATA, display.dxgkargcb_notify_interrupt_data"
 ms.prod: windows-hardware
 ms.technology: windows-devices

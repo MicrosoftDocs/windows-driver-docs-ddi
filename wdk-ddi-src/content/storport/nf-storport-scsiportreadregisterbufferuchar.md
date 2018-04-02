@@ -7,7 +7,7 @@ old-location: storage\scsiportreadregisterbufferuchar.htm
 old-project: storage
 ms.assetid: 5574d8ee-8a52-488f-849d-9288af5fed2b
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: ScsiPortReadRegisterBufferUchar, ScsiPortReadRegisterBufferUchar routine [Storage Devices], scsiprt_cfe4caf7-bfae-4d7a-aa70-8f44b52ca33c.xml, srb/ScsiPortReadRegisterBufferUchar, storage.scsiportreadregisterbufferuchar
 ms.prod: windows-hardware
 ms.technology: windows-devices

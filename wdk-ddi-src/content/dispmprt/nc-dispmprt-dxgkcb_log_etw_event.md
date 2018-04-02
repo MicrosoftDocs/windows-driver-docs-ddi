@@ -7,7 +7,7 @@ old-location: display\dxgkcblogetwevent.htm
 old-project: display
 ms.assetid: d869f933-4316-440e-899a-d46d72a0d10f
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKCB_LOG_ETW_EVENT, DpFunctions_1e074b6d-dff4-4d1f-93ce-4333a4241562.xml, DxgkCbLogEtwEvent, DxgkCbLogEtwEvent callback function [Display Devices], display.dxgkcblogetwevent, dispmprt/DxgkCbLogEtwEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: display\dxgkddinotifysurpriseremoval.htm
 old-project: display
 ms.assetid: 4e6403e7-7463-479a-8be9-4136287b375e
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKDDI_NOTIFY_SURPRISE_REMOVAL, DxgkDdiNotifySurpriseRemoval, DxgkDdiNotifySurpriseRemoval callback function [Display Devices], display.dxgkddinotifysurpriseremoval, dispmprt/DxgkDdiNotifySurpriseRemoval
 ms.prod: windows-hardware
 ms.technology: windows-devices

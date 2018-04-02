@@ -7,7 +7,7 @@ old-location: ifsk\fsrtlcancellablewaitforsingleobject.htm
 old-project: ifsk
 ms.assetid: b29d35bd-d27d-4507-9fa7-5648bcb1f825
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FsRtlCancellableWaitForSingleObject, FsRtlCancellableWaitForSingleObject routine [Installable File System Drivers], fsrtlref_5515496d-6e38-488c-8fbf-439aa4ac555a.xml, ifsk.fsrtlcancellablewaitforsingleobject, ntifs/FsRtlCancellableWaitForSingleObject
 ms.prod: windows-hardware
 ms.technology: windows-devices

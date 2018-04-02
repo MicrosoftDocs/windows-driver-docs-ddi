@@ -7,7 +7,7 @@ old-location: storage\device_lb_provisioning_descriptor.htm
 old-project: storage
 ms.assetid: E7287A50-2BB8-4D11-AB9B-6E65EEDD698D
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PDEVICE_LB_PROVISIONING_DESCRIPTOR, DEVICE_LB_PROVISIONING_DESCRIPTOR, DEVICE_LB_PROVISIONING_DESCRIPTOR structure [Storage Devices], PDEVICE_LB_PROVISIONING_DESCRIPTOR, PDEVICE_LB_PROVISIONING_DESCRIPTOR structure pointer [Storage Devices], _DEVICE_LB_PROVISIONING_DESCRIPTOR, ntddstor/DEVICE_LB_PROVISIONING_DESCRIPTOR, ntddstor/PDEVICE_LB_PROVISIONING_DESCRIPTOR, storage.device_lb_provisioning_descriptor"
 ms.prod: windows-hardware
 ms.technology: windows-devices

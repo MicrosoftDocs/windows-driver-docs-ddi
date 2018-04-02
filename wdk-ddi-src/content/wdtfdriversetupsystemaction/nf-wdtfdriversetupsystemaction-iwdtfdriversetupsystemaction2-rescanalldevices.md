@@ -7,7 +7,7 @@ old-location: dtf\iwdtfdriversetupsystemaction2_rescanalldevices.htm
 old-project: dtf
 ms.assetid: 8577428f-aefa-46f5-831e-98f6514177a1
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 3/29/2018
 ms.keywords: IWDTFDriverSetupSystemAction2, IWDTFDriverSetupSystemAction2 interface [Windows Device Testing Framework], RescanAllDevices method, IWDTFDriverSetupSystemAction2::RescanAllDevices, Microsoft.WDTF.IWDTFDriverSetupSystemAction2.RescanAllDevices, Microsoft::WDTF::IWDTFDriverSetupSystemAction2::RescanAllDevices, RescanAllDevices method [Windows Device Testing Framework], RescanAllDevices method [Windows Device Testing Framework], IWDTFDriverSetupSystemAction2 interface, RescanAllDevices,IWDTFDriverSetupSystemAction2.RescanAllDevices, dtf.iwdtfdriversetupsystemaction2_rescanalldevices, wdtfdriversetupsystemaction/IWDTFDriverSetupSystemAction2::RescanAllDevices
 ms.prod: windows-hardware
 ms.technology: windows-devices

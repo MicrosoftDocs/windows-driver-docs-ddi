@@ -7,7 +7,7 @@ old-location: ifsk\rxreference.htm
 old-project: ifsk
 ms.assetid: 436cd161-6984-4101-931a-221a829f40d0
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: RxReference, RxReference function [Installable File System Drivers], ifsk.rxreference, rxprocs/RxReference, rxref_3c87a6aa-d0c8-4308-8152-fce322dcb035.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

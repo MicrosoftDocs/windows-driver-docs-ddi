@@ -7,7 +7,7 @@ old-location: storage\ioctl_mountmgr_delete_points.htm
 old-project: storage
 ms.assetid: c11d801a-4870-42c4-9374-e0f849d57cde
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_MOUNTMGR_DELETE_POINTS, IOCTL_MOUNTMGR_DELETE_POINTS control code [Storage Devices], k307_c218ecf5-b934-4cad-934c-738cde9bff2b.xml, mountmgr/IOCTL_MOUNTMGR_DELETE_POINTS, storage.ioctl_mountmgr_delete_points
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: buses\udecxusbdeviceinitfree.htm
 old-project: usbref
 ms.assetid: BBFB8DAD-C187-4EB9-8EB0-BE28284437E1
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: UdecxUsbDeviceInitFree, UdecxUsbDeviceInitFree function [Buses], buses.udecxusbdeviceinitfree, udecxusbdevice/UdecxUsbDeviceInitFree
 ms.prod: windows-hardware
 ms.technology: windows-devices

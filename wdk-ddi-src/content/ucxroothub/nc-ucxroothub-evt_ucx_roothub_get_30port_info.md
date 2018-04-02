@@ -7,7 +7,7 @@ old-location: buses\evt_ucx_roothub_get_30port_info.htm
 old-project: usbref
 ms.assetid: 35eb22aa-3158-48ad-a20c-909604f9b4b1
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: EVT_UCX_ROOTHUB_GET_30PORT_INFO, EvtUcxRootHubGet30PortInfo, EvtUcxRootHubGet30PortInfo callback function [Buses], PEVT_UCX_ROOTHUB_GET_30PORT_INFO, PEVT_UCX_ROOTHUB_GET_30PORT_INFO callback function pointer [Buses], buses.evt_ucx_roothub_get_30port_info, ucxroothub/EvtUcxRootHubGet30PortInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

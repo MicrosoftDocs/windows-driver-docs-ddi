@@ -7,7 +7,7 @@ old-location: buses\ioctl_usbfn_internal_signal_remote_wakeup.htm
 old-project: usbref
 ms.assetid: 052D16D1-E7E9-4237-B9F5-1D52D28444F0
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_INTERNAL_USBFN_SIGNAL_REMOTE_WAKEUP, IOCTL_INTERNAL_USBFN_SIGNAL_REMOTE_WAKEUP control code [Buses], buses.ioctl_usbfn_internal_signal_remote_wakeup, usbfnioctl/IOCTL_INTERNAL_USBFN_SIGNAL_REMOTE_WAKEUP
 ms.prod: windows-hardware
 ms.technology: windows-devices

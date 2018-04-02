@@ -7,7 +7,7 @@ old-location: display\calcprivatevideoprocessoroutputviewsize.htm
 old-project: display
 ms.assetid: 2cf09e91-e83b-47ae-bf34-037dc01d7e80
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: CalcPrivateVideoProcessorOutputViewSize, CalcPrivateVideoProcessorOutputViewSize callback function [Display Devices], PFND3D11_1DDI_CALCPRIVATEVIDEOPROCESSOROUTPUTVIEWSIZE, d3d10umddi/CalcPrivateVideoProcessorOutputViewSize, display.calcprivatevideoprocessoroutputviewsize
 ms.prod: windows-hardware
 ms.technology: windows-devices

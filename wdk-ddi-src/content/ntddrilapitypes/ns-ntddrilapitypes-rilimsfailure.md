@@ -7,7 +7,7 @@ old-location: netvista\rilimsfailure.htm
 old-project: netvista
 ms.assetid: 8be10470-3761-4120-8987-00d6fcc9a989
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*LPRILIMSFAILURE, RILIMSFAILURE, RILIMSFAILURE structure [Network Drivers Starting with Windows Vista], netvista.rilimsfailure, ntddrilapitypes/RILIMSFAILURE"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: display\dxgk_segmentdescriptor3.htm
 old-project: display
 ms.assetid: c304fd47-a9c7-46bd-819f-6751eba25459
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGK_SEGMENTDESCRIPTOR3, DXGK_SEGMENTDESCRIPTOR3 structure [Display Devices], _DXGK_SEGMENTDESCRIPTOR3, d3dkmddi/DXGK_SEGMENTDESCRIPTOR3, display.dxgk_segmentdescriptor3
 ms.prod: windows-hardware
 ms.technology: windows-devices

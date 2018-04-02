@@ -7,7 +7,7 @@ old-location: storage\feature_data_real_time_streaming.htm
 old-project: storage
 ms.assetid: 3b1b54cc-52a5-48ce-a637-70e289c1944e
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PFEATURE_DATA_REAL_TIME_STREAMING, FEATURE_DATA_REAL_TIME_STREAMING, FEATURE_DATA_REAL_TIME_STREAMING structure [Storage Devices], PFEATURE_DATA_REAL_TIME_STREAMING, PFEATURE_DATA_REAL_TIME_STREAMING structure pointer [Storage Devices], _FEATURE_DATA_REAL_TIME_STREAMING, ntddmmc/FEATURE_DATA_REAL_TIME_STREAMING, ntddmmc/PFEATURE_DATA_REAL_TIME_STREAMING, storage.feature_data_real_time_streaming, structs-CD-ROM_2bd0a42c-a5b8-4a5b-958e-56e1a47a6499.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices

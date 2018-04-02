@@ -7,7 +7,7 @@ old-location: ifsk\cccopywrite.htm
 old-project: ifsk
 ms.assetid: 100fec4a-eebe-4a4d-b322-09afbe68ec5c
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: CcCopyWrite, CcCopyWrite routine [Installable File System Drivers], ccref_97ca67a6-e212-42bb-8998-be458c792f7b.xml, ifsk.cccopywrite, ntifs/CcCopyWrite
 ms.prod: windows-hardware
 ms.technology: windows-devices

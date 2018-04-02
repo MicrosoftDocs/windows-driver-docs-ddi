@@ -7,7 +7,7 @@ old-location: display\volblt1.htm
 old-project: display
 ms.assetid: 81B9AB74-9CD1-4181-BE13-32D519069FD4
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3DDDI_VOLBLT1, VolBlt1, VolBlt1 callback function [Display Devices], d3dumddi/VolBlt1, display.volblt1
 ms.prod: windows-hardware
 ms.technology: windows-devices

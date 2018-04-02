@@ -7,7 +7,7 @@ old-location: display\d3dddiarg_createpixelshader.htm
 old-project: display
 ms.assetid: dc7baff1-7e74-4666-805b-33b524c89c1d
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDIARG_CREATEPIXELSHADER, D3DDDIARG_CREATEPIXELSHADER structure [Display Devices], UMDisplayDriver_param_Structs_c1c78eaf-3eb9-4518-9b3c-f3fd5d6ce1f7.xml, _D3DDDIARG_CREATEPIXELSHADER, d3dumddi/D3DDDIARG_CREATEPIXELSHADER, display.d3dddiarg_createpixelshader
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: display\dxgkddiqueryinterface.htm
 old-project: display
 ms.assetid: d8255f36-be3a-4b19-ac8d-8748ac9b6a24
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKDDI_QUERY_INTERFACE, DmFunctions_1c8cdcd5-60e2-4d76-ba70-6af3f96f1740.xml, DxgkDdiQueryInterface, DxgkDdiQueryInterface callback function [Display Devices], display.dxgkddiqueryinterface, dispmprt/DxgkDdiQueryInterface
 ms.prod: windows-hardware
 ms.technology: windows-devices

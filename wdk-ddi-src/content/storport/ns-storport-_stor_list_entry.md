@@ -7,7 +7,7 @@ old-location: storage\stor_list_entry.htm
 old-project: storage
 ms.assetid: 41E713D9-9499-40EB-8B21-DDB73362BAE3
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PSTOR_LIST_ENTRY, PSTOR_LIST_ENTRY, PSTOR_LIST_ENTRY structure pointer [Storage Devices], STOR_LIST_ENTRY, STOR_LIST_ENTRY structure [Storage Devices], _STOR_LIST_ENTRY, storage.stor_list_entry, storport/PSTOR_LIST_ENTRY, storport/STOR_LIST_ENTRY"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: storage\scsiportsetbusdatabyoffset.htm
 old-project: storage
 ms.assetid: 64f46049-fbf0-4d9b-b5fe-9877a964755f
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: ScsiPortSetBusDataByOffset, ScsiPortSetBusDataByOffset routine [Storage Devices], scsiprt_83fdaa63-8e40-41e6-8f60-b9cc98c6eade.xml, srb/ScsiPortSetBusDataByOffset, storage.scsiportsetbusdatabyoffset
 ms.prod: windows-hardware
 ms.technology: windows-devices

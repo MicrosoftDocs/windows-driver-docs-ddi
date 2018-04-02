@@ -7,7 +7,7 @@ old-location: storage\cdrom_write_speed_request.htm
 old-project: storage
 ms.assetid: A7F8AFAE-AFFA-4022-8C04-2BF9177FE9EB
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PCDROM_WRITE_SPEED_REQUEST, CDROM_WRITE_SPEED_REQUEST, CDROM_WRITE_SPEED_REQUEST structure [Storage Devices], PCDROM_WRITE_SPEED_REQUEST, PCDROM_WRITE_SPEED_REQUEST structure pointer [Storage Devices], _CDROM_WRITE_SPEED_REQUEST, ntddcdrm/CDROM_WRITE_SPEED_REQUEST, ntddcdrm/PCDROM_WRITE_SPEED_REQUEST, storage.cdrom_write_speed_request"
 ms.prod: windows-hardware
 ms.technology: windows-devices

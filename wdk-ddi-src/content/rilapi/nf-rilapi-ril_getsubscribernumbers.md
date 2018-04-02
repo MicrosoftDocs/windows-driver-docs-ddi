@@ -7,7 +7,7 @@ old-location: netvista\ril_getsubscribernumbers.htm
 old-project: netvista
 ms.assetid: 31634cee-0d8e-4eed-b127-906da6a7b8fe
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: RIL_GetSubscriberNumbers, RIL_GetSubscriberNumbers method [Network Drivers Starting with Windows Vista], netvista.ril_getsubscribernumbers, rilapi/RIL_GetSubscriberNumbers
 ms.prod: windows-hardware
 ms.technology: windows-devices

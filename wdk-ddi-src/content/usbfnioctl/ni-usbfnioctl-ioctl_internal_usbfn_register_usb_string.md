@@ -7,7 +7,7 @@ old-location: buses\ioctl_internal_usbfn_register_usb_string.htm
 old-project: usbref
 ms.assetid: 80CB670A-4E64-4E53-815C-12580BE982B5
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_INTERNAL_USBFN_REGISTER_USB_STRING, IOCTL_INTERNAL_USBFN_REGISTER_USB_STRING control code [Buses], buses.ioctl_internal_usbfn_register_usb_string, usbfnioctl/IOCTL_INTERNAL_USBFN_REGISTER_USB_STRING
 ms.prod: windows-hardware
 ms.technology: windows-devices

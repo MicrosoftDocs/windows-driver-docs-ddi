@@ -7,7 +7,7 @@ old-location: display\defaultconstantbufferupdatesubresourceup.htm
 old-project: display
 ms.assetid: 80086f1a-75f8-464f-973e-9c1e67725933
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DefaultConstantBufferUpdateSubresourceUP, DefaultConstantBufferUpdateSubresourceUP callback function [Display Devices], PFND3D10DDI_RESOURCEUPDATESUBRESOURCEUP, UserModeDisplayDriverDx10_Functions_1868c778-0475-4113-8b24-caf7f9822775.xml, d3d10umddi/DefaultConstantBufferUpdateSubresourceUP, display.defaultconstantbufferupdatesubresourceup
 ms.prod: windows-hardware
 ms.technology: windows-devices

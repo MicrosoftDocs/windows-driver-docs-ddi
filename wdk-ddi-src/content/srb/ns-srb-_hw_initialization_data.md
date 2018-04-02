@@ -7,7 +7,7 @@ old-location: storage\hw_initialization_data__scsi_.htm
 old-project: storage
 ms.assetid: 58c80d37-a40d-4839-b516-a78720860cbc
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PHW_INITIALIZATION_DATA, HW_INITIALIZATION_DATA, HW_INITIALIZATION_DATA structure [Storage Devices], PHW_INITIALIZATION_DATA, PHW_INITIALIZATION_DATA structure pointer [Storage Devices], _HW_INITIALIZATION_DATA, _HW_INITIALIZATION_DATA structure [Storage Devices], srb/HW_INITIALIZATION_DATA, srb/PHW_INITIALIZATION_DATA, storage.hw_initialization_data__scsi_, structs-scsiport_4d9f09a8-742b-4c72-8fc5-dd968bd990d6.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices

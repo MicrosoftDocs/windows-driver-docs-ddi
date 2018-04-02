@@ -7,7 +7,7 @@ old-location: display\d3dddi_makeresident_flags.htm
 old-project: display
 ms.assetid: 1EC4F8EE-1284-4752-8941-F1C31415BF29
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDI_MAKERESIDENT_FLAGS, D3DDDI_MAKERESIDENT_FLAGS structure [Display Devices], d3dukmdt/D3DDDI_MAKERESIDENT_FLAGS, display.d3dddi_makeresident_flags
 ms.prod: windows-hardware
 ms.technology: windows-devices

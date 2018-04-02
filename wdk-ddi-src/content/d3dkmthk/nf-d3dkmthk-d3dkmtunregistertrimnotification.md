@@ -7,7 +7,7 @@ old-location: display\d3dkmtunregistertrimnotification.htm
 old-project: display
 ms.assetid: C90A5200-F6AF-4B7B-BB66-D76D4C3AA8EE
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMTUnregisterTrimNotification, D3DKMTUnregisterTrimNotification function [Display Devices], d3dkmthk/D3DKMTUnregisterTrimNotification, display.d3dkmtunregistertrimnotification
 ms.prod: windows-hardware
 ms.technology: windows-devices

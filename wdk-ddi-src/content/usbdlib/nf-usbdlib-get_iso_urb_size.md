@@ -7,7 +7,7 @@ old-location: buses\get_iso_urb_size.htm
 old-project: usbref
 ms.assetid: 37e96d41-3a8c-429a-a8fd-463f9be5555f
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: GET_ISO_URB_SIZE, GET_ISO_URB_SIZE macro [Buses], buses.get_iso_urb_size, usbdlib/GET_ISO_URB_SIZE, usbfunc_949a4f14-4bc8-4ba1-821c-f81c6bcec0fa.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

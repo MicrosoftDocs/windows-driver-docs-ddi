@@ -7,7 +7,7 @@ old-location: storage\scsiportreadregisterulong.htm
 old-project: storage
 ms.assetid: e644fce4-2367-4851-8252-47a25faf0b6d
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: ScsiPortReadRegisterUlong, ScsiPortReadRegisterUlong routine [Storage Devices], scsiprt_fe99fb31-bbec-4213-bfe5-88efbe2e71e9.xml, srb/ScsiPortReadRegisterUlong, storage.scsiportreadregisterulong
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: ifsk\fltcreatefile.htm
 old-project: ifsk
 ms.assetid: fd7e1f27-e492-4402-ae9e-4ce52c3420d0
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FltApiRef_a_to_d_2059a625-6d9e-4083-9c2e-d92e76c7539a.xml, FltCreateFile, FltCreateFile function [Installable File System Drivers], fltkernel/FltCreateFile, ifsk.fltcreatefile
 ms.prod: windows-hardware
 ms.technology: windows-devices

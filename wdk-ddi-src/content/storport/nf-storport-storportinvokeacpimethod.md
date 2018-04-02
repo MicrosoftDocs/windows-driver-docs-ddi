@@ -7,7 +7,7 @@ old-location: storage\storportinvokeacpimethod.htm
 old-project: storage
 ms.assetid: 2A8EF694-B699-46A0-9B1D-B7D0831F3944
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: StorPortInvokeAcpiMethod, StorPortInvokeAcpiMethod routine [Storage Devices], storage.storportinvokeacpimethod, storport/StorPortInvokeAcpiMethod
 ms.prod: windows-hardware
 ms.technology: windows-devices

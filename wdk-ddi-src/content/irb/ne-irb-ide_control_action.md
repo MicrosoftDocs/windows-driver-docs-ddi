@@ -7,7 +7,7 @@ old-location: storage\ide_control_action.htm
 old-project: storage
 ms.assetid: a63d1a2f-d560-492f-9b73-198e42cb4300
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: IDE_CONTROL_ACTION, IDE_CONTROL_ACTION enumeration [Storage Devices], IdePowerDown, IdePowerUp, IdeStart, IdeStop, IdeVendorDefined, irb/IDE_CONTROL_ACTION, irb/IdePowerDown, irb/IdePowerUp, irb/IdeStart, irb/IdeStop, irb/IdeVendorDefined, storage.ide_control_action, structs-ATA_f5df2197-3199-4b3f-ba0a-7a92cd75e3ac.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

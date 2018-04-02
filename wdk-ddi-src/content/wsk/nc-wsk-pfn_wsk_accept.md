@@ -7,7 +7,7 @@ old-location: netvista\wskaccept.htm
 old-project: netvista
 ms.assetid: 9fa8bb07-7ee5-400b-aaca-33db3911d79f
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: PFN_WSK_ACCEPT, WskAccept, WskAccept callback function [Network Drivers Starting with Windows Vista], netvista.wskaccept, wsk/WskAccept, wskref_22de82fc-18c4-4fed-b0fe-7e048ba7cfeb.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -303,8 +303,3 @@ The WSK subsystem allocates the memory for the socket object structure (
 
  
 
-<<<<<<< HEAD
-=======
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20PFN_WSK_ACCEPT callback function%20 RELEASE:%20(2/27/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
-
->>>>>>> parent of 2d896a8e266... Added changes

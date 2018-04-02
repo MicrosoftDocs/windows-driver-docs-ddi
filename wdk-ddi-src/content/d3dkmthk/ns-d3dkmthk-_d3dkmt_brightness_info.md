@@ -7,7 +7,7 @@ old-location: display\d3dkmt_brightness_info.htm
 old-project: display
 ms.assetid: a620b0b2-85ce-4373-a50c-299d8ce7a91c
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMT_BRIGHTNESS_INFO, D3DKMT_BRIGHTNESS_INFO structure [Display Devices], _D3DKMT_BRIGHTNESS_INFO, d3dkmthk/D3DKMT_BRIGHTNESS_INFO, display.d3dkmt_brightness_info
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: display\videoprocessorgetbehaviorhints.htm
 old-project: display
 ms.assetid: E6CBAFEE-9587-45D5-A6CD-4CA739AF279E
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3DWDDM2_0DDI_VIDEOPROCESSORGETBEHAVIORHINTS, d3d10umddi/pfnVideoProcessorGetBehaviorHints, display.videoprocessorgetbehaviorhints, pfnVideoProcessorGetBehaviorHints, pfnVideoProcessorGetBehaviorHints callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: display\createvertexshader_d3d10_.htm
 old-project: display
 ms.assetid: d6e4c3f9-1ee6-4484-913d-9a3dca64e627
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: CreateVertexShader, CreateVertexShader callback function [Display Devices], PFND3D10DDI_CREATEVERTEXSHADER, UserModeDisplayDriverDx10_Functions_bb19d867-d11f-43bb-8380-2a44f231900a.xml, d3d10umddi/CreateVertexShader, display.createvertexshader_d3d10_
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: storage\storage_temperature_info.htm
 old-project: storage
 ms.assetid: 1B7C68BF-78AE-4427-B5DC-E388CB5FAC0C
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PSTORAGE_TEMPERATURE_INFO, PSTORAGE_TEMPERATURE_INFO, PSTORAGE_TEMPERATURE_INFO structure pointer [Storage Devices], STORAGE_TEMPERATURE_INFO, STORAGE_TEMPERATURE_INFO structure [Storage Devices], _STORAGE_TEMPERATURE_INFO, ntddstor/PSTORAGE_TEMPERATURE_INFO, ntddstor/STORAGE_TEMPERATURE_INFO, storage.storage_temperature_info"
 ms.prod: windows-hardware
 ms.technology: windows-devices

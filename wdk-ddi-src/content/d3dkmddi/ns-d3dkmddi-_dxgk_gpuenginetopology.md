@@ -7,7 +7,7 @@ old-location: display\dxgk_gpuenginetopology.htm
 old-project: display
 ms.assetid: 8ed224eb-c1f6-4793-ae32-36f96d3af9ab
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGK_GPUENGINETOPOLOGY, DXGK_GPUENGINETOPOLOGY structure [Display Devices], DmStructs_21e5ab51-877b-4b52-9762-cbaf3e82d2f0.xml, _DXGK_GPUENGINETOPOLOGY, d3dkmddi/DXGK_GPUENGINETOPOLOGY, display.dxgk_gpuenginetopology
 ms.prod: windows-hardware
 ms.technology: windows-devices

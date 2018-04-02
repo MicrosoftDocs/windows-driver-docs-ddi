@@ -7,7 +7,7 @@ old-location: storage\storportreadregisterbufferuchar.htm
 old-project: storage
 ms.assetid: f633a967-46b5-4532-b372-b9739f2146a2
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: StorPortReadRegisterBufferUchar, StorPortReadRegisterBufferUchar routine [Storage Devices], storage.storportreadregisterbufferuchar, storport/StorPortReadRegisterBufferUchar, storprt_361bfb77-1197-40cb-81ec-fc198e6454e9.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

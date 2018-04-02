@@ -7,7 +7,7 @@ old-location: storage\storportinterlockedflushslist.htm
 old-project: storage
 ms.assetid: C686ABA7-BC44-45CE-A35B-63E76961A032
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: StorPortInterlockedFlushSList, StorPortInterlockedFlushSList routine [Storage Devices], storage.storportinterlockedflushslist, storport/StorPortInterlockedFlushSList
 ms.prod: windows-hardware
 ms.technology: windows-devices

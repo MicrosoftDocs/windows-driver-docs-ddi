@@ -7,7 +7,7 @@ old-location: display\d3dddicb_submitcommand.htm
 old-project: display
 ms.assetid: 53D4890A-D075-4DF7-97E6-A8E8A174866B
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDICB_SUBMITCOMMAND, D3DDDICB_SUBMITCOMMAND structure [Display Devices], _D3DDDICB_SUBMITCOMMAND, d3dumddi/D3DDDICB_SUBMITCOMMAND, display.d3dddicb_submitcommand
 ms.prod: windows-hardware
 ms.technology: windows-devices

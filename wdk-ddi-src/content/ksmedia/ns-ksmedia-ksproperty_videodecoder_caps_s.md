@@ -87,7 +87,6 @@ Specifies the number of horizontal sync pulses the video decoder produces during
 
 
 
-<<<<<<< HEAD
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
 
 
@@ -97,13 +96,6 @@ Specifies the number of horizontal sync pulses the video decoder produces during
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567297">KS_AnalogVideoStandard</a>
-=======
-<a href="..\ksmedia\ne-ksmedia-ks_analogvideostandard.md">KS_AnalogVideoStandard</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568121">PROPSETID_VIDCAP_VIDEODECODER</a>
->>>>>>> parent of 2d896a8e266... Added changes
 
 
 

@@ -7,7 +7,7 @@ old-location: display\dxgk_vidpnsourcemodeset_interface_pfncreatenewmodeinfo.htm
 old-project: display
 ms.assetid: b18aab68-7457-45eb-8641-0b6180cfa70e
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKDDI_VIDPNSOURCEMODESET_CREATENEWMODEINFO, VidPnFunctions_f3f37645-c80f-4bde-81b4-3e4fef145e38.xml, d3dkmddi/pfnCreateNewModeInfo, display.dxgk_vidpnsourcemodeset_interface_pfncreatenewmodeinfo, pfnCreateNewModeInfo, pfnCreateNewModeInfo callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices

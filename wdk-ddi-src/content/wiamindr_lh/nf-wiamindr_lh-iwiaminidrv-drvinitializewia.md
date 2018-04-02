@@ -131,15 +131,9 @@ Points to an <a href="https://msdn.microsoft.com/b026fb74-9ce6-4d4e-8a5b-4027319
 
 
 #### - pWiasContext [in]
-<<<<<<< HEAD
 
 Pointer to a WIA item context.
 
-=======
-
-Pointer to a WIA item context.
-
->>>>>>> parent of 2d896a8e266... Added changes
 
 #### - plDevErrVal [out]
 

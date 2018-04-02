@@ -7,7 +7,7 @@ old-location: storage\ioctl_disk_reassign_blocks.htm
 old-project: storage
 ms.assetid: d79f8e47-87c5-4203-b9d7-722d9be4e848
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_DISK_REASSIGN_BLOCKS, IOCTL_DISK_REASSIGN_BLOCKS control code [Storage Devices], k307_56b4bc99-0b59-48d5-a87d-277ee06a0830.xml, ntdddisk/IOCTL_DISK_REASSIGN_BLOCKS, storage.ioctl_disk_reassign_blocks
 ms.prod: windows-hardware
 ms.technology: windows-devices

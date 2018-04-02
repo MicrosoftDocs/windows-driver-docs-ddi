@@ -7,7 +7,7 @@ old-location: display\createunorderedaccessview.htm
 old-project: display
 ms.assetid: c5a258e7-6645-46bb-ab2c-a1c8f5e593b7
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: CreateUnorderedAccessView, CreateUnorderedAccessView callback function [Display Devices], PFND3D11DDI_CREATEUNORDEREDACCESSVIEW, UserModeDisplayDriverDx11_Functions_4b9c2d38-c780-47be-a5fa-dec2c860732b.xml, d3d10umddi/CreateUnorderedAccessView, display.createunorderedaccessview
 ms.prod: windows-hardware
 ms.technology: windows-devices

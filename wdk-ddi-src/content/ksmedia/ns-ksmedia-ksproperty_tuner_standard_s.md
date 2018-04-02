@@ -69,19 +69,10 @@ Describes an analog video standard. This member may be set to one or more (logic
 
 ## -see-also
 
-<<<<<<< HEAD
-=======
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565907">KSPROPERTY_TUNER_STANDARD</a>
-
-
-
-<a href="..\ksmedia\ne-ksmedia-ks_analogvideostandard.md">KS_AnalogVideoStandard</a>
->>>>>>> parent of 2d896a8e266... Added changes
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
-<<<<<<< HEAD
 
 
 
@@ -90,8 +81,6 @@ Describes an analog video standard. This member may be set to one or more (logic
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567297">KS_AnalogVideoStandard</a>
-=======
->>>>>>> parent of 2d896a8e266... Added changes
 
 
 

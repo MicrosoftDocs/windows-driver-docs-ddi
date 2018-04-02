@@ -7,7 +7,7 @@ old-location: storage\disk_int13_info.htm
 old-project: storage
 ms.assetid: 8a9c335a-1c5f-4379-83bb-21391ae46a3c
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PDISK_INT13_INFO, DISK_INT13_INFO, DISK_INT13_INFO structure [Storage Devices], PDISK_INT13_INFO, PDISK_INT13_INFO structure pointer [Storage Devices], _DISK_INT13_INFO, ntdddisk/DISK_INT13_INFO, ntdddisk/PDISK_INT13_INFO, storage.disk_int13_info, structs-disk_fc6ee399-d876-44e3-955a-3ab95c1b5134.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices

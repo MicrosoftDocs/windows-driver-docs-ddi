@@ -7,7 +7,7 @@ old-location: dtf\itracer_getbits_method.htm
 old-project: dtf
 ms.assetid: d5c4f28a-63c0-4b9e-9994-de4589ea96c9
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 3/29/2018
 ms.keywords: GetBits method [Windows Device Testing Framework], GetBits method [Windows Device Testing Framework], ITracer interface, GetBits,ITracer.GetBits, ITracer, ITracer interface [Windows Device Testing Framework], GetBits method, ITracer::GetBits, ITracer_80af4d1b-1fed-4775-83c6-4b7bee53b4a0.xml, dtf.itracer_getbits_method, wdtf/ITracer::GetBits
 ms.prod: windows-hardware
 ms.technology: windows-devices

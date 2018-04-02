@@ -7,7 +7,7 @@ old-location: storage\storage_access_alignment_descriptor.htm
 old-project: storage
 ms.assetid: 988122bf-d7de-44a3-a059-c984bf636cd0
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PSTORAGE_ACCESS_ALIGNMENT_DESCRIPTOR, PSTORAGE_ACCESS_ALIGNMENT_DESCRIPTOR structure pointer [Storage Devices], STORAGE_ACCESS_ALIGNMENT_DESCRIPTOR, STORAGE_ACCESS_ALIGNMENT_DESCRIPTOR structure [Storage Devices], _STORAGE_ACCESS_ALIGNMENT_DESCRIPTOR, ntddstor/PSTORAGE_ACCESS_ALIGNMENT_DESCRIPTOR, ntddstor/STORAGE_ACCESS_ALIGNMENT_DESCRIPTOR, storage.storage_access_alignment_descriptor, structs-general_191220fa-6df5-478b-b60e-af8e3f62d441.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

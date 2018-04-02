@@ -7,7 +7,7 @@ old-location: ifsk\fltgetcontexts.htm
 old-project: ifsk
 ms.assetid: 886a0898-814b-4a24-bc83-c6e82e71dae2
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FltApiRef_e_to_o_80c262c0-2587-4ca5-b397-674c0ba5f316.xml, FltGetContexts, FltGetContexts routine [Installable File System Drivers], fltkernel/FltGetContexts, ifsk.fltgetcontexts
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: ifsk\fltreusecallbackdata.htm
 old-project: ifsk
 ms.assetid: c8671ba7-6128-4f0f-b5b1-32ce35e31168
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FltApiRef_p_to_z_a412f56d-8cee-40de-93fb-1c007fe87c3c.xml, FltReuseCallbackData, FltReuseCallbackData routine [Installable File System Drivers], fltkernel/FltReuseCallbackData, ifsk.fltreusecallbackdata
 ms.prod: windows-hardware
 ms.technology: windows-devices

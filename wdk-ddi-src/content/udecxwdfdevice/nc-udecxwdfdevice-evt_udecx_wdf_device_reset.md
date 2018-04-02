@@ -7,7 +7,7 @@ old-location: buses\evt_udecx_wdf_device_reset.htm
 old-project: usbref
 ms.assetid: 394343A5-10E4-4F64-AD3C-1D2114422B39
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: EVT_UDECX_WDF_DEVICE_RESET, EvtUdecxWdfDeviceReset, EvtUdecxWdfDeviceReset callback function [Buses], buses.evt_udecx_wdf_device_reset, udecxwdfdevice/EvtUdecxWdfDeviceReset
 ms.prod: windows-hardware
 ms.technology: windows-devices

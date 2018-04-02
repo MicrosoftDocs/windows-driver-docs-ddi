@@ -7,7 +7,7 @@ old-location: display\dxgkargcb_getcaptureaddress.htm
 old-project: display
 ms.assetid: 95f1bbf4-06d8-48b7-a983-bf0b65ec2da3
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*INOUT_PDXGKARGCB_GETCAPTUREADDRESS, DXGKARGCB_GETCAPTUREADDRESS, DXGKARGCB_GETCAPTUREADDRESS structure [Display Devices], DmStructs_24ed27a0-7ad3-44d1-aa93-c22733ebfb34.xml, _DXGKARGCB_GETCAPTUREADDRESS, d3dkmddi/DXGKARGCB_GETCAPTUREADDRESS, display.dxgkargcb_getcaptureaddress"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: display\destroyshaderresourceview.htm
 old-project: display
 ms.assetid: dcdfe76e-a392-4a76-91fe-03648fec1278
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DestroyShaderResourceView, DestroyShaderResourceView callback function [Display Devices], PFND3D10DDI_DESTROYSHADERRESOURCEVIEW, UserModeDisplayDriverDx10_Functions_3ca479b5-d0f1-484f-9411-1b03c3308e11.xml, d3d10umddi/DestroyShaderResourceView, display.destroyshaderresourceview
 ms.prod: windows-hardware
 ms.technology: windows-devices

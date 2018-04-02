@@ -7,7 +7,7 @@ old-location: display\d3dddicb_submitwaitforsyncobjectstohwqueue.htm
 old-project: display
 ms.assetid: 9890EB61-2CED-41AB-9A87-76D5020D84A0
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDICB_SUBMITWAITFORSYNCOBJECTSTOHWQUEUE, D3DDDICB_SUBMITWAITFORSYNCOBJECTSTOHWQUEUE structure [Display Devices], _D3DDDICB_SUBMITWAITFORSYNCOBJECTSTOHWQUEUE, d3dumddi/D3DDDICB_SUBMITWAITFORSYNCOBJECTSTOHWQUEUE, display.d3dddicb_submitwaitforsyncobjectstohwqueue
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: storage\ataportreadregisterulong.htm
 old-project: storage
 ms.assetid: c824bbbe-0f51-48b4-b7df-aa8a84f1f982
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: AtaPortReadRegisterUlong, AtaPortReadRegisterUlong routine [Storage Devices], atartns_a5e1a904-214d-45fc-9ade-fc5ad7d56694.xml, irb/AtaPortReadRegisterUlong, storage.ataportreadregisterulong
 ms.prod: windows-hardware
 ms.technology: windows-devices

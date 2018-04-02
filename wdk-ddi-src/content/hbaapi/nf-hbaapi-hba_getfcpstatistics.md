@@ -7,7 +7,7 @@ old-location: storage\hba_getfcpstatistics.htm
 old-project: storage
 ms.assetid: 62ef9d02-3a59-4d4e-a48f-21a8bb4f6e58
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: HBA_GetFCPStatistics, HBA_GetFCPStatistics routine [Storage Devices], fibreHBA_rtns_59fb5caf-3df0-4c87-902c-6832645895d1.xml, hbaapi/HBA_GetFCPStatistics, storage.hba_getfcpstatistics
 ms.prod: windows-hardware
 ms.technology: windows-devices

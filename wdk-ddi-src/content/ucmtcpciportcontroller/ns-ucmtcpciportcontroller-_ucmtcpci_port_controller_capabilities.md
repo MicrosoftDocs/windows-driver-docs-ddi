@@ -7,7 +7,7 @@ old-location: buses\ucmtcpci_port_controller_capabilities.htm
 old-project: usbref
 ms.assetid: 829bb05b-5e2d-4aba-ab34-127812235f46
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PUCMTCPCI_PORT_CONTROLLER_CAPABILITIES, PUCMTCPCI_PORT_CONTROLLER_CAPABILITIES, PUCMTCPCI_PORT_CONTROLLER_CAPABILITIES structure pointer [Buses], UCMTCPCI_PORT_CONTROLLER_CAPABILITIES, UCMTCPCI_PORT_CONTROLLER_CAPABILITIES structure [Buses], _UCMTCPCI_PORT_CONTROLLER_CAPABILITIES, buses.ucmtcpci_port_controller_capabilities, ucmtcpciportcontroller/PUCMTCPCI_PORT_CONTROLLER_CAPABILITIES, ucmtcpciportcontroller/UCMTCPCI_PORT_CONTROLLER_CAPABILITIES"
 ms.prod: windows-hardware
 ms.technology: windows-devices

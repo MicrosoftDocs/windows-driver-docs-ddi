@@ -7,7 +7,7 @@ old-location: storage\storportpofxidlecomponent.htm
 old-project: storage
 ms.assetid: DF329B68-3995-4B38-8208-4C779B0626A6
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: StorPortPoFxIdleComponent, StorPortPoFxIdleComponent routine [Storage Devices], storage.storportpofxidlecomponent, storport/StorPortPoFxIdleComponent
 ms.prod: windows-hardware
 ms.technology: windows-devices

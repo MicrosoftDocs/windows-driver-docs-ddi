@@ -7,7 +7,7 @@ old-location: display\d3dddicb_offerallocations.htm
 old-project: display
 ms.assetid: 26f3cd7b-ae2e-4632-bfb2-e62839346f83
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDICB_OFFERALLOCATIONS, D3DDDICB_OFFERALLOCATIONS structure [Display Devices], _D3DDDICB_OFFERALLOCATIONS, d3dumddi/D3DDDICB_OFFERALLOCATIONS, display.d3dddicb_offerallocations
 ms.prod: windows-hardware
 ms.technology: windows-devices

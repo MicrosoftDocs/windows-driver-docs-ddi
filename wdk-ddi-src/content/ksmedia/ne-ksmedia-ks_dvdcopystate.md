@@ -84,10 +84,6 @@ Indicates that the copyright protection sequence is complete.
 
 ## -see-also
 
-<<<<<<< HEAD
-=======
-<a href="..\ksmedia\ns-ksmedia-_ks_dvdcopy_set_copy_state.md">KS_DVDCOPY_SET_COPY_STATE</a>
->>>>>>> parent of 2d896a8e266... Added changes
 
 
 

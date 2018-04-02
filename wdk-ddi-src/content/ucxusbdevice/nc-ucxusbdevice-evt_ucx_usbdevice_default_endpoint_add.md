@@ -7,7 +7,7 @@ old-location: buses\evt_ucx_usbdevice_default_endpoint_add.htm
 old-project: usbref
 ms.assetid: b9c38199-810a-462b-a805-9751de2a419e
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: EVT_UCX_USBDEVICE_DEFAULT_ENDPOINT_ADD, EvtUcxUsbDeviceDefaultEndpointAdd, EvtUcxUsbDeviceDefaultEndpointAdd callback function [Buses], PEVT_UCX_USBDEVICE_DEFAULT_ENDPOINT_ADD, PEVT_UCX_USBDEVICE_DEFAULT_ENDPOINT_ADD callback function pointer [Buses], buses.evt_ucx_usbdevice_default_endpoint_add, ucxusbdevice/EvtUcxUsbDeviceDefaultEndpointAdd
 ms.prod: windows-hardware
 ms.technology: windows-devices

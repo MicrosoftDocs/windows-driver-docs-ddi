@@ -7,7 +7,7 @@ old-location: dtf\itracer.htm
 old-project: dtf
 ms.assetid: 3873ed15-cb68-4442-8b4d-e4b370d29728
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 3/29/2018
 ms.keywords: ITracer, ITracer interface [Windows Device Testing Framework], ITracer interface [Windows Device Testing Framework], described, ITracer_dcaa8d23-ed67-4084-b214-0e2506076e77.xml, dtf.itracer, wdtf/ITracer
 ms.prod: windows-hardware
 ms.technology: windows-devices

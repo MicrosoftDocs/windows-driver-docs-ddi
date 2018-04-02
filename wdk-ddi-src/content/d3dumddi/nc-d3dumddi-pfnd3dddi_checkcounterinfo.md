@@ -7,7 +7,7 @@ old-location: display\pfncheckcounterinfo.htm
 old-project: display
 ms.assetid: 98B8EE79-18D2-4C57-964B-74DB550C1330
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3DDDI_CHECKCOUNTERINFO, d3dumddi/pfnCheckCounterInfo, display.pfncheckcounterinfo, pfnCheckCounterInfo, pfnCheckCounterInfo callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices

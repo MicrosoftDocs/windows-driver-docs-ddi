@@ -7,7 +7,7 @@ old-location: ifsk\file_internal_information.htm
 old-project: ifsk
 ms.assetid: b82bc943-d9f0-451f-a8ac-f89936e866eb
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: "*PFILE_INTERNAL_INFORMATION, FILE_INTERNAL_INFORMATION, FILE_INTERNAL_INFORMATION structure [Installable File System Drivers], PFILE_INTERNAL_INFORMATION, PFILE_INTERNAL_INFORMATION structure pointer [Installable File System Drivers], _FILE_INTERNAL_INFORMATION, fileinformationstructures_7be724e0-06ec-4555-bcce-14926b7d92df.xml, ifsk.file_internal_information, ntifs/FILE_INTERNAL_INFORMATION, ntifs/PFILE_INTERNAL_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices

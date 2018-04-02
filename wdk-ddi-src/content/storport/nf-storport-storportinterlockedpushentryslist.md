@@ -7,7 +7,7 @@ old-location: storage\storportinterlockedpushentryslist.htm
 old-project: storage
 ms.assetid: 74C32E55-79C6-449A-AFA3-27858CF4EA6B
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: StorPortInterlockedPushEntrySList, StorPortInterlockedPushEntrySList routine [Storage Devices], storage.storportinterlockedpushentryslist, storport/StorPortInterlockedPushEntrySList
 ms.prod: windows-hardware
 ms.technology: windows-devices

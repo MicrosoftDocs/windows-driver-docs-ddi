@@ -52,24 +52,6 @@ req.typenames: WHEA_XPF_MC_BANK_DESCRIPTOR, *PWHEA_XPF_MC_BANK_DESCRIPTOR
 The WHEA_XPF_MC_BANK_DESCRIPTOR structure describes a bank of machine check registers for an x86 or x64 processor.
 
 
-## -syntax
-
-
-````
-typedef struct _WHEA_XPF_MC_BANK_DESCRIPTOR {
-  UCHAR             BankNumber;
-  BOOLEAN           ClearOnInitialization;
-  UCHAR             StatusDataFormat;
-  XPF_MC_BANK_FLAGS Flags;
-  ULONG             ControlMsr;
-  ULONG             StatusMsr;
-  ULONG             AddressMsr;
-  ULONG             MiscMsr;
-  ULONGLONG         ControlData;
-} WHEA_XPF_MC_BANK_DESCRIPTOR, *PWHEA_XPF_MC_BANK_DESCRIPTOR;
-````
-
-
 ## -struct-fields
 
 
@@ -187,24 +169,22 @@ The value that the operating system writes to the register bank's control regist
 
 
 
-An array of WHEA_XPF_MC_BANK_DESCRIPTOR structures is contained in the <a href="..\ntddk\ns-ntddk-_whea_xpf_cmc_descriptor.md">WHEA_XPF_CMC_DESCRIPTOR</a> and <a href="..\ntddk\ns-ntddk-_whea_xpf_mce_descriptor.md">WHEA_XPF_MCE_DESCRIPTOR</a> structures.
+An array of WHEA_XPF_MC_BANK_DESCRIPTOR structures is contained in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560646">WHEA_XPF_CMC_DESCRIPTOR</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff560649">WHEA_XPF_MCE_DESCRIPTOR</a> structures.
 
 
 
 
 ## -see-also
 
-<a href="..\ntddk\ns-ntddk-_whea_xpf_mce_descriptor.md">WHEA_XPF_MCE_DESCRIPTOR</a>
 
 
 
-<a href="..\ntddk\ns-ntddk-_whea_xpf_cmc_descriptor.md">WHEA_XPF_CMC_DESCRIPTOR</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560646">WHEA_XPF_CMC_DESCRIPTOR</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560649">WHEA_XPF_MCE_DESCRIPTOR</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [whea\whea]:%20WHEA_XPF_MC_BANK_DESCRIPTOR structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

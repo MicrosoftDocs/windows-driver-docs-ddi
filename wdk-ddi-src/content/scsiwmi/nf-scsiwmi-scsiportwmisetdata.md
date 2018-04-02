@@ -7,7 +7,7 @@ old-location: storage\scsiportwmisetdata.htm
 old-project: storage
 ms.assetid: eb4578c9-48e5-4113-ba58-a3d71052f782
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: ScsiPortWmiSetData, ScsiPortWmiSetData routine [Storage Devices], scsiprt_d35b9d5f-3bb4-4739-ab53-55a229eddb51.xml, scsiwmi/ScsiPortWmiSetData, storage.scsiportwmisetdata
 ms.prod: windows-hardware
 ms.technology: windows-devices

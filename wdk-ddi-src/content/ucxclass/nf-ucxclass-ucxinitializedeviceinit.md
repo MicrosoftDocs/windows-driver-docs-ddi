@@ -7,7 +7,7 @@ old-location: buses\_ucxinitializedeviceinit.htm
 old-project: usbref
 ms.assetid: A92A3E2E-1C73-40BD-808A-CBC14404F3E9
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: UcxInitializeDeviceInit, UcxInitializeDeviceInit method [Buses], buses._ucxinitializedeviceinit, ucxclass/UcxInitializeDeviceInit
 ms.prod: windows-hardware
 ms.technology: windows-devices

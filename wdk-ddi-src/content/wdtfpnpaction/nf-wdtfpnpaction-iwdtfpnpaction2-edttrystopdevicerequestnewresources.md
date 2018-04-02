@@ -7,7 +7,7 @@ old-location: dtf\iwdtfpnpaction2_edttrystopdevicerequestnewresources.htm
 old-project: dtf
 ms.assetid: 19d3a72c-f7a5-483c-9fd1-5853c0a3e906
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 3/29/2018
 ms.keywords: EDTTryStopDeviceRequestNewResources method [Windows Device Testing Framework], EDTTryStopDeviceRequestNewResources method [Windows Device Testing Framework], IWDTFPNPAction2 interface, EDTTryStopDeviceRequestNewResources,IWDTFPNPAction2.EDTTryStopDeviceRequestNewResources, IWDTFPNPAction2, IWDTFPNPAction2 interface [Windows Device Testing Framework], EDTTryStopDeviceRequestNewResources method, IWDTFPNPAction2::EDTTryStopDeviceRequestNewResources, Microsoft.WDTF.IWDTFPNPAction2.EDTTryStopDeviceRequestNewResources, Microsoft::WDTF::IWDTFPNPAction2::EDTTryStopDeviceRequestNewResources, dtf.iwdtfpnpaction2_edttrystopdevicerequestnewresources, wdtfpnpaction/IWDTFPNPAction2::EDTTryStopDeviceRequestNewResources
 ms.prod: windows-hardware
 ms.technology: windows-devices

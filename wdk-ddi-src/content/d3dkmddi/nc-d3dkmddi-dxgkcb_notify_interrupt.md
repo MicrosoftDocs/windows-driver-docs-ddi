@@ -7,7 +7,7 @@ old-location: display\dxgkcbnotifyinterrupt.htm
 old-project: display
 ms.assetid: 7968d26d-0195-463d-8954-e7ebef4f9dea
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKCB_NOTIFY_INTERRUPT, DpFunctions_fdb60c96-9eec-4e57-a4bd-1b97ad99769b.xml, DxgkCbNotifyInterrupt, DxgkCbNotifyInterrupt callback function [Display Devices], d3dkmddi/DxgkCbNotifyInterrupt, display.dxgkcbnotifyinterrupt
 ms.prod: windows-hardware
 ms.technology: windows-devices

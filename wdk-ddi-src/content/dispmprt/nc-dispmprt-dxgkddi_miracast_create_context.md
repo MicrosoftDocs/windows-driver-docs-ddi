@@ -7,7 +7,7 @@ old-location: display\dxgkddimiracastcreatecontext.htm
 old-project: display
 ms.assetid: BFF952CE-AA0F-4622-BBFC-946A45859FB7
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKDDI_MIRACAST_CREATE_CONTEXT, DxgkDdiMiracastCreateContext, DxgkDdiMiracastCreateContext callback function [Display Devices], display.dxgkddimiracastcreatecontext, dispmprt/DxgkDdiMiracastCreateContext
 ms.prod: windows-hardware
 ms.technology: windows-devices

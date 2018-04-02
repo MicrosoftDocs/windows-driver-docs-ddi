@@ -7,7 +7,7 @@ old-location: buses\usb_cycle_port_params.htm
 old-project: usbref
 ms.assetid: 357C62F3-43FE-4132-9233-7BFAD2CE95C5
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PUSB_CYCLE_PORT_PARAMS, PUSB_CYCLE_PORT_PARAMS, PUSB_CYCLE_PORT_PARAMS structure pointer [Buses], USB_CYCLE_PORT_PARAMS, USB_CYCLE_PORT_PARAMS structure [Buses], _USB_CYCLE_PORT_PARAMS, buses.usb_cycle_port_params, usbioctl/PUSB_CYCLE_PORT_PARAMS, usbioctl/USB_CYCLE_PORT_PARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices

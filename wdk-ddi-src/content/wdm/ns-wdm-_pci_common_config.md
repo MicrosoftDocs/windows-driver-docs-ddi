@@ -223,6 +223,99 @@ Minimum grant.
 Maximum latency.
 
 
+##### - u.type0
+
+Drivers call <a href="https://msdn.microsoft.com/library/windows/hardware/ff546580">HalAssignSlotResources</a> to configure these values and to get back the bus-relative values passed to other configuration routines.
+
+
+
+##### type0.BaseAddresses
+
+Base addresses.
+
+
+
+##### type0.Reserved1
+
+Reserved.
+
+
+
+##### type0.ROMBaseAddress
+
+ROM base address.
+
+
+
+##### type0.Reserved2
+
+Reserved.
+
+
+
+##### type0.InterruptLine
+
+Interrupt line number.
+
+
+
+##### type0.InterruptPin
+
+Interrupt pin number.
+
+
+
+##### type0.MinimumGrant
+
+Minimum grant.
+
+
+
+##### type0.MaximumLatency
+
+Maximum latency.
+
+
+###### - u.type0.BaseAddresses
+
+Base addresses.
+
+
+###### - u.type0.InterruptLine
+
+Interrupt line number.
+
+
+###### - u.type0.InterruptPin
+
+Interrupt pin number.
+
+
+###### - u.type0.MaximumLatency
+
+Maximum latency.
+
+
+###### - u.type0.MinimumGrant
+
+Minimum grant.
+
+
+###### - u.type0.ROMBaseAddress
+
+ROM base address.
+
+
+###### - u.type0.Reserved1
+
+Reserved.
+
+
+###### - u.type0.Reserved2
+
+Reserved.
+
+
 ## -remarks
 
 

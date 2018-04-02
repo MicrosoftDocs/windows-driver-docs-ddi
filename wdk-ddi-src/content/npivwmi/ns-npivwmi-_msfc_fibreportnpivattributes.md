@@ -7,7 +7,7 @@ old-location: storage\msfc_fibreportnpivattributes.htm
 old-project: storage
 ms.assetid: 1641C3A0-E6D9-4E30-9E3C-3C09A14F591F
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PMSFC_FibrePortNPIVAttributes, MSFC_FibrePortNPIVAttributes, MSFC_FibrePortNPIVAttributes structure [Storage Devices], PMSFC_FibrePortNPIVAttributes, PMSFC_FibrePortNPIVAttributes structure pointer [Storage Devices], _MSFC_FibrePortNPIVAttributes, npivwmi/MSFC_FibrePortNPIVAttributes, npivwmi/PMSFC_FibrePortNPIVAttributes, storage.msfc_fibreportnpivattributes"
 ms.prod: windows-hardware
 ms.technology: windows-devices

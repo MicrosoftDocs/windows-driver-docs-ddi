@@ -7,7 +7,7 @@ old-location: storage\ioctl_ehstor_bandmgmt_revert.htm
 old-project: storage
 ms.assetid: 981655A8-B6DC-4720-8D2E-B42AA0859FB2
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_EHSTOR_BANDMGMT_REVERT, IOCTL_EHSTOR_BANDMGMT_REVERT control code [Storage Devices], ehstorbandmgmt/IOCTL_EHSTOR_BANDMGMT_REVERT, storage.ioctl_ehstor_bandmgmt_revert
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: display\closeadapter.htm
 old-project: display
 ms.assetid: 9dc7f71a-753d-41ca-8eaa-bff6536e834f
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: CloseAdapter, CloseAdapter callback function [Display Devices], PFND3DDDI_CLOSEADAPTER, UserModeDisplayDriver_Functions_ccc1793f-15b1-480f-8835-38326b749308.xml, d3dumddi/CloseAdapter, display.closeadapter
 ms.prod: windows-hardware
 ms.technology: windows-devices

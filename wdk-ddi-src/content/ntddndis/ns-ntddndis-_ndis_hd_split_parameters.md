@@ -7,7 +7,7 @@ old-location: netvista\ndis_hd_split_parameters.htm
 old-project: netvista
 ms.assetid: 1cc76765-871e-4cd0-b927-b0b4d3d746b4
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*PNDIS_HD_SPLIT_PARAMETERS, NDIS_HD_SPLIT_PARAMETERS, NDIS_HD_SPLIT_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_HD_SPLIT_PARAMETERS, PNDIS_HD_SPLIT_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_HD_SPLIT_PARAMETERS, header_data_split_ref_f7f3a3c4-4259-44a5-abce-fa393922f97d.xml, netvista.ndis_hd_split_parameters, ntddndis/NDIS_HD_SPLIT_PARAMETERS, ntddndis/PNDIS_HD_SPLIT_PARAMETERS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -111,8 +111,3 @@ The NDIS_HD_SPLIT_PARAMETERS structure is used in the
 
  
 
-<<<<<<< HEAD
-=======
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_HD_SPLIT_PARAMETERS structure%20 RELEASE:%20(2/27/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
-
->>>>>>> parent of 2d896a8e266... Added changes

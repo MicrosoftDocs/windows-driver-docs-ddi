@@ -7,7 +7,7 @@ old-location: display\dxgk_vidpnsourcemodeset_interface_pfnacquirefirstmodeinfo.
 old-project: display
 ms.assetid: 3af816e0-f1a4-4477-8735-6400aadfb57b
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKDDI_VIDPNSOURCEMODESET_ACQUIREFIRSTMODEINFO, VidPnFunctions_14a2da15-5fde-4701-b3e6-9e60c84f381b.xml, d3dkmddi/pfnAcquireFirstModeInfo, display.dxgk_vidpnsourcemodeset_interface_pfnacquirefirstmodeinfo, pfnAcquireFirstModeInfo, pfnAcquireFirstModeInfo callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices

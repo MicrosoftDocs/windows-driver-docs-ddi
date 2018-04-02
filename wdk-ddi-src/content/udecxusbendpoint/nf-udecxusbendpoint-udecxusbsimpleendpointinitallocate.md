@@ -7,7 +7,7 @@ old-location: buses\udecxusbsimpleendpointinitallocate.htm
 old-project: usbref
 ms.assetid: 1BF79756-F55D-4F13-A03C-35F7880C5B21
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: UdecxUsbSimpleEndpointInitAllocate, UdecxUsbSimpleEndpointInitAllocate function [Buses], buses.udecxusbsimpleendpointinitallocate, udecxusbendpoint/UdecxUsbSimpleEndpointInitAllocate
 ms.prod: windows-hardware
 ms.technology: windows-devices

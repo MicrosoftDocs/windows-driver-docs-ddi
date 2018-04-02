@@ -7,7 +7,7 @@ old-location: display\dxgk_monitor_interface_pfnacquiremonitorsourcemodeset.htm
 old-project: display
 ms.assetid: a64197c0-a61f-4989-9b68-4e06b1a69fd4
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKDDI_MONITOR_ACQUIREMONITORSOURCEMODESET, VidPnFunctions_b540037c-9f98-4160-aeb3-ded9723e09fa.xml, d3dkmddi/pfnAcquireMonitorSourceModeSet, display.dxgk_monitor_interface_pfnacquiremonitorsourcemodeset, pfnAcquireMonitorSourceModeSet, pfnAcquireMonitorSourceModeSet callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices

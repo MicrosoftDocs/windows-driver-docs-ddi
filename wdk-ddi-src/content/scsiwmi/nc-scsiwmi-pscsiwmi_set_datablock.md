@@ -7,7 +7,7 @@ old-location: storage\hwscsiwmisetdatablock.htm
 old-project: storage
 ms.assetid: 5523d4d6-8eb5-48eb-a652-6612101b8422
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: HwScsiWmiSetDataBlock, HwScsiWmiSetDataBlock callback function [Storage Devices], PSCSIWMI_SET_DATABLOCK, Scsimini_b75fb6d1-48dc-4fcb-ae05-bf278c382ecf.xml, scsiwmi/HwScsiWmiSetDataBlock, storage.hwscsiwmisetdatablock
 ms.prod: windows-hardware
 ms.technology: windows-devices

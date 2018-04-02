@@ -7,7 +7,7 @@ old-location: storage\zone_descriptior.htm
 old-project: storage
 ms.assetid: 8326f683-3952-486e-b322-80ce96759366
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PZONE_DESCRIPTIOR, PZONE_DESCRIPTIOR, PZONE_DESCRIPTIOR structure pointer [Storage Devices], ZONE_DESCRIPTIOR, ZONE_DESCRIPTIOR structure [Storage Devices], _ZONE_DESCRIPTIOR, scsi/PZONE_DESCRIPTIOR, scsi/ZONE_DESCRIPTIOR, storage.zone_descriptior"
 ms.prod: windows-hardware
 ms.technology: windows-devices

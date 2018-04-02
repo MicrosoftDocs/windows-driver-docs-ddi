@@ -7,7 +7,7 @@ old-location: storage\storportgetsystemaddress.htm
 old-project: storage
 ms.assetid: 28bb26bd-7259-4664-8092-6b9a917c1a91
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: StorPortGetSystemAddress, StorPortGetSystemAddress routine [Storage Devices], storage.storportgetsystemaddress, storport/StorPortGetSystemAddress, storprt_6e6713c8-a235-43b8-a325-2d4b8fca8f35.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

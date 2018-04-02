@@ -7,7 +7,7 @@ old-location: display\dxgkddicollectdbginfo.htm
 old-project: display
 ms.assetid: f2f3d8f7-5a54-4830-b8f8-ac2f93096eda
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKDDI_COLLECTDBGINFO, DmFunctions_3b0ed5a8-f56d-4dbd-8426-667ff8f37ee5.xml, DxgkDdiCollectDbgInfo, DxgkDdiCollectDbgInfo callback function [Display Devices], d3dkmddi/DxgkDdiCollectDbgInfo, display.dxgkddicollectdbginfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

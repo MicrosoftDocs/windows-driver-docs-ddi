@@ -7,7 +7,7 @@ old-location: display\d3dkmt_workingsetflags.htm
 old-project: display
 ms.assetid: 05dddebc-2a30-4cc5-b905-9ee4ebf8d00e
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMT_WORKINGSETFLAGS, D3DKMT_WORKINGSETFLAGS structure [Display Devices], OpenGL_Structs_4ce8b8d1-7f35-45b4-8b01-154a9a8eda00.xml, _D3DKMT_WORKINGSETFLAGS, d3dkmthk/D3DKMT_WORKINGSETFLAGS, display.d3dkmt_workingsetflags
 ms.prod: windows-hardware
 ms.technology: windows-devices

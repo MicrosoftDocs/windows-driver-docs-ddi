@@ -7,7 +7,7 @@ old-location: storage\ioctl_ehstor_bandmgmt_erase_band.htm
 old-project: storage
 ms.assetid: E7DE8E55-B753-42AF-B25F-F806EE37DCF1
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_EHSTOR_BANDMGMT_ERASE_BAND, IOCTL_EHSTOR_BANDMGMT_ERASE_BAND control code [Storage Devices], ehstorbandmgmt/IOCTL_EHSTOR_BANDMGMT_ERASE_BAND, storage.ioctl_ehstor_bandmgmt_erase_band
 ms.prod: windows-hardware
 ms.technology: windows-devices

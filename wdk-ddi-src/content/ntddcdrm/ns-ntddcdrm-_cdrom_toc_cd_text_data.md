@@ -7,7 +7,7 @@ old-location: storage\cdrom_toc_cd_text_data.htm
 old-project: storage
 ms.assetid: 92e87c1d-17c4-4ac8-af9d-08863ce84c9e
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PCDROM_TOC_CD_TEXT_DATA, CDROM_TOC_CD_TEXT_DATA, CDROM_TOC_CD_TEXT_DATA structure [Storage Devices], PCDROM_TOC_CD_TEXT_DATA, PCDROM_TOC_CD_TEXT_DATA structure pointer [Storage Devices], _CDROM_TOC_CD_TEXT_DATA, ntddcdrm/CDROM_TOC_CD_TEXT_DATA, ntddcdrm/PCDROM_TOC_CD_TEXT_DATA, storage.cdrom_toc_cd_text_data, structs-CD-ROM_7c78a819-dd2b-45bf-ba44-b8115fe1b998.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: display\agpcommitphysical.htm
 old-project: display
 ms.assetid: 3c3a6936-7435-4a42-99e6-2c048613af23
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: AgpCommitPhysical, AgpCommitPhysical callback function [Display Devices], PAGP_COMMIT_PHYSICAL, VideoPort_Functions_11f78058-194b-4407-b98b-1ae7cd0028f7.xml, display.agpcommitphysical, videoagp/AgpCommitPhysical
 ms.prod: windows-hardware
 ms.technology: windows-devices

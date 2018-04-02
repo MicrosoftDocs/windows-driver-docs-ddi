@@ -7,7 +7,7 @@ old-location: storage\hwstoradaptercontrol.htm
 old-project: storage
 ms.assetid: e1944f1b-97db-4ac2-848e-e69359c09589
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: HW_ADAPTER_CONTROL, HwStorAdapterControl, HwStorAdapterControl routine [Storage Devices], storage.hwstoradaptercontrol, stormini_19cbc8b1-9908-4b4d-a62b-712fb97e6bbd.xml, storport/HwStorAdapterControl
 ms.prod: windows-hardware
 ms.technology: windows-devices

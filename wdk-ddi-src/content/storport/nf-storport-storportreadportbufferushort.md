@@ -7,7 +7,7 @@ old-location: storage\storportreadportbufferushort.htm
 old-project: storage
 ms.assetid: 7b45811c-4e5f-4344-b0b3-15d36b912b5b
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: StorPortReadPortBufferUshort, StorPortReadPortBufferUshort routine [Storage Devices], storage.storportreadportbufferushort, storport/StorPortReadPortBufferUshort, storprt_8bb9a625-864a-4566-a570-87425b6bc9af.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

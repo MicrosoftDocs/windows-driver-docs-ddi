@@ -7,7 +7,7 @@ old-location: storage\ataportregistrychannelsubkeywrite.htm
 old-project: storage
 ms.assetid: 4072f369-992e-4144-b3b9-1e05bb2127f2
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: AtaPortRegistryChannelSubkeyWrite, AtaPortRegistryChannelSubkeyWrite routine [Storage Devices], atartns_0281129c-7789-44f3-b26d-d3725e7ff165.xml, irb/AtaPortRegistryChannelSubkeyWrite, storage.ataportregistrychannelsubkeywrite
 ms.prod: windows-hardware
 ms.technology: windows-devices

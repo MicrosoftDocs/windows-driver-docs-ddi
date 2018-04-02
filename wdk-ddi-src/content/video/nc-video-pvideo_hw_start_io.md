@@ -7,7 +7,7 @@ old-location: display\hwvidstartio.htm
 old-project: display
 ms.assetid: 82951291-cf3e-486b-ad0e-f347fefe0370
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: HwVidStartIO, HwVidStartIO callback function [Display Devices], PVIDEO_HW_START_IO, VideoMiniport_Functions_5dd4317e-f80d-4f93-86b5-b7c83aca2546.xml, display.hwvidstartio, video/HwVidStartIO
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: display\querybegin.htm
 old-project: display
 ms.assetid: 2f0a7462-83a6-47df-b5f6-b3706b875349
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3D10DDI_QUERYBEGIN, QueryBegin, QueryBegin callback function [Display Devices], UserModeDisplayDriverDx10_Functions_d456daf9-09b9-4174-8eba-7591ec45cd20.xml, d3d10umddi/QueryBegin, display.querybegin
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: storage\storage_diagnostic_mp_request.htm
 old-project: storage
 ms.assetid: 1F2B15A6-7C05-4FBA-B54F-EEF013FF5739
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PSTORAGE_DIAGNOSTIC_MP_REQUEST, PSTORAGE_DIAGNOSTIC_MP_REQUEST, PSTORAGE_DIAGNOSTIC_MP_REQUEST structure pointer [Storage Devices], STORAGE_DIAGNOSTIC_MP_REQUEST, STORAGE_DIAGNOSTIC_MP_REQUEST structure [Storage Devices], _STORAGE_DIAGNOSTIC_MP_REQUEST, ntddscsi/PSTORAGE_DIAGNOSTIC_MP_REQUEST, ntddscsi/STORAGE_DIAGNOSTIC_MP_REQUEST, storage.storage_diagnostic_mp_request"
 ms.prod: windows-hardware
 ms.technology: windows-devices

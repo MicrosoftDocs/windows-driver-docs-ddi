@@ -7,7 +7,7 @@ old-location: buses\ioctl_ucmtcpci_port_controller_displayport_configured.htm
 old-project: usbref
 ms.assetid: 27FAAFA7-2782-4FC7-A79F-12C282BFF15B
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_CONFIGURED, IOCTL_UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_CONFIGURED control code [Buses], buses.ioctl_ucmtcpci_port_controller_displayport_configured, ucmtcpciportcontrollerrequests/IOCTL_UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_CONFIGURED
 ms.prod: windows-hardware
 ms.technology: windows-devices

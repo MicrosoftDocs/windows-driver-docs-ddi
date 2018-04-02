@@ -7,7 +7,7 @@ old-location: display\d3dkmt_invalidateactivevidpn.htm
 old-project: display
 ms.assetid: 51fb1993-b9f3-436a-9a6d-7d4f9bf26083
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMT_INVALIDATEACTIVEVIDPN, D3DKMT_INVALIDATEACTIVEVIDPN structure [Display Devices], OpenGL_Structs_6610529b-39db-4fc4-981a-96a6b3bf7543.xml, _D3DKMT_INVALIDATEACTIVEVIDPN, d3dkmthk/D3DKMT_INVALIDATEACTIVEVIDPN, display.d3dkmt_invalidateactivevidpn
 ms.prod: windows-hardware
 ms.technology: windows-devices

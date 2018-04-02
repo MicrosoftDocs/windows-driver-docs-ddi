@@ -7,7 +7,7 @@ old-location: storage\scsiportwriteportulong.htm
 old-project: storage
 ms.assetid: 9d2022b7-1e1e-4bc6-b306-84cc249644c5
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: ScsiPortWritePortUlong, ScsiPortWritePortUlong routine [Storage Devices], scsiprt_9a25b2e5-13e4-40f8-8475-dba34ad7ee3c.xml, srb/ScsiPortWritePortUlong, storage.scsiportwriteportulong
 ms.prod: windows-hardware
 ms.technology: windows-devices

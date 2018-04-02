@@ -7,7 +7,7 @@ old-location: storage\ioctl_storage_ejection_control.htm
 old-project: storage
 ms.assetid: 0b9726a1-0658-4eda-8f27-abf647cdc046
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_STORAGE_EJECTION_CONTROL, IOCTL_STORAGE_EJECTION_CONTROL control code [Storage Devices], k307_fe4c03f1-b835-4c04-bb7b-4a8bd982dcc7.xml, ntddstor/IOCTL_STORAGE_EJECTION_CONTROL, storage.ioctl_storage_ejection_control
 ms.prod: windows-hardware
 ms.technology: windows-devices

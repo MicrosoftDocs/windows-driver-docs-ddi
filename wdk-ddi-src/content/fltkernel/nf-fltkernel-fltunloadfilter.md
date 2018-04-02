@@ -7,7 +7,7 @@ old-location: ifsk\fltunloadfilter.htm
 old-project: ifsk
 ms.assetid: 234907d8-d21e-4303-9508-0673afa471a6
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FltApiRef_p_to_z_88925df3-96d3-4e1f-9e0b-f97eb8d9b40b.xml, FltUnloadFilter, FltUnloadFilter function [Installable File System Drivers], fltkernel/FltUnloadFilter, ifsk.fltunloadfilter
 ms.prod: windows-hardware
 ms.technology: windows-devices

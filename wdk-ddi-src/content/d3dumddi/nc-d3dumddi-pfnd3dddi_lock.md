@@ -7,7 +7,7 @@ old-location: display\lock.htm
 old-project: display
 ms.assetid: e2289073-d46a-4a12-8de7-30400e04cc22
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: Lock, Lock callback function [Display Devices], PFND3DDDI_LOCK, UserModeDisplayDriver_Functions_c4db91e8-a67e-4647-97d3-abde07926169.xml, d3dumddi/Lock, display.lock
 ms.prod: windows-hardware
 ms.technology: windows-devices

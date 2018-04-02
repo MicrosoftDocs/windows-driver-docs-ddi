@@ -7,7 +7,7 @@ old-location: storage\logoutfromtarget_in.htm
 old-project: storage
 ms.assetid: a52d5995-1fb7-4b73-9d3f-c945e7219a49
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PLogoutFromTarget_IN, LogoutFromTarget_IN, LogoutFromTarget_IN structure [Storage Devices], PLogoutFromTarget_IN, PLogoutFromTarget_IN structure pointer [Storage Devices], _LogoutFromTarget_IN, iscsiop/LogoutFromTarget_IN, iscsiop/PLogoutFromTarget_IN, storage.logoutfromtarget_in, structs-iSCSI_759c2265-5518-4f45-8737-5cdfa4d73170.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices

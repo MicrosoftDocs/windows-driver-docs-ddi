@@ -7,7 +7,7 @@ old-location: display\setviewports.htm
 old-project: display
 ms.assetid: f5a55dd3-a8c4-4741-b99e-105021d79603
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3D10DDI_SETVIEWPORTS, SetViewports, SetViewports callback function [Display Devices], UserModeDisplayDriverDx10_Functions_fbab11b0-f3cc-41f1-afc8-e372a778255a.xml, d3d10umddi/SetViewports, display.setviewports
 ms.prod: windows-hardware
 ms.technology: windows-devices

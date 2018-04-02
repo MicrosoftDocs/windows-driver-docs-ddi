@@ -7,7 +7,7 @@ old-location: display\ioctl_video_enable_pointer.htm
 old-project: display
 ms.assetid: df6d348a-2720-4d47-9bc7-fc0627c951e6
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_VIDEO_ENABLE_POINTER, IOCTL_VIDEO_ENABLE_POINTER control code [Display Devices], Video_IOCTLs_89a9a8cc-bfd6-4969-bb8f-26d72cbaa807.xml, display.ioctl_video_enable_pointer, ntddvdeo/IOCTL_VIDEO_ENABLE_POINTER
 ms.prod: windows-hardware
 ms.technology: windows-devices

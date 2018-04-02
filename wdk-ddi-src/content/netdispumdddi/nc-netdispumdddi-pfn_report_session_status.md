@@ -7,7 +7,7 @@ old-location: display\reportsessionstatus.htm
 old-project: display
 ms.assetid: a3e44e55-5c6a-4a79-8caa-3a3b9db6b456
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFN_REPORT_SESSION_STATUS, ReportSessionStatus, ReportSessionStatus callback function [Display Devices], display.reportsessionstatus, netdispumdddi/ReportSessionStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices

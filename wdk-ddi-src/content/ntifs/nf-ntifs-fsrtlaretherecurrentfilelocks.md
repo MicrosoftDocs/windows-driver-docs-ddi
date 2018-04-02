@@ -7,7 +7,7 @@ old-location: ifsk\fsrtlaretherecurrentfilelocks.htm
 old-project: ifsk
 ms.assetid: 2d8789e1-721d-4abe-9864-0f7fdeb24482
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FsRtlAreThereCurrentFileLocks, FsRtlAreThereCurrentFileLocks function [Installable File System Drivers], fsrtlref_c3102eee-b523-418a-8977-a875e0eb76b7.xml, ifsk.fsrtlaretherecurrentfilelocks, ntifs/FsRtlAreThereCurrentFileLocks
 ms.prod: windows-hardware
 ms.technology: windows-devices

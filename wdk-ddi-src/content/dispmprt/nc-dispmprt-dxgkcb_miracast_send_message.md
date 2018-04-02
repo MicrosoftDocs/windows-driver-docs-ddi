@@ -7,7 +7,7 @@ old-location: display\dxgkcbmiracastsendmessage.htm
 old-project: display
 ms.assetid: E8C3B9E3-854C-488D-809B-0F0893591352
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKCB_MIRACAST_SEND_MESSAGE, DxgkCbMiracastSendMessage, DxgkCbMiracastSendMessage callback function [Display Devices], display.dxgkcbmiracastsendmessage, dispmprt/DxgkCbMiracastSendMessage
 ms.prod: windows-hardware
 ms.technology: windows-devices

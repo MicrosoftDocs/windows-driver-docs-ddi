@@ -7,7 +7,7 @@ old-location: display\d3dddicb_createsynchronizationobject.htm
 old-project: display
 ms.assetid: e799a11c-eab7-4d85-9ed8-063e87aa351f
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDICB_CREATESYNCHRONIZATIONOBJECT, D3DDDICB_CREATESYNCHRONIZATIONOBJECT structure [Display Devices], D3D_param_Structs_b52426c9-988d-4676-b906-cfa13cc9ffc5.xml, _D3DDDICB_CREATESYNCHRONIZATIONOBJECT, d3dumddi/D3DDDICB_CREATESYNCHRONIZATIONOBJECT, display.d3dddicb_createsynchronizationobject
 ms.prod: windows-hardware
 ms.technology: windows-devices

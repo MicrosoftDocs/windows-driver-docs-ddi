@@ -7,7 +7,7 @@ old-location: storage\feature_data_cdrw_cav_write.htm
 old-project: storage
 ms.assetid: bdd76553-d551-4451-8a34-122bc0639665
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PFEATURE_DATA_CDRW_CAV_WRITE, FEATURE_DATA_CDRW_CAV_WRITE, FEATURE_DATA_CDRW_CAV_WRITE structure [Storage Devices], PFEATURE_DATA_CDRW_CAV_WRITE, PFEATURE_DATA_CDRW_CAV_WRITE structure pointer [Storage Devices], _FEATURE_DATA_CDRW_CAV_WRITE, ntddmmc/FEATURE_DATA_CDRW_CAV_WRITE, ntddmmc/PFEATURE_DATA_CDRW_CAV_WRITE, storage.feature_data_cdrw_cav_write, structs-CD-ROM_2ebe5ae8-15be-47a8-9bb8-d638f6033e6b.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: storage\storportinitializeslisthead.htm
 old-project: storage
 ms.assetid: E8EF5995-67AE-4F34-B885-CBADDF3D151F
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: StorPortInitializeSListHead, StorPortInitializeSListHead routine [Storage Devices], storage.storportinitializeslisthead, storport/StorPortInitializeSListHead
 ms.prod: windows-hardware
 ms.technology: windows-devices

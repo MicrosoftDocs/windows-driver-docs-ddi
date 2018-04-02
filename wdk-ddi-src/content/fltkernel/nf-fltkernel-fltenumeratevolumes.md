@@ -7,7 +7,7 @@ old-location: ifsk\fltenumeratevolumes.htm
 old-project: ifsk
 ms.assetid: 67038ff5-c450-460b-b158-f5d817fdc972
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FltApiRef_e_to_o_20e817de-0825-4c5f-a831-2815c216344e.xml, FltEnumerateVolumes, FltEnumerateVolumes routine [Installable File System Drivers], fltkernel/FltEnumerateVolumes, ifsk.fltenumeratevolumes
 ms.prod: windows-hardware
 ms.technology: windows-devices

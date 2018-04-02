@@ -7,7 +7,7 @@ old-location: display\pfnqueryresidencycb.htm
 old-project: display
 ms.assetid: 707ba050-e70c-49f8-aac0-0bcc8fe9bf8b
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3Druntime_Functions_9c92da7d-b114-4aab-adfe-13b5afebb4c8.xml, PFND3DDDI_QUERYRESIDENCYCB, d3dumddi/pfnQueryResidencyCb, display.pfnqueryresidencycb, pfnQueryResidencyCb, pfnQueryResidencyCb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices

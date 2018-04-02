@@ -7,7 +7,7 @@ old-location: ifsk\ioregisterfsregistrationchangeex.htm
 old-project: ifsk
 ms.assetid: e318e13b-8b6c-4593-93ce-17d2a1056ac2
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: IoRegisterFsRegistrationChangeEx, IoRegisterFsRegistrationChangeEx routine [Installable File System Drivers], ifsk.ioregisterfsregistrationchangeex, ioref_330f3a93-4d81-4a6b-9733-521558d255a6.xml, ntifs/IoRegisterFsRegistrationChangeEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

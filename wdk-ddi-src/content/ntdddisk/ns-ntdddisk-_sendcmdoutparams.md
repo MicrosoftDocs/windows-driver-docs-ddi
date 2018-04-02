@@ -7,7 +7,7 @@ old-location: storage\sendcmdoutparams.htm
 old-project: storage
 ms.assetid: e9fb6d5c-258c-46eb-ba3a-3f10008fdf68
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*LPSENDCMDOUTPARAMS, *PSENDCMDOUTPARAMS, LPSENDCMDOUTPARAMS, LPSENDCMDOUTPARAMS structure pointer [Storage Devices], PSENDCMDOUTPARAMS, PSENDCMDOUTPARAMS structure pointer [Storage Devices], SENDCMDOUTPARAMS, SENDCMDOUTPARAMS structure [Storage Devices], _SENDCMDOUTPARAMS, ntdddisk/LPSENDCMDOUTPARAMS, ntdddisk/PSENDCMDOUTPARAMS, ntdddisk/SENDCMDOUTPARAMS, storage.sendcmdoutparams, structs-IDE_d1a70016-0e77-465a-9368-665975369bdc.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices

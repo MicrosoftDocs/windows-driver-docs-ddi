@@ -7,7 +7,7 @@ old-location: display\videoprocessorsetstreamalpha.htm
 old-project: display
 ms.assetid: 9208bcd7-c030-4c2f-b3bc-e1bff3839cef
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMALPHA, d3d10umddi/pfnVideoProcessorSetStreamAlpha, display.videoprocessorsetstreamalpha, pfnVideoProcessorSetStreamAlpha, pfnVideoProcessorSetStreamAlpha callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices

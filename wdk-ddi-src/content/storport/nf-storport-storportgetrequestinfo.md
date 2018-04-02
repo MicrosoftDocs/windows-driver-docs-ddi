@@ -7,7 +7,7 @@ old-location: storage\storportgetrequestinfo.htm
 old-project: storage
 ms.assetid: 3B0A25E8-6DBC-4AA9-A0D0-DDB36B402F43
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: StorPortGetRequestInfo, StorPortGetRequestInfo routine [Storage Devices], storage.storportgetrequestinfo, storport/StorPortGetRequestInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

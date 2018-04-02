@@ -7,7 +7,7 @@ old-location: dtf\iwdtfdriversetupaction2_uninstalldriverpermanently.htm
 old-project: dtf
 ms.assetid: 60346c38-0ee2-4f69-8fef-0a47a6375430
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 3/29/2018
 ms.keywords: IWDTFDriverSetupAction2, IWDTFDriverSetupAction2 interface [Windows Device Testing Framework], UnInstallDriverPermanently method, IWDTFDriverSetupAction2::UnInstallDriverPermanently, Microsoft.WDTF.IWDTFDriverSetupAction2.UnInstallDriverPermanently, Microsoft::WDTF::IWDTFDriverSetupAction2::UnInstallDriverPermanently, UnInstallDriverPermanently method [Windows Device Testing Framework], UnInstallDriverPermanently method [Windows Device Testing Framework], IWDTFDriverSetupAction2 interface, UnInstallDriverPermanently,IWDTFDriverSetupAction2.UnInstallDriverPermanently, dtf.iwdtfdriversetupaction2_uninstalldriverpermanently, wdtfdriversetupdeviceaction/IWDTFDriverSetupAction2::UnInstallDriverPermanently
 ms.prod: windows-hardware
 ms.technology: windows-devices

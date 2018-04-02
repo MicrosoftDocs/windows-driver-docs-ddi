@@ -7,7 +7,7 @@ old-location: display\calcprivateshadersize_d3d11_1_.htm
 old-project: display
 ms.assetid: e23c267f-41df-47a6-ae43-3bbcb48fd300
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: CalcPrivateShaderSize(D3D11_1), CalcPrivateShaderSize(D3D11_1) callback function [Display Devices], PFND3D11_1DDI_CALCPRIVATESHADERSIZE, d3d10umddi/CalcPrivateShaderSize(D3D11_1), display.calcprivateshadersize_d3d11_1_, display.pfncalcprivateshadersize
 ms.prod: windows-hardware
 ms.technology: windows-devices

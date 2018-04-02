@@ -7,7 +7,7 @@ old-location: display\d3dhal_dp2indexedtrianglestrip.htm
 old-project: display
 ms.assetid: 542f89f1-f562-4293-9ca1-96e7a0512772
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*LPD3DHAL_DP2INDEXEDTRIANGLESTRIP, D3DHAL_DP2INDEXEDTRIANGLESTRIP, D3DHAL_DP2INDEXEDTRIANGLESTRIP structure [Display Devices], LPD3DHAL_DP2INDEXEDTRIANGLESTRIP, LPD3DHAL_DP2INDEXEDTRIANGLESTRIP structure pointer [Display Devices], _D3DHAL_DP2INDEXEDTRIANGLESTRIP, d3dhal/D3DHAL_DP2INDEXEDTRIANGLESTRIP, d3dhal/LPD3DHAL_DP2INDEXEDTRIANGLESTRIP, d3dstrct_72ed98e7-63f2-42ec-bcc4-4c4e6184cae5.xml, display.d3dhal_dp2indexedtrianglestrip"
 ms.prod: windows-hardware
 ms.technology: windows-devices

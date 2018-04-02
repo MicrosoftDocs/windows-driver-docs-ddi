@@ -50,20 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The <b>PCW_CALLBACK_TYPE</b> enumeration defines the notification type to send to the registered provider of the counter set. A provider passes a pointer to this enumeration as a parameter to the <a href="..\wdm\nc-wdm-pcw_callback.md">PcwCallback</a> function. 
-
-
-## -syntax
-
-
-````
-typedef enum _PCW_CALLBACK_TYPE { 
-  PcwCallbackAddCounter          = 0,
-  PcwCallbackRemoveCounter       = 1,
-  PcwCallbackEnumerateInstances  = 2,
-  PcwCallbackCollectData         = 3
-} PCW_CALLBACK_TYPE, *PPCW_CALLBACK_TYPE;
-````
+The <b>PCW_CALLBACK_TYPE</b> enumeration defines the notification type to send to the registered provider of the counter set. A provider passes a pointer to this enumeration as a parameter to the <a href="https://msdn.microsoft.com/5058fc17-1016-45bc-a6ea-5e2458824e7b">PcwCallback</a> function. 
 
 
 ## -enum-fields
@@ -93,13 +80,11 @@ The provider is asked to collect data from an instance of the counter set.
 
 ## -see-also
 
-<a href="..\wdm\nc-wdm-pcw_callback.md">PcwCallback</a>
 
 
 
+<a href="https://msdn.microsoft.com/5058fc17-1016-45bc-a6ea-5e2458824e7b">PcwCallback</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [devtest\devtest]:%20PCW_CALLBACK_TYPE enumeration%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

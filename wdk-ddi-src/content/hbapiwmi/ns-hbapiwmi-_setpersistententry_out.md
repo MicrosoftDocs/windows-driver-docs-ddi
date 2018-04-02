@@ -7,7 +7,7 @@ old-location: storage\setpersistententry_out.htm
 old-project: storage
 ms.assetid: c2089ae9-e872-4bbb-8e7b-fe11082d2b46
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PSetPersistentEntry_OUT, PSetPersistentEntry_OUT, PSetPersistentEntry_OUT structure pointer [Storage Devices], SetPersistentEntry_OUT, SetPersistentEntry_OUT structure [Storage Devices], _SetPersistentEntry_OUT, hbapiwmi/PSetPersistentEntry_OUT, hbapiwmi/SetPersistentEntry_OUT, storage.setpersistententry_out, structs-Fibre_3dbfc9dd-6c90-4908-bb5d-c331a2e0334c.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices

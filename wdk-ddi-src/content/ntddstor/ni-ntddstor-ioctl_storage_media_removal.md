@@ -7,7 +7,7 @@ old-location: storage\ioctl_storage_media_removal.htm
 old-project: storage
 ms.assetid: ea8d7924-7ecc-47df-9616-8e2ed60c3de8
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_STORAGE_MEDIA_REMOVAL, IOCTL_STORAGE_MEDIA_REMOVAL control code [Storage Devices], k307_3579b0fa-49fa-4051-8726-15662992f0d2.xml, ntddstor/IOCTL_STORAGE_MEDIA_REMOVAL, storage.ioctl_storage_media_removal
 ms.prod: windows-hardware
 ms.technology: windows-devices

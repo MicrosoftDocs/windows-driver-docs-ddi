@@ -7,7 +7,7 @@ old-location: ifsk\rxscavengeallfobxs.htm
 old-project: ifsk
 ms.assetid: dd849f18-6271-483a-9c00-b7fe50109989
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: RxScavengeAllFobxs, RxScavengeAllFobxs function [Installable File System Drivers], ifsk.rxscavengeallfobxs, rxprocs/RxScavengeAllFobxs, rxref_d983b334-0cc7-42ab-abc7-79f1bc0876cd.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

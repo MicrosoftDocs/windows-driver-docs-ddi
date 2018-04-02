@@ -7,7 +7,7 @@ old-location: display\dxgkddistartdevice.htm
 old-project: display
 ms.assetid: ffacbb39-2581-4207-841d-28ce57fbc64d
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKDDI_START_DEVICE, DmFunctions_3b4ea5b7-9ccb-408f-9f37-693965ee99cf.xml, DxgkDdiStartDevice, DxgkDdiStartDevice callback function [Display Devices], display.dxgkddistartdevice, dispmprt/DxgkDdiStartDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices

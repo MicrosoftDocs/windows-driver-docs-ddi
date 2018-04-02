@@ -7,7 +7,7 @@ old-location: display\videoportqueuedpc.htm
 old-project: display
 ms.assetid: 9715ff37-397b-4102-a363-443b8076f881
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: VideoPortQueueDpc, VideoPortQueueDpc function [Display Devices], VideoPort_Functions_133e8c8b-e445-4f83-ad93-7eb560047f3f.xml, display.videoportqueuedpc, video/VideoPortQueueDpc
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: display\dd_getd3dquerydata.htm
 old-project: display
 ms.assetid: a3bacd56-c25a-45d1-bd9f-b19bc1f95c8f
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DD_GETD3DQUERYDATA, DD_GETD3DQUERYDATA structure [Display Devices], _DD_GETD3DQUERYDATA, d3dhal/DD_GETD3DQUERYDATA, d3dstrct_ec5ab755-9f1e-4add-bcf1-73bcb01988e6.xml, display.dd_getd3dquerydata
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: display\relocatedevicefuncs_d3d11_2_.htm
 old-project: display
 ms.assetid: BA2A1F90-6E30-4055-9374-943540AE2446
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3DWDDM1_3DDI_RELOCATEDEVICEFUNCS, RelocateDeviceFuncs(D3D11_2), RelocateDeviceFuncs(D3D11_2) callback function [Display Devices], d3d10umddi/RelocateDeviceFuncs(D3D11_2), display.relocatedevicefuncs_d3d11_2_
 ms.prod: windows-hardware
 ms.technology: windows-devices

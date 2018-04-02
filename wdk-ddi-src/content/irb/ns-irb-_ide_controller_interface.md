@@ -7,7 +7,7 @@ old-location: storage\ide_controller_interface.htm
 old-project: storage
 ms.assetid: cb18f7d9-f9e8-436d-8d61-3641730bd8a2
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PIDE_CONTROLLER_INTERFACE, IDE_CONTROLLER_INTERFACE, IDE_CONTROLLER_INTERFACE structure [Storage Devices], PIDE_CONTROLLER_INTERFACE, PIDE_CONTROLLER_INTERFACE structure pointer [Storage Devices], _IDE_CONTROLLER_INTERFACE, irb/IDE_CONTROLLER_INTERFACE, irb/PIDE_CONTROLLER_INTERFACE, storage.ide_controller_interface, structs-ATA_3b2abcb7-676c-44c9-a2a3-c4efb0f1e032.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices

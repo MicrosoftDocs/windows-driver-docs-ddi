@@ -7,7 +7,7 @@ old-location: storage\storportwriteportbufferulong.htm
 old-project: storage
 ms.assetid: 24735e9a-d259-48d1-8efe-8ff1642b6a35
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: StorPortWritePortBufferUlong, StorPortWritePortBufferUlong routine [Storage Devices], storage.storportwriteportbufferulong, storport/StorPortWritePortBufferUlong, storprt_7ab33563-108d-4d20-8205-c3f5ac790f59.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

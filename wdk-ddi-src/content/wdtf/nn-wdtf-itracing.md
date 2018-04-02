@@ -7,7 +7,7 @@ old-location: dtf\itracing.htm
 old-project: dtf
 ms.assetid: 919f6ba4-ff8d-4836-b522-90c22a9221ea
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 3/29/2018
 ms.keywords: ITracing, ITracing interface [Windows Device Testing Framework], ITracing interface [Windows Device Testing Framework], described, ITracing_b58b1d4d-7a2b-4162-ad9c-54439afd7b4a.xml, dtf.itracing, wdtf/ITracing
 ms.prod: windows-hardware
 ms.technology: windows-devices

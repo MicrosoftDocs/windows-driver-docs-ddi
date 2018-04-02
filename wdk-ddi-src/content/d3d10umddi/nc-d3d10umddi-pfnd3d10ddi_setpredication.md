@@ -7,7 +7,7 @@ old-location: display\setpredication.htm
 old-project: display
 ms.assetid: df671478-859f-4ccd-9ab4-1986f9af10cf
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3D10DDI_SETPREDICATION, SetPredication, SetPredication callback function [Display Devices], UserModeDisplayDriverDx10_Functions_358db7d9-6533-4c37-b761-985c921f4957.xml, d3d10umddi/SetPredication, display.setpredication
 ms.prod: windows-hardware
 ms.technology: windows-devices

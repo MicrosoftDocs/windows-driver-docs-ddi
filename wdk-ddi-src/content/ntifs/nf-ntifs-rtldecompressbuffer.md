@@ -7,7 +7,7 @@ old-location: ifsk\rtldecompressbuffer.htm
 old-project: ifsk
 ms.assetid: 4f82d094-e6be-4367-9146-1fa3f200ffa0
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: COMPRESSION_FORMAT_DEFAULT, COMPRESSION_FORMAT_LZNT1, COMPRESSION_FORMAT_NONE, COMPRESSION_FORMAT_XPRESS, RtlDecompressBuffer, RtlDecompressBuffer function [Installable File System Drivers], ifsk.rtldecompressbuffer, ntifs/RtlDecompressBuffer, rtlref_d19521fb-b086-4ee4-ae65-6354a89aeff9.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: display\d3dddiarg_getoverlaycolorcontrols.htm
 old-project: display
 ms.assetid: 63d14667-7409-40c8-af03-e4ffedd73e7e
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDIARG_GETOVERLAYCOLORCONTROLS, D3DDDIARG_GETOVERLAYCOLORCONTROLS structure [Display Devices], UMDisplayDriver_param_Structs_eedf1607-a208-42ba-8d05-6151e489ee8f.xml, _D3DDDIARG_GETOVERLAYCOLORCONTROLS, d3dumddi/D3DDDIARG_GETOVERLAYCOLORCONTROLS, display.d3dddiarg_getoverlaycolorcontrols
 ms.prod: windows-hardware
 ms.technology: windows-devices

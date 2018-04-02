@@ -7,7 +7,7 @@ old-location: display\dxva_mbctrl_p_offhostidct_1.htm
 old-project: display
 ms.assetid: 53a474a8-6cbd-4fe0-84d2-bf557b86ed71
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*LPDXVA_MBctrl_P_OffHostIDCT_1, DXVA_MBctrl_P_OffHostIDCT_1, DXVA_MBctrl_P_OffHostIDCT_1 structure [Display Devices], _DXVA_MBctrl_P_OffHostIDCT_1, display.dxva_mbctrl_p_offhostidct_1, dxva/DXVA_MBctrl_P_OffHostIDCT_1, dxvaref_5dae57d5-3e27-4928-8fd2-4c9cdad0285b.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: buses\udecxusbdeviceinitaddstringdescriptorraw.htm
 old-project: usbref
 ms.assetid: E4800343-E773-448D-B33E-2546ECDA4303
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: UdecxUsbDeviceInitAddStringDescriptorRaw, UdecxUsbDeviceInitAddStringDescriptorRaw function [Buses], buses.udecxusbdeviceinitaddstringdescriptorraw, udecxusbdevice/UdecxUsbDeviceInitAddStringDescriptorRaw
 ms.prod: windows-hardware
 ms.technology: windows-devices

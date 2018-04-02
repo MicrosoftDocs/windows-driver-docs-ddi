@@ -7,7 +7,7 @@ old-location: display\d3dddicb_destroyallocation2flags.htm
 old-project: display
 ms.assetid: 50D4BFB7-B5AC-4202-B426-F152B06C9F46
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDICB_DESTROYALLOCATION2FLAGS, D3DDDICB_DESTROYALLOCATION2FLAGS structure [Display Devices], _D3DDDICB_DESTROYALLOCATION2FLAGS, d3dukmdt/D3DDDICB_DESTROYALLOCATION2FLAGS, display.d3dddicb_destroyallocation2flags
 ms.prod: windows-hardware
 ms.technology: windows-devices

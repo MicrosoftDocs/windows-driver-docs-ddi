@@ -7,7 +7,7 @@ old-location: storage\mountmgr_drive_letter_information.htm
 old-project: storage
 ms.assetid: ad8dc740-c297-43e7-beb9-d93019955fd3
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PMOUNTMGR_DRIVE_LETTER_INFORMATION, MOUNTMGR_DRIVE_LETTER_INFORMATION, MOUNTMGR_DRIVE_LETTER_INFORMATION structure [Storage Devices], PMOUNTMGR_DRIVE_LETTER_INFORMATION, PMOUNTMGR_DRIVE_LETTER_INFORMATION structure pointer [Storage Devices], _MOUNTMGR_DRIVE_LETTER_INFORMATION, mountmgr/MOUNTMGR_DRIVE_LETTER_INFORMATION, mountmgr/PMOUNTMGR_DRIVE_LETTER_INFORMATION, storage.mountmgr_drive_letter_information, structs-mntmgr_19ece61a-9dda-466c-a414-047d71beeb2c.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices

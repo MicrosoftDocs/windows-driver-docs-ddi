@@ -7,7 +7,7 @@ old-location: storage\removepersistentlogin_out.htm
 old-project: storage
 ms.assetid: 2b5aee65-ccf6-42c6-9bb3-dff93cb53cf0
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PRemovePersistentLogin_OUT, PRemovePersistentLogin_OUT, PRemovePersistentLogin_OUT structure pointer [Storage Devices], RemovePersistentLogin_OUT, RemovePersistentLogin_OUT structure [Storage Devices], _RemovePersistentLogin_OUT, iscsiop/PRemovePersistentLogin_OUT, iscsiop/RemovePersistentLogin_OUT, storage.removepersistentlogin_out, structs-iSCSI_59f0b686-33c3-47be-9bd7-89d14f3ffc7b.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: ifsk\fltsetcancelcompletion.htm
 old-project: ifsk
 ms.assetid: 3f15d3b2-321d-45ca-8fe4-d8706fe61d48
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FltApiRef_p_to_z_36fb8e4e-a50b-4b9c-a208-9d6189f5b5a7.xml, FltSetCancelCompletion, FltSetCancelCompletion routine [Installable File System Drivers], fltkernel/FltSetCancelCompletion, ifsk.fltsetcancelcompletion
 ms.prod: windows-hardware
 ms.technology: windows-devices

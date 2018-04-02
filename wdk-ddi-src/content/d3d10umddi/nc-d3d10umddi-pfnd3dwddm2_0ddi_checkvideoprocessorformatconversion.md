@@ -7,7 +7,7 @@ old-location: display\checkvideoprocessorformatconversion.htm
 old-project: display
 ms.assetid: 70A741CC-9D1B-4ECC-BB3A-6ACF6893691A
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: CheckVideoProcessorFormatConversion, CheckVideoProcessorFormatConversion callback function [Display Devices], d3d10umddi/CheckVideoProcessorFormatConversion, display.checkvideoprocessorformatconversion
 ms.prod: windows-hardware
 ms.technology: windows-devices

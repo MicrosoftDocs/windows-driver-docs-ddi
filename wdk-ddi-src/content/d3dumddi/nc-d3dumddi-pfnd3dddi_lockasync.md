@@ -7,7 +7,7 @@ old-location: display\lockasync.htm
 old-project: display
 ms.assetid: c8f76ebe-947a-45e4-abbc-f6020da929e8
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: LockAsync, LockAsync callback function [Display Devices], PFND3DDDI_LOCKASYNC, UserModeDisplayDriver_Functions_da747d8a-9e58-47e7-b2eb-bd84179bde2d.xml, d3dumddi/LockAsync, display.lockasync
 ms.prod: windows-hardware
 ms.technology: windows-devices

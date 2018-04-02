@@ -7,7 +7,7 @@ old-location: display\videoportstallexecution.htm
 old-project: display
 ms.assetid: 70b406f8-d9ac-4882-89bc-e257cbe06921
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: VideoPortStallExecution, VideoPortStallExecution function [Display Devices], VideoPort_Functions_bda7e25d-a636-4ceb-ae47-c74435f9483a.xml, display.videoportstallexecution, video/VideoPortStallExecution
 ms.prod: windows-hardware
 ms.technology: windows-devices

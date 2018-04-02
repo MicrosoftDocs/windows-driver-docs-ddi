@@ -7,7 +7,7 @@ old-location: buses\usbd_querybustime.htm
 old-project: usbref
 ms.assetid: ae59daf6-da7b-4b04-bb5c-dfd353b937a0
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: USBD_QueryBusTime, USBD_QueryBusTime routine [Buses], buses.usbd_querybustime, usbdlib/USBD_QueryBusTime, usbfunc_2911ce15-3106-4c66-95c8-52ff57318131.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

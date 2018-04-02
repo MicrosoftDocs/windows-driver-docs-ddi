@@ -7,7 +7,7 @@ old-location: buses\_ucxusbdeviceremotewakenotification.htm
 old-project: usbref
 ms.assetid: 0C95831F-2E20-461C-8478-9A40C1F063E2
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: UcxUsbDeviceRemoteWakeNotification, UcxUsbDeviceRemoteWakeNotification method [Buses], buses._ucxusbdeviceremotewakenotification, ucxusbdevice/UcxUsbDeviceRemoteWakeNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices

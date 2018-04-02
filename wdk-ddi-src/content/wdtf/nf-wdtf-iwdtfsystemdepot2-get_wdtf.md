@@ -7,7 +7,7 @@ old-location: dtf\iwdtfsystemdepot2_wdtf.htm
 old-project: dtf
 ms.assetid: e742b493-64ee-4311-b6f0-512b44e776f4
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 3/29/2018
 ms.keywords: IWDTFSystemDepot2, IWDTFSystemDepot2 interface [Windows Device Testing Framework], WDTF property, IWDTFSystemDepot2.WDTF, IWDTFSystemDepot2::get_WDTF, Microsoft.WDTF.IWDTFSystemDepot2.WDTF, Microsoft::WDTF::IWDTFSystemDepot2::WDTF, WDTF property [Windows Device Testing Framework], WDTF property [Windows Device Testing Framework], IWDTFSystemDepot2 interface, dtf.iwdtfsystemdepot2_wdtf, get_WDTF,IWDTFSystemDepot2.get_WDTF, wdtf/IWDTFSystemDepot2::WDTF, wdtf/IWDTFSystemDepot2::get_WDTF
 ms.prod: windows-hardware
 ms.technology: windows-devices

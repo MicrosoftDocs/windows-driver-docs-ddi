@@ -7,7 +7,7 @@ old-location: storage\logintotarget_in.htm
 old-project: storage
 ms.assetid: f25b503b-0182-452d-8561-b3c82f595f81
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PLoginToTarget_IN, LoginToTarget_IN, LoginToTarget_IN structure [Storage Devices], PLoginToTarget_IN, PLoginToTarget_IN structure pointer [Storage Devices], _LoginToTarget_IN, iscsiop/LoginToTarget_IN, iscsiop/PLoginToTarget_IN, storage.logintotarget_in, structs-iSCSI_b6201f88-03aa-41bf-a92b-eb9e95103911.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices

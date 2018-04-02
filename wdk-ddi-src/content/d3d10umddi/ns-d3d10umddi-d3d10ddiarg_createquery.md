@@ -7,7 +7,7 @@ old-location: display\d3d10ddiarg_createquery.htm
 old-project: display
 ms.assetid: 1042f401-fbdd-47ee-8cfc-1bca331ac722
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3D10DDIARG_CREATEQUERY, D3D10DDIARG_CREATEQUERY structure [Display Devices], UMDisplayDriver_Dx10param_Structs_92f45053-c4aa-4bcd-b2ab-570aaf95cfe3.xml, d3d10umddi/D3D10DDIARG_CREATEQUERY, display.d3d10ddiarg_createquery
 ms.prod: windows-hardware
 ms.technology: windows-devices

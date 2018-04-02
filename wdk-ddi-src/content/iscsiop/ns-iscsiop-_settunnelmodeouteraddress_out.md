@@ -7,7 +7,7 @@ old-location: storage\settunnelmodeouteraddress_out.htm
 old-project: storage
 ms.assetid: 2cfe935f-eba4-48aa-869d-6381ca038e70
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PSetTunnelModeOuterAddress_OUT, PSetTunnelModeOuterAddress_OUT, PSetTunnelModeOuterAddress_OUT structure pointer [Storage Devices], SetTunnelModeOuterAddress_OUT, SetTunnelModeOuterAddress_OUT structure [Storage Devices], _SetTunnelModeOuterAddress_OUT, iscsiop/PSetTunnelModeOuterAddress_OUT, iscsiop/SetTunnelModeOuterAddress_OUT, storage.settunnelmodeouteraddress_out, structs-iSCSI_918f9bb3-ee9f-41d3-8e9e-c18a673a4302.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: display\d3dddicb_signalsynchronizationobject.htm
 old-project: display
 ms.assetid: 08fbcc15-f40f-46de-b3ff-603bc1476d97
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDICB_SIGNALSYNCHRONIZATIONOBJECT, D3DDDICB_SIGNALSYNCHRONIZATIONOBJECT structure [Display Devices], D3D_param_Structs_347963a7-4c6b-478e-9a2f-e708a807cac6.xml, _D3DDDICB_SIGNALSYNCHRONIZATIONOBJECT, d3dumddi/D3DDDICB_SIGNALSYNCHRONIZATIONOBJECT, display.d3dddicb_signalsynchronizationobject
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: storage\storportinitializespinlock.htm
 old-project: storage
 ms.assetid: 150B1ED3-572A-4986-BED6-628ED6C54CCF
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: StorPortInitializeSpinlock, StorPortInitializeSpinlock routine [Storage Devices], storage.storportinitializespinlock, storport/StorPortInitializeSpinlock
 ms.prod: windows-hardware
 ms.technology: windows-devices

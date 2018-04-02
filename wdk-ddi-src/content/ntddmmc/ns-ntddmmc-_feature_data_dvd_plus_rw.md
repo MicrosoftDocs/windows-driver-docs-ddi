@@ -7,7 +7,7 @@ old-location: storage\feature_data_dvd_plus_rw.htm
 old-project: storage
 ms.assetid: 55cbef36-dea7-4f7c-ac43-fb819b61a858
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PFEATURE_DATA_DVD_PLUS_RW, FEATURE_DATA_DVD_PLUS_RW, FEATURE_DATA_DVD_PLUS_RW structure [Storage Devices], PFEATURE_DATA_DVD_PLUS_RW, PFEATURE_DATA_DVD_PLUS_RW structure pointer [Storage Devices], _FEATURE_DATA_DVD_PLUS_RW, ntddmmc/FEATURE_DATA_DVD_PLUS_RW, ntddmmc/PFEATURE_DATA_DVD_PLUS_RW, storage.feature_data_dvd_plus_rw, structs-CD-ROM_8b49bf86-5e1a-42a3-9bb6-ba6afca60375.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices

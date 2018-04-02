@@ -7,7 +7,7 @@ old-location: buses\_urb_control_vendor_or_class_request.htm
 old-project: usbref
 ms.assetid: 3d355489-cc70-4fa1-b08f-08ccf84f5490
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: USBD_SHORT_TRANSFER_OK, USBD_TRANSFER_DIRECTION_IN, _URB_CONTROL_VENDOR_OR_CLASS_REQUEST, _URB_CONTROL_VENDOR_OR_CLASS_REQUEST structure [Buses], buses._urb_control_vendor_or_class_request, usb/_URB_CONTROL_VENDOR_OR_CLASS_REQUEST, usbstrct_d0af3922-2ab9-480d-b508-d7b3ce850f53.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

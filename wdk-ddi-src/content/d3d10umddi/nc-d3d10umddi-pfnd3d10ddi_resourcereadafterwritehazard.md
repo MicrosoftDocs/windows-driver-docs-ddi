@@ -7,7 +7,7 @@ old-location: display\resourcereadafterwritehazard.htm
 old-project: display
 ms.assetid: 4d7dd4f5-9792-48cb-bf69-3903ac9dda75
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3D10DDI_RESOURCEREADAFTERWRITEHAZARD, ResourceReadAfterWriteHazard, ResourceReadAfterWriteHazard callback function [Display Devices], UserModeDisplayDriverDx10_Functions_6a240dd4-86e0-4876-b4c3-8dd2d3f086e8.xml, d3d10umddi/ResourceReadAfterWriteHazard, display.resourcereadafterwritehazard
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: netvista\net_dma_channel_parameters.htm
 old-project: netvista
 ms.assetid: 0d09a9e9-06c5-4026-9053-ac74a59509cc
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*PNET_DMA_CHANNEL_PARAMETERS, NET_DMA_CHANNEL_PARAMETERS, NET_DMA_CHANNEL_PARAMETERS structure [Network Drivers Starting with Windows Vista], NetDmaTransferStatusActive, NetDmaTransferStatusArmed, NetDmaTransferStatusHalted, NetDmaTransferStatusIdle, NetDmaTransferStatusSuspend, PNET_DMA_CHANNEL_PARAMETERS, PNET_DMA_CHANNEL_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NET_DMA_CHANNEL_PARAMETERS, netdma/NET_DMA_CHANNEL_PARAMETERS, netdma/PNET_DMA_CHANNEL_PARAMETERS, netdma_ref_021ebc64-529e-4588-b5ff-83ed04aa9478.xml, netvista.net_dma_channel_parameters"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -245,8 +245,3 @@ The NetDMA interface supplies a <b>NET_DMA_CHANNEL_PARAMETERS</b> structure at t
 
  
 
-<<<<<<< HEAD
-=======
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NET_DMA_CHANNEL_PARAMETERS structure%20 RELEASE:%20(2/27/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
-
->>>>>>> parent of 2d896a8e266... Added changes

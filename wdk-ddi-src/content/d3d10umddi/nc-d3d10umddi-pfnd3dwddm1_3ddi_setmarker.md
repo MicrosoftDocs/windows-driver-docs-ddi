@@ -7,7 +7,7 @@ old-location: display\setmarker.htm
 old-project: display
 ms.assetid: BE618B0C-18E7-4B2B-87EB-172DAD9BCE15
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3DWDDM1_3DDI_SETMARKER, SetMarker, SetMarker callback function [Display Devices], d3d10umddi/SetMarker, display.setmarker
 ms.prod: windows-hardware
 ms.technology: windows-devices

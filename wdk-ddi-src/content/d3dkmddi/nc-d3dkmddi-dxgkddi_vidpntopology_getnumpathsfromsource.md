@@ -7,7 +7,7 @@ old-location: display\dxgk_vidpntopology_interface_pfngetnumpathsfromsource.htm
 old-project: display
 ms.assetid: 6c5ee84d-e106-47fc-88bd-b184e9cdd561
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKDDI_VIDPNTOPOLOGY_GETNUMPATHSFROMSOURCE, VidPnFunctions_6c0bd823-4803-474c-9948-22282c5b1e66.xml, d3dkmddi/pfnGetNumPathsFromSource, display.dxgk_vidpntopology_interface_pfngetnumpathsfromsource, pfnGetNumPathsFromSource, pfnGetNumPathsFromSource callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices

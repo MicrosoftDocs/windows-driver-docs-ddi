@@ -7,7 +7,7 @@ old-location: ifsk\flt_related_objects.htm
 old-project: ifsk
 ms.assetid: dd1730f5-58ff-4d0d-9a00-17cd1fe36c5f
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: "*PFLT_RELATED_OBJECTS, FLT_RELATED_OBJECTS, FLT_RELATED_OBJECTS structure [Installable File System Drivers], FltSystemStructures_24fcdf06-9d2e-41bf-89f8-08cb37782089.xml, PFLT_RELATED_OBJECTS, PFLT_RELATED_OBJECTS structure pointer [Installable File System Drivers], _FLT_RELATED_OBJECTS, fltkernel/FLT_RELATED_OBJECTS, fltkernel/PFLT_RELATED_OBJECTS, ifsk.flt_related_objects"
 ms.prod: windows-hardware
 ms.technology: windows-devices

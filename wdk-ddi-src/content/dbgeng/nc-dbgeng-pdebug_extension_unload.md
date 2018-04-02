@@ -7,7 +7,7 @@ old-location: debugger\debugextensionunload.htm
 old-project: debugger
 ms.assetid: 8F83F94E-CF4F-4709-A860-DDF1850A7264
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: DebugExtensionUnload, DebugExtensionUnload callback function [Windows Debugging], PDEBUG_EXTENSION_UNLOAD, dbgeng/DebugExtensionUnload, debugger.debugextensionunload
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -105,8 +105,3 @@ If and only if <a href="https://msdn.microsoft.com/6CF651D7-7F5F-4622-8FDF-8BFF4
 
  
 
-<<<<<<< HEAD
-=======
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20PDEBUG_EXTENSION_UNLOAD callback function%20 RELEASE:%20(2/27/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
-
->>>>>>> parent of 2d896a8e266... Added changes

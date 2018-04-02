@@ -7,7 +7,7 @@ old-location: ifsk\seclookupaccountsid.htm
 old-project: ifsk
 ms.assetid: 7237a041-46e0-4211-97c1-96d309ada602
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: SecLookupAccountSid, SecLookupAccountSid function [Installable File System Drivers], ifsk.seclookupaccountsid, ksecddref_ba65e59c-5c9a-47bb-bf2c-9b3b8c727bb6.xml, ntifs/SecLookupAccountSid
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: display\dxgk_child_status.htm
 old-project: display
 ms.assetid: e2aba049-b51f-49b9-b0bb-c98c318dea86
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PDXGK_CHILD_STATUS, DXGK_CHILD_STATUS, DXGK_CHILD_STATUS structure [Display Devices], DmStructs_9a370d5a-9ca8-4c4f-a5cf-3361847d65e7.xml, PDXGK_CHILD_STATUS, PDXGK_CHILD_STATUS structure pointer [Display Devices], _DXGK_CHILD_STATUS, display.dxgk_child_status, dispmprt/DXGK_CHILD_STATUS, dispmprt/PDXGK_CHILD_STATUS"
 ms.prod: windows-hardware
 ms.technology: windows-devices

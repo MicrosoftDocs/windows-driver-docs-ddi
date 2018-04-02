@@ -7,7 +7,7 @@ old-location: storage\sm_gettargetmapping_in.htm
 old-project: storage
 ms.assetid: d6f73582-5eaf-452f-ad5a-cdf5ab99d809
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PSM_GetTargetMapping_IN, PSM_GetTargetMapping_IN, PSM_GetTargetMapping_IN structure pointer [Storage Devices], SM_GetTargetMapping_IN, SM_GetTargetMapping_IN structure [Storage Devices], _SM_GetTargetMapping_IN, hbapiwmi/PSM_GetTargetMapping_IN, hbapiwmi/SM_GetTargetMapping_IN, storage.sm_gettargetmapping_in, structs-Fibre_0109f5f0-dd0c-4a30-8b0a-aa33a54b5a61.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices

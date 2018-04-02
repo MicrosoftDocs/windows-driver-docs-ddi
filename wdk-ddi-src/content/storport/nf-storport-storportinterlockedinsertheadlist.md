@@ -7,7 +7,7 @@ old-location: storage\storportinterlockedinsertheadlist.htm
 old-project: storage
 ms.assetid: 13874D19-4835-41B4-B58C-2B25D619607C
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: StorPortInterlockedInsertHeadList, StorPortInterlockedInsertHeadList routine [Storage Devices], storage.storportinterlockedinsertheadlist, storport/StorPortInterlockedInsertHeadList
 ms.prod: windows-hardware
 ms.technology: windows-devices

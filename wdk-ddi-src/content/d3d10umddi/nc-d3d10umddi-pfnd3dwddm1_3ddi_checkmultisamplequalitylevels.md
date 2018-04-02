@@ -7,7 +7,7 @@ old-location: display\checkmultisamplequalitylevels_d3d11_2_.htm
 old-project: display
 ms.assetid: A3AD5F2F-4FB9-407C-A436-A0B5F96002D7
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: CheckMultisampleQualityLevels, CheckMultisampleQualityLevels callback function [Display Devices], PFND3DWDDM1_3DDI_CHECKMULTISAMPLEQUALITYLEVELS, d3d10umddi/CheckMultisampleQualityLevels, display.checkmultisamplequalitylevels_d3d11_2_
 ms.prod: windows-hardware
 ms.technology: windows-devices

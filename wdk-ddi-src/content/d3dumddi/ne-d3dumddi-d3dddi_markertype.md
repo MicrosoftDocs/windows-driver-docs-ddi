@@ -7,7 +7,7 @@ old-location: display\d3dddi_markertype.htm
 old-project: display
 ms.assetid: 55A48F87-B96C-42E7-B9B4-3C829097CAE9
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDIMT_NONE, D3DDDIMT_PROFILE, D3DDDI_MARKERTYPE, D3DDDI_MARKERTYPE enumeration [Display Devices], d3dumddi/D3DDDIMT_NONE, d3dumddi/D3DDDIMT_PROFILE, d3dumddi/D3DDDI_MARKERTYPE, display.d3dddi_markertype
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: ifsk\fsrtllookuplastlargemcbentryandindex.htm
 old-project: ifsk
 ms.assetid: 53c3109d-16e4-4db4-9c62-27c6d8501707
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FsRtlLookupLastLargeMcbEntryAndIndex, FsRtlLookupLastLargeMcbEntryAndIndex routine [Installable File System Drivers], fsrtlref_d7148458-8a3c-4633-8be3-578623ba4d01.xml, ifsk.fsrtllookuplastlargemcbentryandindex, ntifs/FsRtlLookupLastLargeMcbEntryAndIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices

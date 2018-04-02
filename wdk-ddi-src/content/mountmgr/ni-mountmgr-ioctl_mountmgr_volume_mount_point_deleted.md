@@ -7,7 +7,7 @@ old-location: storage\ioctl_mountmgr_volume_mount_point_deleted.htm
 old-project: storage
 ms.assetid: 8a436053-87c2-4fa2-9280-7035a990d0b4
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_MOUNTMGR_VOLUME_MOUNT_POINT_DELETED, IOCTL_MOUNTMGR_VOLUME_MOUNT_POINT_DELETED control code [Storage Devices], k307_fce8de67-6c3d-4e89-8259-a7058c968c62.xml, mountmgr/IOCTL_MOUNTMGR_VOLUME_MOUNT_POINT_DELETED, storage.ioctl_mountmgr_volume_mount_point_deleted
 ms.prod: windows-hardware
 ms.technology: windows-devices

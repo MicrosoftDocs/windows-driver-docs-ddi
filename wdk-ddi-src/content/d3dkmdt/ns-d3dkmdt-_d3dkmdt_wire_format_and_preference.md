@@ -7,7 +7,7 @@ old-location: display\d3dkmdt_wire_format_and_preference.htm
 old-project: display
 ms.assetid: 24CC6A10-6462-4681-B340-E887B679F456
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PD3DKMDT_WIRE_FORMAT_AND_PREFERENCE, D3DKMDT_WIRE_FORMAT_AND_PREFERENCE, D3DKMDT_WIRE_FORMAT_AND_PREFERENCE union [Display Devices], PD3DKMDT_WIRE_FORMAT_AND_PREFERENCE, PD3DKMDT_WIRE_FORMAT_AND_PREFERENCE union pointer [Display Devices], _D3DKMDT_WIRE_FORMAT_AND_PREFERENCE, d3dkmdt/D3DKMDT_WIRE_FORMAT_AND_PREFERENCE, d3dkmdt/PD3DKMDT_WIRE_FORMAT_AND_PREFERENCE, display.d3dkmdt_wire_format_and_preference"
 ms.prod: windows-hardware
 ms.technology: windows-devices

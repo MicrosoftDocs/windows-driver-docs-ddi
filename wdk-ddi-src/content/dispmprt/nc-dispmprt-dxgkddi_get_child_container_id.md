@@ -7,7 +7,7 @@ old-location: display\dxgkddigetchildcontainerid.htm
 old-project: display
 ms.assetid: e7073fb3-0cb7-425e-9ffb-d7eaa963a70f
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKDDI_GET_CHILD_CONTAINER_ID, DxgkDdiGetChildContainerId, DxgkDdiGetChildContainerId callback function [Display Devices], display.dxgkddigetchildcontainerid, dispmprt/DxgkDdiGetChildContainerId
 ms.prod: windows-hardware
 ms.technology: windows-devices

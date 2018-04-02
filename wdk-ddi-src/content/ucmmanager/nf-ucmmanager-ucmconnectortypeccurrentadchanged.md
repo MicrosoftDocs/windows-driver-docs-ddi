@@ -7,7 +7,7 @@ old-location: buses\ucmconnectortypeccurrentadchanged.htm
 old-project: usbref
 ms.assetid: 26C4D840-2287-4DC2-B039-FD8D2FB92288
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: UcmConnectorTypeCCurrentAdChanged, UcmConnectorTypeCCurrentAdChanged method [Buses], buses.ucmconnectortypeccurrentadchanged, ucmmanager/UcmConnectorTypeCCurrentAdChanged
 ms.prod: windows-hardware
 ms.technology: windows-devices

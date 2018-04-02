@@ -7,7 +7,7 @@ old-location: netvista\rilsubaddress.htm
 old-project: netvista
 ms.assetid: 0a1f9e89-df17-4802-9685-06a2eedbc0e5
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*LPRILSUBADDRESS, RILSUBADDRESS, RILSUBADDRESS structure [Network Drivers Starting with Windows Vista], netvista.rilsubaddress, ntddrilapitypes/RILSUBADDRESS"
 ms.prod: windows-hardware
 ms.technology: windows-devices

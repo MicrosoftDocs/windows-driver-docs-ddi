@@ -7,7 +7,7 @@ old-location: storage\scsiportgetbusdata.htm
 old-project: storage
 ms.assetid: 43d30c99-9f9e-4516-8c50-e096f760a774
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: ScsiPortGetBusData, ScsiPortGetBusData routine [Storage Devices], scsiprt_85566dfe-b1b6-4b6d-9f80-69fbdd82904a.xml, srb/ScsiPortGetBusData, storage.scsiportgetbusdata
 ms.prod: windows-hardware
 ms.technology: windows-devices

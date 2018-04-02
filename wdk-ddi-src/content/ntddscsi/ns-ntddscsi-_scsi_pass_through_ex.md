@@ -7,7 +7,7 @@ old-location: storage\scsi_pass_through_ex.htm
 old-project: storage
 ms.assetid: 3D00B42C-7320-4044-BA7D-71A9BD05B30E
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PSCSI_PASS_THROUGH_EX, PSCSI_PASS_THROUGH_EX, PSCSI_PASS_THROUGH_EX structure pointer [Storage Devices], SCSI_PASS_THROUGH_EX, SCSI_PASS_THROUGH_EX structure [Storage Devices], _SCSI_PASS_THROUGH_EX, ntddscsi/PSCSI_PASS_THROUGH_EX, ntddscsi/SCSI_PASS_THROUGH_EX, storage.scsi_pass_through_ex"
 ms.prod: windows-hardware
 ms.technology: windows-devices

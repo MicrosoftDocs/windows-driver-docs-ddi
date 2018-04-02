@@ -7,7 +7,7 @@ old-location: storage\ioctl_storage_load_media2.htm
 old-project: storage
 ms.assetid: ba458d46-9b5f-4ee3-80fa-59277e97fb4a
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_STORAGE_LOAD_MEDIA2, IOCTL_STORAGE_LOAD_MEDIA2 control code [Storage Devices], k307_3952f49a-8ca1-42eb-afd0-cb0e6eef66fc.xml, ntddstor/IOCTL_STORAGE_LOAD_MEDIA2, storage.ioctl_storage_load_media2
 ms.prod: windows-hardware
 ms.technology: windows-devices

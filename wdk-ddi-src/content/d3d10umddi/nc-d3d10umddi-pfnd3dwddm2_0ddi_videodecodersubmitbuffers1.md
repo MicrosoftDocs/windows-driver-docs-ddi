@@ -7,7 +7,7 @@ old-location: display\videodecodersubmitbuffers1.htm
 old-project: display
 ms.assetid: 708A7F64-F8A8-4D0B-A824-CC8DD158216A
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3DWDDM2_0DDI_VIDEODECODERSUBMITBUFFERS1, d3d10umddi/pfnVideoDecoderSubmitBuffers1, display.videodecodersubmitbuffers1, pfnVideoDecoderSubmitBuffers1, pfnVideoDecoderSubmitBuffers1 callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices

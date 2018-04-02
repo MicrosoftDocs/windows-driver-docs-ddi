@@ -7,7 +7,7 @@ old-location: display\d3dddi_multiplane_overlay_blend.htm
 old-project: display
 ms.assetid: 1ee411f2-1779-41bd-808c-40639bb22662
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDI_MULTIPLANE_OVERLAY_BLEND, D3DDDI_MULTIPLANE_OVERLAY_BLEND enumeration [Display Devices], D3DDDI_MULTIPLANE_OVERLAY_BLEND_ALPHABLEND, D3DDDI_MULTIPLANE_OVERLAY_BLEND_OPAQUE, _D3DDDI_MULTIPLANE_OVERLAY_BLEND, d3dumddi/D3DDDI_MULTIPLANE_OVERLAY_BLEND, d3dumddi/D3DDDI_MULTIPLANE_OVERLAY_BLEND_ALPHABLEND, d3dumddi/D3DDDI_MULTIPLANE_OVERLAY_BLEND_OPAQUE, display.d3dddi_multiplane_overlay_blend
 ms.prod: windows-hardware
 ms.technology: windows-devices

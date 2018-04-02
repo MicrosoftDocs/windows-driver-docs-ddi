@@ -3,12 +3,12 @@ UID: NI:gnssdriver.IOCTL_GNSS_POP_BREADCRUMBS
 title: IOCTL_GNSS_POP_BREADCRUMBS
 author: windows-driver-content
 description: The IOCTL_GNSS_POP_BREADCRUMBS control code is used to request a list of breadcrumbs contained in GNSS_BREADCRUMB_LIST.
-old-location: gnss\ioctl_gnss_pop_breadcrumbs_.htm
-old-project: gnss
+old-location: sensors\ioctl_gnss_pop_breadcrumbs_.htm
+old-project: sensors
 ms.assetid: D5F7ACDC-25A0-49A4-95D4-C48B3E94CF69
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IOCTL_GNSS_POP_BREADCRUMBS, IOCTL_GNSS_POP_BREADCRUMBS control code [Sensor Devices], gnss.ioctl_gnss_pop_breadcrumbs_, gnssdriver/IOCTL_GNSS_POP_BREADCRUMBS
+ms.date: 2/22/2018
+ms.keywords: IOCTL_GNSS_POP_BREADCRUMBS, IOCTL_GNSS_POP_BREADCRUMBS control code [Sensor Devices], gnssdriver/IOCTL_GNSS_POP_BREADCRUMBS, sensors.ioctl_gnss_pop_breadcrumbs_
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -46,15 +46,10 @@ req.typenames: GNSS_SUPL_CERT_ACTION
 # IOCTL_GNSS_POP_BREADCRUMBS IOCTL
 
 
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
-
 ## -description
 
 
-The <b>IOCTL_GNSS_POP_BREADCRUMBS</b> control code is used to request a list of breadcrumbs contained in <a href="..\gnssdriver\ns-gnssdriver-gnss_breadcrumb_list.md">GNSS_BREADCRUMB_LIST</a>.
+The <b>IOCTL_GNSS_POP_BREADCRUMBS</b> control code is used to request a list of breadcrumbs contained in <a href="https://msdn.microsoft.com/library/windows/hardware/mt767989">GNSS_BREADCRUMB_LIST</a>.
 
 
 ## -ioctlparameters
@@ -113,22 +108,22 @@ Size of the output buffer.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff542894">Creating IOCTL Requests in Drivers</a>
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548651">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548656">WdfIoTargetSendInternalIoctlSynchronously</a>
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548660">WdfIoTargetSendIoctlSynchronously</a>
  
 
  

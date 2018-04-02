@@ -7,7 +7,7 @@ old-location: storage\lba_filter_table.htm
 old-project: storage
 ms.assetid: 656A413C-C0EF-4847-93F5-02DCCF40F348
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PLBA_FILTER_TABLE, LBA_FILTER_TABLE, LBA_FILTER_TABLE structure [Storage Devices], PLBA_FILTER_TABLE, PLBA_FILTER_TABLE structure pointer [Storage Devices], _LBA_FILTER_TABLE, ehstorioctl/LBA_FILTER_TABLE, ehstorioctl/PLBA_FILTER_TABLE, storage.lba_filter_table"
 ms.prod: windows-hardware
 ms.technology: windows-devices

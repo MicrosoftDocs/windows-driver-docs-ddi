@@ -7,7 +7,7 @@ old-location: display\d3dkmt_createcontext.htm
 old-project: display
 ms.assetid: 867705b9-a721-48a6-b1bc-6a75d5a03a21
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMT_CREATECONTEXT, D3DKMT_CREATECONTEXT structure [Display Devices], OpenGL_Structs_5a3cc128-be06-4189-a389-95813c2d3e28.xml, _D3DKMT_CREATECONTEXT, d3dkmthk/D3DKMT_CREATECONTEXT, display.d3dkmt_createcontext
 ms.prod: windows-hardware
 ms.technology: windows-devices

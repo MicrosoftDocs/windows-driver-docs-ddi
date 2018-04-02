@@ -7,7 +7,7 @@ old-location: display\d3dddiarg_drawrectpatch.htm
 old-project: display
 ms.assetid: 9e850fc5-a46a-4bd1-97a0-7ecc86102480
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDIARG_DRAWRECTPATCH, D3DDDIARG_DRAWRECTPATCH structure [Display Devices], UMDisplayDriver_param_Structs_fc791424-dcfb-470b-a0d0-04534452707a.xml, _D3DDDIARG_DRAWRECTPATCH, d3dumddi/D3DDDIARG_DRAWRECTPATCH, display.d3dddiarg_drawrectpatch
 ms.prod: windows-hardware
 ms.technology: windows-devices

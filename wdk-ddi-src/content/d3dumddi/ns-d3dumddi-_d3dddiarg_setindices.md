@@ -7,7 +7,7 @@ old-location: display\d3dddiarg_setindices.htm
 old-project: display
 ms.assetid: 9a0b8706-91ba-42a5-aaa2-0381931d64f0
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDIARG_SETINDICES, D3DDDIARG_SETINDICES structure [Display Devices], UMDisplayDriver_param_Structs_68458ee2-76c8-41c5-b610-47ef40874c1e.xml, _D3DDDIARG_SETINDICES, d3dumddi/D3DDDIARG_SETINDICES, display.d3dddiarg_setindices
 ms.prod: windows-hardware
 ms.technology: windows-devices

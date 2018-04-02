@@ -7,7 +7,7 @@ old-location: display\hwvidsetpowerstate.htm
 old-project: display
 ms.assetid: d7800ab6-9d8f-47a7-b919-8b6b0197d163
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: HwVidSetPowerState, HwVidSetPowerState callback function [Display Devices], PVIDEO_HW_POWER_SET, VideoMiniport_Functions_22a6c5ae-0c31-48a6-8882-06edfea32c1a.xml, display.hwvidsetpowerstate, video/HwVidSetPowerState
 ms.prod: windows-hardware
 ms.technology: windows-devices

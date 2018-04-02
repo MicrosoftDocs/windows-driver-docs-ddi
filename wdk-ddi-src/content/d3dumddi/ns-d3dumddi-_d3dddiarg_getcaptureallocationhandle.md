@@ -7,7 +7,7 @@ old-location: display\d3dddiarg_getcaptureallocationhandle.htm
 old-project: display
 ms.assetid: 588ebf7a-db83-4eb8-8403-04b215bed12b
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDIARG_GETCAPTUREALLOCATIONHANDLE, D3DDDIARG_GETCAPTUREALLOCATIONHANDLE structure [Display Devices], UMDisplayDriver_param_Structs_8fece49c-e3e6-4683-b4af-517da6f73cc7.xml, _D3DDDIARG_GETCAPTUREALLOCATIONHANDLE, d3dumddi/D3DDDIARG_GETCAPTUREALLOCATIONHANDLE, display.d3dddiarg_getcaptureallocationhandle
 ms.prod: windows-hardware
 ms.technology: windows-devices

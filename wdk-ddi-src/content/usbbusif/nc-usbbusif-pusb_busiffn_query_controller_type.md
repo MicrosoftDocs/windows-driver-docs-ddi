@@ -7,7 +7,7 @@ old-location: buses\querycontrollertype.htm
 old-project: usbref
 ms.assetid: a3155544-cfb6-41a6-9d75-82618f7c7a48
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: PUSB_BUSIFFN_QUERY_CONTROLLER_TYPE, QueryControllerType, QueryControllerType callback function [Buses], USB_BUSIFFN_QUERY_CONTROLLER_TYPE, buses.querycontrollertype, usbbusif/QueryControllerType
 ms.prod: windows-hardware
 ms.technology: windows-devices

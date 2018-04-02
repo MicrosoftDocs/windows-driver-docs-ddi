@@ -40,7 +40,7 @@ api_name:
 -	CLIENT_QueryEnabledInterrupts
 product: Windows
 targetos: Windows
-req.typenames: FWPS_CONNECT_REQUEST0
+req.typenames: GNSS_V2UPL_NI_INFO, *PGNSS_V2UPL_NI_INFO
 ---
 
 # GPIO_CLIENT_QUERY_ENABLED_INTERRUPTS callback

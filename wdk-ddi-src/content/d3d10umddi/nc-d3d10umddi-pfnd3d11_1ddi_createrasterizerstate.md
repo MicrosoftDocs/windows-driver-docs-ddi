@@ -7,7 +7,7 @@ old-location: display\createrasterizerstate_d3d11_1_.htm
 old-project: display
 ms.assetid: 5640e1c9-6a38-4eca-9048-0bc9ff66c43c
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: CreateRasterizerState(D3D11_1), CreateRasterizerState(D3D11_1) callback function [Display Devices], PFND3D11_1DDI_CREATERASTERIZERSTATE, d3d10umddi/CreateRasterizerState(D3D11_1), display.createrasterizerstate_d3d11_1_, display.pfncreaterasterizerstate
 ms.prod: windows-hardware
 ms.technology: windows-devices

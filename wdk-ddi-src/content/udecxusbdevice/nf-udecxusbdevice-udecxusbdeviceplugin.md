@@ -7,7 +7,7 @@ old-location: buses\udecxusbdeviceplugin.htm
 old-project: usbref
 ms.assetid: 6F1A1545-5B64-4481-B795-0B6433304C06
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: UdecxUsbDevicePlugIn, UdecxUsbDevicePlugIn function [Buses], buses.udecxusbdeviceplugin, udecxusbdevice/UdecxUsbDevicePlugIn
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: storage\sm_sendtest_out.htm
 old-project: storage
 ms.assetid: e24a2498-7f33-435c-97ad-e4ae283580c2
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PSM_SendTEST_OUT, PSM_SendTEST_OUT, PSM_SendTEST_OUT structure pointer [Storage Devices], SM_SendTEST_OUT, SM_SendTEST_OUT structure [Storage Devices], _SM_SendTEST_OUT, hbapiwmi/PSM_SendTEST_OUT, hbapiwmi/SM_SendTEST_OUT, storage.sm_sendtest_out, structs-Fibre_901c8256-fe8d-4194-aaec-8a0557287687.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices

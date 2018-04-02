@@ -7,7 +7,7 @@ old-location: ifsk\pdriver_fs_notification.htm
 old-project: ifsk
 ms.assetid: 571aaa9b-8620-46ff-af29-19b00804e0ad
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: DRIVER_FS_NOTIFICATION, DriverNotificationRoutine, DriverNotificationRoutine routine [Installable File System Drivers], FilterCallbacks_5b421108-0db7-47ba-afba-3a8b79a61d66.xml, ifsk.pdriver_fs_notification, ntifs/DriverNotificationRoutine
 ms.prod: windows-hardware
 ms.technology: windows-devices

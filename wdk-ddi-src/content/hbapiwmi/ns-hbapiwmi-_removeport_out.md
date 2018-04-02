@@ -7,7 +7,7 @@ old-location: storage\removeport_out.htm
 old-project: storage
 ms.assetid: 89cb75e4-5e3b-4277-b173-abed00a7360b
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PRemovePort_OUT, PRemovePort_OUT, PRemovePort_OUT structure pointer [Storage Devices], RemovePort_OUT, RemovePort_OUT structure [Storage Devices], _RemovePort_OUT, hbapiwmi/PRemovePort_OUT, hbapiwmi/RemovePort_OUT, storage.removeport_out, structs-Fibre_dc8be161-745b-4919-9227-e333933482cf.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices

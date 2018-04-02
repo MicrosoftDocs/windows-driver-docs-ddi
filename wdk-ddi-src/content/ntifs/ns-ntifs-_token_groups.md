@@ -7,7 +7,7 @@ old-location: ifsk\token_groups.htm
 old-project: ifsk
 ms.assetid: 08faebdf-7e6d-4da4-a4c2-a0b57de437ce
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: "*PTOKEN_GROUPS, PTOKEN_GROUPS, PTOKEN_GROUPS structure pointer [Installable File System Drivers], TOKEN_GROUPS, TOKEN_GROUPS structure [Installable File System Drivers], _TOKEN_GROUPS, ifsk.token_groups, ntifs/PTOKEN_GROUPS, ntifs/TOKEN_GROUPS, securitystructures_97d0491f-87b4-4e76-8252-fad37cc94c1c.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices

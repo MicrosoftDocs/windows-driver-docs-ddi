@@ -7,7 +7,7 @@ old-location: display\dxva_bufferdescription.htm
 old-project: display
 ms.assetid: 34b1585d-ceba-4e13-b5c1-70ce29a940c5
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*LPDXVA_BufferDescription, DXVA_BufferDescription, DXVA_BufferDescription structure [Display Devices], LPDXVA_BufferDescription, LPDXVA_BufferDescription structure pointer [Display Devices], _DXVA_BufferDescription, display.dxva_bufferdescription, dxva/DXVA_BufferDescription, dxva/LPDXVA_BufferDescription, dxvaref_3d6f62c8-77a1-40b0-8bf3-1a82deaf3020.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices

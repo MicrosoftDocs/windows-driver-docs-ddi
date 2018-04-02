@@ -7,7 +7,7 @@ old-location: display\calcprivatecryptosessionsize.htm
 old-project: display
 ms.assetid: 9ca0fdd5-a724-4d5d-81b2-8885b2aed1ca
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: CalcPrivateCryptoSessionSize, CalcPrivateCryptoSessionSize callback function [Display Devices], PFND3D11_1DDI_CALCPRIVATECRYPTOSESSIONSIZE, d3d10umddi/CalcPrivateCryptoSessionSize, display.calcprivatecryptosessionsize
 ms.prod: windows-hardware
 ms.technology: windows-devices

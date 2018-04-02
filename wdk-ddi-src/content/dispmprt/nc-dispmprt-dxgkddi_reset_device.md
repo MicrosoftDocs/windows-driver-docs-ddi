@@ -7,7 +7,7 @@ old-location: display\dxgkddiresetdevice.htm
 old-project: display
 ms.assetid: e757e63d-6d78-4b20-9471-290f56c1bcde
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKDDI_RESET_DEVICE, DmFunctions_70e9fe99-65be-47a5-bb9a-fac4e10d3ae9.xml, DxgkDdiResetDevice, DxgkDdiResetDevice callback function [Display Devices], display.dxgkddiresetdevice, dispmprt/DxgkDdiResetDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices

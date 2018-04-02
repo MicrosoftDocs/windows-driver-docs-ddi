@@ -52,25 +52,6 @@ req.typenames: WHEA_ERROR_PACKET_FLAGS, *PWHEA_ERROR_PACKET_FLAGS
 The WHEA_ERROR_PACKET_FLAGS union defines the error condition reported through a <a href="https://msdn.microsoft.com/library/windows/hardware/ff560465">WHEA_ERROR_PACKET</a> structure.
 
 
-## -syntax
-
-
-````
-typedef union _WHEA_ERROR_PACKET_FLAGS {
-  struct {
-    ULONG PreviousError  :1;
-    ULONG Reserved1  :1;
-    ULONG HypervisorError  :1;
-    ULONG Simulated  :1;
-    ULONG PlatformPfaControl  :1;
-    ULONG PlatformDirectedOffline  :1;
-    ULONG Reserved2  :26;
-  };
-  ULONG  AsULONG;
-} WHEA_ERROR_PACKET_FLAGS, *PWHEA_ERROR_PACKET_FLAGS;
-````
-
-
 ## -struct-fields
 
 
@@ -149,7 +130,6 @@ The WHEA_ERROR_PACKET_FLAGS union describes the error condition reported by usin
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560465">WHEA_ERROR_PACKET</a>
 
 
 
@@ -157,9 +137,8 @@ The WHEA_ERROR_PACKET_FLAGS union describes the error condition reported by usin
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560465">WHEA_ERROR_PACKET</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [whea\whea]:%20WHEA_ERROR_PACKET_FLAGS union%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,7 +7,7 @@ old-location: display\dxgkddi_displaydetectcontrol.htm
 old-project: display
 ms.assetid: 6F10EA4D-BCDE-475E-9937-414CB83F6F2F
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKDDI_DISPLAYDETECTCONTROL, DXGKDDI_DISPLAYDETECTCONTROL callback function [Display Devices], d3dkmddi/DXGKDDI_DISPLAYDETECTCONTROL, display.dxgkddi_displaydetectcontrol
 ms.prod: windows-hardware
 ms.technology: windows-devices

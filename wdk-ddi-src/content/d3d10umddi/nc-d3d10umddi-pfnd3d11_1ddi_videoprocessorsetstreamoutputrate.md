@@ -7,7 +7,7 @@ old-location: display\videoprocessorsetstreamoutputrate.htm
 old-project: display
 ms.assetid: fc1236f2-fcbf-4b3f-978f-a34260b78159
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMOUTPUTRATE, d3d10umddi/pfnVideoProcessorSetStreamOutputRate, display.videoprocessorsetstreamoutputrate, pfnVideoProcessorSetStreamOutputRate, pfnVideoProcessorSetStreamOutputRate callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices

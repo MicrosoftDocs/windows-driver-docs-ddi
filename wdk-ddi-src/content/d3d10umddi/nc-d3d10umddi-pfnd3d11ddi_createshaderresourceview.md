@@ -7,7 +7,7 @@ old-location: display\createshaderresourceview_d3d11_.htm
 old-project: display
 ms.assetid: 7ca462c7-ec43-4af7-92c8-ed69e5d324e2
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: CreateShaderResourceView, CreateShaderResourceView callback function [Display Devices], PFND3D11DDI_CREATESHADERRESOURCEVIEW, UserModeDisplayDriverDx11_Functions_abe7b0fb-121d-4486-af02-885ff37a4e81.xml, d3d10umddi/CreateShaderResourceView, display.createshaderresourceview_d3d11_
 ms.prod: windows-hardware
 ms.technology: windows-devices

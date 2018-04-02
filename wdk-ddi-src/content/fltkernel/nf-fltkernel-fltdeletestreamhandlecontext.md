@@ -7,7 +7,7 @@ old-location: ifsk\fltdeletestreamhandlecontext.htm
 old-project: ifsk
 ms.assetid: aef71769-cad5-4bb4-9068-74664c22dffe
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FltApiRef_a_to_d_445c2977-ef26-4cc6-9fb3-1873fbb976f2.xml, FltDeleteStreamHandleContext, FltDeleteStreamHandleContext function [Installable File System Drivers], fltkernel/FltDeleteStreamHandleContext, ifsk.fltdeletestreamhandlecontext
 ms.prod: windows-hardware
 ms.technology: windows-devices

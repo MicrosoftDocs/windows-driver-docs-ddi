@@ -7,7 +7,7 @@ old-location: display\videoprocessorsetstreampixelaspectratio.htm
 old-project: display
 ms.assetid: fe472b54-09f5-4689-a3d1-0985dafa7d4b
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMPIXELASPECTRATIO, d3d10umddi/pfnVideoProcessorSetStreamPixelAspectRatio, display.videoprocessorsetstreampixelaspectratio, pfnVideoProcessorSetStreamPixelAspectRatio, pfnVideoProcessorSetStreamPixelAspectRatio callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices

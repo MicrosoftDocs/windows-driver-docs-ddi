@@ -7,7 +7,7 @@ old-location: buses\ufxdevicenotifyhardwareready.htm
 old-project: usbref
 ms.assetid: B4BE0BDC-C1A3-4230-8F4B-78DE34F5554D
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: UfxDeviceNotifyHardwareReady, UfxDeviceNotifyHardwareReady method [Buses], buses.ufxdevicenotifyhardwareready, ufxclient/UfxDeviceNotifyHardwareReady
 ms.prod: windows-hardware
 ms.technology: windows-devices

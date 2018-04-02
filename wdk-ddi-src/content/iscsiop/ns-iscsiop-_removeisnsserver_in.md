@@ -7,7 +7,7 @@ old-location: storage\removeisnsserver_in.htm
 old-project: storage
 ms.assetid: 10e72834-4866-42f2-842e-0a30278acab8
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PRemoveiSNSServer_IN, PRemoveiSNSServer_IN, PRemoveiSNSServer_IN structure pointer [Storage Devices], RemoveiSNSServer_IN, RemoveiSNSServer_IN structure [Storage Devices], _RemoveiSNSServer_IN, iscsiop/PRemoveiSNSServer_IN, iscsiop/RemoveiSNSServer_IN, storage.removeisnsserver_in, structs-iSCSI_b79fe0e4-386c-4b5c-9b43-ef8fdb7f4b6a.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices

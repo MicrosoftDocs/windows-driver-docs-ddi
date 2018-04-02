@@ -7,7 +7,7 @@ old-location: storage\ataportreadportulong.htm
 old-project: storage
 ms.assetid: f9e5fb0a-7add-462c-9b2a-2b543f7c7649
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: AtaPortReadPortUlong, AtaPortReadPortUlong routine [Storage Devices], atartns_e2d91111-cf48-4987-82ff-055469d67dc8.xml, irb/AtaPortReadPortUlong, storage.ataportreadportulong
 ms.prod: windows-hardware
 ms.technology: windows-devices

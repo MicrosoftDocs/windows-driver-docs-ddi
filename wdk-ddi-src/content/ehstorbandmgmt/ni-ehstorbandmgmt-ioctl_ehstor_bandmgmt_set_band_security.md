@@ -7,7 +7,7 @@ old-location: storage\ioctl_ehstor_bandmgmt_set_band_security.htm
 old-project: storage
 ms.assetid: CBA94AF4-649D-47C9-879B-4B939DE32BE2
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_EHSTOR_BANDMGMT_SET_BAND_SECURITY, IOCTL_EHSTOR_BANDMGMT_SET_BAND_SECURITY control code [Storage Devices], ehstorbandmgmt/IOCTL_EHSTOR_BANDMGMT_SET_BAND_SECURITY, storage.ioctl_ehstor_bandmgmt_set_band_security
 ms.prod: windows-hardware
 ms.technology: windows-devices

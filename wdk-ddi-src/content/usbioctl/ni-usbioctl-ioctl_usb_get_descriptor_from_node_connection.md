@@ -7,7 +7,7 @@ old-location: buses\ioctl_usb_get_descriptor_from_node_connection.htm
 old-project: usbref
 ms.assetid: 60b41f73-ef12-4d3f-9df4-8958ab66bf14
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_USB_GET_DESCRIPTOR_FROM_NODE_CONNECTION, IOCTL_USB_GET_DESCRIPTOR_FROM_NODE_CONNECTION control code [Buses], buses.ioctl_usb_get_descriptor_from_node_connection, usbioctl/IOCTL_USB_GET_DESCRIPTOR_FROM_NODE_CONNECTION, usbirp_060f6333-3fe9-4a4b-8ff1-f7403a3e8dfe.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

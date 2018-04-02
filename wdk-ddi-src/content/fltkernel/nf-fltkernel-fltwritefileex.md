@@ -7,7 +7,7 @@ old-location: ifsk\fltwritefileex.htm
 old-project: ifsk
 ms.assetid: 18B2B486-5525-4132-96E8-EEA74342E0EA
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FltWriteFileEx, FltWriteFileEx function [Installable File System Drivers], fltkernel/FltWriteFileEx, ifsk.fltwritefileex
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: storage\storportbusy.htm
 old-project: storage
 ms.assetid: 81e5b26d-78b5-4ee7-a47c-fc92d01752d1
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: StorPortBusy, StorPortBusy routine [Storage Devices], storage.storportbusy, storport/StorPortBusy, storprt_b4765f8e-c48f-4920-bd1a-1ff9dbdd8656.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

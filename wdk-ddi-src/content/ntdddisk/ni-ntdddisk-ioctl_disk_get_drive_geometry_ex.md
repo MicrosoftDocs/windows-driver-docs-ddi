@@ -7,7 +7,7 @@ old-location: storage\ioctl_disk_get_drive_geometry_ex.htm
 old-project: storage
 ms.assetid: c0cf6b73-3283-4a58-845a-79f3b078db46
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_DISK_GET_DRIVE_GEOMETRY_EX, IOCTL_DISK_GET_DRIVE_GEOMETRY_EX control code [Storage Devices], k307_d20497cd-63a3-4e07-9920-b051d68841db.xml, ntdddisk/IOCTL_DISK_GET_DRIVE_GEOMETRY_EX, storage.ioctl_disk_get_drive_geometry_ex
 ms.prod: windows-hardware
 ms.technology: windows-devices

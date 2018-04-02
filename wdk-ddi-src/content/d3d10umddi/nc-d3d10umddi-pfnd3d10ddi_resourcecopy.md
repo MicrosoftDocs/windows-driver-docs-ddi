@@ -7,7 +7,7 @@ old-location: display\resourcecopy.htm
 old-project: display
 ms.assetid: 9a837f42-0bea-4425-b693-dd7947ac24b1
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3D10DDI_RESOURCECOPY, ResourceCopy, ResourceCopy callback function [Display Devices], UserModeDisplayDriverDx10_Functions_40047363-38d4-4271-8c24-f9a7ea565079.xml, d3d10umddi/ResourceCopy, display.resourcecopy
 ms.prod: windows-hardware
 ms.technology: windows-devices

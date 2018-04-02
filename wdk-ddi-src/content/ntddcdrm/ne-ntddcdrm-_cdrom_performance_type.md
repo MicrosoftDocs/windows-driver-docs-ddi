@@ -7,7 +7,7 @@ old-location: storage\cdrom_performance_type.htm
 old-project: storage
 ms.assetid: 1039D4CB-11BA-4131-8CCE-7DCEE4B849D3
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PCDROM_PERFORMANCE_TYPE, CDROM_PERFORMANCE_TYPE, CDROM_PERFORMANCE_TYPE enumeration [Storage Devices], CdromReadPerformance, CdromWritePerformance, PCDROM_PERFORMANCE_TYPE, PCDROM_PERFORMANCE_TYPE enumeration pointer [Storage Devices], _CDROM_PERFORMANCE_TYPE, ntddcdrm/ CdromWritePerformance, ntddcdrm/CDROM_PERFORMANCE_TYPE, ntddcdrm/CdromReadPerformance, ntddcdrm/PCDROM_PERFORMANCE_TYPE, storage.cdrom_performance_type"
 ms.prod: windows-hardware
 ms.technology: windows-devices

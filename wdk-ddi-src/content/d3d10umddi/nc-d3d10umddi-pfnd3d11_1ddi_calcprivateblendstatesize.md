@@ -7,7 +7,7 @@ old-location: display\calcprivateblendstatesize_d3d11_1_.htm
 old-project: display
 ms.assetid: e53bb658-ef6c-4f44-aa5a-8c641046f90d
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: CalcPrivateBlendStateSize(D3D11_1), CalcPrivateBlendStateSize(D3D11_1) callback function [Display Devices], PFND3D11_1DDI_CALCPRIVATEBLENDSTATESIZE, d3d10umddi/CalcPrivateBlendStateSize(D3D11_1), display.calcprivateblendstatesize_d3d11_1_, display.pfncalcprivateblendstatesize
 ms.prod: windows-hardware
 ms.technology: windows-devices

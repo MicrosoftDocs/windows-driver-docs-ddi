@@ -7,7 +7,7 @@ old-location: display\pfnsetdisplaymodecb.htm
 old-project: display
 ms.assetid: a1f58757-809d-4351-8b1a-fd4420981c24
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3Druntime_Functions_717329e1-853d-498e-8792-ba6468825cbb.xml, PFND3DDDI_SETDISPLAYMODECB, d3dumddi/pfnSetDisplayModeCb, display.pfnsetdisplaymodecb, pfnSetDisplayModeCb, pfnSetDisplayModeCb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices

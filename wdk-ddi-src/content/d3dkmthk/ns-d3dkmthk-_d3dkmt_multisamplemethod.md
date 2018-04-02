@@ -7,7 +7,7 @@ old-location: display\d3dkmt_multisamplemethod.htm
 old-project: display
 ms.assetid: 6cdc0665-61e6-4c13-9b15-46ce301febec
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMT_MULTISAMPLEMETHOD, D3DKMT_MULTISAMPLEMETHOD structure [Display Devices], OpenGL_Structs_0617065f-aa53-4b1a-9a3f-e135972d4852.xml, _D3DKMT_MULTISAMPLEMETHOD, d3dkmthk/D3DKMT_MULTISAMPLEMETHOD, display.d3dkmt_multisamplemethod
 ms.prod: windows-hardware
 ms.technology: windows-devices

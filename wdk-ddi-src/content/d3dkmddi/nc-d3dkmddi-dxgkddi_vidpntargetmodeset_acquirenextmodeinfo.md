@@ -7,7 +7,7 @@ old-location: display\dxgk_vidpntargetmodeset_interface_pfnacquirenextmodeinfo.h
 old-project: display
 ms.assetid: 894d0d15-d12a-4138-9a92-8f930c12dd52
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKDDI_VIDPNTARGETMODESET_ACQUIRENEXTMODEINFO, VidPnFunctions_27f5e19c-6a31-4e02-b9a2-8feaa5798fc3.xml, d3dkmddi/pfnAcquireNextModeInfo, display.dxgk_vidpntargetmodeset_interface_pfnacquirenextmodeinfo, pfnAcquireNextModeInfo, pfnAcquireNextModeInfo callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices

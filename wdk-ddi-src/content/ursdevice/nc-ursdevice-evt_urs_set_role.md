@@ -7,7 +7,7 @@ old-location: buses\evt_urs_set_role.htm
 old-project: usbref
 ms.assetid: 287B674F-9692-47FA-AB92-F101270F7FC4
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: EVT_URS_SET_ROLE, EvtUrsSetRole, EvtUrsSetRole callback function [Buses], PFN_URS_SET_ROLE, PFN_URS_SET_ROLE callback function pointer [Buses], buses.evt_urs_set_role, ursdevice/EvtUrsSetRole
 ms.prod: windows-hardware
 ms.technology: windows-devices

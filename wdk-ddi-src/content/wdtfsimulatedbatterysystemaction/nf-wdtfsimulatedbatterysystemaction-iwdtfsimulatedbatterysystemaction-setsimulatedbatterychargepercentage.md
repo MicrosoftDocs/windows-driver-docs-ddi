@@ -7,7 +7,7 @@ old-location: dtf\iwdtfsimulatedbatterysystemaction_setsimulatedbatterychargeper
 old-project: dtf
 ms.assetid: b330c423-b295-4b5b-b6bf-1f48549e8bfa
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 3/29/2018
 ms.keywords: IWDTFSimulatedBatterySystemAction, IWDTFSimulatedBatterySystemAction interface [Windows Device Testing Framework], SetSimulatedBatteryChargePercentage method, IWDTFSimulatedBatterySystemAction::SetSimulatedBatteryChargePercentage, SetSimulatedBatteryChargePercentage method [Windows Device Testing Framework], SetSimulatedBatteryChargePercentage method [Windows Device Testing Framework], IWDTFSimulatedBatterySystemAction interface, SetSimulatedBatteryChargePercentage,IWDTFSimulatedBatterySystemAction.SetSimulatedBatteryChargePercentage, dtf.iwdtfsimulatedbatterysystemaction_setsimulatedbatterychargepercentage, wdtfsimulatedbatterysystemaction/IWDTFSimulatedBatterySystemAction::SetSimulatedBatteryChargePercentage
 ms.prod: windows-hardware
 ms.technology: windows-devices

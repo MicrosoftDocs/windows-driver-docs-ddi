@@ -7,7 +7,7 @@ old-location: buses\ioctl_internal_usb_get_device_handle_ex.htm
 old-project: usbref
 ms.assetid: 76b89f35-4751-4eda-88f7-69f1a9835bbb
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_INTERNAL_USB_GET_DEVICE_HANDLE_EX, IOCTL_INTERNAL_USB_GET_DEVICE_HANDLE_EX control code [Buses], buses.ioctl_internal_usb_get_device_handle_ex, usbioctl/IOCTL_INTERNAL_USB_GET_DEVICE_HANDLE_EX
 ms.prod: windows-hardware
 ms.technology: windows-devices

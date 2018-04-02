@@ -7,7 +7,7 @@ old-location: display\pfnd3d12ddi_resourcebarrier_0022.htm
 old-project: display
 ms.assetid: AD42B7FC-9928-4386-B3EB-C9F0302415DA
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3D12DDI_RESOURCEBARRIER_0022, d3d12umddi/pfnResourceBarrier, display.pfnd3d12ddi_resourcebarrier_0022, pfnResourceBarrier, pfnResourceBarrier callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices

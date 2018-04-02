@@ -7,7 +7,7 @@ old-location: storage\storportmarkdumpmemory.htm
 old-project: storage
 ms.assetid: DE17FF55-A573-41FE-8979-1DB32AD5B7C0
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: MARK_DUMP_MEMORY_FLAG_PHYSICAL_ADDRESS, StorPortMarkDumpMemory, StorPortMarkDumpMemory routine [Storage Devices], storage.storportmarkdumpmemory, storport/StorPortMarkDumpMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices

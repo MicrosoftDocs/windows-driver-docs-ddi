@@ -7,7 +7,7 @@ old-location: storage\ataportreadregisteruchar.htm
 old-project: storage
 ms.assetid: 1baa8d01-b889-4f2b-ad9e-f35078f7b3d8
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: AtaPortReadRegisterUchar, AtaPortReadRegisterUchar routine [Storage Devices], atartns_63ee26b2-b436-4dc6-a3aa-5a13691e85dd.xml, irb/AtaPortReadRegisterUchar, storage.ataportreadregisteruchar
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -52,18 +52,6 @@ req.typenames: SERIAL_LINE_CONTROL, *PSERIAL_LINE_CONTROL
 The <b>SERIAL_LINE_CONTROL</b> structure describes the control settings for the serial line.
 
 
-## -syntax
-
-
-````
-typedef struct _SERIAL_LINE_CONTROL {
-  UCHAR StopBits;
-  UCHAR Parity;
-  UCHAR WordLength;
-} SERIAL_LINE_CONTROL, *PSERIAL_LINE_CONTROL;
-````
-
-
 ## -struct-fields
 
 
@@ -136,24 +124,22 @@ Data bits per character. This member indicates the number of data bits in each c
 
 
 
-This structure is used by the <a href="..\ntddser\ni-ntddser-ioctl_serial_get_line_control.md">IOCTL_SERIAL_GET_LINE_CONTROL</a> and <a href="..\ntddser\ni-ntddser-ioctl_serial_set_line_control.md">IOCTL_SERIAL_SET_LINE_CONTROL</a> requests.
+This structure is used by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff546582">IOCTL_SERIAL_GET_LINE_CONTROL</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff546740">IOCTL_SERIAL_SET_LINE_CONTROL</a> requests.
 
 
 
 
 ## -see-also
 
-<a href="..\ntddser\ni-ntddser-ioctl_serial_get_line_control.md">IOCTL_SERIAL_GET_LINE_CONTROL</a>
 
 
 
-<a href="..\ntddser\ni-ntddser-ioctl_serial_set_line_control.md">IOCTL_SERIAL_SET_LINE_CONTROL</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546582">IOCTL_SERIAL_GET_LINE_CONTROL</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546740">IOCTL_SERIAL_SET_LINE_CONTROL</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [serports\serports]:%20SERIAL_LINE_CONTROL structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

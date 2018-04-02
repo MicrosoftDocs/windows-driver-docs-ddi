@@ -7,7 +7,7 @@ old-location: storage\changerexchangemedium.htm
 old-project: storage
 ms.assetid: 4cb6e9af-ddd0-48d9-9f07-43c828e4187b
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: ChangerExchangeMedium, ChangerExchangeMedium function [Storage Devices], chgrmini_1a4e68fa-4ef3-4f1e-ab2c-ca26b138fc14.xml, mcd/ChangerExchangeMedium, storage.changerexchangemedium
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: storage\storage_temperature_threshold.htm
 old-project: storage
 ms.assetid: 19096AD2-5149-4AE1-94CD-9004ED8C24DC
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PSTORAGE_TEMPERATURE_THRESHOLD, PSTORAGE_TEMPERATURE_THRESHOLD, PSTORAGE_TEMPERATURE_THRESHOLD structure pointer [Storage Devices], STORAGE_TEMPERATURE_THRESHOLD, STORAGE_TEMPERATURE_THRESHOLD structure [Storage Devices], _STORAGE_TEMPERATURE_THRESHOLD, ntddstor/PSTORAGE_TEMPERATURE_THRESHOLD, ntddstor/STORAGE_TEMPERATURE_THRESHOLD, storage.storage_temperature_threshold"
 ms.prod: windows-hardware
 ms.technology: windows-devices

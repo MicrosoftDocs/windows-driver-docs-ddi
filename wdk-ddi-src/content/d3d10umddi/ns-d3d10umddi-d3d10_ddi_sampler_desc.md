@@ -7,7 +7,7 @@ old-location: display\d3d10_ddi_sampler_desc.htm
 old-project: display
 ms.assetid: 2f65b381-bf81-45b5-9583-793e4ffb453c
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3D10_DDI_SAMPLER_DESC, D3D10_DDI_SAMPLER_DESC structure [Display Devices], UMDisplayDriver_Dx10param_Structs_3bd0d5fd-417c-43ef-9bdf-0073d8651ced.xml, d3d10umddi/D3D10_DDI_SAMPLER_DESC, display.d3d10_ddi_sampler_desc
 ms.prod: windows-hardware
 ms.technology: windows-devices

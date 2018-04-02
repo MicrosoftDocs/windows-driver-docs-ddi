@@ -7,7 +7,7 @@ old-location: display\idarg_in_parsemonitordescription.htm
 old-project: display
 ms.assetid: dc3c55e3-ddbe-4f06-b9fb-55696dc07502
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: IDARG_IN_PARSEMONITORDESCRIPTION, IDARG_IN_PARSEMONITORDESCRIPTION structure [Display Devices], display.idarg_in_parsemonitordescription, iddcx/IDARG_IN_PARSEMONITORDESCRIPTION
 ms.prod: windows-hardware
 ms.technology: windows-devices

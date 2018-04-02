@@ -7,7 +7,7 @@ old-location: buses\ufxendpointinitseteventcallbacks.htm
 old-project: usbref
 ms.assetid: D3D8D948-400A-47A0-98E9-ECF5643DB5D2
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: UfxEndpointInitSetEventCallbacks, UfxEndpointInitSetEventCallbacks method [Buses], buses.ufxendpointinitseteventcallbacks, ufxclient/UfxEndpointInitSetEventCallbacks
 ms.prod: windows-hardware
 ms.technology: windows-devices

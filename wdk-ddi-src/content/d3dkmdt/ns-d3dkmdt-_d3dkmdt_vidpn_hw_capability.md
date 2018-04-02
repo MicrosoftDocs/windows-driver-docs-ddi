@@ -7,7 +7,7 @@ old-location: display\d3dkmdt_vidpn_hw_capability.htm
 old-project: display
 ms.assetid: 8d881133-3ea7-43c4-99cc-d843026573d6
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMDT_VIDPN_HW_CAPABILITY, D3DKMDT_VIDPN_HW_CAPABILITY structure [Display Devices], DmStructs_93529025-7af3-49d1-8f38-2b0355682743.xml, _D3DKMDT_VIDPN_HW_CAPABILITY, d3dkmdt/D3DKMDT_VIDPN_HW_CAPABILITY, display.d3dkmdt_vidpn_hw_capability
 ms.prod: windows-hardware
 ms.technology: windows-devices

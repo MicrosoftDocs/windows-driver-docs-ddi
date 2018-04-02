@@ -7,7 +7,7 @@ old-location: display\dxgk_agp_interface.htm
 old-project: display
 ms.assetid: ebaa2aba-426f-4f5f-b2bf-a8433cdc9205
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PDXGK_AGP_INTERFACE, DXGK_AGP_INTERFACE, DXGK_AGP_INTERFACE structure [Display Devices], DmStructs_787b846e-2c2b-4fba-aa99-979a195c4305.xml, PDXGK_AGP_INTERFACE, PDXGK_AGP_INTERFACE structure pointer [Display Devices], _DXGK_AGP_INTERFACE, display.dxgk_agp_interface, dispmprt/DXGK_AGP_INTERFACE, dispmprt/PDXGK_AGP_INTERFACE"
 ms.prod: windows-hardware
 ms.technology: windows-devices

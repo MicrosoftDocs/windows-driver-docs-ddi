@@ -7,7 +7,7 @@ old-location: buses\usb_port_properties.htm
 old-project: usbref
 ms.assetid: BCADC907-3770-4FBE-AEB3-96F93502E899
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PUSB_PORT_PROPERTIES, PUSB_PORT_PROPERTIES, PUSB_PORT_PROPERTIES union pointer [Buses], USB_PORT_PROPERTIES, USB_PORT_PROPERTIES union [Buses], _USB_PORT_PROPERTIES, buses.usb_port_properties, usbioctl/PUSB_PORT_PROPERTIES, usbioctl/USB_PORT_PROPERTIES"
 ms.prod: windows-hardware
 ms.technology: windows-devices

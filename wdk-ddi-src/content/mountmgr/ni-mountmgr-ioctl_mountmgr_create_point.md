@@ -7,7 +7,7 @@ old-location: storage\ioctl_mountmgr_create_point.htm
 old-project: storage
 ms.assetid: 580af31d-4122-48fe-a9da-097787f87620
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_MOUNTMGR_CREATE_POINT, IOCTL_MOUNTMGR_CREATE_POINT control code [Storage Devices], k307_c1159db5-2699-4bac-9fe9-67ceda477ddb.xml, mountmgr/IOCTL_MOUNTMGR_CREATE_POINT, storage.ioctl_mountmgr_create_point
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: storage\stor_pofx_device_v2.htm
 old-project: storage
 ms.assetid: 1AD3B5E6-CF90-49D2-8FF7-FE309E4331CE
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PSTOR_POFX_DEVICE_V2, PSTOR_POFX_DEVICE_V2, PSTOR_POFX_DEVICE_V2 structure pointer [Storage Devices], STOR_POFX_DEVICE_FLAG_ENABLE_D3_COLD, STOR_POFX_DEVICE_FLAG_IDLE_TIMEOUT, STOR_POFX_DEVICE_FLAG_NO_D0, STOR_POFX_DEVICE_FLAG_NO_D3, STOR_POFX_DEVICE_FLAG_NO_DUMP_ACTIVE, STOR_POFX_DEVICE_V2, STOR_POFX_DEVICE_V2 structure [Storage Devices], _STOR_POFX_DEVICE_V2, storage.stor_pofx_device_v2, storport/PSTOR_POFX_DEVICE_V2, storport/STOR_POFX_DEVICE_V2"
 ms.prod: windows-hardware
 ms.technology: windows-devices

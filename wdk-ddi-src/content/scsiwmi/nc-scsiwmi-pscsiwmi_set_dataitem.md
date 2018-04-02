@@ -7,7 +7,7 @@ old-location: storage\hwscsiwmisetdataitem.htm
 old-project: storage
 ms.assetid: 24b8415e-4326-4aef-bcbb-fabffa25c7d6
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: HwScsiWmiSetDataItem, HwScsiWmiSetDataItem callback function [Storage Devices], PSCSIWMI_SET_DATAITEM, Scsimini_6cc9b791-9522-4839-b60b-776c73b04d38.xml, scsiwmi/HwScsiWmiSetDataItem, storage.hwscsiwmisetdataitem
 ms.prod: windows-hardware
 ms.technology: windows-devices

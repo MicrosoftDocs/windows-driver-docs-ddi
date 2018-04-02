@@ -7,7 +7,7 @@ old-location: ifsk\fltoplockbreaktonone.htm
 old-project: ifsk
 ms.assetid: 212dc455-9317-4901-9a96-1c71dde0faf3
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FltApiRef_e_to_o_7d787a5c-c78b-43d2-aa48-412010c97630.xml, FltOplockBreakToNone, FltOplockBreakToNone routine [Installable File System Drivers], fltkernel/FltOplockBreakToNone, ifsk.fltoplockbreaktonone
 ms.prod: windows-hardware
 ms.technology: windows-devices

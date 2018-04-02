@@ -7,7 +7,7 @@ old-location: storage\ioctl_ehstor_device_query_properties.htm
 old-project: storage
 ms.assetid: 2F9B880F-7F3A-4B2B-816E-AD85ADFB280B
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_EHSTOR_DEVICE_QUERY_PROPERTIES, IOCTL_EHSTOR_DEVICE_QUERY_PROPERTIES control code [Storage Devices], ehstorioctl/IOCTL_EHSTOR_DEVICE_QUERY_PROPERTIES, storage.ioctl_ehstor_device_query_properties
 ms.prod: windows-hardware
 ms.technology: windows-devices

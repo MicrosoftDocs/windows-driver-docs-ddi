@@ -7,7 +7,7 @@ old-location: storage\storportinitializetimer.htm
 old-project: storage
 ms.assetid: 1F43EEDC-5DB4-4ABE-BBC6-A4A51FCAF0B6
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: StorPortInitializeTimer, StorPortInitializeTimer routine [Storage Devices], storage.storportinitializetimer, storport/StorPortInitializeTimer
 ms.prod: windows-hardware
 ms.technology: windows-devices

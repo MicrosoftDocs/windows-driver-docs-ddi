@@ -7,7 +7,7 @@ old-location: ifsk\fltnotifyfilterchangedirectory.htm
 old-project: ifsk
 ms.assetid: bbeabd33-951e-4fd5-9845-cabed5f95fcd
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FltApiRef_e_to_o_855490c1-8b4e-4973-9a96-808b50c20740.xml, FltNotifyFilterChangeDirectory, FltNotifyFilterChangeDirectory routine [Installable File System Drivers], fltkernel/FltNotifyFilterChangeDirectory, ifsk.fltnotifyfilterchangedirectory
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: storage\stor_pofx_component_v2.htm
 old-project: storage
 ms.assetid: 2FF6B375-C213-48AC-9497-6CE3F1170BAA
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PSTOR_POFX_COMPONENT_V2, PSTOR_POFX_COMPONENT_V2, PSTOR_POFX_COMPONENT_V2 structure pointer [Storage Devices], STOR_POFX_COMPONENT_V2, STOR_POFX_COMPONENT_V2 structure [Storage Devices], _STOR_POFX_COMPONENT_V2, storage.stor_pofx_component_v2, storport/PSTOR_POFX_COMPONENT_V2, storport/STOR_POFX_COMPONENT"
 ms.prod: windows-hardware
 ms.technology: windows-devices

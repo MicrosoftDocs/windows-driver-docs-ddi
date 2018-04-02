@@ -7,7 +7,7 @@ old-location: storage\setbindingsupport_in.htm
 old-project: storage
 ms.assetid: bdcd6f76-9a45-4687-b3ab-ece3e9419c44
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PSetBindingSupport_IN, PSetBindingSupport_IN, PSetBindingSupport_IN structure pointer [Storage Devices], SetBindingSupport_IN, SetBindingSupport_IN structure [Storage Devices], _SetBindingSupport_IN, hbapiwmi/PSetBindingSupport_IN, hbapiwmi/SetBindingSupport_IN, storage.setbindingsupport_in, structs-Fibre_2545c261-7902-4fb8-9943-21087c281089.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices

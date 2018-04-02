@@ -7,7 +7,7 @@ old-location: display\d3dhal_dp2setstreamsource.htm
 old-project: display
 ms.assetid: 23be14ce-2312-41e0-98c5-07de551ffce9
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*LPD3DHAL_DP2SETSTREAMSOURCE, D3DHAL_DP2SETSTREAMSOURCE, D3DHAL_DP2SETSTREAMSOURCE structure [Display Devices], LPD3DHAL_DP2SETSTREAMSOURCE, LPD3DHAL_DP2SETSTREAMSOURCE structure pointer [Display Devices], _D3DHAL_DP2SETSTREAMSOURCE, d3dhal/D3DHAL_DP2SETSTREAMSOURCE, d3dhal/LPD3DHAL_DP2SETSTREAMSOURCE, d3dstrct_4a6ddce7-b2fc-4fdd-bbed-cc905b1bc97d.xml, display.d3dhal_dp2setstreamsource"
 ms.prod: windows-hardware
 ms.technology: windows-devices

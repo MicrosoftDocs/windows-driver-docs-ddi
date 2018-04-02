@@ -7,7 +7,7 @@ old-location: ifsk\fltfastiomdlread.htm
 old-project: ifsk
 ms.assetid: 1DF810B5-D4C3-4F67-B913-C2B2132DFDE2
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FltFastIoMdlRead, FsRtlMdlReadDev, FsRtlMdlReadDev routine [Installable File System Drivers], fltkernel/FsRtlMdlReadDev, ifsk.fltfastiomdlread
 ms.prod: windows-hardware
 ms.technology: windows-devices

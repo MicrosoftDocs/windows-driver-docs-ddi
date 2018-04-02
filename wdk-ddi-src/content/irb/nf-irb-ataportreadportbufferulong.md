@@ -7,7 +7,7 @@ old-location: storage\ataportreadportbufferulong.htm
 old-project: storage
 ms.assetid: ff70685f-f3cf-49c0-bb0b-02e561feeac3
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: AtaPortReadPortBufferUlong, AtaPortReadPortBufferUlong routine [Storage Devices], atartns_e2f251c9-d2a0-4b33-91d8-2d700eb4253e.xml, irb/AtaPortReadPortBufferUlong, storage.ataportreadportbufferulong
 ms.prod: windows-hardware
 ms.technology: windows-devices

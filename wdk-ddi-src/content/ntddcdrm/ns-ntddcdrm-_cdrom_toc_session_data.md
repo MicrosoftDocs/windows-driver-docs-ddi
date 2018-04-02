@@ -7,7 +7,7 @@ old-location: storage\cdrom_toc_session_data.htm
 old-project: storage
 ms.assetid: ba039a22-b1af-4ade-bd99-b7296be4dd42
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PCDROM_TOC_SESSION_DATA, CDROM_TOC_SESSION_DATA, CDROM_TOC_SESSION_DATA structure [Storage Devices], PCDROM_TOC_SESSION_DATA, PCDROM_TOC_SESSION_DATA structure pointer [Storage Devices], _CDROM_TOC_SESSION_DATA, ntddcdrm/CDROM_TOC_SESSION_DATA, ntddcdrm/PCDROM_TOC_SESSION_DATA, storage.cdrom_toc_session_data, structs-CD-ROM_b3bb7380-ca50-4340-bf90-4b6e231bcdbc.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices

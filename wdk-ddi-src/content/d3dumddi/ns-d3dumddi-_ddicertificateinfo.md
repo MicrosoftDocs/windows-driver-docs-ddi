@@ -7,7 +7,7 @@ old-location: display\ddicertificateinfo.htm
 old-project: display
 ms.assetid: 205936c3-fb5a-48e7-8f13-328563c2f0d2
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3D_other_Structs_99ca6ef3-fba8-4f57-b0bf-16be3c4f8a77.xml, DDICERTIFICATEINFO, DDICERTIFICATEINFO structure [Display Devices], _DDICERTIFICATEINFO, d3dumddi/DDICERTIFICATEINFO, display.ddicertificateinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

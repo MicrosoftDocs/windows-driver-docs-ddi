@@ -7,7 +7,7 @@ old-location: ifsk\fsrtlmupgetproviderinfofromfileobject.htm
 old-project: ifsk
 ms.assetid: 3f4d8c5c-3a83-4027-8d9e-5ff7db4a6853
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FsRtlMupGetProviderInfoFromFileObject, FsRtlMupGetProviderInfoFromFileObject routine [Installable File System Drivers], fsrtlref_7ad681c5-3f7c-42d1-8644-7cd677101413.xml, ifsk.fsrtlmupgetproviderinfofromfileobject, ntifs/FsRtlMupGetProviderInfoFromFileObject
 ms.prod: windows-hardware
 ms.technology: windows-devices

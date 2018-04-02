@@ -7,7 +7,7 @@ old-location: storage\aacs_send_challenge_key.htm
 old-project: storage
 ms.assetid: 3985c396-7e85-46b6-8790-1ec45931a4ab
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PAACS_SEND_CHALLENGE_KEY, AACS_SEND_CHALLENGE_KEY, AACS_SEND_CHALLENGE_KEY structure [Storage Devices], PAACS_SEND_CHALLENGE_KEY, PAACS_SEND_CHALLENGE_KEY structure pointer [Storage Devices], _AACS_SEND_CHALLENGE_KEY, ntddcdvd/AACS_SEND_CHALLENGE_KEY, ntddcdvd/PAACS_SEND_CHALLENGE_KEY, storage.aacs_send_challenge_key, structs-DVD_f9e8ef67-414c-4a98-82ab-88674dabe24b.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices

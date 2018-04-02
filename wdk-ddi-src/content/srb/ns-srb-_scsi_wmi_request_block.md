@@ -7,7 +7,7 @@ old-location: storage\scsi_wmi_request_block.htm
 old-project: storage
 ms.assetid: 6dc10c3a-b47e-42c3-a209-34977fb219f1
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PSCSI_WMI_REQUEST_BLOCK, PSCSI_WMI_REQUEST_BLOCK, PSCSI_WMI_REQUEST_BLOCK structure pointer [Storage Devices], SCSI_WMI_REQUEST_BLOCK, SCSI_WMI_REQUEST_BLOCK structure [Storage Devices], _SCSI_WMI_REQUEST_BLOCK, srb/PSCSI_WMI_REQUEST_BLOCK, srb/SCSI_WMI_REQUEST_BLOCK, storage.scsi_wmi_request_block, structs-scsibus_6188bca6-990b-4471-b8ea-2cd5b2b27d51.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices

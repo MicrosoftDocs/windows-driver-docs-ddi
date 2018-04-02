@@ -7,7 +7,7 @@ old-location: ifsk\mrxfinalizevnetroot.htm
 old-project: ifsk
 ms.assetid: 13d0c903-57b6-4a57-977a-bf1bd651660f
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: MRxFinalizeVNetRoot, MRxFinalizeVNetRoot routine [Installable File System Drivers], PMRX_FINALIZE_V_NET_ROOT_CALLDOWN, ifsk.mrxfinalizevnetroot, mrx/MRxFinalizeVNetRoot, mrxref_a5cc53ee-2d11-4987-aeb4-fe9cc2cc9b3e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

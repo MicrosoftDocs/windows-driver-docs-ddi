@@ -7,7 +7,7 @@ old-location: display\getencryptionbltkey.htm
 old-project: display
 ms.assetid: b3c3e792-bc8a-485e-a208-66b7d921cc15
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: GetEncryptionBltKey, GetEncryptionBltKey callback function [Display Devices], PFND3DDDI_GETENCRYPTIONBLTKEY, UserModeDisplayDriver_Functions_c20ad527-141e-404f-a52e-47b893b2a2bb.xml, d3dumddi/GetEncryptionBltKey, display.getencryptionbltkey
 ms.prod: windows-hardware
 ms.technology: windows-devices

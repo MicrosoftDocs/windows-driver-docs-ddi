@@ -7,7 +7,7 @@ old-location: display\d3dddi_bltflags.htm
 old-project: display
 ms.assetid: 844d6aed-2ca2-45ef-bd53-54344dbdadbf
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDI_BLTFLAGS, D3DDDI_BLTFLAGS structure [Display Devices], D3D_other_Structs_8d70fa64-3813-4165-a64d-4e91287e05d5.xml, _D3DDDI_BLTFLAGS, d3dumddi/D3DDDI_BLTFLAGS, display.d3dddi_bltflags
 ms.prod: windows-hardware
 ms.technology: windows-devices

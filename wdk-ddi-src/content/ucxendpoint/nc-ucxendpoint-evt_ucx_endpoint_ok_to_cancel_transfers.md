@@ -7,7 +7,7 @@ old-location: buses\evt_ucx_endpoint_ok_to_cancel_transfers.htm
 old-project: usbref
 ms.assetid: 3cb30b74-d50d-49dd-ab5d-de1cf71facd4
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: EVT_UCX_ENDPOINT_OK_TO_CANCEL_TRANSFERS, EvtUcxEndpointOkToCancelTransfers, EvtUcxEndpointOkToCancelTransfers callback function [Buses], PEVT_UCX_ENDPOINT_OK_TO_CANCEL_TRANSFERS, PEVT_UCX_ENDPOINT_OK_TO_CANCEL_TRANSFERS callback function pointer [Buses], buses.evt_ucx_endpoint_ok_to_cancel_transfers, ucxendpoint/EvtUcxEndpointOkToCancelTransfers
 ms.prod: windows-hardware
 ms.technology: windows-devices

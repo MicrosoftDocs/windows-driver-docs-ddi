@@ -7,7 +7,7 @@ old-location: display\createresource2.htm
 old-project: display
 ms.assetid: a8326707-cffc-4a20-ad3d-c7862661f513
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: CreateResource2, CreateResource2 callback function [Display Devices], PFND3DDDI_CREATERESOURCE2, d3dumddi/CreateResource2, display.createresource2
 ms.prod: windows-hardware
 ms.technology: windows-devices

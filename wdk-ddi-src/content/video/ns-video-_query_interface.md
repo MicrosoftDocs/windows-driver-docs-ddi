@@ -7,7 +7,7 @@ old-location: display\query_interface.htm
 old-project: display
 ms.assetid: 0d813870-10bd-4b41-9f36-1cb45c462697
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PQUERY_INTERFACE, PQUERY_INTERFACE, PQUERY_INTERFACE structure pointer [Display Devices], QUERY_INTERFACE, QUERY_INTERFACE structure [Display Devices], Video_Structs_facaef96-c0d9-4695-8541-65e5e430f182.xml, _QUERY_INTERFACE, display.query_interface, video/PQUERY_INTERFACE, video/QUERY_INTERFACE"
 ms.prod: windows-hardware
 ms.technology: windows-devices

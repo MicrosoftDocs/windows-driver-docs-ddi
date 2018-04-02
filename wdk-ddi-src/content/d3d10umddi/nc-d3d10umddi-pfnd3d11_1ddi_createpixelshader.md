@@ -7,7 +7,7 @@ old-location: display\createpixelshader_d3d11_1_.htm
 old-project: display
 ms.assetid: 8b5d6d2e-6a08-4841-8df5-ca88368a4e26
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: CreatePixelShader(D3D11_1), CreatePixelShader(D3D11_1) callback function [Display Devices], PFND3D11_1DDI_CREATEPIXELSHADER, d3d10umddi/CreatePixelShader(D3D11_1), display.createpixelshader_d3d11_1_, display.pfncreatepixelshader
 ms.prod: windows-hardware
 ms.technology: windows-devices

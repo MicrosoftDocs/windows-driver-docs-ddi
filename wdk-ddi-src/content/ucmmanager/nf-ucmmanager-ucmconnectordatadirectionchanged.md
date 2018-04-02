@@ -7,7 +7,7 @@ old-location: buses\ucmconnectordatadirectionchanged.htm
 old-project: usbref
 ms.assetid: 62ED07DF-2DDC-42FD-80C3-75AB3DE839AD
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: UcmConnectorDataDirectionChanged, UcmConnectorDataDirectionChanged method [Buses], buses.ucmconnectordatadirectionchanged, ucmmanager/UcmConnectorDataDirectionChanged
 ms.prod: windows-hardware
 ms.technology: windows-devices

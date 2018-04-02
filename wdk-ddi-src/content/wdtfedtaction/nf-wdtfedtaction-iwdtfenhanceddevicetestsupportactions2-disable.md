@@ -7,7 +7,7 @@ old-location: dtf\iwdtfenhanceddevicetestsupportactions2_disable.htm
 old-project: dtf
 ms.assetid: aaa9604a-1c82-48c5-ab5d-0251bf9f13cd
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 3/29/2018
 ms.keywords: Disable method [Windows Device Testing Framework], Disable method [Windows Device Testing Framework], IWDTFEnhancedDeviceTestSupportActions2 interface, Disable,IWDTFEnhancedDeviceTestSupportActions2.Disable, IWDTFEnhancedDeviceTestSupportActions2, IWDTFEnhancedDeviceTestSupportActions2 interface [Windows Device Testing Framework], Disable method, IWDTFEnhancedDeviceTestSupportActions2::Disable, dtf.iwdtfenhanceddevicetestsupportactions2_disable, wdtfedtaction/IWDTFEnhancedDeviceTestSupportActions2::Disable
 ms.prod: windows-hardware
 ms.technology: windows-devices

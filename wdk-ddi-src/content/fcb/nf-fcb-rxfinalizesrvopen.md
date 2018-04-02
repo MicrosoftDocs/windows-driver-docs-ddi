@@ -7,7 +7,7 @@ old-location: ifsk\rxfinalizesrvopen.htm
 old-project: ifsk
 ms.assetid: 9a756606-90df-4bb8-a87a-f000616812fa
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: RxFinalizeSrvOpen, RxFinalizeSrvOpen function [Installable File System Drivers], fcb/RxFinalizeSrvOpen, ifsk.rxfinalizesrvopen, rxref_0665a600-9a4c-4674-87bd-f9758b579cee.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

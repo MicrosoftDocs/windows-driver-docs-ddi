@@ -7,7 +7,7 @@ old-location: display\hwvidsynchronizeexecutioncallback.htm
 old-project: display
 ms.assetid: 04e3bac6-c905-4c95-bd1b-e85b46c4296d
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: HwVidSynchronizeExecutionCallback, HwVidSynchronizeExecutionCallback callback function [Display Devices], PMINIPORT_SYNCHRONIZE_ROUTINE, VideoMiniport_Functions_98ebe64f-4ba9-475b-8095-b97dceaaf946.xml, display.hwvidsynchronizeexecutioncallback, video/HwVidSynchronizeExecutionCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices

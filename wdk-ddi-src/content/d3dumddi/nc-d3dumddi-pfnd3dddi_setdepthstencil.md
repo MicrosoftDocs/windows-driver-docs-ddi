@@ -7,7 +7,7 @@ old-location: display\setdepthstencil.htm
 old-project: display
 ms.assetid: 7c4b01c8-2376-4956-9b18-649647c19b2b
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3DDDI_SETDEPTHSTENCIL, SetDepthStencil, SetDepthStencil callback function [Display Devices], UserModeDisplayDriver_Functions_0279a98e-e1a5-4e33-8ced-9ac07e5e2921.xml, d3dumddi/SetDepthStencil, display.setdepthstencil
 ms.prod: windows-hardware
 ms.technology: windows-devices

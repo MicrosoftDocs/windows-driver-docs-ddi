@@ -7,7 +7,7 @@ old-location: display\dxgkarg_closeallocation.htm
 old-project: display
 ms.assetid: ccd65750-b4d0-4955-9fd4-9546709c2390
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKARG_CLOSEALLOCATION, DXGKARG_CLOSEALLOCATION structure [Display Devices], DmStructs_0d76b996-7ce8-4471-894f-585cc9f3f225.xml, _DXGKARG_CLOSEALLOCATION, d3dkmddi/DXGKARG_CLOSEALLOCATION, display.dxgkarg_closeallocation
 ms.prod: windows-hardware
 ms.technology: windows-devices

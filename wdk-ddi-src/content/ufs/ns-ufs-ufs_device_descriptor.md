@@ -7,7 +7,7 @@ old-location: storage\ufs_device_descriptor.htm
 old-project: storage
 ms.assetid: CD1F59DA-3D84-422B-A862-8F4C5E1AA515
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PUFS_DEVICE_DESCRIPTOR, PUFS_DEVICE_DESCRIPTOR, PUFS_DEVICE_DESCRIPTOR structure pointer [Storage Devices], UFS_DEVICE_DESCRIPTOR, UFS_DEVICE_DESCRIPTOR structure [Storage Devices], storage.ufs_device_descriptor, ufs/PUFS_DEVICE_DESCRIPTOR, ufs/UFS_DEVICE_DESCRIPTOR"
 ms.prod: windows-hardware
 ms.technology: windows-devices

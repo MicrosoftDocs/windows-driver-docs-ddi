@@ -7,7 +7,7 @@ old-location: buses\ursdeviceinitialize.htm
 old-project: usbref
 ms.assetid: 8A9C76C0-70F5-4F65-A460-CCFCD236A242
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: UrsDeviceInitialize, UrsDeviceInitialize function [Buses], buses.ursdeviceinitialize, ursdevice/UrsDeviceInitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices

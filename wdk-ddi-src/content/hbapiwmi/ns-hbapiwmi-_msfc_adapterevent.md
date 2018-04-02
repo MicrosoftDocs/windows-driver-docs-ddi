@@ -7,7 +7,7 @@ old-location: storage\msfc_adapterevent.htm
 old-project: storage
 ms.assetid: 235300a1-3941-4f9c-8327-4ce174493f3e
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PMSFC_AdapterEvent, MSFC_AdapterEvent, MSFC_AdapterEvent structure [Storage Devices], PMSFC_AdapterEvent, PMSFC_AdapterEvent structure pointer [Storage Devices], _MSFC_AdapterEvent, hbapiwmi/MSFC_AdapterEvent, hbapiwmi/PMSFC_AdapterEvent, storage.msfc_adapterevent, structs-Fibre_b76954f6-f00c-429d-8428-5cf1997cb40d.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices

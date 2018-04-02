@@ -7,7 +7,7 @@ old-location: display\d3dddiarg_volumeblt1.htm
 old-project: display
 ms.assetid: 685aad54-03f5-4e3c-83a7-a44745acc4fb
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDIARG_VOLUMEBLT1, D3DDDIARG_VOLUMEBLT1 structure [Display Devices], _D3DDDIARG_VOLUMEBLT1, d3dumddi/D3DDDIARG_VOLUMEBLT1, display.d3dddiarg_volumeblt1
 ms.prod: windows-hardware
 ms.technology: windows-devices

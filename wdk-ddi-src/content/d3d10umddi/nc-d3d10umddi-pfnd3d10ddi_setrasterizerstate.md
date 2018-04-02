@@ -7,7 +7,7 @@ old-location: display\setrasterizerstate.htm
 old-project: display
 ms.assetid: 8162c9c9-4ebd-45a9-adaf-576f25c3907e
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3D10DDI_SETRASTERIZERSTATE, SetRasterizerState, SetRasterizerState callback function [Display Devices], UserModeDisplayDriverDx10_Functions_4f21a729-b192-441f-b80d-cae10432ab0a.xml, d3d10umddi/SetRasterizerState, display.setrasterizerstate
 ms.prod: windows-hardware
 ms.technology: windows-devices

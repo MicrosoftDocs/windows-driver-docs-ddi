@@ -7,7 +7,7 @@ old-location: buses\ioctl_internal_usb_register_composite_driver.htm
 old-project: usbref
 ms.assetid: 5ADCD625-485C-4E18-B022-BA1611F87EA9
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_INTERNAL_USB_REGISTER_COMPOSITE_DEVICE, IOCTL_INTERNAL_USB_REGISTER_COMPOSITE_DEVICE control code [Buses], buses.ioctl_internal_usb_register_composite_driver, usbioctl/IOCTL_INTERNAL_USB_REGISTER_COMPOSITE_DEVICE
 ms.prod: windows-hardware
 ms.technology: windows-devices

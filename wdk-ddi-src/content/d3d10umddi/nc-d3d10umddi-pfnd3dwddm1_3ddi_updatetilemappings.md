@@ -7,7 +7,7 @@ old-location: display\updatetilemappings.htm
 old-project: display
 ms.assetid: 1C8FC920-145F-4AE9-B049-F6BDAE29D1F1
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3DWDDM1_3DDI_UPDATETILEMAPPINGS, UpdateTileMappings, UpdateTileMappings callback function [Display Devices], d3d10umddi/UpdateTileMappings, display.updatetilemappings
 ms.prod: windows-hardware
 ms.technology: windows-devices

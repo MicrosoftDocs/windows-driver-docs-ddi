@@ -7,7 +7,7 @@ old-location: buses\evt_ucx_controller_reset.htm
 old-project: usbref
 ms.assetid: 8c01d677-5ce4-44f6-8342-2152e851de87
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: EVT_UCX_CONTROLLER_RESET, EvtUcxControllerReset, EvtUcxControllerReset callback function [Buses], PEVT_UCX_CONTROLLER_RESET, PEVT_UCX_CONTROLLER_RESET callback function pointer [Buses], buses.evt_ucx_controller_reset, ucxcontroller/EvtUcxControllerReset
 ms.prod: windows-hardware
 ms.technology: windows-devices

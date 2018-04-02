@@ -7,7 +7,7 @@ old-location: storage\mpio_disk_health_class.htm
 old-project: storage
 ms.assetid: 07b04bad-9d52-4a32-8834-48cd5803844c
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PMPIO_DISK_HEALTH_CLASS, MPIO_DISK_HEALTH_CLASS, MPIO_DISK_HEALTH_CLASS structure [Storage Devices], PMPIO_DISK_HEALTH_CLASS, PMPIO_DISK_HEALTH_CLASS structure pointer [Storage Devices], _MPIO_DISK_HEALTH_CLASS, mpiowmi/MPIO_DISK_HEALTH_CLASS, mpiowmi/PMPIO_DISK_HEALTH_CLASS, storage.mpio_disk_health_class, structs-scsibus_b3dfb95d-08eb-4eb6-80bb-3437282a65d6.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices

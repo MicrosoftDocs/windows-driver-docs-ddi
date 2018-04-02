@@ -7,7 +7,7 @@ old-location: display\destroyunorderedaccessview.htm
 old-project: display
 ms.assetid: 1bce3519-f333-4b47-b29b-bde1b5c3005c
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DestroyUnorderedAccessView, DestroyUnorderedAccessView callback function [Display Devices], PFND3D11DDI_DESTROYUNORDEREDACCESSVIEW, UserModeDisplayDriverDx11_Functions_65ca10d0-2325-40f6-befa-8ad6ea5f0efd.xml, d3d10umddi/DestroyUnorderedAccessView, display.destroyunorderedaccessview
 ms.prod: windows-hardware
 ms.technology: windows-devices

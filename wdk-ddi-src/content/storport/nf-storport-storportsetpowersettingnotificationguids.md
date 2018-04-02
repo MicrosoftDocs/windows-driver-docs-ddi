@@ -7,7 +7,7 @@ old-location: storage\storportsetpowersettingnotificationguids.htm
 old-project: storage
 ms.assetid: FB74E774-8CDE-4DE4-942E-10AF4BEFF63C
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: Adaptive Setting, HIPM/DIPM Setting, StorPortSetPowerSettingNotificationGuids, StorPortSetPowerSettingNotificationGuids routine [Storage Devices], storage.storportsetpowersettingnotificationguids, storport/StorPortSetPowerSettingNotificationGuids
 ms.prod: windows-hardware
 ms.technology: windows-devices

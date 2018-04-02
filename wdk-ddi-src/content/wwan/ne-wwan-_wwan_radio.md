@@ -7,7 +7,7 @@ old-location: netvista\wwan_radio.htm
 old-project: netvista
 ms.assetid: f589180c-5379-4f50-876e-48d142b44be4
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*PWWAN_RADIO, PWWAN_RADIO, PWWAN_RADIO enumeration pointer [Network Drivers Starting with Windows Vista], WWAN_RADIO, WWAN_RADIO enumeration [Network Drivers Starting with Windows Vista], WwanRadioOff, WwanRadioOn, WwanRef_b864982c-e4b4-4a2e-b45b-ba6e534a1a71.xml, _WWAN_RADIO, netvista.wwan_radio, wwan/PWWAN_RADIO, wwan/WWAN_RADIO, wwan/WwanRadioOff, wwan/WwanRadioOn"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -83,8 +83,3 @@ The radio power is turned on.
 
  
 
-<<<<<<< HEAD
-=======
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20WWAN_RADIO enumeration%20 RELEASE:%20(2/27/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
-
->>>>>>> parent of 2d896a8e266... Added changes

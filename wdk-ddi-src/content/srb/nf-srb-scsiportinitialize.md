@@ -7,7 +7,7 @@ old-location: storage\scsiportinitialize.htm
 old-project: storage
 ms.assetid: f6adca68-e016-4725-bd8e-691c71d1d471
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: ScsiPortInitialize, ScsiPortInitialize routine [Storage Devices], scsiprt_62fb91f9-a420-4156-9a1e-b58b65067a8b.xml, srb/ScsiPortInitialize, storage.scsiportinitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices

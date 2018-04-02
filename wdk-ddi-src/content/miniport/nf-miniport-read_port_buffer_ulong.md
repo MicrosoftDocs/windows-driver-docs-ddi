@@ -7,7 +7,7 @@ old-location: kernel\read_port_buffer_ulong.htm
 old-project: kernel
 ms.assetid: a63028d8-f90e-4f86-81f5-27bc727ecad7
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/28/2018
 ms.keywords: READ_PORT_BUFFER_ULONG, READ_PORT_BUFFER_ULONG routine [Kernel-Mode Driver Architecture], k103_ccd1ed9a-a7f9-4ea4-abc4-44ff756ea274.xml, kernel.read_port_buffer_ulong, wdm/READ_PORT_BUFFER_ULONG
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,18 +51,6 @@ req.typenames: MEMORY_CACHING_TYPE
 
 
 The <b>READ_PORT_BUFFER_ULONG</b> routine reads a number of ULONG values from the specified port address into a buffer.
-
-
-## -syntax
-
-
-````
-VOID READ_PORT_BUFFER_ULONG(
-  _In_  PULONG Port,
-  _Out_ PULONG Buffer,
-  _In_  ULONG  Count
-);
-````
 
 
 ## -parameters

@@ -7,7 +7,7 @@ old-location: display\calcprivateshaderresourceviewsize_d3d11_.htm
 old-project: display
 ms.assetid: 894f6ef1-a5a4-40aa-9a07-f66da4ce7d81
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: CalcPrivateShaderResourceViewSize, CalcPrivateShaderResourceViewSize callback function [Display Devices], PFND3D11DDI_CALCPRIVATESHADERRESOURCEVIEWSIZE, UserModeDisplayDriverDx11_Functions_27936968-ec44-4c95-afb1-a3ba522ad8f6.xml, d3d10umddi/CalcPrivateShaderResourceViewSize, display.calcprivateshaderresourceviewsize_d3d11_
 ms.prod: windows-hardware
 ms.technology: windows-devices

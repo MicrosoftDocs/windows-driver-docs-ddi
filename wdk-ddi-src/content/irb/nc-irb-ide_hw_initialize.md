@@ -7,7 +7,7 @@ old-location: storage\idehwinitialize.htm
 old-project: storage
 ms.assetid: 5665ff0a-3cbf-4ac5-adf7-5b383bac5117
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: IDE_HW_INITIALIZE, IdeHwInitialize, IdeHwInitialize routine [Storage Devices], atartns_dcb52bc9-05c9-436f-a2b2-f9c1b68d1d33.xml, irb/IdeHwInitialize, storage.idehwinitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices

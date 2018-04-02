@@ -7,7 +7,7 @@ old-location: dtf\iwdtfstrings2__newenum.htm
 old-project: dtf
 ms.assetid: 1e912b01-e5d1-44f6-b054-1cb5082ccdc4
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 3/29/2018
 ms.keywords: IWDTFStrings2, IWDTFStrings2 interface [Windows Device Testing Framework], _NewEnum property, IWDTFStrings2._NewEnum, IWDTFStrings2::get__NewEnum, Microsoft.WDTF.IWDTFStrings2._NewEnum, Microsoft::WDTF::IWDTFStrings2::_NewEnum, _NewEnum property [Windows Device Testing Framework], _NewEnum property [Windows Device Testing Framework], IWDTFStrings2 interface, dtf.iwdtfstrings2__newenum, get__NewEnum,IWDTFStrings2.get__NewEnum, wdtf/IWDTFStrings2::_NewEnum, wdtf/IWDTFStrings2::get__NewEnum
 ms.prod: windows-hardware
 ms.technology: windows-devices

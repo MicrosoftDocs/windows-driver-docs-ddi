@@ -7,7 +7,7 @@ old-location: display\d3dkmt_presenthistorytoken.htm
 old-project: display
 ms.assetid: d3571412-d853-496b-a651-2c8860a28e9d
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMT_PRESENTHISTORYTOKEN, D3DKMT_PRESENTHISTORYTOKEN structure [Display Devices], OpenGL_Structs_6a454620-8217-4119-bbdd-4caa83169e27.xml, _D3DKMT_PRESENTHISTORYTOKEN, d3dkmthk/D3DKMT_PRESENTHISTORYTOKEN, display.d3dkmt_presenthistorytoken
 ms.prod: windows-hardware
 ms.technology: windows-devices

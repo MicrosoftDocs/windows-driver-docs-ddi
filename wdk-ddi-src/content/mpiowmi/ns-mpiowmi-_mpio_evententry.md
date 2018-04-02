@@ -7,7 +7,7 @@ old-location: storage\mpio_evententry.htm
 old-project: storage
 ms.assetid: de7fd19e-e18d-4e78-963a-3abdd7921d69
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PMPIO_EventEntry, MPIO_EventEntry, MPIO_EventEntry structure [Storage Devices], PMPIO_EventEntry, PMPIO_EventEntry structure pointer [Storage Devices], _MPIO_EventEntry, mpiowmi/MPIO_EventEntry, mpiowmi/PMPIO_EventEntry, storage.mpio_evententry, structs-scsibus_93008bb2-e885-4f2f-b46a-7393794a9e6e.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices

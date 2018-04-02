@@ -7,7 +7,7 @@ old-location: ifsk\rxgetrdbssprocess.htm
 old-project: ifsk
 ms.assetid: 2d3717c2-c809-48b9-a84b-1e69a04b767e
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: RxGetRDBSSProcess, RxGetRDBSSProcess function [Installable File System Drivers], ifsk.rxgetrdbssprocess, rxref_7eee8a99-f7c3-41d3-8b16-1906ef301f47.xml, rxstruc/RxGetRDBSSProcess
 ms.prod: windows-hardware
 ms.technology: windows-devices

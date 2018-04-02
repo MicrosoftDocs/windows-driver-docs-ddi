@@ -7,7 +7,7 @@ old-location: storage\mcd_init_data.htm
 old-project: storage
 ms.assetid: 4fc4c36f-a2ad-4b9f-a30b-e7ed600c38e9
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PMCD_INIT_DATA, MCD_INIT_DATA, MCD_INIT_DATA structure [Storage Devices], PMCD_INIT_DATA, PMCD_INIT_DATA structure pointer [Storage Devices], _MCD_INIT_DATA, mcd/MCD_INIT_DATA, mcd/PMCD_INIT_DATA, storage.mcd_init_data, structs-changer_f8810f4b-8465-4751-a885-cc68a88e45fb.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices

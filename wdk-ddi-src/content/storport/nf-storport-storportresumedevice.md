@@ -7,7 +7,7 @@ old-location: storage\storportresumedevice.htm
 old-project: storage
 ms.assetid: 81b979a8-87bb-48f3-b44a-bac9286648fa
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: StorPortResumeDevice, StorPortResumeDevice routine [Storage Devices], storage.storportresumedevice, storport/StorPortResumeDevice, storprt_62696d8f-cfb1-43fd-8b23-b14f1ac0d429.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

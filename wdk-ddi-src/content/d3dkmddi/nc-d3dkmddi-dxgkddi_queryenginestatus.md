@@ -7,7 +7,7 @@ old-location: display\dxgkddiqueryenginestatus.htm
 old-project: display
 ms.assetid: 87c99fcb-d25a-41b1-a1f3-9cf9ab7b141e
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKDDI_QUERYENGINESTATUS, DxgkDdiQueryEngineStatus, DxgkDdiQueryEngineStatus callback function [Display Devices], d3dkmddi/DxgkDdiQueryEngineStatus, display.dxgkddiqueryenginestatus
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: buses\ucxcontrollersetidstrings.htm
 old-project: usbref
 ms.assetid: FC0F6C02-C53A-4F7E-B718-70788FA807F3
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: UcxControllerSetIdStrings, UcxControllerSetIdStrings function [Buses], buses.ucxcontrollersetidstrings, ucxcontroller/UcxControllerSetIdStrings
 ms.prod: windows-hardware
 ms.technology: windows-devices

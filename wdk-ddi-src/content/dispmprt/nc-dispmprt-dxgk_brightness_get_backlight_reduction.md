@@ -7,7 +7,7 @@ old-location: display\dxgkddigetbacklightreduction.htm
 old-project: display
 ms.assetid: 018cb4a0-e71d-407e-8fe9-716312099b73
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGK_BRIGHTNESS_GET_BACKLIGHT_REDUCTION, DxgkDdiGetBacklightReduction, DxgkDdiGetBacklightReduction callback function [Display Devices], display.dxgkddigetbacklightreduction, dispmprt/DxgkDdiGetBacklightReduction
 ms.prod: windows-hardware
 ms.technology: windows-devices

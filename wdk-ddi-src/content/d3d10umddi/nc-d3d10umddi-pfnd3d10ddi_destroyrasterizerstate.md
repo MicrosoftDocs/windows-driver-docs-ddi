@@ -7,7 +7,7 @@ old-location: display\destroyrasterizerstate.htm
 old-project: display
 ms.assetid: 7d730528-dc97-4490-a9fa-3d7916eef2e6
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DestroyRasterizerState, DestroyRasterizerState callback function [Display Devices], PFND3D10DDI_DESTROYRASTERIZERSTATE, UserModeDisplayDriverDx10_Functions_09ed2d7c-4191-4b5e-a18f-b42177106145.xml, d3d10umddi/DestroyRasterizerState, display.destroyrasterizerstate
 ms.prod: windows-hardware
 ms.technology: windows-devices

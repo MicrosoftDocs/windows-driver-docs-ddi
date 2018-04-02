@@ -7,7 +7,7 @@ old-location: ifsk\mrxextractnetrootname.htm
 old-project: ifsk
 ms.assetid: e990b7fc-a341-419d-b358-eac4fa2dca78
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: MRxExtractNetRootName, MRxExtractNetRootName routine [Installable File System Drivers], PMRX_EXTRACT_NETROOT_NAME, ifsk.mrxextractnetrootname, mrx/MRxExtractNetRootName, mrxref_6ccbe7d3-a74d-4eab-bfc1-994791d9613a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

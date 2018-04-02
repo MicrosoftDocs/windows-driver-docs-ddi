@@ -7,7 +7,7 @@ old-location: ifsk\rxreleasefcbresourceforthreadinmrx.htm
 old-project: ifsk
 ms.assetid: 86b6f18b-4088-4fa3-ace3-f083f61ef0d0
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: RxReleaseFcbResourceForThreadInMRx, RxReleaseFcbResourceForThreadInMRx function [Installable File System Drivers], ifsk.rxreleasefcbresourceforthreadinmrx, mrxfcb/RxReleaseFcbResourceForThreadInMRx, rxref_bed9a8b0-1761-413e-b816-599b51a7f305.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: display\pfnunlockcb.htm
 old-project: display
 ms.assetid: 6684f350-da27-478d-ab7b-36e395f7df8d
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3Druntime_Functions_8911e13b-cbfc-4620-bdb2-0dd6a558e88c.xml, PFND3DDDI_UNLOCKCB, d3dumddi/pfnUnlockCb, display.pfnunlockcb, pfnUnlockCb, pfnUnlockCb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices

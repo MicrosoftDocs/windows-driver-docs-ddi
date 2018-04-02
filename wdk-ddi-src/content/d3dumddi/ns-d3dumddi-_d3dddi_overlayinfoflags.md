@@ -7,7 +7,7 @@ old-location: display\d3dddi_overlayinfoflags.htm
 old-project: display
 ms.assetid: ebf31c28-857b-4885-a910-16da5a011ce1
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDI_OVERLAYINFOFLAGS, D3DDDI_OVERLAYINFOFLAGS structure [Display Devices], D3D_other_Structs_3c20db45-e3b5-4e0e-96a6-d2171dbf309a.xml, _D3DDDI_OVERLAYINFOFLAGS, d3dumddi/D3DDDI_OVERLAYINFOFLAGS, display.d3dddi_overlayinfoflags
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: display\pfnstateomblendstatecb.htm
 old-project: display
 ms.assetid: 3cec9d99-0d15-4c61-9de2-ab203a56441d
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3D10DDI_STATE_OM_BLENDSTATE_CB, d3d10state_functions_18da32ca-c230-4119-a721-cbb8511a8b7c.xml, d3d10umddi/pfnStateOmBlendStateCb, display.pfnstateomblendstatecb, pfnStateOmBlendStateCb, pfnStateOmBlendStateCb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices

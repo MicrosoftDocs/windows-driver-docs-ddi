@@ -7,7 +7,7 @@ old-location: display\dxva_nominalrange.htm
 old-project: display
 ms.assetid: 9e319f9d-4c24-4dd3-b5a1-b244714c06dc
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXVA_NominalRange, DXVA_NominalRange enumeration [Display Devices], DXVA_NominalRangeMask, DXVA_NominalRangeShift, DXVA_NominalRange_0_255, DXVA_NominalRange_16_235, DXVA_NominalRange_48_208, DXVA_NominalRange_Normal, DXVA_NominalRange_Unknown, DXVA_NominalRange_Wide, _DXVA_NominalRange, display.dxva_nominalrange, dxva/DXVA_NominalRange, dxva/DXVA_NominalRangeMask, dxva/DXVA_NominalRangeShift, dxva/DXVA_NominalRange_0_255, dxva/DXVA_NominalRange_16_235, dxva/DXVA_NominalRange_48_208, dxva/DXVA_NominalRange_Normal, dxva/DXVA_NominalRange_Unknown, dxva/DXVA_NominalRange_Wide, dxvaref_5931dd2e-baac-48a6-931a-b7f3fc965b4d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

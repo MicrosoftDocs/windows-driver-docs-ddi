@@ -7,7 +7,7 @@ old-location: storage\iscsi_targetportal.htm
 old-project: storage
 ms.assetid: 1adb1dbf-3ec4-4e32-bfe8-cfcf992f67ca
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PISCSI_TargetPortal, ISCSI_TargetPortal, ISCSI_TargetPortal structure [Storage Devices], PISCSI_TargetPortal, PISCSI_TargetPortal structure pointer [Storage Devices], _ISCSI_TargetPortal, iscsidef/ISCSI_TargetPortal, iscsidef/PISCSI_TargetPortal, storage.iscsi_targetportal, structs-iSCSI_fcbc99fd-e52d-45f4-b525-03c2d925f382.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices

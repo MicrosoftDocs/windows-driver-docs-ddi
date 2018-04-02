@@ -7,7 +7,7 @@ old-location: display\dxgkddicloseallocation.htm
 old-project: display
 ms.assetid: f9c195d7-debe-495e-a355-e176d06884f8
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKDDI_CLOSEALLOCATION, DmFunctions_357920c4-694d-48f8-97ef-aa367e210a59.xml, DxgkDdiCloseAllocation, DxgkDdiCloseAllocation callback function [Display Devices], d3dkmddi/DxgkDdiCloseAllocation, display.dxgkddicloseallocation
 ms.prod: windows-hardware
 ms.technology: windows-devices

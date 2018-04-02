@@ -7,7 +7,7 @@ old-location: ifsk\fltgetlowerinstance.htm
 old-project: ifsk
 ms.assetid: bba47250-0344-4b5d-8461-d481519ba9ba
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FltApiRef_e_to_o_6040eade-f27b-4fe5-999e-830065cafb71.xml, FltGetLowerInstance, FltGetLowerInstance routine [Installable File System Drivers], fltkernel/FltGetLowerInstance, ifsk.fltgetlowerinstance
 ms.prod: windows-hardware
 ms.technology: windows-devices

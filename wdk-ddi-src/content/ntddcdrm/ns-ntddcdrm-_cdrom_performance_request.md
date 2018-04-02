@@ -7,7 +7,7 @@ old-location: storage\cdrom_performance_request.htm
 old-project: storage
 ms.assetid: E43D2F2C-B5A1-4724-AEBC-F4B6A85EA846
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PCDROM_PERFORMANCE_REQUEST, CDROM_PERFORMANCE_REQUEST, CDROM_PERFORMANCE_REQUEST structure [Storage Devices], PCDROM_PERFORMANCE_REQUEST, PCDROM_PERFORMANCE_REQUEST structure pointer [Storage Devices], _CDROM_PERFORMANCE_REQUEST, ntddcdrm/CDROM_PERFORMANCE_REQUEST, ntddcdrm/PCDROM_PERFORMANCE_REQUEST, storage.cdrom_performance_request"
 ms.prod: windows-hardware
 ms.technology: windows-devices

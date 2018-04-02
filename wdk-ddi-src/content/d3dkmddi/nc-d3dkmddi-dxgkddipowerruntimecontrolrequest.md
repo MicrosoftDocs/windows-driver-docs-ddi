@@ -7,7 +7,7 @@ old-location: display\dxgkddipowerruntimecontrolrequest.htm
 old-project: display
 ms.assetid: 56535128-3107-4fb5-b0e1-2e913c386cc2
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DxgkDdiPowerRuntimeControlRequest, DxgkDdiPowerRuntimeControlRequest callback function [Display Devices], PDXGKDDIPOWERRUNTIMECONTROLREQUEST, d3dkmddi/DxgkDdiPowerRuntimeControlRequest, display.dxgkddipowerruntimecontrolrequest
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: storage\sm_removelink_out.htm
 old-project: storage
 ms.assetid: f3b82d62-8596-4bb9-b20b-39f232527d7a
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PSM_RemoveLink_OUT, PSM_RemoveLink_OUT, PSM_RemoveLink_OUT structure pointer [Storage Devices], SM_RemoveLink_OUT, SM_RemoveLink_OUT structure [Storage Devices], _SM_RemoveLink_OUT, hbapiwmi/PSM_RemoveLink_OUT, hbapiwmi/SM_RemoveLink_OUT, storage.sm_removelink_out, structs-Fibre_5355f5b8-47ea-4c71-880d-08891533bf29.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices

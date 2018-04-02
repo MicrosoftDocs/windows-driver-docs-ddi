@@ -7,7 +7,7 @@ old-location: display\d3dddiarg_presentsurface.htm
 old-project: display
 ms.assetid: 2104BF68-DF35-44DE-AD83-3026FF9314B4
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDIARG_PRESENTSURFACE, D3DDDIARG_PRESENTSURFACE structure [Display Devices], d3dumddi/D3DDDIARG_PRESENTSURFACE, display.d3dddiarg_presentsurface
 ms.prod: windows-hardware
 ms.technology: windows-devices

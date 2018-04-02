@@ -7,7 +7,7 @@ old-location: display\pfnd3dddi_submitcommandtohwqueuecb.htm
 old-project: display
 ms.assetid: 8E8B0FE6-ACE5-4610-A0F7-95D426A4AA97
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3DDDI_SUBMITCOMMANDTOHWQUEUECB, PFND3DDDI_SUBMITCOMMANDTOHWQUEUECB callback function [Display Devices], d3dumddi/PFND3DDDI_SUBMITCOMMANDTOHWQUEUECB, display.pfnd3dddi_submitcommandtohwqueuecb
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: buses\ucm_pd_power_data_object_init_ulong.htm
 old-project: usbref
 ms.assetid: F5520F9F-159E-42D9-A7F4-426CB935D29D
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: UCM_PD_POWER_DATA_OBJECT_INIT_ULONG, UCM_PD_POWER_DATA_OBJECT_INIT_ULONG function [Buses], buses.ucm_pd_power_data_object_init_ulong, ucmtypes/UCM_PD_POWER_DATA_OBJECT_INIT_ULONG
 ms.prod: windows-hardware
 ms.technology: windows-devices

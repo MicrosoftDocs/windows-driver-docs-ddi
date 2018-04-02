@@ -7,7 +7,7 @@ old-location: display\dxgkcbdestroycontextallocation.htm
 old-project: display
 ms.assetid: f613e019-0b6d-43fc-a802-a6cd3803a00d
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKCB_DESTROYCONTEXTALLOCATION, DxgkCbDestroyContextAllocation, DxgkCbDestroyContextAllocation callback function [Display Devices], d3dkmddi/DxgkCbDestroyContextAllocation, display.dxgkcbdestroycontextallocation
 ms.prod: windows-hardware
 ms.technology: windows-devices

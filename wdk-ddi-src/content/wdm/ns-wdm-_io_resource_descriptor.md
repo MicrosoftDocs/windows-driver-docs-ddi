@@ -661,6 +661,37 @@ The lower 32 bits of the 64-bit connection ID.
 The upper 32 bits of the 64-bit connection ID.
 
 
+##### - u.port
+
+Specifies a range of I/O port addresses, using the following members.
+
+Drivers for Windows Vista and later versions of the Windows operating system must use <a href="https://msdn.microsoft.com/library/windows/hardware/ff561950">RtlIoDecodeMemIoResource</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff561952">RtlIoEncodeMemIoResource</a> to read and update this member, rather than updating it directly.
+
+
+
+##### port.Length
+
+The length, in bytes, of the range of assignable I/O port addresses.
+
+
+
+##### port.Alignment
+
+The alignment, in bytes, that the assigned starting address must adhere to. The assigned starting address must be an integer multiple of <i>Alignment</i>. 
+
+
+
+##### port.MinimumAddress
+
+The minimum bus-relative I/O port address that can be assigned to the device.
+
+
+
+##### port.MaximumAddress
+
+The maximum bus-relative I/O port address that can be assigned to the device.
+
+
 ## -see-also
 
 

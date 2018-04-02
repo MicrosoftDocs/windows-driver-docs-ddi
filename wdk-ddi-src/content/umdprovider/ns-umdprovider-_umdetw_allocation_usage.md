@@ -7,7 +7,7 @@ old-location: display\umdetw_allocation_usage.htm
 old-project: display
 ms.assetid: 40522471-0fbc-4193-8164-60138e3862fe
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: UMDETW_ALLOCATION_USAGE, UMDETW_ALLOCATION_USAGE structure [Display Devices], _UMDETW_ALLOCATION_USAGE, display.umdetw_allocation_usage, umdprovider/UMDETW_ALLOCATION_USAGE
 ms.prod: windows-hardware
 ms.technology: windows-devices

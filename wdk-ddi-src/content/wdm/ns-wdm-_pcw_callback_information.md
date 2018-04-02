@@ -50,20 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The <b>PCW_CALLBACK_INFORMATION</b> union supplies details about the notification to send. A provider passes a pointer to this union as a parameter to the <a href="..\wdm\nc-wdm-pcw_callback.md">PcwCallback</a> function. 
-
-
-## -syntax
-
-
-````
-typedef union _PCW_CALLBACK_INFORMATION {
-  PCW_COUNTER_INFORMATION AddCounter;
-  PCW_COUNTER_INFORMATION RemoveCounter;
-  PCW_MASK_INFORMATION    EnumerateInstances;
-  PCW_MASK_INFORMATION    CollectData;
-} PCW_CALLBACK_INFORMATION, *PPCW_CALLBACK_INFORMATION;
-````
+The <b>PCW_CALLBACK_INFORMATION</b> union supplies details about the notification to send. A provider passes a pointer to this union as a parameter to the <a href="https://msdn.microsoft.com/5058fc17-1016-45bc-a6ea-5e2458824e7b">PcwCallback</a> function. 
 
 
 ## -struct-fields
@@ -93,17 +80,15 @@ The PCW_MASK_INFORMATION structure that identifies the instance of the counter s
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_pcw_counter_information.md">PCW_COUNTER_INFORMATION</a>
 
 
 
-<a href="..\wdm\ns-wdm-_pcw_mask_information.md">PCW_MASK_INFORMATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550341">PCW_COUNTER_INFORMATION</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550346">PCW_MASK_INFORMATION</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [devtest\devtest]:%20PCW_CALLBACK_INFORMATION union%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

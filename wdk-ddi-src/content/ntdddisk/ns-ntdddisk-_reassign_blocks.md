@@ -7,7 +7,7 @@ old-location: storage\reassign_blocks.htm
 old-project: storage
 ms.assetid: b79f15d8-b777-43dc-82b9-fcd1ba19aebd
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PREASSIGN_BLOCKS, PREASSIGN_BLOCKS, PREASSIGN_BLOCKS structure pointer [Storage Devices], REASSIGN_BLOCKS, REASSIGN_BLOCKS structure [Storage Devices], _REASSIGN_BLOCKS, ntdddisk/PREASSIGN_BLOCKS, ntdddisk/REASSIGN_BLOCKS, storage.reassign_blocks, structs-disk_dbe1fcc8-083e-41c4-8620-b216cdbecd34.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices

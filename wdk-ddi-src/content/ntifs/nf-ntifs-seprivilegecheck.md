@@ -7,7 +7,7 @@ old-location: ifsk\seprivilegecheck.htm
 old-project: ifsk
 ms.assetid: 707ced39-4153-4a6e-b87d-7e4eb487e738
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: SePrivilegeCheck, SePrivilegeCheck routine [Installable File System Drivers], ifsk.seprivilegecheck, ntifs/SePrivilegeCheck, seref_45aa3a8c-26b9-4bb9-968a-5f7d4a12ca3a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

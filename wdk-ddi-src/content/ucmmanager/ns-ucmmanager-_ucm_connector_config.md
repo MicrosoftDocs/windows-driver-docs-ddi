@@ -7,7 +7,7 @@ old-location: buses\ucm_connector_config.htm
 old-project: usbref
 ms.assetid: 8FE8B7E2-1CC0-4540-86D5-A09BA249D62A
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PUCM_CONNECTOR_CONFIG, PUCM_CONNECTOR_CONFIG, PUCM_CONNECTOR_CONFIG structure pointer [Buses], UCM_CONNECTOR_CONFIG, UCM_CONNECTOR_CONFIG structure [Buses], _UCM_CONNECTOR_CONFIG, buses.ucm_connector_config, ucmmanager/PUCM_CONNECTOR_CONFIG, ucmmanager/UCM_CONNECTOR_CONFIG"
 ms.prod: windows-hardware
 ms.technology: windows-devices

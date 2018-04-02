@@ -7,7 +7,7 @@ old-location: display\destroyelementlayout.htm
 old-project: display
 ms.assetid: 8b6a07b5-5358-45d3-af42-84f8a6327535
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DestroyElementLayout, DestroyElementLayout callback function [Display Devices], PFND3D10DDI_DESTROYELEMENTLAYOUT, UserModeDisplayDriverDx10_Functions_7d64849d-bfd1-489c-99d2-de9be6f04ab4.xml, d3d10umddi/DestroyElementLayout, display.destroyelementlayout
 ms.prod: windows-hardware
 ms.technology: windows-devices

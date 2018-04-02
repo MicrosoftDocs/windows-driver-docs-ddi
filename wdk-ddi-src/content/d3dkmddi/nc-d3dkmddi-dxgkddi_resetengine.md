@@ -7,7 +7,7 @@ old-location: display\dxgkddiresetengine.htm
 old-project: display
 ms.assetid: 9c2097b2-5742-422c-a650-7efff2484970
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKDDI_RESETENGINE, DxgkDdiResetEngine, DxgkDdiResetEngine callback function [Display Devices], d3dkmddi/DxgkDdiResetEngine, display.dxgkddiresetengine
 ms.prod: windows-hardware
 ms.technology: windows-devices

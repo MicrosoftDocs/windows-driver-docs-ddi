@@ -7,7 +7,7 @@ old-location: display\pfnd3d12ddi_video_processor_trim_allocations.htm
 old-project: display
 ms.assetid: 505B3502-FC2D-47FB-B8CD-3D7DE9ED4770
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3D12DDI_VIDEO_PROCESSOR_TRIM_ALLOCATIONS_0021, d3d12umddi/pfnProcessorTrimAllocations, display.pfnd3d12ddi_video_processor_trim_allocations, pfnProcessorTrimAllocations, pfnProcessorTrimAllocations callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices

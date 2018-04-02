@@ -7,7 +7,7 @@ old-location: buses\udecxusbendpointsetwdfioqueue.htm
 old-project: usbref
 ms.assetid: 48744342-9137-48F5-9071-528974DE6AD5
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: UdecxUsbEndpointSetWdfIoQueue, UdecxUsbEndpointSetWdfIoQueue function [Buses], buses.udecxusbendpointsetwdfioqueue, udecxusbendpoint/UdecxUsbEndpointSetWdfIoQueue
 ms.prod: windows-hardware
 ms.technology: windows-devices

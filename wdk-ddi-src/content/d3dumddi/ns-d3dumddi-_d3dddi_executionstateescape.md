@@ -7,7 +7,7 @@ old-location: display\d3dddi_executionstateescape.htm
 old-project: display
 ms.assetid: 9BA78743-91AA-4AAC-9FB3-CF8B30FC15AE
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDI_EXECUTIONSTATEESCAPE, D3DDDI_EXECUTIONSTATEESCAPE structure [Display Devices], _D3DDDI_EXECUTIONSTATEESCAPE, d3dumddi/D3DDDI_EXECUTIONSTATEESCAPE, display.d3dddi_executionstateescape
 ms.prod: windows-hardware
 ms.technology: windows-devices

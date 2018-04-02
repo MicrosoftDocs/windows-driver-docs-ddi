@@ -7,7 +7,7 @@ old-location: display\videoportdeleteevent.htm
 old-project: display
 ms.assetid: 0952f6ab-6d57-4ded-b167-74a7ace47961
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: VideoPortDeleteEvent, VideoPortDeleteEvent function [Display Devices], VideoPort_Functions_66e14d53-8a5e-4322-8576-4ac06230db31.xml, display.videoportdeleteevent, video/VideoPortDeleteEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices

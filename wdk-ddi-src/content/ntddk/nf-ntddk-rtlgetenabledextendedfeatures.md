@@ -44,7 +44,7 @@ api_name:
 -	RtlGetEnabledExtendedFeatures
 product: Windows
 targetos: Windows
-req.typenames: SUBSYSTEM_INFORMATION_TYPE, *PSUBSYSTEM_INFORMATION_TYPE
+req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
 
 # RtlGetEnabledExtendedFeatures function

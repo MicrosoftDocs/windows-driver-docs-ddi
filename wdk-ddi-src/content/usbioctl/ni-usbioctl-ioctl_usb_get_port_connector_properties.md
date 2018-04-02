@@ -7,7 +7,7 @@ old-location: buses\ioctl_usb_get_port_connector_properties.htm
 old-project: usbref
 ms.assetid: 23B2A4AF-1255-4332-83A9-EEEB0007B966
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_USB_GET_PORT_CONNECTOR_PROPERTIES, IOCTL_USB_GET_PORT_CONNECTOR_PROPERTIES control code [Buses], buses.ioctl_usb_get_port_connector_properties, usbioctl/IOCTL_USB_GET_PORT_CONNECTOR_PROPERTIES
 ms.prod: windows-hardware
 ms.technology: windows-devices

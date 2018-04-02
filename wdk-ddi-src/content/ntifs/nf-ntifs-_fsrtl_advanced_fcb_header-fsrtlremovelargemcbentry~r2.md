@@ -7,7 +7,7 @@ old-location: ifsk\fsrtlremovelargemcbentry.htm
 old-project: ifsk
 ms.assetid: c0608442-59ba-4431-94d5-7514555d0b4f
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FsRtlRemoveLargeMcbEntry, FsRtlRemoveLargeMcbEntry routine [Installable File System Drivers], fsrtlref_d80cc918-81da-4aae-b8ba-b2aea9519af3.xml, ifsk.fsrtlremovelargemcbentry, ntifs/FsRtlRemoveLargeMcbEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices

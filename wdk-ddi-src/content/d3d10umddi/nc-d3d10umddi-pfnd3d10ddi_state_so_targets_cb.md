@@ -7,7 +7,7 @@ old-location: display\pfnstatesotargetscb.htm
 old-project: display
 ms.assetid: 9000543b-00ab-4378-9fa5-d4fc7cb05b24
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3D10DDI_STATE_SO_TARGETS_CB, d3d10state_functions_2e8ad85a-3bec-41cd-9d43-40b98ffd0e9e.xml, d3d10umddi/pfnStateSoTargetsCb, display.pfnstatesotargetscb, pfnStateSoTargetsCb, pfnStateSoTargetsCb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: display\videoportreleasedevicelock.htm
 old-project: display
 ms.assetid: 932953c3-828f-4dcd-918e-5b3b5d8def1c
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: VideoPortReleaseDeviceLock, VideoPortReleaseDeviceLock function [Display Devices], VideoPort_Functions_509d905b-a70f-4932-975f-62d4c90c77b9.xml, display.videoportreleasedevicelock, video/VideoPortReleaseDeviceLock
 ms.prod: windows-hardware
 ms.technology: windows-devices

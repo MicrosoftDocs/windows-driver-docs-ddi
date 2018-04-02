@@ -7,7 +7,7 @@ old-location: display\pfnpresent1_d3d_.htm
 old-project: display
 ms.assetid: 8BB8E85F-B081-422E-ACE1-C2312BA28B9F
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3DDDI_PRESENT1, d3dumddi/pfnPresent1, display.pfnpresent1_d3d_, pfnPresent1, pfnPresent1 callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices

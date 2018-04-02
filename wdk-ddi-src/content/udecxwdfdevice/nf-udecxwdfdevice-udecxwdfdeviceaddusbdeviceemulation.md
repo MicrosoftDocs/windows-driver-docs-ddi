@@ -7,7 +7,7 @@ old-location: buses\udecxwdfdeviceaddusbdeviceemulation.htm
 old-project: usbref
 ms.assetid: EE7644A9-AA57-4C53-9FA5-F844F2BFB0D7
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: UdecxWdfDeviceAddUsbDeviceEmulation, UdecxWdfDeviceAddUsbDeviceEmulation function [Buses], buses.udecxwdfdeviceaddusbdeviceemulation, udecxwdfdevice/UdecxWdfDeviceAddUsbDeviceEmulation
 ms.prod: windows-hardware
 ms.technology: windows-devices

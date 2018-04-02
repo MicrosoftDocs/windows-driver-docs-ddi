@@ -7,7 +7,7 @@ old-location: dtf\iwdtfsystemaction2_powertracingend.htm
 old-project: dtf
 ms.assetid: d27678cb-8aad-4cbe-a65e-64828ff4944a
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 3/29/2018
 ms.keywords: IWDTFSystemAction2, IWDTFSystemAction2 interface [Windows Device Testing Framework], PowerTracingEnd method, IWDTFSystemAction2::PowerTracingEnd, Microsoft.WDTF.IWDTFSystemAction2.PowerTracingEnd, Microsoft::WDTF::IWDTFSystemAction2::PowerTracingEnd, PowerTracingEnd method [Windows Device Testing Framework], PowerTracingEnd method [Windows Device Testing Framework], IWDTFSystemAction2 interface, PowerTracingEnd,IWDTFSystemAction2.PowerTracingEnd, dtf.iwdtfsystemaction2_powertracingend, wdtfsystemaction/IWDTFSystemAction2::PowerTracingEnd
 ms.prod: windows-hardware
 ms.technology: windows-devices

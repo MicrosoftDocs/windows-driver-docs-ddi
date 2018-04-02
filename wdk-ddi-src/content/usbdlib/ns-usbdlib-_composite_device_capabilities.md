@@ -7,7 +7,7 @@ old-location: buses\composite_driver_capabilities.htm
 old-project: usbref
 ms.assetid: 3C1BF8C6-3489-4636-9B3F-B0C2C1327466
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PCOMPOSITE_DEVICE_CAPABILITIES, COMPOSITE_DEVICE_CAPABILITIES, COMPOSITE_DEVICE_CAPABILITIES structure [Buses], PCOMPOSITE_DEVICE_CAPABILITIES, PCOMPOSITE_DEVICE_CAPABILITIES structure pointer [Buses], _COMPOSITE_DEVICE_CAPABILITIES, buses.composite_driver_capabilities, usbdlib/COMPOSITE_DEVICE_CAPABILITIES, usbdlib/PCOMPOSITE_DEVICE_CAPABILITIES"
 ms.prod: windows-hardware
 ms.technology: windows-devices

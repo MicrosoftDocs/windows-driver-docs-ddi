@@ -7,7 +7,7 @@ old-location: display\d3dddiarg_createauthenticatedchannel.htm
 old-project: display
 ms.assetid: 00f8fbbc-1a4d-4cfe-8b87-fd70bf5a2d48
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDIARG_CREATEAUTHENTICATEDCHANNEL, D3DDDIARG_CREATEAUTHENTICATEDCHANNEL structure [Display Devices], UMDisplayDriver_param_Structs_3cdac44d-7cac-43f6-80f5-dd601183fa8b.xml, _D3DDDIARG_CREATEAUTHENICATEDCHANNEL, d3dumddi/D3DDDIARG_CREATEAUTHENTICATEDCHANNEL, display.d3dddiarg_createauthenticatedchannel
 ms.prod: windows-hardware
 ms.technology: windows-devices

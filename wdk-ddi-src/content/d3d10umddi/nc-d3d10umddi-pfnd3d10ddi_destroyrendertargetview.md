@@ -7,7 +7,7 @@ old-location: display\destroyrendertargetview.htm
 old-project: display
 ms.assetid: ec04fed3-8e43-4f76-af82-b36c7029f0cc
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DestroyRenderTargetView, DestroyRenderTargetView callback function [Display Devices], PFND3D10DDI_DESTROYRENDERTARGETVIEW, UserModeDisplayDriverDx10_Functions_a2c751c2-e384-4c1a-a634-97d7f3a581be.xml, d3d10umddi/DestroyRenderTargetView, display.destroyrendertargetview
 ms.prod: windows-hardware
 ms.technology: windows-devices

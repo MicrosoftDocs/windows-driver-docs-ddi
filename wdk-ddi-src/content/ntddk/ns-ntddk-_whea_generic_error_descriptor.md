@@ -52,26 +52,6 @@ req.typenames: WHEA_GENERIC_ERROR_DESCRIPTOR, *PWHEA_GENERIC_ERROR_DESCRIPTOR
 The WHEA_GENERIC_ERROR_DESCRIPTOR structure describes a generic error source.
 
 
-## -syntax
-
-
-````
-typedef struct _WHEA_GENERIC_ERROR_DESCRIPTOR {
-  USHORT                       Type;
-  UCHAR                        Reserved;
-  UCHAR                        Enabled;
-  ULONG                        ErrStatusBlockLength;
-  ULONG                        RelatedErrorSourceId;
-  UCHAR                        ErrStatusAddressSpaceID;
-  UCHAR                        ErrStatusAddressBitWidth;
-  UCHAR                        ErrStatusAddressBitOffset;
-  UCHAR                        ErrStatusAddressAccessSize;
-  WHEA_PHYSICAL_ADDRESS        ErrStatusAddress;
-  WHEA_NOTIFICATION_DESCRIPTOR Notify;
-} WHEA_GENERIC_ERROR_DESCRIPTOR, *PWHEA_GENERIC_ERROR_DESCRIPTOR;
-````
-
-
 ## -struct-fields
 
 
@@ -212,40 +192,38 @@ Quad word access
 
 ### -field ErrStatusAddress
 
-The 64-bit address of a register that contains the physical address of a block of memory that contains the error status data for the error source. This block of memory must reside in firmware reserved memory so that it is not reclaimed by the operating system's memory manager. The error status data contained in this block of memory is described by a <a href="..\ntddk\ns-ntddk-_whea_generic_error.md">WHEA_GENERIC_ERROR</a> structure.
+The 64-bit address of a register that contains the physical address of a block of memory that contains the error status data for the error source. This block of memory must reside in firmware reserved memory so that it is not reclaimed by the operating system's memory manager. The error status data contained in this block of memory is described by a <a href="https://msdn.microsoft.com/library/windows/hardware/ff560524">WHEA_GENERIC_ERROR</a> structure.
 
 
 ### -field Notify
 
-A <a href="..\ntddk\ns-ntddk-_whea_notification_descriptor.md">WHEA_NOTIFICATION_DESCRIPTOR</a> structure that describes the notification mechanism that is used by the error source.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff560574">WHEA_NOTIFICATION_DESCRIPTOR</a> structure that describes the notification mechanism that is used by the error source.
 
 
 ## -remarks
 
 
 
-A WHEA_GENERIC_ERROR_DESCRIPTOR structure is contained within the <a href="..\ntddk\ns-ntddk-_whea_error_source_descriptor.md">WHEA_ERROR_SOURCE_DESCRIPTOR</a> structure.
+A WHEA_GENERIC_ERROR_DESCRIPTOR structure is contained within the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560505">WHEA_ERROR_SOURCE_DESCRIPTOR</a> structure.
 
 
 
 
 ## -see-also
 
-<a href="..\ntddk\ns-ntddk-_whea_generic_error.md">WHEA_GENERIC_ERROR</a>
 
 
 
-<a href="..\ntddk\ns-ntddk-_whea_notification_descriptor.md">WHEA_NOTIFICATION_DESCRIPTOR</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560505">WHEA_ERROR_SOURCE_DESCRIPTOR</a>
 
 
 
-<a href="..\ntddk\ns-ntddk-_whea_error_source_descriptor.md">WHEA_ERROR_SOURCE_DESCRIPTOR</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560524">WHEA_GENERIC_ERROR</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560574">WHEA_NOTIFICATION_DESCRIPTOR</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [whea\whea]:%20WHEA_GENERIC_ERROR_DESCRIPTOR structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

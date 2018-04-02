@@ -7,7 +7,7 @@ old-location: display\hwvidinitialize.htm
 old-project: display
 ms.assetid: 0e43de21-59e5-4368-8ea2-34fa52e99950
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: HwVidInitialize, HwVidInitialize callback function [Display Devices], PVIDEO_HW_INITIALIZE, VideoMiniport_Functions_7c9d848d-8129-45cc-91f0-7f66f536e7a6.xml, display.hwvidinitialize, video/HwVidInitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices

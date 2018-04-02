@@ -7,7 +7,7 @@ old-location: ifsk\seunregisterlogonsessionterminatedroutine.htm
 old-project: ifsk
 ms.assetid: 74f24296-cd42-402b-a61f-0199c4a07fd0
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: SeUnregisterLogonSessionTerminatedRoutine, SeUnregisterLogonSessionTerminatedRoutine routine [Installable File System Drivers], ifsk.seunregisterlogonsessionterminatedroutine, ntifs/SeUnregisterLogonSessionTerminatedRoutine, seref_dbf0d7bc-c252-4805-99e1-075ce9e08ddc.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

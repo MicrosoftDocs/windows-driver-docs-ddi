@@ -7,7 +7,7 @@ old-location: netvista\wwan_auth_akap_response.htm
 old-project: netvista
 ms.assetid: 5BD4AC50-6029-41BE-A825-9290189F29B8
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*PWWAN_AUTH_AKAP_RESPONSE, PWWAN_AUTH_AKAP_RESPONSE, PWWAN_AUTH_AKAP_RESPONSE structure pointer [Network Drivers Starting with Windows Vista], WWAN_AUTH_AKAP_RESPONSE, WWAN_AUTH_AKAP_RESPONSE structure [Network Drivers Starting with Windows Vista], _WWAN_AUTH_AKAP_RESPONSE, netvista.wwan_auth_akap_response, wwan/PWWAN_AUTH_AKAP_RESPONSE, wwan/WWAN_AUTH_AKAP_RESPONSE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -124,8 +124,3 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/hh464129">WWAN_
 
  
 
-<<<<<<< HEAD
-=======
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20WWAN_AUTH_AKAP_RESPONSE structure%20 RELEASE:%20(2/27/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
-
->>>>>>> parent of 2d896a8e266... Added changes

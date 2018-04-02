@@ -7,7 +7,7 @@ old-location: buses\usb_bus_interface_usbdi_v1.htm
 old-project: usbref
 ms.assetid: 9c90c182-86ac-43e5-9e77-0ea2da76e6b9
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PUSB_BUS_INTERFACE_USBDI_V1, PUSB_BUS_INTERFACE_USBDI_V1, PUSB_BUS_INTERFACE_USBDI_V1 structure pointer [Buses], USB_BUS_INTERFACE_USBDI_V1, USB_BUS_INTERFACE_USBDI_V1 structure [Buses], _USB_BUS_INTERFACE_USBDI_V1, buses.usb_bus_interface_usbdi_v1, usbbusif/PUSB_BUS_INTERFACE_USBDI_V1, usbbusif/USB_BUS_INTERFACE_USBDI_V1, usbinterKR_baeecc46-78ee-409a-9017-b6e74b3340e0.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices

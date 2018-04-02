@@ -7,7 +7,7 @@ old-location: buses\evt_ufx_device_remote_wakeup_signal.htm
 old-project: usbref
 ms.assetid: A1250501-DC33-4AA8-8AD7-9938ECAC8AFB
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: EVT_UFX_DEVICE_REMOTE_WAKEUP_SIGNAL, EvtUfxDeviceRemoteWakeupSignal, EvtUfxDeviceRemoteWakeupSignal callback function [Buses], PFN_UFX_DEVICE_REMOTE_WAKEUP_SIGNAL, PFN_UFX_DEVICE_REMOTE_WAKEUP_SIGNAL callback function pointer [Buses], buses.evt_ufx_device_remote_wakeup_signal, ufxclient/EvtUfxDeviceRemoteWakeupSignal
 ms.prod: windows-hardware
 ms.technology: windows-devices

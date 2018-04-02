@@ -7,7 +7,7 @@ old-location: storage\storportgetdatainbuffersystemaddress.htm
 old-project: storage
 ms.assetid: 3FA48004-E96A-4ED7-935F-B7F58A74FB1F
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: StorPortGetDataInBufferSystemAddress, StorPortGetDataInBufferSystemAddress routine [Storage Devices], storage.storportgetdatainbuffersystemaddress, storport/StorPortGetDataInBufferSystemAddress
 ms.prod: windows-hardware
 ms.technology: windows-devices

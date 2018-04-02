@@ -7,7 +7,7 @@ old-location: display\dxgkarg_historybufferprecision.htm
 old-project: display
 ms.assetid: D55A8B5A-4133-4CE8-AD08-F551A3AEA42C
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKARG_HISTORYBUFFERPRECISION, DXGKARG_HISTORYBUFFERPRECISION structure [Display Devices], _DXGKARG_HISTORYBUFFERPRECISION, d3dkmddi/DXGKARG_HISTORYBUFFERPRECISION, display.dxgkarg_historybufferprecision
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: ifsk\refs_smr_volume_gc_parameters.htm
 old-project: ifsk
 ms.assetid: 78C8FFFE-8A80-4C92-B822-5C6675E2BC18
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: "*PREFS_SMR_VOLUME_GC_PARAMETERS, PREFS_SMR_VOLUME_GC_PARAMETERS, PREFS_SMR_VOLUME_GC_PARAMETERS structure pointer [Installable File System Drivers], REFS_SMR_VOLUME_GC_PARAMETERS, REFS_SMR_VOLUME_GC_PARAMETERS structure [Installable File System Drivers], _REFS_SMR_VOLUME_GC_PARAMETERS, ifsk.refs_smr_volume_gc_parameters, ntifs/PREFS_SMR_VOLUME_GC_PARAMETERS, ntifs/REFS_SMR_VOLUME_GC_PARAMETERS"
 ms.prod: windows-hardware
 ms.technology: windows-devices

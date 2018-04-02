@@ -7,7 +7,7 @@ old-location: ifsk\fltpreparecomplete.htm
 old-project: ifsk
 ms.assetid: 5b6322a3-3813-4ca8-a966-d6b8bddbe794
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FltApiRef_p_to_z_830f8ae7-b7b1-4c97-8415-9ba3f4f6c9ea.xml, FltPrepareComplete, FltPrepareComplete routine [Installable File System Drivers], fltkernel/FltPrepareComplete, ifsk.fltpreparecomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices

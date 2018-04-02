@@ -7,7 +7,7 @@ old-location: display\videoprocessorsetstreamlumakey.htm
 old-project: display
 ms.assetid: 1b5ca40d-1836-4c80-af55-8d20c6792445
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMLUMAKEY, d3d10umddi/pfnVideoProcessorSetStreamLumaKey, display.videoprocessorsetstreamlumakey, pfnVideoProcessorSetStreamLumaKey, pfnVideoProcessorSetStreamLumaKey callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices

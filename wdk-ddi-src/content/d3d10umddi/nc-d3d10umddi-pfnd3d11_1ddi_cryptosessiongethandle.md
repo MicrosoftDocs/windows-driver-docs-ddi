@@ -7,7 +7,7 @@ old-location: display\cryptosessiongethandle.htm
 old-project: display
 ms.assetid: 30700af0-79e8-4808-bec8-94f5e5152bcc
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: CryptoSessionGetHandle, CryptoSessionGetHandle callback function [Display Devices], PFND3D11_1DDI_CRYPTOSESSIONGETHANDLE, d3d10umddi/CryptoSessionGetHandle, display.cryptosessiongethandle
 ms.prod: windows-hardware
 ms.technology: windows-devices

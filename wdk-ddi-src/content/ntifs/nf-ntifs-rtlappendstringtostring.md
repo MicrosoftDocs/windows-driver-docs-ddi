@@ -7,7 +7,7 @@ old-location: ifsk\rtlappendstringtostring.htm
 old-project: ifsk
 ms.assetid: 8cd94502-c11a-4e6a-87f6-0c6034b6ac09
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: RtlAppendStringToString, RtlAppendStringToString routine [Installable File System Drivers], ifsk.rtlappendstringtostring, ntifs/RtlAppendStringToString, rtlref_a5cf2f54-1094-44ea-8b05-0c3d08aa5abc.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: display\destroyvideoprocessdevice.htm
 old-project: display
 ms.assetid: dc0f8dba-afdd-47f4-ba7f-72c510e80052
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DestroyVideoProcessDevice, DestroyVideoProcessDevice callback function [Display Devices], PFND3DDDI_DESTROYVIDEOPROCESSDEVICE, UserModeDisplayDriver_Functions_a10d05fa-387f-469f-b516-17378f2bd655.xml, d3dumddi/DestroyVideoProcessDevice, display.destroyvideoprocessdevice
 ms.prod: windows-hardware
 ms.technology: windows-devices

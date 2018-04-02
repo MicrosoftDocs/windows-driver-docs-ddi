@@ -7,7 +7,7 @@ old-location: display\drawindexedprimitive.htm
 old-project: display
 ms.assetid: 12bb6274-d042-43bb-b9f5-1417f42da729
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DrawIndexedPrimitive, DrawIndexedPrimitive callback function [Display Devices], PFND3DDDI_DRAWINDEXEDPRIMITIVE, UserModeDisplayDriver_Functions_427fa7b5-5b52-4314-b097-aea6d27cb535.xml, d3dumddi/DrawIndexedPrimitive, display.drawindexedprimitive
 ms.prod: windows-hardware
 ms.technology: windows-devices

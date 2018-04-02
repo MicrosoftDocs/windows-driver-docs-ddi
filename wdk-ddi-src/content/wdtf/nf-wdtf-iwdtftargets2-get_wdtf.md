@@ -7,7 +7,7 @@ old-location: dtf\iwdtftargets2_wdtf.htm
 old-project: dtf
 ms.assetid: 1f936c5d-fb1b-4c31-84dc-f246bb0fb453
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 3/29/2018
 ms.keywords: IWDTFTargets2, IWDTFTargets2 interface [Windows Device Testing Framework], WDTF property, IWDTFTargets2.WDTF, IWDTFTargets2::get_WDTF, Microsoft.WDTF.IWDTFTargets2.WDTF, Microsoft::WDTF::IWDTFTargets2::WDTF, WDTF property [Windows Device Testing Framework], WDTF property [Windows Device Testing Framework], IWDTFTargets2 interface, dtf.iwdtftargets2_wdtf, get_WDTF,IWDTFTargets2.get_WDTF, wdtf/IWDTFTargets2::WDTF, wdtf/IWDTFTargets2::get_WDTF
 ms.prod: windows-hardware
 ms.technology: windows-devices

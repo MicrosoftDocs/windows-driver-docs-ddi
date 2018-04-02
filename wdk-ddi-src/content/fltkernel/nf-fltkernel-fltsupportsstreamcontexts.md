@@ -7,7 +7,7 @@ old-location: ifsk\fltsupportsstreamcontexts.htm
 old-project: ifsk
 ms.assetid: ea1fd4d5-85c6-40ce-9feb-a2c22e9fe905
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FltApiRef_p_to_z_a2e2c9ac-1dc0-44cf-b8f0-172ca931a450.xml, FltSupportsStreamContexts, FltSupportsStreamContexts function [Installable File System Drivers], fltkernel/FltSupportsStreamContexts, ifsk.fltsupportsstreamcontexts
 ms.prod: windows-hardware
 ms.technology: windows-devices

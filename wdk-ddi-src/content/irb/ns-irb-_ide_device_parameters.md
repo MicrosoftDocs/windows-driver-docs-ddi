@@ -7,7 +7,7 @@ old-location: storage\ide_device_parameters.htm
 old-project: storage
 ms.assetid: e2b908ce-df40-4d64-b8fd-77da18b4f6bd
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PIDE_DEVICE_PARAMETERS, IDE_DEVICE_PARAMETERS, IDE_DEVICE_PARAMETERS structure [Storage Devices], PIDE_DEVICE_PARAMETERS, PIDE_DEVICE_PARAMETERS structure pointer [Storage Devices], _IDE_DEVICE_PARAMETERS, irb/IDE_DEVICE_PARAMETERS, irb/PIDE_DEVICE_PARAMETERS, storage.ide_device_parameters, structs-ATA_6cc8412c-2ce1-4261-91db-bc986a6836ff.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices

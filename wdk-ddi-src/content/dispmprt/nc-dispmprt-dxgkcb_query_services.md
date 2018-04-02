@@ -7,7 +7,7 @@ old-location: display\dxgkcbqueryservices.htm
 old-project: display
 ms.assetid: 0ce5df90-2019-4a92-97d6-0218acc8b1e8
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKCB_QUERY_SERVICES, DpFunctions_1bf190e2-3bfc-4ea9-942a-502ec71fa362.xml, DxgkCbQueryServices, DxgkCbQueryServices callback function [Display Devices], display.dxgkcbqueryservices, dispmprt/DxgkCbQueryServices
 ms.prod: windows-hardware
 ms.technology: windows-devices

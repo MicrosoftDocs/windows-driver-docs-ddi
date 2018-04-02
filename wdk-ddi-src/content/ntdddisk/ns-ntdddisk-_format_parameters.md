@@ -7,7 +7,7 @@ old-location: storage\format_parameters.htm
 old-project: storage
 ms.assetid: 9c92e010-35d7-40ff-8025-51e945861b9c
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PFORMAT_PARAMETERS, FORMAT_PARAMETERS, FORMAT_PARAMETERS structure [Storage Devices], PFORMAT_PARAMETERS, PFORMAT_PARAMETERS structure pointer [Storage Devices], _FORMAT_PARAMETERS, ntdddisk/FORMAT_PARAMETERS, ntdddisk/PFORMAT_PARAMETERS, storage.format_parameters, structs-disk_063eb997-3411-4101-9cde-4417647eb53f.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: display\setblendstate.htm
 old-project: display
 ms.assetid: 8794413f-f4d5-4382-8886-2f0659d8a781
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3D10DDI_SETBLENDSTATE, SetBlendState, SetBlendState callback function [Display Devices], UserModeDisplayDriverDx10_Functions_11dcf032-7cd6-497e-985d-548960276981.xml, d3d10umddi/SetBlendState, display.setblendstate
 ms.prod: windows-hardware
 ms.technology: windows-devices

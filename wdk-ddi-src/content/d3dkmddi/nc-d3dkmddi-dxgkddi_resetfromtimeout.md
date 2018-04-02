@@ -7,7 +7,7 @@ old-location: display\dxgkddiresetfromtimeout.htm
 old-project: display
 ms.assetid: b9bfc801-33f6-4911-ab7d-8e3c99a5e2e9
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKDDI_RESETFROMTIMEOUT, DmFunctions_de82b888-dc3d-40b6-a3c3-360254efb972.xml, DxgkDdiResetFromTimeout, DxgkDdiResetFromTimeout callback function [Display Devices], d3dkmddi/DxgkDdiResetFromTimeout, display.dxgkddiresetfromtimeout
 ms.prod: windows-hardware
 ms.technology: windows-devices

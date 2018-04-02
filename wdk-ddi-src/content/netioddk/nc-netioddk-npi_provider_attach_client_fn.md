@@ -7,7 +7,7 @@ old-location: netvista\providerattachclient.htm
 old-project: netvista
 ms.assetid: 6c8e6cf1-0528-4da2-acc1-81ec9dbc23c3
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: NPI_PROVIDER_ATTACH_CLIENT_FN, PNPI_PROVIDER_ATTACH_CLIENT_FN, PNPI_PROVIDER_ATTACH_CLIENT_FN callback function [Network Drivers Starting with Windows Vista], ProviderAttachClient, ProviderAttachClient callback function [Network Drivers Starting with Windows Vista], netioddk/ProviderAttachClient, netvista.providerattachclient, nmrref_7b693216-cb96-4608-aae0-77ddde6dc28c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -273,8 +273,3 @@ The NMR calls a provider module's
 
  
 
-<<<<<<< HEAD
-=======
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NPI_PROVIDER_ATTACH_CLIENT_FN callback function%20 RELEASE:%20(2/27/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
-
->>>>>>> parent of 2d896a8e266... Added changes

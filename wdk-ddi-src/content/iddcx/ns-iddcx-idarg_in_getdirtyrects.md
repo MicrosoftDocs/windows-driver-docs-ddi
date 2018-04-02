@@ -7,7 +7,7 @@ old-location: display\idarg_in_getdirtyrects.htm
 old-project: display
 ms.assetid: 78a216c7-b208-49fb-bb8e-6758b3cb13ad
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: IDARG_IN_GETDIRTYRECTS, IDARG_IN_GETDIRTYRECTS structure [Display Devices], display.idarg_in_getdirtyrects, iddcx/IDARG_IN_GETDIRTYRECTS
 ms.prod: windows-hardware
 ms.technology: windows-devices

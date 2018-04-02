@@ -7,7 +7,7 @@ old-location: display\dxgk_multiplane_overlay_attributes.htm
 old-project: display
 ms.assetid: 1f48a08f-138c-44b4-b13f-efa9b448ce4f
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES, DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES structure [Display Devices], _DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES, d3dkmddi/DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES, display.dxgk_multiplane_overlay_attributes
 ms.prod: windows-hardware
 ms.technology: windows-devices

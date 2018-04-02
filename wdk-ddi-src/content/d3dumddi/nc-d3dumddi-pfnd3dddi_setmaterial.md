@@ -7,7 +7,7 @@ old-location: display\setmaterial.htm
 old-project: display
 ms.assetid: e1273478-a450-44fa-95d5-ee86cb3a46b2
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3DDDI_SETMATERIAL, SetMaterial, SetMaterial callback function [Display Devices], UserModeDisplayDriver_Functions_004e812d-4be5-4222-9a29-e206e17a2fa1.xml, d3dumddi/SetMaterial, display.setmaterial
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: buses\evt_ucx_roothub_get_info.htm
 old-project: usbref
 ms.assetid: b882b401-f806-4334-a8c5-fa65382fb9d3
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: EVT_UCX_ROOTHUB_GET_INFO, EvtUcxRootHubGetInfo, EvtUcxRootHubGetInfo callback function [Buses], PEVT_UCX_ROOTHUB_GET_INFO, PEVT_UCX_ROOTHUB_GET_INFO callback function pointer [Buses], buses.evt_ucx_roothub_get_info, ucxroothub/EvtUcxRootHubGetInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

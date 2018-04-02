@@ -85,11 +85,7 @@ Support for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff5
 
 
 
-<<<<<<< HEAD
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565842">KSPROPERTY_TUNER_IF_MEDIUM</a>
-=======
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567800">PROPSETID_TUNER</a>
->>>>>>> parent of 2d896a8e266... Added changes
 
 
 

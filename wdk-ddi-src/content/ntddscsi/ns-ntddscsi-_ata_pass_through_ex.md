@@ -7,7 +7,7 @@ old-location: storage\ata_pass_through_ex.htm
 old-project: storage
 ms.assetid: 76d8f5be-0011-4a7c-ac21-7115ad7e1155
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PATA_PASS_THROUGH_EX, ATA_PASS_THROUGH_EX, ATA_PASS_THROUGH_EX structure [Storage Devices], PATA_PASS_THROUGH_EX, PATA_PASS_THROUGH_EX structure pointer [Storage Devices], _ATA_PASS_THROUGH_EX, ntddscsi/ATA_PASS_THROUGH_EX, ntddscsi/PATA_PASS_THROUGH_EX, storage.ata_pass_through_ex, structs-IDE_72cc1a49-a438-40cb-b4b5-8ec7c87669f8.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices

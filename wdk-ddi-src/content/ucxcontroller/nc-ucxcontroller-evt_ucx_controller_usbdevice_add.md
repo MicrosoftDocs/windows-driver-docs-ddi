@@ -7,7 +7,7 @@ old-location: buses\evt_ucx_controller_usbdevice_add.htm
 old-project: usbref
 ms.assetid: 0f89b57a-3374-4f40-88b5-43d233ba0e47
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: EVT_UCX_CONTROLLER_USBDEVICE_ADD, EvtUcxControllerUsbDeviceAdd, EvtUcxControllerUsbDeviceAdd callback function [Buses], PEVT_UCX_CONTROLLER_USBDEVICE_ADD, PEVT_UCX_CONTROLLER_USBDEVICE_ADD callback function pointer [Buses], buses.evt_ucx_controller_usbdevice_add, ucxcontroller/EvtUcxControllerUsbDeviceAdd
 ms.prod: windows-hardware
 ms.technology: windows-devices

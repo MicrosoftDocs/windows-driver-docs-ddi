@@ -7,7 +7,7 @@ old-location: storage\hba_getportattributesbywwn.htm
 old-project: storage
 ms.assetid: 79d63b5e-78b0-452a-aa84-695c59a7d4a5
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: HBA_GetPortAttributesByWWN, HBA_GetPortAttributesByWWN routine [Storage Devices], fibreHBA_rtns_2cd8e0da-90d5-41bb-8bd9-ab2ee26ec772.xml, hbaapi/HBA_GetPortAttributesByWWN, storage.hba_getportattributesbywwn
 ms.prod: windows-hardware
 ms.technology: windows-devices

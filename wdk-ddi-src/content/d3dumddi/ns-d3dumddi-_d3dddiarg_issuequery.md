@@ -7,7 +7,7 @@ old-location: display\d3dddiarg_issuequery.htm
 old-project: display
 ms.assetid: af52d1a3-b537-48d2-ab57-3f798ec83c98
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDIARG_ISSUEQUERY, D3DDDIARG_ISSUEQUERY structure [Display Devices], UMDisplayDriver_param_Structs_3fb59dbc-e5de-4d14-9d4b-25934e4e3ded.xml, _D3DDDIARG_ISSUEQUERY, d3dumddi/D3DDDIARG_ISSUEQUERY, display.d3dddiarg_issuequery
 ms.prod: windows-hardware
 ms.technology: windows-devices

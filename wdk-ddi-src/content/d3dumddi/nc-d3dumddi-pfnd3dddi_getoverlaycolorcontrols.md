@@ -7,7 +7,7 @@ old-location: display\getoverlaycolorcontrols.htm
 old-project: display
 ms.assetid: 23b15bb5-4394-406b-8869-f9d1e4e2b539
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: GetOverlayColorControls, GetOverlayColorControls callback function [Display Devices], PFND3DDDI_GETOVERLAYCOLORCONTROLS, UserModeDisplayDriver_Functions_b50c3637-892b-4cc9-ad9a-97feeeb649fc.xml, d3dumddi/GetOverlayColorControls, display.getoverlaycolorcontrols
 ms.prod: windows-hardware
 ms.technology: windows-devices

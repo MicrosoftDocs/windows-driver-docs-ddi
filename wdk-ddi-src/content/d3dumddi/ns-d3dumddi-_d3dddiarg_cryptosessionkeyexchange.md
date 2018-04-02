@@ -7,7 +7,7 @@ old-location: display\d3dddiarg_cryptosessionkeyexchange.htm
 old-project: display
 ms.assetid: 45ff38bf-7640-4b7c-ab26-ae758c9b4696
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDIARG_CRYPTOSESSIONKEYEXCHANGE, D3DDDIARG_CRYPTOSESSIONKEYEXCHANGE structure [Display Devices], UMDisplayDriver_param_Structs_80a0e3f6-7fa5-444f-9eeb-505a6632af8d.xml, _D3DDDIARG_CRYPTOSESSIONKEYEXCHANGE, d3dumddi/D3DDDIARG_CRYPTOSESSIONKEYEXCHANGE, display.d3dddiarg_cryptosessionkeyexchange
 ms.prod: windows-hardware
 ms.technology: windows-devices

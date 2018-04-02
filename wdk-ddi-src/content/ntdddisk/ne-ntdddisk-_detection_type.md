@@ -7,7 +7,7 @@ old-location: storage\detection_type.htm
 old-project: storage
 ms.assetid: 3257a207-dd7e-4321-b037-95d62cea6f76
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DETECTION_TYPE, DETECTION_TYPE enumeration [Storage Devices], DetectExInt13, DetectInt13, DetectNone, _DETECTION_TYPE, ntdddisk/DETECTION_TYPE, ntdddisk/DetectExInt13, ntdddisk/DetectInt13, ntdddisk/DetectNone, storage.detection_type, structs-disk_2d3d7a57-abcd-43b2-a62d-8b8c45a9fca0.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

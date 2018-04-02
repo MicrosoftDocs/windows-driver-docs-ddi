@@ -7,7 +7,7 @@ old-location: ifsk\rxunregisterminirdr.htm
 old-project: ifsk
 ms.assetid: 090e5fc5-a0cf-4df2-b9b9-abaf4833aef7
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: RxUnregisterMinirdr, RxUnregisterMinirdr routine [Installable File System Drivers], ifsk.rxunregisterminirdr, rxref_5c58f656-5d6a-46db-9c7e-f3331e48a66a.xml, rxstruc/RxUnregisterMinirdr
 ms.prod: windows-hardware
 ms.technology: windows-devices

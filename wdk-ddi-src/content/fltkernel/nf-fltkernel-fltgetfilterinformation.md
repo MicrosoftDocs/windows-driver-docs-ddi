@@ -7,7 +7,7 @@ old-location: ifsk\fltgetfilterinformation.htm
 old-project: ifsk
 ms.assetid: d3ffe93c-4fe8-4a2e-9448-8488d2ff909e
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FltApiRef_e_to_o_96d634cd-87a8-49a8-a34b-ad2a1352c677.xml, FltGetFilterInformation, FltGetFilterInformation routine [Installable File System Drivers], fltkernel/FltGetFilterInformation, ifsk.fltgetfilterinformation
 ms.prod: windows-hardware
 ms.technology: windows-devices

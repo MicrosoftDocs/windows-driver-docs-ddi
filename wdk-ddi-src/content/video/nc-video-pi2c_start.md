@@ -7,7 +7,7 @@ old-location: display\i2cstart.htm
 old-project: display
 ms.assetid: 90f0a38d-f50e-4da0-b98f-2f3068f03b2e
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: I2CStart, I2CStart callback function [Display Devices], PI2C_START, VideoPort_Functions_287e51cf-dce0-47c5-b743-c6fb401bb74e.xml, display.i2cstart, video/I2CStart
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: buses\evt_ufx_device_host_connect.htm
 old-project: usbref
 ms.assetid: 8F38C4EC-08BD-4CEF-97AB-B282ECC19627
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: EVT_UFX_DEVICE_HOST_CONNECT, EvtUfxDeviceHostConnect, EvtUfxDeviceHostConnect callback function [Buses], PFN_UFX_DEVICE_HOST_CONNECT, PFN_UFX_DEVICE_HOST_CONNECT callback function pointer [Buses], buses.evt_ufx_device_host_connect, ufxclient/EvtUfxDeviceHostConnect
 ms.prod: windows-hardware
 ms.technology: windows-devices

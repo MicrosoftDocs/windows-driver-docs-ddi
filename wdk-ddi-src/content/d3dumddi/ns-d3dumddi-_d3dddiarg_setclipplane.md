@@ -7,7 +7,7 @@ old-location: display\d3dddiarg_setclipplane.htm
 old-project: display
 ms.assetid: 94e942a4-de66-47a3-89bf-fbec2a408775
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDIARG_SETCLIPPLANE, D3DDDIARG_SETCLIPPLANE structure [Display Devices], UMDisplayDriver_param_Structs_3371265a-3cb5-4aee-b019-14ef454e9d6d.xml, _D3DDDIARG_SETCLIPPLANE, d3dumddi/D3DDDIARG_SETCLIPPLANE, display.d3dddiarg_setclipplane
 ms.prod: windows-hardware
 ms.technology: windows-devices

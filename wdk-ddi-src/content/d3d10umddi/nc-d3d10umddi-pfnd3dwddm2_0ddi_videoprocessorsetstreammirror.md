@@ -7,7 +7,7 @@ old-location: display\videoprocessorsetstreammirror.htm
 old-project: display
 ms.assetid: 945BD212-7B48-41FD-B11F-FB03DB073BD4
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3DWDDM2_0DDI_VIDEOPROCESSORSETSTREAMMIRROR, d3d10umddi/pfnVideoProcessorSetStreamMirror, display.videoprocessorsetstreammirror, pfnVideoProcessorSetStreamMirror, pfnVideoProcessorSetStreamMirror callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices

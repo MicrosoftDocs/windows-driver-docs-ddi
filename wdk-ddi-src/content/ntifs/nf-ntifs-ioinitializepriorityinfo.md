@@ -7,7 +7,7 @@ old-location: ifsk\ioinitializepriorityinfo.htm
 old-project: ifsk
 ms.assetid: 21aa5850-1984-4ab8-8e7c-3028fc87680b
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: IoInitializePriorityInfo, IoInitializePriorityInfo routine [Installable File System Drivers], ifsk.ioinitializepriorityinfo, ioref_65eef333-11a8-4603-9b64-dc317f3d4e7b.xml, ntifs/IoInitializePriorityInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

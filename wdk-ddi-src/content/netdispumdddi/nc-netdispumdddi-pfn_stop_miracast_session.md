@@ -7,7 +7,7 @@ old-location: display\stopmiracastsession.htm
 old-project: display
 ms.assetid: ab9ad8ee-9390-41a4-9a69-2e98579b2b77
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFN_STOP_MIRACAST_SESSION, StopMiracastSession, StopMiracastSession callback function [Display Devices], display.stopmiracastsession, netdispumdddi/StopMiracastSession
 ms.prod: windows-hardware
 ms.technology: windows-devices

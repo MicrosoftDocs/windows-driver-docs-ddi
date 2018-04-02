@@ -7,7 +7,7 @@ old-location: storage\ioctl_cdrom_get_performance.htm
 old-project: storage
 ms.assetid: 3BA2D85A-052B-4851-B31C-072F2872F3FE
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_CDROM_GET_PERFORMANCE, IOCTL_CDROM_GET_PERFORMANCE control code [Storage Devices], ntddcdrm/IOCTL_CDROM_GET_PERFORMANCE, storage.ioctl_cdrom_get_performance
 ms.prod: windows-hardware
 ms.technology: windows-devices

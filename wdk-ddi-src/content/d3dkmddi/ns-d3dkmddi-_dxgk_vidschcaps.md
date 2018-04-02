@@ -7,7 +7,7 @@ old-location: display\dxgk_vidschcaps.htm
 old-project: display
 ms.assetid: 714741b5-aec1-4d79-8199-00e8d97e6637
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGK_VIDSCHCAPS, DXGK_VIDSCHCAPS structure [Display Devices], DmStructs_01f721e4-8585-46b1-a911-9fa904a29f7e.xml, _DXGK_VIDSCHCAPS, d3dkmddi/DXGK_VIDSCHCAPS, display.dxgk_vidschcaps
 ms.prod: windows-hardware
 ms.technology: windows-devices

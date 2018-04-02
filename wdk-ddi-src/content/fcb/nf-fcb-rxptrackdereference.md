@@ -7,7 +7,7 @@ old-location: ifsk\rxptrackdereference.htm
 old-project: ifsk
 ms.assetid: eaff92d2-d866-4096-8528-0672255ced60
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: RxpTrackDereference, RxpTrackDereference function [Installable File System Drivers], fcb/RxpTrackDereference, ifsk.rxptrackdereference, rxref_60f3cce5-bd6b-47b9-a6cc-85b5ee027934.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

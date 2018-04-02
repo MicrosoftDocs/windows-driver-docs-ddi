@@ -52,16 +52,6 @@ req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 The <b>PshedAllocateMemory</b> function allocates a block of memory from the nonpaged pool.
 
 
-## -syntax
-
-
-````
-PVOID PshedAllocateMemory(
-  _In_ ULONG Size
-);
-````
-
-
 ## -parameters
 
 
@@ -85,20 +75,18 @@ The size, in bytes, of the block of memory being allocated.
 
 
 
-A PSHED plug-in calls the <b>PshedAllocateMemory</b> function to allocate a block of memory. When the PSHED plug-in is done using the allocated block of memory, it calls the <a href="..\ntddk\nf-ntddk-pshedfreememory.md">PshedFreeMemory</a> function to free the memory.
+A PSHED plug-in calls the <b>PshedAllocateMemory</b> function to allocate a block of memory. When the PSHED plug-in is done using the allocated block of memory, it calls the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559463">PshedFreeMemory</a> function to free the memory.
 
 
 
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-pshedfreememory.md">PshedFreeMemory</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559463">PshedFreeMemory</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [whea\whea]:%20PshedAllocateMemory function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

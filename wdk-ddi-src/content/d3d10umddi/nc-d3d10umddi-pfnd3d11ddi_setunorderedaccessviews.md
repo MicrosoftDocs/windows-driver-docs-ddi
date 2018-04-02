@@ -7,7 +7,7 @@ old-location: display\cssetunorderedaccessviews.htm
 old-project: display
 ms.assetid: ab8c529b-19e2-4a2a-af68-0e3998829788
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: CsSetUnorderedAccessViews, CsSetUnorderedAccessViews callback function [Display Devices], PFND3D11DDI_SETUNORDEREDACCESSVIEWS, UserModeDisplayDriverDx11_Functions_2e3d1f2b-5113-4cbe-afa8-11f4caf88859.xml, d3d10umddi/CsSetUnorderedAccessViews, display.cssetunorderedaccessviews
 ms.prod: windows-hardware
 ms.technology: windows-devices

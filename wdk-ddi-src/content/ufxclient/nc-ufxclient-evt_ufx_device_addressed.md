@@ -7,7 +7,7 @@ old-location: buses\evt_ufx_device_addressed.htm
 old-project: usbref
 ms.assetid: 99120A01-4674-465A-BA75-58F1871BB820
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: EVT_UFX_DEVICE_ADDRESSED, EvtUfxDeviceAddressed, EvtUfxDeviceAddressed callback function [Buses], PFN_UFX_DEVICE_ADDRESSED, PFN_UFX_DEVICE_ADDRESSED callback function pointer [Buses], buses.evt_ufx_device_addressed, ufxclient/EvtUfxDeviceAddressed
 ms.prod: windows-hardware
 ms.technology: windows-devices

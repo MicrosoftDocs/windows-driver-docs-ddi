@@ -7,7 +7,7 @@ old-location: display\dxgk_vidpn_interface_pfncreatenewtargetmodeset.htm
 old-project: display
 ms.assetid: c52935b4-306f-4200-80d9-0cfab6998450
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKDDI_VIDPN_CREATENEWTARGETMODESET, VidPnFunctions_5bdc542e-e774-434b-a634-84ca5ed07d8d.xml, d3dkmddi/pfnCreateNewTargetModeSet, display.dxgk_vidpn_interface_pfncreatenewtargetmodeset, pfnCreateNewTargetModeSet, pfnCreateNewTargetModeSet callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices

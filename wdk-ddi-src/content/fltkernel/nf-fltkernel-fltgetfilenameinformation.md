@@ -7,7 +7,7 @@ old-location: ifsk\fltgetfilenameinformation.htm
 old-project: ifsk
 ms.assetid: 707e7e83-31d8-46cf-a2ef-e53a20edaeff
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FltApiRef_e_to_o_1ce08fd0-5e23-43de-b012-dd71086282ea.xml, FltGetFileNameInformation, FltGetFileNameInformation routine [Installable File System Drivers], fltkernel/FltGetFileNameInformation, ifsk.fltgetfilenameinformation
 ms.prod: windows-hardware
 ms.technology: windows-devices

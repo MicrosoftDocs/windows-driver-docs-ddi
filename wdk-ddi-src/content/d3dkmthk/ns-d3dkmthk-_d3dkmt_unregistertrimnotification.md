@@ -7,7 +7,7 @@ old-location: display\d3dkmt_unregistertrimnotification.htm
 old-project: display
 ms.assetid: 336C5C6A-619B-4D28-9F06-A09CABF78073
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMT_UNREGISTERTRIMNOTIFICATION, D3DKMT_UNREGISTERTRIMNOTIFICATION structure [Display Devices], _D3DKMT_UNREGISTERTRIMNOTIFICATION, d3dkmthk/D3DKMT_UNREGISTERTRIMNOTIFICATION, display.d3dkmt_unregistertrimnotification
 ms.prod: windows-hardware
 ms.technology: windows-devices

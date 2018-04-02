@@ -7,7 +7,7 @@ old-location: display\dxgkddiqueryvidpnhwcapability.htm
 old-project: display
 ms.assetid: 41af9528-4497-41aa-a65d-70352aa85f8c
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKDDI_QUERYVIDPNHWCAPABILITY, DmFunctions_2e9dffd4-d8af-49f9-86d4-7a67e18df2dc.xml, DxgkDdiQueryVidPnHWCapability, DxgkDdiQueryVidPnHWCapability callback function [Display Devices], d3dkmddi/DxgkDdiQueryVidPnHWCapability, display.dxgkddiqueryvidpnhwcapability
 ms.prod: windows-hardware
 ms.technology: windows-devices

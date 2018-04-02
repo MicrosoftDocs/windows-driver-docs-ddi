@@ -7,7 +7,7 @@ old-location: display\d3dkmt_openadapterfromdevicename.htm
 old-project: display
 ms.assetid: 4e633c7c-fd88-4b8f-9d29-2c7a3daa3d32
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMT_OPENADAPTERFROMDEVICENAME, D3DKMT_OPENADAPTERFROMDEVICENAME structure [Display Devices], OpenGL_Structs_f710fec6-a0f4-4b86-b4ba-5f8411deb490.xml, _D3DKMT_OPENADAPTERFROMDEVICENAME, d3dkmthk/D3DKMT_OPENADAPTERFROMDEVICENAME, display.d3dkmt_openadapterfromdevicename
 ms.prod: windows-hardware
 ms.technology: windows-devices

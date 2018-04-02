@@ -7,7 +7,7 @@ old-location: dtf\iwdtfaction2_enableobjecterrorlogging.htm
 old-project: dtf
 ms.assetid: 684e3c82-65f1-43fd-858a-461760dcaa8d
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 3/29/2018
 ms.keywords: EnableObjectErrorLogging method [Windows Device Testing Framework], EnableObjectErrorLogging method [Windows Device Testing Framework], IWDTFAction2 interface, EnableObjectErrorLogging,IWDTFAction2.EnableObjectErrorLogging, IWDTFAction2, IWDTFAction2 interface [Windows Device Testing Framework], EnableObjectErrorLogging method, IWDTFAction2::EnableObjectErrorLogging, Microsoft.WDTF.IWDTFAction2.EnableObjectErrorLogging, Microsoft::WDTF::IWDTFAction2::EnableObjectErrorLogging, dtf.iwdtfaction2_enableobjecterrorlogging, wdtf/IWDTFAction2::EnableObjectErrorLogging
 ms.prod: windows-hardware
 ms.technology: windows-devices

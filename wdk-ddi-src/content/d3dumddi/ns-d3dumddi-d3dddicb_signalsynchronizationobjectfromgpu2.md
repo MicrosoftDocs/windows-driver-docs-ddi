@@ -7,7 +7,7 @@ old-location: display\d3dddicb_signalsynchronizationobjectfromgpu2.htm
 old-project: display
 ms.assetid: 077BFCCB-4963-40CF-B56E-EAA08681ED5F
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMGPU2, D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMGPU2 structure [Display Devices], d3dumddi/D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMGPU2, display.d3dddicb_signalsynchronizationobjectfromgpu2
 ms.prod: windows-hardware
 ms.technology: windows-devices

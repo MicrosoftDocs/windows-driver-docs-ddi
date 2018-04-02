@@ -7,7 +7,7 @@ old-location: display\getcapturehandle.htm
 old-project: display
 ms.assetid: b1ca7cf0-fe63-452f-8360-fdba05875719
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: GetCaptureHandle, GetCaptureHandle callback function [Display Devices], PFND3D11_1DDI_GETCAPTUREHANDLE, d3d10umddi/GetCaptureHandle, display.getcapturehandle
 ms.prod: windows-hardware
 ms.technology: windows-devices

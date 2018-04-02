@@ -7,7 +7,7 @@ old-location: display\svgahwioportushort.htm
 old-project: display
 ms.assetid: 304656b4-ebbe-4cb1-8735-2e03bec71f9f
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PDRIVER_IO_PORT_USHORT, SvgaHwIoPortUshort, SvgaHwIoPortUshort callback function [Display Devices], VideoMiniport_Functions_756e549c-fadc-49ae-b356-c94893809e01.xml, display.svgahwioportushort, video/SvgaHwIoPortUshort
 ms.prod: windows-hardware
 ms.technology: windows-devices

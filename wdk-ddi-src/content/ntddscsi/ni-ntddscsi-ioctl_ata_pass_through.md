@@ -7,7 +7,7 @@ old-location: storage\ioctl_ata_pass_through.htm
 old-project: storage
 ms.assetid: 350d9777-18d7-412a-ab60-1e17070a12af
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_ATA_PASS_THROUGH, IOCTL_ATA_PASS_THROUGH control code [Storage Devices], k307_e93738e1-b773-452b-8776-854f9c616967.xml, ntddscsi/IOCTL_ATA_PASS_THROUGH, storage.ioctl_ata_pass_through
 ms.prod: windows-hardware
 ms.technology: windows-devices

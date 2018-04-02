@@ -7,7 +7,7 @@ old-location: display\dxgkddimiracastiocontrol.htm
 old-project: display
 ms.assetid: 83E817C3-A30D-4597-A490-C4FB93A78FCE
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKDDI_MIRACAST_HANDLE_IO_CONTROL, DxgkDdiMiracastIoControl, DxgkDdiMiracastIoControl callback function [Display Devices], display.dxgkddimiracastiocontrol, dispmprt/DxgkDdiMiracastIoControl
 ms.prod: windows-hardware
 ms.technology: windows-devices

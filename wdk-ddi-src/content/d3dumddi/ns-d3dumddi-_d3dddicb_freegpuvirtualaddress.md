@@ -7,7 +7,7 @@ old-location: display\d3dddicb_freegpuvirtualaddress.htm
 old-project: display
 ms.assetid: 5E11C1BB-7E9E-4D9C-A15A-B9CCB29622C3
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDICB_FREEGPUVIRTUALADDRESS, D3DDDICB_FREEGPUVIRTUALADDRESS structure [Display Devices], _D3DDDICB_FREEGPUVIRTUALADDRESS, d3dumddi/D3DDDICB_FREEGPUVIRTUALADDRESS, display.d3dddicb_freegpuvirtualaddress
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: buses\ufxdevicecreate.htm
 old-project: usbref
 ms.assetid: BA86280E-8324-4D98-B16C-504D427A6A4B
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: UfxDeviceCreate, UfxDeviceCreate method [Buses], buses.ufxdevicecreate, ufxclient/UfxDeviceCreate
 ms.prod: windows-hardware
 ms.technology: windows-devices

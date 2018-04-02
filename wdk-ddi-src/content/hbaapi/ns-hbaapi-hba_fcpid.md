@@ -7,7 +7,7 @@ old-location: storage\hba_fcpid.htm
 old-project: storage
 ms.assetid: fed2c733-5011-4dba-a8ec-3a0742574949
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PHBA_FCPID, HBA_FCPID, HBA_FcpId, HBA_FcpId structure [Storage Devices], hbaapi/HBA_FcpId, storage.hba_fcpid, structs-Fibre_55770ec7-2c28-4db3-b2bb-20f50e232ba4.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices

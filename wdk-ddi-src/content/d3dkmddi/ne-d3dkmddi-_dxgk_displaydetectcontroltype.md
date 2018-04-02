@@ -7,7 +7,7 @@ old-location: display\dxgk_displaydetectcontroltype.htm
 old-project: display
 ms.assetid: D777342E-439E-4BEF-9DCC-7962B1AF8EAB
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGK_DDCT_DISABLEHPD, DXGK_DDCT_ENABLEHPD, DXGK_DDCT_POLLALL, DXGK_DDCT_POLLONE, DXGK_DDCT_UNINITIALIZED, DXGK_DISPLAYDETECTCONTROLTYPE, DXGK_DISPLAYDETECTCONTROLTYPE enumeration [Display Devices], _DXGK_DISPLAYDETECTCONTROLTYPE, d3dkmddi/DXGK_DDCT_DISABLEHPD, d3dkmddi/DXGK_DDCT_ENABLEHPD, d3dkmddi/DXGK_DDCT_POLLALL, d3dkmddi/DXGK_DDCT_POLLONE, d3dkmddi/DXGK_DDCT_UNINITIALIZED, d3dkmddi/DXGK_DISPLAYDETECTCONTROLTYPE, display.dxgk_displaydetectcontroltype
 ms.prod: windows-hardware
 ms.technology: windows-devices

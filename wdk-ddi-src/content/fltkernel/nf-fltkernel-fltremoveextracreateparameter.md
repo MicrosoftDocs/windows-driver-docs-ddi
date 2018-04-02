@@ -7,7 +7,7 @@ old-location: ifsk\fltremoveextracreateparameter.htm
 old-project: ifsk
 ms.assetid: 924e9108-f0cf-4202-905c-04a27c15dfa3
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FltApiRef_p_to_z_696787f2-1381-451f-aed4-bf307ee58291.xml, FltRemoveExtraCreateParameter, FltRemoveExtraCreateParameter routine [Installable File System Drivers], fltkernel/FltRemoveExtraCreateParameter, ifsk.fltremoveextracreateparameter
 ms.prod: windows-hardware
 ms.technology: windows-devices

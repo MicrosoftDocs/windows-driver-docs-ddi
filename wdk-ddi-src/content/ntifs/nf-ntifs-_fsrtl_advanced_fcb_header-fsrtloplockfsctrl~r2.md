@@ -7,7 +7,7 @@ old-location: ifsk\fsrtloplockfsctrl.htm
 old-project: ifsk
 ms.assetid: e456189e-9513-47a7-b5b0-384b531dbda9
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FsRtlOplockFsctrl, FsRtlOplockFsctrl function [Installable File System Drivers], fsrtlref_74e6bade-f196-4117-9e94-c33776c4f9cd.xml, ifsk.fsrtloplockfsctrl, ntifs/FsRtlOplockFsctrl
 ms.prod: windows-hardware
 ms.technology: windows-devices

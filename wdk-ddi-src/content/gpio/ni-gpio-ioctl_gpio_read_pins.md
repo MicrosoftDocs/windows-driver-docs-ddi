@@ -40,7 +40,7 @@ api_name:
 -	IOCTL_GPIO_READ_PINS
 product: Windows
 targetos: Windows
-req.typenames: FWPS_CONNECT_REQUEST0
+req.typenames: GNSS_V2UPL_NI_INFO, *PGNSS_V2UPL_NI_INFO
 ---
 
 # IOCTL_GPIO_READ_PINS IOCTL

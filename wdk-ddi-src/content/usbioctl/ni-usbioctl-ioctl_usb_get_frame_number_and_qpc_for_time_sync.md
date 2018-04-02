@@ -7,7 +7,7 @@ old-location: buses\_ioctl_usb_get_frame_number_and_qpc_for_time_sync.htm
 old-project: usbref
 ms.assetid: 701A7ED2-F35F-4B6B-BC91-ADCF60E294D2
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_USB_GET_FRAME_NUMBER_AND_QPC_FOR_TIME_SYNC, IOCTL_USB_GET_FRAME_NUMBER_AND_QPC_FOR_TIME_SYNC control code [Buses], buses._ioctl_usb_get_frame_number_and_qpc_for_time_sync, usbioctl/ IOCTL_USB_GET_FRAME_NUMBER_AND_QPC_FOR_TIME_SYNC
 ms.prod: windows-hardware
 ms.technology: windows-devices
